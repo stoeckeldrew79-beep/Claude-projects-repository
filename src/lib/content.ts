@@ -56,14 +56,14 @@ export const services: Service[] = [
     name: "AI Business Solutions",
     tagline: "Put AI to work inside your business, not just on your website",
     description:
-      "Beyond the website — we help you automate the busywork: intake forms that write themselves up, AI-assisted quoting, internal knowledge assistants, and workflow automation tailored to how your business actually runs.",
+      "Beyond the website — we help you automate the busywork: intake forms that write themselves up, AI-assisted quoting, internal knowledge assistants, and workflow automation tailored to how your business actually runs. Start with a fixed-fee assessment, then move to a monthly managed plan if it's a fit.",
     features: [
       "Workflow & process automation audits",
       "Custom AI tools for quoting, scheduling, or reporting",
       "Internal knowledge-base assistants",
       "Ongoing strategy as AI tools evolve",
     ],
-    startingAt: "Custom quote",
+    startingAt: "$500 assessment",
   },
 ];
 
@@ -117,28 +117,64 @@ export const websiteTiers: PricingTier[] = [
   },
 ];
 
+export const aiTiers: PricingTier[] = [
+  {
+    name: "AI Readiness Assessment",
+    price: "$500",
+    description: "A fixed-fee starting point — we find exactly where AI can save your business time and money.",
+    features: [
+      "Review of your current workflows & tools",
+      "3-5 concrete AI opportunities, ranked by impact",
+      "Plain-English report, no jargon",
+      "No obligation to continue",
+    ],
+  },
+  {
+    name: "Chatbot Launch",
+    price: "$900",
+    description: "A trained AI chatbot live on your website, qualifying leads and answering questions from day one.",
+    features: [
+      "Trained on your business's own information",
+      "Lead qualification & appointment booking",
+      "Live handoff to a human when needed",
+      "Launch in as little as 2 weeks",
+    ],
+    highlighted: true,
+  },
+  {
+    name: "Managed AI Partner",
+    price: "$1,000",
+    cadence: "/mo",
+    description: "Ongoing monitoring, tuning, and new automations as your business and AI tools both grow.",
+    features: [
+      "Chatbot & automation monitoring",
+      "Monthly performance review",
+      "New automations added over time",
+      "No long-term contract",
+    ],
+  },
+];
+
 export const addOns = [
   { name: "Logo & Brand Identity", price: "from $600" },
-  { name: "AI Chatbot Integration", price: "from $900" },
-  { name: "Monthly Care Plan (updates, hosting, support)", price: "from $99/mo" },
-  { name: "AI Business Automation Consulting", price: "custom quote" },
+  { name: "Monthly Website Care Plan (updates, hosting, support)", price: "from $99/mo" },
 ];
 
 export const differentiators = [
   {
-    title: "Built AI-first",
+    title: "One team for all four",
     description:
-      "We don't bolt AI on as an afterthought — chatbots and automation are part of the core build, not a separate vendor you have to coordinate.",
+      "In Orlando today, web/brand studios don't do AI, and AI consultants don't do web or brand — so most businesses juggle two vendors. Pipertown builds all four together, as one system.",
   },
   {
     title: "Transparent pricing",
     description:
-      "Real starting prices, published up front. No \"contact us for a quote\" games before you even know if we're in your budget.",
+      "Real starting prices for every service, published up front — website, brand, chatbot, and AI consulting alike. No \"contact us for a quote\" games before you even know if we're in your budget.",
   },
   {
-    title: "One team, one vision",
+    title: "AI priced for local businesses",
     description:
-      "Your website, brand, and AI tools are designed together so they look and work like they came from the same company — because they did.",
+      "Our AI services are priced for Orlando small businesses, not enterprise consulting budgets — starting at a $500 assessment, not a five-figure engagement.",
   },
   {
     title: "Local roots, national reach",

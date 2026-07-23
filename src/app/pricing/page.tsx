@@ -1,7 +1,8 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { ArrowRight, CheckCircle2 } from "lucide-react";
-import { websiteTiers, addOns } from "@/lib/content";
+import { ArrowRight } from "lucide-react";
+import { websiteTiers, aiTiers, addOns } from "@/lib/content";
+import PricingCard from "@/components/PricingCard";
 
 export const metadata: Metadata = {
   title: "Pricing | Pipertown Studios",
@@ -19,8 +20,9 @@ export default function PricingPage() {
           </h1>
           <p className="mx-auto mt-5 max-w-2xl text-muted">
             No games, no &quot;call us for pricing.&quot; Here are real
-            starting prices — your final quote depends on scope, and we&apos;ll
-            always confirm it before any work begins.
+            starting prices for every service we offer — your final quote
+            depends on scope, and we&apos;ll always confirm it before any
+            work begins.
           </p>
         </div>
       </section>
@@ -31,48 +33,29 @@ export default function PricingPage() {
         </h2>
         <div className="mt-10 grid gap-6 lg:grid-cols-3">
           {websiteTiers.map((tier) => (
-            <div
-              key={tier.name}
-              className={`rounded-2xl border p-8 ${
-                tier.highlighted
-                  ? "border-accent bg-gradient-to-b from-accent/10 to-transparent"
-                  : "border-border bg-background-elevated"
-              }`}
-            >
-              {tier.highlighted && (
-                <span className="mb-4 inline-block rounded-full bg-accent px-3 py-1 text-xs font-medium text-white">
-                  Most Popular
-                </span>
-              )}
-              <h3 className="text-lg font-semibold">{tier.name}</h3>
-              <p className="mt-2 text-3xl font-semibold tracking-tight">
-                {tier.price}
-              </p>
-              <p className="mt-3 text-sm text-muted">{tier.description}</p>
-              <ul className="mt-6 space-y-3">
-                {tier.features.map((feature) => (
-                  <li key={feature} className="flex items-start gap-2 text-sm">
-                    <CheckCircle2 className="mt-0.5 h-4 w-4 shrink-0 text-accent-2" />
-                    {feature}
-                  </li>
-                ))}
-              </ul>
-              <Link
-                href="/contact"
-                className={`mt-8 inline-flex w-full items-center justify-center gap-2 rounded-full px-5 py-2.5 text-sm font-medium transition-opacity hover:opacity-90 ${
-                  tier.highlighted
-                    ? "bg-foreground text-background"
-                    : "border border-border text-foreground"
-                }`}
-              >
-                Get Started <ArrowRight className="h-4 w-4" />
-              </Link>
-            </div>
+            <PricingCard key={tier.name} tier={tier} />
           ))}
         </div>
       </section>
 
       <section className="border-t border-border bg-background-elevated/50">
+        <div className="mx-auto max-w-6xl px-6 py-20">
+          <h2 className="text-center text-2xl font-semibold tracking-tight">
+            AI Services
+          </h2>
+          <p className="mx-auto mt-4 max-w-2xl text-center text-sm text-muted">
+            Priced for growing local businesses, not enterprise consulting
+            budgets — start small and scale up as it proves its value.
+          </p>
+          <div className="mt-10 grid gap-6 lg:grid-cols-3">
+            {aiTiers.map((tier) => (
+              <PricingCard key={tier.name} tier={tier} />
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="border-t border-border">
         <div className="mx-auto max-w-4xl px-6 py-20">
           <h2 className="text-center text-2xl font-semibold tracking-tight">
             Add-Ons & Other Services
@@ -91,8 +74,9 @@ export default function PricingPage() {
             ))}
           </div>
           <p className="mt-6 text-center text-sm text-muted">
-            AI Business Solutions are scoped individually based on your
-            workflows — every quote starts with a free consultation.
+            Bundling a website with a logo & brand identity or an AI chatbot
+            saves you more than booking them separately — ask us for a
+            bundled quote.
           </p>
         </div>
       </section>
