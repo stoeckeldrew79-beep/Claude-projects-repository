@@ -5,26 +5,24 @@ import type { PricingTier } from "@/lib/content";
 export default function PricingCard({ tier }: { tier: PricingTier }) {
   return (
     <div
-      className={`rounded-2xl border p-8 ${
+      className={`relative flex h-full flex-col rounded-sm border p-8 ${
         tier.highlighted
-          ? "border-accent bg-gradient-to-b from-accent/10 to-transparent"
-          : "border-border bg-background-elevated"
+          ? "border-accent/60 bg-gradient-to-b from-accent/[0.08] to-transparent"
+          : "border-border bg-background-elevated/40"
       }`}
     >
       {tier.highlighted && (
-        <span className="mb-4 inline-block rounded-full bg-accent px-3 py-1 text-xs font-medium text-white">
-          Most Popular
-        </span>
+        <span className="text-eyebrow mb-4 text-accent-2">Most Popular</span>
       )}
       <h3 className="text-lg font-semibold">{tier.name}</h3>
-      <p className="mt-2 text-3xl font-semibold tracking-tight">
+      <p className="mt-2 text-4xl font-semibold tracking-tight">
         {tier.price}
         {tier.cadence && (
           <span className="text-base font-normal text-muted">{tier.cadence}</span>
         )}
       </p>
       <p className="mt-3 text-sm text-muted">{tier.description}</p>
-      <ul className="mt-6 space-y-3">
+      <ul className="mt-6 flex-1 space-y-3">
         {tier.features.map((feature) => (
           <li key={feature} className="flex items-start gap-2 text-sm">
             <CheckCircle2 className="mt-0.5 h-4 w-4 shrink-0 text-accent-2" />
@@ -37,7 +35,7 @@ export default function PricingCard({ tier }: { tier: PricingTier }) {
         className={`mt-8 inline-flex w-full items-center justify-center gap-2 rounded-full px-5 py-2.5 text-sm font-medium transition-opacity hover:opacity-90 ${
           tier.highlighted
             ? "bg-foreground text-background"
-            : "border border-border text-foreground"
+            : "border border-border-strong text-foreground"
         }`}
       >
         Get Started <ArrowRight className="h-4 w-4" />

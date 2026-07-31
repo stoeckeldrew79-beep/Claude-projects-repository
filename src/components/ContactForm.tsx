@@ -30,7 +30,7 @@ export default function ContactForm() {
             id="name"
             name="name"
             required
-            className="mt-1.5 w-full rounded-lg border border-border bg-background-elevated px-4 py-2.5 text-sm outline-none focus:border-accent"
+            className="mt-1.5 w-full rounded-sm border border-border bg-background-elevated px-4 py-2.5 text-sm outline-none focus:border-accent"
           />
         </div>
         <div>
@@ -40,7 +40,7 @@ export default function ContactForm() {
           <input
             id="business"
             name="business"
-            className="mt-1.5 w-full rounded-lg border border-border bg-background-elevated px-4 py-2.5 text-sm outline-none focus:border-accent"
+            className="mt-1.5 w-full rounded-sm border border-border bg-background-elevated px-4 py-2.5 text-sm outline-none focus:border-accent"
           />
         </div>
       </div>
@@ -54,7 +54,7 @@ export default function ContactForm() {
           name="email"
           type="email"
           required
-          className="mt-1.5 w-full rounded-lg border border-border bg-background-elevated px-4 py-2.5 text-sm outline-none focus:border-accent"
+          className="mt-1.5 w-full rounded-sm border border-border bg-background-elevated px-4 py-2.5 text-sm outline-none focus:border-accent"
         />
       </div>
 
@@ -67,7 +67,7 @@ export default function ContactForm() {
           name="service"
           value={service}
           onChange={(e) => setService(e.target.value)}
-          className="mt-1.5 w-full rounded-lg border border-border bg-background-elevated px-4 py-2.5 text-sm outline-none focus:border-accent"
+          className="mt-1.5 w-full rounded-sm border border-border bg-background-elevated px-4 py-2.5 text-sm outline-none focus:border-accent"
         >
           {services.map((s) => (
             <option key={s} value={s}>
@@ -86,7 +86,7 @@ export default function ContactForm() {
           name="message"
           rows={5}
           required
-          className="mt-1.5 w-full rounded-lg border border-border bg-background-elevated px-4 py-2.5 text-sm outline-none focus:border-accent"
+          className="mt-1.5 w-full rounded-sm border border-border bg-background-elevated px-4 py-2.5 text-sm outline-none focus:border-accent"
         />
       </div>
 
