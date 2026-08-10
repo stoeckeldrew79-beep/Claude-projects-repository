@@ -1,11 +1,12 @@
 import { Router } from 'express';
 import * as scamsController from '../controllers/scams';
 import { requireAuth, requireRole } from '../middleware/auth';
+import { requireSubscriber } from '../middleware/subscription';
 
 const router = Router();
 
 router.get('/search', scamsController.search);
-router.get('/nearby', requireAuth, scamsController.nearby);
+router.get('/nearby', requireAuth, requireSubscriber, scamsController.nearby);
 router.get('/', scamsController.list);
 router.get('/:slug', scamsController.getBySlug);
 router.post('/', requireAuth, requireRole('admin'), scamsController.create);

@@ -15,6 +15,11 @@ const app = express();
 
 app.use(helmet());
 app.use(cors({ origin: process.env.FRONTEND_URL ?? '*' }));
+
+// Stripe webhook signatures are computed over the raw body, so this route
+// must see it unparsed. Registered before express.json() — body-parser
+// skips re-parsing a body a prior middleware already consumed.
+app.use('/v1/subscriptions/webhook', express.raw({ type: 'application/json' }));
 app.use(express.json());
 app.use(publicApiLimiter);
 

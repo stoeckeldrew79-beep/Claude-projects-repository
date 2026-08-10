@@ -1,33 +1,48 @@
 import { Response } from 'express';
 import { AuthedRequest } from '../middleware/auth';
-import { pool } from '../db/connection';
+import * as SubscriptionsModel from '../models/subscriptions';
+import * as UsersModel from '../models/users';
 import * as stripeService from '../services/stripe';
-
-// Real Stripe wiring lands in Phase 2 (spec section 5.1). These handlers
-// define the API surface and DB reads/writes; stripeService is a stub
-// until STRIPE_SECRET_KEY is configured.
+import { SubscriptionTier, TIER_PRICE_ENV } from '../config/stripePrices';
 
 export async function checkout(req: AuthedRequest, res: Response) {
-  const { priceId } = req.body as { priceId?: string };
-  if (!priceId) return res.status(400).json({ error: 'priceId is required' });
-  const session = await stripeService.createCheckoutSession(req.user!.id, priceId);
-  res.json({ data: session });
+  const { tier } = req.body as { tier?: SubscriptionTier };
+  if (!tier || !(tier in TIER_PRICE_ENV)) {
+    return res.status(400).json({ error: `tier must be one of: ${Object.keys(TIER_PRICE_ENV).join(', ')}` });
+  }
+  const session = await stripeService.createCheckoutSession(req.user!.id, tier);
+  res.json({ data: { url: session.url } });
 }
 
 export async function portal(req: AuthedRequest, res: Response) {
-  const session = await stripeService.createPortalSession(req.user!.id);
-  res.json({ data: session });
+  const user = await UsersModel.getUserById(req.user!.id);
+  if (!user?.stripe_customer_id) {
+    return res.status(400).json({ error: 'No billing account on file yet — subscribe first' });
+  }
+  const session = await stripeService.createPortalSession(user.stripe_customer_id);
+  res.json({ data: { url: session.url } });
 }
 
+// Mounted with express.raw() in index.ts so req.body is the raw Buffer
+// Stripe's signature check requires.
 export async function webhook(req: AuthedRequest, res: Response) {
-  await stripeService.handleWebhookEvent(req.body);
+  const signature = req.headers['stripe-signature'];
+  if (typeof signature !== 'string') {
+    return res.status(400).json({ error: 'Missing stripe-signature header' });
+  }
+
+  let event;
+  try {
+    event = stripeService.constructWebhookEvent(req.body as Buffer, signature);
+  } catch (err) {
+    return res.status(400).json({ error: `Webhook signature verification failed: ${(err as Error).message}` });
+  }
+
+  await stripeService.handleWebhookEvent(event);
   res.status(200).json({ received: true });
 }
 
 export async function status(req: AuthedRequest, res: Response) {
-  const { rows } = await pool.query(
-    'SELECT * FROM subscriptions WHERE user_id = $1 ORDER BY created_at DESC LIMIT 1',
-    [req.user!.id]
-  );
-  res.json({ data: rows[0] ?? null });
+  const subscription = await SubscriptionsModel.latestForUser(req.user!.id);
+  res.json({ data: subscription });
 }

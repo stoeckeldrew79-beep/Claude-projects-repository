@@ -1,28 +1,50 @@
-// Pricing table + Stripe Checkout — full implementation lands in Phase 2
-// (spec section 5.1) once STRIPE_PRICE_* env vars are configured.
-const TIERS = [
-  { name: 'Basic', price: '$4/mo', features: ['Monthly digest email', 'Full database access'] },
-  { name: 'Pro', price: '$9/mo', features: ['Everything in Basic', 'Real-time email alerts'] },
-  { name: 'Family', price: '$15/mo', features: ['Everything in Pro', 'Up to 5 members', 'SMS alerts'] },
-  { name: 'Business', price: '$49/mo', features: ['Everything in Family', 'API access', 'Priority support'] },
+import { useCheckout } from '../hooks/useSubscription';
+import { SubscriptionTier } from '../services/subscriptions';
+
+const TIERS: { tier: SubscriptionTier; name: string; price: string; features: string[] }[] = [
+  { tier: 'basic', name: 'Basic', price: '$4/mo', features: ['Monthly digest email', 'Full database access'] },
+  { tier: 'pro', name: 'Pro', price: '$9/mo', features: ['Everything in Basic', 'Real-time email alerts'] },
+  {
+    tier: 'family',
+    name: 'Family',
+    price: '$15/mo',
+    features: ['Everything in Pro', 'Up to 5 members', 'SMS alerts'],
+  },
+  {
+    tier: 'business',
+    name: 'Business',
+    price: '$49/mo',
+    features: ['Everything in Family', 'API access', 'Priority support'],
+  },
 ];
 
 export default function Subscribe() {
+  const checkout = useCheckout();
+
   return (
     <div className="max-w-5xl mx-auto px-4 py-10">
       <h1 className="text-2xl font-bold text-slate-900 mb-6">Choose your plan</h1>
+      {checkout.isError && (
+        <p className="mb-4 text-sm text-red-700 bg-red-50 border border-red-200 rounded-md px-3 py-2">
+          Couldn't start checkout. Please sign in and try again.
+        </p>
+      )}
       <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-        {TIERS.map((tier) => (
-          <div key={tier.name} className="rounded-lg border border-slate-200 p-5">
-            <h2 className="font-semibold text-slate-900">{tier.name}</h2>
-            <p className="text-2xl font-bold mt-1">{tier.price}</p>
+        {TIERS.map((t) => (
+          <div key={t.tier} className="rounded-lg border border-slate-200 p-5">
+            <h2 className="font-semibold text-slate-900">{t.name}</h2>
+            <p className="text-2xl font-bold mt-1">{t.price}</p>
             <ul className="mt-4 space-y-1 text-sm text-slate-600">
-              {tier.features.map((f) => (
+              {t.features.map((f) => (
                 <li key={f}>{f}</li>
               ))}
             </ul>
-            <button className="mt-5 w-full py-2 rounded-md bg-slate-900 text-white text-sm font-medium">
-              Subscribe
+            <button
+              onClick={() => checkout.mutate(t.tier)}
+              disabled={checkout.isPending}
+              className="mt-5 w-full py-2 rounded-md bg-slate-900 text-white text-sm font-medium disabled:opacity-50"
+            >
+              {checkout.isPending && checkout.variables === t.tier ? 'Redirecting…' : 'Subscribe'}
             </button>
           </div>
         ))}
