@@ -49,10 +49,25 @@ export async function setSmsOptIn(id: string, optIn: boolean) {
 }
 
 // Users to notify for a given alert — matches spec 5.2's targeting rule.
-export async function usersForAlert(params: { state?: string; zip?: string; nationwide: boolean }) {
+// SMS is a Family/Business-tier feature per the pricing table (section 6);
+// email real-time alerts are Pro and above (Basic is digest-only, handled
+// separately by a periodic job, not this real-time broadcast).
+export async function usersForAlertSms(params: { state?: string; zip?: string; nationwide: boolean }) {
   const { rows } = await pool.query(
     `SELECT id, phone FROM users
      WHERE sms_opt_in = true AND is_active = true
+       AND subscription_tier IN ('family', 'business')
+       AND ($3 = true OR state = $1 OR zip_code = $2)`,
+    [params.state ?? null, params.zip ?? null, params.nationwide]
+  );
+  return rows;
+}
+
+export async function usersForAlertEmail(params: { state?: string; zip?: string; nationwide: boolean }) {
+  const { rows } = await pool.query(
+    `SELECT id, email FROM users
+     WHERE email_opt_in = true AND is_active = true
+       AND subscription_tier IN ('pro', 'family', 'business')
        AND ($3 = true OR state = $1 OR zip_code = $2)`,
     [params.state ?? null, params.zip ?? null, params.nationwide]
   );

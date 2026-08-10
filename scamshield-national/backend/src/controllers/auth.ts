@@ -1,7 +1,7 @@
-import { Response } from 'express';
 import jwt from 'jsonwebtoken';
 import { AuthedRequest } from '../middleware/auth';
 import * as UsersModel from '../models/users';
+import { asyncHandler } from '../utils/asyncHandler';
 
 // Dev-mode auth: issues a JWT directly against the local users table.
 // Phase 2 replaces this with real Auth0/Supabase login (JWKS-verified
@@ -13,7 +13,7 @@ function issueToken(user: { id: string }) {
   return jwt.sign({ sub: user.id, role: 'user' }, secret, { expiresIn: '7d' });
 }
 
-export async function register(req: AuthedRequest, res: Response) {
+export const register = asyncHandler<AuthedRequest>(async (req, res) => {
   const { email } = req.body as { email?: string };
   if (!email) return res.status(400).json({ error: 'email is required' });
 
@@ -22,9 +22,9 @@ export async function register(req: AuthedRequest, res: Response) {
 
   const user = await UsersModel.createUser({ authProviderId: email, email });
   res.status(201).json({ data: user, token: issueToken(user) });
-}
+});
 
-export async function login(req: AuthedRequest, res: Response) {
+export const login = asyncHandler<AuthedRequest>(async (req, res) => {
   const { email } = req.body as { email?: string };
   if (!email) return res.status(400).json({ error: 'email is required' });
 
@@ -32,4 +32,4 @@ export async function login(req: AuthedRequest, res: Response) {
   if (!user) return res.status(401).json({ error: 'Invalid credentials' });
 
   res.json({ data: user, token: issueToken(user) });
-}
+});

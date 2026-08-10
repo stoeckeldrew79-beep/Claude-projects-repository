@@ -1,21 +1,21 @@
-import { Response } from 'express';
 import { AuthedRequest } from '../middleware/auth';
 import { pool } from '../db/connection';
+import { asyncHandler } from '../utils/asyncHandler';
 
-export async function list(_req: AuthedRequest, res: Response) {
+export const list = asyncHandler<AuthedRequest>(async (_req, res) => {
   const { rows } = await pool.query(
     'SELECT * FROM articles WHERE published = true ORDER BY published_at DESC LIMIT 50'
   );
   res.json({ data: rows });
-}
+});
 
-export async function getBySlug(req: AuthedRequest, res: Response) {
+export const getBySlug = asyncHandler<AuthedRequest>(async (req, res) => {
   const { rows } = await pool.query('SELECT * FROM articles WHERE slug = $1', [req.params.slug]);
   if (!rows[0]) return res.status(404).json({ error: 'Article not found' });
   res.json({ data: rows[0] });
-}
+});
 
-export async function create(req: AuthedRequest, res: Response) {
+export const create = asyncHandler<AuthedRequest>(async (req, res) => {
   const { title, slug, body, author, cover_image, tags, scam_id } = req.body;
   const { rows } = await pool.query(
     `INSERT INTO articles (title, slug, body, author, cover_image, tags, scam_id)
@@ -23,9 +23,9 @@ export async function create(req: AuthedRequest, res: Response) {
     [title, slug, body, author ?? null, cover_image ?? null, tags ?? [], scam_id ?? null]
   );
   res.status(201).json({ data: rows[0] });
-}
+});
 
-export async function update(req: AuthedRequest, res: Response) {
+export const update = asyncHandler<AuthedRequest>(async (req, res) => {
   const fields = Object.keys(req.body);
   if (fields.length === 0) return res.status(400).json({ error: 'No fields to update' });
 
@@ -39,4 +39,4 @@ export async function update(req: AuthedRequest, res: Response) {
   );
   if (!rows[0]) return res.status(404).json({ error: 'Article not found' });
   res.json({ data: rows[0] });
-}
+});

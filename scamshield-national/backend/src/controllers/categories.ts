@@ -1,14 +1,14 @@
-import { Response } from 'express';
 import { AuthedRequest } from '../middleware/auth';
 import * as CategoriesModel from '../models/categories';
+import { asyncHandler } from '../utils/asyncHandler';
 
-export async function list(_req: AuthedRequest, res: Response) {
+export const list = asyncHandler<AuthedRequest>(async (_req, res) => {
   const categories = await CategoriesModel.listCategories();
   res.json({ data: categories });
-}
+});
 
-export async function getBySlug(req: AuthedRequest, res: Response) {
+export const getBySlug = asyncHandler<AuthedRequest>(async (req, res) => {
   const category = await CategoriesModel.getCategoryBySlug(req.params.slug);
   if (!category) return res.status(404).json({ error: 'Category not found' });
   res.json({ data: category });
-}
+});

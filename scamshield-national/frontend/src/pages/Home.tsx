@@ -1,13 +1,15 @@
 import { Link } from 'react-router-dom';
 import { useScams } from '../hooks/useScams';
 import { ScamCard } from '../components/ScamCard';
+import { AlertTicker } from '../components/AlertTicker';
 
 export default function Home() {
   const { data: scams, isLoading } = useScams({ sort: 'newest', page: 1 });
 
   return (
-    <div className="max-w-5xl mx-auto px-4 py-12">
-      <section className="text-center">
+    <div className="max-w-5xl mx-auto">
+      <AlertTicker />
+      <section className="text-center px-4 py-12">
         <h1 className="text-4xl font-bold text-slate-900">Know the scam before it reaches you.</h1>
         <p className="mt-3 text-slate-600">
           Search the national database of recorded scam activity, from historical fraud to today's alerts.
@@ -20,7 +22,7 @@ export default function Home() {
         </Link>
       </section>
 
-      <section className="mt-16">
+      <section className="px-4 pb-12">
         <h2 className="text-xl font-semibold text-slate-900 mb-4">Recently added</h2>
         {isLoading && <p className="text-slate-500">Loading…</p>}
         <div className="grid gap-4 sm:grid-cols-2">

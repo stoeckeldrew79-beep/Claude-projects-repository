@@ -1,6 +1,6 @@
 import 'dotenv/config';
 import cors from 'cors';
-import express from 'express';
+import express, { NextFunction, Request, Response } from 'express';
 import helmet from 'helmet';
 
 import scamsRoutes from './routes/scams';
@@ -10,6 +10,10 @@ import alertsRoutes from './routes/alerts';
 import subscriptionsRoutes from './routes/subscriptions';
 import articlesRoutes from './routes/articles';
 import { publicApiLimiter } from './middleware/rateLimit';
+
+process.on('unhandledRejection', (reason) => {
+  console.error('Unhandled rejection (should be unreachable — asyncHandler catches request-scoped errors):', reason);
+});
 
 const app = express();
 
@@ -34,6 +38,16 @@ v1.use('/subscriptions', subscriptionsRoutes);
 v1.use('/articles', articlesRoutes);
 
 app.use('/v1', v1);
+
+// Backstop: every async controller/middleware is wrapped in asyncHandler
+// (see src/utils/asyncHandler.ts), which forwards errors here instead of
+// letting them become unhandled rejections. Without this, a single bad
+// request can crash the entire process — confirmed locally: an invalid
+// UUID in a JWT sub took the whole dev server down before this existed.
+app.use((err: unknown, _req: Request, res: Response, _next: NextFunction) => {
+  console.error(err);
+  res.status(500).json({ error: 'Internal server error' });
+});
 
 const port = process.env.PORT ? Number(process.env.PORT) : 3000;
 app.listen(port, () => {
