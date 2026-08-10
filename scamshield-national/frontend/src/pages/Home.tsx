@@ -2,8 +2,16 @@ import { Link } from 'react-router-dom';
 import { useScams } from '../hooks/useScams';
 import { ScamCard } from '../components/ScamCard';
 import { AlertTicker } from '../components/AlertTicker';
+import { useDocumentMeta } from '../hooks/useDocumentMeta';
 
 export default function Home() {
+  useDocumentMeta({
+    title: 'Know the scam before it reaches you',
+    description:
+      'Search the national scam intelligence database covering recorded U.S. scam activity from the 1800s to today. Get real-time alerts and protect yourself.',
+    path: '/',
+  });
+
   const { data: scams, isLoading } = useScams({ sort: 'newest', page: 1 });
 
   return (

@@ -7,10 +7,15 @@ import { asyncHandler } from '../utils/asyncHandler';
 // Phase 2 replaces this with real Auth0/Supabase login (JWKS-verified
 // tokens) per spec section 5.4 — this exists so the rest of the API is
 // exercisable before that integration lands.
-function issueToken(user: { id: string }) {
+function issueToken(user: { id: string; email: string }) {
   const secret = process.env.JWT_SECRET;
   if (!secret) throw new Error('JWT_SECRET is not set');
-  return jwt.sign({ sub: user.id, role: 'user' }, secret, { expiresIn: '7d' });
+  // Dev-only: real role assignment comes from the auth provider's role
+  // claims (spec 5.4) once Auth0/Supabase is wired up. Until then,
+  // ADMIN_EMAILS is the only way to reach the admin panel at all.
+  const adminEmails = (process.env.ADMIN_EMAILS ?? '').split(',').map((e) => e.trim().toLowerCase());
+  const role = adminEmails.includes(user.email.toLowerCase()) ? 'admin' : 'user';
+  return jwt.sign({ sub: user.id, role }, secret, { expiresIn: '7d' });
 }
 
 export const register = asyncHandler<AuthedRequest>(async (req, res) => {

@@ -1,5 +1,6 @@
 import { useCheckout } from '../hooks/useSubscription';
 import { SubscriptionTier } from '../services/subscriptions';
+import { useDocumentMeta } from '../hooks/useDocumentMeta';
 
 const TIERS: { tier: SubscriptionTier; name: string; price: string; features: string[] }[] = [
   { tier: 'basic', name: 'Basic', price: '$4/mo', features: ['Monthly digest email', 'Full database access'] },
@@ -19,6 +20,12 @@ const TIERS: { tier: SubscriptionTier; name: string; price: string; features: st
 ];
 
 export default function Subscribe() {
+  useDocumentMeta({
+    title: 'Subscribe',
+    description: 'Choose a ScamShield National plan for real-time scam alerts by SMS and email.',
+    path: '/subscribe',
+  });
+
   const checkout = useCheckout();
 
   return (

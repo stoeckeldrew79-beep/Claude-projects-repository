@@ -1,9 +1,21 @@
 import { useParams } from 'react-router-dom';
 import { useScam } from '../hooks/useScams';
+import { useDocumentMeta } from '../hooks/useDocumentMeta';
+
+function excerpt(text: string, length = 155): string {
+  const plain = text.replace(/\s+/g, ' ').trim();
+  return plain.length > length ? `${plain.slice(0, length - 1)}…` : plain;
+}
 
 export default function ScamDetail() {
   const { slug } = useParams<{ slug: string }>();
   const { data: scam, isLoading } = useScam(slug);
+
+  useDocumentMeta({
+    title: scam?.name ?? 'Scam Detail',
+    description: scam ? excerpt(scam.description) : 'Scam details from the ScamShield National database.',
+    path: `/scams/${slug}`,
+  });
 
   if (isLoading) return <p className="max-w-3xl mx-auto px-4 py-10 text-slate-500">Loading…</p>;
   if (!scam) return <p className="max-w-3xl mx-auto px-4 py-10 text-slate-500">Scam not found.</p>;

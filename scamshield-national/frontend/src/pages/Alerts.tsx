@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { useAlerts } from '../hooks/useAlerts';
 import { useAuthStore } from '../store/useAuthStore';
+import { useDocumentMeta } from '../hooks/useDocumentMeta';
 
 const ALERT_COLORS: Record<string, string> = {
   low: 'bg-slate-100 text-slate-700',
@@ -10,6 +11,12 @@ const ALERT_COLORS: Record<string, string> = {
 };
 
 export default function Alerts() {
+  useDocumentMeta({
+    title: 'Alerts',
+    description: 'Real-time scam alerts for ScamShield National subscribers.',
+    noindex: true,
+  });
+
   const [state, setState] = useState('');
   const user = useAuthStore((s) => s.user);
   const { data: alerts, isLoading, isError, error } = useAlerts({ state: state || undefined }, Boolean(user));

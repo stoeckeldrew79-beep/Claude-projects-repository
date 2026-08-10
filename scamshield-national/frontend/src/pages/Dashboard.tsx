@@ -1,7 +1,10 @@
 import { useAuthStore } from '../store/useAuthStore';
 import { useBillingPortal, useSubscriptionStatus } from '../hooks/useSubscription';
+import { useDocumentMeta } from '../hooks/useDocumentMeta';
 
 export default function Dashboard() {
+  useDocumentMeta({ title: 'Dashboard', description: 'Manage your ScamShield National account.', noindex: true });
+
   const user = useAuthStore((s) => s.user);
   const { data: subscription, isLoading } = useSubscriptionStatus();
   const portal = useBillingPortal();

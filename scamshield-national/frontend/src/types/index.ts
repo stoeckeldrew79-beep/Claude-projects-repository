@@ -56,6 +56,7 @@ export interface Article {
   cover_image: string | null;
   tags: string[] | null;
   scam_id: string | null;
+  scam_slug?: string | null;
   published: boolean;
   published_at: string | null;
 }

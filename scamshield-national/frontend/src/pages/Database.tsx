@@ -1,8 +1,15 @@
 import { useState } from 'react';
 import { useCategories, useScams } from '../hooks/useScams';
 import { ScamCard } from '../components/ScamCard';
+import { useDocumentMeta } from '../hooks/useDocumentMeta';
 
 export default function Database() {
+  useDocumentMeta({
+    title: 'Scam Database',
+    description: 'Browse and search the full national database of recorded scam activity by category, state, and date.',
+    path: '/database',
+  });
+
   const [search, setSearch] = useState('');
   const [category, setCategory] = useState<string | undefined>(undefined);
   const { data: categories } = useCategories();

@@ -4,6 +4,7 @@ import Database from './pages/Database';
 import ScamDetail from './pages/ScamDetail';
 import Alerts from './pages/Alerts';
 import Articles from './pages/Articles';
+import ArticleDetail from './pages/ArticleDetail';
 import Subscribe from './pages/Subscribe';
 import Dashboard from './pages/Dashboard';
 import Admin from './pages/Admin';
@@ -43,6 +44,7 @@ export default function App() {
         <Route path="/scams/:slug" element={<ScamDetail />} />
         <Route path="/alerts" element={<Alerts />} />
         <Route path="/articles" element={<Articles />} />
+        <Route path="/articles/:slug" element={<ArticleDetail />} />
         <Route path="/subscribe" element={<Subscribe />} />
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/admin" element={<Admin />} />
