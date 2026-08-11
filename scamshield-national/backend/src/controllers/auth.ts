@@ -1,12 +1,17 @@
+import bcrypt from 'bcryptjs';
 import jwt from 'jsonwebtoken';
 import { AuthedRequest } from '../middleware/auth';
 import * as UsersModel from '../models/users';
 import { asyncHandler } from '../utils/asyncHandler';
 
-// Dev-mode auth: issues a JWT directly against the local users table.
-// Phase 2 replaces this with real Auth0/Supabase login (JWKS-verified
-// tokens) per spec section 5.4 — this exists so the rest of the API is
-// exercisable before that integration lands.
+// Dev-mode auth: real password check against a local bcrypt hash, in
+// place of Auth0/Supabase (spec section 5.4) until that's wired up.
+// Previously this issued a session for any *registered* email with no
+// secret check at all — a full authentication bypass — so this exists
+// as a minimum-viable real auth mechanism, not just a stand-in shape.
+const BCRYPT_ROUNDS = 12;
+const MIN_PASSWORD_LENGTH = 8;
+
 function issueToken(user: { id: string; email: string }) {
   const secret = process.env.JWT_SECRET;
   if (!secret) throw new Error('JWT_SECRET is not set');
@@ -19,22 +24,30 @@ function issueToken(user: { id: string; email: string }) {
 }
 
 export const register = asyncHandler<AuthedRequest>(async (req, res) => {
-  const { email } = req.body as { email?: string };
-  if (!email) return res.status(400).json({ error: 'email is required' });
+  const { email, password } = req.body as { email?: string; password?: string };
+  if (!email || !password) return res.status(400).json({ error: 'email and password are required' });
+  if (password.length < MIN_PASSWORD_LENGTH) {
+    return res.status(400).json({ error: `password must be at least ${MIN_PASSWORD_LENGTH} characters` });
+  }
 
   const existing = await UsersModel.getUserByAuthId(email);
   if (existing) return res.status(409).json({ error: 'User already exists' });
 
-  const user = await UsersModel.createUser({ authProviderId: email, email });
-  res.status(201).json({ data: user, token: issueToken(user) });
+  const passwordHash = await bcrypt.hash(password, BCRYPT_ROUNDS);
+  const user = await UsersModel.createUser({ authProviderId: email, email, passwordHash });
+  res.status(201).json({ data: UsersModel.sanitizeUser(user), token: issueToken(user) });
 });
 
 export const login = asyncHandler<AuthedRequest>(async (req, res) => {
-  const { email } = req.body as { email?: string };
-  if (!email) return res.status(400).json({ error: 'email is required' });
+  const { email, password } = req.body as { email?: string; password?: string };
+  if (!email || !password) return res.status(400).json({ error: 'email and password are required' });
 
   const user = await UsersModel.getUserByAuthId(email);
-  if (!user) return res.status(401).json({ error: 'Invalid credentials' });
+  // Compare against a dummy hash when the user doesn't exist so lookup
+  // and mismatch take a comparable amount of time either way.
+  const hash = user?.password_hash ?? '$2a$12$invalidinvalidinvalidinvalidinvalidinvalidinvalidinva';
+  const valid = await bcrypt.compare(password, hash);
+  if (!user || !valid) return res.status(401).json({ error: 'Invalid credentials' });
 
-  res.json({ data: user, token: issueToken(user) });
+  res.json({ data: UsersModel.sanitizeUser(user), token: issueToken(user) });
 });

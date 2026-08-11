@@ -1,10 +1,22 @@
 import { pool } from '../db/connection';
+import { buildUpdateSet } from '../utils/buildUpdateSet';
 
 export interface UserProfileUpdate {
   phone?: string;
   zip_code?: string;
   state?: string;
   email_opt_in?: boolean;
+}
+
+// subscription_tier, role, and anything else on this table must never be
+// reachable from this endpoint — it's user-self-service, not admin.
+const UPDATABLE_PROFILE_FIELDS = ['phone', 'zip_code', 'state', 'email_opt_in'] as const;
+
+// Every controller that returns a user row to the client must run it
+// through this first — password_hash must never leave the server.
+export function sanitizeUser<T extends Record<string, unknown>>(user: T): Omit<T, 'password_hash'> {
+  const { password_hash: _password_hash, ...rest } = user;
+  return rest;
 }
 
 export async function getUserByAuthId(authProviderId: string) {
@@ -17,22 +29,19 @@ export async function getUserById(id: string) {
   return rows[0] ?? null;
 }
 
-export async function createUser(data: { authProviderId: string; email: string }) {
+export async function createUser(data: { authProviderId: string; email: string; passwordHash: string }) {
   const { rows } = await pool.query(
-    'INSERT INTO users (auth_provider_id, email) VALUES ($1, $2) RETURNING *',
-    [data.authProviderId, data.email]
+    'INSERT INTO users (auth_provider_id, email, password_hash) VALUES ($1, $2, $3) RETURNING *',
+    [data.authProviderId, data.email, data.passwordHash]
   );
   return rows[0];
 }
 
 export async function updateUserProfile(id: string, data: UserProfileUpdate) {
-  const fields = Object.keys(data);
+  const { fields, setClauses, values } = buildUpdateSet(data as Record<string, unknown>, UPDATABLE_PROFILE_FIELDS);
   if (fields.length === 0) return getUserById(id);
 
-  const setClauses = fields.map((f, i) => `${f} = $${i + 2}`);
   setClauses.push('updated_at = NOW()');
-  const values = fields.map((f) => (data as Record<string, unknown>)[f]);
-
   const { rows } = await pool.query(
     `UPDATE users SET ${setClauses.join(', ')} WHERE id = $1 RETURNING *`,
     [id, ...values]

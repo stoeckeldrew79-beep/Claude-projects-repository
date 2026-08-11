@@ -1,6 +1,19 @@
 import { AuthedRequest } from '../middleware/auth';
 import { pool } from '../db/connection';
 import { asyncHandler } from '../utils/asyncHandler';
+import { buildUpdateSet } from '../utils/buildUpdateSet';
+
+const UPDATABLE_ARTICLE_FIELDS = [
+  'title',
+  'slug',
+  'body',
+  'author',
+  'cover_image',
+  'tags',
+  'scam_id',
+  'published',
+  'published_at',
+] as const;
 
 export const list = asyncHandler<AuthedRequest>(async (_req, res) => {
   const { rows } = await pool.query(
@@ -55,12 +68,10 @@ export const update = asyncHandler<AuthedRequest>(async (req, res) => {
     body.published_at = new Date();
   }
 
-  const fields = Object.keys(body);
+  const { fields, setClauses, values } = buildUpdateSet(body, UPDATABLE_ARTICLE_FIELDS);
   if (fields.length === 0) return res.status(400).json({ error: 'No fields to update' });
 
-  const setClauses = fields.map((f, i) => `${f} = $${i + 2}`);
   setClauses.push('updated_at = NOW()');
-  const values = fields.map((f) => body[f]);
 
   const { rows } = await pool.query(
     `UPDATE articles SET ${setClauses.join(', ')} WHERE id = $1 RETURNING *`,

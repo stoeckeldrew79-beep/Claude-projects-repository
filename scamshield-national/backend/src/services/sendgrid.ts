@@ -28,8 +28,17 @@ export async function sendWelcomeEmail(to: string) {
   return sendTransactionalEmail(to, 'Welcome to ScamShield National', '<p>Thanks for signing up.</p>');
 }
 
+function escapeHtml(value: string): string {
+  return value
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;');
+}
+
 export function alertEmailHtml(title: string, body: string): string {
-  return `<h2>${title}</h2><p>${body}</p>`;
+  return `<h2>${escapeHtml(title)}</h2><p>${escapeHtml(body)}</p>`;
 }
 
 export async function sendAlertEmails(recipients: { id: string; email: string }[], title: string, body: string) {

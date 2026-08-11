@@ -1,4 +1,17 @@
 import { pool } from '../db/connection';
+import { buildUpdateSet } from '../utils/buildUpdateSet';
+
+const UPDATABLE_SCAM_FIELDS = [
+  'name',
+  'slug',
+  'description',
+  'category_id',
+  'alert_level',
+  'first_recorded',
+  'is_active',
+  'is_historical',
+  'sources',
+] as const;
 
 export interface Scam {
   id: string;
@@ -133,12 +146,10 @@ export async function createScam(data: Partial<Scam>) {
 }
 
 export async function updateScam(id: string, data: Partial<Scam>) {
-  const fields = Object.keys(data).filter((k) => k !== 'id');
+  const { fields, setClauses, values } = buildUpdateSet(data, UPDATABLE_SCAM_FIELDS);
   if (fields.length === 0) return getScamById(id);
 
-  const setClauses = fields.map((f, i) => `${f} = $${i + 2}`);
   setClauses.push('updated_at = NOW()');
-  const values = fields.map((f) => (data as Record<string, unknown>)[f]);
 
   const { rows } = await pool.query(
     `UPDATE scams SET ${setClauses.join(', ')} WHERE id = $1 RETURNING *`,
