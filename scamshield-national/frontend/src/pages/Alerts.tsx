@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { useAlerts } from '../hooks/useAlerts';
 import { useAuthStore } from '../store/useAuthStore';
 import { useDocumentMeta } from '../hooks/useDocumentMeta';
@@ -27,7 +28,12 @@ export default function Alerts() {
     return (
       <div className="max-w-3xl mx-auto px-4 py-10">
         <h1 className="text-2xl font-bold text-slate-900">Alerts</h1>
-        <p className="mt-2 text-slate-600">Sign in to see real-time scam alerts.</p>
+        <p className="mt-2 text-slate-600">
+          <Link to="/login" className="underline">
+            Sign in
+          </Link>{' '}
+          to see real-time scam alerts.
+        </p>
       </div>
     );
   }

@@ -1,10 +1,11 @@
 import { useMutation, useQuery } from '@tanstack/react-query';
 import { createCheckoutSession, createPortalSession, fetchSubscriptionStatus, SubscriptionTier } from '../services/subscriptions';
 
-export function useSubscriptionStatus() {
+export function useSubscriptionStatus(enabled = true) {
   return useQuery({
     queryKey: ['subscription-status'],
     queryFn: fetchSubscriptionStatus,
+    enabled,
   });
 }
 

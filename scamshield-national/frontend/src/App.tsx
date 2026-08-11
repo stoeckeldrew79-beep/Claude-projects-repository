@@ -1,4 +1,4 @@
-import { NavLink, Route, Routes } from 'react-router-dom';
+import { NavLink, Route, Routes, useNavigate } from 'react-router-dom';
 import Home from './pages/Home';
 import Database from './pages/Database';
 import ScamDetail from './pages/ScamDetail';
@@ -8,6 +8,8 @@ import ArticleDetail from './pages/ArticleDetail';
 import Subscribe from './pages/Subscribe';
 import Dashboard from './pages/Dashboard';
 import Admin from './pages/Admin';
+import Login from './pages/Login';
+import { useAuthStore } from './store/useAuthStore';
 
 const NAV_LINKS = [
   { to: '/', label: 'Home', end: true },
@@ -16,6 +18,38 @@ const NAV_LINKS = [
   { to: '/articles', label: 'Articles' },
   { to: '/subscribe', label: 'Subscribe' },
 ];
+
+function AccountNav() {
+  const navigate = useNavigate();
+  const user = useAuthStore((s) => s.user);
+  const clearSession = useAuthStore((s) => s.clearSession);
+
+  if (!user) {
+    return (
+      <NavLink to="/login" className="text-sm text-slate-500 ml-auto">
+        Sign in
+      </NavLink>
+    );
+  }
+
+  return (
+    <div className="ml-auto flex items-center gap-4">
+      <NavLink to="/dashboard" className="text-sm text-slate-500">
+        {user.email}
+      </NavLink>
+      <button
+        type="button"
+        onClick={() => {
+          clearSession();
+          navigate('/');
+        }}
+        className="text-sm text-slate-500"
+      >
+        Sign out
+      </button>
+    </div>
+  );
+}
 
 export default function App() {
   return (
@@ -35,6 +69,7 @@ export default function App() {
               {link.label}
             </NavLink>
           ))}
+          <AccountNav />
         </nav>
       </header>
 
@@ -48,6 +83,7 @@ export default function App() {
         <Route path="/subscribe" element={<Subscribe />} />
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/admin" element={<Admin />} />
+        <Route path="/login" element={<Login />} />
       </Routes>
     </div>
   );
