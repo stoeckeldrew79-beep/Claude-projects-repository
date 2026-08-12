@@ -1,4 +1,6 @@
+import { Link } from 'react-router-dom';
 import { useScams } from '../hooks/useScams';
+import { Marquee } from './magicui/marquee';
 
 // Home page "live ticker" per spec section 6. Deliberately built from
 // public scam data (not GET /alerts, which is subscriber-gated) so
@@ -11,15 +13,23 @@ export function AlertTicker() {
   if (!highlighted || highlighted.length === 0) return null;
 
   return (
-    <div className="border-y border-slate-200 bg-slate-50 py-2 overflow-x-auto">
-      <div className="flex gap-6 px-4 text-sm whitespace-nowrap">
+    <div className="border-y border-slate-200 bg-slate-50 [--duration:28s]">
+      <Marquee pauseOnHover repeat={3} className="py-2">
         {highlighted.map((scam) => (
-          <span key={scam.id} className="text-slate-700">
-            <span className="font-semibold text-red-700 mr-1">{scam.alert_level?.toUpperCase()}</span>
+          <Link
+            key={scam.id}
+            to={`/scams/${scam.slug}`}
+            className="text-sm whitespace-nowrap text-slate-700 hover:text-slate-900"
+          >
+            <span
+              className={`font-semibold mr-1.5 ${scam.alert_level === 'critical' ? 'text-red-700' : 'text-orange-700'}`}
+            >
+              {scam.alert_level?.toUpperCase()}
+            </span>
             {scam.name}
-          </span>
+          </Link>
         ))}
-      </div>
+      </Marquee>
     </div>
   );
 }

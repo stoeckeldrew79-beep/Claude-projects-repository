@@ -12,7 +12,7 @@ export function ScamCard({ scam }: { scam: Scam }) {
   return (
     <Link
       to={`/scams/${scam.slug}`}
-      className="block rounded-lg border border-slate-200 p-4 hover:border-slate-400 transition-colors"
+      className="block rounded-lg border border-slate-200 p-4 hover:border-slate-400 hover:shadow-sm transition-all"
     >
       <div className="flex items-center justify-between gap-2">
         <h3 className="font-semibold text-slate-900">{scam.name}</h3>
