@@ -12,3 +12,8 @@ export const getBySlug = asyncHandler<AuthedRequest>(async (req, res) => {
   if (!category) return res.status(404).json({ error: 'Category not found' });
   res.json({ data: category });
 });
+
+export const trends = asyncHandler<AuthedRequest>(async (_req, res) => {
+  const data = await CategoriesModel.categoryReportTrends();
+  res.json({ data });
+});

@@ -15,13 +15,23 @@ const UPDATABLE_ARTICLE_FIELDS = [
   'published_at',
 ] as const;
 
-export const list = asyncHandler<AuthedRequest>(async (_req, res) => {
+export const list = asyncHandler<AuthedRequest>(async (req, res) => {
+  const tag = req.query.tag as string | undefined;
+  const conditions = ['a.published = true'];
+  const values: unknown[] = [];
+
+  if (tag) {
+    values.push(tag);
+    conditions.push(`$${values.length} = ANY(a.tags)`);
+  }
+
   const { rows } = await pool.query(
     `SELECT a.*, s.slug AS scam_slug
      FROM articles a
      LEFT JOIN scams s ON s.id = a.scam_id
-     WHERE a.published = true
-     ORDER BY a.published_at DESC LIMIT 50`
+     WHERE ${conditions.join(' AND ')}
+     ORDER BY a.published_at DESC LIMIT 50`,
+    values
   );
   res.json({ data: rows });
 });

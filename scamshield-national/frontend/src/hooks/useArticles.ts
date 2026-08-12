@@ -1,10 +1,10 @@
 import { useQuery } from '@tanstack/react-query';
 import { fetchArticleBySlug, fetchArticles } from '../services/articles';
 
-export function useArticles() {
+export function useArticles(tag?: string) {
   return useQuery({
-    queryKey: ['articles'],
-    queryFn: fetchArticles,
+    queryKey: ['articles', tag ?? null],
+    queryFn: () => fetchArticles(tag),
   });
 }
 

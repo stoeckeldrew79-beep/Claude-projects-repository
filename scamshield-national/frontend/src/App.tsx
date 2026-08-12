@@ -5,6 +5,7 @@ import ScamDetail from './pages/ScamDetail';
 import Alerts from './pages/Alerts';
 import Articles from './pages/Articles';
 import ArticleDetail from './pages/ArticleDetail';
+import Notorious from './pages/Notorious';
 import Subscribe from './pages/Subscribe';
 import Dashboard from './pages/Dashboard';
 import Admin from './pages/Admin';
@@ -16,6 +17,7 @@ const NAV_LINKS = [
   { to: '/database', label: 'Database' },
   { to: '/alerts', label: 'Alerts' },
   { to: '/articles', label: 'Articles' },
+  { to: '/notorious', label: 'Notorious' },
   { to: '/subscribe', label: 'Subscribe' },
 ];
 
@@ -80,6 +82,7 @@ export default function App() {
         <Route path="/alerts" element={<Alerts />} />
         <Route path="/articles" element={<Articles />} />
         <Route path="/articles/:slug" element={<ArticleDetail />} />
+        <Route path="/notorious" element={<Notorious />} />
         <Route path="/subscribe" element={<Subscribe />} />
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/admin" element={<Admin />} />

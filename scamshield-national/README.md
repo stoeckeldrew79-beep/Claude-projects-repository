@@ -4,20 +4,26 @@ A national scam intelligence database and subscription platform. See
 `../content/docs` in this repo — or the original technical specification —
 for the full architecture, schema, and API design this scaffold implements.
 
-## Status: Phase 1 — Foundation
+## Status
 
 Implemented:
-- PostgreSQL schema (all 7 tables) with migrations
-- Backend REST API for scams, categories, users, and dev-mode auth
-- React frontend shell with routing for all 8 pages
-- Local docker-compose for Postgres + Redis
+- PostgreSQL schema (9 migrations) — scams, categories, users, alerts, articles, subscriptions
+- Backend REST API: scams, categories (incl. `/categories/trends`), users, articles, alerts, subscriptions
+- Real email+password auth (bcrypt) with JWT sessions and role/tier-gated routes
+- Real Stripe checkout/portal/webhook flow, syncing subscription tier from live events
+- Twilio SMS + SendGrid email alert broadcast, tier-gated (Family+ for SMS, Pro+ for real-time email)
+- Articles blog, including a "Notorious Scams & Scammers" historical collection (`/notorious`)
+- SEO (per-page meta tags, build-time sitemap.xml, robots.txt) and a real Admin data-entry UI
+- Login/register UI, account nav, sign-out
+- Trend Watch — real report-volume-by-category chart on `/database`, sourced from the DB
+- A from-scratch security review found and fixed 4 vulnerabilities (SQL injection, mass-assignment
+  billing bypass, a full authentication bypass, and stored HTML injection in alert emails) — see
+  git history on this branch for details
 
-Stubbed (Phase 2/3, per the build plan):
-- Real Stripe billing (services/stripe.ts has the shape, needs live keys)
-- Twilio SMS alert broadcast (services/twilio.ts + services/alerts.ts)
-- SendGrid transactional/marketing email
-- Auth0/Supabase login (currently a local JWT dev stub — see
-  `backend/src/controllers/auth.ts`)
+Still stubbed / needs live credentials to fully exercise:
+- Stripe checkout/portal *session creation* and live Twilio/SendGrid sends need real provider API keys
+- Auth0/Supabase (spec 5.4) — currently real bcrypt password auth, not yet SSO
+- Actual Google Search Console verification (manual, post-deployment)
 
 ## Local development
 
@@ -27,15 +33,16 @@ docker compose up -d
 
 # 2. Backend
 cd backend
-cp ../.env.example .env   # fill in JWT_SECRET at minimum
+cp ../.env.example .env   # fill in JWT_SECRET at minimum; ADMIN_EMAILS to reach the admin panel
 npm install
 npm run migrate
-npm run dev                # http://localhost:3000
+npm run seed                # seeds the "Notorious Scams & Scammers" articles
+npm run dev                 # http://localhost:3000
 
 # 3. Frontend (separate terminal)
 cd frontend
 npm install
-npm run dev                # http://localhost:5173
+npm run dev                 # http://localhost:5173
 ```
 
 ## Project layout

@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { useCategories, useScams } from '../hooks/useScams';
 import { ScamCard } from '../components/ScamCard';
 import { useDocumentMeta } from '../hooks/useDocumentMeta';
+import { TrendWatch } from '../components/TrendWatch';
 
 export default function Database() {
   useDocumentMeta({
@@ -18,6 +19,10 @@ export default function Database() {
   return (
     <div className="max-w-5xl mx-auto px-4 py-10">
       <h1 className="text-2xl font-bold text-slate-900 mb-6">Scam Database</h1>
+
+      <div className="mb-8">
+        <TrendWatch />
+      </div>
 
       <div className="flex flex-wrap gap-3 mb-6">
         <input
