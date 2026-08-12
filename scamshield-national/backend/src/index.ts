@@ -9,6 +9,7 @@ import usersRoutes from './routes/users';
 import alertsRoutes from './routes/alerts';
 import subscriptionsRoutes from './routes/subscriptions';
 import articlesRoutes from './routes/articles';
+import scamReportsRoutes from './routes/scamReports';
 import { publicApiLimiter } from './middleware/rateLimit';
 
 process.on('unhandledRejection', (reason) => {
@@ -36,6 +37,7 @@ v1.use('/', usersRoutes); // mounts /auth/* and /users/me under /v1
 v1.use('/alerts', alertsRoutes);
 v1.use('/subscriptions', subscriptionsRoutes);
 v1.use('/articles', articlesRoutes);
+v1.use('/reports', scamReportsRoutes);
 
 app.use('/v1', v1);
 

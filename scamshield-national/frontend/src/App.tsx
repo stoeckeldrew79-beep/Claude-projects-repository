@@ -1,4 +1,4 @@
-import { NavLink, Route, Routes, useNavigate } from 'react-router-dom';
+import { Link, NavLink, Route, Routes, useNavigate } from 'react-router-dom';
 import Home from './pages/Home';
 import Database from './pages/Database';
 import ScamDetail from './pages/ScamDetail';
@@ -6,11 +6,13 @@ import Alerts from './pages/Alerts';
 import Articles from './pages/Articles';
 import ArticleDetail from './pages/ArticleDetail';
 import Notorious from './pages/Notorious';
+import Report from './pages/Report';
 import Subscribe from './pages/Subscribe';
 import Dashboard from './pages/Dashboard';
 import Admin from './pages/Admin';
 import Login from './pages/Login';
 import { useAuthStore } from './store/useAuthStore';
+import { ShieldLogo } from './components/ShieldLogo';
 
 const NAV_LINKS = [
   { to: '/', label: 'Home', end: true },
@@ -28,14 +30,14 @@ function AccountNav() {
 
   if (!user) {
     return (
-      <NavLink to="/login" className="text-sm text-slate-500 ml-auto">
+      <NavLink to="/login" className="text-sm text-slate-500">
         Sign in
       </NavLink>
     );
   }
 
   return (
-    <div className="ml-auto flex items-center gap-4">
+    <div className="flex items-center gap-4">
       <NavLink to="/dashboard" className="text-sm text-slate-500">
         {user.email}
       </NavLink>
@@ -53,12 +55,29 @@ function AccountNav() {
   );
 }
 
-export default function App() {
+function SiteHeader() {
   return (
-    <div className="min-h-screen bg-white">
-      <header className="border-b border-slate-200">
-        <nav className="max-w-5xl mx-auto px-4 h-14 flex items-center gap-6">
-          <span className="font-bold text-slate-900">ScamShield National</span>
+    <header className="border-b border-slate-200 bg-white">
+      {/* Institutional identity bar — this is where the "which agency" signal lives.
+          Deliberately says "private" here, plainly, rather than leaving it ambiguous. */}
+      <div className="bg-[#0f1a2b] text-slate-300 text-xs">
+        <div className="max-w-6xl mx-auto px-4 py-1.5 flex items-center justify-between">
+          <span>A private consumer-protection service — not a government agency</span>
+          <Link to="/report" className="hidden sm:inline hover:text-white">
+            Report a scam online, 24/7 →
+          </Link>
+        </div>
+      </div>
+
+      <nav className="max-w-6xl mx-auto px-4 h-16 flex items-center gap-8">
+        <Link to="/" className="flex items-center gap-2.5">
+          <ShieldLogo className="h-9 w-9" />
+          <span className="font-bold text-lg text-slate-900" style={{ fontFamily: 'Georgia, "Times New Roman", serif' }}>
+            ScamShield National
+          </span>
+        </Link>
+
+        <div className="hidden md:flex items-center gap-6 flex-1">
           {NAV_LINKS.map((link) => (
             <NavLink
               key={link.to}
@@ -71,23 +90,98 @@ export default function App() {
               {link.label}
             </NavLink>
           ))}
-          <AccountNav />
-        </nav>
-      </header>
+        </div>
 
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/database" element={<Database />} />
-        <Route path="/scams/:slug" element={<ScamDetail />} />
-        <Route path="/alerts" element={<Alerts />} />
-        <Route path="/articles" element={<Articles />} />
-        <Route path="/articles/:slug" element={<ArticleDetail />} />
-        <Route path="/notorious" element={<Notorious />} />
-        <Route path="/subscribe" element={<Subscribe />} />
-        <Route path="/dashboard" element={<Dashboard />} />
-        <Route path="/admin" element={<Admin />} />
-        <Route path="/login" element={<Login />} />
-      </Routes>
+        <div className="ml-auto flex items-center gap-5">
+          <Link
+            to="/report"
+            className="px-4 py-2 rounded-md bg-[#8a2e2e] text-white text-sm font-semibold hover:bg-[#7a2626] transition-colors"
+          >
+            Report a Scam
+          </Link>
+          <AccountNav />
+        </div>
+      </nav>
+    </header>
+  );
+}
+
+function SiteFooter() {
+  return (
+    <footer className="border-t border-slate-200 bg-slate-50 mt-16">
+      <div className="max-w-6xl mx-auto px-4 py-10 grid gap-8 sm:grid-cols-3">
+        <div>
+          <div className="flex items-center gap-2">
+            <ShieldLogo className="h-6 w-6" />
+            <span className="font-semibold text-slate-900">ScamShield National</span>
+          </div>
+          <p className="mt-3 text-sm text-slate-500 max-w-xs">
+            ScamShield National is a private consumer-protection service. It is not a government agency and is not
+            affiliated with, endorsed by, or acting on behalf of any government body.
+          </p>
+        </div>
+        <div>
+          <h3 className="text-sm font-semibold text-slate-900">Resources</h3>
+          <ul className="mt-3 space-y-2 text-sm text-slate-500">
+            <li>
+              <Link to="/database" className="hover:text-slate-900">
+                Scam database
+              </Link>
+            </li>
+            <li>
+              <Link to="/notorious" className="hover:text-slate-900">
+                Notorious scams &amp; scammers
+              </Link>
+            </li>
+            <li>
+              <Link to="/report" className="hover:text-slate-900">
+                Report a scam
+              </Link>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h3 className="text-sm font-semibold text-slate-900">If you're a victim right now</h3>
+          <p className="mt-3 text-sm text-slate-500">
+            If you're in the U.S. and money is actively at risk, contact your bank immediately, then file a report
+            with the FTC at{' '}
+            <a href="https://reportfraud.ftc.gov" target="_blank" rel="noreferrer" className="underline">
+              reportfraud.ftc.gov
+            </a>{' '}
+            — the official U.S. government reporting site.
+          </p>
+        </div>
+      </div>
+      <div className="border-t border-slate-200 py-4 text-center text-xs text-slate-400">
+        © {new Date().getFullYear()} ScamShield National. A private service, not a government agency.
+      </div>
+    </footer>
+  );
+}
+
+export default function App() {
+  return (
+    <div className="min-h-screen bg-white flex flex-col">
+      <SiteHeader />
+
+      <div className="flex-1">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/database" element={<Database />} />
+          <Route path="/scams/:slug" element={<ScamDetail />} />
+          <Route path="/alerts" element={<Alerts />} />
+          <Route path="/articles" element={<Articles />} />
+          <Route path="/articles/:slug" element={<ArticleDetail />} />
+          <Route path="/notorious" element={<Notorious />} />
+          <Route path="/report" element={<Report />} />
+          <Route path="/subscribe" element={<Subscribe />} />
+          <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/admin" element={<Admin />} />
+          <Route path="/login" element={<Login />} />
+        </Routes>
+      </div>
+
+      <SiteFooter />
     </div>
   );
 }

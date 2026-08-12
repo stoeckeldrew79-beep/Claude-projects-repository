@@ -13,3 +13,12 @@ export const authLimiter = rateLimit({
   standardHeaders: true,
   legacyHeaders: false,
 });
+
+// Report submission is public, unauthenticated, and free-text-heavy —
+// a natural spam/abuse target. Tighter than the general API limiter.
+export const reportSubmitLimiter = rateLimit({
+  windowMs: 60 * 60 * 1000,
+  limit: 10,
+  standardHeaders: true,
+  legacyHeaders: false,
+});

@@ -3,6 +3,9 @@ import { useMutation, useQueryClient } from '@tanstack/react-query';
 import { createArticle, createScam } from '../services/admin';
 import { useDocumentMeta } from '../hooks/useDocumentMeta';
 import { AlertLevel } from '../types';
+import { useAuthStore } from '../store/useAuthStore';
+import { useDismissReport, usePendingReports, usePromoteReport } from '../hooks/useReports';
+import { ScamReport } from '../services/reports';
 
 function slugify(value: string): string {
   return value
@@ -138,6 +141,125 @@ function ArticleForm() {
   );
 }
 
+function slugFromDescription(description: string): string {
+  return slugify(description.split(/\s+/).slice(0, 6).join(' '));
+}
+
+function ReportCard({ report }: { report: ScamReport }) {
+  const [promoting, setPromoting] = useState(false);
+  const [name, setName] = useState('');
+  const [alertLevel, setAlertLevel] = useState('medium');
+  const promote = usePromoteReport();
+  const dismiss = useDismissReport();
+
+  function handlePromote(e: FormEvent) {
+    e.preventDefault();
+    promote.mutate({ id: report.id, name, slug: slugFromDescription(name || report.description), alert_level: alertLevel });
+  }
+
+  return (
+    <div className="rounded-lg border border-slate-200 p-4">
+      <div className="flex items-start justify-between gap-3">
+        <p className="text-sm text-slate-900">{report.description}</p>
+        <span className="shrink-0 text-xs text-slate-400">{new Date(report.created_at).toLocaleDateString()}</span>
+      </div>
+      <dl className="mt-2 grid grid-cols-2 gap-x-4 gap-y-1 text-xs text-slate-500">
+        {report.scammer_phone && (
+          <div>
+            <dt className="inline font-medium">Scammer phone:</dt> <dd className="inline">{report.scammer_phone}</dd>
+          </div>
+        )}
+        {report.scammer_email && (
+          <div>
+            <dt className="inline font-medium">Scammer email:</dt> <dd className="inline">{report.scammer_email}</dd>
+          </div>
+        )}
+        {report.money_lost_amount != null && (
+          <div>
+            <dt className="inline font-medium">Money lost:</dt> <dd className="inline">${report.money_lost_amount}</dd>
+          </div>
+        )}
+        {(report.state || report.country) && (
+          <div>
+            <dt className="inline font-medium">Location:</dt>{' '}
+            <dd className="inline">{[report.state, report.country].filter(Boolean).join(', ')}</dd>
+          </div>
+        )}
+      </dl>
+
+      {!promoting ? (
+        <div className="mt-3 flex gap-2">
+          <button
+            type="button"
+            onClick={() => setPromoting(true)}
+            className="px-3 py-1.5 rounded-md bg-slate-900 text-white text-xs font-medium"
+          >
+            Promote to public scam
+          </button>
+          <button
+            type="button"
+            onClick={() => dismiss.mutate(report.id)}
+            disabled={dismiss.isPending}
+            className="px-3 py-1.5 rounded-md border border-slate-300 text-xs font-medium disabled:opacity-50"
+          >
+            Dismiss
+          </button>
+        </div>
+      ) : (
+        <form onSubmit={handlePromote} className="mt-3 flex flex-wrap gap-2 items-center">
+          <input
+            required
+            value={name}
+            onChange={(e) => setName(e.target.value)}
+            placeholder="Public scam name"
+            className="rounded-md border border-slate-300 px-2 py-1.5 text-xs flex-1 min-w-[180px]"
+          />
+          <select
+            value={alertLevel}
+            onChange={(e) => setAlertLevel(e.target.value)}
+            className="rounded-md border border-slate-300 px-2 py-1.5 text-xs"
+          >
+            <option value="low">Low</option>
+            <option value="medium">Medium</option>
+            <option value="high">High</option>
+            <option value="critical">Critical</option>
+          </select>
+          <button
+            type="submit"
+            disabled={promote.isPending}
+            className="px-3 py-1.5 rounded-md bg-slate-900 text-white text-xs font-medium disabled:opacity-50"
+          >
+            {promote.isPending ? 'Publishing…' : 'Confirm'}
+          </button>
+        </form>
+      )}
+      {promote.isError && <p className="mt-2 text-xs text-red-700">Couldn't promote this report.</p>}
+    </div>
+  );
+}
+
+function ReportsQueue() {
+  const user = useAuthStore((s) => s.user);
+  const { data: reports, isLoading, isError } = usePendingReports(Boolean(user));
+
+  return (
+    <div className="rounded-lg border border-slate-200 p-5">
+      <h2 className="font-semibold text-slate-900">Reports queue</h2>
+      <p className="text-sm text-slate-500 mt-1">
+        Public submissions from /report, awaiting review. Nothing here is visible to the public until promoted.
+      </p>
+      {isLoading && <p className="mt-3 text-sm text-slate-500">Loading…</p>}
+      {isError && <p className="mt-3 text-sm text-red-700">Couldn't load reports — are you signed in as an admin?</p>}
+      <div className="mt-4 space-y-3">
+        {reports?.map((report) => (
+          <ReportCard key={report.id} report={report} />
+        ))}
+        {reports && reports.length === 0 && <p className="text-sm text-slate-500">No pending reports.</p>}
+      </div>
+    </div>
+  );
+}
+
 export default function Admin() {
   useDocumentMeta({ title: 'Admin', description: 'ScamShield National admin panel.', noindex: true });
 
@@ -145,11 +267,12 @@ export default function Admin() {
     <div className="max-w-3xl mx-auto px-4 py-10">
       <h1 className="text-2xl font-bold text-slate-900 mb-2">Admin</h1>
       <p className="text-slate-600 mb-6">
-        Scam data entry and article publishing. Requires an admin-role account (see backend{' '}
+        Scam data entry, report review, and article publishing. Requires an admin-role account (see backend{' '}
         <code className="text-xs bg-slate-100 px-1 py-0.5 rounded">ADMIN_EMAILS</code>).
       </p>
 
       <div className="space-y-6">
+        <ReportsQueue />
         <ScamForm />
         <ArticleForm />
       </div>
