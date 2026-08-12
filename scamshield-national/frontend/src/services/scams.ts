@@ -5,6 +5,7 @@ export interface ScamListParams {
   category?: string;
   state?: string;
   zip?: string;
+  country?: string;
   search?: string;
   sort?: string;
   page?: number;
@@ -12,6 +13,11 @@ export interface ScamListParams {
 
 export async function fetchScams(params: ScamListParams = {}) {
   const { data } = await api.get<{ data: Scam[] }>('/scams', { params });
+  return data.data;
+}
+
+export async function fetchCountries() {
+  const { data } = await api.get<{ data: string[] }>('/scams/countries');
   return data.data;
 }
 

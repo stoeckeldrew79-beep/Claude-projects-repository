@@ -7,6 +7,7 @@ const router = Router();
 
 router.get('/search', scamsController.search);
 router.get('/nearby', requireAuth, requireSubscriber, scamsController.nearby);
+router.get('/countries', scamsController.countries);
 router.get('/', scamsController.list);
 router.get('/:slug', scamsController.getBySlug);
 router.post('/', requireAuth, requireRole('admin'), scamsController.create);

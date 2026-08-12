@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { Scam } from '../types';
+import { countryName } from '../utils/countries';
 
 const ALERT_COLORS: Record<string, string> = {
   low: 'bg-slate-100 text-slate-700',
@@ -23,6 +24,9 @@ export function ScamCard({ scam }: { scam: Scam }) {
         )}
       </div>
       <p className="text-sm text-slate-600 mt-1 line-clamp-2">{scam.description}</p>
+      {scam.country && (
+        <p className="text-xs text-slate-400 mt-2">{countryName(scam.country)}</p>
+      )}
     </Link>
   );
 }

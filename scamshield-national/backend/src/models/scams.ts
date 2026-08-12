@@ -11,6 +11,7 @@ const UPDATABLE_SCAM_FIELDS = [
   'is_active',
   'is_historical',
   'sources',
+  'country',
 ] as const;
 
 export interface Scam {
@@ -24,6 +25,7 @@ export interface Scam {
   is_active: boolean;
   is_historical: boolean;
   sources: string[] | null;
+  country: string | null;
   created_at: string;
   updated_at: string;
 }
@@ -32,6 +34,7 @@ export interface ScamListFilters {
   category?: string;
   state?: string;
   zip?: string;
+  country?: string;
   search?: string;
   sort?: 'newest' | 'oldest' | 'alert_level';
   page?: number;
@@ -39,13 +42,17 @@ export interface ScamListFilters {
 }
 
 export async function listScams(filters: ScamListFilters) {
-  const { category, state, zip, search, sort = 'newest', page = 1, pageSize = 20 } = filters;
+  const { category, state, zip, country, search, sort = 'newest', page = 1, pageSize = 20 } = filters;
   const conditions: string[] = ['s.is_active = true'];
   const values: unknown[] = [];
 
   if (category) {
     values.push(category);
     conditions.push(`c.slug = $${values.length}`);
+  }
+  if (country) {
+    values.push(country);
+    conditions.push(`s.country = $${values.length}`);
   }
   if (state || zip) {
     const locConditions: string[] = [];
@@ -85,6 +92,13 @@ export async function listScams(filters: ScamListFilters) {
     values
   );
   return rows;
+}
+
+export async function listActiveCountries() {
+  const { rows } = await pool.query(
+    `SELECT DISTINCT country FROM scams WHERE is_active = true AND country IS NOT NULL ORDER BY country ASC`
+  );
+  return rows.map((r) => r.country as string);
 }
 
 export async function getScamBySlug(slug: string) {
@@ -128,8 +142,8 @@ export async function scamsNearZip(zip: string) {
 
 export async function createScam(data: Partial<Scam>) {
   const { rows } = await pool.query(
-    `INSERT INTO scams (name, slug, description, category_id, alert_level, first_recorded, is_historical, sources)
-     VALUES ($1, $2, $3, $4, $5, $6, $7, $8)
+    `INSERT INTO scams (name, slug, description, category_id, alert_level, first_recorded, is_historical, sources, country)
+     VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9)
      RETURNING *`,
     [
       data.name,
@@ -140,6 +154,7 @@ export async function createScam(data: Partial<Scam>) {
       data.first_recorded ?? null,
       data.is_historical ?? false,
       data.sources ?? [],
+      data.country ?? 'US',
     ]
   );
   return rows[0];

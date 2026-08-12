@@ -6,6 +6,7 @@ import { AlertLevel } from '../types';
 import { useAuthStore } from '../store/useAuthStore';
 import { useDismissReport, usePendingReports, usePromoteReport } from '../hooks/useReports';
 import { ScamReport } from '../services/reports';
+import { COUNTRY_NAMES } from '../utils/countries';
 
 function slugify(value: string): string {
   return value
@@ -20,14 +21,17 @@ function ScamForm() {
   const [name, setName] = useState('');
   const [description, setDescription] = useState('');
   const [alertLevel, setAlertLevel] = useState('');
+  const [country, setCountry] = useState('US');
 
   const mutation = useMutation({
     mutationFn: createScam,
     onSuccess: () => {
       queryClient.invalidateQueries({ queryKey: ['scams'] });
+      queryClient.invalidateQueries({ queryKey: ['countries'] });
       setName('');
       setDescription('');
       setAlertLevel('');
+      setCountry('US');
     },
   });
 
@@ -38,6 +42,7 @@ function ScamForm() {
       slug: slugify(name),
       description,
       alert_level: (alertLevel || undefined) as AlertLevel | undefined,
+      country,
     });
   }
 
@@ -69,6 +74,17 @@ function ScamForm() {
         <option value="medium">Medium</option>
         <option value="high">High</option>
         <option value="critical">Critical</option>
+      </select>
+      <select
+        value={country}
+        onChange={(e) => setCountry(e.target.value)}
+        className="w-full rounded-md border border-slate-300 px-3 py-2 text-sm"
+      >
+        {Object.entries(COUNTRY_NAMES).map(([code, label]) => (
+          <option key={code} value={code}>
+            {label}
+          </option>
+        ))}
       </select>
       <button
         type="submit"

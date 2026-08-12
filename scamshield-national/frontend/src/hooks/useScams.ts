@@ -1,5 +1,5 @@
 import { useQuery } from '@tanstack/react-query';
-import { fetchCategories, fetchScamBySlug, fetchScams, ScamListParams } from '../services/scams';
+import { fetchCategories, fetchCountries, fetchScamBySlug, fetchScams, ScamListParams } from '../services/scams';
 
 export function useScams(params: ScamListParams = {}) {
   return useQuery({
@@ -20,5 +20,12 @@ export function useCategories() {
   return useQuery({
     queryKey: ['categories'],
     queryFn: fetchCategories,
+  });
+}
+
+export function useCountries() {
+  return useQuery({
+    queryKey: ['countries'],
+    queryFn: fetchCountries,
   });
 }

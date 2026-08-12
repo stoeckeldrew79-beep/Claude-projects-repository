@@ -7,6 +7,7 @@ export interface NewScam {
   description: string;
   alert_level?: AlertLevel;
   is_historical?: boolean;
+  country?: string;
 }
 
 export async function createScam(scam: NewScam) {

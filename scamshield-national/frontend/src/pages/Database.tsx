@@ -1,8 +1,9 @@
 import { useState } from 'react';
-import { useCategories, useScams } from '../hooks/useScams';
+import { useCategories, useCountries, useScams } from '../hooks/useScams';
 import { ScamCard } from '../components/ScamCard';
 import { useDocumentMeta } from '../hooks/useDocumentMeta';
 import { TrendWatch } from '../components/TrendWatch';
+import { countryName } from '../utils/countries';
 
 export default function Database() {
   useDocumentMeta({
@@ -13,8 +14,10 @@ export default function Database() {
 
   const [search, setSearch] = useState('');
   const [category, setCategory] = useState<string | undefined>(undefined);
+  const [country, setCountry] = useState<string | undefined>(undefined);
   const { data: categories } = useCategories();
-  const { data: scams, isLoading } = useScams({ search: search || undefined, category });
+  const { data: countries } = useCountries();
+  const { data: scams, isLoading } = useScams({ search: search || undefined, category, country });
 
   return (
     <div className="max-w-5xl mx-auto px-4 py-10">
@@ -43,6 +46,20 @@ export default function Database() {
             </option>
           ))}
         </select>
+        {countries && countries.length > 1 && (
+          <select
+            value={country ?? ''}
+            onChange={(e) => setCountry(e.target.value || undefined)}
+            className="rounded-md border border-slate-300 px-3 py-2 text-sm"
+          >
+            <option value="">All countries</option>
+            {countries.map((c) => (
+              <option key={c} value={c}>
+                {countryName(c)}
+              </option>
+            ))}
+          </select>
+        )}
       </div>
 
       {isLoading && <p className="text-slate-500">Loading…</p>}
