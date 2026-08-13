@@ -503,10 +503,87 @@ async function seedCategoriesAndScams() {
   console.log(`seed: upserted ${SEED_SCAMS.length} scams`);
 }
 
+interface SeedGlobalSource {
+  agency_name: string;
+  country: string;
+  country_name: string;
+  url: string;
+  description: string;
+  data_type: 'annual_report' | 'open_dataset' | 'public_stats';
+}
+
+// The major national fraud-reporting bodies that publish something the
+// public can actually read. Deliberately no seeded `global_stats` rows —
+// no unverified number gets shown to a user. An admin adds a stat only
+// after checking it against the agency's own report (see the admin panel's
+// Global Sources section); until then, the page shows an honest "no
+// verified figures yet" state per source, same principle as Trend Watch's
+// low-data handling.
+const SEED_GLOBAL_SOURCES: SeedGlobalSource[] = [
+  {
+    agency_name: 'Federal Trade Commission — Consumer Sentinel Network',
+    country: 'US',
+    country_name: 'United States',
+    url: 'https://www.ftc.gov/exploredata',
+    description:
+      'The FTC collects millions of consumer fraud, identity theft, and do-not-call complaints. The raw complaint database is restricted to law enforcement, but the FTC publishes aggregate figures and visualizations (by category, state, and year) publicly.',
+    data_type: 'public_stats',
+  },
+  {
+    agency_name: 'FBI Internet Crime Complaint Center (IC3)',
+    country: 'US',
+    country_name: 'United States',
+    url: 'https://www.ic3.gov/',
+    description:
+      'The FBI\'s central hub for reporting cyber-enabled crime. Publishes an annual report aggregating and analyzing complaint data to identify internet crime trends; does not offer a public API or raw dataset.',
+    data_type: 'annual_report',
+  },
+  {
+    agency_name: 'National Anti-Scam Centre / Scamwatch (ACCC)',
+    country: 'AU',
+    country_name: 'Australia',
+    url: 'https://www.scamwatch.gov.au/research-and-resources/targeting-scams-report',
+    description:
+      'The Australian Competition and Consumer Commission runs Scamwatch and publishes an annual "Targeting Scams" report combining data from Scamwatch, ReportCyber, the Australian Financial Crimes Exchange, IDCARE, and ASIC.',
+    data_type: 'annual_report',
+  },
+  {
+    agency_name: 'Canadian Anti-Fraud Centre',
+    country: 'CA',
+    country_name: 'Canada',
+    url: 'https://open.canada.ca/data/en/dataset/6a09c998-cddb-4a22-beff-4dca67ab892f',
+    description:
+      'A joint RCMP/OPP/Competition Bureau centre that collects fraud reports from the Canadian public. Its Fraud Reporting System dataset is published on Canada\'s Open Government Portal and updated quarterly — the most genuinely open, machine-readable source found so far.',
+    data_type: 'open_dataset',
+  },
+  {
+    agency_name: 'Action Fraud (National Fraud Intelligence Bureau)',
+    country: 'GB',
+    country_name: 'United Kingdom',
+    url: 'https://www.actionfraud.police.uk/fraud-stats',
+    description:
+      "The UK's national fraud and cybercrime reporting service, run by the City of London Police. Publishes a public fraud statistics page; the underlying case data feeds law enforcement's National Fraud Intelligence Bureau, not a public API.",
+    data_type: 'public_stats',
+  },
+];
+
+async function seedGlobalSources() {
+  for (const source of SEED_GLOBAL_SOURCES) {
+    await pool.query(
+      `INSERT INTO global_sources (agency_name, country, country_name, url, description, data_type)
+       VALUES ($1, $2, $3, $4, $5, $6)
+       ON CONFLICT (agency_name, country) DO NOTHING`,
+      [source.agency_name, source.country, source.country_name, source.url, source.description, source.data_type]
+    );
+  }
+  console.log(`seed: upserted ${SEED_GLOBAL_SOURCES.length} global sources`);
+}
+
 async function main() {
   await seedArticles(NOTORIOUS_ARTICLES, 'notorious');
   await seedArticles(GUIDE_ARTICLES, 'guide');
   await seedCategoriesAndScams();
+  await seedGlobalSources();
   await pool.end();
 }
 

@@ -8,6 +8,7 @@ import { useDismissReport, usePendingReports, usePromoteReport } from '../hooks/
 import { ScamReport } from '../services/reports';
 import { COUNTRY_NAMES } from '../utils/countries';
 import { useApproveDraft, useDiscardDraft, useDraftArticles } from '../hooks/useDrafts';
+import { useCreateGlobalStat, useDeleteGlobalStat, useGlobalSources } from '../hooks/useGlobalSources';
 import { Article } from '../types';
 
 function slugify(value: string): string {
@@ -367,6 +368,170 @@ function DraftsQueue() {
   );
 }
 
+function GlobalStatForm({ sourceId, onDone }: { sourceId: string; onDone: () => void }) {
+  const [periodLabel, setPeriodLabel] = useState('');
+  const [headline, setHeadline] = useState('');
+  const [reportCount, setReportCount] = useState('');
+  const [lossAmount, setLossAmount] = useState('');
+  const [currency, setCurrency] = useState('');
+  const [topCategory, setTopCategory] = useState('');
+  const [sourceUrl, setSourceUrl] = useState('');
+  const [publishedDate, setPublishedDate] = useState('');
+  const create = useCreateGlobalStat();
+
+  function handleSubmit(e: FormEvent) {
+    e.preventDefault();
+    create.mutate(
+      {
+        source_id: sourceId,
+        period_label: periodLabel,
+        headline,
+        report_count: reportCount ? Number(reportCount) : undefined,
+        loss_amount: lossAmount ? Number(lossAmount) : undefined,
+        currency: currency || undefined,
+        top_category: topCategory || undefined,
+        source_url: sourceUrl,
+        published_date: publishedDate || undefined,
+      },
+      { onSuccess: onDone }
+    );
+  }
+
+  return (
+    <form onSubmit={handleSubmit} className="mt-3 space-y-2 rounded-md bg-slate-50 p-3">
+      <p className="text-xs text-amber-700">
+        Only add a figure after confirming it directly on the agency's own report — never estimate or transcribe
+        from a secondary summary.
+      </p>
+      <input
+        required
+        value={periodLabel}
+        onChange={(e) => setPeriodLabel(e.target.value)}
+        placeholder="Period (e.g. 2025, Q2 2026)"
+        className="w-full rounded-md border border-slate-300 px-2 py-1.5 text-xs"
+      />
+      <input
+        required
+        value={headline}
+        onChange={(e) => setHeadline(e.target.value)}
+        placeholder="Headline (one factual sentence)"
+        className="w-full rounded-md border border-slate-300 px-2 py-1.5 text-xs"
+      />
+      <div className="flex gap-2">
+        <input
+          value={reportCount}
+          onChange={(e) => setReportCount(e.target.value)}
+          placeholder="Report count (optional)"
+          type="number"
+          className="w-full rounded-md border border-slate-300 px-2 py-1.5 text-xs"
+        />
+        <input
+          value={lossAmount}
+          onChange={(e) => setLossAmount(e.target.value)}
+          placeholder="Loss amount (optional)"
+          type="number"
+          className="w-full rounded-md border border-slate-300 px-2 py-1.5 text-xs"
+        />
+        <input
+          value={currency}
+          onChange={(e) => setCurrency(e.target.value)}
+          placeholder="Currency (e.g. USD)"
+          className="w-24 rounded-md border border-slate-300 px-2 py-1.5 text-xs"
+        />
+      </div>
+      <input
+        value={topCategory}
+        onChange={(e) => setTopCategory(e.target.value)}
+        placeholder="Top category (optional)"
+        className="w-full rounded-md border border-slate-300 px-2 py-1.5 text-xs"
+      />
+      <input
+        required
+        value={sourceUrl}
+        onChange={(e) => setSourceUrl(e.target.value)}
+        placeholder="Direct link to the exact report cited"
+        className="w-full rounded-md border border-slate-300 px-2 py-1.5 text-xs"
+      />
+      <input
+        value={publishedDate}
+        onChange={(e) => setPublishedDate(e.target.value)}
+        placeholder="Published date (optional)"
+        type="date"
+        className="w-full rounded-md border border-slate-300 px-2 py-1.5 text-xs"
+      />
+      <div className="flex gap-2">
+        <button
+          type="submit"
+          disabled={create.isPending}
+          className="px-3 py-1.5 rounded-md bg-slate-900 text-white text-xs font-medium disabled:opacity-50"
+        >
+          {create.isPending ? 'Saving…' : 'Save figure'}
+        </button>
+        <button type="button" onClick={onDone} className="px-3 py-1.5 rounded-md border border-slate-300 text-xs font-medium">
+          Cancel
+        </button>
+      </div>
+      {create.isError && <p className="text-xs text-red-700">Couldn't save — check you're signed in as an admin.</p>}
+    </form>
+  );
+}
+
+function GlobalSourcesPanel() {
+  const user = useAuthStore((s) => s.user);
+  const { data: sources, isLoading, isError } = useGlobalSources();
+  const [addingTo, setAddingTo] = useState<string | null>(null);
+  const deleteStat = useDeleteGlobalStat();
+
+  return (
+    <div className="rounded-lg border border-slate-200 p-5">
+      <h2 className="font-semibold text-slate-900">Global sources</h2>
+      <p className="text-sm text-slate-500 mt-1">
+        Official agency figures shown on /global-sources. Add a stat only after verifying it against the agency's
+        own published report.
+      </p>
+      {!user && <p className="mt-3 text-sm text-red-700">Sign in as an admin to manage this.</p>}
+      {isLoading && <p className="mt-3 text-sm text-slate-500">Loading…</p>}
+      {isError && <p className="mt-3 text-sm text-red-700">Couldn't load sources.</p>}
+      <div className="mt-4 space-y-4">
+        {sources?.map((source) => (
+          <div key={source.id} className="border-t border-slate-100 pt-3 first:border-t-0 first:pt-0">
+            <p className="text-sm font-medium text-slate-900">
+              {source.agency_name} <span className="text-xs font-normal text-slate-400">({source.country_name})</span>
+            </p>
+            <ul className="mt-1 space-y-1">
+              {source.stats.map((stat) => (
+                <li key={stat.id} className="flex items-center justify-between gap-2 text-xs text-slate-600">
+                  <span>
+                    {stat.period_label} — {stat.headline}
+                  </span>
+                  <button
+                    type="button"
+                    onClick={() => deleteStat.mutate(stat.id)}
+                    className="shrink-0 text-red-700 hover:underline"
+                  >
+                    Remove
+                  </button>
+                </li>
+              ))}
+            </ul>
+            {addingTo === source.id ? (
+              <GlobalStatForm sourceId={source.id} onDone={() => setAddingTo(null)} />
+            ) : (
+              <button
+                type="button"
+                onClick={() => setAddingTo(source.id)}
+                className="mt-2 px-3 py-1.5 rounded-md border border-slate-300 text-xs font-medium"
+              >
+                Add a verified figure
+              </button>
+            )}
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
+
 export default function Admin() {
   useDocumentMeta({ title: 'Admin', description: 'ScamShield National admin panel.', noindex: true });
 
@@ -381,6 +546,7 @@ export default function Admin() {
       <div className="space-y-6">
         <ReportsQueue />
         <DraftsQueue />
+        <GlobalSourcesPanel />
         <ScamForm />
         <ArticleForm />
       </div>

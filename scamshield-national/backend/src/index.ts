@@ -10,6 +10,7 @@ import alertsRoutes from './routes/alerts';
 import subscriptionsRoutes from './routes/subscriptions';
 import articlesRoutes from './routes/articles';
 import scamReportsRoutes from './routes/scamReports';
+import globalSourcesRoutes from './routes/globalSources';
 import { publicApiLimiter } from './middleware/rateLimit';
 
 process.on('unhandledRejection', (reason) => {
@@ -38,6 +39,7 @@ v1.use('/alerts', alertsRoutes);
 v1.use('/subscriptions', subscriptionsRoutes);
 v1.use('/articles', articlesRoutes);
 v1.use('/reports', scamReportsRoutes);
+v1.use('/global-sources', globalSourcesRoutes);
 
 app.use('/v1', v1);
 

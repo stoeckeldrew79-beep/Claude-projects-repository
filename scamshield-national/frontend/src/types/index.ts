@@ -63,6 +63,30 @@ export interface Article {
   created_at: string;
 }
 
+export interface GlobalStat {
+  id: string;
+  source_id: string;
+  period_label: string;
+  headline: string;
+  report_count: number | null;
+  loss_amount: number | null;
+  currency: string | null;
+  top_category: string | null;
+  source_url: string;
+  published_date: string | null;
+}
+
+export interface GlobalSource {
+  id: string;
+  agency_name: string;
+  country: string;
+  country_name: string;
+  url: string;
+  description: string;
+  data_type: 'annual_report' | 'open_dataset' | 'public_stats';
+  stats: GlobalStat[];
+}
+
 export type SubscriptionTier = 'free' | 'basic' | 'pro' | 'family' | 'business';
 
 export interface User {
