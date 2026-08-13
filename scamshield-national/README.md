@@ -8,6 +8,10 @@ for the full architecture, schema, and API design this scaffold implements.
 
 Implemented:
 - PostgreSQL schema (9 migrations) — scams, categories, users, alerts, articles, subscriptions
+- Scam database seed data: 12 categories (FTC/IC3-style taxonomy) and 24 well-documented,
+  real scam-pattern entries (`npm run seed`), covering phishing, romance scams, tech support
+  scams, government impersonation, BEC, investment fraud, package delivery scams, employment
+  scams, charity scams, identity theft, online shopping scams, and lottery/sweepstakes scams
 - Backend REST API: scams, categories (incl. `/categories/trends`), users, articles, alerts, subscriptions
 - Real email+password auth (bcrypt) with JWT sessions and role/tier-gated routes
 - Real Stripe checkout/portal/webhook flow, syncing subscription tier from live events
