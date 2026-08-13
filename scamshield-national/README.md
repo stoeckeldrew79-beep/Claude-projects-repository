@@ -26,6 +26,11 @@ Implemented:
   (recurring scammer contact info, category spikes) and drafts articles with Claude — every
   draft lands unpublished in the admin review queue (`/admin`, or `GET /articles/drafts`);
   nothing is ever auto-published
+- Global Scam Intelligence (`/global-sources`): a directory of the major national fraud-reporting
+  agencies worldwide (FTC, FBI IC3, ACCC/Scamwatch, Canadian Anti-Fraud Centre, Action Fraud).
+  There is no live global "all scams" API anywhere, so figures are added by an admin only after
+  verifying them against the agency's own report — never auto-ingested — and kept in a separate
+  table from our own report data so third-party stats are never blended with what we collected
 - A from-scratch security review found and fixed 4 vulnerabilities (SQL injection, mass-assignment
   billing bypass, a full authentication bypass, and stored HTML injection in alert emails) — see
   git history on this branch for details
