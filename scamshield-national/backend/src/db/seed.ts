@@ -229,9 +229,284 @@ async function seedArticles(articles: SeedArticle[], label: string) {
   console.log(`seed: upserted ${articles.length} ${label} articles`);
 }
 
+interface SeedCategory {
+  name: string;
+  slug: string;
+  description: string;
+}
+
+// The taxonomy the FTC's Consumer Sentinel and the FBI's IC3 use to group
+// scam reports — not an exhaustive list, but the categories that cover the
+// large majority of what gets reported.
+const SEED_CATEGORIES: SeedCategory[] = [
+  { name: 'Phishing', slug: 'phishing', description: 'Fake emails, texts, or calls designed to steal login credentials or personal information.' },
+  { name: 'Romance Scams', slug: 'romance-scams', description: 'Fake online relationships built to manipulate a victim into sending money.' },
+  { name: 'Tech Support Scams', slug: 'tech-support-scams', description: 'Fake virus warnings and impersonated tech support used to gain remote access or payment.' },
+  { name: 'Government Impersonation', slug: 'government-impersonation', description: 'Callers posing as the IRS, Social Security Administration, or police to demand urgent payment.' },
+  { name: 'Business Email Compromise', slug: 'business-email-compromise', description: 'Compromised or spoofed business email used to redirect wire transfers and payments.' },
+  { name: 'Investment Fraud', slug: 'investment-fraud', description: 'Fake trading platforms and investment clubs promising outsized, guaranteed returns.' },
+  { name: 'Package Delivery Scams', slug: 'package-delivery-scams', description: 'Fake shipping-carrier texts and emails about a delivery problem or fee.' },
+  { name: 'Employment Scams', slug: 'employment-scams', description: 'Fake job offers used to extract fees, personal data, or fraudulent check deposits.' },
+  { name: 'Charity Scams', slug: 'charity-scams', description: 'Fake or impersonated charities soliciting donations, often after a widely covered disaster.' },
+  { name: 'Identity Theft', slug: 'identity-theft', description: 'Schemes designed to harvest and misuse personal or financial information.' },
+  { name: 'Online Shopping Scams', slug: 'online-shopping-scams', description: 'Fake storefronts and marketplace listings that take payment without delivering real goods.' },
+  { name: 'Lottery & Sweepstakes Scams', slug: 'lottery-sweepstakes-scams', description: 'Fake prize notifications that require a fee or personal information to "release" winnings.' },
+];
+
+interface SeedScam {
+  name: string;
+  slug: string;
+  description: string;
+  categorySlug: string;
+  alertLevel: 'low' | 'medium' | 'high' | 'critical';
+  sources: string[];
+}
+
+const SEED_SCAMS: SeedScam[] = [
+  {
+    name: 'Fake Netflix Billing Email',
+    slug: 'netflix-billing-phishing-email',
+    description:
+      'An email formatted to look like a real Netflix billing notice claims your payment failed and your account will be suspended, linking to a fake login page that harvests your email, password, and card details. Netflix does not ask you to confirm payment information by clicking a link in an email — check or update billing only inside the app or by typing netflix.com directly into your browser.',
+    categorySlug: 'phishing',
+    alertLevel: 'medium',
+    sources: ['FTC Consumer Advice'],
+  },
+  {
+    name: 'Fake DocuSign Signature Request',
+    slug: 'docusign-phishing-email',
+    description:
+      'An email impersonating DocuSign asks you to review and sign a document, linking to a fake sign-in page designed to steal your email credentials. These are frequently sent to employees at a company, since a "document needs signature" request rarely raises suspicion in an office setting. Verify unexpected signature requests directly with the sender through a separate channel before clicking through.',
+    categorySlug: 'phishing',
+    alertLevel: 'medium',
+    sources: ['FBI IC3'],
+  },
+  {
+    name: 'Military Deployment Romance Scam',
+    slug: 'military-deployment-romance-scam',
+    description:
+      'A scammer builds an online relationship using a profile claiming to be a U.S. service member deployed overseas, using a stolen photo of a real service member. The deployment cover story explains away video calls, unusual phone numbers, and delays, while building toward requests for money for things like leave approval, communication fees, or a flight home. The Department of Defense does not charge service members for leave or communication.',
+    categorySlug: 'romance-scams',
+    alertLevel: 'high',
+    sources: ['FTC Consumer Advice', 'DoD Cyber Crime Center'],
+  },
+  {
+    name: 'Widowed-Profile Romance Scam',
+    slug: 'widowed-profile-romance-scam',
+    description:
+      'A dating profile presents as a recently widowed professional, often claiming international work (engineering, medicine, or business abroad) that explains why an in-person meeting keeps falling through. The "widowed" framing is used deliberately to build fast emotional trust and to explain financial hardship later in the conversation. Any request for money from someone you have not met in person is a reason to stop and verify, regardless of how long you have been talking.',
+    categorySlug: 'romance-scams',
+    alertLevel: 'high',
+    sources: ['FTC Consumer Advice'],
+  },
+  {
+    name: 'Fake Microsoft Security Pop-Up',
+    slug: 'fake-microsoft-security-popup',
+    description:
+      'A browser pop-up styled to look like a Windows system alert claims your computer is infected and displays a phone number for "Microsoft support," sometimes locking the browser in full-screen mode. Calling the number connects you to a scammer who asks for remote access to "fix" the fabricated problem, then pressures for payment. No legitimate antivirus or operating system vendor detects an infection and tells you to call a phone number.',
+    categorySlug: 'tech-support-scams',
+    alertLevel: 'high',
+    sources: ['FTC Consumer Advice'],
+  },
+  {
+    name: 'Unsolicited "Your Computer Is Infected" Call',
+    slug: 'unsolicited-tech-support-call',
+    description:
+      'A caller claims to be from a well-known tech company and says they have detected a virus or security breach on your computer, asking you to open a remote-access tool so they can "show you" the problem. Once connected, they may plant fake evidence of infection, lock files, or search for financial information, then demand payment — often by gift card or wire transfer — to resolve an issue that was never real.',
+    categorySlug: 'tech-support-scams',
+    alertLevel: 'high',
+    sources: ['FTC Consumer Advice'],
+  },
+  {
+    name: 'Fake Social Security Suspension Call',
+    slug: 'fake-ssa-suspension-call',
+    description:
+      'A caller claims your Social Security number has been "suspended" due to suspicious activity or a crime committed in your name, and that resolving it requires immediate payment or moving your money to a "safe" government-controlled account. The Social Security Administration will not call to threaten suspension of your number, and never asks for payment by gift card, wire transfer, or cash. Hang up and, if concerned, contact the SSA directly using the number on ssa.gov.',
+    categorySlug: 'government-impersonation',
+    alertLevel: 'critical',
+    sources: ['SSA Office of Inspector General', 'FTC Consumer Advice'],
+  },
+  {
+    name: 'Fake Arrest Warrant Call',
+    slug: 'fake-arrest-warrant-call',
+    description:
+      'A caller impersonating a police officer or court official claims you missed jury duty or have an outstanding warrant, and that immediate payment (by gift card, wire transfer, or in-person cash pickup by a "courier") will prevent arrest. Caller ID may be spoofed to display a real local police non-emergency number. No court or police department resolves a warrant over the phone with a same-call payment demand.',
+    categorySlug: 'government-impersonation',
+    alertLevel: 'critical',
+    sources: ['FTC Consumer Advice'],
+  },
+  {
+    name: 'Fake CEO Wire Transfer Request',
+    slug: 'fake-ceo-wire-transfer-request',
+    description:
+      'An email spoofed or closely mimicking an executive’s address instructs an employee — usually in finance or accounting — to urgently wire funds for a confidential deal, often timed for when the real executive is traveling and hard to reach for a quick confirmation. The request emphasizes urgency and discretion specifically to discourage the normal verification process. Any wire request received only by email should be confirmed by phone using a number you already had on file, not one provided in the message.',
+    categorySlug: 'business-email-compromise',
+    alertLevel: 'critical',
+    sources: ['FBI IC3'],
+  },
+  {
+    name: 'Vendor Invoice Bank Account Change',
+    slug: 'vendor-invoice-bank-change-scam',
+    description:
+      'A scammer who has compromised or spoofed a real vendor’s email sends an invoice, or a note about an upcoming invoice, stating their bank account has changed and providing new payment details. Because the invoice and vendor relationship are genuine, the fraud is only in the redirected account — payments look completely routine until the real vendor calls asking why they haven’t been paid. Always confirm banking-detail changes by phone with a previously verified contact before updating payment records.',
+    categorySlug: 'business-email-compromise',
+    alertLevel: 'critical',
+    sources: ['FBI IC3'],
+  },
+  {
+    name: 'Pig Butchering Fake Crypto Platform',
+    slug: 'pig-butchering-fake-crypto-platform',
+    description:
+      'After weeks of relationship-building over text or a dating app, a new contact introduces a cryptocurrency trading platform showing consistent, impressive returns. The platform is fabricated and entirely controlled by the scam operation; early small withdrawals are permitted specifically to build confidence before the victim commits a much larger sum, at which point withdrawals are blocked behind invented fees or "tax" payments. A platform that only allows withdrawals after another payment is a definitive red flag.',
+    categorySlug: 'investment-fraud',
+    alertLevel: 'critical',
+    sources: ['FBI IC3', 'FTC Consumer Advice'],
+  },
+  {
+    name: 'Guaranteed-Returns Investment Club',
+    slug: 'guaranteed-returns-investment-club',
+    description:
+      'An investment opportunity — often pitched through a social media group, seminar, or referral from an acquaintance — promises fixed, guaranteed returns well above what any legitimate market investment offers, sometimes described as a "club" or "pool" that only insiders can join. Legitimate investments carry risk and cannot guarantee returns; a promised fixed high return is one of the most reliable indicators of fraud, regardless of how credible or personable the person offering it seems.',
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ['SEC Office of Investor Education', 'FTC Consumer Advice'],
+  },
+  {
+    name: 'Fake USPS Redelivery Text',
+    slug: 'fake-usps-redelivery-text',
+    description:
+      'A text claiming to be from USPS says a package could not be delivered due to an incomplete address and links to a page requesting a small redelivery fee and your card details. USPS does not request payment by text link for redelivery; if you want to check a real package, use informed delivery or track it directly on usps.com with your actual tracking number.',
+    categorySlug: 'package-delivery-scams',
+    alertLevel: 'medium',
+    sources: ['USPS Postal Inspection Service', 'FTC Consumer Advice'],
+  },
+  {
+    name: 'Fake FedEx Customs Fee Text',
+    slug: 'fake-fedex-customs-fee-text',
+    description:
+      'A text or email styled as a FedEx delivery notice claims an international package is being held pending a small customs fee, with a link to pay it. The message is sent broadly enough that a meaningful share of recipients are genuinely expecting some delivery, which makes the fake notice feel plausible. Confirm any real shipment directly through the carrier’s official app or website, never through a link in an unsolicited message.',
+    categorySlug: 'package-delivery-scams',
+    alertLevel: 'medium',
+    sources: ['FTC Consumer Advice'],
+  },
+  {
+    name: 'Fake Remote Job Overpayment Check',
+    slug: 'fake-remote-job-overpayment-check',
+    description:
+      'After a brief, informal hiring process, a new "employer" sends a check for more than the agreed signing bonus or equipment stipend and asks the new hire to deposit it and wire back the difference. The check is fraudulent and will eventually bounce, but not before the bank has made the funds provisionally available — leaving the victim liable for the full amount once the check is reversed, on top of the money already wired back.',
+    categorySlug: 'employment-scams',
+    alertLevel: 'high',
+    sources: ['FTC Consumer Advice'],
+  },
+  {
+    name: 'Mystery Shopper Job Scam',
+    slug: 'mystery-shopper-job-scam',
+    description:
+      'An ad or unsolicited message offers paid work "secret shopping" at retail stores or wire-transfer services, often including a check to cover a first assignment’s purchases and fees. The instructions typically ask the new hire to deposit the check, spend part of it at a specified retailer, and wire or gift-card the remainder as part of "evaluating" the transfer service — the check bounces after the money has already been sent. Legitimate mystery-shopping work does not require you to spend your own deposited funds and wire money back.',
+    categorySlug: 'employment-scams',
+    alertLevel: 'high',
+    sources: ['FTC Consumer Advice'],
+  },
+  {
+    name: 'Fake Disaster Relief Charity',
+    slug: 'fake-disaster-relief-charity',
+    description:
+      'In the days following a major hurricane, wildfire, or earthquake, a solicitation appears asking for donations to help victims, using real news photography and a name close enough to a well-known relief organization to avoid a second look. Some of these organizations are created specifically in the window after a disaster and disappear once donations taper off. Verify any disaster-relief charity independently through an evaluator like Charity Navigator or the BBB Wise Giving Alliance before donating.',
+    categorySlug: 'charity-scams',
+    alertLevel: 'medium',
+    sources: ['FTC Consumer Advice', 'BBB Wise Giving Alliance'],
+  },
+  {
+    name: 'Fake Veterans Charity Phone Call',
+    slug: 'fake-veterans-charity-call',
+    description:
+      'A caller solicits donations for wounded veterans or a veterans’ support fund, using patriotic and emotional appeals and pressuring for an immediate pledge on the call itself. Genuine veterans’ charities are registered and can be independently verified; a caller who pressures for an on-the-spot donation and cannot answer basic questions about how funds are used is a strong warning sign. Ask for written information and verify the organization independently before giving.',
+    categorySlug: 'charity-scams',
+    alertLevel: 'medium',
+    sources: ['FTC Consumer Advice'],
+  },
+  {
+    name: 'Data Breach Follow-Up Phishing',
+    slug: 'data-breach-followup-phishing',
+    description:
+      'After a company discloses a real data breach, scammers send emails impersonating that company’s "security team," offering a link to "check if your data was affected" or to enroll in free credit monitoring. The link leads to a credential-harvesting page that steals exactly the kind of information the real breach notice was warning about. Go directly to the company’s official site to check breach notices and enroll in any monitoring offered, rather than clicking a link in a follow-up email.',
+    categorySlug: 'identity-theft',
+    alertLevel: 'high',
+    sources: ['FTC Consumer Advice'],
+  },
+  {
+    name: 'Fake Credit Monitoring Enrollment Call',
+    slug: 'fake-credit-monitoring-call',
+    description:
+      'A caller claims to represent a credit bureau or monitoring service and offers to "verify" your identity to set up free monitoring after a breach, asking for your Social Security number, date of birth, and account numbers over the phone. Real credit-monitoring enrollment does not require reciting your full SSN to an inbound caller you did not contact first. Hang up and enroll, if you choose to, directly through the bureau’s official website.',
+    categorySlug: 'identity-theft',
+    alertLevel: 'high',
+    sources: ['FTC Consumer Advice'],
+  },
+  {
+    name: 'Fake Discount Online Storefront',
+    slug: 'fake-discount-online-storefront',
+    description:
+      'A newly created online store, often promoted through social media ads, offers name-brand products at steep discounts. Orders are taken and paid for, but nothing ships, or a cheap counterfeit arrives instead of the advertised product, and the store becomes unreachable once enough orders come in. Check for independent reviews of the specific store (not just the product), a real physical address, and pay with a credit card, which offers dispute rights that debit cards and wire transfers do not.',
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'medium',
+    sources: ['FTC Consumer Advice', 'BBB'],
+  },
+  {
+    name: 'Marketplace Overpayment Scam',
+    slug: 'marketplace-overpayment-scam',
+    description:
+      'A buyer on an online marketplace sends a check or payment for more than the asking price, claiming it was a mistake by a shipping company or personal assistant, and asks the seller to refund the difference before the original payment has actually cleared. Once the seller refunds the "overpayment," the original payment bounces or is reversed, and the refunded money is gone. Never refund an overpayment before the original payment has fully and irreversibly cleared, which can take well over a week for a check.',
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'medium',
+    sources: ['FTC Consumer Advice'],
+  },
+  {
+    name: 'Fake Prize Notification Scam',
+    slug: 'fake-prize-notification-scam',
+    description:
+      'An email, letter, or call claims you’ve won a major sweepstakes or lottery prize, often invoking a real, well-known name, but requires paying "taxes," "processing," or "insurance" fees before the winnings can be released. Legitimate sweepstakes never require a winner to pay money to receive a prize, and you cannot win a lottery or sweepstakes you never entered.',
+    categorySlug: 'lottery-sweepstakes-scams',
+    alertLevel: 'medium',
+    sources: ['FTC Consumer Advice'],
+  },
+  {
+    name: '"You’ve Won a Free Cruise" Robocall',
+    slug: 'free-cruise-prize-robocall',
+    description:
+      'An automated call announces you’ve been selected for a free cruise or vacation package and prompts you to press a number to claim it, which connects to a live agent pushing for a credit card number to cover "port fees" or "taxes" — fees that, if charged, are rarely followed by any actual trip. These robocalls are typically sent in enormous batches at minimal cost, so being "selected" means nothing beyond having a phone number that was dialed. Hang up rather than pressing any number, which can also confirm your number as active to future robocallers.',
+    categorySlug: 'lottery-sweepstakes-scams',
+    alertLevel: 'low',
+    sources: ['FTC Consumer Advice', 'FCC'],
+  },
+];
+
+async function seedCategoriesAndScams() {
+  for (const category of SEED_CATEGORIES) {
+    await pool.query(
+      `INSERT INTO categories (name, slug, description)
+       VALUES ($1, $2, $3)
+       ON CONFLICT (slug) DO NOTHING`,
+      [category.name, category.slug, category.description]
+    );
+  }
+  console.log(`seed: upserted ${SEED_CATEGORIES.length} categories`);
+
+  for (const scam of SEED_SCAMS) {
+    await pool.query(
+      `INSERT INTO scams (name, slug, description, category_id, alert_level, is_active, sources, country)
+       VALUES ($1, $2, $3, (SELECT id FROM categories WHERE slug = $4), $5, true, $6, 'US')
+       ON CONFLICT (slug) DO NOTHING`,
+      [scam.name, scam.slug, scam.description, scam.categorySlug, scam.alertLevel, scam.sources]
+    );
+  }
+  console.log(`seed: upserted ${SEED_SCAMS.length} scams`);
+}
+
 async function main() {
   await seedArticles(NOTORIOUS_ARTICLES, 'notorious');
   await seedArticles(GUIDE_ARTICLES, 'guide');
+  await seedCategoriesAndScams();
   await pool.end();
 }
 
