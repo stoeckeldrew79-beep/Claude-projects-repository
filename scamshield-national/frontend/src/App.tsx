@@ -14,6 +14,7 @@ import Admin from './pages/Admin';
 import Login from './pages/Login';
 import { useAuthStore } from './store/useAuthStore';
 import { ShieldLogo } from './components/ShieldLogo';
+import { formatPhoneDisplay, PUBLIC_PHONE, telHref } from './utils/publicPhone';
 
 const NAV_LINKS = [
   { to: '/', label: 'Home', end: true },
@@ -65,9 +66,16 @@ function SiteHeader() {
       <div className="bg-[#0f1a2b] text-slate-300 text-xs">
         <div className="max-w-6xl mx-auto px-4 py-1.5 flex items-center justify-between">
           <span>A private consumer-protection service — not a government agency</span>
-          <Link to="/report" className="hidden sm:inline hover:text-white">
-            Report a scam online, 24/7 →
-          </Link>
+          <div className="hidden sm:flex items-center gap-4">
+            {PUBLIC_PHONE && (
+              <a href={telHref(PUBLIC_PHONE)} className="hover:text-white">
+                Call {formatPhoneDisplay(PUBLIC_PHONE)}
+              </a>
+            )}
+            <Link to="/report" className="hover:text-white">
+              Report a scam online, 24/7 →
+            </Link>
+          </div>
         </div>
       </div>
 
@@ -121,6 +129,14 @@ function SiteFooter() {
             ScamShield National is a private consumer-protection service. It is not a government agency and is not
             affiliated with, endorsed by, or acting on behalf of any government body.
           </p>
+          {PUBLIC_PHONE && (
+            <p className="mt-3 text-sm text-slate-500">
+              Call us:{' '}
+              <a href={telHref(PUBLIC_PHONE)} className="underline hover:text-slate-900">
+                {formatPhoneDisplay(PUBLIC_PHONE)}
+              </a>
+            </p>
+          )}
         </div>
         <div>
           <h3 className="text-sm font-semibold text-slate-900">Resources</h3>

@@ -32,9 +32,9 @@ Still stubbed / needs live credentials to fully exercise:
   verified live against the DB, but the actual drafting call needs a live key to exercise
 - Auth0/Supabase (spec 5.4) — currently real bcrypt password auth, not yet SSO
 - Actual Google Search Console verification (manual, post-deployment)
-- A live inbound phone reporting line and a full international rebrand were both explicitly
-  scoped out as separate decisions needing real infrastructure/legal/business input — not
-  built here
+- `VITE_PUBLIC_PHONE` — unset by default; the site shows no phone number until you configure
+  one (see "Public phone number" below). A full international rebrand remains an explicit,
+  separate business decision, not built here — see git history for the reasoning
 
 ## Local development
 
@@ -66,6 +66,29 @@ once a day is harmless. Example crontab entry for a daily 6am run:
 ```
 0 6 * * * cd /path/to/backend && npm run draft-articles >> /var/log/scamshield-drafts.log 2>&1
 ```
+
+## Public phone number
+
+`VITE_PUBLIC_PHONE` (frontend `.env`) controls the "Call us" link shown in the header and
+footer. It's unset by default — no number is shown until you configure one. Never point this
+at a number that isn't real and actually answered.
+
+**Recommended: a free Google Voice number that forwards to your real phone**, so the number
+published on the site never has to change even if your personal number does:
+
+1. Go to [voice.google.com](https://voice.google.com) and sign in with a Google account.
+2. Choose a number (search by area code).
+3. Under Settings → "Linked numbers," add your real cell number and turn on call forwarding —
+   calls to the Google Voice number will ring your phone.
+4. Put the Google Voice number in `VITE_PUBLIC_PHONE` (e.g. `+14075550123`).
+
+You can change which phone it forwards to at any time in Google Voice settings, with zero
+changes needed on the site. A paid Twilio number works the same way and is a natural upgrade
+path later, since Twilio is already wired up for SMS alerts (`TWILIO_*` in the backend `.env`).
+
+Note the site deliberately never claims 24/7 phone coverage — only the web form
+(`/report`) is described that way, since it doesn't depend on someone being available to
+answer a call.
 
 ## Project layout
 
