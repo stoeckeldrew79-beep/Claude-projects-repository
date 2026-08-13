@@ -21,6 +21,11 @@ export const countries = asyncHandler<AuthedRequest>(async (_req, res) => {
   res.json({ data: countries });
 });
 
+export const byCountry = asyncHandler<AuthedRequest>(async (_req, res) => {
+  const counts = await ScamsModel.countsByCountry();
+  res.json({ data: counts });
+});
+
 export const getBySlug = asyncHandler<AuthedRequest>(async (req, res) => {
   const scam = await ScamsModel.getScamBySlug(req.params.slug);
   if (!scam) return res.status(404).json({ error: 'Scam not found' });

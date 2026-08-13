@@ -36,6 +36,21 @@ export const list = asyncHandler<AuthedRequest>(async (req, res) => {
   res.json({ data: rows });
 });
 
+// Admin-only: the AI-draft review queue. Deliberately not exposed on the
+// public list() endpoint — a draft is unreviewed until a human approves it.
+export const listDrafts = asyncHandler<AuthedRequest>(async (_req, res) => {
+  const { rows } = await pool.query(
+    `SELECT * FROM articles WHERE published = false AND 'ai-draft' = ANY(tags) ORDER BY created_at DESC LIMIT 50`
+  );
+  res.json({ data: rows });
+});
+
+export const remove = asyncHandler<AuthedRequest>(async (req, res) => {
+  const { rows } = await pool.query('DELETE FROM articles WHERE id = $1 RETURNING id', [req.params.id]);
+  if (!rows[0]) return res.status(404).json({ error: 'Article not found' });
+  res.status(204).send();
+});
+
 export const getBySlug = asyncHandler<AuthedRequest>(async (req, res) => {
   const { rows } = await pool.query(
     `SELECT a.*, s.slug AS scam_slug

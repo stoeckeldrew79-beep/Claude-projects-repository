@@ -7,6 +7,8 @@ import { useAuthStore } from '../store/useAuthStore';
 import { useDismissReport, usePendingReports, usePromoteReport } from '../hooks/useReports';
 import { ScamReport } from '../services/reports';
 import { COUNTRY_NAMES } from '../utils/countries';
+import { useApproveDraft, useDiscardDraft, useDraftArticles } from '../hooks/useDrafts';
+import { Article } from '../types';
 
 function slugify(value: string): string {
   return value
@@ -276,6 +278,95 @@ function ReportsQueue() {
   );
 }
 
+function DraftCard({ draft }: { draft: Article }) {
+  const [editing, setEditing] = useState(false);
+  const [title, setTitle] = useState(draft.title);
+  const [body, setBody] = useState(draft.body);
+  const approve = useApproveDraft();
+  const discard = useDiscardDraft();
+
+  return (
+    <div className="rounded-lg border border-slate-200 p-4">
+      <div className="flex items-start justify-between gap-3">
+        {editing ? (
+          <input
+            value={title}
+            onChange={(e) => setTitle(e.target.value)}
+            className="w-full rounded-md border border-slate-300 px-2 py-1 text-sm font-medium"
+          />
+        ) : (
+          <h3 className="font-medium text-slate-900">{draft.title}</h3>
+        )}
+        <span className="shrink-0 text-xs text-slate-400">{new Date(draft.created_at).toLocaleDateString()}</span>
+      </div>
+
+      {editing ? (
+        <textarea
+          value={body}
+          onChange={(e) => setBody(e.target.value)}
+          rows={6}
+          className="mt-2 w-full rounded-md border border-slate-300 px-2 py-1.5 text-xs"
+        />
+      ) : (
+        <p className="mt-2 text-sm text-slate-600 whitespace-pre-line line-clamp-4">{draft.body}</p>
+      )}
+
+      <div className="mt-3 flex gap-2">
+        {!editing && (
+          <button
+            type="button"
+            onClick={() => setEditing(true)}
+            className="px-3 py-1.5 rounded-md border border-slate-300 text-xs font-medium"
+          >
+            Edit
+          </button>
+        )}
+        <button
+          type="button"
+          onClick={() => approve.mutate(editing ? { id: draft.id, title, body } : { id: draft.id })}
+          disabled={approve.isPending}
+          className="px-3 py-1.5 rounded-md bg-slate-900 text-white text-xs font-medium disabled:opacity-50"
+        >
+          {approve.isPending ? 'Publishing…' : editing ? 'Save & publish' : 'Approve & publish'}
+        </button>
+        <button
+          type="button"
+          onClick={() => discard.mutate(draft.id)}
+          disabled={discard.isPending}
+          className="px-3 py-1.5 rounded-md border border-slate-300 text-xs font-medium disabled:opacity-50"
+        >
+          Discard
+        </button>
+      </div>
+      {approve.isError && <p className="mt-2 text-xs text-red-700">Couldn't publish this draft.</p>}
+    </div>
+  );
+}
+
+function DraftsQueue() {
+  const user = useAuthStore((s) => s.user);
+  const { data: drafts, isLoading, isError } = useDraftArticles(Boolean(user));
+
+  return (
+    <div className="rounded-lg border border-slate-200 p-5">
+      <h2 className="font-semibold text-slate-900">AI-drafted articles</h2>
+      <p className="text-sm text-slate-500 mt-1">
+        Drafted from real patterns in public report intake (recurring scammer contacts, category spikes) by{' '}
+        <code className="text-xs bg-slate-100 px-1 py-0.5 rounded">npm run draft-articles</code>. Never published
+        automatically — review and edit before approving.
+      </p>
+      {isLoading && <p className="mt-3 text-sm text-slate-500">Loading…</p>}
+      {isError && <p className="mt-3 text-sm text-red-700">Couldn't load drafts — are you signed in as an admin?</p>}
+      <div className="mt-4 space-y-3">
+        {drafts?.map((draft) => (
+          <DraftCard key={draft.id} draft={draft} />
+        ))}
+        {drafts && drafts.length === 0 && <p className="text-sm text-slate-500">No drafts awaiting review.</p>}
+      </div>
+    </div>
+  );
+}
+
 export default function Admin() {
   useDocumentMeta({ title: 'Admin', description: 'ScamShield National admin panel.', noindex: true });
 
@@ -289,6 +380,7 @@ export default function Admin() {
 
       <div className="space-y-6">
         <ReportsQueue />
+        <DraftsQueue />
         <ScamForm />
         <ArticleForm />
       </div>

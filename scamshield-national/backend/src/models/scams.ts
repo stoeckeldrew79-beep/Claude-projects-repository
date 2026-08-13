@@ -101,6 +101,20 @@ export async function listActiveCountries() {
   return rows.map((r) => r.country as string);
 }
 
+// Real per-country counts from the curated public database — the same
+// source of truth as the rest of the site, not the unvetted report
+// intake. Backs the globe visualization.
+export async function countsByCountry() {
+  const { rows } = await pool.query(
+    `SELECT country, COUNT(*) AS count
+     FROM scams
+     WHERE is_active = true AND country IS NOT NULL
+     GROUP BY country
+     ORDER BY count DESC`
+  );
+  return rows.map((r) => ({ country: r.country as string, count: Number(r.count) }));
+}
+
 export async function getScamBySlug(slug: string) {
   const { rows } = await pool.query(
     `SELECT s.*, c.name AS category_name, c.slug AS category_slug

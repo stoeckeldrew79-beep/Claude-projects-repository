@@ -6,6 +6,7 @@ import Alerts from './pages/Alerts';
 import Articles from './pages/Articles';
 import ArticleDetail from './pages/ArticleDetail';
 import Notorious from './pages/Notorious';
+import GlobalMap from './pages/GlobalMap';
 import Report from './pages/Report';
 import Subscribe from './pages/Subscribe';
 import Dashboard from './pages/Dashboard';
@@ -20,6 +21,7 @@ const NAV_LINKS = [
   { to: '/alerts', label: 'Alerts' },
   { to: '/articles', label: 'Articles' },
   { to: '/notorious', label: 'Notorious' },
+  { to: '/global-map', label: 'Global Map' },
   { to: '/subscribe', label: 'Subscribe' },
 ];
 
@@ -173,6 +175,7 @@ export default function App() {
           <Route path="/articles" element={<Articles />} />
           <Route path="/articles/:slug" element={<ArticleDetail />} />
           <Route path="/notorious" element={<Notorious />} />
+          <Route path="/global-map" element={<GlobalMap />} />
           <Route path="/report" element={<Report />} />
           <Route path="/subscribe" element={<Subscribe />} />
           <Route path="/dashboard" element={<Dashboard />} />

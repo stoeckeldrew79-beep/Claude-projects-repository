@@ -60,6 +60,7 @@ export interface Article {
   scam_slug?: string | null;
   published: boolean;
   published_at: string | null;
+  created_at: string;
 }
 
 export type SubscriptionTier = 'free' | 'basic' | 'pro' | 'family' | 'business';
