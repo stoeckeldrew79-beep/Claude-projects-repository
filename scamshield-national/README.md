@@ -47,6 +47,25 @@ Still stubbed / needs live credentials to fully exercise:
 
 ## Local development
 
+Requires Docker Desktop running and Node.js installed. From the `scamshield-national/` folder:
+
+```bash
+npm install    # installs the root tooling (concurrently) used by npm run dev
+npm run setup  # starts Postgres+Redis, creates backend/.env with a generated
+               # JWT_SECRET if missing, installs both apps, runs migrations + seed
+npm run dev    # runs backend (http://localhost:3000) and frontend
+               # (http://localhost:5173) together in one terminal
+```
+
+Open `http://localhost:5173`. Set `ADMIN_EMAILS` in `backend/.env` to your own
+email if you want to reach `/admin`; Stripe/Twilio/SendGrid/Anthropic keys are
+optional unless you're exercising those specific integrations.
+
+`npm run setup` is safe to re-run — it won't overwrite an existing `backend/.env`.
+
+<details>
+<summary>Manual setup (equivalent, run separately)</summary>
+
 ```bash
 # 1. Start Postgres + Redis
 docker compose up -d
@@ -64,6 +83,7 @@ cd frontend
 npm install
 npm run dev                 # http://localhost:5173
 ```
+</details>
 
 ## Scheduling AI-drafted articles
 
