@@ -487,6 +487,346 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['FTC Consumer Advice', 'FCC'],
   },
 
+  // Second wave of current-pattern entries, added to broaden coverage
+  // per-category (originally 2 each). Same standard as the entries
+  // above: well-established, widely-documented patterns, not invented
+  // specifics.
+  {
+    name: 'Fake Bank Fraud Alert Text',
+    slug: 'fake-bank-fraud-alert-text',
+    description:
+      'A text claims suspicious activity was detected on your debit card and asks you to reply YES or NO, or tap a link to "verify" your account — the link leads to a fake bank login page that harvests your online banking credentials. Your real bank will never ask you to confirm your identity by clicking a link in a text message; if in doubt, call the number printed on the back of your card.',
+    categorySlug: 'phishing',
+    alertLevel: 'high',
+    sources: ['FTC Consumer Advice', 'FBI IC3'],
+  },
+  {
+    name: 'Fake Amazon Order Confirmation Email',
+    slug: 'fake-amazon-order-confirmation-email',
+    description:
+      'An email confirms an expensive purchase you never made and includes a "cancel order" or "dispute charge" link, which leads to a fake Amazon sign-in page designed to steal your credentials and card details. Check your actual order history by typing amazon.com directly into your browser, never through a link in an email.',
+    categorySlug: 'phishing',
+    alertLevel: 'medium',
+    sources: ['FTC Consumer Advice'],
+  },
+  {
+    name: 'Fake IT Helpdesk Password Reset',
+    slug: 'fake-it-helpdesk-password-reset',
+    description:
+      'An email or text posing as your company\'s IT department claims your password has expired and urges you to "reset now" through a link, which leads to a fake corporate sign-in page that harvests real credentials — often the opening move in a larger network breach, not just a one-off theft. Verify with your actual IT department through a known internal channel before entering credentials anywhere prompted by an unsolicited message.',
+    categorySlug: 'phishing',
+    alertLevel: 'high',
+    sources: ['FBI IC3', 'CISA'],
+  },
+
+  {
+    name: 'Oil Rig or Overseas Contractor Romance Scam',
+    slug: 'oil-rig-romance-scam',
+    description:
+      'A dating profile claims to work on an offshore oil rig, as a military contractor, or another remote overseas job, using the isolation of the "location" to explain away video calls and in-person meetings. After weeks of relationship-building, the story shifts to a supposed emergency — medical bills, travel costs to finally meet, or a shipment stuck in customs — that only money can solve.',
+    categorySlug: 'romance-scams',
+    alertLevel: 'high',
+    sources: ['FTC Consumer Advice'],
+  },
+  {
+    name: 'Off-Platform Messaging Push',
+    slug: 'off-platform-messaging-push',
+    description:
+      'Early in a dating-app conversation, a match urges moving to WhatsApp, Telegram, or a personal email address, often claiming the app is "glitchy" or they\'re "about to lose access." This gets the conversation off a platform with reporting tools and fraud monitoring before any request for money begins — a legitimate match has no urgent reason to rush this before you\'ve even met in person.',
+    categorySlug: 'romance-scams',
+    alertLevel: 'low',
+    sources: ['FTC Consumer Advice'],
+  },
+  {
+    name: 'Romance-to-Crypto Investment Pivot',
+    slug: 'romance-to-crypto-investment-pivot',
+    description:
+      'After weeks or months of relationship-building, an online romantic interest introduces a "can\'t miss" cryptocurrency platform or trading opportunity, encouraging escalating deposits before disappearing along with the funds — the on-ramp into what\'s commonly called "pig butchering" (see Investment Fraud). Anyone you\'ve never met in person steering you toward a specific investment platform is a red flag, regardless of how genuine the relationship feels.',
+    categorySlug: 'romance-scams',
+    alertLevel: 'critical',
+    sources: ['FBI IC3', 'FTC Consumer Advice'],
+  },
+
+  {
+    name: 'Fake Apple ID Security Alert Text',
+    slug: 'fake-apple-id-security-alert-text',
+    description:
+      'A text claims your Apple ID was accessed from an unrecognized device or location and includes a link to "secure your account," leading to a fake Apple sign-in page that harvests your Apple ID credentials — often used afterward to lock the real owner out through a password reset. Check account security directly in your device\'s Settings app, never through a link in a text.',
+    categorySlug: 'tech-support-scams',
+    alertLevel: 'high',
+    sources: ['FTC Consumer Advice'],
+  },
+  {
+    name: 'Auto-Renewal Antivirus Refund Call',
+    slug: 'antivirus-refund-remote-access-call',
+    description:
+      'A call or pop-up claims an antivirus subscription auto-renewed for an inflated amount and offers a "refund" — but processing it requires remote access to your computer. During the session, the scammer moves money between your own accounts to make it look like they refunded too much, then claims you need to send the "extra" back via gift cards or wire transfer.',
+    categorySlug: 'tech-support-scams',
+    alertLevel: 'high',
+    sources: ['FTC Consumer Advice', 'FBI IC3'],
+  },
+  {
+    name: 'Fake ISP Service Disconnection Call',
+    slug: 'fake-isp-disconnection-call',
+    description:
+      'An automated or live call claims your internet service will be disconnected within hours over a billing issue, pressuring immediate payment by gift card or wire transfer to avoid it. Contact your actual provider using the number on a past bill, never a callback number given by the caller — real providers don\'t threaten same-day disconnection over the phone.',
+    categorySlug: 'tech-support-scams',
+    alertLevel: 'medium',
+    sources: ['FTC Consumer Advice'],
+  },
+
+  {
+    name: 'Fake Unemployment Benefits Verification Alert',
+    slug: 'fake-unemployment-benefits-alert',
+    description:
+      'A text or email claims your state unemployment account shows suspicious activity or needs identity re-verification, linking to a fake state portal that harvests Social Security numbers and bank details. This is frequently used to file fraudulent unemployment claims in the victim\'s name, sometimes without the victim ever finding out until a tax form arrives for benefits they never received.',
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['FTC Consumer Advice', 'U.S. Department of Labor'],
+  },
+  {
+    name: 'Fake Immigration Deportation Threat Call',
+    slug: 'fake-immigration-deportation-threat-call',
+    description:
+      'A caller claiming to be from immigration services threatens deportation or visa revocation unless a fee is paid immediately, targeting immigrants and international students who may be less familiar with how U.S. immigration proceedings actually work. Real immigration matters proceed through mailed notices and scheduled hearings, never a surprise phone call demanding same-day payment.',
+    categorySlug: 'government-impersonation',
+    alertLevel: 'critical',
+    sources: ['FTC Consumer Advice', 'FBI IC3'],
+  },
+  {
+    name: 'Fake Census Bureau Data Request',
+    slug: 'fake-census-bureau-data-request',
+    description:
+      'Outside of the actual census period, a caller or emailer claims to represent the Census Bureau and requests a Social Security number, bank account details, or a "verification fee." The real Census Bureau never asks for Social Security numbers, bank or credit card numbers, or money on behalf of a political party.',
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['U.S. Census Bureau', 'FTC Consumer Advice'],
+  },
+
+  {
+    name: 'Fake Payroll Direct Deposit Change',
+    slug: 'fake-payroll-direct-deposit-change',
+    description:
+      'An email impersonating an employee, often from a lookalike personal address, asks HR or payroll to update their direct deposit bank details before the next pay cycle — redirecting that employee\'s real paycheck to the scammer\'s account instead. Payroll changes should always be confirmed with the employee directly through a known phone number or in person, not just the email that requested it.',
+    categorySlug: 'business-email-compromise',
+    alertLevel: 'high',
+    sources: ['FBI IC3'],
+  },
+  {
+    name: 'Compromised Closing Wire Instructions',
+    slug: 'compromised-closing-wire-instructions',
+    description:
+      'During a real estate closing, a scammer who has compromised a title company\'s or attorney\'s email sends "updated" wire instructions to the buyer just before closing, redirecting the down payment or full purchase amount to their own account. Always confirm wire instructions by phone using a number you already had on file, never one provided in the same email as the instructions — funds sent this way are rarely recoverable.',
+    categorySlug: 'business-email-compromise',
+    alertLevel: 'critical',
+    sources: ['FBI IC3', 'FTC Consumer Advice'],
+  },
+  {
+    name: 'Fake Executive Gift Card Request',
+    slug: 'fake-executive-gift-card-request',
+    description:
+      'An email or text impersonating a company executive urgently asks an employee to buy gift cards for a "client gift" or "employee reward" and send the redemption codes, exploiting the employee\'s instinct to respond quickly to leadership. Executives don\'t conduct real business through unverified personal requests for gift cards — confirm any such request through a separate, known channel first.',
+    categorySlug: 'business-email-compromise',
+    alertLevel: 'medium',
+    sources: ['FBI IC3', 'FTC Consumer Advice'],
+  },
+
+  {
+    name: 'Fake Celebrity-Endorsed Crypto Giveaway',
+    slug: 'fake-celebrity-crypto-giveaway',
+    description:
+      'A fake social media post, hijacked verified account, or deepfake video appears to show a celebrity or public figure promoting a cryptocurrency "giveaway" that promises to double any crypto sent to a wallet address. The wallet simply keeps whatever is sent — nothing is ever returned, regardless of how convincing the video looks.',
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ['FTC Consumer Advice', 'FBI IC3'],
+  },
+  {
+    name: 'Prime Bank Instrument Fraud',
+    slug: 'prime-bank-instrument-fraud',
+    description:
+      'Promoters offer access to exclusive "prime bank" trading programs supposedly used by major international banks, promising extraordinary guaranteed returns from financial instruments that don\'t actually exist in the form described. The SEC and FBI have been warning about this exact scheme, largely unchanged, for decades.',
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ['U.S. Securities and Exchange Commission', 'FBI IC3'],
+  },
+  {
+    name: 'Fake Forex or Day-Trading Signal Service',
+    slug: 'fake-forex-signal-service',
+    description:
+      'A paid "signals" service or self-styled trading guru promises a proven system for guaranteed forex or stock market profits, often showing cherry-picked or fabricated screenshots of gains, collecting subscription fees or steering victims toward opening accounts at affiliated (and equally fake) brokers. No legitimate trading strategy can guarantee returns — that promise alone is disqualifying.',
+    categorySlug: 'investment-fraud',
+    alertLevel: 'medium',
+    sources: ['U.S. Securities and Exchange Commission', 'FTC Consumer Advice'],
+  },
+
+  {
+    name: 'Fake Address Correction Fee Text',
+    slug: 'fake-address-correction-fee-text',
+    description:
+      'A text claims a package can\'t be delivered due to an "incomplete address" and asks for a small correction fee, collecting card details through a fake carrier-branded payment page. A real delivery issue is resolved through the carrier\'s official app or website, never a link texted to you out of the blue.',
+    categorySlug: 'package-delivery-scams',
+    alertLevel: 'low',
+    sources: ['USPS Postal Inspection Service', 'FTC Consumer Advice'],
+  },
+  {
+    name: 'QR Code Delivery Scam',
+    slug: 'qr-code-delivery-scam',
+    description:
+      'A sticker or slip claiming to be from a delivery carrier includes a QR code to "reschedule delivery" or "pay a redelivery fee." QR codes hide the destination web address until after you scan them, making a fake page harder to spot than a typed link would be — scan only codes you can verify came from a legitimate source.',
+    categorySlug: 'package-delivery-scams',
+    alertLevel: 'medium',
+    sources: ['FBI IC3', 'FTC Consumer Advice'],
+  },
+  {
+    name: 'Fake Delivery Driver Tip Request',
+    slug: 'fake-delivery-driver-tip-request',
+    description:
+      'A text supposedly from a delivery service asks for a card number to "leave a tip" for the driver on a package that was never actually ordered. This is often less about the small tip amount and more about confirming your number is active and that you\'re willing to enter payment details from an unsolicited text.',
+    categorySlug: 'package-delivery-scams',
+    alertLevel: 'low',
+    sources: ['FTC Consumer Advice'],
+  },
+
+  {
+    name: 'Fake Job Requiring an Upfront Training Fee',
+    slug: 'fake-job-upfront-training-fee',
+    description:
+      'After a suspiciously fast hiring process with no real interview, a "new employer" requires payment for training materials, a background check, or equipment before the first day of work. Legitimate employers cover the cost of onboarding their own new hires — they never require you to pay for it.',
+    categorySlug: 'employment-scams',
+    alertLevel: 'medium',
+    sources: ['FTC Consumer Advice'],
+  },
+  {
+    name: 'Fake Recruiter Personal Information Harvest',
+    slug: 'fake-recruiter-info-harvest',
+    description:
+      'A message claiming to be from a recruiter for a real, well-known company requests a Social Security number and bank details "for HR paperwork" before any formal offer letter exists or the employment relationship has been verified. Real HR paperwork happens after a documented offer, through the company\'s own secure systems — not over email or chat with an unverified recruiter.',
+    categorySlug: 'employment-scams',
+    alertLevel: 'high',
+    sources: ['FTC Consumer Advice', 'FBI IC3'],
+  },
+  {
+    name: 'Fake Job-Board "Easy Apply" Phishing Page',
+    slug: 'fake-easy-apply-phishing-page',
+    description:
+      'A job posting on a legitimate job board links out to an external "application portal" that\'s actually a credential-harvesting page mimicking a real company\'s careers site, collecting login credentials that are often reused across other accounts. Apply directly through a company\'s verified careers page when a listing seems off, rather than an external link in the posting.',
+    categorySlug: 'employment-scams',
+    alertLevel: 'medium',
+    sources: ['FTC Consumer Advice'],
+  },
+
+  {
+    name: 'Fake Medical Fundraiser',
+    slug: 'fake-medical-fundraiser',
+    description:
+      'A fabricated crowdfunding campaign claims to raise money for a stranger\'s medical treatment, often using stolen photos and an invented story, then disappearing once donations peak — frequently timed around a real, well-publicized tragedy to borrow its urgency. Check a crowdfunding campaign\'s updates, comments, and organizer history before donating to anyone you don\'t personally know.',
+    categorySlug: 'charity-scams',
+    alertLevel: 'medium',
+    sources: ['FTC Consumer Advice', 'BBB Scam Tracker'],
+  },
+  {
+    name: 'Look-Alike Charity Name Scam',
+    slug: 'lookalike-charity-name-scam',
+    description:
+      'A fraudulent organization uses a name deliberately similar to a real, well-known charity — differing by a single word or abbreviation — to collect donations that never reach any real cause. Check a charity\'s exact legal name against a verification service like Charity Navigator or the BBB Wise Giving Alliance before donating, rather than trusting a name that merely sounds familiar.',
+    categorySlug: 'charity-scams',
+    alertLevel: 'medium',
+    sources: ['BBB Scam Tracker', 'FTC Consumer Advice'],
+  },
+  {
+    name: 'Fake Door-to-Door Charity Collector',
+    slug: 'fake-door-to-door-charity-collector',
+    description:
+      'Someone claiming to collect for a local cause — a fire department, a school, a religious group — solicits cash donations door-to-door or in parking lots without any verifiable ID or paperwork. A real charity representative can always provide their organization\'s EIN and a receipt; a demand for cash only, on the spot, is a warning sign.',
+    categorySlug: 'charity-scams',
+    alertLevel: 'low',
+    sources: ['BBB Scam Tracker', 'FTC Consumer Advice'],
+  },
+
+  {
+    name: 'SIM Swap Fraud',
+    slug: 'sim-swap-fraud',
+    description:
+      'A scammer convinces a mobile carrier, often through social engineering or a bribed insider, to transfer your phone number to a SIM card they control. From there, they can intercept SMS-based two-factor authentication codes and take over bank, email, and crypto accounts — often within minutes of the swap succeeding. A carrier PIN and app-based (not SMS-based) two-factor authentication meaningfully reduce this risk.',
+    categorySlug: 'identity-theft',
+    alertLevel: 'critical',
+    sources: ['FCC', 'FBI IC3'],
+  },
+  {
+    name: 'Synthetic Identity Fraud',
+    slug: 'synthetic-identity-fraud',
+    description:
+      'A fraudster combines a real Social Security number, often one belonging to a child or someone with little credit activity, with fabricated personal details to build an entirely new credit identity over months or years, before maxing out credit and disappearing. This is why placing a credit freeze for a minor, and periodically checking that no credit file exists yet in their name, is a real protective step.',
+    categorySlug: 'identity-theft',
+    alertLevel: 'high',
+    sources: ['FTC Consumer Advice', 'FBI IC3'],
+  },
+  {
+    name: 'Mail Theft Identity Theft',
+    slug: 'mail-theft-identity-theft',
+    description:
+      'Thieves steal physical mail — checks, tax documents, pre-approved credit offers — directly from mailboxes to harvest personal and financial information. A locking mailbox, prompt mail pickup, and opting out of pre-approved credit offers by mail meaningfully reduce this long-standing, low-tech risk.',
+    categorySlug: 'identity-theft',
+    alertLevel: 'medium',
+    sources: ['USPS Postal Inspection Service', 'FTC Consumer Advice'],
+  },
+
+  {
+    name: 'Fake Ticket Reseller Scam',
+    slug: 'fake-ticket-reseller-scam',
+    description:
+      'A listing for concert or sports tickets on an unofficial resale site or social media collects payment for tickets that either never arrive or turn out to be counterfeit or already scanned at the venue — a pattern that spikes around high-demand events with limited official ticket availability. Buy only through the venue, artist, or a verified resale platform with a buyer guarantee.',
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'medium',
+    sources: ['FTC Consumer Advice', 'BBB Scam Tracker'],
+  },
+  {
+    name: 'Puppy Scam',
+    slug: 'puppy-scam',
+    description:
+      'A fake online listing offers purebred puppies at a below-market price, then adds unexpected "shipping crate," "insurance," or "vet fee" charges before delivery — the puppy never actually exists. Reverse-image-search listing photos and insist on a video call or in-person visit before paying anything toward a pet you haven\'t met.',
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'medium',
+    sources: ['BBB Scam Tracker', 'FTC Consumer Advice'],
+  },
+  {
+    name: 'Fake Rental Listing Scam',
+    slug: 'fake-rental-listing-scam',
+    description:
+      'A listing for an apartment or vacation rental, often a real property\'s photos copied from a legitimate listing, is posted by someone who isn\'t the actual owner or property manager, collecting a deposit or first month\'s rent before disappearing. Never pay a deposit before touring a rental in person (or via a live video call) and verifying the lister actually owns or manages the property.',
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'high',
+    sources: ['FTC Consumer Advice', 'BBB Scam Tracker'],
+  },
+
+  {
+    name: 'Fake Foreign Lottery Win',
+    slug: 'fake-foreign-lottery-win',
+    description:
+      'A letter or email claims you\'ve won a foreign lottery you never entered, requiring payment of "taxes" or "transfer fees" before winnings can be released. It\'s also illegal for U.S. residents to play most foreign lotteries by mail or phone in the first place — which makes the premise itself a warning sign, independent of the fee request.',
+    categorySlug: 'lottery-sweepstakes-scams',
+    alertLevel: 'medium',
+    sources: ['FTC Consumer Advice', 'U.S. Postal Inspection Service'],
+  },
+  {
+    name: 'Fake "Prize Patrol" Sweepstakes Call',
+    slug: 'fake-prize-patrol-call',
+    description:
+      'A caller impersonating a major, real sweepstakes brand claims you\'ve won a large prize and need to pay fees or taxes before a "prize patrol" can deliver a check in person. Real sweepstakes never require payment to claim a prize, and legitimate winners aren\'t called in advance of a surprise in-person delivery.',
+    categorySlug: 'lottery-sweepstakes-scams',
+    alertLevel: 'medium',
+    sources: ['FTC Consumer Advice', 'FCC'],
+  },
+  {
+    name: 'Fake Government Grant Award',
+    slug: 'fake-government-grant-award',
+    description:
+      'A call or message claims you\'ve been awarded a government grant, sometimes citing a stimulus or relief program, and just need to pay a "processing fee" or provide bank details for direct deposit. The government does not award unsolicited cash grants to individuals it contacts out of the blue.',
+    categorySlug: 'lottery-sweepstakes-scams',
+    alertLevel: 'high',
+    sources: ['FTC Consumer Advice', 'USA.gov'],
+  },
+
   // Historical entries: real, well-documented frauds with no current
   // threat level (hence no alertLevel), included to make good on the
   // original goal of covering scam history, not just active patterns.
