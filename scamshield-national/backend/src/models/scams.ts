@@ -36,7 +36,7 @@ export interface ScamListFilters {
   zip?: string;
   country?: string;
   search?: string;
-  sort?: 'newest' | 'oldest' | 'alert_level';
+  sort?: 'newest' | 'oldest' | 'alert_level' | 'name_asc';
   page?: number;
   pageSize?: number;
 }
@@ -73,16 +73,30 @@ export async function listScams(filters: ScamListFilters) {
     conditions.push(`to_tsvector('english', s.name) @@ plainto_tsquery('english', $${values.length})`);
   }
 
+  // alert_level is free-text ('low'/'medium'/'high'/'critical'), not a
+  // Postgres ENUM with a defined order, so a plain ORDER BY alert_level
+  // sorts alphabetically (medium, low, high, critical) instead of by
+  // actual severity. Rank it explicitly instead.
+  const SEVERITY_RANK = `CASE s.alert_level WHEN 'critical' THEN 4 WHEN 'high' THEN 3 WHEN 'medium' THEN 2 WHEN 'low' THEN 1 ELSE 0 END`;
   const orderBy =
-    sort === 'oldest' ? 's.created_at ASC' : sort === 'alert_level' ? 's.alert_level DESC' : 's.created_at DESC';
+    sort === 'oldest'
+      ? 's.created_at ASC'
+      : sort === 'alert_level'
+        ? 'severity_rank DESC, s.name ASC'
+        : sort === 'name_asc'
+          ? 's.name ASC'
+          : 's.created_at DESC';
 
   values.push(pageSize);
   const limitParam = values.length;
   values.push((page - 1) * pageSize);
   const offsetParam = values.length;
 
+  // SELECT DISTINCT requires every ORDER BY expression to appear in the
+  // select list, so the severity rank has to be selected (and aliased)
+  // here, not just referenced in ORDER BY.
   const { rows } = await pool.query(
-    `SELECT DISTINCT s.*, c.name AS category_name, c.slug AS category_slug
+    `SELECT DISTINCT s.*, c.name AS category_name, c.slug AS category_slug, ${SEVERITY_RANK} AS severity_rank
      FROM scams s
      LEFT JOIN categories c ON c.id = s.category_id
      LEFT JOIN scam_locations l ON l.scam_id = s.id

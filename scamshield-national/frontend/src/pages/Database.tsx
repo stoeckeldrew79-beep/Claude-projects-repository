@@ -1,9 +1,16 @@
 import { useState } from 'react';
-import { useCategories, useCountries, useScams } from '../hooks/useScams';
+import { useCategories, useCountries, useInfiniteScams } from '../hooks/useScams';
+import { ScamListParams } from '../services/scams';
 import { ScamCard } from '../components/ScamCard';
 import { useDocumentMeta } from '../hooks/useDocumentMeta';
 import { TrendWatch } from '../components/TrendWatch';
 import { countryName } from '../utils/countries';
+
+const SORT_OPTIONS: { value: NonNullable<ScamListParams['sort']>; label: string }[] = [
+  { value: 'alert_level', label: 'Most urgent first' },
+  { value: 'name_asc', label: 'A–Z' },
+  { value: 'newest', label: 'Newest first' },
+];
 
 export default function Database() {
   useDocumentMeta({
@@ -15,15 +22,31 @@ export default function Database() {
   const [search, setSearch] = useState('');
   const [category, setCategory] = useState<string | undefined>(undefined);
   const [country, setCountry] = useState<string | undefined>(undefined);
+  const [sort, setSort] = useState<NonNullable<ScamListParams['sort']>>('alert_level');
   const { data: categories } = useCategories();
   const { data: countries } = useCountries();
-  const { data: scams, isLoading } = useScams({ search: search || undefined, category, country });
+  const {
+    data,
+    isLoading,
+    fetchNextPage,
+    hasNextPage,
+    isFetchingNextPage,
+  } = useInfiniteScams({ search: search || undefined, category, country, sort });
+
+  const scams = data?.pages.flat() ?? [];
 
   return (
     <div className="max-w-5xl mx-auto px-4 py-10">
-      <h1 className="text-2xl font-bold text-slate-900 mb-6">Scam Database</h1>
+      <span className="inline-block text-xs font-bold tracking-wider uppercase text-red-600">
+        National Scam Intelligence
+      </span>
+      <h1 className="mt-1 text-3xl font-extrabold tracking-tight text-slate-900">Scam Database</h1>
+      <p className="mt-2 text-slate-600 max-w-2xl">
+        Search and browse recorded scam activity. Sort by what's most urgent right now, alphabetically, or by what's
+        newest to the database.
+      </p>
 
-      <div className="mb-8">
+      <div className="mt-8 mb-8">
         <TrendWatch />
       </div>
 
@@ -60,15 +83,40 @@ export default function Database() {
             ))}
           </select>
         )}
+        <select
+          value={sort}
+          onChange={(e) => setSort(e.target.value as NonNullable<ScamListParams['sort']>)}
+          className="rounded-md border border-slate-300 px-3 py-2 text-sm"
+          aria-label="Sort by"
+        >
+          {SORT_OPTIONS.map((opt) => (
+            <option key={opt.value} value={opt.value}>
+              {opt.label}
+            </option>
+          ))}
+        </select>
       </div>
 
       {isLoading && <p className="text-slate-500">Loading…</p>}
       <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-        {scams?.map((scam) => (
+        {scams.map((scam) => (
           <ScamCard key={scam.id} scam={scam} />
         ))}
       </div>
-      {scams && scams.length === 0 && <p className="text-slate-500">No scams match your filters.</p>}
+      {!isLoading && scams.length === 0 && <p className="text-slate-500">No scams match your filters.</p>}
+
+      {hasNextPage && (
+        <div className="mt-8 flex justify-center">
+          <button
+            type="button"
+            onClick={() => fetchNextPage()}
+            disabled={isFetchingNextPage}
+            className="px-5 py-2.5 rounded-md border border-slate-300 text-slate-700 font-medium hover:bg-slate-50 disabled:opacity-50"
+          >
+            {isFetchingNextPage ? 'Loading…' : 'Load more'}
+          </button>
+        </div>
+      )}
     </div>
   );
 }

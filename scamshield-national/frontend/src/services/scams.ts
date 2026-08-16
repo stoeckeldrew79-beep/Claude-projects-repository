@@ -1,13 +1,16 @@
 import { api } from './api';
 import { Category, Scam } from '../types';
 
+// Must match the backend's default pageSize in listScams (backend/src/models/scams.ts).
+export const PAGE_SIZE = 20;
+
 export interface ScamListParams {
   category?: string;
   state?: string;
   zip?: string;
   country?: string;
   search?: string;
-  sort?: string;
+  sort?: 'newest' | 'oldest' | 'alert_level' | 'name_asc';
   page?: number;
 }
 

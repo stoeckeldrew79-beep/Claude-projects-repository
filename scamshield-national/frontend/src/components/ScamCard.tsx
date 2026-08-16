@@ -9,11 +9,20 @@ const ALERT_COLORS: Record<string, string> = {
   critical: 'bg-red-100 text-red-800',
 };
 
+const ALERT_BORDER_COLORS: Record<string, string> = {
+  low: 'border-l-slate-300',
+  medium: 'border-l-yellow-400',
+  high: 'border-l-orange-500',
+  critical: 'border-l-red-600',
+};
+
 export function ScamCard({ scam }: { scam: Scam }) {
+  const borderColor = scam.alert_level ? ALERT_BORDER_COLORS[scam.alert_level] : 'border-l-slate-200';
+
   return (
     <Link
       to={`/scams/${scam.slug}`}
-      className="block rounded-lg border border-slate-200 p-4 hover:border-slate-400 hover:shadow-sm transition-all"
+      className={`block rounded-lg border border-slate-200 border-l-4 ${borderColor} p-4 hover:shadow-sm transition-all`}
     >
       <div className="flex items-center justify-between gap-2">
         <h3 className="font-semibold text-slate-900">{scam.name}</h3>
