@@ -2,10 +2,10 @@ import { Link } from 'react-router-dom';
 import { useScams } from '../hooks/useScams';
 import { ScamCard } from '../components/ScamCard';
 import { AlertTicker } from '../components/AlertTicker';
+import { StatsBar } from '../components/StatsBar';
 import { useDocumentMeta } from '../hooks/useDocumentMeta';
 import { BlurFade } from '../components/magicui/blur-fade';
 import { DotPattern } from '../components/magicui/dot-pattern';
-import { AnimatedShinyText } from '../components/magicui/animated-shiny-text';
 
 export default function Home() {
   useDocumentMeta({
@@ -18,41 +18,48 @@ export default function Home() {
   const { data: scams, isLoading } = useScams({ sort: 'newest', page: 1 });
 
   return (
-    <div className="max-w-5xl mx-auto">
-      <AlertTicker />
-
-      <section className="relative overflow-hidden text-center px-4 py-16">
-        <DotPattern className="[mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,black,transparent)]" />
+    <div>
+      <section className="relative overflow-hidden text-center px-4 py-20 bg-gradient-to-b from-slate-950 to-slate-900 text-white">
+        <DotPattern
+          fillClassName="fill-white/10"
+          className="[mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,black,transparent)]"
+        />
 
         <BlurFade>
-          <span className="inline-flex items-center gap-1.5 rounded-full border border-slate-200 bg-white px-3 py-1 text-xs font-medium">
-            <AnimatedShinyText>National scam intelligence, updated in real time</AnimatedShinyText>
+          <span className="inline-flex items-center gap-1.5 rounded-full bg-red-600/15 border border-red-500/30 px-3 py-1 text-xs font-bold tracking-wider uppercase text-red-400">
+            <span className="relative flex h-1.5 w-1.5">
+              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-400 opacity-75" />
+              <span className="relative inline-flex rounded-full h-1.5 w-1.5 bg-red-400" />
+            </span>
+            National scam intelligence, updated in real time
           </span>
         </BlurFade>
 
         <BlurFade delay={0.08}>
-          <h1 className="relative mt-5 text-4xl sm:text-5xl font-bold tracking-tight text-slate-900">
-            Know the scam before it reaches you.
+          <h1 className="relative mt-5 text-4xl sm:text-6xl font-extrabold tracking-tight">
+            Know the scam.
+            <br />
+            <span className="text-red-500">Before it reaches you.</span>
           </h1>
         </BlurFade>
 
         <BlurFade delay={0.16}>
-          <p className="relative mt-4 max-w-xl mx-auto text-slate-600">
+          <p className="relative mt-5 max-w-xl mx-auto text-slate-300 text-lg">
             Search the national database of recorded scam activity, from historical fraud to today's alerts.
           </p>
         </BlurFade>
 
         <BlurFade delay={0.24}>
-          <div className="relative mt-8 flex items-center justify-center gap-3">
+          <div className="relative mt-9 flex items-center justify-center gap-3">
             <Link
               to="/database"
-              className="inline-block px-5 py-2.5 rounded-md bg-slate-900 text-white font-medium transition-transform hover:scale-[1.03] active:scale-[0.98]"
+              className="inline-block px-6 py-3 rounded-md bg-red-600 text-white font-semibold shadow-lg shadow-red-950/50 transition-transform hover:scale-[1.03] hover:bg-red-500 active:scale-[0.98]"
             >
               Browse the database
             </Link>
             <Link
               to="/subscribe"
-              className="inline-block px-5 py-2.5 rounded-md border border-slate-300 text-slate-700 font-medium hover:bg-slate-50"
+              className="inline-block px-6 py-3 rounded-md border border-white/20 bg-white/5 text-white font-semibold hover:bg-white/10 transition-colors"
             >
               Get real-time alerts
             </Link>
@@ -60,7 +67,10 @@ export default function Home() {
         </BlurFade>
       </section>
 
-      <section className="px-4 pb-12">
+      <AlertTicker />
+      <StatsBar />
+
+      <section className="max-w-5xl mx-auto px-4 py-12">
         <BlurFade delay={0.08} inView>
           <h2 className="text-xl font-semibold text-slate-900 mb-4">Recently added</h2>
         </BlurFade>

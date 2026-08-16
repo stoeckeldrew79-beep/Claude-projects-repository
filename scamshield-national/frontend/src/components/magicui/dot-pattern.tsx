@@ -2,11 +2,17 @@
 // used as a subtle background texture. Deliberately low-contrast — this
 // is a scam-protection product, the background should read as clean
 // and trustworthy, not decorative.
-export function DotPattern({ className = '' }: { className?: string }) {
+export function DotPattern({
+  className = '',
+  fillClassName = 'fill-slate-300/40',
+}: {
+  className?: string;
+  fillClassName?: string;
+}) {
   return (
     <svg
       aria-hidden="true"
-      className={`pointer-events-none absolute inset-0 h-full w-full fill-slate-300/40 ${className}`}
+      className={`pointer-events-none absolute inset-0 h-full w-full ${fillClassName} ${className}`}
     >
       <defs>
         <pattern id="dot-pattern" width={20} height={20} patternUnits="userSpaceOnUse" patternContentUnits="userSpaceOnUse">
