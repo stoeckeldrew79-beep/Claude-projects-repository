@@ -40,7 +40,7 @@ export async function categoryReportTrends(): Promise<CategoryTrend[]> {
           AND s.created_at < NOW() - INTERVAL '30 days'
       ) AS count_prior_30d
     FROM categories c
-    JOIN scams s ON s.category_id = c.id AND s.is_active = true
+    JOIN scams s ON s.category_id = c.id AND s.is_active = true AND s.is_historical = false
     GROUP BY c.id, c.name, c.slug
     HAVING COUNT(*) FILTER (WHERE s.created_at >= NOW() - INTERVAL '60 days') > 0
     ORDER BY count_last_30d DESC, c.name ASC

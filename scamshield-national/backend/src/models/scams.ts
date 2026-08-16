@@ -134,7 +134,7 @@ export async function countsByCountry() {
   const { rows } = await pool.query(
     `SELECT country, COUNT(*) AS count
      FROM scams
-     WHERE is_active = true AND country IS NOT NULL
+     WHERE is_active = true AND country IS NOT NULL AND is_historical = false
      GROUP BY country
      ORDER BY count DESC`
   );
