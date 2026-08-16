@@ -6,6 +6,9 @@ export const COUNTRY_NAMES: Record<string, string> = {
   CA: 'Canada',
   GB: 'United Kingdom',
   AU: 'Australia',
+  NZ: 'New Zealand',
+  IE: 'Ireland',
+  SG: 'Singapore',
   OTHER: 'Other',
 };
 

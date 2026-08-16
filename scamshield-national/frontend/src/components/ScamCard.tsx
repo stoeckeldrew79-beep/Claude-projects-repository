@@ -17,7 +17,12 @@ const ALERT_BORDER_COLORS: Record<string, string> = {
 };
 
 export function ScamCard({ scam }: { scam: Scam }) {
-  const borderColor = scam.alert_level ? ALERT_BORDER_COLORS[scam.alert_level] : 'border-l-slate-200';
+  const borderColor = scam.is_historical
+    ? 'border-l-slate-400'
+    : scam.alert_level
+      ? ALERT_BORDER_COLORS[scam.alert_level]
+      : 'border-l-slate-200';
+  const firstRecordedYear = scam.first_recorded ? new Date(scam.first_recorded).getUTCFullYear() : null;
 
   return (
     <Link
@@ -26,16 +31,24 @@ export function ScamCard({ scam }: { scam: Scam }) {
     >
       <div className="flex items-center justify-between gap-2">
         <h3 className="font-semibold text-slate-900">{scam.name}</h3>
-        {scam.alert_level && (
-          <span className={`text-xs font-medium px-2 py-0.5 rounded-full ${ALERT_COLORS[scam.alert_level]}`}>
-            {scam.alert_level}
+        {scam.is_historical ? (
+          <span className="text-xs font-medium px-2 py-0.5 rounded-full bg-slate-100 text-slate-600 shrink-0">
+            Historical
           </span>
+        ) : (
+          scam.alert_level && (
+            <span className={`text-xs font-medium px-2 py-0.5 rounded-full shrink-0 ${ALERT_COLORS[scam.alert_level]}`}>
+              {scam.alert_level}
+            </span>
+          )
         )}
       </div>
       <p className="text-sm text-slate-600 mt-1 line-clamp-2">{scam.description}</p>
-      {scam.country && (
-        <p className="text-xs text-slate-400 mt-2">{countryName(scam.country)}</p>
-      )}
+      <p className="text-xs text-slate-400 mt-2">
+        {firstRecordedYear && <>First recorded {firstRecordedYear}</>}
+        {firstRecordedYear && scam.country && ' · '}
+        {scam.country && countryName(scam.country)}
+      </p>
     </Link>
   );
 }

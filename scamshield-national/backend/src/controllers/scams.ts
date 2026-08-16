@@ -3,7 +3,7 @@ import * as ScamsModel from '../models/scams';
 import { asyncHandler } from '../utils/asyncHandler';
 
 export const list = asyncHandler<AuthedRequest>(async (req, res) => {
-  const { category, state, zip, country, search, sort, page } = req.query;
+  const { category, state, zip, country, search, sort, view, page } = req.query;
   const scams = await ScamsModel.listScams({
     category: category as string | undefined,
     state: state as string | undefined,
@@ -11,6 +11,7 @@ export const list = asyncHandler<AuthedRequest>(async (req, res) => {
     country: country as string | undefined,
     search: search as string | undefined,
     sort: sort as ScamsModel.ScamListFilters['sort'],
+    view: view as ScamsModel.ScamListFilters['view'],
     page: page ? Number(page) : undefined,
   });
   res.json({ data: scams });

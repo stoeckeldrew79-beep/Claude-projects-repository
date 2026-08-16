@@ -36,15 +36,25 @@ export interface ScamListFilters {
   zip?: string;
   country?: string;
   search?: string;
-  sort?: 'newest' | 'oldest' | 'alert_level' | 'name_asc';
+  sort?: 'newest' | 'oldest' | 'alert_level' | 'name_asc' | 'chronological';
+  // 'current' (default) hides historical entries so the main browsing
+  // experience stays about active threats; 'historical' shows only the
+  // historical archive; 'all' mixes both.
+  view?: 'current' | 'historical' | 'all';
   page?: number;
   pageSize?: number;
 }
 
 export async function listScams(filters: ScamListFilters) {
-  const { category, state, zip, country, search, sort = 'newest', page = 1, pageSize = 20 } = filters;
+  const { category, state, zip, country, search, sort = 'newest', view = 'current', page = 1, pageSize = 20 } = filters;
   const conditions: string[] = ['s.is_active = true'];
   const values: unknown[] = [];
+
+  if (view === 'historical') {
+    conditions.push('s.is_historical = true');
+  } else if (view === 'current') {
+    conditions.push('s.is_historical = false');
+  }
 
   if (category) {
     values.push(category);
@@ -85,7 +95,9 @@ export async function listScams(filters: ScamListFilters) {
         ? 'severity_rank DESC, s.name ASC'
         : sort === 'name_asc'
           ? 's.name ASC'
-          : 's.created_at DESC';
+          : sort === 'chronological'
+            ? 's.first_recorded ASC NULLS LAST, s.name ASC'
+            : 's.created_at DESC';
 
   values.push(pageSize);
   const limitParam = values.length;

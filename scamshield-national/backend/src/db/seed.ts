@@ -258,8 +258,15 @@ interface SeedScam {
   slug: string;
   description: string;
   categorySlug: string;
-  alertLevel: 'low' | 'medium' | 'high' | 'critical';
+  // Historical entries have no current threat level, so this is optional
+  // rather than forcing an inapplicable low/medium/high/critical label.
+  alertLevel?: 'low' | 'medium' | 'high' | 'critical';
   sources: string[];
+  country?: string;
+  isHistorical?: boolean;
+  // ISO date (YYYY-MM-DD) of the earliest well-documented instance —
+  // only set on isHistorical entries, where a specific real date exists.
+  firstRecorded?: string;
 }
 
 const SEED_SCAMS: SeedScam[] = [
@@ -479,6 +486,77 @@ const SEED_SCAMS: SeedScam[] = [
     alertLevel: 'low',
     sources: ['FTC Consumer Advice', 'FCC'],
   },
+
+  // Historical entries: real, well-documented frauds with no current
+  // threat level (hence no alertLevel), included to make good on the
+  // original goal of covering scam history, not just active patterns.
+  // Facts checked against the sources listed on each entry.
+  {
+    name: 'The South Sea Bubble',
+    slug: 'south-sea-bubble-1720',
+    description:
+      'The South Sea Company was granted a British trade monopoly with South America in exchange for absorbing part of the national debt. Directors inflated the stock through bribery and self-dealing rather than real trade revenue, driving the price from around £128 in January 1720 to over £1,000 by August — before it collapsed to under £200 by December, wiping out investors across British society, reportedly including Isaac Newton. The scandal led to a parliamentary investigation and the seizure of directors\' estates, and remains one of the earliest well-documented examples of a market propped up by fraud rather than fundamentals.',
+    categorySlug: 'investment-fraud',
+    sources: ['Encyclopaedia Britannica', 'UK Parliament archives'],
+    country: 'GB',
+    isHistorical: true,
+    firstRecorded: '1720-01-01',
+  },
+  {
+    name: 'The Poyais Scheme',
+    slug: 'poyais-scheme-1822',
+    description:
+      'Scottish soldier Gregor MacGregor returned to Britain in 1821 claiming to be "Cazique" of Poyais, a prosperous Central American territory he invented out of whole cloth. He sold land certificates and government bonds worth roughly £200,000, and recruited settlers with a fabricated guidebook describing a developed colony. About 250 emigrants sailed for Poyais in 1822–23 and found only uninhabited jungle; more than half died before rescue. MacGregor was never successfully prosecuted and later ran smaller versions of the same scheme.',
+    categorySlug: 'investment-fraud',
+    sources: ['Encyclopaedia Britannica', 'Historic UK'],
+    country: 'GB',
+    isHistorical: true,
+    firstRecorded: '1822-01-01',
+  },
+  {
+    name: 'The Great Diamond Hoax of 1872',
+    slug: 'great-diamond-hoax-1872',
+    description:
+      'Prospectors Philip Arnold and John Slack salted a claimed diamond field in the Wyoming/Colorado territory with real but low-value industrial diamonds and gemstones bought elsewhere, then let investors "discover" them during a staged site visit. San Francisco financiers, including the Bank of California\'s William Ralston, formed a mining company and paid the pair roughly $600,000 (worth many millions today) for their claim. The fraud unraveled when U.S. government geologist Clarence King independently surveyed the site and found gems in geologically impossible combinations and locations — exposing the whole scheme within weeks of the deal closing.',
+    categorySlug: 'investment-fraud',
+    sources: ['Smithsonian Magazine', 'U.S. Geological Survey history'],
+    country: 'US',
+    isHistorical: true,
+    firstRecorded: '1872-01-01',
+  },
+  {
+    name: 'The Tichborne Claimant',
+    slug: 'tichborne-claimant-1866',
+    description:
+      'When Sir Roger Tichborne, heir to an English baronetcy, was lost at sea in 1854, his mother refused to accept his death. In 1866, a butcher from Wagga Wagga, Australia — later identified as Arthur Orton — came forward claiming to be Roger, despite bearing little physical resemblance and lacking Roger\'s fluent French. Orton pursued the claim through a civil trial (1871–72) and a criminal perjury trial (1873–74), both drawing huge public attention, before being convicted and sentenced to 14 years. He maintained the claim for decades and was buried under the name "Sir Roger Tichborne" in 1898, despite a confession in between.',
+    categorySlug: 'identity-theft',
+    sources: ['Encyclopaedia Britannica', 'UK National Archives'],
+    country: 'GB',
+    isHistorical: true,
+    firstRecorded: '1866-01-01',
+  },
+  {
+    name: 'Cassie Chadwick\'s Carnegie Heiress Fraud',
+    slug: 'cassie-chadwick-carnegie-fraud-1904',
+    description:
+      'Between 1897 and 1904, Cassie Chadwick convinced multiple Ohio banks she was Andrew Carnegie\'s secret illegitimate daughter, using a forged $2 million promissory note as fabricated proof to secure enormous loans against a fortune she never had. Banks competed to lend to her quietly, hoping to earn her favor (and Carnegie\'s business) without asking questions. The scheme collapsed in 1904 when a lender sued to recover an unpaid loan; she was convicted of conspiracy in 1905 and died in prison in 1907.',
+    categorySlug: 'identity-theft',
+    sources: ['Smithsonian Magazine', 'Ohio History Connection'],
+    country: 'US',
+    isHistorical: true,
+    firstRecorded: '1897-01-01',
+  },
+  {
+    name: 'The Great Salad Oil Swindle',
+    slug: 'great-salad-oil-swindle-1963',
+    description:
+      'Commodities trader Anthony "Tino" De Angelis borrowed hundreds of millions of dollars against warehouse receipts for vegetable oil inventory that mostly didn\'t exist — storage tanks were filled largely with seawater, topped with a thin layer of real oil to fool inspectors. American Express\'s field warehousing subsidiary had certified the (fake) inventory as collateral, and when the fraud collapsed in late 1963 it caused over $180 million in losses across American Express, Bank of America, and other lenders, and contributed to a stock market dip that coincided with the week of President Kennedy\'s assassination. De Angelis served seven years in prison.',
+    categorySlug: 'investment-fraud',
+    sources: ['U.S. Securities and Exchange Commission history', 'The Wall Street Journal (Pulitzer Prize-winning coverage)'],
+    country: 'US',
+    isHistorical: true,
+    firstRecorded: '1963-01-01',
+  },
 ];
 
 async function seedCategoriesAndScams() {
@@ -494,10 +572,20 @@ async function seedCategoriesAndScams() {
 
   for (const scam of SEED_SCAMS) {
     await pool.query(
-      `INSERT INTO scams (name, slug, description, category_id, alert_level, is_active, sources, country)
-       VALUES ($1, $2, $3, (SELECT id FROM categories WHERE slug = $4), $5, true, $6, 'US')
+      `INSERT INTO scams (name, slug, description, category_id, alert_level, is_active, sources, country, is_historical, first_recorded)
+       VALUES ($1, $2, $3, (SELECT id FROM categories WHERE slug = $4), $5, true, $6, $7, $8, $9)
        ON CONFLICT (slug) DO NOTHING`,
-      [scam.name, scam.slug, scam.description, scam.categorySlug, scam.alertLevel, scam.sources]
+      [
+        scam.name,
+        scam.slug,
+        scam.description,
+        scam.categorySlug,
+        scam.alertLevel ?? null,
+        scam.sources,
+        scam.country ?? 'US',
+        scam.isHistorical ?? false,
+        scam.firstRecorded ?? null,
+      ]
     );
   }
   console.log(`seed: upserted ${SEED_SCAMS.length} scams`);
@@ -564,6 +652,33 @@ const SEED_GLOBAL_SOURCES: SeedGlobalSource[] = [
     description:
       "The UK's national fraud and cybercrime reporting service, run by the City of London Police. Publishes a public fraud statistics page; the underlying case data feeds law enforcement's National Fraud Intelligence Bureau, not a public API.",
     data_type: 'public_stats',
+  },
+  {
+    agency_name: 'CERT NZ (National Cyber Security Centre)',
+    country: 'NZ',
+    country_name: 'New Zealand',
+    url: 'https://www.cert.govt.nz/insights-and-research/quarterly-report/',
+    description:
+      "New Zealand's government cyber security response agency. Publishes quarterly \"Cyber Security Insights\" reports covering reported scam, phishing, and fraud activity; scam reports for the public also route through the non-profit Netsafe.",
+    data_type: 'public_stats',
+  },
+  {
+    agency_name: 'Competition and Consumer Protection Commission (CCPC)',
+    country: 'IE',
+    country_name: 'Ireland',
+    url: 'https://www.ccpc.ie/consumers/money/scams/',
+    description:
+      "Ireland's statutory consumer protection body. Publishes scam awareness case studies and helpline-based figures; it doesn't run a national crime-reporting system itself and directs fraud victims to also report to An Garda Síochána, the national police.",
+    data_type: 'public_stats',
+  },
+  {
+    agency_name: 'Singapore Police Force — ScamShield',
+    country: 'SG',
+    country_name: 'Singapore',
+    url: 'https://www.scamshield.gov.sg/',
+    description:
+      'A joint Singapore government initiative (Police Force, Ministry of Home Affairs, and GovTech) pairing a scam-detection app with public reporting tools. The Police publish detailed Annual and Mid-Year Scam and Cybercrime Briefs with category-level figures.',
+    data_type: 'annual_report',
   },
 ];
 
