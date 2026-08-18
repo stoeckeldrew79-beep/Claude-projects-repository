@@ -104,6 +104,18 @@ export default function Report() {
         is published — nothing here goes public automatically.
       </p>
 
+      <div className="mt-6 rounded-lg border border-red-200 bg-red-50 p-4 flex gap-3">
+        <span className="text-2xl leading-none">🛡️</span>
+        <div>
+          <p className="font-semibold text-slate-900">We can file this with the government for you — free</p>
+          <p className="mt-1 text-sm text-slate-700">
+            Add your contact info below and check the box near the end of this form, and our team will personally
+            submit your report to the right agency (like the FTC or FBI IC3) and track it for you — one less thing
+            you have to do yourself while dealing with this.
+          </p>
+        </div>
+      </div>
+
       <form onSubmit={handleSubmit} className="mt-8 space-y-6">
         <div>
           <label className="block text-sm font-medium text-slate-900 mb-1">
@@ -244,35 +256,35 @@ export default function Report() {
           )}
         </fieldset>
 
-        <fieldset className="border border-slate-200 rounded-lg p-4">
+        <fieldset className="border-2 border-red-200 bg-red-50/40 rounded-lg p-4">
           <legend className="px-1 text-sm font-semibold text-slate-900">Let us file this for you</legend>
-          {hasContactInfo ? (
-            <>
-              <label className="flex items-start gap-2 text-sm text-slate-700">
-                <input
-                  type="checkbox"
-                  checked={consentToFile}
-                  onChange={(e) => setConsentToFile(e.target.checked)}
-                  className="mt-0.5"
-                />
-                <span>
-                  I authorize ScamShield National to file this report with the appropriate agency (such as the FTC
-                  or FBI IC3 in the U.S., or the equivalent national agency for other countries) on my behalf, using
-                  the information above.
-                </span>
-              </label>
-              <p className="mt-2 text-xs text-slate-500">
-                A staff member personally submits it through the agency's own site — nothing is auto-submitted. Most
-                agencies don't provide case-by-case updates back to filers, so "status" here means what we've done,
-                not a promise of government follow-through or investigation.
-              </p>
-            </>
-          ) : (
-            <p className="text-sm text-slate-500">
-              Add your email or phone number above (and un-check "Report anonymously") if you'd like us to file
-              this with the appropriate agency on your behalf — we need a way to reach you about it.
+          <label
+            className={`flex items-start gap-2 text-sm ${hasContactInfo ? 'text-slate-700' : 'text-slate-400'}`}
+          >
+            <input
+              type="checkbox"
+              checked={consentToFile}
+              disabled={!hasContactInfo}
+              onChange={(e) => setConsentToFile(e.target.checked)}
+              className="mt-0.5"
+            />
+            <span>
+              I authorize ScamShield National to file this report with the appropriate agency (such as the FTC or
+              FBI IC3 in the U.S., or the equivalent national agency for other countries) on my behalf, using the
+              information above.
+            </span>
+          </label>
+          {!hasContactInfo && (
+            <p className="mt-2 text-xs font-medium text-red-700">
+              ⚠ Add your email or phone number above (and un-check "Report anonymously") to turn this on — we need
+              a way to reach you about it.
             </p>
           )}
+          <p className="mt-2 text-xs text-slate-500">
+            A staff member personally submits it through the agency's own site — nothing is auto-submitted. Most
+            agencies don't provide case-by-case updates back to filers, so "status" here means what we've done, not
+            a promise of government follow-through or investigation.
+          </p>
         </fieldset>
 
         {submit.isError && (
