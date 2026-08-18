@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { useSubmitReport } from '../hooks/useReports';
 import { useDocumentMeta } from '../hooks/useDocumentMeta';
 import { useCategories } from '../hooks/useScams';
+import { formatPhoneDisplay, PUBLIC_PHONE, telHref } from '../utils/publicPhone';
 
 const US_STATES = [
   'AL', 'AK', 'AZ', 'AR', 'CA', 'CO', 'CT', 'DE', 'FL', 'GA', 'HI', 'ID', 'IL', 'IN', 'IA', 'KS',
@@ -115,6 +116,20 @@ export default function Report() {
           </p>
         </div>
       </div>
+
+      {PUBLIC_PHONE && (
+        <div className="mt-3 rounded-lg border border-slate-200 bg-slate-50 p-4 flex items-center justify-between gap-3">
+          <p className="text-sm text-slate-700">
+            Prefer to talk to a real person instead of filling out a form?
+          </p>
+          <a
+            href={telHref(PUBLIC_PHONE)}
+            className="shrink-0 px-4 py-2 rounded-md bg-slate-900 text-white text-sm font-semibold hover:bg-slate-800"
+          >
+            Call {formatPhoneDisplay(PUBLIC_PHONE)}
+          </a>
+        </div>
+      )}
 
       <form onSubmit={handleSubmit} className="mt-8 space-y-6">
         <div>

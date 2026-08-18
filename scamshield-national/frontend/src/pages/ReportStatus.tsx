@@ -2,6 +2,7 @@ import { FormEvent, useState } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import { useReportStatus } from '../hooks/useReports';
 import { useDocumentMeta } from '../hooks/useDocumentMeta';
+import { formatPhoneDisplay, PUBLIC_PHONE, telHref } from '../utils/publicPhone';
 
 const INTERNAL_STATUS_COPY: Record<string, string> = {
   pending: 'Received, awaiting review by our team.',
@@ -52,6 +53,16 @@ export default function ReportStatus() {
           Look up
         </button>
       </form>
+
+      {PUBLIC_PHONE && (
+        <p className="mt-3 text-sm text-slate-500">
+          Lost your reference code, or have a question? Call us at{' '}
+          <a href={telHref(PUBLIC_PHONE)} className="underline hover:text-slate-700">
+            {formatPhoneDisplay(PUBLIC_PHONE)}
+          </a>{' '}
+          and a real person can look it up for you.
+        </p>
+      )}
 
       {isLoading && <p className="mt-6 text-slate-500">Looking up your report…</p>}
       {isError && (

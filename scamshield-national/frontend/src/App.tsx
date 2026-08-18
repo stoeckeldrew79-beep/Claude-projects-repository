@@ -176,6 +176,14 @@ function SiteFooter() {
             </a>{' '}
             — the official U.S. government reporting site.
           </p>
+          {PUBLIC_PHONE && (
+            <p className="mt-2 text-sm text-slate-500">
+              Or talk to a real person right now:{' '}
+              <a href={telHref(PUBLIC_PHONE)} className="underline font-medium">
+                {formatPhoneDisplay(PUBLIC_PHONE)}
+              </a>
+            </p>
+          )}
         </div>
       </div>
       <div className="border-t border-slate-200 py-4 text-center text-xs text-slate-400">
