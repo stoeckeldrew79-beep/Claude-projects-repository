@@ -1,4 +1,5 @@
 import { FormEvent, useState } from 'react';
+import { Link } from 'react-router-dom';
 import { useSubmitReport } from '../hooks/useReports';
 import { useDocumentMeta } from '../hooks/useDocumentMeta';
 import { useCategories } from '../hooks/useScams';
@@ -34,6 +35,9 @@ export default function Report() {
   const [reporterEmail, setReporterEmail] = useState('');
   const [reporterPhone, setReporterPhone] = useState('');
   const [anonymous, setAnonymous] = useState(false);
+  const [consentToFile, setConsentToFile] = useState(false);
+
+  const hasContactInfo = !anonymous && Boolean(reporterEmail || reporterPhone);
 
   function handleSubmit(e: FormEvent) {
     e.preventDefault();
@@ -51,10 +55,12 @@ export default function Report() {
       reporter_name: !anonymous && reporterName ? reporterName : undefined,
       reporter_email: !anonymous && reporterEmail ? reporterEmail : undefined,
       reporter_phone: !anonymous && reporterPhone ? reporterPhone : undefined,
+      consent_to_file: hasContactInfo && consentToFile,
     });
   }
 
   if (submit.isSuccess) {
+    const report = submit.data;
     return (
       <div className="max-w-xl mx-auto px-4 py-16 text-center">
         <div className="inline-flex h-12 w-12 items-center justify-center rounded-full bg-green-100 text-green-700 text-2xl">
@@ -65,6 +71,26 @@ export default function Report() {
           Thank you. Your report has been filed and will be reviewed by our team. Verified reports help build
           public alerts that protect others from the same scam.
         </p>
+        {report?.consent_to_file && (
+          <p className="mt-2 text-slate-600">
+            Since you asked us to file this on your behalf, our team will submit it to the appropriate agency and
+            record the confirmation — check back on the status page below for updates.
+          </p>
+        )}
+        <div className="mt-6 rounded-lg border border-slate-200 bg-slate-50 p-4 text-left">
+          <p className="text-xs font-medium text-slate-500 uppercase tracking-wide">Your report reference</p>
+          <p className="mt-1 font-mono text-sm text-slate-900 break-all">{report?.id}</p>
+          <p className="mt-2 text-xs text-slate-500">
+            Save this code — it's the only way to look up your report's status later, and we can't recover it for
+            you if you submitted anonymously.
+          </p>
+        </div>
+        <Link
+          to={`/report-status?id=${report?.id ?? ''}`}
+          className="mt-4 inline-block px-5 py-2.5 rounded-md bg-slate-900 text-white font-medium hover:bg-slate-800"
+        >
+          Check report status
+        </Link>
       </div>
     );
   }
@@ -215,6 +241,37 @@ export default function Report() {
                 className="rounded-md border border-slate-300 px-3 py-2 text-sm sm:col-span-2"
               />
             </div>
+          )}
+        </fieldset>
+
+        <fieldset className="border border-slate-200 rounded-lg p-4">
+          <legend className="px-1 text-sm font-semibold text-slate-900">Let us file this for you</legend>
+          {hasContactInfo ? (
+            <>
+              <label className="flex items-start gap-2 text-sm text-slate-700">
+                <input
+                  type="checkbox"
+                  checked={consentToFile}
+                  onChange={(e) => setConsentToFile(e.target.checked)}
+                  className="mt-0.5"
+                />
+                <span>
+                  I authorize ScamShield National to file this report with the appropriate agency (such as the FTC
+                  or FBI IC3 in the U.S., or the equivalent national agency for other countries) on my behalf, using
+                  the information above.
+                </span>
+              </label>
+              <p className="mt-2 text-xs text-slate-500">
+                A staff member personally submits it through the agency's own site — nothing is auto-submitted. Most
+                agencies don't provide case-by-case updates back to filers, so "status" here means what we've done,
+                not a promise of government follow-through or investigation.
+              </p>
+            </>
+          ) : (
+            <p className="text-sm text-slate-500">
+              Add your email or phone number above (and un-check "Report anonymously") if you'd like us to file
+              this with the appropriate agency on your behalf — we need a way to reach you about it.
+            </p>
           )}
         </fieldset>
 

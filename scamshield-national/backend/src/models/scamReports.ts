@@ -16,6 +16,12 @@ export interface NewScamReport {
   country?: string;
   state?: string;
   zip_code?: string;
+  // Consent to have ScamShield National file this report with the
+  // relevant outside agency on the reporter's behalf. Captured at
+  // submission time only — there's no logged-in session tying a later
+  // request back to an anonymous public submission, so this can't be
+  // added retroactively without contacting support.
+  consent_to_file?: boolean;
 }
 
 const SUBMIT_FIELDS = [
@@ -33,6 +39,7 @@ const SUBMIT_FIELDS = [
   'country',
   'state',
   'zip_code',
+  'consent_to_file',
 ] as const;
 
 // Only status transitions and promotion linkage are writable through the
@@ -43,8 +50,13 @@ const REVIEW_FIELDS = ['status', 'promoted_scam_id', 'reviewed_by', 'reviewed_at
 export async function createReport(data: NewScamReport) {
   const { fields, values } = buildUpdateSetForInsert(data as unknown as Record<string, unknown>, SUBMIT_FIELDS);
   const placeholders = fields.map((_, i) => `$${i + 1}`);
+  // consent_to_file_at is server-set, never client-supplied, so a
+  // reporter can't fabricate an earlier consent timestamp.
+  const consentIndex = fields.indexOf('consent_to_file');
+  const extraColumn = consentIndex !== -1 && values[consentIndex] ? ', consent_to_file_at' : '';
+  const extraValue = consentIndex !== -1 && values[consentIndex] ? ', NOW()' : '';
   const { rows } = await pool.query(
-    `INSERT INTO scam_reports (${fields.join(', ')}) VALUES (${placeholders.join(', ')}) RETURNING *`,
+    `INSERT INTO scam_reports (${fields.join(', ')}${extraColumn}) VALUES (${placeholders.join(', ')}${extraValue}) RETURNING *`,
     values
   );
   return rows[0];
@@ -70,7 +82,13 @@ export async function listReports(status?: string) {
 }
 
 export async function getReportById(id: string) {
-  const { rows } = await pool.query('SELECT * FROM scam_reports WHERE id = $1', [id]);
+  const { rows } = await pool.query(
+    `SELECT r.*, c.slug AS category_slug
+     FROM scam_reports r
+     LEFT JOIN categories c ON c.id = r.category_id
+     WHERE r.id = $1`,
+    [id]
+  );
   return rows[0] ?? null;
 }
 

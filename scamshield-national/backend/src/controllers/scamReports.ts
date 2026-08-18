@@ -1,6 +1,7 @@
 import { AuthedRequest } from '../middleware/auth';
 import * as ScamReportsModel from '../models/scamReports';
 import * as ScamsModel from '../models/scams';
+import * as ReportFilingsModel from '../models/reportFilings';
 import { asyncHandler } from '../utils/asyncHandler';
 
 export const create = asyncHandler<AuthedRequest>(async (req, res) => {
@@ -46,6 +47,32 @@ export const promote = asyncHandler<AuthedRequest>(async (req, res) => {
   });
 
   res.json({ data: { report: updated, scam } });
+});
+
+// Public status lookup by report ID — deliberately returns only the
+// fields a reporter needs to see their own status, not the full report
+// (which includes the scammer's contact details and other reporters'
+// submissions aren't reachable at all without knowing their UUID).
+export const status = asyncHandler<AuthedRequest>(async (req, res) => {
+  const report = await ScamReportsModel.getReportById(req.params.id);
+  if (!report) return res.status(404).json({ error: 'Report not found' });
+
+  const filings = report.consent_to_file ? await ReportFilingsModel.listFilingsForReport(report.id) : [];
+
+  res.json({
+    data: {
+      id: report.id,
+      status: report.status,
+      created_at: report.created_at,
+      consent_to_file: report.consent_to_file,
+      filings: filings.map((f) => ({
+        agency_name: f.agency_name,
+        status: f.status,
+        reference_number: f.reference_number,
+        filed_at: f.filed_at,
+      })),
+    },
+  });
 });
 
 export const dismiss = asyncHandler<AuthedRequest>(async (req, res) => {

@@ -4,7 +4,15 @@ import { createArticle, createScam } from '../services/admin';
 import { useDocumentMeta } from '../hooks/useDocumentMeta';
 import { AlertLevel } from '../types';
 import { useAuthStore } from '../store/useAuthStore';
-import { useDismissReport, usePendingReports, usePromoteReport } from '../hooks/useReports';
+import {
+  useCreateFiling,
+  useDismissReport,
+  useFilingSuggestions,
+  useFilings,
+  usePendingReports,
+  usePromoteReport,
+  useUpdateFiling,
+} from '../hooks/useReports';
 import { ScamReport } from '../services/reports';
 import { COUNTRY_NAMES } from '../utils/countries';
 import { useApproveDraft, useDiscardDraft, useDraftArticles } from '../hooks/useDrafts';
@@ -164,6 +172,147 @@ function slugFromDescription(description: string): string {
   return slugify(description.split(/\s+/).slice(0, 6).join(' '));
 }
 
+// Only rendered when the reporter consented to us filing on their
+// behalf. Suggestions are computed live from real agency data (FTC/IC3
+// logic + the same global_sources table Global Sources shows publicly)
+// — recording one as "filed" is a manual attestation that a staff
+// member actually submitted it through the agency's own site.
+function FilingRow({
+  reportId,
+  agencyName,
+  agencyUrl,
+  reason,
+  existing,
+}: {
+  reportId: string;
+  agencyName: string;
+  agencyUrl: string;
+  reason: string;
+  existing?: { id: string; status: string; reference_number: string | null; notes: string | null };
+}) {
+  const [editing, setEditing] = useState(false);
+  const [referenceNumber, setReferenceNumber] = useState(existing?.reference_number ?? '');
+  const [notes, setNotes] = useState(existing?.notes ?? '');
+  const create = useCreateFiling(reportId);
+  const update = useUpdateFiling(reportId);
+
+  function handleMarkFiled(e: FormEvent) {
+    e.preventDefault();
+    if (existing) {
+      update.mutate({ filingId: existing.id, status: 'filed', reference_number: referenceNumber, notes });
+    } else {
+      create.mutate({ agency_name: agencyName, agency_url: agencyUrl, status: 'filed', reference_number: referenceNumber, notes });
+    }
+    setEditing(false);
+  }
+
+  function handleNotApplicable() {
+    if (existing) {
+      update.mutate({ filingId: existing.id, status: 'not_applicable' });
+    } else {
+      create.mutate({ agency_name: agencyName, agency_url: agencyUrl, status: 'not_applicable' });
+    }
+  }
+
+  const status = existing?.status ?? 'suggested';
+
+  return (
+    <div className="rounded-md border border-slate-200 p-3 text-xs">
+      <div className="flex items-start justify-between gap-2">
+        <div>
+          <a href={agencyUrl} target="_blank" rel="noreferrer" className="font-medium text-slate-900 underline">
+            {agencyName}
+          </a>
+          <p className="mt-0.5 text-slate-500">{reason}</p>
+        </div>
+        <span
+          className={`shrink-0 px-2 py-0.5 rounded-full font-medium ${
+            status === 'filed' ? 'bg-green-100 text-green-800' : status === 'not_applicable' ? 'bg-slate-100 text-slate-500' : 'bg-yellow-100 text-yellow-800'
+          }`}
+        >
+          {status === 'filed' ? 'Filed' : status === 'not_applicable' ? 'N/A' : 'Suggested'}
+        </span>
+      </div>
+
+      {status === 'filed' && existing?.reference_number && (
+        <p className="mt-2 text-slate-500">Reference: {existing.reference_number}</p>
+      )}
+
+      {status !== 'filed' && !editing && (
+        <div className="mt-2 flex gap-2">
+          <button
+            type="button"
+            onClick={() => setEditing(true)}
+            className="px-2 py-1 rounded bg-slate-900 text-white font-medium"
+          >
+            Mark as filed
+          </button>
+          {status === 'suggested' && (
+            <button type="button" onClick={handleNotApplicable} className="px-2 py-1 rounded border border-slate-300 font-medium">
+              Not applicable
+            </button>
+          )}
+        </div>
+      )}
+
+      {editing && (
+        <form onSubmit={handleMarkFiled} className="mt-2 flex flex-wrap gap-2 items-center">
+          <input
+            value={referenceNumber}
+            onChange={(e) => setReferenceNumber(e.target.value)}
+            placeholder="Confirmation / reference number"
+            className="rounded border border-slate-300 px-2 py-1 flex-1 min-w-[140px]"
+          />
+          <input
+            value={notes}
+            onChange={(e) => setNotes(e.target.value)}
+            placeholder="Notes (optional)"
+            className="rounded border border-slate-300 px-2 py-1 flex-1 min-w-[140px]"
+          />
+          <button type="submit" className="px-2 py-1 rounded bg-slate-900 text-white font-medium">
+            Save
+          </button>
+        </form>
+      )}
+    </div>
+  );
+}
+
+function FilingsPanel({ reportId }: { reportId: string }) {
+  const { data: suggestions } = useFilingSuggestions(reportId, true);
+  const { data: filings } = useFilings(reportId, true);
+
+  const filingsByAgency = new Map((filings ?? []).map((f) => [f.agency_name, f]));
+  // Union of live suggestions and anything already recorded (a filing
+  // recorded in the past should still show even if the suggestion logic
+  // wouldn't surface it again today).
+  const agencyNames = new Set([...(suggestions ?? []).map((s) => s.agency_name), ...filingsByAgency.keys()]);
+
+  if (agencyNames.size === 0) {
+    return <p className="mt-3 text-xs text-slate-500">No matching agency found for this report's country yet.</p>;
+  }
+
+  return (
+    <div className="mt-3 space-y-2">
+      <p className="text-xs font-semibold text-slate-900">Filing (consented)</p>
+      {Array.from(agencyNames).map((agencyName) => {
+        const existing = filingsByAgency.get(agencyName);
+        const suggestion = suggestions?.find((s) => s.agency_name === agencyName);
+        return (
+          <FilingRow
+            key={agencyName}
+            reportId={reportId}
+            agencyName={agencyName}
+            agencyUrl={existing?.agency_url ?? suggestion?.agency_url ?? '#'}
+            reason={suggestion?.reason ?? 'Previously recorded filing.'}
+            existing={existing}
+          />
+        );
+      })}
+    </div>
+  );
+}
+
 function ReportCard({ report }: { report: ScamReport }) {
   const [promoting, setPromoting] = useState(false);
   const [name, setName] = useState('');
@@ -205,6 +354,8 @@ function ReportCard({ report }: { report: ScamReport }) {
           </div>
         )}
       </dl>
+
+      {report.consent_to_file && <FilingsPanel reportId={report.id} />}
 
       {!promoting ? (
         <div className="mt-3 flex gap-2">

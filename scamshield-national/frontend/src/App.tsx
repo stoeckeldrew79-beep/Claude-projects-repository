@@ -9,6 +9,7 @@ import Notorious from './pages/Notorious';
 import GlobalMap from './pages/GlobalMap';
 import GlobalSources from './pages/GlobalSources';
 import Report from './pages/Report';
+import ReportStatus from './pages/ReportStatus';
 import Subscribe from './pages/Subscribe';
 import Dashboard from './pages/Dashboard';
 import Admin from './pages/Admin';
@@ -158,6 +159,11 @@ function SiteFooter() {
                 Report a scam
               </Link>
             </li>
+            <li>
+              <Link to="/report-status" className="hover:text-slate-900">
+                Check report status
+              </Link>
+            </li>
           </ul>
         </div>
         <div>
@@ -196,6 +202,7 @@ export default function App() {
           <Route path="/global-map" element={<GlobalMap />} />
           <Route path="/global-sources" element={<GlobalSources />} />
           <Route path="/report" element={<Report />} />
+          <Route path="/report-status" element={<ReportStatus />} />
           <Route path="/subscribe" element={<Subscribe />} />
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/admin" element={<Admin />} />

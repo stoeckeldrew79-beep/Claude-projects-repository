@@ -25,6 +25,17 @@ Implemented:
 - Trend Watch — real report-volume-by-category chart on `/database`, sourced from the DB
 - "Report a Scam" public intake (`/report`) with a full admin review pipeline (promote to a
   real public scam entry / dismiss)
+- "File this for you": a reporter can consent (at submission time, with contact info) to have
+  ScamShield National file their report with the appropriate real agency on their behalf. The
+  system suggests real agencies based on the report's actual country/category/contact method
+  (FTC for general U.S. fraud, IdentityTheft.gov for identity theft, FBI IC3 when email/a
+  website was involved, or the matching entry from Global Sources for other countries) —
+  nothing is auto-submitted to any government site; a staff member files it manually through
+  the agency's own portal and records the confirmation via `/admin`. Reporters check status,
+  including per-agency filing status, at `/report-status` using the reference code they're
+  given on submission. The status copy is deliberately honest that most agencies don't give
+  case-by-case investigation updates back to filers — this shows what we did, not a promise of
+  government follow-through
 - AI-drafted articles: `npm run draft-articles` detects real patterns in report intake
   (recurring scammer contact info, category spikes) and drafts articles with Claude — every
   draft lands unpublished in the admin review queue (`/admin`, or `GET /articles/drafts`);
