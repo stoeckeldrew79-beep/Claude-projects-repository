@@ -20,10 +20,19 @@ export interface NewArticle {
   slug: string;
   body: string;
   author?: string;
+  cover_image?: string;
   published: boolean;
 }
 
 export async function createArticle(article: NewArticle) {
   const { data } = await api.post<{ data: Article }>('/articles', article);
+  return data.data;
+}
+
+// Used to attach a real, rights-cleared cover photo to an existing
+// article (e.g. a Notorious Scams profile) — everything else about the
+// article stays as-is.
+export async function updateArticleCoverImage(id: string, cover_image: string) {
+  const { data } = await api.put<{ data: Article }>(`/articles/${id}`, { cover_image });
   return data.data;
 }

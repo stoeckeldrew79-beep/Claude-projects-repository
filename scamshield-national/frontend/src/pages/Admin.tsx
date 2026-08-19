@@ -1,9 +1,11 @@
 import { FormEvent, useState } from 'react';
 import { useMutation, useQueryClient } from '@tanstack/react-query';
-import { createArticle, createScam } from '../services/admin';
+import { createArticle, createScam, updateArticleCoverImage } from '../services/admin';
 import { useDocumentMeta } from '../hooks/useDocumentMeta';
+import { useArticles } from '../hooks/useArticles';
 import { AlertLevel } from '../types';
 import { useAuthStore } from '../store/useAuthStore';
+import { NotoriousCoverArt } from '../components/NotoriousCoverArt';
 import {
   useCreateFiling,
   useDismissReport,
@@ -115,6 +117,7 @@ function ArticleForm() {
   const [title, setTitle] = useState('');
   const [body, setBody] = useState('');
   const [author, setAuthor] = useState('');
+  const [coverImage, setCoverImage] = useState('');
 
   const mutation = useMutation({
     mutationFn: createArticle,
@@ -123,12 +126,20 @@ function ArticleForm() {
       setTitle('');
       setBody('');
       setAuthor('');
+      setCoverImage('');
     },
   });
 
   function handleSubmit(e: FormEvent) {
     e.preventDefault();
-    mutation.mutate({ title, slug: slugify(title), body, author: author || undefined, published: true });
+    mutation.mutate({
+      title,
+      slug: slugify(title),
+      body,
+      author: author || undefined,
+      cover_image: coverImage || undefined,
+      published: true,
+    });
   }
 
   return (
@@ -145,6 +156,12 @@ function ArticleForm() {
         value={author}
         onChange={(e) => setAuthor(e.target.value)}
         placeholder="Author (optional)"
+        className="w-full rounded-md border border-slate-300 px-3 py-2 text-sm"
+      />
+      <input
+        value={coverImage}
+        onChange={(e) => setCoverImage(e.target.value)}
+        placeholder="Cover image URL (optional — only rights-cleared photos, e.g. official .gov booking/press photos)"
         className="w-full rounded-md border border-slate-300 px-3 py-2 text-sm"
       />
       <textarea
@@ -165,6 +182,70 @@ function ArticleForm() {
       {mutation.isSuccess && <p className="text-sm text-green-700">Published.</p>}
       {mutation.isError && <p className="text-sm text-red-700">Couldn't publish — check you're signed in as an admin.</p>}
     </form>
+  );
+}
+
+// Lets an admin attach a real cover photo to an existing Notorious
+// profile (falls back to the abstract art on the public pages until
+// one is set). Deliberately just a URL field, not an upload — keeps
+// the licensing decision as a conscious step: paste a link to a
+// specific, already-cleared source (official .gov booking/press
+// photos are the safe case) rather than making it easy to casually
+// drop in whatever image search turns up.
+function NotoriousCoverPhotos() {
+  const user = useAuthStore((s) => s.user);
+  const queryClient = useQueryClient();
+  const { data: articles, isLoading } = useArticles('notorious');
+  const [drafts, setDrafts] = useState<Record<string, string>>({});
+
+  const mutation = useMutation({
+    mutationFn: ({ id, url }: { id: string; url: string }) => updateArticleCoverImage(id, url),
+    onSuccess: () => queryClient.invalidateQueries({ queryKey: ['articles'] }),
+  });
+
+  if (!user) return null;
+
+  return (
+    <div className="rounded-lg border border-slate-200 p-5">
+      <h2 className="font-semibold text-slate-900">Notorious profile cover photos</h2>
+      <p className="mt-1 text-sm text-slate-500">
+        Paste a link to a specific, rights-cleared photo (official .gov booking or press-release photos are the
+        safest source) to replace the abstract cover art for that profile. Leave blank to keep the abstract art.
+      </p>
+      {isLoading && <p className="mt-3 text-sm text-slate-500">Loading…</p>}
+      <div className="mt-4 space-y-3">
+        {articles?.map((article) => {
+          const draft = drafts[article.id] ?? article.cover_image ?? '';
+          return (
+            <div key={article.id} className="flex items-center gap-3">
+              <div className="h-12 w-16 shrink-0 overflow-hidden rounded border border-slate-200">
+                {article.cover_image ? (
+                  <img src={article.cover_image} alt="" className="h-full w-full object-cover" />
+                ) : (
+                  <NotoriousCoverArt slug={article.slug} className="h-full" />
+                )}
+              </div>
+              <p className="w-48 shrink-0 text-sm text-slate-700 truncate">{article.title}</p>
+              <input
+                value={draft}
+                onChange={(e) => setDrafts((d) => ({ ...d, [article.id]: e.target.value }))}
+                placeholder="https://..."
+                className="flex-1 rounded-md border border-slate-300 px-2 py-1.5 text-xs"
+              />
+              <button
+                type="button"
+                onClick={() => mutation.mutate({ id: article.id, url: draft })}
+                disabled={mutation.isPending}
+                className="shrink-0 px-3 py-1.5 rounded-md bg-slate-900 text-white text-xs font-medium disabled:opacity-50"
+              >
+                Save
+              </button>
+            </div>
+          );
+        })}
+      </div>
+      {mutation.isError && <p className="mt-2 text-xs text-red-700">Couldn't save — check you're signed in as an admin.</p>}
+    </div>
   );
 }
 
@@ -700,6 +781,7 @@ export default function Admin() {
         <GlobalSourcesPanel />
         <ScamForm />
         <ArticleForm />
+        <NotoriousCoverPhotos />
       </div>
     </div>
   );

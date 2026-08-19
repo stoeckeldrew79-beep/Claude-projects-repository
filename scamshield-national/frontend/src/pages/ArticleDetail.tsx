@@ -32,9 +32,14 @@ export default function ArticleDetail() {
       </Link>
       <h1 className="text-3xl font-bold text-slate-900 mt-2">{article.title}</h1>
       {article.author && <p className="text-sm text-slate-500 mt-1">By {article.author}</p>}
-      {isNotorious && <NotoriousCoverArt slug={article.slug} className="mt-6 rounded-lg h-56" />}
-      {article.cover_image && (
-        <img src={article.cover_image} alt="" className="mt-6 rounded-lg w-full object-cover" />
+      {article.cover_image ? (
+        <img
+          src={article.cover_image}
+          alt={article.title}
+          className="mt-6 rounded-lg w-full h-56 object-cover"
+        />
+      ) : (
+        isNotorious && <NotoriousCoverArt slug={article.slug} className="mt-6 rounded-lg h-56" />
       )}
       <div className="mt-6 text-slate-700 whitespace-pre-line leading-relaxed">{article.body}</div>
       {article.scam_slug && (

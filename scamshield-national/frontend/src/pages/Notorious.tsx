@@ -40,8 +40,16 @@ export default function Notorious() {
               to={`/articles/${article.slug}`}
               className="group block overflow-hidden rounded-xl border border-slate-200 hover:border-slate-400 hover:shadow-md transition-all"
             >
-              <div className="h-44">
-                <NotoriousCoverArt slug={article.slug} className="h-full transition-transform duration-500 group-hover:scale-105" />
+              <div className="h-44 overflow-hidden">
+                {article.cover_image ? (
+                  <img
+                    src={article.cover_image}
+                    alt={article.title}
+                    className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+                  />
+                ) : (
+                  <NotoriousCoverArt slug={article.slug} className="h-full transition-transform duration-500 group-hover:scale-105" />
+                )}
               </div>
               <div className="p-5">
                 <h2 className="text-lg font-semibold text-slate-900 group-hover:underline">{article.title}</h2>
