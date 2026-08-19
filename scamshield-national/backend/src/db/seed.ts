@@ -162,6 +162,84 @@ The scheme unraveled in 2012 when a city employee filling in during Crundwell's 
 
 The case remains a reference point for municipal fraud prevention for a simple reason: no exotic financial instruments were involved, just one person controlling both the money and the paperwork meant to check it, for more than twenty years, in a town too small and too trusting to look closely at either.`,
   },
+  {
+    title: 'Enron: The $74 Billion Collapse Built on Fake Numbers',
+    slug: 'enron-accounting-fraud-collapse',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Founded from a 1985 merger, Enron grew into one of the largest energy trading companies in America, named "America's Most Innovative Company" by Fortune magazine for six consecutive years through 2000. Its stock was a Wall Street favorite, and its executives were celebrated as visionaries reinventing how energy markets worked.
+
+Behind the growth, Enron's executives — led by CEO Kenneth Lay and COO, later CEO, Jeffrey Skilling — used a web of off-the-books "special purpose entities" to hide billions of dollars in debt and inflate reported profits, with the company's own auditor, Arthur Andersen, signing off on statements that didn't reflect Enron's actual financial condition. When the scheme unraveled in October 2001, Enron's stock collapsed from over $90 to under $1 within weeks, wiping out an estimated $74 billion in shareholder value and thousands of employees' retirement savings, which had been heavily invested in company stock.
+
+Enron filed for bankruptcy in December 2001, then one of the largest bankruptcies in U.S. history. Arthur Andersen, one of the "Big Five" accounting firms, was convicted of obstruction of justice for shredding Enron documents and collapsed as a business — though the conviction was later overturned by the Supreme Court on a technicality, by which point the firm no longer existed anyway. Skilling was convicted in 2006 on 19 counts of fraud and conspiracy and sentenced to 24 years; a 2013 deal reduced that to 14, and he was released in 2019. Lay was convicted alongside Skilling but died of heart disease before sentencing, which under federal law vacated his conviction entirely.
+
+Enron remains the reference case for a specific kind of fraud — not a lone con artist, but an entire company, its board, and its outside auditor collectively failing, or refusing, to catch numbers that didn't add up. It directly led to the Sarbanes-Oxley Act of 2002, the most significant corporate accounting reform in a generation.`,
+  },
+  {
+    title: "Wirecard: Germany's Biggest Fraud, and the Executive Who Vanished",
+    slug: 'wirecard-jan-marsalek-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious'],
+    body: `Wirecard was a German payments-processing company that grew, on paper, into one of Europe's most valuable fintech firms, joining the prestigious DAX 30 index of Germany's largest public companies in 2018 — a rare feat for a company barely two decades old.
+
+In June 2020, Wirecard's auditor revealed that €1.9 billion (about $2.3 billion) the company claimed was held in trustee bank accounts in the Philippines simply did not exist. The company collapsed within days, filing for insolvency in one of the largest corporate fraud scandals in German history.
+
+Wirecard's chief operating officer, Jan Marsalek, disappeared days before the collapse and has been a fugitive ever since, wanted by German authorities and listed on Interpol's wanted database; investigative reporting from multiple European outlets has since traced him to Russia, reportedly living under a false identity with ties to Russian intelligence. CEO Markus Braun was arrested and has stood trial since December 2022 alongside two other former executives on charges of fraud and market manipulation. As of 2026, that trial is still ongoing with no verdict reached, and Braun has consistently denied the allegations, maintaining he was himself a victim of the fraud rather than its architect.
+
+Wirecard is a reminder that even a company listed on a major stock index, audited annually, and regulated by a G7 country's financial authorities can still turn out to be built on numbers that don't exist — and that "notorious" doesn't always mean "resolved": years after the collapse, one of the case's central figures remains a fugitive, and the other's guilt or innocence is still being decided in court.`,
+  },
+  {
+    title: 'Bre-X: The Billion-Dollar Gold Mine That Was Never There',
+    slug: 'bre-x-gold-mine-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'historical'],
+    body: `Bre-X Minerals was a small Canadian mining company trading for pennies a share until 1995, when it announced a spectacular gold discovery at a remote site called Busang, in the jungles of Indonesian Borneo. Rock samples reportedly showed gold in quantities that would make it one of the richest deposits ever found.
+
+Bre-X's stock price rocketed, reaching a split-adjusted peak of over CAD $280 a share in 1996 and giving the company a market value of more than CAD $6 billion, drawing in mining giants, pension funds, and ordinary retail investors chasing the excitement. The gold was never real: independent testing later found the rock samples had been "salted" — tampered with by adding gold dust from an outside source to fake the assay results.
+
+In March 1997, as due-diligence testing began raising questions, Bre-X's chief geologist Michael de Guzman fell to his death from a helicopter over the Indonesian jungle, in what was ruled a suicide, though theories about his death persist to this day. Weeks later, an independent report confirmed there was effectively no economically recoverable gold at the site. The stock collapsed to nothing, wiping out an estimated 40,000 investors. Because the person most directly tied to faking the samples was dead, and no clear evidence tied Bre-X's other executives to the deception, no one was ever criminally convicted.
+
+Bre-X remains one of the largest mining frauds in history and a case study in how a compelling, exciting story — a resource discovery so big it seemed almost too good to be true — can override the kind of skepticism that easily-checkable evidence might otherwise invite. In this instance, it literally was too good to be true.`,
+  },
+  {
+    title: 'Nirav Modi and the $2 Billion Bank Fraud That Emptied a Vault Without a Robbery',
+    slug: 'nirav-modi-punjab-national-bank-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious'],
+    body: `Nirav Modi built an internationally recognized luxury diamond jewelry brand, with boutiques from Mumbai to New York and celebrity clients, before Indian investigators accused him and his uncle Mehul Choksi of orchestrating one of the largest bank frauds in the country's history.
+
+Indian authorities allege that, starting around 2011, Modi's companies obtained fraudulent guarantee letters from staff at Punjab National Bank — India's second-largest state-run bank — without the collateral such guarantees normally require, then used them to secure loans from overseas branches of other Indian banks. By the time the scheme was uncovered in 2018, the alleged fraud totaled roughly ₹14,000 crore, or about $2 billion.
+
+Modi left India shortly before the fraud became public and has been fighting extradition from the United Kingdom ever since, held at HMP Wandsworth in London since his 2019 arrest. He has consistently denied the allegations. After exhausting UK court appeals and a final rejection from the European Court of Human Rights in mid-2026, his extradition to India to face trial appears to be reaching its final stage — though as of this writing he has not yet been tried or convicted of any crime.
+
+The case is a reminder that a criminal accusation and a criminal conviction are two different things, sometimes separated by nearly a decade of legal process across multiple countries — and that "alleged" is doing real, necessary work in every sentence describing Modi's role, right up until an actual verdict is reached.`,
+  },
+  {
+    title: 'Lou Pearlman: The Boy Band Mogul Running a $300 Million Ponzi Scheme',
+    slug: 'lou-pearlman-boy-band-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `Lou Pearlman built and managed some of the biggest boy bands of the 1990s and 2000s, including the Backstreet Boys and *NSYNC, becoming one of the most powerful figures in pop music. Alongside his entertainment business, he ran investment programs — including an "Employee Investment Savings Account" and an airline-leasing venture — that promised safe, above-market returns.
+
+Those investment programs were fictitious. For roughly 15 years, Pearlman used fabricated financial statements, a fake accounting firm, and even a fake bank to convince nearly 1,700 investors, many of them elderly Florida retirees, to hand over a combined $300 million or more, paying "returns" to earlier investors using money from new ones in a classic Ponzi structure.
+
+The scheme unraveled in 2006 amid state and federal investigations, and Pearlman fled the country, eventually arrested in Bali, Indonesia, in 2007. He was extradited, pleaded guilty to conspiracy and money laundering charges, and was sentenced in 2008 to 25 years in prison, with a provision letting him shave time off his sentence for every million dollars he helped recover for victims. He died of cardiac arrest in prison in 2016, having served eight years of the sentence.
+
+Pearlman's case shows how a fraud can hide behind a legitimate, glamorous business for years — investors who might never have handed a stranger $300 million trusted the man who discovered the Backstreet Boys, right up until the "bank" statements he was sending them turned out to describe an institution that didn't exist.`,
+  },
+  {
+    title: 'Marcus Schrenker: The Financial Adviser Who Faked His Own Plane Crash',
+    slug: 'marcus-schrenker-faked-plane-crash-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious'],
+    body: `Marcus Schrenker was an Indiana financial adviser and amateur pilot who used roughly $1.5 million stolen from at least nine clients — including a longtime friend and his own aunt — to fund a lavish lifestyle of private planes, luxury cars, and a 10,000-square-foot home, financed in part through a foreign currency investment fund that didn't actually exist.
+
+As regulators and investigators closed in during January 2009, Schrenker filed a fraudulent life insurance claim, then took off in his small plane, radioed a distress call claiming the windshield had shattered and he was bleeding, put the plane on autopilot, and parachuted out over Alabama — apparently hoping the plane's eventual crash would be mistaken for his death and the search for him would end there.
+
+The plan failed almost immediately: air traffic controllers found his story suspicious, and the plane crash-landed largely intact rather than the fiery wreck he likely expected. Schrenker was found two days later at a Florida campground with self-inflicted wrist wounds. He pleaded guilty to federal charges related to the staged crash, and separately to securities fraud, receiving a four-year sentence for the crash and a consecutive 10-year sentence for the fraud.
+
+Beyond the fraud itself — an all-too-common fake investment fund — the staged crash is a reminder of how far a scheme's architect may go once genuinely cornered, and how quickly a plan built to look like an accident can fall apart under the same kind of scrutiny that should have applied to the original investment claims.`,
+  },
 ];
 
 // Practical "how it works / red flags / what to do" guides covering the

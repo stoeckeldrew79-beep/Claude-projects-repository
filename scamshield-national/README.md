@@ -23,7 +23,10 @@ Implemented:
 - Real email+password auth (bcrypt) with JWT sessions and role/tier-gated routes
 - Real Stripe checkout/portal/webhook flow, syncing subscription tier from live events
 - Twilio SMS + SendGrid email alert broadcast, tier-gated (Family+ for SMS, Pro+ for real-time email)
-- Articles blog, including a "Notorious Scams & Scammers" historical collection (`/notorious`)
+- Articles blog, including a "Notorious Scams & Scammers" collection (`/notorious`) — 17 real,
+  publicly documented cases (convictions, ongoing trials, and unresolved allegations, each
+  clearly labeled as such), each with custom abstract cover art (gradient + vignette, no photos
+  or likenesses of real people) rendered client-side as SVG
 - SEO (per-page meta tags, build-time sitemap.xml, robots.txt) and a real Admin data-entry UI
 - Login/register UI, account nav, sign-out
 - Trend Watch — real report-volume-by-category chart on `/database`, sourced from the DB
