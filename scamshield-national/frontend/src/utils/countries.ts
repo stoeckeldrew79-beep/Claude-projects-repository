@@ -9,6 +9,12 @@ export const COUNTRY_NAMES: Record<string, string> = {
   NZ: 'New Zealand',
   IE: 'Ireland',
   SG: 'Singapore',
+  DE: 'Germany',
+  JP: 'Japan',
+  NL: 'Netherlands',
+  IN: 'India',
+  FR: 'France',
+  SE: 'Sweden',
   OTHER: 'Other',
 };
 

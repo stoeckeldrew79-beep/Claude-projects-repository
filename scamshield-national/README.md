@@ -8,10 +8,14 @@ for the full architecture, schema, and API design this scaffold implements.
 
 Implemented:
 - PostgreSQL schema (9 migrations) — scams, categories, users, alerts, articles, subscriptions
-- Scam database seed data: 12 categories (FTC/IC3-style taxonomy), 24 well-documented, real
-  current scam-pattern entries, and 6 real, fact-checked historical frauds spanning 1720–1963
-  (South Sea Bubble, the Poyais Scheme, the Great Diamond Hoax, the Tichborne Claimant, Cassie
-  Chadwick's Carnegie fraud, the Great Salad Oil Swindle) — `npm run seed`
+- Scam database seed data: 20 categories (FTC/IC3-style taxonomy plus sextortion, account
+  takeover, insurance/healthcare/tax fraud, AI & deepfake scams, debt relief, and mortgage/
+  foreclosure scams), 136 well-documented, real current scam-pattern entries, and 12 real,
+  fact-checked historical frauds spanning 1720–1971 across the US, UK, France, and Sweden
+  (South Sea Bubble, the Mississippi Bubble, the Poyais Scheme, the Great Diamond Hoax, the
+  Tichborne Claimant, the Whiskey Ring, Cassie Chadwick's Carnegie fraud, John R. Brinkley's
+  "goat gland" fraud, Ivar Kreuger's Match King fraud, the Panama Canal lottery bond scandal,
+  the Great Salad Oil Swindle, Robert Vesco's IOS fraud) — `npm run seed`
 - Database page (`/database`): search, category/country filters, sort by urgency/A–Z/newest/
   chronological, a Current/Historical/All-eras toggle, and "Load more" pagination
 - Backend REST API: scams, categories (incl. `/categories/trends`), users, articles, alerts,
@@ -41,8 +45,9 @@ Implemented:
   draft lands unpublished in the admin review queue (`/admin`, or `GET /articles/drafts`);
   nothing is ever auto-published
 - Global Scam Intelligence (`/global-sources`): a directory of the major national fraud-reporting
-  agencies worldwide across 7 countries (FTC, FBI IC3, ACCC/Scamwatch, Canadian Anti-Fraud Centre,
-  Action Fraud, CERT NZ, Ireland's CCPC, Singapore's ScamShield/SPF).
+  agencies worldwide across 11 countries (FTC, FBI IC3, ACCC/Scamwatch, Canadian Anti-Fraud
+  Centre, Action Fraud, CERT NZ, Ireland's CCPC, Singapore's ScamShield/SPF, Germany's BSI,
+  Japan's NCAC, the Netherlands' Fraudehelpdesk, India's NCRP).
   There is no live global "all scams" API anywhere, so figures are added by an admin only after
   verifying them against the agency's own report — never auto-ingested — and kept in a separate
   table from our own report data so third-party stats are never blended with what we collected

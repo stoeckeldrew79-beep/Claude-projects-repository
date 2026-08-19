@@ -251,6 +251,14 @@ const SEED_CATEGORIES: SeedCategory[] = [
   { name: 'Identity Theft', slug: 'identity-theft', description: 'Schemes designed to harvest and misuse personal or financial information.' },
   { name: 'Online Shopping Scams', slug: 'online-shopping-scams', description: 'Fake storefronts and marketplace listings that take payment without delivering real goods.' },
   { name: 'Lottery & Sweepstakes Scams', slug: 'lottery-sweepstakes-scams', description: 'Fake prize notifications that require a fee or personal information to "release" winnings.' },
+  { name: 'Sextortion', slug: 'sextortion', description: 'Threats to release real or fabricated explicit images or video unless a payment is made.' },
+  { name: 'Account Takeover', slug: 'account-takeover', description: 'Schemes that hijack an existing online account — email, banking, social media, or shopping — usually through stolen credentials.' },
+  { name: 'Insurance Fraud', slug: 'insurance-fraud', description: 'Fake insurance policies, staged claims, and impersonated adjusters or insurers targeting policyholders.' },
+  { name: 'Healthcare Fraud', slug: 'healthcare-fraud', description: 'Fake medical products, billing scams, and impersonated healthcare providers or insurers.' },
+  { name: 'AI & Deepfake Scams', slug: 'ai-deepfake-scams', description: 'Scams using AI-generated voice, video, or images to impersonate a real person or fabricate evidence.' },
+  { name: 'Debt Relief Scams', slug: 'debt-relief-scams', description: 'Fake debt consolidation, settlement, or credit-repair services that collect fees without delivering relief.' },
+  { name: 'Mortgage & Foreclosure Scams', slug: 'mortgage-foreclosure-scams', description: 'Fraudulent loan modification, foreclosure rescue, or title schemes targeting homeowners.' },
+  { name: 'Tax Scams', slug: 'tax-scams', description: 'Fake IRS or tax-authority communications and fraudulent tax-preparation schemes.' },
 ];
 
 interface SeedScam {
@@ -827,6 +835,712 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['FTC Consumer Advice', 'USA.gov'],
   },
 
+  // Third wave: 3 more entries for each of the original 12 categories,
+  // plus 5 entries each for 8 new categories (sextortion, account
+  // takeover, insurance fraud, healthcare fraud, AI/deepfake, debt
+  // relief, mortgage/foreclosure, tax). Same standard as every entry
+  // above — well-established, widely-documented patterns.
+  {
+    name: 'Fake PayPal Unauthorized Access Alert',
+    slug: 'fake-paypal-unauthorized-access-alert',
+    description:
+      'An email claims unusual activity was detected on a PayPal account and links to a fake PayPal login page that harvests credentials. Check account activity by typing paypal.com directly into a browser, never through a link in an email.',
+    categorySlug: 'phishing',
+    alertLevel: 'medium',
+    sources: ['FTC Consumer Advice'],
+  },
+  {
+    name: 'Fake Cloud Storage Full Warning',
+    slug: 'fake-cloud-storage-full-warning',
+    description:
+      'An email claims a Google Drive, iCloud, or Dropbox account is full and files will be deleted unless the recipient "upgrades now," linking to a fake sign-in page that harvests the account\'s real credentials.',
+    categorySlug: 'phishing',
+    alertLevel: 'low',
+    sources: ['FTC Consumer Advice'],
+  },
+  {
+    name: 'Malicious Invoice Attachment Phishing',
+    slug: 'malicious-invoice-attachment-phishing',
+    description:
+      'An email disguised as an overdue invoice or shipping document carries a malicious attachment that, once opened, installs malware capable of stealing saved passwords and banking credentials directly from the device.',
+    categorySlug: 'phishing',
+    alertLevel: 'high',
+    sources: ['FBI IC3', 'CISA'],
+  },
+  {
+    name: 'Sugar Daddy Advance-Fee Scam',
+    slug: 'sugar-daddy-advance-fee-scam',
+    description:
+      'A profile offering a generous "allowance" arrangement asks the other party to first pay a small verification or processing fee, or to accept and forward a check (which later bounces) before any real money ever changes hands.',
+    categorySlug: 'romance-scams',
+    alertLevel: 'medium',
+    sources: ['FTC Consumer Advice', 'BBB Scam Tracker'],
+  },
+  {
+    name: 'Long-Distance Engagement Travel Funds Scam',
+    slug: 'long-distance-engagement-travel-funds-scam',
+    description:
+      'After building a long-distance online relationship and even a promised engagement, the scammer claims they\'re finally ready to visit or move but need help covering a flight, visa, or "travel insurance" fee — and the trip never happens.',
+    categorySlug: 'romance-scams',
+    alertLevel: 'high',
+    sources: ['FTC Consumer Advice'],
+  },
+  {
+    name: 'Sick Child Overseas Romance Scam',
+    slug: 'sick-child-overseas-romance-scam',
+    description:
+      'A romance scam profile builds sympathy with a fabricated story about a child from a previous relationship who has fallen seriously ill overseas, requesting money for medical bills to "save" a child who doesn\'t exist.',
+    categorySlug: 'romance-scams',
+    alertLevel: 'high',
+    sources: ['FTC Consumer Advice'],
+  },
+  {
+    name: 'Fake Streaming Service Compromised Account Call',
+    slug: 'fake-streaming-account-compromised-call',
+    description:
+      'A caller claims your Netflix, Amazon, or other streaming account has been compromised and offers to "fix" it by taking remote control of your computer, using the access to look for banking information instead.',
+    categorySlug: 'tech-support-scams',
+    alertLevel: 'medium',
+    sources: ['FTC Consumer Advice'],
+  },
+  {
+    name: 'Fake Bank Fraud Department Remote Access Scam',
+    slug: 'fake-bank-fraud-department-remote-access',
+    description:
+      "A caller posing as your bank's fraud department claims your account was compromised and needs \"verification\" through a remote-access screen-sharing app. Real bank fraud teams never ask to remotely control your device.",
+    categorySlug: 'tech-support-scams',
+    alertLevel: 'critical',
+    sources: ['FTC Consumer Advice', 'FBI IC3'],
+  },
+  {
+    name: 'Fake Router Firmware Update Call',
+    slug: 'fake-router-firmware-update-call',
+    description:
+      'A caller claims your home router urgently needs a "critical security update" and talks you through installing remote-access software, which is then used to search the device for saved passwords and financial information.',
+    categorySlug: 'tech-support-scams',
+    alertLevel: 'high',
+    sources: ['FTC Consumer Advice'],
+  },
+  {
+    name: 'Fake Unpaid Toll Text',
+    slug: 'fake-unpaid-toll-text',
+    description:
+      'A text claims a small toll-road balance is overdue and threatens late fees or license suspension unless paid immediately through a link to a fake payment page — a wave of these has hit U.S. drivers, impersonating real toll agencies by name.',
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['FBI IC3', 'FTC Consumer Advice'],
+  },
+  {
+    name: 'Fake Jury Duty Failure-to-Appear Fine',
+    slug: 'fake-jury-duty-failure-to-appear-fine',
+    description:
+      "A caller claims you missed jury duty and owe an immediate fine to avoid arrest, sometimes correctly naming a real local courthouse to sound credible. Actual missed-jury-duty consequences are handled by mail and a real court appearance, never a same-day phone payment demand.",
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['FTC Consumer Advice'],
+  },
+  {
+    name: 'Fake Social Security Benefit Increase Verification',
+    slug: 'fake-ssa-benefit-increase-verification',
+    description:
+      'A call or letter claims a cost-of-living benefit increase requires "verifying" your Social Security number and bank account details over the phone before it can be processed. The SSA does not require this to apply an automatic, already-scheduled increase.',
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Social Security Administration', 'FTC Consumer Advice'],
+  },
+  {
+    name: 'Fake Urgent Legal Demand Email',
+    slug: 'fake-urgent-legal-demand-email',
+    description:
+      'An email impersonating a lawyer or citing a confidential legal matter (an acquisition, a lawsuit settlement) pressures an assistant or finance employee into an urgent, secretive wire transfer, using the "confidential" framing to discourage checking with anyone else.',
+    categorySlug: 'business-email-compromise',
+    alertLevel: 'critical',
+    sources: ['FBI IC3'],
+  },
+  {
+    name: 'Compromised Vendor Portal Credential Phishing',
+    slug: 'compromised-vendor-portal-credential-phishing',
+    description:
+      "A phishing email disguised as an accounts-payable portal notification harvests login credentials from a company's AP staff, giving an attacker a foothold to alter real vendor payment details from inside a trusted system.",
+    categorySlug: 'business-email-compromise',
+    alertLevel: 'high',
+    sources: ['FBI IC3'],
+  },
+  {
+    name: 'Fake New-Hire Direct Deposit Setup',
+    slug: 'fake-new-hire-direct-deposit-setup',
+    description:
+      "Posing as a brand-new employee with no prior payroll history to check against, a scammer emails HR with \"updated\" direct deposit details before the employee's first real paycheck is issued, redirecting it from day one.",
+    categorySlug: 'business-email-compromise',
+    alertLevel: 'medium',
+    sources: ['FBI IC3'],
+  },
+  {
+    name: 'Fake Real Estate Crowdfunding Platform',
+    slug: 'fake-real-estate-crowdfunding-platform',
+    description:
+      "A slickly designed website solicits small investments toward fractional ownership of real estate properties that don't exist or aren't actually connected to the platform, showing a rising \"portfolio value\" that can never actually be withdrawn.",
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ['U.S. Securities and Exchange Commission'],
+  },
+  {
+    name: 'Private Lending Club Ponzi Scheme',
+    slug: 'private-lending-club-ponzi-scheme',
+    description:
+      'An informal "investment club," often recruited through word-of-mouth or a religious or cultural community, promises high fixed returns from private lending. Early members are paid from later members\' contributions until recruitment slows and the scheme collapses.',
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ['U.S. Securities and Exchange Commission', 'FTC Consumer Advice'],
+  },
+  {
+    name: 'Rug Pull Token Presale Scam',
+    slug: 'rug-pull-token-presale-scam',
+    description:
+      'Promoters hype an upcoming cryptocurrency token or NFT collection with a professional-looking website and social media buzz, collect funds during a "presale," then abandon the project and disappear with the money once the sale closes.',
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ['FBI IC3', 'U.S. Securities and Exchange Commission'],
+  },
+  {
+    name: 'Fake International Customs Fee Text',
+    slug: 'fake-international-customs-fee-text',
+    description:
+      'A text claims a package is being held at customs and requires an immediate small fee to release it, linking to a payment page that harvests card details rather than releasing any actual package.',
+    categorySlug: 'package-delivery-scams',
+    alertLevel: 'low',
+    sources: ['FTC Consumer Advice'],
+  },
+  {
+    name: 'Fake DHL Missed Delivery Card',
+    slug: 'fake-dhl-missed-delivery-card',
+    description:
+      'A card left at the door (or a text) claims a DHL delivery was missed and provides a number or link to "reschedule," leading either to a phishing page or a premium-rate phone number that racks up charges per minute.',
+    categorySlug: 'package-delivery-scams',
+    alertLevel: 'low',
+    sources: ['FTC Consumer Advice'],
+  },
+  {
+    name: 'Fake Amazon Delivery Failed Refund Scam',
+    slug: 'fake-amazon-delivery-failed-refund-scam',
+    description:
+      'A text claims an Amazon delivery failed and a refund is being processed, asking the recipient to confirm their card details to "receive" money that Amazon was never actually planning to refund.',
+    categorySlug: 'package-delivery-scams',
+    alertLevel: 'medium',
+    sources: ['FTC Consumer Advice'],
+  },
+  {
+    name: 'Data Entry Job Starter Kit Fee',
+    slug: 'data-entry-job-starter-kit-fee',
+    description:
+      'A "work from home" data entry job requires purchasing a mandatory training kit or software license before the first assignment, and no real paying work ever materializes after payment.',
+    categorySlug: 'employment-scams',
+    alertLevel: 'medium',
+    sources: ['FTC Consumer Advice'],
+  },
+  {
+    name: 'Guaranteed Government Job Placement Fee',
+    slug: 'guaranteed-government-job-placement-fee',
+    description:
+      'An ad promises guaranteed placement into a federal or postal job for an upfront "processing" or "exam prep" fee. Actual federal job applications are free and go through USAJobs.gov directly.',
+    categorySlug: 'employment-scams',
+    alertLevel: 'medium',
+    sources: ['FTC Consumer Advice', 'USA.gov'],
+  },
+  {
+    name: 'Task-Completion Pyramid Scam',
+    slug: 'task-completion-pyramid-scam',
+    description:
+      'Recruited through social media or messaging apps, victims are told they can earn money completing simple online "tasks" (liking videos, rating products), building trust with small real payouts before being told a larger deposit is needed to unlock bigger earnings — a deposit that\'s never returned.',
+    categorySlug: 'employment-scams',
+    alertLevel: 'high',
+    sources: ['FBI IC3', 'FTC Consumer Advice'],
+  },
+  {
+    name: 'Fake Holiday Toy Drive Scam',
+    slug: 'fake-holiday-toy-drive-scam',
+    description:
+      'Around the winter holidays, a fraudulent "toy drive" solicits cash or gift card donations through social media posts or door-to-door collection, with no real charity or distribution behind it.',
+    categorySlug: 'charity-scams',
+    alertLevel: 'low',
+    sources: ['BBB Scam Tracker'],
+  },
+  {
+    name: 'Fake Animal Rescue Charity',
+    slug: 'fake-animal-rescue-charity',
+    description:
+      "Using heartbreaking photos of injured or abandoned animals, a fraudulent \"rescue\" solicits recurring donations for a shelter that doesn't actually exist or doesn't use donations as described.",
+    categorySlug: 'charity-scams',
+    alertLevel: 'medium',
+    sources: ['BBB Scam Tracker', 'FTC Consumer Advice'],
+  },
+  {
+    name: 'Fake Police or Firefighter Fraternal Donation Call',
+    slug: 'fake-police-firefighter-fraternal-donation-call',
+    description:
+      "A caller claims to represent a local police or firefighter benevolent association, using the uniformed-service association to build trust, but the \"fraternal organization\" keeps most or all of the donated funds rather than passing them to actual first responders.",
+    categorySlug: 'charity-scams',
+    alertLevel: 'medium',
+    sources: ['BBB Scam Tracker', 'FTC Consumer Advice'],
+  },
+  {
+    name: 'Medical Identity Theft',
+    slug: 'medical-identity-theft',
+    description:
+      'A stolen insurance ID or Social Security number is used to receive medical treatment or equipment in the victim\'s name, leaving the real policyholder with unfamiliar charges, a corrupted medical record, and possible denied future claims.',
+    categorySlug: 'identity-theft',
+    alertLevel: 'high',
+    sources: ['FTC Consumer Advice'],
+  },
+  {
+    name: 'Child Identity Theft via School Data Breach',
+    slug: 'child-identity-theft-school-data-breach',
+    description:
+      "A child's Social Security number, obtained through a school district data breach or a family member's own misuse, is used to open credit lines that go undetected for years since children rarely check their own credit.",
+    categorySlug: 'identity-theft',
+    alertLevel: 'high',
+    sources: ['FTC Consumer Advice'],
+  },
+  {
+    name: 'New Account Fraud via Public Records',
+    slug: 'new-account-fraud-public-records',
+    description:
+      "A scammer combines details found in public records (address history, date of birth) with a stolen Social Security number to open new credit cards or loans in a victim's name, often targeting people who haven't frozen their credit.",
+    categorySlug: 'identity-theft',
+    alertLevel: 'high',
+    sources: ['FTC Consumer Advice'],
+  },
+  {
+    name: 'Fake Social Media Influencer Storefront',
+    slug: 'fake-influencer-storefront',
+    description:
+      "A social media ad featuring what looks like an influencer's product recommendation links to a storefront that takes payment for items that are counterfeit, wildly different from advertised, or never shipped at all.",
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'medium',
+    sources: ['FTC Consumer Advice', 'BBB Scam Tracker'],
+  },
+  {
+    name: 'Fake Vehicle Listing Scam',
+    slug: 'fake-vehicle-listing-scam',
+    description:
+      "A too-good-to-be-true used car listing, often claiming the seller is relocating or deployed overseas, asks for a deposit or full payment via wire or gift card before any in-person viewing. The vehicle, and often the seller, doesn't exist.",
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'high',
+    sources: ['FTC Consumer Advice', 'BBB Scam Tracker'],
+  },
+  {
+    name: 'Fake Furniture Liquidation Sale Scam',
+    slug: 'fake-furniture-liquidation-sale-scam',
+    description:
+      'A pop-up website or social ad advertises a store-closing or liquidation sale on furniture or appliances at deep discounts, collects payment, and never ships anything, disappearing once complaints start.',
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'medium',
+    sources: ['BBB Scam Tracker'],
+  },
+  {
+    name: 'Fake Second-Chance Lottery Winner Notification',
+    slug: 'fake-second-chance-lottery-winner',
+    description:
+      'A text or call claims a losing lottery ticket was actually entered into a "second chance" drawing and won, requiring a fee to release the prize. Legitimate second-chance drawings never require a winner to pay anything upfront.',
+    categorySlug: 'lottery-sweepstakes-scams',
+    alertLevel: 'medium',
+    sources: ['FTC Consumer Advice'],
+  },
+  {
+    name: 'Fake Class Action Settlement Payout Scam',
+    slug: 'fake-class-action-settlement-payout-scam',
+    description:
+      'A message claims the recipient is owed money from a real, well-publicized class action lawsuit and requests personal or banking information to "process" the payout. Real settlement administrators never solicit this information this way.',
+    categorySlug: 'lottery-sweepstakes-scams',
+    alertLevel: 'medium',
+    sources: ['FTC Consumer Advice'],
+  },
+  {
+    name: 'Fake Unknown Relative Inheritance Scam',
+    slug: 'fake-unknown-relative-inheritance-scam',
+    description:
+      'An email or letter claims a distant, unknown relative has died and left an inheritance, requiring fees or personal information to release the funds — a modern variation of a very old advance-fee scheme.',
+    categorySlug: 'lottery-sweepstakes-scams',
+    alertLevel: 'medium',
+    sources: ['FTC Consumer Advice', 'U.S. Postal Inspection Service'],
+  },
+
+  // New category: Sextortion
+  {
+    name: 'Webcam Blackmail Scam',
+    slug: 'webcam-blackmail-scam',
+    description:
+      'A scammer poses as a romantic interest online, lures the victim into a compromising video chat (sometimes using a recorded loop of a real or fake nude image), secretly records it, then demands payment to avoid sending it to the victim\'s contacts. Paying rarely stops the threats — the FBI recommends reporting instead.',
+    categorySlug: 'sextortion',
+    alertLevel: 'critical',
+    sources: ['FBI IC3'],
+  },
+  {
+    name: 'Fake Data Breach Password Blackmail Email',
+    slug: 'fake-data-breach-password-blackmail-email',
+    description:
+      'An email claims to have hacked the victim\'s webcam using a password from a real old data breach — proving legitimacy by quoting that real, breached password — and threatens to release fabricated footage unless paid in cryptocurrency. The password is real from a public breach, but the "hacking" and footage are almost always fabricated.',
+    categorySlug: 'sextortion',
+    alertLevel: 'high',
+    sources: ['FBI IC3', 'FTC Consumer Advice'],
+  },
+  {
+    name: 'Fake Minor Predator Extortion Scam',
+    slug: 'fake-minor-predator-extortion-scam',
+    description:
+      'A scammer poses as an underage user on social media or a dating app, then after some messages, claims to actually be a parent or law enforcement threatening legal exposure unless paid — targeting adults through fear of a false accusation.',
+    categorySlug: 'sextortion',
+    alertLevel: 'high',
+    sources: ['FBI IC3'],
+  },
+  {
+    name: 'AI-Generated Nude Image Extortion',
+    slug: 'ai-generated-nude-image-extortion',
+    description:
+      'A scammer uses an AI image generator to create a fake nude photo of the victim from an innocuous real photo, often pulled from social media, then threatens to distribute it unless paid — increasingly reported among teenagers targeted through social media.',
+    categorySlug: 'sextortion',
+    alertLevel: 'critical',
+    sources: ['FBI IC3', 'NCMEC'],
+  },
+  {
+    name: 'Recorded Video Call Extortion via Compromised Account',
+    slug: 'recorded-video-call-extortion-compromised-account',
+    description:
+      'After gaining access to a victim\'s messaging account, often via a prior phishing link, a scammer impersonates the victim to solicit compromising images or video from the victim\'s own contacts, then extorts those contacts using the real material.',
+    categorySlug: 'sextortion',
+    alertLevel: 'critical',
+    sources: ['FBI IC3'],
+  },
+
+  // New category: Account Takeover
+  {
+    name: 'Credential Stuffing Login Alert Scam',
+    slug: 'credential-stuffing-login-alert-scam',
+    description:
+      'A scammer who purchased a batch of leaked username/password pairs from an old data breach tries them against banking and shopping sites. A victim receives a real "new device sign-in" alert, sometimes followed by a scammer posing as the platform\'s security team to "help" — which is itself a second phishing attempt.',
+    categorySlug: 'account-takeover',
+    alertLevel: 'high',
+    sources: ['FTC Consumer Advice', 'FBI IC3'],
+  },
+  {
+    name: 'Fake Password Reset Confirmation',
+    slug: 'fake-password-reset-confirmation',
+    description:
+      'A text or email claims a password reset was just requested on an account and asks the recipient to reply with a verification code to cancel it. That code is actually the real reset code, and providing it hands the account straight to the attacker.',
+    categorySlug: 'account-takeover',
+    alertLevel: 'critical',
+    sources: ['FTC Consumer Advice'],
+  },
+  {
+    name: 'Social-Engineered Account Recovery Bypass',
+    slug: 'social-engineered-account-recovery-bypass',
+    description:
+      'After gathering a victim\'s email address and some personal details, an attacker uses an account\'s "forgot password" flow along with social-engineered customer support calls to bypass security questions and take over the account.',
+    categorySlug: 'account-takeover',
+    alertLevel: 'high',
+    sources: ['FBI IC3'],
+  },
+  {
+    name: 'Compromised Social Media Ad Account Takeover',
+    slug: 'compromised-social-media-ad-account-takeover',
+    description:
+      'A phishing message disguised as a "policy violation" notice from a social platform harvests business ad-account credentials, which are then used to run fraudulent ad campaigns on the victim\'s dime before the real owner is locked out.',
+    categorySlug: 'account-takeover',
+    alertLevel: 'high',
+    sources: ['FTC Consumer Advice'],
+  },
+  {
+    name: 'Session Cookie Theft via Malicious Browser Extension',
+    slug: 'session-cookie-theft-browser-extension',
+    description:
+      'A browser extension marketed as a productivity or shopping-discount tool secretly harvests session cookies, letting an attacker take over logged-in accounts without needing a password at all.',
+    categorySlug: 'account-takeover',
+    alertLevel: 'high',
+    sources: ['CISA', 'FBI IC3'],
+  },
+
+  // New category: Insurance Fraud
+  {
+    name: 'Fake Insurance Agent Cold Call',
+    slug: 'fake-insurance-agent-cold-call',
+    description:
+      'A caller posing as an insurance agent offers suspiciously cheap health, auto, or life coverage, collects a premium payment and personal information, and the "policy" never actually exists with any real insurer.',
+    categorySlug: 'insurance-fraud',
+    alertLevel: 'high',
+    sources: ['FTC Consumer Advice'],
+  },
+  {
+    name: 'Post-Disaster Fake Claims Adjuster',
+    slug: 'post-disaster-fake-claims-adjuster',
+    description:
+      'After a hurricane, flood, or other disaster, someone posing as an insurance adjuster offers to "fast-track" a claim in exchange for an upfront fee, or by having the homeowner sign over claim rights to a fraudulent contractor.',
+    categorySlug: 'insurance-fraud',
+    alertLevel: 'high',
+    sources: ['FTC Consumer Advice'],
+  },
+  {
+    name: 'Staged Auto Accident Scam',
+    slug: 'staged-auto-accident-scam',
+    description:
+      'A scammer deliberately causes a minor collision to file an inflated insurance claim against the other driver, sometimes involving a network of fake witnesses and clinics billing for treatment never provided.',
+    categorySlug: 'insurance-fraud',
+    alertLevel: 'medium',
+    sources: ['FBI IC3'],
+  },
+  {
+    name: 'Fake Pet Insurance Renewal Scam',
+    slug: 'fake-pet-insurance-renewal-scam',
+    description:
+      'An email mimicking a real pet insurance provider claims a policy is about to lapse and requests updated payment details through a lookalike site, harvesting card information rather than actually renewing anything.',
+    categorySlug: 'insurance-fraud',
+    alertLevel: 'low',
+    sources: ['FTC Consumer Advice'],
+  },
+  {
+    name: 'Ghost Broker Auto Insurance Scam',
+    slug: 'ghost-broker-auto-insurance-scam',
+    description:
+      'A "broker" sells a real-looking auto insurance policy at a steep discount by lying on the application or by simply never placing the policy with an insurer at all — the driver only finds out the coverage never existed after an accident.',
+    categorySlug: 'insurance-fraud',
+    alertLevel: 'high',
+    sources: ['FTC Consumer Advice'],
+  },
+
+  // New category: Healthcare Fraud
+  {
+    name: 'Fake Medicare Card Replacement Call',
+    slug: 'fake-medicare-card-replacement-call',
+    description:
+      'A caller claims new plastic Medicare cards are being issued and requests a Medicare number, Social Security number, or a fee to process the replacement. Medicare does not call beneficiaries out of the blue asking for this information.',
+    categorySlug: 'healthcare-fraud',
+    alertLevel: 'high',
+    sources: ['Medicare.gov', 'FTC Consumer Advice'],
+  },
+  {
+    name: 'Free Genetic Testing Kit Scam',
+    slug: 'free-genetic-testing-kit-scam',
+    description:
+      'A caller or booth at a public event offers a "free" genetic or COVID testing kit in exchange for a Medicare number, then bills Medicare thousands of dollars for tests that are never actually performed or medically necessary.',
+    categorySlug: 'healthcare-fraud',
+    alertLevel: 'high',
+    sources: ['Medicare.gov', 'FBI IC3'],
+  },
+  {
+    name: 'Fake Online Pharmacy',
+    slug: 'fake-online-pharmacy',
+    description:
+      'A website offers prescription medication without a real prescription at steep discounts. The pills are often counterfeit, contain no active ingredient, or contain dangerous, unlisted substances, and the site harvests payment and personal health information.',
+    categorySlug: 'healthcare-fraud',
+    alertLevel: 'critical',
+    sources: ['FDA', 'FTC Consumer Advice'],
+  },
+  {
+    name: 'Miracle Cure Supplement Scam',
+    slug: 'miracle-cure-supplement-scam',
+    description:
+      'Aggressive online ads promise a supplement that cures or reverses a serious condition, often using fake testimonials and a fabricated doctor\'s endorsement, enrolling buyers in unwanted recurring subscription charges.',
+    categorySlug: 'healthcare-fraud',
+    alertLevel: 'medium',
+    sources: ['FDA', 'FTC Consumer Advice'],
+  },
+  {
+    name: 'Fake Health Insurance Marketplace Navigator',
+    slug: 'fake-health-insurance-marketplace-navigator',
+    description:
+      'During open enrollment, someone posing as an official ACA marketplace "navigator" signs victims up for a fake or wildly misrepresented health plan to collect a commission, leaving the victim uninsured or under-insured without realizing it.',
+    categorySlug: 'healthcare-fraud',
+    alertLevel: 'high',
+    sources: ['HealthCare.gov', 'FTC Consumer Advice'],
+  },
+
+  // New category: AI & Deepfake Scams
+  {
+    name: 'AI Voice Cloning "Grandchild in Trouble" Call',
+    slug: 'ai-voice-cloning-grandchild-call',
+    description:
+      'A scammer uses a short AI-cloned sample of a family member\'s voice, often pulled from social media video, to make a panicked call claiming to be in jail or a hospital, needing immediate money. The voice sounds convincingly real even to close family.',
+    categorySlug: 'ai-deepfake-scams',
+    alertLevel: 'critical',
+    sources: ['FTC Consumer Advice', 'FBI IC3'],
+  },
+  {
+    name: 'Deepfake Video Call CEO Fraud',
+    slug: 'deepfake-video-call-ceo-fraud',
+    description:
+      'Building on traditional business email compromise, a scammer uses real-time deepfake video and audio to impersonate a company executive on a live video call, instructing an employee to make an urgent wire transfer — a real case in Hong Kong cost a firm over $25 million.',
+    categorySlug: 'ai-deepfake-scams',
+    alertLevel: 'critical',
+    sources: ['FBI IC3'],
+  },
+  {
+    name: 'AI-Generated Fake News Investment Endorsement',
+    slug: 'ai-fake-news-investment-endorsement',
+    description:
+      'A fabricated news article or video, styled to look like a legitimate outlet, uses an AI-generated clip of a well-known public figure "endorsing" an investment platform that is entirely fraudulent.',
+    categorySlug: 'ai-deepfake-scams',
+    alertLevel: 'high',
+    sources: ['U.S. Securities and Exchange Commission', 'FTC Consumer Advice'],
+  },
+  {
+    name: 'AI Chatbot Romance Scam',
+    slug: 'ai-chatbot-romance-scam',
+    description:
+      'Instead of, or alongside, a human scammer, an AI chatbot conducts a highly personalized, always-available romantic relationship with a victim over weeks or months, eventually steering the conversation toward a request for money or a fraudulent investment.',
+    categorySlug: 'ai-deepfake-scams',
+    alertLevel: 'high',
+    sources: ['FTC Consumer Advice'],
+  },
+  {
+    name: 'Deepfake Job Interview Fraudulent Candidate',
+    slug: 'deepfake-job-interview-fraudulent-candidate',
+    description:
+      'On the flip side of consumer scams, fraudulent job applicants use real-time deepfake video during remote interviews to fraudulently obtain employment, sometimes at companies with access to sensitive data, under a false identity.',
+    categorySlug: 'ai-deepfake-scams',
+    alertLevel: 'medium',
+    sources: ['FBI IC3', 'CISA'],
+  },
+
+  // New category: Debt Relief Scams
+  {
+    name: 'Upfront-Fee Debt Settlement Scam',
+    slug: 'upfront-fee-debt-settlement-scam',
+    description:
+      'A company promises to negotiate down credit card debt in exchange for a large upfront fee, then does little or no real negotiation. Federal law actually prohibits debt-settlement companies from charging fees before they\'ve settled a debt.',
+    categorySlug: 'debt-relief-scams',
+    alertLevel: 'high',
+    sources: ['FTC Consumer Advice', 'CFPB'],
+  },
+  {
+    name: 'Fake Student Loan Forgiveness Program',
+    slug: 'fake-student-loan-forgiveness-program',
+    description:
+      'A caller or ad claims a government loan-forgiveness program requires an upfront "processing fee" or the borrower\'s Federal Student Aid ID and password to enroll. Real federal loan forgiveness programs are always free to apply for.',
+    categorySlug: 'debt-relief-scams',
+    alertLevel: 'high',
+    sources: ['U.S. Department of Education', 'FTC Consumer Advice'],
+  },
+  {
+    name: 'Credit Repair "New Identity" Scam',
+    slug: 'credit-repair-new-identity-scam',
+    description:
+      'A company sells a legally obtained but fraudulently used Credit Privacy Number (CPN), suggesting a client use it in place of their Social Security number to "start fresh." Using a CPN this way is federal fraud, and the client — not the company — bears the legal risk.',
+    categorySlug: 'debt-relief-scams',
+    alertLevel: 'high',
+    sources: ['FTC Consumer Advice', 'CFPB'],
+  },
+  {
+    name: 'Fake Debt Collector Threatening Call',
+    slug: 'fake-debt-collector-threatening-call',
+    description:
+      'A caller claiming to be a debt collector, sometimes citing a real, sold-off old debt or one that doesn\'t exist at all, threatens arrest or wage garnishment unless paid immediately via gift card or wire. Legitimate collectors must provide written validation of a debt on request and cannot threaten arrest.',
+    categorySlug: 'debt-relief-scams',
+    alertLevel: 'high',
+    sources: ['CFPB', 'FTC Consumer Advice'],
+  },
+  {
+    name: 'Timeshare Exit Company Scam',
+    slug: 'timeshare-exit-company-scam',
+    description:
+      'A company promises to get a consumer out of an unwanted timeshare contract for a large upfront fee, then does little or nothing, sometimes leaving the consumer both out the fee and still contractually obligated to the timeshare.',
+    categorySlug: 'debt-relief-scams',
+    alertLevel: 'medium',
+    sources: ['FTC Consumer Advice', 'BBB Scam Tracker'],
+  },
+
+  // New category: Mortgage & Foreclosure Scams
+  {
+    name: 'Foreclosure Rescue Fee Scam',
+    slug: 'foreclosure-rescue-fee-scam',
+    description:
+      'A company contacts a homeowner in default promising to stop foreclosure in exchange for an upfront fee, then does no real work. Actual HUD-approved housing counseling is free.',
+    categorySlug: 'mortgage-foreclosure-scams',
+    alertLevel: 'high',
+    sources: ['HUD', 'FTC Consumer Advice'],
+  },
+  {
+    name: 'Fake Loan Modification Company',
+    slug: 'fake-loan-modification-company',
+    description:
+      'A company impersonates or claims a special relationship with the homeowner\'s actual mortgage lender, collects modification "processing fees," and never actually submits any paperwork to the real servicer.',
+    categorySlug: 'mortgage-foreclosure-scams',
+    alertLevel: 'high',
+    sources: ['CFPB', 'FTC Consumer Advice'],
+  },
+  {
+    name: 'Rent-Back Deed Transfer Scam',
+    slug: 'rent-back-deed-transfer-scam',
+    description:
+      'A scammer convinces a homeowner facing foreclosure to sign over the deed with a promise they can rent the home and buy it back later. The fine print often lets the new "owner" evict them immediately or resets the deal on unaffordable terms.',
+    categorySlug: 'mortgage-foreclosure-scams',
+    alertLevel: 'critical',
+    sources: ['HUD', 'FTC Consumer Advice'],
+  },
+  {
+    name: 'Fake Mortgage Payoff Wire Fraud',
+    slug: 'fake-mortgage-payoff-wire-fraud',
+    description:
+      'Similar to closing wire fraud, a scammer who has compromised a title or escrow company\'s email sends fraudulent payoff wire instructions during a refinance, redirecting funds meant to pay off the old mortgage.',
+    categorySlug: 'mortgage-foreclosure-scams',
+    alertLevel: 'critical',
+    sources: ['FBI IC3'],
+  },
+  {
+    name: 'Reverse Mortgage Counseling Fee Scam',
+    slug: 'reverse-mortgage-counseling-fee-scam',
+    description:
+      'A company falsely claims to be the government-required independent counselor for a reverse mortgage and charges a large fee for a session that federal law requires be low-cost or free through a HUD-approved agency.',
+    categorySlug: 'mortgage-foreclosure-scams',
+    alertLevel: 'medium',
+    sources: ['HUD', 'CFPB'],
+  },
+
+  // New category: Tax Scams
+  {
+    name: 'Fake IRS Phone Threat',
+    slug: 'fake-irs-phone-threat',
+    description:
+      'A caller impersonating the IRS demands immediate payment, often via gift card or wire, for supposedly owed back taxes, threatening arrest or license revocation. The real IRS first contacts taxpayers by mail, not by surprise phone call.',
+    categorySlug: 'tax-scams',
+    alertLevel: 'critical',
+    sources: ['IRS', 'FTC Consumer Advice'],
+  },
+  {
+    name: 'Ghost Tax Preparer Scam',
+    slug: 'ghost-tax-preparer-scam',
+    description:
+      'An unlicensed preparer files a client\'s return, promises an inflated refund by fabricating deductions or credits, charges a fee based on the refund size, and doesn\'t sign the return as the preparer — leaving the taxpayer solely liable when the IRS flags it.',
+    categorySlug: 'tax-scams',
+    alertLevel: 'high',
+    sources: ['IRS'],
+  },
+  {
+    name: 'Fraudulent Tax Refund Identity Theft',
+    slug: 'fraudulent-tax-refund-identity-theft',
+    description:
+      "A scammer files a fraudulent tax return using a victim's stolen Social Security number early in tax season to claim the refund before the real taxpayer files, discovered only when the real return is rejected as a duplicate.",
+    categorySlug: 'tax-scams',
+    alertLevel: 'high',
+    sources: ['IRS', 'FTC Consumer Advice'],
+  },
+  {
+    name: 'Fake IRS Refund Text or Email',
+    slug: 'fake-irs-refund-text-email',
+    description:
+      'A message claims a tax refund is pending and asks the recipient to click a link and enter bank details to receive it faster. The IRS does not initiate contact by email or text about refunds.',
+    categorySlug: 'tax-scams',
+    alertLevel: 'medium',
+    sources: ['IRS'],
+  },
+  {
+    name: 'Employee Retention Credit Mill Scam',
+    slug: 'employee-retention-credit-mill-scam',
+    description:
+      'Aggressive ads and calls push businesses to claim a since-tightened pandemic-era tax credit through a "specialist" who charges a large contingency fee, encouraging claims the business doesn\'t actually qualify for and leaving the business liable for repayment plus penalties.',
+    categorySlug: 'tax-scams',
+    alertLevel: 'high',
+    sources: ['IRS'],
+  },
+
   // Historical entries: real, well-documented frauds with no current
   // threat level (hence no alertLevel), included to make good on the
   // original goal of covering scam history, not just active patterns.
@@ -896,6 +1610,72 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'US',
     isHistorical: true,
     firstRecorded: '1963-01-01',
+  },
+  {
+    name: 'The Mississippi Bubble',
+    slug: 'mississippi-bubble-1720',
+    description:
+      'Scottish financier John Law convinced France\'s regent to let him establish a national bank issuing paper currency, then merged it with the Compagnie d\'Occident, granted a monopoly over French trade with Louisiana and the Mississippi valley. Speculative buying drove shares from 500 to 10,000 livres between January and December 1719, before Law\'s bank — which had printed roughly five times more paper money than it held in gold — collapsed under a wave of redemptions in 1720. Law was dismissed as France\'s Controller General and fled the country; the collapse contributed to French distrust of paper money and banks for generations.',
+    categorySlug: 'investment-fraud',
+    sources: ['Encyclopaedia Britannica', 'Federal Reserve Bank of New York (Liberty Street Economics)'],
+    country: 'FR',
+    isHistorical: true,
+    firstRecorded: '1720-01-01',
+  },
+  {
+    name: 'The Whiskey Ring',
+    slug: 'whiskey-ring-1875',
+    description:
+      'From 1871 to 1875, a network of whiskey distillers bribed federal tax collectors and Treasury officials — mainly centered in St. Louis — to certify far less liquor production than was actually distilled, letting them dodge most of the 70-cents-per-gallon federal excise tax and split the stolen revenue. Treasury Secretary Benjamin Bristow ran a secret investigation that broke the ring open in 1875, leading to 238 indictments and 110 convictions; President Ulysses S. Grant\'s own personal secretary, Orville Babcock, was indicted (and acquitted after Grant\'s testimony), badly damaging the administration\'s reputation.',
+    categorySlug: 'tax-scams',
+    sources: ['Encyclopaedia Britannica', 'U.S. National Archives'],
+    country: 'US',
+    isHistorical: true,
+    firstRecorded: '1875-01-01',
+  },
+  {
+    name: 'John R. Brinkley\'s "Goat Gland" Medical Fraud',
+    slug: 'brinkley-goat-gland-fraud-1922',
+    description:
+      'John R. Brinkley, who held no accredited medical education, built a fortune in Kansas performing a bogus surgical procedure claiming to cure impotence by transplanting goat testicle tissue into human patients, at fees up to $1,500. He used his own powerful radio station to advertise the procedure and prescribe medications over the air, reaching enormous audiences until the Federal Radio Commission pulled his U.S. broadcast license in 1930 (he then broadcast from a station in Mexico, out of American regulators\' reach). A 1938 exposé in the Journal of the American Medical Association documented patient deaths and injuries, and Brinkley lost a resulting libel suit, which triggered a wave of malpractice claims that bankrupted him.',
+    categorySlug: 'healthcare-fraud',
+    sources: ['Encyclopaedia Britannica', 'Journal of the American Medical Association archives'],
+    country: 'US',
+    isHistorical: true,
+    firstRecorded: '1922-01-01',
+  },
+  {
+    name: 'Ivar Kreuger\'s "Match King" Fraud',
+    slug: 'ivar-kreuger-match-king-fraud-1932',
+    description:
+      'Swedish industrialist Ivar Kreuger built a global monopoly on match production, becoming one of the world\'s largest lenders to governments in the 1920s by loaning them money in exchange for match-sale monopolies in their countries. To keep raising capital, he ran what forensic auditors later determined was a vast pyramid scheme, hiding fictitious assets and forged bonds across a maze of over 400 subsidiary companies. Kreuger died by suicide in Paris in March 1932 as the scheme unraveled; the collapse of Kreuger & Toll was, at the time, one of the largest corporate frauds in history and was a direct catalyst for the U.S. Securities Act of 1933.',
+    categorySlug: 'investment-fraud',
+    sources: ['Harvard Business School archives', 'Encyclopaedia Britannica'],
+    country: 'SE',
+    isHistorical: true,
+    firstRecorded: '1929-01-01',
+  },
+  {
+    name: 'The Panama Canal Lottery Bond Scandal',
+    slug: 'panama-canal-lottery-bond-scandal-1892',
+    description:
+      'The French company building the Panama Canal, led by Ferdinand de Lesseps (celebrated for completing the Suez Canal), ran catastrophically over budget and turned to a lottery-bond scheme in 1888 to raise fresh capital from small French investors — roughly 800,000 of them. The company collapsed within a year, and a 1892 investigation revealed that company directors had bribed over a hundred members of the French parliament to approve the lottery loan. Ferdinand and Charles de Lesseps were convicted and sentenced to prison (Ferdinand\'s sentence was later overturned on a technicality due to his age and health), and the scandal remains one of the largest financial and political corruption cases in French history.',
+    categorySlug: 'investment-fraud',
+    sources: ['Encyclopaedia Britannica'],
+    country: 'FR',
+    isHistorical: true,
+    firstRecorded: '1888-01-01',
+  },
+  {
+    name: 'Robert Vesco\'s IOS Mutual Fund Fraud',
+    slug: 'robert-vesco-ios-fraud-1973',
+    description:
+      'Robert Vesco took control of the Swiss-based Investors Overseas Services (IOS), a sprawling "fund of funds" that sold mutual fund investments to expatriates and international investors worldwide, and looted it by directing its funds into a web of banks and shell companies he secretly owned. As SEC investigators closed in during February 1973, Vesco fled the United States aboard a corporate jet with an estimated $200 million of investor money, eventually renouncing his citizenship and spending decades evading extradition in countries like Costa Rica, Nicaragua, and finally Cuba, where he died in 2007.',
+    categorySlug: 'investment-fraud',
+    sources: ['Encyclopaedia Britannica', 'U.S. Securities and Exchange Commission history'],
+    country: 'US',
+    isHistorical: true,
+    firstRecorded: '1971-01-01',
   },
 ];
 
@@ -1019,6 +1799,42 @@ const SEED_GLOBAL_SOURCES: SeedGlobalSource[] = [
     description:
       'A joint Singapore government initiative (Police Force, Ministry of Home Affairs, and GovTech) pairing a scam-detection app with public reporting tools. The Police publish detailed Annual and Mid-Year Scam and Cybercrime Briefs with category-level figures.',
     data_type: 'annual_report',
+  },
+  {
+    agency_name: 'BSI (Federal Office for Information Security)',
+    country: 'DE',
+    country_name: 'Germany',
+    url: 'https://www.bsi.bund.de/EN/Themen/Verbraucherinnen-und-Verbraucher/Cyber-Sicherheitslage/Methoden-der-Cyber-Kriminalitaet/methoden-der-cyber-kriminalitaet_node.html',
+    description:
+      "Germany's federal cyber security agency. Publishes public guidance on cybercrime methods and threat trends; individual fraud reports go to local police (Polizei) or the Federal Criminal Police Office (BKA), which BSI works alongside rather than replaces.",
+    data_type: 'public_stats',
+  },
+  {
+    agency_name: 'National Consumer Affairs Center of Japan (NCAC)',
+    country: 'JP',
+    country_name: 'Japan',
+    url: 'https://www.kokusen.go.jp/',
+    description:
+      "Japan's national consumer affairs body, reachable via the nationwide #188 hotline that routes callers to their local consumer center. Cyber-specific fraud is separately handled by the National Police Agency and the Japan Cybercrime Control Center (JC3).",
+    data_type: 'public_stats',
+  },
+  {
+    agency_name: 'Fraudehelpdesk (Dutch National Anti-Fraud Hotline)',
+    country: 'NL',
+    country_name: 'Netherlands',
+    url: 'https://www.fraudehelpdesk.nl/',
+    description:
+      "The Netherlands' national fraud hotline, listed as the government's designated fraud contact point on Rijksoverheid.nl. It has no investigative power itself — it logs reports to build a national fraud picture and refers victims to the appropriate authority (usually the police).",
+    data_type: 'public_stats',
+  },
+  {
+    agency_name: 'National Cyber Crime Reporting Portal (NCRP)',
+    country: 'IN',
+    country_name: 'India',
+    url: 'https://cybercrime.gov.in/',
+    description:
+      "India's official cybercrime and financial-fraud reporting portal, run by the Ministry of Home Affairs' Indian Cyber Crime Coordination Centre (I4C), backed by the toll-free 1930 helpline dedicated to reporting financial fraud.",
+    data_type: 'public_stats',
   },
 ];
 
