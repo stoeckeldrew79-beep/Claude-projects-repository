@@ -84,6 +84,84 @@ Sorokin was arrested in 2017 and convicted in 2019 on multiple counts of grand l
 
 What made the con work wasn't a fake ID or a forged document — those came later, when they were needed for specific transactions. It was pure social engineering: a confident performance of wealth, sustained long enough and in front of the right people, that made almost everyone around her assume someone else had already verified she was who she said she was.`,
   },
+  {
+    title: 'Elizabeth Holmes and the Blood Test That Never Worked',
+    slug: 'elizabeth-holmes-theranos-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `Elizabeth Holmes founded Theranos in 2003 at age 19, dropping out of Stanford with a pitch that sounded like a genuine medical breakthrough: a device that could run hundreds of lab tests from a single finger-prick of blood, cheaper and faster than a traditional venous draw. By 2014, Theranos was valued at roughly $9 billion, Holmes was profiled as the youngest self-made female billionaire in the country, and her board included former Secretaries of State and Defense.
+
+The technology described to investors, partners, and the public never actually worked as claimed. Internally, Theranos ran the large majority of patient tests on modified, repurposed machines from other manufacturers — sometimes diluting blood samples to make them compatible — while publicly presenting the results as coming from its own proprietary "Edison" devices. A 2015 Wall Street Journal investigation by reporter John Carreyrou was the first to expose the gap between what Theranos claimed and what was actually happening inside its labs.
+
+Holmes and Theranos president Ramesh "Sunny" Balwani were indicted for wire fraud in 2018. Holmes was convicted in January 2022 on charges of defrauding investors — she was acquitted on charges tied to defrauding patients directly — and sentenced to just over 11 years. In early 2026, a federal judge trimmed roughly a year off her sentence after applying a retroactive guideline reduction for certain first-time nonviolent offenders; an appeals court had already upheld her underlying conviction. She remains in federal prison in Texas.
+
+Theranos is a useful case precisely because there was no fake voice on the phone or forged check — just a confident, well-credentialed performance, backed by famous names on the board and years of flattering press coverage, that discouraged the basic due diligence that would have caught it. It took an outside reporter actually checking, rather than trusting the reputation, to unravel it.`,
+  },
+  {
+    title: 'Sam Bankman-Fried and the $8 Billion Hole in FTX',
+    slug: 'sam-bankman-fried-ftx-collapse',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `Sam Bankman-Fried founded the cryptocurrency exchange FTX in 2019, and within a few years built it into one of the largest exchanges in the world — and himself into a media fixture, testifying before Congress, donating heavily to political campaigns, and drawing comparisons to Warren Buffett, all while FTX ran Super Bowl ads and his paper net worth was estimated in the billions.
+
+Behind the scenes, FTX customer deposits — money users believed was simply sitting in their exchange accounts — were secretly funneled to Alameda Research, a sister trading firm Bankman-Fried also controlled, through a backdoor that let Alameda draw on customer funds without the collateral any other user would have needed. When a November 2022 report questioning Alameda's finances triggered a wave of customer withdrawals, FTX couldn't cover them. The exchange collapsed within days, revealing a shortfall of roughly $8 billion.
+
+Bankman-Fried was arrested in the Bahamas in December 2022, extradited to the United States, and convicted in November 2023 on seven counts of fraud and conspiracy. He was sentenced in March 2024 to 25 years in prison. He appealed both the conviction and the sentence; in June 2026, the Second Circuit Court of Appeals unanimously rejected the appeal, leaving the 25-year sentence in place with a projected release date in 2044. A request for a presidential pardon has so far been denied.
+
+FTX is a reminder that celebrity endorsements, slick marketing, and even testimony before Congress describe how a company presents itself, not what its books actually say — and that the same "everything's moving fast, no time to double-check" pressure that makes an individual scam work can operate at the scale of a multibillion-dollar company.`,
+  },
+  {
+    title: "Jordan Belfort, the \"Wolf of Wall Street,\" and the Victims Still Waiting to Be Paid",
+    slug: 'jordan-belfort-stratton-oakmont-wolf-of-wall-street',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Through the late 1980s and 1990s, Jordan Belfort ran Stratton Oakmont, a Long Island brokerage built around a classic "pump and dump" scheme: brokers aggressively cold-called investors to buy shares in small, often nearly worthless companies that Stratton Oakmont itself secretly controlled large blocks of. The buying pressure artificially inflated ("pumped") the share price, at which point insiders sold ("dumped") their own shares at the inflated price — leaving ordinary investors holding stock that collapsed once the manufactured demand stopped.
+
+Over roughly a decade, the scheme took in an estimated $200 million from more than 1,500 victims. Belfort also built a notorious corporate culture around the firm, later recounted in his own memoir and dramatized — critics say glamorized — in the 2013 film "The Wolf of Wall Street."
+
+Belfort pleaded guilty in 1999 to securities fraud and money laundering, cooperated with prosecutors against former colleagues, and was sentenced in 2003 to four years in prison, of which he served 22 months, along with $110.4 million in court-ordered restitution to his victims. More than two decades later, court filings show he has repaid only a small fraction of that — roughly $12.8 million as of recent filings — while earning a living as a paid motivational speaker largely built on retelling the very story that created the debt he still owes.
+
+The gap between what Belfort owes and what he's actually paid is worth knowing on its own: it's a straightforward fact-check against the swagger of the "Wolf of Wall Street" mythology, and a reminder that a compelling redemption story and an unpaid restitution order can coexist for decades.`,
+  },
+  {
+    title: "Allen Stanford's $7 Billion Offshore Ponzi Scheme",
+    slug: 'allen-stanford-stanford-financial-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Robert Allen Stanford built Stanford Financial Group into a network of investment firms centered on Stanford International Bank, an offshore bank he ran out of Antigua and Barbuda, where his wealth and political influence earned him an honorary knighthood. Over roughly two decades, the bank sold certificates of deposit promising unusually high, steady returns, eventually reaching somewhere between 18,000 and 30,000 investors in more than 100 countries.
+
+Those CDs weren't backed by the safe, liquid, diversified portfolio Stanford's marketing claimed. Instead, billions of dollars in depositor money went into his own speculative real estate deals, private businesses, and personal spending — including sponsoring a high-profile international cricket tournament — all while investors received audited-looking statements describing a conservative investment portfolio that didn't actually exist as described.
+
+The scheme collapsed in February 2009, just weeks after the Madoff scandal broke, when the SEC filed civil fraud charges and froze Stanford's assets. He was convicted in March 2012 on 13 of 14 counts and sentenced to 110 years in federal prison. At roughly $7 billion, it remains the second-largest Ponzi scheme in U.S. history, after Madoff's.
+
+That Stanford's fraud surfaced within weeks of Madoff's isn't entirely a coincidence: discovery often comes in waves. Once regulators, journalists, and the public are primed to look for one kind of fraud, others hiding nearby tend to surface soon after — which is part of why sustained, boring vigilance matters more than reacting only after the last big scandal.`,
+  },
+  {
+    title: 'Billy McFarland: From Fyre Festival to Fyre Festival II',
+    slug: 'billy-mcfarland-fyre-festival',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `In 2017, Billy McFarland and rapper Ja Rule marketed the "Fyre Festival" as a luxury music festival on a private Bahamian island, using a viral, influencer-driven campaign — models and celebrities all posting an identical orange square — to sell tickets ranging from hundreds of dollars to over $100,000, promising gourmet catering, luxury villas, and major musical acts.
+
+Attendees who actually showed up found disaster-relief tents instead of villas, prepackaged sandwiches instead of gourmet catering, no real performances, and no functioning way to leave the island. It later emerged that McFarland had misrepresented the festival's finances to investors and vendors throughout the planning process, including fabricated documents used to raise around $26 million.
+
+McFarland pleaded guilty to wire fraud in 2018, was sentenced to six years in federal prison, and forfeited $26 million. He was released in March 2022 after serving less than four years. In 2025, he announced "Fyre Festival II," selling tickets for as much as $1.1 million each — reporting subsequently uncovered multiple irregularities with the new event, and it was postponed indefinitely.
+
+McFarland is unusual on this list for trying the same playbook twice, in public, after already serving prison time for the first version. That he could still sell tickets at all is a reminder that reputational damage alone doesn't reliably stop a repeat offender — and that trusting a slick campaign and social proof over independent verification is exactly the weak point that failed the first time.`,
+  },
+  {
+    title: 'Rita Crundwell: The Small-Town Comptroller Who Stole $53 Million',
+    slug: 'rita-crundwell-dixon-illinois-embezzlement',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'historical'],
+    body: `Dixon, Illinois, a city of about 16,000 people, employed Rita Crundwell as comptroller starting in 1983 — a position that gave her near-total control over the city's finances with minimal independent oversight. Starting in December 1990, she quietly opened a secret municipal bank account that she alone controlled, and over the next 22 years made 179 transfers totaling roughly $53.7 million out of city funds and into it.
+
+Crundwell used the stolen money to build one of the top quarter-horse breeding operations in the country — hundreds of horses, elaborate stables, national competitions — all while publicly presenting herself as running a lean, cash-strapped city government that regularly needed budget cuts. The fraud went undetected for over two decades partly because she also controlled the city's bookkeeping and bank reconciliations, and outside audits relied on records she herself supplied.
+
+The scheme unraveled in 2012 when a city employee filling in during Crundwell's vacation noticed the secret account. She pleaded guilty to federal program fraud and was sentenced in 2013 to nearly 20 years in federal prison — one of the largest thefts of public funds in U.S. municipal history relative to the size of the town. Her sentence was later commuted, and she was released from custody before completing it.
+
+The case remains a reference point for municipal fraud prevention for a simple reason: no exotic financial instruments were involved, just one person controlling both the money and the paperwork meant to check it, for more than twenty years, in a town too small and too trusting to look closely at either.`,
+  },
 ];
 
 // Practical "how it works / red flags / what to do" guides covering the

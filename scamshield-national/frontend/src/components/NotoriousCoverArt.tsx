@@ -83,12 +83,95 @@ function DelveyArt() {
   );
 }
 
+function TheranosArt() {
+  return (
+    <svg viewBox="0 0 400 240" className="h-full w-full" preserveAspectRatio="xMidYMid slice">
+      <rect width="400" height="240" fill="#0e2b2e" />
+      <path d="M200 50 C240 110 260 145 260 170 A60 60 0 1 1 140 170 C140 145 160 110 200 50 Z" fill="#8fd6c4" opacity="0.9" />
+      <rect x="150" y="185" width="100" height="14" fill="#173a3a" />
+      <line x1="130" y1="205" x2="270" y2="205" stroke="#8fd6c4" strokeWidth="2" opacity="0.4" />
+    </svg>
+  );
+}
+
+function FTXArt() {
+  return (
+    <svg viewBox="0 0 400 240" className="h-full w-full" preserveAspectRatio="xMidYMid slice">
+      <rect width="400" height="240" fill="#0d1321" />
+      <circle cx="200" cy="110" r="55" fill="none" stroke="#7c8cff" strokeWidth="3" />
+      <line x1="165" y1="80" x2="235" y2="150" stroke="#e34948" strokeWidth="4" />
+      <line x1="235" y1="80" x2="165" y2="150" stroke="#e34948" strokeWidth="4" />
+      <polyline points="30,210 90,190 150,205 210,175 270,195 380,120" fill="none" stroke="#7c8cff" strokeWidth="2" opacity="0.6" />
+    </svg>
+  );
+}
+
+function BelfortArt() {
+  return (
+    <svg viewBox="0 0 400 240" className="h-full w-full" preserveAspectRatio="xMidYMid slice">
+      <rect width="400" height="240" fill="#14251c" />
+      <polyline points="20,190 100,140 160,155 220,70 300,95 380,200" fill="none" stroke="#e9c77b" strokeWidth="3" />
+      <circle cx="220" cy="70" r="6" fill="#e9c77b" />
+      <rect x="40" y="40" width="26" height="42" rx="4" fill="#caa25c" opacity="0.85" />
+    </svg>
+  );
+}
+
+function StanfordArt() {
+  return (
+    <svg viewBox="0 0 400 240" className="h-full w-full" preserveAspectRatio="xMidYMid slice">
+      <rect width="400" height="240" fill="#0b2436" />
+      <rect x="110" y="110" width="180" height="90" fill="#1c435e" />
+      {[0, 1, 2, 3, 4].map((i) => (
+        <rect key={i} x={125 + i * 33} y="120" width="14" height="70" fill="#0b2436" />
+      ))}
+      <polygon points="100,110 300,110 200,70" fill="#1c435e" />
+      <path d="M320 200 C330 160 350 150 350 120 C350 150 370 160 380 200 Z" fill="#4f8f6b" opacity="0.8" />
+    </svg>
+  );
+}
+
+function FyreArt() {
+  return (
+    <svg viewBox="0 0 400 240" className="h-full w-full" preserveAspectRatio="xMidYMid slice">
+      <rect width="400" height="240" fill="#1c1006" />
+      <rect x="130" y="50" width="140" height="140" fill="#ff8c1a" />
+      <polygon points="60,205 110,150 160,205" fill="none" stroke="#ff8c1a" strokeWidth="2" opacity="0.5" />
+      <polygon points="240,205 290,150 340,205" fill="none" stroke="#ff8c1a" strokeWidth="2" opacity="0.5" />
+    </svg>
+  );
+}
+
+function CrundwellArt() {
+  return (
+    <svg viewBox="0 0 400 240" className="h-full w-full" preserveAspectRatio="xMidYMid slice">
+      <rect width="400" height="240" fill="#2b1f14" />
+      <path
+        d="M80 190 C90 150 110 130 95 100 C120 105 135 90 150 95 C170 80 200 85 210 105 C225 100 240 115 235 135 L245 190 L215 190 L210 160 L120 160 L110 190 Z"
+        fill="#caa25c"
+        opacity="0.9"
+      />
+      <rect x="280" y="90" width="70" height="50" fill="#e8dcc0" />
+      <line x1="290" y1="105" x2="340" y2="105" stroke="#2b1f14" strokeWidth="2" />
+      <line x1="290" y1="118" x2="340" y2="118" stroke="#2b1f14" strokeWidth="2" />
+      <circle cx="315" cy="115" r="26" fill="none" stroke="#8a2e2e" strokeWidth="3" />
+      <line x1="298" y1="98" x2="332" y2="132" stroke="#8a2e2e" strokeWidth="3" />
+    </svg>
+  );
+}
+
 const ART: Record<string, () => JSX.Element> = {
   'charles-ponzi-the-original-scheme': PonziArt,
   'bernie-madoff-largest-ponzi-scheme': MadoffArt,
   'the-spanish-prisoner-advance-fee-fraud-origins': SpanishPrisonerArt,
   'frank-abagnale-catch-me-if-you-can-fact-check': AbagnaleArt,
   'anna-sorokin-anna-delvey-fake-heiress': DelveyArt,
+  'elizabeth-holmes-theranos-fraud': TheranosArt,
+  'sam-bankman-fried-ftx-collapse': FTXArt,
+  'jordan-belfort-stratton-oakmont-wolf-of-wall-street': BelfortArt,
+  'allen-stanford-stanford-financial-ponzi-scheme': StanfordArt,
+  'billy-mcfarland-fyre-festival': FyreArt,
+  'rita-crundwell-dixon-illinois-embezzlement': CrundwellArt,
 };
 
 function FallbackArt() {
