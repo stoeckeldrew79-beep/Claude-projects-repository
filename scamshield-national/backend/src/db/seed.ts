@@ -1833,6 +1833,276 @@ const SEED_SCAMS: SeedScam[] = [
     isHistorical: true,
     firstRecorded: '1971-01-01',
   },
+  {
+    name: 'Fake "Suspicious Login" Verification Code Request',
+    slug: 'fake-suspicious-login-code-phishing-text',
+    description:
+      'A text claims suspicious activity on your account and asks you to reply with the verification code you\'re about to receive — in reality, the scammer is triggering a real password reset or login attempt on your actual account at that exact moment, and tricking you into handing over the one-time code that would let them in. Never share a verification code with anyone, even someone claiming to be from the company\'s own security team.',
+    categorySlug: 'account-takeover',
+    alertLevel: 'high',
+    sources: ['FTC Consumer Advice'],
+  },
+  {
+    name: 'Port-Out Fraud via Stolen Personal Information',
+    slug: 'port-out-number-fraud',
+    description:
+      'Using personal information obtained from a data breach or phishing, a scammer contacts your mobile carrier and requests to port your phone number to a new SIM or device they control, without ever visiting a store in person. Once the port completes, they receive your calls and SMS-based two-factor codes, letting them reset passwords on banking and email accounts. Setting a carrier account PIN is one of the few defenses against this.',
+    categorySlug: 'account-takeover',
+    alertLevel: 'high',
+    sources: ['FCC Consumer Guides', 'FTC Consumer Advice'],
+  },
+  {
+    name: 'Account Takeover via Reused Password from an Unrelated Breach',
+    slug: 'reused-password-breach-account-takeover',
+    description:
+      'After a large, unrelated company suffers a data breach, criminals test the leaked email-and-password combinations against banking, email, and shopping sites at automated scale. Anyone who reused the same password on one of those other services can have accounts taken over within days of a breach making headlines, even if they were never a customer of the breached company. A unique password per site is the direct defense.',
+    categorySlug: 'account-takeover',
+    alertLevel: 'high',
+    sources: ['FBI IC3'],
+  },
+  {
+    name: 'OAuth App Consent Phishing',
+    slug: 'oauth-consent-phishing-attack',
+    description:
+      'Instead of stealing a password directly, a scammer sends a link to a real Microsoft or Google sign-in page asking you to "allow" a malicious third-party app to access your email and files. Because the login page itself is genuine, the request can bypass phishing filters and even multi-factor authentication — victims grant a token that keeps working until it is manually revoked. Periodically reviewing and removing unfamiliar "connected apps" is the main defense.',
+    categorySlug: 'account-takeover',
+    alertLevel: 'medium',
+    sources: ['CISA'],
+  },
+  {
+    name: 'Fake Two-Factor Authentication "Reset" Support Call',
+    slug: 'fake-2fa-reset-support-call',
+    description:
+      'A scammer calls posing as account security support, claiming your two-factor authentication needs to be "reset" or "verified" due to suspicious activity, then walks the victim through disabling their own 2FA or reading back a reset code — the opposite of what real support would ever ask a customer to do. Legitimate providers never ask a customer to disable their own security features over the phone.',
+    categorySlug: 'account-takeover',
+    alertLevel: 'medium',
+    sources: ['FTC Consumer Advice'],
+  },
+  {
+    name: 'AI-Cloned Executive Voice Wire-Approval Call',
+    slug: 'ai-voice-clone-executive-approval-call',
+    description:
+      'A short public recording of an executive\'s voice — from an earnings call, conference talk, or podcast — is fed into AI voice-cloning software to generate a convincing phone call approving an urgent wire transfer or gift card purchase, adding a live "voice" to a business email compromise scheme that once relied on text alone. Any unusual payment request, even one that sounds like a recognized voice on the phone, should be confirmed through a separate, previously known contact method.',
+    categorySlug: 'ai-deepfake-scams',
+    alertLevel: 'high',
+    sources: ['FBI IC3'],
+  },
+  {
+    name: 'AI Face-Swap Blackmail Video',
+    slug: 'ai-face-swap-blackmail-video',
+    description:
+      'Ordinary photos scraped from a target\'s public social media profile are fed into face-swap AI tools to generate a fabricated explicit video, which is then sent to the victim — or threatened to be sent to their contacts — demanding payment to prevent release. Because the underlying photos are real but the video is entirely fabricated, victims may not immediately recognize it as fake. Reporting to the platform and law enforcement, not paying, is the recommended response.',
+    categorySlug: 'ai-deepfake-scams',
+    alertLevel: 'critical',
+    sources: ['FBI IC3', 'National Center for Missing & Exploited Children'],
+  },
+  {
+    name: 'AI-Generated Celebrity Health Product Endorsement Ad',
+    slug: 'ai-celebrity-health-product-endorsement-ad',
+    description:
+      'A short AI-generated video clip shows a recognizable celebrity or news anchor appearing to endorse a weight-loss pill, supplement, or "miracle" health product, run as a paid social media ad. The celebrity has no actual connection to the product; the clip is fabricated from public footage. Checking whether the celebrity or their verified accounts have addressed the ad directly is a quick way to confirm it is fake.',
+    categorySlug: 'ai-deepfake-scams',
+    alertLevel: 'medium',
+    sources: ['FTC Consumer Advice'],
+  },
+  {
+    name: 'AI-Cloned Voicemail Urgent Callback Scam',
+    slug: 'ai-cloned-voicemail-callback-scam',
+    description:
+      'Rather than a live call, a scammer leaves a short AI-generated voicemail cloned to sound like a family member in distress, asking for an urgent callback to a number that is not the family member\'s real one. The pre-recorded, one-way format lets scammers run many attempts at once and avoids the risk of a live conversation exposing inconsistencies. Always call the family member back at their known number, never one left in the message.',
+    categorySlug: 'ai-deepfake-scams',
+    alertLevel: 'high',
+    sources: ['FTC Consumer Advice'],
+  },
+  {
+    name: 'AI-Generated Fake Investment Company Website',
+    slug: 'ai-generated-fake-investment-company-website',
+    description:
+      'Scammers use AI tools to quickly generate a professional-looking corporate website, complete with fabricated leadership bios, fake press mentions, and AI-written "research reports," lending instant legitimacy to an investment pitch that would once have taken months to fake convincingly. A polished site is no longer a reliable sign of legitimacy — checking a firm\'s actual registration with the SEC or FINRA remains necessary regardless of how professional the site looks.',
+    categorySlug: 'ai-deepfake-scams',
+    alertLevel: 'high',
+    sources: ['SEC Office of Investor Education and Advocacy'],
+  },
+  {
+    name: 'Fake Debt Validation Letter Scam',
+    slug: 'fake-debt-validation-letter-scam',
+    description:
+      'A letter designed to look like an official debt collection notice demands immediate payment on a debt that may not be owed, may already be paid, or may not exist at all — often for a small enough amount that recipients pay rather than dispute it. Under the Fair Debt Collection Practices Act, you can request written validation of any debt before paying, and a real collector must provide it.',
+    categorySlug: 'debt-relief-scams',
+    alertLevel: 'medium',
+    sources: ['Consumer Financial Protection Bureau'],
+  },
+  {
+    name: 'Fake Wage Garnishment Notice Scam',
+    slug: 'fake-wage-garnishment-notice-scam',
+    description:
+      'A caller or letter claims a court has already ordered your wages garnished over unpaid debt and demands an immediate payment or "processing fee" to stop it, relying on the fact that most people don\'t know real wage garnishment requires a court judgment and prior notice through the court system, not a phone call. Verify any garnishment claim directly with your local court, never through contact information the caller provides.',
+    categorySlug: 'debt-relief-scams',
+    alertLevel: 'high',
+    sources: ['Consumer Financial Protection Bureau', 'FTC Consumer Advice'],
+  },
+  {
+    name: 'Debt Relief "Pay Us Instead of Your Creditors" Scam',
+    slug: 'debt-relief-escrow-account-scam',
+    description:
+      'A debt settlement company instructs customers to stop paying creditors directly and instead deposit monthly payments into a dedicated "settlement" account the company controls, promising to negotiate reduced payoffs — while collecting high upfront fees and, in fraudulent cases, simply keeping the deposited funds without ever contacting creditors. Federal rules prohibit debt-settlement companies from collecting most fees before actually settling a debt.',
+    categorySlug: 'debt-relief-scams',
+    alertLevel: 'high',
+    sources: ['FTC Consumer Advice'],
+  },
+  {
+    name: 'Advance-Fee Debt Consolidation Loan Scam',
+    slug: 'advance-fee-debt-consolidation-loan-scam',
+    description:
+      'A company promises a guaranteed debt-consolidation loan regardless of credit history, but requires an upfront "processing," "insurance," or "collateral" fee before funding — the loan never materializes and the fee is not returned. A legitimate lender deducts its fees from loan proceeds rather than requiring payment before approval.',
+    categorySlug: 'debt-relief-scams',
+    alertLevel: 'medium',
+    sources: ['FTC Consumer Advice'],
+  },
+  {
+    name: 'Fake Credit Card Interest Rate Reduction Robocall',
+    slug: 'fake-credit-card-interest-reduction-robocall',
+    description:
+      'A robocall claims to be able to lower your credit card interest rate through a "special program," but first requires your card number "to verify eligibility" or an upfront enrollment fee. No such universal program exists — the requested card number is used for unauthorized charges rather than any real rate negotiation. Rate negotiations happen directly with your card issuer, not a third-party robocall.',
+    categorySlug: 'debt-relief-scams',
+    alertLevel: 'medium',
+    sources: ['FTC Consumer Advice'],
+  },
+  {
+    name: 'Fake Life Insurance Beneficiary Change Scam',
+    slug: 'fake-life-insurance-beneficiary-change-scam',
+    description:
+      'Someone impersonating an insurance agent contacts a policyholder, often an elderly one, claiming a routine "beneficiary verification" is required, and uses the call to redirect the policy\'s beneficiary designation to the scammer or an accomplice. Any beneficiary change should be confirmed directly with the insurer using a phone number from a genuine statement, never one provided by the caller.',
+    categorySlug: 'insurance-fraud',
+    alertLevel: 'high',
+    sources: ['National Association of Insurance Commissioners'],
+  },
+  {
+    name: 'Insurance "Assignment of Benefits" Contractor Scam',
+    slug: 'insurance-assignment-of-benefits-contractor-scam',
+    description:
+      'A door-to-door contractor convinces a homeowner to sign an "assignment of benefits" form after a storm, transferring the homeowner\'s right to insurance payment directly to the contractor — who may then inflate repair estimates, file claims without the homeowner\'s ongoing input, or disappear after receiving payment before completing repairs. Homeowners should read any document fully before signing and can request time to review it with their insurer first.',
+    categorySlug: 'insurance-fraud',
+    alertLevel: 'medium',
+    sources: ['National Association of Insurance Commissioners', 'FTC Consumer Advice'],
+  },
+  {
+    name: 'Fake Rideshare Driver Commercial Insurance Scam',
+    slug: 'fake-rideshare-driver-insurance-scam',
+    description:
+      'A caller or online ad targets rideshare and delivery drivers with a "special commercial coverage" policy claimed to be required to keep driving for the platform, priced attractively but never actually filed with a state insurance regulator and unable to pay a real claim. Drivers should verify commercial auto coverage requirements directly with their platform and confirm any insurer\'s license with their state\'s department of insurance.',
+    categorySlug: 'insurance-fraud',
+    alertLevel: 'medium',
+    sources: ['National Association of Insurance Commissioners'],
+  },
+  {
+    name: 'Fake Short-Term Health Plan Sold as ACA-Compliant',
+    slug: 'fake-short-term-health-plan-scam',
+    description:
+      'A plan is marketed using language that implies full Affordable Care Act compliance and comprehensive coverage, but is actually a limited-duration short-term plan that excludes pre-existing conditions and caps payouts — leaving buyers with large uncovered medical bills a compliant marketplace plan would have paid. Confirming a plan\'s actual status directly on healthcare.gov before enrolling is the safest check.',
+    categorySlug: 'insurance-fraud',
+    alertLevel: 'medium',
+    sources: ['Centers for Medicare & Medicaid Services', 'FTC Consumer Advice'],
+  },
+  {
+    name: 'Fake Property Tax Deed Sale "Rescue" Scam',
+    slug: 'fake-property-tax-deed-rescue-scam',
+    description:
+      'Homeowners behind on property taxes are approached by someone offering to "save" their home from an upcoming tax deed sale by taking over the deed temporarily and handling payments, in exchange for the homeowner signing over the property title — after which the homeowner is evicted or the promised repayment never happens. Legitimate tax-delinquency relief goes through the county tax office or a licensed attorney, not a stranger offering to hold the deed.',
+    categorySlug: 'mortgage-foreclosure-scams',
+    alertLevel: 'high',
+    sources: ['Consumer Financial Protection Bureau'],
+  },
+  {
+    name: 'Fake HOA Delinquency Lien Payoff Scam',
+    slug: 'fake-hoa-delinquency-payoff-scam',
+    description:
+      'A letter or call claims a homeowner\'s association has placed a lien for unpaid dues and demands immediate payment to a third-party "resolution service" to avoid foreclosure — bypassing the actual HOA management company entirely and pocketing the payment without resolving any real lien. Homeowners should confirm any HOA lien claim directly with their HOA\'s actual management company using contact information from a prior legitimate statement.',
+    categorySlug: 'mortgage-foreclosure-scams',
+    alertLevel: 'medium',
+    sources: ['Consumer Financial Protection Bureau'],
+  },
+  {
+    name: 'Fake Federal Mortgage Modification Program Fee',
+    slug: 'fake-federal-mortgage-modification-fee-scam',
+    description:
+      'A company claims to represent a federal mortgage modification program and requires an upfront fee to "process" the homeowner\'s application, though federal loan modification assistance is applied for directly through the loan servicer or HUD-approved housing counselors and does not charge homeowners fees. Any company demanding payment before providing mortgage relief services is violating federal rules.',
+    categorySlug: 'mortgage-foreclosure-scams',
+    alertLevel: 'medium',
+    sources: ['Consumer Financial Protection Bureau', 'U.S. Department of Housing and Urban Development'],
+  },
+  {
+    name: 'Fake Law Enforcement Sextortion Threat',
+    slug: 'fake-law-enforcement-sextortion-threat',
+    description:
+      'After obtaining or fabricating compromising images, a scammer poses as a police officer or federal investigator, claiming the victim is under investigation for a sex crime and demanding payment to make the "case" disappear — layering a fake legal threat on top of the original extortion to increase pressure and reduce the odds a victim seeks real law enforcement help. Real law enforcement never resolves a criminal investigation through a private payment.',
+    categorySlug: 'sextortion',
+    alertLevel: 'critical',
+    sources: ['FBI IC3'],
+  },
+  {
+    name: 'Compromised Dating App Video Call Sextortion',
+    slug: 'compromised-dating-app-sextortion',
+    description:
+      'A scammer builds trust on a dating app and convinces a match to move to video chat, secretly recording the session (sometimes playing a pre-recorded clip of someone else to solicit compromising responses), then threatens to send the recording to the victim\'s contacts unless paid. Declining to move to video with someone not yet met in person, and reporting the account to the platform rather than paying, is the recommended response.',
+    categorySlug: 'sextortion',
+    alertLevel: 'critical',
+    sources: ['FBI IC3'],
+  },
+  {
+    name: 'Sextortion Targeting Minors via Gaming Platforms',
+    slug: 'gaming-platform-minor-sextortion',
+    description:
+      'A scammer poses as a peer on a gaming or messaging platform popular with teenagers, builds a quick rapport, and convinces the minor to share a compromising image, then immediately threatens to send it to the minor\'s friends and family unless paid or given more images. The FBI has specifically warned this pattern has driven both financial losses and, tragically, some victim suicides — reporting to NCMEC\'s CyberTipline and law enforcement immediately, without paying, is the recommended response.',
+    categorySlug: 'sextortion',
+    alertLevel: 'critical',
+    sources: ['FBI IC3', 'National Center for Missing & Exploited Children'],
+  },
+  {
+    name: 'Fake Airline Flight Cancellation Rebooking Email',
+    slug: 'fake-airline-flight-cancellation-phishing-email',
+    description:
+      'An email formatted to look like an airline notice claims your upcoming flight was canceled and asks you to click a link to rebook or request a refund, leading to a fake login page that harvests frequent-flyer credentials and payment details. Airlines notify real cancellations through their official app and the verified email on file — checking your booking directly on the airline\'s real site is the safer path.',
+    categorySlug: 'phishing',
+    alertLevel: 'medium',
+    sources: ['FTC Consumer Advice'],
+  },
+  {
+    name: 'Fake Browser Lock Screen Scam',
+    slug: 'fake-browser-lockscreen-scam',
+    description:
+      'Visiting a compromised or malicious webpage triggers a full-screen popup that locks the browser and displays a fake warning claiming the device is infected or that law enforcement has detected illegal content, listing a phone number to call for "removal." The page is designed to be difficult to close and to panic the visitor into calling; force-closing the browser or restarting the device resolves it without ever needing to call the listed number.',
+    categorySlug: 'tech-support-scams',
+    alertLevel: 'medium',
+    sources: ['FTC Consumer Advice'],
+  },
+  {
+    name: 'Overseas Contractor Project Romance Scam',
+    slug: 'overseas-contractor-project-romance-scam',
+    description:
+      'A scammer\'s profile claims to be an engineer or contractor working on an overseas project — an oil rig, a construction site, a shipping vessel — using the remote location to explain unusual hours and poor connectivity, before requesting money for a supposed project-related emergency, customs fee, or medical bill. The core red flag is the same as any romance scam: a partner never met in person asking for money tied to their claimed job.',
+    categorySlug: 'romance-scams',
+    alertLevel: 'high',
+    sources: ['FTC Consumer Advice'],
+  },
+  {
+    name: 'Fake People-Search Site Data Removal Scam',
+    slug: 'fake-people-search-data-removal-scam',
+    description:
+      'An email or ad claims your personal information was found exposed on a people-search or data-broker site and offers to remove it for a fee, while actually just linking to (or being) the very site collecting and reselling that data, or simply taking payment without removing anything. Most legitimate data brokers offer a free opt-out request process directly on their own site.',
+    categorySlug: 'identity-theft',
+    alertLevel: 'medium',
+    sources: ['FTC Consumer Advice'],
+  },
+  {
+    name: 'Fake Limited-Drop Sneaker or Collectible Resale Scam',
+    slug: 'fake-limited-drop-resale-scam',
+    description:
+      'A social media ad or storefront offers a highly sought-after, limited-release sneaker, collectible, or electronics item at a below-market price with urgent "few left" messaging, taking payment through a non-reversible method and never shipping a real item. Checking a seller\'s reviews on an independent platform, not just testimonials on their own site, and using a payment method with buyer protection are the main defenses.',
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'medium',
+    sources: ['FTC Consumer Advice'],
+  },
 ];
 
 async function seedCategoriesAndScams() {
