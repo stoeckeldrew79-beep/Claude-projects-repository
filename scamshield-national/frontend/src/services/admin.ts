@@ -21,6 +21,7 @@ export interface NewArticle {
   body: string;
   author?: string;
   cover_image?: string;
+  cover_image_credit?: string;
   published: boolean;
 }
 
@@ -31,8 +32,13 @@ export async function createArticle(article: NewArticle) {
 
 // Used to attach a real, rights-cleared cover photo to an existing
 // article (e.g. a Notorious Scams profile) — everything else about the
-// article stays as-is.
-export async function updateArticleCoverImage(id: string, cover_image: string) {
-  const { data } = await api.put<{ data: Article }>(`/articles/${id}`, { cover_image });
+// article stays as-is. `credit` is required for Creative Commons
+// Attribution photos (legally required wherever the image is shown);
+// leave it unset for public-domain sources like federal mugshots.
+export async function updateArticleCoverImage(id: string, cover_image: string, cover_image_credit?: string) {
+  const { data } = await api.put<{ data: Article }>(`/articles/${id}`, {
+    cover_image,
+    cover_image_credit: cover_image_credit || null,
+  });
   return data.data;
 }

@@ -196,10 +196,12 @@ function NotoriousCoverPhotos() {
   const user = useAuthStore((s) => s.user);
   const queryClient = useQueryClient();
   const { data: articles, isLoading } = useArticles('notorious');
-  const [drafts, setDrafts] = useState<Record<string, string>>({});
+  const [urlDrafts, setUrlDrafts] = useState<Record<string, string>>({});
+  const [creditDrafts, setCreditDrafts] = useState<Record<string, string>>({});
 
   const mutation = useMutation({
-    mutationFn: ({ id, url }: { id: string; url: string }) => updateArticleCoverImage(id, url),
+    mutationFn: ({ id, url, credit }: { id: string; url: string; credit: string }) =>
+      updateArticleCoverImage(id, url, credit),
     onSuccess: () => queryClient.invalidateQueries({ queryKey: ['articles'] }),
   });
 
@@ -209,13 +211,16 @@ function NotoriousCoverPhotos() {
     <div className="rounded-lg border border-slate-200 p-5">
       <h2 className="font-semibold text-slate-900">Notorious profile cover photos</h2>
       <p className="mt-1 text-sm text-slate-500">
-        Paste a link to a specific, rights-cleared photo (official .gov booking or press-release photos are the
-        safest source) to replace the abstract cover art for that profile. Leave blank to keep the abstract art.
+        Paste a link to a specific, rights-cleared photo to replace the abstract cover art for that profile. Public
+        domain sources (federal mugshots/press photos, pre-1929 photos) don't need a credit line — Creative Commons
+        Attribution photos legally do, so add the required credit text if that's the source. Leave the URL blank to
+        keep the abstract art.
       </p>
       {isLoading && <p className="mt-3 text-sm text-slate-500">Loading…</p>}
       <div className="mt-4 space-y-3">
         {articles?.map((article) => {
-          const draft = drafts[article.id] ?? article.cover_image ?? '';
+          const urlDraft = urlDrafts[article.id] ?? article.cover_image ?? '';
+          const creditDraft = creditDrafts[article.id] ?? article.cover_image_credit ?? '';
           return (
             <div key={article.id} className="flex items-center gap-3">
               <div className="h-12 w-16 shrink-0 overflow-hidden rounded border border-slate-200">
@@ -225,16 +230,22 @@ function NotoriousCoverPhotos() {
                   <NotoriousCoverArt slug={article.slug} className="h-full" />
                 )}
               </div>
-              <p className="w-48 shrink-0 text-sm text-slate-700 truncate">{article.title}</p>
+              <p className="w-40 shrink-0 text-sm text-slate-700 truncate">{article.title}</p>
               <input
-                value={draft}
-                onChange={(e) => setDrafts((d) => ({ ...d, [article.id]: e.target.value }))}
-                placeholder="https://..."
+                value={urlDraft}
+                onChange={(e) => setUrlDrafts((d) => ({ ...d, [article.id]: e.target.value }))}
+                placeholder="Photo URL"
                 className="flex-1 rounded-md border border-slate-300 px-2 py-1.5 text-xs"
+              />
+              <input
+                value={creditDraft}
+                onChange={(e) => setCreditDrafts((d) => ({ ...d, [article.id]: e.target.value }))}
+                placeholder="Credit (if CC-BY)"
+                className="w-32 shrink-0 rounded-md border border-slate-300 px-2 py-1.5 text-xs"
               />
               <button
                 type="button"
-                onClick={() => mutation.mutate({ id: article.id, url: draft })}
+                onClick={() => mutation.mutate({ id: article.id, url: urlDraft, credit: creditDraft })}
                 disabled={mutation.isPending}
                 className="shrink-0 px-3 py-1.5 rounded-md bg-slate-900 text-white text-xs font-medium disabled:opacity-50"
               >

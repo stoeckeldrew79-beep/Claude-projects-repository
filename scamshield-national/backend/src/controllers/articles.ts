@@ -9,6 +9,7 @@ const UPDATABLE_ARTICLE_FIELDS = [
   'body',
   'author',
   'cover_image',
+  'cover_image_credit',
   'tags',
   'scam_id',
   'published',
@@ -64,17 +65,18 @@ export const getBySlug = asyncHandler<AuthedRequest>(async (req, res) => {
 });
 
 export const create = asyncHandler<AuthedRequest>(async (req, res) => {
-  const { title, slug, body, author, cover_image, tags, scam_id, published } = req.body;
+  const { title, slug, body, author, cover_image, cover_image_credit, tags, scam_id, published } = req.body;
   const isPublished = published ?? false;
   const { rows } = await pool.query(
-    `INSERT INTO articles (title, slug, body, author, cover_image, tags, scam_id, published, published_at)
-     VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING *`,
+    `INSERT INTO articles (title, slug, body, author, cover_image, cover_image_credit, tags, scam_id, published, published_at)
+     VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING *`,
     [
       title,
       slug,
       body,
       author ?? null,
       cover_image ?? null,
+      cover_image_credit ?? null,
       tags ?? [],
       scam_id ?? null,
       isPublished,
