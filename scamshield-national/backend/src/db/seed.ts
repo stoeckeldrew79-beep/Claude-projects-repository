@@ -2997,6 +2997,42 @@ const SEED_SCAMS: SeedScam[] = [
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
   },
+  {
+    name: 'Fake Viatical/Life Settlement Investment Scam',
+    slug: 'fake-life-settlement-viatical-investment-scam',
+    description:
+      'Investors are offered fractional shares in life insurance policies purchased from terminally ill or elderly policyholders — a real, legal financial product called a viatical or life settlement — promised a payout when the insured person dies, but the scheme is often fraudulent, with fabricated policies, falsified life expectancy estimates, or the same policy sold to multiple investors. These investments are illiquid and hard to value even when legitimate; verifying the specific policy and life expectancy estimate independently, not just through the seller, is essential.',
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ['SEC Office of Investor Education and Advocacy'],
+  },
+  {
+    name: 'Fake First Responder Memorial Fund Scam',
+    slug: 'fake-first-responder-memorial-fund-scam',
+    description:
+      'After a police officer or firefighter is killed in the line of duty, a scammer sets up a fake memorial fund soliciting donations for the family, using real news coverage of the tragedy to appear legitimate, while the actual family may never see the money. Donating only through funds explicitly confirmed by the fallen officer\'s own department or an established organization like a state police benevolent association avoids this.',
+    categorySlug: 'charity-scams',
+    alertLevel: 'medium',
+    sources: ['Federal Trade Commission'],
+  },
+  {
+    name: 'Fake Long-Term Care Insurance Rate Increase Scam',
+    slug: 'fake-long-term-care-insurance-rate-scam',
+    description:
+      'A caller claims to represent a policyholder\'s long-term care insurer, stating a mandatory rate increase requires immediate payment or account verification to keep the policy active, when real rate changes are communicated through formal written notice from the actual insurer, not an unsolicited call demanding immediate payment. Confirming any claimed rate change directly with the insurer, using contact information from a real policy statement, is the safe check.',
+    categorySlug: 'healthcare-fraud',
+    alertLevel: 'medium',
+    sources: ['National Association of Insurance Commissioners'],
+  },
+  {
+    name: 'Fake Ancestry DNA Test Data-Broker Scam',
+    slug: 'fake-ancestry-dna-data-broker-scam',
+    description:
+      'A "free" DNA ancestry test kit offer collects a saliva sample along with extensive personal and family health information, but the company is not a legitimate genetic testing lab — it resells the collected DNA and personal data to data brokers or insurers rather than providing any real genealogy results. Using only well-established, name-brand DNA testing services with a clear, published privacy policy is the practical defense.',
+    categorySlug: 'identity-theft',
+    alertLevel: 'medium',
+    sources: ['FTC Consumer Advice'],
+  },
 ];
 
 async function seedCategoriesAndScams() {
