@@ -2808,6 +2808,87 @@ const SEED_SCAMS: SeedScam[] = [
     alertLevel: 'high',
     sources: ['U.S. Food and Drug Administration', 'FTC Consumer Advice'],
   },
+  {
+    name: 'Fake Medicaid Recertification Phishing Call',
+    slug: 'fake-medicaid-recertification-phishing-call',
+    description:
+      'A caller claims a Medicaid recipient\'s coverage will lapse unless they "recertify" immediately, asking for a Social Security number and bank account details over the phone to process the renewal. State Medicaid agencies handle recertification through mailed notices and their own official portal or in-person office, not an unsolicited call demanding immediate account information.',
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'medium',
+    sources: ['Centers for Medicare & Medicaid Services'],
+  },
+  {
+    name: 'Fake WIC Benefits Card Replacement Scam',
+    slug: 'fake-wic-card-replacement-scam',
+    description:
+      'A text or call claims a WIC (Women, Infants, and Children) benefits card has been compromised and offers to send a replacement, but first requests the current card number and PIN "to deactivate the old card" — information then used to drain the existing balance before any real replacement is issued. WIC card issues should be reported directly to the local WIC clinic or state agency, not through a link or number from an unsolicited message.',
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'medium',
+    sources: ['USDA Food and Nutrition Service'],
+  },
+  {
+    name: 'Fake Housing Voucher Waitlist Fee Scam',
+    slug: 'fake-housing-voucher-waitlist-fee-scam',
+    description:
+      'A caller or website claims to offer expedited placement on a Section 8 or public housing waitlist for an upfront processing fee, though real public housing authorities do not charge fees to join or move up a waitlist, and waitlist order cannot legitimately be purchased. Applicants can verify their actual waitlist status directly with their local public housing authority at no cost.',
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'medium',
+    sources: ['U.S. Department of Housing and Urban Development'],
+  },
+  {
+    name: 'Fake Military Emergency Leave Payment Scam',
+    slug: 'fake-military-emergency-leave-payment-scam',
+    description:
+      'A caller claims a family member serving in the military needs emergency funds sent immediately to secure emergency leave or transport home for a family crisis, exploiting the same urgency and distance that make military-deployment romance scams effective, but targeting an existing family relationship rather than a new one. The Department of Defense does not require service members or their families to pay for emergency leave approval or transport.',
+    categorySlug: 'family-emergency-scams',
+    alertLevel: 'high',
+    sources: ['DoD Cyber Crime Center'],
+  },
+  {
+    name: 'Fake Kidnapping Ransom Call',
+    slug: 'fake-kidnapping-ransom-call',
+    description:
+      'A caller claims to have kidnapped a family member and demands an immediate ransom payment, often keeping the victim on the phone continuously to prevent them from hanging up and verifying the family member\'s actual whereabouts — in reality, no kidnapping has occurred, and the supposed victim is simply unreachable at that moment for an unrelated reason. If safely possible, contacting the named family member or law enforcement through a second phone while staying on the line is the recommended response.',
+    categorySlug: 'family-emergency-scams',
+    alertLevel: 'critical',
+    sources: ['FBI IC3'],
+  },
+  {
+    name: 'Fake Child\'s School Emergency Pickup Scam',
+    slug: 'fake-school-emergency-pickup-scam',
+    description:
+      'A caller impersonating school staff claims a parent\'s child has been injured or is in trouble and needs immediate payment, sometimes for a supposed medical bill or fine, before the parent can pick them up — a scenario designed to bypass the parent\'s instinct to first call the school directly. Schools resolve real emergencies by contacting a parent directly for pickup, not by demanding payment over the phone as a precondition.',
+    categorySlug: 'family-emergency-scams',
+    alertLevel: 'high',
+    sources: ['FTC Consumer Advice'],
+  },
+  {
+    name: 'Fake Boil-Water Notice Sales Scam',
+    slug: 'fake-water-utility-boil-water-notice-scam',
+    description:
+      'A call or text falsely claims a boil-water advisory is in effect and offers to sell a water filtration or testing service "required" during the advisory, or asks for payment to confirm the address is unaffected. Real boil-water advisories are issued and communicated by the local water utility and public health department directly, without any sales pitch attached.',
+    categorySlug: 'utility-scams',
+    alertLevel: 'low',
+    sources: ['FTC Consumer Advice'],
+  },
+  {
+    name: 'Fake Smart Meter Installation Fee Scam',
+    slug: 'fake-smart-meter-installation-fee-scam',
+    description:
+      'A caller or door-to-door visitor claims a mandatory smart meter upgrade requires an installation fee paid directly to them, when utilities that roll out smart meters typically do so at no direct cost to the customer, billing any equipment cost through the regular account rather than collecting cash or card payment on the spot. Scheduling and cost of any real meter upgrade can be confirmed by calling the utility\'s official customer service line.',
+    categorySlug: 'utility-scams',
+    alertLevel: 'medium',
+    sources: ['FTC Consumer Advice'],
+  },
+  {
+    name: 'Fake Utility Rebate Program Phishing Email',
+    slug: 'fake-utility-rebate-program-phishing-email',
+    description:
+      'An email claims the recipient qualifies for a utility company rebate on energy-efficient appliances or a bill credit, linking to a fake form that harvests bank account details to "deposit" the rebate. Real utility rebate programs are applied through the utility\'s own verified website or as a statement credit, never requiring bank login information submitted through an emailed link.',
+    categorySlug: 'utility-scams',
+    alertLevel: 'low',
+    sources: ['FTC Consumer Advice'],
+  },
 ];
 
 async function seedCategoriesAndScams() {
