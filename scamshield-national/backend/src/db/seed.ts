@@ -417,6 +417,7 @@ const SEED_CATEGORIES: SeedCategory[] = [
   { name: 'Tax Scams', slug: 'tax-scams', description: 'Fake IRS or tax-authority communications and fraudulent tax-preparation schemes.' },
   { name: 'Utility Scams', slug: 'utility-scams', description: 'Fake electric, gas, water, or internet provider threats demanding immediate payment to avoid disconnection.' },
   { name: 'Public Benefits Fraud', slug: 'public-benefits-fraud', description: 'Skimming, phishing, and impersonation schemes targeting SNAP/EBT, unemployment, Social Security, and other public benefit accounts.' },
+  { name: 'Family Emergency Scams', slug: 'family-emergency-scams', description: 'Urgent, fabricated crises used to pressure a family member into sending money immediately, without time to verify the story.' },
 ];
 
 interface SeedScam {
@@ -2734,6 +2735,78 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'online-shopping-scams',
     alertLevel: 'low',
     sources: ['FTC Consumer Advice'],
+  },
+  {
+    name: 'Classic Grandparent Bail-Money Scam',
+    slug: 'classic-grandparent-bail-money-scam',
+    description:
+      'A caller claims to be a grandchild in trouble — arrested, in a car accident, or stranded in a foreign country — and begs the grandparent not to tell their parents, creating both urgency and secrecy that discourage the grandparent from calling another family member to verify the story before sending money, typically by wire transfer or gift card. Hanging up and calling the grandchild directly at their known number, or calling another family member to check, breaks the scam\'s entire structure.',
+    categorySlug: 'family-emergency-scams',
+    alertLevel: 'high',
+    sources: ['FTC Consumer Advice'],
+  },
+  {
+    name: 'Fake Bail Bondsman Follow-Up Call',
+    slug: 'fake-bail-bondsman-followup-call',
+    description:
+      'After an initial family-emergency call, a second scammer poses as a bail bondsman or court clerk to "confirm" the arrest and payment details, adding a layer of apparent independent verification that makes the original story feel more credible. A real bail amount and process can be verified directly with the actual courthouse or jail in the jurisdiction named, using publicly listed contact information, not a number provided during the call.',
+    categorySlug: 'family-emergency-scams',
+    alertLevel: 'medium',
+    sources: ['FTC Consumer Advice'],
+  },
+  {
+    name: 'Fake Hospital Emergency Payment Call',
+    slug: 'fake-hospital-emergency-payment-call',
+    description:
+      'A caller claims a family member has been in a serious accident and is receiving emergency treatment, but insurance won\'t cover it without an immediate payment or deposit, pressuring the recipient to send money before they have any chance to call the hospital or the family member directly. Legitimate hospitals do not require a family member to prepay for ongoing emergency treatment over the phone.',
+    categorySlug: 'family-emergency-scams',
+    alertLevel: 'high',
+    sources: ['FTC Consumer Advice'],
+  },
+  {
+    name: 'Stranded Traveler Family-Member Scam',
+    slug: 'stranded-traveler-family-member-scam',
+    description:
+      'A message, sometimes from a compromised or spoofed family member\'s own account, claims they are stranded while traveling — lost wallet, missed flight, detained at a border — and urgently need money wired or sent through a payment app to resolve the situation. Contacting the family member through a separate, independently verified channel, rather than replying within the same possibly-compromised conversation, is the necessary check.',
+    categorySlug: 'family-emergency-scams',
+    alertLevel: 'medium',
+    sources: ['FTC Consumer Advice'],
+  },
+  {
+    name: 'Fake Private Student Loan Refinance Fee Scam',
+    slug: 'fake-private-student-loan-refinance-fee-scam',
+    description:
+      'A company advertises refinancing private student loans at an unusually low guaranteed rate, collecting an upfront "application" or "lock-in" fee, but never actually completes a refinance. Real lenders evaluate rate offers based on credit and income before charging any fee, and legitimate refinancing fees, where they exist, come out of the new loan itself.',
+    categorySlug: 'debt-relief-scams',
+    alertLevel: 'medium',
+    sources: ['Consumer Financial Protection Bureau'],
+  },
+  {
+    name: 'Fake Private Equity Access Scam for Retail Investors',
+    slug: 'fake-private-equity-access-scam',
+    description:
+      'A pitch offers ordinary retail investors access to an exclusive private equity or pre-IPO investment normally reserved for institutional or accredited investors, using the appeal of insider access to justify an unusually large minimum investment — the fund and its claimed track record are fabricated, and the money is never actually invested anywhere. Genuine private equity access for retail investors is heavily regulated and rare; checking SEC filings for any named fund is a necessary step before investing.',
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ['SEC Office of Investor Education and Advocacy'],
+  },
+  {
+    name: 'Fake Veteran Service-Dog Training Charity Scam',
+    slug: 'fake-veteran-service-dog-charity-scam',
+    description:
+      'A charity claims to train and provide service dogs for veterans with PTSD or physical disabilities at no cost, soliciting significant donations, but delivers few or no actual dogs to veterans — a pattern regulators have flagged in more than one real enforcement case against charities using this specific appeal. Checking a charity\'s actual program spending ratio through Charity Navigator or a state charity registration search before donating catches this.',
+    categorySlug: 'charity-scams',
+    alertLevel: 'medium',
+    sources: ['Federal Trade Commission'],
+  },
+  {
+    name: 'Fake GLP-1 Weight-Loss Drug Counterfeit Scam',
+    slug: 'fake-glp1-weight-loss-drug-scam',
+    description:
+      'Websites and social media ads offer popular prescription weight-loss injectable medications without a prescription, at steep discounts, shipping counterfeit or improperly compounded products that may contain the wrong dose or no active ingredient at all — a pattern that surged alongside genuine shortages and high demand for these drugs. These medications should only be obtained through a licensed pharmacy with a valid prescription, never a site offering them without one.',
+    categorySlug: 'healthcare-fraud',
+    alertLevel: 'high',
+    sources: ['U.S. Food and Drug Administration', 'FTC Consumer Advice'],
   },
 ];
 
