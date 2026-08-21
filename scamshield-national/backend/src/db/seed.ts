@@ -3105,6 +3105,33 @@ const SEED_SCAMS: SeedScam[] = [
     alertLevel: 'low',
     sources: ['FTC Consumer Advice'],
   },
+  {
+    name: 'Fake Hearing Aid "Free Trial" Scam',
+    slug: 'fake-hearing-aid-free-trial-scam',
+    description:
+      'An ad offers a free trial of advanced hearing aids for seniors, but "activating" the trial requires a shipping and handling fee that turns out to enroll the buyer in an expensive recurring purchase plan for low-quality, non-medical-grade sound amplifiers rather than real hearing aids. A real audiologist evaluation and a known, established hearing aid provider are the safe path for anyone with genuine hearing loss concerns.',
+    categorySlug: 'healthcare-fraud',
+    alertLevel: 'low',
+    sources: ['FTC Consumer Advice'],
+  },
+  {
+    name: 'Fake Art Fractional-Ownership Investment Scam',
+    slug: 'fake-art-fractional-ownership-scam',
+    description:
+      'A platform offers fractional ownership shares in a claimed valuable painting or sculpture, promising returns as the artwork appreciates, but the artwork\'s authenticity, valuation, or even existence is never independently verified, and investor funds are simply pocketed rather than used to acquire any real art. Independently verifying the specific artwork\'s provenance and appraisal through a recognized, unaffiliated expert is necessary before investing in any fractional art scheme.',
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ['SEC Office of Investor Education and Advocacy'],
+  },
+  {
+    name: 'Fake Influencer Brand Ambassador Fee Scam',
+    slug: 'fake-influencer-brand-ambassador-fee-scam',
+    description:
+      'A message offers a paid "brand ambassador" opportunity promoting well-known products on social media, requiring the applicant to first purchase a starter kit of products at their own expense to "qualify," with promised reimbursement or commission that never materializes. Real brand ambassador programs are run directly through the company\'s own verified marketing or partnerships page and do not require upfront personal purchases.',
+    categorySlug: 'employment-scams',
+    alertLevel: 'medium',
+    sources: ['FTC Consumer Advice'],
+  },
 ];
 
 async function seedCategoriesAndScams() {
