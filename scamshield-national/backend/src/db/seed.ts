@@ -2103,6 +2103,294 @@ const SEED_SCAMS: SeedScam[] = [
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
   },
+  {
+    name: 'Fake Vaccine Card Sale Scam',
+    slug: 'fake-vaccine-card-sale-scam',
+    description:
+      'Sellers on social media and online marketplaces offer blank or falsified vaccination cards for purchase, letting buyers falsely claim vaccination status without ever receiving a real vaccine. Beyond the fraud itself, buyers can face criminal charges for using a forged government-associated document, and gain none of the actual immune protection the card claims to represent.',
+    categorySlug: 'healthcare-fraud',
+    alertLevel: 'medium',
+    sources: ['FBI IC3'],
+  },
+  {
+    name: 'Fake Durable Medical Equipment Billing Scam',
+    slug: 'fake-durable-medical-equipment-billing-scam',
+    description:
+      'A caller claiming to represent Medicare or a medical supply company offers a "free" back brace, knee brace, or other durable medical equipment, then bills Medicare thousands of dollars for equipment that is never delivered, medically unnecessary, or far more expensive than what was actually shipped. Beneficiaries should review their Medicare Summary Notice for equipment they never requested or received.',
+    categorySlug: 'healthcare-fraud',
+    alertLevel: 'high',
+    sources: ['HHS Office of Inspector General', 'Centers for Medicare & Medicaid Services'],
+  },
+  {
+    name: 'Fake Hospital Billing Overdue Debt Call',
+    slug: 'fake-hospital-billing-overdue-debt-call',
+    description:
+      'A caller claims to be from a hospital\'s billing department, states an old medical bill is overdue and about to go to collections, and demands immediate payment by gift card or wire transfer — using real-sounding hospital names and enough personal detail, sometimes from a genuine prior visit, to seem credible. Real hospital billing offices send written statements and do not demand payment by gift card.',
+    categorySlug: 'healthcare-fraud',
+    alertLevel: 'medium',
+    sources: ['FTC Consumer Advice'],
+  },
+  {
+    name: 'Fake At-Home Health Testing Kit Upsell Scam',
+    slug: 'fake-at-home-testing-kit-upsell-scam',
+    description:
+      'An ad offers a free at-home genetic, cardiac, or diabetic testing kit shipped directly to Medicare beneficiaries, but signing up for the "free" kit also enrolls the recipient in recurring monthly billing to Medicare for unnecessary follow-up testing or supplies never authorized by a treating doctor. Beneficiaries should be cautious of any health testing offer that arrives unsolicited rather than through their own physician.',
+    categorySlug: 'healthcare-fraud',
+    alertLevel: 'medium',
+    sources: ['HHS Office of Inspector General'],
+  },
+  {
+    name: 'Fake State Tax Refund Verification Text',
+    slug: 'fake-state-tax-refund-verification-text',
+    description:
+      'A text message claims your state tax refund is on hold pending "identity verification" and links to a fake state revenue department login page that harvests your Social Security number and banking details. State tax agencies communicate refund holds through mailed letters, not unsolicited text links.',
+    categorySlug: 'tax-scams',
+    alertLevel: 'medium',
+    sources: ['FTC Consumer Advice'],
+  },
+  {
+    name: 'Fake Tax Preparer Refund Skimming Scheme',
+    slug: 'fake-tax-preparer-refund-skimming-scheme',
+    description:
+      'A paid tax preparer files a client\'s return accurately but quietly changes the direct deposit information to route all or part of the refund into an account the preparer controls, then tells the client the refund is delayed or smaller than expected. Checking your refund status directly on the IRS "Where\'s My Refund" tool, independent of what your preparer tells you, can catch this early.',
+    categorySlug: 'tax-scams',
+    alertLevel: 'high',
+    sources: ['Internal Revenue Service', 'FTC Consumer Advice'],
+  },
+  {
+    name: 'Fake IRS "Offer in Compromise" Fee Scam',
+    slug: 'fake-irs-offer-in-compromise-fee-scam',
+    description:
+      'A company advertises the ability to "settle your tax debt for pennies on the dollar" through the IRS\'s real Offer in Compromise program, charging a large upfront fee for an application most applicants don\'t actually qualify for, then doing little or no real work on the case. The IRS itself publishes free eligibility tools and accepts applications directly without requiring a paid intermediary.',
+    categorySlug: 'tax-scams',
+    alertLevel: 'medium',
+    sources: ['Internal Revenue Service', 'FTC Consumer Advice'],
+  },
+  {
+    name: 'Fake W-2 Phishing Email to Employers',
+    slug: 'fake-w2-phishing-email-to-employer',
+    description:
+      'An email impersonating a company executive asks a payroll or HR employee to send a PDF of all employee W-2 forms for "an urgent audit," aiming to harvest an entire workforce\'s Social Security numbers and wages in one message rather than targeting individuals one at a time. Payroll staff should verify any bulk request for tax documents through a separate communication channel before sending.',
+    categorySlug: 'tax-scams',
+    alertLevel: 'high',
+    sources: ['Internal Revenue Service', 'FBI IC3'],
+  },
+  {
+    name: 'Fake Passport Renewal "Expedite Fee" Scam',
+    slug: 'fake-passport-renewal-expedite-fee-scam',
+    description:
+      'A website designed to closely resemble the official State Department passport portal charges a large "expedite" fee for faster processing, when the real expedited service fee is paid directly to the government at a fraction of the cost, if it is needed at all. Passport applications should only be filed through travel.state.gov or an authorized in-person acceptance facility.',
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['U.S. Department of State'],
+  },
+  {
+    name: 'Fake FTC / State Attorney General Refund Notice Call',
+    slug: 'fake-ftc-refund-notice-call',
+    description:
+      'A caller claims to represent the FTC or a state attorney general\'s office, stating the recipient is owed a refund from a real settlement but must first pay a processing fee or provide bank details to receive it. The FTC never asks for payment or account information to distribute a legitimate settlement refund — real refund checks or prepaid cards simply arrive without any advance fee.',
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Federal Trade Commission'],
+  },
+  {
+    name: 'Fake Selective Service Registration Fine Call',
+    slug: 'fake-selective-service-fine-call',
+    description:
+      'A caller claims a young man failed to register with Selective Service as legally required and threatens an immediate fine or arrest unless paid over the phone, playing on the fact that many recipients are genuinely unsure whether they registered. Selective Service registration status can be verified directly and for free at sss.gov, and the agency does not collect fines by phone.',
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Selective Service System'],
+  },
+  {
+    name: 'Fake Law Firm Wire Instruction Email',
+    slug: 'fake-law-firm-wire-instruction-email',
+    description:
+      'During a real estate closing or business transaction, a scammer who has compromised or spoofed a law firm\'s email sends updated wire instructions redirecting a client\'s payment to an account the scammer controls, timed to arrive right before a genuine deadline to discourage careful verification. Any changed wire instructions, especially those arriving close to a deadline, should be confirmed by phone using a number from a prior, verified communication.',
+    categorySlug: 'business-email-compromise',
+    alertLevel: 'high',
+    sources: ['FBI IC3'],
+  },
+  {
+    name: 'Fake Payroll Provider Login Credential Phishing',
+    slug: 'fake-payroll-provider-credential-phishing',
+    description:
+      'An email impersonating a company\'s payroll software provider asks an employee to log in to "verify" their direct deposit details, leading to a fake login page that harvests the employee\'s actual payroll portal credentials — which the scammer then uses to redirect the employee\'s own paycheck. Employees should navigate to payroll systems directly by typing the URL rather than clicking email links.',
+    categorySlug: 'business-email-compromise',
+    alertLevel: 'high',
+    sources: ['FBI IC3'],
+  },
+  {
+    name: 'Fake Domain Renewal Invoice to Business Owner',
+    slug: 'fake-domain-renewal-invoice-scam',
+    description:
+      'An official-looking invoice claims a company\'s website domain or business listing is about to expire and must be renewed immediately through the sender, at a price far above the real registrar\'s rate — and paying it may not even renew the actual domain, leaving the real registration to lapse. Domain renewals should only be handled directly through the registrar the domain was originally purchased from.',
+    categorySlug: 'business-email-compromise',
+    alertLevel: 'low',
+    sources: ['FTC Consumer Advice'],
+  },
+  {
+    name: 'Fake "Delivery Address Confirmation" Smishing Text',
+    slug: 'fake-delivery-address-confirmation-text',
+    description:
+      'A text claims a package cannot be delivered because of an incomplete address and asks the recipient to click a link to "confirm" their address, leading to a page that harvests personal information and a small "redelivery fee" payment used to test a stolen card number. Carriers do not request address confirmation through unsolicited text links.',
+    categorySlug: 'package-delivery-scams',
+    alertLevel: 'medium',
+    sources: ['FTC Consumer Advice'],
+  },
+  {
+    name: 'Fake Package Held at Customs Warehouse Scam',
+    slug: 'fake-package-held-customs-warehouse-scam',
+    description:
+      'A text or email claims an international package is being held at a customs warehouse pending a duty or storage fee payment, with a countdown timer designed to create urgency, though no real package exists — the message is sent broadly regardless of whether the recipient is expecting any shipment at all. Legitimate customs holds are handled by the shipping carrier through their official app or website, never an unsolicited link.',
+    categorySlug: 'package-delivery-scams',
+    alertLevel: 'medium',
+    sources: ['FTC Consumer Advice'],
+  },
+  {
+    name: 'Porch Piracy Tracking-Number Phishing Follow-Up',
+    slug: 'porch-piracy-tracking-phishing-followup',
+    description:
+      'After a real package is stolen from a porch, the victim who posts about it publicly, or searches for the tracking number online, is targeted by a scammer offering to help "track" or "recover" the package through a link that actually harvests login credentials or payment information. Real carrier claims are filed directly through the carrier\'s own claims process, not a link offered by a stranger.',
+    categorySlug: 'package-delivery-scams',
+    alertLevel: 'low',
+    sources: ['FTC Consumer Advice'],
+  },
+  {
+    name: 'Fake Reshipping / Package Forwarding Job Scam',
+    slug: 'fake-reshipping-job-scam',
+    description:
+      'A "work from home" job offer asks the new hire to receive packages at their home and reship them to another address, often overseas, in exchange for a fee — the packages typically contain merchandise purchased with stolen credit cards, and the reshipper can face real legal liability for handling stolen goods, even unknowingly. A job that consists entirely of receiving and reshipping other people\'s packages is a strong sign of a money-mule or fencing operation.',
+    categorySlug: 'employment-scams',
+    alertLevel: 'high',
+    sources: ['FBI IC3'],
+  },
+  {
+    name: 'Fake Employer Equipment Reimbursement Check Scam',
+    slug: 'fake-employer-equipment-reimbursement-check-scam',
+    description:
+      'A new remote-work hire is sent a check to cover the cost of home-office equipment, told to deposit it and use the funds to purchase equipment from a specific vendor — the check later bounces after the funds have already been spent or wired, leaving the new hire liable for the full amount. Legitimate employers typically purchase or ship equipment directly rather than sending a check for the employee to spend on their behalf.',
+    categorySlug: 'employment-scams',
+    alertLevel: 'high',
+    sources: ['FTC Consumer Advice'],
+  },
+  {
+    name: 'Fake LinkedIn Recruiter Direct-Message Job Scam',
+    slug: 'fake-linkedin-recruiter-job-scam',
+    description:
+      'A scammer creates a convincing recruiter profile on a professional networking site and messages job seekers directly with an unusually easy, high-paying remote offer, moving the conversation to a messaging app quickly and eventually asking for an upfront fee for training, equipment, or background-check processing. Verifying a recruiter\'s identity through the company\'s official careers page or a mutual connection before sharing any personal information is the key defense.',
+    categorySlug: 'employment-scams',
+    alertLevel: 'medium',
+    sources: ['FTC Consumer Advice'],
+  },
+  {
+    name: 'Fake Disaster-Relief Crowdfunding Clone',
+    slug: 'fake-disaster-relief-crowdfunding-clone',
+    description:
+      'Within hours of a major disaster making news, a scammer creates a crowdfunding page using real photos of the disaster and a sympathetic but fabricated personal story, soliciting donations that go directly to the scammer rather than any victim. Donors should look for verified, platform-confirmed fundraisers or give directly to established relief organizations instead of an unverified individual page.',
+    categorySlug: 'charity-scams',
+    alertLevel: 'medium',
+    sources: ['FTC Consumer Advice'],
+  },
+  {
+    name: 'Fake Children\'s Hospital Donation Call',
+    slug: 'fake-childrens-hospital-donation-call',
+    description:
+      'A caller claims to represent a well-known children\'s hospital or pediatric cancer charity and asks for an immediate donation over the phone, sometimes using a name deliberately similar to a real, respected institution. Donors can verify a charity\'s legitimacy and how it spends its funds through independent sites like Charity Navigator or the BBB Wise Giving Alliance before donating.',
+    categorySlug: 'charity-scams',
+    alertLevel: 'medium',
+    sources: ['Federal Trade Commission'],
+  },
+  {
+    name: 'Fake Charity Text-to-Donate Scam',
+    slug: 'fake-charity-text-to-donate-scam',
+    description:
+      'A text message asks the recipient to donate to a charitable cause by texting a keyword to a short code, but the number and keyword are not affiliated with any real registered charity — donations are instead billed to the recipient\'s phone account and pocketed directly. Legitimate text-to-donate campaigns are set up through a charity\'s own verified short code, listed on the charity\'s official website.',
+    categorySlug: 'charity-scams',
+    alertLevel: 'low',
+    sources: ['FTC Consumer Advice'],
+  },
+  {
+    name: 'Fake State Lottery Commission Winner Letter',
+    slug: 'fake-state-lottery-commission-letter',
+    description:
+      'A physical letter designed to look like official state lottery commission stationery informs the recipient they\'ve won a prize in a lottery they never entered, requiring a "release fee," "tax prepayment," or "processing fee" sent before the prize can be delivered. Real lottery winnings are never released only after the winner sends money first — taxes on winnings, where owed, are withheld from the prize itself.',
+    categorySlug: 'lottery-sweepstakes-scams',
+    alertLevel: 'medium',
+    sources: ['FTC Consumer Advice'],
+  },
+  {
+    name: 'Fake Social Media Giveaway Winner DM Scam',
+    slug: 'fake-social-media-giveaway-winner-dm-scam',
+    description:
+      'A direct message claims the recipient has won a giveaway hosted by a real, recognizable brand or influencer, asking for a small "shipping fee" or personal information to claim a prize such as free electronics or gift cards — the account is typically an impersonation, not the brand\'s actual verified page. Checking whether the brand\'s verified account has announced any such giveaway is a fast way to confirm it is fake.',
+    categorySlug: 'lottery-sweepstakes-scams',
+    alertLevel: 'low',
+    sources: ['FTC Consumer Advice'],
+  },
+  {
+    name: 'Fake Sweepstakes Certified-Check Overpayment Scam',
+    slug: 'fake-sweepstakes-certified-check-overpayment-scam',
+    description:
+      'A sweepstakes "winner" notification arrives with a real-looking certified check for far more than the promised prize amount, along with instructions to deposit it and wire back the difference to cover "taxes" or "fees" — the check later bounces after the wired funds are already gone, leaving the victim liable for the full amount deposited. No legitimate sweepstakes requires the winner to send money back after receiving a prize check.',
+    categorySlug: 'lottery-sweepstakes-scams',
+    alertLevel: 'medium',
+    sources: ['FTC Consumer Advice'],
+  },
+  {
+    name: 'Dating App Blackmail Threatening to "Out" a Victim',
+    slug: 'dating-app-outing-blackmail-scam',
+    description:
+      'A scammer connects with a victim through a dating app, quickly moves to explicit photos or video, then threatens to send the material to the victim\'s family, employer, or public contacts unless paid — deliberately targeting victims, often closeted gay or bisexual men, who may feel they have less recourse to involve police for fear of being outed. Law enforcement agencies have specifically flagged this pattern; reporting to the platform and to law enforcement, without paying, remains the recommended response regardless of any fear about exposure.',
+    categorySlug: 'sextortion',
+    alertLevel: 'critical',
+    sources: ['FBI IC3'],
+  },
+  {
+    name: 'Sextortion Escalation with a Physical-Address Threat',
+    slug: 'sextortion-physical-address-threat-escalation',
+    description:
+      'After an initial sextortion demand is paid or refused, some scammers escalate by revealing they have found the victim\'s home address or workplace — usually through public records or social media, not any special access — using the new threat of in-person exposure to extract further payments. Escalating threats are a sign the scammer is testing what generates a reaction, not evidence of real physical danger tied to non-payment; continuing to refuse payment and reporting to law enforcement remains the guidance even after this kind of escalation.',
+    categorySlug: 'sextortion',
+    alertLevel: 'high',
+    sources: ['FBI IC3'],
+  },
+  {
+    name: 'Group Chat Screenshot Extortion Scam',
+    slug: 'group-chat-screenshot-extortion-scam',
+    description:
+      'A scammer joins a group chat or private server on a messaging or gaming platform, waits for a member to share a compromising image within what feels like a trusted small group, then screenshots it and uses it for extortion outside the group — exploiting the false sense of privacy a small, seemingly friendly group chat creates. Treating any image shared in a group chat as potentially permanent and screenshot-able, regardless of how trusted the group feels, is the practical defense.',
+    categorySlug: 'sextortion',
+    alertLevel: 'high',
+    sources: ['FBI IC3'],
+  },
+  {
+    name: 'Fake Rent-to-Own Scam on a Vacant Foreclosed Home',
+    slug: 'fake-rent-to-own-vacant-foreclosure-scam',
+    description:
+      'A scammer identifies a vacant home in foreclosure, often found through public foreclosure filings, then poses as the owner or a property manager and rents or offers a "rent-to-own" agreement on the home to an unsuspecting tenant, collecting a security deposit and first month\'s rent for a property the scammer has no legal right to lease. Prospective tenants can verify actual ownership through their county property records office before signing any lease.',
+    categorySlug: 'mortgage-foreclosure-scams',
+    alertLevel: 'medium',
+    sources: ['Consumer Financial Protection Bureau'],
+  },
+  {
+    name: 'Reverse Mortgage Proceeds Redirection Scam',
+    slug: 'reverse-mortgage-proceeds-redirection-scam',
+    description:
+      'After helping an elderly homeowner complete a legitimate reverse mortgage application, a scammer posing as a financial advisor or family helper convinces the homeowner to direct some or all of the loan proceeds into an "investment" the scammer controls, draining the equity the reverse mortgage was meant to provide for the homeowner\'s own living expenses. Reverse mortgage proceeds should go directly to the homeowner\'s own bank account, never a third party\'s.',
+    categorySlug: 'mortgage-foreclosure-scams',
+    alertLevel: 'high',
+    sources: ['Consumer Financial Protection Bureau', 'U.S. Department of Housing and Urban Development'],
+  },
+  {
+    name: 'Fake "We Buy Houses for Cash" Lowball Foreclosure Scam',
+    slug: 'fake-cash-home-buyer-foreclosure-lowball-scam',
+    description:
+      'A company aggressively targets homeowners in early-stage foreclosure with an offer to buy the home quickly for cash, pressuring a fast signature before the homeowner has time to get an independent appraisal or explore other options — the offer price is often a small fraction of the home\'s actual equity, and legitimate alternatives like a short sale or loan modification are never mentioned. Homeowners facing foreclosure can get free counseling from a HUD-approved housing counselor before accepting any cash offer.',
+    categorySlug: 'mortgage-foreclosure-scams',
+    alertLevel: 'medium',
+    sources: ['Consumer Financial Protection Bureau', 'U.S. Department of Housing and Urban Development'],
+  },
 ];
 
 async function seedCategoriesAndScams() {
