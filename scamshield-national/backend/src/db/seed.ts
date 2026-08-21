@@ -416,6 +416,7 @@ const SEED_CATEGORIES: SeedCategory[] = [
   { name: 'Mortgage & Foreclosure Scams', slug: 'mortgage-foreclosure-scams', description: 'Fraudulent loan modification, foreclosure rescue, or title schemes targeting homeowners.' },
   { name: 'Tax Scams', slug: 'tax-scams', description: 'Fake IRS or tax-authority communications and fraudulent tax-preparation schemes.' },
   { name: 'Utility Scams', slug: 'utility-scams', description: 'Fake electric, gas, water, or internet provider threats demanding immediate payment to avoid disconnection.' },
+  { name: 'Public Benefits Fraud', slug: 'public-benefits-fraud', description: 'Skimming, phishing, and impersonation schemes targeting SNAP/EBT, unemployment, Social Security, and other public benefit accounts.' },
 ];
 
 interface SeedScam {
@@ -2660,6 +2661,78 @@ const SEED_SCAMS: SeedScam[] = [
       'An ad or message offers guaranteed placement in a well-paying union trade apprenticeship program in exchange for an upfront "registration" or "materials" fee, though real union apprenticeships are typically free to apply for and are administered directly through the union or a joint apprenticeship committee, not a private recruiter charging a fee. Verifying an apprenticeship opportunity directly with the named union local avoids the fee entirely.',
     categorySlug: 'employment-scams',
     alertLevel: 'medium',
+    sources: ['FTC Consumer Advice'],
+  },
+  {
+    name: 'EBT Card Skimming at Point-of-Sale Terminals',
+    slug: 'ebt-card-skimming-scam',
+    description:
+      'Criminals install hidden skimming devices on point-of-sale terminals or ATMs, or use hidden cameras to capture PIN entry, to clone SNAP/EBT card numbers and drain benefits balances — often striking right after benefits are deposited each month. USDA\'s Food and Nutrition Service has expanded state EBT theft replacement rules in response to a nationwide surge in skimming; checking terminals for loose or add-on card readers and covering the PIN pad are practical defenses.',
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'high',
+    sources: ['USDA Food and Nutrition Service'],
+  },
+  {
+    name: 'Fake SNAP Benefits Suspension Text Scam',
+    slug: 'fake-snap-benefits-suspension-text-scam',
+    description:
+      'A text claims SNAP or other public benefits have been suspended due to a "verification issue" and links to a fake state benefits portal login page that harvests the recipient\'s Social Security number and EBT card PIN. State benefits agencies communicate suspensions through official mail and the agency\'s own verified portal, not an unsolicited text link.',
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'medium',
+    sources: ['FTC Consumer Advice'],
+  },
+  {
+    name: 'Unemployment Benefits Filed in a Victim\'s Name Using Stolen Data',
+    slug: 'unemployment-benefits-identity-theft-filing',
+    description:
+      'Using personal information obtained from a data breach, criminals file a fraudulent unemployment insurance claim in a victim\'s name at a state workforce agency, directing the payments to a bank account or prepaid card they control — the victim typically discovers it only when they receive a 1099-G tax form for benefits they never applied for or received. Reporting a suspicious 1099-G to the state unemployment agency and requesting a corrected form is the necessary follow-up.',
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'high',
+    sources: ['U.S. Department of Labor', 'FTC Consumer Advice'],
+  },
+  {
+    name: 'Fake Social Security Disability Advocate Fee Scam',
+    slug: 'fake-ssdi-advocate-fee-scam',
+    description:
+      'A company or individual offers to help file or expedite a Social Security Disability Insurance claim for an upfront fee paid before any work is done, though the Social Security Administration caps and regulates representative fees, which are normally paid only from approved back-benefits and only after a favorable decision. Any representative demanding payment before a claim is decided is charging outside SSA\'s fee rules.',
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'medium',
+    sources: ['Social Security Administration'],
+  },
+  {
+    name: 'Fake Chargeback Reversal Scam',
+    slug: 'fake-chargeback-reversal-scam',
+    description:
+      'After a cardholder successfully disputes a fraudulent charge, a scammer posing as their bank calls claiming the chargeback was reversed and additional verification is needed to avoid losing the disputed funds permanently, using the follow-up contact to extract the card number or online banking credentials under the guise of "confirming" the reversal. Chargeback status should be checked directly through your bank\'s app or a number from the back of your card, not a number provided by the caller.',
+    categorySlug: 'identity-theft',
+    alertLevel: 'medium',
+    sources: ['FTC Consumer Advice'],
+  },
+  {
+    name: 'Shared-Password Crackdown Phishing Email',
+    slug: 'shared-password-crackdown-phishing-email',
+    description:
+      'An email impersonating a streaming service claims new password-sharing detection has flagged the account and requires "re-verification" through a link, timed to coincide with real password-sharing crackdown announcements the actual companies made — the link leads to a fake login page harvesting account and payment credentials. Verifying any such notice by logging in directly through the app rather than an email link avoids the fake page.',
+    categorySlug: 'account-takeover',
+    alertLevel: 'medium',
+    sources: ['FTC Consumer Advice'],
+  },
+  {
+    name: 'Fake Dental Discount Plan Membership Scam',
+    slug: 'fake-dental-discount-plan-scam',
+    description:
+      'A membership plan is marketed as providing significant discounts at "thousands of dentists nationwide," collecting an annual fee, but the actual network of participating providers is tiny, outdated, or nonexistent in the buyer\'s area, leaving them with a plan that provides no real discount when they try to use it. Confirming specific, current in-network providers by calling the dentist\'s office directly, not just checking the plan\'s own directory, catches this before purchase.',
+    categorySlug: 'healthcare-fraud',
+    alertLevel: 'low',
+    sources: ['FTC Consumer Advice'],
+  },
+  {
+    name: 'Fake Subscription Box Free-Trial Scam',
+    slug: 'fake-subscription-box-free-trial-scam',
+    description:
+      'An ad offers a "free" trial box of beauty, supplement, or novelty products for only a small shipping fee, but the shipping payment enrolls the buyer in a recurring monthly subscription at a much higher price that is deliberately difficult to cancel, with charges continuing for months before the buyer notices. Reading the full terms before entering payment information for any "free plus shipping" offer, and checking bank statements regularly, catches this early.',
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'low',
     sources: ['FTC Consumer Advice'],
   },
 ];
