@@ -3033,6 +3033,42 @@ const SEED_SCAMS: SeedScam[] = [
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
   },
+  {
+    name: 'Fake Return Label Refund Scam',
+    slug: 'fake-return-label-refund-scam',
+    description:
+      'A text or email claims a recent online return wasn\'t received and offers a "confirmation refund" link to resolve it, but the link harvests payment card details rather than issuing any real refund. Retailers process return refunds automatically once a shipment is scanned, without needing a customer to click a confirmation link; checking a return\'s status directly through the retailer\'s own order history is the safe way to confirm.',
+    categorySlug: 'package-delivery-scams',
+    alertLevel: 'low',
+    sources: ['FTC Consumer Advice'],
+  },
+  {
+    name: 'Fake Cruise Ship Crew Job Fee Scam',
+    slug: 'fake-cruise-ship-crew-job-fee-scam',
+    description:
+      'An ad offers high-paying cruise ship crew positions requiring an upfront fee for "training certification," a uniform, or a placement guarantee before the applicant can start — real cruise lines and staffing agencies do not charge job seekers a fee to be considered or hired for a position. Applying only through a cruise line\'s own verified careers page avoids this.',
+    categorySlug: 'employment-scams',
+    alertLevel: 'medium',
+    sources: ['FTC Consumer Advice'],
+  },
+  {
+    name: 'Fake Extended Auto Warranty Robocall',
+    slug: 'fake-extended-auto-warranty-robocall',
+    description:
+      'A robocall claims your vehicle\'s warranty is about to expire and offers an extended vehicle service contract, often based on nothing more than the fact that most cars eventually age out of a factory warranty — the caller has no actual knowledge of your specific vehicle or its warranty status. This is one of the most complained-about robocall categories tracked by the FTC; hanging up and, if genuinely interested in coverage, contacting your dealer or a well-reviewed provider directly avoids the high-pressure pitch.',
+    categorySlug: 'insurance-fraud',
+    alertLevel: 'medium',
+    sources: ['Federal Trade Commission'],
+  },
+  {
+    name: 'Fake Professional Athlete Impersonation Romance Scam',
+    slug: 'fake-athlete-impersonation-romance-scam',
+    description:
+      'A scammer creates a profile using a real professional athlete\'s stolen photos and a fabricated "secret" or "backup" social media account, building a relationship with a fan who believes they\'ve connected with the real athlete privately, before requesting money for a supposed emergency or travel to meet in person. Real athletes\' verified accounts and public representatives can confirm whether a second "private" account claiming to be them is genuine — it almost never is.',
+    categorySlug: 'romance-scams',
+    alertLevel: 'medium',
+    sources: ['FTC Consumer Advice'],
+  },
 ];
 
 async function seedCategoriesAndScams() {
