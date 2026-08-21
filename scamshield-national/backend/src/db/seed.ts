@@ -2889,6 +2889,60 @@ const SEED_SCAMS: SeedScam[] = [
     alertLevel: 'low',
     sources: ['FTC Consumer Advice'],
   },
+  {
+    name: 'Fake Tax Preparer Inflated-Refund Promise Scam',
+    slug: 'fake-tax-preparer-inflated-refund-scam',
+    description:
+      'A preparer promises an unusually large refund by fabricating deductions, dependents, or business losses the client never had, signing the return in the client\'s name — the client later faces an IRS audit, penalties, and repayment of the inflated refund, while the preparer who profited from inflated fees is often difficult to locate again. Reviewing your own return line by line before signing, and never signing a blank or incomplete return, is the practical defense.',
+    categorySlug: 'tax-scams',
+    alertLevel: 'high',
+    sources: ['Internal Revenue Service'],
+  },
+  {
+    name: 'Fake "Do Not Call" Registry Renewal Scam',
+    slug: 'fake-do-not-call-registry-renewal-scam',
+    description:
+      'A call or email claims your number\'s National Do Not Call Registry listing is expiring and requires a fee to renew, though real Do Not Call Registry listings never expire and registering or checking your status is always free directly through donotcall.gov. Any renewal fee request for a government registry that\'s actually free and permanent is an immediate red flag.',
+    categorySlug: 'government-impersonation',
+    alertLevel: 'low',
+    sources: ['Federal Trade Commission'],
+  },
+  {
+    name: 'Fake Vendor Onboarding Form Credential Harvest',
+    slug: 'fake-vendor-onboarding-form-credential-harvest',
+    description:
+      'A scammer posing as a new or existing vendor sends an accounts payable department a "vendor onboarding" or "banking update" form to complete, which either harvests employee login credentials through a fake portal or directly changes the real vendor\'s payment banking details to an account the scammer controls. Verifying any new or changed vendor banking information by phone, using a number independently looked up rather than one provided in the email, prevents this.',
+    categorySlug: 'business-email-compromise',
+    alertLevel: 'high',
+    sources: ['FBI IC3'],
+  },
+  {
+    name: 'Fake Televised Dream Home Giveaway Entry Fee Scam',
+    slug: 'fake-dream-home-giveaway-entry-fee-scam',
+    description:
+      'An email or ad claims the recipient has been selected as a finalist in a televised home or car giveaway sweepstakes, requiring a small entry or processing fee to remain eligible. Legitimate sweepstakes of this kind do not require any payment at any stage, from entry through prize claim; checking the sweepstakes\' official rules directly on the network or brand\'s real website is the fastest way to confirm it is fake.',
+    categorySlug: 'lottery-sweepstakes-scams',
+    alertLevel: 'low',
+    sources: ['FTC Consumer Advice'],
+  },
+  {
+    name: 'Fake Timeshare Loan Forgiveness Scam',
+    slug: 'fake-timeshare-loan-forgiveness-scam',
+    description:
+      'A company contacts timeshare owners claiming to have arranged a special program to forgive the remaining loan balance on their timeshare purchase, requiring an upfront fee to "process" the forgiveness — no such lender-side forgiveness program exists, and the timeshare loan remains fully due regardless of any fee paid. Timeshare loan questions should go directly to the loan servicer named on the original financing documents.',
+    categorySlug: 'debt-relief-scams',
+    alertLevel: 'medium',
+    sources: ['Consumer Financial Protection Bureau'],
+  },
+  {
+    name: 'Sextortion via a Compromised Employer Email Account',
+    slug: 'sextortion-via-compromised-employer-email',
+    description:
+      'A scammer who has gained access to a victim\'s work email account discovers or fabricates compromising material and threatens to send it to the victim\'s entire company directory or supervisor unless paid, using workplace-wide distribution as added leverage beyond a typical personal-contacts threat. Reporting immediately to the employer\'s IT or security team, not just paying quietly, is the recommended response — a compromised work account is also a security incident the employer needs to know about regardless of the extortion content.',
+    categorySlug: 'sextortion',
+    alertLevel: 'critical',
+    sources: ['FBI IC3'],
+  },
 ];
 
 async function seedCategoriesAndScams() {
