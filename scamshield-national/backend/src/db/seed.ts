@@ -415,6 +415,7 @@ const SEED_CATEGORIES: SeedCategory[] = [
   { name: 'Debt Relief Scams', slug: 'debt-relief-scams', description: 'Fake debt consolidation, settlement, or credit-repair services that collect fees without delivering relief.' },
   { name: 'Mortgage & Foreclosure Scams', slug: 'mortgage-foreclosure-scams', description: 'Fraudulent loan modification, foreclosure rescue, or title schemes targeting homeowners.' },
   { name: 'Tax Scams', slug: 'tax-scams', description: 'Fake IRS or tax-authority communications and fraudulent tax-preparation schemes.' },
+  { name: 'Utility Scams', slug: 'utility-scams', description: 'Fake electric, gas, water, or internet provider threats demanding immediate payment to avoid disconnection.' },
 ];
 
 interface SeedScam {
@@ -2570,6 +2571,96 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'ai-deepfake-scams',
     alertLevel: 'high',
     sources: ['SEC Office of Investor Education and Advocacy'],
+  },
+  {
+    name: 'Fake Electric Company Disconnection Threat Call',
+    slug: 'fake-electric-disconnection-threat-call',
+    description:
+      'A caller claims to be from your electric utility, states your account is past due, and threatens same-day disconnection unless payment is made immediately — typically demanding a prepaid debit card or a cash-to-crypto payment kiosk rather than a normal bill payment method. Utilities are required by state regulation to send multiple written disconnection notices well in advance and never demand a specific untraceable payment method over the phone.',
+    categorySlug: 'utility-scams',
+    alertLevel: 'high',
+    sources: ['FTC Consumer Advice'],
+  },
+  {
+    name: 'Fake Utility Bill Overpayment Refund Scam',
+    slug: 'fake-utility-overpayment-refund-scam',
+    description:
+      'A caller claims your utility account was overcharged and a refund is owed, but processing the refund requires your bank account or debit card information "to verify eligibility" — the information collected is then used for unauthorized withdrawals rather than any real refund. Utility refunds are applied as a statement credit or mailed check, never requiring you to provide account access over the phone.',
+    categorySlug: 'utility-scams',
+    alertLevel: 'medium',
+    sources: ['FTC Consumer Advice'],
+  },
+  {
+    name: 'Fake Internet or Cable Provider Equipment Fee Scam',
+    slug: 'fake-internet-provider-equipment-fee-scam',
+    description:
+      'A call or text claims your internet or cable provider is updating equipment nationwide and requires an immediate "activation fee" payment to avoid a service interruption, using a real provider\'s name and branding to appear legitimate. Providers bill equipment or activation charges through the normal monthly statement, not a standalone urgent payment demand.',
+    categorySlug: 'utility-scams',
+    alertLevel: 'medium',
+    sources: ['FTC Consumer Advice'],
+  },
+  {
+    name: 'Fake Meter Inspector Home Access Scam',
+    slug: 'fake-meter-inspector-home-access-scam',
+    description:
+      'Someone posing as a utility meter inspector or safety technician requests entry to a home to "inspect" the gas, electric, or water meter, using the visit to steal valuables or gather information for a follow-up scam. Real utility employees carry verifiable ID and a scheduled-visit confirmation that can be checked by calling the utility\'s official customer service number before allowing entry.',
+    categorySlug: 'utility-scams',
+    alertLevel: 'medium',
+    sources: ['FTC Consumer Advice'],
+  },
+  {
+    name: 'Fake Utility-Sponsored Solar Panel Savings Scam',
+    slug: 'fake-solar-panel-utility-savings-scam',
+    description:
+      'A door-to-door or phone solicitor claims to represent a utility-sponsored solar program offering free or heavily discounted panel installation, but the pitch is actually a lead-generation or financing scheme that locks the homeowner into a long-term lease or loan far more expensive than represented — often with the utility having no actual affiliation with the program at all. Homeowners should verify any "utility-sponsored" program directly with their utility before signing anything.',
+    categorySlug: 'utility-scams',
+    alertLevel: 'medium',
+    sources: ['FTC Consumer Advice'],
+  },
+  {
+    name: 'Fake Prepaid Utility Card Reload Scam',
+    slug: 'fake-prepaid-utility-card-reload-scam',
+    description:
+      'A caller instructs a customer to purchase a specific prepaid debit or gift card, then call back and read the card numbers to "reload" their utility account balance — a payment method no legitimate utility company uses or accepts, designed to be untraceable once the numbers are given out. No utility company requires payment exclusively through a specific retail gift card.',
+    categorySlug: 'utility-scams',
+    alertLevel: 'high',
+    sources: ['FTC Consumer Advice'],
+  },
+  {
+    name: 'Fake Package Redirection Request Scam',
+    slug: 'fake-package-redirection-request-scam',
+    description:
+      'A text or call claims a package delivery attempt failed and offers to redirect it to a different address for a small fee, but no such package exists — the fee payment is used to test a stolen card, and any personal information provided feeds into further targeting. Confirming shipment status directly through the retailer\'s own order history, not a link in the message, is the safe check.',
+    categorySlug: 'package-delivery-scams',
+    alertLevel: 'low',
+    sources: ['FTC Consumer Advice'],
+  },
+  {
+    name: 'Fake Robo-Advisor App Investment Scam',
+    slug: 'fake-robo-advisor-app-investment-scam',
+    description:
+      'A polished mobile app mimics the interface of legitimate automated investment platforms, showing a realistic-looking account balance that appears to grow steadily, but the app is not connected to any real brokerage or the SEC-registered entity it claims to be — deposits are simply taken, and withdrawal requests are delayed indefinitely or denied. Verifying an investment platform\'s registration directly through the SEC\'s or FINRA\'s public databases, not just app store reviews, is the necessary check.',
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ['SEC Office of Investor Education and Advocacy'],
+  },
+  {
+    name: 'Fake Missing Child Alert Donation Scam',
+    slug: 'fake-missing-child-alert-donation-scam',
+    description:
+      'A viral social media post about a missing child includes a donation link to help fund the "search effort," but the child either doesn\'t exist, was already found, or the case is real while the donation link is entirely unaffiliated with the family or any law enforcement agency involved. Sharing the alert is harmless, but any donation request attached to it should be verified against the actual law enforcement agency\'s or family\'s confirmed channel before giving.',
+    categorySlug: 'charity-scams',
+    alertLevel: 'medium',
+    sources: ['FTC Consumer Advice'],
+  },
+  {
+    name: 'Fake Union Apprenticeship Program Fee Scam',
+    slug: 'fake-union-apprenticeship-fee-scam',
+    description:
+      'An ad or message offers guaranteed placement in a well-paying union trade apprenticeship program in exchange for an upfront "registration" or "materials" fee, though real union apprenticeships are typically free to apply for and are administered directly through the union or a joint apprenticeship committee, not a private recruiter charging a fee. Verifying an apprenticeship opportunity directly with the named union local avoids the fee entirely.',
+    categorySlug: 'employment-scams',
+    alertLevel: 'medium',
+    sources: ['FTC Consumer Advice'],
   },
 ];
 
