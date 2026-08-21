@@ -2943,6 +2943,60 @@ const SEED_SCAMS: SeedScam[] = [
     alertLevel: 'critical',
     sources: ['FBI IC3'],
   },
+  {
+    name: 'Fake School Meal Program Application Fee Scam',
+    slug: 'fake-school-meal-program-fee-scam',
+    description:
+      'A letter or call claims a family must pay a processing fee to enroll their child in the National School Lunch Program\'s free or reduced-price meal benefit, though applying for this federal program is always free and handled directly through the child\'s school district. Any fee request tied to a free federal benefits program is an immediate sign of a scam.',
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'low',
+    sources: ['USDA Food and Nutrition Service'],
+  },
+  {
+    name: 'Fake Federal Pell Grant Processing Fee Scam',
+    slug: 'fake-pell-grant-processing-fee-scam',
+    description:
+      'A caller or website claims a student must pay an upfront fee to process or "unlock" a Federal Pell Grant award, though applying for federal student aid through the FAFSA is always free and grants are disbursed directly by the student\'s school, never requiring a separate payment to a third party first. The word "free" is literally in the application\'s name — the Free Application for Federal Student Aid — for exactly this reason.',
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'medium',
+    sources: ['U.S. Department of Education'],
+  },
+  {
+    name: 'Fake Overseas Consulate Emergency Fee Scam',
+    slug: 'fake-consulate-emergency-passport-fee-scam',
+    description:
+      'A message claims a traveling family member has lost their passport or been detained abroad and needs an emergency fee wired immediately to the "consulate" to resolve it, using a fabricated or spoofed contact posing as consular staff. Real U.S. embassies and consulates do not request wired payments from family members back home; verifying through the State Department\'s official emergency contact line is the safe path.',
+    categorySlug: 'family-emergency-scams',
+    alertLevel: 'high',
+    sources: ['U.S. Department of State'],
+  },
+  {
+    name: 'Fake Family Member Car Accident Impound Fee Scam',
+    slug: 'fake-family-car-accident-impound-fee-scam',
+    description:
+      'A caller claims a family member was in a car accident and their vehicle has been impounded, requiring an immediate release fee paid by phone before the family member can retrieve it or avoid additional charges, relying on the same urgency and secrecy pressure as other family-emergency scams. Impound fees, where real, are paid directly at the impound lot or through the local police department, never over the phone to an unverified caller.',
+    categorySlug: 'family-emergency-scams',
+    alertLevel: 'medium',
+    sources: ['FTC Consumer Advice'],
+  },
+  {
+    name: 'Fake Utility "Text-to-Pay" Phishing Link',
+    slug: 'fake-utility-text-to-pay-phishing-link',
+    description:
+      'A text formatted like a routine bill-due reminder from a utility includes a payment link that leads to a fake payment page harvesting card details, exploiting how normalized text-based bill reminders and text-to-pay features have become with real utilities. Paying only through the utility\'s official app or website, typed in directly, avoids the fake link entirely.',
+    categorySlug: 'utility-scams',
+    alertLevel: 'medium',
+    sources: ['FTC Consumer Advice'],
+  },
+  {
+    name: 'Fake Community Solar Bill-Credit Scam',
+    slug: 'fake-community-solar-credit-scam',
+    description:
+      'A solicitor offers enrollment in a "community solar" program claiming to provide guaranteed utility bill credits in exchange for a subscription fee or personal utility account access, but the program is not actually affiliated with any real community solar project or the utility, and the promised bill credits never materialize. Verifying a community solar offer directly with the local utility or state public utility commission before enrolling or sharing account access is the necessary check.',
+    categorySlug: 'utility-scams',
+    alertLevel: 'medium',
+    sources: ['FTC Consumer Advice'],
+  },
 ];
 
 async function seedCategoriesAndScams() {
