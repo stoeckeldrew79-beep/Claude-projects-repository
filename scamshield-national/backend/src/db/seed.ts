@@ -3069,6 +3069,42 @@ const SEED_SCAMS: SeedScam[] = [
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
   },
+  {
+    name: 'Fake Wholesale Liquidation Pallet Scam',
+    slug: 'fake-wholesale-liquidation-pallet-scam',
+    description:
+      'A seller advertises "mystery" liquidation pallets from major retailers claimed to contain hundreds of dollars of returned merchandise for a fraction of the price, but buyers who pay receive nothing, a box of near-worthless items, or a pallet manifest that doesn\'t match what\'s shipped. Buying liquidation inventory only through the retailer\'s own verified liquidation marketplace or an established, reviewed wholesaler avoids this.',
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'low',
+    sources: ['FTC Consumer Advice'],
+  },
+  {
+    name: 'Fake "Free" VPN App Data-Harvesting Scam',
+    slug: 'fake-vpn-app-data-harvesting-scam',
+    description:
+      'A free VPN app marketed as protecting privacy while browsing is actually designed to log and resell the user\'s browsing activity, or to install additional unwanted software, exploiting the trust placed in a tool specifically chosen for privacy. Checking independent security reviews and a provider\'s actual privacy policy, not just app store ratings, before installing any free VPN is the practical defense.',
+    categorySlug: 'tech-support-scams',
+    alertLevel: 'low',
+    sources: ['FTC Consumer Advice'],
+  },
+  {
+    name: 'Fake Background Check "Personal Report" Scam',
+    slug: 'fake-background-check-personal-report-scam',
+    description:
+      'A site offers to run a "free" background check or reveal who has been searching for you, but requires a credit card for "verification" that instead enrolls the user in a recurring paid membership, and often compiles and displays whatever personal information it can scrape regardless of accuracy. Reading full terms before entering payment information for any "free" personal report, and checking bank statements for recurring charges, catches this early.',
+    categorySlug: 'identity-theft',
+    alertLevel: 'low',
+    sources: ['FTC Consumer Advice'],
+  },
+  {
+    name: 'Fake Church Building Fund Scam',
+    slug: 'fake-church-building-fund-scam',
+    description:
+      'A caller or mailer claims to represent a local church or faith-based organization raising funds for a new building or disaster repair, using a name similar to a real, respected congregation, but the organization has no actual affiliation with any real church, and the funds go directly to the scammer. Verifying directly with the actual named church or its diocese or denomination before donating catches this.',
+    categorySlug: 'charity-scams',
+    alertLevel: 'low',
+    sources: ['FTC Consumer Advice'],
+  },
 ];
 
 async function seedCategoriesAndScams() {
