@@ -2391,6 +2391,186 @@ const SEED_SCAMS: SeedScam[] = [
     alertLevel: 'medium',
     sources: ['Consumer Financial Protection Bureau', 'U.S. Department of Housing and Urban Development'],
   },
+  {
+    name: 'Fake Zoom Meeting Invite Phishing Email',
+    slug: 'fake-zoom-meeting-invite-phishing-email',
+    description:
+      'An email formatted like a Zoom meeting invitation or "missed meeting" notice links to a fake Zoom login page that harvests corporate email credentials, exploiting how routine meeting invites have become since remote work grew common. Hovering over the link to check the actual destination domain before clicking, or navigating to zoom.us directly, avoids the fake page entirely.',
+    categorySlug: 'phishing',
+    alertLevel: 'medium',
+    sources: ['FTC Consumer Advice'],
+  },
+  {
+    name: 'Fake HR Benefits Open-Enrollment Phishing Email',
+    slug: 'fake-hr-benefits-enrollment-phishing-email',
+    description:
+      'An email timed to arrive during a company\'s real open-enrollment period impersonates the HR or benefits department, asking employees to "confirm" health insurance selections through a link that harvests login credentials to the company\'s actual HR portal, where personal and financial data can then be accessed or redirected. Employees should navigate to their HR portal directly rather than through an emailed link, especially during enrollment season when such requests seem routine.',
+    categorySlug: 'phishing',
+    alertLevel: 'medium',
+    sources: ['FTC Consumer Advice'],
+  },
+  {
+    name: 'Fake Toll Account Suspension Phishing Email',
+    slug: 'fake-toll-account-suspension-phishing-email',
+    description:
+      'An email claims your electronic toll account (E-ZPass or a similar regional system) will be suspended due to a billing problem, linking to a fake account login page that harvests payment card details rather than any real toll agency site. Toll agencies manage account issues through their own verified app or website, not a link in an unsolicited email.',
+    categorySlug: 'phishing',
+    alertLevel: 'medium',
+    sources: ['FTC Consumer Advice'],
+  },
+  {
+    name: 'Humanitarian Doctor Overseas Mission Romance Scam',
+    slug: 'humanitarian-doctor-romance-scam',
+    description:
+      'A scammer\'s profile claims to be a doctor or surgeon on a humanitarian medical mission in a conflict zone or disaster area, using the setting to explain unreliable communication and build sympathy before requesting money for medical supplies, travel, or a supposed emergency affecting the mission. As with any overseas-worker romance scam cover story, a partner never met in person requesting money tied to their claimed profession is the central red flag, regardless of how compelling the humanitarian framing is.',
+    categorySlug: 'romance-scams',
+    alertLevel: 'high',
+    sources: ['FTC Consumer Advice'],
+  },
+  {
+    name: 'Grief Support Group Romance Scam',
+    slug: 'grief-support-group-romance-scam',
+    description:
+      'A scammer joins an online grief support group or forum for recently widowed or bereaved people, presenting as someone who has also lost a spouse, and uses the shared experience to build unusually fast emotional intimacy before pivoting to requests for money. Targeting a community formed specifically around a recent loss makes victims more vulnerable than a general dating platform, since the initial trust is built on shared grief rather than romantic interest alone.',
+    categorySlug: 'romance-scams',
+    alertLevel: 'high',
+    sources: ['FTC Consumer Advice'],
+  },
+  {
+    name: 'Romance Scam "Recovery Service" Scam',
+    slug: 'romance-scam-recovery-scam',
+    description:
+      'After a romance scam victim shares their story publicly or in a support forum, a second scammer poses as a fraud recovery specialist, private investigator, or lawyer claiming they can recover the money already lost — for an upfront fee. No legitimate recovery service requires payment before recovering funds, and most money sent to romance scammers, especially by wire transfer or gift card, cannot actually be recovered.',
+    categorySlug: 'romance-scams',
+    alertLevel: 'medium',
+    sources: ['FTC Consumer Advice'],
+  },
+  {
+    name: 'Fake Printer or Router Setup Support Line Scam',
+    slug: 'fake-printer-router-setup-support-scam',
+    description:
+      'Searching online for a legitimate brand\'s tech support number returns a fake number, placed there through paid search ads or search-result manipulation, that connects to a scam call center posing as the manufacturer\'s official support line, which then charges for unnecessary "repairs" or gains remote access to the caller\'s computer. Finding support contact information directly on the manufacturer\'s official website, not through a general search, avoids this.',
+    categorySlug: 'tech-support-scams',
+    alertLevel: 'medium',
+    sources: ['FTC Consumer Advice'],
+  },
+  {
+    name: 'Fake Software License Renewal Popup Scam',
+    slug: 'fake-software-license-renewal-popup-scam',
+    description:
+      'A popup while browsing claims a security or office software license has expired and must be renewed immediately, linking to a payment page for software the visitor may never have purchased. Legitimate license renewal notices come through the software\'s own application, not a browser popup triggered by visiting an unrelated webpage.',
+    categorySlug: 'tech-support-scams',
+    alertLevel: 'low',
+    sources: ['FTC Consumer Advice'],
+  },
+  {
+    name: 'Fake Remote "Cleanup" After a Real Malware Infection',
+    slug: 'fake-remote-access-cleanup-after-real-infection',
+    description:
+      'After a victim\'s device is genuinely infected with malware from an unrelated source, a scam caller claiming to detect the infection remotely offers a "cleanup" service, gaining legitimate-seeming remote access to a genuinely compromised device and using that access to install further malware, steal financial information, or extort payment for removing an infection they may have actually worsened. A real infection should be addressed with a reputable, independently chosen security provider, not one that initiated contact.',
+    categorySlug: 'tech-support-scams',
+    alertLevel: 'high',
+    sources: ['FTC Consumer Advice'],
+  },
+  {
+    name: 'Fake Marketplace Escrow Payment Service Scam',
+    slug: 'fake-marketplace-escrow-payment-scam',
+    description:
+      'A seller on an online marketplace insists on using a third-party "escrow" service to hold payment safely until the item is delivered, but the escrow site is fake and controlled by the seller, who simply keeps the payment once it is sent there. Legitimate marketplace transactions use the platform\'s own built-in payment protection, not a separate, seller-suggested escrow website.',
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'medium',
+    sources: ['FTC Consumer Advice'],
+  },
+  {
+    name: 'Fake Appliance Warranty Extension Scam',
+    slug: 'fake-appliance-warranty-extension-scam',
+    description:
+      'A mailer, call, or email claims a recently purchased appliance or electronics warranty is about to expire and offers an extended warranty for a fee, often reaching customers whose purchase and warranty information was never actually shared with the sender — the "extended warranty" typically doesn\'t cover what\'s promised, if it exists at all. Extended warranties should only be purchased directly through the retailer or manufacturer where the item was bought.',
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'low',
+    sources: ['FTC Consumer Advice'],
+  },
+  {
+    name: 'Fake Local Pickup Marketplace Scam',
+    slug: 'fake-local-pickup-marketplace-scam',
+    description:
+      'A seller lists a desirable item for local pickup at a below-market price, collects a deposit or full payment through a peer-to-peer payment app to "hold" the item, then cancels contact and never shows up for the meetup — exploiting payment apps that offer no buyer protection for person-to-person transfers. Paying only in person, at the time of a completed transaction, avoids this entirely.',
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'low',
+    sources: ['FTC Consumer Advice'],
+  },
+  {
+    name: 'Fake Renters Insurance Requirement Scam via Landlord Portal',
+    slug: 'fake-renters-insurance-landlord-portal-scam',
+    description:
+      'A tenant is directed, through a fake "property management portal" link designed to look like it\'s from their landlord, to purchase renters insurance through a specific non-existent or fraudulent provider as a lease requirement — the portal harvests payment information without providing any real coverage. Tenants can independently verify insurance requirements directly with their actual property manager and purchase coverage from any licensed insurer of their choosing.',
+    categorySlug: 'insurance-fraud',
+    alertLevel: 'medium',
+    sources: ['National Association of Insurance Commissioners'],
+  },
+  {
+    name: 'Fake Travel Insurance Add-On Upsell Scam',
+    slug: 'fake-travel-insurance-addon-scam',
+    description:
+      'During checkout on a fake or spoofed travel booking site, travelers are offered a "required" travel insurance add-on from an unlicensed provider, collected as payment but providing no actual coverage if a claim is later filed. Confirming a travel insurance provider\'s license status with a state department of insurance before purchase is a fast way to check legitimacy.',
+    categorySlug: 'insurance-fraud',
+    alertLevel: 'low',
+    sources: ['National Association of Insurance Commissioners'],
+  },
+  {
+    name: 'Fake Small Business Workers\' Compensation Policy Scam',
+    slug: 'fake-workers-compensation-policy-scam',
+    description:
+      'A small business owner is sold a workers\' compensation policy at an attractively low premium by an unlicensed broker or fake insurer, satisfying a legal requirement on paper — until an employee is actually injured and the business discovers the policy was never real, leaving the owner personally liable for the employee\'s medical costs and lost wages. Business owners can verify a workers\' comp carrier\'s license and standing directly with their state\'s department of insurance.',
+    categorySlug: 'insurance-fraud',
+    alertLevel: 'high',
+    sources: ['National Association of Insurance Commissioners'],
+  },
+  {
+    name: 'Fake Credit Freeze/Unfreeze Phishing Call',
+    slug: 'fake-credit-freeze-unfreeze-phishing-call',
+    description:
+      'A caller claims to be from a credit bureau and states your credit file needs to be "unfrozen" to process a pending application, walking you through providing your PIN and personal details over the phone. Legitimate credit bureaus only unfreeze a file through their own website, app, or a written request initiated by the consumer themselves — never a call the bureau places to you.',
+    categorySlug: 'identity-theft',
+    alertLevel: 'medium',
+    sources: ['FTC Consumer Advice'],
+  },
+  {
+    name: 'Fake Online Notary Signing Service Identity-Harvesting Scam',
+    slug: 'fake-notary-signing-service-identity-scam',
+    description:
+      'An online "notary" or document-preparation service collects scans of a driver\'s license, Social Security card, or passport to "verify identity" for a routine document signing, then resells or misuses that information rather than providing any real notarization service. Using only licensed, verifiable notaries — in person or through an established, state-recognized online notary platform — avoids handing sensitive ID documents to an unverified party.',
+    categorySlug: 'identity-theft',
+    alertLevel: 'medium',
+    sources: ['FTC Consumer Advice'],
+  },
+  {
+    name: 'Fake App Store Review Request Phishing Link',
+    slug: 'fake-app-store-review-phishing-link',
+    description:
+      'A text or email formatted to look like a request to review a recent app purchase includes a link to a fake Apple ID or Google account login page, harvesting the credentials that control the victim\'s entire app ecosystem, stored payment methods, and often a linked email account used to reset other passwords. Apple and Google review requests appear inside the app store itself, not through an external link in a text or email.',
+    categorySlug: 'account-takeover',
+    alertLevel: 'medium',
+    sources: ['FTC Consumer Advice'],
+  },
+  {
+    name: 'AI-Generated Fake Court Summons Document',
+    slug: 'ai-generated-fake-court-summons-scam',
+    description:
+      'AI document-generation tools are used to produce a convincingly formatted fake court summons or legal notice — complete with a real court\'s letterhead and case-number formatting — served by email or text and demanding an urgent response or payment to avoid a default judgment. Court summonses are legally required to be delivered through formal service of process, not emailed as a PDF; any such notice should be verified directly with the named court\'s clerk.',
+    categorySlug: 'ai-deepfake-scams',
+    alertLevel: 'high',
+    sources: ['FTC Consumer Advice'],
+  },
+  {
+    name: 'AI Chatbot Impersonating a Real Financial Advisor',
+    slug: 'ai-chatbot-impersonating-financial-advisor',
+    description:
+      'A chatbot embedded on a fraudulent website is trained on a real, well-known financial advisor\'s or influencer\'s public content to mimic their voice and advice style, then steers users toward a fraudulent investment platform under the appearance of personalized advice from someone the victim already trusts. The real advisor typically has no knowledge their identity or content is being used this way; checking whether an interaction is happening on the advisor\'s verified official platform is the practical defense.',
+    categorySlug: 'ai-deepfake-scams',
+    alertLevel: 'high',
+    sources: ['SEC Office of Investor Education and Advocacy'],
+  },
 ];
 
 async function seedCategoriesAndScams() {
