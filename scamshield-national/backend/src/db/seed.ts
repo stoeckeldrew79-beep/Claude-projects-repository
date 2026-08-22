@@ -3622,6 +3622,16 @@ const SEED_SCAMS: SeedScam[] = [
     alertLevel: 'high',
     sources: ['Indian Cyber Crime Coordination Centre (I4C)'],
   },
+  {
+    name: 'Swedish Klarna Fake Invoice Scam',
+    slug: 'sweden-klarna-fake-invoice-scam',
+    description:
+      'A letter or email impersonating Klarna, the Swedish buy-now-pay-later company, claims an overdue invoice for a purchase the recipient never made and threatens debt collection unless paid immediately to a provided account, exploiting how common real Klarna invoices are in everyday online shopping. Genuine Klarna invoices are only visible and payable through the recipient\'s own Klarna app or account, not an unsolicited payment demand.',
+    categorySlug: 'online-shopping-scams',
+    country: 'SE',
+    alertLevel: 'medium',
+    sources: ['Polisen (Swedish Police Authority)'],
+  },
 ];
 
 async function seedCategoriesAndScams() {
