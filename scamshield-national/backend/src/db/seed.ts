@@ -3612,6 +3612,16 @@ const SEED_SCAMS: SeedScam[] = [
     alertLevel: 'medium',
     sources: ['Info Escroqueries (France)'],
   },
+  {
+    name: 'Indian Matrimonial Website Romance Scam',
+    slug: 'india-matrimonial-website-scam',
+    description:
+      'A fake profile on a matrimonial website — often claiming to be a non-resident Indian professional living abroad — builds a relationship toward marriage over weeks, then requests money for a fabricated emergency, a customs fee on a gift shipment, or travel costs to visit in person. India\'s cybercrime authorities have specifically flagged matrimonial-site fraud as distinct from general dating scams, since the marriage-intent framing lowers a victim\'s guard faster than a casual dating context does.',
+    categorySlug: 'romance-scams',
+    country: 'IN',
+    alertLevel: 'high',
+    sources: ['Indian Cyber Crime Coordination Centre (I4C)'],
+  },
 ];
 
 async function seedCategoriesAndScams() {
