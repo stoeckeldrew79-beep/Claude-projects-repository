@@ -3572,6 +3572,26 @@ const SEED_SCAMS: SeedScam[] = [
     alertLevel: 'high',
     sources: ['Japan National Police Agency'],
   },
+  {
+    name: 'NZ Trade Me Marketplace Payment Link Scam',
+    slug: 'newzealand-trademe-payment-scam',
+    description:
+      'A buyer on Trade Me, New Zealand\'s largest online marketplace, sends the seller a link claiming to be an official secure payment or shipping service, but the link leads to a fake page designed to steal banking credentials rather than complete any real transaction. Trade Me transactions are completed within the platform\'s own system; sellers should never need to click an external link to receive payment.',
+    categorySlug: 'online-shopping-scams',
+    country: 'NZ',
+    alertLevel: 'medium',
+    sources: ['Netsafe (New Zealand)'],
+  },
+  {
+    name: 'Indian UPI QR Code "Receive Payment" Scam',
+    slug: 'india-upi-qr-code-scam',
+    description:
+      'A scammer posing as a buyer on a classifieds site sends a QR code and tells the seller to scan it "to receive payment," but scanning a UPI QR code and entering a PIN always authorizes an outgoing payment, never an incoming one — so the seller unknowingly pays the scammer instead of getting paid. India\'s National Payments Corporation and cybercrime authorities have repeatedly clarified that receiving money via UPI never requires scanning a code or entering a PIN.',
+    categorySlug: 'online-shopping-scams',
+    country: 'IN',
+    alertLevel: 'high',
+    sources: ['Indian Cyber Crime Coordination Centre (I4C)', 'National Payments Corporation of India'],
+  },
 ];
 
 async function seedCategoriesAndScams() {
