@@ -3462,6 +3462,36 @@ const SEED_SCAMS: SeedScam[] = [
     alertLevel: 'medium',
     sources: ['Info Escroqueries (France)'],
   },
+  {
+    name: 'Japanese LINE App Impersonation Scam',
+    slug: 'japan-line-app-impersonation-scam',
+    description:
+      'A message on LINE, Japan\'s dominant messaging app, claims to be from a friend or family member whose account was hijacked, asking the recipient to buy digital gift cards and send the codes to help them out of an urgent situation — the request actually comes from someone who has taken over the real friend\'s LINE account. Confirming through a separate channel, such as a phone call, before buying any gift card for a "friend in trouble" breaks the scam.',
+    categorySlug: 'account-takeover',
+    country: 'JP',
+    alertLevel: 'high',
+    sources: ['Japan National Police Agency'],
+  },
+  {
+    name: 'German Zoll (Customs) Parcel Fee Scam',
+    slug: 'germany-zoll-customs-parcel-scam',
+    description:
+      'A text or email impersonating German customs (Zoll) claims an international parcel is being held pending a customs duty payment and links to a fake payment page harvesting card details. German customs does not request duty payments through unsolicited text or email links — genuine customs charges are billed through the shipping carrier or collected on delivery.',
+    categorySlug: 'package-delivery-scams',
+    country: 'DE',
+    alertLevel: 'medium',
+    sources: ['German Federal Criminal Police Office (BKA)'],
+  },
+  {
+    name: 'Australian Superannuation Early Release Scam',
+    slug: 'australia-superannuation-early-release-scam',
+    description:
+      'A cold call or online ad offers to help someone access their superannuation retirement savings early through a supposed loophole, but the funds are instead transferred into a fraudulent self-managed super fund or an unrecognized investment, often triggering a large tax penalty in addition to the loss. The Australian Taxation Office and Scamwatch have repeatedly warned that early super access is tightly restricted by law, and any unsolicited offer to "unlock" it early is almost certainly fraudulent.',
+    categorySlug: 'investment-fraud',
+    country: 'AU',
+    alertLevel: 'high',
+    sources: ['Scamwatch (Australian Competition and Consumer Commission)', 'Australian Taxation Office'],
+  },
 ];
 
 async function seedCategoriesAndScams() {
