@@ -3132,6 +3132,96 @@ const SEED_SCAMS: SeedScam[] = [
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
   },
+  {
+    name: 'UK TV Licensing Phishing Email',
+    slug: 'uk-tv-licensing-phishing-email',
+    description:
+      'An email impersonating TV Licensing — the UK body that collects the mandatory television license fee — claims a payment failed or a refund is due, linking to a fake page that harvests bank details, exploiting the fact that nearly every UK household holds a real TV license. TV Licensing communicates real payment issues through post, not urgent email links demanding immediate card details.',
+    categorySlug: 'phishing',
+    country: 'GB',
+    alertLevel: 'medium',
+    sources: ['UK Action Fraud'],
+  },
+  {
+    name: 'UK HMRC Tax Rebate Text Scam',
+    slug: 'uk-hmrc-tax-rebate-text-scam',
+    description:
+      'A text claims to be from HMRC (Her Majesty\'s Revenue and Customs) offering a tax rebate, linking to a fake gov.uk look-alike page that harvests banking and personal details. HMRC does not notify tax rebates by text message with a link — genuine rebates are handled through a person\'s own online tax account or by post.',
+    categorySlug: 'tax-scams',
+    country: 'GB',
+    alertLevel: 'medium',
+    sources: ['UK Action Fraud', 'HM Revenue & Customs'],
+  },
+  {
+    name: 'UK Royal Mail "Failed Delivery" SMS Scam',
+    slug: 'uk-royal-mail-failed-delivery-scam',
+    description:
+      'A text impersonating Royal Mail claims a parcel could not be delivered due to an outstanding customs or redelivery fee, linking to a fake payment page that harvests card details — one of the most-reported smishing patterns in the UK according to Action Fraud. Royal Mail does not request card payments via a text link for redelivery.',
+    categorySlug: 'package-delivery-scams',
+    country: 'GB',
+    alertLevel: 'medium',
+    sources: ['UK Action Fraud'],
+  },
+  {
+    name: 'Canadian CRA Arrest Threat Call',
+    slug: 'canada-cra-arrest-threat-call',
+    description:
+      'A caller impersonating the Canada Revenue Agency claims the recipient owes back taxes and threatens immediate arrest or deportation unless paid via gift card or cryptocurrency, mirroring the well-documented U.S. IRS impersonation pattern but using CRA branding specific to Canadian taxpayers. The CRA does not threaten immediate arrest over the phone or demand payment by gift card.',
+    categorySlug: 'tax-scams',
+    country: 'CA',
+    alertLevel: 'high',
+    sources: ['Canadian Anti-Fraud Centre'],
+  },
+  {
+    name: 'Canadian Grandparent Emergency Scam',
+    slug: 'canada-grandparent-emergency-scam',
+    description:
+      'A caller poses as a grandchild in legal trouble in Canada — often claiming a car accident or arrest — asking the grandparent not to tell other family members and requesting money for bail or legal fees, sent via e-transfer or through a courier who collects cash in person. The Canadian Anti-Fraud Centre has tracked this as one of the costliest fraud categories affecting Canadian seniors for years; verifying independently with another family member before sending anything breaks the scam.',
+    categorySlug: 'family-emergency-scams',
+    country: 'CA',
+    alertLevel: 'critical',
+    sources: ['Canadian Anti-Fraud Centre'],
+  },
+  {
+    name: 'Australian myGov Phishing SMS Scam',
+    slug: 'australia-mygov-phishing-sms-scam',
+    description:
+      'A text claims a problem with the recipient\'s myGov account — Australia\'s centralized portal for Medicare, Centrelink, and tax services — and links to a fake myGov login page harvesting credentials that can then expose Medicare, tax, and welfare payment details all at once. Services Australia and the ATO do not send links to verify myGov login details by SMS.',
+    categorySlug: 'government-impersonation',
+    country: 'AU',
+    alertLevel: 'high',
+    sources: ['Scamwatch (Australian Competition and Consumer Commission)'],
+  },
+  {
+    name: 'Australian Toll Road SMS Scam',
+    slug: 'australia-toll-road-sms-scam',
+    description:
+      'A text impersonating an Australian toll operator like Linkt claims an unpaid toll invoice is overdue and links to a fake payment page harvesting card details — closely mirroring similar toll-scam texts reported across the US and UK, but branded for Australian toll networks specifically. Real toll invoices are managed through the toll operator\'s own app or account portal, not an SMS link.',
+    categorySlug: 'phishing',
+    country: 'AU',
+    alertLevel: 'medium',
+    sources: ['Scamwatch (Australian Competition and Consumer Commission)'],
+  },
+  {
+    name: 'Indian "Digital Arrest" Scam Call',
+    slug: 'india-digital-arrest-scam-call',
+    description:
+      'A caller impersonating Indian police, customs, or the CBI claims the victim\'s identity was used in a crime — often drug trafficking or money laundering — and orders them to stay on a video call continuously in a so-called "digital arrest," while transferring their savings to a "verification" account to avoid immediate arrest. This has become one of the most financially damaging scam patterns reported in India in recent years; real law enforcement never conducts an arrest or investigation entirely over a video call.',
+    categorySlug: 'government-impersonation',
+    country: 'IN',
+    alertLevel: 'critical',
+    sources: ['Indian Cyber Crime Coordination Centre (I4C)'],
+  },
+  {
+    name: 'German "New Number" WhatsApp Family Scam',
+    slug: 'germany-whatsapp-family-member-scam',
+    description:
+      'A message on WhatsApp claims to be from a family member using a new phone number after losing or breaking their old one, and shortly after establishing contact asks for an urgent transfer to pay a bill on their behalf — a modern, text-based evolution of Germany\'s long-running "Enkeltrick" (grandchild trick) phone scam. Calling the family member at their previously known number, not the new one texting, breaks the scam.',
+    categorySlug: 'family-emergency-scams',
+    country: 'DE',
+    alertLevel: 'high',
+    sources: ['German Federal Criminal Police Office (BKA)'],
+  },
 ];
 
 async function seedCategoriesAndScams() {
