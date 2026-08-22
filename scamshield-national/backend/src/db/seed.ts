@@ -3740,12 +3740,12 @@ const SEED_GLOBAL_SOURCES: SeedGlobalSource[] = [
     data_type: 'open_dataset',
   },
   {
-    agency_name: 'Action Fraud (National Fraud Intelligence Bureau)',
+    agency_name: 'Report Fraud (formerly Action Fraud)',
     country: 'GB',
     country_name: 'United Kingdom',
-    url: 'https://www.actionfraud.police.uk/fraud-stats',
+    url: 'https://www.reportfraud.police.uk/',
     description:
-      "The UK's national fraud and cybercrime reporting service, run by the City of London Police. Publishes a public fraud statistics page; the underlying case data feeds law enforcement's National Fraud Intelligence Bureau, not a public API.",
+      "The UK's national fraud and cybercrime reporting service, run by the City of London Police. Replaced Action Fraud on December 4, 2025 (full public launch January 2026); case data now feeds Report Fraud Analysis Services, formerly the National Fraud Intelligence Bureau.",
     data_type: 'public_stats',
   },
   {
