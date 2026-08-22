@@ -3382,6 +3382,46 @@ const SEED_SCAMS: SeedScam[] = [
     alertLevel: 'high',
     sources: ['UK Financial Conduct Authority', 'UK Action Fraud'],
   },
+  {
+    name: 'Dutch DigiD Phishing Scam',
+    slug: 'netherlands-digid-phishing-scam',
+    description:
+      'A text or email impersonating DigiD, the Dutch government\'s digital identity system used to access tax, healthcare, and benefits accounts, claims the account needs urgent reactivation and links to a fake login page harvesting DigiD credentials — which can then expose a person\'s full range of government service accounts at once. The Dutch government never asks for DigiD login details by email or text link.',
+    categorySlug: 'government-impersonation',
+    country: 'NL',
+    alertLevel: 'high',
+    sources: ['Fraudehelpdesk (Netherlands)'],
+  },
+  {
+    name: 'Singapore SingPass Phishing Scam',
+    slug: 'singapore-singpass-phishing-scam',
+    description:
+      'A text or email impersonating SingPass, Singapore\'s national digital identity system, claims the account has been flagged for suspicious activity and links to a fake login page harvesting credentials that can unlock access to government, banking, and healthcare services tied to a person\'s SingPass. The Singapore government does not request SingPass credentials through unsolicited text or email links.',
+    categorySlug: 'government-impersonation',
+    country: 'SG',
+    alertLevel: 'high',
+    sources: ['Singapore Police Force', 'GovTech Singapore'],
+  },
+  {
+    name: 'Australian Centrelink Payment Suspension Scam',
+    slug: 'australia-centrelink-suspension-scam',
+    description:
+      'A text or call impersonating Centrelink, Australia\'s welfare payment agency, claims a benefit payment has been suspended pending identity verification and directs the recipient to a fake myGov-style page or asks for personal details over the phone. Services Australia manages real Centrelink account issues through a person\'s own myGov account, not unsolicited links or cold calls demanding immediate verification.',
+    categorySlug: 'public-benefits-fraud',
+    country: 'AU',
+    alertLevel: 'medium',
+    sources: ['Scamwatch (Australian Competition and Consumer Commission)', 'Services Australia'],
+  },
+  {
+    name: 'Canadian CBSA Package Seizure Scam',
+    slug: 'canada-cbsa-package-seizure-scam',
+    description:
+      'A call or text impersonating the Canada Border Services Agency claims a package addressed to the victim was seized for containing prohibited items and demands an immediate fine or personal information to resolve it, mirroring similar customs-impersonation scams reported internationally but using Canadian border agency branding specifically. The CBSA does not resolve seizure cases by phone call demanding immediate payment.',
+    categorySlug: 'government-impersonation',
+    country: 'CA',
+    alertLevel: 'medium',
+    sources: ['Canadian Anti-Fraud Centre'],
+  },
 ];
 
 async function seedCategoriesAndScams() {
