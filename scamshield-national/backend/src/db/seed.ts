@@ -3222,6 +3222,76 @@ const SEED_SCAMS: SeedScam[] = [
     alertLevel: 'high',
     sources: ['German Federal Criminal Police Office (BKA)'],
   },
+  {
+    name: 'Irish Revenue Tax Refund Phishing Text',
+    slug: 'ireland-revenue-tax-refund-phishing-text',
+    description:
+      'A text impersonating Ireland\'s Revenue Commissioners claims a tax refund is available through the myAccount portal, linking to a fake login page that harvests PPS numbers and banking details. Revenue does not request personal or banking information via text message links — refunds are processed directly through a taxpayer\'s own verified myAccount login.',
+    categorySlug: 'tax-scams',
+    country: 'IE',
+    alertLevel: 'medium',
+    sources: ['Ireland Revenue Commissioners', 'An Garda Síochána'],
+  },
+  {
+    name: 'Irish An Post Delivery Fee Scam',
+    slug: 'ireland-an-post-delivery-fee-scam',
+    description:
+      'A text impersonating An Post, Ireland\'s postal service, claims a parcel requires a small customs or redelivery fee, linking to a fake payment page that harvests card details — one of the most widely reported smishing campaigns in Ireland according to An Garda Síochána. An Post does not request card payments through unsolicited text links.',
+    categorySlug: 'package-delivery-scams',
+    country: 'IE',
+    alertLevel: 'medium',
+    sources: ['An Garda Síochána'],
+  },
+  {
+    name: 'Singapore Government Official Impersonation Scam',
+    slug: 'singapore-government-official-impersonation-scam',
+    description:
+      'A caller impersonates a Singapore government official — often claiming to be from the police, the Immigration & Checkpoints Authority, or a bank — alleging the victim\'s identity was used in a crime and demanding funds be transferred to a "safe" government account for verification. Singapore\'s police and government agencies never ask the public to transfer money to a "safe account," and have run extensive public campaigns, including the ScamShield app, specifically warning against this exact pattern.',
+    categorySlug: 'government-impersonation',
+    country: 'SG',
+    alertLevel: 'critical',
+    sources: ['Singapore Police Force', 'ScamShield (Singapore)'],
+  },
+  {
+    name: 'Japanese "It\'s Me" Phone Fraud (Ore Ore Sagi)',
+    slug: 'japan-ore-ore-sagi-phone-fraud',
+    description:
+      'A caller claims to be a victim\'s son or grandson in urgent trouble — often citing a workplace mistake, accident, or missed payment — and asks for money to be transferred or handed to a courier immediately, deliberately not stating a name so the elderly victim fills in the blank themselves. Known in Japan as "Ore Ore Sagi" (roughly "it\'s me, it\'s me" fraud), it has been one of the country\'s most persistent fraud categories for over two decades; confirming with the family member directly, at their own known number, breaks the scam.',
+    categorySlug: 'family-emergency-scams',
+    country: 'JP',
+    alertLevel: 'critical',
+    sources: ['Japan National Police Agency'],
+  },
+  {
+    name: 'Dutch WhatsApp Bank Verification Scam',
+    slug: 'netherlands-whatsapp-bank-verification-scam',
+    description:
+      'A message impersonating a Dutch bank via WhatsApp or SMS claims suspicious activity was detected and asks the recipient to confirm a code or click a link to "secure" their account — the code requested is actually the one-time code needed to authorize a real transaction the scammer is initiating. Dutch banks never ask customers to share a verification code received by text; Fraudehelpdesk has flagged this as one of the most common scam reports in the Netherlands.',
+    categorySlug: 'account-takeover',
+    country: 'NL',
+    alertLevel: 'high',
+    sources: ['Fraudehelpdesk (Netherlands)'],
+  },
+  {
+    name: 'Swedish BankID Phishing Call Scam',
+    slug: 'sweden-bankid-phishing-call-scam',
+    description:
+      'A caller impersonating a bank or government agency convinces the victim to open their BankID app and approve a login or transaction request, framing it as identity verification, while the approval actually authorizes the scammer\'s own fraudulent transfer from the victim\'s account. BankID is Sweden\'s near-universal digital identification system, which makes tricking someone into approving a single request especially damaging; Swedish police advise never approving a BankID request triggered by an unexpected phone call.',
+    categorySlug: 'account-takeover',
+    country: 'SE',
+    alertLevel: 'critical',
+    sources: ['Polisen (Swedish Police Authority)'],
+  },
+  {
+    name: 'New Zealand Inland Revenue Refund Scam',
+    slug: 'newzealand-ird-refund-scam',
+    description:
+      'A text or email impersonating New Zealand\'s Inland Revenue Department claims a tax refund is ready and links to a fake myIR login page that harvests personal and banking details. IRD does not request bank account confirmation through unsolicited text or email links; genuine refunds are visible directly in a taxpayer\'s own myIR account.',
+    categorySlug: 'tax-scams',
+    country: 'NZ',
+    alertLevel: 'medium',
+    sources: ['New Zealand Inland Revenue', 'Netsafe'],
+  },
 ];
 
 async function seedCategoriesAndScams() {
