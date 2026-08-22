@@ -3652,6 +3652,86 @@ const SEED_SCAMS: SeedScam[] = [
     alertLevel: 'medium',
     sources: ['Fraudehelpdesk (Netherlands)'],
   },
+  {
+    name: 'German "Falscher Polizist" Fake Police Shock Call',
+    slug: 'germany-falscher-polizist-scam',
+    description:
+      'A caller claims to be a police officer investigating a burglary ring operating in the victim\'s neighborhood and warns that their cash or valuables are at risk, instructing them to hand everything over to an officer who will come collect it "for safekeeping." Some variants open with a fabricated emergency — a family member in a car accident who needs bail money immediately. German police never collect money or valuables from a private residence, and the BKA specifically warns this remains one of the country\'s costliest fraud categories, disproportionately targeting elderly victims.',
+    categorySlug: 'government-impersonation',
+    country: 'DE',
+    alertLevel: 'critical',
+    sources: ['German Federal Criminal Police Office (BKA)'],
+  },
+  {
+    name: 'Fake Garda Impersonation Call',
+    slug: 'ireland-garda-impersonation-call-scam',
+    description:
+      'A caller claiming to be a member of An Garda Síochána tells the victim their bank card or account has been compromised by a fraud ring and asks them to move their money to a "secure" Garda-monitored account, or to hand over a card and PIN to a courier who will collect it for "evidence." An Garda Síochána has repeatedly warned that its officers never request bank details, PINs, or cash handovers by phone, and that a real Garda visit is always confirmable by calling the victim\'s local station directly using an independently looked-up number.',
+    categorySlug: 'government-impersonation',
+    country: 'IE',
+    alertLevel: 'critical',
+    sources: ['An Garda Síochána'],
+  },
+  {
+    name: 'Impersonation of China Officials Scam',
+    slug: 'singapore-china-officials-impersonation-scam',
+    description:
+      'A caller claiming to be from a Chinese embassy, courier company, or Chinese law enforcement agency tells a Mandarin-speaking victim in Singapore that a parcel or their identity has been linked to a crime in China, then transfers the call to a fake "Chinese police officer" who demands funds be transferred for investigation or to prove innocence. The Singapore Police Force names this specifically as one of its largest scam categories by financial loss and stresses that no genuine Chinese authority will ever conduct an investigation or demand money over a phone call or video call.',
+    categorySlug: 'government-impersonation',
+    country: 'SG',
+    alertLevel: 'critical',
+    sources: ['Singapore Police Force'],
+  },
+  {
+    name: 'Japanese One-Click Fraud (Wan-Kurikku Sagi)',
+    slug: 'japan-one-click-fraud-scam',
+    description:
+      'After clicking a link on an adult content, streaming, or gaming site, a pop-up immediately declares that the victim has "registered" for a paid service and now owes a large fee, often displaying what looks like their IP address or device details to falsely suggest they\'ve been identified and tracked. There was never an actual registration or contract formed, and Japan\'s National Police Agency advises that closing the browser without clicking anything further, and never calling the phone number on the demand, ends the scam completely.',
+    categorySlug: 'phishing',
+    country: 'JP',
+    alertLevel: 'medium',
+    sources: ['Japan National Police Agency'],
+  },
+  {
+    name: 'Swedish "Skyddat Konto" Safe Account Scam',
+    slug: 'sweden-skyddat-konto-safe-account-scam',
+    description:
+      'A caller posing as a bank employee or police officer tells the victim their account has been compromised and that, to protect their savings, funds must be immediately moved to a new "protected account" (skyddat konto) — an account actually controlled by the scammer. Swedish police (Polisen) and the National Council for Crime Prevention (Brå) have identified this as one of the country\'s largest fraud categories by reported loss, and stress that neither a real bank nor the police will ever ask a customer to transfer money to a different account for safekeeping.',
+    categorySlug: 'account-takeover',
+    country: 'SE',
+    alertLevel: 'critical',
+    sources: ['Polisen (Swedish Police Authority)', 'Brottsförebyggande rådet (Brå)'],
+  },
+  {
+    name: 'French "Faux Conseiller Bancaire" Fake Bank Advisor Scam',
+    slug: 'france-faux-conseiller-bancaire-scam',
+    description:
+      'A caller impersonating the victim\'s own bank, often using a spoofed number that matches the bank\'s real customer service line, warns of fraudulent activity on the account and instructs the victim to transfer funds to a supposedly secure new account, or to read out a one-time verification code that actually authorizes a transfer the scammer has already initiated. France\'s Info Escroqueries service and Cybermalveillance.gouv.fr warn that a real bank advisor never asks a customer to move money to another account or to disclose a one-time code received by SMS.',
+    categorySlug: 'account-takeover',
+    country: 'FR',
+    alertLevel: 'critical',
+    sources: ['Info Escroqueries', 'Cybermalveillance.gouv.fr'],
+  },
+  {
+    name: 'Dutch Nepwebshop (Fake Webshop) Scam',
+    slug: 'netherlands-nepwebshop-fake-webshop-scam',
+    description:
+      'A convincingly designed online store, often advertised through social media ads or search results, offers heavily discounted electronics, designer clothing, or other in-demand goods and accepts payment through bank transfer or a fake iDEAL checkout page, but never ships anything. Fraudehelpdesk consistently ranks nepwebshops (fake webshops) among the most-reported fraud categories in the Netherlands, and recommends checking a shop\'s registration with the Dutch Chamber of Commerce (KVK) and searching its name alongside "oplichting" (scam) before ordering.',
+    categorySlug: 'online-shopping-scams',
+    country: 'NL',
+    alertLevel: 'high',
+    sources: ['Fraudehelpdesk (Netherlands)'],
+  },
+  {
+    name: 'New Zealand Bank SMS Phishing Scam',
+    slug: 'newzealand-bank-sms-phishing-scam',
+    description:
+      'A text message impersonating a major New Zealand bank — ANZ, ASB, BNZ, Westpac, or Kiwibank — warns of a blocked card, suspicious login, or failed payment and links to a fake banking login page that harvests credentials and one-time codes, sometimes appearing in the same message thread as genuine past texts from the bank due to sender ID spoofing. Netsafe and the National Cyber Security Centre advise never tapping a link in an unexpected bank text and instead opening the bank\'s official app or typing its known web address directly.',
+    categorySlug: 'phishing',
+    country: 'NZ',
+    alertLevel: 'high',
+    sources: ['Netsafe', 'National Cyber Security Centre (NZ)'],
+  },
 ];
 
 async function seedCategoriesAndScams() {
