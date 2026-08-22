@@ -3492,6 +3492,36 @@ const SEED_SCAMS: SeedScam[] = [
     alertLevel: 'high',
     sources: ['Scamwatch (Australian Competition and Consumer Commission)', 'Australian Taxation Office'],
   },
+  {
+    name: 'Singapore WhatsApp Job Scam',
+    slug: 'singapore-whatsapp-job-scam',
+    description:
+      'A WhatsApp message offers an easy, high-paying part-time job — often "liking" social media posts or writing product reviews — that pays small amounts at first to build trust, then asks the worker to deposit their own money into a linked account to unlock larger "bonus tasks," money that is never returned. The Singapore Police Force has flagged these job scams as one of the most costly to residents in recent years; any job requiring an upfront personal deposit is not real employment.',
+    categorySlug: 'employment-scams',
+    country: 'SG',
+    alertLevel: 'high',
+    sources: ['Singapore Police Force'],
+  },
+  {
+    name: 'Dutch Marktplaats Fake Payment Link Scam',
+    slug: 'netherlands-marktplaats-payment-link-scam',
+    description:
+      'A buyer on Marktplaats, the Netherlands\' largest online marketplace, sends the seller a link claiming to be the platform\'s official secure payment service, but the link leads to a fake page that steals the seller\'s banking login instead of transferring any payment. Marktplaats does not require sellers to click an external link to receive payment; genuine transactions are completed inside the platform\'s own system.',
+    categorySlug: 'online-shopping-scams',
+    country: 'NL',
+    alertLevel: 'medium',
+    sources: ['Fraudehelpdesk (Netherlands)'],
+  },
+  {
+    name: 'Indian Fake Instant Loan App Scam',
+    slug: 'india-fake-loan-app-scam',
+    description:
+      'A mobile app offers instant, no-collateral personal loans with minimal verification, but after disbursing a small amount, demands repayment at extreme interest within days and threatens to contact the borrower\'s phone contacts with doctored, humiliating messages unless paid immediately — having harvested the phone\'s full contact list and photos as a condition of installing the app. India\'s Reserve Bank and cybercrime authorities have specifically warned against loan apps not listed with a registered NBFC; checking an app\'s RBI registration before installing is the necessary safeguard.',
+    categorySlug: 'debt-relief-scams',
+    country: 'IN',
+    alertLevel: 'critical',
+    sources: ['Reserve Bank of India', 'Indian Cyber Crime Coordination Centre (I4C)'],
+  },
 ];
 
 async function seedCategoriesAndScams() {
