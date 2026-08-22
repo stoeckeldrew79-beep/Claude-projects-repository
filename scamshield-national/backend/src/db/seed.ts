@@ -3552,6 +3552,26 @@ const SEED_SCAMS: SeedScam[] = [
     alertLevel: 'medium',
     sources: ['Polisen (Swedish Police Authority)'],
   },
+  {
+    name: 'German Rundfunkbeitrag (Broadcasting Fee) Threat Scam',
+    slug: 'germany-rundfunkbeitrag-phishing-scam',
+    description:
+      'An email or letter impersonating the collection service for Germany\'s mandatory Rundfunkbeitrag broadcasting fee claims an overdue payment and threatens immediate legal action or a bailiff visit unless paid via an unusual method like a prepaid card, exploiting the fact that nearly every German household is legally required to pay this fee. The real collection service sends formal written reminders through standard channels, not urgent threats demanding an unusual payment method by phone or email.',
+    categorySlug: 'government-impersonation',
+    country: 'DE',
+    alertLevel: 'medium',
+    sources: ['German Federal Office for Information Security (BSI)'],
+  },
+  {
+    name: 'Japanese ATM "Refund" Scam',
+    slug: 'japan-atm-refund-scam',
+    description:
+      'A caller claims the victim is owed a refund for an overpaid utility or insurance premium and instructs them to go to a nearby ATM, insisting the "refund" can only be processed by following on-screen steps at the machine — in reality, the steps performed transfer money out of the victim\'s account to the scammer rather than depositing any refund in. Japanese banks and police have specifically warned that no legitimate refund is ever processed through ATM instructions given over the phone.',
+    categorySlug: 'utility-scams',
+    country: 'JP',
+    alertLevel: 'high',
+    sources: ['Japan National Police Agency'],
+  },
 ];
 
 async function seedCategoriesAndScams() {
