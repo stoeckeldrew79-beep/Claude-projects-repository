@@ -3642,6 +3642,16 @@ const SEED_SCAMS: SeedScam[] = [
     alertLevel: 'high',
     sources: ['Canadian Anti-Fraud Centre'],
   },
+  {
+    name: 'Dutch Belastingdienst Tax Refund Phishing Scam',
+    slug: 'netherlands-belastingdienst-phishing-scam',
+    description:
+      'An email or text impersonating the Belastingdienst, the Dutch tax authority, claims a tax refund is pending and links to a fake login page harvesting DigiD credentials and banking details. The Belastingdienst communicates real refund information through a taxpayer\'s own verified account or by post, not an unsolicited link.',
+    categorySlug: 'tax-scams',
+    country: 'NL',
+    alertLevel: 'medium',
+    sources: ['Fraudehelpdesk (Netherlands)'],
+  },
 ];
 
 async function seedCategoriesAndScams() {
