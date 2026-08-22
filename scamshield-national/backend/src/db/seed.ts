@@ -3847,6 +3847,15 @@ const SEED_GLOBAL_SOURCES: SeedGlobalSource[] = [
     data_type: 'public_stats',
   },
   {
+    agency_name: 'An Garda Síochána',
+    country: 'IE',
+    country_name: 'Ireland',
+    url: 'https://www.garda.ie/en/information-centre/statistics/',
+    description:
+      "Ireland's national police service. Publishes provisional crime statistics, including recorded fraud offences, on a half-yearly and year-end basis — the actual source of Ireland's national fraud figures that CCPC directs victims toward.",
+    data_type: 'public_stats',
+  },
+  {
     agency_name: 'Singapore Police Force — ScamShield',
     country: 'SG',
     country_name: 'Singapore',
