@@ -3918,6 +3918,24 @@ const SEED_GLOBAL_SOURCES: SeedGlobalSource[] = [
       "India's official cybercrime and financial-fraud reporting portal, run by the Ministry of Home Affairs' Indian Cyber Crime Coordination Centre (I4C), backed by the toll-free 1930 helpline dedicated to reporting financial fraud.",
     data_type: 'public_stats',
   },
+  {
+    agency_name: 'Service statistique ministériel de la sécurité intérieure (SSMSI)',
+    country: 'FR',
+    country_name: 'France',
+    url: 'https://www.interieur.gouv.fr/ssmsi',
+    description:
+      "France's Interior Ministry statistical service. Publishes the annual \"Insécurité et délinquance\" report and tracks digital-crime trends, including complaints filed through Thésée, the ministry's official online scam-reporting platform.",
+    data_type: 'annual_report',
+  },
+  {
+    agency_name: 'Brottsförebyggande rådet (Brå)',
+    country: 'SE',
+    country_name: 'Sweden',
+    url: 'https://bra.se/statistik/statistik-om-rattsvasendet/anmalda-brott',
+    description:
+      "Sweden's National Council for Crime Prevention. Publishes the annual \"Anmälda brott\" (reported crimes) statistics, including the bedrägeribrott (fraud crime) category, plus periodic reports estimating criminal proceeds from completed fraud.",
+    data_type: 'annual_report',
+  },
 ];
 
 async function seedGlobalSources() {
