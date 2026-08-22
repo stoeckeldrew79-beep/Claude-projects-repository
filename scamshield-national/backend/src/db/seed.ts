@@ -3522,6 +3522,36 @@ const SEED_SCAMS: SeedScam[] = [
     alertLevel: 'critical',
     sources: ['Reserve Bank of India', 'Indian Cyber Crime Coordination Centre (I4C)'],
   },
+  {
+    name: 'Canadian Immigration (IRCC) Deportation Threat Scam',
+    slug: 'canada-ircc-deportation-threat-scam',
+    description:
+      'A caller impersonating Immigration, Refugees and Citizenship Canada or the Canada Border Services Agency claims a problem with the victim\'s visa or immigration status and threatens immediate deportation unless a fee is paid or personal documents are provided over the phone. IRCC does not resolve immigration status issues by phone call demanding immediate payment; genuine case updates come through a person\'s own secure IRCC account.',
+    categorySlug: 'government-impersonation',
+    country: 'CA',
+    alertLevel: 'high',
+    sources: ['Canadian Anti-Fraud Centre'],
+  },
+  {
+    name: 'Irish Utility Disconnection Scam',
+    slug: 'ireland-utility-disconnection-scam',
+    description:
+      'A caller impersonating an Irish energy provider claims an overdue bill will result in same-day disconnection unless paid immediately via an unusual payment method like a prepaid voucher. Irish energy regulator rules require multiple written disconnection notices in advance; a same-day phone threat is not how a real disconnection process works.',
+    categorySlug: 'utility-scams',
+    country: 'IE',
+    alertLevel: 'medium',
+    sources: ['An Garda Síochána', 'Commission for Regulation of Utilities (Ireland)'],
+  },
+  {
+    name: 'Swedish Pension Authority Phishing Scam',
+    slug: 'sweden-pensionsmyndigheten-phishing-scam',
+    description:
+      'An email or text impersonating Pensionsmyndigheten, Sweden\'s national pension agency, claims a pension recalculation requires the recipient to log in through a provided link, harvesting BankID or personal identification details. The agency communicates real changes to pension payments through a person\'s own verified account or by post, not an unsolicited link.',
+    categorySlug: 'government-impersonation',
+    country: 'SE',
+    alertLevel: 'medium',
+    sources: ['Polisen (Swedish Police Authority)'],
+  },
 ];
 
 async function seedCategoriesAndScams() {
