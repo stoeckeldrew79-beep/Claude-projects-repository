@@ -3892,6 +3892,15 @@ const SEED_GLOBAL_SOURCES: SeedGlobalSource[] = [
     data_type: 'public_stats',
   },
   {
+    agency_name: 'National Police Agency (Japan)',
+    country: 'JP',
+    country_name: 'Japan',
+    url: 'https://www.npa.go.jp/bureau/safetylife/sos47/circumstances/statistics/',
+    description:
+      'Japan\'s national police agency. Publishes annual and half-yearly statistics on "tokushu sagi" (specified/organized fraud) — the umbrella category covering fake-police calls, family-emergency impersonation, and refund scams — the actual source of Japan\'s national fraud case counts and damage figures that NCAC does not itself track.',
+    data_type: 'public_stats',
+  },
+  {
     agency_name: 'Fraudehelpdesk (Dutch National Anti-Fraud Hotline)',
     country: 'NL',
     country_name: 'Netherlands',
