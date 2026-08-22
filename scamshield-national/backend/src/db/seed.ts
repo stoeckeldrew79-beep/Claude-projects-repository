@@ -3592,6 +3592,26 @@ const SEED_SCAMS: SeedScam[] = [
     alertLevel: 'high',
     sources: ['Indian Cyber Crime Coordination Centre (I4C)', 'National Payments Corporation of India'],
   },
+  {
+    name: 'UK DVLA Vehicle Tax Refund Scam',
+    slug: 'uk-dvla-vehicle-tax-refund-scam',
+    description:
+      'A text or email impersonating the DVLA claims a vehicle tax refund is owed and links to a fake gov.uk-style page harvesting banking details. The DVLA issues real refunds automatically to the account on file when a vehicle is sold or taxed incorrectly, without requiring the recipient to click a link or provide card details.',
+    categorySlug: 'government-impersonation',
+    country: 'GB',
+    alertLevel: 'medium',
+    sources: ['UK Action Fraud'],
+  },
+  {
+    name: 'French Colissimo Delivery Fee Scam',
+    slug: 'france-colissimo-delivery-scam',
+    description:
+      'A text impersonating Colissimo, the parcel delivery service of France\'s postal operator La Poste, claims a package requires a small redelivery fee and links to a fake payment page harvesting card details — one of the most reported smishing campaigns tracked by French authorities. Colissimo does not request card payments through unsolicited text links.',
+    categorySlug: 'package-delivery-scams',
+    country: 'FR',
+    alertLevel: 'medium',
+    sources: ['Info Escroqueries (France)'],
+  },
 ];
 
 async function seedCategoriesAndScams() {
