@@ -3632,6 +3632,16 @@ const SEED_SCAMS: SeedScam[] = [
     alertLevel: 'medium',
     sources: ['Polisen (Swedish Police Authority)'],
   },
+  {
+    name: 'Canadian SIN Suspension Scam',
+    slug: 'canada-sin-suspension-scam',
+    description:
+      'A caller impersonating Service Canada claims the victim\'s Social Insurance Number has been suspended or linked to criminal activity and threatens arrest unless personal information is confirmed or a fee is paid to reactivate it — mirroring the U.S. Social Security Administration impersonation pattern but using Canada\'s SIN system specifically. Service Canada does not suspend SIN numbers or resolve such issues by demanding payment over the phone.',
+    categorySlug: 'government-impersonation',
+    country: 'CA',
+    alertLevel: 'high',
+    sources: ['Canadian Anti-Fraud Centre'],
+  },
 ];
 
 async function seedCategoriesAndScams() {
