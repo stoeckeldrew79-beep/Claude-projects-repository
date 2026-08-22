@@ -3749,12 +3749,12 @@ const SEED_GLOBAL_SOURCES: SeedGlobalSource[] = [
     data_type: 'public_stats',
   },
   {
-    agency_name: 'CERT NZ (National Cyber Security Centre)',
+    agency_name: 'National Cyber Security Centre (NCSC) — formerly CERT NZ',
     country: 'NZ',
     country_name: 'New Zealand',
-    url: 'https://www.cert.govt.nz/insights-and-research/quarterly-report/',
+    url: 'https://www.ncsc.govt.nz/insights-and-research/insights-reports/',
     description:
-      "New Zealand's government cyber security response agency. Publishes quarterly \"Cyber Security Insights\" reports covering reported scam, phishing, and fraud activity; scam reports for the public also route through the non-profit Netsafe.",
+      "New Zealand's government cyber security response agency. CERT NZ was fully merged into the NCSC and its standalone brand retired; the combined agency publishes quarterly \"Cyber Security Insights\" reports covering reported scam, phishing, and fraud activity. Scam reports for the public also route through the non-profit Netsafe.",
     data_type: 'public_stats',
   },
   {
