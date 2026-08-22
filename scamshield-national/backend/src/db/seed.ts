@@ -3292,6 +3292,56 @@ const SEED_SCAMS: SeedScam[] = [
     alertLevel: 'medium',
     sources: ['New Zealand Inland Revenue', 'Netsafe'],
   },
+  {
+    name: 'French "Arnaque au Président" CEO Fraud',
+    slug: 'france-arnaque-au-president-ceo-fraud',
+    description:
+      'Known in France as "l\'arnaque au président" (the president scam), a fraudster impersonates a company\'s CEO or president, often using a spoofed email or a cloned voice, to pressure an employee — usually in finance — into an urgent, confidential wire transfer, exploiting French corporate culture\'s deference to executive authority. French police and Info Escroqueries have tracked this as a leading cause of major corporate fraud losses in France since it first came to wide public attention in the early 2010s; any urgent, secretive wire request should be verified through a separate, independently obtained contact method.',
+    categorySlug: 'business-email-compromise',
+    country: 'FR',
+    alertLevel: 'high',
+    sources: ['Info Escroqueries (France)'],
+  },
+  {
+    name: 'French CAF Family Benefits Phishing Text',
+    slug: 'france-caf-benefits-phishing-text',
+    description:
+      'A text impersonating the CAF (Caisse d\'Allocations Familiales), which administers French family and housing benefits, claims a payment is blocked pending identity verification and links to a fake caf.fr login page harvesting personal and banking details. CAF communicates real account issues through a beneficiary\'s own verified online account or by post, not unsolicited text links.',
+    categorySlug: 'public-benefits-fraud',
+    country: 'FR',
+    alertLevel: 'medium',
+    sources: ['Info Escroqueries (France)'],
+  },
+  {
+    name: 'UK Bank "Safe Account" Impersonation Scam',
+    slug: 'uk-bank-safe-account-impersonation-scam',
+    description:
+      'A caller impersonating a UK bank\'s fraud department claims the victim\'s account has been compromised and instructs them to transfer all funds to a new "safe account" to protect it — the new account is actually controlled by the scammer. UK banks and Action Fraud have run extensive public warnings that no legitimate bank will ever ask a customer to move money to a different account for safekeeping.',
+    categorySlug: 'account-takeover',
+    country: 'GB',
+    alertLevel: 'critical',
+    sources: ['UK Action Fraud', 'UK Finance'],
+  },
+  {
+    name: 'Canadian Interac e-Transfer Phishing Scam',
+    slug: 'canada-interac-etransfer-scam',
+    description:
+      'A text or email claims a Canadian Interac e-Transfer payment is waiting and links to a fake bank login page to "accept" the funds, harvesting online banking credentials — exploiting how routine e-Transfer notifications are in everyday Canadian banking. Real e-Transfer deposits are accepted directly within a person\'s own banking app, never through a link in an unsolicited text.',
+    categorySlug: 'phishing',
+    country: 'CA',
+    alertLevel: 'medium',
+    sources: ['Canadian Anti-Fraud Centre'],
+  },
+  {
+    name: 'Australian NBN Co Internet Disconnection Scam',
+    slug: 'australia-nbn-disconnection-scam',
+    description:
+      'A caller impersonating NBN Co, Australia\'s national broadband network provider, claims the victim\'s internet connection has been compromised or is about to be disconnected due to a technical issue, requesting remote access to their computer to "fix" it. NBN Co does not call customers directly to request remote access — it works only through a customer\'s own retail internet provider.',
+    categorySlug: 'tech-support-scams',
+    country: 'AU',
+    alertLevel: 'medium',
+    sources: ['Scamwatch (Australian Competition and Consumer Commission)'],
+  },
 ];
 
 async function seedCategoriesAndScams() {
