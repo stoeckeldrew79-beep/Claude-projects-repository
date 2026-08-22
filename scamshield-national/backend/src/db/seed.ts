@@ -3785,6 +3785,15 @@ const SEED_GLOBAL_SOURCES: SeedGlobalSource[] = [
     data_type: 'public_stats',
   },
   {
+    agency_name: 'Bundeskriminalamt (BKA) — Cybercrime Bundeslagebild',
+    country: 'DE',
+    country_name: 'Germany',
+    url: 'https://www.bka.de/DE/AktuelleInformationen/StatistikenLagebilder/Lagebilder/Cybercrime/cybercrime_node.html',
+    description:
+      "Germany's Federal Criminal Police Office. Publishes an annual \"Bundeslagebild Cybercrime\" report with nationwide case counts and financial-damage figures for cybercrime, including fraud committed online — the closest German equivalent to the FTC/IC3-style report-and-loss data.",
+    data_type: 'annual_report',
+  },
+  {
     agency_name: 'National Consumer Affairs Center of Japan (NCAC)',
     country: 'JP',
     country_name: 'Japan',
