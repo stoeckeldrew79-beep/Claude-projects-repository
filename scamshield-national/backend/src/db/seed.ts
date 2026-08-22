@@ -3342,6 +3342,46 @@ const SEED_SCAMS: SeedScam[] = [
     alertLevel: 'medium',
     sources: ['Scamwatch (Australian Competition and Consumer Commission)'],
   },
+  {
+    name: 'German Schufa Credit Score Phishing Email',
+    slug: 'germany-schufa-credit-score-phishing-email',
+    description:
+      'An email impersonating Schufa, Germany\'s dominant credit bureau, claims a negative entry has been added to the recipient\'s credit file and links to a fake login page requesting personal ID and banking details to "dispute" it. Schufa communicates real changes to a credit file by post or through a consumer\'s own verified online account, not an emailed dispute link.',
+    categorySlug: 'identity-theft',
+    country: 'DE',
+    alertLevel: 'medium',
+    sources: ['German Federal Office for Information Security (BSI)'],
+  },
+  {
+    name: 'Japanese Convenience Store Prepaid Card Payment Scam',
+    slug: 'japan-konbini-prepaid-card-scam',
+    description:
+      'A caller or message instructs the victim to purchase prepaid cards at a local convenience store (konbini) and read the card codes over the phone to pay a supposed unpaid bill, tax debt, or legal fee — a payment method Japan\'s National Police Agency specifically warns is never used by any legitimate biller. No government agency or real company in Japan accepts prepaid convenience-store card codes as payment.',
+    categorySlug: 'government-impersonation',
+    country: 'JP',
+    alertLevel: 'high',
+    sources: ['Japan National Police Agency'],
+  },
+  {
+    name: 'Indian Fake Courier / Customs Parcel Scam',
+    slug: 'india-courier-customs-parcel-scam',
+    description:
+      'A call or message claims a parcel addressed to the victim was intercepted by customs and found to contain illegal items or unpaid duty, demanding an immediate payment or personal and banking details to release it or avoid police involvement — frequently escalating into the broader "digital arrest" pattern once initial payment is made. India\'s cybercrime authorities note this scam often specifically targets people who have never ordered anything, relying on fear alone rather than any real shipment.',
+    categorySlug: 'government-impersonation',
+    country: 'IN',
+    alertLevel: 'high',
+    sources: ['Indian Cyber Crime Coordination Centre (I4C)'],
+  },
+  {
+    name: 'UK Pension Liberation / Early Access Scam',
+    slug: 'uk-pension-liberation-scam',
+    description:
+      'A cold call or advert offers to help someone access their UK pension savings before the legal minimum age, promising a loophole or "liberation" scheme, but the transfer instead moves the pension into a fraudulent or high-risk unregulated investment, often triggering a large tax penalty on top of the loss. The Financial Conduct Authority and Action Fraud have run long-running "ScamSmart" campaigns specifically warning about unsolicited pension transfer offers.',
+    categorySlug: 'investment-fraud',
+    country: 'GB',
+    alertLevel: 'high',
+    sources: ['UK Financial Conduct Authority', 'UK Action Fraud'],
+  },
 ];
 
 async function seedCategoriesAndScams() {
