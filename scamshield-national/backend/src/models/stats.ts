@@ -32,3 +32,34 @@ export async function getSiteStats(): Promise<SiteStats> {
     sources: Number(sources.rows[0].count),
   };
 }
+
+export interface StatsBreakdown {
+  byCategory: { name: string; count: number }[];
+  byCountry: { country: string; count: number }[];
+}
+
+// Same live-COUNT(*) principle as getSiteStats — this just slices the
+// same active scams by category and by country instead of totaling them.
+export async function getStatsBreakdown(): Promise<StatsBreakdown> {
+  const [byCategory, byCountry] = await Promise.all([
+    pool.query(`
+      SELECT c.name, COUNT(s.id)::int AS count
+      FROM categories c
+      LEFT JOIN scams s ON s.category_id = c.id AND s.is_active = true
+      GROUP BY c.name
+      ORDER BY count DESC, c.name ASC
+    `),
+    pool.query(`
+      SELECT country, COUNT(*)::int AS count
+      FROM scams
+      WHERE is_active = true AND country IS NOT NULL
+      GROUP BY country
+      ORDER BY count DESC, country ASC
+    `),
+  ]);
+
+  return {
+    byCategory: byCategory.rows,
+    byCountry: byCountry.rows,
+  };
+}

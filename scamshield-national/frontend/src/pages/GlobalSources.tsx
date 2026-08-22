@@ -8,7 +8,7 @@ const DATA_TYPE_LABEL: Record<GlobalSource['data_type'], string> = {
   public_stats: 'Public statistics',
 };
 
-function formatLoss(stat: GlobalStat): string | null {
+export function formatLoss(stat: GlobalStat): string | null {
   if (stat.loss_amount == null) return null;
   const amount = Number(stat.loss_amount);
   const formatted = new Intl.NumberFormat('en-US', { maximumFractionDigits: 0 }).format(amount);

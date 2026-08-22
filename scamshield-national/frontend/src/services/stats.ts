@@ -11,3 +11,13 @@ export async function fetchStats() {
   const { data } = await api.get<{ data: SiteStats }>('/stats');
   return data.data;
 }
+
+export interface StatsBreakdown {
+  byCategory: { name: string; count: number }[];
+  byCountry: { country: string; count: number }[];
+}
+
+export async function fetchStatsBreakdown() {
+  const { data } = await api.get<{ data: StatsBreakdown }>('/stats/breakdown');
+  return data.data;
+}
