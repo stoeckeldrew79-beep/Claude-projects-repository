@@ -56,6 +56,9 @@ app.use((err: unknown, _req: Request, res: Response, _next: NextFunction) => {
 });
 
 const port = process.env.PORT ? Number(process.env.PORT) : 3000;
-app.listen(port, () => {
+// Binding to 0.0.0.0 explicitly (rather than leaving the host default)
+// avoids an IPv6-only bind on Windows, where Node's default listen()
+// otherwise refuses IPv4 connections to http://localhost from the browser.
+app.listen(port, '0.0.0.0', () => {
   console.log(`ScamShield National API listening on :${port}`);
 });
