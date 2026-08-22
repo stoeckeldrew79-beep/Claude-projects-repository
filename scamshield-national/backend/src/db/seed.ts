@@ -3422,6 +3422,46 @@ const SEED_SCAMS: SeedScam[] = [
     alertLevel: 'medium',
     sources: ['Canadian Anti-Fraud Centre'],
   },
+  {
+    name: 'Irish Bank Fraud Department Impersonation Call',
+    slug: 'ireland-bank-fraud-department-scam',
+    description:
+      'A caller impersonating a customer\'s Irish bank claims fraudulent activity has been detected and instructs them to move their money to a new "safe" account or to read out a one-time SMS passcode to "verify" their identity — the code is then used to authorize a real fraudulent transfer. Irish banks and An Garda Síochána have run repeated public warnings that a bank will never ask a customer to move funds to another account or share a one-time passcode over the phone.',
+    categorySlug: 'account-takeover',
+    country: 'IE',
+    alertLevel: 'critical',
+    sources: ['An Garda Síochána', 'Banking & Payments Federation Ireland'],
+  },
+  {
+    name: 'Swedish Swish Payment Scam',
+    slug: 'sweden-swish-payment-scam',
+    description:
+      'A seller on a Swedish online marketplace asks a buyer to send payment via Swish, the country\'s near-universal mobile payment app, before shipping an item, then never delivers it — or a scammer posing as a buyer sends a fake "Swish confirmation" screenshot claiming payment was sent when it wasn\'t. Because Swish transfers are instant and difficult to reverse, confirming an actual balance change in one\'s own banking app, not a screenshot, before releasing goods is the necessary check.',
+    categorySlug: 'online-shopping-scams',
+    country: 'SE',
+    alertLevel: 'medium',
+    sources: ['Polisen (Swedish Police Authority)'],
+  },
+  {
+    name: 'NZ Vehicle Registration Renewal Scam',
+    slug: 'newzealand-vehicle-rego-renewal-scam',
+    description:
+      'A text or email impersonating Waka Kotahi NZ Transport Agency claims a vehicle registration is about to expire and links to a fake payment page harvesting card details, exploiting how routine rego renewal reminders already come by text in New Zealand. Real registration renewal is completed only through the official Waka Kotahi website or in person, not a link in an unsolicited message.',
+    categorySlug: 'government-impersonation',
+    country: 'NZ',
+    alertLevel: 'low',
+    sources: ['Netsafe (New Zealand)'],
+  },
+  {
+    name: 'French Ameli Health Insurance Phishing Scam',
+    slug: 'france-ameli-health-insurance-phishing-scam',
+    description:
+      'An email or text impersonating Ameli, the online portal for France\'s national health insurance system, claims a reimbursement is pending and links to a fake login page harvesting social security numbers and banking details. Ameli communicates real reimbursement information directly through a person\'s own verified account, not an unsolicited link.',
+    categorySlug: 'healthcare-fraud',
+    country: 'FR',
+    alertLevel: 'medium',
+    sources: ['Info Escroqueries (France)'],
+  },
 ];
 
 async function seedCategoriesAndScams() {
