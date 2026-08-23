@@ -4222,6 +4222,56 @@ const SEED_SCAMS: SeedScam[] = [
     alertLevel: 'medium',
     sources: ['Fraudehelpdesk (Netherlands)'],
   },
+  {
+    name: 'Irish Romance Scam',
+    slug: 'ireland-romance-scam',
+    description:
+      'A relationship built over weeks or months through a dating app or social media, often with a scammer claiming to work overseas in construction, the military, or as a doctor, eventually leads to a fabricated crisis — a medical emergency, customs fees on a gift shipment, or a stranded flight home — that only the victim\'s money can resolve. An Garda Síochána runs periodic awareness campaigns specifically on romance fraud and advises that an online-only partner who has never video-called live or met in person, and who has an urgent financial crisis, is one of the clearest warning signs.',
+    categorySlug: 'romance-scams',
+    country: 'IE',
+    alertLevel: 'high',
+    sources: ['An Garda Síochána'],
+  },
+  {
+    name: 'Australian Tax Office Impersonation Scam',
+    slug: 'australia-ato-tax-scam',
+    description:
+      'A caller or text impersonating the Australian Taxation Office (ATO) claims an outstanding tax debt or a warrant for arrest, demanding immediate payment through gift cards, cryptocurrency, or a bank transfer to avoid legal action. The ATO confirms it will never threaten immediate arrest, demand payment by gift card or cryptocurrency, or ask for payment over the phone during an unsolicited call, and directs anyone unsure about contact to log in directly to their own myGov or ATO online account to check their real tax status.',
+    categorySlug: 'tax-scams',
+    country: 'AU',
+    alertLevel: 'high',
+    sources: ['Australian Taxation Office (ATO)', 'Scamwatch (ACCC)'],
+  },
+  {
+    name: 'French DGFiP Tax Refund Phishing Scam',
+    slug: 'france-dgfip-tax-phishing-scam',
+    description:
+      'A text or email impersonating the Direction générale des Finances publiques (DGFiP), France\'s tax administration, claims a refund is pending and links to a fake impots.gouv.fr login page that harvests tax numbers and banking details, distinct from the separate CAF family-benefits version of this scam. The DGFiP confirms that genuine refund information is only ever available through a taxpayer\'s own verified impots.gouv.fr account, never through a link in an unsolicited text or email.',
+    categorySlug: 'tax-scams',
+    country: 'FR',
+    alertLevel: 'medium',
+    sources: ['Direction générale des Finances publiques (DGFiP)'],
+  },
+  {
+    name: 'Japanese International Romance Scam',
+    slug: 'japan-international-romance-scam',
+    description:
+      'A relationship built through a dating app or social media with someone claiming to be a foreign military officer, doctor, or engineer working overseas develops over months of messages and calls before a fabricated crisis — customs fees on a valuable gift shipment, a medical emergency, or a stuck business payment — requires the victim to send money, sometimes repeatedly as new complications appear. Japan\'s National Police Agency tracks this as a distinct pattern from the SNS-based investment-romance hybrid scam, since it relies purely on emotional appeals rather than a fake trading platform, and advises treating any online-only partner\'s urgent request for money as a certain sign of fraud.',
+    categorySlug: 'romance-scams',
+    country: 'JP',
+    alertLevel: 'high',
+    sources: ['Japan National Police Agency'],
+  },
+  {
+    name: 'New Zealand Business Email Compromise Scam',
+    slug: 'newzealand-business-email-compromise-scam',
+    description:
+      'A business receives what looks like a routine email from a known supplier or an executive, but the account has actually been compromised or closely spoofed, instructing a change to bank details on an upcoming invoice or an urgent wire transfer for a time-sensitive deal. NCSC New Zealand has specifically flagged business email compromise as a leading driver of its largest quarterly financial-loss spikes, and recommends verifying any changed payment details or unusual transfer request by phone, using a number already on file rather than one provided in the email itself.',
+    categorySlug: 'business-email-compromise',
+    country: 'NZ',
+    alertLevel: 'critical',
+    sources: ['National Cyber Security Centre (NCSC) — formerly CERT NZ'],
+  },
 ];
 
 async function seedCategoriesAndScams() {
