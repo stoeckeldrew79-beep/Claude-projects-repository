@@ -3932,6 +3932,56 @@ const SEED_SCAMS: SeedScam[] = [
     alertLevel: 'medium',
     sources: ['Netsafe', 'Employment New Zealand'],
   },
+  {
+    name: 'French AMF Unauthorized Investment Platform Scam',
+    slug: 'france-amf-investment-scam',
+    description:
+      'A slick trading website or app, often promoted through targeted social media ads, promises high guaranteed returns on forex, crypto, or "diamond" investments, but is never actually registered to operate in France, and initial small withdrawals are used to build trust before larger deposits vanish entirely. The Autorité des marchés financiers (AMF) maintains a public blacklist of unauthorized platforms and warns that a real investment firm operating in France must be registered with the AMF or the ACPR, which any consumer can verify before depositing money.',
+    categorySlug: 'investment-fraud',
+    country: 'FR',
+    alertLevel: 'critical',
+    sources: ['Autorité des marchés financiers (AMF)'],
+  },
+  {
+    name: 'Canadian Securities Regulator Investment Scam',
+    slug: 'canada-csa-investment-scam',
+    description:
+      'An online ad or unsolicited message promotes a cryptocurrency or forex trading platform showing a rapidly growing account balance, encouraging the victim to deposit progressively larger sums before withdrawals are blocked with demands for further "release" or "tax" payments. The Canadian Securities Administrators, the umbrella group of provincial securities regulators, maintains a public list of unregistered firms and investor warnings, and stresses that any platform managing Canadians\' investments must be registered with a provincial regulator.',
+    categorySlug: 'investment-fraud',
+    country: 'CA',
+    alertLevel: 'critical',
+    sources: ['Canadian Securities Administrators (CSA)', 'Canadian Anti-Fraud Centre'],
+  },
+  {
+    name: 'Swedish Vinted and Blocket Marketplace Scam',
+    slug: 'sweden-vinted-blocket-marketplace-scam',
+    description:
+      'A seller on Vinted or Blocket, Sweden\'s most popular secondhand marketplaces, asks the buyer to complete payment outside the platform\'s own protected checkout — often through a fake shipping-label link or a direct Swish transfer — and never ships the item, or a buyer sends a fake payment confirmation screenshot to pressure a seller into shipping before funds actually arrive. Polisen advises keeping all payment and shipping steps inside the marketplace\'s own official app, since that is the only way a buyer or seller is covered if something goes wrong.',
+    categorySlug: 'online-shopping-scams',
+    country: 'SE',
+    alertLevel: 'medium',
+    sources: ['Polisen (Swedish Police Authority)'],
+  },
+  {
+    name: 'German Fake Charity Donation Scam',
+    slug: 'germany-fake-charity-donation-scam',
+    description:
+      'In the days after a widely covered disaster, a fake charity collects door-to-door, by phone, or through a slick-looking website using a name deliberately similar to a well-known relief organization, keeping the donations for itself rather than passing them to victims. The DZI (Deutsches Zentralinstitut für soziale Fragen) maintains Germany\'s donation-seal registry and advises checking for its "DZI Spenden-Siegel" or donating directly through an established organization\'s own verified website rather than a collector or link that approached the donor first.',
+    categorySlug: 'charity-scams',
+    country: 'DE',
+    alertLevel: 'medium',
+    sources: ['DZI (Deutsches Zentralinstitut für soziale Fragen)'],
+  },
+  {
+    name: 'Dutch AFM Unauthorized Investment Scam',
+    slug: 'netherlands-afm-investment-scam',
+    description:
+      'A trading platform advertised through social media or a cold WhatsApp message promises high, steady returns on crypto or forex trading, often using a fake Dutch celebrity endorsement generated with AI, and blocks withdrawals once a large enough deposit is collected. The Autoriteit Financiële Markten (AFM) maintains a public warning list of unauthorized investment providers and stresses that any firm offering investment services in the Netherlands must hold a genuine AFM license, which can be verified directly on the regulator\'s own register.',
+    categorySlug: 'investment-fraud',
+    country: 'NL',
+    alertLevel: 'critical',
+    sources: ['Autoriteit Financiële Markten (AFM)'],
+  },
 ];
 
 async function seedCategoriesAndScams() {
