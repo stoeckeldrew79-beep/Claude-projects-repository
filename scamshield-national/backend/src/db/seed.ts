@@ -4292,6 +4292,26 @@ const SEED_SCAMS: SeedScam[] = [
     alertLevel: 'high',
     sources: ['Insurance Fraud Bureau (UK)', 'Financial Conduct Authority (FCA)'],
   },
+  {
+    name: 'Indian Income Tax Refund Phishing Scam',
+    slug: 'india-income-tax-refund-phishing-scam',
+    description:
+      'A text or email impersonating India\'s Income Tax Department claims a refund is pending and links to a fake e-filing portal that harvests PAN card numbers and banking credentials, distinct from the more elaborate "digital arrest" and customs-parcel impersonation scams already common in India. The Income Tax Department confirms that refund status is only ever available through a taxpayer\'s own verified account on the official incometax.gov.in portal, never through a link in an unsolicited text or email.',
+    categorySlug: 'tax-scams',
+    country: 'IN',
+    alertLevel: 'medium',
+    sources: ['National Cyber Crime Reporting Portal (NCRP)'],
+  },
+  {
+    name: 'German Bürgergeld Benefits Phishing Scam',
+    slug: 'germany-burgergeld-benefits-phishing-scam',
+    description:
+      'A text or email impersonating the Bundesagentur für Arbeit claims an issue with a recipient\'s Bürgergeld (basic income support) payment and links to a fake login page that harvests personal and banking details, threatening suspension of benefits if the recipient doesn\'t act immediately. The Bundesagentur für Arbeit confirms that genuine correspondence about benefit payments arrives by post or through a recipient\'s own verified online account, never through a link in an unsolicited text or email demanding immediate action.',
+    categorySlug: 'public-benefits-fraud',
+    country: 'DE',
+    alertLevel: 'medium',
+    sources: ['Bundesagentur für Arbeit'],
+  },
 ];
 
 async function seedCategoriesAndScams() {
