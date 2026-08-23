@@ -37,7 +37,7 @@ export default function ArticleDetail() {
           <img
             src={article.cover_image}
             alt={article.title}
-            className="rounded-lg w-full h-56 object-cover"
+            className="rounded-lg w-full h-56 object-cover object-top"
           />
           {article.cover_image_credit && (
             <p className="mt-1 text-xs text-slate-400 text-right">{article.cover_image_credit}</p>
