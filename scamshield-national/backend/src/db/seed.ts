@@ -4102,6 +4102,56 @@ const SEED_SCAMS: SeedScam[] = [
     alertLevel: 'high',
     sources: ['Fraudehelpdesk (Netherlands)'],
   },
+  {
+    name: 'Irish DoneDeal Marketplace Scam',
+    slug: 'ireland-donedeal-marketplace-scam',
+    description:
+      'A seller on DoneDeal, Ireland\'s largest classifieds marketplace, lists a popular item — often a car, phone, or concert ticket — well below market price and pressures the buyer to pay by bank transfer before collection, then stops responding once payment clears; a reverse version has a "buyer" send a fake payment confirmation to pressure a seller into shipping before funds actually arrive. The CCPC advises completing payment and collection in person where possible, and treating any request to pay upfront by transfer for an item not yet seen as a serious warning sign.',
+    categorySlug: 'online-shopping-scams',
+    country: 'IE',
+    alertLevel: 'medium',
+    sources: ['Competition and Consumer Protection Commission (CCPC)'],
+  },
+  {
+    name: 'Australian Gumtree Marketplace Scam',
+    slug: 'australia-gumtree-marketplace-scam',
+    description:
+      'A seller on Gumtree, one of Australia\'s most popular classifieds sites, lists a desirable item at an unusually low price and asks the buyer to pay upfront via bank transfer or gift card before pickup, then disappears once payment is sent — a reverse version targets sellers with a fake "overpayment" that requires refunding the difference before the original payment (which never arrives) is confirmed. Scamwatch advises meeting in person to inspect and pay for an item together, and treating any pressure to pay before seeing an item, or to refund an "overpayment," as a clear warning sign.',
+    categorySlug: 'online-shopping-scams',
+    country: 'AU',
+    alertLevel: 'medium',
+    sources: ['Scamwatch (ACCC)'],
+  },
+  {
+    name: 'Japanese Mercari Marketplace Scam',
+    slug: 'japan-mercari-marketplace-scam',
+    description:
+      'A seller on Mercari, Japan\'s dominant secondhand marketplace app, directs a buyer to complete payment outside the app\'s own escrow system — often through a bank transfer or a fake external payment link — to avoid platform fees, then never ships the item; because Mercari\'s built-in escrow only releases funds to the seller after the buyer confirms receipt, moving payment outside it removes that protection entirely. Japan\'s National Police Agency and Mercari itself advise completing every step of a transaction inside the app, since a request to pay "off-platform" to save on fees is one of the clearest signs of a marketplace scam.',
+    categorySlug: 'online-shopping-scams',
+    country: 'JP',
+    alertLevel: 'medium',
+    sources: ['Japan National Police Agency'],
+  },
+  {
+    name: 'New Zealand Dating App Romance Scam',
+    slug: 'newzealand-dating-app-romance-scam',
+    description:
+      'A relationship built over weeks through a dating app, often with a scammer claiming to work overseas in construction, the military, or as a doctor, eventually leads to a fabricated emergency — medical bills, a stuck shipment of gifts, or a stranded flight home — that only the victim\'s money can resolve, sometimes escalating over months as new crises appear each time the previous debt is paid. Netsafe names romance scams among its most financially damaging categories and advises treating any online-only partner\'s urgent request for money, however compelling the story, as a reason to stop and verify independently before sending anything.',
+    categorySlug: 'romance-scams',
+    country: 'NZ',
+    alertLevel: 'high',
+    sources: ['Netsafe'],
+  },
+  {
+    name: 'Indian Fake Customer Care Number Scam',
+    slug: 'india-fake-customer-care-scam',
+    description:
+      'Searching online for a company\'s customer care number — commonly for a bank, airline, or e-commerce platform like Amazon or Flipkart — surfaces a fraudulent number planted through fake listings or paid ads, and the "support agent" who answers requests remote-access software or banking OTPs to "process" a refund or complaint, then drains the victim\'s account. India\'s NCRP and CERT-In advise always using the phone number or support link listed directly on a company\'s own official app or website, never one found through a general web search.',
+    categorySlug: 'tech-support-scams',
+    country: 'IN',
+    alertLevel: 'high',
+    sources: ['National Cyber Crime Reporting Portal (NCRP)', 'CERT-In'],
+  },
 ];
 
 async function seedCategoriesAndScams() {
