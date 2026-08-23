@@ -4042,6 +4042,66 @@ const SEED_SCAMS: SeedScam[] = [
     alertLevel: 'medium',
     sources: ['Netsafe', 'Charities Services (New Zealand)'],
   },
+  {
+    name: 'German BaFin Unauthorized Investment Scam',
+    slug: 'germany-bafin-investment-scam',
+    description:
+      'A trading platform advertised through social media or a cold message promises high, steady returns on crypto or forex trading, often using a fake endorsement from a German celebrity or news outlet, and blocks withdrawals once a large enough deposit has been collected. BaFin (the Federal Financial Supervisory Authority) maintains a public warning list of unauthorized providers and stresses that any firm offering investment services in Germany must hold a genuine BaFin license, which can be verified directly on the regulator\'s own database.',
+    categorySlug: 'investment-fraud',
+    country: 'DE',
+    alertLevel: 'critical',
+    sources: ['BaFin (Federal Financial Supervisory Authority)'],
+  },
+  {
+    name: 'French Webcam Sextortion Scam',
+    slug: 'france-sextortion-webcam-scam',
+    description:
+      'A contact met on social media or a dating app quickly moves the conversation to video chat and records the victim in a compromising moment, either through consensual webcam activity or a screen-recorded fake video, then threatens to send the footage to the victim\'s contacts unless a payment is made, often escalating with repeated demands even after payment. Cybermalveillance.gouv.fr and Info Escroqueries advise cutting off contact immediately, never paying, and preserving evidence to report to police, since payment does not reliably stop further threats.',
+    categorySlug: 'sextortion',
+    country: 'FR',
+    alertLevel: 'critical',
+    sources: ['Cybermalveillance.gouv.fr', 'Info Escroqueries'],
+  },
+  {
+    name: 'Canadian Utility Disconnection Scam',
+    slug: 'canada-utility-disconnection-scam',
+    description:
+      'A caller impersonating a local hydro, gas, or water utility claims the victim\'s account is overdue and threatens same-day disconnection unless payment is made immediately, typically demanding a prepaid gift card or e-transfer to a personal account. The Canadian Anti-Fraud Centre and Canadian utility providers confirm that real utilities never demand immediate payment by gift card and always provide written notice with an appeals process before any disconnection.',
+    categorySlug: 'utility-scams',
+    country: 'CA',
+    alertLevel: 'medium',
+    sources: ['Canadian Anti-Fraud Centre'],
+  },
+  {
+    name: 'Swedish Romance Scam (Kärleksbedrägeri)',
+    slug: 'sweden-romance-scam-karleksbedrageri',
+    description:
+      'A relationship built over weeks or months through a dating app or social media, often with a scammer claiming to work abroad in the military, on an oil rig, or as a doctor, eventually leads to a fabricated crisis — a medical emergency, a stuck shipment of gifts, or a stranded flight — that only money from the victim can resolve. Polisen names kärleksbedrägeri (romance fraud) among Sweden\'s most damaging fraud categories by average loss per victim, and warns that a partner who has never met in person but urgently needs money is the clearest sign of the scam.',
+    categorySlug: 'romance-scams',
+    country: 'SE',
+    alertLevel: 'high',
+    sources: ['Polisen (Swedish Police Authority)'],
+  },
+  {
+    name: 'Singapore OTP Bank Phishing Scam',
+    slug: 'singapore-otp-bank-phishing-scam',
+    description:
+      'A text message impersonating a major Singapore bank — DBS, OCBC, or UOB — warns of a suspicious transaction or account lock and links to a fake login page that harvests banking credentials and the one-time password (OTP) sent to the victim\'s phone, sometimes appearing in the same message thread as genuine past bank texts due to sender ID spoofing. The Singapore Police Force and MAS advise never entering an OTP on a page reached through a text link, since a genuine bank never asks for an OTP to "verify" or "unlock" an account.',
+    categorySlug: 'phishing',
+    country: 'SG',
+    alertLevel: 'critical',
+    sources: ['Singapore Police Force', 'Monetary Authority of Singapore (MAS)'],
+  },
+  {
+    name: 'Dutch "Hoi Mam" WhatsApp Family Emergency Scam',
+    slug: 'netherlands-whatsapp-family-emergency-scam',
+    description:
+      'A WhatsApp message opening with "Hoi mam" or "Hoi pap" claims to be from a child who has lost or broken their phone and is texting from a new number, quickly following up with an urgent request to pay a bill or transfer money on their behalf before the parent can verify. Fraudehelpdesk named this "WhatsAppfraude" pattern one of the most-reported scams in the Netherlands at its peak, and advises calling the family member\'s known number directly, never replying to or transferring money based on the new-number message alone.',
+    categorySlug: 'family-emergency-scams',
+    country: 'NL',
+    alertLevel: 'high',
+    sources: ['Fraudehelpdesk (Netherlands)'],
+  },
 ];
 
 async function seedCategoriesAndScams() {
