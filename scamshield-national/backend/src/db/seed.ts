@@ -3892,6 +3892,46 @@ const SEED_SCAMS: SeedScam[] = [
     alertLevel: 'critical',
     sources: ['Japan National Police Agency'],
   },
+  {
+    name: 'Irish Fake Celebrity-Endorsed Investment Ad Scam',
+    slug: 'ireland-celebrity-investment-ad-scam',
+    description:
+      'A social media ad features a well-known Irish broadcaster, businessperson, or celebrity apparently endorsing a cryptocurrency or trading platform promising guaranteed daily returns — the endorsement is fabricated, often using AI-generated video or a doctored news clip, and the person featured has no connection to the scheme. The Central Bank of Ireland and CCPC have repeatedly warned that no legitimate investment firm needs a celebrity endorsement to guarantee returns, and that the celebrities featured are targets of the fraud too, not participants in it.',
+    categorySlug: 'investment-fraud',
+    country: 'IE',
+    alertLevel: 'critical',
+    sources: ['Central Bank of Ireland', 'Competition and Consumer Protection Commission (CCPC)'],
+  },
+  {
+    name: 'Dutch Postcode Loterij Fake Lottery Win Scam',
+    slug: 'netherlands-postcode-loterij-scam',
+    description:
+      'A message claims the recipient has won a prize in the Nederlandse Postcode Loterij, the Netherlands\' widely played postcode-based lottery, but releasing the winnings requires first paying a "processing fee" or providing banking details — the real lottery never requires a fee to release genuine winnings, and notifies actual winners directly, not through an unsolicited text or email. Fraudehelpdesk lists lottery-win scams impersonating well-known Dutch lotteries as a recurring seasonal spike, particularly around the lottery\'s televised draw dates.',
+    categorySlug: 'lottery-sweepstakes-scams',
+    country: 'NL',
+    alertLevel: 'medium',
+    sources: ['Fraudehelpdesk (Netherlands)'],
+  },
+  {
+    name: 'Indian Fake Government Job Recruitment Scam',
+    slug: 'india-fake-government-job-scam',
+    description:
+      'A recruitment ad or agent promises a coveted government position — railways, police, or a state department — in exchange for an upfront "processing," "training kit," or "guaranteed selection" fee, producing forged offer letters and fake interview calls to sustain the illusion before disappearing once payment is collected. Indian state police and the Staff Selection Commission repeatedly warn that all genuine government recruitment is free and conducted only through official public exam boards, never through a fee-charging middleman or agent.',
+    categorySlug: 'employment-scams',
+    country: 'IN',
+    alertLevel: 'high',
+    sources: ['National Cyber Crime Reporting Portal (NCRP)'],
+  },
+  {
+    name: 'New Zealand Fake Job Offer Scam',
+    slug: 'newzealand-fake-job-offer-scam',
+    description:
+      'A job listing on LinkedIn, Seek, or Facebook offers remote, high-paying work with minimal qualifications, then asks the applicant to pay upfront for a "starter kit," training course, or background-check fee, or to deposit a fraudulent check and wire back the "overpayment" before the check bounces. Netsafe and Employment New Zealand advise that a genuine employer never asks a new hire to pay for their own equipment or training before a role begins, or to handle company funds through a personal account.',
+    categorySlug: 'employment-scams',
+    country: 'NZ',
+    alertLevel: 'medium',
+    sources: ['Netsafe', 'Employment New Zealand'],
+  },
 ];
 
 async function seedCategoriesAndScams() {
