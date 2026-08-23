@@ -4272,6 +4272,26 @@ const SEED_SCAMS: SeedScam[] = [
     alertLevel: 'critical',
     sources: ['National Cyber Security Centre (NCSC) — formerly CERT NZ'],
   },
+  {
+    name: 'Canadian Sextortion Scam',
+    slug: 'canada-sextortion-scam',
+    description:
+      'A stranger who made contact through social media or a gaming platform convinces the victim, often a teenager, to share an explicit image or video, then immediately threatens to send it to family, friends, and classmates unless a payment is made, frequently continuing to demand more money even after payment. The Canadian Centre for Child Protection and the RCMP have run extensive public campaigns on the sharp rise in sextortion targeting young people, and advise never paying, immediately blocking and reporting the account, and telling a trusted adult or the police rather than handling it alone.',
+    categorySlug: 'sextortion',
+    country: 'CA',
+    alertLevel: 'critical',
+    sources: ['Canadian Centre for Child Protection', 'Royal Canadian Mounted Police (RCMP)'],
+  },
+  {
+    name: 'UK Ghost Broker Car Insurance Scam',
+    slug: 'uk-ghost-broker-insurance-scam',
+    description:
+      'A "broker" advertising unusually cheap car insurance online or through social media sells a policy that is either entirely fake or fraudulently altered after purchase to hide details like a driver\'s real age or claims history, leaving the buyer uninsured and potentially facing prosecution without knowing it. The UK\'s Insurance Fraud Bureau names this practice "ghost broking" and warns that a genuine broker will always be listed on the Financial Conduct Authority\'s register, which any buyer can check before paying for a policy.',
+    categorySlug: 'insurance-fraud',
+    country: 'GB',
+    alertLevel: 'high',
+    sources: ['Insurance Fraud Bureau (UK)', 'Financial Conduct Authority (FCA)'],
+  },
 ];
 
 async function seedCategoriesAndScams() {
