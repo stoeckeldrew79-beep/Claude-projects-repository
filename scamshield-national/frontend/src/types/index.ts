@@ -56,6 +56,7 @@ export interface Article {
   author: string | null;
   cover_image: string | null;
   cover_image_credit: string | null;
+  cover_image_position: number;
   source_url: string | null;
   tags: string[] | null;
   scam_id: string | null;

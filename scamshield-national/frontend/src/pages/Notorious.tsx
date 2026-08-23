@@ -45,7 +45,8 @@ export default function Notorious() {
                   <img
                     src={article.cover_image}
                     alt={article.title}
-                    className="h-full w-full object-cover object-top transition-transform duration-500 group-hover:scale-105"
+                    className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+                    style={{ objectPosition: `50% ${article.cover_image_position}%` }}
                   />
                 ) : (
                   <NotoriousCoverArt slug={article.slug} className="h-full transition-transform duration-500 group-hover:scale-105" />

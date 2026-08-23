@@ -199,10 +199,22 @@ function NotoriousCoverPhotos() {
   const [urlDrafts, setUrlDrafts] = useState<Record<string, string>>({});
   const [creditDrafts, setCreditDrafts] = useState<Record<string, string>>({});
   const [sourceDrafts, setSourceDrafts] = useState<Record<string, string>>({});
+  const [positionDrafts, setPositionDrafts] = useState<Record<string, number>>({});
 
   const mutation = useMutation({
-    mutationFn: ({ id, url, credit, source }: { id: string; url: string; credit: string; source: string }) =>
-      updateArticleCoverImage(id, url, credit, source),
+    mutationFn: ({
+      id,
+      url,
+      credit,
+      source,
+      position,
+    }: {
+      id: string;
+      url: string;
+      credit: string;
+      source: string;
+      position: number;
+    }) => updateArticleCoverImage(id, url, credit, source, position),
     onSuccess: () => queryClient.invalidateQueries({ queryKey: ['articles'] }),
   });
 
@@ -216,7 +228,8 @@ function NotoriousCoverPhotos() {
         domain sources (federal mugshots/press photos, pre-1929 photos) don't need a credit line — Creative Commons
         Attribution photos legally do, so add the required credit text if that's the source. Leave the URL blank to
         keep the abstract art. If no rights-cleared photo exists at all, add a link to a real news story instead —
-        it shows as a "Read the full story" link on the profile rather than a photo.
+        it shows as a "Read the full story" link on the profile rather than a photo. Photos crop to a wide box, so
+        use the focal point slider to pick which part of the photo stays visible (0 = top, 100 = bottom).
       </p>
       {isLoading && <p className="mt-3 text-sm text-slate-500">Loading…</p>}
       <div className="mt-4 space-y-4">
@@ -224,11 +237,17 @@ function NotoriousCoverPhotos() {
           const urlDraft = urlDrafts[article.id] ?? article.cover_image ?? '';
           const creditDraft = creditDrafts[article.id] ?? article.cover_image_credit ?? '';
           const sourceDraft = sourceDrafts[article.id] ?? article.source_url ?? '';
+          const positionDraft = positionDrafts[article.id] ?? article.cover_image_position ?? 50;
           return (
             <div key={article.id} className="flex items-center gap-3">
               <div className="h-12 w-16 shrink-0 overflow-hidden rounded border border-slate-200">
                 {article.cover_image ? (
-                  <img src={article.cover_image} alt="" className="h-full w-full object-cover" />
+                  <img
+                    src={article.cover_image}
+                    alt=""
+                    className="h-full w-full object-cover"
+                    style={{ objectPosition: `50% ${positionDraft}%` }}
+                  />
                 ) : (
                   <NotoriousCoverArt slug={article.slug} className="h-full" />
                 )}
@@ -248,6 +267,19 @@ function NotoriousCoverPhotos() {
                     placeholder="Credit (if CC-BY)"
                     className="w-32 shrink-0 rounded-md border border-slate-300 px-2 py-1.5 text-xs"
                   />
+                  <label className="flex shrink-0 items-center gap-1.5 text-xs text-slate-500">
+                    Focus
+                    <input
+                      type="range"
+                      min={0}
+                      max={100}
+                      value={positionDraft}
+                      onChange={(e) =>
+                        setPositionDrafts((d) => ({ ...d, [article.id]: Number(e.target.value) }))
+                      }
+                      className="w-16"
+                    />
+                  </label>
                 </div>
                 <input
                   value={sourceDraft}
@@ -259,7 +291,13 @@ function NotoriousCoverPhotos() {
               <button
                 type="button"
                 onClick={() =>
-                  mutation.mutate({ id: article.id, url: urlDraft, credit: creditDraft, source: sourceDraft })
+                  mutation.mutate({
+                    id: article.id,
+                    url: urlDraft,
+                    credit: creditDraft,
+                    source: sourceDraft,
+                    position: positionDraft,
+                  })
                 }
                 disabled={mutation.isPending}
                 className="shrink-0 px-3 py-1.5 rounded-md bg-slate-900 text-white text-xs font-medium disabled:opacity-50"

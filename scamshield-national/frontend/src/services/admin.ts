@@ -35,16 +35,21 @@ export async function createArticle(article: NewArticle) {
 // article stays as-is. `credit` is required for Creative Commons
 // Attribution photos (legally required wherever the image is shown);
 // leave it unset for public-domain sources like federal mugshots.
+// `position` is the vertical focal point (0 = top of image, 100 =
+// bottom, 50 = center) — photos vary too much in composition for one
+// fixed crop, so this lets each one be tuned individually.
 export async function updateArticleCoverImage(
   id: string,
   cover_image: string,
   cover_image_credit?: string,
-  source_url?: string
+  source_url?: string,
+  cover_image_position?: number
 ) {
   const { data } = await api.put<{ data: Article }>(`/articles/${id}`, {
     cover_image,
     cover_image_credit: cover_image_credit || null,
     source_url: source_url || null,
+    cover_image_position: cover_image_position ?? 50,
   });
   return data.data;
 }
