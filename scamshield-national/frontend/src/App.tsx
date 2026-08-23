@@ -9,6 +9,7 @@ import Notorious from './pages/Notorious';
 import GlobalMap from './pages/GlobalMap';
 import GlobalSources from './pages/GlobalSources';
 import Statistics from './pages/Statistics';
+import NotFound from './pages/NotFound';
 import Report from './pages/Report';
 import ReportStatus from './pages/ReportStatus';
 import Subscribe from './pages/Subscribe';
@@ -218,6 +219,7 @@ export default function App() {
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/admin" element={<Admin />} />
           <Route path="/login" element={<Login />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </div>
 
