@@ -46,6 +46,16 @@ export default function ArticleDetail() {
       ) : (
         isNotorious && <NotoriousCoverArt slug={article.slug} className="mt-6 rounded-lg h-56" />
       )}
+      {article.source_url && (
+        <a
+          href={article.source_url}
+          target="_blank"
+          rel="noreferrer"
+          className="mt-2 inline-block text-sm text-slate-500 underline hover:text-slate-700"
+        >
+          Read the full story →
+        </a>
+      )}
       <div className="mt-6 text-slate-700 whitespace-pre-line leading-relaxed">{article.body}</div>
       {article.scam_slug && (
         <Link to={`/scams/${article.scam_slug}`} className="inline-block mt-8 text-sm underline text-slate-600">

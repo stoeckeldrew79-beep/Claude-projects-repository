@@ -10,6 +10,7 @@ const UPDATABLE_ARTICLE_FIELDS = [
   'author',
   'cover_image',
   'cover_image_credit',
+  'source_url',
   'tags',
   'scam_id',
   'published',

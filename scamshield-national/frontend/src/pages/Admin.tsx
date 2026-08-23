@@ -198,10 +198,11 @@ function NotoriousCoverPhotos() {
   const { data: articles, isLoading } = useArticles('notorious');
   const [urlDrafts, setUrlDrafts] = useState<Record<string, string>>({});
   const [creditDrafts, setCreditDrafts] = useState<Record<string, string>>({});
+  const [sourceDrafts, setSourceDrafts] = useState<Record<string, string>>({});
 
   const mutation = useMutation({
-    mutationFn: ({ id, url, credit }: { id: string; url: string; credit: string }) =>
-      updateArticleCoverImage(id, url, credit),
+    mutationFn: ({ id, url, credit, source }: { id: string; url: string; credit: string; source: string }) =>
+      updateArticleCoverImage(id, url, credit, source),
     onSuccess: () => queryClient.invalidateQueries({ queryKey: ['articles'] }),
   });
 
@@ -214,13 +215,15 @@ function NotoriousCoverPhotos() {
         Paste a link to a specific, rights-cleared photo to replace the abstract cover art for that profile. Public
         domain sources (federal mugshots/press photos, pre-1929 photos) don't need a credit line — Creative Commons
         Attribution photos legally do, so add the required credit text if that's the source. Leave the URL blank to
-        keep the abstract art.
+        keep the abstract art. If no rights-cleared photo exists at all, add a link to a real news story instead —
+        it shows as a "Read the full story" link on the profile rather than a photo.
       </p>
       {isLoading && <p className="mt-3 text-sm text-slate-500">Loading…</p>}
-      <div className="mt-4 space-y-3">
+      <div className="mt-4 space-y-4">
         {articles?.map((article) => {
           const urlDraft = urlDrafts[article.id] ?? article.cover_image ?? '';
           const creditDraft = creditDrafts[article.id] ?? article.cover_image_credit ?? '';
+          const sourceDraft = sourceDrafts[article.id] ?? article.source_url ?? '';
           return (
             <div key={article.id} className="flex items-center gap-3">
               <div className="h-12 w-16 shrink-0 overflow-hidden rounded border border-slate-200">
@@ -231,21 +234,33 @@ function NotoriousCoverPhotos() {
                 )}
               </div>
               <p className="w-40 shrink-0 text-sm text-slate-700 truncate">{article.title}</p>
-              <input
-                value={urlDraft}
-                onChange={(e) => setUrlDrafts((d) => ({ ...d, [article.id]: e.target.value }))}
-                placeholder="Photo URL"
-                className="flex-1 rounded-md border border-slate-300 px-2 py-1.5 text-xs"
-              />
-              <input
-                value={creditDraft}
-                onChange={(e) => setCreditDrafts((d) => ({ ...d, [article.id]: e.target.value }))}
-                placeholder="Credit (if CC-BY)"
-                className="w-32 shrink-0 rounded-md border border-slate-300 px-2 py-1.5 text-xs"
-              />
+              <div className="flex-1 space-y-1.5">
+                <div className="flex gap-2">
+                  <input
+                    value={urlDraft}
+                    onChange={(e) => setUrlDrafts((d) => ({ ...d, [article.id]: e.target.value }))}
+                    placeholder="Photo URL"
+                    className="flex-1 rounded-md border border-slate-300 px-2 py-1.5 text-xs"
+                  />
+                  <input
+                    value={creditDraft}
+                    onChange={(e) => setCreditDrafts((d) => ({ ...d, [article.id]: e.target.value }))}
+                    placeholder="Credit (if CC-BY)"
+                    className="w-32 shrink-0 rounded-md border border-slate-300 px-2 py-1.5 text-xs"
+                  />
+                </div>
+                <input
+                  value={sourceDraft}
+                  onChange={(e) => setSourceDrafts((d) => ({ ...d, [article.id]: e.target.value }))}
+                  placeholder="Source story URL (used if no photo)"
+                  className="w-full rounded-md border border-slate-300 px-2 py-1.5 text-xs"
+                />
+              </div>
               <button
                 type="button"
-                onClick={() => mutation.mutate({ id: article.id, url: urlDraft, credit: creditDraft })}
+                onClick={() =>
+                  mutation.mutate({ id: article.id, url: urlDraft, credit: creditDraft, source: sourceDraft })
+                }
                 disabled={mutation.isPending}
                 className="shrink-0 px-3 py-1.5 rounded-md bg-slate-900 text-white text-xs font-medium disabled:opacity-50"
               >

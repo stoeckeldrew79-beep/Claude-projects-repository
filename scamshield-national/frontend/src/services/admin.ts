@@ -35,10 +35,16 @@ export async function createArticle(article: NewArticle) {
 // article stays as-is. `credit` is required for Creative Commons
 // Attribution photos (legally required wherever the image is shown);
 // leave it unset for public-domain sources like federal mugshots.
-export async function updateArticleCoverImage(id: string, cover_image: string, cover_image_credit?: string) {
+export async function updateArticleCoverImage(
+  id: string,
+  cover_image: string,
+  cover_image_credit?: string,
+  source_url?: string
+) {
   const { data } = await api.put<{ data: Article }>(`/articles/${id}`, {
     cover_image,
     cover_image_credit: cover_image_credit || null,
+    source_url: source_url || null,
   });
   return data.data;
 }
