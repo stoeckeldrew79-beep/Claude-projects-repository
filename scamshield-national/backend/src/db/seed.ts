@@ -3812,6 +3812,86 @@ const SEED_SCAMS: SeedScam[] = [
     alertLevel: 'medium',
     sources: ['Japan Post', 'National Police Agency (Japan)'],
   },
+  {
+    name: 'Dutch Tikkie Payment Request Scam',
+    slug: 'netherlands-tikkie-payment-request-scam',
+    description:
+      'A message claiming to be from a friend, family member, or online seller includes a Tikkie link — the Netherlands\' dominant payment-request app — disguised as a request to pay back a small amount, but the link actually leads to a fake banking page that harvests login credentials once the victim tries to "pay." Fraudehelpdesk warns that a genuine Tikkie request only ever asks for the amount stated and never redirects to a bank login page outside the official app.',
+    categorySlug: 'phishing',
+    country: 'NL',
+    alertLevel: 'medium',
+    sources: ['Fraudehelpdesk (Netherlands)'],
+  },
+  {
+    name: 'Indian Telegram Stock Tip Investment Scam',
+    slug: 'india-telegram-stock-tip-scam',
+    description:
+      'A Telegram or WhatsApp group promising "guaranteed" stock-market or IPO returns, often impersonating a well-known brokerage or fund manager, walks members through a fake trading app showing rapidly growing paper profits before blocking withdrawals once a large enough deposit is made. India\'s SEBI has issued repeated public warnings that it does not endorse any such tip-sharing groups and that guaranteed above-market returns are the clearest sign of a fraudulent investment scheme.',
+    categorySlug: 'investment-fraud',
+    country: 'IN',
+    alertLevel: 'critical',
+    sources: ['Securities and Exchange Board of India (SEBI)'],
+  },
+  {
+    name: 'Canada Post Parcel Scam',
+    slug: 'canada-post-parcel-scam',
+    description:
+      'A text message impersonating Canada Post claims a parcel is being held for an unpaid customs or redelivery fee and links to a fake payment page that harvests card details — a distinct, more common everyday version of the more serious CBSA package-seizure scam. Canada Post confirms it never asks for payment or personal information through a text message link, and recommends checking any delivery notice directly through its own app or website.',
+    categorySlug: 'package-delivery-scams',
+    country: 'CA',
+    alertLevel: 'medium',
+    sources: ['Canada Post', 'Canadian Anti-Fraud Centre'],
+  },
+  {
+    name: 'Swedish PostNord Parcel Scam',
+    slug: 'sweden-postnord-parcel-scam',
+    description:
+      'A text message impersonating PostNord, Sweden\'s dominant postal carrier, claims a parcel couldn\'t be delivered due to a small unpaid customs or redelivery fee and links to a fake payment page designed to harvest card or BankID details. Polisen and PostNord advise checking any delivery notice through PostNord\'s own official app rather than a link in an unsolicited text, since genuine fees are never collected this way.',
+    categorySlug: 'package-delivery-scams',
+    country: 'SE',
+    alertLevel: 'medium',
+    sources: ['PostNord', 'Polisen (Swedish Police Authority)'],
+  },
+  {
+    name: 'Singapore Unlicensed Moneylending (Loan Shark) Scam',
+    slug: 'singapore-unlicensed-moneylending-scam',
+    description:
+      'A message or ad offers a fast, no-collateral loan with minimal paperwork, but after a small upfront "processing fee" is paid, the lender either disappears or reveals exorbitant hidden interest and begins harassment tactics — including threats and mass messages to the victim\'s contacts — to pressure repayment. The Singapore Police Force maintains a public register of licensed moneylenders and stresses that a legal lender never demands upfront fees or contacts a borrower\'s family and friends over a debt.',
+    categorySlug: 'debt-relief-scams',
+    country: 'SG',
+    alertLevel: 'high',
+    sources: ['Singapore Police Force'],
+  },
+  {
+    name: 'German Money Mule Job Offer Scam',
+    slug: 'germany-money-mule-job-offer-scam',
+    description:
+      'A job listing promising easy pay for "financial agent" or "package forwarding" work asks the applicant to receive money into their own bank account and forward it elsewhere, or to receive and reship packages — work that actually launders stolen funds or goods and exposes the "employee," not the scammer, to money-laundering charges. German consumer-protection groups and police warn that legitimate employers never ask a new hire to move money or goods through their personal bank account or address.',
+    categorySlug: 'employment-scams',
+    country: 'DE',
+    alertLevel: 'high',
+    sources: ['German Federal Criminal Police Office (BKA)'],
+  },
+  {
+    name: 'Australian Crypto Investment Scam',
+    slug: 'australia-crypto-investment-scam',
+    description:
+      'An ad on social media or a message from a new online contact promotes a cryptocurrency trading platform showing steadily rising "returns" on a dashboard the victim can watch grow, encouraging progressively larger deposits before withdrawals are blocked with demands for further "release" or "tax" fees. Scamwatch consistently ranks investment scams as Australia\'s costliest category by total reported losses, and warns that no legitimate platform guarantees fixed or rapidly compounding returns.',
+    categorySlug: 'investment-fraud',
+    country: 'AU',
+    alertLevel: 'critical',
+    sources: ['Scamwatch (ACCC)'],
+  },
+  {
+    name: 'Japanese SNS Investment and Romance Scam',
+    slug: 'japan-sns-investment-romance-scam',
+    description:
+      'A contact made through social media or a messaging app builds a romantic or friendly relationship over weeks before introducing a cryptocurrency or foreign-exchange trading opportunity, walking the victim through a fake platform that shows fabricated gains to encourage larger deposits that can never be withdrawn. Japan\'s National Police Agency has flagged this combined "SNS-type" investment and romance fraud as one of the fastest-growing scam categories in the country, with total damages now exceeding those of traditional phone-based tokushu sagi fraud.',
+    categorySlug: 'investment-fraud',
+    country: 'JP',
+    alertLevel: 'critical',
+    sources: ['Japan National Police Agency'],
+  },
 ];
 
 async function seedCategoriesAndScams() {
