@@ -4371,6 +4371,26 @@ const SEED_SCAMS: SeedScam[] = [
     alertLevel: 'critical',
     sources: ['Singapore Police Force'],
   },
+  {
+    name: 'French Leboncoin Marketplace Scam',
+    slug: 'france-leboncoin-marketplace-scam',
+    description:
+      'A seller on Leboncoin, France\'s dominant classifieds marketplace, lists a desirable item well below market value and pressures the buyer to pay upfront via bank transfer before pickup, then stops responding once payment clears; a reverse version sends a fake payment confirmation to pressure a seller into shipping before real funds arrive. Info Escroqueries and Leboncoin itself advise completing payment and handover in person where possible, and treating any pressure to pay before seeing an item as a clear warning sign.',
+    categorySlug: 'online-shopping-scams',
+    country: 'FR',
+    alertLevel: 'medium',
+    sources: ['Info Escroqueries'],
+  },
+  {
+    name: 'Dutch Romance Scam',
+    slug: 'netherlands-romance-scam',
+    description:
+      'A relationship built over weeks or months through a dating app or social media, often with a scammer claiming to work overseas in construction, the military, or as a doctor, eventually leads to a fabricated crisis — a medical emergency, customs fees on a gift shipment, or a stranded flight home — that only the victim\'s money can resolve. Fraudehelpdesk names "daten met een malafide match" (dating a fraudulent match) among its most damaging fraud categories by average loss, and advises treating any online-only partner\'s urgent request for money as a certain sign of fraud, however long the relationship has developed.',
+    categorySlug: 'romance-scams',
+    country: 'NL',
+    alertLevel: 'high',
+    sources: ['Fraudehelpdesk (Netherlands)'],
+  },
 ];
 
 async function seedCategoriesAndScams() {
