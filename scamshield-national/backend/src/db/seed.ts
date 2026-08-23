@@ -3982,6 +3982,66 @@ const SEED_SCAMS: SeedScam[] = [
     alertLevel: 'critical',
     sources: ['Autoriteit Financiële Markten (AFM)'],
   },
+  {
+    name: 'Irish HSE Healthcare Phishing Scam',
+    slug: 'ireland-hse-healthcare-phishing-scam',
+    description:
+      'A text or email impersonating the Health Service Executive (HSE) claims an issue with a medical card renewal, a vaccination record, or an outstanding health-service payment, linking to a fake login page that harvests PPS numbers and personal health details. The HSE does not request personal or payment information through unsolicited text or email links, and directs anyone unsure about a message\'s authenticity to verify it by contacting their GP practice or local HSE office directly.',
+    categorySlug: 'healthcare-fraud',
+    country: 'IE',
+    alertLevel: 'medium',
+    sources: ['Health Service Executive (Ireland)'],
+  },
+  {
+    name: 'Australian Disaster Relief Charity Scam',
+    slug: 'australia-disaster-charity-scam',
+    description:
+      'In the days following a widely covered bushfire, flood, or cyclone, a fake charity solicits donations by phone, door-to-door, or through a website using a name deliberately similar to a well-known Australian relief organization, keeping the funds instead of passing them to affected communities. Scamwatch advises checking a charity\'s registration on the Australian Charities and Not-for-profits Commission (ACNC) register and donating directly through an established organization\'s own verified website rather than a link or collector that approached the donor first.',
+    categorySlug: 'charity-scams',
+    country: 'AU',
+    alertLevel: 'medium',
+    sources: ['Scamwatch (ACCC)', 'Australian Charities and Not-for-profits Commission (ACNC)'],
+  },
+  {
+    name: 'Indian SIM Swap KYC Update Scam',
+    slug: 'india-sim-swap-kyc-scam',
+    description:
+      'A caller or text claiming to be from a mobile carrier says the victim\'s SIM card will be deactivated unless their "KYC" (Know Your Customer) details are urgently updated, walking them through steps that actually authorize a SIM swap onto a card the fraudster controls — once complete, the fraudster receives the victim\'s OTP codes and can drain bank accounts linked to that phone number. India\'s Department of Telecommunications and the NCRP warn that no carrier deactivates a SIM without an in-person or officially verified request, and that KYC updates are never processed by following instructions from an unsolicited call or text.',
+    categorySlug: 'identity-theft',
+    country: 'IN',
+    alertLevel: 'critical',
+    sources: ['National Cyber Crime Reporting Portal (NCRP)', 'Department of Telecommunications (India)'],
+  },
+  {
+    name: 'Singapore Internet Love Scam',
+    slug: 'singapore-internet-love-scam',
+    description:
+      'A relationship built over weeks or months through a dating app or social media, often with a scammer claiming to be an overseas professional unable to meet in person, eventually leads to requests for money — a medical emergency, a stuck shipment, or a business opportunity the victim is invited to "invest" in alongside the relationship itself. The Singapore Police Force names Internet Love Scams among its most damaging categories by average loss per victim, and advises never sending money to someone met only online, however long the relationship has developed.',
+    categorySlug: 'romance-scams',
+    country: 'SG',
+    alertLevel: 'high',
+    sources: ['Singapore Police Force'],
+  },
+  {
+    name: 'Japanese National Tax Agency Phishing Scam',
+    slug: 'japan-tax-office-phishing-scam',
+    description:
+      'A text or email impersonating Japan\'s National Tax Agency claims an overdue tax payment or a pending refund, linking to a fake payment or login page that harvests banking credentials and My Number (Japan\'s national ID) details. Japan\'s National Tax Agency states it never requests payment or personal information by unsolicited text or email link, and that genuine tax correspondence arrives by postal mail or through a taxpayer\'s own verified e-Tax account.',
+    categorySlug: 'tax-scams',
+    country: 'JP',
+    alertLevel: 'medium',
+    sources: ['Japan National Tax Agency'],
+  },
+  {
+    name: 'New Zealand Disaster Relief Charity Scam',
+    slug: 'newzealand-disaster-charity-scam',
+    description:
+      'Following a widely covered earthquake, flood, or cyclone, a fake charity solicits donations by phone, social media, or a website using a name deliberately similar to a well-known New Zealand relief organization, keeping the funds rather than passing them to affected communities. Netsafe and the Department of Internal Affairs advise checking a charity\'s registration on the official Charities Register before donating, and giving directly through an established organization\'s own verified website rather than a link or collector that approached the donor first.',
+    categorySlug: 'charity-scams',
+    country: 'NZ',
+    alertLevel: 'medium',
+    sources: ['Netsafe', 'Charities Services (New Zealand)'],
+  },
 ];
 
 async function seedCategoriesAndScams() {
