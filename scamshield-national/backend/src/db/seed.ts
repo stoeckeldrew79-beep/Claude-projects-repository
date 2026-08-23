@@ -4152,6 +4152,36 @@ const SEED_SCAMS: SeedScam[] = [
     alertLevel: 'high',
     sources: ['National Cyber Crime Reporting Portal (NCRP)', 'CERT-In'],
   },
+  {
+    name: 'UK Energy Rebate and Smart Meter Scam',
+    slug: 'uk-energy-rebate-smart-meter-scam',
+    description:
+      'A text or doorstep visitor claims to be from Ofgem, the victim\'s energy supplier, or a government energy-rebate scheme, offering a discount or grant that requires paying an upfront "processing fee" or providing bank details, or offering a free smart-meter "upgrade" that is actually used to gain access to the home or harvest personal information. Ofgem and Report Fraud confirm that genuine energy rebates and smart meter installations are never conditional on an upfront payment, and that real energy suppliers do not cold-call demanding immediate bank details to release a rebate.',
+    categorySlug: 'utility-scams',
+    country: 'GB',
+    alertLevel: 'medium',
+    sources: ['Ofgem', 'Report Fraud (formerly Action Fraud)'],
+  },
+  {
+    name: 'Canadian Kijiji Marketplace Scam',
+    slug: 'canada-kijiji-marketplace-scam',
+    description:
+      'A seller on Kijiji, Canada\'s most widely used classifieds site, lists a desirable item — often a vehicle or electronics — well below market value and pressures the buyer to send an Interac e-Transfer before pickup, then stops responding once payment clears; a reverse version sends a fake "overpayment" e-Transfer confirmation to pressure a seller into shipping before real funds arrive. The Canadian Anti-Fraud Centre advises meeting in person to inspect an item before paying, and treating any pressure to pay by e-Transfer for an item not yet seen as a clear warning sign.',
+    categorySlug: 'online-shopping-scams',
+    country: 'CA',
+    alertLevel: 'medium',
+    sources: ['Canadian Anti-Fraud Centre'],
+  },
+  {
+    name: 'Swedish Fake Job Offer Scam',
+    slug: 'sweden-fake-job-offer-scam',
+    description:
+      'A job listing found through social media or a messaging app offers well-paid remote work with minimal qualifications, then asks the applicant to pay upfront for a starter kit or training course, or to receive and forward money through their own bank account as part of the "job" — the latter actually launders stolen funds and exposes the worker, not the scammer, to criminal liability. Arbetsförmedlingen (the Swedish Public Employment Service) and Polisen warn that a genuine employer never asks a new hire to pay for their own equipment before starting, or to move money through a personal account as part of their duties.',
+    categorySlug: 'employment-scams',
+    country: 'SE',
+    alertLevel: 'high',
+    sources: ['Arbetsförmedlingen (Swedish Public Employment Service)', 'Polisen (Swedish Police Authority)'],
+  },
 ];
 
 async function seedCategoriesAndScams() {
