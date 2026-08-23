@@ -279,6 +279,45 @@ The plan unraveled after roughly a month on the run: following a segment on Amer
 
 Sam Israel's story is a near-exact echo of Marcus Schrenker's staged plane crash a few years later — two financial fraudsters who, facing the consequence of years of fabricated numbers, each concluded that disappearing was more survivable than serving the sentence, and each was caught within weeks. The fake audits bought Israel a decade of runway; the fake death bought him almost nothing.`,
   },
+  {
+    title: 'Bernard Ebbers and the $11 Billion Accounting Fraud That Sank WorldCom',
+    slug: 'bernard-ebbers-worldcom-accounting-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Bernard Ebbers built WorldCom from a small Mississippi long-distance reseller into the second-largest telecommunications company in the United States through the 1990s, fueled by an aggressive string of acquisitions, including its $37 billion purchase of MCI. When the telecom industry's growth slowed at the turn of the century, WorldCom's stock price — and Ebbers' own heavily leveraged personal fortune, much of it borrowed against WorldCom shares — depended on the company continuing to look like it was growing.
+
+Rather than report the slowdown, WorldCom's finance team, under pressure from Ebbers and CFO Scott Sullivan, disguised it. Billions of dollars in ordinary operating expenses were improperly reclassified as capital expenditures, a bookkeeping shift that spread costs out over years instead of counting them immediately — making the company appear consistently profitable when it was not. By the time the fraud was uncovered by an internal auditor in June 2002, the misstatement totaled roughly $11 billion, the largest accounting fraud in U.S. history at the time.
+
+WorldCom filed for bankruptcy weeks later — then the largest corporate bankruptcy in U.S. history — wiping out shareholders and costing thousands of employees their jobs. Ebbers was convicted in March 2005 on charges of fraud, conspiracy, and false regulatory filings, and was sentenced to 25 years in prison. He was released in 2019 on compassionate grounds due to declining health and died the following year.
+
+WorldCom, alongside Enron the same year, became a defining case for corporate accounting reform, directly driving passage of the Sarbanes-Oxley Act, which imposed new financial-reporting and internal-control requirements on public companies. It remains a reference point for how a fraud built entirely out of a bookkeeping classification — nothing as dramatic as a fake product or a forged signature — can still cost more than almost any other kind of scam on this list.`,
+  },
+  {
+    title: 'Charles Keating and the Lincoln Savings Collapse That Cost Taxpayers Billions',
+    slug: 'charles-keating-lincoln-savings-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Charles Keating ran Lincoln Savings and Loan, an Irvine, California thrift he acquired in 1984, during the deregulated boom years of the savings-and-loan industry. Rather than sticking to traditional, federally insured home loans, Keating used Lincoln's federally insured deposits to fund speculative real estate ventures and other high-risk investments — and had Lincoln's sales staff aggressively market uninsured junk bonds issued by its parent company to depositors, many of them elderly, who believed they were buying something as safe as the insured savings accounts around them.
+
+As regulators began investigating Lincoln's finances, Keating leaned on political influence he had cultivated through campaign contributions. Five U.S. senators — later dubbed the "Keating Five" — intervened with federal regulators on his behalf, delaying scrutiny of Lincoln for months. When the thrift finally collapsed in 1989, it became one of the most expensive failures of the savings-and-loan crisis, costing taxpayers roughly $3.4 billion through the federal deposit insurance system, while thousands of bondholders lost a combined $200 million in savings that were never insured at all.
+
+Keating was convicted of state and federal fraud, racketeering, and conspiracy charges in the early 1990s, but both convictions were later overturned on appeal over jury-instruction errors. Facing retrial, he pleaded guilty in 1999 to four counts of fraud; under the plea, his sentence was limited to the roughly four and a half years he had already spent in custody.
+
+The Keating Five scandal reshaped how seriously Congress treated its own senators' interventions with regulators, and Lincoln's collapse became a central case study in the savings-and-loan crisis — a reminder that a fraud's victims aren't only the people who bought the bad investment directly, but every taxpayer who ends up covering the federal insurance bill when it fails.`,
+  },
+  {
+    title: "Nick Leeson, the \"Rogue Trader\" Who Brought Down Britain's Oldest Bank",
+    slug: 'nick-leeson-barings-bank-collapse',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Nick Leeson was a derivatives trader running the Singapore office of Barings Bank, a 233-year-old British merchant bank whose clients had once included the British monarchy. Unusually, Leeson was in charge of both trading and settling his own trades, a separation of duties that exists specifically to prevent one person from hiding losses — and its absence let him do exactly that.
+
+Starting in the early 1990s, Leeson made unauthorized bets on Japanese stock index futures, and when those trades lost money, he hid the losses in a secret error account, numbered 88888, rather than report them. To recover the mounting losses, he kept doubling down on new trades, betting the Nikkei index would stay above 19,000 points. When the January 1995 Kobe earthquake sent the Nikkei crashing instead, the losses accelerated far beyond what he could hide or cover.
+
+By the time Leeson fled Singapore in February 1995, the hidden losses had reached roughly £830 million — more than twice Barings' entire available capital. The 233-year-old bank collapsed within days and was sold to the Dutch bank ING for a nominal £1. Leeson was arrested at Frankfurt airport while trying to return to Britain, extradited to Singapore, and sentenced to six and a half years in prison there for fraud and forgery; he was released in 1999.
+
+Barings' collapse became the textbook case for why trading and settlement have to be handled by separate people, and for how much damage a single unsupervised trader can do when that separation doesn't exist. The "rogue trader" label the press gave Leeson has since been applied to a string of similar cases at other banks, each one a variation on the same failure: nobody was watching closely enough to catch a losing bet before it became an unrecoverable one.`,
+  },
 ];
 
 // Practical "how it works / red flags / what to do" guides covering the
