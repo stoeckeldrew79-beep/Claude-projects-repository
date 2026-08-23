@@ -3732,6 +3732,86 @@ const SEED_SCAMS: SeedScam[] = [
     alertLevel: 'high',
     sources: ['Netsafe', 'National Cyber Security Centre (NZ)'],
   },
+  {
+    name: 'Singapore Carousell Purchase Scam',
+    slug: 'singapore-carousell-purchase-scam',
+    description:
+      'A seller on Carousell, Singapore\'s dominant classifieds marketplace, offers a popular item — often electronics or concert tickets — at a below-market price and pushes the buyer to pay upfront via bank transfer or PayNow outside the platform\'s own protections, then stops responding once payment clears. The Singapore Police Force names e-commerce scams among its highest-volume categories and advises using the platform\'s in-app payment and meet-up options rather than transferring money directly to a stranger first.',
+    categorySlug: 'online-shopping-scams',
+    country: 'SG',
+    alertLevel: 'medium',
+    sources: ['Singapore Police Force'],
+  },
+  {
+    name: 'Singapore Crypto Investment Scam',
+    slug: 'singapore-crypto-investment-scam',
+    description:
+      'A contact met through social media, a dating app, or a cold message introduces a "guaranteed" cryptocurrency trading platform, walking the victim through small early withdrawals that appear to prove the platform works before encouraging much larger deposits that can never be withdrawn. Singapore Police Force data consistently shows investment scams, heavily weighted toward crypto platforms, as the single costliest scam category by total losses, and warns that no legitimate investment guarantees fixed, above-market returns.',
+    categorySlug: 'investment-fraud',
+    country: 'SG',
+    alertLevel: 'critical',
+    sources: ['Singapore Police Force'],
+  },
+  {
+    name: 'New Zealand Customs & Post Parcel Scam',
+    slug: 'newzealand-customs-post-parcel-scam',
+    description:
+      'A text or email claims a parcel is being held by New Zealand Customs or NZ Post pending payment of an outstanding customs duty or redelivery fee, linking to a fake payment page that harvests card details. NZ Post and Netsafe advise checking tracking status only through the carrier\'s own official app or website, since genuine customs charges are invoiced directly by NZ Post itself, not by a text message link.',
+    categorySlug: 'package-delivery-scams',
+    country: 'NZ',
+    alertLevel: 'medium',
+    sources: ['Netsafe', 'NZ Post'],
+  },
+  {
+    name: 'New Zealand KiwiSaver Early Withdrawal Scam',
+    slug: 'newzealand-kiwisaver-early-withdrawal-scam',
+    description:
+      'A caller or online adviser claims the victim can access their KiwiSaver retirement savings early, before the legal qualifying conditions are met, by transferring the funds into a "compliant" scheme the scammer controls — which then simply disappears with the money. The Financial Markets Authority warns that KiwiSaver funds can only be released early under narrowly defined circumstances such as significant financial hardship or serious illness, never through a third party offering to bypass the rules for a fee.',
+    categorySlug: 'investment-fraud',
+    country: 'NZ',
+    alertLevel: 'high',
+    sources: ['Financial Markets Authority (NZ)'],
+  },
+  {
+    name: 'Irish PPS Number Suspension Scam',
+    slug: 'ireland-pps-number-suspension-scam',
+    description:
+      'A caller impersonating the Department of Social Protection claims the victim\'s Personal Public Service (PPS) Number has been suspended or linked to fraudulent welfare claims, demanding personal details or a payment to reactivate it under threat of losing benefit payments or facing legal action. The Department of Social Protection does not suspend PPS Numbers or request payment over the phone, and directs anyone contacted this way to hang up and contact their local Intreo office directly.',
+    categorySlug: 'government-impersonation',
+    country: 'IE',
+    alertLevel: 'high',
+    sources: ['Department of Social Protection (Ireland)'],
+  },
+  {
+    name: 'Australia Post Parcel Redelivery Scam',
+    slug: 'australia-post-parcel-redelivery-scam',
+    description:
+      'A text message impersonating Australia Post claims a parcel couldn\'t be delivered due to an unpaid fee and links to a fake redelivery page that harvests card details, often arriving in waves timed around major online shopping events. Australia Post and Scamwatch advise that genuine delivery issues are tracked through the official Auspost app or website using a real tracking number, never through a link in an unsolicited text.',
+    categorySlug: 'package-delivery-scams',
+    country: 'AU',
+    alertLevel: 'medium',
+    sources: ['Australia Post', 'Scamwatch (ACCC)'],
+  },
+  {
+    name: 'German Kleinanzeigen Marketplace Payment Scam',
+    slug: 'germany-kleinanzeigen-marketplace-scam',
+    description:
+      'A buyer or seller on Kleinanzeigen, Germany\'s largest classifieds marketplace, sends a fake shipping-service or escrow payment link that mimics the platform\'s real "sicher bezahlen" (safe payment) system, harvesting card or banking details when the other party enters payment information to "release" the item or funds. Verbraucherzentrale advises completing all payment and shipping steps only inside Kleinanzeigen\'s own app, never through a link sent directly by the other party in chat.',
+    categorySlug: 'online-shopping-scams',
+    country: 'DE',
+    alertLevel: 'medium',
+    sources: ['Verbraucherzentrale (Germany)'],
+  },
+  {
+    name: 'Japan Post Parcel Redelivery SMS Scam',
+    slug: 'japan-post-parcel-redelivery-sms-scam',
+    description:
+      'A text message impersonating Japan Post (Yu-Pack) or a private courier claims a delivery attempt failed and links to a fake redelivery-scheduling page that prompts installation of a malicious app disguised as a tracking tool, or harvests payment details for a fabricated redelivery fee. Japan\'s National Police Agency advises checking delivery status only through a carrier\'s official app or by typing its known web address directly, never through a link in an unsolicited text.',
+    categorySlug: 'package-delivery-scams',
+    country: 'JP',
+    alertLevel: 'medium',
+    sources: ['Japan Post', 'National Police Agency (Japan)'],
+  },
 ];
 
 async function seedCategoriesAndScams() {
