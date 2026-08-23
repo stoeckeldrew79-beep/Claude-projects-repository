@@ -426,6 +426,48 @@ Rajaratnam was convicted in May 2011 on 14 counts of securities fraud and conspi
 
 The Galleon case reshaped how insider trading gets prosecuted: the wiretap evidence was so effective that federal prosecutors used the same approach in dozens of subsequent Wall Street cases, turning what had been a largely circumstantial, trading-pattern-based crime to prove into one that could be caught on tape, in the insider's own words, while it was happening.`,
   },
+  {
+    title: 'Ivan Boesky: The Insider-Trading King Who Turned Informant on Wall Street',
+    slug: 'ivan-boesky-insider-trading-scandal',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Ivan Boesky was one of the most successful arbitrageurs of the 1980s, a Wall Street trader whose specialty was betting on which companies would be acquired next and buying their stock ahead of the announcement. His reputation for uncanny timing made him wealthy, publicly celebrated, and the inspiration — he later cited it in his own defense — for Gordon Gekko's "greed is good" speech in the film "Wall Street," delivered at a real commencement address Boesky gave the same year his fraud was exposed.
+
+The uncanny timing wasn't skill. Boesky was paying corporate insiders and investment bankers, including Drexel Burnham Lambert's Dennis Levine, for advance word of pending mergers and takeovers before that information became public, then trading on it — the same core crime Michael Milken was later drawn into through his own dealings with Boesky. Boesky's insider network let him buy target-company stock just before announcements sent the price up, profiting at the expense of everyone trading without that advance knowledge.
+
+The SEC caught Levine first, and Levine's cooperation led investigators to Boesky. Facing prosecution, Boesky struck a deal: he pleaded guilty in November 1986 to a single felony securities count, paid a $100 million penalty — at the time the largest ever imposed for insider trading — and agreed to secretly record his own conversations with other Wall Street figures for the SEC, wearing a wire that ultimately helped build the case against Milken. He served roughly two years of a three-and-a-half-year sentence and was permanently barred from the securities industry.
+
+Boesky's case marked the moment insider trading stopped being treated as a quiet, victimless edge and became a defining Wall Street prosecution story of the decade — and his cooperation deal set the template still used today: catch one insider, and use their knowledge of the network to reach everyone above them.`,
+    sourceUrl: 'https://www.washingtonpost.com/archive/politics/1986/11/15/wall-street-insider-to-forfeit-100-million/281f0d53-b483-48dc-95e7-8eed903e8855/',
+  },
+  {
+    title: 'Kweku Adoboli and the $2.3 Billion Loss Hidden Inside UBS',
+    slug: 'kweku-adoboli-ubs-rogue-trader',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Kweku Adoboli worked as a trader on the exchange-traded funds desk at UBS's London investment bank, a role that came with defined risk limits meant to cap how much the bank could lose on any position he took. Starting around 2008, Adoboli began trading well beyond those authorized limits, and rather than report the resulting losses, he covered them up using fictitious hedge positions — fake internal trades that made his real, unhedged bets disappear from the bank's own risk reports, the same core technique Jérôme Kerviel had used against Société Générale a few years earlier.
+
+The concealment let the losses compound for years without triggering the controls designed to catch them. At the fraud's peak, Adoboli's hidden positions put UBS at risk of losses reaching an estimated $12 billion before the scheme unraveled in September 2011, when he confessed the true size of his positions to colleagues. The bank was ultimately left with a real loss of $2.3 billion — at the time the largest trading loss in British banking history.
+
+Adoboli was convicted in November 2012 on two counts of fraud by abuse of position, with the trial judge telling him he had shown "a strong streak of the gambler" and had wrongly assumed the bank's rules didn't apply to him. He was sentenced to seven years in prison and was released in 2015 after serving half his term; UBS itself was separately fined $47.6 million by British regulators over the control failures that let the losses go undetected for so long.
+
+Adoboli's case, arriving just years after Kerviel's, showed that Barings-style rogue trading hadn't been solved by better internal controls alone — a trader who understood exactly how his bank's oversight systems worked could still hide a catastrophic position in plain sight, so long as it kept looking profitable enough that nobody looked closely.`,
+    sourceUrl: 'https://www.ibtimes.co.uk/rogue-trader-kewku-adoboli-ubs-fraud-conviction-406738',
+  },
+  {
+    title: "Lee Farkas and the $2.9 Billion Fraud That Sank Colonial Bank",
+    slug: 'lee-farkas-colonial-bank-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Lee Farkas owned and chaired Taylor, Bean & Whitaker (TBW), once one of the largest mortgage lenders in the United States, built on a close financial relationship with Colonial Bank, a major regional bank that processed and funded TBW's mortgages through its Mortgage Warehouse Lending Division. When TBW's own finances began collapsing under overdrafts it couldn't cover, Farkas and his co-conspirators didn't disclose the shortfall — they hid it.
+
+Farkas directed a scheme that shuffled fake and already-sold mortgage loans between TBW and Colonial Bank's books to cover the growing hole, while separately misappropriating more than $1.5 billion from Ocala Funding, a mortgage facility TBW controlled, to pay TBW's own operating expenses. Colonial Bank, believing it held legitimate, adequately collateralized assets, was in fact carrying assets that had already been sold elsewhere or didn't exist as claimed. Farkas personally used the proceeds to buy a private jet, multiple vacation homes, and a collection of antique cars.
+
+The fraud, which prosecutors calculated at $2.9 billion and which had run for more than seven years, collapsed in 2009 when Colonial Bank failed — at the time the sixth-largest bank failure in U.S. history — and TBW filed for bankruptcy the same month, putting thousands of employees out of work. Farkas was convicted in 2011 on 14 counts including conspiracy, bank fraud, wire fraud, and securities fraud, and was sentenced to 30 years in federal prison, with a $38.5 million forfeiture order.
+
+The Colonial Bank collapse is a reminder that mortgage fraud isn't limited to individual borrowers lying on an application — at sufficient scale, the same basic mechanism of moving fake or double-counted assets between books can bring down a major regional bank and cost thousands of ordinary employees their jobs, years after the housing crisis that first exposed how much of the mortgage industry's paperwork didn't hold up to scrutiny.`,
+    sourceUrl: 'https://www.justice.gov/archives/opa/pr/former-chairman-taylor-bean-whitaker-sentenced-30-years-prison-and-ordered-forfeit-385',
+  },
 ];
 
 // Practical "how it works / red flags / what to do" guides covering the
