@@ -344,6 +344,45 @@ The scheme, totaling roughly $1.2 billion, collapsed in October 2009 when Rothst
 
 Rothstein's case stands out for how much of the fraud depended on the credibility of the legal system itself: the "product" being sold wasn't a stock or a currency, but the manufactured appearance of confidential court settlements — and it worked because investors trusted that a licensed attorney with a respected firm wouldn't fabricate the very documents his profession is built on protecting.`,
   },
+  {
+    title: 'Jérôme Kerviel and the €4.9 Billion Trade Société Générale Never Approved',
+    slug: 'jerome-kerviel-societe-generale-rogue-trader',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Jérôme Kerviel worked as a junior trader on the futures desk at Société Générale, one of France's largest banks, a job that gave him direct knowledge of the bank's internal risk-control systems from an earlier role in its back office. Starting around 2005, he began placing unauthorized bets on European stock index futures far beyond his trading limits — and used that back-office knowledge to fake offsetting trades that made his real, unhedged positions disappear from the bank's risk reports.
+
+For a time, some of the hidden bets were profitable, briefly making Kerviel look like a star performer. But by January 2008, his concealed positions had grown to nearly €50 billion — more than the bank's entire market value — betting that European markets would keep rising. When the bank's compliance team finally uncovered the fraud and was forced to unwind the position during a market downturn, it locked in a loss of roughly €4.9 billion, at the time the largest trading loss ever caused by a single individual.
+
+Kerviel was convicted in October 2010 of forgery, breach of trust, and unauthorized computer use, and sentenced to three years in prison plus a suspended term; French courts also initially ordered him to repay the full €4.9 billion, though a later appeal reduced that damages award. He maintained throughout that his managers knew, informally, that traders routinely exceeded their limits as long as they were profitable — a defense the courts rejected, though it echoed the argument several other rogue-trading cases have made since.
+
+The Kerviel case became a defining example, alongside Nick Leeson's collapse of Barings Bank over a decade earlier, of how a single trader with enough insider knowledge of a bank's own controls can hide a catastrophic position in plain sight — and of how thin the line can be between a trader deceiving their employer and an employer that simply didn't want to look too closely while the trades were winning.`,
+  },
+  {
+    title: 'Tom Petters and the $3.65 Billion Ponzi Scheme Hidden Inside a Real Business Empire',
+    slug: 'tom-petters-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Tom Petters built Petters Group Worldwide into a real, visible business empire — it owned Polaroid, the catalog retailer Fingerhut, and a controlling stake in Sun Country Airlines — which made the fraud running underneath it easier for investors to believe. Through a subsidiary called Petters Company Inc., he raised money from hedge funds, retirees, and even pastors and missionaries by promising returns of 15 to 20 percent, telling investors their money was funding the purchase of wholesale electronics and consumer goods that PCI would resell to big-box retailers at a markup.
+
+No such merchandise deals existed at anywhere near the scale claimed. Petters used forged purchase orders and fabricated shipping documents to make the scheme look like a real, profitable wholesale operation, while using new investors' money to pay "returns" to earlier ones — a Ponzi structure hidden behind the legitimate-looking Polaroid and Fingerhut brands. The fraud unraveled in 2008 after a co-conspirator, facing a separate case, wore a wire for the FBI and recorded Petters discussing the scheme directly.
+
+Petters was convicted in December 2009 on twenty counts including wire fraud, mail fraud, and money laundering, and was sentenced in April 2010 to 50 years in federal prison — the longest sentence ever handed down for financial fraud in Minnesota history. Total losses to investors were estimated at $3.65 billion, making it one of the largest Ponzi schemes in U.S. history after Madoff's.
+
+The case is a reminder that owning real, recognizable companies doesn't make a business real — Polaroid and Fingerhut were genuine, operating businesses, and their legitimacy lent credibility to a wholesale-goods scheme that, underneath, was fabricated from top to bottom.`,
+  },
+  {
+    title: '"Crazy Eddie" Antar and the Stock Fraud Behind the Wildest Ads on TV',
+    slug: 'eddie-antar-crazy-eddie-stock-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Eddie Antar built Crazy Eddie into one of the most recognizable electronics retail chains in the New York area during the 1970s and '80s, fronted by manic, unmistakable TV commercials promising prices so low they were "INSAAAANE." Behind the storefront, Antar and his family ran a cash-skimming operation for years before the company ever went public in 1984 — quietly pocketing a portion of cash sales and underreporting income to shrink the company's tax bill.
+
+Once Crazy Eddie went public, that same cash Antar had been skimming away suddenly needed to reappear — reported income now needed to look as large as possible to keep the stock price climbing, the opposite incentive from the company's private years. Antar's team began funneling the hidden cash back into the business, falsifying inventory counts, and inflating sales figures at key stores, creating an inventory shortfall investigators later estimated between $40 and $50 million. As the manufactured growth pushed the stock higher, Antar and his family sold off more than $20 million of their own shares to an investing public that had no idea the underlying numbers were fabricated.
+
+The fraud collapsed after a hostile takeover in 1987 gave new owners access to the real books. Facing charges, Antar fled the United States in February 1990, triggering a two-year international manhunt involving the FBI, U.S. Marshals, the SEC, and Interpol before he was located in Israel in 1992 and extradited back to the U.S. the following year. He pleaded guilty to racketeering conspiracy in 1996 and was sentenced to eight years in prison; a related SEC civil judgment held him liable for more than $57 million in disgorgement and interest.
+
+Crazy Eddie's collapse became a staple case study in forensic accounting precisely because the fraud ran in two directions — hiding income before the IPO, then inventing it afterward — showing how the same underlying scheme can flip its entire purpose the moment a private company's incentives change by going public.`,
+  },
 ];
 
 // Practical "how it works / red flags / what to do" guides covering the
