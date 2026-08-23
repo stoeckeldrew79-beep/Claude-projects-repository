@@ -4182,6 +4182,46 @@ const SEED_SCAMS: SeedScam[] = [
     alertLevel: 'high',
     sources: ['Arbetsförmedlingen (Swedish Public Employment Service)', 'Polisen (Swedish Police Authority)'],
   },
+  {
+    name: 'German AI Voice-Cloning CEO Fraud',
+    slug: 'germany-ai-voice-cloning-ceo-fraud',
+    description:
+      'An employee receives an urgent phone call in what sounds exactly like their CEO or a senior executive\'s voice, cloned from public interviews or earnings calls using AI, instructing an immediate wire transfer for a confidential deal or emergency — a technological escalation of Germany\'s long-running "Arnaque au Président"-style CEO fraud, now using synthetic audio instead of just a spoofed phone number or email. The BKA has documented a rising number of these AI voice-cloning incidents targeting German businesses, and recommends verifying any urgent, unusual money-transfer request through a separate, independently confirmed channel before acting, regardless of how convincing the voice sounds.',
+    categorySlug: 'ai-deepfake-scams',
+    country: 'DE',
+    alertLevel: 'critical',
+    sources: ['German Federal Criminal Police Office (BKA)'],
+  },
+  {
+    name: 'Indian Fake Insurance Policy Scam',
+    slug: 'india-fake-insurance-policy-scam',
+    description:
+      'A cold caller claiming to represent a well-known insurer offers a policy with unusually high guaranteed returns or a "bonus" for renewing early, collecting premium payments for a policy that is either entirely fictitious or misrepresents the real terms of coverage, leaving the victim without valid insurance when a claim is eventually needed. The Insurance Regulatory and Development Authority of India (IRDAI) maintains a public list of registered insurers and agents, and warns that no legitimate policy guarantees investment-style returns or requires payment to an agent\'s personal account rather than the insurer\'s official channels.',
+    categorySlug: 'insurance-fraud',
+    country: 'IN',
+    alertLevel: 'high',
+    sources: ['Insurance Regulatory and Development Authority of India (IRDAI)'],
+  },
+  {
+    name: 'Singapore Toto/4D Fake Lottery Win Scam',
+    slug: 'singapore-toto-4d-lottery-scam',
+    description:
+      'A message claims the recipient has won a prize in Toto or 4D, Singapore Pools\' official lottery games, but releasing the winnings requires first paying a "processing" or "tax" fee — the real Singapore Pools never requires any payment to release genuine winnings, and does not contact winners by unsolicited text or social media message. The Singapore Police Force advises verifying any claimed lottery win directly through Singapore Pools\' own official outlets or website, never through a link or number provided in the message itself.',
+    categorySlug: 'lottery-sweepstakes-scams',
+    country: 'SG',
+    alertLevel: 'medium',
+    sources: ['Singapore Police Force'],
+  },
+  {
+    name: 'Dutch Toeslagen Benefits Phishing Scam',
+    slug: 'netherlands-toeslagen-benefits-phishing-scam',
+    description:
+      'A text or email impersonating the Belastingdienst\'s Toeslagen (benefits) service claims an issue with housing, healthcare, or childcare allowance payments and links to a fake DigiD login page that harvests credentials and banking details, distinct from the separate income-tax-refund version of this scam. Fraudehelpdesk and the Belastingdienst confirm that genuine correspondence about benefit payments arrives through a recipient\'s own verified Mijn Toeslagen account or by post, never through a link in an unsolicited text or email.',
+    categorySlug: 'public-benefits-fraud',
+    country: 'NL',
+    alertLevel: 'medium',
+    sources: ['Fraudehelpdesk (Netherlands)'],
+  },
 ];
 
 async function seedCategoriesAndScams() {
