@@ -383,6 +383,45 @@ The fraud collapsed after a hostile takeover in 1987 gave new owners access to t
 
 Crazy Eddie's collapse became a staple case study in forensic accounting precisely because the fraud ran in two directions — hiding income before the IPO, then inventing it afterward — showing how the same underlying scheme can flip its entire purpose the moment a private company's incentives change by going public.`,
   },
+  {
+    title: 'Marc Dreier: The Manhattan Lawyer Who Sold $700 Million in Fake Promissory Notes',
+    slug: 'marc-dreier-law-firm-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Marc Dreier ran Dreier LLP, a 250-lawyer Manhattan firm he'd built into a real, functioning legal practice — which made him exactly the kind of credible-seeming counterparty who could sell hedge funds something extraordinary: promissory notes issued by his own law firm's real estate clients, paying high returns and backed, he claimed, by those clients' genuine business dealings.
+
+The clients named on the notes were real. The notes themselves, and their supposed sale to Dreier's hedge fund buyers, were not — Dreier fabricated the paperwork and, in some cases, recruited employees to impersonate client representatives on conference calls to convince buyers the deals were legitimate. From 2004 through 2008, he sold roughly $700 million worth of these fictitious notes, and separately misappropriated funds his own law firm was holding in escrow for real clients.
+
+The scheme fell apart in December 2008 when a hedge fund grew suspicious and had Dreier arrested in Toronto while he was impersonating a client's in-house counsel to close a fraudulent deal in person. He pleaded guilty in 2009 to fraud and conspiracy charges; total out-of-pocket losses to victims exceeded $400 million. Judge Jed Rakoff sentenced him to 20 years — far short of the 145 years prosecutors sought, with the judge noting Dreier's fraud, while enormous, lacked the sustained multi-decade betrayal of trust seen in Bernie Madoff's.
+
+Dreier's case is notable for how much of the fraud depended on performance rather than paperwork: fake conference calls, impersonated executives, and the borrowed credibility of a real, respected law firm — proof that a sophisticated buyer doing "diligence" can still be fooled if the person selling them the story is skilled enough at playing every part in it.`,
+  },
+  {
+    title: "Dennis Kozlowski and Tyco's $6,000 Shower Curtain",
+    slug: 'dennis-kozlowski-tyco-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Dennis Kozlowski spent the 1990s building Tyco International, an industrial conglomerate, into one of the largest companies in America through an aggressive string of acquisitions — and along the way built a personal lifestyle funded largely by money that was never his to spend. As CEO, Kozlowski directed the company to pay him tens of millions of dollars in bonuses and loans that the board had never properly authorized, then had many of those loans quietly forgiven.
+
+The spending became infamous once it became public: a $6,000 gold-and-burgundy shower curtain and a $15,000 umbrella stand for his New York apartment, tens of millions in art purchased partly with company funds routed to avoid New York sales tax, and a $2 million fortieth-birthday party for his wife on the Italian island of Sardinia — complete with a Jimmy Buffett performance and an ice sculpture of Michelangelo's David dispensing vodka — roughly half of which Tyco itself paid for and booked as a business expense.
+
+Kozlowski and Tyco's former CFO, Mark Swartz, were convicted in June 2005 on grand larceny, securities fraud, and falsifying business records, tied to more than $150 million in unauthorized compensation and forgiven loans plus a further $430 million raised through securities fraud. Kozlowski was sentenced to eight and a third to twenty-five years in New York state prison and ordered to pay $134 million in restitution and fines; he served more than six years before being released on parole in 2014.
+
+The Tyco case became one of the defining corporate-excess scandals of the early 2000s accounting-fraud era, alongside Enron and WorldCom — less a hidden bookkeeping scheme than compensation and expenses simply taken without real authorization, hiding in plain sight inside a company's own books until an SEC investigation started asking where the money actually went.`,
+  },
+  {
+    title: 'Raj Rajaratnam and the Wiretaps That Ended Insider Trading\'s Quiet Era',
+    slug: 'raj-rajaratnam-galleon-insider-trading',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Raj Rajaratnam founded the Galleon Group, one of the largest hedge funds in the world at its peak, managing billions of dollars built on what looked like an exceptional research edge. In reality, that edge came substantially from a network of corporate insiders — executives and consultants at companies including IBM, Intel, and Goldman Sachs — whom Rajaratnam cultivated to feed him confidential, market-moving information before it became public.
+
+Rajaratnam would trade on tips about upcoming earnings results, mergers, and other corporate events before the information reached the market, generating profits and avoided losses prosecutors calculated at more than $63 million. What made the case unprecedented was how investigators caught him: rather than building a case solely from suspicious trading patterns after the fact, the FBI obtained wiretaps on Rajaratnam's phone, capturing roughly 2,200 conversations in which he discussed and received inside information in real time — a technique long used in organized-crime and drug cases but never before deployed at this scale against Wall Street insider trading.
+
+Rajaratnam was convicted in May 2011 on 14 counts of securities fraud and conspiracy following a trial built heavily on the wiretap recordings, and was sentenced to 11 years in prison — at the time the longest sentence ever imposed for insider trading — along with a $10 million fine and forfeiture of $53.8 million. The Supreme Court later declined to hear his appeal challenging the case.
+
+The Galleon case reshaped how insider trading gets prosecuted: the wiretap evidence was so effective that federal prosecutors used the same approach in dozens of subsequent Wall Street cases, turning what had been a largely circumstantial, trading-pattern-based crime to prove into one that could be caught on tape, in the insider's own words, while it was happening.`,
+  },
 ];
 
 // Practical "how it works / red flags / what to do" guides covering the
