@@ -318,6 +318,32 @@ By the time Leeson fled Singapore in February 1995, the hidden losses had reache
 
 Barings' collapse became the textbook case for why trading and settlement have to be handled by separate people, and for how much damage a single unsupervised trader can do when that separation doesn't exist. The "rogue trader" label the press gave Leeson has since been applied to a string of similar cases at other banks, each one a variation on the same failure: nobody was watching closely enough to catch a losing bet before it became an unrecoverable one.`,
   },
+  {
+    title: '"Pharma Bro" Martin Shkreli and the Hedge Fund Losses He Hid Behind a Public Company',
+    slug: 'martin-shkreli-securities-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `Martin Shkreli became infamous in 2015 as the "Pharma Bro" who raised the price of a life-saving drug, Daraprim, by over 5,000% overnight as CEO of Turing Pharmaceuticals — a legal, if widely condemned, business decision. The securities fraud that actually sent him to prison had nothing to do with drug pricing, and predates that scandal by several years.
+
+Before Turing, Shkreli ran two hedge funds, MSMB Capital and MSMB Healthcare, and told investors they were performing well when in fact both had lost nearly all their money. To cover the losses and keep raising money, prosecutors showed, Shkreli fabricated account statements and used funds from investors in his next venture, the biopharmaceutical company Retrophin, to quietly pay back the earlier hedge fund investors — money that was supposed to be capitalizing Retrophin's business, not settling Shkreli's prior obligations.
+
+A federal jury convicted Shkreli in August 2017 on two counts of securities fraud and one count of conspiracy, while acquitting him on other counts. He was sentenced in March 2018 to seven years in prison and ordered to forfeit nearly $7.4 million. He was released in 2022, and a separate civil case brought by the FTC and several states barred him for life from the pharmaceutical industry over the Daraprim price increase.
+
+Shkreli's case is a reminder that the conduct that makes headlines and the conduct that results in a conviction aren't always the same thing — his fraud was a fairly conventional hedge-fund shell game, dressed up and hidden inside the accounts of a company whose public investors had no idea they were the ones ultimately paying for it.`,
+  },
+  {
+    title: 'Scott Rothstein: The Lawyer Who Sold Shares in Lawsuits That Didn\'t Exist',
+    slug: 'scott-rothstein-rosenfeldt-adler-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Scott Rothstein was a prominent Fort Lauderdale attorney and managing shareholder of Rothstein Rosenfeldt Adler, a law firm that grew to more than 70 lawyers largely on the strength of Rothstein's own rainmaking and political connections. Behind that success was a fraud built on a product that sounded plausible to sophisticated investors: shares in structured settlements from confidential employment-discrimination and whistleblower lawsuits Rothstein claimed his firm had won, which investors could buy at a discount and collect the full payout on later.
+
+The lawsuits and settlements did not exist. Rothstein fabricated the underlying legal documents, recruited bank employees to falsely vouch for account balances that backed up his claims, and used new investors' money to pay off earlier investors — a Ponzi structure — while using the firm's apparent success to court politicians, buy multiple homes and yachts, and become one of South Florida's most visible power brokers.
+
+The scheme, totaling roughly $1.2 billion, collapsed in October 2009 when Rothstein ran out of new money to cover it and fled briefly to Morocco before returning and turning himself in. He pleaded guilty in January 2010 to racketeering, money laundering, and fraud charges, and was sentenced in June 2010 to 50 years in federal prison — ten years more than prosecutors had requested, reflecting the scale of the fraud and Rothstein's extensive cooperation notwithstanding.
+
+Rothstein's case stands out for how much of the fraud depended on the credibility of the legal system itself: the "product" being sold wasn't a stock or a currency, but the manufactured appearance of confidential court settlements — and it worked because investors trusted that a licensed attorney with a respected firm wouldn't fabricate the very documents his profession is built on protecting.`,
+  },
 ];
 
 // Practical "how it works / red flags / what to do" guides covering the
