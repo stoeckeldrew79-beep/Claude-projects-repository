@@ -240,6 +240,45 @@ The plan failed almost immediately: air traffic controllers found his story susp
 
 Beyond the fraud itself — an all-too-common fake investment fund — the staged crash is a reminder of how far a scheme's architect may go once genuinely cornered, and how quickly a plan built to look like an accident can fall apart under the same kind of scrutiny that should have applied to the original investment claims.`,
   },
+  {
+    title: 'Ruja Ignatova, the "Cryptoqueen" Behind OneCoin, and the $4 Billion That Vanished With Her',
+    slug: 'ruja-ignatova-onecoin-cryptoqueen-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `Ruja Ignatova launched OneCoin in 2014, marketing it worldwide as a revolutionary cryptocurrency positioned to rival Bitcoin, sold through a multi-level-marketing structure that rewarded members for recruiting new investors as much as for the coin itself. Filling packed arenas across Europe, Asia, and Africa with the confidence of a tech visionary, she built OneCoin into a global operation that took in an estimated $4 billion or more from investors before anyone could verify the one thing the entire pitch depended on.
+
+That verification never came, because it couldn't: OneCoin had no genuine blockchain. Investigators later determined the "coin" existed only in a centralized, editable database controlled by the company — the digital equivalent of a private ledger with invented numbers, sold to true believers as decentralized, unforgeable currency. There was nothing behind the price chart members watched climb on their own screens.
+
+In October 2017, with a German arrest warrant issued and prosecutors closing in, Ignatova boarded a flight to Athens and has not been reliably seen in public since. The FBI added her to its Ten Most Wanted Fugitives list in 2022 — a rare distinction for a woman, and for a financial crime rather than a violent one — with a reward for information leading to her capture that the agency raised to $5 million in 2024. Her co-founder, Karl Sebastian Greenwood, was convicted in the United States and sentenced to 20 years in prison in 2023; Ignatova, wherever she is, has never faced trial.
+
+OneCoin is a useful case precisely because the fraud wasn't a subtle accounting trick — it was a claim anyone technical enough could have checked, wrapped in exactly the kind of packed-stadium confidence and multi-level recruitment structure that makes checking feel unnecessary. Years after her disappearance, the money is still gone, the "coin" never existed, and the woman who sold it to millions of people remains, as far as anyone can verify, missing.`,
+  },
+  {
+    title: 'Michael Milken, the "Junk Bond King," and the Insider-Trading Scheme That Took Down Drexel Burnham',
+    slug: 'michael-milken-junk-bond-king-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Michael Milken built the high-yield "junk bond" market at Drexel Burnham Lambert into one of the most powerful financing engines on Wall Street through the 1980s, using it to fund the era's wave of corporate takeovers and leveraged buyouts. At his peak he was reportedly the highest-paid person in America, earning hundreds of millions of dollars a year and wielding influence that let him reshape entire industries from his famous "X-shaped" trading desk in Beverly Hills.
+
+Behind the legitimate bond business, prosecutors found a web of illegal activity: insider trading, stock parking (secretly using an associate — fellow financier Ivan Boesky — to hide the true ownership of shares), and market manipulation designed to benefit Milken's own trades and clients ahead of the public. The scheme surfaced through the investigation into Boesky, who cooperated with prosecutors after his own insider-trading conviction and helped implicate Milken directly.
+
+Milken was indicted in 1989 on 98 counts of securities fraud and racketeering. He pleaded guilty to six felony counts, was sentenced to 10 years in prison (of which he served about 22 months), paid $600 million in fines and restitution, and was permanently barred from the securities industry. Drexel Burnham Lambert itself collapsed into bankruptcy in 1990, at the time the largest failure of a Wall Street investment bank in history. Milken later received a controversial presidential pardon in 2020, following decades spent funding medical research and rebuilding his public reputation through the Milken Institute.
+
+The case remains a foundational reference point for insider trading and securities fraud investigations — proof that even a financier who genuinely revolutionized a market can also be running a parallel scheme to rig it, and a reminder that philanthropy and a rehabilitated public image, however extensive, are not the same thing as having fully answered for the original conduct.`,
+  },
+  {
+    title: 'Sam Israel III and the Bayou Hedge Fund Fraud That Ended in a Faked Suicide',
+    slug: 'sam-israel-bayou-hedge-fund-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Sam Israel III founded the Bayou Hedge Fund Group in 1996, reporting steady, market-beating returns to investors year after year. Behind those numbers, the fund was actually losing money almost from the start; Israel and an accomplice covered the losses by creating a fake accounting firm to produce audited-looking statements that bore no relationship to the fund's real performance, a nearly identical mechanism to the fabricated audits later found at Bernie Madoff's and Lou Pearlman's operations.
+
+The fraud, totaling roughly $450 million, collapsed in 2005 when Israel confessed to investigators. He pleaded guilty to fraud charges and was sentenced in 2008 to 20 years in federal prison. On the day he was scheduled to surrender, Israel instead drove to a bridge over the Hudson River, abandoned his SUV with the words "suicide is painless" — the theme from M*A*S*H — scratched into the dust on the hood, and disappeared with his girlfriend in a camper van, apparently hoping to be presumed dead.
+
+The plan unraveled after roughly a month on the run: following a segment on America's Most Wanted, Israel turned himself in to police. For faking his own death and fleeing justice, he received an additional two years on top of his original 20-year sentence.
+
+Sam Israel's story is a near-exact echo of Marcus Schrenker's staged plane crash a few years later — two financial fraudsters who, facing the consequence of years of fabricated numbers, each concluded that disappearing was more survivable than serving the sentence, and each was caught within weeks. The fake audits bought Israel a decade of runway; the fake death bought him almost nothing.`,
+  },
 ];
 
 // Practical "how it works / red flags / what to do" guides covering the
