@@ -16,6 +16,10 @@ interface SeedArticle {
   author: string;
   tags: string[];
   body: string;
+  // A real news/court/agency link, used as the "Read the full story" link
+  // on profiles that have no rights-cleared photo — optional since photo
+  // hunting happens separately (see NotoriousCoverPhotos in Admin.tsx).
+  sourceUrl?: string;
 }
 
 const NOTORIOUS_ARTICLES: SeedArticle[] = [
@@ -558,10 +562,10 @@ Before donating: look up the organization independently rather than through a li
 async function seedArticles(articles: SeedArticle[], label: string) {
   for (const article of articles) {
     await pool.query(
-      `INSERT INTO articles (title, slug, body, author, tags, published, published_at)
-       VALUES ($1, $2, $3, $4, $5, true, NOW())
+      `INSERT INTO articles (title, slug, body, author, tags, source_url, published, published_at)
+       VALUES ($1, $2, $3, $4, $5, $6, true, NOW())
        ON CONFLICT (slug) DO NOTHING`,
-      [article.title, article.slug, article.body, article.author, article.tags]
+      [article.title, article.slug, article.body, article.author, article.tags, article.sourceUrl ?? null]
     );
   }
   console.log(`seed: upserted ${articles.length} ${label} articles`);
