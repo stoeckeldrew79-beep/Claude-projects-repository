@@ -4312,6 +4312,26 @@ const SEED_SCAMS: SeedScam[] = [
     alertLevel: 'medium',
     sources: ['Bundesagentur für Arbeit'],
   },
+  {
+    name: 'Australian Lottery Win Scam',
+    slug: 'australia-lottery-scam',
+    description:
+      'A call, text, or letter claims the recipient has won a prize in Lotto, Powerball, or a similarly named Australian lottery draw, but releasing the winnings requires first paying a "release fee," "tax," or courier charge — the real lottery operators never require payment to release a genuine prize and do not contact winners this way, since Australian lottery wins are claimed directly through the operator\'s own official channels. Scamwatch advises treating any unsolicited win notification tied to a lottery the recipient doesn\'t remember entering as fraudulent, since Australian lotteries only pay out to entrants who actually purchased a ticket.',
+    categorySlug: 'lottery-sweepstakes-scams',
+    country: 'AU',
+    alertLevel: 'medium',
+    sources: ['Scamwatch (ACCC)'],
+  },
+  {
+    name: 'Singapore Business Email Compromise Scam',
+    slug: 'singapore-business-email-compromise-scam',
+    description:
+      'A company\'s finance team receives what appears to be a routine email from a known supplier or an executive, but the account has actually been compromised or closely spoofed, instructing an urgent change to bank details on an outstanding invoice or a time-sensitive wire transfer. The Singapore Police Force names business email compromise among its costliest scam categories for companies specifically, and recommends verifying any changed payment details or unusual transfer request by phone using a number already on file, never one provided in the email itself.',
+    categorySlug: 'business-email-compromise',
+    country: 'SG',
+    alertLevel: 'critical',
+    sources: ['Singapore Police Force'],
+  },
 ];
 
 async function seedCategoriesAndScams() {
