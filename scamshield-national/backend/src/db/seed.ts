@@ -4844,6 +4844,26 @@ const SEED_SCAMS: SeedScam[] = [
     alertLevel: 'critical',
     sources: ['Singapore Police Force'],
   },
+  {
+    name: 'Australian Online Romance Scam',
+    slug: 'australia-online-romance-scam',
+    description:
+      'A relationship built over weeks or months through a dating app, social media, or an online forum leads to a scammer carefully building trust before shifting the conversation toward requests for money, gifts, or personal information, often introducing a fabricated crisis or a "guaranteed" investment opportunity once the emotional connection feels established. Scamwatch reported more than $28.6 million in romance scam losses across 2025 alone, a 21.8 percent increase on the year before, with people aged 65 and over suffering the highest total losses and more than 80 percent of losses originating from contact made on dating platforms and social media. The National Anti-Scam Centre advises never sending money or investing based on the advice of someone met only online, no matter how long the relationship has developed.',
+    categorySlug: 'romance-scams',
+    country: 'AU',
+    alertLevel: 'critical',
+    sources: ['National Anti-Scam Centre / Scamwatch (ACCC)'],
+  },
+  {
+    name: 'Australian Task-Based Job Scam',
+    slug: 'australia-task-based-job-scam',
+    description:
+      'A recruiter contacts the victim through WhatsApp or another messaging app offering flexible, well-paid remote work completing simple repetitive tasks, such as rating products online, and sets up a cryptocurrency account to track "earnings." An initial small payout is released to build trust, but the app soon requires the victim to "top up" their account with their own money to unlock further tasks and withdraw commissions — a top-up that is never returned. Scamwatch recorded a more than 740 percent increase in losses to job scams in 2025, reaching $19.6 million with a median individual loss of $6,000, and advises that no genuine job ever requires paying money before earning any.',
+    categorySlug: 'employment-scams',
+    country: 'AU',
+    alertLevel: 'critical',
+    sources: ['National Anti-Scam Centre / Scamwatch (ACCC)'],
+  },
 ];
 
 async function seedCategoriesAndScams() {
