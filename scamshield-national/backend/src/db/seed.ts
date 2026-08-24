@@ -594,6 +594,34 @@ The SEC shut the operation down in August 2012 with an emergency asset freeze, a
 ZeekRewards is a textbook illustration of how a Ponzi scheme can hide inside an ordinary-sounding online business model — a "rewards program" tied to a real, functioning website — making the underlying math (new money paying old promises) far harder for an everyday participant to spot than a scheme that presents itself plainly as an investment.`,
     sourceUrl: 'https://www.sec.gov/newsroom/press-releases/2012-2012-160htm',
   },
+  {
+    title: 'Frank Gruttadauria: The Star Broker Who Faked Statements for 15 Years',
+    slug: 'frank-gruttadauria-broker-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Frank Gruttadauria was a star branch manager at two well-known Wall Street firms in succession — first Cowen & Co. and SG Cowen Securities, then Lehman Brothers — trusted by dozens of wealthy clients to manage their brokerage accounts out of his Cleveland, Ohio office. Behind that trusted reputation, Gruttadauria was quietly diverting client funds and covering the gap by mailing his clients entirely fabricated account statements, showing balances and returns that bore no relationship to what was actually left in their accounts.
+
+The SEC found that from at least 1996 through October 2000, Gruttadauria misappropriated more than $25 million in customer funds while at Cowen and SG Cowen, and after moving to Lehman Brothers, continued the scheme, ultimately taking more than $40 million from over 50 clients combined across both firms. He maintained a duplicate set of fake statements specifically to show clients and auditors who asked questions, while the real account records told a very different story.
+
+The fraud finally collapsed in 2002 when a client's inquiry exposed the discrepancy between what Gruttadauria was reporting and what his firm's actual records showed. He pleaded guilty to securities and mail fraud and was sentenced to seven years in federal prison. Both SG Cowen and Lehman Brothers separately settled SEC and NYSE enforcement actions over supervisory failures that let Gruttadauria's fraud go undetected for so long. Gruttadauria himself later said he was astonished he had gotten away with it for as long as he had.
+
+The case became a significant example of supervisory failure at the firm level: the fraud wasn't especially technically sophisticated — duplicated paperwork and a trusted manager's reputation were enough — but it exposed how little independent verification some brokerage clients' account statements actually received, even at major, well-regarded firms.`,
+    sourceUrl: 'https://www.sec.gov/news/press/2003-96.htm',
+  },
+  {
+    title: 'Christopher Skase and the $1.5 Billion Qintex Collapse He Never Answered For',
+    slug: 'christopher-skase-qintex-collapse-fugitive',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Christopher Skase built the Qintex Group into one of Australia's most prominent media and resort conglomerates through the 1980s, becoming a celebrated symbol of the decade's corporate excess before it all came apart. When Qintex collapsed in 1989, it left creditors holding losses estimated at roughly $1.5 billion, one of the largest corporate failures in Australian history at the time.
+
+Australian authorities charged Skase with more than 30 company-law offenses, accusing him of misusing his position as a Qintex director in connection with millions of dollars in company funds. Rather than face trial, Skase left Australia in 1991 and settled on the Spanish resort island of Majorca, beginning a decade-long fight against extradition that Spanish courts consistently allowed him to win, largely on the strength of his claims of serious, travel-prohibiting illness.
+
+Those claims became a matter of public dispute: Australian authorities released video, reportedly filmed by tourists, appearing to show Skase walking normally on a Majorca beach, directly contradicting the incapacitation described in his extradition defense. Spain never extradited him. Skase died in Majorca in 2001 of stomach cancer, ten years after fleeing and without ever standing trial in Australia on any of the charges filed against him.
+
+Skase's case remains one of Australia's most prominent examples of a corporate fraud allegation that was never resolved by a court at all — a reminder that even a well-documented, multi-billion-dollar collapse can end not in conviction or acquittal, but in an unresolved decade-long stalemate that outlasts the person accused.`,
+    sourceUrl: 'https://www.majorcadailybulletin.com/news/local/2001/08/05/3485/christopher-skase-dies-majorca.html',
+  },
 ];
 
 // Practical "how it works / red flags / what to do" guides covering the
