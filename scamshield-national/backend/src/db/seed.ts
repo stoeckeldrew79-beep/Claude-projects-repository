@@ -468,6 +468,48 @@ The fraud, which prosecutors calculated at $2.9 billion and which had run for mo
 The Colonial Bank collapse is a reminder that mortgage fraud isn't limited to individual borrowers lying on an application — at sufficient scale, the same basic mechanism of moving fake or double-counted assets between books can bring down a major regional bank and cost thousands of ordinary employees their jobs, years after the housing crisis that first exposed how much of the mortgage industry's paperwork didn't hold up to scrutiny.`,
     sourceUrl: 'https://www.justice.gov/archives/opa/pr/former-chairman-taylor-bean-whitaker-sentenced-30-years-prison-and-ordered-forfeit-385',
   },
+  {
+    title: 'Toshihide Iguchi and the $1.1 Billion Hidden Inside Daiwa Bank for 11 Years',
+    slug: 'toshihide-iguchi-daiwa-bank-rogue-trader',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Toshihide Iguchi worked as a bond trader at Daiwa Bank's New York branch, a role that — much like Nick Leeson's at Barings a decade later — combined trading authority with control over settling his own trades. Starting in 1984, unauthorized trades began losing money, and rather than report the losses, Iguchi began covering them up by secretly selling off bank-owned and customer-owned securities held in Daiwa's New York vault without authorization.
+
+The concealment continued for eleven years and an estimated 30,000 unauthorized trades. Iguchi forged trading records, falsified statements, and hid trade confirmations to keep the losses invisible to Daiwa's head office in Japan, all while the hidden hole in the bank's books kept growing. In July 1995, Iguchi finally confessed the full scope of the fraud directly to Daiwa's president in a lengthy letter — but instead of immediately disclosing it to U.S. regulators as required, two senior Daiwa managers allegedly urged him to keep concealing the losses for several more months while the bank tried to manage the fallout quietly.
+
+By the time it became public in September 1995, the hidden losses totaled $1.1 billion. Iguchi was arrested and pleaded guilty to conspiracy and record-falsification charges, and was sentenced in 1996 to four years in federal prison and a $2.6 million fine. Daiwa Bank itself was separately prosecuted for concealing the fraud from U.S. regulators, pleaded guilty, paid a $340 million fine, and was forced to shut down all of its U.S. banking operations entirely — one of the most severe penalties ever imposed on a foreign bank in America.
+
+The Daiwa case became a landmark example of why regulators treat a cover-up as seriously as the underlying loss: the trading losses alone might have been a survivable, disclosable event, but the decade-long concealment — and senior management's participation in extending it even after learning the truth — is what ended Daiwa's ability to operate in the United States at all.`,
+    sourceUrl: 'https://www.upi.com/Archives/1995/09/26/Daiwa-Bank-scandal-figure-arrested/6472812088000/',
+  },
+  {
+    title: '"Mr. Copper" Yasuo Hamanaka and the $2.6 Billion Attempt to Corner a Global Metal Market',
+    slug: 'yasuo-hamanaka-sumitomo-copper-scandal',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Yasuo Hamanaka was Sumitomo Corporation's chief copper trader for more than two decades, controlling such a large share of the world's copper trading that he was nicknamed "Mr. Five Percent" for the portion of global annual supply he was said to influence. For years he was viewed inside Sumitomo as a star performer, generating profits the company was reluctant to question too closely.
+
+Behind that performance, Hamanaka had spent roughly a decade running unauthorized trades far beyond his mandate, and for years used forged signatures of his former supervisors to keep settling trades and hiding losses without proper authorization after his formal trading authority had technically lapsed. He also used his market position in an attempt to corner the world copper market on the London Metal Exchange, building up enormous concentrated positions that depended on prices continuing to move in his favor.
+
+When copper prices moved against him, the losses Hamanaka had been hiding could no longer be contained. Sumitomo announced in June 1996 that it had uncovered unauthorized trading, initially disclosing roughly $1.8 billion in losses — a figure that grew as the full scope became clear, eventually totaling around $2.6 billion, at the time the largest trading loss in history. The company also separately paid $150 million to settle U.S. and U.K. regulatory charges that Hamanaka's scheme had illegally attempted to manipulate global copper prices.
+
+Hamanaka was convicted in Tokyo in 1998 of fraud and forgery, including defrauding Sumitomo's own Hong Kong subsidiary out of $770 million, and was sentenced to eight years in prison; he was released in 2005. The case remains a defining example of commodity-market manipulation: unlike a Ponzi scheme or an accounting fraud, Hamanaka's losses came from actually trying to control the price of a real physical commodity traded globally — proof that a single trader's concealed position can move an entire world market before anyone outside the scheme even realizes what's happening.`,
+    sourceUrl: 'https://www.japantimes.co.jp/news/1998/03/26/national/rogue-copper-trader-draws-eight-year-prison-term/',
+  },
+  {
+    title: 'Barry Minkow: The Teenage Fraudster Who Conned Wall Street, Then Conned His Own Church',
+    slug: 'barry-minkow-zzzz-best-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `Barry Minkow started a carpet-cleaning business, ZZZZ Best, out of his parents' garage at age 16, and by his early twenties had taken it public, presenting himself to Wall Street as a teenage self-made millionaire running one of the fastest-growing companies in the country. Much of that growth was built on a business that barely existed: ZZZZ Best claimed a large, lucrative insurance-restoration division that supposedly repaired water- and fire-damaged buildings, when in reality the large majority of that division's contracts were entirely fabricated.
+
+To make the fake division look real to auditors and investors, Minkow and his associates staged elaborate fronts — renting office space and construction sites, forging invoices and insurance paperwork, and even taking auditors on guided tours of buildings that had nothing to do with any real ZZZZ Best contract. The scheme also relied heavily on credit card fraud to fund the appearance of legitimate cash flow. ZZZZ Best's stock briefly valued the company at over $200 million before the fraud collapsed in 1987, wiping out investors and lenders to the tune of roughly $100 million.
+
+Minkow was convicted in 1988 on 57 counts including racketeering, securities fraud, and money laundering, and was sentenced to 25 years in federal prison; he served just over seven. After his release in 1995, he reinvented himself as a pastor and fraud investigator, founding the Fraud Discovery Institute and assisting the FBI in uncovering other white-collar schemes — until 2011, when he pleaded guilty to a new fraud, having secretly manipulated a company's stock price while also embezzling more than $3 million from his own San Diego congregation. He was sentenced to five more years in federal prison for that second fraud.
+
+Minkow's case is unusual for having two separate, fully documented fraud convictions decades apart, the second one committed by a man who had spent years publicly building a reputation as a reformed fraud-fighter — a reminder that a demonstrated capacity for elaborate, sustained deception doesn't reliably go away just because the second act looks like redemption.`,
+    sourceUrl: 'https://www.justice.gov/usao-sdca/pr/former-inmate-turned-pastor-barry-minkow-pleads-guilty-bilking-congregation',
+  },
 ];
 
 // Practical "how it works / red flags / what to do" guides covering the
