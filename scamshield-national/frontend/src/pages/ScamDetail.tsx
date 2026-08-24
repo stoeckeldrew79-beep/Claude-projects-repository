@@ -30,6 +30,17 @@ export default function ScamDetail() {
       )}
       <p className="mt-4 text-slate-700 whitespace-pre-line">{scam.description}</p>
 
+      {scam.source_url && (
+        <a
+          href={scam.source_url}
+          target="_blank"
+          rel="noreferrer"
+          className="mt-2 inline-block text-sm text-slate-500 underline hover:text-slate-700"
+        >
+          Read more{scam.sources?.[0] ? ` from ${scam.sources[0]}` : ''} →
+        </a>
+      )}
+
       {scam.locations && scam.locations.length > 0 && (
         <div className="mt-8">
           <h2 className="font-semibold text-slate-900 mb-2">Reported locations</h2>

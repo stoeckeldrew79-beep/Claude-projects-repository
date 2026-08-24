@@ -31,6 +31,7 @@ export interface Scam {
   is_active: boolean;
   is_historical: boolean;
   sources: string[] | null;
+  source_url: string | null;
   locations?: ScamLocation[];
   country: string | null;
   created_at: string;

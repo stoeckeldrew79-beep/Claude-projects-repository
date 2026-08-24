@@ -11,6 +11,7 @@ const UPDATABLE_SCAM_FIELDS = [
   'is_active',
   'is_historical',
   'sources',
+  'source_url',
   'country',
 ] as const;
 
@@ -25,6 +26,7 @@ export interface Scam {
   is_active: boolean;
   is_historical: boolean;
   sources: string[] | null;
+  source_url: string | null;
   country: string | null;
   created_at: string;
   updated_at: string;
@@ -182,8 +184,8 @@ export async function scamsNearZip(zip: string) {
 
 export async function createScam(data: Partial<Scam>) {
   const { rows } = await pool.query(
-    `INSERT INTO scams (name, slug, description, category_id, alert_level, first_recorded, is_historical, sources, country)
-     VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9)
+    `INSERT INTO scams (name, slug, description, category_id, alert_level, first_recorded, is_historical, sources, source_url, country)
+     VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10)
      RETURNING *`,
     [
       data.name,
@@ -194,6 +196,7 @@ export async function createScam(data: Partial<Scam>) {
       data.first_recorded ?? null,
       data.is_historical ?? false,
       data.sources ?? [],
+      data.source_url ?? null,
       data.country ?? 'US',
     ]
   );

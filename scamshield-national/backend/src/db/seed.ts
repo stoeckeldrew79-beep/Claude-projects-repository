@@ -670,6 +670,7 @@ const GUIDE_ARTICLES: SeedArticle[] = [
     slug: 'romance-scams-warning-signs',
     author: 'ScamShield Editorial',
     tags: ['guide', 'romance'],
+    sourceUrl: 'https://consumer.ftc.gov/romance-scams',
     body: `A romance scam starts like an ordinary online connection — a dating app match, a friend request, a comment on a post — and moves fast toward intimacy. Within days or weeks, the scammer is expressing deep feelings, planning a future together, and finding reasons a video call or in-person meeting can't quite happen yet: they're on a remote oil rig, deployed overseas, or working on an international contract.
 
 Once trust is established, money requests begin, usually framed as a temporary problem: a medical emergency, a stuck shipment needing customs fees, a plane ticket to finally meet in person. Each payment is followed by a new complication requiring another payment. Some romance scams evolve into "pig butchering" schemes, where the scammer eventually persuades the victim to invest in a fake cryptocurrency platform that shows fabricated gains, encouraging larger and larger deposits before the platform vanishes.
@@ -683,6 +684,7 @@ If you're in this situation: stop sending money immediately, do a reverse image 
     slug: 'tech-support-scam-fake-popups',
     author: 'ScamShield Editorial',
     tags: ['guide', 'tech-support'],
+    sourceUrl: 'https://consumer.ftc.gov/articles/how-spot-avoid-and-report-tech-support-scams',
     body: `It usually starts with a browser pop-up: a loud warning sound, a message claiming your computer is infected, and a phone number to call for "Microsoft support" or "Apple security." The pop-up is fake — no legitimate operating system or antivirus vendor detects a virus and tells you to call a phone number — but it's designed to look exactly like a real system alert, sometimes locking the browser in full-screen mode to make it harder to close.
 
 Calling the number connects you to a scammer posing as a technician, who will ask you to install remote-access software so they can "diagnose" the problem. Once they have control of your computer, they may show you fabricated evidence of infections, lock you out of your own files, or quietly search for banking information. The call typically ends with a demand for payment — often hundreds of dollars, frequently requested via gift cards or wire transfer — to "fix" a problem that was never real.
@@ -696,6 +698,7 @@ If you see one of these pop-ups: close the browser without calling the number (f
     slug: 'government-impersonation-scams',
     author: 'ScamShield Editorial',
     tags: ['guide', 'government-impersonation'],
+    sourceUrl: 'https://consumer.ftc.gov/articles/how-avoid-government-impersonation-scam',
     body: `A caller claims to be from the IRS, the Social Security Administration, or local police, and says something is seriously wrong: unpaid taxes, a suspended Social Security number, an outstanding warrant. The tone is urgent and threatening — arrest, deportation, frozen bank accounts — and the caller insists the only way to resolve it immediately is a specific, unusual form of payment: gift cards, a wire transfer, or increasingly, in-person cash pickup by a courier.
 
 These scams work because they weaponize a real fear of authority and legal consequence, combined with manufactured urgency that discourages the victim from hanging up and verifying independently. Caller ID can be spoofed to display a real government phone number, which is not proof the call is legitimate.
@@ -709,6 +712,7 @@ If you get one of these calls: hang up. Do not call back any number the caller p
     slug: 'business-email-compromise-bec',
     author: 'ScamShield Editorial',
     tags: ['guide', 'business-email-compromise'],
+    sourceUrl: 'https://www.ic3.gov/CrimeInfo/BEC',
     body: `Business email compromise (BEC) targets companies rather than individuals, and consistently ranks among the costliest categories of fraud reported to the FBI's Internet Crime Complaint Center, often exceeding the losses from every consumer-facing scam combined. The mechanism is simple: a scammer gains access to, or closely spoofs, an executive's or vendor's email account, then sends a request that looks completely routine — an urgent wire transfer to close a deal, a changed bank account for an existing vendor invoice, a request for employee W-2 data.
 
 What makes BEC effective is that it doesn't rely on malware or a dramatic hack. It relies on the request looking exactly like something that happens legitimately all the time, sent at a moment (end of quarter, an executive traveling, a real ongoing deal) when a slightly unusual request is least likely to raise questions, and often timed for late Friday or before a holiday when verification is slower.
@@ -722,6 +726,7 @@ If your business is targeted: contact your bank immediately to attempt a wire re
     slug: 'grandparent-scam-emergency-call',
     author: 'ScamShield Editorial',
     tags: ['guide', 'grandparent-scam'],
+    sourceUrl: 'https://consumer.ftc.gov/features/pass-it-on/impersonator-scams/grandkid-scams',
     body: `The phone rings and a young voice says "Grandma?" or "Grandpa, it's me" — often crying or sounding distressed, sometimes with static or a bad connection making the voice harder to place with certainty. Before the target can ask many questions, the caller (or someone who takes over the call claiming to be a lawyer, bail bondsman, or police officer) explains there's been an accident, an arrest, or some other emergency, and money is urgently needed — often via wire transfer, gift cards, or a cash pickup — and pleads not to tell the parents because it would mean trouble.
 
 The scam relies on emotional urgency overriding the instinct to verify: it's specifically designed to be resolved before there's time to think it through or call another family member to check. Some versions now use AI voice-cloning from a few seconds of audio scraped from social media to make the "grandchild's" voice sound more convincing, though the low-tech version — just guessing at a generic emotional tone — still works often enough that scammers keep using it.
@@ -733,6 +738,7 @@ The defense is a simple habit: agree in advance with family members on a code wo
     slug: 'pig-butchering-crypto-investment-scam',
     author: 'ScamShield Editorial',
     tags: ['guide', 'investment-fraud'],
+    sourceUrl: 'https://consumer.ftc.gov/articles/what-know-about-cryptocurrency-scams',
     body: `"Pig butchering" (a direct translation of a term the scam operations themselves use) describes a fraud pattern that fattens a victim up over weeks or months of relationship-building before taking everything at once. It typically begins with what looks like a wrong-number text or a friendly message on a dating app or social media, building an ordinary friendship or romance over time — often without any money request at all at first.
 
 Eventually the scammer mentions they've been making excellent returns on a cryptocurrency trading platform, and offers to help the victim get started. The platform is fake, built to look like a real trading app or exchange, but entirely controlled by the scam operation. Early "investments" show real-looking, steadily growing returns, and small withdrawals are often permitted specifically to build confidence. Once the victim is convinced and has committed a large sum — sometimes their life savings — further withdrawal requests are blocked with new fees, tax demands, or account "verification" requirements, each one a further attempt to extract money, until the victim finally realizes the entire platform and the relationship built around it were fabricated.
@@ -746,6 +752,7 @@ Red flags: an online relationship that pivots to investment advice, a platform y
     slug: 'phishing-email-text-basics',
     author: 'ScamShield Editorial',
     tags: ['guide', 'phishing'],
+    sourceUrl: 'https://consumer.ftc.gov/articles/how-recognize-avoid-phishing-scams',
     body: `Phishing is less a single scam than the delivery mechanism for many others: an email or text designed to look like it's from a bank, employer, delivery company, or government agency, aiming to get the recipient to click a link, enter credentials on a fake login page, or open a malicious attachment. "Smishing" (SMS phishing) and "vishing" (voice phishing) are the same technique over text and phone calls.
 
 Effective phishing exploits routine, low-attention moments: a "your package couldn't be delivered" text when you're actually expecting a package, a "suspicious sign-in" email that looks exactly like your bank's real notifications, an "invoice attached" email that matches a vendor you actually work with. The link usually leads to a page that's a near-perfect visual copy of the real login page, differing only in the URL — which is why checking the actual domain, not just how the page looks, matters more than anything else.
@@ -759,6 +766,7 @@ The reliable habits: never click a link in an unexpected message claiming to be 
     slug: 'package-delivery-scam-texts',
     author: 'ScamShield Editorial',
     tags: ['guide', 'phishing'],
+    sourceUrl: 'https://www.uspis.gov/news/scam-article/smishing-package-tracking-text-scams',
     body: `A text arrives claiming to be from USPS, FedEx, UPS, or a similar carrier: a package couldn't be delivered, or a small customs/redelivery fee is due, with a link to resolve it. The timing is what makes it effective — sent broadly enough that a meaningful share of recipients actually are expecting a delivery, at which point the message feels routine rather than suspicious.
 
 The link leads to a fake payment page designed to harvest credit card details, and sometimes additional personal information under the guise of "verifying your identity" for the redelivery. No major carrier requests payment via a text link for standard delivery or redelivery — legitimate delivery issues are handled through the carrier's own app or website, entered directly, not through a link in an unsolicited text.
@@ -770,6 +778,7 @@ If you get one of these texts: don't click the link. If you want to check on an 
     slug: 'job-offer-scam-overpayment-check',
     author: 'ScamShield Editorial',
     tags: ['guide', 'employment-fraud'],
+    sourceUrl: 'https://consumer.ftc.gov/articles/how-spot-avoid-and-report-fake-check-scams',
     body: `A job offer arrives — often for flexible, well-paid remote work — sometimes after only a brief chat interview, or no interview at all beyond a text exchange. The role is vague ("personal assistant," "mystery shopper," "payment processor"), the pay is generous relative to the minimal qualifications required, and the "employer" quickly sends a check, often for more than an agreed advance or equipment stipend, asking the new hire to deposit it and wire back the difference, or to use it to purchase equipment from a specific vendor.
 
 The check is fraudulent. Banks are required to make deposited funds provisionally available within a few business days, well before the check actually clears through the full bank verification process, which can take weeks. By the time the check bounces, the victim has already wired real money back to the scammer and is left owing their bank the full amount of the fake check that was reversed.
@@ -783,6 +792,7 @@ Red flags: any job that sends money before you've done any work, any request to 
     slug: 'charity-scams-after-disasters',
     author: 'ScamShield Editorial',
     tags: ['guide', 'charity-fraud'],
+    sourceUrl: 'https://consumer.ftc.gov/all-scams/charity-scams',
     body: `In the days after a major hurricane, earthquake, wildfire, or other widely covered disaster, solicitations spike — texts, social media posts, and phone calls asking for donations to help victims, often using real news photos and genuine-sounding organization names that are close enough to well-known charities to avoid a second look. Some fraudulent "charities" are set up specifically in the window after a disaster and disappear once donations stop.
 
 The urgency of a real tragedy is exactly what makes people skip the verification they'd normally do — nobody wants to interrogate a stranger raising money for earthquake victims, which is precisely the reaction the scam depends on.
@@ -857,6 +867,11 @@ interface SeedScam {
   // rather than forcing an inapplicable low/medium/high/critical label.
   alertLevel?: 'low' | 'medium' | 'high' | 'critical';
   sources: string[];
+  // A real, verified link to the citing agency's page (their scam-alert
+  // landing page, or general homepage as a fallback) — used as the "Read
+  // more" link on the scam detail page. Only ever a verified real URL,
+  // never a guess; left unset when no confirmed link exists yet.
+  sourceUrl?: string;
   country?: string;
   isHistorical?: boolean;
   // ISO date (YYYY-MM-DD) of the earliest well-documented instance —
@@ -873,6 +888,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'phishing',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Fake DocuSign Signature Request',
@@ -882,6 +898,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'phishing',
     alertLevel: 'medium',
     sources: ['FBI IC3'],
+    sourceUrl: 'https://www.ic3.gov/',
   },
   {
     name: 'Military Deployment Romance Scam',
@@ -891,6 +908,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'romance-scams',
     alertLevel: 'high',
     sources: ['FTC Consumer Advice', 'DoD Cyber Crime Center'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Widowed-Profile Romance Scam',
@@ -900,6 +918,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'romance-scams',
     alertLevel: 'high',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Fake Microsoft Security Pop-Up',
@@ -909,6 +928,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'tech-support-scams',
     alertLevel: 'high',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Unsolicited "Your Computer Is Infected" Call',
@@ -918,6 +938,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'tech-support-scams',
     alertLevel: 'high',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Fake Social Security Suspension Call',
@@ -927,6 +948,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'government-impersonation',
     alertLevel: 'critical',
     sources: ['SSA Office of Inspector General', 'FTC Consumer Advice'],
+    sourceUrl: 'https://oig.ssa.gov/',
   },
   {
     name: 'Fake Arrest Warrant Call',
@@ -936,6 +958,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'government-impersonation',
     alertLevel: 'critical',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Fake CEO Wire Transfer Request',
@@ -945,6 +968,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'business-email-compromise',
     alertLevel: 'critical',
     sources: ['FBI IC3'],
+    sourceUrl: 'https://www.ic3.gov/',
   },
   {
     name: 'Vendor Invoice Bank Account Change',
@@ -954,6 +978,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'business-email-compromise',
     alertLevel: 'critical',
     sources: ['FBI IC3'],
+    sourceUrl: 'https://www.ic3.gov/',
   },
   {
     name: 'Pig Butchering Fake Crypto Platform',
@@ -963,6 +988,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'investment-fraud',
     alertLevel: 'critical',
     sources: ['FBI IC3', 'FTC Consumer Advice'],
+    sourceUrl: 'https://www.ic3.gov/',
   },
   {
     name: 'Guaranteed-Returns Investment Club',
@@ -972,6 +998,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'investment-fraud',
     alertLevel: 'high',
     sources: ['SEC Office of Investor Education', 'FTC Consumer Advice'],
+    sourceUrl: 'https://www.investor.gov/',
   },
   {
     name: 'Fake USPS Redelivery Text',
@@ -981,6 +1008,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'package-delivery-scams',
     alertLevel: 'medium',
     sources: ['USPS Postal Inspection Service', 'FTC Consumer Advice'],
+    sourceUrl: 'https://www.uspis.gov/',
   },
   {
     name: 'Fake FedEx Customs Fee Text',
@@ -990,6 +1018,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'package-delivery-scams',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Fake Remote Job Overpayment Check',
@@ -999,6 +1028,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'employment-scams',
     alertLevel: 'high',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Mystery Shopper Job Scam',
@@ -1008,6 +1038,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'employment-scams',
     alertLevel: 'high',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Fake Disaster Relief Charity',
@@ -1017,6 +1048,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'charity-scams',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice', 'BBB Wise Giving Alliance'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Fake Veterans Charity Phone Call',
@@ -1026,6 +1058,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'charity-scams',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Data Breach Follow-Up Phishing',
@@ -1035,6 +1068,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'identity-theft',
     alertLevel: 'high',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Fake Credit Monitoring Enrollment Call',
@@ -1044,6 +1078,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'identity-theft',
     alertLevel: 'high',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Fake Discount Online Storefront',
@@ -1053,6 +1088,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'online-shopping-scams',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice', 'BBB'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Marketplace Overpayment Scam',
@@ -1062,6 +1098,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'online-shopping-scams',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Fake Prize Notification Scam',
@@ -1071,6 +1108,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'lottery-sweepstakes-scams',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: '"You’ve Won a Free Cruise" Robocall',
@@ -1080,6 +1118,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'lottery-sweepstakes-scams',
     alertLevel: 'low',
     sources: ['FTC Consumer Advice', 'FCC'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
 
   // Second wave of current-pattern entries, added to broaden coverage
@@ -1094,6 +1133,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'phishing',
     alertLevel: 'high',
     sources: ['FTC Consumer Advice', 'FBI IC3'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Fake Amazon Order Confirmation Email',
@@ -1103,6 +1143,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'phishing',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Fake IT Helpdesk Password Reset',
@@ -1112,6 +1153,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'phishing',
     alertLevel: 'high',
     sources: ['FBI IC3', 'CISA'],
+    sourceUrl: 'https://www.ic3.gov/',
   },
 
   {
@@ -1122,6 +1164,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'romance-scams',
     alertLevel: 'high',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Off-Platform Messaging Push',
@@ -1131,6 +1174,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'romance-scams',
     alertLevel: 'low',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Romance-to-Crypto Investment Pivot',
@@ -1140,6 +1184,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'romance-scams',
     alertLevel: 'critical',
     sources: ['FBI IC3', 'FTC Consumer Advice'],
+    sourceUrl: 'https://www.ic3.gov/',
   },
 
   {
@@ -1150,6 +1195,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'tech-support-scams',
     alertLevel: 'high',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Auto-Renewal Antivirus Refund Call',
@@ -1159,6 +1205,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'tech-support-scams',
     alertLevel: 'high',
     sources: ['FTC Consumer Advice', 'FBI IC3'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Fake ISP Service Disconnection Call',
@@ -1168,6 +1215,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'tech-support-scams',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
 
   {
@@ -1178,6 +1226,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'government-impersonation',
     alertLevel: 'high',
     sources: ['FTC Consumer Advice', 'U.S. Department of Labor'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Fake Immigration Deportation Threat Call',
@@ -1187,6 +1236,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'government-impersonation',
     alertLevel: 'critical',
     sources: ['FTC Consumer Advice', 'FBI IC3'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Fake Census Bureau Data Request',
@@ -1196,6 +1246,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'government-impersonation',
     alertLevel: 'medium',
     sources: ['U.S. Census Bureau', 'FTC Consumer Advice'],
+    sourceUrl: 'https://www.census.gov/',
   },
 
   {
@@ -1206,6 +1257,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'business-email-compromise',
     alertLevel: 'high',
     sources: ['FBI IC3'],
+    sourceUrl: 'https://www.ic3.gov/',
   },
   {
     name: 'Compromised Closing Wire Instructions',
@@ -1215,6 +1267,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'business-email-compromise',
     alertLevel: 'critical',
     sources: ['FBI IC3', 'FTC Consumer Advice'],
+    sourceUrl: 'https://www.ic3.gov/',
   },
   {
     name: 'Fake Executive Gift Card Request',
@@ -1224,6 +1277,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'business-email-compromise',
     alertLevel: 'medium',
     sources: ['FBI IC3', 'FTC Consumer Advice'],
+    sourceUrl: 'https://www.ic3.gov/',
   },
 
   {
@@ -1234,6 +1288,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'investment-fraud',
     alertLevel: 'high',
     sources: ['FTC Consumer Advice', 'FBI IC3'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Prime Bank Instrument Fraud',
@@ -1243,6 +1298,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'investment-fraud',
     alertLevel: 'high',
     sources: ['U.S. Securities and Exchange Commission', 'FBI IC3'],
+    sourceUrl: 'https://www.sec.gov/',
   },
   {
     name: 'Fake Forex or Day-Trading Signal Service',
@@ -1252,6 +1308,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'investment-fraud',
     alertLevel: 'medium',
     sources: ['U.S. Securities and Exchange Commission', 'FTC Consumer Advice'],
+    sourceUrl: 'https://www.sec.gov/',
   },
 
   {
@@ -1262,6 +1319,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'package-delivery-scams',
     alertLevel: 'low',
     sources: ['USPS Postal Inspection Service', 'FTC Consumer Advice'],
+    sourceUrl: 'https://www.uspis.gov/',
   },
   {
     name: 'QR Code Delivery Scam',
@@ -1271,6 +1329,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'package-delivery-scams',
     alertLevel: 'medium',
     sources: ['FBI IC3', 'FTC Consumer Advice'],
+    sourceUrl: 'https://www.ic3.gov/',
   },
   {
     name: 'Fake Delivery Driver Tip Request',
@@ -1280,6 +1339,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'package-delivery-scams',
     alertLevel: 'low',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
 
   {
@@ -1290,6 +1350,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'employment-scams',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Fake Recruiter Personal Information Harvest',
@@ -1299,6 +1360,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'employment-scams',
     alertLevel: 'high',
     sources: ['FTC Consumer Advice', 'FBI IC3'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Fake Job-Board "Easy Apply" Phishing Page',
@@ -1308,6 +1370,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'employment-scams',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
 
   {
@@ -1318,6 +1381,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'charity-scams',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice', 'BBB Scam Tracker'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Look-Alike Charity Name Scam',
@@ -1327,6 +1391,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'charity-scams',
     alertLevel: 'medium',
     sources: ['BBB Scam Tracker', 'FTC Consumer Advice'],
+    sourceUrl: 'https://www.bbb.org/scamtracker',
   },
   {
     name: 'Fake Door-to-Door Charity Collector',
@@ -1336,6 +1401,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'charity-scams',
     alertLevel: 'low',
     sources: ['BBB Scam Tracker', 'FTC Consumer Advice'],
+    sourceUrl: 'https://www.bbb.org/scamtracker',
   },
 
   {
@@ -1346,6 +1412,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'identity-theft',
     alertLevel: 'critical',
     sources: ['FCC', 'FBI IC3'],
+    sourceUrl: 'https://www.fcc.gov/general/frauds-scams-and-alerts-guides',
   },
   {
     name: 'Synthetic Identity Fraud',
@@ -1355,6 +1422,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'identity-theft',
     alertLevel: 'high',
     sources: ['FTC Consumer Advice', 'FBI IC3'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Mail Theft Identity Theft',
@@ -1364,6 +1432,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'identity-theft',
     alertLevel: 'medium',
     sources: ['USPS Postal Inspection Service', 'FTC Consumer Advice'],
+    sourceUrl: 'https://www.uspis.gov/',
   },
 
   {
@@ -1374,6 +1443,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'online-shopping-scams',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice', 'BBB Scam Tracker'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Puppy Scam',
@@ -1383,6 +1453,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'online-shopping-scams',
     alertLevel: 'medium',
     sources: ['BBB Scam Tracker', 'FTC Consumer Advice'],
+    sourceUrl: 'https://www.bbb.org/scamtracker',
   },
   {
     name: 'Fake Rental Listing Scam',
@@ -1392,6 +1463,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'online-shopping-scams',
     alertLevel: 'high',
     sources: ['FTC Consumer Advice', 'BBB Scam Tracker'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
 
   {
@@ -1402,6 +1474,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'lottery-sweepstakes-scams',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice', 'U.S. Postal Inspection Service'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Fake "Prize Patrol" Sweepstakes Call',
@@ -1411,6 +1484,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'lottery-sweepstakes-scams',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice', 'FCC'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Fake Government Grant Award',
@@ -1420,6 +1494,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'lottery-sweepstakes-scams',
     alertLevel: 'high',
     sources: ['FTC Consumer Advice', 'USA.gov'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
 
   // Third wave: 3 more entries for each of the original 12 categories,
@@ -1435,6 +1510,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'phishing',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Fake Cloud Storage Full Warning',
@@ -1444,6 +1520,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'phishing',
     alertLevel: 'low',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Malicious Invoice Attachment Phishing',
@@ -1453,6 +1530,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'phishing',
     alertLevel: 'high',
     sources: ['FBI IC3', 'CISA'],
+    sourceUrl: 'https://www.ic3.gov/',
   },
   {
     name: 'Sugar Daddy Advance-Fee Scam',
@@ -1462,6 +1540,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'romance-scams',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice', 'BBB Scam Tracker'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Long-Distance Engagement Travel Funds Scam',
@@ -1471,6 +1550,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'romance-scams',
     alertLevel: 'high',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Sick Child Overseas Romance Scam',
@@ -1480,6 +1560,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'romance-scams',
     alertLevel: 'high',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Fake Streaming Service Compromised Account Call',
@@ -1489,6 +1570,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'tech-support-scams',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Fake Bank Fraud Department Remote Access Scam',
@@ -1498,6 +1580,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'tech-support-scams',
     alertLevel: 'critical',
     sources: ['FTC Consumer Advice', 'FBI IC3'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Fake Router Firmware Update Call',
@@ -1507,6 +1590,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'tech-support-scams',
     alertLevel: 'high',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Fake Unpaid Toll Text',
@@ -1516,6 +1600,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'government-impersonation',
     alertLevel: 'medium',
     sources: ['FBI IC3', 'FTC Consumer Advice'],
+    sourceUrl: 'https://www.ic3.gov/',
   },
   {
     name: 'Fake Jury Duty Failure-to-Appear Fine',
@@ -1525,6 +1610,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'government-impersonation',
     alertLevel: 'high',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Fake Social Security Benefit Increase Verification',
@@ -1534,6 +1620,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'government-impersonation',
     alertLevel: 'medium',
     sources: ['Social Security Administration', 'FTC Consumer Advice'],
+    sourceUrl: 'https://www.ssa.gov/scam/',
   },
   {
     name: 'Fake Urgent Legal Demand Email',
@@ -1543,6 +1630,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'business-email-compromise',
     alertLevel: 'critical',
     sources: ['FBI IC3'],
+    sourceUrl: 'https://www.ic3.gov/',
   },
   {
     name: 'Compromised Vendor Portal Credential Phishing',
@@ -1552,6 +1640,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'business-email-compromise',
     alertLevel: 'high',
     sources: ['FBI IC3'],
+    sourceUrl: 'https://www.ic3.gov/',
   },
   {
     name: 'Fake New-Hire Direct Deposit Setup',
@@ -1561,6 +1650,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'business-email-compromise',
     alertLevel: 'medium',
     sources: ['FBI IC3'],
+    sourceUrl: 'https://www.ic3.gov/',
   },
   {
     name: 'Fake Real Estate Crowdfunding Platform',
@@ -1570,6 +1660,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'investment-fraud',
     alertLevel: 'high',
     sources: ['U.S. Securities and Exchange Commission'],
+    sourceUrl: 'https://www.sec.gov/',
   },
   {
     name: 'Private Lending Club Ponzi Scheme',
@@ -1579,6 +1670,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'investment-fraud',
     alertLevel: 'high',
     sources: ['U.S. Securities and Exchange Commission', 'FTC Consumer Advice'],
+    sourceUrl: 'https://www.sec.gov/',
   },
   {
     name: 'Rug Pull Token Presale Scam',
@@ -1588,6 +1680,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'investment-fraud',
     alertLevel: 'high',
     sources: ['FBI IC3', 'U.S. Securities and Exchange Commission'],
+    sourceUrl: 'https://www.ic3.gov/',
   },
   {
     name: 'Fake International Customs Fee Text',
@@ -1597,6 +1690,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'package-delivery-scams',
     alertLevel: 'low',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Fake DHL Missed Delivery Card',
@@ -1606,6 +1700,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'package-delivery-scams',
     alertLevel: 'low',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Fake Amazon Delivery Failed Refund Scam',
@@ -1615,6 +1710,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'package-delivery-scams',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Data Entry Job Starter Kit Fee',
@@ -1624,6 +1720,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'employment-scams',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Guaranteed Government Job Placement Fee',
@@ -1633,6 +1730,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'employment-scams',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice', 'USA.gov'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Task-Completion Pyramid Scam',
@@ -1642,6 +1740,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'employment-scams',
     alertLevel: 'high',
     sources: ['FBI IC3', 'FTC Consumer Advice'],
+    sourceUrl: 'https://www.ic3.gov/',
   },
   {
     name: 'Fake Holiday Toy Drive Scam',
@@ -1651,6 +1750,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'charity-scams',
     alertLevel: 'low',
     sources: ['BBB Scam Tracker'],
+    sourceUrl: 'https://www.bbb.org/scamtracker',
   },
   {
     name: 'Fake Animal Rescue Charity',
@@ -1660,6 +1760,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'charity-scams',
     alertLevel: 'medium',
     sources: ['BBB Scam Tracker', 'FTC Consumer Advice'],
+    sourceUrl: 'https://www.bbb.org/scamtracker',
   },
   {
     name: 'Fake Police or Firefighter Fraternal Donation Call',
@@ -1669,6 +1770,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'charity-scams',
     alertLevel: 'medium',
     sources: ['BBB Scam Tracker', 'FTC Consumer Advice'],
+    sourceUrl: 'https://www.bbb.org/scamtracker',
   },
   {
     name: 'Medical Identity Theft',
@@ -1678,6 +1780,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'identity-theft',
     alertLevel: 'high',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Child Identity Theft via School Data Breach',
@@ -1687,6 +1790,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'identity-theft',
     alertLevel: 'high',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'New Account Fraud via Public Records',
@@ -1696,6 +1800,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'identity-theft',
     alertLevel: 'high',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Fake Social Media Influencer Storefront',
@@ -1705,6 +1810,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'online-shopping-scams',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice', 'BBB Scam Tracker'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Fake Vehicle Listing Scam',
@@ -1714,6 +1820,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'online-shopping-scams',
     alertLevel: 'high',
     sources: ['FTC Consumer Advice', 'BBB Scam Tracker'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Fake Furniture Liquidation Sale Scam',
@@ -1723,6 +1830,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'online-shopping-scams',
     alertLevel: 'medium',
     sources: ['BBB Scam Tracker'],
+    sourceUrl: 'https://www.bbb.org/scamtracker',
   },
   {
     name: 'Fake Second-Chance Lottery Winner Notification',
@@ -1732,6 +1840,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'lottery-sweepstakes-scams',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Fake Class Action Settlement Payout Scam',
@@ -1741,6 +1850,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'lottery-sweepstakes-scams',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Fake Unknown Relative Inheritance Scam',
@@ -1750,6 +1860,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'lottery-sweepstakes-scams',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice', 'U.S. Postal Inspection Service'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
 
   // New category: Sextortion
@@ -1761,6 +1872,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'sextortion',
     alertLevel: 'critical',
     sources: ['FBI IC3'],
+    sourceUrl: 'https://www.ic3.gov/',
   },
   {
     name: 'Fake Data Breach Password Blackmail Email',
@@ -1770,6 +1882,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'sextortion',
     alertLevel: 'high',
     sources: ['FBI IC3', 'FTC Consumer Advice'],
+    sourceUrl: 'https://www.ic3.gov/',
   },
   {
     name: 'Fake Minor Predator Extortion Scam',
@@ -1779,6 +1892,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'sextortion',
     alertLevel: 'high',
     sources: ['FBI IC3'],
+    sourceUrl: 'https://www.ic3.gov/',
   },
   {
     name: 'AI-Generated Nude Image Extortion',
@@ -1788,6 +1902,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'sextortion',
     alertLevel: 'critical',
     sources: ['FBI IC3', 'NCMEC'],
+    sourceUrl: 'https://www.ic3.gov/',
   },
   {
     name: 'Recorded Video Call Extortion via Compromised Account',
@@ -1797,6 +1912,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'sextortion',
     alertLevel: 'critical',
     sources: ['FBI IC3'],
+    sourceUrl: 'https://www.ic3.gov/',
   },
 
   // New category: Account Takeover
@@ -1808,6 +1924,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'account-takeover',
     alertLevel: 'high',
     sources: ['FTC Consumer Advice', 'FBI IC3'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Fake Password Reset Confirmation',
@@ -1817,6 +1934,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'account-takeover',
     alertLevel: 'critical',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Social-Engineered Account Recovery Bypass',
@@ -1826,6 +1944,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'account-takeover',
     alertLevel: 'high',
     sources: ['FBI IC3'],
+    sourceUrl: 'https://www.ic3.gov/',
   },
   {
     name: 'Compromised Social Media Ad Account Takeover',
@@ -1835,6 +1954,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'account-takeover',
     alertLevel: 'high',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Session Cookie Theft via Malicious Browser Extension',
@@ -1844,6 +1964,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'account-takeover',
     alertLevel: 'high',
     sources: ['CISA', 'FBI IC3'],
+    sourceUrl: 'https://www.cisa.gov/',
   },
 
   // New category: Insurance Fraud
@@ -1855,6 +1976,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'insurance-fraud',
     alertLevel: 'high',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Post-Disaster Fake Claims Adjuster',
@@ -1864,6 +1986,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'insurance-fraud',
     alertLevel: 'high',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Staged Auto Accident Scam',
@@ -1873,6 +1996,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'insurance-fraud',
     alertLevel: 'medium',
     sources: ['FBI IC3'],
+    sourceUrl: 'https://www.ic3.gov/',
   },
   {
     name: 'Fake Pet Insurance Renewal Scam',
@@ -1882,6 +2006,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'insurance-fraud',
     alertLevel: 'low',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Ghost Broker Auto Insurance Scam',
@@ -1891,6 +2016,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'insurance-fraud',
     alertLevel: 'high',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
 
   // New category: Healthcare Fraud
@@ -1902,6 +2028,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'healthcare-fraud',
     alertLevel: 'high',
     sources: ['Medicare.gov', 'FTC Consumer Advice'],
+    sourceUrl: 'https://www.medicare.gov/basics/reporting-medicare-fraud-and-abuse',
   },
   {
     name: 'Free Genetic Testing Kit Scam',
@@ -1911,6 +2038,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'healthcare-fraud',
     alertLevel: 'high',
     sources: ['Medicare.gov', 'FBI IC3'],
+    sourceUrl: 'https://www.medicare.gov/basics/reporting-medicare-fraud-and-abuse',
   },
   {
     name: 'Fake Online Pharmacy',
@@ -1920,6 +2048,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'healthcare-fraud',
     alertLevel: 'critical',
     sources: ['FDA', 'FTC Consumer Advice'],
+    sourceUrl: 'https://www.fda.gov/consumers/health-fraud-scams',
   },
   {
     name: 'Miracle Cure Supplement Scam',
@@ -1929,6 +2058,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'healthcare-fraud',
     alertLevel: 'medium',
     sources: ['FDA', 'FTC Consumer Advice'],
+    sourceUrl: 'https://www.fda.gov/consumers/health-fraud-scams',
   },
   {
     name: 'Fake Health Insurance Marketplace Navigator',
@@ -1938,6 +2068,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'healthcare-fraud',
     alertLevel: 'high',
     sources: ['HealthCare.gov', 'FTC Consumer Advice'],
+    sourceUrl: 'https://www.healthcare.gov/protect-from-fraud-and-scams/',
   },
 
   // New category: AI & Deepfake Scams
@@ -1949,6 +2080,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'ai-deepfake-scams',
     alertLevel: 'critical',
     sources: ['FTC Consumer Advice', 'FBI IC3'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Deepfake Video Call CEO Fraud',
@@ -1958,6 +2090,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'ai-deepfake-scams',
     alertLevel: 'critical',
     sources: ['FBI IC3'],
+    sourceUrl: 'https://www.ic3.gov/',
   },
   {
     name: 'AI-Generated Fake News Investment Endorsement',
@@ -1967,6 +2100,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'ai-deepfake-scams',
     alertLevel: 'high',
     sources: ['U.S. Securities and Exchange Commission', 'FTC Consumer Advice'],
+    sourceUrl: 'https://www.sec.gov/',
   },
   {
     name: 'AI Chatbot Romance Scam',
@@ -1976,6 +2110,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'ai-deepfake-scams',
     alertLevel: 'high',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Deepfake Job Interview Fraudulent Candidate',
@@ -1985,6 +2120,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'ai-deepfake-scams',
     alertLevel: 'medium',
     sources: ['FBI IC3', 'CISA'],
+    sourceUrl: 'https://www.ic3.gov/',
   },
 
   // New category: Debt Relief Scams
@@ -1996,6 +2132,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'debt-relief-scams',
     alertLevel: 'high',
     sources: ['FTC Consumer Advice', 'CFPB'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Fake Student Loan Forgiveness Program',
@@ -2005,6 +2142,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'debt-relief-scams',
     alertLevel: 'high',
     sources: ['U.S. Department of Education', 'FTC Consumer Advice'],
+    sourceUrl: 'https://www.ed.gov/',
   },
   {
     name: 'Credit Repair "New Identity" Scam',
@@ -2014,6 +2152,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'debt-relief-scams',
     alertLevel: 'high',
     sources: ['FTC Consumer Advice', 'CFPB'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Fake Debt Collector Threatening Call',
@@ -2023,6 +2162,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'debt-relief-scams',
     alertLevel: 'high',
     sources: ['CFPB', 'FTC Consumer Advice'],
+    sourceUrl: 'https://www.consumerfinance.gov/consumer-tools/fraud/',
   },
   {
     name: 'Timeshare Exit Company Scam',
@@ -2032,6 +2172,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'debt-relief-scams',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice', 'BBB Scam Tracker'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
 
   // New category: Mortgage & Foreclosure Scams
@@ -2043,6 +2184,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'mortgage-foreclosure-scams',
     alertLevel: 'high',
     sources: ['HUD', 'FTC Consumer Advice'],
+    sourceUrl: 'https://www.hud.gov/helping-americans/prevent-loan-scams',
   },
   {
     name: 'Fake Loan Modification Company',
@@ -2052,6 +2194,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'mortgage-foreclosure-scams',
     alertLevel: 'high',
     sources: ['CFPB', 'FTC Consumer Advice'],
+    sourceUrl: 'https://www.consumerfinance.gov/consumer-tools/fraud/',
   },
   {
     name: 'Rent-Back Deed Transfer Scam',
@@ -2061,6 +2204,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'mortgage-foreclosure-scams',
     alertLevel: 'critical',
     sources: ['HUD', 'FTC Consumer Advice'],
+    sourceUrl: 'https://www.hud.gov/helping-americans/prevent-loan-scams',
   },
   {
     name: 'Fake Mortgage Payoff Wire Fraud',
@@ -2070,6 +2214,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'mortgage-foreclosure-scams',
     alertLevel: 'critical',
     sources: ['FBI IC3'],
+    sourceUrl: 'https://www.ic3.gov/',
   },
   {
     name: 'Reverse Mortgage Counseling Fee Scam',
@@ -2079,6 +2224,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'mortgage-foreclosure-scams',
     alertLevel: 'medium',
     sources: ['HUD', 'CFPB'],
+    sourceUrl: 'https://www.hud.gov/helping-americans/prevent-loan-scams',
   },
 
   // New category: Tax Scams
@@ -2090,6 +2236,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'tax-scams',
     alertLevel: 'critical',
     sources: ['IRS', 'FTC Consumer Advice'],
+    sourceUrl: 'https://www.irs.gov/newsroom/tax-scams-consumer-alerts',
   },
   {
     name: 'Ghost Tax Preparer Scam',
@@ -2099,6 +2246,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'tax-scams',
     alertLevel: 'high',
     sources: ['IRS'],
+    sourceUrl: 'https://www.irs.gov/newsroom/tax-scams-consumer-alerts',
   },
   {
     name: 'Fraudulent Tax Refund Identity Theft',
@@ -2108,6 +2256,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'tax-scams',
     alertLevel: 'high',
     sources: ['IRS', 'FTC Consumer Advice'],
+    sourceUrl: 'https://www.irs.gov/newsroom/tax-scams-consumer-alerts',
   },
   {
     name: 'Fake IRS Refund Text or Email',
@@ -2117,6 +2266,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'tax-scams',
     alertLevel: 'medium',
     sources: ['IRS'],
+    sourceUrl: 'https://www.irs.gov/newsroom/tax-scams-consumer-alerts',
   },
   {
     name: 'Employee Retention Credit Mill Scam',
@@ -2126,6 +2276,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'tax-scams',
     alertLevel: 'high',
     sources: ['IRS'],
+    sourceUrl: 'https://www.irs.gov/newsroom/tax-scams-consumer-alerts',
   },
 
   // Historical entries: real, well-documented frauds with no current
@@ -2139,6 +2290,7 @@ const SEED_SCAMS: SeedScam[] = [
       'The South Sea Company was granted a British trade monopoly with South America in exchange for absorbing part of the national debt. Directors inflated the stock through bribery and self-dealing rather than real trade revenue, driving the price from around £128 in January 1720 to over £1,000 by August — before it collapsed to under £200 by December, wiping out investors across British society, reportedly including Isaac Newton. The scandal led to a parliamentary investigation and the seizure of directors\' estates, and remains one of the earliest well-documented examples of a market propped up by fraud rather than fundamentals.',
     categorySlug: 'investment-fraud',
     sources: ['Encyclopaedia Britannica', 'UK Parliament archives'],
+    sourceUrl: 'https://www.britannica.com/money/South-Sea-Bubble',
     country: 'GB',
     isHistorical: true,
     firstRecorded: '1720-01-01',
@@ -2150,6 +2302,7 @@ const SEED_SCAMS: SeedScam[] = [
       'Scottish soldier Gregor MacGregor returned to Britain in 1821 claiming to be "Cazique" of Poyais, a prosperous Central American territory he invented out of whole cloth. He sold land certificates and government bonds worth roughly £200,000, and recruited settlers with a fabricated guidebook describing a developed colony. About 250 emigrants sailed for Poyais in 1822–23 and found only uninhabited jungle; more than half died before rescue. MacGregor was never successfully prosecuted and later ran smaller versions of the same scheme.',
     categorySlug: 'investment-fraud',
     sources: ['Encyclopaedia Britannica', 'Historic UK'],
+    sourceUrl: 'https://www.britannica.com/story/the-craziest-scam-gregor-macgregor-creates-his-own-country',
     country: 'GB',
     isHistorical: true,
     firstRecorded: '1822-01-01',
@@ -2161,6 +2314,7 @@ const SEED_SCAMS: SeedScam[] = [
       'Prospectors Philip Arnold and John Slack salted a claimed diamond field in the Wyoming/Colorado territory with real but low-value industrial diamonds and gemstones bought elsewhere, then let investors "discover" them during a staged site visit. San Francisco financiers, including the Bank of California\'s William Ralston, formed a mining company and paid the pair roughly $600,000 (worth many millions today) for their claim. The fraud unraveled when U.S. government geologist Clarence King independently surveyed the site and found gems in geologically impossible combinations and locations — exposing the whole scheme within weeks of the deal closing.',
     categorySlug: 'investment-fraud',
     sources: ['Smithsonian Magazine', 'U.S. Geological Survey history'],
+    sourceUrl: 'https://www.smithsonianmag.com/history/the-great-diamond-hoax-of-1872-2630188/',
     country: 'US',
     isHistorical: true,
     firstRecorded: '1872-01-01',
@@ -2183,6 +2337,7 @@ const SEED_SCAMS: SeedScam[] = [
       'Between 1897 and 1904, Cassie Chadwick convinced multiple Ohio banks she was Andrew Carnegie\'s secret illegitimate daughter, using a forged $2 million promissory note as fabricated proof to secure enormous loans against a fortune she never had. Banks competed to lend to her quietly, hoping to earn her favor (and Carnegie\'s business) without asking questions. The scheme collapsed in 1904 when a lender sued to recover an unpaid loan; she was convicted of conspiracy in 1905 and died in prison in 1907.',
     categorySlug: 'identity-theft',
     sources: ['Smithsonian Magazine', 'Ohio History Connection'],
+    sourceUrl: 'https://www.smithsonianmag.com/history/the-high-priestess-of-fraudulent-finance-45/',
     country: 'US',
     isHistorical: true,
     firstRecorded: '1897-01-01',
@@ -2194,6 +2349,7 @@ const SEED_SCAMS: SeedScam[] = [
       'Commodities trader Anthony "Tino" De Angelis borrowed hundreds of millions of dollars against warehouse receipts for vegetable oil inventory that mostly didn\'t exist — storage tanks were filled largely with seawater, topped with a thin layer of real oil to fool inspectors. American Express\'s field warehousing subsidiary had certified the (fake) inventory as collateral, and when the fraud collapsed in late 1963 it caused over $180 million in losses across American Express, Bank of America, and other lenders, and contributed to a stock market dip that coincided with the week of President Kennedy\'s assassination. De Angelis served seven years in prison.',
     categorySlug: 'investment-fraud',
     sources: ['U.S. Securities and Exchange Commission history', 'The Wall Street Journal (Pulitzer Prize-winning coverage)'],
+    sourceUrl: 'https://www.sec.gov/',
     country: 'US',
     isHistorical: true,
     firstRecorded: '1963-01-01',
@@ -2205,6 +2361,7 @@ const SEED_SCAMS: SeedScam[] = [
       'Scottish financier John Law convinced France\'s regent to let him establish a national bank issuing paper currency, then merged it with the Compagnie d\'Occident, granted a monopoly over French trade with Louisiana and the Mississippi valley. Speculative buying drove shares from 500 to 10,000 livres between January and December 1719, before Law\'s bank — which had printed roughly five times more paper money than it held in gold — collapsed under a wave of redemptions in 1720. Law was dismissed as France\'s Controller General and fled the country; the collapse contributed to French distrust of paper money and banks for generations.',
     categorySlug: 'investment-fraud',
     sources: ['Encyclopaedia Britannica', 'Federal Reserve Bank of New York (Liberty Street Economics)'],
+    sourceUrl: 'https://www.britannica.com/money/Mississippi-Bubble',
     country: 'FR',
     isHistorical: true,
     firstRecorded: '1720-01-01',
@@ -2216,6 +2373,7 @@ const SEED_SCAMS: SeedScam[] = [
       'From 1871 to 1875, a network of whiskey distillers bribed federal tax collectors and Treasury officials — mainly centered in St. Louis — to certify far less liquor production than was actually distilled, letting them dodge most of the 70-cents-per-gallon federal excise tax and split the stolen revenue. Treasury Secretary Benjamin Bristow ran a secret investigation that broke the ring open in 1875, leading to 238 indictments and 110 convictions; President Ulysses S. Grant\'s own personal secretary, Orville Babcock, was indicted (and acquitted after Grant\'s testimony), badly damaging the administration\'s reputation.',
     categorySlug: 'tax-scams',
     sources: ['Encyclopaedia Britannica', 'U.S. National Archives'],
+    sourceUrl: 'https://www.britannica.com/money/Whiskey-Ring',
     country: 'US',
     isHistorical: true,
     firstRecorded: '1875-01-01',
@@ -2238,6 +2396,7 @@ const SEED_SCAMS: SeedScam[] = [
       'Swedish industrialist Ivar Kreuger built a global monopoly on match production, becoming one of the world\'s largest lenders to governments in the 1920s by loaning them money in exchange for match-sale monopolies in their countries. To keep raising capital, he ran what forensic auditors later determined was a vast pyramid scheme, hiding fictitious assets and forged bonds across a maze of over 400 subsidiary companies. Kreuger died by suicide in Paris in March 1932 as the scheme unraveled; the collapse of Kreuger & Toll was, at the time, one of the largest corporate frauds in history and was a direct catalyst for the U.S. Securities Act of 1933.',
     categorySlug: 'investment-fraud',
     sources: ['Harvard Business School archives', 'Encyclopaedia Britannica'],
+    sourceUrl: 'https://www.britannica.com/money/Ivar-Kreuger',
     country: 'SE',
     isHistorical: true,
     firstRecorded: '1929-01-01',
@@ -2249,6 +2408,7 @@ const SEED_SCAMS: SeedScam[] = [
       'The French company building the Panama Canal, led by Ferdinand de Lesseps (celebrated for completing the Suez Canal), ran catastrophically over budget and turned to a lottery-bond scheme in 1888 to raise fresh capital from small French investors — roughly 800,000 of them. The company collapsed within a year, and a 1892 investigation revealed that company directors had bribed over a hundred members of the French parliament to approve the lottery loan. Ferdinand and Charles de Lesseps were convicted and sentenced to prison (Ferdinand\'s sentence was later overturned on a technicality due to his age and health), and the scandal remains one of the largest financial and political corruption cases in French history.',
     categorySlug: 'investment-fraud',
     sources: ['Encyclopaedia Britannica'],
+    sourceUrl: 'https://www.britannica.com/event/Panama-Scandal',
     country: 'FR',
     isHistorical: true,
     firstRecorded: '1888-01-01',
@@ -2260,6 +2420,7 @@ const SEED_SCAMS: SeedScam[] = [
       'Robert Vesco took control of the Swiss-based Investors Overseas Services (IOS), a sprawling "fund of funds" that sold mutual fund investments to expatriates and international investors worldwide, and looted it by directing its funds into a web of banks and shell companies he secretly owned. As SEC investigators closed in during February 1973, Vesco fled the United States aboard a corporate jet with an estimated $200 million of investor money, eventually renouncing his citizenship and spending decades evading extradition in countries like Costa Rica, Nicaragua, and finally Cuba, where he died in 2007.',
     categorySlug: 'investment-fraud',
     sources: ['Encyclopaedia Britannica', 'U.S. Securities and Exchange Commission history'],
+    sourceUrl: 'https://www.britannica.com/biography/Robert-L-Vesco',
     country: 'US',
     isHistorical: true,
     firstRecorded: '1971-01-01',
@@ -2272,6 +2433,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'account-takeover',
     alertLevel: 'high',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Port-Out Fraud via Stolen Personal Information',
@@ -2281,6 +2443,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'account-takeover',
     alertLevel: 'high',
     sources: ['FCC Consumer Guides', 'FTC Consumer Advice'],
+    sourceUrl: 'https://www.fcc.gov/general/frauds-scams-and-alerts-guides',
   },
   {
     name: 'Account Takeover via Reused Password from an Unrelated Breach',
@@ -2290,6 +2453,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'account-takeover',
     alertLevel: 'high',
     sources: ['FBI IC3'],
+    sourceUrl: 'https://www.ic3.gov/',
   },
   {
     name: 'OAuth App Consent Phishing',
@@ -2299,6 +2463,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'account-takeover',
     alertLevel: 'medium',
     sources: ['CISA'],
+    sourceUrl: 'https://www.cisa.gov/',
   },
   {
     name: 'Fake Two-Factor Authentication "Reset" Support Call',
@@ -2308,6 +2473,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'account-takeover',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'AI-Cloned Executive Voice Wire-Approval Call',
@@ -2317,6 +2483,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'ai-deepfake-scams',
     alertLevel: 'high',
     sources: ['FBI IC3'],
+    sourceUrl: 'https://www.ic3.gov/',
   },
   {
     name: 'AI Face-Swap Blackmail Video',
@@ -2326,6 +2493,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'ai-deepfake-scams',
     alertLevel: 'critical',
     sources: ['FBI IC3', 'National Center for Missing & Exploited Children'],
+    sourceUrl: 'https://www.ic3.gov/',
   },
   {
     name: 'AI-Generated Celebrity Health Product Endorsement Ad',
@@ -2335,6 +2503,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'ai-deepfake-scams',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'AI-Cloned Voicemail Urgent Callback Scam',
@@ -2344,6 +2513,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'ai-deepfake-scams',
     alertLevel: 'high',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'AI-Generated Fake Investment Company Website',
@@ -2353,6 +2523,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'ai-deepfake-scams',
     alertLevel: 'high',
     sources: ['SEC Office of Investor Education and Advocacy'],
+    sourceUrl: 'https://www.investor.gov/',
   },
   {
     name: 'Fake Debt Validation Letter Scam',
@@ -2362,6 +2533,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'debt-relief-scams',
     alertLevel: 'medium',
     sources: ['Consumer Financial Protection Bureau'],
+    sourceUrl: 'https://www.consumerfinance.gov/consumer-tools/fraud/',
   },
   {
     name: 'Fake Wage Garnishment Notice Scam',
@@ -2371,6 +2543,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'debt-relief-scams',
     alertLevel: 'high',
     sources: ['Consumer Financial Protection Bureau', 'FTC Consumer Advice'],
+    sourceUrl: 'https://www.consumerfinance.gov/consumer-tools/fraud/',
   },
   {
     name: 'Debt Relief "Pay Us Instead of Your Creditors" Scam',
@@ -2380,6 +2553,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'debt-relief-scams',
     alertLevel: 'high',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Advance-Fee Debt Consolidation Loan Scam',
@@ -2389,6 +2563,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'debt-relief-scams',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Fake Credit Card Interest Rate Reduction Robocall',
@@ -2398,6 +2573,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'debt-relief-scams',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Fake Life Insurance Beneficiary Change Scam',
@@ -2407,6 +2583,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'insurance-fraud',
     alertLevel: 'high',
     sources: ['National Association of Insurance Commissioners'],
+    sourceUrl: 'https://www.naic.org/',
   },
   {
     name: 'Insurance "Assignment of Benefits" Contractor Scam',
@@ -2416,6 +2593,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'insurance-fraud',
     alertLevel: 'medium',
     sources: ['National Association of Insurance Commissioners', 'FTC Consumer Advice'],
+    sourceUrl: 'https://www.naic.org/',
   },
   {
     name: 'Fake Rideshare Driver Commercial Insurance Scam',
@@ -2425,6 +2603,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'insurance-fraud',
     alertLevel: 'medium',
     sources: ['National Association of Insurance Commissioners'],
+    sourceUrl: 'https://www.naic.org/',
   },
   {
     name: 'Fake Short-Term Health Plan Sold as ACA-Compliant',
@@ -2434,6 +2613,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'insurance-fraud',
     alertLevel: 'medium',
     sources: ['Centers for Medicare & Medicaid Services', 'FTC Consumer Advice'],
+    sourceUrl: 'https://www.cms.gov/fraud',
   },
   {
     name: 'Fake Property Tax Deed Sale "Rescue" Scam',
@@ -2443,6 +2623,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'mortgage-foreclosure-scams',
     alertLevel: 'high',
     sources: ['Consumer Financial Protection Bureau'],
+    sourceUrl: 'https://www.consumerfinance.gov/consumer-tools/fraud/',
   },
   {
     name: 'Fake HOA Delinquency Lien Payoff Scam',
@@ -2452,6 +2633,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'mortgage-foreclosure-scams',
     alertLevel: 'medium',
     sources: ['Consumer Financial Protection Bureau'],
+    sourceUrl: 'https://www.consumerfinance.gov/consumer-tools/fraud/',
   },
   {
     name: 'Fake Federal Mortgage Modification Program Fee',
@@ -2461,6 +2643,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'mortgage-foreclosure-scams',
     alertLevel: 'medium',
     sources: ['Consumer Financial Protection Bureau', 'U.S. Department of Housing and Urban Development'],
+    sourceUrl: 'https://www.consumerfinance.gov/consumer-tools/fraud/',
   },
   {
     name: 'Fake Law Enforcement Sextortion Threat',
@@ -2470,6 +2653,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'sextortion',
     alertLevel: 'critical',
     sources: ['FBI IC3'],
+    sourceUrl: 'https://www.ic3.gov/',
   },
   {
     name: 'Compromised Dating App Video Call Sextortion',
@@ -2479,6 +2663,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'sextortion',
     alertLevel: 'critical',
     sources: ['FBI IC3'],
+    sourceUrl: 'https://www.ic3.gov/',
   },
   {
     name: 'Sextortion Targeting Minors via Gaming Platforms',
@@ -2488,6 +2673,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'sextortion',
     alertLevel: 'critical',
     sources: ['FBI IC3', 'National Center for Missing & Exploited Children'],
+    sourceUrl: 'https://www.ic3.gov/',
   },
   {
     name: 'Fake Airline Flight Cancellation Rebooking Email',
@@ -2497,6 +2683,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'phishing',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Fake Browser Lock Screen Scam',
@@ -2506,6 +2693,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'tech-support-scams',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Overseas Contractor Project Romance Scam',
@@ -2515,6 +2703,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'romance-scams',
     alertLevel: 'high',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Fake People-Search Site Data Removal Scam',
@@ -2524,6 +2713,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'identity-theft',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Fake Limited-Drop Sneaker or Collectible Resale Scam',
@@ -2533,6 +2723,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'online-shopping-scams',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Fake Vaccine Card Sale Scam',
@@ -2542,6 +2733,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'healthcare-fraud',
     alertLevel: 'medium',
     sources: ['FBI IC3'],
+    sourceUrl: 'https://www.ic3.gov/',
   },
   {
     name: 'Fake Durable Medical Equipment Billing Scam',
@@ -2551,6 +2743,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'healthcare-fraud',
     alertLevel: 'high',
     sources: ['HHS Office of Inspector General', 'Centers for Medicare & Medicaid Services'],
+    sourceUrl: 'https://oig.hhs.gov/fraud/report-fraud/',
   },
   {
     name: 'Fake Hospital Billing Overdue Debt Call',
@@ -2560,6 +2753,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'healthcare-fraud',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Fake At-Home Health Testing Kit Upsell Scam',
@@ -2569,6 +2763,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'healthcare-fraud',
     alertLevel: 'medium',
     sources: ['HHS Office of Inspector General'],
+    sourceUrl: 'https://oig.hhs.gov/fraud/report-fraud/',
   },
   {
     name: 'Fake State Tax Refund Verification Text',
@@ -2578,6 +2773,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'tax-scams',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Fake Tax Preparer Refund Skimming Scheme',
@@ -2587,6 +2783,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'tax-scams',
     alertLevel: 'high',
     sources: ['Internal Revenue Service', 'FTC Consumer Advice'],
+    sourceUrl: 'https://www.irs.gov/newsroom/tax-scams-consumer-alerts',
   },
   {
     name: 'Fake IRS "Offer in Compromise" Fee Scam',
@@ -2596,6 +2793,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'tax-scams',
     alertLevel: 'medium',
     sources: ['Internal Revenue Service', 'FTC Consumer Advice'],
+    sourceUrl: 'https://www.irs.gov/newsroom/tax-scams-consumer-alerts',
   },
   {
     name: 'Fake W-2 Phishing Email to Employers',
@@ -2605,6 +2803,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'tax-scams',
     alertLevel: 'high',
     sources: ['Internal Revenue Service', 'FBI IC3'],
+    sourceUrl: 'https://www.irs.gov/newsroom/tax-scams-consumer-alerts',
   },
   {
     name: 'Fake Passport Renewal "Expedite Fee" Scam',
@@ -2614,6 +2813,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'government-impersonation',
     alertLevel: 'medium',
     sources: ['U.S. Department of State'],
+    sourceUrl: 'https://travel.state.gov/en/international-travel/travel-advisories/scams.html',
   },
   {
     name: 'Fake FTC / State Attorney General Refund Notice Call',
@@ -2623,6 +2823,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'government-impersonation',
     alertLevel: 'medium',
     sources: ['Federal Trade Commission'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Fake Selective Service Registration Fine Call',
@@ -2632,6 +2833,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'government-impersonation',
     alertLevel: 'medium',
     sources: ['Selective Service System'],
+    sourceUrl: 'https://www.sss.gov/',
   },
   {
     name: 'Fake Law Firm Wire Instruction Email',
@@ -2641,6 +2843,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'business-email-compromise',
     alertLevel: 'high',
     sources: ['FBI IC3'],
+    sourceUrl: 'https://www.ic3.gov/',
   },
   {
     name: 'Fake Payroll Provider Login Credential Phishing',
@@ -2650,6 +2853,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'business-email-compromise',
     alertLevel: 'high',
     sources: ['FBI IC3'],
+    sourceUrl: 'https://www.ic3.gov/',
   },
   {
     name: 'Fake Domain Renewal Invoice to Business Owner',
@@ -2659,6 +2863,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'business-email-compromise',
     alertLevel: 'low',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Fake "Delivery Address Confirmation" Smishing Text',
@@ -2668,6 +2873,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'package-delivery-scams',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Fake Package Held at Customs Warehouse Scam',
@@ -2677,6 +2883,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'package-delivery-scams',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Porch Piracy Tracking-Number Phishing Follow-Up',
@@ -2686,6 +2893,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'package-delivery-scams',
     alertLevel: 'low',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Fake Reshipping / Package Forwarding Job Scam',
@@ -2695,6 +2903,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'employment-scams',
     alertLevel: 'high',
     sources: ['FBI IC3'],
+    sourceUrl: 'https://www.ic3.gov/',
   },
   {
     name: 'Fake Employer Equipment Reimbursement Check Scam',
@@ -2704,6 +2913,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'employment-scams',
     alertLevel: 'high',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Fake LinkedIn Recruiter Direct-Message Job Scam',
@@ -2713,6 +2923,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'employment-scams',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Fake Disaster-Relief Crowdfunding Clone',
@@ -2722,6 +2933,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'charity-scams',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Fake Children\'s Hospital Donation Call',
@@ -2731,6 +2943,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'charity-scams',
     alertLevel: 'medium',
     sources: ['Federal Trade Commission'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Fake Charity Text-to-Donate Scam',
@@ -2740,6 +2953,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'charity-scams',
     alertLevel: 'low',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Fake State Lottery Commission Winner Letter',
@@ -2749,6 +2963,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'lottery-sweepstakes-scams',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Fake Social Media Giveaway Winner DM Scam',
@@ -2758,6 +2973,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'lottery-sweepstakes-scams',
     alertLevel: 'low',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Fake Sweepstakes Certified-Check Overpayment Scam',
@@ -2767,6 +2983,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'lottery-sweepstakes-scams',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Dating App Blackmail Threatening to "Out" a Victim',
@@ -2776,6 +2993,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'sextortion',
     alertLevel: 'critical',
     sources: ['FBI IC3'],
+    sourceUrl: 'https://www.ic3.gov/',
   },
   {
     name: 'Sextortion Escalation with a Physical-Address Threat',
@@ -2785,6 +3003,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'sextortion',
     alertLevel: 'high',
     sources: ['FBI IC3'],
+    sourceUrl: 'https://www.ic3.gov/',
   },
   {
     name: 'Group Chat Screenshot Extortion Scam',
@@ -2794,6 +3013,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'sextortion',
     alertLevel: 'high',
     sources: ['FBI IC3'],
+    sourceUrl: 'https://www.ic3.gov/',
   },
   {
     name: 'Fake Rent-to-Own Scam on a Vacant Foreclosed Home',
@@ -2803,6 +3023,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'mortgage-foreclosure-scams',
     alertLevel: 'medium',
     sources: ['Consumer Financial Protection Bureau'],
+    sourceUrl: 'https://www.consumerfinance.gov/consumer-tools/fraud/',
   },
   {
     name: 'Reverse Mortgage Proceeds Redirection Scam',
@@ -2812,6 +3033,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'mortgage-foreclosure-scams',
     alertLevel: 'high',
     sources: ['Consumer Financial Protection Bureau', 'U.S. Department of Housing and Urban Development'],
+    sourceUrl: 'https://www.consumerfinance.gov/consumer-tools/fraud/',
   },
   {
     name: 'Fake "We Buy Houses for Cash" Lowball Foreclosure Scam',
@@ -2821,6 +3043,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'mortgage-foreclosure-scams',
     alertLevel: 'medium',
     sources: ['Consumer Financial Protection Bureau', 'U.S. Department of Housing and Urban Development'],
+    sourceUrl: 'https://www.consumerfinance.gov/consumer-tools/fraud/',
   },
   {
     name: 'Fake Zoom Meeting Invite Phishing Email',
@@ -2830,6 +3053,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'phishing',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Fake HR Benefits Open-Enrollment Phishing Email',
@@ -2839,6 +3063,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'phishing',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Fake Toll Account Suspension Phishing Email',
@@ -2848,6 +3073,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'phishing',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Humanitarian Doctor Overseas Mission Romance Scam',
@@ -2857,6 +3083,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'romance-scams',
     alertLevel: 'high',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Grief Support Group Romance Scam',
@@ -2866,6 +3093,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'romance-scams',
     alertLevel: 'high',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Romance Scam "Recovery Service" Scam',
@@ -2875,6 +3103,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'romance-scams',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Fake Printer or Router Setup Support Line Scam',
@@ -2884,6 +3113,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'tech-support-scams',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Fake Software License Renewal Popup Scam',
@@ -2893,6 +3123,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'tech-support-scams',
     alertLevel: 'low',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Fake Remote "Cleanup" After a Real Malware Infection',
@@ -2902,6 +3133,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'tech-support-scams',
     alertLevel: 'high',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Fake Marketplace Escrow Payment Service Scam',
@@ -2911,6 +3143,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'online-shopping-scams',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Fake Appliance Warranty Extension Scam',
@@ -2920,6 +3153,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'online-shopping-scams',
     alertLevel: 'low',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Fake Local Pickup Marketplace Scam',
@@ -2929,6 +3163,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'online-shopping-scams',
     alertLevel: 'low',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Fake Renters Insurance Requirement Scam via Landlord Portal',
@@ -2938,6 +3173,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'insurance-fraud',
     alertLevel: 'medium',
     sources: ['National Association of Insurance Commissioners'],
+    sourceUrl: 'https://www.naic.org/',
   },
   {
     name: 'Fake Travel Insurance Add-On Upsell Scam',
@@ -2947,6 +3183,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'insurance-fraud',
     alertLevel: 'low',
     sources: ['National Association of Insurance Commissioners'],
+    sourceUrl: 'https://www.naic.org/',
   },
   {
     name: 'Fake Small Business Workers\' Compensation Policy Scam',
@@ -2956,6 +3193,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'insurance-fraud',
     alertLevel: 'high',
     sources: ['National Association of Insurance Commissioners'],
+    sourceUrl: 'https://www.naic.org/',
   },
   {
     name: 'Fake Credit Freeze/Unfreeze Phishing Call',
@@ -2965,6 +3203,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'identity-theft',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Fake Online Notary Signing Service Identity-Harvesting Scam',
@@ -2974,6 +3213,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'identity-theft',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Fake App Store Review Request Phishing Link',
@@ -2983,6 +3223,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'account-takeover',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'AI-Generated Fake Court Summons Document',
@@ -2992,6 +3233,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'ai-deepfake-scams',
     alertLevel: 'high',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'AI Chatbot Impersonating a Real Financial Advisor',
@@ -3001,6 +3243,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'ai-deepfake-scams',
     alertLevel: 'high',
     sources: ['SEC Office of Investor Education and Advocacy'],
+    sourceUrl: 'https://www.investor.gov/',
   },
   {
     name: 'Fake Electric Company Disconnection Threat Call',
@@ -3010,6 +3253,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'utility-scams',
     alertLevel: 'high',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Fake Utility Bill Overpayment Refund Scam',
@@ -3019,6 +3263,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'utility-scams',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Fake Internet or Cable Provider Equipment Fee Scam',
@@ -3028,6 +3273,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'utility-scams',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Fake Meter Inspector Home Access Scam',
@@ -3037,6 +3283,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'utility-scams',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Fake Utility-Sponsored Solar Panel Savings Scam',
@@ -3046,6 +3293,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'utility-scams',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Fake Prepaid Utility Card Reload Scam',
@@ -3055,6 +3303,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'utility-scams',
     alertLevel: 'high',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Fake Package Redirection Request Scam',
@@ -3064,6 +3313,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'package-delivery-scams',
     alertLevel: 'low',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Fake Robo-Advisor App Investment Scam',
@@ -3073,6 +3323,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'investment-fraud',
     alertLevel: 'high',
     sources: ['SEC Office of Investor Education and Advocacy'],
+    sourceUrl: 'https://www.investor.gov/',
   },
   {
     name: 'Fake Missing Child Alert Donation Scam',
@@ -3082,6 +3333,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'charity-scams',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Fake Union Apprenticeship Program Fee Scam',
@@ -3091,6 +3343,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'employment-scams',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'EBT Card Skimming at Point-of-Sale Terminals',
@@ -3100,6 +3353,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'public-benefits-fraud',
     alertLevel: 'high',
     sources: ['USDA Food and Nutrition Service'],
+    sourceUrl: 'https://www.fns.usda.gov/snap/scam-alerts',
   },
   {
     name: 'Fake SNAP Benefits Suspension Text Scam',
@@ -3109,6 +3363,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'public-benefits-fraud',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Unemployment Benefits Filed in a Victim\'s Name Using Stolen Data',
@@ -3118,6 +3373,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'public-benefits-fraud',
     alertLevel: 'high',
     sources: ['U.S. Department of Labor', 'FTC Consumer Advice'],
+    sourceUrl: 'https://www.dol.gov/',
   },
   {
     name: 'Fake Social Security Disability Advocate Fee Scam',
@@ -3127,6 +3383,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'public-benefits-fraud',
     alertLevel: 'medium',
     sources: ['Social Security Administration'],
+    sourceUrl: 'https://www.ssa.gov/scam/',
   },
   {
     name: 'Fake Chargeback Reversal Scam',
@@ -3136,6 +3393,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'identity-theft',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Shared-Password Crackdown Phishing Email',
@@ -3145,6 +3403,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'account-takeover',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Fake Dental Discount Plan Membership Scam',
@@ -3154,6 +3413,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'healthcare-fraud',
     alertLevel: 'low',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Fake Subscription Box Free-Trial Scam',
@@ -3163,6 +3423,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'online-shopping-scams',
     alertLevel: 'low',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Classic Grandparent Bail-Money Scam',
@@ -3172,6 +3433,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'family-emergency-scams',
     alertLevel: 'high',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Fake Bail Bondsman Follow-Up Call',
@@ -3181,6 +3443,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'family-emergency-scams',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Fake Hospital Emergency Payment Call',
@@ -3190,6 +3453,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'family-emergency-scams',
     alertLevel: 'high',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Stranded Traveler Family-Member Scam',
@@ -3199,6 +3463,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'family-emergency-scams',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Fake Private Student Loan Refinance Fee Scam',
@@ -3208,6 +3473,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'debt-relief-scams',
     alertLevel: 'medium',
     sources: ['Consumer Financial Protection Bureau'],
+    sourceUrl: 'https://www.consumerfinance.gov/consumer-tools/fraud/',
   },
   {
     name: 'Fake Private Equity Access Scam for Retail Investors',
@@ -3217,6 +3483,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'investment-fraud',
     alertLevel: 'high',
     sources: ['SEC Office of Investor Education and Advocacy'],
+    sourceUrl: 'https://www.investor.gov/',
   },
   {
     name: 'Fake Veteran Service-Dog Training Charity Scam',
@@ -3226,6 +3493,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'charity-scams',
     alertLevel: 'medium',
     sources: ['Federal Trade Commission'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Fake GLP-1 Weight-Loss Drug Counterfeit Scam',
@@ -3235,6 +3503,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'healthcare-fraud',
     alertLevel: 'high',
     sources: ['U.S. Food and Drug Administration', 'FTC Consumer Advice'],
+    sourceUrl: 'https://www.fda.gov/consumers/health-fraud-scams',
   },
   {
     name: 'Fake Medicaid Recertification Phishing Call',
@@ -3244,6 +3513,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'public-benefits-fraud',
     alertLevel: 'medium',
     sources: ['Centers for Medicare & Medicaid Services'],
+    sourceUrl: 'https://www.cms.gov/fraud',
   },
   {
     name: 'Fake WIC Benefits Card Replacement Scam',
@@ -3253,6 +3523,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'public-benefits-fraud',
     alertLevel: 'medium',
     sources: ['USDA Food and Nutrition Service'],
+    sourceUrl: 'https://www.fns.usda.gov/snap/scam-alerts',
   },
   {
     name: 'Fake Housing Voucher Waitlist Fee Scam',
@@ -3262,6 +3533,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'public-benefits-fraud',
     alertLevel: 'medium',
     sources: ['U.S. Department of Housing and Urban Development'],
+    sourceUrl: 'https://www.hud.gov/helping-americans/prevent-loan-scams',
   },
   {
     name: 'Fake Military Emergency Leave Payment Scam',
@@ -3271,6 +3543,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'family-emergency-scams',
     alertLevel: 'high',
     sources: ['DoD Cyber Crime Center'],
+    sourceUrl: 'https://www.dc3.mil/',
   },
   {
     name: 'Fake Kidnapping Ransom Call',
@@ -3280,6 +3553,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'family-emergency-scams',
     alertLevel: 'critical',
     sources: ['FBI IC3'],
+    sourceUrl: 'https://www.ic3.gov/',
   },
   {
     name: 'Fake Child\'s School Emergency Pickup Scam',
@@ -3289,6 +3563,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'family-emergency-scams',
     alertLevel: 'high',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Fake Boil-Water Notice Sales Scam',
@@ -3298,6 +3573,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'utility-scams',
     alertLevel: 'low',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Fake Smart Meter Installation Fee Scam',
@@ -3307,6 +3583,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'utility-scams',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Fake Utility Rebate Program Phishing Email',
@@ -3316,6 +3593,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'utility-scams',
     alertLevel: 'low',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Fake Tax Preparer Inflated-Refund Promise Scam',
@@ -3325,6 +3603,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'tax-scams',
     alertLevel: 'high',
     sources: ['Internal Revenue Service'],
+    sourceUrl: 'https://www.irs.gov/newsroom/tax-scams-consumer-alerts',
   },
   {
     name: 'Fake "Do Not Call" Registry Renewal Scam',
@@ -3334,6 +3613,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'government-impersonation',
     alertLevel: 'low',
     sources: ['Federal Trade Commission'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Fake Vendor Onboarding Form Credential Harvest',
@@ -3343,6 +3623,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'business-email-compromise',
     alertLevel: 'high',
     sources: ['FBI IC3'],
+    sourceUrl: 'https://www.ic3.gov/',
   },
   {
     name: 'Fake Televised Dream Home Giveaway Entry Fee Scam',
@@ -3352,6 +3633,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'lottery-sweepstakes-scams',
     alertLevel: 'low',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Fake Timeshare Loan Forgiveness Scam',
@@ -3361,6 +3643,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'debt-relief-scams',
     alertLevel: 'medium',
     sources: ['Consumer Financial Protection Bureau'],
+    sourceUrl: 'https://www.consumerfinance.gov/consumer-tools/fraud/',
   },
   {
     name: 'Sextortion via a Compromised Employer Email Account',
@@ -3370,6 +3653,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'sextortion',
     alertLevel: 'critical',
     sources: ['FBI IC3'],
+    sourceUrl: 'https://www.ic3.gov/',
   },
   {
     name: 'Fake School Meal Program Application Fee Scam',
@@ -3379,6 +3663,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'public-benefits-fraud',
     alertLevel: 'low',
     sources: ['USDA Food and Nutrition Service'],
+    sourceUrl: 'https://www.fns.usda.gov/snap/scam-alerts',
   },
   {
     name: 'Fake Federal Pell Grant Processing Fee Scam',
@@ -3388,6 +3673,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'public-benefits-fraud',
     alertLevel: 'medium',
     sources: ['U.S. Department of Education'],
+    sourceUrl: 'https://www.ed.gov/',
   },
   {
     name: 'Fake Overseas Consulate Emergency Fee Scam',
@@ -3397,6 +3683,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'family-emergency-scams',
     alertLevel: 'high',
     sources: ['U.S. Department of State'],
+    sourceUrl: 'https://travel.state.gov/en/international-travel/travel-advisories/scams.html',
   },
   {
     name: 'Fake Family Member Car Accident Impound Fee Scam',
@@ -3406,6 +3693,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'family-emergency-scams',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Fake Utility "Text-to-Pay" Phishing Link',
@@ -3415,6 +3703,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'utility-scams',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Fake Community Solar Bill-Credit Scam',
@@ -3424,6 +3713,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'utility-scams',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Fake Viatical/Life Settlement Investment Scam',
@@ -3433,6 +3723,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'investment-fraud',
     alertLevel: 'high',
     sources: ['SEC Office of Investor Education and Advocacy'],
+    sourceUrl: 'https://www.investor.gov/',
   },
   {
     name: 'Fake First Responder Memorial Fund Scam',
@@ -3442,6 +3733,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'charity-scams',
     alertLevel: 'medium',
     sources: ['Federal Trade Commission'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Fake Long-Term Care Insurance Rate Increase Scam',
@@ -3451,6 +3743,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'healthcare-fraud',
     alertLevel: 'medium',
     sources: ['National Association of Insurance Commissioners'],
+    sourceUrl: 'https://www.naic.org/',
   },
   {
     name: 'Fake Ancestry DNA Test Data-Broker Scam',
@@ -3460,6 +3753,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'identity-theft',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Fake Return Label Refund Scam',
@@ -3469,6 +3763,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'package-delivery-scams',
     alertLevel: 'low',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Fake Cruise Ship Crew Job Fee Scam',
@@ -3478,6 +3773,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'employment-scams',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Fake Extended Auto Warranty Robocall',
@@ -3487,6 +3783,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'insurance-fraud',
     alertLevel: 'medium',
     sources: ['Federal Trade Commission'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Fake Professional Athlete Impersonation Romance Scam',
@@ -3496,6 +3793,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'romance-scams',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Fake Wholesale Liquidation Pallet Scam',
@@ -3505,6 +3803,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'online-shopping-scams',
     alertLevel: 'low',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Fake "Free" VPN App Data-Harvesting Scam',
@@ -3514,6 +3813,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'tech-support-scams',
     alertLevel: 'low',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Fake Background Check "Personal Report" Scam',
@@ -3523,6 +3823,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'identity-theft',
     alertLevel: 'low',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Fake Church Building Fund Scam',
@@ -3532,6 +3833,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'charity-scams',
     alertLevel: 'low',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Fake Hearing Aid "Free Trial" Scam',
@@ -3541,6 +3843,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'healthcare-fraud',
     alertLevel: 'low',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'Fake Art Fractional-Ownership Investment Scam',
@@ -3550,6 +3853,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'investment-fraud',
     alertLevel: 'high',
     sources: ['SEC Office of Investor Education and Advocacy'],
+    sourceUrl: 'https://www.investor.gov/',
   },
   {
     name: 'Fake Influencer Brand Ambassador Fee Scam',
@@ -3559,6 +3863,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'employment-scams',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/scams',
   },
   {
     name: 'UK TV Licensing Phishing Email',
@@ -3569,6 +3874,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'GB',
     alertLevel: 'medium',
     sources: ['UK Action Fraud'],
+    sourceUrl: 'https://www.reportfraud.police.uk/',
   },
   {
     name: 'UK HMRC Tax Rebate Text Scam',
@@ -3579,6 +3885,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'GB',
     alertLevel: 'medium',
     sources: ['UK Action Fraud', 'HM Revenue & Customs'],
+    sourceUrl: 'https://www.reportfraud.police.uk/',
   },
   {
     name: 'UK Royal Mail "Failed Delivery" SMS Scam',
@@ -3589,6 +3896,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'GB',
     alertLevel: 'medium',
     sources: ['UK Action Fraud'],
+    sourceUrl: 'https://www.reportfraud.police.uk/',
   },
   {
     name: 'Canadian CRA Arrest Threat Call',
@@ -3599,6 +3907,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'CA',
     alertLevel: 'high',
     sources: ['Canadian Anti-Fraud Centre'],
+    sourceUrl: 'https://antifraudcentre-centreantifraude.ca/index-eng.htm',
   },
   {
     name: 'Canadian Grandparent Emergency Scam',
@@ -3609,6 +3918,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'CA',
     alertLevel: 'critical',
     sources: ['Canadian Anti-Fraud Centre'],
+    sourceUrl: 'https://antifraudcentre-centreantifraude.ca/index-eng.htm',
   },
   {
     name: 'Australian myGov Phishing SMS Scam',
@@ -3619,6 +3929,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'AU',
     alertLevel: 'high',
     sources: ['Scamwatch (Australian Competition and Consumer Commission)'],
+    sourceUrl: 'https://www.scamwatch.gov.au/',
   },
   {
     name: 'Australian Toll Road SMS Scam',
@@ -3629,6 +3940,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'AU',
     alertLevel: 'medium',
     sources: ['Scamwatch (Australian Competition and Consumer Commission)'],
+    sourceUrl: 'https://www.scamwatch.gov.au/',
   },
   {
     name: 'Indian "Digital Arrest" Scam Call',
@@ -3639,6 +3951,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'IN',
     alertLevel: 'critical',
     sources: ['Indian Cyber Crime Coordination Centre (I4C)'],
+    sourceUrl: 'https://i4c.mha.gov.in/',
   },
   {
     name: 'German "New Number" WhatsApp Family Scam',
@@ -3649,6 +3962,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'DE',
     alertLevel: 'high',
     sources: ['German Federal Criminal Police Office (BKA)'],
+    sourceUrl: 'https://www.bka.de/',
   },
   {
     name: 'Irish Revenue Tax Refund Phishing Text',
@@ -3659,6 +3973,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'IE',
     alertLevel: 'medium',
     sources: ['Ireland Revenue Commissioners', 'An Garda Síochána'],
+    sourceUrl: 'https://www.revenue.ie/en/corporate/communications/fraudulent-emails/index.aspx',
   },
   {
     name: 'Irish An Post Delivery Fee Scam',
@@ -3669,6 +3984,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'IE',
     alertLevel: 'medium',
     sources: ['An Garda Síochána'],
+    sourceUrl: 'https://www.garda.ie/en/crime/fraud/',
   },
   {
     name: 'Singapore Government Official Impersonation Scam',
@@ -3679,6 +3995,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'SG',
     alertLevel: 'critical',
     sources: ['Singapore Police Force', 'ScamShield (Singapore)'],
+    sourceUrl: 'https://www.police.gov.sg/Advisories/Scams',
   },
   {
     name: 'Japanese "It\'s Me" Phone Fraud (Ore Ore Sagi)',
@@ -3689,6 +4006,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'JP',
     alertLevel: 'critical',
     sources: ['Japan National Police Agency'],
+    sourceUrl: 'https://www.npa.go.jp/bureau/safetylife/sos47/',
   },
   {
     name: 'Dutch WhatsApp Bank Verification Scam',
@@ -3699,6 +4017,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'NL',
     alertLevel: 'high',
     sources: ['Fraudehelpdesk (Netherlands)'],
+    sourceUrl: 'https://www.fraudehelpdesk.nl/',
   },
   {
     name: 'Swedish BankID Phishing Call Scam',
@@ -3709,6 +4028,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'SE',
     alertLevel: 'critical',
     sources: ['Polisen (Swedish Police Authority)'],
+    sourceUrl: 'https://polisen.se/bedragerier',
   },
   {
     name: 'New Zealand Inland Revenue Refund Scam',
@@ -3719,6 +4039,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'NZ',
     alertLevel: 'medium',
     sources: ['New Zealand Inland Revenue', 'Netsafe'],
+    sourceUrl: 'https://www.ird.govt.nz/managing-my-tax/scams/signs-of-a-scam',
   },
   {
     name: 'French "Arnaque au Président" CEO Fraud',
@@ -3729,6 +4050,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'FR',
     alertLevel: 'high',
     sources: ['Info Escroqueries (France)'],
+    sourceUrl: 'https://www.police-nationale.interieur.gouv.fr/actualite/info-escroqueries-plate-forme-pour-signaler-escroqueries-sur-internet',
   },
   {
     name: 'French CAF Family Benefits Phishing Text',
@@ -3739,6 +4061,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'FR',
     alertLevel: 'medium',
     sources: ['Info Escroqueries (France)'],
+    sourceUrl: 'https://www.police-nationale.interieur.gouv.fr/actualite/info-escroqueries-plate-forme-pour-signaler-escroqueries-sur-internet',
   },
   {
     name: 'UK Bank "Safe Account" Impersonation Scam',
@@ -3749,6 +4072,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'GB',
     alertLevel: 'critical',
     sources: ['UK Action Fraud', 'UK Finance'],
+    sourceUrl: 'https://www.reportfraud.police.uk/',
   },
   {
     name: 'Canadian Interac e-Transfer Phishing Scam',
@@ -3759,6 +4083,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'CA',
     alertLevel: 'medium',
     sources: ['Canadian Anti-Fraud Centre'],
+    sourceUrl: 'https://antifraudcentre-centreantifraude.ca/index-eng.htm',
   },
   {
     name: 'Australian NBN Co Internet Disconnection Scam',
@@ -3769,6 +4094,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'AU',
     alertLevel: 'medium',
     sources: ['Scamwatch (Australian Competition and Consumer Commission)'],
+    sourceUrl: 'https://www.scamwatch.gov.au/',
   },
   {
     name: 'German Schufa Credit Score Phishing Email',
@@ -3779,6 +4105,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'DE',
     alertLevel: 'medium',
     sources: ['German Federal Office for Information Security (BSI)'],
+    sourceUrl: 'https://www.bsi.bund.de/DE/Themen/Verbraucherinnen-und-Verbraucher/verbraucherinnen-und-verbraucher_node.html',
   },
   {
     name: 'Japanese Convenience Store Prepaid Card Payment Scam',
@@ -3789,6 +4116,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'JP',
     alertLevel: 'high',
     sources: ['Japan National Police Agency'],
+    sourceUrl: 'https://www.npa.go.jp/bureau/safetylife/sos47/',
   },
   {
     name: 'Indian Fake Courier / Customs Parcel Scam',
@@ -3799,6 +4127,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'IN',
     alertLevel: 'high',
     sources: ['Indian Cyber Crime Coordination Centre (I4C)'],
+    sourceUrl: 'https://i4c.mha.gov.in/',
   },
   {
     name: 'UK Pension Liberation / Early Access Scam',
@@ -3809,6 +4138,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'GB',
     alertLevel: 'high',
     sources: ['UK Financial Conduct Authority', 'UK Action Fraud'],
+    sourceUrl: 'https://www.fca.org.uk/consumers/protect-yourself-scams',
   },
   {
     name: 'Dutch DigiD Phishing Scam',
@@ -3819,6 +4149,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'NL',
     alertLevel: 'high',
     sources: ['Fraudehelpdesk (Netherlands)'],
+    sourceUrl: 'https://www.fraudehelpdesk.nl/',
   },
   {
     name: 'Singapore SingPass Phishing Scam',
@@ -3829,6 +4160,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'SG',
     alertLevel: 'high',
     sources: ['Singapore Police Force', 'GovTech Singapore'],
+    sourceUrl: 'https://www.police.gov.sg/Advisories/Scams',
   },
   {
     name: 'Australian Centrelink Payment Suspension Scam',
@@ -3839,6 +4171,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'AU',
     alertLevel: 'medium',
     sources: ['Scamwatch (Australian Competition and Consumer Commission)', 'Services Australia'],
+    sourceUrl: 'https://www.scamwatch.gov.au/',
   },
   {
     name: 'Canadian CBSA Package Seizure Scam',
@@ -3849,6 +4182,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'CA',
     alertLevel: 'medium',
     sources: ['Canadian Anti-Fraud Centre'],
+    sourceUrl: 'https://antifraudcentre-centreantifraude.ca/index-eng.htm',
   },
   {
     name: 'Irish Bank Fraud Department Impersonation Call',
@@ -3859,6 +4193,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'IE',
     alertLevel: 'critical',
     sources: ['An Garda Síochána', 'Banking & Payments Federation Ireland'],
+    sourceUrl: 'https://www.garda.ie/en/crime/fraud/',
   },
   {
     name: 'Swedish Swish Payment Scam',
@@ -3869,6 +4204,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'SE',
     alertLevel: 'medium',
     sources: ['Polisen (Swedish Police Authority)'],
+    sourceUrl: 'https://polisen.se/bedragerier',
   },
   {
     name: 'NZ Vehicle Registration Renewal Scam',
@@ -3879,6 +4215,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'NZ',
     alertLevel: 'low',
     sources: ['Netsafe (New Zealand)'],
+    sourceUrl: 'https://netsafe.org.nz/',
   },
   {
     name: 'French Ameli Health Insurance Phishing Scam',
@@ -3889,6 +4226,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'FR',
     alertLevel: 'medium',
     sources: ['Info Escroqueries (France)'],
+    sourceUrl: 'https://www.police-nationale.interieur.gouv.fr/actualite/info-escroqueries-plate-forme-pour-signaler-escroqueries-sur-internet',
   },
   {
     name: 'Japanese LINE App Impersonation Scam',
@@ -3899,6 +4237,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'JP',
     alertLevel: 'high',
     sources: ['Japan National Police Agency'],
+    sourceUrl: 'https://www.npa.go.jp/bureau/safetylife/sos47/',
   },
   {
     name: 'German Zoll (Customs) Parcel Fee Scam',
@@ -3909,6 +4248,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'DE',
     alertLevel: 'medium',
     sources: ['German Federal Criminal Police Office (BKA)'],
+    sourceUrl: 'https://www.bka.de/',
   },
   {
     name: 'Australian Superannuation Early Release Scam',
@@ -3919,6 +4259,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'AU',
     alertLevel: 'high',
     sources: ['Scamwatch (Australian Competition and Consumer Commission)', 'Australian Taxation Office'],
+    sourceUrl: 'https://www.scamwatch.gov.au/',
   },
   {
     name: 'Singapore WhatsApp Job Scam',
@@ -3929,6 +4270,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'SG',
     alertLevel: 'high',
     sources: ['Singapore Police Force'],
+    sourceUrl: 'https://www.police.gov.sg/Advisories/Scams',
   },
   {
     name: 'Dutch Marktplaats Fake Payment Link Scam',
@@ -3939,6 +4281,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'NL',
     alertLevel: 'medium',
     sources: ['Fraudehelpdesk (Netherlands)'],
+    sourceUrl: 'https://www.fraudehelpdesk.nl/',
   },
   {
     name: 'Indian Fake Instant Loan App Scam',
@@ -3949,6 +4292,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'IN',
     alertLevel: 'critical',
     sources: ['Reserve Bank of India', 'Indian Cyber Crime Coordination Centre (I4C)'],
+    sourceUrl: 'https://www.rbi.org.in/commonman/english/scripts/rbicautions.aspx',
   },
   {
     name: 'Canadian Immigration (IRCC) Deportation Threat Scam',
@@ -3959,6 +4303,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'CA',
     alertLevel: 'high',
     sources: ['Canadian Anti-Fraud Centre'],
+    sourceUrl: 'https://antifraudcentre-centreantifraude.ca/index-eng.htm',
   },
   {
     name: 'Irish Utility Disconnection Scam',
@@ -3969,6 +4314,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'IE',
     alertLevel: 'medium',
     sources: ['An Garda Síochána', 'Commission for Regulation of Utilities (Ireland)'],
+    sourceUrl: 'https://www.garda.ie/en/crime/fraud/',
   },
   {
     name: 'Swedish Pension Authority Phishing Scam',
@@ -3979,6 +4325,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'SE',
     alertLevel: 'medium',
     sources: ['Polisen (Swedish Police Authority)'],
+    sourceUrl: 'https://polisen.se/bedragerier',
   },
   {
     name: 'German Rundfunkbeitrag (Broadcasting Fee) Threat Scam',
@@ -3989,6 +4336,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'DE',
     alertLevel: 'medium',
     sources: ['German Federal Office for Information Security (BSI)'],
+    sourceUrl: 'https://www.bsi.bund.de/DE/Themen/Verbraucherinnen-und-Verbraucher/verbraucherinnen-und-verbraucher_node.html',
   },
   {
     name: 'Japanese ATM "Refund" Scam',
@@ -3999,6 +4347,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'JP',
     alertLevel: 'high',
     sources: ['Japan National Police Agency'],
+    sourceUrl: 'https://www.npa.go.jp/bureau/safetylife/sos47/',
   },
   {
     name: 'NZ Trade Me Marketplace Payment Link Scam',
@@ -4009,6 +4358,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'NZ',
     alertLevel: 'medium',
     sources: ['Netsafe (New Zealand)'],
+    sourceUrl: 'https://netsafe.org.nz/',
   },
   {
     name: 'Indian UPI QR Code "Receive Payment" Scam',
@@ -4019,6 +4369,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'IN',
     alertLevel: 'high',
     sources: ['Indian Cyber Crime Coordination Centre (I4C)', 'National Payments Corporation of India'],
+    sourceUrl: 'https://i4c.mha.gov.in/',
   },
   {
     name: 'UK DVLA Vehicle Tax Refund Scam',
@@ -4029,6 +4380,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'GB',
     alertLevel: 'medium',
     sources: ['UK Action Fraud'],
+    sourceUrl: 'https://www.reportfraud.police.uk/',
   },
   {
     name: 'French Colissimo Delivery Fee Scam',
@@ -4039,6 +4391,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'FR',
     alertLevel: 'medium',
     sources: ['Info Escroqueries (France)'],
+    sourceUrl: 'https://www.police-nationale.interieur.gouv.fr/actualite/info-escroqueries-plate-forme-pour-signaler-escroqueries-sur-internet',
   },
   {
     name: 'Indian Matrimonial Website Romance Scam',
@@ -4049,6 +4402,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'IN',
     alertLevel: 'high',
     sources: ['Indian Cyber Crime Coordination Centre (I4C)'],
+    sourceUrl: 'https://i4c.mha.gov.in/',
   },
   {
     name: 'Swedish Klarna Fake Invoice Scam',
@@ -4059,6 +4413,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'SE',
     alertLevel: 'medium',
     sources: ['Polisen (Swedish Police Authority)'],
+    sourceUrl: 'https://polisen.se/bedragerier',
   },
   {
     name: 'Canadian SIN Suspension Scam',
@@ -4069,6 +4424,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'CA',
     alertLevel: 'high',
     sources: ['Canadian Anti-Fraud Centre'],
+    sourceUrl: 'https://antifraudcentre-centreantifraude.ca/index-eng.htm',
   },
   {
     name: 'Dutch Belastingdienst Tax Refund Phishing Scam',
@@ -4079,6 +4435,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'NL',
     alertLevel: 'medium',
     sources: ['Fraudehelpdesk (Netherlands)'],
+    sourceUrl: 'https://www.fraudehelpdesk.nl/',
   },
   {
     name: 'German "Falscher Polizist" Fake Police Shock Call',
@@ -4089,6 +4446,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'DE',
     alertLevel: 'critical',
     sources: ['German Federal Criminal Police Office (BKA)'],
+    sourceUrl: 'https://www.bka.de/',
   },
   {
     name: 'Fake Garda Impersonation Call',
@@ -4099,6 +4457,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'IE',
     alertLevel: 'critical',
     sources: ['An Garda Síochána'],
+    sourceUrl: 'https://www.garda.ie/en/crime/fraud/',
   },
   {
     name: 'Impersonation of China Officials Scam',
@@ -4109,6 +4468,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'SG',
     alertLevel: 'critical',
     sources: ['Singapore Police Force'],
+    sourceUrl: 'https://www.police.gov.sg/Advisories/Scams',
   },
   {
     name: 'Japanese One-Click Fraud (Wan-Kurikku Sagi)',
@@ -4119,6 +4479,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'JP',
     alertLevel: 'medium',
     sources: ['Japan National Police Agency'],
+    sourceUrl: 'https://www.npa.go.jp/bureau/safetylife/sos47/',
   },
   {
     name: 'Swedish "Skyddat Konto" Safe Account Scam',
@@ -4129,6 +4490,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'SE',
     alertLevel: 'critical',
     sources: ['Polisen (Swedish Police Authority)', 'Brottsförebyggande rådet (Brå)'],
+    sourceUrl: 'https://polisen.se/bedragerier',
   },
   {
     name: 'French "Faux Conseiller Bancaire" Fake Bank Advisor Scam',
@@ -4139,6 +4501,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'FR',
     alertLevel: 'critical',
     sources: ['Info Escroqueries', 'Cybermalveillance.gouv.fr'],
+    sourceUrl: 'https://www.police-nationale.interieur.gouv.fr/actualite/info-escroqueries-plate-forme-pour-signaler-escroqueries-sur-internet',
   },
   {
     name: 'Dutch Nepwebshop (Fake Webshop) Scam',
@@ -4149,6 +4512,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'NL',
     alertLevel: 'high',
     sources: ['Fraudehelpdesk (Netherlands)'],
+    sourceUrl: 'https://www.fraudehelpdesk.nl/',
   },
   {
     name: 'New Zealand Bank SMS Phishing Scam',
@@ -4159,6 +4523,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'NZ',
     alertLevel: 'high',
     sources: ['Netsafe', 'National Cyber Security Centre (NZ)'],
+    sourceUrl: 'https://netsafe.org.nz/',
   },
   {
     name: 'Singapore Carousell Purchase Scam',
@@ -4169,6 +4534,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'SG',
     alertLevel: 'medium',
     sources: ['Singapore Police Force'],
+    sourceUrl: 'https://www.police.gov.sg/Advisories/Scams',
   },
   {
     name: 'Singapore Crypto Investment Scam',
@@ -4179,6 +4545,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'SG',
     alertLevel: 'critical',
     sources: ['Singapore Police Force'],
+    sourceUrl: 'https://www.police.gov.sg/Advisories/Scams',
   },
   {
     name: 'New Zealand Customs & Post Parcel Scam',
@@ -4189,6 +4556,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'NZ',
     alertLevel: 'medium',
     sources: ['Netsafe', 'NZ Post'],
+    sourceUrl: 'https://netsafe.org.nz/',
   },
   {
     name: 'New Zealand KiwiSaver Early Withdrawal Scam',
@@ -4199,6 +4567,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'NZ',
     alertLevel: 'high',
     sources: ['Financial Markets Authority (NZ)'],
+    sourceUrl: 'https://www.fma.govt.nz/scams/',
   },
   {
     name: 'Irish PPS Number Suspension Scam',
@@ -4209,6 +4578,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'IE',
     alertLevel: 'high',
     sources: ['Department of Social Protection (Ireland)'],
+    sourceUrl: 'https://www.gov.ie/en/department-of-social-protection/',
   },
   {
     name: 'Australia Post Parcel Redelivery Scam',
@@ -4219,6 +4589,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'AU',
     alertLevel: 'medium',
     sources: ['Australia Post', 'Scamwatch (ACCC)'],
+    sourceUrl: 'https://auspost.com.au/about-us/about-our-site/online-security-scams-fraud/scam-alerts',
   },
   {
     name: 'German Kleinanzeigen Marketplace Payment Scam',
@@ -4229,6 +4600,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'DE',
     alertLevel: 'medium',
     sources: ['Verbraucherzentrale (Germany)'],
+    sourceUrl: 'https://www.verbraucherzentrale.de/wissen/digitale-welt/phishingradar/phishingradar-aktuelle-warnungen-6059',
   },
   {
     name: 'Japan Post Parcel Redelivery SMS Scam',
@@ -4239,6 +4611,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'JP',
     alertLevel: 'medium',
     sources: ['Japan Post', 'National Police Agency (Japan)'],
+    sourceUrl: 'https://www.post.japanpost.jp/notification/notice/fraud-mail.html',
   },
   {
     name: 'Dutch Tikkie Payment Request Scam',
@@ -4249,6 +4622,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'NL',
     alertLevel: 'medium',
     sources: ['Fraudehelpdesk (Netherlands)'],
+    sourceUrl: 'https://www.fraudehelpdesk.nl/',
   },
   {
     name: 'Indian Telegram Stock Tip Investment Scam',
@@ -4259,6 +4633,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'IN',
     alertLevel: 'critical',
     sources: ['Securities and Exchange Board of India (SEBI)'],
+    sourceUrl: 'https://investor.sebi.gov.in/spot-any-scam.html',
   },
   {
     name: 'Canada Post Parcel Scam',
@@ -4269,6 +4644,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'CA',
     alertLevel: 'medium',
     sources: ['Canada Post', 'Canadian Anti-Fraud Centre'],
+    sourceUrl: 'https://www.canadapost-postescanada.ca/cpc/en/personal/protecting-yourself-from-fraud-and-scams.page',
   },
   {
     name: 'Swedish PostNord Parcel Scam',
@@ -4279,6 +4655,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'SE',
     alertLevel: 'medium',
     sources: ['PostNord', 'Polisen (Swedish Police Authority)'],
+    sourceUrl: 'https://www.postnord.se/privat/forberedelser/kann-igen-falska-sms-och-mejl/',
   },
   {
     name: 'Singapore Unlicensed Moneylending (Loan Shark) Scam',
@@ -4289,6 +4666,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'SG',
     alertLevel: 'high',
     sources: ['Singapore Police Force'],
+    sourceUrl: 'https://www.police.gov.sg/Advisories/Scams',
   },
   {
     name: 'German Money Mule Job Offer Scam',
@@ -4299,6 +4677,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'DE',
     alertLevel: 'high',
     sources: ['German Federal Criminal Police Office (BKA)'],
+    sourceUrl: 'https://www.bka.de/',
   },
   {
     name: 'Australian Crypto Investment Scam',
@@ -4309,6 +4688,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'AU',
     alertLevel: 'critical',
     sources: ['Scamwatch (ACCC)'],
+    sourceUrl: 'https://www.scamwatch.gov.au/',
   },
   {
     name: 'Japanese SNS Investment and Romance Scam',
@@ -4319,6 +4699,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'JP',
     alertLevel: 'critical',
     sources: ['Japan National Police Agency'],
+    sourceUrl: 'https://www.npa.go.jp/bureau/safetylife/sos47/',
   },
   {
     name: 'Irish Fake Celebrity-Endorsed Investment Ad Scam',
@@ -4329,6 +4710,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'IE',
     alertLevel: 'critical',
     sources: ['Central Bank of Ireland', 'Competition and Consumer Protection Commission (CCPC)'],
+    sourceUrl: 'https://www.centralbank.ie/consumer-hub/scams-fraud',
   },
   {
     name: 'Dutch Postcode Loterij Fake Lottery Win Scam',
@@ -4339,6 +4721,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'NL',
     alertLevel: 'medium',
     sources: ['Fraudehelpdesk (Netherlands)'],
+    sourceUrl: 'https://www.fraudehelpdesk.nl/',
   },
   {
     name: 'Indian Fake Government Job Recruitment Scam',
@@ -4349,6 +4732,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'IN',
     alertLevel: 'high',
     sources: ['National Cyber Crime Reporting Portal (NCRP)'],
+    sourceUrl: 'https://cybercrime.gov.in/',
   },
   {
     name: 'New Zealand Fake Job Offer Scam',
@@ -4359,6 +4743,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'NZ',
     alertLevel: 'medium',
     sources: ['Netsafe', 'Employment New Zealand'],
+    sourceUrl: 'https://netsafe.org.nz/',
   },
   {
     name: 'French AMF Unauthorized Investment Platform Scam',
@@ -4369,6 +4754,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'FR',
     alertLevel: 'critical',
     sources: ['Autorité des marchés financiers (AMF)'],
+    sourceUrl: 'https://www.amf-france.org/en/warnings/blacklists',
   },
   {
     name: 'Canadian Securities Regulator Investment Scam',
@@ -4379,6 +4765,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'CA',
     alertLevel: 'critical',
     sources: ['Canadian Securities Administrators (CSA)', 'Canadian Anti-Fraud Centre'],
+    sourceUrl: 'https://www.securities-administrators.ca/investor-alerts/',
   },
   {
     name: 'Swedish Vinted and Blocket Marketplace Scam',
@@ -4389,6 +4776,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'SE',
     alertLevel: 'medium',
     sources: ['Polisen (Swedish Police Authority)'],
+    sourceUrl: 'https://polisen.se/bedragerier',
   },
   {
     name: 'German Fake Charity Donation Scam',
@@ -4399,6 +4787,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'DE',
     alertLevel: 'medium',
     sources: ['DZI (Deutsches Zentralinstitut für soziale Fragen)'],
+    sourceUrl: 'https://www.dzi.de/spendenberatung/',
   },
   {
     name: 'Dutch AFM Unauthorized Investment Scam',
@@ -4409,6 +4798,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'NL',
     alertLevel: 'critical',
     sources: ['Autoriteit Financiële Markten (AFM)'],
+    sourceUrl: 'https://www.afm.nl/nl-nl/consumenten/waarschuwingen/bekijk-de-waarschuwingen',
   },
   {
     name: 'Irish HSE Healthcare Phishing Scam',
@@ -4419,6 +4809,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'IE',
     alertLevel: 'medium',
     sources: ['Health Service Executive (Ireland)'],
+    sourceUrl: 'https://www.hse.ie/',
   },
   {
     name: 'Australian Disaster Relief Charity Scam',
@@ -4429,6 +4820,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'AU',
     alertLevel: 'medium',
     sources: ['Scamwatch (ACCC)', 'Australian Charities and Not-for-profits Commission (ACNC)'],
+    sourceUrl: 'https://www.scamwatch.gov.au/',
   },
   {
     name: 'Indian SIM Swap KYC Update Scam',
@@ -4439,6 +4831,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'IN',
     alertLevel: 'critical',
     sources: ['National Cyber Crime Reporting Portal (NCRP)', 'Department of Telecommunications (India)'],
+    sourceUrl: 'https://cybercrime.gov.in/',
   },
   {
     name: 'Singapore Internet Love Scam',
@@ -4449,6 +4842,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'SG',
     alertLevel: 'high',
     sources: ['Singapore Police Force'],
+    sourceUrl: 'https://www.police.gov.sg/Advisories/Scams',
   },
   {
     name: 'Japanese National Tax Agency Phishing Scam',
@@ -4459,6 +4853,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'JP',
     alertLevel: 'medium',
     sources: ['Japan National Tax Agency'],
+    sourceUrl: 'https://www.nta.go.jp/information/attention/attention.htm',
   },
   {
     name: 'New Zealand Disaster Relief Charity Scam',
@@ -4469,6 +4864,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'NZ',
     alertLevel: 'medium',
     sources: ['Netsafe', 'Charities Services (New Zealand)'],
+    sourceUrl: 'https://netsafe.org.nz/',
   },
   {
     name: 'German BaFin Unauthorized Investment Scam',
@@ -4479,6 +4875,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'DE',
     alertLevel: 'critical',
     sources: ['BaFin (Federal Financial Supervisory Authority)'],
+    sourceUrl: 'https://www.bafin.de/DE/verbraucherinnen-verbraucher/news-warnungen/warnmeldungen/warnmeldungen_node.html',
   },
   {
     name: 'French Webcam Sextortion Scam',
@@ -4489,6 +4886,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'FR',
     alertLevel: 'critical',
     sources: ['Cybermalveillance.gouv.fr', 'Info Escroqueries'],
+    sourceUrl: 'https://www.cybermalveillance.gouv.fr/',
   },
   {
     name: 'Canadian Utility Disconnection Scam',
@@ -4499,6 +4897,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'CA',
     alertLevel: 'medium',
     sources: ['Canadian Anti-Fraud Centre'],
+    sourceUrl: 'https://antifraudcentre-centreantifraude.ca/index-eng.htm',
   },
   {
     name: 'Swedish Romance Scam (Kärleksbedrägeri)',
@@ -4509,6 +4908,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'SE',
     alertLevel: 'high',
     sources: ['Polisen (Swedish Police Authority)'],
+    sourceUrl: 'https://polisen.se/bedragerier',
   },
   {
     name: 'Singapore OTP Bank Phishing Scam',
@@ -4519,6 +4919,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'SG',
     alertLevel: 'critical',
     sources: ['Singapore Police Force', 'Monetary Authority of Singapore (MAS)'],
+    sourceUrl: 'https://www.police.gov.sg/Advisories/Scams',
   },
   {
     name: 'Dutch "Hoi Mam" WhatsApp Family Emergency Scam',
@@ -4529,6 +4930,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'NL',
     alertLevel: 'high',
     sources: ['Fraudehelpdesk (Netherlands)'],
+    sourceUrl: 'https://www.fraudehelpdesk.nl/',
   },
   {
     name: 'Irish DoneDeal Marketplace Scam',
@@ -4539,6 +4941,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'IE',
     alertLevel: 'medium',
     sources: ['Competition and Consumer Protection Commission (CCPC)'],
+    sourceUrl: 'https://www.ccpc.ie/manage-your-money/scams-and-frauds/common-scams',
   },
   {
     name: 'Australian Gumtree Marketplace Scam',
@@ -4549,6 +4952,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'AU',
     alertLevel: 'medium',
     sources: ['Scamwatch (ACCC)'],
+    sourceUrl: 'https://www.scamwatch.gov.au/',
   },
   {
     name: 'Japanese Mercari Marketplace Scam',
@@ -4559,6 +4963,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'JP',
     alertLevel: 'medium',
     sources: ['Japan National Police Agency'],
+    sourceUrl: 'https://www.npa.go.jp/bureau/safetylife/sos47/',
   },
   {
     name: 'New Zealand Dating App Romance Scam',
@@ -4569,6 +4974,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'NZ',
     alertLevel: 'high',
     sources: ['Netsafe'],
+    sourceUrl: 'https://netsafe.org.nz/',
   },
   {
     name: 'Indian Fake Customer Care Number Scam',
@@ -4579,6 +4985,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'IN',
     alertLevel: 'high',
     sources: ['National Cyber Crime Reporting Portal (NCRP)', 'CERT-In'],
+    sourceUrl: 'https://cybercrime.gov.in/',
   },
   {
     name: 'UK Energy Rebate and Smart Meter Scam',
@@ -4589,6 +4996,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'GB',
     alertLevel: 'medium',
     sources: ['Ofgem', 'Report Fraud (formerly Action Fraud)'],
+    sourceUrl: 'https://www.ofgem.gov.uk/avoid-and-report-energy-scams',
   },
   {
     name: 'Canadian Kijiji Marketplace Scam',
@@ -4599,6 +5007,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'CA',
     alertLevel: 'medium',
     sources: ['Canadian Anti-Fraud Centre'],
+    sourceUrl: 'https://antifraudcentre-centreantifraude.ca/index-eng.htm',
   },
   {
     name: 'Swedish Fake Job Offer Scam',
@@ -4609,6 +5018,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'SE',
     alertLevel: 'high',
     sources: ['Arbetsförmedlingen (Swedish Public Employment Service)', 'Polisen (Swedish Police Authority)'],
+    sourceUrl: 'https://arbetsformedlingen.se/',
   },
   {
     name: 'German AI Voice-Cloning CEO Fraud',
@@ -4619,6 +5029,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'DE',
     alertLevel: 'critical',
     sources: ['German Federal Criminal Police Office (BKA)'],
+    sourceUrl: 'https://www.bka.de/',
   },
   {
     name: 'Indian Fake Insurance Policy Scam',
@@ -4629,6 +5040,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'IN',
     alertLevel: 'high',
     sources: ['Insurance Regulatory and Development Authority of India (IRDAI)'],
+    sourceUrl: 'https://policyholder.gov.in/be-alert',
   },
   {
     name: 'Singapore Toto/4D Fake Lottery Win Scam',
@@ -4639,6 +5051,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'SG',
     alertLevel: 'medium',
     sources: ['Singapore Police Force'],
+    sourceUrl: 'https://www.police.gov.sg/Advisories/Scams',
   },
   {
     name: 'Dutch Toeslagen Benefits Phishing Scam',
@@ -4649,6 +5062,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'NL',
     alertLevel: 'medium',
     sources: ['Fraudehelpdesk (Netherlands)'],
+    sourceUrl: 'https://www.fraudehelpdesk.nl/',
   },
   {
     name: 'Irish Romance Scam',
@@ -4659,6 +5073,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'IE',
     alertLevel: 'high',
     sources: ['An Garda Síochána'],
+    sourceUrl: 'https://www.garda.ie/en/crime/fraud/',
   },
   {
     name: 'Australian Tax Office Impersonation Scam',
@@ -4669,6 +5084,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'AU',
     alertLevel: 'high',
     sources: ['Australian Taxation Office (ATO)', 'Scamwatch (ACCC)'],
+    sourceUrl: 'https://www.ato.gov.au/online-services/scams-cyber-safety-and-identity-protection/scam-alerts',
   },
   {
     name: 'French DGFiP Tax Refund Phishing Scam',
@@ -4679,6 +5095,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'FR',
     alertLevel: 'medium',
     sources: ['Direction générale des Finances publiques (DGFiP)'],
+    sourceUrl: 'https://www.impots.gouv.fr/actualite/attention-aux-arnaques',
   },
   {
     name: 'Japanese International Romance Scam',
@@ -4689,6 +5106,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'JP',
     alertLevel: 'high',
     sources: ['Japan National Police Agency'],
+    sourceUrl: 'https://www.npa.go.jp/bureau/safetylife/sos47/',
   },
   {
     name: 'New Zealand Business Email Compromise Scam',
@@ -4699,6 +5117,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'NZ',
     alertLevel: 'critical',
     sources: ['National Cyber Security Centre (NCSC) — formerly CERT NZ'],
+    sourceUrl: 'https://www.ncsc.govt.nz/',
   },
   {
     name: 'Canadian Sextortion Scam',
@@ -4709,6 +5128,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'CA',
     alertLevel: 'critical',
     sources: ['Canadian Centre for Child Protection', 'Royal Canadian Mounted Police (RCMP)'],
+    sourceUrl: 'https://protectchildren.ca/en/',
   },
   {
     name: 'UK Ghost Broker Car Insurance Scam',
@@ -4719,6 +5139,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'GB',
     alertLevel: 'high',
     sources: ['Insurance Fraud Bureau (UK)', 'Financial Conduct Authority (FCA)'],
+    sourceUrl: 'https://www.insurancefraudbureau.org/',
   },
   {
     name: 'Indian Income Tax Refund Phishing Scam',
@@ -4729,6 +5150,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'IN',
     alertLevel: 'medium',
     sources: ['National Cyber Crime Reporting Portal (NCRP)'],
+    sourceUrl: 'https://cybercrime.gov.in/',
   },
   {
     name: 'German Bürgergeld Benefits Phishing Scam',
@@ -4739,6 +5161,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'DE',
     alertLevel: 'medium',
     sources: ['Bundesagentur für Arbeit'],
+    sourceUrl: 'https://www.arbeitsagentur.de/news/fake-anrufe',
   },
   {
     name: 'Australian Lottery Win Scam',
@@ -4749,6 +5172,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'AU',
     alertLevel: 'medium',
     sources: ['Scamwatch (ACCC)'],
+    sourceUrl: 'https://www.scamwatch.gov.au/',
   },
   {
     name: 'Singapore Business Email Compromise Scam',
@@ -4759,6 +5183,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'SG',
     alertLevel: 'critical',
     sources: ['Singapore Police Force'],
+    sourceUrl: 'https://www.police.gov.sg/Advisories/Scams',
   },
   {
     name: 'French Leboncoin Marketplace Scam',
@@ -4769,6 +5194,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'FR',
     alertLevel: 'medium',
     sources: ['Info Escroqueries'],
+    sourceUrl: 'https://www.police-nationale.interieur.gouv.fr/actualite/info-escroqueries-plate-forme-pour-signaler-escroqueries-sur-internet',
   },
   {
     name: 'Dutch Romance Scam',
@@ -4779,6 +5205,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'NL',
     alertLevel: 'high',
     sources: ['Fraudehelpdesk (Netherlands)'],
+    sourceUrl: 'https://www.fraudehelpdesk.nl/',
   },
   {
     name: 'New Zealand Tech Support Scam',
@@ -4789,6 +5216,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'NZ',
     alertLevel: 'high',
     sources: ['Netsafe'],
+    sourceUrl: 'https://netsafe.org.nz/',
   },
   {
     name: 'New Zealand Webcam Blackmail (Sextortion) Scam',
@@ -4799,6 +5227,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'NZ',
     alertLevel: 'high',
     sources: ['CERT NZ', 'Netsafe'],
+    sourceUrl: 'https://www.ncsc.govt.nz/',
   },
   {
     name: 'Swedish AI and Crypto Investment Scam',
@@ -4809,6 +5238,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'SE',
     alertLevel: 'critical',
     sources: ['Finansinspektionen', 'Polisen'],
+    sourceUrl: 'https://fi.se/sv/for-konsumenter/bedragerier/',
   },
   {
     name: 'Irish Fake Recruitment Scam',
@@ -4819,6 +5249,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'IE',
     alertLevel: 'medium',
     sources: ['An Garda Síochána'],
+    sourceUrl: 'https://www.garda.ie/en/crime/fraud/',
   },
   {
     name: 'Irish National Lottery Impersonation Scam',
@@ -4829,6 +5260,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'IE',
     alertLevel: 'medium',
     sources: ['Competition and Consumer Protection Commission (CCPC)'],
+    sourceUrl: 'https://www.ccpc.ie/manage-your-money/scams-and-frauds/common-scams',
   },
   {
     name: 'India AI Deepfake Sextortion Video Call Scam',
@@ -4839,6 +5271,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'IN',
     alertLevel: 'critical',
     sources: ['Indian Cyber Crime Coordination Centre (I4C)'],
+    sourceUrl: 'https://i4c.mha.gov.in/',
   },
   {
     name: 'India Fake Temple and Relief Fund Donation Scam',
@@ -4849,6 +5282,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'IN',
     alertLevel: 'medium',
     sources: ['National Cyber Crime Reporting Portal (NCRP)'],
+    sourceUrl: 'https://cybercrime.gov.in/',
   },
   {
     name: 'Japan "Yami Baito" Dark Part-Time Job Recruitment Scam',
@@ -4859,6 +5293,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'JP',
     alertLevel: 'critical',
     sources: ['National Police Agency (Japan)'],
+    sourceUrl: 'https://www.npa.go.jp/bureau/safetylife/sos47/',
   },
   {
     name: 'Japan Fake Security Warning Support Scam',
@@ -4869,6 +5304,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'JP',
     alertLevel: 'high',
     sources: ['Information-technology Promotion Agency (IPA)'],
+    sourceUrl: 'https://www.ipa.go.jp/security/anshin/measures/fakealert.html',
   },
   {
     name: 'Singapore Courier Impersonation Phishing Scam',
@@ -4879,6 +5315,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'SG',
     alertLevel: 'high',
     sources: ['Singapore Police Force'],
+    sourceUrl: 'https://www.police.gov.sg/Advisories/Scams',
   },
   {
     name: 'Singapore Malware Sextortion Scam',
@@ -4889,6 +5326,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'SG',
     alertLevel: 'critical',
     sources: ['Singapore Police Force'],
+    sourceUrl: 'https://www.police.gov.sg/Advisories/Scams',
   },
   {
     name: 'Australian Online Romance Scam',
@@ -4899,6 +5337,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'AU',
     alertLevel: 'critical',
     sources: ['National Anti-Scam Centre / Scamwatch (ACCC)'],
+    sourceUrl: 'https://www.scamwatch.gov.au/',
   },
   {
     name: 'Australian Task-Based Job Scam',
@@ -4909,6 +5348,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'AU',
     alertLevel: 'critical',
     sources: ['National Anti-Scam Centre / Scamwatch (ACCC)'],
+    sourceUrl: 'https://www.scamwatch.gov.au/',
   },
   {
     name: 'Canadian Romance Scam',
@@ -4919,6 +5359,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'CA',
     alertLevel: 'critical',
     sources: ['Canadian Anti-Fraud Centre'],
+    sourceUrl: 'https://antifraudcentre-centreantifraude.ca/index-eng.htm',
   },
   {
     name: 'Canadian Lottery and Prize Scam',
@@ -4929,6 +5370,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'CA',
     alertLevel: 'medium',
     sources: ['Canadian Anti-Fraud Centre'],
+    sourceUrl: 'https://antifraudcentre-centreantifraude.ca/index-eng.htm',
   },
 ];
 
@@ -4945,8 +5387,8 @@ async function seedCategoriesAndScams() {
 
   for (const scam of SEED_SCAMS) {
     await pool.query(
-      `INSERT INTO scams (name, slug, description, category_id, alert_level, is_active, sources, country, is_historical, first_recorded)
-       VALUES ($1, $2, $3, (SELECT id FROM categories WHERE slug = $4), $5, true, $6, $7, $8, $9)
+      `INSERT INTO scams (name, slug, description, category_id, alert_level, is_active, sources, source_url, country, is_historical, first_recorded)
+       VALUES ($1, $2, $3, (SELECT id FROM categories WHERE slug = $4), $5, true, $6, $7, $8, $9, $10)
        ON CONFLICT (slug) DO NOTHING`,
       [
         scam.name,
@@ -4955,6 +5397,7 @@ async function seedCategoriesAndScams() {
         scam.categorySlug,
         scam.alertLevel ?? null,
         scam.sources,
+        scam.sourceUrl ?? null,
         scam.country ?? 'US',
         scam.isHistorical ?? false,
         scam.firstRecorded ?? null,
