@@ -566,6 +566,34 @@ Wright was convicted in May 2008 on 47 counts of fraud and money laundering, fac
 The case became a pointed example of affinity fraud aimed specifically at professional athletes — a population with sudden wealth, limited financial oversight infrastructure, and a peer network that made referrals from one trusted teammate to another spread the fraud efficiently — and prompted renewed scrutiny of how sports leagues and players' unions vet the financial advisers marketed to their members.`,
     sourceUrl: 'https://www.cnbc.com/2008/05/21/fund-manager-convicted-faces-up-to-710-years.html',
   },
+  {
+    title: 'Nevin Shapiro: The $930 Million Ponzi Schemer Behind a College Football Scandal',
+    slug: 'nevin-shapiro-capitol-investments-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `Nevin Shapiro founded Capitol Investments USA, telling investors the company profited by purchasing wholesale groceries in bulk and reselling them to retailers at a markup. Between 2005 and 2009, he raised roughly $930 million from investors on the strength of that story, paying "returns" to earlier backers using money raised from new ones rather than any real grocery-trading profits.
+
+Away from the fraud, Shapiro cultivated a second, very public identity as a lavish University of Miami football booster, showering players with cash, jewelry, cars, and paid trips over nearly a decade. He later admitted to providing improper benefits to more than 70 UM athletes and student-athletes, a confession that triggered a major NCAA investigation once his Ponzi scheme collapsed and exposed the source of his spending — the NCAA ultimately placed the university on three years' probation and stripped scholarships as a result.
+
+The Ponzi scheme fell apart in 2009 when Shapiro could no longer raise enough new money to cover what he owed earlier investors. He pleaded guilty to securities fraud and money laundering and was sentenced in 2011 to 20 years in federal prison, along with nearly $83 million in restitution. He served more than a decade before being released during the COVID-19 pandemic due to health issues, and the remainder of his sentence was commuted by President Biden in December 2024.
+
+Shapiro's case is unusual for how directly the stolen money became public spectacle rather than staying hidden: rather than quietly enjoying his gains, he spent lavishly and visibly on a major college sports program, and it was that very visibility — an NCAA investigation into recruiting violations — that ultimately helped expose the underlying fraud.`,
+    sourceUrl: 'https://www.espn.com/college-football/story/_/id/6866006/ponzi-schemer-nevin-shapiro-says-provided-benefits-miami-athletes',
+  },
+  {
+    title: "Paul Burks and ZeekRewards, the $600 Million Online Ponzi Disguised as a Rewards Program",
+    slug: 'paul-burks-zeekrewards-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Paul Burks ran ZeekRewards, an online "rewards" program tied to a penny-auction website called Zeekler, telling participants they could earn substantial daily returns by purchasing sample bids and then reselling them to other users, framed as a business opportunity rather than an investment. Between January 2011 and August 2012, ZeekRewards drew in more than $600 million from roughly one million people in the United States and abroad.
+
+The SEC found that the "returns" paid to participants bore almost no relationship to any real business activity — approximately 98 percent of ZeekRewards' payouts came directly from money contributed by newer participants, the defining structure of a Ponzi scheme, compounded by a recruitment-driven pyramid structure that rewarded participants for bringing in new members. The company's promotional materials never disclosed this to the people signing up.
+
+The SEC shut the operation down in August 2012 with an emergency asset freeze, and Burks agreed to a civil settlement giving up his interest in the company and paying a $4 million penalty. Criminal prosecution followed years later: a federal jury convicted Burks in 2016 on wire fraud, mail fraud, and tax fraud conspiracy charges, with prosecutors by then calculating the scheme's full scope at roughly $900 million. He was sentenced in 2017 to more than 14 years in federal prison and ordered to pay $244 million in restitution.
+
+ZeekRewards is a textbook illustration of how a Ponzi scheme can hide inside an ordinary-sounding online business model — a "rewards program" tied to a real, functioning website — making the underlying math (new money paying old promises) far harder for an everyday participant to spot than a scheme that presents itself plainly as an investment.`,
+    sourceUrl: 'https://www.sec.gov/newsroom/press-releases/2012-2012-160htm',
+  },
 ];
 
 // Practical "how it works / red flags / what to do" guides covering the
