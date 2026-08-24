@@ -4680,6 +4680,26 @@ const SEED_SCAMS: SeedScam[] = [
     alertLevel: 'critical',
     sources: ['Finansinspektionen', 'Polisen'],
   },
+  {
+    name: 'Irish Fake Recruitment Scam',
+    slug: 'ireland-fake-recruitment-scam',
+    description:
+      'A job advert on a well-known recruitment platform uses a real, well-known company\'s name and branding without its knowledge, offering an attractive remote or flexible role and moving communication quickly to a messaging app for a fast "interview." The fake employer then asks the applicant to pay upfront for equipment, training materials, or a background-check fee, or to hand over personal and banking details under the guise of payroll setup. An Garda Síochána\'s National Economic Crime Bureau has flagged recruitment scams as a rising fraud category and advises independently verifying any employer directly through the real company\'s own official channels before paying anything or sharing personal information during a hiring process.',
+    categorySlug: 'employment-scams',
+    country: 'IE',
+    alertLevel: 'medium',
+    sources: ['An Garda Síochána'],
+  },
+  {
+    name: 'Irish National Lottery Impersonation Scam',
+    slug: 'ireland-national-lottery-impersonation-scam',
+    description:
+      'An email or letter claims the recipient has won a large cash prize in the Irish National Lottery, even though they never bought a ticket, and asks for an upfront "processing" or "release" fee, or for banking details to transfer the winnings. The Competition and Consumer Protection Commission (CCPC) confirms Ireland\'s National Lottery never contacts winners by email and never requires any fee to release a genuine prize — a real win can only come from a ticket the person actually bought and can produce themselves.',
+    categorySlug: 'lottery-sweepstakes-scams',
+    country: 'IE',
+    alertLevel: 'medium',
+    sources: ['Competition and Consumer Protection Commission (CCPC)'],
+  },
 ];
 
 async function seedCategoriesAndScams() {
