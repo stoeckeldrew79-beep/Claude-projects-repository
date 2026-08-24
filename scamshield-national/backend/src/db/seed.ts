@@ -4642,6 +4642,16 @@ const SEED_SCAMS: SeedScam[] = [
     alertLevel: 'high',
     sources: ['CERT NZ', 'Netsafe'],
   },
+  {
+    name: 'Swedish AI and Crypto Investment Scam',
+    slug: 'sweden-ai-crypto-investment-scam',
+    description:
+      'An online ad or social media message features a fabricated endorsement — often an AI-generated deepfake video of a well-known Swedish public figure — promoting an automated trading platform that claims to use artificial intelligence to guarantee high returns on a cryptocurrency investment, walking the victim through a small initial deposit before pressuring much larger transfers that can never be withdrawn. Sweden\'s Financial Supervisory Authority (Finansinspektionen) reports that AI and crypto lures are now common in investment fraud and maintains a public warning list of firms known to offer investments illegally; genuine regulated investment firms in Sweden are always listed in FI\'s own company register, which is free to check before sending any money.',
+    categorySlug: 'investment-fraud',
+    country: 'SE',
+    alertLevel: 'critical',
+    sources: ['Finansinspektionen', 'Polisen'],
+  },
 ];
 
 async function seedCategoriesAndScams() {
