@@ -20,6 +20,14 @@ interface SeedArticle {
   // on profiles that have no rights-cleared photo — optional since photo
   // hunting happens separately (see NotoriousCoverPhotos in Admin.tsx).
   sourceUrl?: string;
+  // A verified, rights-cleared (public domain or Creative Commons) photo.
+  // Only set these once the license has actually been confirmed by
+  // fetching the source page directly — never on an unverified guess.
+  coverImage?: string;
+  coverImageCredit?: string;
+  // Vertical focal point, 0-100 (0 = top, 100 = bottom, 50 = center).
+  // Defaults to 50 when coverImage is set without one.
+  coverImagePosition?: number;
 }
 
 const NOTORIOUS_ARTICLES: SeedArticle[] = [
@@ -786,10 +794,20 @@ Before donating: look up the organization independently rather than through a li
 async function seedArticles(articles: SeedArticle[], label: string) {
   for (const article of articles) {
     await pool.query(
-      `INSERT INTO articles (title, slug, body, author, tags, source_url, published, published_at)
-       VALUES ($1, $2, $3, $4, $5, $6, true, NOW())
+      `INSERT INTO articles (title, slug, body, author, tags, source_url, cover_image, cover_image_credit, cover_image_position, published, published_at)
+       VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, true, NOW())
        ON CONFLICT (slug) DO NOTHING`,
-      [article.title, article.slug, article.body, article.author, article.tags, article.sourceUrl ?? null]
+      [
+        article.title,
+        article.slug,
+        article.body,
+        article.author,
+        article.tags,
+        article.sourceUrl ?? null,
+        article.coverImage ?? null,
+        article.coverImageCredit ?? null,
+        article.coverImagePosition ?? 50,
+      ]
     );
   }
   console.log(`seed: upserted ${articles.length} ${label} articles`);
