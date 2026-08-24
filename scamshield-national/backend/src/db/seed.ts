@@ -4892,6 +4892,26 @@ const SEED_SCAMS: SeedScam[] = [
     alertLevel: 'critical',
     sources: ['National Anti-Scam Centre / Scamwatch (ACCC)'],
   },
+  {
+    name: 'Canadian Romance Scam',
+    slug: 'canada-romance-scam',
+    description:
+      'A relationship built over weeks or months through a dating app or social media, often with a scammer claiming an "exotic" job that explains why they can never meet in person — working on an oil rig, deployed with the military overseas, or a doctor with an international aid organization — eventually leads to a fabricated emergency or investment opportunity that only the victim\'s money can resolve. The Canadian Anti-Fraud Centre reported nearly $63 million in romance scam losses in 2025 alone, up from $58 million in 2024, while estimating that only 5 to 10 percent of victims ever report the fraud due to shame and stigma — meaning true losses are likely far higher. Increasingly, scammers use AI-generated photos and video to make the fabricated persona more convincing, and push victims toward cryptocurrency transfers specifically because they are nearly impossible to reverse.',
+    categorySlug: 'romance-scams',
+    country: 'CA',
+    alertLevel: 'critical',
+    sources: ['Canadian Anti-Fraud Centre'],
+  },
+  {
+    name: 'Canadian Lottery and Prize Scam',
+    slug: 'canada-lottery-prize-scam',
+    description:
+      'A phone call, email, or letter claims the recipient has won a large lottery prize, cash award, or vehicle through a contest they never entered, but releasing the winnings requires first paying a "processing fee" or covering taxes — commonly demanded through Apple gift cards or a wire transfer. The Canadian Anti-Fraud Centre and RCMP confirm that no legitimate lottery or sweepstakes ever requires a fee or tax payment before releasing a genuine prize, and advise treating any unsolicited notification of an unentered win as certain fraud, regardless of how official the caller or letterhead appears.',
+    categorySlug: 'lottery-sweepstakes-scams',
+    country: 'CA',
+    alertLevel: 'medium',
+    sources: ['Canadian Anti-Fraud Centre'],
+  },
 ];
 
 async function seedCategoriesAndScams() {
