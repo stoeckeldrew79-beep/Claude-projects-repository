@@ -4776,6 +4776,26 @@ const SEED_SCAMS: SeedScam[] = [
     alertLevel: 'medium',
     sources: ['National Cyber Crime Reporting Portal (NCRP)'],
   },
+  {
+    name: 'Japan "Yami Baito" Dark Part-Time Job Recruitment Scam',
+    slug: 'japan-yami-baito-dark-part-time-job-scam',
+    description:
+      'A job ad on social media or a messaging app offers unusually high pay for vague, simple-sounding work — "just follow a script" phone work, or transporting packages and cash — and asks applicants to hand over ID photos and personal details before revealing what the job actually involves. The real work turns out to be a direct role in a fraud operation: acting as the caller, cash collector, or courier in phone and remittance scams targeting other victims, and once recruits have provided identifying information, they are often threatened into continuing under fear the recruiters know who they are and where they live. Japan\'s National Police Agency has issued repeated public warnings about these "yami baito" (dark part-time job) postings, noting that recruiters increasingly disguise them as ordinary jobs, and advises treating any job that hides its actual duties or demands ID before explaining the work as a serious warning sign.',
+    categorySlug: 'employment-scams',
+    country: 'JP',
+    alertLevel: 'critical',
+    sources: ['National Police Agency (Japan)'],
+  },
+  {
+    name: 'Japan Fake Security Warning Support Scam',
+    slug: 'japan-fake-security-warning-support-scam',
+    description:
+      'A pop-up appears while browsing, filling the screen with a loud alarm sound and a warning that the computer is infected with a virus, displaying a phone number to call for "official" support — calling connects to a scammer who talks the victim into installing remote-access software and paying for fake antivirus or repair services. Japan\'s Information-technology Promotion Agency (IPA) has reported monthly consultation volume on these fake security warnings reaching record highs, and advises never calling the number shown, never granting remote access, and simply closing the browser or restarting the device if such a warning appears.',
+    categorySlug: 'tech-support-scams',
+    country: 'JP',
+    alertLevel: 'high',
+    sources: ['Information-technology Promotion Agency (IPA)'],
+  },
 ];
 
 async function seedCategoriesAndScams() {
