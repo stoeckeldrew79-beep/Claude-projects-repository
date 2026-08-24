@@ -5389,7 +5389,7 @@ async function seedCategoriesAndScams() {
     await pool.query(
       `INSERT INTO scams (name, slug, description, category_id, alert_level, is_active, sources, source_url, country, is_historical, first_recorded)
        VALUES ($1, $2, $3, (SELECT id FROM categories WHERE slug = $4), $5, true, $6, $7, $8, $9, $10)
-       ON CONFLICT (slug) DO NOTHING`,
+       ON CONFLICT (slug) DO UPDATE SET source_url = COALESCE(scams.source_url, EXCLUDED.source_url)`,
       [
         scam.name,
         scam.slug,
