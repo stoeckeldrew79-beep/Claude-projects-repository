@@ -4728,6 +4728,26 @@ const SEED_SCAMS: SeedScam[] = [
     alertLevel: 'medium',
     sources: ['Competition and Consumer Protection Commission (CCPC)'],
   },
+  {
+    name: 'India AI Deepfake Sextortion Video Call Scam',
+    slug: 'india-ai-deepfake-sextortion-scam',
+    description:
+      'A scammer initiates a video call, often through a fake profile or a hacked messaging contact, and uses real-time AI face-swapping and screen-recording tools to make it appear the victim engaged in explicit activity on camera, then threatens to send the fabricated footage to family, employers, or social media contacts unless a payment is made immediately, exploiting shame and panic to prevent the victim from pausing to verify what actually happened. India\'s Indian Cyber Crime Coordination Centre (I4C) has flagged AI-generated sextortion as a fast-growing category built on the same synthetic-media tools increasingly used across digital arrest and romance scams, and advises ending the call immediately, not paying, and reporting through the National Cyber Crime Reporting Portal rather than engaging with the caller.',
+    categorySlug: 'sextortion',
+    country: 'IN',
+    alertLevel: 'critical',
+    sources: ['Indian Cyber Crime Coordination Centre (I4C)'],
+  },
+  {
+    name: 'India Fake Temple and Relief Fund Donation Scam',
+    slug: 'india-fake-temple-relief-fund-donation-scam',
+    description:
+      'A fake website, QR code, or social media campaign impersonates a well-known cause — a major temple building fund, a national disaster relief fund, or a natural-calamity appeal — using official-looking branding and a fabricated UPI ID resembling the genuine one to collect donations that never reach the real cause, often surging around major festivals or in the aftermath of widely covered disasters. Indian cybercrime authorities advise verifying any charity through NGO Darpan, the government\'s official registry of nonprofit organizations, and donating only through a cause\'s own verified website or officially published payment details rather than a link or QR code shared in a message or social post.',
+    categorySlug: 'charity-scams',
+    country: 'IN',
+    alertLevel: 'medium',
+    sources: ['National Cyber Crime Reporting Portal (NCRP)'],
+  },
 ];
 
 async function seedCategoriesAndScams() {
