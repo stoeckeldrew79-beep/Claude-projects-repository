@@ -622,6 +622,34 @@ Those claims became a matter of public dispute: Australian authorities released 
 Skase's case remains one of Australia's most prominent examples of a corporate fraud allegation that was never resolved by a court at all — a reminder that even a well-documented, multi-billion-dollar collapse can end not in conviction or acquittal, but in an unresolved decade-long stalemate that outlasts the person accused.`,
     sourceUrl: 'https://www.majorcadailybulletin.com/news/local/2001/08/05/3485/christopher-skase-dies-majorca.html',
   },
+  {
+    title: "Sam Waksal: The ImClone Tip That Brought Down Martha Stewart Too",
+    slug: 'sam-waksal-imclone-insider-trading',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Sam Waksal founded and ran ImClone Systems, a biotech company whose future largely hinged on FDA approval of its experimental cancer drug Erbitux. In late December 2001, Waksal learned ahead of the public that the FDA was about to reject ImClone's application — devastating news that would tank the stock once announced.
+
+Rather than simply absorb the loss, Waksal tried to sell his own ImClone shares immediately and tipped off family members, including his daughter, to do the same before the rejection became public. That same tip chain reached his stockbroker's other clients, including Martha Stewart, who sold nearly 4,000 ImClone shares the day before the news broke, avoiding a loss of roughly $45,673 — a relatively small sum that nonetheless triggered one of the most publicized insider-trading scandals of the decade.
+
+Waksal pleaded guilty in 2002 to securities fraud, bank fraud, and tax evasion, and was sentenced to more than seven years in federal prison along with a $3 million fine. Stewart herself was never charged with insider trading directly, since prosecutors couldn't prove she knew the specific reason for the sale — but she was convicted in 2004 of obstruction of justice and lying to federal investigators about the circumstances of her stock sale, and served five months in prison.
+
+The ImClone case is notable for how far a single piece of leaked information traveled before the damage was contained — from a CEO learning bad news early, through a family tip, to a broker's other client, to a criminal case that ultimately sent a media mogul to prison not for the trade itself, but for how she handled being asked about it afterward.`,
+    sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-19794',
+  },
+  {
+    title: "Angelo Mozilo and the $67.5 Million Settlement Behind Countrywide's Subprime Collapse",
+    slug: 'angelo-mozilo-countrywide-financial-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Angelo Mozilo co-founded Countrywide Financial and built it into the largest mortgage lender in the United States, aggressively expanding into subprime lending — loans to borrowers with weaker credit, often on terms that became unaffordable once introductory rates expired. As the housing market boomed through the 2000s, Countrywide's growth made Mozilo one of the most prominent and highly paid executives in American finance.
+
+The SEC alleged that Mozilo and two other Countrywide executives knew the company's loan portfolio was carrying far more risk than investors were being told, misrepresenting the true quality of the mortgages Countrywide was originating and packaging for sale, even as internal communications showed executives privately describing some of the loan products as dangerous. The SEC separately accused Mozilo of insider trading, alleging he sold Countrywide shares worth tens of millions of dollars while aware of problems he wasn't disclosing to shareholders.
+
+As the subprime mortgage crisis unfolded in 2007 and 2008, Countrywide's loan losses mounted and the company was sold to Bank of America in a rescue acquisition. Federal prosecutors ultimately declined to bring criminal charges against Mozilo, but in October 2010 he agreed to pay $67.5 million to settle the SEC's civil fraud and insider-trading case — without admitting wrongdoing — and accepted a permanent bar from ever again serving as an officer or director of a public company.
+
+Mozilo's case became one of the defining examples of executive accountability, or the lack of it, following the 2008 financial crisis: a company at the center of the subprime lending collapse, a large civil penalty, and no criminal charges at all — a pattern repeated across much of the crisis-era financial industry and a frequent point of criticism about how differently white-collar and street-level fraud get prosecuted.`,
+    sourceUrl: 'https://www.sec.gov/news/press/2010/2010-197.htm',
+  },
 ];
 
 // Practical "how it works / red flags / what to do" guides covering the
