@@ -510,6 +510,34 @@ Minkow was convicted in 1988 on 57 counts including racketeering, securities fra
 Minkow's case is unusual for having two separate, fully documented fraud convictions decades apart, the second one committed by a man who had spent years publicly building a reputation as a reformed fraud-fighter — a reminder that a demonstrated capacity for elaborate, sustained deception doesn't reliably go away just because the second act looks like redemption.`,
     sourceUrl: 'https://www.justice.gov/usao-sdca/pr/former-inmate-turned-pastor-barry-minkow-pleads-guilty-bilking-congregation',
   },
+  {
+    title: 'Robert Vesco: The Fugitive Financier Who Looted $224 Million and Vanished for 35 Years',
+    slug: 'robert-vesco-ios-fraud-fugitive',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Robert Vesco built a career as a corporate takeover specialist before gaining control of Investors Overseas Services (IOS), a sprawling Swiss-based mutual fund complex managing money for hundreds of thousands of investors worldwide. Rather than manage IOS's funds as advertised, Vesco directed them into a web of banks and shell companies he secretly controlled, using the structure to siphon investor money out for himself.
+
+The SEC calculated that Vesco and his associates looted roughly $224 million from IOS's funds, defrauding the ordinary investors whose money was supposed to be professionally invested. Facing prosecution in 1972, Vesco simply left the country rather than answer the charges, beginning one of the longest fugitive runs in American financial history. He was also indicted separately for funneling $250,000 in illegal secret contributions to Richard Nixon's 1972 re-election campaign in an alleged attempt to influence the SEC investigation against him.
+
+For the next three decades, Vesco lived as a wealthy exile across Costa Rica, the Bahamas, Nicaragua, and Antigua, at various points allegedly brokering arms deals and cultivating relationships with foreign governments to secure protection from extradition. He eventually settled in Cuba under Fidel Castro's government, reportedly living under state protection for years, before Cuban authorities themselves arrested and convicted him in 1996 on fraud charges related to a separate business deal gone bad with Cuban officials. He served roughly a decade in a Cuban prison and died in Havana in 2007, having never faced the original U.S. charges.
+
+Vesco's case remains a landmark example of how a fraud can outlast prosecution entirely: unlike almost every other figure in this collection, he was never extradited, never tried in the United States, and effectively spent the second half of his life demonstrating that becoming a permanent fugitive was, for him, a more survivable outcome than facing the consequences of the fraud itself.`,
+    sourceUrl: 'https://www.britannica.com/biography/Robert-L-Vesco',
+  },
+  {
+    title: "Reed Slatkin's $593 Million Ponzi Scheme Built on Fellow Scientologists' Trust",
+    slug: 'reed-slatkin-scientology-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Reed Slatkin was an early internet entrepreneur — a co-founder of EarthLink — and a prominent Scientologist who spent 15 years, from 1986 to 2001, presenting himself to fellow Scientologists as a gifted private investment adviser. He told investors, many of them fellow church members including several celebrities, that he was earning them consistent annual returns of around 24 percent, backed by fabricated account statements showing investment activity that was never actually happening at anywhere near that scale.
+
+In reality, Slatkin was running a Ponzi scheme, paying "returns" to earlier investors using money raised from new ones rather than any real investment gains. Trust within the tight-knit Scientology community was central to how the fraud spread and persisted for so long: victims recruited other victims, largely because Slatkin's standing within the church made his claims seem credible without the kind of outside scrutiny an unaffiliated financial adviser might have faced.
+
+The scheme collapsed in 2001 when Slatkin filed for bankruptcy, and investigators found he had raised roughly $593 million from about 800 investors over the scheme's life. He pleaded guilty in 2002 to 15 felony counts including mail fraud, wire fraud, money laundering, and conspiracy to obstruct justice, and was sentenced to 14 years in federal prison; he served about 10 years. The Church of Scientology itself was not accused of orchestrating the fraud, but separately agreed to repay $3.5 million to the bankruptcy estate that had been donated to Scientology-affiliated causes using defrauded investor money.
+
+Slatkin's case is a clear illustration of "affinity fraud" — schemes that spread through a shared community, religious group, or social network specifically because the fraudster's membership in that group substitutes for the due diligence investors would normally apply to a stranger, letting the fraud reach a scale that a fraudster without that built-in trust could never have achieved.`,
+    sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-18323',
+  },
 ];
 
 // Practical "how it works / red flags / what to do" guides covering the
