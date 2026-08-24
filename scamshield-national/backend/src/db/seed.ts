@@ -4622,6 +4622,26 @@ const SEED_SCAMS: SeedScam[] = [
     alertLevel: 'high',
     sources: ['Fraudehelpdesk (Netherlands)'],
   },
+  {
+    name: 'New Zealand Tech Support Scam',
+    slug: 'newzealand-tech-support-scam',
+    description:
+      'A caller claiming to be from Microsoft, Google, or a New Zealand internet provider such as Spark or Chorus warns of a virus or connection fault and talks the victim into installing remote-access software, then either charges a large fee for fake "repairs" or uses the access to search the device for banking details. Netsafe advises that legitimate tech companies and ISPs never make unsolicited calls about a device problem, never ask for remote access to fix one, and never request payment by gift card or cryptocurrency.',
+    categorySlug: 'tech-support-scams',
+    country: 'NZ',
+    alertLevel: 'high',
+    sources: ['Netsafe'],
+  },
+  {
+    name: 'New Zealand Webcam Blackmail (Sextortion) Scam',
+    slug: 'newzealand-webcam-blackmail-scam',
+    description:
+      'An email claims the sender hijacked the recipient\'s webcam while they visited an adult website and recorded compromising footage, threatening to send it to every contact in their address book unless a ransom — typically NZD $1,700 to $3,000, often demanded in cryptocurrency — is paid within a short deadline, sometimes including an old leaked password as false proof of access. CERT NZ has received no confirmed reports of such a video actually existing or being sent, and advises against paying, replying, or engaging with the sender in any way — simply blocking the message and, if the same password is reused elsewhere, changing it.',
+    categorySlug: 'sextortion',
+    country: 'NZ',
+    alertLevel: 'high',
+    sources: ['CERT NZ', 'Netsafe'],
+  },
 ];
 
 async function seedCategoriesAndScams() {
