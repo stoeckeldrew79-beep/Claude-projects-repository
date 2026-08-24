@@ -4796,6 +4796,26 @@ const SEED_SCAMS: SeedScam[] = [
     alertLevel: 'high',
     sources: ['Information-technology Promotion Agency (IPA)'],
   },
+  {
+    name: 'Singapore Courier Impersonation Phishing Scam',
+    slug: 'singapore-courier-impersonation-phishing-scam',
+    description:
+      'A message via Apple iMessage, WhatsApp, or email — often from a foreign number or an address impersonating a recognized courier such as SingPost, DHL, NinjaVan, or J&T Express — claims a parcel delivery failed or a customs fee is owed, linking to a fake page that harvests personal and banking details. The Singapore Police Force has flagged a sharp rise in these courier impersonation scams, noting SingPost itself never sends clickable payment links by WhatsApp or SMS and only uses official @singpost.com email addresses, never personal accounts like Gmail or Hotmail.',
+    categorySlug: 'package-delivery-scams',
+    country: 'SG',
+    alertLevel: 'high',
+    sources: ['Singapore Police Force'],
+  },
+  {
+    name: 'Singapore Malware Sextortion Scam',
+    slug: 'singapore-malware-sextortion-scam',
+    description:
+      'A contact made through a dating app or online sexual-services platform invites the victim to a "naked chat" over video, but first asks them to download a mobile app via a link to join the call — the app is actually malware that silently steals the phone\'s entire contact list. Once explicit images or video are captured during the call, the scammer threatens to send them to the victim\'s harvested contacts — family, colleagues, friends — unless a payment is made. The Singapore Police Force advises never installing an app to join a video call from someone met online, and to report immediately rather than pay if targeted, since paying does not guarantee the material won\'t be released anyway.',
+    categorySlug: 'sextortion',
+    country: 'SG',
+    alertLevel: 'critical',
+    sources: ['Singapore Police Force'],
+  },
 ];
 
 async function seedCategoriesAndScams() {
