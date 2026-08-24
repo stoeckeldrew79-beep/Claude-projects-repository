@@ -538,6 +538,34 @@ The scheme collapsed in 2001 when Slatkin filed for bankruptcy, and investigator
 Slatkin's case is a clear illustration of "affinity fraud" — schemes that spread through a shared community, religious group, or social network specifically because the fraudster's membership in that group substitutes for the due diligence investors would normally apply to a stranger, letting the fraud reach a scale that a fraudster without that built-in trust could never have achieved.`,
     sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-18323',
   },
+  {
+    title: 'Norman Hsu: The Political Fundraiser Whose Ponzi Scheme Funded His Own Influence',
+    slug: 'norman-hsu-political-fundraiser-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Norman Hsu spent roughly a decade telling investors he could deliver 14 to 20 percent returns by financing clothing and technology import ventures, raising more than $50 million from hundreds of people who believed they were backing real merchandise deals. In reality, Hsu was running a straightforward Ponzi scheme, paying off earlier investors with money raised from new ones while personally spending much of the rest.
+
+What set Hsu apart was how he used a portion of that stolen money: he became one of the Democratic Party's most prolific political fundraisers of the mid-2000s, personally donating heavily and bundling contributions from others to campaigns including Hillary Clinton's 2008 presidential run, while also hosting a fundraising event for Barack Obama's political action committee. Prosecutors said the lavish giving was a deliberate strategy — raising Hsu's public profile and credibility to help him recruit more investors into the fraud. He also illegally routed contributions through other people's names to get around individual donation limits, a separate federal campaign-finance crime.
+
+The fraud began unraveling in 2007 when reporters discovered Hsu had skipped sentencing on an earlier, unrelated 1990s fraud conviction in California and had been a fugitive for 15 years while building his new fundraising career. He was arrested, and the renewed scrutiny exposed the Ponzi scheme underneath his political giving. Hsu pleaded guilty to fraud and separately was convicted on campaign-finance charges, and in 2009 was sentenced to just over 24 years in federal prison, plus an additional three years to resolve the original California case he had fled.
+
+Hsu's case is a striking example of how stolen money can be recycled into apparent legitimacy: political access and visibility bought with fraud proceeds functioned as marketing for the fraud itself, letting a fugitive con man operate inside rooms with major national political figures for years before anyone checked his background.`,
+    sourceUrl: 'https://www.fbi.gov/newyork/press-releases/2009/nyfo092909.htm',
+  },
+  {
+    title: 'Kirk Wright and the Hedge Fund That Targeted His Own NFL Client Base',
+    slug: 'kirk-wright-international-management-associates-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Kirk Wright founded International Management Associates, an Atlanta hedge fund that built much of its client base by specifically courting current and former NFL players, marketing itself through sports-industry connections as a trusted destination for athletes' investment money. From 1997 onward, Wright told clients their money was earning steady returns in the market, backing those claims with falsified account statements.
+
+The fund was actually losing money for years, but Wright kept the illusion going by fabricating documents and using new client deposits to make it appear existing accounts were growing. Prosecutors said he personally spent client money on jewelry, real estate, luxury vehicles, and a $500,000 wedding, while investigators eventually calculated that Wright had taken in between $115 million and $185 million from roughly 500 investors. Among the victims were six former NFL players — including Steve Atwater, Blaine Bishop, and Clyde Simmons — who together lost more than $20 million and later sued the NFL Players Association over its vetting of Wright as a registered financial adviser.
+
+Wright was convicted in May 2008 on 47 counts of fraud and money laundering, facing a maximum sentence of up to 710 years. Rather than wait for sentencing, he took his own life in his jail cell ten days after the verdict, hanging himself with a rope made from bedsheets.
+
+The case became a pointed example of affinity fraud aimed specifically at professional athletes — a population with sudden wealth, limited financial oversight infrastructure, and a peer network that made referrals from one trusted teammate to another spread the fraud efficiently — and prompted renewed scrutiny of how sports leagues and players' unions vet the financial advisers marketed to their members.`,
+    sourceUrl: 'https://www.cnbc.com/2008/05/21/fund-manager-convicted-faces-up-to-710-years.html',
+  },
 ];
 
 // Practical "how it works / red flags / what to do" guides covering the
