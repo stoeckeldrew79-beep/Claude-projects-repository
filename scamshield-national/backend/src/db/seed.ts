@@ -50,6 +50,8 @@ Ponzi didn't invent the pay-earlier-investors-with-later-investors' -money struc
     slug: 'bernie-madoff-largest-ponzi-scheme',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Bernard_Madoff_2009_mug_shot_(3x4_cropped).jpg',
+    coverImagePosition: 50,
     body: `Bernard Madoff spent decades as a respected figure on Wall Street — a former chairman of the NASDAQ stock exchange — running an investment advisory business that quietly became the largest Ponzi scheme in history. For at least 17 years, and likely longer, Madoff paid "returns" to investors using money from new investors, while producing no real trading activity behind the numbers on their statements.
 
 What made Madoff's fraud unusual wasn't dramatic promises of overnight riches — his reported returns were steady and unspectacular, often around 10-12% a year, which was precisely what made them look credible. Feeder funds funneled money to him from pension funds, charities, universities, and wealthy individuals who trusted his reputation and his consistency. Financial analyst Harry Markopolos spent nearly a decade trying to warn the SEC that Madoff's numbers were mathematically impossible to achieve legitimately. He was largely ignored.
@@ -92,6 +94,9 @@ The reason this belongs on a list of notorious scams isn't the alleged teenage c
     slug: 'anna-sorokin-anna-delvey-fake-heiress',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Anna_Sorokin,_2022.jpg',
+    coverImageCredit: 'Photo: Anna Sorokina (CC BY-SA 4.0)',
+    coverImagePosition: 50,
     body: `Between 2013 and 2017, a young woman calling herself "Anna Delvey" moved through New York's social scene claiming to be a wealthy German heiress about to inherit a multimillion-dollar trust fund, planning to open an exclusive private arts club. She stayed in luxury hotels, dined at expensive restaurants, tipped generously, and befriended people with real money and real social standing — all while her actual funds were, at best, a fraction of what she projected.
 
 Her real name was Anna Sorokin, a Russian-born German citizen without the fortune she claimed. She funded her lifestyle through a mix of unpaid hotel bills, bounced checks, and — most damagingly for the friends who trusted her — talking acquaintances into fronting large expenses on the promise of prompt reimbursement that never fully materialized, including one widely reported case involving a $62,000 luxury vacation bill. Banks that extended her credit based on fabricated financial documents lost money directly.
@@ -106,6 +111,9 @@ What made the con work wasn't a fake ID or a forged document — those came late
     slug: 'elizabeth-holmes-theranos-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Elizabeth_Holmes_2014_cropped.jpg',
+    coverImageCredit: 'Photo: Max Morse for TechCrunch (CC BY 2.0)',
+    coverImagePosition: 50,
     body: `Elizabeth Holmes founded Theranos in 2003 at age 19, dropping out of Stanford with a pitch that sounded like a genuine medical breakthrough: a device that could run hundreds of lab tests from a single finger-prick of blood, cheaper and faster than a traditional venous draw. By 2014, Theranos was valued at roughly $9 billion, Holmes was profiled as the youngest self-made female billionaire in the country, and her board included former Secretaries of State and Defense.
 
 The technology described to investors, partners, and the public never actually worked as claimed. Internally, Theranos ran the large majority of patient tests on modified, repurposed machines from other manufacturers — sometimes diluting blood samples to make them compatible — while publicly presenting the results as coming from its own proprietary "Edison" devices. A 2015 Wall Street Journal investigation by reporter John Carreyrou was the first to expose the gap between what Theranos claimed and what was actually happening inside its labs.
@@ -120,6 +128,9 @@ Theranos is a useful case precisely because there was no fake voice on the phone
     slug: 'sam-bankman-fried-ftx-collapse',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Sam_Bankman-Fried_(cropped).png',
+    coverImageCredit: 'Photo: Cointelegraph (CC BY 3.0)',
+    coverImagePosition: 50,
     body: `Sam Bankman-Fried founded the cryptocurrency exchange FTX in 2019, and within a few years built it into one of the largest exchanges in the world — and himself into a media fixture, testifying before Congress, donating heavily to political campaigns, and drawing comparisons to Warren Buffett, all while FTX ran Super Bowl ads and his paper net worth was estimated in the billions.
 
 Behind the scenes, FTX customer deposits — money users believed was simply sitting in their exchange accounts — were secretly funneled to Alameda Research, a sister trading firm Bankman-Fried also controlled, through a backdoor that let Alameda draw on customer funds without the collateral any other user would have needed. When a November 2022 report questioning Alameda's finances triggered a wave of customer withdrawals, FTX couldn't cover them. The exchange collapsed within days, revealing a shortfall of roughly $8 billion.
@@ -134,6 +145,9 @@ FTX is a reminder that celebrity endorsements, slick marketing, and even testimo
     slug: 'jordan-belfort-stratton-oakmont-wolf-of-wall-street',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Jordan_Belfort_-_May_30,_2010.jpg',
+    coverImageCredit: 'Photo: Ralph Zuranski (CC BY 2.0)',
+    coverImagePosition: 50,
     body: `Through the late 1980s and 1990s, Jordan Belfort ran Stratton Oakmont, a Long Island brokerage built around a classic "pump and dump" scheme: brokers aggressively cold-called investors to buy shares in small, often nearly worthless companies that Stratton Oakmont itself secretly controlled large blocks of. The buying pressure artificially inflated ("pumped") the share price, at which point insiders sold ("dumped") their own shares at the inflated price — leaving ordinary investors holding stock that collapsed once the manufactured demand stopped.
 
 Over roughly a decade, the scheme took in an estimated $200 million from more than 1,500 victims. Belfort also built a notorious corporate culture around the firm, later recounted in his own memoir and dramatized — critics say glamorized — in the 2013 film "The Wolf of Wall Street."
@@ -358,6 +372,9 @@ Barings' collapse became the textbook case for why trading and settlement have t
     slug: 'martin-shkreli-securities-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Mr._Shkreli_(cropped).jpg',
+    coverImageCredit: 'Photo: U.S. House Committee on Oversight and Government Reform (Public Domain)',
+    coverImagePosition: 50,
     body: `Martin Shkreli became infamous in 2015 as the "Pharma Bro" who raised the price of a life-saving drug, Daraprim, by over 5,000% overnight as CEO of Turing Pharmaceuticals — a legal, if widely condemned, business decision. The securities fraud that actually sent him to prison had nothing to do with drug pricing, and predates that scandal by several years.
 
 Before Turing, Shkreli ran two hedge funds, MSMB Capital and MSMB Healthcare, and told investors they were performing well when in fact both had lost nearly all their money. To cover the losses and keep raising money, prosecutors showed, Shkreli fabricated account statements and used funds from investors in his next venture, the biopharmaceutical company Retrophin, to quietly pay back the earlier hedge fund investors — money that was supposed to be capitalizing Retrophin's business, not settling Shkreli's prior obligations.
