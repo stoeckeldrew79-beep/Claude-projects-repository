@@ -1110,6 +1110,34 @@ What makes this pattern effective is timing and friction working in the company'
 
 Before entering payment details for any "free" trial: read the actual terms for the exact cancellation deadline and price after the trial ends, set a calendar reminder several days before that date, and check your card statement for the trial company's real charge afterward. If you're billed for something you never signed up for, dispute the charge with your bank or card issuer directly rather than calling a number provided in a text or email, and report the company to the FTC at ReportFraud.ftc.gov.`,
   },
+  {
+    title: 'QR Code Scams ("Quishing"): The Link You Can\'t See Before You Scan It',
+    slug: 'qr-code-quishing-scams',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'qr-code-scams'],
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2023/12/scammers-hide-harmful-links-qr-codes-steal-your-information',
+    body: `A QR code sitting on a parking meter, a restaurant table, or a public charging station looks exactly like any other — until it's a sticker a scammer placed directly over the real one. Scanning it doesn't lead to the parking app or the menu; it leads to a spoofed payment or login page built to steal card numbers and passwords, or it silently triggers a malware download. The same trick shows up digitally, too: a QR code arrives by text or email, often attached to an urgent message about an "undelivered package," a "problem with your account," or "suspicious activity" that needs to be resolved immediately.
+
+What makes QR codes especially effective for this is that they hide the destination until it's too late to easily back out. A typed or hyperlinked web address can be read before it's clicked, and most email and text filters scan visible links for known scam domains — but a QR code encodes that same address as an image, which slips past those filters and past the human eye doing its own quick check. By the time a phone's camera app shows the actual URL, the scanning motion is already done and the link is one tap away from opening.
+
+The FTC has flagged this pattern specifically at physical payment points like parking meters, where a fraudulent sticker can sit for days generating a steady stream of victims who have no way of knowing the code isn't the real one. The urgency language used in text and email versions serves the same purpose it does in every other phishing scam: it's designed to get a code scanned before anyone stops to think about whether it makes sense.
+
+Before scanning any QR code, check whether it looks like a sticker placed over another code, and treat any QR code that arrives unsolicited by text or email — especially one paired with urgent account or delivery language — with the same suspicion as an unsolicited link. Most phones show a preview of the destination URL before opening it; read that URL carefully for misspellings or an unfamiliar domain before tapping it, and contact the business or agency directly through an independently verified phone number instead of scanning your way to an answer.`,
+  },
+  {
+    title: 'SIM Swap Fraud: How Scammers Hijack Your Phone Number to Get Around Two-Factor Authentication',
+    slug: 'sim-swap-fraud-two-factor-bypass',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'sim-swap-scams'],
+    sourceUrl: 'https://www.ic3.gov/PSA/2022/PSA220208',
+    body: `A SIM swap starts with a criminal getting a mobile carrier to move a victim's phone number onto a SIM card the criminal controls — sometimes by impersonating the victim to a carrier's customer service line using personal details gathered elsewhere, sometimes by bribing or co-opting an employee with direct access to make the change, and sometimes through phishing or malware that captures carrier account credentials outright. Once the swap goes through, every call and text meant for the victim's number — including the victim's own service — instead reaches the criminal's device.
+
+That control over the phone number is the entire point: banks, email providers, and crypto exchanges routinely use text-message codes as a second layer of login security, and a criminal holding the victim's number can trigger a "forgot password" request on those accounts and simply receive the one-time verification code meant to prove it's really the account owner. From there, passwords get reset and accounts get drained, often before the victim even realizes anything is wrong — the SIM swap can take effect in minutes, but bank or exchange balances can be emptied just as fast.
+
+The FBI's Internet Crime Complaint Center has tracked a sharp rise in this specific fraud: from 2018 through 2020, IC3 logged 320 SIM swap complaints totaling about $12 million in losses, and in 2021 alone that jumped to 1,611 complaints and more than $68 million in losses — a scale increase that tracks with how much financial and crypto activity now depends on text-message verification codes.
+
+The clearest warning sign is a sudden, unexplained loss of cell service — calls and texts stop going through with no obvious cause, which can mean a number has just been ported away. Treat any unsolicited call asking for a carrier account PIN or password as an attempted takeover and never provide it; verify by calling your carrier's official number directly instead. Where possible, replace SMS-based two-factor authentication with an authenticator app or a hardware security key, ask your carrier to add a PIN or passcode requirement on any SIM or account changes, and avoid publicizing crypto holdings or other high-value assets on social media, since that kind of information is exactly what makes a target worth this level of effort.`,
+  },
 ];
 
 async function seedArticles(articles: SeedArticle[], label: string) {
