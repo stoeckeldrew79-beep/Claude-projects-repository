@@ -5322,6 +5322,17 @@ const SEED_SCAMS: SeedScam[] = [
     sourceUrl: 'https://www.actionfraud.police.uk/a-z-of-fraud/rental-fraud',
   },
   {
+    name: 'UK Clone Firm Investment Scam',
+    slug: 'uk-clone-firm-investment-scam',
+    description:
+      'A fraudster sets up a fake investment firm using the real name, address, and Firm Reference Number of a genuine, FCA-authorised company, copying its website with only small changes — usually a different phone number or email address — then cold-calls or advertises to convince investors they\'re dealing with the real, regulated firm. The FCA reports over £78 million lost to clone firm scams in a single year, with average individual losses exceeding £45,000, since victims believe they\'re protected by the real firm\'s regulatory status right up until their money disappears. The FCA\'s advice: always contact a firm using the phone number listed on the FCA\'s own register, never one provided by the person who contacted you, since a firm\'s real regulatory status means nothing if you\'re actually talking to a clone.',
+    categorySlug: 'investment-fraud',
+    country: 'GB',
+    alertLevel: 'critical',
+    sources: ['UK Financial Conduct Authority', 'National Crime Agency'],
+    sourceUrl: 'https://www.fca.org.uk/consumers/clone-firms-individuals',
+  },
+  {
     name: 'Indian Income Tax Refund Phishing Scam',
     slug: 'india-income-tax-refund-phishing-scam',
     description:
