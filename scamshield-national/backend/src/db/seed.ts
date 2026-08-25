@@ -4060,7 +4060,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'CA',
     alertLevel: 'high',
     sources: ['Canadian Anti-Fraud Centre'],
-    sourceUrl: 'https://antifraudcentre-centreantifraude.ca/index-eng.htm',
+    sourceUrl: 'https://antifraudcentre-centreantifraude.ca/scams-fraudes/extortion-extorsion-eng.htm#a10',
   },
   {
     name: 'Canadian Grandparent Emergency Scam',
@@ -4071,7 +4071,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'CA',
     alertLevel: 'critical',
     sources: ['Canadian Anti-Fraud Centre'],
-    sourceUrl: 'https://antifraudcentre-centreantifraude.ca/index-eng.htm',
+    sourceUrl: 'https://antifraudcentre-centreantifraude.ca/scams-fraudes/emergency-urgence-eng.htm',
   },
   {
     name: 'Australian myGov Phishing SMS Scam',
@@ -4148,7 +4148,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'SG',
     alertLevel: 'critical',
     sources: ['Singapore Police Force', 'ScamShield (Singapore)'],
-    sourceUrl: 'https://www.police.gov.sg/Advisories/Scams',
+    sourceUrl: 'https://www.scamshield.gov.sg/i-want-protection-from-scams/learn-to-recognise-scams/government-officials-impersonation-scams/',
   },
   {
     name: 'Japanese "It\'s Me" Phone Fraud (Ore Ore Sagi)',
@@ -4236,7 +4236,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'CA',
     alertLevel: 'medium',
     sources: ['Canadian Anti-Fraud Centre'],
-    sourceUrl: 'https://antifraudcentre-centreantifraude.ca/index-eng.htm',
+    sourceUrl: 'https://antifraudcentre-centreantifraude.ca/scams-fraudes/phishing-hameconnage-eng.htm',
   },
   {
     name: 'Australian NBN Co Internet Disconnection Scam',
@@ -4313,7 +4313,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'SG',
     alertLevel: 'high',
     sources: ['Singapore Police Force', 'GovTech Singapore'],
-    sourceUrl: 'https://www.police.gov.sg/Advisories/Scams',
+    sourceUrl: 'https://www.scamshield.gov.sg/i-want-protection-from-scams/learn-to-recognise-scams/government-officials-impersonation-scams/',
   },
   {
     name: 'Australian Centrelink Payment Suspension Scam',
@@ -4335,7 +4335,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'CA',
     alertLevel: 'medium',
     sources: ['Canadian Anti-Fraud Centre'],
-    sourceUrl: 'https://antifraudcentre-centreantifraude.ca/index-eng.htm',
+    sourceUrl: 'https://antifraudcentre-centreantifraude.ca/scams-fraudes/extortion-extorsion-eng.htm',
   },
   {
     name: 'Irish Bank Fraud Department Impersonation Call',
@@ -4423,7 +4423,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'SG',
     alertLevel: 'high',
     sources: ['Singapore Police Force'],
-    sourceUrl: 'https://www.police.gov.sg/Advisories/Scams',
+    sourceUrl: 'https://www.scamshield.gov.sg/i-want-protection-from-scams/learn-to-recognise-scams/job-scams/',
   },
   {
     name: 'Dutch Marktplaats Fake Payment Link Scam',
@@ -4445,7 +4445,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'IN',
     alertLevel: 'critical',
     sources: ['Reserve Bank of India', 'Indian Cyber Crime Coordination Centre (I4C)'],
-    sourceUrl: 'https://www.rbi.org.in/commonman/english/scripts/rbicautions.aspx',
+    sourceUrl: 'https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=56909',
   },
   {
     name: 'Canadian Immigration (IRCC) Deportation Threat Scam',
@@ -4456,7 +4456,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'CA',
     alertLevel: 'high',
     sources: ['Canadian Anti-Fraud Centre'],
-    sourceUrl: 'https://antifraudcentre-centreantifraude.ca/index-eng.htm',
+    sourceUrl: 'https://antifraudcentre-centreantifraude.ca/scams-fraudes/extortion-extorsion-eng.htm',
   },
   {
     name: 'Irish Utility Disconnection Scam',
@@ -4577,7 +4577,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'CA',
     alertLevel: 'high',
     sources: ['Canadian Anti-Fraud Centre'],
-    sourceUrl: 'https://antifraudcentre-centreantifraude.ca/index-eng.htm',
+    sourceUrl: 'https://antifraudcentre-centreantifraude.ca/scams-fraudes/extortion-extorsion-eng.htm',
   },
   {
     name: 'Dutch Belastingdienst Tax Refund Phishing Scam',
@@ -4621,7 +4621,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'SG',
     alertLevel: 'critical',
     sources: ['Singapore Police Force'],
-    sourceUrl: 'https://www.police.gov.sg/Advisories/Scams',
+    sourceUrl: 'https://www.scamshield.gov.sg/i-want-protection-from-scams/learn-to-recognise-scams/government-officials-impersonation-scams/',
   },
   {
     name: 'Japanese One-Click Fraud (Wan-Kurikku Sagi)',
@@ -4687,7 +4687,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'SG',
     alertLevel: 'medium',
     sources: ['Singapore Police Force'],
-    sourceUrl: 'https://www.police.gov.sg/Advisories/Scams',
+    sourceUrl: 'https://www.scamshield.gov.sg/i-want-protection-from-scams/learn-to-recognise-scams/e-commerce-scams/',
   },
   {
     name: 'Singapore Crypto Investment Scam',
@@ -4698,7 +4698,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'SG',
     alertLevel: 'critical',
     sources: ['Singapore Police Force'],
-    sourceUrl: 'https://www.police.gov.sg/Advisories/Scams',
+    sourceUrl: 'https://www.scamshield.gov.sg/i-want-protection-from-scams/learn-to-recognise-scams/investment-scams/',
   },
   {
     name: 'New Zealand Customs & Post Parcel Scam',
@@ -4885,7 +4885,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'IN',
     alertLevel: 'high',
     sources: ['National Cyber Crime Reporting Portal (NCRP)'],
-    sourceUrl: 'https://cybercrime.gov.in/',
+    sourceUrl: 'https://cybercrime.gov.in/pdf/Job%20Fraud%20Brochure%20Final.pdf',
   },
   {
     name: 'New Zealand Fake Job Offer Scam',
@@ -4995,7 +4995,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'SG',
     alertLevel: 'high',
     sources: ['Singapore Police Force'],
-    sourceUrl: 'https://www.police.gov.sg/Advisories/Scams',
+    sourceUrl: 'https://www.scamshield.gov.sg/i-want-protection-from-scams/learn-to-recognise-scams/internet-love-scams/',
   },
   {
     name: 'Japanese National Tax Agency Phishing Scam',
@@ -5050,7 +5050,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'CA',
     alertLevel: 'medium',
     sources: ['Canadian Anti-Fraud Centre'],
-    sourceUrl: 'https://antifraudcentre-centreantifraude.ca/index-eng.htm',
+    sourceUrl: 'https://antifraudcentre-centreantifraude.ca/scams-fraudes/extortion-extorsion-eng.htm#a6',
   },
   {
     name: 'Swedish Romance Scam (Kärleksbedrägeri)',
@@ -5072,7 +5072,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'SG',
     alertLevel: 'critical',
     sources: ['Singapore Police Force', 'Monetary Authority of Singapore (MAS)'],
-    sourceUrl: 'https://www.police.gov.sg/Advisories/Scams',
+    sourceUrl: 'https://www.scamshield.gov.sg/i-want-protection-from-scams/learn-to-recognise-scams/phishing-scams/',
   },
   {
     name: 'Dutch "Hoi Mam" WhatsApp Family Emergency Scam',
@@ -5160,7 +5160,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'CA',
     alertLevel: 'medium',
     sources: ['Canadian Anti-Fraud Centre'],
-    sourceUrl: 'https://antifraudcentre-centreantifraude.ca/index-eng.htm',
+    sourceUrl: 'https://antifraudcentre-centreantifraude.ca/scams-fraudes/merchandise-marchandises-eng.htm',
   },
   {
     name: 'Swedish Fake Job Offer Scam',
@@ -5281,7 +5281,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'CA',
     alertLevel: 'critical',
     sources: ['Canadian Centre for Child Protection', 'Royal Canadian Mounted Police (RCMP)'],
-    sourceUrl: 'https://protectchildren.ca/en/',
+    sourceUrl: 'https://cybertip.ca/en/online-harms/sextortion/',
   },
   {
     name: 'UK Ghost Broker Car Insurance Scam',
@@ -5567,7 +5567,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'CA',
     alertLevel: 'critical',
     sources: ['Canadian Anti-Fraud Centre'],
-    sourceUrl: 'https://antifraudcentre-centreantifraude.ca/index-eng.htm',
+    sourceUrl: 'https://antifraudcentre-centreantifraude.ca/scams-fraudes/romance-rencontre-eng.htm',
   },
   {
     name: 'Canadian Lottery and Prize Scam',
@@ -5578,7 +5578,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'CA',
     alertLevel: 'medium',
     sources: ['Canadian Anti-Fraud Centre'],
-    sourceUrl: 'https://antifraudcentre-centreantifraude.ca/index-eng.htm',
+    sourceUrl: 'https://antifraudcentre-centreantifraude.ca/scams-fraudes/prize-prix-eng.htm',
   },
 ];
 
