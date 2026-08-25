@@ -660,6 +660,9 @@ The case became a pointed example of affinity fraud aimed specifically at profes
     slug: 'nevin-shapiro-capitol-investments-ponzi-scheme',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Nevin_Shapiro,_2020_(cropped).jpg',
+    coverImageCredit: 'Photo: ILLideL (CC BY-SA 4.0)',
+    coverImagePosition: 50,
     body: `Nevin Shapiro founded Capitol Investments USA, telling investors the company profited by purchasing wholesale groceries in bulk and reselling them to retailers at a markup. Between 2005 and 2009, he raised roughly $930 million from investors on the strength of that story, paying "returns" to earlier backers using money raised from new ones rather than any real grocery-trading profits.
 
 Away from the fraud, Shapiro cultivated a second, very public identity as a lavish University of Miami football booster, showering players with cash, jewelry, cars, and paid trips over nearly a decade. He later admitted to providing improper benefits to more than 70 UM athletes and student-athletes, a confession that triggered a major NCAA investigation once his Ponzi scheme collapsed and exposed the source of his spending — the NCAA ultimately placed the university on three years' probation and stripped scholarships as a result.
