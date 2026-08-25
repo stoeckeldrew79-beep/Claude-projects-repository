@@ -43,6 +43,7 @@ Ponzi's company, the Securities Exchange Company, took in roughly $250,000 a day
 The scheme required an ever-growing stream of new money to pay off earlier investors, and it collapsed the moment that stream slowed. A Boston Post investigation in the summer of 1920 found there weren't nearly enough postal reply coupons in circulation worldwide to support Ponzi's claimed returns. He was arrested that August, pled guilty to mail fraud, and served time in both state and federal prison. He was later deported to Italy and died in poverty in Rio de Janeiro in 1949.
 
 Ponzi didn't invent the pay-earlier-investors-with-later-investors' -money structure — versions of it predate him by decades — but his scheme was so large and so public that his name became the permanent label for it. Every "Ponzi scheme" since, including Bernie Madoff's, is named after him.`,
+    sourceUrl: 'https://www.smithsonianmag.com/history/in-ponzi-we-trust-64016168/',
   },
   {
     title: 'Bernie Madoff and the $65 Billion Lie',
@@ -56,6 +57,7 @@ What made Madoff's fraud unusual wasn't dramatic promises of overnight riches �
 The scheme finally collapsed in December 2008, when the financial crisis drove a wave of investors to request withdrawals Madoff could no longer cover. He confessed to his sons that the business was "one big lie," and one of them reported him to federal authorities the next day. Madoff pled guilty in March 2009 to 11 felony counts and was sentenced to 150 years in federal prison. Total paper losses to investors were estimated at roughly $65 billion, though actual cash losses were lower — a distinction that still matters in how the fraud is measured. Madoff died in prison in April 2021.
 
 The Madoff case remains a reference point for how long a fraud can survive when it produces boring, believable numbers instead of outlandish ones, and when the people positioned to catch it don't act on the warnings they're given.`,
+    sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-20834',
   },
   {
     title: 'The Spanish Prisoner: A 400-Year-Old Con Still Running Today',
@@ -69,6 +71,7 @@ Of course, there was no prisoner. Each payment the victim sent to help "free" hi
 The most famous modern descendant is the "419 scam" (named for the section of Nigeria's criminal code covering fraud), often opening with an email from a supposed government official, banker, or exiled royal who needs help moving a large sum of money out of the country, offering the recipient a generous cut for the use of their bank account. The costume changes — a prince instead of a prisoner, a wire transfer instead of a smuggled bribe — but the mechanism Ponzi's contemporaries would have recognized from a Victorian-era newspaper warning is identical: pay a little now, promised a lot later, and each payment justifies the next.
 
 Advance-fee fraud remains one of the most reported scam categories worldwide precisely because the structure is so durable. It doesn't need new technology to work. It only needs a victim willing to send one more payment.`,
+    sourceUrl: 'https://theappendix.net/issues/2013/10/proto-spam-spanish-prisoners-and-confidence-games',
   },
   {
     title: 'Frank Abagnale: The Con Man Who May Have Conned the Story Itself',
@@ -82,6 +85,7 @@ Abagnale did serve prison time for check fraud, and he has spent decades since a
 Much of the rest has not held up well. Investigative journalism, most notably a 2020 book by journalist Alan C. Logan, cross-referenced Abagnale's claims against court records, prison logs, and contemporaneous news coverage, and found large parts of the story — the scale of the forged checks, the impersonations, the dramatic escapes — could not be corroborated, and in several cases were directly contradicted by the documented record. Abagnale has continued to stand by his account.
 
 The reason this belongs on a list of notorious scams isn't the alleged teenage check fraud itself. It's what the gap between the legend and the documented record demonstrates: a good enough story, repeated confidently and often enough, can outrun the fact-checking, get made into a Steven Spielberg film, and become the "true story" cited in fraud-prevention trainings for decades — evidence, ironically, that the same instinct to trust a compelling narrative over verification is exactly what every scam on this site relies on.`,
+    sourceUrl: 'https://whyy.org/segments/the-greatest-hoax-on-earth/',
   },
   {
     title: "Anna Sorokin: The Fake Heiress Who Fooled New York",
@@ -95,6 +99,7 @@ Her real name was Anna Sorokin, a Russian-born German citizen without the fortun
 Sorokin was arrested in 2017 and convicted in 2019 on multiple counts of grand larceny and theft of services, amounting to roughly $275,000 defrauded from banks, hotels, and individuals. She was sentenced to four to twelve years in prison, later released on parole, and subsequently detained by immigration authorities over her visa status. Her story became the basis for the Netflix series "Inventing Anna."
 
 What made the con work wasn't a fake ID or a forged document — those came later, when they were needed for specific transactions. It was pure social engineering: a confident performance of wealth, sustained long enough and in front of the right people, that made almost everyone around her assume someone else had already verified she was who she said she was.`,
+    sourceUrl: 'https://www.cbsnews.com/news/anna-sorokin-fake-heiress-anna-delvey-sentenced-four-to-12-years-prison/',
   },
   {
     title: 'Elizabeth Holmes and the Blood Test That Never Worked',
@@ -108,6 +113,7 @@ The technology described to investors, partners, and the public never actually w
 Holmes and Theranos president Ramesh "Sunny" Balwani were indicted for wire fraud in 2018. Holmes was convicted in January 2022 on charges of defrauding investors — she was acquitted on charges tied to defrauding patients directly — and sentenced to just over 11 years. In early 2026, a federal judge trimmed roughly a year off her sentence after applying a retroactive guideline reduction for certain first-time nonviolent offenders; an appeals court had already upheld her underlying conviction. She remains in federal prison in Texas.
 
 Theranos is a useful case precisely because there was no fake voice on the phone or forged check — just a confident, well-credentialed performance, backed by famous names on the board and years of flattering press coverage, that discouraged the basic due diligence that would have caught it. It took an outside reporter actually checking, rather than trusting the reputation, to unravel it.`,
+    sourceUrl: 'https://www.kqed.org/science/1980842/elizabeth-holmes-sentenced-to-11-years-in-prison-for-theranos-fraud',
   },
   {
     title: 'Sam Bankman-Fried and the $8 Billion Hole in FTX',
@@ -121,6 +127,7 @@ Behind the scenes, FTX customer deposits — money users believed was simply sit
 Bankman-Fried was arrested in the Bahamas in December 2022, extradited to the United States, and convicted in November 2023 on seven counts of fraud and conspiracy. He was sentenced in March 2024 to 25 years in prison. He appealed both the conviction and the sentence; in June 2026, the Second Circuit Court of Appeals unanimously rejected the appeal, leaving the 25-year sentence in place with a projected release date in 2044. A request for a presidential pardon has so far been denied.
 
 FTX is a reminder that celebrity endorsements, slick marketing, and even testimony before Congress describe how a company presents itself, not what its books actually say — and that the same "everything's moving fast, no time to double-check" pressure that makes an individual scam work can operate at the scale of a multibillion-dollar company.`,
+    sourceUrl: 'https://www.nbcnews.com/business/business-news/sam-bankman-fried-sentenced-25-years-prison-orchestrating-ftx-fraud-rcna145286',
   },
   {
     title: "Jordan Belfort, the \"Wolf of Wall Street,\" and the Victims Still Waiting to Be Paid",
@@ -134,6 +141,7 @@ Over roughly a decade, the scheme took in an estimated $200 million from more th
 Belfort pleaded guilty in 1999 to securities fraud and money laundering, cooperated with prosecutors against former colleagues, and was sentenced in 2003 to four years in prison, of which he served 22 months, along with $110.4 million in court-ordered restitution to his victims. More than two decades later, court filings show he has repaid only a small fraction of that — roughly $12.8 million as of recent filings — while earning a living as a paid motivational speaker largely built on retelling the very story that created the debt he still owes.
 
 The gap between what Belfort owes and what he's actually paid is worth knowing on its own: it's a straightforward fact-check against the swagger of the "Wolf of Wall Street" mythology, and a reminder that a compelling redemption story and an unpaid restitution order can coexist for decades.`,
+    sourceUrl: 'https://www.investmentnews.com/ria-news/jordan-belfort-wolf-of-wall-street-falling-behind-on-restitution/74275',
   },
   {
     title: "Allen Stanford's $7 Billion Offshore Ponzi Scheme",
@@ -147,6 +155,7 @@ Those CDs weren't backed by the safe, liquid, diversified portfolio Stanford's m
 The scheme collapsed in February 2009, just weeks after the Madoff scandal broke, when the SEC filed civil fraud charges and froze Stanford's assets. He was convicted in March 2012 on 13 of 14 counts and sentenced to 110 years in federal prison. At roughly $7 billion, it remains the second-largest Ponzi scheme in U.S. history, after Madoff's.
 
 That Stanford's fraud surfaced within weeks of Madoff's isn't entirely a coincidence: discovery often comes in waves. Once regulators, journalists, and the public are primed to look for one kind of fraud, others hiding nearby tend to surface soon after — which is part of why sustained, boring vigilance matters more than reacting only after the last big scandal.`,
+    sourceUrl: 'https://www.justice.gov/archive/usao/txs/1News/Releases/2012%20June/120614%20Stanford.html',
   },
   {
     title: 'Billy McFarland: From Fyre Festival to Fyre Festival II',
@@ -160,6 +169,7 @@ Attendees who actually showed up found disaster-relief tents instead of villas, 
 McFarland pleaded guilty to wire fraud in 2018, was sentenced to six years in federal prison, and forfeited $26 million. He was released in March 2022 after serving less than four years. In 2025, he announced "Fyre Festival II," selling tickets for as much as $1.1 million each — reporting subsequently uncovered multiple irregularities with the new event, and it was postponed indefinitely.
 
 McFarland is unusual on this list for trying the same playbook twice, in public, after already serving prison time for the first version. That he could still sell tickets at all is a reminder that reputational damage alone doesn't reliably stop a repeat offender — and that trusting a slick campaign and social proof over independent verification is exactly the weak point that failed the first time.`,
+    sourceUrl: 'https://www.cnn.com/2018/10/12/us/fyre-festival-organizer-prison-trnd',
   },
   {
     title: 'Rita Crundwell: The Small-Town Comptroller Who Stole $53 Million',
@@ -173,6 +183,7 @@ Crundwell used the stolen money to build one of the top quarter-horse breeding o
 The scheme unraveled in 2012 when a city employee filling in during Crundwell's vacation noticed the secret account. She pleaded guilty to federal program fraud and was sentenced in 2013 to nearly 20 years in federal prison — one of the largest thefts of public funds in U.S. municipal history relative to the size of the town. Her sentence was later commuted, and she was released from custody before completing it.
 
 The case remains a reference point for municipal fraud prevention for a simple reason: no exotic financial instruments were involved, just one person controlling both the money and the paperwork meant to check it, for more than twenty years, in a town too small and too trusting to look closely at either.`,
+    sourceUrl: 'https://www.nbcnews.com/news/us-news/horse-loving-bookkeeper-gets-almost-20-years-stealing-53-million-flna1c8378635',
   },
   {
     title: 'Enron: The $74 Billion Collapse Built on Fake Numbers',
@@ -186,6 +197,7 @@ Behind the growth, Enron's executives — led by CEO Kenneth Lay and COO, later 
 Enron filed for bankruptcy in December 2001, then one of the largest bankruptcies in U.S. history. Arthur Andersen, one of the "Big Five" accounting firms, was convicted of obstruction of justice for shredding Enron documents and collapsed as a business — though the conviction was later overturned by the Supreme Court on a technicality, by which point the firm no longer existed anyway. Skilling was convicted in 2006 on 19 counts of fraud and conspiracy and sentenced to 24 years; a 2013 deal reduced that to 14, and he was released in 2019. Lay was convicted alongside Skilling but died of heart disease before sentencing, which under federal law vacated his conviction entirely.
 
 Enron remains the reference case for a specific kind of fraud — not a lone con artist, but an entire company, its board, and its outside auditor collectively failing, or refusing, to catch numbers that didn't add up. It directly led to the Sarbanes-Oxley Act of 2002, the most significant corporate accounting reform in a generation.`,
+    sourceUrl: 'https://www.justice.gov/archive/opa/pr/2006/October/06_crm_723.html',
   },
   {
     title: "Wirecard: Germany's Biggest Fraud, and the Executive Who Vanished",
@@ -199,6 +211,7 @@ In June 2020, Wirecard's auditor revealed that €1.9 billion (about $2.3 billio
 Wirecard's chief operating officer, Jan Marsalek, disappeared days before the collapse and has been a fugitive ever since, wanted by German authorities and listed on Interpol's wanted database; investigative reporting from multiple European outlets has since traced him to Russia, reportedly living under a false identity with ties to Russian intelligence. CEO Markus Braun was arrested and has stood trial since December 2022 alongside two other former executives on charges of fraud and market manipulation. As of 2026, that trial is still ongoing with no verdict reached, and Braun has consistently denied the allegations, maintaining he was himself a victim of the fraud rather than its architect.
 
 Wirecard is a reminder that even a company listed on a major stock index, audited annually, and regulated by a G7 country's financial authorities can still turn out to be built on numbers that don't exist — and that "notorious" doesn't always mean "resolved": years after the collapse, one of the case's central figures remains a fugitive, and the other's guilt or innocence is still being decided in court.`,
+    sourceUrl: 'https://www.usnews.com/news/world/articles/2025-03-07/wirecard-fugitive-jan-marsalek-from-financial-fraudster-to-russian-spymaster',
   },
   {
     title: 'Bre-X: The Billion-Dollar Gold Mine That Was Never There',
@@ -212,6 +225,7 @@ Bre-X's stock price rocketed, reaching a split-adjusted peak of over CAD $280 a 
 In March 1997, as due-diligence testing began raising questions, Bre-X's chief geologist Michael de Guzman fell to his death from a helicopter over the Indonesian jungle, in what was ruled a suicide, though theories about his death persist to this day. Weeks later, an independent report confirmed there was effectively no economically recoverable gold at the site. The stock collapsed to nothing, wiping out an estimated 40,000 investors. Because the person most directly tied to faking the samples was dead, and no clear evidence tied Bre-X's other executives to the deception, no one was ever criminally convicted.
 
 Bre-X remains one of the largest mining frauds in history and a case study in how a compelling, exciting story — a resource discovery so big it seemed almost too good to be true — can override the kind of skepticism that easily-checkable evidence might otherwise invite. In this instance, it literally was too good to be true.`,
+    sourceUrl: 'https://www.cbc.ca/news/business/no-criminal-charges-in-bre-x-scandal-1.174425',
   },
   {
     title: 'Nirav Modi and the $2 Billion Bank Fraud That Emptied a Vault Without a Robbery',
@@ -225,6 +239,7 @@ Indian authorities allege that, starting around 2011, Modi's companies obtained 
 Modi left India shortly before the fraud became public and has been fighting extradition from the United Kingdom ever since, held at HMP Wandsworth in London since his 2019 arrest. He has consistently denied the allegations. After exhausting UK court appeals and a final rejection from the European Court of Human Rights in mid-2026, his extradition to India to face trial appears to be reaching its final stage — though as of this writing he has not yet been tried or convicted of any crime.
 
 The case is a reminder that a criminal accusation and a criminal conviction are two different things, sometimes separated by nearly a decade of legal process across multiple countries — and that "alleged" is doing real, necessary work in every sentence describing Modi's role, right up until an actual verdict is reached.`,
+    sourceUrl: 'https://www.businesstoday.in/india/story/nirav-modi-extradition-echr-rejects-final-plea-uk-starts-transfer-process-541227-2026-07-06',
   },
   {
     title: 'Lou Pearlman: The Boy Band Mogul Running a $300 Million Ponzi Scheme',
@@ -238,6 +253,7 @@ Those investment programs were fictitious. For roughly 15 years, Pearlman used f
 The scheme unraveled in 2006 amid state and federal investigations, and Pearlman fled the country, eventually arrested in Bali, Indonesia, in 2007. He was extradited, pleaded guilty to conspiracy and money laundering charges, and was sentenced in 2008 to 25 years in prison, with a provision letting him shave time off his sentence for every million dollars he helped recover for victims. He died of cardiac arrest in prison in 2016, having served eight years of the sentence.
 
 Pearlman's case shows how a fraud can hide behind a legitimate, glamorous business for years — investors who might never have handed a stranger $300 million trusted the man who discovered the Backstreet Boys, right up until the "bank" statements he was sending them turned out to describe an institution that didn't exist.`,
+    sourceUrl: 'https://www.foxnews.com/story/boy-band-mogul-lou-pearlman-sentenced-to-25-years-in-prison.amp',
   },
   {
     title: 'Marcus Schrenker: The Financial Adviser Who Faked His Own Plane Crash',
@@ -251,6 +267,7 @@ As regulators and investigators closed in during January 2009, Schrenker filed a
 The plan failed almost immediately: air traffic controllers found his story suspicious, and the plane crash-landed largely intact rather than the fiery wreck he likely expected. Schrenker was found two days later at a Florida campground with self-inflicted wrist wounds. He pleaded guilty to federal charges related to the staged crash, and separately to securities fraud, receiving a four-year sentence for the crash and a consecutive 10-year sentence for the fraud.
 
 Beyond the fraud itself — an all-too-common fake investment fund — the staged crash is a reminder of how far a scheme's architect may go once genuinely cornered, and how quickly a plan built to look like an accident can fall apart under the same kind of scrutiny that should have applied to the original investment claims.`,
+    sourceUrl: 'https://www.ibj.com/articles/22752-schrenker-sentenced-to-10-years-for-securities-fraud',
   },
   {
     title: 'Ruja Ignatova, the "Cryptoqueen" Behind OneCoin, and the $4 Billion That Vanished With Her',
@@ -264,6 +281,7 @@ That verification never came, because it couldn't: OneCoin had no genuine blockc
 In October 2017, with a German arrest warrant issued and prosecutors closing in, Ignatova boarded a flight to Athens and has not been reliably seen in public since. The FBI added her to its Ten Most Wanted Fugitives list in 2022 — a rare distinction for a woman, and for a financial crime rather than a violent one — with a reward for information leading to her capture that the agency raised to $5 million in 2024. Her co-founder, Karl Sebastian Greenwood, was convicted in the United States and sentenced to 20 years in prison in 2023; Ignatova, wherever she is, has never faced trial.
 
 OneCoin is a useful case precisely because the fraud wasn't a subtle accounting trick — it was a claim anyone technical enough could have checked, wrapped in exactly the kind of packed-stadium confidence and multi-level recruitment structure that makes checking feel unnecessary. Years after her disappearance, the money is still gone, the "coin" never existed, and the woman who sold it to millions of people remains, as far as anyone can verify, missing.`,
+    sourceUrl: 'https://www.npr.org/2022/07/08/1110577425/cryptoqueen-ruja-ignatovas-international-scheme-landed-her-on-fbis-most-wanted',
   },
   {
     title: 'Michael Milken, the "Junk Bond King," and the Insider-Trading Scheme That Took Down Drexel Burnham',
@@ -277,6 +295,7 @@ Behind the legitimate bond business, prosecutors found a web of illegal activity
 Milken was indicted in 1989 on 98 counts of securities fraud and racketeering. He pleaded guilty to six felony counts, was sentenced to 10 years in prison (of which he served about 22 months), paid $600 million in fines and restitution, and was permanently barred from the securities industry. Drexel Burnham Lambert itself collapsed into bankruptcy in 1990, at the time the largest failure of a Wall Street investment bank in history. Milken later received a controversial presidential pardon in 2020, following decades spent funding medical research and rebuilding his public reputation through the Milken Institute.
 
 The case remains a foundational reference point for insider trading and securities fraud investigations — proof that even a financier who genuinely revolutionized a market can also be running a parallel scheme to rig it, and a reminder that philanthropy and a rehabilitated public image, however extensive, are not the same thing as having fully answered for the original conduct.`,
+    sourceUrl: 'https://www.foxnews.com/politics/michael-milken-junk-bond-king-pardon-trump',
   },
   {
     title: 'Sam Israel III and the Bayou Hedge Fund Fraud That Ended in a Faked Suicide',
@@ -290,6 +309,7 @@ The fraud, totaling roughly $450 million, collapsed in 2005 when Israel confesse
 The plan unraveled after roughly a month on the run: following a segment on America's Most Wanted, Israel turned himself in to police. For faking his own death and fleeing justice, he received an additional two years on top of his original 20-year sentence.
 
 Sam Israel's story is a near-exact echo of Marcus Schrenker's staged plane crash a few years later — two financial fraudsters who, facing the consequence of years of fabricated numbers, each concluded that disappearing was more survivable than serving the sentence, and each was caught within weeks. The fake audits bought Israel a decade of runway; the fake death bought him almost nothing.`,
+    sourceUrl: 'https://www.foxnews.com/story/hedge-fund-swindler-admits-staging-suicide-to-avoid-jail',
   },
   {
     title: 'Bernard Ebbers and the $11 Billion Accounting Fraud That Sank WorldCom',
@@ -303,6 +323,7 @@ Rather than report the slowdown, WorldCom's finance team, under pressure from Eb
 WorldCom filed for bankruptcy weeks later — then the largest corporate bankruptcy in U.S. history — wiping out shareholders and costing thousands of employees their jobs. Ebbers was convicted in March 2005 on charges of fraud, conspiracy, and false regulatory filings, and was sentenced to 25 years in prison. He was released in 2019 on compassionate grounds due to declining health and died the following year.
 
 WorldCom, alongside Enron the same year, became a defining case for corporate accounting reform, directly driving passage of the Sarbanes-Oxley Act, which imposed new financial-reporting and internal-control requirements on public companies. It remains a reference point for how a fraud built entirely out of a bookkeeping classification — nothing as dramatic as a fake product or a forged signature — can still cost more than almost any other kind of scam on this list.`,
+    sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-19301',
   },
   {
     title: 'Charles Keating and the Lincoln Savings Collapse That Cost Taxpayers Billions',
@@ -316,6 +337,7 @@ As regulators began investigating Lincoln's finances, Keating leaned on politica
 Keating was convicted of state and federal fraud, racketeering, and conspiracy charges in the early 1990s, but both convictions were later overturned on appeal over jury-instruction errors. Facing retrial, he pleaded guilty in 1999 to four counts of fraud; under the plea, his sentence was limited to the roughly four and a half years he had already spent in custody.
 
 The Keating Five scandal reshaped how seriously Congress treated its own senators' interventions with regulators, and Lincoln's collapse became a central case study in the savings-and-loan crisis — a reminder that a fraud's victims aren't only the people who bought the bad investment directly, but every taxpayer who ends up covering the federal insurance bill when it fails.`,
+    sourceUrl: 'https://www.britannica.com/biography/Charles-Keating',
   },
   {
     title: "Nick Leeson, the \"Rogue Trader\" Who Brought Down Britain's Oldest Bank",
@@ -329,6 +351,7 @@ Starting in the early 1990s, Leeson made unauthorized bets on Japanese stock ind
 By the time Leeson fled Singapore in February 1995, the hidden losses had reached roughly £830 million — more than twice Barings' entire available capital. The 233-year-old bank collapsed within days and was sold to the Dutch bank ING for a nominal £1. Leeson was arrested at Frankfurt airport while trying to return to Britain, extradited to Singapore, and sentenced to six and a half years in prison there for fraud and forgery; he was released in 1999.
 
 Barings' collapse became the textbook case for why trading and settlement have to be handled by separate people, and for how much damage a single unsupervised trader can do when that separation doesn't exist. The "rogue trader" label the press gave Leeson has since been applied to a string of similar cases at other banks, each one a variation on the same failure: nobody was watching closely enough to catch a losing bet before it became an unrecoverable one.`,
+    sourceUrl: 'https://www.britannica.com/event/bankruptcy-of-Barings-Bank',
   },
   {
     title: '"Pharma Bro" Martin Shkreli and the Hedge Fund Losses He Hid Behind a Public Company',
@@ -342,6 +365,7 @@ Before Turing, Shkreli ran two hedge funds, MSMB Capital and MSMB Healthcare, an
 A federal jury convicted Shkreli in August 2017 on two counts of securities fraud and one count of conspiracy, while acquitting him on other counts. He was sentenced in March 2018 to seven years in prison and ordered to forfeit nearly $7.4 million. He was released in 2022, and a separate civil case brought by the FTC and several states barred him for life from the pharmaceutical industry over the Daraprim price increase.
 
 Shkreli's case is a reminder that the conduct that makes headlines and the conduct that results in a conviction aren't always the same thing — his fraud was a fairly conventional hedge-fund shell game, dressed up and hidden inside the accounts of a company whose public investors had no idea they were the ones ultimately paying for it.`,
+    sourceUrl: 'https://www.npr.org/sections/thetwo-way/2018/03/09/592368883/martin-shkreli-sentenced-to-seven-years-for-securities-fraud',
   },
   {
     title: 'Scott Rothstein: The Lawyer Who Sold Shares in Lawsuits That Didn\'t Exist',
@@ -355,6 +379,7 @@ The lawsuits and settlements did not exist. Rothstein fabricated the underlying 
 The scheme, totaling roughly $1.2 billion, collapsed in October 2009 when Rothstein ran out of new money to cover it and fled briefly to Morocco before returning and turning himself in. He pleaded guilty in January 2010 to racketeering, money laundering, and fraud charges, and was sentenced in June 2010 to 50 years in federal prison — ten years more than prosecutors had requested, reflecting the scale of the fraud and Rothstein's extensive cooperation notwithstanding.
 
 Rothstein's case stands out for how much of the fraud depended on the credibility of the legal system itself: the "product" being sold wasn't a stock or a currency, but the manufactured appearance of confidential court settlements — and it worked because investors trusted that a licensed attorney with a respected firm wouldn't fabricate the very documents his profession is built on protecting.`,
+    sourceUrl: 'https://www.justice.gov/archive/usao/fls/PressReleases/2010/100609-01.html',
   },
   {
     title: 'Jérôme Kerviel and the €4.9 Billion Trade Société Générale Never Approved',
@@ -368,6 +393,7 @@ For a time, some of the hidden bets were profitable, briefly making Kerviel look
 Kerviel was convicted in October 2010 of forgery, breach of trust, and unauthorized computer use, and sentenced to three years in prison plus a suspended term; French courts also initially ordered him to repay the full €4.9 billion, though a later appeal reduced that damages award. He maintained throughout that his managers knew, informally, that traders routinely exceeded their limits as long as they were profitable — a defense the courts rejected, though it echoed the argument several other rogue-trading cases have made since.
 
 The Kerviel case became a defining example, alongside Nick Leeson's collapse of Barings Bank over a decade earlier, of how a single trader with enough insider knowledge of a bank's own controls can hide a catastrophic position in plain sight — and of how thin the line can be between a trader deceiving their employer and an employer that simply didn't want to look too closely while the trades were winning.`,
+    sourceUrl: 'https://www.societegenerale.com/en/news/newsroom/kerviel-case',
   },
   {
     title: 'Tom Petters and the $3.65 Billion Ponzi Scheme Hidden Inside a Real Business Empire',
@@ -381,6 +407,7 @@ No such merchandise deals existed at anywhere near the scale claimed. Petters us
 Petters was convicted in December 2009 on twenty counts including wire fraud, mail fraud, and money laundering, and was sentenced in April 2010 to 50 years in federal prison — the longest sentence ever handed down for financial fraud in Minnesota history. Total losses to investors were estimated at $3.65 billion, making it one of the largest Ponzi schemes in U.S. history after Madoff's.
 
 The case is a reminder that owning real, recognizable companies doesn't make a business real — Polaroid and Fingerhut were genuine, operating businesses, and their legitimacy lent credibility to a wholesale-goods scheme that, underneath, was fabricated from top to bottom.`,
+    sourceUrl: 'https://www.justice.gov/sites/default/files/usao-mn/legacy/2010/12/21/econ0413.pdf',
   },
   {
     title: '"Crazy Eddie" Antar and the Stock Fraud Behind the Wildest Ads on TV',
@@ -394,6 +421,7 @@ Once Crazy Eddie went public, that same cash Antar had been skimming away sudden
 The fraud collapsed after a hostile takeover in 1987 gave new owners access to the real books. Facing charges, Antar fled the United States in February 1990, triggering a two-year international manhunt involving the FBI, U.S. Marshals, the SEC, and Interpol before he was located in Israel in 1992 and extradited back to the U.S. the following year. He pleaded guilty to racketeering conspiracy in 1996 and was sentenced to eight years in prison; a related SEC civil judgment held him liable for more than $57 million in disgorgement and interest.
 
 Crazy Eddie's collapse became a staple case study in forensic accounting precisely because the fraud ran in two directions — hiding income before the IPO, then inventing it afterward — showing how the same underlying scheme can flip its entire purpose the moment a private company's incentives change by going public.`,
+    sourceUrl: 'https://money.com/crazy-eddie-dies/',
   },
   {
     title: 'Marc Dreier: The Manhattan Lawyer Who Sold $700 Million in Fake Promissory Notes',
@@ -407,6 +435,7 @@ The clients named on the notes were real. The notes themselves, and their suppos
 The scheme fell apart in December 2008 when a hedge fund grew suspicious and had Dreier arrested in Toronto while he was impersonating a client's in-house counsel to close a fraudulent deal in person. He pleaded guilty in 2009 to fraud and conspiracy charges; total out-of-pocket losses to victims exceeded $400 million. Judge Jed Rakoff sentenced him to 20 years — far short of the 145 years prosecutors sought, with the judge noting Dreier's fraud, while enormous, lacked the sustained multi-decade betrayal of trust seen in Bernie Madoff's.
 
 Dreier's case is notable for how much of the fraud depended on performance rather than paperwork: fake conference calls, impersonated executives, and the borrowed credibility of a real, respected law firm — proof that a sophisticated buyer doing "diligence" can still be fooled if the person selling them the story is skilled enough at playing every part in it.`,
+    sourceUrl: 'https://www.justice.gov/archive/usao/nys/pressreleases/July09/dreiermarcsentencingpr.pdf',
   },
   {
     title: "Dennis Kozlowski and Tyco's $6,000 Shower Curtain",
@@ -420,6 +449,7 @@ The spending became infamous once it became public: a $6,000 gold-and-burgundy s
 Kozlowski and Tyco's former CFO, Mark Swartz, were convicted in June 2005 on grand larceny, securities fraud, and falsifying business records, tied to more than $150 million in unauthorized compensation and forgiven loans plus a further $430 million raised through securities fraud. Kozlowski was sentenced to eight and a third to twenty-five years in New York state prison and ordered to pay $134 million in restitution and fines; he served more than six years before being released on parole in 2014.
 
 The Tyco case became one of the defining corporate-excess scandals of the early 2000s accounting-fraud era, alongside Enron and WorldCom — less a hidden bookkeeping scheme than compensation and expenses simply taken without real authorization, hiding in plain sight inside a company's own books until an SEC investigation started asking where the money actually went.`,
+    sourceUrl: 'https://www.nbcnews.com/id/wbna9399803',
   },
   {
     title: 'Raj Rajaratnam and the Wiretaps That Ended Insider Trading\'s Quiet Era',
@@ -433,6 +463,7 @@ Rajaratnam would trade on tips about upcoming earnings results, mergers, and oth
 Rajaratnam was convicted in May 2011 on 14 counts of securities fraud and conspiracy following a trial built heavily on the wiretap recordings, and was sentenced to 11 years in prison — at the time the longest sentence ever imposed for insider trading — along with a $10 million fine and forfeiture of $53.8 million. The Supreme Court later declined to hear his appeal challenging the case.
 
 The Galleon case reshaped how insider trading gets prosecuted: the wiretap evidence was so effective that federal prosecutors used the same approach in dozens of subsequent Wall Street cases, turning what had been a largely circumstantial, trading-pattern-based crime to prove into one that could be caught on tape, in the insider's own words, while it was happening.`,
+    sourceUrl: 'https://www.justice.gov/archive/usao/nys/pressreleases/October11/rajaratnamrajsentencingpr.pdf',
   },
   {
     title: 'Ivan Boesky: The Insider-Trading King Who Turned Informant on Wall Street',
@@ -663,6 +694,8 @@ Mozilo's case became one of the defining examples of executive accountability, o
     slug: 'robert-maxwell-pension-fund-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Robert_Maxwell_1989.jpg',
+    coverImagePosition: 50,
     body: `Robert Maxwell built a publishing empire spanning Mirror Group Newspapers, Maxwell Communication Corporation, and the market research firm AGB, becoming one of Britain's most powerful media figures through the 1980s. Behind the public image, Maxwell was quietly using his employees' pension funds as his personal source of liquidity — pledging pension assets as collateral for loans to his private companies and using pension money to prop up the price of his own publicly traded shares.
 
 By the time Maxwell was found dead in the Atlantic Ocean off the Canary Islands on 5 November 1991, having disappeared from his yacht overnight, investigators discovered that roughly £460 million had gone missing from the pension schemes of Mirror Group Newspapers, Maxwell Communication Corporation, and AGB — funds meant to support around 30,000 current and former employees' retirements. His death, officially ruled an accidental drowning, cut off the one person who fully understood how his tangled web of companies actually moved money between them, and the fraud only became fully visible once he was no longer alive to keep shifting funds to cover the gaps.
@@ -866,7 +899,11 @@ async function seedArticles(articles: SeedArticle[], label: string) {
     await pool.query(
       `INSERT INTO articles (title, slug, body, author, tags, source_url, cover_image, cover_image_credit, cover_image_position, published, published_at)
        VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, true, NOW())
-       ON CONFLICT (slug) DO UPDATE SET source_url = COALESCE(articles.source_url, EXCLUDED.source_url)`,
+       ON CONFLICT (slug) DO UPDATE SET
+         source_url = COALESCE(articles.source_url, EXCLUDED.source_url),
+         cover_image = COALESCE(articles.cover_image, EXCLUDED.cover_image),
+         cover_image_credit = COALESCE(articles.cover_image_credit, EXCLUDED.cover_image_credit),
+         cover_image_position = COALESCE(articles.cover_image_position, EXCLUDED.cover_image_position)`,
       [
         article.title,
         article.slug,
