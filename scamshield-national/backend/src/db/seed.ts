@@ -724,6 +724,8 @@ Nadir, who died in February 2025 at age 83, remained a divisive figure in Britai
     slug: 'conrad-black-hollinger-international-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Conrad_Black_mug_shot.jpg',
+    coverImagePosition: 50,
     body: `Conrad Black built Hollinger International into one of the world's largest newspaper empires, owning titles including Britain's Daily Telegraph, Canada's National Post, and the Chicago Sun-Times, and became one of the most prominent media barons of his era. As Hollinger sold off newspaper properties through the early 2000s, prosecutors alleged that Black and several other executives diverted millions of dollars meant for the company into their own pockets, disguised as "non-compete" payments — fees the buyers of Hollinger's newspapers paid supposedly to keep Hollinger itself from launching competing publications, money that should have gone to Hollinger's shareholders rather than its executives.
 
 A federal jury in Chicago convicted Black in July 2007 of three counts of mail fraud and one count of obstruction of justice, while acquitting him of nine other charges including racketeering. The obstruction charge stemmed from video surveillance that caught Black removing 13 boxes of documents from his Toronto office after a court order had specifically barred him from taking away anything that could be evidence for a federal grand jury.
