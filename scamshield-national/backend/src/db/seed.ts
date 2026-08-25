@@ -5411,6 +5411,17 @@ const SEED_SCAMS: SeedScam[] = [
     sourceUrl: 'https://www.verbraucherzentrale.de/wissen/digitale-welt/mobilfunk-und-festnetz/paketdienstsms-vorsicht-abzocke-58988',
   },
   {
+    name: 'German Romance Scam (Liebesbetrug)',
+    slug: 'germany-romance-scam-liebesbetrug',
+    description:
+      'A relationship built over weeks or months on a dating site or social network, with the scammer posing as an attractive professional working abroad, eventually produces a fabricated crisis — a relative\'s medical operation, a stolen passport, an unpaid hotel bill during a business trip, often set in West Africa — that only a wire transfer via Western Union or MoneyGram can resolve. German police prevention guidance (polizei-beratung.de) notes that scammers deliberately make themselves "indispensable in daily life" through constant contact without ever meeting in person, and that requests for copies of ID documents (framed as needed to open a joint account) are increasingly used for document forgery rather than the stated purpose. Victims lost at least €50 million to romance scams in Germany in 2024 alone, according to a survey of all 16 state criminal police offices.',
+    categorySlug: 'romance-scams',
+    country: 'DE',
+    alertLevel: 'high',
+    sources: ['Bundeskriminalamt (BKA)', 'Polizeiliche Kriminalprävention'],
+    sourceUrl: 'https://www.polizei-beratung.de/themen-und-tipps/betrug/scamming/',
+  },
+  {
     name: 'Australian Lottery Win Scam',
     slug: 'australia-lottery-scam',
     description:
@@ -5453,6 +5464,17 @@ const SEED_SCAMS: SeedScam[] = [
     alertLevel: 'medium',
     sources: ['Info Escroqueries'],
     sourceUrl: 'https://www.police-nationale.interieur.gouv.fr/actualite/info-escroqueries-plate-forme-pour-signaler-escroqueries-sur-internet',
+  },
+  {
+    name: 'French Romance Scam (Arnaque Sentimentale)',
+    slug: 'france-romance-scam-arnaque-sentimentale',
+    description:
+      'A relationship begun on a dating site or social network develops over weeks or months into what feels like a genuine romantic or close friendship, building emotional trust and dependency before the scammer starts asking for money under a series of urgent pretexts, with each request larger than the last until the victim can no longer pay. Cybermalveillance.gouv.fr, France\'s national cybersecurity assistance service, warns that a victim who refuses to keep paying may then be blackmailed with intimate photos or videos they shared during the relationship. French police recorded 3,400 confirmed reports of romance scams in 2024, a figure rising steadily since 2021, though officials estimate only 5 to 15 percent of victims ever file a complaint — nearly 80 percent of victims are women over 50, and losses in a single case can reach into the hundreds of thousands of euros over a relationship lasting months or years.',
+    categorySlug: 'romance-scams',
+    country: 'FR',
+    alertLevel: 'high',
+    sources: ['Cybermalveillance.gouv.fr', 'Info Escroqueries'],
+    sourceUrl: 'https://www.cybermalveillance.gouv.fr/tous-nos-contenus/fiches-reflexes/comment-reagir-en-cas-descroquerie-sentimentale',
   },
   {
     name: 'Dutch Romance Scam',
