@@ -658,6 +658,34 @@ As the subprime mortgage crisis unfolded in 2007 and 2008, Countrywide's loan lo
 Mozilo's case became one of the defining examples of executive accountability, or the lack of it, following the 2008 financial crisis: a company at the center of the subprime lending collapse, a large civil penalty, and no criminal charges at all — a pattern repeated across much of the crisis-era financial industry and a frequent point of criticism about how differently white-collar and street-level fraud get prosecuted.`,
     sourceUrl: 'https://www.sec.gov/news/press/2010/2010-197.htm',
   },
+  {
+    title: "Robert Maxwell and the £460 Million Vanished From His Employees' Pensions",
+    slug: 'robert-maxwell-pension-fund-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Robert Maxwell built a publishing empire spanning Mirror Group Newspapers, Maxwell Communication Corporation, and the market research firm AGB, becoming one of Britain's most powerful media figures through the 1980s. Behind the public image, Maxwell was quietly using his employees' pension funds as his personal source of liquidity — pledging pension assets as collateral for loans to his private companies and using pension money to prop up the price of his own publicly traded shares.
+
+By the time Maxwell was found dead in the Atlantic Ocean off the Canary Islands on 5 November 1991, having disappeared from his yacht overnight, investigators discovered that roughly £460 million had gone missing from the pension schemes of Mirror Group Newspapers, Maxwell Communication Corporation, and AGB — funds meant to support around 30,000 current and former employees' retirements. His death, officially ruled an accidental drowning, cut off the one person who fully understood how his tangled web of companies actually moved money between them, and the fraud only became fully visible once he was no longer alive to keep shifting funds to cover the gaps.
+
+The Serious Fraud Office charged Maxwell's sons, Kevin and Ian, who had held senior roles in the family businesses, with conspiracy to defraud the pension funds. After an eight-month trial, a London jury acquitted both brothers in January 1996 — meaning no one was ever criminally convicted over the theft of nearly half a billion pounds from company pension schemes, since the one person prosecutors considered most responsible had died before he could be charged.
+
+The Maxwell scandal became the direct catalyst for the UK's Pensions Act 1995, which introduced stricter rules on how pension trustees could invest scheme assets and created new oversight specifically designed to prevent an employer from treating a pension fund as its own bank account. It remains one of the starkest examples of a fraud whose consequences fell hardest on the very people it targeted — pensioners eventually recovered only part of what they'd lost, even with a partial industry and government bailout.`,
+    sourceUrl: 'https://moneyweek.com/505757/great-frauds-in-history-robert-maxwell',
+  },
+  {
+    title: 'Asil Nadir and the Polly Peck Collapse He Fled For 17 Years',
+    slug: 'asil-nadir-polly-peck-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Asil Nadir built Polly Peck International from a small textile trading company into a sprawling conglomerate spanning fruit distribution, electronics, and other ventures, becoming one of the London Stock Exchange's fastest-growing companies of the 1980s and one of Britain's richest men in the process.
+
+Polly Peck collapsed in 1990 after the UK's Serious Fraud Office opened an investigation into Nadir's handling of the company's finances, and he was charged with 66 counts of theft and false accounting, with prosecutors alleging he had diverted company money to himself, his family, and associates. In May 1993, while out on bail awaiting trial, Nadir fled Britain on a private jet for Northern Cyprus, which had no extradition treaty with the UK — and stayed there as a fugitive for the next 17 years.
+
+Nadir voluntarily returned to the UK in August 2010 to face trial, maintaining his innocence and stating he wanted to clear his name. After a seven-month Old Bailey trial, a jury convicted him in August 2012 on 10 counts of theft totalling nearly £29 million, acquitting him on three other counts, and he was sentenced to 10 years in prison. In 2016, after serving four years, he was transferred to a prison in Turkey under a prisoner-exchange agreement — and was released after spending just a single night there, returning to Northern Cyprus to a warm public welcome.
+
+Nadir, who died in February 2025 at age 83, remained a divisive figure in Britain for decades after Polly Peck's collapse: a former Conservative Party donor whose case became tangled in questions about political influence and delayed prosecution, and a fugitive whose eventual voluntary return and trial closed out one of the longest-running unresolved corporate fraud cases in British history.`,
+    sourceUrl: 'https://cyprus-mail.com/2025/02/09/asil-nadir-dead',
+  },
 ];
 
 // Practical "how it works / red flags / what to do" guides covering the
