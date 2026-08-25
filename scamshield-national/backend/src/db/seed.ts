@@ -5429,6 +5429,17 @@ const SEED_SCAMS: SeedScam[] = [
     sourceUrl: 'https://www.ncsc.govt.nz/',
   },
   {
+    name: 'New Zealand Work and Income Benefit Phishing Scam',
+    slug: 'newzealand-work-and-income-benefit-phishing-scam',
+    description:
+      'A text or email impersonating Work and Income (part of New Zealand\'s Ministry of Social Development) claims a one-off payment, benefit top-up, or welfare loan is available, or that a current payment is at risk, and links to a fake login page asking for a username and password to "verify" the account. Work and Income states plainly that it will never contact a client to ask for their username or password, and that any message asking for these details by text or email link is not genuine — a real benefit query or update is only ever handled by logging into MyMSD directly or contacting Work and Income through its official phone line.',
+    categorySlug: 'public-benefits-fraud',
+    country: 'NZ',
+    alertLevel: 'medium',
+    sources: ['Ministry of Social Development (NZ)'],
+    sourceUrl: 'https://www.workandincome.govt.nz/about-this-site/security.html',
+  },
+  {
     name: 'Swedish AI and Crypto Investment Scam',
     slug: 'sweden-ai-crypto-investment-scam',
     description:
@@ -5471,6 +5482,17 @@ const SEED_SCAMS: SeedScam[] = [
     alertLevel: 'medium',
     sources: ['Competition and Consumer Protection Commission (CCPC)'],
     sourceUrl: 'https://www.ccpc.ie/manage-your-money/scams-and-frauds/common-scams',
+  },
+  {
+    name: 'Irish MyGovID Phishing Scam',
+    slug: 'ireland-mygovid-phishing-scam',
+    description:
+      'A text or email impersonating MyGovID, the digital identity service used to access Irish government services like welfare payments and tax records, claims the account needs to be "verified" or "reactivated" and links to a fake site built to look exactly like MyGovID or MyWelfare, harvesting a name, PPS Number, and bank account details once entered. MyGovID confirms it will never text, email, or call asking for personal or financial details unless the person themselves first contacted the help desk, and that its only real domains are mygovid.ie and gov.ie — genuine correspondence never includes a link asking someone to "validate" their account.',
+    categorySlug: 'phishing',
+    country: 'IE',
+    alertLevel: 'high',
+    sources: ['Department of Social Protection (Ireland)'],
+    sourceUrl: 'https://www.mygovid.ie/en-IE/Security',
   },
   {
     name: 'India AI Deepfake Sextortion Video Call Scam',
