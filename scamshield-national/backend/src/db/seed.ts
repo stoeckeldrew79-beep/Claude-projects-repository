@@ -2493,7 +2493,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'ai-deepfake-scams',
     alertLevel: 'critical',
     sources: ['FBI IC3', 'National Center for Missing & Exploited Children'],
-    sourceUrl: 'https://www.ic3.gov/',
+    sourceUrl: 'https://www.ic3.gov/PSA/2023/psa230605',
   },
   {
     name: 'AI-Generated Celebrity Health Product Endorsement Ad',
