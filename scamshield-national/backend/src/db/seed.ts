@@ -5272,6 +5272,17 @@ const SEED_SCAMS: SeedScam[] = [
     sourceUrl: 'https://www.arbeitsagentur.de/news/fake-anrufe',
   },
   {
+    name: 'German DHL Package Tracking Phishing SMS',
+    slug: 'germany-dhl-tracking-phishing-sms',
+    description:
+      'A text message impersonating DHL claims a package couldn\'t be delivered and links to a fake tracking page that harvests personal and card details, or installs malware disguised as a tracking app — distinct from the customs-fee variant targeting international shipments, since this version simply invents a routine domestic delivery problem. Germany\'s Verbraucherzentrale confirms these messages are sent in bulk regardless of whether the recipient is actually expecting a parcel, and that DHL never sends tracking links by SMS, so the safest response is to check delivery status only by logging into the DHL app or website directly.',
+    categorySlug: 'package-delivery-scams',
+    country: 'DE',
+    alertLevel: 'high',
+    sources: ['Verbraucherzentrale (Germany)'],
+    sourceUrl: 'https://www.verbraucherzentrale.de/wissen/digitale-welt/mobilfunk-und-festnetz/paketdienstsms-vorsicht-abzocke-58988',
+  },
+  {
     name: 'Australian Lottery Win Scam',
     slug: 'australia-lottery-scam',
     description:
@@ -5327,6 +5338,17 @@ const SEED_SCAMS: SeedScam[] = [
     sourceUrl: 'https://www.fraudehelpdesk.nl/',
   },
   {
+    name: 'Dutch PostNL Delivery Phishing SMS',
+    slug: 'netherlands-postnl-phishing-sms',
+    description:
+      'A text message impersonating PostNL, the Netherlands\' national postal carrier, claims a package couldn\'t be delivered or was returned to the sorting center and links to a fake tracking or redelivery page that harvests personal and payment details — sometimes instead demanding a small customs or shipping fee through the fake link. PostNL confirms it never asks customers to pay through a link in an email or text message, and recommends checking delivery status only through the official app or website, or via the anti-phishing verification code PostNL includes in its genuine emails.',
+    categorySlug: 'package-delivery-scams',
+    country: 'NL',
+    alertLevel: 'high',
+    sources: ['Fraudehelpdesk (Netherlands)'],
+    sourceUrl: 'https://opgelicht.avrotros.nl/alerts/phishing-sms-namens-postnl-in-omloop-werk-je-gegevens-bij-voor-een-nieuwe-bezorging-13773',
+  },
+  {
     name: 'New Zealand Tech Support Scam',
     slug: 'newzealand-tech-support-scam',
     description:
@@ -5358,6 +5380,17 @@ const SEED_SCAMS: SeedScam[] = [
     alertLevel: 'critical',
     sources: ['Finansinspektionen', 'Polisen'],
     sourceUrl: 'https://fi.se/sv/for-konsumenter/bedragerier/',
+  },
+  {
+    name: 'Swedish Skatteverket Tax Refund Phishing Scam',
+    slug: 'sweden-skatteverket-refund-phishing-scam',
+    description:
+      'A text or email impersonating Skatteverket, Sweden\'s tax agency, claims a tax refund is waiting and links to a fake page asking the recipient to confirm bank account details or log in with BankID, timed especially around the spring tax declaration period. Skatteverket confirms it never requests account details by email or SMS and never sends refund links by text — a genuine refund is paid automatically to the bank account already registered with the agency, checkable directly by logging into "Mina sidor" on skatteverket.se, and suspicious texts can be forwarded to 7726 (SPAM) to report them.',
+    categorySlug: 'tax-scams',
+    country: 'SE',
+    alertLevel: 'medium',
+    sources: ['Skatteverket'],
+    sourceUrl: 'https://www.skatteverket.se/omoss/kontaktaoss/mejlaoss/omnatbedragerier.4.8bcb26d16a5646a148128ae.html',
   },
   {
     name: 'Irish Fake Recruitment Scam',
