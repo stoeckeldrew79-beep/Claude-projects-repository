@@ -749,6 +749,20 @@ A federal judge sentenced Starr to seven and a half years in prison. The case dr
 Starr's case is a reminder that a fraudster's most valuable asset is often reputation by association: a client list full of famous names can function as an implicit credential, even when those names have nothing to do with — and no awareness of — the fraud actually taking place.`,
     sourceUrl: 'https://www.cbsnews.com/news/kenneth-starr-fraud-ex-adviser-to-the-stars-sentenced-in-federal-fraud-case/',
   },
+  {
+    title: 'Sholam Weiss and the 845-Year Sentence Behind the Largest Insurance Collapse in U.S. History',
+    slug: 'sholam-weiss-national-heritage-life-insurance-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Sholam Weiss was a key figure behind the collapse of Orlando-based National Heritage Life Insurance Company in the 1990s, part of a scheme that federal authorities said siphoned roughly $450 million out of the insurer through worthless stocks and inflated mortgage investments. The company's failure — described by prosecutors as the largest insurance-company collapse caused by criminal acts in U.S. history — wiped out policies held by tens of thousands of ordinary customers across 15 states.
+
+Rather than face the jury's verdict, Weiss fled the country while deliberations were still underway in October 1999, eventually surfacing in Vienna, Austria, where he was apprehended and extradited back to the United States in 2002. In February 2000, in his absence, a federal court in Orlando convicted him on 78 counts of racketeering, wire fraud, money laundering, and obstruction of justice, and sentenced him to 845 years in prison — later reduced to 835 years in 2009 — one of the longest sentences ever handed down for a white-collar crime in American history, alongside a $123.4 million fine and orders to pay $125 million in restitution.
+
+Weiss served just over 18 years before President Trump commuted his sentence on his final night in office in January 2021, citing Weiss's age, health, and the restitution he had already paid; he was released the next day. The commutation drew sharp criticism from the FBI agent who had investigated the case, who said the roughly 29,000 people whose annuities were wiped out would have voted unanimously against it.
+
+The sheer scale of Weiss's original sentence — hundreds of years beyond any human lifespan — became almost as well known as the fraud itself, a symbol of how disproportionate white-collar sentencing calculations can look on paper even when, as this case ultimately showed, executive clemency can still cut a decades-long sentence down to less than two.`,
+    sourceUrl: 'https://www.wftv.com/news/local/sentenced-845-years-prison-released-by-trump/XWWR4PN5FVFO5D7UAKB3BQZTQQ/',
+  },
 ];
 
 // Practical "how it works / red flags / what to do" guides covering the
