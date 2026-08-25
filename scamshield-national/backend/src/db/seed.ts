@@ -920,6 +920,34 @@ The common thread across nearly every marketplace scam is a push to move the tra
 
 The safer approach: for local items, meet in person in a public place and exchange cash or a protected payment method at the time of pickup; for anything shipped, use the marketplace's own checkout and payment system rather than a side conversation, since that's what carries buyer and seller protections; and never read a verification code sent to your phone to someone else, regardless of the reason given. If something goes wrong, report it to the platform directly and to the FTC at ReportFraud.ftc.gov.`,
   },
+  {
+    title: 'Gift Card Scams: Why Scammers Always Ask for Them, and Why That\'s the Giveaway',
+    slug: 'gift-card-payment-scams',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'gift-card-scams'],
+    sourceUrl: 'https://consumer.ftc.gov/gift-card-scams',
+    body: `Gift cards show up as the payment method in an enormous range of otherwise unrelated scams — a fake IRS agent demanding back taxes, a "grandchild" needing bail money, a tech support caller charging for a fake repair, a romance scammer facing a manufactured emergency. The scam story changes every time; the demand for a gift card almost never does, because gift cards work uniquely well for scammers in ways that go beyond simple convenience.
+
+Once a scammer has a gift card's number and PIN — read aloud over the phone, photographed, or entered on a fake payment page — the money can be drained and moved almost immediately, with no bank to call and no transaction to reverse. The FTC reports that gift card demands from scammers have increased roughly 270% since 2015, with more than $245 million paid to scammers this way since 2018 and a median loss around $840 per victim; Target, Google Play, and eBay gift cards are consistently among the brands scammers request most.
+
+A newer variant skips the phone call entirely: a scammer tampers with cards still on a store rack, either swapping the barcode or scratching off and photographing the PIN before resealing the packaging, then simply monitors the card online and drains it the moment an unsuspecting shopper activates it at checkout — meaning a gift card can already be compromised before anyone has said a word to the eventual victim.
+
+The rule that cuts through every version of this scam: no real government agency, business, family member in a genuine emergency, or utility company ever demands payment specifically and exclusively in gift cards, and legitimate purchases are never completed by reading a card's PIN to someone over the phone. If you're asked to pay this way, stop — and if you've already bought and read off a card's number, contact the retailer immediately, since some can flag or freeze an unspent balance if you act fast enough, and report it to the FTC at ReportFraud.ftc.gov.`,
+  },
+  {
+    title: 'Student Loan Forgiveness Scams: What Real Debt Relief Looks Like',
+    slug: 'student-loan-forgiveness-scams',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'student-loan-scams'],
+    sourceUrl: 'https://consumer.ftc.gov/all-scams/student-loan-education-scams',
+    body: `A call, text, or ad promises fast, guaranteed forgiveness of federal student loan debt — sometimes claiming affiliation with the Department of Education or Federal Student Aid — in exchange for an upfront fee, or asks the borrower to hand over their Federal Student Aid (FSA) ID to "process" the forgiveness on their behalf. Both are hard stops: charging an upfront fee for federal student loan debt relief is illegal, and an FSA ID handed to a stranger gives them the same access to a borrower's loan account and personal financial aid information that the borrower has.
+
+These scams cluster around real news — any time a genuine loan forgiveness program, payment pause, or policy change is announced, scam activity spikes, since scammers can reference the real announcement to sound credible while promising a faster or broader benefit than what's actually available. The FTC has also tracked scammers specifically targeting Spanish-speaking borrowers, including one operation that impersonated the Department of Education while charging Puerto Rico residents hundreds of dollars in fees for help that was, and remains, free through official channels.
+
+A separate but related scam targets currently enrolled students directly: a caller impersonating college financial-aid or billing staff claims a tuition payment is overdue and threatens to drop the student from their classes within hours unless payment is sent immediately, exploiting the fact that students rarely question a call that sounds like it's coming from their own school.
+
+The one channel that actually manages federal student loans is StudentAid.gov, directly — never a third party, however official they sound on the phone. If you're contacted about loan forgiveness, hang up and check your loan status by logging into your own StudentAid.gov account, and report the contact to the FTC at ReportFraud.ftc.gov.`,
+  },
 ];
 
 async function seedArticles(articles: SeedArticle[], label: string) {
