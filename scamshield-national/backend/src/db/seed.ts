@@ -754,6 +754,9 @@ Starr's case is a reminder that a fraudster's most valuable asset is often reput
     slug: 'sholam-weiss-national-heritage-life-insurance-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Sholam_Weiss.jpg',
+    coverImageCredit: 'Photo: Lexjuris (CC BY-SA 4.0)',
+    coverImagePosition: 50,
     body: `Sholam Weiss was a key figure behind the collapse of Orlando-based National Heritage Life Insurance Company in the 1990s, part of a scheme that federal authorities said siphoned roughly $450 million out of the insurer through worthless stocks and inflated mortgage investments. The company's failure — described by prosecutors as the largest insurance-company collapse caused by criminal acts in U.S. history — wiped out policies held by tens of thousands of ordinary customers across 15 states.
 
 Rather than face the jury's verdict, Weiss fled the country while deliberations were still underway in October 1999, eventually surfacing in Vienna, Austria, where he was apprehended and extradited back to the United States in 2002. In February 2000, in his absence, a federal court in Orlando convicted him on 78 counts of racketeering, wire fraud, money laundering, and obstruction of justice, and sentenced him to 845 years in prison — later reduced to 835 years in 2009 — one of the longest sentences ever handed down for a white-collar crime in American history, alongside a $123.4 million fine and orders to pay $125 million in restitution.
