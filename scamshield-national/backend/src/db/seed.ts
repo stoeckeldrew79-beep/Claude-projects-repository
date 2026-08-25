@@ -4115,7 +4115,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'DE',
     alertLevel: 'high',
     sources: ['German Federal Criminal Police Office (BKA)'],
-    sourceUrl: 'https://www.bka.de/',
+    sourceUrl: 'https://www.bka.de/SharedDocs/Kurzmeldungen/DE/Warnhinweise/230524_Schockanrufe.html',
   },
   {
     name: 'Irish Revenue Tax Refund Phishing Text',
@@ -4170,7 +4170,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'NL',
     alertLevel: 'high',
     sources: ['Fraudehelpdesk (Netherlands)'],
-    sourceUrl: 'https://www.fraudehelpdesk.nl/',
+    sourceUrl: 'https://www.fraudehelpdesk.nl/fraude/ik-ben-gehackt/',
   },
   {
     name: 'Swedish BankID Phishing Call Scam',
@@ -4258,7 +4258,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'DE',
     alertLevel: 'medium',
     sources: ['German Federal Office for Information Security (BSI)'],
-    sourceUrl: 'https://www.bsi.bund.de/DE/Themen/Verbraucherinnen-und-Verbraucher/verbraucherinnen-und-verbraucher_node.html',
+    sourceUrl: 'https://www.bsi.bund.de/DE/Themen/Verbraucherinnen-und-Verbraucher/Cyber-Sicherheitslage/Methoden-der-Cyber-Kriminalitaet/Identitaetsdiebstahl/identitaetsdiebstahl_node.html',
   },
   {
     name: 'Japanese Convenience Store Prepaid Card Payment Scam',
@@ -4302,7 +4302,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'NL',
     alertLevel: 'high',
     sources: ['Fraudehelpdesk (Netherlands)'],
-    sourceUrl: 'https://www.fraudehelpdesk.nl/',
+    sourceUrl: 'https://www.fraudehelpdesk.nl/alert/neptelefoontje-namens-de-politie/',
   },
   {
     name: 'Singapore SingPass Phishing Scam',
@@ -4434,7 +4434,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'NL',
     alertLevel: 'medium',
     sources: ['Fraudehelpdesk (Netherlands)'],
-    sourceUrl: 'https://www.fraudehelpdesk.nl/',
+    sourceUrl: 'https://www.fraudehelpdesk.nl/fraude-abc/webshop-betrouwbaar/',
   },
   {
     name: 'Indian Fake Instant Loan App Scam',
@@ -4489,7 +4489,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'DE',
     alertLevel: 'medium',
     sources: ['German Federal Office for Information Security (BSI)'],
-    sourceUrl: 'https://www.bsi.bund.de/DE/Themen/Verbraucherinnen-und-Verbraucher/verbraucherinnen-und-verbraucher_node.html',
+    sourceUrl: 'https://www.bsi.bund.de/DE/Themen/Verbraucherinnen-und-Verbraucher/Cyber-Sicherheitslage/Methoden-der-Cyber-Kriminalitaet/Spam-Phishing-Co/Gefaelschte-Absenderadressen/gefaelschte-absenderadressen_node.html',
   },
   {
     name: 'Japanese ATM "Refund" Scam',
@@ -4588,7 +4588,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'NL',
     alertLevel: 'medium',
     sources: ['Fraudehelpdesk (Netherlands)'],
-    sourceUrl: 'https://www.fraudehelpdesk.nl/',
+    sourceUrl: 'https://www.fraudehelpdesk.nl/valse-emails/belastingdienst/',
   },
   {
     name: 'German "Falscher Polizist" Fake Police Shock Call',
@@ -4599,7 +4599,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'DE',
     alertLevel: 'critical',
     sources: ['German Federal Criminal Police Office (BKA)'],
-    sourceUrl: 'https://www.bka.de/',
+    sourceUrl: 'https://www.bka.de/SharedDocs/Kurzmeldungen/DE/Warnhinweise/220411_AnrufeBehoerden.html',
   },
   {
     name: 'Fake Garda Impersonation Call',
@@ -4665,7 +4665,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'NL',
     alertLevel: 'high',
     sources: ['Fraudehelpdesk (Netherlands)'],
-    sourceUrl: 'https://www.fraudehelpdesk.nl/',
+    sourceUrl: 'https://www.fraudehelpdesk.nl/fraude-abc/webshop-betrouwbaar/',
   },
   {
     name: 'New Zealand Bank SMS Phishing Scam',
@@ -4753,7 +4753,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'DE',
     alertLevel: 'medium',
     sources: ['Verbraucherzentrale (Germany)'],
-    sourceUrl: 'https://www.verbraucherzentrale.de/wissen/digitale-welt/phishingradar/phishingradar-aktuelle-warnungen-6059',
+    sourceUrl: 'https://www.verbraucherzentrale.de/wissen/digitale-welt/onlinehandel/abzocke-online-wie-erkenne-ich-fakeshops-im-internet-13166',
   },
   {
     name: 'Japan Post Parcel Redelivery SMS Scam',
@@ -4775,7 +4775,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'NL',
     alertLevel: 'medium',
     sources: ['Fraudehelpdesk (Netherlands)'],
-    sourceUrl: 'https://www.fraudehelpdesk.nl/',
+    sourceUrl: 'https://www.fraudehelpdesk.nl/fraude-cat/phishing/',
   },
   {
     name: 'Indian Telegram Stock Tip Investment Scam',
@@ -4830,7 +4830,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'DE',
     alertLevel: 'high',
     sources: ['German Federal Criminal Police Office (BKA)'],
-    sourceUrl: 'https://www.bka.de/',
+    sourceUrl: 'https://www.bka.de/SharedDocs/Kurzmeldungen/DE/Warnhinweise/220802_AppTesting.html',
   },
   {
     name: 'Australian Crypto Investment Scam',
@@ -4874,7 +4874,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'NL',
     alertLevel: 'medium',
     sources: ['Fraudehelpdesk (Netherlands)'],
-    sourceUrl: 'https://www.fraudehelpdesk.nl/',
+    sourceUrl: 'https://www.fraudehelpdesk.nl/fraude/ik-heb-een-loterij-gewonnen/',
   },
   {
     name: 'Indian Fake Government Job Recruitment Scam',
@@ -5083,7 +5083,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'NL',
     alertLevel: 'high',
     sources: ['Fraudehelpdesk (Netherlands)'],
-    sourceUrl: 'https://www.fraudehelpdesk.nl/',
+    sourceUrl: 'https://www.fraudehelpdesk.nl/fraude/ik-krijg-een-whatsapp-bericht-van-een-bekende/',
   },
   {
     name: 'Irish DoneDeal Marketplace Scam',
@@ -5391,7 +5391,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'NL',
     alertLevel: 'high',
     sources: ['Fraudehelpdesk (Netherlands)'],
-    sourceUrl: 'https://www.fraudehelpdesk.nl/',
+    sourceUrl: 'https://www.fraudehelpdesk.nl/fraude/datingfraude/',
   },
   {
     name: 'Dutch PostNL Delivery Phishing SMS',
