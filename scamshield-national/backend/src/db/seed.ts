@@ -5239,6 +5239,17 @@ const SEED_SCAMS: SeedScam[] = [
     sourceUrl: 'https://www.insurancefraudbureau.org/',
   },
   {
+    name: 'UK Fake Rental Property Deposit Scam',
+    slug: 'uk-fake-rental-deposit-scam',
+    description:
+      'A rental listing for an unusually cheap, well-located property — often copied from a genuine listing with the contact details swapped out — pressures a prospective tenant to pay a deposit or first month\'s rent before viewing in person, citing high demand or the "landlord" being abroad, then goes silent once payment clears. Action Fraud reports thousands of rental fraud cases a year, with losses averaging around £1,400 per victim and a sharp seasonal spike each September as students search for accommodation ahead of the new term. Action Fraud advises always viewing a property in person (or having someone you trust do so) before paying anything, and searching online for the listing\'s photos and address to check whether they\'ve been copied from a genuine ad elsewhere.',
+    categorySlug: 'online-shopping-scams',
+    country: 'GB',
+    alertLevel: 'high',
+    sources: ['UK Action Fraud'],
+    sourceUrl: 'https://www.actionfraud.police.uk/a-z-of-fraud/rental-fraud',
+  },
+  {
     name: 'Indian Income Tax Refund Phishing Scam',
     slug: 'india-income-tax-refund-phishing-scam',
     description:
@@ -5281,6 +5292,17 @@ const SEED_SCAMS: SeedScam[] = [
     alertLevel: 'critical',
     sources: ['Singapore Police Force'],
     sourceUrl: 'https://www.police.gov.sg/Advisories/Scams',
+  },
+  {
+    name: 'French France Travail Benefits Phishing Scam',
+    slug: 'france-travail-phishing-scam',
+    description:
+      'An email or text impersonating France Travail (the French national employment agency, formerly Pôle emploi) warns that a jobseeker\'s registration will be cancelled within 48 hours unless they "regularize their situation" through a link, or claims a benefit payment has been blocked and asks the recipient to confirm banking details to release it. France Travail\'s own security guidance warns that genuine messages never come from an address outside francetravail.fr or pole-emploi.fr, never demand banking or Social Security details by email, and never rely on manufactured urgency like a 48-hour deadline — legitimate account actions happen through a jobseeker\'s own verified portal login.',
+    categorySlug: 'public-benefits-fraud',
+    country: 'FR',
+    alertLevel: 'medium',
+    sources: ['France Travail'],
+    sourceUrl: 'https://www.francetravail.fr/candidat/soyez-vigilants/attention--mise-en-garde-contre.html',
   },
   {
     name: 'French Leboncoin Marketplace Scam',
