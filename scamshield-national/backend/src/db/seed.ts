@@ -453,6 +453,8 @@ The case is a reminder that owning real, recognizable companies doesn't make a b
     slug: 'eddie-antar-crazy-eddie-stock-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Eddie_Antar_mugshot.png',
+    coverImagePosition: 50,
     body: `Eddie Antar built Crazy Eddie into one of the most recognizable electronics retail chains in the New York area during the 1970s and '80s, fronted by manic, unmistakable TV commercials promising prices so low they were "INSAAAANE." Behind the storefront, Antar and his family ran a cash-skimming operation for years before the company ever went public in 1984 — quietly pocketing a portion of cash sales and underreporting income to shrink the company's tax bill.
 
 Once Crazy Eddie went public, that same cash Antar had been skimming away suddenly needed to reappear — reported income now needed to look as large as possible to keep the stock price climbing, the opposite incentive from the company's private years. Antar's team began funneling the hidden cash back into the business, falsifying inventory counts, and inflating sales figures at key stores, creating an inventory shortfall investigators later estimated between $40 and $50 million. As the manufactured growth pushed the stock higher, Antar and his family sold off more than $20 million of their own shares to an investing public that had no idea the underlying numbers were fabricated.
@@ -495,6 +497,9 @@ The Tyco case became one of the defining corporate-excess scandals of the early 
     slug: 'raj-rajaratnam-galleon-insider-trading',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Raj_Rajaratnam_in_2024.jpg',
+    coverImageCredit: 'Photo: Shankar2001 (CC BY-SA 4.0)',
+    coverImagePosition: 50,
     body: `Raj Rajaratnam founded the Galleon Group, one of the largest hedge funds in the world at its peak, managing billions of dollars built on what looked like an exceptional research edge. In reality, that edge came substantially from a network of corporate insiders — executives and consultants at companies including IBM, Intel, and Goldman Sachs — whom Rajaratnam cultivated to feed him confidential, market-moving information before it became public.
 
 Rajaratnam would trade on tips about upcoming earnings results, mergers, and other corporate events before the information reached the market, generating profits and avoided losses prosecutors calculated at more than $63 million. What made the case unprecedented was how investigators caught him: rather than building a case solely from suspicious trading patterns after the fact, the FBI obtained wiretaps on Rajaratnam's phone, capturing roughly 2,200 conversations in which he discussed and received inside information in real time — a technique long used in organized-crime and drug cases but never before deployed at this scale against Wall Street insider trading.
@@ -523,6 +528,9 @@ Boesky's case marked the moment insider trading stopped being treated as a quiet
     slug: 'kweku-adoboli-ubs-rogue-trader',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/938149-kweku-adoboli_(7651034606).jpg',
+    coverImageCredit: 'Photo: thetaxhaven (CC BY 2.0)',
+    coverImagePosition: 50,
     body: `Kweku Adoboli worked as a trader on the exchange-traded funds desk at UBS's London investment bank, a role that came with defined risk limits meant to cap how much the bank could lose on any position he took. Starting around 2008, Adoboli began trading well beyond those authorized limits, and rather than report the resulting losses, he covered them up using fictitious hedge positions — fake internal trades that made his real, unhedged bets disappear from the bank's own risk reports, the same core technique Jérôme Kerviel had used against Société Générale a few years earlier.
 
 The concealment let the losses compound for years without triggering the controls designed to catch them. At the fraud's peak, Adoboli's hidden positions put UBS at risk of losses reaching an estimated $12 billion before the scheme unraveled in September 2011, when he confessed the true size of his positions to colleagues. The bank was ultimately left with a real loss of $2.3 billion — at the time the largest trading loss in British banking history.
@@ -551,6 +559,9 @@ The Colonial Bank collapse is a reminder that mortgage fraud isn't limited to in
     slug: 'toshihide-iguchi-daiwa-bank-rogue-trader',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Toshihide-Iguchi.png',
+    coverImageCredit: 'Photo: Globalkitty (CC BY-SA 3.0)',
+    coverImagePosition: 50,
     body: `Toshihide Iguchi worked as a bond trader at Daiwa Bank's New York branch, a role that — much like Nick Leeson's at Barings a decade later — combined trading authority with control over settling his own trades. Starting in 1984, unauthorized trades began losing money, and rather than report the losses, Iguchi began covering them up by secretly selling off bank-owned and customer-owned securities held in Daiwa's New York vault without authorization.
 
 The concealment continued for eleven years and an estimated 30,000 unauthorized trades. Iguchi forged trading records, falsified statements, and hid trade confirmations to keep the losses invisible to Daiwa's head office in Japan, all while the hidden hole in the bank's books kept growing. In July 1995, Iguchi finally confessed the full scope of the fraud directly to Daiwa's president in a lengthy letter — but instead of immediately disclosing it to U.S. regulators as required, two senior Daiwa managers allegedly urged him to keep concealing the losses for several more months while the bank tried to manage the fallout quietly.
