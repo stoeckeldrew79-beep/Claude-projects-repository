@@ -827,6 +827,38 @@ The urgency of a real tragedy is exactly what makes people skip the verification
 
 Before donating: look up the organization independently rather than through a link in the solicitation, and check its standing on an independent charity evaluator (such as Charity Navigator or the BBB Wise Giving Alliance) rather than trusting the name alone, since scam charities frequently pick names one word off from a real, well-known organization. Be especially cautious of any solicitation asking for payment via gift card, cryptocurrency, or wire transfer — legitimate charities overwhelmingly accept standard payment methods that offer some fraud protection, like a credit card through their verified website.`,
   },
+  {
+    title: 'Elder Fraud: Why Scammers Target Older Adults, and How to Protect a Loved One',
+    slug: 'elder-fraud-protecting-older-adults',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'elder-fraud'],
+    sourceUrl: 'https://www.ic3.gov/crimeinfo/elderfraud',
+    body: `Adults aged 60 and older are the single largest group of reported fraud losses in the United States — the FBI's Internet Crime Complaint Center recorded more than $7.7 billion in losses from victims in this age group in 2025 alone, by far the largest dollar total of any age bracket and a sharp increase over the year before. Scammers deliberately target older adults not because they're less capable, but because this population often holds more accumulated savings, may be more trusting of unsolicited contact, and — critically — is statistically far less likely to report being victimized, out of embarrassment or fear of losing independence.
+
+The mechanisms vary widely: "grandparent scams" use a panicked, fabricated emergency call to pressure immediate wiring of money; "phantom hacker" schemes convince a victim their bank account has been compromised and walk them through moving their savings into a fake "safe" account actually controlled by the scammer; tech support scams claim a computer is infected and talk a victim into installing remote-access software; and romance and investment scams build trust over weeks or months before requesting money. A growing and particularly cruel category is the recovery scam, where a fraudster contacts someone who has already lost money to an earlier scam, posing as a lawyer, government official, or recovery service that can get the stolen funds back — for an upfront fee that simply disappears along with the rest.
+
+Repeat victimization is common and not accidental: fraudulent telemarketers and scam operations buy and trade "sucker lists" — names, phone numbers, and details of people who have already paid once — because someone who has fallen for a scam before is considered more likely to fall for the next one, not less.
+
+What makes these schemes especially effective is a combination of manufactured urgency and social isolation: many are specifically designed to be resolved before the victim can call a family member or think it through. Watch for warning signs like sudden secrecy about finances, unusual bank withdrawals, or a new "friend" or online contact who discourages contact with family.
+
+If you're helping an older family member, agree in advance on a household rule that no money moves — wire transfer, gift card, cryptocurrency, or cash pickup — without a second person's confirmation, no matter how urgent the caller makes it sound. If you suspect fraud, the Department of Justice's National Elder Fraud Hotline (833-372-8311) can help file a report, and reporting to IC3.gov, even for a small loss, helps investigators connect it to a larger pattern.`,
+  },
+  {
+    title: 'Online Marketplace Scams: What to Watch for Buying and Selling on Facebook Marketplace and Craigslist',
+    slug: 'online-marketplace-scams-facebook-craigslist',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'online-marketplace'],
+    sourceUrl: 'https://consumer.ftc.gov/articles/buying-online-marketplace',
+    body: `Online marketplaces like Facebook Marketplace, Craigslist, and OfferUp connect local buyers and sellers directly, without the structured buyer-protection programs and dispute resolution that come standard on larger platforms like Amazon or eBay — which is exactly what makes them attractive to scammers on both sides of a transaction.
+
+As a buyer, the most common trap is a listing for something in high demand or priced well below market value, where the "seller" insists on payment before you can see or inspect the item — sometimes through a wire transfer, gift card, or cryptocurrency, and sometimes through a fake shipping or escrow arrangement that looks legitimate but is entirely fabricated. Once payment goes through, the seller disappears and the item never existed.
+
+As a seller, a common scam starts with a buyer who seems eager to purchase, then insists on paying through a mobile payment app and sends what looks like a legitimate payment confirmation — except no money actually moved, and the scam depends on you shipping or handing over the item before you check your actual account balance. A related version specifically tracked by the FTC has the "buyer" texting a verification code and asking the seller to read it back, supposedly to "verify you're a real person" — the seller who complies has actually just helped the scammer set up a Google Voice number in the seller's name, which can then be used to get around two-factor authentication on other accounts.
+
+The common thread across nearly every marketplace scam is a push to move the transaction outside the platform's built-in protections — a request to pay by wire, gift card, cryptocurrency, or a "verification code" that has nothing to do with the actual sale, or unusual urgency around a deal that otherwise seems too good.
+
+The safer approach: for local items, meet in person in a public place and exchange cash or a protected payment method at the time of pickup; for anything shipped, use the marketplace's own checkout and payment system rather than a side conversation, since that's what carries buyer and seller protections; and never read a verification code sent to your phone to someone else, regardless of the reason given. If something goes wrong, report it to the platform directly and to the FTC at ReportFraud.ftc.gov.`,
+  },
 ];
 
 async function seedArticles(articles: SeedArticle[], label: string) {
