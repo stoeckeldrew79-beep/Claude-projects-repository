@@ -4962,7 +4962,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'IE',
     alertLevel: 'medium',
     sources: ['Health Service Executive (Ireland)'],
-    sourceUrl: 'https://www.hse.ie/',
+    sourceUrl: 'https://www2.hse.ie/services/cyber-attack/scams-attempted-fraud/',
   },
   {
     name: 'Australian Disaster Relief Charity Scam',
@@ -5226,7 +5226,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'IE',
     alertLevel: 'high',
     sources: ['An Garda Síochána'],
-    sourceUrl: 'https://www.garda.ie/en/crime/fraud/',
+    sourceUrl: 'https://www.garda.ie/en/crime/fraud/am-i-a-victim-of-a-romance-scam-.html',
   },
   {
     name: 'Australian Tax Office Impersonation Scam',
