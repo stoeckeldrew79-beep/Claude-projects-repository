@@ -733,6 +733,9 @@ The ImClone case is notable for how far a single piece of leaked information tra
     slug: 'angelo-mozilo-countrywide-financial-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Angelo_Mozilo_2002_(cropped).jpeg',
+    coverImageCredit: 'Photo: Ron Bennett / HUD (Public Domain)',
+    coverImagePosition: 50,
     body: `Angelo Mozilo co-founded Countrywide Financial and built it into the largest mortgage lender in the United States, aggressively expanding into subprime lending — loans to borrowers with weaker credit, often on terms that became unaffordable once introductory rates expired. As the housing market boomed through the 2000s, Countrywide's growth made Mozilo one of the most prominent and highly paid executives in American finance.
 
 The SEC alleged that Mozilo and two other Countrywide executives knew the company's loan portfolio was carrying far more risk than investors were being told, misrepresenting the true quality of the mortgages Countrywide was originating and packaging for sale, even as internal communications showed executives privately describing some of the loan products as dangerous. The SEC separately accused Mozilo of insider trading, alleging he sold Countrywide shares worth tens of millions of dollars while aware of problems he wasn't disclosing to shareholders.
@@ -852,6 +855,8 @@ The case is a reminder that faking a disappearance doesn't make a fraud disappea
     slug: 'stavisky-affair-french-bond-fraud-1934',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Alexandre_Stavisky_1926.jpg',
+    coverImagePosition: 50,
     body: `Serge Alexandre Stavisky was a French financier and con man who built a career on fraudulent bond schemes run through provincial pawnshops, culminating in a fraud centered on the Crédit Municipal de Bayonne, a municipal pawnbroking institution. Stavisky had the institution issue bonds against wildly inflated collateral — including a supposed cache of emeralds he claimed once belonged to the German Empress, later shown to be worthless glass — then had those fraudulent bonds sold to insurance companies and investors as legitimate municipal debt, ultimately placing roughly $18 million worth before the scheme was uncovered.
 
 What made the case explosive wasn't just the fraud itself but how long it had been allowed to continue: Stavisky had cultivated protection among Radical-party politicians, including a government minister, who repeatedly helped delay a prosecution against him that had already been pending for 19 months. When Treasury officials finally exposed the forged bonds on Christmas Eve 1933, the scandal exposed not just a con man but the political establishment that had shielded him.
@@ -866,6 +871,9 @@ The affair reached its most consequential moment on February 6, 1934, when far-r
     slug: 'kobi-alexander-comverse-options-backdating-fugitive',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Kobi_Alexander.JPG',
+    coverImageCredit: 'Photo: Jordano1995 (CC BY-SA 3.0)',
+    coverImagePosition: 50,
     body: `Kobi Alexander spent roughly a decade as CEO of Comverse Technology secretly backdating stock option grants — choosing dates when the company's stock had hit historic lows, then having Comverse's general counsel fabricate board committee records showing the options had been approved on those earlier, lower-priced dates. That backdating quietly handed Alexander and two other executives in-the-money options worth tens of millions of dollars without ever disclosing the practice to shareholders or regulators. Separately, from 1999 to 2002, Alexander and Comverse's CFO padded option-grant lists submitted to the board with fictitious employee names, building an undisclosed slush fund of "phantom" options they later reallocated to real employees to recruit and retain staff off the books.
 
 The SEC filed civil fraud charges against Alexander, the CFO, and the general counsel in August 2006, with a parallel criminal indictment from federal prosecutors. According to the SEC, Alexander personally gained roughly $138 million from the scheme. Rather than face the charges, Alexander fled first to Israel and then to Namibia, a country with no extradition treaty with the United States at the time, and spent nearly a decade fighting extradition through Namibian courts.
@@ -880,6 +888,8 @@ Alexander's decade in Namibia is a reminder that fleeing to a country without an
     slug: 'boss-tweed-tammany-hall-courthouse-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Tweed-Boss-LOC.jpg',
+    coverImagePosition: 50,
     body: `William "Boss" Tweed led the Tammany Hall political machine that controlled New York City government in the years after the Civil War, and used that control to run one of the largest municipal fraud schemes in American history. The clearest example was the construction of a new county courthouse on Chambers Street: originally budgeted at $250,000, the building's cost ballooned to roughly $13 million after Tweed and his associates directed favored contractors to inflate their invoices by five to a hundred times the real cost of materials and labor, with the overcharges quietly kicked back to Tweed's inner circle through a network of bank transactions. Investigators at the time estimated the broader "Tweed Ring" had drained roughly $45 million from the city treasury over about three years, though later historical estimates of the total theft, including patronage and kickback schemes beyond the courthouse alone, have ranged much higher.
 
 Tweed's downfall came from a combination of investigative reporting by The New York Times, which obtained internal financial records exposing the courthouse overcharges, and the relentless editorial cartoons of Thomas Nast in Harper's Weekly, which turned Tweed's face into a national symbol of political corruption even among readers who couldn't follow the financial details. After a first trial in January 1873 ended in a hung jury, a retrial that November convicted Tweed on more than 200 misdemeanor counts of neglect of duty and official misconduct; he was sentenced to twelve consecutive one-year prison terms, later reduced to one year after New York's highest court ruled the consecutive sentencing scheme illegal.
