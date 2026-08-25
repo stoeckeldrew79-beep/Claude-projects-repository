@@ -299,6 +299,8 @@ Beyond the fraud itself — an all-too-common fake investment fund — the stage
     slug: 'ruja-ignatova-onecoin-cryptoqueen-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Ruja_Ignatova_FBI_(rightpic).jpg',
+    coverImagePosition: 50,
     body: `Ruja Ignatova launched OneCoin in 2014, marketing it worldwide as a revolutionary cryptocurrency positioned to rival Bitcoin, sold through a multi-level-marketing structure that rewarded members for recruiting new investors as much as for the coin itself. Filling packed arenas across Europe, Asia, and Africa with the confidence of a tech visionary, she built OneCoin into a global operation that took in an estimated $4 billion or more from investors before anyone could verify the one thing the entire pitch depended on.
 
 That verification never came, because it couldn't: OneCoin had no genuine blockchain. Investigators later determined the "coin" existed only in a centralized, editable database controlled by the company — the digital equivalent of a private ledger with invented numbers, sold to true believers as decentralized, unforgeable currency. There was nothing behind the price chart members watched climb on their own screens.
@@ -313,6 +315,8 @@ OneCoin is a useful case precisely because the fraud wasn't a subtle accounting 
     slug: 'michael-milken-junk-bond-king-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Michael_Milken_1.jpg',
+    coverImagePosition: 50,
     body: `Michael Milken built the high-yield "junk bond" market at Drexel Burnham Lambert into one of the most powerful financing engines on Wall Street through the 1980s, using it to fund the era's wave of corporate takeovers and leveraged buyouts. At his peak he was reportedly the highest-paid person in America, earning hundreds of millions of dollars a year and wielding influence that let him reshape entire industries from his famous "X-shaped" trading desk in Beverly Hills.
 
 Behind the legitimate bond business, prosecutors found a web of illegal activity: insider trading, stock parking (secretly using an associate — fellow financier Ivan Boesky — to hide the true ownership of shares), and market manipulation designed to benefit Milken's own trades and clients ahead of the public. The scheme surfaced through the investigation into Boesky, who cooperated with prosecutors after his own insider-trading conviction and helped implicate Milken directly.
@@ -327,6 +331,8 @@ The case remains a foundational reference point for insider trading and securiti
     slug: 'sam-israel-bayou-hedge-fund-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Samuel_Israel_III.jpg',
+    coverImagePosition: 50,
     body: `Sam Israel III founded the Bayou Hedge Fund Group in 1996, reporting steady, market-beating returns to investors year after year. Behind those numbers, the fund was actually losing money almost from the start; Israel and an accomplice covered the losses by creating a fake accounting firm to produce audited-looking statements that bore no relationship to the fund's real performance, a nearly identical mechanism to the fabricated audits later found at Bernie Madoff's and Lou Pearlman's operations.
 
 The fraud, totaling roughly $450 million, collapsed in 2005 when Israel confessed to investigators. He pleaded guilty to fraud charges and was sentenced in 2008 to 20 years in federal prison. On the day he was scheduled to surrender, Israel instead drove to a bridge over the Hudson River, abandoned his SUV with the words "suicide is painless" — the theme from M*A*S*H — scratched into the dust on the hood, and disappeared with his girlfriend in a camper van, apparently hoping to be presumed dead.
@@ -341,6 +347,8 @@ Sam Israel's story is a near-exact echo of Marcus Schrenker's staged plane crash
     slug: 'bernard-ebbers-worldcom-accounting-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Bernard_Ebbers.jpg',
+    coverImagePosition: 50,
     body: `Bernard Ebbers built WorldCom from a small Mississippi long-distance reseller into the second-largest telecommunications company in the United States through the 1990s, fueled by an aggressive string of acquisitions, including its $37 billion purchase of MCI. When the telecom industry's growth slowed at the turn of the century, WorldCom's stock price — and Ebbers' own heavily leveraged personal fortune, much of it borrowed against WorldCom shares — depended on the company continuing to look like it was growing.
 
 Rather than report the slowdown, WorldCom's finance team, under pressure from Ebbers and CFO Scott Sullivan, disguised it. Billions of dollars in ordinary operating expenses were improperly reclassified as capital expenditures, a bookkeeping shift that spread costs out over years instead of counting them immediately — making the company appear consistently profitable when it was not. By the time the fraud was uncovered by an internal auditor in June 2002, the misstatement totaled roughly $11 billion, the largest accounting fraud in U.S. history at the time.
@@ -414,6 +422,9 @@ Rothstein's case stands out for how much of the fraud depended on the credibilit
     slug: 'jerome-kerviel-societe-generale-rogue-trader',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/2015_popfinance_crowdfunding_221.jpg',
+    coverImageCredit: 'Photo: Max malafosse (CC BY-SA 4.0)',
+    coverImagePosition: 50,
     body: `Jérôme Kerviel worked as a junior trader on the futures desk at Société Générale, one of France's largest banks, a job that gave him direct knowledge of the bank's internal risk-control systems from an earlier role in its back office. Starting around 2005, he began placing unauthorized bets on European stock index futures far beyond his trading limits — and used that back-office knowledge to fake offsetting trades that made his real, unhedged positions disappear from the bank's risk reports.
 
 For a time, some of the hidden bets were profitable, briefly making Kerviel look like a star performer. But by January 2008, his concealed positions had grown to nearly €50 billion — more than the bank's entire market value — betting that European markets would keep rising. When the bank's compliance team finally uncovered the fraud and was forced to unwind the position during a market downturn, it locked in a loss of roughly €4.9 billion, at the time the largest trading loss ever caused by a single individual.
