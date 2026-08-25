@@ -1009,6 +1009,34 @@ These scams work because they target something a too-good-to-be-true financial p
 
 Before paying anything: insist on a live video call showing the actual puppy in real time (not a pre-recorded clip), search the listing's photos online to check whether they've been used elsewhere, and never wire money, use a cash app, or pay with a gift card for a pet you haven't seen in person — reputable breeders and shelters overwhelmingly allow an in-person visit before any money changes hands. If you're set on buying online, verify the seller independently through petscams.com or the BBB before sending a deposit.`,
   },
+  {
+    title: 'Timeshare Resale and Exit Scams: When "Getting Rid of It" Becomes the Scam',
+    slug: 'timeshare-resale-exit-scams',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'timeshare-scams'],
+    sourceUrl: 'https://consumer.ftc.gov/articles/timeshares-vacation-clubs-and-related-scams',
+    body: `Timeshare owners looking to sell or get out of a contract are a specifically targeted group, because the underlying problem is real: timeshares are notoriously hard to resell, and that genuine frustration is exactly what two related scams are built to exploit. A "resale" scam cold-calls an owner claiming to already have an interested, ready-to-close buyer, then asks for a few thousand dollars upfront to cover taxes, closing costs, or paperwork fees — money the owner is assured will be refunded at closing. There is no buyer. An "exit" scam instead promises to legally cancel the timeshare contract entirely, charging anywhere from a few thousand to tens of thousands of dollars upfront, often pressured through a high-pressure sales presentation at a hotel or restaurant insisting the owner "must act today."
+
+Both scams share the same tell: a large fee paid before any actual service is delivered, for a result the company can't actually guarantee. Regulatory action has already caught operators doing exactly this at scale — one timeshare-exit company was ordered to pay $140 million in restitution after taking more than $90 million from consumers, mostly older adults, at an average loss of nearly $29,000 per person.
+
+What makes both variants effective is that they don't need to convince anyone a scam is happening — they only need to be marginally more appealing than the genuinely bad options a real timeshare owner is already facing (an unwanted, hard-to-sell asset with ongoing maintenance fees). A caller offering an easy, guaranteed exit or a fast sale is telling an owner exactly what they want to hear.
+
+Real protection starts with the guarantee itself: no legitimate resale or exit company can promise a sale or a successful cancellation, and any company that does is not being honest. Contact your timeshare company directly first — canceling within a state's rescission period, or negotiating an exit, is something an owner can often attempt for free before ever paying a third party. If you do hire a company, verify it independently, get every promise in writing, and favor a reseller that only takes a fee after your timeshare actually sells rather than before.`,
+  },
+  {
+    title: 'Free Trial Scams: When "Just Pay Shipping" Becomes a Recurring Charge',
+    slug: 'free-trial-subscription-trap-scams',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'subscription-scams'],
+    sourceUrl: 'https://consumer.ftc.gov/all-scams/free-trial-scams',
+    body: `An online ad for a skincare cream, weight-loss supplement, or similar product offers a "risk-free trial" for the cost of shipping alone — often $4.99 or less — with the actual subscription terms buried in small, faded, or hard-to-find fine print. What isn't made clear: the trial period is short, cancellation has to happen before it ends, and once it does, the same card gets charged the full product price on a recurring basis, sometimes monthly, until the customer notices and manages to cancel.
+
+The FTC has taken enforcement action against operators running exactly this pattern at scale, including one case that resulted in more than $28 million in refunds to consumers deceived by supposed free trial offers for personal care products, and a separate action against a major software company for using a hidden early-termination fee to trap customers into subscription plans they couldn't easily leave. A related version skips the product step entirely: a fake "your subscription is about to renew" notice arrives for a service the recipient never actually signed up for, designed purely to harvest a callback and a credit card number from someone trying to head off a charge that was never coming.
+
+What makes this pattern effective is timing and friction working in the company's favor simultaneously: the trial window is short enough that many people forget to act, and even when they remember, cancellation is deliberately made harder than signup — a phone-only cancellation line with long hold times, a canceled account that mysteriously reactivates, or a "retention" flow designed to wear down anyone trying to leave.
+
+Before entering payment details for any "free" trial: read the actual terms for the exact cancellation deadline and price after the trial ends, set a calendar reminder several days before that date, and check your card statement for the trial company's real charge afterward. If you're billed for something you never signed up for, dispute the charge with your bank or card issuer directly rather than calling a number provided in a text or email, and report the company to the FTC at ReportFraud.ftc.gov.`,
+  },
 ];
 
 async function seedArticles(articles: SeedArticle[], label: string) {
