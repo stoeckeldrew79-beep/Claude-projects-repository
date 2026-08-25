@@ -5551,6 +5551,39 @@ const SEED_SCAMS: SeedScam[] = [
     sourceUrl: 'https://www.polizei-beratung.de/themen-und-tipps/betrug/scamming/',
   },
   {
+    name: 'German Fake Microsoft Tech Support Scam (Support-Betrug)',
+    slug: 'germany-support-betrug-fake-microsoft-tech-support',
+    description:
+      'A cold call or an alarming pop-up warning claims a Windows PC is infected with malware, then walks the victim through "diagnostic" steps that display a generic, meaningless infection code as if it were unique proof of a problem, before pressuring them to install remote-access software or pay up to around €400 for bogus "cleanup" software. Once remote access is granted, the caller can steal banking credentials directly from the computer or install ransomware. Germany\'s Federal Office for Information Security (BSI) has issued explicit warnings confirming the pattern is active and ongoing, and consumer advocates note the caller ID is often spoofed to display a genuine-looking German phone number.',
+    categorySlug: 'tech-support-scams',
+    country: 'DE',
+    alertLevel: 'high',
+    sources: ['Bundesamt für Sicherheit in der Informationstechnik (BSI)', 'Verbraucherzentrale'],
+    sourceUrl: 'https://www.verbraucherzentrale.de/wissen/vertraege-reklamation/abzocke/warnung-abzocke-durch-angebliche-microsoftmitarbeiter-24641',
+  },
+  {
+    name: 'German Sparkasse Online Banking "Reactivation" Phishing',
+    slug: 'germany-sparkasse-online-banking-reactivation-phishing',
+    description:
+      'A text message or email impersonating Sparkasse, or sometimes Volksbank/Raiffeisenbank, warns that the recipient\'s S-pushTAN online banking authorization is expiring or has been deactivated, and must be "confirmed" or reactivated immediately through a link. The link leads to a spoofed login page that captures both the victim\'s online banking credentials and a one-time TAN code, which the scammers immediately relay to authorize a real transfer out of the account before the code expires — exploiting the specific TAN-confirmation step German online banking relies on for every transfer. Verbraucherzentrale\'s Phishing-Radar has tracked recurring waves of this exact message, flagging fresh instances as recently as August 2026.',
+    categorySlug: 'phishing',
+    country: 'DE',
+    alertLevel: 'critical',
+    sources: ['Verbraucherzentrale Phishing-Radar'],
+    sourceUrl: 'https://www.verbraucherzentrale.de/wissen/digitale-welt/mobilfunk-und-festnetz/fakesms-zu-onlinebanking-steuerbescheiden-und-gerichtsverfahren-67038',
+  },
+  {
+    name: 'German Fake Prize Notification Scam (Falsches Gewinnversprechen)',
+    slug: 'germany-falsches-gewinnversprechen-fake-prize-scam',
+    description:
+      'A letter or email congratulates the recipient on winning a prize worth hundreds of euros in a contest they never entered, listing an inconsistent prize amount and no verifiable sender address, and instructing them to call a listed phone number with a "win code" to claim it. Calling connects to an operator who either harvests further personal and banking details or pressures the caller into an expensive subscription or an upfront "processing fee" before any prize — which never actually arrives. Regional consumer protection offices, including Verbraucherzentrale Sachsen, have documented and warned about this exact pattern arriving by post to households that never entered any competition.',
+    categorySlug: 'lottery-sweepstakes-scams',
+    country: 'DE',
+    alertLevel: 'medium',
+    sources: ['Verbraucherzentrale Sachsen'],
+    sourceUrl: 'https://www.verbraucherzentrale-sachsen.de/pressemeldungen/vertraege-reklamation/abzocke/falsches-gewinnversprechen-per-post-113972',
+  },
+  {
     name: 'Australian Lottery Win Scam',
     slug: 'australia-lottery-scam',
     description:
