@@ -735,7 +735,7 @@ The ImClone case is notable for how far a single piece of leaked information tra
     tags: ['notorious', 'notorious-scammer', 'historical'],
     coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Angelo_Mozilo_2002_(cropped).jpeg',
     coverImageCredit: 'Photo: Ron Bennett / HUD (Public Domain)',
-    coverImagePosition: 50,
+    coverImagePosition: 65,
     body: `Angelo Mozilo co-founded Countrywide Financial and built it into the largest mortgage lender in the United States, aggressively expanding into subprime lending — loans to borrowers with weaker credit, often on terms that became unaffordable once introductory rates expired. As the housing market boomed through the 2000s, Countrywide's growth made Mozilo one of the most prominent and highly paid executives in American finance.
 
 The SEC alleged that Mozilo and two other Countrywide executives knew the company's loan portfolio was carrying far more risk than investors were being told, misrepresenting the true quality of the mortgages Countrywide was originating and packaging for sale, even as internal communications showed executives privately describing some of the loan products as dangerous. The SEC separately accused Mozilo of insider trading, alleging he sold Countrywide shares worth tens of millions of dollars while aware of problems he wasn't disclosing to shareholders.
