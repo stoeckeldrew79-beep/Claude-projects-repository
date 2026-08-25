@@ -763,6 +763,20 @@ Weiss served just over 18 years before President Trump commuted his sentence on 
 The sheer scale of Weiss's original sentence — hundreds of years beyond any human lifespan — became almost as well known as the fraud itself, a symbol of how disproportionate white-collar sentencing calculations can look on paper even when, as this case ultimately showed, executive clemency can still cut a decades-long sentence down to less than two.`,
     sourceUrl: 'https://www.wftv.com/news/local/sentenced-845-years-prison-released-by-trump/XWWR4PN5FVFO5D7UAKB3BQZTQQ/',
   },
+  {
+    title: 'R. Foster Winans: The Wall Street Journal Columnist Who Traded on His Own Column',
+    slug: 'r-foster-winans-heard-on-the-street-insider-trading',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `R. Foster Winans co-wrote The Wall Street Journal's influential "Heard on the Street" column in the early 1980s, a daily feature widely understood on Wall Street to move stock prices simply by discussing a company favorably or unfavorably. Winans began secretly tipping off a stockbroker at Kidder, Peabody & Co. about which companies his column would cover, and when, before each piece was published — giving the broker, and eventually a small ring of traders, the ability to buy or sell ahead of a price movement Winans's own writing was about to cause.
+
+The scheme ran through 1983 and 1984 and generated roughly $690,000 in trading profits for the group, of which Winans himself was found to have taken around $31,000. He was indicted by then-U.S. Attorney Rudolph Giuliani, and in 1985 a jury convicted him on 59 counts of securities and wire fraud. He was sentenced to 18 months in prison, later reduced to a year and a day, and ultimately served nine months.
+
+The case became legally significant well beyond Winans's own sentence: he appealed his conviction all the way to the U.S. Supreme Court, arguing that leaking a newspaper's own publication schedule wasn't insider trading in any traditional sense, since he hadn't traded on confidential information about a company — only on advance knowledge of his own column's contents. In 1987's Carpenter v. United States, the Court split 4–4 on the securities-fraud question, but unanimously affirmed his conviction on the separate federal mail and wire fraud charges, establishing that misappropriating an employer's confidential information — in this case, The Wall Street Journal's own unpublished schedule — for personal trading profit was itself a federal crime, regardless of whether the information concerned a company's private affairs.
+
+Winans's case remains taught in both law and journalism schools as a foundational example of how a reporter's institutional credibility and advance knowledge can itself become a tradeable, and illegal, commodity — the underlying asset wasn't inside information about a business, but the trust placed in the column itself.`,
+    sourceUrl: 'https://en.wikipedia.org/wiki/R._Foster_Winans',
+  },
 ];
 
 // Practical "how it works / red flags / what to do" guides covering the
