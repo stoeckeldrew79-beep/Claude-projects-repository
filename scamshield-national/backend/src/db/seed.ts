@@ -5726,6 +5726,39 @@ const SEED_SCAMS: SeedScam[] = [
     sourceUrl: 'https://www.ipa.go.jp/security/anshin/measures/fakealert.html',
   },
   {
+    name: 'Japan Deepfake Celebrity Investment Scam Ads',
+    slug: 'japan-deepfake-celebrity-investment-scam-ads',
+    description:
+      'AI-manipulated video and voice footage of real, famous Japanese figures — most prominently entrepreneur Yusaku Maezawa — is used in ads on Facebook, Instagram, LINE, and YouTube to promote fake "exclusive investment communities" promising guaranteed returns. Victims who respond are moved into LINE, WhatsApp, or Telegram groups run by human handlers who build trust over days or weeks before soliciting money transfers. Japan\'s National Police Agency has recorded thousands of these SNS-based celebrity-impersonation investment fraud cases in a single recent year, and Maezawa\'s own reporting hotline logged over 180 complaints in its first ten days; Japanese authorities have since issued formal administrative guidance to Meta, Google, TikTok, X, and LINE Yahoo demanding advertiser identity verification.',
+    categorySlug: 'ai-deepfake-scams',
+    country: 'JP',
+    alertLevel: 'critical',
+    sources: ['National Police Agency (Japan)'],
+    sourceUrl: 'https://tokunaga-lawfirm.com/column/2026/05/19/kiriya-hiroto-toushi-sagi/',
+  },
+  {
+    name: 'Japan Post-Disaster Donation Fraud',
+    slug: 'japan-post-disaster-donation-fraud',
+    description:
+      'After a major disaster such as the January 2024 Noto Peninsula earthquake, scammers impersonate legitimate relief organizations and public bodies by phone, mail, and social media to solicit donations, directing victims to personal bank accounts, e-money, or QR codes instead of verified charity accounts — some also pose as a disaster-affected relative asking for emergency money. Japan\'s National Consumer Affairs Center and Financial Services Agency issued official warnings after the Noto earthquake, noting the same pattern followed the 2011 Tōhoku and 2016 Kumamoto earthquakes, and advise the public to independently verify any donation account number against those publicized through television or newspaper coverage before transferring money.',
+    categorySlug: 'charity-scams',
+    country: 'JP',
+    alertLevel: 'high',
+    sources: ['National Consumer Affairs Center of Japan (NCAC)', 'Financial Services Agency (Japan)'],
+    sourceUrl: 'https://www.kokusen.go.jp/news/data/n-20240112_2.html',
+  },
+  {
+    name: 'Japan Business Email Compromise (BEC) Fraud',
+    slug: 'japan-business-email-compromise-fraud',
+    description:
+      'A company employee receives what looks like a routine email from a genuine business partner or vendor, requesting an invoice payment be sent to "corrected" bank details — the message actually comes from a spoofed or compromised account impersonating the real counterpart. Japan Airlines disclosed in December 2017 that it lost roughly ¥380 million across two such incidents: in the larger case, fraudsters impersonating a foreign aircraft-leasing partner sent a fake corrected invoice that changed only the payee bank details, and a Tokyo headquarters employee wired about ¥360 million to a fraudulent Hong Kong account before the fraud was discovered. Japan\'s Information-technology Promotion Agency (IPA) has since used cases like this in ongoing guidance urging Japanese companies to verify any change in payment details by phone, through a previously known number, before wiring funds.',
+    categorySlug: 'business-email-compromise',
+    country: 'JP',
+    alertLevel: 'high',
+    sources: ['Information-technology Promotion Agency (IPA)'],
+    sourceUrl: 'https://www.ipa.go.jp/security/bec/index.html',
+  },
+  {
     name: 'Singapore Courier Impersonation Phishing Scam',
     slug: 'singapore-courier-impersonation-phishing-scam',
     description:
