@@ -4082,7 +4082,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'AU',
     alertLevel: 'high',
     sources: ['Scamwatch (Australian Competition and Consumer Commission)'],
-    sourceUrl: 'https://www.scamwatch.gov.au/',
+    sourceUrl: 'https://www.scamwatch.gov.au/types-of-scams/threat-scams',
   },
   {
     name: 'Australian Toll Road SMS Scam',
@@ -4093,7 +4093,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'AU',
     alertLevel: 'medium',
     sources: ['Scamwatch (Australian Competition and Consumer Commission)'],
-    sourceUrl: 'https://www.scamwatch.gov.au/',
+    sourceUrl: 'https://www.scamwatch.gov.au/types-of-scams/phishing-scams',
   },
   {
     name: 'Indian "Digital Arrest" Scam Call',
@@ -4247,7 +4247,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'AU',
     alertLevel: 'medium',
     sources: ['Scamwatch (Australian Competition and Consumer Commission)'],
-    sourceUrl: 'https://www.scamwatch.gov.au/',
+    sourceUrl: 'https://www.scamwatch.gov.au/types-of-scams/account-or-identity-takeover-scams',
   },
   {
     name: 'German Schufa Credit Score Phishing Email',
@@ -4412,7 +4412,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'AU',
     alertLevel: 'high',
     sources: ['Scamwatch (Australian Competition and Consumer Commission)', 'Australian Taxation Office'],
-    sourceUrl: 'https://www.scamwatch.gov.au/',
+    sourceUrl: 'https://www.scamwatch.gov.au/types-of-scams/investment-scams',
   },
   {
     name: 'Singapore WhatsApp Job Scam',
@@ -4511,7 +4511,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'NZ',
     alertLevel: 'medium',
     sources: ['Netsafe (New Zealand)'],
-    sourceUrl: 'https://netsafe.org.nz/',
+    sourceUrl: 'https://netsafe.org.nz/online-safety-at-home/shopping-online-safely',
   },
   {
     name: 'Indian UPI QR Code "Receive Payment" Scam',
@@ -4676,7 +4676,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'NZ',
     alertLevel: 'high',
     sources: ['Netsafe', 'National Cyber Security Centre (NZ)'],
-    sourceUrl: 'https://netsafe.org.nz/',
+    sourceUrl: 'https://netsafe.org.nz/scams/phishing',
   },
   {
     name: 'Singapore Carousell Purchase Scam',
@@ -4709,7 +4709,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'NZ',
     alertLevel: 'medium',
     sources: ['Netsafe', 'NZ Post'],
-    sourceUrl: 'https://netsafe.org.nz/',
+    sourceUrl: 'https://netsafe.org.nz/scams/courier-delivery-scams',
   },
   {
     name: 'New Zealand KiwiSaver Early Withdrawal Scam',
@@ -4841,7 +4841,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'AU',
     alertLevel: 'critical',
     sources: ['Scamwatch (ACCC)'],
-    sourceUrl: 'https://www.scamwatch.gov.au/',
+    sourceUrl: 'https://www.scamwatch.gov.au/types-of-scams/investment-scams',
   },
   {
     name: 'Japanese SNS Investment and Romance Scam',
@@ -4973,7 +4973,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'AU',
     alertLevel: 'medium',
     sources: ['Scamwatch (ACCC)', 'Australian Charities and Not-for-profits Commission (ACNC)'],
-    sourceUrl: 'https://www.scamwatch.gov.au/',
+    sourceUrl: 'https://www.scamwatch.gov.au/types-of-scams/donation-scams',
   },
   {
     name: 'Indian SIM Swap KYC Update Scam',
@@ -5105,7 +5105,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'AU',
     alertLevel: 'medium',
     sources: ['Scamwatch (ACCC)'],
-    sourceUrl: 'https://www.scamwatch.gov.au/',
+    sourceUrl: 'https://www.scamwatch.gov.au/types-of-scams/buying-and-selling-scams',
   },
   {
     name: 'Japanese Mercari Marketplace Scam',
@@ -5127,7 +5127,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'NZ',
     alertLevel: 'high',
     sources: ['Netsafe'],
-    sourceUrl: 'https://netsafe.org.nz/',
+    sourceUrl: 'https://netsafe.org.nz/scams/romance-scams',
   },
   {
     name: 'Indian Fake Customer Care Number Scam',
@@ -5270,7 +5270,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'NZ',
     alertLevel: 'critical',
     sources: ['National Cyber Security Centre (NCSC) — formerly CERT NZ'],
-    sourceUrl: 'https://www.ncsc.govt.nz/',
+    sourceUrl: 'https://www.ownyouronline.govt.nz/business/get-protected/guides/protect-your-business-against-email-compromise/',
   },
   {
     name: 'Canadian Sextortion Scam',
@@ -5347,7 +5347,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'AU',
     alertLevel: 'medium',
     sources: ['Scamwatch (ACCC)'],
-    sourceUrl: 'https://www.scamwatch.gov.au/',
+    sourceUrl: 'https://www.scamwatch.gov.au/types-of-scams/unexpected-money-scams',
   },
   {
     name: 'Singapore Business Email Compromise Scam',
@@ -5413,7 +5413,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'NZ',
     alertLevel: 'high',
     sources: ['Netsafe'],
-    sourceUrl: 'https://netsafe.org.nz/',
+    sourceUrl: 'https://netsafe.org.nz/scams/tech-support-scams',
   },
   {
     name: 'New Zealand Webcam Blackmail (Sextortion) Scam',
@@ -5545,7 +5545,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'AU',
     alertLevel: 'critical',
     sources: ['National Anti-Scam Centre / Scamwatch (ACCC)'],
-    sourceUrl: 'https://www.scamwatch.gov.au/',
+    sourceUrl: 'https://www.scamwatch.gov.au/types-of-scams/relationship-scams',
   },
   {
     name: 'Australian Task-Based Job Scam',
@@ -5556,7 +5556,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'AU',
     alertLevel: 'critical',
     sources: ['National Anti-Scam Centre / Scamwatch (ACCC)'],
-    sourceUrl: 'https://www.scamwatch.gov.au/',
+    sourceUrl: 'https://www.scamwatch.gov.au/types-of-scams/jobs-and-employment-scams',
   },
   {
     name: 'Canadian Romance Scam',
