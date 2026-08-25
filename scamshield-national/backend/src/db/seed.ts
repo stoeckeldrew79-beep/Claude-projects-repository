@@ -5527,6 +5527,17 @@ const SEED_SCAMS: SeedScam[] = [
     sourceUrl: 'https://opgelicht.avrotros.nl/alerts/phishing-sms-namens-postnl-in-omloop-werk-je-gegevens-bij-voor-een-nieuwe-bezorging-13773',
   },
   {
+    name: 'Dutch Microsoft Helpdesk Tech Support Scam',
+    slug: 'netherlands-microsoft-helpdesk-scam',
+    description:
+      'An unsolicited caller claiming to be from Microsoft support warns that the victim\'s computer has a virus or a suspicious IP address, and talks them through installing remote-access software to "fix" the fabricated problem. Fraudehelpdesk warns that once the scammer has control of the computer, they ask the victim to log into online banking under the pretense of "installing antivirus software" or "paying for helpdesk services," then use the remote-access connection to alter the payment amount or destination before the transfer completes. Microsoft never initiates unsolicited contact about a computer problem, and Fraudehelpdesk advises hanging up immediately and never installing software at the request of an unexpected caller.',
+    categorySlug: 'tech-support-scams',
+    country: 'NL',
+    alertLevel: 'high',
+    sources: ['Fraudehelpdesk (Netherlands)'],
+    sourceUrl: 'https://www.fraudehelpdesk.nl/alert/telefoontjes-namens-de-helpdesk-van-microsoft/',
+  },
+  {
     name: 'New Zealand Tech Support Scam',
     slug: 'newzealand-tech-support-scam',
     description:
@@ -5580,6 +5591,17 @@ const SEED_SCAMS: SeedScam[] = [
     alertLevel: 'medium',
     sources: ['Skatteverket'],
     sourceUrl: 'https://www.skatteverket.se/omoss/kontaktaoss/mejlaoss/omnatbedragerier.4.8bcb26d16a5646a148128ae.html',
+  },
+  {
+    name: 'Swedish Microsoft Tech Support Scam',
+    slug: 'sweden-microsoft-tech-support-scam',
+    description:
+      'An unsolicited caller claiming to represent Microsoft warns that the victim\'s computer is infected with a virus and talks them into installing remote-access software, then charges for a bogus "cleaning service" — often repeating the transaction multiple times once the scammer has control of the computer and can see everything on screen. Swedish police have prosecuted organized rings running this scheme at scale, including a case before Örebro District Court where pensioners were systematically targeted through fake warnings impersonating Windows security alerts. Microsoft never initiates unsolicited contact about a computer problem, and Swedish police advise hanging up immediately and never granting remote access to an unexpected caller.',
+    categorySlug: 'tech-support-scams',
+    country: 'SE',
+    alertLevel: 'high',
+    sources: ['Polisen'],
+    sourceUrl: 'https://www.svt.se/nyheter/inrikes/polisen-varnar-for-microsoft-bedragare',
   },
   {
     name: 'Irish Fake Recruitment Scam',
