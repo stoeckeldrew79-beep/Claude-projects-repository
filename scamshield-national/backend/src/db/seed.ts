@@ -968,7 +968,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'business-email-compromise',
     alertLevel: 'critical',
     sources: ['FBI IC3'],
-    sourceUrl: 'https://www.ic3.gov/',
+    sourceUrl: 'https://www.ic3.gov/PSA/2016/PSA160614',
   },
   {
     name: 'Vendor Invoice Bank Account Change',
@@ -978,7 +978,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'business-email-compromise',
     alertLevel: 'critical',
     sources: ['FBI IC3'],
-    sourceUrl: 'https://www.ic3.gov/',
+    sourceUrl: 'https://www.ic3.gov/PSA/2017/PSA170504',
   },
   {
     name: 'Pig Butchering Fake Crypto Platform',
@@ -1257,7 +1257,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'business-email-compromise',
     alertLevel: 'high',
     sources: ['FBI IC3'],
-    sourceUrl: 'https://www.ic3.gov/',
+    sourceUrl: 'https://www.ic3.gov/PSA/2019/PSA190910',
   },
   {
     name: 'Compromised Closing Wire Instructions',
@@ -1267,7 +1267,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'business-email-compromise',
     alertLevel: 'critical',
     sources: ['FBI IC3', 'FTC Consumer Advice'],
-    sourceUrl: 'https://www.ic3.gov/',
+    sourceUrl: 'https://www.ic3.gov/PSA/2018/PSA180712',
   },
   {
     name: 'Fake Executive Gift Card Request',
@@ -1277,7 +1277,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'business-email-compromise',
     alertLevel: 'medium',
     sources: ['FBI IC3', 'FTC Consumer Advice'],
-    sourceUrl: 'https://www.ic3.gov/',
+    sourceUrl: 'https://www.ic3.gov/PSA/2018/PSA181024',
   },
 
   {
@@ -1650,7 +1650,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'business-email-compromise',
     alertLevel: 'medium',
     sources: ['FBI IC3'],
-    sourceUrl: 'https://www.ic3.gov/',
+    sourceUrl: 'https://www.ic3.gov/PSA/2019/PSA190910',
   },
   {
     name: 'Fake Real Estate Crowdfunding Platform',
@@ -2090,7 +2090,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'ai-deepfake-scams',
     alertLevel: 'critical',
     sources: ['FBI IC3'],
-    sourceUrl: 'https://www.ic3.gov/',
+    sourceUrl: 'https://www.ic3.gov/PSA/2022/PSA220216',
   },
   {
     name: 'AI-Generated Fake News Investment Endorsement',
@@ -2214,7 +2214,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'mortgage-foreclosure-scams',
     alertLevel: 'critical',
     sources: ['FBI IC3'],
-    sourceUrl: 'https://www.ic3.gov/',
+    sourceUrl: 'https://www.ic3.gov/PSA/2018/PSA180712',
   },
   {
     name: 'Reverse Mortgage Counseling Fee Scam',
@@ -2483,7 +2483,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'ai-deepfake-scams',
     alertLevel: 'high',
     sources: ['FBI IC3'],
-    sourceUrl: 'https://www.ic3.gov/',
+    sourceUrl: 'https://www.ic3.gov/PSA/2024/PSA241203',
   },
   {
     name: 'AI Face-Swap Blackmail Video',
@@ -2843,7 +2843,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'business-email-compromise',
     alertLevel: 'high',
     sources: ['FBI IC3'],
-    sourceUrl: 'https://www.ic3.gov/',
+    sourceUrl: 'https://www.ic3.gov/PSA/2018/PSA180712',
   },
   {
     name: 'Fake Payroll Provider Login Credential Phishing',
@@ -2853,7 +2853,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'business-email-compromise',
     alertLevel: 'high',
     sources: ['FBI IC3'],
-    sourceUrl: 'https://www.ic3.gov/',
+    sourceUrl: 'https://www.ic3.gov/PSA/2018/PSA180918',
   },
   {
     name: 'Fake Domain Renewal Invoice to Business Owner',
@@ -3623,7 +3623,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'business-email-compromise',
     alertLevel: 'high',
     sources: ['FBI IC3'],
-    sourceUrl: 'https://www.ic3.gov/',
+    sourceUrl: 'https://www.ic3.gov/PSA/2017/PSA170504',
   },
   {
     name: 'Fake Televised Dream Home Giveaway Entry Fee Scam',
