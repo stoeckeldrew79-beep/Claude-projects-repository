@@ -988,7 +988,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'investment-fraud',
     alertLevel: 'critical',
     sources: ['FBI IC3', 'FTC Consumer Advice'],
-    sourceUrl: 'https://www.ic3.gov/',
+    sourceUrl: 'https://www.ic3.gov/PSA/2022/psa221003',
   },
   {
     name: 'Guaranteed-Returns Investment Club',
@@ -1184,7 +1184,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'romance-scams',
     alertLevel: 'critical',
     sources: ['FBI IC3', 'FTC Consumer Advice'],
-    sourceUrl: 'https://www.ic3.gov/',
+    sourceUrl: 'https://www.ic3.gov/PSA/2021/PSA210916',
   },
 
   {
@@ -1740,7 +1740,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'employment-scams',
     alertLevel: 'high',
     sources: ['FBI IC3', 'FTC Consumer Advice'],
-    sourceUrl: 'https://www.ic3.gov/',
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2024/12/task-scams-create-illusion-making-money',
   },
   {
     name: 'Fake Holiday Toy Drive Scam',
@@ -1872,7 +1872,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'sextortion',
     alertLevel: 'critical',
     sources: ['FBI IC3'],
-    sourceUrl: 'https://www.ic3.gov/',
+    sourceUrl: 'https://www.ic3.gov/PSA/2021/PSA210902',
   },
   {
     name: 'Fake Data Breach Password Blackmail Email',
@@ -1882,7 +1882,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'sextortion',
     alertLevel: 'high',
     sources: ['FBI IC3', 'FTC Consumer Advice'],
-    sourceUrl: 'https://www.ic3.gov/',
+    sourceUrl: 'https://www.ic3.gov/PSA/2020/PSA200420',
   },
   {
     name: 'Fake Minor Predator Extortion Scam',
@@ -1902,7 +1902,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'sextortion',
     alertLevel: 'critical',
     sources: ['FBI IC3', 'NCMEC'],
-    sourceUrl: 'https://www.ic3.gov/',
+    sourceUrl: 'https://www.ic3.gov/PSA/2023/psa230605',
   },
   {
     name: 'Recorded Video Call Extortion via Compromised Account',
@@ -1912,7 +1912,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'sextortion',
     alertLevel: 'critical',
     sources: ['FBI IC3'],
-    sourceUrl: 'https://www.ic3.gov/',
+    sourceUrl: 'https://www.ic3.gov/PSA/2023/psa230605',
   },
 
   // New category: Account Takeover
@@ -2653,7 +2653,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'sextortion',
     alertLevel: 'critical',
     sources: ['FBI IC3'],
-    sourceUrl: 'https://www.ic3.gov/',
+    sourceUrl: 'https://www.ic3.gov/PSA/2022/PSA220307',
   },
   {
     name: 'Compromised Dating App Video Call Sextortion',
@@ -2663,7 +2663,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'sextortion',
     alertLevel: 'critical',
     sources: ['FBI IC3'],
-    sourceUrl: 'https://www.ic3.gov/',
+    sourceUrl: 'https://www.ic3.gov/PSA/2013/PSA130502.pdf',
   },
   {
     name: 'Sextortion Targeting Minors via Gaming Platforms',
@@ -2673,7 +2673,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'sextortion',
     alertLevel: 'critical',
     sources: ['FBI IC3', 'National Center for Missing & Exploited Children'],
-    sourceUrl: 'https://www.ic3.gov/',
+    sourceUrl: 'https://www.fbi.gov/news/press-releases/fbi-and-partners-issue-national-public-safety-alert-on-financial-sextortion-schemes',
   },
   {
     name: 'Fake Airline Flight Cancellation Rebooking Email',
@@ -2733,7 +2733,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'healthcare-fraud',
     alertLevel: 'medium',
     sources: ['FBI IC3'],
-    sourceUrl: 'https://www.ic3.gov/',
+    sourceUrl: 'https://www.ic3.gov/PSA/2021/PSA210330',
   },
   {
     name: 'Fake Durable Medical Equipment Billing Scam',
@@ -2903,7 +2903,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'employment-scams',
     alertLevel: 'high',
     sources: ['FBI IC3'],
-    sourceUrl: 'https://www.ic3.gov/',
+    sourceUrl: 'https://www.ic3.gov/PSA/2011/PSA110510.pdf',
   },
   {
     name: 'Fake Employer Equipment Reimbursement Check Scam',
@@ -3553,7 +3553,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'family-emergency-scams',
     alertLevel: 'critical',
     sources: ['FBI IC3'],
-    sourceUrl: 'https://www.ic3.gov/',
+    sourceUrl: 'https://www.ic3.gov/PSA/2025/PSA251205',
   },
   {
     name: 'Fake Child\'s School Emergency Pickup Scam',
