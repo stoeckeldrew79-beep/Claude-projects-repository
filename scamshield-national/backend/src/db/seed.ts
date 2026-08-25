@@ -1101,7 +1101,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'government-impersonation',
     alertLevel: 'critical',
     sources: ['SSA Office of Inspector General', 'FTC Consumer Advice'],
-    sourceUrl: 'https://oig.ssa.gov/',
+    sourceUrl: 'https://oig.ssa.gov/scam-alerts/',
   },
   {
     name: 'Fake Arrest Warrant Call',
@@ -1151,7 +1151,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'investment-fraud',
     alertLevel: 'high',
     sources: ['SEC Office of Investor Education', 'FTC Consumer Advice'],
-    sourceUrl: 'https://www.investor.gov/',
+    sourceUrl: 'https://www.investor.gov/protect-your-investments/fraud/types-fraud',
   },
   {
     name: 'Fake USPS Redelivery Text',
@@ -1161,7 +1161,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'package-delivery-scams',
     alertLevel: 'medium',
     sources: ['USPS Postal Inspection Service', 'FTC Consumer Advice'],
-    sourceUrl: 'https://www.uspis.gov/',
+    sourceUrl: 'https://www.uspis.gov/news/scam-article/smishing-package-tracking-text-scams',
   },
   {
     name: 'Fake FedEx Customs Fee Text',
@@ -1399,7 +1399,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'government-impersonation',
     alertLevel: 'medium',
     sources: ['U.S. Census Bureau', 'FTC Consumer Advice'],
-    sourceUrl: 'https://www.census.gov/',
+    sourceUrl: 'https://www.census.gov/programs-surveys/surveyhelp/fraudulent-activity-and-scams.html',
   },
 
   {
@@ -1451,7 +1451,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'investment-fraud',
     alertLevel: 'high',
     sources: ['U.S. Securities and Exchange Commission', 'FBI IC3'],
-    sourceUrl: 'https://www.sec.gov/',
+    sourceUrl: 'https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins',
   },
   {
     name: 'Fake Forex or Day-Trading Signal Service',
@@ -1461,7 +1461,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'investment-fraud',
     alertLevel: 'medium',
     sources: ['U.S. Securities and Exchange Commission', 'FTC Consumer Advice'],
-    sourceUrl: 'https://www.sec.gov/',
+    sourceUrl: 'https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins',
   },
 
   {
@@ -1472,7 +1472,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'package-delivery-scams',
     alertLevel: 'low',
     sources: ['USPS Postal Inspection Service', 'FTC Consumer Advice'],
-    sourceUrl: 'https://www.uspis.gov/',
+    sourceUrl: 'https://www.uspis.gov/news/scam-article/smishing-package-tracking-text-scams',
   },
   {
     name: 'QR Code Delivery Scam',
@@ -1544,7 +1544,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'charity-scams',
     alertLevel: 'medium',
     sources: ['BBB Scam Tracker', 'FTC Consumer Advice'],
-    sourceUrl: 'https://www.bbb.org/scamtracker',
+    sourceUrl: 'https://give.org/news/wise-giving-wednesday-what-is-a-charity-scam',
   },
   {
     name: 'Fake Door-to-Door Charity Collector',
@@ -1554,7 +1554,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'charity-scams',
     alertLevel: 'low',
     sources: ['BBB Scam Tracker', 'FTC Consumer Advice'],
-    sourceUrl: 'https://www.bbb.org/scamtracker',
+    sourceUrl: 'https://give.org/news/wise-giving-wednesday-what-is-a-charity-scam',
   },
 
   {
@@ -1585,7 +1585,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'identity-theft',
     alertLevel: 'medium',
     sources: ['USPS Postal Inspection Service', 'FTC Consumer Advice'],
-    sourceUrl: 'https://www.uspis.gov/',
+    sourceUrl: 'https://www.uspis.gov/tips-prevention/identity-theft',
   },
 
   {
@@ -1606,7 +1606,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'online-shopping-scams',
     alertLevel: 'medium',
     sources: ['BBB Scam Tracker', 'FTC Consumer Advice'],
-    sourceUrl: 'https://www.bbb.org/scamtracker',
+    sourceUrl: 'https://www.bbb.org/all/online-shopping/online-shopping-scams',
   },
   {
     name: 'Fake Rental Listing Scam',
@@ -1813,7 +1813,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'investment-fraud',
     alertLevel: 'high',
     sources: ['U.S. Securities and Exchange Commission'],
-    sourceUrl: 'https://www.sec.gov/',
+    sourceUrl: 'https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins',
   },
   {
     name: 'Private Lending Club Ponzi Scheme',
@@ -1823,7 +1823,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'investment-fraud',
     alertLevel: 'high',
     sources: ['U.S. Securities and Exchange Commission', 'FTC Consumer Advice'],
-    sourceUrl: 'https://www.sec.gov/',
+    sourceUrl: 'https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins',
   },
   {
     name: 'Rug Pull Token Presale Scam',
@@ -1903,7 +1903,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'charity-scams',
     alertLevel: 'low',
     sources: ['BBB Scam Tracker'],
-    sourceUrl: 'https://www.bbb.org/scamtracker',
+    sourceUrl: 'https://give.org/news/wise-giving-wednesday-what-is-a-charity-scam',
   },
   {
     name: 'Fake Animal Rescue Charity',
@@ -1913,7 +1913,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'charity-scams',
     alertLevel: 'medium',
     sources: ['BBB Scam Tracker', 'FTC Consumer Advice'],
-    sourceUrl: 'https://www.bbb.org/scamtracker',
+    sourceUrl: 'https://give.org/news/wise-giving-wednesday-what-is-a-charity-scam',
   },
   {
     name: 'Fake Police or Firefighter Fraternal Donation Call',
@@ -1923,7 +1923,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'charity-scams',
     alertLevel: 'medium',
     sources: ['BBB Scam Tracker', 'FTC Consumer Advice'],
-    sourceUrl: 'https://www.bbb.org/scamtracker',
+    sourceUrl: 'https://give.org/news/wise-giving-wednesday-what-is-a-charity-scam',
   },
   {
     name: 'Medical Identity Theft',
@@ -1983,7 +1983,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'online-shopping-scams',
     alertLevel: 'medium',
     sources: ['BBB Scam Tracker'],
-    sourceUrl: 'https://www.bbb.org/scamtracker',
+    sourceUrl: 'https://www.bbb.org/all/online-shopping/online-shopping-scams',
   },
   {
     name: 'Fake Second-Chance Lottery Winner Notification',
@@ -2253,7 +2253,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'ai-deepfake-scams',
     alertLevel: 'high',
     sources: ['U.S. Securities and Exchange Commission', 'FTC Consumer Advice'],
-    sourceUrl: 'https://www.sec.gov/',
+    sourceUrl: 'https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-alerts/artificial-intelligence-fraud',
   },
   {
     name: 'AI Chatbot Romance Scam',
@@ -2295,7 +2295,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'debt-relief-scams',
     alertLevel: 'high',
     sources: ['U.S. Department of Education', 'FTC Consumer Advice'],
-    sourceUrl: 'https://www.ed.gov/',
+    sourceUrl: 'https://studentaid.gov/articles/avoid-student-loan-forgiveness-scams/',
   },
   {
     name: 'Credit Repair "New Identity" Scam',
@@ -2315,7 +2315,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'debt-relief-scams',
     alertLevel: 'high',
     sources: ['CFPB', 'FTC Consumer Advice'],
-    sourceUrl: 'https://www.consumerfinance.gov/consumer-tools/fraud/',
+    sourceUrl: 'https://www.consumerfinance.gov/ask-cfpb/what-is-a-debt-relief-program-and-how-do-i-know-if-i-should-use-one-en-1457/',
   },
   {
     name: 'Timeshare Exit Company Scam',
@@ -2347,7 +2347,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'mortgage-foreclosure-scams',
     alertLevel: 'high',
     sources: ['CFPB', 'FTC Consumer Advice'],
-    sourceUrl: 'https://www.consumerfinance.gov/consumer-tools/fraud/',
+    sourceUrl: 'https://www.consumerfinance.gov/consumer-tools/mortgages/how-to-spot-and-avoid-foreclosure-relief-scams/',
   },
   {
     name: 'Rent-Back Deed Transfer Scam',
@@ -2389,7 +2389,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'tax-scams',
     alertLevel: 'critical',
     sources: ['IRS', 'FTC Consumer Advice'],
-    sourceUrl: 'https://www.irs.gov/newsroom/tax-scams-consumer-alerts',
+    sourceUrl: 'https://www.irs.gov/newsroom/dirty-dozen',
   },
   {
     name: 'Ghost Tax Preparer Scam',
@@ -2399,7 +2399,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'tax-scams',
     alertLevel: 'high',
     sources: ['IRS'],
-    sourceUrl: 'https://www.irs.gov/newsroom/tax-scams-consumer-alerts',
+    sourceUrl: 'https://www.irs.gov/newsroom/dirty-dozen',
   },
   {
     name: 'Fraudulent Tax Refund Identity Theft',
@@ -2409,7 +2409,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'tax-scams',
     alertLevel: 'high',
     sources: ['IRS', 'FTC Consumer Advice'],
-    sourceUrl: 'https://www.irs.gov/newsroom/tax-scams-consumer-alerts',
+    sourceUrl: 'https://www.irs.gov/newsroom/dirty-dozen',
   },
   {
     name: 'Fake IRS Refund Text or Email',
@@ -2419,7 +2419,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'tax-scams',
     alertLevel: 'medium',
     sources: ['IRS'],
-    sourceUrl: 'https://www.irs.gov/newsroom/tax-scams-consumer-alerts',
+    sourceUrl: 'https://www.irs.gov/newsroom/dirty-dozen',
   },
   {
     name: 'Employee Retention Credit Mill Scam',
@@ -2429,7 +2429,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'tax-scams',
     alertLevel: 'high',
     sources: ['IRS'],
-    sourceUrl: 'https://www.irs.gov/newsroom/tax-scams-consumer-alerts',
+    sourceUrl: 'https://www.irs.gov/newsroom/dirty-dozen',
   },
 
   // Historical entries: real, well-documented frauds with no current
@@ -2502,7 +2502,7 @@ const SEED_SCAMS: SeedScam[] = [
       'Commodities trader Anthony "Tino" De Angelis borrowed hundreds of millions of dollars against warehouse receipts for vegetable oil inventory that mostly didn\'t exist — storage tanks were filled largely with seawater, topped with a thin layer of real oil to fool inspectors. American Express\'s field warehousing subsidiary had certified the (fake) inventory as collateral, and when the fraud collapsed in late 1963 it caused over $180 million in losses across American Express, Bank of America, and other lenders, and contributed to a stock market dip that coincided with the week of President Kennedy\'s assassination. De Angelis served seven years in prison.',
     categorySlug: 'investment-fraud',
     sources: ['U.S. Securities and Exchange Commission history', 'The Wall Street Journal (Pulitzer Prize-winning coverage)'],
-    sourceUrl: 'https://www.sec.gov/',
+    sourceUrl: 'https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins',
     country: 'US',
     isHistorical: true,
     firstRecorded: '1963-01-01',
@@ -2676,7 +2676,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'ai-deepfake-scams',
     alertLevel: 'high',
     sources: ['SEC Office of Investor Education and Advocacy'],
-    sourceUrl: 'https://www.investor.gov/',
+    sourceUrl: 'https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-alerts/artificial-intelligence-fraud',
   },
   {
     name: 'Fake Debt Validation Letter Scam',
@@ -2686,7 +2686,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'debt-relief-scams',
     alertLevel: 'medium',
     sources: ['Consumer Financial Protection Bureau'],
-    sourceUrl: 'https://www.consumerfinance.gov/consumer-tools/fraud/',
+    sourceUrl: 'https://www.consumerfinance.gov/ask-cfpb/what-is-a-debt-relief-program-and-how-do-i-know-if-i-should-use-one-en-1457/',
   },
   {
     name: 'Fake Wage Garnishment Notice Scam',
@@ -2696,7 +2696,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'debt-relief-scams',
     alertLevel: 'high',
     sources: ['Consumer Financial Protection Bureau', 'FTC Consumer Advice'],
-    sourceUrl: 'https://www.consumerfinance.gov/consumer-tools/fraud/',
+    sourceUrl: 'https://www.consumerfinance.gov/ask-cfpb/what-is-a-debt-relief-program-and-how-do-i-know-if-i-should-use-one-en-1457/',
   },
   {
     name: 'Debt Relief "Pay Us Instead of Your Creditors" Scam',
@@ -2736,7 +2736,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'insurance-fraud',
     alertLevel: 'high',
     sources: ['National Association of Insurance Commissioners'],
-    sourceUrl: 'https://www.naic.org/',
+    sourceUrl: 'https://content.naic.org/insurance-topics/insurance-fraud',
   },
   {
     name: 'Insurance "Assignment of Benefits" Contractor Scam',
@@ -2746,7 +2746,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'insurance-fraud',
     alertLevel: 'medium',
     sources: ['National Association of Insurance Commissioners', 'FTC Consumer Advice'],
-    sourceUrl: 'https://www.naic.org/',
+    sourceUrl: 'https://content.naic.org/insurance-topics/insurance-fraud',
   },
   {
     name: 'Fake Rideshare Driver Commercial Insurance Scam',
@@ -2756,7 +2756,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'insurance-fraud',
     alertLevel: 'medium',
     sources: ['National Association of Insurance Commissioners'],
-    sourceUrl: 'https://www.naic.org/',
+    sourceUrl: 'https://content.naic.org/insurance-topics/insurance-fraud',
   },
   {
     name: 'Fake Short-Term Health Plan Sold as ACA-Compliant',
@@ -2766,7 +2766,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'insurance-fraud',
     alertLevel: 'medium',
     sources: ['Centers for Medicare & Medicaid Services', 'FTC Consumer Advice'],
-    sourceUrl: 'https://www.cms.gov/fraud',
+    sourceUrl: 'https://www.cms.gov/medicare/medicaid-coordination/center-program-integrity/reporting-fraud',
   },
   {
     name: 'Fake Property Tax Deed Sale "Rescue" Scam',
@@ -2776,7 +2776,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'mortgage-foreclosure-scams',
     alertLevel: 'high',
     sources: ['Consumer Financial Protection Bureau'],
-    sourceUrl: 'https://www.consumerfinance.gov/consumer-tools/fraud/',
+    sourceUrl: 'https://www.consumerfinance.gov/consumer-tools/mortgages/how-to-spot-and-avoid-foreclosure-relief-scams/',
   },
   {
     name: 'Fake HOA Delinquency Lien Payoff Scam',
@@ -2786,7 +2786,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'mortgage-foreclosure-scams',
     alertLevel: 'medium',
     sources: ['Consumer Financial Protection Bureau'],
-    sourceUrl: 'https://www.consumerfinance.gov/consumer-tools/fraud/',
+    sourceUrl: 'https://www.consumerfinance.gov/consumer-tools/mortgages/how-to-spot-and-avoid-foreclosure-relief-scams/',
   },
   {
     name: 'Fake Federal Mortgage Modification Program Fee',
@@ -2796,7 +2796,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'mortgage-foreclosure-scams',
     alertLevel: 'medium',
     sources: ['Consumer Financial Protection Bureau', 'U.S. Department of Housing and Urban Development'],
-    sourceUrl: 'https://www.consumerfinance.gov/consumer-tools/fraud/',
+    sourceUrl: 'https://www.consumerfinance.gov/consumer-tools/mortgages/how-to-spot-and-avoid-foreclosure-relief-scams/',
   },
   {
     name: 'Fake Law Enforcement Sextortion Threat',
@@ -2896,7 +2896,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'healthcare-fraud',
     alertLevel: 'high',
     sources: ['HHS Office of Inspector General', 'Centers for Medicare & Medicaid Services'],
-    sourceUrl: 'https://oig.hhs.gov/fraud/report-fraud/',
+    sourceUrl: 'https://oig.hhs.gov/fraud/consumer-alerts/',
   },
   {
     name: 'Fake Hospital Billing Overdue Debt Call',
@@ -2916,7 +2916,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'healthcare-fraud',
     alertLevel: 'medium',
     sources: ['HHS Office of Inspector General'],
-    sourceUrl: 'https://oig.hhs.gov/fraud/report-fraud/',
+    sourceUrl: 'https://oig.hhs.gov/fraud/consumer-alerts/',
   },
   {
     name: 'Fake State Tax Refund Verification Text',
@@ -2936,7 +2936,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'tax-scams',
     alertLevel: 'high',
     sources: ['Internal Revenue Service', 'FTC Consumer Advice'],
-    sourceUrl: 'https://www.irs.gov/newsroom/tax-scams-consumer-alerts',
+    sourceUrl: 'https://www.irs.gov/newsroom/dirty-dozen',
   },
   {
     name: 'Fake IRS "Offer in Compromise" Fee Scam',
@@ -2946,7 +2946,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'tax-scams',
     alertLevel: 'medium',
     sources: ['Internal Revenue Service', 'FTC Consumer Advice'],
-    sourceUrl: 'https://www.irs.gov/newsroom/tax-scams-consumer-alerts',
+    sourceUrl: 'https://www.irs.gov/newsroom/dirty-dozen',
   },
   {
     name: 'Fake W-2 Phishing Email to Employers',
@@ -2956,7 +2956,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'tax-scams',
     alertLevel: 'high',
     sources: ['Internal Revenue Service', 'FBI IC3'],
-    sourceUrl: 'https://www.irs.gov/newsroom/tax-scams-consumer-alerts',
+    sourceUrl: 'https://www.irs.gov/newsroom/dirty-dozen',
   },
   {
     name: 'Fake Passport Renewal "Expedite Fee" Scam',
@@ -3176,7 +3176,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'mortgage-foreclosure-scams',
     alertLevel: 'medium',
     sources: ['Consumer Financial Protection Bureau'],
-    sourceUrl: 'https://www.consumerfinance.gov/consumer-tools/fraud/',
+    sourceUrl: 'https://www.consumerfinance.gov/consumer-tools/mortgages/how-to-spot-and-avoid-foreclosure-relief-scams/',
   },
   {
     name: 'Reverse Mortgage Proceeds Redirection Scam',
@@ -3186,7 +3186,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'mortgage-foreclosure-scams',
     alertLevel: 'high',
     sources: ['Consumer Financial Protection Bureau', 'U.S. Department of Housing and Urban Development'],
-    sourceUrl: 'https://www.consumerfinance.gov/consumer-tools/fraud/',
+    sourceUrl: 'https://www.consumerfinance.gov/consumer-tools/mortgages/how-to-spot-and-avoid-foreclosure-relief-scams/',
   },
   {
     name: 'Fake "We Buy Houses for Cash" Lowball Foreclosure Scam',
@@ -3196,7 +3196,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'mortgage-foreclosure-scams',
     alertLevel: 'medium',
     sources: ['Consumer Financial Protection Bureau', 'U.S. Department of Housing and Urban Development'],
-    sourceUrl: 'https://www.consumerfinance.gov/consumer-tools/fraud/',
+    sourceUrl: 'https://www.consumerfinance.gov/consumer-tools/mortgages/how-to-spot-and-avoid-foreclosure-relief-scams/',
   },
   {
     name: 'Fake Zoom Meeting Invite Phishing Email',
@@ -3326,7 +3326,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'insurance-fraud',
     alertLevel: 'medium',
     sources: ['National Association of Insurance Commissioners'],
-    sourceUrl: 'https://www.naic.org/',
+    sourceUrl: 'https://content.naic.org/insurance-topics/insurance-fraud',
   },
   {
     name: 'Fake Travel Insurance Add-On Upsell Scam',
@@ -3336,7 +3336,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'insurance-fraud',
     alertLevel: 'low',
     sources: ['National Association of Insurance Commissioners'],
-    sourceUrl: 'https://www.naic.org/',
+    sourceUrl: 'https://content.naic.org/insurance-topics/insurance-fraud',
   },
   {
     name: 'Fake Small Business Workers\' Compensation Policy Scam',
@@ -3346,7 +3346,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'insurance-fraud',
     alertLevel: 'high',
     sources: ['National Association of Insurance Commissioners'],
-    sourceUrl: 'https://www.naic.org/',
+    sourceUrl: 'https://content.naic.org/insurance-topics/insurance-fraud',
   },
   {
     name: 'Fake Credit Freeze/Unfreeze Phishing Call',
@@ -3396,7 +3396,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'ai-deepfake-scams',
     alertLevel: 'high',
     sources: ['SEC Office of Investor Education and Advocacy'],
-    sourceUrl: 'https://www.investor.gov/',
+    sourceUrl: 'https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-alerts/artificial-intelligence-fraud',
   },
   {
     name: 'Fake Electric Company Disconnection Threat Call',
@@ -3476,7 +3476,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'investment-fraud',
     alertLevel: 'high',
     sources: ['SEC Office of Investor Education and Advocacy'],
-    sourceUrl: 'https://www.investor.gov/',
+    sourceUrl: 'https://www.investor.gov/protect-your-investments/fraud/types-fraud',
   },
   {
     name: 'Fake Missing Child Alert Donation Scam',
@@ -3526,7 +3526,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'public-benefits-fraud',
     alertLevel: 'high',
     sources: ['U.S. Department of Labor', 'FTC Consumer Advice'],
-    sourceUrl: 'https://www.dol.gov/',
+    sourceUrl: 'https://www.dol.gov/agencies/eta/unemployment-insurance-payment-accuracy/UIFraudReporting',
   },
   {
     name: 'Fake Social Security Disability Advocate Fee Scam',
@@ -3626,7 +3626,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'debt-relief-scams',
     alertLevel: 'medium',
     sources: ['Consumer Financial Protection Bureau'],
-    sourceUrl: 'https://www.consumerfinance.gov/consumer-tools/fraud/',
+    sourceUrl: 'https://www.consumerfinance.gov/ask-cfpb/what-is-a-debt-relief-program-and-how-do-i-know-if-i-should-use-one-en-1457/',
   },
   {
     name: 'Fake Private Equity Access Scam for Retail Investors',
@@ -3636,7 +3636,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'investment-fraud',
     alertLevel: 'high',
     sources: ['SEC Office of Investor Education and Advocacy'],
-    sourceUrl: 'https://www.investor.gov/',
+    sourceUrl: 'https://www.investor.gov/protect-your-investments/fraud/types-fraud',
   },
   {
     name: 'Fake Veteran Service-Dog Training Charity Scam',
@@ -3666,7 +3666,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'public-benefits-fraud',
     alertLevel: 'medium',
     sources: ['Centers for Medicare & Medicaid Services'],
-    sourceUrl: 'https://www.cms.gov/fraud',
+    sourceUrl: 'https://www.cms.gov/medicare/medicaid-coordination/center-program-integrity/reporting-fraud',
   },
   {
     name: 'Fake WIC Benefits Card Replacement Scam',
@@ -3756,7 +3756,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'tax-scams',
     alertLevel: 'high',
     sources: ['Internal Revenue Service'],
-    sourceUrl: 'https://www.irs.gov/newsroom/tax-scams-consumer-alerts',
+    sourceUrl: 'https://www.irs.gov/newsroom/dirty-dozen',
   },
   {
     name: 'Fake "Do Not Call" Registry Renewal Scam',
@@ -3796,7 +3796,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'debt-relief-scams',
     alertLevel: 'medium',
     sources: ['Consumer Financial Protection Bureau'],
-    sourceUrl: 'https://www.consumerfinance.gov/consumer-tools/fraud/',
+    sourceUrl: 'https://www.consumerfinance.gov/ask-cfpb/what-is-a-debt-relief-program-and-how-do-i-know-if-i-should-use-one-en-1457/',
   },
   {
     name: 'Sextortion via a Compromised Employer Email Account',
@@ -3876,7 +3876,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'investment-fraud',
     alertLevel: 'high',
     sources: ['SEC Office of Investor Education and Advocacy'],
-    sourceUrl: 'https://www.investor.gov/',
+    sourceUrl: 'https://www.investor.gov/protect-your-investments/fraud/types-fraud',
   },
   {
     name: 'Fake First Responder Memorial Fund Scam',
@@ -4006,7 +4006,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'investment-fraud',
     alertLevel: 'high',
     sources: ['SEC Office of Investor Education and Advocacy'],
-    sourceUrl: 'https://www.investor.gov/',
+    sourceUrl: 'https://www.investor.gov/protect-your-investments/fraud/types-fraud',
   },
   {
     name: 'Fake Influencer Brand Ambassador Fee Scam',
