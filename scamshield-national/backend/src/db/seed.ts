@@ -825,6 +825,34 @@ Stavisky fled Paris and was found shot on January 8, 1934, at a chalet in Chamon
 The affair reached its most consequential moment on February 6, 1934, when far-right leagues rioted at the Place de la Concorde in Paris, leaving 15 to 17 people dead and over a thousand wounded, and forcing the resignation of the government led by Édouard Daladier — the only time in France's Third Republic that a sitting government fell as a direct result of street rioting. The crisis and its aftermath helped catalyze the anti-fascist unity that produced the Popular Front two years later, making the Stavisky affair one of the rare financial frauds in history that reshaped a national government rather than just its victims' bank accounts.`,
     sourceUrl: 'https://en.wikipedia.org/wiki/Stavisky_affair',
   },
+  {
+    title: 'Kobi Alexander: The Comverse CEO Who Fled a Backdating Scandal to Namibia',
+    slug: 'kobi-alexander-comverse-options-backdating-fugitive',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `Kobi Alexander spent roughly a decade as CEO of Comverse Technology secretly backdating stock option grants — choosing dates when the company's stock had hit historic lows, then having Comverse's general counsel fabricate board committee records showing the options had been approved on those earlier, lower-priced dates. That backdating quietly handed Alexander and two other executives in-the-money options worth tens of millions of dollars without ever disclosing the practice to shareholders or regulators. Separately, from 1999 to 2002, Alexander and Comverse's CFO padded option-grant lists submitted to the board with fictitious employee names, building an undisclosed slush fund of "phantom" options they later reallocated to real employees to recruit and retain staff off the books.
+
+The SEC filed civil fraud charges against Alexander, the CFO, and the general counsel in August 2006, with a parallel criminal indictment from federal prosecutors. According to the SEC, Alexander personally gained roughly $138 million from the scheme. Rather than face the charges, Alexander fled first to Israel and then to Namibia, a country with no extradition treaty with the United States at the time, and spent nearly a decade fighting extradition through Namibian courts.
+
+In August 2016, Alexander voluntarily returned to the United States and pleaded guilty to one count of securities fraud in federal court in the Eastern District of New York. He was sentenced to 30 months in prison, and separately agreed to pay $60 million to settle a shareholder lawsuit brought by Comverse investors, waiving more than $72 million in his own outstanding claims against the company as part of that settlement.
+
+Alexander's decade in Namibia is a reminder that fleeing to a country without an extradition treaty doesn't make a fraud case disappear — it just puts the reckoning on hold. The scheme itself worked precisely because backdated paperwork and fabricated board records look, on the surface, exactly like the routine documentation of legitimate compensation decisions, until someone goes back and checks the actual dates against the actual stock price.`,
+    sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-19796',
+  },
+  {
+    title: 'Boss Tweed: The Tammany Hall Fraud That Looted New York City',
+    slug: 'boss-tweed-tammany-hall-courthouse-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `William "Boss" Tweed led the Tammany Hall political machine that controlled New York City government in the years after the Civil War, and used that control to run one of the largest municipal fraud schemes in American history. The clearest example was the construction of a new county courthouse on Chambers Street: originally budgeted at $250,000, the building's cost ballooned to roughly $13 million after Tweed and his associates directed favored contractors to inflate their invoices by five to a hundred times the real cost of materials and labor, with the overcharges quietly kicked back to Tweed's inner circle through a network of bank transactions. Investigators at the time estimated the broader "Tweed Ring" had drained roughly $45 million from the city treasury over about three years, though later historical estimates of the total theft, including patronage and kickback schemes beyond the courthouse alone, have ranged much higher.
+
+Tweed's downfall came from a combination of investigative reporting by The New York Times, which obtained internal financial records exposing the courthouse overcharges, and the relentless editorial cartoons of Thomas Nast in Harper's Weekly, which turned Tweed's face into a national symbol of political corruption even among readers who couldn't follow the financial details. After a first trial in January 1873 ended in a hung jury, a retrial that November convicted Tweed on more than 200 misdemeanor counts of neglect of duty and official misconduct; he was sentenced to twelve consecutive one-year prison terms, later reduced to one year after New York's highest court ruled the consecutive sentencing scheme illegal.
+
+Released but still facing a separate civil suit seeking $3 million in restitution, Tweed was held on $3 million bail he couldn't post. He escaped custody in December 1875 and fled first to Cuba and then to Spain — where, according to the accounts of his capture, Spanish authorities recognized him from one of Nast's own cartoons and arrested him for extradition back to the United States. Returned to prison in November 1876, Tweed died in the Ludlow Street Jail of pneumonia on April 12, 1878, before ever facing the civil suit that had triggered his flight.
+
+Tweed's case remains a foundational study in how fraud hides in plain sight inside routine government paperwork — a courthouse invoice inflated by 100 times looks, line by line, like an ordinary bill, until someone bothers to add up what the work should have actually cost.`,
+    sourceUrl: 'https://history.nycourts.gov/figure/boss-tweed/',
+  },
 ];
 
 // Practical "how it works / red flags / what to do" guides covering the
