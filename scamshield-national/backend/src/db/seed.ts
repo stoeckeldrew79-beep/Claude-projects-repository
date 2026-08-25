@@ -964,6 +964,34 @@ A separate but related scam targets currently enrolled students directly: a call
 
 The one channel that actually manages federal student loans is StudentAid.gov, directly — never a third party, however official they sound on the phone. If you're contacted about loan forgiveness, hang up and check your loan status by logging into your own StudentAid.gov account, and report the contact to the FTC at ReportFraud.ftc.gov.`,
   },
+  {
+    title: 'Crypto ATM Scams: Why Fraudsters Send Victims to a Kiosk Instead of a Bank',
+    slug: 'crypto-atm-kiosk-scams',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'crypto-atm-scams'],
+    sourceUrl: 'https://www.ic3.gov/PSA/2026/PSA260515-2',
+    body: `A scammer posing as a government official, bank fraud investigator, tech support agent, or romantic partner convinces a victim their money is at risk and that the only way to protect it — or, in a romance or investment version, to grow it — is to withdraw cash and deposit it into a cryptocurrency ATM. The victim is walked through the process step by step: which kiosk to use, how much cash to insert, and finally, a QR code to scan that sends the converted cryptocurrency directly to the scammer's wallet, where it's gone permanently the moment the transaction confirms.
+
+The FBI's Internet Crime Complaint Center reported more than 13,400 complaints involving cryptocurrency kiosks in 2025 alone, with losses exceeding $388 million — a 58% jump in losses from the year before. More than half of all complaints came from people over 50, who together accounted for over $302 million in losses, making this one of the most costly scam categories targeting older adults specifically.
+
+What makes crypto kiosks especially attractive to scammers is the same thing that makes a wire transfer or gift card attractive: the transaction is fast, and once confirmed, it cannot be reversed or recalled by any bank, kiosk operator, or law enforcement agency. Unlike a bank, a crypto kiosk has no fraud department to call minutes after a transaction to freeze it — by the time a victim realizes what happened, the funds have typically already moved through multiple wallets.
+
+The reliable rule: no legitimate government agency, bank, or law enforcement officer will ever instruct you to withdraw cash and deposit it into a cryptocurrency kiosk to "protect," "verify," or "secure" your money — this instruction is, by itself, proof of a scam, regardless of how convincing the caller sounds or how official their story is. If someone directs you toward a crypto ATM, stop, hang up, and verify the situation independently before sending anything. If you've already sent money this way, report it immediately to IC3.gov — the earlier a transaction is reported, the better the (still limited) chance of any recovery.`,
+  },
+  {
+    title: 'Puppy Scams: The Fake Listing Behind a Pet That Never Arrives',
+    slug: 'puppy-pet-sale-scams',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'pet-scams'],
+    sourceUrl: 'https://www.bbb.org/all/petscams',
+    body: `An online ad shows an adorable purebred puppy at a price well below what a breeder would normally charge, with the "seller" explaining they can't meet in person — they're relocating, deployed, or the puppy is with a shipper — and asking for payment upfront to secure it. The photos look real because they usually are: stolen from a legitimate breeder's website or social media and reused across dozens of fake listings. The Better Business Bureau estimates that as much as 80% of sponsored pet advertisements online may be fraudulent.
+
+Once the first payment clears, the scam typically doesn't end there — a string of unexpected "last-minute" fees follows, framed as vaccinations, a special climate-controlled crate, pet insurance, or customs clearance for a shipment that was never real to begin with, each one presented as the final cost standing between the buyer and their new pet. The puppy, of course, never arrives, because it never existed.
+
+These scams work because they target something a too-good-to-be-true financial pitch usually can't: genuine emotional attachment, formed the moment a buyer falls for the photo of a specific puppy that feels already like theirs. That emotional investment is exactly why buyers often keep paying "one more fee," reluctant to walk away from a pet they've already started to think of as their own.
+
+Before paying anything: insist on a live video call showing the actual puppy in real time (not a pre-recorded clip), search the listing's photos online to check whether they've been used elsewhere, and never wire money, use a cash app, or pay with a gift card for a pet you haven't seen in person — reputable breeders and shelters overwhelmingly allow an in-person visit before any money changes hands. If you're set on buying online, verify the seller independently through petscams.com or the BBB before sending a deposit.`,
+  },
 ];
 
 async function seedArticles(articles: SeedArticle[], label: string) {
