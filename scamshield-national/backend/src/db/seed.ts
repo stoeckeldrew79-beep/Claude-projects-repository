@@ -780,6 +780,34 @@ The case became legally significant well beyond Winans's own sentence: he appeal
 Winans's case remains taught in both law and journalism schools as a foundational example of how a reporter's institutional credibility and advance knowledge can itself become a tradeable, and illegal, commodity — the underlying asset wasn't inside information about a business, but the trust placed in the column itself.`,
     sourceUrl: 'https://en.wikipedia.org/wiki/R._Foster_Winans',
   },
+  {
+    title: 'Aubrey Lee Price: The Ponzi Schemer Who Faked His Own Suicide',
+    slug: 'aubrey-lee-price-faked-death-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `Aubrey Lee Price was a Georgia investment adviser and bank director who ran a Ponzi scheme through his firm PFG, LLC and a related entity, Montgomery Prime, telling clients — many of them older, working with the same adviser for years — that their money was being invested in a hedge-fund-style trading strategy. Instead, prosecutors said Price diverted client and bank funds outside the actual investments he described, a shortfall that eventually helped trigger the collapse of a federally insured Georgia bank he also helped direct.
+
+In June 2012, as regulators began closing in, Price disappeared after mailing letters to family members and clients confessing to the fraud and claiming he intended to jump from a high-speed ferry departing Key West, Florida. No body was ever found, and a court later declared him legally dead. The confession letters, combined with his vanishing, triggered a nationwide manhunt and placed him on the FBI's Ten Most Wanted Fugitives list with a $20,000 reward for information leading to his capture.
+
+Price remained missing for a year and a half before a Glynn County, Georgia sheriff's deputy pulled him over for illegally tinted windows on December 31, 2013 — an ordinary traffic stop that ended one of the more unusual fugitive cases in recent federal history. He pleaded guilty to bank fraud, wire fraud, and securities fraud in the Southern District of Georgia, with prosecutors describing total losses to victims and the failed bank exceeding $70 million. In October 2014, a federal judge in Statesboro sentenced him to 30 years in prison.
+
+The case is a reminder that faking a disappearance doesn't make a fraud disappear with it — the paper trail of diverted client funds and bank losses remained exactly where investigators expected to find it, and an unrelated traffic stop was ultimately what ended a manhunt that a staged suicide had been designed to close permanently.`,
+    sourceUrl: 'https://www.justice.gov/usao-sdga/pr/aubrey-lee-price-former-bank-director-who-faked-his-own-death-sentenced-30-years-prison',
+  },
+  {
+    title: 'The Stavisky Affair: The Bond Fraud That Toppled a French Government',
+    slug: 'stavisky-affair-french-bond-fraud-1934',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Serge Alexandre Stavisky was a French financier and con man who built a career on fraudulent bond schemes run through provincial pawnshops, culminating in a fraud centered on the Crédit Municipal de Bayonne, a municipal pawnbroking institution. Stavisky had the institution issue bonds against wildly inflated collateral — including a supposed cache of emeralds he claimed once belonged to the German Empress, later shown to be worthless glass — then had those fraudulent bonds sold to insurance companies and investors as legitimate municipal debt, ultimately placing roughly $18 million worth before the scheme was uncovered.
+
+What made the case explosive wasn't just the fraud itself but how long it had been allowed to continue: Stavisky had cultivated protection among Radical-party politicians, including a government minister, who repeatedly helped delay a prosecution against him that had already been pending for 19 months. When Treasury officials finally exposed the forged bonds on Christmas Eve 1933, the scandal exposed not just a con man but the political establishment that had shielded him.
+
+Stavisky fled Paris and was found shot on January 8, 1934, at a chalet in Chamonix. Police officially ruled it a suicide, but the circumstances — including the angle of the wound — fueled a widespread and lasting suspicion that he had instead been killed by police to prevent testimony that would have implicated the officials protecting him. Prime Minister Camille Chautemps resigned within weeks over revelations of his government's ties to the scandal.
+
+The affair reached its most consequential moment on February 6, 1934, when far-right leagues rioted at the Place de la Concorde in Paris, leaving 15 to 17 people dead and over a thousand wounded, and forcing the resignation of the government led by Édouard Daladier — the only time in France's Third Republic that a sitting government fell as a direct result of street rioting. The crisis and its aftermath helped catalyze the anti-fascist unity that produced the Popular Front two years later, making the Stavisky affair one of the rare financial frauds in history that reshaped a national government rather than just its victims' bank accounts.`,
+    sourceUrl: 'https://en.wikipedia.org/wiki/Stavisky_affair',
+  },
 ];
 
 // Practical "how it works / red flags / what to do" guides covering the
