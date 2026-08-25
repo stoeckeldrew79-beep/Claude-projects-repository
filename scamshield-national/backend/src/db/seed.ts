@@ -4159,7 +4159,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'JP',
     alertLevel: 'critical',
     sources: ['Japan National Police Agency'],
-    sourceUrl: 'https://www.npa.go.jp/bureau/safetylife/sos47/',
+    sourceUrl: 'https://www.npa.go.jp/bureau/safetylife/sos47/case/oreore/',
   },
   {
     name: 'Dutch WhatsApp Bank Verification Scam',
@@ -4181,7 +4181,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'SE',
     alertLevel: 'critical',
     sources: ['Polisen (Swedish Police Authority)'],
-    sourceUrl: 'https://polisen.se/bedragerier',
+    sourceUrl: 'https://polisen.se/utsatt-for-brott/polisanmalan/bedragerier/bedragerier/identitetsbedrageri/',
   },
   {
     name: 'New Zealand Inland Revenue Refund Scam',
@@ -4269,7 +4269,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'JP',
     alertLevel: 'high',
     sources: ['Japan National Police Agency'],
-    sourceUrl: 'https://www.npa.go.jp/bureau/safetylife/sos47/',
+    sourceUrl: 'https://www.npa.go.jp/bureau/safetylife/sos47/case/refund/',
   },
   {
     name: 'Indian Fake Courier / Customs Parcel Scam',
@@ -4357,7 +4357,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'SE',
     alertLevel: 'medium',
     sources: ['Polisen (Swedish Police Authority)'],
-    sourceUrl: 'https://polisen.se/bedragerier',
+    sourceUrl: 'https://polisen.se/utsatt-for-brott/polisanmalan/bedragerier/bedragerier/annonsbedrageri/',
   },
   {
     name: 'NZ Vehicle Registration Renewal Scam',
@@ -4390,7 +4390,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'JP',
     alertLevel: 'high',
     sources: ['Japan National Police Agency'],
-    sourceUrl: 'https://www.npa.go.jp/bureau/safetylife/sos47/',
+    sourceUrl: 'https://www.npa.go.jp/bureau/cyber/countermeasures/unauthorized-access.html',
   },
   {
     name: 'German Zoll (Customs) Parcel Fee Scam',
@@ -4478,7 +4478,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'SE',
     alertLevel: 'medium',
     sources: ['Polisen (Swedish Police Authority)'],
-    sourceUrl: 'https://polisen.se/bedragerier',
+    sourceUrl: 'https://polisen.se/utsatt-for-brott/polisanmalan/bedragerier/bedragerier/telefonbedrageri/',
   },
   {
     name: 'German Rundfunkbeitrag (Broadcasting Fee) Threat Scam',
@@ -4566,7 +4566,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'SE',
     alertLevel: 'medium',
     sources: ['Polisen (Swedish Police Authority)'],
-    sourceUrl: 'https://polisen.se/bedragerier',
+    sourceUrl: 'https://polisen.se/utsatt-for-brott/polisanmalan/bedragerier/bedragerier/annonsbedrageri/',
   },
   {
     name: 'Canadian SIN Suspension Scam',
@@ -4632,7 +4632,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'JP',
     alertLevel: 'medium',
     sources: ['Japan National Police Agency'],
-    sourceUrl: 'https://www.npa.go.jp/bureau/safetylife/sos47/',
+    sourceUrl: 'https://www.npa.go.jp/bureau/cyber/countermeasures/phishing.html',
   },
   {
     name: 'Swedish "Skyddat Konto" Safe Account Scam',
@@ -4643,7 +4643,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'SE',
     alertLevel: 'critical',
     sources: ['Polisen (Swedish Police Authority)', 'Brottsförebyggande rådet (Brå)'],
-    sourceUrl: 'https://polisen.se/bedragerier',
+    sourceUrl: 'https://polisen.se/utsatt-for-brott/polisanmalan/bedragerier/bedragerier/identitetsbedrageri/',
   },
   {
     name: 'French "Faux Conseiller Bancaire" Fake Bank Advisor Scam',
@@ -4852,7 +4852,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'JP',
     alertLevel: 'critical',
     sources: ['Japan National Police Agency'],
-    sourceUrl: 'https://www.npa.go.jp/bureau/safetylife/sos47/',
+    sourceUrl: 'https://www.npa.go.jp/bureau/safetylife/sos47/case/sns-romance/investment/',
   },
   {
     name: 'Irish Fake Celebrity-Endorsed Investment Ad Scam',
@@ -4929,7 +4929,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'SE',
     alertLevel: 'medium',
     sources: ['Polisen (Swedish Police Authority)'],
-    sourceUrl: 'https://polisen.se/bedragerier',
+    sourceUrl: 'https://polisen.se/utsatt-for-brott/polisanmalan/bedragerier/bedragerier/annonsbedrageri/',
   },
   {
     name: 'German Fake Charity Donation Scam',
@@ -5061,7 +5061,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'SE',
     alertLevel: 'high',
     sources: ['Polisen (Swedish Police Authority)'],
-    sourceUrl: 'https://polisen.se/bedragerier',
+    sourceUrl: 'https://polisen.se/utsatt-for-brott/polisanmalan/bedrageri/bedragerier/romansbedrageri/',
   },
   {
     name: 'Singapore OTP Bank Phishing Scam',
@@ -5116,7 +5116,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'JP',
     alertLevel: 'medium',
     sources: ['Japan National Police Agency'],
-    sourceUrl: 'https://www.npa.go.jp/bureau/safetylife/sos47/',
+    sourceUrl: 'https://www.npa.go.jp/bureau/cyber/countermeasures/fake-shop.html',
   },
   {
     name: 'New Zealand Dating App Romance Scam',
@@ -5259,7 +5259,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'JP',
     alertLevel: 'high',
     sources: ['Japan National Police Agency'],
-    sourceUrl: 'https://www.npa.go.jp/bureau/safetylife/sos47/',
+    sourceUrl: 'https://www.npa.go.jp/bureau/safetylife/sos47/case/sns-romance/romance/',
   },
   {
     name: 'New Zealand Business Email Compromise Scam',
@@ -5501,7 +5501,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'JP',
     alertLevel: 'critical',
     sources: ['National Police Agency (Japan)'],
-    sourceUrl: 'https://www.npa.go.jp/bureau/safetylife/sos47/',
+    sourceUrl: 'https://www.npa.go.jp/bureau/safetylife/yamibaito/hanzaishaboshu.html',
   },
   {
     name: 'Japan Fake Security Warning Support Scam',
