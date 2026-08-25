@@ -1041,7 +1041,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'phishing',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/articles/how-recognize-avoid-phishing-scams',
   },
   {
     name: 'Fake DocuSign Signature Request',
@@ -1061,7 +1061,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'romance-scams',
     alertLevel: 'high',
     sources: ['FTC Consumer Advice', 'DoD Cyber Crime Center'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/romance-scams',
   },
   {
     name: 'Widowed-Profile Romance Scam',
@@ -1071,7 +1071,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'romance-scams',
     alertLevel: 'high',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/romance-scams',
   },
   {
     name: 'Fake Microsoft Security Pop-Up',
@@ -1081,7 +1081,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'tech-support-scams',
     alertLevel: 'high',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/articles/how-spot-avoid-and-report-tech-support-scams',
   },
   {
     name: 'Unsolicited "Your Computer Is Infected" Call',
@@ -1091,7 +1091,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'tech-support-scams',
     alertLevel: 'high',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/articles/how-spot-avoid-and-report-tech-support-scams',
   },
   {
     name: 'Fake Social Security Suspension Call',
@@ -1111,7 +1111,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'government-impersonation',
     alertLevel: 'critical',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/government-impersonators',
   },
   {
     name: 'Fake CEO Wire Transfer Request',
@@ -1171,7 +1171,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'package-delivery-scams',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2025/04/think-text-message-usps-it-could-be-scam',
   },
   {
     name: 'Fake Remote Job Overpayment Check',
@@ -1181,7 +1181,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'employment-scams',
     alertLevel: 'high',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/articles/job-scams',
   },
   {
     name: 'Mystery Shopper Job Scam',
@@ -1191,7 +1191,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'employment-scams',
     alertLevel: 'high',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/articles/job-scams',
   },
   {
     name: 'Fake Disaster Relief Charity',
@@ -1201,7 +1201,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'charity-scams',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice', 'BBB Wise Giving Alliance'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/all-scams/charity-scams',
   },
   {
     name: 'Fake Veterans Charity Phone Call',
@@ -1211,7 +1211,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'charity-scams',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/all-scams/charity-scams',
   },
   {
     name: 'Data Breach Follow-Up Phishing',
@@ -1221,7 +1221,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'identity-theft',
     alertLevel: 'high',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/identity-theft-and-online-security/identity-theft',
   },
   {
     name: 'Fake Credit Monitoring Enrollment Call',
@@ -1231,7 +1231,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'identity-theft',
     alertLevel: 'high',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/identity-theft-and-online-security/identity-theft',
   },
   {
     name: 'Fake Discount Online Storefront',
@@ -1241,7 +1241,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'online-shopping-scams',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice', 'BBB'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/scams-online-sales-when-orders-dont-arrive',
   },
   {
     name: 'Marketplace Overpayment Scam',
@@ -1251,7 +1251,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'online-shopping-scams',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/scams-online-sales-when-orders-dont-arrive',
   },
   {
     name: 'Fake Prize Notification Scam',
@@ -1261,7 +1261,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'lottery-sweepstakes-scams',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/articles/fake-prize-sweepstakes-and-lottery-scams',
   },
   {
     name: '"You’ve Won a Free Cruise" Robocall',
@@ -1271,7 +1271,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'lottery-sweepstakes-scams',
     alertLevel: 'low',
     sources: ['FTC Consumer Advice', 'FCC'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/articles/fake-prize-sweepstakes-and-lottery-scams',
   },
 
   // Second wave of current-pattern entries, added to broaden coverage
@@ -1286,7 +1286,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'phishing',
     alertLevel: 'high',
     sources: ['FTC Consumer Advice', 'FBI IC3'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/articles/how-recognize-avoid-phishing-scams',
   },
   {
     name: 'Fake Amazon Order Confirmation Email',
@@ -1296,7 +1296,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'phishing',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/articles/how-recognize-avoid-phishing-scams',
   },
   {
     name: 'Fake IT Helpdesk Password Reset',
@@ -1317,7 +1317,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'romance-scams',
     alertLevel: 'high',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/romance-scams',
   },
   {
     name: 'Off-Platform Messaging Push',
@@ -1327,7 +1327,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'romance-scams',
     alertLevel: 'low',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/romance-scams',
   },
   {
     name: 'Romance-to-Crypto Investment Pivot',
@@ -1348,7 +1348,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'tech-support-scams',
     alertLevel: 'high',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/articles/how-spot-avoid-and-report-tech-support-scams',
   },
   {
     name: 'Auto-Renewal Antivirus Refund Call',
@@ -1358,7 +1358,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'tech-support-scams',
     alertLevel: 'high',
     sources: ['FTC Consumer Advice', 'FBI IC3'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/articles/how-spot-avoid-and-report-tech-support-scams',
   },
   {
     name: 'Fake ISP Service Disconnection Call',
@@ -1368,7 +1368,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'tech-support-scams',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/articles/how-spot-avoid-and-report-tech-support-scams',
   },
 
   {
@@ -1379,7 +1379,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'government-impersonation',
     alertLevel: 'high',
     sources: ['FTC Consumer Advice', 'U.S. Department of Labor'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/government-impersonators',
   },
   {
     name: 'Fake Immigration Deportation Threat Call',
@@ -1389,7 +1389,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'government-impersonation',
     alertLevel: 'critical',
     sources: ['FTC Consumer Advice', 'FBI IC3'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/government-impersonators',
   },
   {
     name: 'Fake Census Bureau Data Request',
@@ -1441,7 +1441,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'investment-fraud',
     alertLevel: 'high',
     sources: ['FTC Consumer Advice', 'FBI IC3'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/articles/investment-scams',
   },
   {
     name: 'Prime Bank Instrument Fraud',
@@ -1492,7 +1492,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'package-delivery-scams',
     alertLevel: 'low',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2025/04/think-text-message-usps-it-could-be-scam',
   },
 
   {
@@ -1503,7 +1503,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'employment-scams',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/articles/job-scams',
   },
   {
     name: 'Fake Recruiter Personal Information Harvest',
@@ -1513,7 +1513,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'employment-scams',
     alertLevel: 'high',
     sources: ['FTC Consumer Advice', 'FBI IC3'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/articles/job-scams',
   },
   {
     name: 'Fake Job-Board "Easy Apply" Phishing Page',
@@ -1523,7 +1523,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'employment-scams',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/articles/job-scams',
   },
 
   {
@@ -1534,7 +1534,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'charity-scams',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice', 'BBB Scam Tracker'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/all-scams/charity-scams',
   },
   {
     name: 'Look-Alike Charity Name Scam',
@@ -1575,7 +1575,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'identity-theft',
     alertLevel: 'high',
     sources: ['FTC Consumer Advice', 'FBI IC3'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/identity-theft-and-online-security/identity-theft',
   },
   {
     name: 'Mail Theft Identity Theft',
@@ -1596,7 +1596,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'online-shopping-scams',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice', 'BBB Scam Tracker'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/scams-online-sales-when-orders-dont-arrive',
   },
   {
     name: 'Puppy Scam',
@@ -1616,7 +1616,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'online-shopping-scams',
     alertLevel: 'high',
     sources: ['FTC Consumer Advice', 'BBB Scam Tracker'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/scams-online-sales-when-orders-dont-arrive',
   },
 
   {
@@ -1627,7 +1627,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'lottery-sweepstakes-scams',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice', 'U.S. Postal Inspection Service'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/articles/fake-prize-sweepstakes-and-lottery-scams',
   },
   {
     name: 'Fake "Prize Patrol" Sweepstakes Call',
@@ -1637,7 +1637,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'lottery-sweepstakes-scams',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice', 'FCC'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/articles/fake-prize-sweepstakes-and-lottery-scams',
   },
   {
     name: 'Fake Government Grant Award',
@@ -1647,7 +1647,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'lottery-sweepstakes-scams',
     alertLevel: 'high',
     sources: ['FTC Consumer Advice', 'USA.gov'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/articles/fake-prize-sweepstakes-and-lottery-scams',
   },
 
   // Third wave: 3 more entries for each of the original 12 categories,
@@ -1663,7 +1663,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'phishing',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/articles/how-recognize-avoid-phishing-scams',
   },
   {
     name: 'Fake Cloud Storage Full Warning',
@@ -1673,7 +1673,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'phishing',
     alertLevel: 'low',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/articles/how-recognize-avoid-phishing-scams',
   },
   {
     name: 'Malicious Invoice Attachment Phishing',
@@ -1693,7 +1693,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'romance-scams',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice', 'BBB Scam Tracker'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/romance-scams',
   },
   {
     name: 'Long-Distance Engagement Travel Funds Scam',
@@ -1703,7 +1703,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'romance-scams',
     alertLevel: 'high',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/romance-scams',
   },
   {
     name: 'Sick Child Overseas Romance Scam',
@@ -1713,7 +1713,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'romance-scams',
     alertLevel: 'high',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/romance-scams',
   },
   {
     name: 'Fake Streaming Service Compromised Account Call',
@@ -1723,7 +1723,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'tech-support-scams',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/articles/how-spot-avoid-and-report-tech-support-scams',
   },
   {
     name: 'Fake Bank Fraud Department Remote Access Scam',
@@ -1733,7 +1733,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'tech-support-scams',
     alertLevel: 'critical',
     sources: ['FTC Consumer Advice', 'FBI IC3'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/articles/how-spot-avoid-and-report-tech-support-scams',
   },
   {
     name: 'Fake Router Firmware Update Call',
@@ -1743,7 +1743,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'tech-support-scams',
     alertLevel: 'high',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/articles/how-spot-avoid-and-report-tech-support-scams',
   },
   {
     name: 'Fake Unpaid Toll Text',
@@ -1763,7 +1763,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'government-impersonation',
     alertLevel: 'high',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/government-impersonators',
   },
   {
     name: 'Fake Social Security Benefit Increase Verification',
@@ -1843,7 +1843,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'package-delivery-scams',
     alertLevel: 'low',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2025/04/think-text-message-usps-it-could-be-scam',
   },
   {
     name: 'Fake DHL Missed Delivery Card',
@@ -1853,7 +1853,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'package-delivery-scams',
     alertLevel: 'low',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2025/04/think-text-message-usps-it-could-be-scam',
   },
   {
     name: 'Fake Amazon Delivery Failed Refund Scam',
@@ -1863,7 +1863,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'package-delivery-scams',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2025/04/think-text-message-usps-it-could-be-scam',
   },
   {
     name: 'Data Entry Job Starter Kit Fee',
@@ -1873,7 +1873,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'employment-scams',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/articles/job-scams',
   },
   {
     name: 'Guaranteed Government Job Placement Fee',
@@ -1883,7 +1883,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'employment-scams',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice', 'USA.gov'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/articles/job-scams',
   },
   {
     name: 'Task-Completion Pyramid Scam',
@@ -1933,7 +1933,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'identity-theft',
     alertLevel: 'high',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/identity-theft-and-online-security/identity-theft',
   },
   {
     name: 'Child Identity Theft via School Data Breach',
@@ -1943,7 +1943,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'identity-theft',
     alertLevel: 'high',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/identity-theft-and-online-security/identity-theft',
   },
   {
     name: 'New Account Fraud via Public Records',
@@ -1953,7 +1953,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'identity-theft',
     alertLevel: 'high',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/identity-theft-and-online-security/identity-theft',
   },
   {
     name: 'Fake Social Media Influencer Storefront',
@@ -1963,7 +1963,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'online-shopping-scams',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice', 'BBB Scam Tracker'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/scams-online-sales-when-orders-dont-arrive',
   },
   {
     name: 'Fake Vehicle Listing Scam',
@@ -1973,7 +1973,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'online-shopping-scams',
     alertLevel: 'high',
     sources: ['FTC Consumer Advice', 'BBB Scam Tracker'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/scams-online-sales-when-orders-dont-arrive',
   },
   {
     name: 'Fake Furniture Liquidation Sale Scam',
@@ -1993,7 +1993,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'lottery-sweepstakes-scams',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/articles/fake-prize-sweepstakes-and-lottery-scams',
   },
   {
     name: 'Fake Class Action Settlement Payout Scam',
@@ -2003,7 +2003,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'lottery-sweepstakes-scams',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/articles/fake-prize-sweepstakes-and-lottery-scams',
   },
   {
     name: 'Fake Unknown Relative Inheritance Scam',
@@ -2013,7 +2013,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'lottery-sweepstakes-scams',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice', 'U.S. Postal Inspection Service'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/articles/fake-prize-sweepstakes-and-lottery-scams',
   },
 
   // New category: Sextortion
@@ -2077,7 +2077,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'account-takeover',
     alertLevel: 'high',
     sources: ['FTC Consumer Advice', 'FBI IC3'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/articles/how-recover-your-hacked-email-or-social-media-account',
   },
   {
     name: 'Fake Password Reset Confirmation',
@@ -2087,7 +2087,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'account-takeover',
     alertLevel: 'critical',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/articles/how-recover-your-hacked-email-or-social-media-account',
   },
   {
     name: 'Social-Engineered Account Recovery Bypass',
@@ -2107,7 +2107,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'account-takeover',
     alertLevel: 'high',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/articles/how-recover-your-hacked-email-or-social-media-account',
   },
   {
     name: 'Session Cookie Theft via Malicious Browser Extension',
@@ -2129,7 +2129,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'insurance-fraud',
     alertLevel: 'high',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/articles/spot-health-insurance-scams',
   },
   {
     name: 'Post-Disaster Fake Claims Adjuster',
@@ -2139,7 +2139,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'insurance-fraud',
     alertLevel: 'high',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/articles/spot-health-insurance-scams',
   },
   {
     name: 'Staged Auto Accident Scam',
@@ -2159,7 +2159,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'insurance-fraud',
     alertLevel: 'low',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/articles/spot-health-insurance-scams',
   },
   {
     name: 'Ghost Broker Auto Insurance Scam',
@@ -2169,7 +2169,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'insurance-fraud',
     alertLevel: 'high',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/articles/spot-health-insurance-scams',
   },
 
   // New category: Healthcare Fraud
@@ -2233,7 +2233,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'ai-deepfake-scams',
     alertLevel: 'critical',
     sources: ['FTC Consumer Advice', 'FBI IC3'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2024/04/fighting-back-against-harmful-voice-cloning',
   },
   {
     name: 'Deepfake Video Call CEO Fraud',
@@ -2263,7 +2263,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'ai-deepfake-scams',
     alertLevel: 'high',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2024/04/fighting-back-against-harmful-voice-cloning',
   },
   {
     name: 'Deepfake Job Interview Fraudulent Candidate',
@@ -2285,7 +2285,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'debt-relief-scams',
     alertLevel: 'high',
     sources: ['FTC Consumer Advice', 'CFPB'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/all-scams/debt-credit-scams',
   },
   {
     name: 'Fake Student Loan Forgiveness Program',
@@ -2305,7 +2305,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'debt-relief-scams',
     alertLevel: 'high',
     sources: ['FTC Consumer Advice', 'CFPB'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/all-scams/debt-credit-scams',
   },
   {
     name: 'Fake Debt Collector Threatening Call',
@@ -2325,7 +2325,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'debt-relief-scams',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice', 'BBB Scam Tracker'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/all-scams/debt-credit-scams',
   },
 
   // New category: Mortgage & Foreclosure Scams
@@ -2586,7 +2586,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'account-takeover',
     alertLevel: 'high',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/articles/how-recover-your-hacked-email-or-social-media-account',
   },
   {
     name: 'Port-Out Fraud via Stolen Personal Information',
@@ -2626,7 +2626,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'account-takeover',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/articles/how-recover-your-hacked-email-or-social-media-account',
   },
   {
     name: 'AI-Cloned Executive Voice Wire-Approval Call',
@@ -2656,7 +2656,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'ai-deepfake-scams',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2024/04/fighting-back-against-harmful-voice-cloning',
   },
   {
     name: 'AI-Cloned Voicemail Urgent Callback Scam',
@@ -2666,7 +2666,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'ai-deepfake-scams',
     alertLevel: 'high',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2024/04/fighting-back-against-harmful-voice-cloning',
   },
   {
     name: 'AI-Generated Fake Investment Company Website',
@@ -2706,7 +2706,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'debt-relief-scams',
     alertLevel: 'high',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/all-scams/debt-credit-scams',
   },
   {
     name: 'Advance-Fee Debt Consolidation Loan Scam',
@@ -2716,7 +2716,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'debt-relief-scams',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/all-scams/debt-credit-scams',
   },
   {
     name: 'Fake Credit Card Interest Rate Reduction Robocall',
@@ -2726,7 +2726,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'debt-relief-scams',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/all-scams/debt-credit-scams',
   },
   {
     name: 'Fake Life Insurance Beneficiary Change Scam',
@@ -2836,7 +2836,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'phishing',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/articles/how-recognize-avoid-phishing-scams',
   },
   {
     name: 'Fake Browser Lock Screen Scam',
@@ -2846,7 +2846,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'tech-support-scams',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/articles/how-spot-avoid-and-report-tech-support-scams',
   },
   {
     name: 'Overseas Contractor Project Romance Scam',
@@ -2856,7 +2856,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'romance-scams',
     alertLevel: 'high',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/romance-scams',
   },
   {
     name: 'Fake People-Search Site Data Removal Scam',
@@ -2866,7 +2866,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'identity-theft',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/identity-theft-and-online-security/identity-theft',
   },
   {
     name: 'Fake Limited-Drop Sneaker or Collectible Resale Scam',
@@ -2876,7 +2876,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'online-shopping-scams',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/scams-online-sales-when-orders-dont-arrive',
   },
   {
     name: 'Fake Vaccine Card Sale Scam',
@@ -2906,7 +2906,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'healthcare-fraud',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/articles/what-know-about-medical-identity-theft',
   },
   {
     name: 'Fake At-Home Health Testing Kit Upsell Scam',
@@ -2926,7 +2926,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'tax-scams',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/irs-impersonators',
   },
   {
     name: 'Fake Tax Preparer Refund Skimming Scheme',
@@ -2976,7 +2976,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'government-impersonation',
     alertLevel: 'medium',
     sources: ['Federal Trade Commission'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/government-impersonators',
   },
   {
     name: 'Fake Selective Service Registration Fine Call',
@@ -3026,7 +3026,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'package-delivery-scams',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2025/04/think-text-message-usps-it-could-be-scam',
   },
   {
     name: 'Fake Package Held at Customs Warehouse Scam',
@@ -3036,7 +3036,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'package-delivery-scams',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2025/04/think-text-message-usps-it-could-be-scam',
   },
   {
     name: 'Porch Piracy Tracking-Number Phishing Follow-Up',
@@ -3046,7 +3046,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'package-delivery-scams',
     alertLevel: 'low',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2025/04/think-text-message-usps-it-could-be-scam',
   },
   {
     name: 'Fake Reshipping / Package Forwarding Job Scam',
@@ -3066,7 +3066,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'employment-scams',
     alertLevel: 'high',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/articles/job-scams',
   },
   {
     name: 'Fake LinkedIn Recruiter Direct-Message Job Scam',
@@ -3076,7 +3076,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'employment-scams',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/articles/job-scams',
   },
   {
     name: 'Fake Disaster-Relief Crowdfunding Clone',
@@ -3086,7 +3086,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'charity-scams',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/all-scams/charity-scams',
   },
   {
     name: 'Fake Children\'s Hospital Donation Call',
@@ -3096,7 +3096,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'charity-scams',
     alertLevel: 'medium',
     sources: ['Federal Trade Commission'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/all-scams/charity-scams',
   },
   {
     name: 'Fake Charity Text-to-Donate Scam',
@@ -3106,7 +3106,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'charity-scams',
     alertLevel: 'low',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/all-scams/charity-scams',
   },
   {
     name: 'Fake State Lottery Commission Winner Letter',
@@ -3116,7 +3116,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'lottery-sweepstakes-scams',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/articles/fake-prize-sweepstakes-and-lottery-scams',
   },
   {
     name: 'Fake Social Media Giveaway Winner DM Scam',
@@ -3126,7 +3126,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'lottery-sweepstakes-scams',
     alertLevel: 'low',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/articles/fake-prize-sweepstakes-and-lottery-scams',
   },
   {
     name: 'Fake Sweepstakes Certified-Check Overpayment Scam',
@@ -3136,7 +3136,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'lottery-sweepstakes-scams',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/articles/fake-prize-sweepstakes-and-lottery-scams',
   },
   {
     name: 'Dating App Blackmail Threatening to "Out" a Victim',
@@ -3206,7 +3206,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'phishing',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/articles/how-recognize-avoid-phishing-scams',
   },
   {
     name: 'Fake HR Benefits Open-Enrollment Phishing Email',
@@ -3216,7 +3216,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'phishing',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/articles/how-recognize-avoid-phishing-scams',
   },
   {
     name: 'Fake Toll Account Suspension Phishing Email',
@@ -3226,7 +3226,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'phishing',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/articles/how-recognize-avoid-phishing-scams',
   },
   {
     name: 'Humanitarian Doctor Overseas Mission Romance Scam',
@@ -3236,7 +3236,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'romance-scams',
     alertLevel: 'high',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/romance-scams',
   },
   {
     name: 'Grief Support Group Romance Scam',
@@ -3246,7 +3246,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'romance-scams',
     alertLevel: 'high',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/romance-scams',
   },
   {
     name: 'Romance Scam "Recovery Service" Scam',
@@ -3256,7 +3256,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'romance-scams',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/romance-scams',
   },
   {
     name: 'Fake Printer or Router Setup Support Line Scam',
@@ -3266,7 +3266,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'tech-support-scams',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/articles/how-spot-avoid-and-report-tech-support-scams',
   },
   {
     name: 'Fake Software License Renewal Popup Scam',
@@ -3276,7 +3276,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'tech-support-scams',
     alertLevel: 'low',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/articles/how-spot-avoid-and-report-tech-support-scams',
   },
   {
     name: 'Fake Remote "Cleanup" After a Real Malware Infection',
@@ -3286,7 +3286,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'tech-support-scams',
     alertLevel: 'high',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/articles/how-spot-avoid-and-report-tech-support-scams',
   },
   {
     name: 'Fake Marketplace Escrow Payment Service Scam',
@@ -3296,7 +3296,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'online-shopping-scams',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/scams-online-sales-when-orders-dont-arrive',
   },
   {
     name: 'Fake Appliance Warranty Extension Scam',
@@ -3306,7 +3306,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'online-shopping-scams',
     alertLevel: 'low',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/scams-online-sales-when-orders-dont-arrive',
   },
   {
     name: 'Fake Local Pickup Marketplace Scam',
@@ -3316,7 +3316,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'online-shopping-scams',
     alertLevel: 'low',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/scams-online-sales-when-orders-dont-arrive',
   },
   {
     name: 'Fake Renters Insurance Requirement Scam via Landlord Portal',
@@ -3356,7 +3356,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'identity-theft',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/identity-theft-and-online-security/identity-theft',
   },
   {
     name: 'Fake Online Notary Signing Service Identity-Harvesting Scam',
@@ -3366,7 +3366,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'identity-theft',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/identity-theft-and-online-security/identity-theft',
   },
   {
     name: 'Fake App Store Review Request Phishing Link',
@@ -3376,7 +3376,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'account-takeover',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/articles/how-recover-your-hacked-email-or-social-media-account',
   },
   {
     name: 'AI-Generated Fake Court Summons Document',
@@ -3386,7 +3386,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'ai-deepfake-scams',
     alertLevel: 'high',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2024/04/fighting-back-against-harmful-voice-cloning',
   },
   {
     name: 'AI Chatbot Impersonating a Real Financial Advisor',
@@ -3406,7 +3406,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'utility-scams',
     alertLevel: 'high',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/articles/scammers-pretend-be-your-utility-company',
   },
   {
     name: 'Fake Utility Bill Overpayment Refund Scam',
@@ -3416,7 +3416,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'utility-scams',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/articles/scammers-pretend-be-your-utility-company',
   },
   {
     name: 'Fake Internet or Cable Provider Equipment Fee Scam',
@@ -3426,7 +3426,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'utility-scams',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/articles/scammers-pretend-be-your-utility-company',
   },
   {
     name: 'Fake Meter Inspector Home Access Scam',
@@ -3436,7 +3436,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'utility-scams',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/articles/scammers-pretend-be-your-utility-company',
   },
   {
     name: 'Fake Utility-Sponsored Solar Panel Savings Scam',
@@ -3446,7 +3446,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'utility-scams',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/articles/scammers-pretend-be-your-utility-company',
   },
   {
     name: 'Fake Prepaid Utility Card Reload Scam',
@@ -3456,7 +3456,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'utility-scams',
     alertLevel: 'high',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/articles/scammers-pretend-be-your-utility-company',
   },
   {
     name: 'Fake Package Redirection Request Scam',
@@ -3466,7 +3466,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'package-delivery-scams',
     alertLevel: 'low',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2025/04/think-text-message-usps-it-could-be-scam',
   },
   {
     name: 'Fake Robo-Advisor App Investment Scam',
@@ -3486,7 +3486,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'charity-scams',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/all-scams/charity-scams',
   },
   {
     name: 'Fake Union Apprenticeship Program Fee Scam',
@@ -3496,7 +3496,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'employment-scams',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/articles/job-scams',
   },
   {
     name: 'EBT Card Skimming at Point-of-Sale Terminals',
@@ -3516,7 +3516,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'public-benefits-fraud',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2020/06/scammer-getting-unemployment-benefits-your-name',
   },
   {
     name: 'Unemployment Benefits Filed in a Victim\'s Name Using Stolen Data',
@@ -3546,7 +3546,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'identity-theft',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/identity-theft-and-online-security/identity-theft',
   },
   {
     name: 'Shared-Password Crackdown Phishing Email',
@@ -3556,7 +3556,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'account-takeover',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/articles/how-recover-your-hacked-email-or-social-media-account',
   },
   {
     name: 'Fake Dental Discount Plan Membership Scam',
@@ -3566,7 +3566,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'healthcare-fraud',
     alertLevel: 'low',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/articles/what-know-about-medical-identity-theft',
   },
   {
     name: 'Fake Subscription Box Free-Trial Scam',
@@ -3576,7 +3576,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'online-shopping-scams',
     alertLevel: 'low',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/scams-online-sales-when-orders-dont-arrive',
   },
   {
     name: 'Classic Grandparent Bail-Money Scam',
@@ -3586,7 +3586,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'family-emergency-scams',
     alertLevel: 'high',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/articles/scammers-use-fake-emergencies-steal-your-money',
   },
   {
     name: 'Fake Bail Bondsman Follow-Up Call',
@@ -3596,7 +3596,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'family-emergency-scams',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/articles/scammers-use-fake-emergencies-steal-your-money',
   },
   {
     name: 'Fake Hospital Emergency Payment Call',
@@ -3606,7 +3606,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'family-emergency-scams',
     alertLevel: 'high',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/articles/scammers-use-fake-emergencies-steal-your-money',
   },
   {
     name: 'Stranded Traveler Family-Member Scam',
@@ -3616,7 +3616,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'family-emergency-scams',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/articles/scammers-use-fake-emergencies-steal-your-money',
   },
   {
     name: 'Fake Private Student Loan Refinance Fee Scam',
@@ -3646,7 +3646,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'charity-scams',
     alertLevel: 'medium',
     sources: ['Federal Trade Commission'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/all-scams/charity-scams',
   },
   {
     name: 'Fake GLP-1 Weight-Loss Drug Counterfeit Scam',
@@ -3716,7 +3716,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'family-emergency-scams',
     alertLevel: 'high',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/articles/scammers-use-fake-emergencies-steal-your-money',
   },
   {
     name: 'Fake Boil-Water Notice Sales Scam',
@@ -3726,7 +3726,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'utility-scams',
     alertLevel: 'low',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/articles/scammers-pretend-be-your-utility-company',
   },
   {
     name: 'Fake Smart Meter Installation Fee Scam',
@@ -3736,7 +3736,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'utility-scams',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/articles/scammers-pretend-be-your-utility-company',
   },
   {
     name: 'Fake Utility Rebate Program Phishing Email',
@@ -3746,7 +3746,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'utility-scams',
     alertLevel: 'low',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/articles/scammers-pretend-be-your-utility-company',
   },
   {
     name: 'Fake Tax Preparer Inflated-Refund Promise Scam',
@@ -3766,7 +3766,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'government-impersonation',
     alertLevel: 'low',
     sources: ['Federal Trade Commission'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/government-impersonators',
   },
   {
     name: 'Fake Vendor Onboarding Form Credential Harvest',
@@ -3786,7 +3786,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'lottery-sweepstakes-scams',
     alertLevel: 'low',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/articles/fake-prize-sweepstakes-and-lottery-scams',
   },
   {
     name: 'Fake Timeshare Loan Forgiveness Scam',
@@ -3846,7 +3846,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'family-emergency-scams',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/articles/scammers-use-fake-emergencies-steal-your-money',
   },
   {
     name: 'Fake Utility "Text-to-Pay" Phishing Link',
@@ -3856,7 +3856,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'utility-scams',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/articles/scammers-pretend-be-your-utility-company',
   },
   {
     name: 'Fake Community Solar Bill-Credit Scam',
@@ -3866,7 +3866,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'utility-scams',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/articles/scammers-pretend-be-your-utility-company',
   },
   {
     name: 'Fake Viatical/Life Settlement Investment Scam',
@@ -3886,7 +3886,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'charity-scams',
     alertLevel: 'medium',
     sources: ['Federal Trade Commission'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/all-scams/charity-scams',
   },
   {
     name: 'Fake Long-Term Care Insurance Rate Increase Scam',
@@ -3906,7 +3906,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'identity-theft',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/identity-theft-and-online-security/identity-theft',
   },
   {
     name: 'Fake Return Label Refund Scam',
@@ -3916,7 +3916,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'package-delivery-scams',
     alertLevel: 'low',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2025/04/think-text-message-usps-it-could-be-scam',
   },
   {
     name: 'Fake Cruise Ship Crew Job Fee Scam',
@@ -3926,7 +3926,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'employment-scams',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/articles/job-scams',
   },
   {
     name: 'Fake Extended Auto Warranty Robocall',
@@ -3936,7 +3936,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'insurance-fraud',
     alertLevel: 'medium',
     sources: ['Federal Trade Commission'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/articles/spot-health-insurance-scams',
   },
   {
     name: 'Fake Professional Athlete Impersonation Romance Scam',
@@ -3946,7 +3946,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'romance-scams',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/romance-scams',
   },
   {
     name: 'Fake Wholesale Liquidation Pallet Scam',
@@ -3956,7 +3956,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'online-shopping-scams',
     alertLevel: 'low',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/scams-online-sales-when-orders-dont-arrive',
   },
   {
     name: 'Fake "Free" VPN App Data-Harvesting Scam',
@@ -3966,7 +3966,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'tech-support-scams',
     alertLevel: 'low',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/articles/how-spot-avoid-and-report-tech-support-scams',
   },
   {
     name: 'Fake Background Check "Personal Report" Scam',
@@ -3976,7 +3976,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'identity-theft',
     alertLevel: 'low',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/identity-theft-and-online-security/identity-theft',
   },
   {
     name: 'Fake Church Building Fund Scam',
@@ -3986,7 +3986,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'charity-scams',
     alertLevel: 'low',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/all-scams/charity-scams',
   },
   {
     name: 'Fake Hearing Aid "Free Trial" Scam',
@@ -3996,7 +3996,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'healthcare-fraud',
     alertLevel: 'low',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/articles/what-know-about-medical-identity-theft',
   },
   {
     name: 'Fake Art Fractional-Ownership Investment Scam',
@@ -4016,7 +4016,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'employment-scams',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/scams',
+    sourceUrl: 'https://consumer.ftc.gov/articles/job-scams',
   },
   {
     name: 'UK TV Licensing Phishing Email',
