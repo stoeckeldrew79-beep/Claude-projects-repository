@@ -719,6 +719,34 @@ Nadir voluntarily returned to the UK in August 2010 to face trial, maintaining h
 Nadir, who died in February 2025 at age 83, remained a divisive figure in Britain for decades after Polly Peck's collapse: a former Conservative Party donor whose case became tangled in questions about political influence and delayed prosecution, and a fugitive whose eventual voluntary return and trial closed out one of the longest-running unresolved corporate fraud cases in British history.`,
     sourceUrl: 'https://cyprus-mail.com/2025/02/09/asil-nadir-dead',
   },
+  {
+    title: "Conrad Black and the Hollinger International Fraud That Ended a Newspaper Empire",
+    slug: 'conrad-black-hollinger-international-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Conrad Black built Hollinger International into one of the world's largest newspaper empires, owning titles including Britain's Daily Telegraph, Canada's National Post, and the Chicago Sun-Times, and became one of the most prominent media barons of his era. As Hollinger sold off newspaper properties through the early 2000s, prosecutors alleged that Black and several other executives diverted millions of dollars meant for the company into their own pockets, disguised as "non-compete" payments — fees the buyers of Hollinger's newspapers paid supposedly to keep Hollinger itself from launching competing publications, money that should have gone to Hollinger's shareholders rather than its executives.
+
+A federal jury in Chicago convicted Black in July 2007 of three counts of mail fraud and one count of obstruction of justice, while acquitting him of nine other charges including racketeering. The obstruction charge stemmed from video surveillance that caught Black removing 13 boxes of documents from his Toronto office after a court order had specifically barred him from taking away anything that could be evidence for a federal grand jury.
+
+Black was sentenced to six and a half years in prison and ordered to pay a fine, though an appeals court later threw out two of his three fraud convictions on narrower legal grounds, leaving one fraud count and the obstruction conviction standing; he ultimately served roughly three and a half years before his release. In 2019, U.S. President Donald Trump granted Black a full pardon.
+
+Black's case became a widely cited example of how a media proprietor's control over public companies can blur into personal enrichment at shareholders' expense — and of how a single piece of video evidence, showing him carrying boxes out of an office in defiance of a court order, ended up mattering as much to the outcome as the underlying financial fraud itself.`,
+    sourceUrl: 'https://www.npr.org/2007/07/13/11948939/conrad-black-convicted-of-fraud',
+  },
+  {
+    title: 'Kenneth Starr: The Financial Adviser to the Stars Who Stole From His Own Clients',
+    slug: 'kenneth-starr-celebrity-money-manager-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Kenneth Starr ran a New York financial management firm that built a client roster of wealthy entertainment-industry names, advising on investments, taxes, and personal finances for people whose public profile made them unlikely to closely scrutinize where their money actually went. Behind that reputation, prosecutors found, Starr was quietly diverting client funds for his own use rather than investing them as promised.
+
+Starr pleaded guilty in 2010 to wire fraud, money laundering, and investment adviser fraud, admitting he had cheated nine wealthy and elderly clients out of more than $30 million by secretly funneling their money into risky, undisclosed investments or simply spending it himself, including on his own multimillion-dollar Manhattan apartment. Prosecutors noted that his stable of celebrity clients over the years included figures like Wesley Snipes, Sylvester Stallone, and Martin Scorsese — though there was no indication those particular clients were among the nine victims of the scheme itself.
+
+A federal judge sentenced Starr to seven and a half years in prison. The case drew heavy media attention for the gap between Starr's carefully built image as a trusted adviser to the famous and the far more ordinary reality of the fraud: a money manager quietly draining the accounts of clients — mostly older, wealthy individuals, not the celebrities whose names lent his firm its credibility — who trusted him enough not to ask too many questions.
+
+Starr's case is a reminder that a fraudster's most valuable asset is often reputation by association: a client list full of famous names can function as an implicit credential, even when those names have nothing to do with — and no awareness of — the fraud actually taking place.`,
+    sourceUrl: 'https://www.cbsnews.com/news/kenneth-starr-fraud-ex-adviser-to-the-stars-sentenced-in-federal-fraud-case/',
+  },
 ];
 
 // Practical "how it works / red flags / what to do" guides covering the
