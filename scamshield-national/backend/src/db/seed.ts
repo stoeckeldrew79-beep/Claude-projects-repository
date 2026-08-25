@@ -898,7 +898,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'phishing',
     alertLevel: 'medium',
     sources: ['FBI IC3'],
-    sourceUrl: 'https://www.ic3.gov/',
+    sourceUrl: 'https://www.hhs.gov/sites/default/files/docusign-abuse-sector-alart-tlpclear.pdf',
   },
   {
     name: 'Military Deployment Romance Scam',
@@ -1153,7 +1153,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'phishing',
     alertLevel: 'high',
     sources: ['FBI IC3', 'CISA'],
-    sourceUrl: 'https://www.ic3.gov/',
+    sourceUrl: 'https://www.ic3.gov/PSA/2024/PSA240411',
   },
 
   {
@@ -1329,7 +1329,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'package-delivery-scams',
     alertLevel: 'medium',
     sources: ['FBI IC3', 'FTC Consumer Advice'],
-    sourceUrl: 'https://www.ic3.gov/',
+    sourceUrl: 'https://www.ic3.gov/PSA/2025/PSA250731',
   },
   {
     name: 'Fake Delivery Driver Tip Request',
@@ -1600,7 +1600,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'government-impersonation',
     alertLevel: 'medium',
     sources: ['FBI IC3', 'FTC Consumer Advice'],
-    sourceUrl: 'https://www.ic3.gov/',
+    sourceUrl: 'https://www.ic3.gov/PSA/2024/PSA240412',
   },
   {
     name: 'Fake Jury Duty Failure-to-Appear Fine',
@@ -1640,7 +1640,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'business-email-compromise',
     alertLevel: 'high',
     sources: ['FBI IC3'],
-    sourceUrl: 'https://www.ic3.gov/',
+    sourceUrl: 'https://www.ic3.gov/PSA/2020/PSA200406',
   },
   {
     name: 'Fake New-Hire Direct Deposit Setup',
@@ -1944,7 +1944,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'account-takeover',
     alertLevel: 'high',
     sources: ['FBI IC3'],
-    sourceUrl: 'https://www.ic3.gov/',
+    sourceUrl: 'https://www.ic3.gov/PSA/2025/PSA251125',
   },
   {
     name: 'Compromised Social Media Ad Account Takeover',
@@ -2120,7 +2120,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'ai-deepfake-scams',
     alertLevel: 'medium',
     sources: ['FBI IC3', 'CISA'],
-    sourceUrl: 'https://www.ic3.gov/',
+    sourceUrl: 'https://www.ic3.gov/PSA/2022/psa220628',
   },
 
   // New category: Debt Relief Scams
@@ -2453,7 +2453,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'account-takeover',
     alertLevel: 'high',
     sources: ['FBI IC3'],
-    sourceUrl: 'https://www.ic3.gov/',
+    sourceUrl: 'https://www.ic3.gov/CSA/2020/200929-1.pdf',
   },
   {
     name: 'OAuth App Consent Phishing',
