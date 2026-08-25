@@ -40,7 +40,7 @@ export default function Notorious() {
               to={`/articles/${article.slug}`}
               className="group block overflow-hidden rounded-xl border border-slate-200 hover:border-slate-400 hover:shadow-md transition-all"
             >
-              <div className="h-44 overflow-hidden">
+              <div className="h-56 overflow-hidden">
                 {article.cover_image ? (
                   <img
                     src={article.cover_image}
