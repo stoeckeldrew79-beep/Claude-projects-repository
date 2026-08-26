@@ -6641,6 +6641,89 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Canadian Anti-Fraud Centre (CAFC)'],
     sourceUrl: 'https://antifraudcentre-centreantifraude.ca/features-vedette/2024/07/bulletin-deepfakes-hypertrucage-eng.htm',
   },
+  {
+    name: 'FAFSA Processing Fee Scam',
+    slug: 'fafsa-processing-fee-scam',
+    description:
+      'A company advertises help getting a student "more financial aid" or guarantees FAFSA processing for a fee, often billed as a "processing," "redemption," or "disbursement" charge. The FAFSA itself is always free to file directly at studentaid.gov, so the company isn\'t doing anything a student couldn\'t do themselves for nothing — and in some cases, victims are asked to hand over their FSA ID and password to a third party, which violates federal policy and can expose the student to penalties if false information ends up on the form. The FTC states it plainly: "Never pay anyone to fill out or process your FAFSA. That\'s probably a scam."',
+    categorySlug: 'debt-relief-scams',
+    alertLevel: 'medium',
+    sources: ['Federal Trade Commission (FTC)'],
+    sourceUrl: 'https://consumer.ftc.gov/articles/how-avoid-scholarship-and-financial-aid-scams',
+  },
+  {
+    name: 'FSA Portal Refund-Redirect Phishing',
+    slug: 'fsa-portal-refund-redirect-phishing',
+    description:
+      'A phishing email impersonating a student\'s school portal harvests login credentials for their financial-aid account, then the attacker logs in and changes the direct-deposit destination so the student\'s federal aid refund is quietly rerouted to the attacker\'s own bank account instead. The Department of Education\'s Federal Student Aid office has issued a direct warning about this exact campaign, and federal regulators have separately flagged financial-aid account takeover as an active fraud pattern tied to student aid disbursement season.',
+    categorySlug: 'account-takeover',
+    alertLevel: 'high',
+    sources: ['U.S. Department of Education, Federal Student Aid'],
+    sourceUrl: 'https://fsapartners.ed.gov/knowledge-center/library/electronic-announcements/2018-08-31/active-phishing-campaign-targeting-student-email-accounts',
+  },
+  {
+    name: 'Ghost Student FAFSA Identity Fraud',
+    slug: 'ghost-student-fafsa-identity-fraud',
+    description:
+      'A fraud ring uses stolen identities, or pays recruited "straw students" to lend their own, to enroll at colleges — sometimes solely to trigger financial aid disbursements rather than to actually attend classes — then diverts the aid money for itself, leaving the real people whose identities were used with damaged credit and a fraudulent enrollment record to untangle. In one federal case out of Michigan, prosecutors charged two people separately over roughly $16 million and $3 million in fraudulently claimed federal student aid, one scheme alone using more than 1,200 "straw student" identities.',
+    categorySlug: 'identity-theft',
+    alertLevel: 'medium',
+    sources: ['U.S. Department of Justice'],
+    sourceUrl: 'https://www.justice.gov/usao-edmi/pr/two-detroiters-charged-stealing-over-12-million-separate-federal-student-aid-fraud-0',
+  },
+  {
+    name: 'Student Money-Mule Recruitment Scam',
+    slug: 'student-money-mule-recruitment-scam',
+    description:
+      'A fake "personal assistant" or easy remote-job listing, sometimes an email impersonating a professor or college office, targets college students specifically. Once a student accepts, the scammer mails a fraudulent check and instructs them to deposit it and wire part of the money elsewhere for a fabricated reason, like buying equipment or paying a vendor. The check later bounces, leaving the student owing their own bank the full amount they already wired out — and without realizing it, they\'ve just moved stolen money for a criminal. The FTC\'s own warning is direct: "If they tell you to deposit a check and use some of the money for any reason, that\'s a scam."',
+    categorySlug: 'employment-scams',
+    alertLevel: 'high',
+    sources: ['Federal Trade Commission (FTC)'],
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2024/04/college-students-are-targeted-jobs-scams-too-0',
+  },
+  {
+    name: 'Fake Online Textbook Storefront Scam',
+    slug: 'fake-online-textbook-storefront-scam',
+    description:
+      'A bargain textbook website takes payment from college students at checkout and never ships anything, becoming unreachable afterward — no working phone number, no functioning contact form. The Better Business Bureau documented one such case, "Booktiz," which listed a New York City street address that turned out to belong to a completely unrelated business, while the site\'s actual domain registration traced to Panama — a storefront built entirely to look real just long enough to collect payment from students shopping for cheap textbooks at the start of a semester.',
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'medium',
+    sources: ['Better Business Bureau (BBB)'],
+    sourceUrl: 'https://www.bbb.org/us/ny/new-york/profile/online-retailer/booktiz-0121-182416',
+  },
+  {
+    name: 'Singapore Fake Tech Support Scam',
+    slug: 'singapore-fake-tech-support-scam',
+    description:
+      'A browser pop-up falsely claims a device is infected, impersonating Microsoft and displaying a phone number to call. Victims who call are transferred to a scammer posing as a police officer who accuses them of money laundering, then pressures them into bank transfers, handing over login credentials, or granting remote access to their device. The Singapore Police Force and Cyber Security Agency issued a joint advisory after at least 10 reported cases since February 2026 resulted in losses topping S$1.7 million.',
+    categorySlug: 'tech-support-scams',
+    country: 'SG',
+    alertLevel: 'critical',
+    sources: ['Singapore Police Force', 'Cyber Security Agency of Singapore (CSA)'],
+    sourceUrl: 'https://www.police.gov.sg/Media-Hub/News/2026/06/20260609_joint_advisory_on_technical_support_scams_involving_the_impersonation_of_microsoft',
+  },
+  {
+    name: 'Singapore SP Group Utility Phishing Scam',
+    slug: 'singapore-sp-group-utility-phishing-scam',
+    description:
+      'An email or text message impersonating SP Group, Singapore\'s main electricity and gas provider, claims an outstanding or overcharged bill and pushes urgency — often a warning that a payment link will expire soon. The link leads to a fake SP Group site that harvests personal and card details, which are then used for unauthorized transactions, sometimes in a foreign currency. The Singapore Police Force reported at least 7 cases of this exact pattern since October 2024, with losses of at least S$12,000.',
+    categorySlug: 'utility-scams',
+    country: 'SG',
+    alertLevel: 'high',
+    sources: ['Singapore Police Force'],
+    sourceUrl: 'https://www.police.gov.sg/media-hub/news/2024/20241107_police_advisory_on_phishing_scams_involving_the_impersonation_of_sp_group',
+  },
+  {
+    name: 'Singapore AI Deepfake Government Impersonation Investment Scam',
+    slug: 'singapore-ai-deepfake-government-impersonation-scam',
+    description:
+      'Scammers use AI-fabricated video of senior Singapore government officials — including a fake Zoom "video conference" featuring deepfaked appearances of the President, Prime Minister, and Monetary Authority of Singapore officials — to build trust before a fake "lawyer" solicits a large fund transfer, one confirmed case costing a victim S$4.9 million. An earlier, separate wave of deepfake videos of the Prime Minister and Deputy Prime Minister circulated on Facebook promoting bogus crypto investment schemes with "guaranteed returns," prompting both leaders to publicly warn the videos were fake.',
+    categorySlug: 'ai-deepfake-scams',
+    country: 'SG',
+    alertLevel: 'critical',
+    sources: ['Singapore Police Force'],
+    sourceUrl: 'https://www.police.gov.sg/media-hub/news/2026/05/20260516_footage_from_zoom_video_conference_involving_impersonation_of_senior_government_officials',
+  },
 ];
 
 async function seedCategoriesAndScams() {
