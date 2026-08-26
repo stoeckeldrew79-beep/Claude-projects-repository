@@ -6996,6 +6996,39 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Federal Trade Commission (FTC)'],
     sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2024/11/looking-marketplace-health-insurance-open-enrollment-season-avoid-scammers',
   },
+  {
+    name: 'Dutch Bank Helpdesk Spoofing Fraud (Bankhelpdeskfraude)',
+    slug: 'dutch-bank-helpdesk-spoofing-fraud',
+    description:
+      'A caller spoofs their phone number to display the victim\'s real bank on caller ID, claims fraudulent activity has been detected on the account, and pressures the victim into moving their money into a "safe" or "vault" account that is actually controlled by the criminals — the victim transfers the money themselves rather than having a code or login stolen outright. Some callers pose as police investigating a nearby burglary, or ask the victim to install remote-access software, and the stolen funds are laundered through recruited "money mules." Dutch consumer group Consumentenbond reports losses in the millions of euros annually, with bank reimbursement rates for victims falling from around 92% in 2021 to roughly 50% by 2025-2026.',
+    categorySlug: 'account-takeover',
+    country: 'NL',
+    alertLevel: 'critical',
+    sources: ['Politie (Dutch National Police)', 'Consumentenbond'],
+    sourceUrl: 'https://www.politie.nl/informatie/wat-is-telefonische-helpdeskfraude-bank.html',
+  },
+  {
+    name: 'Dutch "Vriend in Nood" Hacked Friend Fraud',
+    slug: 'dutch-vriend-in-nood-hacked-friend-fraud',
+    description:
+      'A message arrives over WhatsApp, SMS, Telegram, or another app from what looks like a real friend\'s account — because it was actually hacked, or a lookalike account was created using their name and photo — claiming an urgent need for money, commonly framed as a lost or broken phone leaving them temporarily locked out of online banking. Victims who pay are frequently asked for a second transfer before discovering, only after contacting the real friend through another channel, that the account had been compromised the whole time. Dutch police logged roughly 100 reports a day of this pattern at its 2020 peak, up sharply from about 130 a week before.',
+    categorySlug: 'account-takeover',
+    country: 'NL',
+    alertLevel: 'high',
+    sources: ['Politie (Dutch National Police)'],
+    sourceUrl: 'https://www.politie.nl/informatie/wat-is-whatsapp-fraude-vriend-in-noodfraude.html',
+  },
+  {
+    name: 'Dutch Parking Meter QR Code Scam (Quishing)',
+    slug: 'dutch-parking-meter-qr-code-scam',
+    description:
+      'Criminals stick fraudulent QR-code stickers directly onto public parking payment machines — documented in Amsterdam, Maastricht, Sittard-Geleen, and elsewhere — so that a driver scanning the code to pay is instead sent to a fake site mimicking a real parking app, which captures their full card details instead of processing an actual parking payment. Dutch police specifically warn drivers to check for a sticker or raised edge over a machine\'s original code and to pay only through an official parking app rather than scanning a code directly on the machine, since this hybrid physical-and-digital tactic captures far more than the price of a parking session.',
+    categorySlug: 'phishing',
+    country: 'NL',
+    alertLevel: 'high',
+    sources: ['Politie (Dutch National Police)'],
+    sourceUrl: 'https://www.politie.nl/informatie/wat-is-fraude-met-qr-codes-quishing.html',
+  },
 ];
 
 async function seedCategoriesAndScams() {
