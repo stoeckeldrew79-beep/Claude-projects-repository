@@ -899,6 +899,34 @@ Released but still facing a separate civil suit seeking $3 million in restitutio
 Tweed's case remains a foundational study in how fraud hides in plain sight inside routine government paperwork — a courthouse invoice inflated by 100 times looks, line by line, like an ordinary bill, until someone bothers to add up what the work should have actually cost.`,
     sourceUrl: 'https://history.nycourts.gov/figure/boss-tweed/',
   },
+  {
+    title: 'Ephren Taylor: The "Social Capitalist" Who Ran a Ponzi Scheme Through Black Churches',
+    slug: 'ephren-taylor-city-capital-church-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `Ephren Taylor II built a public image as "The Social Capitalist" — a young Black entrepreneur, the son of a minister, who marketed himself as the youngest Black CEO of a publicly traded company and toured Black churches across the country under a "Building Wealth" banner. Through his company, City Capital Corporation, and later Capital Genesis, Taylor and chief operating officer Wendy Connor sold congregations on two products: promissory notes that supposedly funded small businesses, and interests in "sweepstakes machines," both pitched as socially conscious investments that would benefit disadvantaged communities while paying steady returns.
+
+Between 2008 and 2010, Taylor and Connor raised more than $11 million from hundreds of investors this way, according to the SEC, which filed civil fraud charges against them in April 2012. In reality, the businesses and charitable projects Taylor described rarely existed as pitched; new investor money was used to pay earlier investors in classic Ponzi fashion, while a substantial share was diverted to fund Taylor's own book promotion, image consultants, and his wife's singing career.
+
+Taylor pleaded guilty to conspiracy to commit mail and wire fraud in October 2014. He was sentenced to 235 months in federal prison — later reduced to 223 months, roughly 18 and a half years — along with three years of supervised release and more than $15.5 million in restitution. Broader reporting on the full scope of the fraud put total losses above $16 million, affecting more than 400 victims, many of whom had trusted Taylor specifically because he presented his investments as an extension of their faith community rather than an ordinary financial pitch.
+
+Taylor's case is a stark illustration of affinity fraud at scale: by embedding himself in congregations and framing his pitch around racial uplift and shared faith, he built a level of trust that bypassed the skepticism a stranger's investment offer would normally face — a reminder that a scammer's chosen community, not just their paperwork, is often the real mechanism of the fraud.`,
+    sourceUrl: 'https://www.sec.gov/newsroom/press-releases/2012-2012-62htm',
+  },
+  {
+    title: 'Billy Walters: The Sports Gambler Whose Inside Tip Reached Phil Mickelson',
+    slug: 'billy-walters-dean-foods-insider-trading',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `Billy Walters, a well-known Las Vegas sports gambler, spent six years, from 2008 to 2014, trading on inside information about Dean Foods Company, a Fortune 500 dairy processor, fed to him by Thomas C. Davis, a Dean Foods board member and its former chairman. Davis passed Walters advance, nonpublic details of upcoming corporate events — including a planned spinoff of one of the company's subsidiaries — which Walters used to net more than $43 million in illegal trading profits.
+
+The case reached beyond Walters and Davis in July 2012, when Walters called professional golfer Phil Mickelson and urged him to buy Dean Foods stock. Mickelson built roughly a $2.4 million position across three brokerage accounts; when the spinoff was announced about a week later, the stock jumped nearly 40%. Mickelson was never criminally charged — the SEC named him only as a "relief defendant," stating he did not engage in wrongdoing — but he was required to repay $931,738.12 in trading profits plus $105,291.69 in interest.
+
+Walters was convicted at trial in the Southern District of New York and sentenced in July 2017 to five years in prison, a $10 million fine, and an initial restitution order of $8.89 million. He appealed to the Second Circuit, which in December 2018 affirmed his conviction and the forfeiture order but vacated and remanded the restitution amount for further proceedings. Walters served roughly three years and nine months of his sentence before President Trump commuted it on January 20, 2021.
+
+The case is a reminder that inside information doesn't have to originate with the person who ultimately profits from it — a boardroom leak can travel through a chain of relationships, from a corporate insider to a gambler to a celebrity golfer, before it ever produces a single suspicious trade, and the further it travels, the harder it can be to see the original leak at the other end.`,
+    sourceUrl: 'https://www.sec.gov/newsroom/press-releases/2016-92',
+  },
 ];
 
 // Practical "how it works / red flags / what to do" guides covering the
