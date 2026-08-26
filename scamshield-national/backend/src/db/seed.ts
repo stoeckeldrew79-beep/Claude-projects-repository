@@ -6773,6 +6773,66 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Singapore Police Force'],
     sourceUrl: 'https://www.police.gov.sg/media-hub/news/2026/05/20260516_footage_from_zoom_video_conference_involving_impersonation_of_senior_government_officials',
   },
+  {
+    name: 'AI Voice-Cloned Virtual Kidnapping Ransom Call',
+    slug: 'ai-voice-cloned-virtual-kidnapping-call',
+    description:
+      'Scammers clone a family member\'s voice from a short public sample — a social media video, a voicemail greeting — then stage a live, real-time "kidnapping" call: the cloned voice sobs and pleads for help before a second scammer takes over, threatens violence, and demands cash ransom, often starting near $1 million before "negotiating" down to a smaller amount while pressuring the victim to stay on the line and not hang up to verify. In one documented case, a Scottsdale, Arizona mother received a call with a cloned voice of her 15-year-old daughter crying "these bad men have me," with a demand negotiated down to $50,000 cash — while her daughter was safely skiing, unaware anything had happened. Unlike a single recorded plea, this is a live, two-voice hostage negotiation designed to keep victims too panicked to check.',
+    categorySlug: 'family-emergency-scams',
+    alertLevel: 'critical',
+    sources: ['U.S. Senate Judiciary Committee'],
+    sourceUrl: 'https://www.judiciary.senate.gov/imo/media/doc/2023-06-13%20PM%20-%20Testimony%20-%20DeStefano.pdf',
+  },
+  {
+    name: 'Fake Delivery-Platform Support Impersonation',
+    slug: 'fake-delivery-platform-support-impersonation',
+    description:
+      'Scammers pose as "support" for food-delivery platforms like Uber Eats, DoorDash, or Grubhub and contact active drivers or restaurant partners with one of two pretexts: offering a free tablet or printer to handle orders, then asking for "verification" details to ship it, or claiming there\'s a problem with an order and asking for bank account access or an emailed/texted verification code to process a "refund." Handing over that code lets scammers take over the victim\'s account and drain their earnings directly. The FTC warns this targets both drivers and the restaurants themselves, using fake hardware-shipment and fake-refund pretexts rather than a direct password request.',
+    categorySlug: 'employment-scams',
+    alertLevel: 'high',
+    sources: ['Federal Trade Commission (FTC)'],
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2023/07/scammers-impersonate-delivery-service-support-rip-drivers-restaurants',
+  },
+  {
+    name: 'Fictitious Law Firm Crypto "Fund Recovery" Scam',
+    slug: 'fictitious-law-firm-crypto-fund-recovery-scam',
+    description:
+      'After a crypto-investment scam victim is identified — often pulled from a prior scam\'s own victim list — a second wave of scammers poses as a law firm, using real-looking letterhead, fabricated affiliations with the FBI or CFPB, or citing an invented regulator name, and even referencing the exact dates and amounts of the victim\'s prior wire transfers to appear legitimate. Victims are moved into WhatsApp groups with fake attorneys and "foreign bank processors," then charged upfront "bank verification fees" or told to route money through third-party "trading companies" for secrecy — resulting in a second round of losses on top of the original scam. The FBI warns this differs from typical recovery scams by combining law-firm and government impersonation with staged WhatsApp groups specifically targeting people already known to have lost crypto.',
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ['FBI Internet Crime Complaint Center (IC3)'],
+    sourceUrl: 'https://www.ic3.gov/PSA/2025/PSA250813',
+  },
+  {
+    name: 'Michigan UIA "Pay a Fee to Unlock Your Benefits" Phone Scam',
+    slug: 'michigan-uia-pay-fee-unlock-benefits-scam',
+    description:
+      'Scammers cold-call Michigan residents using spoofed local numbers, claiming to work for the Unemployment Insurance Agency (UIA) — in one case, giving a fake employee number and title — and tell the victim they\'re owed a specific sum in unpaid benefits, such as $4,000, that will only be released after a one-time fee, such as $105, is paid. Michigan\'s Department of Labor and Economic Opportunity confirms the UIA never charges any fee to apply for or release approved benefits; the U.S. Department of Labor separately flagged an AI-generated version of the same call script targeting North Dakota residents.',
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'high',
+    sources: ['Michigan Department of Labor and Economic Opportunity (LEO)'],
+    sourceUrl: 'https://www.michigan.gov/leo/news/2026/08/20/uia-warns-of-phone-scam-promising-unpaid-benefits-for-a-fee',
+  },
+  {
+    name: 'PG&E "Barcode/QR Code" Utility Shutoff Scam',
+    slug: 'pge-barcode-qr-code-shutoff-scam',
+    description:
+      'Scammers call Pacific Gas & Electric customers threatening imminent service disconnection over an unpaid bill, then follow up by text or email with a barcode or QR code and instructions to take it to a nearby store or pharmacy so a cashier can process the "payment" — a newer twist on the classic gift-card disconnection threat, designed to be just as untraceable. PG&E confirms it will never request payment by barcode, QR code, or prepaid debit card, and reported customers lost over $211,000 to impersonation scams in just the first half of 2026, already outpacing all of 2025\'s $301,000 in reported losses.',
+    categorySlug: 'utility-scams',
+    alertLevel: 'high',
+    sources: ['Pacific Gas and Electric Company (PG&E)'],
+    sourceUrl: 'https://investor.pgecorp.com/news-events/press-releases/press-release-details/2026/PGE-Warns-Customers-About-Emerging-Barcode-Scam-Heres-What-You-Should-Know/default.aspx',
+  },
+  {
+    name: 'Fake SBA Disaster Loan Broker Advance-Fee Scam',
+    slug: 'fake-sba-disaster-loan-broker-scam',
+    description:
+      'After a hurricane or other declared disaster, someone claiming to represent the U.S. Small Business Administration proactively contacts a survivor — by phone, spoofed caller ID, or a look-alike email that isn\'t from an actual @sba.gov address — offering to fast-track approval of a federal disaster loan in exchange for an upfront fee, or pushing a high-interest "bridge loan" while the real application is still pending. The SBA\'s Office of Inspector General states plainly that the agency never initiates contact about a disaster loan and never charges a fee for disaster assistance, inspections, or help completing an application, making any unsolicited outreach demanding payment proof of fraud on its own — a distinct step from FEMA-impersonation schemes, since this specifically targets the SBA loan application survivors file after registering with FEMA.',
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['U.S. Small Business Administration, Office of Inspector General'],
+    sourceUrl: 'https://www.sba.gov/about-sba/oversight-advocacy/office-inspector-general/protect-yourself-scams-fraud',
+  },
 ];
 
 async function seedCategoriesAndScams() {
