@@ -6936,6 +6936,66 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Polismyndigheten (Swedish Police)', 'SVT Nyheter'],
     sourceUrl: 'https://www.svt.se/nyheter/utrikes/ai-klonade-roster-anvands-i-bedragerier-roststolder-artificiell-intelligens',
   },
+  {
+    name: 'Home Title Theft (Quitclaim Deed Fraud)',
+    slug: 'home-title-theft-quitclaim-deed-fraud',
+    description:
+      'Scammers search public property records for vacant land, paid-off homes, or homes owned by elderly or deceased people, then forge the owner\'s signature on a quitclaim deed — chosen because it requires no title warranty and draws less scrutiny at filing — and record it with the county to transfer "ownership" to themselves or a shell entity. From there they can sell the property, take out a mortgage against it, or rent it out, leaving the real owner to fight for their title back in court. The FBI\'s Boston field office has documented "title pirate" cases including one perpetrator who stole more than 30 homes this way, and nationwide IC3 data logged over 12,000 real estate fraud complaints and $275 million in losses in 2025, with seniors disproportionately targeted.',
+    categorySlug: 'mortgage-foreclosure-scams',
+    alertLevel: 'critical',
+    sources: ['FBI Boston Field Office', 'FBI Internet Crime Complaint Center (IC3)'],
+    sourceUrl: 'https://www.fbi.gov/contact-us/field-offices/boston/news/fbi-boston-warns-quit-claim-deed-fraud-is-on-the-rise-',
+  },
+  {
+    name: 'New-Construction/ADU Builder Deposit Scam',
+    slug: 'new-construction-adu-builder-deposit-scam',
+    description:
+      'A construction company — sometimes a shell entity, sometimes a real contractor operating fraudulently — presents polished proposals for a new home or backyard accessory dwelling unit (ADU), claiming deep expertise in local permitting and zoning to build trust, then collects a large upfront deposit, in documented cases as much as $250,000. The company cashes the check within days, then stalls indefinitely: no permits are ever pulled and no ground is ever broken. Arizona\'s Attorney General issued a specific 2026 consumer warning after tracking this exact pattern targeting homeowners building backyard ADUs.',
+    categorySlug: 'mortgage-foreclosure-scams',
+    alertLevel: 'high',
+    sources: ["Arizona Attorney General's Office"],
+    sourceUrl: 'https://www.azag.gov/press-release/attorney-general-mayes-warns-arizonans-construction-fraud-targeting-adu-projects',
+  },
+  {
+    name: 'Zombie Second Mortgage Foreclosure Threat',
+    slug: 'zombie-second-mortgage-foreclosure-threat',
+    description:
+      'Debt buyers purchase long-dormant second mortgages or HELOCs originated during the mid-2000s housing boom, on which the original lender stopped billing during the financial crisis and which the homeowner reasonably believed were forgiven, modified away, or discharged in bankruptcy. Years or decades later, the debt collector resurfaces, tacking on accumulated interest and fees, and threatens foreclosure to collect on a lien the homeowner had no idea was still active. The CFPB has found this collection tactic is often illegal outright, since the debt is frequently time-barred under the state statute of limitations — making it predatory debt collection weaponizing a real but legally dead lien, not a rescue-fee or fake-modification scheme.',
+    categorySlug: 'mortgage-foreclosure-scams',
+    alertLevel: 'high',
+    sources: ['Consumer Financial Protection Bureau (CFPB)'],
+    sourceUrl: 'https://www.consumerfinance.gov/about-us/blog/zombie-second-mortgages-when-collectors-come-for-long-forgotten-home-loans/',
+  },
+  {
+    name: 'Unauthorized ACA Plan-Switching by Rogue Brokers',
+    slug: 'unauthorized-aca-plan-switching-rogue-brokers',
+    description:
+      'A licensed insurance agent or broker with legitimate access to HealthCare.gov\'s marketplace systems — or a scammer using a consumer\'s stolen Social Security number and date of birth — switches a person\'s ACA marketplace health plan, or attaches themselves as that person\'s "agent of record," without ever contacting them, collecting the ongoing sales commission for themselves. Victims often only discover it when their doctor turns out to be out-of-network, their deductible resets mid-year, or they face a surprise tax bill after their subsidy eligibility was improperly changed. CMS logged nearly 74,000 unauthorized plan-switch complaints and over 134,000 unauthorized-enrollment complaints in just the first half of 2024 alone, and had suspended more than 850 agents and brokers by October 2024.',
+    categorySlug: 'insurance-fraud',
+    alertLevel: 'high',
+    sources: ['Centers for Medicare & Medicaid Services (CMS)'],
+    sourceUrl: 'https://www.cms.gov/newsroom/press-releases/cms-statement-system-changes-stop-unauthorized-agent-broker-marketplace-activity',
+  },
+  {
+    name: 'Medicare "Flex Card" Free Benefits Scam',
+    slug: 'medicare-flex-card-free-benefits-scam',
+    description:
+      'During Medicare\'s fall open enrollment period, ads, robocalls, and social media posts claim "Medicare" is issuing a flex card worth several hundred dollars for groceries, food, or other expenses, directing victims to a fake application site that harvests their Social Security number, Medicare number, credit card, or bank account details. Some real Medicare Advantage plans do legitimately offer flex cards, but only to members already enrolled in a plan that includes the benefit — Original Medicare never issues one and never solicits enrollees this way, and stolen Medicare numbers collected through the fake site get used for identity theft or fraudulent claims.',
+    categorySlug: 'healthcare-fraud',
+    alertLevel: 'high',
+    sources: ['Senior Medicare Patrol (SMP)'],
+    sourceUrl: 'https://smpresource.org/flex-card-scam-circulates/',
+  },
+  {
+    name: 'Fake ACA "Cash Subsidy Card" Marketing Scam',
+    slug: 'fake-aca-cash-subsidy-card-marketing-scam',
+    description:
+      'Ads, sometimes using AI-generated fake celebrity endorsements, promise enrollees hundreds of dollars a month in "subsidy cash" or gift cards for gas, groceries, or bills just for signing up for a marketplace health plan — misrepresenting how the ACA\'s premium tax credit actually works, since it\'s paid directly to the insurer to lower the premium and enrollees never receive a cash payout. Lead-generation brokers use this bait, and sometimes coach victims to misstate their income to qualify for a larger subsidy, to enroll people in a plan purely for the sales commission, leaving victims liable for a subsidy-reconciliation tax bill later or stuck with coverage they never actually wanted.',
+    categorySlug: 'healthcare-fraud',
+    alertLevel: 'high',
+    sources: ['Federal Trade Commission (FTC)'],
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2024/11/looking-marketplace-health-insurance-open-enrollment-season-avoid-scammers',
+  },
 ];
 
 async function seedCategoriesAndScams() {
