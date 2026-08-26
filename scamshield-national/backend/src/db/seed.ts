@@ -6833,6 +6833,39 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['U.S. Small Business Administration, Office of Inspector General'],
     sourceUrl: 'https://www.sba.gov/about-sba/oversight-advocacy/office-inspector-general/protect-yourself-scams-fraud',
   },
+  {
+    name: 'Swedish "New Number" Child-in-Crisis SMS Scam',
+    slug: 'swedish-new-number-child-in-crisis-sms-scam',
+    description:
+      'A scammer texts posing as the victim\'s child or grandchild, claiming to have a new phone number after losing or breaking their old phone, and asks the parent to save the new number and delete the old one. Once that trust is established, the "child" asks for urgent money — typically to cover a bill or bank transfer that must clear before an account is supposedly locked. Swedish police logged roughly 300 filed reports of this exact pattern in July 2025 alone during a documented summer surge, with the real number believed to be significantly higher since many victims never report it.',
+    categorySlug: 'family-emergency-scams',
+    country: 'SE',
+    alertLevel: 'high',
+    sources: ['Polismyndigheten (Swedish Police)'],
+    sourceUrl: 'https://polisen.se/aktuellt/nyheter/nord/2025/februari/varning-for-bedragare-som-uppger-sig-vara-barn/',
+  },
+  {
+    name: 'Swedish CEO Fraud (VD-bedrägeri)',
+    slug: 'swedish-ceo-fraud-vd-bedrageri',
+    description:
+      'Fraudsters research a company through LinkedIn or Facebook — sometimes combined with data from a breach — to identify its CEO or another executive, then email or call an employee with payment authority while impersonating that executive, instructing an urgent and confidential wire transfer. Swedish police report companies losing hundreds of millions of kronor in total to this pattern, with some individual companies defrauded of more than SEK 100 million in a single incident; funds are typically routed through accounts in other European countries and onward to Asia, and police say they receive new reports multiple times a week.',
+    categorySlug: 'business-email-compromise',
+    country: 'SE',
+    alertLevel: 'critical',
+    sources: ['Polismyndigheten (Swedish Police)', 'SVT Nyheter'],
+    sourceUrl: 'https://www.svt.se/nyheter/inrikes/polisen-varnar-for-foretagsbedragare',
+  },
+  {
+    name: 'Swedish AI Voice-Cloning Fraud (AI-klonade röster)',
+    slug: 'swedish-ai-voice-cloning-fraud',
+    description:
+      'Using as little as a few seconds of audio pulled from social media, a voicemail greeting, or a video, scammers clone a real person\'s voice with AI tools and use it in real-time phone calls — impersonating a company CEO instructing a financial transfer, or a distressed relative asking a family member for money. Sweden\'s national police fraud center (bedrägericentrum) has confirmed multiple real cases, notably in western Sweden, and is actively warning the public that the technique is now compounding older CEO-fraud and family-emergency scam patterns rather than replacing them.',
+    categorySlug: 'ai-deepfake-scams',
+    country: 'SE',
+    alertLevel: 'high',
+    sources: ['Polismyndigheten (Swedish Police)', 'SVT Nyheter'],
+    sourceUrl: 'https://www.svt.se/nyheter/utrikes/ai-klonade-roster-anvands-i-bedragerier-roststolder-artificiell-intelligens',
+  },
 ];
 
 async function seedCategoriesAndScams() {
