@@ -983,6 +983,34 @@ Pang never faced trial. He was found unresponsive at his Newport Beach home on S
 Pang's case is a reminder that a fraud's collapse doesn't always come with a courtroom reckoning for the person who ran it — when the architect of a scheme dies before trial, the receivership process that follows can recover some money for victims, but the full account of exactly what happened, and why, often dies with them.`,
     sourceUrl: 'https://www.sec.gov/news/press/2009/2009-89.htm',
   },
+  {
+    title: 'Alan Bond: The America\'s Cup Hero Who Looted His Own Company',
+    slug: 'alan-bond-bell-resources-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Alan Bond was one of Australia's most celebrated businessmen, having bankrolled Australia II's victory in the 1983 America's Cup, before his Bond Corporation empire collapsed in the early 1990s in what was, at the time, the largest corporate failure in Australian history. The fraud that ultimately sent him to prison involved a separate public company he controlled, Bell Resources: Bond used his position at the top of that company to improperly transfer roughly A$1.2 billion out of it and into the struggling Bond Corporation, propping up his own empire directly at the expense of Bell Resources' other shareholders.
+
+He was convicted of that fraud in 1997. An Australian court initially handed down a relatively lenient sentence, but after the government appealed, the Western Australia Court of Criminal Appeal increased it to seven years; Bond later won a partial victory at the High Court and was ultimately released in March 2000, having served just over three years. This wasn't his first fraud conviction, either — in 1996, he was separately convicted on four counts of company fraud over a French Impressionist painting, "La Promenade": his public company had sold the artwork to his own private family company for $2.46 million, which that private company then resold roughly a year later for $17 million, pocketing the difference at the public shareholders' expense.
+
+What connects both cases is the same underlying mechanism: rather than a stranger tricking outside victims, Bond used his own control over public companies to move value into his private hands, treating shareholder-owned assets as if they were his personal property to redirect whenever it suited him. Both frauds required no deception of an unsuspecting mark in the traditional sense — the victims were the very shareholders of the companies Bond had been entrusted to run.
+
+Bond died in June 2015 at age 77, following complications from open-heart surgery. His case remains one of the clearest illustrations of a specific kind of fraud that doesn't fit the classic scam-artist mold: a fully legitimate business empire and a celebrated public reputation, used as cover to quietly move billions of dollars of other people's money into one's own pocket, one boardroom transaction at a time.`,
+    sourceUrl: 'https://www.abc.net.au/news/2015-06-05/alan-bond-10-things-you-need-to-know/6520736',
+  },
+  {
+    title: 'Robert Brennan: The Boiler-Room Broker Who Hid $16 Million in His Basement',
+    slug: 'robert-brennan-first-jersey-securities-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Robert Brennan founded First Jersey Securities in 1974 and turned it into one of the most aggressive "boiler room" brokerages of the 1980s — a firm whose brokers pressured customers, many of them elderly, into buying thinly traded penny stocks that First Jersey itself had underwritten or controlled. The firm's brokers pumped up demand and prices through high-pressure sales tactics, then sold their own holdings into that inflated demand, leaving ordinary customers holding stock that collapsed in value once the pumping stopped — a classic pump-and-dump scheme run at scale across an entire brokerage.
+
+After a 41-day bench trial, a federal judge ruled in July 1995 that Brennan and First Jersey had perpetrated a "massive and continuing fraud," ordering them to disgorge roughly $75 million in ill-gotten gains plus interest. Brennan fought the judgment through the Second Circuit and the Supreme Court, losing both times, and a bankruptcy court later ruled the debt couldn't be discharged even if he filed for personal bankruptcy — which he did anyway, in August 1995, apparently hoping to avoid paying regardless.
+
+That bankruptcy filing became its own separate crime. Investigators found Brennan had concealed roughly $500,000 in casino chips from Atlantic City and $4 million in municipal and bearer bonds hidden in his own basement, directing an associate to secretly liquidate the bonds overseas and reinvest the proceeds — ultimately concealing around $16 million from the bankruptcy court and his creditors. A jury convicted him in April 2001 on seven counts of money laundering and bankruptcy fraud, and he was sentenced that July to nine years and two months in federal prison, with the conviction upheld on appeal in 2003. He was released in January 2011.
+
+Brennan's case shows fraud compounding on itself: a securities scheme that defrauded ordinary investors led to a civil judgment, which he then tried to escape through an even more brazen fraud against the bankruptcy system itself — hiding cash and bonds in his own house rather than simply paying what a federal court had already ruled he owed.`,
+    sourceUrl: 'https://law.justia.com/cases/federal/appellate-courts/F3/326/176/526219/',
+  },
 ];
 
 // Practical "how it works / red flags / what to do" guides covering the
