@@ -6520,6 +6520,99 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Action Fraud'],
     sourceUrl: 'https://www.actionfraud.police.uk/cssfraud',
   },
+  {
+    name: 'Soundalike Fake Veterans Charity',
+    slug: 'soundalike-fake-veterans-charity',
+    description:
+      'A registered nonprofit uses a name deliberately similar to a well-known, legitimate veterans organization, then solicits donations by phone, mail, or robocall while spending almost none of the money on actual veterans. In the FTC\'s 2018 "Operation Donate with Honor" sweep across all 50 states, one such operation — soliciting under names like American Disabled Veterans Foundation and Military Families of America — spent roughly 95% of every dollar raised on fundraising costs, administrative expenses, and its founder\'s own salary, resulting in a $20.4 million judgment.',
+    categorySlug: 'charity-scams',
+    alertLevel: 'medium',
+    sources: ['Federal Trade Commission (FTC)'],
+    sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2018/07/ftc-states-combat-fraudulent-charities-falsely-claim-help-veterans-servicemembers',
+  },
+  {
+    name: 'Fictitious Veteran Persona Fundraising Scam',
+    slug: 'fictitious-veteran-persona-fundraising-scam',
+    description:
+      'Someone forms a charity front with a sympathetic, veteran-focused name and personally solicits donations under a fabricated military alias, rather than simply mimicking an existing charity\'s name. In a Southern District of Indiana case, two men formed "Wounded Warrior Fund, Inc." and "Wounded Warrior Foundation, Inc." and solicited donations across three states while posing under aliases like "Sergeant Bob Johnson" — none of the roughly $125,000 collected went to any veterans program, and four defendants were ultimately convicted and sentenced to federal prison.',
+    categorySlug: 'charity-scams',
+    alertLevel: 'medium',
+    sources: ['U.S. Department of Justice'],
+    sourceUrl: 'https://www.justice.gov/usao-sdin/pr/four-defendants-face-fraud-charges-bogus-fundraising-efforts-wounded-military-veterans',
+  },
+  {
+    name: 'Unaccredited VA Disability Claims Fee Scheme',
+    slug: 'unaccredited-va-disability-claims-fee-scheme',
+    description:
+      'An unaccredited individual or company charges a veteran a fee to help file an initial VA disability claim, often through aggressive marketing or a "Disability Benefits Questionnaire" package promising a higher rating — despite the fact that it\'s illegal to charge for that assistance. By law, no one may charge a fee for help filing an initial VA disability claim; VA-accredited representatives can only charge after a decision has already been issued, under VA fee-agreement rules, making an upfront charge for initial help a legal violation on its own.',
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'medium',
+    sources: ['VA Office of Inspector General (VA OIG)'],
+    sourceUrl: 'https://www.vaoig.gov/fraud-alert-disability-benefits-questionnaire-fraud-schemes',
+  },
+  {
+    name: 'Fake Process Server Phantom Debt Call',
+    slug: 'fake-process-server-phantom-debt-call',
+    description:
+      'A caller identifying as a private process server, not police or a court, claims a lawsuit has already been filed or is about to be filed over a debt, and threatens arrest, wage garnishment, or property seizure unless paid immediately by card. To add pressure, these operations often also call the target\'s relatives, friends, and coworkers about the supposed debt — the FTC has sued debt collectors specifically for this combination of impersonating process servers and contacting third parties to coerce payment.',
+    categorySlug: 'debt-relief-scams',
+    alertLevel: 'high',
+    sources: ['Federal Trade Commission (FTC)'],
+    sourceUrl: 'https://www.ftc.gov/business-guidance/blog/2016/01/disguise-limit-ftc-sues-debt-collectors-who-claimed-official-affiliation',
+  },
+  {
+    name: 'Fake Law Firm Debt Lawsuit Settlement Scam',
+    slug: 'fake-law-firm-debt-lawsuit-settlement-scam',
+    description:
+      'A caller or letter claims to represent a law firm — sometimes borrowing the actual name of a real, unaffiliated firm — pursuing a lawsuit over an old or entirely fabricated debt, and pressures the target to pay immediately to "settle before court" or avoid a default judgment. In one 2025 FTC enforcement action, an operation calling itself "Blackstone Legal" used the names of unaffiliated real businesses and law firms, falsely told consumers they were about to be sued, and included the last four digits of the target\'s real Social Security number in its letters to appear legitimate.',
+    categorySlug: 'debt-relief-scams',
+    alertLevel: 'high',
+    sources: ['Federal Trade Commission (FTC)'],
+    sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2025/03/ftc-action-leads-court-order-halting-phantom-debt-collection-scheme-took-millions-consumers',
+  },
+  {
+    name: 'Fake Court Subpoena Phishing Email',
+    slug: 'fake-court-subpoena-phishing-email',
+    description:
+      'An email is designed to look like an official federal court subpoena, complete with a realistic court seal and docket number, instructing the recipient to click a link to "respond" or view the document. The link doesn\'t lead anywhere near a real court — it installs malware or a keylogger instead. A federal district court has issued a direct public warning about exactly this scheme, stating plainly that federal courts will never use a phone call or email to request personal or financial information.',
+    categorySlug: 'phishing',
+    alertLevel: 'high',
+    sources: ['U.S. District Court, N.D. Indiana'],
+    sourceUrl: 'https://www.innd.uscourts.gov/news/subpoena-scam-emails-district-court',
+  },
+  {
+    name: 'Canadian Tech Support Scam',
+    slug: 'canadian-tech-support-scam',
+    description:
+      'An unsolicited pop-up or cold call impersonating Microsoft or another major tech company claims a device is infected and displays a number to call. The "technician" who answers talks the victim into granting remote access to "run diagnostics," then either charges for unnecessary repair services or antivirus software, or uses that access to steal financial information directly — payment is typically demanded through gift cards or a money transfer.',
+    categorySlug: 'tech-support-scams',
+    country: 'CA',
+    alertLevel: 'high',
+    sources: ['Canadian Anti-Fraud Centre (CAFC)'],
+    sourceUrl: 'https://fcnb.ca/en/news-alerts/cafc-bulletin-tech-support-scam',
+  },
+  {
+    name: 'Canadian Overpayment Cheque Employment Scam',
+    slug: 'canadian-overpayment-cheque-employment-scam',
+    description:
+      'A fake "employer" hires someone, often for a remote or work-from-home role, then sends a cheque or Interac e-Transfer for more than the agreed pay — supposedly to cover equipment or expenses — and asks the new hire to send the difference back to a third party. The original payment later bounces, leaving the victim on the hook to their own bank for the full amount they already forwarded. The Canadian Anti-Fraud Centre reports losses in this category have quadrupled since 2022, from roughly $7 million to more than $49 million in 2024 across over 2,300 victims.',
+    categorySlug: 'employment-scams',
+    country: 'CA',
+    alertLevel: 'high',
+    sources: ['Canadian Anti-Fraud Centre (CAFC)'],
+    sourceUrl: 'https://competition-bureau.canada.ca/en/fraud-and-scams/tips-and-advice/job-and-employment-scams',
+  },
+  {
+    name: 'Canadian AI Deepfake Investment Scam',
+    slug: 'canadian-ai-deepfake-investment-scam',
+    description:
+      'A social media ad uses AI-generated deepfake video or audio of a well-known Canadian public figure — confirmed cases include Prime Minister Mark Carney and a fabricated CBC News segment that never actually aired — falsely appearing to endorse a cryptocurrency or investment platform. In one documented case, a senior in Sault Ste. Marie lost nearly $1 million after a deepfake video of Carney urging a small initial crypto "investment" led her into an escalating scheme; a retiree in Prince Albert, Saskatchewan separately lost $3,000 to the same deepfake pattern.',
+    categorySlug: 'ai-deepfake-scams',
+    country: 'CA',
+    alertLevel: 'critical',
+    sources: ['Canadian Anti-Fraud Centre (CAFC)'],
+    sourceUrl: 'https://antifraudcentre-centreantifraude.ca/features-vedette/2024/07/bulletin-deepfakes-hypertrucage-eng.htm',
+  },
 ];
 
 async function seedCategoriesAndScams() {
