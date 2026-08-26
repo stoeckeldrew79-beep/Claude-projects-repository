@@ -927,6 +927,34 @@ Walters was convicted at trial in the Southern District of New York and sentence
 The case is a reminder that inside information doesn't have to originate with the person who ultimately profits from it — a boardroom leak can travel through a chain of relationships, from a corporate insider to a gambler to a celebrity golfer, before it ever produces a single suspicious trade, and the further it travels, the harder it can be to see the original leak at the other end.`,
     sourceUrl: 'https://www.sec.gov/newsroom/press-releases/2016-92',
   },
+  {
+    title: 'Fabrice Tourre: The Goldman Sachs Trader Who Bet Against His Own Clients',
+    slug: 'fabrice-tourre-goldman-sachs-abacus-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Fabrice Tourre was a 31-year-old Goldman Sachs vice president principally responsible for structuring and marketing a synthetic collateralized debt obligation called ABACUS 2007-AC1, tied to subprime mortgage-backed securities. Goldman's marketing materials told investors that the portfolio of mortgage securities underlying the deal had been selected by an independent third party, ACA Management. What investors weren't told was that the hedge fund Paulson & Co. had played a significant role in choosing which securities went into that portfolio — and Paulson was simultaneously betting against the deal, meaning the fund most involved in picking the investments was also the one positioned to profit when they failed.
+
+The CDO collapsed as the subprime mortgage market unraveled, costing investors roughly $1 billion. The SEC filed a civil fraud complaint against both Goldman Sachs and Tourre individually in April 2010. Goldman settled that July for $550 million — at the time the largest penalty ever paid by a Wall Street firm to the SEC — without admitting or denying wrongdoing. Tourre, however, refused to settle and took his case to trial.
+
+In a Manhattan federal civil trial in the summer of 2013, a jury found Tourre liable on six of the SEC's seven counts. A federal judge later ordered him to pay more than $825,000, combining a civil penalty with disgorgement of the bonus he'd earned tied to the deal — a smaller sum than the roughly $1.15 million the SEC had originally sought, but still a personal financial reckoning distinct from the corporate settlement. Because the case was civil rather than criminal, Tourre never faced prison time. He later earned a PhD in economics from the University of Chicago, did postdoctoral research at Northwestern, and became an academic economist, eventually joining the faculty at Baruch College's Zicklin School of Business.
+
+Tourre's case is one of the clearest examples of a conflict of interest dressed up as a routine transaction: nothing about ABACUS was fabricated in the way a Ponzi scheme is fabricated — the mortgages were real, the CDO was real — but the single fact investors weren't told, that the deal's chief architect against them had also helped build it, was enough to turn a legitimate financial instrument into a fraud.`,
+    sourceUrl: 'https://www.sec.gov/litigation/litreleases/lr-21489',
+  },
+  {
+    title: 'Marc Rich: The Fugitive Oil Trader Who Bought a Presidential Pardon',
+    slug: 'marc-rich-fugitive-oil-trader-pardon',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Marc Rich built one of the world's largest commodities trading firms, Marc Rich + Co., by operating in the gray zones international sanctions left open — and in 1979, when the Shah of Iran fell and the United States embargoed Iranian oil during the hostage crisis, Rich's Swiss-based, formally non-American company kept buying Iranian crude and reselling it anyway, functioning as a middleman that let Iran's oil keep moving to willing buyers despite the embargo. A federal grand jury in the Southern District of New York returned a 51-count indictment against Rich and his business partner Pincus Green in September 1983, charging tax evasion, mail and wire fraud, racketeering, and illegally trading with a sanctioned nation — tied to more than $48 million in evaded taxes on over $100 million in unreported income from the oil deals.
+
+Rather than face trial, Rich fled to Switzerland in 1983 and simply never came back, running his trading empire from abroad as a fugitive for the better part of two decades. Switzerland's own laws made extradition difficult, and Rich used the distance to keep operating largely unimpeded; the company he founded eventually reorganized into what became Glencore, still one of the largest commodities traders in the world today.
+
+On January 20, 2001, Bill Clinton's final day in office, the president granted Rich a full pardon — one of the most controversial pardons in modern presidential history. The controversy centered less on the underlying facts of Rich's case than on how the pardon came about: Rich's ex-wife, Denise Rich, had donated hundreds of thousands of dollars to the Democratic Party, Clinton's presidential library foundation, and Hillary Clinton's Senate campaign in the years before the pardon, prompting congressional hearings and a Justice Department review into whether the pardon had effectively been bought.
+
+Rich died in Lucerne, Switzerland, in June 2013 at age 78, having spent essentially the entire back half of his life as a man who could never safely set foot in the country where he was indicted. His case remains a study in how far distance and money can carry someone away from accountability — not by beating the charges, but by simply staying beyond the reach of the court that filed them, for long enough that political influence, rather than a verdict, became the thing that finally closed the case.`,
+    sourceUrl: 'https://money.cnn.com/2013/06/26/investing/marc-rich/index.html',
+  },
 ];
 
 // Practical "how it works / red flags / what to do" guides covering the
