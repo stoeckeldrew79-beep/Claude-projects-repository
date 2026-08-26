@@ -6108,6 +6108,99 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['An Garda Síochána', 'Banking and Payments Federation of Ireland (BPFI)'],
     sourceUrl: 'https://www.thejournal.ie/fraud-arrests-increase-scams-5947424-Dec2022/',
   },
+  {
+    name: 'Medicare Open Enrollment "Confirm Your Number" Cold Call',
+    slug: 'medicare-open-enrollment-cold-call-scam',
+    description:
+      'During the annual Medicare Open Enrollment window each fall, a caller claiming to be from "Medicare" or an affiliated plan says the beneficiary must confirm their Medicare number, Social Security number, or bank details immediately to keep coverage active, or must switch plans right there on the phone. Caller ID is often spoofed to look legitimate. The FTC confirms real Medicare representatives never initiate contact this way — Medicare communicates by mail, not unsolicited calls, texts, or emails — and advises hanging up and calling 1-800-MEDICARE directly to verify anything.',
+    categorySlug: 'healthcare-fraud',
+    alertLevel: 'high',
+    sources: ['Federal Trade Commission (FTC)'],
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2025/09/medicare-open-enrollment-season-learn-how-protect-yourself-scams',
+  },
+  {
+    name: '"Free" Genetic Testing Medicare Fraud',
+    slug: 'free-genetic-testing-medicare-fraud',
+    description:
+      'A "free" genetic test, DNA cancer screening, or cheek-swab kit is offered at a health fair, senior center, mall kiosk, or via telemarketing and door-to-door visits, using the free offer as a pretext to collect the target\'s Medicare number. Medicare is then billed thousands of dollars for tests that were never medically necessary and never ordered by the beneficiary\'s own treating physician — and if Medicare denies the claim, the beneficiary can end up liable for the cost themselves. HHS\'s Office of Inspector General warns to refuse any unsolicited testing kit and to insist any genetic test go through an existing doctor first.',
+    categorySlug: 'healthcare-fraud',
+    alertLevel: 'high',
+    sources: ['HHS Office of Inspector General (OIG)'],
+    sourceUrl: 'https://oig.hhs.gov/fraud/consumer-alerts/fraud-alert-genetic-testing-scam',
+  },
+  {
+    name: 'High-Pressure Medicare Advantage Plan Switch',
+    slug: 'high-pressure-medicare-advantage-plan-switch',
+    description:
+      'A caller posing as a licensed agent or "official Medicare agent" during open enrollment claims a beneficiary\'s current plan is being discontinued or that they\'ll lose coverage unless they switch to a different Medicare Advantage or Part D plan immediately — sometimes enrolling the beneficiary in a new plan without genuine, informed consent. State consumer protection offices note that no one can legally claim to be an "official Medicare agent," that legitimate agents must give beneficiaries time to review options, and that any high-pressure "you\'ll lose coverage" pitch during enrollment season is a red flag on its own.',
+    categorySlug: 'healthcare-fraud',
+    alertLevel: 'medium',
+    sources: ['Michigan Attorney General Consumer Protection'],
+    sourceUrl: 'https://www.michigan.gov/consumerprotection/protect-yourself/consumer-alerts/scams/medicare-open-enrollment',
+  },
+  {
+    name: 'Fake FEMA Inspector Upfront-Fee Scam',
+    slug: 'fake-fema-inspector-upfront-fee-scam',
+    description:
+      'After a hurricane, wildfire, flood, or tornado, someone calling, texting, or showing up in person claims to be a FEMA inspector or employee and asks for banking details, a Social Security number, or an upfront payment to "process" or "expedite" a disaster assistance application or home inspection. Real FEMA assistance and inspections are always free, and a genuine FEMA inspector already has an applicant\'s registration number on file — so any request for money or that number is a clear sign of fraud, even if the caller has a counterfeit badge or FEMA-branded clothing.',
+    categorySlug: 'government-impersonation',
+    alertLevel: 'critical',
+    sources: ['Federal Trade Commission (FTC)'],
+    sourceUrl: 'https://www.consumer.ftc.gov/consumer-alerts/2025/07/spot-avoid-fema-impersonators',
+  },
+  {
+    name: 'Fake FEMA Grant Text Phishing',
+    slug: 'fake-fema-grant-text-phishing',
+    description:
+      'An unsolicited text or email claims the recipient is "eligible" for a FEMA disaster relief grant or payment and links to a spoofed FEMA-branded page designed to harvest Social Security numbers, bank account details, or payment information. FEMA only contacts people who have already applied for or inquired about assistance — an unsolicited message reaching someone who never applied is, by itself, proof the message isn\'t really from FEMA.',
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Federal Trade Commission (FTC)'],
+    sourceUrl: 'https://www.consumer.ftc.gov/consumer-alerts/2025/07/spot-avoid-fema-impersonators',
+  },
+  {
+    name: 'Fake "FEMA-Certified" Disaster Recovery Contractor',
+    slug: 'fake-fema-certified-disaster-contractor-scam',
+    description:
+      'An out-of-town contractor who arrives quickly after a storm, fire, or flood claims to be "FEMA-approved" or "FEMA-certified" to seem trustworthy, collects a large upfront payment or full payment before starting repair work, then either disappears or does substandard work with no way to hold them accountable. FEMA states plainly that it does not license, certify, or endorse any contractor — so the claim itself, on its own, is enough to prove someone is lying, and legitimate contractors don\'t need to invoke FEMA\'s name to prove they\'re real.',
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Federal Emergency Management Agency (FEMA)'],
+    sourceUrl: 'https://www.consumer.ftc.gov/consumer-alerts/2025/07/spot-avoid-fema-impersonators',
+  },
+  {
+    name: 'New Zealand "Mum, I Dropped My Phone" SMS Scam',
+    slug: 'new-zealand-dropped-phone-sms-scam',
+    description:
+      'A text or WhatsApp message claims to be from the recipient\'s adult child, explaining their phone was damaged and this is a temporary new number to reach them on. Once the "parent" responds, the scammer stays in character and asks for bank account or credit card details to help pay for a replacement phone. New Zealand\'s National Cyber Security Centre warns this exploits an existing family relationship rather than building a fake one, and advises never sharing financial details by text — verify by contacting the family member on their known number instead.',
+    categorySlug: 'family-emergency-scams',
+    country: 'NZ',
+    alertLevel: 'high',
+    sources: ['National Cyber Security Centre (NCSC NZ)'],
+    sourceUrl: 'https://www.ncsc.govt.nz/alerts/mum-i-dropped-my-phone-sms-scam-targeting-new-zealanders/',
+  },
+  {
+    name: 'New Zealand AI Deepfake Celebrity Investment Scam',
+    slug: 'new-zealand-deepfake-celebrity-investment-scam',
+    description:
+      'A Facebook or Instagram ad uses AI-generated deepfake video of a well-known New Zealand public figure — including, in one documented case, Prime Minister Christopher Luxon — appearing to personally endorse a cryptocurrency investment platform. Victims who respond are moved to WhatsApp or Signal and coached by a fake "investment adviser" into an initial small deposit, then larger transfers, often after installing remote-access software that hands control of their accounts to the scammer. In one confirmed case, a 72-year-old Taranaki pensioner lost NZ$224,000 this way in 2024, and the scammers were later caught on a secret recording attempting to extort even more money from her afterward.',
+    categorySlug: 'ai-deepfake-scams',
+    country: 'NZ',
+    alertLevel: 'critical',
+    sources: ['NZ Herald'],
+    sourceUrl: 'https://www.nzherald.co.nz/nz/pensioner-loses-224k-after-being-tricked-by-ai-deepfake-christopher-luxon-cryptocurrency-investment-scam/YLG3EQMOAZATVARBL5ITDRL2DA/',
+  },
+  {
+    name: 'Fake Lotto NZ "You\'ve Been Selected" Text',
+    slug: 'new-zealand-fake-lotto-selected-text',
+    description:
+      'A text message impersonating Lotto NZ tells the recipient they\'ve been "selected" to win, rather than that they entered and won a specific draw, and links to a page that harvests card and personal details to "claim" the prize. Genuine Lotto NZ messages only ever come through the short-code 3361 used for text-to-play subscribers, so a "win" notification from any other number is fraudulent by definition — the same underlying script scammers have previously dressed up as supermarket and courier-delivery texts, now trading on Lotto NZ\'s brand trust instead.',
+    categorySlug: 'lottery-sweepstakes-scams',
+    country: 'NZ',
+    alertLevel: 'medium',
+    sources: ['Netsafe'],
+    sourceUrl: 'https://www.nzherald.co.nz/nz/scammer-posing-as-lotto-nz-targets-kiwis-with-fake-text-messages/TQ5WCB5WC65Z2FQ35G4K6XPKOU/',
+  },
 ];
 
 async function seedCategoriesAndScams() {
