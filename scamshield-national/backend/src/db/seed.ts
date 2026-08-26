@@ -1324,6 +1324,34 @@ Credit repair scams run on a related lie: no company, no matter what its ads cla
 
 The clearest warning signs are a demand for payment before any service is performed, instructions to stop paying or stop talking to your actual creditors, a guarantee that debts will be forgiven or negative marks erased, and unsolicited calls offering to fix a financial problem you didn't ask anyone to look into. Before paying anyone for debt or credit help, verify the company is properly registered, ask exactly what happens if they fail to deliver, and remember that no legitimate service can guarantee a creditor will agree to anything in advance.`,
   },
+  {
+    title: 'Medicare Scams: Why Your Medicare Number Is a Target Even Without Your Money',
+    slug: 'medicare-health-insurance-scams-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'medicare-scams'],
+    sourceUrl: 'https://www.aarp.org/money/scams-fraud/most-common-medicare-scams/',
+    body: `Someone claiming to be from Medicare calls offering a "new" or "upgraded" card, or shows up at a health fair with a "free" knee brace, glucose monitor, or genetic testing kit — in every version, the actual product or paperwork is beside the point. What the scammer is really after is the beneficiary's Medicare number itself, because that number alone is enough to bill Medicare directly for services, equipment, or tests that were never actually provided. As one Senior Medicare Patrol director described a genetic-testing scheme, the scammers "would just discard the swabs and use the Medicare number" — the swab was never going to a lab at all.
+
+This is what makes Medicare fraud different from a typical scam: the victim doesn't have to hand over a dollar to be harmed. A stolen Medicare number can generate fraudulent charges against a real beneficiary's account, corrupt their medical records with equipment or diagnoses they never received, and even cause a legitimate future claim to be denied because the record already shows the benefit was "used." Other documented variants include unauthorized hospice enrollment through a complicit doctor, and fake telemedicine charges quietly added onto an otherwise real medical bill.
+
+Medicare itself never calls, texts, or emails beneficiaries out of the blue to sell something or ask them to verify their number — any unsolicited contact along those lines is a Medicare number theft attempt, whether it's dressed up as a discount, a bonus, or a free product. The number deserves the same protection as a Social Security number or credit card: never share it with anyone who calls, and don't hand it over at a booth or door-to-door visit just because a product is offered for "free."
+
+The best defense is simply reviewing the Medicare Summary Notice that arrives after any claim is processed, checking for services or equipment listed that were never actually received. Anything unfamiliar should be reported directly to 1-800-MEDICARE (1-800-633-4227) or the Senior Medicare Patrol at 1-877-808-2468 — both take these reports seriously and can help correct a record before a fraudulent charge affects future coverage.`,
+  },
+  {
+    title: 'Foreclosure Rescue Scams: When "Help" Means Signing Away Your Home',
+    slug: 'foreclosure-rescue-loan-modification-scams-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'foreclosure-rescue-scams'],
+    sourceUrl: 'https://consumer.ftc.gov/articles/mortgage-relief-scams',
+    body: `A company or individual promises to negotiate directly with a homeowner's lender, secure a loan modification, or stop a foreclosure outright — and asks for a large fee upfront to get started. Under the FTC's Mortgage Assistance Relief Services Rule, that upfront fee is itself illegal: a company is legally barred from collecting payment for a loan modification before that modification has actually been delivered, which means demanding money before doing anything isn't just a red flag, it's already a violation of federal law.
+
+The scheme often escalates from there. Scammers posing as housing counselors or attorneys tell homeowners to stop paying their real mortgage lender and to stop communicating with them directly, redirecting the homeowner's payments to the scammer instead — money that never actually reaches the lender and does nothing to stop the foreclosure clock running in the background.
+
+The most damaging version of this scam involves the deed itself: a homeowner is talked into signing over ownership of their home, sometimes with the document buried among what they're told is routine loan-modification paperwork, under a promise that the scammer will "rent it back" to them until they can buy it back later. What victims often don't realize is that transferring the deed doesn't transfer the mortgage — the original homeowner remains legally responsible for the loan even after they've lost ownership of the house, while the scammer collects rent on a property they no longer have any real claim to and pockets it.
+
+The clearest warning signs are any request for payment before work is done, instructions to stop paying or stop talking to your actual lender, guarantees that a modification is certain, pressure to sign documents quickly without reading them, and any request to sign over the deed under any pretext. Real help exists and it's free: HUD-approved housing counselors, found through HUD's own counselor directory, and resources like makinghomeaffordable.gov can provide legitimate loan modification assistance without charging a cent upfront. Report a suspected scam to ReportFraud.ftc.gov, the CFPB, or your state attorney general's office.`,
+  },
 ];
 
 async function seedArticles(articles: SeedArticle[], label: string) {
