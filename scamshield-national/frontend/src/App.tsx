@@ -47,7 +47,7 @@ function AccountNav() {
 
   return (
     <div className="flex items-center gap-4">
-      <NavLink to="/dashboard" className="text-sm text-slate-500">
+      <NavLink to="/dashboard" className="text-sm text-slate-500 whitespace-nowrap truncate max-w-[12rem]">
         {user.email}
       </NavLink>
       <button
@@ -56,7 +56,7 @@ function AccountNav() {
           clearSession();
           navigate('/');
         }}
-        className="text-sm text-slate-500"
+        className="text-sm text-slate-500 whitespace-nowrap flex-shrink-0"
       >
         Sign out
       </button>
@@ -85,22 +85,22 @@ function SiteHeader() {
         </div>
       </div>
 
-      <nav className="max-w-6xl mx-auto px-4 h-16 flex items-center gap-8">
-        <Link to="/" className="flex items-center gap-2.5">
+      <nav className="max-w-6xl mx-auto px-4 min-h-16 py-2 flex items-center gap-8">
+        <Link to="/" className="flex items-center gap-2.5 flex-shrink-0">
           <ShieldLogo className="h-9 w-9" />
-          <span className="font-bold text-lg text-slate-900" style={{ fontFamily: 'Georgia, "Times New Roman", serif' }}>
+          <span className="font-bold text-lg text-slate-900 whitespace-nowrap" style={{ fontFamily: 'Georgia, "Times New Roman", serif' }}>
             ScamShield National
           </span>
         </Link>
 
-        <div className="hidden md:flex items-center gap-6 flex-1">
+        <div className="hidden md:flex items-center gap-6 flex-1 min-w-0 overflow-x-auto">
           {NAV_LINKS.map((link) => (
             <NavLink
               key={link.to}
               to={link.to}
               end={link.end}
               className={({ isActive }) =>
-                `text-sm ${isActive ? 'text-slate-900 font-medium' : 'text-slate-500'}`
+                `text-sm whitespace-nowrap flex-shrink-0 ${isActive ? 'text-slate-900 font-medium' : 'text-slate-500'}`
               }
             >
               {link.label}
@@ -108,10 +108,10 @@ function SiteHeader() {
           ))}
         </div>
 
-        <div className="ml-auto flex items-center gap-5">
+        <div className="ml-auto flex items-center gap-5 flex-shrink-0">
           <Link
             to="/report"
-            className="px-4 py-2 rounded-md bg-[#8a2e2e] text-white text-sm font-semibold hover:bg-[#7a2626] transition-colors"
+            className="px-4 py-2 rounded-md bg-[#8a2e2e] text-white text-sm font-semibold whitespace-nowrap flex-shrink-0 hover:bg-[#7a2626] transition-colors"
           >
             Report a Scam
           </Link>
