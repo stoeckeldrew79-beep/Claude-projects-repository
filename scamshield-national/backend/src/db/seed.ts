@@ -1212,6 +1212,34 @@ The FBI's Internet Crime Complaint Center has tracked a sharp rise in this speci
 
 The clearest warning sign is a sudden, unexplained loss of cell service — calls and texts stop going through with no obvious cause, which can mean a number has just been ported away. Treat any unsolicited call asking for a carrier account PIN or password as an attempted takeover and never provide it; verify by calling your carrier's official number directly instead. Where possible, replace SMS-based two-factor authentication with an authenticator app or a hardware security key, ask your carrier to add a PIN or passcode requirement on any SIM or account changes, and avoid publicizing crypto holdings or other high-value assets on social media, since that kind of information is exactly what makes a target worth this level of effort.`,
   },
+  {
+    title: 'Fake Rental Listing Scams: When the Apartment Isn\'t Really For Rent',
+    slug: 'fake-rental-listing-scams-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'rental-scams'],
+    sourceUrl: 'https://consumer.ftc.gov/articles/rental-listing-scams',
+    body: `Fake rental listings work one of two ways: a scammer either hijacks a real, currently listed property — copying its photos and description and swapping in their own contact information, often reposting it on a different site than the original — or invents an entirely fictional listing for a property that isn't actually for rent at all, dangling an unrealistically low price or upscale amenities to draw interest. Either way, the goal is the same: collect a deposit, application fee, or first month's rent, sometimes along with a Social Security number or driver's license copy for a fake "background check," before the renter ever realizes there's no real apartment behind the ad.
+
+The FTC specifically names Facebook and Craigslist as common sources of these listings, and the pattern relies on renters not being able to verify the unit is real before money changes hands. The "landlord" is conveniently always unavailable to show the property in person — claiming to be traveling, working overseas, or on a religious mission — and pushes the renter to wire money, send a gift card code, or pay through a cash app to "hold" the unit sight unseen. Since 2020, consumers have reported nearly 65,000 rental scams to the FTC, totaling about $65 million in losses.
+
+The clearest warning signs are a price noticeably below market rate for the area, refusal or inability to show the unit in person, pressure to decide and pay quickly, and a payment method that can't be reversed — wire transfer, gift cards, and cryptocurrency all fall into this category, and the FTC bluntly compares them to sending cash. A related tell is the same listing appearing more than once under different "owner" names, which usually means it was copied from somewhere else.
+
+Before sending any money, insist on seeing the unit in person or via a live video walkthrough with someone who can show the actual keys and address, search the landlord's name alongside words like "scam" or "complaint," and check local property tax or county assessor records to confirm who actually owns the address. A legitimate landlord will provide a signed lease before asking for a deposit — never send money to "hold" a unit you haven't been able to verify is real.`,
+  },
+  {
+    title: 'AI Voice Cloning Scams: When the Panicked Voice on the Phone Isn\'t Real',
+    slug: 'ai-voice-cloning-family-emergency-scams-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'ai-voice-cloning'],
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2023/03/scammers-use-ai-enhance-their-family-emergency-schemes',
+    body: `A traditional "grandparent scam" relies on a human impersonator doing their best to sound like a panicked relative over a bad phone connection. The newer, more convincing version replaces the impersonator with AI voice-cloning software: as the FTC describes it, "all he needs is a short audio clip of your family member's voice — which he could get from content posted online — and a voice-cloning program" to generate a synthetic version of that person's actual voice, not just an approximation of it.
+
+Just a few seconds of audio scraped from a social media video, voicemail greeting, or public post can be enough to produce a clone convincing enough to fool someone who knows the real voice well. The scammer then places a panicked call posing as that family member — claiming to have been in a car accident, arrested, or kidnapped — and pushes for an urgent wire transfer, cryptocurrency payment, or gift card codes before there's time to think it through, often insisting the call stay secret from other relatives who might slow things down by asking questions.
+
+What makes this variant harder to catch than a typical impersonation scam is that the voice itself, the thing people instinctively trust most on a phone call, is no longer reliable evidence of who's actually speaking. Red flags still apply — urgency, a demand for secrecy, an unusual or hard-to-reverse payment method, and phrasing that feels slightly off from how the person actually talks — but they require a level of composure that's hard to summon in the middle of what sounds like a real family emergency.
+
+The FTC's core advice is to never trust the voice alone: hang up and call the person back directly on a number already saved for them, or contact another family member independently to verify the story, before sending any money. Setting up a family codeword in advance — a word or phrase a genuine emergency caller would be expected to know or provide — gives everyone a fast, low-stress way to confirm a call is real before panic takes over.`,
+  },
 ];
 
 async function seedArticles(articles: SeedArticle[], label: string) {
