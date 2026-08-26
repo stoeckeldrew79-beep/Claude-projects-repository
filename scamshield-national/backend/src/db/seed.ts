@@ -6257,6 +6257,99 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Netsafe'],
     sourceUrl: 'https://www.nzherald.co.nz/nz/scammer-posing-as-lotto-nz-targets-kiwis-with-fake-text-messages/TQ5WCB5WC65Z2FQ35G4K6XPKOU/',
   },
+  {
+    name: 'Fake Unclaimed Property Lookup Site',
+    slug: 'fake-unclaimed-property-lookup-site',
+    description:
+      'A website mimics missingmoney.com or a state treasurer\'s official unclaimed property search tool and charges a fee to "search," "verify," or "process" a claim that is entirely free through the real, government-run system. State treasury offices confirm they will never request payment, a credit card, or banking information to search for or release unclaimed funds, and warn consumers to use only the official free search tools rather than a look-alike site found through an ad or search result.',
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Kentucky State Treasury'],
+    sourceUrl: 'https://treasury.ky.gov/unclaimedproperty/Pages/scam.aspx',
+  },
+  {
+    name: 'Unclaimed Funds Upfront Fee Scam',
+    slug: 'unclaimed-funds-upfront-fee-scam',
+    description:
+      'An unsolicited call, text, or letter — sometimes printed on fake NAUPA letterhead — claims a specific amount of money is waiting for the recipient, then demands a "processing fee," "release tax," or personal and banking information before the funds can be sent, often with pressure that a deadline is about to expire. The FTC states plainly that real unclaimed-property programs never initiate contact this way and never charge a fee or require banking details to release money that\'s legitimately owed to someone.',
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Federal Trade Commission (FTC)'],
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2026/03/how-handle-unexpected-calls-about-unclaimed-funds',
+  },
+  {
+    name: 'Unlicensed Unclaimed Property "Heir Locator" Overcharging',
+    slug: 'unclaimed-property-heir-locator-overcharging',
+    description:
+      'A third-party "finder" or "heir locator" firm contacts someone about unclaimed property they could search for and claim themselves at no cost, then charges a large percentage-based fee to file the claim on their behalf — sometimes above what state law actually allows. California law, for example, caps this kind of finder fee at 10% of the property\'s value for agreements made after the official unclaimed-property notice is published, and voids fee agreements signed after a claim has already been filed; most other states set similar statutory caps, making an above-cap fee a clear legal violation rather than just an aggressive sales tactic.',
+    categorySlug: 'government-impersonation',
+    alertLevel: 'low',
+    sources: ['California State Controller\'s Office'],
+    sourceUrl: 'https://www.sco.ca.gov/upd_investigator_about.html',
+  },
+  {
+    name: 'Fake Social Security COLA Benefit-Increase Scam',
+    slug: 'fake-ssa-cola-benefit-increase-scam',
+    description:
+      'A call, text, email, or letter claims the recipient must provide personal or banking information to "unlock" their annual Social Security cost-of-living adjustment or an unexpected benefit increase. In reality, SSA\'s cost-of-living adjustment is applied automatically to every beneficiary every year — no action, verification, or information is ever required to receive it, which makes any request tied to "claiming" it an automatic red flag rather than a real opportunity.',
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Social Security Administration Office of Inspector General (SSA OIG)'],
+    sourceUrl: 'https://oig.ssa.gov/assets/uploads/scam-alert-2025-cola.pdf',
+  },
+  {
+    name: '"my Social Security" Account Takeover and Payment Redirect',
+    slug: 'myssa-account-takeover-payment-redirect',
+    description:
+      'A criminal uses a victim\'s stolen personal information — name, Social Security number, and date of birth — to open or take over their "my Social Security" online account, then silently changes the direct-deposit bank details so the victim\'s monthly benefit payment is rerouted to an account the criminal controls. There\'s no phone call or warning sign at all; victims typically only discover it when an expected payment simply doesn\'t arrive. SSA\'s Office of Inspector General has documented more than $33 million redirected from over 20,000 beneficiaries this way between 2013 and 2018 alone.',
+    categorySlug: 'account-takeover',
+    alertLevel: 'high',
+    sources: ['Social Security Administration Office of Inspector General (SSA OIG)'],
+    sourceUrl: 'https://oig.ssa.gov/news-releases/2013-05-03-newsroom-news-releases-may3advisory/',
+  },
+  {
+    name: 'Fake "Claim Your Benefits" SSA Application Phishing Email',
+    slug: 'fake-claim-ssa-benefits-application-phishing',
+    description:
+      'An email impersonating the Social Security Administration, sent from a non-government address under a sender name like "Social Administration," urges someone who hasn\'t yet filed for retirement benefits to click a link and "apply now" before missing out. The link mimics ssa.gov but actually leads to a fraudulent page built to harvest personal information — a tactic aimed specifically at people who are close to retirement age but haven\'t started their claim yet, since they\'re the ones most likely to believe a "you need to act now" message about benefits they haven\'t received before.',
+    categorySlug: 'phishing',
+    alertLevel: 'medium',
+    sources: ['Social Security Administration Office of Inspector General (SSA OIG)'],
+    sourceUrl: 'https://oig.ssa.gov/assets/uploads/scam-alert-2025-claim-benefits.pdf',
+  },
+  {
+    name: 'French Fake Tech Support Scam (Faux Support Technique)',
+    slug: 'france-fake-tech-support-scam',
+    description:
+      'A frightening pop-up or fake antivirus alert claims a computer is infected and displays a phone number to call for urgent repair. Victims who call are pressured into paying for fictitious remote "repairs" or ongoing subscriptions, and in some cases the remote access granted during the call is used to reach into online banking. France\'s Cybermalveillance.gouv.fr, Microsoft, and the Paris prosecutor\'s cybercrime unit jointly flagged this as one of the most common cyberthreats facing individuals in France, with the Paris unit alone logging 585 complaints and €374,000 in declared losses in 2023.',
+    categorySlug: 'tech-support-scams',
+    country: 'FR',
+    alertLevel: 'high',
+    sources: ['Cybermalveillance.gouv.fr', 'Parquet de Paris'],
+    sourceUrl: 'https://www.cybermalveillance.gouv.fr/tous-nos-contenus/fiches-reflexes/arnaques-au-faux-support-technique',
+  },
+  {
+    name: 'Fake EDF Utility Agent Home Visit Scam',
+    slug: 'france-fake-edf-utility-agent-scam',
+    description:
+      'Someone shows up at a home claiming to be a technician from EDF, France\'s main electricity provider, asking to come inside to "verify the electrical installation." No legitimate ID is shown, and the real purpose is theft during the visit or scoping the home for a future burglary — targets are typically elderly or isolated people, and visits are often timed around lunchtime when neighbors are less likely to notice. French authorities advise always demanding to see a professional ID card and calling the gendarmerie directly if there\'s any doubt before letting anyone in.',
+    categorySlug: 'utility-scams',
+    country: 'FR',
+    alertLevel: 'high',
+    sources: ['Gendarmerie nationale', 'Préfecture de la Moselle'],
+    sourceUrl: 'https://www.moselle.gouv.fr/Actualites/Securite/Protection-publique-et-securite-civile/Arnaques-aux-faux-agents',
+  },
+  {
+    name: 'French Fake Grandchild Emergency Call (Arnaque au Faux Petit-Fils)',
+    slug: 'france-fake-grandchild-emergency-scam',
+    description:
+      'A caller opens with something like "Coucou mamie, tu me reconnais?" and claims to be the victim\'s grandchild, suddenly in trouble — a car accident, an arrest — and begs for urgent money while insisting no one else be told. Unlike a slow-building online romance scam, this plays out entirely over a single phone call aimed at elderly, often isolated victims, sometimes with a courier sent to collect cash in person. In one confirmed February 2025 case, an 89-year-old woman in Montpellier handed over €1,000 before her son-in-law intervened and had the collector apprehended; more recent reporting has flagged an AI voice-cloning variant of the same scam beginning to appear.',
+    categorySlug: 'family-emergency-scams',
+    country: 'FR',
+    alertLevel: 'critical',
+    sources: ['CNEWS'],
+    sourceUrl: 'https://www.cnews.fr/france/2025-02-25/arnaque-au-petit-fils-attention-cette-escroquerie-de-plus-en-plus-repandue',
+  },
 ];
 
 async function seedCategoriesAndScams() {
