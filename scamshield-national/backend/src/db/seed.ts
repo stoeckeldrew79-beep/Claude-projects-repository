@@ -1268,6 +1268,34 @@ What makes this variant harder to catch than a typical impersonation scam is tha
 
 The FTC's core advice is to never trust the voice alone: hang up and call the person back directly on a number already saved for them, or contact another family member independently to verify the story, before sending any money. Setting up a family codeword in advance — a word or phrase a genuine emergency caller would be expected to know or provide — gives everyone a fast, low-stress way to confirm a call is real before panic takes over.`,
   },
+  {
+    title: 'Sextortion: How the Threat Works and Why Paying Doesn\'t Make It Stop',
+    slug: 'sextortion-financial-scam-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'sextortion'],
+    sourceUrl: 'https://www.ic3.gov/PSA/2023/psa230605',
+    body: `Sextortion starts with a scammer, often posing as an attractive stranger on social media or a messaging app, building just enough rapport to coerce a victim into sharing a sexually explicit photo or video of themselves. The moment that image exists, the relationship flips: the scammer threatens to send it to the victim's family, friends, and entire contacts list unless a payment is made immediately, usually demanded through gift cards or cryptocurrency because both are difficult to trace or reverse. Some offenders skip the real-image step entirely, taking an ordinary photo and using editing tools to manufacture fake explicit content that looks convincing enough to threaten with anyway.
+
+The scale of this specific, financially motivated variant has grown sharply: the National Center for Missing & Exploited Children logged more than 50,000 reports of financial sextortion in 2025 alone, roughly 137 a day, up 37% from the year before, and the FBI has separately reported a 20% rise in cases targeting minors. Reporting consistently points to teenage boys aged 14 to 17 as the most targeted group, with offenders frequently operating from organized networks overseas. The pressure these threats create has been linked to a number of teen suicides, which is part of why federal agencies treat this as more than a financial-fraud problem.
+
+The single most important fact victims and parents need to hear is one the FBI states directly: complying with the demand does not guarantee the images won't be shared anyway. Paying once often just confirms the victim will pay again, and scammers frequently keep escalating demands rather than stopping. The psychological trap is designed around shame and urgency working together — the same features that make a victim reluctant to tell a parent or report it are exactly what let the extortion continue.
+
+If this happens to you or someone you know, don't pay, don't delete the messages or images (they're evidence), and stop all further contact with the person immediately. Report it to the FBI's Internet Crime Complaint Center at ic3.gov or a local FBI field office, and for anyone under 18, to the National Center for Missing & Exploited Children's CyberTipline at report.cybertip.org or 1-800-THE-LOST — both take the threat seriously and can help get images removed from circulation, something no amount of paying the scammer will actually accomplish.`,
+  },
+  {
+    title: 'Debt Relief and Credit Repair Scams: When "Help" Makes Things Worse',
+    slug: 'debt-relief-credit-repair-scams-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'debt-relief-scams'],
+    sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2025/07/ftc-halts-illegal-debt-relief-operation-falsely-impersonated-businesses-government-harming-consumers',
+    body: `A debt relief or credit repair company promises to negotiate down a consumer's debt, settle it for pennies on the dollar, or quickly "fix" a bad credit score — all in exchange for a large fee paid upfront, before any actual results. In one FTC enforcement action, a company impersonating consumers' own banks, credit card issuers, and even the federal government charged a military veteran nearly $10,000 and told him to simply stop paying his credit cards, which promptly went into default; he ended up $13,000 deeper in debt with his credit score falling from the high 700s into the 500s, and it nearly cost him his security clearance. That single operation took in roughly $100 million, largely from seniors and veterans.
+
+The upfront-fee model isn't just predatory, it's illegal for exactly this kind of service: the FTC's Telemarketing Sales Rule bars for-profit, telemarketed debt-relief companies from collecting any fee before they've actually settled, reduced, or otherwise changed the terms of a customer's debt. A legitimate company gets paid only after delivering a real result — a company demanding money before doing anything is already breaking the law, regardless of what else it promises.
+
+Credit repair scams run on a related lie: no company, no matter what its ads claim, can legally remove accurate, up-to-date negative information from a credit report. If it's true and current, it stays, and any company promising to erase it anyway is either lying about what it can do or planning to use illegal tactics that can backfire on the consumer. Federal law also requires credit repair companies to give customers a signed contract with a three-day right to cancel before any work begins or any fee is charged.
+
+The clearest warning signs are a demand for payment before any service is performed, instructions to stop paying or stop talking to your actual creditors, a guarantee that debts will be forgiven or negative marks erased, and unsolicited calls offering to fix a financial problem you didn't ask anyone to look into. Before paying anyone for debt or credit help, verify the company is properly registered, ask exactly what happens if they fail to deliver, and remember that no legitimate service can guarantee a creditor will agree to anything in advance.`,
+  },
 ];
 
 async function seedArticles(articles: SeedArticle[], label: string) {
