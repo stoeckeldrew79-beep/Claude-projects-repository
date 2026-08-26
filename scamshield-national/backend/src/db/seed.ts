@@ -6015,6 +6015,99 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Canadian Anti-Fraud Centre'],
     sourceUrl: 'https://antifraudcentre-centreantifraude.ca/scams-fraudes/prize-prix-eng.htm',
   },
+  {
+    name: 'California EDD Text Phishing Scam',
+    slug: 'california-edd-text-phishing-scam',
+    description:
+      'A text message impersonating the California Employment Development Department (EDD) or its former debit-card partner Bank of America warns of a problem with an unemployment or disability claim and links to a fake page designed to harvest personal and banking details. EDD confirms it only sends legitimate texts from specific short codes and that any linked site must actually contain "edd.ca.gov" — scammers have kept referencing the old Bank of America relationship even after EDD switched payment processors in 2024, relying on outdated details to seem credible to claimants who haven\'t kept up with the change.',
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'high',
+    sources: ['California Employment Development Department (EDD)'],
+    sourceUrl: 'https://www.edd.ca.gov/en/newsroom/benefitting-californians/2024/best-practices-to-protect-yourself-and-avoid-scammers/',
+  },
+  {
+    name: 'State DMV Unpaid Toll Text Scam',
+    slug: 'state-dmv-unpaid-toll-text-scam',
+    description:
+      'A text message impersonating a state toll agency or DMV claims an unpaid toll or fee is owed, threatening late penalties or license suspension to create urgency, and links to a page that steals personal and financial information. State DMVs across the country — including Virginia, West Virginia, Vermont, Colorado, and Iowa — have issued matching warnings confirming they never send text messages about toll bills or fees, and advise forwarding suspicious texts to 7726 (SPAM) or reporting them to the FTC rather than clicking any link.',
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Virginia DMV'],
+    sourceUrl: 'https://www.dmv.virginia.gov/news/virginia-dmv-warns-customers-toll-charge-text-scam',
+  },
+  {
+    name: 'California Franchise Tax Board Refund Phishing',
+    slug: 'california-franchise-tax-board-refund-phishing',
+    description:
+      'A text message impersonating the California Franchise Tax Board (FTB) — the state\'s own tax authority, separate from the IRS — dangles a fake tax refund to lure recipients into clicking a link and entering their Social Security number, password, banking details, or credit card number on a spoofed page. California Attorney General Rob Bonta issued a consumer alert specifically warning taxpayers about this text-based scam, noting it exploits the same refund-anticipation psychology as IRS impersonation scams but targets the state-level tax system many people don\'t think to double-check.',
+    categorySlug: 'tax-scams',
+    alertLevel: 'high',
+    sources: ['California Attorney General'],
+    sourceUrl: 'https://oag.ca.gov/news/press-releases/attorney-general-bonta-warns-californians-text-based-scams-targeting-taxpayers',
+  },
+  {
+    name: 'DoorDash Dasher Account-Takeover Phishing',
+    slug: 'doordash-dasher-account-takeover-phishing',
+    description:
+      'A caller or texter posing as "DoorDash Support" targets active drivers with a fabricated pretext — a customer supposedly canceled an order and needs the driver\'s password to remove it, a bonus or "financial assistance" is offered in exchange for login details, or the driver is told their password is urgently needed to keep working. Handing over credentials lets the scammer redirect the driver\'s earnings and banking details. DoorDash\'s own help center states flatly that the company "will never need your password to pay you," making any request for it, regardless of the reason given, an automatic red flag.',
+    categorySlug: 'account-takeover',
+    alertLevel: 'high',
+    sources: ['DoorDash Help Center'],
+    sourceUrl: 'https://help.doordash.com/en-us/dashers/article/how-can-i-protect-my-doordash-account-information',
+  },
+  {
+    name: 'Airbnb and Vrbo Off-Platform Payment Scam',
+    slug: 'airbnb-vrbo-off-platform-payment-scam',
+    description:
+      'A "host" with a legitimate-looking, sometimes stolen, Airbnb or Vrbo listing moves the conversation to text or WhatsApp and offers a discount for paying directly via Zelle, Venmo, or wire transfer instead of through the platform\'s official checkout. Once the payment is sent, the scammer disappears — since the transaction happened off-app, the guest has no booking, no working contact for the host, and none of the platform\'s payment protection. The Better Business Bureau documented a real case in which a victim wired $11,348 for a booking that never existed.',
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'high',
+    sources: ['Better Business Bureau (BBB)'],
+    sourceUrl: 'https://www.bbb.org/article/scams/29117-bbb-scam-alert-how-to-spot-this-newly-common-vacation-rental-scam',
+  },
+  {
+    name: 'Fraudulent Gig-Platform 1099 Identity Theft',
+    slug: 'gig-platform-1099-identity-theft',
+    description:
+      'A criminal uses a stolen Social Security number to pass a background check and open a driver account on a gig platform like Uber in someone else\'s name, then drives under that stolen identity. The real SSN owner, who never worked for the platform, only discovers the fraud when an unexpected IRS notice arrives reporting 1099 income they never earned. Documented cases include a Kern County, California man saddled with a fraudulent $53,000 1099 and a Los Angeles couple who received two erroneous forms; the FTC has logged 354 complaints matching this specific pattern since 2020.',
+    categorySlug: 'identity-theft',
+    alertLevel: 'medium',
+    sources: ['Federal Trade Commission (FTC)'],
+    sourceUrl: 'https://spectrumnews1.com/ca/southern-california/public-safety/2026/02/26/uber-identity-theft',
+  },
+  {
+    name: 'Irish Fake Tech Support Vishing Scam',
+    slug: 'ireland-fake-tech-support-vishing-scam',
+    description:
+      'A cold caller claiming to represent a trusted brand — Eir, Microsoft, or Apple are the examples the CCPC itself cites — greets the victim by name and claims there\'s a problem with their internet speed or device, offering to run a "speed test" to prove it. The caller then talks the victim through bogus fixes, asks for card payment for unnecessary "repairs," and often requests remote access to the device, which is instead used to install malware and harvest personal and financial data.',
+    categorySlug: 'tech-support-scams',
+    country: 'IE',
+    alertLevel: 'high',
+    sources: ['Competition and Consumer Protection Commission (CCPC)'],
+    sourceUrl: 'https://www.ccpc.ie/consumers/money/scams/phishing/',
+  },
+  {
+    name: 'Irish Unregistered Charity Door-to-Door Collection',
+    slug: 'ireland-unregistered-charity-collection-scam',
+    description:
+      'Unregistered individuals or groups conduct house-to-house collections, often for clothing banks, using leaflets claiming to benefit children in poverty, people with disabilities, or homeless and abused children, with no transparency about where the money actually goes. The Charities Regulator of Ireland received 30 public reports of this pattern in a single year and describes it as an increasing trend, noting that a legitimate charity collection must display a registered charity name, number, and contact details that can be verified against the regulator\'s public register.',
+    categorySlug: 'charity-scams',
+    country: 'IE',
+    alertLevel: 'medium',
+    sources: ['Charities Regulator of Ireland'],
+    sourceUrl: 'https://www.thejournal.ie/house-donations-charity-unregistered-regulator-3771228-Dec2017/',
+  },
+  {
+    name: 'Irish "Hi Mum/Hi Dad" WhatsApp Scam',
+    slug: 'ireland-hi-mum-hi-dad-whatsapp-scam',
+    description:
+      'A message arrives from an unknown number claiming to be the recipient\'s son or daughter, explaining they\'ve broken or lost their phone and this is their temporary new number, before asking for money with a promise to pay it back within a day or two. Unlike a staged online romance scam, no relationship is built and no dating platform is involved — it simply exploits an existing parent-child bond over WhatsApp or SMS. An Garda Síochána and the Banking and Payments Federation of Ireland (BPFI) have both confirmed the pattern, with BPFI describing it as a scam that "has only started cropping up in Ireland recently" and urging people to think twice before sending money to a third party based on a text alone.',
+    categorySlug: 'family-emergency-scams',
+    country: 'IE',
+    alertLevel: 'high',
+    sources: ['An Garda Síochána', 'Banking and Payments Federation of Ireland (BPFI)'],
+    sourceUrl: 'https://www.thejournal.ie/fraud-arrests-increase-scams-5947424-Dec2022/',
+  },
 ];
 
 async function seedCategoriesAndScams() {
