@@ -1014,6 +1014,48 @@ That bankruptcy filing became its own separate crime. Investigators found Brenna
 Brennan's case shows fraud compounding on itself: a securities scheme that defrauded ordinary investors led to a civil judgment, which he then tried to escape through an even more brazen fraud against the bankruptcy system itself — hiding cash and bonds in his own house rather than simply paying what a federal court had already ruled he owed.`,
     sourceUrl: 'https://law.justia.com/cases/federal/appellate-courts/F3/326/176/526219/',
   },
+  {
+    title: 'Ivar Kreuger: The "Match King" Who Forged His Way to the Top of the World',
+    slug: 'ivar-kreuger-match-king-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Ivar Kreuger built one of the largest business empires the world had ever seen by making an offer few cash-strapped governments could refuse: in exchange for large loans, he'd receive a monopoly on match production and sales in that country. Through this scheme he struck deals with Poland, Greece, France, Germany, and more than a dozen other nations during the 1920s, and by 1928 his Swedish Match empire controlled roughly half of global match production. Wall Street loved him — Boston investment bank Lee Higginson & Co. underwrote and sold millions of dollars of Kreuger securities to American investors, lending his empire the credibility of a blue-chip stock.
+
+The empire was largely a fiction. Kreuger used a web of holding companies — including Kreuger & Toll and International Match Corporation — to shuffle money between entities, obscuring the fact that many of the government loans and "investments" he claimed to have made either didn't exist or had actually been rejected. He paid dividends to existing investors using capital raised from new ones, a Ponzi-like structure dressed up in respectable corporate paperwork. When a match-monopoly deal with Mussolini's Italy fell apart, Kreuger simply forged 42 Italian government bonds with a combined face value in the tens of millions of pounds, complete with a forged signature from Italy's finance minister, and used them as loan collateral.
+
+The scheme unraveled as the Depression deepened. On March 12, 1932, Kreuger was found dead in his Paris apartment of a gunshot wound, in a death French police ruled a suicide (his brother later publicly disputed this, though suicide remains the consensus historical conclusion). Kreuger died before any of the forgeries came to light — it took auditors from Price Waterhouse roughly five years to untangle his roughly 400 companies, and their report described the falsified bookkeeping as so crude that "anyone with but a rudimentary knowledge of bookkeeping could see the books were falsified." A 1930 analysis in Foreign Affairs found that some $400 million of his claimed assets amounted to little more than fictitious entries on a balance sheet.
+
+Kreuger's collapse remains one of history's largest corporate frauds, and its aftermath reshaped American finance: the scandal is widely credited as a direct catalyst for the U.S. Securities Act of 1933 and Securities Exchange Act of 1934, the laws that first required public companies to disclose real, audited financials to investors — a regulatory response built specifically to prevent a repeat of a man who talked his way to running half the world's match supply on paper that didn't hold up.`,
+    sourceUrl: 'https://www.britannica.com/money/Ivar-Kreuger',
+  },
+  {
+    title: 'Victor Lustig: The Con Man Who Sold the Eiffel Tower — Twice',
+    slug: 'victor-lustig-eiffel-tower-con',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Victor Lustig, born in Bohemia in what is now the Czech Republic, spent the early twentieth century as a professional swindler working the ocean liners and cities of Europe and the United States. His most audacious con came in 1925: posing as a French government official on forged Ministry of Posts and Telegraphs letterhead, he invited a group of Paris scrap-metal dealers to a secret meeting at the Hôtel de Crillon and told them the Eiffel Tower — then aging, expensive to maintain, and unpopular — was quietly slated for demolition, with its roughly 7,000 tons of iron up for sale as scrap.
+
+Lustig singled out one dealer, André Poisson, who was eager to prove himself among Paris's business elite, and privately implied that a bribe would secure the deal. Poisson paid up, Lustig collected the money and vanished to Vienna, and — banking correctly that an embarrassed Poisson would never report being conned — Lustig returned to Paris about a month later and tried to sell the Tower to an entirely new set of dealers. This time one of them grew suspicious and alerted police, forcing him to flee to the United States for good.
+
+Lustig's other signature con was the "Romanian box," a device he claimed could duplicate paper currency: he'd feed in a real bill, and after a wait two bills would emerge, because he'd secretly preloaded a matching one inside. He sold the boxes for thousands of dollars apiece, again relying on marks' unwillingness to admit they'd bought what amounted to a counterfeiting machine — one victim, a Texas sheriff, was conned a second time when he tracked Lustig down to complain. Lustig's luck ran out in the 1930s, when he partnered with a pharmacist and a chemist to run a genuine counterfeiting operation that produced an estimated $2 million in fake US currency; a tip from his mistress led to his arrest in May 1935, and after a brief escape and recapture he was sentenced to 20 years, served largely at Alcatraz alongside Al Capone.
+
+Lustig died March 11, 1947, of pneumonia at the federal medical facility in Springfield, Missouri, after being transferred from Alcatraz. Unlike frauds built on falsified balance sheets, his cons worked purely on audacity and psychology — a fake title, a fabricated secret, and the well-founded bet that a mark tricked into something illegal or embarrassing would rather absorb the loss quietly than ever report it.`,
+    sourceUrl: 'https://www.smithsonianmag.com/history/man-who-sold-eiffel-tower-twice-180958370/',
+  },
+  {
+    title: 'Sergei Mavrodi: The MMM Pyramid That Swindled Millions of Russians',
+    slug: 'sergei-mavrodi-mmm-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Sergei Mavrodi founded MMM in Moscow in 1989, initially as a computer-equipment trading cooperative, before turning it into a public investment scheme in 1994 as Russia's post-Soviet economy lurched through hyperinflation and mass privatization. MMM sold shares directly to the public and promised eye-popping monthly returns, commonly cited in the 20-75% range, funded entirely by the cash brought in by new investors rather than any real underlying business — a textbook Ponzi structure, but one run at a scale and with a media presence (including a heavily aired ad campaign built around a fictional everyman investor, "Lyonya Golubkov") that made it a genuine cultural phenomenon.
+
+The scheme collapsed within days after Russia's Ministry of Finance publicly denounced MMM's unregistered securities on July 22, 1994; share prices crashed from roughly 125,000 rubles to about 1,000 rubles almost overnight, and MMM ceased operations the following day. Estimates of how many Russians lost money vary, but most sources put the number in the range of 10 to 15 million investors — a substantial share of the country's population, wiped out in the same week. Mavrodi was arrested on tax charges days later, then ran for and won a seat in the State Duma later that year specifically to gain the parliamentary immunity that shielded him from prosecution for years; he rarely attended sessions, and was eventually stripped of immunity in 1996.
+
+Mavrodi went into hiding after MMM's formal bankruptcy in December 1997 and wasn't arrested again until 2003. A Moscow court convicted him of fraud in April 2007, though the conviction covered only a narrow slice of the full scheme — roughly 10,000 investors and 110 million rubles (about $4.3 million) — and he was sentenced to four and a half years, but was released immediately, having already served the equivalent time in pretrial detention. Rather than stop, Mavrodi relaunched nearly identical schemes — MMM-2011 and later MMM Global — that expanded internationally, gaining particular traction in Nigeria, where roughly 2.4 million people had signed up by late 2016.
+
+Mavrodi died of a heart attack in Moscow on March 26, 2018, at age 62, having spent almost the entirety of his adult life running variations of the same fraud rather than serving meaningful time for any of them. His case is a stark illustration of how a Ponzi scheme's collapse doesn't always end its operator's career — MMM's implosion in 1994 became merely the first of several, as Mavrodi kept finding new, poorer, less-warned populations to sell the same promise to for another two decades.`,
+    sourceUrl: 'https://www.france24.com/en/20180326-author-russias-mmm-pyramid-scheme-who-swindled-millions-dies',
+  },
 ];
 
 // Practical "how it works / red flags / what to do" guides covering the
