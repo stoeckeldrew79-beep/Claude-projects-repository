@@ -1,3 +1,4 @@
+import { useMemo } from 'react';
 import { Link } from 'react-router-dom';
 import { useArticles } from '../hooks/useArticles';
 import { useDocumentMeta } from '../hooks/useDocumentMeta';
@@ -19,6 +20,15 @@ export default function Notorious() {
 
   const { data: articles, isLoading, isError } = useArticles('notorious');
 
+  // Profiles with a real, rights-cleared photo lead the collection; ones
+  // still waiting on the photo-hunt routine (rendering generated cover art
+  // instead) sort to the back until a photo is found for them. A stable
+  // sort keeps each group's existing relative order otherwise.
+  const sortedArticles = useMemo(() => {
+    if (!articles) return articles;
+    return [...articles].sort((a, b) => Number(!a.cover_image) - Number(!b.cover_image));
+  }, [articles]);
+
   return (
     <div className="max-w-5xl mx-auto px-4 py-12">
       <BlurFade>
@@ -34,7 +44,7 @@ export default function Notorious() {
       {isError && <p className="mt-8 text-red-700">Couldn't load this collection.</p>}
 
       <div className="mt-10 grid gap-6 sm:grid-cols-2">
-        {articles?.map((article, i) => (
+        {sortedArticles?.map((article, i) => (
           <BlurFade key={article.id} delay={0.06 + i * 0.05} inView>
             <Link
               to={`/articles/${article.slug}`}
@@ -59,7 +69,7 @@ export default function Notorious() {
             </Link>
           </BlurFade>
         ))}
-        {articles && articles.length === 0 && (
+        {sortedArticles && sortedArticles.length === 0 && (
           <p className="text-slate-500 col-span-2">No entries published yet.</p>
         )}
       </div>

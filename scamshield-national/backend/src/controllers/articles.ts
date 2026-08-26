@@ -33,7 +33,7 @@ export const list = asyncHandler<AuthedRequest>(async (req, res) => {
      FROM articles a
      LEFT JOIN scams s ON s.id = a.scam_id
      WHERE ${conditions.join(' AND ')}
-     ORDER BY a.published_at DESC LIMIT 50`,
+     ORDER BY a.published_at DESC LIMIT 200`,
     values
   );
   res.json({ data: rows });
