@@ -960,6 +960,9 @@ Rich died in Lucerne, Switzerland, in June 2013 at age 78, having spent essentia
     slug: 'dennis-levine-bank-leu-insider-trading',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Dennis_Levine_in_2004.jpg',
+    coverImageCredit: 'Photo: Ken Rutkowski (CC0)',
+    coverImagePosition: 50,
     body: `Dennis Levine was a managing director at Drexel Burnham Lambert who spent roughly five years trading on nonpublic information about pending corporate mergers and acquisitions he learned through his own investment-banking work — information he was supposed to be handling in confidence, not trading on. To hide his identity, Levine routed his trades through a secret account at Bank Leu in Nassau, the Bahamas, held under the alias "Mr. Diamond" through shell entities, and phoned in his orders collect from public pay phones to avoid leaving a traceable line back to himself. Over that period, the SEC alleged, he made roughly $12.6 million in illegal profits trading ahead of takeover announcements in 54 different stocks.
 
 The scheme unraveled almost by accident: Bank Leu employees, noticing how consistently "Mr. Diamond's" trades paid off, began mirroring them in their own accounts, and the pattern of suspicious trading eventually caught Merrill Lynch's attention and was reported up to the SEC. Under pressure from US investigators, Bank Leu disclosed Levine's real identity on May 9, 1986, and he was arrested three days later. He pleaded guilty on June 5, 1986, to securities fraud, tax evasion, and perjury.
