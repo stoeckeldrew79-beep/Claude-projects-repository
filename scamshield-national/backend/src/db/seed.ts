@@ -1063,6 +1063,48 @@ Mavrodi died of a heart attack in Moscow on March 26, 2018, at age 62, having sp
     coverImageCredit: 'Photo: State Duma of the Russian Federation (CC BY 4.0)',
     coverImagePosition: 50,
   },
+  {
+    title: 'Michele Sindona: The Mafia Banker Who Sank America\'s Largest Bank Failure',
+    slug: 'michele-sindona-franklin-national-bank-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Michele Sindona started as a tax lawyer in postwar Milan before building an Italian banking empire — including Banca Privata Italiana — while managing money for the Gambino crime family's heroin profits and cultivating close ties to the Vatican Bank. In 1972, through his Liechtenstein holding company, Sindona bought a controlling stake in Franklin National Bank, a New York institution that was at the time the 20th-largest bank in the United States. He would later go on to mentor a younger Italian banker named Roberto Calvi, introducing him to the same Vatican Bank connections that had served Sindona so well.
+
+Franklin National's collapse followed a familiar pattern: massive unauthorized foreign-currency speculation losses, compounded by a fraudulent unauthorized transfer of roughly $30 million to Europe. Regulators declared the bank insolvent on October 8, 1974 — at the time, the largest bank failure in American history. Weeks earlier, Sindona's Italian banking empire had also come apart; Banca Privata Italiana was forced into liquidation in September 1974 with debts around $350 million. Tipped off that an Interpol arrest warrant was coming, Sindona fled to the United States that October to avoid Italian authorities.
+
+American prosecutors caught up with him anyway. After a nine-week trial, a jury convicted Sindona in March 1980 on 65 counts, including fraud, perjury, and misappropriating roughly $45 million in Franklin funds, and he was sentenced to 25 years. Italy wanted him too: Sindona was extradited in September 1984 to face charges connected to Giorgio Ambrosoli, the court-appointed liquidator whose investigation into Sindona's collapsed Italian banks had fed evidence to American prosecutors. Ambrosoli was shot dead outside his Milan home in July 1979 by a hitman paid on Sindona's orders. In March 1986, a Milan court convicted Sindona of ordering that murder and sentenced him to life in prison.
+
+He didn't serve much of it. Four days after his life sentence, in his cell at a maximum-security prison, Sindona drank coffee laced with cyanide and died two days later, on March 22, 1986. Italian authorities' official position leaned toward suicide, but the circumstances — a prisoner under constant guard, eating from sealed containers — left many, including his own lawyer, convinced he was murdered to keep him permanently silent. Sindona's case remains a foundational example of how a single well-connected financier, moving between organized crime, a national bank, and the Vatican's own finances, could bring down record-setting institutions on two continents before the truth of what happened to him could ever be fully settled.`,
+    sourceUrl: 'https://www.britannica.com/money/Michele-Sindona',
+  },
+  {
+    title: 'Roberto Calvi: "God\'s Banker" and the Body Under Blackfriars Bridge',
+    slug: 'roberto-calvi-banco-ambrosiano-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Roberto Calvi joined Banco Ambrosiano in 1947 and rose to become its chairman in 1975, taking the reins of what was then Italy's largest private bank — one whose biggest shareholder was the Vatican Bank, run at the time by American Archbishop Paul Marcinkus. Calvi had been mentored by fellow financier Michele Sindona, who introduced him to Marcinkus in 1971, and Calvi was also a member of the clandestine P2 Masonic lodge, a network that entangled Italian business, politics, and organized crime throughout the 1970s and 80s.
+
+Calvi's fraud ran through a web of shell companies, mostly registered in Panama, that received an estimated $1.3 billion or more in loans from Banco Ambrosiano and its subsidiaries. The Vatican Bank issued "letters of comfort" assuring creditors it stood behind these shell companies' debts — letters Marcinkus later claimed were meant for internal use only. The money moved through the shells for a mix of purposes: buying up Banco Ambrosiano's own stock to prop up its price, financing Latin American ventures including Nicaragua's Somoza regime, and — by multiple accounts — funneling money to Poland's Solidarity movement, alongside straightforward embezzlement. Convicted in 1981 for illegally moving $27 million out of Italy, Calvi received only a suspended sentence and kept his job as chairman.
+
+The scheme finally came apart in June 1982, when Banco Ambrosiano collapsed with debts estimated as high as $1.5 billion, one of the largest bank failures in European history. Calvi fled Italy using a false passport, and on the morning of June 18, 1982, his body was found hanging from scaffolding under Blackfriars Bridge in London, bricks stuffed in his pockets and roughly $14,000 in mixed currencies on him. A first inquest ruled it suicide; a second, in 1983, returned an open verdict. It wasn't until his body was exhumed in 1998 and an independent 2002 forensic report found injuries inconsistent with a self-hanging that London police reopened the case as a murder investigation.
+
+A 2005-2007 Rome trial tried five defendants, including a Mafia figure, for Calvi's murder — the court found his death was very likely a killing rather than a suicide, but acquitted all five for insufficient evidence, and no one has ever been convicted. More than four decades later, exactly who killed "God's Banker" — and on whose orders — remains formally unresolved, even as the fraud that preceded his death stands as one of the clearest illustrations of how deeply a single bank collapse can entangle organized crime, clandestine political networks, and a national church's own finances.`,
+    sourceUrl: 'https://www.bbc.com/culture/article/20250611-the-mysterious-murder-of-gods-banker-roberto-calvi',
+  },
+  {
+    title: 'Nicholas Cosmo: The "Mini-Madoff" Who Ran a Ponzi Scheme From Prison Lessons Learned',
+    slug: 'nicholas-cosmo-agape-world-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Nicholas Cosmo had already been convicted once before he built his biggest fraud. As a licensed stockbroker in the late 1990s, he pleaded guilty to mail fraud for commingling client funds and forging documents, serving 21 months in prison. Not long after his release, he founded Agape World Inc. on Long Island, New York, telling investors their money would fund short-term "bridge loans" to construction and commercial borrowers — pitches from his sales agents promised returns as high as 12 to 14 percent in a matter of weeks, with almost no risk to principal.
+
+Little to none of the money actually went to bridge loans. Regulators later found Cosmo used incoming investor cash to pay off earlier investors in classic Ponzi fashion, cover sales commissions, and fund his own unauthorized commodity futures trading — a habit that alone cost him roughly $80 million in losses. The scheme collapsed in January 2009, just seven weeks after Bernie Madoff's own arrest, and press coverage at the time quickly dubbed Cosmo "Long Island's Mini-Madoff." Regulators put the total scale of money raised at around $370 to $415 million, with actual investor losses closer to $147 to $195 million across thousands of victims — the exact figures vary by source depending on whether gross amounts raised or net losses are being counted.
+
+Cosmo was arrested on January 26, 2009, and the Commodity Futures Trading Commission filed a parallel civil suit against him the very next day. He pleaded guilty to mail and wire fraud in October 2010, and in October 2011 was sentenced to 25 years in federal prison, along with an order to pay $179 million in restitution to his victims. Several of his sales agents and associates were separately charged and sentenced in the years that followed.
+
+Cosmo's case is a reminder that a prior fraud conviction doesn't always stop someone from running an even larger scheme — if anything, his first conviction taught him exactly what regulators look for, knowledge he then used to build a fraud roughly a hundred times the size of the one that had first put him in prison.`,
+    sourceUrl: 'https://www.cftc.gov/LearnAndProtect/CaseStatusReports/cosmoagape',
+  },
 ];
 
 // Practical "how it works / red flags / what to do" guides covering the
