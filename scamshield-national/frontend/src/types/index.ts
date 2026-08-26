@@ -91,6 +91,17 @@ export interface GlobalSource {
   stats: GlobalStat[];
 }
 
+export interface DailyScamNews {
+  id: string;
+  headline: string;
+  summary: string | null;
+  source_name: string;
+  source_url: string;
+  published_at: string | null;
+  search_term: string | null;
+  scanned_at: string;
+}
+
 export type SubscriptionTier = 'free' | 'basic' | 'pro' | 'family' | 'business';
 
 export interface User {

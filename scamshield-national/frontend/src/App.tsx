@@ -1,5 +1,6 @@
 import { Link, NavLink, Route, Routes, useNavigate } from 'react-router-dom';
 import Home from './pages/Home';
+import TodaysScams from './pages/TodaysScams';
 import Database from './pages/Database';
 import ScamDetail from './pages/ScamDetail';
 import Alerts from './pages/Alerts';
@@ -22,6 +23,7 @@ import { formatPhoneDisplay, PUBLIC_PHONE, telHref } from './utils/publicPhone';
 
 const NAV_LINKS = [
   { to: '/', label: 'Home', end: true },
+  { to: '/todays-scams', label: "Today's Scams" },
   { to: '/database', label: 'Database' },
   { to: '/alerts', label: 'Alerts' },
   { to: '/articles', label: 'Articles' },
@@ -204,6 +206,7 @@ export default function App() {
       <div className="flex-1">
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/todays-scams" element={<TodaysScams />} />
           <Route path="/database" element={<Database />} />
           <Route path="/scams/:slug" element={<ScamDetail />} />
           <Route path="/alerts" element={<Alerts />} />

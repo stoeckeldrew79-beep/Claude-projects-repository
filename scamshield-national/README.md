@@ -51,6 +51,13 @@ Implemented:
   (recurring scammer contact info, category spikes) and drafts articles with Claude — every
   draft lands unpublished in the admin review queue (`/admin`, or `GET /articles/drafts`);
   nothing is ever auto-published
+- "Today's Scams" (`/todays-scams`): `npm run scan-daily-news` scans real, live US news
+  coverage (via Google News' public RSS search — no API key required) for scam-related
+  headlines and publishes them immediately — unlike the AI-drafted articles above, this feed
+  is fully automatic by design, with no review queue. Deduped by source URL (safe to run more
+  than once a day) and pruned after 30 days so it stays a rolling window of recent headlines.
+  Every item links to the original story at its real source; the page itself says plainly that
+  nothing on it is written or verified by hand
 - Global Scam Intelligence (`/global-sources`): a directory of the major national fraud-reporting
   agencies worldwide across 11 countries (FTC, FBI IC3, ACCC/Scamwatch, Canadian Anti-Fraud
   Centre, Action Fraud, CERT NZ, Ireland's CCPC, Singapore's ScamShield/SPF, Germany's BSI,
@@ -122,6 +129,19 @@ once a day is harmless. Example crontab entry for a daily 6am run:
 ```
 0 6 * * * cd /path/to/backend && npm run draft-articles >> /var/log/scamshield-drafts.log 2>&1
 ```
+
+## Scheduling the daily scam news scan
+
+`npm run scan-daily-news` is also a one-shot script — schedule it the same way. It's
+idempotent (deduped by source URL), so running it more than once a day, or hourly for a
+fresher feed, is harmless. Example crontab entry for a daily 6am run:
+
+```
+0 6 * * * cd /path/to/backend && npm run scan-daily-news >> /var/log/scamshield-daily-news.log 2>&1
+```
+
+Unlike `draft-articles`, this one is fully automatic — headlines it finds go live immediately,
+with no admin review step.
 
 ## Public phone number
 
