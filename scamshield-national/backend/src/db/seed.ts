@@ -1027,6 +1027,8 @@ The scheme unraveled as the Depression deepened. On March 12, 1932, Kreuger was 
 
 Kreuger's collapse remains one of history's largest corporate frauds, and its aftermath reshaped American finance: the scandal is widely credited as a direct catalyst for the U.S. Securities Act of 1933 and Securities Exchange Act of 1934, the laws that first required public companies to disclose real, audited financials to investors — a regulatory response built specifically to prevent a repeat of a man who talked his way to running half the world's match supply on paper that didn't hold up.`,
     sourceUrl: 'https://www.britannica.com/money/Ivar-Kreuger',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Kreuger_ca1920.jpg',
+    coverImagePosition: 50,
   },
   {
     title: 'Victor Lustig: The Con Man Who Sold the Eiffel Tower — Twice',
@@ -1041,6 +1043,8 @@ Lustig's other signature con was the "Romanian box," a device he claimed could d
 
 Lustig died March 11, 1947, of pneumonia at the federal medical facility in Springfield, Missouri, after being transferred from Alcatraz. Unlike frauds built on falsified balance sheets, his cons worked purely on audacity and psychology — a fake title, a fabricated secret, and the well-founded bet that a mark tricked into something illegal or embarrassing would rather absorb the loss quietly than ever report it.`,
     sourceUrl: 'https://www.smithsonianmag.com/history/man-who-sold-eiffel-tower-twice-180958370/',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Victor_Lustig_(cropped).jpg',
+    coverImagePosition: 50,
   },
   {
     title: 'Sergei Mavrodi: The MMM Pyramid That Swindled Millions of Russians',
@@ -1055,6 +1059,9 @@ Mavrodi went into hiding after MMM's formal bankruptcy in December 1997 and wasn
 
 Mavrodi died of a heart attack in Moscow on March 26, 2018, at age 62, having spent almost the entirety of his adult life running variations of the same fraud rather than serving meaningful time for any of them. His case is a stark illustration of how a Ponzi scheme's collapse doesn't always end its operator's career — MMM's implosion in 1994 became merely the first of several, as Mavrodi kept finding new, poorer, less-warned populations to sell the same promise to for another two decades.`,
     sourceUrl: 'https://www.france24.com/en/20180326-author-russias-mmm-pyramid-scheme-who-swindled-millions-dies',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Sergei_Mavrodi.jpg',
+    coverImageCredit: 'Photo: State Duma of the Russian Federation (CC BY 4.0)',
+    coverImagePosition: 50,
   },
 ];
 
