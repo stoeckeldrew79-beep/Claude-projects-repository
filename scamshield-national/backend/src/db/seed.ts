@@ -955,6 +955,34 @@ On January 20, 2001, Bill Clinton's final day in office, the president granted R
 Rich died in Lucerne, Switzerland, in June 2013 at age 78, having spent essentially the entire back half of his life as a man who could never safely set foot in the country where he was indicted. His case remains a study in how far distance and money can carry someone away from accountability — not by beating the charges, but by simply staying beyond the reach of the court that filed them, for long enough that political influence, rather than a verdict, became the thing that finally closed the case.`,
     sourceUrl: 'https://money.cnn.com/2013/06/26/investing/marc-rich/index.html',
   },
+  {
+    title: 'Dennis Levine: The Insider Trader Whose Confession Exposed Ivan Boesky',
+    slug: 'dennis-levine-bank-leu-insider-trading',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Dennis Levine was a managing director at Drexel Burnham Lambert who spent roughly five years trading on nonpublic information about pending corporate mergers and acquisitions he learned through his own investment-banking work — information he was supposed to be handling in confidence, not trading on. To hide his identity, Levine routed his trades through a secret account at Bank Leu in Nassau, the Bahamas, held under the alias "Mr. Diamond" through shell entities, and phoned in his orders collect from public pay phones to avoid leaving a traceable line back to himself. Over that period, the SEC alleged, he made roughly $12.6 million in illegal profits trading ahead of takeover announcements in 54 different stocks.
+
+The scheme unraveled almost by accident: Bank Leu employees, noticing how consistently "Mr. Diamond's" trades paid off, began mirroring them in their own accounts, and the pattern of suspicious trading eventually caught Merrill Lynch's attention and was reported up to the SEC. Under pressure from US investigators, Bank Leu disclosed Levine's real identity on May 9, 1986, and he was arrested three days later. He pleaded guilty on June 5, 1986, to securities fraud, tax evasion, and perjury.
+
+What made Levine's case significant beyond his own conviction was what came after it: he cooperated extensively with the SEC and the US Attorney's office, and his testimony directly led investigators to arbitrageur Ivan Boesky, who was subsequently exposed and prosecuted in one of the era's biggest insider-trading scandals. Levine was sentenced to two years in prison, ordered to pay a $362,000 fine, and required to disgorge roughly $11.5 million in illegal profits — at the time the largest such penalty the SEC had obtained.
+
+Levine's case is often remembered less for its own numbers than for the domino effect it triggered: a single insider trader's guilty plea and cooperation agreement unraveled a much larger network of Wall Street misconduct, showing how one relatively contained fraud, once someone inside it starts talking, can expose a whole "nest of vipers" that took years to fully investigate.`,
+    sourceUrl: 'https://law.justia.com/cases/federal/appellate-courts/F2/881/1165/94018/',
+  },
+  {
+    title: 'Danny Pang: The Newport Beach Financier Whose $800 Million Scheme Collapsed With Him',
+    slug: 'danny-pang-private-equity-management-group-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Danny Pang built Private Equity Management Group, a Newport Beach, California investment firm, around bonds backed by "life settlements" — life insurance policies bought from their original policyholders at a discount, with investors promised repayment from the eventual death benefits. Starting around 2003, Pang sold these bonds primarily to Taiwanese banks and wealthy individual investors, raising hundreds of millions of dollars through institutions including Standard Chartered, Hua Nan Bank, Bank SinoPac, Taichung Bank, EnTie Bank, and Cosmos Bank.
+
+The SEC filed an emergency action against Pang and his firm on April 27, 2009, alleging that the underlying life insurance policies were nowhere near valuable enough to cover what investors were owed — a court-appointed receiver later found investors were owed roughly $823 million in principal against firm assets worth only $213 to $426 million — and that Pang had been paying earlier investors with newer investors' money in classic Ponzi fashion. Investigators also found Pang had forged an insurance policy document, presenting one worth roughly $31 million as if it were worth $108 million, and had fabricated parts of his own resume, including false claims about degrees and a prior career at Morgan Stanley. A federal judge froze his assets, appointed a receiver, and ordered him to surrender his passport.
+
+Pang never faced trial. He was found unresponsive at his Newport Beach home on September 11, 2009, and died the next morning at a nearby hospital; toxicology testing finalized around January 2010 found toxic levels of oxycodone and hydrocodone in his system, and the death was officially ruled a suicide. His family publicly disputed the fraud allegations against him, though no similar public dispute of the suicide finding itself has been documented. With Pang gone, the SEC's civil case proceeded through the receivership against his companies and remaining assets, including a large real estate portfolio that was eventually auctioned off in an effort to recover money for investors.
+
+Pang's case is a reminder that a fraud's collapse doesn't always come with a courtroom reckoning for the person who ran it — when the architect of a scheme dies before trial, the receivership process that follows can recover some money for victims, but the full account of exactly what happened, and why, often dies with them.`,
+    sourceUrl: 'https://www.sec.gov/news/press/2009/2009-89.htm',
+  },
 ];
 
 // Practical "how it works / red flags / what to do" guides covering the
