@@ -1502,6 +1502,34 @@ The clearest warning signs are unsolicited door-knocking, pressure to sign or de
 
 Before hiring anyone, get multiple written estimates, verify the contractor's license with the relevant state or county office, and check their complaint history with a local home builders association or consumer protection office. Insist on a written contract that spells out the contractor's credentials, the project timeline, the scope of work, and the materials to be used, check your state's legal limit on how much can be required as a deposit, and hold back final payment until the work is actually finished and inspected — not before.`,
   },
+  {
+    title: 'Auto Warranty Robocalls: The Endless Call About Your "Expiring" Coverage',
+    slug: 'auto-warranty-robocall-scams-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'auto-warranty'],
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2021/05/hang-auto-warranty-robocalls',
+    body: `The call starts with a recording, not a person: an automated voice claiming to represent a "Vehicle Service Department" warns that your car's warranty is about to expire, that the company has "sent you several notices in the mail," and that your file will be closed soon if you don't respond. Pressing a number to "renew" connects you to a live agent selling what's actually a third-party service contract, not a real manufacturer warranty, often for hundreds or thousands of dollars, riddled with exclusions and restrictions that leave real repairs uncovered anyway.
+
+These calls are illegal on their face — legitimate businesses aren't allowed to robocall consumers who haven't given prior consent — which is exactly why they rely entirely on automated dialing at massive scale rather than any real relationship with the people they're calling. At their peak in 2022, the FCC logged roughly a billion auto warranty robocalls in a single month; a coordinated crackdown by the FCC and FTC against several of the operators behind the flood drove that number down sharply, though the pattern has never fully disappeared and remains one of the most common robocall categories reported.
+
+The warning signs are consistent: an unsolicited recorded call about your vehicle's warranty, a claim that you've already been notified by mail, pressure to respond immediately or lose "coverage," a request to pay by credit card over the phone, and a caller ID that shows a local area code despite having no real connection to your area — a spoofing tactic meant to make the call look like it's from someone you might know. None of this resembles how an actual manufacturer or dealer would contact you about a warranty, which is typically by mail, not a recorded phone pitch.
+
+The FTC's advice is blunt: hang up. Don't press any number, since doing so can confirm to the dialer that your number is active and lead to even more calls. Use your phone carrier's or device's built-in call-blocking tools, and report the call at DoNotCall.gov, which creates an official record regulators use to build cases against the companies and networks running these campaigns.`,
+  },
+  {
+    title: 'Lottery and Sweepstakes Scams: You Can\'t Win a Contest You Never Entered',
+    slug: 'lottery-sweepstakes-scams-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'lottery-sweepstakes'],
+    sourceUrl: 'https://consumer.ftc.gov/articles/fake-prize-sweepstakes-and-lottery-scams',
+    body: `A call, text, email, or letter announces that you've won a prize — a new car, an iPad, a cash jackpot, sometimes a specific lottery like Publishers Clearing House or a foreign national lottery. To collect it, you're told, you first need to pay something: "taxes," "insurance," "shipping and handling," or "customs duties" on a prize you supposedly already won. Some versions have a scammer falsely claiming to call from the Federal Trade Commission itself, telling the victim that paying a one-time fee for "taxes and insurance" is all that stands between them and the winnings.
+
+The mechanism only works because it inverts how real prizes function: legitimate sweepstakes and lotteries never require a winner to pay money to receive what they've won, and it's illegal for a company to make you pay to increase your odds of winning something. If a "prize" comes with any request for payment or your bank account, credit card, or Social Security number, that single detail is enough to identify it as fake — genuine prize administrators don't need banking details to mail someone a check or a new car. A related giveaway: if you never entered the sweepstakes or bought a lottery ticket in the first place, there's no legitimate way you could have won it.
+
+Once a victim pays, the scam rarely ends there. Instead of receiving a prize, they get more calls demanding additional fees, each with a fresh promise that the money is finally on its way — sometimes accompanied by a fake check the victim is told to deposit and then wire part of the funds back, a check that later bounces and leaves the victim liable for the full amount. Scammers frequently impersonate a real, recognizable name — a well-known sweepstakes company, a government agency, even the FTC itself — specifically to borrow that name's credibility and make the fake prize feel more believable.
+
+If you're contacted about a prize you don't remember entering to win, don't send money, gift cards, cryptocurrency, or account information under any circumstance, and don't deposit an unexpected check tied to a "prize." Report it to the FTC at ReportFraud.ftc.gov, where the same advisory that describes this scam pattern also emphasizes the one rule that cuts through every variation: real prizes are free.`,
+  },
 ];
 
 async function seedArticles(articles: SeedArticle[], label: string) {
