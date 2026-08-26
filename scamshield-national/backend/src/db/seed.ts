@@ -1383,6 +1383,34 @@ The most damaging version of this scam involves the deed itself: a homeowner is 
 
 The clearest warning signs are any request for payment before work is done, instructions to stop paying or stop talking to your actual lender, guarantees that a modification is certain, pressure to sign documents quickly without reading them, and any request to sign over the deed under any pretext. Real help exists and it's free: HUD-approved housing counselors, found through HUD's own counselor directory, and resources like makinghomeaffordable.gov can provide legitimate loan modification assistance without charging a cent upfront. Report a suspected scam to ReportFraud.ftc.gov, the CFPB, or your state attorney general's office.`,
   },
+  {
+    title: 'Identity Theft Basics: How It Happens and How to Recover',
+    slug: 'identity-theft-basics-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'identity-theft'],
+    sourceUrl: 'https://consumer.ftc.gov/articles/what-know-about-identity-theft',
+    body: `Identity theft happens when someone uses personal information — a name, Social Security number, date of birth, address, or account numbers — without permission. That single piece of stolen information can be used in two fundamentally different ways, and understanding the difference matters for spotting each one: existing-account fraud, where a thief uses a card or bank account someone already has, showing up as unauthorized charges or withdrawals on statements a victim already checks; and new-account fraud, where a thief opens something entirely new in the victim's name — a credit card, a utility or phone account, or even a job — using stolen information the victim never sees on any bill they're already reviewing.
+
+Beyond financial accounts, stolen identity information gets used in ways that don't show up on a bank statement at all: filing a fraudulent tax return to claim someone else's refund before they file their own, obtaining medical care or prescriptions under someone else's name and insurance, or even giving a false identity to police during an arrest. These variants are often the hardest to catch early, since nothing about them triggers a typical bank fraud alert.
+
+The clearest warning signs are things that don't happen rather than things that do: mail or bills that stop arriving as expected, which can mean a thief has filed a change of address; unfamiliar accounts appearing on a credit report; or a tax return getting rejected because one has apparently already been filed. Simple, ongoing habits make the biggest difference in prevention — taking mail out of the mailbox promptly, securing documents that contain personal information, and using strong, unique passwords with two-factor authentication wherever it's offered.
+
+The most effective single protection is a credit freeze, which is free to place and lift with each of the three credit bureaus and blocks new accounts from being opened in someone's name without their explicit unlocking of the freeze first. Everyone is also entitled to free credit reports to check regularly for unfamiliar activity. If identity theft does happen, IdentityTheft.gov — the FTC's dedicated recovery site — generates a personalized, step-by-step recovery plan covering more than 30 different types of identity theft, from a stolen credit card to a fraudulent tax return.`,
+  },
+  {
+    title: 'Home Improvement Contractor Scams: Why "Pay Me First" Should End the Conversation',
+    slug: 'home-improvement-contractor-scams-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'contractor-scams'],
+    sourceUrl: 'https://consumer.ftc.gov/articles/how-avoid-home-improvement-scam',
+    body: `A contractor shows up unannounced, often claiming to be "already in the neighborhood" working on another job, and offers a deal on repair or renovation work — a new roof, driveway resurfacing, storm damage repair — that sounds too convenient to pass up. The pitch comes with pressure to decide immediately, and a demand for full payment, or a large deposit, in cash before any work begins. Once that money changes hands, the contractor either does the work badly, walks off the job partway through, or simply never shows up again.
+
+A related version of this scam involves financing rather than cash: the contractor arranges a loan, often a home-equity loan, on the homeowner's behalf, without making sure the homeowner actually understands the interest rate or repayment terms — leaving them saddled with expensive debt long after the renovation itself may have gone unfinished or been done poorly. Unlicensed or uninsured contractors are especially common in this pattern, since a legitimate, licensed business doesn't need to rely on door-to-door pressure tactics to find customers.
+
+The clearest warning signs are unsolicited door-knocking, pressure to sign or decide on the spot, a demand for full or cash-only payment before work starts, no proof of licensing or insurance, and pressure to pull the required building permits yourself rather than having the contractor handle it as part of the job. Federal law also gives homeowners a specific protection for contracts signed at home: a three-business-day right to cancel, sometimes called the "cooling-off rule," which the contract itself is required to state.
+
+Before hiring anyone, get multiple written estimates, verify the contractor's license with the relevant state or county office, and check their complaint history with a local home builders association or consumer protection office. Insist on a written contract that spells out the contractor's credentials, the project timeline, the scope of work, and the materials to be used, check your state's legal limit on how much can be required as a deposit, and hold back final payment until the work is actually finished and inspected — not before.`,
+  },
 ];
 
 async function seedArticles(articles: SeedArticle[], label: string) {
