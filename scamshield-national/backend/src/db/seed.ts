@@ -6378,6 +6378,89 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['CNEWS'],
     sourceUrl: 'https://www.cnews.fr/france/2025-02-25/arnaque-au-petit-fils-attention-cette-escroquerie-de-plus-en-plus-repandue',
   },
+  {
+    name: 'Government Impersonation Crypto ATM Scam',
+    slug: 'government-impersonation-crypto-atm-scam',
+    description:
+      'Someone posing as a government agency, law enforcement, utility company, or tech support creates urgency — claiming fraud on an account, unpaid taxes, or an imminent service disconnection — and directs the victim to withdraw cash, travel to a specific Bitcoin ATM, and scan a QR code the caller supplies. The moment the cash is deposited and converted, it moves directly into a wallet the scammer controls and is effectively unrecoverable. The FTC found this exact impersonation combination behind roughly 86% of reported Bitcoin ATM fraud losses in the first half of 2024 alone, totaling more than $65 million with a median loss of $10,000, and separately found adults 60 and older were more than three times as likely as younger adults to report this type of loss, accounting for roughly 71% of it.',
+    categorySlug: 'government-impersonation',
+    alertLevel: 'critical',
+    sources: ['Federal Trade Commission (FTC)'],
+    sourceUrl: 'https://www.ftc.gov/news-events/data-visualizations/data-spotlight/2024/09/bitcoin-atms-payment-portal-scammers',
+  },
+  {
+    name: 'Romance Scam Crypto ATM Cash Conversion',
+    slug: 'romance-scam-crypto-atm-cash-conversion',
+    description:
+      'After building a fake online relationship, a romance scammer instructs the victim to withdraw a large sum of cash and deposit it at a specific crypto ATM rather than sending it through a bank wire or exchange. The FBI has flagged this specific step as its own scheme, not just a detail of the broader romance scam: unlike a bank transfer, which typically takes a day or two to settle and can sometimes be recalled, a crypto ATM deposit makes the scammer the instant owner of the funds, which are frequently moved overseas immediately, making recovery extremely difficult once the deposit is made.',
+    categorySlug: 'romance-scams',
+    alertLevel: 'critical',
+    sources: ['FBI Internet Crime Complaint Center (IC3)'],
+    sourceUrl: 'https://www.ic3.gov/PSA/2021/PSA211104',
+  },
+  {
+    name: 'Fake Airline Customer Service Number Scam',
+    slug: 'fake-airline-customer-service-number-scam',
+    description:
+      'A fake airline "customer service" phone number, promoted through paid search ads or manipulated search rankings, appears alongside or above a real airline\'s actual number when someone searches for help with a flight. The person who answers claims to be airline support and either charges a bogus fee to process a rebooking or refund, or talks the caller into installing remote-access software or handing over payment card details. The FTC and BBB have jointly warned travelers to get airline contact numbers directly from the airline\'s own app or website rather than trusting whatever ranks first in a search.',
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Federal Trade Commission (FTC)', 'Better Business Bureau (BBB)'],
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2024/07/scammers-impersonate-airline-customer-service-representatives',
+  },
+  {
+    name: 'Fake Airline Social Media "Angler Phishing" Scam',
+    slug: 'fake-airline-social-media-angler-phishing',
+    description:
+      'A traveler who publicly complains on social media about a delayed or cancelled flight gets a reply from an account posing as the airline\'s official support team, offering to help. The fake account asks for a booking confirmation number, phone number, or bank details directly in the conversation, or links to a spoofed airline website built to harvest that information, which is then used for identity theft or unauthorized charges. The FTC specifically warns this tactic — sometimes called "angler phishing" — works because it reaches people at the exact moment they\'re frustrated and looking for a fast response from someone official-looking.',
+    categorySlug: 'phishing',
+    alertLevel: 'high',
+    sources: ['Federal Trade Commission (FTC)'],
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2024/07/scammers-impersonate-airline-customer-service-representatives',
+  },
+  {
+    name: 'Fake Vacation Rental and Package Deal Scam',
+    slug: 'fake-vacation-rental-package-deal-scam',
+    description:
+      'An unrealistically cheap vacation rental or travel package listing, often for a popular destination, either doesn\'t exist at all or turns out to be nothing like the photos and description once payment goes through. The Better Business Bureau\'s vacation-fraud research describes scammers who "make up deals wholesale, hoping to get the consumer to pay up before they disappear," including one documented case where a consumer paid $3,200 for a promised Seychelles yacht trip that bore no resemblance to what was actually delivered.',
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'medium',
+    sources: ['Better Business Bureau (BBB)'],
+    sourceUrl: 'https://www.bbb.org/all/scamstudies/vacation-study1/vacation-full-study',
+  },
+  {
+    name: 'UK Martin Lewis Deepfake Investment Scam Ads',
+    slug: 'uk-martin-lewis-deepfake-investment-scam',
+    description:
+      'A Facebook or Instagram ad uses AI-generated deepfake video of Martin Lewis, the founder of MoneySavingExpert, appearing to personally endorse a crypto or trading platform such as "Quantum AI." Lewis has publicly said he felt "sick" seeing the fake footage and has stressed he has never appeared in a third-party ad to endorse any product — documented victims include one man who lost £140,000 and another who lost £75,000, and several are now part of a group legal claim against Meta over the fraudulent advertising.',
+    categorySlug: 'ai-deepfake-scams',
+    country: 'GB',
+    alertLevel: 'critical',
+    sources: ['BBC'],
+    sourceUrl: 'https://feeds.bbci.co.uk/news/uk-66130785',
+  },
+  {
+    name: 'UK Romance Fraud',
+    slug: 'uk-romance-fraud',
+    description:
+      'A relationship built over weeks or months on a dating app or social media leads to a fabricated crisis that only the victim\'s money can resolve. City of London Police reported more than 10,700 romance fraud cases in 2025, a 29% jump from the year before, with victims losing over £102 million — an average of £9,500 each, and in some cases as much as £1 million. People aged 55 to 74 accounted for nearly half of all money lost, and police have specifically warned that offenders increasingly use AI-generated images and messages to build more convincing fake profiles.',
+    categorySlug: 'romance-scams',
+    country: 'GB',
+    alertLevel: 'critical',
+    sources: ['City of London Police'],
+    sourceUrl: 'https://www.cityoflondon.police.uk/news/city-of-london/news/2025/june/a-wrong-turn-on-love-lane-city-of-london-police-take-over-city-streets-to-warn-of-the-dangers-of-romance-fraud-with-more-than-106-million-lost-in-the-last-year/',
+  },
+  {
+    name: 'UK Fake Tech Support Pop-Up Scam',
+    slug: 'uk-fake-tech-support-popup-scam',
+    description:
+      'A pop-up impersonating Microsoft or Windows claims a computer is infected and displays a number to call for support, or a cold caller claims to be from Microsoft or BT reporting the same problem. The "technician" talks the victim into installing remote-access software, then either charges for bogus repairs or uses that access to reach directly into online banking. Action Fraud has separately warned that some scammers have gone a step further and impersonate Action Fraud itself in automated calls, specifically to gain the same kind of remote computer access.',
+    categorySlug: 'tech-support-scams',
+    country: 'GB',
+    alertLevel: 'high',
+    sources: ['Action Fraud'],
+    sourceUrl: 'https://www.actionfraud.police.uk/cssfraud',
+  },
 ];
 
 async function seedCategoriesAndScams() {
