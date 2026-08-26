@@ -85,8 +85,8 @@ function SiteHeader() {
         </div>
       </div>
 
-      <nav className="max-w-6xl mx-auto px-4 py-2 flex items-center gap-8">
-        <Link to="/" className="flex items-center gap-2.5 flex-shrink-0">
+      <nav className="max-w-7xl mx-auto px-3 py-2 flex items-center gap-4">
+        <Link to="/" className="flex items-center gap-2 flex-shrink-0">
           <ShieldLogo className="h-9 w-9" />
           <span className="font-bold text-lg text-slate-900 whitespace-nowrap" style={{ fontFamily: 'Georgia, "Times New Roman", serif' }}>
             ScamShield National
