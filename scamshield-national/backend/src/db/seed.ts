@@ -4919,7 +4919,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'insurance-fraud',
     alertLevel: 'medium',
     sources: ['Federal Trade Commission'],
-    sourceUrl: 'https://consumer.ftc.gov/articles/spot-health-insurance-scams',
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2021/05/hang-auto-warranty-robocalls',
   },
   {
     name: 'Fake Professional Athlete Impersonation Romance Scam',
