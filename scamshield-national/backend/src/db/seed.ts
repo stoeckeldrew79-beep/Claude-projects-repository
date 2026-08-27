@@ -7341,6 +7341,56 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Services Australia', 'National Anti-Scam Centre / Scamwatch (ACCC)'],
     sourceUrl: 'https://www.abc.net.au/news/2024-02-28/new-medicare-scam/103514070',
   },
+  {
+    name: 'Sextortion "Recovery Scam"',
+    slug: 'sextortion-recovery-scam',
+    description:
+      'For-profit companies advertise to or directly contact people who have already been sextorted, offering to "recover," remove, or prevent further distribution of the images in exchange for an upfront fee, often $2,000 to $5,000 in documented cases. They use unenforceable fake cease-and-desist letters, false claims of government connections, and high-pressure tactics that actively discourage victims from contacting law enforcement — the FBI has found some of these firms are directly or indirectly tied to the original extortion itself. Genuine help through the FBI, NCMEC\'s CyberTipline, or a local field office is always free.',
+    categorySlug: 'sextortion',
+    alertLevel: 'high',
+    sources: ['FBI Internet Crime Complaint Center (IC3)'],
+    sourceUrl: 'https://www.ic3.gov/PSA/2023/PSA230407',
+  },
+  {
+    name: 'Prison-Run Catfishing Sextortion Ring Targeting Military Service Members',
+    slug: 'prison-run-catfishing-sextortion-military',
+    description:
+      'Organized rings, in one documented case run by inmates using contraband cellphones from South Carolina and North Carolina prisons, pose as young women on dating apps to build relationships with active-duty service members, exchange photos, then switch to posing as the "woman\'s" father or law enforcement, falsely claiming the photos depict an underage girl and demanding money to avoid prosecution. One ring, tracked by NCIS as "Operation Surprise Party," defrauded roughly 442 service members of a combined $560,000 before DOJ indictments and sentencing. NCIS has issued a dedicated advisory warning that junior enlisted members, disproportionately single and frequently online, are the primary target.',
+    categorySlug: 'sextortion',
+    alertLevel: 'critical',
+    sources: ['U.S. Department of Justice', 'Naval Criminal Investigative Service (NCIS)'],
+    sourceUrl: 'https://www.justice.gov/usao-sc/pr/south-carolina-inmate-sentenced-federal-prison-role-military-sextortion-scheme',
+  },
+  {
+    name: 'Green Card Diversity Visa Lottery Fee Scam',
+    slug: 'green-card-diversity-visa-lottery-fee-scam',
+    description:
+      'Scammers send emails or letters impersonating the U.S. Department of State claiming the recipient won the real Diversity Visa lottery — sometimes targeting people who never even entered — then demand fees "to process the application" or "secure a spot," payable in advance by check, money order, or wire transfer. The real Diversity Visa program never notifies winners by letter or email; winners can only check their status through the government\'s own official site, and every legitimate fee is paid in person at the embassy or consulate interview, never in advance by mail or wire.',
+    categorySlug: 'lottery-sweepstakes-scams',
+    alertLevel: 'high',
+    sources: ['Federal Trade Commission (FTC)'],
+    sourceUrl: 'https://www.ftc.gov/media/79859',
+  },
+  {
+    name: 'Fake Charity-Branded Sweepstakes Call',
+    slug: 'fake-charity-branded-sweepstakes-call',
+    description:
+      'Callers using Washington D.C.-area codes impersonate a federal agency — sometimes the real FTC, sometimes a fictitious "Consumer Protection Agency" — and tell victims they\'ve won a large cash prize through a sweepstakes falsely claimed to be run by a well-known, real charity such as the Make-A-Wish Foundation. Victims are told to provide banking information or wire several thousand dollars to cover "taxes and insurance" before the prize can be released, even though the charity being named has no actual sweepstakes program at all.',
+    categorySlug: 'lottery-sweepstakes-scams',
+    alertLevel: 'high',
+    sources: ["Nevada Attorney General's Office"],
+    sourceUrl: 'https://ag.nv.gov/News/PR/2017/Attorney_General_Laxalt_Warns_of_Fraudulent_Make-A-Wish_Foundation_Sweepstakes_Scam/',
+  },
+  {
+    name: 'Fake Gas/Grocery Voucher Postcard Scam',
+    slug: 'fake-gas-grocery-voucher-postcard-scam',
+    description:
+      'A postcard, social media post, or "survey" — recent versions use the fictitious sender name "AAPP," designed to resemble AARP, along with a QR code — tells the recipient a gas or grocery voucher, commonly worth $300 to $500 and sometimes impersonating a real brand like Shell, is reserved for them and will be lost if they don\'t act immediately. Calling the number or scanning the code leads to a request for a small "processing" or "shipping" fee of a few dollars, which actually harvests card details and triggers ongoing, unauthorized recurring charges — in one documented case, repeated $89.95 charges — rather than delivering any voucher at all.',
+    categorySlug: 'lottery-sweepstakes-scams',
+    alertLevel: 'medium',
+    sources: ['Better Business Bureau (BBB)'],
+    sourceUrl: 'https://www.bbb.org/article/news-releases/27243-bbb-scam-alert-cash-strapped-drivers-scammed-with-fake-gas-gift-cards',
+  },
 ];
 
 async function seedCategoriesAndScams() {
