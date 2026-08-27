@@ -1572,6 +1572,34 @@ Once a victim pays, the scam rarely ends there. Instead of receiving a prize, th
 
 If you're contacted about a prize you don't remember entering to win, don't send money, gift cards, cryptocurrency, or account information under any circumstance, and don't deposit an unexpected check tied to a "prize." Report it to the FTC at ReportFraud.ftc.gov, where the same advisory that describes this scam pattern also emphasizes the one rule that cuts through every variation: real prizes are free.`,
   },
+  {
+    title: 'Utility Scams: The "Pay Now or We Shut You Off Today" Call',
+    slug: 'utility-scams-disconnection-threat-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'utility-scams'],
+    sourceUrl: 'https://consumer.ftc.gov/articles/scammers-pretend-be-your-utility-company',
+    body: `A caller identifies themselves as being from your electric, gas, or water company and warns that your service will be shut off within the hour unless you pay an overdue balance immediately. The call, text, or even an in-person visit is timed to create panic — hot summer days and cold winter nights are popular windows, since the threat of losing power or heat pushes people to act before they've had time to think it through or call the utility back to check.
+
+The giveaway is almost always the payment method. Scammers demand payment through a wire transfer, a payment app, cryptocurrency, or by putting money on a gift card and reading them the numbers off the back — all methods that are effectively impossible to reverse once sent, and none of which a real utility company accepts for a bill. Legitimate utilities also don't demand same-day payment to avoid immediate disconnection over the phone; real shutoff processes involve advance written notice and a defined process, not a same-call ultimatum.
+
+Some versions of this scam work the opposite angle, telling a customer they've overpaid and are due a refund, then asking for bank account details to "process" it — a pretext for harvesting account access rather than extorting an immediate payment. Both versions rely on the same core trick: convincing someone the call is really from their utility company, often by spoofing caller ID to display the utility's real name or number.
+
+If you get a call like this, hang up and contact your utility directly using the number on a past bill or the utility's official website — never a number or link given to you in the suspicious call or text itself. Real utility companies will not threaten same-day disconnection over the phone or demand payment by gift card, cryptocurrency, or wire transfer. If you've already paid, report it to the FTC at ReportFraud.ftc.gov and to your actual utility company, which can confirm whether your account is even past due.`,
+  },
+  {
+    title: 'Card Skimming: The Hidden Device Stealing Your Card Number at the Pump',
+    slug: 'card-skimming-atm-gas-pump-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'card-skimming'],
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2018/08/watch-out-card-skimming-gas-pump',
+    body: `A skimmer is a small illegal card reader that criminals secretly attach inside or over a legitimate card slot at a gas pump, ATM, or point-of-sale terminal, capturing your card's magnetic stripe data the moment you swipe or insert it. A hidden pinhole camera or a fake keypad overlay often captures your PIN at the same time, giving thieves everything needed to clone your card or drain an account without ever touching your physical wallet.
+
+What makes skimming especially effective is that the transaction still goes through normally — you get your gas, your cash, or your purchase, with nothing visibly wrong, so there's no immediate sign anything happened. The stolen data is typically collected in bulk from a compromised pump or ATM over days or weeks before the skimmer is removed, and victims often don't discover the theft until unfamiliar charges show up on a statement, sometimes far from where the card was actually used.
+
+Fraud tied specifically to gas pump skimming alone is estimated to cost more than $1 billion a year in the US. Outdoor, unattended payment terminals — gas pumps in particular — are common targets because they're rarely inspected during the day and their internal panels can often be opened with a generic key or simple tools, letting a skimmer be installed inside the housing where it's invisible to a customer glancing at the pump.
+
+Before swiping or inserting a card at a pump or ATM, check whether the card reader wiggles, looks discolored, or sits at a slightly different angle than the panel around it — a loose or ill-fitting reader is the clearest sign of tampering, and the FTC specifically recommends trying to wiggle it before using it. Covering the keypad while entering a PIN blocks a hidden camera from capturing it, and paying inside at the register or using a tap-to-pay/mobile wallet avoids the card reader entirely. Check bank and card statements regularly, and report any unauthorized charges to your card issuer immediately — most card networks limit your liability for fraudulent charges reported promptly.`,
+  },
 ];
 
 async function seedArticles(articles: SeedArticle[], label: string) {
