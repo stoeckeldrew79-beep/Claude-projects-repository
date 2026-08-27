@@ -7948,6 +7948,39 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['California Governor\'s Office'],
     sourceUrl: 'https://www.gov.ca.gov/2025/01/14/governor-newsom-issues-order-to-protect-fire-victims-from-predatory-real-estate-speculators/',
   },
+  {
+    name: 'French QR Code Parking Meter Scam (Quishing)',
+    slug: 'french-qr-code-parking-meter-quishing-scam',
+    description:
+      'Fraudsters affix fake QR-code stickers directly onto legitimate parking meters or EV charging stations, inviting drivers to scan and pay for parking via smartphone. The QR code redirects to a convincing fake payment page that mimics the official parking operator\'s site, harvesting the victim\'s bank card details and CVV instead of actually processing a parking payment. Cybermalveillance.gouv.fr documented this as part of a broader "quishing" trend, logging over 1.2 million phishing reports in 2024, with several municipalities issuing local warnings after confirmed incidents.',
+    categorySlug: 'phishing',
+    country: 'FR',
+    alertLevel: 'medium',
+    sources: ['Cybermalveillance.gouv.fr'],
+    sourceUrl: 'https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/quishing-hameconnage-qr-code',
+  },
+  {
+    name: 'French Rental Listing Deposit Scam (Arnaque à la Location Immobilière)',
+    slug: 'french-rental-listing-deposit-scam',
+    description:
+      'Scammers post attractive, below-market rental listings, often using stolen photos of real properties, on legitimate platforms such as SeLoger and PAP.fr, posing as owners who claim to be abroad or otherwise unavailable for an in-person visit. They pressure prospective tenants to urgently wire a deposit or first month\'s rent to "reserve" the unit before someone else supposedly takes it, then vanish once payment is sent. Cybermalveillance.gouv.fr publishes a dedicated advisory on rental-listing fraud, directing victims to file a report through the national Thésée police portal or SignalConso when a professional was involved.',
+    categorySlug: 'online-shopping-scams',
+    country: 'FR',
+    alertLevel: 'high',
+    sources: ['Cybermalveillance.gouv.fr'],
+    sourceUrl: 'https://www.cybermalveillance.gouv.fr/tous-nos-contenus/fiches-reflexes/arnaques-location-immobiliere',
+  },
+  {
+    name: 'French Crypto "Trading Robot" Pyramid Scam',
+    slug: 'french-crypto-trading-robot-pyramid-scam',
+    description:
+      'Fraudulent platforms recruit French victims with promises of "automatic trading robots" delivering unrealistic guaranteed returns of 5-15% per month, sold via monthly or annual subscription fees of hundreds to thousands of euros, with all deposits and withdrawals required in cryptocurrency through unauthorized brokers. Victims are pushed to recruit new subscribers for tiered bonuses in a pyramid-style structure marketed around "financial freedom" and "passive income," spread through social media and in-person conference-style events. France\'s AMF has added dozens of new names to its unauthorized crypto-asset blacklist since the start of 2025 and separately warned of fake trading platforms promoted through cloned fake news sites impersonating well-known French outlets.',
+    categorySlug: 'investment-fraud',
+    country: 'FR',
+    alertLevel: 'high',
+    sources: ['AMF (Autorité des marchés financiers)'],
+    sourceUrl: 'https://www.amf-france.org/en/news-publications/news-releases/amf-warns-public-about-fraudulent-investment-offers-through-trading-robots',
+  },
 ];
 
 async function seedCategoriesAndScams() {
