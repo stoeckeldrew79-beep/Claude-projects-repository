@@ -7099,6 +7099,56 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Politie (Dutch National Police)'],
     sourceUrl: 'https://www.politie.nl/informatie/wat-is-fraude-met-qr-codes-quishing.html',
   },
+  {
+    name: 'Fake ICE/Immigration-Bond "Detained Relative" Scam',
+    slug: 'fake-ice-immigration-bond-detained-relative-scam',
+    description:
+      'Scammers impersonating ICE agents, immigration attorneys, or notaries contact the family of someone believed to be in immigration detention — or fabricate a detention entirely — and claim an "immigration bond" or fee, often citing a specific dollar figure, must be paid immediately to secure the person\'s release or stop a deportation. Some versions stage a fake virtual court hearing or a fake bond-approval document to add credibility, and always demand payment by gift card, cryptocurrency, or wire transfer — methods ICE and USCIS never actually use to collect a bond.',
+    categorySlug: 'family-emergency-scams',
+    alertLevel: 'high',
+    sources: ['District of Columbia Department of Insurance, Securities and Banking', 'Federal Trade Commission (FTC)'],
+    sourceUrl: 'https://disb.dc.gov/page/ice-agent-imposter-scam',
+  },
+  {
+    name: 'Cryptocurrency Bail-Bond Scam Using Public Arrest Records',
+    slug: 'cryptocurrency-bail-bond-public-arrest-records-scam',
+    description:
+      'Scammers scrape publicly available arrest-record websites to identify people who were genuinely, recently arrested, then call the arrestee\'s family members directly, falsely posing as a bail bondsman who can prevent the relative from being incarcerated. Payment is demanded specifically in cryptocurrency, along with gift cards or money-transmitter services, all irreversible once sent; a related variant plays a recording of the actual arrestee\'s voice to make the call appear to originate from inside the jail. Unlike a follow-up call confirming an already-fabricated emergency, this scam starts from a real public arrest record and contacts the family as the first and only call.',
+    categorySlug: 'family-emergency-scams',
+    alertLevel: 'high',
+    sources: ['Washington State Department of Financial Institutions'],
+    sourceUrl: 'https://dfi.wa.gov/consumer/alerts/cryptocurrency-bail-bond-scam',
+  },
+  {
+    name: 'Social Security Benefit Suspension Threat Scam',
+    slug: 'social-security-benefit-suspension-threat-scam',
+    description:
+      'Scammers contact Social Security recipients by phone, text, email, or mail falsely claiming their Social Security number or benefits will be suspended or discontinued — sometimes citing an office closure or alleged criminal activity — unless they call back immediately. Once on the phone, victims are pressured to hand over personal information or make an immediate payment by gift card, wire transfer, cryptocurrency, prepaid debit card, or mailed cash. The Social Security Administration states plainly that it will never threaten to suspend a benefit or demand payment through any of these untraceable methods.',
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'high',
+    sources: ['Social Security Administration Office of the Inspector General'],
+    sourceUrl: 'https://oig.ssa.gov/scam-alerts/2025-07-17-social-security-benefit-suspension-scam/',
+  },
+  {
+    name: 'Fake Social Security "Benefit Increase" Offer Scam',
+    slug: 'fake-social-security-benefit-increase-offer-scam',
+    description:
+      'Criminals impersonating the Social Security Administration contact beneficiaries by phone, email, text, social media, or mail, promising extra money — often framed as a cost-of-living adjustment increase — or offering to help set up an online "my Social Security" account. Victims are directed to a fake SSA-lookalike website to submit personal and financial details, then told to pay a "processing fee" by gift card, prepaid debit card, cryptocurrency, wire transfer, or mailed cash to unlock the promised increase. It\'s the inverse of the benefit-suspension threat scam: instead of fear, this version works by dangling money the recipient was never actually owed.',
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'medium',
+    sources: ['Social Security Administration Office of the Inspector General'],
+    sourceUrl: 'https://oig.ssa.gov/scam-alerts/2025-07-17-offers-to-increase-your-social-security-benefit-are-from-criminals/',
+  },
+  {
+    name: 'Fraudulent "Social Security Statement Ready" Email Scam',
+    slug: 'fraudulent-social-security-statement-ready-email-scam',
+    description:
+      'A phishing email styled with official Social Security Administration logos and formatting claims "your Social Security statement is ready to download," creating urgency to click an embedded link or open an attachment. Unlike a direct payment-demand scam, this one is built to steal credentials or install malware: the link either routes the victim to a fake SSA lookalike site designed to harvest personal and financial information, or the attachment installs malicious software directly. The Social Security Administration\'s Office of the Inspector General notes that genuine agency emails only ever come from an address ending in .gov.',
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'medium',
+    sources: ['Social Security Administration Office of the Inspector General'],
+    sourceUrl: 'https://oig.ssa.gov/scam-alerts/2026-02-20-ssa-office-of-the-inspector-general-warns-public-of-surge-in-fraudulent-social-security-statement-emails/',
+  },
 ];
 
 async function seedCategoriesAndScams() {
