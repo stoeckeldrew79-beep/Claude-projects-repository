@@ -7526,6 +7526,39 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Denver Water'],
     sourceUrl: 'https://www.denverwater.org/tap/how-spot-scam-or-fake-water-worker',
   },
+  {
+    name: 'German Grandchild Trick / Shock Call (Enkeltrick / Schockanruf)',
+    slug: 'german-enkeltrick-schockanruf',
+    description:
+      'A live, real-time phone call — not a text message — in which a caller impersonates a distressed relative claiming to have caused a serious accident or crime. The call is often handed off mid-conversation to an accomplice posing as a police officer or prosecutor, who demands "bail" or "compensation" to avoid the relative\'s imprisonment. Victims, predominantly elderly, are pressured into handing cash or jewelry to a courier who comes to their home or a meeting point, with the scammer staying on the phone throughout the handover to maintain psychological pressure. Germany\'s Federal Criminal Police Office recorded roughly €49 million in losses from this pattern in 2025, with a closely related "fake police officer" variant causing a further €49.5 million.',
+    categorySlug: 'family-emergency-scams',
+    country: 'DE',
+    alertLevel: 'critical',
+    sources: ['Bundeskriminalamt (BKA)'],
+    sourceUrl: 'https://www.bka.de/SharedDocs/Kurzmeldungen/DE/Warnhinweise/230524_Schockanrufe.html',
+  },
+  {
+    name: 'German Home-Work Advance-Fee Job Scam (Heimarbeit)',
+    slug: 'german-heimarbeit-advance-fee-job-scam',
+    description:
+      'Fraudulent "work from home" job ads promising easy pay for simple piecework, such as assembling pens or stuffing envelopes, ask victims to pay an upfront fee, typically €50 to €500, for a "starter kit," materials, or a registration fee, sometimes disguised as a magazine subscription with the cost supposedly deductible from future earnings. After payment, the company either vanishes, refuses to buy back completed work by citing bogus quality issues, or was never a real business to begin with — leaving the jobseeker out the upfront fee with no pay for any work at all.',
+    categorySlug: 'employment-scams',
+    country: 'DE',
+    alertLevel: 'medium',
+    sources: ['Verbraucherzentrale Hamburg'],
+    sourceUrl: 'https://www.vzhh.de/themen/einkauf-reise-freizeit/nebenjobs/nebenjob-fuer-zu-hause-online-geld-verdienen',
+  },
+  {
+    name: 'German Fake Tax Office / Elster Refund Phishing',
+    slug: 'german-fake-elster-tax-refund-phishing',
+    description:
+      'Fraudulent emails and text messages impersonate Germany\'s official online tax portal, Elster, or the Federal Central Tax Office, claiming the recipient has an outstanding tax refund that could not be processed and must be claimed through a linked form within a short deadline, often just 48 hours. The messages mimic official logos and formal government language convincingly, but the link leads to a fake site built to harvest personal data, banking details, or the victim\'s real Elster portal login credentials.',
+    categorySlug: 'tax-scams',
+    country: 'DE',
+    alertLevel: 'high',
+    sources: ['Verbraucherzentrale NRW'],
+    sourceUrl: 'https://www.verbraucherzentrale.nrw/wissen/digitale-welt/phishingradar/betrug-phishingmails-und-falsche-sms-von-ministerien-und-behoerden-76907',
+  },
 ];
 
 async function seedCategoriesAndScams() {
