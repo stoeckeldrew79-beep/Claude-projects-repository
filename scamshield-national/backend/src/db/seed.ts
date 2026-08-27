@@ -8111,6 +8111,39 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['FBI Internet Crime Complaint Center (IC3)'],
     sourceUrl: 'https://www.ic3.gov/PSA/2025/PSA251125',
   },
+  {
+    name: 'UK FCA "Data Breach" Impersonation Scam',
+    slug: 'uk-fca-data-breach-impersonation-scam',
+    description:
+      'Fraudsters send texts, emails, calls, or WhatsApp messages impersonating the Financial Conduct Authority itself, commonly claiming a victim\'s details were found in a "fraud report" or exposed in a data breach, or that the FCA has recovered funds from an illegal crypto wallet in the victim\'s name. Victims are given a phone number to call, where they\'re asked for bank details, PINs, or passwords, or told to transfer money for "safekeeping" — the scam also specifically targets people who were already victims of a prior fraud or romance scam, with a false promise of helping recover what they lost. The FCA logged 4,465 reports and 480 victims in just the first half of 2025, nearly two-thirds of them aged 56 or older.',
+    categorySlug: 'government-impersonation',
+    country: 'GB',
+    alertLevel: 'high',
+    sources: ['Financial Conduct Authority (FCA)'],
+    sourceUrl: 'https://www.fca.org.uk/news/press-releases/fake-fca-scams-reported-6-months-2025',
+  },
+  {
+    name: 'UK Crypto "Safe Wallet" Police Impersonation Scam',
+    slug: 'uk-crypto-safe-wallet-police-impersonation-scam',
+    description:
+      'A caller impersonating a police officer tells a cryptocurrency holder that a suspect has been arrested with their ID, or that stolen crypto details linked to them were found on a seized phone. A second call follows from someone posing as a representative of a crypto exchange, instructing the victim to move their holdings to a "safe wallet" or hand over their seed phrase "to protect it" — which instead drains the wallet to an address the criminals control. A UK gang was jailed in July 2026 for running exactly this scheme through fake police-branded websites, netting more than £4 million from eight victims.',
+    categorySlug: 'account-takeover',
+    country: 'GB',
+    alertLevel: 'critical',
+    sources: ['Regional Organised Crime Unit (ROCU)', 'Metropolitan Police'],
+    sourceUrl: 'https://www.rocu.police.uk/news/2026/march/cryptocurrency-holders-warned-after-scam-phone-calls-across-eastern-region/',
+  },
+  {
+    name: 'UK "Hi Mum, Hi Dad" WhatsApp Family Impersonation Scam',
+    slug: 'uk-hi-mum-hi-dad-whatsapp-scam',
+    description:
+      'A scammer messages a parent on WhatsApp or SMS from an unknown number, opening with "Hi Mum" or "Hi Dad" and claiming to be their child texting from a new phone after losing or damaging the old one. After some rapport-building conversation, they ask for urgent money, typically to replace the phone or pay a bill, providing bank details for a "temporary" account and sometimes following up with further requests. Action Fraud logged 1,235 reports and over £1.5 million in losses in just a few months when the pattern first spread nationally, and more recent versions add AI-generated voice notes cloned from the real relative\'s voice pulled from social media clips.',
+    categorySlug: 'family-emergency-scams',
+    country: 'GB',
+    alertLevel: 'medium',
+    sources: ['Action Fraud (UK)'],
+    sourceUrl: 'https://www.actionfraud.police.uk/alert/friendinneed',
+  },
 ];
 
 async function seedCategoriesAndScams() {
