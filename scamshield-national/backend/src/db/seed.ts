@@ -1903,6 +1903,34 @@ A cottage industry of paid "title lock" or "title monitoring" services has grown
 
 Every state's land records or county recorder's office lets you check your own deed for free, and many now offer a free property-fraud alert program that emails you automatically if a new document is recorded against your parcel — a more reliable, no-cost alternative to a paid "lock" service. If you discover a fraudulent deed, start a recovery plan at IdentityTheft.gov, contact your county recorder's office about the process for disputing a forged filing, and consider consulting a real estate attorney, since undoing a fraudulently recorded deed typically requires a court order even after the fraud is proven.`,
   },
+  {
+    title: 'Fake Check Scams: Why a Cleared Deposit Doesn\'t Mean the Money Is Real',
+    slug: 'fake-check-overpayment-scam-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'fake-check-scams'],
+    sourceUrl: 'https://consumer.ftc.gov/articles/how-spot-avoid-and-report-fake-check-scams',
+    body: `A stranger sends a check for more than what's actually owed — for a job, a sold item, a "mystery shopper" assignment, or a sweepstakes prize — and asks the recipient to deposit it, then wire back or send via gift card the difference, framed as a refund, a fee, or funds meant for a third party. The check is fake, but by the time that becomes clear, the victim has already sent their own real money to the scammer.
+
+The scam works because of a gap most people don't realize exists between a check "clearing" and a check actually being confirmed as real. Banks are legally required to make deposited funds available quickly, often within a day or two, but verifying a check's authenticity with the issuing bank can take weeks — meaning the money can show up as available in an account long before anyone has actually confirmed the check is good. Once the fraud is eventually discovered, the bank reverses the deposit and holds the account holder responsible for the full amount, including whatever they already sent to the scammer, even though the balance looked completely real in the meantime.
+
+This mechanism shows up across a wide range of unrelated scam pitches — fake job offers involving a "start-up expense" check, online sales where a buyer "overpays" and asks for the difference back, romance scams asking a partner to deposit and forward funds, and prize notifications requiring a portion sent back for "taxes" — because the check itself is just the delivery vehicle; the real objective is always getting the victim to send real money out before the fake check bounces.
+
+The clearest rule, straight from the FTC: never send money based on funds from a check you didn't expect, no matter how legitimate the deposit looks in an account balance, and be especially wary of any check for more than the amount you're actually owed. If a check arrives unexpectedly, verify it directly with the issuing bank using a phone number looked up independently, not one printed on the check itself, before depositing or spending against it. If you've already sent money in response to a check that turned out to be fake, report it to the FTC at ReportFraud.ftc.gov and to your bank as soon as possible.`,
+  },
+  {
+    title: 'Synthetic Identity Theft: When Fraud Builds a Person Who Never Existed',
+    slug: 'synthetic-identity-theft-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'synthetic-identity-theft'],
+    sourceUrl: 'https://www.federalreserve.gov/newsevents/pressreleases/other20190709a.htm',
+    body: `Ordinary identity theft steals a real person's existing financial identity — their name, their accounts, their credit history — and uses it directly. Synthetic identity theft is different and, in some ways, harder to catch: fraudsters combine a real piece of personal information, most often a Social Security number, with fabricated details like a made-up name, address, or date of birth, stitching together a "person" who doesn't actually exist anywhere but on paper and in a credit file.
+
+Social Security numbers belonging to children, people who have died, or people who simply don't use credit are especially valuable for this, since there's no existing credit history to contradict the fabricated identity or notice something's wrong. Once a synthetic identity has a Social Security number attached to a credit application, it can begin building a real credit file of its own — often starting small, with a secured card or a co-signed account, and patiently making on-time payments over months or years to establish what looks like a legitimate, creditworthy borrower.
+
+That patience is the setup for what the industry calls a "bust out": once the synthetic identity has built up enough credit limits across multiple accounts, the fraudster maxes them all out in a short period and disappears, leaving lenders holding debt tied to a borrower who was never a real, traceable person to begin with. Because no actual individual's existing accounts were compromised in the usual sense, synthetic identity fraud is notoriously difficult to detect with the credit-monitoring tools built for ordinary identity theft — the real victim, if the underlying Social Security number belonged to a living person, may not find out anything happened until they're denied a loan, disability benefits, or have a tax return rejected because "their" number already shows unrelated activity attached to it.
+
+If you're notified of unexplained activity tied to your Social Security number — a credit inquiry you didn't make, a rejected tax return citing a duplicate filing, or a denied benefits application — treat it as a possible sign of synthetic identity fraud rather than assuming it's a simple error, and start a recovery plan at IdentityTheft.gov. Parents can specifically check whether a child's Social Security number has ever been used for credit by requesting a manual credit file search from the three credit bureaus, since children have no legitimate reason to have any credit history at all before adulthood, and any file is itself a red flag.`,
+  },
 ];
 
 async function seedArticles(articles: SeedArticle[], label: string) {
