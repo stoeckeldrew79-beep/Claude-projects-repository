@@ -1642,6 +1642,34 @@ Fraud tied specifically to gas pump skimming alone is estimated to cost more tha
 
 Before swiping or inserting a card at a pump or ATM, check whether the card reader wiggles, looks discolored, or sits at a slightly different angle than the panel around it — a loose or ill-fitting reader is the clearest sign of tampering, and the FTC specifically recommends trying to wiggle it before using it. Covering the keypad while entering a PIN blocks a hidden camera from capturing it, and paying inside at the register or using a tap-to-pay/mobile wallet avoids the card reader entirely. Check bank and card statements regularly, and report any unauthorized charges to your card issuer immediately — most card networks limit your liability for fraudulent charges reported promptly.`,
   },
+  {
+    title: 'Affinity Fraud: When the Investment Pitch Comes From Someone in Your Own Community',
+    slug: 'affinity-fraud-investment-scam-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'affinity-fraud'],
+    sourceUrl: 'https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-alerts/investor-60',
+    body: `Affinity fraud is an investment scam that exploits trust within an identifiable group — a religious congregation, an ethnic or immigrant community, a professional association, even an online forum built around a shared interest. The "investment" itself is usually either entirely fake or grossly misrepresented, with fraudsters lying about the risk of loss, the track record, or their own background, and many affinity frauds turn out to be Ponzi or pyramid schemes, where money from new investors is quietly used to pay off earlier ones just long enough to create the appearance of a real, working investment.
+
+What makes affinity fraud so effective isn't a more sophisticated pitch — it's the shortcut around normal skepticism that shared identity provides. Fraudsters frequently recruit a respected leader within the community to promote the investment, someone whose own trusted reputation vouches for it without the promoter necessarily even realizing they're being used; that leader may become a victim too, alongside everyone they convinced. The SEC has documented real cases targeting Dominican and Brazilian immigrant communities with promises of returns over 200%, Asian and Latino communities in a scheme that raised $65 million promising to more than double investors' money in 100 days, African-American churchgoers offered 12-20% annual interest, and a group of 80 evangelical Christian investors who lost a combined $6 million.
+
+The tight-knit nature of the very communities these schemes target also makes them harder to catch: victims often try to resolve suspicions quietly within the group rather than reporting to regulators, reluctant to publicly accuse a fellow member or a respected leader of fraud — which lets the scheme keep running long after problems first surface. Common warning signs include promises of spectacular or guaranteed returns with "no risk," pressure to invest quickly in a "once-in-a-lifetime" opportunity, reluctance to put anything in writing, and a pitch built on "inside" or confidential information that supposedly only this trusted circle has access to.
+
+Being part of a close community is not, by itself, a reason to skip the same due diligence you'd apply to any other investment — verify a promoter's registration and background independently through the SEC's or your state securities regulator's own records, insist on getting terms in writing, and treat pressure to keep an opportunity "just between us" as a red flag rather than a compliment. If you believe you've encountered affinity fraud, report it to the SEC at investor.gov or the FTC at ReportFraud.ftc.gov — shared identity with the person pitching you is exactly what a legitimate investment never actually depends on.`,
+  },
+  {
+    title: 'Money Mule Scams: How a Job Offer or Online Relationship Turns You Into a Criminal\'s Bank Account',
+    slug: 'money-mule-scam-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'money-mule'],
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2021/12/avoiding-money-mule-scam',
+    body: `A money mule is someone who moves illegally obtained money on behalf of someone else — often without ever realizing the money was stolen in the first place. Scammers recruit money mules through online dating sites, job boards, and social media, inventing a reason to send the victim money, usually by check or cryptocurrency, before instructing them to forward that money somewhere else. Two recruitment channels show up constantly: a romantic interest met online who "needs help" moving funds, and a work-from-home job listing that involves "processing payments" or transferring money to "clients" as part of the role.
+
+The mechanism works precisely because it doesn't feel like a scam from the mule's side — no one is asking the victim to hand over their own money, only to help move funds that appear to be part of a legitimate relationship or job. A scammer might deposit a check into the victim's account and ask them to wire part of it elsewhere, or send cryptocurrency for the victim to convert and forward, or ask them to receive packages and reship them. Because the money genuinely moves through the victim's own real bank account or address, it can take weeks for the stolen origin of those funds to surface.
+
+The consequences land squarely on the money mule, not just the original victims the money was stolen from. If a deposited check initially clears and then bounces once the fraud is discovered, the bank will require the mule to repay the full amount, sometimes with fees on top of a frozen or closed account. The FTC states plainly that "if you help a scammer move stolen money — even if you didn't know it was stolen — you could get into legal trouble," since knowingly or unknowingly, participating in moving stolen funds can expose someone to real legal liability.
+
+Treat any request to receive money and then forward it elsewhere as a hard stop, regardless of how the person asking is framed — a romantic partner, a new employer, or a prize or grant administrator. A legitimate job will never require depositing checks into your personal account to relay funds to "vendors" or "clients," and a genuine romantic interest never needs your bank account to move their own money. If you're contacted about an opportunity like this, don't forward any funds, and report it to the FBI's Internet Crime Complaint Center at ic3.gov and the FTC at ReportFraud.ftc.gov.`,
+  },
 ];
 
 async function seedArticles(articles: SeedArticle[], label: string) {
