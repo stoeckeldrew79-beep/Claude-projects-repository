@@ -1195,6 +1195,48 @@ Horie appealed all the way to Japan's Supreme Court, which upheld the sentence i
     coverImageCredit: 'Photo: 伊豆のぬし釣り / Izu no Nushi Tsuri (CC BY 3.0)',
     coverImagePosition: 50,
   },
+  {
+    title: 'Chuck Blazer: The FIFA Bribery Scandal\'s Cat-Loving Cooperating Witness',
+    slug: 'chuck-blazer-fifa-corruption-scandal',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Chuck Blazer spent more than two decades at the top of international soccer administration, serving as general secretary of CONCACAF — the governing body for soccer across North and Central America and the Caribbean — from 1990 to 2011, and sitting on FIFA's powerful executive committee from the mid-1990s until 2013 as its first American member. Behind the official titles, Blazer was quietly building a personal fortune through decades of bribes tied to media and marketing rights deals, living a lifestyle that eventually became a symbol of the scandal itself: he kept a Trump Tower apartment costing roughly $18,000 a month, plus a second, adjoining unit for about $6,000 a month that he maintained largely for his cats.
+
+Blazer later admitted under oath to accepting bribes connected to two of soccer's biggest prizes: a payment tied to France's selection as host of the 1998 World Cup over Morocco, and bribes connected to South Africa's selection as host of the 2010 World Cup. He also failed to report or pay US income tax on roughly $11 million in income from this activity. In November 2011, IRS and FBI agents confronted Blazer — a widely reported detail has them intercepting him riding his motorized scooter on Fifth Avenue — with evidence of his unreported income, and rather than face prosecution alone, he agreed to cooperate.
+
+That cooperation turned Blazer into one of the most consequential informants in sports history. Starting in late 2011, he began secretly recording conversations with fellow FIFA and CONCACAF officials, reportedly even wearing a wire at the 2012 London Olympics, gathering evidence that became central to the US Department of Justice's landmark May 2015 indictment charging 14 defendants — nine soccer officials and five corporate executives — with racketeering, wire fraud, and money laundering conspiracy tied to decades of corruption across international soccer.
+
+Blazer had already pleaded guilty under seal in November 2013 to ten counts including racketeering conspiracy, wire fraud conspiracy, money laundering, and tax evasion, agreeing to forfeit more than $1.9 million as an initial installment on a still-undetermined larger amount. He died in July 2017, at age 72, before he was ever formally sentenced — his cooperation having already helped expose one of the largest corruption scandals in the history of international sports, even as his own personal accounting with the law was left permanently unresolved.`,
+    sourceUrl: 'https://www.justice.gov/usao-edny/pr/nine-fifa-officials-and-five-corporate-executives-indicted-racketeering-conspiracy-and',
+  },
+  {
+    title: 'Earl Jones: The Unlicensed Adviser Who Defrauded His Own Family and Neighbors',
+    slug: 'earl-jones-montreal-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Earl Jones spent nearly three decades running an investment advisory business out of Montreal's West Island — without ever being licensed as an investment adviser or broker anywhere in Canada. Starting around 1982, he built a client base almost entirely through his own personal network: friends, fellow parishioners, and people who knew him socially, mostly retirees looking for a trustworthy adviser to manage their savings. Among his clients were his own brother and sister-in-law, who eventually lost $1 million to him.
+
+Jones's operation was a classic Ponzi scheme dressed up as personal, old-fashioned financial advice. He never actually invested his clients' money; instead, he used funds from new clients to pay a steady, illusory 8% annual return to earlier ones, keeping the scheme alive for 27 years while quietly spending roughly $13 million of the money on himself. Investigators later determined the fraud totaled about $50 million across 158 victims — money that existed only as numbers on statements Jones generated himself, with no real underlying investments behind any of it.
+
+The scheme finally collapsed in July 2009, when Jones could no longer meet client withdrawal requests. He disappeared for over two weeks before surrendering to Quebec provincial police on July 27, 2009, and both of his firms were declared bankrupt within weeks. He pleaded guilty to fraud charges in January 2010 and was sentenced the following month to 11 years in prison; a separate class-action lawsuit against the bank that held his clients' funds settled in 2012 for $17 million, returning victims roughly 45 cents for every dollar they'd lost. Jones was released on parole in March 2014, having served about four years of his sentence.
+
+Jones's case is a reminder that the absence of any license or regulatory registration is itself one of the clearest warning signs in a suspected fraud — nothing about his operation was hidden behind sophisticated financial engineering, only behind the simple, durable trust of people who knew him personally and never thought to check.`,
+    sourceUrl: 'https://www.theglobeandmail.com/report-on-business/earl-jones-sentenced-to-11-years/article1390571/',
+  },
+  {
+    title: 'Magnus Peterson and the $536 Million Hedge Fund Fraud Hidden Inside Fake Swap Contracts',
+    slug: 'magnus-peterson-weavering-capital-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Magnus Peterson, a Swedish-born financier based in the UK, founded Weavering Capital UK Ltd, which managed the Weavering Macro Fixed Income Fund — a Cayman Islands-domiciled hedge fund that grew to roughly $639 million in assets under management at its peak in 2008. To outside investors, the fund appeared to be a standout performer even as the 2008 financial crisis battered markets elsewhere, posting steady returns that made it one of the more sought-after funds of its kind in London.
+
+The steady returns were fiction. Peterson used interest rate swap contracts with a related-party entity he controlled to disguise the fund's real, mounting losses, booking those swaps at fabricated values that made the fund look liquid and profitable when in reality much of its reported value was tied up in essentially worthless paper traded with his own related company. The scheme let the fund keep reporting gains to investors for years while the assets actually backing those numbers were quietly evaporating.
+
+The fraud came apart in March 2009, when the financial crisis pushed investors to seek redemptions the fund couldn't actually meet — there simply wasn't enough real, liquid money behind the reported numbers. The fund was placed into administration and liquidation, ultimately revealing losses of approximately $536 million. The UK's Serious Fraud Office opened a criminal investigation, charging Peterson in December 2012; his trial began at Southwark Crown Court in October 2014.
+
+A jury convicted Peterson in January 2015 on eight counts of fraud, forgery, false accounting, and fraudulent trading, and he was sentenced later that month to 13 years in prison — at the time, the longest sentence ever handed down in the UK for a hedge fund fraud, and a rare case of a financial-crisis-era collapse resulting in a lengthy prison term rather than merely a regulatory settlement. The UK's Financial Conduct Authority separately banned him from the financial services industry for life. Weavering's collapse remains one of the starkest examples of how a fund's reported performance is only ever as real as the counterparty on the other side of its trades — and how dangerous it becomes when that counterparty is secretly the fund manager himself.`,
+    sourceUrl: 'https://www.sfo.gov.uk/2015/01/19/city-hedge-fund-manager-convicted-multi-million-pound-fraud/',
+  },
 ];
 
 // Practical "how it works / red flags / what to do" guides covering the
