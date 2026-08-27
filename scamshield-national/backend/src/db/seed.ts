@@ -7182,6 +7182,56 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Haryana Police', 'Mumbai Police'],
     sourceUrl: 'https://www.tribuneindia.com/news/haryana/fake-bill-messages-being-sent-cops-395300',
   },
+  {
+    name: 'Hijacked Email Thread Invoice Wire Fraud',
+    slug: 'hijacked-email-thread-invoice-wire-fraud',
+    description:
+      'A scammer compromises an employee\'s own email mailbox — not the vendor\'s — and quietly monitors it, often using auto-forwarding rules, until a real, ongoing invoice conversation with a legitimate vendor is underway. The scammer then inserts fraudulent wire instructions directly into that authentic email thread, impersonating the vendor\'s staff, so the request carries none of the usual red flags of a cold phishing email since it appears mid-conversation inside a thread the employee already trusts. A finance employee at an Arkansas school district lost over $3.2 million this way in December 2025, when fraudulent wire instructions impersonating a real contractor were inserted into an active invoice thread after her mailbox was compromised.',
+    categorySlug: 'business-email-compromise',
+    alertLevel: 'critical',
+    sources: ['Arkansas Democrat-Gazette', 'Cybersecurity and Infrastructure Security Agency (CISA)'],
+    sourceUrl: 'https://www.arkansasonline.com/news/2026/may/19/emails-show-how-pine-bluff-school-district-was/',
+  },
+  {
+    name: 'Fake Company Bulk Purchase Order Fraud',
+    slug: 'fake-company-bulk-purchase-order-fraud',
+    description:
+      'A scammer registers a lookalike domain for a real, creditworthy business — swapping a letter, adding a hyphen — and uses it to impersonate that company while placing large purchase orders with legitimate vendors for goods like construction materials, agricultural supplies, computer hardware, or solar equipment. Using fabricated credit references and forged tax forms, they request 30- or 60-day payment terms, take delivery of the goods, and simply never pay, with the vendor only discovering the fraud when collection fails or they contact the real company directly. Unlike most business email compromise scams, this one isn\'t a wire-redirection trick at all — it\'s outright theft of physical goods through an impersonated buyer identity and fraudulent credit terms.',
+    categorySlug: 'business-email-compromise',
+    alertLevel: 'high',
+    sources: ['FBI Internet Crime Complaint Center (IC3)'],
+    sourceUrl: 'https://www.ic3.gov/PSA/2023/PSA230324',
+  },
+  {
+    name: 'Social Media Tax Credit Misinformation Scam',
+    slug: 'social-media-tax-credit-misinformation-scam',
+    description:
+      'Promoters and influencers on TikTok and other social platforms tell viewers that "everyone qualifies" for tax credits that don\'t actually exist as described — including a fabricated "Self-Employment Tax Credit" falsely advertised as worth up to $32,000 — and coach people to file or amend returns claiming them regardless of actual eligibility. Since 2022, this misinformation has driven more than 32,000 taxpayers to file false claims, resulting in over $162 million in frivolous-return penalties on top of delayed or denied refunds and direct IRS enforcement action against the filers who followed the advice.',
+    categorySlug: 'tax-scams',
+    alertLevel: 'high',
+    sources: ['Internal Revenue Service (IRS)'],
+    sourceUrl: 'https://www.irs.gov/newsroom/irs-assesses-162-million-in-penalties-over-false-tax-credit-claims-tied-to-social-media',
+  },
+  {
+    name: 'EFIN Phishing Scam Targeting Tax Professionals',
+    slug: 'efin-phishing-scam-tax-professionals',
+    description:
+      'Scammers pose as a tax-software provider and email professional tax preparers asking them to fax back their Electronic Filing Identification Number (EFIN) for "verification." A preparer who complies hands the attacker the exact credentials needed to file fraudulent returns and steal client data directly through the firm\'s own legitimate e-file access — a supply-chain-style attack that targets the tax-preparation industry itself rather than individual taxpayers, potentially exposing every one of that preparer\'s clients at once.',
+    categorySlug: 'tax-scams',
+    alertLevel: 'high',
+    sources: ['Internal Revenue Service (IRS)'],
+    sourceUrl: 'https://www.irs.gov/newsroom/tax-pros-watch-out-for-efin-scams',
+  },
+  {
+    name: 'Fake IRS IP PIN Phone Scam',
+    slug: 'fake-irs-ip-pin-phone-scam',
+    description:
+      'A caller impersonating the IRS or a tax preparer asks a taxpayer to "verify" or provide their six-digit Identity Protection PIN (IP PIN) — the very number the IRS issues specifically to stop someone else from filing a fraudulent return in that person\'s name. Handing it over defeats the taxpayer\'s own anti-identity-theft safeguard, letting the scammer combine a stolen Social Security number with the now-compromised IP PIN to file a fraudulent return. The IRS states flatly that it will never call, email, text, or message a taxpayer through social media to request an IP PIN.',
+    categorySlug: 'tax-scams',
+    alertLevel: 'medium',
+    sources: ['Internal Revenue Service (IRS)'],
+    sourceUrl: 'https://www.irs.gov/identity-theft-fraud-scams/get-an-identity-protection-pin',
+  },
 ];
 
 async function seedCategoriesAndScams() {
