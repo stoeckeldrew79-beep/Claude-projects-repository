@@ -3260,6 +3260,16 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['FTC Consumer Advice', 'BBB Scam Tracker'],
     sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2022/11/want-get-rid-your-timeshare-read-you-hire-someone-help',
   },
+  {
+    name: 'Timeshare Resale Scam',
+    slug: 'timeshare-resale-scam',
+    description:
+      'A company cold-calls a timeshare owner claiming to have a buyer already lined up, or that demand is unusually high right now, and asks for an upfront "registration," closing, or processing fee — commonly $500 to $2,000, sometimes charged straight to a credit card — before any sale can go through. The promised buyer never materializes, and the fee is rarely refunded even when the company claims a money-back guarantee.',
+    categorySlug: 'debt-relief-scams',
+    alertLevel: 'medium',
+    sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2014/05/be-lookout-timeshare-resale-phonies',
+  },
 
   // New category: Mortgage & Foreclosure Scams
   {
