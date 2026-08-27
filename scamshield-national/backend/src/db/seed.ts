@@ -7753,6 +7753,66 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['CCPC (Competition and Consumer Protection Commission)', 'An Garda Síochána'],
     sourceUrl: 'https://www.ccpc.ie/manage-your-money/scams-and-frauds/common-scams/phishing',
   },
+  {
+    name: 'Texas Homestead Designation Fee Scam',
+    slug: 'texas-homestead-designation-fee-scam',
+    description:
+      'Companies mail Texas homeowners official-looking letters offering to file a "Designation of Homestead" for a fee ranging from $35 to over $100, sometimes billed as a percentage of "recovered" savings. Homeowners often confuse this paid, unnecessary filing with the standard homestead tax exemption, which every Texas county appraisal district already files for free, and some who sign the solicitation\'s agreement and later refuse to pay have been threatened with or taken to small claims court.',
+    categorySlug: 'tax-scams',
+    alertLevel: 'medium',
+    sources: ['Texas Attorney General', 'Harris County Appraisal District'],
+    sourceUrl: 'https://www.texasattorneygeneral.gov/news/releases/ag-paxton-issues-consumer-alert-misleading-homestead-tax-exemption-offers',
+  },
+  {
+    name: 'Post-Hurricane Storm-Chaser Contractor and Insurance Fraud',
+    slug: 'post-hurricane-storm-chaser-contractor-fraud',
+    description:
+      'In the aftermath of a major hurricane, unlicensed door-to-door "contractors" and storm chasers target affected homeowners, offering to repair roofs, clear debris, or sell discounted building materials, often demanding full payment upfront in cash, doing shoddy or no work, and pressuring victims to sign incomplete contracts before an insurance adjuster has even inspected the damage. North Carolina\'s insurance commissioner issued a formal warning after Hurricane Helene urging residents to verify a contractor\'s license before paying anything and to avoid upfront cash payments entirely.',
+    categorySlug: 'insurance-fraud',
+    alertLevel: 'high',
+    sources: ['North Carolina Department of Insurance'],
+    sourceUrl: 'https://www.ncdoi.gov/news/press-releases/2024/10/03/aftermath-helene-commissioner-causey-cautions-public-be-lookout-scammers-and-storm-related-fraud',
+  },
+  {
+    name: 'State Pension Direct-Deposit Redirection Fraud',
+    slug: 'state-pension-direct-deposit-redirection-fraud',
+    description:
+      'Scammers targeting state pension-system retirees and beneficiaries submit falsified direct-deposit change requests, often by fax, to redirect a victim\'s monthly pension payment to a fraudulent account, sometimes following a spoofed robocall impersonating the retiree\'s bank. New Hampshire\'s retirement system caught and blocked a wave of these attempts before any funds were diverted, and the state\'s Department of Justice warned other retirees to verify any request to change pension payment banking details directly with the retirement system itself, never through a form or number provided in an unsolicited call or fax.',
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'high',
+    sources: ['New Hampshire Department of Justice'],
+    sourceUrl: 'https://www.doj.nh.gov/news-and-media/consumer-alert-nh-state-retirees-warned-fraudulent-attempts-redirect-pension',
+  },
+  {
+    name: 'Fake Amazon Quality Recall Refund Text',
+    slug: 'fake-amazon-quality-recall-refund-text',
+    description:
+      'An unsolicited text claims Amazon\'s "routine quality inspection" found a recent purchase defective or recalled and offers a full refund with no return required — just a link to click. The link leads to a phishing page built to steal payment or account credentials rather than issue any refund, and the text is deliberately vague about which "item" is affected since the sender has no real order data and is targeting recipients at random, hoping some recently ordered something from Amazon.',
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'high',
+    sources: ['Federal Trade Commission (FTC)'],
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2025/07/scammy-texts-offering-refunds-amazon-purchases',
+  },
+  {
+    name: 'Cryptocurrency Kiosk QR-Code Redirect Scam',
+    slug: 'cryptocurrency-kiosk-qr-code-redirect-scam',
+    description:
+      'Scammers impersonating a government agency, a bank, or tech support convince a victim — usually after inventing a "fraud alert" or an unpaid bill — that the only way to resolve the problem is to withdraw cash and feed it into a cryptocurrency ATM. The scammer sends a QR code by phone or text for the victim to scan at the kiosk, which routes the deposited cash directly into the scammer\'s wallet instead of any account belonging to the victim. The FBI logged more than 13,400 complaints and over $388 million in losses to this pattern in 2025 alone, a 58% year-over-year increase, with more than half the losses hitting victims over 50.',
+    categorySlug: 'investment-fraud',
+    alertLevel: 'critical',
+    sources: ['FBI Internet Crime Complaint Center (IC3)'],
+    sourceUrl: 'https://www.ic3.gov/PSA/2026/PSA260515-2',
+  },
+  {
+    name: 'Crypto Investment Courier Cash-Pickup Scam',
+    slug: 'crypto-investment-courier-cash-pickup-scam',
+    description:
+      'After luring a victim, often through a fake investment platform or a romance-app contact, into a bogus crypto trading app showing fabricated gains, scammers claim a bank has flagged the transfer or that taxes and fees must be paid in cash before any profit can be withdrawn. Instead of a wire transfer or a kiosk, the victim is told to withdraw cash and hand it in person to a courier who arrives with a "verification" code — after which fake balance updates keep the victim paying further rounds of fees in a repeating cycle. The FBI\'s June 2026 advisory on this pattern specifically flags senior citizens as the primary target.',
+    categorySlug: 'investment-fraud',
+    alertLevel: 'critical',
+    sources: ['FBI Internet Crime Complaint Center (IC3)'],
+    sourceUrl: 'https://www.ic3.gov/PSA/2026/PSA260615',
+  },
 ];
 
 async function seedCategoriesAndScams() {
