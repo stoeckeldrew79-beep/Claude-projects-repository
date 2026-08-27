@@ -7632,6 +7632,66 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Verbraucherzentrale NRW'],
     sourceUrl: 'https://www.verbraucherzentrale.nrw/wissen/digitale-welt/phishingradar/betrug-phishingmails-und-falsche-sms-von-ministerien-und-behoerden-76907',
   },
+  {
+    name: 'Funeral Home Impersonation Grief Scam',
+    slug: 'funeral-home-impersonation-grief-scam',
+    description:
+      'Scammers scan online obituaries and funeral home websites for names, family relationships, and service dates, then call grieving relatives with the caller ID spoofed to match the real funeral home\'s number. Posing as funeral home staff, they claim an unpaid balance is owed for the deceased\'s services or cremation and demand immediate payment by wire transfer, gift card, or crypto — exploiting the family\'s grief and urgency before anyone has a chance to verify the real bill.',
+    categorySlug: 'family-emergency-scams',
+    alertLevel: 'high',
+    sources: ['Federal Trade Commission (FTC)'],
+    sourceUrl: 'https://www.ftc.gov/business-guidance/blog/2023/06/scammers-impersonate-funeral-home-staff-prey-mourning-families-can-it-get-any-lower',
+  },
+  {
+    name: 'Storm-Chaser Roofing Deductible Waiver Fraud',
+    slug: 'storm-chaser-roofing-deductible-waiver-fraud',
+    description:
+      'After a hailstorm or hurricane, door-to-door "storm chaser" roofing contractors offer homeowners a free roof by promising to waive or absorb their insurance deductible, then inflate the invoice submitted to the insurer to cover the difference — making the homeowner an unwitting party to insurance fraud, since the real cost of the work no longer matches what\'s billed. At least two dozen states, including Texas and Florida, now specifically criminalize a contractor paying, waiving, or rebating a policyholder\'s deductible, and regulators warn the resulting roofs are often shoddy or left unfinished once the contractor has been paid.',
+    categorySlug: 'insurance-fraud',
+    alertLevel: 'high',
+    sources: ['Texas Department of Insurance'],
+    sourceUrl: 'https://tdi.texas.gov/tips/state-law-cracks-down-on-roof-scams.html',
+  },
+  {
+    name: 'Fake VA Benefits Overpayment Collection Scam',
+    slug: 'fake-va-benefits-overpayment-collection-scam',
+    description:
+      'Scammers text, email, or call veterans posing as VA employees or the VA Debt Management Center, claiming the veteran was overpaid disability or pension benefits and must immediately repay the amount or provide banking details to "correct" it. Messages use spoofed caller ID reading "VA" or "Debt Center," fake VA logos and letterhead, and links to phishing pages built to mimic va.gov, pressuring urgent payment via gift card, wire, or crypto.',
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['U.S. Department of Veterans Affairs'],
+    sourceUrl: 'https://news.va.gov/145291/protecting-veterans-from-fraud-and-scams/',
+  },
+  {
+    name: 'Fake Delivery-Platform Support Line Scam',
+    slug: 'fake-delivery-platform-support-line-scam',
+    description:
+      'Scammers pose as DoorDash or Uber Eats "support," reaching drivers and restaurant partners by phone, text, or email. In one version they claim they\'re shipping a free tablet or printer and need the driver\'s Social Security number, bank account, and login "verified" first; in another they claim there\'s a problem with an order or a refund is owed and talk the driver into reading back an account verification code, which the scammer then uses to hijack the driver\'s account and redirect their earnings. The FTC has documented drivers losing hundreds of dollars after scammers placed fake orders and then called posing as platform support to gain account access.',
+    categorySlug: 'employment-scams',
+    alertLevel: 'high',
+    sources: ['Federal Trade Commission (FTC)'],
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2023/07/scammers-impersonate-delivery-service-support-rip-drivers-restaurants',
+  },
+  {
+    name: 'Vacant Land Owner Impersonation Sale Fraud',
+    slug: 'vacant-land-owner-impersonation-sale-fraud',
+    description:
+      'Criminals research public county property records to identify vacant land or homes owned free-and-clear, then impersonate the real owner using fake IDs, spoofed email and phone numbers, and forged notary seals to "sell" the property to an unsuspecting buyer who has never met the true owner. Unlike quitclaim-deed forgery, which files a fraudulent document with the county in the owner\'s name, this scheme involves live impersonation of the owner (and sometimes the closing attorney) during the sale itself — increasingly aided by AI-generated documents or a cloned voice on verification calls — with sale proceeds routed to a co-conspirator to launder before the real owner ever learns the parcel was sold.',
+    categorySlug: 'mortgage-foreclosure-scams',
+    alertLevel: 'critical',
+    sources: ['FBI Internet Crime Complaint Center (IC3)'],
+    sourceUrl: 'https://www.ic3.gov/PSA/2026/PSA260616',
+  },
+  {
+    name: 'AI-Cloned Voice Seller Impersonation in Closing Wire Fraud',
+    slug: 'ai-cloned-voice-seller-impersonation-closing-wire-fraud',
+    description:
+      'Fraudsters use AI voice-cloning tools, which need as little as 10-30 seconds of sample audio, to impersonate a seller, title officer, or closing attorney on a live phone or video call and instruct a title company or escrow agent to redirect net sale proceeds or a payoff wire to a new account. Documented cases include a fully deepfaked video call that fooled both a buyer and a title company into a fraudulent multimillion-dollar sale, with industry and FBI figures putting AI-enabled real estate wire fraud losses at roughly $200 million in the first quarter of 2025 alone.',
+    categorySlug: 'ai-deepfake-scams',
+    alertLevel: 'critical',
+    sources: ['National Association of Realtors'],
+    sourceUrl: 'https://www.nar.realtor/news/real-estate-news/whats-real-what-isnt-how-to-spot-deepfakes-ai-real-estate-scams',
+  },
 ];
 
 async function seedCategoriesAndScams() {
