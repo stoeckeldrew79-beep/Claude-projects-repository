@@ -7888,6 +7888,66 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['New Zealand Police'],
     sourceUrl: 'https://www.police.govt.nz/news/release/rental-scammers-targeting-chinese-people-seeking-new-zealand-accommodation',
   },
+  {
+    name: 'Washington Secretary of State Fake Business-Filing Notice Scam',
+    slug: 'washington-secretary-of-state-fake-filing-notice-scam',
+    description:
+      'Scammers mail Washington small-business owners letters designed to look like official Secretary of State notices, complete with the state seal, the business\'s real name, and its actual Unified Business Identifier number pulled from public records. The letters bill $200 or more for "required" filings that are either unnecessary or available directly from the state for far less, and threaten fines, penalties, or business dissolution for non-payment; investigators found a Sacramento, California return address and a QR code routing to a lookalike .org site rather than the real .gov domain.',
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Washington State Attorney General'],
+    sourceUrl: 'https://www.atg.wa.gov/news/news-releases/scam-alert-fraudulent-secretary-state-notices-targeting-washington-small',
+  },
+  {
+    name: 'State Nursing Board License-Suspension Extortion Call',
+    slug: 'state-nursing-board-license-suspension-extortion-call',
+    description:
+      'Callers impersonate a state Board of Nursing investigator, sometimes handing off to a second caller posing as an FBI agent, and tell a nurse her license has been suspended pending an investigation unless she immediately pays a "surety bond" — one documented Idaho case demanded $17,500 — falsely promised back later. The scammers use the target\'s real license number and address, pulled from public licensing records, to make the contact seem legitimate, and a companion mail scam sends fake official documents purportedly from the state board and the Department of Justice.',
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Idaho Attorney General', 'Idaho Board of Nursing'],
+    sourceUrl: 'https://ibn.idaho.gov/pressrelease/consumer-alert-attorney-general-and-board-of-nursing-warn-of-scam-targeting-idaho-nurses/',
+  },
+  {
+    name: 'Spoofed Public Utility Commission "Supplier Switch Cancellation Fee" Call',
+    slug: 'spoofed-public-utility-commission-supplier-switch-fee-call',
+    description:
+      'Callers falsely claim to be from a state Public Utility Commission and tell the consumer their electric or gas utility reported a request to switch them to a different supplier, then demand an immediate "cancellation fee" over the phone to stop the switch and avoid service termination, sometimes falsely claiming to have a recording of the consumer authorizing it. The calls spoof the real PUC office phone number as caller ID, so returning the call appears to confirm legitimacy — Pennsylvania\'s PUC logged more than 70 consumer calls about this scam in a single day in March 2025 and stated it never calls consumers directly to demand payment or confirm supplier switches.',
+    categorySlug: 'utility-scams',
+    alertLevel: 'medium',
+    sources: ['Pennsylvania Public Utility Commission'],
+    sourceUrl: 'https://www.puc.pa.gov/press-release/2025/consumers-alert-utility-scam-calls-spoofing-puc-phone-number-03272025',
+  },
+  {
+    name: 'Back-to-School "Federal Student Tax" IRS Impersonation Call',
+    slug: 'back-to-school-federal-student-tax-irs-impersonation-call',
+    description:
+      'As the school year begins, callers impersonating the IRS, often with spoofed caller ID, tell students and their parents they owe a nonexistent "Federal Student Tax," demanding immediate payment by wire transfer or gift card and threatening arrest for non-payment. The IRS has issued repeated back-to-school-season warnings specifically about this scheme, which targets students at a time when many are newly managing their own finances and less familiar with how real IRS collection actually works — the agency never calls to demand immediate payment or threatens arrest over the phone.',
+    categorySlug: 'tax-scams',
+    alertLevel: 'high',
+    sources: ['Internal Revenue Service (IRS)'],
+    sourceUrl: 'https://www.irs.gov/newsroom/irs-warns-of-back-to-school-scams-encourages-students-parents-schools-to-stay-alert',
+  },
+  {
+    name: 'Fake Salvation Army Bell Ringer / Stolen Red Kettle Scam',
+    slug: 'fake-salvation-army-bell-ringer-scam',
+    description:
+      'During the winter holiday shopping season, imposters set up unauthorized or outright stolen red kettles outside stores, or pose as bell ringers without any actual affiliation, collecting cash donations that never reach the charity. Genuine bell ringers wear an official apron or badge and never take cash directly by hand, since donations go straight into a locked kettle; local Salvation Army chapters have issued public warnings after confirmed imposter sightings collecting cash at retail locations during the giving season.',
+    categorySlug: 'charity-scams',
+    alertLevel: 'low',
+    sources: ['The Salvation Army'],
+    sourceUrl: 'https://www.wmtv15news.com/2025/12/19/salvation-army-dane-county-warns-fake-red-kettle-bell-ringers-spotted-west-towne-mall/',
+  },
+  {
+    name: 'Predatory Lowball Cash-for-Land Offers to Wildfire Survivors',
+    slug: 'predatory-lowball-cash-for-land-wildfire-survivors',
+    description:
+      'In the weeks after a major wildfire, investors blitz displaced homeowners with unsolicited cash offers to buy their burned lots for a fraction of pre-fire value, pressuring them to sign before getting an appraisal or legal advice. After California\'s January 2025 Eaton and Palisades fires, corporate buyers made roughly half of all property sales in the hard-hit Altadena area within weeks of the disaster, prompting Governor Newsom to issue an executive order temporarily banning unsolicited undervalued purchase offers in affected ZIP codes while the state attorney general investigated.',
+    categorySlug: 'mortgage-foreclosure-scams',
+    alertLevel: 'high',
+    sources: ['California Governor\'s Office'],
+    sourceUrl: 'https://www.gov.ca.gov/2025/01/14/governor-newsom-issues-order-to-protect-fire-victims-from-predatory-real-estate-speculators/',
+  },
 ];
 
 async function seedCategoriesAndScams() {
