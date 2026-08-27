@@ -8051,6 +8051,66 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['AMF (Autorité des marchés financiers)'],
     sourceUrl: 'https://www.amf-france.org/en/news-publications/news-releases/amf-warns-public-about-fraudulent-investment-offers-through-trading-robots',
   },
+  {
+    name: 'Tennessee Workers\' Compensation Court Impersonation Scam',
+    slug: 'tennessee-workers-compensation-court-impersonation-scam',
+    description:
+      'Scammers contact injured Tennessee workers by phone, text, email, or video call, falsely posing as a judge, attorney, or state employee from the Court of Workers\' Compensation Claims. Victims are told they owe a fee to "receive benefits" or finalize a settlement, sometimes after being lured into a staged fake online hearing, and are pressured to pay via gift cards, wire transfer, or cryptocurrency; the state\'s Bureau of Workers\' Compensation has confirmed the scam continues to specifically target Spanish-speaking claimants.',
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Tennessee Bureau of Workers\' Compensation'],
+    sourceUrl: 'https://www.tn.gov/workforce/injuries-at-work/bwc-newsroom/2026/2/24/scam-alert--impersonators-targeting-workers--compensation-claimants.html',
+  },
+  {
+    name: 'New York Gaming Commission Mega Millions Imposter Call',
+    slug: 'new-york-gaming-commission-mega-millions-imposter-call',
+    description:
+      'A caller claiming to be a high-ranking Mega Millions official phones a victim to announce a large jackpot win, one documented case citing "$18.6 million and two Mercedes-Benz vehicles," but says taxes, processing, or claiming fees must be paid first before the prize can be released. The caller creates urgency by claiming the check or vehicle warranty will expire, demands payment via prepaid debit cards, gift cards, or wire transfer, and also harvests Social Security numbers and bank account details in the process — a live-call, name-harvesting escalation of the classic prize scam that prompted a formal alert from the New York State Gaming Commission.',
+    categorySlug: 'lottery-sweepstakes-scams',
+    alertLevel: 'high',
+    sources: ['New York State Gaming Commission'],
+    sourceUrl: 'https://gaming.ny.gov/news/consumer-alert-beware-mega-millions-imposter-scam',
+  },
+  {
+    name: 'Illinois DMV Registration-Suspension Text Scam',
+    slug: 'illinois-dmv-registration-suspension-text-scam',
+    description:
+      'Unsolicited texts impersonating the Illinois Secretary of State or DMV falsely warn that a recipient\'s vehicle registration or driver\'s license will be suspended unless they click a link or pay a fine by a fabricated enforcement deadline, citing invented regulations to create panic distinct from an ordinary unpaid-toll pretext. Secretary of State Alexi Giannoulias\'s office has issued repeated public warnings confirming it never sends such texts, and that the only legitimate SMS the office sends is an appointment reminder.',
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Illinois Secretary of State'],
+    sourceUrl: 'https://www.ilsos.gov/news/2026/march-22-2026-giannoulias-warns-public-about-fraudulent-dmv-text-scams.html',
+  },
+  {
+    name: 'Gamified "Task Scam" Job App',
+    slug: 'gamified-task-scam-job-app',
+    description:
+      'An unsolicited text or messaging-app offer promises easy money for simple tasks like liking videos or "boosting" products in an app that displays a fake, ever-rising earnings tally, sometimes even sending a small real payout of $5 to $20 early on to build trust. To unlock further tasks or withdraw the accumulated "earnings," the app tells victims to deposit their own money, usually in cryptocurrency, which simply disappears — the on-screen earnings were never real or payable to begin with. The FTC has reported these game-like online job scams surging from essentially zero reports in 2020 to roughly 20,000 in just the first half of 2024, with crypto losses to job scams reaching $41 million in that same period.',
+    categorySlug: 'employment-scams',
+    alertLevel: 'high',
+    sources: ['Federal Trade Commission (FTC)'],
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2025/08/how-spot-avoid-task-scams',
+  },
+  {
+    name: 'Zelle "Pay Yourself" Enrollment-Hijack Scam',
+    slug: 'zelle-pay-yourself-enrollment-hijack-scam',
+    description:
+      'A scammer impersonating a bank\'s fraud department, often after a spoofed "did you attempt this transfer?" text, tells the victim a fraudulent charge is pending and instructs them to "send yourself money" on Zelle to reverse or secure it. In walking the victim through this, the scammer gets them to read back the one-time passcode the bank texted to enroll a new payee on the account — but that code actually links the scammer\'s own bank account to the victim\'s Zelle profile, so the "self" transfers that follow really route straight to the scammer. Zelle\'s own operator, Early Warning Services, published a dedicated warning after the pattern showed up repeatedly at member banks.',
+    categorySlug: 'account-takeover',
+    alertLevel: 'high',
+    sources: ['Early Warning Services (Zelle)'],
+    sourceUrl: 'https://www.zelle.com/how-to-spot-a-pay-yourself-scam',
+  },
+  {
+    name: 'Bank-to-Fake-Law-Enforcement Handoff Account Takeover',
+    slug: 'bank-to-fake-law-enforcement-handoff-account-takeover',
+    description:
+      'A caller poses as bank fraud-department staff about "suspicious activity" on an account, then transfers the victim to a second scammer posing as a police officer or federal agent who claims the victim\'s stolen identity was used to illegally purchase firearms — using that fear and false authority to extract login credentials and one-time MFA codes. The stolen credentials are used to lock the real account holder out and move funds into cryptocurrency-linked accounts to frustrate recovery; some versions use fake bank-login ads in search results to harvest the initial credentials before the calls even begin. The FBI\'s IC3 opened this as a newly tracked category in a November 2025 advisory after logging more than 5,100 complaints and over $262 million in losses since the start of that year.',
+    categorySlug: 'account-takeover',
+    alertLevel: 'critical',
+    sources: ['FBI Internet Crime Complaint Center (IC3)'],
+    sourceUrl: 'https://www.ic3.gov/PSA/2025/PSA251125',
+  },
 ];
 
 async function seedCategoriesAndScams() {
