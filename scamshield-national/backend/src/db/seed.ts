@@ -7391,6 +7391,39 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Better Business Bureau (BBB)'],
     sourceUrl: 'https://www.bbb.org/article/news-releases/27243-bbb-scam-alert-cash-strapped-drivers-scammed-with-fake-gas-gift-cards',
   },
+  {
+    name: 'Japanese Cash Card Swap Theft Fraud (Cash Card Sagito)',
+    slug: 'japanese-cash-card-swap-theft-fraud',
+    description:
+      'A caller impersonating a police officer or bank-association employee tells the victim their cash card or account has been used fraudulently and arranges an in-person "protection procedure" visit. A second scammer, posing as an official, has the victim seal the real card and a note of their PIN into an envelope, then creates a distraction — such as sending the victim to fetch a personal seal — and swaps the envelope for an identical decoy containing playing cards, stealing the real card to drain the account at ATMs before the theft is even noticed. This physical-theft-by-deception mechanism is distinct from ATM "refund" scams, which manipulate a victim into operating an ATM themselves rather than stealing their card outright.',
+    categorySlug: 'government-impersonation',
+    country: 'JP',
+    alertLevel: 'critical',
+    sources: ['National Police Agency (Japan)'],
+    sourceUrl: 'https://www.npa.go.jp/bureau/safetylife/sos47/case/cashcard/',
+  },
+  {
+    name: 'Japan Amazon Account Suspension SMS Phishing Scam',
+    slug: 'japan-amazon-account-suspension-sms-phishing',
+    description:
+      'A text message impersonating Amazon Japan claims the recipient\'s account has been suspended, a payment method has failed, or a video-streaming fee is unpaid, pressuring an immediate click to avoid "legal action." The link leads to a lookalike fake Amazon login page — confirmed spoofed domains follow patterns like "user-amazon.[x].top" — that harvests the victim\'s ID and password, then routes them to a second page collecting full card details, including the security code, for unauthorized use.',
+    categorySlug: 'phishing',
+    country: 'JP',
+    alertLevel: 'high',
+    sources: ['National Consumer Affairs Center of Japan (NCAC)', 'Council of Anti-Phishing Japan'],
+    sourceUrl: 'https://www.kokusen.go.jp/news/data/n-20221221_2.html',
+  },
+  {
+    name: 'Japanese Fake Police Deepfake Video-Call Fraud',
+    slug: 'japanese-fake-police-deepfake-video-call-fraud',
+    description:
+      'A caller claiming to be a police officer, prosecutor, or telecom representative tells the victim their bank account or phone contract was used in a crime, such as money laundering, and that they face arrest unless they "cooperate." To build credibility, scammers show a fake arrest warrant or police ID over a video call — increasingly through a fake police website with a built-in video-call feature displaying a deepfaked "officer" — then direct the victim to transfer funds to a designated account to "protect" them from the investigation. Japan\'s National Police Agency recorded 11,014 cases of this fraud type in 2025 alone, nearly 40% of all "tokushu sagi" special fraud cases and roughly ¥100.5 billion in losses, making it the single largest fraud category in the country.',
+    categorySlug: 'government-impersonation',
+    country: 'JP',
+    alertLevel: 'critical',
+    sources: ['National Police Agency (Japan)'],
+    sourceUrl: 'https://www.npa.go.jp/bureau/safetylife/sos47/new-topics/241218/02.html',
+  },
 ];
 
 async function seedCategoriesAndScams() {
