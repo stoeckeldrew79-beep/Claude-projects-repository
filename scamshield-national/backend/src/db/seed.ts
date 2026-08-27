@@ -7149,6 +7149,39 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Social Security Administration Office of the Inspector General'],
     sourceUrl: 'https://oig.ssa.gov/scam-alerts/2026-02-20-ssa-office-of-the-inspector-general-warns-public-of-surge-in-fraudulent-social-security-statement-emails/',
   },
+  {
+    name: 'Indian Task-Based "Work From Home" Job Scam',
+    slug: 'indian-task-based-work-from-home-job-scam',
+    description:
+      'Victims are recruited over WhatsApp or Telegram with offers of easy paid "tasks" — liking YouTube videos, rating hotels or products, or installing apps — and are actually paid a small real amount at first to build trust. Once hooked, they\'re moved into a "VIP" or "Premium Task Group" where unlocking higher-value tasks requires first depositing money, with the promised bigger payout always just one more deposit away until the scammer disappears. India\'s Indian Cyber Crime Coordination Centre identified this pattern as the single largest category of cybercrime complaints in the country in 2023.',
+    categorySlug: 'employment-scams',
+    country: 'IN',
+    alertLevel: 'high',
+    sources: ['Indian Cyber Crime Coordination Centre (I4C)', 'West Bengal Police Cyber Crime Wing'],
+    sourceUrl: 'https://aninews.in/news/national/general-news/work-from-home-or-part-time-job-scams-top-cyber-crimes-in-india-says-i4c20240103184451/',
+  },
+  {
+    name: 'Indian Fake Trading App / Fraudulent FPI Investment Scheme',
+    slug: 'indian-fake-trading-app-fpi-investment-scheme',
+    description:
+      'Fraudsters posing as employees or affiliates of SEBI-registered Foreign Portfolio Investors lure victims through WhatsApp groups, online "trading courses," and live broadcasts into downloading an unofficial app that claims to offer institutional-grade access to buy shares and subscribe to IPOs without a real trading or demat account. The app displays fabricated profits to encourage larger deposits, and when victims try to withdraw, they\'re told to first pay a "capital gains tax" or similar fee to a private account — money that never comes back. SEBI issued a formal advisory on this exact scheme in February 2024 after receiving numerous investor complaints.',
+    categorySlug: 'investment-fraud',
+    country: 'IN',
+    alertLevel: 'critical',
+    sources: ['Securities and Exchange Board of India (SEBI)'],
+    sourceUrl: 'https://www.sebi.gov.in/media-and-notifications/press-releases/feb-2024/sebi-issues-advisory-against-fraudulent-trading-schemes-claiming-to-be-offered-to-indian-residents-by-fpis_81733.html',
+  },
+  {
+    name: 'Indian Fake Electricity Bill Disconnection Scam',
+    slug: 'indian-fake-electricity-bill-disconnection-scam',
+    description:
+      'Victims receive an SMS or WhatsApp message from an unofficial number claiming their electricity bill is unpaid and that power will be disconnected within hours unless they act immediately, sometimes followed by a call from someone posing as a "lineman" or "junior engineer." The message pushes the victim to call a number or click a link or app file, which is then used either to demand urgent UPI payment or to talk the victim into installing a remote-access app that lets the scammer drain their bank account directly. Haryana Police and Mumbai Police have both issued public advisories confirming that electricity distribution companies never send disconnection threats by SMS or WhatsApp.',
+    categorySlug: 'utility-scams',
+    country: 'IN',
+    alertLevel: 'high',
+    sources: ['Haryana Police', 'Mumbai Police'],
+    sourceUrl: 'https://www.tribuneindia.com/news/haryana/fake-bill-messages-being-sent-cops-395300',
+  },
 ];
 
 async function seedCategoriesAndScams() {
