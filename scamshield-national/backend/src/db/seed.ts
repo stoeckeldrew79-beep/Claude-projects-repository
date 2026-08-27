@@ -953,7 +953,7 @@ Rather than face trial, Rich fled to Switzerland in 1983 and simply never came b
 On January 20, 2001, Bill Clinton's final day in office, the president granted Rich a full pardon — one of the most controversial pardons in modern presidential history. The controversy centered less on the underlying facts of Rich's case than on how the pardon came about: Rich's ex-wife, Denise Rich, had donated hundreds of thousands of dollars to the Democratic Party, Clinton's presidential library foundation, and Hillary Clinton's Senate campaign in the years before the pardon, prompting congressional hearings and a Justice Department review into whether the pardon had effectively been bought.
 
 Rich died in Lucerne, Switzerland, in June 2013 at age 78, having spent essentially the entire back half of his life as a man who could never safely set foot in the country where he was indicted. His case remains a study in how far distance and money can carry someone away from accountability — not by beating the charges, but by simply staying beyond the reach of the court that filed them, for long enough that political influence, rather than a verdict, became the thing that finally closed the case.`,
-    sourceUrl: 'https://money.cnn.com/2013/06/26/investing/marc-rich/index.html',
+    sourceUrl: 'https://www.cbsnews.com/news/pardoned-financier-marc-rich-dead-at-78/',
   },
   {
     title: 'Dennis Levine: The Insider Trader Whose Confession Exposed Ivan Boesky',
@@ -2836,7 +2836,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'employment-scams',
     alertLevel: 'high',
     sources: ['FBI IC3', 'FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2024/12/task-scams-create-illusion-making-money',
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2024/11/task-scams-create-illusion-making-money',
   },
   {
     name: 'Fake Holiday Toy Drive Scam',
@@ -3739,7 +3739,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'sextortion',
     alertLevel: 'critical',
     sources: ['FBI IC3'],
-    sourceUrl: 'https://www.ic3.gov/PSA/2022/PSA220307',
+    sourceUrl: 'https://www.ic3.gov/PSA/2023/psa230605',
   },
   {
     name: 'Compromised Dating App Video Call Sextortion',
@@ -4438,8 +4438,8 @@ const SEED_SCAMS: SeedScam[] = [
       'A text claims SNAP or other public benefits have been suspended due to a "verification issue" and links to a fake state benefits portal login page that harvests the recipient\'s Social Security number and EBT card PIN. State benefits agencies communicate suspensions through official mail and the agency\'s own verified portal, not an unsolicited text link.',
     categorySlug: 'public-benefits-fraud',
     alertLevel: 'medium',
-    sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2020/06/scammer-getting-unemployment-benefits-your-name',
+    sources: ['USDA Food and Nutrition Service'],
+    sourceUrl: 'https://www.fns.usda.gov/news-item/fraud-alert-usda-warns-text-message-scam-targeting-snap-recipients',
   },
   {
     name: 'Unemployment Benefits Filed in a Victim\'s Name Using Stolen Data',
@@ -4618,8 +4618,8 @@ const SEED_SCAMS: SeedScam[] = [
       'A caller claims a family member serving in the military needs emergency funds sent immediately to secure emergency leave or transport home for a family crisis, exploiting the same urgency and distance that make military-deployment romance scams effective, but targeting an existing family relationship rather than a new one. The Department of Defense does not require service members or their families to pay for emergency leave approval or transport.',
     categorySlug: 'family-emergency-scams',
     alertLevel: 'high',
-    sources: ['DoD Cyber Crime Center'],
-    sourceUrl: 'https://www.dc3.mil/',
+    sources: ['Federal Trade Commission (FTC)'],
+    sourceUrl: 'https://consumer.ftc.gov/articles/scammers-use-fake-emergencies-steal-your-money',
   },
   {
     name: 'Fake Kidnapping Ransom Call',
@@ -5005,7 +5005,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'AU',
     alertLevel: 'high',
     sources: ['Scamwatch (Australian Competition and Consumer Commission)'],
-    sourceUrl: 'https://www.scamwatch.gov.au/types-of-scams/threat-scams',
+    sourceUrl: 'https://www.scamwatch.gov.au/types-of-scams/phishing-scams',
   },
   {
     name: 'Australian Toll Road SMS Scam',
@@ -5170,7 +5170,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'AU',
     alertLevel: 'medium',
     sources: ['Scamwatch (Australian Competition and Consumer Commission)'],
-    sourceUrl: 'https://www.scamwatch.gov.au/types-of-scams/account-or-identity-takeover-scams',
+    sourceUrl: 'https://www.scamwatch.gov.au/about-us/news-and-alerts/watch-out-for-nbn-scams',
   },
   {
     name: 'German Schufa Credit Score Phishing Email',
@@ -5180,8 +5180,8 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'identity-theft',
     country: 'DE',
     alertLevel: 'medium',
-    sources: ['German Federal Office for Information Security (BSI)'],
-    sourceUrl: 'https://www.bsi.bund.de/DE/Themen/Verbraucherinnen-und-Verbraucher/Cyber-Sicherheitslage/Methoden-der-Cyber-Kriminalitaet/Identitaetsdiebstahl/identitaetsdiebstahl_node.html',
+    sources: ['SCHUFA'],
+    sourceUrl: 'https://www.schufa.de/newsroom/internetbetrug/phishing-vorsicht-betrug-schufa-mails/',
   },
   {
     name: 'Japanese Convenience Store Prepaid Card Payment Scam',
@@ -5192,7 +5192,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'JP',
     alertLevel: 'high',
     sources: ['Japan National Police Agency'],
-    sourceUrl: 'https://www.npa.go.jp/bureau/safetylife/sos47/case/refund/',
+    sourceUrl: 'https://www.npa.go.jp/bureau/safetylife/sos47/case/fictitious-billing/',
   },
   {
     name: 'Indian Fake Courier / Customs Parcel Scam',
@@ -5225,7 +5225,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'NL',
     alertLevel: 'high',
     sources: ['Fraudehelpdesk (Netherlands)'],
-    sourceUrl: 'https://www.fraudehelpdesk.nl/alert/neptelefoontje-namens-de-politie/',
+    sourceUrl: 'https://www.fraudehelpdesk.nl/alert/valse-sms-namens-digid/',
   },
   {
     name: 'Singapore SingPass Phishing Scam',
@@ -5367,8 +5367,8 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'debt-relief-scams',
     country: 'IN',
     alertLevel: 'critical',
-    sources: ['Reserve Bank of India', 'Indian Cyber Crime Coordination Centre (I4C)'],
-    sourceUrl: 'https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=56909',
+    sources: ['Reserve Bank of India (via Press Information Bureau)', 'Indian Cyber Crime Coordination Centre (I4C)'],
+    sourceUrl: 'https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1683572',
   },
   {
     name: 'Canadian Immigration (IRCC) Deportation Threat Scam',
@@ -5554,8 +5554,8 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'phishing',
     country: 'JP',
     alertLevel: 'medium',
-    sources: ['Japan National Police Agency'],
-    sourceUrl: 'https://www.npa.go.jp/bureau/cyber/countermeasures/phishing.html',
+    sources: ['NISC (National center of Incident readiness and Strategy for Cybersecurity)'],
+    sourceUrl: 'https://www.cyber.go.jp/pr/column/20220719.html',
   },
   {
     name: 'Swedish "Skyddat Konto" Safe Account Scam',
@@ -6094,7 +6094,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'SE',
     alertLevel: 'high',
     sources: ['Arbetsförmedlingen (Swedish Public Employment Service)', 'Polisen (Swedish Police Authority)'],
-    sourceUrl: 'https://arbetsformedlingen.se/',
+    sourceUrl: 'https://polisen.se/aktuellt/nyheter/nationell/2026/januari/varning-for-falska-jobbannonser-om-snabba-pengar/',
   },
   {
     name: 'German AI Voice-Cloning CEO Fraud',
@@ -6424,7 +6424,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'NZ',
     alertLevel: 'high',
     sources: ['CERT NZ', 'Netsafe'],
-    sourceUrl: 'https://www.ncsc.govt.nz/',
+    sourceUrl: 'https://netsafe.org.nz/webcam-blackmail-scams/',
   },
   {
     name: 'New Zealand Work and Income Benefit Phishing Scam',
@@ -6974,7 +6974,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'GB',
     alertLevel: 'critical',
     sources: ['BBC'],
-    sourceUrl: 'https://feeds.bbci.co.uk/news/uk-66130785',
+    sourceUrl: 'https://www.bbc.co.uk/news/uk-66130785',
   },
   {
     name: 'UK Romance Fraud',
@@ -7243,7 +7243,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'SE',
     alertLevel: 'high',
     sources: ['Polismyndigheten (Swedish Police)'],
-    sourceUrl: 'https://polisen.se/aktuellt/nyheter/nord/2025/februari/varning-for-bedragare-som-uppger-sig-vara-barn/',
+    sourceUrl: 'https://polisen.se/aktuellt/nyheter/nord/2026/maj/sms-bedragerier/',
   },
   {
     name: 'Swedish CEO Fraud (VD-bedrägeri)',
