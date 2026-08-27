@@ -7466,6 +7466,66 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['National Police Agency (Japan)'],
     sourceUrl: 'https://www.npa.go.jp/bureau/safetylife/sos47/new-topics/241218/02.html',
   },
+  {
+    name: 'AI Deepfake FBI/IC3 "Fund Recovery" Re-Scam',
+    slug: 'ai-deepfake-fbi-ic3-fund-recovery-rescam',
+    description:
+      'Scammers target people who already lost money to an earlier scam, contacting them by email, phone, social media, or ads with a false claim that they can recover the stolen funds. To appear credible during real-time video calls, they generate AI deepfake video of FBI agents, IC3 personnel, or other authority figures, then direct victims to a spoofed IC3-lookalike website to hand over personal and financial information, or to pay a bogus "recovery fee" — turning to AI-generated video specifically to overcome the skepticism a scam victim would normally have the second time around.',
+    categorySlug: 'ai-deepfake-scams',
+    alertLevel: 'high',
+    sources: ['FBI Internet Crime Complaint Center (IC3)'],
+    sourceUrl: 'https://www.ic3.gov/PSA/2026/PSA260720',
+  },
+  {
+    name: 'AI Voice-Clone Bypass of Bank "Voice ID" Authentication',
+    slug: 'ai-voice-clone-bypass-bank-voice-id',
+    description:
+      'Rather than tricking a person, fraudsters feed a short public sample of someone\'s voice — pulled from social media, a podcast, or an interview — into AI voice-cloning software to generate synthetic audio that defeats a bank\'s automated phone "Voice ID" biometric authentication, gaining account access without ever holding a live conversation with anyone. Journalist investigations demonstrated the technique working against major bank voice-authentication systems, prompting the US Senate Banking Committee to formally question several of the country\'s largest banks about the security of their voice-biometric login tools.',
+    categorySlug: 'ai-deepfake-scams',
+    alertLevel: 'high',
+    sources: ['U.S. Senate Committee on Banking, Housing, and Urban Affairs'],
+    sourceUrl: 'https://www.banking.senate.gov/newsroom/majority/brown-presses-banks-voice-authentication-services',
+  },
+  {
+    name: 'AI-Enhanced Deepfake Disaster Charity Scam',
+    slug: 'ai-enhanced-deepfake-disaster-charity-scam',
+    description:
+      'After a hurricane, wildfire, flood, or other mass-casualty event, fraudsters use AI-generated images and video — mixing real disaster footage with fabricated celebrity or official appearances — to make fake charity solicitations look more convincing and urgent, then route "donations" through gift cards, cryptocurrency, or peer-to-peer payment apps instead of any real relief fund. The FBI specifically warns that AI is now used to "increase perceived legitimacy" of these post-disaster charity scams, a layer of deception beyond the older, non-AI version of the same fake-charity mechanism.',
+    categorySlug: 'ai-deepfake-scams',
+    alertLevel: 'high',
+    sources: ['FBI Internet Crime Complaint Center (IC3)'],
+    sourceUrl: 'https://www.ic3.gov/PSA/2025/PSA250116',
+  },
+  {
+    name: 'Unauthorized Third-Party Energy Supplier Switch ("Slamming")',
+    slug: 'unauthorized-third-party-energy-supplier-switch',
+    description:
+      'In deregulated electricity and gas markets, door-to-door or phone salespeople posing as affiliated with a customer\'s real utility enroll them with a third-party supplier at much higher rates without valid consent — sometimes using the customer\'s own confidential account data to create an online account or "authorize" the switch without their knowledge. Pennsylvania\'s Public Utility Commission documented this at scale against one supplier, alleging nearly 9,000 marketing-regulation violations including unauthorized switches on 339 customer accounts, some of them enrolled after the customer had already died, and thousands of cases of accessing confidential customer data without consent.',
+    categorySlug: 'utility-scams',
+    alertLevel: 'medium',
+    sources: ['Pennsylvania Public Utility Commission (PA PUC)'],
+    sourceUrl: 'https://www.puc.pa.gov/press-release/2020/investigation-of-deceptive-energy-marketing-allegations-results-in-complaint-against-texas-based-verde-energy-usa-88plus-million-civil-penalty-and-pa-license-revocation-sought-by-prosecutors',
+  },
+  {
+    name: 'Fake LIHEAP "Benefit Verification" Door-to-Door Scam',
+    slug: 'fake-liheap-benefit-verification-door-to-door-scam',
+    description:
+      'Scammers go door-to-door targeting known or suspected recipients of LIHEAP, the federal Low-Income Home Energy Assistance Program, claiming they need to see the household\'s utility bill and personal information to "verify" that the correct funds were applied. State human services agencies confirm this is always fraudulent — LIHEAP funds are paid directly to the utility or fuel provider as a grant, so neither the state nor the utility ever needs to solicit this information at the door, making the visit really just a pretext for identity theft.',
+    categorySlug: 'utility-scams',
+    alertLevel: 'medium',
+    sources: ['Pennsylvania Department of Human Services'],
+    sourceUrl: 'https://www.cbsnews.com/pittsburgh/news/pennsylvania-department-of-human-services-door-to-door-liheap-scam/',
+  },
+  {
+    name: 'Fake Lead Pipe Testing/Replacement Fee Scam',
+    slug: 'fake-lead-pipe-testing-replacement-fee-scam',
+    description:
+      'As cities run real, free lead-service-line testing and replacement programs required under the federal Lead and Copper Rule, scammers pose as utility workers offering on-the-spot lead testing or citing "replacement" work, then request payment or push their way into the home. Real utilities warn that genuine lead testing is typically done through mail-in kits homeowners use themselves — a utility never sends an employee to collect cash at the door — so anyone requesting payment in person while claiming to test or replace lead pipes is an impostor.',
+    categorySlug: 'utility-scams',
+    alertLevel: 'medium',
+    sources: ['Denver Water'],
+    sourceUrl: 'https://www.denverwater.org/tap/how-spot-scam-or-fake-water-worker',
+  },
 ];
 
 async function seedCategoriesAndScams() {
