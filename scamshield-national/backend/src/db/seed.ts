@@ -1282,6 +1282,48 @@ A jury convicted Payne in March 2001 on 19 counts, including conspiracy to commi
 Greater Ministries remains one of the starkest examples of an affinity fraud — a scheme that spread specifically because it recruited through trusted religious communities, using faith itself as the reason members felt safe not asking the questions they might have asked of an ordinary investment pitch.`,
     sourceUrl: 'https://media.ca11.uscourts.gov/opinions/pub/files/200114746.pdf',
   },
+  {
+    title: 'Andrew Fastow: The Enron CFO Who Hid Billions Inside His Own Side Deals',
+    slug: 'andrew-fastow-enron-cfo-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Andrew Fastow joined Enron's finance division in 1990 and rose steadily through the company, becoming Chief Financial Officer in 1998. In that role he was responsible for how Enron, an energy-trading giant, represented its financial health to investors and Wall Street — a job he used to build a hidden financial architecture that made the company look far more profitable and far less indebted than it actually was.
+
+Fastow designed and personally ran a network of off-balance-sheet special purpose entities — commonly known by names like LJM1, LJM2, the Raptor vehicles, and Chewco — that Enron used to move debt off its books and manufacture reported earnings that didn't reflect the underlying business. The arrangement's real conflict of interest was that Fastow didn't just structure these entities on Enron's behalf, he personally managed and invested in several of them, profiting directly from deals he was simultaneously negotiating on the company's side — a setup Enron's own board formally, and improperly, waived its conflict-of-interest rules to allow not once but twice. The SEC's later litigation release documented specific illicit profits, including transactions that funneled millions of dollars through entities Fastow controlled; secondary sources commonly cite his total personal take from these schemes at upwards of $30 million.
+
+Enron fired Fastow on October 24, 2001, once the special-purpose-entity arrangements began coming to light, and the company collapsed into Chapter 11 bankruptcy on December 2, 2001 — at the time the largest bankruptcy filing in US history. Fastow was indicted in October 2002 on 78 counts, but rather than go to trial he pleaded guilty in January 2004 to two counts of conspiracy to commit securities and wire fraud, forfeited $23.8 million, and agreed to cooperate extensively with prosecutors — testimony federal investigators later said was central to convicting CEOs Jeffrey Skilling and Kenneth Lay. His wife, Lea Fastow, separately pleaded guilty to a single misdemeanor tax charge and served one year in prison. Andrew Fastow was sentenced in September 2006 to six years in prison, well below the ten years his original plea exposed him to, largely in recognition of his cooperation, and was released in December 2011.
+
+Fastow's case remains one of the clearest illustrations of how a company's most senior financial officer — the person literally responsible for telling investors the truth about its books — can instead become the architect of the deception, using complexity itself as camouflage: the special-purpose entities were technically disclosed in Enron's filings, buried in language dense enough that almost no one outside the company understood what was actually being hidden inside them.`,
+    sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-17762',
+  },
+  {
+    title: 'John G. Bennett Jr. and the Christian Charity "Matching Gift" Ponzi Scheme',
+    slug: 'john-bennett-new-era-philanthropy-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `John G. Bennett Jr. founded the Foundation for New Era Philanthropy in the Philadelphia area in 1989, pitching it to nonprofits, universities, and charities as a way to double their money for a good cause. The offer was that an organization could deposit funds with New Era for a holding period of a few months, after which an anonymous group of wealthy philanthropists would supposedly match the deposit dollar for dollar — turning routine fundraising into what looked like an unusually generous, no-risk multiplier.
+
+There were no anonymous philanthropists. New Era was a Ponzi scheme: money deposited by newly recruited donor organizations was used to pay the "matched" returns owed to earlier depositors, creating a track record of real payouts that made the pitch increasingly credible to more prominent institutions over time. Bennett also personally diverted several million dollars of the funds into his own businesses. The scheme is commonly cited as having moved roughly $354 million through its books in total, with actual unrecovered losses of around $135 million, and its victim list reads like a who's-who of respected American institutions — the University of Pennsylvania, the Philadelphia Orchestra, and the Franklin Institute among them, alongside more than 180 evangelical colleges, seminaries, and Christian charities nationwide that had been drawn in largely through Bennett's standing in evangelical philanthropic circles.
+
+The scheme unraveled in May 1995, after accountant Albert J. Meyer recognized the classic shape of a Ponzi scheme in New Era's structure and alerted both the SEC and a Wall Street Journal reporter; once the paper's questions became public, Bennett could no longer meet a redemption request, and New Era filed for Chapter 11 bankruptcy days later. He was indicted in September 1996 on 82 federal counts including mail fraud, wire fraud, and money laundering. His defense initially pursued an insanity claim, first citing a car accident years earlier and later citing disputed psychiatric diagnoses, before Bennett ultimately entered a plea of no contest in March 1997. He was sentenced that September to 12 years in federal prison and served roughly a decade before his release.
+
+New Era stands out among affinity-style frauds for how far up the trust ladder it reached — not just individual donors but sophisticated, professionally managed institutions with their own finance staff, all persuaded by the promise that goodwill itself, laundered through a wealthy anonymous benefactor, could be turned into free money for a cause everyone involved actually believed in.`,
+    sourceUrl: 'https://www.sec.gov/files/litigation/litreleases/lr15095.txt',
+  },
+  {
+    title: 'Lernout & Hauspie: The Belgian Tech Darling Built on Fabricated Korean Sales',
+    slug: 'lernout-hauspie-belgian-accounting-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Jo Lernout and Pol Hauspie founded Lernout & Hauspie Speech Products in Ypres, Belgium, in 1987, building a genuine and technically capable speech-recognition and language-technology company that went public on Nasdaq in 1995. By the late 1990s L&H was a rare thing for a Belgian company — a globally hyped tech stock, backed by a $45 million investment from Microsoft in 1997, that briefly reached a market capitalization approaching $10 billion after acquiring well-known names like Dictaphone and Dragon Systems.
+
+Behind the growth story, L&H was manufacturing much of its reported revenue. The SEC later documented three distinct schemes running from 1996 to 2000: roughly $60 million in "sales" to Belgian entities that were really disguised loans, not real transactions; about $110.5 million in fabricated revenue funneled through shell "Language Development Companies," mostly based in Singapore, with few or no actual employees; and, largest and most notorious, close to $175 million in reported sales from L&H's Korean operations, generated through side agreements kept out of the official contract files and fake receivable-factoring arrangements with Korean banks that made non-existent sales look like real, collectible revenue.
+
+Wall Street Journal reporter Jesse Eisinger exposed the Korean revenue scheme in an August 2000 investigation, after another reporter had raised early questions the year before. The stock, which had traded above $72 in March 2000, collapsed to under a dollar by the end of the year; Nasdaq delisted the company in December 2000, and L&H filed for Chapter 11 bankruptcy in the US that November, followed by a Belgian insolvency filing weeks later.
+
+Belgium's Ghent Court of Appeals convicted Lernout, Hauspie, former vice-chairman Nico Willaert, and former CEO Gaston Bastiaens of fraud, forgery, and stock-price manipulation in September 2010, in what was, at the time, Belgium's largest-ever corporate fraud trial; Lernout, Hauspie, and Willaert each received three years of actual imprisonment plus a suspended two-year term and a fine, while Hauspie pleaded guilty and Lernout maintained his innocence throughout, at one point alleging a CIA conspiracy against the company. More than a decade later, in December 2021, a Belgian appeals court ordered Lernout, Hauspie, and several other former board members to pay a combined €655 million in civil damages to thousands of shareholders — a judgment reported as largely symbolic given the defendants' limited means, but a rare instance of a corporate-fraud case still delivering a formal reckoning two decades after the company itself had disappeared.`,
+    sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-17782',
+  },
 ];
 
 // Practical "how it works / red flags / what to do" guides covering the
