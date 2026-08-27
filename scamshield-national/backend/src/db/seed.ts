@@ -7813,6 +7813,39 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['FBI Internet Crime Complaint Center (IC3)'],
     sourceUrl: 'https://www.ic3.gov/PSA/2026/PSA260615',
   },
+  {
+    name: 'NZ Police Impersonation Cryptocurrency Recovery Scam',
+    slug: 'nz-police-impersonation-crypto-recovery-scam',
+    description:
+      'Scammers posing as New Zealand Police detectives contact people who own cryptocurrency, claiming their personal details or ID documents were "found on a person who has been arrested." After confirming the victim holds crypto, a second scammer posing as a cryptocurrency company representative takes over the call and convinces the victim to hand over their wallet password or seed phrase, often via a fake webpage made to look like a legitimate crypto platform. The scammers spoof real police phone numbers and email addresses to appear credible, and New Zealand Police say victims have lost millions of dollars collectively.',
+    categorySlug: 'account-takeover',
+    country: 'NZ',
+    alertLevel: 'high',
+    sources: ['New Zealand Police'],
+    sourceUrl: 'https://www.police.govt.nz/news/release/police-warn-scammers-impersonating-nz-police-targeting-cryptocurrency-wallet-holders',
+  },
+  {
+    name: 'NZ Immigration Visa Phone Scam',
+    slug: 'nz-immigration-visa-phone-scam',
+    description:
+      'Callers falsely claiming to be from "The Immigration Bureau" or Immigration New Zealand tell recipients there\'s a serious problem with their visa and prompt them to press a number for English or Chinese service to be connected to an "operator," who then demands payment, requests passport or bank details, or threatens deportation if the target doesn\'t comply — using spoofed New Zealand mobile numbers to appear legitimate. Immigration New Zealand has confirmed it never contacts people by phone to request payment, and reaffirmed the warning as part of a joint "Fighting Visa Fraud" campaign with Australia, Canada, and the UK.',
+    categorySlug: 'phishing',
+    country: 'NZ',
+    alertLevel: 'high',
+    sources: ['Immigration New Zealand'],
+    sourceUrl: 'https://www.immigration.govt.nz/about-us/news-centre/recent-immigration-phone-scams/',
+  },
+  {
+    name: 'NZ WeChat Rental Bond Scam Targeting Overseas Renters',
+    slug: 'nz-wechat-rental-bond-scam',
+    description:
+      'Scammers pose as landlords or real estate agents on WeChat, targeting people in China who are seeking rental accommodation in Auckland before they\'ve arrived in New Zealand. They send fake ID documents or tenancy paperwork to appear legitimate, get the victim to digitally sign a fraudulent tenancy agreement, and have them wire thousands of dollars to a New Zealand bank account to "secure" the property — often followed by further demands, claiming another tenant is interested or that furnishings need to be paid for. Victims typically only discover the fraud after arriving in New Zealand and finding the property already occupied by someone else, or that it doesn\'t exist at all.',
+    categorySlug: 'online-shopping-scams',
+    country: 'NZ',
+    alertLevel: 'high',
+    sources: ['New Zealand Police'],
+    sourceUrl: 'https://www.police.govt.nz/news/release/rental-scammers-targeting-chinese-people-seeking-new-zealand-accommodation',
+  },
 ];
 
 async function seedCategoriesAndScams() {
