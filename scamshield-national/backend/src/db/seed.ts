@@ -1791,6 +1791,34 @@ Federal law gives every consumer a real, enforceable right that fake collectors 
 
 If you're contacted about a debt, don't pay or provide financial information on the spot no matter how urgent the caller makes it sound — ask for the collector's name, company, and mailing address, and request written validation of the debt before doing anything else. If they refuse to provide that information or keep pressuring for immediate payment, that alone is a strong sign the "debt" isn't legitimate. Report fake or abusive debt collectors to your state attorney general's office, the FTC at ReportFraud.ftc.gov, and the Consumer Financial Protection Bureau.`,
   },
+  {
+    title: 'Real Estate Closing Wire Fraud: Why You Should Never Trust Wiring Instructions in an Email',
+    slug: 'real-estate-closing-wire-fraud-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'real-estate-wire-fraud'],
+    sourceUrl: 'https://www.consumerfinance.gov/archive/blog/mortgage-closing-scams-how-protect-yourself-and-your-closing-funds/',
+    body: `In the days before a home purchase closes, a buyer receives what looks like a routine email from their real estate agent, settlement agent, or title company, with final wiring instructions for the down payment and closing costs — except the email account sending it has been hijacked or spoofed, and the account number in those instructions belongs to the scammer, not the title company. Once the buyer wires the money, it's typically gone within minutes, moved through a chain of accounts before the fraud is even discovered.
+
+The scam works because real estate transactions involve a predictable moment when a large sum of money is expected to move by wire, and because so much of the process now happens by email between parties who've often never met in person — an agent, a lender, a title company, a closing attorney — giving a scammer who's compromised just one of those inboxes everything needed to insert a convincing, well-timed forgery. Closing wire fraud reports to the CFPB surged roughly 1,100% between 2015 and 2017, with nearly $1 billion lost to real estate wire fraud in 2017 alone, and the pattern hasn't gone away since — the same email-based deception now increasingly shows up paired with a spoofed or AI-cloned phone call to make a fraudulent "instruction change" sound even more convincing.
+
+The core warning sign is any change to wiring instructions delivered by email, especially one framed as urgent or last-minute — a legitimate title company will never ask a buyer to send money to a "new" or "updated" account through an unsolicited email. Other red flags include a sender's email address that's almost, but not quite, correct (a single swapped letter or a different domain), pressure to act immediately to avoid missing the closing, and a request to keep the payment change confidential from other parties in the transaction.
+
+The CFPB's core advice is to establish two trusted contacts — typically the real estate agent and the title/settlement company — before closing, and agree in person or by phone on how payment instructions will be confirmed, since a phone call to a number you already had, not one included in a suspicious email, is the only reliable way to verify a wire request. If you've already sent money and suspect fraud, contact your bank immediately to attempt a wire recall, and report it to the FBI's Internet Crime Complaint Center at IC3.gov — the first hours after a fraudulent wire are the best chance of stopping or reversing it before the money moves further.`,
+  },
+  {
+    title: 'Home Title Theft (Deed Fraud): How Scammers Steal Ownership of a Home You Already Own',
+    slug: 'home-title-theft-deed-fraud-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'home-title-theft'],
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2024/08/home-title-lock-insurance-not-lock-all',
+    body: `Home title theft, also called deed fraud, is a form of identity theft where a criminal forges a homeowner's signature on a deed — often a quitclaim deed, chosen specifically because it requires no title warranty and draws less scrutiny when filed — and records it with the county, making it look, on paper, like the real owner willingly transferred the property away. From there, the scammer can sell the home to an unsuspecting buyer, borrow against it as collateral, or rent it out, while the actual owner may have no idea anything happened until a tax bill, a for-sale sign, or a stranger at the door tips them off.
+
+The scheme specifically targets properties least likely to be watched closely: homes owned outright with no mortgage, vacant land, rental properties, and homes belonging to elderly or recently deceased owners, since a paid-off, unmonitored property gives a scammer far more room to operate before anyone notices. Public property records make this research easy — a scammer can look up who owns a given parcel, whether it has a mortgage, and the owner's name, all without ever contacting the real owner, then use identity information gathered elsewhere to impersonate them at the filing stage.
+
+A cottage industry of paid "title lock" or "title monitoring" services has grown up marketing themselves as protection against this exact scam, but the FTC has specifically warned that these services only alert you after a fraudulent deed has already been filed — they don't prevent the transfer from happening in the first place, and several of the free alternatives below do the same monitoring job for free. The real warning signs of an in-progress or completed theft include an unexpected notice about a change to your property tax bill or mailing address, mail from your mortgage lender suddenly stopping, or a letter, notice, or visitor referencing a sale or loan on your property that you never initiated.
+
+Every state's land records or county recorder's office lets you check your own deed for free, and many now offer a free property-fraud alert program that emails you automatically if a new document is recorded against your parcel — a more reliable, no-cost alternative to a paid "lock" service. If you discover a fraudulent deed, start a recovery plan at IdentityTheft.gov, contact your county recorder's office about the process for disputing a forged filing, and consider consulting a real estate attorney, since undoing a fraudulently recorded deed typically requires a court order even after the fraud is proven.`,
+  },
 ];
 
 async function seedArticles(articles: SeedArticle[], label: string) {
