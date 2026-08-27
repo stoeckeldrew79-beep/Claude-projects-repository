@@ -1174,6 +1174,9 @@ A special CBI court in Hyderabad convicted Raju and nine co-defendants, includin
 
 Satyam's fraud, sometimes called "India's Enron," is widely credited with pushing India toward stronger corporate governance and auditing standards, in much the same way Enron's collapse reshaped American accounting oversight years earlier. Raju's own words about the fraud — a tiger he couldn't safely dismount — remain one of the more candid public confessions in the history of corporate fraud, offered not under cross-examination but voluntarily, once the pressure of sustaining the lie for over a decade had simply become unsustainable.`,
     sourceUrl: 'https://www.npr.org/sections/thetwo-way/2015/04/09/398503322/founder-of-indian-it-giant-satyam-gets-7-years-in-fraud',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Flickr_-_World_Economic_Forum_-_Ramalinga_Raju,_Founder_and_Chairman,_Satyam_Computer_Services,_India.jpg',
+    coverImageCredit: 'Photo: World Economic Forum (CC BY-SA 2.0)',
+    coverImagePosition: 30,
   },
   {
     title: 'Takafumi Horie and the "Livedoor Shock" That Shook Tokyo\'s Stock Market',
@@ -1188,6 +1191,9 @@ The fraud unraveled on January 16, 2006, when Tokyo prosecutors raided Livedoor'
 
 Horie appealed all the way to Japan's Supreme Court, which upheld the sentence in April 2011. He began serving his term that June, was paroled after about 21 months, and was released in March 2013. His case remains a landmark in Japanese securities law enforcement — proof that even a company's most visible, media-savvy champion of a new business era could be brought down by the same old mechanism: reported profits that existed only in the accounting, not in the business itself.`,
     sourceUrl: 'https://www.japantimes.co.jp/news/2007/03/17/national/horie-handed-2-12-years/',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Takafumi_Horie.jpg',
+    coverImageCredit: 'Photo: 伊豆のぬし釣り / Izu no Nushi Tsuri (CC BY 3.0)',
+    coverImagePosition: 50,
   },
 ];
 
