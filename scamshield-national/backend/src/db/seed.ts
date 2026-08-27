@@ -2077,16 +2077,6 @@ const SEED_SCAMS: SeedScam[] = [
     sourceUrl: 'https://consumer.ftc.gov/articles/how-spot-avoid-and-report-tech-support-scams',
   },
   {
-    name: 'Fake Social Security Suspension Call',
-    slug: 'fake-ssa-suspension-call',
-    description:
-      'A caller claims your Social Security number has been "suspended" due to suspicious activity or a crime committed in your name, and that resolving it requires immediate payment or moving your money to a "safe" government-controlled account. The Social Security Administration will not call to threaten suspension of your number, and never asks for payment by gift card, wire transfer, or cash. Hang up and, if concerned, contact the SSA directly using the number on ssa.gov.',
-    categorySlug: 'government-impersonation',
-    alertLevel: 'critical',
-    sources: ['SSA Office of Inspector General', 'FTC Consumer Advice'],
-    sourceUrl: 'https://oig.ssa.gov/scam-alerts/',
-  },
-  {
     name: 'Fake Arrest Warrant Call',
     slug: 'fake-arrest-warrant-call',
     description:
@@ -2729,16 +2719,6 @@ const SEED_SCAMS: SeedScam[] = [
     sourceUrl: 'https://consumer.ftc.gov/articles/how-spot-avoid-and-report-tech-support-scams',
   },
   {
-    name: 'Fake Unpaid Toll Text',
-    slug: 'fake-unpaid-toll-text',
-    description:
-      'A text claims a small toll-road balance is overdue and threatens late fees or license suspension unless paid immediately through a link to a fake payment page — a wave of these has hit U.S. drivers, impersonating real toll agencies by name.',
-    categorySlug: 'government-impersonation',
-    alertLevel: 'medium',
-    sources: ['FBI IC3', 'FTC Consumer Advice'],
-    sourceUrl: 'https://www.ic3.gov/PSA/2024/PSA240412',
-  },
-  {
     name: 'Fake Jury Duty Failure-to-Appear Fine',
     slug: 'fake-jury-duty-failure-to-appear-fine',
     description:
@@ -2747,16 +2727,6 @@ const SEED_SCAMS: SeedScam[] = [
     alertLevel: 'high',
     sources: ['FTC Consumer Advice'],
     sourceUrl: 'https://consumer.ftc.gov/government-impersonators',
-  },
-  {
-    name: 'Fake Social Security Benefit Increase Verification',
-    slug: 'fake-ssa-benefit-increase-verification',
-    description:
-      'A call or letter claims a cost-of-living benefit increase requires "verifying" your Social Security number and bank account details over the phone before it can be processed. The SSA does not require this to apply an automatic, already-scheduled increase.',
-    categorySlug: 'government-impersonation',
-    alertLevel: 'medium',
-    sources: ['Social Security Administration', 'FTC Consumer Advice'],
-    sourceUrl: 'https://www.ssa.gov/scam/',
   },
   {
     name: 'Fake Urgent Legal Demand Email',
@@ -2817,16 +2787,6 @@ const SEED_SCAMS: SeedScam[] = [
     alertLevel: 'high',
     sources: ['FBI IC3', 'U.S. Securities and Exchange Commission'],
     sourceUrl: 'https://www.ic3.gov/',
-  },
-  {
-    name: 'Fake International Customs Fee Text',
-    slug: 'fake-international-customs-fee-text',
-    description:
-      'A text claims a package is being held at customs and requires an immediate small fee to release it, linking to a payment page that harvests card details rather than releasing any actual package.',
-    categorySlug: 'package-delivery-scams',
-    alertLevel: 'low',
-    sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2025/04/think-text-message-usps-it-could-be-scam',
   },
   {
     name: 'Fake DHL Missed Delivery Card',
@@ -3164,16 +3124,6 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'healthcare-fraud',
     alertLevel: 'high',
     sources: ['Medicare.gov', 'FTC Consumer Advice'],
-    sourceUrl: 'https://www.medicare.gov/basics/reporting-medicare-fraud-and-abuse',
-  },
-  {
-    name: 'Free Genetic Testing Kit Scam',
-    slug: 'free-genetic-testing-kit-scam',
-    description:
-      'A caller or booth at a public event offers a "free" genetic or COVID testing kit in exchange for a Medicare number, then bills Medicare thousands of dollars for tests that are never actually performed or medically necessary.',
-    categorySlug: 'healthcare-fraud',
-    alertLevel: 'high',
-    sources: ['Medicare.gov', 'FBI IC3'],
     sourceUrl: 'https://www.medicare.gov/basics/reporting-medicare-fraud-and-abuse',
   },
   {
@@ -3830,16 +3780,6 @@ const SEED_SCAMS: SeedScam[] = [
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
     sourceUrl: 'https://consumer.ftc.gov/articles/how-spot-avoid-and-report-tech-support-scams',
-  },
-  {
-    name: 'Overseas Contractor Project Romance Scam',
-    slug: 'overseas-contractor-project-romance-scam',
-    description:
-      'A scammer\'s profile claims to be an engineer or contractor working on an overseas project — an oil rig, a construction site, a shipping vessel — using the remote location to explain unusual hours and poor connectivity, before requesting money for a supposed project-related emergency, customs fee, or medical bill. The core red flag is the same as any romance scam: a partner never met in person asking for money tied to their claimed job.',
-    categorySlug: 'romance-scams',
-    alertLevel: 'high',
-    sources: ['FTC Consumer Advice'],
-    sourceUrl: 'https://consumer.ftc.gov/romance-scams',
   },
   {
     name: 'Fake People-Search Site Data Removal Scam',
@@ -6923,16 +6863,6 @@ const SEED_SCAMS: SeedScam[] = [
     sourceUrl: 'https://www.sco.ca.gov/upd_investigator_about.html',
   },
   {
-    name: 'Fake Social Security COLA Benefit-Increase Scam',
-    slug: 'fake-ssa-cola-benefit-increase-scam',
-    description:
-      'A call, text, email, or letter claims the recipient must provide personal or banking information to "unlock" their annual Social Security cost-of-living adjustment or an unexpected benefit increase. In reality, SSA\'s cost-of-living adjustment is applied automatically to every beneficiary every year — no action, verification, or information is ever required to receive it, which makes any request tied to "claiming" it an automatic red flag rather than a real opportunity.',
-    categorySlug: 'government-impersonation',
-    alertLevel: 'medium',
-    sources: ['Social Security Administration Office of Inspector General (SSA OIG)'],
-    sourceUrl: 'https://oig.ssa.gov/assets/uploads/scam-alert-2025-cola.pdf',
-  },
-  {
     name: '"my Social Security" Account Takeover and Payment Redirect',
     slug: 'myssa-account-takeover-payment-redirect',
     description:
@@ -7801,16 +7731,6 @@ const SEED_SCAMS: SeedScam[] = [
     alertLevel: 'high',
     sources: ['U.S. Department of Veterans Affairs'],
     sourceUrl: 'https://news.va.gov/145291/protecting-veterans-from-fraud-and-scams/',
-  },
-  {
-    name: 'Fake Delivery-Platform Support Line Scam',
-    slug: 'fake-delivery-platform-support-line-scam',
-    description:
-      'Scammers pose as DoorDash or Uber Eats "support," reaching drivers and restaurant partners by phone, text, or email. In one version they claim they\'re shipping a free tablet or printer and need the driver\'s Social Security number, bank account, and login "verified" first; in another they claim there\'s a problem with an order or a refund is owed and talk the driver into reading back an account verification code, which the scammer then uses to hijack the driver\'s account and redirect their earnings. The FTC has documented drivers losing hundreds of dollars after scammers placed fake orders and then called posing as platform support to gain account access.',
-    categorySlug: 'employment-scams',
-    alertLevel: 'high',
-    sources: ['Federal Trade Commission (FTC)'],
-    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2023/07/scammers-impersonate-delivery-service-support-rip-drivers-restaurants',
   },
   {
     name: 'Vacant Land Owner Impersonation Sale Fraud',
