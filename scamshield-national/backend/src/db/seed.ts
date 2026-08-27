@@ -1208,6 +1208,9 @@ That cooperation turned Blazer into one of the most consequential informants in 
 
 Blazer had already pleaded guilty under seal in November 2013 to ten counts including racketeering conspiracy, wire fraud conspiracy, money laundering, and tax evasion, agreeing to forfeit more than $1.9 million as an initial installment on a still-undetermined larger amount. He died in July 2017, at age 72, before he was ever formally sentenced — his cooperation having already helped expose one of the largest corruption scandals in the history of international sports, even as his own personal accounting with the law was left permanently unresolved.`,
     sourceUrl: 'https://www.justice.gov/usao-edny/pr/nine-fifa-officials-and-five-corporate-executives-indicted-racketeering-conspiracy-and',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Chuck_Blazer_2010.jpg',
+    coverImageCredit: 'Photo: Rustem Kadyrov / Tatarstan.ru (CC BY 4.0)',
+    coverImagePosition: 50,
   },
   {
     title: 'Earl Jones: The Unlicensed Adviser Who Defrauded His Own Family and Neighbors',
