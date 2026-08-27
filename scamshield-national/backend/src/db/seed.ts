@@ -7692,6 +7692,39 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['National Association of Realtors'],
     sourceUrl: 'https://www.nar.realtor/news/real-estate-news/whats-real-what-isnt-how-to-spot-deepfakes-ai-real-estate-scams',
   },
+  {
+    name: 'Irish Rental and Student Accommodation Deposit Scam',
+    slug: 'irish-rental-deposit-scam',
+    description:
+      'Fraudsters post fake rental listings on legitimate platforms like Daft.ie, posing as a landlord based abroad or otherwise unavailable, often at a suspiciously cheap price for the location, then pressure a prospective tenant to wire a deposit or first month\'s rent before ever viewing the property in person. A local-imposter variant involves someone who does show a real property but collects deposits from multiple prospective tenants for the same unit before disappearing with all of them. An Garda Síochána\'s Economic Crime Bureau logged 230 reports and over €410,000 lost to rental fraud in the first half of 2026 alone, up from 160 reports over the same period a year earlier, with a seasonal spike each year as students search for accommodation ahead of the college term.',
+    categorySlug: 'online-shopping-scams',
+    country: 'IE',
+    alertLevel: 'high',
+    sources: ['An Garda Síochána'],
+    sourceUrl: 'https://www.garda.ie/en/crime/fraud/i-believe-i-am-the-victim-of-rental-fraud-what-do-i-do-.html',
+  },
+  {
+    name: 'Irish Business Email Compromise / Invoice Redirect Fraud',
+    slug: 'irish-business-email-compromise-invoice-redirect-fraud',
+    description:
+      'Fraudsters compromise or spoof a supplier\'s or executive\'s email account and send an Irish business an urgent request to pay a legitimate-looking invoice to a "new" bank account, or impersonate a CEO or CFO instructing an employee to bypass normal payment authorisation for an urgent transfer. The request typically lands after extensive reconnaissance — via LinkedIn, a company website, or a hacked mailbox — timed to look routine, and An Garda Síochána\'s Economic Crime Bureau has linked one international laundering operation, Operation Skein, to over €70 million moved through Irish accounts this way.',
+    categorySlug: 'business-email-compromise',
+    country: 'IE',
+    alertLevel: 'critical',
+    sources: ['An Garda Síochána'],
+    sourceUrl: 'https://www.garda.ie/en/about-us/our-departments/office-of-corporate-communications/news-media/ceo-fraud_ie.pdf',
+  },
+  {
+    name: 'Irish eFlow Motorway Toll Smishing Scam',
+    slug: 'irish-eflow-toll-smishing-scam',
+    description:
+      'A text message impersonating eFlow, the operator of Ireland\'s M50 motorway toll, claims an unpaid toll or "radar ticket" and threatens vehicle registration or driving licence suspension unless it\'s paid immediately through a link. The link leads to a cloned site, often hosted on a suspicious domain, built to harvest full card payment details rather than process any real toll. The scam has recurred in escalating waves since 2023, with Transport Infrastructure Ireland taking down more than 70 fake eFlow websites at the height of one campaign and An Garda Síochána repeatedly warning the public to check any toll notice directly through eflow.ie rather than a link in a text.',
+    categorySlug: 'government-impersonation',
+    country: 'IE',
+    alertLevel: 'medium',
+    sources: ['CCPC (Competition and Consumer Protection Commission)', 'An Garda Síochána'],
+    sourceUrl: 'https://www.ccpc.ie/manage-your-money/scams-and-frauds/common-scams/phishing',
+  },
 ];
 
 async function seedCategoriesAndScams() {
