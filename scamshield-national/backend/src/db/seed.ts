@@ -1147,6 +1147,48 @@ That changed in July 2012, when the National Futures Association, for the first 
 Wasendorf pleaded guilty in September 2012 to mail fraud, embezzlement, and lying to regulators, and was sentenced in January 2013 to 50 years in federal prison — the statutory maximum — along with an order to repay the full $215.5 million. His case became a case study in how a fraud can survive for decades not because it was especially sophisticated, but because the one verification step that would have caught it immediately was never required until it finally was.`,
     sourceUrl: 'https://www.cftc.gov/PressRoom/PressReleases/6300-12',
   },
+  {
+    title: 'Calisto Tanzi and the €14 Billion Hole Behind "Europe\'s Enron"',
+    slug: 'calisto-tanzi-parmalat-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Calisto Tanzi took over his family's small dairy and ham business in 1961 and spent the next four decades building it into Parmalat, an Italian multinational food conglomerate operating in more than 30 countries with roughly €7.6 billion in annual sales at its peak. Behind that success, Parmalat was quietly accumulating losses and debt that Tanzi and his executives spent over a decade hiding from investors, auditors, and regulators using a web of offshore shell companies in the Cayman Islands and Luxembourg.
+
+The fraud's centerpiece was a Cayman Islands subsidiary called Bonlat Financing Corporation, which claimed to hold €3.95 billion in a Bank of America account — money that simply didn't exist. On December 19, 2003, Bank of America told Bonlat's auditor it held no such account, and the supporting document turned out to bear a forged signature. Parmalat admitted the same day that its assets were overstated by at least that amount. The company had already missed a bond payment weeks earlier after failing to redeem a separate investment in another offshore entity, and by December 24 it filed for bankruptcy, revealing a hole in its accounts of roughly €14 billion — at the time the largest corporate bankruptcy in European history, quickly dubbed "Europe's Enron."
+
+Tanzi faced three separate criminal trials for different aspects of the collapse. A Milan court convicted him of market manipulation in December 2008, sentencing him to 10 years, later reduced to just over 8 years on appeal; a Parma court convicted him of fraudulent bankruptcy in December 2010, sentencing him to 18 years, later reduced on appeal to roughly 17 and a half years; and a third trial in December 2011 convicted him over the separate bankruptcy of Parmatour, his family's tourism company, adding another 9 years, 2 months. Despite the combined weight of these sentences, Tanzi ultimately served just over two years in prison before being moved to house arrest, reportedly due to his advanced age and health.
+
+Calisto Tanzi died on January 1, 2022, at age 83, having spent his final two decades defined by a fraud that had once made Parmalat's yogurt and milk cartons a fixture on breakfast tables across dozens of countries. His case remains one of the starkest European examples of how a genuinely successful, decades-old family business can mask a catastrophic accounting fraud behind a network of offshore shells — right up until a single forged bank document finally couldn't hold the story together anymore.`,
+    sourceUrl: 'https://www.euronews.com/2022/01/01/italy-tanzi',
+  },
+  {
+    title: 'Ramalinga Raju and the Confession That Ended Satyam Computer Services',
+    slug: 'ramalinga-raju-satyam-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `B. Ramalinga Raju founded Satyam Computer Services in 1987 with about 20 employees and built it into one of India's largest IT services companies, listed on the New York Stock Exchange, employing roughly 53,000 people across 66 countries, and counting nearly 185 Fortune 500 companies as clients by the mid-2000s. For years, Satyam was held up as a symbol of India's booming technology sector — until Raju admitted, in his own words, that the company's success had been substantially fictional.
+
+In December 2008, Satyam's board approved using company funds to acquire two Raju family-owned real estate and infrastructure firms for roughly $1.6 billion, a deal shareholders saw as a thinly disguised bailout of the founder's other businesses. The backlash was immediate and severe — Satyam's stock plunged more than 50% in a single day, forcing the board to reverse the acquisition within hours. Weeks later, on January 7, 2009, Raju sent a letter confessing that he had inflated Satyam's cash and bank balances by an amount commonly cited around ₹7,136 crore, roughly $1.5 billion, through years of fabricated invoices and fictitious interest income — money that existed only on the company's books. His letter contained a line that became instantly famous in Indian business journalism: he described the fraud as "like riding a tiger, not knowing how to get off without being eaten." (Notably, Raju's lawyers later argued in court in 2010 that he hadn't actually written the letter himself, though this claim never seriously disrupted the case against him.)
+
+A special CBI court in Hyderabad convicted Raju and nine co-defendants, including his brother, in April 2015 on charges of criminal conspiracy, cheating, and forgery, sentencing him to 7 years in prison — the maximum available under the specific Indian Penal Code sections charged — plus a fine. He and the other defendants were released on bail about a month later while the case remained under appeal. India's securities regulator, SEBI, separately ordered Raju and his family to disgorge roughly ₹1,800 crore in illegal gains.
+
+Satyam's fraud, sometimes called "India's Enron," is widely credited with pushing India toward stronger corporate governance and auditing standards, in much the same way Enron's collapse reshaped American accounting oversight years earlier. Raju's own words about the fraud — a tiger he couldn't safely dismount — remain one of the more candid public confessions in the history of corporate fraud, offered not under cross-examination but voluntarily, once the pressure of sustaining the lie for over a decade had simply become unsustainable.`,
+    sourceUrl: 'https://www.npr.org/sections/thetwo-way/2015/04/09/398503322/founder-of-indian-it-giant-satyam-gets-7-years-in-fraud',
+  },
+  {
+    title: 'Takafumi Horie and the "Livedoor Shock" That Shook Tokyo\'s Stock Market',
+    slug: 'takafumi-horie-livedoor-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Takafumi Horie dropped out of the University of Tokyo to found what would become Livedoor, an internet portal company he built into one of the most talked-about companies in Japan during the mid-2000s. Horie became a genuine celebrity in Japan — brash, openly ambitious, and a symbol of a new generation of entrepreneurs unafraid of the country's traditionally conservative business establishment. He made headlines with a failed bid to buy a professional baseball team, a hostile takeover attempt of a major television network, and even an unsuccessful run for Japan's parliament, all while Livedoor's stock kept climbing.
+
+That climb was partly artificial. Because Livedoor grew largely by acquiring other companies in exchange for its own stock rather than cash, executives had a direct incentive to keep the share price inflated. Horie and other senior executives set up a network of subsidiary investment funds that conducted circular stock-swap and stock-split transactions with companies Livedoor already effectively controlled, disguising them as legitimate arm's-length deals and using them to book fictitious profits as real earnings. For the fiscal year through September 2004, prosecutors found Livedoor had reported a profit of about ¥5 billion when the company had actually posted a loss of roughly ¥300 million.
+
+The fraud unraveled on January 16, 2006, when Tokyo prosecutors raided Livedoor's headquarters and executives' homes, triggering a stock market selloff so severe — Livedoor's own shares fell roughly 80% within days — that it became known as the "Livedoor Shock." Horie was arrested a week later and formally charged that February. The Tokyo District Court convicted him in March 2007 of securities law violations and sentenced him to two and a half years in prison, a notably harsh sentence by the standards of Japanese white-collar cases, widely attributed to Horie maintaining his innocence throughout rather than expressing remorse.
+
+Horie appealed all the way to Japan's Supreme Court, which upheld the sentence in April 2011. He began serving his term that June, was paroled after about 21 months, and was released in March 2013. His case remains a landmark in Japanese securities law enforcement — proof that even a company's most visible, media-savvy champion of a new business era could be brought down by the same old mechanism: reported profits that existed only in the accounting, not in the business itself.`,
+    sourceUrl: 'https://www.japantimes.co.jp/news/2007/03/17/national/horie-handed-2-12-years/',
+  },
 ];
 
 // Practical "how it works / red flags / what to do" guides covering the
