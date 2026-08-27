@@ -1237,6 +1237,48 @@ The fraud came apart in March 2009, when the financial crisis pushed investors t
 A jury convicted Peterson in January 2015 on eight counts of fraud, forgery, false accounting, and fraudulent trading, and he was sentenced later that month to 13 years in prison — at the time, the longest sentence ever handed down in the UK for a hedge fund fraud, and a rare case of a financial-crisis-era collapse resulting in a lengthy prison term rather than merely a regulatory settlement. The UK's Financial Conduct Authority separately banned him from the financial services industry for life. Weavering's collapse remains one of the starkest examples of how a fund's reported performance is only ever as real as the counterparty on the other side of its trades — and how dangerous it becomes when that counterparty is secretly the fund manager himself.`,
     sourceUrl: 'https://www.sfo.gov.uk/2015/01/19/city-hedge-fund-manager-convicted-multi-million-pound-fraud/',
   },
+  {
+    title: 'Steven Hoffenberg and the $475 Million Towers Financial Ponzi Scheme',
+    slug: 'steven-hoffenberg-towers-financial-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Steven Hoffenberg founded Towers Financial Corporation in Manhattan in the early 1970s, building it around a legitimate-sounding business: buying distressed consumer and commercial debt — money owed to hospitals, banks, and phone companies — for pennies on the dollar, then collecting on it. As chairman, president, and CEO, and the owner of roughly 71% of its stock, Hoffenberg used that respectable-looking core business as cover for a Ponzi scheme that grew alongside it through the 1980s and into the early 1990s.
+
+Towers raised money from investors by selling bonds and promissory notes, backed by financial statements the SEC would later allege were fabricated — falsely reporting about $13 million in profit over a four-year period through mid-1991, when the company had actually lost roughly $137 million. New investor money was used to pay off earlier investors and to fund Hoffenberg's own lifestyle, including a Long Island mansion and homes in Manhattan and Florida, while the real debt-collection business never came close to generating the returns being promised. Investors are commonly cited as having lost approximately $475 million in the scheme.
+
+The SEC filed a civil securities-fraud suit against Hoffenberg, Towers, and other officers in February 1993, and the company filed for Chapter 11 bankruptcy the following month. Hoffenberg pleaded guilty in April 1995 to a set of federal charges including mail fraud, tax evasion, and obstruction of an SEC inquiry. In March 1997, U.S. District Judge Robert W. Sweet sentenced him to 20 years in prison, a $1 million fine, and restitution commonly cited at approximately $462–463 million. He served 18 years and was released in 2013.
+
+Hoffenberg's case later drew renewed attention because a young Jeffrey Epstein worked at Towers Financial from roughly 1987 until shortly before its 1993 collapse, paid a substantial monthly salary, and reportedly received a large loan from Hoffenberg — but Epstein was never charged in connection with the fraud, and the two men's later, disputed accounts of Epstein's exact role there remain just that: disputed. Towers Financial itself stands as one of the largest Ponzi schemes ever run through a business that, on paper, actually did something real — a reminder that a genuine underlying operation doesn't rule out fraud layered on top of it.`,
+    sourceUrl: 'https://www.sec.gov/files/litigation/litreleases/lr15053.txt',
+  },
+  {
+    title: 'Martin Frankel: The Insurance Reserve-Fund Fraud That Ended in a Hamburg Hotel Room',
+    slug: 'martin-frankel-insurance-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Martin Frankel presented himself as a skilled financial trader, but he had no securities license and had already been barred from the industry by Toledo regulators years earlier over improper trading. In the 1990s he found a new way in: using a shell entity called the Thunor Trust — fronted as a group of anonymous wealthy European aristocrats to hide that Frankel himself was really in control — he acquired a string of small insurance companies across six states (Tennessee, Mississippi, Oklahoma, Missouri, Alabama, and Arkansas), most of them selling modest burial and funeral policies to low-income policyholders.
+
+Rather than investing the insurers' reserve funds — money legally required to be held in trust to pay future policyholder claims — as he claimed to be doing, Frankel diverted the money through a maze of more than 30 shell companies into accounts he personally controlled, using fabricated trade confirmations to make it look, on paper, like the funds were safely invested. He also set up a fake Catholic charitable foundation, the St. Francis of Assisi Foundation, complete with a real Vatican Curia official who falsely vouched for its legitimacy, to help move and launder money. In total, he is commonly cited as having diverted approximately $200 million from the insurers he controlled.
+
+As regulators closed in during late April and early May 1999, a fire broke out at Frankel's Greenwich, Connecticut mansion — investigators concluded he had been burning incriminating documents in an apparent attempt to destroy evidence before fleeing. He left the country using false passports and was captured in a Hamburg, Germany hotel in September 1999, found carrying additional forged travel documents and smuggled diamonds. Extradited to the United States in 2001, Frankel pleaded guilty in May 2002 to 24 federal counts including racketeering and wire fraud conspiracy. In December 2004 he was sentenced to 200 months — commonly described as nearly 17 years — in prison and ordered to pay roughly $204 million in restitution; the sentence was reaffirmed on resentencing in 2006 following an unrelated Supreme Court sentencing-guidelines ruling.
+
+Investigators who searched Frankel's properties also found astrological charts he had reportedly used to help guide his trading decisions — an odd footnote to a fraud that, at its core, worked the same way most insurance-reserve schemes do: money that was supposed to be untouchable, sitting safely in trust for policyholders, quietly wasn't there anymore by the time anyone came looking.`,
+    sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-16888',
+  },
+  {
+    title: 'Gerald Payne and the "Double Your Blessings" Church Ponzi Scheme',
+    slug: 'gerald-payne-greater-ministries-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Gerald Payne founded Greater Ministries International in Tampa, Florida, in 1993, presenting it as an evangelical Christian ministry operating out of a converted bank building complete with a chapel, offices, and vaults. Rather than asking members for investments, Payne and his associates asked for "gifts" — framed, with scripture like Luke 6:38 ("Give, and it shall be given unto you"), as an act of faith rather than a financial transaction. In return, participants in what was successively rebranded the "Double Your Money Program," the "Double Your Blessings Program," and the "Faith Promises Program" were promised their gift would be doubled within 17 months.
+
+Underneath the religious framing, Greater Ministries operated as a straightforward Ponzi scheme: there were no real gold or diamond mines backing the promised returns, no legitimate offshore office, and the "Greater International Bank of Nauru" it claimed to operate was, in fact, just a storefront inside the Tampa building. New members' gifts funded "giftbacks" to earlier participants, while directors took a 5% commission and only a small fraction of the money collected ever reached any actual charitable purpose. Recruiting spread member to member through churches nationwide and overseas; the scheme is commonly cited as having raised approximately $400–500 million from roughly 18,000–20,000 victims before federal authorities shut it down in August 1999, with criminal charges already filed that March.
+
+A jury convicted Payne in March 2001 on 19 counts, including conspiracy to commit mail and wire fraud and conspiracy to commit money laundering. He was sentenced that August by U.S. District Judge James Whittemore to 27 years in prison. Several co-defendants were convicted alongside him, including his wife, Betty Payne (roughly 12–13 years), David Whitfield (19 years), Patrick Talbert (roughly 20 years), and Haywood "Don" Hall (roughly 20 years, later returned to the trial court for resentencing on a narrow sentencing-guidelines issue, with his underlying conviction affirmed); two other defendants avoided trial by pleading guilty.
+
+Greater Ministries remains one of the starkest examples of an affinity fraud — a scheme that spread specifically because it recruited through trusted religious communities, using faith itself as the reason members felt safe not asking the questions they might have asked of an ordinary investment pitch.`,
+    sourceUrl: 'https://media.ca11.uscourts.gov/opinions/pub/files/200114746.pdf',
+  },
 ];
 
 // Practical "how it works / red flags / what to do" guides covering the
