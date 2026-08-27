@@ -3258,7 +3258,7 @@ const SEED_SCAMS: SeedScam[] = [
     categorySlug: 'debt-relief-scams',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice', 'BBB Scam Tracker'],
-    sourceUrl: 'https://consumer.ftc.gov/all-scams/debt-credit-scams',
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2014/05/be-lookout-timeshare-resale-phonies',
   },
 
   // New category: Mortgage & Foreclosure Scams
