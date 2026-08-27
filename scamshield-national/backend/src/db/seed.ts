@@ -1105,6 +1105,48 @@ Cosmo was arrested on January 26, 2009, and the Commodity Futures Trading Commis
 Cosmo's case is a reminder that a prior fraud conviction doesn't always stop someone from running an even larger scheme — if anything, his first conviction taught him exactly what regulators look for, knowledge he then used to build a fraud roughly a hundred times the size of the one that had first put him in prison.`,
     sourceUrl: 'https://www.cftc.gov/LearnAndProtect/CaseStatusReports/cosmoagape',
   },
+  {
+    title: 'John Rigas and the $2.3 Billion Hidden Inside Adelphia Communications',
+    slug: 'john-rigas-adelphia-communications-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `John Rigas and his brother bought a small cable franchise in Coudersport, Pennsylvania, for $300 in 1952, and John spent the next five decades building it into Adelphia Communications, one of the largest cable television operators in the United States, serving well over five million subscribers at its peak. Rigas ran the company as a family business, with his sons Timothy, Michael, and James all in senior executive roles — a structure that let the fraud that eventually brought the whole company down stay contained within the family for years.
+
+Starting around 1999, the Rigases hid roughly $2.3 billion in company debt by shifting it onto off-balance-sheet "co-borrowing" credit facilities technically held by Rigas family entities rather than Adelphia itself, keeping the liabilities off the company's own books while lenders still counted on Adelphia's cable systems as collateral. The family used the co-borrowed funds and company money for an extensive list of personal expenses: a $12.8 million private golf course under construction near Coudersport, luxury apartments in Manhattan, Cancun, and Hilton Head, three private jets used for personal trips including an African safari, and $174 million funneled to cover the family's own margin loan calls on other investments.
+
+The scheme unraveled in March 2002, when the hidden liabilities surfaced in a footnote to an earnings release; Adelphia's stock collapsed within days from over $20 to under a dollar, and the company filed for bankruptcy that June. John and Timothy Rigas were convicted in July 2004 on conspiracy, bank fraud, and securities fraud charges, and John was sentenced in 2005 to 15 years — a term the Second Circuit later vacated on appeal, leading to a 2008 resentencing that reduced it to 12 years. The family separately forfeited more than $1.5 billion in assets, and Adelphia itself paid $715 million into a fund for victims.
+
+John Rigas was granted compassionate release in February 2016, at age 91, due to terminal cancer, and died in September 2021 at 96. His case remains one of the clearest examples of a founder-led family business where the same closeness that built the company also let its leaders hide billions in debt from the public markets for years without an outside check.`,
+    sourceUrl: 'https://www.sec.gov/news/press/2002-110.htm',
+  },
+  {
+    title: 'Phillip Bennett and the $430 Million Refco Hid Just Weeks After Its IPO',
+    slug: 'phillip-bennett-refco-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Refco was the largest retail commodities and futures brokerage in the United States when it went public on the New York Stock Exchange on August 11, 2005, a debut that valued the firm at roughly $3.5 billion. Phillip Bennett, its longtime chairman and CEO, had by then spent years quietly managing a problem investors knew nothing about: roughly $430 million in uncollectible customer trading debt, much of it dating back to the late-1990s Asian financial crisis, that never should have still been sitting on Refco's books as a healthy asset.
+
+Rather than write the bad debt off and take the hit, Bennett ran a "round-trip" concealment scheme through a private entity he controlled, Refco Group Holdings. At the end of each reporting period, a Refco subsidiary would lend money to a hedge fund, which in turn lent those same funds to Bennett's holding company so it could temporarily repay Refco, making the debt vanish from Refco's books until the loans quietly unwound again after the books closed. He repeated this cycle at the close of nearly every reporting period for years, right through Refco's IPO.
+
+The scheme came apart in October 2005, barely two months after the IPO, when Refco disclosed that its CEO controlled an entity owing the company $430 million. Bennett was placed on leave, then arrested and criminally charged within days; Refco filed for Chapter 11 bankruptcy about a week later, at the time one of the largest bankruptcies in U.S. history. Bennett pleaded guilty in February 2008 to securities fraud, wire fraud, bank fraud, and conspiracy, and was sentenced that July to 16 years in prison along with a forfeiture order covering up to $2.4 billion in fraud-tainted transactions — a far larger figure than the original $430 million, reflecting the total scope of dealings the scheme touched over the years. He was released early on compassionate grounds in May 2020, during the COVID-19 pandemic, and deported to the United Kingdom.
+
+Refco's collapse is a stark illustration of how little time can separate a triumphant Wall Street debut from a company's total unraveling: a firm freshly validated by public markets turned out to be concealing a fraud that had been quietly running for years, undetected by auditors, underwriters, and investors alike until its own CEO's private holding company gave it away.`,
+    sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-20660',
+  },
+  {
+    title: 'Russell Wasendorf Sr. and the Forged Bank Statements Behind Peregrine Financial',
+    slug: 'russell-wasendorf-peregrine-financial-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Russell Wasendorf Sr. built Peregrine Financial Group from a small brokerage he started in 1980 into one of the largest independent futures and commodities trading firms in the United States, headquartered in Cedar Falls, Iowa. For roughly two decades, while regulators and auditors believed customer funds were fully accounted for, Wasendorf was quietly draining the firm's customer-segregated bank account for his own use.
+
+He pulled off the deception with remarkably low-tech tools: a scanner, an inkjet printer, and image-editing software to forge the firm's bank statements from its actual bank, U.S. Bank, making it look as though customer funds were safely on deposit. To keep the fraud from being caught, he rented a post office box he controlled and listed it as the return address auditors and regulators would use to confirm account balances directly with the bank — intercepting the real correspondence before it could ever reach anyone who might notice the numbers didn't match. The scheme worked for years specifically because industry regulators had never insisted on verifying those balances electronically, directly with the bank itself, instead of through paperwork Wasendorf controlled.
+
+That changed in July 2012, when the National Futures Association, for the first time, required direct electronic confirmation of account balances with U.S. Bank rather than accepting intermediated statements. On July 9, 2012, with that verification underway and his fraud about to be exposed, Wasendorf attempted suicide in his car outside Peregrine's Cedar Falls headquarters, leaving behind a written confession admitting, "I have committed fraud." He survived. Investigators ultimately determined he had embezzled $215.5 million from more than 13,000 customers over roughly two decades.
+
+Wasendorf pleaded guilty in September 2012 to mail fraud, embezzlement, and lying to regulators, and was sentenced in January 2013 to 50 years in federal prison — the statutory maximum — along with an order to repay the full $215.5 million. His case became a case study in how a fraud can survive for decades not because it was especially sophisticated, but because the one verification step that would have caught it immediately was never required until it finally was.`,
+    sourceUrl: 'https://www.cftc.gov/PressRoom/PressReleases/6300-12',
+  },
 ];
 
 // Practical "how it works / red flags / what to do" guides covering the
