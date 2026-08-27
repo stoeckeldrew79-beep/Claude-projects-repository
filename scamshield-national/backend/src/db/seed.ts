@@ -7232,6 +7232,39 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Internal Revenue Service (IRS)'],
     sourceUrl: 'https://www.irs.gov/identity-theft-fraud-scams/get-an-identity-protection-pin',
   },
+  {
+    name: 'Australian Bank Impersonation SMS Spoofing Scam',
+    slug: 'australian-bank-impersonation-sms-spoofing-scam',
+    description:
+      'Scammers use SMS spoofing software to copy a real bank\'s sender ID, so fraudulent texts land in the same conversation thread as a victim\'s genuine past messages from their bank — making them appear completely legitimate at a glance. The texts claim a suspicious transaction or account compromise and push the victim to call an embedded number or urgently transfer funds to a "safe" account, which sends the money straight to the scammer. Australia\'s National Anti-Scam Centre logged 14,603 reports of this pattern in 2022 alone, with losses exceeding $20 million and an average loss of roughly $22,000, some cases reaching $500,000.',
+    categorySlug: 'account-takeover',
+    country: 'AU',
+    alertLevel: 'critical',
+    sources: ['National Anti-Scam Centre / Scamwatch (ACCC)'],
+    sourceUrl: 'https://www.accc.gov.au/media-release/bank-impersonation-scams-robbing-australians-of-their-life-savings',
+  },
+  {
+    name: 'Australian "Hi Mum/Dad" Family Impersonation Messaging Scam',
+    slug: 'australian-hi-mum-dad-family-impersonation-scam',
+    description:
+      'Scammers message victims via WhatsApp or SMS from an unknown number, posing as their child claiming to have lost or broken their phone and texting from a new one. After building rapport, they claim to be locked out of online banking and ask the "parent" to urgently pay a bill, contractor, or replacement-phone cost on their behalf. In just the first seven months of 2022, more than 1,150 Australians lost a combined $2.6 million to this pattern, with people over 55 accounting for 95% of reported losses; by 2024 the scam had evolved to incorporate AI voice cloning.',
+    categorySlug: 'family-emergency-scams',
+    country: 'AU',
+    alertLevel: 'high',
+    sources: ['National Anti-Scam Centre / Scamwatch (ACCC)'],
+    sourceUrl: 'https://www.accc.gov.au/media-release/accc-warning-of-suspicious-messages-as-hi-mum-scams-spike',
+  },
+  {
+    name: 'Australian Medicare Text and Email Phishing Scam',
+    slug: 'australian-medicare-text-email-phishing-scam',
+    description:
+      'Victims receive an SMS or email impersonating Medicare, Australia\'s public healthcare system, claiming they\'ve lost access to the service or are owed a rebate — sometimes a specific figure like $200 — with a link to "reclaim" it. Clicking leads to a fake form asking the victim to update their payment or bank details and enter a one-time PIN to "confirm" their identity, handing scammers both banking credentials and the OTP needed to access the account. Scamwatch logged 1,492 reports of Medicare-impersonation SMS scams in less than two months at the start of 2024 alone; Services Australia confirms it never asks customers to click a link in a text message to receive a payment or rebate.',
+    categorySlug: 'healthcare-fraud',
+    country: 'AU',
+    alertLevel: 'medium',
+    sources: ['Services Australia', 'National Anti-Scam Centre / Scamwatch (ACCC)'],
+    sourceUrl: 'https://www.abc.net.au/news/2024-02-28/new-medicare-scam/103514070',
+  },
 ];
 
 async function seedCategoriesAndScams() {
