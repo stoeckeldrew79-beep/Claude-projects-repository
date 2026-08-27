@@ -1,4 +1,4 @@
-import { useParams } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import { useScam } from '../hooks/useScams';
 import { useDocumentMeta } from '../hooks/useDocumentMeta';
 
@@ -54,9 +54,12 @@ export default function ScamDetail() {
         </div>
       )}
 
-      <button className="mt-8 px-4 py-2 rounded-md border border-slate-300 text-sm font-medium">
+      <Link
+        to={`/report?name=${encodeURIComponent(scam.name)}${scam.category_id ? `&category=${encodeURIComponent(scam.category_id)}` : ''}`}
+        className="mt-8 inline-block px-4 py-2 rounded-md border border-slate-300 text-sm font-medium hover:bg-slate-50"
+      >
         Report a sighting
-      </button>
+      </Link>
     </div>
   );
 }

@@ -1,5 +1,5 @@
 import { FormEvent, useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useSearchParams } from 'react-router-dom';
 import { useSubmitReport } from '../hooks/useReports';
 import { useDocumentMeta } from '../hooks/useDocumentMeta';
 import { useCategories } from '../hooks/useScams';
@@ -22,8 +22,15 @@ export default function Report() {
   const { data: categories } = useCategories();
   const submit = useSubmitReport();
 
-  const [description, setDescription] = useState('');
-  const [categoryId, setCategoryId] = useState('');
+  // Arriving from a scam detail page's "Report a sighting" link pre-fills
+  // the category and gives the description a starting line to build on,
+  // rather than making the reporter re-identify the scam from scratch.
+  const [params] = useSearchParams();
+  const prefillName = params.get('name');
+  const [description, setDescription] = useState(
+    prefillName ? `I encountered this scam: ${prefillName}\n\n` : ''
+  );
+  const [categoryId, setCategoryId] = useState(params.get('category') ?? '');
   const [scammerPhone, setScammerPhone] = useState('');
   const [scammerEmail, setScammerEmail] = useState('');
   const [scammerWebsite, setScammerWebsite] = useState('');
