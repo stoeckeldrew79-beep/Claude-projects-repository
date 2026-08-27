@@ -1718,6 +1718,34 @@ The consequences land squarely on the money mule, not just the original victims 
 
 Treat any request to receive money and then forward it elsewhere as a hard stop, regardless of how the person asking is framed — a romantic partner, a new employer, or a prize or grant administrator. A legitimate job will never require depositing checks into your personal account to relay funds to "vendors" or "clients," and a genuine romantic interest never needs your bank account to move their own money. If you're contacted about an opportunity like this, don't forward any funds, and report it to the FBI's Internet Crime Complaint Center at ic3.gov and the FTC at ReportFraud.ftc.gov.`,
   },
+  {
+    title: 'Peer-to-Peer Payment App Scams: Why Zelle, Venmo, and Cash App Money Rarely Comes Back',
+    slug: 'peer-to-peer-payment-app-scams-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'p2p-payment-apps'],
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2020/02/making-mobile-payments-protect-yourself-scams',
+    body: `Peer-to-peer payment apps like Zelle, Venmo, and Cash App were built for speed — sending money to a friend takes seconds, and that same instant, irreversible design is exactly what makes them a favorite tool for scammers. Fraudsters exploit these apps in a few consistent ways: impersonating someone the victim knows and claiming an emergency requires an immediate transfer, posing as the app company or the victim's own bank to "verify" an account, or — if they've gained access to a victim's contact list — messaging their contacts while posing as someone requesting a payment that was supposedly already agreed to.
+
+What makes these scams so damaging is baked into how the apps work: transactions are designed to move instantly between individuals, not to be reversed the way a disputed credit card charge can be. The FTC puts the core risk plainly: "Be sure you know who's on the receiving end. Otherwise, you might lose the money you sent — and then some." Once money leaves an account through one of these apps, getting it back generally depends on the recipient voluntarily sending it back or a bank agreeing to investigate — there's no built-in guarantee the way there is with other forms of electronic payment.
+
+The scale of the problem is significant enough that regulators have taken direct action: the Consumer Financial Protection Bureau has pursued the banks behind Zelle over allegations that customers lost hundreds of millions of dollars to scams on the platform over several years. Scammers have also exploited that same regulatory attention by running a scam about the scam — fake social media posts and videos falsely claiming the government is handing out payouts to people who lost money on Zelle or Cash App, a claim consumer protection groups have confirmed is not true and is itself just another way to harvest personal information.
+
+Before sending money to anyone through one of these apps, verify who you're actually paying using a phone number or contact method you already know is real — never one provided in the same message asking for money. Consider turning off access to your contacts within the app if you're uncomfortable with how it's used, read your bank and app statements regularly for anything unfamiliar, and if something goes wrong, contact both the app company and your bank right away to ask about reversing an unauthorized transaction. Report scams to the FTC at ReportFraud.ftc.gov, and treat any claim that a government agency is issuing refunds for P2P app losses as false unless it comes directly from that agency's own official website.`,
+  },
+  {
+    title: 'Fake Debt Collectors: When "Pay Now or Else" Isn\'t a Real Debt at All',
+    slug: 'fake-debt-collector-scam-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'fake-debt-collector'],
+    sourceUrl: 'https://consumer.ftc.gov/articles/fake-abusive-debt-collectors',
+    body: `A caller claims to be a debt collector and says you owe money — sometimes for a real debt you already paid off, sometimes for one that was never actually yours, and sometimes for a debt that never existed at all. The FTC has taken action against so-called "phantom debt collectors" who bought lists of consumer information with no real underlying debt attached and simply called demanding payment anyway, betting that enough people would pay out of fear rather than question whether the debt was real.
+
+These calls work by combining unfamiliarity with intimidation: the debt is often one the target genuinely doesn't recognize, paired with threats of arrest, a lawsuit, wage garnishment, or having an employer contacted, all designed to create enough panic that the person pays immediately over the phone with a credit or debit card rather than taking time to verify anything. Real debt collectors are legally required to identify themselves and provide contact information; the FTC notes that fake collectors typically "refuse to give you their mailing address or phone number" and pressure for payment on a debt "you don't recognize" — both of which are red flags on their own, regardless of what's being claimed.
+
+Federal law gives every consumer a real, enforceable right that fake collectors are counting on people not knowing about: debt validation. A legitimate collector must provide written information identifying the original creditor, the amount owed, and an explicit right to dispute the debt within 30 days — and once that dispute is sent in writing, the collector is legally required to stop all collection efforts until it provides real, written verification, like a copy of the original bill. Abusive collection tactics are illegal outright regardless of whether the debt is real: threats of violence, obscene language, and more than seven collection calls within a seven-day period are all specifically prohibited under federal debt collection law.
+
+If you're contacted about a debt, don't pay or provide financial information on the spot no matter how urgent the caller makes it sound — ask for the collector's name, company, and mailing address, and request written validation of the debt before doing anything else. If they refuse to provide that information or keep pressuring for immediate payment, that alone is a strong sign the "debt" isn't legitimate. Report fake or abusive debt collectors to your state attorney general's office, the FTC at ReportFraud.ftc.gov, and the Consumer Financial Protection Bureau.`,
+  },
 ];
 
 async function seedArticles(articles: SeedArticle[], label: string) {
