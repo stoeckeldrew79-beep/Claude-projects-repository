@@ -1590,6 +1590,34 @@ Murakami called a press conference in June 2006, admitted the trades may have be
 Murakami wound down his fund and relocated to Singapore, but the story didn't end there: he has since returned to Japanese markets through a new investment vehicle, building activist stakes in Japanese companies again in the 2020s, including a high-profile campaign at Fuji Media Holdings itself — the same broadcasting group whose subsidiary he was convicted of trading on inside information about two decades earlier.`,
     sourceUrl: 'https://www.aljazeera.com/news/2006/6/5/japans-top-fund-manager-arrested',
   },
+  {
+    title: 'Michael Steinberg: The Insider Trading Conviction a Court Ruling Erased',
+    slug: 'michael-steinberg-sac-capital-vacated-conviction',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `This site's profile of Mathew Martoma described an SAC Capital insider trading conviction that survived every appeal, all the way to the Supreme Court declining to hear it. Michael Steinberg's case, from the same era and the same hedge fund, shows the opposite outcome — a conviction that a single appellate ruling made disappear entirely.
+
+Steinberg was a portfolio manager at Sigma Capital Management, a division of Steven Cohen's SAC Capital Advisors, and the most senior SAC employee charged in the government's sprawling insider-trading investigation. Prosecutors said he traded Dell and Nvidia stock ahead of earnings announcements using information that flowed through a chain of analysts at other firms — several of whom pleaded guilty and became cooperating witnesses — down to his own research analyst, Jon Horvath. A Manhattan jury convicted Steinberg in December 2013 on securities fraud and conspiracy charges, and in May 2014 he was sentenced to 42 months in prison, a $2 million fine, and $365,000 in forfeiture.
+
+Then the ground shifted under the entire prosecution. In December 2014, the Second Circuit Court of Appeals decided United States v. Newman, a separate insider-trading case, and set a tougher legal bar: prosecutors now had to prove a tippee knew the original source had received a meaningful personal benefit for leaking the information, not just that information had passed down a chain of acquaintances. Steinberg's pending appeal raised virtually identical issues, and the same appellate court signaled he was entitled to the same result. Rather than fight it, federal prosecutors in October 2015 moved to drop the case against Steinberg and six co-defendants entirely — U.S. Attorney Preet Bharara said maintaining the prosecutions "would not be in the interests of justice" given the new standard. Steinberg was never retried, and the SEC separately dropped its own bar proceeding against him.
+
+The timing is what makes this case such a useful companion to Martoma's: the Supreme Court's 2016 Salman v. United States decision later narrowed Newman's protections again, and the Second Circuit applied that narrower reading when it affirmed Martoma's conviction in 2017 — a case decided after Salman. Steinberg's case had already been dismissed a year before Salman was even argued. Two men, prosecuted under the same legal theory by the same office in the same investigation, ended up on opposite sides of a legal doctrine that shifted twice in three years — a reminder that in white-collar law, the calendar can matter as much as the conduct.`,
+    sourceUrl: 'https://www.npr.org/sections/thetwo-way/2015/10/22/450950512/insider-trading-charges-dropped-against-former-sac-official-six-others',
+  },
+  {
+    title: 'Jho Low and the $4.5 Billion Vanished From Malaysia\'s 1MDB Fund',
+    slug: 'jho-low-1mdb-malaysia-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `Jho Low was never a government official, yet U.S. and Malaysian investigators describe him as the architect behind what the Department of Justice has called one of the largest cases of kleptocracy it has ever pursued: the embezzlement of more than $4.5 billion from 1Malaysia Development Berhad (1MDB), a Malaysian state investment fund created in 2009 with close ties to then-Prime Minister Najib Razak.
+
+The scheme worked in stages. In an early joint venture with PetroSaudi International, 1MDB agreed to invest $1 billion, but only $300 million ever reached the actual venture — the rest was diverted through a fabricated loan arrangement into a Seychelles shell company secretly controlled by Low. Years later, Goldman Sachs arranged roughly $6.5 billion in bond offerings for 1MDB, earning about $600 million in unusually high fees, with the proceeds again routed through shell companies and offshore accounts rather than the infrastructure projects they were supposedly funding.
+
+The diverted money bought a lifestyle almost cartoonish in its excess: a $250 million superyacht named Equanimity, later seized and resold; roughly $2 million in jewelry given to model Miranda Kerr, which she surrendered to the DOJ; artwork by Picasso, Monet, Van Gogh, and Basquiat (some pieces were later returned to authorities by actor Leonardo DiCaprio, who had received them as gifts); and roughly $100 million that helped finance the 2013 film "The Wolf of Wall Street," produced by Red Granite Pictures, a company co-founded by Najib's stepson.
+
+U.S. prosecutors indicted Low in November 2018 on charges of conspiring to launder billions from 1MDB and to violate anti-bribery law, alongside a former Goldman Sachs banker who was later extradited from Malaysia and convicted. Low himself has never been arrested; he remains a fugitive whose exact whereabouts are unconfirmed, though journalists have reported sightings tying him to China. In 2019 he reached a roughly $1 billion civil settlement with the DOJ over seized assets, without admitting guilt. Goldman Sachs itself pleaded guilty in 2020 and paid more than $2.9 billion globally to resolve the case. Najib Razak was convicted in an earlier related case in 2020 and, in a separate 1MDB trial concluded in December 2025, was convicted again and sentenced to a further 15 years in prison plus a fine exceeding $3 billion — while the man prosecutors say orchestrated the whole scheme has spent nearly a decade staying one step ahead of arrest.`,
+    sourceUrl: 'https://www.justice.gov/usao-edny/pr/malaysian-financier-low-taek-jho-aka-jho-low-and-former-banker-ng-chong-hwa-aka-roger',
+  },
 ];
 
 // Practical "how it works / red flags / what to do" guides covering the
