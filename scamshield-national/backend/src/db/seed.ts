@@ -1630,6 +1630,9 @@ const GUIDE_ARTICLES: SeedArticle[] = [
     slug: 'romance-scams-warning-signs',
     author: 'ScamShield Editorial',
     tags: ['guide', 'romance'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Smartphone_dating_app_illustration.jpg',
+    coverImageCredit: 'Photo: Santeri Viinamäki (CC BY-SA 4.0)',
+    coverImagePosition: 50,
     sourceUrl: 'https://consumer.ftc.gov/romance-scams',
     body: `A romance scam starts like an ordinary online connection — a dating app match, a friend request, a comment on a post — and moves fast toward intimacy. Within days or weeks, the scammer is expressing deep feelings, planning a future together, and finding reasons a video call or in-person meeting can't quite happen yet: they're on a remote oil rig, deployed overseas, or working on an international contract.
 
@@ -1644,6 +1647,8 @@ If you're in this situation: stop sending money immediately, do a reverse image 
     slug: 'tech-support-scam-fake-popups',
     author: 'ScamShield Editorial',
     tags: ['guide', 'tech-support'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Man_responds_to_telephone_call.jpg',
+    coverImagePosition: 50,
     sourceUrl: 'https://consumer.ftc.gov/articles/how-spot-avoid-and-report-tech-support-scams',
     body: `It usually starts with a browser pop-up: a loud warning sound, a message claiming your computer is infected, and a phone number to call for "Microsoft support" or "Apple security." The pop-up is fake — no legitimate operating system or antivirus vendor detects a virus and tells you to call a phone number — but it's designed to look exactly like a real system alert, sometimes locking the browser in full-screen mode to make it harder to close.
 
@@ -1658,6 +1663,8 @@ If you see one of these pop-ups: close the browser without calling the number (f
     slug: 'government-impersonation-scams',
     author: 'ScamShield Editorial',
     tags: ['guide', 'government-impersonation'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/The_Internal_Revenue_Service_Building,_located_in_the_center_of_the_Federal_Triangle_complex_in_Washington,_D.C_LCCN2013634106.jpg',
+    coverImagePosition: 50,
     sourceUrl: 'https://consumer.ftc.gov/articles/how-avoid-government-impersonation-scam',
     body: `A caller claims to be from the IRS, the Social Security Administration, or local police, and says something is seriously wrong: unpaid taxes, a suspended Social Security number, an outstanding warrant. The tone is urgent and threatening — arrest, deportation, frozen bank accounts — and the caller insists the only way to resolve it immediately is a specific, unusual form of payment: gift cards, a wire transfer, or increasingly, in-person cash pickup by a courier.
 
@@ -1672,6 +1679,8 @@ If you get one of these calls: hang up. Do not call back any number the caller p
     slug: 'business-email-compromise-bec',
     author: 'ScamShield Editorial',
     tags: ['guide', 'business-email-compromise'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Man_typing_on_laptop_(Unsplash).jpg',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.ic3.gov/CrimeInfo/BEC',
     body: `Business email compromise (BEC) targets companies rather than individuals, and consistently ranks among the costliest categories of fraud reported to the FBI's Internet Crime Complaint Center, often exceeding the losses from every consumer-facing scam combined. The mechanism is simple: a scammer gains access to, or closely spoofs, an executive's or vendor's email account, then sends a request that looks completely routine — an urgent wire transfer to close a deal, a changed bank account for an existing vendor invoice, a request for employee W-2 data.
 
@@ -1686,6 +1695,9 @@ If your business is targeted: contact your bank immediately to attempt a wire re
     slug: 'grandparent-scam-emergency-call',
     author: 'ScamShield Editorial',
     tags: ['guide', 'grandparent-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Senior_woman_engaged_in_conversation_on_an_old-fashioned_telephone.jpg',
+    coverImageCredit: 'Photo: Nenad Stojković (CC BY 2.0)',
+    coverImagePosition: 50,
     sourceUrl: 'https://consumer.ftc.gov/features/pass-it-on/impersonator-scams/grandkid-scams',
     body: `The phone rings and a young voice says "Grandma?" or "Grandpa, it's me" — often crying or sounding distressed, sometimes with static or a bad connection making the voice harder to place with certainty. Before the target can ask many questions, the caller (or someone who takes over the call claiming to be a lawyer, bail bondsman, or police officer) explains there's been an accident, an arrest, or some other emergency, and money is urgently needed — often via wire transfer, gift cards, or a cash pickup — and pleads not to tell the parents because it would mean trouble.
 
@@ -1698,6 +1710,9 @@ The defense is a simple habit: agree in advance with family members on a code wo
     slug: 'pig-butchering-crypto-investment-scam',
     author: 'ScamShield Editorial',
     tags: ['guide', 'investment-fraud'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/An_actual_Bitcoin_transaction_from_the_Kraken_cryptocurrency_exchange_to_a_hardware_LedgerWallet.jpg',
+    coverImageCredit: 'Photo: FlippyFlink (CC BY-SA 4.0)',
+    coverImagePosition: 50,
     sourceUrl: 'https://consumer.ftc.gov/articles/what-know-about-cryptocurrency-scams',
     body: `"Pig butchering" (a direct translation of a term the scam operations themselves use) describes a fraud pattern that fattens a victim up over weeks or months of relationship-building before taking everything at once. It typically begins with what looks like a wrong-number text or a friendly message on a dating app or social media, building an ordinary friendship or romance over time — often without any money request at all at first.
 
@@ -1712,6 +1727,9 @@ Red flags: an online relationship that pivots to investment advice, a platform y
     slug: 'phishing-email-text-basics',
     author: 'ScamShield Editorial',
     tags: ['guide', 'phishing'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Mailfence_inbox_screenshot.png',
+    coverImageCredit: 'Photo: M Salman Nadeem (CC BY-SA 4.0)',
+    coverImagePosition: 50,
     sourceUrl: 'https://consumer.ftc.gov/articles/how-recognize-avoid-phishing-scams',
     body: `Phishing is less a single scam than the delivery mechanism for many others: an email or text designed to look like it's from a bank, employer, delivery company, or government agency, aiming to get the recipient to click a link, enter credentials on a fake login page, or open a malicious attachment. "Smishing" (SMS phishing) and "vishing" (voice phishing) are the same technique over text and phone calls.
 
@@ -1741,6 +1759,8 @@ If you get one of these texts: don't click the link. If you want to check on an 
     slug: 'job-offer-scam-overpayment-check',
     author: 'ScamShield Editorial',
     tags: ['guide', 'employment-fraud'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Blank_check.jpg',
+    coverImagePosition: 50,
     sourceUrl: 'https://consumer.ftc.gov/articles/how-spot-avoid-and-report-fake-check-scams',
     body: `A job offer arrives — often for flexible, well-paid remote work — sometimes after only a brief chat interview, or no interview at all beyond a text exchange. The role is vague ("personal assistant," "mystery shopper," "payment processor"), the pay is generous relative to the minimal qualifications required, and the "employer" quickly sends a check, often for more than an agreed advance or equipment stipend, asking the new hire to deposit it and wire back the difference, or to use it to purchase equipment from a specific vendor.
 
@@ -1755,6 +1775,9 @@ Red flags: any job that sends money before you've done any work, any request to 
     slug: 'charity-scams-after-disasters',
     author: 'ScamShield Editorial',
     tags: ['guide', 'charity-fraud'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Charity_donation_box,_Hong_Kong_International_Airport_(2018).jpg',
+    coverImageCredit: 'Photo: Donald Trung (CC BY-SA 4.0)',
+    coverImagePosition: 50,
     sourceUrl: 'https://consumer.ftc.gov/all-scams/charity-scams',
     body: `In the days after a major hurricane, earthquake, wildfire, or other widely covered disaster, solicitations spike — texts, social media posts, and phone calls asking for donations to help victims, often using real news photos and genuine-sounding organization names that are close enough to well-known charities to avoid a second look. Some fraudulent "charities" are set up specifically in the window after a disaster and disappear once donations stop.
 
@@ -1799,6 +1822,9 @@ The safer approach: for local items, meet in person in a public place and exchan
     slug: 'gift-card-payment-scams',
     author: 'ScamShield Editorial',
     tags: ['guide', 'gift-card-scams'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Gift_card_assortment.jpg',
+    coverImageCredit: 'Photo: Tom Eppenberger Jr. (CC BY 2.0)',
+    coverImagePosition: 50,
     sourceUrl: 'https://consumer.ftc.gov/gift-card-scams',
     body: `Gift cards show up as the payment method in an enormous range of otherwise unrelated scams — a fake IRS agent demanding back taxes, a "grandchild" needing bail money, a tech support caller charging for a fake repair, a romance scammer facing a manufactured emergency. The scam story changes every time; the demand for a gift card almost never does, because gift cards work uniquely well for scammers in ways that go beyond simple convenience.
 
@@ -1813,6 +1839,9 @@ The rule that cuts through every version of this scam: no real government agency
     slug: 'student-loan-forgiveness-scams',
     author: 'ScamShield Editorial',
     tags: ['guide', 'student-loan-scams'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Virtual_Graduation_Ceremony.jpg',
+    coverImageCredit: 'Photo: Delegate Connect Images (CC BY 2.0)',
+    coverImagePosition: 50,
     sourceUrl: 'https://consumer.ftc.gov/all-scams/student-loan-education-scams',
     body: `A call, text, or ad promises fast, guaranteed forgiveness of federal student loan debt — sometimes claiming affiliation with the Department of Education or Federal Student Aid — in exchange for an upfront fee, or asks the borrower to hand over their Federal Student Aid (FSA) ID to "process" the forgiveness on their behalf. Both are hard stops: charging an upfront fee for federal student loan debt relief is illegal, and an FSA ID handed to a stranger gives them the same access to a borrower's loan account and personal financial aid information that the borrower has.
 
@@ -1860,6 +1889,9 @@ Before paying anything: insist on a live video call showing the actual puppy in 
     slug: 'timeshare-resale-exit-scams',
     author: 'ScamShield Editorial',
     tags: ['guide', 'timeshare-scams'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Marriott_Vacation_Club_Pulse_-_San_Diego.jpg',
+    coverImageCredit: 'Photo: Baron Maddock (CC BY 4.0)',
+    coverImagePosition: 50,
     sourceUrl: 'https://consumer.ftc.gov/articles/timeshares-vacation-clubs-and-related-scams',
     body: `Timeshare owners looking to sell or get out of a contract are a specifically targeted group, because the underlying problem is real: timeshares are notoriously hard to resell, and that genuine frustration is exactly what two related scams are built to exploit. A "resale" scam cold-calls an owner claiming to already have an interested, ready-to-close buyer, then asks for a few thousand dollars upfront to cover taxes, closing costs, or paperwork fees — money the owner is assured will be refunded at closing. There is no buyer. An "exit" scam instead promises to legally cancel the timeshare contract entirely, charging anywhere from a few thousand to tens of thousands of dollars upfront, often pressured through a high-pressure sales presentation at a hotel or restaurant insisting the owner "must act today."
 
