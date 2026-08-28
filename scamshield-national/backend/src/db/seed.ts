@@ -1548,6 +1548,48 @@ Watson was indicted in February 2023 on conspiracy to commit securities fraud, c
 Watson never served a day of that sentence. Hours before he was due to surrender to federal prison in March 2025, President Trump commuted it entirely, along with Ozy Media's own probation sentence and the associated restitution and forfeiture obligations. The case is a rare entry in this collection where the fraud, the trial, the conviction, and the sentence all played out exactly as the legal system is supposed to work — only for the final consequence to be erased by executive action at the last possible moment.`,
     sourceUrl: 'https://www.sec.gov/news/press-release/2023-37',
   },
+  {
+    title: 'Bernard Cornfeld: "Do You Sincerely Want to Be Rich?" and the $2 Billion Mutual Fund Empire That Collapsed',
+    slug: 'bernard-cornfeld-investors-overseas-services-collapse',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Robert Vesco is already covered elsewhere in this collection for looting roughly $224 million from Investors Overseas Services (IOS) — but Vesco only got control of IOS because it had already been built, and broken, by someone else first. Bernard Cornfeld founded IOS in Paris in 1955 and grew it into a Geneva-based mutual fund empire, deliberately structured offshore in Panama and later Canada to sit outside any single government's full jurisdiction. His recruiting pitch to the commission-only sales force he built became notorious in its own right: "Do you sincerely want to be rich?"
+
+By 1969, IOS was managing something in the range of $2.2 to $2.5 billion for several hundred thousand to nearly a million investors across more than 100 countries, sold door-to-door by a sales force that, by some accounts, numbered in the tens of thousands and was paid through a pyramid-like structure of commissions on commissions. The flagship "Fund of Funds" invested investor money in shares of other mutual funds, a structure U.S.-registered funds weren't allowed to use — legal for IOS only because of its offshore domicile. Along the way, insiders profited at the fund's expense: oilman John M. King, for instance, sold assets into the Fund of Funds at prices well above what he charged everyone else.
+
+The whole structure depended on continued growth, and when a 1970 bear market triggered a wave of investor redemptions, IOS didn't have the liquidity to meet them. Its stock collapsed from roughly $18 to $2 a share; a buying pool Cornfeld organized to prop up the price failed, and the board forced him out as chairman in May 1970. The SEC had already been circling — it settled a complaint with Cornfeld in 1967 requiring IOS to stop selling to U.S. investors, and filed further charges in 1969 over unregistered stock sales and improper commission rebates.
+
+Cornfeld's own legal outcome is where his story diverges sharply from Vesco's. Swiss prosecutors arrested him in 1973 on fraud charges brought by roughly 300 former IOS employees over a 1969 stock issue, and he spent eleven months in a Swiss jail awaiting trial before being released on $600,000 bail. When the case finally went to trial in 1979, he was acquitted. Unlike Vesco, who fled the country rather than face the SEC's civil fraud case and spent the rest of his life a fugitive, Cornfeld stood trial and walked away a free man — a reminder that the person who builds a fraud-riddled empire and the person who finishes looting it can end up facing very different consequences, even when the same collapse ties their names together forever.`,
+    sourceUrl: 'https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/cornfeld-bernard-bernie',
+  },
+  {
+    title: 'Mathew Martoma: The $276 Million Alzheimer\'s Drug Insider Trading Scheme',
+    slug: 'mathew-martoma-sac-capital-insider-trading',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Mathew Martoma was a portfolio manager at CR Intrinsic Investors, a unit of Steven A. Cohen's hedge fund SAC Capital Advisors, when he became the center of what the SEC called the largest insider trading case it had ever charged. The scheme centered on a closely watched clinical trial for bapineuzumab, an experimental Alzheimer's drug being jointly developed by Elan Corporation and Wyeth — a trial whose results, positive or negative, stood to move both companies' stock prices sharply.
+
+Martoma cultivated two doctors involved in the trial as paid consultants through a legal expert-network arrangement, but used the access for something the arrangement wasn't meant to provide: Dr. Sidney Gilman, the chairman of the trial's safety monitoring committee and the doctor chosen to present the final results publicly, gave Martoma the negative detailed results roughly two weeks before they were announced. A second investigator, Dr. Joel Ross, separately gave Martoma other non-public information about the trial. Acting on what he'd learned, Martoma had SAC Capital's affiliated funds quietly liquidate more than $700 million in long Elan and Wyeth positions and build substantial short positions in the week before the negative results became public on July 29, 2008 — trades that generated $276 million in profits and avoided losses.
+
+The SEC and federal prosecutors filed charges in November 2012, and a jury convicted Martoma in February 2014 on one count of conspiracy to commit securities fraud and two counts of securities fraud. He was sentenced that September to nine years in prison — one of the longest insider-trading sentences ever handed down at the time — and ordered to forfeit more than $9.3 million. He appealed through the full chain of federal courts: the Second Circuit affirmed his conviction in 2017, denied a rehearing in 2018, and the U.S. Supreme Court declined to hear the case in 2019, letting the conviction and sentence stand at every stage.
+
+Steven Cohen himself was never criminally charged over these trades; he settled a separate SEC civil case in 2016 by accepting a two-year ban on managing outside investors' money, while continuing to manage his own fortune. SAC Capital as a corporate entity pleaded guilty to securities fraud in 2013 and paid roughly $1.8 billion combined in penalties — one of the largest insider-trading-related corporate settlements ever, layered on top of Martoma's own individual prosecution as a reminder that a hedge fund's legal exposure and an individual trader's criminal exposure don't have to end the same way.`,
+    sourceUrl: 'https://www.sec.gov/newsroom/press-releases/2012-2012-237htm',
+  },
+  {
+    title: 'Yoshiaki Murakami: The Activist Investor Whose Own Tip From Livedoor Ended His Fund',
+    slug: 'yoshiaki-murakami-nippon-broadcasting-insider-trading',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `Takafumi Horie and the accounting fraud behind the "Livedoor Shock" are already covered elsewhere in this collection — but the same Livedoor takeover battle also brought down one of Japan's most prominent activist investors, in a legally separate case built on information Horie's own company handed him. Yoshiaki Murakami spent roughly sixteen years as a bureaucrat at Japan's Ministry of International Trade and Industry before leaving in 1999 to found what became known as the Murakami Fund, one of the country's first aggressive shareholder-activist operations in a corporate culture that had little tolerance for outside investors pushing management around.
+
+In late 2004 and January 2005, Murakami learned directly from Livedoor executives, including Horie, that the internet company intended to acquire a large stake in Nippon Broadcasting System (NBS) as part of a plan to pressure its parent, Fuji Television — information that wasn't yet public. Murakami's fund bought roughly 1.93 million NBS shares, worth about $86 million, in the weeks before Livedoor's February 2005 public purchase of NBS stock triggered the takeover fight that became a national business story in Japan.
+
+Murakami called a press conference in June 2006, admitted the trades may have been illegal, and was arrested that same day. He told reporters, "Rather than spend two years fighting about it in court, I decided the best thing would be to agree with the prosecutors." The Tokyo District Court convicted him the following year and sentenced him to two years in prison plus a fine, along with an order to forfeit roughly ¥1.15 billion in illicit gains — a record penalty for this kind of case in Japan at the time. On appeal, the Tokyo High Court upheld the conviction and the financial penalties in 2009 but suspended the prison term for three years, calling immediate imprisonment "too harsh."
+
+Murakami wound down his fund and relocated to Singapore, but the story didn't end there: he has since returned to Japanese markets through a new investment vehicle, building activist stakes in Japanese companies again in the 2020s, including a high-profile campaign at Fuji Media Holdings itself — the same broadcasting group whose subsidiary he was convicted of trading on inside information about two decades earlier.`,
+    sourceUrl: 'https://www.aljazeera.com/news/2006/6/5/japans-top-fund-manager-arrested',
+  },
 ];
 
 // Practical "how it works / red flags / what to do" guides covering the
