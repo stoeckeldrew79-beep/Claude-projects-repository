@@ -2051,6 +2051,34 @@ The warning signs line up closely with other advance-fee schemes: unsolicited co
 
 Veterans should apply for benefits directly and for free at benefits.va.gov, or through a Veteran Service Organization such as the VFW, American Legion, or DAV. Before accepting help from anyone claiming to be an accredited representative, verify them using the VA's own Accreditation Search tool rather than taking their word for it. If you or someone you know has been charged for VA claims help, report it to the FTC at ReportFraud.ftc.gov and to the VA's Office of Inspector General.`,
   },
+  {
+    title: 'Bank Impersonation Scams: The "Fraud Alert" Call That Isn\'t From Your Bank',
+    slug: 'bank-impersonation-fraud-department-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'bank-impersonation-scams'],
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2024/03/never-move-your-money-protect-it-thats-scam',
+    body: `A call or text arrives claiming to be from your bank's fraud department, warning that suspicious activity was just detected on your account. The caller ID even shows your real bank's name and number, spoofed to match. The person on the line sounds professional, already knows some of your real account details, and creates urgency: your money needs to move right now to a "safe account," or be converted to gold or cryptocurrency, to protect it from the fraud they claim is in progress.
+
+This is the scam, not the protection. The FTC states it plainly: banks will never call or text asking you to move your money to protect it, and no one from a real fraud department will ever ask for the one-time verification code your bank just texted you — that code exists specifically to stop someone else from accessing your account, and reading it to a caller hands that access straight to them. Some versions of this scam are layered: after the "bank" call, a second scammer poses as a government investigator or an FBI agent, adding official-sounding pressure to make the fake emergency feel more real.
+
+What makes these calls convincing is spoofed caller ID and, increasingly, personal details scammers already have from a prior data breach — knowing your name, partial account number, or recent transaction history doesn't mean the caller is legitimate, since none of that information is actually secret anymore in an era of routine breaches. The urgency itself is the tell: a real bank fraud team can freeze a card or flag an account without your having to wire, transfer, or convert anything in the middle of a phone call.
+
+If you get a call like this, hang up — don't use any number or callback line the caller gives you — and call your bank directly using the number printed on your card or statement, which you already know is real. Never share a one-time passcode with anyone who calls you, and never move money or convert it to crypto or gold on a caller's instruction, no matter how official they sound. If you've already sent money or shared a code, contact your bank immediately and report it to the FTC at ReportFraud.ftc.gov.`,
+  },
+  {
+    title: 'Task Scam Apps: Paid to "Like" Videos Until You\'re Asked to Pay First',
+    slug: 'task-scam-apps-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'task-scam-apps'],
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2025/08/how-spot-avoid-task-scams',
+    body: `An unsolicited text or WhatsApp message offers easy work: like some videos, rate some products, or complete simple "optimization" tasks inside an app, and get paid for each one. To build trust, the app or the person behind it actually pays out a small real amount at first — often just $5 to $20 — enough to make the opportunity feel legitimate before the real pitch arrives.
+
+Once a target is engaged, the app starts showing a running balance of "earnings" that climbs with each task completed, sometimes into the hundreds or thousands of dollars. But withdrawing that balance requires depositing your own money first, usually in cryptocurrency, framed as an "unlock fee" needed to access the next set of tasks or release your commission. The deposited money is real and gone the moment it's sent; the accumulated earnings were never real to begin with, and no further deposit ever actually unlocks a payout.
+
+The FTC has directly flagged this pattern, including a specific version scammers call "product boosting" or "app optimization" work, as a fast-growing scam category — the Better Business Bureau's Scam Tracker data shows job-scam reports have climbed sharply, with task-based schemes like this one a large and growing share of them, and typical losses running well into the thousands of dollars per victim. The scam specifically preys on the plausible-sounding idea of being paid for simple online tasks like liking a video, something people already do for free every day.
+
+The rule that cuts through every version of this scam is simple, straight from the FTC: never pay anyone to get paid, or to get a job. A legitimate task or gig platform never asks a worker to deposit their own money to unlock earnings they supposedly already made. If you're contacted out of the blue about "task-based" work through a text, WhatsApp, or Telegram message from a stranger, treat it as a scam by default, and report it to the FTC at ReportFraud.ftc.gov.`,
+  },
 ];
 
 async function seedArticles(articles: SeedArticle[], label: string) {
