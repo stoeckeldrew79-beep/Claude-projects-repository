@@ -8860,6 +8860,39 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['U.S. Food and Drug Administration'],
     sourceUrl: 'https://www.fda.gov/animal-veterinary/animal-health-literacy/pet-meds',
   },
+  {
+    name: 'Australian Payment Redirection (Business Email Compromise) Scam',
+    slug: 'australian-payment-redirection-scam',
+    description:
+      'Scammers impersonate a business the victim has genuinely dealt with — such as a conveyancer, supplier, or contractor — and send an invoice or email with changed bank account details, sometimes by hacking a real email account and altering an in-progress thread, or by spoofing a near-identical email address. The victim, expecting a legitimate payment request, transfers funds to the scammer\'s account believing they are paying the real business. Scamwatch advises the only reliable way to catch this is to independently call the business using contact details sourced outside the suspicious email, not the phone number it provides.',
+    categorySlug: 'business-email-compromise',
+    country: 'AU',
+    alertLevel: 'high',
+    sources: ['Scamwatch (ACCC)'],
+    sourceUrl: 'https://www.scamwatch.gov.au/types-of-scams/business-email-compromise-scams',
+  },
+  {
+    name: 'Australian Puppy and Pet Scam',
+    slug: 'australian-pet-scam',
+    description:
+      'Scammers post fake advertisements for puppies or other pets on classifieds, social media, and even reputable platforms, using photos of desirable breeds at suspiciously low prices. After a buyer commits to purchase, the "seller" invents reasons additional payment is needed — such as transport costs, medical expenses, or customs and quarantine fees — often claiming the pet is now interstate or overseas and can\'t be delivered until the fee is paid. Once payment is made, the pet is never delivered and the seller disappears. Scamwatch (ACCC) advises requesting a video call with the seller and pet, checking whether the ad text has been reused elsewhere online, and treating suspiciously cheap purebred listings as a red flag.',
+    categorySlug: 'online-shopping-scams',
+    country: 'AU',
+    alertLevel: 'medium',
+    sources: ['Scamwatch (ACCC)'],
+    sourceUrl: 'https://www.scamwatch.gov.au/about-us/news-and-alerts/dont-fall-for-a-scammers-puppy-dog-eyes',
+  },
+  {
+    name: 'Australian Flubot SMS Malware Scam',
+    slug: 'australian-flubot-sms-malware-scam',
+    description:
+      'A text message falsely claims a missed parcel delivery, a missed call, a voicemail, or newly uploaded photos, and urges the recipient to tap a link to track the delivery, hear the message, or view the photos. On Android devices, the link leads to a page prompting download of an app (named things like Voicemail71.apk, Update42.apk, or DHL34.apk) that is actually malware known as Flubot, which can read and send text messages, make calls, and access contacts from the infected phone. The malware uses stolen contact lists to send the same scam texts onward, and can be used to steal banking passwords and other credentials. Scamwatch and the Australian Cyber Security Centre advise never tapping links in unexpected delivery, voicemail, or missed-call texts, and deleting them immediately.',
+    categorySlug: 'phishing',
+    country: 'AU',
+    alertLevel: 'critical',
+    sources: ['Scamwatch (ACCC)', 'Australian Cyber Security Centre (ACSC)'],
+    sourceUrl: 'https://www.scamwatch.gov.au/about-us/news-and-alerts/missed-delivery-call-or-voicemail-flubot-scams',
+  },
 ];
 
 async function seedCategoriesAndScams() {
