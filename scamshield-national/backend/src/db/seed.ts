@@ -2281,6 +2281,34 @@ Some cases go further than misleading math. A 2024 Connecticut Attorney General 
 
 Red flags include any claim that a government agency is behind the offer, pressure to sign the same day, a salesperson who wants to handle the confirmation call with the lender themselves, and vague or shifting answers about the total loan amount versus the advertised price. Before signing anything, get a second, independent quote, ask to see the exact loan terms in writing (not just the advertised "after tax credit" price), and call your prospective lender directly using a number you look up yourself — never one the salesperson provides — to confirm the loan amount and terms before any contract is finalized. If you believe you were misled or your signature was forged, report it to the FTC at ReportFraud.ftc.gov, the CFPB, and your state attorney general's office.`,
   },
+  {
+    title: 'Crowdfunding Scams: Why a Touching GoFundMe Story Deserves a Second Look',
+    slug: 'crowdfunding-gofundme-scam-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'crowdfunding-scams'],
+    sourceUrl: 'https://consumer.ftc.gov/articles/donating-through-crowdfunding-and-fundraising-platforms',
+    body: `A crowdfunding campaign appears with a compelling story — a stranger's medical emergency, a family displaced by disaster, a beloved community figure in crisis — often paired with real, emotionally striking photos and a specific dollar goal. The story spreads on social media, donations pour in from people who've never met the person involved, and by the time anyone questions it, the organizer has already withdrawn the funds and disappeared.
+
+The scam works because crowdfunding platforms are built for speed and reach, not verification. Anyone can launch a campaign under nearly any name, attach photos pulled from elsewhere online, and describe a tragedy in whatever detail generates the most sympathy — the platform itself doesn't confirm any relationship between the organizer and the person supposedly being helped. The FTC recommends a simple check that catches a surprising number of fakes: run a reverse image search on the campaign's photos, since a picture that also appears attached to a different crowdfunding campaign, under a different name or story, is a clear sign of fraud.
+
+Not every version of this scam involves a stranger's fabricated tragedy. Some organizers exploit a real death or disaster without any authorization from the actual family, setting up a page and keeping the donations rather than passing them along. Others fabricate their own diagnosis or crisis, convincing even close friends and family the story is true. In every version, the giveaway is the same: a compelling story with surprisingly little that can actually be verified.
+
+Before donating, look up the organizer and the beneficiary independently rather than trusting the campaign page alone, and be skeptical of any campaign that pressures you to give immediately or won't answer specific questions about how funds will be used. The FTC's core advice is straightforward: the safest way to give through a crowdfunding campaign is to donate to campaigns organized by people you already know and trust personally, rather than a compelling story from a stranger. If you believe you've donated to a fraudulent campaign, report it to the FTC at ReportFraud.ftc.gov and to your state attorney general's office.`,
+  },
+  {
+    title: 'Counterfeit Online Pharmacy Scams: Why a Prescription-Free Website Should Worry You',
+    slug: 'counterfeit-online-pharmacy-scam-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'counterfeit-online-pharmacy-scams'],
+    sourceUrl: 'https://www.fda.gov/drugs/buying-using-medicine-safely/besaferx-your-source-online-pharmacy-information',
+    body: `A website offers prescription medication at a steep discount, ships without requiring an actual prescription, and has no pharmacist available to answer questions — a combination that feels convenient to someone facing a high copay or a medication they'd rather not discuss with a doctor, but is one of the clearest signs the site isn't a real pharmacy at all. The FDA estimates that fewer than 3 percent of online pharmacies actually comply with U.S. state and federal pharmacy laws.
+
+What arrives instead of real medication varies, and none of it is good: pills that are contaminated, expired, contain no active ingredient at all, contain the wrong dose, or in some documented cases contain toxic substances entirely unrelated to the medication being sold. Because these sites operate outside any licensed, inspected supply chain, there's no practical way for a buyer to know what they've actually received until something goes wrong — a medication that doesn't work, an unexpected side effect, or a dangerous interaction with something else the person is taking.
+
+The same lack of oversight has fueled a related and more urgent danger beyond fake pharmacy websites: counterfeit pills sold directly through social media, marketed as real prescription drugs like Xanax, Percocet, oxycodone, or Adderall with no prescription required. Federal drug enforcement testing has found many of these pills laced with fentanyl or methamphetamine at doses that can be lethal — there is no legitimate way to buy a real pharmaceutical drug through a social media contact, regardless of how convincing the seller seems.
+
+A legitimate online pharmacy always requires a valid prescription, lists a real U.S. physical address and phone number, has a licensed pharmacist available to answer questions, and is licensed with a state board of pharmacy — the FDA's BeSafeRx program provides a tool to verify a specific pharmacy's licensing status before ordering. If a site skips the prescription requirement, offers prices that seem too good to be true, or has no way to reach an actual pharmacist, treat it as fraudulent rather than convenient. Report suspected illegal online pharmacies and counterfeit medication sales to the FDA and to the FTC at ReportFraud.ftc.gov.`,
+  },
 ];
 
 async function seedArticles(articles: SeedArticle[], label: string) {
