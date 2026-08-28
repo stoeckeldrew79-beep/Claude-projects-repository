@@ -9084,6 +9084,66 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['National Consumer Affairs Center of Japan (NCAC)'],
     sourceUrl: 'https://www.kokusen.go.jp/news/data/n-20240131_1.html',
   },
+  {
+    name: 'Mississippi Banking Department Money-Laundering Investigation Impersonation',
+    slug: 'mississippi-dbcf-money-laundering-impersonation-scam',
+    description:
+      'Scammers contact Mississippi residents by phone, text, or email falsely claiming to be from the state Department of Banking and Consumer Finance (DBCF) and conducting a "money laundering" or "financial transparency" investigation, then demand a monetary payment to resolve it. The Mississippi DBCF states plainly that it "will NEVER ask you for money or threaten you with criminal violations," and directs anyone contacted this way to report it to the Mississippi Attorney General\'s office or the FTC rather than pay.',
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Mississippi Department of Banking and Consumer Finance (DBCF)'],
+    sourceUrl: 'https://dbcf.ms.gov/alerts/',
+  },
+  {
+    name: 'South Carolina Probation Agency Family Early-Release Scam',
+    slug: 'south-carolina-probation-early-release-scam',
+    description:
+      'Scammers call families of incarcerated or convicted South Carolinians, spoofing or impersonating staff of the South Carolina Department of Probation, Parole and Pardon Services (SCDPPPS), and falsely claim that a payment will secure a loved one\'s early release or keep them from being sent to prison. Victims are instructed to send money through Venmo, Zelle, PayPal, MoneyGram, Cash App, or cash gift cards. SCDPPPS states it "would never call to ask for money in exchange for early release or to prevent someone from being incarcerated," and urges anyone contacted this way to hang up and report it to the SC Department of Consumer Affairs.',
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['South Carolina Department of Probation, Parole and Pardon Services (SCDPPPS)'],
+    sourceUrl: 'https://www.dppps.sc.gov/news/scdppps-warns-scammers',
+  },
+  {
+    name: 'Kentucky Vital Records Third-Party Overcharge Website',
+    slug: 'kentucky-vital-records-third-party-overcharge-scam',
+    description:
+      'Unofficial third-party websites advertise that they can process orders or applications for Kentucky birth, death, or marriage certificates, then charge excessive markup fees on top of — or instead of — the state\'s actual certificate fee, while collecting the applicant\'s address, phone number, and credit card or bank account details. Kentucky\'s Office of Vital Statistics warns these sites are "not affiliated with the Kentucky Office of Vital Statistics and may impose unnecessary costs," and states that certified copies should be ordered only directly from its office or through VitalChek Network Inc., its sole authorized online and telephone ordering partner.',
+    categorySlug: 'government-impersonation',
+    alertLevel: 'low',
+    sources: ['Kentucky Office of Vital Statistics', 'Cabinet for Health and Family Services'],
+    sourceUrl: 'https://www.chfs.ky.gov/agencies/dph/dehp/vsb/Pages/default.aspx',
+  },
+  {
+    name: 'Paid Fake Online Reviews',
+    slug: 'paid-fake-online-reviews',
+    description:
+      'A seller pays a third-party service or individual reviewers to post glowing five-star reviews on Amazon or another retail site for a product that reviewer never actually used, inflating the product\'s star rating and deceiving shoppers who rely on it to decide what to buy. In the FTC\'s first case challenging this practice, a supplement seller paid a site to post enough fake five-star reviews to keep an unproven weight-loss product\'s rating artificially high, resulting in a $12.8 million judgment. A 2024 FTC rule now separately bans buying, selling, or disseminating fake consumer reviews outright, with civil penalties possible per violation.',
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'medium',
+    sources: ['Federal Trade Commission'],
+    sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2019/02/ftc-brings-first-case-challenging-fake-paid-reviews-independent-retail-website',
+  },
+  {
+    name: 'Negative Review Suppression',
+    slug: 'negative-review-suppression-scheme',
+    description:
+      'An online retailer uses review-management software to automatically publish four- and five-star reviews while quietly holding back or never posting lower-rated, critical reviews, so the reviews shoppers see look far more positive than customers\' actual experiences. The FTC\'s first case over concealed negative reviews found that a major online fashion retailer suppressed reviews rated below 4 stars for roughly four years while claiming its displayed reviews reflected all submitted feedback, resulting in a $4.2 million settlement. The same practice is now separately banned nationwide under the FTC\'s 2024 Consumer Review Rule, alongside threatening or suing reviewers to remove negative feedback.',
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'medium',
+    sources: ['Federal Trade Commission'],
+    sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2022/01/fashion-nova-will-pay-42-million-part-settlement-ftc-allegations-it-blocked-negative-reviews',
+  },
+  {
+    name: 'Brushing Scam',
+    slug: 'brushing-scam-unsolicited-packages',
+    description:
+      'A seller ships cheap, unordered items — things like seeds, jewelry, or toothpaste — to a real person\'s home address using that person\'s name obtained through a data breach or other means, without them ever placing an order. Because the platform records a completed delivery to a real address, the seller can then post a fake glowing review that appears to come from a "verified" buyer, boosting the product\'s rating and search ranking, while the person whose name and address were used typically never sees or authorizes the review. Receiving an unordered package is a signal that your personal information has been compromised; the FTC advises against paying for or returning unordered items, but recommends checking accounts for unauthorized activity, changing shopping-account passwords, and monitoring credit.',
+    categorySlug: 'identity-theft',
+    alertLevel: 'medium',
+    sources: ['Federal Trade Commission', 'U.S. Postal Inspection Service'],
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2026/08/unexpected-package-you-got-could-be-brushing-scam',
+  },
 ];
 
 async function seedCategoriesAndScams() {
