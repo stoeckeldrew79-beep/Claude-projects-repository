@@ -8462,6 +8462,39 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['WBUR/Associated Press', 'Federal Communications Commission'],
     sourceUrl: 'https://www.wbur.org/news/2024/08/22/biden-robocalls-new-hampshire-lingo-telecom-settlement',
   },
+  {
+    name: 'Swedish Fake Police Home-Visit Fraud',
+    slug: 'sweden-fake-police-home-visit-fraud',
+    description:
+      'A caller impersonating a police officer tells the victim — often an elderly, isolated person — that a burglary wave is underway in the area or that their bank card has been compromised, and asks them to hand over cash, jewelry, or a bank card either for "safekeeping" or "security photography." A courier then comes to the victim\'s home to collect the items, or the surrendered card is used for fraudulent withdrawals. Swedish police state that officers never telephone to request valuables and never visit homes to collect bank cards or cash; a Gothenburg court convicted three people in October 2025 of running this scheme against elderly women in Göteborg and Borås.',
+    categorySlug: 'government-impersonation',
+    country: 'SE',
+    alertLevel: 'critical',
+    sources: ['Polismyndigheten (Swedish Police)'],
+    sourceUrl: 'https://polisen.se/aktuellt/nyheter/vast/2025/oktober/sa-stoppade-polisen-falska-poliser/',
+  },
+  {
+    name: 'Swedish Rental Housing Ad Fraud',
+    slug: 'sweden-rental-housing-ad-fraud',
+    description:
+      'A fraudulent apartment listing — often a cloned copy of a genuine for-sale or for-rent ad, priced attractively for a desirable address — asks a prospective tenant to pay a deposit or months of rent in advance, sometimes backed by a fabricated rental contract, before ever viewing the unit or meeting a real landlord. Once payment is sent, the "landlord" stops responding. Swedish police note such reports spike as housing seekers search under time pressure, and advise never paying in advance before viewing a property in person and confirming the owner\'s identity.',
+    categorySlug: 'online-shopping-scams',
+    country: 'SE',
+    alertLevel: 'medium',
+    sources: ['Polismyndigheten (Swedish Police)'],
+    sourceUrl: 'https://polisen.se/utsatt-for-brott/polisanmalan/bedragerier/bedragerier/annonsbedrageri/',
+  },
+  {
+    name: 'Swedish Subscription Trap Scam',
+    slug: 'sweden-subscription-trap-scam',
+    description:
+      'An online ad offers a free trial package or free sample — commonly a dietary supplement or hygiene product — asking only for an address and payment card details to cover shipping. Terms buried in the fine print actually enroll the consumer in a recurring paid subscription, and card charges begin afterward. Konsumentverket, Sweden\'s Consumer Agency, advises that a consumer is never obligated to pay for goods they did not knowingly order, and that the company bears the burden of proving a contract was actually agreed to.',
+    categorySlug: 'online-shopping-scams',
+    country: 'SE',
+    alertLevel: 'medium',
+    sources: ['Konsumentverket'],
+    sourceUrl: 'https://www.konsumentverket.se/konsumentratt/abonnemangsfallor-gratisvaror-och-provpaket/',
+  },
 ];
 
 async function seedCategoriesAndScams() {
