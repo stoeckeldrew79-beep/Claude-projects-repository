@@ -213,6 +213,8 @@ The case remains a reference point for municipal fraud prevention for a simple r
     slug: 'enron-accounting-fraud-collapse',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Jeffrey_Skilling_mug_shot.jpg',
+    coverImagePosition: 50,
     body: `Founded from a 1985 merger, Enron grew into one of the largest energy trading companies in America, named "America's Most Innovative Company" by Fortune magazine for six consecutive years through 2000. Its stock was a Wall Street favorite, and its executives were celebrated as visionaries reinventing how energy markets worked.
 
 Behind the growth, Enron's executives — led by CEO Kenneth Lay and COO, later CEO, Jeffrey Skilling — used a web of off-the-books "special purpose entities" to hide billions of dollars in debt and inflate reported profits, with the company's own auditor, Arthur Andersen, signing off on statements that didn't reflect Enron's actual financial condition. When the scheme unraveled in October 2001, Enron's stock collapsed from over $90 to under $1 within weeks, wiping out an estimated $74 billion in shareholder value and thousands of employees' retirement savings, which had been heavily invested in company stock.
@@ -1329,6 +1331,9 @@ Belgium's Ghent Court of Appeals convicted Lernout, Hauspie, former vice-chairma
     slug: 'do-kwon-terraform-labs-luna-collapse',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Do_Kwon.png',
+    coverImageCredit: 'Photo: FAQX™ We mining it (CC BY 3.0)',
+    coverImagePosition: 50,
     body: `Do Kwon co-founded Terraform Labs in 2018 and built the Terra blockchain around two linked cryptocurrencies: TerraUSD (UST), an "algorithmic stablecoin" designed to hold a steady $1 value, and its companion token Luna, which was supposed to absorb UST's price swings through a built-in mint-and-burn arbitrage mechanism rather than any real dollar reserves sitting in a bank. Kwon marketed the system as a self-stabilizing innovation, and drove adoption further by offering roughly 20% annual yields on UST deposits through a companion protocol called Anchor — a return so far outside anything else in finance that it depended entirely on new money continuing to flow in.
 
 The SEC later alleged the stability story was substantially fabricated: that Kwon and Terraform falsely claimed a popular Korean payment app, Chai, was settling real-world transactions on the Terra blockchain when it largely wasn't, and that UST's peg wasn't held up by pure algorithmic design as advertised but was actively propped up behind the scenes through a reserve entity called the Luna Foundation Guard. When UST lost its dollar peg on May 7, 2022, the arbitrage mechanism meant to defend it instead accelerated the collapse, wiping out roughly $40 billion in combined market value within days as Luna's price fell essentially to zero — a catastrophe that rippled through the broader crypto industry and contributed to several other firms' failures that year.
@@ -1357,6 +1362,9 @@ Wright's case stands apart from most entries in this collection because the frau
     slug: 'trevor-milton-nikola-motors-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Trevor_Milton_(cropped).jpg',
+    coverImageCredit: 'Photo: Miljøstiftelsen ZERO (CC BY 2.0)',
+    coverImagePosition: 50,
     body: `Trevor Milton founded Nikola Corporation, an electric and hydrogen-fuel-cell truck startup, and took it public in June 2020 through a merger with a special-purpose acquisition company. Within weeks, Nikola's stock had briefly given it a market capitalization larger than Ford's, despite the company having no vehicles in actual production and no revenue expected until the following year — a valuation built almost entirely on Milton's own public promises about what the company's technology could do.
 
 Those promises collapsed in September 2020, when short-seller Hindenburg Research published a report calling Nikola "an intricate fraud built on dozens of lies." Its most vivid finding: a promotional video that appeared to show the "Nikola One" truck driving under its own power had actually been filmed rolling downhill after being towed to the top of a sloped stretch of road in Utah, with the camera angle tilted to disguise the grade — the truck had no working powertrain at the time. Nikola's own response to the report effectively admitted the truck hadn't yet driven under its own propulsion. Prosecutors and the SEC later documented further exaggerations Milton had spread largely through his own social media, including overstated claims about in-house battery and hydrogen production capability and inflated reservation-order figures.
