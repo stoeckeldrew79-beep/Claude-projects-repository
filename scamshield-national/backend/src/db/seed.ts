@@ -1416,6 +1416,48 @@ Tannenbaum had already relocated to Sydney, Australia in 2007, two years before 
 Tannenbaum's case is the rare entry in this collection where the honest ending isn't a conviction or a sentence, but its absence: no criminal charges, no extradition, and — as far as public reporting shows — no legal accountability at all for one of the largest Ponzi schemes in South African history, standing as a stark reminder that scale and documentation alone don't guarantee consequences when a scheme crosses jurisdictions faster than the prosecutors chasing it.`,
     sourceUrl: 'https://mg.co.za/news/south-africa/2009-06-11-sa-rocked-by-r10bn-ponzi-scheme/',
   },
+  {
+    title: 'Rajat Gupta: The McKinsey Chief Who Phoned in a Boardroom Secret',
+    slug: 'rajat-gupta-goldman-sachs-insider-trading',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Rajat Gupta spent most of his career as one of the most respected figures in global business — the former worldwide managing director of McKinsey & Company, and a board member of Goldman Sachs, Procter & Gamble, and other major corporations. That standing is exactly what made him valuable to Raj Rajaratnam, the Galleon Group hedge fund manager already covered elsewhere in this collection: as a sitting Goldman Sachs director, Gupta had access to boardroom information no outside investor was supposed to see.
+
+On September 23, 2008, at the height of the financial crisis, Goldman Sachs's board approved Warren Buffett's Berkshire Hathaway making a $5 billion emergency investment in the bank — a vote of confidence that would send Goldman's stock higher once announced. Within minutes of that board call ending, Gupta phoned Rajaratnam and passed along the still-confidential news. Rajaratnam bought Goldman shares before the public announcement, netting Galleon over $1 million in illegal profits on that tip alone. A month later, Gupta made a second call disclosing that Goldman was about to report its first quarterly loss since going public, helping Rajaratnam avoid further losses.
+
+A jury in Manhattan federal court convicted Gupta on June 15, 2012 of conspiracy to commit securities fraud and three counts of securities fraud, following a trial before U.S. District Judge Jed Rakoff. Prosecutors sought a decade behind bars; Rakoff instead sentenced Gupta to two years in prison plus a $5 million fine, citing his extensive charitable record and support letters from figures including Bill Gates and Kofi Annan. The SEC separately fined him $13.9 million in a civil case and permanently barred him from ever serving as an officer or director of a public company again.
+
+Gupta served roughly a year and a half and was released in 2016, later publishing a memoir defending his innocence and describing his time in prison, including a stretch in solitary confinement. His case became one of the defining examples of the Galleon-era insider trading crackdown — proof that the tip that ends a career doesn't have to involve a stranger or a bribe, just one phone call from someone sitting in a room he was trusted to be in.`,
+    sourceUrl: 'https://www.sec.gov/litigation/litreleases/lr-22582',
+  },
+  {
+    title: 'Alberto Vilar: The Opera Patron Whose Pledges Were Built on Stolen Client Money',
+    slug: 'alberto-vilar-amerindo-investment-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Alberto Vilar co-founded Amerindo Investment Advisors and became one of the most visible philanthropists in classical music, pledging tens of millions of dollars to the Metropolitan Opera — which briefly renamed a section of its lobby the "Vilar Grand Tier" in his honor — along with major pledges to the Kennedy Center and other arts institutions. The pledges were funded, in large part, by a tech-heavy investment portfolio that looked spectacular during the dot-com boom and collapsed along with it.
+
+In June 2002, with his own finances unraveling, Vilar solicited a longtime client to invest $5 million in something he called the "Amerindo Venture Fund LP," falsely telling her it was licensed by the U.S. Small Business Administration as a regulated small-business investment company — the SBA had approved no such license. Within days, Vilar and Amerindo co-founder Gary Tanaka moved at least $1.65 million of that money into accounts they controlled, including $1 million directly into Vilar's personal checking account, some of which he then used to make further charitable donations, including to his own alma mater.
+
+Vilar and Tanaka were arrested by the U.S. Attorney's Office for the Southern District of New York on May 26, 2005, the same day the SEC filed civil fraud charges. A jury convicted Vilar in November 2008 on twelve counts including securities fraud, investment adviser fraud, mail fraud, wire fraud, and money laundering. In February 2010, he was sentenced to nine years in prison and ordered to forfeit more than $22 million and pay a matching amount in restitution to defrauded clients.
+
+Once his fraud became public, the Metropolitan Opera quietly dropped his name from its lobby, reverting the "Vilar Grand Tier" back to a plain "Grand Tier" — a physical, visible undoing of a reputation built on money that was never really his to give away. Vilar was released in 2018 and died in 2021. His case remains a distinctive illustration of a recurring pattern: a fraud funded partly by client money that the fraudster then spent trying to look generous, right up until both the investments and the reputation collapsed together.`,
+    sourceUrl: 'https://www.sec.gov/news/press/2005-84.htm',
+  },
+  {
+    title: 'Scott Sullivan: The WorldCom CFO Who Turned Expenses Into $11 Billion of Fiction',
+    slug: 'scott-sullivan-worldcom-cfo-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `WorldCom's collapse is already covered elsewhere in this collection through CEO Bernard Ebbers, but it was Chief Financial Officer Scott Sullivan who actually engineered the accounting behind the $11 billion fraud. Starting around September 2000, Sullivan directed WorldCom's accounting staff to improperly reclassify billions of dollars in ordinary "line costs" — the fees WorldCom paid other telecom carriers to access their networks — from routine operating expenses into capital expenditures. Expenses booked as capital investments don't reduce a company's reported profit the way real expenses do; the reclassification had no legitimate accounting basis and no supporting documentation, but it let WorldCom keep reporting profits that didn't actually exist through mid-2002, even as the company's real business was deteriorating.
+
+The scheme unraveled when WorldCom's internal audit team, led by Cynthia Cooper, uncovered the capitalized line costs on its own initiative and brought the evidence to the company's board in June 2002 — one of the most consequential internal whistleblowing efforts in U.S. corporate history. WorldCom's eventual restatement wiped out roughly $11 billion in previously reported earnings, and the company filed what was then the largest bankruptcy in U.S. history weeks later.
+
+Unlike Ebbers, who went to trial and was convicted, Sullivan pleaded guilty on March 2, 2004 to conspiracy to commit securities fraud, securities fraud, and filing false statements with the SEC, and agreed to cooperate with prosecutors. He became the government's star witness against Ebbers, testifying in detail about how the fraud worked and who directed it. That cooperation, along with a judge's consideration of family hardship, earned him a far lighter sentence than his former boss: five years in prison, handed down in August 2005, compared to Ebbers's 25 years. Sullivan also forfeited nearly all of his remaining assets, including his Florida home and retirement account, to settle related civil claims.
+
+Sullivan completed his sentence in August 2009. His case is a useful companion to Ebbers's: the same $11 billion fraud, but a study in how a guilty plea, cooperation, and testimony against a former boss can produce a dramatically different outcome than fighting the charges at trial — even when the underlying conduct, directing the actual mechanics of the fraud, arguably ran deeper.`,
+    sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-18605',
+  },
 ];
 
 // Practical "how it works / red flags / what to do" guides covering the
