@@ -2197,6 +2197,20 @@ The scam works by borrowing the real fear people have of legal trouble and using
 
 If you receive a call like this, don't provide any information on the spot. Ask for the name of the court and case number, then independently look up the court's public case-search website or call the court clerk directly using a number you find yourself, not one the caller provides — a real lawsuit will show up in the public record, and a fake one won't. Report the call to the FTC at ReportFraud.ftc.gov and to your state attorney general's office.`,
   },
+  {
+    title: 'Home Solar Panel Scams: When "Free" Government Solar Comes With a Predatory Loan',
+    slug: 'home-solar-panel-scam-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'home-solar-panel-scams'],
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2024/08/how-avoid-getting-burned-solar-or-clean-energy-scams',
+    body: `A caller or door-to-door salesperson offers "free" or "no cost" solar panels, sometimes claiming a government program or your own utility company has already approved you, or that a federal tax credit will cover most of the cost. The pitch is built around urgency and a limited-time deal, with a contract ready to sign on a tablet right there on your doorstep. The FTC is direct about the first part of this pitch: the federal government does not install home solar panels for free, and no legitimate program hands out solar systems at no cost.
+
+The financial mechanics behind a "low cost" solar deal are where the real damage often happens. The Consumer Financial Protection Bureau has found that solar sales companies and their lending partners routinely add undisclosed "dealer fees" directly into a homeowner's loan balance, then advertise a lower price by subtracting a federal tax credit the homeowner hasn't actually received yet. Because that credit isn't built into the loan terms, monthly payments can jump sharply around 18 months in unless the homeowner separately pays down the loan by the projected credit amount — which may be smaller than promised, delayed, or never materialize depending on the homeowner's own tax situation.
+
+Some cases go further than misleading math. A 2024 Connecticut Attorney General lawsuit against a national solar company and its door-to-door dealers alleged sales reps forged homeowners' electronic signatures onto 25-year leases after a sale had already been declined, impersonated the homeowner on the lender's confirmation call, and installed panels without the building permits required to ever legally activate the system — leaving homeowners locked into decades-long payments for solar systems that were never turned on.
+
+Red flags include any claim that a government agency is behind the offer, pressure to sign the same day, a salesperson who wants to handle the confirmation call with the lender themselves, and vague or shifting answers about the total loan amount versus the advertised price. Before signing anything, get a second, independent quote, ask to see the exact loan terms in writing (not just the advertised "after tax credit" price), and call your prospective lender directly using a number you look up yourself — never one the salesperson provides — to confirm the loan amount and terms before any contract is finalized. If you believe you were misled or your signature was forged, report it to the FTC at ReportFraud.ftc.gov, the CFPB, and your state attorney general's office.`,
+  },
 ];
 
 async function seedArticles(articles: SeedArticle[], label: string) {
