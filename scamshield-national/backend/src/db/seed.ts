@@ -1421,6 +1421,9 @@ Tannenbaum's case is the rare entry in this collection where the honest ending i
     slug: 'rajat-gupta-goldman-sachs-insider-trading',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Rajat_Kumar_Gupta_-_World_Economic_Forum_Annual_Meeting_Davos_2010_crop.jpg',
+    coverImageCredit: 'Photo: Sebastian Derungs / World Economic Forum (CC BY-SA 2.0)',
+    coverImagePosition: 50,
     body: `Rajat Gupta spent most of his career as one of the most respected figures in global business — the former worldwide managing director of McKinsey & Company, and a board member of Goldman Sachs, Procter & Gamble, and other major corporations. That standing is exactly what made him valuable to Raj Rajaratnam, the Galleon Group hedge fund manager already covered elsewhere in this collection: as a sitting Goldman Sachs director, Gupta had access to boardroom information no outside investor was supposed to see.
 
 On September 23, 2008, at the height of the financial crisis, Goldman Sachs's board approved Warren Buffett's Berkshire Hathaway making a $5 billion emergency investment in the bank — a vote of confidence that would send Goldman's stock higher once announced. Within minutes of that board call ending, Gupta phoned Rajaratnam and passed along the still-confidential news. Rajaratnam bought Goldman shares before the public announcement, netting Galleon over $1 million in illegal profits on that tip alone. A month later, Gupta made a second call disclosing that Goldman was about to report its first quarterly loss since going public, helping Rajaratnam avoid further losses.
