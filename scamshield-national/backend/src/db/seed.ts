@@ -8995,6 +8995,39 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['U.S. Department of Justice'],
     sourceUrl: 'https://www.justice.gov/usao-ndal/pr/shelby-county-woman-sentenced-25-months-prison-fraudulently-raising-money-false-cancer',
   },
+  {
+    name: 'Japanese Loan Guarantee Fee Fraud (Yushi Hoshoukin Sagi)',
+    slug: 'japan-loan-guarantee-fee-fraud',
+    description:
+      'A postcard or SMS advertises an easy loan — unsecured, low-interest, no guarantor required — often using a real financial company\'s name or logo without authorization. When the victim calls, they are told they must first wire a "guarantee deposit" to prove they can repay before the loan will be disbursed; after that payment, the scammers invent further fees under various pretexts, and no loan is ever issued. Japan\'s National Police Agency lists this as one of the core categories of tokushu sagi (special fraud) and states plainly that any request for a guarantee deposit before a loan is disbursed is fraud.',
+    categorySlug: 'debt-relief-scams',
+    country: 'JP',
+    alertLevel: 'high',
+    sources: ['National Police Agency (Japan)'],
+    sourceUrl: 'https://www.npa.go.jp/bureau/safetylife/sos47/case/special/',
+  },
+  {
+    name: 'Japan Side-Job Escalating Fee Task Scam',
+    slug: 'japan-side-job-escalating-fee-scam',
+    description:
+      'An SNS ad promises easy income from simple tasks done in spare time. After an initial small real payout, the victim is told they must pay a fee — in one case documented by Japan\'s National Consumer Affairs Center, first around 150,000 yen, then around 700,000 yen — to unlock access to higher-paying tasks or to receive a promised refund. The bigger earnings never materialize, and the victim is left having paid escalating fees for a job that was never real.',
+    categorySlug: 'employment-scams',
+    country: 'JP',
+    alertLevel: 'high',
+    sources: ['National Consumer Affairs Center of Japan (NCAC)'],
+    sourceUrl: 'https://www.kokusen.go.jp/news/data/n-20240904_1.html',
+  },
+  {
+    name: 'Japan "Teiki Kounyu" Hidden Subscription Trap',
+    slug: 'japan-teiki-kounyu-subscription-trap',
+    description:
+      'An SNS ad advertises a steeply discounted product, such as 980 yen, that appears to be a one-time purchase. In fact, completing checkout enrolls the buyer in a recurring subscription, and after a couple of months the price roughly triples, with the recurring terms buried or unclear on the final confirmation screen. Japan\'s National Consumer Affairs Center advises consumers to carefully check the final confirmation screen before purchasing, since sellers running this scheme frequently make cancellation difficult once the subscription starts.',
+    categorySlug: 'online-shopping-scams',
+    country: 'JP',
+    alertLevel: 'medium',
+    sources: ['National Consumer Affairs Center of Japan (NCAC)'],
+    sourceUrl: 'https://www.kokusen.go.jp/news/data/n-20240131_1.html',
+  },
 ];
 
 async function seedCategoriesAndScams() {
