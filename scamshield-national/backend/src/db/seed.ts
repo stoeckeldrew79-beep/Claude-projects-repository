@@ -8810,6 +8810,56 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['CERT-In', 'National Cyber Crime Reporting Portal (NCRP)'],
     sourceUrl: 'https://cybercrime.gov.in/',
   },
+  {
+    name: 'Alaska Permanent Fund Dividend (PFD) Refund Phishing Scam',
+    slug: 'alaska-permanent-fund-dividend-refund-phishing-scam',
+    description:
+      'Scammers send Alaskans texts, emails, and calls timed to coincide with annual PFD payouts, falsely referring to the dividend as a "PFD refund" that has been "approved" and urging recipients to click a link to claim it — some messages display a fake case number to look official. Related phishing texts target myAlaska accounts, asking users to "verify" or reset their password. Alaska Department of Revenue investigators say recipients should never be asked to make a payment online or by phone to receive their dividend, and have seen a significant increase in PFD-related identity theft attempts.',
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'medium',
+    sources: ['Alaska Department of Revenue, Permanent Fund Dividend Division', "Alaska's News Source"],
+    sourceUrl: 'https://www.alaskasnewssource.com/2025/09/29/we-have-seen-significant-increase-state-officials-warns-pfd-scams-rise/',
+  },
+  {
+    name: 'Iowa Unemployment Claimant Fake Lien Letter Scam',
+    slug: 'iowa-unemployment-fake-lien-letter-scam',
+    description:
+      'Fraudsters mail Iowa unemployment claimants official-looking letters demanding payment on a supposed lien or debt owed to the state, formatted to resemble a genuine notice from Iowa Workforce Development. The phone numbers printed on the letter belong to the scammers, not the agency, and calling them leads victims to hand over banking information to settle the fake debt. Iowa Workforce Development says legitimate claimant or employer collection matters are only handled through its own verified phone lines.',
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'medium',
+    sources: ['Iowa Workforce Development'],
+    sourceUrl: 'https://workforce.iowa.gov/announcement/2025-10-03/new-fraud-scheme-targeting-unemployment-claimants-who-may-have-lien',
+  },
+  {
+    name: 'Eversource Spoofed Account Disconnection Scam',
+    slug: 'eversource-spoofed-account-disconnection-scam',
+    description:
+      "Scammers call Connecticut Eversource and United Illuminating customers via spoofed caller ID — in some cases spoofing the utility's own automated customer-care system — threatening immediate electric shutoff unless payment is made right away, typically demanding prepaid gift cards. In one documented case the callers already knew the victim's correct account numbers, making the call harder to recognize as fraudulent. Connecticut Attorney General William Tong has warned that a real utility will never demand instant payment or threaten shutoff without prior written notice, and urges anyone who gets such a call to hang up and verify directly with the utility.",
+    categorySlug: 'utility-scams',
+    alertLevel: 'high',
+    sources: ['Connecticut Office of the Attorney General', 'Connecticut Department of Consumer Protection'],
+    sourceUrl: 'https://portal.ct.gov/ag/press-releases/2020-press-releases/ag-tong-warns-ct-residents-to-be-wary-of-utility-scams',
+  },
+  {
+    name: 'Counterfeit Prescription Pills Sold via Social Media',
+    slug: 'counterfeit-pills-social-media',
+    description:
+      'Sellers on Snapchat, Instagram, TikTok, and other social platforms offer pills marketed as legitimate prescription medications such as Xanax, Percocet, oxycodone, or Adderall, sold with no prescription needed. DEA laboratory testing has found these counterfeit pills are illegally mass-produced by criminal drug networks and frequently contain fentanyl or methamphetamine at doses that can be lethal, a pattern the DEA has linked to rising overdose deaths among teens and young adults. There is no legitimate way to buy a real pharmaceutical drug through a social media contact.',
+    categorySlug: 'healthcare-fraud',
+    alertLevel: 'critical',
+    sources: ['U.S. Drug Enforcement Administration'],
+    sourceUrl: 'https://www.dea.gov/onepill/social-media',
+  },
+  {
+    name: 'Counterfeit Online Pet Pharmacy Scam',
+    slug: 'counterfeit-online-pet-pharmacy-scam',
+    description:
+      "Websites present themselves as discount pet pharmacies but dispense prescription veterinary medication without requiring a prescription from a veterinarian, aren't licensed by a U.S. state board of pharmacy, and have no licensed pharmacist available to answer questions. The FDA warns pet owners who order from these sites may receive counterfeit, expired, or improperly stored medication, putting pets at risk. The FDA recommends checking for Vet-VIPPS accreditation — a seal from the National Association of Boards of Pharmacy confirming a site meets licensing and review standards — before ordering pet medication online.",
+    categorySlug: 'healthcare-fraud',
+    alertLevel: 'medium',
+    sources: ['U.S. Food and Drug Administration'],
+    sourceUrl: 'https://www.fda.gov/animal-veterinary/animal-health-literacy/pet-meds',
+  },
 ];
 
 async function seedCategoriesAndScams() {
