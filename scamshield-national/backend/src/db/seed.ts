@@ -8153,6 +8153,56 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Action Fraud (UK)'],
     sourceUrl: 'https://www.actionfraud.police.uk/alert/friendinneed',
   },
+  {
+    name: 'Georgia Department of Labor Unemployment Identity Theft Scam',
+    slug: 'georgia-department-of-labor-unemployment-identity-theft-scam',
+    description:
+      'Criminals use personal information stolen in prior data breaches — names and Social Security numbers — to file fraudulent unemployment claims with the Georgia Department of Labor, either opening new claims in victims\' names or accessing legitimate accounts to fraudulently claim additional weeks of benefits. Victims often first learn they were targeted when they receive an IRS Form 1099-G showing unemployment income they never actually received, since the stolen benefits were paid out to the identity thief. The Georgia Attorney General has urged anyone who receives an unexpected 1099-G to report it to the Department of Labor, monitor their credit, and request an IRS Identity Protection PIN.',
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'high',
+    sources: ['Georgia Attorney General', 'Georgia Department of Labor'],
+    sourceUrl: 'https://consumer.georgia.gov/press-releases/2021-02-16/carr-warns-unemployment-benefits-scams',
+  },
+  {
+    name: 'Arizona MVD Traffic Ticket Text Scam',
+    slug: 'arizona-mvd-traffic-ticket-text-scam',
+    description:
+      'Scammers send text messages impersonating the Arizona Department of Transportation\'s Motor Vehicle Division, falsely claiming the recipient owes money for an unpaid traffic citation and threatening penalties, registration deactivation, license suspension, or collections if payment is not made immediately. The texts use ADOT-style logos and links to create urgency but contain tells such as citing a nonexistent "Arizona Department of Motor Vehicles" (Arizona\'s agency is the MVD, not a DMV) and referencing fabricated legal statutes. ADOT has confirmed it does not text residents seeking payment for traffic citations and that the links are designed to steal personal information and money.',
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Arizona Department of Transportation'],
+    sourceUrl: 'https://azdot.gov/news/dont-fall-scam-texts-using-adot-motor-vehicle-division-logo',
+  },
+  {
+    name: 'Fake CAPTCHA "ClickFix" Malware Scam',
+    slug: 'clickfix-fake-captcha-malware-scam',
+    description:
+      'A pop-up on a compromised or malicious website mimics a normal "verify you\'re human" CAPTCHA, but instead of an image or text puzzle it instructs the visitor to press Windows+R, paste a supplied code, and hit Enter — actions that silently run a malicious PowerShell command instead of completing any real verification. Once run, the command installs malware capable of stealing email, banking, and other account credentials directly from the device. Security researchers call the underlying technique "ClickFix"; CISA, the FBI, and HHS documented ransomware actors using it in a July 2025 joint advisory, and the FTC issued a direct consumer warning about the fake-CAPTCHA version in June 2026.',
+    categorySlug: 'tech-support-scams',
+    alertLevel: 'high',
+    sources: ['FTC', 'CISA', 'FBI'],
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2026/06/how-spot-captcha-scam',
+  },
+  {
+    name: 'Instacart/Shipt Shopper One-Time-Passcode Takeover',
+    slug: 'instacart-shipt-otp-account-takeover',
+    description:
+      'Scammers place a real order through Instacart or Shipt and use the app\'s in-order messaging or call feature to reach the assigned shopper, which reveals the shopper\'s phone number. They then call back posing as Instacart or Shipt support, claim a customer complained that a delivery photo didn\'t match the shopper\'s profile, and talk the shopper into reading back the one-time login passcode the platform just texted — handing over full account access. From there, scammers drain the shopper\'s earnings and use the compromised account to buy gift cards. The FBI investigated a scheme using this method against more than 7,500 Instacart and Shipt shopper accounts, totaling roughly $30 million in losses across the two platforms.',
+    categorySlug: 'account-takeover',
+    alertLevel: 'high',
+    sources: ['FBI', 'Forbes'],
+    sourceUrl: 'https://www.forbes.com/sites/thomasbrewster/2025/08/27/instacart-target-shipt-gig-workers-hacked/',
+  },
+  {
+    name: '"Scamlexity": Fake Storefronts Targeting AI Shopping Agents',
+    slug: 'scamlexity-ai-browser-agent-scam',
+    description:
+      'Rather than tricking a person directly, scammers build convincing fake storefronts and phishing pages designed to deceive the AI "agentic browser" tools that some consumers now let shop, click links, and enter payment details on their behalf. Cybersecurity firm Guardio Labs demonstrated in August 2025 that an AI browser agent (Perplexity\'s Comet) told to buy a product could be sent to a fake storefront, ignore the same red flags — a mismatched logo, a wrong URL — a human would likely catch, and complete the purchase while autofilling the user\'s real saved card details; a companion test showed the same agent walking straight into a phishing email link and entering a bank login on a fake page. A related "PromptFix" technique hid an instruction inside a fake CAPTCHA that the AI obeyed as a legitimate command, triggering a malware download without the user ever seeing the page.',
+    categorySlug: 'ai-deepfake-scams',
+    alertLevel: 'medium',
+    sources: ['Guardio Labs'],
+    sourceUrl: 'https://guard.io/labs/scamlexity-we-put-agentic-ai-browsers-to-the-test-they-clicked-they-paid-they-failed',
+  },
 ];
 
 async function seedCategoriesAndScams() {
