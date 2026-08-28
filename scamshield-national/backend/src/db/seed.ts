@@ -2124,6 +2124,34 @@ The FTC has directly flagged this pattern, including a specific version scammers
 
 The rule that cuts through every version of this scam is simple, straight from the FTC: never pay anyone to get paid, or to get a job. A legitimate task or gig platform never asks a worker to deposit their own money to unlock earnings they supposedly already made. If you're contacted out of the blue about "task-based" work through a text, WhatsApp, or Telegram message from a stranger, treat it as a scam by default, and report it to the FTC at ReportFraud.ftc.gov.`,
   },
+  {
+    title: '"Neighbor Spoofing": Why a Robocall Looks Local Even When It Isn\'t',
+    slug: 'neighbor-spoofing-robocalls-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'neighbor-spoofing'],
+    sourceUrl: 'https://consumer.ftc.gov/comment/30521',
+    body: `A call comes in from a number that looks like it belongs to someone nearby — often sharing the same area code and even the same first six digits as your own phone number — so it feels safe to answer. It isn't your neighbor, and it usually isn't even a real number at all: it's "neighbor spoofing," a caller-ID trick scammers use specifically because people are far more likely to pick up a call that looks local than one from an unfamiliar area code or a number flagged as "Spam Likely."
+
+The technology behind it is simple and cheap. Auto-dialing software lets a scam operation fake the outgoing caller ID on thousands of calls at once, rotating through number patterns that match whatever area code and prefix is being targeted that day. The FTC notes scammers "count on" the instinctive trust a local-looking number creates — the spoofed number is picked for its appearance, not because it belongs to anyone real, and calling it back usually reaches an unrelated person or a disconnected line.
+
+Neighbor spoofing is a delivery mechanism, not a scam on its own — it shows up as the opening move for government-impersonation calls, fake bank fraud alerts, extended-warranty robocalls, and virtually every other phone-based scam covered elsewhere in this guide collection, precisely because it gets more calls answered in the first place. The Truth in Caller ID Act makes spoofing illegal when done with intent to defraud or cause harm, with penalties up to $10,000 per violation, but enforcement is difficult against callers routing through overseas networks or constantly rotating numbers.
+
+Because the caller ID itself can't be trusted, the safest default is to let calls from unrecognized numbers — even ones that look local — go to voicemail, and call back only using a number you already know is real, never one texted or given to you by the caller. Register your number with the National Do Not Call Registry, use your carrier's or phone's built-in call-blocking and spam-labeling features, and report unwanted robocalls to the FTC at ReportFraud.ftc.gov, since reported numbers get shared with carriers working on call-blocking systems.`,
+  },
+  {
+    title: 'Fake Process Server Scams: "You\'re Being Sued" Over the Phone Isn\'t How Real Legal Service Works',
+    slug: 'fake-process-server-scam-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'fake-process-server-scams'],
+    sourceUrl: 'https://www.bbb.org/article/scams/28919-bbb-scam-alert-this-phishing-scam-claims-a-process-server-is-looking-for-you',
+    body: `An unsolicited call claims to be from a process server — the person legally responsible for delivering court papers — warning that a lawsuit is pending against you, often over an unpaid medical bill, a lien on your home, or a debt you don't recognize. The caller asks you to "confirm" personal details like your Social Security number or date of birth before they'll explain further, or asks when you'll be home so they can "serve" you, all designed to create the kind of panic that short-circuits careful thinking.
+
+Real process servers don't operate this way. The Better Business Bureau notes that legitimate service of legal papers happens in person, not over the phone, and a real process server has no reason to ask for a Social Security number, banking information, or other sensitive data to verify who you are — they already have your name and address from the case they're serving. Genuine legal notifications also don't come with immediate threats of arrest for noncompliance; courts operate on filed deadlines, not phone-call ultimatums.
+
+The scam works by borrowing the real fear people have of legal trouble and using it the same way a fake debt collector or fake government caller does: manufacture urgency, discourage the target from hanging up to verify, and extract information or payment before the story falls apart under scrutiny. Red flags include calls from blocked or unfamiliar numbers, anger or evasiveness when you ask basic questions about the case, and any request for personal information "to confirm" you're the right person.
+
+If you receive a call like this, don't provide any information on the spot. Ask for the name of the court and case number, then independently look up the court's public case-search website or call the court clerk directly using a number you find yourself, not one the caller provides — a real lawsuit will show up in the public record, and a fake one won't. Report the call to the FTC at ReportFraud.ftc.gov and to your state attorney general's office.`,
+  },
 ];
 
 async function seedArticles(articles: SeedArticle[], label: string) {
