@@ -1461,6 +1461,48 @@ Unlike Ebbers, who went to trial and was convicted, Sullivan pleaded guilty on M
 Sullivan completed his sentence in August 2009. His case is a useful companion to Ebbers's: the same $11 billion fraud, but a study in how a guilty plea, cooperation, and testimony against a former boss can produce a dramatically different outcome than fighting the charges at trial — even when the underlying conduct, directing the actual mechanics of the fraud, arguably ran deeper.`,
     sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-18605',
   },
+  {
+    title: 'Robert Shapiro and the $1.2 Billion Woodbridge "Hard Money Lending" Ponzi Scheme',
+    slug: 'robert-shapiro-woodbridge-group-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Robert H. Shapiro built the Woodbridge Group of Companies into a pitch that sounded almost boring in its safety: investors would buy promissory notes, and Woodbridge would use that money to make short-term "hard money" loans to commercial property owners at high interest rates — 11 to 15 percent — while paying investors a lower, guaranteed 5 to 10 percent return and keeping the spread. It was marketed as conservative, asset-backed, and low-risk, the kind of investment sold heavily to retirees looking for steady income.
+
+The loans were mostly fiction. The SEC later found that the vast majority of Woodbridge's borrowers were shell companies Shapiro himself controlled, with no real income and no history of making interest payments on the loans they'd supposedly taken out. The only way Woodbridge could keep paying investors their promised returns was the classic Ponzi mechanism: a constant stream of new investor money covering what was owed to earlier investors, dressed up with the language of real estate lending rather than obvious speculation. Between 2012 and 2017, Woodbridge raised roughly $1.2 billion from more than 8,400 investors nationwide, paying sales agents $64.5 million in commissions along the way while Shapiro personally diverted at least $21 million into jets, a country club membership, luxury cars, and jewelry.
+
+The SEC filed civil fraud charges in December 2017 and froze Woodbridge's assets; the company filed for Chapter 11 bankruptcy the same month once it could no longer make payments. Shapiro pleaded guilty in August 2019 to conspiracy to commit mail and wire fraud, along with tax evasion for failing to pay over $6 million in owed taxes years earlier. He was sentenced in October 2019 to the maximum available under the charges: 25 years in federal prison, split between 20 years for the Ponzi scheme and 5 additional years, served consecutively, for the tax evasion. In a separate final judgment, the SEC ordered roughly $1 billion in total disgorgement and penalties from Shapiro and the Woodbridge entities.
+
+A liquidation trust was later established to recover money for investors, and while noteholders eventually received partial recoveries — reported at roughly 60 to 70 percent of their net investment for noteholders and less for unit holders, well short of being made whole — thousands of retirees who trusted Woodbridge's "low risk" branding learned that a calm, technical-sounding pitch about hard money lending isn't a substitute for verifying whether the underlying loans, and the borrowers behind them, are actually real.`,
+    sourceUrl: 'https://www.sec.gov/newsroom/press-releases/2019-3',
+  },
+  {
+    title: 'Homero Joshua Garza and the Crypto Mining Contracts That Mined Nothing',
+    slug: 'joshua-garza-gaw-miners-hashlet-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Homero Joshua Garza ran GAW Miners and a related company, ZenMiner, which sold a cryptocurrency product called "Hashlets" — digital contracts that were supposed to entitle buyers to a share of the profits from real Bitcoin-mining computers the companies operated on their behalf. Marketing materials described the investment as "always profitable and never obsolete," appealing to people who wanted exposure to Bitcoin mining without buying and running the specialized, expensive hardware themselves.
+
+The mining capacity behind those promises largely didn't exist. The SEC alleged that GAW Miners and ZenMiner sold far more "hashing power" in Hashlets than the companies actually owned or operated, meaning many buyers were purchasing a share of computing capacity that was never going to generate the returns being promised. Between August and December 2014, the companies raised roughly $20 million from more than 10,000 investors — and when the mining proceeds couldn't cover what was owed, the companies fell back on paying some investors with money raised from newer ones, the same Ponzi mechanism seen in far older, non-crypto frauds.
+
+The SEC filed civil fraud charges against Garza and the companies in December 2015, one of its earliest enforcement actions to treat a cryptocurrency-linked investment product as an unregistered security. GAW Miners and ZenMiner were later hit with a default judgment requiring over $10 million in disgorgement and civil penalties, while a separate judgment ordered Garza individually to pay roughly $9.2 million in disgorgement plus interest. Garza also faced parallel criminal charges in Connecticut, pleading guilty in July 2017 to one count of wire fraud; he was sentenced in September 2018 to 21 months in prison plus three years of supervised release, along with restitution to victims.
+
+Garza's case is a reminder that a fraud doesn't need a new legal framework to be prosecuted just because it's wrapped in new technology — the SEC treated Hashlets the same way it would any other investment contract sold on false promises, and the underlying conduct, selling shares in mining capacity the company didn't have, was a version of theft as old as any Ponzi scheme, just running on cryptocurrency instead of cash.`,
+    sourceUrl: 'https://www.sec.gov/newsroom/press-releases/2015-271',
+  },
+  {
+    title: 'Renwick Haddow: The Fugitive Behind Bar Works and a CEO Who Never Existed',
+    slug: 'renwick-haddow-bar-works-bitcoin-store-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `Renwick Haddow, a UK national with a history of regulatory trouble in Britain, founded Bar Works Inc., a company that converted former bank branches and bar spaces in New York, San Francisco, and Istanbul into shared co-working offices, then sold individual desks and workstations to investors as income-producing real estate. To distance the company from his own reputation, Haddow invented a fictitious CEO named "Jonathan Black," complete with a fabricated background in finance and prior startup success — a person who, according to the SEC, simply did not exist.
+
+Offering materials falsely claimed Bar Works locations became profitable within months of opening and that the company had engaged an outside auditor, neither of which was true; the SEC also found that other named executives in the company's materials "do not appear to exist" at all. Haddow raised more than $37 million from investors this way. He ran a second, related fraud alongside it: Bitcoin Store, marketed as an easy way to buy, sell, and securely store Bitcoin, sold through cold-calling by an unregistered broker-dealer — while the company claimed several million dollars in sales, its actual bank accounts had received under $250,000. Haddow diverted at least $5 million of investor money into accounts in Mauritius and Morocco.
+
+The SEC filed civil fraud charges in June 2017, and Haddow fled the United States, evading capture until he was arrested in Morocco in July 2017. He spent roughly ten months in Moroccan custody before being extradited to the U.S. and arraigned in Manhattan federal court in April 2018. He pleaded guilty in May 2019 to four counts of wire fraud and wire fraud conspiracy tied to both Bar Works and Bitcoin Store, and his sentencing was repeatedly delayed for years while he cooperated with prosecutors — testimony that helped convict four British co-conspirators, one of whom was sentenced to more than 11 years and later died in custody.
+
+Haddow was finally sentenced in July 2026 to 54 months in prison and ordered to pay more than $58 million in restitution to more than 800 identified victims across 60 countries — of which less than $2 million had been recovered as of sentencing. U.S. District Judge Laura Taylor Swain told him directly: "You preyed on investors' simple hopes. You stole their life savings. You have caused immense harm." The nearly decade-long gap between his arrest and final sentencing is itself part of the story: cooperation can shrink a fraudster's own prison time, but it does little to speed up how long defrauded investors have to wait to see any consequences at all.`,
+    sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-23870',
+  },
 ];
 
 // Practical "how it works / red flags / what to do" guides covering the
