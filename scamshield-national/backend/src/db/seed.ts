@@ -8402,6 +8402,66 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Singapore Police Force'],
     sourceUrl: 'https://www.police.gov.sg/Media-Hub/News/2024/20241121_police_advisory_on_rental_scams_involving_the_impersonation_of_property_agents',
   },
+  {
+    name: 'Maryland Comptroller Tax Arrest Phone Scam',
+    slug: 'maryland-comptroller-tax-arrest-phone-scam',
+    description:
+      'Callers claiming to work for the Comptroller of Maryland (the state\'s tax authority, not the IRS) tell taxpayers they owe a large tax debt and face immediate police arrest unless they pay right away. Some versions cite a "certified letter" that was supposedly sent and returned undeliverable, then demand payment via prepaid debit cards, gift cards, or wire transfer. The Comptroller\'s Office states it does not initiate calls or emails demanding money or PINs, and directs anyone contacted this way to report it via 1-800-MD-TAXES.',
+    categorySlug: 'tax-scams',
+    alertLevel: 'high',
+    sources: ['Comptroller of Maryland'],
+    sourceUrl: 'https://comptroller.marylandtaxes.gov/Media_Services/2016/01/14/comptroller-franchot-warns-maryland-taxpayers-of-tax-phone-scams',
+  },
+  {
+    name: 'Ohio Medical Board Investigator Impersonation Scam',
+    slug: 'ohio-medical-board-investigator-impersonation-scam',
+    description:
+      'Scammers call Ohio-licensed physicians and other clinicians posing as State Medical Board of Ohio investigators, claiming the licensee is implicated in an out-of-state drug case and that their license will be suspended unless a fine is paid within a set window. To add pressure, callers have staged three-way calls with confederates posing as FBI or DEA agents and pushed the licensee to sign a fraudulent "cooperation agreement" while discouraging them from hanging up to verify with the Board directly. The real Board states its investigators never request fine payments or sensitive information by phone, and that genuine license actions arrive via certified mail, email, or personal service, with fines payable only through the state\'s official eLicense.ohio.gov portal.',
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['State Medical Board of Ohio'],
+    sourceUrl: 'https://med.ohio.gov/about-the-board/communications/news/beware-of-new-phone-scam-feb.2026',
+  },
+  {
+    name: 'Colorado Tax Refund Text Message Scam',
+    slug: 'colorado-tax-refund-text-message-scam',
+    description:
+      'Unsolicited text messages impersonating the Colorado Department of Revenue tell recipients they need to submit banking details to receive a state tax refund, often invoking a deadline to create urgency. The department warns it never sends unexpected texts asking for personal or banking information, and that clicking the embedded links leads to fraudulent look-alike sites built to harvest financial data. Colorado officials note similar text scams have surfaced targeting other states\' revenue departments and direct residents to report them at StopFraudColorado.gov or IC3.gov.',
+    categorySlug: 'tax-scams',
+    alertLevel: 'medium',
+    sources: ['Colorado Department of Revenue'],
+    sourceUrl: 'https://tax.colorado.gov/press-release/department-of-revenue-warns-fraudsters-targeting-colorado-taxpayers-through-text',
+  },
+  {
+    name: 'Fraudulent Voter Registration Verification Scam',
+    slug: 'voter-registration-verification-scam',
+    description:
+      'Scammers send unsolicited texts, emails, or calls claiming a recipient\'s voter registration is inactive or needs to be "verified," directing them to a fake registration page or asking for personal information over the phone. The FBI and FTC warn these are not real registration drives — they are designed to harvest Social Security numbers and other personal data for identity theft. Legitimate election officials never register voters or confirm registration status by phone, text, or email, and never ask for a Social Security number to do so.',
+    categorySlug: 'identity-theft',
+    alertLevel: 'high',
+    sources: ['FBI Internet Crime Complaint Center (IC3)', 'Federal Trade Commission'],
+    sourceUrl: 'https://www.ic3.gov/PSA/2024/PSA241029',
+  },
+  {
+    name: 'Scam PAC Political Donation Fraud',
+    slug: 'scam-pac-political-donation-fraud',
+    description:
+      'Fraudsters set up or impersonate political action committees and use unsolicited calls, texts, and emails to solicit "urgent" donations supposedly benefiting a well-known candidate or cause, often citing donation-matching offers or deadlines. The FBI warns that scam PACs keep the money for themselves and have no real affiliation with the campaign or cause named — and some are even registered with the FEC, so registration alone does not prove legitimacy. Victims should independently verify a PAC through the FEC and avoid giving payment information in response to an unsolicited call or text.',
+    categorySlug: 'charity-scams',
+    alertLevel: 'medium',
+    sources: ['FBI Internet Crime Complaint Center (IC3)', 'Federal Election Commission'],
+    sourceUrl: 'https://www.ic3.gov/PSA/2024/PSA241029',
+  },
+  {
+    name: 'AI Deepfake Robocall Voter Suppression',
+    slug: 'ai-deepfake-robocall-voter-suppression',
+    description:
+      'Before the January 2024 New Hampshire presidential primary, thousands of voters received robocalls using an AI-generated voice cloned to sound like President Biden, telling Democrats not to vote in the primary. The political consultant who commissioned the calls, Steve Kramer, was criminally indicted in New Hampshire on felony voter-suppression and misdemeanor candidate-impersonation charges, and Lingo Telecom — the carrier that transmitted the spoofed calls — agreed to pay a $1 million fine to settle FCC enforcement action in August 2024. The case shows how AI voice cloning can be used to spread false voting instructions and suppress turnout ahead of an election.',
+    categorySlug: 'ai-deepfake-scams',
+    alertLevel: 'high',
+    sources: ['WBUR/Associated Press', 'Federal Communications Commission'],
+    sourceUrl: 'https://www.wbur.org/news/2024/08/22/biden-robocalls-new-hampshire-lingo-telecom-settlement',
+  },
 ];
 
 async function seedCategoriesAndScams() {
