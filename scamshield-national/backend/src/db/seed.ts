@@ -8597,6 +8597,39 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Federal Trade Commission (FTC)', 'Better Business Bureau (BBB)'],
     sourceUrl: 'https://consumer.ftc.gov/articles/timeshares-vacation-clubs-and-related-scams',
   },
+  {
+    name: 'Dutch Rental Housing Fraud (Huurwoningfraude)',
+    slug: 'netherlands-huurwoningfraude-rental-scam',
+    description:
+      'Fraudsters advertise rental homes or vacation accommodations online and on social media, often using stolen photos of real properties, and ask prospective tenants to pay a deposit, down payment, brokerage fee, or several months\' rent before they are allowed to view or move in — sometimes also requesting a copy of an ID document. Fraudehelpdesk reports the property frequently turns out not to exist at all, and once payment is sent the "landlord" cuts off contact; the helpdesk logged 170 reports in 2023 totaling over 175,000 euros in losses.',
+    categorySlug: 'online-shopping-scams',
+    country: 'NL',
+    alertLevel: 'high',
+    sources: ['Fraudehelpdesk (Netherlands)'],
+    sourceUrl: 'https://www.fraudehelpdesk.nl/fraude/ik-heb-iets-gehuurd/',
+  },
+  {
+    name: 'Dutch Money Mule (Geldezel) Recruitment Fraud',
+    slug: 'netherlands-geldezel-money-mule-fraud',
+    description:
+      'Criminals approach people — often young people — in the street, at school, or increasingly via social media platforms, offering easy money in exchange for handing over their bank card and PIN code or letting funds pass through their account. Money stolen from other fraud victims is deposited into the recruit\'s account and quickly withdrawn or transferred onward, laundering it for the criminals while the recruit ("geldezel") becomes traceable and criminally liable for money laundering, even when they were misled or coerced. Politie warns this can block a person from getting a mortgage later and lead to debt or prosecution.',
+    categorySlug: 'employment-scams',
+    country: 'NL',
+    alertLevel: 'high',
+    sources: ['Politie (Dutch National Police)'],
+    sourceUrl: 'https://www.politie.nl/informatie/wat-is-een-money-mule.html',
+  },
+  {
+    name: 'Dutch Email Sextortion (Webcam Blackmail) Scam',
+    slug: 'netherlands-email-sextortion-webcam-scam',
+    description:
+      'An email or text claims the sender hacked the recipient\'s computer and webcam and recorded compromising footage while the recipient supposedly visited an adult website, threatening to send the footage to all their contacts unless a payment in bitcoin is made. To appear credible, the message often includes a real password or username stolen in an old data breach from a service like Yahoo, Dropbox, or LinkedIn — not from actually hacking the recipient\'s device. Fraudehelpdesk states the claim is pure bluff and advises victims not to pay, and to change any password referenced in the message.',
+    categorySlug: 'sextortion',
+    country: 'NL',
+    alertLevel: 'medium',
+    sources: ['Fraudehelpdesk (Netherlands)'],
+    sourceUrl: 'https://www.fraudehelpdesk.nl/fraude/ik-word-per-mail-gechanteerd/',
+  },
 ];
 
 async function seedCategoriesAndScams() {
