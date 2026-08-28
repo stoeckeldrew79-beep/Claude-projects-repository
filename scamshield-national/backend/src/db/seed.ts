@@ -1726,6 +1726,9 @@ The reliable habits: never click a link in an unexpected message claiming to be 
     slug: 'package-delivery-scam-texts',
     author: 'ScamShield Editorial',
     tags: ['guide', 'phishing'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Typical_UPS_delivery_truck.JPG',
+    coverImageCredit: 'Photo: An Errant Knight (CC BY-SA 4.0)',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.uspis.gov/news/scam-article/smishing-package-tracking-text-scams',
     body: `A text arrives claiming to be from USPS, FedEx, UPS, or a similar carrier: a package couldn't be delivered, or a small customs/redelivery fee is due, with a link to resolve it. The timing is what makes it effective — sent broadly enough that a meaningful share of recipients actually are expecting a delivery, at which point the message feels routine rather than suspicious.
 
@@ -1824,6 +1827,9 @@ The one channel that actually manages federal student loans is StudentAid.gov, d
     slug: 'crypto-atm-kiosk-scams',
     author: 'ScamShield Editorial',
     tags: ['guide', 'crypto-atm-scams'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/BitcoinATM.JPG',
+    coverImageCredit: 'Photo: KennethHan (CC BY-SA 4.0)',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.ic3.gov/PSA/2026/PSA260515-2',
     body: `A scammer posing as a government official, bank fraud investigator, tech support agent, or romantic partner convinces a victim their money is at risk and that the only way to protect it — or, in a romance or investment version, to grow it — is to withdraw cash and deposit it into a cryptocurrency ATM. The victim is walked through the process step by step: which kiosk to use, how much cash to insert, and finally, a QR code to scan that sends the converted cryptocurrency directly to the scammer's wallet, where it's gone permanently the moment the transaction confirms.
 
@@ -1838,6 +1844,8 @@ The reliable rule: no legitimate government agency, bank, or law enforcement off
     slug: 'puppy-pet-sale-scams',
     author: 'ScamShield Editorial',
     tags: ['guide', 'pet-scams'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Cute_street_puppy.jpg',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.bbb.org/all/petscams',
     body: `An online ad shows an adorable purebred puppy at a price well below what a breeder would normally charge, with the "seller" explaining they can't meet in person — they're relocating, deployed, or the puppy is with a shipper — and asking for payment upfront to secure it. The photos look real because they usually are: stolen from a legitimate breeder's website or social media and reused across dozens of fake listings. The Better Business Bureau estimates that as much as 80% of sponsored pet advertisements online may be fraudulent.
 
@@ -1880,6 +1888,9 @@ Before entering payment details for any "free" trial: read the actual terms for 
     slug: 'qr-code-quishing-scams',
     author: 'ScamShield Editorial',
     tags: ['guide', 'qr-code-scams'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Smart_Parking_Spaces_with_Automatic_Parking_Barriers_in_Suzhou.jpg',
+    coverImageCredit: 'Photo: Henry S Zhang (CC BY 4.0)',
+    coverImagePosition: 50,
     sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2023/12/scammers-hide-harmful-links-qr-codes-steal-your-information',
     body: `A QR code sitting on a parking meter, a restaurant table, or a public charging station looks exactly like any other — until it's a sticker a scammer placed directly over the real one. Scanning it doesn't lead to the parking app or the menu; it leads to a spoofed payment or login page built to steal card numbers and passwords, or it silently triggers a malware download. The same trick shows up digitally, too: a QR code arrives by text or email, often attached to an urgent message about an "undelivered package," a "problem with your account," or "suspicious activity" that needs to be resolved immediately.
 
@@ -1894,6 +1905,9 @@ Before scanning any QR code, check whether it looks like a sticker placed over a
     slug: 'sim-swap-fraud-two-factor-bypass',
     author: 'ScamShield Editorial',
     tags: ['guide', 'sim-swap-scams'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Micro_SIM_and_Nano_SIM_card_and_trays.jpg',
+    coverImageCredit: 'Photo: Tony Webster (CC BY-SA 3.0)',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.ic3.gov/PSA/2022/PSA220208',
     body: `A SIM swap starts with a criminal getting a mobile carrier to move a victim's phone number onto a SIM card the criminal controls — sometimes by impersonating the victim to a carrier's customer service line using personal details gathered elsewhere, sometimes by bribing or co-opting an employee with direct access to make the change, and sometimes through phishing or malware that captures carrier account credentials outright. Once the swap goes through, every call and text meant for the victim's number — including the victim's own service — instead reaches the criminal's device.
 
@@ -1908,6 +1922,9 @@ The clearest warning sign is a sudden, unexplained loss of cell service — call
     slug: 'fake-rental-listing-scams-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'rental-scams'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/1245_Dwight_Street,_Springfield_MA.jpg',
+    coverImageCredit: 'Photo: John Phelan (CC BY-SA 3.0)',
+    coverImagePosition: 50,
     sourceUrl: 'https://consumer.ftc.gov/articles/rental-listing-scams',
     body: `Fake rental listings work one of two ways: a scammer either hijacks a real, currently listed property — copying its photos and description and swapping in their own contact information, often reposting it on a different site than the original — or invents an entirely fictional listing for a property that isn't actually for rent at all, dangling an unrealistically low price or upscale amenities to draw interest. Either way, the goal is the same: collect a deposit, application fee, or first month's rent, sometimes along with a Social Security number or driver's license copy for a fake "background check," before the renter ever realizes there's no real apartment behind the ad.
 
@@ -2062,6 +2079,8 @@ If you get a call like this, hang up and contact your utility directly using the
     slug: 'card-skimming-atm-gas-pump-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'card-skimming'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/NS_skimapparaat.jpg',
+    coverImagePosition: 50,
     sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2018/08/watch-out-card-skimming-gas-pump',
     body: `A skimmer is a small illegal card reader that criminals secretly attach inside or over a legitimate card slot at a gas pump, ATM, or point-of-sale terminal, capturing your card's magnetic stripe data the moment you swipe or insert it. A hidden pinhole camera or a fake keypad overlay often captures your PIN at the same time, giving thieves everything needed to clone your card or drain an account without ever touching your physical wallet.
 
@@ -2272,6 +2291,9 @@ If you receive a call like this, don't provide any information on the spot. Ask 
     slug: 'home-solar-panel-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'home-solar-panel-scams'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Solar_panel_roof_6th_St.jpg',
+    coverImageCredit: 'Photo: Downtowngal (CC BY-SA 4.0)',
+    coverImagePosition: 50,
     sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2024/08/how-avoid-getting-burned-solar-or-clean-energy-scams',
     body: `A caller or door-to-door salesperson offers "free" or "no cost" solar panels, sometimes claiming a government program or your own utility company has already approved you, or that a federal tax credit will cover most of the cost. The pitch is built around urgency and a limited-time deal, with a contract ready to sign on a tablet right there on your doorstep. The FTC is direct about the first part of this pitch: the federal government does not install home solar panels for free, and no legitimate program hands out solar systems at no cost.
 
