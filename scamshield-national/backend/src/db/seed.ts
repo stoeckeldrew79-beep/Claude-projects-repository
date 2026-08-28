@@ -8236,6 +8236,66 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Royal Canadian Mounted Police (RCMP)'],
     sourceUrl: 'https://rcmp.ca/en/bc/safety-tips/frauds-and-scams/bitcoin-and-gift-card-scams',
   },
+  {
+    name: 'FPL Utility Disconnection Impersonation Scam',
+    slug: 'florida-power-light-disconnection-impersonation-scam',
+    description:
+      'Scammers impersonate Florida Power & Light through spoofed caller ID, unsolicited texts, door-to-door visits by people posing as FPL employees, and lookalike misspelled websites, using an aggressive tone to threaten immediate service disconnection unless the customer pays right away. They direct payment to prepaid debit cards, gift cards, cryptocurrency, or peer-to-peer apps like Zelle, Cash App, or Venmo — methods FPL says it never uses to collect a bill or prevent a shutoff.',
+    categorySlug: 'utility-scams',
+    alertLevel: 'high',
+    sources: ['Florida Power & Light (FPL)'],
+    sourceUrl: 'https://www.fpl.com/landing/protect.html',
+  },
+  {
+    name: 'Vermont Treasurer Unclaimed Property Scam',
+    slug: 'vermont-treasurer-unclaimed-property-scam',
+    description:
+      'Scammers call or text Vermonters claiming to represent a government unclaimed-property office, citing a specific dollar figure supposedly owed to the recipient to make the pitch feel credible, then create urgency and ask for a payment and personal information to "release" the funds. Vermont State Treasurer Mike Pieciak has stated his office never calls or texts residents about unclaimed property, or asks for payment to return it, and recommends checking the free national database MissingMoney.com to verify any real claim before responding.',
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Vermont Office of the State Treasurer'],
+    sourceUrl: 'https://www.vermonttreasurer.gov/press-releases/treasurer-pieciak-warns-unclaimed-property-scam-targeting-vermonters',
+  },
+  {
+    name: 'Wisconsin DATCP License-Verification Phishing Email',
+    slug: 'wisconsin-datcp-license-verification-phishing-email',
+    description:
+      'Wisconsin license holders receive emails spoofed to look like they come from the Department of Agriculture, Trade and Consumer Protection, carrying DATCP\'s real logo and a subject line resembling "Information Verification," and pre-populated with the recipient\'s accurate license details to appear legitimate. The email falsely warns that the license will expire or be revoked unless the recipient clicks a link and "updates" their information, a credential-harvesting tactic rather than a real DATCP communication.',
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Wisconsin Department of Agriculture, Trade and Consumer Protection (DATCP)'],
+    sourceUrl: 'https://datcp.wi.gov/Pages/News_Media/20241220ScammersImpersonateDATCPTargetLicenseHolders.aspx',
+  },
+  {
+    name: 'College Tuition Billing Impersonation Scam',
+    slug: 'college-tuition-billing-impersonation-scam',
+    description:
+      'A caller or text impersonating a school\'s bursar or financial aid office tells a student or parent that financial aid "fell through" and the full tuition balance must be paid immediately, or falsely claims transcripts are on hold, to start classes. The scammer spoofs caller ID — sometimes even the first six digits to mimic an on-campus number — and demands payment only through untraceable methods like cryptocurrency, wire transfer services, payment apps, or gift cards. The FTC notes that legitimate schools post bills through secure student portals and never call to scare someone into paying over the phone.',
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Federal Trade Commission (FTC)'],
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2024/08/got-call-about-unpaid-college-tuition-it-could-be-scam',
+  },
+  {
+    name: 'FEMA Disaster Assistance Identity Theft',
+    slug: 'fema-disaster-assistance-identity-theft',
+    description:
+      'After a hurricane, flood, or other declared disaster, fraudsters use victims\' stolen names, addresses, and Social Security numbers to file fraudulent FEMA disaster-assistance applications in their name, diverting the aid payment to themselves. Victims often first learn they\'ve been targeted when a FEMA housing inspector contacts them, or a FEMA letter arrives, for an application they never submitted — and the fraudulent filing can complicate or delay the real survivor\'s own legitimate claim. FEMA advises anyone who receives such unexpected contact to call the FEMA Helpline at 800-621-3362 to have the fraudulent application flagged and stopped, and to report the identity theft to the Disaster Fraud Hotline.',
+    categorySlug: 'identity-theft',
+    alertLevel: 'high',
+    sources: ['FEMA'],
+    sourceUrl: 'https://www.fema.gov/press-release/20260403/protect-your-identity-be-alert-fraud-and-scams-after-disaster',
+  },
+  {
+    name: 'Rogue Public Adjuster Settlement Check Theft',
+    slug: 'rogue-public-adjuster-settlement-check-theft',
+    description:
+      'A licensed or purported public insurance adjuster hired to negotiate a homeowner\'s hurricane damage claim forges the homeowner\'s name, conceals that a settlement check was ever issued by the insurer, and refuses to pay the client once contacted about it — keeping funds meant for storm repairs. Florida\'s Chief Financial Officer announced the arrest of one such adjuster in 2026 accused of misappropriating over $703,000 from 13 Hurricane Ian homeowners this way. This differs from storm-chaser roofing or contractor fraud in that the perpetrator is the claims professional entrusted with the payout itself, not a contractor pressuring for upfront repair payment.',
+    categorySlug: 'insurance-fraud',
+    alertLevel: 'high',
+    sources: ['Florida Chief Financial Officer / Department of Financial Services'],
+    sourceUrl: 'https://myfloridacfo.com/news/pressreleases/press-release-details/2026/04/22/chief-financial-officer-blaise-ingoglia-announces-arrest-of-public-adjuster-after--703-000-theft-in-hurricane-ian-claims-funds',
+  },
 ];
 
 async function seedCategoriesAndScams() {
