@@ -1503,6 +1503,48 @@ The SEC filed civil fraud charges in June 2017, and Haddow fled the United State
 Haddow was finally sentenced in July 2026 to 54 months in prison and ordered to pay more than $58 million in restitution to more than 800 identified victims across 60 countries — of which less than $2 million had been recovered as of sentencing. U.S. District Judge Laura Taylor Swain told him directly: "You preyed on investors' simple hopes. You stole their life savings. You have caused immense harm." The nearly decade-long gap between his arrest and final sentencing is itself part of the story: cooperation can shrink a fraudster's own prison time, but it does little to speed up how long defrauded investors have to wait to see any consequences at all.`,
     sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-23870',
   },
+  {
+    title: 'Sunny Balwani: The Theranos President Who Got a Longer Sentence Than Elizabeth Holmes',
+    slug: 'sunny-balwani-theranos-coo-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Theranos and its founder Elizabeth Holmes are already covered elsewhere in this collection, but Ramesh "Sunny" Balwani — the company's President and COO from 2009 to 2016 — was tried separately from Holmes and, in some ways, was found to bear even more direct responsibility for the fraud. Balwani ran Theranos's day-to-day lab operations and the retail rollout inside Walgreens stores, and personally delivered the financial projections that convinced investors to pour money into the company: that Theranos would generate more than $100 million in revenue and break even by 2014, and approach $1 billion in revenue by 2015. None of it was true, and prosecutors argued Balwani knew it.
+
+Balwani and Holmes were also, for over a decade, in a long-term romantic relationship they deliberately concealed from the company's board and investors — a relationship dynamic that later became part of Holmes's own defense, when she testified that Balwani had been controlling and abusive during their years together, allegations Balwani's attorneys denied and that were never independently adjudicated in court.
+
+A jury convicted Balwani in July 2022 on all 12 felony counts he faced: ten counts of wire fraud and two counts of conspiracy to commit wire fraud, covering fraud against both investors and patients — a broader set of charges than Holmes faced, since she was not charged over patient-facing fraud. In December 2022, U.S. District Judge Edward Davila sentenced him to 155 months, nearly 13 years, longer than Holmes's roughly 11-year sentence for the same underlying scheme. Judge Davila said the financial statements Balwani prepared "weren't just projections, they were lies."
+
+Balwani and Holmes were later held jointly and severally liable for more than $452 million in restitution — meaning either could be pursued for the full amount — a judgment the Ninth Circuit Court of Appeals affirmed in February 2025. His case is a reminder that a fraud built on a charismatic public face still runs on someone doing the operational work behind the scenes, and that the person least visible to the public isn't necessarily the one a court holds least responsible.`,
+    sourceUrl: 'https://www.npr.org/2022/12/07/1141278121/theranos-sunny-balwani-sentencing-elizabeth-holmes',
+  },
+  {
+    title: 'Charlie Javice: The Startup Founder Who Paid a Professor to Fake 4 Million Users',
+    slug: 'charlie-javice-frank-jpmorgan-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `Charlie Javice founded Frank, a startup that marketed itself as simplifying the notoriously complicated FAFSA federal student aid application. In 2021, JPMorgan Chase acquired Frank for roughly $175 million, believing the company had built a user base of 4.25 million students. The real number was closer to 300,000.
+
+Prosecutors said that when Frank's own director of engineering refused to help manufacture fake user numbers to close the deal, Javice and the company's chief growth officer, Olivier Amar, turned elsewhere: they paid an outside data science professor $18,000 to generate a synthetic dataset of roughly 4.3 million fake names paired with realistic-looking emails, birthdates, and other personal details, invoiced as generic "data analysis" to obscure what it actually was. That fabricated dataset was passed to a third-party vendor and ultimately used to satisfy JPMorgan's due diligence before the acquisition closed. Javice personally received roughly $21 million from the sale.
+
+Javice and Amar were indicted in April 2023 on four counts: conspiracy to commit bank and wire fraud, wire fraud affecting a financial institution, bank fraud, and securities fraud, with the SEC filing a parallel civil case the same day. Both went to trial and were convicted on all four counts by a jury in March 2025. In September 2025, U.S. District Judge Alvin Hellerstein sentenced Javice to 85 months, just over 7 years, in prison, along with a forfeiture judgment of more than $22 million and a restitution order exceeding $287 million. Amar was sentenced separately that November to 68 months. Javice remains free on bail while her conviction is under appeal, and has reportedly sought a presidential pardon.
+
+Javice's case stands out for how deliberately old-fashioned the underlying deception was, even inside a very modern fintech story: rather than hack a real number or exploit some clever loophole, prosecutors say she simply paid someone to invent millions of fake people, on the bet that a company as large as JPMorgan would trust the topline number in due diligence more than it would independently verify it.`,
+    sourceUrl: 'https://www.npr.org/2025/03/29/nx-s1-5344434/charlie-javice-convicted-defrauding-jpmorgan',
+  },
+  {
+    title: 'Carlos Watson and the Fake YouTube Executive on a Call With Goldman Sachs',
+    slug: 'carlos-watson-ozy-media-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `Carlos Watson co-founded and ran Ozy Media, a digital media startup that raised tens of millions of dollars from investors including Laurene Powell Jobs's Emerson Collective, Axel Springer, and Marc Lasry. The company's public unraveling began with one of the more brazen moments in recent corporate-fraud history: in February 2021, Ozy scheduled a call with Goldman Sachs investors who were weighing a roughly $40 million investment, expecting to hear from "Alex Piper," the head of programming at YouTube Originals, who would vouch for one of Ozy's shows performing well on the platform. The voice on the call, digitally altered and increasingly unconvincing to the Goldman bankers listening, actually belonged to Ozy's own co-founder and COO, Samir Rao.
+
+When Goldman's team later contacted the real YouTube executive's assistant and learned he'd never been on the call, the scheme collapsed. Watson initially told investors and Ozy's board that Rao had suffered a "mental health crisis," rather than acknowledging a planned deception — but Rao later pleaded guilty and testified that Watson had directed him to impersonate the executive. The SEC's parallel civil case laid out the broader picture: Ozy and Watson had presented investors false financial information inflating the company's annual revenue by at least 100 percent between January 2019 and September 2021, defrauding investors of roughly $50 million.
+
+Watson was indicted in February 2023 on conspiracy to commit securities fraud, conspiracy to commit wire fraud, and aggravated identity theft; Rao and Ozy's former chief of staff, Suzee Han, pleaded guilty and testified against him. A Brooklyn federal jury convicted Watson on all counts in July 2024, and in December 2024, U.S. District Judge Eric Komitee sentenced him to 116 months — just under 10 years — plus nearly $96 million combined in restitution and forfeiture.
+
+Watson never served a day of that sentence. Hours before he was due to surrender to federal prison in March 2025, President Trump commuted it entirely, along with Ozy Media's own probation sentence and the associated restitution and forfeiture obligations. The case is a rare entry in this collection where the fraud, the trial, the conviction, and the sentence all played out exactly as the legal system is supposed to work — only for the final consequence to be erased by executive action at the last possible moment.`,
+    sourceUrl: 'https://www.sec.gov/news/press-release/2023-37',
+  },
 ];
 
 // Practical "how it works / red flags / what to do" guides covering the
