@@ -8296,6 +8296,39 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Florida Chief Financial Officer / Department of Financial Services'],
     sourceUrl: 'https://myfloridacfo.com/news/pressreleases/press-release-details/2026/04/22/chief-financial-officer-blaise-ingoglia-announces-arrest-of-public-adjuster-after--703-000-theft-in-hurricane-ian-claims-funds',
   },
+  {
+    name: 'Singapore Fake Friend Call Scam',
+    slug: 'singapore-fake-friend-call-scam',
+    description:
+      'A scammer cold-calls or WhatsApps a victim and asks them to guess who is calling, then adopts whatever name the victim suggests to pose as a friend or acquaintance in urgent need of financial help, directing the victim to transfer money via bank transfer, PayNow, or a QR code. In some cases a second scammer then calls impersonating a Police or Monetary Authority of Singapore official, claiming the earlier transfer was linked to a crime and demanding further payment for a fake investigation. The Singapore Police Force reported at least 146 cases and $311,000 in losses since March 2026, and states genuine government officials never ask the public to transfer money, disclose bank credentials, or install unofficial apps over the phone.',
+    categorySlug: 'family-emergency-scams',
+    country: 'SG',
+    alertLevel: 'high',
+    sources: ['Singapore Police Force'],
+    sourceUrl: 'https://www.police.gov.sg/Media-Hub/News/2026/04/20260424_police_advisory_resurgence_of_fake_friend_call_scams',
+  },
+  {
+    name: 'Singapore Malware-Enabled Senior Citizen Scam',
+    slug: 'singapore-malware-senior-citizen-scam',
+    description:
+      'Scammers advertise activities for senior citizens on Facebook and TikTok; once a victim submits contact details, they are messaged on WhatsApp and instructed to download an Android APK file supposedly to view the activity list. Installing the file lets scammers uninstall legitimate security apps such as Singpass and ScamShield and alter banking settings, including raising transaction limits without authorization. Scammers then pose as officials from the Ministry of Law or the Anti-Scam Centre, claiming the device is compromised and pressuring the victim to transfer money or hand over valuables as part of a fake police investigation. The Singapore Police Force reported at least 8 cases and $69,000 in losses since April 2026.',
+    categorySlug: 'account-takeover',
+    country: 'SG',
+    alertLevel: 'critical',
+    sources: ['Singapore Police Force'],
+    sourceUrl: 'https://www.police.gov.sg/Media-Hub/News/2026/06/20260618_police_advisory_on_malware_enabled_scams_on_android_devices_targeting_senior_citizens',
+  },
+  {
+    name: 'Singapore Rental Scam Impersonating Property Agents',
+    slug: 'singapore-rental-scam-property-agents',
+    description:
+      'Scammers post fake rental listings on platforms such as Facebook, Carousell, and rental advertisement sites; when a prospective tenant responds, the scammer poses as a CEA-registered property agent over WhatsApp, sending fabricated agent passes, business cards, and property photos or videos, sometimes with an accomplice posing as a "colleague" at an in-person viewing. After the viewing, victims are directed to pay a deposit by bank transfer or PayNow, but the property was never actually available for rent. Singapore Police Force data shows more than 430 reports and at least $2.7 million in losses between January and October 2024 alone; the force advises checking the advertised phone number against the CEA Public Register, since a scammer\'s number will not match a legitimate registered agent even if a real agent\'s name is used.',
+    categorySlug: 'online-shopping-scams',
+    country: 'SG',
+    alertLevel: 'high',
+    sources: ['Singapore Police Force'],
+    sourceUrl: 'https://www.police.gov.sg/Media-Hub/News/2024/20241121_police_advisory_on_rental_scams_involving_the_impersonation_of_property_agents',
+  },
 ];
 
 async function seedCategoriesAndScams() {
