@@ -8763,6 +8763,39 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Utah Insurance Department'],
     sourceUrl: 'https://insurance.utah.gov/?p=19919',
   },
+  {
+    name: 'Indian Aadhaar-Enabled Payment System (AePS) Biometric Cloning Fraud',
+    slug: 'india-aeps-biometric-cloning-fraud',
+    description:
+      'Criminals download Aadhaar-linked fingerprint images from public land-registry websites that host property sale deeds, then clone the prints onto silicone or rubber sheets to fraudulently authenticate Aadhaar Enabled Payment System (AePS) transactions, letting them withdraw cash directly from a victim\'s bank account without any OTP, card, or the victim\'s knowledge. India\'s Ministry of Home Affairs confirmed in a July 2024 Rajya Sabha reply that biometric-cloning fraud is rising sharply, citing roughly 29,000 AePS-fraud complaints on the National Cyber Crime Reporting Portal, and the Indian Cyber Crime Coordination Centre (I4C) has directed states to mask fingerprints on publicly uploaded registry documents to curb the practice.',
+    categorySlug: 'identity-theft',
+    country: 'IN',
+    alertLevel: 'high',
+    sources: ['Indian Cyber Crime Coordination Centre (I4C)', 'Ministry of Home Affairs (India)'],
+    sourceUrl: 'https://www.pib.gov.in/PressReleasePage.aspx?PRID=2039647',
+  },
+  {
+    name: 'Indian KBC (Kaun Banega Crorepati) WhatsApp Lottery Scam',
+    slug: 'india-kbc-whatsapp-lottery-scam',
+    description:
+      'A WhatsApp message from an unknown or foreign number claims the recipient\'s mobile number has won a large cash prize — commonly cited as Rs. 25 lakh — in a lottery supposedly run jointly by the TV show Kaun Banega Crorepati and a telecom company, directing them to contact a number to "claim" it. The victim is told to first pay a refundable "processing fee" or GST, and once that is paid, fraudsters keep raising the claimed prize amount and demanding further payments before disappearing. Delhi Police\'s Cyber Crime Unit confirms KBC and its broadcaster never charge any fee to participate in or collect winnings from the show.',
+    categorySlug: 'lottery-sweepstakes-scams',
+    country: 'IN',
+    alertLevel: 'medium',
+    sources: ['Delhi Police Cyber Crime Unit'],
+    sourceUrl: 'https://cyber.delhipolice.gov.in/KBClottery.html',
+  },
+  {
+    name: 'Indian Fake Traffic E-Challan APK Malware Scam',
+    slug: 'india-fake-echallan-apk-malware-scam',
+    description:
+      'An SMS or WhatsApp message claims the recipient has an unpaid traffic fine and urges them to open a link or install an APK file to view or pay the "e-challan," but the file is a multi-stage dropper malware that silently requests SMS, call, and background-access permissions once installed. Rather than relying on a live scammer to talk the victim through anything, the malware itself reads incoming OTPs and initiates unauthorized UPI transactions from the compromised device. CERT-In has issued alerts on this APK-based campaign, and cybercrime authorities note that genuine challans are only ever issued through the official government Parivahan portal, never via a link or app file sent by SMS.',
+    categorySlug: 'phishing',
+    country: 'IN',
+    alertLevel: 'high',
+    sources: ['CERT-In', 'National Cyber Crime Reporting Portal (NCRP)'],
+    sourceUrl: 'https://cybercrime.gov.in/',
+  },
 ];
 
 async function seedCategoriesAndScams() {
