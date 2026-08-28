@@ -1536,6 +1536,9 @@ Javice's case stands out for how deliberately old-fashioned the underlying decep
     slug: 'carlos-watson-ozy-media-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Carlos_Watson_interviewing.jpg',
+    coverImageCredit: 'Photo: Ozy Media (CC BY 3.0)',
+    coverImagePosition: 50,
     body: `Carlos Watson co-founded and ran Ozy Media, a digital media startup that raised tens of millions of dollars from investors including Laurene Powell Jobs's Emerson Collective, Axel Springer, and Marc Lasry. The company's public unraveling began with one of the more brazen moments in recent corporate-fraud history: in February 2021, Ozy scheduled a call with Goldman Sachs investors who were weighing a roughly $40 million investment, expecting to hear from "Alex Piper," the head of programming at YouTube Originals, who would vouch for one of Ozy's shows performing well on the platform. The voice on the call, digitally altered and increasingly unconvincing to the Goldman bankers listening, actually belonged to Ozy's own co-founder and COO, Samir Rao.
 
 When Goldman's team later contacted the real YouTube executive's assistant and learned he'd never been on the call, the scheme collapsed. Watson initially told investors and Ozy's board that Rao had suffered a "mental health crisis," rather than acknowledging a planned deception — but Rao later pleaded guilty and testified that Watson had directed him to impersonate the executive. The SEC's parallel civil case laid out the broader picture: Ozy and Watson had presented investors false financial information inflating the company's annual revenue by at least 100 percent between January 2019 and September 2021, defrauding investors of roughly $50 million.
