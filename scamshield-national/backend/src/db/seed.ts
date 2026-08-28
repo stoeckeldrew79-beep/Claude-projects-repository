@@ -1973,6 +1973,34 @@ That patience is the setup for what the industry calls a "bust out": once the sy
 
 If you're notified of unexplained activity tied to your Social Security number — a credit inquiry you didn't make, a rejected tax return citing a duplicate filing, or a denied benefits application — treat it as a possible sign of synthetic identity fraud rather than assuming it's a simple error, and start a recovery plan at IdentityTheft.gov. Parents can specifically check whether a child's Social Security number has ever been used for credit by requesting a manual credit file search from the three credit bureaus, since children have no legitimate reason to have any credit history at all before adulthood, and any file is itself a red flag.`,
   },
+  {
+    title: 'Recovery Scams: When "We Can Get Your Money Back" Is the Second Scam, Not a Rescue',
+    slug: 'recovery-scam-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'recovery-scams'],
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2026/08/have-you-lost-money-scam-watch-scammers-who-say-they-can-help',
+    body: `Someone who already lost money to a scam gets a call, email, or message from a person claiming to represent a government agency, a law firm, or a "fund recovery" or asset-recovery specialist — and they say they can get the stolen money back, for a fee paid up front. It sounds like exactly the lifeline a fraud victim is hoping for, which is precisely why it works: the FTC's direct warning is blunt — "Don't trust someone who contacts you claiming they can recover your lost money for a fee."
+
+Recovery scams specifically target people who are already known to be scam-susceptible, since anyone who lost money once has, by definition, already proven willing to send money based on a convincing story. Scammer lists of prior victims circulate and get resold, meaning the same person can be hit by a fake tech-support scam, a romance scam, or an investment scam, and then targeted again months later by a completely different criminal posing as the person who can undo the first crime — sometimes even claiming to be a government investigator working the original case.
+
+The pitch takes a few recognizable forms: a "retainer fee," "processing fee," or "administrative charge" required before any funds can supposedly be released; a request for banking details so the "refund" can be deposited directly; or a demand to verify identity with sensitive personal information before recovery can "begin." In every version, the money or information flows from the victim to the scammer first, with the promised recovery never actually materializing.
+
+The core protection is simple to state and easy to forget in the moment: legitimate government agencies and consumer protection organizations never charge a fee to return money, and they never call, text, or email out of nowhere asking for payment or banking details to process a refund. If someone claiming to help recover scam losses contacts you, don't use any phone number or link they provide — independently look up the real contact information for the agency or organization they claim to represent and reach out directly to verify. Report both the original scam and any follow-up "recovery" contact to the FTC at ReportFraud.ftc.gov and to your state attorney general's office.`,
+  },
+  {
+    title: "Veterans Benefits Scams: When a \"Claim Shark\" Charges for Help That's Legally Free",
+    slug: 'veterans-benefits-claim-shark-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'veterans-benefits-scams'],
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2026/07/veterans-dont-pay-apply-va-benefits',
+    body: `A veteran is contacted out of the blue — often through social media, a community event, or a referral from someone they trust — by a person offering to help file a VA disability or benefits claim, for a fee, and promising a fast approval or even a guaranteed 100% disability rating in exchange for upfront payment. The pitch sounds like paid expertise navigating a notoriously complicated system. It's actually illegal on its face: applying for VA benefits is, and always has been, free.
+
+These unaccredited operators are often called "claim sharks," a deliberate echo of loan sharks, because the transaction works the same way — charging a vulnerable person for something they're legally entitled to get for free, often extracting a cut of the veteran's eventual benefits or a flat fee regardless of outcome. The FTC states the rule plainly: "The VA will never charge you to apply for benefits." Anyone asking a veteran to pay to file, expedite, or guarantee the outcome of a claim is not operating within any legitimate part of the VA claims process.
+
+The warning signs line up closely with other advance-fee schemes: unsolicited contact rather than the veteran seeking out help themselves, pressure to sign paperwork or pay quickly, a promise of a specific disability rating (something no legitimate representative can guarantee, since ratings are determined by the VA itself based on medical evidence), and any request for payment before, during, or as a percentage of the claims process. Legitimate Veteran Service Organizations and VA-accredited attorneys and agents provide claims assistance at no cost to the veteran.
+
+Veterans should apply for benefits directly and for free at benefits.va.gov, or through a Veteran Service Organization such as the VFW, American Legion, or DAV. Before accepting help from anyone claiming to be an accredited representative, verify them using the VA's own Accreditation Search tool rather than taking their word for it. If you or someone you know has been charged for VA claims help, report it to the FTC at ReportFraud.ftc.gov and to the VA's Office of Inspector General.`,
+  },
 ];
 
 async function seedArticles(articles: SeedArticle[], label: string) {
