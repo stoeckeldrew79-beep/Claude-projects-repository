@@ -1987,6 +1987,7 @@ const SEED_CATEGORIES: SeedCategory[] = [
   { name: 'Healthcare Fraud', slug: 'healthcare-fraud', description: 'Fake medical products, billing scams, and impersonated healthcare providers or insurers.' },
   { name: 'AI & Deepfake Scams', slug: 'ai-deepfake-scams', description: 'Scams using AI-generated voice, video, or images to impersonate a real person or fabricate evidence.' },
   { name: 'Debt Relief Scams', slug: 'debt-relief-scams', description: 'Fake debt consolidation, settlement, or credit-repair services that collect fees without delivering relief.' },
+  { name: 'Timeshare Scams', slug: 'timeshare-scams', description: 'Fraudulent resale, exit, and loan-forgiveness offers targeting timeshare owners for an upfront fee that delivers nothing.' },
   { name: 'Mortgage & Foreclosure Scams', slug: 'mortgage-foreclosure-scams', description: 'Fraudulent loan modification, foreclosure rescue, or title schemes targeting homeowners.' },
   { name: 'Tax Scams', slug: 'tax-scams', description: 'Fake IRS or tax-authority communications and fraudulent tax-preparation schemes.' },
   { name: 'Utility Scams', slug: 'utility-scams', description: 'Fake electric, gas, water, or internet provider threats demanding immediate payment to avoid disconnection.' },
@@ -3255,7 +3256,7 @@ const SEED_SCAMS: SeedScam[] = [
     slug: 'timeshare-exit-company-scam',
     description:
       'A company promises to get a consumer out of an unwanted timeshare contract for a large upfront fee, then does little or nothing, sometimes leaving the consumer both out the fee and still contractually obligated to the timeshare.',
-    categorySlug: 'debt-relief-scams',
+    categorySlug: 'timeshare-scams',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice', 'BBB Scam Tracker'],
     sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2022/11/want-get-rid-your-timeshare-read-you-hire-someone-help',
@@ -3265,7 +3266,7 @@ const SEED_SCAMS: SeedScam[] = [
     slug: 'timeshare-resale-scam',
     description:
       'A company cold-calls a timeshare owner claiming to have a buyer already lined up, or that demand is unusually high right now, and asks for an upfront "registration," closing, or processing fee — commonly $500 to $2,000, sometimes charged straight to a credit card — before any sale can go through. The promised buyer never materializes, and the fee is rarely refunded even when the company claims a money-back guarantee.',
-    categorySlug: 'debt-relief-scams',
+    categorySlug: 'timeshare-scams',
     alertLevel: 'medium',
     sources: ['FTC Consumer Advice'],
     sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2014/05/be-lookout-timeshare-resale-phonies',
@@ -4726,7 +4727,7 @@ const SEED_SCAMS: SeedScam[] = [
     slug: 'fake-timeshare-loan-forgiveness-scam',
     description:
       'A company contacts timeshare owners claiming to have arranged a special program to forgive the remaining loan balance on their timeshare purchase, requiring an upfront fee to "process" the forgiveness — no such lender-side forgiveness program exists, and the timeshare loan remains fully due regardless of any fee paid. Timeshare loan questions should go directly to the loan servicer named on the original financing documents.',
-    categorySlug: 'debt-relief-scams',
+    categorySlug: 'timeshare-scams',
     alertLevel: 'medium',
     sources: ['Consumer Financial Protection Bureau'],
     sourceUrl: 'https://www.consumerfinance.gov/ask-cfpb/what-is-a-debt-relief-program-and-how-do-i-know-if-i-should-use-one-en-1457/',
@@ -8091,7 +8092,17 @@ async function seedCategoriesAndScams() {
     await pool.query(
       `INSERT INTO scams (name, slug, description, category_id, alert_level, is_active, sources, source_url, country, is_historical, first_recorded)
        VALUES ($1, $2, $3, (SELECT id FROM categories WHERE slug = $4), $5, true, $6, $7, $8, $9, $10)
-       ON CONFLICT (slug) DO UPDATE SET source_url = EXCLUDED.source_url`,
+       ON CONFLICT (slug) DO UPDATE SET
+         name = EXCLUDED.name,
+         description = EXCLUDED.description,
+         category_id = EXCLUDED.category_id,
+         alert_level = EXCLUDED.alert_level,
+         sources = EXCLUDED.sources,
+         source_url = EXCLUDED.source_url,
+         country = EXCLUDED.country,
+         is_historical = EXCLUDED.is_historical,
+         first_recorded = EXCLUDED.first_recorded,
+         updated_at = NOW()`,
       [
         scam.name,
         scam.slug,
