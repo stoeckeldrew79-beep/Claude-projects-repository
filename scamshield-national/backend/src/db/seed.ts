@@ -8537,6 +8537,66 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Konsumentverket'],
     sourceUrl: 'https://www.konsumentverket.se/konsumentratt/abonnemangsfallor-gratisvaror-och-provpaket/',
   },
+  {
+    name: 'CSLB Contractor License Impersonation Scam',
+    slug: 'california-cslb-contractor-license-impersonation-scam',
+    description:
+      "Scammers impersonate California's Contractors State License Board (CSLB), calling licensed contractors and falsely claiming they must pay a license \"activation\" fee — reported as high as $500 — immediately over the phone or their license will be cancelled. Victims are pressured to pay before they have a chance to verify the claim through official channels. CSLB says its staff never call licensees to request credit or debit card numbers, and the same alert has been independently reposted by other states' licensing boards after seeing the same scam target their own licensees.",
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['California Contractors State License Board'],
+    sourceUrl: 'https://www2.cslb.ca.gov/Resources/IndustryBulletins/2021/Fraud_Alert.pdf',
+  },
+  {
+    name: 'Entergy In-Person Utility Worker Impersonation Scam',
+    slug: 'louisiana-entergy-in-person-utility-impersonation-scam',
+    description:
+      "Scammers pose as Entergy field representatives showing up in person at Louisiana homes and businesses, sometimes carrying fake or stolen company identification, to gain entry under the guise of utility work. Entergy's own guidance is direct: always ask anyone claiming to be a company representative for identification before letting them in, and call Entergy directly to verify any unscheduled visit if something feels off. The company states it never demands immediate in-person payment and gives customers considerable advance warning before any service action.",
+    categorySlug: 'utility-scams',
+    alertLevel: 'medium',
+    sources: ['Entergy'],
+    sourceUrl: 'https://www.entergy.com/scams',
+  },
+  {
+    name: 'Nevada DMV Fake Website and Chatbot Scam',
+    slug: 'nevada-dmv-fake-website-chatbot-booking-fee-scam',
+    description:
+      "A fraudulent website closely mimicking the official Nevada DMV site uses a chatbot to lure visitors into \"booking an appointment,\" collecting identification details and Social Security numbers during the fake process and charging a booking fee. The real Nevada DMV has stated its appointments are free and it never charges a booking fee, and warns that a legitimate government site always uses a .gov domain, which scammers cannot register.",
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Nevada Department of Motor Vehicles', 'FOX5 Las Vegas'],
+    sourceUrl: 'https://dmv.nv.gov/news/26004_Nevada_DMV_issues_scam_warning.htm',
+  },
+  {
+    name: 'Fake Rental Car Reservation Scam',
+    slug: 'fake-rental-car-reservation-scam',
+    description:
+      'A fraudulent rental car deal reaches travelers through a sponsored search-ad phone number or a caller impersonating a real rental company\'s customer service, offering a discounted booking. The scammer directs the victim to pay by prepaid debit card or gift card and share the PIN, then often demands additional "fees" — in one BBB-documented case a victim paid a total of $325 in gift cards for a car that never existed, including a threatened $100 "contract-breaking" penalty when they tried to cancel. No car is ever waiting at the counter, since the reservation was never made with the real company.',
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'high',
+    sources: ['Better Business Bureau (BBB)'],
+    sourceUrl: 'https://www.bbb.org/article/scams/24206-bbb-scam-alert-when-booking-a-rental-car-watch-out-for-phony-deals',
+  },
+  {
+    name: 'TSA PreCheck Renewal Phishing Scam',
+    slug: 'tsa-precheck-renewal-phishing-scam',
+    description:
+      'An email formatted to look like an official TSA PreCheck notice urges the recipient to enroll or renew before an upcoming trip, linking to a cloned website that only looks like the real tsa.gov site. Travelers who pay the fee and enter personal information there hand it directly to a scammer, and often don\'t discover the enrollment never went through until they reach airport security. The FTC advises typing tsa.gov/precheck in directly rather than clicking an emailed link, since legitimate TSA PreCheck sites are always .gov, never .com.',
+    categorySlug: 'phishing',
+    alertLevel: 'medium',
+    sources: ['Federal Trade Commission (FTC)'],
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2024/10/how-avoid-tsa-precheck-scams',
+  },
+  {
+    name: 'Free Vacation Club Presentation Scam',
+    slug: 'free-vacation-club-presentation-scam',
+    description:
+      'A call, mailer, or text offers a free vacation, cruise, or prize just for attending a sales presentation, then uses hours of high-pressure tactics — multiple rotating salespeople, artificial "today only" deadlines, and tours of luxury model units — to push attendees into signing a vacation club or travel club membership on the spot, sometimes costing thousands of dollars plus recurring annual dues. This targets new recruits rather than existing timeshare owners, distinct from timeshare resale or exit scams: the FTC and BBB both warn that the pressure to decide immediately is itself a red flag, and that advertised booking ease and savings routinely fail to materialize once the membership is purchased.',
+    categorySlug: 'timeshare-scams',
+    alertLevel: 'medium',
+    sources: ['Federal Trade Commission (FTC)', 'Better Business Bureau (BBB)'],
+    sourceUrl: 'https://consumer.ftc.gov/articles/timeshares-vacation-clubs-and-related-scams',
+  },
 ];
 
 async function seedCategoriesAndScams() {
