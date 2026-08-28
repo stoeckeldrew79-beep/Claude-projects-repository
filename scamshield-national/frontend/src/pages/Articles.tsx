@@ -1,6 +1,7 @@
 import { useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useArticles } from '../hooks/useArticles';
+import type { Article } from '../types';
 import { useDocumentMeta } from '../hooks/useDocumentMeta';
 import { NotoriousCoverArt } from '../components/NotoriousCoverArt';
 import { BlurFade } from '../components/magicui/blur-fade';
@@ -8,6 +9,52 @@ import { BlurFade } from '../components/magicui/blur-fade';
 function excerpt(text: string, length = 160): string {
   const plain = text.replace(/[#*_`]/g, '').replace(/\s+/g, ' ').trim();
   return plain.length > length ? `${plain.slice(0, length - 1)}…` : plain;
+}
+
+// Small edit-distance check so a near-miss (typo, singular/plural, a
+// dropped letter) can still land a match against a title word — a
+// consumer searching this site is unlikely to know an article's exact
+// wording.
+function levenshtein(a: string, b: string): number {
+  const dp: number[][] = Array.from({ length: a.length + 1 }, (_, i) => [i, ...Array(b.length).fill(0)]);
+  for (let j = 0; j <= b.length; j++) dp[0][j] = j;
+  for (let i = 1; i <= a.length; i++) {
+    for (let j = 1; j <= b.length; j++) {
+      dp[i][j] =
+        a[i - 1] === b[j - 1] ? dp[i - 1][j - 1] : 1 + Math.min(dp[i - 1][j - 1], dp[i - 1][j], dp[i][j - 1]);
+    }
+  }
+  return dp[a.length][b.length];
+}
+
+// Scores an article against each typed search term, favoring hits in the
+// title over tags over the body, with a fuzzy fallback against title
+// words for near-misses. Returns 0 for no match at all so the caller can
+// filter articles out entirely.
+function relevanceScore(article: Article, terms: string[]): number {
+  const title = article.title.toLowerCase();
+  const titleWords = title.split(/[^a-z0-9]+/).filter(Boolean);
+  const tags = (article.tags ?? []).map((t) => t.toLowerCase());
+  const author = article.author?.toLowerCase() ?? '';
+  const body = article.body.toLowerCase();
+
+  let score = 0;
+  for (const term of terms) {
+    if (title.includes(term)) {
+      score += 10;
+    } else if (tags.some((t) => t.includes(term))) {
+      score += 6;
+    } else if (author.includes(term)) {
+      score += 4;
+    } else if (body.includes(term)) {
+      score += 2;
+    } else {
+      const maxDistance = term.length <= 4 ? 1 : 2;
+      const hasCloseTitleWord = titleWords.some((w) => Math.abs(w.length - term.length) <= maxDistance && levenshtein(w, term) <= maxDistance);
+      if (hasCloseTitleWord) score += 3;
+    }
+  }
+  return score;
 }
 
 const FILTERS = [
@@ -29,11 +76,13 @@ export default function Articles() {
 
   const filteredArticles = useMemo(() => {
     if (!articles) return articles;
-    const q = search.trim().toLowerCase();
-    if (!q) return articles;
-    return articles.filter(
-      (a) => a.title.toLowerCase().includes(q) || a.body.toLowerCase().includes(q) || a.author?.toLowerCase().includes(q)
-    );
+    const terms = search.trim().toLowerCase().split(/\s+/).filter(Boolean);
+    if (terms.length === 0) return articles;
+    return articles
+      .map((a) => ({ article: a, score: relevanceScore(a, terms) }))
+      .filter((r) => r.score > 0)
+      .sort((a, b) => b.score - a.score)
+      .map((r) => r.article);
   }, [articles, search]);
 
   return (
