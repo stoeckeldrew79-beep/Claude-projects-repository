@@ -9144,6 +9144,39 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Federal Trade Commission', 'U.S. Postal Inspection Service'],
     sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2026/08/unexpected-package-you-got-could-be-brushing-scam',
   },
+  {
+    name: 'German QR-Code "Quishing" Fake Parking Ticket Scam',
+    slug: 'germany-quishing-fake-parking-ticket-scam',
+    description:
+      'Fraudsters attach counterfeit parking-violation notices to car windshields featuring a QR code, exploiting the fact that some German cities now offer legitimate QR-code payment for real fines. Scanning the fake code leads to a phishing site designed to steal payment or personal data rather than a genuine municipal payment portal. The Verbraucherzentrale advises taking any suspicious ticket to the police for verification rather than scanning the code or paying, since real citations from German municipalities include a city bank account and do not rely on a QR code.',
+    categorySlug: 'phishing',
+    country: 'DE',
+    alertLevel: 'medium',
+    sources: ['Verbraucherzentrale'],
+    sourceUrl: 'https://www.verbraucherzentrale.de/wissen/digitale-welt/phishingradar/quishing-falsche-qrcodes-in-mails-briefen-oepnv-und-strassenverkehr-98612',
+  },
+  {
+    name: 'German Fake Online Shop (Fakeshop) Scam',
+    slug: 'germany-fakeshop-scam',
+    description:
+      'Criminals set up professional-looking standalone online stores advertising branded goods at unrealistically low prices, accept only advance payment by bank transfer, and then never deliver the item — or send counterfeit or inferior goods. Warning signs include a missing Impressum (the legally required business-information page for shops selling in the EU), payment available only by advance transfer, and prices noticeably below the market rate. The Verbraucherzentrale offers a free Fakeshop-Finder tool that checks a shop\'s URL and flags known fraudulent sites before you order.',
+    categorySlug: 'online-shopping-scams',
+    country: 'DE',
+    alertLevel: 'high',
+    sources: ['Verbraucherzentrale'],
+    sourceUrl: 'https://www.verbraucherzentrale.de/fakeshopfinder-71560',
+  },
+  {
+    name: 'German Fake Utility Worker Door-to-Door Scam (Haustürbetrug)',
+    slug: 'germany-haustuerbetrug-fake-utility-worker-scam',
+    description:
+      'Fraudsters posing as water-company or utility workers (falsche Wasserwerker) knock on doors, usually of elderly residents, claiming they need to inspect pipes or perform an urgent repair, or ask to use the bathroom or get a glass of water. Once inside, they distract the resident while an accomplice searches the home for cash and jewelry, or a solo perpetrator uses the pretext itself to pocket valuables. Polizei-Beratung advises only opening the door with the safety chain engaged, always looking up a company or utility\'s phone number independently to verify any visitor rather than trusting the ID they show, and never letting in anyone who was not personally arranged or announced by the building management.',
+    categorySlug: 'utility-scams',
+    country: 'DE',
+    alertLevel: 'high',
+    sources: ['Polizei-Beratung'],
+    sourceUrl: 'https://www.polizei-beratung.de/themen-und-tipps/betrug/haustuerbetrug/',
+  },
 ];
 
 async function seedCategoriesAndScams() {
