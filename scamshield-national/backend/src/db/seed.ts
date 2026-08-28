@@ -8935,6 +8935,66 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Scamwatch (ACCC)', 'Australian Cyber Security Centre (ACSC)'],
     sourceUrl: 'https://www.scamwatch.gov.au/about-us/news-and-alerts/missed-delivery-call-or-voicemail-flubot-scams',
   },
+  {
+    name: 'Nebraska Jury Duty and Arrest Warrant Imposter Scam',
+    slug: 'nebraska-jury-duty-arrest-warrant-imposter-scam',
+    description:
+      'Scammers impersonating local law enforcement or court officials call Nebraska residents claiming there is a warrant out for their arrest, or that they owe a penalty for missing jury duty, and that they will be jailed unless they pay immediately. Callers sometimes supply fake titles, employee ID numbers, or badge numbers, and may already know the victim\'s name and home address to sound credible. The Nebraska Attorney General\'s Office, which issued the alert after a spike in reports from Lancaster County, says these callers demand payment via wire transfer, gift cards, cryptocurrency, payment apps, cash, or a private courier — methods no real court or law enforcement agency uses.',
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ["Nebraska Attorney General's Office"],
+    sourceUrl: 'https://ago.nebraska.gov/news/imposter-scams-circulating-lancaster-county',
+  },
+  {
+    name: 'West Virginia Government Shutdown Relief Scam',
+    slug: 'west-virginia-government-shutdown-relief-scam',
+    description:
+      'During a federal government shutdown, scammers posing as government officials — using spoofed West Virginia phone numbers — target low-income residents, seniors, and college students with offers of grant money, emergency financial assistance, or special low-interest loans available only during the shutdown, or falsely tell students they have a tuition overage or refund waiting. Victims are pressured to hand over Social Security numbers, bank account details, and addresses for "identity verification," and to pay upfront "processing fees," "verification payments," or "handling charges." The West Virginia Attorney General\'s Office warns scammers manufacture urgency by threatening that benefits will be suspended or legal action taken, and sometimes direct victims to fake websites mimicking real government sites.',
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'high',
+    sources: ["West Virginia Attorney General's Office"],
+    sourceUrl: 'https://ago.wv.gov/article/consumer-alert-dont-fall-fake-government-shutdown-relief-offers',
+  },
+  {
+    name: 'MNsure Health Insurance Marketplace Scam',
+    slug: 'mnsure-health-insurance-marketplace-scam',
+    description:
+      'Scammers impersonate MNsure, Minnesota\'s official state health insurance marketplace, to target residents shopping for coverage — particularly people who recently lost Medical Assistance (Medicaid) eligibility. They cold-call consumers to sell fraudulent insurance products, demand payment for "help" enrolling in a plan, or ask for premium payments upfront over the phone, and some run lookalike websites and ads that mimic the real MNsure.org. MNsure has stated it will never cold-call to try to sell health insurance or ask for a Social Security number, credit card, or bank account number over the phone.',
+    categorySlug: 'insurance-fraud',
+    alertLevel: 'medium',
+    sources: ["MNsure (Minnesota's official health insurance marketplace)"],
+    sourceUrl: 'https://www.mnsure.org/news-room/news/index.jsp?id=34-592759',
+  },
+  {
+    name: 'Fabricated "Good Samaritan" Story GoFundMe Fraud',
+    slug: 'gofundme-fabricated-good-samaritan-fraud',
+    description:
+      'Two organizers invented a viral "good Samaritan" rescue story — claiming a homeless man spent his last $20 to help a stranded motorist — and launched a GoFundMe campaign that raised more than $400,000 from roughly 14,000 donors, with the story\'s supposed beneficiary knowingly participating in the scheme. Most of the money was spent on personal purchases, gambling, and travel rather than reaching anyone in need, and all three participants were criminally prosecuted, with the two organizers sentenced to prison and ordered to pay restitution. Unlike a fabricated story about an anonymous stranger\'s illness, this pattern involves the campaign\'s organizers and its named "beneficiary" actively colluding to sustain the fiction for donors.',
+    categorySlug: 'charity-scams',
+    alertLevel: 'medium',
+    sources: ['U.S. Department of Justice', 'CNN'],
+    sourceUrl: 'https://www.justice.gov/usao-nj/pr/burlington-county-woman-sentenced-one-year-and-one-day-prison-role-scheme-launder-money',
+  },
+  {
+    name: 'Unauthorized Fundraiser Organizer Diverts Real Tragedy Donations',
+    slug: 'unauthorized-fundraiser-organizer-diverted-donations',
+    description:
+      'Following a real death or tragedy, someone with no authorization from the immediate family — a distant relative, or a stranger using the victim\'s or family\'s name without consent — sets up a crowdfunding page soliciting funeral or victim-assistance donations, then keeps the money instead of passing it to the family. AARP\'s Fraud Watch Network has documented cases including a deceased woman\'s aunt who started a page for "expenses" and kept the donations, and a man who discovered someone had created a fundraiser using his name after his nephew\'s death without his knowledge or access to any funds raised. Donors should confirm a fundraiser is set up or endorsed by the immediate family before giving, since the platform itself does not verify any real relationship between an organizer and a beneficiary.',
+    categorySlug: 'charity-scams',
+    alertLevel: 'medium',
+    sources: ['AARP'],
+    sourceUrl: 'https://www.aarp.org/money/scams-fraud/beware-of-phony-fundraisers-on-gofundme/',
+  },
+  {
+    name: 'Faked Terminal Illness Crowdfunding Fraud',
+    slug: 'faked-terminal-illness-crowdfunding-fraud',
+    description:
+      'A person fabricates their own terminal cancer diagnosis — convincing even close family and friends, in one case her own young child — and sets up crowdfunding pages soliciting donations for medical bills and related expenses. In a documented Alabama federal case, the organizer raised more than $260,000 over several years using two GoFundMe pages plus Facebook, email, and text messages, before investigators established no cancer diagnosis ever existed; she pleaded guilty to wire fraud and bank fraud and was sentenced to prison and ordered to pay restitution. This differs from a fabricated campaign about a stranger\'s illness in that the fraud victim\'s own claimed diagnosis is the fiction, giving the campaign an added appearance of credibility since friends and family are personally vouching for someone they believe they know is sick.',
+    categorySlug: 'charity-scams',
+    alertLevel: 'medium',
+    sources: ['U.S. Department of Justice'],
+    sourceUrl: 'https://www.justice.gov/usao-ndal/pr/shelby-county-woman-sentenced-25-months-prison-fraudulently-raising-money-false-cancer',
+  },
 ];
 
 async function seedCategoriesAndScams() {
