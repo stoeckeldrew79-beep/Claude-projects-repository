@@ -8203,6 +8203,39 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Guardio Labs'],
     sourceUrl: 'https://guard.io/labs/scamlexity-we-put-agentic-ai-browsers-to-the-test-they-clicked-they-paid-they-failed',
   },
+  {
+    name: 'Canadian Highway Toll Text Scam',
+    slug: 'canada-highway-toll-smishing-scam',
+    description:
+      'A text message claims an unpaid highway toll was detected on the recipient\'s vehicle and demands immediate payment through a link, sometimes threatening added fines — impersonating toll operators like Ontario\'s 407 ETR, which only sends account notices by mail or from a verified six-digit short code. The Competition Bureau of Canada flags this as a growing "smishing" tactic that uses urgency and a plausible everyday premise to get recipients to click a malicious link and enter payment details.',
+    categorySlug: 'phishing',
+    country: 'CA',
+    alertLevel: 'medium',
+    sources: ['Competition Bureau of Canada'],
+    sourceUrl: 'https://www.canada.ca/en/competition-bureau/news/2025/07/ding-scammers-are-hiding-in-your-text-messages.html',
+  },
+  {
+    name: 'Canadian Anti-Fraud Centre Recovery Pitch Scam',
+    slug: 'canada-recovery-pitch-scam',
+    description:
+      'Someone who has already been scammed is contacted again by a fraudster posing as the Canadian Anti-Fraud Centre, police, or a company — sometimes using fake CAFC letterhead and logos — offering to help recover the money already lost. The pitch asks for an advance fee, remote computer access, online banking sign-in, or a payment to fund a fake "investigation" before funds can supposedly be returned. The CAFC states plainly that it and police will never ask a person to transfer funds or make any payment.',
+    categorySlug: 'government-impersonation',
+    country: 'CA',
+    alertLevel: 'high',
+    sources: ['Canadian Anti-Fraud Centre'],
+    sourceUrl: 'https://antifraudcentre-centreantifraude.ca/scams-fraudes/recovery-recuperation-eng.htm',
+  },
+  {
+    name: 'Canadian Bitcoin ATM Cash Scam',
+    slug: 'canada-bitcoin-atm-cash-scam',
+    description:
+      'An unsolicited caller posing as a police officer, government official, or bank employee tells the victim their identity has been compromised or their accounts are at risk, and instructs them to withdraw cash and feed it into a Bitcoin ATM to "protect" the funds or resolve the supposed problem. Once the cash is converted to cryptocurrency and sent, it moves instantly to a wallet the scammer controls and is essentially unrecoverable. The RCMP states that no Canadian government agency or police service ever demands payment through cryptocurrency, and advises hanging up and calling the agency back using its own listed phone number.',
+    categorySlug: 'government-impersonation',
+    country: 'CA',
+    alertLevel: 'critical',
+    sources: ['Royal Canadian Mounted Police (RCMP)'],
+    sourceUrl: 'https://rcmp.ca/en/bc/safety-tips/frauds-and-scams/bitcoin-and-gift-card-scams',
+  },
 ];
 
 async function seedCategoriesAndScams() {
