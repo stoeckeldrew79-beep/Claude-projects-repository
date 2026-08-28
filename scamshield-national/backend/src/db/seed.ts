@@ -8703,6 +8703,66 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Fraudehelpdesk (Netherlands)'],
     sourceUrl: 'https://www.fraudehelpdesk.nl/fraude/ik-word-per-mail-gechanteerd/',
   },
+  {
+    name: 'Fake Government Solar Rebate & Tax Credit Scam',
+    slug: 'fake-government-solar-rebate-tax-credit-scam',
+    description:
+      "A caller or door-to-door solicitor claims to represent a federal or state government program offering \"free\" or \"no cost\" solar panel installation, sometimes claiming the homeowner's utility already enrolled them, or inflating the real federal solar tax credit into a cash rebate that doesn't exist. The FTC states plainly that the federal government does not install home solar systems for free, and warns that these pitches often pressure homeowners into signing a contract on the spot or paying upfront via gift card, wire transfer, or cryptocurrency. Some versions simply harvest personal information from an unsolicited online or social media \"energy audit\" offer to resell as sales leads or use for identity theft.",
+    categorySlug: 'utility-scams',
+    alertLevel: 'medium',
+    sources: ['Federal Trade Commission'],
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2024/08/how-avoid-getting-burned-solar-or-clean-energy-scams',
+  },
+  {
+    name: 'Predatory Solar Loan Fee and Payment-Shock Scam',
+    slug: 'predatory-solar-loan-payment-shock-scam',
+    description:
+      "Solar sales companies and their lending partners add undisclosed \"dealer fees\" directly into a homeowner's solar loan balance, then quote a lower price by subtracting a federal tax credit the homeowner has not yet received, making the true loan amount look smaller than it is. Because that credit is baked into the sales pitch rather than the loan terms, the CFPB found monthly payments often jump sharply about 18 months in unless the homeowner separately pays down the loan by the projected credit amount, which may be smaller than promised or never materialize at all. The advisory also found systems are frequently sold on projected energy-bill savings that don't come close to covering the actual loan payments.",
+    categorySlug: 'utility-scams',
+    alertLevel: 'high',
+    sources: ['Consumer Financial Protection Bureau'],
+    sourceUrl: 'https://www.consumerfinance.gov/archive/newsroom/consumer-advisory-steer-clear-of-costly-and-complex-loans-for-solar-energy-installation/',
+  },
+  {
+    name: 'Forged-Signature Door-to-Door Solar Lease Scam',
+    slug: 'forged-signature-solar-lease-scam',
+    description:
+      "In a pattern documented in a 2024 Connecticut Attorney General lawsuit against a national solar company and its subcontracted door-to-door dealers, sales representatives allegedly forged a homeowner's electronic signature onto a 25-year solar lease after the deal had already been rejected, then impersonated the homeowner on the lender's confirmation call to push the transaction through. Related cases in the same suit involved panels installed without required building permits that were never activated, and leases with steep annual payment escalators the salesperson never disclosed. Homeowners should independently call their solar financing company using its own published phone number, not a number given by the salesperson, to confirm any lease or loan terms before signing, and should never sign on a device the salesperson controls without reading every page first.",
+    categorySlug: 'utility-scams',
+    alertLevel: 'high',
+    sources: ['Connecticut Office of the Attorney General'],
+    sourceUrl: 'https://portal.ct.gov/ag/press-releases/2024-press-releases/attorney-general-tong-sues-sunrun',
+  },
+  {
+    name: 'New Jersey ANCHOR Property Tax Rebate Text Scam',
+    slug: 'new-jersey-anchor-tax-rebate-scam',
+    description:
+      'Scammers send unsolicited text messages impersonating the New Jersey Division of Taxation, claiming a recipient\'s ANCHOR property tax rebate or income tax refund faces "permanent forfeiture" unless they provide "accurate payment information," including bank details and Social Security numbers, through a link in the text. The Division of Taxation confirms it never initiates text contact with taxpayers about ANCHOR benefits or refunds and only sends texts when a taxpayer has first requested one through its automated phone system. New Jersey residents who receive such a text are told not to click the link or reply with personal information and to verify any claim by calling the Division directly.',
+    categorySlug: 'tax-scams',
+    alertLevel: 'medium',
+    sources: ['New Jersey Division of Taxation'],
+    sourceUrl: 'https://www.nj.gov/treasury/taxation/scamalert.shtml',
+  },
+  {
+    name: 'Michigan Medicaid Eligibility Redetermination Scam',
+    slug: 'michigan-medicaid-redetermination-scam',
+    description:
+      'As Michigan resumed annual Medicaid eligibility reviews after the pandemic-era pause ended, scammers began contacting beneficiaries by unsolicited call, text, or email, posing as Medicaid, MDHHS, or state insurance officials and exploiting confusion around renewal deadlines. The callers ask victims to hand over Social Security numbers, Medicaid or Medicare ID numbers, and banking or credit card information, which is then used for identity theft or financial fraud. The Michigan Department of Health and Human Services and the Department of Insurance and Financial Services warn residents to never give personal information to an unsolicited contact and instead check renewal status directly at Michigan.gov/MIBridges or through their local MDHHS office.',
+    categorySlug: 'healthcare-fraud',
+    alertLevel: 'high',
+    sources: ['Michigan Department of Insurance and Financial Services', 'Michigan Department of Health and Human Services'],
+    sourceUrl: 'https://www.michigan.gov/difs/news-and-outreach/press-releases/2023/05/15/medicaid-beneficiaries-urged-to-protect-themselves-from-eligibility-redetermination-scams',
+  },
+  {
+    name: 'Utah Fake Auto Insurance Agent WhatsApp Scam',
+    slug: 'utah-fake-insurance-agent-whatsapp-scam',
+    description:
+      'The Utah Insurance Department warns of fraudsters selling fake auto insurance policies over WhatsApp and through word-of-mouth referrals to unlicensed "agents," a scheme concentrated in the state\'s Hispanic community. Victims pay by WhatsApp and receive a forged insurance certificate that lists a real, licensed Utah agent\'s name and license number without that agent\'s knowledge — their identity has simply been stolen to make the policy look legitimate. Because the policy is fake, a victim who is later stopped or in an accident can face vehicle registration revocation and impoundment for driving uninsured, on top of losing the money paid. The Department advises buying insurance only from verified licensed agents and checking any agent\'s license directly through the Utah Insurance Department before paying.',
+    categorySlug: 'insurance-fraud',
+    alertLevel: 'high',
+    sources: ['Utah Insurance Department'],
+    sourceUrl: 'https://insurance.utah.gov/?p=19919',
+  },
 ];
 
 async function seedCategoriesAndScams() {
