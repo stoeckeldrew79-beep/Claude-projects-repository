@@ -1366,6 +1366,48 @@ The Department of Justice indicted Milton in July 2021, and a federal jury convi
 In March 2025, President Trump pardoned Milton, erasing the sentence just as prosecutors were seeking a court order for roughly $680 million in restitution to Nikola shareholders. Reporting connected the pardon to more than $1.8 million Milton and his wife had donated to Trump's 2024 campaign. Whatever one makes of the pardon, the underlying fraud itself remains fully adjudicated by a jury: the case is a reminder that a faked demonstration video can inflate a company's value by billions of dollars for years before the truck, so to speak, actually has to drive itself.`,
     sourceUrl: 'https://www.justice.gov/usao-sdny/pr/trevor-milton-sentenced-four-years-prison-securities-fraud-scheme',
   },
+  {
+    title: 'James Paul Lewis Jr.: Nearly Twenty Years of Fictitious Returns',
+    slug: 'james-paul-lewis-jr-financial-advisory-consultants-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `James Paul Lewis Jr. ran an investment operation called Financial Advisory Consultants out of Lake Forest, California, from roughly 1985 until 2003 — nearly two decades, making it one of the longest-running Ponzi schemes in US history at the time it was uncovered. Lewis told investors, many recruited through church and community networks built on personal trust, that their money was going into a diversified mix of distressed-business acquisitions, medical-equipment leasing, insurance-premium financing, and commercial loans, promising annual returns as high as 18 to 40 percent.
+
+None of it was real in the way investors were told. Lewis collected roughly $311 million from investors over the life of the scheme, using new deposits to pay "returns" to earlier ones while personally spending heavily on homes and cars and losing additional money on unauthorized currency trading. By the time the SEC and FBI moved in, Financial Advisory Consultants' own account statements claimed a fictitious total balance of more than $813 million across roughly 3,000 investor accounts — money that existed only on paper. When the actual bank accounts were seized in December 2003, they held about $2.3 million.
+
+The scheme unraveled when dividend payments simply stopped and Lewis told suspicious investors, falsely, that the Department of Homeland Security had frozen the funds. The SEC filed an emergency enforcement action on December 23, 2003, and Lewis was arrested in Houston, Texas the following year. He pleaded guilty in October 2005 to mail fraud and money laundering, and in May 2006 a federal judge sentenced him to 30 years — the statutory maximum — calling the scheme, given how many elderly victims it targeted, a "crime against humanity." Court-ordered restitution was set at $156 million; the court-appointed receiver ultimately recovered only about $11 million for victims.
+
+Lewis served roughly 18 years of that sentence before President Biden commuted it on December 12, 2024, as part of a broader clemency action for federal inmates who had been on home confinement since the COVID-19 pandemic, with his release taking effect December 22, 2024. The commutation ended his prison term without erasing the underlying conviction, closing out a case that, at its core, was built on nothing more sophisticated than trust extended through a church pew and never verified.`,
+    sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-19445',
+  },
+  {
+    title: 'Sudipta Sen and the Saradha Group Chit Fund Collapse',
+    slug: 'sudipta-sen-saradha-group-chit-fund-scam',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `Sudipta Sen built the Saradha Group into a sprawling conglomerate of more than 200 companies in and around West Bengal, India, spanning real estate, tourism, hospitality, and — notably — media, eventually controlling eight newspapers and several television channels. Underneath the diversified business empire, Saradha ran collective investment schemes that solicited money from ordinary depositors, most putting in under ₹10,000 each, promising returns that operated in the same gray zone as India's informal "chit fund" savings pools while deliberately avoiding registration as the formal, regulated collective investment scheme it actually was.
+
+India's securities regulator, SEBI, challenged Saradha's structure as early as 2009, and issued an order in 2012 demanding it cease operations and refund investors. Saradha responded not by complying but by incorporating roughly 200 more shell companies to further obscure its ownership and keep raising money. The scheme is most commonly cited as having collected around ₹2,460 crore (some contemporaneous estimates ran higher) from an estimated 1.7 million depositors, overwhelmingly people of modest means in rural West Bengal and neighboring states, before it finally could not pay.
+
+The collapse came in April 2013. Facing an inability to meet redemptions, Sen wrote an 18-page letter to India's Central Bureau of Investigation naming political figures he claimed had pressured him for money to fund the group's media ventures, then fled Kolkata. He was arrested in Sonamarg, Kashmir on April 23, 2013, along with a senior executive. The fallout became a major, long-running West Bengal political scandal, drawing in multiple state legislators and a sitting transport minister who were separately arrested in connection with the case in the years that followed.
+
+More than a decade later, the core fraud case remains unresolved: Sen was convicted in a narrower 2014 case over unpaid employee provident fund dues, and was acquitted in three other specific Saradha-related cases in August 2025, but the central CBI fraud prosecution has not reached a final verdict. He had been in custody continuously since December 30, 2016 when India's Supreme Court granted him bail in the CBI case on August 18, 2026, citing the length of his detention without a completed trial — a reminder that even a scheme this large and well-documented can take over a decade to work through a legal system, with the people who lost their savings still waiting for a final accounting.`,
+    sourceUrl: 'https://www.sebi.gov.in/sebi_data/docfiles/25683_t.html',
+  },
+  {
+    title: 'Barry Tannenbaum: The $1 Billion Ponzi Scheme Nobody Was Ever Charged For',
+    slug: 'barry-tannenbaum-ponzi-scheme-fugitive',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Barry Tannenbaum, a South African businessman and grandson of a pharmaceutical company founder, pitched investors on a business trading active pharmaceutical ingredients — the raw materials used to manufacture generic drugs, including AIDS antiretrovirals badly needed across Africa — through entities including Frankel International. He promised eye-catching annual returns of more than 200 percent, framed as profit from supply contracts feeding real pharmaceutical manufacturing deals.
+
+There was no such manufacturing business generating those returns. Tannenbaum was running a Ponzi scheme, paying earlier investors with money raised from new ones, for roughly three years before it collapsed in June 2009 when payouts simply stopped. By the time it fell apart, South Africa's own finance minister put the total raised at more than R12.5 billion — commonly cited in press coverage as somewhere around $1.2 to $1.5 billion at the time — pulled in from roughly 880 investors across South Africa, Australia, and Europe. The victim list was notable for who was on it: reported among those caught up in the scheme were the former CEO of a major South African retail chain and a former head of the Johannesburg Stock Exchange.
+
+Tannenbaum had already relocated to Sydney, Australia in 2007, two years before the scheme collapsed, and later settled on Queensland's Gold Coast. South African authorities reportedly issued arrest warrants for him and an associate, but despite an extradition treaty existing between South Africa and Australia, no formal extradition request was ever filed — reporting has tied the stall partly to the lead prosecutor on the case being sidelined within South Africa's own prosecuting authority. As of the most recent substantive reporting available, Tannenbaum was living openly on the Gold Coast, at one point reportedly working as a taxi driver.
+
+Tannenbaum's case is the rare entry in this collection where the honest ending isn't a conviction or a sentence, but its absence: no criminal charges, no extradition, and — as far as public reporting shows — no legal accountability at all for one of the largest Ponzi schemes in South African history, standing as a stark reminder that scale and documentation alone don't guarantee consequences when a scheme crosses jurisdictions faster than the prosecutors chasing it.`,
+    sourceUrl: 'https://mg.co.za/news/south-africa/2009-06-11-sa-rocked-by-r10bn-ponzi-scheme/',
+  },
 ];
 
 // Practical "how it works / red flags / what to do" guides covering the
