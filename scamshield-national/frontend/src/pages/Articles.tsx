@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useArticles } from '../hooks/useArticles';
 import { useDocumentMeta } from '../hooks/useDocumentMeta';
@@ -24,7 +24,17 @@ export default function Articles() {
   });
 
   const [filter, setFilter] = useState<string | undefined>(undefined);
+  const [search, setSearch] = useState('');
   const { data: articles, isLoading, isError } = useArticles(filter);
+
+  const filteredArticles = useMemo(() => {
+    if (!articles) return articles;
+    const q = search.trim().toLowerCase();
+    if (!q) return articles;
+    return articles.filter(
+      (a) => a.title.toLowerCase().includes(q) || a.body.toLowerCase().includes(q) || a.author?.toLowerCase().includes(q)
+    );
+  }, [articles, search]);
 
   return (
     <div className="max-w-5xl mx-auto px-4 py-10">
@@ -33,28 +43,36 @@ export default function Articles() {
         How-to guides for recognizing common scams, plus the historical stories behind them.
       </p>
 
-      <div className="flex gap-2 mb-6">
-        {FILTERS.map((f) => (
-          <button
-            key={f.label}
-            type="button"
-            onClick={() => setFilter(f.tag)}
-            className={`px-3 py-1.5 rounded-full text-sm font-medium border ${
-              filter === f.tag
-                ? 'bg-slate-900 text-white border-slate-900'
-                : 'text-slate-600 border-slate-300 hover:border-slate-400'
-            }`}
-          >
-            {f.label}
-          </button>
-        ))}
+      <div className="flex flex-wrap gap-3 mb-6">
+        <input
+          value={search}
+          onChange={(e) => setSearch(e.target.value)}
+          placeholder="Search articles…"
+          className="flex-1 min-w-[200px] rounded-md border border-slate-300 px-3 py-2 text-sm"
+        />
+        <div className="flex gap-2">
+          {FILTERS.map((f) => (
+            <button
+              key={f.label}
+              type="button"
+              onClick={() => setFilter(f.tag)}
+              className={`px-3 py-1.5 rounded-full text-sm font-medium border ${
+                filter === f.tag
+                  ? 'bg-slate-900 text-white border-slate-900'
+                  : 'text-slate-600 border-slate-300 hover:border-slate-400'
+              }`}
+            >
+              {f.label}
+            </button>
+          ))}
+        </div>
       </div>
 
       {isLoading && <p className="text-slate-500">Loading…</p>}
       {isError && <p className="text-red-700">Couldn't load articles.</p>}
 
       <div className="grid gap-6 sm:grid-cols-2">
-        {articles?.map((article, i) => (
+        {filteredArticles?.map((article, i) => (
           <BlurFade key={article.id} delay={0.04 + i * 0.03} inView>
             <Link
               to={`/articles/${article.slug}`}
@@ -81,6 +99,9 @@ export default function Articles() {
           </BlurFade>
         ))}
         {articles && articles.length === 0 && <p className="text-slate-500 col-span-2">No articles published yet.</p>}
+        {articles && articles.length > 0 && filteredArticles?.length === 0 && (
+          <p className="text-slate-500 col-span-2">No articles match "{search}".</p>
+        )}
       </div>
     </div>
   );
