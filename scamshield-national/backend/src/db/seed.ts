@@ -3155,9 +3155,15 @@ async function seedArticles(articles: SeedArticle[], label: string) {
        VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, true, NOW())
        ON CONFLICT (slug) DO UPDATE SET
          source_url = COALESCE(EXCLUDED.source_url, articles.source_url),
-         cover_image = COALESCE(EXCLUDED.cover_image, articles.cover_image),
-         cover_image_credit = COALESCE(EXCLUDED.cover_image_credit, articles.cover_image_credit),
-         cover_image_position = COALESCE(EXCLUDED.cover_image_position, articles.cover_image_position)`,
+         -- A manually curated photo (set via the Admin panel) is locked
+         -- and must survive reseeding — see migration 019. Only an
+         -- unlocked row takes seed.ts's photo fields.
+         cover_image = CASE WHEN articles.cover_image_locked THEN articles.cover_image
+                             ELSE COALESCE(EXCLUDED.cover_image, articles.cover_image) END,
+         cover_image_credit = CASE WHEN articles.cover_image_locked THEN articles.cover_image_credit
+                                    ELSE COALESCE(EXCLUDED.cover_image_credit, articles.cover_image_credit) END,
+         cover_image_position = CASE WHEN articles.cover_image_locked THEN articles.cover_image_position
+                                      ELSE COALESCE(EXCLUDED.cover_image_position, articles.cover_image_position) END`,
       [
         article.title,
         article.slug,

@@ -11,6 +11,7 @@ const UPDATABLE_ARTICLE_FIELDS = [
   'cover_image',
   'cover_image_credit',
   'cover_image_position',
+  'cover_image_locked',
   'source_url',
   'tags',
   'scam_id',
@@ -95,6 +96,14 @@ export const update = asyncHandler<AuthedRequest>(async (req, res) => {
   // article would jump to the top of the list ahead of dated ones.
   if (body.published === true && body.published_at === undefined) {
     body.published_at = new Date();
+  }
+  // A manual Admin edit to the cover photo is a deliberate curation
+  // decision — lock it so the next `npm run seed` (often run on an
+  // automatic schedule) doesn't silently revert it back to seed.ts's
+  // value. Forced server-side so the flag can't be bypassed or spoofed
+  // from the client.
+  if (body.cover_image !== undefined) {
+    body.cover_image_locked = true;
   }
 
   const { fields, setClauses, values } = buildUpdateSet(body, UPDATABLE_ARTICLE_FIELDS);
