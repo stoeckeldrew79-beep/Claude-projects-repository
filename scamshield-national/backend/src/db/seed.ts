@@ -2898,9 +2898,9 @@ Before donating, look up the organizer and the beneficiary independently rather 
     slug: 'counterfeit-online-pharmacy-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'counterfeit-online-pharmacy-scams'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/DEA_to_host_national_prescription_drug_take-back_160324-F-HC995-002.jpg?width=1200',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/CBP_with_bag_of_seized_counterfeit_Viagra.jpg?width=1200',
+    coverImageCredit: 'Photo: James R. Tourtellotte / U.S. Customs and Border Protection (public domain)',
     coverImagePosition: 50,
-    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.fda.gov/drugs/buying-using-medicine-safely/besaferx-your-source-online-pharmacy-information',
     body: `A website offers prescription medication at a steep discount, ships without requiring an actual prescription, and has no pharmacist available to answer questions — a combination that feels convenient to someone facing a high copay or a medication they'd rather not discuss with a doctor, but is one of the clearest signs the site isn't a real pharmacy at all. The FDA estimates that fewer than 3 percent of online pharmacies actually comply with U.S. state and federal pharmacy laws.
 
@@ -2986,6 +2986,10 @@ If you've attended one of these seminars and felt pressured, or already invested
     title: 'Courier Fraud: When a Stranger Comes to Your Door to Collect Your Bank Card or Cash',
     slug: 'courier-fraud-card-cash-collection-scam-guide',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Gold_bullion_bars.jpg?width=1200',
+    coverImageCredit: 'Photo: Stevebidmead via Pixabay (CC0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     tags: ['guide', 'courier-fraud'],
     sourceUrl: 'https://www.ic3.gov/PSA/2024/PSA240129',
     body: `Most tech support scams end with a request to buy a gift card or wire money. Courier fraud goes several steps further, and asks for something far more direct: a physical handover. It typically starts the same way most tech support scams do — a pop-up or phone call claims your computer has been hacked — but instead of stopping there, the caller transfers you to someone posing as a bank fraud investigator, and finally to someone posing as a federal government official, each one reinforcing that your money is at risk and needs to be "protected."
@@ -3000,6 +3004,10 @@ No legitimate bank, government agency, or law enforcement investigation will eve
     title: 'Business Opportunity and MLM Scams: When "Be Your Own Boss" Is the Pitch, Not a Product',
     slug: 'business-opportunity-mlm-scam-guide',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Business_man_and_woman_handshake_in_work_office.jpg?width=1200',
+    coverImageCredit: 'Photo: perzon seo (CC BY 2.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     tags: ['guide', 'business-opportunity-scam'],
     sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2024/09/what-are-multi-level-marketing-mlm-disclosure-statements-really-telling-you',
     body: `A friend, a social media ad, or someone from an old contact list reaches out with an opportunity to "be your own boss" selling a product through a multi-level marketing (MLM) company — skincare, supplements, essential oils, or financial coaching are common categories. The pitch usually leans heavily on the income other people are supposedly making, often shown through screenshots of deposit notifications or vague references to a six-figure lifestyle, with much less said about what it actually costs to get started or keep going.
