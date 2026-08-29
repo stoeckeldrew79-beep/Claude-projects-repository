@@ -1939,6 +1939,10 @@ The case became internationally known well beyond Israel's court system after Ne
     title: 'Zachary Horwitz: The Aspiring Actor Whose $650 Million Ponzi Scheme Ran on Fake Netflix and HBO Deals',
     slug: 'zachary-horwitz-1inmm-capital-ponzi-scheme',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Film_reel.jpg?width=1200',
+    coverImageCredit: 'Photo: Runner1616 (CC BY-SA 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Zachary Horwitz, who acted under the screen name "Zach Avery," spent most of the 2010s taking small, mostly uncredited roles in low-budget films while his real income came from somewhere else entirely. Through a company he founded called 1inMM Capital LLC, Horwitz told investors — including personal friends — that their money would be used to acquire regional licensing rights to films, which would then be sublicensed to streaming platforms including Netflix and HBO for guaranteed, above-market returns.
 
@@ -1953,6 +1957,10 @@ Horwitz's case is a reminder that Hollywood's own opacity — foreign distributi
     title: 'Alex Mashinsky and the Celsius Network Crypto Lending Collapse',
     slug: 'alex-mashinsky-celsius-network-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/HobokenNorthEnd.JPG?width=1200',
+    coverImageCredit: 'Photo: Hudconja (CC BY-SA 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer'],
     body: `Alex Mashinsky founded Celsius Network in 2017, building it into one of the largest crypto lending platforms in the world on a simple pitch: deposit your cryptocurrency with Celsius's "Earn" program, and collect weekly interest — sometimes as high as 18% annually — that Mashinsky routinely said was safer than a traditional bank. In a 2021 interview, he told customers Celsius's Earn program had received regulatory approval, which prosecutors say was false and which he knew was false when he said it.
 
@@ -1967,6 +1975,9 @@ Celsius stands out among crypto-era frauds for how closely it mimicked a convent
     title: 'George Santos: The Congressman Whose Résumé and Campaign Were Both Fabricated',
     slug: 'george-santos-congressional-wire-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Rep._George_Santos_Official_Portrait.jpg?width=1200',
+    coverImageCredit: 'Photo: Ike Hayman / U.S. House Office of Photography (public domain)',
+    coverImagePosition: 50,
     tags: ['notorious', 'notorious-scammer'],
     body: `George Santos won a U.S. House seat representing New York in 2022 on a personal biography that turned out to be substantially invented — but the fraud that ultimately sent him to prison ran through his campaign finances, not just his résumé. Beginning in September 2022, Santos and an associate charged campaign donors' credit cards repeatedly without authorization, funneling the money into his own campaign, other candidates' campaigns, and his personal bank account, then filed false reports with the Federal Election Commission claiming the contributions had actually come from relatives or associates — concealing the unauthorized charges and evading federal contribution limits at the same time.
 
