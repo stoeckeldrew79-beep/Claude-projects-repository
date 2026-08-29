@@ -1460,6 +1460,10 @@ Greater Ministries remains one of the starkest examples of an affinity fraud —
     title: 'Haywood "Don" Hall: The Traveling Pastor Behind GMIC\'s Roadshow Pitch',
     slug: 'haywood-eudon-hall-gmic-roadshow-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Downtown_Tampa_Skyline.jpg?width=1200',
+    coverImageCredit: 'Photo: Mark Szelistowski (CC BY-SA 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Haywood Eudon Hall, known as "Don" Hall, joined Greater Ministries International Church (GMIC) in early 1996 as a director, pastor, and head of its World Missions program — arriving several years after Gerald Payne had already started the "gifting" program this site profiles separately. Hall didn't invent the scheme, but he became one of its most effective promoters, traveling the country with other GMIC elders to hold "roadshow" meetings recruiting new participants into what was, by then, being marketed as the "Faith Promises Program."
 
