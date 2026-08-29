@@ -36,7 +36,7 @@ const NOTORIOUS_ARTICLES: SeedArticle[] = [
     slug: 'charles-ponzi-the-original-scheme',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Charles_Ponzi_mug_shot.jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Charles_Ponzi_mug_shot.jpg?width=1200',
     coverImagePosition: 50,
     body: `In 1920, a Boston businessman named Charles Ponzi promised investors he could double their money in 90 days. His pitch had a real financial instrument behind it: international postal reply coupons, which could in theory be bought cheaply in one country and redeemed for stamps worth more in another. The arbitrage was real. The scale Ponzi claimed to be running it at was not.
 
@@ -52,7 +52,7 @@ Ponzi didn't invent the pay-earlier-investors-with-later-investors' -money struc
     slug: 'bernie-madoff-largest-ponzi-scheme',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Bernard_Madoff_2009_mug_shot_(3x4_cropped).jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Bernard_Madoff_2009_mug_shot_(3x4_cropped).jpg?width=1200',
     coverImagePosition: 50,
     body: `Bernard Madoff spent decades as a respected figure on Wall Street — a former chairman of the NASDAQ stock exchange — running an investment advisory business that quietly became the largest Ponzi scheme in history. For at least 17 years, and likely longer, Madoff paid "returns" to investors using money from new investors, while producing no real trading activity behind the numbers on their statements.
 
@@ -82,7 +82,7 @@ Advance-fee fraud remains one of the most reported scam categories worldwide pre
     slug: 'frank-abagnale-catch-me-if-you-can-fact-check',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Abagnale-friendswood-april-26-2021-louisiana-voice.png',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Abagnale-friendswood-april-26-2021-louisiana-voice.png?width=1200',
     coverImagePosition: 50,
     body: `Frank Abagnale's own account, told in his 1980 memoir "Catch Me If You Can" and popularized by the 2002 film of the same name, is one of the most famous con-artist stories of the 20th century: a teenager in the 1960s who allegedly impersonated an airline pilot, a doctor, and a lawyer, forged roughly $2.5 million in fraudulent checks across 26 countries, and escaped custody multiple times before eventually being caught and later hired by the FBI to teach fraud prevention.
 
@@ -98,7 +98,7 @@ The reason this belongs on a list of notorious scams isn't the alleged teenage c
     slug: 'anna-sorokin-anna-delvey-fake-heiress',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Anna_Sorokin,_2022.jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Anna_Sorokin,_2022.jpg?width=1200',
     coverImageCredit: 'Photo: Anna Sorokina (CC BY-SA 4.0)',
     coverImagePosition: 50,
     body: `Between 2013 and 2017, a young woman calling herself "Anna Delvey" moved through New York's social scene claiming to be a wealthy German heiress about to inherit a multimillion-dollar trust fund, planning to open an exclusive private arts club. She stayed in luxury hotels, dined at expensive restaurants, tipped generously, and befriended people with real money and real social standing — all while her actual funds were, at best, a fraction of what she projected.
@@ -115,7 +115,7 @@ What made the con work wasn't a fake ID or a forged document — those came late
     slug: 'elizabeth-holmes-theranos-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Elizabeth_Holmes_2014_cropped.jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Elizabeth_Holmes_2014_cropped.jpg?width=1200',
     coverImageCredit: 'Photo: Max Morse for TechCrunch (CC BY 2.0)',
     coverImagePosition: 50,
     body: `Elizabeth Holmes founded Theranos in 2003 at age 19, dropping out of Stanford with a pitch that sounded like a genuine medical breakthrough: a device that could run hundreds of lab tests from a single finger-prick of blood, cheaper and faster than a traditional venous draw. By 2014, Theranos was valued at roughly $9 billion, Holmes was profiled as the youngest self-made female billionaire in the country, and her board included former Secretaries of State and Defense.
@@ -132,7 +132,7 @@ Theranos is a useful case precisely because there was no fake voice on the phone
     slug: 'sam-bankman-fried-ftx-collapse',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Sam_Bankman-Fried_(cropped).png',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Sam_Bankman-Fried_(cropped).png?width=1200',
     coverImageCredit: 'Photo: Cointelegraph (CC BY 3.0)',
     coverImagePosition: 50,
     body: `Sam Bankman-Fried founded the cryptocurrency exchange FTX in 2019, and within a few years built it into one of the largest exchanges in the world — and himself into a media fixture, testifying before Congress, donating heavily to political campaigns, and drawing comparisons to Warren Buffett, all while FTX ran Super Bowl ads and his paper net worth was estimated in the billions.
@@ -149,7 +149,7 @@ FTX is a reminder that celebrity endorsements, slick marketing, and even testimo
     slug: 'jordan-belfort-stratton-oakmont-wolf-of-wall-street',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Jordan_Belfort_-_May_30,_2010.jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Jordan_Belfort_-_May_30,_2010.jpg?width=1200',
     coverImageCredit: 'Photo: Ralph Zuranski (CC BY 2.0)',
     coverImagePosition: 50,
     body: `Through the late 1980s and 1990s, Jordan Belfort ran Stratton Oakmont, a Long Island brokerage built around a classic "pump and dump" scheme: brokers aggressively cold-called investors to buy shares in small, often nearly worthless companies that Stratton Oakmont itself secretly controlled large blocks of. The buying pressure artificially inflated ("pumped") the share price, at which point insiders sold ("dumped") their own shares at the inflated price — leaving ordinary investors holding stock that collapsed once the manufactured demand stopped.
@@ -166,7 +166,7 @@ The gap between what Belfort owes and what he's actually paid is worth knowing o
     slug: 'allen-stanford-stanford-financial-ponzi-scheme',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Allen_Stanford_mug_shot.jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Allen_Stanford_mug_shot.jpg?width=1200',
     coverImagePosition: 50,
     body: `Robert Allen Stanford built Stanford Financial Group into a network of investment firms centered on Stanford International Bank, an offshore bank he ran out of Antigua and Barbuda, where his wealth and political influence earned him an honorary knighthood. Over roughly two decades, the bank sold certificates of deposit promising unusually high, steady returns, eventually reaching somewhere between 18,000 and 30,000 investors in more than 100 countries.
 
@@ -182,7 +182,7 @@ That Stanford's fraud surfaced within weeks of Madoff's isn't entirely a coincid
     slug: 'billy-mcfarland-fyre-festival',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Billy_McFarland_Entrepreneur_2014_(cropped).jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Billy_McFarland_Entrepreneur_2014_(cropped).jpg?width=1200',
     coverImageCredit: 'Photo: Ian Moran / I to Z Photo + Video (CC BY-SA 3.0)',
     coverImagePosition: 50,
     body: `In 2017, Billy McFarland and rapper Ja Rule marketed the "Fyre Festival" as a luxury music festival on a private Bahamian island, using a viral, influencer-driven campaign — models and celebrities all posting an identical orange square — to sell tickets ranging from hundreds of dollars to over $100,000, promising gourmet catering, luxury villas, and major musical acts.
@@ -198,7 +198,7 @@ McFarland is unusual on this list for trying the same playbook twice, in public,
     title: 'Rita Crundwell: The Small-Town Comptroller Who Stole $53 Million',
     slug: 'rita-crundwell-dixon-illinois-embezzlement',
     author: 'ScamShield Editorial',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Dixon_Il_Lee_County_Courthouse1.jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Dixon_Il_Lee_County_Courthouse1.jpg?width=1200',
     coverImageCredit: 'Photo: IvoShandor (CC BY-SA 3.0)',
     coverImagePosition: 50,
     // representative photo — replace with a portrait if found
@@ -217,7 +217,7 @@ The case remains a reference point for municipal fraud prevention for a simple r
     slug: 'enron-accounting-fraud-collapse',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Jeffrey_Skilling_mug_shot.jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Jeffrey_Skilling_mug_shot.jpg?width=1200',
     coverImagePosition: 50,
     body: `Founded from a 1985 merger, Enron grew into one of the largest energy trading companies in America, named "America's Most Innovative Company" by Fortune magazine for six consecutive years through 2000. Its stock was a Wall Street favorite, and its executives were celebrated as visionaries reinventing how energy markets worked.
 
@@ -232,7 +232,7 @@ Enron remains the reference case for a specific kind of fraud — not a lone con
     title: "Wirecard: Germany's Biggest Fraud, and the Executive Who Vanished",
     slug: 'wirecard-jan-marsalek-fraud',
     author: 'ScamShield Editorial',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Wirecard-aschheim-2019.jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Wirecard-aschheim-2019.jpg?width=1200',
     coverImageCredit: 'Photo: Kaethe17 (CC BY-SA 4.0)',
     coverImagePosition: 50,
     // representative photo — replace with a more specific case photo if found
@@ -250,7 +250,7 @@ Wirecard is a reminder that even a company listed on a major stock index, audite
     title: 'Bre-X: The Billion-Dollar Gold Mine That Was Never There',
     slug: 'bre-x-gold-mine-fraud',
     author: 'ScamShield Editorial',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Exchange_Tower,_Toronto,_Ontario_(29919575011).jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Exchange_Tower,_Toronto,_Ontario_(29919575011).jpg?width=1200',
     coverImageCredit: 'Photo: Ken Lund (CC BY-SA 2.0)',
     coverImagePosition: 50,
     // representative photo — replace with a more specific case photo if found
@@ -283,7 +283,7 @@ The case is a reminder that a criminal accusation and a criminal conviction are 
     slug: 'lou-pearlman-boy-band-ponzi-scheme',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Lou-pearlman-mugshot.jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Lou-pearlman-mugshot.jpg?width=1200',
     coverImagePosition: 50,
     body: `Lou Pearlman built and managed some of the biggest boy bands of the 1990s and 2000s, including the Backstreet Boys and *NSYNC, becoming one of the most powerful figures in pop music. Alongside his entertainment business, he ran investment programs — including an "Employee Investment Savings Account" and an airline-leasing venture — that promised safe, above-market returns.
 
@@ -298,7 +298,7 @@ Pearlman's case shows how a fraud can hide behind a legitimate, glamorous busine
     title: 'Marcus Schrenker: The Financial Adviser Who Faked His Own Plane Crash',
     slug: 'marcus-schrenker-faked-plane-crash-fraud',
     author: 'ScamShield Editorial',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Piper_PA-46-500TP_Malibu_Meridian_taxiing.jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Piper_PA-46-500TP_Malibu_Meridian_taxiing.jpg?width=1200',
     coverImageCredit: 'Photo: bomberpilot (CC BY-SA 2.0)',
     coverImagePosition: 50,
     // representative photo — replace with a portrait if found
@@ -317,7 +317,7 @@ Beyond the fraud itself — an all-too-common fake investment fund — the stage
     slug: 'ruja-ignatova-onecoin-cryptoqueen-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Ruja_Ignatova_FBI_(rightpic).jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Ruja_Ignatova_FBI_(rightpic).jpg?width=1200',
     coverImagePosition: 50,
     body: `Ruja Ignatova launched OneCoin in 2014, marketing it worldwide as a revolutionary cryptocurrency positioned to rival Bitcoin, sold through a multi-level-marketing structure that rewarded members for recruiting new investors as much as for the coin itself. Filling packed arenas across Europe, Asia, and Africa with the confidence of a tech visionary, she built OneCoin into a global operation that took in an estimated $4 billion or more from investors before anyone could verify the one thing the entire pitch depended on.
 
@@ -333,7 +333,7 @@ OneCoin is a useful case precisely because the fraud wasn't a subtle accounting 
     slug: 'michael-milken-junk-bond-king-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Michael_Milken_1.jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Michael_Milken_1.jpg?width=1200',
     coverImagePosition: 50,
     body: `Michael Milken built the high-yield "junk bond" market at Drexel Burnham Lambert into one of the most powerful financing engines on Wall Street through the 1980s, using it to fund the era's wave of corporate takeovers and leveraged buyouts. At his peak he was reportedly the highest-paid person in America, earning hundreds of millions of dollars a year and wielding influence that let him reshape entire industries from his famous "X-shaped" trading desk in Beverly Hills.
 
@@ -349,7 +349,7 @@ The case remains a foundational reference point for insider trading and securiti
     slug: 'sam-israel-bayou-hedge-fund-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Samuel_Israel_III.jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Samuel_Israel_III.jpg?width=1200',
     coverImagePosition: 50,
     body: `Sam Israel III founded the Bayou Hedge Fund Group in 1996, reporting steady, market-beating returns to investors year after year. Behind those numbers, the fund was actually losing money almost from the start; Israel and an accomplice covered the losses by creating a fake accounting firm to produce audited-looking statements that bore no relationship to the fund's real performance, a nearly identical mechanism to the fabricated audits later found at Bernie Madoff's and Lou Pearlman's operations.
 
@@ -365,7 +365,7 @@ Sam Israel's story is a near-exact echo of Marcus Schrenker's staged plane crash
     slug: 'bernard-ebbers-worldcom-accounting-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Bernard_Ebbers.jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Bernard_Ebbers.jpg?width=1200',
     coverImagePosition: 50,
     body: `Bernard Ebbers built WorldCom from a small Mississippi long-distance reseller into the second-largest telecommunications company in the United States through the 1990s, fueled by an aggressive string of acquisitions, including its $37 billion purchase of MCI. When the telecom industry's growth slowed at the turn of the century, WorldCom's stock price — and Ebbers' own heavily leveraged personal fortune, much of it borrowed against WorldCom shares — depended on the company continuing to look like it was growing.
 
@@ -380,7 +380,7 @@ WorldCom, alongside Enron the same year, became a defining case for corporate ac
     title: 'Charles Keating and the Lincoln Savings Collapse That Cost Taxpayers Billions',
     slug: 'charles-keating-lincoln-savings-fraud',
     author: 'ScamShield Editorial',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Downtown_Phoenix_Skyline_at_Night.jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Downtown_Phoenix_Skyline_at_Night.jpg?width=1200',
     coverImageCredit: 'Photo: Alan Stark (CC BY-SA 2.0)',
     coverImagePosition: 50,
     // representative photo — replace with a portrait if found
@@ -398,7 +398,7 @@ The Keating Five scandal reshaped how seriously Congress treated its own senator
     title: "Nick Leeson, the \"Rogue Trader\" Who Brought Down Britain's Oldest Bank",
     slug: 'nick-leeson-barings-bank-collapse',
     author: 'ScamShield Editorial',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Changi_Prison,_Singapore.jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Changi_Prison,_Singapore.jpg?width=1200',
     coverImagePosition: 50,
     // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
@@ -416,7 +416,7 @@ Barings' collapse became the textbook case for why trading and settlement have t
     slug: 'martin-shkreli-securities-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Mr._Shkreli_(cropped).jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Mr._Shkreli_(cropped).jpg?width=1200',
     coverImageCredit: 'Photo: U.S. House Committee on Oversight and Government Reform (Public Domain)',
     coverImagePosition: 50,
     body: `Martin Shkreli became infamous in 2015 as the "Pharma Bro" who raised the price of a life-saving drug, Daraprim, by over 5,000% overnight as CEO of Turing Pharmaceuticals — a legal, if widely condemned, business decision. The securities fraud that actually sent him to prison had nothing to do with drug pricing, and predates that scandal by several years.
@@ -447,7 +447,7 @@ Rothstein's case stands out for how much of the fraud depended on the credibilit
     slug: 'jerome-kerviel-societe-generale-rogue-trader',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/2015_popfinance_crowdfunding_221.jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/2015_popfinance_crowdfunding_221.jpg?width=1200',
     coverImageCredit: 'Photo: Max malafosse (CC BY-SA 4.0)',
     coverImagePosition: 50,
     body: `Jérôme Kerviel worked as a junior trader on the futures desk at Société Générale, one of France's largest banks, a job that gave him direct knowledge of the bank's internal risk-control systems from an earlier role in its back office. Starting around 2005, he began placing unauthorized bets on European stock index futures far beyond his trading limits — and used that back-office knowledge to fake offsetting trades that made his real, unhedged positions disappear from the bank's risk reports.
@@ -463,7 +463,7 @@ The Kerviel case became a defining example, alongside Nick Leeson's collapse of 
     title: 'Tom Petters and the $3.65 Billion Ponzi Scheme Hidden Inside a Real Business Empire',
     slug: 'tom-petters-ponzi-scheme',
     author: 'ScamShield Editorial',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/US_Federal_Penitentiary_-_Leavenworth,_Kansas_-_USA.jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/US_Federal_Penitentiary_-_Leavenworth,_Kansas_-_USA.jpg?width=1200',
     coverImageCredit: 'Photo: Tequask (CC BY-SA 4.0)',
     coverImagePosition: 50,
     // representative photo — replace with a portrait if found
@@ -482,7 +482,7 @@ The case is a reminder that owning real, recognizable companies doesn't make a b
     slug: 'eddie-antar-crazy-eddie-stock-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Eddie_Antar_mugshot.png',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Eddie_Antar_mugshot.png?width=1200',
     coverImagePosition: 50,
     body: `Eddie Antar built Crazy Eddie into one of the most recognizable electronics retail chains in the New York area during the 1970s and '80s, fronted by manic, unmistakable TV commercials promising prices so low they were "INSAAAANE." Behind the storefront, Antar and his family ran a cash-skimming operation for years before the company ever went public in 1984 — quietly pocketing a portion of cash sales and underreporting income to shrink the company's tax bill.
 
@@ -497,7 +497,7 @@ Crazy Eddie's collapse became a staple case study in forensic accounting precise
     title: 'Marc Dreier: The Manhattan Lawyer Who Sold $700 Million in Fake Promissory Notes',
     slug: 'marc-dreier-law-firm-fraud',
     author: 'ScamShield Editorial',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Daniel_Patrick_Moynihan_U.S._Courthouse,_Manhattan,_New_York_(7237347688).jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Daniel_Patrick_Moynihan_U.S._Courthouse,_Manhattan,_New_York_(7237347688).jpg?width=1200',
     coverImageCredit: 'Photo: Ken Lund (CC BY-SA 2.0)',
     coverImagePosition: 50,
     // representative photo — replace with a portrait if found
@@ -515,7 +515,7 @@ Dreier's case is notable for how much of the fraud depended on performance rathe
     title: "Dennis Kozlowski and Tyco's $6,000 Shower Curtain",
     slug: 'dennis-kozlowski-tyco-fraud',
     author: 'ScamShield Editorial',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Tyco_Headquarters.jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Tyco_Headquarters.jpg?width=1200',
     coverImageCredit: 'Photo: David Keddie (CC BY-SA 4.0)',
     coverImagePosition: 50,
     // representative photo — replace with a portrait if found
@@ -534,7 +534,7 @@ The Tyco case became one of the defining corporate-excess scandals of the early 
     slug: 'raj-rajaratnam-galleon-insider-trading',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Raj_Rajaratnam_in_2024.jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Raj_Rajaratnam_in_2024.jpg?width=1200',
     coverImageCredit: 'Photo: Shankar2001 (CC BY-SA 4.0)',
     coverImagePosition: 50,
     body: `Raj Rajaratnam founded the Galleon Group, one of the largest hedge funds in the world at its peak, managing billions of dollars built on what looked like an exceptional research edge. In reality, that edge came substantially from a network of corporate insiders — executives and consultants at companies including IBM, Intel, and Goldman Sachs — whom Rajaratnam cultivated to feed him confidential, market-moving information before it became public.
@@ -550,7 +550,7 @@ The Galleon case reshaped how insider trading gets prosecuted: the wiretap evide
     title: 'Ivan Boesky: The Insider-Trading King Who Turned Informant on Wall Street',
     slug: 'ivan-boesky-insider-trading-scandal',
     author: 'ScamShield Editorial',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Thurgood_Marshall_United_States_Courthouse_40_Centre_Street.jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Thurgood_Marshall_United_States_Courthouse_40_Centre_Street.jpg?width=1200',
     coverImagePosition: 50,
     // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
@@ -568,7 +568,7 @@ Boesky's case marked the moment insider trading stopped being treated as a quiet
     slug: 'kweku-adoboli-ubs-rogue-trader',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/938149-kweku-adoboli_(7651034606).jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/938149-kweku-adoboli_(7651034606).jpg?width=1200',
     coverImageCredit: 'Photo: thetaxhaven (CC BY 2.0)',
     coverImagePosition: 50,
     body: `Kweku Adoboli worked as a trader on the exchange-traded funds desk at UBS's London investment bank, a role that came with defined risk limits meant to cap how much the bank could lose on any position he took. Starting around 2008, Adoboli began trading well beyond those authorized limits, and rather than report the resulting losses, he covered them up using fictitious hedge positions — fake internal trades that made his real, unhedged bets disappear from the bank's own risk reports, the same core technique Jérôme Kerviel had used against Société Générale a few years earlier.
@@ -584,7 +584,7 @@ Adoboli's case, arriving just years after Kerviel's, showed that Barings-style r
     title: "Lee Farkas and the $2.9 Billion Fraud That Sank Colonial Bank",
     slug: 'lee-farkas-colonial-bank-fraud',
     author: 'ScamShield Editorial',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Albert_V_Bryan_Federal_District_Courthouse_-_Alexandria_Va.jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Albert_V_Bryan_Federal_District_Courthouse_-_Alexandria_Va.jpg?width=1200',
     coverImageCredit: 'Photo: Tim Evanson (CC BY-SA 2.0)',
     coverImagePosition: 50,
     // representative photo — replace with a portrait if found
@@ -603,7 +603,7 @@ The Colonial Bank collapse is a reminder that mortgage fraud isn't limited to in
     slug: 'toshihide-iguchi-daiwa-bank-rogue-trader',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Toshihide-Iguchi.png',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Toshihide-Iguchi.png?width=1200',
     coverImageCredit: 'Photo: Globalkitty (CC BY-SA 3.0)',
     coverImagePosition: 50,
     body: `Toshihide Iguchi worked as a bond trader at Daiwa Bank's New York branch, a role that — much like Nick Leeson's at Barings a decade later — combined trading authority with control over settling his own trades. Starting in 1984, unauthorized trades began losing money, and rather than report the losses, Iguchi began covering them up by secretly selling off bank-owned and customer-owned securities held in Daiwa's New York vault without authorization.
@@ -619,7 +619,7 @@ The Daiwa case became a landmark example of why regulators treat a cover-up as s
     title: '"Mr. Copper" Yasuo Hamanaka and the $2.6 Billion Attempt to Corner a Global Metal Market',
     slug: 'yasuo-hamanaka-sumitomo-copper-scandal',
     author: 'ScamShield Editorial',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/LME_Entrance.jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/LME_Entrance.jpg?width=1200',
     coverImageCredit: 'Photo: Kreepin Deth (CC BY-SA 3.0)',
     coverImagePosition: 50,
     // representative photo — replace with a portrait if found
@@ -665,7 +665,7 @@ Vesco's case remains a landmark example of how a fraud can outlast prosecution e
     title: "Reed Slatkin's $593 Million Ponzi Scheme Built on Fellow Scientologists' Trust",
     slug: 'reed-slatkin-scientology-ponzi-scheme',
     author: 'ScamShield Editorial',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Roybal_Building.jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Roybal_Building.jpg?width=1200',
     coverImageCredit: 'Photo: DocFreeman24 (CC BY-SA 4.0)',
     coverImagePosition: 50,
     // representative photo — replace with a portrait if found
@@ -683,7 +683,7 @@ Slatkin's case is a clear illustration of "affinity fraud" — schemes that spre
     title: 'Norman Hsu: The Political Fundraiser Whose Ponzi Scheme Funded His Own Influence',
     slug: 'norman-hsu-political-fundraiser-ponzi-scheme',
     author: 'ScamShield Editorial',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Daniel_Patrick_Moynihan_U.S._Courthouse,_Manhattan,_New_York_(7237347688).jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Daniel_Patrick_Moynihan_U.S._Courthouse,_Manhattan,_New_York_(7237347688).jpg?width=1200',
     coverImageCredit: 'Photo: Ken Lund (CC BY-SA 2.0)',
     coverImagePosition: 50,
     // representative photo — replace with a portrait if found
@@ -701,7 +701,7 @@ Hsu's case is a striking example of how stolen money can be recycled into appare
     title: 'Kirk Wright and the Hedge Fund That Targeted His Own NFL Client Base',
     slug: 'kirk-wright-international-management-associates-fraud',
     author: 'ScamShield Editorial',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Richard_Russell_Federal_Building.jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Richard_Russell_Federal_Building.jpg?width=1200',
     coverImageCredit: 'Photo: DukeArcTerex (CC BY 3.0)',
     coverImagePosition: 50,
     // representative photo — replace with a portrait if found
@@ -720,7 +720,7 @@ The case became a pointed example of affinity fraud aimed specifically at profes
     slug: 'nevin-shapiro-capitol-investments-ponzi-scheme',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Nevin_Shapiro,_2020_(cropped).jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Nevin_Shapiro,_2020_(cropped).jpg?width=1200',
     coverImageCredit: 'Photo: ILLideL (CC BY-SA 4.0)',
     coverImagePosition: 50,
     body: `Nevin Shapiro founded Capitol Investments USA, telling investors the company profited by purchasing wholesale groceries in bulk and reselling them to retailers at a markup. Between 2005 and 2009, he raised roughly $930 million from investors on the strength of that story, paying "returns" to earlier backers using money raised from new ones rather than any real grocery-trading profits.
@@ -736,7 +736,7 @@ Shapiro's case is unusual for how directly the stolen money became public specta
     title: "Paul Burks and ZeekRewards, the $600 Million Online Ponzi Disguised as a Rewards Program",
     slug: 'paul-burks-zeekrewards-ponzi-scheme',
     author: 'ScamShield Editorial',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Charles_R._Jonas_Federal_Building,_Charlotte_(Mecklenburg_County,_North_Carolina).jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Charles_R._Jonas_Federal_Building,_Charlotte_(Mecklenburg_County,_North_Carolina).jpg?width=1200',
     coverImagePosition: 50,
     // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
@@ -753,7 +753,7 @@ ZeekRewards is a textbook illustration of how a Ponzi scheme can hide inside an 
     title: 'Frank Gruttadauria: The Star Broker Who Faked Statements for 15 Years',
     slug: 'frank-gruttadauria-broker-fraud',
     author: 'ScamShield Editorial',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Carl_B._Stokes_United_States_Courthouse,_Cleveland,_OH_(28692186017).jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Carl_B._Stokes_United_States_Courthouse,_Cleveland,_OH_(28692186017).jpg?width=1200',
     coverImagePosition: 50,
     // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
@@ -770,7 +770,7 @@ The case became a significant example of supervisory failure at the firm level: 
     title: 'Christopher Skase and the $1.5 Billion Qintex Collapse He Never Answered For',
     slug: 'christopher-skase-qintex-collapse-fugitive',
     author: 'ScamShield Editorial',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Sheraton_Mirage_Port_Douglas_Resort,_2015_(01).JPG',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Sheraton_Mirage_Port_Douglas_Resort,_2015_(01).JPG?width=1200',
     coverImageCredit: 'Photo: Bahnfrend (CC BY-SA 4.0)',
     coverImagePosition: 50,
     // representative photo — replace with a portrait if found
@@ -803,7 +803,7 @@ The ImClone case is notable for how far a single piece of leaked information tra
     slug: 'angelo-mozilo-countrywide-financial-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Angelo_Mozilo_2002_(cropped).jpeg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Angelo_Mozilo_2002_(cropped).jpeg?width=1200',
     coverImageCredit: 'Photo: Ron Bennett / HUD (Public Domain)',
     coverImagePosition: 65,
     body: `Angelo Mozilo co-founded Countrywide Financial and built it into the largest mortgage lender in the United States, aggressively expanding into subprime lending — loans to borrowers with weaker credit, often on terms that became unaffordable once introductory rates expired. As the housing market boomed through the 2000s, Countrywide's growth made Mozilo one of the most prominent and highly paid executives in American finance.
@@ -820,7 +820,7 @@ Mozilo's case became one of the defining examples of executive accountability, o
     slug: 'robert-maxwell-pension-fund-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Robert_Maxwell_1989.jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Robert_Maxwell_1989.jpg?width=1200',
     coverImagePosition: 50,
     body: `Robert Maxwell built a publishing empire spanning Mirror Group Newspapers, Maxwell Communication Corporation, and the market research firm AGB, becoming one of Britain's most powerful media figures through the 1980s. Behind the public image, Maxwell was quietly using his employees' pension funds as his personal source of liquidity — pledging pension assets as collateral for loans to his private companies and using pension money to prop up the price of his own publicly traded shares.
 
@@ -835,7 +835,7 @@ The Maxwell scandal became the direct catalyst for the UK's Pensions Act 1995, w
     title: 'Asil Nadir and the Polly Peck Collapse He Fled For 17 Years',
     slug: 'asil-nadir-polly-peck-fraud',
     author: 'ScamShield Editorial',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Old_Bailey_October_2022.jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Old_Bailey_October_2022.jpg?width=1200',
     coverImageCredit: 'Photo: Nick-D (CC BY-SA 4.0)',
     coverImagePosition: 50,
     // representative photo — replace with a portrait if found
@@ -854,7 +854,7 @@ Nadir, who died in February 2025 at age 83, remained a divisive figure in Britai
     slug: 'conrad-black-hollinger-international-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Conrad_Black_mug_shot.jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Conrad_Black_mug_shot.jpg?width=1200',
     coverImagePosition: 50,
     body: `Conrad Black built Hollinger International into one of the world's largest newspaper empires, owning titles including Britain's Daily Telegraph, Canada's National Post, and the Chicago Sun-Times, and became one of the most prominent media barons of his era. As Hollinger sold off newspaper properties through the early 2000s, prosecutors alleged that Black and several other executives diverted millions of dollars meant for the company into their own pockets, disguised as "non-compete" payments — fees the buyers of Hollinger's newspapers paid supposedly to keep Hollinger itself from launching competing publications, money that should have gone to Hollinger's shareholders rather than its executives.
 
@@ -869,7 +869,7 @@ Black's case became a widely cited example of how a media proprietor's control o
     title: 'Kenneth Starr: The Financial Adviser to the Stars Who Stole From His Own Clients',
     slug: 'kenneth-starr-celebrity-money-manager-fraud',
     author: 'ScamShield Editorial',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Daniel_Patrick_Moynihan_U.S._Courthouse,_Manhattan,_New_York_(7237347688).jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Daniel_Patrick_Moynihan_U.S._Courthouse,_Manhattan,_New_York_(7237347688).jpg?width=1200',
     coverImageCredit: 'Photo: Ken Lund (CC BY-SA 2.0)',
     coverImagePosition: 50,
     // representative photo — replace with a portrait if found
@@ -888,7 +888,7 @@ Starr's case is a reminder that a fraudster's most valuable asset is often reput
     slug: 'sholam-weiss-national-heritage-life-insurance-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Sholam_Weiss.jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Sholam_Weiss.jpg?width=1200',
     coverImageCredit: 'Photo: Lexjuris (CC BY-SA 4.0)',
     coverImagePosition: 50,
     body: `Sholam Weiss was a key figure behind the collapse of Orlando-based National Heritage Life Insurance Company in the 1990s, part of a scheme that federal authorities said siphoned roughly $450 million out of the insurer through worthless stocks and inflated mortgage investments. The company's failure — described by prosecutors as the largest insurance-company collapse caused by criminal acts in U.S. history — wiped out policies held by tens of thousands of ordinary customers across 15 states.
@@ -904,7 +904,7 @@ The sheer scale of Weiss's original sentence — hundreds of years beyond any hu
     title: 'R. Foster Winans: The Wall Street Journal Columnist Who Traded on His Own Column',
     slug: 'r-foster-winans-heard-on-the-street-insider-trading',
     author: 'ScamShield Editorial',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Wall_Street_Sign_NYC.jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Wall_Street_Sign_NYC.jpg?width=1200',
     coverImageCredit: 'Photo: JSquish (CC BY-SA 3.0)',
     coverImagePosition: 50,
     // representative photo — replace with a portrait if found
@@ -937,7 +937,7 @@ The case is a reminder that faking a disappearance doesn't make a fraud disappea
     slug: 'stavisky-affair-french-bond-fraud-1934',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Alexandre_Stavisky_1926.jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Alexandre_Stavisky_1926.jpg?width=1200',
     coverImagePosition: 50,
     body: `Serge Alexandre Stavisky was a French financier and con man who built a career on fraudulent bond schemes run through provincial pawnshops, culminating in a fraud centered on the Crédit Municipal de Bayonne, a municipal pawnbroking institution. Stavisky had the institution issue bonds against wildly inflated collateral — including a supposed cache of emeralds he claimed once belonged to the German Empress, later shown to be worthless glass — then had those fraudulent bonds sold to insurance companies and investors as legitimate municipal debt, ultimately placing roughly $18 million worth before the scheme was uncovered.
 
@@ -953,7 +953,7 @@ The affair reached its most consequential moment on February 6, 1934, when far-r
     slug: 'kobi-alexander-comverse-options-backdating-fugitive',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Kobi_Alexander.JPG',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Kobi_Alexander.JPG?width=1200',
     coverImageCredit: 'Photo: Jordano1995 (CC BY-SA 3.0)',
     coverImagePosition: 50,
     body: `Kobi Alexander spent roughly a decade as CEO of Comverse Technology secretly backdating stock option grants — choosing dates when the company's stock had hit historic lows, then having Comverse's general counsel fabricate board committee records showing the options had been approved on those earlier, lower-priced dates. That backdating quietly handed Alexander and two other executives in-the-money options worth tens of millions of dollars without ever disclosing the practice to shareholders or regulators. Separately, from 1999 to 2002, Alexander and Comverse's CFO padded option-grant lists submitted to the board with fictitious employee names, building an undisclosed slush fund of "phantom" options they later reallocated to real employees to recruit and retain staff off the books.
@@ -970,7 +970,7 @@ Alexander's decade in Namibia is a reminder that fleeing to a country without an
     slug: 'boss-tweed-tammany-hall-courthouse-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Tweed-Boss-LOC.jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Tweed-Boss-LOC.jpg?width=1200',
     coverImagePosition: 50,
     body: `William "Boss" Tweed led the Tammany Hall political machine that controlled New York City government in the years after the Civil War, and used that control to run one of the largest municipal fraud schemes in American history. The clearest example was the construction of a new county courthouse on Chambers Street: originally budgeted at $250,000, the building's cost ballooned to roughly $13 million after Tweed and his associates directed favored contractors to inflate their invoices by five to a hundred times the real cost of materials and labor, with the overcharges quietly kicked back to Tweed's inner circle through a network of bank transactions. Investigators at the time estimated the broader "Tweed Ring" had drained roughly $45 million from the city treasury over about three years, though later historical estimates of the total theft, including patronage and kickback schemes beyond the courthouse alone, have ranged much higher.
 
@@ -985,7 +985,7 @@ Tweed's case remains a foundational study in how fraud hides in plain sight insi
     title: 'Ephren Taylor: The "Social Capitalist" Who Ran a Ponzi Scheme Through Black Churches',
     slug: 'ephren-taylor-city-capital-church-ponzi-scheme',
     author: 'ScamShield Editorial',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Richard_B._Russell_Federal_Building_and_Courthouse,_Atlanta_(Fulton_County,_Georgia).jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Richard_B._Russell_Federal_Building_and_Courthouse,_Atlanta_(Fulton_County,_Georgia).jpg?width=1200',
     coverImagePosition: 50,
     // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer'],
@@ -1002,7 +1002,7 @@ Taylor's case is a stark illustration of affinity fraud at scale: by embedding h
     title: 'Billy Walters: The Sports Gambler Whose Inside Tip Reached Phil Mickelson',
     slug: 'billy-walters-dean-foods-insider-trading',
     author: 'ScamShield Editorial',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Daniel_Patrick_Moynihan_United_States_Courthouse_(55314001073).jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Daniel_Patrick_Moynihan_United_States_Courthouse_(55314001073).jpg?width=1200',
     coverImageCredit: 'Photo: Ajay Suresh (CC BY 4.0)',
     coverImagePosition: 50,
     // representative photo — replace with a portrait if found
@@ -1020,7 +1020,7 @@ The case is a reminder that inside information doesn't have to originate with th
     title: 'Fabrice Tourre: The Goldman Sachs Trader Who Bet Against His Own Clients',
     slug: 'fabrice-tourre-goldman-sachs-abacus-fraud',
     author: 'ScamShield Editorial',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/GoldmanSachsHeadquarters.JPG',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/GoldmanSachsHeadquarters.JPG?width=1200',
     coverImageCredit: 'Photo: Quantumquark (CC BY-SA 3.0)',
     coverImagePosition: 50,
     // representative photo — replace with a portrait if found
@@ -1038,7 +1038,7 @@ Tourre's case is one of the clearest examples of a conflict of interest dressed 
     title: 'Marc Rich: The Fugitive Oil Trader Who Bought a Presidential Pardon',
     slug: 'marc-rich-fugitive-oil-trader-pardon',
     author: 'ScamShield Editorial',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/CH.ZG.Zug_Altstadt_02_16x9%2BR_16384x9216.jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/CH.ZG.Zug_Altstadt_02_16x9%2BR_16384x9216.jpg?width=1200',
     coverImageCredit: 'Photo: Roy Egloff (CC BY-SA 4.0)',
     coverImagePosition: 50,
     // representative photo — replace with a portrait if found
@@ -1057,7 +1057,7 @@ Rich died in Lucerne, Switzerland, in June 2013 at age 78, having spent essentia
     slug: 'dennis-levine-bank-leu-insider-trading',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Dennis_Levine_in_2004.jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Dennis_Levine_in_2004.jpg?width=1200',
     coverImageCredit: 'Photo: Ken Rutkowski (CC0)',
     coverImagePosition: 50,
     body: `Dennis Levine was a managing director at Drexel Burnham Lambert who spent roughly five years trading on nonpublic information about pending corporate mergers and acquisitions he learned through his own investment-banking work — information he was supposed to be handling in confidence, not trading on. To hide his identity, Levine routed his trades through a secret account at Bank Leu in Nassau, the Bahamas, held under the alias "Mr. Diamond" through shell entities, and phoned in his orders collect from public pay phones to avoid leaving a traceable line back to himself. Over that period, the SEC alleged, he made roughly $12.6 million in illegal profits trading ahead of takeover announcements in 54 different stocks.
@@ -1090,7 +1090,7 @@ Pang's case is a reminder that a fraud's collapse doesn't always come with a cou
     title: 'Alan Bond: The America\'s Cup Hero Who Looted His Own Company',
     slug: 'alan-bond-bell-resources-fraud',
     author: 'ScamShield Editorial',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Skyline_of_Perth,_Western_Australia,_April_2010.jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Skyline_of_Perth,_Western_Australia,_April_2010.jpg?width=1200',
     coverImageCredit: 'Photo: Shauna McGee Kinney (CC BY-SA 3.0)',
     coverImagePosition: 50,
     // representative photo — replace with a portrait if found
@@ -1108,7 +1108,7 @@ Bond died in June 2015 at age 77, following complications from open-heart surger
     title: 'Robert Brennan: The Boiler-Room Broker Who Hid $16 Million in His Basement',
     slug: 'robert-brennan-first-jersey-securities-fraud',
     author: 'ScamShield Editorial',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Martin_Luther_King_Jr._Federal_Courthouse,_Newark,_NJ,_USA.jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Martin_Luther_King_Jr._Federal_Courthouse,_Newark,_NJ,_USA.jpg?width=1200',
     coverImageCredit: 'Photo: Carptrash (CC BY-SA 3.0)',
     coverImagePosition: 50,
     // representative photo — replace with a portrait if found
@@ -1135,7 +1135,7 @@ The scheme unraveled as the Depression deepened. On March 12, 1932, Kreuger was 
 
 Kreuger's collapse remains one of history's largest corporate frauds, and its aftermath reshaped American finance: the scandal is widely credited as a direct catalyst for the U.S. Securities Act of 1933 and Securities Exchange Act of 1934, the laws that first required public companies to disclose real, audited financials to investors — a regulatory response built specifically to prevent a repeat of a man who talked his way to running half the world's match supply on paper that didn't hold up.`,
     sourceUrl: 'https://www.britannica.com/money/Ivar-Kreuger',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Kreuger_ca1920.jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Kreuger_ca1920.jpg?width=1200',
     coverImagePosition: 50,
   },
   {
@@ -1151,7 +1151,7 @@ Lustig's other signature con was the "Romanian box," a device he claimed could d
 
 Lustig died March 11, 1947, of pneumonia at the federal medical facility in Springfield, Missouri, after being transferred from Alcatraz. Unlike frauds built on falsified balance sheets, his cons worked purely on audacity and psychology — a fake title, a fabricated secret, and the well-founded bet that a mark tricked into something illegal or embarrassing would rather absorb the loss quietly than ever report it.`,
     sourceUrl: 'https://www.smithsonianmag.com/history/man-who-sold-eiffel-tower-twice-180958370/',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Victor_Lustig_(cropped).jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Victor_Lustig_(cropped).jpg?width=1200',
     coverImagePosition: 50,
   },
   {
@@ -1167,7 +1167,7 @@ Mavrodi went into hiding after MMM's formal bankruptcy in December 1997 and wasn
 
 Mavrodi died of a heart attack in Moscow on March 26, 2018, at age 62, having spent almost the entirety of his adult life running variations of the same fraud rather than serving meaningful time for any of them. His case is a stark illustration of how a Ponzi scheme's collapse doesn't always end its operator's career — MMM's implosion in 1994 became merely the first of several, as Mavrodi kept finding new, poorer, less-warned populations to sell the same promise to for another two decades.`,
     sourceUrl: 'https://www.france24.com/en/20180326-author-russias-mmm-pyramid-scheme-who-swindled-millions-dies',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Sergei_Mavrodi.jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Sergei_Mavrodi.jpg?width=1200',
     coverImageCredit: 'Photo: State Duma of the Russian Federation (CC BY 4.0)',
     coverImagePosition: 50,
   },
@@ -1175,7 +1175,7 @@ Mavrodi died of a heart attack in Moscow on March 26, 2018, at age 62, having sp
     title: 'Michele Sindona: The Mafia Banker Who Sank America\'s Largest Bank Failure',
     slug: 'michele-sindona-franklin-national-bank-fraud',
     author: 'ScamShield Editorial',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Franklin_National_Bank;_Franklin_Square-1.jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Franklin_National_Bank;_Franklin_Square-1.jpg?width=1200',
     coverImageCredit: 'Photo: DanTD (CC BY-SA 4.0)',
     coverImagePosition: 50,
     // representative photo — replace with a portrait if found
@@ -1193,7 +1193,7 @@ He didn't serve much of it. Four days after his life sentence, in his cell at a 
     title: 'Roberto Calvi: "God\'s Banker" and the Body Under Blackfriars Bridge',
     slug: 'roberto-calvi-banco-ambrosiano-fraud',
     author: 'ScamShield Editorial',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Blackfriars_Bridge,_London..jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Blackfriars_Bridge,_London..jpg?width=1200',
     coverImageCredit: 'Photo: Jim (CC BY 2.0)',
     coverImagePosition: 50,
     // representative photo — replace with a portrait if found
@@ -1211,7 +1211,7 @@ A 2005-2007 Rome trial tried five defendants, including a Mafia figure, for Calv
     title: 'Nicholas Cosmo: The "Mini-Madoff" Who Ran a Ponzi Scheme From Prison Lessons Learned',
     slug: 'nicholas-cosmo-agape-world-ponzi-scheme',
     author: 'ScamShield Editorial',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Damato-courthouse.jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Damato-courthouse.jpg?width=1200',
     coverImageCredit: 'Photo: Americasroof (CC BY-SA 3.0)',
     coverImagePosition: 50,
     // representative photo — replace with a portrait if found
@@ -1229,7 +1229,7 @@ Cosmo's case is a reminder that a prior fraud conviction doesn't always stop som
     title: 'John Rigas and the $2.3 Billion Hidden Inside Adelphia Communications',
     slug: 'john-rigas-adelphia-communications-fraud',
     author: 'ScamShield Editorial',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Adelphia_would-be_headquarters_in_Coudersport.jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Adelphia_would-be_headquarters_in_Coudersport.jpg?width=1200',
     coverImagePosition: 50,
     // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
@@ -1246,7 +1246,7 @@ John Rigas was granted compassionate release in February 2016, at age 91, due to
     title: 'Phillip Bennett and the $430 Million Refco Hid Just Weeks After Its IPO',
     slug: 'phillip-bennett-refco-fraud',
     author: 'ScamShield Editorial',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/New_York_Stock_Exchange,_Manhattan,_New_York_(7236984682).jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/New_York_Stock_Exchange,_Manhattan,_New_York_(7236984682).jpg?width=1200',
     coverImageCredit: 'Photo: Ken Lund (CC BY-SA 2.0)',
     coverImagePosition: 50,
     // representative photo — replace with a portrait if found
@@ -1264,7 +1264,7 @@ Refco's collapse is a stark illustration of how little time can separate a trium
     title: 'Russell Wasendorf Sr. and the Forged Bank Statements Behind Peregrine Financial',
     slug: 'russell-wasendorf-peregrine-financial-fraud',
     author: 'ScamShield Editorial',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Mugshot_Russell_Wasendorf_Sr.jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Mugshot_Russell_Wasendorf_Sr.jpg?width=1200',
     coverImagePosition: 50,
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Russell Wasendorf Sr. built Peregrine Financial Group from a small brokerage he started in 1980 into one of the largest independent futures and commodities trading firms in the United States, headquartered in Cedar Falls, Iowa. For roughly two decades, while regulators and auditors believed customer funds were fully accounted for, Wasendorf was quietly draining the firm's customer-segregated bank account for his own use.
@@ -1280,7 +1280,7 @@ Wasendorf pleaded guilty in September 2012 to mail fraud, embezzlement, and lyin
     title: 'Calisto Tanzi and the €14 Billion Hole Behind "Europe\'s Enron"',
     slug: 'calisto-tanzi-parmalat-fraud',
     author: 'ScamShield Editorial',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Calisto_Tanzi.jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Calisto_Tanzi.jpg?width=1200',
     coverImagePosition: 50,
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Calisto Tanzi took over his family's small dairy and ham business in 1961 and spent the next four decades building it into Parmalat, an Italian multinational food conglomerate operating in more than 30 countries with roughly €7.6 billion in annual sales at its peak. Behind that success, Parmalat was quietly accumulating losses and debt that Tanzi and his executives spent over a decade hiding from investors, auditors, and regulators using a web of offshore shell companies in the Cayman Islands and Luxembourg.
@@ -1305,7 +1305,7 @@ A special CBI court in Hyderabad convicted Raju and nine co-defendants, includin
 
 Satyam's fraud, sometimes called "India's Enron," is widely credited with pushing India toward stronger corporate governance and auditing standards, in much the same way Enron's collapse reshaped American accounting oversight years earlier. Raju's own words about the fraud — a tiger he couldn't safely dismount — remain one of the more candid public confessions in the history of corporate fraud, offered not under cross-examination but voluntarily, once the pressure of sustaining the lie for over a decade had simply become unsustainable.`,
     sourceUrl: 'https://www.npr.org/sections/thetwo-way/2015/04/09/398503322/founder-of-indian-it-giant-satyam-gets-7-years-in-fraud',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Flickr_-_World_Economic_Forum_-_Ramalinga_Raju,_Founder_and_Chairman,_Satyam_Computer_Services,_India.jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Flickr_-_World_Economic_Forum_-_Ramalinga_Raju,_Founder_and_Chairman,_Satyam_Computer_Services,_India.jpg?width=1200',
     coverImageCredit: 'Photo: World Economic Forum (CC BY-SA 2.0)',
     coverImagePosition: 30,
   },
@@ -1322,7 +1322,7 @@ The fraud unraveled on January 16, 2006, when Tokyo prosecutors raided Livedoor'
 
 Horie appealed all the way to Japan's Supreme Court, which upheld the sentence in April 2011. He began serving his term that June, was paroled after about 21 months, and was released in March 2013. His case remains a landmark in Japanese securities law enforcement — proof that even a company's most visible, media-savvy champion of a new business era could be brought down by the same old mechanism: reported profits that existed only in the accounting, not in the business itself.`,
     sourceUrl: 'https://www.japantimes.co.jp/news/2007/03/17/national/horie-handed-2-12-years/',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Takafumi_Horie.jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Takafumi_Horie.jpg?width=1200',
     coverImageCredit: 'Photo: 伊豆のぬし釣り / Izu no Nushi Tsuri (CC BY 3.0)',
     coverImagePosition: 50,
   },
@@ -1339,7 +1339,7 @@ That cooperation turned Blazer into one of the most consequential informants in 
 
 Blazer had already pleaded guilty under seal in November 2013 to ten counts including racketeering conspiracy, wire fraud conspiracy, money laundering, and tax evasion, agreeing to forfeit more than $1.9 million as an initial installment on a still-undetermined larger amount. He died in July 2017, at age 72, before he was ever formally sentenced — his cooperation having already helped expose one of the largest corruption scandals in the history of international sports, even as his own personal accounting with the law was left permanently unresolved.`,
     sourceUrl: 'https://www.justice.gov/usao-edny/pr/nine-fifa-officials-and-five-corporate-executives-indicted-racketeering-conspiracy-and',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Chuck_Blazer_2010.jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Chuck_Blazer_2010.jpg?width=1200',
     coverImageCredit: 'Photo: Rustem Kadyrov / Tatarstan.ru (CC BY 4.0)',
     coverImagePosition: 50,
   },
@@ -1347,7 +1347,7 @@ Blazer had already pleaded guilty under seal in November 2013 to ten counts incl
     title: 'Earl Jones: The Unlicensed Adviser Who Defrauded His Own Family and Neighbors',
     slug: 'earl-jones-montreal-ponzi-scheme',
     author: 'ScamShield Editorial',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Palais_de_Justice_de_Montreal_05.jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Palais_de_Justice_de_Montreal_05.jpg?width=1200',
     coverImageCredit: 'Photo: Jean Gagnon (CC BY-SA 3.0)',
     coverImagePosition: 50,
     // representative photo — replace with a portrait if found
@@ -1365,7 +1365,7 @@ Jones's case is a reminder that the absence of any license or regulatory registr
     title: 'Magnus Peterson and the $536 Million Hedge Fund Fraud Hidden Inside Fake Swap Contracts',
     slug: 'magnus-peterson-weavering-capital-fraud',
     author: 'ScamShield Editorial',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Royal_Courts_of_Justice-London.jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Royal_Courts_of_Justice-London.jpg?width=1200',
     coverImageCredit: 'Photo: Yair Haklai (CC BY-SA 4.0)',
     coverImagePosition: 50,
     // representative photo — replace with a portrait if found
@@ -1411,7 +1411,7 @@ Investigators who searched Frankel's properties also found astrological charts h
     title: 'Gerald Payne and the "Double Your Blessings" Church Ponzi Scheme',
     slug: 'gerald-payne-greater-ministries-fraud',
     author: 'ScamShield Editorial',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/GibbonsCourthouse.jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/GibbonsCourthouse.jpg?width=1200',
     coverImagePosition: 50,
     // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
@@ -1425,10 +1425,26 @@ Greater Ministries remains one of the starkest examples of an affinity fraud —
     sourceUrl: 'https://media.ca11.uscourts.gov/opinions/pub/files/200114746.pdf',
   },
   {
+    title: 'Haywood "Don" Hall: The Traveling Pastor Behind GMIC\'s Roadshow Pitch',
+    slug: 'haywood-eudon-hall-gmic-roadshow-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Haywood Eudon Hall, known as "Don" Hall, joined Greater Ministries International Church (GMIC) in early 1996 as a director, pastor, and head of its World Missions program — arriving several years after Gerald Payne had already started the "gifting" program this site profiles separately. Hall didn't invent the scheme, but he became one of its most effective promoters, traveling the country with other GMIC elders to hold "roadshow" meetings recruiting new participants into what was, by then, being marketed as the "Faith Promises Program."
+
+The roadshows leaned on religious rhetoric, but appellate judges who later reviewed the case found the actual substance of these meetings was financial, not spiritual: attendees were told profits came from gold, silver, and diamond mines, offshore commodities trading, and high-interest overseas bank accounts. None of it was real. There was no record of GMIC or its directors owning any gold, silver, or diamond mines in the United States; a diamond claim in Liberia produced only low-value industrial-grade stones, and the gold mines there were never operational at all. A supposed office in the Cayman Islands never existed, and the "Greater International Bank of Nauru" that was meant to hold members' reinvested "giftbacks" was, in reality, nothing more than a storefront inside GMIC's own Tampa building — no money was ever actually deposited into it.
+
+Hall personally profited from every dollar he brought in: as a director, he collected monthly "gas money," a 5% commission on all funds gifted or re-gifted by investors he had personally recruited, paid to him in cash directly by Payne. Over the life of the scheme, Hall collected more than $539,000 this way. A jury convicted him in 2001 on five counts — conspiracy to commit mail fraud, conspiracy to commit money laundering, and three counts of mail fraud — and he was originally sentenced to a lengthy prison term, reported at the time as close to 20 years.
+
+Hall's 2003 appeal produced a narrower legal outcome than his co-defendants': the Eleventh Circuit affirmed all five of his convictions, rejecting his argument that money-laundering conspiracy required proof of a specific overt act. But the court also vacated his original sentence, finding that a two-level "abuse of position of trust" enhancement applied because of his status as a pastor had been imposed in error. The judges were clear about why: none of the victims the government presented at trial had come to Hall's roadshow meetings seeking spiritual guidance or had any pastor-congregant relationship with him at all — by the victims' own testimony, they came specifically to "double their money," and a pitch that merely borrows religious credibility to sell an investment isn't the same, legally, as betraying an actual position of pastoral trust. His case was sent back to the trial court for resentencing on that narrower basis, with his underlying fraud convictions left fully intact.
+
+Hall's case is a useful companion to Payne's for a specific reason: it shows a court drawing a real distinction between using religious language as a sales technique — which is exactly what happened here, and it worked — and actually abusing a formal position of trust with identifiable victims, which the government couldn't prove for the strangers who showed up to a traveling roadshow chasing a doubled return.`,
+    sourceUrl: 'https://media.ca11.uscourts.gov/opinions/pub/files/200114746.pdf',
+  },
+  {
     title: 'Andrew Fastow: The Enron CFO Who Hid Billions Inside His Own Side Deals',
     slug: 'andrew-fastow-enron-cfo-fraud',
     author: 'ScamShield Editorial',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Enron_Complex.jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Enron_Complex.jpg?width=1200',
     coverImageCredit: 'Photo: Alex (CC BY 2.0)',
     coverImagePosition: 50,
     // representative photo — replace with a portrait if found
@@ -1446,7 +1462,7 @@ Fastow's case remains one of the clearest illustrations of how a company's most 
     title: 'John G. Bennett Jr. and the Christian Charity "Matching Gift" Ponzi Scheme',
     slug: 'john-bennett-new-era-philanthropy-fraud',
     author: 'ScamShield Editorial',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/James_A._Byrne_United_States_Courthouse.jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/James_A._Byrne_United_States_Courthouse.jpg?width=1200',
     coverImageCredit: 'Photo: Beyond My Ken (CC BY-SA 4.0)',
     coverImagePosition: 50,
     // representative photo — replace with a portrait if found
@@ -1464,7 +1480,7 @@ New Era stands out among affinity-style frauds for how far up the trust ladder i
     title: 'Lernout & Hauspie: The Belgian Tech Darling Built on Fabricated Korean Sales',
     slug: 'lernout-hauspie-belgian-accounting-fraud',
     author: 'ScamShield Editorial',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Ieper25.jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Ieper25.jpg?width=1200',
     coverImageCredit: 'Photo: Paul Hermans (CC BY-SA 3.0)',
     coverImagePosition: 50,
     // representative photo — replace with a portrait if found
@@ -1483,7 +1499,7 @@ Belgium's Ghent Court of Appeals convicted Lernout, Hauspie, former vice-chairma
     slug: 'do-kwon-terraform-labs-luna-collapse',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Do_Kwon.png',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Do_Kwon.png?width=1200',
     coverImageCredit: 'Photo: FAQX™ We mining it (CC BY 3.0)',
     coverImagePosition: 50,
     body: `Do Kwon co-founded Terraform Labs in 2018 and built the Terra blockchain around two linked cryptocurrencies: TerraUSD (UST), an "algorithmic stablecoin" designed to hold a steady $1 value, and its companion token Luna, which was supposed to absorb UST's price swings through a built-in mint-and-burn arbitrage mechanism rather than any real dollar reserves sitting in a bank. Kwon marketed the system as a self-stabilizing innovation, and drove adoption further by offering roughly 20% annual yields on UST deposits through a companion protocol called Anchor — a return so far outside anything else in finance that it depended entirely on new money continuing to flow in.
@@ -1499,7 +1515,7 @@ After his extradition, Kwon pleaded guilty in August 2025 to conspiracy and wire
     title: 'Craig Wright: The Man a Court Ruled Was Never Satoshi Nakamoto',
     slug: 'craig-wright-fake-satoshi-nakamoto-fraud',
     author: 'ScamShield Editorial',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/HM_Courts_%26_Tribunal_Service_Rolls_Building_-01.jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/HM_Courts_%26_Tribunal_Service_Rolls_Building_-01.jpg?width=1200',
     coverImageCredit: 'Photo: Roger Green (CC BY-SA 4.0)',
     coverImagePosition: 50,
     // representative photo — replace with a portrait if found
@@ -1518,7 +1534,7 @@ Wright's case stands apart from most entries in this collection because the frau
     slug: 'trevor-milton-nikola-motors-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Trevor_Milton_(cropped).jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Trevor_Milton_(cropped).jpg?width=1200',
     coverImageCredit: 'Photo: Miljøstiftelsen ZERO (CC BY 2.0)',
     coverImagePosition: 50,
     body: `Trevor Milton founded Nikola Corporation, an electric and hydrogen-fuel-cell truck startup, and took it public in June 2020 through a merger with a special-purpose acquisition company. Within weeks, Nikola's stock had briefly given it a market capitalization larger than Ford's, despite the company having no vehicles in actual production and no revenue expected until the following year — a valuation built almost entirely on Milton's own public promises about what the company's technology could do.
@@ -1551,7 +1567,7 @@ Lewis served roughly 18 years of that sentence before President Biden commuted i
     title: 'Sudipta Sen and the Saradha Group Chit Fund Collapse',
     slug: 'sudipta-sen-saradha-group-chit-fund-scam',
     author: 'ScamShield Editorial',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Calcutta_High_Court_01.jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Calcutta_High_Court_01.jpg?width=1200',
     coverImageCredit: 'Photo: Sujay25 (CC BY-SA 4.0)',
     coverImagePosition: 50,
     // representative photo — replace with a portrait if found
@@ -1569,7 +1585,7 @@ More than a decade later, the core fraud case remains unresolved: Sen was convic
     title: 'Barry Tannenbaum: The $1 Billion Ponzi Scheme Nobody Was Ever Charged For',
     slug: 'barry-tannenbaum-ponzi-scheme-fugitive',
     author: 'ScamShield Editorial',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Sandton_banner.jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Sandton_banner.jpg?width=1200',
     coverImageCredit: 'Photo: Bizcallers (CC BY-SA 3.0)',
     coverImagePosition: 50,
     // representative photo — replace with a portrait if found
@@ -1588,7 +1604,7 @@ Tannenbaum's case is the rare entry in this collection where the honest ending i
     slug: 'rajat-gupta-goldman-sachs-insider-trading',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Rajat_Kumar_Gupta_-_World_Economic_Forum_Annual_Meeting_Davos_2010_crop.jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Rajat_Kumar_Gupta_-_World_Economic_Forum_Annual_Meeting_Davos_2010_crop.jpg?width=1200',
     coverImageCredit: 'Photo: Sebastian Derungs / World Economic Forum (CC BY-SA 2.0)',
     coverImagePosition: 50,
     body: `Rajat Gupta spent most of his career as one of the most respected figures in global business — the former worldwide managing director of McKinsey & Company, and a board member of Goldman Sachs, Procter & Gamble, and other major corporations. That standing is exactly what made him valuable to Raj Rajaratnam, the Galleon Group hedge fund manager already covered elsewhere in this collection: as a sitting Goldman Sachs director, Gupta had access to boardroom information no outside investor was supposed to see.
@@ -1604,7 +1620,7 @@ Gupta served roughly a year and a half and was released in 2016, later publishin
     title: 'Alberto Vilar: The Opera Patron Whose Pledges Were Built on Stolen Client Money',
     slug: 'alberto-vilar-amerindo-investment-fraud',
     author: 'ScamShield Editorial',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Facade_of_the_Metropolitan_Opera_House_at_Lincoln_Center,_NYC.jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Facade_of_the_Metropolitan_Opera_House_at_Lincoln_Center,_NYC.jpg?width=1200',
     coverImageCredit: 'Photo: Blehgoaway (CC BY-SA 3.0)',
     coverImagePosition: 50,
     // representative photo — replace with a portrait if found
@@ -1650,7 +1666,7 @@ A liquidation trust was later established to recover money for investors, and wh
     title: 'Homero Joshua Garza and the Crypto Mining Contracts That Mined Nothing',
     slug: 'joshua-garza-gaw-miners-hashlet-fraud',
     author: 'ScamShield Editorial',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Abraham_Ribicoff_Federal_Building_Hartford_CT.JPG',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Abraham_Ribicoff_Federal_Building_Hartford_CT.JPG?width=1200',
     coverImageCredit: 'Photo: Grondemar (CC BY-SA 3.0)',
     coverImagePosition: 50,
     // representative photo — replace with a portrait if found
@@ -1668,7 +1684,7 @@ Garza's case is a reminder that a fraud doesn't need a new legal framework to be
     title: 'Renwick Haddow: The Fugitive Behind Bar Works and a CEO Who Never Existed',
     slug: 'renwick-haddow-bar-works-bitcoin-store-fraud',
     author: 'ScamShield Editorial',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Daniel_Patrick_Moynihan_U.S._Courthouse,_Manhattan,_New_York_(7237347688).jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Daniel_Patrick_Moynihan_U.S._Courthouse,_Manhattan,_New_York_(7237347688).jpg?width=1200',
     coverImageCredit: 'Photo: Ken Lund (CC BY-SA 2.0)',
     coverImagePosition: 50,
     // representative photo — replace with a portrait if found
@@ -1700,7 +1716,7 @@ Balwani and Holmes were later held jointly and severally liable for more than $4
     title: 'Charlie Javice: The Startup Founder Who Paid a Professor to Fake 4 Million Users',
     slug: 'charlie-javice-frank-jpmorgan-fraud',
     author: 'ScamShield Editorial',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/JPMorgan_Chase_Headquarters_New_York_City.jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/JPMorgan_Chase_Headquarters_New_York_City.jpg?width=1200',
     coverImagePosition: 50,
     // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer'],
@@ -1718,7 +1734,7 @@ Javice's case stands out for how deliberately old-fashioned the underlying decep
     slug: 'carlos-watson-ozy-media-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Carlos_Watson_interviewing.jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Carlos_Watson_interviewing.jpg?width=1200',
     coverImageCredit: 'Photo: Ozy Media (CC BY 3.0)',
     coverImagePosition: 50,
     body: `Carlos Watson co-founded and ran Ozy Media, a digital media startup that raised tens of millions of dollars from investors including Laurene Powell Jobs's Emerson Collective, Axel Springer, and Marc Lasry. The company's public unraveling began with one of the more brazen moments in recent corporate-fraud history: in February 2021, Ozy scheduled a call with Goldman Sachs investors who were weighing a roughly $40 million investment, expecting to hear from "Alex Piper," the head of programming at YouTube Originals, who would vouch for one of Ozy's shows performing well on the platform. The voice on the call, digitally altered and increasingly unconvincing to the Goldman bankers listening, actually belonged to Ozy's own co-founder and COO, Samir Rao.
@@ -1734,7 +1750,7 @@ Watson never served a day of that sentence. Hours before he was due to surrender
     title: 'Bernard Cornfeld: "Do You Sincerely Want to Be Rich?" and the $2 Billion Mutual Fund Empire That Collapsed',
     slug: 'bernard-cornfeld-investors-overseas-services-collapse',
     author: 'ScamShield Editorial',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Geneve_2005_001_Ork.ch.jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Geneve_2005_001_Ork.ch.jpg?width=1200',
     coverImageCredit: 'Photo: Stéphane Pecorini (CC BY-SA 2.0 FR)',
     coverImagePosition: 50,
     // representative photo — replace with a portrait if found
@@ -1752,7 +1768,7 @@ Cornfeld's own legal outcome is where his story diverges sharply from Vesco's. S
     title: 'Mathew Martoma: The $276 Million Alzheimer\'s Drug Insider Trading Scheme',
     slug: 'mathew-martoma-sac-capital-insider-trading',
     author: 'ScamShield Editorial',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Thurgood_Marshall_United_States_Courthouse.jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Thurgood_Marshall_United_States_Courthouse.jpg?width=1200',
     coverImageCredit: 'Photo: Kidfly182 (CC BY-SA 4.0)',
     coverImagePosition: 50,
     // representative photo — replace with a portrait if found
@@ -1770,7 +1786,7 @@ Steven Cohen himself was never criminally charged over these trades; he settled 
     title: 'Yoshiaki Murakami: The Activist Investor Whose Own Tip From Livedoor Ended His Fund',
     slug: 'yoshiaki-murakami-nippon-broadcasting-insider-trading',
     author: 'ScamShield Editorial',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/%E3%83%8B%E3%83%83%E3%83%9D%E3%83%B3%E6%94%BE%E9%80%81_%E6%9C%89%E6%A5%BD%E7%94%BA%E6%9C%AC%E7%A4%BE.jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/%E3%83%8B%E3%83%83%E3%83%9D%E3%83%B3%E6%94%BE%E9%80%81_%E6%9C%89%E6%A5%BD%E7%94%BA%E6%9C%AC%E7%A4%BE.jpg?width=1200',
     coverImagePosition: 50,
     // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer'],
@@ -1787,7 +1803,7 @@ Murakami wound down his fund and relocated to Singapore, but the story didn't en
     title: 'Michael Steinberg: The Insider Trading Conviction a Court Ruling Erased',
     slug: 'michael-steinberg-sac-capital-vacated-conviction',
     author: 'ScamShield Editorial',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Stamford_Skyline.jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Stamford_Skyline.jpg?width=1200',
     coverImageCredit: 'Photo: JonathanVictor (CC BY-SA 4.0)',
     coverImagePosition: 50,
     // representative photo — replace with a portrait if found
@@ -1805,7 +1821,7 @@ The timing is what makes this case such a useful companion to Martoma's: the Sup
     title: 'Jho Low and the $4.5 Billion Vanished From Malaysia\'s 1MDB Fund',
     slug: 'jho-low-1mdb-malaysia-fraud',
     author: 'ScamShield Editorial',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Equanimity,_the_seized_yacht.jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Equanimity,_the_seized_yacht.jpg?width=1200',
     coverImageCredit: 'Photo: Sabung.hamster (CC BY-SA 4.0)',
     coverImagePosition: 50,
     // representative photo — replace with a portrait if found
@@ -1823,7 +1839,7 @@ U.S. prosecutors indicted Low in November 2018 on charges of conspiring to laund
     title: 'John Rusnak and the $691 Million He Hid Inside Allfirst Bank',
     slug: 'john-rusnak-allfirst-bank-currency-fraud',
     author: 'ScamShield Editorial',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Baltimore_Federal_(1978,_George_Sugarman),_E.A._Garmatz_Federal_Building,_101_W._Lombard_Street,_Baltimore,_MD_21201_(35320075031).jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Baltimore_Federal_(1978,_George_Sugarman),_E.A._Garmatz_Federal_Building,_101_W._Lombard_Street,_Baltimore,_MD_21201_(35320075031).jpg?width=1200',
     coverImagePosition: 50,
     // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
@@ -1840,7 +1856,7 @@ Rusnak's case became a textbook example in the banking industry of what a rogue 
     title: 'Wolfgang Beltracchi: The Forger Who Fooled the Art World for 35 Years',
     slug: 'wolfgang-beltracchi-art-forgery-scheme',
     author: 'ScamShield Editorial',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Wolfgang_Beltracchi_(2024)_III.jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Wolfgang_Beltracchi_(2024)_III.jpg?width=1200',
     coverImageCredit: 'Photo: Jindřich Nosek (CC BY 4.0)',
     coverImagePosition: 50,
     tags: ['notorious', 'notorious-scammer', 'historical'],
@@ -1879,7 +1895,7 @@ const GUIDE_ARTICLES: SeedArticle[] = [
     slug: 'romance-scams-warning-signs',
     author: 'ScamShield Editorial',
     tags: ['guide', 'romance'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Smartphone_dating_app_illustration.jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Smartphone_dating_app_illustration.jpg?width=1200',
     coverImageCredit: 'Photo: Santeri Viinamäki (CC BY-SA 4.0)',
     coverImagePosition: 50,
     // representative photo — replace with an exact match if found
@@ -1897,7 +1913,7 @@ If you're in this situation: stop sending money immediately, do a reverse image 
     slug: 'tech-support-scam-fake-popups',
     author: 'ScamShield Editorial',
     tags: ['guide', 'tech-support'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Man_responds_to_telephone_call.jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Man_responds_to_telephone_call.jpg?width=1200',
     coverImagePosition: 50,
     // representative photo — replace with an exact match if found
     sourceUrl: 'https://consumer.ftc.gov/articles/how-spot-avoid-and-report-tech-support-scams',
@@ -1914,7 +1930,7 @@ If you see one of these pop-ups: close the browser without calling the number (f
     slug: 'government-impersonation-scams',
     author: 'ScamShield Editorial',
     tags: ['guide', 'government-impersonation'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/The_Internal_Revenue_Service_Building,_located_in_the_center_of_the_Federal_Triangle_complex_in_Washington,_D.C_LCCN2013634106.jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/The_Internal_Revenue_Service_Building,_located_in_the_center_of_the_Federal_Triangle_complex_in_Washington,_D.C_LCCN2013634106.jpg?width=1200',
     coverImagePosition: 50,
     sourceUrl: 'https://consumer.ftc.gov/articles/how-avoid-government-impersonation-scam',
     body: `A caller claims to be from the IRS, the Social Security Administration, or local police, and says something is seriously wrong: unpaid taxes, a suspended Social Security number, an outstanding warrant. The tone is urgent and threatening — arrest, deportation, frozen bank accounts — and the caller insists the only way to resolve it immediately is a specific, unusual form of payment: gift cards, a wire transfer, or increasingly, in-person cash pickup by a courier.
@@ -1930,7 +1946,7 @@ If you get one of these calls: hang up. Do not call back any number the caller p
     slug: 'business-email-compromise-bec',
     author: 'ScamShield Editorial',
     tags: ['guide', 'business-email-compromise'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Man_typing_on_laptop_(Unsplash).jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Man_typing_on_laptop_(Unsplash).jpg?width=1200',
     coverImagePosition: 50,
     // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.ic3.gov/CrimeInfo/BEC',
@@ -1947,7 +1963,7 @@ If your business is targeted: contact your bank immediately to attempt a wire re
     slug: 'grandparent-scam-emergency-call',
     author: 'ScamShield Editorial',
     tags: ['guide', 'grandparent-scam'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Senior_woman_engaged_in_conversation_on_an_old-fashioned_telephone.jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Senior_woman_engaged_in_conversation_on_an_old-fashioned_telephone.jpg?width=1200',
     coverImageCredit: 'Photo: Nenad Stojković (CC BY 2.0)',
     coverImagePosition: 50,
     // representative photo — replace with an exact match if found
@@ -1963,7 +1979,7 @@ The defense is a simple habit: agree in advance with family members on a code wo
     slug: 'pig-butchering-crypto-investment-scam',
     author: 'ScamShield Editorial',
     tags: ['guide', 'investment-fraud'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/An_actual_Bitcoin_transaction_from_the_Kraken_cryptocurrency_exchange_to_a_hardware_LedgerWallet.jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/An_actual_Bitcoin_transaction_from_the_Kraken_cryptocurrency_exchange_to_a_hardware_LedgerWallet.jpg?width=1200',
     coverImageCredit: 'Photo: FlippyFlink (CC BY-SA 4.0)',
     coverImagePosition: 50,
     sourceUrl: 'https://consumer.ftc.gov/articles/what-know-about-cryptocurrency-scams',
@@ -1980,7 +1996,7 @@ Red flags: an online relationship that pivots to investment advice, a platform y
     slug: 'phishing-email-text-basics',
     author: 'ScamShield Editorial',
     tags: ['guide', 'phishing'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Mailfence_inbox_screenshot.png',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Mailfence_inbox_screenshot.png?width=1200',
     coverImageCredit: 'Photo: M Salman Nadeem (CC BY-SA 4.0)',
     coverImagePosition: 50,
     // representative photo — replace with an exact match if found
@@ -1998,7 +2014,7 @@ The reliable habits: never click a link in an unexpected message claiming to be 
     slug: 'package-delivery-scam-texts',
     author: 'ScamShield Editorial',
     tags: ['guide', 'phishing'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Typical_UPS_delivery_truck.JPG',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Typical_UPS_delivery_truck.JPG?width=1200',
     coverImageCredit: 'Photo: An Errant Knight (CC BY-SA 4.0)',
     coverImagePosition: 50,
     // representative photo — replace with an exact match if found
@@ -2014,7 +2030,7 @@ If you get one of these texts: don't click the link. If you want to check on an 
     slug: 'job-offer-scam-overpayment-check',
     author: 'ScamShield Editorial',
     tags: ['guide', 'employment-fraud'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Blank_check.jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Blank_check.jpg?width=1200',
     coverImagePosition: 50,
     sourceUrl: 'https://consumer.ftc.gov/articles/how-spot-avoid-and-report-fake-check-scams',
     body: `A job offer arrives — often for flexible, well-paid remote work — sometimes after only a brief chat interview, or no interview at all beyond a text exchange. The role is vague ("personal assistant," "mystery shopper," "payment processor"), the pay is generous relative to the minimal qualifications required, and the "employer" quickly sends a check, often for more than an agreed advance or equipment stipend, asking the new hire to deposit it and wire back the difference, or to use it to purchase equipment from a specific vendor.
@@ -2030,7 +2046,7 @@ Red flags: any job that sends money before you've done any work, any request to 
     slug: 'charity-scams-after-disasters',
     author: 'ScamShield Editorial',
     tags: ['guide', 'charity-fraud'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Charity_donation_box,_Hong_Kong_International_Airport_(2018).jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Charity_donation_box,_Hong_Kong_International_Airport_(2018).jpg?width=1200',
     coverImageCredit: 'Photo: Donald Trung (CC BY-SA 4.0)',
     coverImagePosition: 50,
     // representative photo — replace with an exact match if found
@@ -2062,7 +2078,7 @@ If you're helping an older family member, agree in advance on a household rule t
     slug: 'online-marketplace-scams-facebook-craigslist',
     author: 'ScamShield Editorial',
     tags: ['guide', 'online-marketplace'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Old_items_displayed_at_garage_sale.jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Old_items_displayed_at_garage_sale.jpg?width=1200',
     coverImageCredit: 'Photo: Sneha G Gupta (CC BY-SA 4.0)',
     coverImagePosition: 50,
     // representative photo — replace with an exact match if found
@@ -2082,7 +2098,7 @@ The safer approach: for local items, meet in person in a public place and exchan
     slug: 'gift-card-payment-scams',
     author: 'ScamShield Editorial',
     tags: ['guide', 'gift-card-scams'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Gift_card_assortment.jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Gift_card_assortment.jpg?width=1200',
     coverImageCredit: 'Photo: Tom Eppenberger Jr. (CC BY 2.0)',
     coverImagePosition: 50,
     sourceUrl: 'https://consumer.ftc.gov/gift-card-scams',
@@ -2099,7 +2115,7 @@ The rule that cuts through every version of this scam: no real government agency
     slug: 'student-loan-forgiveness-scams',
     author: 'ScamShield Editorial',
     tags: ['guide', 'student-loan-scams'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Virtual_Graduation_Ceremony.jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Virtual_Graduation_Ceremony.jpg?width=1200',
     coverImageCredit: 'Photo: Delegate Connect Images (CC BY 2.0)',
     coverImagePosition: 50,
     // representative photo — replace with an exact match if found
@@ -2117,7 +2133,7 @@ The one channel that actually manages federal student loans is StudentAid.gov, d
     slug: 'crypto-atm-kiosk-scams',
     author: 'ScamShield Editorial',
     tags: ['guide', 'crypto-atm-scams'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/BitcoinATM.JPG',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/BitcoinATM.JPG?width=1200',
     coverImageCredit: 'Photo: KennethHan (CC BY-SA 4.0)',
     coverImagePosition: 50,
     sourceUrl: 'https://www.ic3.gov/PSA/2026/PSA260515-2',
@@ -2134,7 +2150,7 @@ The reliable rule: no legitimate government agency, bank, or law enforcement off
     slug: 'puppy-pet-sale-scams',
     author: 'ScamShield Editorial',
     tags: ['guide', 'pet-scams'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Cute_street_puppy.jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Cute_street_puppy.jpg?width=1200',
     coverImagePosition: 50,
     // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.bbb.org/all/petscams',
@@ -2151,7 +2167,7 @@ Before paying anything: insist on a live video call showing the actual puppy in 
     slug: 'timeshare-resale-exit-scams',
     author: 'ScamShield Editorial',
     tags: ['guide', 'timeshare-scams'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Marriott_Vacation_Club_Pulse_-_San_Diego.jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Marriott_Vacation_Club_Pulse_-_San_Diego.jpg?width=1200',
     coverImageCredit: 'Photo: Baron Maddock (CC BY 4.0)',
     coverImagePosition: 50,
     sourceUrl: 'https://consumer.ftc.gov/articles/timeshares-vacation-clubs-and-related-scams',
@@ -2168,7 +2184,7 @@ Real protection starts with the guarantee itself: no legitimate resale or exit c
     slug: 'free-trial-subscription-trap-scams',
     author: 'ScamShield Editorial',
     tags: ['guide', 'subscription-scams'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Shopping_online_with_bank_card.jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Shopping_online_with_bank_card.jpg?width=1200',
     coverImageCredit: 'Photo: Bogdan Hoyaux / European Commission (CC BY 4.0)',
     coverImagePosition: 50,
     // representative photo — replace with an exact match if found
@@ -2186,7 +2202,7 @@ Before entering payment details for any "free" trial: read the actual terms for 
     slug: 'qr-code-quishing-scams',
     author: 'ScamShield Editorial',
     tags: ['guide', 'qr-code-scams'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Smart_Parking_Spaces_with_Automatic_Parking_Barriers_in_Suzhou.jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Smart_Parking_Spaces_with_Automatic_Parking_Barriers_in_Suzhou.jpg?width=1200',
     coverImageCredit: 'Photo: Henry S Zhang (CC BY 4.0)',
     coverImagePosition: 50,
     sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2023/12/scammers-hide-harmful-links-qr-codes-steal-your-information',
@@ -2203,7 +2219,7 @@ Before scanning any QR code, check whether it looks like a sticker placed over a
     slug: 'sim-swap-fraud-two-factor-bypass',
     author: 'ScamShield Editorial',
     tags: ['guide', 'sim-swap-scams'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Micro_SIM_and_Nano_SIM_card_and_trays.jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Micro_SIM_and_Nano_SIM_card_and_trays.jpg?width=1200',
     coverImageCredit: 'Photo: Tony Webster (CC BY-SA 3.0)',
     coverImagePosition: 50,
     sourceUrl: 'https://www.ic3.gov/PSA/2022/PSA220208',
@@ -2220,7 +2236,7 @@ The clearest warning sign is a sudden, unexplained loss of cell service — call
     slug: 'fake-rental-listing-scams-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'rental-scams'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/1245_Dwight_Street,_Springfield_MA.jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/1245_Dwight_Street,_Springfield_MA.jpg?width=1200',
     coverImageCredit: 'Photo: John Phelan (CC BY-SA 3.0)',
     coverImagePosition: 50,
     sourceUrl: 'https://consumer.ftc.gov/articles/rental-listing-scams',
@@ -2237,7 +2253,7 @@ Before sending any money, insist on seeing the unit in person or via a live vide
     slug: 'ai-voice-cloning-family-emergency-scams-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'ai-voice-cloning'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Smartphone_in_Hand_(Unsplash).jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Smartphone_in_Hand_(Unsplash).jpg?width=1200',
     coverImagePosition: 50,
     // representative photo — replace with an exact match if found
     sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2023/03/scammers-use-ai-enhance-their-family-emergency-schemes',
@@ -2254,7 +2270,7 @@ The FTC's core advice is to never trust the voice alone: hang up and call the pe
     slug: 'sextortion-financial-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'sextortion'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/USB_webcam_for_PC.jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/USB_webcam_for_PC.jpg?width=1200',
     coverImagePosition: 50,
     // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.ic3.gov/PSA/2023/psa230605',
@@ -2271,7 +2287,7 @@ If this happens to you or someone you know, don't pay, don't delete the messages
     slug: 'debt-relief-credit-repair-scams-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'debt-relief-scams'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Credit-cards_(cropped).jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Credit-cards_(cropped).jpg?width=1200',
     coverImageCredit: 'Photo: Lotus Head (CC BY-SA 2.5)',
     coverImagePosition: 50,
     // representative photo — replace with an exact match if found
@@ -2289,7 +2305,7 @@ The clearest warning signs are a demand for payment before any service is perfor
     slug: 'medicare-health-insurance-scams-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'medicare-scams'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/New_US_Medicare_Card_Sample_2018.jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/New_US_Medicare_Card_Sample_2018.jpg?width=1200',
     coverImagePosition: 50,
     sourceUrl: 'https://www.aarp.org/money/scams-fraud/most-common-medicare-scams/',
     body: `Someone claiming to be from Medicare calls offering a "new" or "upgraded" card, or shows up at a health fair with a "free" knee brace, glucose monitor, or genetic testing kit — in every version, the actual product or paperwork is beside the point. What the scammer is really after is the beneficiary's Medicare number itself, because that number alone is enough to bill Medicare directly for services, equipment, or tests that were never actually provided. As one Senior Medicare Patrol director described a genetic-testing scheme, the scammers "would just discard the swabs and use the Medicare number" — the swab was never going to a lab at all.
@@ -2305,7 +2321,7 @@ The best defense is simply reviewing the Medicare Summary Notice that arrives af
     slug: 'foreclosure-rescue-loan-modification-scams-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'foreclosure-rescue-scams'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Sign_of_the_Times-Foreclosure.jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Sign_of_the_Times-Foreclosure.jpg?width=1200',
     coverImageCredit: 'Photo: respres (CC BY 2.0)',
     coverImagePosition: 50,
     sourceUrl: 'https://consumer.ftc.gov/articles/mortgage-relief-scams',
@@ -2322,7 +2338,7 @@ The clearest warning signs are any request for payment before work is done, inst
     slug: 'identity-theft-basics-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'identity-theft'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Californian_sample_driver%27s_license,_c._2019.jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Californian_sample_driver%27s_license,_c._2019.jpg?width=1200',
     coverImagePosition: 50,
     sourceUrl: 'https://consumer.ftc.gov/articles/what-know-about-identity-theft',
     body: `Identity theft happens when someone uses personal information — a name, Social Security number, date of birth, address, or account numbers — without permission. That single piece of stolen information can be used in two fundamentally different ways, and understanding the difference matters for spotting each one: existing-account fraud, where a thief uses a card or bank account someone already has, showing up as unauthorized charges or withdrawals on statements a victim already checks; and new-account fraud, where a thief opens something entirely new in the victim's name — a credit card, a utility or phone account, or even a job — using stolen information the victim never sees on any bill they're already reviewing.
@@ -2338,7 +2354,7 @@ The most effective single protection is a credit freeze, which is free to place 
     slug: 'home-improvement-contractor-scams-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'contractor-scams'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/House_Construction_01.jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/House_Construction_01.jpg?width=1200',
     coverImageCredit: 'Photo: Bukulu Steven (CC BY-SA 4.0)',
     coverImagePosition: 50,
     // representative photo — replace with an exact match if found
@@ -2356,7 +2372,7 @@ Before hiring anyone, get multiple written estimates, verify the contractor's li
     slug: 'auto-warranty-robocall-scams-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'auto-warranty'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Classic_car_interior_with_old_dashboard_and_worn_upholstery_in_a_neglected_state.jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Classic_car_interior_with_old_dashboard_and_worn_upholstery_in_a_neglected_state.jpg?width=1200',
     coverImageCredit: 'Photo: Nenad Stojković (CC BY 2.0)',
     coverImagePosition: 50,
     // representative photo — replace with an exact match if found
@@ -2374,7 +2390,7 @@ The FTC's advice is blunt: hang up. Don't press any number, since doing so can c
     slug: 'lottery-sweepstakes-scams-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'lottery-sweepstakes'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Mega_Millions_lottery_tickets.JPG',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Mega_Millions_lottery_tickets.JPG?width=1200',
     coverImagePosition: 50,
     sourceUrl: 'https://consumer.ftc.gov/articles/fake-prize-sweepstakes-and-lottery-scams',
     body: `A call, text, email, or letter announces that you've won a prize — a new car, an iPad, a cash jackpot, sometimes a specific lottery like Publishers Clearing House or a foreign national lottery. To collect it, you're told, you first need to pay something: "taxes," "insurance," "shipping and handling," or "customs duties" on a prize you supposedly already won. Some versions have a scammer falsely claiming to call from the Federal Trade Commission itself, telling the victim that paying a one-time fee for "taxes and insurance" is all that stands between them and the winnings.
@@ -2390,7 +2406,7 @@ If you're contacted about a prize you don't remember entering to win, don't send
     slug: 'utility-scams-disconnection-threat-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'utility-scams'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/ElectricMeter.jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/ElectricMeter.jpg?width=1200',
     coverImageCredit: 'Photo: Jc3s5h (CC BY-SA 3.0)',
     coverImagePosition: 50,
     sourceUrl: 'https://consumer.ftc.gov/articles/scammers-pretend-be-your-utility-company',
@@ -2407,7 +2423,7 @@ If you get a call like this, hang up and contact your utility directly using the
     slug: 'card-skimming-atm-gas-pump-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'card-skimming'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/NS_skimapparaat.jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/NS_skimapparaat.jpg?width=1200',
     coverImagePosition: 50,
     sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2018/08/watch-out-card-skimming-gas-pump',
     body: `A skimmer is a small illegal card reader that criminals secretly attach inside or over a legitimate card slot at a gas pump, ATM, or point-of-sale terminal, capturing your card's magnetic stripe data the moment you swipe or insert it. A hidden pinhole camera or a fake keypad overlay often captures your PIN at the same time, giving thieves everything needed to clone your card or drain an account without ever touching your physical wallet.
@@ -2423,7 +2439,7 @@ Before swiping or inserting a card at a pump or ATM, check whether the card read
     slug: 'affinity-fraud-investment-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'affinity-fraud'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/4.12.12StJohnsCommunityArtsMeetingByLuigiNovi13.jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/4.12.12StJohnsCommunityArtsMeetingByLuigiNovi13.jpg?width=1200',
     coverImageCredit: 'Photo: Luigi Novi (CC BY 3.0)',
     coverImagePosition: 50,
     // representative photo — replace with an exact match if found
@@ -2441,7 +2457,7 @@ Being part of a close community is not, by itself, a reason to skip the same due
     slug: 'money-mule-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'money-mule'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Stack_of_100_dollar_bills_(cropped).jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Stack_of_100_dollar_bills_(cropped).jpg?width=1200',
     coverImageCredit: 'Photo: JPxG (CC BY-SA 3.0)',
     coverImagePosition: 50,
     // representative photo — replace with an exact match if found
@@ -2459,7 +2475,7 @@ Treat any request to receive money and then forward it elsewhere as a hard stop,
     slug: 'peer-to-peer-payment-app-scams-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'p2p-payment-apps'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Venmo_passcode_screen.jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Venmo_passcode_screen.jpg?width=1200',
     coverImageCredit: 'Photo: Kimberlynicole7 (CC BY-SA 4.0)',
     coverImagePosition: 50,
     sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2020/02/making-mobile-payments-protect-yourself-scams',
@@ -2476,7 +2492,7 @@ Before sending money to anyone through one of these apps, verify who you're actu
     slug: 'fake-debt-collector-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'fake-debt-collector'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Call_center_(8301487524).jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Call_center_(8301487524).jpg?width=1200',
     coverImageCredit: 'Photo: Carlos Ebert (CC BY 2.0)',
     coverImagePosition: 50,
     // representative photo — replace with an exact match if found
@@ -2494,7 +2510,7 @@ If you're contacted about a debt, don't pay or provide financial information on 
     slug: 'real-estate-closing-wire-fraud-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'real-estate-wire-fraud'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/2022-05-23_14_14_30_A_house_with_a_%27Sold%27_sign_in_front_along_Aquetong_Lane_in_the_Mountainview_section_of_Ewing_Township,_Mercer_County,_New_Jersey.jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/2022-05-23_14_14_30_A_house_with_a_%27Sold%27_sign_in_front_along_Aquetong_Lane_in_the_Mountainview_section_of_Ewing_Township,_Mercer_County,_New_Jersey.jpg?width=1200',
     coverImageCredit: 'Photo: Famartin (CC BY-SA 4.0)',
     coverImagePosition: 50,
     // representative photo — replace with an exact match if found
@@ -2512,7 +2528,7 @@ The CFPB's core advice is to establish two trusted contacts — typically the re
     slug: 'home-title-theft-deed-fraud-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'home-title-theft'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Morrish_deed_for_property_in_the_Anclote_area_near_Tarpon_Springs.jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Morrish_deed_for_property_in_the_Anclote_area_near_Tarpon_Springs.jpg?width=1200',
     coverImagePosition: 50,
     sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2024/08/home-title-lock-insurance-not-lock-all',
     body: `Home title theft, also called deed fraud, is a form of identity theft where a criminal forges a homeowner's signature on a deed — often a quitclaim deed, chosen specifically because it requires no title warranty and draws less scrutiny when filed — and records it with the county, making it look, on paper, like the real owner willingly transferred the property away. From there, the scammer can sell the home to an unsuspecting buyer, borrow against it as collateral, or rent it out, while the actual owner may have no idea anything happened until a tax bill, a for-sale sign, or a stranger at the door tips them off.
@@ -2528,7 +2544,7 @@ Every state's land records or county recorder's office lets you check your own d
     slug: 'fake-check-overpayment-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'fake-check-scams'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Blank_check.jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Blank_check.jpg?width=1200',
     coverImagePosition: 50,
     // representative photo — replace with an exact match if found
     sourceUrl: 'https://consumer.ftc.gov/articles/how-spot-avoid-and-report-fake-check-scams',
@@ -2545,7 +2561,7 @@ The clearest rule, straight from the FTC: never send money based on funds from a
     slug: 'synthetic-identity-theft-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'synthetic-identity-theft'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Social_Security_card.jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Social_Security_card.jpg?width=1200',
     coverImagePosition: 50,
     // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.federalreserve.gov/newsevents/pressreleases/other20190709a.htm',
@@ -2562,7 +2578,7 @@ If you're notified of unexplained activity tied to your Social Security number �
     slug: 'recovery-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'recovery-scams'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Wallet_on_a_table.jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Wallet_on_a_table.jpg?width=1200',
     coverImageCredit: 'Photo: barbostick (CC BY-SA 2.0)',
     coverImagePosition: 50,
     // representative photo — replace with an exact match if found
@@ -2580,7 +2596,7 @@ The core protection is simple to state and easy to forget in the moment: legitim
     slug: 'veterans-benefits-claim-shark-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'veterans-benefits-scams'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Veteran_Affairs_backlog_(2012-08-09).jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Veteran_Affairs_backlog_(2012-08-09).jpg?width=1200',
     coverImagePosition: 50,
     sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2026/07/veterans-dont-pay-apply-va-benefits',
     body: `A veteran is contacted out of the blue — often through social media, a community event, or a referral from someone they trust — by a person offering to help file a VA disability or benefits claim, for a fee, and promising a fast approval or even a guaranteed 100% disability rating in exchange for upfront payment. The pitch sounds like paid expertise navigating a notoriously complicated system. It's actually illegal on its face: applying for VA benefits is, and always has been, free.
@@ -2596,7 +2612,7 @@ Veterans should apply for benefits directly and for free at benefits.va.gov, or 
     slug: 'bank-impersonation-fraud-department-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'bank-impersonation-scams'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Exterior_of_an_M%26T_Bank_branch_in_Shelburne,_Vermont.jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Exterior_of_an_M%26T_Bank_branch_in_Shelburne,_Vermont.jpg?width=1200',
     coverImageCredit: 'Photo: Harrison Keely (CC BY 4.0)',
     coverImagePosition: 50,
     // representative photo — replace with an exact match if found
@@ -2614,7 +2630,7 @@ If you get a call like this, hang up — don't use any number or callback line t
     slug: 'task-scam-apps-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'task-scam-apps'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/OnePlus_Nord_smartphone_displaying_Android_home_screen.jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/OnePlus_Nord_smartphone_displaying_Android_home_screen.jpg?width=1200',
     coverImageCredit: 'Photo: Gannu03 (CC BY-SA 4.0)',
     coverImagePosition: 50,
     // representative photo — replace with an exact match if found
@@ -2632,7 +2648,7 @@ The rule that cuts through every version of this scam is simple, straight from t
     slug: 'neighbor-spoofing-robocalls-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'neighbor-spoofing'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Concerned_Phone_Call_(Unsplash).jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Concerned_Phone_Call_(Unsplash).jpg?width=1200',
     coverImagePosition: 50,
     // representative photo — replace with an exact match if found
     sourceUrl: 'https://consumer.ftc.gov/comment/30521',
@@ -2649,7 +2665,7 @@ Because the caller ID itself can't be trusted, the safest default is to let call
     slug: 'fake-process-server-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'fake-process-server-scams'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Wooden_gavel_20170417.jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Wooden_gavel_20170417.jpg?width=1200',
     coverImageCredit: 'Photo: Santeri Viinamäki (CC BY-SA 4.0)',
     coverImagePosition: 50,
     // representative photo — replace with an exact match if found
@@ -2667,7 +2683,7 @@ If you receive a call like this, don't provide any information on the spot. Ask 
     slug: 'home-solar-panel-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'home-solar-panel-scams'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Solar_panel_roof_6th_St.jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Solar_panel_roof_6th_St.jpg?width=1200',
     coverImageCredit: 'Photo: Downtowngal (CC BY-SA 4.0)',
     coverImagePosition: 50,
     sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2024/08/how-avoid-getting-burned-solar-or-clean-energy-scams',
@@ -2684,7 +2700,7 @@ Red flags include any claim that a government agency is behind the offer, pressu
     slug: 'crowdfunding-gofundme-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'crowdfunding-scams'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/2023-09-13_Digital_donation_box_to_combat_homelessness.jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/2023-09-13_Digital_donation_box_to_combat_homelessness.jpg?width=1200',
     coverImageCredit: 'Photo: Bärbel Miemietz (CC BY-SA 4.0)',
     coverImagePosition: 50,
     // representative photo — replace with an exact match if found
@@ -2702,7 +2718,7 @@ Before donating, look up the organizer and the beneficiary independently rather 
     slug: 'counterfeit-online-pharmacy-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'counterfeit-online-pharmacy-scams'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/DEA_to_host_national_prescription_drug_take-back_160324-F-HC995-002.jpg',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/DEA_to_host_national_prescription_drug_take-back_160324-F-HC995-002.jpg?width=1200',
     coverImagePosition: 50,
     // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.fda.gov/drugs/buying-using-medicine-safely/besaferx-your-source-online-pharmacy-information',
