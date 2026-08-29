@@ -10664,6 +10664,39 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Uber Help Center'],
     sourceUrl: 'https://help.uber.com/driving-and-delivering/article/keeping-your-uber-account-safe?nodeId=fc65283f-3420-412b-abbd-7335f06e5476',
   },
+  {
+    name: 'Dutch UWV Benefit Account Phishing Scam',
+    slug: 'dutch-uwv-benefit-account-phishing-scam',
+    description:
+      'An email impersonating UWV (the Dutch Employee Insurance Agency, which administers unemployment and other work-related benefits) claims the recipient\'s account needs to be "re-verified" as part of routine maintenance, warning that benefits or account security will be affected if they don\'t act. The email links to a fake login page designed to harvest the victim\'s personal and financial details, typically showing tell-tale signs of forgery like a generic greeting and a sender address on an unrelated foreign domain. UWV states it never asks people to share personal or confidential information by email.',
+    categorySlug: 'public-benefits-fraud',
+    country: 'NL',
+    alertLevel: 'high',
+    sources: ['UWV (Dutch Employee Insurance Agency)'],
+    sourceUrl: 'https://www.uwv.nl/en/about-this-site/avoid-and-report-scams-and-phishing',
+  },
+  {
+    name: 'Dutch Fake Energy Provider Debt SMS Scam',
+    slug: 'dutch-fake-energy-provider-debt-sms-scam',
+    description:
+      'A text message impersonating a Dutch energy supplier such as Eneco claims the recipient has an overdue balance that must be paid immediately, sometimes addressing them by surname to appear legitimate, and includes a link to pay via iDEAL — the Netherlands\' standard bank-transfer payment system. The link itself is a real iDEAL payment flow, not a fake page, which makes the scam harder to spot; the money is simply routed to the scammer\'s account instead of the energy company\'s. Fraudehelpdesk warns recipients never to click or pay from such a message and to verify any claimed balance directly through their own account with the energy provider.',
+    categorySlug: 'utility-scams',
+    country: 'NL',
+    alertLevel: 'medium',
+    sources: ['Fraudehelpdesk (Dutch National Anti-Fraud Hotline)'],
+    sourceUrl: 'https://www.fraudehelpdesk.nl/alert/valse-sms-namens-eneco/',
+  },
+  {
+    name: 'Dutch WhatsApp Task-Job Scam',
+    slug: 'dutch-whatsapp-task-job-scam',
+    description:
+      'Victims receive an unsolicited message or automated call offering easy, high-paying remote work — commonly writing product reviews, "liking" content, or trading in crypto — often citing a recruitment agency or a well-known job site. To get details, the target is told to save the sender\'s number and continue the conversation on WhatsApp or Telegram. Workers are then required to pay money upfront to "unlock" tasks, sometimes receiving small real payouts early to build trust, before being told they haven\'t completed enough tasks and must pay increasingly larger amounts to withdraw their supposed earnings — money that is never returned.',
+    categorySlug: 'employment-scams',
+    country: 'NL',
+    alertLevel: 'high',
+    sources: ['Fraudehelpdesk (Dutch National Anti-Fraud Hotline)'],
+    sourceUrl: 'https://www.fraudehelpdesk.nl/alert/vals-voorstel-via-whatsapp-thuiswerkvacature-reviews-schrijven/',
+  },
 ];
 
 async function seedCategoriesAndScams() {
