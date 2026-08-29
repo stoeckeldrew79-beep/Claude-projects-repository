@@ -9583,6 +9583,39 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Polizei-Beratung'],
     sourceUrl: 'https://www.polizei-beratung.de/themen-und-tipps/betrug/haustuerbetrug/',
   },
+  {
+    name: 'Irish Revenue Tax Refund Phishing Scam',
+    slug: 'ireland-revenue-tax-refund-phishing-scam',
+    description:
+      'A text message or email claims to be from Revenue (Ireland\'s tax authority), telling the recipient they\'re due a specific tax refund — or, in a harsher variant, that they owe money and face criminal consequences — with a link to "process" the claim. The link leads to a lookalike site designed to harvest personal, banking, or card details, often using a domain that only resembles revenue.ie rather than matching it exactly. Revenue states plainly that it never contacts taxpayers by email, SMS, or phone call to announce a refund or a bill; legitimate correspondence only comes through its own MyEnquiries service in Revenue Online Services or myAccount.',
+    categorySlug: 'tax-scams',
+    country: 'IE',
+    alertLevel: 'high',
+    sources: ['Revenue (Irish Tax and Customs)'],
+    sourceUrl: 'https://www.revenue.ie/en/corporate/communications/fraudulent-emails/index.aspx',
+  },
+  {
+    name: 'Irish Garda Impersonation Phone Scam',
+    slug: 'ireland-garda-impersonation-phone-scam',
+    description:
+      'A caller claims to be a Garda (Irish police officer), sometimes spoofing a number resembling the Garda Confidential Line, and says the recipient is under investigation for fraud, has an outstanding arrest warrant, or owes a fine — demanding immediate payment or bank account and PPS (Irish national ID) number to resolve it. An Garda Síochána has stated plainly that its members will never contact someone out of the blue by phone to request bank details, and advises anyone contacted this way to hang up and independently look up their local Garda station\'s number rather than trust one given by the caller, since the real Confidential Line doesn\'t place outgoing calls at all.',
+    categorySlug: 'government-impersonation',
+    country: 'IE',
+    alertLevel: 'high',
+    sources: ['An Garda Síochána'],
+    sourceUrl: 'https://www.garda.ie/en/about-us/our-departments/office-of-corporate-communications/press-releases/2021/april/fraud-warning-impersonating-members-of-an-garda-sochna.html',
+  },
+  {
+    name: 'Irish Bank "Safe Account" and Courier Card Fraud',
+    slug: 'ireland-safe-account-courier-card-fraud',
+    description:
+      'A caller or text claiming to be from the victim\'s bank warns that their account has been compromised and urges them to move money into a supposed "safe account" to protect it — or, in the courier-card variant, sends someone to the victim\'s home to physically collect their debit or credit card and PIN under the same security pretext. A related version convinces the victim to grant remote access to their computer so the "bank" can supposedly reverse a fraudulent transaction, which is instead used to drain the account directly. FraudSMART, the fraud-awareness initiative run by Irish banks, describes all three as highly convincing precisely because they exploit trust in a real bank\'s fraud-prevention process rather than an obviously suspicious request.',
+    categorySlug: 'account-takeover',
+    country: 'IE',
+    alertLevel: 'critical',
+    sources: ['FraudSMART (Banking & Payments Federation Ireland)'],
+    sourceUrl: 'https://www.fraudsmart.ie/alerts/',
+  },
 ];
 
 async function seedCategoriesAndScams() {
