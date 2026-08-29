@@ -380,6 +380,10 @@ WorldCom, alongside Enron the same year, became a defining case for corporate ac
     title: 'Charles Keating and the Lincoln Savings Collapse That Cost Taxpayers Billions',
     slug: 'charles-keating-lincoln-savings-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Downtown_Phoenix_Skyline_at_Night.jpg',
+    coverImageCredit: 'Photo: Alan Stark (CC BY-SA 2.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Charles Keating ran Lincoln Savings and Loan, an Irvine, California thrift he acquired in 1984, during the deregulated boom years of the savings-and-loan industry. Rather than sticking to traditional, federally insured home loans, Keating used Lincoln's federally insured deposits to fund speculative real estate ventures and other high-risk investments — and had Lincoln's sales staff aggressively market uninsured junk bonds issued by its parent company to depositors, many of them elderly, who believed they were buying something as safe as the insured savings accounts around them.
 
@@ -900,6 +904,10 @@ The sheer scale of Weiss's original sentence — hundreds of years beyond any hu
     title: 'R. Foster Winans: The Wall Street Journal Columnist Who Traded on His Own Column',
     slug: 'r-foster-winans-heard-on-the-street-insider-trading',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Wall_Street_Sign_NYC.jpg',
+    coverImageCredit: 'Photo: JSquish (CC BY-SA 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `R. Foster Winans co-wrote The Wall Street Journal's influential "Heard on the Street" column in the early 1980s, a daily feature widely understood on Wall Street to move stock prices simply by discussing a company favorably or unfavorably. Winans began secretly tipping off a stockbroker at Kidder, Peabody & Co. about which companies his column would cover, and when, before each piece was published — giving the broker, and eventually a small ring of traders, the ability to buy or sell ahead of a price movement Winans's own writing was about to cause.
 
@@ -1030,6 +1038,10 @@ Tourre's case is one of the clearest examples of a conflict of interest dressed 
     title: 'Marc Rich: The Fugitive Oil Trader Who Bought a Presidential Pardon',
     slug: 'marc-rich-fugitive-oil-trader-pardon',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/CH.ZG.Zug_Altstadt_02_16x9%2BR_16384x9216.jpg',
+    coverImageCredit: 'Photo: Roy Egloff (CC BY-SA 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Marc Rich built one of the world's largest commodities trading firms, Marc Rich + Co., by operating in the gray zones international sanctions left open — and in 1979, when the Shah of Iran fell and the United States embargoed Iranian oil during the hostage crisis, Rich's Swiss-based, formally non-American company kept buying Iranian crude and reselling it anyway, functioning as a middleman that let Iran's oil keep moving to willing buyers despite the embargo. A federal grand jury in the Southern District of New York returned a 51-count indictment against Rich and his business partner Pincus Green in September 1983, charging tax evasion, mail and wire fraud, racketeering, and illegally trading with a sanctioned nation — tied to more than $48 million in evaded taxes on over $100 million in unreported income from the oil deals.
 
@@ -1452,6 +1464,10 @@ New Era stands out among affinity-style frauds for how far up the trust ladder i
     title: 'Lernout & Hauspie: The Belgian Tech Darling Built on Fabricated Korean Sales',
     slug: 'lernout-hauspie-belgian-accounting-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Ieper25.jpg',
+    coverImageCredit: 'Photo: Paul Hermans (CC BY-SA 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Jo Lernout and Pol Hauspie founded Lernout & Hauspie Speech Products in Ypres, Belgium, in 1987, building a genuine and technically capable speech-recognition and language-technology company that went public on Nasdaq in 1995. By the late 1990s L&H was a rare thing for a Belgian company — a globally hyped tech stock, backed by a $45 million investment from Microsoft in 1997, that briefly reached a market capitalization approaching $10 billion after acquiring well-known names like Dictaphone and Dragon Systems.
 
@@ -1553,6 +1569,10 @@ More than a decade later, the core fraud case remains unresolved: Sen was convic
     title: 'Barry Tannenbaum: The $1 Billion Ponzi Scheme Nobody Was Ever Charged For',
     slug: 'barry-tannenbaum-ponzi-scheme-fugitive',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Sandton_banner.jpg',
+    coverImageCredit: 'Photo: Bizcallers (CC BY-SA 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Barry Tannenbaum, a South African businessman and grandson of a pharmaceutical company founder, pitched investors on a business trading active pharmaceutical ingredients — the raw materials used to manufacture generic drugs, including AIDS antiretrovirals badly needed across Africa — through entities including Frankel International. He promised eye-catching annual returns of more than 200 percent, framed as profit from supply contracts feeding real pharmaceutical manufacturing deals.
 
@@ -1714,6 +1734,10 @@ Watson never served a day of that sentence. Hours before he was due to surrender
     title: 'Bernard Cornfeld: "Do You Sincerely Want to Be Rich?" and the $2 Billion Mutual Fund Empire That Collapsed',
     slug: 'bernard-cornfeld-investors-overseas-services-collapse',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Geneve_2005_001_Ork.ch.jpg',
+    coverImageCredit: 'Photo: Stéphane Pecorini (CC BY-SA 2.0 FR)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Robert Vesco is already covered elsewhere in this collection for looting roughly $224 million from Investors Overseas Services (IOS) — but Vesco only got control of IOS because it had already been built, and broken, by someone else first. Bernard Cornfeld founded IOS in Paris in 1955 and grew it into a Geneva-based mutual fund empire, deliberately structured offshore in Panama and later Canada to sit outside any single government's full jurisdiction. His recruiting pitch to the commission-only sales force he built became notorious in its own right: "Do you sincerely want to be rich?"
 
