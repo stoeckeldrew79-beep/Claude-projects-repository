@@ -1935,6 +1935,48 @@ Hayut had a fraud record predating the "Simon Leviev" persona, including a prior
 The case became internationally known well beyond Israel's court system after Netflix's 2022 documentary "The Tinder Swindler" reconstructed the scheme through interviews with several of his victims, turning a closed regional fraud case into one of the most widely recognized examples of dating-app-enabled financial fraud. It illustrates a distinct variation on the classic romance scam: rather than inventing a fictional persona from nothing, Hayut borrowed a real public figure's identity and reputation to make an implausible lifestyle look credible enough to fund itself off victim after victim.`,
     sourceUrl: 'https://www.timesofisrael.com/israeli-tinder-swindler-sentenced-to-15-months-in-prison/',
   },
+  {
+    title: 'Zachary Horwitz: The Aspiring Actor Whose $650 Million Ponzi Scheme Ran on Fake Netflix and HBO Deals',
+    slug: 'zachary-horwitz-1inmm-capital-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Zachary Horwitz, who acted under the screen name "Zach Avery," spent most of the 2010s taking small, mostly uncredited roles in low-budget films while his real income came from somewhere else entirely. Through a company he founded called 1inMM Capital LLC, Horwitz told investors — including personal friends — that their money would be used to acquire regional licensing rights to films, which would then be sublicensed to streaming platforms including Netflix and HBO for guaranteed, above-market returns.
+
+None of it was real. Netflix and HBO later confirmed they had never done business with Horwitz or 1inMM Capital, and there were no underlying film-licensing deals generating any of the promised returns. Instead, Horwitz ran a straightforward Ponzi structure for roughly five years, from 2014 to 2019, using new investors' money to pay off earlier investors and fabricating supporting documents — including forged emails purporting to be from Netflix and HBO executives — to keep the illusion of a legitimate, working business intact.
+
+The scheme collapsed in 2019 once Horwitz could no longer raise enough new money to cover what he owed earlier investors, and the FBI's investigation ultimately traced at least $650 million raised over the life of the fraud, though a large share of that represented money cycled between investors rather than distinct new losses. Horwitz pleaded guilty in October 2021 to one count of securities fraud. In February 2022, U.S. District Judge Mark C. Scarsi sentenced him to 240 months — 20 years — in federal prison and ordered him to pay $230,361,884 in restitution to his victims.
+
+Horwitz's case is a reminder that Hollywood's own opacity — foreign distribution deals genuinely are hard for an outside investor to verify — is exactly the kind of cover a fraud like this needs: a business built on contracts and relationships nobody outside the company can easily check is also a business where nobody outside the company can easily catch you lying about them, at least not until the money to keep the story going finally runs out.`,
+    sourceUrl: 'https://www.justice.gov/usao-cdca/pr/la-man-sentenced-20-years-federal-prison-650-million-ponzi-scheme-falsely-claimed',
+  },
+  {
+    title: 'Alex Mashinsky and the Celsius Network Crypto Lending Collapse',
+    slug: 'alex-mashinsky-celsius-network-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `Alex Mashinsky founded Celsius Network in 2017, building it into one of the largest crypto lending platforms in the world on a simple pitch: deposit your cryptocurrency with Celsius's "Earn" program, and collect weekly interest — sometimes as high as 18% annually — that Mashinsky routinely said was safer than a traditional bank. In a 2021 interview, he told customers Celsius's Earn program had received regulatory approval, which prosecutors say was false and which he knew was false when he said it.
+
+Behind that reassurance, Celsius was using customer deposits to make risky bets while Mashinsky personally cashed out. Prosecutors said he manipulated the price of CEL, Celsius's own in-house token, driving it artificially higher while secretly selling off his personal CEL holdings at those inflated prices — netting roughly $48 million for himself even as he publicly encouraged customers to keep depositing. When crypto markets seized up in mid-2022, closely following the collapse of the Terra/LUNA stablecoin project, Celsius halted all customer withdrawals in June 2022, froze billions of dollars in customer deposits, and filed for Chapter 11 bankruptcy the following month.
+
+Mashinsky was arrested in 2023 on securities, commodities, and wire fraud charges, the same week Celsius separately reached a $4.7 billion settlement with the FTC. He pleaded guilty in December 2024 to two of the original counts — commodities fraud and the scheme to manipulate CEL's price — and in May 2025, U.S. District Judge John G. Koeltl sentenced him to 12 years in federal prison, calling his crimes "extremely serious." U.S. Attorney Jay Clayton summarized the case simply: Mashinsky "targeted retail investors with promises that he would keep their 'digital assets' safer than a bank, when in fact he used those assets to place risky bets and to line his own pockets."
+
+Celsius stands out among crypto-era frauds for how closely it mimicked a conventional bank in its marketing — "safer than a bank" was the pitch — while operating with none of the regulatory guardrails, deposit insurance, or disclosure requirements an actual bank has to meet, and while its own founder was quietly cashing out at his depositors' expense.`,
+    sourceUrl: 'https://www.justice.gov/usao-sdny/pr/founder-celsius-sentenced-12-years-fraud-and-market-manipulation',
+  },
+  {
+    title: 'George Santos: The Congressman Whose Résumé and Campaign Were Both Fabricated',
+    slug: 'george-santos-congressional-wire-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `George Santos won a U.S. House seat representing New York in 2022 on a personal biography that turned out to be substantially invented — but the fraud that ultimately sent him to prison ran through his campaign finances, not just his résumé. Beginning in September 2022, Santos and an associate charged campaign donors' credit cards repeatedly without authorization, funneling the money into his own campaign, other candidates' campaigns, and his personal bank account, then filed false reports with the Federal Election Commission claiming the contributions had actually come from relatives or associates — concealing the unauthorized charges and evading federal contribution limits at the same time.
+
+Santos ran a second, separate scheme through a company he controlled, using a political consultant to solicit and collect money from prospective donors that was never used for its stated purpose. He also filed false FEC reports inflating contributions supposedly made by ten family members and falsely claiming he had personally loaned his campaign large sums of money he never actually had. And years earlier, in mid-2020, while fully employed and drawing a regular salary, Santos applied for New York State unemployment benefits by falsely claiming he'd been out of work since March 2020 — then kept certifying his eligibility nearly every week through April 2021, ultimately collecting more than $24,000 in benefits he wasn't entitled to.
+
+The House Ethics Committee's investigation led to Santos's expulsion from Congress in December 2023, a punishment only five other members have ever received in American history — notable because it came before any criminal conviction, based solely on the Committee's own findings. He was indicted separately on federal charges including wire fraud, money laundering, theft of public funds, and aggravated identity theft, and pleaded guilty in August 2024 to one count of wire fraud and one count of aggravated identity theft. In April 2025, U.S. District Judge Joanna Seybert sentenced him to 87 months — the maximum under federal sentencing guidelines — and ordered him to pay $373,749.97 in restitution and $205,002.97 in forfeiture.
+
+Santos's case shows how a campaign's fundraising apparatus — credit card processing, FEC disclosure requirements meant to create transparency — can be turned into the fraud's own machinery: the same paperwork designed to show donors and regulators where money came from was the paperwork he falsified to hide where it actually went.`,
+    sourceUrl: 'https://www.justice.gov/usao-edny/pr/ex-congressman-george-santos-sentenced-87-months-prison-wire-fraud-and-aggravated',
+  },
 ];
 
 // Practical "how it works / red flags / what to do" guides covering the
