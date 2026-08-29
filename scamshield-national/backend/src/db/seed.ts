@@ -1618,6 +1618,48 @@ The diverted money bought a lifestyle almost cartoonish in its excess: a $250 mi
 U.S. prosecutors indicted Low in November 2018 on charges of conspiring to launder billions from 1MDB and to violate anti-bribery law, alongside a former Goldman Sachs banker who was later extradited from Malaysia and convicted. Low himself has never been arrested; he remains a fugitive whose exact whereabouts are unconfirmed, though journalists have reported sightings tying him to China. In 2019 he reached a roughly $1 billion civil settlement with the DOJ over seized assets, without admitting guilt. Goldman Sachs itself pleaded guilty in 2020 and paid more than $2.9 billion globally to resolve the case. Najib Razak was convicted in an earlier related case in 2020 and, in a separate 1MDB trial concluded in December 2025, was convicted again and sentenced to a further 15 years in prison plus a fine exceeding $3 billion — while the man prosecutors say orchestrated the whole scheme has spent nearly a decade staying one step ahead of arrest.`,
     sourceUrl: 'https://www.justice.gov/usao-edny/pr/malaysian-financier-low-taek-jho-aka-jho-low-and-former-banker-ng-chong-hwa-aka-roger',
   },
+  {
+    title: 'John Rusnak and the $691 Million He Hid Inside Allfirst Bank',
+    slug: 'john-rusnak-allfirst-bank-currency-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `John Rusnak spent five years as a currency trader at Allfirst Bank, a Baltimore-based subsidiary of Ireland's Allied Irish Banks (AIB), quietly betting that the Japanese yen would strengthen against the U.S. dollar. It didn't, and rather than absorb the losses, Rusnak spent years hiding them from his own bank.
+
+The mechanism was fake trades. To make his real, losing positions look hedged and risk-free on paper, Rusnak entered fictitious offsetting options trades into Allfirst's books — deals that didn't actually exist with the counterparties he claimed to have made them with. Because his fabricated trades made his overall position appear to net out to roughly zero risk, the bank's back-office controls, which relied on independent confirmation of large positions, never caught up to what he was actually doing. When colleagues asked questions, Rusnak intimidated or brushed past them, and the fiction held for years.
+
+It fell apart in February 2002, when an internal review finally traced the scale of what had happened: roughly $691 million in concealed losses, one of the largest bank-trading fraud cases in U.S. history to that point. The discovery forced a management shake-up at Allfirst, contributed to AIB's decision to sell the bank to M&T Bank for $3.1 billion, and triggered a Maryland federal investigation. Rusnak pleaded guilty to bank fraud, and in January 2003 was sentenced to seven and a half years in federal prison with no possibility of parole — a term the sentencing judge called one of the stiffest white-collar sentences in Maryland history — plus five years of supervised release and a repayment order the court itself acknowledged he could never realistically satisfy.
+
+Rusnak's case became a textbook example in the banking industry of what a rogue trader looks like when internal controls rely on self-reported confirmations rather than independent verification: a single trader, given enough autonomy and enough time before anyone cross-checked his numbers against reality, was able to hide nearly $700 million in losses inside a regulated bank for half a decade.`,
+    sourceUrl: 'https://www.baltimoresun.com/2003/01/18/rusnak-sentenced-to-7-12-years-in-prison-for-fraud-at-allfirst/',
+  },
+  {
+    title: 'Wolfgang Beltracchi: The Forger Who Fooled the Art World for 35 Years',
+    slug: 'wolfgang-beltracchi-art-forgery-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Wolfgang Beltracchi didn't copy famous paintings — he invented new ones. For roughly three decades, the German artist painted works "in the style of" more than fifty early-20th-century modern masters, including Max Ernst, Heinrich Campendonk, Fernand Léger, and André Derain, and sold them to auction houses and collectors as genuine lost or rediscovered originals.
+
+The forgery itself was only half the scheme; the other half was manufacturing a believable history for paintings that had never existed. Beltracchi and his wife, Helene, invented a fictitious pre-war art collection they attributed to Helene's supposed grandfather, and backed it up with forged gallery labels designed to look like they came from Alfred Flechtheim, a real and prominent Weimar-era German art dealer. Aged canvases, period-appropriate materials, and a plausible-sounding provenance story were enough to get the paintings past the experts, auction houses, and authentication processes that were supposed to catch exactly this kind of fraud.
+
+The scheme's undoing started with a technical detail: forensic examination of pigments in some paintings found traces of titanium white that weren't commercially available when the paintings were supposedly created, and investigators eventually established that Flechtheim had never actually produced the labels being used to authenticate the works. German police ultimately identified 53 alleged forgeries connected to the operation, with 14 forming the core of the criminal case. Confirmed sales attributed to the ring included a purported André Derain sold through Christie's for £2 million in 2007 and a purported Max Ernst sold through Sotheby's for $1.1 million in 2009 — both auction houses later faced claims from buyers seeking compensation.
+
+Beltracchi, identified in court as the ring's mastermind and the actual painter behind the forgeries, was convicted at the Cologne regional court in October 2011 and sentenced to six years in prison as part of a plea agreement covering all four defendants; Helene received a shorter term. He was released in January 2015. The case remains one of the largest documented art-forgery operations ever prosecuted, and a reminder that even an industry built around expert authentication can be fooled for decades by a forger patient enough to fabricate not just the object, but its entire believable history.`,
+    sourceUrl: 'https://www.theartnewspaper.com/2011/12/01/true-scale-of-alleged-beltracchi-forgeries-revealed',
+  },
+  {
+    title: 'Shimon Hayut, the "Tinder Swindler": A Fake Diamond Heir\'s Real Fraud Conviction',
+    slug: 'shimon-hayut-tinder-swindler-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `Shimon Hayut matched with women on Tinder under the name "Simon Leviev," presenting himself as the son of real Israeli-Russian diamond magnate Lev Leviev. He backed the story with a jet-set lifestyle — private jets, luxury hotels, expensive gifts — funded almost entirely by money he was actively taking from other women he had already deceived.
+
+Once a relationship was established and the lavish lifestyle had built trust, Hayut would claim his "enemies" or business rivals were threatening him and that he needed to travel or hide temporarily for safety, asking the woman to open credit cards or wire money in her own name to cover his expenses in the meantime — money that funded his lifestyle and paid off his previous victims, in the pattern of a Ponzi scheme rather than a one-time con. Each new victim's money helped keep the fiction going for the ones who came before her.
+
+Hayut had a fraud record predating the "Simon Leviev" persona, including a prior Israeli conviction in 2011 for check theft. He fled Israel in 2017 to avoid facing new charges, was eventually arrested in Greece in 2019 using a false passport, and was extradited back to Israel that October. The Tel Aviv Magistrate's Court sentenced him in December 2019 to 15 months in prison and ordered him to pay victims roughly NIS 150,000 (about $43,000) in restitution, plus a separate fine — though under standard Israeli early-release practice, he served only a fraction of that sentence.
+
+The case became internationally known well beyond Israel's court system after Netflix's 2022 documentary "The Tinder Swindler" reconstructed the scheme through interviews with several of his victims, turning a closed regional fraud case into one of the most widely recognized examples of dating-app-enabled financial fraud. It illustrates a distinct variation on the classic romance scam: rather than inventing a fictional persona from nothing, Hayut borrowed a real public figure's identity and reputation to make an implausible lifestyle look credible enough to fund itself off victim after victim.`,
+    sourceUrl: 'https://www.timesofisrael.com/israeli-tinder-swindler-sentenced-to-15-months-in-prison/',
+  },
 ];
 
 // Practical "how it works / red flags / what to do" guides covering the
