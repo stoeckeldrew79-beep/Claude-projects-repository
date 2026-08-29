@@ -29,7 +29,11 @@ app.use(cors({ origin: process.env.FRONTEND_URL ?? '*' }));
 // skips re-parsing a body a prior middleware already consumed.
 app.use('/v1/subscriptions/webhook', express.raw({ type: 'application/json' }));
 app.use(express.json());
-app.use(publicApiLimiter);
+// Skip outside production so local dev/testing (page reloads, HMR, a
+// scheduled local sync task) never trips the public rate limit.
+if (process.env.NODE_ENV === 'production') {
+  app.use(publicApiLimiter);
+}
 
 app.get('/health', (_req, res) => res.json({ status: 'ok' }));
 
