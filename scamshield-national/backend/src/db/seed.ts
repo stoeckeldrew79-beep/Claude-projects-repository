@@ -2941,6 +2941,34 @@ Seniors make up roughly 15% of the U.S. population but represent close to 30% of
 
 If you've attended one of these seminars and felt pressured, or already invested in something recommended there, you can look up whether the seller and the specific product are properly registered through your state securities regulator (find yours through NASAA) or FINRA's BrokerCheck before signing anything else, and you can file a complaint with either if something feels off. The core defense doesn't require detecting fraud in the room in real time — it just requires treating "free" as a marketing cost built into the price of whatever gets sold afterward, and taking any specific recommendation home to review, unhurried, before committing any money.`,
   },
+  {
+    title: 'Courier Fraud: When a Stranger Comes to Your Door to Collect Your Bank Card or Cash',
+    slug: 'courier-fraud-card-cash-collection-scam-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'courier-fraud'],
+    sourceUrl: 'https://www.ic3.gov/PSA/2024/PSA240129',
+    body: `Most tech support scams end with a request to buy a gift card or wire money. Courier fraud goes several steps further, and asks for something far more direct: a physical handover. It typically starts the same way most tech support scams do — a pop-up or phone call claims your computer has been hacked — but instead of stopping there, the caller transfers you to someone posing as a bank fraud investigator, and finally to someone posing as a federal government official, each one reinforcing that your money is at risk and needs to be "protected."
+
+Rather than the usual wire transfer or gift card, the fake officials instruct the victim to withdraw cash from the bank or convert their savings into gold, silver, or other precious metals — sometimes coached on exactly what to say to a bank teller who asks questions about a large withdrawal. A courier is then sent to the victim's home, or to a public meeting spot, to collect the cash or metal in person, occasionally using a made-up "passcode" tied to currency serial numbers to make the handoff feel like part of a real, sanctioned investigation. The scammers claim the money is being moved into a protected government account; in reality, it's gone the moment it's handed over, and the victim never hears from "the investigation" again.
+
+The FBI's Internet Crime Complaint Center has tracked more than $55 million in reported losses to this specific scheme in just an eight-month stretch, and a regional field-office update later put the running total north of $180 million, with the overwhelming majority of victims over the age of 60 — a pattern consistent with a scam built around multiple layers of manufactured authority (tech company, bank, government) designed to overwhelm an individual's ability to pause and verify any one part of the story.
+
+No legitimate bank, government agency, or law enforcement investigation will ever ask you to withdraw cash, convert it to precious metals, or hand it to a courier who shows up at your home. If you receive a call like this, the safest move is to hang up entirely — not transfer to a "supervisor," not stay on the line while someone else "verifies" your identity — and independently look up and call your bank or the actual government agency the caller claimed to represent, using a number you find yourself rather than one the caller provides.`,
+  },
+  {
+    title: 'Business Opportunity and MLM Scams: When "Be Your Own Boss" Is the Pitch, Not a Product',
+    slug: 'business-opportunity-mlm-scam-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'business-opportunity-scam'],
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2024/09/what-are-multi-level-marketing-mlm-disclosure-statements-really-telling-you',
+    body: `A friend, a social media ad, or someone from an old contact list reaches out with an opportunity to "be your own boss" selling a product through a multi-level marketing (MLM) company — skincare, supplements, essential oils, or financial coaching are common categories. The pitch usually leans heavily on the income other people are supposedly making, often shown through screenshots of deposit notifications or vague references to a six-figure lifestyle, with much less said about what it actually costs to get started or keep going.
+
+Some MLMs are legitimate businesses that pay participants primarily for selling a real product to real retail customers. Others are illegal pyramid schemes wearing an MLM's structure, where the money paid out to existing members mostly comes from the fees paid by newly recruited members, rather than from product sales to people outside the program — a structure that mathematically collapses once recruiting slows down, leaving the majority of later participants holding unsold inventory and no way to recoup their investment.
+
+The FTC has directly examined the earnings disclosure statements MLM companies are required to provide to prospective recruits and found the actual numbers tell a consistently bleak story: across the MLMs it reviewed, most participants made $1,000 or less per year — less than $84 a month — and in at least 17 of the MLMs studied, most participants made nothing at all. The FTC also found the disclosures themselves are often written to obscure this reality: emphasizing a handful of top earners while downplaying how rare their results are, leaving out the percentage of participants who earned nothing, presenting income data in confusing formats, and omitting the business expenses — starter kits, inventory, training events, marketing tools — that frequently exceed whatever a participant brings in.
+
+Before joining any MLM or "business opportunity," the FTC recommends researching the company and its actual products independently, having someone you trust who has no stake in the company review any paperwork before you sign it, and reading the earnings disclosure statement closely rather than taking a recruiter's verbal claims at face value. Genuine pressure to decide immediately, a heavier emphasis on recruiting new members than on selling anything to an actual outside customer, and a refusal to let you see hard numbers before you commit money are all signs the "opportunity" is built to benefit whoever recruited you more than it will ever benefit you.`,
+  },
 ];
 
 async function seedArticles(articles: SeedArticle[], label: string) {
