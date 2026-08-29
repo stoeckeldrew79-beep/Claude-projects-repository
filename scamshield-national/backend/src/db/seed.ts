@@ -9743,6 +9743,66 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['FBI Internet Crime Complaint Center (IC3)'],
     sourceUrl: 'https://www.ic3.gov/PSA/2025/PSA250603',
   },
+  {
+    name: 'New York DMV Fuel Rebate Phishing Text Scam',
+    slug: 'ny-dmv-fuel-rebate-phishing-text-scam',
+    description:
+      'Text messages impersonating the New York State DMV falsely claim residents are eligible for a $1,500 rebate tied to high fuel prices, urging recipients to click a link to claim it. The link leads to a counterfeit website designed to closely resemble the real DMV site, where visitors are prompted to submit personal information. DMV Commissioner Mark J.F. Schroeder confirmed the agency never sends such texts asking for personal information, distinguishing this from the more common "unpaid toll/registration suspension" DMV text scams by using a reward lure instead of a threat.',
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['New York State Department of Motor Vehicles'],
+    sourceUrl: 'https://dmv.ny.gov/news/dmv-warns-new-yorkers-of-new-phishing-scam',
+  },
+  {
+    name: 'Lyft Driver Account Phishing and Earnings Theft',
+    slug: 'lyft-driver-account-phishing-earnings-theft',
+    description:
+      'A scammer contacts an active Lyft driver by phone, text, or in-app-style message posing as Lyft support, often using a spoofed caller ID or urgent language about a supposed account problem. The driver is pressured into sharing a verification code, phone number, driver\'s license details, or bank/card information — which the scammer then uses to log into the real account, lock the driver out, and redirect their earnings to a payment method the scammer controls. Lyft\'s own help center states flatly that "Lyft won\'t contact you via phone, text, or e-mail asking for personal info unless you reach out to us first," making any unsolicited request for these details a reliable red flag.',
+    categorySlug: 'account-takeover',
+    alertLevel: 'high',
+    sources: ['Lyft Help Center'],
+    sourceUrl: 'https://help.lyft.com/hc/en-us/all/articles/115012925727-Communicate-securely-on-Lyft',
+  },
+  {
+    name: 'Duke Energy Utility Disconnection Impersonation Scam',
+    slug: 'duke-energy-disconnection-impersonation-scam',
+    description:
+      'Scammers call customers across Duke Energy\'s multi-state footprint (Florida, Indiana, North Carolina, Ohio, Kentucky, and South Carolina) using spoofed caller ID that displays Duke Energy\'s real customer service number, and some have even replicated the utility\'s automated phone system to sound legitimate. The caller claims the account is past due and threatens imminent disconnection unless the customer immediately buys a prepaid debit or gift card and calls back to read off the card\'s receipt and PIN numbers, which give the scammer instant access to the funds. Duke Energy is one of the utilities behind the "Utilities United Against Scams" cross-industry campaign warning customers it will never demand instant payment by prepaid card under threat of same-day shutoff.',
+    categorySlug: 'utility-scams',
+    alertLevel: 'high',
+    sources: ['Duke Energy'],
+    sourceUrl: 'https://news.duke-energy.com/releases/duke-energy-joins-u-s-and-canadian-utilities-to-protect-customers-from-utility-scammers',
+  },
+  {
+    name: 'Mexico-Based Timeshare Fraud Targeting US Owners',
+    slug: 'mexico-timeshare-fraud-us-owners',
+    description:
+      'Transnational criminal organizations based in Mexico target Americans who own timeshares at Mexican resorts through unsolicited phone calls or emails posing as sales representatives with a buyer already lined up. Once the "sale" is accepted, the caller requests a series of advance-fee payments framed as closing costs, listing/advertising fees, or Mexican taxes and customs charges, promising reimbursement once the deal closes. The buyer and closing never materialize, and victims who stop paying are frequently re-targeted by a second, unrelated set of fraudsters posing as fraud-recovery companies who charge yet another upfront fee to "retrieve" the money already lost.',
+    categorySlug: 'timeshare-scams',
+    alertLevel: 'high',
+    sources: ['FBI Internet Crime Complaint Center (IC3)'],
+    sourceUrl: 'https://www.ic3.gov/PSA/2023/PSA230302',
+  },
+  {
+    name: 'Timeshare Fraud Recovery Scam',
+    slug: 'timeshare-fraud-recovery-scam',
+    description:
+      'After a consumer has already lost money to a timeshare resale or exit scam, a second caller, emailer, or texter contacts them claiming to be a recovery specialist, attorney, or government official who can retrieve the funds already paid — sometimes even posing as the original company offering refunds to "dissatisfied customers." To start the recovery, the victim is asked to pay an upfront charge labeled a retainer fee, processing fee, tax, or shipping/handling charge, or to hand over a Social Security number or bank account details so a refund can supposedly be deposited. No government agency requires payment to pursue a fraud claim, and no money is ever actually recovered — the victim is defrauded a second time.',
+    categorySlug: 'timeshare-scams',
+    alertLevel: 'medium',
+    sources: ['Federal Trade Commission (FTC)'],
+    sourceUrl: 'https://consumer.ftc.gov/articles/refund-and-recovery-scams',
+  },
+  {
+    name: 'Merchant Cash Advance Predatory Lending Scam',
+    slug: 'merchant-cash-advance-predatory-lending-scam',
+    description:
+      'Small-business owners seeking fast working capital are sold a merchant cash advance on promises of "no upfront fees" and "no personal guarantee," then find those terms reversed after signing: hidden upfront fees are deducted, a personal guarantee is buried in the fine print, and far less funding is delivered than promised. Once repayment begins, the company debits more from the business\'s bank account than disclosed — sometimes making unauthorized withdrawals — and can invoke a pre-signed "confession of judgment" to seize personal or business assets through an uncontested court judgment if the owner falls behind. The FTC has permanently banned multiple merchant cash advance operators from the industry and ordered them to vacate judgments and release liens against affected small businesses.',
+    categorySlug: 'debt-relief-scams',
+    alertLevel: 'high',
+    sources: ['Federal Trade Commission (FTC)'],
+    sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2022/01/merchant-cash-advance-providers-banned-industry-ordered-redress-small-businesses',
+  },
 ];
 
 async function seedCategoriesAndScams() {
