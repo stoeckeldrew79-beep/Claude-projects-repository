@@ -1988,6 +1988,36 @@ The House Ethics Committee's investigation led to Santos's expulsion from Congre
 Santos's case shows how a campaign's fundraising apparatus — credit card processing, FEC disclosure requirements meant to create transparency — can be turned into the fraud's own machinery: the same paperwork designed to show donors and regulators where money came from was the paperwork he falsified to hide where it actually went.`,
     sourceUrl: 'https://www.justice.gov/usao-edny/pr/ex-congressman-george-santos-sentenced-87-months-prison-wire-fraud-and-aggravated',
   },
+  {
+    title: 'Michael Avenatti: The Celebrity Lawyer Who Extorted Nike and Stole From His Own Client',
+    slug: 'michael-avenatti-nike-extortion-stormy-daniels-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Michael Avenatti became a fixture of national news in 2018 as the combative attorney representing Stormy Daniels in her lawsuits against Donald Trump. Within a year of that fame, federal prosecutors in two different states had charged him with defrauding the very clients whose causes had made him famous — and a third case, involving a completely separate group of clients, would follow.
+
+The first case centered on Gary Franklin Jr., a youth basketball league organizer Avenatti represented after Nike ended its sponsorship of Franklin's league. Rather than pursuing Franklin's actual claims, prosecutors said Avenatti "hijacked" them: he threatened to hold a press conference exposing Nike's alleged improper payments to high school players' families unless the company paid him personally, demanding as much as $25 million. A jury convicted him in February 2020 of attempted extortion and honest services wire fraud, and in July 2021, U.S. District Judge Paul G. Gardephe sentenced him to 30 months in prison, telling him he had "hijacked his client's claims" to further his own financial agenda.
+
+The Stormy Daniels case was worse for how directly it betrayed an actual client's trust: prosecutors showed Avenatti forged Daniels's signature on a letter instructing her literary agent to redirect installments of her roughly $800,000 book advance into a bank account he controlled, then spent close to $300,000 of it on personal and business expenses, including a leased Ferrari. A jury convicted him in February 2022 of wire fraud and aggravated identity theft, and he was sentenced that June to 4 years in prison and ordered to pay Daniels $148,750 in restitution.
+
+A third, separate federal case in California covered an entirely different set of victims: Avenatti pleaded guilty to wire fraud and tax charges for embezzling millions of dollars from four other clients, including a paraplegic man whose settlement money he diverted to cover his own law firm's expenses. In December 2022, he was sentenced to 14 years in that case, ordered to run consecutively to his New York sentences and to pay $7 million in restitution — bringing his combined total prison exposure across all three cases to roughly 19 years.
+
+Avenatti's downfall is a reminder that a lawyer's access to a client's money is built entirely on trust rather than the kind of hands-on verification a bank or an escrow agent provides — and that the same skill for building a compelling public case for a client can, in the wrong hands, become the skill for building a compelling private case for stealing from them.`,
+    sourceUrl: 'https://www.justice.gov/usao-sdny/pr/michael-avenatti-sentenced-over-two-years-prison-attempting-extort-nike-and-defrauding',
+  },
+  {
+    title: 'Caroline Ellison: The Alameda Research CEO Whose Testimony Convicted Sam Bankman-Fried',
+    slug: 'caroline-ellison-alameda-research-ftx-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `Caroline Ellison served as CEO of Alameda Research, the cryptocurrency trading firm controlled by Sam Bankman-Fried and closely intertwined with his FTX exchange. When FTX collapsed into bankruptcy in November 2022, it emerged that Alameda had been quietly using billions of dollars in FTX customer deposits to fund its own trading, cover its losses, and finance Bankman-Fried's other ventures and personal spending — money that belonged to ordinary FTX customers, not to Alameda.
+
+Ellison later testified that she and others altered Alameda's balance sheets specifically to obscure the fact that the firm was borrowing roughly $10 billion from FTX customer funds, work she did at Bankman-Fried's direction. Unlike Bankman-Fried, who fought the charges through trial, Ellison pleaded guilty in December 2022 — within weeks of FTX's collapse — to conspiracy and fraud charges, and became the government's central cooperating witness.
+
+Her testimony against Bankman-Fried at his October–November 2023 trial ran for nearly three days and was widely described as pivotal to his conviction on all seven counts, including wire fraud and conspiracy. In September 2024, U.S. District Judge Lewis A. Kaplan sentenced Ellison to two years in prison and ordered her to forfeit roughly $11 billion, while explicitly crediting her cooperation as "extraordinary" and "very, very substantial" in setting a sentence far below what she otherwise could have faced.
+
+Ellison's case illustrates the particular position of an insider-turned-cooperator in a large fraud: she personally helped falsify the records that concealed the fraud from FTX's own customers and investors, and her decision to plead guilty and testify early — rather than wait to see how the case developed — became the single piece of evidence prosecutors leaned on hardest to convict the person she once answered to.`,
+    sourceUrl: 'https://www.cnbc.com/2024/09/24/sam-bankman-fried-caroline-ellison-sentenced-ftx-.html',
+  },
 ];
 
 // Practical "how it works / red flags / what to do" guides covering the
