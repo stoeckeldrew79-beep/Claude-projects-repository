@@ -9917,6 +9917,66 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['NZ Transport Agency Waka Kotahi'],
     sourceUrl: 'https://www.nzta.govt.nz/online-services/phishing-scams/latest-phishing-scams/overdue-tolls-email-scam/',
   },
+  {
+    name: 'Brushing Scam (Unsolicited Mystery Package)',
+    slug: 'brushing-scam-unsolicited-mystery-package',
+    description:
+      'A cheap, unrequested item — commonly baby wipes, toothpaste, or seeds — arrives addressed to you from a company or seller you never ordered from. Scammers use your name and address, obtained through data leaks or scraped from prior orders, so they can leave a "verified purchase" review under your identity, inflating a shady seller\'s ratings. Some packages now include a note with a QR code claiming to explain who sent it or how to return the item; scanning it can lead to a phishing website designed to steal information like credit card numbers, usernames, and passwords. You are not legally required to pay for or return unordered merchandise, but receiving one is a sign your name or account may be exposed.',
+    categorySlug: 'package-delivery-scams',
+    alertLevel: 'low',
+    sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2026/08/unexpected-package-you-got-could-be-brushing-scam',
+  },
+  {
+    name: 'Fake Law Enforcement "Confiscated Package" Arrest Threat Call',
+    slug: 'fake-law-enforcement-confiscated-package-call',
+    description:
+      'A caller with a spoofed caller ID poses as a local sheriff or deputy and claims to have intercepted a package in your name that contained cash, illegal drugs, or weapons. The caller says you\'ll be arrested unless you immediately pay a "fine," directing the victim to pay by cash, a Bitcoin ATM, gift card codes, or apps like Zelle, Cash App, or Venmo. The scammer may know real personal details or display an authentic-looking police number, but the FTC notes these are spoofing tactics, not proof of legitimacy — real law enforcement never demands payment this way or offers to let someone buy their way out of a crime.',
+    categorySlug: 'package-delivery-scams',
+    alertLevel: 'high',
+    sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2025/06/scammers-are-impersonating-local-law-enforcement',
+  },
+  {
+    name: '"764" Violent Online Network Sextortion / Self-Harm Coercion',
+    slug: '764-violent-online-network-sextortion',
+    description:
+      'Members of decentralized online networks like "764" and related offshoot groups build trust with vulnerable minors on gaming platforms, social media, and messaging apps, often through manipulation or a fabricated romantic relationship, then obtain sexually explicit images or videos. Instead of demanding money, they use the material to coerce victims into producing and live-streaming acts of self-harm, animal cruelty, sexually explicit acts, or violence against themselves or others, circulating the resulting content among network members to maintain control and extort further compliance. The FBI has classified this as one of the most serious active threats to children in the US, targeting minors roughly ages 8 to 17 — especially LGBTQ+ youth, racial minorities, and those struggling with depression or suicidal ideation — with all 56 FBI field offices investigating the network and its offshoots.',
+    categorySlug: 'sextortion',
+    alertLevel: 'critical',
+    sources: ['FBI Cyber Division', 'FBI Internet Crime Complaint Center (IC3)'],
+    sourceUrl: 'https://www.ic3.gov/PSA/2025/PSA250306',
+  },
+  {
+    name: 'Idaho REAL ID "Skip the Line" Text Scam',
+    slug: 'idaho-real-id-skip-the-line-text-scam',
+    description:
+      'Text messages impersonating the Idaho Transportation Department (ITD) falsely claim recipients can pay online to obtain or "skip the line" and expedite a REAL ID (Idaho\'s Star Card), exploiting anxiety around the federal REAL ID deadline required for domestic air travel. The texts include a link to a fraudulent page designed to collect personal information and payment. ITD DMV Administrator Lisa McClellan confirmed the messages are fake, stating that REAL IDs cannot be purchased or expedited online — applicants must appear in person at a DMV office, with appointments booked only through the official dmv.idaho.gov site.',
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Idaho Transportation Department'],
+    sourceUrl: 'https://itd.idaho.gov/news/itd-warns-public-about-scam-texts-offering-fake-real-id-services/',
+  },
+  {
+    name: 'Xcel Energy New-Service Upfront-Payment Scam',
+    slug: 'xcel-energy-new-service-upfront-payment-scam',
+    description:
+      'Scammers posing as Xcel Energy representatives call customers offering to start new utility service, then demand an upfront payment — often specifically requiring a prepaid debit card — along with sensitive information such as a Social Security number and credit card details, before any real service exists. In some cases, after collecting that data, the scammers then contact Xcel Energy directly while impersonating the victim to actually activate fraudulent service in the victim\'s name. Xcel Energy states it never charges customers upfront to complete a transaction like starting service — legitimate fees always appear on the next bill — and that past-due accounts are first contacted by mail, not phone, with written disconnection notices issued before any shutoff.',
+    categorySlug: 'utility-scams',
+    alertLevel: 'high',
+    sources: ['Xcel Energy'],
+    sourceUrl: 'https://newsroom.xcelenergy.com/news/xcel-energy-encourages-customers-to-be-aware-of-scammers-MCCMSMXWAT5RCI3PWW7MGD3ZVQDI',
+  },
+  {
+    name: 'Turo Spoofed-Call Account Phishing and Gift Card Scam',
+    slug: 'turo-spoofed-call-account-phishing-scam',
+    description:
+      'Scammers call or text Turo users while spoofing caller ID to appear as a legitimate Turo number, asking questions like whether the user is "still using" their account or offering to "update" their protection plan or contact information — a pretext aimed at extracting a one-time login or verification code that hands over full account access. A related variant has scammers call claiming to collect trip payment by gift card, asking the victim to read off the card\'s code or PIN. Turo states it will never ask for login information or verification/SMS codes, and will never call to request gift-card payment, directing anyone contacted this way to report the number or message to spoof@turo.com.',
+    categorySlug: 'account-takeover',
+    alertLevel: 'high',
+    sources: ['Turo'],
+    sourceUrl: 'https://help.turo.com/en_us/preventing-and-reporting-fraud-host-Sy8k9Tjlx',
+  },
 ];
 
 async function seedCategoriesAndScams() {
