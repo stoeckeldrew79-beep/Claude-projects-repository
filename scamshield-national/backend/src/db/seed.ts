@@ -9803,6 +9803,39 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Federal Trade Commission (FTC)'],
     sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2022/01/merchant-cash-advance-providers-banned-industry-ordered-redress-small-businesses',
   },
+  {
+    name: 'NZ Investment Recovery Scam (Fake Dispute Resolution Scheme Claims)',
+    slug: 'nz-investment-recovery-scam-fake-dispute-resolution',
+    description:
+      'Scammers contact people who previously lost money in an investment or crypto scam, falsely claiming to be affiliated with a legitimate New Zealand financial dispute resolution scheme — such as Financial Services Complaints Limited (FSCL), the Banking Ombudsman Scheme (BOS), the Insurance and Financial Services Ombudsman (IFSO), or Financial Dispute Resolution Service (FDRS) — or with a cloned version of a real licensed NZ firm using its actual name and branding. The scammer tells the victim their lost funds have been recovered or a complaint has been resolved in their favour, but that an upfront payment is required to cover "release fees," taxes, or transaction costs before the funds can be paid out. No genuine dispute resolution scheme ever requires an upfront fee to release money, and once the victim pays, the scammer stops responding and no funds are ever returned.',
+    categorySlug: 'investment-fraud',
+    country: 'NZ',
+    alertLevel: 'high',
+    sources: ['Financial Markets Authority (FMA)'],
+    sourceUrl: 'https://www.fma.govt.nz/library/warnings-and-alerts/recovery-scams-of-nz-dispute-resolution-scheme-providers/',
+  },
+  {
+    name: 'NZ Energy Retailer "Failed Payment" SMS Phishing Scam',
+    slug: 'nz-energy-retailer-failed-payment-sms-scam',
+    description:
+      'Customers receive an SMS text claiming that payment for their most recent power bill could not be processed, with a link to "update" their payment details to avoid late fees or disconnection. The link leads to a fake page designed to harvest bank card numbers, expiry dates, and CVV codes, or in some cases online banking login credentials. A related variant uses fake Facebook accounts impersonating the energy retailer\'s official page, messaging customers via Messenger to request their account and payment details directly. Genuine NZ power companies do not request payment details via unsolicited SMS or social media messages.',
+    categorySlug: 'utility-scams',
+    country: 'NZ',
+    alertLevel: 'medium',
+    sources: ['Contact Energy'],
+    sourceUrl: 'https://contact.co.nz/support/my-account/staying-safe-online',
+  },
+  {
+    name: 'NZ Waka Kotahi Unpaid Toll Text Scam',
+    slug: 'nz-waka-kotahi-unpaid-toll-text-scam',
+    description:
+      'Recipients get a text message stating a vehicle registered in their name recently used a toll road and that the toll remains unpaid, with a link to "pay" the outstanding amount or a phone number to call. The link leads to a convincing fake Waka Kotahi/NZTA payment page that captures the victim\'s credit card number and other financial details when entered. Waka Kotahi has confirmed it does not send toll-payment text reminders and does not include payment links in texts at all — genuine rego/licence reminders come only from the short number 3651 and never link directly to payment. Messages sent from overseas numbers or containing poor grammar are additional red flags distinguishing this from the agency\'s real correspondence.',
+    categorySlug: 'government-impersonation',
+    country: 'NZ',
+    alertLevel: 'medium',
+    sources: ['NZ Transport Agency Waka Kotahi'],
+    sourceUrl: 'https://www.nzta.govt.nz/online-services/phishing-scams/latest-phishing-scams/overdue-tolls-email-scam/',
+  },
 ];
 
 async function seedCategoriesAndScams() {
