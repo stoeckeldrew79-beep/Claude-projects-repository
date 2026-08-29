@@ -2018,6 +2018,34 @@ Her testimony against Bankman-Fried at his October–November 2023 trial ran for
 Ellison's case illustrates the particular position of an insider-turned-cooperator in a large fraud: she personally helped falsify the records that concealed the fraud from FTX's own customers and investors, and her decision to plead guilty and testify early — rather than wait to see how the case developed — became the single piece of evidence prosecutors leaned on hardest to convict the person she once answered to.`,
     sourceUrl: 'https://www.cnbc.com/2024/09/24/sam-bankman-fried-caroline-ellison-sentenced-ftx-.html',
   },
+  {
+    title: 'Jim Bakker: The PTL Televangelist Who Oversold "Lifetime Partnerships" He Could Never Honor',
+    slug: 'jim-bakker-ptl-heritage-usa-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Jim Bakker built PTL (Praise the Lord) Ministries into one of the largest televangelist operations in the country, centered on Heritage USA, a Christian theme park and resort complex in Fort Mill, South Carolina. To help fund its expansion, PTL sold "lifetime partnerships" — a one-time donation, commonly $1,000, in exchange for a promise of four days and three nights of lodging at Heritage USA every year for life.
+
+The offer sounded like a straightforward timeshare, but prosecutors showed it was structured as a pyramid from the start: PTL sold far more partnerships than the resort's actual room inventory could ever accommodate across all of the partners' lifetimes combined, collecting new partners' money in part to keep servicing the promises already made to earlier ones. Of the money raised specifically for the partnership program, the government said Bakker diverted roughly $158 million into PTL's general operating fund, from which he, his wife Tammy Faye, and top PTL executives drew large salaries and bonuses — including a widely reported $1.9 million paid to Bakker's family the same year PTL was publicly soliciting donations as a struggling ministry.
+
+A federal jury convicted Bakker in October 1989 on all 24 counts of fraud and conspiracy. Judge Robert Potter's original sentence — 45 years in prison and a $500,000 fine — was so severe relative to the offense that an appeals court later vacated it as excessive; on resentencing, Bakker received 8 years and was paroled after serving nearly 5. The scandal had already become a national spectacle well before the fraud trial, following the 1987 revelation of Bakker's affair with church secretary Jessica Hahn and the hush-money payment connected to it, which first triggered PTL's collapse and the financial scrutiny that followed.
+
+Bakker's case is a reminder that "you can always sell one more partnership" is exactly the arithmetic problem at the center of every pyramid scheme, whether it's dressed up as an investment fund or, as here, as a place of worship selling vacation lodging to its own congregation — the promise only works as long as new money keeps arriving faster than old promises come due.`,
+    sourceUrl: 'https://www.upi.com/Archives/1989/10/05/Bakker-convicted-on-all-24-fraud-and-conspiracy-counts/6239623563200/',
+  },
+  {
+    title: 'Kevin Trudeau: The Infomercial Pitchman Who Defied a Federal Court Order 32,000 Times',
+    slug: 'kevin-trudeau-infomercial-fraud-contempt',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Kevin Trudeau built a career hosting late-night infomercials selling books and products with titles like "Natural Cures 'They' Don't Want You to Know About," pitching miracle-sounding health and weight-loss claims directly to television audiences. The Federal Trade Commission pursued him for years over misleading advertising, and in 2004, a federal court entered an order specifically barring Trudeau from misrepresenting the actual content of any book he advertised in an infomercial.
+
+Trudeau kept selling anyway. For his 2007 book "The Weight Loss Cure 'They' Don't Want You to Know About," he ran infomercials claiming the book contained an "easy" weight-loss protocol, when the actual book described a grueling regimen requiring daily injections of a prescription hormone alongside a 500-calorie diet — a substantial misrepresentation of what buyers were actually getting. He aired those infomercials at least 32,000 times in direct defiance of the 2004 order, selling more than 850,000 copies and generating roughly $39 million in revenue.
+
+A jury convicted Trudeau of criminal contempt of court in November 2013, and in March 2014, U.S. District Judge Ronald Guzman sentenced him to 10 years in federal prison — a sentence that drew wide attention for its length in a contempt case — citing losses exceeding $37 million and Trudeau's long history of consumer deception. Guzman was blunt in his assessment, telling Trudeau he had "steadfastly attempted to cheat others for his own gain" since his twenties and calling him "deceitful to the very core." An appeals court later upheld both the conviction and the sentence.
+
+Trudeau's case illustrates a different kind of fraud than an investment Ponzi scheme: rather than promising fake returns, he sold a product whose advertised description simply wasn't true, protected for years by his platform and audience reach even after a court had already ordered him to stop — until repeatedly and openly defying that order, rather than the original deception, became the crime that finally put him in prison.`,
+    sourceUrl: 'https://www.justice.gov/usao-ndil/pr/weight-loss-infomercial-pitch-man-kevin-trudeau-sentenced-10-years-prison-criminal',
+  },
 ];
 
 // Practical "how it works / red flags / what to do" guides covering the
