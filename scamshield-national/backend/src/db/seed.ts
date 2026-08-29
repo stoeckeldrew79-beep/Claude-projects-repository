@@ -10048,6 +10048,56 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['ARCEP (Autorité de régulation des communications électroniques, des postes et de la distribution de la presse)'],
     sourceUrl: 'https://www.arcep.fr/mes-demarches-et-services/consommateurs/fiches-pratiques/sms-appels-et-courriers-electroniques-indesirables-et-ou-frauduleux.html',
   },
+  {
+    name: 'Romance Scam Money Mule Recruitment',
+    slug: 'romance-scam-money-mule-recruitment',
+    description:
+      'After weeks of relationship-building, an online romantic interest asks the victim to open a new bank account, or in some versions register an LLC, to "receive and forward" money — often framed as help with a business opportunity rather than a direct cash request. The victim is told to keep a portion of the funds as payment, while the account is actually used to launder proceeds from other crimes; if the bank flags and closes the account, the scammer simply directs the victim to open another one or moves on to grooming a new victim. Unlike most romance scams, the harm here isn\'t limited to lost money — participating, even unknowingly, can expose the victim to a money laundering investigation.',
+    categorySlug: 'romance-scams',
+    alertLevel: 'high',
+    sources: ['FBI Internet Crime Complaint Center (IC3)'],
+    sourceUrl: 'https://www.ic3.gov/PSA/2019/PSA190805',
+  },
+  {
+    name: 'Fake Dating Safety Verification Subscription Trap',
+    slug: 'fake-dating-safety-verification-subscription-trap',
+    description:
+      'A new match on a dating app claims they\'ve been the target of predators before and asks the other person to complete a "free background check" or "safety verification" through a link before they\'ll agree to meet or move the conversation forward — sometimes reinforced with a fake news article using a trusted media outlet\'s logo to make the request look legitimate. The linked site collects the victim\'s name, phone number, email, and credit card number under the guise of a one-time identity check, then silently enrolls them in a costly recurring monthly subscription to a low-quality dating site, while the submitted personal and financial data is also exposed to identity theft or resale. No real safety verification service on a dating platform requires a credit card number.',
+    categorySlug: 'romance-scams',
+    alertLevel: 'medium',
+    sources: ['FBI Internet Crime Complaint Center (IC3)'],
+    sourceUrl: 'https://www.ic3.gov/PSA/2024/PSA240426',
+  },
+  {
+    name: 'Fake Tech-Support-to-Government Courier Cash/Precious-Metals Pickup Scam',
+    slug: 'fake-tech-support-courier-cash-precious-metals-scam',
+    description:
+      'A fake tech-support pop-up or call claims the victim\'s computer has been hacked, then hands the call off in succession to a fraudster posing as a bank fraud investigator and finally a fake U.S. government official, all reinforcing that the victim\'s money is at risk and must be "protected." Instead of the usual gift card or wire transfer, the victim is instructed to withdraw cash from the bank or convert it into gold, silver, or other precious metals, which a courier then collects in person at the victim\'s home or a public meeting spot, sometimes using a passcode tied to currency serial numbers to seem legitimate. The scammers claim the assets are being safeguarded in a protected account, but the victim never hears from them again and the full amount is lost.',
+    categorySlug: 'tech-support-scams',
+    alertLevel: 'critical',
+    sources: ['FBI Internet Crime Complaint Center (IC3)'],
+    sourceUrl: 'https://www.ic3.gov/PSA/2024/PSA240129',
+  },
+  {
+    name: 'National Grid Fake Bill-Discount Robocall',
+    slug: 'national-grid-fake-bill-discount-robocall',
+    description:
+      'An automated robocall impersonating National Grid offers customers a discount — such as 25% off future bills — and asks them to confirm or provide account details to "apply" it, a lure that inverts the usual disconnection-threat script by offering a reward instead of a punishment. National Grid warns customers that its legitimate account-specific communications come only from verified channels, and that any caller who cannot supply the last five digits of the customer\'s real account number when asked should be treated as fraudulent and hung up on immediately.',
+    categorySlug: 'utility-scams',
+    alertLevel: 'medium',
+    sources: ['National Grid'],
+    sourceUrl: 'https://www.nationalgridus.com/Our-Company/Scam-Alert',
+  },
+  {
+    name: 'Fake Geek Squad Renewal Invoice Callback Scam',
+    slug: 'fake-geek-squad-renewal-invoice-callback-scam',
+    description:
+      'An unsolicited text or email designed to look like a Best Buy Geek Squad renewal receipt claims the recipient is being charged hundreds of dollars for a membership they never signed up for, and pressures them to call a listed phone number within 24 hours to dispute the charge. Calling that number connects the victim to a fake "Geek Squad" agent who requests remote access to "process" the cancellation; once granted, the scammer can install spyware to steal online banking credentials directly, or run a fabricated refund/overpayment routine that pressures the victim into buying gift cards to send the "extra" money back.',
+    categorySlug: 'tech-support-scams',
+    alertLevel: 'high',
+    sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2022/10/how-recognize-fake-geek-squad-renewal-scam',
+  },
 ];
 
 async function seedCategoriesAndScams() {
