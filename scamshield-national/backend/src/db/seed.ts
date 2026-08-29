@@ -2063,6 +2063,10 @@ Trudeau's case illustrates a different kind of fraud than an investment Ponzi sc
     title: 'Peter Popoff: The Faith Healer Whose "Word From God" Came Through a Hidden Earpiece',
     slug: 'peter-popoff-faith-healer-earpiece-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Vintage_Widex_Transistor_(Body)_Hearing_Aid,_Model_S-22,_Made_In_Denmark,_Circa_1980_(34325734963).jpg?width=1200',
+    coverImageCredit: 'Photo: Joe Haupt (CC BY-SA 2.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer'],
     body: `Peter Popoff built a national television ministry in the 1980s around a dramatic gift: calling out audience members' names, addresses, and specific illnesses as though God were speaking directly through him, then "healing" them on stage. The names and details were real, and the effect on believers was powerful — but the source wasn't divine. Magician and skeptic James Randi, working with a radio engineer, intercepted the frequency Popoff was actually using and discovered his wife was reading prayer-request cards filled out by attendees before the show into a hidden earpiece, feeding him the very details he presented as supernatural revelation.
 
@@ -2077,6 +2081,10 @@ Popoff's story is unusual among frauds for having actually been caught in the mo
     title: 'Allen Weisselberg: The Trump Organization CFO Who Hid $1.76 Million in Perks From the Taxman',
     slug: 'allen-weisselberg-trump-organization-tax-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/TrumpTower.JPG?width=1200',
+    coverImageCredit: 'Photo: Kowloonese (CC BY-SA 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer'],
     body: `Allen Weisselberg spent decades as chief financial officer of the Trump Organization, and prosecutors said he used that position to arrange for a substantial part of his own compensation to arrive in a form that was never reported to tax authorities at all. From 2005 to 2018, the company provided him a rent-free luxury Manhattan apartment, multiple leased Mercedes-Benz vehicles, and private school tuition for his grandchildren — real, valuable income, but structured and booked internally so that neither Weisselberg nor the company paid income or payroll taxes on any of it.
 
