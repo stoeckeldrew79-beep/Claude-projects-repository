@@ -9616,6 +9616,26 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['FraudSMART (Banking & Payments Federation Ireland)'],
     sourceUrl: 'https://www.fraudsmart.ie/alerts/',
   },
+  {
+    name: 'Washington State Nursing Board License Suspension Scam',
+    slug: 'washington-nursing-board-license-suspension-scam',
+    description:
+      'A licensed nurse receives a call or a faxed/mailed letter mimicking the Washington State Board of Nursing\'s official letterhead, claiming their license is suspended pending a disciplinary investigation and threatening arrest unless payment is made immediately, often paired with a request for a Social Security number or credit card details to "resolve" the case. The Board states plainly that it will never call a nurse or applicant to request personal information, and will never demand immediate payment over the phone to resolve a disciplinary matter — anyone contacted this way should hang up and call the Board directly using its published number to verify.',
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Washington State Board of Nursing (WABON)'],
+    sourceUrl: 'https://nursing.wa.gov/news/2024/scam-alert',
+  },
+  {
+    name: 'Hedera Hashgraph NFT Airdrop Wallet-Draining Scam',
+    slug: 'hedera-nft-airdrop-wallet-drain-scam',
+    description:
+      'Cryptocurrency wallet holders on the Hedera Hashgraph network receive unsolicited token "airdrops," and the transaction\'s memo field contains a link inviting the recipient to a website to claim or unlock the reward. The site prompts the victim to connect their wallet and enter login credentials or their seed phrase to complete the claim, and once entered, that information gives the scammer direct access to the wallet, which is then drained of its entire cryptocurrency holdings in a single unauthorized transfer. The FBI\'s Internet Crime Complaint Center warns this specific memo-based delivery method is actively being exploited, alongside the same airdrop-link mechanic spreading through social media and phishing emails more broadly — a legitimate airdrop never requires entering a seed phrase or private wallet credentials anywhere to receive it.',
+    categorySlug: 'account-takeover',
+    alertLevel: 'high',
+    sources: ['FBI Internet Crime Complaint Center (IC3)'],
+    sourceUrl: 'https://www.ic3.gov/PSA/2025/PSA250603',
+  },
 ];
 
 async function seedCategoriesAndScams() {
