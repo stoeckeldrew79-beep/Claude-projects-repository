@@ -2474,6 +2474,34 @@ The same lack of oversight has fueled a related and more urgent danger beyond fa
 
 A legitimate online pharmacy always requires a valid prescription, lists a real U.S. physical address and phone number, has a licensed pharmacist available to answer questions, and is licensed with a state board of pharmacy — the FDA's BeSafeRx program provides a tool to verify a specific pharmacy's licensing status before ordering. If a site skips the prescription requirement, offers prices that seem too good to be true, or has no way to reach an actual pharmacist, treat it as fraudulent rather than convenient. Report suspected illegal online pharmacies and counterfeit medication sales to the FDA and to the FTC at ReportFraud.ftc.gov.`,
   },
+  {
+    title: 'Tax Identity Theft: When Someone Else Files a Return in Your Name',
+    slug: 'tax-identity-theft-fraudulent-refund-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'tax-identity-theft'],
+    sourceUrl: 'https://consumer.ftc.gov/articles/what-know-about-tax-identity-theft',
+    body: `Tax identity theft happens when someone else uses your Social Security number to file a federal tax return in your name, claiming a refund for themselves before you ever file your own. Because the IRS generally processes the first return filed under a given SSN, a criminal who files early with fabricated income and withholding information can walk away with a refund paid out to their own account — leaving the real taxpayer to sort out the mess months later. A related version of the same underlying problem is employment-related identity theft, where someone uses a stolen SSN to get a job, which shows up as unfamiliar income on the real person's Social Security earnings record rather than as a stolen refund.
+
+Most victims find out completely by accident, simply by trying to file their own legitimate return. If a fraudulent return has already been filed under their SSN, e-filing gets rejected as a duplicate submission, or — for anyone who files by mail — the IRS sends a letter asking about a return, or multiple returns, the real taxpayer never filed. Because the fraud happens silently on the back end weeks or months before that discovery, there's typically no warning at all until tax season itself.
+
+This scam is distinct from the phone or email version of "IRS scams," where a caller impersonates an agent and threatens arrest over the phone — that's a live social-engineering attempt targeting the taxpayer directly. Tax identity theft doesn't require any contact with the victim at all; it just requires a stolen Social Security number and enough other personal information to file a convincing-looking return, most of which can come from an unrelated data breach with no phone call or email involved.
+
+If you're notified about a duplicate filing or unfamiliar activity, start a recovery plan at IdentityTheft.gov, which generates both an FTC identity theft report and the IRS's own Identity Theft Affidavit (Form 14039) and can submit it directly. You can also file that form by mail or call the IRS Identity Theft line at 1-800-908-4490. To check for employment-related misuse of your SSN specifically, review your earnings record through your Social Security account at ssa.gov, since income reported under your number from an employer you never worked for is a clear sign your SSN has been compromised.`,
+  },
+  {
+    title: 'Unemployment Insurance Identity Theft: A Fraudulent Claim Filed in Your Name',
+    slug: 'unemployment-insurance-identity-theft-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'unemployment-identity-theft'],
+    sourceUrl: 'https://www.consumer.ftc.gov/blog/2020/06/scammer-getting-unemployment-benefits-your-name',
+    body: `A fraudster with your name, Social Security number, and date of birth — usually gathered from an unrelated data breach — files an unemployment insurance claim with your state's workforce agency, without you ever having lost a job or applied for benefits. The payments get routed to a bank account or prepaid card the fraudster controls, and the fraud can run for weeks before anyone who's actually entitled to notice it does.
+
+Because the scheme doesn't require any contact with the real victim at all, most people learn about it secondhand: an employer receives an official notice that a current employee has "filed" for unemployment and flags it as suspicious, the state agency mails a benefits determination letter to someone who never applied, or the real person tries to file a legitimate claim later and discovers one already exists in their name. A related "claim hijacking" version targets people who did file a real claim, with a fraudster taking over the account afterward and redirecting future payments.
+
+This kind of fraud surged dramatically during the pandemic, when states rapidly expanded unemployment benefits and eligibility. The FTC's own year-end fraud data shows identity theft reports tied to government benefits and documents — the large majority of them unemployment insurance — jumped from 23,213 in 2019 to 406,375 in 2020, roughly a 17-fold increase in a single year, as fraud rings recognized an enormous, fast-moving target.
+
+If you discover a claim was filed in your name, report it to your employer (if the notice came through them) and directly to your state's unemployment agency — most states have a dedicated fraud-reporting page and online reporting is fastest. Also file a report at IdentityTheft.gov, which generates an FTC identity theft report and helps set up a credit freeze or fraud alert, since whoever had enough of your personal information to file a fraudulent claim may attempt other fraud with it too. One added warning worth remembering: if someone contacts you claiming you owe money back for unemployment benefits you never actually received, don't send anything — a real state agency will never ask you to repay an overpayment via wire transfer, gift card, or cash app, and that follow-up contact is itself a separate scam targeting the same fraud's victims.`,
+  },
 ];
 
 async function seedArticles(articles: SeedArticle[], label: string) {
