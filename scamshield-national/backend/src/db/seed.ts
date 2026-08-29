@@ -10378,6 +10378,39 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Pennsylvania Department of Human Services'],
     sourceUrl: 'https://www.pa.gov/agencies/dhs/newsroom/shapiro-administration-warns-of-potential-phone-scam-targeting-e',
   },
+  {
+    name: 'Singapore CPF Savings Scam',
+    slug: 'singapore-cpf-savings-scam',
+    description:
+      'A victim gets an unsolicited call from someone posing as a bank officer asking them to "verify" a suspicious transaction; when they deny it, the call is transferred to a second scammer posing as a police or government official who claims the victim\'s bank account was used in a crime. The victim is then coached to raise their CPF Withdrawal Limit at a service centre or online, withdraw funds from their CPF retirement savings, and move the money to a "safe account" controlled by the scammer to "assist investigations" or prove innocence. CPF Board states its calls only come from one official number, never asks members to transfer money or disclose personal information, and now offers an opt-in CPF Withdrawal Lock members can activate to block online withdrawal changes.',
+    categorySlug: 'public-benefits-fraud',
+    country: 'SG',
+    alertLevel: 'critical',
+    sources: ['CPF Board (Central Provident Fund Board)'],
+    sourceUrl: 'https://www.cpf.gov.sg/member/infohub/news/news-releases/joint-advisory-scams-involving-cpf-savings-and-new-measures-put-in-place-as-further-precaution',
+  },
+  {
+    name: 'Singapore Money Mule Recruitment Scam',
+    slug: 'singapore-money-mule-recruitment-scam',
+    description:
+      'A "recruiter" reached through social media or a messaging app offers quick, easy income for simply "receiving and forwarding" money through the jobseeker\'s own personal bank account, often framed as helping a business with "overseas transfers" or "payment processing." In reality the account is used to launder funds stolen from other scam victims, and Singapore treats letting a criminal syndicate move money through your account — knowingly or not — as an offence, since "I didn\'t know" is not a valid defence under the Corruption, Drug Trafficking and Other Serious Crimes Act (CDSA). No legitimate employer ever needs to route company funds through a new hire\'s personal bank account.',
+    categorySlug: 'employment-scams',
+    country: 'SG',
+    alertLevel: 'high',
+    sources: ['ScamShield (Singapore)', 'Singapore Police Force'],
+    sourceUrl: 'https://www.scamshield.gov.sg/i-want-protection-from-scams/scam-mules/',
+  },
+  {
+    name: 'Singapore Staged Kidnapping Scam',
+    slug: 'singapore-staged-kidnapping-scam',
+    description:
+      'After being contacted by a fake China or Singapore government official and accused of involvement in a crime, an isolated victim (often a student or young adult living apart from family) is instructed to cut off contact with everyone, relocate to a hotel, and stage photos or video of themselves bound or in distress — which the scammer then sends to the victim\'s real family along with a ransom demand, falsely claiming the victim has been kidnapped. The family, believing their relative\'s life is at risk, transfers money to the scammer\'s accounts, unaware the "kidnapping" was staged by the victim under coercion. The Singapore Police Force stresses that overseas law enforcement has no jurisdiction in Singapore and can never require a member of the public to isolate themselves or stage evidence to "assist an investigation."',
+    categorySlug: 'family-emergency-scams',
+    country: 'SG',
+    alertLevel: 'critical',
+    sources: ['Singapore Police Force'],
+    sourceUrl: 'https://www.police.gov.sg/media-hub/news/2022/20221028_police_advisory_on_staged_kidnapping_cases_orchestrated_by_fake_china_gov_officials',
+  },
 ];
 
 async function seedCategoriesAndScams() {
