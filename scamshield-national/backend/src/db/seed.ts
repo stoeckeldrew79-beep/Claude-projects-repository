@@ -1787,8 +1787,8 @@ Murakami wound down his fund and relocated to Singapore, but the story didn't en
     title: 'Michael Steinberg: The Insider Trading Conviction a Court Ruling Erased',
     slug: 'michael-steinberg-sac-capital-vacated-conviction',
     author: 'ScamShield Editorial',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Thurgood_Marshall_United_States_Courthouse.jpg',
-    coverImageCredit: 'Photo: Kidfly182 (CC BY-SA 4.0)',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Stamford_Skyline.jpg',
+    coverImageCredit: 'Photo: JonathanVictor (CC BY-SA 4.0)',
     coverImagePosition: 50,
     // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
@@ -1823,6 +1823,9 @@ U.S. prosecutors indicted Low in November 2018 on charges of conspiring to laund
     title: 'John Rusnak and the $691 Million He Hid Inside Allfirst Bank',
     slug: 'john-rusnak-allfirst-bank-currency-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Baltimore_Federal_(1978,_George_Sugarman),_E.A._Garmatz_Federal_Building,_101_W._Lombard_Street,_Baltimore,_MD_21201_(35320075031).jpg',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `John Rusnak spent five years as a currency trader at Allfirst Bank, a Baltimore-based subsidiary of Ireland's Allied Irish Banks (AIB), quietly betting that the Japanese yen would strengthen against the U.S. dollar. It didn't, and rather than absorb the losses, Rusnak spent years hiding them from his own bank.
 
@@ -2747,10 +2750,10 @@ async function seedArticles(articles: SeedArticle[], label: string) {
       `INSERT INTO articles (title, slug, body, author, tags, source_url, cover_image, cover_image_credit, cover_image_position, published, published_at)
        VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, true, NOW())
        ON CONFLICT (slug) DO UPDATE SET
-         source_url = COALESCE(articles.source_url, EXCLUDED.source_url),
-         cover_image = COALESCE(articles.cover_image, EXCLUDED.cover_image),
-         cover_image_credit = COALESCE(articles.cover_image_credit, EXCLUDED.cover_image_credit),
-         cover_image_position = COALESCE(articles.cover_image_position, EXCLUDED.cover_image_position)`,
+         source_url = COALESCE(EXCLUDED.source_url, articles.source_url),
+         cover_image = COALESCE(EXCLUDED.cover_image, articles.cover_image),
+         cover_image_credit = COALESCE(EXCLUDED.cover_image_credit, articles.cover_image_credit),
+         cover_image_position = COALESCE(EXCLUDED.cover_image_position, articles.cover_image_position)`,
       [
         article.title,
         article.slug,
