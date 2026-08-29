@@ -2113,6 +2113,10 @@ Before donating: look up the organization independently rather than through a li
     title: 'Elder Fraud: Why Scammers Target Older Adults, and How to Protect a Loved One',
     slug: 'elder-fraud-protecting-older-adults',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Tablet-PC_Parkwohnstift_03.JPG?width=1200',
+    coverImageCredit: 'Photo: Sigismund von Dobschütz (CC BY-SA 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     tags: ['guide', 'elder-fraud'],
     sourceUrl: 'https://www.ic3.gov/crimeinfo/elderfraud',
     body: `Adults aged 60 and older are the single largest group of reported fraud losses in the United States — the FBI's Internet Crime Complaint Center recorded more than $7.7 billion in losses from victims in this age group in 2025 alone, by far the largest dollar total of any age bracket and a sharp increase over the year before. Scammers deliberately target older adults not because they're less capable, but because this population often holds more accumulated savings, may be more trusting of unsolicited contact, and — critically — is statistically far less likely to report being victimized, out of embarrassment or fear of losing independence.
@@ -2786,6 +2790,10 @@ A legitimate online pharmacy always requires a valid prescription, lists a real 
     title: 'Tax Identity Theft: When Someone Else Files a Return in Your Name',
     slug: 'tax-identity-theft-fraudulent-refund-guide',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Close-up_of_sign_for_the_Internal_Revenue_Service_building_Washington_DC_2025-02-07_13-21-58_1.jpg?width=1200',
+    coverImageCredit: 'Photo: G. Edward Johnson (CC BY 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     tags: ['guide', 'tax-identity-theft'],
     sourceUrl: 'https://consumer.ftc.gov/articles/what-know-about-tax-identity-theft',
     body: `Tax identity theft happens when someone else uses your Social Security number to file a federal tax return in your name, claiming a refund for themselves before you ever file your own. Because the IRS generally processes the first return filed under a given SSN, a criminal who files early with fabricated income and withholding information can walk away with a refund paid out to their own account — leaving the real taxpayer to sort out the mess months later. A related version of the same underlying problem is employment-related identity theft, where someone uses a stolen SSN to get a job, which shows up as unfamiliar income on the real person's Social Security earnings record rather than as a stolen refund.
@@ -2800,6 +2808,10 @@ If you're notified about a duplicate filing or unfamiliar activity, start a reco
     title: 'Unemployment Insurance Identity Theft: A Fraudulent Claim Filed in Your Name',
     slug: 'unemployment-insurance-identity-theft-guide',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Dept_of_Labor_Building_2008.jpg?width=1200',
+    coverImageCredit: 'Photo: Carol M. Highsmith (public domain)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     tags: ['guide', 'unemployment-identity-theft'],
     sourceUrl: 'https://www.consumer.ftc.gov/blog/2020/06/scammer-getting-unemployment-benefits-your-name',
     body: `A fraudster with your name, Social Security number, and date of birth — usually gathered from an unrelated data breach — files an unemployment insurance claim with your state's workforce agency, without you ever having lost a job or applied for benefits. The payments get routed to a bank account or prepaid card the fraudster controls, and the fraud can run for weeks before anyone who's actually entitled to notice it does.
