@@ -185,17 +185,19 @@ function ArticleForm() {
   );
 }
 
-// Lets an admin attach a real cover photo to an existing Notorious
-// profile (falls back to the abstract art on the public pages until
+// Lets an admin attach or adjust a real cover photo on an existing
+// article (falls back to the abstract art on the public pages until
 // one is set). Deliberately just a URL field, not an upload — keeps
 // the licensing decision as a conscious step: paste a link to a
-// specific, already-cleared source (official .gov booking/press
-// photos are the safe case) rather than making it easy to casually
-// drop in whatever image search turns up.
-function NotoriousCoverPhotos() {
+// specific, already-cleared source (official .gov press photos or a
+// Wikimedia Commons file are the safe case) rather than making it easy
+// to casually drop in whatever image search turns up. Shared between
+// the Notorious and Guide sections below — same fields, same rules,
+// just scoped to a different article tag.
+function ArticleCoverPhotos({ tag, heading, subject }: { tag: string; heading: string; subject: string }) {
   const user = useAuthStore((s) => s.user);
   const queryClient = useQueryClient();
-  const { data: articles, isLoading } = useArticles('notorious');
+  const { data: articles, isLoading } = useArticles(tag);
   const [urlDrafts, setUrlDrafts] = useState<Record<string, string>>({});
   const [creditDrafts, setCreditDrafts] = useState<Record<string, string>>({});
   const [sourceDrafts, setSourceDrafts] = useState<Record<string, string>>({});
@@ -222,14 +224,14 @@ function NotoriousCoverPhotos() {
 
   return (
     <div className="rounded-lg border border-slate-200 p-5">
-      <h2 className="font-semibold text-slate-900">Notorious profile cover photos</h2>
+      <h2 className="font-semibold text-slate-900">{heading}</h2>
       <p className="mt-1 text-sm text-slate-500">
-        Paste a link to a specific, rights-cleared photo to replace the abstract cover art for that profile. Public
-        domain sources (federal mugshots/press photos, pre-1929 photos) don't need a credit line — Creative Commons
-        Attribution photos legally do, so add the required credit text if that's the source. Leave the URL blank to
-        keep the abstract art. If no rights-cleared photo exists at all, add a link to a real news story instead —
-        it shows as a "Read the full story" link on the profile rather than a photo. Photos crop to a wide box, so
-        use the focal point slider to pick which part of the photo stays visible (0 = top, 100 = bottom).
+        Paste a link to a specific, rights-cleared photo to replace the abstract cover art for that {subject}. Public
+        domain sources (federal press photos, Commons {'{{PD-...}}'} files, pre-1929 photos) don't need a credit
+        line — Creative Commons Attribution photos legally do, so add the required credit text if that's the source.
+        Leave the URL blank to keep the abstract art. If no rights-cleared photo exists at all, add a link to a real
+        news story instead — it shows as a "Read the full story" link rather than a photo. Photos crop to a wide
+        box, so use the focal point slider to pick which part of the photo stays visible (0 = top, 100 = bottom).
       </p>
       {isLoading && <p className="mt-3 text-sm text-slate-500">Loading…</p>}
       <div className="mt-4 space-y-4">
@@ -845,7 +847,8 @@ export default function Admin() {
         <GlobalSourcesPanel />
         <ScamForm />
         <ArticleForm />
-        <NotoriousCoverPhotos />
+        <ArticleCoverPhotos tag="notorious" heading="Notorious profile cover photos" subject="profile" />
+        <ArticleCoverPhotos tag="guide" heading="Guide article cover photos" subject="guide" />
       </div>
     </div>
   );
