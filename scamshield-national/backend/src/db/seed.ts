@@ -2879,6 +2879,10 @@ If you discover a claim was filed in your name, report it to your employer (if t
     title: 'Employee Retention Credit (ERC) Scams: The Tax Credit "Mills" That Left Small Businesses Holding the Bag',
     slug: 'employee-retention-credit-erc-scam-guide',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/IRS_Building_Constitution_Avenue.jpg?width=1200',
+    coverImageCredit: 'Photo: Cliff (CC BY 2.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     tags: ['guide', 'erc-tax-scam'],
     sourceUrl: 'https://www.irs.gov/newsroom/dirty-dozen-beware-of-aggressive-promoters-who-dupe-taxpayers-into-making-questionable-employee-retention-credit-claims-risks-continue-for-small-businesses-special-withdrawal-program-remains-available',
     body: `The Employee Retention Credit was a genuine, legitimate pandemic-era tax credit for businesses that kept paying employees through COVID-19 disruptions. The scam that grew up around it wasn't a fake credit — it was a wave of aggressive third-party "ERC mills" that aggressively marketed the credit to businesses that didn't actually qualify, collecting a fee either way. The IRS named ERC scams the single worst item on its 2023 "Dirty Dozen" list of tax scams, and has since pursued both civil penalties against promoters and criminal indictments against the worst offenders.
@@ -2893,6 +2897,10 @@ If your business was contacted by an aggressive ERC promoter, or already filed a
     title: '"Free Lunch" Investment Seminars: When a Steak Dinner Is the Sales Pitch',
     slug: 'free-lunch-investment-seminar-scam-guide',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Meeting_room,_table_and_paper_board.jpg?width=1200',
+    coverImageCredit: 'Photo: Luis Argerich (CC BY 2.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     tags: ['guide', 'investment-seminar-scam'],
     sourceUrl: 'https://www.nasaa.org/1950/senior-investor-alert-free-meal-seminars/',
     body: `An invitation arrives in the mail, or by robocall, offering a free steak dinner or gourmet lunch at a nice restaurant or hotel in exchange for attending a short "educational" workshop on retirement planning, Social Security, or protecting savings from market risk — with "no obligation to buy anything" and "limited seating" creating urgency to RSVP fast. Regulators who've actually attended these events found something different happening in the room than what the invitation promised.
