@@ -228,6 +228,10 @@ Enron remains the reference case for a specific kind of fraud — not a lone con
     title: "Wirecard: Germany's Biggest Fraud, and the Executive Who Vanished",
     slug: 'wirecard-jan-marsalek-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Wirecard-aschheim-2019.jpg',
+    coverImageCredit: 'Photo: Kaethe17 (CC BY-SA 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a more specific case photo if found
     tags: ['notorious'],
     body: `Wirecard was a German payments-processing company that grew, on paper, into one of Europe's most valuable fintech firms, joining the prestigious DAX 30 index of Germany's largest public companies in 2018 — a rare feat for a company barely two decades old.
 
@@ -242,6 +246,10 @@ Wirecard is a reminder that even a company listed on a major stock index, audite
     title: 'Bre-X: The Billion-Dollar Gold Mine That Was Never There',
     slug: 'bre-x-gold-mine-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Exchange_Tower,_Toronto,_Ontario_(29919575011).jpg',
+    coverImageCredit: 'Photo: Ken Lund (CC BY-SA 2.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a more specific case photo if found
     tags: ['notorious', 'historical'],
     body: `Bre-X Minerals was a small Canadian mining company trading for pennies a share until 1995, when it announced a spectacular gold discovery at a remote site called Busang, in the jungles of Indonesian Borneo. Rock samples reportedly showed gold in quantities that would make it one of the richest deposits ever found.
 
@@ -440,6 +448,10 @@ The Kerviel case became a defining example, alongside Nick Leeson's collapse of 
     title: 'Tom Petters and the $3.65 Billion Ponzi Scheme Hidden Inside a Real Business Empire',
     slug: 'tom-petters-ponzi-scheme',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/US_Federal_Penitentiary_-_Leavenworth,_Kansas_-_USA.jpg',
+    coverImageCredit: 'Photo: Tequask (CC BY-SA 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Tom Petters built Petters Group Worldwide into a real, visible business empire — it owned Polaroid, the catalog retailer Fingerhut, and a controlling stake in Sun Country Airlines — which made the fraud running underneath it easier for investors to believe. Through a subsidiary called Petters Company Inc., he raised money from hedge funds, retirees, and even pastors and missionaries by promising returns of 15 to 20 percent, telling investors their money was funding the purchase of wholesale electronics and consumer goods that PCI would resell to big-box retailers at a markup.
 
@@ -577,6 +589,10 @@ The Daiwa case became a landmark example of why regulators treat a cover-up as s
     title: '"Mr. Copper" Yasuo Hamanaka and the $2.6 Billion Attempt to Corner a Global Metal Market',
     slug: 'yasuo-hamanaka-sumitomo-copper-scandal',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/LME_Entrance.jpg',
+    coverImageCredit: 'Photo: Kreepin Deth (CC BY-SA 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Yasuo Hamanaka was Sumitomo Corporation's chief copper trader for more than two decades, controlling such a large share of the world's copper trading that he was nicknamed "Mr. Five Percent" for the portion of global annual supply he was said to influence. For years he was viewed inside Sumitomo as a star performer, generating profits the company was reluctant to question too closely.
 
@@ -767,6 +783,10 @@ The Maxwell scandal became the direct catalyst for the UK's Pensions Act 1995, w
     title: 'Asil Nadir and the Polly Peck Collapse He Fled For 17 Years',
     slug: 'asil-nadir-polly-peck-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Old_Bailey_October_2022.jpg',
+    coverImageCredit: 'Photo: Nick-D (CC BY-SA 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Asil Nadir built Polly Peck International from a small textile trading company into a sprawling conglomerate spanning fruit distribution, electronics, and other ventures, becoming one of the London Stock Exchange's fastest-growing companies of the 1980s and one of Britain's richest men in the process.
 
@@ -919,6 +939,10 @@ Taylor's case is a stark illustration of affinity fraud at scale: by embedding h
     title: 'Billy Walters: The Sports Gambler Whose Inside Tip Reached Phil Mickelson',
     slug: 'billy-walters-dean-foods-insider-trading',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Daniel_Patrick_Moynihan_United_States_Courthouse_(55314001073).jpg',
+    coverImageCredit: 'Photo: Ajay Suresh (CC BY 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer'],
     body: `Billy Walters, a well-known Las Vegas sports gambler, spent six years, from 2008 to 2014, trading on inside information about Dean Foods Company, a Fortune 500 dairy processor, fed to him by Thomas C. Davis, a Dean Foods board member and its former chairman. Davis passed Walters advance, nonpublic details of upcoming corporate events — including a planned spinoff of one of the company's subsidiaries — which Walters used to net more than $43 million in illegal trading profits.
 
@@ -992,6 +1016,10 @@ Pang's case is a reminder that a fraud's collapse doesn't always come with a cou
     title: 'Alan Bond: The America\'s Cup Hero Who Looted His Own Company',
     slug: 'alan-bond-bell-resources-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Skyline_of_Perth,_Western_Australia,_April_2010.jpg',
+    coverImageCredit: 'Photo: Shauna McGee Kinney (CC BY-SA 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Alan Bond was one of Australia's most celebrated businessmen, having bankrolled Australia II's victory in the 1983 America's Cup, before his Bond Corporation empire collapsed in the early 1990s in what was, at the time, the largest corporate failure in Australian history. The fraud that ultimately sent him to prison involved a separate public company he controlled, Bell Resources: Bond used his position at the top of that company to improperly transfer roughly A$1.2 billion out of it and into the struggling Bond Corporation, propping up his own empire directly at the expense of Bell Resources' other shareholders.
 
@@ -1139,6 +1167,8 @@ Refco's collapse is a stark illustration of how little time can separate a trium
     title: 'Russell Wasendorf Sr. and the Forged Bank Statements Behind Peregrine Financial',
     slug: 'russell-wasendorf-peregrine-financial-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Mugshot_Russell_Wasendorf_Sr.jpg',
+    coverImagePosition: 50,
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Russell Wasendorf Sr. built Peregrine Financial Group from a small brokerage he started in 1980 into one of the largest independent futures and commodities trading firms in the United States, headquartered in Cedar Falls, Iowa. For roughly two decades, while regulators and auditors believed customer funds were fully accounted for, Wasendorf was quietly draining the firm's customer-segregated bank account for his own use.
 
@@ -1153,6 +1183,8 @@ Wasendorf pleaded guilty in September 2012 to mail fraud, embezzlement, and lyin
     title: 'Calisto Tanzi and the €14 Billion Hole Behind "Europe\'s Enron"',
     slug: 'calisto-tanzi-parmalat-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Calisto_Tanzi.jpg',
+    coverImagePosition: 50,
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Calisto Tanzi took over his family's small dairy and ham business in 1961 and spent the next four decades building it into Parmalat, an Italian multinational food conglomerate operating in more than 30 countries with roughly €7.6 billion in annual sales at its peak. Behind that success, Parmalat was quietly accumulating losses and debt that Tanzi and his executives spent over a decade hiding from investors, auditors, and regulators using a web of offshore shell companies in the Cayman Islands and Luxembourg.
 
@@ -1288,6 +1320,10 @@ Greater Ministries remains one of the starkest examples of an affinity fraud —
     title: 'Andrew Fastow: The Enron CFO Who Hid Billions Inside His Own Side Deals',
     slug: 'andrew-fastow-enron-cfo-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Enron_Complex.jpg',
+    coverImageCredit: 'Photo: Alex (CC BY 2.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Andrew Fastow joined Enron's finance division in 1990 and rose steadily through the company, becoming Chief Financial Officer in 1998. In that role he was responsible for how Enron, an energy-trading giant, represented its financial health to investors and Wall Street — a job he used to build a hidden financial architecture that made the company look far more profitable and far less indebted than it actually was.
 
@@ -1392,6 +1428,10 @@ Lewis served roughly 18 years of that sentence before President Biden commuted i
     title: 'Sudipta Sen and the Saradha Group Chit Fund Collapse',
     slug: 'sudipta-sen-saradha-group-chit-fund-scam',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Calcutta_High_Court_01.jpg',
+    coverImageCredit: 'Photo: Sujay25 (CC BY-SA 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer'],
     body: `Sudipta Sen built the Saradha Group into a sprawling conglomerate of more than 200 companies in and around West Bengal, India, spanning real estate, tourism, hospitality, and — notably — media, eventually controlling eight newspapers and several television channels. Underneath the diversified business empire, Saradha ran collective investment schemes that solicited money from ordinary depositors, most putting in under ₹10,000 each, promising returns that operated in the same gray zone as India's informal "chit fund" savings pools while deliberately avoiding registration as the formal, regulated collective investment scheme it actually was.
 
@@ -1437,6 +1477,10 @@ Gupta served roughly a year and a half and was released in 2016, later publishin
     title: 'Alberto Vilar: The Opera Patron Whose Pledges Were Built on Stolen Client Money',
     slug: 'alberto-vilar-amerindo-investment-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Facade_of_the_Metropolitan_Opera_House_at_Lincoln_Center,_NYC.jpg',
+    coverImageCredit: 'Photo: Blehgoaway (CC BY-SA 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Alberto Vilar co-founded Amerindo Investment Advisors and became one of the most visible philanthropists in classical music, pledging tens of millions of dollars to the Metropolitan Opera — which briefly renamed a section of its lobby the "Vilar Grand Tier" in his honor — along with major pledges to the Kennedy Center and other arts institutions. The pledges were funded, in large part, by a tech-heavy investment portfolio that looked spectacular during the dot-com boom and collapsed along with it.
 
@@ -1521,6 +1565,9 @@ Balwani and Holmes were later held jointly and severally liable for more than $4
     title: 'Charlie Javice: The Startup Founder Who Paid a Professor to Fake 4 Million Users',
     slug: 'charlie-javice-frank-jpmorgan-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/JPMorgan_Chase_Headquarters_New_York_City.jpg',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer'],
     body: `Charlie Javice founded Frank, a startup that marketed itself as simplifying the notoriously complicated FAFSA federal student aid application. In 2021, JPMorgan Chase acquired Frank for roughly $175 million, believing the company had built a user base of 4.25 million students. The real number was closer to 300,000.
 
@@ -1580,6 +1627,9 @@ Steven Cohen himself was never criminally charged over these trades; he settled 
     title: 'Yoshiaki Murakami: The Activist Investor Whose Own Tip From Livedoor Ended His Fund',
     slug: 'yoshiaki-murakami-nippon-broadcasting-insider-trading',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/%E3%83%8B%E3%83%83%E3%83%9D%E3%83%B3%E6%94%BE%E9%80%81_%E6%9C%89%E6%A5%BD%E7%94%BA%E6%9C%AC%E7%A4%BE.jpg',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer'],
     body: `Takafumi Horie and the accounting fraud behind the "Livedoor Shock" are already covered elsewhere in this collection — but the same Livedoor takeover battle also brought down one of Japan's most prominent activist investors, in a legally separate case built on information Horie's own company handed him. Yoshiaki Murakami spent roughly sixteen years as a bureaucrat at Japan's Ministry of International Trade and Industry before leaving in 1999 to found what became known as the Murakami Fund, one of the country's first aggressive shareholder-activist operations in a corporate culture that had little tolerance for outside investors pushing management around.
 
@@ -1636,6 +1686,9 @@ Rusnak's case became a textbook example in the banking industry of what a rogue 
     title: 'Wolfgang Beltracchi: The Forger Who Fooled the Art World for 35 Years',
     slug: 'wolfgang-beltracchi-art-forgery-scheme',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Wolfgang_Beltracchi_(2024)_III.jpg',
+    coverImageCredit: 'Photo: Jindřich Nosek (CC BY 4.0)',
+    coverImagePosition: 50,
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Wolfgang Beltracchi didn't copy famous paintings — he invented new ones. For roughly three decades, the German artist painted works "in the style of" more than fifty early-20th-century modern masters, including Max Ernst, Heinrich Campendonk, Fernand Léger, and André Derain, and sold them to auction houses and collectors as genuine lost or rediscovered originals.
 
