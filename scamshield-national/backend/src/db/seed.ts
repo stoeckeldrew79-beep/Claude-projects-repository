@@ -10318,6 +10318,66 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Immigration, Refugees and Citizenship Canada (Government of Canada)'],
     sourceUrl: 'https://www.canada.ca/en/immigration-refugees-citizenship/services/canadian-passports/protect-fraud.html',
   },
+  {
+    name: 'Insurance Premium Diversion by a Licensed Agent',
+    slug: 'insurance-premium-diversion-by-agent',
+    description:
+      'A licensed or seemingly-licensed insurance agent collects a customer\'s premium payment as usual but never forwards it to the actual insurance company, instead keeping the money for personal use. The customer believes their policy is active and paid up, while the insurer has no record of payment and quietly cancels or never issues the policy. The fraud is typically only discovered when the policyholder tries to file a claim — sometimes after a significant loss such as storm or fire damage — and learns no coverage ever existed.',
+    categorySlug: 'insurance-fraud',
+    alertLevel: 'high',
+    sources: ['North Carolina Department of Insurance'],
+    sourceUrl: 'https://www.ncdoi.gov/blog/2025/09/17/insurance-fraud-hits-everyone-wallet',
+  },
+  {
+    name: 'Fraudulent Multiple Employer Welfare Arrangement (MEWA) Health Plan',
+    slug: 'fraudulent-mewa-health-plan-scam',
+    description:
+      'A company markets a "group health plan" to small businesses nationwide as an affordable alternative to traditional insurance, pooling premiums from many unrelated employers under an arrangement called a Multiple Employer Welfare Arrangement, or MEWA. The plan is often not properly registered or reserved as required, and once it becomes insolvent it simply stops paying claims, leaving enrolled employees and their families personally on the hook for medical bills they believed were covered. These schemes can operate for years and across dozens of states before regulators catch up.',
+    categorySlug: 'insurance-fraud',
+    alertLevel: 'high',
+    sources: ['Nevada Division of Insurance'],
+    sourceUrl: 'https://doi.nv.gov/News_Notices/Press_Releases/MARCH_11,_2019_-_Consumer_Alert__Division_Warns_Nevadans_About_Multiple_Employer_Welfare_Arrangement_(MEWA)/',
+  },
+  {
+    name: 'Hospice Fraud via Ineligible Patient Enrollment',
+    slug: 'hospice-fraud-ineligible-patient-enrollment',
+    description:
+      'Hospice operators, sometimes using paid patient recruiters, enroll Medicare beneficiaries in hospice care even though they are not terminally ill and do not meet Medicare\'s requirement of a life expectancy of six months or less. In documented cases, beneficiaries have been enrolled without their knowledge or genuine consent, and choosing hospice enrollment shifts the patient out of Medicare\'s regular coverage for curative treatment of their condition. The hospice then bills Medicare for services the patient never needed, while the patient loses access to treatments they may have wanted or needed.',
+    categorySlug: 'healthcare-fraud',
+    alertLevel: 'high',
+    sources: ['HHS Office of Inspector General'],
+    sourceUrl: 'https://oig.hhs.gov/reports/featured/hospice/',
+  },
+  {
+    name: 'Fraudulent "my Social Security" Account Takeover for Direct-Deposit Redirection',
+    slug: 'my-social-security-account-takeover-direct-deposit',
+    description:
+      'Using a victim\'s stolen Social Security number, date of birth, and other personal data, an identity thief opens a "my Social Security" online account in the victim\'s name before the real beneficiary ever creates one — SSA permits only one online account per Social Security number. Once inside, the thief uses the account to change the beneficiary\'s direct-deposit banking information, redirecting their monthly Social Security or SSI payment to an account the thief controls. SSA recommends beneficiaries proactively create their own account and can additionally request a "Direct Deposit Fraud Prevention" block that stops any online or bank-initiated change to deposit information entirely.',
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'high',
+    sources: ['Social Security Administration', 'Social Security Administration Office of the Inspector General'],
+    sourceUrl: 'https://www.ssa.gov/myaccount/',
+  },
+  {
+    name: 'Fake "Bureau of Tax Enforcement" Property Lien Letter Scam',
+    slug: 'fake-bureau-of-tax-enforcement-lien-letter-scam',
+    description:
+      'A letter formatted to resemble official government correspondence claims the recipient owes a specific back-tax debt to a fictitious agency — commonly named "the Bureau of Tax Enforcement" — and threatens that an IRS lien or levy will be placed on their property unless the invented debt is resolved. The letter invokes IRS lien terminology and sometimes references the IRS itself to appear more credible, even though the underlying debt figure is fabricated and no such agency exists. The IRS states plainly "there is no such agency" and directs recipients to report the letter to the Treasury Inspector General for Tax Administration.',
+    categorySlug: 'tax-scams',
+    alertLevel: 'medium',
+    sources: ['Internal Revenue Service'],
+    sourceUrl: 'https://www.irs.gov/newsroom/taxpayers-should-beware-of-property-lien-scam',
+  },
+  {
+    name: 'Fake "EBT Customer Service" Automated Callback Phone Scam',
+    slug: 'fake-ebt-customer-service-callback-scam',
+    description:
+      'Scammers call SNAP/EBT recipients from spoofed phone numbers, falsely claiming to represent the state\'s EBT system and warning that the recipient\'s SNAP account will be closed unless they call a given number back to "verify their identity." When the recipient calls back, an automated recording convincingly imitating a real customer-service line prompts them to key in their full EBT card number — harvesting it directly through the phone\'s keypad rather than via a text link or a live talker. State human-services agencies confirm their own outbound communications only ever come from one official number, and recommend locking an EBT card via the state benefits app when not in use.',
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'medium',
+    sources: ['Pennsylvania Department of Human Services'],
+    sourceUrl: 'https://www.pa.gov/agencies/dhs/newsroom/shapiro-administration-warns-of-potential-phone-scam-targeting-e',
+  },
 ];
 
 async function seedCategoriesAndScams() {
