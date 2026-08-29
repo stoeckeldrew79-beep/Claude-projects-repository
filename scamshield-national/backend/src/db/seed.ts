@@ -268,6 +268,10 @@ Bre-X remains one of the largest mining frauds in history and a case study in ho
     title: 'Nirav Modi and the $2 Billion Bank Fraud That Emptied a Vault Without a Robbery',
     slug: 'nirav-modi-punjab-national-bank-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/PNB_Head_Office.jpg?width=1200',
+    coverImageCredit: 'Photo: Meet.arpit99 (CC BY-SA 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious'],
     body: `Nirav Modi built an internationally recognized luxury diamond jewelry brand, with boutiques from Mumbai to New York and celebrity clients, before Indian investigators accused him and his uncle Mehul Choksi of orchestrating one of the largest bank frauds in the country's history.
 
@@ -432,6 +436,10 @@ Shkreli's case is a reminder that the conduct that makes headlines and the condu
     title: 'Scott Rothstein: The Lawyer Who Sold Shares in Lawsuits That Didn\'t Exist',
     slug: 'scott-rothstein-rosenfeldt-adler-ponzi-scheme',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Ft_Lauderdale_Skyline.jpg?width=1200',
+    coverImageCredit: 'Photo: Andyxox (CC BY 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Scott Rothstein was a prominent Fort Lauderdale attorney and managing shareholder of Rothstein Rosenfeldt Adler, a law firm that grew to more than 70 lawyers largely on the strength of Rothstein's own rainmaking and political connections. Behind that success was a fraud built on a product that sounded plausible to sophisticated investors: shares in structured settlements from confidential employment-discrimination and whistleblower lawsuits Rothstein claimed his firm had won, which investors could buy at a discount and collect the full payout on later.
 
@@ -637,6 +645,10 @@ Hamanaka was convicted in Tokyo in 1998 of fraud and forgery, including defraudi
     title: 'Barry Minkow: The Teenage Fraudster Who Conned Wall Street, Then Conned His Own Church',
     slug: 'barry-minkow-zzzz-best-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/San_Fernando_Valley_vista.jpg?width=1200',
+    coverImageCredit: 'Photo: Oakshade (CC BY-SA 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer'],
     body: `Barry Minkow started a carpet-cleaning business, ZZZZ Best, out of his parents' garage at age 16, and by his early twenties had taken it public, presenting himself to Wall Street as a teenage self-made millionaire running one of the fastest-growing companies in the country. Much of that growth was built on a business that barely existed: ZZZZ Best claimed a large, lucrative insurance-restoration division that supposedly repaired water- and fire-damaged buildings, when in reality the large majority of that division's contracts were entirely fabricated.
 
@@ -651,6 +663,10 @@ Minkow's case is unusual for having two separate, fully documented fraud convict
     title: 'Robert Vesco: The Fugitive Financier Who Looted $224 Million and Vanished for 35 Years',
     slug: 'robert-vesco-ios-fraud-fugitive',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Downtown_of_San_Jose,_Costa_Rica.jpg?width=1200',
+    coverImageCredit: 'Photo: Luis Tamayo (CC BY-SA 2.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Robert Vesco built a career as a corporate takeover specialist before gaining control of Investors Overseas Services (IOS), a sprawling Swiss-based mutual fund complex managing money for hundreds of thousands of investors worldwide. Rather than manage IOS's funds as advertised, Vesco directed them into a web of banks and shell companies he secretly controlled, using the structure to siphon investor money out for himself.
 
@@ -788,6 +804,10 @@ Skase's case remains one of Australia's most prominent examples of a corporate f
     title: "Sam Waksal: The ImClone Tip That Brought Down Martha Stewart Too",
     slug: 'sam-waksal-imclone-insider-trading',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Wall_Street_Sign_(5899884048).jpg?width=1200',
+    coverImageCredit: 'Photo: Alex Proimos (CC BY 2.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Sam Waksal founded and ran ImClone Systems, a biotech company whose future largely hinged on FDA approval of its experimental cancer drug Erbitux. In late December 2001, Waksal learned ahead of the public that the FDA was about to reject ImClone's application — devastating news that would tank the stock once announced.
 
@@ -922,6 +942,10 @@ Winans's case remains taught in both law and journalism schools as a foundationa
     title: 'Aubrey Lee Price: The Ponzi Schemer Who Faked His Own Suicide',
     slug: 'aubrey-lee-price-faked-death-ponzi-scheme',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Brunswick_Landing_Marina_-_panoramio.jpg?width=1200',
+    coverImageCredit: 'Photo: qwesy qwesy (CC BY 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer'],
     body: `Aubrey Lee Price was a Georgia investment adviser and bank director who ran a Ponzi scheme through his firm PFG, LLC and a related entity, Montgomery Prime, telling clients — many of them older, working with the same adviser for years — that their money was being invested in a hedge-fund-style trading strategy. Instead, prosecutors said Price diverted client and bank funds outside the actual investments he described, a shortfall that eventually helped trigger the collapse of a federally insured Georgia bank he also helped direct.
 
@@ -1383,6 +1407,10 @@ A jury convicted Peterson in January 2015 on eight counts of fraud, forgery, fal
     title: 'Steven Hoffenberg and the $475 Million Towers Financial Ponzi Scheme',
     slug: 'steven-hoffenberg-towers-financial-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/NYC_Financial_District_(Water_Taxi_view).jpg?width=1200',
+    coverImageCredit: 'Photo: Daniel Dimitrov (CC BY-SA 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Steven Hoffenberg founded Towers Financial Corporation in Manhattan in the early 1970s, building it around a legitimate-sounding business: buying distressed consumer and commercial debt — money owed to hospitals, banks, and phone companies — for pennies on the dollar, then collecting on it. As chairman, president, and CEO, and the owner of roughly 71% of its stock, Hoffenberg used that respectable-looking core business as cover for a Ponzi scheme that grew alongside it through the 1980s and into the early 1990s.
 
@@ -1397,6 +1425,10 @@ Hoffenberg's case later drew renewed attention because a young Jeffrey Epstein w
     title: 'Martin Frankel: The Insurance Reserve-Fund Fraud That Ended in a Hamburg Hotel Room',
     slug: 'martin-frankel-insurance-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Greenwich,_Connecticut_skyline.jpg?width=1200',
+    coverImageCredit: 'Photo: Quintin Soloviev (CC BY 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Martin Frankel presented himself as a skilled financial trader, but he had no securities license and had already been barred from the industry by Toledo regulators years earlier over improper trading. In the 1990s he found a new way in: using a shell entity called the Thunor Trust — fronted as a group of anonymous wealthy European aristocrats to hide that Frankel himself was really in control — he acquired a string of small insurance companies across six states (Tennessee, Mississippi, Oklahoma, Missouri, Alabama, and Arkansas), most of them selling modest burial and funeral policies to low-income policyholders.
 
@@ -1638,6 +1670,10 @@ Once his fraud became public, the Metropolitan Opera quietly dropped his name fr
     title: 'Scott Sullivan: The WorldCom CFO Who Turned Expenses Into $11 Billion of Fiction',
     slug: 'scott-sullivan-worldcom-cfo-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/JacksonMS_CapitolSt.jpg?width=1200',
+    coverImageCredit: 'Photo: NatalieMaynor (CC BY 2.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `WorldCom's collapse is already covered elsewhere in this collection through CEO Bernard Ebbers, but it was Chief Financial Officer Scott Sullivan who actually engineered the accounting behind the $11 billion fraud. Starting around September 2000, Sullivan directed WorldCom's accounting staff to improperly reclassify billions of dollars in ordinary "line costs" — the fees WorldCom paid other telecom carriers to access their networks — from routine operating expenses into capital expenditures. Expenses booked as capital investments don't reduce a company's reported profit the way real expenses do; the reclassification had no legitimate accounting basis and no supporting documentation, but it let WorldCom keep reporting profits that didn't actually exist through mid-2002, even as the company's real business was deteriorating.
 
@@ -1652,6 +1688,10 @@ Sullivan completed his sentence in August 2009. His case is a useful companion t
     title: 'Robert Shapiro and the $1.2 Billion Woodbridge "Hard Money Lending" Ponzi Scheme',
     slug: 'robert-shapiro-woodbridge-group-ponzi-scheme',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Village_of_Sherman_Oaks_-_Van_Nuys_Blvd._at_Ventura.JPG?width=1200',
+    coverImageCredit: 'Photo: Cbl62 (CC BY-SA 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Robert H. Shapiro built the Woodbridge Group of Companies into a pitch that sounded almost boring in its safety: investors would buy promissory notes, and Woodbridge would use that money to make short-term "hard money" loans to commercial property owners at high interest rates — 11 to 15 percent — while paying investors a lower, guaranteed 5 to 10 percent return and keeping the spread. It was marketed as conservative, asset-backed, and low-risk, the kind of investment sold heavily to retirees looking for steady income.
 
@@ -1702,6 +1742,10 @@ Haddow was finally sentenced in July 2026 to 54 months in prison and ordered to 
     title: 'Sunny Balwani: The Theranos President Who Got a Longer Sentence Than Elizabeth Holmes',
     slug: 'sunny-balwani-theranos-coo-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Palo_Alto,_California_(City_Hall)_2004.jpg?width=1200',
+    coverImageCredit: 'Photo: Nader Moussa (CC BY-SA 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Theranos and its founder Elizabeth Holmes are already covered elsewhere in this collection, but Ramesh "Sunny" Balwani — the company's President and COO from 2009 to 2016 — was tried separately from Holmes and, in some ways, was found to bear even more direct responsibility for the fraud. Balwani ran Theranos's day-to-day lab operations and the retail rollout inside Walgreens stores, and personally delivered the financial projections that convinced investors to pour money into the company: that Theranos would generate more than $100 million in revenue and break even by 2014, and approach $1 billion in revenue by 2015. None of it was true, and prosecutors argued Balwani knew it.
 
@@ -1873,6 +1917,10 @@ Beltracchi, identified in court as the ring's mastermind and the actual painter 
     title: 'Shimon Hayut, the "Tinder Swindler": A Fake Diamond Heir\'s Real Fraud Conviction',
     slug: 'shimon-hayut-tinder-swindler-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Tel_Aviv_Sky_Line.jpg?width=1200',
+    coverImageCredit: 'Photo: Uri Sittan (CC BY-SA 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer'],
     body: `Shimon Hayut matched with women on Tinder under the name "Simon Leviev," presenting himself as the son of real Israeli-Russian diamond magnate Lev Leviev. He backed the story with a jet-set lifestyle — private jets, luxury hotels, expensive gifts — funded almost entirely by money he was actively taking from other women he had already deceived.
 
