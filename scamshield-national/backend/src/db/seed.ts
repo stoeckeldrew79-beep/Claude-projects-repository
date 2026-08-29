@@ -10200,6 +10200,66 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['National Cyber Security Centre (NCSC)', 'Action Fraud'],
     sourceUrl: 'https://www.ncsc.gov.uk/blog-post/qr-codes-whats-real-risk',
   },
+  {
+    name: 'In-Person Courier Cash Pickup Family Emergency Scam',
+    slug: 'in-person-courier-cash-pickup-family-emergency-scam',
+    description:
+      'A caller running the classic grandparent or family-emergency script tells the victim not to wire money or buy gift cards, but instead to have cash ready — someone will come to the house to pick it up in person, sometimes after first instructing the victim to withdraw more from the bank. The "courier" is frequently an unwitting rideshare or delivery driver hired through an app with no idea they\'re collecting scam proceeds, and a spoken code word or a specific dollar-bill serial number is used to make the handoff feel verified. Because the money changes hands as physical cash rather than through a bank, wire service, or gift card, there is no institution that can flag, freeze, or reverse the transaction once it\'s handed over.',
+    categorySlug: 'family-emergency-scams',
+    alertLevel: 'high',
+    sources: ['Georgia Attorney General\'s Consumer Protection Division', 'FBI Boston Field Office'],
+    sourceUrl: 'https://consumer.georgia.gov/press-releases/2021-09-14/consumer-alert-new-twist-grandparent-scam',
+  },
+  {
+    name: 'Fraud Recovery Scam Targeting Past Lottery/Sweepstakes Victims',
+    slug: 'fraud-recovery-scam-past-lottery-victims',
+    description:
+      'After someone has already lost money to a prize, sweepstakes, or lottery scam, a second scammer calls or writes posing as a government agency, law firm, or consumer-advocacy group offering to recover the lost money or promised prize — but only after the victim first pays an upfront "retainer," "processing," "administrative," or "tax" fee. These callers are working from a purchased "sucker list" containing the victim\'s name, contact information, the type of scam that caught them, and how much they paid, which is what makes the follow-up pitch sound convincingly well-informed. No legitimate government agency, law firm, or recovery service asks for payment by cash, gift card, cryptocurrency, wire transfer, or payment app before returning money.',
+    categorySlug: 'lottery-sweepstakes-scams',
+    alertLevel: 'high',
+    sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/articles/refund-and-recovery-scams',
+  },
+  {
+    name: 'In-Person "Sell You a Winning Lottery Ticket" Stranger Scam',
+    slug: 'in-person-sell-winning-lottery-ticket-scam',
+    description:
+      'A stranger approaches someone in a parking lot or store claiming to be holding a winning lottery ticket they can\'t personally redeem — often citing immigration status, lack of ID, or a legal restriction — and offers to sell it for cash below its claimed value, or asks the target to cash it and split the winnings. The ticket is typically stolen, altered, expired, already claimed, or a forgery, and once the stranger has the cash they disappear with no prize ever materializing. Unlike most lottery scams, no call, letter, or message is involved at all — the entire scam happens face to face over a physical piece of paper.',
+    categorySlug: 'lottery-sweepstakes-scams',
+    alertLevel: 'medium',
+    sources: ['Texas Lottery Commission'],
+    sourceUrl: 'https://www.texaslottery.com/export/sites/lottery/Player_Protection/Lottery_Scams/',
+  },
+  {
+    name: 'Foreclosure Surplus Funds Recovery Scam',
+    slug: 'foreclosure-surplus-funds-recovery-scam',
+    description:
+      'After a home is sold at a foreclosure or sheriff\'s sale for more than the amount owed on the mortgage, the difference ("surplus funds") legally belongs to the former homeowner and can usually be claimed directly through the court or county with little to no cost. Scammers monitor foreclosure sale records and contact former homeowners immediately afterward — before they receive official notice that funds are available — falsely claiming the recovery process is nearly impossible without help, then charge exorbitant fees (in documented cases, 30% to over 60% of the total) or require the homeowner to sign over all rights to the funds.',
+    categorySlug: 'mortgage-foreclosure-scams',
+    alertLevel: 'high',
+    sources: ['Washington State Office of the Attorney General'],
+    sourceUrl: 'https://www.atg.wa.gov/news/news-releases/court-orders-company-accused-scamming-foreclosed-homeowners-halt-deceptive',
+  },
+  {
+    name: 'Fraudulent CDL Driver Recruiter "Financial Solvency" Wire Scam',
+    slug: 'fraudulent-cdl-driver-recruiter-wire-scam',
+    description:
+      'A scammer poses as a recruiter for a real, well-known trucking carrier and cold-calls commercial driver\'s license (CDL) holders and CDL training schools with an urgent, unusually generous job offer, often claiming prior DUI or criminal history will be waived. After building interest, the fake recruiter tells the driver they must wire a sum (commonly $350 or more) — typically via a Walmart-to-Walmart money transfer or Western Union — to "prove financial solvency" before being cleared to start. Victims are then told to travel to a location in another state to meet a company trainer who never appears.',
+    categorySlug: 'employment-scams',
+    alertLevel: 'medium',
+    sources: ['Federal Motor Carrier Safety Administration (FMCSA)'],
+    sourceUrl: 'https://www.fmcsa.dot.gov/registration/fraud-alerts',
+  },
+  {
+    name: 'H-2A/H-2B Visa Job Offer Fee Scam',
+    slug: 'h2a-h2b-visa-job-offer-fee-scam',
+    description:
+      'Scammers advertise fake seasonal or agricultural job openings in the United States under the H-2A or H-2B visa programs, often via social media, and pose as recruiters, immigration lawyers, or U.S. government employees, sometimes using forged documents or video calls to appear legitimate. They create fake websites mimicking official government pages and demand payment — documented in the range of $200 to $3,500 — via services like Western Union, PayPal, Venmo, or Zelle for "processing," "vetting," or visa fees. Under U.S. Department of Labor rules, employers and their recruiters are legally prohibited from charging H-2A or H-2B workers any recruitment or application fees at all, so any such request is itself proof of fraud.',
+    categorySlug: 'employment-scams',
+    alertLevel: 'high',
+    sources: ['U.S. Department of State', 'U.S. Department of Labor, Wage and Hour Division'],
+    sourceUrl: 'https://bo.usembassy.gov/alert-there-have-been-reports-of-h-2a-and-h-2b-visa-scams/',
+  },
 ];
 
 async function seedCategoriesAndScams() {
