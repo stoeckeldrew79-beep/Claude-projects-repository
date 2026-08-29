@@ -9977,6 +9977,39 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Turo'],
     sourceUrl: 'https://help.turo.com/en_us/preventing-and-reporting-fraud-host-Sy8k9Tjlx',
   },
+  {
+    name: 'French CPF Training Account Drain Scam',
+    slug: 'french-cpf-training-account-drain-scam',
+    description:
+      'Scammers cold-call, text, or email victims claiming to represent "Mon Compte Formation" or another official-sounding training body, warning that their CPF (Compte Personnel de Formation, France\'s state-funded lifelong-training account) credits are about to expire and must be used immediately. Victims are pressured into handing over their Social Security number and Mon Compte Formation login credentials, which the scammers use to log into the real government platform and enroll the victim in bogus or non-existent training courses. The victim\'s CPF rights are then debited to pay the fraudulent "training provider," and the money is gone — a 2022 French law banned all commercial phone, SMS, and email solicitation related to CPF specifically because of this pattern, meaning any unsolicited contact about CPF is itself a red flag.',
+    categorySlug: 'government-impersonation',
+    country: 'FR',
+    alertLevel: 'high',
+    sources: ['Cybermalveillance.gouv.fr', 'Caisse des Dépôts / Mon Compte Formation'],
+    sourceUrl: 'https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/campagnes-escroqueries-compte-personnel-formation-cpf',
+  },
+  {
+    name: 'French Fake ANTAI Traffic Fine Phishing Scam',
+    slug: 'french-antai-fake-traffic-fine-scam',
+    description:
+      'Fraudsters send SMS messages, emails, or even physical letters impersonating ANTAI (Agence Nationale de Traitement Automatisé des Infractions, the French agency that processes traffic and speeding fines), claiming the recipient has an unpaid fine that must be "regularized" or contested via a link. The linked fake site mimics the real fine-payment portal and harvests fiscal ID numbers, driver\'s license numbers, ID/passport details, vehicle registration information, and banking credentials entered to "pay" the phony fine. ANTAI states it never sends SMS about fines at all, and that its only legitimate emails come from a single official address, making any texted "fine" notice an automatic red flag.',
+    categorySlug: 'government-impersonation',
+    country: 'FR',
+    alertLevel: 'medium',
+    sources: ['ANTAI (Agence Nationale de Traitement Automatisé des Infractions)'],
+    sourceUrl: 'https://www.antai.gouv.fr/actualites/attention-aux-sms-courriels-et-sites-frauduleux/',
+  },
+  {
+    name: 'French "Ping Call" Missed-Call Premium Number Scam',
+    slug: 'french-ping-call-premium-number-scam',
+    description:
+      'Scammers use automated systems to place calls to random or harvested French phone numbers that ring only once or twice before hanging up, deliberately too briefly to answer. Curious recipients who call the missed number back reach either a French-looking number playing a recorded message that redirects them to dial a premium-rate "089" number, or an international number billed at high per-minute rates outside any standard calling plan, generating revenue for the scammer at the victim\'s expense. The tactic evolved after French regulators banned 089 numbers from being used directly as caller ID in 2012, pushing operators to disguise the initial missed call as an ordinary French landline or mobile number instead.',
+    categorySlug: 'phishing',
+    country: 'FR',
+    alertLevel: 'low',
+    sources: ['ARCEP (Autorité de régulation des communications électroniques, des postes et de la distribution de la presse)'],
+    sourceUrl: 'https://www.arcep.fr/mes-demarches-et-services/consommateurs/fiches-pratiques/sms-appels-et-courriers-electroniques-indesirables-et-ou-frauduleux.html',
+  },
 ];
 
 async function seedCategoriesAndScams() {
