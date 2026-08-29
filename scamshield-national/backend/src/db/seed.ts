@@ -198,6 +198,10 @@ McFarland is unusual on this list for trying the same playbook twice, in public,
     title: 'Rita Crundwell: The Small-Town Comptroller Who Stole $53 Million',
     slug: 'rita-crundwell-dixon-illinois-embezzlement',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Dixon_Il_Lee_County_Courthouse1.jpg',
+    coverImageCredit: 'Photo: IvoShandor (CC BY-SA 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'historical'],
     body: `Dixon, Illinois, a city of about 16,000 people, employed Rita Crundwell as comptroller starting in 1983 — a position that gave her near-total control over the city's finances with minimal independent oversight. Starting in December 1990, she quietly opened a secret municipal bank account that she alone controlled, and over the next 22 years made 179 transfers totaling roughly $53.7 million out of city funds and into it.
 
@@ -294,6 +298,10 @@ Pearlman's case shows how a fraud can hide behind a legitimate, glamorous busine
     title: 'Marcus Schrenker: The Financial Adviser Who Faked His Own Plane Crash',
     slug: 'marcus-schrenker-faked-plane-crash-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Piper_PA-46-500TP_Malibu_Meridian_taxiing.jpg',
+    coverImageCredit: 'Photo: bomberpilot (CC BY-SA 2.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious'],
     body: `Marcus Schrenker was an Indiana financial adviser and amateur pilot who used roughly $1.5 million stolen from at least nine clients — including a longtime friend and his own aunt — to fund a lavish lifestyle of private planes, luxury cars, and a 10,000-square-foot home, financed in part through a foreign currency investment fund that didn't actually exist.
 
@@ -386,6 +394,9 @@ The Keating Five scandal reshaped how seriously Congress treated its own senator
     title: "Nick Leeson, the \"Rogue Trader\" Who Brought Down Britain's Oldest Bank",
     slug: 'nick-leeson-barings-bank-collapse',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Changi_Prison,_Singapore.jpg',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Nick Leeson was a derivatives trader running the Singapore office of Barings Bank, a 233-year-old British merchant bank whose clients had once included the British monarchy. Unusually, Leeson was in charge of both trading and settling his own trades, a separation of duties that exists specifically to prevent one person from hiding losses — and its absence let him do exactly that.
 
@@ -482,6 +493,10 @@ Crazy Eddie's collapse became a staple case study in forensic accounting precise
     title: 'Marc Dreier: The Manhattan Lawyer Who Sold $700 Million in Fake Promissory Notes',
     slug: 'marc-dreier-law-firm-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Daniel_Patrick_Moynihan_U.S._Courthouse,_Manhattan,_New_York_(7237347688).jpg',
+    coverImageCredit: 'Photo: Ken Lund (CC BY-SA 2.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Marc Dreier ran Dreier LLP, a 250-lawyer Manhattan firm he'd built into a real, functioning legal practice — which made him exactly the kind of credible-seeming counterparty who could sell hedge funds something extraordinary: promissory notes issued by his own law firm's real estate clients, paying high returns and backed, he claimed, by those clients' genuine business dealings.
 
@@ -496,6 +511,10 @@ Dreier's case is notable for how much of the fraud depended on performance rathe
     title: "Dennis Kozlowski and Tyco's $6,000 Shower Curtain",
     slug: 'dennis-kozlowski-tyco-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Tyco_Headquarters.jpg',
+    coverImageCredit: 'Photo: David Keddie (CC BY-SA 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Dennis Kozlowski spent the 1990s building Tyco International, an industrial conglomerate, into one of the largest companies in America through an aggressive string of acquisitions — and along the way built a personal lifestyle funded largely by money that was never his to spend. As CEO, Kozlowski directed the company to pay him tens of millions of dollars in bonuses and loans that the board had never properly authorized, then had many of those loans quietly forgiven.
 
@@ -527,6 +546,9 @@ The Galleon case reshaped how insider trading gets prosecuted: the wiretap evide
     title: 'Ivan Boesky: The Insider-Trading King Who Turned Informant on Wall Street',
     slug: 'ivan-boesky-insider-trading-scandal',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Thurgood_Marshall_United_States_Courthouse_40_Centre_Street.jpg',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Ivan Boesky was one of the most successful arbitrageurs of the 1980s, a Wall Street trader whose specialty was betting on which companies would be acquired next and buying their stock ahead of the announcement. His reputation for uncanny timing made him wealthy, publicly celebrated, and the inspiration — he later cited it in his own defense — for Gordon Gekko's "greed is good" speech in the film "Wall Street," delivered at a real commencement address Boesky gave the same year his fraud was exposed.
 
@@ -558,6 +580,10 @@ Adoboli's case, arriving just years after Kerviel's, showed that Barings-style r
     title: "Lee Farkas and the $2.9 Billion Fraud That Sank Colonial Bank",
     slug: 'lee-farkas-colonial-bank-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Albert_V_Bryan_Federal_District_Courthouse_-_Alexandria_Va.jpg',
+    coverImageCredit: 'Photo: Tim Evanson (CC BY-SA 2.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Lee Farkas owned and chaired Taylor, Bean & Whitaker (TBW), once one of the largest mortgage lenders in the United States, built on a close financial relationship with Colonial Bank, a major regional bank that processed and funded TBW's mortgages through its Mortgage Warehouse Lending Division. When TBW's own finances began collapsing under overdrafts it couldn't cover, Farkas and his co-conspirators didn't disclose the shortfall — they hid it.
 
@@ -635,6 +661,10 @@ Vesco's case remains a landmark example of how a fraud can outlast prosecution e
     title: "Reed Slatkin's $593 Million Ponzi Scheme Built on Fellow Scientologists' Trust",
     slug: 'reed-slatkin-scientology-ponzi-scheme',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Roybal_Building.jpg',
+    coverImageCredit: 'Photo: DocFreeman24 (CC BY-SA 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Reed Slatkin was an early internet entrepreneur — a co-founder of EarthLink — and a prominent Scientologist who spent 15 years, from 1986 to 2001, presenting himself to fellow Scientologists as a gifted private investment adviser. He told investors, many of them fellow church members including several celebrities, that he was earning them consistent annual returns of around 24 percent, backed by fabricated account statements showing investment activity that was never actually happening at anywhere near that scale.
 
@@ -649,6 +679,10 @@ Slatkin's case is a clear illustration of "affinity fraud" — schemes that spre
     title: 'Norman Hsu: The Political Fundraiser Whose Ponzi Scheme Funded His Own Influence',
     slug: 'norman-hsu-political-fundraiser-ponzi-scheme',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Daniel_Patrick_Moynihan_U.S._Courthouse,_Manhattan,_New_York_(7237347688).jpg',
+    coverImageCredit: 'Photo: Ken Lund (CC BY-SA 2.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Norman Hsu spent roughly a decade telling investors he could deliver 14 to 20 percent returns by financing clothing and technology import ventures, raising more than $50 million from hundreds of people who believed they were backing real merchandise deals. In reality, Hsu was running a straightforward Ponzi scheme, paying off earlier investors with money raised from new ones while personally spending much of the rest.
 
@@ -663,6 +697,10 @@ Hsu's case is a striking example of how stolen money can be recycled into appare
     title: 'Kirk Wright and the Hedge Fund That Targeted His Own NFL Client Base',
     slug: 'kirk-wright-international-management-associates-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Richard_Russell_Federal_Building.jpg',
+    coverImageCredit: 'Photo: DukeArcTerex (CC BY 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Kirk Wright founded International Management Associates, an Atlanta hedge fund that built much of its client base by specifically courting current and former NFL players, marketing itself through sports-industry connections as a trusted destination for athletes' investment money. From 1997 onward, Wright told clients their money was earning steady returns in the market, backing those claims with falsified account statements.
 
@@ -694,6 +732,9 @@ Shapiro's case is unusual for how directly the stolen money became public specta
     title: "Paul Burks and ZeekRewards, the $600 Million Online Ponzi Disguised as a Rewards Program",
     slug: 'paul-burks-zeekrewards-ponzi-scheme',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Charles_R._Jonas_Federal_Building,_Charlotte_(Mecklenburg_County,_North_Carolina).jpg',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Paul Burks ran ZeekRewards, an online "rewards" program tied to a penny-auction website called Zeekler, telling participants they could earn substantial daily returns by purchasing sample bids and then reselling them to other users, framed as a business opportunity rather than an investment. Between January 2011 and August 2012, ZeekRewards drew in more than $600 million from roughly one million people in the United States and abroad.
 
@@ -708,6 +749,9 @@ ZeekRewards is a textbook illustration of how a Ponzi scheme can hide inside an 
     title: 'Frank Gruttadauria: The Star Broker Who Faked Statements for 15 Years',
     slug: 'frank-gruttadauria-broker-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Carl_B._Stokes_United_States_Courthouse,_Cleveland,_OH_(28692186017).jpg',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Frank Gruttadauria was a star branch manager at two well-known Wall Street firms in succession — first Cowen & Co. and SG Cowen Securities, then Lehman Brothers — trusted by dozens of wealthy clients to manage their brokerage accounts out of his Cleveland, Ohio office. Behind that trusted reputation, Gruttadauria was quietly diverting client funds and covering the gap by mailing his clients entirely fabricated account statements, showing balances and returns that bore no relationship to what was actually left in their accounts.
 
@@ -722,6 +766,10 @@ The case became a significant example of supervisory failure at the firm level: 
     title: 'Christopher Skase and the $1.5 Billion Qintex Collapse He Never Answered For',
     slug: 'christopher-skase-qintex-collapse-fugitive',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Sheraton_Mirage_Port_Douglas_Resort,_2015_(01).JPG',
+    coverImageCredit: 'Photo: Bahnfrend (CC BY-SA 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Christopher Skase built the Qintex Group into one of Australia's most prominent media and resort conglomerates through the 1980s, becoming a celebrated symbol of the decade's corporate excess before it all came apart. When Qintex collapsed in 1989, it left creditors holding losses estimated at roughly $1.5 billion, one of the largest corporate failures in Australian history at the time.
 
@@ -817,6 +865,10 @@ Black's case became a widely cited example of how a media proprietor's control o
     title: 'Kenneth Starr: The Financial Adviser to the Stars Who Stole From His Own Clients',
     slug: 'kenneth-starr-celebrity-money-manager-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Daniel_Patrick_Moynihan_U.S._Courthouse,_Manhattan,_New_York_(7237347688).jpg',
+    coverImageCredit: 'Photo: Ken Lund (CC BY-SA 2.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Kenneth Starr ran a New York financial management firm that built a client roster of wealthy entertainment-industry names, advising on investments, taxes, and personal finances for people whose public profile made them unlikely to closely scrutinize where their money actually went. Behind that reputation, prosecutors found, Starr was quietly diverting client funds for his own use rather than investing them as promised.
 
@@ -925,6 +977,9 @@ Tweed's case remains a foundational study in how fraud hides in plain sight insi
     title: 'Ephren Taylor: The "Social Capitalist" Who Ran a Ponzi Scheme Through Black Churches',
     slug: 'ephren-taylor-city-capital-church-ponzi-scheme',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Richard_B._Russell_Federal_Building_and_Courthouse,_Atlanta_(Fulton_County,_Georgia).jpg',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer'],
     body: `Ephren Taylor II built a public image as "The Social Capitalist" — a young Black entrepreneur, the son of a minister, who marketed himself as the youngest Black CEO of a publicly traded company and toured Black churches across the country under a "Building Wealth" banner. Through his company, City Capital Corporation, and later Capital Genesis, Taylor and chief operating officer Wendy Connor sold congregations on two products: promissory notes that supposedly funded small businesses, and interests in "sweepstakes machines," both pitched as socially conscious investments that would benefit disadvantaged communities while paying steady returns.
 
@@ -957,6 +1012,10 @@ The case is a reminder that inside information doesn't have to originate with th
     title: 'Fabrice Tourre: The Goldman Sachs Trader Who Bet Against His Own Clients',
     slug: 'fabrice-tourre-goldman-sachs-abacus-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/GoldmanSachsHeadquarters.JPG',
+    coverImageCredit: 'Photo: Quantumquark (CC BY-SA 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Fabrice Tourre was a 31-year-old Goldman Sachs vice president principally responsible for structuring and marketing a synthetic collateralized debt obligation called ABACUS 2007-AC1, tied to subprime mortgage-backed securities. Goldman's marketing materials told investors that the portfolio of mortgage securities underlying the deal had been selected by an independent third party, ACA Management. What investors weren't told was that the hedge fund Paulson & Co. had played a significant role in choosing which securities went into that portfolio — and Paulson was simultaneously betting against the deal, meaning the fund most involved in picking the investments was also the one positioned to profit when they failed.
 
@@ -1002,6 +1061,9 @@ Levine's case is often remembered less for its own numbers than for the domino e
     title: 'Danny Pang: The Newport Beach Financier Whose $800 Million Scheme Collapsed With Him',
     slug: 'danny-pang-private-equity-management-group-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Ronald_Reagan_Federal_Building_and_Courthouse_at_411_West_Fourth_Street,_Santa_Ana,_California_LCCN2011631318.tif?width=800',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Danny Pang built Private Equity Management Group, a Newport Beach, California investment firm, around bonds backed by "life settlements" — life insurance policies bought from their original policyholders at a discount, with investors promised repayment from the eventual death benefits. Starting around 2003, Pang sold these bonds primarily to Taiwanese banks and wealthy individual investors, raising hundreds of millions of dollars through institutions including Standard Chartered, Hua Nan Bank, Bank SinoPac, Taichung Bank, EnTie Bank, and Cosmos Bank.
 
@@ -1034,6 +1096,10 @@ Bond died in June 2015 at age 77, following complications from open-heart surger
     title: 'Robert Brennan: The Boiler-Room Broker Who Hid $16 Million in His Basement',
     slug: 'robert-brennan-first-jersey-securities-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Martin_Luther_King_Jr._Federal_Courthouse,_Newark,_NJ,_USA.jpg',
+    coverImageCredit: 'Photo: Carptrash (CC BY-SA 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Robert Brennan founded First Jersey Securities in 1974 and turned it into one of the most aggressive "boiler room" brokerages of the 1980s — a firm whose brokers pressured customers, many of them elderly, into buying thinly traded penny stocks that First Jersey itself had underwritten or controlled. The firm's brokers pumped up demand and prices through high-pressure sales tactics, then sold their own holdings into that inflated demand, leaving ordinary customers holding stock that collapsed in value once the pumping stopped — a classic pump-and-dump scheme run at scale across an entire brokerage.
 
@@ -1097,6 +1163,10 @@ Mavrodi died of a heart attack in Moscow on March 26, 2018, at age 62, having sp
     title: 'Michele Sindona: The Mafia Banker Who Sank America\'s Largest Bank Failure',
     slug: 'michele-sindona-franklin-national-bank-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Franklin_National_Bank;_Franklin_Square-1.jpg',
+    coverImageCredit: 'Photo: DanTD (CC BY-SA 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Michele Sindona started as a tax lawyer in postwar Milan before building an Italian banking empire — including Banca Privata Italiana — while managing money for the Gambino crime family's heroin profits and cultivating close ties to the Vatican Bank. In 1972, through his Liechtenstein holding company, Sindona bought a controlling stake in Franklin National Bank, a New York institution that was at the time the 20th-largest bank in the United States. He would later go on to mentor a younger Italian banker named Roberto Calvi, introducing him to the same Vatican Bank connections that had served Sindona so well.
 
@@ -1111,6 +1181,10 @@ He didn't serve much of it. Four days after his life sentence, in his cell at a 
     title: 'Roberto Calvi: "God\'s Banker" and the Body Under Blackfriars Bridge',
     slug: 'roberto-calvi-banco-ambrosiano-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Blackfriars_Bridge,_London..jpg',
+    coverImageCredit: 'Photo: Jim (CC BY 2.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Roberto Calvi joined Banco Ambrosiano in 1947 and rose to become its chairman in 1975, taking the reins of what was then Italy's largest private bank — one whose biggest shareholder was the Vatican Bank, run at the time by American Archbishop Paul Marcinkus. Calvi had been mentored by fellow financier Michele Sindona, who introduced him to Marcinkus in 1971, and Calvi was also a member of the clandestine P2 Masonic lodge, a network that entangled Italian business, politics, and organized crime throughout the 1970s and 80s.
 
@@ -1125,6 +1199,10 @@ A 2005-2007 Rome trial tried five defendants, including a Mafia figure, for Calv
     title: 'Nicholas Cosmo: The "Mini-Madoff" Who Ran a Ponzi Scheme From Prison Lessons Learned',
     slug: 'nicholas-cosmo-agape-world-ponzi-scheme',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Damato-courthouse.jpg',
+    coverImageCredit: 'Photo: Americasroof (CC BY-SA 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Nicholas Cosmo had already been convicted once before he built his biggest fraud. As a licensed stockbroker in the late 1990s, he pleaded guilty to mail fraud for commingling client funds and forging documents, serving 21 months in prison. Not long after his release, he founded Agape World Inc. on Long Island, New York, telling investors their money would fund short-term "bridge loans" to construction and commercial borrowers — pitches from his sales agents promised returns as high as 12 to 14 percent in a matter of weeks, with almost no risk to principal.
 
@@ -1139,6 +1217,9 @@ Cosmo's case is a reminder that a prior fraud conviction doesn't always stop som
     title: 'John Rigas and the $2.3 Billion Hidden Inside Adelphia Communications',
     slug: 'john-rigas-adelphia-communications-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Adelphia_would-be_headquarters_in_Coudersport.jpg',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `John Rigas and his brother bought a small cable franchise in Coudersport, Pennsylvania, for $300 in 1952, and John spent the next five decades building it into Adelphia Communications, one of the largest cable television operators in the United States, serving well over five million subscribers at its peak. Rigas ran the company as a family business, with his sons Timothy, Michael, and James all in senior executive roles — a structure that let the fraud that eventually brought the whole company down stay contained within the family for years.
 
@@ -1153,6 +1234,10 @@ John Rigas was granted compassionate release in February 2016, at age 91, due to
     title: 'Phillip Bennett and the $430 Million Refco Hid Just Weeks After Its IPO',
     slug: 'phillip-bennett-refco-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/New_York_Stock_Exchange,_Manhattan,_New_York_(7236984682).jpg',
+    coverImageCredit: 'Photo: Ken Lund (CC BY-SA 2.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Refco was the largest retail commodities and futures brokerage in the United States when it went public on the New York Stock Exchange on August 11, 2005, a debut that valued the firm at roughly $3.5 billion. Phillip Bennett, its longtime chairman and CEO, had by then spent years quietly managing a problem investors knew nothing about: roughly $430 million in uncollectible customer trading debt, much of it dating back to the late-1990s Asian financial crisis, that never should have still been sitting on Refco's books as a healthy asset.
 
@@ -1250,6 +1335,10 @@ Blazer had already pleaded guilty under seal in November 2013 to ten counts incl
     title: 'Earl Jones: The Unlicensed Adviser Who Defrauded His Own Family and Neighbors',
     slug: 'earl-jones-montreal-ponzi-scheme',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Palais_de_Justice_de_Montreal_05.jpg',
+    coverImageCredit: 'Photo: Jean Gagnon (CC BY-SA 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Earl Jones spent nearly three decades running an investment advisory business out of Montreal's West Island — without ever being licensed as an investment adviser or broker anywhere in Canada. Starting around 1982, he built a client base almost entirely through his own personal network: friends, fellow parishioners, and people who knew him socially, mostly retirees looking for a trustworthy adviser to manage their savings. Among his clients were his own brother and sister-in-law, who eventually lost $1 million to him.
 
@@ -1264,6 +1353,10 @@ Jones's case is a reminder that the absence of any license or regulatory registr
     title: 'Magnus Peterson and the $536 Million Hedge Fund Fraud Hidden Inside Fake Swap Contracts',
     slug: 'magnus-peterson-weavering-capital-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Royal_Courts_of_Justice-London.jpg',
+    coverImageCredit: 'Photo: Yair Haklai (CC BY-SA 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Magnus Peterson, a Swedish-born financier based in the UK, founded Weavering Capital UK Ltd, which managed the Weavering Macro Fixed Income Fund — a Cayman Islands-domiciled hedge fund that grew to roughly $639 million in assets under management at its peak in 2008. To outside investors, the fund appeared to be a standout performer even as the 2008 financial crisis battered markets elsewhere, posting steady returns that made it one of the more sought-after funds of its kind in London.
 
@@ -1306,6 +1399,9 @@ Investigators who searched Frankel's properties also found astrological charts h
     title: 'Gerald Payne and the "Double Your Blessings" Church Ponzi Scheme',
     slug: 'gerald-payne-greater-ministries-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/GibbonsCourthouse.jpg',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Gerald Payne founded Greater Ministries International in Tampa, Florida, in 1993, presenting it as an evangelical Christian ministry operating out of a converted bank building complete with a chapel, offices, and vaults. Rather than asking members for investments, Payne and his associates asked for "gifts" — framed, with scripture like Luke 6:38 ("Give, and it shall be given unto you"), as an act of faith rather than a financial transaction. In return, participants in what was successively rebranded the "Double Your Money Program," the "Double Your Blessings Program," and the "Faith Promises Program" were promised their gift would be doubled within 17 months.
 
@@ -1338,6 +1434,10 @@ Fastow's case remains one of the clearest illustrations of how a company's most 
     title: 'John G. Bennett Jr. and the Christian Charity "Matching Gift" Ponzi Scheme',
     slug: 'john-bennett-new-era-philanthropy-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/James_A._Byrne_United_States_Courthouse.jpg',
+    coverImageCredit: 'Photo: Beyond My Ken (CC BY-SA 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `John G. Bennett Jr. founded the Foundation for New Era Philanthropy in the Philadelphia area in 1989, pitching it to nonprofits, universities, and charities as a way to double their money for a good cause. The offer was that an organization could deposit funds with New Era for a holding period of a few months, after which an anonymous group of wealthy philanthropists would supposedly match the deposit dollar for dollar — turning routine fundraising into what looked like an unusually generous, no-risk multiplier.
 
@@ -1383,6 +1483,10 @@ After his extradition, Kwon pleaded guilty in August 2025 to conspiracy and wire
     title: 'Craig Wright: The Man a Court Ruled Was Never Satoshi Nakamoto',
     slug: 'craig-wright-fake-satoshi-nakamoto-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/HM_Courts_%26_Tribunal_Service_Rolls_Building_-01.jpg',
+    coverImageCredit: 'Photo: Roger Green (CC BY-SA 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Craig Wright, an Australian computer scientist, first publicly claimed in 2016 to be Satoshi Nakamoto, the pseudonymous creator of Bitcoin whose true identity had never been confirmed. Rather than simply making the claim and letting the crypto community judge it, Wright spent the following years using it as the basis for lawsuits against Bitcoin developers, exchanges, and platforms, asserting copyright over the Bitcoin white paper itself and intellectual-property rights over foundational Bitcoin technology — turning an unverified identity claim into a legal weapon against people who disagreed with him.
 
@@ -1414,6 +1518,9 @@ In March 2025, President Trump pardoned Milton, erasing the sentence just as pro
     title: 'James Paul Lewis Jr.: Nearly Twenty Years of Fictitious Returns',
     slug: 'james-paul-lewis-jr-financial-advisory-consultants-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Ronald_Reagan_Federal_Courthouse,_Santa_Ana,_California_LCCN2011634709.tif?width=800',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `James Paul Lewis Jr. ran an investment operation called Financial Advisory Consultants out of Lake Forest, California, from roughly 1985 until 2003 — nearly two decades, making it one of the longest-running Ponzi schemes in US history at the time it was uncovered. Lewis told investors, many recruited through church and community networks built on personal trust, that their money was going into a diversified mix of distressed-business acquisitions, medical-equipment leasing, insurance-premium financing, and commercial loans, promising annual returns as high as 18 to 40 percent.
 
@@ -1523,6 +1630,10 @@ A liquidation trust was later established to recover money for investors, and wh
     title: 'Homero Joshua Garza and the Crypto Mining Contracts That Mined Nothing',
     slug: 'joshua-garza-gaw-miners-hashlet-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Abraham_Ribicoff_Federal_Building_Hartford_CT.JPG',
+    coverImageCredit: 'Photo: Grondemar (CC BY-SA 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Homero Joshua Garza ran GAW Miners and a related company, ZenMiner, which sold a cryptocurrency product called "Hashlets" — digital contracts that were supposed to entitle buyers to a share of the profits from real Bitcoin-mining computers the companies operated on their behalf. Marketing materials described the investment as "always profitable and never obsolete," appealing to people who wanted exposure to Bitcoin mining without buying and running the specialized, expensive hardware themselves.
 
@@ -1537,6 +1648,10 @@ Garza's case is a reminder that a fraud doesn't need a new legal framework to be
     title: 'Renwick Haddow: The Fugitive Behind Bar Works and a CEO Who Never Existed',
     slug: 'renwick-haddow-bar-works-bitcoin-store-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Daniel_Patrick_Moynihan_U.S._Courthouse,_Manhattan,_New_York_(7237347688).jpg',
+    coverImageCredit: 'Photo: Ken Lund (CC BY-SA 2.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer'],
     body: `Renwick Haddow, a UK national with a history of regulatory trouble in Britain, founded Bar Works Inc., a company that converted former bank branches and bar spaces in New York, San Francisco, and Istanbul into shared co-working offices, then sold individual desks and workstations to investors as income-producing real estate. To distance the company from his own reputation, Haddow invented a fictitious CEO named "Jonathan Black," complete with a fabricated background in finance and prior startup success — a person who, according to the SEC, simply did not exist.
 
@@ -1613,6 +1728,10 @@ Cornfeld's own legal outcome is where his story diverges sharply from Vesco's. S
     title: 'Mathew Martoma: The $276 Million Alzheimer\'s Drug Insider Trading Scheme',
     slug: 'mathew-martoma-sac-capital-insider-trading',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Thurgood_Marshall_United_States_Courthouse.jpg',
+    coverImageCredit: 'Photo: Kidfly182 (CC BY-SA 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Mathew Martoma was a portfolio manager at CR Intrinsic Investors, a unit of Steven A. Cohen's hedge fund SAC Capital Advisors, when he became the center of what the SEC called the largest insider trading case it had ever charged. The scheme centered on a closely watched clinical trial for bapineuzumab, an experimental Alzheimer's drug being jointly developed by Elan Corporation and Wyeth — a trial whose results, positive or negative, stood to move both companies' stock prices sharply.
 
@@ -1644,6 +1763,10 @@ Murakami wound down his fund and relocated to Singapore, but the story didn't en
     title: 'Michael Steinberg: The Insider Trading Conviction a Court Ruling Erased',
     slug: 'michael-steinberg-sac-capital-vacated-conviction',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Thurgood_Marshall_United_States_Courthouse.jpg',
+    coverImageCredit: 'Photo: Kidfly182 (CC BY-SA 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `This site's profile of Mathew Martoma described an SAC Capital insider trading conviction that survived every appeal, all the way to the Supreme Court declining to hear it. Michael Steinberg's case, from the same era and the same hedge fund, shows the opposite outcome — a conviction that a single appellate ruling made disappear entirely.
 
@@ -1658,6 +1781,10 @@ The timing is what makes this case such a useful companion to Martoma's: the Sup
     title: 'Jho Low and the $4.5 Billion Vanished From Malaysia\'s 1MDB Fund',
     slug: 'jho-low-1mdb-malaysia-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Equanimity,_the_seized_yacht.jpg',
+    coverImageCredit: 'Photo: Sabung.hamster (CC BY-SA 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer'],
     body: `Jho Low was never a government official, yet U.S. and Malaysian investigators describe him as the architect behind what the Department of Justice has called one of the largest cases of kleptocracy it has ever pursued: the embezzlement of more than $4.5 billion from 1Malaysia Development Berhad (1MDB), a Malaysian state investment fund created in 2009 with close ties to then-Prime Minister Najib Razak.
 
