@@ -2095,6 +2095,34 @@ Weisselberg's legal exposure didn't end there. In 2024, he pleaded guilty to two
 Weisselberg's case is a study in how compensation fraud can hide inside completely ordinary-looking corporate perks: an apartment, a company car, a tuition payment are all legitimate things employers sometimes provide, and it was specifically the deliberate failure to report and tax them as income — not the perks themselves — that turned years of comfortable executive benefits into a felony tax scheme.`,
     sourceUrl: 'https://manhattanda.org/d-a-bragg-allen-weisselberg-sentenced-to-5-months-in-jail/',
   },
+  {
+    title: 'Jack Abramoff: The Lobbyist Who Billed Native American Tribes for a Fake Casino Fleet Deal',
+    slug: 'jack-abramoff-lobbying-fraud-tribes',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Jack Abramoff was one of the most influential lobbyists in Washington in the late 1990s and early 2000s, and prosecutors said he built much of that influence on outright fraud against his own clients. Representing several Native American tribes that operated casinos, Abramoff and a partner charged tens of millions of dollars in lobbying and public relations fees — while, in some documented instances, secretly working to undermine the same tribal gaming interests he was being paid to protect, in order to generate more billable conflict for his firm to "solve."
+
+Separately, Abramoff and a business partner defrauded lenders in their 2000 purchase of the SunCruz Casinos gambling boat fleet, fabricating a fake $23 million wire transfer to make it look as though they had personally put up that much of their own money toward the $147.5 million deal, when they hadn't. The scheme unraveled alongside a wider federal investigation into Abramoff's dealings with members of Congress, which included gifts, meals, sports tickets, and trips extended to lawmakers and staff in exchange for legislative favors — corruption serious enough that it led to the conviction of a sitting congressman, Bob Ney, along with several congressional aides and Bush administration officials.
+
+Abramoff pleaded guilty in January 2006 to conspiracy, fraud, and tax evasion tied to the tribal lobbying scheme, and separately to conspiracy and fraud in the SunCruz case. He was ultimately sentenced to a combined term of about six years in federal prison across the two cases and ordered to pay more than $23 million in restitution, along with $1.7 million owed to the IRS for evaded taxes. He was released in 2010 after serving roughly three and a half years.
+
+Abramoff's case is unusual among frauds for how much of it operated in plain sight, dressed up as ordinary Washington lobbying: expensive dinners, skybox tickets, and golf trips are all things lobbyists legitimately use to build relationships, and it was the scale, the concealment, and the deliberate double-dealing against his own paying clients — not any single gift — that turned influence-peddling into a federal crime.`,
+    sourceUrl: 'https://www.justice.gov/archive/opa/pr/2006/January/06_crm_002.html',
+  },
+  {
+    title: 'Zvi Goffer: The Insider Trader Who Used Burner Phones to Trade on Stolen Law Firm Secrets',
+    slug: 'zvi-goffer-insider-trading-burner-phones',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `Zvi Goffer worked as a trader at Schottenfeld Group, a firm connected to Raj Rajaratnam's Galleon Group, when he built an insider trading ring around a source most traders never think to cultivate: lawyers with access to deals before they're announced. Two attorneys at the law firm Ropes & Gray, Arthur Cutillo and Brien Santarlas, fed Goffer confidential details about pending corporate acquisitions — including the 2007 buyouts of 3Com, Avaya, Axcan Pharma, and Kronos, and Hilton Hotels' 2007 sale — in exchange for cash stuffed into envelopes.
+
+To cover his tracks, Goffer distributed prepaid, disposable "burner" cell phones to both the attorneys feeding him information and the traders he passed the tips along to, discarding the phones to avoid leaving a paper trail investigators could later subpoena. The ring earned more than $10 million in illegal trading profits between 2007 and 2008 using information the attorneys had misappropriated from their own law firm's confidential client files.
+
+A jury convicted Goffer in June 2011 on all counts against him, including 12 counts of securities fraud and two counts of conspiracy to commit securities fraud, following a four-week trial. He was sentenced that September to 10 years in federal prison — one of the longest sentences handed down in the broader wave of insider trading prosecutions connected to the Galleon investigation — and ordered to forfeit more than $10 million. The SEC separately obtained a civil judgment against him for disgorgement, interest, and a permanent bar from the securities industry.
+
+Goffer's case is a reminder that insider trading rings don't always run through a corporate boardroom — a law firm handling live merger paperwork is itself a source of exactly the kind of advance knowledge that makes this fraud work, and the burner-phone precautions that made the scheme feel untraceable to its participants were ultimately reconstructed anyway through witness testimony from the very insiders selling the tips.`,
+    sourceUrl: 'https://www.sec.gov/litigation/litreleases/lr-22185',
+  },
 ];
 
 // Practical "how it works / red flags / what to do" guides covering the
