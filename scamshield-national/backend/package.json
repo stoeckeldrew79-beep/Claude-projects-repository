@@ -8,6 +8,7 @@
     "start": "node dist/index.js",
     "migrate": "ts-node src/db/migrate.ts",
     "seed": "ts-node src/db/seed.ts",
+    "reset-password": "ts-node src/scripts/resetPassword.ts",
     "draft-articles": "ts-node src/jobs/generateDailyDrafts.ts",
     "scan-daily-news": "ts-node src/jobs/scanDailyScamNews.ts",
     "test": "jest"
