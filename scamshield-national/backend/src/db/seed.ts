@@ -3118,6 +3118,34 @@ A specific tactic to watch for once the technician is on-site: being told the lo
 
 Before you're ever locked out, the BBB recommends researching and saving the contact information for an established, BBB-accredited locksmith rather than searching cold in an emergency. If you do have to search in the moment, verify that the business name in any online listing or ad matches who actually shows up, ask for a total cost estimate — including any service call fee, mileage, and parts — before work begins, check for identification and marked vehicles, insist on an itemized invoice, and pay by credit card rather than cash so the charge can be disputed if the final bill doesn't match what was agreed to.`,
   },
+  {
+    title: 'Fake Event Ticket Scams: When "Sold Out" Sends You Looking in the Wrong Places',
+    slug: 'fake-event-ticket-scam-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'ticket-scam'],
+    sourceUrl: 'https://www.bbb.org/article/scams/20661-big-festivals-and-seasonal-events-fabulous-fizzled-or-fake',
+    body: `A concert, festival, or big game sells out fast, and a quick search turns up someone online offering exactly the tickets you need — sometimes through a professional-looking third-party website, sometimes through a social media post or group. You pay, usually by card or a payment app, and either receive nothing at all or a "ticket" that turns out to be a duplicate, already scanned and used by someone who bought the same fraudulent listing before you.
+
+The Better Business Bureau describes entire fake events built around this same basic mechanism: scammers put up a polished website advertising a festival, complete with a lineup and food vendors, promote it through social media links, and collect real credit card payments for an event that either doesn't exist at all or bears no resemblance to what was advertised. Whether the event itself is fake or just the ticket is, the outcome for the buyer is the same — money paid, nothing real received.
+
+Red flags the BBB points to include prices noticeably lower than anywhere else selling the same event, a seller or website with no working contact information, a site name that looks almost — but not quite — like the real venue or ticketing platform's name, and third-party resale sites that pile on unmarked fees well above face value. Buying through Craigslist, Facebook Marketplace, or a random social media post adds risk specifically because those platforms offer little to no built-in buyer protection if the ticket turns out to be fake.
+
+The safest path is buying directly from the venue, the artist's official site, or an authorized ticketing platform whenever possible; if you do use a resale marketplace, stick to one with an actual guarantee that replaces or refunds invalid tickets. Paying by credit card rather than a payment app or wire preserves your ability to dispute the charge, and it's worth checking a seller's reviews and BBB.org listing before sending money to anyone you can't otherwise verify.`,
+  },
+  {
+    title: 'Reverse Mortgage Scams: How Scammers Target Seniors\' Home Equity',
+    slug: 'reverse-mortgage-scam-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'reverse-mortgage-scam'],
+    sourceUrl: 'https://www.consumerfinance.gov/archive/blog/avoid-reverse-mortgage-shopping-scams/',
+    body: `A reverse mortgage lets homeowners age 62 and older borrow against their home's equity without making monthly payments, with the loan repaid when they move, sell, or pass away. It's a legitimate financial product for the right situation — but the large lump sum of cash it can generate, combined with a borrower population that's often older and sometimes more vulnerable to pressure, has made it a consistent target for fraud built around the loan itself rather than a fake lender.
+
+One documented tactic involves a scammer convincing the borrower to sign a power of attorney that gives the scammer sole access to the reverse mortgage funds once the loan closes — effectively handing over control of the money as a condition the borrower may not fully realize they're agreeing to. In a related "equity theft" pattern, the Department of Housing and Urban Development's Office of Inspector General has described schemes where an appraiser, loan officer, and other parties work together to inflate a home's appraised value, then guide the homeowner into a reverse mortgage that leaves them with far less actual cash or remaining equity than the inflated numbers implied.
+
+A separate pressure point comes from home-repair contractors who tell homeowners a reverse mortgage is the "can't miss" way to pay for expensive repairs or renovations, steering the loan decision to benefit the contractor's own sale rather than the homeowner's actual financial interest. The CFPB is explicit that reverse mortgage loan officers are not permitted to sell borrowers investments or other financial products, so any pitch bundling a reverse mortgage together with an annuity or investment opportunity is itself a red flag. Family members or caregivers coercing an older relative into a reverse mortgage, or impersonating them during the application process, is another documented pattern entirely separate from any external scammer.
+
+Before taking out a reverse mortgage, the CFPB recommends talking to more than one lender — a lender who claims to be the only one who can help, or pushes urgency, is a warning sign — and consulting a HUD-approved housing counselor, a requirement for most reverse mortgages that exists specifically to give borrowers an independent source of advice outside the sales process. If you believe you or a family member has been targeted, you can file a complaint directly with the CFPB, contact your state Attorney General, or file a police report if theft or forgery is involved.`,
+  },
 ];
 
 async function seedArticles(articles: SeedArticle[], label: string) {
