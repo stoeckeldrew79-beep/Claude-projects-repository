@@ -2059,6 +2059,34 @@ A jury convicted Trudeau of criminal contempt of court in November 2013, and in 
 Trudeau's case illustrates a different kind of fraud than an investment Ponzi scheme: rather than promising fake returns, he sold a product whose advertised description simply wasn't true, protected for years by his platform and audience reach even after a court had already ordered him to stop — until repeatedly and openly defying that order, rather than the original deception, became the crime that finally put him in prison.`,
     sourceUrl: 'https://www.justice.gov/usao-ndil/pr/weight-loss-infomercial-pitch-man-kevin-trudeau-sentenced-10-years-prison-criminal',
   },
+  {
+    title: 'Peter Popoff: The Faith Healer Whose "Word From God" Came Through a Hidden Earpiece',
+    slug: 'peter-popoff-faith-healer-earpiece-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `Peter Popoff built a national television ministry in the 1980s around a dramatic gift: calling out audience members' names, addresses, and specific illnesses as though God were speaking directly through him, then "healing" them on stage. The names and details were real, and the effect on believers was powerful — but the source wasn't divine. Magician and skeptic James Randi, working with a radio engineer, intercepted the frequency Popoff was actually using and discovered his wife was reading prayer-request cards filled out by attendees before the show into a hidden earpiece, feeding him the very details he presented as supernatural revelation.
+
+Randi aired the intercepted audio, synced against footage of Popoff performing, on "The Tonight Show Starring Johnny Carson" in 1986 — a single television appearance that unraveled the entire act in front of a mass audience. Popoff's ministry collapsed into bankruptcy the following year. It would have been the end of the story for most people caught this publicly, but Popoff rebuilt.
+
+By the 2000s, Popoff was back on late-night television promoting "Miracle Spring Water" — bottles of water, along with prayer cloths and other trinkets, sent to viewers who wrote in, tied to solicitation letters requesting donations that documented cases show climbing from an initial small amount into hundreds of dollars in repeated follow-up appeals. The marketing promised recipients would receive checks worth thousands of dollars in return, with commercials featuring testimonials of viewers claiming windfalls up to $45,000, without ever explaining where that money was supposed to come from. In the UK, media regulator Ofcom fined the broadcaster carrying Popoff's programming £150,000 after finding the water-related claims "potentially harmful," specifically citing testimonials suggesting the water could cure serious illness including cancer.
+
+Popoff's story is unusual among frauds for having actually been caught in the most literal, technical sense — real audio evidence, played on national television, proving the deception rather than merely alleging it — and still surviving as a business for decades afterward. It's a reminder that exposure alone doesn't necessarily end a fraud built on faith and hope; it just requires the person running it to find an audience that either didn't see the exposure or chose to believe anyway.`,
+    sourceUrl: 'https://truthinadvertising.org/articles/peter-popoffs-miracle-spring-water/',
+  },
+  {
+    title: 'Allen Weisselberg: The Trump Organization CFO Who Hid $1.76 Million in Perks From the Taxman',
+    slug: 'allen-weisselberg-trump-organization-tax-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `Allen Weisselberg spent decades as chief financial officer of the Trump Organization, and prosecutors said he used that position to arrange for a substantial part of his own compensation to arrive in a form that was never reported to tax authorities at all. From 2005 to 2018, the company provided him a rent-free luxury Manhattan apartment, multiple leased Mercedes-Benz vehicles, and private school tuition for his grandchildren — real, valuable income, but structured and booked internally so that neither Weisselberg nor the company paid income or payroll taxes on any of it.
+
+The Manhattan District Attorney's office calculated that the arrangement let Weisselberg evade taxes on roughly $1.76 million in unreported income over that period. He pleaded guilty in August 2022 to all 15 counts against him, including grand larceny, scheme to defraud, and multiple counts of criminal tax fraud, and separately agreed to pay more than $2 million in back taxes, penalties, and interest. Two Trump Organization entities, the Trump Corporation and Trump Payroll Corp., were separately convicted at trial on 17 felony counts tied to the same underlying scheme and fined $1.6 million, the maximum the law allowed for a corporate defendant. Weisselberg was sentenced in January 2023 to five months at New York's Rikers Island jail.
+
+Weisselberg's legal exposure didn't end there. In 2024, he pleaded guilty to two felony counts of perjury for giving false testimony — this time about the size of a Trump family triplex apartment — during depositions connected to a separate civil fraud case, and was sentenced to another five months at Rikers. Between the two cases, he became one of the few corporate executives in memory convicted twice, in two separate criminal proceedings roughly fifteen months apart.
+
+Weisselberg's case is a study in how compensation fraud can hide inside completely ordinary-looking corporate perks: an apartment, a company car, a tuition payment are all legitimate things employers sometimes provide, and it was specifically the deliberate failure to report and tax them as income — not the perks themselves — that turned years of comfortable executive benefits into a felony tax scheme.`,
+    sourceUrl: 'https://manhattanda.org/d-a-bragg-allen-weisselberg-sentenced-to-5-months-in-jail/',
+  },
 ];
 
 // Practical "how it works / red flags / what to do" guides covering the
