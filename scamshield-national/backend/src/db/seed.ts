@@ -1992,6 +1992,9 @@ Santos's case shows how a campaign's fundraising apparatus — credit card proce
     title: 'Michael Avenatti: The Celebrity Lawyer Who Extorted Nike and Stole From His Own Client',
     slug: 'michael-avenatti-nike-extortion-stormy-daniels-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Michael_Avenatti.jpg?width=1200',
+    coverImageCredit: 'Photo: Luke Harold (CC0)',
+    coverImagePosition: 50,
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Michael Avenatti became a fixture of national news in 2018 as the combative attorney representing Stormy Daniels in her lawsuits against Donald Trump. Within a year of that fame, federal prosecutors in two different states had charged him with defrauding the very clients whose causes had made him famous — and a third case, involving a completely separate group of clients, would follow.
 
@@ -2008,6 +2011,10 @@ Avenatti's downfall is a reminder that a lawyer's access to a client's money is 
     title: 'Caroline Ellison: The Alameda Research CEO Whose Testimony Convicted Sam Bankman-Fried',
     slug: 'caroline-ellison-alameda-research-ftx-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Nassau,_Bahamas_aerial_view_(cropped).jpg?width=1200',
+    coverImageCredit: 'Photo: Quintin Soloviev (CC BY 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer'],
     body: `Caroline Ellison served as CEO of Alameda Research, the cryptocurrency trading firm controlled by Sam Bankman-Fried and closely intertwined with his FTX exchange. When FTX collapsed into bankruptcy in November 2022, it emerged that Alameda had been quietly using billions of dollars in FTX customer deposits to fund its own trading, cover its losses, and finance Bankman-Fried's other ventures and personal spending — money that belonged to ordinary FTX customers, not to Alameda.
 
@@ -2022,6 +2029,9 @@ Ellison's case illustrates the particular position of an insider-turned-cooperat
     title: 'Jim Bakker: The PTL Televangelist Who Oversold "Lifetime Partnerships" He Could Never Honor',
     slug: 'jim-bakker-ptl-heritage-usa-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Rev._Jim_Bakker_of_Charlotte_(1975).jpg?width=1200',
+    coverImageCredit: 'Photo: Stanly News and Press, 1975 (public domain)',
+    coverImagePosition: 50,
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Jim Bakker built PTL (Praise the Lord) Ministries into one of the largest televangelist operations in the country, centered on Heritage USA, a Christian theme park and resort complex in Fort Mill, South Carolina. To help fund its expansion, PTL sold "lifetime partnerships" — a one-time donation, commonly $1,000, in exchange for a promise of four days and three nights of lodging at Heritage USA every year for life.
 
@@ -2036,6 +2046,9 @@ Bakker's case is a reminder that "you can always sell one more partnership" is e
     title: 'Kevin Trudeau: The Infomercial Pitchman Who Defied a Federal Court Order 32,000 Times',
     slug: 'kevin-trudeau-infomercial-fraud-contempt',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Kevin_Trudeau.JPG?width=1200',
+    coverImageCredit: 'Photo: RailbirdJAM (public domain)',
+    coverImagePosition: 50,
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Kevin Trudeau built a career hosting late-night infomercials selling books and products with titles like "Natural Cures 'They' Don't Want You to Know About," pitching miracle-sounding health and weight-loss claims directly to television audiences. The Federal Trade Commission pursued him for years over misleading advertising, and in 2004, a federal court entered an order specifically barring Trudeau from misrepresenting the actual content of any book he advertised in an infomercial.
 
