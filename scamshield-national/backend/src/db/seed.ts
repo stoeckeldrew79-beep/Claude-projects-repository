@@ -10604,6 +10604,66 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Konsumentverket / Konsumentombudsmannen (Swedish Consumer Agency / Consumer Ombudsman)'],
     sourceUrl: 'https://www.konsumentverket.se/nyhet/ko-stoppar-svenska-elverkets-saljmetoder/',
   },
+  {
+    name: 'Employee W-2 Data Theft via Executive Impersonation',
+    slug: 'w2-data-theft-executive-impersonation',
+    description:
+      'A scammer spoofs or compromises an executive\'s email account and sends a payroll or HR employee an urgent-sounding request for a list of all employees\' Forms W-2, sometimes wrapped in the same pretext used for fake wire-transfer requests. Because the request looks like it comes from a company leader and doesn\'t ask for money directly, it can bypass the scrutiny normally applied to wire-transfer BEC emails. Once obtained, the stolen names and Social Security numbers are used to file fraudulent tax refund claims or are resold on black-market sites.',
+    categorySlug: 'business-email-compromise',
+    alertLevel: 'high',
+    sources: ['Internal Revenue Service (IRS)'],
+    sourceUrl: 'https://www.irs.gov/newsroom/form-w-2-ssn-data-theft-information-for-businesses-and-payroll-service-providers',
+  },
+  {
+    name: 'BEC Wire Funds Redirected Through Cryptocurrency Exchanges',
+    slug: 'bec-crypto-exchange-wire-redirect',
+    description:
+      'Using the same fake-invoice or fake-executive email tactics as classic BEC, fraudsters direct the victim business\'s wire transfer to a bank account that itself belongs to a cryptocurrency exchange\'s custodial account, so the funds are converted to crypto and moved out almost immediately after landing. In a more elaborate "second hop" version, the same criminal ring first scams a separate individual into opening a cryptocurrency wallet and receiving BEC funds into their own personal bank account, before instructing that person to forward the money on to a crypto exchange, making the money trail harder to trace back to the original business victim.',
+    categorySlug: 'business-email-compromise',
+    alertLevel: 'critical',
+    sources: ['FBI Internet Crime Complaint Center (IC3)'],
+    sourceUrl: 'https://www.ic3.gov/PSA/2021/PSA210413',
+  },
+  {
+    name: 'Timeshare Resale Overpayment / Fake Check Scam',
+    slug: 'timeshare-resale-overpayment-fake-check-scam',
+    description:
+      'A person claiming to be a ready buyer contacts a timeshare owner who is trying to sell, then sends a check for more than the agreed sale price and invents a last-minute reason — closing costs, shipping, a processing error — for why the owner needs to wire back the difference before the check clears. The owner deposits the check, wires back the "overpayment," and only later learns the check was counterfeit, leaving them liable to their bank for the entire deposited amount.',
+    categorySlug: 'timeshare-scams',
+    alertLevel: 'medium',
+    sources: ['Federal Trade Commission (FTC)'],
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2024/03/if-you-have-timeshare-scammers-might-target-you',
+  },
+  {
+    name: 'Texas DMV Fake Traffic-Fine Text Scam',
+    slug: 'texas-dmv-fake-traffic-fine-text-scam',
+    description:
+      'Texans receive unsolicited text messages impersonating the Texas Department of Motor Vehicles that claim the recipient has unpaid traffic tickets, toll violations, or other infractions and threaten immediate prosecution, suspension of vehicle registration, or loss of driving privileges. The texts include a link urging recipients to pay a fine right away to avoid further penalties; the link is actually designed to harvest personal and financial information. TxDMV states it is not a law enforcement agency, does not issue or collect fines for toll or traffic violations, and never communicates about alleged violations through unsolicited text messages.',
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Texas Department of Motor Vehicles (TxDMV)'],
+    sourceUrl: 'https://txdmv.blogs.govdelivery.com/txdmv-warns-texans-about-ongoing-text-scam/',
+  },
+  {
+    name: 'Con Edison Prepaid-Card Disconnection Scam',
+    slug: 'con-edison-prepaid-card-disconnection-scam',
+    description:
+      'Scammers posing as Con Edison representatives contact residential and business customers across the utility\'s New York City and Westchester service area by personal visit, phone call, spoofed caller ID, email, or text, falsely claiming an overdue bill and threatening same-day service termination unless payment is made immediately. Victims are instructed to buy a prepaid gift or debit card, or in some cases send cryptocurrency, and read the card details back to the caller — a payment method Con Edison says it never accepts. Related schemes include unsolicited "discount" or "refund" offers that request personal or banking information, and fake in-person visits by people impersonating utility workers.',
+    categorySlug: 'utility-scams',
+    alertLevel: 'high',
+    sources: ['Con Edison'],
+    sourceUrl: 'https://www.coned.com/en/about-us/media-center/news/2025/11-20/awareness-is-your-best-defense',
+  },
+  {
+    name: 'Uber Driver Account-Takeover and Gift Card Phishing Scam',
+    slug: 'uber-driver-account-takeover-gift-card-scam',
+    description:
+      'An unexpected call or text falsely claiming to be Uber Support contacts an active driver, asking them to hand over account details such as their email, phone number, or password, or to read back a login verification code. Some variants dangle fake "Uber credits" in exchange for personal details or send links to convincing fake Uber login pages, while others instruct the driver to add a gas gift card to their account so the scammer can transfer the balance or earnings elsewhere. Uber states it will never ask for a password, login code, or Social Security number by phone, text, or email.',
+    categorySlug: 'account-takeover',
+    alertLevel: 'high',
+    sources: ['Uber Help Center'],
+    sourceUrl: 'https://help.uber.com/driving-and-delivering/article/keeping-your-uber-account-safe?nodeId=fc65283f-3420-412b-abbd-7335f06e5476',
+  },
 ];
 
 async function seedCategoriesAndScams() {
