@@ -10515,6 +10515,39 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Federal Trade Commission (FTC)'],
     sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2018/07/ftc-states-combat-fraudulent-charities-falsely-claim-help-veterans-servicemembers',
   },
+  {
+    name: 'Swedish Försäkringskassan Impersonation Phishing Scam',
+    slug: 'swedish-forsakringskassan-impersonation-scam',
+    description:
+      'An email, SMS, or phone call impersonating Försäkringskassan (Sweden\'s Social Insurance Agency, which handles sick pay, parental benefits, and other public benefits) claims the recipient owes money or has a refund pending, and asks them to click a link and enter their bank account details. Some variants push victims toward starting BankID for "identification" over the phone. Försäkringskassan states it never asks for account details by email or SMS, and that its staff never call asking someone to start BankID for identification.',
+    categorySlug: 'public-benefits-fraud',
+    country: 'SE',
+    alertLevel: 'medium',
+    sources: ['Försäkringskassan (Swedish Social Insurance Agency)'],
+    sourceUrl: 'https://www.forsakringskassan.se/privatperson/om-natbedragerier',
+  },
+  {
+    name: 'Swedish 1177 Vårdguiden Phishing Scam',
+    slug: 'swedish-1177-vardguiden-phishing-scam',
+    description:
+      'A text message or email impersonating 1177 Vårdguiden — the Swedish national healthcare information and patient-portal service — claims the recipient has an unread message or an offer/discount on a health service, and includes a clickable link urging them to log in immediately. A genuine 1177 message never contains a clickable login link and cannot be replied to; it only ever tells the recipient to log in by going to 1177.se directly in a browser. Clicking the fake link leads to a credential-harvesting page designed to steal login and personal health information.',
+    categorySlug: 'healthcare-fraud',
+    country: 'SE',
+    alertLevel: 'medium',
+    sources: ['1177 (Swedish national healthcare information and e-services portal)'],
+    sourceUrl: 'https://www.1177.se/om-1177/1177.se/sa-vet-du-att-meddelandet-ar-fran-1177/',
+  },
+  {
+    name: 'Swedish Elbolag Deceptive Telephone Contract Scam',
+    slug: 'swedish-elbolag-deceptive-telephone-contract-scam',
+    description:
+      'A telemarketer selling electricity contracts falsely claims to represent the consumer\'s current provider, to "own the electricity network," or to be the only company that can supply electricity to the home, framing billing-frequency questions as if a switch were already decided rather than optional. The seller then pressures the consumer to sign the new contract with BankID during the call itself, locking them into a long and often more expensive contract they didn\'t knowingly agree to. Sweden\'s Consumer Ombudsman has formally ordered such companies to stop these tactics, backed by fines in the millions of kronor.',
+    categorySlug: 'utility-scams',
+    country: 'SE',
+    alertLevel: 'medium',
+    sources: ['Konsumentverket / Konsumentombudsmannen (Swedish Consumer Agency / Consumer Ombudsman)'],
+    sourceUrl: 'https://www.konsumentverket.se/nyhet/ko-stoppar-svenska-elverkets-saljmetoder/',
+  },
 ];
 
 async function seedCategoriesAndScams() {
