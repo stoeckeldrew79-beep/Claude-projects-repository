@@ -3018,6 +3018,34 @@ The FTC has directly examined the earnings disclosure statements MLM companies a
 
 Before joining any MLM or "business opportunity," the FTC recommends researching the company and its actual products independently, having someone you trust who has no stake in the company review any paperwork before you sign it, and reading the earnings disclosure statement closely rather than taking a recruiter's verbal claims at face value. Genuine pressure to decide immediately, a heavier emphasis on recruiting new members than on selling anything to an actual outside customer, and a refusal to let you see hard numbers before you commit money are all signs the "opportunity" is built to benefit whoever recruited you more than it will ever benefit you.`,
   },
+  {
+    title: 'Moving Company Scams: When "Rogue Movers" Hold Your Belongings Hostage',
+    slug: 'moving-company-hostage-load-scam-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'moving-company-scam'],
+    sourceUrl: 'https://www.transportation.gov/briefing-room/fmcsa-launches-operation-protect-your-move-nationwide-crackdown-moving-scams',
+    body: `A moving company quotes a price well below every competitor, sometimes over the phone or through a website with no visit to actually see what's being moved. That lowball number is often the setup for what federal regulators call a "hostage load": once the truck is packed and on the road, the company presents a bill two to four times higher than the original estimate, and refuses to unload or return the customer's belongings until the new, inflated amount is paid in full.
+
+A common warning sign shows up well before moving day. A legitimate mover typically insists on an in-person or video walkthrough of the home to give an accurate estimate; a company willing to quote a firm price sight-unseen, over the phone, is often deliberately lowballing the number to win the job, with the real price revealing itself only after your possessions are already in someone else's truck. Large upfront deposits are another red flag federal regulators specifically call out, since a legitimate interstate mover generally doesn't need a large payment before the move even begins.
+
+The scale of the problem led the Federal Motor Carrier Safety Administration to launch Operation Protect Your Move, a nationwide enforcement effort targeting "rogue" moving companies specifically over hostage-load complaints. Federal law gives movers on an interstate job a specific obligation here: under a binding estimate, a mover must release your belongings once you pay 100% of that estimate; under a non-binding estimate, they must release your things at delivery once you pay up to 110% of the original estimate, with anything beyond that billed separately rather than held as ransom for your possessions.
+
+Before hiring any interstate mover, verify the company's USDOT number through FMCSA's own lookup tool to confirm they're actually a legally registered household-goods carrier, since an unregistered "chameleon carrier" can vanish and reappear under a new name after enough complaints pile up. If a mover you've already hired won't release your belongings without an inflated payment, you can file a complaint with FMCSA and, since it's a federal offense to hold interstate household goods hostage for more than the legally allowed amount, report it to local law enforcement as well.`,
+  },
+  {
+    title: 'Locksmith Scams: The $15 Quote That Becomes a $300 Bill at Your Door',
+    slug: 'locksmith-bait-and-switch-scam-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'locksmith-scam'],
+    sourceUrl: 'https://www.bbb.org/article/news-releases/22797-bbb-scam-alert-locked-out-dont-fall-for-a-locksmith-cons',
+    body: `Locked out of a car or a home, most people search online or call the first number that comes up, and get a strikingly cheap quote — sometimes as low as $15 — for a locksmith to come open the door. That number is rarely what actually gets charged: once the technician arrives, they find reason after reason to raise the price, and by the time the door is open, the bill has often grown to hundreds of dollars more than what was quoted.
+
+Part of what makes this hard to catch in the moment is that the scam often starts before the phone call. The Better Business Bureau warns that scam operators frequently use the name and logo of a real, reputable local locksmith in their online advertising, and answer the phone with a generic greeting rather than a specific company name — making it difficult to tell, in the moment someone's locked out and in a hurry, that they've actually reached a different, unaffiliated operation entirely.
+
+A specific tactic to watch for once the technician is on-site: being told the lock has to be drilled out and replaced with a new, "extra-secure" lock, at significant extra cost. The BBB notes that a skilled locksmith can open just about any lock without resorting to drilling, and the "extra-secure" replacement lock pushed in these situations is often a cheap, unreliable model marked up well beyond its actual value — the upsell, not an unavoidable repair, is the point.
+
+Before you're ever locked out, the BBB recommends researching and saving the contact information for an established, BBB-accredited locksmith rather than searching cold in an emergency. If you do have to search in the moment, verify that the business name in any online listing or ad matches who actually shows up, ask for a total cost estimate — including any service call fee, mileage, and parts — before work begins, check for identification and marked vehicles, insist on an itemized invoice, and pay by credit card rather than cash so the charge can be disputed if the final bill doesn't match what was agreed to.`,
+  },
 ];
 
 async function seedArticles(articles: SeedArticle[], label: string) {
