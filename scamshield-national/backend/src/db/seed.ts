@@ -1855,6 +1855,10 @@ If you're helping an older family member, agree in advance on a household rule t
     slug: 'online-marketplace-scams-facebook-craigslist',
     author: 'ScamShield Editorial',
     tags: ['guide', 'online-marketplace'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Old_items_displayed_at_garage_sale.jpg',
+    coverImageCredit: 'Photo: Sneha G Gupta (CC BY-SA 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://consumer.ftc.gov/articles/buying-online-marketplace',
     body: `Online marketplaces like Facebook Marketplace, Craigslist, and OfferUp connect local buyers and sellers directly, without the structured buyer-protection programs and dispute resolution that come standard on larger platforms like Amazon or eBay — which is exactly what makes them attractive to scammers on both sides of a transaction.
 
@@ -2060,6 +2064,10 @@ If this happens to you or someone you know, don't pay, don't delete the messages
     slug: 'debt-relief-credit-repair-scams-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'debt-relief-scams'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Credit-cards_(cropped).jpg',
+    coverImageCredit: 'Photo: Lotus Head (CC BY-SA 2.5)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2025/07/ftc-halts-illegal-debt-relief-operation-falsely-impersonated-businesses-government-harming-consumers',
     body: `A debt relief or credit repair company promises to negotiate down a consumer's debt, settle it for pennies on the dollar, or quickly "fix" a bad credit score — all in exchange for a large fee paid upfront, before any actual results. In one FTC enforcement action, a company impersonating consumers' own banks, credit card issuers, and even the federal government charged a military veteran nearly $10,000 and told him to simply stop paying his credit cards, which promptly went into default; he ended up $13,000 deeper in debt with his credit score falling from the high 700s into the 500s, and it nearly cost him his security clearance. That single operation took in roughly $100 million, largely from seniors and veterans.
 
@@ -2141,6 +2149,10 @@ Before hiring anyone, get multiple written estimates, verify the contractor's li
     slug: 'auto-warranty-robocall-scams-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'auto-warranty'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Classic_car_interior_with_old_dashboard_and_worn_upholstery_in_a_neglected_state.jpg',
+    coverImageCredit: 'Photo: Nenad Stojković (CC BY 2.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2021/05/hang-auto-warranty-robocalls',
     body: `The call starts with a recording, not a person: an automated voice claiming to represent a "Vehicle Service Department" warns that your car's warranty is about to expire, that the company has "sent you several notices in the mail," and that your file will be closed soon if you don't respond. Pressing a number to "renew" connects you to a live agent selling what's actually a third-party service contract, not a real manufacturer warranty, often for hundreds or thousands of dollars, riddled with exclusions and restrictions that leave real repairs uncovered anyway.
 
@@ -2204,6 +2216,10 @@ Before swiping or inserting a card at a pump or ATM, check whether the card read
     slug: 'affinity-fraud-investment-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'affinity-fraud'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/4.12.12StJohnsCommunityArtsMeetingByLuigiNovi13.jpg',
+    coverImageCredit: 'Photo: Luigi Novi (CC BY 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-alerts/investor-60',
     body: `Affinity fraud is an investment scam that exploits trust within an identifiable group — a religious congregation, an ethnic or immigrant community, a professional association, even an online forum built around a shared interest. The "investment" itself is usually either entirely fake or grossly misrepresented, with fraudsters lying about the risk of loss, the track record, or their own background, and many affinity frauds turn out to be Ponzi or pyramid schemes, where money from new investors is quietly used to pay off earlier ones just long enough to create the appearance of a real, working investment.
 
@@ -2305,6 +2321,9 @@ Every state's land records or county recorder's office lets you check your own d
     slug: 'fake-check-overpayment-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'fake-check-scams'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Blank_check.jpg',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://consumer.ftc.gov/articles/how-spot-avoid-and-report-fake-check-scams',
     body: `A stranger sends a check for more than what's actually owed — for a job, a sold item, a "mystery shopper" assignment, or a sweepstakes prize — and asks the recipient to deposit it, then wire back or send via gift card the difference, framed as a refund, a fee, or funds meant for a third party. The check is fake, but by the time that becomes clear, the victim has already sent their own real money to the scammer.
 
@@ -2319,6 +2338,9 @@ The clearest rule, straight from the FTC: never send money based on funds from a
     slug: 'synthetic-identity-theft-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'synthetic-identity-theft'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Social_Security_card.jpg',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.federalreserve.gov/newsevents/pressreleases/other20190709a.htm',
     body: `Ordinary identity theft steals a real person's existing financial identity — their name, their accounts, their credit history — and uses it directly. Synthetic identity theft is different and, in some ways, harder to catch: fraudsters combine a real piece of personal information, most often a Social Security number, with fabricated details like a made-up name, address, or date of birth, stitching together a "person" who doesn't actually exist anywhere but on paper and in a credit file.
 
@@ -2333,6 +2355,10 @@ If you're notified of unexplained activity tied to your Social Security number �
     slug: 'recovery-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'recovery-scams'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Wallet_on_a_table.jpg',
+    coverImageCredit: 'Photo: barbostick (CC BY-SA 2.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2026/08/have-you-lost-money-scam-watch-scammers-who-say-they-can-help',
     body: `Someone who already lost money to a scam gets a call, email, or message from a person claiming to represent a government agency, a law firm, or a "fund recovery" or asset-recovery specialist — and they say they can get the stolen money back, for a fee paid up front. It sounds like exactly the lifeline a fraud victim is hoping for, which is precisely why it works: the FTC's direct warning is blunt — "Don't trust someone who contacts you claiming they can recover your lost money for a fee."
 
@@ -2399,6 +2425,9 @@ The rule that cuts through every version of this scam is simple, straight from t
     slug: 'neighbor-spoofing-robocalls-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'neighbor-spoofing'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Concerned_Phone_Call_(Unsplash).jpg',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://consumer.ftc.gov/comment/30521',
     body: `A call comes in from a number that looks like it belongs to someone nearby — often sharing the same area code and even the same first six digits as your own phone number — so it feels safe to answer. It isn't your neighbor, and it usually isn't even a real number at all: it's "neighbor spoofing," a caller-ID trick scammers use specifically because people are far more likely to pick up a call that looks local than one from an unfamiliar area code or a number flagged as "Spam Likely."
 
@@ -2448,6 +2477,10 @@ Red flags include any claim that a government agency is behind the offer, pressu
     slug: 'crowdfunding-gofundme-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'crowdfunding-scams'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/2023-09-13_Digital_donation_box_to_combat_homelessness.jpg',
+    coverImageCredit: 'Photo: Bärbel Miemietz (CC BY-SA 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://consumer.ftc.gov/articles/donating-through-crowdfunding-and-fundraising-platforms',
     body: `A crowdfunding campaign appears with a compelling story — a stranger's medical emergency, a family displaced by disaster, a beloved community figure in crisis — often paired with real, emotionally striking photos and a specific dollar goal. The story spreads on social media, donations pour in from people who've never met the person involved, and by the time anyone questions it, the organizer has already withdrawn the funds and disappeared.
 
