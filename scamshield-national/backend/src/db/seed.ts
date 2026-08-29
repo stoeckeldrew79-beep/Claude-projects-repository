@@ -1633,6 +1633,7 @@ const GUIDE_ARTICLES: SeedArticle[] = [
     coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Smartphone_dating_app_illustration.jpg',
     coverImageCredit: 'Photo: Santeri Viinamäki (CC BY-SA 4.0)',
     coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://consumer.ftc.gov/romance-scams',
     body: `A romance scam starts like an ordinary online connection — a dating app match, a friend request, a comment on a post — and moves fast toward intimacy. Within days or weeks, the scammer is expressing deep feelings, planning a future together, and finding reasons a video call or in-person meeting can't quite happen yet: they're on a remote oil rig, deployed overseas, or working on an international contract.
 
@@ -1649,6 +1650,7 @@ If you're in this situation: stop sending money immediately, do a reverse image 
     tags: ['guide', 'tech-support'],
     coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Man_responds_to_telephone_call.jpg',
     coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://consumer.ftc.gov/articles/how-spot-avoid-and-report-tech-support-scams',
     body: `It usually starts with a browser pop-up: a loud warning sound, a message claiming your computer is infected, and a phone number to call for "Microsoft support" or "Apple security." The pop-up is fake — no legitimate operating system or antivirus vendor detects a virus and tells you to call a phone number — but it's designed to look exactly like a real system alert, sometimes locking the browser in full-screen mode to make it harder to close.
 
@@ -1681,6 +1683,7 @@ If you get one of these calls: hang up. Do not call back any number the caller p
     tags: ['guide', 'business-email-compromise'],
     coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Man_typing_on_laptop_(Unsplash).jpg',
     coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.ic3.gov/CrimeInfo/BEC',
     body: `Business email compromise (BEC) targets companies rather than individuals, and consistently ranks among the costliest categories of fraud reported to the FBI's Internet Crime Complaint Center, often exceeding the losses from every consumer-facing scam combined. The mechanism is simple: a scammer gains access to, or closely spoofs, an executive's or vendor's email account, then sends a request that looks completely routine — an urgent wire transfer to close a deal, a changed bank account for an existing vendor invoice, a request for employee W-2 data.
 
@@ -1698,6 +1701,7 @@ If your business is targeted: contact your bank immediately to attempt a wire re
     coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Senior_woman_engaged_in_conversation_on_an_old-fashioned_telephone.jpg',
     coverImageCredit: 'Photo: Nenad Stojković (CC BY 2.0)',
     coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://consumer.ftc.gov/features/pass-it-on/impersonator-scams/grandkid-scams',
     body: `The phone rings and a young voice says "Grandma?" or "Grandpa, it's me" — often crying or sounding distressed, sometimes with static or a bad connection making the voice harder to place with certainty. Before the target can ask many questions, the caller (or someone who takes over the call claiming to be a lawyer, bail bondsman, or police officer) explains there's been an accident, an arrest, or some other emergency, and money is urgently needed — often via wire transfer, gift cards, or a cash pickup — and pleads not to tell the parents because it would mean trouble.
 
@@ -1730,6 +1734,7 @@ Red flags: an online relationship that pivots to investment advice, a platform y
     coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Mailfence_inbox_screenshot.png',
     coverImageCredit: 'Photo: M Salman Nadeem (CC BY-SA 4.0)',
     coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://consumer.ftc.gov/articles/how-recognize-avoid-phishing-scams',
     body: `Phishing is less a single scam than the delivery mechanism for many others: an email or text designed to look like it's from a bank, employer, delivery company, or government agency, aiming to get the recipient to click a link, enter credentials on a fake login page, or open a malicious attachment. "Smishing" (SMS phishing) and "vishing" (voice phishing) are the same technique over text and phone calls.
 
@@ -1747,6 +1752,7 @@ The reliable habits: never click a link in an unexpected message claiming to be 
     coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Typical_UPS_delivery_truck.JPG',
     coverImageCredit: 'Photo: An Errant Knight (CC BY-SA 4.0)',
     coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.uspis.gov/news/scam-article/smishing-package-tracking-text-scams',
     body: `A text arrives claiming to be from USPS, FedEx, UPS, or a similar carrier: a package couldn't be delivered, or a small customs/redelivery fee is due, with a link to resolve it. The timing is what makes it effective — sent broadly enough that a meaningful share of recipients actually are expecting a delivery, at which point the message feels routine rather than suspicious.
 
@@ -1778,6 +1784,7 @@ Red flags: any job that sends money before you've done any work, any request to 
     coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Charity_donation_box,_Hong_Kong_International_Airport_(2018).jpg',
     coverImageCredit: 'Photo: Donald Trung (CC BY-SA 4.0)',
     coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://consumer.ftc.gov/all-scams/charity-scams',
     body: `In the days after a major hurricane, earthquake, wildfire, or other widely covered disaster, solicitations spike — texts, social media posts, and phone calls asking for donations to help victims, often using real news photos and genuine-sounding organization names that are close enough to well-known charities to avoid a second look. Some fraudulent "charities" are set up specifically in the window after a disaster and disappear once donations stop.
 
@@ -1842,6 +1849,7 @@ The rule that cuts through every version of this scam: no real government agency
     coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Virtual_Graduation_Ceremony.jpg',
     coverImageCredit: 'Photo: Delegate Connect Images (CC BY 2.0)',
     coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://consumer.ftc.gov/all-scams/student-loan-education-scams',
     body: `A call, text, or ad promises fast, guaranteed forgiveness of federal student loan debt — sometimes claiming affiliation with the Department of Education or Federal Student Aid — in exchange for an upfront fee, or asks the borrower to hand over their Federal Student Aid (FSA) ID to "process" the forgiveness on their behalf. Both are hard stops: charging an upfront fee for federal student loan debt relief is illegal, and an FSA ID handed to a stranger gives them the same access to a borrower's loan account and personal financial aid information that the borrower has.
 
@@ -1875,6 +1883,7 @@ The reliable rule: no legitimate government agency, bank, or law enforcement off
     tags: ['guide', 'pet-scams'],
     coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Cute_street_puppy.jpg',
     coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.bbb.org/all/petscams',
     body: `An online ad shows an adorable purebred puppy at a price well below what a breeder would normally charge, with the "seller" explaining they can't meet in person — they're relocating, deployed, or the puppy is with a shipper — and asking for payment upfront to secure it. The photos look real because they usually are: stolen from a legitimate breeder's website or social media and reused across dozens of fake listings. The Better Business Bureau estimates that as much as 80% of sponsored pet advertisements online may be fraudulent.
 
@@ -1909,6 +1918,7 @@ Real protection starts with the guarantee itself: no legitimate resale or exit c
     coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Shopping_online_with_bank_card.jpg',
     coverImageCredit: 'Photo: Bogdan Hoyaux / European Commission (CC BY 4.0)',
     coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://consumer.ftc.gov/all-scams/free-trial-scams',
     body: `An online ad for a skincare cream, weight-loss supplement, or similar product offers a "risk-free trial" for the cost of shipping alone — often $4.99 or less — with the actual subscription terms buried in small, faded, or hard-to-find fine print. What isn't made clear: the trial period is short, cancellation has to happen before it ends, and once it does, the same card gets charged the full product price on a recurring basis, sometimes monthly, until the customer notices and manages to cancel.
 
@@ -1976,6 +1986,7 @@ Before sending any money, insist on seeing the unit in person or via a live vide
     tags: ['guide', 'ai-voice-cloning'],
     coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Smartphone_in_Hand_(Unsplash).jpg',
     coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2023/03/scammers-use-ai-enhance-their-family-emergency-schemes',
     body: `A traditional "grandparent scam" relies on a human impersonator doing their best to sound like a panicked relative over a bad phone connection. The newer, more convincing version replaces the impersonator with AI voice-cloning software: as the FTC describes it, "all he needs is a short audio clip of your family member's voice — which he could get from content posted online — and a voice-cloning program" to generate a synthetic version of that person's actual voice, not just an approximation of it.
 
@@ -1992,6 +2003,7 @@ The FTC's core advice is to never trust the voice alone: hang up and call the pe
     tags: ['guide', 'sextortion'],
     coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/USB_webcam_for_PC.jpg',
     coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.ic3.gov/PSA/2023/psa230605',
     body: `Sextortion starts with a scammer, often posing as an attractive stranger on social media or a messaging app, building just enough rapport to coerce a victim into sharing a sexually explicit photo or video of themselves. The moment that image exists, the relationship flips: the scammer threatens to send it to the victim's family, friends, and entire contacts list unless a payment is made immediately, usually demanded through gift cards or cryptocurrency because both are difficult to trace or reverse. Some offenders skip the real-image step entirely, taking an ordinary photo and using editing tools to manufacture fake explicit content that looks convincing enough to threaten with anyway.
 
@@ -2072,6 +2084,7 @@ The most effective single protection is a credit freeze, which is free to place 
     coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/House_Construction_01.jpg',
     coverImageCredit: 'Photo: Bukulu Steven (CC BY-SA 4.0)',
     coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://consumer.ftc.gov/articles/how-avoid-home-improvement-scam',
     body: `A contractor shows up unannounced, often claiming to be "already in the neighborhood" working on another job, and offers a deal on repair or renovation work — a new roof, driveway resurfacing, storm damage repair — that sounds too convenient to pass up. The pitch comes with pressure to decide immediately, and a demand for full payment, or a large deposit, in cash before any work begins. Once that money changes hands, the contractor either does the work badly, walks off the job partway through, or simply never shows up again.
 
@@ -2166,6 +2179,7 @@ Being part of a close community is not, by itself, a reason to skip the same due
     coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Stack_of_100_dollar_bills_(cropped).jpg',
     coverImageCredit: 'Photo: JPxG (CC BY-SA 3.0)',
     coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2021/12/avoiding-money-mule-scam',
     body: `A money mule is someone who moves illegally obtained money on behalf of someone else — often without ever realizing the money was stolen in the first place. Scammers recruit money mules through online dating sites, job boards, and social media, inventing a reason to send the victim money, usually by check or cryptocurrency, before instructing them to forward that money somewhere else. Two recruitment channels show up constantly: a romantic interest met online who "needs help" moving funds, and a work-from-home job listing that involves "processing payments" or transferring money to "clients" as part of the role.
 
@@ -2200,6 +2214,7 @@ Before sending money to anyone through one of these apps, verify who you're actu
     coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Call_center_(8301487524).jpg',
     coverImageCredit: 'Photo: Carlos Ebert (CC BY 2.0)',
     coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://consumer.ftc.gov/articles/fake-abusive-debt-collectors',
     body: `A caller claims to be a debt collector and says you owe money — sometimes for a real debt you already paid off, sometimes for one that was never actually yours, and sometimes for a debt that never existed at all. The FTC has taken action against so-called "phantom debt collectors" who bought lists of consumer information with no real underlying debt attached and simply called demanding payment anyway, betting that enough people would pay out of fear rather than question whether the debt was real.
 
@@ -2217,6 +2232,7 @@ If you're contacted about a debt, don't pay or provide financial information on 
     coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/2022-05-23_14_14_30_A_house_with_a_%27Sold%27_sign_in_front_along_Aquetong_Lane_in_the_Mountainview_section_of_Ewing_Township,_Mercer_County,_New_Jersey.jpg',
     coverImageCredit: 'Photo: Famartin (CC BY-SA 4.0)',
     coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.consumerfinance.gov/archive/blog/mortgage-closing-scams-how-protect-yourself-and-your-closing-funds/',
     body: `In the days before a home purchase closes, a buyer receives what looks like a routine email from their real estate agent, settlement agent, or title company, with final wiring instructions for the down payment and closing costs — except the email account sending it has been hijacked or spoofed, and the account number in those instructions belongs to the scammer, not the title company. Once the buyer wires the money, it's typically gone within minutes, moved through a chain of accounts before the fraud is even discovered.
 
@@ -2308,6 +2324,7 @@ Veterans should apply for benefits directly and for free at benefits.va.gov, or 
     coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Exterior_of_an_M%26T_Bank_branch_in_Shelburne,_Vermont.jpg',
     coverImageCredit: 'Photo: Harrison Keely (CC BY 4.0)',
     coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2024/03/never-move-your-money-protect-it-thats-scam',
     body: `A call or text arrives claiming to be from your bank's fraud department, warning that suspicious activity was just detected on your account. The caller ID even shows your real bank's name and number, spoofed to match. The person on the line sounds professional, already knows some of your real account details, and creates urgency: your money needs to move right now to a "safe account," or be converted to gold or cryptocurrency, to protect it from the fraud they claim is in progress.
 
@@ -2325,6 +2342,7 @@ If you get a call like this, hang up — don't use any number or callback line t
     coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/OnePlus_Nord_smartphone_displaying_Android_home_screen.jpg',
     coverImageCredit: 'Photo: Gannu03 (CC BY-SA 4.0)',
     coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2025/08/how-spot-avoid-task-scams',
     body: `An unsolicited text or WhatsApp message offers easy work: like some videos, rate some products, or complete simple "optimization" tasks inside an app, and get paid for each one. To build trust, the app or the person behind it actually pays out a small real amount at first — often just $5 to $20 — enough to make the opportunity feel legitimate before the real pitch arrives.
 
@@ -2356,6 +2374,7 @@ Because the caller ID itself can't be trusted, the safest default is to let call
     coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Wooden_gavel_20170417.jpg',
     coverImageCredit: 'Photo: Santeri Viinamäki (CC BY-SA 4.0)',
     coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.bbb.org/article/scams/28919-bbb-scam-alert-this-phishing-scam-claims-a-process-server-is-looking-for-you',
     body: `An unsolicited call claims to be from a process server — the person legally responsible for delivering court papers — warning that a lawsuit is pending against you, often over an unpaid medical bill, a lien on your home, or a debt you don't recognize. The caller asks you to "confirm" personal details like your Social Security number or date of birth before they'll explain further, or asks when you'll be home so they can "serve" you, all designed to create the kind of panic that short-circuits careful thinking.
 
@@ -2403,6 +2422,7 @@ Before donating, look up the organizer and the beneficiary independently rather 
     tags: ['guide', 'counterfeit-online-pharmacy-scams'],
     coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/DEA_to_host_national_prescription_drug_take-back_160324-F-HC995-002.jpg',
     coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.fda.gov/drugs/buying-using-medicine-safely/besaferx-your-source-online-pharmacy-information',
     body: `A website offers prescription medication at a steep discount, ships without requiring an actual prescription, and has no pharmacist available to answer questions — a combination that feels convenient to someone facing a high copay or a medication they'd rather not discuss with a doctor, but is one of the clearest signs the site isn't a real pharmacy at all. The FDA estimates that fewer than 3 percent of online pharmacies actually comply with U.S. state and federal pharmacy laws.
 
