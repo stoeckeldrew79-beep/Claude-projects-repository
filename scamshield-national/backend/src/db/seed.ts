@@ -3058,6 +3058,10 @@ Before joining any MLM or "business opportunity," the FTC recommends researching
     title: 'Moving Company Scams: When "Rogue Movers" Hold Your Belongings Hostage',
     slug: 'moving-company-hostage-load-scam-guide',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/2007_Sterling_360_box_truck,_front_left.jpg?width=1200',
+    coverImageCredit: 'Photo: Mr.choppers (CC BY-SA 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     tags: ['guide', 'moving-company-scam'],
     sourceUrl: 'https://www.transportation.gov/briefing-room/fmcsa-launches-operation-protect-your-move-nationwide-crackdown-moving-scams',
     body: `A moving company quotes a price well below every competitor, sometimes over the phone or through a website with no visit to actually see what's being moved. That lowball number is often the setup for what federal regulators call a "hostage load": once the truck is packed and on the road, the company presents a bill two to four times higher than the original estimate, and refuses to unload or return the customer's belongings until the new, inflated amount is paid in full.
@@ -3072,6 +3076,10 @@ Before hiring any interstate mover, verify the company's USDOT number through FM
     title: 'Locksmith Scams: The $15 Quote That Becomes a $300 Bill at Your Door',
     slug: 'locksmith-bait-and-switch-scam-guide',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Standard-lock-key.jpg?width=1200',
+    coverImageCredit: 'Photo: Evan-Amos (public domain)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     tags: ['guide', 'locksmith-scam'],
     sourceUrl: 'https://www.bbb.org/article/news-releases/22797-bbb-scam-alert-locked-out-dont-fall-for-a-locksmith-cons',
     body: `Locked out of a car or a home, most people search online or call the first number that comes up, and get a strikingly cheap quote — sometimes as low as $15 — for a locksmith to come open the door. That number is rarely what actually gets charged: once the technician arrives, they find reason after reason to raise the price, and by the time the door is open, the bill has often grown to hundreds of dollars more than what was quoted.
@@ -10446,6 +10454,66 @@ const SEED_SCAMS: SeedScam[] = [
     alertLevel: 'critical',
     sources: ['Singapore Police Force'],
     sourceUrl: 'https://www.police.gov.sg/media-hub/news/2022/20221028_police_advisory_on_staged_kidnapping_cases_orchestrated_by_fake_china_gov_officials',
+  },
+  {
+    name: 'Criminal Identity Theft at Arrest or Citation',
+    slug: 'criminal-identity-theft-arrest-citation',
+    description:
+      'Someone who is cited or arrested for a crime gives police another person\'s name and identifying information instead of their own — sometimes using a stolen ID, sometimes just reciting a real person\'s details from memory. If the impostor signs the citation and later fails to appear in court, the resulting bench warrant and criminal record are filed under the real victim\'s name, not the offender\'s. The victim typically has no idea anything happened until they\'re pulled over, denied a job, or arrested on a warrant for a crime they didn\'t commit.',
+    categorySlug: 'identity-theft',
+    alertLevel: 'high',
+    sources: ['California Attorney General, Office of the Attorney General'],
+    sourceUrl: 'https://oag.ca.gov/idtheft/criminal',
+  },
+  {
+    name: 'End-of-Life "Ghosting" Identity Theft',
+    slug: 'end-of-life-ghosting-identity-theft',
+    description:
+      'Scammers scan published obituaries and death notices for personal details — full name, birth date, home address, mother\'s maiden name, surviving relatives — then combine that with information bought on the dark web to open credit cards, take out loans, or file fraudulent claims in a recently deceased person\'s name. The scheme relies on the assumption that no one is monitoring a dead person\'s credit report, giving thieves a window to run up debt before the accounts are ever flagged. Keeping obituaries brief, notifying credit bureaus and the DMV promptly after a death, and watching for unexpected bills or collection notices in a deceased relative\'s name are the main defenses.',
+    categorySlug: 'identity-theft',
+    alertLevel: 'medium',
+    sources: ['New York Department of State, Division of Consumer Protection'],
+    sourceUrl: 'https://dos.ny.gov/news/consumer-alert-new-york-department-states-division-consumer-protection-end-of-life-theft',
+  },
+  {
+    name: 'Employment-Related Identity Theft',
+    slug: 'employment-related-identity-theft',
+    description:
+      'An unauthorized person uses someone else\'s Social Security number to get a job, most often because they cannot pass an employment eligibility check under their own identity. The wages get reported to the IRS and Social Security Administration under the real person\'s SSN, so the victim only discovers it when the IRS sends a notice about unreported income, they receive a W-2 or 1099 from an employer they\'ve never worked for, or the SSA adjusts their benefits based on wages they never earned. Unlike tax-refund identity theft, which is discovered when a return is rejected, this version surfaces through mismatched income records rather than a blocked filing.',
+    categorySlug: 'identity-theft',
+    alertLevel: 'medium',
+    sources: ['Internal Revenue Service'],
+    sourceUrl: 'https://www.irs.gov/identity-theft-fraud-scams/employment-related-identity-theft',
+  },
+  {
+    name: 'QR Code "Quishing" Payment Sticker Scam',
+    slug: 'qr-code-quishing-payment-sticker-scam',
+    description:
+      'Scammers print a fraudulent QR code sticker and place it directly over the legitimate one on parking meters, cryptocurrency ATMs, or restaurant payment signs. Scanning it opens a convincing fake payment or login page that captures the victim\'s card number or account credentials instead of processing a real transaction. Because the substitution happens in the physical world rather than through a suspicious email or text, most victims don\'t suspect anything until they check their bank statement.',
+    categorySlug: 'phishing',
+    alertLevel: 'medium',
+    sources: ['FBI Internet Crime Complaint Center (IC3)'],
+    sourceUrl: 'https://www.ic3.gov/PSA/2022/PSA220118',
+  },
+  {
+    name: 'Google Voice Verification Code Marketplace Scam',
+    slug: 'google-voice-verification-code-marketplace-scam',
+    description:
+      'A "buyer" responding to an online marketplace listing (or someone claiming to be a lost pet\'s owner) tells the seller they want to verify they\'re a real person before proceeding, then sends a text with a Google Voice verification code and asks the seller to read it back. If the target complies, the scammer uses that code to set up a Google Voice number tied to the victim\'s real phone number, letting them run other scams while hiding their own identity, or uses the harvested details to impersonate the victim elsewhere. Legitimate buyers never need a verification code to complete a purchase.',
+    categorySlug: 'phishing',
+    alertLevel: 'medium',
+    sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2021/10/google-voice-scam-how-verification-code-scam-works-how-avoid-it',
+  },
+  {
+    name: 'Fake Vehicle Donation Charity Scam',
+    slug: 'fake-vehicle-donation-charity-scam',
+    description:
+      'A solicitor — often reaching out by robocall or website under a patriotic or veterans-focused name — asks people to donate a car, boat, or other vehicle instead of cash, promising the proceeds will fund a specific cause and that the donation is tax deductible. In cases the FTC has prosecuted, the "charity" wasn\'t a registered nonprofit at all: the vehicles were resold for the operator\'s personal benefit, and in a related case only a small fraction of the tens of millions raised actually went to the stated program. Before donating a vehicle, verify the recipient\'s tax-exempt status directly through the IRS Tax Exempt Organization Search.',
+    categorySlug: 'charity-scams',
+    alertLevel: 'medium',
+    sources: ['Federal Trade Commission (FTC)'],
+    sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2018/07/ftc-states-combat-fraudulent-charities-falsely-claim-help-veterans-servicemembers',
   },
 ];
 
