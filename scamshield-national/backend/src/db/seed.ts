@@ -1906,6 +1906,9 @@ Real protection starts with the guarantee itself: no legitimate resale or exit c
     slug: 'free-trial-subscription-trap-scams',
     author: 'ScamShield Editorial',
     tags: ['guide', 'subscription-scams'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Shopping_online_with_bank_card.jpg',
+    coverImageCredit: 'Photo: Bogdan Hoyaux / European Commission (CC BY 4.0)',
+    coverImagePosition: 50,
     sourceUrl: 'https://consumer.ftc.gov/all-scams/free-trial-scams',
     body: `An online ad for a skincare cream, weight-loss supplement, or similar product offers a "risk-free trial" for the cost of shipping alone — often $4.99 or less — with the actual subscription terms buried in small, faded, or hard-to-find fine print. What isn't made clear: the trial period is short, cancellation has to happen before it ends, and once it does, the same card gets charged the full product price on a recurring basis, sometimes monthly, until the customer notices and manages to cancel.
 
@@ -1971,6 +1974,8 @@ Before sending any money, insist on seeing the unit in person or via a live vide
     slug: 'ai-voice-cloning-family-emergency-scams-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'ai-voice-cloning'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Smartphone_in_Hand_(Unsplash).jpg',
+    coverImagePosition: 50,
     sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2023/03/scammers-use-ai-enhance-their-family-emergency-schemes',
     body: `A traditional "grandparent scam" relies on a human impersonator doing their best to sound like a panicked relative over a bad phone connection. The newer, more convincing version replaces the impersonator with AI voice-cloning software: as the FTC describes it, "all he needs is a short audio clip of your family member's voice — which he could get from content posted online — and a voice-cloning program" to generate a synthetic version of that person's actual voice, not just an approximation of it.
 
@@ -1985,6 +1990,8 @@ The FTC's core advice is to never trust the voice alone: hang up and call the pe
     slug: 'sextortion-financial-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'sextortion'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/USB_webcam_for_PC.jpg',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.ic3.gov/PSA/2023/psa230605',
     body: `Sextortion starts with a scammer, often posing as an attractive stranger on social media or a messaging app, building just enough rapport to coerce a victim into sharing a sexually explicit photo or video of themselves. The moment that image exists, the relationship flips: the scammer threatens to send it to the victim's family, friends, and entire contacts list unless a payment is made immediately, usually demanded through gift cards or cryptocurrency because both are difficult to trace or reverse. Some offenders skip the real-image step entirely, taking an ordinary photo and using editing tools to manufacture fake explicit content that looks convincing enough to threaten with anyway.
 
@@ -2013,6 +2020,8 @@ The clearest warning signs are a demand for payment before any service is perfor
     slug: 'medicare-health-insurance-scams-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'medicare-scams'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/New_US_Medicare_Card_Sample_2018.jpg',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.aarp.org/money/scams-fraud/most-common-medicare-scams/',
     body: `Someone claiming to be from Medicare calls offering a "new" or "upgraded" card, or shows up at a health fair with a "free" knee brace, glucose monitor, or genetic testing kit — in every version, the actual product or paperwork is beside the point. What the scammer is really after is the beneficiary's Medicare number itself, because that number alone is enough to bill Medicare directly for services, equipment, or tests that were never actually provided. As one Senior Medicare Patrol director described a genetic-testing scheme, the scammers "would just discard the swabs and use the Medicare number" — the swab was never going to a lab at all.
 
@@ -2027,6 +2036,9 @@ The best defense is simply reviewing the Medicare Summary Notice that arrives af
     slug: 'foreclosure-rescue-loan-modification-scams-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'foreclosure-rescue-scams'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Sign_of_the_Times-Foreclosure.jpg',
+    coverImageCredit: 'Photo: respres (CC BY 2.0)',
+    coverImagePosition: 50,
     sourceUrl: 'https://consumer.ftc.gov/articles/mortgage-relief-scams',
     body: `A company or individual promises to negotiate directly with a homeowner's lender, secure a loan modification, or stop a foreclosure outright — and asks for a large fee upfront to get started. Under the FTC's Mortgage Assistance Relief Services Rule, that upfront fee is itself illegal: a company is legally barred from collecting payment for a loan modification before that modification has actually been delivered, which means demanding money before doing anything isn't just a red flag, it's already a violation of federal law.
 
@@ -2041,6 +2053,8 @@ The clearest warning signs are any request for payment before work is done, inst
     slug: 'identity-theft-basics-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'identity-theft'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Californian_sample_driver%27s_license,_c._2019.jpg',
+    coverImagePosition: 50,
     sourceUrl: 'https://consumer.ftc.gov/articles/what-know-about-identity-theft',
     body: `Identity theft happens when someone uses personal information — a name, Social Security number, date of birth, address, or account numbers — without permission. That single piece of stolen information can be used in two fundamentally different ways, and understanding the difference matters for spotting each one: existing-account fraud, where a thief uses a card or bank account someone already has, showing up as unauthorized charges or withdrawals on statements a victim already checks; and new-account fraud, where a thief opens something entirely new in the victim's name — a credit card, a utility or phone account, or even a job — using stolen information the victim never sees on any bill they're already reviewing.
 
@@ -2055,6 +2069,9 @@ The most effective single protection is a credit freeze, which is free to place 
     slug: 'home-improvement-contractor-scams-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'contractor-scams'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/House_Construction_01.jpg',
+    coverImageCredit: 'Photo: Bukulu Steven (CC BY-SA 4.0)',
+    coverImagePosition: 50,
     sourceUrl: 'https://consumer.ftc.gov/articles/how-avoid-home-improvement-scam',
     body: `A contractor shows up unannounced, often claiming to be "already in the neighborhood" working on another job, and offers a deal on repair or renovation work — a new roof, driveway resurfacing, storm damage repair — that sounds too convenient to pass up. The pitch comes with pressure to decide immediately, and a demand for full payment, or a large deposit, in cash before any work begins. Once that money changes hands, the contractor either does the work badly, walks off the job partway through, or simply never shows up again.
 
@@ -2083,6 +2100,8 @@ The FTC's advice is blunt: hang up. Don't press any number, since doing so can c
     slug: 'lottery-sweepstakes-scams-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'lottery-sweepstakes'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Mega_Millions_lottery_tickets.JPG',
+    coverImagePosition: 50,
     sourceUrl: 'https://consumer.ftc.gov/articles/fake-prize-sweepstakes-and-lottery-scams',
     body: `A call, text, email, or letter announces that you've won a prize — a new car, an iPad, a cash jackpot, sometimes a specific lottery like Publishers Clearing House or a foreign national lottery. To collect it, you're told, you first need to pay something: "taxes," "insurance," "shipping and handling," or "customs duties" on a prize you supposedly already won. Some versions have a scammer falsely claiming to call from the Federal Trade Commission itself, telling the victim that paying a one-time fee for "taxes and insurance" is all that stands between them and the winnings.
 
@@ -2097,6 +2116,9 @@ If you're contacted about a prize you don't remember entering to win, don't send
     slug: 'utility-scams-disconnection-threat-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'utility-scams'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/ElectricMeter.jpg',
+    coverImageCredit: 'Photo: Jc3s5h (CC BY-SA 3.0)',
+    coverImagePosition: 50,
     sourceUrl: 'https://consumer.ftc.gov/articles/scammers-pretend-be-your-utility-company',
     body: `A caller identifies themselves as being from your electric, gas, or water company and warns that your service will be shut off within the hour unless you pay an overdue balance immediately. The call, text, or even an in-person visit is timed to create panic — hot summer days and cold winter nights are popular windows, since the threat of losing power or heat pushes people to act before they've had time to think it through or call the utility back to check.
 
@@ -2141,6 +2163,9 @@ Being part of a close community is not, by itself, a reason to skip the same due
     slug: 'money-mule-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'money-mule'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Stack_of_100_dollar_bills_(cropped).jpg',
+    coverImageCredit: 'Photo: JPxG (CC BY-SA 3.0)',
+    coverImagePosition: 50,
     sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2021/12/avoiding-money-mule-scam',
     body: `A money mule is someone who moves illegally obtained money on behalf of someone else — often without ever realizing the money was stolen in the first place. Scammers recruit money mules through online dating sites, job boards, and social media, inventing a reason to send the victim money, usually by check or cryptocurrency, before instructing them to forward that money somewhere else. Two recruitment channels show up constantly: a romantic interest met online who "needs help" moving funds, and a work-from-home job listing that involves "processing payments" or transferring money to "clients" as part of the role.
 
@@ -2155,6 +2180,9 @@ Treat any request to receive money and then forward it elsewhere as a hard stop,
     slug: 'peer-to-peer-payment-app-scams-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'p2p-payment-apps'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Venmo_passcode_screen.jpg',
+    coverImageCredit: 'Photo: Kimberlynicole7 (CC BY-SA 4.0)',
+    coverImagePosition: 50,
     sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2020/02/making-mobile-payments-protect-yourself-scams',
     body: `Peer-to-peer payment apps like Zelle, Venmo, and Cash App were built for speed — sending money to a friend takes seconds, and that same instant, irreversible design is exactly what makes them a favorite tool for scammers. Fraudsters exploit these apps in a few consistent ways: impersonating someone the victim knows and claiming an emergency requires an immediate transfer, posing as the app company or the victim's own bank to "verify" an account, or — if they've gained access to a victim's contact list — messaging their contacts while posing as someone requesting a payment that was supposedly already agreed to.
 
