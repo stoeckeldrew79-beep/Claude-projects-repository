@@ -2169,6 +2169,9 @@ Before sending money to anyone through one of these apps, verify who you're actu
     slug: 'fake-debt-collector-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'fake-debt-collector'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Call_center_(8301487524).jpg',
+    coverImageCredit: 'Photo: Carlos Ebert (CC BY 2.0)',
+    coverImagePosition: 50,
     sourceUrl: 'https://consumer.ftc.gov/articles/fake-abusive-debt-collectors',
     body: `A caller claims to be a debt collector and says you owe money — sometimes for a real debt you already paid off, sometimes for one that was never actually yours, and sometimes for a debt that never existed at all. The FTC has taken action against so-called "phantom debt collectors" who bought lists of consumer information with no real underlying debt attached and simply called demanding payment anyway, betting that enough people would pay out of fear rather than question whether the debt was real.
 
@@ -2183,6 +2186,9 @@ If you're contacted about a debt, don't pay or provide financial information on 
     slug: 'real-estate-closing-wire-fraud-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'real-estate-wire-fraud'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/2022-05-23_14_14_30_A_house_with_a_%27Sold%27_sign_in_front_along_Aquetong_Lane_in_the_Mountainview_section_of_Ewing_Township,_Mercer_County,_New_Jersey.jpg',
+    coverImageCredit: 'Photo: Famartin (CC BY-SA 4.0)',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.consumerfinance.gov/archive/blog/mortgage-closing-scams-how-protect-yourself-and-your-closing-funds/',
     body: `In the days before a home purchase closes, a buyer receives what looks like a routine email from their real estate agent, settlement agent, or title company, with final wiring instructions for the down payment and closing costs — except the email account sending it has been hijacked or spoofed, and the account number in those instructions belongs to the scammer, not the title company. Once the buyer wires the money, it's typically gone within minutes, moved through a chain of accounts before the fraud is even discovered.
 
@@ -2197,6 +2203,8 @@ The CFPB's core advice is to establish two trusted contacts — typically the re
     slug: 'home-title-theft-deed-fraud-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'home-title-theft'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Morrish_deed_for_property_in_the_Anclote_area_near_Tarpon_Springs.jpg',
+    coverImagePosition: 50,
     sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2024/08/home-title-lock-insurance-not-lock-all',
     body: `Home title theft, also called deed fraud, is a form of identity theft where a criminal forges a homeowner's signature on a deed — often a quitclaim deed, chosen specifically because it requires no title warranty and draws less scrutiny when filed — and records it with the county, making it look, on paper, like the real owner willingly transferred the property away. From there, the scammer can sell the home to an unsuspecting buyer, borrow against it as collateral, or rent it out, while the actual owner may have no idea anything happened until a tax bill, a for-sale sign, or a stranger at the door tips them off.
 
@@ -2253,6 +2261,8 @@ The core protection is simple to state and easy to forget in the moment: legitim
     slug: 'veterans-benefits-claim-shark-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'veterans-benefits-scams'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Veteran_Affairs_backlog_(2012-08-09).jpg',
+    coverImagePosition: 50,
     sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2026/07/veterans-dont-pay-apply-va-benefits',
     body: `A veteran is contacted out of the blue — often through social media, a community event, or a referral from someone they trust — by a person offering to help file a VA disability or benefits claim, for a fee, and promising a fast approval or even a guaranteed 100% disability rating in exchange for upfront payment. The pitch sounds like paid expertise navigating a notoriously complicated system. It's actually illegal on its face: applying for VA benefits is, and always has been, free.
 
@@ -2267,6 +2277,9 @@ Veterans should apply for benefits directly and for free at benefits.va.gov, or 
     slug: 'bank-impersonation-fraud-department-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'bank-impersonation-scams'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Exterior_of_an_M%26T_Bank_branch_in_Shelburne,_Vermont.jpg',
+    coverImageCredit: 'Photo: Harrison Keely (CC BY 4.0)',
+    coverImagePosition: 50,
     sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2024/03/never-move-your-money-protect-it-thats-scam',
     body: `A call or text arrives claiming to be from your bank's fraud department, warning that suspicious activity was just detected on your account. The caller ID even shows your real bank's name and number, spoofed to match. The person on the line sounds professional, already knows some of your real account details, and creates urgency: your money needs to move right now to a "safe account," or be converted to gold or cryptocurrency, to protect it from the fraud they claim is in progress.
 
@@ -2281,6 +2294,9 @@ If you get a call like this, hang up — don't use any number or callback line t
     slug: 'task-scam-apps-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'task-scam-apps'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/OnePlus_Nord_smartphone_displaying_Android_home_screen.jpg',
+    coverImageCredit: 'Photo: Gannu03 (CC BY-SA 4.0)',
+    coverImagePosition: 50,
     sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2025/08/how-spot-avoid-task-scams',
     body: `An unsolicited text or WhatsApp message offers easy work: like some videos, rate some products, or complete simple "optimization" tasks inside an app, and get paid for each one. To build trust, the app or the person behind it actually pays out a small real amount at first — often just $5 to $20 — enough to make the opportunity feel legitimate before the real pitch arrives.
 
@@ -2309,6 +2325,9 @@ Because the caller ID itself can't be trusted, the safest default is to let call
     slug: 'fake-process-server-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'fake-process-server-scams'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Wooden_gavel_20170417.jpg',
+    coverImageCredit: 'Photo: Santeri Viinamäki (CC BY-SA 4.0)',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.bbb.org/article/scams/28919-bbb-scam-alert-this-phishing-scam-claims-a-process-server-is-looking-for-you',
     body: `An unsolicited call claims to be from a process server — the person legally responsible for delivering court papers — warning that a lawsuit is pending against you, often over an unpaid medical bill, a lien on your home, or a debt you don't recognize. The caller asks you to "confirm" personal details like your Social Security number or date of birth before they'll explain further, or asks when you'll be home so they can "serve" you, all designed to create the kind of panic that short-circuits careful thinking.
 
@@ -2354,6 +2373,8 @@ Before donating, look up the organizer and the beneficiary independently rather 
     slug: 'counterfeit-online-pharmacy-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'counterfeit-online-pharmacy-scams'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/DEA_to_host_national_prescription_drug_take-back_160324-F-HC995-002.jpg',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.fda.gov/drugs/buying-using-medicine-safely/besaferx-your-source-online-pharmacy-information',
     body: `A website offers prescription medication at a steep discount, ships without requiring an actual prescription, and has no pharmacist available to answer questions — a combination that feels convenient to someone facing a high copay or a medication they'd rather not discuss with a doctor, but is one of the clearest signs the site isn't a real pharmacy at all. The FDA estimates that fewer than 3 percent of online pharmacies actually comply with U.S. state and federal pharmacy laws.
 
