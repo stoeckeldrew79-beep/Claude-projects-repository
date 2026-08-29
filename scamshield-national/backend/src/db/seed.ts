@@ -10098,6 +10098,39 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['FTC Consumer Advice'],
     sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2022/10/how-recognize-fake-geek-squad-renewal-scam',
   },
+  {
+    name: 'UK Courier Fraud ("Bogus Officer" Card Collection Scam)',
+    slug: 'uk-courier-fraud-bogus-officer-card-collection',
+    description:
+      'A fraudster calls claiming to be a police officer or bank fraud investigator, telling the victim their card has been cloned or their account compromised, and asks them to confirm their PIN "for verification." The caller may tell the victim to hang up and call 999 or their bank to check — without disconnecting the line, so the same fraudster answers again — then says a courier will come to the house to collect the "compromised" card, or instructs the victim to withdraw cash or buy high-value items like watches or gold to hand over as part of a supposed undercover investigation into corrupt bank staff. UK police and Action Fraud state plainly that a real bank or police officer will never ask to verify a PIN by phone or arrange to collect a card by courier.',
+    categorySlug: 'government-impersonation',
+    country: 'GB',
+    alertLevel: 'critical',
+    sources: ['Action Fraud (Report Fraud)'],
+    sourceUrl: 'https://www.actionfraud.police.uk/a-z-of-fraud/courier-fraud',
+  },
+  {
+    name: 'UK TfL Congestion Charge / ULEZ Payment Scam',
+    slug: 'uk-tfl-ulez-congestion-charge-scam',
+    description:
+      'Drivers receive a scam text claiming their Congestion Charge Auto Pay service has been disabled due to a change in Transport for London\'s terms, directing them to a convincing fake copy of the TfL website to re-enter payment details. A related pattern involves unofficial ULEZ and Congestion Charge payment websites that look like they handle the charge on a driver\'s behalf, but either fail to actually forward the payment, charge amounts the driver didn\'t really owe, or bill through a premium-rate number. TfL states the only place to pay these charges is the official tfl.gov.uk website, and recommends forwarding scam texts to 7726 and reporting any financial loss to Action Fraud.',
+    categorySlug: 'government-impersonation',
+    country: 'GB',
+    alertLevel: 'medium',
+    sources: ['Transport for London (TfL)'],
+    sourceUrl: 'https://tfl.gov.uk/modes/driving/avoid-payment-fraud',
+  },
+  {
+    name: 'UK "Quishing" QR Code Parking Scam',
+    slug: 'uk-quishing-qr-code-parking-scam',
+    description:
+      'Criminals stick a fraudulent QR code sticker directly over the genuine one on a public parking machine, most often in a car park, so a driver trying to pay for parking scans the fake code instead. The fake code leads to a convincing but fraudulent payment page that harvests card details — the driver pays the criminals, gets no valid ticket, and typically also ends up with a genuine parking penalty on top of the loss. The National Cyber Security Centre warns that because a QR code hides its destination web address until after it\'s scanned, a tampered code is far harder to spot than a suspicious typed link, and recommends checking for signs of tampering, like a sticker placed over the original, and verifying any resulting web address before entering payment details.',
+    categorySlug: 'phishing',
+    country: 'GB',
+    alertLevel: 'medium',
+    sources: ['National Cyber Security Centre (NCSC)', 'Action Fraud'],
+    sourceUrl: 'https://www.ncsc.gov.uk/blog-post/qr-codes-whats-real-risk',
+  },
 ];
 
 async function seedCategoriesAndScams() {
