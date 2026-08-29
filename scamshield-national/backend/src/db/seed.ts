@@ -10260,6 +10260,28 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['U.S. Department of State', 'U.S. Department of Labor, Wage and Hour Division'],
     sourceUrl: 'https://bo.usembassy.gov/alert-there-have-been-reports-of-h-2a-and-h-2b-visa-scams/',
   },
+  {
+    name: 'Canadian Dental Care Plan (CDCP) Impersonation Scam',
+    slug: 'canadian-dental-care-plan-impersonation-scam',
+    description:
+      'A text, email, or fake ad claims to be from the Canadian Dental Care Plan and asks the recipient to pay a fee to apply or renew coverage, or to confirm their Social Insurance Number and banking or credit card details to keep their enrollment active. The real CDCP never charges a fee to apply or renew, and Service Canada never requests personal information by text or email — legitimate eligibility notices go out by mail.',
+    categorySlug: 'public-benefits-fraud',
+    country: 'CA',
+    alertLevel: 'high',
+    sources: ['Government of Canada (Canadian Dental Care Plan / Health Canada)'],
+    sourceUrl: 'https://www.canada.ca/en/services/benefits/dental/dental-care-plan.html',
+  },
+  {
+    name: 'Canadian Passport Program Impersonation Scam',
+    slug: 'canadian-passport-program-impersonation-scam',
+    description:
+      'A caller claiming to work for Canada\'s Passport Program asks the recipient to confirm their Social Insurance Number or to pay outstanding fees using gift cards, and separately, unofficial third-party websites sell "expedited passport service" packages implying they can speed up processing for a charge. The real Passport Program never asks for a SIN to apply for a passport and never requests gift-card payment, and no third party can actually speed up government processing.',
+    categorySlug: 'government-impersonation',
+    country: 'CA',
+    alertLevel: 'medium',
+    sources: ['Immigration, Refugees and Citizenship Canada (Government of Canada)'],
+    sourceUrl: 'https://www.canada.ca/en/immigration-refugees-citizenship/services/canadian-passports/protect-fraud.html',
+  },
 ];
 
 async function seedCategoriesAndScams() {
