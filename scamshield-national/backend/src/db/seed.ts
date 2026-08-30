@@ -2249,6 +2249,34 @@ Runner was arrested in Spain and extradited to the United States in 2020. A fede
 Runner's case is a reminder that advance-fee fraud doesn't require sophistication to work at scale — a single fictional character, repeated in millions of nearly identical letters over two decades, was enough to extract $175 million a few dollars at a time from over a million people who each believed, however briefly, that a psychic had written to them personally.`,
     sourceUrl: 'https://www.justice.gov/opa/pr/canadian-man-sentenced-operating-175m-psychic-mass-mailing-fraud-scheme',
   },
+  {
+    title: "Peter Clowes: The Broker Whose Gilt-Edged Promise Hid a £190 Million Hole",
+    slug: 'peter-clowes-barlow-clowes-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Peter Clowes ran Barlow Clowes, a British investment firm, and its Gibraltar-registered offshore arm Barlow Clowes International, selling a product aimed squarely at cautious, often retired savers: an investment in UK government gilts, among the safest securities in British finance, structured to convert taxable income into lower-taxed capital gains through a legal loophole.
+
+The loophole was real for a while, and early investors got the returns they were promised. But once UK tax rules closed the gap that made the strategy work, Clowes didn't tell his clients the product's foundation had disappeared — he kept collecting money under the same "safe as gilts" pitch while quietly shifting client funds into far riskier investments and moving much of the operation offshore to Gibraltar, where it drew less scrutiny. Investigators later found the diverted funds financed a strikingly lavish personal lifestyle, including a helicopter, a mansion, and even a Scottish castle, while the roughly 14,250 investors who trusted him believed their money remained parked safely in government bonds.
+
+Barlow Clowes collapsed in May 1988, roughly £190 million short of what it owed investors, with the offshore arm alone having drawn in some £140 million. Clowes was convicted in February 1992 on eight counts of making false statements to induce investment and ten counts of theft, and was sentenced to ten years in prison; he was paroled after serving about four. The British government, facing public outrage that regulators had missed the warning signs for years, ultimately paid out £153 million in compensation to victims, and liquidators later recovered a further £156 million from the offshore structure Clowes had built to hide it.
+
+The Barlow Clowes collapse became one of the defining UK financial scandals of its era specifically because it targeted the investors least equipped to absorb a loss — retirees drawn in by the word "gilt-edged" — and because it showed how a legitimate strategy that quietly stops working can curdle into fraud the moment the person running it chooses concealment over honesty with clients.`,
+    sourceUrl: 'https://en.wikipedia.org/wiki/Barlow_Clowes',
+  },
+  {
+    title: "Subrata Roy: The Sahara Chief Whose Investors Never Got Paid Back",
+    slug: 'subrata-roy-sahara-ofcd-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'historical'],
+    body: `Subrata Roy founded and chaired Sahara India Pariwar, one of India's largest conglomerates, spanning finance, real estate, media, and sports sponsorships. Between 2008 and 2011, two Sahara group companies raised a staggering sum of money from ordinary Indian savers through financial instruments called Optionally Fully Convertible Debentures — a structure India's securities regulator later found had been deliberately designed to dodge the disclosure and registration requirements that a genuine private placement wouldn't need, while functioning in substance as a public offering to an estimated 30 million small investors.
+
+The scale involved was extraordinary even by the standards of Indian corporate history: the two Sahara companies raised over ₹17,656 crore — more than $3 billion — through these debentures. India's Securities and Exchange Board (SEBI) ordered the companies to refund investors with interest in June 2011, and the Supreme Court of India upheld that order in August 2012, directing repayment of roughly ₹24,000 crore plus 15% interest — one of the largest investor-repayment orders in the country's history.
+
+Sahara did not comply. When repayment failed to materialize, the Supreme Court issued a non-bailable arrest warrant for contempt of court, and Roy was arrested in March 2014, spending roughly two years in Delhi's Tihar Jail before being released on parole and later bail in 2016. It's worth being precise about the legal record here: this was a securities-regulation and contempt matter decided through SEBI's civil enforcement powers and the Supreme Court's contempt jurisdiction, not a criminal fraud trial and verdict — the underlying question of whether and how the raised funds would ever be fully returned to investors remained a subject of ongoing dispute for years afterward. Roy died in November 2023, with the matter still not fully resolved.
+
+The Sahara case illustrates a version of financial fraud that doesn't always fit neatly into a single criminal conviction — sometimes the harm to millions of small investors plays out instead through years of regulatory findings, court orders, and an unresolved question of whether money already spent can ever really be made whole again.`,
+    sourceUrl: 'https://www.mondaq.com/india/shareholders/203796/sahara-vs-sebi-an-in-depth-analysis-of-the-landmark-supreme-court-ruling',
+  },
 ];
 
 // Practical "how it works / red flags / what to do" guides covering the
