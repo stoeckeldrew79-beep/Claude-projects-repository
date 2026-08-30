@@ -1,5 +1,10 @@
 import { useEffect, useRef } from 'react';
 import * as THREE from 'three';
+import { mesh } from 'topojson-client';
+import type { Topology, GeometryCollection } from 'topojson-specification';
+// Simplified (110m) Natural Earth country boundaries — ~108KB, bundled
+// locally so the globe never depends on a runtime tile/map service.
+import worldTopology from 'world-atlas/countries-110m.json';
 import { CountryCount } from '../services/globe';
 import { countryName } from '../utils/countries';
 
@@ -57,7 +62,30 @@ function buildGraticuleSphere(radius: number): THREE.LineSegments {
   }
 
   const geometry = new THREE.BufferGeometry().setFromPoints(points);
-  const material = new THREE.LineBasicMaterial({ color: 0x2a4a6b, transparent: true, opacity: 0.5 });
+  const material = new THREE.LineBasicMaterial({ color: 0x2a4a6b, transparent: true, opacity: 0.22 });
+  return new THREE.LineSegments(geometry, material);
+}
+
+// Real country/coastline borders traced in silver — the "extreme
+// intelligence" ops-center look, rather than a blank sphere with only a
+// lat/long grid. topojson's mesh() dedupes shared borders so each line
+// between two countries is drawn once, not twice.
+function buildCountryBorders(radius: number): THREE.LineSegments {
+  const topology = worldTopology as unknown as Topology;
+  const countries = topology.objects.countries as GeometryCollection;
+  const borders = mesh(topology, countries);
+
+  const points: THREE.Vector3[] = [];
+  for (const line of borders.coordinates) {
+    for (let i = 0; i < line.length - 1; i++) {
+      const [lon1, lat1] = line[i];
+      const [lon2, lat2] = line[i + 1];
+      points.push(latLonToVector3(lat1, lon1, radius), latLonToVector3(lat2, lon2, radius));
+    }
+  }
+
+  const geometry = new THREE.BufferGeometry().setFromPoints(points);
+  const material = new THREE.LineBasicMaterial({ color: 0xc9d6e6, transparent: true, opacity: 0.8 });
   return new THREE.LineSegments(geometry, material);
 }
 
@@ -98,6 +126,7 @@ export function Globe3D({
     );
     globeRoot.add(core);
     globeRoot.add(buildGraticuleSphere(radius));
+    globeRoot.add(buildCountryBorders(radius * 1.001));
 
     const maxCount = Math.max(1, ...data.map((d) => d.count));
     const markerGroup = new THREE.Group();
