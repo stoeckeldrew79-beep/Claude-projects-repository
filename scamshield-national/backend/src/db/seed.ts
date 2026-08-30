@@ -3138,10 +3138,9 @@ Before hiring any interstate mover, verify the company's USDOT number through FM
     title: 'Locksmith Scams: The $15 Quote That Becomes a $300 Bill at Your Door',
     slug: 'locksmith-bait-and-switch-scam-guide',
     author: 'ScamShield Editorial',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Standard-lock-key.jpg?width=1200',
-    coverImageCredit: 'Photo: Evan-Amos (public domain)',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Lockpicking-Set.jpg?width=1200',
+    coverImageCredit: 'Photo: GeoTrinity (CC BY-SA 3.0)',
     coverImagePosition: 50,
-    // representative photo — replace with an exact match if found
     tags: ['guide', 'locksmith-scam'],
     sourceUrl: 'https://www.bbb.org/article/news-releases/22797-bbb-scam-alert-locked-out-dont-fall-for-a-locksmith-cons',
     body: `Locked out of a car or a home, most people search online or call the first number that comes up, and get a strikingly cheap quote — sometimes as low as $15 — for a locksmith to come open the door. That number is rarely what actually gets charged: once the technician arrives, they find reason after reason to raise the price, and by the time the door is open, the bill has often grown to hundreds of dollars more than what was quoted.
@@ -3157,6 +3156,9 @@ Before you're ever locked out, the BBB recommends researching and saving the con
     slug: 'fake-event-ticket-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'ticket-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Hoquiam,%20WA%20-%207th%20St%20Theatre%20ticket%20booth.jpg?width=1200',
+    coverImageCredit: 'Photo: Joe Mabel (CC BY-SA 3.0)',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.bbb.org/article/scams/20661-big-festivals-and-seasonal-events-fabulous-fizzled-or-fake',
     body: `A concert, festival, or big game sells out fast, and a quick search turns up someone online offering exactly the tickets you need — sometimes through a professional-looking third-party website, sometimes through a social media post or group. You pay, usually by card or a payment app, and either receive nothing at all or a "ticket" that turns out to be a duplicate, already scanned and used by someone who bought the same fraudulent listing before you.
 
@@ -3171,6 +3173,10 @@ The safest path is buying directly from the venue, the artist's official site, o
     slug: 'reverse-mortgage-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'reverse-mortgage-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Small%20Single-family%20home.jpg?width=1200',
+    coverImageCredit: 'Photo: SanjibLemar (Public Domain)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.consumerfinance.gov/archive/blog/avoid-reverse-mortgage-shopping-scams/',
     body: `A reverse mortgage lets homeowners age 62 and older borrow against their home's equity without making monthly payments, with the loan repaid when they move, sell, or pass away. It's a legitimate financial product for the right situation — but the large lump sum of cash it can generate, combined with a borrower population that's often older and sometimes more vulnerable to pressure, has made it a consistent target for fraud built around the loan itself rather than a fake lender.
 
@@ -3185,6 +3191,9 @@ Before taking out a reverse mortgage, the CFPB recommends talking to more than o
     slug: 'vacation-rental-booking-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'vacation-rental-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/A%20Rental%20Beach%20House%20on%20the%20Shore%20of%20Mayaro%20Beach,%20Trinidad%20and%20Tobago.jpg?width=1200',
+    coverImageCredit: 'Photo: Melissa.s (CC BY-SA 4.0)',
+    coverImagePosition: 50,
     sourceUrl: 'https://consumer.ftc.gov/articles/rental-listing-scams',
     body: `Vacation rental scams generally work one of two ways. In the first, a scammer copies the photos and description from a real, currently listed property, strips out the actual owner's contact information, and reposts it — often on a different site or social media marketplace — with the scammer's own contact details attached. In the second, the listing is entirely fabricated: a property that doesn't exist, isn't actually available, or isn't the scammer's to rent at all, frequently priced noticeably below what comparable places in the area are charging.
 
