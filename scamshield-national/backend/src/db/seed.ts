@@ -10250,6 +10250,39 @@ const SEED_SCAMS: SeedScam[] = [
     sourceUrl: 'https://www.kokusen.go.jp/news/data/n-20240131_1.html',
   },
   {
+    name: 'Fake Webcam Sextortion Email Demanding Cryptocurrency',
+    slug: 'japan-sextortion-cryptocurrency-email-scam',
+    description:
+      "Mass unsolicited emails claim the sender hacked the recipient's device or planted malware on an adult website to record them via webcam while viewing adult content, then threaten to send the footage to the victim's family and coworkers unless payment — commonly around $5,000 in Bitcoin — is sent within 48 to 50 hours; some versions include an old, breached password in the subject line to appear credible. Japan's Information-technology Promotion Agency (IPA) has confirmed that none of the emails it examined ever attached an actual video or link to one, and it has never confirmed a single case where footage was actually leaked after a recipient declined to pay.",
+    categorySlug: 'sextortion',
+    country: 'JP',
+    alertLevel: 'low',
+    sources: ['Information-technology Promotion Agency (IPA)'],
+    sourceUrl: 'https://www.ipa.go.jp/security/anshin/attention/2018/mgdayori20181010.html',
+  },
+  {
+    name: 'Fake Debt Collector and Forged Lawyer Settlement Scam',
+    slug: 'japan-fake-debt-collector-lawyer-settlement-scam',
+    description:
+      'A caller posing as a debt collection agency tells the victim they owe unpaid fees or damages from an old, half-remembered contract — such as a supposed "online investment school" membership — often totaling several million yen, and that filing a lawsuit can be avoided by "settling" through the operator\'s insurance if the victim first pays a refundable security deposit. Once the victim agrees, a second caller poses as the membership operator and says a lawyer will follow up by email; that "lawyer" then sends a fabricated settlement certificate as forged proof the deposit will later be reimbursed. Japan\'s National Consumer Affairs Center investigated a reported case and confirmed the named debt collector, insurer, and "project operator" had made no such claims at all.',
+    categorySlug: 'debt-relief-scams',
+    country: 'JP',
+    alertLevel: 'medium',
+    sources: ['National Consumer Affairs Center of Japan (NCAC)'],
+    sourceUrl: 'https://www.kokusen.go.jp/news/data/n-20200130_2.html',
+  },
+  {
+    name: 'Disaster-Relief SNS DM Code-Payment Refund Scam',
+    slug: 'japan-disaster-sns-dm-code-payment-refund-scam',
+    description:
+      'After an earthquake struck Kumamoto in 2026, a direct message sent from a followed business\'s social media account (genuine or spoofed) claimed that buying a product through a linked website would both donate to disaster relief and refund more than the purchase price via a code-based mobile payment app; the link led to a LINE group where a handler walked victims through small purchases that were genuinely over-refunded at first to build trust. After several rounds, requests escalated to much larger payments, with no further refund ever arriving. Japan\'s National Consumer Affairs Center issued an urgent bulletin warning that any claim of being repaid through a code-payment app is a scam, explicitly distinguishing this SNS-DM-and-LINE-group method from older phone- or mail-based fake charity solicitations that followed earlier disasters.',
+    categorySlug: 'charity-scams',
+    country: 'JP',
+    alertLevel: 'high',
+    sources: ['National Consumer Affairs Center of Japan (NCAC)'],
+    sourceUrl: 'https://www.kokusen.go.jp/news/data/n-20260817_1.html',
+  },
+  {
     name: 'Mississippi Banking Department Money-Laundering Investigation Impersonation',
     slug: 'mississippi-dbcf-money-laundering-impersonation-scam',
     description:
