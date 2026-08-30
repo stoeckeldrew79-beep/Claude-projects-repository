@@ -3386,6 +3386,34 @@ A useful defense starts before a scammer ever gets involved: when posting about 
 
 If you're contacted about a lost pet, call back on an independently verified number rather than the one that contacted you, check any "pet search service" through BBB.org before paying anything, and never wire money or send gift card codes to recover an animal you haven't independently confirmed is actually yours. Microchipping pets and using a GPS-enabled collar tag makes a real recovery far more likely to begin with, and if you believe an actual theft-for-ransom situation is underway, it's worth contacting local police as well.`,
   },
+  {
+    title: 'Accidental Payment Scams: Why That "Oops, Wrong Person" Zelle or Venmo Refund Request Is Fake',
+    slug: 'accidental-payment-refund-scam-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'accidental-payment-scam'],
+    sourceUrl: 'https://www.staysafeonline.org/articles/protect-your-wallet-from-accidental-deposit-scams',
+    body: `A stranger's payment lands in your Venmo, Zelle, or Cash App account — often several hundred to a few thousand dollars — with no explanation. Within minutes or hours, a text or in-app message follows: apologetic and urgent, claiming the money was sent by mistake (a typo in the username, a payment meant for someone else) and asking you to send it right back. Because the deposit already shows up as available in your balance, returning it feels like simple courtesy rather than a decision that deserves scrutiny.
+
+The payment itself isn't actually a mistake — it's stolen. According to the National Cybersecurity Alliance, scammers first hack into someone else's bank account or credit card, link it to a fraudulent profile on a payment app, and then send funds to a real, randomly chosen user — effectively using a stranger's account to launder money pulled from a hacked one. When the real account holder or their bank discovers the unauthorized transaction, the original deposit into your account gets reversed — but the money you personally sent back to the "sender" is gone for good, since that transfer was real, instant, and irreversible. Victims often don't realize what happened until their balance drops twice: once when the fraudulent deposit is clawed back, and again for the amount they voluntarily "returned."
+
+Warning signs include an unexplained payment from someone you don't recognize; a follow-up message claiming it was sent "by accident" or due to a "typo," often within hours of the deposit; pressure to return the money quickly and directly rather than through the bank or app's own dispute process; and any request to send the refund back as cash, gift cards, or a different app than the one the "mistaken" payment arrived on.
+
+If money you don't recognize appears in a P2P account, don't send anything back directly to whoever contacted you, and don't spend it. Contact the app's official customer support through the app itself — not a number or link the sender provides — and let the company investigate and reverse the transaction through proper channels. Screenshot the payment and any messages for your records. If you've already sent money back, report it immediately to the payment app, your bank, and the FTC at ReportFraud.ftc.gov; the sooner it's reported, the better the odds of limiting further loss.`,
+  },
+  {
+    title: "Freelance Platform Impostor Scams: When the Upwork or Fiverr Freelancer You Hired Isn't Who Their Profile Says",
+    slug: 'freelance-platform-impostor-scam-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'freelance-platform-impostor-scam'],
+    sourceUrl: 'https://www.bbb.org/article/scams/22645-bbb-scam-alert-hiring-freelance-help-watch-out-for-impostors',
+    body: `A business posts a project on Upwork, Fiverr, or Freelancer.com and gets an unusually strong response: a candidate with a polished portfolio, glowing reviews, and an experience level that would normally command a premium rate — but who's charging a fraction of the going one. The photo, resume, and portfolio work are real, but they belong to an actual working professional whose identity or materials were stolen and repurposed onto a fake account. In some cases, scammers even contact the real freelancer directly and ask, or offer to pay, for "permission" to reuse their profile.
+
+After being hired, the impostor typically requests an upfront deposit, sometimes pushed to a payment method outside the platform's built-in escrow system, where dispute protections don't apply. The BBB documented a case where a Fiverr client paid $1,000 upfront on a $2,000 project through a separate payment app, only for the freelancer to demand an additional $12,000 mid-project while delivering minimal work; when the client asked for a refund, the payment app — since the transaction hadn't gone through the platform's own protected system — sided with the freelancer, leaving the client with no recourse.
+
+Red flags include rates well below the market average for the stated experience level (the BBB specifically cites a "senior" web developer advertising around $25 an hour as a typical tell), any push to communicate or pay outside the platform's own messaging and payment system, refusal or evasiveness about a live video call, and a portfolio or resume that can't be independently verified against the person's actual LinkedIn profile, personal website, or other public presence.
+
+Before hiring, verify the freelancer's identity independently: a reverse image search on their profile photo, a direct look at their LinkedIn or personal site, and a short video call are enough to catch most impostors, since real freelancers are rarely camera-shy. Keep every payment and message inside the platform's own system — that's what preserves your ability to dispute a charge or request a platform-backed refund; a freelancer who pushes for payment through a separate app, wire transfer, or cryptocurrency is asking you to give up that protection. If you're a working freelancer, periodically search your own name, photo, and portfolio text online to check whether someone has copied them onto a fake profile, and report any suspected impostor account to both the platform and BBB Scam Tracker.`,
+  },
 ];
 
 async function seedArticles(articles: SeedArticle[], label: string) {
