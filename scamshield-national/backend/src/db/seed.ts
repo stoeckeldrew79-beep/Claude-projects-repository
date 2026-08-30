@@ -3586,6 +3586,12 @@ interface SeedScam {
   // ISO date (YYYY-MM-DD) of the earliest well-documented instance —
   // only set on isHistorical entries, where a specific real date exists.
   firstRecorded?: string;
+  // Two-letter USPS state code — only set when the scam is genuinely
+  // tied to a specific state (a state agency impersonation, a state AG
+  // alert, a state-run benefit program), never guessed. Powers the
+  // Global Map's future zoom-to-region view via scam_locations; leave
+  // unset for nationwide patterns.
+  state?: string;
 }
 
 const SEED_SCAMS: SeedScam[] = [
@@ -8238,6 +8244,7 @@ const SEED_SCAMS: SeedScam[] = [
     alertLevel: 'high',
     sources: ['California Employment Development Department (EDD)'],
     sourceUrl: 'https://www.edd.ca.gov/en/newsroom/benefitting-californians/2024/best-practices-to-protect-yourself-and-avoid-scammers/',
+    state: 'CA',
   },
   {
     name: 'State DMV Unpaid Toll Text Scam',
@@ -8258,6 +8265,7 @@ const SEED_SCAMS: SeedScam[] = [
     alertLevel: 'high',
     sources: ['California Attorney General'],
     sourceUrl: 'https://oag.ca.gov/news/press-releases/attorney-general-bonta-warns-californians-text-based-scams-targeting-taxpayers',
+    state: 'CA',
   },
   {
     name: 'DoorDash Dasher Account-Takeover Phishing',
@@ -8806,6 +8814,7 @@ const SEED_SCAMS: SeedScam[] = [
     alertLevel: 'high',
     sources: ['Michigan Department of Labor and Economic Opportunity (LEO)'],
     sourceUrl: 'https://www.michigan.gov/leo/news/2026/08/20/uia-warns-of-phone-scam-promising-unpaid-benefits-for-a-fee',
+    state: 'MI',
   },
   {
     name: 'PG&E "Barcode/QR Code" Utility Shutoff Scam',
@@ -9387,6 +9396,7 @@ const SEED_SCAMS: SeedScam[] = [
     alertLevel: 'medium',
     sources: ['Texas Attorney General', 'Harris County Appraisal District'],
     sourceUrl: 'https://www.texasattorneygeneral.gov/news/releases/ag-paxton-issues-consumer-alert-misleading-homestead-tax-exemption-offers',
+    state: 'TX',
   },
   {
     name: 'Post-Hurricane Storm-Chaser Contractor and Insurance Fraud',
@@ -9583,6 +9593,7 @@ const SEED_SCAMS: SeedScam[] = [
     alertLevel: 'high',
     sources: ['New York State Gaming Commission'],
     sourceUrl: 'https://gaming.ny.gov/news/consumer-alert-beware-mega-millions-imposter-scam',
+    state: 'NY',
   },
   {
     name: 'Illinois DMV Registration-Suspension Text Scam',
@@ -9593,6 +9604,7 @@ const SEED_SCAMS: SeedScam[] = [
     alertLevel: 'medium',
     sources: ['Illinois Secretary of State'],
     sourceUrl: 'https://www.ilsos.gov/news/2026/march-22-2026-giannoulias-warns-public-about-fraudulent-dmv-text-scams.html',
+    state: 'IL',
   },
   {
     name: 'Gamified "Task Scam" Job App',
@@ -9676,6 +9688,7 @@ const SEED_SCAMS: SeedScam[] = [
     alertLevel: 'medium',
     sources: ['Arizona Department of Transportation'],
     sourceUrl: 'https://azdot.gov/news/dont-fall-scam-texts-using-adot-motor-vehicle-division-logo',
+    state: 'AZ',
   },
   {
     name: 'Fake CAPTCHA "ClickFix" Malware Scam',
@@ -9769,6 +9782,7 @@ const SEED_SCAMS: SeedScam[] = [
     alertLevel: 'medium',
     sources: ['Wisconsin Department of Agriculture, Trade and Consumer Protection (DATCP)'],
     sourceUrl: 'https://datcp.wi.gov/Pages/News_Media/20241220ScammersImpersonateDATCPTargetLicenseHolders.aspx',
+    state: 'WI',
   },
   {
     name: 'College Tuition Billing Impersonation Scam',
@@ -9852,6 +9866,7 @@ const SEED_SCAMS: SeedScam[] = [
     alertLevel: 'high',
     sources: ['State Medical Board of Ohio'],
     sourceUrl: 'https://med.ohio.gov/about-the-board/communications/news/beware-of-new-phone-scam-feb.2026',
+    state: 'OH',
   },
   {
     name: 'Colorado Tax Refund Text Message Scam',
@@ -9862,6 +9877,7 @@ const SEED_SCAMS: SeedScam[] = [
     alertLevel: 'medium',
     sources: ['Colorado Department of Revenue'],
     sourceUrl: 'https://tax.colorado.gov/press-release/department-of-revenue-warns-fraudsters-targeting-colorado-taxpayers-through-text',
+    state: 'CO',
   },
   {
     name: 'Fraudulent Voter Registration Verification Scam',
@@ -9955,6 +9971,7 @@ const SEED_SCAMS: SeedScam[] = [
     alertLevel: 'medium',
     sources: ['Nevada Department of Motor Vehicles', 'FOX5 Las Vegas'],
     sourceUrl: 'https://dmv.nv.gov/news/26004_Nevada_DMV_issues_scam_warning.htm',
+    state: 'NV',
   },
   {
     name: 'Fake Rental Car Reservation Scam',
@@ -10068,6 +10085,7 @@ const SEED_SCAMS: SeedScam[] = [
     alertLevel: 'high',
     sources: ['Michigan Department of Insurance and Financial Services', 'Michigan Department of Health and Human Services'],
     sourceUrl: 'https://www.michigan.gov/difs/news-and-outreach/press-releases/2023/05/15/medicaid-beneficiaries-urged-to-protect-themselves-from-eligibility-redetermination-scams',
+    state: 'MI',
   },
   {
     name: 'Utah Fake Auto Insurance Agent WhatsApp Scam',
@@ -10244,6 +10262,7 @@ const SEED_SCAMS: SeedScam[] = [
     alertLevel: 'medium',
     sources: ['Colorado Division of Real Estate'],
     sourceUrl: 'https://dre.colorado.gov/timeshare-scams',
+    state: 'CO',
   },
   {
     name: 'Debt-Relief Loan Bait-and-Switch Enrollment Scam',
@@ -10444,6 +10463,7 @@ const SEED_SCAMS: SeedScam[] = [
     alertLevel: 'medium',
     sources: ["Missouri Attorney General's Office"],
     sourceUrl: 'https://ago.mo.gov/attorney-general-bailey-sues-branson-based-timeshare-exit-company-for-violations-of-consumer-protection-laws/',
+    state: 'MO',
   },
   {
     name: 'Attorney-Model Debt Settlement Fee-Cap Evasion Scam',
@@ -10494,6 +10514,7 @@ const SEED_SCAMS: SeedScam[] = [
     alertLevel: 'medium',
     sources: ["Minnesota Attorney General's Office"],
     sourceUrl: 'https://www.ag.state.mn.us/Office/Communications/2025/01/23_TimeshareExit.asp',
+    state: 'MN',
   },
   {
     name: 'Chinese Police Impersonation "Cyber-Kidnapping" Scam Targeting International Students',
@@ -10640,6 +10661,7 @@ const SEED_SCAMS: SeedScam[] = [
     alertLevel: 'high',
     sources: ["West Virginia Attorney General's Office"],
     sourceUrl: 'https://ago.wv.gov/article/consumer-alert-dont-fall-fake-government-shutdown-relief-offers',
+    state: 'WV',
   },
   {
     name: 'MNsure Health Insurance Marketplace Scam',
@@ -10948,6 +10970,7 @@ const SEED_SCAMS: SeedScam[] = [
     alertLevel: 'high',
     sources: ['Washington State Board of Nursing (WABON)'],
     sourceUrl: 'https://nursing.wa.gov/news/2024/scam-alert',
+    state: 'WA',
   },
   {
     name: 'Hedera Hashgraph NFT Airdrop Wallet-Draining Scam',
@@ -10968,6 +10991,7 @@ const SEED_SCAMS: SeedScam[] = [
     alertLevel: 'medium',
     sources: ['New York State Department of Motor Vehicles'],
     sourceUrl: 'https://dmv.ny.gov/news/dmv-warns-new-yorkers-of-new-phishing-scam',
+    state: 'NY',
   },
   {
     name: 'Lyft Driver Account Phishing and Earnings Theft',
@@ -11601,6 +11625,7 @@ const SEED_SCAMS: SeedScam[] = [
     alertLevel: 'high',
     sources: ['Texas Department of Motor Vehicles (TxDMV)'],
     sourceUrl: 'https://txdmv.blogs.govdelivery.com/txdmv-warns-texans-about-ongoing-text-scam/',
+    state: 'TX',
   },
   {
     name: 'Con Edison Prepaid-Card Disconnection Scam',
@@ -11668,8 +11693,9 @@ async function seedCategoriesAndScams() {
   }
   console.log(`seed: upserted ${SEED_CATEGORIES.length} categories`);
 
+  let locationsUpserted = 0;
   for (const scam of SEED_SCAMS) {
-    await pool.query(
+    const { rows } = await pool.query(
       `INSERT INTO scams (name, slug, description, category_id, alert_level, is_active, sources, source_url, country, is_historical, first_recorded)
        VALUES ($1, $2, $3, (SELECT id FROM categories WHERE slug = $4), $5, true, $6, $7, $8, $9, $10)
        ON CONFLICT (slug) DO UPDATE SET
@@ -11682,7 +11708,8 @@ async function seedCategoriesAndScams() {
          country = EXCLUDED.country,
          is_historical = EXCLUDED.is_historical,
          first_recorded = EXCLUDED.first_recorded,
-         updated_at = NOW()`,
+         updated_at = NOW()
+       RETURNING id`,
       [
         scam.name,
         scam.slug,
@@ -11696,8 +11723,18 @@ async function seedCategoriesAndScams() {
         scam.firstRecorded ?? null,
       ]
     );
+
+    if (scam.state) {
+      await pool.query(
+        `INSERT INTO scam_locations (scam_id, state)
+         VALUES ($1, $2)
+         ON CONFLICT (scam_id) DO UPDATE SET state = EXCLUDED.state, updated_at = NOW()`,
+        [rows[0].id, scam.state]
+      );
+      locationsUpserted++;
+    }
   }
-  console.log(`seed: upserted ${SEED_SCAMS.length} scams`);
+  console.log(`seed: upserted ${SEED_SCAMS.length} scams (${locationsUpserted} with a state location)`);
 }
 
 interface SeedGlobalSource {
