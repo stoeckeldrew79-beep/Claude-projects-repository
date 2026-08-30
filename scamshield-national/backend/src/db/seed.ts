@@ -10149,6 +10149,46 @@ const SEED_SCAMS: SeedScam[] = [
     sourceUrl: 'https://www.ic3.gov/PSA/2025/PSA251205',
   },
   {
+    name: 'Timeshare Points/Bonus-Week Rental Advance-Fee Scam',
+    slug: 'timeshare-points-bonus-week-rental-scam',
+    description:
+      'A company cold-calls timeshare owners who have unused points or "bonus weeks," claiming it has corporate clients or vacationers ready to rent them, and collects an upfront "reservation," "listing," or "insurance" fee before any booking occurs, often with a "100% guaranteed" refund promise if a unit goes unrented. In practice, the rental offers that do arrive fall through for pretextual reasons — the resort is suddenly "unavailable" — no rental income is ever paid, and the promised refund guarantee is never honored once the owner asks for money back. This targets owners seeking rental income from unused inventory, distinct from resale scams (selling ownership) or exit scams (canceling the contract).',
+    categorySlug: 'timeshare-scams',
+    alertLevel: 'medium',
+    sources: ['Better Business Bureau'],
+    sourceUrl: 'https://www.bbb.org/us/fl/lake-mary/profile/timeshare-resale-and-rental-marketing/points-payment-management-0733-235958211/complaints',
+  },
+  {
+    name: '"Green Mirage" Spoofed Mortgage-Servicer Relief Call Scam',
+    slug: 'green-mirage-spoofed-mortgage-servicer-scam',
+    description:
+      "Callers impersonate a homeowner's actual mortgage lender or servicer, spoofing that institution's real caller ID and often already knowing the homeowner's name, address, and loan history — timed to reach homeowners who previously contacted their real lender about payment relief and are expecting a callback. The caller threatens foreclosure but offers to stop it if the homeowner pays immediately through an unusual channel — commonly mailing a money order to a third-party \"attorney\" or loading funds onto a prepaid MoneyPak-style card — instead of the homeowner's normal payment method, so the money never reaches the real loan. The FCC identified the operation behind this campaign, dubbed \"Green Mirage,\" as having spoofed more than 400 real mortgage institutions across all 50 states; many victims only discover the fraud when their actual lender begins real foreclosure proceedings over payments that were never received.",
+    categorySlug: 'mortgage-foreclosure-scams',
+    alertLevel: 'critical',
+    sources: ['Federal Communications Commission (FCC)'],
+    sourceUrl: 'https://docs.fcc.gov/public/attachments/DOC-408794A1.pdf',
+  },
+  {
+    name: 'Business Email Compromise Targeting City and County Government Payments',
+    slug: 'bec-municipal-government-vendor-payment-fraud',
+    description:
+      "Rather than a private company, the target is a local government office: scammers compromise or spoof an email tied to a vendor, contractor, or attorney relationship and send altered wire instructions for a large public payment into a fraudulent account. The FBI's Internet Crime Complaint Center documented a case in which a city government office in Oregon lost more than $6 million this way in April 2025; the loss was recoverable only because the FBI's Recovery Asset Team had already flagged the same fraudulent receiving account from an unrelated BEC case the previous month, letting the bank confirm the wire instructions were fraudulent and recall the transfer before the funds could be moved again.",
+    categorySlug: 'business-email-compromise',
+    alertLevel: 'critical',
+    sources: ['FBI Internet Crime Complaint Center (IC3)'],
+    sourceUrl: 'https://www.ic3.gov/AnnualReport/Reports/2025_IC3Report.pdf',
+  },
+  {
+    name: 'Bill-Pay Impersonator Website Scam',
+    slug: 'bill-pay-impersonator-website-scam',
+    description:
+      "Fraudulent bill-payment companies buy sponsored search ads that outrank a real biller's own site when a consumer searches for where to pay a utility, medical-lab, or toll bill. The look-alike site processes the payment but adds undisclosed markup fees on top of the real amount owed, misrepresenting itself as the official payment channel for the actual biller. Unlike phone-based \"fake customer service number\" scams, this variant requires no live scammer or phone call — the deception and financial harm occur entirely through a self-service payment portal the consumer believes is the biller's own site.",
+    categorySlug: 'phishing',
+    alertLevel: 'medium',
+    sources: ['Federal Trade Commission (FTC)'],
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2026/08/searching-online-bill-pay-impersonators',
+  },
+  {
     name: 'Counterfeit Prescription Pills Sold via Social Media',
     slug: 'counterfeit-pills-social-media',
     description:
