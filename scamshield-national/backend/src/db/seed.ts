@@ -10424,6 +10424,56 @@ const SEED_SCAMS: SeedScam[] = [
     sourceUrl: 'https://www.ic3.gov/PSA/2026/PSA260430',
   },
   {
+    name: 'Minnesota Timeshare Exit "Debt Settlement" Licensing Evasion Scam',
+    slug: 'minnesota-timeshare-exit-debt-settlement-licensing-scam',
+    description:
+      'Timeshare "exit" companies marketed nationwide, collecting large upfront fees from owners on promises to permanently release them from their contracts and maintenance-fee obligations. Because this kind of service functions as a debt-settlement service, Minnesota law requires state licensing and limits how such fees can be charged; the companies operated without the required license and took payment before delivering the promised relief. Following an investigation, Minnesota\'s Attorney General reached settlements requiring more than $269,000 in consumer refunds, and advised owners to contact their timeshare company directly or consult a licensed attorney rather than pay a third-party exit company upfront.',
+    categorySlug: 'timeshare-scams',
+    alertLevel: 'medium',
+    sources: ["Minnesota Attorney General's Office"],
+    sourceUrl: 'https://www.ag.state.mn.us/Office/Communications/2025/01/23_TimeshareExit.asp',
+  },
+  {
+    name: 'Chinese Police Impersonation "Cyber-Kidnapping" Scam Targeting International Students',
+    slug: 'chinese-police-impersonation-cyber-kidnapping-international-students',
+    description:
+      "Scammers impersonating Chinese police contact Chinese nationals studying at U.S. universities, falsely claiming the student is implicated in a serious financial crime being investigated in China and threatening arrest or deportation unless the student cooperates. Victims are pressured to consent to round-the-clock video and audio monitoring, cut off contact with friends and family, and in some cases are directed to stage photos that make them appear captive, while the scammers separately contact the student's family back in China, present the staged images as proof of a real kidnapping, and demand a ransom wire transfer. The FBI has documented this pattern at U.S. universities nationwide, including a January 2024 case in Riverdale, Utah, in which a 17-year-old Chinese exchange student was found alive in a tent after his family had already wired an $80,000 ransom believing he had been abducted.",
+    categorySlug: 'family-emergency-scams',
+    alertLevel: 'critical',
+    sources: ['FBI', 'FBI Internet Crime Complaint Center (IC3)'],
+    sourceUrl: 'https://www.ic3.gov/PSA/2024/PSA240103',
+  },
+  {
+    name: 'Snapchat "Quick Add" Algorithm-Facilitated Sextortion (New Mexico AG Lawsuit)',
+    slug: 'snapchat-quick-add-algorithm-sextortion-new-mexico-lawsuit',
+    description:
+      'New Mexico\'s Attorney General sued Snap Inc., alleging that Snapchat\'s "Quick Add" feature algorithmically suggests adult strangers as contacts to minors\' accounts, while Snap Map and the app\'s disappearing-message design make it easier for predators to locate children and message them without a parent noticing. The lawsuit alleges this platform design is regularly exploited to build rapid contact with a minor before demanding explicit images, then threatening to distribute captured images or screen recordings unless the child pays or sends more content — with disappearing messages complicating the evidence trail for victims and investigators afterward. The unredacted complaint cites internal Snap communications acknowledging the risk and a prior Albuquerque criminal case in which a man convicted of raping an 11-year-old girl had first contacted her through Quick Add.',
+    categorySlug: 'sextortion',
+    alertLevel: 'high',
+    sources: ['New Mexico Department of Justice (Office of the Attorney General)'],
+    sourceUrl: 'https://nmdoj.gov/press-release/attorney-general-raul-torrez-files-lawsuit-against-snap-inc-to-protect-children-from-sextortion-sexual-exploitation-and-other-harms/',
+  },
+  {
+    name: '"Ghost Tapping" NFC Relay Card Scam',
+    slug: 'ghost-tapping-nfc-relay-card-scam',
+    description:
+      'Scammers pose as a bank\'s fraud department by phone or text and persuade the victim to install what looks like a legitimate banking or "verification" app, which is actually malware. The victim is told to tap their physical debit or credit card against their own phone for "identity verification," which instead captures the card\'s near-field-communication (NFC) payment data and relays it in real time to another device — letting the scammer make in-person purchases using the victim\'s card credentials without ever holding the card. A related, simpler variant has scammers or accomplices brush against victims in crowds, or set up fake vendor stands at events, using a hidden reader to trigger a tap-to-pay charge directly on a victim\'s card or phone.',
+    categorySlug: 'identity-theft',
+    alertLevel: 'high',
+    sources: ['Better Business Bureau (BBB)'],
+    sourceUrl: 'https://www.bbb.org/all/consumer/scam/how-to-spot-and-avoid-tap-to-pay-scams',
+  },
+  {
+    name: '"You\'re Invited" Calendar Invite Phishing Scam',
+    slug: 'youre-invited-calendar-invite-phishing-scam',
+    description:
+      'Scammers send an unsolicited text or email formatted as a digital party or graduation invitation from a well-known platform such as Evite or Paperless Post, frequently naming a real friend or acquaintance as the host to appear credible. Opening the "invitation" prompts the recipient to enter an email address and password, or a phone number plus a one-time code, ostensibly to view event details or RSVP — information that actually goes to the scammer and can be used to take over the victim\'s email or messaging account. Once an account is compromised, the same fake invite is often relayed to the victim\'s own contact list, helping the scam spread further.',
+    categorySlug: 'phishing',
+    alertLevel: 'medium',
+    sources: ['Federal Trade Commission (FTC)'],
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2026/05/asked-enter-your-email-address-and-password-open-party-invite-thats-scam',
+  },
+  {
     name: 'Counterfeit Prescription Pills Sold via Social Media',
     slug: 'counterfeit-pills-social-media',
     description:
