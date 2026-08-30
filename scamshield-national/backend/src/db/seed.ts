@@ -3481,6 +3481,22 @@ Red flags include rates well below the market average for the stated experience 
 
 Before hiring, verify the freelancer's identity independently: a reverse image search on their profile photo, a direct look at their LinkedIn or personal site, and a short video call are enough to catch most impostors, since real freelancers are rarely camera-shy. Keep every payment and message inside the platform's own system — that's what preserves your ability to dispute a charge or request a platform-backed refund; a freelancer who pushes for payment through a separate app, wire transfer, or cryptocurrency is asking you to give up that protection. If you're a working freelancer, periodically search your own name, photo, and portfolio text online to check whether someone has copied them onto a fake profile, and report any suspected impostor account to both the platform and BBB Scam Tracker.`,
   },
+  {
+    title: 'Dating Site "Verification" Scams: The Fake Safety Check That Steals Your Card Number',
+    slug: 'dating-site-verification-scam-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'dating-verification-scam'],
+    sourceUrl: 'https://www.ic3.gov/PSA/2024/PSA240426',
+    body: `A dating verification scam begins on a real dating app or site, with what looks like a normal match. The conversation moves quickly, and within a message or two the other person suggests continuing on a different, encrypted platform like WhatsApp or Telegram — often framed as more private or personal than the dating app itself. Before agreeing to a call or an in-person meeting, they send a link to a "verification" or "safe dating" website, explaining that running a background check together is just a smart precaution before meeting a stranger from the internet. It's a pitch built on good advice: verifying someone before meeting them is genuinely sound dating safety, which is exactly what makes the request feel reasonable rather than suspicious.
+
+The verification site asks for a name, phone number, email address, and credit card number, framed as a free or nominal-fee check against registered offender databases. According to an FBI/IC3 public service announcement, the sites often reinforce their legitimacy with fake articles and citations that make the "database" look real. In practice, no such check is performed. Instead, victims are quietly redirected into a low-quality, subscription-based dating platform with recurring monthly charges, or enrolled directly in one — charges that show up on a card statement weeks later under an unfamiliar business name. The personal and financial information collected during "verification" can also be reused for identity theft or resold.
+
+What makes this scam effective is that it doesn't ask for money directly — it asks for a safety step, and the request comes from someone who, as far as the victim knows, is also a genuine match rather than an obvious stranger. Moving the conversation off the dating app's own messaging system before the link is sent is not incidental: it also removes the exchange from the platform's built-in safety and reporting tools before anything suspicious has happened, so there's no in-app record to flag.
+
+The clearest warning signs are a new match pushing quickly to move the conversation to a different app, insistence on a mutual "verification" site before a call or meeting, a site that asks for a credit card number for something advertised as free, and a verification process that never sends any actual results back. A recurring charge from an unfamiliar company on a card statement weeks after using one of these sites is also a strong retroactive signal.
+
+Legitimate dating platforms already offer built-in identity and photo verification features that don't require leaving the app or entering payment information on a third-party site — that's the only verification worth trusting. Never click a link a match sends to an outside "safety check," and keep conversations inside the platform's own messaging system until you've met in person. If card information has already been entered on one of these sites, contact the card issuer immediately to dispute any charges and request a new card number, and report the incident to the dating platform and to the FBI's Internet Crime Complaint Center at IC3.gov.`,
+  },
 ];
 
 async function seedArticles(articles: SeedArticle[], label: string) {
