@@ -2157,6 +2157,34 @@ DiPascali pleaded guilty on August 11, 2009, in federal court in Manhattan, to t
 DiPascali died of lung cancer on May 7, 2015, at age 58, roughly four weeks before he was finally scheduled to be sentenced — nearly six years after his guilty plea. He was never formally sentenced for the fraud he admitted running. His case is a reminder that a scheme as large and long-running as Madoff's required more than one person's deception to sustain it, and that the person who builds and maintains the paperwork behind a fraud can be just as essential to its survival as the person whose name is on the door.`,
     sourceUrl: 'https://www.npr.org/2009/08/11/111789537/madoffs-cfo-pleads-guilty-to-conspiracy-fraud',
   },
+  {
+    title: "Rick Singer: The College Consultant Who Turned Admission Into a $25 Million Scheme",
+    slug: 'rick-singer-varsity-blues',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `William "Rick" Singer ran a college-admissions consulting business, The Key, out of Newport Beach, California, marketing himself to wealthy families as someone who could get their children into elite universities. Beneath the legitimate test-prep and application-coaching services he also sold, Singer built and ran what the FBI would later call "Operation Varsity Blues" — a nationwide scheme that used bribery to manufacture admission rather than earn it.
+
+The scheme worked two ways. Singer bribed standardized-test administrators and proctors to correct or outright fix students' SAT and ACT answers after the fact, and separately bribed university athletic coaches and administrators at schools including Yale, Stanford, USC, and Georgetown to designate paying clients' children as recruited athletes for sports they sometimes barely played, guaranteeing admission through a side door built specifically for recruited talent. To disguise the bribes as legitimate, tax-deductible activity, Singer ran the payments through a sham charity he controlled.
+
+Running from roughly 2011 to 2018, the scheme brought in more than $25 million from Singer's clients; he paid over $7 million of that in bribes to coaches and test administrators while keeping more than $15 million for himself. When the FBI's investigation became public in March 2019, Singer pleaded guilty that same month to racketeering conspiracy, money laundering conspiracy, conspiracy to defraud the United States, and obstruction of justice, then spent years as a cooperating witness, wearing a wire and recording calls with clients that became key evidence against more than 50 parents and coaches separately charged in the case.
+
+Singer was sentenced in January 2023 to three and a half years in prison, three years of supervised release, and ordered to pay more than $10.6 million in restitution to the IRS along with forfeiture of assets exceeding $8.7 million. His case exposed how thoroughly a "side door" into elite admissions could be built and sold once someone with inside access to both testing and athletics recruiting decided the whole system's trust could be monetized.`,
+    sourceUrl: 'https://www.justice.gov/usao-ma/pr/architect-nationwide-college-admissions-scheme-sentenced-more-three-years-prison',
+  },
+  {
+    title: "Emmanuel Nwude: The Bank Director Who Sold Brazil a Nigerian Airport That Didn't Exist",
+    slug: 'emmanuel-nwude-airport-scam',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Emmanuel Nwude was a director of Union Bank of Nigeria when he orchestrated one of the largest advance-fee frauds ever documented — an elaborate, years-long con that persuaded a Brazilian bank director to pay hundreds of millions of dollars toward a fictitious airport project that existed only on paper.
+
+Between 1995 and 1998, Nwude and his associates convinced Nelson Sakaguchi, a director at Brazil's Banco Noroeste, that a stake in a lucrative new international airport being built in Abuja was available in exchange for a series of payments. To sustain the illusion, Nwude posed as a Nigerian central bank official and enlisted others to impersonate additional government figures, backing the pitch with forged Central Bank of Nigeria documents that made the fictitious deal look like a real, government-sanctioned opportunity. There was no airport project — the entire scheme existed to keep Sakaguchi paying toward a stake in nothing.
+
+By the time the fraud collapsed, Nwude and his network had extracted roughly $242 million from Banco Noroeste, at the time the third-largest bank fraud ever recorded, and a loss serious enough that it contributed directly to the bank's collapse in 2001. The case became one of the highest-profile prosecutions handled by Nigeria's Economic and Financial Crimes Commission (EFCC) after its creation, and Nwude was convicted in Lagos in 2005 — the agency's first major conviction — and sentenced to a combined 25 years across five consecutive terms, along with related forgery convictions tied to property seized in the case.
+
+Nwude's case is frequently cited as a real-world ancestor to the "Nigerian prince" advance-fee emails that later became a global punchline — a reminder that behind the joke sits an actual documented pattern: a fabricated official-sounding opportunity, forged government paperwork, and a victim persuaded to keep paying because each new payment feels like the one that finally unlocks the deal.`,
+    sourceUrl: 'https://www.theregister.com/2005/11/21/nigerian_fraudsters_jailed/',
+  },
 ];
 
 // Practical "how it works / red flags / what to do" guides covering the
