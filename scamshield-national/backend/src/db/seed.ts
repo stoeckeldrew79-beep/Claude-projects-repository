@@ -3152,10 +3152,9 @@ Before joining any MLM or "business opportunity," the FTC recommends researching
     title: 'Moving Company Scams: When "Rogue Movers" Hold Your Belongings Hostage',
     slug: 'moving-company-hostage-load-scam-guide',
     author: 'ScamShield Editorial',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/2007_Sterling_360_box_truck,_front_left.jpg?width=1200',
-    coverImageCredit: 'Photo: Mr.choppers (CC BY-SA 3.0)',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Mayflower_moving_truck.JPG?width=1200',
+    coverImageCredit: 'Photo: BrokenSphere (CC BY-SA 3.0)',
     coverImagePosition: 50,
-    // representative photo — replace with an exact match if found
     tags: ['guide', 'moving-company-scam'],
     sourceUrl: 'https://www.transportation.gov/briefing-room/fmcsa-launches-operation-protect-your-move-nationwide-crackdown-moving-scams',
     body: `A moving company quotes a price well below every competitor, sometimes over the phone or through a website with no visit to actually see what's being moved. That lowball number is often the setup for what federal regulators call a "hostage load": once the truck is packed and on the road, the company presents a bill two to four times higher than the original estimate, and refuses to unload or return the customer's belongings until the new, inflated amount is paid in full.
@@ -3241,6 +3240,10 @@ Before paying anything, search the property address and the owner's name alongsi
     title: 'Virtual Kidnapping Scams: The Ransom Call for a Kidnapping That Never Happened',
     slug: 'virtual-kidnapping-scam-guide',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/2009-05-03_Man_talking_on_cell_phone_in_parking_lot.jpg?width=1200',
+    coverImageCredit: 'Photo: Ildar Sagdejev (CC BY-SA 4.0)',
+    coverImagePosition: 30,
+    // representative photo — replace with an exact match if found
     tags: ['guide', 'virtual-kidnapping-scam'],
     sourceUrl: 'https://www.fbi.gov/news/stories/virtual-kidnapping',
     body: `In a virtual kidnapping scam, a caller — sometimes claiming to be part of a cartel or a corrupt law enforcement officer — tells the victim they've kidnapped a family member and demands an immediate ransom payment. No actual kidnapping has taken place; the "victim" the caller claims to be holding is almost always safe, uninvolved, and often simply unreachable by phone at that exact moment, which the scammer uses to their advantage.
@@ -3257,6 +3260,10 @@ If you believe you're being targeted, call 911 and ask that the FBI be notified,
     title: 'Home Warranty Scam Letters: The "Your Coverage Is Expiring" Notice You Never Signed Up For',
     slug: 'home-warranty-scam-letters-guide',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/USPS_letter_boxes,_Mapleton,_Utah,_Sep_16.jpg?width=1200',
+    coverImageCredit: 'Photo: An Errant Knight (CC BY-SA 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     tags: ['guide', 'home-warranty-scam'],
     sourceUrl: 'https://www.tn.gov/attorneygeneral/news/2022/6/29/pr22-22.html',
     body: `An official-looking letter arrives claiming the recipient's home warranty "may be expiring or may have already expired," urging them to renew or re-enroll right away — even though they never bought a home warranty in the first place. To make the notice look legitimate, the letter often pulls the homeowner's real mortgage lender's name from public property or deed records and references it directly, giving the impression the notice comes from, or is somehow connected to, that lender.
@@ -3271,6 +3278,10 @@ If a letter like this shows up, the safest move is to throw it away rather than 
     title: "Online Vehicle Sale Scams: Why That Underpriced Car Listing Isn't Real",
     slug: 'online-vehicle-sale-scam-guide',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Lono_Avenue_Value_Center_Used_Car_Lot.JPG?width=1200',
+    coverImageCredit: 'Photo: Wikimedia Commons contributor (CC BY-SA 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     tags: ['guide', 'vehicle-sale-scam'],
     sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2019/06/put-brakes-phony-online-car-sales',
     body: `A used car, motorcycle, or RV shows up in an online listing — sometimes on a real platform like eBay Motors, sometimes on Craigslist or Facebook Marketplace — priced noticeably below what similar vehicles are actually selling for. The "seller" communicates only by phone, text, or chat, sends photos on request, and always has a reason the buyer can't see the vehicle in person or take it for a test drive before paying: a military deployment, a job relocation, a divorce settlement that needs to be wrapped up fast.
