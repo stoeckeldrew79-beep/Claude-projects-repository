@@ -9950,6 +9950,56 @@ const SEED_SCAMS: SeedScam[] = [
     sourceUrl: 'https://www.bbb.org/article/news-releases/17538-bbb-urges-people-to-be-wary-of-promises-of-easy-money-in-vehicle-wrap-schemes',
   },
   {
+    name: 'Colorado Real Estate Broker Identity-Theft Timeshare Resale Scam',
+    slug: 'colorado-broker-identity-theft-timeshare-resale-scam',
+    description:
+      "An unlicensed outfit cold-calls Colorado timeshare owners posing as a licensed property management company, real estate brokerage, or title and escrow firm with a buyer already lined up, and has its representatives falsely identify themselves using the actual names and license numbers of real, unaware Colorado real estate brokers to appear legitimate. The company typically claims a Denver-area business address that is false or a virtual mailbox, then collects upfront fees for a resale that never closes. The Colorado Division of Real Estate advises owners to independently verify any claimed broker through the Division's online license lookup and to call the phone number on file with the Division, never a number the caller provides.",
+    categorySlug: 'timeshare-scams',
+    alertLevel: 'medium',
+    sources: ['Colorado Division of Real Estate'],
+    sourceUrl: 'https://dre.colorado.gov/timeshare-scams',
+  },
+  {
+    name: 'Debt-Relief Loan Bait-and-Switch Enrollment Scam',
+    slug: 'debt-relief-loan-bait-and-switch-enrollment-scam',
+    description:
+      'An ad promises a low-interest loan to pay down credit card debt, but when a consumer calls, a representative tells them they don\'t actually qualify for any loan and instead pushes them to enroll in a debt-settlement program, sometimes claiming a network of law firms and attorneys will negotiate the debt down. The consumer is required to pay immediately into a dedicated account, and the company collects pre-set fees from that account on a fixed schedule regardless of whether any settlement is ever reached — while the "law firms" involved can be a façade, with non-attorney employees doing whatever negotiation actually takes place. In January 2024 the CFPB and a coalition of state attorneys general sued one such enterprise, Strategic Financial Solutions, alleging it collected more than $100 million from financially struggling consumers this way since 2016, in some cases without ever settling a debt at all.',
+    categorySlug: 'debt-relief-scams',
+    alertLevel: 'high',
+    sources: ['Consumer Financial Protection Bureau (CFPB)'],
+    sourceUrl: 'https://www.consumerfinance.gov/about-us/newsroom/cfpb-and-seven-state-attorneys-general-sue-debt-relief-enterprise-strategic-financial-solutions-for-illegally-swindling-more-than-100-million-from-financially-struggling-families/',
+  },
+  {
+    name: 'Crypto ATM Kiosk Payout Scheme for Family-Emergency Calls',
+    slug: 'crypto-atm-kiosk-family-emergency-payout-scam',
+    description:
+      "Scammers running grandparent and other family-emergency scripts increasingly direct victims — usually older adults — to withdraw cash and feed it into a cryptocurrency ATM kiosk rather than wiring money or buying gift cards, since a confirmed crypto transaction can't be reversed or clawed back by any bank. The District of Columbia's Attorney General sued kiosk operator Athena Bitcoin in 2025, alleging the company knew its anti-fraud safeguards were inadequate, charged undisclosed transaction fees as high as 26% (versus an industry norm of roughly 0.24%-3%), and refused refunds to confirmed fraud victims — with 93% of deposits at its D.C. kiosks over a five-month stretch alleged to be scam-linked, a median victim age of 71, and a median loss of $8,000 per transaction. A real family emergency is verified by calling the relative directly on a known number — never resolved by rushing to a crypto kiosk on a caller's instruction.",
+    categorySlug: 'family-emergency-scams',
+    alertLevel: 'high',
+    sources: ['Office of the Attorney General for the District of Columbia'],
+    sourceUrl: 'https://oag.dc.gov/release/attorney-general-schwalb-sues-crypto-atm-operator',
+  },
+  {
+    name: 'Gold Bar Scam',
+    slug: 'gold-bar-scam',
+    description:
+      'A fake pop-up warning claims the victim\'s computer or bank accounts have been hacked or linked to a crime, and the victim is talked into giving the caller remote access to "prove" it — the scammer then fabricates on-screen evidence of fraudulent activity. The victim is transferred to someone posing as a law enforcement officer, Federal Reserve agent, or government investigator who tells them their money is unsafe in the bank and instructs them to withdraw their savings and convert it into gold bars or coins from a legitimate dealer "for safekeeping." A courier — sometimes an unwitting participant — is then sent to physically collect the gold from the victim\'s home, after which it disappears; victims are told throughout not to discuss it with bank staff or family. New York\'s NYPD alone has investigated more than 100 of these cases in the past two years with losses exceeding $100 million, and a federal indictment charged defendants with running such a scheme between April 2024 and July 2025.',
+    categorySlug: 'tech-support-scams',
+    alertLevel: 'critical',
+    sources: ['New York State Office of the Attorney General', 'Internal Revenue Service Criminal Investigation', 'FBI Louisville Field Office'],
+    sourceUrl: 'https://ag.ny.gov/press-release/2026/attorney-general-james-warns-new-yorkers-gold-bar-scam-targeting-seniors',
+  },
+  {
+    name: 'GI Bill Sham-Enrollment Scheme',
+    slug: 'gi-bill-sham-enrollment-scheme',
+    description:
+      'For-profit trade and vocational schools recruit veterans to enroll in bare-minimum or fabricated coursework — sometimes lasting only days — while billing the VA vastly inflated Post-9/11 GI Bill tuition and housing-allowance payments, in some cases splitting the proceeds with veterans who agree to stay "enrolled" without meaningfully attending class. The scheme quietly drains a veteran\'s limited GI Bill entitlement, a capped, non-renewable benefit, and can implicate the veteran themselves in benefits fraud even when they were misled about the arrangement\'s legality. In August 2025 the Justice Department announced guilty pleas in the largest known Post-9/11 GI Bill fraud case to date, a scheme that caused roughly $104.7 million in losses to the VA; DOJ has now pursued at least a dozen such "ghost school" operators, and the VA urges veterans to verify any program through its GI Bill Comparison Tool before enrolling.',
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'high',
+    sources: ['U.S. Department of Justice', 'U.S. Department of Veterans Affairs'],
+    sourceUrl: 'https://www.justice.gov/opa/pr/justice-department-announces-enforcement-action-involving-over-100-million-losses-department',
+  },
+  {
     name: 'Counterfeit Prescription Pills Sold via Social Media',
     slug: 'counterfeit-pills-social-media',
     description:
