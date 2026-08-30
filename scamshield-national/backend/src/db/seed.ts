@@ -9818,6 +9818,39 @@ const SEED_SCAMS: SeedScam[] = [
     sourceUrl: 'https://cybercrime.gov.in/',
   },
   {
+    name: 'Indian WhatsApp "Boss Scam" Malware Takeover',
+    slug: 'india-whatsapp-boss-scam-malware',
+    description:
+      'A WhatsApp, SMS, or email message delivers a compressed file disguised as a bank statement or regulatory notice — often named "RBI.zip" or "MCA.zip" — that installs a Trojan once extracted on a Windows computer and hijacks the victim\'s active WhatsApp Web session. Fraudsters then use the compromised account, or an impostor number saved under a senior executive\'s name, to send urgent fund-transfer instructions to finance staff, directing money into mule bank accounts. India\'s Indian Cyber Crime Coordination Centre (I4C) issued a nationwide advisory after tracking a sharp rise in complaints from Delhi, Gujarat, Maharashtra, and Rajasthan, confirming that regulators such as the RBI never send account statements or security updates as WhatsApp attachments.',
+    categorySlug: 'account-takeover',
+    country: 'IN',
+    alertLevel: 'high',
+    sources: ['Indian Cyber Crime Coordination Centre (I4C)', 'Ministry of Home Affairs'],
+    sourceUrl: 'https://www.businesstoday.in/technology/news/story/i4c-warns-cfos-finance-teams-of-whatsapp-boss-scam-using-fake-rbi-mca-files-551170-2026-08-25',
+  },
+  {
+    name: 'Indian Fake Army Officer OLX/Quikr Advance Scam',
+    slug: 'india-fake-army-officer-olx-scam',
+    description:
+      'A seller lists a vehicle or electronics item at a steep discount on OLX, Quikr, or a similar classifieds site while posing as army or paramilitary personnel being urgently transferred, often to a remote posting like Kashmir. To build trust, the fraudster sends a fabricated Army Canteen (CSD) card and later a forged courier or transport receipt, pressuring the buyer to send an advance payment and then additional "insurance" or "tax" fees before the item ever ships — after which the seller disappears. Tamil Nadu Police cracked a network run from roughly a dozen Rajasthan villages defrauding buyers across multiple states with this exact pattern, and cyber crime units in other states have issued similar warnings against trusting unverified military identity claims on classifieds sites.',
+    categorySlug: 'online-shopping-scams',
+    country: 'IN',
+    alertLevel: 'medium',
+    sources: ['Tamil Nadu Police'],
+    sourceUrl: 'https://www.thenewsminute.com/article/duping-buyers-across-india-posing-army-officers-olx-tn-cops-crack-scam-119709',
+  },
+  {
+    name: 'Indian Fake Government Scheme Website Fraud',
+    slug: 'india-fake-government-scheme-website',
+    description:
+      'A message or search result links to a cloned website impersonating a real welfare scheme — such as PM-Kisan Samman Nidhi or Ayushman Bharat — offering an upgraded benefit, subsidy, or free equipment with a short registration deadline. The fake portal collects Aadhaar, PAN, and bank details along with a "registration," "examination," or "document verification" fee paid via UPI, and in documented cases a follow-up call later extracts an OTP that drains the victim\'s bank account entirely. Delhi Police\'s Cyber Crime Cell maintains a standing public advisory on these fake government-scheme websites, instructing people to verify any scheme only through an official ".gov.in" domain and never through a link received via SMS or WhatsApp.',
+    categorySlug: 'public-benefits-fraud',
+    country: 'IN',
+    alertLevel: 'medium',
+    sources: ['Delhi Police Cyber Crime Cell'],
+    sourceUrl: 'https://cyber.delhipolice.gov.in/Fakegovtwebsite.html',
+  },
+  {
     name: 'Alaska Permanent Fund Dividend (PFD) Refund Phishing Scam',
     slug: 'alaska-permanent-fund-dividend-refund-phishing-scam',
     description:
