@@ -1957,10 +1957,9 @@ Horwitz's case is a reminder that Hollywood's own opacity — foreign distributi
     title: 'Alex Mashinsky and the Celsius Network Crypto Lending Collapse',
     slug: 'alex-mashinsky-celsius-network-fraud',
     author: 'ScamShield Editorial',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/HobokenNorthEnd.JPG?width=1200',
-    coverImageCredit: 'Photo: Hudconja (CC BY-SA 4.0)',
-    coverImagePosition: 50,
-    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/2021_-_Centre_Stage_PO1_0057_(51654289843).jpg?width=1200',
+    coverImageCredit: 'Photo: Piaras Ó Mídheach / Web Summit via Sportsfile (CC BY 2.0)',
+    coverImagePosition: 30,
     tags: ['notorious', 'notorious-scammer'],
     body: `Alex Mashinsky founded Celsius Network in 2017, building it into one of the largest crypto lending platforms in the world on a simple pitch: deposit your cryptocurrency with Celsius's "Earn" program, and collect weekly interest — sometimes as high as 18% annually — that Mashinsky routinely said was safer than a traditional bank. In a 2021 interview, he told customers Celsius's Earn program had received regulatory approval, which prosecutors say was false and which he knew was false when he said it.
 
@@ -2253,6 +2252,10 @@ Runner's case is a reminder that advance-fee fraud doesn't require sophisticatio
     title: "Peter Clowes: The Broker Whose Gilt-Edged Promise Hid a £190 Million Hole",
     slug: 'peter-clowes-barlow-clowes-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Old_Bailey_Central_Criminal_Court_from_Holborn_Viaduct,_City_of_London,_England.jpg?width=1200',
+    coverImageCredit: 'Photo: Acabashi (CC BY-SA 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Peter Clowes ran Barlow Clowes, a British investment firm, and its Gibraltar-registered offshore arm Barlow Clowes International, selling a product aimed squarely at cautious, often retired savers: an investment in UK government gilts, among the safest securities in British finance, structured to convert taxable income into lower-taxed capital gains through a legal loophole.
 
