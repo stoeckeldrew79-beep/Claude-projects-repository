@@ -3249,6 +3249,34 @@ If you receive a call like this, the single most useful thing you can do is try 
 
 If you believe you're being targeted, call 911 and ask that the FBI be notified, and never wire money based on a phone threat alone without verifying first. You can also file a report with the FBI's Internet Crime Complaint Center at IC3.gov, including the phone numbers involved, any messages or photos sent, and details of any payment already made.`,
   },
+  {
+    title: 'Home Warranty Scam Letters: The "Your Coverage Is Expiring" Notice You Never Signed Up For',
+    slug: 'home-warranty-scam-letters-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'home-warranty-scam'],
+    sourceUrl: 'https://www.tn.gov/attorneygeneral/news/2022/6/29/pr22-22.html',
+    body: `An official-looking letter arrives claiming the recipient's home warranty "may be expiring or may have already expired," urging them to renew or re-enroll right away — even though they never bought a home warranty in the first place. To make the notice look legitimate, the letter often pulls the homeowner's real mortgage lender's name from public property or deed records and references it directly, giving the impression the notice comes from, or is somehow connected to, that lender.
+
+State Attorneys General in Tennessee and Maryland have both issued consumer alerts after these letters went out to homeowners who had no prior home warranty relationship with the sender at all. The letters typically add a deadline — "respond by [date] or lose your coverage" — and Tennessee's Attorney General has been direct about what that kind of manufactured urgency almost always signals: a scam designed to get a check or card number in the mail before the recipient has time to check whether any of it is real.
+
+It's worth noting that even a genuine home warranty purchased from a real company is a frequent source of consumer complaints on its own — limited coverage, exclusions for big-ticket items like water heaters, furnaces, and plumbing, payout caps, and per-visit service fees are common frustrations the DC Attorney General's office has flagged, separate from the scam-letter problem entirely. That's a reason for caution before buying any home warranty, scam or not.
+
+If a letter like this shows up, the safest move is to throw it away rather than respond by the printed deadline. Anyone actually interested in a home warranty should independently research a company — checking the Better Business Bureau and searching the company's name alongside "complaint" or "review" — rather than acting on an unsolicited notice. Suspicious letters can be reported to your state Attorney General's consumer protection division or to the FTC at ReportFraud.ftc.gov.`,
+  },
+  {
+    title: "Online Vehicle Sale Scams: Why That Underpriced Car Listing Isn't Real",
+    slug: 'online-vehicle-sale-scam-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'vehicle-sale-scam'],
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2019/06/put-brakes-phony-online-car-sales',
+    body: `A used car, motorcycle, or RV shows up in an online listing — sometimes on a real platform like eBay Motors, sometimes on Craigslist or Facebook Marketplace — priced noticeably below what similar vehicles are actually selling for. The "seller" communicates only by phone, text, or chat, sends photos on request, and always has a reason the buyer can't see the vehicle in person or take it for a test drive before paying: a military deployment, a job relocation, a divorce settlement that needs to be wrapped up fast.
+
+To make the deal feel safe despite never meeting, the seller claims the transaction is protected by a buyer-protection program tied to a major platform's name. The FTC has documented a variant where scammers send a fraudulent invoice or email designed to look like it comes from eBay Motors itself, and if a suspicious buyer tries to verify the deal by contacting "the company," they may reach the scammer again, posing as a company representative to keep the story consistent. Payment is steered toward a gift card or wire transfer — methods that, once sent, can't be pulled back the way a credit card charge often can.
+
+Red flags include a price well under market value, any seller who won't meet in person or allow an independent inspection, pressure to move quickly, and a request to pay through a gift card, wire transfer, or an unfamiliar "protected" payment page rather than a platform's own actual checkout. Searching the seller's name, phone number, or email address alongside words like "scam," "review," or "complaint" often surfaces other people's reports before any money changes hands. A vehicle history report checked against the seller's claims, and a request for extra "shipping" or "transportation" fees after the sale has supposedly already gone through, are both worth treating as warning signs too.
+
+Before paying for any vehicle sight unseen, insist on an in-person or independently arranged mechanical inspection, and never wire money or send gift card codes to someone you haven't met and can't verify. If you've been targeted, you can report it to the FTC at ReportFraud.ftc.gov.`,
+  },
 ];
 
 async function seedArticles(articles: SeedArticle[], label: string) {
