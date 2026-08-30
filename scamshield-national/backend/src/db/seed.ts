@@ -2217,6 +2217,34 @@ The SEC and Justice Department charged both men in April 2013. London pleaded gu
 London's case is a reminder that insider trading doesn't require a Wall Street trading desk — an auditor sits on exactly the kind of material nonpublic information that makes tips valuable, and the price of betraying that access here was strikingly small: a wristwatch, some cash, and a few nights out, in exchange for a federal conviction and the end of a career built on being trusted with other companies' secrets.`,
     sourceUrl: 'https://www.sec.gov/news/press/2013/2013-58.htm',
   },
+  {
+    title: "Walter Forbes: The Cendant Chairman Whose Accounting Fraud Preceded Enron",
+    slug: 'walter-forbes-cendant-cuc-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Walter Forbes was chairman and CEO of CUC International, a membership-services company, when it merged with HFS Inc. in December 1997 to form Cendant Corporation — at the time, one of the largest mergers in corporate history. What the merger also did, unknowingly on HFS's side, was fold in years of fabricated financial results that Forbes and other CUC executives had been building for most of the decade.
+
+Under Forbes, CUC had systematically inflated its reported income for years, using fabricated revenue entries and false financial reporting to make the company look consistently profitable and healthy to investors, auditors, and eventually to HFS itself during merger negotiations. The fraud came to light in April 1998, just months after the merger closed, when Cendant was forced to disclose that CUC's historical financials had been overstated by hundreds of millions of dollars. The stock lost roughly $14 billion in market value in a single day of trading, and an estimated 119,000 shareholders were left holding losses tied to numbers that had never been real.
+
+Forbes's path to conviction was unusually long: two separate trials ended in mistrials before a third jury finally convicted him in October 2006 of conspiracy to commit securities fraud and two counts of making false statements. In January 2007, U.S. District Judge Alan Nevas sentenced him to 12 years and 7 months in prison and ordered him to pay $3.28 billion in restitution — one of the largest restitution orders of its era, reflecting the scale of the losses tied to CUC's fabricated years of earnings.
+
+Forbes's case predates Enron and WorldCom by several years but shares their central lesson: a public company's reported earnings are only as trustworthy as the fabrication hasn't yet been discovered, and a merger partner doing normal due diligence can still inherit years of fraud it never had any way to detect from the outside.`,
+    sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-16910',
+  },
+  {
+    title: "Patrice Runner: The Man Behind the \"Maria Duval\" Psychic Letters That Fleeced 1.3 Million People",
+    slug: 'patrice-runner-maria-duval-psychic-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Patrice Runner directed one of the largest mass-mail fraud operations in U.S. history from bases in multiple countries, built around a fictional psychic persona named "Maria Duval" (and a companion character, "Patrick Guerin") who supposedly wrote personalized letters promising recipients wealth, luck, or the resolution of their problems — in exchange for a fee.
+
+The letters were never personalized at all. They were mass-produced form letters, sent by the millions to addresses across the United States, engineered to look and read like individual correspondence from someone who had specifically foreseen good fortune for the recipient. Runner ran the scheme from 1994 through November 2014, and several co-conspirators — Maria Thanos, Philip Lett, Sherry Gore, and Daniel Arnold among them — separately pleaded guilty to their roles in it over the years. By the time it was fully unwound, the operation had defrauded more than 1.3 million victims in the United States out of a combined total of approximately $175 million, an extraordinary sum built almost entirely on small individual payments repeated at massive scale.
+
+Runner was arrested in Spain and extradited to the United States in 2020. A federal jury in the Eastern District of New York convicted him in June 2023 of conspiracy to commit mail and wire fraud, conspiracy to commit money laundering, and multiple substantive mail and wire fraud counts. He was sentenced in April 2024 to 10 years in prison — prosecutors had sought 30 — closing out a case that took nearly a decade from the scheme's end to a final sentence.
+
+Runner's case is a reminder that advance-fee fraud doesn't require sophistication to work at scale — a single fictional character, repeated in millions of nearly identical letters over two decades, was enough to extract $175 million a few dollars at a time from over a million people who each believed, however briefly, that a psychic had written to them personally.`,
+    sourceUrl: 'https://www.justice.gov/opa/pr/canadian-man-sentenced-operating-175m-psychic-mass-mailing-fraud-scheme',
+  },
 ];
 
 // Practical "how it works / red flags / what to do" guides covering the
