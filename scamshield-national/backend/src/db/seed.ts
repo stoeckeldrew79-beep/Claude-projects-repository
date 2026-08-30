@@ -3320,6 +3320,34 @@ Red flags include a price well under market value, any seller who won't meet in 
 
 Before paying for any vehicle sight unseen, insist on an in-person or independently arranged mechanical inspection, and never wire money or send gift card codes to someone you haven't met and can't verify. If you've been targeted, you can report it to the FTC at ReportFraud.ftc.gov.`,
   },
+  {
+    title: 'SNAP/EBT Card Skimming: How Your Food-Assistance Balance Can Disappear Overnight',
+    slug: 'snap-ebt-card-skimming-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'ebt-skimming'],
+    sourceUrl: 'https://www.fns.usda.gov/snap/snap-tanf-ebt-card-skimming-prevention',
+    body: `Criminals install illegal skimming devices on card readers at ATMs, point-of-sale terminals, and gas pumps, capturing a SNAP EBT card's number and PIN the moment it's swiped. Because most EBT cards still use a magnetic stripe rather than a chip, cloning one is straightforward once the skimmer has captured that data — and because SNAP balances refresh monthly and often go untouched for days between grocery trips, a stolen balance can be drained clean before the account holder ever notices anything is wrong.
+
+The U.S. Department of Agriculture, which administers SNAP, has pushed states to offer opt-in card security features that address the gap left by the magnetic-stripe design: PIN resets, blocking out-of-state transactions on a card that should only ever be used locally, and text alerts for every purchase. A handful of states — including California, Oklahoma, Alabama, Virginia, New Jersey, and Massachusetts — have chip-enabled EBT card pilots underway or completed, since a chip card is far harder to clone from a skimmer than a stripe.
+
+Federal law temporarily required states to reimburse SNAP recipients for benefits confirmed stolen through skimming or card cloning, but that federal reimbursement authority lapsed at the end of 2024 and, as of this writing, has not been renewed by Congress — meaning replacement now depends on whether an individual state has chosen to keep funding its own program. That makes prevention meaningfully more important than it was a couple of years ago, since a stolen balance may not be replaced at all depending on where a recipient lives.
+
+There's no way to visually spot every skimmer, but paying closer attention to a terminal before using it — does the card slot look bulky, loose, or added-on compared to the rest of the machine — is worth doing at any unattended kiosk. The more reliable defense is behavioral: check your EBT balance frequently rather than only right before shopping, request a chip-enabled card if your state offers one, and enroll in any text-alert or transaction-blocking feature your state EBT program provides. If a balance disappears unexpectedly, contact your state's EBT customer service hotline immediately to report it and ask what replacement options, if any, are currently available in your state.`,
+  },
+  {
+    title: 'The Fake "Found Your Lost Pet" Reward Scam',
+    slug: 'lost-pet-reward-scam-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'lost-pet-scam'],
+    sourceUrl: 'https://www.bbb.org/article/scams/8612-lost-pet-watch-out-for-this-text-message-scam',
+    body: `Losing a pet is already one of the more stressful things a person can experience, which is exactly why scammers monitor lost-pet posts on Facebook, Nextdoor, Craigslist, and local lost-and-found groups looking for an owner desperate enough to skip their usual caution. A text or message arrives claiming the sender has found the pet — sometimes attaching a photo that isn't actually the owner's animal at all, just a similar-looking one pulled from somewhere else online.
+
+When asked for a current photo or a video call to confirm it's really their pet, the scammer typically has an excuse: they're traveling, the phone's camera is broken, they're not near the animal right now. Some variations skip the "found it" premise entirely and instead pose as a professional pet-search or recovery service, demanding payment upfront through a payment app before any search supposedly begins. Either way, the request that follows is the same: send money — by gift card, wire transfer, or a payment app — before the pet is returned, sometimes framed as covering gas, a travel crate, or a transport fee.
+
+A useful defense starts before a scammer ever gets involved: when posting about a lost pet, hold back one or two unique identifying details — a specific marking, a scar, a particular quirk — rather than listing everything publicly. Anyone who genuinely found the animal should be able to describe those details unprompted; a caller who can't, or who gets evasive when asked, is a strong sign the "find" isn't real. Refusal to provide a current photo, pressure to pay immediately, and any request for gift cards or wire transfers are all red flags on their own.
+
+If you're contacted about a lost pet, call back on an independently verified number rather than the one that contacted you, check any "pet search service" through BBB.org before paying anything, and never wire money or send gift card codes to recover an animal you haven't independently confirmed is actually yours. Microchipping pets and using a GPS-enabled collar tag makes a real recovery far more likely to begin with, and if you believe an actual theft-for-ransom situation is underway, it's worth contacting local police as well.`,
+  },
 ];
 
 async function seedArticles(articles: SeedArticle[], label: string) {
