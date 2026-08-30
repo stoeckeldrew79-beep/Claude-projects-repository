@@ -10343,6 +10343,56 @@ const SEED_SCAMS: SeedScam[] = [
     sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2026/08/how-spot-postcard-scam-targeting-veterans',
   },
   {
+    name: 'Missouri Timeshare Exit Company Written-Guarantee Scam',
+    slug: 'missouri-timeshare-exit-written-guarantee-scam',
+    description:
+      'A Branson, Missouri-based company cold-contacted timeshare owners nationwide promising in writing to permanently release them from their contract and end their obligation to pay annual maintenance fees, in exchange for an upfront fee of several thousand dollars per consumer. According to a lawsuit filed by the Missouri Attorney General, 114 consumers paid the company over $800,000 combined but did not receive the results guaranteed in writing, leaving many still bound to the timeshare and out the fee. A written "guarantee" from an exit company is itself a red flag rather than proof of legitimacy, since no company can force a resort to release an owner.',
+    categorySlug: 'timeshare-scams',
+    alertLevel: 'medium',
+    sources: ["Missouri Attorney General's Office"],
+    sourceUrl: 'https://ago.mo.gov/attorney-general-bailey-sues-branson-based-timeshare-exit-company-for-violations-of-consumer-protection-laws/',
+  },
+  {
+    name: 'Attorney-Model Debt Settlement Fee-Cap Evasion Scam',
+    slug: 'attorney-model-debt-settlement-fee-cap-evasion-scam',
+    description:
+      'Some debt-settlement operations register as a law firm rather than a licensed debt-management company specifically to sidestep the state licensing requirements and fee caps that protect consumers — an evasion known as the "attorney model." Rhode Island\'s Attorney General sued a firm alleging it operated unlicensed debt-management services while disguised as a law practice, charging a flat 27.5% fee on a consumer\'s total enrolled debt regardless of how much relief was actually achieved — in one cited case, a consumer promised results within six months still received little relief after eleven months of payments — while missed payments to original creditors damaged consumers\' credit scores in the meantime. Consumers can verify a debt-settlement provider\'s required state license before enrolling and should be wary of fees charged as a flat percentage of enrolled debt rather than tied to results delivered.',
+    categorySlug: 'debt-relief-scams',
+    alertLevel: 'medium',
+    sources: ['Rhode Island Office of the Attorney General'],
+    sourceUrl: 'https://riag.ri.gov/press-releases/attorney-general-neronha-sues-debt-management-group-charging-illegal-excessive-fees',
+  },
+  {
+    name: 'Delivery Platform "Support" Impersonation Scam Targeting Drivers and Restaurants',
+    slug: 'delivery-platform-support-impersonation-scam',
+    description:
+      'Unlike scams aimed at package recipients, this scheme targets the gig workers and small businesses on the other side of food-delivery platforms. Scammers posing as a delivery app\'s driver or merchant support team contact drivers and restaurants by phone, text, or email — sometimes offering a free tablet or printer to process orders and asking the target to "verify" a phone number, login, Social Security number, or bank account first, or claiming there\'s a problem with a specific order and asking the driver or restaurant to read back an account verification code the platform just texted or emailed them. Anyone who shares that code hands the scammer the ability to take over the actual driver or merchant account and redirect its payouts. The FTC advises drivers and restaurant owners to contact delivery platforms only through the official app or a number listed there, and to never share a one-time verification code with anyone who contacted them first.',
+    categorySlug: 'package-delivery-scams',
+    alertLevel: 'medium',
+    sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2023/07/scammers-impersonate-delivery-service-support-rip-drivers-restaurants',
+  },
+  {
+    name: 'Phantom Hacker Scam',
+    slug: 'phantom-hacker-scam',
+    description:
+      "A three-stage escalation that evolved from ordinary tech-support scams. First, a fake \"tech support\" caller convinces the victim to install remote-access software, claiming to fix a computer problem, while using that access to identify which financial accounts hold the most money. Next, a second scammer poses as a representative of the victim's own bank or brokerage, claiming a foreign hacker has compromised their accounts, and directs them to move their funds — by wire, cash, or cryptocurrency — into a supposedly safe, government-protected account. Finally, a third scammer impersonating a U.S. government or Federal Reserve official reinforces the urgency, sometimes sending fake official documents, until the victim's life savings land in an account the fraudsters control. It disproportionately targets senior citizens and can wipe out entire retirement accounts in a single incident.",
+    categorySlug: 'tech-support-scams',
+    alertLevel: 'critical',
+    sources: ['FBI Internet Crime Complaint Center (IC3)'],
+    sourceUrl: 'https://www.ic3.gov/PSA/2023/PSA230929',
+  },
+  {
+    name: 'Cyber-Enabled Strategic Cargo Theft',
+    slug: 'cyber-enabled-strategic-cargo-theft',
+    description:
+      'Criminals impersonate freight brokers or carriers by email, sending spoofed links disguised as carrier agreements or service-rating review requests; clicking installs remote-access malware or leads to phishing pages that compromise the carrier\'s or broker\'s account credentials. Using those compromised accounts, the criminals post large volumes of fraudulent freight listings on online load boards, then pose as legitimate carriers to bid on and win real, high-value shipments, rerouting them to complicit drivers who disappear with the cargo for resale — sometimes followed by a ransom demand for the load\'s location. The FBI reports combined U.S./Canada cargo theft losses reached roughly $725 million in 2025, a 60% jump from 2024, with the average theft value up 36% to about $274,000 as thieves target more selective, high-value loads.',
+    categorySlug: 'business-email-compromise',
+    alertLevel: 'high',
+    sources: ['FBI Internet Crime Complaint Center (IC3)'],
+    sourceUrl: 'https://www.ic3.gov/PSA/2026/PSA260430',
+  },
+  {
     name: 'Counterfeit Prescription Pills Sold via Social Media',
     slug: 'counterfeit-pills-social-media',
     description:
