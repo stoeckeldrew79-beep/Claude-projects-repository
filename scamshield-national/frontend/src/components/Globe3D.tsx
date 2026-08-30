@@ -13,6 +13,15 @@ const COUNTRY_COORDS: Record<string, { lat: number; lon: number }> = {
   CA: { lat: 56.1, lon: -106.3 },
   GB: { lat: 55.0, lon: -3.4 },
   AU: { lat: -25.3, lon: 133.8 },
+  NZ: { lat: -41.0, lon: 174.0 },
+  IE: { lat: 53.4, lon: -8.2 },
+  SG: { lat: 1.35, lon: 103.8 },
+  DE: { lat: 51.2, lon: 10.4 },
+  JP: { lat: 36.2, lon: 138.3 },
+  NL: { lat: 52.1, lon: 5.3 },
+  IN: { lat: 22.0, lon: 79.0 },
+  FR: { lat: 46.6, lon: 2.2 },
+  SE: { lat: 62.0, lon: 15.0 },
 };
 
 function latLonToVector3(lat: number, lon: number, radius: number): THREE.Vector3 {
@@ -52,8 +61,16 @@ function buildGraticuleSphere(radius: number): THREE.LineSegments {
   return new THREE.LineSegments(geometry, material);
 }
 
-export function Globe3D({ data }: { data: CountryCount[] }) {
+export function Globe3D({
+  data,
+  onCountryClick,
+}: {
+  data: CountryCount[];
+  onCountryClick?: (country: string) => void;
+}) {
   const containerRef = useRef<HTMLDivElement>(null);
+  const onCountryClickRef = useRef(onCountryClick);
+  onCountryClickRef.current = onCountryClick;
 
   useEffect(() => {
     const container = containerRef.current;
@@ -84,11 +101,24 @@ export function Globe3D({ data }: { data: CountryCount[] }) {
 
     const maxCount = Math.max(1, ...data.map((d) => d.count));
     const markerGroup = new THREE.Group();
+    const clickTargets: THREE.Mesh[] = [];
+    const pulsingGlows: { mesh: THREE.Mesh; baseScale: number; phase: number }[] = [];
     for (const entry of data) {
       const coords = COUNTRY_COORDS[entry.country];
       if (!coords) continue;
       const position = latLonToVector3(coords.lat, coords.lon, radius);
       const markerRadius = 0.035 + (entry.count / maxCount) * 0.09;
+
+      // Slightly oversized invisible hit-target sphere makes the marker
+      // easier to click than the visible dot alone would allow.
+      const hitTarget = new THREE.Mesh(
+        new THREE.SphereGeometry(markerRadius * 2.5, 12, 12),
+        new THREE.MeshBasicMaterial({ visible: false })
+      );
+      hitTarget.position.copy(position);
+      hitTarget.userData.country = entry.country;
+      markerGroup.add(hitTarget);
+      clickTargets.push(hitTarget);
 
       const marker = new THREE.Mesh(
         new THREE.SphereGeometry(markerRadius, 16, 16),
@@ -103,6 +133,7 @@ export function Globe3D({ data }: { data: CountryCount[] }) {
       );
       glow.position.copy(position);
       markerGroup.add(glow);
+      pulsingGlows.push({ mesh: glow, baseScale: markerRadius * 2.2, phase: Math.random() * Math.PI * 2 });
     }
     globeRoot.add(markerGroup);
 
@@ -110,38 +141,69 @@ export function Globe3D({ data }: { data: CountryCount[] }) {
     let dragging = false;
     let lastX = 0;
     let lastY = 0;
+    let downX = 0;
+    let downY = 0;
+    let dragDistance = 0;
     const rotationTarget = { x: 0.15, y: 0 };
     globeRoot.rotation.x = rotationTarget.x;
+
+    const raycaster = new THREE.Raycaster();
+    const pointerNDC = new THREE.Vector2();
+    const CLICK_DRAG_THRESHOLD = 6;
 
     function onPointerDown(e: PointerEvent) {
       dragging = true;
       lastX = e.clientX;
       lastY = e.clientY;
+      downX = e.clientX;
+      downY = e.clientY;
+      dragDistance = 0;
     }
     function onPointerMove(e: PointerEvent) {
       if (!dragging) return;
       const dx = e.clientX - lastX;
       const dy = e.clientY - lastY;
+      dragDistance += Math.abs(e.clientX - downX) + Math.abs(e.clientY - downY);
       rotationTarget.y += dx * 0.005;
       rotationTarget.x = Math.max(-1, Math.min(1, rotationTarget.x + dy * 0.005));
       lastX = e.clientX;
       lastY = e.clientY;
     }
-    function onPointerUp() {
+    function onPointerUp(e: PointerEvent) {
       dragging = false;
+      if (dragDistance > CLICK_DRAG_THRESHOLD || !onCountryClickRef.current) return;
+
+      const rect = renderer.domElement.getBoundingClientRect();
+      pointerNDC.x = ((e.clientX - rect.left) / rect.width) * 2 - 1;
+      pointerNDC.y = -((e.clientY - rect.top) / rect.height) * 2 + 1;
+      raycaster.setFromCamera(pointerNDC, camera);
+      const hits = raycaster.intersectObjects(clickTargets, false);
+      if (hits.length > 0) {
+        const country = hits[0].object.userData.country as string;
+        onCountryClickRef.current(country);
+      }
     }
     renderer.domElement.addEventListener('pointerdown', onPointerDown);
     window.addEventListener('pointermove', onPointerMove);
     window.addEventListener('pointerup', onPointerUp);
 
-    function animate() {
+    function animate(time: number) {
       if (!dragging) rotationTarget.y += 0.0015;
       globeRoot.rotation.y = rotationTarget.y;
       globeRoot.rotation.x = rotationTarget.x;
+
+      const t = time * 0.002;
+      for (const { mesh, phase } of pulsingGlows) {
+        const pulse = 1 + Math.sin(t + phase) * 0.35;
+        mesh.scale.setScalar(pulse);
+        const material = mesh.material as THREE.MeshBasicMaterial;
+        material.opacity = 0.1 + (Math.sin(t + phase) * 0.5 + 0.5) * 0.18;
+      }
+
       renderer.render(scene, camera);
       animationId = requestAnimationFrame(animate);
     }
-    animate();
+    animationId = requestAnimationFrame(animate);
 
     function handleResize() {
       if (!container) return;

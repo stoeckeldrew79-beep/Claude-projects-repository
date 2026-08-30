@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useSearchParams } from 'react-router-dom';
 import { useCategories, useCountries, useInfiniteScams } from '../hooks/useScams';
 import { ScamListParams } from '../services/scams';
 import { ScamCard } from '../components/ScamCard';
@@ -27,9 +27,14 @@ export default function Database() {
     path: '/database',
   });
 
+  // Lets the Global Map's "click a country marker" link land here pre-filtered
+  // (e.g. /database?country=US). Read once on mount — the select below still
+  // drives all further changes locally.
+  const [searchParams] = useSearchParams();
+
   const [search, setSearch] = useState('');
   const [category, setCategory] = useState<string | undefined>(undefined);
-  const [country, setCountry] = useState<string | undefined>(undefined);
+  const [country, setCountry] = useState<string | undefined>(searchParams.get('country') ?? undefined);
   const [sort, setSort] = useState<NonNullable<ScamListParams['sort']>>('alert_level');
   const [view, setView] = useState<NonNullable<ScamListParams['view']>>('current');
   const { data: categories } = useCategories();
