@@ -3174,6 +3174,38 @@ A separate pressure point comes from home-repair contractors who tell homeowners
 
 Before taking out a reverse mortgage, the CFPB recommends talking to more than one lender — a lender who claims to be the only one who can help, or pushes urgency, is a warning sign — and consulting a HUD-approved housing counselor, a requirement for most reverse mortgages that exists specifically to give borrowers an independent source of advice outside the sales process. If you believe you or a family member has been targeted, you can file a complaint directly with the CFPB, contact your state Attorney General, or file a police report if theft or forgery is involved.`,
   },
+  {
+    title: 'Vacation Rental Scams: Why That Beachfront Deal Might Not Exist',
+    slug: 'vacation-rental-booking-scam-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'vacation-rental-scam'],
+    sourceUrl: 'https://consumer.ftc.gov/articles/rental-listing-scams',
+    body: `Vacation rental scams generally work one of two ways. In the first, a scammer copies the photos and description from a real, currently listed property, strips out the actual owner's contact information, and reposts it — often on a different site or social media marketplace — with the scammer's own contact details attached. In the second, the listing is entirely fabricated: a property that doesn't exist, isn't actually available, or isn't the scammer's to rent at all, frequently priced noticeably below what comparable places in the area are charging.
+
+Either version relies on the same trick to close the deal: the scammer avoids ever showing the property in person, commonly claiming to be traveling, living abroad, or otherwise unavailable, and instead pushes the renter to decide and pay quickly before "someone else books it." Payment is steered toward methods that can't be reversed once sent — wire transfers, gift cards, cryptocurrency, or peer-to-peer payment apps — rather than a credit card or a booking made through an established platform's own checkout, both of which offer real recourse if something goes wrong.
+
+The scale of this is well documented: according to FTC data, consumers reported nearly 65,000 rental scams totaling roughly $65 million in losses from 2020 through June 2025, with close to half of the scams reported in the most recent 12-month period tracing back to fake ads on Facebook, and adults aged 18–29 about three times more likely than older adults to report losing money to one.
+
+Red flags include a price well below the local market rate, pressure to pay immediately, the same property listed under different owner names or at conflicting prices across multiple sites, a listing that's actually posted for sale rather than rent, and any refusal to let you view the property — in person, through a live video call, or by confirming details directly with the property's front desk or management company if it's part of a larger resort or complex.
+
+Before paying anything, search the property address and the owner's name alongside the word "scam," verify the listing actually exists through an independent source rather than just the contact info the "owner" gave you, and never send a copy of your driver's license, passport, or other sensitive documents before signing a legitimate rental agreement. If you're targeted, report it to the platform the listing appeared on, file a report at ReportFraud.ftc.gov, and consider notifying your state Attorney General's office as well.`,
+  },
+  {
+    title: 'Virtual Kidnapping Scams: The Ransom Call for a Kidnapping That Never Happened',
+    slug: 'virtual-kidnapping-scam-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'virtual-kidnapping-scam'],
+    sourceUrl: 'https://www.fbi.gov/news/stories/virtual-kidnapping',
+    body: `In a virtual kidnapping scam, a caller — sometimes claiming to be part of a cartel or a corrupt law enforcement officer — tells the victim they've kidnapped a family member and demands an immediate ransom payment. No actual kidnapping has taken place; the "victim" the caller claims to be holding is almost always safe, uninvolved, and often simply unreachable by phone at that exact moment, which the scammer uses to their advantage.
+
+The entire scheme depends on preventing the person on the phone from stopping to verify what they're being told. Callers frequently spoof caller ID so the call appears to come from an unfamiliar or even local-looking number, play screaming or distressed background noise (sometimes a recording rather than a real person), and keep up a constant stream of threats and urgency specifically designed to stop the victim from hanging up long enough to call or text the family member directly. The FBI has also warned about a newer variant of this scam that uses "proof-of-life" photos or videos altered from images scraped off a family member's social media, sent through disappearing-message features that make close inspection harder — details worth looking for include a missing tattoo or scar, or a face and body that don't quite match.
+
+Ransom demands typically call for an immediate wire transfer, and callers will often instruct the victim to split the payment and send it to several different recipients in smaller amounts, likely to make the money harder to trace and claw back once the scam is discovered.
+
+If you receive a call like this, the single most useful thing you can do is try — even while staying on the line, using a second phone or having someone else try — to reach the family member the caller claims to have taken; in the vast majority of cases, they answer normally within minutes. Ask for details only the real kidnapper couldn't know, agree on a family code word in advance if you're able to plan ahead, and take a screenshot or recording of any "proof of life" photo or video sent to you rather than paying based on it alone.
+
+If you believe you're being targeted, call 911 and ask that the FBI be notified, and never wire money based on a phone threat alone without verifying first. You can also file a report with the FBI's Internet Crime Complaint Center at IC3.gov, including the phone numbers involved, any messages or photos sent, and details of any payment already made.`,
+  },
 ];
 
 async function seedArticles(articles: SeedArticle[], label: string) {
