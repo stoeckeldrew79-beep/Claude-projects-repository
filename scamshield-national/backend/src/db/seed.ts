@@ -10560,6 +10560,39 @@ const SEED_SCAMS: SeedScam[] = [
     sourceUrl: 'https://www.polizei-beratung.de/themen-und-tipps/betrug/haustuerbetrug/',
   },
   {
+    name: 'German Fake Rental Listing Deposit Scam (Wohnungsbetrug)',
+    slug: 'fake-rental-listing-deposit-scam',
+    description:
+      'Scammers post real apartment photos — scraped from other listings or furniture catalogs — on legitimate German real-estate portals at unrealistically low rent, then claim to be unavailable for a viewing because they are supposedly abroad. They pressure the interested renter to wire a deposit, first month\'s rent, or a "key-shipping fee" before ever seeing the apartment or signing a lease, after which contact stops entirely. Verbraucherzentrale advises never paying for an apartment before viewing it in person and signing a lease, since a legitimate landlord never asks for money before contract signing and handover.',
+    categorySlug: 'online-shopping-scams',
+    country: 'DE',
+    alertLevel: 'high',
+    sources: ['Verbraucherzentrale'],
+    sourceUrl: 'https://www.verbraucherzentrale.de/wissen/vertraege-reklamation/abzocke/fakewohnungen-im-internet-so-erkennen-sie-falsche-immobilienanzeigen-27576',
+  },
+  {
+    name: 'German WhatsApp/Telegram Task-Based Job Scam (Aufgabenbetrug)',
+    slug: 'whatsapp-telegram-task-based-job-scam',
+    description:
+      'Victims receive unsolicited messages on WhatsApp, Telegram, Facebook, or SMS offering easy pay for simple tasks, such as rating hotels on a booking platform, and are directed to register on a fraudulent web portal that tracks fake "earnings." As tasks continue, the platform pressures the victim to deposit increasing amounts of their own money to "unlock" larger commissions or withdraw accumulated earnings, sometimes issuing a small early payout to build trust before losses escalate. Verbraucherzentrale Niedersachsen confirms victims ultimately pay in far more than they ever receive back, and notes legitimate employers do not recruit out of the blue over a messaging app.',
+    categorySlug: 'employment-scams',
+    country: 'DE',
+    alertLevel: 'medium',
+    sources: ['Verbraucherzentrale Niedersachsen'],
+    sourceUrl: 'https://www.verbraucherzentrale-niedersachsen.de/themen/internet-telefon/datenschutz/betruegerische-jobangebote-auf-whatsapp-telegram-facebook-co',
+  },
+  {
+    name: 'German Crypto Romance Investment Scam (Trading-Scam)',
+    slug: 'crypto-romance-trading-scam',
+    description:
+      'Fraudsters build a romantic relationship over several weeks through dating apps such as Tinder, Badoo, or Grindr, or professional networks like LinkedIn, before pivoting the conversation to a cryptocurrency trading platform they claim personal expertise in. The victim is guided to open an account and deposit funds into what appears to be a legitimate trading dashboard showing fabricated gains, and when they try to withdraw is told to first pay additional "taxes," "fees," or "insurance"; some variants install remote-access software during account setup to steal banking credentials directly. Germany\'s official police crime-prevention platform documents this as a distinct hybrid pattern, combining the long-term trust-building of a romance scam with the fake-platform mechanics of investment fraud.',
+    categorySlug: 'investment-fraud',
+    country: 'DE',
+    alertLevel: 'high',
+    sources: ['polizei-beratung.de (Polizeiliche Kriminalprävention der Länder und des Bundes)'],
+    sourceUrl: 'https://www.polizei-beratung.de/aktuelles/detailansicht/trading-scam/',
+  },
+  {
     name: 'Irish Revenue Tax Refund Phishing Scam',
     slug: 'ireland-revenue-tax-refund-phishing-scam',
     description:
