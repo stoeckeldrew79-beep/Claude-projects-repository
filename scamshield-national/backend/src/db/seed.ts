@@ -10255,6 +10255,66 @@ const SEED_SCAMS: SeedScam[] = [
     sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2026/08/searching-online-bill-pay-impersonators',
   },
   {
+    name: 'Fake Timeshare Settlement Court Clerk Impersonation Scam',
+    slug: 'timeshare-settlement-court-clerk-impersonation-scam',
+    description:
+      'A caller identifies themselves as an employee of a county circuit court\'s Clerk of Court office — sometimes citing a fabricated "clerk ID number" and calling from a local area code — and tells a timeshare owner that money is waiting for them from a class-action settlement or court judgment against a fraudulent timeshare resale or marketing company. Before the funds can be released, the caller says the victim must first wire "court and filing fees" or a percentage of the payout. Real clerk\'s office employees do not carry ID numbers and never call demanding payment to release settlement funds from a court registry; in documented cases scammers specifically targeted people already known to be past timeshare-scam victims.',
+    categorySlug: 'timeshare-scams',
+    alertLevel: 'medium',
+    sources: ['Palm Beach County Clerk of the Circuit Court & Comptroller'],
+    sourceUrl: 'https://www.mypalmbeachclerk.com/about-us/news/fraud-alerts/timeshare-fraud',
+  },
+  {
+    name: 'Words With Friends Mobile Gaming App Romance Scam',
+    slug: 'words-with-friends-gaming-app-romance-scam',
+    description:
+      "Scammers use the in-game chat feature of mobile word/puzzle games like Words With Friends to strike up conversation with other players, often posing as an oil-rig worker, traveler, or single parent, and build a romantic relationship over weeks or months entirely inside the app before pushing the victim to move to text or another platform. Once trust is established, the scammer fabricates a financial emergency and asks for money via gift cards, wire transfers, or cryptocurrency, promising repayment with interest. Because the relationship starts through a game rather than a dating app, victims — particularly older adults — often don't recognize it as a romance-scam setup until they've sent significant money.",
+    categorySlug: 'romance-scams',
+    alertLevel: 'high',
+    sources: ['New Hampshire Attorney General\'s Office', 'AARP Fraud Watch Network'],
+    sourceUrl: 'https://www.aarp.org/money/scams-fraud/words-with-friends-romance-scam/',
+  },
+  {
+    name: 'Fake/Unlicensed Package Protection Insurance Scam',
+    slug: 'fake-package-protection-insurance-scam',
+    description:
+      'At online checkout or through third-party ads, unlicensed operators sell "package protection" add-ons promising reimbursement if a shipment is lost, stolen, or damaged in transit. Because these sellers are not actually licensed insurance providers, when a covered package genuinely goes missing and the customer files a claim, the company either denies it, disappears, or simply cannot pay — and because it was never a regulated insurance product, the state insurance department has no authority to intervene on the consumer\'s behalf. Genuine shipping protection is sold only by carriers or licensed insurance producers, verifiable through a state\'s official license lookup tool.',
+    categorySlug: 'package-delivery-scams',
+    alertLevel: 'medium',
+    sources: ['Oklahoma Insurance Department', 'Utah Insurance Department', 'National Association of Insurance Commissioners (NAIC)'],
+    sourceUrl: 'https://www.oid.ok.gov/release_112823/',
+  },
+  {
+    name: 'Expiring Rewards Points Phishing Text',
+    slug: 'expiring-rewards-points-phishing-text',
+    description:
+      'A text message warns that an airline, hotel, or retail rewards account\'s points are about to expire and urges the recipient to click a link "before midnight" to save them. The link leads to a fake login page that harvests the account password (and often a Social Security or credit card number offered as "verification"), or silently installs malicious software — giving scammers access to drain or resell the stolen loyalty points, which the FTC notes are frequently traded like currency on secondary markets. Legitimate rewards programs are checked by going directly to the company\'s own app or website, never by tapping a link in an unsolicited text.',
+    categorySlug: 'phishing',
+    alertLevel: 'medium',
+    sources: ['Federal Trade Commission (FTC)'],
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2026/04/got-text-about-expiring-reward-points-look-closer',
+  },
+  {
+    name: '"Post-Quantum Security Update" Hardware Wallet Letter Scam',
+    slug: 'post-quantum-hardware-wallet-letter-scam',
+    description:
+      'Cryptocurrency holders who own a hardware wallet (most documented cases involve Ledger devices) receive an official-looking letter through the postal mail — complete with real branding, a reference number, and formal letterhead — warning that a "mandatory" security upgrade is required to protect the wallet against a future "quantum computing" threat. The letter directs the recipient to scan a QR code, which routes to a phishing site that asks them to enter their 24-word recovery seed phrase to "validate" the wallet, and once entered, that phrase gives the scammer everything needed to drain the wallet directly. A federal forfeiture case in Connecticut documented a victim who lost roughly $234,000 in cryptocurrency this way; no legitimate wallet update ever requires typing a seed phrase into a website.',
+    categorySlug: 'account-takeover',
+    alertLevel: 'high',
+    sources: ["U.S. Department of Justice — U.S. Attorney's Office, District of Connecticut", 'Federal Bureau of Investigation'],
+    sourceUrl: 'https://www.justice.gov/usao-ct/pr/us-attorneys-office-recovers-and-forfeits-more-600k-cryptocurrency-fraud-scheme',
+  },
+  {
+    name: '"Veterans Savings Program" Postcard Scam',
+    slug: 'veterans-savings-program-postcard-scam',
+    description:
+      'Veterans and their spouses receive a postcard in the mail claiming they "might qualify" for extra monthly veterans benefits through something called the "Veterans Savings Program" — a program that does not actually exist. Responding to the postcard, by phone, mail, or a listed website, leads to a request for personal or financial information under cover of a fabricated benefits program. It\'s distinct from existing VA-fee and VA-overpayment schemes already documented: this one invents an entirely fictitious program name and initiates contact by physical postcard rather than phone, text, or email.',
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'medium',
+    sources: ['Federal Trade Commission (FTC)'],
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2026/08/how-spot-postcard-scam-targeting-veterans',
+  },
+  {
     name: 'Counterfeit Prescription Pills Sold via Social Media',
     slug: 'counterfeit-pills-social-media',
     description:
