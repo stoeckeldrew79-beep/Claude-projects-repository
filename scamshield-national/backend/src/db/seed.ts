@@ -10941,6 +10941,39 @@ const SEED_SCAMS: SeedScam[] = [
     sourceUrl: 'https://www.nzta.govt.nz/online-services/phishing-scams/latest-phishing-scams/overdue-tolls-email-scam/',
   },
   {
+    name: 'NZ "Wrong Number" Pig Butchering Investment Scam',
+    slug: 'nz-wrong-number-pig-butchering-investment-scam',
+    description:
+      'A text message arrives claiming to have the wrong number ("Hi, is this Sarah?"), and when the recipient replies, the sender keeps the conversation going, gradually building a friendly or romantic rapport over days or weeks. Once trust is established, the "new friend" introduces a cryptocurrency or forex trading opportunity and steers the victim to a fake trading platform that displays fabricated early profits to encourage larger deposits, before the account is frozen or the scammer disappears. Netsafe distinguishes this "pig butchering" pattern from typical romance scams, noting it moves from an innocuous wrong-number social contact into a fake investment scheme, and recommends checking any trading platform against the Companies Register and FMA warning list before investing.',
+    categorySlug: 'investment-fraud',
+    country: 'NZ',
+    alertLevel: 'high',
+    sources: ['Netsafe', 'CERT NZ / National Cyber Security Centre (NCSC)'],
+    sourceUrl: 'https://netsafe.org.nz/scams/romance-scams',
+  },
+  {
+    name: 'NZ Fake Puppy Sale Scam',
+    slug: 'nz-fake-puppy-sale-scam',
+    description:
+      'Scammers post appealing puppy photos, often stolen from real breeders, on Trade Me, Facebook, and other trading sites, and once a buyer expresses interest, ask for payment — typically averaging around $2,000 — via cryptocurrency or an international money remitter, since the puppy is never made available to view or collect in person. As a supposed delivery date nears, the seller invents additional fees for transport, insurance, or vaccination, and may supply fabricated "change of ownership" paperwork that does not actually exist under New Zealand pet registration rules. New Zealand Police warn that legitimate breeders let buyers view or meet the puppy before any money changes hands, and flag overseas contact numbers, poor grammar, and crypto-only payment requests as red flags.',
+    categorySlug: 'online-shopping-scams',
+    country: 'NZ',
+    alertLevel: 'medium',
+    sources: ['New Zealand Police'],
+    sourceUrl: 'https://www.police.govt.nz/news/release/buying-puppy-watch-out-scams',
+  },
+  {
+    name: 'NZ Fake Job Offer Malware/App Install Scam',
+    slug: 'nz-fake-job-offer-malware-app-scam',
+    description:
+      'A job advertisement or unsolicited recruitment message appears on Facebook or another social platform, and once the applicant shows interest, the "recruiter" moves the conversation to WhatsApp or Telegram — sometimes spoofing what looks like a New Zealand phone number — and sends a link asking them to download an app as part of the application process. The app is malware that gives the scammer access to the victim\'s phone, personal information, and bank accounts, a different mechanism from advance-fee or fake-check job scams since no money changes hands until the malicious app is already installed. New Zealand Police and the NCSC\'s Own Your Online programme advise treating any job offer that quickly pushes the conversation to a messaging app as a warning sign, and installing apps only from the Apple App Store or Google Play Store rather than a link sent in chat.',
+    categorySlug: 'employment-scams',
+    country: 'NZ',
+    alertLevel: 'high',
+    sources: ['New Zealand Police', 'NCSC New Zealand (Own Your Online)'],
+    sourceUrl: 'https://www.ownyouronline.govt.nz/news-and-alerts/rise-in-fake-job-and-recruitment-scams-on-social-media/',
+  },
+  {
     name: 'Brushing Scam (Unsolicited Mystery Package)',
     slug: 'brushing-scam-unsolicited-mystery-package',
     description:
