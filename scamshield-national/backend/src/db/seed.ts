@@ -3356,6 +3356,9 @@ Before paying for any vehicle sight unseen, insist on an in-person or independen
     title: 'SNAP/EBT Card Skimming: How Your Food-Assistance Balance Can Disappear Overnight',
     slug: 'snap-ebt-card-skimming-guide',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Different_types_of_state_EBT_card(s).jpg?width=1200',
+    coverImageCredit: 'Photo: Ken Hammond / USDA (Public Domain)',
+    coverImagePosition: 50,
     tags: ['guide', 'ebt-skimming'],
     sourceUrl: 'https://www.fns.usda.gov/snap/snap-tanf-ebt-card-skimming-prevention',
     body: `Criminals install illegal skimming devices on card readers at ATMs, point-of-sale terminals, and gas pumps, capturing a SNAP EBT card's number and PIN the moment it's swiped. Because most EBT cards still use a magnetic stripe rather than a chip, cloning one is straightforward once the skimmer has captured that data — and because SNAP balances refresh monthly and often go untouched for days between grocery trips, a stolen balance can be drained clean before the account holder ever notices anything is wrong.
@@ -3370,6 +3373,9 @@ There's no way to visually spot every skimmer, but paying closer attention to a 
     title: 'The Fake "Found Your Lost Pet" Reward Scam',
     slug: 'lost-pet-reward-scam-guide',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Lost_Dog_-_Have_you_seen_Sirius.jpg?width=1200',
+    coverImageCredit: 'Photo: Rick Obst (CC BY 4.0)',
+    coverImagePosition: 50,
     tags: ['guide', 'lost-pet-scam'],
     sourceUrl: 'https://www.bbb.org/article/scams/8612-lost-pet-watch-out-for-this-text-message-scam',
     body: `Losing a pet is already one of the more stressful things a person can experience, which is exactly why scammers monitor lost-pet posts on Facebook, Nextdoor, Craigslist, and local lost-and-found groups looking for an owner desperate enough to skip their usual caution. A text or message arrives claiming the sender has found the pet — sometimes attaching a photo that isn't actually the owner's animal at all, just a similar-looking one pulled from somewhere else online.
