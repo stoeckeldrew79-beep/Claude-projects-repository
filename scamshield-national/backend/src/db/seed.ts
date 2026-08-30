@@ -2235,6 +2235,10 @@ Forbes's case predates Enron and WorldCom by several years but shares their cent
     title: "Patrice Runner: The Man Behind the \"Maria Duval\" Psychic Letters That Fleeced 1.3 Million People",
     slug: 'patrice-runner-maria-duval-psychic-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Federal_Courthouse_Brooklyn.jpg?width=1200',
+    coverImageCredit: 'Photo: Beyond My Ken (CC BY-SA 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Patrice Runner directed one of the largest mass-mail fraud operations in U.S. history from bases in multiple countries, built around a fictional psychic persona named "Maria Duval" (and a companion character, "Patrick Guerin") who supposedly wrote personalized letters promising recipients wealth, luck, or the resolution of their problems — in exchange for a fee.
 
