@@ -2189,6 +2189,34 @@ By the time the fraud collapsed, Nwude and his network had extracted roughly $24
 Nwude's case is frequently cited as a real-world ancestor to the "Nigerian prince" advance-fee emails that later became a global punchline — a reminder that behind the joke sits an actual documented pattern: a fabricated official-sounding opportunity, forged government paperwork, and a victim persuaded to keep paying because each new payment feels like the one that finally unlocks the deal.`,
     sourceUrl: 'https://www.theregister.com/2005/11/21/nigerian_fraudsters_jailed/',
   },
+  {
+    title: "Tino De Angelis: The Salad Oil King Who Conned Wall Street With Tanks of Seawater",
+    slug: 'tino-de-angelis-salad-oil-swindle',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Tino De Angelis ran Allied Crude Vegetable Oil Refining Corporation, a commodities trading firm that presented itself as one of the country's largest dealers in soybean and cottonseed oil. To finance ambitious speculation in vegetable oil futures — an attempt to effectively corner the market — De Angelis needed collateral, and he found it in an inventory that looked enormous on paper and barely existed in reality.
+
+Allied's storage tanks in Bayonne, New Jersey were supposed to hold vast quantities of vegetable oil, and warehouse receipts certifying that inventory became the collateral De Angelis used to borrow from banks and finance houses across the country. In fact, most of those tanks were filled overwhelmingly with seawater, with only a thin layer of real oil floating on top — enough to fool inspectors who checked the surface through a hatch but never had reason to test what lay beneath. On the strength of those forged and inflated receipts, Allied borrowed from 51 different banks and finance houses, American Express's warehousing subsidiary prominent among them.
+
+The scheme collapsed in November 1963, when Allied Crude Vegetable Oil went bankrupt and the true state of its "inventory" came to light. Losses topped $180 million, hitting American Express so hard that its warehousing subsidiary's losses threatened the parent company's own stability — a crisis serious enough that a young Warren Buffett famously bought into American Express stock during the ensuing sell-off, betting the underlying business was sound even as the warehousing scandal dominated headlines. De Angelis pleaded guilty to conspiracy and fraud and was sentenced in August 1965 to 20 years in federal prison, of which he served about seven before his release in 1972. He died in 2009.
+
+The "Great Salad Oil Swindle," as it became known, remains a foundational case study in why collateral has to be independently verified rather than taken on the strength of paperwork alone — a lesson every bank that lent against Allied's warehouse receipts learned only after the tanks turned out to be full of water.`,
+    sourceUrl: 'https://en.wikipedia.org/wiki/Salad_oil_scandal',
+  },
+  {
+    title: "Scott London: The KPMG Partner Who Sold Client Secrets for a Rolex and Cash",
+    slug: 'scott-london-kpmg-insider-trading',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Scott London spent his career rising to partner-in-charge of KPMG's Pacific Southwest audit practice, eventually serving as the lead audit partner on major clients including Herbalife and Skechers — a position built entirely on the trust that an outside auditor keeps a company's confidential financial information confidential, even from friends.
+
+Starting around 2010, London began leaking exactly that kind of information to Bryan Shaw, a friend from the golf course, tipping him off about nonpublic details on at least 14 different KPMG audit clients ahead of their earnings announcements and acquisition news. Shaw traded on the tips, ultimately realizing more than $1.27 million in illegal profits over roughly three years, while London's own reward was comparatively modest and personal: at least $50,000 in cash, along with a Rolex watch, jewelry, meals, and event tickets, funneled to him in exchange for information Shaw's trading firm never should have had.
+
+The SEC and Justice Department charged both men in April 2013. London pleaded guilty to conspiracy to commit securities fraud and was sentenced to 14 months in federal prison plus a $100,000 fine; Shaw pleaded guilty as well and received a five-month sentence. The fallout extended well beyond the two men involved — KPMG was forced to resign as the outside auditor for both Herbalife and Skechers once the leaks became public, since the firm's independence on those engagements had been fundamentally compromised.
+
+London's case is a reminder that insider trading doesn't require a Wall Street trading desk — an auditor sits on exactly the kind of material nonpublic information that makes tips valuable, and the price of betraying that access here was strikingly small: a wristwatch, some cash, and a few nights out, in exchange for a federal conviction and the end of a career built on being trusted with other companies' secrets.`,
+    sourceUrl: 'https://www.sec.gov/news/press/2013/2013-58.htm',
+  },
 ];
 
 // Practical "how it works / red flags / what to do" guides covering the
