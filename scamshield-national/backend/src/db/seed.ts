@@ -8270,6 +8270,16 @@ const SEED_SCAMS: SeedScam[] = [
     sourceUrl: 'https://help.doordash.com/en-us/dashers/article/how-can-i-protect-my-doordash-account-information',
   },
   {
+    name: 'Fake Delivery-Platform "Support" Equipment Scam',
+    slug: 'fake-delivery-platform-support-equipment-scam',
+    description:
+      'Scammers pose as support staff for a delivery platform like DoorDash or Uber Eats and contact drivers or restaurant owners with an unsolicited offer — free replacement equipment such as a tablet or printer, or help resolving a supposed order problem — then talk the victim through handing over a Social Security number, bank account details, login credentials, or a one-time verification code sent by text or email. Unlike account-takeover phishing aimed at draining a single driver login, this targets both drivers and restaurant owners and centers on extracting enough personal and financial data to open new accounts or drain a bank account directly.',
+    categorySlug: 'phishing',
+    alertLevel: 'medium',
+    sources: ['FTC Consumer Advice'],
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2023/07/scammers-impersonate-delivery-service-support-rip-drivers-restaurants',
+  },
+  {
     name: 'Airbnb and Vrbo Off-Platform Payment Scam',
     slug: 'airbnb-vrbo-off-platform-payment-scam',
     description:
