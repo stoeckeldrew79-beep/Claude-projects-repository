@@ -89,48 +89,39 @@ function buildCountryBorders(radius: number): THREE.LineSegments {
   return new THREE.LineSegments(geometry, material);
 }
 
-// A small pill-shaped text label so a marker's country is legible at a
-// glance instead of requiring a click or a lookup in the legend below.
+// Country name rendered as faint, letter-spaced map lettering with no
+// background — reads as text printed on the globe itself (like an atlas
+// label) rather than a floating UI tag sitting on top of it.
 function createCountryLabel(text: string): THREE.Sprite {
+  const label = text.toUpperCase();
   const canvas = document.createElement('canvas');
   const ctx = canvas.getContext('2d') as CanvasRenderingContext2D;
-  const fontSize = 34;
-  const font = `600 ${fontSize}px system-ui, -apple-system, sans-serif`;
+  const fontSize = 30;
+  const letterSpacing = 2;
+  const font = `500 ${fontSize}px system-ui, -apple-system, sans-serif`;
   ctx.font = font;
-  const textWidth = ctx.measureText(text).width;
-  const paddingX = 22;
-  const cornerRadius = 14;
-  canvas.width = Math.ceil(textWidth + paddingX * 2);
-  canvas.height = Math.ceil(fontSize * 1.7);
+  const textWidth = ctx.measureText(label).width + letterSpacing * label.length;
+  const padding = 10;
+  canvas.width = Math.ceil(textWidth + padding * 2);
+  canvas.height = Math.ceil(fontSize * 1.6);
   const w = canvas.width;
   const h = canvas.height;
 
   ctx.font = font;
   ctx.textBaseline = 'middle';
-  ctx.textAlign = 'center';
-
-  ctx.fillStyle = 'rgba(9, 17, 30, 0.78)';
-  ctx.beginPath();
-  ctx.moveTo(cornerRadius, 0);
-  ctx.lineTo(w - cornerRadius, 0);
-  ctx.quadraticCurveTo(w, 0, w, cornerRadius);
-  ctx.lineTo(w, h - cornerRadius);
-  ctx.quadraticCurveTo(w, h, w - cornerRadius, h);
-  ctx.lineTo(cornerRadius, h);
-  ctx.quadraticCurveTo(0, h, 0, h - cornerRadius);
-  ctx.lineTo(0, cornerRadius);
-  ctx.quadraticCurveTo(0, 0, cornerRadius, 0);
-  ctx.closePath();
-  ctx.fill();
-
-  ctx.fillStyle = '#e9f0f9';
-  ctx.fillText(text, w / 2, h / 2 + 2);
+  ctx.fillStyle = 'rgba(203, 216, 232, 0.65)';
+  // Manual letter-spacing: fillText has no built-in tracking control.
+  let x = (w - textWidth) / 2;
+  for (const char of label) {
+    ctx.fillText(char, x, h / 2 + 1);
+    x += ctx.measureText(char).width + letterSpacing;
+  }
 
   const texture = new THREE.CanvasTexture(canvas);
   texture.minFilter = THREE.LinearFilter;
   const material = new THREE.SpriteMaterial({ map: texture, transparent: true, depthWrite: false });
   const sprite = new THREE.Sprite(material);
-  const labelHeight = 0.11;
+  const labelHeight = 0.085;
   sprite.scale.set(labelHeight * (w / h), labelHeight, 1);
   return sprite;
 }
@@ -203,24 +194,27 @@ export function Globe3D({
       markerGroup.add(marker);
 
       // Additive blending makes the glow read as an actual light bloom
-      // against the dark globe rather than a flat translucent disc.
+      // against the dark globe rather than a flat translucent disc — kept
+      // subtle since a strong pulse reads as flashing rather than glowing.
       const glow = new THREE.Mesh(
-        new THREE.SphereGeometry(markerRadius * 2.4, 16, 16),
+        new THREE.SphereGeometry(markerRadius * 2.2, 16, 16),
         new THREE.MeshBasicMaterial({
           color: 0xff4b46,
           transparent: true,
-          opacity: 0.35,
+          opacity: 0.22,
           blending: THREE.AdditiveBlending,
           depthWrite: false,
         })
       );
       glow.position.copy(position);
       markerGroup.add(glow);
-      pulsingGlows.push({ mesh: glow, baseScale: markerRadius * 2.4, phase: Math.random() * Math.PI * 2 });
+      pulsingGlows.push({ mesh: glow, baseScale: markerRadius * 2.2, phase: Math.random() * Math.PI * 2 });
 
+      // Sits flush on the sphere just south of the dot, like text printed
+      // on a map, rather than floating above it as a UI tag.
       const label = createCountryLabel(countryName(entry.country));
-      const labelOffset = position.clone().normalize().multiplyScalar(markerRadius + 0.16);
-      label.position.copy(position.clone().add(labelOffset));
+      const labelPosition = latLonToVector3(coords.lat - 4.5, coords.lon, radius * 1.003);
+      label.position.copy(labelPosition);
       markerGroup.add(label);
     }
     globeRoot.add(markerGroup);
@@ -280,12 +274,12 @@ export function Globe3D({
       globeRoot.rotation.y = rotationTarget.y;
       globeRoot.rotation.x = rotationTarget.x;
 
-      const t = time * 0.002;
+      const t = time * 0.0011;
       for (const { mesh, phase } of pulsingGlows) {
-        const pulse = 1 + Math.sin(t + phase) * 0.4;
+        const pulse = 1 + Math.sin(t + phase) * 0.18;
         mesh.scale.setScalar(pulse);
         const material = mesh.material as THREE.MeshBasicMaterial;
-        material.opacity = 0.3 + (Math.sin(t + phase) * 0.5 + 0.5) * 0.45;
+        material.opacity = 0.12 + (Math.sin(t + phase) * 0.5 + 0.5) * 0.2;
       }
 
       renderer.render(scene, camera);
