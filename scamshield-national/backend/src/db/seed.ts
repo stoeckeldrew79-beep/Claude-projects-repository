@@ -10714,6 +10714,39 @@ const SEED_SCAMS: SeedScam[] = [
     sourceUrl: 'https://www.fraudsmart.ie/alerts/',
   },
   {
+    name: 'Irish Fake QR Code Parking Payment Scam',
+    slug: 'fake-qr-code-parking-payment-scam',
+    description:
+      "Fraudsters place a fake QR code sticker directly over the genuine one on a pay-and-display parking machine, so a driver who scans it to pay is instead sent to a cloned payment website that harvests full card details. The pattern was reported at parking locations across Ireland, prompting warnings from An Garda Síochána and multiple county councils that referred cases to Gardaí. Drivers are advised to check for signs of tampering on the sticker, verify the destination URL before entering card details, or pay via the official parking app or an alternative method instead of scanning.",
+    categorySlug: 'phishing',
+    country: 'IE',
+    alertLevel: 'medium',
+    sources: ['An Garda Síochána'],
+    sourceUrl: 'https://www.garda.ie/en/crime-prevention/crimecall-on-rte/crimecall-episodes/2024/21%20october%202024/',
+  },
+  {
+    name: 'Irish Clone Firm Investment Scam',
+    slug: 'clone-firm-investment-scam-ireland',
+    description:
+      "Fraudsters set up a fake website or cold-call operation using the exact name (and sometimes a near-identical website) of a real, Central Bank of Ireland-authorised investment or asset management firm, then solicit deposits or investments from consumers who believe they are dealing with the genuine regulated entity. The Central Bank of Ireland has issued dozens of individual warning notices identifying specific cloned firms and maintains a public register of unauthorised firms. Consumers are advised to independently verify a firm's authorisation status directly through the Central Bank's own register rather than any contact details supplied by the caller or website itself.",
+    categorySlug: 'investment-fraud',
+    country: 'IE',
+    alertLevel: 'high',
+    sources: ['Central Bank of Ireland'],
+    sourceUrl: 'https://www.centralbank.ie/regulation/how-we-regulate/authorisation/unauthorised-firms/search-unauthorised-firms',
+  },
+  {
+    name: 'Online Sextortion Blackmail Targeting Young People in Ireland',
+    slug: 'online-sextortion-blackmail-ireland',
+    description:
+      "A stranger contacted online — often through a dating app, social media, or messaging platform — quickly escalates intimacy and moves the conversation to a private channel, then either sends an explicit image claiming it's of themselves or persuades the victim to share one, before threatening to distribute the material unless paid. An Garda Síochána's Protected Services Bureau recorded 471 blackmail/extortion incidents involving intimate material between 2019 and January 2022, with 82% of victims male and nearly 30% aged 18-24. Gardaí advise victims never to pay, to block all contact, to preserve evidence via screenshots, and that help and image-removal support is available.",
+    categorySlug: 'sextortion',
+    country: 'IE',
+    alertLevel: 'high',
+    sources: ['An Garda Síochána'],
+    sourceUrl: 'https://www.garda.ie/en/crime/sexual-crime/sextortion-advice-if-you-are-a-victim.html',
+  },
+  {
     name: 'Washington State Nursing Board License Suspension Scam',
     slug: 'washington-nursing-board-license-suspension-scam',
     description:
