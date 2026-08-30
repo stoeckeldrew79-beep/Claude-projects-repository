@@ -9881,6 +9881,66 @@ const SEED_SCAMS: SeedScam[] = [
     sourceUrl: 'https://portal.ct.gov/ag/press-releases/2020-press-releases/ag-tong-warns-ct-residents-to-be-wary-of-utility-scams',
   },
   {
+    name: 'Fake City and County Zoning Permit Fee Email',
+    slug: 'fake-city-county-zoning-permit-fee-email',
+    description:
+      'Criminals scrape publicly available property and permit records, then send an unsolicited email to a homeowner or business with an active building, land-use, or zoning application, citing their real permit number, application number, or property address to look legitimate. The message demands an "invoice" for permit fees be paid immediately by wire transfer, peer-to-peer app, or cryptocurrency to avoid the permit being voided or delayed. The FBI confirms this scheme, impersonating city and county planning and zoning officials, has been reported by local governments nationwide, and warns that real municipal permit fees are paid only through the jurisdiction\'s own official portal or in person — never via a link in an unsolicited email.',
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['FBI Internet Crime Complaint Center (IC3)'],
+    sourceUrl: 'https://www.ic3.gov/PSA/2026/PSA260309',
+  },
+  {
+    name: 'Georgia DCA Rental Assistance Impersonation Scam',
+    slug: 'georgia-dca-rental-assistance-impersonation-scam',
+    description:
+      'Scammers posing as staff of the Georgia Department of Community Affairs contact residents by text or phone offering "expedited" enrollment in the state\'s rental assistance or Housing Choice Voucher program, then request an application fee paid through Cash App, Venmo, or Apple Pay. DCA confirms it never charges application fees, and that both its Housing Choice Voucher waitlist and the Georgia Rental Assistance program have been closed to new applicants since 2023 — meaning any unsolicited offer to enroll someone is automatically fraudulent. Residents can verify any real DCA communication comes from an official @dca.ga.gov or @dcaga.zendesk.com address.',
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'medium',
+    sources: ['Georgia Department of Community Affairs'],
+    sourceUrl: 'https://dca.georgia.gov/public-notice/2026-04-10/scam-alert-rental-assistance',
+  },
+  {
+    name: 'Meta Platform Investment Ad Pump-and-Dump Scam',
+    slug: 'meta-platform-investment-ad-pump-and-dump-scam',
+    description:
+      'Paid advertisements running on Facebook, Instagram, and WhatsApp misuse the name and image of well-known financial figures to lure users into "investment groups" that turn out to run pump-and-dump stock schemes or fraudulent cryptocurrency offerings. A bipartisan coalition of state and territory attorneys general has issued investor alerts and formally pressed Meta to fix its ad-vetting process, after finding its automated review let the same fraudulent ads reappear even after being reported and removed. Consumers should treat unsolicited investment pitches inside a Meta ad or a WhatsApp group as inherently suspect, regardless of whose face or name appears in it.',
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ['New York Attorney General', 'National Association of Attorneys General (NAAG)'],
+    sourceUrl: 'https://ag.ny.gov/press-release/2026/investor-alert-attorney-general-james-warns-new-yorkers-investment-scams-meta',
+  },
+  {
+    name: 'Cryptocurrency Address-Poisoning Token Impersonation Scam',
+    slug: 'cryptocurrency-address-poisoning-token-impersonation-scam',
+    description:
+      "Scammers scan the blockchain for a victim's past transactions, then generate a lookalike wallet address that shares the same first and last few characters as an address the victim has legitimately sent funds to before — wallet software often truncates addresses in the middle, showing only the ends. They send the victim a small amount of a fake or impersonation token, often disguised as a stablecoin like Tether (USDT), from that lookalike address, seeding it into the victim's transaction history. When the victim later goes to resend funds to their real contact, they copy the poisoned lookalike address from their history instead of verifying it in full, sending real crypto directly to the scammer.",
+    categorySlug: 'investment-fraud',
+    alertLevel: 'medium',
+    sources: ['FBI'],
+    sourceUrl: 'https://www.fbi.gov/contact-us/field-offices/denver/news/fbi-warns-of-cryptocurrency-token-impersonation-scam',
+  },
+  {
+    name: 'Deceptive ACA Health Insurance Lead-Generation Website Scam',
+    slug: 'deceptive-aca-health-insurance-lead-generation-scam',
+    description:
+      'During ACA Open Enrollment, third-party websites and ads use names or domains implying a government affiliation and promise access to low-cost, comprehensive ACA-compliant coverage. Consumers who enter their personal, financial, and health information to "compare plans" instead have that data sold as sales leads and used to generate a flood of unauthorized telemarketing calls — including to numbers on the Do Not Call Registry — pushing unrelated insurance products, sometimes switching consumers into different marketplace plans without their knowledge and disrupting their subsidies. In August 2025 the FTC announced a combined $145 million settlement with lead generators MediaAlpha/QuoteLab and Assurance IQ over these practices, after warning 21 healthcare marketers and lead generators about the conduct in December 2024.',
+    categorySlug: 'healthcare-fraud',
+    alertLevel: 'high',
+    sources: ['Federal Trade Commission'],
+    sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2025/08/assurance-iq-mediaalpha-pay-total-145-million-settle-ftc-charges-they-misled-consumers-seeking',
+  },
+  {
+    name: 'Car Wrap Advertising Gig Fake-Check Scam',
+    slug: 'car-wrap-advertising-gig-fake-check-scam',
+    description:
+      'A text message, social post, or job-board ad offers hundreds of dollars a week to drive around with a well-known brand\'s logo wrapped on a personal vehicle, with hiring done entirely by text and no interview. The "employer" mails or deposits an official-looking cashier\'s check meant to cover the wrap\'s installation cost and instructs the new hire to send that money via Venmo, Cash App, or wire to a specific "installer" — who is the scammer or an accomplice. The check is counterfeit and is reversed by the bank days later, leaving the victim liable for the full amount already sent, while the promised installation never happens. BBB regional offices have flagged it as a recurring warm-weather scam that specifically targets people seeking gig/side income for their car.',
+    categorySlug: 'employment-scams',
+    alertLevel: 'medium',
+    sources: ['Better Business Bureau'],
+    sourceUrl: 'https://www.bbb.org/article/news-releases/17538-bbb-urges-people-to-be-wary-of-promises-of-easy-money-in-vehicle-wrap-schemes',
+  },
+  {
     name: 'Counterfeit Prescription Pills Sold via Social Media',
     slug: 'counterfeit-pills-social-media',
     description:
