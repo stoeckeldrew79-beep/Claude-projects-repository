@@ -2280,6 +2280,34 @@ Sahara did not comply. When repayment failed to materialize, the Supreme Court i
 The Sahara case illustrates a version of financial fraud that doesn't always fit neatly into a single criminal conviction — sometimes the harm to millions of small investors plays out instead through years of regulatory findings, court orders, and an unresolved question of whether money already spent can ever really be made whole again.`,
     sourceUrl: 'https://www.mondaq.com/india/shareholders/203796/sahara-vs-sebi-an-in-depth-analysis-of-the-landmark-supreme-court-ruling',
   },
+  {
+    title: "Bill Hwang: The Archegos Collapse That Cost Wall Street $10 Billion",
+    slug: 'bill-hwang-archegos',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `Sung Kook "Bill" Hwang ran Archegos Capital Management, a New York family office he built after his earlier hedge fund, Tiger Asia, pleaded guilty to securities fraud in 2012. At Archegos, Hwang built enormous, concentrated stock positions using a tool that let him hide just how enormous they were: total-return swaps with multiple banks simultaneously, structured so that no single bank could see the full scope of his leverage across all of them combined.
+
+Prosecutors said Hwang didn't just exploit banks' limited visibility into his positions — he actively lied to them about Archegos's exposure and liquidity to keep the credit flowing, and manipulated the prices of the very stocks his fund was concentrated in to inflate the value of the collateral backing his borrowing. When several of those stocks fell sharply in March 2021, the leverage that had been invisible to any single lender suddenly became a shared catastrophe: banks that had extended Hwang enormous credit lines were forced to liquidate his positions in a fire sale, and the resulting losses across Credit Suisse, Nomura, Morgan Stanley, UBS, and others topped $10 billion.
+
+The Justice Department indicted Hwang in April 2022 on racketeering conspiracy, securities fraud, market manipulation, and wire fraud charges. A jury convicted him in July 2024 after a nine-week trial, and in November 2024, U.S. District Judge Alvin Hellerstein sentenced him to 18 years in prison and ordered more than $9 billion in restitution — one of the largest individual restitution orders in the history of U.S. securities fraud prosecutions. As of this writing, Hwang remains free on bail while pursuing an appeal.
+
+The Archegos collapse is frequently cited as a case study in how modern derivatives can let a single, relatively obscure family office quietly accumulate systemic-scale risk — not by breaking any single bank's individual risk limits, but by exploiting the fact that no bank could see what all the others were separately lending against the same underlying bet.`,
+    sourceUrl: 'https://www.justice.gov/usao-sdny/pr/founder-and-head-archegos-capital-management-bill-hwang-sentenced-18-years-prison',
+  },
+  {
+    title: "Najib Razak: The Prime Minister Who Went to Prison Over 1MDB",
+    slug: 'najib-razak-1mdb',
+    author: 'ScamShield Editorial',
+    tags: ['notorious'],
+    body: `Najib Razak served as Prime Minister of Malaysia from 2009 to 2018, and also chaired the advisory board of 1Malaysia Development Berhad (1MDB), a state investment fund created during his tenure that was later found to have been looted on a staggering scale — this site profiles the fund's fugitive mastermind, Jho Low, separately. Najib's own criminal exposure centered on where a portion of that stolen money actually ended up: his personal bank accounts.
+
+Malaysian prosecutors showed that funds were funneled from SRC International — a company that started as a 1MDB unit — directly into accounts controlled by Najib, and that he used his position as head of government to facilitate and conceal the transfers. Malaysia's High Court convicted him in July 2020 on charges of abuse of power, criminal breach of trust, and money laundering tied to roughly $10 million (RM42 million) funneled through SRC International, sentencing him to 12 years in prison. He appealed at every available level, but the Court of Appeal upheld the conviction in December 2021, and Malaysia's Federal Court — the country's highest court — rejected his final appeal in August 2022, making him the first former Malaysian prime minister ever imprisoned.
+
+That was only the smaller of the two cases against him. In December 2025, Najib was convicted on all 25 remaining charges in the larger core 1MDB trial — four counts of abuse of power and 21 counts of money laundering tied to roughly $568 million — and sentenced to a further 15 years in prison alongside a fine and asset forfeiture order exceeding $3 billion, with the sentence running concurrently with his earlier one.
+
+Najib's case is a rare example of a sitting head of government being criminally convicted for personally profiting from the theft of his own country's public funds, and stands as one of the clearest illustrations that the reach of a state investment fund scandal doesn't stop at the mastermind who designed the theft — it extends to the officials who accepted the money that theft generated.`,
+    sourceUrl: 'https://www.malaymail.com/news/malaysia/2022/08/23/najib-fails-in-final-src-international-appeal-as-federal-court-upholds-conviction-and-sentence/24290',
+  },
 ];
 
 // Practical "how it works / red flags / what to do" guides covering the
