@@ -10071,6 +10071,56 @@ const SEED_SCAMS: SeedScam[] = [
     sourceUrl: 'https://www.justice.gov/opa/pr/justice-department-announces-enforcement-action-involving-over-100-million-losses-department',
   },
   {
+    name: 'USPS Informed Delivery Account Takeover',
+    slug: 'usps-informed-delivery-account-takeover',
+    description:
+      "Using personal information stolen in prior data breaches, a fraudster signs up for the victim's USPS Informed Delivery account under their own email address, without the victim ever knowing an account exists. This gives the scammer daily previews of what's arriving in the victim's mailbox — most valuably, notice of newly issued credit cards, checks, or replacement debit cards — so they can steal the physical item from the mailbox before the real owner ever sees it. The U.S. Secret Service has flagged this as a distinct and growing fraud vector, distinguishing it from ordinary mail theft since the thief knows exactly what to look for and when.",
+    categorySlug: 'package-delivery-scams',
+    alertLevel: 'high',
+    sources: ['U.S. Secret Service', 'United States Postal Inspection Service'],
+    sourceUrl: 'https://www.secretservice.gov/press/releases/2020/02/florida-man-pleads-guilty-bank-fraud-mail-theft-id-theft',
+  },
+  {
+    name: 'Fake ICAC Task Force Child-Exploitation Accusation Scam',
+    slug: 'fake-icac-child-exploitation-accusation-scam',
+    description:
+      'Unlike typical sextortion, this variant starts with no real or fabricated image at all — an email impersonating an Internet Crimes Against Children (ICAC) Task Force officer falsely accuses the recipient of soliciting a minor or possessing child exploitation material. To "avoid prosecution," the message instructs the victim to photograph their government ID and Social Security card alongside a signed, dated blank sheet of paper and submit the images by email or text, while a fabricated "gag order" threatens immediate arrest if the victim discusses the message with anyone. The Idaho Attorney General\'s Office warns this is pure identity-document theft dressed up as a law-enforcement threat — real ICAC investigators do not solicit ID and SSN images by email under threat of a gag order.',
+    categorySlug: 'sextortion',
+    alertLevel: 'high',
+    sources: ['Idaho Office of the Attorney General'],
+    sourceUrl: 'https://www.ag.idaho.gov/newsroom/idaho-office-of-the-attorney-general-warns-of-sextortion-scam/',
+  },
+  {
+    name: 'Fake Bank Fraud Alert Debt Relief Pipeline',
+    slug: 'fake-bank-fraud-alert-debt-relief-pipeline',
+    description:
+      'Rather than advertising debt relief directly, callers impersonate the victim\'s own bank, credit card issuer, or a government/consumer-reporting agency, falsely claiming the card has been compromised and must be closed immediately — then pivot the "helpful" call into enrolling the victim in a debt-settlement program, instructing them to stop paying creditors and collecting an illegal advance fee. The scheme specifically targeted older consumers and veterans, in one case pushing an Army veteran\'s credit score from the high 700s into the 500s and jeopardizing his security clearance. The FTC halted this roughly $100 million operation in July 2025, citing violations of the FTC Act, the Telemarketing Sales Rule, the Impersonation Rule, and the Gramm-Leach-Bliley Act.',
+    categorySlug: 'debt-relief-scams',
+    alertLevel: 'high',
+    sources: ['Federal Trade Commission'],
+    sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2025/07/ftc-halts-illegal-debt-relief-operation-falsely-impersonated-businesses-government-harming-consumers',
+  },
+  {
+    name: 'Nanny and Caregiver Job Scam',
+    slug: 'nanny-and-caregiver-job-scam',
+    description:
+      'Fraudulent caregiver, nanny, babysitter, or elder-care job listings appear on legitimate gig/job platforms — the FTC specifically names Care.com, Sittercity, and Craigslist — and hire without any in-person or phone interview. The "employer" (often claiming to be out of town) mails or deposits a check described as a first paycheck or funds for supplies, then asks the new hire to wire or app-transfer part of it back or forward it to a third party. The check is counterfeit and is reversed by the bank days later, leaving the caregiver liable for the full amount already sent.',
+    categorySlug: 'employment-scams',
+    alertLevel: 'medium',
+    sources: ['Federal Trade Commission (FTC)'],
+    sourceUrl: 'https://consumer.ftc.gov/articles/nanny-and-caregiver-job-scams',
+  },
+  {
+    name: 'Altered Proof-of-Life Virtual Kidnapping Scam',
+    slug: 'altered-proof-of-life-virtual-kidnapping-scam',
+    description:
+      'Criminals scrape photos or videos of a real person from social media and digitally alter them to look like fresh "proof of life" evidence, then text them to a family member alongside a demand for ransom for a kidnapping that never happened. Images are often sent via disappearing or timed-message features specifically to prevent the recipient from examining them closely; on inspection they typically show tells like missing tattoos or scars, or subtly wrong body proportions. The FBI recommends families establish a code word in advance and always try to reach the "kidnapped" person directly before paying.',
+    categorySlug: 'ai-deepfake-scams',
+    alertLevel: 'critical',
+    sources: ['FBI Internet Crime Complaint Center (IC3)'],
+    sourceUrl: 'https://www.ic3.gov/PSA/2025/PSA251205',
+  },
+  {
     name: 'Counterfeit Prescription Pills Sold via Social Media',
     slug: 'counterfeit-pills-social-media',
     description:
