@@ -2127,6 +2127,9 @@ Goffer's case is a reminder that insider trading rings don't always run through 
     title: "Jeffrey Skilling: The Enron CEO Whose Sentence Outlasted His Own Appeals",
     slug: 'jeffrey-skilling-enron-ceo-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Jeffrey_Skilling_mug_shot.jpg?width=1200',
+    coverImageCredit: 'Photo: U.S. Marshals Service (Public Domain)',
+    coverImagePosition: 30,
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Jeffrey Skilling spent years climbing Enron's ranks — through chief operating officer before becoming chief executive in February 2001 — and building the aggressive, mark-to-market accounting culture that let the company report projected future profits from long-term energy contracts as current earnings, long before any of that money actually existed. He abruptly resigned as CEO after only six months, in August 2001, citing personal reasons; four months later, Enron collapsed into what was then the largest bankruptcy in U.S. history, wiping out billions in shareholder value and thousands of employees' retirement savings.
 
@@ -2141,6 +2144,9 @@ Skilling was released from federal custody to a Houston halfway house in Februar
     title: "Frank DiPascali: The Man Who Ran Madoff's Fake Trades From the Inside",
     slug: 'frank-dipascali-madoff-finance-chief-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Frank_DiPascali_mug_shot.jpg?width=1200',
+    coverImageCredit: 'Photo: U.S. Marshals Service (Public Domain)',
+    coverImagePosition: 30,
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Frank DiPascali joined Bernard L. Madoff Investment Securities as a teenager in the late 1970s and spent decades rising through the firm, eventually becoming its de facto chief financial officer — the person who actually ran the back-office operation that made Bernie Madoff's Ponzi scheme look, to auditors and regulators, like a functioning investment business. While Madoff himself provided the public face and the reputation that attracted investors, DiPascali built and operated the machinery that kept the fraud running for years without detection.
 
