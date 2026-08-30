@@ -10003,6 +10003,39 @@ const SEED_SCAMS: SeedScam[] = [
     sourceUrl: 'https://www.scamwatch.gov.au/about-us/news-and-alerts/missed-delivery-call-or-voicemail-flubot-scams',
   },
   {
+    name: 'Virtual Kidnapping Scam Targeting International Students in Australia',
+    slug: 'virtual-kidnapping-international-students-au',
+    description:
+      'Scammers, often posing as Chinese police, embassy, or consulate officials, contact an international student in Australia and falsely claim the student is implicated in a serious crime back home, threatening arrest or deportation unless they cooperate. Victims are coerced into cutting off contact with family, moving to an undisclosed location, and sometimes filming staged "hostage" videos, while the scammers separately contact the student\'s family overseas — impersonating authorities — to demand a large ransom, believing their child has genuinely been kidnapped. The Australian Federal Police has run public warning campaigns on this pattern jointly with AUSTRAC, state police, universities, and industry after cases involving losses approaching $500,000 and severe psychological trauma to victims.',
+    categorySlug: 'family-emergency-scams',
+    country: 'AU',
+    alertLevel: 'critical',
+    sources: ['Australian Federal Police (AFP)', 'AUSTRAC'],
+    sourceUrl: 'https://afp.gov.au/news-centre/media-release/scam-warning-complex-scams-targeting-australian-public-and-international',
+  },
+  {
+    name: 'Australian SIM Swap and Mobile Porting Fraud',
+    slug: 'australian-sim-swap-mobile-porting-fraud',
+    description:
+      "Using personal details obtained through phishing, data breaches, or social engineering, a scammer contacts a victim's mobile provider (or a different provider, for \"porting fraud\") and impersonates them to have the victim's number moved onto a SIM the scammer controls. Once the takeover succeeds, the scammer intercepts SMS one-time passcodes and password-reset messages sent to that number, using them to break into the victim's banking, email, and other accounts while the victim's phone unexpectedly loses service entirely. The ACCC and the Australian Communications and Media Authority (ACMA) have both issued guidance on this pattern; ACMA introduced stronger mandatory identity-check rules for telcos processing high-risk account changes such as SIM swaps in response.",
+    categorySlug: 'account-takeover',
+    country: 'AU',
+    alertLevel: 'high',
+    sources: ['ACCC', 'Australian Communications and Media Authority (ACMA)'],
+    sourceUrl: 'https://www.accc.gov.au/consumers/stay-protected/unauthorised-transfer-of-phone-or-internet-services',
+  },
+  {
+    name: 'ASIC "Clone Firm" Investment Scam Impersonating Licensed Financial Businesses',
+    slug: 'asic-clone-firm-investment-scam',
+    description:
+      "Scammers build a fake investment website or advertisement that copies the name, Australian Financial Services Licence (AFSL) number, ABN, and business address of a real, ASIC-licensed financial firm, sometimes reproducing its logo or a fabricated ASIC certificate to appear government-approved. Investors are shown a trading dashboard with fake account profits, believing they are dealing with the genuine licensed business, and lose money to bond, term-deposit, or trading products the real firm never offered. ASIC has warned this \"clone firm\" tactic is an evolving front against imposter scams and now publishes licensees' official website addresses on its Professional Registers Search so investors can check whether a site actually belongs to the licence holder it claims to represent.",
+    categorySlug: 'investment-fraud',
+    country: 'AU',
+    alertLevel: 'high',
+    sources: ['ASIC (Australian Securities and Investments Commission)'],
+    sourceUrl: 'https://www.asic.gov.au/about-asic/news-centre/news-items/scam-alert-scammers-are-changing-the-way-they-impersonate-financial-services-businesses-in-sophisticated-bond-and-term-deposit-scams',
+  },
+  {
     name: 'Nebraska Jury Duty and Arrest Warrant Imposter Scam',
     slug: 'nebraska-jury-duty-arrest-warrant-imposter-scam',
     description:
