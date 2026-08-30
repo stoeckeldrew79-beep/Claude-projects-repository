@@ -2123,6 +2123,34 @@ A jury convicted Goffer in June 2011 on all counts against him, including 12 cou
 Goffer's case is a reminder that insider trading rings don't always run through a corporate boardroom — a law firm handling live merger paperwork is itself a source of exactly the kind of advance knowledge that makes this fraud work, and the burner-phone precautions that made the scheme feel untraceable to its participants were ultimately reconstructed anyway through witness testimony from the very insiders selling the tips.`,
     sourceUrl: 'https://www.sec.gov/litigation/litreleases/lr-22185',
   },
+  {
+    title: "Jeffrey Skilling: The Enron CEO Whose Sentence Outlasted His Own Appeals",
+    slug: 'jeffrey-skilling-enron-ceo-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Jeffrey Skilling spent years climbing Enron's ranks — through chief operating officer before becoming chief executive in February 2001 — and building the aggressive, mark-to-market accounting culture that let the company report projected future profits from long-term energy contracts as current earnings, long before any of that money actually existed. He abruptly resigned as CEO after only six months, in August 2001, citing personal reasons; four months later, Enron collapsed into what was then the largest bankruptcy in U.S. history, wiping out billions in shareholder value and thousands of employees' retirement savings.
+
+A Houston jury convicted Skilling in May 2006 on one count of conspiracy, twelve counts of securities fraud, one count of insider trading, and five counts of making false statements to auditors — a verdict that found he had knowingly misled investors, analysts, and Enron's own employees about the company's true financial condition, including by selling his own Enron shares while continuing to publicly promote the stock. Unlike former CFO Andrew Fastow, whose case this site profiles separately and who built the hidden side-deal structures that concealed Enron's debt, Skilling was convicted as the executive who directed the broader strategy and deception from the top.
+
+Judge Sim Lake sentenced Skilling in October 2006 to 292 months — just over 24 years — in prison, plus $45 million in restitution. The Fifth Circuit Court of Appeals later affirmed his underlying convictions but found errors in how that original sentence had been calculated, and sent the case back for resentencing. In 2013, as part of an agreement in which Skilling waived further appeals, he was resentenced to 168 months (14 years) and ordered to forfeit roughly $42 million toward a fund compensating Enron's victims.
+
+Skilling was released from federal custody to a Houston halfway house in February 2019, after serving roughly twelve years. His case remains one of the clearest examples of executive-level accounting fraud reaching the very top of a company — and of how even a lengthy, high-profile white-collar sentence can be substantially cut down on appeal, years after the original verdict.`,
+    sourceUrl: 'https://www.justice.gov/archives/opa/pr/former-enron-ceo-jeffrey-skilling-resentenced-168-months-fraud-conspiracy-charges',
+  },
+  {
+    title: "Frank DiPascali: The Man Who Ran Madoff's Fake Trades From the Inside",
+    slug: 'frank-dipascali-madoff-finance-chief-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Frank DiPascali joined Bernard L. Madoff Investment Securities as a teenager in the late 1970s and spent decades rising through the firm, eventually becoming its de facto chief financial officer — the person who actually ran the back-office operation that made Bernie Madoff's Ponzi scheme look, to auditors and regulators, like a functioning investment business. While Madoff himself provided the public face and the reputation that attracted investors, DiPascali built and operated the machinery that kept the fraud running for years without detection.
+
+That machinery meant fabricating decades of fake trade confirmations and account statements for thousands of clients, using historical stock prices pulled after the fact to make invented trades appear real, consistent, and profitable. No securities were actually being bought or sold on clients' behalf; DiPascali's paperwork was the only thing standing between investors and the truth that their statements reflected nothing but numbers he had made up.
+
+DiPascali pleaded guilty on August 11, 2009, in federal court in Manhattan, to ten felony counts — including conspiracy, securities fraud, investment adviser fraud, falsifying the records of a broker-dealer and investment adviser, mail fraud, wire fraud, international money laundering, perjury, and tax evasion — charges that together carried a maximum of 125 years in prison. As part of his plea, he became a cooperating witness for prosecutors, providing testimony used against several other former Madoff employees who were later charged.
+
+DiPascali died of lung cancer on May 7, 2015, at age 58, roughly four weeks before he was finally scheduled to be sentenced — nearly six years after his guilty plea. He was never formally sentenced for the fraud he admitted running. His case is a reminder that a scheme as large and long-running as Madoff's required more than one person's deception to sustain it, and that the person who builds and maintains the paperwork behind a fraud can be just as essential to its survival as the person whose name is on the door.`,
+    sourceUrl: 'https://www.npr.org/2009/08/11/111789537/madoffs-cfo-pleads-guilty-to-conspiracy-fraud',
+  },
 ];
 
 // Practical "how it works / red flags / what to do" guides covering the
