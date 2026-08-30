@@ -2175,6 +2175,10 @@ Singer was sentenced in January 2023 to three and a half years in prison, three 
     title: "Emmanuel Nwude: The Bank Director Who Sold Brazil a Nigerian Airport That Didn't Exist",
     slug: 'emmanuel-nwude-airport-scam',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Abuja_Skyline.jpg?width=1200',
+    coverImageCredit: 'Photo: AdastralNg22 (CC BY-SA 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Emmanuel Nwude was a director of Union Bank of Nigeria when he orchestrated one of the largest advance-fee frauds ever documented — an elaborate, years-long con that persuaded a Brazilian bank director to pay hundreds of millions of dollars toward a fictitious airport project that existed only on paper.
 
