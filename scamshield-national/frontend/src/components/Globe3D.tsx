@@ -89,6 +89,52 @@ function buildCountryBorders(radius: number): THREE.LineSegments {
   return new THREE.LineSegments(geometry, material);
 }
 
+// A small pill-shaped text label so a marker's country is legible at a
+// glance instead of requiring a click or a lookup in the legend below.
+function createCountryLabel(text: string): THREE.Sprite {
+  const canvas = document.createElement('canvas');
+  const ctx = canvas.getContext('2d') as CanvasRenderingContext2D;
+  const fontSize = 34;
+  const font = `600 ${fontSize}px system-ui, -apple-system, sans-serif`;
+  ctx.font = font;
+  const textWidth = ctx.measureText(text).width;
+  const paddingX = 22;
+  const cornerRadius = 14;
+  canvas.width = Math.ceil(textWidth + paddingX * 2);
+  canvas.height = Math.ceil(fontSize * 1.7);
+  const w = canvas.width;
+  const h = canvas.height;
+
+  ctx.font = font;
+  ctx.textBaseline = 'middle';
+  ctx.textAlign = 'center';
+
+  ctx.fillStyle = 'rgba(9, 17, 30, 0.78)';
+  ctx.beginPath();
+  ctx.moveTo(cornerRadius, 0);
+  ctx.lineTo(w - cornerRadius, 0);
+  ctx.quadraticCurveTo(w, 0, w, cornerRadius);
+  ctx.lineTo(w, h - cornerRadius);
+  ctx.quadraticCurveTo(w, h, w - cornerRadius, h);
+  ctx.lineTo(cornerRadius, h);
+  ctx.quadraticCurveTo(0, h, 0, h - cornerRadius);
+  ctx.lineTo(0, cornerRadius);
+  ctx.quadraticCurveTo(0, 0, cornerRadius, 0);
+  ctx.closePath();
+  ctx.fill();
+
+  ctx.fillStyle = '#e9f0f9';
+  ctx.fillText(text, w / 2, h / 2 + 2);
+
+  const texture = new THREE.CanvasTexture(canvas);
+  texture.minFilter = THREE.LinearFilter;
+  const material = new THREE.SpriteMaterial({ map: texture, transparent: true, depthWrite: false });
+  const sprite = new THREE.Sprite(material);
+  const labelHeight = 0.11;
+  sprite.scale.set(labelHeight * (w / h), labelHeight, 1);
+  return sprite;
+}
+
 export function Globe3D({
   data,
   onCountryClick,
@@ -151,18 +197,31 @@ export function Globe3D({
 
       const marker = new THREE.Mesh(
         new THREE.SphereGeometry(markerRadius, 16, 16),
-        new THREE.MeshBasicMaterial({ color: 0xe34948 })
+        new THREE.MeshBasicMaterial({ color: 0xff5750 })
       );
       marker.position.copy(position);
       markerGroup.add(marker);
 
+      // Additive blending makes the glow read as an actual light bloom
+      // against the dark globe rather than a flat translucent disc.
       const glow = new THREE.Mesh(
-        new THREE.SphereGeometry(markerRadius * 2.2, 16, 16),
-        new THREE.MeshBasicMaterial({ color: 0xe34948, transparent: true, opacity: 0.18 })
+        new THREE.SphereGeometry(markerRadius * 2.4, 16, 16),
+        new THREE.MeshBasicMaterial({
+          color: 0xff4b46,
+          transparent: true,
+          opacity: 0.35,
+          blending: THREE.AdditiveBlending,
+          depthWrite: false,
+        })
       );
       glow.position.copy(position);
       markerGroup.add(glow);
-      pulsingGlows.push({ mesh: glow, baseScale: markerRadius * 2.2, phase: Math.random() * Math.PI * 2 });
+      pulsingGlows.push({ mesh: glow, baseScale: markerRadius * 2.4, phase: Math.random() * Math.PI * 2 });
+
+      const label = createCountryLabel(countryName(entry.country));
+      const labelOffset = position.clone().normalize().multiplyScalar(markerRadius + 0.16);
+      label.position.copy(position.clone().add(labelOffset));
+      markerGroup.add(label);
     }
     globeRoot.add(markerGroup);
 
@@ -223,10 +282,10 @@ export function Globe3D({
 
       const t = time * 0.002;
       for (const { mesh, phase } of pulsingGlows) {
-        const pulse = 1 + Math.sin(t + phase) * 0.35;
+        const pulse = 1 + Math.sin(t + phase) * 0.4;
         mesh.scale.setScalar(pulse);
         const material = mesh.material as THREE.MeshBasicMaterial;
-        material.opacity = 0.1 + (Math.sin(t + phase) * 0.5 + 0.5) * 0.18;
+        material.opacity = 0.3 + (Math.sin(t + phase) * 0.5 + 0.5) * 0.45;
       }
 
       renderer.render(scene, camera);
