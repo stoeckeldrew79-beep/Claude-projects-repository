@@ -10858,6 +10858,39 @@ const SEED_SCAMS: SeedScam[] = [
     sourceUrl: 'https://www.canada.ca/en/immigration-refugees-citizenship/services/canadian-passports/protect-fraud.html',
   },
   {
+    name: 'Canadian Advance-Fee Loan Scam',
+    slug: 'canada-advance-fee-loan-scam',
+    description:
+      'A fraudulent lending website or caller offers a "guaranteed" loan approval regardless of credit history, then before releasing any funds demands an upfront fee — paid by e-transfer, prepaid card, or a money-service business — to "secure," "insure," or "unlock" the loan. No loan is ever paid out, and in most provinces charging a fee before a loan is advanced is itself illegal. The Canadian Anti-Fraud Centre states borrowers should never send money first, and recommends verifying any lender through a provincial consumer protection agency or financial regulator before applying.',
+    categorySlug: 'debt-relief-scams',
+    country: 'CA',
+    alertLevel: 'medium',
+    sources: ['Canadian Anti-Fraud Centre'],
+    sourceUrl: 'https://antifraudcentre-centreantifraude.ca/scams-fraudes/loan-pret-eng.htm',
+  },
+  {
+    name: 'Canadian Disaster Relief Charity Scam',
+    slug: 'canada-disaster-relief-charity-scam',
+    description:
+      'In the aftermath of a Canadian wildfire, flood, or other widely covered disaster, scammers pose as relief charities by phone, door-to-door, or through fake websites and collection materials closely mimicking real organizations, soliciting donations that never reach victims. The Competition Bureau of Canada warns that fraudsters are especially active in times of trouble, and advises confirming any charity\'s registration through the Canada Revenue Agency\'s public list of registered charities before donating, and never giving banking details to an unsolicited caller.',
+    categorySlug: 'charity-scams',
+    country: 'CA',
+    alertLevel: 'medium',
+    sources: ['Competition Bureau of Canada'],
+    sourceUrl: 'https://competition-bureau.canada.ca/en/fraud-and-scams/tips-and-advice/charity-scams',
+  },
+  {
+    name: 'Canadian Staged Auto Collision Insurance Fraud',
+    slug: 'canada-staged-collision-insurance-fraud',
+    description:
+      'A driver deliberately causes a collision with an unsuspecting motorist — through a sudden stop, brake-check, or forced lane change — and stages the scene to make the innocent driver appear at fault, sometimes with accomplices faking injuries or coordinated tow operators, repair shops, and clinics that inflate the resulting claim. The Insurance Bureau of Canada advises drivers to contact their own insurer immediately if strangers at the scene push them toward unfamiliar tow trucks, repair shops, or legal representatives rather than filing through normal channels, and to never sign blank claim forms. IBC estimates insurance fraud overall costs Canadians well over $1 billion a year in inflated premiums.',
+    categorySlug: 'insurance-fraud',
+    country: 'CA',
+    alertLevel: 'high',
+    sources: ['Insurance Bureau of Canada'],
+    sourceUrl: 'https://www.ibc.ca/news-insights/news/ibc-spot-these-five-common-insurance-fraud-scams',
+  },
+  {
     name: 'Insurance Premium Diversion by a Licensed Agent',
     slug: 'insurance-premium-diversion-by-agent',
     description:
