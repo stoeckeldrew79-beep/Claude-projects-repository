@@ -28,9 +28,9 @@ export default function GlobalMap() {
       <p className="text-xs font-semibold tracking-widest text-red-700 uppercase">Global Threat Map</p>
       <h1 className="mt-1 text-3xl font-bold text-slate-900">Where scams are being reported</h1>
       <p className="mt-3 max-w-2xl text-slate-600">
-        Real report counts by country, from the curated public database — drag to rotate, click a marker to see
-        that country's reports. This shows where activity has actually been recorded, not a prediction of where
-        scams will happen next.
+        Real report counts by country, from the curated public database — drag to rotate, scroll or pinch to zoom,
+        click a marker to see that country's reports. This shows where activity has actually been recorded, not a
+        prediction of where scams will happen next.
       </p>
 
       <div className="mt-8 grid grid-cols-1 lg:grid-cols-[1fr_320px] gap-4">

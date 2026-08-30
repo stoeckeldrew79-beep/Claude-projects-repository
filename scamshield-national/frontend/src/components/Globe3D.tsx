@@ -229,12 +229,44 @@ export function Globe3D({
     const rotationTarget = { x: 0.15, y: 0 };
     globeRoot.rotation.x = rotationTarget.x;
 
+    const MIN_ZOOM = 2.6;
+    const MAX_ZOOM = 8;
+    let zoomTarget = camera.position.z;
+    const clampZoom = (z: number) => Math.max(MIN_ZOOM, Math.min(MAX_ZOOM, z));
+
     const raycaster = new THREE.Raycaster();
     const pointerNDC = new THREE.Vector2();
     const CLICK_DRAG_THRESHOLD = 6;
 
+    // Two-finger pinch tracking, layered on top of the existing single-
+    // pointer drag-to-rotate rather than replacing it.
+    const activePointers = new Map<number, { x: number; y: number }>();
+    let isPinching = false;
+    let pinchStartDist = 0;
+    let pinchStartZoom = 0;
+    let hadMultiTouch = false;
+    function pointerDist(a: { x: number; y: number }, b: { x: number; y: number }) {
+      return Math.hypot(a.x - b.x, a.y - b.y);
+    }
+
+    function onWheel(e: WheelEvent) {
+      e.preventDefault();
+      zoomTarget = clampZoom(zoomTarget + e.deltaY * 0.0035);
+    }
+
     function onPointerDown(e: PointerEvent) {
+      activePointers.set(e.pointerId, { x: e.clientX, y: e.clientY });
+      if (activePointers.size >= 2) {
+        hadMultiTouch = true;
+        isPinching = true;
+        dragging = false;
+        const [a, b] = [...activePointers.values()];
+        pinchStartDist = pointerDist(a, b);
+        pinchStartZoom = zoomTarget;
+        return;
+      }
       dragging = true;
+      hadMultiTouch = false;
       lastX = e.clientX;
       lastY = e.clientY;
       downX = e.clientX;
@@ -242,6 +274,17 @@ export function Globe3D({
       dragDistance = 0;
     }
     function onPointerMove(e: PointerEvent) {
+      if (activePointers.has(e.pointerId)) {
+        activePointers.set(e.pointerId, { x: e.clientX, y: e.clientY });
+      }
+      if (isPinching && activePointers.size >= 2) {
+        const [a, b] = [...activePointers.values()];
+        const dist = pointerDist(a, b);
+        if (pinchStartDist > 0) {
+          zoomTarget = clampZoom(pinchStartZoom * (pinchStartDist / dist));
+        }
+        return;
+      }
       if (!dragging) return;
       const dx = e.clientX - lastX;
       const dy = e.clientY - lastY;
@@ -252,8 +295,12 @@ export function Globe3D({
       lastY = e.clientY;
     }
     function onPointerUp(e: PointerEvent) {
+      activePointers.delete(e.pointerId);
+      if (activePointers.size < 2) isPinching = false;
+      if (activePointers.size > 0) return;
+
       dragging = false;
-      if (dragDistance > CLICK_DRAG_THRESHOLD || !onCountryClickRef.current) return;
+      if (hadMultiTouch || dragDistance > CLICK_DRAG_THRESHOLD || !onCountryClickRef.current) return;
 
       const rect = renderer.domElement.getBoundingClientRect();
       pointerNDC.x = ((e.clientX - rect.left) / rect.width) * 2 - 1;
@@ -268,11 +315,13 @@ export function Globe3D({
     renderer.domElement.addEventListener('pointerdown', onPointerDown);
     window.addEventListener('pointermove', onPointerMove);
     window.addEventListener('pointerup', onPointerUp);
+    renderer.domElement.addEventListener('wheel', onWheel, { passive: false });
 
     function animate(time: number) {
       if (!dragging) rotationTarget.y += 0.0015;
       globeRoot.rotation.y = rotationTarget.y;
       globeRoot.rotation.x = rotationTarget.x;
+      camera.position.z += (zoomTarget - camera.position.z) * 0.15;
 
       const t = time * 0.0011;
       for (const { mesh, phase } of pulsingGlows) {
@@ -300,6 +349,7 @@ export function Globe3D({
     return () => {
       cancelAnimationFrame(animationId);
       window.removeEventListener('resize', handleResize);
+      renderer.domElement.removeEventListener('wheel', onWheel);
       renderer.domElement.removeEventListener('pointerdown', onPointerDown);
       window.removeEventListener('pointermove', onPointerMove);
       window.removeEventListener('pointerup', onPointerUp);
