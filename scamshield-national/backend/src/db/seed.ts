@@ -3421,6 +3421,10 @@ If you're contacted about a lost pet, call back on an independently verified num
     title: 'Accidental Payment Scams: Why That "Oops, Wrong Person" Zelle or Venmo Refund Request Is Fake',
     slug: 'accidental-payment-refund-scam-guide',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Banca%20m%C3%B3vil.jpg?width=1200',
+    coverImageCredit: 'Photo: Torsten Dettlaff (CC BY-SA 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     tags: ['guide', 'accidental-payment-scam'],
     sourceUrl: 'https://www.staysafeonline.org/articles/protect-your-wallet-from-accidental-deposit-scams',
     body: `A stranger's payment lands in your Venmo, Zelle, or Cash App account — often several hundred to a few thousand dollars — with no explanation. Within minutes or hours, a text or in-app message follows: apologetic and urgent, claiming the money was sent by mistake (a typo in the username, a payment meant for someone else) and asking you to send it right back. Because the deposit already shows up as available in your balance, returning it feels like simple courtesy rather than a decision that deserves scrutiny.
@@ -3435,6 +3439,10 @@ If money you don't recognize appears in a P2P account, don't send anything back 
     title: "Freelance Platform Impostor Scams: When the Upwork or Fiverr Freelancer You Hired Isn't Who Their Profile Says",
     slug: 'freelance-platform-impostor-scam-guide',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Digital%20nomad%20telecommuting%20work%20on%20laptop%20computer.jpg?width=1200',
+    coverImageCredit: 'Photo: perzon seo (CC BY 2.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     tags: ['guide', 'freelance-platform-impostor-scam'],
     sourceUrl: 'https://www.bbb.org/article/scams/22645-bbb-scam-alert-hiring-freelance-help-watch-out-for-impostors',
     body: `A business posts a project on Upwork, Fiverr, or Freelancer.com and gets an unusually strong response: a candidate with a polished portfolio, glowing reviews, and an experience level that would normally command a premium rate — but who's charging a fraction of the going one. The photo, resume, and portfolio work are real, but they belong to an actual working professional whose identity or materials were stolen and repurposed onto a fake account. In some cases, scammers even contact the real freelancer directly and ask, or offer to pay, for "permission" to reuse their profile.
