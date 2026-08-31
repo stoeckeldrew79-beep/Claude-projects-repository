@@ -2172,6 +2172,10 @@ Running from roughly 2011 to 2018, the scheme brought in more than $25 million f
 
 Singer was sentenced in January 2023 to three and a half years in prison, three years of supervised release, and ordered to pay more than $10.6 million in restitution to the IRS along with forfeiture of assets exceeding $8.7 million. His case exposed how thoroughly a "side door" into elite admissions could be built and sold once someone with inside access to both testing and athletics recruiting decided the whole system's trust could be monetized.`,
     sourceUrl: 'https://www.justice.gov/usao-ma/pr/architect-nationwide-college-admissions-scheme-sentenced-more-three-years-prison',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/USC_Bovard_Auditorium.jpg?width=1200',
+    coverImageCredit: 'Brion Vibber, CC BY-SA 3.0, via Wikimedia Commons',
+    coverImagePosition: 50,
   },
   {
     title: "Emmanuel Nwude: The Bank Director Who Sold Brazil a Nigerian Airport That Didn't Exist",
@@ -2373,6 +2377,10 @@ The scheme finally collapsed in November 2018, when the FBI, working with Google
 
 Zhukov's case illustrates a category of fraud most people never think to picture when they imagine a scam: the victims were largely faceless advertisers and ad networks rather than individual consumers, and the "product" being stolen was attention that was never actually paid. It's a reminder that as more of the economy moves online, fraud increasingly targets the automated systems those markets run on, not just the people using them.`,
     sourceUrl: 'https://www.justice.gov/usao-edny/pr/russian-cybercriminal-sentenced-10-years-prison-digital-advertising-fraud-scheme',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Datacenter_Server_Racks_(22370909788).jpg?width=1200',
+    coverImageCredit: 'Carl Lender, CC BY 2.0, via Wikimedia Commons',
+    coverImagePosition: 50,
   },
   {
     title: "David Friehling: The Accountant Who Rubber-Stamped Madoff's Fake Audits for 17 Years",
@@ -2401,6 +2409,10 @@ The fraud collapsed under its own weight before the hockey deal ever fully close
 
 Del Biaggio's case is a reminder that fraud doesn't require an exotic new scheme — his was old-fashioned collateral fraud, just applied to an unusually high-profile purchase. Owning a piece of a professional sports team lent him instant credibility with lenders and fellow owners, which is exactly what made it easier for them to skip the kind of verification that might have caught a plainly indebted local financier claiming to personally own tens of millions of dollars in securities that, on paper, belonged to somebody else.`,
     sourceUrl: 'https://www.fbi.gov/sanfrancisco/press-releases/2009/sf090809.htm',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Bridgestone_Arena_(Northeast_corner).JPG?width=1200',
+    coverImageCredit: 'Michael Rivera, CC BY-SA 4.0, via Wikimedia Commons',
+    coverImagePosition: 50,
   },
 ];
 
