@@ -2390,9 +2390,9 @@ If you're in this situation: stop sending money immediately, do a reverse image 
     slug: 'tech-support-scam-fake-popups',
     author: 'ScamShield Editorial',
     tags: ['guide', 'tech-support'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Man_responds_to_telephone_call.jpg?width=1200',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Computer_virus_scam.jpg?width=1200',
+    coverImageCredit: 'Packer1028, CC0, via Wikimedia Commons',
     coverImagePosition: 50,
-    // representative photo — replace with an exact match if found
     sourceUrl: 'https://consumer.ftc.gov/articles/how-spot-avoid-and-report-tech-support-scams',
     body: `It usually starts with a browser pop-up: a loud warning sound, a message claiming your computer is infected, and a phone number to call for "Microsoft support" or "Apple security." The pop-up is fake — no legitimate operating system or antivirus vendor detects a virus and tells you to call a phone number — but it's designed to look exactly like a real system alert, sometimes locking the browser in full-screen mode to make it harder to close.
 
@@ -3548,6 +3548,10 @@ What makes this scam effective is that it doesn't ask for money directly — it 
 The clearest warning signs are a new match pushing quickly to move the conversation to a different app, insistence on a mutual "verification" site before a call or meeting, a site that asks for a credit card number for something advertised as free, and a verification process that never sends any actual results back. A recurring charge from an unfamiliar company on a card statement weeks after using one of these sites is also a strong retroactive signal.
 
 Legitimate dating platforms already offer built-in identity and photo verification features that don't require leaving the app or entering payment information on a third-party site — that's the only verification worth trusting. Never click a link a match sends to an outside "safety check," and keep conversations inside the platform's own messaging system until you've met in person. If card information has already been entered on one of these sites, contact the card issuer immediately to dispute any charges and request a new card number, and report the incident to the dating platform and to the FBI's Internet Crime Complaint Center at IC3.gov.`,
+    // representative photo — replace with an exact match if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Smartphone_Use.jpg?width=1200',
+    coverImageCredit: 'Océanos y dados, CC0, via Wikimedia Commons',
+    coverImagePosition: 50,
   },
   {
     title: 'Unpaid Toll Text Scams: The Overdue Charge You Never Actually Owe',
@@ -3562,6 +3566,10 @@ The FTC has confirmed these toll texts are now the fastest-growing form of gover
 The FTC has identified some clear tells that separate these texts from anything a real tolling agency would send: recipients in states with no toll roads at all — Arizona, Louisiana, and Wisconsin among them — have reported getting the exact same message, and many of the fraudulent links route through phone numbers and web domains registered overseas rather than by the toll agency actually named in the text. Most fundamentally, real tolling agencies send unpaid-balance notices by physical mail, not by text message or email — a text demanding immediate payment for a toll is, by itself, the clearest sign something is wrong.
 
 If a toll text like this arrives, the FTC's advice is to not click the link or respond, and instead check the account directly by typing the toll agency's own web address into a browser or calling a phone number found independently — never one provided in the text itself. Suspicious texts can be reported by forwarding them to 7726 (SPAM) or through your phone's built-in "report junk" option, and should be deleted once reported.`,
+    // representative photo — replace with an exact match if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/GA400_toll_booth.jpg?width=1200',
+    coverImageCredit: 'Biomedeng (public domain)',
+    coverImagePosition: 50,
   },
   {
     title: "Fake Travel Booking Website Scams: When the Deal Isn't With the Airline or Hotel at All",
@@ -3576,6 +3584,10 @@ A related version of the same scam skips the booking step entirely and instead t
 Either version relies on the same pressure and the same payment tells: a deal or fee that has to be acted on right away before it "expires," and a request to pay by wire transfer, gift card, or cryptocurrency rather than a credit card — methods that, once sent, can't be reversed the way a credit card charge can if the trip turns out not to exist.
 
 The FTC recommends going directly to an airline or hotel's official site or app rather than clicking a search ad or an emailed link, and typing in the company's web address directly if you already know it. Before booking anywhere unfamiliar, search the site's name together with words like "scam," "review," or "complaint" to see what other travelers have reported. Always pay by credit card rather than a wire transfer, gift card, or cryptocurrency, and if a deal or a "representative" you reached feels off, verify it independently through the airline or hotel's own official contact channels before providing any payment information. Suspected travel scams can be reported at ReportFraud.ftc.gov.`,
+    // representative photo — replace with an exact match if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Departures_Board_at_FRA_(4005499262).jpg?width=1200',
+    coverImageCredit: 'Charles (usf1fan2), CC BY 2.0, via Wikimedia Commons',
+    coverImagePosition: 50,
   },
 ];
 
