@@ -11295,6 +11295,39 @@ const SEED_SCAMS: SeedScam[] = [
     sourceUrl: 'https://www.arcep.fr/mes-demarches-et-services/consommateurs/fiches-pratiques/sms-appels-et-courriers-electroniques-indesirables-et-ou-frauduleux.html',
   },
   {
+    name: 'French Money Mule Job Offer Scam',
+    slug: 'french-money-mule-job-offer-scam',
+    description:
+      'Fraudsters post fake "financial agent" or work-from-home job listings — sometimes even on legitimate job boards, including France Travail itself — offering a commission to anyone willing to receive money into their personal bank account and forward it onward. The "employer" is actually laundering stolen or scammed funds through the recruit\'s account, and knowingly or not, the recruit becomes a money mule — a distinct criminal offense under French law carrying up to five years in prison and a €375,000 fine, even for someone who never saw the underlying theft.',
+    categorySlug: 'employment-scams',
+    country: 'FR',
+    alertLevel: 'high',
+    sources: ['France Travail', 'Cybermalveillance.gouv.fr'],
+    sourceUrl: 'https://www.francetravail.fr/candidat/soyez-vigilants/recrutements-frauduleux-soyez-vi.html',
+  },
+  {
+    name: 'French Fake Disaster-Relief Donation Collections (Fausses Cagnottes)',
+    slug: 'french-fake-disaster-relief-cagnottes',
+    description:
+      'After a major fire or other disaster, scammers set up fraudulent online fundraising pages ("cagnottes") or contact victims and would-be donors by text, email, or phone posing as a real charity, an official disaster-relief agent, or a tradesman offering emergency repairs paid upfront. France\'s DGCCRF has named four specific fraud patterns that recur after disasters: fake fundraising pots, fake official agents, fake tradesmen, and fake legal advisors, and recommends checking a fundraising platform\'s ORIAS registration before donating.',
+    categorySlug: 'charity-scams',
+    country: 'FR',
+    alertLevel: 'medium',
+    sources: ['DGCCRF (Direction générale de la concurrence, de la consommation et de la répression des fraudes)'],
+    sourceUrl: 'https://www.economie.gouv.fr/dgccrf/actualites-dgccrf/arnaques-apres-les-incendies-comment-eviter-les-pieges',
+  },
+  {
+    name: 'French AI Deepfake Celebrity Investment Scam',
+    slug: 'french-ai-deepfake-celebrity-investment-scam',
+    description:
+      'Scammers build fake websites cloned to look exactly like major French media outlets — Le Monde, Le Figaro, France Info, and TF1 among them — publishing fabricated articles and AI deepfake videos that falsely show well-known French public figures endorsing an "AI trading" investment platform. The AMF has blacklisted specific platforms promoted this way as unauthorized, and French media have reported real cases of victims losing hundreds of thousands of euros after being convinced by a deepfake video appearing to show a recognizable public figure vouching for the platform.',
+    categorySlug: 'ai-deepfake-scams',
+    country: 'FR',
+    alertLevel: 'critical',
+    sources: ['AMF (Autorité des marchés financiers)'],
+    sourceUrl: 'https://www.amf-france.org/fr/espace-epargnants/proteger-son-epargne/listes-noires-et-mises-en-garde/crypto-actifs/bitkelttradecom',
+  },
+  {
     name: 'Romance Scam Money Mule Recruitment',
     slug: 'romance-scam-money-mule-recruitment',
     description:
