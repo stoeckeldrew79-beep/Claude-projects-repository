@@ -2521,6 +2521,34 @@ Belfort pleaded guilty in 1999 to securities fraud and money laundering and was 
 Stratton Oakmont later became widely known through Belfort's own memoir and its 2013 film adaptation, which dramatized the firm's culture of excess without dwelling much on the mechanics of the underlying fraud — a reminder that a boiler room's real damage isn't the party at the center of it, but the ordinary investors on the other end of the phone who were sold stock in companies whose prices were never allowed to move on their own.`,
     sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-16788',
   },
+  {
+    title: 'Hassan Nemazee: The Political Fundraiser Who Forged $292 Million in Bank Collateral',
+    slug: 'hassan-nemazee-forged-collateral-bank-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Hassan Nemazee was a prominent Democratic Party fundraiser — national finance chairman of Hillary Clinton's 2008 presidential campaign and, years earlier, a Clinton administration nominee for U.S. ambassador to Argentina — who financed a lavish lifestyle of luxury real estate and major political donations through a fraud that had nothing to do with any investment fund or Ponzi structure at all: he simply lied to banks about what he owned.
+
+From 1998 to 2009, Nemazee obtained hundreds of millions of dollars in loans from Citibank, HSBC Bank USA, and Bank of America by claiming to pledge huge blocks of securities as collateral, supposedly held at a real brokerage firm, Westminster Securities Corporation. The account statements he provided as proof of those holdings were entirely fake, carrying forged signatures of actual people associated with Westminster, and in some instances he even set up "virtual offices" to make the fabricated paper trail look more convincing to due-diligence checks.
+
+The fraud finally came apart in 2009 after a routine verification request exposed the forged documents, triggering a federal complaint, indictment, and Nemazee's guilty plea to bank fraud and wire fraud charges. In July 2010, a Manhattan federal judge sentenced him to 12 years in prison and ordered him to pay more than $292 million in restitution to the defrauded banks — one of the largest individual bank-fraud losses of its kind in the U.S. at the time.
+
+Nemazee's case is a useful reminder that not every large-scale fraud requires a fictitious investment vehicle or a rotating cast of new victims paying off old ones — a single, sufficiently well-forged set of documents handed to sophisticated lenders was enough to extract hundreds of millions of dollars for over a decade, precisely because the banks' own verification processes weren't rigorous enough to catch a convincing fake.`,
+    sourceUrl: 'https://www.justice.gov/archive/usao/nys/pressreleases/July10/nemazeehassansentencingpr.pdf',
+  },
+  {
+    title: 'Dana Giacchetto: The "Stockbroker to the Stars" Who Drained His Celebrity Clients\' Accounts',
+    slug: 'dana-giacchetto-cassandra-group-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Dana Giacchetto built a boutique investment advisory firm, the Cassandra Group, into the money manager of choice for a striking roster of 1990s Hollywood clients, including Leonardo DiCaprio, Cameron Diaz, Ben Affleck, Matt Damon, Courteney Cox, and top talent agent Mike Ovitz. His pitch to the entertainment industry was personal, discreet financial management from someone who understood their world — and for years, that reputation gave him access to millions of dollars in client assets with remarkably little outside scrutiny.
+
+Between September 1997 and April 2000, the SEC found, Giacchetto misappropriated at least $20 million in client assets. Rather than investing the money as promised, he had checks drawn from client custodial accounts made out in ways he could endorse and deposit directly into Cassandra's own operating account, then told clients their money was tied up in securities or private investment deals that in reality didn't exist, or falsely claimed funds were sitting safely in trust or escrow.
+
+Giacchetto pleaded guilty in August 2000 to a single count of investment-adviser fraud tied to bilking clients out of roughly $9.8 million, and in February 2001 was sentenced to 57 months in federal prison plus three years of supervised release. The SEC separately barred him from the investment-advisory industry, revoked Cassandra's registration, and required him to pay disgorgement, interest, and penalties. He was charged again in a separate fraud matter in 2014, and died in 2016.
+
+Giacchetto's case shows how a specific kind of reputational shortcut — celebrity clients whose fame lent his firm an aura of exclusivity and trustworthiness — let him skip the ordinary skepticism a stranger managing millions of dollars might otherwise face. Fame in a money manager's client list isn't evidence the manager themselves has been vetted at all.`,
+    sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-17092',
+  },
 ];
 
 // Practical "how it works / red flags / what to do" guides covering the
