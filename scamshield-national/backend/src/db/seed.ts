@@ -12553,6 +12553,39 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Federal Trade Commission (FTC)'],
     sourceUrl: 'https://www.fisherphillips.com/en/insights/insights/ftc-launches-probe-into-college-athlete-agents-as-transfer-portal-chaos-grows',
   },
+  {
+    name: 'Japanese My Number Card Renewal Phishing Fraud',
+    slug: 'japanese-my-number-card-renewal-phishing-fraud',
+    description:
+      'Scammers send SMS, email, or phone calls impersonating the "My Number Point" secretariat, a local My Number office, or the Digital Agency, claiming a victim\'s My Number Card, its electronic certificate, or its integration with the national health insurance card requires urgent renewal or verification. Messages link to look-alike sites that harvest the My Number ID, PIN codes, and banking logins; a phone variant has callers offer to "proxy" the renewal in person, collecting the physical card and PIN directly from the victim, often an elderly resident. The National Consumer Affairs Center of Japan states no legitimate My Number communication ever asks for a PIN or physical card handover this way.',
+    categorySlug: 'government-impersonation',
+    country: 'JP',
+    alertLevel: 'high',
+    sources: ['National Consumer Affairs Center of Japan (Kokumin Seikatsu Center)', 'Digital Agency My Number Card General Site'],
+    sourceUrl: 'https://www.kokusen.go.jp/soudan_now/data/mynumber.html',
+  },
+  {
+    name: 'Furusato Nozei Fake Donation Site Fraud',
+    slug: 'furusato-nozei-fake-donation-site-fraud',
+    description:
+      'Fraudsters clone furusato nozei (hometown tax donation) portals and municipal listings, copying return-gift photos, product names, and prices, then advertise "discounted" donation amounts that legitimate furusato nozei sites never offer. Victims who pay by bank transfer, often to a personal account under a name that doesn\'t match the seller, never receive the promised gift and get no tax deduction; more advanced fake sites also collect My Number, date of birth, or a driver\'s license photo under the guise of "identity verification," feeding follow-on identity fraud. Japan\'s Ministry of Internal Affairs and Communications formally directed all prefectures to warn donors after the pattern spread.',
+    categorySlug: 'online-shopping-scams',
+    country: 'JP',
+    alertLevel: 'medium',
+    sources: ['Ministry of Internal Affairs and Communications (Japan)', 'Consumer Affairs Agency (Japan)'],
+    sourceUrl: 'https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/furusato/topics/20181207.html',
+  },
+  {
+    name: 'Japanese Home Leaseback Predatory Contract Scam',
+    slug: 'japanese-home-leaseback-predatory-contract-scam',
+    description:
+      'Sales agents aggressively pitch elderly homeowners on "leaseback" contracts, promising they can sell their home for immediate cash while continuing to live there for the rest of their life as a renter. In practice, the actual contract terms often let the buyer raise rent, terminate the lease, or resell the property, and sellers who believed they had secured lifetime occupancy have faced eviction or been unable to sustain the rent — losing both the home and much of the sale proceeds. The National Consumer Affairs Center of Japan issued a fresh public warning in May 2025 after a sustained rise in complaints from older sellers whose "you can stay forever" pitch didn\'t match what they had actually signed.',
+    categorySlug: 'mortgage-foreclosure-scams',
+    country: 'JP',
+    alertLevel: 'high',
+    sources: ['National Consumer Affairs Center of Japan (Kokumin Seikatsu Center)'],
+    sourceUrl: 'https://www.kokusen.go.jp/news/data/n-20250521_1.html',
+  },
 ];
 
 async function seedCategoriesAndScams() {
