@@ -12273,6 +12273,39 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Tennessee Secretary of State'],
     sourceUrl: 'https://sos.tn.gov/press-releases/secretary-of-state-tre-hargett-issues-new-warning-about-mail-scam-targeting-business',
   },
+  {
+    name: 'Indian Overseas Recruitment Agent Job Fee Fraud',
+    slug: 'indian-overseas-recruitment-agent-job-fee-fraud',
+    description:
+      'Unlicensed "recruitment agents," operating mainly through WhatsApp and social media rather than any registered office, promise high-paying jobs in Gulf countries, Eastern Europe, Israel, or Canada, and charge illegal advance fees far above the Emigration Act\'s statutory cap for licensed agents. Victims are often issued tourist visas instead of valid work visas, or arrive abroad to find no job actually exists, leaving them stranded, indebted, or in exploitative conditions. India\'s Ministry of External Affairs, through its Protector General of Emigrants network, has issued public advisories and pursued enforcement against such unlicensed agents.',
+    categorySlug: 'employment-scams',
+    country: 'IN',
+    alertLevel: 'high',
+    sources: ['Ministry of External Affairs (MEA), Government of India', 'Protector General of Emigrants (PGE)'],
+    sourceUrl: 'https://www.indianembassyalgiers.gov.in/page/advisory-on-overcharging-by-agents-for-overseas-recruitment-offering-fake-overseas-jobs-and-illegal-recruitment/',
+  },
+  {
+    name: 'Forged SEBI Certificate Investment Fraud',
+    slug: 'forged-sebi-certificate-investment-fraud',
+    description:
+      'Fraudsters forge SEBI registration certificates, letterheads, and official logos, or send bogus "penalty," "settlement," or "compliance" notices purportedly signed by SEBI officials, to convince a victim that a trading platform, WhatsApp or Telegram advisory group, or specific bank account is government-authorized. SEBI has issued a formal public caution stating it never demands money by letter or email and that all genuine SEBI correspondence comes only from an @sebi.gov.in address, urging investors to independently verify any intermediary\'s registration directly on SEBI\'s own website before transacting.',
+    categorySlug: 'investment-fraud',
+    country: 'IN',
+    alertLevel: 'high',
+    sources: ['Securities and Exchange Board of India (SEBI)'],
+    sourceUrl: 'https://www.sebi.gov.in/media-and-notifications/press-releases/sep-2025/caution-to-the-public-regarding-impersonation-of-sebi_96449.html',
+  },
+  {
+    name: 'Fake e-PAN / "PAN 2.0" Download Phishing',
+    slug: 'fake-epan-pan-2-0-download-phishing',
+    description:
+      'An email or text impersonating India\'s Income Tax Department, sometimes invoking the real "PAN 2.0" QR-code PAN-upgrade project, urges the recipient to click a link to "download your e-PAN card" or update their PAN details, occasionally threatening the PAN will be blocked within 24 hours to create urgency. The link leads to a look-alike government site that harvests PAN and Aadhaar numbers, bank account details, and passwords. PIB Fact Check has repeatedly confirmed such messages are fraudulent, and the Income Tax Department states it never requests this information by email or text — a genuine e-PAN is only ever available directly through incometax.gov.in, NSDL, or UTIITSL.',
+    categorySlug: 'phishing',
+    country: 'IN',
+    alertLevel: 'medium',
+    sources: ['PIB Fact Check (Press Information Bureau, Government of India)', 'Income Tax Department, Government of India'],
+    sourceUrl: 'https://www.newsonair.gov.in/govt-debunks-fake-message-circulating-in-emails-asking-people-to-download-the-e-pan-card',
+  },
 ];
 
 async function seedCategoriesAndScams() {
