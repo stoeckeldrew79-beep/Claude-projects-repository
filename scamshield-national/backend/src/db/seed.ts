@@ -12167,6 +12167,17 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['U.S. Postal Inspection Service (USPIS)'],
     sourceUrl: 'https://www.uspis.gov/news/scam-article/check-washing',
   },
+  {
+    name: 'Landlord Fake-Check Overpayment Scam',
+    slug: 'landlord-fake-check-overpayment-scam',
+    description:
+      'A prospective tenant applies for a rental unit, then "accidentally" sends the landlord a cashier\'s check or money order for far more than the deposit and first month\'s rent, blaming the error on a moving company or personal assistant, and asks the landlord to wire back the difference right away. Banks make funds provisionally available within a day or two, but confirming a check is forged can take weeks, so the landlord wires back real money before the fake check bounces and is left owing the bank the full reversed amount. The FTC advises against ever refunding an overpayment before the original payment has fully and irreversibly cleared, which for a check can take well over a week.',
+    categorySlug: 'online-shopping-scams',
+    country: 'US',
+    alertLevel: 'medium',
+    sources: ['Federal Trade Commission (FTC)'],
+    sourceUrl: 'https://consumer.ftc.gov/articles/how-spot-avoid-and-report-fake-check-scams',
+  },
 ];
 
 async function seedCategoriesAndScams() {
