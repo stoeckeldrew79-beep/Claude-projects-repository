@@ -12178,6 +12178,39 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Federal Trade Commission (FTC)'],
     sourceUrl: 'https://consumer.ftc.gov/articles/how-spot-avoid-and-report-fake-check-scams',
   },
+  {
+    name: 'Dutch Fake Charity Street Collector Scam (Nepcollectanten)',
+    slug: 'dutch-fake-charity-street-collector-scam',
+    description:
+      'Fraudsters pose as door-to-door or street collectors for a charity that doesn\'t actually exist, sometimes carrying counterfeit collection permits or ID cards, and solicit cash donations directly from the public at multiple locations. Dutch police arrested three Rotterdam men in a 2025 case where the group collected an estimated hundreds of thousands of euros nationwide for a fake cause. CBF, the Netherlands\' official charity oversight body, advises checking for a valid CBF-recognition certificate or collection permit before donating to any street or door-to-door collector.',
+    categorySlug: 'charity-scams',
+    country: 'NL',
+    alertLevel: 'medium',
+    sources: ['CBF (Centraal Bureau Fondsenwerving)', 'Politie (Dutch National Police)'],
+    sourceUrl: 'https://cbf.nl/nieuws/politie-houdt-nep-collectanten-aan',
+  },
+  {
+    name: 'Dutch Fake Health Insurer Payment Request Phishing',
+    slug: 'dutch-fake-health-insurer-payment-request-phishing',
+    description:
+      'A text message or email impersonating a Dutch health insurer (zorgverzekeraar) falsely claims a premium payment is overdue or that the recipient\'s policy has been "paused," pressuring them to pay immediately through an embedded link. The link leads to a real-looking payment page, but the money goes to the scammer\'s account rather than the insurer\'s. CAK, the Dutch government body that administers healthcare-cost matters, has published a direct warning that such payment-arrears messages can be fake, and advises verifying any claimed balance directly with the insurer before paying.',
+    categorySlug: 'healthcare-fraud',
+    country: 'NL',
+    alertLevel: 'medium',
+    sources: ['CAK (Centraal Administratie Kantoor)', 'Fraudehelpdesk (Dutch National Anti-Fraud Hotline)'],
+    sourceUrl: 'https://www.hetcak.nl/over/nieuws/2024/nepbetaalverzoeken-zorgverzekering/',
+  },
+  {
+    name: 'Dutch AI Deepfake Celebrity Investment Scam',
+    slug: 'dutch-ai-deepfake-celebrity-investment-scam',
+    description:
+      'Fake news pages and Facebook ads use AI-generated deepfake video and doctored photos of well-known Dutch public figures — including a fabricated video of a sitting prime minister "announcing" an investment platform, and manipulated ads featuring other celebrities — to lure victims into a small initial "investment." A high-pressure fake broker then calls to push the victim toward much larger transfers. The AFM, the Dutch financial markets regulator, directly names this "well-known Dutchman" trick on its consumer-warnings page and notes a marked recent rise in AI and deepfake-video investment fraud.',
+    categorySlug: 'ai-deepfake-scams',
+    country: 'NL',
+    alertLevel: 'high',
+    sources: ['AFM (Autoriteit Financiële Markten)', 'Fraudehelpdesk (Dutch National Anti-Fraud Hotline)'],
+    sourceUrl: 'https://www.afm.nl/nl-nl/consumenten/waarschuwingen/pas-op-voor-dubieuze-beleggings-voorstellen',
+  },
 ];
 
 async function seedCategoriesAndScams() {
