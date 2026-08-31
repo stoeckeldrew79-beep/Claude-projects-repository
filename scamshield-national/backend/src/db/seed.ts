@@ -3631,6 +3631,34 @@ The FTC recommends going directly to an airline or hotel's official site or app 
     coverImageCredit: 'Charles (usf1fan2), CC BY 2.0, via Wikimedia Commons',
     coverImagePosition: 50,
   },
+  {
+    title: 'Wedding Vendor Scams: When the Photographer or Venue You Booked Never Shows',
+    slug: 'wedding-vendor-scams',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'wedding-vendor-scams'],
+    sourceUrl: 'https://www.bbb.org/article/news-releases/31640-bbb-scam-alert-picture-perfect-deception-how-to-spot-a-wedding-photographer-scam',
+    body: `A couple finds a wedding photographer, planner, caterer, or venue through social media or a vendor listing site, communicates entirely online, signs a digital contract, and pays a deposit through a peer-to-peer app like Zelle or Venmo. The vendor is responsive and professional right up until days before the wedding — then cancels, goes silent, or simply doesn't show up, keeping the deposit or even a full advance payment with no way to get it back.
+
+The BBB reports individual losses in the thousands of dollars, and the scam has gotten harder to spot as AI tools make it easy to generate an entire portfolio of professional-looking wedding photos that were never actually taken, paired with bulk-purchased fake five-star reviews that make a fabricated vendor look just as credible as a real one with a genuine track record.
+
+The clearest warning signs are a vendor who communicates only through social media with no verifiable independent website or business history, who refuses a phone call or in-person meeting before booking, who accepts only peer-to-peer payment apps rather than a credit card or check, and a contract that's vague or silent on cancellation and refund terms. Being asked to pay the full cost — or nearly all of it — upfront, rather than a reasonable deposit, is also a red flag serious vendors don't usually need to raise.
+
+Before booking, check the vendor's BBB profile and complaint history, ask for references and actually call them, and insist on a phone call or in-person meeting to sign the contract rather than handling everything over direct message. Pay by credit card when possible, since it can be disputed if the vendor never delivers, and keep a signed copy of the contract with specific cancellation and refund terms spelled out. If you've already been scammed, report it to the BBB at bbb.org and file a complaint with the FTC at ReportFraud.ftc.gov.`,
+  },
+  {
+    title: 'Funeral Home Imposter Scams: The Call That Threatens to Cancel a Loved One\'s Funeral',
+    slug: 'funeral-home-imposter-scams',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'funeral-imposter-scams'],
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2023/06/imposters-prey-families-preparing-funeral-loved-one',
+    body: `Scammers search published obituaries for the name of the deceased and their surviving family, then contact a grieving family member by phone, text, or email, falsely claiming to represent the funeral home. The message is built around urgency and fear: additional payment is needed immediately, the claim goes, or the funeral itself will be canceled — a threat aimed squarely at people who are already overwhelmed and least likely to stop and independently verify it before reacting.
+
+The FTC has flagged this as a distinct pattern from ordinary billing disputes because of how deliberately it exploits timing: it strikes during the narrow window between a death being publicly announced and the funeral actually taking place, when families are making real, time-sensitive payments to an actual funeral home and are primed to treat an urgent payment request as normal rather than suspicious.
+
+The clearest warning sign is the payment method demanded — a wire transfer, cryptocurrency, gift cards, or a request to deposit a check and send money back to a stranger, all methods that are difficult to trace or reverse once sent. The FTC is direct about the psychology at play: honest businesses give customers time to make a decision, so anyone pressuring immediate payment or demanding personal information on the spot is, by that pressure alone, showing signs of a scam.
+
+If a call, text, or email like this arrives, don't act on it directly — contact the funeral home using a phone number you already have on file or find on its General Price List, not any number provided by the person who contacted you. Never send money by wire transfer, cryptocurrency, or gift card, regardless of how urgent the request sounds, and report the attempt to the FTC at ReportFraud.ftc.gov. The same caution applies to unsolicited calls offering to sell a "pre-need" funeral plan — the FTC's Funeral Rule requires any prepayment to be placed in a protected vehicle like a life insurance policy or government-backed investment, not simply handed over to an unfamiliar third-party agency.`,
+  },
 ];
 
 async function seedArticles(articles: SeedArticle[], label: string) {
