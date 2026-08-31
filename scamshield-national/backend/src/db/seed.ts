@@ -11435,7 +11435,7 @@ const SEED_SCAMS: SeedScam[] = [
     country: 'FR',
     alertLevel: 'high',
     sources: ['France Travail', 'Cybermalveillance.gouv.fr'],
-    sourceUrl: 'https://www.francetravail.fr/candidat/soyez-vigilants/recrutements-frauduleux-soyez-vi.html',
+    sourceUrl: 'https://www.francetravail.fr/candidat/soyez-vigilants/fausses-offres-d-emploi.html',
   },
   {
     name: 'French Fake Disaster-Relief Donation Collections (Fausses Cagnottes)',
