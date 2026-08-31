@@ -3792,6 +3792,10 @@ If a call, text, or email like this arrives, don't act on it directly — contac
     author: 'ScamShield Editorial',
     tags: ['guide', 'jury-duty-scam'],
     sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2026/06/ignore-calls-texts-and-emails-threatening-arrest-you-missing-jury-duty',
+    // representative photo — replace with an exact match if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/CourtGavel.JPG?width=1200',
+    coverImageCredit: 'Jonathunder, CC BY-SA 4.0, via Wikimedia Commons',
+    coverImagePosition: 50,
     body: `A phone call arrives from someone identifying themselves as a U.S. Marshal or a local police officer, claiming the recipient missed jury duty and now faces arrest unless a fine is paid immediately. The caller ID can be spoofed to display the actual name of a real police department or the U.S. Marshals Service, and the caller may already know the recipient's name or address, small real details dropped in specifically to make an entirely fabricated situation feel credible.
 
 The scam has escalated in recent versions the FTC has tracked: after the initial call, the scammer follows up by texting or emailing a fake arrest warrant, complete with official-looking seals and language, to intensify the pressure before the victim has time to think it through or hang up and verify independently. The fine, the caller insists, can only be paid immediately through a payment app, cryptocurrency, a gift card, or a wire transfer — all methods that, once sent, are effectively impossible to recover.
@@ -3806,6 +3810,9 @@ If a call like this comes in, hang up rather than engage, and don't trust the ca
     author: 'ScamShield Editorial',
     tags: ['guide', 'check-washing'],
     sourceUrl: 'https://www.uspis.gov/news/scam-article/check-washing',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Blue_USPS_Mailbox.jpg?width=1200',
+    coverImageCredit: 'Elliott R. Plack, CC0, via Wikimedia Commons',
+    coverImagePosition: 50,
     body: `A check dropped in a home mailbox or a blue USPS collection box for outgoing mail seems like an ordinary, safe way to pay a bill. Thieves who steal outgoing mail — sometimes targeting a specific collection box repeatedly, sometimes working an entire neighborhood's mailboxes overnight — are counting on exactly that assumption. Once a check is in hand, a solvent like acetone can lift the original ink for the payee name and dollar amount off the paper while leaving the account holder's signature untouched, since most check ink isn't designed to resist chemical removal the way a signature's ballpoint pressure marks are.
 
 With the payee and amount erased, the thief rewrites the check — often naming themselves or an associate as payee and inflating the amount well beyond what was originally written — then deposits or cashes it. Because the signature is genuine, the check can clear before the original sender or recipient ever notices anything wrong, and the fraud often isn't caught until a bank statement shows a payment that was never made, or a legitimate payee calls asking why their bill was never actually paid.
@@ -3820,6 +3827,10 @@ The USPIS recommends depositing outgoing checks directly at a post office or in 
     author: 'ScamShield Editorial',
     tags: ['guide', 'one-ring-scam'],
     sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2019/05/get-one-ring-call-dont-call-back',
+    // representative photo — replace with an exact match if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Hand_holding_smartphone_with_blank_white_screen.jpg?width=1200',
+    coverImageCredit: 'Santeri Viinamäki, CC BY-SA 4.0, via Wikimedia Commons',
+    coverImagePosition: 50,
     body: `The phone rings once, maybe twice, often in the middle of the night, then stops before anyone can answer. The missed call shows an unfamiliar number, sometimes with an area code that looks domestic at a glance, and the natural instinct is to call back to see who it was or whether it was urgent. That instinct is exactly what the scam is built around — the call was never meant to be answered in the first place.
 
 The number that rang is actually an international toll line, frequently routed through a country whose area code or country code closely resembles a U.S. one, or dialed directly as an international number the recipient doesn't recognize as foreign. Calling back connects to a premium-rate line that starts charging by the minute the moment the call connects, similar to how a 900-number worked in the past, and keeps the line open as long as possible — sometimes with hold music, a recorded message, or dead air — specifically to run up the charge before hanging up. Most of that per-minute fee is paid out to whoever operates the scam.
@@ -3834,6 +3845,10 @@ The FTC's guidance is simple: don't call back a number you don't recognize, espe
     author: 'ScamShield Editorial',
     tags: ['guide', 'money-flipping-scam'],
     sourceUrl: 'https://www.bbb.org/article/scams/27566-bbb-scam-alert-cryptocurrency-investment-scams-take-to-tiktok',
+    // representative photo — replace with an exact match if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Money-1428594_1920.jpg?width=1200',
+    coverImageCredit: 'Maklay62, CC0, via Wikimedia Commons',
+    coverImagePosition: 50,
     body: `An unsolicited message arrives from an account that doesn't follow the recipient, often on Instagram or TikTok, sometimes alongside a video or screenshot showing stacks of cash. The pitch is simple: send a few hundred dollars through a payment app or in cryptocurrency, and the sender will "flip" it into several times that amount within a few days, using connections or methods they claim to have but never actually explain.
 
 Victims who send the initial amount are typically told the flip worked and a much larger sum is ready to be paid out — but before it can be released, a "fee" has to be paid first, framed as a withdrawal charge, a tax, or a processing cost the scammer claims they can't waive. Once that fee is paid, another one often follows, each pitched as the very last step before the payout finally arrives. No payout ever comes, because there was never a real investment in the first place — every dollar sent, from the initial "flip" money to every fee after it, goes straight to the scammer.
