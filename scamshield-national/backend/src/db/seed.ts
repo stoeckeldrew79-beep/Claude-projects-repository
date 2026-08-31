@@ -12386,6 +12386,51 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['ASIC (Australian Securities and Investments Commission)', 'National Anti-Scam Centre (ACCC)'],
     sourceUrl: 'https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-195mr-asic-warns-scammers-are-using-ai-to-spin-vast-webs-of-deception',
   },
+  {
+    name: 'Fake "Homeowners Association of America" Billing Scam',
+    slug: 'fake-homeowners-association-of-america-billing-scam',
+    description:
+      'Scammers send professional-looking email invoices from a fictitious national HOA billing entity — using domains like hoasamerica.org, hoaofamerica.org, or hoanational.org — demanding payment of a monthly or "past-due" assessment, often targeting homeowners whose neighborhoods don\'t even have an HOA at all. The emails cite fabricated notice IDs, threaten late fees and collections, and link to matching look-alike websites falsely claiming decades of operation despite domains registered only weeks earlier. This is distinct from a scam targeting an existing real HOA\'s dues — no such national organization exists, and no legitimate HOA operates under one.',
+    categorySlug: 'phishing',
+    country: 'US',
+    alertLevel: 'medium',
+    sources: ['Better Business Bureau (BBB Scam Tracker)'],
+    sourceUrl: 'https://www.bbb.org/scamtracker/lookupscam/1039776',
+  },
+  {
+    name: 'HOA Lien Equity-Skimming Scam',
+    slug: 'hoa-lien-equity-skimming-scam',
+    description:
+      'A scammer creates or records a fraudulent HOA lien and poses as an HOA official or management company, sending bills and lien notices to a financially strapped homeowner who fears foreclosure. Posing as a "savior," the scammer offers to pay off the lien, mortgage, and future dues in exchange for the homeowner quitclaiming the property to them and paying monthly "rent" as a tenant going forward — then never actually pays the mortgage or HOA, collects a security deposit and months of rent, and evicts the homeowner, keeping the home\'s equity. The fraud often goes undetected until a title review turns up the bogus lien.',
+    categorySlug: 'mortgage-foreclosure-scams',
+    country: 'US',
+    state: 'CO',
+    alertLevel: 'high',
+    sources: ['Colorado Division of Real Estate', 'Colorado Department of Regulatory Agencies (DORA)'],
+    sourceUrl: 'https://dora.colorado.gov/press-release/consumer-advisory-protect-yourself-against-home-equity-skimming-scams',
+  },
+  {
+    name: 'SIM-Swap Buy-Now-Pay-Later Account Fraud',
+    slug: 'sim-swap-bnpl-account-fraud',
+    description:
+      'Fraudsters first hijack a victim\'s phone number through a SIM swap, then use that phone access together with other stolen personal data to open brand-new accounts and credit lines with buy-now-pay-later providers like Afterpay and Affirm in the victim\'s name. Using the newly opened BNPL credit, they rapidly place large orders — one documented case totaled over $10,000 in fraudulent purchases — before the victim discovers the unauthorized accounts, and is left disputing unfamiliar debt with only email-based BNPL provider support to fall back on.',
+    categorySlug: 'identity-theft',
+    country: 'US',
+    alertLevel: 'high',
+    sources: ['Better Business Bureau (BBB Scam Tracker)'],
+    sourceUrl: 'https://www.bbb.org/scamtracker/lookupscam/978257',
+  },
+  {
+    name: 'Fake Affirm Debt-Collection Impersonation Scam',
+    slug: 'fake-affirm-debt-collection-impersonation-scam',
+    description:
+      'Scammers contact a victim by email and phone claiming to be Affirm, asserting an overdue loan balance on a buy-now-pay-later account the victim never actually opened, then escalate to threats of credit-score damage to pressure payment. Because the underlying account was often fraudulently opened using the victim\'s stolen identity in the first place, calling the real Affirm to dispute it can be slow to resolve, and collection-style payment demands can continue even after the account is supposedly placed on hold.',
+    categorySlug: 'debt-relief-scams',
+    country: 'US',
+    alertLevel: 'medium',
+    sources: ['Better Business Bureau (BBB Scam Tracker)'],
+    sourceUrl: 'https://www.bbb.org/scamtracker/lookupscam/704892',
+  },
 ];
 
 async function seedCategoriesAndScams() {
