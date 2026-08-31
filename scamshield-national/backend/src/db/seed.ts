@@ -12039,6 +12039,29 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['New Mexico Department of Justice (Attorney General Raúl Torrez)', 'Tularosa Basin Downwinders Consortium'],
     sourceUrl: 'https://nmdoj.gov/press-release/attorney-general-raul-torrez-alerts-new-mexicans-to-scams-following-reca-program-extension/',
   },
+  {
+    name: 'Fake Farmers Market Vendor-Fee Scam',
+    slug: 'fake-farmers-market-vendor-fee-scam',
+    description:
+      'A polished social-media ad promotes a fictitious multi-day "vendor and artisan market" at a real, well-known public farmers market. Farmers, artisans, and small food or craft vendors who respond are emailed a fake application, then asked to pay a vendor fee electronically before ever learning the event doesn\'t exist and has no affiliation with the real market. Georgia\'s Agriculture Commissioner said investigators believe one such operation targeting the Atlanta State Farmers Market may be based overseas, and issued a cease-and-desist while urging vendors to lease space only through the market\'s own official portal.',
+    categorySlug: 'employment-scams',
+    country: 'US',
+    state: 'GA',
+    alertLevel: 'medium',
+    sources: ['Georgia Department of Agriculture'],
+    sourceUrl: 'https://www.cbsnews.com/atlanta/news/georgia-agriculture-officials-warn-of-fake-atlanta-state-farmers-market-vendor-scam/',
+  },
+  {
+    name: 'Check-Washing Mail Theft Scam',
+    slug: 'check-washing-mail-theft-scam',
+    description:
+      'Thieves steal outgoing checks from residential mailboxes or blue USPS collection boxes, then use acetone or a similar solvent to erase the original ink while leaving the signature intact, rewriting the payee name and dollar amount — often for a far larger sum — before depositing or cashing the altered check. The U.S. Postal Inspection Service says postal inspectors recover more than $1 billion in counterfeit checks and money orders every year, and recommends depositing checks at the post office rather than a home mailbox, retrieving incoming mail promptly, and using a mail hold when traveling.',
+    categorySlug: 'identity-theft',
+    country: 'US',
+    alertLevel: 'high',
+    sources: ['U.S. Postal Inspection Service (USPIS)'],
+    sourceUrl: 'https://www.uspis.gov/news/scam-article/check-washing',
+  },
 ];
 
 async function seedCategoriesAndScams() {
