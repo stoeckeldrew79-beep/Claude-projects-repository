@@ -11910,6 +11910,39 @@ const SEED_SCAMS: SeedScam[] = [
     sourceUrl: 'https://www.konsumentverket.se/nyhet/ko-stoppar-svenska-elverkets-saljmetoder/',
   },
   {
+    name: 'Swedish Fake Crisis Relief Donation Collections',
+    slug: 'swedish-fake-crisis-relief-donation-collections',
+    description:
+      'Fraudsters set up bogus fundraising collections — through social media, a Swish number, or door-to-door and street solicitation — claiming to benefit victims of a war or disaster, directing donations to personal accounts or unverified Swish numbers instead of a legitimate charity. Sweden\'s official charity oversight body, Svensk Insamlingskontroll, which controls the "90-konto" system used to mark verified charitable accounts, advises donors to always confirm a collection is tied to a real 90-account before giving, since a scam collection can copy a real cause\'s name and imagery convincingly.',
+    categorySlug: 'charity-scams',
+    country: 'SE',
+    alertLevel: 'medium',
+    sources: ['Svensk Insamlingskontroll (Swedish Fundraising Control)'],
+    sourceUrl: 'https://www.insamlingskontroll.se/for-givare/vad-ska-jag-tanka-pa/',
+  },
+  {
+    name: 'Swedish Sextortion Targeting Teenage Boys',
+    slug: 'swedish-sextortion-targeting-teenage-boys',
+    description:
+      'Perpetrators, often organized in groups and posing as a peer, trick teenage boys on social media into sending nude images or videos, then threaten to send them to the victim\'s family and friends unless paid — typically demanding fast digital payment. Swedish police say the true scale is likely far larger than reported, since shame keeps many victims from coming forward, and stress that paying never guarantees the images won\'t be shared or leveraged for further demands.',
+    categorySlug: 'sextortion',
+    country: 'SE',
+    alertLevel: 'high',
+    sources: ['Polisen (Swedish Police Authority)'],
+    sourceUrl: 'https://polisen.se/aktuellt/nyheter/nationell/2025/september/allt-fler-unga-pressas-pa-pengar-for-nakenbilder/',
+  },
+  {
+    name: 'Swedish Deceptive Loan-Broker Fee Scheme',
+    slug: 'swedish-deceptive-loan-broker-fee-scheme',
+    description:
+      'A website presents itself as a quick-loan ("snabblån") provider — complete with an "apply now" flow and a loan-amount selector — but never actually offers or brokers any credit. Instead, consumers who sign up are billed a recurring monthly fee for what turns out to be just a list of links to other lenders, a service they never knowingly ordered. Konsumentverket took formal enforcement action against one such operator, Finance & Consulting Scandinavia KB, fining the company 500,000 kronor and its signatory a further 200,000 kronor for misleading consumers into believing the site itself offered loans.',
+    categorySlug: 'debt-relief-scams',
+    country: 'SE',
+    alertLevel: 'high',
+    sources: ['Konsumentverket (Swedish Consumer Agency)'],
+    sourceUrl: 'https://www.konsumentverket.se/aktuellt/forelaggande-mot-finance-consulting-scandinavia-kb/',
+  },
+  {
     name: 'Employee W-2 Data Theft via Executive Impersonation',
     slug: 'w2-data-theft-executive-impersonation',
     description:
