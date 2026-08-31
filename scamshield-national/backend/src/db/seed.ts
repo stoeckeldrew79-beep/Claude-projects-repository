@@ -3656,6 +3656,10 @@ The BBB reports individual losses in the thousands of dollars, and the scam has 
 The clearest warning signs are a vendor who communicates only through social media with no verifiable independent website or business history, who refuses a phone call or in-person meeting before booking, who accepts only peer-to-peer payment apps rather than a credit card or check, and a contract that's vague or silent on cancellation and refund terms. Being asked to pay the full cost — or nearly all of it — upfront, rather than a reasonable deposit, is also a red flag serious vendors don't usually need to raise.
 
 Before booking, check the vendor's BBB profile and complaint history, ask for references and actually call them, and insist on a phone call or in-person meeting to sign the contract rather than handling everything over direct message. Pay by credit card when possible, since it can be disputed if the vendor never delivers, and keep a signed copy of the contract with specific cancellation and refund terms spelled out. If you've already been scammed, report it to the BBB at bbb.org and file a complaint with the FTC at ReportFraud.ftc.gov.`,
+    // representative photo — replace with an exact match if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/WeddingVideographer_Wikipedia.jpg?width=1200',
+    coverImageCredit: 'ChrisFigueroa, CC BY 3.0, via Wikimedia Commons',
+    coverImagePosition: 50,
   },
   {
     title: 'Funeral Home Imposter Scams: The Call That Threatens to Cancel a Loved One\'s Funeral',
@@ -3670,6 +3674,10 @@ The FTC has flagged this as a distinct pattern from ordinary billing disputes be
 The clearest warning sign is the payment method demanded — a wire transfer, cryptocurrency, gift cards, or a request to deposit a check and send money back to a stranger, all methods that are difficult to trace or reverse once sent. The FTC is direct about the psychology at play: honest businesses give customers time to make a decision, so anyone pressuring immediate payment or demanding personal information on the spot is, by that pressure alone, showing signs of a scam.
 
 If a call, text, or email like this arrives, don't act on it directly — contact the funeral home using a phone number you already have on file or find on its General Price List, not any number provided by the person who contacted you. Never send money by wire transfer, cryptocurrency, or gift card, regardless of how urgent the request sounds, and report the attempt to the FTC at ReportFraud.ftc.gov. The same caution applies to unsolicited calls offering to sell a "pre-need" funeral plan — the FTC's Funeral Rule requires any prepayment to be placed in a protected vehicle like a life insurance policy or government-backed investment, not simply handed over to an unfamiliar third-party agency.`,
+    // representative photo — replace with an exact match if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Poole-Larsen_Funeral_Home_in_Eugene,_Oregon.jpg?width=1200',
+    coverImageCredit: 'Rick Obst, CC BY 2.0, via Wikimedia Commons',
+    coverImagePosition: 50,
   },
 ];
 
