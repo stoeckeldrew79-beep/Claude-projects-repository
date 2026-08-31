@@ -2456,6 +2456,34 @@ Cook pleaded guilty in 2010 to mail fraud and tax evasion rather than risk a lif
 The case is a reminder that affinity and credibility, not sophisticated financial engineering, are what actually sell most Ponzi schemes — pairing a plausible-sounding market (foreign currency trading, in this case) with a trusted messenger speaking to a receptive community turned out to be worth far more to Cook than any real trading strategy would have been.`,
     sourceUrl: 'https://www.fbi.gov/minneapolis/press-releases/2010/mp082410.htm',
   },
+  {
+    title: "Richard Scrushy: Acquitted of a $2.7 Billion Fraud, Convicted of Bribing the Governor Who Might Have Pardoned Him",
+    slug: 'richard-scrushy-healthsouth-bribery',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Richard Scrushy founded HealthSouth and built it into the largest operator of rehabilitation hospitals in the country. Beginning in the 1990s, prosecutors said, HealthSouth's executives systematically inflated the company's earnings to meet Wall Street expectations, eventually fabricating roughly $2.7 billion in profits that didn't exist — one of the largest accounting frauds ever uncovered at a publicly traded company. Fifteen other HealthSouth executives, including five different chief financial officers, ultimately pleaded guilty to their roles in the scheme.
+
+Scrushy did not. He fought the fraud charges at trial in 2005, and in a verdict that stunned much of the legal community given the scale of the fraud, a Birmingham jury acquitted him on all 36 counts. His defense argued that subordinates had carried out the fraud without his knowledge or direction — a claim made more plausible to jurors by the sheer number of executives below him who'd already taken responsibility for parts of the scheme.
+
+The acquittal didn't end Scrushy's legal exposure. Just months later, federal prosecutors indicted him on a separate set of charges: bribery. The government alleged Scrushy paid $500,000 toward Alabama Governor Don Siegelman's campaign debt in exchange for a seat on a state hospital regulatory board — a seat with real influence over decisions affecting HealthSouth's own business. In June 2006, a jury convicted both Scrushy and Siegelman on bribery, conspiracy, and honest-services-fraud charges; Scrushy was sentenced to 82 months in federal prison and fined $150,000.
+
+Scrushy's case is a reminder that walking away from history's biggest fraud charge doesn't mean walking away clean — the same relationships and money that built his corporate empire generated a second, entirely separate crime that a jury had no trouble convicting him of, even after the first jury couldn't be convinced he knew what his own company's books actually said.`,
+    sourceUrl: 'https://www.justice.gov/archive/opa/pr/2006/June/06_crm_409.html',
+  },
+  {
+    title: 'Timothy Durham: The "Midwest Madoff" Behind a $200 Million Consumer Finance Ponzi Scheme',
+    slug: 'timothy-durham-fair-finance-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Timothy Durham was a well-connected Indianapolis businessman — a major political donor with ties to Indiana's Republican establishment — when he and a partner bought Fair Finance Company, a small Ohio consumer-lending firm that had operated legitimately for decades, financing itself by selling interest-bearing investment certificates to everyday local investors. After the 2002 purchase, prosecutors said, Durham began quietly draining the company to fund his own businesses and an extravagant personal lifestyle, including a fleet of classic cars and lavish parties.
+
+By November 2009, Durham, his business partner James Cochran, and their affiliated companies owed Fair Finance more than $200 million — roughly 90% of the company's entire loan portfolio — money that had effectively been diverted from the investors who'd bought Fair Finance's certificates believing their money was funding ordinary consumer loans. To keep the operation running and new certificate sales flowing in, prosecutors said Durham and his associates knew full well that neither they nor their companies had the earnings or collateral to ever actually repay what they owed.
+
+A federal jury in Indianapolis convicted Durham in June 2012 of securities fraud, conspiracy, and ten counts of wire fraud. He was sentenced to 50 years in prison — the longest white-collar fraud sentence in Indiana history — and ordered to pay restitution alongside co-conspirators Cochran (25 years) and Fair Finance's CFO, Rick Snow (10 years). Roughly 5,000 mostly Ohio-based investors, many of them elderly, were left holding worthless certificates when the company collapsed.
+
+Durham's case illustrates how a scheme can hide in plain sight inside an otherwise ordinary, decades-old local business — Fair Finance had a real operating history and real local trust behind its name long before Durham took it over, and that inherited credibility is exactly what let him keep selling certificates to new investors while quietly using the company as his own personal source of funds.`,
+    sourceUrl: 'https://www.justice.gov/archives/opa/pr/former-fair-financial-company-ceo-sentenced-indianapolis-50-years-prison-role-200-million',
+  },
 ];
 
 // Practical "how it works / red flags / what to do" guides covering the
