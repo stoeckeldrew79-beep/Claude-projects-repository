@@ -11734,6 +11734,39 @@ const SEED_SCAMS: SeedScam[] = [
     sourceUrl: 'https://www.police.gov.sg/media-hub/news/2022/20221028_police_advisory_on_staged_kidnapping_cases_orchestrated_by_fake_china_gov_officials',
   },
   {
+    name: 'Singapore IRAS Fake Tax Refund Phishing Scam',
+    slug: 'singapore-iras-fake-tax-refund-phishing',
+    description:
+      'A text message or email impersonating the Inland Revenue Authority of Singapore (IRAS) claims the recipient is owed a tax refund and links to a fake Singpass login page to "process" it, harvesting the victim\'s NRIC number and Singpass credentials before moving on to bank or card details. IRAS states that real tax refunds are credited automatically to a taxpayer\'s registered bank account or PayNow-NRIC account, and the agency never asks for bank or card details by text or email link.',
+    categorySlug: 'tax-scams',
+    country: 'SG',
+    alertLevel: 'high',
+    sources: ['Singapore Police Force', 'Inland Revenue Authority of Singapore (IRAS)'],
+    sourceUrl: 'https://www.iras.gov.sg/news-events/announcements/scam-advisory',
+  },
+  {
+    name: 'Singapore Fake Charity Door-to-Door Donation Scam',
+    slug: 'singapore-fake-charity-donation-scam',
+    description:
+      'Fraudsters carrying counterfeit staff passes and fabricated charity documents go door-to-door across Singapore neighborhoods soliciting cash donations for causes that don\'t actually exist or aren\'t affiliated with any real charity. One documented scheme ran for more than four years and deceived over 12,600 victims out of more than S$106,000 in cash donations before being uncovered. The Singapore Police Force advises checking any fundraiser against the official Charity Portal (charities.gov.sg) before donating, since a real charity collector will always be verifiable there.',
+    categorySlug: 'charity-scams',
+    country: 'SG',
+    alertLevel: 'medium',
+    sources: ['Singapore Police Force', 'Ministry of Culture, Community and Youth (MCCY)'],
+    sourceUrl: 'https://www.police.gov.sg/Media-Hub/News/2025/11/20251117_man_convicted_and_jailed_46_months_for_donation_scams',
+  },
+  {
+    name: 'Singapore Singpass QR Code Job-Screening Account Takeover',
+    slug: 'singapore-singpass-qr-code-job-screening-takeover',
+    description:
+      'A scammer posing as an employer on Telegram, WhatsApp, or Carousell tells a job applicant that scanning a Singpass QR code is required for a "background check" or "vaccination verification" as part of the hiring process. The QR code is real, but scanning it authorizes a genuine Singpass session that the scammer then uses to change the victim\'s registered mobile number and email — locking the victim out of account notifications — before using the hijacked identity to open bank accounts, telco lines, or other financial accounts in their name. Unlike a fake-login-page phishing scam, the victim never enters stolen credentials; they unknowingly authorize a real session that gets hijacked immediately afterward. The Singapore Police Force recorded at least 219 victims of this pattern since January 2024.',
+    categorySlug: 'identity-theft',
+    country: 'SG',
+    alertLevel: 'critical',
+    sources: ['Singapore Police Force'],
+    sourceUrl: 'https://www.police.gov.sg/media-hub/news/2024/20240517_police_advisory_on_job_scams_involving_the_relinquishing_of_singpass_credentials',
+  },
+  {
     name: 'Criminal Identity Theft at Arrest or Citation',
     slug: 'criminal-identity-theft-arrest-citation',
     description:
