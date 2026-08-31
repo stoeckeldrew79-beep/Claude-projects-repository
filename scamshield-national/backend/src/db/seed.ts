@@ -12487,6 +12487,72 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Better Business Bureau (BBB Scam Tracker)'],
     sourceUrl: 'https://www.bbb.org/scamtracker/lookupscam/704892',
   },
+  {
+    name: 'Emotional Support/Service Animal Certification Mill Scam',
+    slug: 'emotional-support-service-animal-certification-mill-scam',
+    description:
+      'Websites impersonate official government registries — some display an unauthorized HUD seal or use names like "National Support Animal Registry" — and charge $70 to $200-plus for an "official" emotional-support or service-animal certificate, ID card, or vest after nothing more than a short online questionnaire, with no licensed clinician involved. The certificate has no legal standing under the Fair Housing Act, so a landlord who rejects it can leave the "certified" owner without any real accommodation protection, while the site keeps the fee and whatever personal data it collected.',
+    categorySlug: 'online-shopping-scams',
+    country: 'US',
+    alertLevel: 'medium',
+    sources: ['U.S. Department of Housing and Urban Development (HUD)'],
+    sourceUrl: 'https://archives.hud.gov/news/2019/pr19-162.cfm',
+  },
+  {
+    name: 'Pet-Sitting Job Scam',
+    slug: 'pet-sitting-job-scam',
+    description:
+      'A "pet owner" contacts a would-be sitter through a job site, social media, or student email with an urgent, high-paying opportunity and skips any interview or in-person meeting, explaining they\'re simply too busy or "you\'re such a good fit." They either request a Social Security number and bank details to "set up direct deposit," or mail a check for far more than the agreed rate and ask the sitter to deduct their pay and wire back the rest for "supplies" — the check later bounces, leaving the sitter liable for funds already spent or wired, or their identity compromised.',
+    categorySlug: 'employment-scams',
+    country: 'US',
+    alertLevel: 'medium',
+    sources: ['Better Business Bureau (BBB)'],
+    sourceUrl: 'https://www.bbb.org/article/news-releases/22485-pet-sitter-bogus-jobs',
+  },
+  {
+    name: 'BADBOX Malware-Loaded Streaming Boxes',
+    slug: 'badbox-malware-streaming-boxes',
+    description:
+      'Cheap, unbranded Android TV streaming boxes and sticks sold on marketplaces like Amazon and AliExpress — marketed as a way to "cut the cord" and stream free or pirated content — arrive with BADBOX malware pre-installed, or get infected once the buyer sideloads apps from unofficial app stores to unlock pirated channels. Once connected, the device silently joins a botnet, turning the victim\'s home network into a criminal residential proxy and exposing any banking or payment traffic on that same network to compromise. The FBI\'s Internet Crime Complaint Center confirmed over a million infected devices as of its June 2025 alert.',
+    categorySlug: 'account-takeover',
+    country: 'US',
+    alertLevel: 'high',
+    sources: ['FBI', 'Internet Crime Complaint Center (IC3)'],
+    sourceUrl: 'https://www.ic3.gov/PSA/2025/PSA250605',
+  },
+  {
+    name: 'Pirate IPTV Subscription Shutdown Scam',
+    slug: 'pirate-iptv-subscription-shutdown-scam',
+    description:
+      'Sellers market a monthly IPTV subscription — often bundling 1,000-plus channels including live sports blackout-free — as a legal, cheap cord-cutting alternative, collecting recurring subscriber fees while concealing the service\'s true pirated nature from payment processors. Subscribers who prepay lose access instantly and permanently the moment federal agents seize the operation\'s servers and domains, with no refund path since the "business" was a criminal enterprise all along; one such case unsealed in the Eastern District of New York in November 2024 involved more than $7 million in subscriber fees.',
+    categorySlug: 'online-shopping-scams',
+    country: 'US',
+    alertLevel: 'medium',
+    sources: ['U.S. Department of Justice', "U.S. Attorney's Office, Eastern District of New York"],
+    sourceUrl: 'https://torrentfreak.com/feds-shut-down-pirate-sports-streaming-service-247tvstream-indict-operators-241121/',
+  },
+  {
+    name: 'NIL Brand-Deal Bounced-Check Scam',
+    slug: 'nil-brand-deal-bounced-check-scam',
+    description:
+      'A scammer impersonates a real apparel or clothing brand and messages a college athlete with a flattering name-image-likeness (NIL) sponsorship offer, then sends a check for more than the agreed amount and asks the athlete to wire back the difference — often framed as a "facility fee" — before the check has actually cleared. The check later bounces, leaving the athlete out the wired funds. In one documented case, a University of Florida gymnast was offered $1,500 by someone impersonating a New York apparel brand, received a $3,000 check, and was asked to wire back the "extra" amount before the fraud was caught.',
+    categorySlug: 'employment-scams',
+    country: 'US',
+    alertLevel: 'medium',
+    sources: ['Bloomberg Law'],
+    sourceUrl: 'https://news.bloomberglaw.com/antitrust/college-athletes-lured-by-nil-deals-exploited-by-fine-print',
+  },
+  {
+    name: 'Unlicensed NIL "Street Agent" Upfront-Fee Scheme',
+    slug: 'unlicensed-nil-street-agent-upfront-fee-scheme',
+    description:
+      'Self-styled, unlicensed "agents" or marketers approach high school and college athletes and their families during recruiting and transfer-portal periods, offering to "secure" a bigger name-image-likeness (NIL) deal in exchange for an upfront cash fee or a locked-in commission — commonly 20-25%, sometimes as high as 40% — taken before any real deal exists, and sometimes extended to a cut of all future earnings. Unlike professional players\' associations, college NIL representation has no licensing, registration, or background-check regime, leaving families with no easy way to vet legitimacy before paying; the FTC opened a formal inquiry in January 2026, sending compliance letters to 20 Division I schools over potential Sports Agent Responsibility and Trust Act violations.',
+    categorySlug: 'employment-scams',
+    country: 'US',
+    alertLevel: 'medium',
+    sources: ['Federal Trade Commission (FTC)'],
+    sourceUrl: 'https://www.fisherphillips.com/en/insights/insights/ftc-launches-probe-into-college-athlete-agents-as-transfer-portal-chaos-grows',
+  },
 ];
 
 async function seedCategoriesAndScams() {
