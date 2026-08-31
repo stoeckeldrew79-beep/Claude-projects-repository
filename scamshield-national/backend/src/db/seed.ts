@@ -12679,6 +12679,24 @@ const SEED_GLOBAL_SOURCES: SeedGlobalSource[] = [
     data_type: 'annual_report',
   },
   {
+    agency_name: 'Consumer Financial Protection Bureau — Consumer Complaint Database',
+    country: 'US',
+    country_name: 'United States',
+    url: 'https://www.consumerfinance.gov/data-research/consumer-complaints/',
+    description:
+      'The CFPB publishes individual-level complaint data about consumer financial products and services — credit cards, debt collection, loans, and more — updated daily, downloadable in bulk, and available through a public API with full field documentation.',
+    data_type: 'open_dataset',
+  },
+  {
+    agency_name: 'U.S. Postal Inspection Service — Annual Report',
+    country: 'US',
+    country_name: 'United States',
+    url: 'https://www.uspis.gov/annual-report',
+    description:
+      'USPIS publishes a yearly Annual Report of Investigations covering mail fraud, mail theft, and check-washing case statistics, alongside prevention guidance on the specific mail-based scam patterns it sees most.',
+    data_type: 'annual_report',
+  },
+  {
     agency_name: 'National Anti-Scam Centre / Scamwatch (ACCC)',
     country: 'AU',
     country_name: 'Australia',

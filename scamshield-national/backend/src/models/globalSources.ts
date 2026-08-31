@@ -27,7 +27,7 @@ export interface GlobalStat {
 // shape the "Global Scam Intelligence" page renders directly.
 export async function listSourcesWithStats() {
   const { rows: sources } = await pool.query<GlobalSource>(
-    `SELECT * FROM global_sources ORDER BY country_name ASC`
+    `SELECT * FROM global_sources ORDER BY (country = 'US') DESC, country_name ASC`
   );
   const { rows: stats } = await pool.query<GlobalStat>(
     `SELECT * FROM global_stats ORDER BY published_date DESC NULLS LAST, created_at DESC`
