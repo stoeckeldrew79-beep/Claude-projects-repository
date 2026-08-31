@@ -12697,6 +12697,15 @@ const SEED_GLOBAL_SOURCES: SeedGlobalSource[] = [
     data_type: 'annual_report',
   },
   {
+    agency_name: 'AARP Fraud Watch Network',
+    country: 'US',
+    country_name: 'United States',
+    url: 'https://www.aarp.org/pri/topics/work-finances-retirement/fraud-consumer-protection/',
+    description:
+      'Not a government agency — a nonprofit member organization included here because its Public Policy Institute publishes original national fraud-victimization surveys and topic-specific research (e.g. crypto fraud, fraud targeting specific communities) on a regular basis, with a particular focus on scams affecting older adults.',
+    data_type: 'public_stats',
+  },
+  {
     agency_name: 'National Anti-Scam Centre / Scamwatch (ACCC)',
     country: 'AU',
     country_name: 'Australia',
