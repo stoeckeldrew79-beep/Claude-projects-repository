@@ -3793,6 +3793,34 @@ The U.S. Postal Inspection Service says postal inspectors recover more than $1 b
 
 The USPIS recommends depositing outgoing checks directly at a post office or in a blue collection box right before the last scheduled pickup, rather than leaving them in a home mailbox for a carrier to collect later in the day. Incoming mail should be retrieved promptly rather than left sitting overnight, and anyone traveling should arrange a mail hold through USPS rather than let mail accumulate in an unattended box. Paying electronically — through a bank's bill-pay service, a peer-to-peer app, or a credit card — sidesteps the risk entirely for bills that don't strictly require a physical check. Suspected mail theft should be reported to USPIS at uspis.gov or 1-877-876-2455, along with local police and the bank the check was drawn on.`,
   },
+  {
+    title: 'The One-Ring "Wangiri" Phone Scam: Why a Single Ring Wants You to Call Back',
+    slug: 'one-ring-wangiri-phone-scam',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'one-ring-scam'],
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2019/05/get-one-ring-call-dont-call-back',
+    body: `The phone rings once, maybe twice, often in the middle of the night, then stops before anyone can answer. The missed call shows an unfamiliar number, sometimes with an area code that looks domestic at a glance, and the natural instinct is to call back to see who it was or whether it was urgent. That instinct is exactly what the scam is built around — the call was never meant to be answered in the first place.
+
+The number that rang is actually an international toll line, frequently routed through a country whose area code or country code closely resembles a U.S. one, or dialed directly as an international number the recipient doesn't recognize as foreign. Calling back connects to a premium-rate line that starts charging by the minute the moment the call connects, similar to how a 900-number worked in the past, and keeps the line open as long as possible — sometimes with hold music, a recorded message, or dead air — specifically to run up the charge before hanging up. Most of that per-minute fee is paid out to whoever operates the scam.
+
+The FCC has documented waves of these calls originating from specific international area codes, including one identified wave using Mauritania's "222" country code, hitting large numbers of U.S. phone numbers overnight in short bursts so that as many people as possible see a missed call before they're awake enough to think it through. Because the call disconnects after one ring, the caller never has to actually talk to anyone or make any claim at all — the entire scam depends on curiosity alone.
+
+The FTC's guidance is simple: don't call back a number you don't recognize, especially from a single missed ring, and never assume an unfamiliar number is domestic just because the digit count looks similar to a U.S. number. If a call was genuinely important, a legitimate caller will leave a voicemail or try again. Anyone who does call back and notices an unexpected charge on their phone bill should report it to their carrier, file a complaint with the FCC at fcc.gov/complaints, and report the scam to the FTC at ReportFraud.ftc.gov.`,
+  },
+  {
+    title: 'Money-Flipping Scams: The Social Media DM That Promises to Multiply Your Cash',
+    slug: 'money-flipping-scam',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'money-flipping-scam'],
+    sourceUrl: 'https://www.bbb.org/article/scams/27566-bbb-scam-alert-cryptocurrency-investment-scams-take-to-tiktok',
+    body: `An unsolicited message arrives from an account that doesn't follow the recipient, often on Instagram or TikTok, sometimes alongside a video or screenshot showing stacks of cash. The pitch is simple: send a few hundred dollars through a payment app or in cryptocurrency, and the sender will "flip" it into several times that amount within a few days, using connections or methods they claim to have but never actually explain.
+
+Victims who send the initial amount are typically told the flip worked and a much larger sum is ready to be paid out — but before it can be released, a "fee" has to be paid first, framed as a withdrawal charge, a tax, or a processing cost the scammer claims they can't waive. Once that fee is paid, another one often follows, each pitched as the very last step before the payout finally arrives. No payout ever comes, because there was never a real investment in the first place — every dollar sent, from the initial "flip" money to every fee after it, goes straight to the scammer.
+
+The Better Business Bureau says it has fielded thousands of reports about this kind of scam since 2020, describing a steady shift from long-run romance-style cons toward fast-moving social media pitches that can reach far more people in far less time. Payment apps and cryptocurrency are the preferred methods specifically because transfers are difficult or impossible to reverse once sent, unlike a credit card charge that can be disputed.
+
+There's no legitimate version of this offer: no one can guarantee a fixed multiple return on money handed to a stranger over direct message, and any request to pay a fee before receiving money you supposedly already "earned" is itself the giveaway. If a message like this arrives, the safest response is to not engage at all — don't send an initial amount to "test" it, and don't pay a fee chasing money already sent. Anyone who has already lost money this way should report it to the payment app or platform used, file a report with the BBB at bbb.org/scamtracker, and report it to the FTC at ReportFraud.ftc.gov.`,
+  },
 ];
 
 async function seedArticles(articles: SeedArticle[], label: string) {
