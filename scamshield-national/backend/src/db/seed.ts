@@ -3721,6 +3721,34 @@ If a call, text, or email like this arrives, don't act on it directly — contac
     coverImageCredit: 'Rick Obst, CC BY 2.0, via Wikimedia Commons',
     coverImagePosition: 50,
   },
+  {
+    title: 'Jury Duty Scam Calls: The Fake Arrest Warrant That Follows a "Missed" Summons',
+    slug: 'jury-duty-scam-calls',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'jury-duty-scam'],
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2026/06/ignore-calls-texts-and-emails-threatening-arrest-you-missing-jury-duty',
+    body: `A phone call arrives from someone identifying themselves as a U.S. Marshal or a local police officer, claiming the recipient missed jury duty and now faces arrest unless a fine is paid immediately. The caller ID can be spoofed to display the actual name of a real police department or the U.S. Marshals Service, and the caller may already know the recipient's name or address, small real details dropped in specifically to make an entirely fabricated situation feel credible.
+
+The scam has escalated in recent versions the FTC has tracked: after the initial call, the scammer follows up by texting or emailing a fake arrest warrant, complete with official-looking seals and language, to intensify the pressure before the victim has time to think it through or hang up and verify independently. The fine, the caller insists, can only be paid immediately through a payment app, cryptocurrency, a gift card, or a wire transfer — all methods that, once sent, are effectively impossible to recover.
+
+The FTC is unambiguous about the giveaway: real courts do not collect fines over the phone, and no legitimate government agency — court, police department, or the U.S. Marshals — will ever text or email someone an arrest warrant. If a person genuinely misses jury duty, the notice comes by physical mail from the court, not a phone call, a text, or an urgent threat of same-day arrest.
+
+If a call like this comes in, hang up rather than engage, and don't trust the caller ID even if it shows a real department's name — spoofing a display name is trivial for a scammer to do. Verify independently by calling the actual clerk of court or police department using a number looked up separately, never one provided by the caller, and never send money by gift card, cryptocurrency, wire transfer, or payment app based on a phone threat. Report the attempt to the FTC at ReportFraud.ftc.gov.`,
+  },
+  {
+    title: 'Check-Washing: How a Stolen Check From Your Mailbox Gets Rewritten and Cashed',
+    slug: 'check-washing-mail-theft-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'check-washing'],
+    sourceUrl: 'https://www.uspis.gov/news/scam-article/check-washing',
+    body: `A check dropped in a home mailbox or a blue USPS collection box for outgoing mail seems like an ordinary, safe way to pay a bill. Thieves who steal outgoing mail — sometimes targeting a specific collection box repeatedly, sometimes working an entire neighborhood's mailboxes overnight — are counting on exactly that assumption. Once a check is in hand, a solvent like acetone can lift the original ink for the payee name and dollar amount off the paper while leaving the account holder's signature untouched, since most check ink isn't designed to resist chemical removal the way a signature's ballpoint pressure marks are.
+
+With the payee and amount erased, the thief rewrites the check — often naming themselves or an associate as payee and inflating the amount well beyond what was originally written — then deposits or cashes it. Because the signature is genuine, the check can clear before the original sender or recipient ever notices anything wrong, and the fraud often isn't caught until a bank statement shows a payment that was never made, or a legitimate payee calls asking why their bill was never actually paid.
+
+The U.S. Postal Inspection Service says postal inspectors recover more than $1 billion in counterfeit checks and money orders every year, an indication of just how much check-washing and related mail theft is happening at any given time. The mechanism relies entirely on physical access to a check while it's in transit, which means the strongest defense has nothing to do with the check itself and everything to do with how and where it's mailed.
+
+The USPIS recommends depositing outgoing checks directly at a post office or in a blue collection box right before the last scheduled pickup, rather than leaving them in a home mailbox for a carrier to collect later in the day. Incoming mail should be retrieved promptly rather than left sitting overnight, and anyone traveling should arrange a mail hold through USPS rather than let mail accumulate in an unattended box. Paying electronically — through a bank's bill-pay service, a peer-to-peer app, or a credit card — sidesteps the risk entirely for bills that don't strictly require a physical check. Suspected mail theft should be reported to USPIS at uspis.gov or 1-877-876-2455, along with local police and the bank the check was drawn on.`,
+  },
 ];
 
 async function seedArticles(articles: SeedArticle[], label: string) {
