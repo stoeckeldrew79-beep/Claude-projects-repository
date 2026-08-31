@@ -2286,6 +2286,10 @@ Sahara did not comply. When repayment failed to materialize, the Supreme Court i
 
 The Sahara case illustrates a version of financial fraud that doesn't always fit neatly into a single criminal conviction — sometimes the harm to millions of small investors plays out instead through years of regulatory findings, court orders, and an unresolved question of whether money already spent can ever really be made whole again.`,
     sourceUrl: 'https://www.mondaq.com/india/shareholders/203796/sahara-vs-sebi-an-in-depth-analysis-of-the-landmark-supreme-court-ruling',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Lucknow_Skyline_From_Gomti_Nagar.jpg?width=1200',
+    coverImageCredit: 'Timestance, CC BY-SA 4.0, via Wikimedia Commons',
+    coverImagePosition: 50,
   },
   {
     title: "Bill Hwang: The Archegos Collapse That Cost Wall Street $10 Billion",
@@ -2335,6 +2339,9 @@ He never was. Lay died of heart disease on July 5, 2006, while on vacation in As
 
 Lay's case is a reminder that a jury's guilty verdict isn't always the last word: under U.S. federal law, dying before an appeal is heard can erase a fraud conviction as a matter of procedure, regardless of how much evidence supported it — a legal outcome that has nothing to do with actual guilt or innocence, and everything to do with timing.`,
     sourceUrl: 'https://www.justice.gov/criminal/criminal-vns/case/united-states-v-kenneth-l-lay',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Ken_Lay.jpg?width=1200',
+    coverImageCredit: 'United States Marshals Service, public domain, via Wikimedia Commons',
+    coverImagePosition: 50,
   },
   {
     title: "Sanjay Kumar: The Computer Associates CEO Who Kept the Books Open Past Quarter-End",
