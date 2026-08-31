@@ -12854,11 +12854,57 @@ async function seedGlobalSources() {
   console.log(`seed: upserted ${SEED_GLOBAL_SOURCES.length} global sources`);
 }
 
+interface SeedStateAgSource {
+  state: string;
+  state_name: string;
+  agency_name: string;
+  consumer_protection_url: string;
+  reports_url?: string;
+  has_published_reports: boolean;
+  description: string;
+}
+
+// Every state (plus DC)'s Attorney General consumer protection office —
+// each URL independently verified live before inclusion. Most state AGs
+// take scam complaints but don't publish a structured report the way
+// FTC/CFPB do; has_published_reports + reports_url mark the ones that do
+// (a press-release archive, a consumer-alerts page with real content, or
+// an actual annual report), rather than treating every state as equal.
+const SEED_STATE_AG_SOURCES: SeedStateAgSource[] = [];
+
+async function seedStateAgSources() {
+  for (const source of SEED_STATE_AG_SOURCES) {
+    await pool.query(
+      `INSERT INTO state_ag_sources (state, state_name, agency_name, consumer_protection_url, reports_url, has_published_reports, description)
+       VALUES ($1, $2, $3, $4, $5, $6, $7)
+       ON CONFLICT (state) DO UPDATE SET
+         state_name = EXCLUDED.state_name,
+         agency_name = EXCLUDED.agency_name,
+         consumer_protection_url = EXCLUDED.consumer_protection_url,
+         reports_url = EXCLUDED.reports_url,
+         has_published_reports = EXCLUDED.has_published_reports,
+         description = EXCLUDED.description,
+         updated_at = NOW()`,
+      [
+        source.state,
+        source.state_name,
+        source.agency_name,
+        source.consumer_protection_url,
+        source.reports_url ?? null,
+        source.has_published_reports,
+        source.description,
+      ]
+    );
+  }
+  console.log(`seed: upserted ${SEED_STATE_AG_SOURCES.length} state AG sources`);
+}
+
 async function main() {
   await seedArticles(NOTORIOUS_ARTICLES, 'notorious');
   await seedArticles(GUIDE_ARTICLES, 'guide');
   await seedCategoriesAndScams();
   await seedGlobalSources();
+  await seedStateAgSources();
   await pool.end();
 }
 

@@ -91,6 +91,17 @@ export interface GlobalSource {
   stats: GlobalStat[];
 }
 
+export interface StateAgSource {
+  id: string;
+  state: string;
+  state_name: string;
+  agency_name: string;
+  consumer_protection_url: string;
+  reports_url: string | null;
+  has_published_reports: boolean;
+  description: string;
+}
+
 export interface DailyScamNews {
   id: string;
   headline: string;
