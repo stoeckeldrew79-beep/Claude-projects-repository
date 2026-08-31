@@ -12239,6 +12239,40 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['AFM (Autoriteit Financiële Markten)', 'Fraudehelpdesk (Dutch National Anti-Fraud Hotline)'],
     sourceUrl: 'https://www.afm.nl/nl-nl/consumenten/waarschuwingen/pas-op-voor-dubieuze-beleggings-voorstellen',
   },
+  {
+    name: 'Fake Gemini AI Chatbot Crypto Presale Scam',
+    slug: 'fake-gemini-ai-chatbot-crypto-presale-scam',
+    description:
+      'A scam website embeds a chatbot styled to look like Google\'s Gemini AI assistant, complete with the real branding, a sparkle icon, and an "Online" status indicator, to build instant trust with visitors. The bot runs a fixed script pitching a fictitious "Google Coin" token presale with guaranteed returns, deflecting any question about the company to an unnamed "manager," then walks the visitor through a checkout that generates a one-time cryptocurrency payment address. The token, the exchange listing, and the company behind it don\'t exist, and the crypto payment can\'t be reversed once sent.',
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    alertLevel: 'high',
+    sources: ['Malwarebytes'],
+    sourceUrl: 'https://www.malwarebytes.com/blog/ai/2026/02/scammers-use-fake-gemini-ai-chatbot-to-sell-fake-google-coin',
+  },
+  {
+    name: 'AI Search Result Fake Customer-Service Number Scam',
+    slug: 'ai-search-fake-customer-service-number-scam',
+    description:
+      'Scammers seed review sites, YouTube comments, and even compromised .gov, .edu, and WordPress pages with phrases like "official [company] customer support number," specifically engineered so AI-generated search summaries and chatbots surface the fraudulent number as the authoritative answer when someone asks for a company\'s contact line. Victims who call reach someone posing as support staff, who talks them into giving remote access to their device or paying for unnecessary "security" software once on the phone. Because the fake number comes wrapped in an AI-generated answer rather than a suspicious ad or link, it carries a false sense of authority that makes people skip their usual skepticism.',
+    categorySlug: 'tech-support-scams',
+    country: 'US',
+    alertLevel: 'medium',
+    sources: ['Better Business Bureau (BBB)'],
+    sourceUrl: 'https://www.bbb.org/all/consumer/tip/search-engine-and-sponsored-ad-tips',
+  },
+  {
+    name: 'Tennessee Business Filing Center Annual Report Mail Scam',
+    slug: 'tennessee-business-filing-center-annual-report-scam',
+    description:
+      'A private company calling itself the "Tennessee Business Filing Center," with no affiliation to state government, mails Tennessee businesses an official-looking notice demanding hundreds of dollars to file their state-mandated annual report, threatening extra fees and administrative dissolution if the business doesn\'t pay within 60 days of the April 1 deadline. The identical filing is available directly through the Tennessee Secretary of State\'s own tnbear.tn.gov portal for a small fraction of the price the mailer demands.',
+    categorySlug: 'government-impersonation',
+    country: 'US',
+    state: 'TN',
+    alertLevel: 'medium',
+    sources: ['Tennessee Secretary of State'],
+    sourceUrl: 'https://sos.tn.gov/press-releases/secretary-of-state-tre-hargett-issues-new-warning-about-mail-scam-targeting-business',
+  },
 ];
 
 async function seedCategoriesAndScams() {
