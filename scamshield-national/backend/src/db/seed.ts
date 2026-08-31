@@ -11953,6 +11953,42 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Fraudehelpdesk (Dutch National Anti-Fraud Hotline)'],
     sourceUrl: 'https://www.fraudehelpdesk.nl/alert/vals-voorstel-via-whatsapp-thuiswerkvacature-reviews-schrijven/',
   },
+  {
+    name: 'Louisiana LIHEAP "You\'ve Been Selected" Text Scam',
+    slug: 'louisiana-liheap-text-id-harvesting-scam',
+    description:
+      'An unsolicited text tells the recipient they\'ve been "selected" to receive LIHEAP energy-assistance benefits and links to an online form asking them to upload a photo of their government ID along with personal and financial details. This is a different channel from the door-to-door LIHEAP "verification" scam already on this site — here contact starts with a text and a fake application form rather than someone showing up in person — but the same underlying fraud: LIHEAP never texts recipients or requires an ID photo upload through an unofficial form, and applications only go through a state\'s official energy-assistance administrator.',
+    categorySlug: 'utility-scams',
+    country: 'US',
+    state: 'LA',
+    alertLevel: 'high',
+    sources: ['Louisiana Housing Corporation'],
+    sourceUrl: 'https://www.lhc.la.gov/energy-assistance',
+  },
+  {
+    name: 'Virginia Medicaid Coverage-Reinstatement Fee Scam',
+    slug: 'virginia-medicaid-reinstatement-fee-scam',
+    description:
+      'A text or call tells a Virginia Medicaid member their coverage is at risk of cancellation or has already lapsed, and that paying several hundred dollars over the phone will "reinstate" it immediately. This is a direct payment-demand scam, distinct from Medicaid phishing calls that harvest personal information for later identity theft — Virginia\'s Department of Medical Assistance Services (DMAS) states it never requests credit or debit card payment to maintain or restore Medicaid coverage, and issued a formal fraud alert bulletin warning members and providers about the pattern.',
+    categorySlug: 'healthcare-fraud',
+    country: 'US',
+    state: 'VA',
+    alertLevel: 'high',
+    sources: ['Virginia Department of Medical Assistance Services (DMAS)'],
+    sourceUrl: 'https://vamedicaid.dmas.virginia.gov/vamed/download-pdf-bulletin/19379',
+  },
+  {
+    name: 'New Mexico Trinity Test Downwinder RECA Claims-Fee Scam',
+    slug: 'new-mexico-reca-downwinder-claims-fee-scam',
+    description:
+      'Following a 2025 extension of the federal Radiation Exposure Compensation Act (RECA) that opened up to $100,000 in payouts to New Mexicans exposed to fallout from the 1945 Trinity atomic test, organizations and individuals have been soliciting "downwinders" to pay upfront fees to file a RECA claim — even before the Department of Justice had actually opened claims processing to New Mexico applicants. New Mexico Attorney General Raúl Torrez, jointly with the Tularosa Basin Downwinders Consortium, issued a public alert warning residents to rely only on official, forthcoming state-guided application channels rather than pay anyone claiming to expedite or guarantee a claim.',
+    categorySlug: 'public-benefits-fraud',
+    country: 'US',
+    state: 'NM',
+    alertLevel: 'high',
+    sources: ['New Mexico Department of Justice (Attorney General Raúl Torrez)', 'Tularosa Basin Downwinders Consortium'],
+    sourceUrl: 'https://nmdoj.gov/press-release/attorney-general-raul-torrez-alerts-new-mexicans-to-scams-following-reca-program-extension/',
+  },
 ];
 
 async function seedCategoriesAndScams() {
