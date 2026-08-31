@@ -3539,6 +3539,34 @@ The clearest warning signs are a new match pushing quickly to move the conversat
 
 Legitimate dating platforms already offer built-in identity and photo verification features that don't require leaving the app or entering payment information on a third-party site — that's the only verification worth trusting. Never click a link a match sends to an outside "safety check," and keep conversations inside the platform's own messaging system until you've met in person. If card information has already been entered on one of these sites, contact the card issuer immediately to dispute any charges and request a new card number, and report the incident to the dating platform and to the FBI's Internet Crime Complaint Center at IC3.gov.`,
   },
+  {
+    title: 'Unpaid Toll Text Scams: The Overdue Charge You Never Actually Owe',
+    slug: 'unpaid-toll-text-scams',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'toll-text-scams'],
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2024/05/text-about-overdue-toll-charges-probably-scam',
+    body: `A text arrives claiming to be from a state tolling agency — EZ-Pass, SunPass, FasTrak, and TxTag are among the most commonly impersonated — warning of a small overdue toll balance, often just $11 or $12, and threatening a $50 late fee or even registration suspension if it isn't paid immediately through a link in the message. The link leads to a page designed to look like the real toll agency's site, asking for a name, address, driver's license number, and credit card details to "settle" a charge that was never actually owed.
+
+The FTC has confirmed these toll texts are now the fastest-growing form of government impersonation fraud in the country, helping drive a 40% jump in imposter-scam reports and pushing total imposter fraud losses to $3.5 billion in 2025 alone. The scam works at scale because it's cheap to blast out to random phone numbers, and enough recipients actually do have a toll account somewhere that the premise lands as plausible rather than obviously fake.
+
+The FTC has identified some clear tells that separate these texts from anything a real tolling agency would send: recipients in states with no toll roads at all — Arizona, Louisiana, and Wisconsin among them — have reported getting the exact same message, and many of the fraudulent links route through phone numbers and web domains registered overseas rather than by the toll agency actually named in the text. Most fundamentally, real tolling agencies send unpaid-balance notices by physical mail, not by text message or email — a text demanding immediate payment for a toll is, by itself, the clearest sign something is wrong.
+
+If a toll text like this arrives, the FTC's advice is to not click the link or respond, and instead check the account directly by typing the toll agency's own web address into a browser or calling a phone number found independently — never one provided in the text itself. Suspicious texts can be reported by forwarding them to 7726 (SPAM) or through your phone's built-in "report junk" option, and should be deleted once reported.`,
+  },
+  {
+    title: "Fake Travel Booking Website Scams: When the Deal Isn't With the Airline or Hotel at All",
+    slug: 'fake-travel-booking-website-scams',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'travel-booking-scams'],
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2025/06/how-avoid-travel-website-scams',
+    body: `A search for flights or a hotel room turns up an ad, or an entire website, offering a deal that undercuts every legitimate option — a "deeply discounted" fare or a "free" vacation package that only requires paying a small fee or taxes upfront. The site or ad is often built to closely resemble a real airline or hotel brand, sometimes appearing as a paid search result placed above the airline's own official listing, or arriving as a phishing email designed to look like it came from a carrier or hotel chain the recipient actually recognizes and has flown or stayed with before.
+
+A related version of the same scam skips the booking step entirely and instead targets travelers already trying to reach a real airline. Someone searching for a customer service number to change or cancel a flight finds a scam number that shows up convincingly in search results, calls it believing it's the airline, and reaches someone posing as a representative — who may charge a bogus "rebooking fee," or use the call to collect card details under the guise of "processing" a refund or change that was never actually needed.
+
+Either version relies on the same pressure and the same payment tells: a deal or fee that has to be acted on right away before it "expires," and a request to pay by wire transfer, gift card, or cryptocurrency rather than a credit card — methods that, once sent, can't be reversed the way a credit card charge can if the trip turns out not to exist.
+
+The FTC recommends going directly to an airline or hotel's official site or app rather than clicking a search ad or an emailed link, and typing in the company's web address directly if you already know it. Before booking anywhere unfamiliar, search the site's name together with words like "scam," "review," or "complaint" to see what other travelers have reported. Always pay by credit card rather than a wire transfer, gift card, or cryptocurrency, and if a deal or a "representative" you reached feels off, verify it independently through the airline or hotel's own official contact channels before providing any payment information. Suspected travel scams can be reported at ReportFraud.ftc.gov.`,
+  },
 ];
 
 async function seedArticles(articles: SeedArticle[], label: string) {
