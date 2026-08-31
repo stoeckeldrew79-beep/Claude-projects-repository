@@ -2107,6 +2107,9 @@ Abramoff pleaded guilty in January 2006 to conspiracy, fraud, and tax evasion ti
 
 Abramoff's case is unusual among frauds for how much of it operated in plain sight, dressed up as ordinary Washington lobbying: expensive dinners, skybox tickets, and golf trips are all things lobbyists legitimately use to build relationships, and it was the scale, the concealment, and the deliberate double-dealing against his own paying clients — not any single gift — that turned influence-peddling into a federal crime.`,
     sourceUrl: 'https://www.justice.gov/archive/opa/pr/2006/January/06_crm_002.html',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Abramoff_SIAC_20040929_2.jpg?width=1200',
+    coverImageCredit: 'Photo: U.S. Senate Indian Affairs Committee (public domain)',
+    coverImagePosition: 50,
   },
   {
     title: 'Zvi Goffer: The Insider Trader Who Used Burner Phones to Trade on Stolen Law Firm Secrets',
@@ -2293,6 +2296,10 @@ The Justice Department indicted Hwang in April 2022 on racketeering conspiracy, 
 
 The Archegos collapse is frequently cited as a case study in how modern derivatives can let a single, relatively obscure family office quietly accumulate systemic-scale risk — not by breaking any single bank's individual risk limits, but by exploiting the fact that no bank could see what all the others were separately lending against the same underlying bet.`,
     sourceUrl: 'https://www.justice.gov/usao-sdny/pr/founder-and-head-archegos-capital-management-bill-hwang-sentenced-18-years-prison',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Credit_Suisse_corporate_headquarters_Z%C3%BCrich,_north_view_(2009).jpg?width=1200',
+    coverImageCredit: 'Jochen Teufel, CC BY-SA 3.0, via Wikimedia Commons',
+    coverImagePosition: 50,
   },
   {
     title: "Najib Razak: The Prime Minister Who Went to Prison Over 1MDB",
@@ -2307,6 +2314,9 @@ That was only the smaller of the two cases against him. In December 2025, Najib 
 
 Najib's case is a rare example of a sitting head of government being criminally convicted for personally profiting from the theft of his own country's public funds, and stands as one of the clearest illustrations that the reach of a state investment fund scandal doesn't stop at the mastermind who designed the theft — it extends to the officials who accepted the money that theft generated.`,
     sourceUrl: 'https://www.malaymail.com/news/malaysia/2022/08/23/najib-fails-in-final-src-international-appeal-as-federal-court-upholds-conviction-and-sentence/24290',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Najib_Razak_(cropped).jpg?width=1200',
+    coverImageCredit: 'Firdaus Latif, CC BY-SA 2.0, via Wikimedia Commons',
+    coverImagePosition: 50,
   },
   {
     title: "Kenneth Lay: The Enron Founder Whose Conviction Died With Him",
