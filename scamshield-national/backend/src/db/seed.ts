@@ -2360,6 +2360,48 @@ A federal grand jury in the Southern District of California indicted Kumbhani in
 BitConnect is a reminder that "notorious" doesn't always mean "resolved." Years after a collapse that a federal indictment says defrauded investors on a multi-billion-dollar scale, the person U.S. prosecutors accuse of running it has simply never been found — a reflection of how much harder accountability becomes when a scheme's promoters, its incorporation, and its victims are scattered across different countries with no single government able to compel an arrest.`,
     sourceUrl: 'https://www.justice.gov/usao-sdca/pr/founder-fraudulent-cryptocurrency-charged-2-billion-bitconnect-ponzi-scheme',
   },
+  {
+    title: "Aleksandr Zhukov: The Self-Described \"King of Fraud\" Behind a Billion-Dollar Ad Botnet",
+    slug: 'aleksandr-zhukov-methbot-3ve-ad-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Aleksandr Zhukov, a Russian national, built one of the largest digital advertising fraud operations ever uncovered — a botnet known under several names, including Methbot and 3ve, that impersonated real human internet users at a massive scale to steal advertising revenue. At its peak in 2016, prosecutors said the operation controlled more than a million IP addresses, ran over 1,000 servers, and operated more than 10,000 fake websites designed to look like premium publishers, all to trick advertisers into paying for video ads that no real person ever saw.
+
+The mechanism worked by faking exactly what advertisers pay for: genuine human attention. Zhukov's bots simulated real browsing behavior — mouse movements, scrolling, even fake social media login credentials — to convince ad-exchange algorithms that legitimate human traffic was watching video ads on legitimate websites. Advertisers were in fact paying to have their ads "viewed" by bots on fake pages built solely to host them, generating between $3 million and $5 million a day for the operation at its height.
+
+The scheme finally collapsed in November 2018, when the FBI, working with Google and roughly 20 other tech and cybersecurity firms in a coordinated takedown, dismantled the botnet's infrastructure and arrested Zhukov while he was traveling. He maintained his innocence through trial, but a federal jury convicted him in May 2021 of wire fraud conspiracy, wire fraud, money laundering conspiracy, and money laundering. He was sentenced in 2022 to 10 years in prison and ordered to forfeit more than $3.8 million.
+
+Zhukov's case illustrates a category of fraud most people never think to picture when they imagine a scam: the victims were largely faceless advertisers and ad networks rather than individual consumers, and the "product" being stolen was attention that was never actually paid. It's a reminder that as more of the economy moves online, fraud increasingly targets the automated systems those markets run on, not just the people using them.`,
+    sourceUrl: 'https://www.justice.gov/usao-edny/pr/russian-cybercriminal-sentenced-10-years-prison-digital-advertising-fraud-scheme',
+  },
+  {
+    title: "David Friehling: The Accountant Who Rubber-Stamped Madoff's Fake Audits for 17 Years",
+    slug: 'david-friehling-madoff-auditor',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `David Friehling ran a tiny accounting firm out of a strip mall office in New City, New York, with essentially one client that mattered: Bernard Madoff, profiled separately on this site. From 1991 to 2008, Friehling's firm was listed as the independent auditor certifying that Bernard L. Madoff Investment Securities' financial statements were accurate — the outside check that was supposed to make Madoff's fabricated returns credible to regulators, feeder funds, and investors.
+
+Prosecutors said Friehling never actually performed the audits he was certifying. He didn't verify that the securities Madoff claimed to hold actually existed, didn't confirm the firm's bank balances independently, and didn't test any of the internal controls a real audit requires — yet he signed off year after year, allowing Madoff to present his firm to the outside world as a legitimately audited business rather than the unchecked operation it actually was. In exchange, Friehling and his family withdrew millions of dollars from accounts they held with Madoff, money prosecutors said amounted to fictitious profits from the same fraud he was supposed to be auditing.
+
+Friehling pleaded guilty in November 2009 to a nine-count charge covering securities fraud, investment adviser fraud, four counts of filing false audit reports with the SEC, and obstructing the IRS, and agreed to cooperate with prosecutors building their case against Madoff and other enablers. He forfeited roughly $3.18 million along with two properties, and in 2015, after years of cooperation, a judge sentenced him to just one year of home detention — no prison time.
+
+Friehling's case is a reminder that a Ponzi scheme this large couldn't run on one person's lies alone: an independent audit is one of the few outside checks ordinary investors rely on without ever seeing the underlying paperwork themselves, and when the person providing that check simply doesn't do the work, the fraud gets years — in Madoff's case, decades — longer to grow before anyone catches it.`,
+    sourceUrl: 'https://www.justice.gov/archive/usao/nys/pressreleases/November09/friehlingdavidpleapr.pdf',
+  },
+  {
+    title: "William \"Boots\" Del Biaggio III: The Fraud Behind a Bid to Own an NHL Team",
+    slug: 'william-boots-del-biaggio-nhl-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `William "Boots" Del Biaggio III was a Silicon Valley financier and well-known figure in hockey circles who set out to buy a controlling interest in the Nashville Predators, an NHL franchise. To help fund the roughly $110 million purchase, he borrowed heavily from banks and even from two fellow NHL team owners — but prosecutors said the collateral he used to secure those loans didn't actually belong to him.
+
+According to the SEC and federal prosecutors, Del Biaggio fraudulently pledged securities that belonged to real, unsuspecting clients of a San Francisco brokerage firm as if they were his own personal assets, using more than $45 million of other people's holdings as collateral for his own loans. He got help from a managing director at the brokerage, David Cacchione, who provided account information that let Del Biaggio falsify statements to make it appear he personally owned assets that were actually sitting in client accounts. Altogether, the two schemes were said to have defrauded banks, private lenders, and investors out of more than $65 million.
+
+The fraud collapsed under its own weight before the hockey deal ever fully closed, and Del Biaggio pleaded guilty to securities fraud and wire fraud. In 2009, he was sentenced to 97 months — just over eight years — in federal prison and ordered to pay approximately $67.5 million in restitution. Cacchione, his accomplice at the brokerage, was separately sentenced to five years.
+
+Del Biaggio's case is a reminder that fraud doesn't require an exotic new scheme — his was old-fashioned collateral fraud, just applied to an unusually high-profile purchase. Owning a piece of a professional sports team lent him instant credibility with lenders and fellow owners, which is exactly what made it easier for them to skip the kind of verification that might have caught a plainly indebted local financier claiming to personally own tens of millions of dollars in securities that, on paper, belonged to somebody else.`,
+    sourceUrl: 'https://www.fbi.gov/sanfrancisco/press-releases/2009/sf090809.htm',
+  },
 ];
 
 // Practical "how it works / red flags / what to do" guides covering the
