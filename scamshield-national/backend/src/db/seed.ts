@@ -2414,6 +2414,48 @@ Del Biaggio's case is a reminder that fraud doesn't require an exotic new scheme
     coverImageCredit: 'Michael Rivera, CC BY-SA 4.0, via Wikimedia Commons',
     coverImagePosition: 50,
   },
+  {
+    title: 'Roman Sterlingov: The Bitcoin Fog Operator Behind a Decade of Darknet Money Laundering',
+    slug: 'roman-sterlingov-bitcoin-fog',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Roman Sterlingov, a Russian-Swedish national, ran Bitcoin Fog from October 2011 until its shutdown — the longest-running cryptocurrency "mixer" on the darknet. The service didn't defraud victims directly; instead, it took in bitcoin from anyone willing to pay a fee and sent back a different set of coins to a new address, deliberately severing the trail between where the money came from and where it ended up. For over a decade, it was the laundromat of choice for people trying to make illicit cryptocurrency look clean.
+
+Prosecutors said the bulk of the roughly $400 million that passed through Bitcoin Fog originated from darknet drug marketplaces, computer crime proceeds, and other criminal sources, including material tied to child sexual abuse. Sterlingov structured his own involvement to stay hidden for years, but investigators eventually traced the platform's original bitcoin funding and infrastructure payments back to accounts and services connected to him personally, undoing the same kind of anonymity his own service was built to sell.
+
+A federal jury in the District of Columbia convicted Sterlingov in March 2024 of money laundering conspiracy, money laundering, and operating an unlicensed money transmitting business. In November 2024, he was sentenced to 12 years and 6 months in prison, along with a forfeiture money judgment of approximately $400 million and the loss of roughly 1,345 bitcoin — worth about $103 million at the time — seized from a wallet linked to the operation.
+
+Bitcoin Fog is a reminder that not every entry in a scam-and-fraud database has to be about tricking a victim out of their own money — some of the most durable criminal infrastructure exists purely to help other criminals keep what they've already stolen, and cryptocurrency's promise of anonymity turned out to be exactly as breakable as any other digital trail, given enough time and the right investigators.`,
+    sourceUrl: 'https://www.justice.gov/usao-dc/pr/jury-finds-russian-swedish-operator-bitcoin-fog-guilty-running-darknet-cryptocurrency',
+  },
+  {
+    title: 'Marvin Warner: The Banker Whose ESM Fraud Exposure Triggered an Ohio Banking Crisis',
+    slug: 'marvin-warner-home-state-savings',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Marvin Warner owned Home State Savings Bank, Ohio's largest savings institution, with roughly $1.4 billion in assets by the mid-1980s. Home State's undoing didn't come from its own depositors — it came from a Florida securities dealer called ESM Government Securities, where Home State had placed enormous sums in repurchase agreements, a routine-seeming short-term lending arrangement between financial institutions.
+
+ESM Government Securities collapsed on March 4, 1985, after the SEC discovered the firm was itself running a massive fraud, and Home State was its single biggest customer. The exposure cost Home State roughly $150 million, and within days a run on the bank forced it to close on March 9, 1985. Because Home State's deposits were insured not by the FDIC but by a private, state-chartered insurance fund, its collapse instantly threatened the solvency of that entire fund — prompting Ohio's governor to order a statewide bank holiday and shut down 69 other thrifts that relied on the same private insurer, freezing deposits for hundreds of thousands of Ohioans almost overnight.
+
+Warner was indicted on both state and federal charges. In March 1987, an Ohio jury convicted him on nine fraud-related counts tied to Home State's collapse, and he was sentenced to three and a half years in prison and fined $22 million — a bond he couldn't pay, so he went to prison immediately. A separate federal case against him, covering conspiracy, wire fraud, and interstate transport of fraudulently obtained funds carrying a potential 90-year sentence, ended in acquittal.
+
+Warner's case illustrates a kind of contagion risk that's easy to overlook: Home State's own depositors did nothing wrong, and Home State itself wasn't accused of defrauding them directly — the damage flowed backward from a single counterparty's fraud, through an insurance system built to absorb one bank's failure, not a chain reaction across an entire state's thrift industry.`,
+    sourceUrl: 'https://en.wikipedia.org/wiki/Marvin_L._Warner',
+  },
+  {
+    title: 'Trevor Cook: The $194 Million Forex Ponzi Scheme Pitched on Christian Radio',
+    slug: 'trevor-cook-forex-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Trevor Cook ran a Minnesota-based investment scheme that raised money by promising steady, low-risk returns from foreign currency trading — a market complex enough that few investors could independently evaluate whether the returns being reported were real. From at least 2006 through 2009, Cook and his associates raised more than $190 million from over 1,000 investors, many of them elderly, through the sale of unregistered investments in the currency-trading venture.
+
+The foreign-exchange trading was, prosecutors said, largely a pretext. Rather than generating the profits it claimed, the scheme paid earlier investors with money from newer ones — a classic Ponzi structure dressed up in the language of currency-market sophistication. Cook's associate Patrick Kiley helped recruit investors in part by pitching the opportunity on Christian radio networks, lending it a credibility and community trust that a cold sales pitch couldn't have generated on its own, while another associate, financial adviser Jason Bo-Alan Beckman, brought in his own client base.
+
+Cook pleaded guilty in 2010 to mail fraud and tax evasion rather than risk a life sentence at trial, and was sentenced to 300 months — 25 years — in federal prison. Kiley was separately sentenced to 20 years, and Beckman to 30 years, reflecting how deeply the scheme depended on trusted intermediaries who could vouch for it to investors who would never have trusted Cook alone.
+
+The case is a reminder that affinity and credibility, not sophisticated financial engineering, are what actually sell most Ponzi schemes — pairing a plausible-sounding market (foreign currency trading, in this case) with a trusted messenger speaking to a receptive community turned out to be worth far more to Cook than any real trading strategy would have been.`,
+    sourceUrl: 'https://www.fbi.gov/minneapolis/press-releases/2010/mp082410.htm',
+  },
 ];
 
 // Practical "how it works / red flags / what to do" guides covering the
