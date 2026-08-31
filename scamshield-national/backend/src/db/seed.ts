@@ -12327,6 +12327,28 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['PIB Fact Check (Press Information Bureau, Government of India)', 'Income Tax Department, Government of India'],
     sourceUrl: 'https://www.newsonair.gov.in/govt-debunks-fake-message-circulating-in-emails-asking-people-to-download-the-e-pan-card',
   },
+  {
+    name: 'Title-Washing (Flood/Salvage Title Laundering) Scam',
+    slug: 'title-washing-flood-salvage-laundering-scam',
+    description:
+      'After an insurer or state DMV brands a car\'s title "salvage" or "flood" because it was declared a total loss, scammers retitle it in a different state — often one with weaker flood-disclosure rules or no separate flood designation — specifically to strip that brand from the paperwork. The cosmetically cleaned-up vehicle is then resold across state lines with an apparently clean title to a buyer who has no way of knowing it was ever a total loss until mechanical or electrical problems surface later.',
+    categorySlug: 'online-shopping-scams',
+    country: 'US',
+    alertLevel: 'high',
+    sources: ['Federal Trade Commission (FTC)', 'National Highway Traffic Safety Administration (NHTSA)'],
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2018/01/buyer-beware-flood-damaged-cars-sale',
+  },
+  {
+    name: 'VIN Cloning via Counterfeit Certificate of Origin',
+    slug: 'vin-cloning-counterfeit-certificate-of-origin',
+    description:
+      'Thieves copy the VIN from a legitimately titled vehicle and stamp counterfeit VIN plates or labels bearing that number onto a stolen vehicle of the same make, model, and year. They pair the cloned VIN with a forged or altered Manufacturer\'s Certificate of Origin naming a fake out-of-state dealer as the original purchaser, letting the stolen car be titled and registered as if it were the legitimate "twin," then resold to an unsuspecting buyer — who risks having the vehicle confiscated with no compensation, and continued liability on any loan, once the fraud is discovered.',
+    categorySlug: 'online-shopping-scams',
+    country: 'US',
+    alertLevel: 'high',
+    sources: ['Oregon Department of Motor Vehicles (DMV)', 'National Insurance Crime Bureau (NICB)'],
+    sourceUrl: 'https://katu.com/news/local/oregon-dmv-warns-of-scam-using-fake-vehicle-ownership-documents-nhtsa-vin-manufacturer-certificates-of-origin-salem-oregon',
+  },
 ];
 
 async function seedCategoriesAndScams() {
