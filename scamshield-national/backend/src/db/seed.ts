@@ -3885,6 +3885,34 @@ The Better Business Bureau says it has fielded thousands of reports about this k
 
 There's no legitimate version of this offer: no one can guarantee a fixed multiple return on money handed to a stranger over direct message, and any request to pay a fee before receiving money you supposedly already "earned" is itself the giveaway. If a message like this arrives, the safest response is to not engage at all — don't send an initial amount to "test" it, and don't pay a fee chasing money already sent. Anyone who has already lost money this way should report it to the payment app or platform used, file a report with the BBB at bbb.org/scamtracker, and report it to the FTC at ReportFraud.ftc.gov.`,
   },
+  {
+    title: 'Buy Now, Pay Later Fraud: How Scammers Exploit Afterpay, Klarna, and Affirm',
+    slug: 'buy-now-pay-later-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'bnpl-fraud'],
+    sourceUrl: 'https://www.consumerfinance.gov/archive/newsroom/cfpb-takes-action-to-ensure-consumers-can-dispute-charges-and-obtain-refunds-on-buy-now-pay-later-loans/',
+    body: `Buy now, pay later services like Affirm, Klarna, and Afterpay let a shopper split a purchase into a handful of installments, often with no credit check and approval in seconds — exactly the kind of fast, low-friction signup that also makes these accounts an attractive target for fraud. Two different attacks show up under the same "BNPL fraud" label, and it's worth knowing which one you're dealing with.
+
+In the first, a fraudster who already has a victim's stolen personal information — name, address, Social Security number, sometimes just a hijacked phone number from a SIM swap — uses it to open a brand-new BNPL account the victim never applied for, then rapidly places large orders on the resulting credit line before anyone notices. In the second, a scammer takes over an account a victim already has, usually through a phishing link or reused stolen password, and either drains linked payment methods or reroutes purchases to their own address. Either way, the victim's first sign of trouble is often a payment reminder or a debt-collection call for a purchase they never made.
+
+BNPL's own light underwriting is part of what makes this work: because approval typically doesn't run through the same rigorous checks as a traditional credit card, and because purchases aren't always reported to the major credit bureaus, fraudulent accounts and charges can go unnoticed for longer than they would on conventional credit. The Consumer Financial Protection Bureau has moved to close part of that gap by ruling that BNPL lenders must extend the same dispute and refund rights as credit card issuers under the Truth in Lending Act — meaning a BNPL lender is required to investigate a disputed charge and pause payment demands while it does.
+
+Anyone targeted should act the same way they would with a compromised credit card: contact the BNPL provider immediately to report the unauthorized account or charge and formally dispute it, change the password on any account tied to the same email or phone number, place a fraud alert or credit freeze with the major credit bureaus, and check bank and credit card statements for the small "test" charges fraudsters sometimes run before a larger purchase. Monitoring for unfamiliar BNPL accounts is also worth adding to routine credit-monitoring habits, since a new account can otherwise sit undetected until it's already past due.`,
+  },
+  {
+    title: 'Title Washing and VIN Cloning: How a "Clean Title" Used Car Can Hide a Wrecked or Stolen One',
+    slug: 'title-washing-vin-cloning-used-car-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'title-washing', 'vin-cloning'],
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2018/01/buyer-beware-flood-damaged-cars-sale',
+    body: `A used car with a "clean" title sounds like the safest kind of purchase — no accident history, no flood damage, no red flags. But a clean title only reflects whatever the most recent state DMV recorded, and two different schemes exploit that gap to make a wrecked or stolen car look exactly like one that isn't.
+
+Title washing starts with a real total-loss event: an insurer declares a car a salvage or flood loss, and the state brands the title accordingly. Rather than sell it as-is, the person holding that branded title re-registers the car in a different state — often one with looser flood-disclosure rules or no separate flood designation at all — specifically to get a fresh title with no branding attached. The car itself hasn't changed, only the paperwork describing it, and the new owner has no easy way to know it was ever a total loss until water damage or electrical problems start showing up.
+
+VIN cloning is a different, more serious version of the same idea: instead of laundering a real total-loss vehicle's own paperwork, thieves copy the vehicle identification number off a legitimately titled car and stamp counterfeit VIN plates bearing that number onto a stolen vehicle of the same make, model, and year. Paired with a forged certificate of origin, the stolen car can be titled and registered as if it were the legitimate vehicle's "twin," then sold to a buyer who has no reason to suspect anything is wrong — until police eventually trace the real VIN back to its rightful owner and seize the car, leaving the buyer with nothing and still on the hook for any loan taken out to pay for it.
+
+Before buying any used car, check its full title history through the National Motor Vehicle Title Information System (NMVTIS) — the only database required by federal law to include salvage, flood, and junk designations reported by every state — rather than relying on a seller's word or a single state's current title alone. Inspect the vehicle in person for water stains, mildew, or silt under the carpet and dashboard, fogging inside headlights and taillights, or a strong smell of cleaner that might be masking mold; compare the VIN stamped on the dashboard, door jamb, and engine block to make sure they match each other and the paperwork; and have an independent mechanic inspect the car before finalizing any purchase, especially one priced noticeably below similar listings.`,
+  },
 ];
 
 async function seedArticles(articles: SeedArticle[], label: string) {
