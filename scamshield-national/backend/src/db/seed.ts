@@ -11378,6 +11378,39 @@ const SEED_SCAMS: SeedScam[] = [
     sourceUrl: 'https://www.ncsc.gov.uk/blog-post/qr-codes-whats-real-risk',
   },
   {
+    name: 'UK Companies House Corporate Identity Theft',
+    slug: 'uk-companies-house-corporate-identity-theft',
+    description:
+      'Fraudsters file fake changes to a company\'s official Companies House record — most often the registered office address or director details — without the real company\'s knowledge, hijacking its official identity to redirect mail and payments, open bank accounts or supplier credit lines in the company\'s name, or lend a shell operation false legitimacy. Companies House says it handles roughly 50 to 100 reports of this a month, and has introduced a free PROOF (Protected Online Filing) monitoring scheme along with mandatory identity verification for directors and people with significant control, phased in under the Economic Crime and Corporate Transparency Act 2023.',
+    categorySlug: 'identity-theft',
+    country: 'GB',
+    alertLevel: 'high',
+    sources: ['Companies House', 'GOV.UK'],
+    sourceUrl: 'https://www.gov.uk/guidance/protect-your-company-from-corporate-identity-theft',
+  },
+  {
+    name: 'UK IVA Mis-Selling by Unregulated Debt Packager Firms',
+    slug: 'uk-iva-debt-packager-mis-selling',
+    description:
+      'Commercial "debt packager" firms offering what looks like free, independent debt advice steered financially vulnerable people toward Individual Voluntary Arrangements (IVAs) or Protected Trust Deeds — products that paid the firm a referral fee as high as £940 to £1,340 per case — instead of cheaper, more suitable options like a Debt Relief Order costing around £90, with some firms accused of manipulating a person\'s stated income and expenses to make them appear to qualify. The FCA banned debt packager referral fees in 2023 after finding the business model itself incentivized bad advice, regardless of any individual adviser\'s intentions.',
+    categorySlug: 'debt-relief-scams',
+    country: 'GB',
+    alertLevel: 'high',
+    sources: ['Financial Conduct Authority (FCA)'],
+    sourceUrl: 'https://www.fca.org.uk/news/press-releases/financial-watchdog-bans-referral-fees-debt-packagers-help-struggling-consumers',
+  },
+  {
+    name: 'UK Fake NHS Text and Email Scams',
+    slug: 'uk-fake-nhs-text-email-scams',
+    description:
+      'A text, email, or phone call impersonating the NHS offers a health service — a vaccine, an NHS-branded health pass, or a booking confirmation — and either asks for a fee to be paid or directs the recipient to a fake NHS-branded booking form that harvests bank details and personal information. The NHS Counter Fraud Authority is explicit that the NHS never asks for payment and never asks for bank details in connection with a vaccine or NHS service, and both the NHSCFA and Action Fraud have issued repeated public warnings about this pattern, directing people to report suspicious texts to 7726 and phishing emails to the Suspicious Email Reporting Service.',
+    categorySlug: 'government-impersonation',
+    country: 'GB',
+    alertLevel: 'medium',
+    sources: ['NHS Counter Fraud Authority', 'Action Fraud'],
+    sourceUrl: 'https://cfa.nhs.uk/fraud-prevention/COVID-19-guidance/COVID-19-vaccine-fraud',
+  },
+  {
     name: 'In-Person Courier Cash Pickup Family Emergency Scam',
     slug: 'in-person-courier-cash-pickup-family-emergency-scam',
     description:
