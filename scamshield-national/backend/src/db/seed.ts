@@ -2308,6 +2308,48 @@ That was only the smaller of the two cases against him. In December 2025, Najib 
 Najib's case is a rare example of a sitting head of government being criminally convicted for personally profiting from the theft of his own country's public funds, and stands as one of the clearest illustrations that the reach of a state investment fund scandal doesn't stop at the mastermind who designed the theft — it extends to the officials who accepted the money that theft generated.`,
     sourceUrl: 'https://www.malaymail.com/news/malaysia/2022/08/23/najib-fails-in-final-src-international-appeal-as-federal-court-upholds-conviction-and-sentence/24290',
   },
+  {
+    title: "Kenneth Lay: The Enron Founder Whose Conviction Died With Him",
+    slug: 'kenneth-lay-enron',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Kenneth Lay founded Enron in 1985 and built it into the seventh-largest company in America by revenue, chairing and running it as CEO through the years its executives — including CFO Andrew Fastow and successor CEO Jeffrey Skilling, both profiled separately on this site — were hiding billions in debt through off-the-books partnerships and fabricated accounting. As Enron's public face and top executive, Lay was the one who kept reassuring employees and investors the company was financially sound even as it was collapsing from the inside.
+
+Federal prosecutors charged Lay with conspiracy and securities fraud for his role in the scheme and for making false and misleading statements about Enron's financial health while he and other executives sold off large amounts of their own stock. In May 2006, a jury convicted him on all six counts of conspiracy and fraud he faced in the main criminal trial, and in a separate bench trial the same month, the judge convicted him on four additional counts of bank fraud tied to his personal finances. Lay faced up to 45 years in prison and was scheduled to be sentenced that October.
+
+He never was. Lay died of heart disease on July 5, 2006, while on vacation in Aspen, Colorado, weeks after his conviction and months before sentencing. In October 2006, U.S. District Judge Sim Lake granted a request from Lay's estate to vacate his convictions entirely, applying a federal legal doctrine called abatement ab initio — which holds that when a defendant dies before their appeal is resolved, the case is treated as if it never happened, since the defendant was never able to exercise their right to challenge the verdict.
+
+Lay's case is a reminder that a jury's guilty verdict isn't always the last word: under U.S. federal law, dying before an appeal is heard can erase a fraud conviction as a matter of procedure, regardless of how much evidence supported it — a legal outcome that has nothing to do with actual guilt or innocence, and everything to do with timing.`,
+    sourceUrl: 'https://www.justice.gov/criminal/criminal-vns/case/united-states-v-kenneth-l-lay',
+  },
+  {
+    title: "Sanjay Kumar: The Computer Associates CEO Who Kept the Books Open Past Quarter-End",
+    slug: 'sanjay-kumar-computer-associates',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Sanjay Kumar rose from a junior programmer to CEO of Computer Associates International (later CA, Inc.), turning it into one of the world's largest software companies by the early 2000s. To keep hitting Wall Street's quarterly earnings expectations, Kumar and other executives relied on a practice insiders came to call the "35-day month": keeping the company's books open for days or weeks after each quarter officially closed, backdating contracts signed after the quarter ended so their revenue could be counted as if it had come in on time.
+
+The distortion compounded quarter after quarter. Kumar later admitted the practice caused Computer Associates to prematurely recognize more than $2 billion in revenue between 1999 and 2000 alone — revenue that hadn't actually been earned yet — inflating the company's reported earnings and its stock price in the process. When the fraud eventually came to light and the company's finances had to be restated, shareholders lost more than $400 million.
+
+Kumar pleaded guilty in April 2006 to eight felony counts, including securities fraud, obstruction of justice, and making false statements. The obstruction charges reflected a separate layer of misconduct: prosecutors said that once investigators started asking questions, Kumar directed Computer Associates employees to lie to them and to the company's own outside counsel about the accounting practices, turning what began as an earnings-management scheme into an active cover-up. He was sentenced to 12 years in prison and ordered to pay an $8 million fine.
+
+The Computer Associates case shows that corporate accounting fraud doesn't always require inventing sales that never happened — sometimes it's built on a smaller, more mundane manipulation, like when a quarter is deemed to end, repeated relentlessly until the gap between reported and real performance grows into the billions. And once regulators start asking questions, the decision to tell employees to lie about it can turn a fraud case into an obstruction case just as easily.`,
+    sourceUrl: 'https://www.justice.gov/archive/usao/nye/pr/2006/2006Nov02.html',
+  },
+  {
+    title: "Satish Kumbhani: The BitConnect Founder Who Vanished After a $2.4 Billion Indictment",
+    slug: 'satish-kumbhani-bitconnect',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `Satish Kumbhani, an Indian entrepreneur, founded BitConnect in 2016 as a cryptocurrency investment platform that promised investors extraordinary, near-guaranteed daily returns — supposedly generated by a proprietary "volatility trading bot" that could profit from crypto price swings regardless of market direction. Investors bought BitConnect's own token (BCC) and "lent" it back to the platform to earn those returns, while a multi-level referral program paid existing investors bonuses for recruiting new ones — the two classic structural features of a Ponzi scheme, dressed up in cryptocurrency terminology that made the underlying mechanics harder for ordinary investors to recognize.
+
+There was no trading bot generating real returns. Prosecutors say Kumbhani and his co-conspirators paid earlier investors with money deposited by new ones, while promoting the platform through a global network of paid promoters. In January 2018, BitConnect abruptly shut down its lending platform without warning, and its token — which had briefly been worth billions of dollars in aggregate market value — collapsed to nearly nothing within days, wiping out global investors' funds.
+
+A federal grand jury in the Southern District of California indicted Kumbhani in February 2022 on charges including conspiracy to commit wire fraud, commodities price manipulation, operating an unlicensed money transmitting business, and international money laundering, in what prosecutors described as the largest cryptocurrency fraud scheme ever charged by the Department of Justice — accusing him of defrauding investors worldwide of more than $2.4 billion. But by the time the indictment was unsealed, Kumbhani had already disappeared; the SEC has confirmed he remains a fugitive, and Indian police have separately been searching for him since 2023 in connection with the same collapse. As of this writing, no trial has taken place and no conviction exists — Kumbhani has been charged, not convicted, and remains at large.
+
+BitConnect is a reminder that "notorious" doesn't always mean "resolved." Years after a collapse that a federal indictment says defrauded investors on a multi-billion-dollar scale, the person U.S. prosecutors accuse of running it has simply never been found — a reflection of how much harder accountability becomes when a scheme's promoters, its incorporation, and its victims are scattered across different countries with no single government able to compel an arrest.`,
+    sourceUrl: 'https://www.justice.gov/usao-sdca/pr/founder-fraudulent-cryptocurrency-charged-2-billion-bitconnect-ponzi-scheme',
+  },
 ];
 
 // Practical "how it works / red flags / what to do" guides covering the
