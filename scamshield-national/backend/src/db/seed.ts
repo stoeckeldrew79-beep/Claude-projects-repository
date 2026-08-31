@@ -2427,6 +2427,10 @@ A federal jury in the District of Columbia convicted Sterlingov in March 2024 of
 
 Bitcoin Fog is a reminder that not every entry in a scam-and-fraud database has to be about tricking a victim out of their own money — some of the most durable criminal infrastructure exists purely to help other criminals keep what they've already stolen, and cryptocurrency's promise of anonymity turned out to be exactly as breakable as any other digital trail, given enough time and the right investigators.`,
     sourceUrl: 'https://www.justice.gov/usao-dc/pr/jury-finds-russian-swedish-operator-bitcoin-fog-guilty-running-darknet-cryptocurrency',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Casascius_coin.jpg?width=1200',
+    coverImageCredit: 'Steve Jurvetson, CC BY 2.0, via Wikimedia Commons',
+    coverImagePosition: 50,
   },
   {
     title: 'Marvin Warner: The Banker Whose ESM Fraud Exposure Triggered an Ohio Banking Crisis',
@@ -2441,6 +2445,10 @@ Warner was indicted on both state and federal charges. In March 1987, an Ohio ju
 
 Warner's case illustrates a kind of contagion risk that's easy to overlook: Home State's own depositors did nothing wrong, and Home State itself wasn't accused of defrauding them directly — the damage flowed backward from a single counterparty's fraud, through an insurance system built to absorb one bank's failure, not a chain reaction across an entire state's thrift industry.`,
     sourceUrl: 'https://en.wikipedia.org/wiki/Marvin_L._Warner',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Cincinnati_Skyline.jpg?width=1200',
+    coverImageCredit: 'Paul Armstrong, CC BY 2.0, via Wikimedia Commons',
+    coverImagePosition: 50,
   },
   {
     title: 'Trevor Cook: The $194 Million Forex Ponzi Scheme Pitched on Christian Radio',
@@ -2455,6 +2463,10 @@ Cook pleaded guilty in 2010 to mail fraud and tax evasion rather than risk a lif
 
 The case is a reminder that affinity and credibility, not sophisticated financial engineering, are what actually sell most Ponzi schemes — pairing a plausible-sounding market (foreign currency trading, in this case) with a trusted messenger speaking to a receptive community turned out to be worth far more to Cook than any real trading strategy would have been.`,
     sourceUrl: 'https://www.fbi.gov/minneapolis/press-releases/2010/mp082410.htm',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Minneapolis_Skyline_and_Stone_Arch_(15809540302).jpg?width=1200',
+    coverImageCredit: 'Tony Webster, CC BY 2.0, via Wikimedia Commons',
+    coverImagePosition: 50,
   },
   {
     title: "Richard Scrushy: Acquitted of a $2.7 Billion Fraud, Convicted of Bribing the Governor Who Might Have Pardoned Him",
@@ -2483,6 +2495,10 @@ A federal jury in Indianapolis convicted Durham in June 2012 of securities fraud
 
 Durham's case illustrates how a scheme can hide in plain sight inside an otherwise ordinary, decades-old local business — Fair Finance had a real operating history and real local trust behind its name long before Durham took it over, and that inherited credibility is exactly what let him keep selling certificates to new investors while quietly using the company as his own personal source of funds.`,
     sourceUrl: 'https://www.justice.gov/archives/opa/pr/former-fair-financial-company-ceo-sentenced-indianapolis-50-years-prison-role-200-million',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Downtown_Akron_Ohio.jpg?width=1200',
+    coverImageCredit: 'OHWiki, CC BY-SA 2.5, via Wikimedia Commons',
+    coverImagePosition: 50,
   },
 ];
 
