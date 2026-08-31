@@ -12349,6 +12349,28 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Oregon Department of Motor Vehicles (DMV)', 'National Insurance Crime Bureau (NICB)'],
     sourceUrl: 'https://katu.com/news/local/oregon-dmv-warns-of-scam-using-fake-vehicle-ownership-documents-nhtsa-vin-manufacturer-certificates-of-origin-salem-oregon',
   },
+  {
+    name: 'Australian Rental Property and Bond Deposit Scam',
+    slug: 'australian-rental-property-bond-deposit-scam',
+    description:
+      'Scammers copy genuine rental listings, or post fabricated ones, on real estate and classifieds sites, then tell interested renters they can\'t show the property in person — commonly claiming to be overseas for work or a humanitarian reason. They send forged lease documents and ID, then pressure the victim to pay a deposit or bond and hand over copies of their own identity documents to "secure" the property sight-unseen. The victim receives no keys, and both the money and their personal data are gone.',
+    categorySlug: 'online-shopping-scams',
+    country: 'AU',
+    alertLevel: 'high',
+    sources: ['ACCC (Australian Competition and Consumer Commission)', 'Scamwatch / National Anti-Scam Centre'],
+    sourceUrl: 'https://www.scamwatch.gov.au/about-us/news-and-alerts/looking-for-rental-properties-online-watch-out-for-scams',
+  },
+  {
+    name: 'Australian AI Deepfake Celebrity Investment Scam',
+    slug: 'australian-ai-deepfake-celebrity-investment-scam',
+    description:
+      'Scammers use generative AI to build deepfake videos, fabricated news articles, fake reviews, and bogus endorsements attributed to well-known Australian public figures to promote fake investment or crypto platforms. Victims are funneled from social media ads to convincing fake-news pages, then followed up with scripted phone calls and a fraudulent trading platform; small "profit" payouts build trust before the funds, routed overseas, disappear entirely. ASIC says it removed over 19,400 scams in the 2026 financial year, a 182% year-on-year rise, with millions in reported losses tied to cases impersonating Australian political and media figures.',
+    categorySlug: 'ai-deepfake-scams',
+    country: 'AU',
+    alertLevel: 'critical',
+    sources: ['ASIC (Australian Securities and Investments Commission)', 'National Anti-Scam Centre (ACCC)'],
+    sourceUrl: 'https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-195mr-asic-warns-scammers-are-using-ai-to-spin-vast-webs-of-deception',
+  },
 ];
 
 async function seedCategoriesAndScams() {
