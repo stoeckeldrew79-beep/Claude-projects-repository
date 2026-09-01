@@ -13193,6 +13193,39 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Wyoming State Senate'],
     sourceUrl: 'https://cowboystatedaily.com/2026/02/18/senators-vow-crack-down-on-wyoming-based-llc-fraud/',
   },
+  {
+    name: 'Australian Energy Retailer Fake Billing Scam',
+    slug: 'australian-energy-retailer-fake-billing-scam',
+    description:
+      'Emails or letters closely copy the logos and design of real electricity, gas, and telecom providers such as Origin, AGL, Telstra, and Optus, claiming an account is overdue and threatening late fees or disconnection unless the recipient calls a number on the fake bill immediately. Victims who call are pressured to hand over personal details — date of birth, driver\'s licence number, and financial information — under the pretext of processing payment. Scamwatch logged around 5,000 reports of this pattern in a single 12-month period, with Australians over 65 the most affected age group. An unexpected overdue notice should be verified by calling the provider\'s official number, not the one printed on the suspicious bill.',
+    categorySlug: 'utility-scams',
+    country: 'AU',
+    alertLevel: 'medium',
+    sources: ['Scamwatch (Australian Competition and Consumer Commission)'],
+    sourceUrl: 'https://www.scamwatch.gov.au/about-us/news-and-alerts/beware-of-scammers-impersonating-energy-and-telecommunications-companies',
+  },
+  {
+    name: 'Australian Advance-Fee Personal Loan Scam',
+    slug: 'australian-advance-fee-personal-loan-scam',
+    description:
+      'Fraudulent lenders advertise personal loans through fake websites and social media, targeting Australians experiencing financial hardship, and after collecting photo ID, payslips, and bank statements, demand an upfront "loan protection insurance" or "establishment fee" be paid in full before any funds are released — occasionally citing a real-looking ABN and ASIC credit licence number to appear legitimate. The fee is falsely promised to be refunded after three months, and neither the refund nor the loan ever arrives. Scamwatch notes a genuine lender deducts fees from the loan amount rather than demanding separate upfront payment, and recommends checking any lender\'s credit licence directly on ASIC\'s own registers.',
+    categorySlug: 'debt-relief-scams',
+    country: 'AU',
+    alertLevel: 'high',
+    sources: ['Scamwatch (Australian Competition and Consumer Commission)'],
+    sourceUrl: 'https://www.scamwatch.gov.au/about-us/news-and-alerts/scam-alert-personal-loan-scams',
+  },
+  {
+    name: 'Australian Fake Hardship Charity myGov Account Takeover Scam',
+    slug: 'australian-fake-hardship-charity-mygov-account-takeover-scam',
+    description:
+      'Fake social media pages and ads impersonate real hardship-relief charities or claim to run government-linked programs like emergency rental assistance, targeting Australians already in financial difficulty with offers of a "no interest loan" or urgent relief payment. To "process" the assistance, victims are asked for identity documents and their myGov login, which scammers then use to lock the real account holder out and redirect their Centrelink and NDIS payments to accounts they control. Scamwatch warns that legitimate charities and government support programs never request myGov credentials through a social media message or ad.',
+    categorySlug: 'identity-theft',
+    country: 'AU',
+    alertLevel: 'high',
+    sources: ['Scamwatch (Australian Competition and Consumer Commission)'],
+    sourceUrl: 'https://www.scamwatch.gov.au/about-us/news-and-alerts/scam-alert-scammers-targeting-australians-in-hardship',
+  },
 ];
 
 async function seedCategoriesAndScams() {
