@@ -2900,10 +2900,9 @@ The rule that cuts through every version of this scam: no real government agency
     slug: 'student-loan-forgiveness-scams',
     author: 'ScamShield Editorial',
     tags: ['guide', 'student-loan-scams'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Virtual_Graduation_Ceremony.jpg?width=1200',
-    coverImageCredit: 'Photo: Delegate Connect Images (CC BY 2.0)',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Department_of_Education_sign_Washington_DC_2025-02-07_14-09-02_1.jpg?width=1200',
+    coverImageCredit: 'Photo: G. Edward Johnson (CC BY 4.0)',
     coverImagePosition: 50,
-    // representative photo — replace with an exact match if found
     sourceUrl: 'https://consumer.ftc.gov/all-scams/student-loan-education-scams',
     body: `A call, text, or ad promises fast, guaranteed forgiveness of federal student loan debt — sometimes claiming affiliation with the Department of Education or Federal Student Aid — in exchange for an upfront fee, or asks the borrower to hand over their Federal Student Aid (FSA) ID to "process" the forgiveness on their behalf. Both are hard stops: charging an upfront fee for federal student loan debt relief is illegal, and an FSA ID handed to a stranger gives them the same access to a borrower's loan account and personal financial aid information that the borrower has.
 
@@ -3242,10 +3241,9 @@ Being part of a close community is not, by itself, a reason to skip the same due
     slug: 'money-mule-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'money-mule'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Stack_of_100_dollar_bills_(cropped).jpg?width=1200',
-    coverImageCredit: 'Photo: JPxG (CC BY-SA 3.0)',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Western_Union_sign,_Winschoten_(2019)_01.jpg?width=1200',
+    coverImageCredit: 'Photo: Donald Trung Quoc Don (CC BY-SA 4.0)',
     coverImagePosition: 50,
-    // representative photo — replace with an exact match if found
     sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2021/12/avoiding-money-mule-scam',
     body: `A money mule is someone who moves illegally obtained money on behalf of someone else — often without ever realizing the money was stolen in the first place. Scammers recruit money mules through online dating sites, job boards, and social media, inventing a reason to send the victim money, usually by check or cryptocurrency, before instructing them to forward that money somewhere else. Two recruitment channels show up constantly: a romantic interest met online who "needs help" moving funds, and a work-from-home job listing that involves "processing payments" or transferring money to "clients" as part of the role.
 
@@ -4058,6 +4056,9 @@ No legitimate job requires depositing a check and immediately spending part of i
     slug: 'notario-fraud-immigration-services-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'notario-fraud-immigration-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Jamaica_Av_153rd_St_td_(2022-04-11)_02_-_USCIS_Application_Support_Center.jpg?width=1200',
+    coverImageCredit: 'Photo: Tdorante10 (CC BY-SA 4.0)',
+    coverImagePosition: 50,
     sourceUrl: 'https://consumer.ftc.gov/articles/how-avoid-immigration-scams-and-get-real-help',
     body: `In much of Latin America, a "notario público" is a highly trained attorney with the authority to certify legal documents. In the United States, a notary public is a much more limited role — someone authorized only to witness signatures — with no legal training or authority to give immigration advice at all. Scammers exploit that translation gap directly, advertising as "notarios," immigration consultants, or paralegals to Spanish-speaking and other immigrant communities, then charging thousands of dollars for legal help they are not licensed to give.
 
@@ -4072,6 +4073,9 @@ The clearest red flag is the credential itself: no notary public, immigration co
     slug: 'brushing-scam-unsolicited-package-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'brushing-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Parcels_crowded_near_the_gate_of_one_community_in_Suzhou-20201107.jpg?width=1200',
+    coverImageCredit: 'Photo: Shwangtianyuan (CC BY-SA 4.0)',
+    coverImagePosition: 50,
     sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2026/08/unexpected-package-you-got-could-be-brushing-scam',
     body: `A package shows up with your name and address on it, even though you never placed the order — often something small and cheap, like baby wipes, phone accessories, toothbrushes, or a packet of seeds. It isn't a mistake and it isn't a gift. It's "brushing": a seller, usually operating on a large online marketplace, has shipped an item to a real address specifically so the delivery shows up as a completed, verified purchase, which they then use to post a glowing five-star review under an account tied to that name — inflating their ratings with reviews that look like they came from real, verified buyers.
 
@@ -13426,6 +13430,41 @@ const SEED_SCAMS: SeedScam[] = [
     alertLevel: 'medium',
     sources: ['Équité Association', 'Insurance Bureau of Canada'],
     sourceUrl: 'https://www.equiteassociation.com/resources/crash-for-cash-types-of-staged-collisions',
+  },
+  {
+    name: 'AHCCCS Sober Living Home Medicaid Fraud Scheme',
+    slug: 'ahcccs-sober-living-home-medicaid-fraud-scheme',
+    description:
+      'Criminal enterprises operating unlicensed "sober living" homes across the Phoenix area recruited vulnerable Native Americans struggling with addiction from tribal communities with promises of housing and treatment, then billed Arizona\'s Medicaid program (AHCCCS) under behavioral-health billing codes for services that were never provided, were provided to minors who received no care, or were billed for members who were incarcerated or deceased. Investigators found roughly $3.1 billion in fraudulent behavioral-health billing to the American Indian Health Program between 2021 and 2023 alone, with dozens of documented deaths in the homes and over 140 individuals and entities indicted since 2023. Anyone directed to a "free" residential treatment program that pressures them not to leave or switch health plans should contact AHCCCS directly to verify the facility\'s licensing status.',
+    categorySlug: 'healthcare-fraud',
+    country: 'US',
+    state: 'AZ',
+    alertLevel: 'high',
+    sources: ["Arizona Attorney General's Office"],
+    sourceUrl: 'https://www.azag.gov/press-release/attorney-general-mayes-announces-behavioral-health-fraud-sentence-reveals-dramatic',
+  },
+  {
+    name: 'Minnesota EIDBI Autism Medicaid Fraud',
+    slug: 'minnesota-eidbi-autism-medicaid-fraud',
+    description:
+      'Providers enrolled in Minnesota\'s Early Intensive Developmental and Behavioral Intervention (EIDBI) program, a Medicaid benefit for children with autism that Minnesota was among the first states to offer, allegedly paid kickbacks to parents to bring their children in, diagnosed children with autism regardless of medical necessity, and billed the state for intervention services that were never actually delivered. EIDBI claims exploded from about $600,000 in 2018 to over $400 million by 2025, and Minnesota\'s Attorney General, working with federal law enforcement, has charged providers in schemes reaching tens of millions of dollars, including one alleged $46.6 million case described by the Department of Justice as the largest Medicaid autism fraud case ever charged. Families who suspect a provider is billing for care never received, or being pressured to accept payments in exchange for enrollment, can report it to the Minnesota Attorney General\'s Medicaid Fraud Control Unit.',
+    categorySlug: 'healthcare-fraud',
+    country: 'US',
+    state: 'MN',
+    alertLevel: 'high',
+    sources: ["Minnesota Attorney General's Office", 'U.S. Department of Justice'],
+    sourceUrl: 'https://www.ag.state.mn.us/Office/Communications/2026/05/21_Medicaid-Fraud.asp',
+  },
+  {
+    name: 'VA-Insured Home Loan Refinance Churning Scam',
+    slug: 'va-insured-home-loan-refinance-churning-scam',
+    description:
+      'Because VA-guaranteed mortgage records are public in many counties, scammers mine them to send veteran and military-spouse homeowners official-looking mailers, robocalls, and emails pushing an urgent refinance ("rate expires in 48 hours") that falsely claims VA or government affiliation. The pitch typically demands an upfront fee before any service is rendered, instructs the homeowner to send payments to someone other than their actual loan servicer, or guarantees a loan modification or foreclosure stop the caller has no authority to deliver — alongside deceptive "skip two payments" refinance offers that quietly reset the loan term and add costs. The clearest tell is any refinance solicitation the homeowner did not initiate; verifying by calling the servicer\'s number printed on an actual mortgage statement, never a number from the solicitation itself, is the safe check.',
+    categorySlug: 'mortgage-foreclosure-scams',
+    country: 'US',
+    alertLevel: 'high',
+    sources: ['Consumer Financial Protection Bureau (CFPB)'],
+    sourceUrl: 'https://www.consumerfinance.gov/archive/blog/consumer-fraud-alert-tips-avoiding-va-home-loan-scams/',
   },
 ];
 
