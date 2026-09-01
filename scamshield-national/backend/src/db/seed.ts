@@ -2286,10 +2286,9 @@ Sahara did not comply. When repayment failed to materialize, the Supreme Court i
 
 The Sahara case illustrates a version of financial fraud that doesn't always fit neatly into a single criminal conviction — sometimes the harm to millions of small investors plays out instead through years of regulatory findings, court orders, and an unresolved question of whether money already spent can ever really be made whole again.`,
     sourceUrl: 'https://www.mondaq.com/india/shareholders/203796/sahara-vs-sebi-an-in-depth-analysis-of-the-landmark-supreme-court-ruling',
-    // representative photo — replace with a portrait if found
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Lucknow_Skyline_From_Gomti_Nagar.jpg?width=1200',
-    coverImageCredit: 'Timestance, CC BY-SA 4.0, via Wikimedia Commons',
-    coverImagePosition: 50,
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Subroto_Roy_at_Esha_Deol's_wedding_reception_02_(cropped).jpg?width=1200",
+    coverImageCredit: 'Photo: Bollywood Hungama (CC BY 3.0)',
+    coverImagePosition: 40,
   },
   {
     title: "Bill Hwang: The Archegos Collapse That Cost Wall Street $10 Billion",
