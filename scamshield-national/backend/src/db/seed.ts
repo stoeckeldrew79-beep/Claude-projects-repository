@@ -13541,6 +13541,52 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['FranceConnect', 'Cybermalveillance.gouv.fr'],
     sourceUrl: 'https://aide.franceconnect.gouv.fr/faq/securite-confidentialite/comment-reconnaitre-un-message-frauduleux-phishing/',
   },
+  {
+    name: 'Fake Citizens Property Insurance Websites',
+    slug: 'fake-citizens-property-insurance-websites',
+    description:
+      'Scammers operate counterfeit websites impersonating Citizens Property Insurance Corporation, Florida\'s state-created insurer of last resort, falsely offering to sell new homeowners or auto policies or to process claims, and collecting credit card numbers and other personal information in the process. Citizens confirms it never sells insurance directly over the internet and does not sell automobile coverage at all — every legitimate policy is issued only through its network of licensed agents — and it has had to repeatedly warn consumers about these lookalike sites, including a wave that followed Hurricane Ian claims activity. Homeowners should verify any online offer by calling Citizens directly or confirming with a licensed agent rather than trusting a search-result link.',
+    categorySlug: 'insurance-fraud',
+    country: 'US',
+    state: 'FL',
+    alertLevel: 'medium',
+    sources: ['Citizens Property Insurance Corporation'],
+    sourceUrl: 'https://www.citizensfla.com/-/20230208-citizens-warns-consumers-to-be-wary-of-fake-citizens-websites',
+  },
+  {
+    name: 'TWIA Phone Impersonation Scam',
+    slug: 'twia-phone-impersonation-scam',
+    description:
+      'Callers impersonate representatives of the Texas Windstorm Insurance Association (TWIA), the state-created insurer of last resort for wind and hail coverage along the Texas coast, and pressure policyholders over the phone to hand over Social Security numbers, banking details, or credit card payments. TWIA states it never requests a Social Security number for any purpose and never calls policyholders to collect premium payments or sensitive banking information — legitimate billing communication arrives only in writing, by mail or through TWIA\'s own account system. Coastal policyholders who get such a call are urged to hang up and call TWIA\'s official number directly, or contact their agent, before providing any information.',
+    categorySlug: 'insurance-fraud',
+    country: 'US',
+    state: 'TX',
+    alertLevel: 'medium',
+    sources: ['Texas Windstorm Insurance Association (TWIA)'],
+    sourceUrl: 'https://www.twia.org/protect-yourself-from-phone-scams/',
+  },
+  {
+    name: 'Reward-Based Crowdfunding Non-Delivery Fraud',
+    slug: 'reward-based-crowdfunding-non-delivery-fraud',
+    description:
+      'A campaign creator on a rewards-based platform like Kickstarter or Indiegogo raises money by promising backers a specific product — a gadget, a board game, a piece of hardware — in exchange for their pledge, then either never delivers it or delivers nothing while spending the funds on personal expenses. Unlike a GoFundMe-style emotional appeal for a stranger\'s crisis, this scam is disguised as backing a real product launch, complete with prototype photos, progress updates, and a stated ship date that keeps slipping. The FTC\'s first crowdfunding enforcement action, against a board-game campaign creator, found he raised over $122,000 from more than 1,200 backers, posted updates claiming the project was still moving forward, then cancelled it after spending most of the money on rent, relocation, and unrelated personal equipment without ever issuing refunds. Before backing a crowdfunding product, check the creator\'s track record and prior projects, and understand that "backing" a product carries no purchase guarantee the way a retail sale does.',
+    categorySlug: 'online-shopping-scams',
+    country: 'US',
+    alertLevel: 'medium',
+    sources: ['Federal Trade Commission (FTC)'],
+    sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2015/06/crowdfunding-project-creator-settles-ftc-charges-deception',
+  },
+  {
+    name: 'Fake Rescue Shelter Pet Adoption Fee Scam',
+    slug: 'fake-rescue-shelter-pet-adoption-fee-scam',
+    description:
+      'A scammer poses as a legitimate animal rescue or shelter online, often using real photos and heartfelt backstories lifted from genuine rescue listings, offering a specific pet up for adoption for free or a token fee rather than a purchase price. After a prospective adopter expresses interest, the "rescue" requests a refundable holding deposit, then piles on additional charges for shipping, crating, vaccinations, or emergency vet care, sometimes threatening the animal will be euthanized if payment isn\'t sent immediately by Zelle, prepaid card, or gift card. This differs from a puppy-sale scam, which poses as a breeder charging an upfront purchase price for a purebred animal; here the fraud borrows the credibility and goodwill of a nonprofit rescue and frames payments as an "adoption fee" rather than a sale. Reverse-image-search the pet\'s photo and insist on meeting the animal in person at a verifiable local shelter before sending any money.',
+    categorySlug: 'online-shopping-scams',
+    country: 'US',
+    alertLevel: 'medium',
+    sources: ['Better Business Bureau (BBB)'],
+    sourceUrl: 'https://www.bbb.org/article/scams/18240-scam-alert-adopting-a-rescue-dog-watch-out-for-phony-fees',
+  },
 ];
 
 async function seedCategoriesAndScams() {
