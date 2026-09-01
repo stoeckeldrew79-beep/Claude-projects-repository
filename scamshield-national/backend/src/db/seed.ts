@@ -13994,6 +13994,39 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['FBI Internet Crime Complaint Center (IC3)'],
     sourceUrl: 'https://www.ic3.gov/PSA/2025/PSA250703',
   },
+  {
+    name: 'ManageMyHealth Data Breach Impersonation Scam',
+    slug: 'nz-managemyhealth-data-breach-impersonation-scam',
+    description:
+      'Following a major 2025 data breach at ManageMyHealth, a patient portal used widely across New Zealand\'s health system, scammers impersonate government agencies, banks, or telecommunications providers by phone, text, or email, sometimes appearing to come from local area codes, to create false urgency and extract personal information, login credentials, or money. ManageMyHealth confirms it will never contact patients to ask for their username or password, and advises checking that any login page\'s address bar genuinely begins with https://managemyhealth.co.nz before entering details. Patients are told to verify any claim by contacting the organization directly through its usual channels rather than a link in an unsolicited message.',
+    categorySlug: 'healthcare-fraud',
+    country: 'NZ',
+    alertLevel: 'high',
+    sources: ['ManageMyHealth', 'National Cyber Security Centre (NZ)'],
+    sourceUrl: 'https://managemyhealth.co.nz/public-notice/',
+  },
+  {
+    name: 'ACC Impersonation Scam',
+    slug: 'nz-acc-impersonation-scam',
+    description:
+      'Scammers impersonate ACC (Accident Compensation Corporation), New Zealand\'s government no-fault accident compensation and injury insurance scheme, by email, text, or phone, falsely claiming an overdue levy, a refund waiting, an issue with an existing claim, or a MyACC login problem requiring immediate action. ACC states it will never ask for a login name or password, and fraudulent sender addresses are typically close variants of the real acc.co.nz domain rather than the genuine one. ACC advises hovering over any link to confirm it actually points to acc.co.nz before clicking, and calling ACC directly on its published numbers to verify before responding to any urgent request.',
+    categorySlug: 'insurance-fraud',
+    country: 'NZ',
+    alertLevel: 'medium',
+    sources: ['Accident Compensation Corporation (ACC)'],
+    sourceUrl: 'https://www.acc.co.nz/about-us/about-this-site/staying-safe-online',
+  },
+  {
+    name: 'Fake IRD Number Application Website Scam',
+    slug: 'nz-fake-ird-number-application-website-scam',
+    description:
+      'Scam websites advertised on Google and social media offer to process an IRD number application, the tax number required to work or open a bank account in New Zealand, for a fee of roughly $30 to $80, a service Inland Revenue actually provides free of charge through its own website. Victims, often new migrants or first-time workers unfamiliar with the system, hand over payment along with passport and other identifying details, losing both the money and control of sensitive personal information. Inland Revenue states it will never charge for an IRD number application and directs anyone unsure of a site\'s legitimacy to apply only through ird.govt.nz.',
+    categorySlug: 'identity-theft',
+    country: 'NZ',
+    alertLevel: 'medium',
+    sources: ['Inland Revenue (IRD), New Zealand'],
+    sourceUrl: 'https://www.ird.govt.nz/managing-my-tax/scams/latest-scams',
+  },
 ];
 
 async function seedCategoriesAndScams() {
