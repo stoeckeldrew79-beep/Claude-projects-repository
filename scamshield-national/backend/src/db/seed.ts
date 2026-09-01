@@ -4218,6 +4218,34 @@ Red flags worth pausing on: brand-name goods priced far below what any authorize
 
 Paying by credit card whenever possible gives a real safety net — if the item never arrives, arrives fake, or the seller turns out to be a scam, the purchase can usually be disputed with the card issuer. Reviewing and tightening ad-personalization and privacy settings on social platforms can also reduce how precisely these ads get targeted. Anyone who spots a fake ad or loses money to one can report it directly to the social media platform and to the FTC at ReportFraud.ftc.gov.`,
   },
+  {
+    title: 'Elder Financial Exploitation by Family and Caregivers: When the Person You Trust Is the One Taking the Money',
+    slug: 'elder-financial-exploitation-family-caregiver-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'elder-financial-exploitation'],
+    sourceUrl: 'https://www.consumerfinance.gov/consumer-tools/educator-tools/resources-for-older-adults/reporting-elder-financial-abuse-guide/',
+    body: `Most scams described elsewhere in this guide come from a stranger on the phone or online. Elder financial exploitation is different: the person taking the money is someone the older adult already trusts and has given legitimate access to — an adult child, other relative, in-home caregiver, or an agent named under a power of attorney. It often starts as real help, like paying bills online or driving to the bank for someone whose eyesight or memory is declining. Over time, "helping" can slide into taking: small unauthorized withdrawals, a debit card used for the helper's own purchases, or, in more serious cases, an agent under power of attorney using that authority to drain accounts, retitle property, or open credit entirely for their own benefit. A power of attorney is a powerful legal tool precisely because it's rarely double-checked once granted — a bank teller generally has no way to know an agent is exceeding what the older adult actually authorized.
+
+This form of exploitation works because it doesn't look like a scam from the outside. There's no suspicious phone call to flag and no unfamiliar company name to search — the money is moving to someone already recognized as family or a caregiver, through accounts and documents that already exist. The Department of Justice's Elder Justice Initiative has identified isolation as a common tactic: a family member or caregiver exploiting an older relative will often cut them off from other relatives, friends, and financial advisors, limiting who else is in a position to notice anything wrong. Cognitive decline, physical dependence on the caregiver, or fear that reporting a family member will mean losing their only source of care can keep an older adult from saying anything even after they realize something is off.
+
+Warning signs worth watching for include a caregiver or relative who won't leave an older adult alone during a conversation or a bank visit, sudden changes to a will, beneficiary designation, or power of attorney that don't match the older adult's previously stated wishes, unpaid bills or a lifestyle downgrade despite adequate income, missing belongings, and bank or credit card statements the older adult is no longer shown or allowed to review themselves.
+
+If you suspect this is happening to a loved one, or to yourself: talk to the older adult privately, away from the suspected caregiver, and treat any hesitation to speak freely as itself a warning sign. Contact your state's Adult Protective Services or local law enforcement — in many states, professionals such as bank employees and healthcare workers are legally required to report suspected elder financial abuse, and a bank can often flag or delay a suspicious transaction under state elder-abuse protections. An elder law attorney can review or help revoke an existing power of attorney, and any accounts believed to be compromised should be reviewed line by line for unauthorized activity, not just checked at a glance.`,
+  },
+  {
+    title: 'Advance-Fee Loan Scams: Why "Guaranteed" Approval Is the Warning Sign, Not the Selling Point',
+    slug: 'advance-fee-loan-scam-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'advance-fee-loan-scam'],
+    sourceUrl: 'https://consumer.ftc.gov/articles/what-know-about-advance-fee-loans',
+    body: `An ad, robocall, text, or social media message offers a loan or credit card "guaranteed" regardless of credit history — appealing specifically to people who've already been turned down elsewhere because of poor or no credit. After a short application, the "lender" says the loan is approved, but a fee has to be paid first, described as insurance, processing, a security deposit, or the first month's payment, and collected by gift card, wire transfer, a prepaid debit card, or cryptocurrency. Once that fee is sent, the loan never arrives, the "lender" stops responding, and it turns out there was no loan and no lender to begin with.
+
+The scam works because it targets people already under financial pressure and already used to being turned down by traditional lenders, which makes an offer of guaranteed approval feel like a rare break rather than a red flag. Scammers often build a convincing shell around the offer: a professional-looking website, a company name close to a real bank or lender, or even a fabricated loan agreement or approval letter, paired with urgency about a "rate lock" or approval window expiring within hours.
+
+The reliable rule, stated directly by the FTC: no legitimate lender ever guarantees a loan or credit card before checking your credit history, and no legitimate lender asks for a fee to be paid before the loan money is disbursed. Any fees a real lender does charge are deducted from the loan proceeds themselves, not collected separately in advance. A request to pay a loan fee by gift card, wire transfer, or cryptocurrency is, by itself, close to conclusive proof of a scam, since those are exactly the payment methods that can't be traced or reversed once sent.
+
+Before applying anywhere unfamiliar, check whether the lender is registered to do business in your state through your state attorney general's office or state financial regulator, and search the company's name together with words like "scam" or "complaint." Anyone who has already paid an advance fee like this should contact their bank or card issuer immediately to ask about reversing the payment — unlikely to succeed with cash-equivalent methods like gift cards or wire transfers, but still worth attempting quickly — and report it to the FTC at ReportFraud.ftc.gov.`,
+  },
 ];
 
 async function seedArticles(articles: SeedArticle[], label: string) {
