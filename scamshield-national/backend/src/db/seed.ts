@@ -2825,6 +2825,54 @@ The company's outside auditor, Arthur Andersen — the same firm that would coll
 The fiction finally came apart in February 1998, when Waste Management admitted it would have to restate five years of results, ultimately reducing pretax earnings by $1.7 billion — at the time the largest restatement in U.S. corporate history. The stock lost more than $6 billion in market value, and shareholders won a $457 million class-action settlement, then the largest of its kind. The SEC filed civil fraud charges against Buntrock and five other former executives in March 2002; more than three years later, in August 2005, Buntrock settled without admitting or denying wrongdoing, agreeing to pay $19.4 million in disgorgement, interest, and penalties and accepting a permanent bar from serving as an officer or director of any public company. No one was ever criminally charged. Buntrock died in April 2026 at age 94, having spent no time in prison over a fraud that, when it was uncovered, ranked among the largest in American corporate history — a reminder that even a scheme of that scale can end, years after the fact, in a settlement check rather than a courtroom sentence.`,
     sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-17435',
   },
+  {
+    title: "Ding Ning and the $7.6 Billion Ezubao Ponzi Scheme That Fabricated 95% of Its Loans",
+    slug: 'ding-ning-ezubao-p2p-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Ding Ning launched Ezubao in July 2014 as a peer-to-peer lending platform under his Anhui-based Yucheng Group, at the height of China's boom in online finance. P2P lending was supposed to connect ordinary savers directly with small borrowers, cutting out the traditional banking system; Ezubao promised its investors annual returns of 9% to 14.6%, roughly seven times what a normal bank deposit paid, on loans to what it described as a pipeline of real infrastructure and business projects. Within eighteen months the platform had pulled in more than 50 billion yuan — about $7.6 billion — from close to 900,000 investors across the country, making it the largest fundraising fraud China had ever seen.
+
+Investigators later determined that around 95% of the "investment projects" listed on Ezubao's platform never existed at all. There were no borrowers behind most of the loans investors thought they were funding; the platform was instead paying returns to existing investors out of money raised from new ones, the same arithmetic that has sunk every Ponzi scheme since Charles Ponzi's. What made Ezubao unusual was less the mechanism than the scale it reached before collapsing, aided by aggressive advertising, a sense of institutional legitimacy that P2P lending briefly enjoyed in China, and a promised rate of return just high enough to be attractive without immediately triggering the skepticism a truly outlandish number would have.
+
+The company stopped honoring withdrawals in December 2015, and Chinese police announced the arrest of Ding Ning and twenty others on February 1, 2016. Investigators alleged the fraud had funded a lavish personal lifestyle rather than any lending business: Ding was accused of showering Yucheng Group's president, Zhang Min, with gifts that included a $20 million Singapore property, a $1.8 million pink diamond ring, and cash totaling as much as $83 million.
+
+The Beijing First Intermediate People's Court delivered its verdict on September 12, 2017, convicting Ding Ning of fraudulent fundraising along with unrelated charges of smuggling precious metals and illegal firearms possession, and sentencing him to life in prison plus a fine of roughly $15.29 million. His brother, Ding Dian, also received a life sentence; Zhang Min and twenty-four other defendants were sentenced to prison terms ranging from three to fifteen years.
+
+Ezubao's collapse became a landmark case in China's subsequent crackdown on P2P lending, an industry that had grown to thousands of platforms with minimal oversight before regulators moved to shut most of it down entirely in the years that followed. The case illustrates how a fraud can hide behind a genuinely useful piece of financial infrastructure — peer-to-peer lending did, and still does, serve legitimate borrowers elsewhere — while using that infrastructure's newness, and the absence of any established way for an ordinary investor to verify a borrower actually exists, to make fabricated loans indistinguishable from real ones until the money stops flowing.`,
+    sourceUrl: 'https://www.cnbc.com/2017/09/12/ezubao-two-in-china-get-life-in-prison-for-7-point-6-billion-ponzi-scheme.html',
+  },
+  {
+    title: 'Ramon Abbas, "Hushpuppi": The Instagram Influencer Who Laundered Millions From Business Email Scams',
+    slug: 'ramon-abbas-hushpuppi-bec-money-laundering',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Ramon Olorunwa Abbas built an online persona, under the Instagram handle "Ray Hushpuppi," around designer clothes, private jets, and a fleet of luxury cars, amassing more than two million followers who watched a Nigerian former second-hand clothes trader present himself as a real estate developer living a billionaire's life in Dubai. The wealth on display was real. Its source was not what he claimed.
+
+According to U.S. federal prosecutors, Abbas's actual business was laundering the proceeds of business email compromise (BEC) fraud and other cyber-enabled scams — the kind of attack in which criminals impersonate a trusted contact, such as a company executive or a client's lawyer, to trick an employee into wiring money to an account the fraudsters control. Prosecutors detailed a scheme that defrauded a New York law firm of roughly $40 million after a paralegal was fooled by a spoofed email purporting to come from a legitimate source, an unauthorized transfer of $14.7 million from a foreign financial institution, and a conspiracy to launder proceeds from a plot targeting an English Premier League club for $124 million. Separately, prosecutors said Abbas helped launder money for North Korean state-sponsored hackers linked to attempted cyber heists targeting more than $1.3 billion from banks around the world. In total, he admitted to conspiring to launder more than $300 million.
+
+Abbas was arrested in a June 2020 raid on his Dubai residence, part of a joint operation between Dubai police and the FBI that seized roughly $40 million in cash and more than a dozen luxury vehicles. He was expelled to the United States and pleaded guilty in 2021 to one count of conspiracy to commit money laundering.
+
+On November 8, 2022, a federal judge in Los Angeles sentenced Abbas to 135 months — just over eleven years — in federal prison and ordered him to pay $1,732,841 in restitution to two of his victims, a U.S. law firm and a businessperson in Qatar.
+
+Abbas's case is a reminder that business email compromise fraud, often dismissed as a lower-tech cousin of ransomware or data breaches, moves more money than almost any other category of cybercrime the FBI tracks — and that laundering those proceeds through a maze of international bank accounts requires the same kind of organized, patient criminal infrastructure as any other large-scale fraud, dressed up here in an influencer's aesthetic that made the money look earned rather than stolen.`,
+    sourceUrl: 'https://www.justice.gov/usao-cdca/pr/nigerian-man-sentenced-over-11-years-federal-prison-conspiring-launder-tens-millions',
+  },
+  {
+    title: 'Melissa Caddick: The Unlicensed Financial Adviser Who Vanished the Morning After an ASIC Raid',
+    slug: 'melissa-caddick-ponzi-scheme-disappearance',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Melissa Caddick presented herself to family, friends, and their networks in Sydney's eastern suburbs as a successful financial adviser, having previously worked at NRMA's investment arm and later bought a stake in a boutique advisory firm. What her roughly seventy clients — most of them people who knew and trusted her personally — did not know was that Caddick had already been caught stealing from a former employer years earlier by forging checks, and that she was not actually managing their money at all.
+
+Between 2012 and 2020, Caddick ran a Ponzi scheme built on fabricated paperwork: she created fake account numbers and doctored CommSec brokerage statements showing her clients healthy share portfolios and steady returns, while in reality funneling their money — an estimated $23 million or more — through dozens of bank accounts to fund two Sydney properties, luxury cars, designer clothing, and jewelry. She operated without the financial services license Australian law required, hiding behind the appearance of a properly regulated adviser.
+
+The scheme unraveled on November 11, 2020, when agents from the Australian Securities and Investments Commission (ASIC) and the Australian Federal Police raided her Dover Heights home. The next morning, Caddick left the house during her usual early exercise routine and never returned, leaving behind her phone, wallet, and other belongings. Three months later, in February 2021, a decomposed human foot in a shoe washed up on a beach roughly 400 kilometers south of Sydney; DNA testing confirmed it belonged to Caddick.
+
+A New South Wales coronial inquest examined her disappearance and, on May 25, 2023, Deputy State Coroner Elizabeth Ryan formally found that Caddick was dead, most likely soon after she vanished, while stating that exactly how, when, and where she died could not be conclusively determined. A separate 2021 Federal Court finding held that her company had operated as an unlicensed and fraudulent investment scheme. Her Dover Heights home was later sold for $9.8 million to help repay the clients who were owed more than $23 million.
+
+Caddick's case illustrates how much a fraud can depend on affinity and appearance rather than paperwork anyone actually checks: her clients were largely people who already trusted her socially, and a handful of counterfeit brokerage statements were enough to sustain that trust for eight years, because no one thought to ask whether the "adviser" managing their retirement savings was licensed to do it at all.`,
+    sourceUrl: 'https://www.abc.net.au/news/2023-05-25/melissa-caddick-nsw-coroner-rules-fraudster-is-dead/102390386',
+  },
 ];
 
 // Practical "how it works / red flags / what to do" guides covering the
