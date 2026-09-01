@@ -3955,6 +3955,10 @@ There's no legitimate version of this offer: no one can guarantee a fixed multip
     slug: 'buy-now-pay-later-fraud',
     author: 'ScamShield Editorial',
     tags: ['guide', 'bnpl-fraud'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Close-up_of_a_woman_looking_at_a_credit_card_while_working_on_her_laptop.jpg?width=1200',
+    coverImageCredit: 'Photo: Shixart1985 (CC BY 2.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.consumerfinance.gov/archive/newsroom/cfpb-takes-action-to-ensure-consumers-can-dispute-charges-and-obtain-refunds-on-buy-now-pay-later-loans/',
     body: `Buy now, pay later services like Affirm, Klarna, and Afterpay let a shopper split a purchase into a handful of installments, often with no credit check and approval in seconds — exactly the kind of fast, low-friction signup that also makes these accounts an attractive target for fraud. Two different attacks show up under the same "BNPL fraud" label, and it's worth knowing which one you're dealing with.
 
@@ -3969,6 +3973,9 @@ Anyone targeted should act the same way they would with a compromised credit car
     slug: 'title-washing-vin-cloning-used-car-fraud',
     author: 'ScamShield Editorial',
     tags: ['guide', 'title-washing', 'vin-cloning'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/VIN_-_Audi_80-90_B4.JPG?width=1200',
+    coverImageCredit: 'Photo: Hans Haase (CC BY-SA 3.0)',
+    coverImagePosition: 50,
     sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2018/01/buyer-beware-flood-damaged-cars-sale',
     body: `A used car with a "clean" title sounds like the safest kind of purchase — no accident history, no flood damage, no red flags. But a clean title only reflects whatever the most recent state DMV recorded, and two different schemes exploit that gap to make a wrecked or stolen car look exactly like one that isn't.
 
@@ -3983,6 +3990,10 @@ Before buying any used car, check its full title history through the National Mo
     slug: 'mystery-shopper-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'mystery-shopper-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Gift_card_assortment.jpg?width=1200',
+    coverImageCredit: 'Photo: Tom Eppenberger Jr. (CC BY 2.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://consumer.ftc.gov/articles/mystery-shopping-scams',
     body: `A job listing or unsolicited message offers work as a "mystery shopper" — visiting or reviewing businesses and getting paid for the trouble — and the first assignment sounds simple: evaluate a store that sells gift cards or wire-transfer services. The company mails a check upfront, sometimes for several hundred or a few thousand dollars, with instructions to deposit it, use part of the money to buy gift cards as part of the "evaluation," and keep the rest as pay.
 
