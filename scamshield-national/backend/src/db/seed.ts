@@ -13466,6 +13466,39 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Consumer Financial Protection Bureau (CFPB)'],
     sourceUrl: 'https://www.consumerfinance.gov/archive/blog/consumer-fraud-alert-tips-avoiding-va-home-loan-scams/',
   },
+  {
+    name: 'French Timeshare Resale Scam (Arnaque à la Revente de Multipropriété)',
+    slug: 'french-timeshare-resale-scam',
+    description:
+      'Owners of timeshare ("multipropriété") weeks who advertise their unit for resale, or who are cold-contacted out of the blue, are told a buyer has been found and are sometimes also offered a "free" luxury travel package, exploiting a resale market where demand is scarce. The intermediary then requests an upfront deposit and "administrative fees" — in one Bordeaux gendarmerie investigation that uncovered 130 victims, this meant a 325-euro deposit plus 1,500 euros in fees — before it emerges that the buyer and travel package never existed. Legitimate resale services do not require large payments before a sale actually closes, and any company that cold-calls to buy a timeshare, asks for fees in advance, or is based abroad should be treated as suspect and reported via signal.conso.gouv.fr.',
+    categorySlug: 'timeshare-scams',
+    country: 'FR',
+    alertLevel: 'high',
+    sources: ['UFC-Que Choisir', 'Gendarmerie nationale'],
+    sourceUrl: 'https://www.quechoisir.org/actualite-timeshare-le-piege-de-la-revente-n4907/',
+  },
+  {
+    name: 'French Fake Lottery Win Scam (Fausse Loterie FDJ)',
+    slug: 'french-fake-lottery-win-scam',
+    description:
+      'An email, SMS, or MMS impersonating the Française des Jeux (FDJ), EuroMillions/My Million, or a foreign lottery brand claims the recipient\'s name or email address was drawn to win several hundred thousand to several million euros, often with an attached fake winning ticket and a supposed bailiff, notary, or lawyer to "process" the claim. Victims are asked to supply personal details, including a copy of their ID card, and to pay "administrative fees" to unlock the funds, frequently through a hard-to-trace PCS Mastercard prepaid recharge coupon. FDJ and legitimate lotteries never contact winners by email or text and never require payment to release winnings; a real prize can only come from a ticket the person actually bought.',
+    categorySlug: 'lottery-sweepstakes-scams',
+    country: 'FR',
+    alertLevel: 'medium',
+    sources: ['Cybermalveillance.gouv.fr', 'Française des Jeux (FDJ)'],
+    sourceUrl: 'https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/escroqueries-a-la-loterie',
+  },
+  {
+    name: 'FranceConnect Credential Phishing',
+    slug: 'franceconnect-credential-phishing',
+    description:
+      'A fake email or text imitating FranceConnect, the single sign-on system giving access to dozens of French public services (taxes, health insurance, family benefits, unemployment, and more) with one login, asks the recipient to click a link and re-enter their identifiers, often under a pretext like a security update or account suspension. Because a compromised FranceConnect login unlocks every connected government service at once rather than a single account, this is a distinct identity-theft vector from ordinary single-service phishing. Genuine FranceConnect messages come only from addresses ending in @franceconnect.gouv.fr or @notification.franceconnect.gouv.fr; any other sender should not be clicked and can be forwarded to support.securite@franceconnect.gouv.fr for verification.',
+    categorySlug: 'identity-theft',
+    country: 'FR',
+    alertLevel: 'high',
+    sources: ['FranceConnect', 'Cybermalveillance.gouv.fr'],
+    sourceUrl: 'https://aide.franceconnect.gouv.fr/faq/securite-confidentialite/comment-reconnaitre-un-message-frauduleux-phishing/',
+  },
 ];
 
 async function seedCategoriesAndScams() {
