@@ -13293,6 +13293,29 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Krebs on Security (reporting on law enforcement records and indictments)'],
     sourceUrl: 'https://krebsonsecurity.com/2025/03/arrests-in-tap-to-pay-scheme-powered-by-phishing/',
   },
+  {
+    name: 'New Hampshire Court Text Message and QR Code Scam',
+    slug: 'new-hampshire-court-text-qr-code-scam',
+    description:
+      'Text messages impersonating the New Hampshire court system falsely claim the recipient missed a court date or owes a fine, often including a fabricated "notice of hearing" formatted to look official, and direct the recipient to click a link or scan a QR code to submit payment. New Hampshire\'s Attorney General has issued repeated consumer alerts after a surge in reports, stating that the New Hampshire Judicial Branch never notifies people of hearings or fines by unsolicited text and never requests payment through a text link or QR code. Any claimed court matter should be verified directly through courts.nh.gov rather than any contact method the text provides.',
+    categorySlug: 'government-impersonation',
+    country: 'US',
+    state: 'NH',
+    alertLevel: 'medium',
+    sources: ['New Hampshire Department of Justice (Office of the Attorney General)'],
+    sourceUrl: 'https://www.doj.nh.gov/news-and-media/consumer-alert-scam-text-messages-impersonating-nh-courts',
+  },
+  {
+    name: 'Unlicensed Sportsbook and Online Gambling Scam',
+    slug: 'unlicensed-sportsbook-online-gambling-scam',
+    description:
+      'Around major recurring sports betting windows — NFL kickoff, college football season, March Madness, and the Super Bowl — ads, social media posts, and messaging-app links promote offshore or unlicensed sportsbook and casino apps offering oversized sign-up bonuses, "guaranteed" picks, or free spins, frequently requiring cryptocurrency deposits. Bettors who actually win then find withdrawals blocked: some sites claim after the fact that betting was never legal in the user\'s state while still accepting new signups from that same state, while others invent hidden "unlock" deposit requirements never disclosed in the terms. Confirming a site\'s license status through the state\'s own gaming regulator, rather than trusting the platform\'s own claims, is the most reliable check.',
+    categorySlug: 'lottery-sweepstakes-scams',
+    country: 'US',
+    alertLevel: 'medium',
+    sources: ['Better Business Bureau (BBB)'],
+    sourceUrl: 'https://www.bbb.org/article/investigations/32212-bbb-investigation-consumers-confused-and-upset-amid-hundreds-of-unlicensed-and-unverified-online-casinos-and-sportsbooks',
+  },
 ];
 
 async function seedCategoriesAndScams() {
