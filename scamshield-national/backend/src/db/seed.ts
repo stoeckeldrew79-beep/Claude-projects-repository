@@ -76,6 +76,10 @@ The most famous modern descendant is the "419 scam" (named for the section of Ni
 
 Advance-fee fraud remains one of the most reported scam categories worldwide precisely because the structure is so durable. It doesn't need new technology to work. It only needs a victim willing to send one more payment.`,
     sourceUrl: 'https://theappendix.net/issues/2013/10/proto-spam-spanish-prisoners-and-confidence-games',
+    // representative photo — replace with an exact match if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Alcazar_de_Segovia_junio_de_2025.jpg?width=1200',
+    coverImageCredit: 'Photo: Marina López Benito (CC0)',
+    coverImagePosition: 50,
   },
   {
     title: 'Frank Abagnale: The Con Man Who May Have Conned the Story Itself',
@@ -2124,6 +2128,10 @@ A jury convicted Goffer in June 2011 on all counts against him, including 12 cou
 
 Goffer's case is a reminder that insider trading rings don't always run through a corporate boardroom — a law firm handling live merger paperwork is itself a source of exactly the kind of advance knowledge that makes this fraud work, and the burner-phone precautions that made the scheme feel untraceable to its participants were ultimately reconstructed anyway through witness testimony from the very insiders selling the tips.`,
     sourceUrl: 'https://www.sec.gov/litigation/litreleases/lr-22185',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/2660Flipcl.png?width=1200',
+    coverImageCredit: 'Photo: ctunbox (CC BY 3.0)',
+    coverImagePosition: 50,
   },
   {
     title: "Jeffrey Skilling: The Enron CEO Whose Sentence Outlasted His Own Appeals",
@@ -2208,6 +2216,10 @@ The scheme collapsed in November 1963, when Allied Crude Vegetable Oil went bank
 
 The "Great Salad Oil Swindle," as it became known, remains a foundational case study in why collateral has to be independently verified rather than taken on the strength of paperwork alone — a lesson every bank that lent against Allied's warehouse receipts learned only after the tanks turned out to be full of water.`,
     sourceUrl: 'https://en.wikipedia.org/wiki/Salad_oil_scandal',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Bayonne_tank_farm_from_BB_jeh.jpg?width=1200',
+    coverImageCredit: 'Photo: Jim Henderson (CC BY-SA 4.0)',
+    coverImagePosition: 50,
   },
   {
     title: "Scott London: The KPMG Partner Who Sold Client Secrets for a Rolex and Cash",
@@ -2222,6 +2234,10 @@ The SEC and Justice Department charged both men in April 2013. London pleaded gu
 
 London's case is a reminder that insider trading doesn't require a Wall Street trading desk — an auditor sits on exactly the kind of material nonpublic information that makes tips valuable, and the price of betraying that access here was strikingly small: a wristwatch, some cash, and a few nights out, in exchange for a federal conviction and the end of a career built on being trusted with other companies' secrets.`,
     sourceUrl: 'https://www.sec.gov/news/press/2013/2013-58.htm',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Detail_of_Rolex_Daytona.jpg?width=1200',
+    coverImageCredit: 'Photo: Alesili (CC BY-SA 3.0)',
+    coverImagePosition: 50,
   },
   {
     title: "Walter Forbes: The Cendant Chairman Whose Accounting Fraud Preceded Enron",
@@ -2236,6 +2252,10 @@ Forbes's path to conviction was unusually long: two separate trials ended in mis
 
 Forbes's case predates Enron and WorldCom by several years but shares their central lesson: a public company's reported earnings are only as trustworthy as the fabrication hasn't yet been discovered, and a merger partner doing normal due diligence can still inherit years of fraud it never had any way to detect from the outside.`,
     sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-16910',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Stamford_Connecticut_Skyline_Aug_2017.jpg?width=1200',
+    coverImageCredit: 'Photo: John9474 (CC BY-SA 4.0)',
+    coverImagePosition: 50,
   },
   {
     title: "Patrice Runner: The Man Behind the \"Maria Duval\" Psychic Letters That Fleeced 1.3 Million People",
@@ -2355,6 +2375,10 @@ Kumar pleaded guilty in April 2006 to eight felony counts, including securities 
 
 The Computer Associates case shows that corporate accounting fraud doesn't always require inventing sales that never happened — sometimes it's built on a smaller, more mundane manipulation, like when a quarter is deemed to end, repeated relentlessly until the gap between reported and real performance grows into the billions. And once regulators start asking questions, the decision to tell employees to lie about it can turn a fraud case into an obstruction case just as easily.`,
     sourceUrl: 'https://www.justice.gov/archive/usao/nye/pr/2006/2006Nov02.html',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Computer-Associates-HQ.jpg?width=1200',
+    coverImageCredit: 'Photo: Americasroof (CC BY-SA 3.0)',
+    coverImagePosition: 50,
   },
   {
     title: "Satish Kumbhani: The BitConnect Founder Who Vanished After a $2.4 Billion Indictment",
@@ -2369,6 +2393,10 @@ A federal grand jury in the Southern District of California indicted Kumbhani in
 
 BitConnect is a reminder that "notorious" doesn't always mean "resolved." Years after a collapse that a federal indictment says defrauded investors on a multi-billion-dollar scale, the person U.S. prosecutors accuse of running it has simply never been found — a reflection of how much harder accountability becomes when a scheme's promoters, its incorporation, and its victims are scattered across different countries with no single government able to compel an arrest.`,
     sourceUrl: 'https://www.justice.gov/usao-sdca/pr/founder-fraudulent-cryptocurrency-charged-2-billion-bitconnect-ponzi-scheme',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Surat_Skyline_01.jpg?width=1200',
+    coverImageCredit: 'Photo: RahulR.Bhadane (CC BY-SA 4.0)',
+    coverImagePosition: 50,
   },
   {
     title: "Aleksandr Zhukov: The Self-Described \"King of Fraud\" Behind a Billion-Dollar Ad Botnet",
@@ -2401,6 +2429,10 @@ Friehling pleaded guilty in November 2009 to a nine-count charge covering securi
 
 Friehling's case is a reminder that a Ponzi scheme this large couldn't run on one person's lies alone: an independent audit is one of the few outside checks ordinary investors rely on without ever seeing the underlying paperwork themselves, and when the person providing that check simply doesn't do the work, the fraud gets years — in Madoff's case, decades — longer to grow before anyone catches it.`,
     sourceUrl: 'https://www.justice.gov/archive/usao/nys/pressreleases/November09/friehlingdavidpleapr.pdf',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/RubberStamp_blank.jpg?width=1200',
+    coverImageCredit: 'Photo: Innab (CC BY-SA 3.0)',
+    coverImagePosition: 50,
   },
   {
     title: "William \"Boots\" Del Biaggio III: The Fraud Behind a Bid to Own an NHL Team",
@@ -2487,6 +2519,10 @@ The acquittal didn't end Scrushy's legal exposure. Just months later, federal pr
 
 Scrushy's case is a reminder that walking away from history's biggest fraud charge doesn't mean walking away clean — the same relationships and money that built his corporate empire generated a second, entirely separate crime that a jury had no trouble convicting him of, even after the first jury couldn't be convinced he knew what his own company's books actually said.`,
     sourceUrl: 'https://www.justice.gov/archive/opa/pr/2006/June/06_crm_409.html',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Birmingham,_Alabama_Skyline.jpg?width=1200',
+    coverImageCredit: 'Photo: Eric in SF (CC BY-SA 3.0)',
+    coverImagePosition: 50,
   },
   {
     title: 'Timothy Durham: The "Midwest Madoff" Behind a $200 Million Consumer Finance Ponzi Scheme',
@@ -2519,6 +2555,10 @@ Belfort pleaded guilty in 1999 to securities fraud and money laundering and was 
 
 Stratton Oakmont later became widely known through Belfort's own memoir and its 2013 film adaptation, which dramatized the firm's culture of excess without dwelling much on the mechanics of the underlying fraud — a reminder that a boiler room's real damage isn't the party at the center of it, but the ordinary investors on the other end of the phone who were sold stock in companies whose prices were never allowed to move on their own.`,
     sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-16788',
+    // representative photo — replace with a portrait if found
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Lake_Success_Village_Welcome_Sign,_Westminster_Road,_Great_Neck,_Long_Island,_New_York.jpg?width=1200",
+    coverImageCredit: 'Photo: LINYperson615 (CC BY-SA 4.0)',
+    coverImagePosition: 50,
   },
   {
     title: 'Hassan Nemazee: The Political Fundraiser Who Forged $292 Million in Bank Collateral',
@@ -2533,6 +2573,10 @@ The fraud finally came apart in 2009 after a routine verification request expose
 
 Nemazee's case is a useful reminder that not every large-scale fraud requires a fictitious investment vehicle or a rotating cast of new victims paying off old ones — a single, sufficiently well-forged set of documents handed to sophisticated lenders was enough to extract hundreds of millions of dollars for over a decade, precisely because the banks' own verification processes weren't rigorous enough to catch a convincing fake.`,
     sourceUrl: 'https://www.justice.gov/archive/usao/nys/pressreleases/July10/nemazeehassansentencingpr.pdf',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Citigroup_Center_2015_(cropped).jpg?width=1200',
+    coverImageCredit: 'Photo: Choinowski (CC BY-SA 4.0)',
+    coverImagePosition: 50,
   },
   {
     title: 'Dana Giacchetto: The "Stockbroker to the Stars" Who Drained His Celebrity Clients\' Accounts',
@@ -2547,6 +2591,10 @@ Giacchetto pleaded guilty in August 2000 to a single count of investment-adviser
 
 Giacchetto's case shows how a specific kind of reputational shortcut — celebrity clients whose fame lent his firm an aura of exclusivity and trustworthiness — let him skip the ordinary skepticism a stranger managing millions of dollars might otherwise face. Fame in a money manager's client list isn't evidence the manager themselves has been vetted at all.`,
     sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-17092',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Hollywood_sign_in_Los_Angeles.jpg?width=1200',
+    coverImageCredit: 'Photo: Clementp.fr (CC BY-SA 4.0)',
+    coverImagePosition: 50,
   },
   {
     title: 'Steven Byers and the $255 Million Wextrust Real Estate Fraud',
@@ -2561,6 +2609,10 @@ Both men were criminally charged, and both pleaded guilty to securities fraud, c
 
 Wextrust is a reminder that affinity — a shared religious or ethnic community, the kind of in-group trust that normally substitutes for due diligence — is exactly what a scheme like this is built to exploit, and that a fraud running through 60 separate offerings over five years can look, from any single investor's vantage point, like nothing more than a legitimate, diversified real estate fund.`,
     sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-20678',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Equitable_Building_(Manhattan).jpg?width=1200',
+    coverImageCredit: 'Photo: Fletcher6 (CC BY-SA 3.0)',
+    coverImagePosition: 50,
   },
 ];
 
