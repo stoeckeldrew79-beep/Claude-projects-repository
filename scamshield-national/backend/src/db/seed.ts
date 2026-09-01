@@ -1411,10 +1411,9 @@ A jury convicted Peterson in January 2015 on eight counts of fraud, forgery, fal
     title: 'Steven Hoffenberg and the $475 Million Towers Financial Ponzi Scheme',
     slug: 'steven-hoffenberg-towers-financial-fraud',
     author: 'ScamShield Editorial',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/NYC_Financial_District_(Water_Taxi_view).jpg?width=1200',
-    coverImageCredit: 'Photo: Daniel Dimitrov (CC BY-SA 4.0)',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Steven_Hoffenberg_1962.jpg?width=1200',
+    coverImageCredit: 'Photo: New Utrecht High School yearbook (Public Domain)',
     coverImagePosition: 50,
-    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Steven Hoffenberg founded Towers Financial Corporation in Manhattan in the early 1970s, building it around a legitimate-sounding business: buying distressed consumer and commercial debt — money owed to hospitals, banks, and phone companies — for pennies on the dollar, then collecting on it. As chairman, president, and CEO, and the owner of roughly 71% of its stock, Hoffenberg used that respectable-looking core business as cover for a Ponzi scheme that grew alongside it through the 1980s and into the early 1990s.
 
@@ -2483,9 +2482,8 @@ Warner was indicted on both state and federal charges. In March 1987, an Ohio ju
 
 Warner's case illustrates a kind of contagion risk that's easy to overlook: Home State's own depositors did nothing wrong, and Home State itself wasn't accused of defrauding them directly — the damage flowed backward from a single counterparty's fraud, through an insurance system built to absorb one bank's failure, not a chain reaction across an entire state's thrift industry.`,
     sourceUrl: 'https://en.wikipedia.org/wiki/Marvin_L._Warner',
-    // representative photo — replace with a portrait if found
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Cincinnati_Skyline.jpg?width=1200',
-    coverImageCredit: 'Paul Armstrong, CC BY 2.0, via Wikimedia Commons',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Marvin_Warner,_The_Cincinnati_Enquirer_1981-03-15_page_B-3.jpg?width=1200',
+    coverImageCredit: 'Photo: The Cincinnati Enquirer (Public Domain)',
     coverImagePosition: 50,
   },
   {
@@ -2629,6 +2627,9 @@ Indian courts moved slowly against him. Of the criminal cases filed, Mehta was c
 
 The scam forced a rebuild of how Indian markets functioned: the Securities and Exchange Board of India was given real statutory enforcement power it hadn't had before, physical share certificates gave way to electronic depositories to close the kind of paper-trail gap Mehta exploited, and the National Stock Exchange's screen-based trading replaced the opaque floor-based system the old exchanges ran on. The case is a reminder that a fraud doesn't need to deceive the public to do enormous damage — it only needs to exploit the trust institutions place in each other's paperwork, and a market's integrity depends on back-office settlement controls as much as on any public disclosure investors actually see.`,
     sourceUrl: 'https://en.wikipedia.org/wiki/Harshad_Mehta',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Harshad_Mehta.jpg?width=1200',
+    coverImageCredit: 'Photo: Sharminshiroor (CC BY-SA 4.0)',
+    coverImagePosition: 50,
   },
   {
     title: 'Konrad Kujau and the Hitler Diaries That Fooled a Continent\'s Historians',
@@ -2643,6 +2644,9 @@ The fraud collapsed within weeks. West Germany's Federal Archives ran forensic t
 
 The Hitler Diaries scandal remains one of publishing's most instructive failures precisely because the people fooled were not naive marks — they were an international news organization and a respected historian, motivated by the scale of the scoop to skip the verification steps their own profession existed to enforce. A conman with a bottle of tea and a modern fountain pen was able to walk a fabricated version of history past editors and experts simply because no one wanted to be the one who said no to a story that big.`,
     sourceUrl: 'https://en.wikipedia.org/wiki/Konrad_Kujau',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Konrad_Kujau_01.jpg?width=1200',
+    coverImageCredit: 'Photo: Telephil (CC BY-SA 3.0)',
+    coverImagePosition: 50,
   },
   {
     title: 'Gregor MacGregor: The Scottish Soldier Who Sold Investors a Country That Didn\'t Exist',
@@ -2657,6 +2661,8 @@ What the settlers found when they arrived was nothing: no capital city, no gover
 
 Poyais stands as one of history's purest examples of confidence built entirely on production values rather than substance — a flag, a currency, a guidebook, and a title were enough to move real money through real financial markets and send real people to their deaths, not because any document was forged, but because nobody thought to check whether the country behind them existed at all. It is a case that still gets cited as the founding template for selling fictitious securities: dress the story in enough institutional trappings, and investors will supply the credibility themselves.`,
     sourceUrl: 'https://en.wikipedia.org/wiki/Gregor_MacGregor',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/George_Watson_(1767-1837)_-_Gregor_MacGregor_(1786%E2%80%931845),_Adventurer_-_PG_2201_-_National_Galleries_of_Scotland.jpg?width=1200',
+    coverImagePosition: 50,
   },
 ];
 
