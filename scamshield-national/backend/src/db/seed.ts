@@ -13711,6 +13711,64 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['ScamShield (Singapore)'],
     sourceUrl: 'https://www.scamshield.gov.sg/i-want-protection-from-scams/learn-to-recognise-scams/insurance-service-scams/',
   },
+  {
+    name: 'Virtual Casting Call / Fake Talent Scout Text Scam',
+    slug: 'virtual-casting-call-fake-talent-scout-text-scam',
+    description:
+      'An unsolicited text from a supposed "talent scout" invites the recipient to a virtual audition for a well-known movie, TV show, or brand campaign, targeting aspiring actors and models who never applied for anything. The "audition" turns out to be a scripted sales pitch pressuring the target to pay for headshots, acting classes, or a fee to "secure their spot" before any real job exists. A real talent agency gets paid by the client after booking a job and never charges the talent upfront; treat any unexpected casting text as a scam, and never click its link.',
+    categorySlug: 'employment-scams',
+    country: 'US',
+    alertLevel: 'medium',
+    sources: ['Federal Trade Commission (FTC)'],
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2025/12/lights-camera-scam-spot-virtual-casting-call-scams',
+  },
+  {
+    name: 'Fake Vehicle History Report Request Scam',
+    slug: 'fake-vehicle-history-report-request-scam',
+    description:
+      'Someone posing as an interested buyer contacts a person selling a car on Craigslist, Facebook Marketplace, or a similar site and insists on seeing a vehicle history report from one specific website before agreeing to buy, often a copycat domain ending in ".vin," chosen to look official even though the suffix has nothing to do with vehicle identification numbers. The seller pays around $20 by credit card for the report and sends it along, then never hears from the "buyer" again, having handed a stranger\'s site both payment and personal information. Legitimate vehicle history checks come from established providers like Carfax or AutoCheck, or from the government\'s own NMVTIS lookup at vehiclehistory.gov, never a site named by an unverified stranger.',
+    categorySlug: 'online-shopping-scams',
+    country: 'US',
+    alertLevel: 'medium',
+    sources: ['Federal Trade Commission (FTC)'],
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2018/10/steering-clear-vehicle-history-report-scams',
+  },
+  {
+    name: 'RIBridges Breach Follow-Up Phishing Scam',
+    slug: 'ribridges-breach-follow-up-phishing-scam',
+    description:
+      'Following the December 2024 breach of RIBridges, Rhode Island\'s unified eligibility system for Medicaid, SNAP, TANF, child care assistance, and HealthSource RI coverage, which exposed personal data including Social Security numbers and banking information for roughly 644,000 people, scammers have used the real, widely publicized breach as cover to send fake emails, calls, and texts posing as RIBridges or state benefits officials asking recipients to "confirm" personal details. The state warns that its one legitimate notification address, notice@uhip.ri.gov, never contains a clickable link, and that residents should navigate directly to healthyrhode.ri.gov rather than clicking a link in any unsolicited message referencing the breach.',
+    categorySlug: 'public-benefits-fraud',
+    country: 'US',
+    state: 'RI',
+    alertLevel: 'high',
+    sources: ['Rhode Island Department of Administration'],
+    sourceUrl: 'https://admin.ri.gov/ribridges-alert',
+  },
+  {
+    name: 'PSERS Unauthorized Retirement Solicitation Scam',
+    slug: 'psers-unauthorized-retirement-solicitation-scam',
+    description:
+      'Members of Pennsylvania\'s Public School Employees\' Retirement System (PSERS) have reported unsolicited calls and emails from people falsely claiming to represent PSERS to discuss retirement benefits, in some cases pitching financial products or "counseling" services. PSERS confirms none of these contacts are sanctioned by or associated with the system, that its only authorized financial partner is Voya Financial for the Defined Contribution Plan, and that no other entity is contracted or authorized to provide retirement counseling on its behalf. Members are advised to verify any unsolicited outreach directly with PSERS before sharing personal information or engaging with an offer.',
+    categorySlug: 'government-impersonation',
+    country: 'US',
+    state: 'PA',
+    alertLevel: 'medium',
+    sources: ["Pennsylvania Public School Employees' Retirement System (PSERS)"],
+    sourceUrl: 'https://www.pa.gov/agencies/psers/newsroom/fraud-alert-psers-members-receive-unsolicited-cold-calls-about-retirement-benefits',
+  },
+  {
+    name: 'NYSLRS Retirement Online Fake Login Site',
+    slug: 'nyslrs-retirement-online-fake-login-site',
+    description:
+      'Scammers built a fraudulent website closely mimicking Retirement Online, the portal members, retirees, and beneficiaries of the New York State and Local Retirement System (NYSLRS) use to manage pension accounts, and used search-engine placement so the fake site could surface ahead of the real one when people searched for the portal, capturing login credentials from anyone who signed in there. The Office of the State Comptroller, which administers NYSLRS, confirmed the imposter site is not affiliated with the system and advises reaching Retirement Online only by navigating directly to osc.ny.gov rather than through a search result, and contacting the Fraud Hotline if account compromise is suspected.',
+    categorySlug: 'account-takeover',
+    country: 'US',
+    state: 'NY',
+    alertLevel: 'medium',
+    sources: ['New York State Office of the State Comptroller (NYSLRS)'],
+    sourceUrl: 'https://www.osc.ny.gov/retirement/scam-alert',
+  },
 ];
 
 async function seedCategoriesAndScams() {
