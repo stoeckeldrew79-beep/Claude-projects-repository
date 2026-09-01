@@ -4185,6 +4185,9 @@ If a package like this arrives, don't scan any QR code included with it. Federal
     slug: 'ghost-tax-preparer-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'ghost-tax-preparer-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Clerks_helping_customers_file_income_taxes,_1946.tif?width=1200',
+    coverImageCredit: 'Photo: Toronto Telegram staff, via York University Libraries, Clara Thomas Archives & Special Collections (Public Domain)',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.irs.gov/newsroom/irs-dont-be-victim-to-a-ghost-tax-return-preparer',
     body: `By law, anyone who is paid to prepare or help prepare a federal tax return must sign it and include a valid Preparer Tax Identification Number (PTIN) issued by the IRS. A "ghost" preparer skips that step entirely: they'll fill out the return for a fee, sometimes working out of a pop-up office, a private home, or entirely online, but they refuse to sign it or digitally sign it for e-filing. Instead, they print the return and tell the taxpayer to sign it and mail it in themselves, making it look — at least on paper — like the taxpayer prepared their own return with no professional help at all.
 
@@ -4201,6 +4204,9 @@ Anyone who paid a preparer who refused to sign, or who suspects a return was alt
     slug: 'fake-online-store-social-media-ad-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'social-media-shopping-ad-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Social_Media_App_Icons_On_The_Screen_of_A_Smartphone.jpg?width=1200',
+    coverImageCredit: 'Photo: Mike MacKenzie (CC BY 2.0)',
+    coverImagePosition: 50,
     sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2026/08/are-ads-social-media-vetted-or-checked-scams-heres-what-know',
     body: `A designer handbag at 80% off, a deeply discounted pair of sneakers, a gadget that isn't in stores yet — the ad shows up in a social media feed looking like any other sponsored post, sometimes using a real brand's name and logo, sometimes as an unfamiliar boutique with glossy product photos. Clicking through leads to a checkout page that takes the payment and then simply never ships anything, or ships a cheap counterfeit that looks nothing like the picture. Either way, the money is gone, and the "store" behind the ad is often built to vanish and reappear under a new name before many buyers realize what happened. This is different from getting scammed by an individual seller on a peer-to-peer marketplace like Facebook Marketplace — here, the storefront itself, and the ad that led to it, is the fraud.
 
