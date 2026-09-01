@@ -2549,6 +2549,20 @@ Giacchetto pleaded guilty in August 2000 to a single count of investment-adviser
 Giacchetto's case shows how a specific kind of reputational shortcut — celebrity clients whose fame lent his firm an aura of exclusivity and trustworthiness — let him skip the ordinary skepticism a stranger managing millions of dollars might otherwise face. Fame in a money manager's client list isn't evidence the manager themselves has been vetted at all.`,
     sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-17092',
   },
+  {
+    title: 'Steven Byers and the $255 Million Wextrust Real Estate Fraud',
+    slug: 'steven-byers-wextrust-capital-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Steven Byers co-founded Wextrust Capital with Joseph Shereshevsky, building it into a private-equity firm that raised money from investors — heavily concentrated in the Orthodox Jewish community, where the two men had personal and community ties that lent the pitch extra trust — through at least 60 separate securities offerings between roughly 2003 and 2008. The offerings were sold as investments in specific commercial and residential real estate projects, some described as already leased to the federal government.
+
+The SEC found that Wextrust operated as a Ponzi scheme dressed up as a real estate fund: money raised for one offering routinely went to pay "returns" to earlier investors or to cover the firm's own expenses, rather than into the properties described in the offering documents. In one 2005 offering, investors were told more than $9 million would buy seven federal-government-leased buildings; the properties were never purchased, and millions of dollars from that raise were redirected to unrelated uses. Shereshevsky separately hid more than $900,000 of investor money in accounts held in his wife's name after the SEC began investigating.
+
+Both men were criminally charged, and both pleaded guilty to securities fraud, conspiracy, and mail fraud. In April 2011, Byers was sentenced to 160 months in federal prison, ordered to pay more than $7.7 million in restitution, and forced to forfeit $9.2 million in proceeds. Shereshevsky, whose plea covered an additional layer of hidden assets, received a longer sentence that July — 262 months, among the harshest handed down in the case — plus his own restitution and forfeiture obligations. Roughly 1,200 investors were affected.
+
+Wextrust is a reminder that affinity — a shared religious or ethnic community, the kind of in-group trust that normally substitutes for due diligence — is exactly what a scheme like this is built to exploit, and that a fraud running through 60 separate offerings over five years can look, from any single investor's vantage point, like nothing more than a legitimate, diversified real estate fund.`,
+    sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-20678',
+  },
 ];
 
 // Practical "how it works / red flags / what to do" guides covering the
