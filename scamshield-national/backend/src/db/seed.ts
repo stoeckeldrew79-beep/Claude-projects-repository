@@ -13865,6 +13865,28 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ["Federal Trade Commission", "Florida Attorney General's Office"],
     sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2021/12/ftc-issues-refunds-totaling-more-18-million-consumers-defrauded-lifewatch-incs-deceptive-medical',
   },
+  {
+    name: 'Irish Ghost Broker Car Insurance Scam',
+    slug: 'irish-ghost-broker-car-insurance-scam',
+    description:
+      'A "ghost broker" advertises steeply discounted car insurance on social media and messaging apps such as WhatsApp, Telegram, TikTok, and Instagram, then sells a forged or invalid policy document after the buyer pays by direct bank transfer to a personal account. An Garda Síochána lists this as one of the most common advance-fee frauds in Ireland, warning that legitimate insurers never sell exclusively through social media or request payment to a personal account. Victims typically only discover they were never insured when stopped by Gardaí or after an accident, leaving them uninsured and facing prosecution or vehicle seizure; verify any policy by checking the Central Bank of Ireland\'s register of authorised insurance intermediaries before paying.',
+    categorySlug: 'insurance-fraud',
+    country: 'IE',
+    alertLevel: 'high',
+    sources: ['An Garda Síochána', 'RTÉ News'],
+    sourceUrl: 'https://www.garda.ie/en/crime/fraud/',
+  },
+  {
+    name: 'Fake Unauthorised Online Loan Company Advance-Fee Scam',
+    slug: 'irish-unauthorised-online-loan-advance-fee-scam',
+    description:
+      'Websites offering fast, unsecured loans with no credit check target financially stretched Irish consumers, following up with a phone call from a number appearing Irish that confirms the loan is "approved" but requires an upfront payment, described as an insurance, processing, or setup fee, before funds can be released. No loan is ever paid out and the company disappears with the fee; the Central Bank of Ireland has issued repeated public warning notices naming specific unauthorised firms operating as unregistered retail credit providers. Before paying anything, check whether the lender appears on the Central Bank of Ireland\'s register of regulated firms, since it is a criminal offence for an unauthorised entity to provide financial services in the State.',
+    categorySlug: 'debt-relief-scams',
+    country: 'IE',
+    alertLevel: 'high',
+    sources: ['Central Bank of Ireland', 'An Garda Síochána'],
+    sourceUrl: 'https://www.centralbank.ie/news/article/warning-notice-central-bank-of-ireland-issues-warning-on-unauthorised-firm-bad-credit-loans-ireland-26-may-2023',
+  },
 ];
 
 async function seedCategoriesAndScams() {
