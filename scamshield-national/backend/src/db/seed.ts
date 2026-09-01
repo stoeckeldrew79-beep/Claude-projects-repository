@@ -13226,6 +13226,62 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Scamwatch (Australian Competition and Consumer Commission)'],
     sourceUrl: 'https://www.scamwatch.gov.au/about-us/news-and-alerts/scam-alert-scammers-targeting-australians-in-hardship',
   },
+  {
+    name: 'Fake Bail Bondsman Calls Exploiting West Virginia\'s Insurance-Commissioner Licensing',
+    slug: 'fake-bail-bondsman-west-virginia-insurance-commissioner',
+    description:
+      'Callers falsely claiming to represent a bail bonding company tell West Virginia families a relative has just been arrested and needs immediate bond money, pressuring victims into wiring funds or buying gift cards before they can verify anything. Unlike most states, West Virginia licenses and regulates bail bondsmen directly through its Offices of the Insurance Commissioner, and every legitimate bondsman must carry an OIC-issued picture ID card while working. The West Virginia OIC advises hanging up, confirming an arrest independently through the state\'s Regional Jail inmate search, and checking any bondsman\'s name against the OIC\'s own published Licensed Bail Bondsman list before sending payment.',
+    categorySlug: 'family-emergency-scams',
+    country: 'US',
+    state: 'WV',
+    alertLevel: 'high',
+    sources: ['West Virginia Offices of the Insurance Commissioner'],
+    sourceUrl: 'https://www.wvinsurance.gov/Portals/0/pdf/Bail%20Bondsman%20Scam%20Alert.pdf',
+  },
+  {
+    name: 'Guaranteed Scholarship and Financial-Aid Seminar Scam',
+    slug: 'guaranteed-scholarship-financial-aid-seminar-scam',
+    description:
+      'As a new school year approaches, students and parents receive letters, emails, or social media messages claiming they\'ve been "selected" as a scholarship finalist or invited to a "free" financial-aid seminar at a local hotel, then are pressured to pay an upfront fee to secure a "guaranteed" award or unlock supposedly exclusive scholarship listings. The FTC flags phrases like "the scholarship is guaranteed or your money back" and "you\'re a finalist" in a contest never entered as reliable red flags, and warns that some companies collect checking-account or credit-card information to "confirm eligibility" and then debit the account without consent. Any offer can be checked against a school\'s own financial aid office or a free federal/state scholarship database.',
+    categorySlug: 'debt-relief-scams',
+    country: 'US',
+    alertLevel: 'medium',
+    sources: ['Federal Trade Commission (FTC)'],
+    sourceUrl: 'https://consumer.ftc.gov/articles/how-avoid-scholarship-and-financial-aid-scams',
+  },
+  {
+    name: 'FBI/IC3 Deepfake Impersonation "Revictimization" Scam',
+    slug: 'fbi-ic3-deepfake-revictimization-scam',
+    description:
+      'Criminals pose as FBI personnel or IC3 (Internet Crime Complaint Center) staff to re-target people who already filed a fraud report, contacting them through Facebook Messenger or Telegram with a link to "update" their IC3 complaint that actually harvests financial data or delivers malware. A more advanced version circulates AI-generated deepfake videos of senior FBI officials directing viewers to a spoofed lookalike of ic3.gov that collects personal and financial information through a fake complaint form. The FBI confirms it never contacts complainants this way; verification should only ever be done by typing "www.ic3.gov" directly into a browser rather than following a link, sponsored search result, or video.',
+    categorySlug: 'government-impersonation',
+    country: 'US',
+    alertLevel: 'high',
+    sources: ['FBI', 'Internet Crime Complaint Center (IC3)'],
+    sourceUrl: 'https://www.ic3.gov/PSA/2026/PSA260720',
+  },
+  {
+    name: 'Fake Funeral Livestream Scam',
+    slug: 'fake-funeral-livestream-scam',
+    description:
+      'Scammers scrape a real funeral home\'s Facebook obituary post for the deceased\'s name, photo, and service date, then create a fraudulent memorial page or add comments offering a "livestream" link to watch the funeral remotely. The link leads to a fake streaming site that demands a credit card number for "membership" or a small viewing fee, often with hidden recurring charges buried in fine print, despite the fact that legitimate funeral directors never charge to view a livestream they arrange, and any real link comes only through the funeral home itself. The pattern exploits grieving relatives and friends who can\'t attend in person and are least likely to scrutinize an urgent-feeling request before reacting.',
+    categorySlug: 'identity-theft',
+    country: 'US',
+    alertLevel: 'medium',
+    sources: ['Better Business Bureau (BBB Scam Tracker)', 'Malwarebytes Labs'],
+    sourceUrl: 'https://www.malwarebytes.com/blog/news/2024/08/fake-funeral-live-stream-scams-target-grieving-users-on-facebook',
+  },
+  {
+    name: 'Phished Digital Wallet "Ghost Tap" Fraud',
+    slug: 'phished-digital-wallet-ghost-tap-fraud',
+    description:
+      'A smishing text impersonating USPS or a toll operator directs the recipient to a fake site to pay a small fee, harvesting their card number; the site then tells the victim their bank needs to "verify" the card by texting a one-time passcode, but that code is actually used to provision the stolen card onto an Apple Pay or Google Pay wallet the criminals control. Once loaded, hijacked wallets are sold in bulk on Telegram and used with a custom relay app to beam valid tap-to-pay transactions from overseas onto real store terminals nationwide, mainly to buy gift cards. Anyone asked to read back a one-time passcode after entering card details on an unsolicited text link should assume their card is about to be loaded into someone else\'s digital wallet, not verified.',
+    categorySlug: 'account-takeover',
+    country: 'US',
+    alertLevel: 'high',
+    sources: ['Krebs on Security (reporting on law enforcement records and indictments)'],
+    sourceUrl: 'https://krebsonsecurity.com/2025/03/arrests-in-tap-to-pay-scheme-powered-by-phishing/',
+  },
 ];
 
 async function seedCategoriesAndScams() {
