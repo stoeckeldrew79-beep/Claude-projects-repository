@@ -3927,6 +3927,20 @@ VIN cloning is a different, more serious version of the same idea: instead of la
 
 Before buying any used car, check its full title history through the National Motor Vehicle Title Information System (NMVTIS) — the only database required by federal law to include salvage, flood, and junk designations reported by every state — rather than relying on a seller's word or a single state's current title alone. Inspect the vehicle in person for water stains, mildew, or silt under the carpet and dashboard, fogging inside headlights and taillights, or a strong smell of cleaner that might be masking mold; compare the VIN stamped on the dashboard, door jamb, and engine block to make sure they match each other and the paperwork; and have an independent mechanic inspect the car before finalizing any purchase, especially one priced noticeably below similar listings.`,
   },
+  {
+    title: 'Mystery Shopper Scams: The "Job" That Pays You With a Fake Check',
+    slug: 'mystery-shopper-scam-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'mystery-shopper-scam'],
+    sourceUrl: 'https://consumer.ftc.gov/articles/mystery-shopping-scams',
+    body: `A job listing or unsolicited message offers work as a "mystery shopper" — visiting or reviewing businesses and getting paid for the trouble — and the first assignment sounds simple: evaluate a store that sells gift cards or wire-transfer services. The company mails a check upfront, sometimes for several hundred or a few thousand dollars, with instructions to deposit it, use part of the money to buy gift cards as part of the "evaluation," and keep the rest as pay.
+
+The check is fake, but banks are required to make deposited funds available within a day or two, well before the forgery is actually detected — that can take weeks. By the time the bank reverses the deposit, the victim has already bought and used the gift cards (or wired money, in a similar variant), and the scammer has already collected the card numbers or wire transfer. The victim is left owing the bank the full amount of the bounced check, on top of whatever they spent following the "assignment" instructions.
+
+Real mystery shopping is a legitimate, if minor, line of work, which is exactly what makes the scam version convincing — it borrows a real job category and a plausible-sounding first task. But the mechanics give it away: legitimate mystery shopping companies pay a flat fee for a completed assignment, they don't front money through a check the shopper has to spend first, and they never ask a new hire to purchase gift cards or wire money as part of an "evaluation." A real assignment doesn't involve handling large sums of the employer's money at all.
+
+No legitimate job requires depositing a check and immediately spending part of it on the employer's instructions — that pattern is the same fake-check mechanism scammers use across many other pretexts, just wrapped in a "job." If a mystery-shopping offer arrives unsolicited, or any job asks for gift card purchases, wire transfers, or upfront fees, don't deposit the check or spend a cent; verify the company's legitimacy independently through the Mystery Shopping Professionals Association, and report the attempt to the FTC at ReportFraud.ftc.gov.`,
+  },
 ];
 
 async function seedArticles(articles: SeedArticle[], label: string) {
