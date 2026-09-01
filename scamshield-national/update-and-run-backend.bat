@@ -8,16 +8,27 @@ REM Leave this window open once you see "ScamShield National API listening
 REM on :3000" — don't click into it again until you need to stop it (that
 REM avoids the terminal freeze-on-click issue). To get new updates later,
 REM close this window and double-click this file again.
+REM
+REM Uses a hard sync (fetch + reset) instead of a plain "git pull" so it
+REM can never get stuck on a stale local copy, no matter what state the
+REM local checkout was left in.
 
 cd /d "%~dp0"
 
 echo ============================================
 echo  Pulling latest code from GitHub...
 echo ============================================
-git pull
+git fetch origin claude/scamshield-national-phase1
 if errorlevel 1 (
   echo.
-  echo git pull failed - see the error above. Not continuing.
+  echo git fetch failed - see the error above. Not continuing.
+  pause
+  exit /b 1
+)
+git checkout -B claude/scamshield-national-phase1 origin/claude/scamshield-national-phase1
+if errorlevel 1 (
+  echo.
+  echo git checkout failed - see the error above. Not continuing.
   pause
   exit /b 1
 )
