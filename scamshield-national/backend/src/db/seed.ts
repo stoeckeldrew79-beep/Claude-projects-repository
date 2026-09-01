@@ -14160,6 +14160,39 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Federal Trade Commission (FTC)'],
     sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2026/09/scammers-are-spoofing-car-dealership-websites-what-you-need-know',
   },
+  {
+    name: 'Dutch Spookfactuur / Factuurfraude (Ghost Invoice and CEO Fraud)',
+    slug: 'dutch-spookfactuur-factuurfraude-invoice-fraud',
+    description:
+      'Criminals email Dutch businesses fake invoices, quotes, or "urgent" payment requests disguised as coming from a known supplier or from company management, often exploiting a compromised or spoofed email thread to request payment to a newly "changed" bank account. The scheme, which the Dutch National Cyber Security Centre groups under "spookfacturen" and which includes CEO fraud/business email compromise variants, works even at low success rates because mass distribution is nearly free; red flags include unexpected account-number changes, artificial urgency, and requests routed to a finance-department inbox. NCSC and Fraudehelpdesk Zakelijk advise verifying any invoice or payment change by phoning the vendor using an independently looked-up number, never one listed on the invoice itself.',
+    categorySlug: 'business-email-compromise',
+    country: 'NL',
+    alertLevel: 'high',
+    sources: ['Nationaal Cyber Security Centrum (NCSC)', 'Fraudehelpdesk Zakelijk'],
+    sourceUrl: 'https://www.ncsc.nl/phishing/spookfacturen',
+  },
+  {
+    name: 'Dutch Fraudulent Debt-Relief Provider Scam',
+    slug: 'dutch-fraudulent-debt-relief-provider-scam',
+    description:
+      'A person struggling with debt hires a "schuldhulpverlener" (debt-relief provider) who takes over management of their finances and collects funds meant to pay creditors, but instead diverts the money to themselves, leaves bills unpaid, or delays for weeks while debts grow. Warning signs include the provider holding client funds in an account in their own name, which is illegal without a banking license, refusing to share financial records, going unresponsive, and clients still receiving collection notices or bailiff visits despite believing their debt was being handled. Opgelicht?! advises using only providers affiliated with the NVVK (Nederlandse Vereniging voor Schuldhulpverlening en Sociaal Bankieren) or a municipal debt-help service, and demanding regular written statements.',
+    categorySlug: 'debt-relief-scams',
+    country: 'NL',
+    alertLevel: 'high',
+    sources: ['Opgelicht?! (AVROTROS)'],
+    sourceUrl: 'https://opgelicht.avrotros.nl/hulp/artikelen/waar-moet-ik-op-letten-bij-schuldhulpverlening-5482',
+  },
+  {
+    name: 'Dutch SIM-Swap Fraud via Fake KPN/Odido Messages',
+    slug: 'dutch-sim-swap-fraud-fake-kpn-odido',
+    description:
+      'Criminals send SMS messages or make phone calls impersonating Dutch telecom providers KPN or Odido, claiming a SIM card has expired, must be "validated," or needs urgent conversion to eSIM, then direct the victim to click a phishing link, hand over personal data, or take actions that let the criminal take control of the phone number itself, distinct from scams that spoof a bank directly since here the telecom account is the target. Once the number is hijacked, attackers can intercept SMS login and two-factor codes and use the stolen number to mass-text further victims. Fraudehelpdesk states that legitimate providers never send SMS about an expiring SIM card or call asking for "validation," and recommends deleting such messages without clicking any link.',
+    categorySlug: 'account-takeover',
+    country: 'NL',
+    alertLevel: 'high',
+    sources: ['Fraudehelpdesk (Netherlands)'],
+    sourceUrl: 'https://www.fraudehelpdesk.nl/alert/valse-berichten-kpn-en-odido-simkaart-wordt-overgenomen/',
+  },
 ];
 
 async function seedCategoriesAndScams() {
