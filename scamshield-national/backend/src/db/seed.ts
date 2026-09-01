@@ -4289,6 +4289,9 @@ Paying by credit card whenever possible gives a real safety net — if the item 
     slug: 'elder-financial-exploitation-family-caregiver-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'elder-financial-exploitation'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Old_hands.jpg?width=1200',
+    coverImageCredit: 'Photo: Marina Guimarães (CC BY-SA 2.0)',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.consumerfinance.gov/consumer-tools/educator-tools/resources-for-older-adults/reporting-elder-financial-abuse-guide/',
     body: `Most scams described elsewhere in this guide come from a stranger on the phone or online. Elder financial exploitation is different: the person taking the money is someone the older adult already trusts and has given legitimate access to — an adult child, other relative, in-home caregiver, or an agent named under a power of attorney. It often starts as real help, like paying bills online or driving to the bank for someone whose eyesight or memory is declining. Over time, "helping" can slide into taking: small unauthorized withdrawals, a debit card used for the helper's own purchases, or, in more serious cases, an agent under power of attorney using that authority to drain accounts, retitle property, or open credit entirely for their own benefit. A power of attorney is a powerful legal tool precisely because it's rarely double-checked once granted — a bank teller generally has no way to know an agent is exceeding what the older adult actually authorized.
 
@@ -4303,6 +4306,9 @@ If you suspect this is happening to a loved one, or to yourself: talk to the old
     slug: 'advance-fee-loan-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'advance-fee-loan-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Businesswoman_making_a_payment_with_cash_while_using_a_smartphone_in_a_modern_office_setting.jpg?width=1200',
+    coverImageCredit: 'Photo: Nenad Stojković (CC BY 2.0)',
+    coverImagePosition: 50,
     sourceUrl: 'https://consumer.ftc.gov/articles/what-know-about-advance-fee-loans',
     body: `An ad, robocall, text, or social media message offers a loan or credit card "guaranteed" regardless of credit history — appealing specifically to people who've already been turned down elsewhere because of poor or no credit. After a short application, the "lender" says the loan is approved, but a fee has to be paid first, described as insurance, processing, a security deposit, or the first month's payment, and collected by gift card, wire transfer, a prepaid debit card, or cryptocurrency. Once that fee is sent, the loan never arrives, the "lender" stops responding, and it turns out there was no loan and no lender to begin with.
 
@@ -13952,6 +13958,41 @@ const SEED_SCAMS: SeedScam[] = [
     alertLevel: 'high',
     sources: ['Central Bank of Ireland', 'An Garda Síochána'],
     sourceUrl: 'https://www.centralbank.ie/news/article/warning-notice-central-bank-of-ireland-issues-warning-on-unauthorised-firm-bad-credit-loans-ireland-26-may-2023',
+  },
+  {
+    name: 'NC Department of State Treasurer Fake Arrest / Prepaid Card Scam',
+    slug: 'nc-state-treasurer-fake-arrest-prepaid-card-scam',
+    description:
+      'Callers or emailers falsely claiming to be with the North Carolina Department of the State Treasurer tell the recipient that they or a loved one will be arrested over unpaid "outstanding fines," then demand the debt be resolved by mailing prepaid gift or debit cards, often to the Treasurer\'s real, legitimate mailing address to make the threat look official. Before the cards are mailed, victims are told to call back and read the card numbers over the phone, at which point the scammer immediately drains the funds. No government agency, including the Treasurer\'s office, resolves a debt or cancels an arrest warrant through prepaid cards; recipients should hang up and verify directly with the NC Department of Justice Consumer Protection Division.',
+    categorySlug: 'government-impersonation',
+    country: 'US',
+    state: 'NC',
+    alertLevel: 'high',
+    sources: ["North Carolina Department of Justice (Attorney General's Office)"],
+    sourceUrl: 'https://ncdoj.gov/beware-of-phony-arrest-threats-from-the-state-trea-d1/',
+  },
+  {
+    name: 'OPERS Pension Advance ("Cash for Your Pension") Factoring Scam',
+    slug: 'opers-pension-advance-factoring-scam',
+    description:
+      'Companies solicit Ohio Public Employees Retirement System (OPERS) retirees to sign away their future monthly pension payments in exchange for an immediate lump-sum cash payout, sometimes pitched as a way to fund investors as well. OPERS confirms this is illegal under Ohio law, which makes OPERS pensions "unassignable" with no exception for factoring companies, and that retirees taking these deals typically receive far less than their pension\'s real value while permanently losing that income stream. Members who want cash up front have a legitimate option, the partial lump-sum payment OPERS itself offers at retirement, and should treat any third-party offer to buy out a pension as illegal and refuse it.',
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    state: 'OH',
+    alertLevel: 'medium',
+    sources: ['Ohio Public Employees Retirement System (OPERS)'],
+    sourceUrl: 'https://perspective.opers.org/beware-of-scams-offering-cash-for-your-pension/',
+  },
+  {
+    name: 'Ramp-and-Dump Investment Club Stock Fraud',
+    slug: 'ramp-and-dump-investment-club-stock-fraud',
+    description:
+      'Fraudsters recruit investors through unsolicited social media messages and ads promoting membership in an exclusive "investment club," sometimes impersonating legitimate brokerages or well-known market analysts, then move the group to an encrypted messaging app. Members are coached to coordinate purchases of a low-priced, thinly traded stock over weeks or months, artificially inflating ("ramping") its price; the organizers then sell their own shares at the peak and quietly exit, collapsing the price and leaving other members with the loss. The FBI reported a 300 percent year-over-year jump in complaints referencing this scheme in 2025; unsolicited stock tips pushing urgency and guaranteed returns on an obscure low-priced stock, delivered through a "club" on a messaging app, are the pattern to distrust.',
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    alertLevel: 'high',
+    sources: ['FBI Internet Crime Complaint Center (IC3)'],
+    sourceUrl: 'https://www.ic3.gov/PSA/2025/PSA250703',
   },
 ];
 
