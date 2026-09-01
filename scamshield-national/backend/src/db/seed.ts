@@ -2614,6 +2614,50 @@ Wextrust is a reminder that affinity — a shared religious or ethnic community,
     coverImageCredit: 'Photo: Fletcher6 (CC BY-SA 3.0)',
     coverImagePosition: 50,
   },
+  {
+    title: "Harshad Mehta and the Bank Receipt Loophole That Broke India's Stock Market",
+    slug: 'harshad-mehta-indian-securities-scam-1992',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Harshad Mehta was a Bombay stockbroker known as "the Big Bull," and in 1991 and 1992 he ran a fraud that didn't need to trick a single retail investor directly — it worked by exploiting a settlement-process loophole that banks trusted implicitly in one another. Mehta's scheme diverted an estimated ₹40 billion (roughly ₹4,000 crore) out of India's banking system and used it to drive up stock prices on the Bombay Stock Exchange, making him, briefly, one of the most celebrated financial figures in the country.
+
+The mechanism ran through "ready forward" deals, a repo-style transaction banks used to lend each other money against government securities for short periods. In a properly run ready forward deal, the securities themselves changed hands as collateral. In practice, banks often settled through a "bank receipt" (BR) — a paper IOU standing in for securities that were supposedly already held safely at another bank. Mehta arranged for small, thinly regulated banks to issue him BRs that weren't backed by any actual government securities at all, then used the cash those fraudulent BRs unlocked from larger banks not to complete legitimate securities trades, but to buy shares directly. The buying was concentrated enough to send individual stocks soaring — shares of Associated Cement Companies, for instance, ran from around ₹200 to roughly ₹9,000 — and the resulting boom pulled the broader market up with it.
+
+The scheme unraveled when journalist Sucheta Dalal exposed the mechanics in a Times of India column on April 23, 1992, revealing that a hole had opened in the banking system's books that banks themselves hadn't detected. The market crashed as the fraud came to light, the Central Bureau of Investigation opened a sprawling probe, and Mehta ultimately faced more than two dozen separate criminal cases along with hundreds of civil suits.
+
+Indian courts moved slowly against him. Of the criminal cases filed, Mehta was convicted in only four before his death, most significantly a case in which he was sentenced to five years' rigorous imprisonment for his role in diverting State Bank of India funds — a conviction he remained free on bail to appeal for years. In 2001, he was arrested again in a separate case involving allegedly manipulated shares and was denied bail this time; he died in custody of a heart attack on December 31, 2001, at age 47, with most of the charges against him still legally unresolved.
+
+The scam forced a rebuild of how Indian markets functioned: the Securities and Exchange Board of India was given real statutory enforcement power it hadn't had before, physical share certificates gave way to electronic depositories to close the kind of paper-trail gap Mehta exploited, and the National Stock Exchange's screen-based trading replaced the opaque floor-based system the old exchanges ran on. The case is a reminder that a fraud doesn't need to deceive the public to do enormous damage — it only needs to exploit the trust institutions place in each other's paperwork, and a market's integrity depends on back-office settlement controls as much as on any public disclosure investors actually see.`,
+    sourceUrl: 'https://en.wikipedia.org/wiki/Harshad_Mehta',
+  },
+  {
+    title: 'Konrad Kujau and the Hitler Diaries That Fooled a Continent\'s Historians',
+    slug: 'konrad-kujau-hitler-diaries-forgery',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Konrad Kujau ran a small shop dealing in Nazi memorabilia in Stuttgart, West Germany, when he began forging authentication documents for the items he sold. By 1980, that sideline had grown into something far larger: he told a journalist he had access to a set of Adolf Hitler's private diaries, and over the next several years he manufactured 60-odd volumes of them entirely by hand.
+
+Kujau's forgery technique was, on close inspection, unsophisticated — cheap notebooks bought in East Berlin, ink mixed with water to imitate age, a modern pen used to mimic old German gothic script, pages stained with tea for a weathered look, and even the wrong initials on the cover clasp. None of that stopped Stern magazine reporter Gerd Heidemann from buying the diaries from Kujau in installments for roughly 2.5 million deutsche marks, or Stern's editors from paying Heidemann roughly 9.3 million deutsche marks for them in turn. In April 1983, Stern announced to the world it possessed Hitler's secret diaries and had arranged to publish them, triggering syndication deals with major outlets internationally, including Rupert Murdoch's Sunday Times, whose consulting historian Hugh Trevor-Roper initially pronounced the diaries genuine.
+
+The fraud collapsed within weeks. West Germany's Federal Archives ran forensic tests on the paper and ink at Stern's own request and found synthetic fibers and chemical compounds that didn't exist until well after Hitler's death in 1945 — the diaries physically could not be as old as they claimed to be. Kujau and Heidemann were arrested, tried in Hamburg, and both convicted of fraud; on July 8, 1985, Kujau was sentenced to four and a half years in prison, with the court treating Stern's own lack of diligence as a mitigating factor in how it weighed his sentence. He was released after serving three years, having developed throat cancer, and later built a minor celebrity career selling openly acknowledged "genuine forgeries" in the style of famous painters before he died of stomach cancer in 2000.
+
+The Hitler Diaries scandal remains one of publishing's most instructive failures precisely because the people fooled were not naive marks — they were an international news organization and a respected historian, motivated by the scale of the scoop to skip the verification steps their own profession existed to enforce. A conman with a bottle of tea and a modern fountain pen was able to walk a fabricated version of history past editors and experts simply because no one wanted to be the one who said no to a story that big.`,
+    sourceUrl: 'https://en.wikipedia.org/wiki/Konrad_Kujau',
+  },
+  {
+    title: 'Gregor MacGregor: The Scottish Soldier Who Sold Investors a Country That Didn\'t Exist',
+    slug: 'gregor-macgregor-poyais-fictitious-country-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Gregor MacGregor was a Scottish soldier of fortune who, after a checkered military career fighting in South America's wars of independence, returned to London in 1821 with an audacious story: a Mosquito Coast king in Central America had granted him millions of acres of land and named him "Cazique," or prince, of a nation called Poyais. No such nation existed. MacGregor built one anyway — on paper, in the press, and eventually in the London and Paris bond markets.
+
+He commissioned a national flag, a coat of arms, military uniforms, and even printed currency for the "Bank of Poyais," and published a guidebook describing a thriving capital city, fertile farmland, and a functioning colonial government, all under a fabricated author's name. On the strength of that fiction, a London bank underwrote a £200,000 Poyaisian government bond issue in October 1822, land certificates sold briskly to eager buyers, and roughly 250 settlers — many of them Scots who had liquidated their savings and possessions — boarded two ships in 1822 and 1823 bound for a country that was, in reality, untouched jungle on the coast of present-day Honduras.
+
+What the settlers found when they arrived was nothing: no capital city, no government, no infrastructure of any kind. Malaria, yellow fever, dysentery, and starvation killed more than half of them within months; one survivor later described burying fellow settlers faster than shelters could be built. Fewer than 50 of the roughly 250 emigrants made it back to Britain. MacGregor, who had already sold Poyaisian bonds and land in Paris using much the same pitch, fled there in late 1823 as the scandal broke in London, and stood trial for fraud in France in 1826 alongside several associates. He was acquitted; only one associate was convicted. He later settled in Venezuela, where his earlier military service had made him a genuine hero of independence, and died there in 1845 at age 58, buried with full military honors.
+
+Poyais stands as one of history's purest examples of confidence built entirely on production values rather than substance — a flag, a currency, a guidebook, and a title were enough to move real money through real financial markets and send real people to their deaths, not because any document was forged, but because nobody thought to check whether the country behind them existed at all. It is a case that still gets cited as the founding template for selling fictitious securities: dress the story in enough institutional trappings, and investors will supply the credibility themselves.`,
+    sourceUrl: 'https://en.wikipedia.org/wiki/Gregor_MacGregor',
+  },
 ];
 
 // Practical "how it works / red flags / what to do" guides covering the
