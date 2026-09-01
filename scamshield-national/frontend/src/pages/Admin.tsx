@@ -18,6 +18,8 @@ import {
 import { ScamReport } from '../services/reports';
 import { COUNTRY_NAMES } from '../utils/countries';
 import { useApproveDraft, useDiscardDraft, useDraftArticles } from '../hooks/useDrafts';
+import { useApproveAlertCandidate, useDismissAlertCandidate, usePendingAlertCandidates } from '../hooks/useAlertCandidates';
+import { AlertCandidate } from '../types';
 import { useCreateGlobalStat, useDeleteGlobalStat, useGlobalSources } from '../hooks/useGlobalSources';
 import { Article } from '../types';
 
@@ -577,6 +579,85 @@ function ReportsQueue() {
   );
 }
 
+const PATTERN_TYPE_LABEL: Record<AlertCandidate['pattern_type'], string> = {
+  recurring_contact: 'Recurring scammer contact',
+  category_spike: 'Category spike',
+};
+
+function AlertCandidateCard({ candidate }: { candidate: AlertCandidate }) {
+  const approve = useApproveAlertCandidate();
+  const dismiss = useDismissAlertCandidate();
+
+  return (
+    <div className="rounded-lg border border-slate-200 p-4">
+      <div className="flex items-start justify-between gap-3">
+        <div>
+          <span className="text-xs font-semibold tracking-wide text-red-700 uppercase">
+            {PATTERN_TYPE_LABEL[candidate.pattern_type]}
+          </span>
+          <h3 className="mt-0.5 font-medium text-slate-900">{candidate.title}</h3>
+        </div>
+        <span className="shrink-0 text-xs text-slate-400">{new Date(candidate.created_at).toLocaleDateString()}</span>
+      </div>
+
+      <p className="mt-2 text-sm text-slate-600">{candidate.body}</p>
+      <p className="mt-2 text-xs text-slate-400">
+        Would go to: {candidate.is_nationwide ? 'all opted-in subscribers nationwide' : `${candidate.state ?? candidate.zip_code} subscribers`}
+      </p>
+
+      <div className="mt-3 flex gap-2">
+        <button
+          type="button"
+          onClick={() => approve.mutate(candidate.id)}
+          disabled={approve.isPending || dismiss.isPending}
+          className="px-3 py-1.5 rounded-md bg-red-700 text-white text-xs font-medium disabled:opacity-50"
+        >
+          {approve.isPending ? 'Sending…' : 'Approve & send now'}
+        </button>
+        <button
+          type="button"
+          onClick={() => dismiss.mutate(candidate.id)}
+          disabled={approve.isPending || dismiss.isPending}
+          className="px-3 py-1.5 rounded-md border border-slate-300 text-xs font-medium disabled:opacity-50"
+        >
+          Dismiss
+        </button>
+      </div>
+      {approve.isError && <p className="mt-2 text-xs text-red-700">Couldn't send this alert.</p>}
+      {approve.isSuccess && (
+        <p className="mt-2 text-xs text-green-700">
+          Sent — {approve.data.broadcast.smsSent} SMS, {approve.data.broadcast.emailsSent} emails.
+          {approve.data.broadcast.errors.length > 0 && ` (${approve.data.broadcast.errors.join('; ')})`}
+        </p>
+      )}
+    </div>
+  );
+}
+
+function AlertCandidatesQueue() {
+  const user = useAuthStore((s) => s.user);
+  const { data: candidates, isLoading, isError } = usePendingAlertCandidates(Boolean(user));
+
+  return (
+    <div className="rounded-lg border border-slate-200 p-5">
+      <h2 className="font-semibold text-slate-900">Early-warning alert candidates</h2>
+      <p className="text-sm text-slate-500 mt-1">
+        Detected from real patterns in public report intake (recurring scammer contacts, category spikes) by{' '}
+        <code className="text-xs bg-slate-100 px-1 py-0.5 rounded">npm run detect-alerts</code>. Approving one
+        immediately texts/emails matching subscribers — nothing sends automatically.
+      </p>
+      {isLoading && <p className="mt-3 text-sm text-slate-500">Loading…</p>}
+      {isError && <p className="mt-3 text-sm text-red-700">Couldn't load alert candidates — are you signed in as an admin?</p>}
+      <div className="mt-4 space-y-3">
+        {candidates?.map((candidate) => (
+          <AlertCandidateCard key={candidate.id} candidate={candidate} />
+        ))}
+        {candidates && candidates.length === 0 && <p className="text-sm text-slate-500">No alert candidates pending review.</p>}
+      </div>
+    </div>
+  );
+}
+
 function DraftCard({ draft }: { draft: Article }) {
   const [editing, setEditing] = useState(false);
   const [title, setTitle] = useState(draft.title);
@@ -843,6 +924,7 @@ export default function Admin() {
 
       <div className="space-y-6">
         <ReportsQueue />
+        <AlertCandidatesQueue />
         <DraftsQueue />
         <GlobalSourcesPanel />
         <ScamForm />

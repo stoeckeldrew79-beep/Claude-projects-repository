@@ -49,6 +49,21 @@ export interface Alert {
   sent_at: string;
 }
 
+export interface AlertCandidate {
+  id: string;
+  dedupe_tag: string;
+  title: string;
+  body: string;
+  alert_level: AlertLevel;
+  state: string | null;
+  zip_code: string | null;
+  is_nationwide: boolean;
+  pattern_type: 'recurring_contact' | 'category_spike';
+  status: 'pending' | 'approved' | 'dismissed';
+  created_at: string;
+  resolved_at: string | null;
+}
+
 export interface Article {
   id: string;
   title: string;

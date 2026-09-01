@@ -51,6 +51,16 @@ Implemented:
   (recurring scammer contact info, category spikes) and drafts articles with Claude — every
   draft lands unpublished in the admin review queue (`/admin`, or `GET /articles/drafts`);
   nothing is ever auto-published
+- Early-warning member alerts: `npm run detect-alerts` runs the same pattern detection as
+  AI-drafted articles (recurring scammer contact info, category spikes) and turns each into a
+  short SMS/email-length alert candidate — template-built from the verified counts/contacts
+  directly, no AI call. Every candidate lands in the admin review queue (`/admin`, or
+  `GET /alert-candidates`) with status `pending`; approving one (`POST
+  /alert-candidates/:id/approve`) creates a real row in `alerts` and fires the existing
+  SMS/email `broadcastAlert` fan-out to matching subscribers immediately, dismissing marks it
+  resolved with no send. Nothing ever reaches a real subscriber without a human approving it
+  first. Detection currently aggregates nationwide (`is_nationwide: true` on every candidate) —
+  state-scoped alerts would need `scam_reports` to reliably carry a state on submission first.
 - "Today's Scams" (`/todays-scams`): `npm run scan-daily-news` scans real, live US news
   coverage (via Google News' public RSS search — no API key required) for scam-related
   headlines and publishes them immediately — unlike the AI-drafted articles above, this feed
@@ -142,6 +152,20 @@ fresher feed, is harmless. Example crontab entry for a daily 6am run:
 
 Unlike `draft-articles`, this one is fully automatic — headlines it finds go live immediately,
 with no admin review step.
+
+## Scheduling early-warning alert detection
+
+`npm run detect-alerts` is also a one-shot script — schedule it the same way, ideally alongside
+(or right after) `draft-articles` since they share the same detection queries. Idempotent
+(tag-based dedupe, same as `draft-articles`), so running it more than once a day is harmless.
+Example crontab entry for a daily 6am run:
+
+```
+0 6 * * * cd /path/to/backend && npm run detect-alerts >> /var/log/scamshield-alert-candidates.log 2>&1
+```
+
+Like `draft-articles`, nothing here reaches a real subscriber automatically — every candidate
+sits in the admin review queue until approved.
 
 ## Public phone number
 

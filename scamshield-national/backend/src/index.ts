@@ -12,6 +12,7 @@ import articlesRoutes from './routes/articles';
 import scamReportsRoutes from './routes/scamReports';
 import globalSourcesRoutes from './routes/globalSources';
 import stateAgSourcesRoutes from './routes/stateAgSources';
+import alertCandidatesRoutes from './routes/alertCandidates';
 import statsRoutes from './routes/stats';
 import dailyNewsRoutes from './routes/dailyNews';
 import { publicApiLimiter } from './middleware/rateLimit';
@@ -48,6 +49,7 @@ v1.use('/articles', articlesRoutes);
 v1.use('/reports', scamReportsRoutes);
 v1.use('/global-sources', globalSourcesRoutes);
 v1.use('/state-ag-sources', stateAgSourcesRoutes);
+v1.use('/alert-candidates', alertCandidatesRoutes);
 v1.use('/stats', statsRoutes);
 v1.use('/daily-news', dailyNewsRoutes);
 
