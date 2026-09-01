@@ -13830,6 +13830,41 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Chartered Trading Standards Institute (CTSI)'],
     sourceUrl: 'https://www.tradingstandards.uk/news-policy-campaigns/news-room/2018/watch-out-for-new-timeshare-scams-warns-ctsi/',
   },
+  {
+    name: 'Illinois TRS "Back Tax Department" Phone Scam',
+    slug: 'illinois-trs-back-tax-department-phone-scam',
+    description:
+      'Scammers cold-call members and retirees of the Teachers\' Retirement System of the State of Illinois (TRS), posing as callers from a "TRS Back Tax Department" and claiming the recipient owes back taxes that must be resolved immediately. TRS confirms it has no such department and states flatly that it will never call members to collect taxes, making any such call automatically fraudulent. Members who receive one of these calls are advised to hang up immediately rather than provide any personal or financial information, and to verify any concern by calling TRS directly at its published member-services line.',
+    categorySlug: 'government-impersonation',
+    country: 'US',
+    state: 'IL',
+    alertLevel: 'medium',
+    sources: ["Teachers' Retirement System of the State of Illinois (TRS)"],
+    sourceUrl: 'https://www.trsil.org/phone-scam',
+  },
+  {
+    name: 'NJDPB Fake Pension Review Webinar Phishing Site',
+    slug: 'njdpb-fake-pension-review-webinar-phishing-site',
+    description:
+      'Threat actors email, text, or call New Jersey public employees and teachers with an unsolicited offer of a free "retirement benefits meeting" or pension-review consultation, referencing the target\'s employer and pension fund to appear legitimate. Clicking through leads to a fraudulent webpage mimicking the New Jersey Division of Pensions & Benefits (NJDPB) that walks the victim through scheduling a fake appointment, complete with a calendar invite and a Zoom meeting link the real NJDPB does not use, while harvesting the victim\'s name, phone number, and email. The New Jersey Cybersecurity and Communications Integration Cell has flagged tell-tale signs including sender domains built from generic terms like "pension" or "retirement" and outreach initiated by the scammer rather than the member; members should verify any retirement-review outreach directly with NJDPB using contact information from its official nj.gov page before scheduling anything.',
+    categorySlug: 'phishing',
+    country: 'US',
+    state: 'NJ',
+    alertLevel: 'medium',
+    sources: ['New Jersey Cybersecurity and Communications Integration Cell (NJCCIC)'],
+    sourceUrl: 'https://www.cyber.nj.gov/Home/Components/News/News/1412/214',
+  },
+  {
+    name: 'Medical Alert Device "Free" Telemarketing Scam',
+    slug: 'medical-alert-device-free-telemarketing-scam',
+    description:
+      'Robocalls and telemarketers pitch seniors a "free" medical alert device, sometimes falsely claiming a relative already purchased it, and falsely claiming endorsement by groups like the American Heart Association or American Diabetes Association, then, once the device ships, begin charging recurring monthly monitoring fees that are difficult to cancel regardless of whether the unit is ever activated. The FTC and the Florida Attorney General brought a 2021 enforcement action against a major offender for making at least a billion unsolicited robocalls with these false claims, resulting in more than $1.8 million in consumer refunds and a permanent telemarketing ban. A legitimate medical alert provider never claims someone else already bought a device for you and only bills after a device is genuinely activated; before agreeing to anything, hang up and independently look up the provider\'s actual terms and any claimed medical-association endorsement.',
+    categorySlug: 'healthcare-fraud',
+    country: 'US',
+    alertLevel: 'medium',
+    sources: ["Federal Trade Commission", "Florida Attorney General's Office"],
+    sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2021/12/ftc-issues-refunds-totaling-more-18-million-consumers-defrauded-lifewatch-incs-deceptive-medical',
+  },
 ];
 
 async function seedCategoriesAndScams() {
