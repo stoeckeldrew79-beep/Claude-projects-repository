@@ -1221,10 +1221,9 @@ He didn't serve much of it. Four days after his life sentence, in his cell at a 
     title: 'Roberto Calvi: "God\'s Banker" and the Body Under Blackfriars Bridge',
     slug: 'roberto-calvi-banco-ambrosiano-fraud',
     author: 'ScamShield Editorial',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Blackfriars_Bridge,_London..jpg?width=1200',
-    coverImageCredit: 'Photo: Jim (CC BY 2.0)',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Roberto_Calvi.jpg?width=1200',
+    coverImageCredit: 'Photo: Siete Días magazine, 1982 (Public Domain in Argentina)',
     coverImagePosition: 50,
-    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Roberto Calvi joined Banco Ambrosiano in 1947 and rose to become its chairman in 1975, taking the reins of what was then Italy's largest private bank — one whose biggest shareholder was the Vatican Bank, run at the time by American Archbishop Paul Marcinkus. Calvi had been mentored by fellow financier Michele Sindona, who introduced him to Marcinkus in 1971, and Calvi was also a member of the clandestine P2 Masonic lodge, a network that entangled Italian business, politics, and organized crime throughout the 1970s and 80s.
 
@@ -2710,6 +2709,10 @@ The PACL scheme illustrates how a Ponzi scheme's scale can outrun any single reg
     title: 'Stanley Goldblum and the Equity Funding Fraud That Invented Its Own Policyholders',
     slug: 'stanley-goldblum-equity-funding-insurance-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Downtown_Los_Angeles_at_Night.jpg?width=1200',
+    coverImageCredit: 'Photo: Camiloarenivar (CC BY-SA 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Stanley Goldblum co-founded Equity Funding Corporation of America in Los Angeles in 1960 with a genuinely novel pitch: a combined mutual-fund-and-life-insurance product that let customers borrow against fund shares to pay their premiums. The idea caught on, the stock became a Wall Street darling through the 1960s, and Goldblum rose to chairman and chief executive presiding over what looked like one of the fastest-growing financial companies in the country. Almost none of that growth was real.
 
@@ -2724,6 +2727,10 @@ Equity Funding remains one of the earliest and clearest examples of computer-ass
     title: 'Ernest Saunders and the Guinness Fraud That Rigged a £4 Billion Takeover',
     slug: 'ernest-saunders-guinness-share-trading-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Guinness_brewery,_front_view.jpg?width=1200',
+    coverImageCredit: 'Photo: Aloys5268 (CC BY-SA 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Ernest Saunders took over as chief executive of Guinness in 1981 and rebuilt the struggling brewer into one of Britain's most aggressive corporate acquirers. In early 1986, Guinness entered a bidding war against the Argyll Group for control of Distillers, the much larger Scottish whisky conglomerate behind Johnnie Walker and other major brands — a £4 billion takeover battle that would ultimately be decided less by the merits of Guinness's offer than by an illegal effort to make that offer look stronger than it was.
 
@@ -2738,6 +2745,10 @@ The Guinness case became one of the defining scandals of the deregulated "Big Ba
     title: "Garth Drabinsky and the Livent Fraud Behind Broadway's Biggest Hits",
     slug: 'garth-drabinsky-livent-accounting-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Ed_Mirvish_Theatre_September_2012.jpg?width=1200',
+    coverImageCredit: 'Photo: Tony Hisgett (CC BY 2.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Garth Drabinsky co-founded Livent Inc. in 1989 with longtime business partner Myron Gottlieb, building it into the first publicly traded company built entirely around live theater. From its base at Toronto's restored Pantages Theatre, Livent went on to produce or revive some of the era's biggest musicals — including "The Phantom of the Opera," "Kiss of the Spider Woman," "Show Boat," and "Ragtime" — winning 20 Tony Awards along the way. The company listed on the Toronto Stock Exchange in 1993 and added a NASDAQ listing in 1995, giving Drabinsky access to the public capital he needed to keep building and buying theaters in Chicago, Vancouver, and New York.
 
