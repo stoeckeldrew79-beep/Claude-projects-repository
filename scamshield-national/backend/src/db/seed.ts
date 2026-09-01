@@ -4047,6 +4047,34 @@ Real mystery shopping is a legitimate, if minor, line of work, which is exactly 
 
 No legitimate job requires depositing a check and immediately spending part of it on the employer's instructions — that pattern is the same fake-check mechanism scammers use across many other pretexts, just wrapped in a "job." If a mystery-shopping offer arrives unsolicited, or any job asks for gift card purchases, wire transfers, or upfront fees, don't deposit the check or spend a cent; verify the company's legitimacy independently through the Mystery Shopping Professionals Association, and report the attempt to the FTC at ReportFraud.ftc.gov.`,
   },
+  {
+    title: 'Notario Fraud: How Fake Immigration "Help" Puts Real Cases at Risk',
+    slug: 'notario-fraud-immigration-services-scam-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'notario-fraud-immigration-scam'],
+    sourceUrl: 'https://consumer.ftc.gov/articles/how-avoid-immigration-scams-and-get-real-help',
+    body: `In much of Latin America, a "notario público" is a highly trained attorney with the authority to certify legal documents. In the United States, a notary public is a much more limited role — someone authorized only to witness signatures — with no legal training or authority to give immigration advice at all. Scammers exploit that translation gap directly, advertising as "notarios," immigration consultants, or paralegals to Spanish-speaking and other immigrant communities, then charging thousands of dollars for legal help they are not licensed to give.
+
+The scam works because it targets people navigating a genuinely confusing, high-stakes system where a wrong form or missed deadline can mean losing years of progress toward a green card or citizenship. A fake notario collects a large upfront fee, often for immigration forms that U.S. Citizenship and Immigration Services actually provides for free, and may pressure a client to sign documents that are blank or contain false information. Some hold on to a client's original passport, birth certificate, or prior immigration paperwork, using the documents themselves as leverage to keep the client from walking away or reporting the fraud.
+
+The damage goes well beyond the money paid. Bad advice or a mishandled filing from an unauthorized "helper" can result in a case being denied, a client being placed in removal proceedings, or a client unknowingly making a false statement to the government — consequences that are often difficult or impossible to undo, even after hiring a real attorney to fix it. Because many victims fear that reporting the fraud could jeopardize their immigration status, these scams frequently go unreported, which lets the same operators keep working the same community for years.
+
+The clearest red flag is the credential itself: no notary public, immigration consultant, or "notario" is legally authorized to represent anyone in an immigration case or give legal advice, no matter what a sign or business card claims. Only a licensed attorney or a representative accredited by the Department of Justice can do that. Before paying anyone for immigration help, verify their credentials through the DOJ's list of accredited representatives and recognized organizations, never sign a form that is blank or that you haven't fully read, and never hand over original documents — a legitimate preparer only needs copies. Anyone who has already paid an unauthorized notario should contact a legitimate immigration attorney or accredited representative as soon as possible, and can report the fraud to the FTC at ReportFraud.ftc.gov (or ReporteFraude.ftc.gov in Spanish) without it affecting their own immigration case.`,
+  },
+  {
+    title: 'Brushing Scams: Why a Package You Never Ordered Just Showed Up',
+    slug: 'brushing-scam-unsolicited-package-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'brushing-scam'],
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2026/08/unexpected-package-you-got-could-be-brushing-scam',
+    body: `A package shows up with your name and address on it, even though you never placed the order — often something small and cheap, like baby wipes, phone accessories, toothbrushes, or a packet of seeds. It isn't a mistake and it isn't a gift. It's "brushing": a seller, usually operating on a large online marketplace, has shipped an item to a real address specifically so the delivery shows up as a completed, verified purchase, which they then use to post a glowing five-star review under an account tied to that name — inflating their ratings with reviews that look like they came from real, verified buyers.
+
+To pull it off, the seller needs a real name, address, and enough personal information to create the fake order in the first place, which almost always means your information was already exposed somewhere — through a data breach, a marketing list, or an old account with lax privacy settings — and is now circulating among sellers running this scheme. That's what makes an unexpected package worth taking seriously even though the item itself is worthless: it's less a delivery than a notification that your identifying information is out there and actively being used.
+
+Some brushing packages take the scam a step further by including a note or card with a QR code, framed as a way to "find out who sent this" or to "process a return or refund." Scanning it leads not to an explanation but to a phishing site built to harvest credit card numbers, login credentials, or other personal data, or to trigger a malware download — turning a curiosity about a mystery package into a second, more direct attack.
+
+If a package like this arrives, don't scan any QR code included with it. Federal law is on the recipient's side here: under the FTC's rules on unordered merchandise, you are never obligated to return or pay for something you didn't order, and you're free to keep, donate, or discard it. What does need attention is the account exposure the package points to — change the passwords on major online shopping accounts, particularly if the package appears to be from a marketplace like Amazon (and report it to that marketplace directly), and check your credit report at AnnualCreditReport.com for any unfamiliar activity. Brushing scams themselves can also be reported to the FTC at ReportFraud.ftc.gov.`,
+  },
 ];
 
 async function seedArticles(articles: SeedArticle[], label: string) {
