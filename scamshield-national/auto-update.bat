@@ -41,4 +41,9 @@ if errorlevel 1 (
   exit /b 1
 )
 
+call npm run scan-daily-news >> ..\auto-update-log.txt 2>&1
+if errorlevel 1 (
+  echo [%date% %time%] scan-daily-news failed - non-fatal, continuing >> ..\auto-update-log.txt
+)
+
 echo [%date% %time%] Auto-update completed successfully >> ..\auto-update-log.txt

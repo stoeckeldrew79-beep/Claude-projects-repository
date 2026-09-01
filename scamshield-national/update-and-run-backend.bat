@@ -61,6 +61,16 @@ if errorlevel 1 (
 
 echo.
 echo ============================================
+echo  Refreshing the "Today's Scams" live news feed...
+echo ============================================
+call npm run scan-daily-news
+if errorlevel 1 (
+  echo.
+  echo News scan failed - not fatal, continuing anyway.
+)
+
+echo.
+echo ============================================
 echo  Starting the backend server...
 echo  (leave this window open - don't click into it)
 echo ============================================
