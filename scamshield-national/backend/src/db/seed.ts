@@ -13769,6 +13769,39 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['New York State Office of the State Comptroller (NYSLRS)'],
     sourceUrl: 'https://www.osc.ny.gov/retirement/scam-alert',
   },
+  {
+    name: 'UK Charity Appeal Scam (Fake Charities and Cloned Appeal Websites)',
+    slug: 'uk-charity-appeal-scam',
+    description:
+      'Fraudsters exploit public generosity, especially during emergency appeals and year-end giving, using fake appeal websites, emails that falsely use a genuine charity\'s name and branding, or entirely invented "charities" with no real registration. The Fundraising Regulator, Charity Commission for England and Wales, and Action Fraud jointly reported £2.7 million diverted from donors via 501 charity fraud reports in a single year. It\'s confirmed as fraud when the organisation cannot be found on the official Charity Register or a face-to-face collector has no local-authority or Metropolitan Police collection licence; check the charity\'s name and registration number at gov.uk/checkcharity before donating, and never respond to pressure to give immediately.',
+    categorySlug: 'charity-scams',
+    country: 'GB',
+    alertLevel: 'medium',
+    sources: ['Fundraising Regulator', 'Charity Commission for England and Wales', 'Report Fraud UK (Action Fraud)'],
+    sourceUrl: 'https://www.fundraisingregulator.org.uk/news/regulators-urge-public-take-care-when-donating-charity-after-ps27m-lost',
+  },
+  {
+    name: 'UK Invoice and Mandate Fraud (Supplier Bank-Detail Switch)',
+    slug: 'uk-invoice-mandate-fraud',
+    description:
+      'Criminals impersonate a business\'s known supplier, solicitor, builder, or tradesperson, often after intercepting or spoofing that party\'s real email account, and send an invoice or message claiming their bank account details have changed, redirecting a legitimate payment into an account the fraudster controls. Small and medium-sized UK businesses are the primary target because they typically lack dedicated fraud teams and multi-layer payment approval. Always confirm any change of bank details by phone using a number sourced independently of the email itself, and send a small test payment before paying a new account in full.',
+    categorySlug: 'business-email-compromise',
+    country: 'GB',
+    alertLevel: 'high',
+    sources: ['Take Five to Stop Fraud (UK Finance / Home Office)'],
+    sourceUrl: 'https://www.takefive-stopfraud.org.uk/protect-your-business/invoice-and-mandate/',
+  },
+  {
+    name: 'UK Timeshare Exit and Claims-Back Scam',
+    slug: 'uk-timeshare-exit-claims-back-scam',
+    description:
+      'Unregulated "timeshare exit" or "claims-back" companies, many operating out of Spain, cold-call existing UK timeshare owners, often people who bought in the 1980s-90s, promising to legally cancel their contract or recover a refund for a mis-sold membership. Victims are charged large upfront fees, commonly around £7,000, described as legal or court costs, which in practice sometimes fund a discount holiday-club membership instead, with no genuine exit or refund ever delivered. A related pressure-sale variant targets holidaymakers at resort "presentations," pushing costly new timeshare or holiday-club membership on the spot; check any firm claiming to be solicitors against the Law Society register, and contact the original timeshare company directly about exit options before paying any third party.',
+    categorySlug: 'timeshare-scams',
+    country: 'GB',
+    alertLevel: 'high',
+    sources: ['Chartered Trading Standards Institute (CTSI)'],
+    sourceUrl: 'https://www.tradingstandards.uk/news-policy-campaigns/news-room/2018/watch-out-for-new-timeshare-scams-warns-ctsi/',
+  },
 ];
 
 async function seedCategoriesAndScams() {
