@@ -4318,6 +4318,34 @@ The reliable rule, stated directly by the FTC: no legitimate lender ever guarant
 
 Before applying anywhere unfamiliar, check whether the lender is registered to do business in your state through your state attorney general's office or state financial regulator, and search the company's name together with words like "scam" or "complaint." Anyone who has already paid an advance fee like this should contact their bank or card issuer immediately to ask about reversing the payment — unlikely to succeed with cash-equivalent methods like gift cards or wire transfers, but still worth attempting quickly — and report it to the FTC at ReportFraud.ftc.gov.`,
   },
+  {
+    title: 'Government Grant Scams: Why "Free Government Money" Always Comes With a Catch',
+    slug: 'government-grant-scam-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'government-grant-scam'],
+    sourceUrl: 'https://consumer.ftc.gov/articles/government-grant-scams',
+    body: `A call, text, email, or social media message announces that you've been selected for, or already qualify for, a government grant — money to cover bills, home repairs, education costs, or debt, with no strings attached. The person on the other end may claim to work for an invented-sounding office like a "Federal Grants Administration," or may impersonate a real agency, sometimes going as far as spoofing its phone number or copying its logo onto a fake website. To "process" the grant, they ask for a Social Security number and bank account information, supposedly to confirm eligibility and deposit the funds — and then, before any money supposedly arrives, they ask for a fee, described as taxes, insurance, delivery, or processing, paid by gift card, wire transfer, a cash reload card, or cryptocurrency.
+
+The pitch works because it doesn't feel like a purchase or a loan application — it's framed as money the government already owes you, so handing over a Social Security number to "verify eligibility" or paying a small fee to "release" a much larger sum can feel like a formality rather than a risk. Real federal grant programs do exist, which gives the scam a kernel of plausibility, but almost none of them are for personal expenses like paying off a credit card or fixing a roof — federal grants are overwhelmingly awarded to state and local governments, universities, researchers, and nonprofits, not handed out to individuals over the phone.
+
+The clearest red flag is the contact itself: a government agency that actually owes you money doesn't cold-call, text, or message you on social media to tell you about it. A second, equally reliable sign is any request for payment before funds are released — the FTC is direct on this point, stating that the government will never ask you to pay to get a grant you're entitled to. A request for a Social Security number or bank account number from someone who reached out to you, rather than the other way around, is a third warning sign on its own, since that information is worth far more to a scammer than any grant amount they're dangling.
+
+Anyone contacted about a surprise government grant should not share personal or financial information, and should independently verify any legitimate federal grant opportunity directly through Grants.gov rather than through a link or phone number the caller provided. If a payment has already been sent, contact the gift card issuer, wire service, or crypto platform used as quickly as possible to report the transaction as fraudulent and ask about reversing it, then report the scam to the FTC at ReportFraud.ftc.gov.`,
+  },
+  {
+    title: 'Scholarship and Financial Aid Scams: When "Guaranteed" Funding Costs You Money Instead',
+    slug: 'scholarship-financial-aid-scam-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'scholarship-scam'],
+    sourceUrl: 'https://consumer.ftc.gov/articles/how-avoid-scholarship-and-financial-aid-scams',
+    body: `A high school senior or their parent gets a letter, email, or social media message announcing they've been "selected" as a finalist for an exclusive scholarship, or an invitation to a free seminar — often at a hotel conference room — about financial aid opportunities most families supposedly don't know about. The pitch culminates in an offer to handle the entire scholarship or financial aid search for a fee, sometimes billed as a "processing" or "application" charge, sometimes as a subscription to a scholarship-matching service. In a more invasive version, the "helper" asks for the student's FSA ID and FAFSA password so they can "submit the paperwork," gaining direct access to federal student aid accounts and the personal and financial information tied to them.
+
+The scam works because it targets families already anxious about the cost of college and already confused by a financial aid process that is genuinely complicated — an outside "expert" offering to do all the work feels less like a purchase and more like relief. Being told a student was individually "selected" adds a layer of flattery that makes the offer feel earned rather than mass-marketed, and a high-pressure seminar setting, with an offer that supposedly expires that same day, is designed to get a signature and a credit card number before anyone has time to check the company out.
+
+The FTC has documented the specific phrases these pitches lean on: "the scholarship is guaranteed or your money back," "you can't get this information anywhere else," and "we'll do all the work, you just pay a processing fee." Any of those, on their own, is a reliable warning sign, because no legitimate scholarship or financial aid service can guarantee a specific award, and none of the free federal aid process requires paying a private company to access it. A request for a student's FSA ID or FAFSA password is a separate and equally serious red flag — that login gives direct access to federal student aid records and should never be shared with anyone outside the student and their family.
+
+The FAFSA itself is always free and should only be completed directly at StudentAid.gov, never through a third-party site that charges a fee for the same form. For scholarship searches, free tools exist, including CareerOneStop.org, sponsored by the U.S. Department of Labor, along with a school's own guidance counselor or financial aid office, which can point to legitimate, verified opportunities at no cost. Before paying any company for scholarship or financial aid help, search its name alongside words like "scam" or "complaint," and check with other local families about their experience. Anyone who has already paid such a fee, or shared FAFSA login credentials, should change the FAFSA password immediately, watch for unauthorized changes to financial aid applications, and report the scam to the FTC at ReportFraud.ftc.gov.`,
+  },
 ];
 
 async function seedArticles(articles: SeedArticle[], label: string) {
