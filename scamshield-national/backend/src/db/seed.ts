@@ -2552,9 +2552,8 @@ Belfort pleaded guilty in 1999 to securities fraud and money laundering and was 
 
 Stratton Oakmont later became widely known through Belfort's own memoir and its 2013 film adaptation, which dramatized the firm's culture of excess without dwelling much on the mechanics of the underlying fraud — a reminder that a boiler room's real damage isn't the party at the center of it, but the ordinary investors on the other end of the phone who were sold stock in companies whose prices were never allowed to move on their own.`,
     sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-16788',
-    // representative photo — replace with a portrait if found
-    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Lake_Success_Village_Welcome_Sign,_Westminster_Road,_Great_Neck,_Long_Island,_New_York.jpg?width=1200",
-    coverImageCredit: 'Photo: LINYperson615 (CC BY-SA 4.0)',
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/JordanBelfort2017.png?width=1200",
+    coverImageCredit: 'Photo: Tai Lopez (CC BY 3.0)',
     coverImagePosition: 50,
   },
   {
@@ -2676,6 +2675,8 @@ The company's actual Louisiana trading revenue never came close to justifying th
 
 The Mississippi Bubble left France with a decades-long aversion to paper money and central banking that arguably weakened the state's finances all the way up to the Revolution nearly 70 years later — a reminder that a fraud built on genuinely novel financial engineering can still do lasting damage even when its architect believed his own theory. Law's scheme also ran almost exactly in parallel with Britain's South Sea Bubble the same year, and together the two collapses gave 18th-century Europe its first hard lesson in what happens when a national economy is asked to keep a speculative bubble inflated: eventually, someone has to try to cash out, and the entire structure was never built to survive that.`,
     sourceUrl: 'https://www.britannica.com/money/Mississippi-Bubble',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/John_Law.jpg?width=1200',
+    coverImagePosition: 50,
   },
   {
     title: 'The Olympus Scandal: Two Decades of Hidden Losses Behind a Trusted Japanese Brand',
@@ -2690,6 +2691,9 @@ The scheme unraveled only because Olympus, under pressure to modernize, hired it
 
 The Olympus case became a landmark study in corporate governance failure precisely because the fraud survived so many opportunities to be caught — outside auditors, a rotating cast of executives, and Japan's own regulators all missed or overlooked it for years. What finally broke it wasn't a whistleblower hotline or a routine audit; it was one newly hired outsider willing to ask an obvious question and, when punished for it, refuse to let the answer stay buried. It's a pattern that recurs across long-running frauds everywhere: the failure isn't usually a lack of evidence, it's an institutional culture where everyone with access to the evidence has more to lose by raising it than by staying quiet.`,
     sourceUrl: 'https://www.cnbc.com/2013/07/03/olympus-bosses-avoid-jail-time-for-17-billion-fraud.html',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/TokyoStockExchange1144.jpg?width=1200',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
   },
   {
     title: 'Nirmal Singh Bhangoo: The Milkman Who Built a $6.7 Billion Ponzi Scheme Selling Land That Didn\'t Exist',
@@ -2704,6 +2708,10 @@ India's markets regulator, SEBI, ruled in 2014 that PACL had been running an ill
 
 The PACL scheme illustrates how a Ponzi scheme's scale can outrun any single regulator's ability to unwind it: even with a securities regulator's order, a Supreme Court-appointed committee, and a dedicated federal investigation, refunding tens of millions of small investors from seized assets has taken years longer than the fraud itself did to build. It's also a reminder that the most durable frauds don't always chase the wealthy — PACL's agents targeted the same modest, land-hungry households, repeatedly, for over two decades, because a small monthly installment and the dream of owning land was a far easier sell, and a far harder loss to notice early, than any single large investment would have been.`,
     sourceUrl: 'https://qz.com/india/590563/yet-another-massive-ponzi-scheme-goes-pop-in-india',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Sahnewal,_Ludhiana,_Punjab,_India.jpg?width=1200',
+    coverImageCredit: 'Photo: Manojkhurana (CC BY-SA 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
   },
   {
     title: 'Stanley Goldblum and the Equity Funding Fraud That Invented Its Own Policyholders',
@@ -2763,6 +2771,10 @@ An Ontario court convicted both men in March 2009; Drabinsky was sentenced to se
     title: 'Ketan Parekh and the Cooperative Bank He Bled Dry to Rig India\'s Stock Market',
     slug: 'ketan-parekh-k10-stock-market-scam',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/BSE_-_Bombay_Stock_Exchange_Building.jpg?width=1200',
+    coverImageCredit: 'Photo: Niyantha Shekhar (CC BY 2.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer'],
     body: `Ketan Parekh was a Mumbai stockbroker who, from late 1998 through early 2001, ran one of the most damaging price-rigging schemes in Indian stock market history. He built his operation around a small basket of thinly traded, small-capitalization technology and media stocks — informally nicknamed the "K-10" — chosen precisely because their limited public float made them easy to move with concentrated buying. Zee Telefilms ran from around ₹127 to roughly ₹10,000 a share on his buying; Visualsoft climbed from about ₹625 to ₹8,448; Sonata Software went from ₹90 to nearly ₹2,937. None of that reflected the companies' actual earnings — it reflected Parekh's own money, and other people's, chasing the stocks he had already decided to inflate.
 
@@ -2779,6 +2791,10 @@ More than two decades after triggering a bank collapse and a national market cra
     title: 'Abdul Karim Telgi and the Fake Stamp Papers That Fooled India\'s Banks',
     slug: 'abdul-karim-telgi-stamp-paper-scam',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Modern_Nashik.jpg?width=1200',
+    coverImageCredit: 'Photo: Mrunal12 (CC BY-SA 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Abdul Karim Telgi grew up poor in Khanapur, Karnataka, reportedly selling fruit and vegetables on trains as a boy before working as a laborer in the Gulf and later returning to India to open a small printing and stamp-vending business. That business became the front for one of the largest document-forgery operations in Indian history: over roughly a decade, Telgi built a nationwide counterfeiting ring that produced and sold fake judicial and non-judicial stamp paper, court fee stamps, revenue stamps, and share-transfer stamps — the everyday government-issued paper that Indian banks, insurers, and courts relied on to authenticate legal and financial transactions.
 
@@ -2795,6 +2811,10 @@ The stamp paper scam is a case study in how a fraud can hide in plain sight by a
     title: 'Dean Buntrock and the $1.7 Billion Fiction Behind Waste Management\'s Earnings',
     slug: 'dean-buntrock-waste-management-accounting-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/US_Garbage_Truck.jpg?width=1200',
+    coverImageCredit: 'Photo: Coolcaesar (CC BY-SA 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Dean Buntrock built Waste Management, Inc. out of his family's small Chicago-area garbage-hauling business, consolidating it with dozens of other regional haulers into a publicly traded company by 1971 and running it as chairman and CEO through the 1970s and 1980s into one of the largest waste-services companies in the world. For years, Wall Street prized the company for something unusual in a low-margin industry: smooth, dependable, ever-rising quarterly earnings. According to the Securities and Exchange Commission, that consistency was, for at least five straight years, manufactured rather than earned.
 
