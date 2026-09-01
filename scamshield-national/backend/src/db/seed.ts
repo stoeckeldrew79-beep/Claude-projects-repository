@@ -13316,6 +13316,39 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Better Business Bureau (BBB)'],
     sourceUrl: 'https://www.bbb.org/article/investigations/32212-bbb-investigation-consumers-confused-and-upset-amid-hundreds-of-unlicensed-and-unverified-online-casinos-and-sportsbooks',
   },
+  {
+    name: 'Canadian Real Estate Title Fraud',
+    slug: 'canadian-real-estate-title-fraud',
+    description:
+      'A fraudster uses a homeowner\'s stolen personal information and forged identification to impersonate them, then sells the property outright or registers a new mortgage against it without the real owner\'s knowledge — typically targeting mortgage-free homes or properties with significant equity. Victims often first learn of the fraud from unexpected mail, a call from a lender, or a drop in their credit standing. The Financial Consumer Agency of Canada recommends periodically running a land title search through a provincial or territorial land registry office, which shows the registered owner and any mortgages or liens on file.',
+    categorySlug: 'mortgage-foreclosure-scams',
+    country: 'CA',
+    alertLevel: 'high',
+    sources: ['Financial Consumer Agency of Canada'],
+    sourceUrl: 'https://www.canada.ca/en/financial-consumer-agency/services/real-estate-fraud.html',
+  },
+  {
+    name: 'Canadian Timeshare Resale Scam',
+    slug: 'canadian-timeshare-resale-scam',
+    description:
+      'A caller or emailer contacts a Canadian timeshare owner, often one who has listed the property for sale, claiming to have a buyer ready to purchase it quickly at a high profit. Before the sale can close, the owner is asked to wire upfront "fees" described as maintenance charges, escrow costs, or taxes, typically to a bank account outside Canada, and the promised sale never materializes. The Canadian Anti-Fraud Centre warns that a legitimate resale agency only collects a commission after a timeshare actually sells, and advises against paying any fee upfront to an unsolicited buyer.',
+    categorySlug: 'timeshare-scams',
+    country: 'CA',
+    alertLevel: 'medium',
+    sources: ['Canadian Anti-Fraud Centre'],
+    sourceUrl: 'https://antifraudcentre-centreantifraude.ca/scams-fraudes/timeshare-multiproprietes-eng.htm',
+  },
+  {
+    name: 'Canadian Staged Collision ("Swoop and Squat") Insurance Scam',
+    slug: 'canadian-staged-collision-swoop-and-squat-scam',
+    description:
+      'An accomplice vehicle cuts in front of an unsuspecting driver and slams on the brakes while a second car blocks the driver from swerving away, forcing a rear-end collision that fraudsters then blame entirely on the innocent driver. The scheme sometimes involves additional "jump-in" passengers falsely claiming to have been in the vehicle, all filing inflated insurance claims for vehicle damage, towing, medical treatment, and lost income. Équité Association, Canada\'s insurance crime prevention organization, and the Insurance Bureau of Canada warn drivers to keep a safe following distance and thoroughly document any collision with photos and witness details rather than settling informally on the spot.',
+    categorySlug: 'insurance-fraud',
+    country: 'CA',
+    alertLevel: 'medium',
+    sources: ['Équité Association', 'Insurance Bureau of Canada'],
+    sourceUrl: 'https://www.equiteassociation.com/resources/crash-for-cash-types-of-staged-collisions',
+  },
 ];
 
 async function seedCategoriesAndScams() {
