@@ -14103,6 +14103,63 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Inland Revenue (IRD), New Zealand'],
     sourceUrl: 'https://www.ird.govt.nz/managing-my-tax/scams/latest-scams',
   },
+  {
+    name: 'TRS Georgia Account-Compromise Phishing',
+    slug: 'trs-georgia-account-compromise-phishing',
+    description:
+      'Fraudulent emails, texts, and unauthorized "TRS presentations" impersonate the Teachers Retirement System of Georgia, which manages pension accounts for the state\'s roughly 390,000 educators, falsely claiming a member\'s account has been compromised and urging them to click a link to change their login credentials. Some scammers also stage unauthorized retirement-benefit seminars using TRS\'s copyrighted materials without permission to appear affiliated with the agency. TRS Georgia states it will never send an email asking members to change login credentials, and advises verifying any contact only through its own website, online account, or call center.',
+    categorySlug: 'phishing',
+    country: 'US',
+    state: 'GA',
+    alertLevel: 'medium',
+    sources: ['Teachers Retirement System of Georgia'],
+    sourceUrl: 'https://www.trsga.com/fraud-prevention/',
+  },
+  {
+    name: 'Fake DFPI "Financial Protection Plan" Fee Scam',
+    slug: 'fake-dfpi-financial-protection-plan-fee-scam',
+    description:
+      'Scammers mail consumers counterfeit letters bearing a forged version of the California Department of Financial Protection and Innovation\'s letterhead and logo, offering a bogus "Financial Protection Plan" and demanding a "Financial Protection Plan Fee" and a separate "Change of Name" fee paid through digital payment apps. Telltale signs include a fictitious "Chief Information Officer" signatory, grammatical errors, and the omission of "California" from the department\'s actual name. DFPI confirms it never solicits payment from consumers for these services and never collects fees via payment apps, and recommends verifying any such communication by calling DFPI\'s official number directly rather than any number listed in the letter.',
+    categorySlug: 'government-impersonation',
+    country: 'US',
+    state: 'CA',
+    alertLevel: 'medium',
+    sources: ['California Department of Financial Protection and Innovation (DFPI)'],
+    sourceUrl: 'https://dfpi.ca.gov/alert/fee-scam-involving-unauthorized-use-of-dfpi-logo',
+  },
+  {
+    name: 'Credit Piggybacking / Authorized-User Tradeline Scam',
+    slug: 'credit-piggybacking-authorized-user-tradeline-scam',
+    description:
+      'A credit repair company charges consumers anywhere from a few hundred to several thousand dollars to be added as an "authorized user" on a stranger\'s credit card account, marketed as buying "tradelines," promising a guaranteed score jump of 100+ points within weeks. The consumer gains no real access to the account or credit line, and the FTC has never found this practice legal; in one enforcement case the company also instructed its network of cardholders to conceal the arrangement from their own card issuers. The Credit Repair Organizations Act bars charging any fee before results are delivered, so demanding payment upfront for tradelines is itself a separate federal violation; consumers should treat any credit repair pitch promising a specific, guaranteed score increase as a red flag.',
+    categorySlug: 'debt-relief-scams',
+    country: 'US',
+    alertLevel: 'high',
+    sources: ['Federal Trade Commission (FTC)'],
+    sourceUrl: 'https://www.ftc.gov/business-guidance/blog/2020/03/croa-case-shows-why-piggybacking-isnt-answer-consumers-shouldering-bad-credit',
+  },
+  {
+    name: 'Illegal Credit Repair Scheme Impersonating Debt Collectors and Filing False Identity-Theft Reports',
+    slug: 'illegal-credit-repair-scheme-debt-collector-impersonation',
+    description:
+      'A credit repair operation advertises via search ads, in one FTC case specifically targeting military servicemembers with debts to lenders like USAA and the Army & Air Force Exchange Service, and its telemarketers falsely pose as the consumer\'s actual creditor or debt collector to build trust before pitching "credit repair." After collecting an illegal upfront fee, often disguised as a small "identity verification" charge followed by hundreds more, and enrolling consumers in recurring negative-option billing, the company disputes accurate debts by submitting fabricated reports to IdentityTheft.gov even when no identity theft occurred, trying to force credit bureaus to delete legitimately owed debt. The FTC halted one such network in 2026, alleging nearly $200 million in illegal charges; consumers should never pay a credit repair company before services are rendered and should verify any "debt collector" call directly with their actual lender.',
+    categorySlug: 'debt-relief-scams',
+    country: 'US',
+    alertLevel: 'high',
+    sources: ['Federal Trade Commission (FTC)'],
+    sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2026/08/ftc-stops-sprawling-credit-repair-scheme-scammed-consumers-out-nearly-200-million',
+  },
+  {
+    name: 'Spoofed Car Dealership Website Scam',
+    slug: 'spoofed-car-dealership-website-scam',
+    description:
+      'Scammers clone a real, established auto dealership\'s website, copying its logo, inventory photos, and even fabricated customer reviews, sometimes using AI tools to speed the process, and list a rare or hard-to-find vehicle at an attractive price with a detailed purchase process and appealing return policy to build false confidence. Buyers who wire a deposit or full payment and then travel to the actual dealership to pick up their vehicle discover the dealership has no record of their order or payment, and the vehicle never existed. Because the spoofed site can be a near-exact copy of the legitimate dealer\'s real site, the FTC recommends searching the dealer\'s name alongside words like "scam" or "complaint," insisting on an in-person visit or a third-party mobile inspection before paying, and never wiring money for a vehicle sight-unseen.',
+    categorySlug: 'online-shopping-scams',
+    country: 'US',
+    alertLevel: 'high',
+    sources: ['Federal Trade Commission (FTC)'],
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2026/09/scammers-are-spoofing-car-dealership-websites-what-you-need-know',
+  },
 ];
 
 async function seedCategoriesAndScams() {
