@@ -13587,6 +13587,39 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Better Business Bureau (BBB)'],
     sourceUrl: 'https://www.bbb.org/article/scams/18240-scam-alert-adopting-a-rescue-dog-watch-out-for-phony-fees',
   },
+  {
+    name: 'Singapore Timeshare/Investment Recovery Scam',
+    slug: 'singapore-timeshare-investment-recovery-scam',
+    description:
+      'Individuals who already lost money in a timeshare membership or failed investment are approached by a bogus "recovery agent" or shell company claiming it can retrieve the lost funds, but only after an upfront "processing fee," "tax," or "release fee" is paid. To appear credible, scammers have shown victims forged bank drafts, created with a phone photo-editing app, purportedly proving the payout is imminent, then cut contact once the fee is transferred. Singapore courts convicted six men of cheating 43 victims of more than S$3.5 million in one such scheme; the Singapore Police Force stresses that no legitimate recovery service ever demands payment before returning funds.',
+    categorySlug: 'timeshare-scams',
+    country: 'SG',
+    alertLevel: 'high',
+    sources: ['Singapore Police Force'],
+    sourceUrl: 'https://www.police.gov.sg/media-hub/news/2023/20230714_six_men_convicted_for_cheating_43_people_in_timeshare_and_investment_recovery_fraud',
+  },
+  {
+    name: 'Singapore Fake HealthHub/Healthier SG Malware Scam',
+    slug: 'singapore-fake-healthhub-healthier-sg-malware-scam',
+    description:
+      'A text message impersonating Healthier SG, the Ministry of Health\'s national preventive-care programme, offers a fully subsidised health consultation and links to a WhatsApp chat instructing the recipient to install an APK file posing as the official HealthHub appointment app. Granting the app\'s requested accessibility permissions lets scammers remotely control the device, steal stored passwords, and make unauthorised bank withdrawals. The Singapore Police Force notes that genuine Healthier SG messages always display the sender ID "MOH," never a mobile number, and advises installing apps only from the Google Play Store.',
+    categorySlug: 'healthcare-fraud',
+    country: 'SG',
+    alertLevel: 'critical',
+    sources: ['Singapore Police Force'],
+    sourceUrl: 'https://www.police.gov.sg/media-hub/news/2023/20230905_police_advisory_on_a_new_scam_variant_involving_sms_to-_fake_healthhub_application',
+  },
+  {
+    name: 'Singapore Insurance Service Scam',
+    slug: 'singapore-insurance-service-scam',
+    description:
+      'An unsolicited call or WhatsApp message about an existing or unfamiliar insurance policy claims it urgently needs payment, renewal, cancellation, or "verification," pressuring the recipient to transfer money or hand over personal and banking details to resolve the supposed issue, often with a promised refund. In more severe variants an accomplice then poses as a Monetary Authority of Singapore officer, claiming the victim\'s bank account is linked to money laundering and guiding them through a WhatsApp screen-share to extract banking credentials directly. ScamShield states a legitimate insurer never demands urgent payment through an unsolicited call and advises verifying any policy directly with the insurer\'s official contact number before acting.',
+    categorySlug: 'insurance-fraud',
+    country: 'SG',
+    alertLevel: 'high',
+    sources: ['ScamShield (Singapore)'],
+    sourceUrl: 'https://www.scamshield.gov.sg/i-want-protection-from-scams/learn-to-recognise-scams/insurance-service-scams/',
+  },
 ];
 
 async function seedCategoriesAndScams() {
