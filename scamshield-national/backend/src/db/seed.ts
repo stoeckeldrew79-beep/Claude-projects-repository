@@ -19703,6 +19703,29 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ["Arizona Attorney General's Office", 'Arizona Corporation Commission', 'Financial Advisor Magazine'],
     sourceUrl: 'https://www.azag.gov/press-release/attorney-general-mayes-announces-indictment-fraud-scheme-involving-forged-financial',
   },
+  {
+    name: 'Indian WhatsApp Video Call Sextortion Scam',
+    slug: 'india-whatsapp-video-call-sextortion-scam',
+    description:
+      'A stranger, typically posing as a woman through a fake social media or WhatsApp profile, sends a friend request and quickly moves the conversation to a video call, then either undresses on camera or plays a pre-recorded nude clip while secretly screen-recording the call to make it look like the victim was a willing participant. Within minutes the victim is confronted with the recording and threatened with it being sent to their family, employer, and social media contacts unless they pay immediately, usually via UPI, with the panic engineered to prevent the victim from pausing to think or verify anything. Unlike AI deepfake sextortion, no synthetic media is involved — the extortion relies entirely on a real, screen-recorded live call — and India\'s Cyber Crime Coordination Centre (I4C) has flagged it as one of the highest-volume categories on the 1930 fraud helpline, with organized gangs based in Rajasthan\'s Mewat-Bharatpur belt and Haryana\'s Nuh district repeatedly busted running the scheme at scale; Delhi Police\'s Shahdara cyber cell, for instance, arrested a 23-year-old alleged mastermind from Mewat in 2026 after tracing a racket that targeted victims found through WhatsApp, dating apps, and social media. I4C\'s standard advice is to end the call immediately, never pay, avoid deleting evidence, and report through the National Cyber Crime Reporting Portal or the 1930 helpline rather than negotiating with the caller.',
+    categorySlug: 'sextortion',
+    country: 'IN',
+    alertLevel: 'critical',
+    sources: ['Indian Cyber Crime Coordination Centre (I4C)', 'Delhi Police Cyber Cell'],
+    sourceUrl: 'https://i4c.mha.gov.in/',
+  },
+  {
+    name: 'PACL (Pearls) Land-Banking Ponzi Scheme',
+    slug: 'pacl-pearls-land-banking-ponzi-scheme',
+    description:
+      'PACL India Limited (widely known as Pearls) ran what SEBI and the Supreme Court later determined was one of the largest illegal collective investment schemes in Indian history, collecting more than ₹60,000 crore over roughly 18 years from an estimated 5.85 crore investors under the guise of installment plans to purchase agricultural land parcels that in most cases were never actually allotted or delivered. SEBI ordered PACL in August 2014 to refund investors, and after the company failed to comply, the Supreme Court in its 2016 order in SEBI v. PACL Ltd. appointed a committee led by former Chief Justice of India R.M. Lodha to liquidate PACL\'s attached assets and repay investors directly, since no functioning company remained to administer refunds itself. The Lodha Committee\'s slab-wise refund process, still active roughly a decade later, had processed over 36 lakh eligible applications by mid-2026 against a total refund obligation of about ₹49,100 crore, making individual claims process slowly and prompting continued investor grievances over pace despite court supervision. The case is now a standard example cited by SEBI and consumer courts of an unregistered land-banking "collective investment scheme" — where a company pools money from the public against a shared, undivided real-estate asset it controls — being allowed to operate for nearly two decades before being shut down, and it also motivated SEBI\'s more aggressive current use of its powers to freeze assets and search-and-seizure authority against similar unregistered CIS operators.',
+    categorySlug: 'investment-fraud',
+    country: 'IN',
+    sources: ['Securities and Exchange Board of India (SEBI)', 'Supreme Court of India'],
+    sourceUrl: 'https://www.sebipaclrefund.co.in/',
+    isHistorical: true,
+    firstRecorded: '1996-01-01',
+  },
 ];
 
 async function seedCategoriesAndScams() {
