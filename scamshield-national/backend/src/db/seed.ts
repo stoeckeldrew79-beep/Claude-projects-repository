@@ -14886,6 +14886,17 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Department of the Environment, Climate and Communications (Ireland)', 'Department of Social Protection (Ireland)'],
     sourceUrl: 'https://www.rte.ie/news/business/2026/0130/1555948-reduced-electricity-bill-scam-warning/',
   },
+  {
+    name: 'Fake IRS Economic Impact Payment ("Recovery Rebate Credit") Text Scam',
+    slug: 'fake-irs-economic-impact-payment-recovery-rebate-credit-text-scam',
+    description:
+      'In December 2024, the IRS announced it would automatically send roughly $1,400 payments to about a million taxpayers who hadn\'t claimed the 2021 Recovery Rebate Credit on their tax return, a real, no-action-required initiative. Scammers immediately began mass-texting people posing as the IRS, claiming they\'re eligible for an "Economic Impact Payment" and directing them to a spoofed IRS-lookalike site that harvests Social Security numbers, bank account details, and other personal data under the guise of "claiming" the payment. The Treasury Inspector General for Tax Administration issued a formal public warning stressing that eligible taxpayers needed to do nothing, since payments arrived automatically by direct deposit or mailed check, and that the IRS never requests personal or financial information by text message; similar copycat texts referencing other invented relief-check figures recurred well after the original announcement.',
+    categorySlug: 'tax-scams',
+    country: 'US',
+    alertLevel: 'medium',
+    sources: ['Treasury Inspector General for Tax Administration (TIGTA)'],
+    sourceUrl: 'https://content.govdelivery.com/accounts/USTREASTIGTA/bulletins/3ce93ce',
+  },
 ];
 
 async function seedCategoriesAndScams() {
