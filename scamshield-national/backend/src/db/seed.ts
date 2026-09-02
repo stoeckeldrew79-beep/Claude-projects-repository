@@ -18129,6 +18129,29 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['U.S. Department of the Treasury', 'Internal Revenue Service'],
     sourceUrl: 'https://home.treasury.gov/news/press-releases/sb0508',
   },
+  {
+    name: 'Saradha Chit Fund Ponzi Scheme',
+    slug: 'saradha-chit-fund-ponzi-scheme',
+    description:
+      'The Saradha Group, a West Bengal-based conglomerate led by Sudipta Sen, ran what regulators and courts later determined was a classic Ponzi scheme dressed up as chit funds, collective investment schemes, and real-estate and tourism ventures, collecting an estimated ₹2,400-2,500 crore from more than 1.7 million depositors — many of them low-income savers across West Bengal, Odisha, and the Northeast — by promising returns no legitimate bank could match. The scheme collapsed in April 2013 once new deposits could no longer cover payouts to earlier investors, and Sen fled after writing an 18-page confession naming prominent political figures, only to be arrested weeks later. The Supreme Court transferred the investigation from state police to the CBI in its 2014 order in Subrata Chattoraj v. Union of India, and SEBI separately attached over ₹774 crore in company and personal assets in a parallel civil recovery action. The case remains India\'s best-known illustration of an unregistered "collective investment scheme" operating for years under the chit-fund label before regulators intervened, and it directly prompted West Bengal\'s state-run investor compensation fund as well as tighter national scrutiny of unregulated deposit-taking schemes.',
+    categorySlug: 'investment-fraud',
+    country: 'IN',
+    sources: ['Central Bureau of Investigation (CBI)', 'Securities and Exchange Board of India (SEBI)'],
+    sourceUrl: 'https://www.scconline.com/blog/post/2026/08/20/sc-grants-bail-to-sudipta-sen-in-saradha-chit-fund-case/',
+    isHistorical: true,
+    firstRecorded: '2013-04-01',
+  },
+  {
+    name: 'Indian Cyber Slavery Job Trafficking Scam',
+    slug: 'india-cyber-slavery-job-trafficking-scam',
+    description:
+      'Fraudulent recruitment ads on job portals, WhatsApp, and social media promise Indians high-paying IT, customer-service, or data-entry jobs in Thailand, Cambodia, Laos, or Myanmar, but on arrival victims have their passports confiscated and are confined in guarded compounds where they are beaten, threatened, or starved into running pig-butchering, crypto, and other online scams against victims worldwide, sometimes made to work off a fabricated "debt" for their own travel and recruitment. India\'s Ministry of External Affairs told Parliament that roughly 6,998 Indian nationals were rescued from such scam compounds in Cambodia, Laos, and Myanmar between 2022 and 2025 through joint operations with the Ministry of Home Affairs, Indian missions abroad, and state cyber-crime units. Unlike ordinary overseas-recruitment fee fraud, where a victim mainly loses money to a fake agent, victims here are trafficked into becoming forced criminal labor for organized syndicates, and many report being resold between compounds when they resist orders to defraud others. The Ministry of External Affairs and India\'s Cyber Crime Coordination Centre (I4C) have issued repeated advisories urging jobseekers to independently verify any unsolicited overseas IT or "data entry" job offer requiring travel to Southeast Asia, since no legitimate employer recruits exclusively through WhatsApp or confiscates a new hire\'s passport on arrival.',
+    categorySlug: 'employment-scams',
+    country: 'IN',
+    alertLevel: 'critical',
+    sources: ['Ministry of External Affairs (MEA), Government of India', 'Indian Cyber Crime Coordination Centre (I4C)'],
+    sourceUrl: 'https://www.newsonair.gov.in/collaborating-closely-with-cambodia-rescued-250-indians-mea-on-forced-cyber-slavery-report',
+  },
 ];
 
 async function seedCategoriesAndScams() {
