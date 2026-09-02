@@ -14380,6 +14380,39 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Indian Computer Emergency Response Team (CERT-In)'],
     sourceUrl: 'https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES02&VLCODE=CIAD-2026-0037',
   },
+  {
+    name: 'German SIM-Swap / eSIM-Swap Account Takeover Fraud',
+    slug: 'german-sim-swap-esim-swap-account-takeover',
+    description:
+      'Fraudsters who have obtained a victim\'s stolen login data or personal details, often from a prior data leak or phishing attack, contact the victim\'s mobile carrier posing as the customer and claim their phone was lost or broken, requesting a replacement SIM or eSIM. Because an eSIM can be activated instantly online without a physical card being mailed, this step no longer requires intercepting postal mail the way older SIM-swap fraud did, making the attack faster to carry out. Once the carrier reassigns the number, the victim\'s phone loses signal entirely while the attacker begins receiving all calls and texts sent to that number, including SMS-TAN codes used to authorize online banking transfers and other two-factor logins, turning a single social-engineering call to a telecom provider into full takeover of any account secured by SMS-based authentication. The BfDI has flagged the issue and the Bundesnetzagentur is separately tightening SIM-authentication rules for carriers to close this gap; in the meantime, customers are advised to set a separate porting/SIM-change PIN with their carrier where offered and to treat a sudden, unexplained loss of mobile signal as a possible sign of an in-progress takeover.',
+    categorySlug: 'account-takeover',
+    country: 'DE',
+    alertLevel: 'high',
+    sources: ['Bundesbeauftragte für den Datenschutz und die Informationsfreiheit (BfDI)', 'Bundesnetzagentur'],
+    sourceUrl: 'https://www.bfdi.bund.de/SharedDocs/Kurzmeldungen/DE/2023/14_Authentifizierung.html',
+  },
+  {
+    name: 'German Fake Amazon "Konto gesperrt" Phishing Email',
+    slug: 'german-fake-amazon-konto-gesperrt-phishing-email',
+    description:
+      'An email impersonating Amazon claims the recipient\'s account has been locked due to "unusual activity" and that recent transactions must be confirmed by updating payment details within a tight deadline, typically 48 hours, to avoid permanent suspension. The email mimics Amazon\'s branding closely but leads to a spoofed login page built to harvest the victim\'s Amazon credentials and card details rather than resolve any real account issue. Verbraucherzentrale Sachsen flagged a specific tell in one recurring wave of these emails: a misspelled sign-off reading "Ihr Amde Team" instead of "Ihr Amazon Team," alongside the artificial urgency and a fake verification link. Recipients are advised never to click the email\'s link and instead check their account status by logging in directly through the official Amazon app or website.',
+    categorySlug: 'phishing',
+    country: 'DE',
+    alertLevel: 'medium',
+    sources: ['Verbraucherzentrale Sachsen'],
+    sourceUrl: 'https://www.verbraucherzentrale-sachsen.de/pressemeldungen/vertraege-reklamation/vorsicht-vor-gefaelschten-amazonmails-108642',
+  },
+  {
+    name: 'German Ping-Anruf (Lockanruf) Missed-Call Premium Number Scam',
+    slug: 'german-ping-anruf-lockanruf-premium-number-scam',
+    description:
+      'Automated dialing systems place calls to large batches of German phone numbers that ring only once or twice, deliberately too briefly to answer, leaving a missed-call notification from an unfamiliar number. Curious recipients who call the number back either reach a recorded message designed to keep them on the line as long as possible or are connected to an expensive premium-rate or international number, generating per-minute charges of up to roughly €3 that show up on the next phone bill. The Bundesnetzagentur notes that some foreign country codes are deliberately chosen because they resemble familiar German area codes, such as Madagascar\'s "00261" prefix resembling Koblenz\'s local code "0261," making a recipient more likely to call back without realizing it\'s an international number. The agency has responded by ordering mobile carriers to provide free price announcements for calls to dozens of high-risk international country codes, and advises against calling back any unknown missed number.',
+    categorySlug: 'phishing',
+    country: 'DE',
+    alertLevel: 'low',
+    sources: ['Bundesnetzagentur'],
+    sourceUrl: 'https://www.bundesnetzagentur.de/DE/Vportal/TK/Aerger/Faelle/Ping/start.html',
+  },
 ];
 
 async function seedCategoriesAndScams() {
