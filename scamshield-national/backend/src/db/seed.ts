@@ -20000,6 +20000,17 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ["DC Office of the Attorney General", 'The Washington Times'],
     sourceUrl: 'https://oag.dc.gov/release/attorney-general-schwalb-announces-permanent-0',
   },
+  {
+    name: 'Fake Pell Grant "Expiring" Text Message Scam',
+    slug: 'fake-pell-grant-expiring-text-scam',
+    description:
+      'As the fall semester begins, students and parents receive an unsolicited text claiming a specific dollar amount — commonly cited messages promise between $6,500 and nearly $8,000 — of "Pell Grant" or other education-grant money is about to expire, with a name filled in to look personalized and a link to "confirm" or claim the funds before a tight deadline. The link leads to a fake page built to harvest Social Security numbers, bank account or debit card details, and other personal information rather than to any real disbursement, since federal Pell Grants are awarded automatically through the FAFSA and disbursed directly by a student\'s school, never claimed by texting back a link. Security researchers tracking the back-to-school 2026 wave found the campaign heavily concentrated in Texas, Georgia, and Florida but reaching recipients nationwide, running alongside related back-to-school lures for fake scholarships, discounted "AI study tools," and free laptops. Recipients should never click a link in an unsolicited grant text, verify any real federal student aid status only by logging in directly at studentaid.gov, and report the message to the FTC at ReportFraud.ftc.gov.',
+    categorySlug: 'government-impersonation',
+    country: 'US',
+    alertLevel: 'medium',
+    sources: ['Bitdefender Labs', 'Federal Trade Commission (FTC)'],
+    sourceUrl: 'https://www.bitdefender.com/en-us/blog/hotforsecurity/back-to-school-scam-report-2026',
+  },
 ];
 
 async function seedCategoriesAndScams() {
