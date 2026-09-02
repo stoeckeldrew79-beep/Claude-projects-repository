@@ -22369,6 +22369,39 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['U.S. Securities and Exchange Commission (SEC)'],
     sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26399',
   },
+  {
+    name: 'Swedish Fake Web Shop (Nätbutik) Scam',
+    slug: 'sweden-fake-web-shop-scam',
+    description:
+      'A professional-looking standalone online store — often advertising steep discounts on electronics, clothing, or seasonal gifts through social media and search ads — takes payment by card at checkout and then either ships nothing, ships a cheap counterfeit, or vanishes entirely once card details are captured; many operate as short-lived dropshipping fronts registered abroad that reopen under a new domain the moment complaints and chargebacks mount. Konsumentverket, Polismyndigheten, and Sweden\'s four largest banks — Handelsbanken, Nordea, SEB, and Swedbank — ran a joint data-sharing pilot that in one three-month period disabled payment processing for 1,300 fraudulent web shops, blocked roughly 239,000 suspect purchases, and stopped an estimated 134 million kronor in fraud, a 74% jump over the same period a year earlier; police separately logged more than 45,000 e-commerce fraud reports in the first half of 2025, an 80% year-on-year increase. Konsumentverket advises checking a store\'s company registration and reviews before ordering and always paying by card rather than direct bank transfer, since only a card payment can be disputed after the fact.',
+    categorySlug: 'online-shopping-scams',
+    country: 'SE',
+    alertLevel: 'high',
+    sources: ['Konsumentverket (Swedish Consumer Agency)', 'Polismyndigheten (Swedish Police Authority)'],
+    sourceUrl: 'https://www.konsumentverket.se/aktuellt/kov-nyhet-samarbete-mot-oseriosa-natbutiker-stoppade-misstankta-bedragerier-for-134-miljoner/',
+  },
+  {
+    name: 'Swedish QR Code "Quishing" Fraud',
+    slug: 'sweden-qr-code-quishing-scam',
+    description:
+      'A fraudulent QR code — printed as a sticker and pressed directly over the genuine code on a parking-payment sign, a parking meter, or a charity donation box — sends anyone who scans it to a convincing fake payment page that harvests card details or, in newer variants, walks the victim through approving a BankID request that authorizes a fraudulent transfer instead of the parking fee or donation it claims to collect. Jan Olsson, a crime commissioner at the national police\'s IT crime center, warned in November 2025 that "QR-koder är jättebra att använda för bedragarna" (QR codes are great for scammers to use), placing this technique — dubbed "quishing" — alongside phishing and vishing as a fast-growing fraud vector; police note the same trick also shows up in fake SMS traffic-fine and parking-ticket notices that route the recipient through a QR code instead of a text link. Officials advise paying only through a parking operator\'s own official app rather than a code affixed to a sign, and checking whether a QR code looks like a sticker layered over the original signage before scanning it.',
+    categorySlug: 'phishing',
+    country: 'SE',
+    alertLevel: 'medium',
+    sources: ['Polismyndigheten (Swedish Police Authority)', 'SVT Nyheter'],
+    sourceUrl: 'https://www.svt.se/nyheter/lokalt/uppsala/polisen-varnar-sa-nyttjar-bedragarna-qr-koder',
+  },
+  {
+    name: 'Swedish Work-Permit Fake Job Offer Fraud',
+    slug: 'sweden-work-permit-fake-job-offer-fraud',
+    description:
+      'A recruiter or purported employer contacts a foreign worker abroad with a Swedish job offer meant to support a work-permit application, then either invents a position that never existed, demands an upfront "processing" fee paid into a private bank account rather than invoiced by the company, or — once the worker has relocated — houses them in overcrowded employer-controlled accommodation and requires them to secretly repay part of their wages in cash, conditions that violate the terms under which the permit was actually granted. Migrationsverket, Sweden\'s migration agency, states plainly that "ett falskt jobberbjudande betyder att jobbet inte finns" (a fake job offer means the job doesn\'t exist) and that a genuine employer never asks an applicant to pay anyone but the agency itself; a 2026 Riksrevisionen audit separately found that Migrationsverket can only search employer records back 18 months, letting some previously flagged employers continue receiving approved work permits undetected. The agency advises verifying a company\'s registration through Skatteverket and contacting it using independently sourced contact details, never those supplied by the recruiter, before paying any fee or traveling to Sweden.',
+    categorySlug: 'employment-scams',
+    country: 'SE',
+    alertLevel: 'high',
+    sources: ['Migrationsverket (Swedish Migration Agency)', 'Riksrevisionen'],
+    sourceUrl: 'https://www.migrationsverket.se/du-vill-ansoka/arbeta/undvik-att-bli-lurad.html',
+  },
 ];
 
 async function seedCategoriesAndScams() {
