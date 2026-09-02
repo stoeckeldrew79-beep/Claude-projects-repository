@@ -17744,6 +17744,17 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Singapore Police Force', 'Land Transport Authority (LTA)'],
     sourceUrl: 'https://www.police.gov.sg/media-hub/news/2025/04/20250414_police_advisory_on_resurgence_of_phishing_scams_involving_the_impersonation_of_onemotoring',
   },
+  {
+    name: 'Fake IRS "Digital Asset Compliance Portal" Crypto Letter Scam',
+    slug: 'fake-irs-digital-asset-compliance-portal-scam',
+    description:
+      'Cryptocurrency holders are receiving official-looking letters by physical mail, made to resemble genuine IRS correspondence, warning that they must "enroll" in something called the Digital Asset Compliance Portal before a stated deadline or face penalties. The letter includes a QR code that, when scanned, leads to a convincing fake IRS website that asks the recipient to select which exchanges and wallets they use — letting scammers profile exactly where a victim\'s crypto is held — before harvesting personal information, exchange account credentials, or other sensitive data under cover of "compliance." Investigators traced the infrastructure behind one such site to a domain registered through a Hong Kong registrar just days before the mailing went out and hosted on servers previously linked to phishing pages impersonating banks and delivery services. The IRS has confirmed flatly that no Digital Asset Compliance Portal exists, and it — like every legitimate agency — never requests wallet recovery phrases or private keys; anyone who receives this letter should avoid scanning the QR code, never enter wallet or exchange credentials on a linked site, and report it to the IRS and the FBI\'s Internet Crime Complaint Center at ic3.gov.',
+    categorySlug: 'tax-scams',
+    country: 'US',
+    alertLevel: 'high',
+    sources: ['Internal Revenue Service', 'IRS Criminal Investigation'],
+    sourceUrl: 'https://www.irs.gov/compliance/criminal-investigation/fraud-alert-fake-irs-letters-target-cryptocurrency-holders',
+  },
 ];
 
 async function seedCategoriesAndScams() {
