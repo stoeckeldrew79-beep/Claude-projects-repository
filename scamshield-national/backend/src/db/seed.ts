@@ -22138,6 +22138,17 @@ const SEED_SCAMS: SeedScam[] = [
     sourceUrl: 'https://www.doj.state.or.us/media-home/news-media-releases/ag-rayfield-announces-medicaid-fraud-charges-and-convictions-in-three-separate-multnomah-county-cases/',
   },
   {
+    name: 'Substance Use Disorder Clinic Search-Ad Impersonation Scheme',
+    slug: 'substance-use-disorder-clinic-search-ad-impersonation',
+    description:
+      'A person searching online for a specific, known addiction treatment center instead sees a paid Google search ad bought by an unrelated, competing clinic that has purchased the real clinic\'s own name as a keyword, so its ad displays the searched-for clinic\'s name alongside a different phone number that actually rings the impersonator\'s call center. Telemarketers who answer pose as a "centralized admissions office" or a generic addiction treatment hotline, falsely claim a relationship with the clinic the caller was trying to reach, and steer the person — often someone in an active substance-use crisis, or a worried family member searching on their behalf — toward a different facility entirely, one chosen for referral payments rather than fit or quality of care. The FTC\'s case against Florida-based Evoke Wellness, LLC found the company ran this scheme for roughly two years, from 2021 through 2023, placing more than 68,000 misleading search ads that generated at least 3,500 calls from people seeking treatment, in violation of both the FTC Act and the Opioid Addiction Recovery Fraud Prevention Act of 2018; Evoke settled in June 2025 for a $1.9 million civil penalty. The FTC reissued a consumer alert about the pattern in July 2026, advising anyone searching for a substance use disorder clinic to scroll past paid ads, go directly to a treatment provider\'s official website or SAMHSA\'s National Helpline (1-800-662-4357) instead of a number found in a search ad, and ask directly whether the person answering the phone works for the specific clinic being searched for.',
+    categorySlug: 'healthcare-fraud',
+    country: 'US',
+    alertLevel: 'high',
+    sources: ['Federal Trade Commission (FTC)'],
+    sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2025/06/evoke-wellness-pay-19-million-settle-ftc-claims-they-misled-consumers-seeking-substance-use-disorder',
+  },
+  {
     name: 'H Street Community Development Corporation Bonus Diversion Scheme',
     slug: 'dc-h-street-cdc-nonprofit-bonus-diversion-fraud',
     description:
