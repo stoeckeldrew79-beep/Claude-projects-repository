@@ -18750,6 +18750,28 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Vermont Attorney General\'s Office'],
     sourceUrl: 'https://ago.vermont.gov/blog/2025/02/05/attorney-generals-office-announces-judgment-against-fraudulent-medicaid-contractors',
   },
+  {
+    name: 'Swedish Fake Weight-Loss Drug Social Media Ad Scam',
+    slug: 'sweden-fake-weight-loss-drug-social-media-scam',
+    description:
+      'Ads for "miracle cures" targeting pain, skin problems, or weight loss circulate on Facebook and Instagram using Läkemedelsverket\'s own logo without authorization, alongside fabricated before-and-after photos and deepfaked celebrity endorsements, to sell medicine that was never approved for sale in Sweden. A February 2026 survey commissioned by Läkemedelsverket, Sweden\'s Medical Products Agency, found that 35% of respondents had seen a suspected fraudulent medicine ad on social media in the previous year and 4% had gone on to buy a product that turned out to be fake, with weight-loss drugs the single most common category among those purchases. Because the products sold this way are unregulated, they may contain no active ingredient, an incorrect dose, or an undisclosed and dangerous substance — Läkemedelsverket says several buyers have been hospitalized after using counterfeit weight-loss preparations, and the agency removed roughly 100 fraudulent ads from Facebook and Instagram over the preceding year. The agency ran a month-long "Fulmediciner" ("crap medicines") public-awareness campaign in late 2025 stressing that no government authority ever endorses a specific medicine brand in an ad, and that genuine prescription medicine in Sweden is sold only through pharmacies or verified online pharmacies.',
+    categorySlug: 'healthcare-fraud',
+    country: 'SE',
+    alertLevel: 'high',
+    sources: ['Läkemedelsverket (Swedish Medical Products Agency)'],
+    sourceUrl: 'https://www.lakemedelsverket.se/sv/nyheter/var-tredje-person-har-sett-falska-lakemedelsannonser-i-sociala-medier--viktnedgangsprodukter-vanligast-vid-bluffkop',
+  },
+  {
+    name: 'Swedish Fraud "Recovery Room" Scam',
+    slug: 'sweden-recovery-room-fraud-scam',
+    description:
+      'After a Swedish consumer has already lost money to an investment or crypto scam, a second caller gets in touch posing as a representative of a bank, law firm, or government authority and offers to help recover the lost funds — typically by requesting an upfront "recovery fee" or remote access to the victim\'s account to "process" the return. Finansinspektionen, Sweden\'s Financial Supervisory Authority, flagged these so-called recovery rooms as a fast-growing pattern among the 148 fraudulent actors it had publicly warned about by the end of October 2025, describing the tactic as "particularly cynical" because it deliberately targets people already known to have fallen for fraud once. No legitimate recovery process ever requires an upfront fee or account access, and Finansinspektionen advises checking any firm claiming to offer recovery help against its own public register of licensed financial companies before paying anything or handing over login credentials.',
+    categorySlug: 'investment-fraud',
+    country: 'SE',
+    alertLevel: 'high',
+    sources: ['Finansinspektionen (Swedish Financial Supervisory Authority)'],
+    sourceUrl: 'https://www.fi.se/sv/publicerat/nyheter/2025/148-varningar-hittills-i-ar--bedragarna-anvander-flera-nya-metoder/',
+  },
 ];
 
 async function seedCategoriesAndScams() {
