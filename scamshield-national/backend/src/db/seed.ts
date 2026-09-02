@@ -19854,6 +19854,17 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ["Arizona Attorney General's Office", 'KJZZ'],
     sourceUrl: 'https://www.azag.gov/press-release/attorney-general-mayes-sues-operators-real-estate-scam-targeting-elderly-arizonans',
   },
+  {
+    name: 'Counterfeit Pickleball Paddle Scam',
+    slug: 'counterfeit-pickleball-paddle-scam',
+    description:
+      'Cheap knockoff paddles manufactured overseas and copying the logos, colorways, and model names of real brands like Selkirk, JOOLA, and CRBN have flooded Temu, AliExpress, Amazon third-party listings, and Facebook Marketplace as pickleball\'s retail boom has outpaced any easy way for a buyer to verify what a paddle actually is before it arrives. A paddle that legitimately sells for $150 to $300 being offered for $20 to $40 is close to a guaranteed sign it\'s a fake, and the fakes aren\'t just a rules violation — players and testers report counterfeits that shatter mid-swing, warp under heat, or use adhesives never tested for player safety. A second pipeline lets counterfeits reach buyers who think they\'re shopping somewhere trustworthy altogether: a fake bought cheaply online gets repackaged to look like the genuine product and returned to a big-box sporting goods retailer for a refund, then restocked and resold at full price to the next customer with no way to tell it isn\'t authentic. In December 2025, every major governing body in the sport — USA Pickleball, the PPA Tour, Major League Pickleball, the APP Tour, DUPR, the United Pickleball Association of America, and the World Pickleball Federation — issued a rare joint statement calling counterfeiting "an existential threat to the integrity, fairness, safety, and economics of pickleball," and USA Pickleball has since begun running spin and surface-roughness diagnostics on paddles at tournament check-in to catch fakes before play. Buyers should purchase only directly from a brand\'s own site or a retailer listed as an authorized dealer, treat any steep discount on a normally $150-plus paddle as disqualifying on its own, and check a paddle\'s certification marking against the brand\'s or USA Pickleball\'s own approved-paddle list before trusting a marketplace listing.',
+    categorySlug: 'online-shopping-scams',
+    country: 'US',
+    alertLevel: 'medium',
+    sources: ['USA Pickleball', 'Pickleball.com', 'The Dink Pickleball'],
+    sourceUrl: 'https://pickleball.com/news/pickleball-community-unites-against-counterfeit-paddles',
+  },
 ];
 
 async function seedCategoriesAndScams() {
