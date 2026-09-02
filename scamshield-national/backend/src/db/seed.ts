@@ -19023,6 +19023,28 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['New Hampshire Insurance Department', 'State Farm', 'WBAY'],
     sourceUrl: 'https://www.insurance.nh.gov/news-and-media/blog/consumer-advisory-regarding-state-farm-auto-policyholder-dividend-payments',
   },
+  {
+    name: 'Dutch AFM Phone-Number Spoofing Scam',
+    slug: 'dutch-afm-phone-spoofing-scam',
+    description:
+      'Fraudsters call Dutch consumers while spoofing the caller ID to display the real phone number of the AFM (Autoriteit Financiële Markten), the Netherlands\' financial markets regulator, posing as AFM staff to sound credible before asking the victim to share login details, install remote-access software, or hand over money or cryptocurrency. The AFM issued a public warning in May 2026 after receiving reports of consumers who missed a call from what appeared to be an AFM number or spoke with someone claiming AFM employment, and states plainly, "Wij vragen nooit om geld of crypto" ("We never ask for money or crypto"), and that it never requests remote access to a computer or phone. This scam is distinct from fraud impersonating a licensed investment firm\'s own brand, since here criminals borrow the trust of the regulator itself, using genuine caller-ID spoofing technology rather than a fake company website, to pressure victims before they have time to verify who is actually calling. The AFM recommends never sharing account credentials by phone, checking any link via checkjelinkje.nl before clicking, refusing screen-sharing requests, and hanging up on any caller who pushes for an immediate decision.',
+    categorySlug: 'government-impersonation',
+    country: 'NL',
+    alertLevel: 'high',
+    sources: ['Autoriteit Financiële Markten (AFM)'],
+    sourceUrl: 'https://www.afm.nl/nl-nl/consumenten/actueel/2026/mei/pb-waarschuwing-spoofing',
+  },
+  {
+    name: 'Dutch Booking.com Fake Vacation Rental Scam',
+    slug: 'dutch-booking-com-vacation-rental-scam',
+    description:
+      'Criminals either hijack a legitimate host\'s Booking.com account or post an entirely fake listing built from photos and details copied off a real property on another site, then once a Dutch traveler makes a reservation, contact them directly with a follow-up message steering payment or a "final access code" fee to a phishing page outside Booking.com\'s own payment system. Fraudehelpdesk logged 957 phishing reports tied to this pattern in the first half of 2026 alone, up from 162 in the second half of 2025, with reported losses topping €75,000 in 2025 and already exceeding €82,000 by mid-2026. In one documented case a traveler named Hans Hooijer paid €355 for an access code to a Cape Town apartment that turned out not to work, then discovered four other people had been targeted for the same listing that same week; in another, a Portuguese homeowner named Elisa found her actual home relisted on Booking.com without her knowledge using her own photos, and two families who booked through it lost a combined roughly €2,400. The Consumentenbond advises paying only through Booking.com\'s own official payment system, preferring credit card over bank transfer, and cross-checking a property\'s existence on Google Maps before booking.',
+    categorySlug: 'online-shopping-scams',
+    country: 'NL',
+    alertLevel: 'medium',
+    sources: ['Fraudehelpdesk (Netherlands)', 'NOS Nieuwsuur', 'Consumentenbond'],
+    sourceUrl: 'https://nos.nl/nieuwsuur/artikel/2625912-betalen-voor-een-vakantiehuisje-dat-niet-bestaat-fraude-via-booking-com-neemt-toe',
+  },
 ];
 
 async function seedCategoriesAndScams() {
