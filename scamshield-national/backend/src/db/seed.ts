@@ -20991,6 +20991,28 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ["U.S. Attorney's Office, District of Delaware", 'Internal Revenue Service Criminal Investigation'],
     sourceUrl: 'https://www.justice.gov/usao-de/pr/delaware-precious-metals-depository-owner-convicted-mail-wire-and-tax-fraud',
   },
+  {
+    name: 'Japan Fictitious Billing Postcard Scam (Kakuu Seikyu)',
+    slug: 'japan-fictitious-billing-postcard-scam',
+    description:
+      'A postcard or registered letter, styled to look official with a name like "Civil Litigation Management Center" or headed "Final Notice of Litigation Regarding Comprehensive Consumption Fees," claims the recipient has an unpaid bill for a service they never used and warns that a lawsuit has already been filed, with wages, vehicles, or other property about to be seized unless they call a listed number before a stated deadline. Calling connects to a scammer who, rather than filing any real suit, offers to "withdraw" the fabricated case in exchange for immediate payment by bank transfer or convenience-store payment code. Unlike SMS or email phishing, this scam deliberately uses physical mail to reach elderly residents who rarely use smartphones or email, and Japan\'s National Consumer Affairs Center logged more than 16,000 consultations about it in both 2023 and 2024 alone; its standing advice is to never call the number on the postcard and to contact a local consumer center instead.',
+    categorySlug: 'government-impersonation',
+    country: 'JP',
+    alertLevel: 'medium',
+    sources: ['National Consumer Affairs Center of Japan (Kokumin Seikatsu Center)', 'Consumer Affairs Agency (Japan)'],
+    sourceUrl: 'https://www.kokusen.go.jp/soudan_topics/data/kakuseikyu.html',
+  },
+  {
+    name: 'Japan Investment-Loss Recovery Scam (Higai Kaifuku Sagi)',
+    slug: 'japan-investment-recovery-scam',
+    description:
+      'After an investor loses money in a failed or fraudulent investment — such as a real-estate joint-investment (fudousan tokutei kyodo jigyo) fund that never paid out a promised refund — a second caller poses as a lawyer, agency, or "recovery negotiator" and offers to get the lost money back, but only after the victim pays an upfront processing fee or, in some versions, first purchases another investment product to qualify for the recovery. Japan\'s Financial Services Agency issued a fresh public warning on September 1, 2026 after identifying cases in which investors who had already cancelled a real-estate crowdfunding investment and were still waiting on a refund were deliberately targeted a second time by fraudsters posing as damage-recovery specialists. The FSA states plainly that no legitimate service ever requires payment in advance to recover money already lost to a bad or fraudulent investment, and directs anyone contacted this way to the national Consumer Hotline (188) or the police consultation line (#9110) rather than to the caller offering to help.',
+    categorySlug: 'investment-fraud',
+    country: 'JP',
+    alertLevel: 'high',
+    sources: ['Financial Services Agency (Japan)'],
+    sourceUrl: 'https://www.fsa.go.jp/ordinary/chuui/20260901.html',
+  },
 ];
 
 async function seedCategoriesAndScams() {
