@@ -17504,6 +17504,29 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['FinCEN'],
     sourceUrl: 'https://www.fincen.gov/news/news-releases/fincen-issues-alert-fraud-schemes-involving-deepfake-media-targeting-financial',
   },
+  {
+    name: 'Mayfair 101 "Bank Term Deposit Alternative" Notes Scheme',
+    slug: 'mayfair-101-m-plus-notes-investment-scheme',
+    description:
+      'Melbourne-based Mayfair 101 Group, led by James Mawhinney, raised roughly $211 million from around 950 investors — many of them retirees — between 2019 and 2020 by marketing "M+ Fixed Income Notes" as a low-risk alternative to bank term deposits offering returns of up to 10.25%, even though the notes were unrated, illiquid, and funneled investor money into speculative Mayfair-related property and forex ventures. The Federal Court found in 2021 that Mayfair 101 had engaged in false, misleading, and deceptive conduct by comparing the notes to bank deposits, and ASIC permanently banned Mawhinney from managing companies for 20 years in 2023 after finding he had continued the misleading conduct and defied a corrective-advertising order. When the scheme collapsed, most investors received only cents on the dollar, and receivers are still recovering funds years later. ASIC has repeatedly pointed to the case as a warning that a slick pitch comparing an unrated corporate note to a government-guaranteed bank deposit is a red flag, not a selling point.',
+    categorySlug: 'investment-fraud',
+    country: 'AU',
+    alertLevel: 'low',
+    sources: ['Australian Securities and Investments Commission (ASIC)'],
+    sourceUrl: 'https://asic.gov.au/about-asic/news-centre/find-a-media-release/2023-releases/23-260mr-james-mawhinney-banned-from-managing-companies-for-20-years/',
+  },
+  {
+    name: 'Courtenay House Foreign Exchange Trading Ponzi Scheme',
+    slug: 'courtenay-house-forex-ponzi-scheme',
+    description:
+      'Sydney operator Tony Iervasi ran Courtenay House Capital Trading Group from 2013 to 2017, telling around 585 investors — many recruited through Sydney\'s Assyrian Christian community via word of mouth and church connections — that their money was being placed in a low-risk managed foreign exchange trading fund paying steady monthly returns of 2.5% to 3.5%. In reality, only a small fraction of the roughly $180 million raised was ever traded; the rest was used to pay earlier investors their promised "returns" and to fund Iervasi\'s own lifestyle, in a classic affinity-fraud Ponzi structure. ASIC shut the scheme down and froze its assets in late 2017, and Iervasi pleaded guilty to dishonest conduct and running an unlicensed financial services business, receiving an 8-year prison sentence in the NSW District Court in 2021 with a non-parole period of 5 years. The case became one of the largest Ponzi-scheme prosecutions in Australian history and is a frequently cited ASIC example of affinity fraud, where trust built through a shared community or faith network is exploited to bypass the skepticism a stranger\'s pitch would normally trigger.',
+    categorySlug: 'investment-fraud',
+    country: 'AU',
+    isHistorical: true,
+    firstRecorded: '2013-01-01',
+    sources: ['Australian Securities and Investments Commission (ASIC)'],
+    sourceUrl: 'https://asic.gov.au/about-asic/news-centre/find-a-media-release/2021-releases/21-069mr-former-courtenay-house-director-sentenced-to-8-years-imprisonment-for-dishonest-conduct/',
+  },
 ];
 
 async function seedCategoriesAndScams() {
