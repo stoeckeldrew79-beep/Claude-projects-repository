@@ -21121,6 +21121,28 @@ const SEED_SCAMS: SeedScam[] = [
     sourceUrl:
       'https://csimt.gov/2025/10/07/in-missoula-county-defendant-charged-with-engaging-in-conspiracy-to-defraud-investors-in-cryptocurrency-scheme/',
   },
+  {
+    name: 'Dutch Doorstep "Babbeltruc" Bank Card Theft',
+    slug: 'dutch-babbeltruc-doorstep-bank-card-theft',
+    description:
+      'A caller posing as a bank employee or police officer warns an elderly victim of suspicious account activity or a burglary in the neighborhood and says a "colleague" needs to come collect the bank card and PIN for safekeeping or fingerprint testing — minutes later, a second person arrives at the door, sometimes flashing a fake badge, and physically walks away with the card before draining the account at a cash machine. Unlike phone-only bank helpdesk fraud, the card itself is taken in person, so no online transfer or code-sharing by the victim is needed for the theft to succeed. Dutch police logged more than 10,600 reports of this fake-officer pattern in the first ten months of 2025 alone, with victims concentrated among people aged 70 to 97, and recorded a further 7,200 reports in just the first half of 2026. Police stress that banks, police, and government agencies never send someone to a home to collect a PIN card or PIN code.',
+    categorySlug: 'identity-theft',
+    country: 'NL',
+    alertLevel: 'high',
+    sources: ['Politie (Dutch National Police)'],
+    sourceUrl: 'https://www.politie.nl/informatie/wat-is-een-babbeltruc.html',
+  },
+  {
+    name: 'Dutch Fake Bailiff (Gerechtsdeurwaarder) Debt Collection Threat Scam',
+    slug: 'dutch-fake-bailiff-debt-collector-scam',
+    description:
+      'An email or text impersonating a Dutch court bailiff (gerechtsdeurwaarder) or a debt collection agency claims the recipient owes an outstanding amount — often vaguely tied to a "verbal agreement," a cancelled magazine subscription, or a lottery charge — and threatens conservatoir beslag (court-ordered seizure of assets) unless payment is made within roughly two days, sometimes including an iDEAL payment link and sometimes an old or current phone number to make the message look personally researched. Genuine Dutch bailiffs always identify the specific underlying debt and court order behind a collection notice and never demand payment within 48 hours by clicking a link in an unsolicited message. Fraudehelpdesk has fielded a steady stream of these reports, most recently updating its public alert on the pattern in July 2026.',
+    categorySlug: 'phishing',
+    country: 'NL',
+    alertLevel: 'medium',
+    sources: ['Fraudehelpdesk (Dutch National Anti-Fraud Hotline)'],
+    sourceUrl: 'https://www.fraudehelpdesk.nl/alert/valse-berichten-namens-gerechtsdeurwaarders/',
+  },
 ];
 
 async function seedCategoriesAndScams() {
