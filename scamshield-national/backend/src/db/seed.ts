@@ -19459,6 +19459,17 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Pennsylvania Office of Attorney General'],
     sourceUrl: 'https://www.attorneygeneral.gov/taking-action/attorney-general-sunday-announces-1-million-settlement-with-alpha-dental-patients-who-were-pushed-into-expensive-services-to-receive-500k/',
   },
+  {
+    name: 'Lavenhill Securities Fake Pre-IPO Shares Scam',
+    slug: 'nz-lavenhill-securities-fake-preipo-shares-scam',
+    description:
+      'Lavenhill Securities Limited presents itself online as a Hong Kong-based securities firm, publishing a steady stream of market-commentary press releases about companies like NVIDIA and Palantir and running two lookalike websites (lavenhillsecuritiesl.com and lavenhill-secltd.com) to appear credible, then offers New Zealand investors early access to pre-IPO shares in companies expected to list soon. Investors who deposit funds are later unable to withdraw them, as the firm withholds the money outright rather than merely delaying payout. The Financial Markets Authority added Lavenhill Securities Limited to its warnings and alerts list on 22 January 2026, confirming the entity — along with named associates Christopher Rogers and Richard White — is not registered on the Financial Service Providers Register and is not authorised to provide any financial service or offer investment products in New Zealand. Unlike scams that impersonate an existing licensed brokerage, Lavenhill has built an entirely fabricated corporate identity from scratch using fake news coverage, so the FMA recommends checking any firm offering pre-IPO access against the FSPR and the FMA warning list before transferring any money, regardless of how established its website or press coverage appears.',
+    categorySlug: 'investment-fraud',
+    country: 'NZ',
+    alertLevel: 'high',
+    sources: ['Financial Markets Authority (FMA) New Zealand'],
+    sourceUrl: 'https://www.fma.govt.nz/library/warnings-and-alerts/',
+  },
 ];
 
 async function seedCategoriesAndScams() {
