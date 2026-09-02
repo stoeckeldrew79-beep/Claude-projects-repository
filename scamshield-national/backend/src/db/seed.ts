@@ -3182,6 +3182,10 @@ GPB Capital's fraud is a reminder that a scheme does not need to promise unbelie
     title: 'Eddie Tipton and the Lottery Random-Number Generator He Secretly Rigged',
     slug: 'eddie-tipton-hot-lotto-rng-rigging-scandal',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Iowa_State_Capitol_2019-1963.jpg?width=1200',
+    coverImageCredit: 'Photo: Paul R. Burley (CC BY-SA 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Eddie Tipton's job was to protect the integrity of America's lotteries. As information security director for the Multi-State Lottery Association (MUSL) — the nonprofit that develops and runs the computer systems behind multi-state games like Hot Lotto, Powerball, and Mega Millions on behalf of dozens of state lotteries — Tipton helped write and audit the very software that generated the "random" numbers drawn on live television each week. Few people in the country had more intimate, trusted access to the machinery that was supposed to guarantee every lottery draw was unpredictable and fair.
 
@@ -3217,6 +3221,10 @@ Demara's story is often told as a curiosity — a rogue who did real good while 
     title: 'Christophe Rocancourt: The French Con Man Who Posed as a Rockefeller to Swindle Hollywood and the Hamptons',
     slug: 'christophe-rocancourt-fake-rockefeller-conman',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/HollywoodSign.jpg?width=1200',
+    coverImageCredit: 'Photo: Sörn (CC BY-SA 2.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Christophe Rocancourt grew up poor in Normandy, France, the son of an alcoholic, unemployed painter; he later said his father placed him in an orphanage at age five. By his twenties he had reinvented himself entirely, adopting the persona of a wealthy, well-connected American — and, most audaciously, claiming kinship with the Rockefeller family, one of the best-known names in American wealth. Using aliases like "Christopher Rockefeller," he built a life among the very rich in Los Angeles and the Hamptons, telling anyone who asked that his mother was Sophia Loren and his "uncles" were fashion designer Oscar de la Renta and film producer Dino De Laurentiis.
 
@@ -3271,6 +3279,9 @@ Bottomley's fraud worked precisely because it was wrapped in the same patriotic,
     title: "Rodney Adler and the HIH Insurance Collapse That Cost Australia $5.3 Billion",
     slug: 'rodney-adler-hih-insurance-collapse',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Rodney_Adler_and_Larry_Adler_1988.jpg?width=1200',
+    coverImageCredit: 'Photo: Gary Ede (CC BY-SA 3.0)',
+    coverImagePosition: 50,
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Rodney Adler was born into the insurance business. His father, Larry Adler, a Hungarian Jewish immigrant, founded FAI Insurance in 1960, and Rodney took over as chief executive after his father's death in 1988, steering the company through the fallout of loan exposures left over from the 1987 stock market crash. By 1998 FAI had stabilized, and that September the much larger HIH Insurance — soon to become Australia's second-largest insurer — launched a takeover bid for it without conducting meaningful due diligence, paying roughly A$280 million in cash and shares. Adler joined HIH's board in January 1999, bringing FAI's legacy problems directly onto HIH's own balance sheet.
 
@@ -3306,6 +3317,10 @@ Insull was never convicted of a crime, and that is precisely why his case became
     title: 'Ferdinand Ward, "The Young Napoleon of Wall Street" Who Bankrupted a Former President',
     slug: 'ferdinand-ward-grant-and-ward-ponzi-scheme',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/New_York_Stock_Exchange_Facade_-_New_York_City,_USA.jpg?width=1200',
+    coverImageCredit: 'Photo: Donatingpictures (CC BY-SA 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Ferdinand Ward was stealing money before he was out of his teens — he later admitted to robbing a Sunday school collection plate and laundering it through a local bank — but the con that made his name was built on the most respectable partner an American swindler could ask for: a former president of the United States. Ward married into a wealthy Connecticut family in 1877, moved into New York banking circles, and by 1880 had launched his own brokerage. His breakthrough came when he cultivated a friendship with Ulysses S. "Buck" Grant Jr., the son of former president and Civil War general Ulysses S. Grant, and in 1880 the two formed the investment firm of Grant & Ward.
 
@@ -3322,6 +3337,10 @@ Grant & Ward is frequently cited as the earliest well-documented Ponzi scheme in
     title: 'Leo Koretz and the Bayano Syndicate: A $30 Million Fraud Built on Panamanian Land That Didn\'t Exist',
     slug: 'leo-koretz-bayano-syndicate-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Chicago_Skyline_Hi-Res.jpg?width=1200',
+    coverImageCredit: 'Photo: Buphoff (CC BY-SA 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Leo Koretz was, by every outward measure, one of Chicago's most trusted men. Born in Bohemia and raised from age eight in Chicago's Jewish immigrant community, he graduated from Chicago-Kent College of Law in 1901 and built a respected practice managing money for family, friends, and fellow congregants — the kind of quiet, personal trust that comes from investing your own relatives' life savings alongside your own. He began defrauding them almost immediately: as early as 1905 he was selling investors forged mortgages secured by farmland he did not own. When that scheme risked exposure, rather than stop, Koretz simply built a bigger one to cover it, moving into speculative timber and rice-farming ventures in Arkansas before landing, around 1911, on the story that would define his career — the Bayano River Syndicate, which claimed to control vast tracts of untouched timberland along Panama's Bayano River.
 
@@ -3357,6 +3376,10 @@ The South Sea Bubble endures as one of the earliest fully documented cases of a 
     title: 'William "520 Percent" Miller and the Franklin Syndicate That Foreshadowed Ponzi',
     slug: 'william-miller-franklin-syndicate-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Brooklyn_Bridge_Manhattan.jpg?width=1200',
+    coverImageCredit: 'Photo: Suiseiseki (CC BY-SA 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Two decades before Charles Ponzi lent his name to the pyramid scheme, a 25-year-old Brooklyn bookkeeper named William F. Miller ran nearly the identical fraud and very nearly got away with it. In March 1899, Miller persuaded a handful of friends from his Sunday school class to give him small sums to "invest," promising an almost unbelievable 10 percent return every single week — a figure that, compounded, could theoretically turn a dollar into $5.20 in a year, which is where his lasting nickname, "520 Percent" Miller, came from. Miller claimed the returns came from privileged access to profitable business deals through connections on Wall Street. In reality, exactly as Ponzi would do twenty years later, he simply paid each week's promised interest out of the next batch of new investors' deposits.
 
@@ -3373,6 +3396,10 @@ Miller's obscurity relative to Ponzi says less about the originality of either m
     title: 'Lee Elbaz and the $145 Million Binary Options Fraud Run From a Tel Aviv Call Center',
     slug: 'lee-elbaz-yukom-binary-options-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Tel_Aviv_aerial.JPG?width=1200',
+    coverImageCredit: 'Photo: Shamir1 (CC BY-SA 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Binary options — bets on whether an asset's price will be above or below a set level at a set time — are legal, exchange-traded instruments in some regulated markets. The version Lee Elbaz sold was neither regulated nor, in any meaningful sense, a real trading product at all. As CEO of Yukom Communications, an Israeli company operating the binary options brands BinaryBook and BigOption, Elbaz oversaw a boiler-room operation that used fake identities, invented professional credentials, and relentless high-pressure sales tactics to convince customers around the world — many of them retirees living on fixed incomes — to deposit money into accounts that were, by design, built for the house to win and the customer to lose.
 
@@ -3389,6 +3416,10 @@ The binary options fraud wave that Yukom exemplified was, in essence, an old boi
     title: "Kim Woo-choong and the $41 Billion Daewoo Accounting Fraud That Outran South Korea's Miracle Economy",
     slug: 'kim-woo-choong-daewoo-accounting-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/%EC%84%9C%EC%9A%B8%EC%97%AD_%EC%95%9E_%EB%8C%80%EC%9A%B0%EB%B9%8C%EB%94%A9_%EC%A0%84%EA%B2%BD.jpg?width=1200',
+    coverImageCredit: 'Photo: Government of the Republic of Korea, 1976 (public domain)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Kim Woo-choong started with almost nothing — his father had been abducted to North Korea during the Korean War, and Kim delivered newspapers as a teenager to help support his family — and turned that into one of the largest business empires Asia had ever seen. In 1967, with a handful of associates and about $10,000 in borrowed capital, he founded a small textile trading company that he built, through relentless leveraged acquisitions of distressed firms and close ties to South Korea's military-backed government, into Daewoo Group: a conglomerate that by the 1990s ranked among the country's largest, operating shipyards, car plants, electronics factories, hotels, and trading offices in nearly 100 countries. Kim became a national symbol of the "Miracle on the Han River," celebrated in a bestselling memoir titled "It's a Big World and There's Lots to Be Done," and Daewoo's growth was held up by the government as proof that South Korean industry could compete anywhere.
 
@@ -3424,6 +3455,10 @@ Binance's case is a reminder that most large-scale fraud losses reported to agen
     title: 'Philip Esformes and the $1.3 Billion Medicare Fraud Scheme That Used Opioids to Keep Patients Captive',
     slug: 'philip-esformes-medicare-fraud-scheme',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Miami,_Florida_skyline.jpg?width=1200',
+    coverImageCredit: 'Photo: Wilfredor (CC0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Philip Esformes ran one of the largest networks of skilled nursing and assisted living facilities in Florida, built on a family real-estate and health-care business that expanded, over roughly two decades, into some twenty facilities across Florida, Illinois, and Missouri. On paper, the business looked like an ordinary, if aggressively growing, elder-care operation. Behind it, federal prosecutors say, Esformes ran what the Department of Justice would later call the largest health care fraud scheme it had ever charged — a conspiracy that funneled more than $1 billion in fraudulent claims through Medicare and Medicaid over the better part of a decade.
 
@@ -3478,6 +3513,10 @@ Guo's case is a reminder that affinity fraud doesn't require a shared church, wo
     title: 'Albertino de Figueiredo and the Afinsa Stamp Empire That Turned Postage Into a Ponzi Scheme',
     slug: 'albertino-de-figueiredo-afinsa-stamp-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Edificios_Skyline_Madrid_03.jpg?width=1200',
+    coverImageCredit: 'Photo: Luis García (CC BY-SA 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Albertino de Figueiredo, a Portuguese businessman based in Madrid, founded Afinsa Bienes Tangibles in 1980 as a stamp-trading and auction house. Over the following two decades he built it into the third-largest collectibles company in the world, trailing only Sotheby's and Christie's, with hundreds of thousands of clients across Spain and Portugal and a controlling stake in the U.S.-listed collectibles firm Escala Group. To the outside world, and to the pensioners and middle-class savers who made up the bulk of its customer base, Afinsa looked like a serious, tangible alternative to the stock market — an investment backed by something you could hold in your hand, in a country where memories of past financial crises made rare stamps feel safer than paper assets.
 
@@ -3494,6 +3533,10 @@ Afinsa's collapse remains one of the clearest illustrations of how a Ponzi schem
     title: 'Truong My Lan and the $12 Billion Bank Fraud That Vietnam Punished With a Death Sentence',
     slug: 'truong-my-lan-van-thinh-phat-scb-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Ho_Chi_Minh_City_Skyline_2022_(3).jpg?width=1200',
+    coverImageCredit: 'Photo: Xuanphuocle (CC BY-SA 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Truong My Lan began as a market-stall vendor, selling cosmetics with her mother at Ho Chi Minh City's Ben Thanh Market in the 1980s, before building Van Thinh Phat Holdings into one of Vietnam's largest private real-estate conglomerates, developing hotels, shopping centers, and office towers across the city. By the early 2010s she was one of the wealthiest people in the country, and when regulators pushed three struggling banks to merge into a single institution, Saigon Commercial Bank (SCB), to head off a wider financial crisis in 2011 and 2012, Lan was the businessperson informally entrusted with steadying it.
 
@@ -3510,6 +3553,10 @@ Lan's case is, so far, the starkest illustration on record of what a bank-owners
     title: 'Hreiðar Már Sigurðsson and the Al-Thani Deal That Sank Kaupthing Bank',
     slug: 'hreidar-mar-sigurdsson-kaupthing-al-thani-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Reykjav%C3%ADk_skyline_-_Skuggahverfi.JPG?width=1200',
+    coverImageCredit: 'Photo: Navaro (CC BY-SA 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Hreiðar Már Sigurðsson joined Kaupthing's asset management division in Reykjavik in 1994, straight out of university, and rose with the bank as Iceland's newly deregulated financial sector transformed a handful of small domestic lenders into aggressive international players. He became deputy CEO in 1998, ran Kaupthing's New York office, and in 2003, at just 32, was named CEO of what had grown into Iceland's largest bank. Under his leadership Kaupthing expanded explosively across Scandinavia and the UK, and by 2007 Time magazine counted him among its 100 most influential people in the world — not yet for the fraud that would come to define his reputation, but for having built, out of a country of roughly 320,000 people, a financial institution that briefly rivaled banks many times Iceland's size.
 
@@ -3526,6 +3573,10 @@ Sigurðsson's case remains one of the clearest counterexamples to the broader st
     title: 'Karl Sebastian Greenwood and the OneCoin Fraud That Outlasted Its "Cryptoqueen"',
     slug: 'karl-greenwood-onecoin-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Sofia_skyline.jpg?width=1200',
+    coverImageCredit: 'Photo: Sami C (CC BY 2.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `When Ruja Ignatova launched OneCoin in Sofia, Bulgaria, in 2014, marketing it at packed arena conferences as the coin that would "kill Bitcoin," she needed someone who could turn that pitch into an actual sales force. That person was Karl Sebastian Greenwood, a Swedish-British businessman with a background in multi-level marketing who became OneCoin's co-founder and global master distributor, designing the tiered recruitment and commission structure that let the scheme spread through personal networks — church groups, immigrant communities, retirees, and existing MLM circles — in more than 175 countries.
 
@@ -3542,6 +3593,10 @@ OneCoin's survival for years past the point where basic questions should have ex
     title: 'Hanno Berger and the Cum-Ex Trades That Cost Germany Billions',
     slug: 'hanno-berger-cum-ex-tax-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Skyline_Frankfurt_am_Main_2015.jpg?width=1200',
+    coverImageCredit: 'Photo: Christian Wolf (CC BY-SA 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Hanno Berger spent the first twelve years of his career on the other side of the fence, working as a bank auditor inside Hessen's state tax administration and rising to become the region's senior official for overseeing how banks handled their taxes. In 1996 he crossed over into private practice, joining a string of law and advisory firms — including the German offices of Shearman & Sterling and Dewey & LeBoeuf — where the same regulatory expertise that had once been used to catch tax abuse was redeployed to engineer it. By the mid-2000s, Berger was widely regarded inside German finance as the intellectual architect of "cum-ex" trading, a scheme so lucrative that he is reported to have told colleagues unwilling to structure the deals that they should get used to fewer kindergartens being built with the tax revenue they were leaving on the table.
 
@@ -3558,6 +3613,10 @@ Cum-ex is a reminder that not every large-scale fraud requires a fabricated bala
     title: "Wu Xiaohui and the Anbang Insurance Empire Built on Illegal Fundraising",
     slug: 'wu-xiaohui-anbang-insurance-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Skyline_of_Beijing_CBD_from_the_southeast_(20210907094201).jpg?width=1200',
+    coverImageCredit: 'Photo: N509FZ (CC BY-SA 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Wu Xiaohui founded Anbang Insurance Group in Zhejiang province in 2004 with a small property-insurance license and, within little more than a decade, built it into one of China's largest and most aggressive financial conglomerates. His marriage to Zhuo Ran, a granddaughter of former Chinese leader Deng Xiaoping, gave him ties deep inside the country's political establishment, and Wu used that standing — along with an unusually free hand to negotiate major transactions personally — to push Anbang far beyond ordinary insurance underwriting. By early 2016, the company claimed roughly $253 billion in assets and had gone on an overseas buying spree that included New York's Waldorf Astoria hotel for close to $2 billion, San Francisco's Westin St. Francis, and other trophy properties across Belgium, Canada, and South Korea, transforming a provincial insurer into a global name in the space of about ten years.
 
@@ -3574,6 +3633,10 @@ Wu's case is a striking illustration of how insurance products, sold as safe and
     title: 'Chen Zhi and the Prince Group Scam Compounds Behind a $15 Billion Bitcoin Seizure',
     slug: 'chen-zhi-prince-group-pig-butchering-scam',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Skyline_of_Phnom_Penh.jpg?width=1200',
+    coverImageCredit: 'Photo: Mao Piseth (CC BY-SA 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Chen Zhi built Prince Holding Group into one of Cambodia's most visible conglomerates, a sprawling business empire with declared interests in real estate, banking, an airline, and hospitality across more than thirty countries. To the outside world, and to the Cambodian officials who welcomed Prince Group's investment and honored Chen with government titles, the company looked like a legitimate, if fast-growing, regional success story built by a Chinese-Cambodian businessman still in his thirties. Federal prosecutors in Brooklyn allege that image concealed a far larger and far darker enterprise: a network of forced-labor scam compounds that generated as much as $30 million a day at its peak by defrauding victims — many of them in the United States — out of their savings through what has become known as "pig butchering" fraud.
 
@@ -3590,6 +3653,10 @@ The Prince Group case is, so far, the clearest illustration on record of what li
     title: "Mehmet Aydın and the FarmVille Clone That Became Turkey's $250 Million Ponzi Scheme",
     slug: 'mehmet-aydin-ciftlik-bank-farm-ponzi-scheme',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/%C4%B0stanbul_skyline_from_the_Marmara-hotel.JPG?width=1200',
+    coverImageCredit: 'Photo: Robster1983 (CC0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Mehmet Aydın was 25 when he launched Çiftlik Bank — "Farm Bank" — in August 2016, marketing it first as an online farming game in the mold of Zynga's FarmVille, where players bought virtual cows, chickens, and land with real money. What set it apart from an ordinary mobile game, and what drew in ordinary Turkish savers rather than just teenagers with disposable income, was Aydın's promise that the virtual purchases funded actual livestock and produce on real farms across Turkey, and that players would earn a cut of the resulting profits as their animals and crops "grew." Aydın, who went by the nickname "Tosuncuk" ("chubby one"), built a following on social media by showing off a jet-setting lifestyle of luxury cars and designer clothes that he framed as proof the platform worked exactly as advertised.
 
@@ -3606,6 +3673,10 @@ Turkish prosecutors ultimately charged twenty defendants tied to the operation, 
     title: 'Andika Surachman, Anniesa Hasibuan, and the First Travel Scam That Stranded 63,000 Pilgrims',
     slug: 'andika-surachman-anniesa-hasibuan-first-travel-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/The_Skyline_of_Jakarta.jpg?width=1200',
+    coverImageCredit: 'Photo: Prayudi Setiadharma (CC BY-SA 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Andika Surachman and his wife Anniesa Hasibuan founded First Travel in Depok, Indonesia, in 2009, entering a travel industry built around one of the largest recurring pilgrimages on earth: the umrah, a non-obligatory version of the hajj that observant Muslims can undertake at any time of year, and for which Indonesia — home to the world's largest Muslim population — generates enormous, constant demand. By the mid-2010s Anniesa had also become a minor celebrity in her own right as a fashion designer, becoming the first designer to send an all-hijab collection down the runway at New York Fashion Week in September 2016, a platform that lent the couple's travel business an extra layer of credibility with prospective customers.
 
@@ -3622,6 +3693,10 @@ The seized assets proved far too small to make victims whole, and a protracted l
     title: 'Rishi Shah, Shradha Agarwal, and the Outcome Health Fraud That Fooled Goldman Sachs and Google',
     slug: 'rishi-shah-outcome-health-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Chicago_Skyline_at_Dusk.jpg?width=1200',
+    coverImageCredit: 'Photo: Matthew T Rader (CC BY-SA 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Rishi Shah and Shradha Agarwal met as undergraduates at Northwestern University, and in 2006 developed the business plan that became Outcome Health, a Chicago company built around a simple pitch to the pharmaceutical industry: install internet-connected television screens and tablets in doctors' waiting rooms and exam rooms nationwide, then sell drugmakers advertising space on those screens, promising to reach patients at the precise moment they were discussing their conditions with a physician. The company, originally branded ContextMedia, grew from sixteen employees in 2011 to more than five hundred by 2017, and its rapid, well-publicized ascent made Shah, still in his early thirties, a fixture of Chicago's tech and civic scene.
 
@@ -3640,6 +3715,10 @@ Outcome Health's collapse is a case study in how sophisticated, well-resourced i
     title: 'Vehbi Alimuçaj, VEFA Holding, and the Pyramid Schemes That Nearly Toppled Albania',
     slug: 'vehbi-alimucaj-vefa-holding-albania-pyramid-scheme',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Skanderbeg_Square_in_Tirana.jpg?width=1200',
+    coverImageCredit: 'Photo: Marc Morell (CC BY-SA 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Vehbi Alimuçaj founded VEFA Holding in 1994, four years after Albania emerged from more than four decades of the most rigidly closed Stalinist dictatorship in Europe, a country with almost no functioning banking sector, no securities regulator, and a population that had never been allowed to own a private business, let alone evaluate an investment. VEFA built itself into a sprawling conglomerate with real, visible assets — hotels, fuel depots, retail stores, and factories — which gave it a credibility the country's dozens of other emerging investment schemes lacked. It also offered depositors interest rates of 30 to 100 percent a month, a promise so far outside anything a real business could sustain that it should have been the clearest possible warning sign in any functioning financial market. Albania in the mid-1990s was not one.
 
@@ -3656,6 +3735,10 @@ Albania's pyramid collapse remains the starkest illustration on record of what h
     title: 'Nate Chastain and the First-Ever NFT Insider Trading Conviction',
     slug: 'nate-chastain-opensea-nft-insider-trading',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Lower_Manhattan_Skyline_September_2021.jpg?width=1200',
+    coverImageCredit: 'Photo: Kidfly182 (CC BY-SA 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Nate Chastain joined OpenSea, the largest marketplace for non-fungible tokens, in 2020 as it rode the NFT boom into becoming one of the most talked-about companies in crypto, and rose to head of product — a role that put him in charge of, among other things, deciding which NFT collections got featured on the site's homepage. In an unregulated market where a listing's price could be driven almost entirely by visibility, that decision carried real financial weight: OpenSea's own data showed that being featured on the homepage could send a collection's price up by a factor of five or more within hours of going live, as the marketplace's traffic surged toward whatever the algorithm and Chastain's team had chosen to highlight that day.
 
@@ -3672,6 +3755,10 @@ Chastain's case matters less for the dollar amount involved than for what it est
     title: "Marcin Plichta and the Amber Gold Scheme That Reached Poland's Prime Minister",
     slug: 'marcin-plichta-amber-gold-poland-pyramid-scheme',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Gda%C5%84sk_centrala_Amber_Gold.JPG?width=1200',
+    coverImageCredit: 'Photo: Tomasz Przechlewski (CC BY 2.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Marcin Plichta was already a repeat fraud offender by the time he founded Amber Gold in Gdańsk in January 2009 — Polish courts had convicted him of fraud several times between 2005 and 2009, each time handing down a suspended sentence that left him free to keep operating. Renamed from an earlier holding company that summer, Amber Gold marketed itself as Poland's first dedicated storage house for gold and other precious metals, offering ordinary savers a way to invest in bullion the company said it was buying and holding on their behalf, with guaranteed returns that comfortably beat anything a Polish bank would pay on a savings account. In a country only two decades removed from communism, where trust in formal banking was still incomplete and gold carried a cultural reputation as the safest possible store of value, the pitch found a ready audience.
 
@@ -3708,6 +3795,10 @@ Voigt's scheme worked for a reason that outlasted Prussian militarism by more th
     title: "Reza Zarrab, Halkbank, and the Multibillion-Dollar Scheme to Launder Iran's Sanctioned Oil Money",
     slug: 'reza-zarrab-halkbank-iran-sanctions-evasion',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Modern_Istanbul_skyline.jpg?width=1200',
+    coverImageCredit: 'Photo: Ben Morlok (CC BY-SA 2.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Reza Zarrab was born in Iran in 1983 and built his career as a gold trader in Turkey, where by his late twenties he controlled a network of companies — beginning with Royal Maritime in 2008 and expanding into Royal Holding, founded with his brother in 2010 — that moved gold and currency across the Iran-Turkey-Dubai corridor at a scale few private traders in the region could match. His wealth and connections were substantial enough that he had reportedly donated millions of dollars to a charity founded by the wife of Turkish President Recep Tayyip Erdoğan, and he cultivated relationships with senior officials in Ankara that would later become central to the case against him.
 
@@ -3726,6 +3817,10 @@ The Zarrab case is a rare instance where the mechanics of sanctions evasion were
     title: "Aimee Bock, Feeding Our Future, and America's Largest Pandemic-Relief Fraud",
     slug: 'aimee-bock-feeding-our-future-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Minneapolis_skyline-20070805.jpg?width=1200',
+    coverImageCredit: 'Photo: steve lyon (CC BY-SA 2.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Aimee Bock founded Feeding Our Future in Minnesota in 2016 as a nonprofit "sponsor" organization within the Federal Child Nutrition Program, a structure in which the U.S. Department of Agriculture funnels money through state agencies and approved nonprofit sponsors to sites that serve free meals to children — day cares, after-school programs, and community meal sites — with the sponsor responsible for signing up sites, submitting meal-count reimbursement claims to the state on their behalf, and taking a percentage as an administrative fee. For its first several years, the organization operated at a modest scale: in 2019, Feeding Our Future disbursed roughly $3.4 million in federal funds.
 
@@ -3765,6 +3860,10 @@ Helmsley's fraud is remembered today mostly for a single quotable sentence, but 
     title: 'David Murcia Guzmán and the DMG Pyramid Scheme That Set Off Riots in Colombia',
     slug: 'david-murcia-guzman-dmg-colombia-pyramid-scheme',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Skyline_downtown_Bogota.jpg?width=1200',
+    coverImageCredit: 'Photo: Tijs Zwinkels (CC BY-SA 2.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `David Murcia Guzmán began building what became DMG around 2003, while still in his early twenties, in Colombia's southern Putumayo department — a region defined for decades by the cocaine trade and largely bypassed by the country's formal banking system. What started as a multilevel-marketing pitch was formally incorporated as Grupo DMG S.A. in April 2005 and restructured under the holding company D.M.G. Grupo Holding S.A. in 2006, with Murcia retaining 51 percent ownership. The business presented itself not as an investment firm but as a retail loyalty program, which let it avoid the scrutiny Colombian regulators would have applied to an unlicensed financial institution taking public deposits.
 
@@ -3783,6 +3882,10 @@ DMG belongs to the same family of fraud as Albania's pyramid schemes and Turkey'
     title: 'Carrie Tolstedt, the Wells Fargo Fake-Accounts Scandal, and the Only Executive Ever Charged',
     slug: 'carrie-tolstedt-wells-fargo-fake-accounts-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Wellsfargohq.jpg?width=1200',
+    coverImageCredit: 'Photo: Laimerpramer (CC BY-SA 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Carrie Tolstedt spent 27 years at Wells Fargo, rising to head of the bank's Community Banking division, the unit that ran its entire retail branch network, before retiring in the summer of 2016. Inside that division, branch employees worked under an aggressive cross-selling program — publicly branded around goals like "eight is great," a target of eight separate accounts and products per household — backed by sales quotas that senior management tracked daily and tied directly to employee pay and continued employment. Tolstedt was, by her own former colleagues' accounts, deeply hands-on in setting and enforcing those targets, and the division's cross-sell numbers became one of the statistics Wells Fargo most prominently touted to investors as proof of its retail banking strength.
 
@@ -4747,10 +4850,9 @@ If your business was contacted by an aggressive ERC promoter, or already filed a
     title: '"Free Lunch" Investment Seminars: When a Steak Dinner Is the Sales Pitch',
     slug: 'free-lunch-investment-seminar-scam-guide',
     author: 'ScamShield Editorial',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Meeting_room,_table_and_paper_board.jpg?width=1200',
-    coverImageCredit: 'Photo: Luis Argerich (CC BY 2.0)',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Steak_Dinner_(Unsplash).jpg?width=1200',
+    coverImageCredit: 'Photo: Eduardo Roda Lopes (CC0)',
     coverImagePosition: 50,
-    // representative photo — replace with an exact match if found
     tags: ['guide', 'investment-seminar-scam'],
     sourceUrl: 'https://www.nasaa.org/1950/senior-investor-alert-free-meal-seminars/',
     body: `An invitation arrives in the mail, or by robocall, offering a free steak dinner or gourmet lunch at a nice restaurant or hotel in exchange for attending a short "educational" workshop on retirement planning, Social Security, or protecting savings from market risk — with "no obligation to buy anything" and "limited seating" creating urgency to RSVP fast. Regulators who've actually attended these events found something different happening in the room than what the invitation promised.
@@ -5107,9 +5209,8 @@ If a call, text, or email like this arrives, don't act on it directly — contac
     author: 'ScamShield Editorial',
     tags: ['guide', 'jury-duty-scam'],
     sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2026/06/ignore-calls-texts-and-emails-threatening-arrest-you-missing-jury-duty',
-    // representative photo — replace with an exact match if found
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/CourtGavel.JPG?width=1200',
-    coverImageCredit: 'Jonathunder, CC BY-SA 4.0, via Wikimedia Commons',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Jurors_Only_(490613967).jpg?width=1200',
+    coverImageCredit: 'Photo: Douglas Muth (CC BY-SA 2.0)',
     coverImagePosition: 50,
     body: `A phone call arrives from someone identifying themselves as a U.S. Marshal or a local police officer, claiming the recipient missed jury duty and now faces arrest unless a fine is paid immediately. The caller ID can be spoofed to display the actual name of a real police department or the U.S. Marshals Service, and the caller may already know the recipient's name or address, small real details dropped in specifically to make an entirely fabricated situation feel credible.
 
@@ -5211,10 +5312,9 @@ Before buying any used car, check its full title history through the National Mo
     slug: 'mystery-shopper-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'mystery-shopper-scam'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Gift_card_assortment.jpg?width=1200',
-    coverImageCredit: 'Photo: Tom Eppenberger Jr. (CC BY 2.0)',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Blank_check.jpg?width=1200',
+    coverImageCredit: 'Photo: Mario Lurig (CC0)',
     coverImagePosition: 50,
-    // representative photo — replace with an exact match if found
     sourceUrl: 'https://consumer.ftc.gov/articles/mystery-shopping-scams',
     body: `A job listing or unsolicited message offers work as a "mystery shopper" — visiting or reviewing businesses and getting paid for the trouble — and the first assignment sounds simple: evaluate a store that sells gift cards or wire-transfer services. The company mails a check upfront, sometimes for several hundred or a few thousand dollars, with instructions to deposit it, use part of the money to buy gift cards as part of the "evaluation," and keep the rest as pay.
 
