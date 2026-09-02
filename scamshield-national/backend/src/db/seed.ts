@@ -17698,6 +17698,30 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Nationaal Cyber Security Centrum (NCSC)', 'Giro555'],
     sourceUrl: 'https://www.ncsc.nl/ondernemersverhaal/zo-kwam-giro555-in-actie-tegen-nepmails',
   },
+  {
+    name: 'Wisconsin Attorney Client-Trust-Fund Conversion (Guy K. Fish)',
+    slug: 'wisconsin-attorney-guy-fish-trust-fund-conversion',
+    description:
+      'Wisconsin attorney Guy K. Fish had a $373,598 property-sale closing check made payable to himself rather than his clients or the title company, deposited it into his personal and business accounts instead of a client trust account, then gave his clients "multiple false excuses" — including falsely claiming he was the "closing agent" — when they asked where their money had gone. In a separate matter the same attorney told a different client that estate funds would earn more interest sitting in his trust account, even though he had no trust account and attorney trust accounts never pay interest to the lawyer, then spent over a year lying to a probate court about wire transfers he had never actually requested while he converted the full $100,000 for his own use. The Wisconsin Office of Lawyer Regulation brought 17 counts of misconduct across three client matters, and the Wisconsin Supreme Court accepted Fish\'s petition for consensual license revocation on March 20, 2026, after he had already reimbursed every affected client in full. Before letting any attorney handle a home sale, inheritance, or settlement, insist that funds be wired directly to you or made payable to a licensed title company — never to the lawyer personally — and check any Wisconsin attorney\'s discipline history free through the State Bar\'s online lawyer directory before signing over control of a large payment.',
+    categorySlug: 'mortgage-foreclosure-scams',
+    country: 'US',
+    state: 'WI',
+    alertLevel: 'high',
+    sources: ['Wisconsin Office of Lawyer Regulation', 'Wisconsin Supreme Court'],
+    sourceUrl: 'https://www.wicourts.gov/sc/opinion/DisplayDocument.pdf?content=pdf&seqNo=1093897',
+  },
+  {
+    name: 'Hansen-Mueller Grain Dealer Insolvency Fraud',
+    slug: 'nebraska-hansen-mueller-grain-dealer-fraud',
+    description:
+      'Omaha-based grain merchandiser Hansen-Mueller kept buying grain on credit from farmers across the Midwest through October 2025 while, farmers in a later Texas lawsuit alleged, concealing that it was already insolvent and unable to pay — leaving roughly 38 Nebraska producers alone unpaid for nearly $2 million in deliveries. The Nebraska Public Service Commission\'s Grain Warehouse and Dealer Department suspended the company\'s state grain-dealer license on October 24, 2025 and opened a formal complaint, but Hansen-Mueller filed for Chapter 11 bankruptcy weeks later, leaving more than 1,000 creditors across 34 states — Kansas alone had over 128 — to seek recovery. Nebraska\'s twelve verified producer claims, totaling just over $1.1 million, were ultimately paid out of the company\'s $1 million state-required grain-dealer bond at roughly 90 cents on the dollar, an outcome the Commission credited to Nebraska\'s licensing and bonding framework working as designed even though the underlying fraud wasn\'t stopped in time to prevent it. Before delivering grain or any other farm commodity on credit, producers can check a buyer\'s current license and bond status with their state\'s grain warehouse regulator, and should treat any pattern of delayed payment as a reason to halt shipments and demand cash on delivery.',
+    categorySlug: 'mortgage-foreclosure-scams',
+    country: 'US',
+    state: 'NE',
+    alertLevel: 'medium',
+    sources: ['Nebraska Public Service Commission'],
+    sourceUrl: 'https://psc.nebraska.gov/for-consumers/commission-approves-hansen-mueller-grain-claims',
+  },
 ];
 
 async function seedCategoriesAndScams() {
