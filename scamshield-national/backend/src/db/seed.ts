@@ -21238,6 +21238,45 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Coinbase', 'The Block'],
     sourceUrl: 'https://help.coinbase.com/en/coinbase/privacy-and-security/avoid-scams/tech-support-scams',
   },
+  {
+    name: 'Iowa Crypto ATM Operator Consumer Fraud Lawsuit',
+    slug: 'iowa-crypto-atm-operator-consumer-fraud-lawsuit',
+    description:
+      "Following a first-of-its-kind investigation that subpoenaed 14 cryptocurrency ATM companies, Iowa Attorney General Brenna Bird sued Bitcoin Depot and CoinFlip — the state's two largest crypto ATM operators — on February 26, 2025, alleging hundreds of Iowans, most of them over 60, sent more than $20 million through their kiosks after being manipulated by unrelated scammers posing as government agents, banks, or romantic partners. The lawsuit alleges both companies violated the Iowa Consumer Fraud Act by profiting directly from those scam transactions through steep, often undisclosed fees — a 23% cut for Bitcoin Depot and 21% for CoinFlip — and separately accuses Bitcoin Depot of misleading customers about its refund policy once a transaction was reported as fraud. The case remains pending in Iowa court. Because a crypto ATM operator has no legal obligation to stop an obviously scam-driven transaction, Iowans should treat any caller's instruction to withdraw cash and feed it into one of these kiosks as proof of fraud on its own, and can report a suspicious kiosk transaction to the Iowa Attorney General's Consumer Protection Division at 888-777-4590.",
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    state: 'IA',
+    alertLevel: 'medium',
+    sources: ['Iowa Attorney General'],
+    sourceUrl:
+      'https://www.iowaattorneygeneral.gov/newsroom/attorney-general-bird-sues-crypto-atm-companies-for-costing-iowans-more-than-20-million',
+  },
+  {
+    name: 'Mid South Retirement Services Self-Directed IRA Custodian Theft',
+    slug: 'louisiana-mid-south-retirement-services-sdira-custodian-theft',
+    description:
+      "Jerry O. Pearson owned and operated Mid South Retirement Services, LLC, a Boyce, Louisiana firm that served as custodian for self-directed IRAs and managed roughly $40 million in client retirement assets between 2012 and 2021. Rather than investing client funds as instructed, Pearson quietly transferred money Mid South held in trust into other accounts he personally controlled, spending it on personal expenses and his other businesses while continuing to tell clients their money was invested as directed. The scheme, investigated by the FBI with assistance from the Securities Division of the Louisiana Office of Financial Institutions, totaled $3,431,152.21 in stolen client funds; Pearson pleaded guilty in August 2024 and was sentenced on January 30, 2025 to 63 months in federal prison plus full restitution. A self-directed IRA custodian holds whatever asset an account owner directs but, unlike a brokerage, doesn't independently verify the money is actually invested where it's supposed to be — so anyone using one should request account statements or confirmations directly from the underlying investment rather than relying solely on the custodian's own paperwork, and can check a custodian's standing with the Louisiana Office of Financial Institutions before moving retirement funds.",
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    state: 'LA',
+    isHistorical: true,
+    sources: ['Louisiana Office of Financial Institutions'],
+    sourceUrl:
+      'https://ofi.la.gov/jerry-o-pearson-sentenced-to-federal-prison-for-stealing-money-from-clients-through-wire-fraud-scheme/',
+  },
+  {
+    name: 'Benaiah Capital Crypto Investment Fraud',
+    slug: 'south-dakota-benaiah-capital-crypto-investment-fraud',
+    description:
+      "Sioux Falls resident Benjamin Paul Wiener ran a cluster of entities — including Benaiah Capital LLC, Benaiah Digital Fixed Income LP, and Benaiah Management Company — that federal prosecutors say he used to solicit money and cryptocurrency directly from dozens of victims across South Dakota and Minnesota with false statements about how their funds would be invested, taking in an estimated $20 million. Rather than investing the money as promised, prosecutors allege Wiener moved it through banks and cryptocurrency exchanges to obscure its source before spending it on personal expenses, and separately used another person's stolen identifying information to fraudulently obtain a $1 million bank line of credit in April 2025. A federal grand jury indicted Wiener on 29 counts of wire fraud, money laundering, bank fraud, and aggravated identity theft, and he pleaded not guilty before a magistrate judge on July 10, 2026; the case is pending trial. Unlike many crypto scams run entirely by strangers overseas, this one allegedly involved a known local businessman soliciting neighbors directly — a reminder that a familiar face or a local address is no substitute for confirming an investment manager is actually registered with state or federal securities regulators before handing over money.",
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    state: 'SD',
+    alertLevel: 'medium',
+    sources: ['U.S. Attorney\'s Office, District of South Dakota'],
+    sourceUrl:
+      'https://www.justice.gov/usao-sd/pr/sioux-falls-crypto-investor-indicted-wire-fraud-money-laundering-bank-fraud-and',
+  },
 ];
 
 async function seedCategoriesAndScams() {
