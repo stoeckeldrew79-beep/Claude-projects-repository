@@ -3436,6 +3436,60 @@ Esformes served just over four years of that sentence before President Trump com
 Esformes's scheme is a stark illustration of a pattern that keeps surfacing in health care and addiction-treatment fraud: recruiters paid to deliver vulnerable patients, care decisions made to maximize billing rather than to help anyone get well, and, in the worst cases, patients' own dependency used as leverage to keep the fraud running. The same patient-brokering mechanic — cash or kickbacks paid per referral, unnecessary services layered on top, and a financial incentive to keep patients sick rather than heal them — continues to drive fraud in addiction-treatment and sober-living facilities across the country today, making it one of the clearest reminders that a "trusted" health care provider's business model is worth understanding before a vulnerable family member is referred anywhere.`,
     sourceUrl: 'https://www.justice.gov/usao-sdfl/pr/south-florida-health-care-facility-owner-sentenced-20-years-prison-role-largest-healt-0',
   },
+  {
+    title: 'Marcelo Odebrecht and the "Division of Structured Operations" That Ran Latin America\'s Largest Bribery Machine',
+    slug: 'marcelo-odebrecht-lava-jato-petrobras-bribery',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Marcelo_Bahia_Odebrecht.jpg?width=1200',
+    coverImageCredit: 'Photo: World Economic Forum, 2009, via Wikimedia Commons (CC BY-SA 2.0)',
+    coverImagePosition: 50,
+    body: `Marcelo Odebrecht was born into Brazilian corporate royalty. His grandfather Norberto had built Odebrecht S.A. from a small construction firm in Bahia into the largest engineering and construction conglomerate in Latin America, with operations spanning highways, dams, ports, and petrochemical plants across more than twenty countries. Marcelo took over as CEO in 2008 at age 39, inheriting a company that was, by every outward measure, a Brazilian success story — a national champion whose logo appeared on stadiums built for the 2014 World Cup and infrastructure projects from Angola to Peru. What investigators would later uncover was that the company's growth had, for years, been running on a second set of books that no annual report ever disclosed.
+
+Inside Odebrecht, prosecutors found, was a fully staffed internal unit that employees referred to as the "Division of Structured Operations" — in effect, a bribery department, complete with its own budget, dedicated accounting software borrowed from black-market money changers, and a rotating cast of former bank employees who managed disguised payments the way a legitimate treasury department manages payroll. The division's job was to calculate, authorize, and disburse bribes to politicians and state-company executives across the region in exchange for public contracts, funneling the money through shell companies and offshore accounts in jurisdictions chosen specifically to frustrate anyone trying to trace it. Investigators who eventually cracked the system found it had paid out an estimated $788 million in bribes across twelve countries between roughly 2001 and 2016 — the broadest bribery network any single company had ever been shown to run.
+
+The scheme surfaced through Brazil's Operation Car Wash (Lava Jato), a money-laundering investigation that began in 2014 with a gas station car wash used to launder cash and expanded into the largest corruption probe in Brazilian history. Investigators traced payments from Odebrecht and other construction firms to executives at Petrobras, the state-controlled oil giant, who steered lucrative contracts to companies willing to pay for them, with a share of the money flowing onward to political parties and campaigns. Marcelo Odebrecht was arrested on June 19, 2015, and prosecutors ultimately tied him personally to more than $30 million in bribes paid to Petrobras insiders to keep the pipeline of contracts flowing.
+
+On March 8, 2016, a federal judge in Curitiba convicted Odebrecht of corruption, criminal association, and money laundering and sentenced him to 19 years and four months in prison — at the time the harshest sentence yet handed down in the Car Wash cases. Rather than fight the conviction, Odebrecht and dozens of company executives struck a sweeping leniency agreement with prosecutors in December 2016: Odebrecht personally admitted guilt, agreed to detail the bribery network's operations across Latin America and Africa, and the company agreed to pay $2.6 billion in fines, then the largest corporate anticorruption settlement in history, jointly resolved with U.S. and Swiss authorities. In exchange, his sentence was reduced to ten years, then further reduced to seven and a half years on appeal in 2022, and he had already been released to house arrest in December 2017 to serve out the remainder outside prison.
+
+Odebrecht's testimony, along with that of dozens of other company executives who took the same deal, became the evidentiary backbone for corruption prosecutions across more than a dozen countries, implicating current and former presidents in Brazil, Peru, Ecuador, Colombia, Panama, and the Dominican Republic. The case remains the clearest illustration on record of how bribery can be run as a professionally managed corporate function rather than a series of isolated bad decisions — a dedicated department, its own software, its own staff — and how a leniency deal that trades a shortened sentence for detailed cooperation can do more to expose a bribery network than a contested trial ever could. For anyone trying to understand how public contracts get captured by private money, the Division of Structured Operations is the closest thing to a blueprint investigators have ever recovered intact.`,
+    sourceUrl: 'https://en.wikipedia.org/wiki/Marcelo_Odebrecht',
+  },
+  {
+    title: 'Miles Guo and the Billion-Dollar "Rule of Law" Fraud Built on a Movement Against China\'s Government',
+    slug: 'miles-guo-wengui-himalaya-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Guo_Wen-gui_in_April_2017.jpg?width=1200',
+    coverImageCredit: 'Photo: Voice of America, 2017 (public domain)',
+    coverImagePosition: 50,
+    body: `Guo Wengui — known in the United States as Miles Guo — arrived in New York in 2017 as one of China's wealthiest men, a real-estate and securities tycoon who said he had fled Beijing after exposing corruption among senior Communist Party officials. Chinese authorities, in turn, accused him of rape, bribery, and fraud, charges he dismissed as political retaliation. Whatever the truth of the original dispute, Guo rebuilt himself in exile as a self-styled dissident leader, amassing hundreds of thousands of followers on social media and, by 2020, forming a public alliance with former Trump strategist Steve Bannon around a shared goal of undermining the Chinese government. He lived in a Central Park penthouse, joined Mar-a-Lago, and cultivated the image of a billionaire freedom fighter bankrolling a movement from his own fortune.
+
+Federal prosecutors say that image was itself the product he was selling, and that the fortune behind it was substantially other people's money. Beginning around 2018, Guo used his online following to solicit investment in a series of ventures pitched as extensions of his anti-Beijing crusade: GTV Media Group, a media company whose private stock placement raised roughly $452 million from investors who were told, falsely, that there was no risk and that any losses would be personally reimbursed; G|Clubs, a membership program charging $10,000 to $50,000 in fees in exchange for promised GTV stock; the "Himalaya Exchange," a purported cryptocurrency platform where investors bought "H-Coin" and "H-Dollar" tokens that prosecutors said were little more than numbers on an internal spreadsheet rather than genuine blockchain assets; and the "Himalaya Farm Loan Program," which took in money from investors under the promise of high returns. Underneath all of it sat the Rule of Law Foundation and Rule of Law Society, nonprofit vehicles Guo had launched by telling donors he was personally contributing the first $100 million — a claim prosecutors say was false from the start.
+
+Investigators alleged that Guo and his top lieutenant, Yvette Wang, diverted the money raised across these ventures — more than $1 billion in total from thousands of investors worldwide — into accounts they personally controlled, then spent it on a lifestyle that included a $37 million New Jersey mansion, a $30 million yacht named "Lady May," a fleet of luxury cars including a Lamborghini and Ferraris, and two custom mattresses priced at $36,000 apiece. Guo was arrested in March 2023 and charged with racketeering conspiracy, wire fraud, securities fraud, bank fraud, and money laundering. Following a seven-week jury trial, he was convicted on nine of twelve counts on July 16, 2024; Wang was convicted separately and later sentenced to ten years in prison for her role.
+
+On June 29, 2026, U.S. District Judge Analisa Torres sentenced Guo to 30 years in federal prison and ordered him to forfeit nearly $889 million in fraudulently obtained assets, including the mansion and the luxury vehicles. In handing down the sentence, Torres said Guo had "preyed on those seeking to bring democracy to China," using their trust in his political cause as the mechanism for taking their money. Guo, who had built his defense around portraying the prosecution as an extension of Chinese Communist Party pressure on the U.S. government, maintained his innocence throughout.
+
+Guo's case is a reminder that affinity fraud doesn't require a shared church, workplace, or ethnicity to work — a shared political cause, especially one built around opposition to a genuinely repressive government, can generate the same reflexive trust and the same reluctance among victims to question a leader's finances. Investors who wired money into GTV or the Himalaya Farm Loan Program believed they were funding a movement, not a mansion and a yacht, and the years it took investigators to trace $1 billion moved through nonprofits, a private stock placement, a fake cryptocurrency, and a membership club shows how effectively a cause-driven pitch can insulate a fraud from the kind of scrutiny an ordinary investment offer would draw immediately.`,
+    sourceUrl: 'https://www.justice.gov/usao-sdny/pr/miles-guo-sentenced-30-years-prison-leading-billion-dollar-fraud',
+  },
+  {
+    title: 'Albertino de Figueiredo and the Afinsa Stamp Empire That Turned Postage Into a Ponzi Scheme',
+    slug: 'albertino-de-figueiredo-afinsa-stamp-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Albertino de Figueiredo, a Portuguese businessman based in Madrid, founded Afinsa Bienes Tangibles in 1980 as a stamp-trading and auction house. Over the following two decades he built it into the third-largest collectibles company in the world, trailing only Sotheby's and Christie's, with hundreds of thousands of clients across Spain and Portugal and a controlling stake in the U.S.-listed collectibles firm Escala Group. To the outside world, and to the pensioners and middle-class savers who made up the bulk of its customer base, Afinsa looked like a serious, tangible alternative to the stock market — an investment backed by something you could hold in your hand, in a country where memories of past financial crises made rare stamps feel safer than paper assets.
+
+The pitch was straightforward: clients bought portfolios of rare stamps from Afinsa at prices the company itself set, and Afinsa guaranteed it would buy them back later at a fixed, higher price — typically implying a guaranteed annual return of around 6 percent, well above what Spanish banks were offering. What clients weren't told was that the stamps underlying their "investment" were, in many cases, common or artificially overvalued, appraised by Afinsa's own in-house experts at prices with no relationship to what any independent stamp market would actually pay. The buyback guarantees to existing clients were funded almost entirely by the money brought in by new clients — a Ponzi structure hidden behind the appearance of a physical, appraisable asset, which made it far harder for outsiders, and regulators, to recognize as a Ponzi scheme at all.
+
+The scheme held together for more than 25 years before Spanish police raided Afinsa's Madrid headquarters in May 2006, arresting Figueiredo, his son Carlos Figueiredo Escribá, and several other executives, and freezing the company's assets. The collapse revealed that Afinsa had taken in money from more than 190,000 investors across Spain and Portugal, with roughly 150,000 of them losing their savings when the company folded; total liabilities were later calculated at €2.57 billion. A parallel raid hit Fórum Filatélico, a competing Spanish stamp-investment firm running a nearly identical scheme, confirming that the model had metastasized across the entire Spanish stamp-investment industry rather than being confined to one company.
+
+The case took a decade to reach trial. On July 27, 2016, Spain's national court, the Audiencia Nacional, convicted eleven former Afinsa executives of fraud, with the court calling it "one of the biggest frauds our courts have ever experienced." Afinsa's president, Antonio Cano, received the longest sentence at 12 years and 10 months; Figueiredo himself was sentenced to more than eight years in prison. The court ordered six of the defendants to pay €2.57 billion in compensation to victims, though the great majority of that sum was never realistically recoverable given how much of it had already been spent or dissipated over decades of operation.
+
+Afinsa's collapse remains one of the clearest illustrations of how a Ponzi scheme can hide behind a tangible, appraisable asset rather than a paper security — the same instinct that makes gold, art, wine, and rare coins attractive vehicles for affinity and asset-backed fraud today, because a physical object that a company itself gets to price feels less abstract, and therefore less risky, to an investor than a stock certificate ever could. The lesson investigators drew from Afinsa applies just as directly to any modern pitch built around a "guaranteed buyback" of a collectible whose value only the seller gets to set: an appraisal from the same firm selling you the asset is not independent verification, it's simply the fraud restating its own claim in official-looking language.`,
+    sourceUrl: 'https://www.thelocal.es/20160727/eleven-jailed-in-stamp-scam-one-of-spains-biggest-frauds',
+  },
 ];
 
 // Practical "how it works / red flags / what to do" guides covering the
@@ -5468,6 +5522,57 @@ The pitch is built to short-circuit exactly the skepticism a cold call about mon
 The clearest red flags are a claim that someone else already purchased a device for you, any invocation of a health organization's endorsement that you haven't independently verified, and a "free" offer of any kind that still asks for a credit card number before anything is confirmed in writing. A legitimate medical alert provider will let you review pricing and monitoring terms on your own time, in writing, without a live recorded call pressuring an immediate answer, and will not bill monitoring fees for a device that was never activated.
 
 If you receive a call like this, hang up rather than staying on the line to "opt out," and never provide payment information based on an unsolicited robocall. Anyone already enrolled and being billed should contact their card issuer to dispute the charges and demand cancellation in writing from the company directly. Report the scam to the FTC at ReportFraud.ftc.gov.`,
+  },
+  {
+    title: 'Fake Subscription Renewal Invoices: The Geek Squad, Norton, and McAfee Email That Isn\'t a Bill',
+    slug: 'fake-subscription-renewal-invoice-scam',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'subscription-renewal-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Close-up%20of%20a%20woman%20looking%20at%20a%20credit%20card%20while%20working%20on%20her%20laptop.jpg?width=1200',
+    coverImageCredit: 'Photo: Shixart1985 (CC BY 2.0)',
+    coverImagePosition: 50,
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2022/10/how-recognize-fake-geek-squad-renewal-scam',
+    body: `An email or text arrives that looks exactly like a receipt: a familiar brand name — Geek Squad, Norton, McAfee, or a similar tech-services or antivirus provider — and a charge of a few hundred dollars, often somewhere around $300 to $500, for a subscription renewal the recipient doesn't remember signing up for or doesn't want. A phone number is included to "dispute the charge" or "cancel your renewal," usually with a warning to call within 24 hours before the charge finalizes.
+
+The trick is that no charge ever happened. The invoice is fabricated from the start, built to look like an automated receipt precisely so it reads as routine rather than suspicious — most people have at least one legitimate subscription renew unexpectedly at some point, which is exactly the ordinary experience this fake email is designed to imitate. The false deadline pushes the recipient to call immediately rather than pause and check their actual account or bank statement first, where they'd find no such charge exists.
+
+Calling the number connects to a scammer posing as a support agent, who typically asks for remote access to the victim's computer "to process the cancellation," a request that lets them install spyware, dig for banking credentials, or lock the victim out of their own files. The FTC has documented a common follow-on version of this scam as well: the "agent" pretends to refund the disputed amount, but claims to have mistakenly refunded too much, then pressures the victim to send back the difference — usually in gift cards — for money that was never actually sent in the first place.
+
+The clearest red flags are any unexpected renewal notice quoting an unusually large amount, a phone number embedded in the message itself, and any instruction to buy gift cards to repay an "overpayment." No legitimate company issues refunds that require the customer to buy gift cards to correct. If you get one of these messages, don't call the number in it — check your actual account and bank or card statement directly, and if you want to reach the company, use the phone number on their official website, found independently. Anyone who already called and granted remote access should disconnect the device from the internet, run a security scan from software they already trust, change passwords from a separate device, and contact their bank about any card or account information shared. Report the scam to the FTC at ReportFraud.ftc.gov.`,
+  },
+  {
+    title: 'Hacked Social Media Account Scams: When an Urgent Money Request Isn\'t Really From Your Friend',
+    slug: 'hacked-social-media-account-scam',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'social-media-account-takeover'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Social%20Media%20App%20Icons%20On%20The%20Screen%20of%20A%20Smartphone.jpg?width=1200',
+    coverImageCredit: 'Photo: Mike MacKenzie (CC BY 2.0)',
+    coverImagePosition: 50,
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2025/06/did-new-online-friend-ask-money-odds-are-its-scam',
+    body: `A message shows up on Facebook, Instagram, or another platform from a real friend or family member's actual account — the profile photo, the name, the shared history of comments and tags all check out. But the account itself has been hijacked: a scammer got the login credentials, usually through a prior phishing message or a data breach, and is now working through the victim's real friends list pretending to be them. The message often opens with something plausible — stuck traveling, a sudden bill, a "you won't believe what happened" story — before asking for money by gift card, wire transfer, cryptocurrency, or a payment app.
+
+This works precisely because it defeats the one instinct people rely on most to avoid scams: recognizing the sender. A stranger's request gets scrutinized; a request that appears to come from someone you've known for years, on their real account, usually doesn't. The FTC has tracked more than $2.7 billion in reported losses to scams that originate on social media since 2021 — more than any other contact method — and hijacked accounts messaging real contacts are a significant driver of that total, because the built-in trust does most of the scammer's work for them.
+
+A related version skips the hijacking step entirely: a scammer creates a brand-new profile using a real person's stolen photos and public information, sends a friend request, and slowly builds a relationship or "reconnection" before the money request arrives — the same mechanism as a romance scam, but framed as reconnecting with someone from the past rather than a new romantic interest.
+
+The reliable defense is to verify off-platform before sending anything, no matter how convincing the account looks: call or text the person at a phone number you already have, not one they just supplied, or reach them another way you know is real. Payment methods scammers favor — gift cards, wire transfers, cryptocurrency — are themselves a warning sign regardless of who appears to be asking. If your own account gets hijacked, change your password immediately from a different device, enable two-factor authentication, check for and revoke any unfamiliar connected apps, and warn your contacts that messages from your account during the hijack weren't from you. Report the scam to the FTC at ReportFraud.ftc.gov and report the compromised account to the platform directly.`,
+  },
+  {
+    title: '"My Social Security" Account Takeover: How Identity Thieves Redirect Retirement and Disability Benefits',
+    slug: 'social-security-account-takeover-benefit-redirect',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'social-security-account-takeover'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Social%20Security%20card.jpg?width=1200',
+    coverImageCredit: 'Photo: Social Security Administration (public domain)',
+    coverImagePosition: 50,
+    sourceUrl: 'https://oig.ssa.gov/news-releases/2013-05-03-newsroom-news-releases-may3advisory/',
+    body: `Millions of people receiving Social Security retirement, survivor, or disability benefits never get around to creating their own "my Social Security" online account at ssa.gov, assuming there's no urgency since the checks (or direct deposits) keep arriving either way. That gap is exactly what identity thieves exploit: using a victim's stolen Social Security number, date of birth, and other personal details — often gathered from a data breach, phishing message, or public records — a scammer creates the online account first, in the real beneficiary's name, before the actual beneficiary ever does.
+
+Once inside, the thief has the same access a legitimate account holder would: they can change the bank account and routing number on file for direct deposit, redirecting future benefit payments to an account they control. The Social Security Administration's own Office of the Inspector General has documented tens of thousands of these unauthorized account creations and millions of dollars in benefits redirected this way, with many victims discovering the fraud only when their expected deposit doesn't show up.
+
+This scam works because it targets a gap in attention rather than a moment of panic — there's no urgent phone call or scary email to react to, just an account nobody thought to claim first. It also exploits the reasonable but mistaken assumption that a government benefit, once set up, doesn't need active protection the way a bank account does.
+
+The most effective defense is also the simplest: create your own my Social Security account at ssa.gov before anyone else can, using a strong, unique password and multi-factor authentication. SSA also offers two optional account-level protections worth adding for extra security — a Direct Deposit Fraud Prevention Block, which stops direct deposit and address changes from being made online or by phone at all, and an Extra Security / eServices Block, which locks out online access entirely until the beneficiary removes it in person or by phone with SSA. Anyone whose benefit payment doesn't arrive as expected, or who receives an unexpected "your information was changed" notice from SSA, should contact SSA directly at a number found on ssa.gov (not one from a text or email) right away, and report the fraud to the SSA Office of the Inspector General at oig.ssa.gov and to the FTC at ReportFraud.ftc.gov.`,
   },
 ];
 
@@ -16019,6 +16124,52 @@ const SEED_SCAMS: SeedScam[] = [
     alertLevel: 'high',
     sources: ['U.S. Securities and Exchange Commission (SEC)'],
     sourceUrl: 'https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-alerts/protect-your-tsp-account',
+  },
+  {
+    name: 'Dutch Energy Contract Switching Fraud via Power-of-Attorney (Volmachtfraude)',
+    slug: 'dutch-energy-contract-switching-volmachtfraude',
+    description:
+      'Telemarketers cold-call households and small businesses to sell a new energy contract, and during the call talk the person into granting a verbal or digital power of attorney that lets the seller switch their electricity or gas supplier on their behalf. Consumers are often not properly told what the power of attorney entails, are switched to a new supplier without realizing they\'ve agreed to it, and are then charged inflated fees to reverse the switch, fees the Dutch consumer authority says are frequently misrepresented since a power of attorney can actually be revoked free of charge at any time. This is distinct from a scam impersonating a supplier to collect a fake overdue bill, since here the fraud is deceptive telesales causing an actual unauthorized contract switch, and Dutch regulators found a quarter of households were approached this way in the past year, with nearly half feeling pressured to accept.',
+    categorySlug: 'utility-scams',
+    country: 'NL',
+    alertLevel: 'medium',
+    sources: ['Autoriteit Consument & Markt (ACM)'],
+    sourceUrl: 'https://www.acm.nl/nl/publicaties/acm-waarschuwt-voor-telefonische-verkoop-van-energiecontracten-met-volmachten',
+  },
+  {
+    name: 'Dutch CJIB Fake Traffic Fine Phishing Scam',
+    slug: 'dutch-cjib-fake-traffic-fine-phishing-scam',
+    description:
+      'Fraudulent emails, SMS messages, or WhatsApp messages impersonate the CJIB, the Dutch agency that collects fines and judicial debts, and claim the recipient has an unpaid traffic fine that must be settled urgently through a link, sometimes dangling a fake partial refund as a lure. The link leads to a fake site harvesting name, address, date of birth, and full payment card details including the CVV code, rather than processing any real fine payment. The CJIB states flatly that it never sends notices about fines, reminders, or payment arrears by email, SMS, or app, since genuine fine notices only ever arrive by post, and it has logged thousands of reports of this specific fake-fine wave, including one traced to a telecom data breach.',
+    categorySlug: 'government-impersonation',
+    country: 'NL',
+    alertLevel: 'high',
+    sources: ['CJIB (Centraal Justitieel Incassobureau)', 'Fraudehelpdesk (Netherlands)'],
+    sourceUrl: 'https://www.cjib.nl/nieuws/mail-sms-appje-ontvangen-over-niet-betaalde-bedragen-bij-het-cjib-deze-vals',
+  },
+  {
+    name: 'Hawaii "Tax Processing Group" Fraudulent Collection Letter Scam',
+    slug: 'hawaii-tax-processing-group-fraudulent-collection-letter',
+    description:
+      'Hawaii residents receive official-looking mailed letters demanding payment on an "overdue debt," falsely signed by entities calling themselves the "Tax Processing Group" and "Internal Processing Service," neither of which has any connection to the State of Hawaii. The letters use intimidating language, including threats to seize property over the unpaid balance, and direct recipients to call a phone number to resolve it. The Hawaii Department of Taxation has repeatedly and publicly warned taxpayers to never reply to correspondence from either fake entity and to verify any real tax notice only through its own official contact channels, a mailed, intimidation-based fake-collector letter naming specific fictitious agencies rather than a text-based refund phishing scam.',
+    categorySlug: 'tax-scams',
+    country: 'US',
+    state: 'HI',
+    alertLevel: 'medium',
+    sources: ['Hawaii Department of Taxation (DOTAX)'],
+    sourceUrl: 'https://www.hawaiipublicradio.org/local-news/2024-03-19/state-warns-of-new-tax-scam-that-threatens-to-seize-property-due-to-debt',
+  },
+  {
+    name: 'New Hampshire Fake Fishing and Hunting License Websites',
+    slug: 'new-hampshire-fake-fishing-hunting-license-websites',
+    description:
+      'Unofficial commercial websites impersonate state license portals, including New Hampshire\'s, offering to sell fishing and hunting licenses for any of the 50 states via a dropdown state-selector, something the real NH Fish and Game site never presents. After payment, consumers receive only generic instructions on how to apply rather than an actual valid license, and some sites upsell a paid "pre-hunter safety test" or a "concierge service guide," neither of which the legitimate agency offers or requires. New Hampshire Fish and Game publicly warned residents to buy only through the department\'s own official website, at its Concord headquarters, or through official licensed agents, and the state\'s Consumer Protection Bureau has taken public complaints on the scheme.',
+    categorySlug: 'online-shopping-scams',
+    country: 'US',
+    state: 'NH',
+    alertLevel: 'low',
+    sources: ['New Hampshire Fish and Game Department', 'New Hampshire Department of Justice, Consumer Protection Bureau'],
+    sourceUrl: 'https://www.concordmonitor.com/fishling-license-scam-NH-6311787',
   },
 ];
 
