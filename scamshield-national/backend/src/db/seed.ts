@@ -17364,12 +17364,34 @@ const SEED_SCAMS: SeedScam[] = [
     slug: 'washington-fpi-management-low-income-senior-apartment-deception',
     description:
       'A California-based property manager and the owners of five "low-income" senior apartment complexes across Western Washington marketed to tenants aged 55 and up without disclosing how their rent would be calculated and increased over time, while misrepresenting the condition of units, the availability of advertised amenities like pools and fitness rooms, and on-site safety measures, affecting more than 1,000 vulnerable tenants. Washington Attorney General Nick Brown sued under the state Consumer Protection Act, and the case resolved in a $7 million settlement — $2.5 million toward tenant restitution and future enforcement, plus $4.5 million in required capital improvements over four years, along with staff retraining and corrected advertising at the companies\' other Washington properties. Seniors evaluating income-restricted housing should get the rent-calculation formula and any amenity or safety claims in writing before signing a lease, and can report a mismatch between what was advertised and what was delivered to the state Attorney General\'s Consumer Protection Division.',
-    categorySlug: 'identity-theft',
+    categorySlug: 'online-shopping-scams',
     country: 'US',
     state: 'WA',
     alertLevel: 'medium',
     sources: ['Washington State Office of the Attorney General'],
     sourceUrl: 'https://www.atg.wa.gov/news/news-releases/ag-brown-secures-multi-million-dollar-settlement-fpi-management-and-property',
+  },
+  {
+    name: 'Japanese "Date Sales" Romance-Pressure Sales Scam (Deto Shouhou)',
+    slug: 'japan-date-sales-romance-pressure-scam',
+    description:
+      'A stranger met through a dating app, a "konkatsu" matchmaking event, or social media builds a romantic connection over several real, in-person dates before inviting the target to a jewelry shop, English-conversation school, or investment-property showroom, where a "coincidentally present" friend or sales staff member joins and pressures a high-priced purchase — commonly diamonds, memberships, or property — using flattery, an artificial deadline, and the social discomfort of refusing in front of a romantic interest. Known in Japan as "deto shouhou" (date sales) or "renai shouhou" (love commerce), the tactic disproportionately targets people in their teens and twenties; Japan\'s National Consumer Affairs Center has documented specific cases, including a woman pressured into buying a diamond after being introduced through a matching app. A 2018 amendment to Japan\'s Consumer Contract Act specifically made contracts formed this way — where a seller knowingly exploits a fabricated romantic relationship to override a buyer\'s better judgment — cancellable after the fact. Unlike SNS-based romance and investment scams that operate entirely online, the purchase here happens face-to-face and is dressed up as a couple\'s shared decision rather than a stranger\'s sales pitch, which is why victims often don\'t recognize it as fraud until well after signing.',
+    categorySlug: 'romance-scams',
+    country: 'JP',
+    alertLevel: 'medium',
+    sources: ['National Consumer Affairs Center of Japan (NCAC)'],
+    sourceUrl: 'https://www.kokusen.go.jp/t_box/data/t_box-faq_qa2020_07.html',
+  },
+  {
+    name: 'Japan Talent and Modeling Scout Contract Fee Scam',
+    slug: 'japan-talent-modeling-scout-contract-scam',
+    description:
+      'A stranger approaches a teenager or young adult on the street in a district like Shibuya or Harajuku, or messages them directly on social media, claiming to be a scout for a talent or modeling agency and promising a path to a TV, magazine, or influencer debut. Once interest is expressed, the target is walked through an office visit where staff insist that "lesson," "registration," or "management" fees — sometimes framed as required before any real work can begin — must be paid immediately to secure the spot, while discouraging the young person from taking time to think it over or discuss it with a parent. Japan\'s National Consumer Affairs Center flagged this specifically as a heightened youth risk starting in April 2022, when the country\'s civil-code age of majority dropped from 20 to 18, stripping newly-adult 18- and 19-year-olds of the "minor\'s right of cancellation" they previously could have used to void such a contract without a parent\'s consent. The promised debut or paid work rarely materializes once the fee is collected, and the "agency" itself often turns out to have no genuine industry contracts at all.',
+    categorySlug: 'employment-scams',
+    country: 'JP',
+    alertLevel: 'medium',
+    sources: ['National Consumer Affairs Center of Japan (NCAC)'],
+    sourceUrl: 'https://www.kokusen.go.jp/news/data/n-20220224_1.html',
   },
 ];
 
