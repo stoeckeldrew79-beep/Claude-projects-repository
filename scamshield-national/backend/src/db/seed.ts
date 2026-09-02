@@ -20196,6 +20196,42 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['UFC-Que Choisir', 'Cour de cassation (Chambre civile 1)', 'Tribunal de commerce de Créteil'],
     sourceUrl: 'https://www.francebleu.fr/infos/societe/arnaques-aux-panneaux-photovoltaiques-l-ufc-que-choisir-a-perpignan-traite-cinq-fois-plus-de-dossiers-que-l-an-dernier-8200290',
   },
+  {
+    name: 'Oregon Fake-Attorney Investment Scam Found Through a Dating App',
+    slug: 'oregon-fake-attorney-dating-app-investment-scam',
+    description:
+      'A scammer matched with a victim on the dating app Hinge, presenting himself as a real, practicing Oregon attorney offering personal investment services, and built a fraudulent website that impersonated the actual lawyer to make the pitch look credible. Believing they were investing with a licensed professional, the victim wired funds expecting returns and ultimately lost hundreds of thousands of dollars once the relationship and the "investment" both turned out to be fictitious. The Oregon Department of Justice issued a consumer alert about the case in August 2025, alongside a second, unrelated case in which scammers compromised an actual attorney\'s and client\'s email accounts to redirect a real settlement payment, together totaling over $1 million in reported losses. Before wiring money to anyone claiming to be a lawyer, verify their license and standing directly through the Oregon State Bar\'s public attorney directory rather than a website or contact information the person themselves provided, and treat "invest with me personally" pitches from a dating-app match as a red flag regardless of what credential is claimed.',
+    categorySlug: 'romance-scams',
+    country: 'US',
+    state: 'OR',
+    alertLevel: 'high',
+    sources: ['Oregon Department of Justice'],
+    sourceUrl: 'https://www.doj.state.or.us/media-home/news-media-releases/oregon-doj-consumer-hotline-warns-of-new-scam-impersonating-oregon-attorneys/',
+  },
+  {
+    name: 'Nueva Vision Latinoamerica Tourist-Visa Fraud and Passport Confiscation',
+    slug: 'minnesota-nueva-vision-visa-fraud-passport-confiscation',
+    description:
+      'Bloomington, Minnesota-based Nueva Vision Latinoamerica LLC and related companies charged customers several hundred to several thousand dollars each to obtain U.S. tourist visas for family members living abroad, with owner Christian Palacios falsely presenting herself as a licensed attorney even though she held no law license in Minnesota or anywhere else. Customers were told their relatives had to mail in original passports to complete the application, and when applications went unsubmitted or stalled, the company allegedly refused to return the passports unless the customer paid hundreds of dollars more — leaving families without valid travel documents for relatives who, in some cases, died before ever receiving a visa. Minnesota Attorney General Keith Ellison sued Palacios, co-defendant Juan Diego Guevara Sanchez, and their companies on December 22, 2025, alleging violations of the state\'s Consumer Fraud Act, Deceptive Trade Practices Act, and unauthorized practice of law, after more than 100 consumers filed complaints; the lawsuit also details fraud proceeds allegedly spent on a $183,000 Bentley and a $67,000 BMW. No legitimate visa consultant needs to hold onto a family member\'s original passport, and anyone offering "guaranteed" visa approval or claiming to be a licensed attorney should be checked against the Minnesota lawyer directory or the relevant state bar before any payment or document changes hands.',
+    categorySlug: 'government-impersonation',
+    country: 'US',
+    state: 'MN',
+    alertLevel: 'high',
+    sources: ["Minnesota Attorney General's Office"],
+    sourceUrl: 'https://www.ag.state.mn.us/Office/Communications/2025/12/22_NuevaVision.asp',
+  },
+  {
+    name: 'Oahu Forged-Deed Property Theft and Arson-Insurance Scheme',
+    slug: 'hawaii-oahu-forged-deed-arson-insurance-fraud',
+    description:
+      'Eldon Simer allegedly forged and recorded fake deeds to properties he did not own across Oahu, then sold or attempted to sell the fraudulent ownership interests to unsuspecting buyers — but in one instance went further, taking out a homeowner\'s insurance policy on a Lualualei property in October 2022 by falsely claiming to be its owner, entirely unbeknownst to the real owner. When the property burned in a fire less than two weeks later, Simer filed a $290,000 insurance claim for the loss. A Hawaii grand jury indicted Simer on 15 counts including first-degree computer fraud, theft, insurance fraud, and forgery in November 2025, with co-defendant Guy Villanueva separately charged with theft and computer fraud for his role in the scheme; both pleaded not guilty, with trial set for January 2026. Because this scheme depends on a stranger successfully recording a false claim of ownership against a property without the real owner ever finding out, Hawaii property owners — especially those who own vacant, inherited, or out-of-state land — should periodically check their own title at the Bureau of Conveyances or county recorder\'s office, and can sign up for free deed-fraud alert notifications where offered, since a forged deed or a fraudulent insurance policy filed in a real owner\'s name can otherwise go undetected for months.',
+    categorySlug: 'insurance-fraud',
+    country: 'US',
+    state: 'HI',
+    alertLevel: 'medium',
+    sources: ["Hawaii Department of the Attorney General", 'Honolulu Star-Advertiser'],
+    sourceUrl: 'https://ag.hawaii.gov/wp-content/uploads/2025/11/News-Release-2025-94.pdf',
+  },
 ];
 
 async function seedCategoriesAndScams() {
