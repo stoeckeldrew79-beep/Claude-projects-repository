@@ -15079,6 +15079,39 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['South Dakota Department of Legislative Audit'],
     sourceUrl: 'https://www.keloland.com/news/searing-report-confirms-misdoings-fraud-and-conflicts-in-gear-up-scandal/',
   },
+  {
+    name: 'Fake NHK Fee Collector Scam',
+    slug: 'japan-nhk-impersonation-fee-collection-scam',
+    description:
+      'A caller or an unannounced door-to-door visitor claims to represent NHK, Japan\'s public broadcaster, and demands immediate cash payment for a fabricated pretext, such as a fee for "converting to digital broadcasting," a claimed lapse in the automatic bank debit, or a new streaming surcharge, sometimes without carrying the identification card NHK\'s own genuine field staff are required to show. A related email or text variant sends fake "confirm your reception fee within 24 hours" messages linking to lookalike payment pages that harvest card and bank details. NHK states that legitimate staff always carry ID and that fee matters are only ever handled through its own verified payment slip, bank transfer, credit card, or official payment window, never by demanding cash on the spot or via an emailed link.',
+    categorySlug: 'government-impersonation',
+    country: 'JP',
+    alertLevel: 'medium',
+    sources: ['NHK', 'Ministry of Internal Affairs and Communications — Kanto Bureau of Telecommunications (Japan)'],
+    sourceUrl: 'https://www.nhk-cs.jp/about/homon/',
+  },
+  {
+    name: 'Fake Government Benefit Payment Phishing Scam',
+    slug: 'japan-benefit-payment-phishing-scam',
+    description:
+      'An email or text impersonating Japan\'s Ministry of Internal Affairs and Communications or a local government claims a cash benefit, such as a fabricated "second" relief payment styled after a real past program, is available, and links to a fake official-looking application site that harvests bank account numbers, My Number ID, and other personal details. The Ministry has publicly confirmed no such benefit program existed when these emails first circulated from a spoofed government-lookalike address, and the identical scam pattern has recurred in new waves timed around real benefit-payment news cycles. The Ministry states it never issues benefit notifications by unsolicited email and directs verification only through its own official government portal, never a link in a message.',
+    categorySlug: 'public-benefits-fraud',
+    country: 'JP',
+    alertLevel: 'medium',
+    sources: ['Ministry of Internal Affairs and Communications (Japan)', 'Japan Cybercrime Control Center (JC3)'],
+    sourceUrl: 'https://www.soumu.go.jp/menu_kyotsuu/important/kinkyu02_000438.html',
+  },
+  {
+    name: 'SNS "Individual Lending" Loan Shark Scam',
+    slug: 'japan-sns-individual-lending-loan-shark-scam',
+    description:
+      'Posts on social media and messaging platforms advertise "individual-to-individual lending," informal person-to-person loans that bypass registered lenders, and unlicensed operators posing as ordinary individuals actually lend small amounts of real money before charging illegal, far-above-legal-limit interest rates. Japan\'s Financial Services Agency has documented cases where lenders demanded sexual acts as a loan condition, threatened violence when repayment became difficult, or vanished after collecting an upfront "guarantee fee," and because such arrangements require sharing personal identifying information or explicit photos as informal "collateral," victims who fall behind face blackmail and harassment beyond the debt itself. The Agency states that even a private individual repeatedly lending money this way is operating an unregistered money-lending business under Japan\'s Money Lending Business Act, and warns the public to avoid these socially-sourced loans entirely.',
+    categorySlug: 'debt-relief-scams',
+    country: 'JP',
+    alertLevel: 'critical',
+    sources: ['Financial Services Agency (Japan)', 'Kanto Local Finance Bureau (Japan)'],
+    sourceUrl: 'https://www.fsa.go.jp/ordinary/chuui/kinyu_chuui.html',
+  },
 ];
 
 async function seedCategoriesAndScams() {
