@@ -4634,6 +4634,9 @@ Veterans who need cash quickly have real, legal options that don't involve givin
     slug: 'health-insurance-marketplace-open-enrollment-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'health-insurance-marketplace-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Healthcare.gov_open_enrollment_November1-December_15.png?width=1200',
+    coverImageCredit: 'Photo: Office of Congresswoman Michelle Lujan Grisham (Public Domain)',
+    coverImagePosition: 50,
     sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2024/11/looking-marketplace-health-insurance-open-enrollment-season-avoid-scammers',
     body: `Every fall, as the Affordable Care Act's Health Insurance Marketplace open enrollment period opens, a wave of ads, robocalls, and social media posts appears offering "free" phones, gas cards, or cash rewards just for signing up for a health plan, or claiming to represent HealthCare.gov itself. Some of these are lead-generation operations that sign people up for skimpy, non-ACA-compliant plans — short-term policies that exclude preexisting conditions or cap coverage — while implying the plan is comprehensive Marketplace coverage. Others are straightforward impersonation: a caller claims to be a government Marketplace representative or "certified enrollment specialist," asks for a Social Security number, bank account, or credit card number to "verify eligibility" or "lock in" a subsidy, and either steals the information outright or uses it to enroll the victim in a plan, or switch an existing plan, without genuine consent.
 
@@ -4710,6 +4713,51 @@ The math rarely favors the person selling. The CFPB has taken enforcement action
 Federal and state structured settlement protection laws exist because this pattern is so well documented: nearly every state requires a judge to approve a structured settlement transfer and confirm it's in the seller's best interest, and requires the seller to receive advice from a professional advisor who is genuinely independent of the buyer, not one selected and paid by the company profiting from the deal. A buyout offer that pressures a decision before a court date, discourages talking to an independent attorney or financial advisor, or supplies its own "independent" advisor as part of the package is bypassing the exact safeguards the law put in place. A steeply discounted lump sum — often a small fraction of the total value of the payments being given up — is standard in this industry, not a special deal being offered.
 
 Anyone considering selling structured settlement or pension payment rights should get advice from an attorney or financial advisor they found and are paying independently, not one recommended by the buyer, and should get a second offer from a different company before signing anything, since discount rates vary significantly between buyers. The court approval hearing required for these transfers is a real opportunity to ask questions or back out, not a formality to get through quickly. Anyone who believes they were misled into an unfair structured settlement sale should file a complaint with the Consumer Financial Protection Bureau at consumerfinance.gov/complaint. Report the scam to the FTC at ReportFraud.ftc.gov.`,
+  },
+  {
+    title: 'Diploma Mill and Fake Certification Scams: When a "Degree" or Credential Was Never Real',
+    slug: 'diploma-mill-certification-scam-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'diploma-mill-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/High_School_Diploma_(2554514719).jpg?width=1200',
+    coverImageCredit: 'Photo: Mike Czyzewski (CC BY-SA 2.0)',
+    coverImagePosition: 50,
+    sourceUrl: 'https://consumer.ftc.gov/articles/college-degree-scams',
+    body: `An ad or unsolicited email promises a bachelor's degree, a professional certification, or a continuing-education credential in a matter of days or weeks, often based mostly or entirely on "life experience" rather than coursework — no classes to attend, no exams to study for, no professors to satisfy. The site behind the offer usually looks polished, cites an "accrediting body" with an official-sounding name, and charges a flat fee, sometimes a few hundred dollars, sometimes several thousand, due upfront before the "degree" or certificate is issued.
+
+The FTC has taken action against operators of fake online high schools and diploma mills that collected money from tens of thousands of people for worthless paperwork, some of whom went on to use those fake diplomas to apply for jobs, enlist in the military, or enroll in real college programs — only to be turned away once the "credential" was checked. The pitch works because it targets a real and reasonable goal: many people chasing a diploma or professional certification are doing it specifically to open doors that require one, on a timeline or budget that a traditional program can't match, which makes a fast, cheap shortcut sound like a lucky break rather than a warning sign.
+
+The tell is almost always the same one the FTC points to directly: legitimate colleges, universities, and professional certification bodies — including real online and distance-learning programs — require substantial coursework, testing, or supervised practice hours, and simply cannot issue a degree or credential in days or weeks no matter how much life experience an applicant has. A "school" or "certifying body" that can't be found through your state's department of education, a real accreditor listed at the Department of Education's database, or a quick search alongside the word "scam," combined with pressure to pay immediately and aggressive spam-style marketing, are the same pattern the FTC has shut down in case after case.
+
+Before paying for any online degree or certification program, verify the school's accreditation independently through the Department of Education rather than trusting a name the site itself provides, and separately confirm with the specific employer, licensing board, or professional association that the credential will actually be recognized. Anyone who has already paid for a worthless diploma or certificate should be prepared to explain the situation if it comes up during a background check, since using one knowingly can itself create problems with an employer or licensing board. Report the scam to the FTC at ReportFraud.ftc.gov.`,
+  },
+  {
+    title: 'Influencer Brand Deal Scams: When a "Sponsorship" Offer Is Really a Bank-Info Grab',
+    slug: 'influencer-brand-deal-payment-scam-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'influencer-scam'],
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2024/03/influencers-spot-job-scam',
+    body: `A message lands in a content creator's DMs or inbox from someone claiming to be a "brand ambassador manager" or recruiter for a well-known company, offering free products to try and a surprisingly generous payment for a post or two tagging the brand. The offer is flattering and specific — it names the creator, references their follower count or niche — and moves fast: before any contract or product has actually shown up, the "manager" asks for banking details so the payment can be sent, or for a purchase of the company's product upfront, to be reimbursed later alongside the fee.
+
+The FTC has flagged this exact pattern as a fast-growing scam aimed specifically at social media influencers, including smaller creators who may never have been approached by a real brand before and have no baseline for what a legitimate partnership offer looks like. That's precisely what makes the pitch effective: a first real-looking brand deal is exciting, and the excitement of being "discovered" makes it easy to skip the verification steps a creator might otherwise apply to a stranger asking for their bank account or a wire transfer.
+
+Red flags the FTC calls out include pressure to accept and hand over financial information before any real conversation about the partnership's terms, a recruiter reachable only through a personal social media account or a generic email rather than a verifiable company address, and — most tellingly — any version of the deal that asks the creator to spend their own money first, whether by buying product upfront, paying a "processing" or "verification" fee, or depositing a check and wiring part of it back. No legitimate brand partnership requires a creator to pay to get paid, and a real company does not send a check and then ask for money to be sent back from it.
+
+Before responding to any unsolicited brand deal, look up the company independently and contact it through a phone number or email found on its own official website — not a link or contact the recruiter provided — to confirm the offer is real, and search the recruiter's name or handle alongside "scam" or "complaint." Never share bank account numbers, routing numbers, or a Social Security number with someone who reached out first, and never deposit a check and wire back a portion of it, since the check will eventually bounce and the bank will hold the account holder responsible for the full amount. Report the scam to the FTC at ReportFraud.ftc.gov.`,
+  },
+  {
+    title: 'Fake Vehicle History Report Scams: How a "Buyer" Turns Your Car Listing Into a Phishing Page',
+    slug: 'vehicle-history-report-scam-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'vehicle-history-report-scam'],
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2018/10/steering-clear-vehicle-history-report-scams',
+    body: `Someone selling a used car online — on Craigslist, Facebook Marketplace, or a similar site — gets a message from an interested "buyer" who says they're ready to move forward, but only after seeing a vehicle history report from one specific website. The buyer supplies a link, and the seller, wanting to close the sale, visits the site, enters their information, and pays around $20 to $25 by credit card for the report. The report itself may never even arrive, and either way, the "buyer" typically stops responding entirely once the payment goes through.
+
+The FTC has specifically warned about the version of this scam that redirects sellers to sites ending in the ".vin" domain — a legitimate but unrelated top-level domain that scammers exploit because it visually resembles "vehicle identification number," lending the site a false air of officialness it hasn't earned. Other variants point to convincing copycat sites designed to look like a real report provider. The scam works because asking for a vehicle history report before buying a used car is completely normal, even expected, buyer behavior — it's the kind of routine, responsible-sounding request a seller has little reason to push back on, which is exactly why it makes an effective cover for collecting payment card information from someone who was never actually going to buy the car.
+
+The red flags sit less in what's being asked for and more in how: a real buyer will almost never insist on one specific website chosen by them rather than a report the seller already has or a provider of the seller's own choosing, and a buyer who goes quiet the moment the report is purchased, or who never follows up to actually see or buy the car, was likely never a real buyer at all. Pressure to move the conversation off the platform's messaging system and onto text or a specific link is a related pattern worth treating with the same suspicion.
+
+Sellers who want to offer a history report can pull one themselves in advance from an NMVTIS-approved provider listed at vehiclehistory.gov, and share that instead of following a buyer's link. Anyone asked to buy a report from an unfamiliar site should decline and suggest the buyer either order their own report or accept one the seller already has; if a payment has already been made to a suspicious site, contact the card issuer to dispute the charge and watch statements closely for further unauthorized use. Report the scam to the FTC at ReportFraud.ftc.gov.`,
   },
 ];
 
