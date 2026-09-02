@@ -18010,6 +18010,41 @@ const SEED_SCAMS: SeedScam[] = [
     sourceUrl: 'https://www.iardc.org/RecentSupremeCourtCases',
     isHistorical: true,
   },
+  {
+    name: 'Kentucky Driver\'s License Kickback Scheme',
+    slug: 'kentucky-drivers-license-kickback-fraud-scheme',
+    description:
+      'A federal grand jury in Louisville indicted five people in February 2026 over a scheme run out of two regional Kentucky Transportation Cabinet driver\'s license offices, in which conspirators offered legally present non-U.S. citizens an "expedited" license — no testing required — in exchange for illegal fees of $200 to $1,500. Investigators allege some conspirators altered records in state licensing databases to bypass the testing requirement outright, letting invalid licenses slip through as if they had been earned normally. Once the Transportation Cabinet detected the irregularities, it revoked 1,985 licenses issued through the scheme between November 2023 and October 2024, leaving people who thought they held valid Kentucky ID suddenly without one. The five defendants face mail fraud, honest-services fraud, unlawful production of identification documents, and money-laundering conspiracy charges; anyone applying for a Kentucky driver\'s license should go only through an official Transportation Cabinet office or its website and treat any offer — from an employee or anyone else — to skip required testing for a cash payment as a serious red flag.',
+    categorySlug: 'identity-theft',
+    country: 'US',
+    state: 'KY',
+    alertLevel: 'medium',
+    sources: ['U.S. Attorney\'s Office, Western District of Kentucky (Department of Justice)', 'Kentucky Transportation Cabinet'],
+    sourceUrl: 'https://www.irs.gov/compliance/criminal-investigation/five-indicted-by-federal-grand-jury-for-fraud-offenses-and-money-laundering',
+  },
+  {
+    name: 'Connecticut DraftKings Stolen-Card Recruitment Scheme',
+    slug: 'connecticut-draftkings-stolen-card-recruitment-scam',
+    description:
+      'Connecticut\'s Department of Consumer Protection Gaming Division, which licenses the state\'s legal online sports betting, warned that recruiters on TikTok and other social media are offering Connecticut residents "easy money" for using a DraftKings account — but the account gets funded with a credit card the recruiter supplies, which turns out to be stolen. Once the account shows winnings, the recruit is told to withdraw the funds to their own bank account and send a cut back to the recruiter through Zelle or a similar payment app, leaving the recruit, not the recruiter, holding the stolen card and the paper trail. State investigators have charged at least 15 Connecticut residents in a scheme involving more than $190,000 in fraudulent deposits made between August and September 2024 alone, with charges including first-degree identity theft, which carries up to 20 years in prison. The Gaming Division\'s warning is direct: never fund an online betting or gaming account with a card or bank account that is not your own, and treat any offer to make money by using someone else\'s payment details inside your own account as identity theft you will be charged for, not a side hustle.',
+    categorySlug: 'identity-theft',
+    country: 'US',
+    state: 'CT',
+    alertLevel: 'high',
+    sources: ['Connecticut Department of Consumer Protection, Gaming Division', 'NBC Connecticut'],
+    sourceUrl: 'https://portal.ct.gov/dcp/news-releases-from-the-department-of-consumer-protection/2025-news-releases/consumer-protection-gaming-division-warns-the-public-about-illegal-scheme-to-defraud-draftkings',
+  },
+  {
+    name: 'Fake "Trump Account" Activation Fee Scam',
+    slug: 'trump-account-activation-fee-scam',
+    description:
+      'A text, email, or lookalike website capitalizes on the new federal "Trump Account" children\'s savings program — created by the One Big Beautiful Bill Act, with enrollment opening January 1, 2026 and the government\'s $1,000 seed contribution beginning July 4, 2026 — to tell parents their child\'s account needs immediate "activation" or "verification," or that a pending deposit will be forfeited unless a processing, release, or verification fee is paid right away. Some versions link to a counterfeit site asking parents to enter the child\'s Social Security number plus the family\'s bank account and routing number to "claim" the deposit, while others impersonate the IRS, a "Trump Account enrollment center," or a support line surfaced through a paid search-engine ad. The U.S. Department of the Treasury states directly that it will never contact families by phone or text about Trump Account activation, that opening or funding an account never requires any fee, and that a legitimate activation email comes only from no-reply@TrumpAccounts.Treasury.gov. Real enrollment happens only by filing IRS Form 4547 — through the official Trump Accounts app, a federal tax return, or the IRS\'s Individual Online Account — and Treasury directs anyone contacted about the program unsolicited to ignore it and verify only through its own helpline or TrumpAccounts.gov.',
+    categorySlug: 'public-benefits-fraud',
+    country: 'US',
+    alertLevel: 'high',
+    sources: ['U.S. Department of the Treasury', 'Internal Revenue Service'],
+    sourceUrl: 'https://home.treasury.gov/news/press-releases/sb0508',
+  },
 ];
 
 async function seedCategoriesAndScams() {
