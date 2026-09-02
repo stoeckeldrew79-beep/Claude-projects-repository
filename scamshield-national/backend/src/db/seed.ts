@@ -22933,6 +22933,44 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Royal Canadian Mounted Police'],
     sourceUrl: 'https://rcmp.ca/en/news/2026/05/4352894',
   },
+  {
+    name: 'Washington "Probates for Profit" Estate-Hijacking Scheme',
+    slug: 'washington-probates-for-profit-estate-hijacking-scheme',
+    description:
+      'Between March 2019 and January 2024, John B. Elliott and Shanelle Sunde — operating as Probate & Administration Services LLC, Aurora Creek Ranch LLC, and Sunde Consulting LLC, with most filings in Kitsap County — exploited a loophole in Washington probate law that lets a court appoint an outside administrator for anyone who dies without a will, using it to get themselves appointed administrator of the estates of roughly 200 deceased strangers, often with no notice to the person\'s actual family. They sold at least 90 of the estate homes for a combined $28 million, paying themselves outsized and unjustified commissions and fees and, in Elliott\'s case, keeping personal property recovered from the homes — including a Jaguar sedan, a Mazda Miata, a Rolex, jewelry, and firearms — sometimes moving money between trust accounts to cover their tracks, while heirs frequently had no idea a probate case involving their relative\'s estate was even underway. One heir, Sandra Allen, learned only after her late sister Judy Bass\'s childhood home in Burien sold for $110,000 that the defendants had already drained more than three-quarters of the proceeds before a court froze what remained, leaving her $25,000 of it. Washington Attorney General Nick Brown sued under the state\'s Consumer Protection Act, and in October 2025 a King County Superior Court judge found the defendants liable, ordering them to pay more than $7 million combined in restitution, penalties, and fees, and permanently barring them from acting as probate administrators again. "People shouldn\'t have to worry about loopholes in the law that leave them or their family members vulnerable to fraud and abuse — especially during times of grief," Brown said. Washington courts do not automatically notify every relative when someone else petitions to administer an intestate estate, so families of a relative who died without a will should proactively check county probate court records rather than assume they\'ll be contacted, and should contact a probate attorney immediately if they learn a stranger\'s company was appointed administrator or that a family home was already sold without their knowledge.',
+    categorySlug: 'identity-theft',
+    country: 'US',
+    state: 'WA',
+    isHistorical: true,
+    firstRecorded: '2019-03-01',
+    sources: ["Washington State Attorney General's Office"],
+    sourceUrl: 'https://www.atg.wa.gov/news/news-releases/washington-holds-probates-profit-defendants-accountable',
+  },
+  {
+    name: 'CoinFlip Crypto ATM Kiosk Deceptive-Fee Scheme',
+    slug: 'missouri-coinflip-crypto-atm-deceptive-fee-scheme',
+    description:
+      'CoinFlip, doing business in Missouri as GPD Holdings LLC, operates more than 140 Bitcoin ATM kiosks in convenience stores, liquor stores, vape shops, and gas stations across the state, marketing itself as the world\'s largest cryptocurrency-ATM network by transaction volume and touting fraud-prevention safeguards on its machines. According to a lawsuit Missouri Attorney General Catherine Hanaway filed in May 2026, the company knowingly profits from scam transactions by charging convoluted, poorly disclosed fees that can reach nearly 22% of a transaction\'s value, turning its kiosks into a preferred cash-in point for callers running government-impersonation, tech-support, and romance scams — schemes that increasingly instruct victims to withdraw cash and feed it directly into a crypto ATM rather than wire it, because the resulting cryptocurrency payment is portable, irreversible, and difficult to trace back to the scammer. Missouri\'s state fusion centers identified 350 fraud cases involving a cryptocurrency ATM over the prior two years, and the FTC has reported that crypto-ATM fraud losses climbed nearly tenfold between 2020 and 2023, with reported losses topping $65 million in just the first half of 2024 and senior victims\' losses up more than twentyfold since 2020. "Bitcoin and crypto ATMs are the new getaway cars for fraud, whisking away innocent people\'s money to scammers, never to return," Hanaway said, and her office is asking a court to bar CoinFlip from operating in Missouri, impose civil penalties of up to roughly $1.83 million, and order consumer restitution. The clearest warning sign, per the Attorney General\'s office, is any unexpected caller — claiming to be law enforcement, a bank, tech support, or a romantic interest — who directs someone to withdraw cash and deposit it at a cryptocurrency kiosk while staying on the phone through the transaction; a legitimate agency or business never resolves a problem that way, and no kiosk operator should be able to keep collecting near-quarter-value fees on transactions it knows are fraudulent.',
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    state: 'MO',
+    alertLevel: 'high',
+    sources: ["Missouri Attorney General's Office"],
+    sourceUrl: 'https://ago.mo.gov/attorney-general-hanaway-files-suit-against-crypto-atm-network-for-enabling-scams/',
+  },
+  {
+    name: '"Blessings in No Time" Faith-Based Gifting-Circle Pyramid Scheme',
+    slug: 'texas-bint-blessings-in-no-time-pyramid-scheme',
+    description:
+      'Frisco, Texas couple LaShonda and Marlon Moore, who had appeared on a reality show on the Oprah Winfrey Network, drew on that credibility and weekly livestream broadcasts to launch "Blessings in No Time," or BINT, during the COVID-19 pandemic shutdowns of 2020 and 2021, marketing it to thousands nationwide as an invitation-only, faith-based community built around members "blessing" each other financially. The scheme ran on "playing boards" with four levels — eight "Fire," four "Wind," two "Earth," and one "Water" position — where each of the eight Fire participants had to pay at least $1,400 to whoever held the Water position, who then collected more than $11,000 before the board reset and lower-level participants moved up and had to recruit new Fires of their own in order to eventually cash out; the Moores falsely promised an 800% return and a guaranteed refund for anyone dissatisfied. IRS Criminal Investigation\'s Dallas Field Office found the scheme specifically targeted the African American community, exploiting cultural trust and community ties, and ultimately took more than $30 million from nearly 8,000 victims across the country. The Texas Attorney General\'s Office separately won a $10.76 million civil judgment and permanent injunction against the couple and their company, while a federal jury convicted the Moores in January 2026 of conspiracy, wire fraud, and money laundering; a judge sentenced each of them to 40 years in federal prison in June 2026. "This fraud scheme exploited people out of their hard-earned money at a time when they needed it most," said Assistant Attorney General A. Tysen Duva of the Justice Department\'s Criminal Division. Any invitation to a "gifting circle," "blessing loom," or similar program that requires paying existing members to join and promises a guaranteed multiple of that payment back is a pyramid scheme regardless of the community-minded or faith-based language used to describe it — legitimate investments never guarantee a fixed return, let alone one as high as 800%, and recruiting new payers is not a business model.',
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    state: 'TX',
+    isHistorical: true,
+    firstRecorded: '2020-06-01',
+    sources: ['IRS Criminal Investigation', "U.S. Attorney's Office, Eastern District of Texas"],
+    sourceUrl: 'https://www.irs.gov/compliance/criminal-investigation/texas-couple-sentenced-for-running-an-illegal-pyramid-scheme',
+  },
 ];
 
 async function seedCategoriesAndScams() {
