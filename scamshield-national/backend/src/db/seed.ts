@@ -14347,6 +14347,39 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Federal Trade Commission (FTC)'],
     sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2026/06/animal-lovers-learn-spot-and-avoid-breed-pet-scams',
   },
+  {
+    name: 'Indian Fake Pilgrimage and Tourist Travel Booking Scam',
+    slug: 'indian-fake-pilgrimage-tourist-booking-scam',
+    description:
+      'Fraudsters build convincing fake websites and social media ads offering discounted packages for pilgrimages such as the Char Dham Yatra or Amarnath Yatra, or for popular tourist destinations, using stolen imagery and fabricated reviews to collect advance payment for hotels, transport, and permits that were never booked, leaving pilgrims and tourists stranded or out of money right before travel. India\'s Cyber Crime Coordination Centre (I4C) has issued an alert on this pattern, noting scammers often exploit the emotional urgency around religious travel and the limited permit windows for high-altitude pilgrimages to pressure quick payment. I4C advises booking only through official tourism department portals or verified agents, and independently confirming any permit or booking confirmation before traveling.',
+    categorySlug: 'online-shopping-scams',
+    country: 'IN',
+    alertLevel: 'medium',
+    sources: ['Indian Cyber Crime Coordination Centre (I4C)', 'Ministry of Home Affairs (India)'],
+    sourceUrl: 'https://www.newsonair.gov.in/i4c-issues-alert-on-online-booking-frauds-targeting-pilgrims-and-tourists-warns-against-fake-websites-and-ads',
+  },
+  {
+    name: 'Fake Reserve Bank of India Lottery and Fund-Release Scam',
+    slug: 'fake-rbi-lottery-fund-release-scam',
+    description:
+      'Victims receive calls, emails, or letters claiming to be from the Reserve Bank of India (RBI) informing them they have won a lottery, inheritance, or foreign remittance that the RBI is "holding" pending payment of a processing fee, tax, or clearance charge, exploiting RBI\'s status as India\'s central bank to appear more credible than an ordinary lottery scam. The RBI states plainly that it never sends such communications, is not involved in lottery, prize money, or foreign-fund transfer schemes, and never asks anyone to pay a fee to release funds. The RBI\'s guidance is to ignore or report any message claiming RBI involvement in an unsolicited windfall and never to pay any fee to "release" money.',
+    categorySlug: 'government-impersonation',
+    country: 'IN',
+    alertLevel: 'medium',
+    sources: ['Reserve Bank of India (RBI)'],
+    sourceUrl: 'https://www.rbi.org.in/commonman/English/Scripts/PressReleases.aspx?Id=2660',
+  },
+  {
+    name: 'Vendor Email Compromise / Fake Bank-Detail-Change Fraud Targeting Indian Businesses',
+    slug: 'indian-vendor-email-compromise-bank-detail-change-fraud',
+    description:
+      'Attackers compromise or closely spoof a supplier\'s email account and, in the middle of a genuine ongoing business transaction, send an "updated" invoice or a message claiming the vendor\'s bank account has changed, redirecting the Indian company\'s payment to an account the criminals control, distinct from scams targeting individual consumers since the fraud is embedded inside a real B2B payment workflow the finance team already trusted. CERT-In has published an advisory on this vendor-impersonation pattern affecting Indian businesses, noting attackers often monitor a compromised mailbox for weeks to time the fake bank-change message around a real invoice due date. CERT-In recommends verifying any bank-detail change by phone using a number obtained independently of the email itself, and enabling multi-factor authentication on all vendor and finance-team email accounts.',
+    categorySlug: 'business-email-compromise',
+    country: 'IN',
+    alertLevel: 'high',
+    sources: ['Indian Computer Emergency Response Team (CERT-In)'],
+    sourceUrl: 'https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES02&VLCODE=CIAD-2026-0037',
+  },
 ];
 
 async function seedCategoriesAndScams() {
