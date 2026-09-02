@@ -19045,6 +19045,42 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Fraudehelpdesk (Netherlands)', 'NOS Nieuwsuur', 'Consumentenbond'],
     sourceUrl: 'https://nos.nl/nieuwsuur/artikel/2625912-betalen-voor-een-vakantiehuisje-dat-niet-bestaat-fraude-via-booking-com-neemt-toe',
   },
+  {
+    name: 'Mississippi Stolen-Identity Auto Dealership Financing Ring',
+    slug: 'mississippi-stolen-identity-auto-dealership-financing-fraud',
+    description:
+      'A five-person ring drove from Louisiana into the Jackson metro area, using stolen personal information to create fake IDs and other identity documents in the names of credit-worthy strangers, then posed as those people at car dealerships to apply for vehicle financing and drive off in vehicles worth more than $127,000. Investigated jointly by the U.S. Secret Service and the Mississippi Attorney General\'s Office through their Cyber Fraud Task Force, the scheme led to guilty pleas from all five defendants, with sentences ranging from probation to 46 months in federal prison and two of them also convicted of aggravated identity theft. The real victims were never the dealerships but the people whose identities were stolen, who typically only learn a loan exists in their name when a collections call, a repossession notice, or a sudden drop in their credit score arrives months later for a car they never bought or saw. Anyone can reduce this risk by freezing their credit with all three bureaus when it isn\'t actively needed for a purchase, and by checking their credit report at AnnualCreditReport.com for an auto loan or dealership inquiry they don\'t recognize.',
+    categorySlug: 'identity-theft',
+    country: 'US',
+    state: 'MS',
+    alertLevel: 'medium',
+    sources: ['U.S. Department of Justice, U.S. Attorney\'s Office for the Southern District of Mississippi', 'U.S. Secret Service', 'Mississippi Attorney General\'s Office'],
+    sourceUrl: 'https://www.justice.gov/usao-sdms/pr/four-defendants-sentenced-federal-court-roles-automobile-dealership-fraud-conspiracy',
+  },
+  {
+    name: '"Wolf of West Virginia" Real Estate Investment Fraud',
+    slug: 'west-virginia-wolf-real-estate-investment-fraud',
+    description:
+      'A South Charleston man built a social-media persona as the "Wolf of West Virginia," presenting himself as a wealthy, jet-setting real estate mogul while quietly behind on his own property taxes and defaulting on personal loans, then used that manufactured credibility to solicit more than 180 investors into two schemes: direct investments in a Charleston property development that never delivered promised returns, and a pooled investment vehicle called "Bear Lute" that promised at least 6% returns, a tracking website, and withdrawals within 60 days. He obtained roughly $399,000 combined before the schemes collapsed, and in September 2025 was sentenced in the Southern District of West Virginia to seven years in federal prison on two counts of wire fraud, plus restitution to his victims. The case is a reminder that a lavish lifestyle displayed on social media is marketing, not proof of investment success, and that a legitimate real estate fund discloses audited financials and is registered with the SEC or the West Virginia Securities Commission, not a website the promoter built and controls himself. Before wiring money to any real estate syndication pitched online, verify the promoter\'s registration status through the SEC\'s EDGAR and Investor.gov databases or by calling the West Virginia Securities Commission directly.',
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    state: 'WV',
+    alertLevel: 'medium',
+    sources: ['U.S. Department of Justice, U.S. Attorney\'s Office for the Southern District of West Virginia', 'Federal Bureau of Investigation'],
+    sourceUrl: 'https://www.justice.gov/usao-sdwv/pr/wolf-west-virginia-sentenced-prison-wire-fraud',
+  },
+  {
+    name: 'Iowa "Fawn Hollow" Custom Cattle Investment Ponzi Scheme',
+    slug: 'iowa-fawn-hollow-custom-cattle-ponzi-scheme',
+    description:
+      'A Clayton County, Iowa farmer operating under the name "Fawn Hollow" ran a "custom cattle" feeding arrangement in which investors from across the country paid him to raise and care for cattle they owned, only for a federal judge to find at sentencing that he was running a Ponzi scheme with the investors\' own livestock — selling cattle that belonged to earlier investors and using the proceeds to cover shortfalls and pay off others, all while operating as an unregistered livestock dealer in violation of the federal Packers and Stockyards Act. He was sentenced in October 2024 in the Northern District of Iowa to more than 15 years in federal prison and ordered to pay over $5.7 million in restitution, in a case that also involved COVID-19 relief fraud and forced-labor charges tied to the same operation. Custom cattle-feeding arrangements are common and legitimate throughout the Midwest, but the Packers and Stockyards Act specifically requires anyone buying and selling livestock on behalf of others to register as a licensed dealer with the USDA\'s Grain Inspection, Packers and Stockyards Administration — a status any prospective investor can and should verify before sending money, since an unregistered operator forfeits the federal bonding and trust protections meant to keep livestock investors whole if the operation fails. Investors can check dealer registration status directly with USDA GIPSA and should ask for independent, third-party verification of the specific cattle they are told they own rather than relying on the operator\'s own paperwork.',
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    state: 'IA',
+    alertLevel: 'medium',
+    sources: ['U.S. Department of Justice, U.S. Attorney\'s Office for the Northern District of Iowa', 'U.S. Department of Agriculture Office of Inspector General'],
+    sourceUrl: 'https://www.justice.gov/usao-ndia/pr/iowa-farmer-sentenced-more-fifteen-years-cattle-theft-and-bankruptcy-fraud-scheme',
+  },
 ];
 
 async function seedCategoriesAndScams() {
