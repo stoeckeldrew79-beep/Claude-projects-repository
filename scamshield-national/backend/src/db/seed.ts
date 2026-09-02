@@ -9999,6 +9999,54 @@ The warning signs are less about the pitch and more about what doesn't get expla
 
 Before signing up for a health care credit card at the point of care, ask for the exact promotional end date in writing and calculate independently what monthly payment is actually required to reach zero by that date, rather than relying on the statement's minimum payment. Set a personal reminder well before the promotional period ends, and consider paying more than the minimum specifically to avoid the retroactive interest trap. Anyone who was hit with an unexpected retroactive interest charge, or who believes the card's terms weren't clearly disclosed at signup, can file a complaint with the CFPB at consumerfinance.gov/complaint or by calling 1-855-411-2372.`,
   },
+  {
+    title: 'PACE Home Improvement Loans: How a "No Money Down" Energy Upgrade Becomes a Lien You Can\'t Sell Around',
+    slug: 'pace-home-improvement-financing-scam-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'pace-financing-scam'],
+    sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2022/10/ftc-california-act-stop-ygrene-energy-fund-deceiving-consumers-about-pace-financing-placing-liens',
+    body: `A contractor going door to door for solar panels, a new roof, HVAC replacement, or energy-efficient windows offers what sounds like an easy way to pay: financing through a Property Assessed Clean Energy, or PACE, program, approved on the spot with little regard to income or credit score and repaid through an addition to the homeowner's property tax bill. The pitch leans on the fact that PACE is a real, government-authorized financing tool in dozens of states, which lets a contractor's sales patter borrow legitimacy a private loan pitch couldn't. What often goes unsaid is what that financing structure actually does to the home's legal standing once the paperwork is signed.
+
+A PACE assessment isn't an ordinary personal loan — it attaches to the property itself as a lien that takes priority over the existing mortgage, and it's collected the same way property taxes are, meaning missed payments can eventually put the home at risk of tax foreclosure. Contractors acting as the financing company's sales force have been accused by the FTC and state regulators of telling homeowners the lien "could simply be transferred with a property when it was sold" or wouldn't complicate a future refinance, when in reality most mortgage lenders require a PACE lien to be paid off in full before approving a purchase or refinance — a homeowner who wants to sell or refinance sooner than expected can find the "no money down" upgrade has turned into a five- or six-figure payoff demand standing between them and the closing table.
+
+The sales process itself has drawn its own scrutiny. Because approval is handled almost entirely by the contractor selling the home improvement rather than an independent lender, homeowners have reported being rushed through electronic signature screens on a phone or tablet during the same visit as the sales pitch, with key terms — the total amount financed, the interest rate, and how many years of added property tax payments it represents — never clearly explained before signing. Federal and state enforcement actions have documented cases of contractors e-signing agreements on a consumer's behalf without genuine authorization, leaving homeowners unaware a lien had been placed on their property at all until a tax bill or title search revealed it.
+
+The warning signs: any contractor who presents PACE financing as the only or best way to pay, especially during the same visit as the sales pitch; pressure to sign financing documents on a tablet or phone without time to read them at home first; no clear, itemized written explanation of the total repayment amount, interest rate, and term before signing; and any assurance that the lien "won't matter" for a future sale or refinance. PACE programs are typically opt-in and available only in certain states and counties, so an unsolicited offer from a contractor rather than a homeowner's own research is itself worth treating with suspicion.
+
+Before signing anything, a homeowner should ask for a full written breakdown of the total cost over the life of the assessment — not just the promised monthly amount — and independently confirm with their mortgage lender and a real estate attorney how the lien would affect a future sale or refinance. Anyone already locked into a PACE assessment who believes they were misled about its terms can file a complaint with the FTC at reportfraud.ftc.gov, with their state attorney general, and with the PACE administrator itself, which in several states is required to review consumer complaints about contractor misconduct.`,
+  },
+  {
+    title: 'Patient Brokering: How Addiction Treatment Insurance Fraud Turns Recovery Into a Commodity',
+    slug: 'patient-brokering-addiction-treatment-scam-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'patient-brokering-scam'],
+    sourceUrl: 'https://oig.hhs.gov/fraud/enforcement/california-addiction-treatment-facility-operator-convicted-of-paying-nearly-29m-in-illegal-kickbacks/',
+    body: `Patient brokering targets people in one of the most vulnerable moments of their lives: actively seeking help for a substance use disorder. A "body broker" or patient recruiter — sometimes found through a slick online treatment-finder ad, sometimes working the halls of Alcoholics Anonymous meetings, homeless shelters, or even other treatment programs — offers a person in active addiction free airfare, a free phone, cash, gift cards, or even drugs to travel to a specific treatment center or "sober living" home, usually in a state with lax licensing and rich private insurance reimbursement rates. The recruiter isn't acting out of compassion; they're paid a fee, often ranging from a few hundred to several thousand dollars per person, by the facility they deliver the patient to.
+
+Once admitted, the person becomes the mechanism for the fraud rather than its actual object of care. Facilities in these schemes have been prosecuted for billing insurers for expensive, medically unnecessary urine drug tests multiple times a week, for group therapy sessions that never happened, and for continuing to bill as though a resident were receiving structured treatment long after they'd relapsed or left. Some sober homes are little more than unsupervised, drug-permissive houses used purely to keep a resident's insurance-billing "membership" active as long as possible, sometimes for months, generating hundreds of thousands of dollars in fraudulent claims per person before the insurer catches on and the person is discharged with nowhere to go — a cycle known in the industry as the "Florida shuffle," for the state where much of this activity has concentrated, though prosecutions have reached California, and elsewhere.
+
+The federal Eliminating Kickbacks in Recovery Act, passed in 2018, made it a crime to pay or receive any form of compensation in exchange for referring a patient to a recovery home, clinical treatment facility, or lab — regardless of whether the payer is a government program or a private insurer, closing a gap that previously let brokers argue the Anti-Kickback Statute only applied to Medicare and Medicaid. The Department of Justice's Sober Homes Initiative has since brought dozens of cases against facility owners and recruiters, including a California operator convicted of paying nearly $2.9 million in illegal kickbacks for patient referrals to his Orange County treatment facilities.
+
+The warning signs for someone seeking treatment, or a family member searching on their behalf: any offer of free travel, cash, gift cards, rent-free housing, or other inducements tied to entering a specific program; a "treatment finder" hotline or website that seems to steer every caller toward the same one or two facilities regardless of their needs or location; a facility that insists on being paid entirely by insurance up front with little discussion of an actual clinical treatment plan; and a sober living home with no real programming, supervision, or accountability beyond collecting insurance information.
+
+Before choosing a facility, verify its state licensing directly with the state's behavioral health licensing agency rather than through a call center or ad, and use SAMHSA's confidential National Helpline (1-800-662-4357) or its treatment locator at findtreatment.gov, which lists only licensed providers and isn't paid for referrals. Anyone who suspects a facility engaged in patient brokering or fraudulent billing can report it to the HHS Office of Inspector General at oig.hhs.gov/fraud or 1-800-HHS-TIPS, and to the FBI at tips.fbi.gov.`,
+  },
+  {
+    title: 'Predatory Towing: How a Parking Lot Sign You Never Saw Becomes an $800 Ransom for Your Own Car',
+    slug: 'predatory-towing-impound-scam-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'predatory-towing-scam'],
+    sourceUrl: 'https://ag.ny.gov/press-release/2022/attorney-general-james-sues-predatory-towing-company-cheating-and-harassing-new',
+    body: `A driver parks briefly in a lot, steps away for a few minutes, and returns to find the car gone — towed by a company that patrols private lots looking for any vehicle it can plausibly claim to remove, rather than responding to a call from the property owner. Some predatory towing operators tow cars whose owners are still on the scene and willing to move them immediately; others target vehicles that were only idling, or park in places where required signage is missing, faded, or posted somewhere a driver would never see it. Because the tow happens fast, before there's any real chance to object, the driver's only path back to their own car runs entirely through the towing company's lot, on the towing company's terms.
+
+The financial squeeze comes next. Many states cap towing and storage fees or require itemized invoices, but predatory operators have been documented charging well above legal limits, adding fabricated "administrative," "cleaning," or after-hours "release" fees that don't correspond to any real cost, and in some cases falsifying paperwork to justify the total. New York's attorney general sued one towing company for completing tows in under the legally required waiting period, charging fees far exceeding the $85 legal limit for the area, and instructing customers to falsely report the tow to their auto insurer as a way of shifting the illegitimate charges onto a claim rather than the driver's own pocket. Storage fees frequently accrue by the day, which pressures a driver who can't immediately pay the release fee — often demanded in cash only, on the spot — to either scramble for money fast or watch the bill climb.
+
+Vehicles have also been documented as damaged during improper towing, from careless hookups to unsecured transport, with the towing company then denying responsibility and daring the owner to sue over what's usually a few hundred dollars — not enough to make legal action worthwhile for most drivers, which is precisely why the practice persists in jurisdictions with weak enforcement.
+
+The warning signs: a lot with no visible tow-warning signage, or signage that doesn't list the towing company's name and phone number as required in most states; a release fee demanded only in cash, with no printed, itemized receipt; a fee total that seems to include vague line items beyond the base tow and standard daily storage; a company that pressures a driver to file the charge through their own auto insurance rather than disputing it directly; and a tow lot that's difficult to reach by phone or has hostile, evasive staff when a driver calls to retrieve their car.
+
+Before paying, a driver should photograph the lot, any signage (or its absence), and the vehicle's original parking position if possible, and ask for a fully itemized invoice before handing over payment — most states require one. Fees should be disputed in writing afterward rather than refused outright at the lot, since some companies won't release a vehicle without payment regardless of whether the tow was legal. Complaints about excessive fees, missing signage, or an unauthorized tow can be filed with the state attorney general's consumer protection division, the local police department (many require towing companies to notify police of non-consensual tows), and the FTC at reportfraud.ftc.gov.`,
+  },
 ];
 
 async function seedArticles(articles: SeedArticle[], label: string) {
@@ -23539,6 +23587,44 @@ const SEED_SCAMS: SeedScam[] = [
     firstRecorded: '2023-01-01',
     sources: ['Alaska Department of Law'],
     sourceUrl: 'https://law.alaska.gov/press/releases/2026/031926-Flawless.html',
+  },
+  {
+    name: 'Wausau "Bright with Silver" Promissory-Note Investment Fraud',
+    slug: 'wisconsin-bright-with-silver-promissory-note-fraud',
+    description:
+      'Stanley Pophal of Wausau, Wisconsin operated Bright with Silver, Inc. (formerly doing business as Fromm Bros., Inc.), soliciting money from roughly 190 investors between May 2019 and June 2025 for supposed opportunities in cryptocurrency, real estate flipping, artificial intelligence technology, gold, silver, and emeralds. Most investors signed promissory notes guaranteeing at least a 20% rate of return, with Pophal claiming personal wealth and industry connections sufficient to repay their principal even if a deal fell through. In reality he ran the operation as a Ponzi-style scheme, using new investor money to fund his own lifestyle — mortgage payments, private plane rentals, and hundreds of snowmobiles, motorcycles, and other vehicles later seized by federal agents from a rented warehouse — collecting $14.25 million in total. Pophal pleaded guilty in June 2026 in the U.S. District Court for the Western District of Wisconsin to wire fraud and money laundering, agreeing to forfeit the seized property, with sentencing scheduled for September 2026. The case underscores a durable warning sign: a promissory note promising a guaranteed double-digit return, unconnected to any registered security or verifiable underlying business, is not a real hedge against loss but the sales pitch itself — investors can check whether a person or firm is registered to sell securities through the Wisconsin Department of Financial Institutions before wiring any money.',
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    state: 'WI',
+    isHistorical: true,
+    firstRecorded: '2019-05-01',
+    sources: ["U.S. Attorney's Office, Western District of Wisconsin"],
+    sourceUrl: 'https://www.justice.gov/usao-wdwi/pr/wausau-man-pleads-guilty-wire-fraud-and-money-laundering',
+  },
+  {
+    name: 'Metro Detroit Meijer Tampered Gift Card Scheme',
+    slug: 'michigan-meijer-tampered-gift-card-scheme',
+    description:
+      'Two men arrested at a Dearborn hotel in March 2025 ran an in-store gift card tampering operation across Meijer locations in White Lake, Waterford, Auburn Hills, Southgate, Allen Park, and Taylor, Michigan. Rather than targeting shoppers directly, the scheme worked on cards still sitting on store racks: the men peeled back the packaging on unsold, unpurchased cards, exposed and recorded each card\'s redemption number, then resealed the packaging with adhesive so it looked untouched before returning the cards to the display for an unsuspecting customer to buy. Using software to monitor the cards\' numbers online, they watched for the moment a real buyer activated one with funds and drained the balance to another account within moments, often before the buyer had even left the store. A U.S. Postal Inspection Service agent intercepted a package addressed to the pair containing more than 1,500 altered cards, and investigators say they possessed more than 3,000 in total. Michigan Attorney General Dana Nessel\'s FORCE Team charged both men with conducting a criminal enterprise, a 20-year felony, and possession of a fraudulent or altered transaction device. The case is a reminder that a gift card can be compromised before anyone buys it: shoppers should examine the packaging for any sign of resealing or tampering, favor cards kept behind a customer-service counter rather than an open rack, and check the balance immediately at purchase using the retailer\'s own website or app rather than the number on the card.',
+    categorySlug: 'identity-theft',
+    country: 'US',
+    state: 'MI',
+    alertLevel: 'medium',
+    sources: ['Michigan Attorney General'],
+    sourceUrl: 'https://www.michigan.gov/ag/news/press-releases/2025/03/14/ag-nessel-charges-two-in-alleged-gift-card-scam-targeting-metro-detroit-meijer-stores',
+  },
+  {
+    name: 'Kentucky Addiction Centers Opioid-Treatment Billing Fraud',
+    slug: 'kentucky-addiction-centers-billing-fraud',
+    description:
+      'Kentucky Addiction Centers (KAC), which operated opioid-addiction treatment clinics in Winchester, Paducah, Paintsville, and London, Kentucky, fraudulently billed Medicare and Kentucky Medicaid more than $8 million for services that were never provided or were billed as more complex and expensive than what patients actually received. CEO Michael Bregenzer and billing manager Barbie Vanhoose ran the scheme with the clinics\' medical director, Dr. José Alzadon, who was not credentialed to bill certain health plans himself; to get around that, the three billed for services under the name of Alzadon\'s elderly father — a licensed physician who had not actually seen the patients — and misused the father\'s DEA registration number and electronic prescribing token to issue Suboxone prescriptions in his name. A federal jury convicted all three in March 2025 of conspiracy to commit health care fraud, eight counts of health care fraud, and conspiracy to distribute a controlled substance using another person\'s DEA registration, with Alzadon and Vanhoose also convicted of aggravated identity theft for the fraudulent billing under the father\'s name. Bregenzer was sentenced to 48 months, Alzadon to 60 months, and Vanhoose to 24 months in federal prison, with all three jointly ordered to pay $812,881.09 in restitution. The scheme illustrates a pattern worth watching for in addiction treatment specifically: patients or family members who don\'t recognize a billed provider\'s name on an insurance statement, or who are prescribed medication by someone other than the doctor named on the prescription, should request an itemized statement from Medicare or Medicaid and report any mismatch.',
+    categorySlug: 'healthcare-fraud',
+    country: 'US',
+    state: 'KY',
+    isHistorical: true,
+    firstRecorded: '2025-03-21',
+    sources: ["U.S. Department of Justice"],
+    sourceUrl: 'https://www.justice.gov/opa/pr/three-individuals-sentenced-prison-fraudulently-billing-medicare-and-medicaid-through-opioid',
   },
 ];
 
