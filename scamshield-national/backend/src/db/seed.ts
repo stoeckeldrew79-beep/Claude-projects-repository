@@ -22971,6 +22971,17 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['IRS Criminal Investigation', "U.S. Attorney's Office, Eastern District of Texas"],
     sourceUrl: 'https://www.irs.gov/compliance/criminal-investigation/texas-couple-sentenced-for-running-an-illegal-pyramid-scheme',
   },
+  {
+    name: 'Mister Mancave Forged-Autopen Sports Memorabilia and Fake Authentication Scheme',
+    slug: 'mister-mancave-counterfeit-sports-memorabilia-scheme',
+    description:
+      'Brett Lemieux, a Westfield, Indiana dealer operating as Mister Mancave LLC, ran what investigators and the sports-collecting industry have since called the largest counterfeiting scheme the hobby has ever seen: over roughly two decades he mass-produced "autographed" jerseys, balls, and photos of star athletes — including Patrick Mahomes, Aaron Judge, Kobe Bryant, and Tom Brady — using an autopen to replicate a signature thousands of times over, then wrapped the fakes in forged holograms and certificates of authenticity copied to be indistinguishable from those of real authentication companies including JSA, Fanatics, and Panini, so that a buyer checking the certificate found exactly what a genuine one would show. In a since-deleted confession posted to the "Autographs 101" Facebook group, Lemieux admitted that "every one item from a signing turned into 10,000" and that he personally supplied roughly 95% of all the Mahomes and Judge memorabilia on the market, mixing a small number of real signed items into his inventory specifically to make the fakes harder to isolate. The scheme unraveled after a North Carolina collector\'s complaint led Westfield police, working with the FBI, Hamilton County Sheriff\'s Office, and neighboring Carmel and Fishers police departments, to search Mister Mancave\'s business location on July 15, 2025, and a linked residence the next day, where they found Lemieux dead of an apparent self-inflicted gunshot wound; investigators went on to value the seized warehouse inventory at $500-700 million, against more than $350 million in sales Lemieux said he\'d taken in from over 4 million items sold. Because forged certificates and holograms are built to pass a visual check, collectors should never trust a card or sticker on the item itself — real authenticators including PSA/DNA, JSA, Beckett, and Fanatics let a buyer type the certificate\'s serial number into the authenticator\'s own official website to confirm it was actually issued for that specific item, and a price well under what a given athlete\'s signature normally commands is itself a warning sign no certificate can offset.',
+    categorySlug: 'online-shopping-scams',
+    country: 'US',
+    isHistorical: true,
+    sources: ['Westfield (Indiana) Police Department', 'Federal Bureau of Investigation', 'CBS Sports'],
+    sourceUrl: 'https://www.westfieldin.gov/CivicAlerts.aspx?AID=135',
+  },
 ];
 
 async function seedCategoriesAndScams() {
