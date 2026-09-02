@@ -5622,6 +5622,58 @@ This scam works because it targets a gap in attention rather than a moment of pa
 
 The most effective defense is also the simplest: create your own my Social Security account at ssa.gov before anyone else can, using a strong, unique password and multi-factor authentication. SSA also offers two optional account-level protections worth adding for extra security — a Direct Deposit Fraud Prevention Block, which stops direct deposit and address changes from being made online or by phone at all, and an Extra Security / eServices Block, which locks out online access entirely until the beneficiary removes it in person or by phone with SSA. Anyone whose benefit payment doesn't arrive as expected, or who receives an unexpected "your information was changed" notice from SSA, should contact SSA directly at a number found on ssa.gov (not one from a text or email) right away, and report the fraud to the SSA Office of the Inspector General at oig.ssa.gov and to the FTC at ReportFraud.ftc.gov.`,
   },
+  {
+    title: 'The "Credit Privacy Number" Trick: Why a Fresh 9-Digit Identity Is a Felony, Not a Fix',
+    slug: 'credit-privacy-number-cpn-scam-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'cpn-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Social%20Security%20card.jpg?width=1200',
+    coverImageCredit: 'Photo: Social Security Administration (public domain)',
+    coverImagePosition: 50,
+    sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/1999/05/law-enforcement-crackdown-targets-credit-repair-con-artists',
+    body: `Someone with damaged credit sees a "credit repair" pitch — increasingly on social media, historically through mailers, newspaper ads, and websites — offering a "Credit Privacy Number" (sometimes called a CPN or credit profile number) as a legal way to wipe the slate clean. The claim is that this nine-digit number can be used in place of a Social Security number on loan and credit card applications, letting a person with a ruined credit history start over with a spotless file, sometimes with instructions on obtaining new "starter credit" once the switch is made.
+
+There is no such thing as a legitimate Credit Privacy Number. The FTC calls this scheme "file segregation," and it works by having consumers apply for a government-issued identification number that isn't actually a Social Security number — most often an IRS Employer Identification Number obtained by falsely claiming a business need — and then present that number to lenders as though it were a personal SSN. In a nationwide law enforcement sweep, the FTC and dozens of state and federal partners brought more than 50 cases in a single year against operators selling these "new credit identity" kits, which were advertised with lines like "WIPE OUT ALL OF THE OLD BAD CREDIT ON YOUR OLD FILE" and sold for anywhere from about $20 to $130.
+
+The reason this keeps finding new victims is that it's pitched as a clever workaround rather than what it actually is: using any number other than your own Social Security number to apply for credit, in an attempt to conceal your real credit history, is a federal crime. It doesn't matter whether the seller called it a "CPN," a "credit profile number," or anything else, and it doesn't matter whether the buyer understood at the time that it was illegal — the person who submits the application is the one who commits the fraud, not just the company that sold the idea. Sellers routinely tell buyers the practice is perfectly legal specifically because that reassurance is what closes the sale.
+
+The clearest red flag is the pitch itself: any offer of a new, alternate nine-digit number to replace your Social Security number on a credit application is not a loophole, it's an invitation to commit a federal offense, regardless of how polished the marketing looks or how many "success stories" are cited. A real Social Security number is permanent and cannot be legally replaced or "refreshed" for credit purposes at any price. If you're struggling with bad credit, the FTC's actual guidance is free: dispute genuine errors directly with the credit bureaus, negotiate with creditors, and rebuild credit over time with a secured card or credit-builder loan — there is no shortcut that skips the passage of time. Anyone who has already paid for or used a CPN should stop using it immediately and consult a legitimate credit counselor, and report the seller to the FTC at ReportFraud.ftc.gov.`,
+  },
+  {
+    title: 'Illegal Offshore Sports Betting Sites: The App That Takes Deposits but Never Pays Out',
+    slug: 'illegal-online-sports-betting-scam-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'illegal-sports-betting-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Man%20on%20a%20smartphone%20(Unsplash).jpg?width=1200',
+    coverImageCredit: 'Photo: Gilles Lambert (CC0, public domain)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
+    sourceUrl: 'https://www.ic3.gov/PSA/2025/PSA251217',
+    body: `A slickly produced ad, a "guaranteed pick" from a paid tipster group, or a text message mimicking a well-known sportsbook leads a bettor to download an app or visit a site that looks like any other legal, regulated sportsbook — odds boards, live scores, a polished deposit screen. What's missing is a state gaming license, because the operator is running an offshore, unregulated sportsbook that markets aggressively to U.S. bettors while deliberately obscuring where it's actually based and who actually controls it.
+
+The FBI's Internet Crime Complaint Center has directly warned that Americans wager an estimated $673.6 billion a year through illegal and unregulated gambling markets, even though sports betting is now legal and regulated in 39 states and Washington, D.C. The IC3 flags three recurring tactics specifically: phishing texts that impersonate legitimate, licensed sportsbooks; "betting tips" groups on social media and messaging apps that build a following before pushing members to deposit money at an offshore book the group is secretly paid to promote; and counterfeit sportsbook apps designed purely to harvest login credentials and payment details.
+
+What makes offshore books dangerous isn't just that the games might be rigged — it's that a bettor has no real recourse once money is in. These sites operate outside U.S. consumer protection law entirely, so a frozen account, a "processing error" on a big withdrawal, or an outright vanished balance has nowhere to be formally disputed the way a complaint against a licensed operator does. The FBI has also documented a darker layer to the same ecosystem: illegal sportsbooks are frequently run by organized crime groups who use the operation's profits to fund other criminal activity, and bettors who can't cover losses to an unlicensed bookmaker are exposed to real-world extortion and violence in a way a regulated, licensed platform's customers simply are not.
+
+The reliable defense is verifying licensing before ever depositing a dollar: every state with legal sports betting maintains a public list of licensed operators through its state gaming commission, and a site or app that isn't on that list for your state is not a legal option, no matter how professional it looks or how enthusiastically it's promoted online. Treat unsolicited "guaranteed win" tips and any pressure to move funds to a specific, unfamiliar platform as a red flag on its own. If you believe you've been targeted by a fake or offshore sportsbook, stop depositing immediately, and report it to the FBI's Internet Crime Complaint Center at ic3.gov and to your state's gaming or gambling control commission.`,
+  },
+  {
+    title: 'Fake Trademark Renewal Notices: The Official-Looking Mailer That Isn\'t From the USPTO',
+    slug: 'trademark-renewal-notice-scam-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'trademark-renewal-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/14%2012%2031%20US%20Patent%20Office%20Sign%20Alexandria%20VA%2001.jpg?width=1200',
+    coverImageCredit: 'Photo: ReubenGBrewer (CC BY-SA 4.0)',
+    coverImagePosition: 50,
+    sourceUrl: 'https://www.uspto.gov/trademarks/protect/recognizing-common-scams',
+    body: `A small business owner who registered a trademark receives an official-looking notice in the mail — gold seal, formal letterhead, a name like "United States Trademark Registration Office" or "Patent & Trademark Bureau" — warning that the mark's renewal, monitoring, or "publication" is due, along with a fee due within 24 to 72 hours to avoid losing the registration entirely. Because the notice arrives addressed to the business by name, references a real trademark, and looks bureaucratic enough to be genuine, it reads as routine compliance mail rather than something to question.
+
+It isn't from the USPTO. The agency's own guidance describes exactly this pattern: private companies with official-sounding names send renewal, monitoring, and registration notices timed to arrive well before any actual deadline, demanding fees far above what the USPTO itself charges, and using the language of real USPTO filings to blur the line between the imitation and the original. These notices can show up at any point in the process — before a trademark application is even filed, shortly after filing, or years after registration — because the entire model runs on volume, not on precisely timed real deadlines.
+
+The trick works by exploiting exactly how the actual trademark process feels to a business owner without in-house legal counsel: registration involves multiple real deadlines, exam attorney communications, and periodic maintenance filings spread out over years, so a notice that looks official and cites a real filing doesn't stand out from the genuine paperwork it's mimicking. Urgency compounds it — a 24-to-72-hour window to respond is deliberately too short to comfortably verify the notice through any other channel before acting.
+
+The reliable check is that every authentic USPTO communication, including any request for payment, is posted to the Trademark Status and Document Retrieval system at tsdr.uspto.gov; if a notice claiming to be from the USPTO doesn't appear there, it isn't real, no matter how official it looks. Genuine USPTO email always comes from an address ending in @uspto.gov, and the agency never requests payment or personal information by phone or text. Before paying any renewal or monitoring notice related to a trademark, verify it directly through TSDR or by calling the Trademark Assistance Center at 1-800-786-9199, using a number looked up independently rather than one printed on the notice. Report suspected trademark scam notices to the USPTO at TMScams@uspto.gov and to the FTC at ReportFraud.ftc.gov.`,
+  },
 ];
 
 async function seedArticles(articles: SeedArticle[], label: string) {
