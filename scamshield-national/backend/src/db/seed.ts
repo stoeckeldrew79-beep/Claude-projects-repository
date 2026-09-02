@@ -14300,6 +14300,53 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Fraudehelpdesk (Netherlands)'],
     sourceUrl: 'https://www.fraudehelpdesk.nl/alert/valse-berichten-kpn-en-odido-simkaart-wordt-overgenomen/',
   },
+  {
+    name: 'Wyoming DWS Workers’ Compensation and Unemployment Text Phishing',
+    slug: 'wyoming-dws-benefits-text-phishing',
+    description:
+      'Fraudulent text messages impersonating the Wyoming Department of Workforce Services tell recipients their workers’ compensation or unemployment insurance claim has a problem, a payment is pending, or their account needs to be "verified," with a link to a lookalike site built to harvest Social Security numbers, bank account details, and DWS login credentials. Wyoming DWS reports a rise in these scam messages and confirms it does not request personal or financial information by text and never asks claimants to click a link to fix a claim. Recipients are told to delete unsolicited claims-related texts without clicking any link and to verify any claim status only by logging in directly at the agency’s official website or calling its published number.',
+    categorySlug: 'public-benefits-fraud',
+    country: 'US',
+    state: 'WY',
+    alertLevel: 'medium',
+    sources: ['Wyoming Department of Workforce Services'],
+    sourceUrl: 'https://dws.wyo.gov/department-of-workforce-services-sees-increase-in-scam-messages/',
+  },
+  {
+    name: 'VRS "Unsolicited Retirement Counseling" Insurance Pitch Scam',
+    slug: 'vrs-unsolicited-retirement-counseling-insurance-pitch',
+    description:
+      'Members of the Virginia Retirement System (VRS) are contacted out of the blue, often near a milestone birthday or retirement eligibility date, by a salesperson offering free "retirement counseling" or a benefits review that implies an affiliation with VRS itself, then uses the session to pitch commission-based annuities or other insurance products, sometimes urging the member to roll VRS-eligible funds into a product that carries steep surrender charges or reduces guaranteed lifetime income. VRS states it does not partner with outside companies to provide this kind of unsolicited counseling and that any legitimate review of a member’s account comes only through VRS’s own website, myVRS portal, or scheduled counseling with a VRS representative. Members are advised to independently verify any caller’s claimed affiliation with VRS before discussing account details or signing anything.',
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    state: 'VA',
+    alertLevel: 'medium',
+    sources: ['Virginia Retirement System (VRS)'],
+    sourceUrl: 'https://www.varetire.org/retiree-news/2026/summer/news-and-announcements.html',
+  },
+  {
+    name: 'OMMA "Wire the Fine" Cannabis Business Extortion Scam',
+    slug: 'omma-wire-the-fine-cannabis-business-extortion',
+    description:
+      'Callers impersonating the Oklahoma Medical Marijuana Authority (OMMA) or Oklahoma State Department of Health tell licensed cannabis business owners they face an immediate fine, inspection violation, or license suspension unless they wire money or send payment right away, exploiting the fact that licensees already deal with frequent real regulatory contact and heavy compliance fees. OMMA confirms it does not call demanding immediate wire payment to avoid a fine or suspension and that all real fines and violations are communicated through official written notices with an appeal process, not urgent phone demands. Business owners are told to hang up and call OMMA directly using the number listed on its official website to verify any claimed violation before sending any money.',
+    categorySlug: 'government-impersonation',
+    country: 'US',
+    state: 'OK',
+    alertLevel: 'high',
+    sources: ['Oklahoma State Department of Health (Oklahoma Medical Marijuana Authority)'],
+    sourceUrl: 'https://content.govdelivery.com/accounts/OKSDH/bulletins/3e0188c',
+  },
+  {
+    name: 'Fake Veterinary Emergency ("Pet Held for Ransom") Scam',
+    slug: 'fake-veterinary-emergency-pet-ransom-scam',
+    description:
+      'Scammers posing as an animal shelter, breeder, or veterinary clinic tell a pet owner or hopeful buyer that their pet has been injured, has a "medical hold," or cannot be released without an immediate payment for emergency treatment or unpaid boarding fees, pressuring the victim to wire money or use a gift card before they can think to verify the claim independently, a variant of the broader family-emergency-pressure playbook that substitutes a beloved pet for a human relative. In some versions the "pet" pictured never existed, tying the scheme to fake online pet-sale listings; in others, a real local shelter or clinic is impersonated using a spoofed phone number. The FTC advises calling the shelter or clinic directly using an independently looked-up phone number, never one given by the caller, before sending any payment.',
+    categorySlug: 'family-emergency-scams',
+    country: 'US',
+    alertLevel: 'high',
+    sources: ['Federal Trade Commission (FTC)'],
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2026/06/animal-lovers-learn-spot-and-avoid-breed-pet-scams',
+  },
 ];
 
 async function seedCategoriesAndScams() {
