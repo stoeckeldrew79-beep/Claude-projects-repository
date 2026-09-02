@@ -6438,6 +6438,60 @@ This creates two distinct groups of victims: the businesses and individuals defr
 
 If you receive a relay call: treat it exactly as you would any other unfamiliar caller — verify identity and payment through the same checks you'd apply to a voice call (a callback to a known number, an independently verified account, confirmed cleared payment before shipping goods), never faster or looser simply because the call came through relay. Relay users themselves should know that a legitimate business, bank, or agency cannot require you to prove you're not a scammer just because your call arrives through TRS, and the Federal Trade Commission and FCC recommend reporting fraudulent relay-based calls to the FTC (ReportFraud.ftc.gov) and to the FCC's Consumer Complaint Center, which tracks relay-specific fraud patterns separately from general phone scams.`,
   },
+  {
+    title: 'Gold IRA Scams: How "Protect Your Retirement" Precious Metals Pitches Drain Savings',
+    slug: 'gold-ira-precious-metals-rollover-scam',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'gold-ira-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Gold_ingots.jpg?width=1200',
+    coverImageCredit: 'Photo: Maksym Kozlenko (CC BY-SA 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
+    sourceUrl: 'https://www.cftc.gov/PressRoom/PressReleases/8847-24',
+    body: `It usually starts with an ad, a mailer, or a radio spot warning that a market crash, "de-dollarization," or a change in law is about to wipe out retirement accounts — followed by a pitch to "protect" a 401(k) or IRA by rolling it into physical gold or silver. The company offers a free information kit, a call with a "precious metals specialist," and help completing the paperwork to move funds into a self-directed IRA that holds actual coins or bars instead of stocks and funds. The process feels legitimate because self-directed precious metals IRAs are a real, legal structure the IRS permits — the fraud is in the pricing and the pressure, not the concept.
+
+Two problems recur across the complaints federal regulators have documented. First, markup: the coins or bars purchased through the IRA are frequently priced 30% to 100% above their actual melt value, disclosed nowhere clearly enough for a buyer to catch it before signing, meaning the account can be worth dramatically less the moment the purchase completes than the cash that funded it. Second, fees: the custodian holding the metal and the depository storing it both charge ongoing annual fees — sometimes scaled to the account's value — that a normal brokerage IRA doesn't carry, quietly eating returns year after year regardless of what gold prices do. Some operations go further, using high-pressure "specialists" trained to work from a script designed to override hesitation, or steering customers toward "rare" or "collectible" coins that carry an even larger markup than standard bullion and are harder to resell at anything close to what was paid.
+
+The warning signs: unsolicited contact (a cold call, a mailer, a Facebook ad) about protecting a retirement account; urgency tied to a vague coming crisis; a salesperson who isn't a licensed, fee-only financial advisor pushing a single product; refusal to put the total cost — markup, setup fees, annual storage and custodian fees — in writing before you commit; and pressure to move quickly because a "special price" or "limited allocation" won't last.
+
+Before rolling any retirement funds into precious metals: get the full fee schedule and the dealer's markup over spot price in writing, independently verify the buyback price the company will actually pay if you resell (not just what they'll sell to you), and talk to a fee-only financial advisor with no stake in the sale first. The CFTC, SEC, and CFPB have all published investor alerts on this specific pattern; if you believe you've been misled, you can file a complaint with the CFTC at CFTC.gov/complaint or the CFPB at consumerfinance.gov/complaint.`,
+  },
+  {
+    title: 'Malicious Browser Extension Scams: When a "Helpful" Add-On Steals Your Logins',
+    slug: 'malicious-browser-extension-scams',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'browser-extension-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Screenshot_of_Chrome_Web_Store.png?width=1200',
+    coverImageCredit: 'Google LLC (public domain)',
+    coverImagePosition: 50,
+    sourceUrl: 'https://www.cisa.gov/news-events/alerts',
+    body: `Browser extensions ask for sweeping permissions almost by design — "read and change all your data on websites you visit" is a normal request for a legitimate ad blocker or password manager, which is exactly what makes a malicious one so hard to spot. A fake coupon finder, PDF converter, "productivity booster," or AI writing assistant gets published to the Chrome Web Store or Firefox Add-ons, sometimes with thousands of purchased or fake reviews, and quietly does what it was actually built for: harvesting the session cookies and saved logins of every site you're signed into, rewriting cryptocurrency wallet addresses copied to your clipboard, or injecting its own ads and affiliate links into pages you visit.
+
+What makes this scam durable is that it doesn't need to steal a password at all. A session cookie stolen straight out of the browser lets an attacker log in as you on banking, email, and social media accounts without ever triggering a password prompt or, in many cases, a multi-factor authentication challenge, because as far as the site can tell, it's just your already-logged-in browser. Extensions have also been caught getting acquired by a new owner months after building a legitimate user base and a track record of good reviews, then pushed a malicious update through the store's normal auto-update mechanism — meaning an extension that was genuinely safe when you installed it can turn malicious later without you doing anything.
+
+Warning signs: an extension that asks for far more access than its stated function needs (a screenshot tool that wants to read all site data); a listing with a flood of generic five-star reviews and few specific, detailed ones; a developer with no other published extensions, no verifiable website, or a support email that bounces; and any extension, however established, that changes its permissions or is suddenly needed after a "required update" notice.
+
+Basic hygiene cuts the risk sharply: install extensions only from the official Chrome Web Store or Firefox Add-ons (never a direct download link from an ad or email), check the requested permissions before installing and again after any update, and periodically review the full list of extensions in your browser and remove anything you don't actively use or recognize. If you suspect one has been compromised, remove it immediately, then change your passwords and log out of active sessions on your important accounts from a separate, trusted device — removing the extension alone doesn't undo a session that was already stolen.`,
+  },
+  {
+    title: 'Yo-Yo Financing Scams: When a Used Car Dealer Calls to "Redo" a Deal You Already Signed',
+    slug: 'yo-yo-financing-used-car-scam',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'yo-yo-financing'],
+    coverImage:
+      'https://commons.wikimedia.org/wiki/Special:FilePath/SMALL_USED_CAR_LOT_ON_QUEENS_BOULEVARD_AND_78TH_STREET_NEAR_THE_MIDTOWN_TUNNEL_-_NARA_-_549871.jpg?width=1200',
+    coverImageCredit: 'Photo: Dan McCoy / EPA DOCUMERICA (public domain)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2023/01/dont-fall-yo-yo-car-financing-scam',
+    body: `A "yo-yo" scam starts like an ordinary car purchase: you pick a used car, sign a contract, sign financing paperwork, hand over your trade-in, and drive off the lot believing the deal is done. Days or weeks later, the dealer calls: financing "fell through," and you need to come back in to sign a new contract — usually at a higher interest rate, a bigger down payment, or worse terms overall. Because you're already driving the car (and the dealer may already have sold or auctioned your trade-in), the pressure to just accept the new terms rather than unwind the whole purchase is exactly the point.
+
+The trick is in what "conditional" financing actually means. Many dealers use "spot delivery" — letting you take the car home the same day while the loan is still being arranged with a lender behind the scenes, under a contract stating the deal isn't final until financing is approved on those terms. If the dealer can't sell the loan to a bank or credit union at the profit it expected, some will falsely claim financing "fell through" even when it didn't, specifically to pull you back in for a worse deal once you're already emotionally and logistically committed to the car. Genuine financing failures do happen, but the pattern of always landing on worse terms for the buyer, never better ones, is what separates a scam from a real financing hiccup.
+
+Warning signs: a contract you signed labeled "conditional," "spot delivery," or "subject to financing approval" without that being clearly explained at signing; a callback demanding you return within a day or two "or else"; pressure that emphasizes what you'll lose (the car, your trade-in) rather than presenting your actual options; and a dealer unwilling to give you a copy of every document at the time you first sign, before you leave the lot.
+
+If you're contacted about "redoing" a deal: you are not legally required to accept new terms just because the dealer calls — read your original contract to see whether financing was actually conditional, and if it wasn't, the original terms stand. You generally have the right to return the car and get your trade-in and any money back if you refuse the new terms and the sale was genuinely conditional, though dealers don't always volunteer this. Get everything in writing before signing anything a second time, and if a dealer won't return your trade-in or down payment, file a complaint with your state attorney general's office and the FTC at ReportFraud.ftc.gov — yo-yo financing is illegal in a number of states and has been the subject of FTC enforcement actions against dealer chains.`,
+  },
 ];
 
 async function seedArticles(articles: SeedArticle[], label: string) {
