@@ -22402,6 +22402,31 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Migrationsverket (Swedish Migration Agency)', 'Riksrevisionen'],
     sourceUrl: 'https://www.migrationsverket.se/du-vill-ansoka/arbeta/undvik-att-bli-lurad.html',
   },
+  {
+    name: 'Weirton Man\'s Decade-Long Theft of His Deceased Mother\'s Black Lung Benefits',
+    slug: 'wv-weirton-black-lung-benefits-payee-theft',
+    description:
+      'Gary Barber\'s father was a coal miner who had been awarded federal Black Lung benefits; when his father died the payments transferred to Barber\'s mother as his widow, and Barber became the payee handling them on her behalf once her own health failed. But after his mother died, Barber kept the benefits coming — falsely certifying every month for nearly ten years that he was using the money for her care, a woman who was no longer alive to receive it, and fraudulently collecting $85,604 from the U.S. Department of Labor\'s Black Lung Disability Trust Fund. The scheme surfaced through a Department of Labor Office of Inspector General investigation, and Barber, 75, of Weirton, was sentenced on May 7, 2025 in the U.S. District Court for the Northern District of West Virginia to three years of probation and ordered to repay the full $85,604 in restitution. "Barber stole money intended for injured coal miners and their survivors who were eligible for those vital resources," said Syreeta Scott, the DOL-OIG\'s Mid-Atlantic Special Agent-in-Charge, whose office says it continues cross-checking death records against benefit rolls specifically to catch payees who quietly keep certifying a deceased relative\'s eligibility. Anyone who becomes the payee for a family member\'s federal disability or survivor benefits is legally required to report that person\'s death immediately — continuing to draw and certify the payments afterward is theft of public funds, not an oversight the agency will simply let lapse.',
+    categorySlug: 'public-benefits-fraud',
+    country: 'US',
+    state: 'WV',
+    isHistorical: true,
+    firstRecorded: '2015-01-01',
+    sources: ["U.S. Attorney's Office, Northern District of West Virginia", 'U.S. Department of Labor, Office of Inspector General'],
+    sourceUrl: 'https://www.justice.gov/usao-ndwv/pr/hancock-county-man-sentenced-theft-black-lung-benefits',
+  },
+  {
+    name: 'Pelham "Royal Investments" Unlicensed Stock-Trading Ponzi Scheme',
+    slug: 'nh-pelham-royal-investments-ponzi-scheme',
+    description:
+      'Kevin Patel ran Royal Investments LLC out of Pelham, New Hampshire, telling at least four investors — two in Florida and two in Chelmsford and Woburn, Massachusetts — that he would trade their money in the stock market and pay them quarterly returns as high as 30%, despite never being licensed as a broker-dealer or investment adviser in any state. Between November 2023 and August 2024 he collected nearly $386,000, but records subpoenaed by New Hampshire\'s Bureau of Securities Regulation showed his trading account holding a balance of just $188 at one point, meaning the "returns" he promised could only have come from money paid in by newer investors rather than real market gains — "Royal was in fact a Ponzi scheme," the Bureau\'s filing states. It was not Patel and Royal\'s first brush with the regulator: a June 2021 consent order had already barred them from advertising unregistered securities, a violation the Bureau says they simply repeated. On December 15, 2025, the Bureau filed an administrative order seeking to permanently bar Patel and Royal Investments from any securities business in New Hampshire, along with $330,040 in restitution to the four known investors, a $55,000 fine, and $25,000 to cover investigation costs; Patel has 30 days from the filing to request a hearing contesting the findings. Before wiring money to anyone offering to trade it on your behalf, New Hampshire residents can check whether that person or firm is actually licensed through the Bureau of Securities Regulation\'s free lookup at sos.nh.gov, rather than relying on a personal referral or promised returns no one but the trader can verify.',
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    state: 'NH',
+    alertLevel: 'high',
+    sources: ['New Hampshire Bureau of Securities Regulation'],
+    sourceUrl: 'https://www.nhpr.org/nh-news/2025-12-16/state-regulators-accuse-pelham-stock-trader-of-operating-ponzi-scheme-nh',
+  },
 ];
 
 async function seedCategoriesAndScams() {
