@@ -14901,6 +14901,39 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Treasury Inspector General for Tax Administration (TIGTA)'],
     sourceUrl: 'https://content.govdelivery.com/accounts/USTREASTIGTA/bulletins/3ce93ce',
   },
+  {
+    name: 'Canadian Bank Investigator / "Safe Account" Scam',
+    slug: 'canadian-bank-investigator-safe-account-scam',
+    description:
+      'A fraudster places an automated or live phone call impersonating the victim\'s bank, police, a credit-reporting agency, or Amazon, claiming fraudulent transactions were detected on the account, then talks the victim into transferring funds to a supposed "safe account," physically surrendering a debit or credit card, or reading out a one-time multi-factor authentication code sent by text, any of which hands the fraudster full control of the account. Some versions supply real personal details obtained elsewhere, such as a name, date of birth, or partial card number, or a fake callback number staffed by an accomplice, to make the call sound legitimate. The Canadian Anti-Fraud Centre confirms that no real financial institution threatens a customer over the phone, asks them to move money to a different account "for security," requests they hand over or destroy a bank card, or asks for a multi-factor authentication code.',
+    categorySlug: 'account-takeover',
+    country: 'CA',
+    alertLevel: 'critical',
+    sources: ['Canadian Anti-Fraud Centre'],
+    sourceUrl: 'https://antifraudcentre-centreantifraude.ca/scams-fraudes/b-investigator-enqueteur-eng.htm',
+  },
+  {
+    name: 'Canadian CRA Text/Email Refund Phishing Scam',
+    slug: 'canadian-cra-text-email-refund-phishing-scam',
+    description:
+      'A text message or email impersonating the Canada Revenue Agency claims the recipient is owed a tax refund or benefit credit and asks them to click a link and submit their Social Insurance Number, date of birth, and online banking login to receive the money by e-transfer, often citing an urgent application deadline. This is a phishing lure rather than an extortion attempt, and it works because many Canadians genuinely do receive CRA refunds and benefit deposits by e-transfer. The CRA states plainly it will never send refunds or payments by e-transfer or text message and will never email a link asking for personal or financial information, only ever sending text messages for two-factor authentication, and the Canadian Anti-Fraud Centre has separately flagged versions of this text that include the victim\'s real name and Social Insurance Number to appear more convincing.',
+    categorySlug: 'tax-scams',
+    country: 'CA',
+    alertLevel: 'medium',
+    sources: ['Canada Revenue Agency (Government of Canada)', 'Canadian Anti-Fraud Centre'],
+    sourceUrl: 'https://www.canada.ca/en/revenue-agency/corporate/scams-fraud/recognize-scam.html',
+  },
+  {
+    name: 'Fake Service Canada CPP/OAS Benefit Suspension Text Scam',
+    slug: 'fake-service-canada-cpp-oas-benefit-suspension-text-scam',
+    description:
+      'A text message impersonating Service Canada claims there is a problem with the recipient\'s "recent tax assessment" that has caused a temporary suspension of their CPP or OAS payments, and asks them to reply "Y" to begin resolving it, often including a genuine-looking phone number to appear credible. Recipients who reply are drawn into further contact and sent a link to a fraudulent look-alike site, which harvests their Social Insurance Number and personal details before redirecting to a fake banking login page that steals online banking credentials as well, chaining identity theft and account takeover into a single text-message flow that specifically targets Canadian seniors dependent on CPP/OAS income. Service Canada states it will never ask for personal information by phone call, text message, or email, and directs anyone unsure of a message\'s legitimacy to call its official helpline.',
+    categorySlug: 'public-benefits-fraud',
+    country: 'CA',
+    alertLevel: 'high',
+    sources: ['Employment and Social Development Canada / Service Canada (Government of Canada)'],
+    sourceUrl: 'https://www.canada.ca/en/employment-social-development/corporate/portfolio/service-canada/fraud.html',
+  },
 ];
 
 async function seedCategoriesAndScams() {
