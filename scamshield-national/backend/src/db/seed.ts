@@ -21620,6 +21620,30 @@ const SEED_SCAMS: SeedScam[] = [
     sourceUrl:
       'https://www.tn.gov/commerce/news/2026/3/3/consumer-alert-be-on-alert-for-facebook-marketplace-auto-purchasing-scams.html',
   },
+  {
+    name: 'Sunshine Empire MLM Ponzi Scheme',
+    slug: 'singapore-sunshine-empire-mlm-ponzi-scheme',
+    description:
+      'Sunshine Empire Pte Ltd, a Singapore multi-level marketing company founded in 2003, drew in more than S$180 million from roughly 20,000 investors by selling "lifestyle packages" that promised cash rebates and returns for viewing online advertisements, framing the payouts as a genuine e-commerce business rather than a scheme funded by new recruits\' money. MAS placed the company on its Investor Alert List and the Commercial Affairs Department raided its offices in late 2007, revealing that of the money taken in, S$115 million had been paid out to investors, S$40 million had gone to directors as "interest-free loans," and roughly S$25 million was unaccounted for. Founder James Phang Wah and director Jackie Hoo Choon Cheat were convicted in 2010 of fraudulent trading and criminal breach of trust, with Phang sentenced to nine years\' jail and a S$60,000 fine and Hoo to seven years\' jail, in what was described at the time as Singapore\'s largest-ever Ponzi scheme. Most victims never recovered their losses even after the money was seized, as the confiscated funds remained tied up in legal proceedings for over a decade.',
+    categorySlug: 'investment-fraud',
+    country: 'SG',
+    isHistorical: true,
+    firstRecorded: '2003-01-01',
+    sources: ['Singapore courts (Phang Wah and others v Public Prosecutor, [2011] SGHC 251)', 'Commercial Affairs Department (Singapore)'],
+    sourceUrl: 'https://www.elitigation.sg/gdviewer/s/2011_SGHC_251',
+  },
+  {
+    name: 'The Gold Label Gold Buyback Ponzi Scheme',
+    slug: 'singapore-gold-label-ponzi-scheme',
+    description:
+      'The Gold Label Pte Ltd sold gold bars to more than 2,000 customers between 2009 and 2011 at markups exceeding 20% above the prevailing market price, under contracts promising guaranteed annual returns of up to 24% and the option to sell the gold back to the company at the original purchase price after three or six months. The company had no real trading operation or profit source behind these payouts; it relied entirely on money from new customers to meet buyback obligations owed to earlier ones, and the scheme collapsed in October 2010 with roughly S$85 million in unpaid obligations against about S$150 million in total sales. Following a Commercial Affairs Department investigation, managing director Iseli Rudolf James Maitland and CEO How Soo Feng were convicted of fraudulent trading after a 29-day trial and sentenced to three years and ten months in prison in September 2022, while a third director, Wong Kwan Sing, who pocketed at least S$598,000 for himself, pleaded guilty and was sentenced to two years and ten months in January 2022. The case remains one of Singapore\'s clearest examples of a "guaranteed buyback" investment structure that was, in substance, an unsustainable Ponzi scheme.',
+    categorySlug: 'investment-fraud',
+    country: 'SG',
+    isHistorical: true,
+    firstRecorded: '2009-01-01',
+    sources: ['Singapore Police Force', 'Commercial Affairs Department (Singapore)'],
+    sourceUrl: 'https://www.police.gov.sg/media-hub/news/2022/20220912_former_dir_of_multimil_dlr_gold_invstmnt_cmpny_jailed_for_running_a_ponzi_scheme',
+  },
 ];
 
 async function seedCategoriesAndScams() {
