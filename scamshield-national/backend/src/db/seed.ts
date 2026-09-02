@@ -22619,6 +22619,40 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Pennsylvania Office of Attorney General'],
     sourceUrl: 'https://www.attorneygeneral.gov/taking-action/ag-sunday-reaches-750k-settlement-with-mechanicsburg-based-collectibles-company-over-negative-option-subscription-practices/',
   },
+  {
+    name: 'Japan Online Securities Account Takeover and Stock Manipulation Scam',
+    slug: 'japan-securities-account-takeover-scam',
+    description:
+      'Phishing emails and text messages impersonating major Japanese brokerages link to convincing fake login pages that harvest a customer\'s trading ID and password. Fraudsters use the stolen credentials to log into the real account, sell off the victim\'s legitimate holdings, and use the proceeds to buy thinly-traded stocks — often small Chinese-listed companies — that the fraudsters themselves already hold, pumping up the price before quietly selling their own shares for a profit and leaving the victim holding an account drained of its original value. Japan\'s Financial Services Agency reported 6,380 hijacked brokerage accounts and 3,505 unauthorized trades in just the first four months of 2025, with combined fraudulent sales and purchases totaling roughly ¥305 billion, prompting mandatory multi-factor authentication requirements at major securities firms and an industry-wide customer compensation agreement.',
+    categorySlug: 'account-takeover',
+    country: 'JP',
+    alertLevel: 'critical',
+    sources: ['Japan Financial Services Agency (FSA)'],
+    sourceUrl: 'https://www.fsa.go.jp/en/conference/minister/2025/20250513.html',
+  },
+  {
+    name: 'DMM Bitcoin ¥48 Billion Cryptocurrency Exchange Theft',
+    slug: 'japan-dmm-bitcoin-theft',
+    description:
+      'On May 31, 2024, Japanese cryptocurrency exchange DMM Bitcoin disclosed the loss of 4,502.9 bitcoin — worth roughly ¥48 billion ($305–308 million) at the time — making it the largest cryptocurrency theft recorded anywhere that year. The attack began months earlier when a North Korean operative posing as a recruiter on LinkedIn contacted an employee at Ginco, a firm DMM Bitcoin used to help manage its digital-asset wallets, and sent a coding "pre-employment test" hosted on GitHub that was actually malware; running it let the attackers steal the employee\'s session-login data, impersonate them inside Ginco\'s systems, and ultimately manipulate a legitimate wallet transaction request from a DMM Bitcoin employee to divert the funds. The FBI, the U.S. Department of Defense Cyber Crime Center, and Japan\'s National Police Agency jointly attributed the theft to a North Korean state-backed hacking group tracked as "TraderTraitor" in a December 2024 statement, and DMM Bitcoin raised roughly $320 million to reimburse affected customers before folding its exchange operations into a successor platform.',
+    categorySlug: 'investment-fraud',
+    country: 'JP',
+    isHistorical: true,
+    firstRecorded: '2024-05-31',
+    sources: ['Japan National Police Agency', 'Federal Bureau of Investigation', 'U.S. Department of Defense Cyber Crime Center'],
+    sourceUrl: 'https://www.fbi.gov/news/press-releases/fbi-dc3-and-npa-identification-of-north-korean-cyber-actors-tracked-as-tradertraitor-responsible-for-theft-of-308-million-from-bitcoindmmcom',
+  },
+  {
+    name: 'Japan Fake Online Shopping Site Fraud',
+    slug: 'japan-fake-shopping-site-scam',
+    description:
+      'Fraudsters build convincing but entirely fake e-commerce storefronts — often cloning a real, well-known retailer\'s branding and product photos — and drive traffic to them through search ads, social media posts, and links quietly inserted into hacked legitimate websites, luring shoppers with steep "today only" discounts and artificial "limited stock" warnings. Payment is typically restricted to bank transfer only, and the site either never ships anything or sends counterfeit goods; Japan\'s National Police Agency and the Japan Cybercrime Control Center (JC3) logged 18,738 reports of fake shopping sites in just the first half of 2025 alone, a 9.2% rise over the same period the year before. The NPA advises checking a site\'s domain history and company details independently before ordering and promotes its own "SAGICHECK" tool for verifying a shopping site\'s legitimacy before paying.',
+    categorySlug: 'online-shopping-scams',
+    country: 'JP',
+    alertLevel: 'high',
+    sources: ['Japan National Police Agency', 'Japan Cybercrime Control Center (JC3)'],
+    sourceUrl: 'https://www.npa.go.jp/bureau/cyber/countermeasures/fake-shop.html',
+  },
 ];
 
 async function seedCategoriesAndScams() {
