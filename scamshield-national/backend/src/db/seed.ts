@@ -16803,6 +16803,53 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['National Student Loans Service Centre (NSLSC), Government of Canada'],
     sourceUrl: 'https://www.csnpe-nslsc.canada.ca/en/security',
   },
+  {
+    name: 'FDIC / FDIC-OIG Impersonation Scam',
+    slug: 'fdic-fdic-oig-impersonation-scam',
+    description:
+      'Scammers place unsolicited calls, texts, or emails posing as officials from the FDIC or the FDIC\'s Office of Inspector General, not the victim\'s own bank, falsely claiming the victim\'s bank has failed, is under federal investigation, is being fined, or that the victim\'s deposits are otherwise at risk. To appear legitimate, callers use real FDIC or FDIC-OIG special agents\' names and reproduce the agency seal or logo in emails and letters, then pressure the victim to disclose personal or account information or move money into a supposedly "protected" account. This is the specific federal-regulator impersonation angle, distinct from a scam impersonating the victim\'s own bank\'s fraud department or a three-stage tech-support-to-bank-to-government escalation, and the FDIC states plainly that its OIG special agents never solicit money or personal information by phone and neither agency demands payment via gift card, wire, or cryptocurrency.',
+    categorySlug: 'government-impersonation',
+    country: 'US',
+    alertLevel: 'high',
+    sources: ['Federal Deposit Insurance Corporation (FDIC)', 'FDIC Office of Inspector General (FDIC OIG)'],
+    sourceUrl: 'https://www.fdic.gov/about/beware-impersonation-scams-claiming-be-fdic-or-fdic-oig-unsolicited.pdf',
+  },
+  {
+    name: 'Arkansas General Improvement Fund (GIF) Legislator Kickback Scheme',
+    slug: 'arkansas-general-improvement-fund-legislator-kickback-scheme',
+    description:
+      'Arkansas\'s General Improvement Fund let individual state legislators personally direct discretionary chunks of surplus state revenue to nonprofits and local projects in their district, with no independent vetting of the recipient. A former state senator and a state representative steered $400,000 in fund grants to a small religious college, whose president funneled kickbacks back to the two legislators through a shell consulting firm; the senator was convicted on 15 federal counts including honest-services fraud, conspiracy, and money laundering, sentenced to over 18 years in prison, and ordered to pay over $1.6 million in restitution, with the other legislator and two co-defendants also pleading guilty or convicted. The underlying fund mechanism itself was separately ruled unconstitutional by the Arkansas Supreme Court on three occasions for letting individual legislators exercise executive-style spending control, and the fund was permanently abolished as a result, a distinct illustration of how a state\'s own discretionary-grant structure can be built in a way that invites bribery.',
+    categorySlug: 'public-benefits-fraud',
+    country: 'US',
+    state: 'AR',
+    alertLevel: 'high',
+    sources: ['U.S. Department of Justice, Office of Public Affairs'],
+    sourceUrl: 'https://www.justice.gov/archives/opa/pr/former-arkansas-state-senator-sentenced-more-18-years-prison-bribery-scheme',
+  },
+  {
+    name: 'Minnesota Feeding Our Future Child Nutrition Program Fraud',
+    slug: 'minnesota-feeding-our-future-child-nutrition-fraud',
+    description:
+      'A nonprofit authorized by the Minnesota Department of Education to oversee federal Child Nutrition Program meal sites during the pandemic falsely claimed its affiliated sites served roughly 91 million meals to children, generating nearly $250 million in fraudulent federal reimbursements that prosecutors said was spent on luxury cars, jewelry, travel, and real estate rather than food. The organization\'s founder was convicted at federal trial on conspiracy, wire fraud, and bribery charges and sentenced to more than 41 years in prison with an order to repay nearly $243 million, and dozens of co-defendants across the affiliated site network have also been convicted or pleaded guilty in what federal prosecutors called the largest pandemic-relief fraud case in the country. Minnesota\'s own Office of the Legislative Auditor issued a special review finding the state education department\'s oversight was inadequate and had created opportunities for fraud, including failing to act on red flags identified years before the scheme exploded, an institutional insider fraud on a specific state-administered federal program rather than a scam pitched to individual consumers.',
+    categorySlug: 'public-benefits-fraud',
+    country: 'US',
+    state: 'MN',
+    alertLevel: 'high',
+    sources: ['U.S. Department of Justice (Office of Public Affairs)', 'Minnesota Office of the Legislative Auditor'],
+    sourceUrl: 'https://www.justice.gov/opa/pr/feeding-our-future-ringleader-sentenced-500-months',
+  },
+  {
+    name: 'Ohio ECOT Online Charter School Attendance Fraud',
+    slug: 'ohio-ecot-online-charter-school-attendance-fraud',
+    description:
+      'Ohio\'s largest online charter school was funded per-pupil based on student enrollment and hours logged, but a state review found it could not verify that students actually completed the login-time hours it billed the state for. After the school collapsed and closed amid the resulting funding dispute, the Ohio Auditor of State issued findings for recovery totaling over $117 million owed to the state, plus additional findings against two for-profit companies founded by the school\'s own founder that had contracted with it for management and software services. Education researchers and state officials have called it the largest charter-school financial scandal in Ohio history, and the mechanism here, inflated attendance and enrollment reporting used to draw down per-pupil state education funding, is distinct from a grant-diversion case since it involves manipulating the funding formula itself rather than misusing an already-awarded lump grant.',
+    categorySlug: 'public-benefits-fraud',
+    country: 'US',
+    state: 'OH',
+    alertLevel: 'high',
+    sources: ['Ohio Auditor of State'],
+    sourceUrl: 'https://ohioauditor.gov/news/pressreleases/Details/5965',
+  },
 ];
 
 async function seedCategoriesAndScams() {
