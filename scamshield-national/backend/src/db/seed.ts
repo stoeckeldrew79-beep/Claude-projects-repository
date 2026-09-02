@@ -18772,6 +18772,30 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Finansinspektionen (Swedish Financial Supervisory Authority)'],
     sourceUrl: 'https://www.fi.se/sv/publicerat/nyheter/2025/148-varningar-hittills-i-ar--bedragarna-anvander-flera-nya-metoder/',
   },
+  {
+    name: 'SCDPPPS "Keep Them Out of Prison" Impersonation Scam',
+    slug: 'south-carolina-scdppps-keep-out-of-prison-impersonation-scam',
+    description:
+      'Callers falsely claiming to represent the South Carolina Department of Probation, Parole and Pardon Services tell family members of an incarcerated or convicted person that a payment — sent by Venmo, Zelle, PayPal, MoneyPak, Cash App, or a cash gift card — will get their loved one released early or keep them from being sent to prison in the first place. The pitch relies on caller-ID spoofing and the emotional urgency of a family already in crisis to short-circuit any pause to verify the claim. SCDPPPS issued a statewide warning in February 2026 stating flatly that the agency never calls family members to solicit money in exchange for an inmate\'s release or continued freedom, and urges anyone contacted this way to hang up and report the call to local law enforcement and the SC Department of Consumer Affairs.',
+    categorySlug: 'government-impersonation',
+    country: 'US',
+    state: 'SC',
+    alertLevel: 'high',
+    sources: ['South Carolina Department of Probation, Parole and Pardon Services'],
+    sourceUrl: 'https://sc.gov/news/scdppps-warns-scammers',
+  },
+  {
+    name: 'Avon, Indiana Real-Estate Broker Forged-Note Investor Fraud (Jeremy Tucker)',
+    slug: 'indiana-avon-jeremy-tucker-real-estate-broker-fraud',
+    description:
+      'Jeremy Tucker, a licensed real-estate broker in Avon, Indiana, used his professional standing to solicit private loans from investors for property deals, then forged at least 27 investor and notary signatures onto mortgages and promissory notes to push transactions through without genuine consent, while inflating property values through transfers among his own associates to justify oversized loans on dilapidated homes. One victim testified to losing more than $10 million and another more than $4 million, with the Indiana Attorney General\'s office estimating total losses could exceed $100 million in what a deputy attorney general described as a yearslong, Ponzi-like property-flipping scheme. Attorney General Todd Rokita\'s 29-count administrative complaint led the Indiana Real Estate Commission to permanently revoke Tucker\'s broker license on December 17, 2025, fine him the maximum $29,000, and bar him from relicensure until victims are repaid — a reminder to verify a broker\'s license and disciplinary history through the Indiana Professional Licensing Agency before wiring money for a private real-estate investment, regardless of how credentialed the person asking seems.',
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    state: 'IN',
+    alertLevel: 'high',
+    sources: ["Indiana Attorney General's Office", 'WISH-TV', 'The Indiana Lawyer'],
+    sourceUrl: 'https://events.in.gov/event/attorney-general-todd-rokita-secures-revocation-of-license-against-avon-real-estate-broker-who-defrauded-investors-of-millions',
+  },
 ];
 
 async function seedCategoriesAndScams() {
