@@ -16635,6 +16635,17 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Verbraucherzentrale Rheinland-Pfalz', 'Verbraucherzentrale Energieberatung'],
     sourceUrl: 'https://www.verbraucherzentrale-rlp.de/pressemitteilungen/unserioese-werbung-fuer-photovoltaikanlagen-65097',
   },
+  {
+    name: '"Liquidity Mining" Crypto Wallet-Drain Scam',
+    slug: 'liquidity-mining-crypto-wallet-drain-scam',
+    description:
+      'A scammer contacts a cryptocurrency owner via unsolicited direct message on social media, a dating app, or a messaging platform, and spends days to weeks building a personal or professional relationship before pitching "liquidity mining," a passive-income scheme guaranteeing daily returns on holdings like stablecoins or Ethereum. The victim is sent a link to a fraudulent app and told to connect their real crypto wallet and click to receive a "mining certificate" or node in exchange for a small fee, but that click actually signs a malicious smart-contract transaction granting the scammer unlimited, standing approval to withdraw funds from the wallet at will. A fake dashboard then shows fabricated returns to encourage larger deposits before the scammer drains everything, a mechanism distinct from seed-phrase phishing or a fake wallet-update letter since the victim never hands over credentials, only unknowingly authorizes an on-chain withdrawal permission. The FBI recommends periodically reviewing and revoking wallet token approvals through a blockchain explorer\'s token-approval checker, never granting "unlimited" spending approval to an unfamiliar contract, and treating any DM-based investment pitch with guaranteed daily returns as a red flag regardless of how the relationship developed.',
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    alertLevel: 'high',
+    sources: ['Federal Bureau of Investigation (FBI) Internet Crime Complaint Center (IC3)'],
+    sourceUrl: 'https://www.ic3.gov/PSA/2022/PSA220721',
+  },
 ];
 
 async function seedCategoriesAndScams() {
