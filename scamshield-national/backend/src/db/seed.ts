@@ -18460,6 +18460,17 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['DGCCRF', 'Agence nationale de l\'habitat (Anah)'],
     sourceUrl: 'https://www.anah.gouv.fr/presse/lutte-contre-la-fraude-dans-le-secteur-de-la-renovation-energetique-la-dgccrf-et-l-anah',
   },
+  {
+    name: 'AI-Forged Rental Application Fraud',
+    slug: 'ai-forged-rental-application-fraud',
+    description:
+      "Rather than the more familiar scam of a fake listing that defrauds a prospective renter, this scheme runs in the opposite direction: a rental applicant uses generative AI to fabricate flawless pay stubs, W-2s, bank statements, and even a government-issued ID to qualify for a unit they couldn't otherwise afford, then moves in under a fabricated financial profile or immediately and illegally sublets the unit to someone else. A National Multifamily Housing Council survey of major apartment operators found 93.3% had experienced application fraud within the prior year, with 84.3% specifically citing falsified pay stubs, employment references, or income documentation, and average bad-debt write-offs of $4.2 million per operator annually; the National Apartment Association separately reports that 23.8% of eviction filings now trace back to a fraudulent application. Generative AI has made forged pay stubs and IDs dramatically harder to catch by eye or with older scanning tools, which is why larger operators are shifting toward third-party income verification tied directly to payroll systems, live video ID checks, and AI-based document-authentication software rather than trusting a submitted PDF alone. Renters and small independent landlords managing their own units face the same exposure without that infrastructure and should independently verify a prospective tenant's stated employer and bank rather than relying on documents that can't be checked against an outside source, since an accepted fraudulent tenancy typically ends only after a costly, months-long eviction process.",
+    categorySlug: 'ai-deepfake-scams',
+    country: 'US',
+    alertLevel: 'medium',
+    sources: ['National Apartment Association', 'National Multifamily Housing Council'],
+    sourceUrl: 'https://naahq.org/news/fraud-goes-high-tech',
+  },
 ];
 
 async function seedCategoriesAndScams() {
