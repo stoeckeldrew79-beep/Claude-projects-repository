@@ -3797,6 +3797,50 @@ U.S. District Judge Josephine Staton sentenced Tolstedt on September 15, 2023, t
 The Wells Fargo case is unusual among large-scale financial frauds in that no outside con artist deceived anyone; the bank's own employees, under quotas set and enforced from the top of a division Tolstedt ran, became the instrument of fraud against the very customers they were paid to serve. That structure — real people facing real, measurable pressure to hit sales numbers that have been decoupled from whether a customer actually wants or asked for a product — recurs in miniature in any organization that rewards volume over consent, and Tolstedt's case remains the clearest illustration on record of how far up an organization's chain that pressure can originate while criminal accountability, in practice, still lands almost entirely on the people closest to the customer.`,
     sourceUrl: 'https://www.justice.gov/usao-cdca/pr/former-wells-fargo-executive-agrees-plead-guilty-obstructing-bank-examination',
   },
+  {
+    title: '"Soapy" Smith: The Con Man Who Ran an Entire Alaskan Town',
+    slug: 'soapy-smith-skagway-con-empire',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Soapy_Smith_1898.jpg?width=1200',
+    coverImagePosition: 50,
+    body: `Jefferson Randolph "Soapy" Smith II built his reputation, and his nickname, on a simple street swindle: he would stack bars of soap on a table, wrap a few of the bars in cash — including, ostensibly, a $100 bill — reseal the wrappers, and auction the bars to a crowd for a dollar apiece, promising a lucky buyer a huge cash prize hidden inside. In reality Smith's confederates, working the crowd as shills, always won the marked bars, having palmed and switched them before the real buyers ever got a turn. The "soap game" made Smith's name in Denver in the 1880s, where he built a network of saloons, gambling parlors, and bribed police and politicians that let his crews run shell games, rigged card tables, and outright robbery with near-total impunity for over a decade.
+
+When the Klondike Gold Rush sent tens of thousands of prospectors through the boomtown of Skagway, Alaska, in 1897 and 1898, Smith followed the money and rebuilt his Denver operation from scratch. He opened a saloon, "Jeff Smith's Parlor," that functioned as his headquarters, and within months effectively controlled Skagway's underworld: a fake telegraph office charged stampeders to send wires over a wire that connected to nothing, con men steered new arrivals into rigged games, and a network of guides, clerks, and shopkeepers fed victims to Smith's operation in exchange for a cut. Estimates of how much Smith's network took from prospectors passing through Skagway run into the hundreds of thousands of dollars, at a time when a single lost stake could end a prospector's entire trip north.
+
+Smith's downfall came from the town he'd been fleecing. After Smith's men robbed a returning miner named John Douglas Stewart of a poke of gold worth roughly $2,700 in July 1898, a group of Skagway's legitimate citizens formed a vigilante "Committee of 101" to reclaim the gold and drive Smith's operation out. At a confrontation on the Juneau Company Wharf on July 8, 1898, Smith, armed and reportedly drunk, tried to force his way past a guard named Frank Reid. The two men opened fire on each other at close range; Smith was killed instantly, and Reid died of his wounds twelve days later. Smith was buried outside the boundary of Skagway's regular cemetery, a final, informal verdict on how the town wanted to remember him.
+
+Soapy Smith never faced a courtroom for any of it — Skagway's vigilantes served as judge, jury, and executioner in a way no modern fraud case would tolerate — but his career remains one of the most thoroughly documented con operations of the American frontier, precisely because it depended on capturing the institutions, from the telegraph office to the local police, that victims would otherwise have turned to for help. That's the throughline to every "trusted middleman" scam since: the swindle works best not when it avoids the town's authorities, but when it becomes them.`,
+    sourceUrl: 'https://www.nps.gov/klgo/learn/historyculture/soapy-smith.htm',
+  },
+  {
+    title: 'Jonathan Lebed: The 15-Year-Old the SEC Charged With Stock Fraud',
+    slug: 'jonathan-lebed-teenage-pump-and-dump-sec-case',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `In September 2000, the SEC announced a civil fraud settlement over a stock-manipulation scheme that had netted roughly $800,000 in trading profits — an unremarkable size for an SEC case, except that the defendant, Jonathan Lebed, was a 15-year-old high school freshman in Cedar Grove, New Jersey, running the scheme from a computer in his bedroom. He became the first minor ever charged by the SEC with securities fraud.
+
+Lebed's method was a straightforward pump-and-dump, but executed with a teenager's fluency in the still-new medium of internet message boards rather than the phone banks and boiler rooms regulators were used to policing. He would buy a block of a thinly traded microcap stock, then flood dozens of Yahoo! Finance and AOL financial message boards with dozens of enthusiastic posts under multiple usernames, hyping the stock as the "most undervalued stock ever" or predicting imminent huge gains, without disclosing that he already owned shares and stood to profit the moment other investors piled in. Because the stocks were so thinly traded, even modest buying interest from message-board readers could move the price sharply within a single day — and Lebed would sell into that spike before the price fell back. Between September 1999 and February 2000, the SEC found he'd made eleven such trades, with single-day gains ranging from about $12,000 to $74,000.
+
+What made the case genuinely novel wasn't the pump-and-dump mechanics, which were decades old, but the platform: Lebed had no broker relationships to hide behind, no boiler-room co-conspirators, and no need for cold-calling — a message board post cost him nothing and could reach thousands of retail investors who trusted "average investor" chatter more than a stranger's phone pitch. SEC enforcement staff spent months establishing that his trading was too precisely timed to his posts to be coincidental. Lebed, through his attorney, argued he'd simply shared his own genuine opinions and that plenty of adult "momentum" traders on the same boards did exactly the same thing without consequence — a point commentators would later argue had real merit, given how much ordinary message-board stock hype went unpoliced at the time.
+
+In September 2000, Lebed settled with the SEC without admitting or denying wrongdoing, agreeing to disgorge $272,826 in profits plus interest — a little under half of what he'd made — while keeping the rest. SEC enforcement director Richard Walker was blunt about the case's purpose beyond Lebed himself: "This is a case of fraud. There's no seniority requirement, no exemption, for teenagers." The case became a fixture in early internet-fraud commentary — Michael Lewis profiled Lebed at length in a widely read 2001 New York Times Magazine piece — precisely because it arrived just as message boards, and later social media, were becoming the dominant venue for exactly the kind of anonymous, unverified stock hype that would go on to fuel meme-stock rallies and pump-and-dump crypto "shilling" two decades later.`,
+    sourceUrl: 'https://www.sec.gov/news/press/2000-135.txt',
+  },
+  {
+    title: 'Emil Savundra and the Insurance Collapse That Left 400,000 British Drivers Uninsured',
+    slug: 'emil-savundra-fire-auto-marine-insurance-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Emil Savundra arrived in postwar Britain with a long, largely unpunished history as an international swindler — a Ceylon-born black marketeer who had already been imprisoned in Belgium in 1954 for defrauding a bank over a fake rice-shipment deal, and who had run schemes across Europe, West Africa, and Central America before settling in London. In 1963, he founded Fire, Auto and Marine Insurance Company (FAM), and pitched it directly at Britain's rapidly growing population of car owners with a simple hook: premiums priced as much as 40% below what established insurers charged.
+
+The underpricing wasn't a smarter business model — it was the fraud. FAM took in roughly £2.5 million in premiums from an estimated 400,000 policyholders while never building the financial reserves an insurer needs to actually pay claims, and Savundra padded the company's books with securities that regulators later found were wildly overstated or didn't exist in the amounts claimed. When FAM collapsed into insolvency in late 1966, hundreds of thousands of British drivers discovered they had been driving uninsured for months without knowing it, and thousands of accident victims and policyholders with pending claims — including people injured or with wrecked cars from accidents that had already happened — were left with valid-looking policies that would never pay out.
+
+Savundra's most infamous moment came in July 1967, when he agreed to be interviewed live by David Frost on The Frost Programme in front of a studio audience that included some of his own defrauded policyholders. Rather than express remorse, Savundra dismissed his victims — memorably calling them "peasants" — and denied any moral responsibility for the collapse, a performance so widely condemned that it was credited with helping trigger his prosecution and became a landmark case study in how television could function as public accountability when courts moved slowly. He was arrested that August.
+
+After a 42-day trial, Savundra was convicted in March 1968 of conspiracy to defraud his policyholders and sentenced to eight years in prison and a £50,000 fine. He was released in December 1974 — having developed a drug dependency during his sentence — and died in 1976, officially registered at his death as a "retired banker," a final piece of self-mythology from a man whose entire career had been built on presenting fraud as ordinary business. FAM's collapse remains one of the largest consumer insurance failures in British history and helped drive later reforms requiring UK motor insurers to maintain minimum solvency reserves specifically so a single insurer's collapse couldn't strip hundreds of thousands of policyholders of coverage overnight.`,
+    sourceUrl: 'https://www.historyworkshop.org.uk/empire-decolonisation/the-savundra-affair-the-history-of-an-international-fraud/',
+  },
 ];
 
 // Practical "how it works / red flags / what to do" guides covering the
@@ -17238,6 +17282,42 @@ const SEED_SCAMS: SeedScam[] = [
     alertLevel: 'medium',
     sources: ['U.S. Attorney\'s Office, District of Wyoming', 'FBI Denver Field Office'],
     sourceUrl: 'https://www.fbi.gov/contact-us/field-offices/denver/news/no-one-is-above-the-lawflorida-mother-daughter-duo-sentenced-and-ordered-to-pay-over-800k-for-fraud-scheme',
+  },
+  {
+    name: 'Alaska Wilderness Outfitter Prepaid Guided-Hunt Scam',
+    slug: 'alaska-wilderness-outfitter-prepaid-guided-hunt-scam',
+    description:
+      'A Wasilla man running a big-game guide business out of Holy Cross, Alaska, took full advance payment from hunters booking guided moose hunts, then routinely canceled trips at the last minute without issuing refunds, defrauding at least 32 clients of more than $660,000 between 2019 and 2024; clients who did make it into the field were allegedly left in dangerous conditions without adequate fuel or guides. The Alaska Department of Law sued the outfitter for unfair and deceptive business practices and obtained a temporary restraining order in Palmer Superior Court barring him from taking new customer payments unless he can prove he can deliver safe, legal hunts, while requiring him to preserve assets for restitution. Alaska\'s remote guided hunting and fishing industry runs almost entirely on large upfront deposits, so prospective clients should verify a guide\'s state guide license and complaint history with the Alaska Big Game Commercial Services Board before wiring a deposit, and pay by credit card where possible so a disputed charge can be reversed.',
+    categorySlug: 'online-shopping-scams',
+    country: 'US',
+    state: 'AK',
+    alertLevel: 'high',
+    sources: ['Alaska Department of Law', 'Anchorage Daily News'],
+    sourceUrl: 'https://law.alaska.gov/press/releases/2025/082825-Miller.html',
+  },
+  {
+    name: 'Providence "Foreclosure Rescue" Deed-Theft Scheme Targeting Limited-English Homeowners',
+    slug: 'rhode-island-foreclosure-rescue-deed-theft-limited-english',
+    description:
+      'A Rhode Island real estate broker and associated companies approached an elderly Haitian immigrant couple in Providence after they fell behind on their mortgage, and — exploiting their limited English proficiency — had them sign paperwork they were told was a refinancing, which was actually a deed transferring their $450,000 home for roughly the $61,000 they still owed on it. Rhode Island Attorney General Peter Neronha sued the broker and his companies for violating the state\'s Unfair and Deceptive Trade Practices Act, seeking to void the sale, return the home to the couple, and impose civil penalties, and secured an agreement keeping the family in the home pending a preliminary-injunction hearing. Anyone facing foreclosure who is asked to sign documents in a language they don\'t fully read should insist on a certified interpreter and an independent, HUD-approved housing counselor before signing anything, since a legitimate refinance never requires transferring the deed itself.',
+    categorySlug: 'mortgage-foreclosure-scams',
+    country: 'US',
+    state: 'RI',
+    alertLevel: 'high',
+    sources: ['Rhode Island Office of the Attorney General', 'WPRI'],
+    sourceUrl: 'https://riag.ri.gov/press-releases/attorney-general-neronha-files-lawsuit-against-real-estate-broker-following',
+  },
+  {
+    name: 'FPI Management "Low-Income Senior" Apartment Deception',
+    slug: 'washington-fpi-management-low-income-senior-apartment-deception',
+    description:
+      'A California-based property manager and the owners of five "low-income" senior apartment complexes across Western Washington marketed to tenants aged 55 and up without disclosing how their rent would be calculated and increased over time, while misrepresenting the condition of units, the availability of advertised amenities like pools and fitness rooms, and on-site safety measures, affecting more than 1,000 vulnerable tenants. Washington Attorney General Nick Brown sued under the state Consumer Protection Act, and the case resolved in a $7 million settlement — $2.5 million toward tenant restitution and future enforcement, plus $4.5 million in required capital improvements over four years, along with staff retraining and corrected advertising at the companies\' other Washington properties. Seniors evaluating income-restricted housing should get the rent-calculation formula and any amenity or safety claims in writing before signing a lease, and can report a mismatch between what was advertised and what was delivered to the state Attorney General\'s Consumer Protection Division.',
+    categorySlug: 'identity-theft',
+    country: 'US',
+    state: 'WA',
+    alertLevel: 'medium',
+    sources: ['Washington State Office of the Attorney General'],
+    sourceUrl: 'https://www.atg.wa.gov/news/news-releases/ag-brown-secures-multi-million-dollar-settlement-fpi-management-and-property',
   },
 ];
 
