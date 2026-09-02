@@ -17393,6 +17393,17 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['National Consumer Affairs Center of Japan (NCAC)'],
     sourceUrl: 'https://www.kokusen.go.jp/news/data/n-20220224_1.html',
   },
+  {
+    name: 'Deepfake-Enabled Identity Verification Bypass Fraud',
+    slug: 'deepfake-identity-verification-bypass-fraud',
+    description:
+      'Fraudsters pair a stolen Social Security number and other real personal details with an AI-generated face — either synthesized outright or swapped onto video in real time — to defeat the selfie "liveness check" that banks, crypto exchanges, and other financial platforms rely on to verify a new account holder\'s identity online. Because the underlying Social Security number is genuine even though the face and supporting documents are fabricated or manipulated, the resulting account can pass automated identity checks and go on to receive direct deposits, draw credit, or launder stolen funds, while the real person tied to that number may only discover the fraud when it shows up as an unfamiliar account or credit inquiry. The Financial Crimes Enforcement Network issued a nationwide alert to financial institutions in November 2024 (FIN-2024-Alert004) after tracking a sharp rise in suspicious activity reports describing generative-AI deepfakes used specifically to circumvent identity verification, authentication, and customer due-diligence controls. The tools driving this are now inexpensive and widely available, putting a verification-defeating deepfake within reach of low-skill fraud rings rather than only sophisticated ones. Anyone who notices an unfamiliar account, credit inquiry, or notice tied to their Social Security number should treat it as a possible sign of this kind of fraud and start a recovery plan at IdentityTheft.gov.',
+    categorySlug: 'ai-deepfake-scams',
+    country: 'US',
+    alertLevel: 'high',
+    sources: ['FinCEN'],
+    sourceUrl: 'https://www.fincen.gov/news/news-releases/fincen-issues-alert-fraud-schemes-involving-deepfake-media-targeting-financial',
+  },
 ];
 
 async function seedCategoriesAndScams() {
