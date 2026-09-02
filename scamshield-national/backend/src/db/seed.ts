@@ -2214,9 +2214,8 @@ The scheme collapsed in November 1963, when Allied Crude Vegetable Oil went bank
 
 The "Great Salad Oil Swindle," as it became known, remains a foundational case study in why collateral has to be independently verified rather than taken on the strength of paperwork alone — a lesson every bank that lent against Allied's warehouse receipts learned only after the tanks turned out to be full of water.`,
     sourceUrl: 'https://en.wikipedia.org/wiki/Salad_oil_scandal',
-    // representative photo — replace with a portrait if found
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Bayonne_tank_farm_from_BB_jeh.jpg?width=1200',
-    coverImageCredit: 'Photo: Jim Henderson (CC BY-SA 4.0)',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Anthony_%22Tino%22_De_Angelis.png?width=1200',
+    coverImageCredit: 'Photo: TIME magazine, 1963 (Public Domain)',
     coverImagePosition: 50,
   },
   {
@@ -2840,6 +2839,10 @@ The Beijing First Intermediate People's Court delivered its verdict on September
 
 Ezubao's collapse became a landmark case in China's subsequent crackdown on P2P lending, an industry that had grown to thousands of platforms with minimal oversight before regulators moved to shut most of it down entirely in the years that followed. The case illustrates how a fraud can hide behind a genuinely useful piece of financial infrastructure — peer-to-peer lending did, and still does, serve legitimate borrowers elsewhere — while using that infrastructure's newness, and the absence of any established way for an ordinary investor to verify a borrower actually exists, to make fabricated loans indistinguishable from real ones until the money stops flowing.`,
     sourceUrl: 'https://www.cnbc.com/2017/09/12/ezubao-two-in-china-get-life-in-prison-for-7-point-6-billion-ponzi-scheme.html',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Baohe,_Hefei,_Anhui,_China_-_panoramio_(8).jpg?width=1200',
+    coverImageCredit: 'Photo: zhangfree (CC BY 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
   },
   {
     title: 'Ramon Abbas, "Hushpuppi": The Instagram Influencer Who Laundered Millions From Business Email Scams',
@@ -2856,6 +2859,10 @@ On November 8, 2022, a federal judge in Los Angeles sentenced Abbas to 135 month
 
 Abbas's case is a reminder that business email compromise fraud, often dismissed as a lower-tech cousin of ransomware or data breaches, moves more money than almost any other category of cybercrime the FBI tracks — and that laundering those proceeds through a maze of international bank accounts requires the same kind of organized, patient criminal infrastructure as any other large-scale fraud, dressed up here in an influencer's aesthetic that made the money look earned rather than stolen.`,
     sourceUrl: 'https://www.justice.gov/usao-cdca/pr/nigerian-man-sentenced-over-11-years-federal-prison-conspiring-launder-tens-millions',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Aerial_view_of_Lagos,_Nigeria.jpg?width=1200',
+    coverImageCredit: 'Photo: Adebayo Oluwole (CC BY-SA 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
   },
   {
     title: 'Melissa Caddick: The Unlicensed Financial Adviser Who Vanished the Morning After an ASIC Raid',
@@ -2872,6 +2879,10 @@ A New South Wales coronial inquest examined her disappearance and, on May 25, 20
 
 Caddick's case illustrates how much a fraud can depend on affinity and appearance rather than paperwork anyone actually checks: her clients were largely people who already trusted her socially, and a handful of counterfeit brokerage statements were enough to sustain that trust for eight years, because no one thought to ask whether the "adviser" managing their retirement savings was licensed to do it at all.`,
     sourceUrl: 'https://www.abc.net.au/news/2023-05-25/melissa-caddick-nsw-coroner-rules-fraudster-is-dead/102390386',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/View_of_Sydney_from_Dudley_Page_Reserve,_Dover_Heights,_NSW,_Australia.jpg?width=1200',
+    coverImageCredit: 'Photo: Winston M. Yang (CC BY-SA 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
   },
   {
     title: 'Whitaker Wright: The Victorian Mining Fraudster Who Swallowed Cyanide After His Verdict',
@@ -2888,6 +2899,10 @@ The trial opened at the Royal Courts of Justice in January 1904, and on January 
 
 Wright's case is, in miniature, the same fraud that would recur in far larger form a century later at companies like Enron and Wirecard: a group of related entities shuffling cash and liabilities between each other so that none of them, examined individually, looks as insolvent as the group actually is. It also stands as an early illustration of how visibly a fraudster's wealth can be spent — a private glass ballroom under a lake is, in hindsight, exactly the kind of spending that should invite the question of where the money actually came from, long before any balance sheet is checked.`,
     sourceUrl: 'https://en.wikipedia.org/wiki/Whitaker_Wright',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Grave_of_Whitaker_Wright_in_Witley,_Surrey.jpg?width=1200',
+    coverImageCredit: 'Photo: Uhooep (CC BY-SA 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
   },
   {
     title: 'Raymond Bitar and the Full Tilt Poker Ponzi Scheme That Owed Players $390 Million',
@@ -2904,6 +2919,10 @@ Bitar surrendered to the FBI at John F. Kennedy International Airport in July 20
 
 Full Tilt's collapse is a reminder that a "segregated funds" promise is only as good as the audit behind it: nothing forced the company to actually hold player money separately, and by the time regulators looked, the gap between what the site owed and what it had was already the difference between a poker company and a Ponzi scheme.`,
     sourceUrl: 'https://www.justice.gov/usao-sdny/pr/former-full-tilt-poker-ceo-pleads-guilty-and-sentenced-manhattan-federal-court',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Full_Tilt_Poker_Seizure_Notice.png?width=1200',
+    coverImageCredit: 'Photo: U.S. Department of Justice (Public Domain)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
   },
   {
     title: 'Billie Sol Estes and the Nonexistent Fertilizer Tanks That Financed a $24 Million Fraud',
@@ -2920,6 +2939,9 @@ The scandal also reached into the Kennedy administration: investigators found Es
 
 Estes's case is a study in how far a fraud can be extended simply by exploiting distance and paperwork: an out-of-state lender could not easily drive to a West Texas field to count ammonia tanks, and a federal agriculture bureaucracy processing thousands of allotment transfers had no realistic way to catch one man quietly breaking the rule that allotments couldn't be sold separately from the land — the same vulnerability, verification that never actually happens, that underpins collateral fraud today.`,
     sourceUrl: 'https://en.wikipedia.org/wiki/Billie_Sol_Estes',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Senate_Investigating_Comm_Billie_Sol_Estes_(cropped).jpg?width=1200',
+    coverImageCredit: "Photo: Thomas J. O'Halloran, U.S. News & World Report / Library of Congress (Public Domain)",
+    coverImagePosition: 50,
   },
 ];
 
