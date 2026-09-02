@@ -15184,6 +15184,53 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Financial Services Agency (Japan)', 'Kanto Local Finance Bureau (Japan)'],
     sourceUrl: 'https://www.fsa.go.jp/ordinary/chuui/kinyu_chuui.html',
   },
+  {
+    name: 'North Korean Fraudulent Remote IT Worker Scheme',
+    slug: 'north-korean-fraudulent-remote-it-worker-scheme',
+    description:
+      'North Korean operatives use stolen or fabricated U.S. identities, forged documents, and increasingly real-time deepfake video-filtering software to pass live job interviews and get hired into remote IT and software roles at U.S. companies, sometimes with the help of U.S.-based facilitators running "laptop farms" that make the worker appear to be physically located in the country. Salaries are funneled back to fund North Korea\'s weapons programs, while the access itself creates a live insider threat enabling data theft, cryptocurrency theft, and network intrusion. The U.S. State Department and FBI, joined by counterpart agencies in ten allied nations, issued a joint public alert specifically calling out the shift to real-time deepfake video during hiring interviews as the newest evasion tactic, and advise employers to require in-person or verified live identity checks during hiring and to watch for red flags like a candidate\'s video image not matching mouth movements or lighting, and requests to ship company laptops to addresses that don\'t match the claimed location.',
+    categorySlug: 'ai-deepfake-scams',
+    country: 'US',
+    alertLevel: 'high',
+    sources: ['U.S. Department of State', 'Federal Bureau of Investigation (FBI)'],
+    sourceUrl: 'https://www.state.gov/releases/office-of-the-spokesperson/2026/07/alert-to-countries-companies-and-other-entities-regarding-north-korean-it-workers',
+  },
+  {
+    name: 'Jay Peak / Vermont EB-5 Investor Fraud',
+    slug: 'jay-peak-vermont-eb5-investor-fraud',
+    description:
+      'Ariel Quiros and William Stenger raised over $450 million from more than 800 immigrant investors, each seeking a green card through the federal EB-5 visa program, for a series of Jay Peak and Burke Mountain ski resort developments and a biomedical facility in Newport, Vermont. The Vermont Regional Center was the only EB-5 regional center in the country directly owned and supervised by a state government, which gave the scheme unusual state-backed credibility even as the SEC found more than $200 million was misused in Ponzi-like fashion, including money from later projects funneled to cover shortfalls in earlier ones and roughly $50 million diverted to Quiros\'s personal expenses. The SEC filed civil fraud charges in 2016, Quiros ultimately settled for over $80 million in a 2018 judgment, and both Quiros and Stenger later pleaded guilty to related federal criminal charges, a case that remains a cautionary example of how state government involvement in an investment program can lend it credibility that doesn\'t guarantee legitimacy.',
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    state: 'VT',
+    sources: ['U.S. Securities and Exchange Commission (SEC)'],
+    sourceUrl: 'https://www.sec.gov/newsroom/press-releases/2016-69',
+    isHistorical: true,
+  },
+  {
+    name: 'Delaware Fake "Corporate Records Service" Solicitation Scam',
+    slug: 'delaware-fake-corporate-records-service-solicitation-scam',
+    description:
+      'Companies incorporated in Delaware receive official-looking mail from entities with names like "Corporate Records Service" or "Delaware Council for Corporations," timed to arrive near the March 1 annual franchise-tax deadline, demanding roughly $125 to file corporate meeting minutes on the company\'s behalf. Delaware corporations have no legal requirement whatsoever to file meeting minutes with the state, so unlike similar overpriced-but-real filing-fee scams in other states, the entire premise of the solicitation is fabricated rather than merely inflated. The Delaware Division of Corporations maintains a standing consumer alert confirming these solicitations are not from any government agency and that recipients owe nothing to them, advising business owners to verify any corporate-compliance mailer directly with the Division before paying.',
+    categorySlug: 'business-email-compromise',
+    country: 'US',
+    state: 'DE',
+    alertLevel: 'medium',
+    sources: ['Delaware Division of Corporations'],
+    sourceUrl: 'https://corp.delaware.gov/consumeralert/',
+  },
+  {
+    name: 'South Carolina Inmate-Led COVID-19 Unemployment Fraud Ring',
+    slug: 'south-carolina-inmate-led-covid-unemployment-fraud-ring',
+    description:
+      'Incarcerated individuals inside South Carolina Department of Corrections facilities harvested Social Security numbers and dates of birth from fellow inmates, some willing participants sharing a cut of proceeds and others victims of identity theft without their knowledge, then used the stolen identities to file fraudulent pandemic unemployment insurance claims with state workforce agencies. Outside accomplices received the resulting government checks and prepaid debit cards by mail, then moved the money back to inmates via ATM withdrawals, wire transfers, and payment apps. The federal investigation spanned eight states and totaled roughly $4.99 million in fraudulent claims, with 29 of 31 indicted defendants pleading guilty to conspiracy to commit wire fraud, a case that underscores why protecting a Social Security number from casual disclosure, even to a family member or acquaintance, matters regardless of who might use it.',
+    categorySlug: 'public-benefits-fraud',
+    country: 'US',
+    state: 'SC',
+    alertLevel: 'high',
+    sources: ['U.S. Attorney\'s Office, District of South Carolina (Department of Justice)'],
+    sourceUrl: 'https://www.justice.gov/usao-sc/pr/29-plead-guilty-conspiracy-commit-wire-fraud-5m-covid-fraud-investigation',
+  },
 ];
 
 async function seedCategoriesAndScams() {
