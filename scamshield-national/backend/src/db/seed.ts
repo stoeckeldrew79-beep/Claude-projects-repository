@@ -23270,6 +23270,77 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['ACCC (Australian Competition and Consumer Commission)'],
     sourceUrl: 'https://www.accc.gov.au/media-release/swifties-beware-scammers-are-in-their-cruel-summer-era',
   },
+  {
+    name: 'Champagne Manor Wedding Venue Investment and Deposit Fraud',
+    slug: 'north-carolina-champagne-manor-wedding-venue-investment-fraud',
+    description:
+      'Jason Lottman marketed Champagne Manor, an all-inclusive wedding venue outside Charlotte, North Carolina, both as a place to book a wedding and as an investment opportunity, soliciting money from couples and outside investors alike with false promises of an ownership stake and guaranteed returns. Lottman kept booking new weddings and collecting deposits and full prepayments straight through the venue defaulting on its mortgage in mid-2024 and foreclosure proceedings beginning, then closed Champagne Manor entirely in January 2025 without refunding the money. Myrtle Beach couple Travis and Rachael Marshall, who had paid roughly $20,000 toward a wedding scheduled for May 2025, found out the venue was gone four months beforehand and had to recover part of what they\'d paid through credit card disputes while scrambling to book a replacement venue in time; prosecutors identified over $1 million taken from couples and investors combined across the scheme. Lottman pleaded guilty to federal wire fraud on July 8, 2026, and faces up to 20 years in prison at a sentencing date not yet scheduled. A venue or vendor that is also pitching an "investment" or ownership stake alongside a wedding package is mixing two very different transactions, and a couple who learns their venue has defaulted on its mortgage or entered foreclosure should treat that alone as a reason to demand a refund immediately rather than keep paying installments toward a date that may never happen.',
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    state: 'NC',
+    isHistorical: true,
+    firstRecorded: '2023-01-01',
+    sources: ["U.S. Attorney's Office, Western District of North Carolina", 'WMBF News'],
+    sourceUrl: 'https://www.justice.gov/usao-wdnc/pr/popular-wedding-venue-owner-north-carolina-pleads-guilty-wire-fraud',
+  },
+  {
+    name: 'Arya International Dance Academy Affinity Securities Fraud',
+    slug: 'new-jersey-arya-international-dance-academy-securities-fraud',
+    description:
+      'Rupal K. Patel, owner of the South Asian dance academy Arya International (later renamed Mystical Stars, LLC) in Parsippany-Troy Hills, New Jersey, raised more than $5.4 million from 74 investors — nearly half of them fellow New Jersey residents — by selling unregistered promissory notes to the friends and family of the academy\'s own dance students, starting in March 2016. Patel, who was never registered to sell securities in the state, personally guaranteed 10-20% annual returns on the notes despite lacking the financial capacity to back that promise, and some investors put their children\'s college savings into the notes on the strength of that guarantee. The academy itself shut down for three years during 2020-2023, yet Patel kept soliciting new investments the whole time, falsely telling prospective investors the business was expanding post-pandemic, and both Patel and Arya International routinely failed to pay investors back when their notes came due. The New Jersey Bureau of Securities issued a Summary Cease and Desist Order against Patel and Mystical Stars on February 25, 2026, finding violations of the state\'s Uniform Securities Law including fraud and the sale of unregistered securities by an unregistered agent. "This enforcement action halts further sales of unregistered securities while underscoring the importance of verifying investments before committing funds," said Acting Bureau Chief Keith A. Alt. A guaranteed double-digit annual return sold informally through a class, congregation, or other group you already trust is a hallmark of affinity fraud regardless of how legitimate the underlying business looks — before investing, check whether the seller and the security itself are actually registered with your state securities regulator.',
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    state: 'NJ',
+    alertLevel: 'high',
+    sources: ['New Jersey Bureau of Securities', 'New Jersey Office of the Attorney General'],
+    sourceUrl: 'https://www.njoag.gov/nj-bureau-of-securities-takes-action-to-halt-nationwide-investment-fraud-scheme-by-nj-based-arya-international-dance-institute-and-its-owner/',
+  },
+  {
+    name: 'Thompson Nation Holdings "Hostage Load" Moving Fraud',
+    slug: 'florida-thompson-nation-holdings-moving-hostage-load-fraud',
+    description:
+      'Shawn Thompson ran a chain of South Florida moving companies — operating as Thompson Nation Holdings LLC and under aliases including Small Move Movers, Fresh Start Moving and Storage, and One Man, One Van — that quoted customers a low upfront price, then loaded their belongings onto a truck and refused to unload or deliver them until the customer paid a dramatically inflated final bill. Customer Scott Meyer\'s 19-mile move was quoted at $669.50 and then doubled to $1,801 once his property was already on the truck; a Broward County jury later found Thompson\'s conduct "unfair" and "fraudulent" and awarded Meyer $13,000 in damages plus $39,000 in punitive damages, and a second customer, Nicollette Gonzalez, separately won $7,619 plus attorney\'s fees over an inflated Miami-to-Gainesville move. The Florida Department of Agriculture and Consumer Services, which had fielded 98 complaints against Thompson\'s companies since early 2022, issued a final order in November 2025 fining Thompson $110,000 across 22 separate state statute violations and permanently barring him from registering as an intrastate household-goods mover in Florida, with the department\'s Chief of Mediation and Enforcement, W. Alan Parkinson, citing the volume of complaints directly in announcing the action. Movers are legally required to release a customer\'s belongings once a binding estimate is paid in full or, under a non-binding estimate, once 110% of that estimate is paid at delivery — a mover who instead demands more before unloading a truck already holding your property is running a "hostage load," and the move should be booked through a company verified on FMCSA\'s own moving-company search tool beforehand, not chosen on the strength of the lowest quote alone.',
+    categorySlug: 'mortgage-foreclosure-scams',
+    country: 'US',
+    state: 'FL',
+    isHistorical: true,
+    firstRecorded: '2022-01-01',
+    sources: ['Florida Department of Agriculture and Consumer Services (FDACS)', 'WFTV'],
+    sourceUrl: 'https://www.wftv.com/news/local/bamboozled-state-investigating-after-customers-claim-moving-companies-held-belongings-hostage/ZYPG3SDTN5AALJ4D2OS5MFQ3WA/',
+  },
+  {
+    name: 'US "Digital Arrest" Video-Call Extortion Scam',
+    slug: 'us-digital-arrest-video-call-extortion-scam',
+    description:
+      'A scam pattern long documented in India — where callers posing as police or investigators order a victim to stay on a video call for hours or days under a fabricated "digital arrest" while draining their savings — is now spreading to the United States. AARP\'s Fraud Watch Network named it one of the biggest scams to watch for in 2026, describing it as "a terror-based scam that involves holding a person digitally captive": callers impersonate the FBI, DEA, or a foreign police agency, accuse the target of a crime such as money laundering or drug trafficking, and use AI-generated deepfake video plus forged arrest warrants and court documents to make the threat convincing, often handing the victim off between multiple fake "officers" to sustain the pressure over an extended call. In one documented 2026 case, an Indian American college professor now living in New England lost nearly $500,000 — draining retirement accounts, taking a loan against her 401(k), and moving funds through cryptocurrency wires — after being kept under near-constant two-phone video surveillance for weeks by callers posing as Indian police investigating her for a crime she never committed. No real law enforcement agency conducts an arrest, investigation, or bail process entirely over a video call, orders a target to stay on camera and cut off contact with family, or demands a transfer of funds to "prove innocence" or avoid arrest; anyone receiving this kind of call should hang up immediately and contact the actual agency directly using a phone number looked up independently, never one provided by the caller.',
+    categorySlug: 'government-impersonation',
+    country: 'US',
+    alertLevel: 'high',
+    sources: ['AARP Fraud Watch Network'],
+    sourceUrl: 'https://www.aarp.org/money/scams-fraud/biggest-scams-to-watch-for-2026/',
+  },
+  {
+    name: 'AI-Generated Fake Obituary Scam Sites',
+    slug: 'ai-generated-fake-obituary-scam-sites',
+    description:
+      'Scammers monitor search-trend spikes around a recent death, then feed a handful of scraped social media posts or a brief news mention into an AI chatbot to generate a lengthy, plausible-sounding tribute, publishing it — sometimes with an invented cause of death or details for the wrong person — across a half-dozen or more lookalike "memorial" and "funeral home" websites within 48 hours, timed to outrank the deceased\'s real obituary or funeral home page in search results while grief is freshest. Security researchers at Sophos documented the identical obituary duplicated, in slightly reworded form, across six separate fake sites within two days of one death, each version stuffed with affiliate links and search-engine-optimized to capture the traffic. Grieving family, friends, or anyone simply searching for the details are then funneled through a chain of pop-ups: a fake CAPTCHA prompt triggers a bogus "your PC is infected" virus alert mimicking McAfee or Windows Defender, persistent browser push notifications reappear even after being dismissed, and "buy antivirus now" buttons pay the scammer an affiliate commission — researchers warned the same delivery pipeline could just as easily push real malware instead of ads. Because these sites piggyback on a real person\'s actual death, they can be difficult to distinguish at a glance from a genuine tribute page; anyone looking for a recent obituary should get it directly from the funeral home\'s own website or a known local newspaper rather than clicking a search result or a shared social media link, and should close out of any page that produces a virus warning rather than clicking anything on it.',
+    categorySlug: 'tech-support-scams',
+    country: 'US',
+    alertLevel: 'medium',
+    sources: ['Sophos'],
+    sourceUrl: 'https://www.sophos.com/en-us/blog/are-scammers-using-ai-to-enhance-fake-obituary-sites',
+  },
+  {
+    name: 'Fake "One Big Beautiful Bill" Tax Deduction Scams',
+    slug: 'obbba-new-tax-deduction-scam',
+    description:
+      'The tax law widely known as the One Big Beautiful Bill Act created several deductions that are brand-new starting with the 2025 tax year — no federal income tax on qualifying tips up to $25,000, on qualifying overtime pay up to $12,500, on some car loan interest, and an enhanced deduction for seniors — and the IRS warns that scammers moved immediately to exploit both the news coverage and the genuine public confusion over who actually qualifies. "Ghost" preparers who never sign the returns they file promise inflated refunds by overstating a client\'s eligibility for the new deductions, then disappear once the return is filed, leaving the taxpayer legally responsible for any false claims; other preparers charge excessive fees while inventing tip or overtime amounts without ever asking for supporting documentation. A separate wave of unsolicited calls, texts, and emails falsely tells recipients they are "pre-approved" for an OBBB refund or credit and need to verify a code or personal information to claim it, while scammers specifically targeting seniors falsely claim the new senior deduction requires paying a fee to "enroll" or "register" — the IRS states plainly that the deduction requires no enrollment, registration, or third-party sign-up of any kind. The agency also flags social media influencers who oversimplify the new rules with claims like "everyone qualifies" or who promote supposed "loopholes," and warns that no preparer or company can legitimately speed up an IRS refund for a fee. The IRS recommends confirming that any paid preparer signs the return and provides a valid Preparer Tax Identification Number, and verifying eligibility for any new deduction directly at IRS.gov rather than taking a preparer\'s, caller\'s, or influencer\'s word for it.',
+    categorySlug: 'tax-scams',
+    country: 'US',
+    alertLevel: 'high',
+    sources: ['Internal Revenue Service (IRS)'],
+    sourceUrl: 'https://www.irs.gov/newsroom/tax-scams-to-watch-for-related-to-the-one-big-beautiful-bill',
+  },
 ];
 
 async function seedCategoriesAndScams() {
