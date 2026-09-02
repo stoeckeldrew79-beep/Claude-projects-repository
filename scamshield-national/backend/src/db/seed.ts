@@ -21345,6 +21345,18 @@ const SEED_SCAMS: SeedScam[] = [
     sourceUrl:
       'https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2021-releases/21-312mr-melissa-caddick-and-maliver-found-to-have-engaged-in-unlicensed-conduct/',
   },
+  {
+    name: 'Phony Sports Handicapper "Guaranteed Picks" Scam',
+    slug: 'phony-sports-handicapper-guaranteed-picks-scam',
+    description:
+      'A self-proclaimed "handicapper" builds a following on Instagram, TikTok, or via email and text blasts by showcasing a flashy lifestyle and a supposed record of consistent wins, often claiming access to insider information, then sells access to "guaranteed" picks for an upfront fee, sometimes with a money-back promise on any losing bet. The Better Business Bureau warns the business model works regardless of whether the picks actually win: once a buyer pays for a subscription or one-off pick, the handicapper has already been paid, and refund or free-pick promises made to keep subscribers around are routinely never honored. Some operators run the con at scale by selling opposite picks on the same game to different customer groups, guaranteeing that at least one group will get a "winning" pick to screenshot and post as proof, while the losing group\'s complaints and refund requests are simply ignored. The BBB reports online gambling-related scam complaints have more than doubled since 2023 as legal sports betting has expanded to most states, and recommends treating any "can\'t lose" pick, insider-information claim, or refund guarantee as a red flag, verifying any handicapping service through BBB Scam Tracker before paying, and remembering that no one can guarantee the outcome of a live sporting event.',
+    categorySlug: 'lottery-sweepstakes-scams',
+    country: 'US',
+    alertLevel: 'medium',
+    sources: ['Better Business Bureau (BBB)'],
+    sourceUrl:
+      'https://www.bbb.org/article/scams/26768-bbb-scam-alert-sports-handicapper-promising-you-guaranteed-wins-dont-bet-on-it',
+  },
 ];
 
 async function seedCategoriesAndScams() {
