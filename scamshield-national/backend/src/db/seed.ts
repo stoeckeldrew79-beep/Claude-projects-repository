@@ -18189,6 +18189,28 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ["South Carolina Attorney General's Office"],
     sourceUrl: 'https://www.scag.gov/about-the-office/news/attorney-general-alan-wilson-announces-his-office-will-prosecute-all-charges-related-to-pamela-schronce-through-anderson-county-investigation-of-defrauding-customers-across-the-state/',
   },
+  {
+    name: 'Counterfeit Labubu Collectible Toy Scam',
+    slug: 'counterfeit-labubu-collectible-toy-scam',
+    description:
+      'The viral popularity of Pop Mart\'s Labubu blind-box collectible figures has drawn a wave of fraudulent online sellers who advertise "authentic" or "confirmed" Labubu dolls on TikTok, Instagram, and lookalike shopping sites, then either ship convincing counterfeits nicknamed "Lafufus" or take payment and deliver nothing at all. The Better Business Bureau has logged dozens of Scam Tracker reports tied to this pattern, including buyers who paid over $170 for multiple figures and received obvious fakes with incorrect paint and packaging, and others whose sellers went silent after payment. Steep discounts on a toy known for scarcity and long resale waitlists are the clearest warning sign, since legitimate authorized retailers rarely undercut Pop Mart\'s own pricing by a wide margin. The counterfeits also carry a separate safety concern for young children, since they are typically produced without the choking-hazard testing or safety markings required of legitimate toys sold in the US. The BBB advises buying only through Pop Mart\'s official site or verified authorized retailers, searching a seller\'s name alongside "scam" before ordering, and paying by credit card so a fraudulent charge can be disputed.',
+    categorySlug: 'online-shopping-scams',
+    country: 'US',
+    alertLevel: 'medium',
+    sources: ['Better Business Bureau'],
+    sourceUrl: 'https://www.bbb.org/all/consumer/scam/counterfeit-labubus-toy-scam',
+  },
+  {
+    name: 'Prop Trading Firm Challenge Fee Scam',
+    slug: 'prop-trading-firm-challenge-fee-scam',
+    description:
+      'Online "proprietary trading firms" advertise the chance to trade with the firm\'s own capital and split the profits, but first require paying a nonrefundable fee — often $50 to several hundred dollars — to pass a simulated trading "challenge" with rules deliberately structured to make most participants fail. The CFTC\'s 2023 fraud case against Traders Global Group, doing business as "My Forex Funds," alleged the firm collected more than $310 million in fees from over 135,000 customers by misrepresenting that trades were placed with real third-party liquidity providers when the firm itself was secretly the counterparty profiting from customer losses. Industry-wide, only a small fraction of challenge participants ever pass, and among those who do, a recurring complaint pattern involves firms retroactively citing a rule violation, freezing the account, or simply going unresponsive once a trader qualifies for a payout — an estimated 80 to 100 such firms shut down between 2024 and the end of 2025 alone. Because the firms often operate offshore with minimal oversight and market aggressively through social media trading influencers, a challenge fee paid to one is effectively unrecoverable if the firm turns out to be structured this way. Prospective traders are advised to check a firm\'s payout history and regulatory status independently before paying any challenge fee, and to treat "no-risk," guaranteed-payout marketing claims as a red flag rather than a selling point.',
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    alertLevel: 'medium',
+    sources: ['U.S. Commodity Futures Trading Commission'],
+    sourceUrl: 'https://www.cftc.gov/PressRoom/PressReleases/8771-23',
+  },
 ];
 
 async function seedCategoriesAndScams() {
