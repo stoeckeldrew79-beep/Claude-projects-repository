@@ -20833,6 +20833,28 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['PC Guide', 'PiunikaWeb'],
     sourceUrl: 'https://www.pcguide.com/news/discord-users-warn-of-age-verification-scams-ahead-of-new-security-measures-next-month/',
   },
+  {
+    name: 'Irish Fraud Recovery Scam',
+    slug: 'ireland-fraud-recovery-scam',
+    description:
+      'Someone who has already lost money to a scam is contacted out of the blue — often by phone or email, sometimes posing as a solicitor, a "fraud recovery specialist," or an official-sounding recovery agency — and told their stolen funds can be traced and returned in exchange for an upfront legal, processing, or release fee. No money is ever recovered; the fee simply disappears, and because the approach targets people already known to have fallen for fraud once, it often draws on victim details bought from the same criminal networks behind the original scam. The Central Bank of Ireland named fraud recovery schemes specifically in a November 2025 consumer warning on evolving scam techniques, describing them as designed to "exploit victims\' desperation" and lead to further financial loss. Anyone contacted unprompted about recovering money already lost to fraud is advised to make no payment and to verify any such offer independently with their bank or An Garda Síochána rather than through contact details the caller provides.',
+    categorySlug: 'debt-relief-scams',
+    country: 'IE',
+    alertLevel: 'high',
+    sources: ['Central Bank of Ireland'],
+    sourceUrl: 'https://www.centralbank.ie/news/article/press-release-central-bank-of-ireland-warns-consumers-about-changing-fraud-landscape-10-november-2025',
+  },
+  {
+    name: 'Irish Fake Financial Comparison Website Scam',
+    slug: 'ireland-fake-comparison-website-scam',
+    description:
+      'A website designed to look and feel like a genuine Irish price-comparison service for mortgages, insurance, loans, or savings products invites visitors to enter personal and financial details to "find the best deal," but there is no real comparison engine behind it — the site exists purely to harvest data that is then sold on or used to contact the visitor directly with a fake financial product. The Central Bank of Ireland warned in a November 2025 consumer alert that this technique is especially effective because the person visiting the site is already shopping for that exact product and is expecting a follow-up call, which lowers their guard compared with an unsolicited approach. It flagged the trend alongside a rise in fraud recovery schemes as part of a broader shift in how scammers now build initial trust before making an ask. The Central Bank advises using only well-known, reputable comparison sites reached by typing the address directly rather than clicking through from an ad or search result, and independently verifying any firm\'s authorisation on the Central Bank\'s own register before handing over financial details.',
+    categorySlug: 'identity-theft',
+    country: 'IE',
+    alertLevel: 'medium',
+    sources: ['Central Bank of Ireland'],
+    sourceUrl: 'https://www.centralbank.ie/news/article/press-release-central-bank-of-ireland-warns-consumers-about-changing-fraud-landscape-10-november-2025',
+  },
 ];
 
 async function seedCategoriesAndScams() {
