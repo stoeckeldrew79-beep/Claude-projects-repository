@@ -18343,6 +18343,29 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Vermont Secretary of State — Office of Professional Regulation'],
     sourceUrl: 'https://sos.vermont.gov/opr/',
   },
+  {
+    name: 'The Aristophil Manuscript Investment Ponzi Scheme',
+    slug: 'france-aristophil-manuscript-ponzi-scheme',
+    description:
+      'Gérard Lhéritier built Aristophil into a business selling fractional shares in rare manuscripts, letters, and autographs — signed by figures like Einstein, Boris Vian, and Marie Curie — promising investors guaranteed annual returns above 8%, sold through independent brokers and wealth managers across France. In reality the company was running a classic cavalerie (Ponzi) structure, using new investors\' money to pay off earlier ones while wildly inflating the appraised value of its manuscript inventory to justify the promised returns. The scheme collapsed in 2014 when French regulators froze Aristophil\'s accounts, and on 11 December 2025 a Paris court convicted Lhéritier of fraud and deceptive commercial practices, sentencing him to five years in prison; nearly 8,000 investors had joined the case as civil parties, with losses estimated at close to one billion euros. It stands as one of the largest investment frauds in modern French history and a cautionary tale about "passion investments" in collectibles sold outside any regulated market.',
+    categorySlug: 'investment-fraud',
+    country: 'FR',
+    sources: ['Tribunal judiciaire de Paris', 'France 24', 'La Finance Pour Tous'],
+    sourceUrl: 'https://www.france24.com/fr/info-en-continu/20251211-escroquerie-aux-manuscrits-anciens-cinq-ans-de-prison-pour-le-fondateur-de-la-soci%C3%A9t%C3%A9-aristophil',
+    isHistorical: true,
+    firstRecorded: '2002-01-01',
+  },
+  {
+    name: 'French "Isolation à 1 Euro" Energy Renovation Grant Fraud',
+    slug: 'french-isolation-1-euro-energy-renovation-fraud',
+    description:
+      'A cold caller claims to be acting on behalf of the state or MaPrimeRénov\', France\'s official home-energy-renovation subsidy program, and offers attic or wall insulation for a symbolic one euro, or pressures the homeowner with warnings of fines for not meeting energy-efficiency rules — despite the genuine "isolation à 1 euro" scheme having ended in July 2021 specifically because of this kind of abuse. Victims are pushed into signing on the spot, sometimes asked to pay an upfront "technical guarantee" of several thousand euros that is never returned, and left with substandard or entirely unfinished insulation work, or none at all, while the company vanishes or dissolves. The DGCCRF and the Agence nationale de l\'habitat (Anah) have jointly warned consumers about the sector\'s fraud and abusive telephone canvassing — banned by law since July 2020 — and one enforcement action fined a company in Seine-et-Marne 385,200 euros in 2023 for illegal cold-calling in this exact scheme; Anah advises applying for renovation grants only directly through France Rénov\' and never through a company that called first.',
+    categorySlug: 'government-impersonation',
+    country: 'FR',
+    alertLevel: 'high',
+    sources: ['DGCCRF', 'Agence nationale de l\'habitat (Anah)'],
+    sourceUrl: 'https://www.anah.gouv.fr/presse/lutte-contre-la-fraude-dans-le-secteur-de-la-renovation-energetique-la-dgccrf-et-l-anah',
+  },
 ];
 
 async function seedCategoriesAndScams() {
