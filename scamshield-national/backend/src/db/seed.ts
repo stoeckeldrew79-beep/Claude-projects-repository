@@ -19879,6 +19879,28 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['USA Pickleball', 'Pickleball.com', 'The Dink Pickleball'],
     sourceUrl: 'https://pickleball.com/news/pickleball-community-unites-against-counterfeit-paddles',
   },
+  {
+    name: 'Singapore Physical Collection of Cash and Valuables Impersonation Scam',
+    slug: 'singapore-physical-collection-cash-valuables-scam',
+    description:
+      'After a phone caller impersonating a bank, telecom, or government officer convinces the victim their account has been compromised or that they are under investigation for a crime, a second scammer posing as a police or Monetary Authority of Singapore official instructs the victim not to transfer money electronically but instead to hand over cash, gold bars, luxury watches, or their own bank cards and PINs in person — either left at a specified location or collected by a courier posing as a "verification officer." The Singapore Police Force first flagged this escalation from the standard "safe account" wire-transfer playbook in a September 2025 advisory, and a February 2026 update on the gold and luxury-watch variant alone recorded at least 18 reports and S$2.9 million in losses since the pattern emerged; separately, police have arrested foreign nationals recruited by scam syndicates specifically to fly into Singapore and collect cash or gold from victims within hours of landing. Police stress that no bank, MAS, or government agency will ever ask a member of the public to hand over cash, bank cards, or valuables to a courier or a stranger in person, and that "verification" by physical handover is not a real government or banking procedure.',
+    categorySlug: 'government-impersonation',
+    country: 'SG',
+    alertLevel: 'critical',
+    sources: ['Singapore Police Force'],
+    sourceUrl: 'https://www.police.gov.sg/media-hub/news/2026/02/20260220_police_advisory_on_government_officials_impersonation_scams',
+  },
+  {
+    name: 'Singapore Fake Work Pass (In-Principle Approval) Recruitment Scam',
+    slug: 'singapore-fake-work-pass-ipa-scam',
+    description:
+      'Foreign nationals seeking work in Singapore are approached by an unlicensed "agent" who promises a real job and work pass for an upfront fee of several thousand Singapore dollars, then hands over a forged Ministry of Manpower In-Principle Approval (IPA) letter or work permit that mimics the genuine PDF format but was never actually issued by MOM. In a case investigated in mid-2026, six foreign nationals were duped into paying more than S$14,000 combined for five forged work permits and a fake S Pass — including for a supposed job at a Singapore courier firm — before discovering the documents were entirely fabricated; MOM has separately issued advisories warning that even some licensed employment agencies have submitted false information or tampered documents to push through work pass applications. MOM states that a genuine IPA can only be verified through its own website, and that job seekers should never pay an unlicensed intermediary, or an agency not on MOM\'s registered list, for a work pass.',
+    categorySlug: 'employment-scams',
+    country: 'SG',
+    alertLevel: 'high',
+    sources: ['Ministry of Manpower (Singapore)'],
+    sourceUrl: 'https://www.mom.gov.sg/-/media/mom/documents/employment-agencies/ea-alerts/2025/ea-alert-171025-advisory-on-fraudulent-actions-by-employment-agencies-in-work-pass-applications.pdf',
+  },
 ];
 
 async function seedCategoriesAndScams() {
