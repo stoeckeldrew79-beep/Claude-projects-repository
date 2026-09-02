@@ -21803,6 +21803,76 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ["U.S. Attorney's Office, Northern District of West Virginia"],
     sourceUrl: 'https://www.justice.gov/usao-ndwv/pr/las-vegas-woman-indicted-fraud-and-money-laundering-charges',
   },
+  {
+    name: 'BV Builders Barndominium Construction-Loan Fraud',
+    slug: 'nebraska-bv-builders-barndominium-fraud',
+    description:
+      'Bryce A. Nolde, 37, of Waverly, Nebraska, operated BV Builders, which advertised that it could build customers a "dream home" barndominium or shouse, then collected large down payments or drew heavily against customers\' construction loans between July 2022 and early 2024. Rather than paying the subcontractors and suppliers the draws were meant to cover, Nolde diverted the money to his own personal interests, leaving dozens of customers with unfinished or abandoned builds and construction liens filed against their own property by the unpaid tradespeople. A federal jury in Omaha convicted Nolde in February 2026 of three counts of wire fraud, each carrying up to 30 years in prison and a $1 million fine, and a judge later revoked his pretrial release after finding he had sold off assets without court approval; he awaits sentencing and restitution to his victims. The case underscores a standard warning for any large construction project: pay contractors on a schedule tied to verified, completed work, and ask to see lien waivers from subcontractors and suppliers before releasing the next draw.',
+    categorySlug: 'mortgage-foreclosure-scams',
+    country: 'US',
+    state: 'NE',
+    isHistorical: true,
+    firstRecorded: '2022-07-01',
+    sources: ["U.S. Attorney's Office, District of Nebraska"],
+    sourceUrl: 'https://www.justice.gov/usao-ne/pr/omaha-jury-convicts-barndominium-builder-three-counts-wire-fraud',
+  },
+  {
+    name: 'Deceptive IRS-Look-Alike Mailer Insurance Lead Scheme',
+    slug: 'north-dakota-deceptive-irs-mailer-insurance-lead-scheme',
+    description:
+      'Georgia-based RGI Data Assets, Inc., along with Direct Mail Processing, LLC and Delaware-based Mail Pro Leads, LLC, sent more than 1,300 North Dakota residents mailers designed to mimic official Internal Revenue Service tax forms, stamped with urgent language like "OPEN IMMEDIATELY" and "TIME SENSITIVE" to pressure recipients into filling them out and mailing them back. The forms requested personal information that the companies then packaged and sold to insurance agents as sales leads, even though none of the three companies held a North Dakota insurance producer license or was registered to do business in the state. North Dakota Insurance Commissioner Jon Godfread issued a cease-and-desist order against all three companies on June 19, 2024, stating that "deceptive marketing meant to mislead consumers into providing personal information has no place in North Dakota." The case is a reminder that a mailer designed to look like a government form, especially one demanding an urgent response, deserves a second look before any personal information goes back in the return envelope.',
+    categorySlug: 'identity-theft',
+    country: 'US',
+    state: 'ND',
+    alertLevel: 'medium',
+    sources: ['North Dakota Insurance Department'],
+    sourceUrl: 'https://www.insurance.nd.gov/news/godfread-issues-cease-and-desist-order-deceptive-mailing-practices',
+  },
+  {
+    name: 'Meta Platform Deepfake "Insider" Investment Scam',
+    slug: 'wyoming-meta-deepfake-investment-scam',
+    description:
+      'Scammers are running deceptive ads across Facebook, Instagram, and WhatsApp that use AI-generated deepfake video to put words in the mouths of real, recognizable financial figures like Cathie Wood, Joe Kernen, and Kevin O\'Leary, falsely showing them endorsing an "insider" cryptocurrency or stock opportunity. Victims who respond are drawn into one of two patterns: a "pump and dump," where a private group feeds them fabricated tips on a low-priced stock or coin before the organizers sell into the hype and the price collapses, or a "confidence scam," where a fake trading platform shows manufactured profits before charging a fee to release a withdrawal that never comes. Wyoming Attorney General Keith Kautz issued a consumer alert on April 6, 2026, warning Wyoming investors specifically about the surge in Meta-platform activity and urging anyone contacted this way to verify a broker or adviser through FINRA BrokerCheck before sending money. The office also warns that a request to move the conversation to WhatsApp or Telegram, or a promise of guaranteed high returns from a celebrity-endorsed opportunity, is a red flag regardless of how convincing the video looks.',
+    categorySlug: 'ai-deepfake-scams',
+    country: 'US',
+    state: 'WY',
+    alertLevel: 'high',
+    sources: ["Wyoming Attorney General's Office"],
+    sourceUrl: 'https://attorneygeneral.wyo.gov/law-office-division/meta-investment-scam-press-release',
+  },
+  {
+    name: 'Torres Jewellery Ponzi and MLM Investment Scheme',
+    slug: 'india-torres-jewellery-ponzi-mlm-scheme',
+    description:
+      'Torres Jewellery, run by Platinum Hern Pvt Ltd through six retail showrooms across Mumbai (Dadar, Grant Road, Kandivali, Mira Road, Kalyan, and Sanpada), sold jewellery, gemstone, and moissanite "investment plans" promising investors 2 to 9 percent weekly returns, using inflated valuations and fabricated appreciation claims and a multi-level-marketing referral structure to keep money flowing in. Payouts stopped on December 30, 2024, and when all six stores abruptly shut on January 6, 2025, thousands of investors — more than 12,000 by Mumbai Police\'s count, with losses estimated well over ₹100 crore — gathered outside the stores demanding their money back. Mumbai Police\'s Economic Offences Wing arrested CEO Tausif Riyaz (alias John Carter) and other directors, while the Enforcement Directorate opened a parallel Prevention of Money Laundering Act probe, raiding 13 locations across Mumbai and Jaipur in January 2025 and tracing funds through hawala operators and dummy entities; two Ukrainian nationals identified as the scheme\'s masterminds, Artem and Olena Stoin, remain wanted. Unlike stock-tip or trading-app investment fraud already common in India, Torres sold its scheme through physical retail storefronts and real (if wildly overvalued) jewellery, which let it build public trust before collapsing.',
+    categorySlug: 'investment-fraud',
+    country: 'IN',
+    alertLevel: 'high',
+    sources: ['Enforcement Directorate (ED)', 'Mumbai Police Economic Offences Wing (EOW)'],
+    sourceUrl: 'https://www.newsonair.gov.in/ed-launches-probe-into-torres-fraud-conducts-searches-in-mumbai-and-jaipur',
+  },
+  {
+    name: 'Fake "Dr N John Camm" Cardiologist Fraud at Damoh Mission Hospital',
+    slug: 'india-fake-cardiologist-damoh-hospital-fraud',
+    description:
+      'Narendra Vikramaditya Yadav, a man with no genuine medical qualification, spent nearly 12 years posing as "Dr. N. John Camm" — impersonating the name of a real, prominent UK cardiologist — using forged medical degrees, registration certificates, and identity documents to work as a cardiologist at Mission Hospital in Damoh, Madhya Pradesh. Over just 42 days there, he performed roughly 64 cardiac interventional procedures, including 45 angioplasties, seven of which ended in the patient\'s death, before Damoh\'s Chief Medical and Health Officer filed a complaint that led to an FIR against him on April 6, 2025. Police arrested Yadav in Prayagraj, Uttar Pradesh on April 8, 2025, charged him and eight others — including the hospital\'s director — with forgery and related offenses for obtaining the hospital\'s cath-lab registration on fabricated documents, and Madhya Pradesh\'s health department suspended the hospital\'s operating license on April 16, 2025. The case shows that even a hospital-issued appointment and a real cath lab are not proof of a doctor\'s credentials, and that patients can independently verify a practitioner\'s registration through India\'s National Medical Commission or the relevant State Medical Council before consenting to an invasive procedure.',
+    categorySlug: 'healthcare-fraud',
+    country: 'IN',
+    alertLevel: 'critical',
+    sources: ['Madhya Pradesh Police', 'Madhya Pradesh Health Department'],
+    sourceUrl: 'https://www.nationalheraldindia.com/national/fake-cardiologist-case-mp-health-dept-suspends-licence-of-damoh-hospital',
+  },
+  {
+    name: 'Indian Fake Foreign-Hospital "Relative\'s Accident" Emergency Call Scam',
+    slug: 'india-fake-foreign-hospital-accident-scam',
+    description:
+      'A caller reaching a victim over WhatsApp claims to be a doctor at a hospital abroad — in one documented Hyderabad case, "Dr. Steve Rodriguez, a urologist from South Manchester General Hospital" in London — and says the victim\'s relative was seriously injured in an accident and has been admitted for emergency treatment despite missing identification documents, requiring immediate payment to keep treating them. In that case, a 61-year-old Hyderabad woman transferred ₹35.23 lakh in installments between August 8 and September 18, 2025, believing she was paying for her son\'s hospital care in London, before the caller refused to provide photos or proof, deleted the WhatsApp chat history, and went silent. Hyderabad Police\'s cybercrime division investigated the case and traced the money through multiple mule accounts before it was routed abroad, and issued an advisory urging citizens to verify any distress call about a relative abroad through direct family contact before sending money. Unlike India\'s courier-and-customs or digital-arrest scams, this pattern targets parents of relatives working or traveling overseas specifically, exploiting the difficulty of quickly verifying a claimed medical emergency across time zones and borders.',
+    categorySlug: 'family-emergency-scams',
+    country: 'IN',
+    alertLevel: 'high',
+    sources: ['Hyderabad Police Cybercrime Division'],
+    sourceUrl: 'https://telanganatoday.com/elderly-hyderabad-woman-loses-rs-35-lakh-in-cyber-fraud-faking-sons-accident-in-london',
+  },
 ];
 
 async function seedCategoriesAndScams() {
