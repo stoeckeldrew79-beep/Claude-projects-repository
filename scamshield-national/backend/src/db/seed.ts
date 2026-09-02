@@ -16519,6 +16519,39 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Connecticut Office of the Attorney General'],
     sourceUrl: 'https://portal.ct.gov/ag/press-releases/2025-press-releases/attorney-general-tong-seeks-2-5-million-prejudgment-remedy',
   },
+  {
+    name: 'Indian Fake/Unregistered Real Estate Project Advance-Fee Fraud',
+    slug: 'indian-fake-unregistered-real-estate-advance-fee-fraud',
+    description:
+      'Fraudulent developers, unlicensed "agents," or entirely fictitious sellers advertise flats, plots, or discounted "pre-launch" projects on classifieds sites, WhatsApp, and social media, then collect a token, booking, or advance payment via UPI or bank transfer for a project that is never registered with the state\'s Real Estate Regulatory Authority, or does not exist at all. Marketing, booking, or selling any project before RERA registration is itself a punishable offense under Indian law, yet forged or fabricated RERA registration numbers are routinely used to look legitimate, and police in multiple cities have busted networks that defrauded well over a thousand buyers with fake plot listings and lottery-style discount pitches. State RERA authorities have publicly warned buyers to verify a project\'s registration before paying anything, and because a single transaction can involve a buyer\'s life savings for a home, losses here tend to run far larger than in most other advance-fee frauds.',
+    categorySlug: 'online-shopping-scams',
+    country: 'IN',
+    alertLevel: 'high',
+    sources: ['Real Estate Regulatory Authority (RERA) — state authorities'],
+    sourceUrl: 'https://haryanarera.gov.in',
+  },
+  {
+    name: 'Indian IRCTC Fake Ticket Refund Scam',
+    slug: 'indian-irctc-fake-ticket-refund-scam',
+    description:
+      'A text message, WhatsApp message, or sponsored search ad claims a train ticket was cancelled and a refund is pending, directing the traveler to a fake IRCTC look-alike website or a fraudulent rail-booking app that harvests card numbers, CVV, OTPs, or banking passwords under the pretext of processing the refund; in some variants a caller poses as railway "customer care," reached through a number surfaced by a web search, and talks the victim into installing remote-access software to "release" the refund. IRCTC has publicly confirmed that genuine refunds are fully automatic to the original payment source, that it never places phone calls about refunds or asks for OTP, card, or PAN details, and that customer care numbers should never be sourced from social media or search results, advice IRCTC has repeated as this pattern became one of the highest-volume scam-SMS categories reported in India.',
+    categorySlug: 'phishing',
+    country: 'IN',
+    alertLevel: 'medium',
+    sources: ['Indian Railway Catering and Tourism Corporation (IRCTC)'],
+    sourceUrl: 'https://www.irctc.co.in',
+  },
+  {
+    name: 'Indian EPFO / UAN Provident Fund Phishing Scam',
+    slug: 'indian-epfo-uan-provident-fund-phishing-scam',
+    description:
+      'A fraudulent SMS, email, or social media post impersonating the Employees\' Provident Fund Organisation claims an urgent KYC update, account activation, or special payout is required, linking to a fake website that closely mimics the real EPFO member portal to harvest a victim\'s Universal Account Number, password, Aadhaar number, PAN, bank details, and OTP. In one documented variant, a cloned EPFO-style site advertised a fictitious lump-sum payout to anyone who had worked during a specific past period, specifically to lure victims into entering credentials. EPFO has issued public security advisories confirming it never requests OTPs, passwords, or personal details by phone, WhatsApp, SMS, email, or social media, that every EPFO service is completely free, and that members should type the official portal address directly rather than follow a received link, since a compromised account can expose a person\'s full retirement savings.',
+    categorySlug: 'phishing',
+    country: 'IN',
+    alertLevel: 'high',
+    sources: ['Employees\' Provident Fund Organisation (EPFO)', 'Ministry of Labour & Employment, Government of India'],
+    sourceUrl: 'https://www.epfindia.gov.in/site_en/',
+  },
 ];
 
 async function seedCategoriesAndScams() {
