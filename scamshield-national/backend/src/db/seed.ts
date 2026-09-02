@@ -1101,7 +1101,7 @@ Levine's case is often remembered less for its own numbers than for the domino e
     title: 'Danny Pang: The Newport Beach Financier Whose $800 Million Scheme Collapsed With Him',
     slug: 'danny-pang-private-equity-management-group-fraud',
     author: 'ScamShield Editorial',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Ronald_Reagan_Federal_Building_and_Courthouse_at_411_West_Fourth_Street,_Santa_Ana,_California_LCCN2011631318.tif?width=800',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Ronald_Reagan_Federal_Building_and_Courthouse_at_411_West_Fourth_Street,_Santa_Ana,_California_LCCN2011631318.tif?width=1200',
     coverImagePosition: 50,
     // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
@@ -1588,7 +1588,7 @@ In March 2025, President Trump pardoned Milton, erasing the sentence just as pro
     title: 'James Paul Lewis Jr.: Nearly Twenty Years of Fictitious Returns',
     slug: 'james-paul-lewis-jr-financial-advisory-consultants-fraud',
     author: 'ScamShield Editorial',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Ronald_Reagan_Federal_Courthouse,_Santa_Ana,_California_LCCN2011634709.tif?width=800',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Ronald_Reagan_Federal_Courthouse,_Santa_Ana,_California_LCCN2011634709.tif?width=1200',
     coverImagePosition: 50,
     // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
@@ -2899,10 +2899,9 @@ The trial opened at the Royal Courts of Justice in January 1904, and on January 
 
 Wright's case is, in miniature, the same fraud that would recur in far larger form a century later at companies like Enron and Wirecard: a group of related entities shuffling cash and liabilities between each other so that none of them, examined individually, looks as insolvent as the group actually is. It also stands as an early illustration of how visibly a fraudster's wealth can be spent — a private glass ballroom under a lake is, in hindsight, exactly the kind of spending that should invite the question of where the money actually came from, long before any balance sheet is checked.`,
     sourceUrl: 'https://en.wikipedia.org/wiki/Whitaker_Wright',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Grave_of_Whitaker_Wright_in_Witley,_Surrey.jpg?width=1200',
-    coverImageCredit: 'Photo: Uhooep (CC BY-SA 4.0)',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Whitaker_Wright_Drawing_Feb_1904.jpg?width=1200',
+    coverImageCredit: 'Source: The Rice Belt Journal, February 1904, via Library of Congress (Public Domain)',
     coverImagePosition: 50,
-    // representative photo — replace with a portrait if found
   },
   {
     title: 'Raymond Bitar and the Full Tilt Poker Ponzi Scheme That Owed Players $390 Million',
