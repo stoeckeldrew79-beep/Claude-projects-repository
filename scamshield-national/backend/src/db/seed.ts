@@ -4147,9 +4147,8 @@ The FTC has confirmed these toll texts are now the fastest-growing form of gover
 The FTC has identified some clear tells that separate these texts from anything a real tolling agency would send: recipients in states with no toll roads at all — Arizona, Louisiana, and Wisconsin among them — have reported getting the exact same message, and many of the fraudulent links route through phone numbers and web domains registered overseas rather than by the toll agency actually named in the text. Most fundamentally, real tolling agencies send unpaid-balance notices by physical mail, not by text message or email — a text demanding immediate payment for a toll is, by itself, the clearest sign something is wrong.
 
 If a toll text like this arrives, the FTC's advice is to not click the link or respond, and instead check the account directly by typing the toll agency's own web address into a browser or calling a phone number found independently — never one provided in the text itself. Suspicious texts can be reported by forwarding them to 7726 (SPAM) or through your phone's built-in "report junk" option, and should be deleted once reported.`,
-    // representative photo — replace with an exact match if found
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/GA400_toll_booth.jpg?width=1200',
-    coverImageCredit: 'Biomedeng (public domain)',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/E-ZPass_Transponder_(G4_Style).jpg?width=1200',
+    coverImageCredit: 'Photo: Mikeettm (CC BY-SA 3.0)',
     coverImagePosition: 50,
   },
   {
@@ -4247,9 +4246,8 @@ The USPIS recommends depositing outgoing checks directly at a post office or in 
     author: 'ScamShield Editorial',
     tags: ['guide', 'one-ring-scam'],
     sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2019/05/get-one-ring-call-dont-call-back',
-    // representative photo — replace with an exact match if found
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Hand_holding_smartphone_with_blank_white_screen.jpg?width=1200',
-    coverImageCredit: 'Santeri Viinamäki, CC BY-SA 4.0, via Wikimedia Commons',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Vonage_missed_call_notice.jpg?width=1200',
+    coverImageCredit: 'Photo: Collin Anderson (CC BY 2.0)',
     coverImagePosition: 50,
     body: `The phone rings once, maybe twice, often in the middle of the night, then stops before anyone can answer. The missed call shows an unfamiliar number, sometimes with an area code that looks domestic at a glance, and the natural instinct is to call back to see who it was or whether it was urgent. That instinct is exactly what the scam is built around — the call was never meant to be answered in the first place.
 
@@ -4441,6 +4439,8 @@ Before applying anywhere unfamiliar, check whether the lender is registered to d
     slug: 'government-grant-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'government-grant-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/U.S._Treasury_Department_Building,_Washington,_D.C_LCCN2011635063.jpg?width=1200',
+    coverImagePosition: 50,
     sourceUrl: 'https://consumer.ftc.gov/articles/government-grant-scams',
     body: `A call, text, email, or social media message announces that you've been selected for, or already qualify for, a government grant — money to cover bills, home repairs, education costs, or debt, with no strings attached. The person on the other end may claim to work for an invented-sounding office like a "Federal Grants Administration," or may impersonate a real agency, sometimes going as far as spoofing its phone number or copying its logo onto a fake website. To "process" the grant, they ask for a Social Security number and bank account information, supposedly to confirm eligibility and deposit the funds — and then, before any money supposedly arrives, they ask for a fee, described as taxes, insurance, delivery, or processing, paid by gift card, wire transfer, a cash reload card, or cryptocurrency.
 
@@ -4455,6 +4455,9 @@ Anyone contacted about a surprise government grant should not share personal or 
     slug: 'scholarship-financial-aid-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'scholarship-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Graduation-cap-g6c3c0e4d0_1920.jpg?width=1200',
+    coverImageCredit: 'Photo: McElspeth / Pixabay (CC0)',
+    coverImagePosition: 50,
     sourceUrl: 'https://consumer.ftc.gov/articles/how-avoid-scholarship-and-financial-aid-scams',
     body: `A high school senior or their parent gets a letter, email, or social media message announcing they've been "selected" as a finalist for an exclusive scholarship, or an invitation to a free seminar — often at a hotel conference room — about financial aid opportunities most families supposedly don't know about. The pitch culminates in an offer to handle the entire scholarship or financial aid search for a fee, sometimes billed as a "processing" or "application" charge, sometimes as a subscription to a scholarship-matching service. In a more invasive version, the "helper" asks for the student's FSA ID and FAFSA password so they can "submit the paperwork," gaining direct access to federal student aid accounts and the personal and financial information tied to them.
 
@@ -4469,6 +4472,9 @@ The FAFSA itself is always free and should only be completed directly at Student
     slug: 'amazon-impersonation-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'amazon-impersonation-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Amazon_Box.JPG?width=1200',
+    coverImageCredit: 'Photo: Kcdtsg (public domain)',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.ftc.gov/news-events/data-visualizations/data-spotlight/2021/10/amazon-tops-list-impersonated-businesses',
     body: `It usually starts with an automated call, text, or email claiming a large, unauthorized purchase was just made on your Amazon account — an expensive laptop, a gift card order, sometimes a firearm — designed to trigger alarm before you've had time to think. The message gives a number to call "to cancel the order" or "speak with the Amazon fraud department." Whoever answers sounds calm and professional, walks through the fake charge, and then explains the fix requires remote access to your computer or phone "to process the refund" or "secure your account." Once that access is granted, the scammer can move money between your own accounts to fake the appearance of an accidental overpayment, then insist you "return" the difference by buying gift cards and reading off the codes, or by wiring money — all while staying on the phone to keep you from stopping to check with anyone else.
 
@@ -4483,6 +4489,9 @@ Anyone who gets one of these calls or messages should hang up and check their Am
     slug: 'immigration-officer-impersonation-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'immigration-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/U.S._Citizenship_and_Immigration_Service.jpg?width=1200',
+    coverImageCredit: 'Photo: Gulbenk (CC BY-SA 3.0)',
+    coverImagePosition: 50,
     sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2022/07/scammers-impersonate-us-immigration-officers',
     body: `A call, sometimes followed up by email, claims to be from U.S. Immigration and Customs Enforcement (ICE) or U.S. Citizenship and Immigration Services (USCIS). The caller says there's a problem: a paperwork error, an expired or "flagged" immigration record, a supposedly unpaid fee or bond, or an outstanding warrant tied to the person's immigration status. To make the threat feel real, the caller ID may display what looks like an official government phone number, and the scammer may even invite the victim to look up the agency's real number online and compare — a trick meant to build false confidence, since a matched number proves nothing about who is actually calling. The caller demands immediate payment, often by gift card, wire transfer, or cryptocurrency, and warns that hanging up, contacting a lawyer, or telling anyone else about the call will result in immediate arrest or deportation.
 
