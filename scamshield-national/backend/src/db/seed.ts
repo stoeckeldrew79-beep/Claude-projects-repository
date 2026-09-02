@@ -16204,6 +16204,39 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['United States Postal Inspection Service (USPIS)', 'USPS Office of Inspector General'],
     sourceUrl: 'https://www.uspis.gov/news/scam-article/counterfeit-postage',
   },
+  {
+    name: 'French Assurance Retraite (CNAV) "Trop-Perçu" Refund Phishing Scam',
+    slug: 'french-cnav-trop-percu-refund-phishing-scam',
+    description:
+      'Fraudulent emails and SMS impersonate L\'Assurance Retraite, France\'s national pension fund, using pretexts such as a pension payment placed under administrative suspension pending bank-detail verification, a supposed reconciliation revealing an overpayment owed back to the retiree, or a spoofed fraud alert urging an urgent callback. The messages mimic official branding and link to fake login pages designed to harvest personal identifiers and banking details, or push victims toward premium-rate numbers, targeting retirees through the national pension administration specifically rather than family benefits, health insurance, or tax services. L\'Assurance Retraite states it never requests personal data by email, SMS, or a premium-rate number, and directs recipients to report suspicious emails and texts through the national fraud-reporting platform rather than replying or clicking any link.',
+    categorySlug: 'public-benefits-fraud',
+    country: 'FR',
+    alertLevel: 'medium',
+    sources: ['L\'Assurance Retraite (CNAV)'],
+    sourceUrl: 'https://www.lassuranceretraite.fr/portail-info/hors-menu/actualites-nationales/actif/2026/sms-courriels-frauduleux.html',
+  },
+  {
+    name: 'Fake/Unauthorized Insurance and Financial Product Offers (ACPR Blacklist Fraud)',
+    slug: 'french-acpr-unauthorized-insurance-financial-product-fraud',
+    description:
+      'Fraudulent websites and cold-calling operations impersonate authorized French banks, insurers, and brokers, or invent entirely fictitious ones with names nearly identical to real institutions, to sell auto insurance policies, savings accounts, real-estate loans, and payment services that are never actually licensed or never actually exist. Victims pay premiums, deposits, or fees and receive a certificate or contract that provides no real coverage, sometimes discovering the fraud only after an accident, when police find them uninsured, or when a claim is refused. France\'s banking-and-insurance regulator maintains and continuously updates a public blacklist of these unauthorized entities, adding hundreds of new fraudulent listings each quarter, the large majority involving identity theft of a real authorized institution, and states that any insurer or financial firm operating legally in France must be checked against the official regulatory registers before any payment is made, since absence from the blacklist does not itself confirm legitimacy.',
+    categorySlug: 'insurance-fraud',
+    country: 'FR',
+    alertLevel: 'high',
+    sources: ['L\'Autorité de contrôle prudentiel et de résolution (ACPR), Banque de France'],
+    sourceUrl: 'https://acpr.banque-france.fr/fr/communiques-de-presse/escroqueries-lacpr-met-en-garde-le-public-contre-les-propositions-frauduleuses-de-credits-de-livrets-19',
+  },
+  {
+    name: 'Leboncoin Fake "Secure Payment" Phishing Link Scam',
+    slug: 'french-leboncoin-fake-secure-payment-phishing-link',
+    description:
+      'A fraudster posing as a buyer on Leboncoin tells a seller that payment has already been sent, then sends an SMS or email outside Leboncoin\'s own in-app messaging containing a convincing fake link that reproduces the marketplace\'s real "secure payment" interface, sometimes even displaying the seller\'s own listing photos to look legitimate. The fake page tells the seller they must enter their own bank card details to "unlock" or "validate" the incoming payment, when in reality submitting the form authorizes a charge against the seller\'s own card rather than delivering any payment, a distinct card-theft mechanism from an ordinary below-market-listing or non-delivery scam since here the fraud specifically targets the seller\'s own banking credentials through a spoofed payment page. Cybermalveillance.gouv.fr, France\'s official national cybersecurity assistance platform, advises verifying any claimed payment only by logging into one\'s own verified account on the official site, never through a link received by SMS or external email, and reporting suspicious messages through the national fraud-reporting platform.',
+    categorySlug: 'phishing',
+    country: 'FR',
+    alertLevel: 'high',
+    sources: ['Cybermalveillance.gouv.fr'],
+    sourceUrl: 'https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/escroquerie-fausse-commande',
+  },
 ];
 
 async function seedCategoriesAndScams() {
