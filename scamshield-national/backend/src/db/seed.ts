@@ -19818,6 +19818,42 @@ const SEED_SCAMS: SeedScam[] = [
     isHistorical: true,
     firstRecorded: '1996-01-01',
   },
+  {
+    name: 'Miami-Dade Fraudulent Tow-Truck Commercial Insurance Policy Scheme',
+    slug: 'florida-miami-dade-tow-truck-fraudulent-insurance-policy-scheme',
+    description:
+      'Licensed Florida insurance agent Javier Gonzalez Jr. and an unlicensed accomplice, Aliba Lamas Alvarez, sold at least 24 commercial insurance policies to tow-truck business owners in Miami-Dade County that were issued using falsified or inaccurate information to make the vehicles appear to meet Florida\'s state-required insurance limits, when in fact they did not. Buyers believed they were purchasing legitimate coverage that satisfied the law, leaving them exposed to fines, vehicle impoundment, and personal liability for any accident since the underlying policies would not actually pay out as represented. Florida\'s Department of Financial Services Division of Investigative and Forensic Services arrested both men on February 5, 2026, charging Gonzalez with filing false and fraudulent insurance claims and Lamas Alvarez with acting as an insurance agent without a license, forgery, and organized scheme to defraud, with the Miami-Dade State Attorney\'s Office prosecuting; Chief Financial Officer Blaise Ingoglia\'s office announced the arrests. Before buying commercial auto or tow-truck coverage, verify the agent\'s license directly through the Florida DFS agent and agency search tool, and confirm the policy is actually active by calling the named insurer directly rather than relying on a certificate or ID card handed over by the seller.',
+    categorySlug: 'insurance-fraud',
+    country: 'US',
+    state: 'FL',
+    alertLevel: 'high',
+    sources: ['Florida Department of Financial Services', 'CBS12 News'],
+    sourceUrl: 'https://myfloridacfo.com/news/pressreleases/press-release-details/2026/02/17/chief-financial-officer-blaise-ingoglia-announces-arrest-of-licensed-insurance-agent-and-criminal-illegal-alien-for-selling-fraudulent-insurance-policies',
+  },
+  {
+    name: 'Tech-Support Fraud Telecom-Infrastructure Provider Guilty Pleas',
+    slug: 'rhode-island-tech-support-fraud-infrastructure-provider-guilty-plea',
+    description:
+      'Former business executives Adam Young and Harrison Gevirtz ran a company that supplied telephone numbers, call routing, call tracking, and call-forwarding services to customers they knew were running tech-support fraud operations targeting victims across the United States and abroad — the behind-the-scenes plumbing that let overseas scam call centers dial out on numbers that looked domestic and kept working after carriers shut earlier lines down. Both men pleaded guilty in the District of Rhode Island to misprision of a felony for concealing the fraud they knew their infrastructure was enabling, with sentencing set for June 16, 2026; prosecutors cited Rhode Island residents alone having reported at least $5.7 million in tech-support scam losses. The case is a reminder that a scam call arriving on a normal-looking local number proves nothing about who is actually calling — a real security or tech company will never cold-call about a virus, ask to be paid in gift cards or cryptocurrency, or request remote access to a computer, and anyone who gets such a call should hang up and contact the company directly through a number found independently.',
+    categorySlug: 'tech-support-scams',
+    country: 'US',
+    state: 'RI',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office, District of Rhode Island", 'RI Patch'],
+    sourceUrl: 'https://www.justice.gov/usao-ri/pr/two-business-executives-plead-guilty-tech-support-fraud-scheme',
+  },
+  {
+    name: '"Hands with Hope" Foreclosure Rescue Deed-Theft Scheme',
+    slug: 'arizona-hands-with-hope-foreclosure-rescue-deed-theft-scheme',
+    description:
+      'Operating under names like "Hands with Hope," Edward Trenton Albarracin and Gretchen Marie Zamjahn approached Arizona homeowners facing foreclosure and offered to bring their mortgages current, telling victims they needed to "temporarily" transfer their home\'s deed into a trust — but the paperwork victims actually signed transferred title into one of more than 50 LLCs the pair controlled, not a trust at all. Arizona Attorney General Kris Mayes sued the two in August 2025, and a Maricopa County judge authorized an emergency receivership over their real estate, vehicles, and cash accounts, with Mayes seeking restitution for victims, civil penalties, and a permanent injunction barring the pair from ever buying or selling Arizona real estate again. Anyone facing foreclosure who is asked to sign a deed or trust document as part of a "rescue" should have an independent, HUD-approved housing counselor or attorney review it first, and can check exactly what document was recorded against their own home for free through the county recorder\'s office, since a signature described as going into a trust can just as easily transfer ownership outright.',
+    categorySlug: 'mortgage-foreclosure-scams',
+    country: 'US',
+    state: 'AZ',
+    alertLevel: 'high',
+    sources: ["Arizona Attorney General's Office", 'KJZZ'],
+    sourceUrl: 'https://www.azag.gov/press-release/attorney-general-mayes-sues-operators-real-estate-scam-targeting-elderly-arizonans',
+  },
 ];
 
 async function seedCategoriesAndScams() {
