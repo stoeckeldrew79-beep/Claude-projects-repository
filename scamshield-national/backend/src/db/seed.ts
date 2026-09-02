@@ -5048,6 +5048,52 @@ Xu was detained in November 2015 after being stopped at a highway tollbooth on t
 The Xu Xiang case became a landmark for Chinese securities regulation, cited afterward by regulators as proof that market manipulation using inside corporate access — rather than simple bad luck — had played a real role in the 2015 crash's severity, and it marked one of the first times a privately managed Chinese hedge fund manager of Xu's stature faced a criminal rather than merely administrative penalty for market abuse.`,
     sourceUrl: 'https://en.wikipedia.org/wiki/Xu_Xiang',
   },
+  {
+    title: 'Alessandro Cagliostro: The Self-Proclaimed Count Who Sold Europe an Elixir of Life',
+    slug: 'alessandro-cagliostro-elixir-of-life-swindler',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Giuseppe Balsamo was born in 1743 to a poor family in Palermo, Sicily, and grew up running petty scams and forgeries — including, by most accounts, a fraud involving a forged deed to a supposed buried treasure — before fleeing Sicily as a young man to avoid prosecution. By the time he resurfaced in Europe's capitals, he had reinvented himself entirely: a self-styled "Count Alessandro di Cagliostro," claiming noble birth, secret initiation into ancient Egyptian mysteries, and mastery of alchemy, all while accompanied by a wife he presented as a countess.
+
+Cagliostro's business was mystique. He traveled from Malta to Russia, London to Strasbourg, selling an "Elixir of Life" promising youth and vitality, love potions, and miracle cures, and hosting séances in which he claimed to summon spirits and predict the future for paying aristocratic clients. His signature con targeted the wealthy directly: he would offer to transmute base metal into gold for a patron, provided they first supplied the "raw materials" — gold, silver, and cash to fund the process — which of course never came back multiplied, if it came back at all. In Paris in the mid-1780s, he founded lodges of an "Egyptian Rite" of Freemasonry, charging hefty initiation fees to members drawn by the promise of secret ancient knowledge available to no one else.
+
+That same period nearly ended him. Cagliostro was swept up as an alleged conspirator in the notorious 1785 Affair of the Diamond Necklace, the scandal in which forgers used a fake letter from Marie Antoinette to trick a cardinal into fronting the cost of an extravagant diamond necklace intended for the queen. Cagliostro was imprisoned in the Bastille for roughly nine months awaiting trial; he was ultimately acquitted of direct involvement in the necklace fraud itself, but the affair permanently attached his name to the era's biggest swindle and he was expelled from France regardless.
+
+His run ended in Rome. In 1789, Cagliostro returned to Italy and resumed his occult practice, but the Roman Catholic Church had banned Freemasonry, and in 1791 the Inquisition arrested him for organizing a Masonic lodge in the city. Investigators also established what French authorities had long suspected: "Count Cagliostro" was Giuseppe Balsamo, the Sicilian con man, all along. He was convicted of heresy and sentenced to death, a sentence Pope Pius VI commuted to life imprisonment. Cagliostro died in the fortress prison of San Leo in 1795, still refusing to fully confirm his origins.
+
+His name outlived him as a byword for pretentious fraud — to call someone "a Cagliostro" became, and remains, a way of accusing them of dressing up a swindle in borrowed mystique and secret-society exclusivity. The mechanism he refined two and a half centuries ago — access to exclusive, secret knowledge, validated by the enthusiasm of other wealthy believers already in the room — is the same one affinity fraud and pseudo-mystical investment pitches still run on today; only the costume has changed.`,
+    sourceUrl: 'https://en.wikipedia.org/wiki/Alessandro_Cagliostro',
+  },
+  {
+    title: 'Ferdinand and Imelda Marcos: The Billions Looted From the Philippines',
+    slug: 'ferdinand-imelda-marcos-philippines-kleptocracy',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Ferdinand Marcos was elected president of the Philippines in 1965 on a platform of national development, and by 1972 had declared martial law, suspended the constitution, and begun ruling by decree — a state of emergency that lasted, in practice, for the next fourteen years. His wife Imelda Marcos became far more than a ceremonial first lady over that period: as Governor of Metro Manila and Minister of Human Settlements, she controlled enormous public budgets and building projects in her own right, making the couple's rule a genuinely joint operation rather than one enriching itself around the edges of the other's power.
+
+The mechanism was crony capitalism at a national scale. The Marcoses awarded lucrative government monopolies — over coconut exports, sugar trading, casino gambling, and major construction contracts — to a small circle of business allies who funneled a share of the proceeds back to the family, while commissions were skimmed directly off foreign loans and infrastructure projects, including the Bataan Nuclear Power Plant, a facility so riddled with graft and safety defects it never generated a single watt of power, yet took the Philippines until 2007 to finish paying off. Illicit proceeds were routed into anonymous Swiss "foundations" registered under invented names like "William Saunders" and "Jane Ryan," obscuring the money's real owners from regulators on two continents.
+
+The scale, once investigators began reconstructing it, was staggering: the Philippine government's own Presidential Commission on Good Government and the country's Supreme Court estimated the family and its cronies looted between $5 billion and $10 billion in public funds over two decades. Imelda's personal excess became the case's enduring public symbol — when the family fled the presidential palace in 1986, they left behind thousands of pairs of shoes, closets of jewelry, and artwork including pieces attributed to Monet and Michelangelo, physical evidence of a lifestyle built on money that had never been theirs.
+
+The 1986 People Power Revolution, triggered by a fraud-tainted snap election, forced the Marcoses into exile; the family was airlifted by the U.S. military to Hawaii along with reported crates of cash, jewelry, and gold bars. Ferdinand died there in 1989 without ever standing trial on the racketeering charges filed against him in the United States, which were dismissed after his death. Imelda returned to the Philippines in 1991 and remained a fixture of the country's politics for decades; in 2018 the Sandiganbayan, the Philippines' anti-graft court, convicted her on seven counts of graft tied to the Swiss foundations and ordered her arrest, but she posted bail, appealed, and — as of the conviction's most recent public status — has never served a day of the sentence.
+
+Decades later, the Philippine government has recovered only a fraction of what was taken — roughly $3.6 billion of an estimated $10 billion or more — a gap that stands as one of the starkest illustrations on record of how much easier it is to steal a fortune through the machinery of state than it is to ever claw it back.`,
+    sourceUrl: 'https://www.abc.net.au/news/2022-04-24/the-immense-ill-gotten-wealth-of-the-marcos-family-philippines/100990506',
+  },
+  {
+    title: 'Sani Abacha and the Billions Nigeria Is Still Trying to Recover',
+    slug: 'sani-abacha-nigeria-embezzlement',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `General Sani Abacha seized power in Nigeria through a 1993 coup and ruled as military head of state until his death in 1998 — five years marked by the violent suppression of political opposition and one of the largest state-looting operations in African history, carried out quietly enough that its full scale only became clear after he was gone.
+
+The embezzlement ran through a scheme built on manufactured threats to the state. Abacha's National Security Adviser, Ismaila Gwarzo, wrote a steady stream of secret memos warning of invented plots against Nigeria's security, each one requesting that millions of dollars be released from the Central Bank of Nigeria — in cash, traveler's checks, or wire transfers — supposedly to fund covert operations protecting the country. The threats didn't exist. The money went directly to Abacha and his family, then was laundered through shell companies, real estate, and private bank accounts across Switzerland, the United Kingdom, Jersey, Luxembourg, and the United States.
+
+Investigators eventually traced somewhere between $3 billion and $5 billion looted from Nigeria's treasury during Abacha's rule. Because he died suddenly of a heart attack in June 1998 — a death some in Nigeria still describe as suspicious, though his family declined an autopsy — he never faced prosecution himself, and the pursuit of the money shifted to his son, Mohammed Sani Abacha, and his associate Abubakar Atiku Bagudu. The U.S. Department of Justice's resulting civil forfeiture action, which froze nearly $500 million tied to the family, was at the time the largest kleptocracy asset-forfeiture case the department had ever brought, eventually returning more than $334.7 million to Nigeria through agreements negotiated with the U.K. and the Bailiwick of Jersey.
+
+The recovery effort stretched on for more than two decades after Abacha's death, with fresh tranches of "Abacha loot" still being repatriated in agreements reached as late as the early 2020s. That timeline — a theft carried out in the 1990s, still generating international asset-forfeiture settlements thirty years later — is itself the lesson: once stolen state funds are layered through enough shell companies and offshore accounts, unwinding them can take longer than the theft itself, and can easily outlive the person who stole them.`,
+    sourceUrl: 'https://www.justice.gov/archives/opa/pr/us-freezes-more-458-million-stolen-former-nigerian-dictator-largest-kleptocracy-forfeiture',
+  },
 ];
 
 // Practical "how it works / red flags / what to do" guides covering the
