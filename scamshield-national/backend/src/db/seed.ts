@@ -15524,6 +15524,28 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Iowa Insurance Division'],
     sourceUrl: 'https://who13.com/news/state-of-iowa-warns-of-scammers-stealing-insurance/',
   },
+  {
+    name: 'Fake Kronofogden Debt-Collection Scam',
+    slug: 'fake-kronofogden-debt-collection-scam',
+    description:
+      'An email, SMS, or phone call impersonating Kronofogden, Sweden\'s Enforcement Authority, sometimes invoking a real-sounding debt collector name, claims the recipient has an unpaid debt or active collection case and pushes them to click a link, open an attachment, or pay immediately to resolve it. Some variants ask the recipient to "verify" the alleged debt using BankID or to read out card and account details over the phone. Kronofogden confirms its staff never ask for account details by phone and that it rarely initiates first contact by SMS, and that any real registered debt can always be checked independently and safely by logging into its own online portal with e-legitimation before paying anything, advising recipients to forward suspicious texts to the national spam-reporting number and to check that any genuine staff email ends in the agency\'s official domain.',
+    categorySlug: 'government-impersonation',
+    country: 'SE',
+    alertLevel: 'medium',
+    sources: ['Kronofogden (Swedish Enforcement Authority)'],
+    sourceUrl: 'https://kronofogden.se/om-kronofogden/falska-mejl-sms-och-samtal',
+  },
+  {
+    name: 'Fake Transportstyrelsen Traffic Fine SMS Scam',
+    slug: 'fake-transportstyrelsen-traffic-fine-sms-scam',
+    description:
+      'A text message or email impersonating Transportstyrelsen, the Swedish Transport Agency, claims the recipient\'s vehicle has an unpaid traffic fine, congestion tax, or was flagged by automated road equipment, and demands payment within 24 hours via a link. Entering a vehicle registration number on the fraudulent site leads to a page harvesting card details under the guise of paying the "fee." Transportstyrelsen confirms it never requests payment or account information by email or SMS, and specifically flags mixed Swedish/English phrasing, artificial urgency, and links that don\'t resolve to its own domain as the clearest warning signs, advising recipients to check any claimed fine directly through the agency\'s official website rather than a link in the message.',
+    categorySlug: 'government-impersonation',
+    country: 'SE',
+    alertLevel: 'medium',
+    sources: ['Transportstyrelsen (Swedish Transport Agency)'],
+    sourceUrl: 'https://www.transportstyrelsen.se/sv/om-oss/kontakta-oss/varning-for-bedrageri/',
+  },
 ];
 
 async function seedCategoriesAndScams() {
