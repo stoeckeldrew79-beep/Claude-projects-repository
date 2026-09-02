@@ -23789,6 +23789,45 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Indian Cyber Crime Coordination Centre (I4C)', 'Ministry of Home Affairs, Government of India'],
     sourceUrl: 'https://www.etvbharat.com/en/bharat/ai-generated-deepfake-being-used-to-bypass-kyc-facial-authentication-mha-warns-banks-fintech-firms-enn26061102858',
   },
+  {
+    name: 'Fake Online Investment Adviser Website Network',
+    slug: 'colorado-fake-investment-adviser-website-network',
+    description:
+      'Colorado Securities Commissioner Tung Chan issued orders to show cause on February 28, 2025, against ten online investment websites operating without a license, including Reginamariahoward.com, Deanwilsonlarsen.me, Uniontradepro.com, Gallanttradepro.com, and Irontradepro.com, alleging at least eight of them built false legitimacy by stealing a real, uninvolved person\'s identity. Deanwilsonlarsen.me and Uniontradepro.com claimed to be run by "Dean Wilson Larsen," using the name of a real, retired Morgan Stanley registered agent who had no connection to either site and never authorized the use of his name, photo, or biography; Reginamariahoward.com similarly published fabricated addresses and securities registration numbers alongside photos taken from an unrelated woman who never gave permission for her image to be used. Following an administrative law judge\'s initial decision, the Division of Securities issued a final order in March 2025 barring the operations from securities activity in Colorado. Because a fraudulent investment site can borrow a real professional\'s name, photo, and biography — and even invent a convincing-looking registration number — to appear credentialed, Colorado regulators advise verifying any adviser or broker independently through FINRA BrokerCheck or the SEC\'s Investment Adviser Public Disclosure database rather than trusting the contact information listed on the investment site itself.',
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    state: 'CO',
+    isHistorical: true,
+    firstRecorded: '2025-02-28',
+    sources: ['Colorado Division of Securities'],
+    sourceUrl: 'https://securities.colorado.gov/press-release/press-release-colorado-securities-commissioner-issues-orders-to-show-cause-against-0',
+  },
+  {
+    name: 'Carbon Farms and Retreat Unregistered Investment Scheme',
+    slug: 'oklahoma-carbon-farms-retreat-unregistered-securities',
+    description:
+      'Carbon Farms and Retreat, LLC and a related company, Super Woman Productions, LLC, sold "membership interests" to investors as a business opportunity, with CEO Kylynn Coleman Dempsey allegedly promising returns of 300% or more, payable roughly a year after signing a contract. Neither the membership interests nor Dempsey herself were ever registered with the state, as Oklahoma law requires before any security can be lawfully offered or sold to residents. When investors\' promised payouts came due and went unpaid — several investors reported contracts signed in December 2021 with returns supposedly due back in December 2022 — complaints followed, and on March 18, 2025, the Oklahoma Department of Securities issued a cease-and-desist order finding Dempsey had acted as an unregistered agent and made untrue statements to induce the investments. A civil suit from at least one investor also followed in federal court. Any pitch promising a fixed, outsized return, regardless of what industry it is dressed in, should be checked against the Oklahoma Department of Securities\' registration records before money changes hands, since neither the company nor the person selling the investment can lawfully take payment until that registration step is done.',
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    state: 'OK',
+    isHistorical: true,
+    firstRecorded: '2025-03-18',
+    sources: ['Oklahoma Department of Securities'],
+    sourceUrl: 'https://www.securities.ok.gov/Enforcement/Orders/PDF/FinalOrder_CarbonFarmsandRetreatLLC_23-178.pdf',
+  },
+  {
+    name: 'First Liberty Ponzi Referral by Barred Advisor Timothy Darnell',
+    slug: 'georgia-first-liberty-darnell-ponzi-referral',
+    description:
+      'First Liberty Building & Loan, a Georgia-based company, collapsed in mid-2025 into what the SEC\'s civil complaint called a $140 million Ponzi scheme, funding payouts to earlier investors with money from new ones rather than from the genuine short-term "bridge loan" lending business it claimed to run. Timothy Nathaniel Darnell, an insurance and securities agent in Powder Springs who worked through Bankers Life Advisory Services, allegedly used that position to recommend First Liberty\'s unregistered securities to his own clients without his employer\'s knowledge, placing at least 45 individuals — many of them seniors — into a combined $6.675 million between December 2020 and June 2025, and collecting roughly $250,000 in commissions along the way. Georgia Secretary of State Brad Raffensperger\'s Securities and Charities Division issued an emergency order on February 24, 2026, barring Darnell from acting as an agent or investment adviser representative in Georgia, imposing the maximum $500,000 civil penalty allowed under the Georgia Uniform Securities Act, and referring the case to the Cobb County District Attorney for possible criminal prosecution. In a separate agreement announced by the Secretary of State\'s office, Bankers Life committed to making roughly 46 of the affected investors whole for what they had placed with Darnell — a reminder that an investment recommended by an otherwise licensed financial professional, but outside the products their firm officially offers, is worth confirming directly with that firm before signing anything, and that any securities offering can be checked against a state\'s own registration records before money is committed.',
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    state: 'GA',
+    isHistorical: true,
+    firstRecorded: '2026-02-24',
+    sources: ['Georgia Secretary of State'],
+    sourceUrl: 'https://sos.ga.gov/news/raffensperger-announces-agreement-get-more-40-first-liberty-victims-their-money-back',
+  },
 ];
 
 async function seedCategoriesAndScams() {
