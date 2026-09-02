@@ -8557,6 +8557,48 @@ The clearest warning signs are a seller who doesn't ask for a prescription at al
 
 Only get these medications through a licensed pharmacy with a valid prescription, and use the FDA's BeSafeRx program to verify an online pharmacy before ordering from one. Check any pen you already have against the FDA's published counterfeit lot and serial number alerts, and if you experience unexpected side effects after using a product you now suspect was counterfeit, contact a doctor and keep the product and its packaging rather than throwing it away. Report suspected counterfeit or illegally sold weight-loss medication to the FDA through its MedWatch program at fda.gov/medwatch and to the FTC at ReportFraud.ftc.gov.`,
   },
+  {
+    title: 'Fake Job Interview Coding Tests: The Malware Hiding Inside a "Take-Home Assignment"',
+    slug: 'fake-job-interview-coding-test-malware',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'fake-job-interview-malware'],
+    sourceUrl: 'https://www.microsoft.com/en-us/security/blog/2026/03/11/contagious-interview-malware-delivered-through-fake-developer-job-interviews/',
+    body: `A recruiter reaches out on LinkedIn, Telegram, or Reddit about a well-paid remote job — often at a crypto or AI startup — and the process moves fast: a quick chat, maybe a single video call, and then a "technical assessment" arrives as a link to a private GitHub repository. The assignment looks completely ordinary, sometimes even a legitimate-looking coding challenge or a small web app to extend, and the instructions ask the candidate to clone it, install its dependencies, and run it locally to demonstrate their skills — specifically outside a sandbox or container, since testing it there would supposedly not reflect "real-world" conditions.
+
+The malicious code isn't in the project file the candidate reviews — it's buried in a dependency the project quietly pulls in from npm or PyPI, package names close enough to legitimate libraries to pass a glance. Once installed, the package runs an infostealer that harvests browser-saved passwords, cryptocurrency wallet files and private keys, and login session data, then drops a backdoor giving the attacker ongoing remote access to the victim's machine. Security researchers have tracked this campaign, nicknamed "Contagious Interview," to North Korean state-linked threat actors: one wave alone delivered more than 197 malicious npm packages with over 31,000 collective downloads in just a few months, and the same technique has since expanded from JavaScript and Python into Go, Rust, and PHP package ecosystems.
+
+Warning signs include a hiring process that skips a live, verifiable interview with a real person at the company; an assignment delivered as a repository to clone and run locally rather than through a company-provided sandbox, CI pipeline, or online IDE; pressure to complete the test quickly or to disable antivirus and container isolation "so the grader works correctly"; and a recruiter or hiring manager who can't be independently verified through the company's official website or a direct phone call.
+
+Before running any take-home assignment, open its dependency list (package.json, requirements.txt, go.mod) and check each package name and publisher rather than trusting the project on sight, and always execute unfamiliar code inside an isolated virtual machine or container, never on your main device. Independently verify the company and the recruiter through channels you find yourself, not links or numbers they provide. If you've already run a suspicious assignment, disconnect the device from the internet, move any cryptocurrency to a new wallet from a separate clean device, change your passwords, and report the incident to the FBI's Internet Crime Complaint Center at ic3.gov.`,
+  },
+  {
+    title: '"Free Cruise" Robocalls: Inside the Largest Illegal Robocall Operation in FTC History',
+    slug: 'free-cruise-robocall-scam-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'free-cruise-robocall'],
+    sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2017/02/ftc-states-put-remaining-defendants-massive-caribbean-cruise-lines-robocall-operation-permanent-dry',
+    body: `The call opens with a prerecorded voice asking for thirty seconds to answer "a few quick survey questions" — often framed as a political or customer-satisfaction poll. Answer them, and the recording announces you've been specially selected to receive a free two-day cruise to the Bahamas, then offers to connect you to a live representative to claim it. The survey is never the point; it's a legal-sounding wrapper scammers used for years to get around telemarketing consent rules that, at the time, treated pure research calls differently from sales calls.
+
+The "free" cruise isn't free. The live agent who picks up demands payment for port fees, taxes, and processing — often close to $100 or more per person — before any booking is confirmed, and callers who pay are frequently pushed into a high-pressure timeshare presentation or additional paid upgrades once they arrive. Behind the calls was Caribbean Cruise Line and a network of telemarketing partners who, during a roughly ten-month stretch in 2011 and 2012, placed an estimated 12 to 15 million illegal robocalls a day using spoofed caller ID, becoming what the FTC has called the largest illegal robocall operation it has ever taken action against.
+
+The enforcement fallout stretched across most of a decade. The FTC and a coalition of state attorneys general pursued the operation and its telemarketing partners through multiple settlements totaling millions of dollars in civil penalties and a permanent ban on future robocalling, while a separate consumer class action under the Telephone Consumer Protection Act reached settlements worth $56 to $76 million, ultimately sending checks of up to several hundred dollars to roughly a million people who had been called.
+
+The pattern is still worth recognizing today: any prerecorded call that opens with a "brief survey," announces a prize for a contest you never entered, or asks for payment before you can receive something described as free. Don't press any number to "opt out" — doing so usually just confirms your line is active and invites more calls. Hang up, register your number at donotcall.gov (illegal operations ignore it, but a documented registration still supports later enforcement), and report the call to the FTC at ReportFraud.ftc.gov.`,
+  },
+  {
+    title: 'Auto Loan Modification Scams: The Upfront Fee That Doesn\'t Stop a Repossession',
+    slug: 'auto-loan-modification-scam-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'auto-loan-modification-scam'],
+    sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2012/04/ftc-charges-auto-loan-schemes-falsely-promised-they-could-stop-consumers-cars-being-repossessed',
+    body: `A company reaches out — by phone, text, or a social media ad — to a driver who has fallen behind on car payments, promising to negotiate directly with the lender to lower the monthly payment, cut the interest rate, or stop a repossession that's already in motion. Getting the help requires paying an upfront fee first, and the company often instructs the borrower to stop paying the actual lender and send payments to the company instead while it "works the case."
+
+In practice, the fee is the entire business. In one FTC case against Kore Services LLC (doing business as Auto Debt Consulting) and NAFSO VLM, Inc. (doing business as Vehicle Loan Mod), the companies charged $350 to $799 upfront while promising to cut monthly payments by 25 to 40 percent, then did essentially nothing to contact borrowers' lenders on their behalf. Consumers who stopped paying their actual lender on the company's instructions fell further behind, some had their vehicles repossessed anyway, and those who asked for a refund were routinely denied.
+
+Warning signs include any company demanding payment before doing any actual work, a guarantee of results no legitimate negotiator could promise in advance, an instruction to stop paying your real lender or to route payments through the company instead, unsolicited outreach by phone, text, or social ad rather than you seeking them out, and an inability to produce a written contract or a license you can verify with your state attorney general.
+
+The safer first call is always to your own lender directly — most auto lenders have hardship programs, payment deferment, or refinancing options built specifically to avoid repossession, and none of them charge a middleman's fee to access them. Never pay an upfront fee for loan modification help, and verify any third-party company's standing with your state attorney general before sending money. If you've already paid, dispute the charge with your card issuer if possible, and report the company to the FTC at ReportFraud.ftc.gov and to the Consumer Financial Protection Bureau at consumerfinance.gov/complaint.`,
+  },
 ];
 
 async function seedArticles(articles: SeedArticle[], label: string) {
