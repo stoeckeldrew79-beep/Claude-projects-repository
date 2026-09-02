@@ -5032,9 +5032,9 @@ The reliable rule: no legitimate government agency, bank, or law enforcement off
     slug: 'puppy-pet-sale-scams',
     author: 'ScamShield Editorial',
     tags: ['guide', 'pet-scams'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Cute_street_puppy.jpg?width=1200',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Golden_Retriever_puppy.jpg?width=1200',
+    coverImageCredit: 'Photo: Camilo Arango (CC BY-SA 3.0)',
     coverImagePosition: 50,
-    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.bbb.org/all/petscams',
     body: `An online ad shows an adorable purebred puppy at a price well below what a breeder would normally charge, with the "seller" explaining they can't meet in person — they're relocating, deployed, or the puppy is with a shipper — and asking for payment upfront to secure it. The photos look real because they usually are: stolen from a legitimate breeder's website or social media and reused across dozens of fake listings. The Better Business Bureau estimates that as much as 80% of sponsored pet advertisements online may be fraudulent.
 
@@ -7387,6 +7387,10 @@ Before clicking anything, search the case name plus "settlement" independently �
     slug: 'google-voice-verification-code-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'google-voice-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Young_people_texting_on_smartphones_using_thumbs.JPG?width=1200',
+    coverImageCredit: 'Photo: Tomwsulcer (CC0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2021/10/google-voice-scam-how-verification-code-scam-works-and-how-avoid-it',
     body: `It usually starts somewhere ordinary: a reply to a listing on Facebook Marketplace or Craigslist, a message on a dating app, or a response to a "lost pet" or "found pet" post. The other person seems engaged and trustworthy, but says they want to verify you're a real person before going further — maybe because of "all the scammers out there" — and asks for your phone number so Google can text you a six-digit verification code, which they then ask you to read or text back to them. It feels like a small, reasonable ask, framed as being for your own protection.
 
@@ -7401,6 +7405,10 @@ Never share a verification code you receive by text or call with anyone who aske
     slug: 'fake-mortgage-servicer-payment-redirect-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'mortgage-servicer-impersonation-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/US_mail_letterbox.jpg?width=1200',
+    coverImageCredit: 'Photo: Quadell (CC BY-SA 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://dfi.wa.gov/consumer/alerts/impersonation-mortgage-loan-servicing-companies-scam',
     body: `Mortgages get sold and transferred between servicers constantly and legitimately, and a letter, email, or text announcing that "your loan has a new servicer, send payments here going forward" is routine enough that most homeowners have received a genuine one at some point. Scammers use that familiarity against homeowners directly: a message arrives carrying the real servicer's logo and letterhead, sometimes timed to follow a homeowner's actual call to their servicer about a loan modification, and it instructs the homeowner to start sending mortgage payments to a new address — often a UPS Store mailbox rather than a bank — or to wire funds to a new account, sometimes dangling a lower rate or a modification offer with an artificial deadline to sign fast.
 
@@ -7415,6 +7423,10 @@ Never send a mortgage payment, wire transfer, or modification-related fee based 
     slug: 'retirement-account-401k-rollover-takeover-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', '401k-rollover-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Bank_of_the_West_Los_Altos_branch_exterior.jpg?width=1200',
+    coverImageCredit: 'Photo: John McGehjee (CC0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.dol.gov/agencies/ebsa/key-topics/retirement-benefits/cybersecurity/online-security-tips',
     body: `Changing jobs means a 401(k) balance often has to move — rolled over into a new employer's plan or an IRA — and that transition point is exactly when a retirement account is most exposed. In one of the more common patterns, a fraudster calls a plan recordkeeper posing as the account holder or as HR staff at the employer, using a name and a few personal details (sometimes pulled from a data breach or social media) to "update" the contact email, mailing address, and bank details on file before requesting a distribution or rollover. Recordkeepers process an enormous volume of these routine requests, and a caller with the right identifying details can pass basic verification without ever being the actual account owner; by the time the real owner notices, the balance has already been moved to an account the fraudster controls.
 
@@ -7429,6 +7441,10 @@ Register for online access to every retirement account you hold, including old 4
     slug: 'clone-firm-investment-adviser-impersonation-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'clone-firm-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Sign_of_the_New_York_Stock_Exchange,_Broad_Street.jpg?width=1200',
+    coverImageCredit: 'Photo: Billie Grace Ward (CC0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-alerts/beware-fraudsters-impersonating-investment-professionals-and-firms-investor-alert',
     body: `An unsolicited pitch arrives through LinkedIn, WhatsApp, or a Facebook investment group, naming a brokerage or investment advisory firm that turns out, on a quick search, to be completely real — registered, established, sometimes decades old. That's not a coincidence and not a sign of legitimacy: the SEC and FINRA have warned of a sharp rise in "clone firm" scams, where fraudsters lift the actual name, address, registration number, logo, and even the headshots of real registered representatives from a genuine firm, then build a lookalike website or app around that stolen identity to solicit investments that the real firm never offered.
 
@@ -7443,6 +7459,10 @@ The only reliable defense is verifying independently, every time, using contact 
     slug: 'sugar-daddy-allowance-overpayment-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'sugar-daddy-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Stack_of_100_dollar_bills.jpg?width=1200',
+    coverImageCredit: 'Photo: Kaledj777 (CC BY-SA 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.bbb.org/article/scams/24089-bbb-scam-alert-romance-scam-dupes-daters-with-the-promise-of-a-sugar-momma',
     body: `A message arrives on a dating app, Instagram, or a site built specifically around "sugar dating" — an older, wealthy-sounding stranger offering a generous weekly or monthly "allowance," often several hundred to a few thousand dollars, in exchange for nothing more than companionship, conversation, or attention. There's rarely any real courtship involved; the appeal is aimed squarely at financial need, and the scam disproportionately targets college students and other young adults looking for a fast, low-effort way to cover bills. Within days of first contact, the "sugar daddy" or "sugar momma" sends a check or a mobile deposit, sometimes for noticeably more than the promised allowance, along with an explanation for the extra amount and a request to send the difference back — for a "favor," a "gift card for my niece," or simply because they "made a mistake."
 
@@ -7457,6 +7477,9 @@ Red flags include any unsolicited offer of a paid "allowance" from someone met o
     slug: 'payroll-diversion-direct-deposit-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'payroll-diversion-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Man_at_a_laptop_in_an_office_(Unsplash).jpg?width=1200',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.ic3.gov/PSA/2018/PSA180918',
     body: `An email lands in an employee's inbox that looks exactly like routine HR communication — a notice that a password is expiring, a request to "verify" benefits enrollment, or a link to log into the company's payroll or HR self-service portal. The link leads to a convincing fake login page instead of the real one, and once an employee enters their username and password there, the credentials go straight to the attacker. The FBI's Internet Crime Complaint Center has specifically flagged this pattern, known as payroll diversion, as a fast-growing evolution of business email compromise, with reported losses climbing more than 800 percent in the period IC3 studied it — and education, healthcare, and commercial transportation employers among the sectors most frequently targeted.
 
@@ -7471,6 +7494,9 @@ Red flags include any email urging an urgent login or "verification" through a l
     slug: 'gold-bar-courier-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'gold-bar-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Gold_bullion_bars.jpg?width=1200',
+    coverImageCredit: 'Photo: Stevebidmead (CC0)',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.fbi.gov/contact-us/field-offices/boston/news/fbi-boston-warns-of-increase-in-gold-bar-and-bulk-cash-courier-scams',
     body: `It typically starts the way a "phantom hacker" scam does: a pop-up warning, a fake bank fraud alert, or an unsolicited call claiming your accounts have been compromised. The caller is patient and methodical, and within minutes hands the conversation off to someone posing as an agent of the FBI, the U.S. Treasury, the Federal Trade Commission, or the Social Security Administration. This "agent" says your money isn't safe in the bank — that a corrupt employee may be involved, or that keeping cash in a traceable account exposes you to further theft — and the only way to protect it is to convert it into gold and hold it somewhere the "criminals" can't reach.
 
@@ -7487,6 +7513,10 @@ If you receive a call like this: hang up immediately, and do not act on anything
     slug: 'fema-disaster-relief-impersonation-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'fema-impersonation-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/FEMA_-_33541_-_A_resident_speaks_with_a_FEMA_inspector_in_California.jpg?width=1200',
+    coverImageCredit: 'FEMA photo (public domain)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.fema.gov/press-release/20251205/beware-fraud-and-scams',
     body: `In the days after a hurricane, wildfire, or flood, scammers move into affected areas alongside the legitimate relief effort, posing as FEMA inspectors, disaster relief coordinators, or insurance adjusters. Some show up in person wearing FEMA-branded clothing or carrying fabricated badges, knocking on doors of visibly damaged homes before any real FEMA contact has occurred; others work by phone or text, often using a spoofed number that appears to be an official disaster-assistance line.
 
@@ -7503,6 +7533,10 @@ If someone claiming to be from FEMA contacts you: ask for identification and you
     slug: 'ai-companion-chatbot-romance-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'ai-companion-chatbot-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/WhatsApp_chatting.jpg?width=1200',
+    coverImageCredit: 'Photo: Santeri Viinamäki (CC BY-SA 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.ftc.gov/business-guidance/blog/2023/03/chatbots-deepfakes-voice-clones-ai-deception-sale',
     body: `A classic romance scam (see Romance Scams) still relies on a real person typing every message, which limits how many victims one scammer can run at once. A newer variant removes that limit: the "match" messaging you on a dating app or social media may be, in whole or in part, an AI chatbot rather than a human — generating fluent, flattering, endlessly patient replies around the clock. Security researchers at McAfee documented users receiving more than 60 messages in a 12-hour span from matches that never even had a profile photo, a pace no single person sustains manually across many targets simultaneously.
 
@@ -7519,6 +7553,10 @@ Protect yourself by reverse image searching profile photos, asking specific and 
     slug: 'sovereign-citizen-debt-elimination-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'sovereign-citizen-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Yolo_County_Courthouse.jpg?width=1200',
+    coverImageCredit: 'Photo: Epolk (CC0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://leb.fbi.gov/articles/featured-articles/sovereign-citizens-a-growing-domestic-threat-to-law-enforcement',
     body: `The pitch usually surfaces in a Facebook group, a paid seminar, or a "financial freedom" course, and it promises something no legitimate lender or court ever will: a way to erase a mortgage, credit card balance, or tax debt using paperwork alone. The theory behind it — sometimes called "redemption theory" or "strawman theory" — claims that when the United States left the gold standard in 1933, the government began treating each citizen as collateral and secretly opened a Treasury account in that person's name, often said to hold anywhere from $600,000 to several million dollars. Believers are taught they can access this phantom account to pay off real-world debts simply by filing the right documents.
 
@@ -7533,6 +7571,10 @@ Red flags include any claim that a "secret" government account can pay off your 
     slug: 'loyalty-rewards-points-theft-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'loyalty-points-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/TSAPrecheckBoardingPass.jpg?width=1200',
+    coverImageCredit: 'Photo: HellcatSRT (CC0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.aarp.org/money/scams-fraud/loyalty-rewards-points/',
     body: `Airline miles and hotel points sit in an account you rarely check closely, protected — for many travelers — by nothing more than a password reused from some other site. That makes loyalty accounts an easy target: after a data breach anywhere else exposes an email-and-password combination, criminals run those same credentials against airline and hotel login pages in bulk, a technique called credential stuffing. Because so many people reuse passwords, a meaningful share of those attempts succeed, and unlike a bank account, most loyalty programs have historically required only a login — no card number, no second factor by default — to redeem the balance.
 
@@ -7547,6 +7589,10 @@ Protect an account the same way you would a bank account: use a unique password 
     slug: 'pump-and-dump-stock-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'pump-and-dump-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Stock-exchange-trading-floor.jpg?width=1200',
+    coverImageCredit: 'Photo: S.aderogba (CC BY-SA 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-alerts/gateway-to-investment-scams',
     body: `The invitation usually comes through a Discord server, a Telegram channel, or a WhatsApp group chat that positions itself as an exclusive circle of savvy traders sharing tips before the rest of the market catches on. Inside, an admin or "signal caller" who claims deep insider knowledge names a thinly traded stock — often a small-cap or penny stock with low trading volume — and urges members to buy immediately, framing it as a rare, time-sensitive opportunity. Other voices in the chat back up the excitement with screenshots of supposed gains, creating the impression of a room full of independent traders all reaching the same conclusion at once.
 
@@ -7561,6 +7607,10 @@ Warning signs include unsolicited investment tips in a group chat you didn't see
     slug: 'ransomware-attack-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'ransomware'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Hand_on_computer_keyboard.jpg?width=1200',
+    coverImageCredit: 'Photo: Soumil Kumar (CC0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.cisa.gov/stopransomware/ransomware-101',
     body: `Ransomware is malicious software that encrypts the files on a computer or network, making them unreadable, and then demands payment — almost always in cryptocurrency — for a decryption key. Many modern strains add a second layer of pressure known as "double extortion": before encrypting anything, the attacker quietly copies sensitive files off the device, then threatens to publish or sell them if the ransom isn't paid, so even a victim with solid backups can still face blackmail over leaked data.
 
@@ -7577,6 +7627,10 @@ If you're hit, disconnect the infected device from the network immediately to st
     slug: 'crypto-rug-pull-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'crypto-rug-pull'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Bitcoin_(38461156880)_(cropped).jpg?width=1200',
+    coverImageCredit: 'Photo: Stock Catalog (CC BY 2.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.sec.gov/oiea/investor-alert-5-ways-fraudsters-may-lure-victims-scams-involving-crypto-asset',
     body: `A "rug pull" is a crypto exit scam: the developers of a new token or NFT project build hype, take investors' money, and then disappear with it, leaving the token worthless. In a "hard" rug pull, the scam is baked into the code from the start — the smart contract contains a hidden function that lets only the creators sell or withdraw the pooled funds, while everyone else's tokens are effectively locked. In a "soft" rug pull, there's no malicious code at all; the founders simply sell off their own massive token holdings and abandon the project once enough outside money has come in, which is harder to prosecute because it can look like ordinary (if reckless) trading rather than outright theft.
 
@@ -7593,6 +7647,10 @@ Before investing in any new token or NFT project, verify the team's identity, ch
     slug: 'w2-phishing-payroll-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'w2-phishing'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Form_1099-R,_2015.jpg?width=1200',
+    coverImageCredit: 'IRS form (public domain)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.irs.gov/newsroom/form-w-2-ssn-data-theft-information-for-businesses-and-payroll-service-providers',
     body: `W-2 phishing is a business email compromise variant with a different target: instead of asking for a wire transfer, the scammer impersonates a company executive and asks payroll or human resources for a list of employees' Form W-2 data — names, Social Security numbers, and income figures — usually framed as a routine, time-sensitive request from the CEO or CFO. The email is typically spoofed or sent from a compromised or lookalike account, arrives with the same tone of quiet authority as a real executive request, and asks the recipient to reply directly with the file or a spreadsheet rather than raising it through any other channel.
 
@@ -7609,6 +7667,9 @@ If your organization sent W-2 data in response to a scam like this, the IRS reco
     slug: 'ai-nudify-app-sextortion-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'ai-nudify-sextortion'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Black_smartphone_in_hand_(Unsplash).jpg?width=1200',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.fbi.gov/news/stories/charlotte-child-sexual-abuse-material-case-shows-unsettling-reach-of-ai-generated-imagery',
     body: `A "nudify" scam starts with an ordinary, fully clothed photo — often pulled straight from a target's social media profile — and an app or website that uses generative AI to turn it into a realistic-looking nude image. No compromising photo ever has to exist. A classmate, an ex, or a stranger who found the photo online uploads it to one of dozens of easily searchable "undress" apps, and within seconds has a fake image real enough to threaten someone with. From there it follows the same script as classic sextortion: the person who created it, or someone they shared it with, contacts the target and demands money, gift cards, or more real images to keep it from being sent to family, friends, or classmates.
 
@@ -7625,6 +7686,10 @@ If you or someone you know is targeted, don't pay and don't send additional imag
     slug: 'airbnb-vacation-rental-host-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'rental-host-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/DOM_Security_Lock_and_Key.JPG?width=1200',
+    coverImageCredit: 'Photo: ItalianLocksmith (CC BY-SA 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.airbnb.com/help/article/971',
     body: `Vacation rental scams don't only target renters looking for a place to stay — hosts get targeted too, and the mechanics are different. A message arrives through the platform's inbox or by email, appearing to come from Airbnb, VRBO, or a "guest" asking a booking question, and it contains a link to "verify your account," "confirm your payout details," or "review this reservation." The link leads to a convincing fake login page that captures the host's username and password the moment they're entered, handing the scammer access to the real account — including saved payout information and the ability to message the host's actual guests.
 
@@ -7641,6 +7706,10 @@ If you receive a suspicious message, don't click it — forward phishing emails 
     slug: 'pre-need-funeral-cemetery-plot-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'pre-need-funeral-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Rows_of_headstones_at_Arlington_National_Cemetery.jpg?width=1200',
+    coverImageCredit: 'Photo: Roger W (CC BY-SA 2.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.fbi.gov/news/stories/prepaid-funeral-scam',
     body: `A pre-need funeral scam usually starts with a pitch, not a threat: a salesperson — sometimes going door-to-door, sometimes cold-calling, sometimes working a table at a senior center or church event — offers to "lock in today's prices" on a funeral or cemetery plot, protecting the buyer's family from rising costs and hard decisions later. The buyer pays in full or in installments, receives a contract, and assumes the money is set aside and waiting whenever it's needed, sometimes decades later. In a legitimate pre-need arrangement, it is. In a scam, the money is pocketed, spent on the seller's operating costs, or funneled into a Ponzi-style scheme that depends on new customers' payments to (sometimes) cover older customers' claims — until it collapses.
 
@@ -7657,6 +7726,9 @@ Before paying anything toward a pre-need funeral or cemetery plan, verify the pr
     slug: 'hi-mom-family-emergency-text-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'family-emergency-text-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Man_on_a_smartphone_(Unsplash).jpg?width=1200',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2025/04/new-ftc-data-show-top-text-message-scams-2024-overall-losses-text-scams-hit-470-million',
     body: `The message arrives from a number that isn't saved in your contacts: "Hi Mom, I lost my phone, this is my new number." A conversation starts naturally enough — maybe you reply asking what happened — and within a few exchanges the "child" explains they're locked out of their bank app, need to pay an urgent bill, or have to buy a replacement phone right now, and asks you to send money or a gift card, or to click a link to "verify" a payment on their behalf. Because the message plays on genuine parental instinct and arrives on a platform like iMessage, WhatsApp, or standard text, most people don't stop to question it before replying to someone who seems to already know they're texting a parent.
 
@@ -7671,6 +7743,10 @@ Before sending anything, stop and independently verify: call your child back at 
     slug: 'reshipping-mule-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'reshipping-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Cardboard_boxes_and_their_usage_besides_shipping.jpg?width=1200',
+    coverImageCredit: 'Photo: Tyler (CC BY-SA 2.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.fbi.gov/contact-us/field-offices/portland/news/press-releases/fbi-tech-tuesday-building-a-digital-defense-against-reshipping-scams',
     body: `A reshipping scam starts with what looks like an easy remote job: a "package processing," "logistics coordinator," or "quality control inspector" listing found on a job board or sent directly through social media, promising a modest salary or a per-package fee just for receiving boxes at home, checking the contents, repackaging them, and shipping them on to a new address — often overseas. The "employer" handles everything else: shipping labels arrive by email, packages show up on the doorstep within days, and there's no interview, no in-person contact, and often no real company behind the offer at all.
 
@@ -7685,6 +7761,9 @@ Warning signs include a job offer with no interview or verifiable company addres
     slug: 'fake-remote-it-worker-scheme-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'fake-remote-worker-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/ComputerProgrammer.jpg?width=1200',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.fbi.gov/investigate/cyber/alerts/2025/north-korean-it-worker-threats-to-u-s-businesses',
     body: `This scam runs in the opposite direction from most on this site: instead of a criminal targeting a consumer, the "victim" applying for the fake identity is often the criminal, and the target is the company that hires them. A remote software developer or IT contractor applies for a job using a stolen or fabricated U.S. identity, complete with a convincing résumé, a professional-looking video interview, and legitimate-seeming references. Once hired, the worker never actually appears where their paperwork says they live. Instead, a U.S.-based "facilitator" hosts a laptop shipped by the employer inside their own home or a rented office — a so-called laptop farm — and installs remote-access software so the real worker, operating from overseas, can log in and do the job as if sitting at that machine.
 
@@ -7699,6 +7778,10 @@ Warning signs for hiring managers include a candidate who resists a live, unscri
     slug: 'call-forwarding-voicemail-hijack-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'call-forwarding-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Rotarydial.JPG?width=1200',
+    coverImageCredit: 'Photo: R Sull (CC BY-SA 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.fcc.gov/consumers/guides/voicemail-hacking',
     body: `A call or text arrives posing as your bank, your mobile carrier, or "IT support," warning of a billing problem, a fraud alert, or a required account verification. To "fix" it, you're told to dial a short code on your phone's keypad — commonly *72 followed by a number on Verizon, or *21* or **21*number# on AT&T, T-Mobile, and most other carriers using standard GSM forwarding codes — before calling or texting back a number the caller supplies. That sequence doesn't verify or fix anything. It silently activates unconditional call forwarding on your line, so every call to your number, including the automated call your bank might place to confirm a login, now rings on the scammer's phone instead of yours.
 
@@ -7713,6 +7796,10 @@ Never dial a code given to you by an unsolicited caller or text message, no matt
     slug: 'mugshot-website-removal-extortion-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'mugshot-removal-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Prison_Bars_(5997920696).jpg?width=1200',
+    coverImageCredit: 'Photo: Michael Coghlan (CC BY-SA 2.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://oag.ca.gov/news/press-releases/attorney-general-becerra-announces-criminal-charges-against-four-individuals',
     body: `Booking photos and arrest records are public information in most states, published by police and sheriff's departments as part of routine transparency. Commercial "mugshot" websites scrape those booking photos in bulk, often within hours of an arrest, and republish them under the person's full name and hometown, formatted to rank near the top of search results whenever anyone — an employer, a landlord, a first date — searches that name. The photo stays up regardless of what happens to the underlying case: charges dropped, case dismissed, or a not-guilty verdict rarely gets scraped and published the way the original booking photo did, so the page keeps showing an unresolved arrest indefinitely.
 
@@ -7727,6 +7814,10 @@ Treat any site demanding payment to remove a booking photo as leverage, not a le
     slug: 'usps-informed-delivery-account-takeover-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'informed-delivery-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/USPS_Mailbox.jpg?width=1200',
+    coverImageCredit: 'Photo: Iain Laurence (CC BY-SA 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://krebsonsecurity.com/2018/11/u-s-secret-service-warns-id-thieves-are-abusing-uspss-mail-scanning-service/',
     body: `USPS Informed Delivery is a free, legitimate service that emails subscribers grayscale scans of the envelopes and packages arriving at their address each day, so they know what to expect before checking the mailbox. The problem is that signing up only requires an address, a name, and a few personal details commonly available from a prior data breach — it does not require proving you actually live there beyond a mailed verification code, and nothing stops a criminal from registering someone else's address under an email account the real resident has never seen. Once that fraudulent account is set up, the scammer receives the same daily preview the real occupant would have gotten, without the real occupant ever knowing a second account exists.
 
@@ -7741,6 +7832,10 @@ The single most effective protection is to sign up for Informed Delivery yoursel
     slug: 'fake-government-website-fee-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'government-website-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/US_capitol_building.jpg?width=1200',
+    coverImageCredit: 'Photo: Raul654 (CC BY-SA 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2025/04/dont-pay-get-your-employer-identification-number-ein',
     body: `Someone needs something ordinary from the government — a new Employer Identification Number for a small business, a passport renewal before a trip, a Real ID before a flight — so they search for it online and click the first result that looks official. The site uses government-style seals, an eagle or flag graphic, and a blue-and-red color scheme that reads as authoritative at a glance. It asks for a Social Security number, date of birth, and payment card, then delivers exactly what was promised: a filled-out form. What it charges for, though, was free or far cheaper directly from the real agency.
 
@@ -7757,6 +7852,10 @@ Go directly to the source: irs.gov for an EIN (free, done in one sitting), trave
     slug: 'change-of-address-mail-fraud-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'change-of-address-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/New_Rochelle_Post_Office;_Main_Lobby_Interior.jpg?width=1200',
+    coverImageCredit: 'Photo: DanTD (CC BY-SA 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.uspis.gov/news/scam-article/change-of-address-scams',
     body: `Bills stop arriving. Then a bank statement doesn't show up when it should. It can take weeks before anyone realizes the mail hasn't gotten lost — it's been redirected, because someone filed a change-of-address request with the person's name and old address, listing a new address the real resident has never seen. All it takes to file one is a name, an address, and a signature, which the U.S. Postal Inspection Service does not verify against the real resident's actual signature before processing it.
 
@@ -7773,6 +7872,10 @@ Periodically confirm nothing is on file that you didn't request through USPS's o
     slug: 'directory-listing-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'directory-listing-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Phone_book.jpg?width=1200',
+    coverImageCredit: 'Photo: How can I recycle this (CC BY 2.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://consumer.ftc.gov/media/79947',
     body: `A caller reaches a small business, a doctor's office, a nonprofit, or a religious school and says they're just confirming the details of the organization's listing in an online or print business directory — the address, the phone number, maybe the hours. The call sounds routine, even bureaucratic, and it's usually answered by whoever happens to pick up the phone rather than an owner or manager. There's often no existing listing to "verify" at all, and sometimes no real directory behind the call in the first place; the entire point is to get anyone at the organization to say something that sounds like a "yes" to a vaguely worded question.
 
@@ -7789,6 +7892,10 @@ Train whoever answers your organization's phones to never confirm information to
     slug: 'data-breach-notification-credit-monitoring-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'data-breach-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Person_on_laptop_Wikicurious_Charlotte.jpg?width=1200',
+    coverImageCredit: 'Photo: Brian Twitty (CC BY 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://consumer.ftc.gov/media/79862',
     body: `Whenever a major data breach makes the news — a bank, a health system, a retailer, a payroll processor — scammers move within hours to exploit the confusion that follows. A call, text, or email arrives claiming to be from the breached company, a credit bureau, or even a government agency, saying your personal information was exposed and offering to enroll you in "free credit monitoring" right there on the spot. All that's needed to get started, the caller says, is to confirm your Social Security number, date of birth, or card number — the exact information a real breach would have already put at risk, now being handed over voluntarily to whoever is calling.
 
@@ -7805,6 +7912,10 @@ If you hear about a breach that might affect you, go directly to the company's o
     slug: 'secret-sister-gift-exchange-pyramid-scheme-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'secret-sister-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Gift_box.jpg?width=1200',
+    coverImageCredit: 'Photo: Milad Mosapoor (CC BY 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.bbb.org/all/holiday-hq/scams/secret-sister-gift-exchange-is-illegal',
     body: `A post circulates on social media, usually in the run-up to the holidays: join a fun, easy "Secret Sister" gift exchange with women you may only know as friends of friends. Send one modest gift — sometimes a $10 item, sometimes a bottle of wine or bourbon — to a stranger whose name and mailing address you're given, then recruit several more friends to join the same chain. Do that, the post promises, and you'll receive somewhere between six and thirty-six gifts back in return, all for the cost and effort of sending just one.
 
@@ -7821,6 +7932,10 @@ If you see a "Secret Sister," "Secret Santa," wine-exchange, or similar gift-cha
     slug: 'angler-phishing-fake-social-media-support-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'angler-phishing'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Social_Media_App_Icons_On_The_Screen_of_A_Smartphone.jpg?width=1200',
+    coverImageCredit: 'Photo: Mike MacKenzie (CC BY 2.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2024/07/scammers-impersonate-airline-customer-service-representatives',
     body: `Someone posts a public complaint on X, Instagram, or Facebook — a delayed flight, a wrong order, a locked account — tagging the company and asking for help. Within minutes, an account that looks like official support replies with a sympathetic message and asks them to send a DM with their booking number, order number, or account details "so we can look into this." The account has a company logo as its profile picture and a name like "@AirlineHelpDesk" or "[email protected]," but it isn't run by the company at all — it's a scammer who was watching the same public complaint, waiting to reach the customer before the real support team does. Security researchers call this "angler phishing," a reference to the way it dangles bait in front of someone who's already asking for help.
 
@@ -7837,6 +7952,10 @@ The safer path is to go around social media entirely: contact the company throug
     slug: 'swoop-and-squat-staged-car-accident-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'staged-accident-fraud'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Car_crash.jpg?width=1200',
+    coverImageCredit: 'Photo: La Cara Salma (CC BY-SA 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.nicb.org/prevent-fraud-theft/staged-auto-accident-fraud',
     body: `A car changes lanes and cuts sharply into the space directly in front of you, then brakes hard for no visible reason. There's no time to react, and you rear-end it. It looks like an ordinary, unlucky fender-bender, but it may have been staged from the start by two coordinated vehicles working together: the "swoop" car that cut in front and immediately sped off, and the "squat" car that braked, whose driver never had a real reason to stop and knew exactly when the crash was coming. This setup, known in the insurance industry as "swoop and squat," is one of several staged-collision schemes designed to put an ordinary driver at fault in an accident engineered to happen.
 
@@ -7853,6 +7972,10 @@ If you're in a crash that feels engineered: call the police to the scene and get
     slug: 'malvertising-fake-software-download-search-ads-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'malvertising'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Laptop_computer.jpg?width=1200',
+    coverImageCredit: 'Photo: KK IN HK (CC BY-SA 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2023/04/ads-fake-ai-other-software-spread-malicious-software',
     body: `Searching for a piece of free or well-known software — a PDF reader, a video player, an AI chatbot app, a system cleanup tool — turns up a sponsored ad at the very top of the results, above the real company's own listing, often using the company's actual name and logo. The ad looks like the fastest way to get what you searched for, but clicking it can lead to a cloned website built to look identical to the real one, offering a download that installs information-stealing malware instead of, or alongside, the software you were looking for. Security researchers have tracked this technique — "malvertising" — targeting ads for widely used free programs including VLC, 7-Zip, and CCleaner, precisely because their popularity guarantees a steady stream of searchers to target.
 
@@ -7869,6 +7992,9 @@ The safer habit is to scroll past sponsored results and click the organic listin
     slug: 'otp-bot-verification-code-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'otp-bot-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Smartphone_in_Hand_(Unsplash).jpg?width=1200',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2024/03/whats-verification-code-why-would-someone-ask-me-it',
     body: `A scammer who already has a stolen username and password — bought off a criminal marketplace or lifted through an earlier phishing email — still hits one last wall: the one-time passcode your bank, PayPal, or crypto exchange texts you to confirm a login or a money transfer. OTP bots exist to knock down that wall automatically. The fraudster enters your stolen credentials into the real login page, which triggers your bank to send you a genuine six-digit code by text, and within seconds an automated call reaches your phone with a polished, human-sounding script claiming to be your bank's fraud department, warning of "suspicious activity" and asking you to "verify your identity" by keying in or reading back the code that just arrived.
 
@@ -7885,6 +8011,10 @@ No legitimate bank, payment app, or exchange will ever call and ask you to read 
     slug: 'people-search-background-check-subscription-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'background-check-subscription-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Person_writing_in_notebook_while_using_laptop_at_a_modern_workspace.jpg?width=1200',
+    coverImageCredit: 'Photo: Shixart1985 (CC BY 2.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2023/09/ftc-says-truthfinder-instant-checkmate-deceived-users-about-background-report-accuracy-violated-fcra',
     body: `Looking up an unfamiliar phone number, screening a new online date, or checking on a delivery driver waiting outside often leads to the same kind of site: type in a name, and within seconds a red-flagged preview appears warning that the person "may have a criminal or arrest record," with the full details locked behind a report you can unlock for just a dollar or two. That small charge is the trap. Entering a card number for the "trial" report quietly enrolls the user in a recurring membership — often $30 or more billed every month going forward — that continues charging until it's actively canceled, frequently through a process the company makes deliberately hard to find.
 
@@ -7901,6 +8031,9 @@ Before entering payment details on any of these sites, read the checkout page in
     slug: 'fake-banking-app-smishing-malware-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'fake-banking-app-malware'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Man_with_smartphone_and_laptop_(Unsplash).jpg?width=1200',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.ic3.gov/PSA/2020/PSA200610',
     body: `A text message arrives claiming to be from your bank: your card has been locked, a payment failed, or your mobile banking app urgently needs a security update, with a link to fix it. Tapping the link doesn't lead to a phishing page asking for a password — it prompts a direct download of an app, installed outside the Google Play Store or Apple App Store, styled to look like your bank's real mobile banking or "security" app. The install screen asks for permissions that sound routine but aren't: Accessibility Services, the ability to read and send text messages, or permission to draw over other apps. Granting them hands the malware almost everything it needs.
 
@@ -7917,6 +8050,10 @@ Never install a banking or financial app from a link in a text or email — go t
     slug: 'prime-bank-trading-program-fraud-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'prime-bank-fraud'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Citizens_Bank_in_Kilgore,_TX_IMG_5926.JPG?width=1200',
+    coverImageCredit: 'Photo: Billy Hathorn (CC BY-SA 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-alerts/investor-57',
     body: `An investor is approached — often by someone in their own professional or religious network — with access to an exclusive "trading program" available only to the world's largest banks: a chance to buy discounted financial instruments with names like standby letters of credit, bank guarantees, or medium-term notes, then resell them at a markup in a secret secondary market, generating guaranteed weekly or monthly returns that would be extraordinary for any real investment. The pitch is thick with authentic-sounding banking terminology — SWIFT transfers, "prime world bank" issuers, IMF or World Bank affiliation, a supposed roll program — and investors are frequently asked to sign a non-disclosure agreement before hearing the details, which is framed as protecting a rare opportunity but which also happens to stop them from comparing notes with anyone else or doing outside research.
 
@@ -7933,6 +8070,10 @@ If you're approached with a pitch like this, don't pay anything or sign anything
     slug: 'cloud-mining-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'cloud-mining-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Bitcoin_mining_farm.jpg?width=1200',
+    coverImageCredit: 'Photo: Marko Ahtisaari (CC BY 2.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.justice.gov/opa/pr/two-estonian-nationals-plead-guilty-577m-cryptocurrency-fraud-scheme',
     body: `Legitimate cloud mining lets someone earn cryptocurrency without buying and running mining hardware themselves, by paying a company to rent out computing power ("hash rate") from a data center the company actually operates. The scam version copies the pitch exactly — a slick website or app sells "mining contracts" or "hosting agreements" tied to a specific amount of hash rate, promises a fixed daily or weekly payout in Bitcoin or another coin, and displays a dashboard that shows a balance quietly climbing as the mining supposedly happens in the background. Some also layer on a referral program that pays existing investors a bonus for recruiting new depositors, which does more to fund the payouts than any actual mining does.
 
@@ -7949,6 +8090,10 @@ Treat any offer of guaranteed, fixed-rate cryptocurrency mining returns as a red
     slug: 'social-security-overpayment-scam',
     author: 'ScamShield Editorial',
     tags: ['guide', 'social-security-overpayment-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Social_Security_Administration,_Valdosta.JPG?width=1200',
+    coverImageCredit: 'Photo: Michael Rivera (CC BY-SA 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.ssa.gov/scam/',
     body: `The Social Security Administration does, in reality, sometimes overpay beneficiaries because of a calculation error, a delay in reporting income, or a change in living or marital status, and it does recover that money — but always by mail first, with a letter explaining the amount, the reason, and the beneficiary's right to appeal or request a lower repayment rate, followed by a gradual reduction in future benefit checks rather than a demand for payment on the spot. That real, if unwelcome, process gives scammers something to imitate: an urgent phone call, text, or email claiming to be from the SSA or its Office of the Inspector General, stating that the recipient was overpaid thousands of dollars and must repay it within 24 to 48 hours or face account suspension, arrest, or loss of all future benefits.
 
@@ -7963,6 +8108,10 @@ The reliable rule is the same one that applies to every government-impersonation
     slug: 'ghost-broker-insurance-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'ghost-broker-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Car_key.JPG?width=1200',
+    coverImageCredit: 'Photo: Schumi4ever (CC BY-SA 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.nicb.org/prevent-fraud-theft/ghost-brokers',
     body: `A "ghost broker" is someone who sells auto insurance without being licensed or authorized to sell it at all, advertising premiums well below what any legitimate insurer would offer — often through social media marketplaces, messaging apps, or word of mouth rather than a real agency. Some ghost brokers hand buyers a completely fabricated insurance card and policy document that will never pay a claim. Others actually apply for a real policy in the buyer's name using misrepresented information, collect months of premium payments for themselves, and then let the real policy lapse or get canceled without telling the buyer — who keeps driving, and keeps paying the broker, believing they're covered.
 
@@ -7977,6 +8126,9 @@ Before paying for any policy from an agent or broker you haven't used before, ve
     slug: 'curbstoning-unlicensed-car-dealer-scam',
     author: 'ScamShield Editorial',
     tags: ['guide', 'curbstoning'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Lono_Avenue_Value_Center_Used_Car_Lot.JPG?width=1200',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.bbb.org/article/news-releases/24541-bbb-tip-avoiding-illegal-car-sales-known-as-curbstoning',
     body: `"Curbstoning" is the practice of an unlicensed used-car dealer buying up cheap, often problem-ridden vehicles — wrecked, flooded, with rolled-back odometers, or carrying a branded title — and reselling them while posing as an ordinary private individual clearing out their own car. The term comes from the old habit of literally parking a rotating inventory along a curb or in a vacant lot with a "For Sale" sign, but today it happens mostly through Facebook Marketplace, Craigslist, and OfferUp listings that all read like a single owner selling one beloved car.
 
@@ -7991,6 +8143,10 @@ Before buying from anyone advertising as a private seller, ask to see the seller
     slug: 'debt-parking-credit-report-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'debt-parking-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Credit-cards.jpg?width=1200',
+    coverImageCredit: 'Photo: Lotus Head (CC BY-SA 2.5)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2020/11/ftc-stops-debt-collectors-alleged-debt-parking-scheme-requires-it-delete-debts-it-placed-consumers',
     body: `Most people assume a debt collector has to contact them before anything shows up on their credit report. "Debt parking," also called passive collection, skips that step entirely: a collector adds a purported debt directly to a consumer's credit report without ever calling, mailing, or otherwise reaching out first. The debt is frequently one the consumer already paid off, one that belongs to someone else entirely, or one that was never valid in the first place — the collector simply reports it and waits, betting that most people won't notice until the damage is already done.
 
@@ -8005,6 +8161,10 @@ Federal law still applies even to a debt you learn about this way: you have the 
     slug: 'pigeon-drop-found-money-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'pigeon-drop-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Pile_of_Cash.jpg?width=1200',
+    coverImageCredit: 'Photo: 401(K) 2012 (CC BY-SA 2.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://da.lacounty.gov/community/fraud-alerts/pigeon-drop-scam',
     body: `The pigeon drop is one of the oldest confidence games still in active use, and it happens entirely in person rather than by phone, text, or email. It starts with a friendly stranger striking up a conversation in a parking lot, outside a bank, or in a store — the future victim, or "pigeon," has no idea a con is underway. A second stranger then appears nearby holding an envelope, bag, or wallet stuffed with cash they claim to have just found on the ground, and asks the first two what they think should be done with it.
 
@@ -8019,6 +8179,9 @@ If a stranger ever proposes splitting found money or asks you to withdraw cash a
     slug: 'funded-trader-prop-firm-challenge-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'prop-firm-challenge-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Stock_market_Image_public_domain.jpg?width=1200',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.cftc.gov/PressRoom/PressReleases/8771-23',
     body: `Proprietary trading firms, or "prop firms," advertise a tempting pitch on social media and trading forums: pay a fee to take an online "evaluation" — hit a profit target on a demo account without breaching a maximum loss limit — and the firm will back you with tens or hundreds of thousands of dollars of its own capital to trade, splitting the real profits with you. Legitimate versions of this model exist, but the pitch has also become a magnet for firms built to collect fees rather than ever fund a trader. In a scam version, the "funded account" you're given after passing is still just another demo account trading fake money against a simulated price feed — you're never actually trading with the firm's capital, and any "profit" you earn exists only on a dashboard the firm controls.
 
