@@ -7863,6 +7863,48 @@ Red flags: a fixed or guaranteed daily/weekly payout regardless of what's happen
 
 Treat any offer of guaranteed, fixed-rate cryptocurrency mining returns as a red flag on its own — profitable or not, real mining income fluctuates, and "guaranteed" is not a word that honestly applies to it. Before paying for any mining contract, look for independent, third-party verification of the operator's actual hardware and hash rate, not just numbers on the company's own dashboard, and check whether the offering has been registered with the SEC or your state securities regulator, since arrangements that pay investors based on someone else's mining effort are often legally securities requiring registration. If you've already invested and can't withdraw funds, stop depositing more, preserve every statement and transaction record, and report it to the FTC at ReportFraud.ftc.gov, the SEC at sec.gov/tcr, and the FBI's Internet Crime Complaint Center at ic3.gov.`,
   },
+  {
+    title: 'The Social Security Overpayment Scam: When a Real Policy Becomes a Fake Emergency',
+    slug: 'social-security-overpayment-scam',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'social-security-overpayment-scam'],
+    sourceUrl: 'https://www.ssa.gov/scam/',
+    body: `The Social Security Administration does, in reality, sometimes overpay beneficiaries because of a calculation error, a delay in reporting income, or a change in living or marital status, and it does recover that money — but always by mail first, with a letter explaining the amount, the reason, and the beneficiary's right to appeal or request a lower repayment rate, followed by a gradual reduction in future benefit checks rather than a demand for payment on the spot. That real, if unwelcome, process gives scammers something to imitate: an urgent phone call, text, or email claiming to be from the SSA or its Office of the Inspector General, stating that the recipient was overpaid thousands of dollars and must repay it within 24 to 48 hours or face account suspension, arrest, or loss of all future benefits.
+
+The fake version skips every safeguard the real one has. It demands payment immediately, by gift card, wire transfer, cryptocurrency, or even cash handed to a courier — methods no legitimate government agency ever uses to collect a debt. It may arrive with a forged letter carrying a real-looking SSA seal and letterhead, or direct the recipient to a fraudulent website designed to look like the "my Social Security" portal in order to harvest login credentials and personal information. Caller ID can be spoofed to show the SSA's real phone number, and the caller may already know basic details like a name or partial Social Security number, both of which are meant to manufacture false credibility rather than prove anything.
+
+What makes this scam effective is timing: the SSA's own overpayment recovery policy changed more than once in 2025, generating real news coverage, real confusion among beneficiaries, and real letters landing in real mailboxes — exactly the kind of ambient anxiety scammers rely on to make an invented threat feel plausible. A retiree who has heard that clawbacks are happening is more likely to panic at a call claiming it's happening to them specifically.
+
+The reliable rule is the same one that applies to every government-impersonation scam: the SSA will never call, text, or email demanding immediate payment, and it will never ask for gift cards, wire transfers, cryptocurrency, or a cash pickup under any circumstances. If you get a message like this, don't click any links or call any number it provides. Instead, log into your account directly at ssa.gov, or call the SSA's national number yourself using a number you looked up independently, to check whether any overpayment notice is real. Report suspicious calls, texts, or emails to the SSA Office of the Inspector General at oig.ssa.gov and to the FTC at ReportFraud.ftc.gov.`,
+  },
+  {
+    title: 'Ghost Brokers: The Fake Insurance Agent Who Leaves You Uninsured After a Crash',
+    slug: 'ghost-broker-insurance-scam-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'ghost-broker-scam'],
+    sourceUrl: 'https://www.nicb.org/prevent-fraud-theft/ghost-brokers',
+    body: `A "ghost broker" is someone who sells auto insurance without being licensed or authorized to sell it at all, advertising premiums well below what any legitimate insurer would offer — often through social media marketplaces, messaging apps, or word of mouth rather than a real agency. Some ghost brokers hand buyers a completely fabricated insurance card and policy document that will never pay a claim. Others actually apply for a real policy in the buyer's name using misrepresented information, collect months of premium payments for themselves, and then let the real policy lapse or get canceled without telling the buyer — who keeps driving, and keeps paying the broker, believing they're covered.
+
+Either version can go undetected for a long time, because the only obvious symptom — an insurance card that looks legitimate — is exactly what the scam is built to produce. The gap surfaces at the worst possible moment: pulled over for a routine stop, or worse, after an at-fault accident, when the insurer the driver has been paying either has no record of the policy or canceled it months earlier. At that point the driver can be personally liable for the other party's damages and medical bills, face license suspension for driving uninsured, and have no legitimate insurer to turn to for their own repairs.
+
+Red flags line up closely with any unlicensed-seller scam: a price 15 to 20 percent or more below comparable quotes from known insurers; a "broker" reachable only through social media or a messaging app, with no working phone number or physical office; pressure to pay by cash, gift card, or a peer-to-peer payment app rather than a standard, traceable method; and a policy or ID card that never arrives, arrives late, or arrives without any documentation from the insurer it claims to represent. A legitimate agent will always be listed as licensed to sell in your state.
+
+Before paying for any policy from an agent or broker you haven't used before, verify their license through your state's Department of Insurance or the NAIC's license lookup tool, and separately confirm the policy exists by contacting the named insurance company directly using contact information you find yourself, not information the broker gave you. If you think you've already been sold a fake or lapsed policy, contact the insurer directly to confirm your coverage status, report the broker to your state insurance department, and file a report with the National Insurance Crime Bureau at nicb.org.`,
+  },
+  {
+    title: 'Curbstoning: The Unlicensed Dealer Selling You a Car as a "Private Seller"',
+    slug: 'curbstoning-unlicensed-car-dealer-scam',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'curbstoning'],
+    sourceUrl: 'https://www.bbb.org/article/news-releases/24541-bbb-tip-avoiding-illegal-car-sales-known-as-curbstoning',
+    body: `"Curbstoning" is the practice of an unlicensed used-car dealer buying up cheap, often problem-ridden vehicles — wrecked, flooded, with rolled-back odometers, or carrying a branded title — and reselling them while posing as an ordinary private individual clearing out their own car. The term comes from the old habit of literally parking a rotating inventory along a curb or in a vacant lot with a "For Sale" sign, but today it happens mostly through Facebook Marketplace, Craigslist, and OfferUp listings that all read like a single owner selling one beloved car.
+
+Curbstoners operate this way specifically to dodge the rules licensed dealers must follow: state dealer licensing, a surety bond that protects buyers if something goes wrong, mandatory disclosure of known defects and title problems, and in many states a legally required Buyers Guide describing whether the vehicle carries any warranty. Selling as a "private party" also lets them skip the used-car lot's overhead, avoid sales tax obligations, and walk away from any legal responsibility the moment the sale is done — because a private-party sale in most states carries far weaker consumer protections than a dealer sale.
+
+Telltale signs include the same phone number or contact email showing up across several listings under different seller names or slightly different vehicle descriptions; a seller who wants to meet in a parking lot, gas station, or other public location rather than their own home; reluctance to let a buyer bring the car to an independent mechanic for a pre-purchase inspection; a seller who has "just a couple more like this one" when asked; and, most concretely, a name on the driver's license that doesn't match the name on the vehicle's title.
+
+Before buying from anyone advertising as a private seller, ask to see the seller's driver's license alongside the title and confirm the names match, run the VIN through a vehicle history service and a free stolen/salvage check like NICB's VINCheck, and insist on an independent mechanic's inspection before handing over any money. If you've been curbstoned, you typically have far less recourse than you would against a licensed dealer, but you can still report the seller to your state DMV's enforcement division or your state attorney general's consumer protection office, which actively investigate and cite unlicensed dealers.`,
+  },
 ];
 
 async function seedArticles(articles: SeedArticle[], label: string) {
