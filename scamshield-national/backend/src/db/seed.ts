@@ -21227,6 +21227,17 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Fraudehelpdesk (Dutch National Anti-Fraud Hotline)'],
     sourceUrl: 'https://www.fraudehelpdesk.nl/alert/valse-berichten-namens-gerechtsdeurwaarders/',
   },
+  {
+    name: 'Coinbase Data-Breach Fake Support Call Scam',
+    slug: 'coinbase-breach-fake-support-crypto-transfer-scam',
+    description:
+      'Coinbase disclosed in May 2025 that a small group of bribed overseas contract support agents had copied personal data — names, addresses, phone numbers, masked Social Security and bank account numbers, and government-ID images — belonging to roughly 69,000 customers, and criminals have since used that stolen data to run convincing fake customer-support calls, texts, and emails against Coinbase users nationwide. A scammer who already knows the victim\'s name, address, and partial account details opens by claiming the account has been compromised or flagged for suspicious activity, often citing a fabricated case number, then walks the victim through "securing" their funds by moving cryptocurrency to a new wallet that is actually controlled by the scammer. On-chain investigators tracking these thefts estimated Coinbase users had already lost more than $65 million to this exact social-engineering pattern in just a two-month stretch even before the breach was confirmed publicly, with losses accelerating afterward as the leaked personal data gave callers far more convincing opening details than a cold call could provide. Coinbase has stated repeatedly that it will never call a customer unprompted, never ask for a password, two-factor code, or remote screen-sharing access, and never instruct anyone to move funds to a different wallet for "safekeeping" — any contact that does these things is fraudulent no matter how much accurate personal information the caller already has.',
+    categorySlug: 'tech-support-scams',
+    country: 'US',
+    alertLevel: 'high',
+    sources: ['Coinbase', 'The Block'],
+    sourceUrl: 'https://help.coinbase.com/en/coinbase/privacy-and-security/avoid-scams/tech-support-scams',
+  },
 ];
 
 async function seedCategoriesAndScams() {
