@@ -21467,6 +21467,69 @@ const SEED_SCAMS: SeedScam[] = [
     ],
     sourceUrl: 'https://www.justice.gov/usao-sdms/pr/brookhaven-man-sentenced-40-months-federal-prison-wire-fraud',
   },
+  {
+    name: 'German Fake Bank Employee "Safe Account" Phone Scam (Falscher Bankmitarbeiter)',
+    slug: 'germany-falscher-bankmitarbeiter-phone-scam',
+    description:
+      'A caller claiming to work in the fraud department of the victim\'s own bank — Verbraucherzentrale Hamburg has documented callers impersonating Haspa, Deutsche Bank, Commerzbank, Postbank, and Solarisbank staff — warns that suspicious transactions have just been detected and offers to block them immediately, but only if the victim reads back the six-digit Push-TAN code that arrives in their banking app moments later. That code does not stop anything; it is the very authorization the caller needs to complete a transfer out of the account, and documented cases have shown the incoming call\'s displayed number matching the real bank\'s number except for its final digit, a trick achieved through simple caller-ID spoofing. In some cases the caller already has access to the victim\'s online banking through stolen login credentials obtained elsewhere and uses the call purely to extract the one missing TAN needed to move money out. German consumer-protection authorities and banks stress that no legitimate bank employee will ever call unprompted and ask a customer to read out a PIN, password, or TAN, and that anyone who has done so should immediately call the nationwide card-blocking hotline 116 116 and file a police report.',
+    categorySlug: 'account-takeover',
+    country: 'DE',
+    alertLevel: 'high',
+    sources: ['Verbraucherzentrale Hamburg', 'German Police Crime Prevention Program (Polizei-Beratung)'],
+    sourceUrl: 'https://www.vzhh.de/themen/finanzen/konto-karte/warnung-vor-falschen-bank-anrufen',
+  },
+  {
+    name: 'German Property Group (Dolphin Trust) Real Estate Ponzi Scheme',
+    slug: 'german-property-group-dolphin-trust-ponzi-scheme',
+    description:
+      'British entrepreneur Charles Smethurst founded Dolphin Capital in Langenhagen, near Hannover, in 2008, renaming it Dolphin Trust in 2014 and again to German Property Group in 2019, and built it into what investor lawyers now call one of the largest investment scandals in German postwar history. The company solicited subordinated loans (Nachrangdarlehen), mostly from retail investors abroad in the UK, Ireland, and across Asia, pitching them as low-risk capital secured by dozens of protected historic German buildings the firm supposedly intended to renovate and resell, with promised returns as high as 15 percent; in reality, a large share of the renovation projects were never meaningfully carried out, and new investor money was used to pay earlier investors and interest, a Ponzi-like structure that unraveled when the firm filed for insolvency in July 2020. Investor representatives estimate that between 15,000 and 25,000 people put in €1.3 to 1.5 billion combined, of which roughly €800 million remains unaccounted for; the Hannover public prosecutor\'s office charged Smethurst with fraud, and on June 17, 2025 the Landgericht Hildesheim convicted him on four counts of aggravated fraud involving €26 million in proven damages and sentenced him to six years and eleven months in prison after he entered a comprehensive confession. The case is a reminder that a subordinated loan is not a bank deposit or a registered security — it carries no deposit insurance, sits behind other creditors if the issuer fails, and its safety depends entirely on the issuer\'s actual solvency, something German regulators cannot verify on an investor\'s behalf before money changes hands.',
+    categorySlug: 'investment-fraud',
+    country: 'DE',
+    isHistorical: true,
+    firstRecorded: '2008-01-01',
+    sources: ['Landgericht Hildesheim', 'Handelsblatt'],
+    sourceUrl: 'https://www.handelsblatt.com/finanzen/immobilien/german-property-group-fast-sieben-jahre-freiheitsstrafe-fuer-ex-chef/100134745.html',
+  },
+  {
+    name: 'Fake New Hampshire Attorney General Account-Seizure Letter',
+    slug: 'new-hampshire-fake-attorney-general-letter-scam',
+    description:
+      'Scammers mail New Hampshire residents letters formatted to look like official correspondence from the New Hampshire Attorney General\'s Office, falsely signed with the name of a former New Hampshire Deputy Attorney General, and threatening to shut down or seize the recipient\'s personal bank and financial accounts unless they respond right away. The letter lists a phone number or return address with no real connection to the Attorney General\'s Office or any other law enforcement agency, designed to draw a worried recipient into calling and handing over a Social Security number or other personal identifying information. Attorney General John Formella\'s office confirmed it never sends correspondence threatening to shut down or seize a recipient\'s accounts, and warned that a physical letter on convincing-looking government letterhead can be just as fake as a phishing email or scam text. Anyone who receives a letter like this should independently verify any contact information through the Attorney General\'s official website rather than the phone number printed on the letter itself, and can report the letter directly to the office.',
+    categorySlug: 'government-impersonation',
+    country: 'US',
+    state: 'NH',
+    alertLevel: 'medium',
+    sources: ['New Hampshire Department of Justice'],
+    sourceUrl:
+      'https://www.doj.nh.gov/news-and-media/consumer-alert-attorney-general-warns-scammers-sending-fraudulent-letter-purporting',
+  },
+  {
+    name: 'Professional Fix LLC House-Flipping Investment Fraud',
+    slug: 'alabama-professional-fix-house-flipping-fraud',
+    description:
+      'Nicholas Houston Allen, a Montgomery, Alabama man, solicited money from elderly victims to invest in Professional Fix LLC, a company he pitched as flipping houses for a guaranteed return, then spent the money on his own personal living expenses instead. His primary victim, a senior over 65, was persuaded to hand over nearly $200,000 between 2020 and 2021, and the Alabama Securities Commission\'s Enforcement Section, working with the U.S. Secret Service, identified four additional elderly victims during the investigation that followed. Allen pleaded guilty to wire fraud, securities fraud, financial exploitation of the elderly, and theft of property, and in February 2024 was sentenced to 76 months in federal prison and ordered to pay nearly $370,000 in restitution, with the judge calling his conduct "cruel" and imposing a sentence above the advisory guidelines range. The case is a reminder to check whether anyone soliciting money for a real-estate investment is actually registered with the Alabama Securities Commission, which offers a free online lookup, before wiring any money toward a promised guaranteed return.',
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    state: 'AL',
+    isHistorical: true,
+    firstRecorded: '2020-01-01',
+    sources: ['Alabama Securities Commission', 'U.S. Attorney\'s Office, Middle District of Alabama', 'U.S. Secret Service'],
+    sourceUrl:
+      'https://www.justice.gov/usao-mdal/pr/montgomery-man-sentenced-prison-and-ordered-pay-nearly-370000-schemes-targeting',
+  },
+  {
+    name: 'Tennessee Facebook Marketplace Vehicle-for-Fake-Payment Scam',
+    slug: 'tennessee-facebook-marketplace-vehicle-fake-payment-scam',
+    description:
+      'A buyer contacts a Tennessee resident selling a car on Facebook Marketplace, agrees on a price, and hands over a check or claims to have completed a wire transfer that is fake or never actually clears — then takes the vehicle and its keys before the seller has any real way to confirm the payment went through. The Tennessee Department of Commerce and Insurance warns the damage often does not stop at the missing payment: because the seller voluntarily handed the keys to someone they believed was a legitimate buyer, most auto insurance policies\' anti-fraud provisions leave the owner ineligible for theft coverage too, since insurers do not treat a voluntary handover as an actual theft. TDCI and the Tennessee Motor Vehicle Commission recommend confirming that any payment has actually posted in the seller\'s own bank account, not just relying on a screenshot, wire confirmation number, or the buyer\'s word, before ever handing over a vehicle or its keys, and suggest selling through a licensed dealer as a safer alternative for a wary seller. Anything that feels rushed, or a buyer\'s story, ID, or offered payment method that does not add up, is reason enough to walk away from the deal.',
+    categorySlug: 'insurance-fraud',
+    country: 'US',
+    state: 'TN',
+    alertLevel: 'medium',
+    sources: ['Tennessee Department of Commerce & Insurance'],
+    sourceUrl:
+      'https://www.tn.gov/commerce/news/2026/3/3/consumer-alert-be-on-alert-for-facebook-marketplace-auto-purchasing-scams.html',
+  },
 ];
 
 async function seedCategoriesAndScams() {
