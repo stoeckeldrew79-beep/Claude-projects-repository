@@ -3980,6 +3980,59 @@ Weil was arrested repeatedly over his career and served roughly six years total 
 Weil died in Chicago in 1976, aged 100, having outlived the era of hand-built confidence rackets he helped define. His self-serving rationalization — that a con only works on someone hoping to cheat someone else first — remains one of the oldest and most persistent excuses scammers offer for their own conduct, and one worth naming precisely because it's wrong: legitimate investors get defrauded by convincing fake operations every day without any greed of their own to blame, then and now.`,
     sourceUrl: 'https://www.chicagotribune.com/1990/12/20/without-these-famous-or-infamous-characters-chicagos-history-just-wouldnt-be-the-same/',
   },
+  {
+    title: 'Gerald Cotten and the $190 Million That Died With Him',
+    slug: 'gerald-cotten-quadrigacx-crypto-fraud',
+    author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Bitcoin_and_cryptocurrency_(38688311185).jpg?width=1200',
+    coverImageCredit: 'Photo: Stock Catalog (CC BY 2.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    tags: ['notorious', 'notorious-scammer'],
+    body: `Gerald Cotten co-founded QuadrigaCX in Vancouver in November 2013, and within a few years it had grown into Canada's largest cryptocurrency exchange, trusted by tens of thousands of customers to buy, sell, and hold their Bitcoin and other digital assets. Cotten ran the business quietly from his laptop in Nova Scotia, with no office, no formal accounting system, and — customers were told — no way for anyone but him to access the exchange's offline "cold wallets," where the bulk of customer funds were supposedly kept safe from hackers.
+
+In December 2018, Cotten died suddenly at age 30 while traveling in Jaipur, India, reportedly from complications related to Crohn's disease. When QuadrigaCX announced his death the following month, it also announced a much bigger problem: a large sum in customer cryptocurrency, which the company itself put at roughly C$250 million, was locked in cold wallets that only Cotten had known how to open, and no one else could get in. Customers who had trusted the exchange with their savings suddenly had no way to withdraw any of it.
+
+When court-appointed accountants at Ernst & Young finally examined the cold wallets QuadrigaCX pointed them to, the wallets were essentially empty — and had been since April 2018, months before Cotten's death. A 2020 Ontario Securities Commission investigation found that roughly 76,000 affected customers worldwide had lost at least $169 million, and that the missing keys were never really the problem: Cotten had been running an old-fashioned Ponzi scheme behind the exchange's interface for years, opening customer accounts under fake names, crediting himself with fabricated balances, and trading against his own unsuspecting clients using money that was never actually invested the way customers believed. As the OSC put it, "what happened at Quadriga was an old-fashioned fraud wrapped in modern technology."
+
+The timing and secrecy around Cotten's death — a will signed less than two weeks before he died, and an estate that left his widow control of real estate, vehicles, and other assets while tens of thousands of customers were left with nothing — fueled years of speculation that he faked it and disappeared with the money. No evidence has ever surfaced to support that theory. What the official record does show is simpler and, in a way, more damning: an exchange holding other people's money can fail not because it was hacked, but because the one person everyone trusted to safeguard the keys was the only one who could see there was nothing left behind the vault door.`,
+    sourceUrl: 'https://www.osc.ca/en/news-events/news/osc-publishes-investigative-report-quadrigacx',
+  },
+  {
+    title: 'Vijay Mallya and the $1.4 Billion "King of Good Times" Left Unpaid',
+    slug: 'vijay-mallya-kingfisher-airlines-bank-fraud',
+    author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Vijay_Mallya_300.jpg?width=1200',
+    coverImageCredit: 'Photo: Franciscojuanlago (CC BY-SA 3.0)',
+    coverImagePosition: 50,
+    tags: ['notorious', 'notorious-scammer'],
+    body: `Vijay Mallya built one of India's most recognizable business empires as chairman of United Breweries Group, maker of Kingfisher beer, and cultivated a public image — self-styled the "King of Good Times" — built on yachts, racehorses, a Formula One team, and a fleet of private jets. In 2005 he launched Kingfisher Airlines, a full-service carrier meant to be the flagship of his brand, and for a few years it was India's second-largest airline.
+
+Kingfisher Airlines never turned a profit and began borrowing heavily from Indian banks to stay aloft. By the time it grounded its last flight in 2012, a consortium of 17 banks led by the State Bank of India was owed roughly ₹9,000 crore — growing to more than $1.4 billion once taxes, interest, and other creditors were included. Indian investigators with the Central Bureau of Investigation and the Enforcement Directorate later alleged this wasn't simple business failure: loans obtained on the strength of the airline's finances were, they said, routed instead into more than 40 unrelated companies, with roughly $420 million moved offshore to tax havens rather than spent keeping the airline running.
+
+Mallya left India for the United Kingdom in March 2016, just as banks and investigators were closing in, and has remained there since; his passport was revoked weeks later. In 2018 he became the first person declared a "fugitive economic offender" under a law India passed largely in response to his case. A UK court ruled in December 2018 that he should be extradited to face the fraud charges, and his appeals through the High Court and Supreme Court were rejected by 2020 — yet extradition was then blocked over an unspecified legal matter connected to his own insolvency proceedings in Britain, and it has never been carried out.
+
+Indian authorities have since seized and auctioned more than $1 billion of his assets — farmhouses, company shares, art, even the "Kingfisher" trademark itself — to claw back a fraction of what banks are owed. The case has become a byword in India for a specific frustration: courts can rule against a man three times over, across two countries, and he can still be sitting in London, extradition order in hand, simply because the legal process has more steps than his ability to outlast it.`,
+    sourceUrl: 'https://www.aljazeera.com/economy/2017/4/18/indian-business-tycoon-vijay-mallya-arrested-in-london',
+  },
+  {
+    title: 'Stefan Qin and the Arbitrage Algorithm That Only Existed on Paper',
+    slug: 'stefan-qin-virgil-sigma-crypto-fraud',
+    author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Bitcoin_Chain_IMG_9197.jpg?width=1200',
+    coverImageCredit: 'Photo: BTC Keychain (CC BY-SA 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    tags: ['notorious', 'notorious-scammer'],
+    body: `Stefan Qin was a 19-year-old former math-competition prodigy from Australia when he founded Virgil Capital and its flagship Virgil Sigma Fund in New York in 2017. His pitch to investors, many of them friends, family, and their referrals, was a "market-neutral" cryptocurrency trading strategy powered by a proprietary algorithm he called Tenjin: buy a cryptocurrency slightly cheaper on one exchange, sell it slightly higher on another, and pocket the spread, again and again, with minimal risk. It sounded less like a bet on crypto's price than a bet on the plumbing between exchanges — precisely the kind of "safe, technical" story that makes an ordinary investor stop asking questions.
+
+The fund grew from roughly $23.5 million in claimed assets to about $90 million by 2020. Tenjin barely traded. Instead, prosecutors said, Qin was siphoning investor money into a Manhattan penthouse, personal spending, and speculative side ventures unrelated to arbitrage, while doctoring account statements and tax documents to keep investors' reported returns looking exactly as steady as the pitch promised.
+
+When investors began asking to cash out in 2020, Qin told them their money had been moved into a second fund he also controlled, VQR Multistrategy Fund — but the transfers never happened, and the redemption requests simply went unanswered. The SEC obtained an emergency asset freeze in December 2020 after finding Qin was actively trying to drain what was left of the VQR fund as well. He pleaded guilty in February 2021 to a single count of securities fraud and was sentenced in 2022 to seven and a half years in prison, along with forfeiture of more than $54 million.
+
+At sentencing, Qin offered a line prosecutors would go on to quote for years afterward: "I thought I was the main protagonist and life was a video game and I had just found the cheat code to beat it." At least one investor was left, in the government's words, homeless and destitute. The case is a reminder that a "proprietary algorithm" is, to an outside investor, simply a black box — a promise no one on the other side of it can actually verify, dressed up in language technical enough to discourage anyone from trying.`,
+    sourceUrl: 'https://www.justice.gov/usao-sdny/pr/founder-90-million-cryptocurrency-hedge-fund-sentenced-more-seven-years-prison',
+  },
 ];
 
 // Practical "how it works / red flags / what to do" guides covering the
