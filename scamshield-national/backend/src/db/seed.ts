@@ -14774,6 +14774,63 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Federal Bureau of Investigation (FBI) Internet Crime Complaint Center (IC3)'],
     sourceUrl: 'https://www.ic3.gov/PSA/2026/PSA260810',
   },
+  {
+    name: 'DC Unemployment Phishing via Compromised Government Employee Email Accounts',
+    slug: 'dc-unemployment-phishing-compromised-government-email',
+    description:
+      'Scammers gained unauthorized access to real DC.gov government employee email accounts, including one belonging to an actual Department of Employment Services (DOES) compliance investigator, and used them to send unemployment recipients official-looking emails promising a highly specific amount of additional benefits, in the tens of thousands of dollars. Because the emails originated from genuinely compromised .gov accounts rather than spoofed lookalike addresses, they passed basic sender-authenticity checks that would catch typical impersonation attempts. Recipients who replied were directed to text a phone number and send copies of their driver\'s license and Social Security number as "proof" to release the funds. The DC Office of the Chief Technology Officer confirmed the account compromise, locked the affected accounts, and coordinated the response with DOES, warning that a genuinely authentic-looking sender address is not proof a message is legitimate.',
+    categorySlug: 'phishing',
+    country: 'US',
+    state: 'DC',
+    alertLevel: 'medium',
+    sources: ['DC Office of the Chief Technology Officer', 'DC Department of Employment Services'],
+    sourceUrl: 'https://dcist.com/story/21/08/31/dc-unemployment-recipients-targeted-by-official-looking-scam-emails/',
+  },
+  {
+    name: 'Massachusetts Board of Bar Overseers Fake Disciplinary-Complaint Malware Email',
+    slug: 'massachusetts-board-of-bar-overseers-fake-disciplinary-complaint',
+    description:
+      'The Massachusetts Board of Bar Overseers, the body that investigates and prosecutes disciplinary complaints against Massachusetts attorneys, warned licensed lawyers about emails impersonating the Board or other bar groups, using alarming subject lines falsely stating that a disciplinary complaint had been filed against the recipient or that they owed money to the Board. Opening the email\'s attachment or link installs malware that steals data or adds unauthorized software, exploiting the fact that a real disciplinary notice is something every practicing attorney is compelled to open and respond to. The warning was issued alongside a related but distinct wire-fraud scam separately targeting real-estate closing attorneys with fake seller instructions. Massachusetts\'s consumer affairs office advised attorneys to verify any Board complaint communication directly through the Board\'s own published contact channels rather than replying to the email.',
+    categorySlug: 'phishing',
+    country: 'US',
+    state: 'MA',
+    alertLevel: 'medium',
+    sources: ['Massachusetts Board of Bar Overseers', 'Massachusetts Office of Consumer Affairs and Business Regulation'],
+    sourceUrl: 'https://www.mass.gov/news/scammers-are-phishing-for-lawyers',
+  },
+  {
+    name: 'Irish Passport Application "Premium" Website and Robocall Scam',
+    slug: 'irish-passport-application-premium-website-robocall-scam',
+    description:
+      'Fraudulent third-party websites advertise "premium" or fast-track processing for Irish passport applications and charge applicants a fee for a service that is actually free through the official Passport Service system, alongside a related pattern of automated scam phone calls referencing a passport application. The Department of Foreign Affairs states directly on its official updates page that these third-party sites are not associated with the Department or the Passport Service in any way, and that the Passport Service will never contact applicants through automated calls. Applicants are advised to apply only through the official Passport Service website, to exercise caution before any online payment for passport-related services, and to report suspicious third-party sites to a local Garda station.',
+    categorySlug: 'government-impersonation',
+    country: 'IE',
+    alertLevel: 'medium',
+    sources: ['Department of Foreign Affairs (Ireland)'],
+    sourceUrl: 'https://www.ireland.ie/en/dfa/passports/updates/',
+  },
+  {
+    name: 'Irish NCT Booking Website Scam',
+    slug: 'irish-nct-booking-website-scam',
+    description:
+      'Multiple fraudulent websites closely mimic the official National Car Test (NCT) online booking portal, often surfacing via sponsored search results, so motorists believe they are booking a real NCT appointment through the state-run system. Victims pay for appointments that were never actually created, with reported losses ranging from roughly €60 to €89 for a single fake booking up to €660 for one driver charged repeatedly, and the sites also harvest full payment card details. The Road Safety Authority, which oversees the NCT, issued repeated public warnings and had some sites taken down, but near-identical replacements reappeared within days each time. Motorists are advised to book only via the official NCT site, to be wary of sponsored or third-party search results, and to double-check the URL before entering card details.',
+    categorySlug: 'phishing',
+    country: 'IE',
+    alertLevel: 'medium',
+    sources: ['Road Safety Authority (RSA)', 'RTÉ News'],
+    sourceUrl: 'https://www.rte.ie/news/business/2026/0421/1569361-nct-scam-websites/',
+  },
+  {
+    name: 'Irish Fake Electricity Credit / gov.ie Discount Text Scam',
+    slug: 'irish-fake-electricity-credit-gov-ie-discount-text-scam',
+    description:
+      'A text message impersonating "GOV IE" tells the recipient they qualify for a discounted or reduced electricity bill under a named relief scheme, variously invoked as an "Emergency Benefit Scheme" or "Energy support scheme," often timed to piggyback on real cost-of-living energy-credit or storm-relief announcements, and links to a fake gov.ie-styled page that harvests personal and banking details. No such scheme exists on the terms claimed, and the Department of the Environment, Climate and Communications and the Department of Social Protection have each separately confirmed the messages are fraudulent, warning that people may confuse them with genuine, similarly named government supports. The pattern has recurred for years and can escalate into a follow-up call from a fraudster posing as a bank employee, so the public is advised never to click the link and to verify any scheme only via the genuine gov.ie domain.',
+    categorySlug: 'utility-scams',
+    country: 'IE',
+    alertLevel: 'medium',
+    sources: ['Department of the Environment, Climate and Communications (Ireland)', 'Department of Social Protection (Ireland)'],
+    sourceUrl: 'https://www.rte.ie/news/business/2026/0130/1555948-reduced-electricity-bill-scam-warning/',
+  },
 ];
 
 async function seedCategoriesAndScams() {
