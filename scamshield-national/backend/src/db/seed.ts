@@ -4033,6 +4033,64 @@ When investors began asking to cash out in 2020, Qin told them their money had b
 At sentencing, Qin offered a line prosecutors would go on to quote for years afterward: "I thought I was the main protagonist and life was a video game and I had just found the cheat code to beat it." At least one investor was left, in the government's words, homeless and destitute. The case is a reminder that a "proprietary algorithm" is, to an outside investor, simply a black box — a promise no one on the other side of it can actually verify, dressed up in language technical enough to discourage anyone from trying.`,
     sourceUrl: 'https://www.justice.gov/usao-sdny/pr/founder-90-million-cryptocurrency-hedge-fund-sentenced-more-seven-years-prison',
   },
+  {
+    title: 'James Addison Reavis: The "Baron of Arizona" Who Forged His Way to 12 Million Acres',
+    slug: 'james-addison-reavis-baron-of-arizona',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/James_Addison_Peralta-Reavis.jpg?width=1200',
+    coverImageCredit: 'Photo: Peralta-Reavis Real Life Illustrated, 1900 (public domain)',
+    coverImagePosition: 50,
+    body: `James Addison Reavis was a former Confederate soldier and St. Louis real-estate agent with a documented talent for forging military passes, and by the late 1870s he had turned that talent toward a far bigger canvas: the ownership of a large piece of the American Southwest. Working from an obscure, half-forgotten Spanish colonial land-grant story, he set out to build — quite literally, on paper — a claim to roughly 12 million acres across the Arizona and New Mexico Territories, including the town site of Phoenix and one of the region's richest silver mines.
+
+Reavis's method was patient forgery rather than a quick swindle. He claimed to have uncovered evidence that the King of Spain had granted the land in 1748 to a nobleman, Don Miguel de Peralta, and spent years traveling to government and church archives in Mexico City, Guadalajara, and Spain, secretly slipping fabricated deeds, wills, and genealogical records in among genuine historical documents so that when he later "discovered" and produced them, they would appear to have been sitting there undisturbed for over a century. To give the claim a living heir, he located an orphaned young woman on an Arizona ranch, invented an aristocratic Spanish lineage for her as the last surviving Peralta descendant, and married her in 1882 — after which the couple styled themselves the Baron and Baroness of Arizona.
+
+With documents that appeared to hold up under casual scrutiny, Reavis spent the 1880s collecting enormous sums from anyone with a stake in the land: railroads, mining companies, and thousands of ordinary settlers paid him quitclaim fees rather than risk losing their property to a claim backed by seemingly ironclad archival paperwork. Estimates of what he collected before the scheme fell apart run into the millions of dollars, and for a time Reavis lived the part, touring Spain and the Southwest as minor European nobility.
+
+The claim collapsed once it reached the newly created U.S. Court of Private Land Claims in the early 1890s. Government investigators examined Reavis's documents in detail and found the forgeries did not survive close inspection: paper and ink that didn't match their claimed dates, misspelled Spanish, altered handwriting, and — most damning — genealogical records showing the "Baroness" had no Spanish ancestry at all. The court threw out the grant in 1895 as a fraud of staggering scale, and Reavis was convicted of conspiracy to defraud the United States in 1896. He served roughly two years in prison, his fortune and marriage both collapsed, and he died in poverty in 1914.
+
+Reavis's case survives as a reminder that the most durable frauds aren't always the fastest ones — his took the better part of two decades of careful, boring archival forgery before anyone paid him a dollar, precisely because a claim that looks like it has always been true is far harder to question than one that appears overnight.`,
+    sourceUrl: 'https://en.wikipedia.org/wiki/James_Reavis',
+  },
+  {
+    title: 'Jay Gould, Jim Fisk, and the Black Friday Gold Corner That Panicked a Nation',
+    slug: 'gould-fisk-black-friday-1869-gold-corner',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/JimFisk.jpg?width=1200',
+    coverImageCredit: 'Photo: Unknown photographer, c. 1870 (public domain)',
+    coverImagePosition: 35,
+    body: `In September 1869, Wall Street financiers Jay Gould and James "Jim" Fisk — fresh off seizing control of the Erie Railroad from Cornelius Vanderbilt through a campaign of bribed judges and watered stock — set their sights on a far bigger target: the entire supply of gold available to the United States economy. In the years after the Civil War, gold still traded as its own commodity on the New York Gold Exchange alongside paper "greenback" currency, and its price moved largely on how much gold the U.S. Treasury chose to release from its reserves. Gould and Fisk's plan was to quietly buy up as much of the available gold as they could, driving the price up, then sell to merchants and banks who needed it and had nowhere else to turn.
+
+The scheme only worked if the Treasury stayed out of the market, so Gould cultivated a backchannel into the Grant administration through Abel Corbin, President Ulysses S. Grant's brother-in-law, using him to argue — directly to the president, in social settings arranged for the purpose — that keeping government gold off the market would help farmers get better prices for their crops. For weeks the strategy worked: the price of gold climbed steadily through September 1869, and rumors spread on the Exchange floor that the pair had all but cornered the market.
+
+It ended on Friday, September 24, 1869 — remembered ever since as "Black Friday." Grant, growing suspicious of the scheme and the company his brother-in-law was keeping, ordered the Treasury to sell $4 million in gold onto the open market. The price, which had climbed above $160 that morning, collapsed within minutes back toward its normal level, wiping out traders and speculators who had bought in near the peak, bankrupting several brokerage houses, and dragging the wider stock market into panic.
+
+Gould, tipped off in advance that the corner was about to break, quietly sold his own gold ahead of the crash and escaped largely unscathed; Fisk simply refused to honor the losing contracts his firm had signed, hiring lawyers who tied the resulting lawsuits up in friendly New York courts for years so he never had to pay. A congressional investigation that followed exposed the Corbin connection and the scheme's mechanics in detail, but no criminal charges were ever brought against either man. Gould went on to build one of the great fortunes of the Gilded Age in railroads and telegraphs before his death in 1892; Fisk's run ended three years after Black Friday, shot dead in 1872 by a former business partner in an unrelated dispute.
+
+Black Friday remains one of the earliest, starkest American examples of a scheme that needed no forged documents or fake company at all — only enough capital and enough access to the people who controlled the real supply to convince the rest of the market that the price was something it wasn't, until the moment it very publicly wasn't anymore.`,
+    sourceUrl: 'https://en.wikipedia.org/wiki/Black_Friday_(1869)',
+  },
+  {
+    title: 'Lou Blonger and Denver\'s "Million Dollar Bunco Ring"',
+    slug: 'lou-blonger-denver-bunco-ring',
+    author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Denver_City_and_County_Building_from_the_Colorado_State_Capitol_a.jpg?width=1200',
+    coverImageCredit: 'Photo: Nyttend / Jameslwoodward, Wikimedia Commons (CC0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    tags: ['notorious', 'historical'],
+    body: `Lou Blonger arrived in Denver in the 1880s as a saloon and gambling-house operator, one of thousands of hustlers drawn west by the mining boom. By the early 1900s he had built something far more lucrative and far better hidden: a criminal syndicate that ran elaborate confidence games out of rented downtown storefronts for more than two decades, reaching a scale that later investigators called Denver's "Million Dollar Bunco Ring."
+
+Blonger's crews specialized in the "big store" con, the same style later dramatized in the film "The Sting." A rented office would be dressed up overnight as a fake stock exchange or a "wire store" — a room built to look as though bettors could place last-second wagers on horse races run elsewhere in the country, with results relayed over a telegraph wire that was, in reality, entirely staged for one visitor's benefit. Confederates played fellow bettors and brokers to build the mark's trust and show him "other" customers cashing in, right up until the operation took his money and vanished overnight, indistinguishable by morning from any other empty office suite.
+
+The ring targeted visitors to Denver, often prosperous out-of-towners steered toward Blonger's operations by a network of scouts, and it operated for so long with so little interference because Blonger paid for protection at every level of city government and the police department he needed — running organized fraud, in effect, as a licensed local industry.
+
+It ended only because a newly elected reform district attorney, Philip Van Cise, concluded in 1920 that the police could not be trusted to investigate Denver's own bunco ring and built an independent case instead: he raised private funds, hired his own undercover operatives, and had phone lines tapped, all outside normal police channels. In 1922 he coordinated simultaneous raids across the city that swept up Blonger and roughly thirty associates in a single operation, and the 1923 trial that followed made national news. Blonger and most of his ring were convicted; sentenced to seven to ten years at the Colorado State Penitentiary, Blonger died in prison in April 1924, just over a year into a term he was already too old to finish.
+
+The "wire store" itself is largely a museum piece today, but its core promise — a guaranteed edge on an outcome the mark is told has, in effect, already been decided — is functionally identical to the rigged sports-betting tips and fake "insider" trading groups still pitched online now, just without the rented office and the fake telegraph wire.`,
+    sourceUrl: 'https://en.wikipedia.org/wiki/Lou_Blonger',
+  },
 ];
 
 // Practical "how it works / red flags / what to do" guides covering the
