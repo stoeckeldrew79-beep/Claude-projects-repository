@@ -19933,6 +19933,31 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Ministry of Manpower (Singapore)'],
     sourceUrl: 'https://www.mom.gov.sg/-/media/mom/documents/employment-agencies/ea-alerts/2025/ea-alert-171025-advisory-on-fraudulent-actions-by-employment-agencies-in-work-pass-applications.pdf',
   },
+  {
+    name: 'MV Realty "Homeowner Benefit Agreement" Title-Lien Scheme',
+    slug: 'idaho-mv-realty-homeowner-benefit-agreement-scheme',
+    description:
+      'MV Realty offered financially struggling Idaho homeowners a one-time payment of a few hundred to a few thousand dollars in exchange for signing what it called a "Homeowner Benefit Agreement," but the fine print bound the homeowner to use MV Realty as their exclusive listing agent for the next 40 years, imposed a penalty equal to 3% of the home\'s value for violating the agreement, and automatically transferred the obligation to the homeowner\'s heirs. MV Realty then recorded the agreement as a lien against the property\'s title at the county recorder\'s office, which blocked affected homeowners from refinancing or selling through another realtor without first paying the penalty. Idaho Attorney General Raul Labrador secured a settlement in November 2025 that declared every Idaho Homeowner Benefit Agreement null and void, required MV Realty to petition every county recorder to strike the liens from property records, and banned the company\'s three top officers from residential real estate work in Idaho for five years; attorneys general in at least a dozen other states, including New Jersey, Pennsylvania, Florida, Georgia, and California, brought parallel actions over the same scheme. Homeowners approached about cash in exchange for signing anything tied to their home\'s title should have an attorney review the document first and should never sign something described as a "benefit" or "agreement" without understanding exactly what it authorizes the other party to record against the property; anyone unsure whether something is already recorded against their own home\'s title can check for free through their county recorder or assessor\'s office.',
+    categorySlug: 'mortgage-foreclosure-scams',
+    country: 'US',
+    state: 'ID',
+    alertLevel: 'medium',
+    sources: ["Idaho Attorney General's Office", 'KIFI Local News 8'],
+    sourceUrl: 'https://www.ag.idaho.gov/newsroom/attorney-general-labrador-wins-relief-for-idaho-homeowners-trapped-in-predatory-contracts/',
+  },
+  {
+    name: 'DC Youth Candy-Sales Charity Scheme',
+    slug: 'dc-youth-club-candy-sales-charity-scheme',
+    description:
+      'Maryland Youth Club of America and Virginia Youth Club of America, both founded and led by Jule Huston, recruited middle and high school students from low-income DC neighborhoods, primarily Wards 7 and 8, telling them their door-to-door candy sales would fund scholarships, enrichment programs, and trips for "at-risk youth." Between 2018 and 2022 the groups collected more than $857,000 from candy sales, but an investigation by DC Attorney General Brian Schwalb found no evidence the children were ever paid for the labor or that the promised scholarships and programs materialized. Schwalb, joined by Maryland and Virginia authorities, permanently shut down both nonprofits in January 2026, banning Huston and the other executives from serving as an officer, director, or fiduciary of any DC nonprofit or trust and from soliciting charitable donations in the District, with a fine directed to legitimate at-risk-youth charities instead. The case is a reminder that a registered nonprofit with a sympathetic name and years of visible activity is not proof donations reach anyone: before donating to or letting a child solicit for any charity, verify its actual programs and finances through the DC Department of Consumer and Regulatory Affairs\' charity registry or the nonprofit\'s IRS Form 990, rather than relying on the name of the cause alone.',
+    categorySlug: 'charity-scams',
+    country: 'US',
+    state: 'DC',
+    isHistorical: true,
+    firstRecorded: '2018-01-01',
+    sources: ["DC Office of the Attorney General", 'The Washington Times'],
+    sourceUrl: 'https://oag.dc.gov/release/attorney-general-schwalb-announces-permanent-0',
+  },
 ];
 
 async function seedCategoriesAndScams() {
