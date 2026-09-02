@@ -15375,6 +15375,53 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['ASIC (Australian Securities and Investments Commission)', 'Queensland Government (Office of Fair Trading)'],
     sourceUrl: 'https://www.asic.gov.au/about-asic/news-centre/articles/when-the-rubber-hits-the-road-making-insurance-claims-under-the-new-reforms/',
   },
+  {
+    name: 'Kali365 Phishing-as-a-Service Device Code Token Theft',
+    slug: 'kali365-device-code-phishing-token-theft',
+    description:
+      'A subscription-based phishing kit called Kali365, sold and distributed via Telegram, lets even unskilled criminals run "device code phishing" attacks against Microsoft 365 accounts. The attacker emails a target a lure impersonating a Microsoft service along with a short device code; the victim is directed to Microsoft\'s own genuine device-login verification page and enters the code there, which feels safe because the page itself is real. Doing so authorizes the attacker\'s device to receive a live access token for the victim\'s account, granting ongoing access to Outlook, Teams, and OneDrive without ever needing the victim\'s password and without tripping multi-factor authentication, and the kit bundles AI-generated phishing templates and a tracking dashboard to scale the campaign. The FBI warns this lowers the technical bar for this attack style considerably, since operators no longer need custom infrastructure to run it, and recommends organizations block the device-code authentication flow via conditional access policy where it isn\'t needed.',
+    categorySlug: 'account-takeover',
+    country: 'US',
+    alertLevel: 'high',
+    sources: ['Federal Bureau of Investigation (FBI) Internet Crime Complaint Center (IC3)'],
+    sourceUrl: 'https://www.ic3.gov/PSA/2026/PSA260521',
+  },
+  {
+    name: 'Washington ESD Unemployment Kickback and Extortion Scheme',
+    slug: 'washington-esd-unemployment-kickback-extortion-scheme',
+    description:
+      'A former Washington Employment Security Department intake agent used his internal claims-database access during the pandemic to run three linked frauds: filing unemployment claims in stolen identities and routing benefit debit cards to addresses he controlled, manipulating the database to generate inflated retroactive lump-sum payments for unqualified friends and family in exchange for a cut, and, when claimants balked at paying, threatening to terminate their legitimate claims unless they paid him. The scheme diverted at least $360,000 in benefits, with the agent personally profiting over $130,000 before being charged in a federal indictment with wire fraud, bribery, extortion under color of official right, and aggravated identity theft. This is an insider-fraud and extortion case against the state\'s own unemployment claims system, illustrating how an employee with legitimate database access can turn that access into a kickback and extortion racket against the very claimants they\'re supposed to serve.',
+    categorySlug: 'public-benefits-fraud',
+    country: 'US',
+    state: 'WA',
+    alertLevel: 'high',
+    sources: ['U.S. Attorney\'s Office, Western District of Washington (Department of Justice)', 'IRS Criminal Investigation'],
+    sourceUrl: 'https://www.irs.gov/node/100361',
+  },
+  {
+    name: 'Icy Gulch Resources Investment Fraud Scheme',
+    slug: 'icy-gulch-resources-investment-fraud-scheme',
+    description:
+      'A Portland, Maine business operator ran a years-long scheme inducing five Maine investors to put more than $1 million into her company, Icy Gulch Resources, by promising large returns and partnerships with prominent business and political figures, then fed investors false financial data to keep them investing while diverting the money to personal spending. She had a prior conviction for stealing $330,000 from another investor and never disclosed that pending case to her new Icy Gulch victims. The Maine Office of Securities investigated the case and the Maine Attorney General prosecuted it, resulting in a jury conviction for theft by deception, a reminder that a promoter\'s claimed connections to well-known business and political figures are easy to fabricate and worth independently verifying before investing.',
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    state: 'ME',
+    alertLevel: 'high',
+    sources: ['Office of the Maine Attorney General', 'Maine Office of Securities'],
+    sourceUrl: 'https://www.pressherald.com/2024/11/12/portland-woman-found-guilty-of-1-million-investment-fraud-scheme/',
+  },
+  {
+    name: 'Iowa Insurance Producer License Recruitment Fraud',
+    slug: 'iowa-insurance-producer-license-recruitment-fraud',
+    description:
+      'Scammers cold-contact Iowans and job seekers, encouraging them to apply for and obtain a real Iowa resident insurance producer license, promising to "handle" policy administration and sales leads on the new licensee\'s behalf. Once licensed, the scammer obtains the victim\'s National Producer Number and other credentials, then uses them to issue unauthorized health and life insurance policies in consumers\' names and collect commissions and federal marketplace subsidies, altering applicant data to maximize advance premium tax credit payments. The Iowa Insurance Division warns that letting a third party use your producer number this way exposes the license-holder to license revocation and criminal fraud liability, not just the party who recruited them, and separately warns consumers to watch for insurance documents, bills, or tax notices for policies they never authorized.',
+    categorySlug: 'insurance-fraud',
+    country: 'US',
+    state: 'IA',
+    alertLevel: 'medium',
+    sources: ['Iowa Insurance Division'],
+    sourceUrl: 'https://who13.com/news/state-of-iowa-warns-of-scammers-stealing-insurance/',
+  },
 ];
 
 async function seedCategoriesAndScams() {
