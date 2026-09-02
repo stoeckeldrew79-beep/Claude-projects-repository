@@ -6620,10 +6620,9 @@ There's no legitimate version of this offer: no one can guarantee a fixed multip
     slug: 'buy-now-pay-later-fraud',
     author: 'ScamShield Editorial',
     tags: ['guide', 'bnpl-fraud'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Close-up_of_a_woman_looking_at_a_credit_card_while_working_on_her_laptop.jpg?width=1200',
-    coverImageCredit: 'Photo: Shixart1985 (CC BY 2.0)',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Scam_warning_and_what_to_do_with_an_AfterPay_scammer_sending_bills_to_the_wrong_address,_Hillegersberg,_Rotterdam_(2022)_01.jpg?width=1200',
+    coverImageCredit: 'Photo: Donald Trung Quoc Don (CC BY-SA 4.0)',
     coverImagePosition: 50,
-    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.consumerfinance.gov/archive/newsroom/cfpb-takes-action-to-ensure-consumers-can-dispute-charges-and-obtain-refunds-on-buy-now-pay-later-loans/',
     body: `Buy now, pay later services like Affirm, Klarna, and Afterpay let a shopper split a purchase into a handful of installments, often with no credit check and approval in seconds — exactly the kind of fast, low-friction signup that also makes these accounts an attractive target for fraud. Two different attacks show up under the same "BNPL fraud" label, and it's worth knowing which one you're dealing with.
 
@@ -7715,10 +7714,9 @@ Protect yourself by using a separate "burn" wallet with minimal funds for mintin
     slug: 'discord-gaming-account-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'gaming-scam', 'discord-scam'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Gamer_at_Gamescom_2015_(20430203215).jpg?width=1200',
-    coverImageCredit: 'Photo: Sergey Galyonkin (CC BY-SA 2.0)',
-    coverImagePosition: 40,
-    // representative photo — replace with an exact match if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Discord_booth_(43507601795).jpg?width=1200',
+    coverImageCredit: 'Photo: Gage Skidmore (CC BY-SA 2.0)',
+    coverImagePosition: 50,
     sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2023/07/scammers-are-targeting-online-gamers',
     body: `Gaming platforms and Discord servers are where a lot of kids and teens spend their social lives, and scammers follow the audience. The pitches are built specifically for that world: a DM offering a "free Discord Nitro" gift that actually leads to a phishing page cloned to look identical to Discord's real login screen, harvesting the account's session token the moment credentials are entered; a "free V-Bucks," "free Robux," or in-game currency generator that asks the player to log in on a third-party site or complete a survey that installs malware or steals stored payment info; and fake game cheats, mod downloads, or "aimbot" tools that quietly install password-stealing malware alongside whatever they claim to do.
 
@@ -8721,6 +8719,10 @@ Before paying for a challenge, check whether the firm (or the broker it routes t
     slug: 'e-skimming-online-checkout-card-theft',
     author: 'ScamShield Editorial',
     tags: ['guide', 'e-skimming'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Shopping_online_with_bank_card.jpg?width=1200',
+    coverImageCredit: 'Photo: Bogdan Hoyaux / European Commission (CC BY 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.cisa.gov/news-events/alerts/2019/10/23/fbi-releases-article-defending-against-e-skimming',
     body: `Physical card skimmers get attached to gas pumps and ATMs, but a growing share of card theft never touches a physical device at all. In an "e-skimming" or "Magecart" attack, criminals inject malicious code — often just a few lines of obfuscated JavaScript — directly into a legitimate online store's checkout page, usually by exploiting an outdated plugin or a vulnerability in the site's software. The checkout page still looks and behaves completely normally: the order goes through, a confirmation email arrives, and the product ships. But in the background, the injected script has quietly copied the card number, expiration date, security code, name, and billing address as they were typed, and sent a copy to a server the criminals control.
 
@@ -8735,6 +8737,10 @@ There's no visible warning sign to watch for in the moment, which is exactly wha
     slug: 'fake-rideshare-driver-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'rideshare-driver-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/LyftUberCar.jpg?width=1200',
+    coverImageCredit: 'Photo: Raysonho @ Open Grid Scheduler / Scalable Grid Engine (CC0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.bbb.org/article/news-releases/28197-bbb-tip-ride-share-car-share-or-short-term-car-rental',
     body: `At an airport curb, outside a stadium after a game, or on a busy street downtown, someone waves you over claiming to be the Uber or Lyft driver you just booked. Rushed and eager to get moving, many riders climb in without carefully checking that the car, license plate, and driver actually match what the app shows. The person behind the wheel may not be a rideshare driver at all — just someone who noticed a stranger looking for a ride and improvised, or someone who deliberately loiters near pickup zones to intercept riders before their real driver arrives. Once the ride is underway, off-app "drivers" frequently demand cash payment at a price far higher than any app fare, and because the trip never went through the platform, there's no GPS trip record, no driver verification, and no way to dispute the charge or report a problem afterward.
 
@@ -8749,6 +8755,10 @@ Before getting into any car, match the make, model, color, and license plate aga
     slug: 'door-to-door-home-security-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'home-security-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/ADTHomeSecurity.jpg?width=1200',
+    coverImageCredit: 'Photo: Raysonho @ Open Grid Scheduler / Scalable Grid Engine (CC0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2011/04/ftc-offers-tips-help-people-avoid-being-scammed-door-door-sales-agents-pitching-home-security',
     body: `A salesperson knocks unannounced, sometimes claiming to already represent your current alarm company and offering a "free" equipment upgrade, sometimes claiming your neighborhood was just approved for a new security program and you should sign up before the offer expires. The pitch moves fast: a tablet comes out, the paperwork is framed as a formality, and the salesperson pushes to get a signature that same visit rather than leaving anything behind to think over. For a homeowner who already has an alarm system, some door-to-door reps go further, falsely claiming the existing provider is going out of business or has been bought out, or even disconnecting or damaging the current system's wiring during the visit to make switching feel urgent and necessary.
 
@@ -8763,6 +8773,10 @@ The clearest warning signs are an unsolicited knock claiming an existing relatio
     slug: 'fake-escrow-website-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'escrow-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/For_Sale_(4366070075).jpg?width=1200',
+    coverImageCredit: 'Photo: John Lloyd (CC BY 2.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.ic3.gov/PSA/2018/PSA180117',
     body: `A listing for a car, boat, RV, or piece of heavy equipment turns up online — often on a legitimate site like eBay Motors, Facebook Marketplace, or Craigslist — priced noticeably below what similar items actually sell for. The seller has a reason the buyer can't see it in person: they're overseas on a military deployment, a job relocation is already underway, the item is sitting in a shipping container waiting on payment. To make paying a stranger sight unseen feel safe, the seller suggests using a "buyer protection" escrow service to hold the funds until the item arrives, and sends a link to a professional-looking site — sometimes carrying a name close enough to a real, well-known escrow company to pass a quick glance, sometimes entirely invented — complete with a login, a case number, and a running total showing the buyer's payment has been received and is waiting to be released.
 
@@ -8779,6 +8793,10 @@ Never wire money, send a money order, or pay into an account for an escrow servi
     slug: 'storm-chaser-roofing-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'roofing-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/FEMA_-_44372_-_FEMA_PA_officer_documenting_damage_to_a_hail_damaged_roof_in_OK.jpg?width=1200',
+    coverImageCredit: 'FEMA photo (public domain)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://tdi.texas.gov/tips/can-a-contractor-waive-my-deductible.html',
     body: `Within hours of a hailstorm or hurricane, out-of-state pickup trucks with magnetic door signs start working the neighborhood, knocking on doors and offering a "free roof inspection." The pitch is that the crew was already tracking the storm and happened to be in the area — sometimes the truck's license plates were even switched to make an out-of-town operation look local. A crew member climbs onto the roof, comes back down, and announces damage severe enough to qualify for a full insurance-paid replacement. Because the homeowner isn't the one paying, at least not obviously, the decision to sign something on the spot feels less like a purchase and more like accepting help.
 
@@ -8795,6 +8813,10 @@ Never sign an Assignment of Benefits or any contract from a door-to-door crew be
     slug: 'verified-badge-phishing-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'verified-badge-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Instagram_app_on_smartphone.jpg?width=1200',
+    coverImageCredit: 'Photo: Santeri Viinamäki (CC BY-SA 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.bbb.org/article/scams/27435-bbb-scam-alert-how-to-protect-your-verified-social-media-account',
     body: `An email or direct message arrives with good news instead of a threat: your Instagram account or Facebook Page has been "reviewed" and is now eligible for the official blue verification badge. It's a flattering pitch rather than a scary one, which is exactly what makes it effective — business owners, influencers, and anyone hoping to look more credible online are primed to want this to be true. The message copies Meta's real branding closely, sometimes adds a countdown ("respond within 24 hours or lose eligibility"), and links out to what looks like Meta's Accounts Center.
 
@@ -8809,6 +8831,10 @@ Real verification never arrives as an unsolicited email or DM inviting you to ap
     slug: 'pet-sitting-job-overpayment-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'pet-sitting-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Dog_walking_woman.jpg?width=1200',
+    coverImageCredit: 'Photo: Amin (CC BY-SA 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.bbb.org/article/scams/24708-scam-alert-pet-sitting-job-is-too-good-to-be-true',
     body: `Someone lists themselves as a pet sitter or dog walker on Rover, Care.com, or a similar platform, and a "client" reaches out with an offer that skips every normal step of hiring: they're relocating to the area soon, need care to start right away, will pay well above the going rate, and don't need an interview or even a video call first — the sitter is "clearly" trustworthy from their profile alone. The lack of vetting feels like a compliment rather than a warning sign, which is precisely the point.
 
@@ -8823,6 +8849,10 @@ The reliable rule on both sides of this transaction: legitimate pet-sitting jobs
     slug: 'fake-medical-bill-text-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'medical-bill-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Checking_mobile_messages.jpg?width=1200',
+    coverImageCredit: 'Photo: Sasha Kargaltsev (CC BY 2.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.ic3.gov/PSA/2025/PSA250627',
     body: `A text message arrives claiming there's an unpaid balance on a medical bill — from a clinic, a hospital, or even a pediatrician's office — with a link to "view" or "pay" the amount due. The linked page is built to resemble a real patient payment portal, complete with a provider logo and a professional layout, and asks for a card number, an address, and often a Social Security or Medicare number to "verify" the account before payment can be processed. Because it's routine to owe money after almost any medical visit, and because most people can't instantly recall the exact balance from a recent appointment, the message lands in a gap between mild annoyance and real suspicion — closer to a plausible chore than an obvious scam.
 
@@ -8837,6 +8867,10 @@ Never pay a medical bill through a link in an unsolicited text. Instead, log int
     slug: 'precious-metals-rare-coin-investment-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'precious-metals-coin-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Gold_bullion_bars.jpg?width=1200',
+    coverImageCredit: 'Photo: Stevebidmead (CC0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.cftc.gov/PressRoom/PressReleases/8881-24',
     body: `An unsolicited call, a mailed brochure, or a cable-news ad warns that a market crash, runaway inflation, or a collapsing dollar is coming, and pitches gold, silver, or "rare" coins as the one safe place to protect a lifetime of savings. The salesperson often pushes the listener to move retirement money into a self-directed IRA that holds physical metal, then steers the actual purchase away from plain bullion — priced close to the metal's real market value — toward "collectible" or "semi-numismatic" coins marketed as scarcer and more valuable than an ordinary bar or coin. Those coins are exactly what carry the largest, least visible markup, and the "protect your retirement from the government" framing is designed to make a giant commission feel like prudent, patriotic self-defense instead of a sales pitch.
 
@@ -8853,6 +8887,10 @@ Before buying, get an independent appraisal, compare the price against the day's
     slug: 'down-payment-assistance-program-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'down-payment-assistance-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Houses_for_sale_sign.jpg?width=1200',
+    coverImageCredit: 'Photo: Images Money (CC BY 2.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.hudoig.gov/fraud/common-fraud-schemes',
     body: `A hopeful first-time homebuyer, stretched thin by the cost of a down payment, finds an ad or social media post promising thousands of dollars in "government down payment assistance" or a grant that never has to be repaid. The site urges the buyer to "register" and "claim" their portion before funds run out, collects a Social Security number and bank details for an "eligibility check," and then either charges a processing or application fee before any money appears, or simply harvests the personal information to sell as a lead or use for identity theft. For someone already worried about coming up short on a down payment, a program that promises to close the gap feels less like a pitch to scrutinize and more like a lucky break to grab quickly.
 
@@ -8869,6 +8907,9 @@ Before applying anywhere, verify a down payment assistance program directly thro
     slug: 'counterfeit-ozempic-weight-loss-drug-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'counterfeit-weight-loss-drug-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Ozempic%C2%AE_3ml.jpg?width=1200',
+    coverImageCredit: 'Photo: HualinXMN (CC BY-SA 4.0)',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.fda.gov/drugs/drug-alerts-and-statements/fda-warns-consumers-not-use-counterfeit-ozempic-semaglutide-found-us-drug-supply-chain',
     body: `GLP-1 drugs like Ozempic, Wegovy, and Zepbound can cost well over $1,000 a month without insurance and have been in short, uneven supply for years — a combination that has created a booming market for counterfeit versions sold through social media ads, unlicensed "wellness" storefronts, and online sellers offering pens at a steep discount with no prescription required. Some of these sellers ship products calling themselves "compounded semaglutide," implying a pharmacy-grade equivalent to the brand-name drug, when in reality there's no oversight confirming the product contains the right compound, the right dose, or in some cases any active ingredient at all.
 
@@ -8885,6 +8926,10 @@ Only get these medications through a licensed pharmacy with a valid prescription
     slug: 'fake-job-interview-coding-test-malware',
     author: 'ScamShield Editorial',
     tags: ['guide', 'fake-job-interview-malware'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Code_on_computer_monitor_(Unsplash).jpg?width=1200',
+    coverImageCredit: 'Photo: Markus Spiske (CC0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.microsoft.com/en-us/security/blog/2026/03/11/contagious-interview-malware-delivered-through-fake-developer-job-interviews/',
     body: `A recruiter reaches out on LinkedIn, Telegram, or Reddit about a well-paid remote job — often at a crypto or AI startup — and the process moves fast: a quick chat, maybe a single video call, and then a "technical assessment" arrives as a link to a private GitHub repository. The assignment looks completely ordinary, sometimes even a legitimate-looking coding challenge or a small web app to extend, and the instructions ask the candidate to clone it, install its dependencies, and run it locally to demonstrate their skills — specifically outside a sandbox or container, since testing it there would supposedly not reflect "real-world" conditions.
 
@@ -8899,6 +8944,10 @@ Before running any take-home assignment, open its dependency list (package.json,
     slug: 'free-cruise-robocall-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'free-cruise-robocall'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Bahamas_Cruise_-_ship_exterior_-_June_2018_(3272).jpg?width=1200',
+    coverImageCredit: 'Photo: Gregory Varnum (CC BY-SA 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2017/02/ftc-states-put-remaining-defendants-massive-caribbean-cruise-lines-robocall-operation-permanent-dry',
     body: `The call opens with a prerecorded voice asking for thirty seconds to answer "a few quick survey questions" — often framed as a political or customer-satisfaction poll. Answer them, and the recording announces you've been specially selected to receive a free two-day cruise to the Bahamas, then offers to connect you to a live representative to claim it. The survey is never the point; it's a legal-sounding wrapper scammers used for years to get around telemarketing consent rules that, at the time, treated pure research calls differently from sales calls.
 
@@ -8913,6 +8962,10 @@ The pattern is still worth recognizing today: any prerecorded call that opens wi
     slug: 'auto-loan-modification-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'auto-loan-modification-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Car_being_loaded_onto_a_towing_truck_in_a_garage.jpg?width=1200',
+    coverImageCredit: 'Photo: Shixart1985 (CC BY 2.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2012/04/ftc-charges-auto-loan-schemes-falsely-promised-they-could-stop-consumers-cars-being-repossessed',
     body: `A company reaches out — by phone, text, or a social media ad — to a driver who has fallen behind on car payments, promising to negotiate directly with the lender to lower the monthly payment, cut the interest rate, or stop a repossession that's already in motion. Getting the help requires paying an upfront fee first, and the company often instructs the borrower to stop paying the actual lender and send payments to the company instead while it "works the case."
 
@@ -8927,6 +8980,10 @@ The safer first call is always to your own lender directly — most auto lenders
     slug: 'military-romance-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'military-romance-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Calls_to_home_150509-A-WZ615-651.jpg?width=1200',
+    coverImageCredit: 'U.S. Army photo by Sgt. Kayla Benson (public domain)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2023/07/military-consumers-and-romance-scams',
     body: `A profile on a dating app or a friend request on social media shows a good-looking man or woman in uniform, often with photos in front of a flag, a Humvee, or standing at attention in fatigues. The bio says they're a U.S. service member — often a colonel, general, or other senior-sounding rank — currently deployed to Iraq, Afghanistan, Syria, or on a "peacekeeping mission" somewhere the story is hard to verify. Conversation moves to a private messaging app quickly, and within days the "soldier" is professing love, talking about a future together after their tour ends, and explaining, apologetically, why a video call never quite works given deployment security rules.
 
@@ -8941,6 +8998,10 @@ The U.S. military does not charge service members or their families to process l
     slug: 'nigerian-prince-advance-fee-email-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'advance-fee-email-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Hand_on_computer_keyboard.jpg?width=1200',
+    coverImageCredit: 'Photo: Soumil Kumar (CC0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.fbi.gov/contact-us/field-offices/portland/news/press-releases/fbi-tech-tuesday-building-a-digital-defense-against-nigerian-419-scams',
     body: `An email arrives from a stranger claiming to be royalty, a senior bank official, a lawyer settling a deceased client's estate, or a government minister, describing an enormous sum of money — often tens of millions of dollars — trapped behind bureaucratic obstacles, frozen accounts, or a country's currency controls. The writer needs a foreign bank account and a trustworthy partner to help move the funds out, and offers a generous cut, sometimes 20 to 40 percent of the total, just for the use of the recipient's name and account. It's flattering, oddly specific, and completely fabricated.
 
@@ -8955,6 +9016,10 @@ Modern versions have grown more polished, arriving as convincing corporate email
     slug: 'tsa-precheck-global-entry-renewal-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'tsa-precheck-renewal-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Portland_International_Airport_security_check.jpg?width=1200',
+    coverImageCredit: 'Photo: M.O. Stevens (CC BY 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2023/04/renewing-your-tsa-precheck-be-alert-scammers',
     body: `An email lands claiming a TSA PreCheck, Global Entry, or NEXUS membership is about to expire, with a link to renew right away before travel plans are disrupted. A web search for "TSA PreCheck renewal" turns up the same kind of link near the top of the results, paid for as a search ad. The site that opens looks convincingly official — a familiar blue-and-white government aesthetic, an eagle seal, application forms that mirror the real ones — and walks the traveler through renewal exactly like the genuine process would.
 
@@ -8969,6 +9034,10 @@ The safeguard is simple and absolute: renew TSA PreCheck only at tsa.gov/prechec
     slug: 'annuity-churning-switching-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'annuity-churning-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Money_-_Flickr_-_AMagill.jpg?width=1200',
+    coverImageCredit: 'Photo: Andrew Magill (CC BY 2.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/updated-5',
     body: `An insurance agent who sold a retiree an annuity years earlier calls again with good news: a newer annuity offers better terms, a bigger bonus, or stronger guarantees, and thanks to a "1035 exchange" the money can move to the new contract tax-free. The pitch sounds like routine account maintenance from someone already trusted with the client's retirement savings. What it often is, regulators say, is churning — surrendering a perfectly good annuity and buying a new one not because the client benefits, but because the switch generates a fresh commission for the agent, typically five to ten percent of the amount moved.
 
@@ -8985,6 +9054,10 @@ Before agreeing to any annuity switch, ask the agent for a written comparison sh
     slug: 'merchant-cash-advance-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'merchant-cash-advance-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Cash_register_at_the_Harrison_Brothers_Hardware_store_on_the_city_square,_Huntsville,_Alabama_LCCN2011633266.tif?width=1200',
+    coverImageCredit: 'Photo: Carol M. Highsmith (public domain)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2022/06/merchant-cash-advance-operators-settle-ftc-charges-bilking-small-businesses',
     body: `A small business owner who's been turned down for a bank loan, or just needs cash fast, sees an ad promising same-day approval with no credit check: a merchant cash advance (MCA) company will front a lump sum today in exchange for a cut of future sales, repaid through daily or weekly automatic withdrawals from the business's bank account. Because an MCA is structured as a purchase of future receivables rather than a loan, providers argue it isn't subject to the interest-rate caps and disclosure rules that apply to conventional lending — which is exactly what lets the worst operators in the space charge effective rates conventional lenders legally couldn't.
 
@@ -9001,6 +9074,10 @@ Before signing an MCA contract, read every page, including the personal guaranty
     slug: 'grief-debt-collection-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'grief-debt-collection-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/City_of_London_Cemetery_white_flower_floral_funeral_tribute_1.jpg?width=1200',
+    coverImageCredit: 'Photo: Acabashi (CC BY-SA 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.consumerfinance.gov/ask-cfpb/is-it-a-scam-if-a-debt-collector-calls-me-after-seeing-my-relatives-obituary-en-1483/',
     body: `Within days of an obituary running in a local paper or online, a phone call or text arrives for a surviving family member. The caller claims to be a debt collector, a bank representative, or an insurance agent, and says the person who just died owed money — an unpaid credit card, a personal loan, a "final expense" policy loan — and that the family needs to settle it now. The call leans hard on grief and confusion, arriving at the exact moment a family is least equipped to slow down and check whether any of it is true.
 
@@ -9017,6 +9094,9 @@ Under the Fair Debt Collection Practices Act, a real debt collector is legally r
     slug: 'disability-advocate-upfront-fee-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'disability-advocate-fee-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Social_Security_Administration_Building,_Griffin.JPG?width=1200',
+    coverImageCredit: 'Photo: Michael Rivera (CC BY-SA 3.0)',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.ssa.gov/representation/fee_agreements.htm',
     body: `Applying for Social Security Disability Insurance (SSDI) or Supplemental Security Income (SSI) is notoriously slow: most initial applications are denied, and an appeal hearing can take a year or more to reach. Searching online for help with a claim surfaces ads for "certified disability advocates" or "case managers" who promise to speed up an approval — sometimes flatly guaranteeing one — and ask for a "case review," "processing," or "retainer" fee, often a few hundred dollars, before doing any work at all.
 
@@ -9033,6 +9113,10 @@ Before agreeing to anything, confirm the person helping you is either a licensed
     slug: 'lifeline-free-government-phone-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'lifeline-phone-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Close-up_of_a_woman_holding_a_mobile_phone._(51634339530).jpg?width=1200',
+    coverImageCredit: 'Photo: Nenad Stojković (CC BY 2.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.fcc.gov/document/advisory-regarding-fraud-lifeline-program',
     body: `Since 1985, the FCC has run Lifeline, a program funded through the Universal Service Fund that provides a modest monthly discount on phone or internet service — and, through some participating carriers, a basic smartphone at no cost — to households that qualify by income or by participating in a program like SNAP or Medicaid. A related, far more generous pandemic-era benefit, the Affordable Connectivity Program (ACP), stopped issuing payments in June 2024 when its funding ran out and Congress didn't renew it. Scammers still advertise "free government phones" using ACP's old branding years after it ended, layered over the smaller Lifeline benefit that is genuinely still available — which makes it easy for a fake pitch to sound exactly like a real one.
 
@@ -9049,6 +9133,10 @@ Apply for Lifeline only through the official National Verifier at checklifeline.
     slug: 'gig-delivery-driver-phishing-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'gig-delivery-driver-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Smartphone_mounted_on_car_dashboard_during_a_drive_in_a_modern_vehicle_with_a_focus_on_navigation_use.jpg?width=1200',
+    coverImageCredit: 'Photo: Nenad Stojković (CC BY 2.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2023/07/scammers-impersonate-delivery-service-support-rip-drivers-restaurants',
     body: `A driver for DoorDash, Uber Eats, Instacart, or a similar gig-delivery platform gets a call, text, or in-app message from someone claiming to be from the platform's support team — often about something mundane: a customer complaint on a recent order, a payment error, a canceled order that needs to be "refunded," or an unsolicited offer of free equipment like a tablet or printer to help manage orders. The tone is routine and helpful, exactly the kind of account-issue message a driver might expect after any ordinary shift, which is what makes it easy to let the guard down.
 
@@ -9065,6 +9153,10 @@ Handle every account issue only inside the official app, or by contacting suppor
     slug: 'pre-settlement-lawsuit-loan-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'lawsuit-loan-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Courtroom_One_Gavel_-_Flickr_-_Joe_Gratz.jpg?width=1200',
+    coverImageCredit: 'Photo: Joe Gratz (CC0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.dfs.ny.gov/consumers/litigation-funding',
     body: `Someone injured in a car accident or a slip-and-fall, waiting months or years for a personal injury lawsuit to settle while medical bills and lost wages pile up, sees an ad promising cash "in as little as 24 hours" against their future settlement — no credit check, no monthly payments, and "you owe nothing if you lose." The pitch is for pre-settlement lawsuit funding, sometimes called a lawsuit loan or legal funding: a company advances cash today in exchange for a cut of whatever the plaintiff eventually recovers. Unlike a bank loan, these advances are typically structured as "non-recourse," meaning the funder is repaid only out of case proceeds — a structure the industry uses to argue it isn't a loan at all, and therefore isn't bound by the interest-rate caps, disclosure rules, or licensing that apply to real lending.
 
@@ -9081,6 +9173,10 @@ Before accepting any settlement advance, always loop in your attorney first — 
     slug: 'fake-clinical-trial-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'clinical-trial-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Laboratory_Technician_Pipettes_Dirt_(10714910404).jpg?width=1200',
+    coverImageCredit: 'NIST photo (public domain)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2020/10/covid-19-clinical-trial-real-or-fake-learn-how-tell-difference',
     body: `An ad on social media or a search engine promises fast cash — often $1,000 to $2,500 — for volunteering in a clinical trial for a new medication, vaccine, or treatment. Real paid clinical trials exist and compensate participants for their time, discomfort, and travel, so the pitch isn't inherently implausible, which is exactly what makes a fake version of it so effective. Scammers build a website that mimics a legitimate research organization's branding, sometimes copying language and layout directly from a real pharmaceutical company or university medical center, and run ads targeting people searching for paid trials for a specific condition or, during periods of high public interest such as a new vaccine rollout, for the illness or shot everyone is talking about.
 
@@ -9097,6 +9193,9 @@ Before applying to any paid study, search for it directly on ClinicalTrials.gov,
     slug: 'fake-fdic-insurance-fintech-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'fdic-insurance-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/FDIC_Headquarters.jpg?width=1200',
+    coverImageCredit: 'FDIC photo (public domain)',
+    coverImagePosition: 50,
     sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2023/10/crypto-companies-touting-fdic-insurance-not-so-fast',
     body: `A slick app promises a "high-yield savings account," prominently displaying the FDIC logo or the phrase "FDIC insured up to $250,000" right on its homepage. The pitch is reassurance: your money is just as safe here as it would be at a traditional bank, maybe safer, since the returns are better. Millions of people have moved money into these apps, run by crypto platforms and fintech "neobanks" that look and feel like banks but, legally, often aren't one at all.
 
