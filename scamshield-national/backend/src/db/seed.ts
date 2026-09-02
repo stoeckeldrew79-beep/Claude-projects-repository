@@ -22162,6 +22162,39 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ["New York Attorney General's Office"],
     sourceUrl: 'https://ag.ny.gov/press-release/2026/attorney-general-james-announces-indictment-unlicensed-funeral-director',
   },
+  {
+    name: 'Irish "Pig Butchering" Crypto-Romance Investment Scam',
+    slug: 'ireland-pig-butchering-crypto-romance-scam',
+    description:
+      'A stranger met on a dating app, or increasingly through an unsolicited WhatsApp, Instagram, or LinkedIn message, spends months building what feels like a genuine relationship — asking about the victim\'s lifestyle, career, and finances, and moving the conversation off-platform — before mentioning a lucrative cryptocurrency trading opportunity they claim personal success with. The victim is walked through opening an account on a professional-looking but entirely fake trading platform and encouraged to deposit gradually larger sums as the displayed balance appears to grow, only to be blocked or told to pay a "tax" or "release fee" the moment they try to withdraw. An Garda Síochána\'s National Economic Crime Bureau has named this combined romance-and-investment pattern "pig butchering," after the practice of fattening a victim before the payout, and recorded 74 romance-fraud reports in 2022 alone totalling €1.9 million in losses, with average losses per victim now exceeding €25,000 as cases increasingly pivot from one-off emergency requests toward fake crypto platforms — including one Irish woman who lost €100,000 to a man she met on a dating app and never once saw in person.',
+    categorySlug: 'investment-fraud',
+    country: 'IE',
+    alertLevel: 'high',
+    sources: ['An Garda Síochána', 'The Irish Times'],
+    sourceUrl: 'https://www.irishtimes.com/crime-law/2023/02/13/irish-woman-loses-100000-in-increasingly-complex-romance-fraud/',
+  },
+  {
+    name: 'Irish Money Mule Recruitment Scam',
+    slug: 'ireland-money-mule-recruitment-scam',
+    description:
+      'A social media post, a friend, or a stranger in person offers quick cash — often just €100 or €200 — in exchange for letting a "business opportunity" or new acquaintance route payments through the recipient\'s own bank account, with some young people targeted specifically to clear a drug debt this way instead of with cash. Anyone who agrees is really being recruited as a "money mule," laundering the proceeds of online fraud and other crime through an account in their own name — and unlike being defrauded of money, a money mule faces criminal prosecution themselves under money-laundering law, a consequence separate from and in addition to whatever the account is used to launder. An Garda Síochána\'s Operation Mullet in County Kerry alone led to 32 prosecutions of people whose accounts laundered up to €1.3 million in online fraud proceeds, with many recruits aged just 16 to 20; Sergeant Michael Quirke warned that the offer "may be sold to you as an easy, straightforward task ... in exchange for a quick buck of €100 or €200, but you can\'t put a price on a criminal conviction that prohibits you from so much."',
+    categorySlug: 'employment-scams',
+    country: 'IE',
+    alertLevel: 'high',
+    sources: ['An Garda Síochána'],
+    sourceUrl: 'https://www.garda.ie/en/about-us/our-departments/office-of-corporate-communications/press-releases/2024/february/an-garda-siochana-launches-money-mule-awareness-campaign-in-partnership-with-kerry-credit-unions-8th-february-2024.html',
+  },
+  {
+    name: 'Irish ATM and Card "Distraction Fraud"',
+    slug: 'ireland-atm-distraction-fraud',
+    description:
+      'A stranger watches over a victim\'s shoulder as they enter their PIN at an ATM, a shop card terminal, or a supermarket self-checkout, then manufactures a distraction moments later — claiming the victim dropped money, bumping into them, or simply striking up conversation — while an accomplice swaps the victim\'s card for a near-identical fake one or lifts it directly from the machine or an unattended bag. Because the theft happens in the confusion right after a legitimate transaction, the victim often walks away without noticing their card is gone until it has already been used with the PIN the fraudster watched them enter. FraudSMART, the fraud-awareness initiative run by Irish banks, specifically warns against using a phone at an ATM, since that moment of distraction is exactly what makes the switch possible, and advises shielding the keypad, staying alert for a delay or interruption right after a card transaction, and double-checking that the card handed back is actually your own.',
+    categorySlug: 'account-takeover',
+    country: 'IE',
+    alertLevel: 'medium',
+    sources: ['FraudSMART (Banking & Payments Federation Ireland)'],
+    sourceUrl: 'https://www.fraudsmart.ie/2024/07/22/distraction-fraud/',
+  },
 ];
 
 async function seedCategoriesAndScams() {
