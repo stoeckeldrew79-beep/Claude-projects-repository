@@ -15796,6 +15796,64 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Singapore Police Force'],
     sourceUrl: 'https://www.police.gov.sg/Media-Hub/News/2026/04/20260422_police_advisory_on_scam_variant_involving_fraudulent_social_media_advertisements_teaser',
   },
+  {
+    name: 'Investment "Trading Education" MLM Scam',
+    slug: 'investment-trading-education-mlm-scam',
+    description:
+      'Scammers recruit through social media using lifestyle marketing, luxury cars, exotic vacations, and "quit your job" messaging, to sell expensive courses and mentorship programs claiming to teach ordinary people how to become successful currency, stock, or crypto traders, taught by self-styled "educators" with no verifiable trading credentials. The pitch is wrapped in a multi-level-marketing structure that pays members primarily for recruiting new students rather than for any real trading success, so revenue comes from tuition and downline recruitment, not trading profits. The FTC and a state attorney general took action against the largest documented operator of this exact pattern, alleging it took in more than $1.2 billion from consumers nationwide via false or baseless earnings claims, with settlements permanently banning its operators from selling trading-education or investment opportunities. The FTC has since issued a standalone consumer alert generalizing this into an ongoing pattern to watch for, since look-alike "investment training" operations keep resurfacing under new names.',
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    alertLevel: 'high',
+    sources: ['Federal Trade Commission (FTC)', 'State of Nevada Attorney General\'s Office'],
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2026/08/how-spot-investment-training-scams-social-media',
+  },
+  {
+    name: 'FTC Employee Impersonation Recovery Scam',
+    slug: 'ftc-employee-impersonation-recovery-scam',
+    description:
+      'Someone who already lost money to an earlier scam is contacted unexpectedly by text message or a messaging app from a person claiming to be an actual FTC employee offering to help recover the lost funds. To build credibility, the impersonator sends a photo of a fabricated employee ID badge, then asks for payment, account access, or financial details to "process" the recovery. This targets people already victimized once, compounding the loss under the guise of help, and the FTC\'s own alert states plainly that a real FTC employee will never contact someone by text or a messaging app, and will never ask for money or financial information to help recover losses.',
+    categorySlug: 'government-impersonation',
+    country: 'US',
+    alertLevel: 'medium',
+    sources: ['Federal Trade Commission (FTC)'],
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2026/06/real-ftc-employee-wont-text-you-their-photo-id-verify-their-identity',
+  },
+  {
+    name: 'Montana DPHHS Insider Benefits-Fraud Scheme',
+    slug: 'montana-dphhs-insider-benefits-fraud-scheme',
+    description:
+      'A former Montana Department of Public Health and Human Services client services coordinator used her own system access and authority, approving applications and entering false wage or household information, to fraudulently qualify her boyfriend\'s parents for Medicaid and to falsify her own daughter\'s SNAP application by posing as a family member on a verification call. This illustrates a distinct scam genre from an external scammer phishing recipients or a provider billing for care never rendered: an insider weaponizing legitimate eligibility-processing authority for personal or family benefit. She pleaded guilty to theft of government money, property, and records, a reminder that benefit-program integrity depends on the people processing applications, not just the applicants themselves.',
+    categorySlug: 'public-benefits-fraud',
+    country: 'US',
+    state: 'MT',
+    alertLevel: 'medium',
+    sources: ['U.S. Attorney\'s Office, District of Montana'],
+    sourceUrl: 'https://www.justice.gov/usao-mt/pr/former-montana-department-public-health-and-human-services-employee-admits-stealing',
+  },
+  {
+    name: 'Providence "Dead Pensioner" Power-of-Attorney Fraud',
+    slug: 'providence-dead-pensioner-power-of-attorney-fraud',
+    description:
+      'A former Providence attorney was given power of attorney by a client authorizing him to receive and deposit the client\'s city municipal pension checks. After the client died overseas, the attorney concealed the death and kept collecting and depositing the deceased man\'s monthly pension payments into a joint account for nearly twelve years, diverting hundreds of thousands of dollars from the city\'s employee retirement system and a union pension fund into his own and his family\'s use. He pleaded guilty to mail fraud and theft from an employee benefit pension fund and was disbarred, a case distinct from typical elder power-of-attorney exploitation because the fraud specifically hinged on concealing a death to keep a public pension flowing rather than exploiting a living person\'s ongoing trust.',
+    categorySlug: 'public-benefits-fraud',
+    country: 'US',
+    state: 'RI',
+    alertLevel: 'medium',
+    sources: ['U.S. Attorney\'s Office, District of Rhode Island'],
+    sourceUrl: 'https://www.justice.gov/usao-ri/pr/former-ri-attorney-sentenced-stealing-deceased-mans-pensions',
+  },
+  {
+    name: 'North Dakota Out-of-State Rehab "Patient Brokering" Insurance Fraud',
+    slug: 'north-dakota-out-of-state-rehab-patient-brokering-fraud',
+    description:
+      'Recruiters reach people seeking addiction treatment in person or via social media, with documented targeting of American Indian reservations in North Dakota, and offer to arrange private health insurance coverage and pay for the person\'s flight to an out-of-state treatment facility, a tactic regulators flag as itself a major red flag. Once there, the treatment center bills the victim\'s insurer for services never rendered or illegitimate services, and victims have been abandoned in the destination state once the billing scheme is exhausted. North Dakota\'s Insurance Commissioner and Insurance Fraud Unit report the state\'s insurance losses to this scheme have grown into the millions of dollars annually, and warn that a stranger offering to arrange insurance and pay for a flight to treatment, rather than helping someone find in-state or in-network care, is the clearest sign of patient brokering rather than genuine help.',
+    categorySlug: 'healthcare-fraud',
+    country: 'US',
+    state: 'ND',
+    alertLevel: 'high',
+    sources: ['North Dakota Insurance Department'],
+    sourceUrl: 'https://www.insurance.nd.gov/news/godfread-issues-warning-fraudulent-substance-use-treatment-centers',
+  },
 ];
 
 async function seedCategoriesAndScams() {
