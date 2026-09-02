@@ -15655,6 +15655,39 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Indiana Attorney General\'s Office (Medicaid Fraud Control Unit)'],
     sourceUrl: 'https://events.in.gov/event/attorney-general-todd-rokita-files-charges-in-109m-medicaid-fraud-case',
   },
+  {
+    name: 'Singapore PayNow "Certificate Expiry" Phishing Scam',
+    slug: 'singapore-paynow-certificate-expiry-phishing-scam',
+    description:
+      'Victims receive an SMS claiming their "PayNow certificate expires in 3 days" and must renew it now, linking to a fraudulent website that harvests credit card numbers, phone numbers, billing addresses, and dates of birth; PayNow does not issue any such certificate or operate a website collecting these details. A related physical variant involves scammers printing counterfeit QR code stickers and pasting them directly over legitimate PayNow or NETS QR codes at hawker stalls, shops, and parking meters, silently redirecting scanned payments to the scammer\'s own account. This targets PayNow itself rather than bank login credentials or a utility bill, and the Singapore Police Force advises never using QR codes or links from unknown sources and always verifying the displayed recipient name in the banking app before confirming payment.',
+    categorySlug: 'phishing',
+    country: 'SG',
+    alertLevel: 'high',
+    sources: ['Singapore Police Force'],
+    sourceUrl: 'https://www.police.gov.sg/media-hub/news/2024/20241213_police_advisory_on_scams_involving_the_use_of_a_paynow_phishing_site',
+  },
+  {
+    name: 'Singapore Police/Traffic Police/Courts iMessage Phishing Scam',
+    slug: 'singapore-police-courts-imessage-phishing-scam',
+    description:
+      'Victims receive unsolicited Apple iMessages, often from foreign numbers, falsely claiming to be from the Singapore Police Force, Traffic Police, or the State or District Courts, alleging an unpaid traffic fine or an unresolved court summons. Recipients are directed either to click a malicious link or to reply with a specific code to "acknowledge" the notice, both of which lead to a fake government portal that harvests card details, internet banking credentials, or one-time passwords. This is a distinctly iMessage-native pattern imitating law-enforcement and judicial notices specifically, and the Singapore Police Force and Courts state they never request payment or personal data via unsolicited links or text replies, advising verification of any notice directly through the police or courts\' own official website.',
+    categorySlug: 'government-impersonation',
+    country: 'SG',
+    alertLevel: 'medium',
+    sources: ['Singapore Police Force'],
+    sourceUrl: 'https://www.police.gov.sg/Media-Hub/News/2026/08/20260808_police_advisory_on_phishing_scams_impersonating_the_singapore_police_force',
+  },
+  {
+    name: 'Singapore Permanent Residence Application Assistance Scam',
+    slug: 'singapore-permanent-residence-application-assistance-scam',
+    description:
+      'Fraudulent advertisements on social media offer to help applicants secure Singapore Permanent Residence, claiming that payments toward "investments in companies," purchases of academic certifications, or donations will improve approval odds. To appear legitimate, scammers fabricate supporting documents including forged shareholder certificates, fake school credentials, counterfeit donation receipts, and fraudulent Immigration & Checkpoints Authority PR application status letters. Victims transfer funds by bank transfer or hand over cash to unknown individuals, only discovering the fraud when they verify their application status directly with ICA, which the Singapore Police Force advises doing through ICA\'s own official channels rather than trusting any status letter provided by the person offering assistance.',
+    categorySlug: 'government-impersonation',
+    country: 'SG',
+    alertLevel: 'high',
+    sources: ['Singapore Police Force'],
+    sourceUrl: 'https://www.police.gov.sg/Media-Hub/News/2026/04/20260422_police_advisory_on_scam_variant_involving_fraudulent_social_media_advertisements_teaser',
+  },
 ];
 
 async function seedCategoriesAndScams() {
