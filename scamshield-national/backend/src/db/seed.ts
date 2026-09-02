@@ -23626,6 +23626,39 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ["U.S. Department of Justice"],
     sourceUrl: 'https://www.justice.gov/opa/pr/three-individuals-sentenced-prison-fraudulently-billing-medicare-and-medicaid-through-opioid',
   },
+  {
+    name: 'Singapore Fraudulent App-Store Investment and Job Scam',
+    slug: 'singapore-fraudulent-app-store-investment-job-scam',
+    description:
+      'Scammers make first contact through social media platforms such as Facebook and LinkedIn or dating apps like Tinder, then direct victims to download an investment or "business opportunity" app — with names including Dyreka, M Tree PE, and Saftools — from the official Apple App Store or Google Play Store rather than a sideloaded link, lending the scheme false legitimacy since the apps passed through each store\'s own listing review. Once trust is built, victims are guided to transfer money or cryptocurrency into the app toward investments or "inventory" purchases for an online business, with small early payouts encouraging larger deposits before withdrawals stop and the scammer goes silent. The Singapore Police Force reported at least 32 cases and $1.72 million in losses since January 2025; unlike malware scams that require installing a file from outside official channels, the danger here is that the app itself is genuinely listed on a legitimate app store, so police advise verifying any investment or business platform against MAS\'s Financial Institutions Directory or a company\'s ACRA registration before transferring money, regardless of where the app was downloaded from.',
+    categorySlug: 'investment-fraud',
+    country: 'SG',
+    alertLevel: 'high',
+    sources: ['Singapore Police Force'],
+    sourceUrl: 'https://www.police.gov.sg/media-hub/news/2025/08/20250801_police_advisory_on_investment_and_job_scams_involving_fraudulent_mobile_applications',
+  },
+  {
+    name: 'Singapore Beauty Salon High-Pressure Prepayment Scam',
+    slug: 'singapore-beauty-salon-high-pressure-prepayment-scam',
+    description:
+      'Beauty and hair salon staff lure customers in with a cheap facial, haircut, or "free" trial treatment, then use high-pressure tactics documented by regulators — leaving a facial mask on a customer\'s face after a treatment has ended to keep them physically confined in the room, asking how many credit cards a customer carries under the guise of checking for promotions but really to gauge how much they can be pushed to spend, or showing fabricated scalp or skin "problems" on a screen — to push them into prepaid treatment packages worth thousands of dollars they never asked for. Elderly customers have been especially targeted: staff checked CPF balances, helped customers raise their own CPF withdrawal limits, or walked them to a nearby bank or ATM to withdraw cash on the spot. Following complaints referred by the Consumers Association of Singapore (CASE), the Competition and Consumer Commission of Singapore (CCCS) secured a commitment from beauty chain DNA Brands in July 2026 to refund up to $1 million to customers pressured into purchases dating back to January 2023, after a separate 2025 CCCS investigation into hair salon chain HairFun uncovered nearly identical tactics targeting elderly customers. CASE separately reported beauty-industry prepayment losses topping $2.1 million in 2025 alone, the highest of any retail sector it tracks; Singapore has no general legal requirement for a cooling-off period on beauty packages, so CASE advises resisting any pressure to sign up on the spot, since a refund is far harder to secure once a package has been paid for.',
+    categorySlug: 'online-shopping-scams',
+    country: 'SG',
+    alertLevel: 'medium',
+    sources: ['Competition and Consumer Commission of Singapore (CCCS)', 'Consumers Association of Singapore (CASE)'],
+    sourceUrl: 'https://www.ccs.gov.sg/media-and-events/newsroom/announcements-and-media-releases/ccs-secures--1-million-refund-commitment-for-consumers-after-investigation-into-unfair-beauty-sales-practices-at-dna-brands/',
+  },
+  {
+    name: 'Singapore Job Portal Scam Recruiting Into Overseas Trafficking Compound',
+    slug: 'singapore-job-portal-overseas-scam-compound-trafficking-scheme',
+    description:
+      'A Singapore-incorporated firm posts what looks like an ordinary local vacancy — for roles such as senior customer service executive or digital advertising manager paying $6,000 to $10,000 a month — on Singapore\'s own government job portal, MyCareersFuture, and on overseas job sites, running phone interviews in Mandarin or English and issuing offer letters within hours without ever asking about work-visa status. Only in a later call does the true arrangement surface: the "Singapore-based" job actually requires relocating permanently to a resort in Koh Kong, Cambodia, at a fraction of the promised salary, sharing a room with several other recruits, and handing over a passport before signing a contract; the resort is owned by a businessman the U.S. Treasury sanctioned in September 2024 specifically for forced labor at online scam compounds. The Singapore Police Force confirmed in October 2025 it was investigating a firm, Changting Network Technology, running exactly this pattern, after AsiaOne and the Straits Times found its registered office and listed contact details were dead ends. Unlike scams where Singaporeans are simply defrauded of money, this pattern uses a genuine local business registration and a real government job portal listing to funnel jobseekers directly into the forced-labor scam-compound pipeline that has trapped tens of thousands of workers across Southeast Asia; police advise verifying any overseas "training" requirement directly with the employer before accepting an offer, and treating a demand to relocate to an unnamed overseas facility as a serious red flag no matter how legitimate the original listing looked.',
+    categorySlug: 'employment-scams',
+    country: 'SG',
+    alertLevel: 'critical',
+    sources: ['AsiaOne', 'Singapore Police Force'],
+    sourceUrl: 'https://www.asiaone.com/singapore/police-looking-singapore-firm-luring-jobseekers-scam-linked-cambodian-resort',
+  },
 ];
 
 async function seedCategoriesAndScams() {
