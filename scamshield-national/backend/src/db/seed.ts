@@ -5100,6 +5100,57 @@ The clearest warning sign is a seller who isn't a licensed attorney in your stat
 
 Before buying, consult a state-licensed estate planning attorney directly, many of whom offer a flat-fee initial consultation, and check any company or salesperson's name against your state bar association and the Better Business Bureau. Anyone who has already purchased a trust from an unlicensed seller should have a local attorney review it, specifically to check whether assets were ever actually retitled into the trust's name, since an unfunded trust is a common way these kits fail to work even when the paperwork itself is otherwise valid. Report the scam to the FTC at ReportFraud.ftc.gov.`,
   },
+  {
+    title: 'Fake Court Judgment Debt Scams: When a Caller Says You Already Lost a Lawsuit You Never Heard About',
+    slug: 'fake-court-judgment-debt-collection-scam-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'judgment-collection-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Courtroom_One_Gavel_-_Flickr_-_Joe_Gratz.jpg?width=1200',
+    coverImageCredit: 'Photo: Joe Gratz (CC0 1.0, public domain)',
+    coverImagePosition: 50,
+    sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2013/10/ftcs-request-court-halts-collection-allegedly-fake-payday-debts',
+    body: `A caller announces that a court has already entered a "default judgment" against you — not that you're being sued, but that the case is over and you lost, usually without your knowledge, because you supposedly never showed up. The caller claims to work for a name that sounds like a law firm, a court office, or a "judgment recovery" or "judgment enforcement" unit, and says a sheriff, constable, or process server will arrive within hours to garnish your wages, freeze your bank account, or arrest you unless you pay immediately, right now, over the phone, usually by wire transfer, gift card, or a payment app.
+
+This exact pattern has been the subject of real federal enforcement. In 2013, the FTC obtained a court order halting an Atlanta- and Cleveland-based operation that used fictitious business names deliberately designed to sound like law offices and court-affiliated agencies — including "Global Legal Services," "Allied Litigation Group," "United Judgment & Appeals," "Dockets Liens & Seizures," and "United Judgment Center" — to collect on payday loan debts that were often fake, already paid off, or not owed to the defendants at all. Robocalls and live callers threatened arrest and lawsuits unless targets paid within days, and the operation ultimately took in millions of dollars from people who had no real judgment against them whatsoever.
+
+The scam works because it skips the part a real lawsuit takes weeks or months to reach — being served, filing a response, appearing in court — and drops the target straight into the terrifying-sounding aftermath: a done deal, with only minutes left to act. A judgment sounds unappealable and final in a way "you might be sued" doesn't, and the caller's use of specific-sounding details — a case number, a "judgment amount," an official-sounding department name — is designed to make hanging up to check feel riskier than just paying. In reality, real court judgments are a matter of public record, real judgment enforcement (wage garnishment, bank levies) requires additional separate court filings and formal legal notice mailed to your actual address, and it never happens same-day over an unsolicited phone call.
+
+Red flags include any demand for instant payment by wire, gift card, or payment app to "stop" an enforcement action already supposedly underway; refusal to provide the court's name, county, and case number when asked directly; pressure not to hang up and call back; and a caller who can't explain how to look the case up yourself. If you get a call like this, don't pay or share financial information on the spot. Hang up, then independently search your name in the actual court's public online case-record system for the county or state the caller claims, or call the clerk's office directly using a number you look up yourself — a real judgment will show up there, and a fake one won't. Report the call to the FTC at ReportFraud.ftc.gov and to your state attorney general's office.`,
+  },
+  {
+    title: 'Online Psychic and Tarot Reading Scams: When the "Curse" Never Lifts Until You Pay Again',
+    slug: 'online-psychic-tarot-reading-scam-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'psychic-tarot-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Tarot%20cards%20-%20Celtic%20cross%20spread.jpg?width=1200',
+    coverImageCredit: 'Photo: Nosferattus (CC0 1.0, public domain)',
+    coverImagePosition: 50,
+    sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2002/02/ftc-charges-miss-cleo-promoters-deceptive-advertising-billing-collection-practices',
+    body: `A free tarot reading, horoscope, or psychic chat offered online or through a social media ad quickly turns into something else: the reader "senses" a serious problem — a curse, a blocked path, negative energy attached to the person or their family — and offers to fix it, for a fee. That first payment rarely ends things. A follow-up message reports the fix only partly worked, or uncovered something worse, requiring another, larger payment to finish the job, sometimes escalating over weeks or months as the reader keeps finding new problems that conveniently require new fees to resolve.
+
+The pattern of a friendly, personalized-sounding offer concealing an aggressive billing operation behind it isn't new, and it has drawn real federal action before. In 2002, the FTC charged the companies behind the "Miss Cleo" psychic hotline — a late-1990s and early-2000s advertising phenomenon promising free tarot and psychic readings by phone — with deceptive advertising, deceptive billing, and abusive collection practices. The agency's complaint alleged the "free" reading was rarely free at all, that consumers were billed for calls they didn't authorize or understand the cost of, and that the companies used aggressive collection tactics against people disputing charges; the case settled with a $5 million payment and canceled consumer debt.
+
+The scam works by pairing something almost everyone finds appealing — attention, reassurance, a sense that someone understands what's wrong in their life — with a premise that's specifically designed to resist skepticism from the outside. A real psychic ability can't be disproven the way a fake check or a fake prize can, so a target who wants to believe has an easy way to explain away doubt, and a reader who claims to see a curse or bad energy is, by definition, claiming to know something no outsider can verify or contradict. Subscription-based psychic apps and chat services add a second layer: a low advertised per-minute or per-message rate that quietly recurs or escalates, sometimes enrolling a user in an ongoing subscription they never explicitly agreed to.
+
+Red flags include any reader who claims a specific problem, curse, or blockage requires payment to remove; escalating requests for money after an initial reading or purchase; pressure to keep a reading or its cost secret from family; and a "free" offer that leads to a recurring charge on a card or phone bill the person doesn't recognize. Anyone unsure whether they were billed for something they didn't authorize should review their card and phone statements directly and dispute unrecognized charges with the issuer. Report deceptive billing or collection tactics tied to a psychic or fortune-telling service to the FTC at ReportFraud.ftc.gov.`,
+  },
+  {
+    title: 'Long-Lost Relative Inheritance Scams: The Life Insurance Payout That Was Never Real',
+    slug: 'long-lost-relative-inheritance-scam-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'inheritance-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Residential%20Letterbox%20in%20Perth%2C%20Western%20Australia%2C%202026.jpg?width=1200',
+    coverImageCredit: 'Photo: Aussie Clotheslines & Letterboxes (CC BY 4.0)',
+    coverImagePosition: 50,
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2024/06/contacted-about-long-lost-relatives-life-insurance-policy-or-inheritance-its-scam',
+    body: `A letter, email, or phone call arrives from someone claiming to be a lawyer, estate administrator, or bank official handling the affairs of a person who died with the recipient's same last name. The pitch: that person left behind a large, unclaimed inheritance or life insurance payout, no closer heir has ever come forward to claim it, and the recipient — a total stranger to the deceased — might be entitled to a share, sometimes worth millions, sometimes split three ways with a "charity" the message names to make the arrangement sound more legitimate and less like a personal windfall being handed to a random name.
+
+The FTC has repeatedly warned about exactly this setup, most recently in a 2024 consumer alert describing the mechanics in detail: after the recipient responds expressing interest, the "lawyer" asks for fees, described as covering taxes, legal paperwork, wire transfer costs, or "bank clearance" charges, needed before the funds can supposedly be released. Each payment is followed by a new fee or a new complication. In some versions, the scammer also asks for personal information — a Social Security number or bank account details — under the guise of setting up the transfer, which can be used for identity theft even if no money changes hands. The inheritance, the deceased relative, and the law firm are all fabricated.
+
+The pitch works by offering something for nothing at the exact moment it asks for something in return, banking on the fact that an unexpected windfall is exciting enough to override the obvious question of why a total stranger with no known family connection would be in line to inherit anything at all. Naming a real-sounding law firm, citing a specific dollar figure, and invoking confidentiality — often framed as necessary to avoid other "false claimants" — all work together to make the story feel procedural and official rather than like an unsolicited pitch, which discourages the kind of casual fact-checking a person might otherwise do.
+
+The clearest warning signs are any unsolicited claim of an inheritance from someone you and your immediate family have never heard of, any request for a fee before funds are released, and pressure to keep the arrangement quiet or move quickly. A real estate attorney or executor handling an actual inheritance does not need the heir to pay taxes or fees upfront out of pocket before a payout — legitimate estate costs are settled from the estate itself. If you receive a message like this, don't respond, don't send money or personal information, and don't feel obligated to verify it yourself by contacting the sender — instead, ask a trusted family member or attorney whether the story holds up. Report the scam to the FTC at ReportFraud.ftc.gov.`,
+  },
 ];
 
 async function seedArticles(articles: SeedArticle[], label: string) {
