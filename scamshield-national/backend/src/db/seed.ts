@@ -20146,6 +20146,28 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['U.S. Department of Justice', 'WSB-TV'],
     sourceUrl: 'https://www.justice.gov/criminal/criminal-fraud/health-care-fraud-unit/2026-national-hcf-case-summaries',
   },
+  {
+    name: 'French Professional Business Directory Invoice Scam (Arnaque aux Annuaires Professionnels)',
+    slug: 'french-professional-directory-invoice-scam',
+    description:
+      'A business receives a cold call or unsolicited mailing offering placement in an online professional directory, then a follow-up document formatted to closely resemble an official invoice, RCS business-registry extract, or "Info-Siret" notice, pressuring the owner to sign and pay quickly for a listing the DGCCRF says provides no real advertising benefit at all. The best-documented example, European City Guide, ran a Barcelona-registered directory that billed subscribers roughly €997 a year for a three-year term after collecting signatures on forms many small-business owners believed were free or official registrations, drawing years of complaints from French professional associations. The DGCCRF describes professional-directory fraud as "une arnaque qui perdure" (a scam that persists) because operators dissolve and re-register under new names once sanctioned, and it advises businesses to never sign or pay on the spot, to check any purchase order for a clear right of withdrawal, and to report solicitations through SignalConso.',
+    categorySlug: 'business-email-compromise',
+    country: 'FR',
+    alertLevel: 'low',
+    sources: ['DGCCRF (Direction générale de la concurrence, de la consommation et de la répression des fraudes)', 'UFC-Que Choisir'],
+    sourceUrl: 'https://www.economie.gouv.fr/dgccrf/les-fiches-pratiques/les-annuaires-professionnels-attention-ne-vous-laissez-pas-abuser',
+  },
+  {
+    name: 'French Photovoltaic Solar Panel Door-to-Door Sales Scam',
+    slug: 'french-photovoltaic-panel-door-to-door-scam',
+    description:
+      'Telephone or door-to-door sales agents — sometimes falsely presenting themselves as an official EDF partner — pressure homeowners into signing a photovoltaic-panel purchase order on the spot, bundled with a linked consumer credit agreement, promising energy savings or payback within eight years that in practice often runs 40-60% below what was promised. When installer NJCE, trading as Sibel Energie, was placed into judicial liquidation by the Créteil commercial court in September 2024 after continuing to take orders while already insolvent, it left more than 7,000 households as orphaned customers still repaying bank loans for systems that were incomplete or underperforming. The Perpignan branch of UFC-Que Choisir alone opened five times more fraud case files in 2025 than in 2024, including one cluster of roughly twenty households that lost a combined €200,000 between May and June 2025, and telephone canvassing for photovoltaic panels was banned outright in France starting October 2025 after years of such complaints. Because French consumer law ties the sale and its linked credit together, the Cour de cassation\'s Civil Chamber ruled on July 10, 2024, in a case against Cofidis and the now-defunct installer Soleco, that a lender who releases financing without verifying the main contract was properly completed can be deprived of its right to reimbursement, shifting the financial loss from the homeowner back onto the bank.',
+    categorySlug: 'utility-scams',
+    country: 'FR',
+    alertLevel: 'high',
+    sources: ['UFC-Que Choisir', 'Cour de cassation (Chambre civile 1)', 'Tribunal de commerce de Créteil'],
+    sourceUrl: 'https://www.francebleu.fr/infos/societe/arnaques-aux-panneaux-photovoltaiques-l-ufc-que-choisir-a-perpignan-traite-cinq-fois-plus-de-dossiers-que-l-an-dernier-8200290',
+  },
 ];
 
 async function seedCategoriesAndScams() {
