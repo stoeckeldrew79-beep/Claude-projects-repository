@@ -20645,6 +20645,17 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ["Nevada Attorney General's Office", 'Nevada Medicaid Fraud Control Unit'],
     sourceUrl: 'https://ag.nv.gov/News/PR/2026/Attorney_General_Ford_Announces_69_Felony_Charges_in_Alleged_Scheme_Involving_Medicaid_Fraud_and_Identity_Theft_of_Seniors/',
   },
+  {
+    name: 'Fake "Tariff Dividend" Check Scam',
+    slug: 'fake-tariff-dividend-check-scam',
+    description:
+      'After President Trump said in November 2025 that his administration intended to send most Americans a $2,000 "tariff dividend" funded by tariff revenue — a proposal that, as of 2026, no bill has actually passed Congress to authorize — scammers moved within days to exploit the news, building lookalike "government portal" websites and blasting out text messages, emails, and social media posts that impersonate the IRS or Treasury Department. The messages falsely claim a payment, commonly $2,000 but reported anywhere from a few hundred to over $5,000, is ready to be deposited or mailed, using bold, urgent language warning the check will be canceled unless the recipient immediately clicks a link and hands over a bank routing and account number, Social Security number, or a "processing fee." State attorneys general began issuing formal warnings as the texts spread nationwide, including Idaho Attorney General Ra\u00fal Labrador, who noted in a December 2025 alert that "it costs very little for scammers to send billions of these scam texts out across our telecom networks." Because the underlying political proposal keeps resurfacing in the news throughout 2026 with no actual legislation ever having passed, the scam has proven durable \u2014 anyone contacted out of the blue about a tariff rebate or dividend should treat it as fake no matter how official the sender\'s branding looks, and should never provide banking details or pay a fee to "unlock" a government payment.',
+    categorySlug: 'tax-scams',
+    country: 'US',
+    alertLevel: 'high',
+    sources: ["Idaho Attorney General's Office", 'Internal Revenue Service'],
+    sourceUrl: 'https://www.ag.idaho.gov/newsroom/attorney-general-labrador-warns-idahoans-about-tariff-rebate-text-scam/',
+  },
 ];
 
 async function seedCategoriesAndScams() {
