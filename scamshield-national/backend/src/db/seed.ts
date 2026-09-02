@@ -18948,6 +18948,17 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Canadian Anti-Fraud Centre (CAFC)'],
     sourceUrl: 'https://fcnb.ca/en/news-alerts/canadian-anti-fraud-centre-bulletin-social-media-crypto-extortion-scam',
   },
+  {
+    name: 'Fake Birth Mother Adoption Fraud',
+    slug: 'fake-birth-mother-adoption-fraud',
+    description:
+      'Hopeful adoptive parents pursuing a private domestic infant adoption — sometimes even through a licensed agency — are matched with a woman who claims to be pregnant and searching for a family, then asked to start covering her living, medical, and travel expenses well before any placement is legal or final. In one documented case, a Duluth, Minnesota couple paid more than $13,000 in support to a Florida woman they were matched with through an adoption agency after she suffered an early miscarriage but concealed it for months, sending fabricated ultrasound images and false pregnancy updates to keep the payments coming until the agency itself discovered her medical records. The National Council For Adoption says the roughly 18,000 domestic infant adoptions finalized in the U.S. each year make hopeful parents an attractive target, and flags red flags including a contact who resists any professional or legal involvement, asks the family to keep payments secret from their agency, refuses to provide proof of pregnancy, or promises an unusually fast placement. The FBI recommends working only through a state-licensed adoption agency or attorney who can independently verify a pregnancy and an expectant mother\'s identity before any money changes hands.',
+    categorySlug: 'romance-scams',
+    country: 'US',
+    alertLevel: 'medium',
+    sources: ['Federal Bureau of Investigation (FBI)', 'National Council For Adoption', 'CBS News'],
+    sourceUrl: 'https://www.fbi.gov/how-we-can-help-you/scams-and-safety/common-frauds-and-scams/adoption-fraud',
+  },
 ];
 
 async function seedCategoriesAndScams() {
