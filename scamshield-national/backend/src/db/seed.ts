@@ -21405,6 +21405,22 @@ const SEED_SCAMS: SeedScam[] = [
     sourceUrl:
       'https://www.bbb.org/article/scams/26768-bbb-scam-alert-sports-handicapper-promising-you-guaranteed-wins-dont-bet-on-it',
   },
+  {
+    name: 'Brookhaven, Mississippi Fake Stock Trader Investment Fraud',
+    slug: 'brookhaven-mississippi-fake-stock-trader-investment-fraud',
+    description:
+      'David Tiler Castillo told acquaintances in and around Brookhaven, Mississippi that he actively traded stocks and other securities on their behalf, collecting $928,500 from investors between roughly 2021 and 2023 — but federal prosecutors say he actually invested only about $3,000 of it, spending the rest on personal purchases including vehicles while telling investors their money was growing. The U.S. Secret Service, the Mississippi Secretary of State\'s Securities Division, and the Mississippi Attorney General\'s Cyber Crime Division jointly investigated the case; Castillo pleaded guilty to wire fraud and was sentenced in January 2026 to 40 months in federal prison and ordered to pay $928,500 in restitution. Unlike a licensed broker or registered investment adviser, Castillo held no securities license at all, something any investor could have confirmed for free before handing over money by searching the Mississippi Secretary of State\'s online license lookup or the SEC\'s Investment Adviser Public Disclosure database. Anyone trusting a friend or acquaintance to "manage" their money should also insist on independent statements from the actual brokerage or custodian holding the funds, rather than relying solely on account summaries the person handling the money provides themselves.',
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    state: 'MS',
+    isHistorical: true,
+    firstRecorded: '2021-06-01',
+    sources: [
+      "U.S. Attorney's Office, Southern District of Mississippi",
+      "Mississippi Secretary of State's Office",
+    ],
+    sourceUrl: 'https://www.justice.gov/usao-sdms/pr/brookhaven-man-sentenced-40-months-federal-prison-wire-fraud',
+  },
 ];
 
 async function seedCategoriesAndScams() {
