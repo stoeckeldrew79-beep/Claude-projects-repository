@@ -23102,6 +23102,18 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ["Connecticut Office of the Attorney General"],
     sourceUrl: 'https://portal.ct.gov/ag/press-releases/2025-press-releases/attorney-general-tong-seeks-2-5-million-prejudgment-remedy',
   },
+  {
+    name: 'GreenSky Contractor-Enrolled Home Improvement Loan Scheme',
+    slug: 'greensky-contractor-enrolled-home-improvement-loan-scheme',
+    description:
+      'GreenSky (an Atlanta-based fintech, now owned by Goldman Sachs, that partners with home improvement contractors nationwide to offer point-of-sale financing) let contractors handle the loan application on a tablet at the customer\'s kitchen table rather than requiring the homeowner to apply directly, and a Texas-led, multistate investigation found that gap let contractors sign homeowners up for loans of up to $25,000 at interest rates as high as 25% APR without the homeowner\'s valid, informed consent. Investigators documented seniors — including people with dementia — pressured into agreements they did not understand or legally consent to, homeowners discovering a GreenSky loan on their credit report for a project they never authorized, and consumers left on the hook for the full loan balance after paying a contractor who did shoddy work, abandoned the job, or never started it at all, with GreenSky refusing valid cancellation requests. Attorneys general in Texas, Alaska, and dozens of other states announced a $10 million multistate settlement in May 2026 — $6.5 million earmarked for consumer restitution — requiring GreenSky to tighten how it verifies a borrower actually authorized a loan before funding a contractor. Anyone approached about home improvement financing should insist on completing the loan application themselves, directly with the lender, rather than letting a contractor fill it out on their behalf, read the loan amount and interest rate before signing anything on a tablet, and check credit reports afterward for any loan they don\'t recognize.',
+    categorySlug: 'identity-theft',
+    country: 'US',
+    isHistorical: true,
+    firstRecorded: '2026-05-01',
+    sources: ["Texas Attorney General's Office", "Alaska Department of Law"],
+    sourceUrl: 'https://www.texasattorneygeneral.gov/news/releases/attorney-general-ken-paxton-secures-millions-victims-fraudulent-loan-scheme-targeted-senior-citizens',
+  },
 ];
 
 async function seedCategoriesAndScams() {
