@@ -18152,6 +18152,43 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Ministry of External Affairs (MEA), Government of India', 'Indian Cyber Crime Coordination Centre (I4C)'],
     sourceUrl: 'https://www.newsonair.gov.in/collaborating-closely-with-cambodia-rescued-250-indians-mea-on-forced-cyber-slavery-report',
   },
+  {
+    name: 'WeChat "AI Startup" Investment Fraud Targeting Asian American Investors',
+    slug: 'nj-wechat-ai-startup-investment-fraud',
+    description:
+      'A former Princeton, New Jersey resident, Xiao Hu — who went by "Mark Hu" and falsely claimed to hold a Ph.D. in computer science from Columbia University — recruited at least 15 investors, including nine New Jersey residents, into unregistered securities tied to purported technology and artificial-intelligence startups, promising fixed annual returns of 10 to 22 percent. He built trust inside the Princeton-area Asian American community by hosting investment seminars at the Princeton Public Library and soliciting through WeChat and personal networks, handing out titles like "Managing Partner" and "Chief Operating Officer" that had no relationship to any real role at the companies. New Jersey\'s Bureau of Securities alleges he raised more than $2.5 million and diverted at least $280,000 to personal expenses, including a Florida home purchase and a tropical vacation, while commingling investor money with his own bank accounts. A February 2026 grand jury indictment charged him with securities fraud, theft by deception, money laundering, and misconduct by a corporate official, and the Bureau\'s parallel civil suit seeks restitution and penalties. The Bureau urges anyone solicited this way to verify a securities seller\'s registration at NJSecurities.gov before wiring money, regardless of how credentialed a promoter claims to be or how familiar the community setting feels.',
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    state: 'NJ',
+    alertLevel: 'high',
+    sources: ["New Jersey Office of the Attorney General — Bureau of Securities"],
+    sourceUrl: 'https://www.njoag.gov/nj-bureau-of-securities-sues-former-princeton-resident-who-allegedly-defrauded-investors-out-of-2-5-million-and-misused-investor-funds/',
+  },
+  {
+    name: 'Fake Veterans Petition Supermarket Solicitation Scheme',
+    slug: 'ma-fake-veterans-petition-supermarket-solicitation',
+    description:
+      'Sean Murphy and Rikkile Brown ran two Massachusetts entities, Political Petitioning of MA, LLC and Help Homeless Vets, Inc., that recruited actual veterans to stand outside supermarkets across the state asking shoppers to sign a "petition" supporting homeless veterans — a pretext that let solicitors collect cash donations on the spot without ever registering as a charity. Of the thousands of dollars collected, the Massachusetts Attorney General\'s Office found only about $343 ever reached a legitimate veterans\' organization, with the rest diverted to the two operators. Attorney General Andrea Campbell\'s office filed a civil enforcement complaint in January 2023, won a preliminary injunction halting the collections two months later, and secured a final court order on March 30, 2026, permanently barring both men from soliciting or collecting charitable donations anywhere in Massachusetts and forcing dissolution of both entities. The case shows how a signature-gathering request — which feels less transactional than an outright donation ask — can lower a shopper\'s guard before cash is requested at a checkout line or store entrance. The Attorney General\'s Office advises verifying any charity through the state\'s public charities database and asking exactly what percentage of a cash donation collected in person will reach the stated cause before handing over any money.',
+    categorySlug: 'charity-scams',
+    country: 'US',
+    state: 'MA',
+    sources: ["Massachusetts Attorney General's Office"],
+    sourceUrl: 'https://www.mass.gov/news/ag-campbell-secures-court-orders-permanently-barring-operators-of-a-fraudulent-veterans-charity-from-engaging-in-charitable-activities-in-massachusetts',
+    isHistorical: true,
+    firstRecorded: '2023-01-01',
+  },
+  {
+    name: 'Repeat-Offender Online Boutique Non-Delivery Scheme',
+    slug: 'sc-repeat-offender-online-boutique-non-delivery-scheme',
+    description:
+      'An Anderson County, South Carolina children\'s clothing boutique owner, Pamela Brooke Schronce, took online orders and payment from more than 50 customers across the state without, prosecutors allege, ever intending to ship the merchandise. Because complaints landed scattered across five different county solicitors\' offices, no single office had visibility into the full pattern, and Schronce was arrested 17 separate times within a few months in 2026 before the state stepped in. In June 2026, Attorney General Alan Wilson consolidated every pending charge into a single Anderson County prosecution specifically so investigators could identify the complete scope of victims and handle the case in one place rather than as isolated small-claims disputes. The case illustrates how a small, seemingly local online seller can rack up scattered, low-dollar complaints for months before any one jurisdiction connects the pattern to a single repeat offender. Consumers ordering from a small independent online storefront are advised to pay by credit card rather than debit card, gift card, or payment app so a charge can be disputed, and to report a missed shipment to the state Attorney General\'s Office rather than assume it\'s an isolated experience.',
+    categorySlug: 'online-shopping-scams',
+    country: 'US',
+    state: 'SC',
+    alertLevel: 'medium',
+    sources: ["South Carolina Attorney General's Office"],
+    sourceUrl: 'https://www.scag.gov/about-the-office/news/attorney-general-alan-wilson-announces-his-office-will-prosecute-all-charges-related-to-pamela-schronce-through-anderson-county-investigation-of-defrauding-customers-across-the-state/',
+  },
 ];
 
 async function seedCategoriesAndScams() {
