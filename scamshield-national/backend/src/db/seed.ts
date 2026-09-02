@@ -7635,6 +7635,54 @@ Beyond the near-certainty of never getting the promised gifts, joining means han
 
 If you see a "Secret Sister," "Secret Santa," wine-exchange, or similar gift-chain post asking you to recruit others and share your address, don't participate and don't repost it — report it to the platform instead. If you already joined and shared your address, keep an eye on your mail and financial accounts for anything unusual, since that information is now circulating among people you don't know. And if you want to do a gift exchange with people you actually know, organize it directly among your real friends or coworkers rather than through a recruiting chain that spreads your address to strangers.`,
   },
+  {
+    title: 'Angler Phishing: The Fake "Support" Account That Replies to Your Complaint',
+    slug: 'angler-phishing-fake-social-media-support-scam-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'angler-phishing'],
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2024/07/scammers-impersonate-airline-customer-service-representatives',
+    body: `Someone posts a public complaint on X, Instagram, or Facebook — a delayed flight, a wrong order, a locked account — tagging the company and asking for help. Within minutes, an account that looks like official support replies with a sympathetic message and asks them to send a DM with their booking number, order number, or account details "so we can look into this." The account has a company logo as its profile picture and a name like "@AirlineHelpDesk" or "[email protected]," but it isn't run by the company at all — it's a scammer who was watching the same public complaint, waiting to reach the customer before the real support team does. Security researchers call this "angler phishing," a reference to the way it dangles bait in front of someone who's already asking for help.
+
+The DM conversation typically ends with the fake agent asking for information no legitimate support account collects that way: a full card number to "process a refund," a password or one-time login code to "verify the account," or a link to a spoofed site that looks like the real company's login page. Because the target reached out first — publicly, in a moment of genuine frustration — the reply feels like a response to their own request rather than an unsolicited contact, which quietly disables the skepticism people normally bring to a stranger asking for account details.
+
+This works at scale because complaints are public by design: anyone, including a scammer running dozens of lookalike accounts, can search a platform for people currently venting at airlines, banks, retailers, and delivery services, and reply before a real support team gets to it. The FTC has specifically flagged this pattern with airlines, where scammers reply to stranded or frustrated travelers' posts pretending to be the carrier and ask for a confirmation number, phone number, or bank details, or send the traveler to a spoofed site built to harvest login credentials.
+
+Warning signs include a support account with a slightly altered handle or a recently created profile, a reply that skips straight to asking for personal or account information in a DM, any request for a password, one-time passcode, or full card number, and a link that doesn't lead to the company's actual domain. Legitimate customer service accounts are typically verified (a checkmark or badge tied to the company's own official page) and will direct you to log in through the company's app or website rather than asking you to hand over credentials in a chat.
+
+The safer path is to go around social media entirely: contact the company through its official app, a phone number or web address you already know is correct, or a link from the company's own verified account rather than one found in a reply to your post. If you already shared account or payment information with a fake support account, change the affected password immediately, contact your bank or card issuer to watch for unauthorized charges, and report the impersonating account to the platform and to the FTC at ReportFraud.ftc.gov.`,
+  },
+  {
+    title: '"Swoop and Squat": Inside the Staged Car Accident Insurance Scam',
+    slug: 'swoop-and-squat-staged-car-accident-scam-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'staged-accident-fraud'],
+    sourceUrl: 'https://www.nicb.org/prevent-fraud-theft/staged-auto-accident-fraud',
+    body: `A car changes lanes and cuts sharply into the space directly in front of you, then brakes hard for no visible reason. There's no time to react, and you rear-end it. It looks like an ordinary, unlucky fender-bender, but it may have been staged from the start by two coordinated vehicles working together: the "swoop" car that cut in front and immediately sped off, and the "squat" car that braked, whose driver never had a real reason to stop and knew exactly when the crash was coming. This setup, known in the insurance industry as "swoop and squat," is one of several staged-collision schemes designed to put an ordinary driver at fault in an accident engineered to happen.
+
+Once the squat car has stopped its target, the driver and any passengers — sometimes joined by riders who weren't actually in the car at the time of impact — file a claim against the target's insurance policy for vehicle damage and, more lucrative for the scheme, for personal injuries that are exaggerated or entirely fabricated. Some rings work with complicit doctors, chiropractors, or repair shops who bill the insurer for treatment and repairs that were inflated or never performed, splitting the payout with the people who staged the crash. Because the target driver technically did strike the other car from behind — the fact insurers and police typically rely on first to assign fault in a rear-end collision — the staged version of the crash is built specifically to exploit that default assumption.
+
+Related variants include the "drive down," where a driver waves another car into a lane or intersection with a friendly gesture, then intentionally collides with it and later denies ever waving it through, and accidents staged at intersections or in parking lots where sudden, unexplained braking or reversing creates the same effect. The National Insurance Crime Bureau, which tracks and investigates this fraud, estimates staged and other forms of vehicle insurance fraud cost the industry billions of dollars every year — costs that get passed on to all drivers through higher premiums, regardless of whether they were ever personally targeted.
+
+Warning signs during or after a crash include a lead car that brakes with no visible traffic, obstacle, or hazard ahead of it; multiple passengers in the other vehicle who all report injuries, especially soft-tissue injuries that are hard to disprove; occupants who seem to know each other's stories a little too well, or who are unusually eager to recommend a specific tow company, repair shop, or medical clinic on the spot; and a "swoop" car that leaves the scene immediately without exchanging information.
+
+If you're in a crash that feels engineered: call the police to the scene and get an official report regardless of how minor it looks, photograph both vehicles, the road, and everyone present before anyone leaves, get names and contact information for any independent witnesses, and avoid admitting fault or agreeing to use a body shop or clinic the other driver recommends. Report the details to your own insurer promptly and flag anything that felt staged — insurers and the National Insurance Crime Bureau (nicb.org) investigate patterns across many claims, and a report that seems isolated to you may match others from the same ring.`,
+  },
+  {
+    title: 'Malvertising: When the Google Search Ad for Your Software Download Is a Trap',
+    slug: 'malvertising-fake-software-download-search-ads-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'malvertising'],
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2023/04/ads-fake-ai-other-software-spread-malicious-software',
+    body: `Searching for a piece of free or well-known software — a PDF reader, a video player, an AI chatbot app, a system cleanup tool — turns up a sponsored ad at the very top of the results, above the real company's own listing, often using the company's actual name and logo. The ad looks like the fastest way to get what you searched for, but clicking it can lead to a cloned website built to look identical to the real one, offering a download that installs information-stealing malware instead of, or alongside, the software you were looking for. Security researchers have tracked this technique — "malvertising" — targeting ads for widely used free programs including VLC, 7-Zip, and CCleaner, precisely because their popularity guarantees a steady stream of searchers to target.
+
+What makes this effective is that search ads are paid placements, not a ranking of trustworthiness — anyone can buy an ad for nearly any search term, including a competitor's or a well-known brand's own name, and platforms don't always catch a fake before real people start clicking it. Some campaigns send victims to a site that's a pixel-for-pixel copy of the legitimate one, differing only in the URL; others deliver the real, working software bundled with a hidden backdoor, so the download appears to succeed normally while malware installs quietly in the background. Malware families spread this way have included credential-stealing trojans and "stealer" programs built specifically to harvest saved passwords, browser cookies, and two-factor codes — exactly the information needed to take over banking, email, and social media accounts afterward.
+
+The FBI has separately warned that scammers buy search ads impersonating banks, cryptocurrency exchanges, and other financial services, luring people who search for their own bank's name into calling a fake number or logging into a spoofed site instead of the real one — the same mechanism aimed at financial credentials rather than a software download. In both versions, the ad's placement at the top of the page, combined with the visual polish of a real company's branding, is what does the persuading; the victim isn't careless, they're clicking what looks like the most official result on the page.
+
+Warning signs include a "Sponsored" or "Ad" label on the very first result for a software or company search (a legitimate site rarely needs to buy an ad for its own name), a URL in the ad that's close to but not exactly the real domain, a download prompt urging you to disable antivirus or ignore a security warning to "complete installation," and a file name that doesn't match what you searched for.
+
+The safer habit is to scroll past sponsored results and click the organic listing, or better, skip search entirely and type the software publisher's known website address directly into the browser. Download software only from the developer's own site or an established app store, keep antivirus software active during any install, and if you've already run a suspicious installer, disconnect from the internet, run a full scan from a source you trust, and change your passwords — starting with banking and email — from a separate, uncompromised device. Report a malicious ad to the platform that ran it (Google, Microsoft, Meta) and to the FTC at ReportFraud.ftc.gov.`,
+  },
 ];
 
 async function seedArticles(articles: SeedArticle[], label: string) {
@@ -19607,6 +19655,53 @@ const SEED_SCAMS: SeedScam[] = [
     alertLevel: 'medium',
     sources: ['City of London Police', 'Dedicated Card and Payment Crime Unit (DCPCU)'],
     sourceUrl: 'https://www.cityoflondon.police.uk/news/city-of-london/news/2026/june/man-jailed-for-role-in-sms-blaster-fraud-operation-following-city-of-london-police-investigation/',
+  },
+  {
+    name: 'Double-Brokering Freight Fraud',
+    slug: 'double-brokering-freight-fraud',
+    description:
+      'A fraudulent operator — often using a real, reputable trucking company\'s stolen USDOT or MC number to look legitimate on an online load board — books a freight load from a shipper or broker, then quietly re-brokers it to an actual small trucking company or owner-operator without disclosing that they are not the carrier of record. Once GPS tracking or a delivery receipt confirms the load arrived, the original broker pays the fraudulent middleman as agreed, but the middleman disappears with the money instead of forwarding payment to the driver who actually hauled the freight, leaving an owner-operator unpaid for a load already delivered and often on the hook for fuel and other costs already spent. FMCSA logged more than 8,000 double-brokering complaints in 2025, up from roughly 2,000 in 2021, and the Transportation Intermediaries Association estimates the scheme now costs carriers $700 million to $1 billion a year industry-wide. A financial-responsibility rule that took effect January 16, 2026 raised the surety bond brokers must maintain and tightened how quickly FMCSA can suspend a broker\'s operating authority once a bond violation is found, but enforcement still lags the speed at which fraudsters register new shell MC numbers. FMCSA advises carriers to verify a broker\'s authority, insurance, and bond status through the agency\'s public SAFER system before accepting a load, get the actual paying party\'s legal name and MC number in writing, and report suspected double brokering through FMCSA\'s National Consumer Complaint Database.',
+    categorySlug: 'identity-theft',
+    country: 'US',
+    alertLevel: 'high',
+    sources: ['Federal Motor Carrier Safety Administration (FMCSA)', 'Transportation Intermediaries Association'],
+    sourceUrl: 'https://www.fmcsa.dot.gov/mission/help/broker-and-carrier-fraud-and-identity-theft',
+  },
+  {
+    name: 'Wisconsin "Timeshare Exit" Advance-Fee Scheme (Square One / Consumer Law Protection)',
+    slug: 'wisconsin-square-one-consumer-law-protection-timeshare-exit-scheme',
+    description:
+      'Operating under a rotating set of names — Square One Group, Consumer Law Protection, Premier Reservations Group, Resort Transfer Group, and Timeshare Help Source — Christopher Carroll and several co-defendants used direct mail and in-person sales presentations to tell timeshare owners nationwide that they were legally trapped and could only escape their contract by paying the company\'s fee, which ran from $5,000 to more than $80,000 per household. The Federal Trade Commission and the Wisconsin Department of Justice, which jointly sued the operation in November 2022, found the defendants falsely claimed affiliation with consumers\' actual timeshare companies, required buyers to sign contracts falsely described as non-cancelable in violation of the FTC\'s Cooling-Off Rule, and then withheld the "guaranteed" refunds when the exit never happened. In April 2026, a federal court granted summary judgment against Carroll, the scheme\'s last remaining defendant, ordering him to pay $95 million in consumer redress plus a $45 million civil penalty and permanently banning him from the timeshare-exit business, after the operation was found to have taken more than $90 million from over 11,000 consumers, most of them elderly. Legitimate timeshare exit is possible through the resort\'s own deed-back program or a licensed real estate attorney, so consumers should be skeptical of any company that demands a large upfront fee, claims a "guarantee," or pressures a same-day signature — and can verify a company\'s standing with the Wisconsin Department of Agriculture, Trade and Consumer Protection or their own state attorney general before paying anything.',
+    categorySlug: 'timeshare-scams',
+    country: 'US',
+    state: 'WI',
+    isHistorical: true,
+    sources: ['Federal Trade Commission (FTC)', 'Wisconsin Department of Justice', 'U.S. Department of Justice'],
+    sourceUrl: 'https://www.justice.gov/opa/pr/united-states-and-state-wisconsin-obtain-over-140m-judgment-and-permanent-injunction-against',
+  },
+  {
+    name: 'Baxter County In-Person "Federal Agent" Cash Pickup Sting',
+    slug: 'arkansas-baxter-county-federal-agent-cash-pickup-scam',
+    description:
+      'In a wave of scams targeting elderly residents of Mountain Home, Arkansas in 2025, callers running overseas fraud operations convinced victims their money or assets — in one case cash plus what the victim believed were gold bars — were at risk and needed to be "surrendered" or moved to safety, then sent a local "money mule" to the victim\'s home to collect the payment in person while falsely claiming to be a federal agent. In one incident a mule told an 86-year-old man he was an FBI agent there to collect $250,000 in cash and gold bars; in another, a mule collecting $60,000 identified himself as an "FTC Agent" who was "here for the money." The Baxter County Sheriff\'s Office, working with the FBI, Homeland Security Investigations, and a scam-awareness production company, ran a series of decoy stings using fake elderly homeowners and arrested multiple mules on the spot as they arrived to collect the cash — though at least one arrested mule later said he believed he was legitimately delivering funds and may have been a recruited victim of the scheme himself rather than a knowing participant. Real FBI and FTC agents never collect money, gold, or other assets in person from a private residence to "protect" it or resolve a case, so any such visit — regardless of the badge, ID, or explanation offered — should be met with a call to the actual agency through a number looked up independently, not one given by the visitor.',
+    categorySlug: 'government-impersonation',
+    country: 'US',
+    state: 'AR',
+    alertLevel: 'high',
+    sources: ['Baxter County Sheriff\'s Office', 'KAIT8', 'KARK'],
+    sourceUrl: 'https://www.baxtercountysheriff.com/press-releases/secondoperationtargetsscammersarrests',
+  },
+  {
+    name: 'Mesa Financial Adviser Forged-Statement Retirement Theft (Daniel Droeg)',
+    slug: 'arizona-mesa-daniel-droeg-forged-statement-retirement-theft',
+    description:
+      'Daniel "Dan" Droeg, a Mesa, Arizona-based investment adviser registered with the state since 1987, allegedly forged client financial statements and diverted retirement and investment account funds for his own use over a roughly decade-long period from 2010 to 2020. The Arizona Corporation Commission investigated first, ordering Droeg to pay more than $1.1 million in restitution and a $150,000 penalty after finding he used his authority as a trust\'s trustee to surrender a client\'s annuity and transfer more than $878,000 of trust funds into his own bank accounts, and his brokerage separately found he had created and distributed fictitious account statements to clients. Arizona Attorney General Kris Mayes announced in April 2026 that a state grand jury indicted Droeg on felony fraud, theft of $100,000 or more, and forgery charges, with the criminal case now pending in Maricopa County Superior Court. Because a forged statement can make a depleted account look untouched for years, the Arizona Corporation Commission\'s Securities Division advises checking any adviser\'s disciplinary history on FINRA BrokerCheck or the SEC\'s Investment Adviser Public Disclosure site, and getting account statements directly from the custodian (the brokerage or fund company) rather than relying solely on statements the adviser prepares and sends.',
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    state: 'AZ',
+    alertLevel: 'medium',
+    sources: ["Arizona Attorney General's Office", 'Arizona Corporation Commission', 'Financial Advisor Magazine'],
+    sourceUrl: 'https://www.azag.gov/press-release/attorney-general-mayes-announces-indictment-fraud-scheme-involving-forged-financial',
   },
 ];
 
