@@ -22347,6 +22347,28 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['FraudSMART (Banking & Payments Federation Ireland)'],
     sourceUrl: 'https://www.fraudsmart.ie/2024/07/22/distraction-fraud/',
   },
+  {
+    name: 'Chinese Police Impersonation "Virtual Kidnapping" Extortion Scam',
+    slug: 'chinese-police-impersonation-virtual-kidnapping-scam',
+    description:
+      'A caller in the US targeting a Chinese international student or another member of the Chinese immigrant community claims to be from a Chinese courier company, telecom carrier, or the Chinese Embassy about a supposed package or visa problem, then "transfers" the call to someone posing as a Chinese police officer who accuses the victim of a serious financial crime under investigation back in China, such as money laundering or fraud. The fake officer demands the victim consent to 24/7 video and audio monitoring, isolates them from friends, family, and campus support by threatening deportation or arrest if they tell anyone, and sometimes directs them to relocate to a hotel or Airbnb and stage photos or a video that make it look like they have been kidnapped, which are then sent to the victim\'s parents in China along with a ransom demand — while the victim, still on the monitored call, is separately pressured to wire "bail" or "investigation clearance" money to a Chinese bank account. The FBI\'s Internet Crime Complaint Center has tracked this scheme targeting the US-based Chinese community nationwide since at least 2022, and field offices including Philadelphia renewed the warning heading into the 2026-2027 school year as a new wave of international students arrived on US campuses; the FBI stresses that real Chinese police never conduct an investigation or arrest entirely over video call, and students who receive such a call should hang up, avoid isolating themselves, and verify independently with campus international-student services or the FBI rather than complying with monitoring demands.',
+    categorySlug: 'government-impersonation',
+    country: 'US',
+    alertLevel: 'high',
+    sources: ['FBI Internet Crime Complaint Center (IC3)', 'FBI Philadelphia Field Office'],
+    sourceUrl: 'https://www.ic3.gov/PSA/2024/PSA240103',
+  },
+  {
+    name: 'Fake "Certificate of Deposit" Spoofed Bank Website Scam',
+    slug: 'fake-certificate-of-deposit-spoofed-website-scam',
+    description:
+      'A saver searching online for the best CD rate, or responding to an internet ad, lands on a professional-looking website that mimics a real, well-known bank, credit union, or brokerage — using a look-alike domain name and often falsely claiming FDIC, FINRA, SIPC, or NYSE membership — and advertises an above-market interest rate on a certificate of deposit. Calling the number on the site connects the saver to a fake "account executive" who collects an email address, then instructs them to wire a large sum, often the legal minimum needed to look institutional and frequently $200,000 or more, to a "clearing partner" account that has no real connection to the bank being impersonated; the money is gone as soon as it is wired, and there is no CD, no FDIC insurance, and no way to reach the "bank" again. The SEC obtained a final consent judgment on September 11, 2025 against Allen C. Giltman for his role in one such scheme, which the agency says defrauded scores of US investors — many of them older adults using retirement savings — out of at least $40 million through a network of spoofed CD websites. The SEC advises verifying any CD offer by calling the real institution using a phone number independently looked up (never one from the website or ad), checking that a named broker is actually registered through FINRA BrokerCheck, and treating any request to wire money to an account under a different name than the bank advertising the CD as a certain sign of fraud.',
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    alertLevel: 'high',
+    sources: ['U.S. Securities and Exchange Commission (SEC)'],
+    sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26399',
+  },
 ];
 
 async function seedCategoriesAndScams() {
