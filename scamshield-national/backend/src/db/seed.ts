@@ -21873,6 +21873,28 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Hyderabad Police Cybercrime Division'],
     sourceUrl: 'https://telanganatoday.com/elderly-hyderabad-woman-loses-rs-35-lakh-in-cyber-fraud-faking-sons-accident-in-london',
   },
+  {
+    name: 'TikTok "Fired Employee" Secret Discount Code Scam',
+    slug: 'tiktok-fired-employee-secret-discount-code-scam',
+    description:
+      'A TikTok account poses as a recently and "unfairly" fired employee of a real, well-known retailer — commonly a high-end jewelry store — who claims to be getting revenge by leaking the company\'s confidential internal discount code, said to cut prices by up to 100%. Viewers who follow the link reach a storefront selling real-looking items at those steep discounts, but checkout still charges "shipping," a fee that climbs disproportionately as more items are added to the cart, and there is no phone number, physical address, or working order-cancellation option — only an email contact that goes unanswered once payment clears. The BBB documented victims who ordered hundreds of dollars in merchandise this way receiving either cheaply made knockoffs or nothing at all, and warns that scammers rotate the same "insider revenge" script across other high-value categories, including electronics and designer handbags, opening a new storefront each time an old one is shut down or exposed. Because the pitch relies on manufactured sympathy and a sense of being let in on a secret rather than urgency alone, it can bypass the skepticism a typical too-good-to-be-true ad would trigger.',
+    categorySlug: 'online-shopping-scams',
+    country: 'US',
+    alertLevel: 'medium',
+    sources: ['Better Business Bureau (BBB)'],
+    sourceUrl: 'https://www.bbb.org/article/scams/29300-bbb-scam-alert-social-media-discount-code-shopping-scam',
+  },
+  {
+    name: 'Auto Dealer Hidden Financing Add-On Fee Scheme',
+    slug: 'auto-dealer-hidden-financing-add-on-fee-scheme',
+    description:
+      'Real, licensed car dealerships — not fake websites — quietly insert add-on products such as GAP insurance, vehicle service contracts, maintenance plans, and "total loss protection" into a buyer\'s financing paperwork without the buyer\'s knowledge or affirmative consent, sometimes falsely telling the buyer an add-on is required to qualify for financing or to get the advertised price. In an August 2026 case, the FTC and Connecticut\'s Attorney General secured a $4 million settlement with Manchester City Nissan after finding "total loss protection" had been added this way to roughly 90% of its sales, on top of separately overcharging for "certified pre-owned" inspections that were sometimes never performed. Months earlier, in April 2026, the FTC and Maryland\'s Attorney General reached a settlement worth more than $75 million in consumer redress with Lindsay Automotive Group over the same core add-on tactic, and in March 2026 the FTC sent warning letters to 97 dealership groups nationwide reminding them that an advertised price must include every mandatory fee. The FTC advises buyers to get the full "out-the-door" price in writing before discussing financing, decline any add-on that isn\'t independently itemized and explained, and read the actual financing contract line by line before signing, since a charge added without a buyer\'s affirmative agreement is one they are entitled to have removed and refunded.',
+    categorySlug: 'insurance-fraud',
+    country: 'US',
+    alertLevel: 'high',
+    sources: ['Federal Trade Commission (FTC)'],
+    sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2026/04/ftc-maryland-attorney-general-secure-full-refunds-additional-penalties-against-lindsay-auto-group',
+  },
 ];
 
 async function seedCategoriesAndScams() {
