@@ -17146,6 +17146,42 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Telekområdgivarna'],
     sourceUrl: 'https://telekomradgivarna.se/pressmeddelande/varning-for-oserios-forsaljning-av-telefoni/',
   },
+  {
+    name: 'Orlando "Guaranteed Buyer" Timeshare Resale Scam',
+    slug: 'florida-orlando-guaranteed-buyer-timeshare-resale-scam',
+    description:
+      'An Orlando-based operation cold-called Florida timeshare owners promising a fast, guaranteed sale to an eager buyer if the owner first paid an upfront "marketing fee," then never produced a buyer. A Florida investigation found at least 50 victims statewide, and the operator pleaded guilty to grand theft, was sentenced to jail time followed by probation, and was ordered to pay tens of thousands of dollars in restitution to victims. Florida is the timeshare capital of the US, with its own state licensing regime for timeshare resale activity, and this case illustrates how a state\'s outsized concentration of a legitimate industry can also mean an outsized concentration of the fraud that preys on it.',
+    categorySlug: 'timeshare-scams',
+    country: 'US',
+    state: 'FL',
+    alertLevel: 'medium',
+    sources: ['Florida Attorney General\'s Office (Office of Statewide Prosecution)'],
+    sourceUrl: 'https://www.myfloridalegal.com/newsrelease/restitution-secured-victims-timeshare-scam',
+  },
+  {
+    name: 'Dickinson Public Schools Vendor-Impersonation Email Fraud',
+    slug: 'north-dakota-dickinson-schools-vendor-impersonation-fraud',
+    description:
+      'Criminals impersonated a trusted, real vendor of a North Dakota school district via email and convinced district staff to redirect two scheduled payments from the district\'s building fund into a fraudulent account, draining nearly $4.92 million in public school construction money. Because the theft exceeded local jurisdictional capacity, the case was referred to the FBI and the U.S. Attorney\'s Office, which traced the funds to a bank account, filed a civil forfeiture complaint, and obtained a federal seizure warrant, ultimately returning the money to the district. This is one of the largest publicly documented business-email-compromise losses against a US school district, a reminder that any request to change payment instructions for a large construction or vendor payment should be verified by phone using a number already on file, never one provided in the email itself.',
+    categorySlug: 'business-email-compromise',
+    country: 'US',
+    state: 'ND',
+    alertLevel: 'high',
+    sources: ['U.S. Attorney\'s Office, District of North Dakota', 'FBI'],
+    sourceUrl: 'https://www.valleynewslive.com/2026/04/30/federal-authorities-seize-nearly-49m-stolen-dickinson-public-schools/',
+  },
+  {
+    name: 'The Olive Branch Autism Clinic Wyoming Medicaid Fraud',
+    slug: 'wyoming-olive-branch-autism-clinic-medicaid-fraud',
+    description:
+      'The owner of a Wyoming behavioral health clinic billed Wyoming Medicaid for autism-therapy services for children, including claims for uncertified care, claims upcoded to a higher-paying service code, and bills for sessions that never occurred, on dates when the clinic was closed or the owner was out of the country. She and a co-conspirator were indicted, pleaded guilty, and were sentenced in federal court, with the owner receiving prison time and both ordered to pay over $735,000 in restitution to Wyoming Medicaid. This is Wyoming\'s first documented healthcare-fraud case of this kind, and it illustrates how families relying on autism therapy for a child should watch for services being billed that were never actually delivered.',
+    categorySlug: 'healthcare-fraud',
+    country: 'US',
+    state: 'WY',
+    alertLevel: 'medium',
+    sources: ['U.S. Attorney\'s Office, District of Wyoming', 'FBI Denver Field Office'],
+    sourceUrl: 'https://www.fbi.gov/contact-us/field-offices/denver/news/no-one-is-above-the-lawflorida-mother-daughter-duo-sentenced-and-ordered-to-pay-over-800k-for-fraud-scheme',
+  },
 ];
 
 async function seedCategoriesAndScams() {
