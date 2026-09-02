@@ -3000,6 +3000,61 @@ By 1937, the fabrication had helped grow McKesson & Robbins into the third-large
 McKesson & Robbins filed for court protection in December 1938, and the SEC opened an investigation within days. Coster and two brothers were arrested on December 13; two nights later, a midnight comparison of Coster's fingerprints against federal records confirmed he was Philip Musica, the twice-convicted felon. His bond was revoked, and rather than face rearrest under his true name, he shot himself in the bathroom of his Fairfield, Connecticut home on December 16, 1938. The scandal directly produced two auditing reforms still in force today — the requirement that public companies maintain audit committees of independent directors, and the requirement that auditors physically observe inventory and independently confirm receivables with outside parties rather than accept management's own paperwork as proof. It is, in effect, the origin story of "trust but verify" in modern accounting, and every fraud since that has relied on an auditor simply believing the numbers it was handed — Wirecard's fictitious trust accounts among the largest of them — is a reminder of exactly what that 1938 reform was built to stop.`,
     sourceUrl: 'https://en.wikipedia.org/wiki/Phillip_Musica',
   },
+  {
+    title: 'Oscar Hartzell and the Sir Francis Drake Estate Fraud That Fooled Iowa Farmers for Fifteen Years',
+    slug: 'oscar-hartzell-sir-francis-drake-estate-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `In 1915, Oscar Hartzell was forty years old, broke, and living in Iowa when two con artists, Sudie Whiteaker and Milo Lewis, approached his mother with a proposition: her $6,000 could grow into $6 million, because she — and every American named Drake — was a potential heir to the unclaimed fortune of the Elizabethan explorer and privateer Sir Francis Drake, who had died in 1596 and whose estate, the pitch went, had sat untouched in the English courts ever since, quietly accumulating interest for more than three centuries. Hartzell tracked the pair down — not to warn his mother off, but to buy in himself. Within a few years he had pushed the original operators aside entirely and taken the racket over as his own.
+
+Hartzell's version of the pitch grew more audacious than the one he inherited. He told investors the Drake estate, compounded since the sixteenth century, was now worth $100 billion and included not just cash but the entire city of Plymouth, in Devon, England. For every dollar contributed toward the "legal fees" needed to pry the inheritance loose from the Crown, he promised a payout of $500. In 1917 he relocated to London to personally oversee the supposed negotiations, mailing back a steady stream of bulletins reporting that release of the funds was imminent — always delayed by one more court filing, one more bureaucratic obstacle, one more payment.
+
+The scheme ran for the better part of two decades and, by the time it collapsed, had drawn in an estimated 70,000 to 80,000 people, overwhelmingly farmers across Iowa and the rest of the Midwest, many of whom organized local "Drake Association" chapters to recruit neighbors and relatives. Some mortgaged their farms to keep contributing through the Depression. At the scheme's peak in 1932, Hartzell was collecting roughly $20,000 a month from believers who considered themselves shareholders in a fortune rather than victims of a fraud.
+
+Proof that no such estate existed arrived early and changed nothing. On August 9, 1922, the British Home Office formally notified the American embassy that there was no unclaimed Drake estate — records showed Drake's actual widow, Elizabeth Sydenham, had inherited what he left behind in 1597. Hartzell folded the denial into the pitch itself, telling investors that the British government and "the interests" were conspiring to keep their rightful inheritance from them, and that continued contributions were now more urgent than ever. Money kept arriving for another decade.
+
+U.S. postal inspectors, working with Scotland Yard, eventually built a mail fraud case that led to Hartzell's deportation from Britain in 1933. He returned to Sioux City, Iowa, to stand trial and was met at the courthouse by hundreds of supporters who still believed in the Drake fortune and cheered him as a native son. A jury convicted him of mail fraud in November 1934, and he was sentenced to ten years in federal prison and a $2,000 fine. Prison psychiatrists later diagnosed him with paranoid schizophrenia — evidence, by some readings, that he had come to believe his own story — and transferred him to the medical center for federal prisoners in Springfield, Missouri, where he died of throat cancer on August 27, 1943, still insisting the Drake fortune was real.
+
+Hartzell's fraud endures as a study in how a con survives contact with its own disproof. Once his investors had spent years, and in some cases their farms, defending the reality of a $100 billion inheritance to skeptical neighbors, a British government letter denying its existence was not evidence to them — it was an attack to be resisted, and resisting it alongside people who had made the same bet was, by then, part of their identity. The same dynamic still drives modern advance-fee and inheritance scams, from "unclaimed funds" emails to romance-scam victims who keep sending money even after banks and family members warn them it is a fraud: the harder a scheme is to disprove without giving up months or years of sunk emotional and financial investment, the more its victims become its defenders.`,
+    sourceUrl: 'https://en.wikipedia.org/wiki/Oscar_Hartzell',
+  },
+  {
+    title: 'George C. Parker and the Brooklyn Bridge He Sold to Immigrants Again and Again',
+    slug: 'george-c-parker-brooklyn-bridge-con',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `George C. Parker was born in New York City in 1860 to Irish immigrant parents and built a criminal career, spanning roughly three decades, around a single insight: newcomers arriving through Ellis Island had cash, little familiarity with American law, and few people nearby to ask whether a deal sounded too good to be true. Parker paid stewards and dockworkers to point him toward immigrants who looked prosperous and unfamiliar with the city, then approached them personally, often from a rented office stocked with authentic-looking stationery and forged legal documents.
+
+His signature con involved the Brooklyn Bridge. Posing as its builder or owner — and, depending on the mark, sometimes claiming he was simply tired of the stress of operating it — Parker produced fabricated deeds and bills of sale convincing buyers they were purchasing the span outright, tolls and all. Some victims believed it enough to attempt to erect their own toll booths on the bridge, at which point police intervened and the scam became public. Because Parker rarely sold to the same mark twice and most victims were too embarrassed to report the loss, he was able to sell the bridge to a long succession of different buyers over many years.
+
+The bridge was only his best-known property. Parker also sold building lots he did not own around City Hall Park to out-of-town buyers, posed as a grandson of Ulysses S. Grant to solicit donations toward "finishing" Grant's Tomb, and at various points claimed ownership of Madison Square Garden, the Metropolitan Museum of Art, and the Statue of Liberty. He operated under a rotating set of aliases — including James J. O'Brien, Warden Kennedy, Mr. Roberts, and Mr. Taylor — that let him keep working the same city's landmarks even as his name became notorious.
+
+Parker was arrested and convicted repeatedly over his career but served only two of his sentences in full; in 1908, mid-sentence, he escaped custody wearing a stolen sheriff's hat and coat. It was, in the end, a small and almost incidental crime that ended his run: in 1928 he was arrested for cashing a forged check worth $150. Under New York's newly enacted Baumes Law, which mandated life imprisonment for a fourth felony conviction, Judge Alonzo McLaughlin sentenced Parker to life in Sing Sing Prison on December 17, 1928. He died there on January 9, 1937.
+
+Parker's exploits are the direct origin of the American idiom "if you believe that, I've got a bridge to sell you" — a phrase that has outlived nearly every specific detail of his actual crimes, precisely because the underlying joke, that some claims are so implausible only a fool would fall for them, undersells how convincingly he made his case with real-looking paperwork and a rented office to match.
+
+Parker's decades-long run depended on the same vulnerability that still enables real-estate and title fraud today: verifying a deed or a sale required a level of institutional friction — a title search, a lawyer, a trip to a county office — that a confident-sounding stranger with convincing documents could simply outrun before anyone checked. Modern versions of the same fraud use forged deeds to "sell" homes the seller does not own, often targeting vacant properties or absentee owners, betting the buyer's paperwork will look official enough that nobody looks closer until the real owner shows up — the same bet Parker made, and won, over and over, for thirty years.`,
+    sourceUrl: 'https://en.wikipedia.org/wiki/George_C._Parker',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/George_C_Parker.webp?width=1200',
+    coverImageCredit: 'Photo: Unknown photographer (Public Domain)',
+    coverImagePosition: 50,
+  },
+  {
+    title: 'Ilya Lichtenstein, Heather Morgan, and the $10 Billion Bitcoin Laundering Scheme Undone by Gift Cards',
+    slug: 'ilya-lichtenstein-heather-morgan-bitfinex-hack-laundering',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `On August 2, 2016, someone breached the security of Bitfinex, then one of the world's largest cryptocurrency exchanges, and over the course of roughly three hours executed more than 2,000 unauthorized transactions that drained 119,754 bitcoin — worth about $71 million at the time — from the exchange's wallets into an account the intruder controlled. The hacker was Ilya Lichtenstein, a Russian-American tech entrepreneur who had found a way around the multiple layers of approval Bitfinex's security partner, BitGo, required to move funds.
+
+Rather than immediately cash out, Lichtenstein largely sat on the stolen bitcoin for years, moving only small amounts at a time to avoid drawing attention, with help from his wife, Heather Morgan. The couple built an elaborate laundering pipeline: opening accounts under fabricated identities, routing funds through darknet markets and cryptocurrency exchanges, "chain hopping" between different digital currencies to obscure the trail, and running funds through the Bitcoin Fog mixing service on at least ten occasions. Eventually they began converting proceeds into fiat currency, gold, and prepaid gift cards. In public, the pair maintained an ordinary tech-industry image; Morgan ran a startup and, under the rap persona "Razzlekhan," released music videos and wrote articles on business fraud and cybersecurity — advice on how to spot the kind of scheme she was helping run.
+
+Investigators eventually traced part of the laundering trail to a mundane transaction: bitcoin redeemed for Walmart gift cards through an account linked to Morgan's real identity. That thread, combined with financial records and cloud-storage files recovered under search warrants — including a spreadsheet of thousands of cryptocurrency addresses and instructions for creating fake identification — led federal agents to arrest Lichtenstein and Morgan at their Manhattan apartment in February 2022. Agents seized roughly 94,000 bitcoin tied to the hack, then worth about $3.6 billion, at the time the largest financial seizure in Justice Department history.
+
+Both defendants pleaded guilty on August 3, 2023, to conspiracy to commit money laundering; Lichtenstein separately admitted to conspiracy to defraud the United States over the original hack. By the time they were sentenced in November 2024, bitcoin's price appreciation meant the recovered funds — by then worth more than $10 billion — dwarfed the roughly $71 million actually stolen eight years earlier. Lichtenstein was sentenced to five years in federal prison plus three years of supervised release; Morgan received eighteen months.
+
+The case is now a standard reference point in how law enforcement approaches cryptocurrency crime: every bitcoin transaction is permanently recorded on a public ledger, which means funds once assumed to be effectively anonymous can be traced years later as blockchain forensics tools mature, even when the thief has since built an entirely unconnected public persona. It is also, more simply, a reminder that sophisticated, years-long financial crimes are still frequently undone by the smallest and most ordinary mistakes — in this case, a gift-card purchase — a pattern that shows up as often in eight-figure Ponzi schemes as it does in billion-dollar cryptocurrency theft, because the discipline needed to hide money perfectly for years rarely survives contact with everyday convenience.`,
+    sourceUrl: 'https://www.justice.gov/usao-dc/pr/bitfinex-hacker-sentenced-money-laundering-conspiracy-involving-billions-stolen',
+  },
 ];
 
 // Practical "how it works / red flags / what to do" guides covering the
@@ -14625,6 +14680,52 @@ const SEED_SCAMS: SeedScam[] = [
     alertLevel: 'high',
     sources: ['Skatteverket (Swedish Tax Agency)', 'Svensk Adressändring (Swedish Address-Change Service)'],
     sourceUrl: 'https://www.skatteverket.se/privat/folkbokforing/identitetsintrang.4.35c34f651660af3747c3178.html',
+  },
+  {
+    name: 'Connecticut Fake State Marshal Arrest/Debt-Collection Scam',
+    slug: 'connecticut-fake-state-marshal-arrest-debt-collection-scam',
+    description:
+      'Connecticut is one of the few states with a "State Marshal" system, an independently commissioned body of officers overseen by the Connecticut State Marshal Commission that holds real, narrow statutory authority to serve civil process and collect on court-ordered tax warrants and executions. Scammers exploit the public\'s unfamiliarity with this state-specific office: callers claiming to be a state marshal, sometimes using a real marshal\'s actual name or a spoofed caller ID, tell victims they face immediate arrest over a missed court date, unpaid fine, or skipped jury duty unless they pay by cash, wire transfer, or another untraceable method right away. The Connecticut State Marshal Commission confirms that real marshals always carry written court or tax-collector documentation and never demand instant, untraceable payment over the phone to avoid arrest.',
+    categorySlug: 'government-impersonation',
+    country: 'US',
+    state: 'CT',
+    alertLevel: 'high',
+    sources: ['Connecticut State Marshal Commission', 'Connecticut State Police'],
+    sourceUrl: 'https://portal.ct.gov/DAS/Press-Room/Press-Releases/2021/CT-State-Marshal-Commission-Scam-Alert',
+  },
+  {
+    name: 'Utah Community Affinity Investment Fraud',
+    slug: 'utah-community-affinity-investment-fraud',
+    description:
+      'Utah has one of the nation\'s highest per-capita rates of investment fraud through affinity fraud, schemes promoted through the state\'s tightly-knit community and congregational networks, where shared membership substitutes for the due diligence a stranger\'s pitch would normally receive; federal prosecutors in Utah have brought at least four such investment-fraud cases since the start of 2025 totaling more than $49 million in losses. Utah\'s distinctive legal response is the nation\'s first state "White Collar Crime Offender Registry," created by the Utah Legislature in 2015 and maintained by the Utah Division of Securities, a public, searchable database modeled on the sex-offender registry that lists anyone convicted in the past ten years of securities fraud, mortgage fraud, or similar financial crimes. The Division of Securities specifically advises Utahns to check a promoter\'s name against the registry and verify licensing before investing with someone from within their own community.',
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    state: 'UT',
+    alertLevel: 'high',
+    sources: ['Utah Division of Securities (Utah Department of Commerce)', 'Utah Attorney General\'s Office'],
+    sourceUrl: 'https://securities.utah.gov/communication-and-outreach/basic-definitions/affinity-fraud/',
+  },
+  {
+    name: 'Fraudulent Cardiovascular Testing Scam Targeting Student Athletes',
+    slug: 'fraudulent-cardiovascular-testing-student-athletes-scam',
+    description:
+      'Fraudulent testing operators market "free" or heavily discounted cardiovascular screening events, such as EKGs and echocardiograms, directly to schools, athletic programs, and families, exploiting fear of sudden cardiac arrest in young athletes and bypassing the normal requirement of a referral from the patient\'s own physician. The tests are billed to Medicare or Medicaid at inflated or medically unnecessary rates, while actual readings are frequently rushed or effectively rubber-stamped rather than genuinely reviewed by a qualified physician. HHS-OIG\'s alert cites a federal case involving a Texas cardiovascular-practice medical director indicted in an alleged $89 million scheme running rushed heart screenings on hundreds of thousands of college athletes nationwide, including one instance where a test was signed off as "normal" despite an unconfirmed note of a possible abnormality; that student died of sudden cardiac arrest roughly 24 days later during team practice. HHS, CMS, and HHS-OIG jointly warn that an unreferred, aggressively marketed "free" cardiac screening event is itself a red flag.',
+    categorySlug: 'healthcare-fraud',
+    country: 'US',
+    alertLevel: 'high',
+    sources: ['U.S. Department of Health and Human Services (HHS)', 'HHS Office of Inspector General (HHS-OIG)', 'Centers for Medicare & Medicaid Services (CMS)'],
+    sourceUrl: 'https://oig.hhs.gov/fraud/consumer-alerts/consumer-alert-cardiovascular-testing/',
+  },
+  {
+    name: 'Account Takeover for Stolen Intimate-Image Resale',
+    slug: 'account-takeover-stolen-intimate-image-resale',
+    description:
+      'Attackers break into victims\' social media and personal accounts, using credential-stuffing with password lists built from prior data breaches, by impersonating platform customer support to solicit a password-reset verification code, or through phishing pages that mimic a platform\'s real support site, specifically to steal any private explicit images or videos accessible through the account. Rather than only extorting the account holder directly as in classic sextortion, the FBI warns that the stolen non-consensual intimate imagery and the victim\'s personal identifying information are instead posted publicly or sold on criminal marketplaces, fueling follow-on harassment, stalking, and further sextortion by other actors entirely. Both adults and minors are targeted, sometimes deliberately and sometimes opportunistically. The FBI recommends never storing sensitive imagery on internet-connected accounts, using unique passphrases with multi-factor authentication, and never handing a one-time verification code to anyone claiming to be platform support.',
+    categorySlug: 'sextortion',
+    country: 'US',
+    alertLevel: 'high',
+    sources: ['Federal Bureau of Investigation (FBI) Internet Crime Complaint Center (IC3)'],
+    sourceUrl: 'https://www.ic3.gov/PSA/2026/PSA260810',
   },
 ];
 
