@@ -18636,6 +18636,30 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['SuperValu Ireland', 'Irish Examiner'],
     sourceUrl: 'https://www.irishexaminer.com/breakingnews/ireland/supervalu-warns-customers-about-whatsapp-scam-807501.html',
   },
+  {
+    name: 'Wake County Duke Energy Identity-Theft Account Fraud Ring',
+    slug: 'wake-county-duke-energy-identity-theft-account-fraud',
+    description:
+      "A fraud ring in North Carolina's Wake County used stolen Social Security numbers and other personal information belonging to both living and deceased people to open fraudulent Duke Energy customer accounts, then ran up nearly $500,000 in unpaid charges before the utility flagged the pattern and brought it to the Wake County Sheriff's Office in mid-2025. Investigators say the scheme relied on identity data obtained elsewhere — not a breach of Duke Energy's own systems — and multiple suspects have since been arrested and charged with obtaining property by false pretenses, financial transaction fraud, and identity theft as the investigation has expanded. Unlike a scam call that pressures a customer into paying a fake bill, this scheme creates real accounts and real debt in a victim's name without their knowledge, so residents (and family members managing a deceased relative's affairs) can protect themselves by periodically checking their credit report and the National Consumer Telecom & Utilities Exchange for unfamiliar utility accounts, and by placing a security freeze on both. Anyone who discovers an unrecognized Duke Energy account in their name should dispute it directly with the utility and file a police report and an FTC identity theft report.",
+    categorySlug: 'identity-theft',
+    country: 'US',
+    state: 'NC',
+    alertLevel: 'high',
+    sources: ['Wake County Sheriff\'s Office', 'WRAL News'],
+    sourceUrl: 'https://www.wral.com/news/local/duke-energy-fraud-wake-forest-oct-2025/',
+  },
+  {
+    name: 'Phoenix Counseling & Wellness Vermont Medicaid Billing Fraud Judgment',
+    slug: 'vermont-phoenix-counseling-medicaid-billing-fraud',
+    description:
+      'Phoenix Counseling & Wellness, PLC, a Poultney, Vermont mental-health and substance-abuse counseling practice, and its owner Lauren Ann LaSante submitted at least 164 claims to Vermont Medicaid for counseling sessions between 2019 and 2022 without keeping the contemporaneous treatment documentation state rules require, and repeatedly refused patients\' requests for copies of their own treatment records — a pattern the Vermont Attorney General\'s Medicaid Fraud and Residential Abuse Unit says obstructed a multi-agency investigation into whether the billed services were actually delivered as claimed. A Rutland County judge entered a civil judgment against LaSante and Phoenix PLC for $2,733,989.47 in February 2025. The case illustrates a right most Medicaid patients don\'t realize they have: anyone receiving Medicaid-funded counseling or medical care can request their own treatment records at any time, and a provider who stalls, refuses, or cannot produce documentation for services it billed for is a red flag worth reporting to the state Medicaid Fraud Unit, since that paper trail is often the only way patients or investigators can verify care was actually provided.',
+    categorySlug: 'healthcare-fraud',
+    country: 'US',
+    state: 'VT',
+    alertLevel: 'medium',
+    sources: ['Vermont Attorney General\'s Office'],
+    sourceUrl: 'https://ago.vermont.gov/blog/2025/02/05/attorney-generals-office-announces-judgment-against-fraudulent-medicaid-contractors',
+  },
 ];
 
 async function seedCategoriesAndScams() {
