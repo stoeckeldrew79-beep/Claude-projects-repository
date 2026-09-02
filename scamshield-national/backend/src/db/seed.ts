@@ -20146,6 +20146,17 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['U.S. Department of Justice', 'WSB-TV'],
     sourceUrl: 'https://www.justice.gov/criminal/criminal-fraud/health-care-fraud-unit/2026-national-hcf-case-summaries',
   },
+  {
+    name: 'Cloned Car Dealership Website Scam',
+    slug: 'cloned-car-dealership-website-scam',
+    description:
+      'Scammers use AI to clone the website of a real, established car dealership — copying its brand logos, vehicle inventory, and photos down to the smallest detail, and in some cases fabricating customer testimonials — so the fake site is indistinguishable from the dealership\'s actual one. The cloned listings often dangle a rare or hard-to-find classic or muscle car at an attractive price, walk the buyer through a convincingly detailed purchase process and customer-friendly return policy, and then push for payment upfront, frequently insisting on a wire transfer. Victims typically only discover the fraud when they arrive at the real dealership to pick up their new car and staff have no record of the order or the payment, because the dealership whose name and site were used was never actually involved in the sale. The FTC\'s September 2026 alert advises searching a dealership\'s name together with words like "scam," "review," or "complaint" before paying, insisting on an in-person viewing or a paid third-party mobile inspection for a long-distance purchase, and treating any seller who refuses an in-person look or demands wire-transfer-only payment as a red flag; suspected incidents should be reported to the FTC at ReportFraud.ftc.gov.',
+    categorySlug: 'online-shopping-scams',
+    country: 'US',
+    alertLevel: 'medium',
+    sources: ['Federal Trade Commission (FTC)'],
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2026/09/scammers-are-spoofing-car-dealership-websites-what-you-need-know',
+  },
 ];
 
 async function seedCategoriesAndScams() {
