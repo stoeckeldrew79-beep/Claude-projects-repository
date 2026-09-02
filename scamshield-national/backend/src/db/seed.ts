@@ -20786,6 +20786,53 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Office of the Maryland Attorney General'],
     sourceUrl: 'https://oag.maryland.gov/News/Pages/Baltimore-County-Jury-Finds-Former-Insurance-Agent-and-Financial-Advisor-Guilty-of-Insurance-Fraud-and-Obstruction-of-Justi.aspx',
   },
+  {
+    name: 'Kansas Fake Federal Court Summons Malware Email',
+    slug: 'kansas-fake-court-summons-malware-phishing',
+    description:
+      'Kansans have been receiving emails impersonating the U.S. District Court, with subject lines like "Legal Compliance Required: Court Case #USDC-2026-[Number]," falsely claiming the recipient is being "formally served with a summons in a civil action" and threatening a default judgment unless they respond immediately. The email pushes the recipient to open an attached document or click a link, which instead installs malware and can steal personal information from the device. Kansas Attorney General Kris Kobach issued a consumer alert in January 2026 stressing that state and federal courts never serve legal documents by email, and urged anyone who receives one to avoid clicking anything and instead call their court clerk directly using a phone number looked up independently, not one from the email itself.',
+    categorySlug: 'phishing',
+    country: 'US',
+    state: 'KS',
+    alertLevel: 'high',
+    sources: ["Kansas Attorney General's Office"],
+    sourceUrl: 'https://www.ag.ks.gov/Home/Components/News/News/262/1292',
+  },
+  {
+    name: 'Maine Medical Spa Prepaid-Package Closure Scheme (LuxeMD/FreedomMD)',
+    slug: 'maine-luxemd-medical-spa-prepaid-closure-scheme',
+    description:
+      'A Saco, Maine medical spa operating as LuxeMD, run by FreedomMD Luxe LLC and Saco River Medical Aesthetics LLC, had already fallen out of good standing with the Maine Secretary of State by early November 2025, yet kept its website open and continued selling Black Friday gift cards and prepaid treatment packages worth up to $10,000 — including a customer who paid $1,200 for laser treatments and a 12-month Botox membership — before closing without warning and leaving those prepayments worthless. The Maine Attorney General\'s Office opened an investigation after client complaints and reached a formal Assurance of Discontinuance with the businesses in August 2025, and is inviting other affected clients and former staff to file complaints. Customers who paid by credit card were told they would need to dispute the charge before it aged out of the card issuer\'s chargeback window, underscoring why large prepaid packages or memberships, especially from a business whose good-standing status can be checked on the Secretary of State\'s website, warrant real caution and payment by a card that allows a dispute.',
+    categorySlug: 'healthcare-fraud',
+    country: 'US',
+    state: 'ME',
+    alertLevel: 'medium',
+    sources: ["Maine Attorney General's Office"],
+    sourceUrl: 'https://digitalmaine.com/ag_consumer_division_formal_actions/801/',
+  },
+  {
+    name: 'MV Realty "Homeowner Benefit Agreement" Predatory Lien Scheme',
+    slug: 'new-jersey-mv-realty-predatory-lien-scheme',
+    description:
+      'During the COVID-19 pandemic, MV Realty used unsolicited telemarketing calls to offer financially struggling New Jersey homeowners $300 to $5,000 in quick cash through what it called a "Homeowner Benefit Agreement," without adequately disclosing that signing bound the homeowner to give MV Realty the exclusive right to list their home for sale for 40 years, secured by a lien recorded against the property, with an early termination fee equal to at least 3% of the home\'s value — up to ten times the cash the homeowner had received. More than 1,200 New Jersey homeowners signed the agreements, and roughly 140 of them paid termination fees ranging from $575 to $42,000 just to get the lien removed. The New Jersey Division of Consumer Affairs sued and reached a $2.8 million settlement in October 2025 requiring MV Realty to stop offering the agreements in New Jersey, terminate its existing liens, pay a $1.5 million civil penalty, and return over $1.3 million to homeowners who paid to escape the contract — a pattern other state attorneys general and the FTC have pursued against the company as well, and a reminder that any offer of quick cash tied to home equity should be read in full for exactly what it puts a lien on and for how long before signing.',
+    categorySlug: 'mortgage-foreclosure-scams',
+    country: 'US',
+    state: 'NJ',
+    alertLevel: 'high',
+    sources: ['New Jersey Office of the Attorney General', 'New Jersey Division of Consumer Affairs'],
+    sourceUrl: 'https://www.njoag.gov/ag-platkin-new-jersey-division-of-consumer-affairs-reaches-2-8-million-settlement-with-mv-realty-over-companys-predatory-real-estate-scheme/',
+  },
+  {
+    name: 'Fake Discord "Verify Age Group" Phishing DM',
+    slug: 'discord-fake-age-verification-phishing-dm',
+    description:
+      'As Discord rolls out mandatory age verification through the second half of 2026 — requiring many users to complete a face scan or submit a government ID inside the app to keep full access to messaging and age-restricted content — scammers are exploiting the rollout with unsolicited direct messages formatted to look like an official notice, complete with a "sensitive content" warning and a button reading "Verify age group" or similar. Clicking the button leads not to anything run by Discord but to a convincing fake login page that harvests the account\'s username, password, and session token the instant they\'re entered, or in some versions triggers a malicious download instead. The lure is especially effective because the underlying premise is real: Discord has genuinely been phasing in age checks, and a third-party vendor breach earlier in 2026 already exposed roughly 70,000 users\' government ID images, so a message that plays on age-verification anxiety lands as far more plausible than a typical phishing DM. Discord has stated plainly that it will never request age verification through a random direct message — every legitimate step happens inside the app, through the platform\'s own settings menus and verified in-app prompts — so any DM asking a user to click out to an external site to "verify" their age should be treated as fake regardless of how official the warning graphic looks.',
+    categorySlug: 'phishing',
+    country: 'US',
+    alertLevel: 'medium',
+    sources: ['PC Guide', 'PiunikaWeb'],
+    sourceUrl: 'https://www.pcguide.com/news/discord-users-warn-of-age-verification-scams-ahead-of-new-security-measures-next-month/',
+  },
 ];
 
 async function seedCategoriesAndScams() {
