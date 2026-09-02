@@ -16437,6 +16437,53 @@ const SEED_SCAMS: SeedScam[] = [
     sourceUrl: 'https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/escroquerie-fausse-commande',
   },
   {
+    name: 'Remote Patient Monitoring (RPM) Medicare Enrollment Fraud',
+    slug: 'remote-patient-monitoring-medicare-enrollment-fraud',
+    description:
+      'Companies claiming to represent a durable medical equipment supplier or pharmacy contact Medicare enrollees by phone, internet ad, or text, offering a free or low-cost health-monitoring device such as a blood pressure cuff or glucose monitor in exchange for the beneficiary\'s Medicare Beneficiary Identifier. After obtaining the identifier, the company enrolls the beneficiary in "remote patient monitoring" regardless of medical necessity or an existing provider relationship, and bills Medicare monthly for device setup, patient education, and monitoring, services that HHS-OIG says frequently never actually happen even though the billing continues, distinct from a one-time equipment overbilling scheme because it targets the Medicare ID specifically to establish an ongoing monthly service-billing fraud. HHS-OIG escalated federal scrutiny of this pattern with a formal billing audit finding payments had grown sharply with a large share of enrollees missing a required service component, and beneficiaries are advised to review their Medicare Summary Notice for any monitoring service they never requested.',
+    categorySlug: 'healthcare-fraud',
+    country: 'US',
+    alertLevel: 'high',
+    sources: ['HHS Office of Inspector General (HHS-OIG)'],
+    sourceUrl: 'https://oig.hhs.gov/fraud/consumer-alerts/consumer-alert-remote-monitoring',
+  },
+  {
+    name: 'Hawaii DCCA Spoofed-Letterhead Business Phishing Scam',
+    slug: 'hawaii-dcca-spoofed-letterhead-business-phishing-scam',
+    description:
+      'Hawaii businesses receive phishing emails forged to look like official correspondence from the Department of Commerce and Consumer Affairs and its own Office of Consumer Protection, spoofing the sender address and copying the agency\'s real letterhead. The emails push recipients to click links or open attachments built to steal passwords, account numbers, or Social Security numbers, or to install malware on the business\'s systems, a pattern that reads as unusually credible since it impersonates the very agency a Hawaii business would normally contact to report a scam. DCCA\'s Office of Consumer Protection issued a public alert confirming the emails are fraudulent and reminding recipients that any genuine state website ends in ".gov," never a look-alike domain.',
+    categorySlug: 'phishing',
+    country: 'US',
+    state: 'HI',
+    alertLevel: 'medium',
+    sources: ['Hawaii Department of Commerce and Consumer Affairs — Office of Consumer Protection (DCCA/OCP)'],
+    sourceUrl: 'https://cca.hawaii.gov/ocp/phishing-scam-imitating-state-agency-sent-to-businesses/',
+  },
+  {
+    name: 'Missouri Consumer-Directed Personal Care Incarcerated-Recipient Fraud',
+    slug: 'missouri-consumer-directed-care-incarcerated-recipient-fraud',
+    description:
+      'A Medicaid recipient enrolled in Missouri\'s Consumer-Directed Personal Care Program instructed his personal-care attendants to keep falsely clocking in and out as if they were providing him in-home care while he was actually incarcerated, splitting the fraudulent payments with him; one attendant funneled her share through a payment app to a third party who deposited money directly into the recipient\'s jail commissary account. Missouri\'s Attorney General\'s Medicaid Fraud Control Unit identified false billings totaling nearly $48,000 for care that could not possibly have been delivered, and all three defendants pleaded guilty to healthcare fraud with restitution and penalties ordered. The case illustrates how a consumer-directed care model, which lets a Medicaid recipient hire and supervise their own attendants with no independent check on whether billed care was actually possible, can be exploited by the recipient and caregiver working together.',
+    categorySlug: 'healthcare-fraud',
+    country: 'US',
+    state: 'MO',
+    alertLevel: 'high',
+    sources: ['Missouri Attorney General\'s Office (Medicaid Fraud Control Unit)'],
+    sourceUrl: 'https://ago.mo.gov/attorney-general-hanaway-obtains-medicaid-fraud-conviction-against-medicaid-recipient-attendants-for-services-billed-while-in-jail-2/',
+  },
+  {
+    name: 'Alaska Group Home Medicaid Fraud With Impersonated Program Administrator',
+    slug: 'alaska-group-home-medicaid-fraud-impersonated-administrator',
+    description:
+      'Alaska prosecutors charged the operators of three licensed group-home companies with billing Alaska Medicaid nearly $14.7 million for services that were not provided, not adequately staffed, or not adequately documented. After the homes\' real program administrator left her position, the operators allegedly kept the operation\'s licensing intact by impersonating her directly to Alaska\'s Department of Health, forging her signature, filing false documents claiming she was still employed, and even completing her required training courses under her name so the homes kept appearing properly supervised on paper. This is a distinctive twist on group-home Medicaid fraud, using years of identity impersonation of a real former employee rather than just inflated billing codes to keep a fraudulent operation looking state-compliant, and is one of the largest Medicaid fraud cases Alaska has charged; all defendants are presumed innocent pending trial.',
+    categorySlug: 'healthcare-fraud',
+    country: 'US',
+    state: 'AK',
+    alertLevel: 'high',
+    sources: ['Alaska Department of Law (Medicaid Fraud Control Unit)'],
+    sourceUrl: 'https://law.alaska.gov/press/releases/2026/080426-MFCU.html',
+  },
+  {
     name: 'EmPOWER Maryland Ratepayer Fraud (Lockheed Martin Contractor Case)',
     slug: 'maryland-empower-ratepayer-fraud-lockheed-martin',
     description:
