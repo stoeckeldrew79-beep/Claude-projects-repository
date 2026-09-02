@@ -17665,6 +17665,17 @@ const SEED_SCAMS: SeedScam[] = [
     sourceUrl: 'https://www.justice.gov/usao-mt/pr/kansas-man-admits-defrauding-montana-rancher-hay-scam-during-drought',
   },
   {
+    name: 'SNAP/EBT Shutdown "Unlock Your Benefits" Text Scam',
+    slug: 'snap-ebt-shutdown-unlock-text-scam',
+    description:
+      'During the record 43-day federal government shutdown in the fall of 2025, which threw SNAP funding into uncertainty for tens of millions of recipients, scammers flooded SNAP households with texts and phone calls impersonating a state benefits office, an EBT card issuer, or the USDA itself, claiming a card had been "blocked" or dangling an emergency $1,000 food-aid payment. The message directs the recipient to a phishing link or asks them to read off their EBT card number and PIN over the phone to "unlock," "verify," or "reload" the account — information a real caseworker never needs, since an EBT PIN functions exactly like a debit card PIN and hands a scammer everything required to drain the balance. USDA\'s Food and Nutrition Service issued a nationwide fraud alert on the pattern, and multiple state attorneys general, including New Jersey\'s, issued matching consumer warnings as the funding lapse dragged on and recipient anxiety peaked. This is a distinct mechanism from ordinary EBT skimming devices at a card reader: it uses the shutdown\'s own funding uncertainty as the emotional trigger to talk a PIN out of someone voluntarily, rather than cloning a card without their knowledge, and it can empty an account just as fast either way.',
+    categorySlug: 'public-benefits-fraud',
+    country: 'US',
+    alertLevel: 'medium',
+    sources: ['USDA Food and Nutrition Service', "New Jersey Office of the Attorney General"],
+    sourceUrl: 'https://www.fna.usda.gov/snap/scam-alerts',
+  },
+  {
     name: 'Dutch Palm Invest Dubai Real Estate Ponzi Scheme',
     slug: 'dutch-palm-invest-dubai-real-estate-ponzi-scheme',
     description:
