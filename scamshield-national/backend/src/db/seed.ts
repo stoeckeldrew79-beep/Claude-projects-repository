@@ -3858,10 +3858,9 @@ If you get a call like this, hang up — don't use any number or callback line t
     slug: 'task-scam-apps-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'task-scam-apps'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/OnePlus_Nord_smartphone_displaying_Android_home_screen.jpg?width=1200',
-    coverImageCredit: 'Photo: Gannu03 (CC BY-SA 4.0)',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Telegram_app_icon_on_smartphone_screen_(perspective_render)_(49896396508).jpg?width=1200',
+    coverImageCredit: 'Photo: Yuri Samoilov (CC BY 2.0)',
     coverImagePosition: 50,
-    // representative photo — replace with an exact match if found
     sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2025/08/how-spot-avoid-task-scams',
     body: `An unsolicited text or WhatsApp message offers easy work: like some videos, rate some products, or complete simple "optimization" tasks inside an app, and get paid for each one. To build trust, the app or the person behind it actually pays out a small real amount at first — often just $5 to $20 — enough to make the opportunity feel legitimate before the real pitch arrives.
 
@@ -4295,9 +4294,8 @@ What makes this scam effective is that it doesn't ask for money directly — it 
 The clearest warning signs are a new match pushing quickly to move the conversation to a different app, insistence on a mutual "verification" site before a call or meeting, a site that asks for a credit card number for something advertised as free, and a verification process that never sends any actual results back. A recurring charge from an unfamiliar company on a card statement weeks after using one of these sites is also a strong retroactive signal.
 
 Legitimate dating platforms already offer built-in identity and photo verification features that don't require leaving the app or entering payment information on a third-party site — that's the only verification worth trusting. Never click a link a match sends to an outside "safety check," and keep conversations inside the platform's own messaging system until you've met in person. If card information has already been entered on one of these sites, contact the card issuer immediately to dispute any charges and request a new card number, and report the incident to the dating platform and to the FBI's Internet Crime Complaint Center at IC3.gov.`,
-    // representative photo — replace with an exact match if found
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Smartphone_Use.jpg?width=1200',
-    coverImageCredit: 'Océanos y dados, CC0, via Wikimedia Commons',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Smartphone_dating_app_illustration.jpg?width=1200',
+    coverImageCredit: 'Photo: Santeri Viinamäki (CC BY-SA 4.0)',
     coverImagePosition: 50,
   },
   {
@@ -4791,6 +4789,9 @@ Before paying for any online degree or certification program, verify the school'
     slug: 'influencer-brand-deal-payment-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'influencer-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Social_Media_App_Icons_On_The_Screen_of_A_Smartphone.jpg?width=1200',
+    coverImageCredit: 'Photo: Mike MacKenzie (CC BY 2.0)',
+    coverImagePosition: 50,
     sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2024/03/influencers-spot-job-scam',
     body: `A message lands in a content creator's DMs or inbox from someone claiming to be a "brand ambassador manager" or recruiter for a well-known company, offering free products to try and a surprisingly generous payment for a post or two tagging the brand. The offer is flattering and specific — it names the creator, references their follower count or niche — and moves fast: before any contract or product has actually shown up, the "manager" asks for banking details so the payment can be sent, or for a purchase of the company's product upfront, to be reimbursed later alongside the fee.
 
@@ -4805,6 +4806,9 @@ Before responding to any unsolicited brand deal, look up the company independent
     slug: 'vehicle-history-report-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'vehicle-history-report-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Used_car_lot_in_Lansingburgh,_New_York.jpg?width=1200',
+    coverImageCredit: 'Photo: Tyler A. McNeil (CC BY-SA 4.0)',
+    coverImagePosition: 50,
     sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2018/10/steering-clear-vehicle-history-report-scams',
     body: `Someone selling a used car online — on Craigslist, Facebook Marketplace, or a similar site — gets a message from an interested "buyer" who says they're ready to move forward, but only after seeing a vehicle history report from one specific website. The buyer supplies a link, and the seller, wanting to close the sale, visits the site, enters their information, and pays around $20 to $25 by credit card for the report. The report itself may never even arrive, and either way, the "buyer" typically stops responding entirely once the payment goes through.
 
