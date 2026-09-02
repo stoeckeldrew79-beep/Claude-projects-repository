@@ -17527,6 +17527,28 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Australian Securities and Investments Commission (ASIC)'],
     sourceUrl: 'https://asic.gov.au/about-asic/news-centre/find-a-media-release/2021-releases/21-069mr-former-courtenay-house-director-sentenced-to-8-years-imprisonment-for-dishonest-conduct/',
   },
+  {
+    name: 'CISA Employee Impersonation Scam',
+    slug: 'cisa-employee-impersonation-scam',
+    description:
+      'A caller claims to be a Cybersecurity and Infrastructure Security Agency (CISA) employee, telling the target their accounts show unauthorized activity and that money needs to be moved or verified to protect it, then directs them to send a wire transfer, cash, cryptocurrency, or gift cards — and specifically instructs the victim to keep the call secret from family, coworkers, or their bank. Borrowing the credibility of the federal agency responsible for cybersecurity gives the pitch an authority a generic "your account is compromised" caller wouldn\'t have, particularly with victims who\'ve heard of CISA in the news but have no reason to know what its staff actually do or how they\'d really make contact. CISA issued a direct public alert after fielding reports of the pattern, stating plainly that its employees will never request a money transfer, cash, cryptocurrency, or gift cards, and will never instruct anyone to keep a conversation confidential. Anyone who receives a call like this should hang up without paying or sharing information, note the caller\'s number, and verify by calling CISA directly at (844) SAY-CISA (844-729-2472) rather than any number the caller provides.',
+    categorySlug: 'government-impersonation',
+    country: 'US',
+    alertLevel: 'medium',
+    sources: ['Cybersecurity and Infrastructure Security Agency (CISA)'],
+    sourceUrl: 'https://www.cisa.gov/news-events/alerts/2024/06/12/phone-scammers-impersonating-cisa-employees',
+  },
+  {
+    name: 'Fake Google Maps "Duress Vertical" Business Listing Scam',
+    slug: 'fake-google-maps-duress-vertical-listing-scam',
+    description:
+      'Scammers mass-create fraudulent Google Business Profile listings for the kind of services people search for while already in a stressful, time-pressured situation — locksmiths after a lockout, tow trucks after a breakdown, garage-door and water-damage repair after storm damage — sometimes using a fake address or even spoofing a real, unaffiliated local business\'s name and photos to look legitimate in the map results. The phone number on the listing doesn\'t ring a real nearby business at all; it routes to a centralized, nationwide dispatch operation that quotes a low price to get the desperate caller to agree, then sends out a technician who demands a far higher price once on-site, or simply resells the caller\'s name, number, and situation to other predatory operators. Google disclosed in a March 2025 lawsuit that it had removed more than 10,000 fraudulent listings tied to a single network built specifically around these "duress vertical" categories, where a caller in a hurry has no real opportunity to check credentials before agreeing to service. Before calling a number found through a map or search result for an urgent home or roadside service, it\'s worth saving a known, verified local provider\'s number in advance, confirming a total price (including any service call, mileage, or parts) before work begins, and treating an unmarked vehicle or a company that won\'t give a specific business name over the phone as a reason to stop and verify rather than proceed.',
+    categorySlug: 'online-shopping-scams',
+    country: 'US',
+    alertLevel: 'medium',
+    sources: ['Google', 'CBS News'],
+    sourceUrl: 'https://www.cbsnews.com/news/google-maps-fake-listings-lawsuit-scams/',
+  },
 ];
 
 async function seedCategoriesAndScams() {
