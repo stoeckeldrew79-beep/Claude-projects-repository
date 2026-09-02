@@ -6492,6 +6492,60 @@ Warning signs: a contract you signed labeled "conditional," "spot delivery," or 
 
 If you're contacted about "redoing" a deal: you are not legally required to accept new terms just because the dealer calls — read your original contract to see whether financing was actually conditional, and if it wasn't, the original terms stand. You generally have the right to return the car and get your trade-in and any money back if you refuse the new terms and the sale was genuinely conditional, though dealers don't always volunteer this. Get everything in writing before signing anything a second time, and if a dealer won't return your trade-in or down payment, file a complaint with your state attorney general's office and the FTC at ReportFraud.ftc.gov — yo-yo financing is illegal in a number of states and has been the subject of FTC enforcement actions against dealer chains.`,
   },
+  {
+    title: "NIL Deal Scams: When a Sponsorship Offer Actually Targets a College Athlete's Bank Account",
+    slug: 'nil-college-athlete-deal-scam-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'nil-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/NCAA_Tournament_(3369506340).jpg?width=1200',
+    coverImageCredit: 'Photo: bp6316 (CC BY 2.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
+    sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2026/01/ftc-seeking-information-20-universities-sports-agents-compliance-law-aimed-protecting-student',
+    body: `Since college athletes gained the right to earn money from their name, image, and likeness (NIL), a wave of fraud has followed the money. A common version starts with a direct message or email from someone claiming to represent a real or invented apparel brand, offering a flattering sponsorship deal. The "brand" sends a check for more than the agreed amount — sometimes framed as covering a "facility fee" or promotional materials — and asks the athlete to wire back the difference right away. The original check later bounces, and the athlete is out whatever they wired, on the hook to their own bank for the shortfall.
+
+A second, slower-moving version targets athletes through self-styled "NIL agents" during high school recruiting or the college transfer portal. Unlike agents representing professional athletes, NIL representation has no licensing, registration, or background-check system in most states, so anyone can put "agent" in a bio and start pitching. These operators often demand an upfront fee before any real deal exists, or lock an athlete into a contract that takes a cut — sometimes 20 to 40 percent — of every future NIL deal the athlete signs, not just the one the agent is currently pitching. The FTC opened a formal inquiry in January 2026, sending compliance letters to 20 Division I schools over whether agents are meeting the disclosure requirements of the federal Sports Agent Responsibility and Trust Act, a sign regulators see this as a real and growing gap.
+
+Red flags: an unsolicited sponsorship offer with a check for more than what was agreed on and a request to wire back the "extra" amount before the check has fully cleared (which can take weeks, even after funds appear available); an agent asking for money before securing any deal, or a contract that claims a percentage of earnings beyond the specific deal being negotiated; pressure to sign within hours or days without letting a parent, coach, or the school's compliance staff review it first; and a "brand" or "agent" with no verifiable business address, website, or professional history you can check independently.
+
+Nearly every Division I school now has an NIL compliance office that will review a contract for free — route every offer through it before signing anything or depositing any check. Never wire money back against a check that hasn't fully cleared, no matter how legitimate the sender sounds. If you're a minor athlete's parent, insist on reviewing every offer together. If you've already lost money to one of these schemes, report it to the FTC at ReportFraud.ftc.gov and notify your school's athletics compliance office right away — they've likely seen the same pitch used on other athletes.`,
+  },
+  {
+    title: 'The "Phantom Hacker" Scam: Three Fake Callers, One Coordinated Attack on Your Savings',
+    slug: 'phantom-hacker-scam-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'phantom-hacker'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Two_of_the_Senior_Citizens_trying_to_edit_with_their_mobile_device.jpg?width=1200',
+    coverImageCredit: 'Photo: Oby Ezeilo (CC BY-SA 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
+    sourceUrl: 'https://www.ic3.gov/PSA/2023/PSA230929',
+    body: `The "phantom hacker" scam, named and formally warned about by the FBI in 2023, runs in three coordinated stages, each designed to make the one before it look more credible. It starts like an ordinary tech support scam: a pop-up or phone call claims the victim's computer has been hacked, and a "technician" walks them through installing remote-access software. While reviewing the "damage," the technician tells the victim their bank accounts have also been compromised and hands them off to a second caller — someone posing as the victim's own bank's fraud department, who confirms unauthorized activity and appears to genuinely understand the account details the tech support call just uncovered.
+
+The third call is the one that empties the account: someone posing as an official from the Federal Reserve, the Treasury Department, or another federal agency tells the victim their money is being targeted by foreign hackers and must be moved into a "safe" government-protected account to keep it from being stolen — usually by wire transfer, cash withdrawal handed to a courier, or cryptocurrency. Because each caller seems to confirm what the last one said, the scam creates the illusion of an emergency verified independently by a tech company, a bank, and the federal government all at once, when in reality it's the same criminal operation working from a script at every stage. The FBI's Internet Crime Complaint Center logged roughly 19,000 tech-support-related complaints in just the first half of 2023, totaling over $542 million in losses — with victims 60 and older making up about half the complaints but two-thirds of the dollars lost.
+
+Warning signs: any unsolicited call or pop-up claiming your computer or bank account has been hacked; a second or third caller who seems to already know details about your accounts (information passed along by the first caller, not independently verified); any instruction to move money into a "safe," "protected," or "government" account; and pressure to withdraw large sums as cash for pickup by a courier, or to keep the situation secret from family members or your actual bank, who the scammers claim might "tip off" the hackers.
+
+No legitimate bank, tech company, or federal agency will ever ask you to move your money into a different account to protect it, and none will send a courier to your house to collect cash. If you get one of these calls, hang up and don't call back any number you were given. Contact your real bank and the FBI's IC3 at ic3.gov using numbers and websites you look up yourself, not ones provided during the call.`,
+  },
+  {
+    title: 'Digital Wallet "Ghost Tap" Fraud: How a Text About a Toll or Package Ends With Your Card in a Stranger\'s Phone',
+    slug: 'digital-wallet-ghost-tap-fraud-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'digital-wallet-fraud'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Contactless_payment_1_2023-06-17.jpeg?width=1200',
+    coverImageCredit: 'Photo: Fastily (CC BY-SA 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
+    sourceUrl: 'https://krebsonsecurity.com/2025/02/how-phished-data-turns-into-apple-google-wallets/',
+    body: `It usually starts the way an unpaid-toll or missed-package text scam always does: a message claiming a small balance is due, with a link to a fake payment page that harvests a card number and billing details. What makes this version different is the follow-up. Shortly after entering card details, the victim gets a text or call claiming their bank needs to "verify" the card, and reads them a one-time passcode to confirm it's really theirs. That code isn't verifying anything — it's the real confirmation code needed to load the stolen card onto an Apple Pay or Google Pay wallet on a phone the scammer controls, and reading it aloud hands over the last piece needed to finish the job.
+
+Once a wallet is loaded, it's rarely used right away or by the person who phished it. Stolen digital wallets are bundled, often five to ten to a single device, and sold or rented in bulk to criminal crews through Telegram. Using an NFC "relay" app, security researchers have dubbed "ghost tapping," those crews can beam a valid tap-to-pay transaction from a phone overseas onto a real store's payment terminal anywhere the stolen wallet's phone physically is — letting someone thousands of miles from the victim make purchases, usually gift cards or electronics that convert easily to cash, using a card the real owner still has sitting in their own wallet. Financial-crime researchers tracking one such ring in Singapore counted 656 compromised cards and roughly $930,000 in losses in a single three-month period.
+
+Red flags: an unsolicited text about a toll, parking fee, or missed delivery with a link to pay; being asked, after entering card details, to read back a one-time passcode to "verify" the card — neither Apple Pay nor Google Pay ever verifies a card by having you relay a texted code to a person on the phone, since the verification happens directly between your bank and your device; and urgency built around a small, easy-to-dismiss dollar amount, which keeps the request below the threshold that usually makes people pause.
+
+Don't click payment links in unsolicited texts — go directly to your toll authority's, delivery carrier's, or bank's official app or website instead. Never read a one-time passcode aloud or enter it on a site you didn't navigate to yourself. If you've already shared a code after clicking a link like this, call your card issuer immediately to cancel the card and ask specifically whether it's been added to a digital wallet you don't recognize, then report the incident to the FTC at ReportFraud.ftc.gov.`,
+  },
 ];
 
 async function seedArticles(articles: SeedArticle[], label: string) {
