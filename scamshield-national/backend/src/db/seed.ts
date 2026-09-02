@@ -19518,6 +19518,17 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Financial Markets Authority (FMA) New Zealand'],
     sourceUrl: 'https://www.fma.govt.nz/library/warnings-and-alerts/',
   },
+  {
+    name: 'Doxo Bill-Pay "Official Channel" Impersonation Scheme',
+    slug: 'doxo-bill-pay-official-channel-impersonation-scheme',
+    description:
+      'Doxo, Inc., a Seattle-based bill-payment app, bought paid search ads and ran listings positioned to look like the official payment channel for real billers — including Labcorp, AT&T, and state and regional toll authorities, alongside utility, medical, and auto-loan companies — so that someone searching to pay a bill online would land on Doxo\'s site believing it was the biller\'s own page. The Federal Trade Commission alleged Doxo disguised its relationship with those billers and buried a nonrefundable "service fee" on top of the actual bill amount deep in fine print most consumers never saw before completing payment, generating what the FTC called millions of dollars in undisclosed charges. In August 2026, Doxo and two co-founders agreed to pay $2.1 million to settle the FTC\'s deceptive-advertising complaint, with the funds set aside to refund affected consumers, and Doxo is now barred from misrepresenting its relationship with any biller or charging fees consumers did not knowingly agree to. The FTC\'s broader warning extends past Doxo itself: before paying any bill online, scroll past paid or sponsored search results and either type the biller\'s own web address directly into the browser or use a link, app, or phone number already known to be correct — a bookmark, or the number printed on a physical bill — rather than clicking whichever result appears first in a search.',
+    categorySlug: 'phishing',
+    country: 'US',
+    alertLevel: 'medium',
+    sources: ['Federal Trade Commission (FTC)'],
+    sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2026/08/bill-payment-firm-doxo-pay-21-million-settle-ftc-allegations-it-deceived-consumers-charged-them-add',
+  },
 ];
 
 async function seedCategoriesAndScams() {
