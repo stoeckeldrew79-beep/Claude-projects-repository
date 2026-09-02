@@ -6149,6 +6149,63 @@ The reliable red flags are a guarantee that a debt will be settled for a specifi
 
 Before hiring anyone, check free eligibility directly using the IRS's own Offer in Compromise Pre-Qualifier tool at IRS.gov, and consider consulting a local, licensed CPA, enrolled agent, or tax attorney who charges for time rather than promising a guaranteed outcome. If you already paid an OIC mill that took your fee and delivered nothing, or misrepresented what it could do, you can file a complaint with the Treasury Inspector General for Tax Administration and report the scam to the FTC at ReportFraud.ftc.gov.`,
   },
+  {
+    title: 'Business Identity Theft: How Criminals Hijack a Company\'s Legal Identity to Steal Its Money and Credit',
+    slug: 'business-identity-theft-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'business-identity-theft'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Young%20business%20owners.jpg?width=1200',
+    coverImageCredit: 'Photo: Ejay273 (CC BY-SA 4.0)',
+    coverImagePosition: 50,
+    sourceUrl: 'https://www.irs.gov/newsroom/report-identity-theft-for-a-business',
+    body: `A small business owner gets an automated notice confirming a filing they never made: a change of registered agent, a new slate of company officers, or an amended business address, submitted through the same online portal any company uses to file its own routine paperwork with the state. Most states let anyone file a business's annual report or statement of information online without verifying that the filer is actually connected to the company, which means a criminal who has nothing more than a business's name and state filing number can effectively replace its real owners and officers with themselves, on paper, in a matter of minutes.
+
+Once that fraudulent filing is in place, it becomes a key that opens far more than the filing itself. California's Secretary of State has warned that identity thieves specifically target LLCs that hold real property, filing a fraudulent statement of information to install themselves as an owner or officer, then using that now-official-looking record to apply for hard-money loans or cash-out refinances against real estate the LLC actually owns — since a lender or title company checking the state's own corporate filings will see exactly the officers the fraudulent paperwork lists. The IRS has documented a related but separate version of the same underlying scam: criminals steal a company's Employer Identification Number and use it to file fraudulent tax returns, submit counterfeit W-2 forms, or establish new lines of credit entirely in the business's name.
+
+Both versions exploit the same gap: a business's core legal identity is treated as a matter of public record that almost anyone can update, rather than something a person has to prove they're authorized to change. And because an LLC's state filing is often checked only once a year, at renewal, a fraudulent change can sit unnoticed for months — sometimes long enough for a thief to close a loan or drain a credit line before anyone at the actual company knows something is wrong.
+
+The warning signs tend to be indirect rather than obvious: a notification email from the Secretary of State about a filing nobody at the company submitted, an IRS notice about a tax return already filed for a period the business hasn't filed for yet, a rejection notice for W-2s the company never issued, or a balance-due letter for taxes tied to income the business never received. Correspondence addressed to your business from a bank, lender, or title company about an account or loan you never opened is another sign the company's identity may already be in use elsewhere.
+
+If you discover an unauthorized filing, contact your state's Secretary of State corporations division immediately to report it and file a corrective or restated filing — supported by an affidavit of unauthorized filing — that removes the fraudulent officers and reinstates the real ones; many states also offer a free filing-alert service that emails you whenever a change is submitted against your business, which is worth setting up before there's a problem, not after. If the fraud involves your EIN or tax filings, submit IRS Form 14039-B, the Business Identity Theft Affidavit, and notify any bank, lender, or title company connected to property the business owns. Report the scam to the FTC at ReportFraud.ftc.gov.`,
+  },
+  {
+    title: 'Illegal Online Payday Loan Scams: When You Never Agreed to the Loan You\'re Being Charged For',
+    slug: 'illegal-payday-loan-scam-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'payday-loan-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Payday%20Loans%20Store%20-%20Check%20Cashing%20and%20Pay%20Day%20Loan%20-%20Money%20Mart%20(25469046943).jpg?width=1200',
+    coverImageCredit: 'Photo: Tony Webster (CC BY 2.0)',
+    coverImagePosition: 50,
+    sourceUrl: 'https://www.consumerfinance.gov/about-us/newsroom/cfpb-sues-online-payday-lender-for-cash-grab-scam/',
+    body: `A few hundred dollars shows up in someone's checking account from a lender they don't remember agreeing to borrow from — often after filling out a form on a "loan comparison" or "loan matching" website that promised to shop their application around to multiple lenders, or sometimes after simply browsing one of these sites without ever clicking submit. Days later, a "finance charge" is withdrawn automatically from the same account. Then it happens again two weeks later. And again. The withdrawals never reduce the amount supposedly owed, because they're structured as pure interest, repeating indefinitely unless the account holder notices and intervenes.
+
+This is not a hypothetical pattern — it's the exact scheme the Consumer Financial Protection Bureau sued to shut down in 2014, when it took action against the Hydra Group, a Kansas City-based network of roughly 20 shell companies. According to the CFPB, Hydra bought consumers' bank account and routing numbers from online lead generators — the same "loan comparison" sites — and used that information to deposit unauthorized loans, typically $200 to $300, directly into people's accounts without their consent, then withdrew $60 to $90 in "finance charges" every two weeks, on and on, without ever applying a payment toward the principal. Over just fifteen months, the operation deposited $97.3 million in these unauthorized loans while collecting $115.4 million back from consumers — and, the CFPB found, fabricated loan documents after the fact to manufacture the appearance of consent, then sold the "debts" to outside collectors despite there being no legitimate loan behind them in the first place.
+
+The scam works because the money is real and already sitting in the account before the target realizes anything is wrong, which makes it look like a loan they must repay rather than a theft they can refuse. Many of the lenders behind schemes like this operate offshore, or claim tribal affiliation specifically to argue they're exempt from state licensing and interest-rate laws — a legal shield regulators and courts have repeatedly rejected once the actual business is unmasked, but one that buys the operation time and distance from the people it's withdrawing money from.
+
+The clearest red flag is money you don't remember agreeing to borrow, followed by recurring withdrawals that never shrink the balance. A lender that can't or won't provide the state lending license required to make loans to residents of your state is operating illegally regardless of what its website claims, and under both FTC and CFPB guidance, a loan made by an unlicensed lender generally isn't a debt you're legally obligated to repay in the first place.
+
+If this happens to you, contact your bank immediately to revoke the lender's authorization to withdraw from your account (a formal "stop payment" or ACH revocation) and dispute any withdrawals already taken, keeping records of every deposit and withdrawal date and amount. Closing the affected account and opening a new one may be necessary if the withdrawals continue. Report the lender to the CFPB at consumerfinance.gov/complaint and to your state's financial regulator or attorney general, and report the scam to the FTC at ReportFraud.ftc.gov.`,
+  },
+  {
+    title: 'Child Identity Theft: Why a Stolen Social Security Number Can Go Undetected for Years',
+    slug: 'child-identity-theft-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'child-identity-theft'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Social%20Security%20card%20(09-61).jpg?width=1200',
+    coverImageCredit: 'Photo: N Giovannucci (CC BY-SA 4.0)',
+    coverImagePosition: 50,
+    sourceUrl: 'https://consumer.ftc.gov/articles/how-protect-your-child-identity-theft',
+    body: `A child's Social Security number, assigned at birth or shortly after, has no credit history attached to it — and that blank slate is exactly what makes it valuable to a thief. Someone who obtains a child's SSN, whether from a stolen school enrollment form, a data breach, a lost wallet, or a family member willing to sell it, can pair that real, valid number with a fabricated name and birth date to open a "new" credit file that has never been flagged, denied, or monitored by anyone. From there, it can be used to apply for credit cards, auto loans, utility accounts, apartment leases, or government benefits, all reported against a real child's real SSN.
+
+What makes this version of identity theft unusually damaging is how long it typically runs before anyone notices. Nobody checks a minor's credit report as a matter of routine, since children aren't expected to have one, so fraudulent accounts and unpaid balances can accumulate for a decade or more with no one watching. The FTC notes that this often surfaces only when the victim turns 18 and applies for their own first credit card, student loan, or apartment — and discovers a credit file already full of accounts, collections, and missed payments they never opened. Family members are a documented source of this fraud specifically: a parent or relative under financial pressure who can't qualify for credit under their own name may use a child's clean SSN instead, which complicates both detection (no unfamiliar stranger to blame) and reporting (the victim may be reluctant to report a relative).
+
+The warning signs are things that show up in the mail, not on a bank statement: a bill, account statement, or debt-collection notice addressed to your child from a bank or credit card company; a notice from the IRS about a tax return already filed using your child's SSN; or being denied a government benefit for your child, like health coverage or nutrition assistance, because their SSN already shows active use elsewhere.
+
+The most effective prevention step doesn't require watching for anything at all: children under 16 are entitled to a free credit freeze at each of the three major credit bureaus, which blocks a new credit file from being opened in their name in the first place rather than merely flagging fraud after it happens. It's also worth pushing back, gently, on requests for a child's SSN from schools, sports leagues, or other organizations that ask for it more often than they strictly need it — the FTC recommends simply asking why it's required and whether another identifier will work instead.
+
+If you find signs your child's identity has already been used, go to IdentityTheft.gov, the FTC's dedicated recovery site, which supports reports of minor identity theft and generates a personalized, step-by-step recovery plan. Contact each of the three credit bureaus directly to check whether a credit file already exists in your child's name — it shouldn't, until they're an adult — and dispute any fraudulent accounts you find. Report the scam to the FTC at ReportFraud.ftc.gov.`,
+  },
 ];
 
 async function seedArticles(articles: SeedArticle[], label: string) {
