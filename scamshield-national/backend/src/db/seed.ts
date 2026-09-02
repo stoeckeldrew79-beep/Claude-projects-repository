@@ -23418,6 +23418,32 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Bundesgerichtshof (BGH)', 'Landgericht Nürnberg-Fürth'],
     sourceUrl: 'https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Strafsenate/6_StS/2024/6_StR_294-24.pdf?__blob=publicationFile&v=1',
   },
+  {
+    name: 'Cypress Risk Management Student-Athlete Insurance Premium Embezzlement',
+    slug: 'south-dakota-cypress-risk-management-insurance-premium-embezzlement',
+    description:
+      'Gary Aaron King, sole owner of Canton, South Dakota-based insurance broker Cypress Risk Management, sold student-athlete health insurance to colleges across the country, but between July 2022 and January 2023 diverted more than $1.4 million of the premiums he collected instead of passing them on to Student Assurance Services, the managing general agent actually responsible for backing the coverage. When Student Assurance Services never received the payments and client colleges called Cypress to ask why their athletes\' policies had gone unpaid, King gave them a string of fabricated excuses to keep the scheme running rather than admit the money was gone, ultimately diverting $1,418,220.87 for his own spending and other business ventures. A federal grand jury indicted King on wire fraud and money laundering charges in February 2024; he pleaded guilty on September 5, 2025 and was sentenced on December 5, 2025 to three years and one month in federal prison, two years of supervised release, and $1,418,220.87 in restitution. A school or organization that pays a broker for group insurance coverage should periodically confirm directly with the actual underwriter or managing general agent — not just the broker — that premiums have actually been received and a policy is in force, since a policyholder can go without real coverage for months without knowing it if a middleman pockets the payments instead of passing them along.',
+    categorySlug: 'insurance-fraud',
+    country: 'US',
+    state: 'SD',
+    isHistorical: true,
+    firstRecorded: '2022-07-01',
+    sources: ["U.S. Attorney's Office, District of South Dakota", 'KOTA Territory News'],
+    sourceUrl: 'https://www.justice.gov/usao-sd/pr/canton-man-sentenced-more-3-years-federal-prison-wire-fraud-and-money-laundering',
+  },
+  {
+    name: 'Ketchikan "Flawless Fine Jewelry" Fake Alaska Gold Quartz Scheme',
+    slug: 'alaska-flawless-fine-jewelry-fake-gold-quartz-scheme',
+    description:
+      'Soni Inc., a Ketchikan jewelry retailer doing business over the years as "Soni Jewelry," "Colors Fine Jewelry," and "Flawless Fine Jewelry," sold cruise-ship tourists imitation "gold nuggets" and "gold quartz" as genuine Alaska-mined souvenirs; undercover investigators for the Alaska Department of Law recorded salespeople saying the pieces were 24-karat pure gold that had been mined and, in some cases, crafted into jewelry in Alaska. Laboratory testing told a different story: the "nuggets" were low-purity 14-karat imitations shaped to resemble a natural nugget, and the "gold quartz" was either quartz infused with a low-purity gold alloy or, in one piece, contained no gold at all — all of it sourced from an out-of-state supplier, California-based TT Jewelry, rather than mined or made in Alaska. Alaska Attorney General Treg Taylor sued Soni Inc. and corporate officer Sunita Lakhwani for violating the state\'s consumer protection law in May 2024, and under Attorney General Stephen Cox the case ended in a March 2026 settlement requiring $60,000 in disgorgement to the state and restitution to four identified victims, plus ongoing authority for state investigators to conduct surprise audits of any future "made in Alaska" or natural-gold claims the business makes. "When a business tells visitors that gold was mined here, people believe it," Cox said. "If that\'s not true, it\'s taking advantage of visitors — and trading on Alaska\'s name in the process." Buying jewelry sold as authentic Alaska gold nuggets or gold quartz, especially from a shop near a cruise dock, warrants asking for a certificate of authenticity and an independent appraisal before paying tourist prices for what may be a mass-produced import.',
+    categorySlug: 'online-shopping-scams',
+    country: 'US',
+    state: 'AK',
+    isHistorical: true,
+    firstRecorded: '2023-01-01',
+    sources: ['Alaska Department of Law'],
+    sourceUrl: 'https://law.alaska.gov/press/releases/2026/031926-Flawless.html',
+  },
 ];
 
 async function seedCategoriesAndScams() {
