@@ -18471,6 +18471,43 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['National Apartment Association', 'National Multifamily Housing Council'],
     sourceUrl: 'https://naahq.org/news/fraud-goes-high-tech',
   },
+  {
+    name: 'Pierre, South Dakota In-Home Care Medicaid Billing Fraud',
+    slug: 'south-dakota-pierre-in-home-care-medicaid-fraud',
+    description:
+      "Sharon Monson owned At Home Nursing, a Pierre-based in-home care agency, and between May 2018 and January 2024 billed the South Dakota Medicaid program for services her business never actually provided to clients, ultimately stealing more than $588,000 in state and federal funds. Attorney General Marty Jackley's office indicted her on six felony counts — including unlawfully obtaining Medicaid payments, aggravated grand theft, perjury to obtain state benefits, and failing to keep the records a Medicaid claim is supposed to be based on — and she pleaded guilty to felony grand theft, receiving a suspended 10-year sentence, 10 years of probation, and an order to repay $500,000 to the state Department of Social Services. Because in-home Medicaid fraud like this is invisible to the client if they're cognitively impaired or simply trusting, the state's Division of Medical Services mails an itemized notice of paid claims to Medicaid recipients (or their family or guardian) and encourages comparing it against the actual visits a caregiver made, reporting any billed service that never happened to the Attorney General's Medicaid Fraud Control Unit.",
+    categorySlug: 'healthcare-fraud',
+    country: 'US',
+    state: 'SD',
+    sources: ['South Dakota Attorney General', 'Dakota News Now', 'South Dakota Public Broadcasting'],
+    sourceUrl: 'https://www.dakotanewsnow.com/2026/08/25/former-pierre-in-home-care-provider-sentenced-massive-medicaid-fraud-scheme/',
+    isHistorical: true,
+    firstRecorded: '2018-05-01',
+  },
+  {
+    name: 'Western Pennsylvania Insurance Agent Repeat Client-Funds Fraud',
+    slug: 'pennsylvania-monroeville-insurance-agent-repeat-fraud',
+    description:
+      "Chad Skena, a Monroeville-based licensed insurance agent, was charged by the Pennsylvania Attorney General's Insurance Fraud Section for a third time since April 2024 — this time accused of persuading a client to hand over more than $75,000 from their entire retirement account as an \"investment opportunity of a lifetime\" to help him buy his father's insurance agency, then never repaying a dollar of it. His first two rounds of charges involved simply pocketing roughly $70,000 in premium payments from 16 different clients across Allegheny County between 2020 and 2022 rather than forwarding the money to insurers, leaving those clients unknowingly uninsured. Because Pennsylvania's insurance license lookup does not automatically flag pending criminal charges the way it flags formal license revocations, the Attorney General's office notes that consumers asked to send an agent money for anything beyond a listed policy premium — an \"investment,\" a loan, a stake in the agency itself — should treat it as a red flag regardless of how long they've known the agent, and can search PA's Insurance Fraud Section case list and the state's producer license lookup before wiring funds.",
+    categorySlug: 'insurance-fraud',
+    country: 'US',
+    state: 'PA',
+    alertLevel: 'high',
+    sources: ['Pennsylvania Office of Attorney General', 'Insurance Journal'],
+    sourceUrl: 'https://www.attorneygeneral.gov/taking-action/western-pa-insurance-agent-charged-again-with-theft-crimes-this-time-for-duping-customer-out-of-75000-in-investment-opportunity-of-a-lifetime/',
+  },
+  {
+    name: 'Unlicensed Investment Adviser Targeting Settlement and Life-Insurance Beneficiaries',
+    slug: 'north-carolina-unlicensed-adviser-settlement-beneficiary-fraud',
+    description:
+      "From December 2017 to April 2023, Jon Patrick Kubler provided investment planning and management services to roughly 30 people — many of them elderly, unsophisticated investors, or beneficiaries who had just received a lump-sum settlement or life insurance payout — despite never holding a license as an investment adviser. Prosecutors in the Western District of North Carolina allege he steered victims into commercial real estate deals through companies he controlled, made false statements and material omissions to get them to invest, and then used incoming money from new investors to make Ponzi-style payments to earlier ones so the whole arrangement looked profitable, defrauding investors of more than $4 million before he was indicted on securities fraud and money laundering charges carrying up to 20 and 10 years respectively. People who suddenly receive a large settlement or insurance payout are frequently approached by unlicensed \"advisers\" precisely because they're inexperienced with investing and emotionally vulnerable, and the U.S. Attorney's Office points to FINRA's BrokerCheck and the SEC's Investment Adviser Public Disclosure database as free tools to confirm someone is actually licensed before letting them manage a windfall.",
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    state: 'NC',
+    alertLevel: 'high',
+    sources: ['U.S. Attorney\'s Office, Western District of North Carolina', 'U.S. Securities and Exchange Commission'],
+    sourceUrl: 'https://www.justice.gov/usao-wdnc/pr/unlicensed-adviser-charged-4-million-investment-fraud-scheme-targeting-elderly-and',
+  },
 ];
 
 async function seedCategoriesAndScams() {
