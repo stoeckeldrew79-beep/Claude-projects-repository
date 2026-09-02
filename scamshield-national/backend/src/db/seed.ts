@@ -20434,6 +20434,29 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ["Hawaii Department of the Attorney General", 'Honolulu Star-Advertiser'],
     sourceUrl: 'https://ag.hawaii.gov/wp-content/uploads/2025/11/News-Release-2025-94.pdf',
   },
+  {
+    name: 'German Faksimile Book Resale Advance-Fee Fraud',
+    slug: 'germany-faksimile-book-resale-advance-fee-fraud',
+    description:
+      "A criminal network operating out of a rented Berlin call-center office contacted elderly Germans, several in their eighties, who had purchased faksimiles — costly facsimile reproductions of medieval illuminated manuscripts originally sold decades earlier as collectible investments — falsely claiming a buyer had been found willing to pay a high price for the collection, and demanding upfront 'commission,' 'deposit,' or 'escrow' fees before any sale could go through. Investigators found that in none of the known cases was a real sale ever intended; some victims took out bank loans to cover the fees, and network members visited victims' homes in person to collect payments and paperwork while operatives posing as company representatives ran the phone pitch from the call center. Active from at least October 2022 to May 2025, the scheme took in roughly €738,000 in its first uncovered case alone, laundered through a network of shell companies, and Berlin prosecutors charged four defendants aged 27 to 38 with commercial and organized fraud, document forgery, and theft in 2025; a follow-up warrant that September against two more suspects seized a further €1.95 million tied to individual purchase prices reaching up to €450,000. Anyone contacted out of the blue about reselling an old collectible at an inflated price should treat any request to pay a fee before the sale closes as a red flag and verify an alleged buyer independently rather than through contact details the caller provides.",
+    categorySlug: 'investment-fraud',
+    country: 'DE',
+    alertLevel: 'high',
+    sources: ['Generalstaatsanwaltschaft Berlin'],
+    sourceUrl: 'https://www.berlin.de/generalstaatsanwaltschaft/presse/pressemitteilungen/2025/pressemitteilung.1581326.php',
+  },
+  {
+    name: 'German "Schrottimmobilien" Tax-Shelter Property Fraud',
+    slug: 'germany-schrottimmobilien-tax-shelter-property-fraud',
+    description:
+      "Beginning in the early 1990s, structured sales networks (Strukturvertriebe) cold-contacted ordinary Germans — often screening for income and job security through a disguised 'opinion survey' — then invited qualified prospects to a supposedly neutral consultation pitching a rundown, hard-to-rent apartment as a self-financing 'tax-saving capital investment' (steuersparende Kapitalanlage) that would pay for itself through rental income and tax refunds. Buyers, frequently civil servants and workers with modest savings, were pushed into 100-percent bank financing with no money down, while the sales network folded large hidden internal commissions — reaching 15 to 20 percent or more of the purchase price in documented cases — into a price the financing bank knew about but never disclosed to the buyer. When promised rents and tax savings fell far short of the loan payments, an estimated 300,000 buyers nationwide were left holding mortgages on properties worth a fraction of what they had paid, with many pushed into personal insolvency; because the sales companies were typically judgment-proof shell entities, victims' only real recourse was against the solvent financing banks. The Bundesgerichtshof, Germany's federal court of justice, ultimately ruled in a series of cases including its January 11, 2011 decision (XI ZR 220/08 and parallel cases) that a bank's failure to disclose a concealed, inflated internal commission it knew about constituted fraudulent misrepresentation, opening the door to damages claims that unwound thousands of these purchases years after the fact.",
+    categorySlug: 'investment-fraud',
+    country: 'DE',
+    isHistorical: true,
+    firstRecorded: '1990-01-01',
+    sources: ['Verbraucherzentrale Bundesverband (vzbv)', 'Bundesgerichtshof (BGH)'],
+    sourceUrl: 'https://www.vzbv.de/urteile/haftung-der-bank-bei-arglistiger-taeuschung-des-kapitalanlagevermittlers-von',
+  },
 ];
 
 async function seedCategoriesAndScams() {
