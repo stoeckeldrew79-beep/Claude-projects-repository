@@ -17755,6 +17755,42 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Internal Revenue Service', 'IRS Criminal Investigation'],
     sourceUrl: 'https://www.irs.gov/compliance/criminal-investigation/fraud-alert-fake-irs-letters-target-cryptocurrency-holders',
   },
+  {
+    name: 'Unregistered "ZEK Investments" Promissory Note Scheme',
+    slug: 'alabama-zek-investments-promissory-note-scheme',
+    description:
+      'Zack Elon Killcreas, operating under the names ZEK Investments and Killcreas Group out of Valley and Auburn, Alabama, sold roughly 25 investors in Alabama and other states one-year promissory notes from at least 2019 through 2024, guaranteeing fixed monthly payouts — in some conversations over 10% a month — while telling investors he would day-trade stocks or cryptocurrency with their money and that the notes used the word "loan" only "for tax purposes." Many of the notes matured without investors receiving the promised interest or return of principal, and Killcreas had never registered with the Alabama Securities Commission in any capacity, nor were the notes themselves registered or exempt as required under the Alabama Securities Act. The Commission issued a formal cease-and-desist order against Killcreas in July 2025 after tracing the pattern back to a FINRA complaint, and warned it may pursue further administrative or criminal sanctions, including a permanent bar from the securities industry in Alabama. Before wiring money for any promissory note or "guaranteed return" investment, Alabama residents can use the ASC\'s free online registration check to confirm both the seller and the security are actually registered or lawfully exempt — a step that would have flagged Killcreas\'s notes as unregistered from the start.',
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    state: 'AL',
+    alertLevel: 'high',
+    sources: ['Alabama Securities Commission'],
+    sourceUrl: 'https://asc.alabama.gov/wp-content/uploads/2025/07/CD-2025-0022.pdf',
+  },
+  {
+    name: 'Glen Burnie Financial Adviser Ponzi and Account-Transfer Theft (Clarence Woods)',
+    slug: 'maryland-clarence-woods-ponzi-theft-scheme',
+    description:
+      'Clarence Woods Jr., a former financial services provider in Glen Burnie, Maryland, ran a Ponzi-style investment scheme that defrauded 13 investors of more than $380,000, and separately, without authorization, transferred over $175,000 directly out of a client\'s bank account into his own — together stealing more than $550,000 from 16 victims. The Maryland Attorney General\'s Office prosecuted the case, and Woods pleaded guilty in September 2025 to two counts of felony theft scheme and one count of securities fraud in the Circuit Court for Anne Arundel County. He was sentenced in October 2025 to 18 months of incarceration followed by five years of supervised probation, and ordered to pay $573,161 in restitution. The case is a reminder to independently verify any financial adviser\'s registration through the Maryland Securities Division or FINRA BrokerCheck before investing, and to never give an adviser standing authority to move money out of a personal bank account without transaction-by-transaction confirmation from the account holder.',
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    state: 'MD',
+    sources: ['Office of the Maryland Attorney General'],
+    sourceUrl: 'https://oag.maryland.gov/News/Pages/Former-Financial-Services-Provider-Sentenced-to-18-Months-in-Jail-for-Felony-Theft-Scheme-and-Securities-Fraud-.aspx',
+    isHistorical: true,
+  },
+  {
+    name: "Illinois Escrow Attorney's $11.9 Million Loan-Fraud Disbarment (Joseph Ravago)",
+    slug: 'illinois-ravago-escrow-attorney-loan-fraud',
+    description:
+      'Illinois attorney Joseph Shun Mendoza Ravago served as escrow agent for a trust arranging up to $350 million in loan proceeds for a client company, which wired $10.5 million into his law firm\'s trust account in October 2023 as part of the deal. Ravago assisted his clients in defrauding two entities out of a combined $11,996,250, and when the depositing company later asked about its money, he falsely told it that the full $10.5 million remained safely in his trust account even though the balance had by then been drawn down to just over $1 million. The Illinois Attorney Registration and Disciplinary Commission investigated, and the Illinois Supreme Court disbarred Ravago on consent, striking his name from the roll of licensed Illinois attorneys in January 2026. The case underscores that a lawyer\'s trust account is not an insured escrow account with independent oversight: before wiring a large sum to any attorney acting as an "escrow agent," check that attorney\'s license and disciplinary history through the ARDC\'s free lawyer-search tool, and insist on independent, bank-verified proof of funds rather than the escrow agent\'s own account statements.',
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    state: 'IL',
+    sources: ['Illinois Attorney Registration and Disciplinary Commission (ARDC)', 'Illinois Supreme Court'],
+    sourceUrl: 'https://www.iardc.org/RecentSupremeCourtCases',
+    isHistorical: true,
+  },
 ];
 
 async function seedCategoriesAndScams() {
