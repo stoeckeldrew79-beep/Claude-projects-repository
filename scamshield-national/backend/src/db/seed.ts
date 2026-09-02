@@ -20919,6 +20919,30 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Ontario Capital Markets Tribunal', 'Ontario Securities Commission (OSC)'],
     sourceUrl: 'https://www.capitalmarketstribunal.ca/en/proceedings/decisions-in-brief/decision-brief-bridging-finance-inc-enforcement-proceeding-sanctions-and-costs-june-17-2025',
   },
+  {
+    name: "Noah's Event Centers 1031 Exchange Fractional-Investment Fraud",
+    slug: 'utah-noahs-event-centers-1031-exchange-fraud',
+    description:
+      "Noah's Event Centers, a Utah-based wedding and event-venue company founded by St. George businessman William Bowser, pitched real-estate investors doing 1031 tax-deferred exchanges on fractional ownership stakes in planned event venues across the country, promising steady long-term returns as the properties were built and leased back to the company. In reality, prosecutors showed, the venues in Dublin, Ohio, Independence, Ohio, Toledo, Ohio, Jacksonville, Florida, and Carmel, Indiana were never built at all — satellite images at trial showed empty, undeveloped lots — while Noah's continued marketing new offerings and collecting investor money even after executives knew the company was in dire financial straits. Following a five-week federal trial in Salt Lake City, a jury convicted three Utah business owners, Christopher Ashby, Jordan Nelson, and Scott Beynon, on all 17 counts of wire fraud plus conspiracy in May 2026, and founder William Bowser pleaded guilty to conspiracy mid-trial; investors nationwide lost more than $30 million. A 1031 exchange has a strict, short IRS deadline to reinvest sale proceeds, and that time pressure is exactly what a promoter can exploit — investors offered a fractional stake in a not-yet-built property should independently confirm construction progress, permits, and site ownership before wiring exchange funds, rather than relying on the promoter's own renderings and progress reports.",
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    state: 'UT',
+    isHistorical: true,
+    sources: ["U.S. Attorney's Office, District of Utah", 'KSL.com'],
+    sourceUrl: 'https://www.justice.gov/usao-ut/pr/utah-jury-convicts-business-owners-fraud-after-victims-were-scammed-more-30m',
+  },
+  {
+    name: 'First State Depository Precious Metals Embezzlement',
+    slug: 'delaware-first-state-depository-embezzlement',
+    description:
+      "First State Depository, a precious metals storage vault in Wilmington, Delaware that held more than $100 million in customers' gold and silver on their behalf, was run by owner Robert Higgins as what turned out to be a decade-long embezzlement scheme rather than a secure storage business. Higgins quietly sold off and diverted customers' physical bullion to cover his own debts and fund a lifestyle that included two Hawaii timeshares and luxury vacations, while continuing to send account statements showing the metal was safely on hand; when the fraud surfaced, more than 1,000 customer accounts were found missing metal, with at least $76 million in bullion gone and roughly 900 victims affected, many of them elderly people who had moved retirement savings into physical metal specifically to keep it safe from market risk. A federal jury convicted Higgins of mail, wire, and tax fraud in October 2024, and in June 2025 a judge sentenced him to the statutory maximum of 65 years in prison, in what industry sources call the largest theft from a precious metals depository in U.S. history. The case is a reminder that a storage or custody statement is only as good as the audits behind it: before paying a depository or vault company to hold physical gold or silver, verify it carries independent, regularly published third-party audits and adequate insurance, and consider a vault that allows in-person or video verification of specific serial-numbered holdings rather than one that only ever sends its own paper statements.",
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    state: 'DE',
+    isHistorical: true,
+    sources: ["U.S. Attorney's Office, District of Delaware", 'Internal Revenue Service Criminal Investigation'],
+    sourceUrl: 'https://www.justice.gov/usao-de/pr/delaware-precious-metals-depository-owner-convicted-mail-wire-and-tax-fraud',
+  },
 ];
 
 async function seedCategoriesAndScams() {
