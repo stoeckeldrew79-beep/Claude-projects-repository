@@ -20547,6 +20547,30 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Verbraucherzentrale Bundesverband (vzbv)', 'Bundesgerichtshof (BGH)'],
     sourceUrl: 'https://www.vzbv.de/urteile/haftung-der-bank-bei-arglistiger-taeuschung-des-kapitalanlagevermittlers-von',
   },
+  {
+    name: 'Kentucky Addiction Centers Suboxone Billing Fraud',
+    slug: 'kentucky-addiction-centers-suboxone-billing-fraud',
+    description:
+      'Dr. José Alzadon, CEO Michael Bregenzer, and billing manager Barbie Vanhoose ran Kentucky Addiction Centers, a chain of opioid-addiction clinics in Winchester, Paducah, Paintsville, and London, Kentucky, that fraudulently billed Medicare and Kentucky Medicaid more than $8 million for Suboxone treatment — billing for appointments and services never provided, billing routine visits as far more complex than they were, and, most strikingly, submitting claims and Suboxone prescriptions under the name and DEA registration number of Alzadon\'s elderly father, a doctor who never actually saw the patients being billed in his name. A federal jury convicted all three in March 2025, and by mid-2026 each had been sentenced — Alzadon to 60 months, Bregenzer to 48 months, and Vanhoose to 24 months in prison — with a combined $812,881 ordered in restitution. Because the fraud depended on patients never noticing whose name was actually on their bill, anyone in addiction treatment or on Medicare or Medicaid can protect against this exact scheme by checking the provider name on their insurer\'s Explanation of Benefits or Medicare Summary Notice against the person who actually examined them, and reporting any mismatch to the Kentucky Attorney General\'s Office of Medicaid Fraud and Abuse Control or the HHS Office of Inspector General fraud line.',
+    categorySlug: 'healthcare-fraud',
+    country: 'US',
+    state: 'KY',
+    isHistorical: true,
+    sources: ['U.S. Department of Justice', 'Drug Enforcement Administration'],
+    sourceUrl: 'https://www.justice.gov/opa/pr/three-individuals-sentenced-prison-fraudulently-billing-medicare-and-medicaid-through-opioid',
+  },
+  {
+    name: 'Nevada "Umbrella Company" Medicaid Fraud and Senior Identity Theft (Carter Indictment)',
+    slug: 'nevada-umbrella-company-medicaid-fraud-senior-identity-theft',
+    description:
+      'A Nevada grand jury indicted Lawrence and Leasa Carter of Sun Valley on a 69-felony-count indictment in April 2026, alleging the couple — previously terminated and excluded as Nevada Medicaid providers over past misconduct — created a web of "umbrella" companies to conceal their real ownership, submitted false Medicaid provider-enrollment applications through those shell entities, then billed at least $2 million in claims for personal-care and other services that were never actually delivered. Prosecutors say the scheme also misused the personal identities of numerous individuals, including older Nevadans, to make the fraudulent claims and enrollments appear legitimate, resulting in additional charges of identity theft of an older person and identity theft of five or more persons alongside racketeering and perjury counts. The Nevada Attorney General\'s Medicaid Fraud Control Unit brought the case, a reminder that Medicaid recipients and their families — especially those receiving in-home personal-care services, which are especially easy to bill for without ever showing up — should regularly review their Medicaid Explanation of Benefits or call to confirm which visits and services were actually billed in their name, and report any service they don\'t recognize to Nevada\'s MFCU at 702-486-3420 or 775-684-1100.',
+    categorySlug: 'healthcare-fraud',
+    country: 'US',
+    state: 'NV',
+    alertLevel: 'high',
+    sources: ["Nevada Attorney General's Office", 'Nevada Medicaid Fraud Control Unit'],
+    sourceUrl: 'https://ag.nv.gov/News/PR/2026/Attorney_General_Ford_Announces_69_Felony_Charges_in_Alleged_Scheme_Involving_Medicaid_Fraud_and_Identity_Theft_of_Seniors/',
+  },
 ];
 
 async function seedCategoriesAndScams() {
