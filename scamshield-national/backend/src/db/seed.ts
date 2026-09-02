@@ -16337,6 +16337,42 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Cybermalveillance.gouv.fr'],
     sourceUrl: 'https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/escroquerie-fausse-commande',
   },
+  {
+    name: 'EmPOWER Maryland Ratepayer Fraud (Lockheed Martin Contractor Case)',
+    slug: 'maryland-empower-ratepayer-fraud-lockheed-martin',
+    description:
+      'A whistleblower lawsuit alleged that Lockheed Martin and its subcontractors, which managed home energy-efficiency upgrades for Maryland utility customers under the state-mandated, utility-surcharge-funded EmPOWER Maryland program, overstated energy savings, billed for work never performed, and diverted millions of dollars in ratepayer funds over several years. Reporting on the sealed suit prompted the Maryland Public Service Commission to order a formal investigation, after the underlying case ended in a court-sealed settlement. This is institutional insider fraud against a state-mandated ratepayer program rather than a scam aimed at individual consumers directly, illustrating how contractor billing fraud can drain a state energy program funded by surcharges on every ratepayer\'s bill for years before detection.',
+    categorySlug: 'utility-scams',
+    country: 'US',
+    state: 'MD',
+    alertLevel: 'medium',
+    sources: ['The Baltimore Sun', 'Maryland Public Service Commission'],
+    sourceUrl: 'https://www.baltimoresun.com/2026/04/21/fraud-allegations-empower-probe/',
+  },
+  {
+    name: 'Nebraska "Game Day Experience" Fake Charity Ticket Scam',
+    slug: 'nebraska-game-day-experience-fake-charity-ticket-scam',
+    description:
+      'An operator sold Nebraska football fans a "Game Day Experience" package, a stadium luxury suite with former Husker players, for at least $1,000 per package, representing that proceeds would benefit named charities and nonprofits tied to former players. Consumers received only general-admission tickets or nothing at all, and no money reached any charity; the operator instead spent proceeds on personal trips and streaming subscriptions. The Nebraska Attorney General sued under the state\'s consumer protection and deceptive trade practices laws, and a court found the operator liable for dozens of violations, ordering restitution, civil penalties, and court costs, a distinct mechanism from a generic fake-charity or ticket-resale scam since it combines a fabricated premium sports experience with a false charitable-giving claim, exploiting fan loyalty to a specific state team.',
+    categorySlug: 'charity-scams',
+    country: 'US',
+    state: 'NE',
+    alertLevel: 'medium',
+    sources: ['Nebraska Attorney General\'s Office'],
+    sourceUrl: 'https://ago.nebraska.gov/news/mccants-found-liable-nebraska-game-day-experience-scam',
+  },
+  {
+    name: 'Connecticut Fake Cannabis Retail License "Pilot Program" Scam',
+    slug: 'connecticut-fake-cannabis-retail-license-pilot-program-scam',
+    description:
+      'Operators told convenience-store and smoke-shop owners across Connecticut that a fictional state "pilot program" authorized them to sell exclusive cannabis retail licenses, charging individual retailers tens of thousands of dollars and, in at least one case, providing forged documents on state agency letterhead purportedly signed by an official falsely certifying the business as approved to sell legal cannabis. Roughly 70 businesses paid into the scheme before the Connecticut Attorney General sued, seeking a multimillion-dollar prejudgment asset freeze. The defining mechanism here is forged official state letterhead selling a wholly fictional licensing program to business owners, distinct from a cannabis-business extortion call or a fake certification clinic, and Connecticut business owners are advised to verify any claimed state licensing program or pilot initiative directly with the Department of Consumer Protection before paying anything.',
+    categorySlug: 'government-impersonation',
+    country: 'US',
+    state: 'CT',
+    alertLevel: 'high',
+    sources: ['Connecticut Office of the Attorney General'],
+    sourceUrl: 'https://portal.ct.gov/ag/press-releases/2025-press-releases/attorney-general-tong-seeks-2-5-million-prejudgment-remedy',
+  },
 ];
 
 async function seedCategoriesAndScams() {
