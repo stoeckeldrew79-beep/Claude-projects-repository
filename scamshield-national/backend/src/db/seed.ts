@@ -4951,20 +4951,6 @@ Thérèse Humbert was tried in 1903 and sentenced to five years' hard labor; her
     sourceUrl: 'https://en.wikipedia.org/wiki/Th%C3%A9r%C3%A8se_Humbert',
   },
   {
-    title: 'Joseph "Yellow Kid" Weil: The Con Man Who Wired Fake Race Results to Wall Street Marks',
-    slug: 'joseph-yellow-kid-weil-con-man',
-    author: 'ScamShield Editorial',
-    tags: ['notorious', 'notorious-scammer', 'historical'],
-    body: `Joseph Weil was born in Chicago in 1875 and got his start in the 1890s selling "Dr. Meriwether's Elixir," a worthless patent medicine, alongside the con artist who mentored him. From there he built a decades-long career as one of the most inventive confidence men in American history, reputed to have taken in more than $8 million over the roughly forty years he worked the con — a figure impossible to verify precisely, since so much of it came from victims too embarrassed to report being fleeced. He earned the nickname "Yellow Kid" for his resemblance to a popular newspaper comic-strip character, and he wore it as a badge of honor for the rest of his life.
-
-Weil's specialty was the elaborate, slow-build confidence game rather than the quick grab. His best-known scheme, "the wire," involved setting up a fake off-track betting parlor, staffed with hired actors playing brokers and tellers, built around the premise that Weil's team had a corrupt telegraph operator secretly delaying horse-race results before they reached the public — giving anyone inside the room a supposedly guaranteed window to bet on a race whose outcome was already known. Marks were let in slowly, shown the operation "working" with small, real winning bets to build trust, and then encouraged to wire in large sums of their own money — money that vanished, along with the entire storefront operation, the moment the mark's cash was in hand. He ran variations on this same architecture of manufactured trust dozens of times, in cities across the country, under an ever-changing set of names.
-
-Beyond the wire, Weil posed at different points in his career as a bank president, a mining engineer, a chemist, a geologist, and a physician, complete with rented offices, forged letterhead — including counterfeit J.P. Morgan stationery — and hired accomplices who played whatever supporting roles a given swindle required. He sold fraudulent oil leases, worthless mining stock, and fake real estate developments to investors who believed they were dealing with legitimate financiers, and unlike many con men, he was rarely caught mid-scheme; most of his victims either never reported the loss or discovered it too late for police to act.
-
-Weil's luck eventually ran out over a phony oil-lease scheme that led to a federal mail fraud conviction, and he served 27 months in a federal prison in Atlanta before "retiring" from the con business in 1941. He lived to be 100 years old, dying in 1976, and spent much of his later life as something of a folk celebrity, giving interviews about his career and publishing a 1948 autobiography, "Yellow Kid Weil," that carried an afterword by Nobel laureate Saul Bellow. His signature "wire" con became a foundational reference for the film "The Sting," and his career remains a standard case study in how a confidence game succeeds not through force but through a slow, deliberate manufacture of trust that a victim never sees being built.`,
-    sourceUrl: 'https://en.wikipedia.org/wiki/Joseph_Weil',
-  },
-  {
     title: 'William "520 Percent" Miller and the Franklin Syndicate That Predated Ponzi by Twenty Years',
     slug: 'william-miller-franklin-syndicate-ponzi',
     author: 'ScamShield Editorial',
