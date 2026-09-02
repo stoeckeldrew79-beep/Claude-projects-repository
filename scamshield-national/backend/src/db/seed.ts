@@ -15033,6 +15033,52 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Employment and Social Development Canada / Service Canada (Government of Canada)'],
     sourceUrl: 'https://www.canada.ca/en/employment-social-development/corporate/portfolio/service-canada/fraud.html',
   },
+  {
+    name: '"Reply YES" Fake Recruiter Text Job Scam',
+    slug: 'reply-yes-fake-recruiter-text-job-scam',
+    description:
+      'Scammers text unsolicited "job offers" impersonating recruiters from real, recognizable companies, advertising vague remote roles with an attractive daily or weekly pay rate but no real job description. Instead of a phishing link, the text asks the recipient to simply reply "YES" or "INTERESTED," a tactic designed to open a live conversation while evading link-based spam filters. Once the target engages, the scammer pivots into a fake-check scheme, having the victim deposit an inflated check and wire back the "overpayment," or a task-scam pattern where completing paid "tasks" like giving positive reviews requires depositing personal funds to "unlock" earnings. The FTC reported a spike in this specific no-link SMS pattern in early 2026 as a documented evolution of job-text scams, and advises never replying to an unsolicited job text and verifying any offer directly with the company\'s own official careers page.',
+    categorySlug: 'employment-scams',
+    country: 'US',
+    alertLevel: 'medium',
+    sources: ['Federal Trade Commission (FTC)'],
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2026/04/job-offer-text-probably-scam',
+  },
+  {
+    name: 'QR-Code Fake Traffic-Hearing / Court-Summons Text Scam',
+    slug: 'qr-code-fake-traffic-hearing-court-summons-text-scam',
+    description:
+      'A text message impersonating a state court system claims the recipient has an unpaid traffic violation, complete with a fake state seal, a fabricated case number, and a scheduled hearing date, then presents two options: attend the fake hearing or scan an embedded QR code to pay the fine immediately. Scanning the code leads to a fraudulent payment page built to harvest Social Security numbers, credit card details, and other personal data, or to install malware, exploiting the fact that a real court summons is something recipients feel legally compelled to respond to quickly. The FTC issued this alert after observing a sharp spike in reports, distinct from ordinary unpaid-toll or DMV registration-suspension text scams since it impersonates the court system itself with a fabricated hearing date and delivers its payment demand through a QR code rather than a link. Real traffic violations and court summonses are never delivered by text message with a QR-code payment option, and recipients are advised to verify any claimed citation directly with the court listed, using an independently looked-up phone number.',
+    categorySlug: 'government-impersonation',
+    country: 'US',
+    alertLevel: 'medium',
+    sources: ['Federal Trade Commission (FTC)'],
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2026/04/text-about-traffic-violation-probably-scam',
+  },
+  {
+    name: 'Mississippi TANF/DHS Welfare Fraud Scandal',
+    slug: 'mississippi-tanf-dhs-welfare-fraud-scandal',
+    description:
+      'A Mississippi Office of the State Auditor investigation found the Mississippi Department of Human Services misspent more than $77 million in welfare funds, including federal Temporary Assistance for Needy Families dollars intended for the state\'s poorest residents, by funneling grants through nonprofits with little oversight, in what the State Auditor called the largest public embezzlement case in Mississippi history. Former MDHS Director John Davis pleaded guilty to state charges including conspiracy and fraud and was sentenced to 32 years, while a nonprofit operator pleaded guilty to bribery, fraud, and racketeering charges. This is a documented case of insider diversion of a specific state benefit program rather than a scam pitched directly to consumers, illustrating how state benefit dollars can be diverted through unaccountable subgrantees.',
+    categorySlug: 'public-benefits-fraud',
+    country: 'US',
+    state: 'MS',
+    alertLevel: 'high',
+    sources: ['Mississippi Office of the State Auditor'],
+    sourceUrl: 'https://www.osa.ms.gov/news/john-davis-pleads-guilty-welfare-scandal',
+  },
+  {
+    name: 'South Dakota GEAR UP / Mid-Central Educational Cooperative Grant Fraud',
+    slug: 'south-dakota-gear-up-mid-central-grant-fraud',
+    description:
+      'The operators of South Dakota\'s federally funded GEAR UP college-access program, run through the Mid-Central Educational Cooperative, diverted millions of dollars in state-administered federal grant money meant to prepare Native American and low-income students for college into nonprofit entities they personally controlled. The scheme unraveled in September 2015 when the state\'s Department of Education flagged the missing funds, and a subsequent South Dakota Department of Legislative Audit report found roughly $1.4 million still unaccounted for, citing inadequate oversight by both the state Department of Education and the cooperative\'s own governing board; three former Mid-Central employees were separately charged with fraud-related offenses. The case illustrates a specific state program vulnerability, showing how oversight gaps in grant administration can let insiders divert public education funding for years before detection.',
+    categorySlug: 'public-benefits-fraud',
+    country: 'US',
+    state: 'SD',
+    alertLevel: 'high',
+    sources: ['South Dakota Department of Legislative Audit'],
+    sourceUrl: 'https://www.keloland.com/news/searing-report-confirms-misdoings-fraud-and-conflicts-in-gear-up-scandal/',
+  },
 ];
 
 async function seedCategoriesAndScams() {
