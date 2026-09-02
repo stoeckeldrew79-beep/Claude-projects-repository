@@ -16552,6 +16552,39 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Employees\' Provident Fund Organisation (EPFO)', 'Ministry of Labour & Employment, Government of India'],
     sourceUrl: 'https://www.epfindia.gov.in/site_en/',
   },
+  {
+    name: 'German Deutsche Bahn (DB) Fake Refund Phishing Email',
+    slug: 'german-deutsche-bahn-fake-refund-phishing-email',
+    description:
+      'Fraudsters send emails and SMS closely imitating Deutsche Bahn\'s branding, claiming the recipient is owed a small refund such as an overcharge on a recent ticket, and inviting them to click a link to claim it. The impersonal greeting and deliberately vague details, no real ticket number, date, or exact fare, are used to cast a wide net rather than target a specific traveler, and the linked page mimics an official refund form but is built to harvest personal data and payment or card details rather than issue any real refund. Deutsche Bahn\'s own security page confirms it never sells discounted vouchers or tickets outside official channels and directs suspicious messages to be reported to Verbraucherzentrale\'s phishing-reporting service.',
+    categorySlug: 'phishing',
+    country: 'DE',
+    alertLevel: 'medium',
+    sources: ['Deutsche Bahn', 'Verbraucherzentrale (Phishing-Radar)'],
+    sourceUrl: 'https://www.bahn.de/info/sonderkommunikation-phishing',
+  },
+  {
+    name: 'German Fake Debt-Collection Letter/Email Scam (Fake-Inkasso)',
+    slug: 'german-fake-inkasso-debt-collection-scam',
+    description:
+      'Criminals impersonate real, registered German debt-collection agencies and send emails or letters with forged invoices, fabricated court-enforcement notices bearing real court and bailiff names, and false insolvency case numbers, demanding payment, often a few hundred euros, within a short deadline to avoid supposed legal action. Victims are pressured to wire money to a foreign account rather than a normal German bank transfer, and multiple German consumer-protection offices have separately documented this wave, noting the scam continually evolves its specific details to evade recognition. Consumers are advised to verify any real debt-collection claim via the agency\'s own official portal using the letter\'s case number, check the collector\'s registration in Germany\'s legal-services register, and never pay before verifying.',
+    categorySlug: 'debt-relief-scams',
+    country: 'DE',
+    alertLevel: 'high',
+    sources: ['Verbraucherzentrale Hessen', 'Verbraucherzentrale Thüringen'],
+    sourceUrl: 'https://www.verbraucherzentrale-hessen.de/pressemeldungen/vertraege-reklamation/neue-betrugswelle-mit-gefaelschten-inkassoschreiben-109246',
+  },
+  {
+    name: 'German Doorstep Solar Panel / Subsidy Sales Scam',
+    slug: 'german-doorstep-solar-panel-subsidy-sales-scam',
+    description:
+      'Unlicensed sales representatives cold-call or go door-to-door offering a "free, no-obligation" home assessment of roof suitability for a solar installation, collecting personal contact details on the spot and invoking real government subsidy or loan programs to lend the pitch legitimacy. In documented cases, what customers believed was a non-binding inquiry turned out to be a binding order for a system costing tens of thousands of euros, with components undelivered and no installer ever showing up, a deceptive high-pressure sales pattern distinct from a scammer impersonating utility staff to gain home entry. Consumer-protection offices advise never disclosing personal data to unsolicited callers, never signing during a high-pressure doorstep visit, and using the mandatory 14-day right of withdrawal if a contract was signed under pressure.',
+    categorySlug: 'utility-scams',
+    country: 'DE',
+    alertLevel: 'medium',
+    sources: ['Verbraucherzentrale Rheinland-Pfalz', 'Verbraucherzentrale Energieberatung'],
+    sourceUrl: 'https://www.verbraucherzentrale-rlp.de/pressemitteilungen/unserioese-werbung-fuer-photovoltaikanlagen-65097',
+  },
 ];
 
 async function seedCategoriesAndScams() {
