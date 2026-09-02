@@ -21676,6 +21676,43 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Singapore Police Force', 'Commercial Affairs Department (Singapore)'],
     sourceUrl: 'https://www.police.gov.sg/media-hub/news/2022/20220912_former_dir_of_multimil_dlr_gold_invstmnt_cmpny_jailed_for_running_a_ponzi_scheme',
   },
+  {
+    name: 'Zenith Asset Tech Foundation Fake AI Trading Platform Scheme',
+    slug: 'washington-zenith-asset-tech-fake-ai-trading-scheme',
+    description:
+      'Operators advertised free "investment education" on Facebook, Instagram, and LinkedIn under names like Zenith Asset Tech Foundation, then moved recruits into WhatsApp and Telegram groups where they distributed AI-generated "trading signals" and steered them toward fake cryptocurrency trading platforms built to display fabricated profits. Victims who wired money — often converted to crypto through unregistered third parties — watched their account balances appear to grow, but every attempt to withdraw was met with a demand for a further "release fee," and no investor ever got money back out. The Washington State Department of Financial Institutions filed charges in April 2026 alleging the scheme took roughly $9.9 million from at least 38 investors nationwide, including Washington residents, and warns that a legitimate registered adviser or exchange never requires a fee to unlock a withdrawal. DFI\'s securities and investor-education staff recommend verifying any trading platform or "education foundation" through its License Lookup before sending money, and treating AI-branded "signals" promising consistent gains as a red flag regardless of how professional the associated website looks.',
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    state: 'WA',
+    alertLevel: 'high',
+    sources: ['Washington State Department of Financial Institutions (DFI)'],
+    sourceUrl: 'https://dfi.wa.gov/news/press/washington-state-dfi-alleges-fake-investment-education-foundations-and-trading-platforms',
+  },
+  {
+    name: 'Wall & Associates Virginia Tax Debt Settlement Fraud',
+    slug: 'virginia-wall-associates-tax-debt-settlement-fraud',
+    description:
+      'Wall & Associates, Inc., a debt-settlement firm run out of Virginia and Tennessee offices, marketed itself to tax debtors nationwide using rented, temporary local offices to appear physically present in each customer\'s community, staffing calls with salespeople titled "tax consultants" who falsely implied IRS or state tax-authority credentials, and claiming clients typically settled for roughly 10% of what they owed — while charging hundreds of dollars a month regardless of outcome. Virginia\'s Attorney General sued the company under the state\'s Consumer Protection Act, and the Fauquier County Circuit Court found Wall & Associates and its CEO, P. Mark Yates, liable, ordering more than $1.69 million combined in civil penalties plus restitution to affected consumers nationwide, with the final restitution amount still being calculated as of the office\'s 2026 consumer alert. The Attorney General\'s office warns that any company promising a guaranteed settlement percentage or a fixed timeline for tax debt relief is a red flag, since results legally depend on the IRS\'s case-by-case review. Consumers with IRS debt are advised to work directly with the IRS, contact the Taxpayer Advocate Service, or hire a CPA or attorney licensed to practice before the IRS rather than pay upfront fees to a national debt-settlement telemarketer.',
+    categorySlug: 'debt-relief-scams',
+    country: 'US',
+    state: 'VA',
+    alertLevel: 'high',
+    sources: ["Office of the Attorney General of Virginia"],
+    sourceUrl: 'https://www.oag.state.va.us/media-center/news-releases/3003-attorney-general-jay-jones-shares-reminder-to-be-wary-of-predatory-practices-by-tax-debt-settlement-companies',
+  },
+  {
+    name: 'Harrison County, West Virginia Fake Lottery Winnings Phone Scam',
+    slug: 'west-virginia-harrison-county-lottery-phone-scam',
+    description:
+      'Shelly Anne Leipham repeatedly called an elderly Harrison County, West Virginia victim, telling them they had won $1 million and directing them to send money by mail and wire to cover fees before the winnings could be released. Over roughly two years the victim sent nearly $25,000, with prosecutors describing a pattern of Leipham calling "over and over again," disregarding the hardship she caused, and repeatedly lying to keep the payments coming. A federal grand jury in the Northern District of West Virginia indicted Leipham in March 2021 on wire fraud, mail fraud, and money laundering charges; a jury convicted her in April 2022, and she was sentenced to 87 months in federal prison and ordered to pay a $336,402 money judgment. The case is a reminder that a real lottery or sweepstakes never requires a winner to pay any fee, tax, or "processing cost" up front to collect a prize, and that repeated, high-pressure phone calls pushing a family member toward secrecy or urgency are themselves grounds to hang up and verify independently before sending money.',
+    categorySlug: 'lottery-sweepstakes-scams',
+    country: 'US',
+    state: 'WV',
+    isHistorical: true,
+    firstRecorded: '2019-03-01',
+    sources: ["U.S. Attorney's Office, Northern District of West Virginia"],
+    sourceUrl: 'https://www.justice.gov/usao-ndwv/pr/las-vegas-woman-indicted-fraud-and-money-laundering-charges',
+  },
 ];
 
 async function seedCategoriesAndScams() {
