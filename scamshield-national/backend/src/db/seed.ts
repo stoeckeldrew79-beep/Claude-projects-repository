@@ -15597,6 +15597,64 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Transportstyrelsen (Swedish Transport Agency)'],
     sourceUrl: 'https://www.transportstyrelsen.se/sv/om-oss/kontakta-oss/varning-for-bedrageri/',
   },
+  {
+    name: 'SSA/OIG Real-Employee-Name and Fake-Badge Imposter Scam',
+    slug: 'ssa-oig-real-employee-name-fake-badge-imposter-scam',
+    description:
+      'Criminals impersonating Social Security Administration and SSA Office of Inspector General staff contact victims by phone, text, email, social media, or mail, then reinforce the deception with the actual name of a real SSA/OIG employee paired with a fabricated badge or credential image. Scammers scrape genuine social media profiles of real SSA OIG staff to gather personal details that let them build rapport and appear credible before ever raising money, a distinct escalation from a generic "your SSN is suspended" impersonation call since the caller has real names and visual "proof" to back up the claim. Once trust is established, victims are pressured to pay via untraceable methods including gift cards, precious metals, cryptocurrency, and wire transfers. SSA OIG explicitly calls this a "new wave" of imposter scams and advises verifying any contact by calling SSA OIG\'s own hotline directly rather than a number provided by the caller.',
+    categorySlug: 'government-impersonation',
+    country: 'US',
+    alertLevel: 'high',
+    sources: ['Social Security Administration Office of Inspector General (SSA OIG)'],
+    sourceUrl: 'https://oig.ssa.gov/scam-alerts/2026-04-28-new-wave-of-imposter-scams-criminals-using-real-ssa-employee-names-and-fake-badges/',
+  },
+  {
+    name: 'FCC Impersonation "Phone Number Under Investigation" Scam',
+    slug: 'fcc-impersonation-phone-number-under-investigation-scam',
+    description:
+      'Scammers call or text posing as an FCC Commissioner or FCC staff member, falsely claiming the victim\'s phone number is under investigation for criminal activity and directing them to a fake "law enforcement hotline" to resolve it, where they demand immediate payment or personal financial information under threat of legal action. In one documented instance, fraudsters specifically impersonated a sitting FCC Commissioner by name, prompting a public warning that no FCC commissioner will ever call or text asking for personal information or demanding money. This is distinct from a classic IRS or SSA arrest-warrant call since it centers specifically on the victim\'s phone number and telecom status as the pretext, invoking the telecom regulator itself for credibility. The FCC states plainly it will never call a consumer to say their number is under investigation or route them to a "law enforcement hotline."',
+    categorySlug: 'government-impersonation',
+    country: 'US',
+    alertLevel: 'medium',
+    sources: ['Federal Communications Commission (FCC)'],
+    sourceUrl: 'https://www.fcc.gov/document/alert-beware-scammers-impersonating-fcc-commissioners-employees',
+  },
+  {
+    name: 'Fake Attorney Impersonation Investment and Wire Fraud Scam',
+    slug: 'oregon-fake-attorney-impersonation-investment-wire-fraud',
+    description:
+      'Scammers harvest real names and Oregon State Bar numbers from the Bar\'s public attorney directory to impersonate actually-licensed Oregon attorneys, then use that stolen credibility two ways: posing as an attorney offering "investment services" to targets met on dating apps, and compromising both a real attorney\'s and a real client\'s email accounts to redirect legal-settlement wire transfers with falsified instructions. The Oregon DOJ Consumer Hotline documented cases with combined losses in the hundreds of thousands of dollars, including one victim who lost more than $700,000 in the settlement-wire variant, now under FBI investigation. This centers on live impersonation of a real, named, publicly-licensed attorney rather than a fabricated role or a phishing attack targeting attorneys themselves, and the Oregon DOJ advises verifying any attorney\'s identity and any wire instructions by calling the attorney\'s office directly using a number independently looked up, never one provided in the communication itself.',
+    categorySlug: 'business-email-compromise',
+    country: 'US',
+    state: 'OR',
+    alertLevel: 'high',
+    sources: ['Oregon Department of Justice (Consumer Hotline)'],
+    sourceUrl: 'https://www.doj.state.or.us/media-home/news-media-releases/oregon-doj-consumer-hotline-warns-of-new-scam-impersonating-oregon-attorneys/',
+  },
+  {
+    name: 'ARKNET Unemployment Portal Phishing Scam',
+    slug: 'arknet-unemployment-portal-phishing-scam',
+    description:
+      'Scammers email former Arkansas unemployment insurance claimants with links that mimic ARKNET, Arkansas\'s real unemployment-claims portal, routing victims to a fraudulent look-alike page hosted on a free website-builder subdomain rather than the state\'s actual domain. The fake site harvests Social Security numbers, dates of birth, and PINs under the guise of a claims-portal login. The Arkansas Division of Workforce Services issued an urgent public alert confirming legitimate communications only ever come from an official arkansas.gov address, and advises anyone who receives such a link to navigate directly to the real ARKNET site rather than clicking through the email.',
+    categorySlug: 'public-benefits-fraud',
+    country: 'US',
+    state: 'AR',
+    alertLevel: 'medium',
+    sources: ['Arkansas Division of Workforce Services'],
+    sourceUrl: 'https://dws.arkansas.gov/news_post/urgent-scam-alert-for-former-unemployment-insurance-claimants/',
+  },
+  {
+    name: 'Indiana Senior Home Care Medicaid Waiver Billing Fraud',
+    slug: 'indiana-senior-home-care-medicaid-waiver-billing-fraud',
+    description:
+      'Operators connected to an Indiana Medicaid waiver-services provider were criminally charged after the Indiana Attorney General\'s Medicaid Fraud Control Unit found the company billed and was paid over $10.9 million for attendant care, home and community assistance, and transportation services that were never actually provided to Medicaid waiver recipients, routinely billing the maximum authorized hours regardless of whether services occurred. Investigators say diverted funds paid for international travel, designer goods, and other personal luxury spending by the scheme\'s operators. This fits the institutional insider-fraud-against-a-state-program genre already documented elsewhere in this database, and illustrates how families relying on home care for a vulnerable relative should watch for services being billed that were never actually delivered, and report any suspected gap between billed and received care to the state Medicaid Fraud Control Unit.',
+    categorySlug: 'healthcare-fraud',
+    country: 'US',
+    state: 'IN',
+    alertLevel: 'high',
+    sources: ['Indiana Attorney General\'s Office (Medicaid Fraud Control Unit)'],
+    sourceUrl: 'https://events.in.gov/event/attorney-general-todd-rokita-files-charges-in-109m-medicaid-fraud-case',
+  },
 ];
 
 async function seedCategoriesAndScams() {
