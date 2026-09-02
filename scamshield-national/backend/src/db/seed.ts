@@ -22137,6 +22137,31 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Oregon Department of Justice'],
     sourceUrl: 'https://www.doj.state.or.us/media-home/news-media-releases/ag-rayfield-announces-medicaid-fraud-charges-and-convictions-in-three-separate-multnomah-county-cases/',
   },
+  {
+    name: 'H Street Community Development Corporation Bonus Diversion Scheme',
+    slug: 'dc-h-street-cdc-nonprofit-bonus-diversion-fraud',
+    description:
+      'Kenneth Brewer Sr. spent 13 years as executive director of the H Street Community Development Corporation (HSCDC), a Washington, DC nonprofit funded to support affordable housing and local business development, while also controlling its for-profit subsidiary, H Street Investment Corporation. The DC Attorney General\'s office found that from 2017 to 2023 Brewer bypassed the nonprofit\'s board and awarded himself unauthorized annual bonuses of $150,000 to $350,000, funneling money through the subsidiary and using proceeds from HSCDC property sales to cover the payouts. A DC Superior Court judge granted summary judgment against Brewer on April 30, 2026, ordering him to repay the full $1,255,000 in diverted funds and placing a constructive trust over his assets so HSCDC can recover what it is owed. The case illustrates that nonprofit fraud isn\'t always an outside con artist soliciting donations — it can be an insider with sole control over payroll and a captive for-profit affiliate — and donors or grant funders can check a DC nonprofit\'s standing and any enforcement history through the Attorney General\'s Nonprofit Compliance page before giving.',
+    categorySlug: 'charity-scams',
+    country: 'US',
+    state: 'DC',
+    isHistorical: true,
+    firstRecorded: '2017-01-01',
+    sources: ['DC Office of the Attorney General'],
+    sourceUrl: 'https://oag.dc.gov/release/attorney-general-schwalb-secures-1255-million',
+  },
+  {
+    name: 'Camelot Funeral Home Unlicensed Director Fraud',
+    slug: 'ny-camelot-funeral-home-unlicensed-director-fraud',
+    description:
+      'Michael Naughton, 55, of Baldwin, New York, kept running Camelot Funeral Home in Mount Vernon as though nothing had changed after the state revoked his funeral director\'s license in 2019 — negotiating prices, signing contracts, transporting decedents, conducting services, and forging Burial Transit Permits for families who had no way to know he was no longer authorized to do any of it. New York Attorney General Letitia James says the scheme ran from May 2025 through January 2026, defrauding dozens of families of thousands of dollars combined; when investigators inspected the facility on January 30, 2026, they found 13 decomposing bodies left improperly stored throughout the building, including in a detached garage, along with 17 boxes of unclaimed cremated remains in the basement. A Westchester County grand jury indicted Naughton on April 1, 2026 on a 20-count indictment including grand larceny, criminal possession of a forged instrument, scheme to defraud, and unlicensed practice of funeral directing. Before signing any funeral contract, families can verify a funeral director\'s active license for free through the New York State Department of Health\'s online license lookup rather than assuming a familiar-looking, long-operating funeral home is being run by someone still authorized to do the job.',
+    categorySlug: 'identity-theft',
+    country: 'US',
+    state: 'NY',
+    alertLevel: 'high',
+    sources: ["New York Attorney General's Office"],
+    sourceUrl: 'https://ag.ny.gov/press-release/2026/attorney-general-james-announces-indictment-unlicensed-funeral-director',
+  },
 ];
 
 async function seedCategoriesAndScams() {
