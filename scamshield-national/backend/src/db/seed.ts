@@ -19529,6 +19529,30 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Federal Trade Commission (FTC)'],
     sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2026/08/bill-payment-firm-doxo-pay-21-million-settle-ftc-allegations-it-deceived-consumers-charged-them-add',
   },
+  {
+    name: 'Premier Global Corp "Factored Invoice" Ponzi Scheme',
+    slug: 'kansas-premier-global-corp-factored-invoice-ponzi-scheme',
+    description:
+      'Steve Parish, CEO of Derby, Kansas-based Premier Global Corp, sold promissory notes that supposedly funded the purchase of "factored invoices" — a real, legitimate form of business financing where a company sells its unpaid invoices at a discount for immediate cash — promising steady returns to hundreds of investors. Rather than buying real invoices, Parish and associates Joshua Owen and Richard Dean (owner of DDI Advisory Group LLC) allegedly falsified records and paid "profits" to existing investors using money from newer ones, a classic Ponzi structure, while diverting some investor deposits to personal expenses; the scheme is alleged to have raised roughly $100 million from more than 570 investors across 15 states. The Kansas Securities Commissioner, part of the Kansas Insurance Department, first sued civilly in November 2022, freezing assets and installing a receiver, and a federal grand jury in Wichita returned a criminal indictment against all three men on conspiracy, securities fraud, bank fraud, wire fraud, and money laundering charges in December 2025. Because "invoice factoring" and other private promissory-note investments are real but illiquid and hard to verify independently, the Kansas Securities Commissioner urges anyone offered one to confirm both the underlying assets and the seller\'s registration status directly with the commissioner\'s office before investing, rather than relying on account statements the seller itself produces.',
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    state: 'KS',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office, District of Kansas", 'Kansas Insurance Department (Securities Commissioner)', 'KWCH'],
+    sourceUrl: 'https://www.justice.gov/usao-ks/pr/men-indicted-crimes-related-securities-fraud',
+  },
+  {
+    name: 'Cascade Relief Team Disaster-Charity Fraud',
+    slug: 'oregon-cascade-relief-team-disaster-charity-fraud',
+    description:
+      'Marcus Brooks founded Cascade Relief Team, an Oregon nonprofit that solicited donations and government grant money to help wildfire, flood, and tornado survivors in Oregon and Kentucky, then allegedly diverted nearly $837,000 of it to himself as the organization\'s sole controller — spending it on casinos, strip clubs, Disneyland and Florida vacations, personal vehicles, and his own credit card bills, according to a lawsuit filed by Oregon Attorney General Dan Rayfield in April 2026. The complaint alleges that when the Red Cross granted the charity $326,000 to help Kentucky tornado victims, Brooks used most of it to start an unrelated personal business and then falsely told the foundation the money had gone toward restructuring the nonprofit; the charity quietly ran out of money and stopped serving disaster survivors in fall 2023 without ever notifying donors or the communities it claimed to help. Rayfield\'s suit seeks full repayment, a permanent ban on Brooks holding any charitable leadership role, and court-ordered dissolution of the organization. Because a charity\'s website and disaster-relief branding can keep looking active long after the underlying organization has stopped doing real work, the Oregon DOJ\'s Charitable Activities Section maintains a free public charity search so donors can check a nonprofit\'s registration status and financial filings before giving, especially in the weeks after a disaster when appeals for a specific, freshly-named relief fund are hardest to verify.',
+    categorySlug: 'charity-scams',
+    country: 'US',
+    state: 'OR',
+    alertLevel: 'high',
+    sources: ['Oregon Department of Justice'],
+    sourceUrl: 'https://www.doj.state.or.us/media-home/news-media-releases/ag-rayfield-sues-charity-leader-for-stealing-nearly-837k-meant-for-disaster-victims/',
+  },
 ];
 
 async function seedCategoriesAndScams() {
