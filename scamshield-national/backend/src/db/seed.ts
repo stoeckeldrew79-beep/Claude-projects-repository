@@ -23114,6 +23114,39 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ["Texas Attorney General's Office", "Alaska Department of Law"],
     sourceUrl: 'https://www.texasattorneygeneral.gov/news/releases/attorney-general-ken-paxton-secures-millions-victims-fraudulent-loan-scheme-targeted-senior-citizens',
   },
+  {
+    name: 'Dutch Recovery Fraud (Recoveryfraude) Targeting Previous Scam Victims',
+    slug: 'dutch-recovery-fraud-second-scam-targeting',
+    description:
+      'Someone who already lost money to an earlier scam — commonly investment fraud, but any fraud type can trigger it — is contacted out of the blue by a supposed "recovery agency," lawyer, or notary claiming they have traced the stolen funds and can get the money back, but first require an upfront fee for their services. Fraudehelpdesk explains that criminals typically obtain contact details either from the original fraudulent website, from data the victim left while searching online for help, or by mass-messaging large groups hoping some recipients already lost money somewhere; after the fee is paid, no recovery ever happens and the victim has simply been defrauded a second time. Fraudehelpdesk\'s own guidance to fraud victims names this pattern directly, calling it recoveryfraude, and veiliginternetten.nl — the Dutch government\'s official online-safety platform — separately lists it among its named advance-fee schemes, advising anyone contacted this way to ask why a stranger would succeed where the police or a bank could not, and to seek help only through channels they find themselves rather than ones that find them.',
+    categorySlug: 'investment-fraud',
+    country: 'NL',
+    alertLevel: 'high',
+    sources: ['Fraudehelpdesk (Dutch National Anti-Fraud Hotline)', 'veiliginternetten.nl'],
+    sourceUrl: 'https://www.fraudehelpdesk.nl/fraude/ik-ben-fraudeslachtoffer-en-krijg-ongevraagd-hulp/',
+  },
+  {
+    name: 'Dutch Deepfake Bank Account-Opening Fraud',
+    slug: 'dutch-deepfake-bank-account-opening-fraud',
+    description:
+      'An Amsterdam man used AI-generated deepfake photos and video — manipulating other people\'s facial features onto forged identity documents and matching selfie videos — to pass a bank\'s remote identity-verification process, opening 47 accounts at ABN AMRO in other people\'s names between March and November 2025 without those people ever knowing. His phone showed searches for how to open bank accounts and questions put to ChatGPT about defeating identity verification, and the accounts were then used for bank-helpdesk fraud and cash withdrawals, one step removed from the actual victims. He was caught after Royal Marechaussee officers found him carrying multiple debit cards at a border crossing, and the bank itself had flagged at least one application where the passport photo showed a woman while the accompanying selfie video showed a man. Rechtbank Amsterdam convicted him in June 2026, sentencing him to 30 months in prison (six months suspended) and ordering roughly €13,000 in compensation to the bank — an early Dutch court test of remote identity checks built to stop document forgery being undermined by AI-generated deepfakes instead.',
+    categorySlug: 'identity-theft',
+    country: 'NL',
+    alertLevel: 'high',
+    sources: ['Rechtspraak (Dutch Judiciary)', 'AT5'],
+    sourceUrl: 'https://www.rechtspraak.nl/organisatie-en-contact/organisatie/rechtbanken/rechtbank-amsterdam/nieuws/2026/06/25-jaar-cel-voor-oplichten-bank-met-deepfake-technologie',
+  },
+  {
+    name: 'Dutch Marktplaats Puppy Scam with Forged Vaccination Passports',
+    slug: 'dutch-marktplaats-puppy-scam-forged-vaccination-passports',
+    description:
+      'A dog trader imported Pomeranian puppies from Bulgaria and sold them on Marktplaats between July 2021 and October 2023, posing as a professional breeder and handing buyers pet passports fitted with forged vaccination stickers while advertising the puppies as younger, healthier, and fully inoculated than they actually were. Buyers who took a sick puppy to a vet discovered the animals were older than claimed and had never received the vaccinations the passport documented, several running up large veterinary bills, and some of the puppies died. Rechtbank Amsterdam convicted the trader of fraud, document forgery, money laundering, and animal neglect in August 2026, sentencing him to 240 hours of community service and a 180-day prison term (176 days suspended), ordering roughly €19,000 in restitution to the 14 identified victims, and banning him from owning animals for five years — distinct from the platform\'s general fake-payment-link fraud in that the listings and puppies here were real, with the forged health paperwork itself the instrument of the fraud.',
+    categorySlug: 'online-shopping-scams',
+    country: 'NL',
+    alertLevel: 'medium',
+    sources: ['Rechtspraak (Dutch Judiciary)', 'AT5'],
+    sourceUrl: 'https://www.rechtspraak.nl/organisatie-en-contact/organisatie/rechtbanken/rechtbank-amsterdam/nieuws/2026/08/veroordeling-voor-oplichting-met-pomeriaan-pups',
+  },
 ];
 
 async function seedCategoriesAndScams() {
