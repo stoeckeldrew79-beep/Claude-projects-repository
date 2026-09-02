@@ -16171,6 +16171,39 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['New Hampshire Fish and Game Department', 'New Hampshire Department of Justice, Consumer Protection Bureau'],
     sourceUrl: 'https://www.concordmonitor.com/fishling-license-scam-NH-6311787',
   },
+  {
+    name: 'Fraudulent Form 2439 "Undistributed Capital Gains" Tax Credit Scheme',
+    slug: 'fraudulent-form-2439-undistributed-capital-gains-scheme',
+    description:
+      'Promoters are filing fabricated or inflated IRS Form 2439s, the notice legitimate mutual funds and REITs use to pass a refundable tax credit to shareholders, either inventing organizations that aren\'t real investment funds or trusts at all, or falsely attaching claims to the names of real, well-known funds. Taxpayers are induced to file returns claiming these credits for capital gains taxes they never actually paid, exposing them to refund delays, audits, penalties, and enforcement action once the IRS flags the claim. The IRS added this to its 2026 "Dirty Dozen" list of tax scams, signaling a fast-growing threat during the filing season, and it centers on a forged federal tax document rather than a promoter sales pitch or social-media coaching, which is what distinguishes it from other tax-credit scams already documented here.',
+    categorySlug: 'tax-scams',
+    country: 'US',
+    alertLevel: 'high',
+    sources: ['Internal Revenue Service (IRS)'],
+    sourceUrl: 'https://www.irs.gov/newsroom/dirty-dozen-tax-scams-for-2026-irs-reminds-taxpayers-to-watch-out-for-dangerous-threats',
+  },
+  {
+    name: 'Fake SEC-Registered "Exempt Reporting Adviser" Investment Scam',
+    slug: 'fake-sec-exempt-reporting-adviser-investment-scam',
+    description:
+      'Fraudsters file false paperwork directly with the SEC to register as "Exempt Reporting Advisers," listing nonexistent business addresses, disconnected phone numbers, and financial statements falsely claimed to be audited by accounting firms that don\'t exist in any public registry, some also displaying fake SEC registration certificates on their own websites. Because the resulting filing becomes a real, searchable public record in the SEC\'s own system, victims who do the recommended thing and check a firm\'s SEC registration find what looks like official confirmation of legitimacy, particularly when the pitch involves cryptocurrency or other emerging-tech investments. The SEC has charged dozens of such entities, noting many used foreign IP addresses to access its filing systems, and stripped their filings from its public site, a scam that specifically weaponizes the regulator\'s own registration system as the trust signal, undermining the standard "verify with the SEC" advice given for other investment pitches.',
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    alertLevel: 'high',
+    sources: ['U.S. Securities and Exchange Commission (SEC)'],
+    sourceUrl: 'https://www.sec.gov/newsroom/press-releases/2026-78-sec-38-entities-feigned-legitimacy-us-advisers-through-false-filings-lure-retail-investors',
+  },
+  {
+    name: 'Counterfeit Postage / Discount Shipping Label Scam',
+    slug: 'counterfeit-postage-discount-shipping-label-scam',
+    description:
+      'Scammers sell counterfeit postage stamps and prepaid shipping labels, typically 20-50% below face value and in bulk, through social media marketplaces and third-party listings, targeting both individual bargain-hunters and small online sellers who need to ship packages cheaply. Packages mailed with these fake labels are increasingly being flagged and intercepted; buyers lose what they paid for the "discount" label, and sellers who unknowingly used one on a customer\'s order lose the merchandise and still owe the customer a refund, since USPS treats counterfeit-postage mail as abandoned and subject to disposal. The U.S. Postal Inspection Service warns that the clearest sign of this scam is a steep discount from an unauthorized seller, since legitimate postage resale carries only minimal discounts through official USPS Approved Postal Provider agreements.',
+    categorySlug: 'online-shopping-scams',
+    country: 'US',
+    alertLevel: 'medium',
+    sources: ['United States Postal Inspection Service (USPIS)', 'USPS Office of Inspector General'],
+    sourceUrl: 'https://www.uspis.gov/news/scam-article/counterfeit-postage',
+  },
 ];
 
 async function seedCategoriesAndScams() {
