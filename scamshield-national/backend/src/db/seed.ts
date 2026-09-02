@@ -19553,6 +19553,17 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Oregon Department of Justice'],
     sourceUrl: 'https://www.doj.state.or.us/media-home/news-media-releases/ag-rayfield-sues-charity-leader-for-stealing-nearly-837k-meant-for-disaster-victims/',
   },
+  {
+    name: 'UK "SMS Blaster" Fake Mobile Mast Smishing Fraud',
+    slug: 'uk-sms-blaster-fake-mobile-mast-fraud',
+    description:
+      'Rather than sending scam texts through a normal bulk-messaging gateway, fraudsters drove around London with a portable "SMS blaster" hidden in a car — a device that acts as an illegitimate mobile phone mast, forcing nearby handsets to briefly connect to it and downgrade their connection, which lets messages bypass the sender-name and malicious-link filters mobile networks normally apply. Between 22 and 27 March 2025, Ruichen Xiong drove the device around North London broadcasting fake HMRC tax messages directly to tens of thousands of nearby phones; he was arrested with the equipment still running and convicted in July 2025. Di Li, 43, of Finchley, who had arranged access to the device and the vehicle used to operate it, was found guilty by an Inner London Crown Court jury in March 2026 and sentenced on 3 June 2026 to 48 months\' imprisonment for supplying articles for use in fraud, plus a concurrent 24 months for conspiracy to commit fraud by false representation. The Dedicated Card and Payment Crime Unit (a joint Metropolitan Police and City of London Police unit) said it was the first time UK police had encountered this equipment in an active fraud operation, and separately jailed a second operator, Mohammed Faiyaz Iqbal, in 2026 after seizing another such device — warning that because the messages never pass through a real network, standard advice to check a sender\'s number or report a text to 7726 does not reliably catch them.',
+    categorySlug: 'phishing',
+    country: 'GB',
+    alertLevel: 'medium',
+    sources: ['City of London Police', 'Dedicated Card and Payment Crime Unit (DCPCU)'],
+    sourceUrl: 'https://www.cityoflondon.police.uk/news/city-of-london/news/2026/june/man-jailed-for-role-in-sms-blaster-fraud-operation-following-city-of-london-police-investigation/',
+  },
 ];
 
 async function seedCategoriesAndScams() {
