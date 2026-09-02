@@ -6599,6 +6599,60 @@ Red flags: an unsolicited text about a toll, parking fee, or missed delivery wit
 
 Don't click payment links in unsolicited texts — go directly to your toll authority's, delivery carrier's, or bank's official app or website instead. Never read a one-time passcode aloud or enter it on a site you didn't navigate to yourself. If you've already shared a code after clicking a link like this, call your card issuer immediately to cancel the card and ask specifically whether it's been added to a digital wallet you don't recognize, then report the incident to the FTC at ReportFraud.ftc.gov.`,
   },
+  {
+    title: 'The Homestead Exemption Mailer Scam: Why That Official-Looking Notice About Your Property Tax Break Isn\'t From the County',
+    slug: 'homestead-exemption-mailer-scam-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'homestead-exemption-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Kitsap_county_mailboxes.JPG?width=1200',
+    coverImageCredit: 'Photo: Lumpytrout (CC BY-SA 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
+    sourceUrl: 'https://hcad.org/alerts/consumer-alert-hcad-warns-homeowners-to-be-wary-of-homestead-designation-and-unclaimed-money-solicitations',
+    body: `A few weeks or months after closing on a house, the new owner gets an official-looking letter — sometimes titled "Homestead Designation," "Homestead Exemption Application," or "Notice of Unclaimed Property Tax Savings" — addressed to them by name and citing the real details of their purchase: the correct address, the sale date, sometimes even the loan amount. The letter says they need to file a form and pay a fee, typically somewhere between $30 and $170, to "designate" or "secure" their homestead exemption before a stated deadline. It looks like it came from the county, using formal language, a seal-like logo, and sometimes even reprinted text from the actual state property code on the back to reinforce the impression that it's official.
+
+It isn't. Every state that offers a homestead exemption or similar owner-occupied property tax break makes the real application available directly from the county appraisal district or assessor's office, and in nearly every case it's free. The companies behind these mailers — often named things like "Homestead Recording Service," "Homestead Solutions," or "Homestead Designation Services" — aren't scamming anyone out of information; the form they send back to the county is frequently the same public application any homeowner could file themselves, just laundered through a paid middleman first. County appraisal districts have posted formal consumer alerts about this exact scheme for years — Harris County, Fort Bend County, and Abilene's Better Business Bureau chapter among them — after fielding waves of complaints from new homeowners who paid a company for something the county would have processed at no cost. Some of these operations use property records to identify recent buyers specifically because a first-time homeowner is the least likely person to already know what their county actually requires.
+
+Red flags: any mailed notice about a homestead exemption or designation that asks for payment, a sender name that sounds like a government office but doesn't match your actual county appraisal district or assessor, a specific dollar deadline meant to create urgency, and — in a related variant — an offer to recover "unclaimed" property tax money in exchange for half of whatever's found. Real county offices don't charge a fee to file a homestead exemption, and they don't hire private companies to solicit that fee by mail on their behalf.
+
+If a letter like this arrives, don't send payment or use the letter's own contact information. Go directly to your county appraisal district's or assessor's official website — searchable by your county's name plus "appraisal district" or "property assessor" — and either file the homestead exemption yourself for free or confirm you already have one on file. Report the mailer to your county appraisal district and to your state Attorney General's consumer protection division; several have opened investigations into specific companies running this exact scheme.`,
+  },
+  {
+    title: '"Ghosting": How Identity Thieves Use Obituaries to Steal a Deceased Person\'s Identity',
+    slug: 'deceased-identity-theft-ghosting-scam-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'deceased-identity-theft'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Zeitungen-02.jpg?width=1200',
+    coverImageCredit: 'Photo: Roland Unger (CC BY-SA 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
+    sourceUrl: 'https://dos.ny.gov/after-death-ghosting-scam',
+    body: `An obituary is written to be found — that's the point of publishing one. But the same details that let old friends and distant relatives learn of a death are exactly what an identity thief needs to start committing fraud in that person's name: full legal name, date of birth or age, hometown, surviving family members' names, and sometimes a maiden name, all published voluntarily and often left online indefinitely. New York's Department of State calls the resulting fraud "ghosting" — identity theft committed against someone who has died, timed to exploit the gap between the death itself and the point when every bank, lender, and government agency the person dealt with actually gets notified of it.
+
+That gap can run for months, and thieves know it. With a name, birth date, and a former address pulled from an obituary — sometimes cross-referenced against a stolen death certificate or a genealogy site's public records — they can open new credit cards and loans, file a fraudulent tax return to claim a refund, or apply for government benefits, all before any credit bureau or agency has reason to flag the account holder as deceased. Because the person whose name is on the file can't check a statement, notice a suspicious charge, or answer a verification call, this kind of fraud routinely runs longer than identity theft against the living before anyone catches it — usually a grieving family member, and usually by accident, when a collections notice or a rejected tax filing arrives addressed to someone who has already died.
+
+Red flags a family should watch for in the months after a death: bills, credit card offers, or collection notices addressed to the deceased that don't match any account the family knows about; a tax return getting rejected as already filed; and any credit report pulled in the deceased's name showing accounts opened after the date of death. The risk is highest right after the death is first publicly announced, since that's when an obituary is freshest and most widely indexed by search engines.
+
+To limit the exposure, keep obituaries free of the details thieves actually need — a full birth date, mother's maiden name, and home address add real risk for very little sentimental value. As executor or next of kin, notify Social Security, the DMV, and every bank, lender, and credit card issuer directly and promptly, and send each a certified copy of the death certificate. Order a copy of the deceased's credit report from all three bureaus to check for unfamiliar accounts, and place a security freeze on the file. If fraudulent accounts do turn up, report them to the FTC at IdentityTheft.gov, which has a process specifically for deceased-victim identity theft.`,
+  },
+  {
+    title: 'Fake Class-Action Settlement Notices: When "You May Be Owed Money" Is the Scam',
+    slug: 'fake-class-action-settlement-scam-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'class-action-settlement-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Legal_Gavel_%26_Closed_Law_Book_(27571522123).jpg?width=1200',
+    coverImageCredit: 'Photo: Blogtrepreneur (CC BY 2.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
+    sourceUrl: 'https://www.aarp.org/money/scams-fraud/class-action-settlement-notice/',
+    body: `Real class-action settlements happen constantly — a data breach at a major retailer, a mislabeled food product, a phone carrier accused of hidden fees — and when one settles, the company or a court-appointed administrator really does notify millions of people that they may be owed a payout. That flood of genuine notices is exactly the cover scammers use. Within days of a real settlement making news, near-identical texts, emails, and social media posts start circulating, built to look like the real notice: a company name pulled straight from the headlines, a plausible-sounding case number, and a link to file a claim before a stated deadline.
+
+The fake version diverges from the real one in what it asks for. A genuine settlement claim never requires a Social Security number, a bank account or routing number, or a fee of any kind — the whole recovery is coming out of a settlement fund, not going into one. Scam versions ask for exactly that information on a fake claims site built to look like the real settlement administrator's page, or push through a phishing email whose actual payload is malware rather than money: clicking the "file a claim" link installs software built to quietly harvest whatever personal information is already stored on the device. Either way, the appeal is the same — a small amount of "found money" tied to a company most people recognize, requiring almost no effort to claim, which is precisely why so few people stop to check whether the notice is real before acting on it.
+
+Red flags: unsolicited contact by text or social media rather than mail or email from a known settlement administrator; any request for a Social Security number, bank details, or an upfront "processing" or "release" fee; a case name or number that doesn't turn up when searched independently; and a link that doesn't lead to a settlement website ending in a recognizable, purpose-built domain rather than a shortened or unfamiliar one.
+
+Before clicking anything, search the case name plus "settlement" independently — real settlements are covered by outlets like ClassAction.org and Top Class Actions, and have official sites separate from whatever link arrived by text. Confirm the case number matches what's publicly listed. Never enter a Social Security number or bank account information to "receive" a payout, and never pay anything to file or release a claim. If personal information was already shared, report it to the FTC at ReportFraud.ftc.gov, and place a fraud alert or credit freeze with the credit bureaus as a precaution.`,
+  },
 ];
 
 async function seedArticles(articles: SeedArticle[], label: string) {
