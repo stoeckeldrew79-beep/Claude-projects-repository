@@ -5525,6 +5525,48 @@ Russell became more widely known for what he did after being caught. Between 199
 Central to his public notoriety was his relationship with fellow inmate Phillip Morris, whom Russell met during one of his incarcerations; his escapes and frauds were driven in significant part by a desire to reunite with and provide for Morris after his release. Their story was chronicled in journalist Steve McVicker's book and adapted into the 2009 film "I Love You Phillip Morris," starring Jim Carrey as Russell. Russell's case is frequently cited in corporate-hiring and identity-verification contexts as a caution against relying on a candidate's self-reported credentials: a confident résumé, a plausible reference, and a well-rehearsed professional manner got him control of a company's finances just as effectively as they got him out of a locked prison cell, because in both settings, the people responsible for checking his story simply didn't.`,
     sourceUrl: 'https://en.wikipedia.org/wiki/Steven_Jay_Russell',
   },
+  {
+    title: 'George Graham Rice: The Sing Sing Forger Who Reinvented Himself as Wall Street\'s "Jackal"',
+    slug: 'george-graham-rice-stock-swindler-jackal-of-wall-street',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `George Graham Rice was born Jacob Simon Herzig in Manhattan in 1870, the son of a furrier, and reached adulthood already twice convicted: first in 1890, at nineteen, for stealing from his own father's business to cover gambling debts, which cost him two years at the Elmira Reformatory, and again in 1895 for forgery and further theft from his family, which sent him to Sing Sing for four years. He walked out of prison with a new name — borrowed from a fellow inmate — and a new trade that would occupy the next four decades of his life: separating strangers from their money using nothing but the printed word.
+
+Rice's first vehicle was Maxim & Gay, a racetrack tipster sheet that promised subscribers inside information on fixed races; it built a paying readership of roughly 100,000 people before the U.S. Post Office shut it down for mail fraud. He then pivoted to what would become his signature con, moving to the Nevada mining boomtowns of Goldfield and Rawhide around 1904 and discovering that the same printed-tip-sheet formula worked just as well selling worthless mining stock as it did selling fixed horse races. Through vehicles including the Nevada Mining News Bureau, the L.M. Sullivan Trust Company, Nat C. Goodwin & Co., and later B.H. Scheftels & Company, Rice flooded newspapers with paid advertisements and glowing "news" bulletins about desert claims that were either barren or wildly oversold, pocketing the proceeds as investors' checks poured in from across the country. He had a genuine flair for promotion — he co-financed a nationally covered 1906 prizefight between Joe Gans and Battling Nelson simply to keep the Goldfield mining district in the headlines — and used that same talent for spectacle to manufacture demand for stock in companies that, in several cases, mined nothing at all.
+
+The law caught up with Rice repeatedly, and repeatedly failed to stop him for long. He was convicted of mail fraud in 1911 and served about a year, using the time to write a memoir, tellingly titled "My Adventures with Your Money," that doubled as a boastful how-to guide for separating credulous investors from their savings. He was convicted again on a grand larceny charge in 1920, and a final time in 1928, when a federal court sent him to the Atlanta federal penitentiary for four years over yet another round of fraudulent stock promotion. By the time he died in 1943, newspapers had taken to calling him the "Jackal of Wall Street," a nod to both his four-decade career and the fact that no single prison term ever fully retired him from it.
+
+Rice's career is a useful reminder that financial fraud does not require sophistication so much as volume and repetition: his mining and racetrack schemes were transparently promotional, built on paid advertising copy rather than any real due diligence a careful investor could not have punctured, yet they succeeded again and again because he never stopped generating new marks faster than regulators could shut down the last vehicle. The same arithmetic — a fraud only needs to outrun enforcement, not defeat scrutiny — still describes how modern pump-and-dump stock promotions and "hot tip" investment newsletters operate today.`,
+    sourceUrl: 'https://en.wikipedia.org/wiki/George_Graham_Rice',
+  },
+  {
+    title: 'Gerard Lee Bevan: The Barclays Heir Who Looted an Insurance Company and Fled Disguised as a Frenchman',
+    slug: 'gerard-lee-bevan-city-equitable-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Gerard Lee Bevan was born into exactly the kind of family whose name was supposed to guarantee trustworthiness: his father, Francis Bevan, chaired Barclays Bank, and Gerard was educated at Eton and Trinity College, Cambridge, before building a respectable career as a London stockbroker with the firm Ellis & Co. In 1916, he bought a large stake in the City Equitable Fire Insurance Company and became its chairman, gaining control of a pool of policyholder premiums and investment capital that he proceeded to treat as his own private trading account.
+
+Rather than investing City Equitable's funds conservatively, as an insurer holding other people's premiums is expected to do, Bevan funneled the company's money into speculative and often self-dealing ventures — including businesses he personally controlled — while using the firm's respectable name and his own family pedigree to keep policyholders, auditors, and the market from asking hard questions. When the speculative investments soured after the First World War, Bevan concealed the mounting losses rather than disclose them, continuing to present City Equitable as financially sound while the hole in its accounts grew. By the time the company collapsed into bankruptcy in early 1921, it had lost roughly £1.2 million — worth tens of millions of pounds today — much of it traceable directly to Bevan's fraudulent dealings and self-interested investment decisions.
+
+Facing exposure as the company's finances were unraveled by liquidators, Bevan fled Britain in February 1922 rather than face prosecution, traveling through continental Europe under a false identity, with dyed hair and a forged passport, using a false French identity and accompanied by his mistress. After roughly four months on the run, he was tracked down and arrested in Vienna and extradited back to England to stand trial. In December 1922, a jury at the Old Bailey convicted him on fifteen separate counts of fraud, and he was sentenced to seven years' penal servitude. The collapse of City Equitable and the ensuing litigation over the directors' conduct produced a landmark 1925 ruling, Re City Equitable Fire Insurance Co, that helped define how much diligence English company law expects of a director — a legal legacy that has outlasted Bevan himself, who died in Havana in 1936 having largely faded from public view after his release.
+
+Bevan's case illustrates a pattern that recurs across a century of corporate fraud: an inherited name and an elite institutional pedigree can function as a substitute for actual financial oversight, letting a chairman divert a regulated company's funds for years before anyone with the standing to stop him thought to look closely at what he was doing with them.`,
+    sourceUrl: 'https://en.wikipedia.org/wiki/Gerard_Lee_Bevan',
+  },
+  {
+    title: 'Lord Kylsant and the Royal Mail Case: The Shipping Baron Who Paid Dividends Out of Losses',
+    slug: 'lord-kylsant-royal-mail-case-dividend-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Owen Cosby Philipps, later Lord Kylsant, spent the first three decades of the twentieth century building the largest shipping empire in the world. As chairman and managing director of the Royal Mail Steam Packet Company from 1902 onward, he acquired controlling stakes in more than twenty shipping lines — including the Union-Castle Line, the Pacific Steam Navigation Company, and, in 1927, the White Star Line, owner of the Titanic's sister ships — assembling a sprawling group of interlocking companies under his personal control. That complexity was not incidental to what came next; it was the mechanism.
+
+Through the 1920s, as postwar shipping demand collapsed and several of his companies began trading at a loss, Kylsant kept paying shareholders steady dividends anyway, maintaining the appearance of a thriving business. He did it using an accounting practice that was technically legal at the time but designed to obscure the truth: shifting money between the group's many subsidiary companies and drawing down hidden reserves built up in profitable earlier years, so that published accounts showed comfortable profits and uninterrupted dividends even as the underlying shipping operations bled money. Auditors, working from a fragmented multi-company structure with legal room to withhold the size and movement of reserves, signed off on financial statements without disclosing to shareholders or the public that the "profits" funding those dividends were, in substantial part, fictions of accounting presentation rather than money the company had actually earned.
+
+The arrangement finally broke in 1928, when Kylsant's group defaulted on loan repayments after a bank declined to extend a government guarantee, and his own brother publicly challenged a debenture stock issue, triggering a market collapse in Royal Mail shares. An independent investigation led by accountant William McLintock through 1930 uncovered liabilities exceeding £10 million and confirmed that the group had been paying dividends while trading at a loss for years. Kylsant was charged under the Larceny Act with issuing false statements about the company's 1926 and 1927 accounts and with issuing a misleading 1928 debenture prospectus intended to induce investors to lend the company money. At his 1931 trial, a jury acquitted him on the false-accounts charges but convicted him on the prospectus charge, and he was sentenced to twelve months in prison, of which he served ten before his release in 1932.
+
+The Royal Mail Case became a landmark in British corporate law specifically because Kylsant's underlying conduct — shuffling reserves to disguise trading losses — had not clearly been illegal when he did it; the prosecution succeeded only on the narrower ground of a specific misleading prospectus. The scandal that followed helped end the era of undisclosed secret reserves in British company accounting and pushed regulators toward requiring that financial statements give investors what later law would explicitly demand: a "true and fair view" of a company's actual condition, rather than a technically defensible one. It remains a foundational case study in how a fraud built entirely from accounting discretion, rather than forged documents or outright theft, can still cost investors just as much as one that is.`,
+    sourceUrl: 'https://en.wikipedia.org/wiki/Owen_Philipps,_1st_Baron_Kylsant',
+  },
 ];
 
 // Practical "how it works / red flags / what to do" guides covering the
@@ -23340,6 +23382,41 @@ const SEED_SCAMS: SeedScam[] = [
     alertLevel: 'high',
     sources: ['Internal Revenue Service (IRS)'],
     sourceUrl: 'https://www.irs.gov/newsroom/tax-scams-to-watch-for-related-to-the-one-big-beautiful-bill',
+  },
+  {
+    name: 'Cum-Ex Dividend-Stripping Tax Fraud (Hanno Berger)',
+    slug: 'germany-cum-ex-dividend-stripping-tax-fraud',
+    description:
+      "From the mid-2000s through 2011, banks and investors around tax lawyer Hanno Berger exploited Germany's dividend-tax rules through 'Cum-Ex' trades: shares were rapidly passed between multiple parties around a dividend record date so that more than one party could claim a refund of capital-gains tax that had, in reality, only been withheld once — or in some structures, never withheld at all — turning a legitimate tax credit into a fabricated one collected from the state treasury multiple times over. Berger, considered the scheme's leading architect, is estimated to have helped orchestrate transactions that cost German tax authorities roughly €113 million in fraudulent refunds just in the cases prosecuted against him, part of an estimated €10 billion or more the wider Cum-Ex trading network drained from German (and other European) treasuries before a 2012 law change closed the loophole. The Landgericht Bonn convicted Berger in December 2022 and the Landgericht Wiesbaden convicted him again in a separate case in May 2023, each on charges of aggravated tax evasion; the Bundesgerichtshof rejected his final appeal in October 2024, making the convictions legally final, and in May 2026 the Landgericht Bonn combined the sentences into a single ten-year prison term. The case, Germany's largest tax-fraud prosecution, illustrates how a technical exploit of a securities-settlement and tax-refund process — not a scam that targeted ordinary consumers directly — can nonetheless be committed by supposedly reputable financial and legal professionals against the public purse.",
+    categorySlug: 'tax-scams',
+    country: 'DE',
+    isHistorical: true,
+    firstRecorded: '2006-01-01',
+    sources: ['Bundesgerichtshof (BGH)', 'Landgericht Bonn'],
+    sourceUrl: 'https://www.lto.de/recht/nachrichten/n/bgh-1-str-58-24-hanno-berger-cum-ex-revision-verworfen-lg-wiesbaden',
+  },
+  {
+    name: 'Wirecard Accounting Fraud and Missing €1.9 Billion',
+    slug: 'germany-wirecard-accounting-fraud',
+    description:
+      "Wirecard AG, a Munich-area payment-processing company that rose to become a DAX-30 member valued above €24 billion, built years of reported profits on a fictitious 'third-party acquirer' business in Asia that its own executives fabricated, backed by claimed trustee bank accounts in the Philippines supposedly holding €1.9 billion that, auditors discovered in June 2020, simply did not exist. When auditor EY refused to sign off on the 2019 accounts on June 18, 2020, Wirecard's shares collapsed within days and the company filed for insolvency on June 25, 2020, wiping out roughly €3.1 billion for creditors and shareholders combined in what is widely described as the largest accounting fraud in German postwar corporate history. Former COO Jan Marsalek, the alleged operational mastermind, disappeared within days of the collapse and remains a fugitive years later, while CEO Markus Braun has stood trial in Munich since December 2022 alongside two co-defendants; before the fraud came to light, Germany's financial regulator BaFin had instead investigated the journalists who first reported irregularities and imposed a short-selling ban that shielded Wirecard's stock, a regulatory failure that prompted Germany's 2021 Financial Market Integrity Strengthening Act (FISG) expanding BaFin's oversight powers. The case is a reminder that a DAX-listed, regulator-supervised company with a clean auditor's opinion for years is not automatically a safe place for retail or institutional investment, and that regulators can fail to catch fraud even at systemically significant firms.",
+    categorySlug: 'investment-fraud',
+    country: 'DE',
+    isHistorical: true,
+    firstRecorded: '2020-06-18',
+    sources: ['Bundesanstalt für Finanzdienstleistungsaufsicht (BaFin)'],
+    sourceUrl: 'https://www.bafin.de/SharedDocs/Veroeffentlichungen/DE/Fachartikel/2021/fa_bj_2106_FISG.html',
+  },
+  {
+    name: 'German Home-Care Billing Fraud Without a Qualified Nursing Manager',
+    slug: 'germany-pflegedienst-abrechnungsbetrug-unqualified-staff',
+    description:
+      "A licensed home-care agency (ambulanter Pflegedienst) bills statutory health and long-term-care insurers for services under Germany's SGB V and SGB XI codes while failing to actually employ the legally required qualified nursing service manager (verantwortliche Pflegedienstleitung) needed to supervise and deliver that care — a structural billing fraud distinct from any scam that targets a consumer directly, since the victims are the statutory insurers and, ultimately, everyone who pays into them. In one prosecuted case, an operator running a home-care service in the Würzburg and Kitzingen area billed insurers in roughly 700 instances despite lacking the required qualified manager, causing about €3.3 million in losses; the Landgericht Nürnberg-Fürth convicted him of fraud and sentenced him to five years and nine months in prison, and the Bundesgerichtshof rejected his appeal in a May 27, 2025 decision (case 6 StR 294/24), making the conviction final. In a further ruling on August 7, 2025 (case 6 StR 239/24), the BGH clarified that billing insurers for care delivered without the contractually required responsible nursing specialist causes a complete loss under Germany's fraud statute, §263 StGB, not merely a reduced one — a legal principle prosecutors can now apply across similar cases nationwide. Health insurers including KKH have reported that home-care billing fraud is now their single largest category of detected insurance fraud losses, and consumer and patient advocates recommend that families of care recipients periodically request and review the insurer's itemized billing statement (Leistungsnachweis) against the care actually received.",
+    categorySlug: 'healthcare-fraud',
+    country: 'DE',
+    alertLevel: 'medium',
+    sources: ['Bundesgerichtshof (BGH)', 'Landgericht Nürnberg-Fürth'],
+    sourceUrl: 'https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Strafsenate/6_StS/2024/6_StR_294-24.pdf?__blob=publicationFile&v=1',
   },
 ];
 
