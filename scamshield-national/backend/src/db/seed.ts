@@ -3016,6 +3016,9 @@ U.S. postal inspectors, working with Scotland Yard, eventually built a mail frau
 
 Hartzell's fraud endures as a study in how a con survives contact with its own disproof. Once his investors had spent years, and in some cases their farms, defending the reality of a $100 billion inheritance to skeptical neighbors, a British government letter denying its existence was not evidence to them — it was an attack to be resisted, and resisting it alongside people who had made the same bet was, by then, part of their identity. The same dynamic still drives modern advance-fee and inheritance scams, from "unclaimed funds" emails to romance-scam victims who keep sending money even after banks and family members warn them it is a fraud: the harder a scheme is to disprove without giving up months or years of sunk emotional and financial investment, the more its victims become its defenders.`,
     sourceUrl: 'https://en.wikipedia.org/wiki/Oscar_Hartzell',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/US_Medical_Center_for_Federal_Prisoners_(3645078685).jpg?width=1200',
+    coverImageCredit: 'Photo: Darin House (CC BY 2.0)',
+    coverImagePosition: 50,
   },
   {
     title: 'George C. Parker and the Brooklyn Bridge He Sold to Immigrants Again and Again',
@@ -3053,6 +3056,9 @@ Both defendants pleaded guilty on August 3, 2023, to conspiracy to commit money 
 
 The case is now a standard reference point in how law enforcement approaches cryptocurrency crime: every bitcoin transaction is permanently recorded on a public ledger, which means funds once assumed to be effectively anonymous can be traced years later as blockchain forensics tools mature, even when the thief has since built an entirely unconnected public persona. It is also, more simply, a reminder that sophisticated, years-long financial crimes are still frequently undone by the smallest and most ordinary mistakes — in this case, a gift-card purchase — a pattern that shows up as often in eight-figure Ponzi schemes as it does in billion-dollar cryptocurrency theft, because the discipline needed to hide money perfectly for years rarely survives contact with everyday convenience.`,
     sourceUrl: 'https://www.justice.gov/usao-dc/pr/bitfinex-hacker-sentenced-money-laundering-conspiracy-involving-billions-stolen',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Bitcoin_logo_Satoshi_Nakamoto.svg?width=1200',
+    coverImageCredit: 'Photo: Wikideas1 (CC0)',
+    coverImagePosition: 50,
   },
   {
     title: 'Clifford Irving and the Howard Hughes Autobiography Hoax That Nearly Fooled McGraw-Hill',
@@ -3071,6 +3077,9 @@ Irving, Edith, and Suskind were indicted on fraud charges and convicted in 1972.
 
 The scheme worked because it exploited a subject who was, by design, unreachable — Hughes's total withdrawal from public life was exactly what let Irving claim a relationship with him that no one could immediately disprove. That same structural gap is what modern CEO-impersonation wire fraud, cloned-voice phone scams, and fabricated celebrity endorsements all rely on: the harder it is to reach the person supposedly speaking, the longer a fraud built in their name can survive before they unexpectedly resurface to say otherwise.`,
     sourceUrl: 'https://en.wikipedia.org/wiki/Clifford_Irving',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Howard_Hughes_1938_(cropped).jpg?width=1200',
+    coverImageCredit: 'Photo: Acme Newspictures (Public Domain)',
+    coverImagePosition: 50,
   },
   {
     title: 'Han van Meegeren: The Forger Who Sold a Fake Vermeer to Hermann Göring',
@@ -3108,6 +3117,9 @@ On January 31, 2023, U.S. District Judge Denise Casper sentenced Crater to 100 m
 
 Crater's pitch — an asset "backed by gold," instantly spendable through a major payment network, and actively traded on exchanges that never actually listed it — is close to a template for the crypto fraud that followed him. The same vocabulary of false backing, fabricated partnerships, and invented liquidity still shows up in today's crypto Ponzi schemes and "pig butchering" investment scams, precisely because it borrows the credibility of real financial infrastructure without any of its verification. The legal precedent his case set matters just as much as the fraud itself: courts have made clear that dressing a scheme in blockchain terminology does not place it beyond the reach of the fraud laws that would catch it in any other form.`,
     sourceUrl: 'https://www.justice.gov/opa/pr/my-big-coin-founder-convicted-cryptocurrency-fraud-scheme',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/John_Joseph_Moakley_United_States_Courthouse_September_2024.jpg?width=1200',
+    coverImageCredit: 'Photo: 4300streetcar (CC BY 4.0)',
+    coverImagePosition: 50,
   },
   {
     title: 'Danny Faulkner and the I-30 Condo Scandal That Sank Five Savings and Loans',
@@ -3124,6 +3136,9 @@ Faulkner fought the case for nearly a decade before a jury convicted him in Nove
 
 The I-30 scandal became one of the early, highly visible warnings of the savings and loan crisis that would go on to cost American taxpayers over $100 billion to resolve nationally, and its mechanism — insiders trading an asset among themselves at escalating prices to manufacture a valuation no independent buyer would ever pay — is a pattern regulators still watch for today. The same "circular trading" or "wash trading" dynamic now shows up in inflated real estate flips in hot housing markets, in NFT and crypto-token schemes where a small group of wallets trade an asset back and forth to fabricate a price history, and in collateral fraud where a loan is issued against a value that exists only on paper between cooperating parties. Faulkner's case is a reminder that the fastest way to manufacture a market price is to control both sides of the trade — and that regulators, appraisers, and lenders who fail to ask who is really on the other side of a deal can end up financing the fiction.`,
     sourceUrl: 'https://www.dallasnews.com/news/obituaries/2012/05/31/convicted-i-30-condo-fraudster-d-l-danny-faulkner-dies/',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/View_of_Interstate_30_from_Reunion_Tower_August_2015_09.jpg?width=1200',
+    coverImageCredit: 'Photo: Michael Barera (CC BY-SA 4.0)',
+    coverImagePosition: 50,
   },
   {
     title: 'James Merrill and the TelexFree "Pay to Post Ads" Pyramid That Cost $1.8 Billion',
@@ -3140,6 +3155,9 @@ Merrill pleaded guilty in October 2016 to wire fraud conspiracy and eight counts
 
 TelexFree's pitch — get paid for a few minutes of daily "work" posting ads online, no sales required — is close kin to the "task scams" and fake gig-work schemes that have proliferated since, where victims are told they'll earn money for liking videos, rating products, or completing simple online tasks, only to find the "earnings" require ever-larger deposits to unlock. The lesson TelexFree left behind is the same one those modern schemes rely on: when a company's payouts to existing members depend on money from new members rather than revenue from an actual product, the operation is mathematically guaranteed to collapse, and the only open question is how many more people sign up before it does.`,
     sourceUrl: 'https://www.justice.gov/usao-ma/pr/former-president-telexfree-sentenced-billion-dollar-pyramid-scheme',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Harold_D._Donohue_Federal_Building_01.jpg?width=1200',
+    coverImageCredit: 'Photo: Farragutful (CC BY-SA 4.0)',
+    coverImagePosition: 50,
   },
   {
     title: 'David Gentile and the GPB Capital Funds That Faked Their Own Returns',
@@ -3156,6 +3174,60 @@ Gentile reported to federal prison on November 14, 2025. Twelve days later he wa
 
 GPB Capital's fraud is a reminder that a scheme does not need to promise unbelievable, get-rich-quick returns to be a Ponzi scheme — GPB's advertised 8% was modest and plausible, which is exactly what made investors and their brokers comfortable extending it year after year without demanding to see the underlying numbers. That same vulnerability now sits at the center of the boom in "alternative investment" and private-credit funds being marketed to everyday retail investors, where illiquid holdings, self-reported valuations, and distributions that aren't independently verified against actual portfolio income can make a fund's steady, respectable-looking payout look identical from the outside whether it is real or borrowed from the next investor in line.`,
     sourceUrl: 'https://www.justice.gov/usao-edny/pr/former-private-equity-executives-sentenced-prison',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Theodore_Roosevelt_United_States_Courthouse_(55268323856).jpg?width=1200',
+    coverImageCredit: 'Photo: ajay_suresh (CC BY 4.0)',
+    coverImagePosition: 50,
+  },
+  {
+    title: 'Eddie Tipton and the Lottery Random-Number Generator He Secretly Rigged',
+    slug: 'eddie-tipton-hot-lotto-rng-rigging-scandal',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Eddie Tipton's job was to protect the integrity of America's lotteries. As information security director for the Multi-State Lottery Association (MUSL) — the nonprofit that develops and runs the computer systems behind multi-state games like Hot Lotto, Powerball, and Mega Millions on behalf of dozens of state lotteries — Tipton helped write and audit the very software that generated the "random" numbers drawn on live television each week. Few people in the country had more intimate, trusted access to the machinery that was supposed to guarantee every lottery draw was unpredictable and fair.
+
+On November 20, 2010, Tipton used that access to defeat it. Under the pretext of resetting the clock on MUSL's draw-room computer for the recent end of daylight saving time, he plugged in a USB flash drive and installed a rootkit — malicious software built to alter the random-number generator's output on specific dates and then erase every trace of itself. Prosecutors later noted that the draw room's security cameras, which normally recorded continuously, had been reconfigured that day to capture only about one second of footage per minute. The rootkit didn't rig every drawing; it narrowed the odds only on a handful of days each year, chosen so the resulting "lucky" numbers wouldn't stand out as an obvious pattern.
+
+Five weeks later, on December 29, 2010, the trap paid off: that night's Hot Lotto drawing carried a $16.5 million advertised jackpot (worth $14.3 million as a lump-sum cash payout), and the winning numbers matched a ticket bought at a Des Moines convenience store. But no one stepped forward to claim it — not for months. With less than two hours left before the ticket would have expired, unclaimed, on its one-year deadline, lawyers appeared on behalf of a Belize-registered shell company, Hexham Investments Trust, seeking to collect the prize anonymously. Iowa law didn't allow anonymous lottery claims, and the timing — a claim filed at the literal last possible moment, through an offshore entity, for a ticket no one could explain buying — was enough to make Iowa Lottery officials refuse the payout. The $14.3 million was forfeited back to the state, and the ticket sat unclaimed as a public mystery for years.
+
+The case reopened in 2014, when the Iowa Lottery released surveillance video of the ticket's purchaser and asked the public for help identifying him. Tips led investigators to Tipton, who was arrested in January 2015. The investigation then widened far beyond one Iowa jackpot: prosecutors found that Tipton and a small circle of associates had rigged winning drawings in at least four other states — a $568,990 Colorado win in 2005 collected by his brother, Tommy Tipton; a $783,257 Wisconsin win in 2007 collected through a corporation tied to Texas businessman Robert Rhodes; and a $1.2 million Oklahoma win in 2011. A Des Moines jury convicted Tipton on two fraud counts in July 2015, though an Iowa appeals court later threw out part of that conviction on statute-of-limitations grounds. Facing the full scope of the multistate scheme, Tipton pleaded guilty in June 2017 to ongoing criminal conduct and admitted, for the first time publicly, that he had written the code specifically to predict winning numbers. In August 2017 he was sentenced to up to 25 years in prison and ordered to pay restitution; his brother and Rhodes pleaded guilty to lesser roles and received 75 days in jail and six months of house arrest, respectively. Tipton was paroled in early 2022 after serving roughly five years.
+
+What makes the Hot Lotto scandal unusual isn't the amount of money — by white-collar fraud standards, $2.2 million in confirmed winnings is modest — it's who committed it. Tipton wasn't an outsider hacking a system he'd broken into; he was the insider hired to make that exact kind of manipulation impossible, and he used the trust and access of that role to defeat the safeguard from within. It's a mechanism that recurs anywhere an institution assumes a process is "random," "provably fair," or tamper-proof simply because an expert built it: casino and slot-machine firmware rigged by the technicians who service it, "provably fair" crypto-gaming and prediction-market platforms manipulated by their own developers, and algorithmic systems whose outputs no outside party can independently verify. The lesson Tipton's case left regulators is that a system's integrity can't rest on trusting the people who control it — it has to be checked by someone who doesn't.`,
+    sourceUrl: 'https://en.wikipedia.org/wiki/Hot_Lotto_fraud_scandal',
+  },
+  {
+    title: 'Ferdinand Waldo Demara, "The Great Impostor" Who Performed Surgery He Was Never Trained to Do',
+    slug: 'ferdinand-demara-great-impostor',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Ferdinand_Waldo_Demara_in_1951_Navy_photo.jpg?width=1200',
+    coverImageCredit: 'Official Royal Canadian Navy photo, 1951 (public domain)',
+    coverImagePosition: 50,
+    body: `Ferdinand Waldo Demara Jr. never finished high school, never attended medical school, and never held a genuine professional license of any kind. Over roughly two decades, he was nonetheless a Trappist novice, a Navy hospital corpsman, a psychologist, the dean of a college's school of philosophy, a prison assistant warden, a schoolteacher, a monk in at least three different religious orders, a cancer researcher, and — most famously — a combat surgeon aboard a Korean War destroyer. He accomplished all of it not through forged diplomas alone, but by studying obsessively, memorizing textbooks, and borrowing the paperwork and identities of real professionals who trusted him.
+
+Demara's core method was simple: find an institution with a staffing gap, present convincing-looking credentials — often belonging to someone he had befriended and then quietly impersonated — and let his genuine intelligence and nerve carry him past anyone who might ask deeper questions. Under aliases including "Anthony Ignolia," "Robert Linton French," and "Brother John Payne," he talked his way into teaching positions, religious orders, and academic administration, staying only until forged checks, ill-fitting credentials, or plain bad luck forced him to move on. He was eventually caught by the FBI and served 18 months in a naval prison for desertion, one of the few consequences that ever stuck to him.
+
+His most audacious impersonation came in 1951, during the Korean War, after he befriended a young Canadian physician named Dr. Joseph Cyr and lifted his medical credentials. Posing as "Surgeon Lieutenant Joseph Cyr," Demara reported for duty aboard the Royal Canadian Navy destroyer HMCS Cayuga — and when combat casualties came aboard, he was the only doctor on the ship. With no medical training beyond what he crammed from textbooks between operations, he treated wounded soldiers, removed a bullet lodged near a man's heart, and amputated a gangrenous foot, all without losing a patient. His commanding officer was impressed enough to recommend him for a commendation. The deception unraveled only when the real Dr. Cyr's mother read a newspaper account of "her son's" wartime heroics and, knowing he had never left Canada, alerted the Navy.
+
+Unmasked and publicly exposed, Demara became a minor celebrity rather than a pariah — "The Great Impostor," subject of a bestselling 1960 biography by Robert Crichton and a 1961 film starring Tony Curtis. Notoriety made further impersonations harder, not easier: a stint as an assistant warden at a Texas prison collapsed when an inmate recognized him from a magazine profile. Demara spent his final years working as a hospital chaplain in Anaheim, California, where administrators who learned of his past chose to let him stay rather than fire him. He died in 1982 at 60, having spent a lifetime demonstrating how far confidence, memorization, and a stolen credential could carry someone through institutions built to assume good faith.
+
+Demara's story is often told as a curiosity — a rogue who did real good while committing real fraud — but the mechanism underneath it is the same one credential fraud runs on today. Institutions rarely verify a résumé, a license, or a diploma from the source; they trust the paperwork and the confidence of the person presenting it. That gap is exactly what modern fake doctors, unlicensed practitioners, and résumé-fabricating job applicants still exploit, and it's why licensing boards, hospitals, and employers increasingly run primary-source verification rather than accepting a document at face value. The unsettling part of Demara's case is that his victims — the wounded sailors he operated on — were, by most accounts, genuinely well served by a fraud; that outcome was luck, not a defense, and it is exactly the kind of luck a verification system exists to not have to rely on.`,
+    sourceUrl: 'https://en.wikipedia.org/wiki/Ferdinand_Waldo_Demara',
+  },
+  {
+    title: 'Christophe Rocancourt: The French Con Man Who Posed as a Rockefeller to Swindle Hollywood and the Hamptons',
+    slug: 'christophe-rocancourt-fake-rockefeller-conman',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Christophe Rocancourt grew up poor in Normandy, France, the son of an alcoholic, unemployed painter; he later said his father placed him in an orphanage at age five. By his twenties he had reinvented himself entirely, adopting the persona of a wealthy, well-connected American — and, most audaciously, claiming kinship with the Rockefeller family, one of the best-known names in American wealth. Using aliases like "Christopher Rockefeller," he built a life among the very rich in Los Angeles and the Hamptons, telling anyone who asked that his mother was Sophia Loren and his "uncles" were fashion designer Oscar de la Renta and film producer Dino De Laurentiis.
+
+His method relied less on paperwork than on sheer social nerve. Rocancourt presented himself, depending on the mark, as a movie producer, a professional boxer, a venture capitalist, or an international arms and diamond dealer — whatever role fit the person in front of him. He courted wealthy investors and socialites, borrowed against his fabricated pedigree to solicit "investments" and loans, and, in one especially brazen scheme, collected a $100,000 advance fee at Manhattan's Waldorf-Astoria for arranging a $4.2 million loan that never materialized. Prosecutors ultimately tied him to roughly $1.2 million defrauded from about 20 victims; Rocancourt himself later told NBC's "Dateline" he estimated he had "made" some $40 million over the course of his run, a figure that was never independently substantiated.
+
+The unraveling began in 2000, when he was arrested in the Hamptons over an unpaid hotel bill and skipped bail. He resurfaced the following year in British Columbia, Canada, posing as a race car driver, and was arrested again — this time on Canadian fraud charges involving roughly $100,000 in losses, for which he served about a year in prison. In March 2002 he was extradited to New York to face the American charges waiting for him.
+
+Rocancourt pleaded guilty to three of eleven counts, including grand larceny, theft, smuggling, bribery, and perjury, and in September 2003 was sentenced to three years and ten months in federal prison, with a concurrent state sentence, along with an order to repay $1.2 million to his victims — a repayment plan that required 75 percent of the proceeds from any book he wrote about his own exploits to go toward restitution. At his sentencing, Rocancourt told the court, "I take responsibility for my actions. I apologize for what I did wrong." He completed his sentence and was deported to France in October 2005, where he went on to publish a memoir and, in 2014, faced fresh French corruption charges for allegedly taking payments to fix immigration paperwork at a Paris police prefecture.
+
+Rocancourt's fraud worked because he understood a specific vulnerability of the wealthy social circles he targeted: name-dropping a famous family and behaving with total, unearned confidence was often enough to skip the due diligence people would apply to a stranger with no connections at all. That same shortcut — trusting a claimed connection to a famous name, a celebrity, or an "insider" social circle instead of verifying it independently — still drives affinity fraud and celebrity-impersonation scams today, from fake talent managers and producers who convince investors to bankroll nonexistent film deals to social-media impostors who borrow a public figure's name and photos to solicit "investment opportunities" from strangers who assume the association alone is proof enough.`,
+    sourceUrl: 'https://www.cbsnews.com/news/fake-rockefeller-gets-jail-time/',
   },
 ];
 
