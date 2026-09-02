@@ -18253,6 +18253,30 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['U.S. Commodity Futures Trading Commission'],
     sourceUrl: 'https://www.cftc.gov/PressRoom/PressReleases/8771-23',
   },
+  {
+    name: 'Leoni AG €40 Million CEO Fraud (Chef-Betrug)',
+    slug: 'german-leoni-ag-ceo-fraud',
+    description:
+      "In August 2016, a finance employee at the Bistrița, Romania plant of Leoni AG, a Nuremberg-based cable manufacturer that was then a member of Germany's DAX stock index, wired €40 million after receiving emails spoofed to look like internal instructions from senior executives at group headquarters, citing a confidential acquisition and demanding strict secrecy. The attackers had studied Leoni's internal transfer-approval rules closely enough to know that Bistrița was the only one of the company's four Romanian factories authorized to move money without a second signature, and directed the fraudulent request there specifically. The theft was only discovered once the promised transfer never reached its stated recipient, by which point the money had already moved through a chain of accounts and out of reach; disclosure of the loss wiped roughly €70 million off Leoni's market value in a single trading day. German police classify this pattern as \"Chef-Betrug\" or CEO Fraud, warning that no hacked account or malware is needed, only convincingly forged internal correspondence and a target employee persuaded they are following a genuine chain of command, and they recommend verifying any unusual high-value transfer request by phone using a number obtained independently of the email itself.",
+    categorySlug: 'business-email-compromise',
+    country: 'DE',
+    sources: ['Bundeskriminalamt (BKA)', 'Polizeiliche Kriminalprävention (polizei-beratung.de)'],
+    sourceUrl: 'https://www.polizei-beratung.de/themen-und-tipps/gefahren-im-internet/ceo-fraud/',
+    isHistorical: true,
+    firstRecorded: '2016-08-12',
+  },
+  {
+    name: 'P&R Container Leasing Ponzi Scheme',
+    slug: 'german-pr-container-ponzi-scheme',
+    description:
+      'P&R, a container-leasing group based near Munich and operating since 1975, sold retail investors direct legal ownership of individual shipping containers, promising a fixed annual lease income plus a guaranteed buyback after roughly five years, and built a customer base of about 54,000 mostly small German investors who together put in some €3.5 billion over four decades. When the group filed for insolvency in March 2018, the court-appointed administrator found that P&R had sold investors contracts for around 1.6 million containers on paper while the company actually owned only about 600,000, meaning hundreds of thousands of the "containers" underlying investor contracts had never existed — a classic Ponzi structure in which new investors\' money funded payouts to earlier ones rather than real leasing income. Because individual containers were legally classified as movable goods rather than financial instruments, the scheme fell entirely outside BaFin\'s supervisory authority, a regulatory gap that consumer advocates and lawmakers later cited as a key reason the fraud went undetected for so long. Criminal proceedings against founder Heinz Roth were discontinued in 2019 after a court-ordered medical assessment found him permanently unfit to stand trial, though Munich\'s regional courts separately found other former P&R managing directors liable in related civil proceedings, and the insolvency administrator has since made several partial repayments that have recovered only a fraction of what investors lost.',
+    categorySlug: 'investment-fraud',
+    country: 'DE',
+    sources: ['Jaffé Rechtsanwälte (P&R Insolvency Administrator)', 'Landgericht München I (Munich I Regional Court)'],
+    sourceUrl: 'https://www.jaffe-rae.de/',
+    isHistorical: true,
+    firstRecorded: '2018-03-15',
+  },
 ];
 
 async function seedCategoriesAndScams() {
