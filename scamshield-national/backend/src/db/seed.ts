@@ -5202,6 +5202,57 @@ The pitch works by offering something for nothing at the exact moment it asks fo
 
 The clearest warning signs are any unsolicited claim of an inheritance from someone you and your immediate family have never heard of, any request for a fee before funds are released, and pressure to keep the arrangement quiet or move quickly. A real estate attorney or executor handling an actual inheritance does not need the heir to pay taxes or fees upfront out of pocket before a payout — legitimate estate costs are settled from the estate itself. If you receive a message like this, don't respond, don't send money or personal information, and don't feel obligated to verify it yourself by contacting the sender — instead, ask a trusted family member or attorney whether the story holds up. Report the scam to the FTC at ReportFraud.ftc.gov.`,
   },
+  {
+    title: 'Fake Talent and Modeling Agency Scams: Paying to Get "Discovered"',
+    slug: 'fake-talent-modeling-agency-scam-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'talent-modeling-agency-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Young_Woman_in_Modelling_Shoot_-_Odessa_-_Ukraine_(26777152942).jpg?width=1200',
+    coverImageCredit: 'Photo: Adam Jones (CC BY-SA 2.0)',
+    coverImagePosition: 50,
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2025/12/lights-camera-scam-spot-virtual-casting-call-scams',
+    body: `It usually starts with an unexpected text: a "talent scout" or casting associate says the recipient has "the look" for a role in a well-known movie, TV show, or brand campaign, and invites them to a virtual audition. Nobody applied for anything, but the pitch is flattering enough, and specific enough about a real production, that plenty of people — especially teenagers and young adults hoping to break into modeling or acting — respond anyway. The scam also runs the old-fashioned, in-person way: someone approaches a target at a mall or transit station, hands over a card, and says a modeling agency is looking for people with exactly their look.
+
+Whichever way the approach happens, the "audition" is really a sales pitch. The FTC warns that scammers use the flattery of being scouted to walk targets straight into demands for money — for professional headshots, a test photo shoot, acting classes, or simply to "secure your spot" in a casting process that was never real to begin with. Some operations go further and sign hopefuls up for expensive, low-value training packages running into the thousands of dollars, sold as a required first step before any real work can follow.
+
+The pitch works because it inverts a fact almost nobody thinks to check in the moment: a real talent agency makes money by getting its talent paid work and taking a commission afterward — it does not charge the talent upfront. Being told you've already been chosen, without having auditioned for anything in a normal sense, short-circuits the skepticism a person would apply to an obvious cold pitch, especially when the offer names a specific, recognizable production to sound credible.
+
+Red flags include any unsolicited scouting text or in-person approach, any request for payment before a job is booked — for headshots, classes, a "portfolio package," or a fee to "hold" an audition slot — and a casting process conducted entirely over text or chat with no verifiable production, agency, or client behind it. If you get a message like this, don't click any link it contains, and search the casting call or agency's name alongside the word "scam" before responding. Forward unwanted texts to 7726 (SPAM), and report the scam to the FTC at ReportFraud.ftc.gov.`,
+  },
+  {
+    title: 'The "Pay to Clear Your Background Check" Job Scam',
+    slug: 'job-background-check-fee-scam-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'background-check-fee-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Business_man_and_woman_handshake_in_work_office.jpg?width=1200',
+    coverImageCredit: 'Photo: perzon seo (CC BY 2.0)',
+    coverImagePosition: 50,
+    sourceUrl: 'https://consumer.ftc.gov/articles/job-scams',
+    body: `The job offer has already been made, sometimes after only a brief chat interview, and the new hire is excited to start. Then a message arrives from "HR" or a third-party screening vendor: the standard pre-employment background check has flagged something — a clerical mismatch, an old record, a "processing hold" — and it needs to be resolved before the first day. Resolving it, the message explains, means paying a fee: to expedite the review, to have an error "corrected," or simply to cover the cost of the check itself, sent directly to the new employer or a screening company the applicant has never heard of and can't independently verify.
+
+This is a variation on a pattern the FTC has repeatedly warned about across job scams generally: honest employers do not require a new hire to pay anything out of pocket to start working, whether that payment is framed as a starter kit, a training certification, equipment, or — in this version — a background check fee. Legitimate employment screening is paid for by the employer or built into the hiring process, never billed directly to the applicant as a condition of clearing a hold that appeared only after an offer was already on the table.
+
+The scam is effective because it arrives at the exact moment a target's guard is down: the hard part (getting the job) already feels finished, and the request is dressed up in the bureaucratic language of routine HR process rather than an obvious ask for money. A "flagged" result is vague enough to sound plausible without giving the applicant anything concrete to check, and the pressure to pay quickly — often tied to a start date — discourages the kind of pause that would let someone verify the request independently.
+
+If this happens to you: stop and contact the company directly through its official careers page or a phone number you look up yourself, not any number or link in the message, and ask whether the background check process really requires applicant payment. No legitimate background check company or employer accepts payment by gift card, cryptocurrency, or a person-to-person payment app for this purpose. If you've already paid, contact your bank or card issuer about reversing the charge, and report the scam to the FTC at ReportFraud.ftc.gov.`,
+  },
+  {
+    title: 'Fake Solar Buyback and Net Metering Scams',
+    slug: 'solar-buyback-net-metering-scam-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'solar-buyback-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/PG%26E_Meter_in_Fortuna_CA.jpg?width=1200',
+    coverImageCredit: 'Photo: Ellin Beltz (CC BY-SA 3.0)',
+    coverImagePosition: 50,
+    sourceUrl: 'https://www.bpu.com/About/MediaNewsReleases/BPUWarnsCustomersofScamCallsClaimingFalseNetMeteringProgram.aspx',
+    body: `A caller says they're reaching out on behalf of the local electric utility about "net metering" or a "solar buyback" program — the real arrangement under which homeowners with solar panels get credited for excess electricity their system sends back to the grid. The caller often already has real account details (a name, phone number, service address), which makes the call feel legitimate from the first sentence, and says a card or notice was recently mailed about a change to the buyback rate or program eligibility that requires the homeowner to "confirm" personal or financial information, or pay a fee to stay enrolled, before the credit is lost.
+
+Utility boards have issued direct warnings about exactly this pattern: a real electric utility does not call customers out of the blue to solicit participation in a net metering program, and it does not ask for personal or financial information over the phone. Having a customer's name and address is not proof of legitimacy — that information can come from public records, a data breach, or simply guessing at common formats, and scammers routinely spoof caller ID to display a local or even official-looking number.
+
+A related version of the scam targets homeowners who don't have solar at all, offering to "enroll" them in a buyback or clean-energy credit program that doesn't exist, as a way into the same request for banking details or an upfront "enrollment" fee. Either way, the mechanism is the same: borrow the credibility of a real, somewhat unfamiliar utility program most homeowners have only a vague understanding of, and use it to extract information or money before anyone thinks to check.
+
+If you get a call like this, hang up and contact your utility directly using the number printed on a past bill — never a number the caller provides — to ask whether the call was genuine. Don't confirm personal information, don't pay anything over the phone, and don't click a link in a text or email making the same claim. Report the call to your utility's customer service department and to your state attorney general's office or public utility commission.`,
+  },
 ];
 
 async function seedArticles(articles: SeedArticle[], label: string) {
