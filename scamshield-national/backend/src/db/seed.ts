@@ -5922,6 +5922,63 @@ The FTC's guidance is direct about the tells: state unclaimed property programs 
 
 Don't click links in an unexpected text or call back a number provided in the message. Instead, search for unclaimed property under your own name, for free, at unclaimed.org/search, the site run by the National Association of Unclaimed Property Administrators that links directly to every state's official database — filing a claim with a state treasury costs nothing, ever. If you're contacted about funds you weren't expecting, verify it only through that official channel, never through a link or number the caller supplies. Report suspected unclaimed property scams to the FTC at ReportFraud.ftc.gov.`,
   },
+  {
+    title: 'Domain Name Renewal Scams: Why That "Expiration Notice" for Your Website Is Probably a Sales Trick',
+    slug: 'domain-name-renewal-scam-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'domain-name-renewal-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/HP%20Pavilion%20Computer%20laptop%20keyboard%20closeup.jpg?width=1200',
+    coverImageCredit: 'Photo: Carissa Rogers (CC BY 2.0)',
+    coverImagePosition: 50,
+    sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2003/09/network-solutions-settles-ftc-charges',
+    body: `A small business owner or website operator receives a letter or email formatted like an invoice, addressed to them by name and referencing their actual domain name and its real expiration date — or a date close to it. It warns that the registration is about to lapse and offers to "renew" it for a fee, often $50 to $90, due by a specific deadline. Because the notice cites a domain the recipient genuinely owns and arrives looking exactly like routine account paperwork, it's easy to pay it on the spot without reading closely enough to notice it isn't from the company the domain was actually registered with.
+
+The FTC has pursued this exact scheme for more than two decades. In a case that settled in 2003, the agency charged Network Solutions — then one of the largest domain registrars — with mailing solicitations designed to look like expiration notices from a customer's current registrar, without disclosing either who the customer's real registrar was or that "renewing" through the notice would actually transfer the domain to Network Solutions, often at a significantly higher price than the customer's existing registrar charged. The FTC's order permanently barred the company from claiming a domain was about to expire when it wasn't, and from describing a registrar transfer as a mere renewal. The same basic playbook has resurfaced repeatedly since, run by smaller, harder-to-track outfits that buy public domain-registration (WHOIS) records to mail or email lookalike renewal notices to registrants they've never done business with.
+
+The trick works because domain registration is bureaucratic and easy to lose track of: most website owners set it up once, years earlier, and don't remember which company they used or when it's actually due, so a notice with the correct domain name and a plausible-sounding deadline reads as legitimate by default. Businesses are especially vulnerable because losing a domain — even briefly — can take down email and a company website, so the fear of an outage does the same work urgency does in other scams: it discourages stopping to verify before paying.
+
+The reliable red flags are a renewal notice from a company that isn't the registrar you actually remember signing up with, a fee noticeably higher than standard registrar renewal pricing (often in the $8-$20 range for common domains), and a deadline that doesn't match the actual expiration date shown when you look the domain up yourself. A notice that arrives by postal mail formatted like a bill, rather than as an account message inside your actual registrar's dashboard, is also a signal to slow down.
+
+Before paying any domain renewal notice, look up the domain's real registrar and expiration date for free using a WHOIS lookup tool, or log directly into the account of the registrar you remember using — never through a link or number the notice itself provides. Renew only through that account, and consider enabling auto-renewal and registration lock with your actual registrar so a slipped deadline can't be exploited in the first place. If you've already paid a lookalike notice, contact your card issuer to dispute the charge and check whether your domain was transferred without your informed consent, which your legitimate registrar can help reverse. Report suspected domain renewal scams to the FTC at ReportFraud.ftc.gov.`,
+  },
+  {
+    title: 'Evil Twin Wi-Fi Scams: How a Fake "Free WiFi" Network Turns a Coffee Shop Into a Trap',
+    slug: 'evil-twin-public-wifi-scam-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'evil-twin-wifi-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Free%20WiFi%20banner.jpg?width=1200',
+    coverImageCredit: 'Photo: Charles Hutchins (CC BY 2.0)',
+    coverImagePosition: 50,
+    sourceUrl: 'https://consumer.ftc.gov/articles/are-public-wi-fi-networks-safe-what-you-need-know',
+    body: `At an airport, coffee shop, or hotel, a phone or laptop shows a list of nearby Wi-Fi networks, and one of them has a name that looks exactly right — "Airport_Free_WiFi," the coffee shop's own name, the hotel's guest network. It's actually a portable router or laptop set up by someone nearby, broadcasting a signal deliberately named to be mistaken for the real, legitimate network. Once a device connects, everything that traveler does online routes through the scammer's equipment first, and connecting is often as easy as it is on the genuine network, sometimes even easier, since a fake hotspot won't have the real network's occasional login friction.
+
+The FTC's own current guidance is more reassuring than it used to be about part of this risk: because most websites now encrypt traffic by default — visible as a lock icon or "https" in the address bar — data traveling between a device and an encrypted site is scrambled even over an untrusted network, which makes simple eavesdropping far harder than it was in the early days of public Wi-Fi. But the FTC is equally direct about what encryption doesn't protect against: a scammer running the network can still see which sites are visited, and if that scammer's fake hotspot redirects a device to a convincing fake login page — for a bank, an email provider, a hotel guest portal asking for a room number and last name — that page can itself be encrypted and still be entirely fraudulent, because encryption secures the connection to a site, not the trustworthiness of who's actually running it.
+
+This is exactly how most real-world "evil twin" incidents play out: not through invisible data theft, but through a fake captive portal — the login page a hotspot shows before granting access — that asks for an email address, a password reused from another account, or payment card details "to verify your identity" for free Wi-Fi. Travelers are primed to expect exactly this kind of screen from legitimate hotspots, which is what makes a fake one so effective; nothing about the request looks out of place in the moment.
+
+The reliable defenses are simple and don't require spotting the fake network by name alone, since a scammer can name it anything: avoid entering passwords or payment information on any public network unless it's through an app or a site you already trust, turn off Wi-Fi auto-connect so a device won't silently join a stronger-signaled impostor network, and use a VPN if you connect to public Wi-Fi regularly, which encrypts your entire connection regardless of what network you're on. When in doubt about a hotspot's real name, ask staff directly rather than trusting the strongest signal in the list, and treat a login page that asks for a password you use elsewhere, or for a credit card number, as a red flag no matter how official the network's name sounds.
+
+If you believe you connected to a fake hotspot and entered account credentials or payment information, change those passwords immediately from a separate, trusted network, enable two-factor authentication wherever it's offered, and contact your card issuer if payment details were entered. Report the scam to the FTC at ReportFraud.ftc.gov.`,
+  },
+  {
+    title: 'Guardianship and Conservatorship Fraud: When the Court-Appointed "Protector" Is the One Doing the Harm',
+    slug: 'guardianship-conservatorship-fraud-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'guardianship-conservatorship-fraud'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Courtroom%20One%20Gavel%20-%20Flickr%20-%20Joe%20Gratz.jpg?width=1200',
+    coverImageCredit: 'Photo: Joe Gratz (CC0, public domain)',
+    coverImagePosition: 50,
+    sourceUrl: 'https://www.justice.gov/elderjustice/mistreatment-and-abuse-guardians-and-other-fiduciaries',
+    body: `A probate court appoints a guardian or conservator — sometimes a family member, sometimes a professional the older adult has never met — to manage the finances and personal affairs of someone a judge has found unable to fully manage their own, usually because of dementia, a disability, or a medical crisis. The arrangement exists as a legitimate legal protection, and most guardians act in good faith. But the same authority that lets a guardian pay bills, manage bank accounts, and sell property on someone else's behalf can be turned against the very person it's meant to protect, and once a court has approved a guardianship, the person under it typically has far less power to challenge what the guardian does than an ordinary account holder would.
+
+The U.S. Department of Justice's Elder Justice Initiative has documented this directly: while courts try to ensure guardians are trustworthy, some take advantage of the people in their care, and the mistreatment reported most often is financial exploitation, though physical, emotional, and neglect-based abuse are also documented. Perpetrators can be family members, private professional guardians, or agencies, and the abuse can meet the legal definitions of state and federal crimes including embezzlement, larceny, money laundering, and theft. The U.S. Government Accountability Office separately identified hundreds of allegations of abuse, neglect, and financial exploitation by guardians across 45 states and the District of Columbia, and in just 20 closed cases it reviewed, guardians had stolen or improperly obtained $5.4 million from 158 victims, most of them seniors.
+
+This form of abuse is especially hard to catch because it hides inside a legal process rather than outside one: the guardian's authority is real, court-sanctioned, and often exercised through legitimate-looking paperwork, so bank staff, family, and even the court itself may see nothing unusual about a guardian moving the ward's money unless someone specifically looks for a pattern. Isolation compounds the risk — a guardian who limits a ward's contact with other relatives or friends, whether deliberately or simply as a byproduct of caregiving, removes the people most likely to notice a missing asset or an unexplained account change, and the ward themselves may be cognitively unable to recognize or report what's happening.
+
+Warning signs include a guardian who won't allow the ward private conversations with relatives, attorneys, or court visitors; unpaid bills, an unexplained decline in living conditions, or missing personal belongings despite the ward having adequate assets on paper; a guardian who is evasive or delays when asked for an accounting of the ward's finances, which most states require guardians to file with the court periodically; and property being sold or accounts being liquidated without a clear explanation tied to the ward's actual needs.
+
+If you suspect a guardian or conservator is mismanaging or stealing from someone in their care, most state courts have a process for interested parties — family members, friends, or the ward themselves — to petition for a formal accounting or to request the guardian's removal, and an elder law attorney can help file that petition. Report suspected abuse to your state's Adult Protective Services, to local law enforcement, and to the court that oversees the guardianship, since it retains supervisory authority over the guardian's conduct for as long as the guardianship remains in place.`,
+  },
 ];
 
 async function seedArticles(articles: SeedArticle[], label: string) {
