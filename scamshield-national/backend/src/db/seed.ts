@@ -3944,6 +3944,42 @@ Savundra's most infamous moment came in July 1967, when he agreed to be intervie
 After a 42-day trial, Savundra was convicted in March 1968 of conspiracy to defraud his policyholders and sentenced to eight years in prison and a £50,000 fine. He was released in December 1974 — having developed a drug dependency during his sentence — and died in 1976, officially registered at his death as a "retired banker," a final piece of self-mythology from a man whose entire career had been built on presenting fraud as ordinary business. FAM's collapse remains one of the largest consumer insurance failures in British history and helped drive later reforms requiring UK motor insurers to maintain minimum solvency reserves specifically so a single insurer's collapse couldn't strip hundreds of thousands of policyholders of coverage overnight.`,
     sourceUrl: 'https://www.historyworkshop.org.uk/empire-decolonisation/the-savundra-affair-the-history-of-an-international-fraud/',
   },
+  {
+    title: 'Alves Reis and the Forged Contract That Let Him Print Portugal\'s Own Currency',
+    slug: 'alves-reis-portuguese-bank-note-crisis',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Alves_dos_Reis.png?width=1200',
+    coverImageCredit: 'Photo: unknown author, c. 1925 (public domain)',
+    coverImagePosition: 50,
+    body: `Most banknote frauds involve counterfeiting money. Artur Alves Reis skipped that step entirely — he convinced the Bank of Portugal's own printer to produce genuine currency for him.
+
+In 1924, the young Portuguese businessman forged a contract purporting to authorize a secret consortium to arrange a loan for developing the colony of Angola, complete with fabricated signatures of Bank of Portugal directors traced from real banknotes. He took the documents to Waterlow & Sons, the respected London security-printing firm that held the actual contract to print Portugal's official currency, and — through an intermediary who believed the scheme had genuine government backing — persuaded them the forged authorization was real. Waterlow's directors never independently verified the request with the Bank of Portugal itself.
+
+Believing they were fulfilling a legitimate, if unusual, request, Waterlow printed 200,000 authentic 500-escudo notes bearing the same plates, paper, and serial-number ranges used for Portugal's real currency — roughly 100 million escudos, equivalent to nearly 1% of the country's entire economic output at the time. Reis and his associates laundered the notes into circulation through a bank they founded, the Bank of Angola and Metropole, buying property, businesses, and even a controlling stake in the Bank of Portugal itself with money that had cost them nothing to produce.
+
+The scheme unraveled in December 1925, when a bank teller in Porto noticed banknotes carrying duplicate serial numbers — an oversight in an otherwise close-to-perfect fraud, since Waterlow had reused numbers already issued on genuine notes. Reis was arrested days later and, after a trial delayed for years by disbelief that a single forger could pull off something so audacious without official help, was convicted in 1930 and sentenced to 20 years. He served 15, converted to Protestantism in prison, and died in Lisbon in 1955.
+
+The financial and political fallout outlasted him by decades. The flood of genuine-but-unauthorized currency helped trigger a collapse of confidence in Portugal's fragile First Republic, contributing to the 1926 military coup that opened the door to António de Oliveira Salazar's dictatorship. Separately, the Bank of Portugal sued Waterlow & Sons in London for negligence, and in 1932 the House of Lords ordered the printing firm to pay damages so large the company never fully recovered. It stands as one of history's starkest illustrations that a forged signature on an impressive-looking document, presented with enough confidence to the right institution, can be more devastating than counterfeiting the money itself.`,
+    sourceUrl: 'https://www.bhsportugal.org/library/articles/alves-reis-and-the-portuguese-bank-note-scandal-of-1925',
+  },
+  {
+    title: '"Yellow Kid" Weil: The Confidence Man Who Said His Victims Had "Larceny in Their Hearts"',
+    slug: 'yellow-kid-weil-confidence-man',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Joseph_%22Yellow_Kid%22_Weil_1918_(cropped).jpg?width=1200',
+    coverImageCredit: 'Photo: Chicago Daily News, 1918 (public domain)',
+    coverImagePosition: 50,
+    body: `Joseph "Yellow Kid" Weil worked the confidence game for more than fifty years, from the 1890s into the 1940s, and by his own later estimate took in over $8 million from marks across the country — an enormous sum built almost entirely on elaborate stagecraft rather than force or even much risk of violence.
+
+Weil's signature method was the "big store" con, a technique later dramatized in the film "The Sting": he and a rotating cast of accomplices would rent an empty office or storefront and, for a single mark, transform it overnight into a completely convincing fake bank, brokerage, or oil company, staffed with confederates playing tellers, brokers, and other "customers." A victim who had been carefully identified and courted in advance would be brought in, shown what looked like real transactions producing real profits, and invited to invest — only to discover, after handing over his money, that the entire operation had been struck down and vanished by the next morning. Weil ran versions of this con selling fake mining and oil stock, phony "insider" racing tips, and fabricated real-estate deals, and he claimed among his marks a brother of banking magnate Andrew Mellon and, according to his own account, even swindled money from Benito Mussolini.
+
+Weil was arrested repeatedly over his career and served roughly six years total in prison, including time at Leavenworth, but the sheer craft of his schemes — and his refusal to use violence or intimidation — made him something of a folk figure even among the law enforcement that pursued him. He gave interviews late in life defending the con man's trade with a line that became his epitaph in the press: "Actually, I never cheated an honest man," he said, insisting that his marks were themselves drawn in by greed, hoping to profit from an "inside" deal that wasn't available to ordinary investors — "each of my victims had larceny in his heart."
+
+Weil died in Chicago in 1976, aged 100, having outlived the era of hand-built confidence rackets he helped define. His self-serving rationalization — that a con only works on someone hoping to cheat someone else first — remains one of the oldest and most persistent excuses scammers offer for their own conduct, and one worth naming precisely because it's wrong: legitimate investors get defrauded by convincing fake operations every day without any greed of their own to blame, then and now.`,
+    sourceUrl: 'https://www.chicagotribune.com/1990/12/20/without-these-famous-or-infamous-characters-chicagos-history-just-wouldnt-be-the-same/',
+  },
 ];
 
 // Practical "how it works / red flags / what to do" guides covering the
