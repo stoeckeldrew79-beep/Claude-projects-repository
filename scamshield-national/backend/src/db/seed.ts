@@ -21277,6 +21277,32 @@ const SEED_SCAMS: SeedScam[] = [
     sourceUrl:
       'https://www.justice.gov/usao-sd/pr/sioux-falls-crypto-investor-indicted-wire-fraud-money-laundering-bank-fraud-and',
   },
+  {
+    name: 'Trio Capital / Astarra Superannuation Fund Fraud',
+    slug: 'trio-capital-astarra-superannuation-fraud',
+    description:
+      'Trio Capital was a licensed trustee responsible for a group of APRA-regulated superannuation funds and managed investment schemes, including the Astarra Strategic Fund, when it was found between roughly 2004 and 2009 to have funneled up to $180 million of members\' retirement savings into a web of opaque offshore hedge funds based in the Caribbean and controlled by American lawyer Jack Flader. Rather than being genuinely invested, much of the money was diverted through the offshore structure to disguise its disappearance, with fund director Shawn Richard personally receiving more than $1.3 million in undisclosed payments for steering member money into the scheme. The collapse became known as the worst superannuation fraud in Australian history, wiping out roughly $176 million and leaving affected investors — including retirees in self-managed super funds — with average losses around $700,000 each. ASIC suspended Trio Capital\'s financial services licence and APRA appointed an acting trustee, while Richard pleaded guilty to dishonest conduct and was sentenced in 2011 to 3 years and 9 months\' imprisonment with a 2.5-year non-parole period, becoming the first person jailed in Australia for superannuation trustee fraud; several other Trio directors accepted enforceable undertakings banning them from the financial industry for periods of two to fifteen years. A subsequent parliamentary inquiry and Treasury review used the case to argue for tighter oversight of how licensed trustees can move member super into unrated overseas vehicles.',
+    categorySlug: 'investment-fraud',
+    country: 'AU',
+    isHistorical: true,
+    firstRecorded: '2004-01-01',
+    sources: ['Australian Securities and Investments Commission (ASIC)', 'Australian Prudential Regulation Authority (APRA)'],
+    sourceUrl:
+      'https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2012-releases/12-15mr-former-arp-growth-fund-operator-prevented-from-participating-in-financial-services-managing-companies/',
+  },
+  {
+    name: 'Melissa Caddick Unlicensed Financial Adviser Ponzi Scheme',
+    slug: 'melissa-caddick-unlicensed-adviser-ponzi-scheme',
+    description:
+      'Sydney woman Melissa Caddick presented herself as a financial adviser and, through her company Maliver Pty Ltd, took an estimated $23 million from around 55 friends, family members, and acquaintances between 2012 and 2020 — despite never holding an Australian Financial Services licence, a fact the Federal Court later confirmed. Rather than investing the money as promised, Caddick fabricated CommSec account statements showing healthy share portfolios while spending client funds on jewellery, a Dover Heights mansion, and a lavish lifestyle, in a scheme that unravelled only when ASIC and the Australian Federal Police raided her home in November 2020. Caddick disappeared the following morning and was never seen alive again; a decomposed foot in a shoe washed up on a NSW south coast beach three months later was confirmed by DNA testing to be hers, and a 2023 coronial inquest found she had likely died by suicide shortly after the raid without being able to determine the exact circumstances. The Federal Court later found Caddick and Maliver had operated an unlicensed financial services business for eight years, and receivers have since clawed back and returned tens of millions of dollars in assets to victims, though many are still waiting on a fraction of what they lost. ASIC has repeatedly cited the case as a reminder to verify that anyone offering investment advice is actually licensed, searchable on ASIC\'s own public register, before handing over money — regardless of how personally trusted or socially connected they seem.',
+    categorySlug: 'investment-fraud',
+    country: 'AU',
+    isHistorical: true,
+    firstRecorded: '2012-10-01',
+    sources: ['Australian Securities and Investments Commission (ASIC)'],
+    sourceUrl:
+      'https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2021-releases/21-312mr-melissa-caddick-and-maliver-found-to-have-engaged-in-unlicensed-conduct/',
+  },
 ];
 
 async function seedCategoriesAndScams() {
