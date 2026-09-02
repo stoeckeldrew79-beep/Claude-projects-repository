@@ -20855,6 +20855,28 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Central Bank of Ireland'],
     sourceUrl: 'https://www.centralbank.ie/news/article/press-release-central-bank-of-ireland-warns-consumers-about-changing-fraud-landscape-10-november-2025',
   },
+  {
+    name: 'Norbourg Investment Fund Fraud',
+    slug: 'canada-norbourg-investment-fund-fraud',
+    description:
+      'Montreal-based mutual fund company Norbourg collapsed in 2005 after Quebec\'s securities regulator, the Autorité des marchés financiers, discovered its founder Vincent Lacroix had made 137 illegal withdrawals from client trust accounts, diverting an estimated $130 million that roughly 9,200 investors believed was sitting in ordinary, professionally managed mutual funds. Lacroix pleaded guilty in 2007 to 51 provincial securities-law charges and was later convicted on 200 additional criminal fraud counts, drawing what was at the time the stiffest white-collar sentence in Quebec history — 13 years in prison. Nearly all of Norbourg\'s investors lost their entire holdings when the fraud surfaced, and it took a compensation fund plus a class-action settlement, finalized in 2011, to restore the bulk of what they had put in. The case remains Quebec\'s benchmark example of why a fund manager holding a valid registration and issuing regular statements is not, by itself, proof that client money is actually where those statements say it is.',
+    categorySlug: 'investment-fraud',
+    country: 'CA',
+    isHistorical: true,
+    sources: ['Autorité des marchés financiers (AMF)', 'CBC News'],
+    sourceUrl: 'https://www.cbc.ca/news/canada/montreal/ex-norbourg-ceo-gets-12-years-in-jail-and-hefty-fine-1.748311',
+  },
+  {
+    name: 'Bridging Finance Investor Fraud',
+    slug: 'canada-bridging-finance-investor-fraud',
+    description:
+      'Bridging Finance Inc., once one of Canada\'s largest private lenders with more than $2 billion under management for roughly 26,000 mostly retail investors, was placed into receivership by court order on April 30, 2021, after the Ontario Securities Commission moved against it over conduct by its co-founders, David and Natasha Sharpe. Ontario\'s Capital Markets Tribunal later found the Sharpes had perpetrated or participated in three separate frauds involving the diversion of more than $100 million in investor money, including funneling millions to David Sharpe personally and arranging a $30-million loan from a Bridging fund to a businessman who used it to buy a stake in the firm; receiver PricewaterhouseCoopers estimated total investor losses at roughly $1.3 billion once the loan book was unwound. In June 2025 the Tribunal ordered the Sharpes to disgorge $20,803,770.27 in ill-gotten gains and pay administrative penalties of $3.6 million and $1.95 million respectively, on top of permanent bans from Ontario\'s capital markets. The case is now Canada\'s largest asset-management fraud in over a decade and a reminder to regulators and investors alike that formal securities registration does not guarantee a fund manager is actually managing client money honestly.',
+    categorySlug: 'investment-fraud',
+    country: 'CA',
+    isHistorical: true,
+    sources: ['Ontario Capital Markets Tribunal', 'Ontario Securities Commission (OSC)'],
+    sourceUrl: 'https://www.capitalmarketstribunal.ca/en/proceedings/decisions-in-brief/decision-brief-bridging-finance-inc-enforcement-proceeding-sanctions-and-costs-june-17-2025',
+  },
 ];
 
 async function seedCategoriesAndScams() {
