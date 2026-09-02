@@ -9439,6 +9439,54 @@ Federal law provides a real backstop here even after a contract is signed: the F
 
 Before letting anyone in, call the phone number printed on an actual utility bill to confirm whether an audit was really scheduled — never a number the visitor provides. Get independent, written quotes from separately verified, licensed contractors before agreeing to any insulation, window, or duct work, and check contractor licensing through the state's licensing board. Anyone who was pressured into signing has three business days to cancel in writing under the Cooling-Off Rule, and suspected scams should be reported to ReportFraud.ftc.gov, the BBB Scam Tracker, and the state attorney general's office.`,
   },
+  {
+    title: 'Cramming: The Unauthorized Charges Hiding on Your Phone Bill',
+    slug: 'mobile-phone-bill-cramming-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'cramming'],
+    sourceUrl: 'https://www.ftc.gov/news-events/topics/mobile-cramming',
+    body: `A phone bill arrives a few dollars higher than usual, and buried among the taxes, fees, and regular service charges is a line item for something the account holder never ordered: a "premium text club," a horoscope or trivia subscription, a "voicemail-to-text" add-on, or a vaguely worded "membership" or "protection plan." The charge is small enough — often just $9.99 or so a month — that it's easy to miss on a bill most people scan for the total rather than read line by line, which is exactly what makes it profitable at scale. The FTC calls this practice cramming: placing unauthorized, misleading, or deceptive charges directly onto a consumer's phone bill.
+
+Cramming doesn't require a scammer to know a victim's address, bank account, or even their name — only their phone number, which can be harvested from a "free" ringtone or horoscope website that quietly enrolls a visitor in a recurring premium text subscription the moment they enter their number, or bought in bulk from data brokers. For years, wireless and landline carriers allowed almost any third party to bill through their systems in exchange for a cut of the revenue, which gave carriers little incentive to screen out bad actors — a structural gap that let cramming charges ride on phone bills from companies the customer had never heard of and never interacted with directly.
+
+The clearest warning signs are line items with vague, generic-sounding names that don't match any service the account holder signed up for; charges that appear suddenly with no purchase, download, or "yes" reply behind them; recurring monthly amounts just small enough to slip past a quick bill review; and any text message inviting a reply to "confirm," enter a contest, or get a free gift, since replying can itself trigger an enrollment. A bill's summary page showing only a lump total, rather than an itemized breakdown, makes crammed charges especially easy to miss for months at a time.
+
+Regulatory pressure has curbed the worst of it: the FCC's Truth-in-Billing rules require phone companies to clearly label third-party charges instead of burying them among their own fees, and FTC and FCC enforcement actions from 2013 through 2015 forced AT&T, T-Mobile, Sprint, and Verizon to pay a combined $353 million in refunds and penalties over unauthorized premium text billing, with more than $88 million in additional refunds tied to FTC cramming cases since. Most major carriers now also offer a free, opt-in "third-party billing block" that stops any outside company from charging through the phone bill at all — a step that shuts the door on this scam entirely for lines that don't need third-party billing.
+
+Reviewing the itemized detail of every phone bill, not just the total due, is the most reliable way to catch a crammed charge early. Anyone who finds one should call their carrier to dispute it and request a refund, and ask specifically to have a third-party billing block placed on the account going forward. Suspicious charges can also be reported to the FCC through consumercomplaints.fcc.gov and to the FTC at ReportFraud.ftc.gov, both of which use these reports to build the enforcement cases that produce refunds.`,
+  },
+  {
+    title: 'Pension Advance Scams: When Cashing Out Your Monthly Check Costs Far More Than It Pays',
+    slug: 'pension-advance-scam-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'pension-advance-scam'],
+    sourceUrl: 'https://www.consumerfinance.gov/ask-cfpb/i-was-offered-a-pension-advance-what-is-this-what-should-i-look-out-for-en-1715/',
+    body: `A retiree with a monthly pension — military, public-sector, or a private-sector defined-benefit plan — facing a medical bill, mounting debt, or a costly home repair is approached by a company offering a lump sum of cash right now in exchange for signing over some or all of their monthly pension payments for a set number of years, commonly five to ten. The pitch is framed as a "sale" of an asset the retiree already owns, not a loan, which sounds like a simple trade rather than a debt — and that framing is deliberate.
+
+Calling it a sale rather than a loan lets pension advance companies sidestep state usury caps and federal lending-disclosure laws that would otherwise require them to state a true annual percentage rate. When outside analysts have translated these deals into loan terms for comparison, the effective interest rates routinely land far above what any bank or credit union would charge — sometimes exceeding 100% APR once every fee is accounted for. Some companies require the pension to be deposited directly into an account they control, so their cut is withdrawn automatically before the retiree ever sees the money, and some require the retiree to buy a life insurance policy naming the company as beneficiary, protecting the firm's investment if the retiree dies before the "purchase" is paid off. Marketing aimed at veterans sometimes leans on patriotic branding, seals, or language implying government or military backing — even though federal law already makes it illegal to advance money against a military or VA pension in the first place.
+
+The clearest red flags are the word "sale" or "purchase" used in place of "loan," a requirement to redirect pension deposits into a company-controlled account, a bundled life insurance policy naming the company as beneficiary, no clear APR disclosure anywhere in the paperwork, and advertising that uses military insignia or "patriotic" branding to target veterans and retirees specifically. Pressure to sign quickly, before consulting a lawyer or financial counselor, is itself a warning sign given how binding and hard to unwind these contracts are.
+
+Regulators have already taken action against this industry: the Consumer Financial Protection Bureau and the New York Department of Financial Services sued two major pension advance firms in 2015 for deceiving customers about the true cost of their loans, and a 2014 Government Accountability Office review identified roughly three dozen companies offering these products, more than half of them undisclosed affiliates of one another operating mostly online. A growing number of states now regulate pension advances as loans subject to interest-rate caps, though coverage remains inconsistent nationwide, which is part of why independent advice matters before signing anything.
+
+Before agreeing to any pension advance, get independent guidance from a nonprofit credit counseling agency — many offer sliding-scale or free consultations — and compare the deal's true cost against a traditional personal loan from a bank or credit union. Anyone offered an advance against a military or VA pension should refuse outright, since federal law already prohibits it, and report the offer rather than sign anything. Complaints can be filed with the CFPB at consumerfinance.gov/complaint and with the state attorney general's office; veterans should also loop in their installation's legal assistance office or the nearest Veterans Service Organization before signing.`,
+  },
+  {
+    title: 'Energy "Supplier Switching" Scams: How a Signature on a Tablet Can Silently Change Your Electric or Gas Bill',
+    slug: 'energy-supplier-switching-slamming-scam-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'energy-supplier-slamming'],
+    sourceUrl: 'https://ag.ny.gov/press-release/2022/attorney-general-james-sues-energy-service-company-overcharging-and-misleading',
+    body: `In the roughly eighteen states plus Washington, D.C. that have deregulated retail electricity or natural gas markets, customers can legally choose an alternative energy service company (ESCO) to supply their power or gas instead of the default utility rate, while the local utility still owns the wires or pipes and handles delivery and billing. That real element of choice creates an opening for a different kind of scam than the shutoff-threat calls most utility scam warnings focus on: a door-to-door representative or telemarketer, sometimes wearing a vest or badge that looks official, or claiming an affiliation with the local utility, asks to see a copy of the customer's utility bill to "check eligibility for a discount" or "verify current savings." The real target isn't the discount — it's the account number printed on that bill.
+
+With the account number in hand, or through a rushed verification call or a tablet signature the customer doesn't realize actually authorizes a full switch, the representative enrolls the household with a new third-party supplier. New York's attorney general sued one of the country's largest ESCOs in 2022 alleging exactly this pattern — sales representatives impersonating utility staff, using deceptive verification recordings, and presenting confusing tablet interfaces that obscured what a customer was actually signing — and alleged that affected customers paid tens of millions of dollars more than they would have on their local utility's standard rate, despite being promised savings. Even where a switch is technically consented to, an advertised low introductory rate is often the setup for a much higher variable rate that kicks in after a few billing cycles, one that can spike sharply during periods of high demand.
+
+The warning signs mirror the sales tactic itself: anyone showing up unannounced or calling to ask for a copy of a utility bill or an account number, without the customer having initiated a switch, is the first flag. Claims of affiliation with "the utility" or a "government energy program" from someone who is neither, pressure to sign on a tablet or over the phone without time to read the full contract terms, and a rate pitched as guaranteed savings with no fixed rate or duration spelled out in writing all point the same direction.
+
+States with deregulated energy markets generally require the utility to send an advance notice before a supplier switch takes effect, which gives a customer a limited window to catch and cancel one they never authorized, and most allow a return to the utility's standard default rate simply by contacting the utility directly. An unauthorized switch reported promptly can usually be reversed, with any resulting overcharges corrected once the utility and state regulator are involved.
+
+Never hand a copy of a utility bill or read out an account number to an unsolicited caller or someone at the door, no matter what discount or program they claim to represent. If a switch notice arrives that wasn't requested, contact the utility immediately — using the number on a past bill, never a number given by the visitor or caller — to halt or reverse it, and compare any supplier's offered rate against the utility's own standard rate before agreeing to anything. Complaints about deceptive enrollment or overcharging belong with the state public service or utility commission, which regulates ESCOs directly, as well as the state attorney general's office.`,
+  },
 ];
 
 async function seedArticles(articles: SeedArticle[], label: string) {
@@ -22499,6 +22547,39 @@ const SEED_SCAMS: SeedScam[] = [
     alertLevel: 'medium',
     sources: ['FBI Internet Crime Complaint Center (IC3)'],
     sourceUrl: 'https://www.ic3.gov/PSA/2026/PSA260312',
+  },
+  {
+    name: 'French "Arnaque à la Tâche" Task Scam',
+    slug: 'france-arnaque-a-la-tache-task-scam',
+    description:
+      'A message on WhatsApp, Telegram, TikTok, or by SMS offers flexible, no-experience-needed remote work as an "opérateur marketing," paying a few euros for simple tasks like liking videos, subscribing to social accounts, or leaving fake ratings for businesses on Google Maps — and the recruiter genuinely pays out these first small amounts to build trust. The victim is then steered to a branded app or website showing a rising "wallet" balance that can only be withdrawn once it reaches a target level, and unlocking that level means depositing their own money, often hundreds of euros, to access better-paying "premium missions"; the cycle repeats, sums grow larger, and the account is eventually frozen with every euro deposited gone for good. Cybermalveillance.gouv.fr has tracked fraudulent "opérateur marketing internet" job offers under the name "arnaque à la tâche" since late 2022, and by 2025-2026 the platform reported the addition of AI-personalized recruiting messages, voice-cloned "manager" phone calls, and fake apps imitating legitimate freelance platforms; a genuine job never requires an employee to pay their own employer money to access further work or unlock earnings already claimed to be owed.',
+    categorySlug: 'employment-scams',
+    country: 'FR',
+    alertLevel: 'high',
+    sources: ['Cybermalveillance.gouv.fr'],
+    sourceUrl: 'https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/escroquerie-offres-emploi-operateur-marketing-internet',
+  },
+  {
+    name: 'French "Fraude au Faux RIB" Invoice Redirection Scam',
+    slug: 'france-fraude-faux-rib-invoice-redirection-scam',
+    description:
+      'Unlike the "arnaque au président," which impersonates a company\'s own CEO, this fraud impersonates a business\'s existing, legitimate supplier: after compromising an email account or intercepting an invoice in transit — sometimes through a look-alike domain a single letter off from the real one — the fraudster sends the target\'s accountant a routine-looking follow-up claiming the supplier has changed its bank details, attaching a doctored invoice with the fraudster\'s own IBAN substituted for the real one. Because the invoice references a genuine, already-expected transaction between two real parties, it slips past the scrutiny an unsolicited request would draw, and the fraud is typically only discovered once the real supplier later chases an unpaid bill. The Banque de France\'s Observatoire de la sécurité des moyens de paiement recorded wire-transfer fraud losses of roughly €230 million in the first half of 2025 alone — a 44% jump from the same period in 2024 — with cybermalveillance.gouv.fr and the Police Nationale\'s Info Escroqueries both naming "fraude au faux RIB" and "fraude au faux fournisseur" among the leading transfer-fraud categories alongside CEO fraud; any notice of changed payment details should be verified by phone using a number sourced independently of the email itself, never one supplied in the message or attached invoice.',
+    categorySlug: 'business-email-compromise',
+    country: 'FR',
+    alertLevel: 'high',
+    sources: ['Cybermalveillance.gouv.fr', 'Banque de France'],
+    sourceUrl: 'https://www.cybermalveillance.gouv.fr/tous-nos-contenus/fiches-reflexes/que-faire-en-cas-de-fraude-au-virement-ou-au-faux-rib',
+  },
+  {
+    name: 'French SIM Swapping Account Takeover Fraud',
+    slug: 'france-sim-swapping-account-takeover-scam',
+    description:
+      'Having gathered a victim\'s name, date of birth, and email address — often from a leaked data breach — a fraudster contacts the victim\'s mobile carrier impersonating them, or hijacks their online carrier account, and requests that the phone number be ported to a new SIM or eSIM under the fraudster\'s control; the first visible sign is often the victim\'s own phone abruptly losing all network signal. With the number hijacked, the fraudster intercepts the SMS one-time codes banks use to authorize transfers and drains the linked account, sometimes within minutes. The mechanism produced a landmark ruling on November 25, 2025, when the tribunal judiciaire de Paris held both a bank and a carrier liable in the case of an 82-year-old SFR subscriber whose number was fraudulently ported to Free Mobile in December 2022, enabling four transfers totaling €16,964 out of her BNP Paribas account: the court ordered BNP Paribas to reimburse the full amount plus €2,500 in costs, having failed to prove the transfers were properly authenticated, and found Free Mobile liable for half that sum for failing to verify the requester\'s identity before completing the port. Gendarmerie units have separately issued "AlerteCyberGend" warnings on the technique, and both they and the ruling recommend switching two-factor authentication from SMS codes to a dedicated authenticator app and contacting one\'s carrier immediately at any unexplained, total loss of mobile signal.',
+    categorySlug: 'account-takeover',
+    country: 'FR',
+    alertLevel: 'high',
+    sources: ['Tribunal Judiciaire de Paris', 'Gendarmerie Nationale (AlerteCyberGend)'],
+    sourceUrl: 'https://www.universfreebox.com/article/596631/free-mobile-et-bnp-paribas-condamnes-apres-le-vol-de-pres-de-17-000-e-a-une-abonnee-sfr-dont-la-ligne-avait-ete-usurpee',
   },
 ];
 
