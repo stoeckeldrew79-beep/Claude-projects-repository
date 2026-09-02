@@ -18592,6 +18592,50 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['U.S. Attorney\'s Office, Western District of North Carolina', 'U.S. Securities and Exchange Commission'],
     sourceUrl: 'https://www.justice.gov/usao-wdnc/pr/unlicensed-adviser-charged-4-million-investment-fraud-scheme-targeting-elderly-and',
   },
+  {
+    name: 'AI-Generated Damage Photos for Retail Return Fraud',
+    slug: 'ai-generated-retail-return-fraud',
+    description:
+      "Rather than a shopper being defrauded, this scheme runs the other way: a buyer purchases a product online, then uses free generative-AI image tools to fabricate a photo showing it arriving torn, cracked, or defective, and submits that image through a retailer's self-service return portal to collect a refund while keeping the genuine, undamaged item. Fraud-prevention platforms report the tactic went from isolated incidents to a daily occurrence across thousands of merchant accounts within months, and bedding retailer Boll & Branch caught one submission — a supposedly torn sheet — only because the AI-rendered tear didn't fray the way real cotton actually does. The National Retail Federation and Appriss Retail estimate consumers returned roughly $890 billion in merchandise in 2025, with $103 billion of that tied to return fraud and abuse, a category generative AI is now accelerating by making convincing fake evidence available to anyone with a phone. In response, some retailers are requiring return photos with unaltered metadata, multiple angles, or live video verification before approving a refund rather than accepting a single submitted image at face value — and like most retail shrink, the cost of this fraud ultimately gets built into the prices every other shopper pays.",
+    categorySlug: 'ai-deepfake-scams',
+    country: 'US',
+    alertLevel: 'medium',
+    sources: ['National Retail Federation', 'Modern Retail'],
+    sourceUrl: 'https://www.modernretail.co/technology/from-boll-branch-to-bogg-brands-are-battling-a-surge-of-ai-driven-return-fraud/',
+  },
+  {
+    name: 'AI-Altered Photos in Insurance Claim Fraud',
+    slug: 'ai-altered-insurance-claim-photo-fraud',
+    description:
+      "Rather than an insurer or adjuster targeting a policyholder, this fraud runs the other direction: a policyholder uses generative AI to fabricate or exaggerate damage in photos submitted with an auto or property claim — inventing a dent that never happened, deepening a real scratch, or generating an entirely synthetic wrecked vehicle — to inflate a payout or manufacture a claim from nothing. A March 2026 Verisk study of 1,000 U.S. consumers and 300 claims professionals found 98% of insurers agree AI editing tools are fueling a rise in digital claims fraud and 99% say they've already encountered manipulated or AI-altered claim documentation, while more than a third of consumers overall — and 55% of Gen Z consumers specifically — said they'd consider digitally altering a claim image even knowing it broke their insurer's rules. The National Insurance Crime Bureau has flagged staged-accident rings increasingly pairing real collisions with AI-edited damage photos to inflate payouts, and industry researchers report these fakes can pass routine automated document checks at a high rate, making them harder to catch than a manually altered photo. Insurers are responding with their own AI-based image-forensics and metadata-verification tools, but the practice is insurance fraud — a felony in most states — and the resulting payouts get passed back to every policyholder through higher premiums.",
+    categorySlug: 'insurance-fraud',
+    country: 'US',
+    alertLevel: 'medium',
+    sources: ['Verisk', 'National Insurance Crime Bureau'],
+    sourceUrl: 'https://www.verisk.com/company/newsroom/ai-editing-tools-are-fueling-a-new-era-of-insurance-fraud-according-to-new-research-from-verisk/',
+  },
+  {
+    name: 'Irish Solicitor Email Interception House Deposit Scam',
+    slug: 'ireland-solicitor-conveyancing-email-deposit-scam',
+    description:
+      "Fraudsters compromise or closely spoof a solicitor's email account during a property purchase, quietly monitor the mailbox for conveyancing correspondence, and — timed to the exact point in the transaction when a deposit or completion payment falls due — send the buyer \"updated\" bank account details from what looks like the solicitor's own address. Because a solicitor's firm changing its bank account mid-transaction is highly unusual, the request is fraudulent, but buyers who transfer often lose their entire deposit, sometimes tens of thousands of euro, before the fraud is discovered, and the money is rarely recovered. The Law Society of Ireland has issued repeated cyber-alerts to its members after real incidents, including one where criminals impersonated a Dublin firm using a fake \"LLP\" practice designation — a legal structure that does not exist for solicitors in the Republic of Ireland, an inconsistency that helped expose the fraud. Because solicitors are prohibited from holding client funds in bank accounts outside the State, any request to transfer a house deposit abroad is itself a red flag, and the Law Society advises verifying any unexpected change of bank details by phone, using a number sourced independently rather than one taken from the email itself.",
+    categorySlug: 'business-email-compromise',
+    country: 'IE',
+    alertLevel: 'high',
+    sources: ['Law Society of Ireland', 'The Irish Times'],
+    sourceUrl: 'https://www.lawsociety.ie/Solicitors/business-career-resources/Cybersecurity-old/Cyber-alerts/scam-email-from-another-legal-firm/',
+  },
+  {
+    name: 'Irish SuperValu WhatsApp Voucher Scam',
+    slug: 'ireland-supervalu-whatsapp-voucher-scam',
+    description:
+      'A WhatsApp or Facebook message impersonating SuperValu, one of Ireland\'s largest supermarket chains, claims the retailer is celebrating an anniversary — one widely circulated version cited its "50th birthday" — and is giving away a voucher, quoted at 75 euro, to anyone who clicks a link, answers a few questions, and forwards the message to their own contacts to keep it spreading. The linked page harvests names, addresses, phone numbers, and sometimes payment card details under the guise of a small delivery or verification charge, and the built-in forwarding requirement is what lets a single fake message reach thousands of households within hours. SuperValu publicly confirmed the messages were "NOT issued, endorsed or promoted by SuperValu" and urged customers not to click through, enter personal information, or share the post further. The same viral share-to-claim template has resurfaced under other well-known Irish retail brands over the years, making the underlying pattern — a spoofed retailer identity paired with a forwarding requirement — the real signal to watch for, not any one shop\'s name.',
+    categorySlug: 'phishing',
+    country: 'IE',
+    alertLevel: 'medium',
+    sources: ['SuperValu Ireland', 'Irish Examiner'],
+    sourceUrl: 'https://www.irishexaminer.com/breakingnews/ireland/supervalu-warns-customers-about-whatsapp-scam-807501.html',
+  },
 ];
 
 async function seedCategoriesAndScams() {
