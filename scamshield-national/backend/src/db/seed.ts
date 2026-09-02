@@ -5979,6 +5979,63 @@ Warning signs include a guardian who won't allow the ward private conversations 
 
 If you suspect a guardian or conservator is mismanaging or stealing from someone in their care, most state courts have a process for interested parties — family members, friends, or the ward themselves — to petition for a formal accounting or to request the guardian's removal, and an elder law attorney can help file that petition. Report suspected abuse to your state's Adult Protective Services, to local law enforcement, and to the court that oversees the guardianship, since it retains supervisory authority over the guardian's conduct for as long as the guardianship remains in place.`,
   },
+  {
+    title: 'Fake DMV Text Scams: Why That "Unpaid Traffic Ticket" or "Vehicle Registration Suspended" Message Is Fraud',
+    slug: 'vehicle-registration-renewal-scam-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'dmv-text-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/People%20waiting%20in%20line%20at%20the%20DMV.jpg?width=1200',
+    coverImageCredit: 'Photo: Rockclaw1030 (CC0, public domain)',
+    coverImagePosition: 50,
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2025/07/text-about-overdue-traffic-ticket-probably-scam',
+    body: `A text arrives out of nowhere claiming to be from a state Department of Motor Vehicles, warning of an overdue traffic ticket or a vehicle registration that's about to be suspended. It names a small, specific-sounding balance, adds that a 35% late fee will apply if it isn't paid today, and includes a link to "resolve" the matter immediately. Some versions threaten to report the recipient to a "DMV violation database," suspend their license and registration, or even refer the debt to a collection agency and dent their credit score — all designed to make ignoring the text feel riskier than clicking the link.
+
+The FTC has flagged this as one of the fastest-growing text scams in the country: reports of DMV impersonation texts surged more than twelvefold in a single year, with total reported losses climbing into the tens of millions of dollars. The link in the message leads to a fake payment page, styled to look like a state DMV site, that asks for a name, address, driver's license number, and credit card details to "settle" the balance — information that's either sold, used for further identity theft, or run up on the stolen card directly. Because the text names a real-sounding agency and a plausible-sounding dollar figure, it slips past the skepticism a more generic scam message would trigger.
+
+The scam relies on a mix of authority and manufactured urgency: a government-sounding sender combined with a same-day deadline and the threat of losing driving privileges is built to produce a reflexive tap on the link rather than a pause to verify. It also exploits a real gap in most people's knowledge — many drivers genuinely aren't sure whether their registration or an old ticket is current, which makes a message claiming otherwise easy to believe rather than easy to dismiss.
+
+The clearest tell is the channel itself: no state DMV or motor vehicle agency initiates contact about an unpaid ticket or registration by text message, and none will threaten immediate suspension or arrest over a text. A link that doesn't lead to your state's actual ".gov" DMV domain, a request for a credit card number to "release" a hold, and pressure to act within hours are all signs the message is fake, regardless of how official the wording or the sender's name looks.
+
+Don't tap the link. Delete the text, or forward it to 7726 (SPAM) to help your carrier flag the number, and check your actual driving and registration status only by going directly to your state DMV's official website or by calling a number you look up independently — never one supplied in the text. If you already entered payment or personal information, contact your card issuer to dispute the charge and watch your credit reports for new activity. Report the scam to the FTC at ReportFraud.ftc.gov.`,
+  },
+  {
+    title: 'Deepfake CEO Fraud: How AI Voice and Video Cloning Is Used to Steal From Businesses',
+    slug: 'deepfake-ceo-executive-voice-fraud-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'deepfake-executive-fraud'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Zoom%20en%20uso.jpg?width=1200',
+    coverImageCredit: 'Photo: José Alejandro Salamanca Pérez (public domain)',
+    coverImagePosition: 50,
+    sourceUrl: 'https://www.ic3.gov/PSA/2024/PSA241203',
+    body: `An employee in accounting or finance gets a call, or is dropped into a video conference, with someone who looks and sounds exactly like the company's CEO or CFO. The "executive" explains there's a confidential, time-sensitive deal — an acquisition, a vendor payment, a regulatory matter — and instructs the employee to wire funds to a new account right away, stressing secrecy and urgency because the deal can't leak before it's announced. Everything about the encounter, from the voice to the face on screen, matches the real executive, because it's been generated by AI trained on that person's public speeches, interviews, and earnings calls.
+
+This is not a hypothetical risk. In one widely reported 2024 case, a finance employee at the engineering firm Arup joined a video call with people who appeared to be the company's CFO and other colleagues, all of them AI-generated deepfakes, and proceeded to make fifteen separate transfers totaling roughly $25 million before the fraud was discovered. The FBI's Internet Crime Complaint Center has warned specifically that generative AI now lets criminals create convincing audio and video of executives, law enforcement, and other authority figures, reducing the effort needed to run a scheme and increasing how believable it looks — and that AI-assisted deepfake tactics have become a fast-growing feature of business email compromise, one of the costliest categories of fraud the FBI tracks.
+
+What makes this different from a typical spoofed-email wire fraud attempt is that it defeats the exact verification step employees are usually trained to rely on: "call to confirm" or "get on a video call to be sure." A convincing voice clone can now be built from just a few seconds of publicly available audio — a earnings call, a conference talk, a company video — and a live deepfake video call can mimic an executive's face and mannerisms in real time, so the very act of hearing or seeing the person no longer proves they're who they appear to be.
+
+The clearest defenses don't depend on spotting a fake voice or face, since the technology is often convincing enough to fool the ear and eye in the moment. Any request for a wire transfer, a change to vendor payment details, or a new account number should go through an established callback procedure — hanging up or leaving the video call and reaching the requester at a phone number already on file, never one given during the call itself. A demand for secrecy, unusual urgency, or a deviation from the company's normal payment-authorization process should trigger that verification regardless of how senior or convincing the requester sounds, and dual sign-off on wire transfers above a set dollar threshold, with no exceptions for "the CEO said so," closes the gap a deepfake is specifically built to exploit.
+
+If your organization sent money after a call or video meeting that turns out to have been faked, contact your bank immediately to attempt a wire recall, preserve the call or video recording and any messages for investigators, and report the incident to the FBI's Internet Crime Complaint Center at ic3.gov, which tracks and can sometimes help trace business email compromise and AI-enabled fraud losses.`,
+  },
+  {
+    title: 'Tax Debt "Offer in Compromise" Mills: How Pricey Middlemen Exploit a Real IRS Program',
+    slug: 'tax-debt-relief-scam-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'tax-debt-relief-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/NYC%20IRS%20office%20by%20Matthew%20Bisanz.JPG?width=1200',
+    coverImageCredit: 'Photo: Matthew G. Bisanz (CC BY-SA 3.0)',
+    coverImagePosition: 50,
+    sourceUrl: 'https://www.irs.gov/newsroom/dirty-dozen-beware-of-offer-in-compromise-mills-that-falsely-claim-their-services-are-necessary-to-resolve-irs-debt',
+    body: `A radio or TV ad, a robocall, or a mailer promises to settle a listener's IRS tax debt "for pennies on the dollar" through a program the ad calls something like the "National Tax Relief Program" or "Fresh Start Initiative." It urges anyone behind on taxes to call now for a free consultation, warns that the opportunity won't last, and — once the person calls — walks them toward an "Offer in Compromise," collecting a large fee, often several thousand dollars, paid upfront before any work begins on the actual case.
+
+An Offer in Compromise is a genuine IRS program that lets a taxpayer settle a tax debt for less than the full amount owed, but only in narrow circumstances: real financial hardship, verified by extensive documentation, that makes full payment impossible or deeply inequitable. The IRS has repeatedly placed so-called "OIC mills" on its annual Dirty Dozen list of tax scams, warning that these firms use aggressive, misleading marketing to sign up taxpayers who plainly don't meet the program's requirements, charge steep fees regardless of outcome, and give false assurances that a debt will simply disappear. Separately, the Federal Communications Commission logged nearly 16 million robocalls pushing a "National Tax Relief Program" in a single three-month stretch, and the FTC has shut down operations of this kind that collected more than $60 million from consumers with near-identical pitches about settling tax debt for a fraction of what's owed.
+
+The pitch works by targeting people already under real financial stress and offering them a shortcut past a process that sounds intimidating and bureaucratic — dealing directly with the IRS. A firm that presents itself as a specialized negotiator standing between the taxpayer and the government makes an unfamiliar process feel manageable, even though nearly everything the firm does for its fee, including checking basic eligibility, is available for free directly from the IRS.
+
+The reliable red flags are a guarantee that a debt will be settled for a specific reduced amount before the firm has reviewed any of the taxpayer's actual financial records, a large fee charged upfront rather than tied to results, high-pressure claims about a closing window of eligibility, and marketing that never mentions the program's real, narrow qualification standard. A legitimate tax professional will ask detailed questions about income, assets, and expenses before ever discussing what kind of settlement might be realistic, not after collecting payment.
+
+Before hiring anyone, check free eligibility directly using the IRS's own Offer in Compromise Pre-Qualifier tool at IRS.gov, and consider consulting a local, licensed CPA, enrolled agent, or tax attorney who charges for time rather than promising a guaranteed outcome. If you already paid an OIC mill that took your fee and delivered nothing, or misrepresented what it could do, you can file a complaint with the Treasury Inspector General for Tax Administration and report the scam to the FTC at ReportFraud.ftc.gov.`,
+  },
 ];
 
 async function seedArticles(articles: SeedArticle[], label: string) {
@@ -16906,6 +16963,17 @@ const SEED_SCAMS: SeedScam[] = [
     alertLevel: 'high',
     sources: ['Ohio Auditor of State'],
     sourceUrl: 'https://ohioauditor.gov/news/pressreleases/Details/5965',
+  },
+  {
+    name: 'Uisce Éireann (Irish Water) Phishing and Smishing Scam',
+    slug: 'irish-uisce-eireann-water-phishing-smishing-scam',
+    description:
+      'Fraudulent emails and texts use "Uisce Éireann" or "Irish Water" as the display name to look legitimate, directing recipients to a fake login page that harvests account credentials and card details before redirecting the victim to the real water utility site so nothing appears wrong. Uisce Éireann has separately warned that scammers exploit disruptive events, issuing a specific phishing and smishing alert after a major storm caused widespread outages, to add urgency around service disruption. Uisce Éireann states it will never request personal or financial information by email, and advises checking the actual sender address rather than the display name, avoiding links in unsolicited messages, and typing the utility\'s web address directly into a browser instead.',
+    categorySlug: 'utility-scams',
+    country: 'IE',
+    alertLevel: 'medium',
+    sources: ['Uisce Éireann (formerly Irish Water)'],
+    sourceUrl: 'https://www.water.ie/contact/general-enquiry/spam-email',
   },
 ];
 
