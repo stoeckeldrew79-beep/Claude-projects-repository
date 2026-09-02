@@ -14550,6 +14550,28 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Federal Bureau of Investigation (FBI) Internet Crime Complaint Center (IC3)'],
     sourceUrl: 'https://www.ic3.gov/PSA/2026/PSA260527',
   },
+  {
+    name: 'Swedish Fake Postkodlotteriet Prize-Winner Scam',
+    slug: 'swedish-fake-postkodlotteriet-prize-winner-scam',
+    description:
+      'A caller, text message, or email impersonating Svenska Postkodlotteriet, Sweden\'s popular postcode lottery, tells the recipient they have won a cash prize and, to "release" or "confirm" the winnings, instructs them to open BankID, log into Swish, or read out card and account details over the phone, with some variants claiming a courier will hand-deliver the prize in person. Postkodlotteriet states it never asks anyone to log in with BankID or provide card or account details by phone or email, and that genuine winnings are paid automatically into the winner\'s already-registered account. Swedish police have documented real financial losses from the scam, including a case in which a victim lost over 20,000 kronor after being talked through a BankID confirmation, and have repeatedly urged the public to simply hang up on any caller claiming to be from Postkodlotteriet.',
+    categorySlug: 'lottery-sweepstakes-scams',
+    country: 'SE',
+    alertLevel: 'high',
+    sources: ['Svenska Postkodlotteriet', 'Polismyndigheten (Swedish Police Authority)'],
+    sourceUrl: 'https://www.postkodlotteriet.se/kundservice/vanliga-fragor/bedrageriforsok-i-postkodlotteriets-namn',
+  },
+  {
+    name: 'Swedish Mail-Redirection Identity Theft (Eftersändningsbedrägeri)',
+    slug: 'swedish-mail-redirection-identity-theft',
+    description:
+      'A fraudster who has obtained a victim\'s personal details files a fraudulent house-move or mail-forwarding request with Svensk Adressändring, sometimes with a forged signature on a paper form, to redirect the victim\'s post to an address the fraudster controls. With incoming mail intercepted, the fraudster applies for SMS loans, quick loans, or new payment cards in the victim\'s name, since the loan documents, PIN codes, or physical cards are delivered straight to the criminal instead of the real account holder. Skatteverket and Svensk Adressändring recommend activating the free Adresslåset (Address Lock) service and Skatteverket\'s block on unauthorized address changes, both of which require BankID for any future address change and stop unauthorized mail forwarding before it can happen.',
+    categorySlug: 'identity-theft',
+    country: 'SE',
+    alertLevel: 'high',
+    sources: ['Skatteverket (Swedish Tax Agency)', 'Svensk Adressändring (Swedish Address-Change Service)'],
+    sourceUrl: 'https://www.skatteverket.se/privat/folkbokforing/identitetsintrang.4.35c34f651660af3747c3178.html',
+  },
 ];
 
 async function seedCategoriesAndScams() {
