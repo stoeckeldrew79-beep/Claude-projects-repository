@@ -3385,6 +3385,57 @@ Elbaz's sentence stood out not just for its length but for what it represented: 
 The binary options fraud wave that Yukom exemplified was, in essence, an old boiler-room stock scam wearing a fintech costume — professional-sounding "account managers," a polished trading platform, and guaranteed returns, aimed disproportionately at older investors with savings to lose and limited familiarity with how legitimate trading actually works. That same playbook migrated almost seamlessly into unregulated forex and cryptocurrency "signal" and "copy trading" platforms in the years after Elbaz's conviction, run out of many of the same regions with many of the same scripts. The core warning her case leaves behind hasn't changed: any platform that only ever shows winning trades, discourages withdrawals, and assigns you a personal "adviser" pushing bigger deposits is not managing your money — it is managing how long it can keep you depositing before you notice you can't get it back.`,
     sourceUrl: 'https://www.justice.gov/archives/opa/pr/former-ceo-israeli-company-sentenced-22-years-prison-orchestrating-major-international-binary',
   },
+  {
+    title: "Kim Woo-choong and the $41 Billion Daewoo Accounting Fraud That Outran South Korea's Miracle Economy",
+    slug: 'kim-woo-choong-daewoo-accounting-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Kim Woo-choong started with almost nothing — his father had been abducted to North Korea during the Korean War, and Kim delivered newspapers as a teenager to help support his family — and turned that into one of the largest business empires Asia had ever seen. In 1967, with a handful of associates and about $10,000 in borrowed capital, he founded a small textile trading company that he built, through relentless leveraged acquisitions of distressed firms and close ties to South Korea's military-backed government, into Daewoo Group: a conglomerate that by the 1990s ranked among the country's largest, operating shipyards, car plants, electronics factories, hotels, and trading offices in nearly 100 countries. Kim became a national symbol of the "Miracle on the Han River," celebrated in a bestselling memoir titled "It's a Big World and There's Lots to Be Done," and Daewoo's growth was held up by the government as proof that South Korean industry could compete anywhere.
+
+The growth was, to a significant degree, fiction. Daewoo's expansion was financed almost entirely by debt — Kim borrowed aggressively from Korean banks and international lenders to fund one acquisition after another, and to keep the loans flowing and the stock price up, the group's books were manipulated to show profits and asset values that did not exist. Prosecutors later determined that Daewoo's accounts overstated the conglomerate's worth by roughly 41 trillion won, or about $43 billion, through fabricated exports, inflated inventories, and loans booked as revenue — at the time, the largest accounting fraud in corporate history. Auditors and creditor banks accepted the numbers for years, in part because a company of Daewoo's scale and political connections was widely treated as too important, and too well-placed, to look at too closely.
+
+The 1997 Asian financial crisis tore through that assumption. As currencies collapsed and credit dried up across the region, Daewoo's mountain of short-term debt — used to paper over losses that had been hidden for years — became impossible to keep rolling over. By August 1999, Daewoo collapsed under roughly $50 billion in debt, the largest corporate failure in South Korean history, forcing the government to step in and break up the conglomerate to protect the banking system. Kim did not stay to face the consequences. He left the country in October 1999, and for nearly six years moved between France, Switzerland, Sudan, and Vietnam, evading extradition while South Korean investigators built a criminal case against him in absentia.
+
+Kim finally returned to South Korea on June 14, 2005, was arrested on arrival, and stood trial for embezzlement, accounting fraud, and illegal foreign borrowing. In May 2006, a Seoul court convicted him and sentenced him to ten years in prison, ordering him to forfeit roughly 21 trillion won — about $22 billion — the largest forfeiture ever ordered by a South Korean court. He served barely eighteen months of that sentence before President Roh Moo-hyun granted him a special pardon in December 2007, citing his declining health and, more controversially, his past contributions to South Korea's export economy — a decision that drew sharp criticism from anti-corruption groups who noted that ordinary embezzlers received no such consideration. Kim died in 2019 at age 82, having repaid only a small fraction of the billions he was ordered to forfeit.
+
+Daewoo's collapse remains a foundational case study in how a company's sheer size and national prestige can substitute for scrutiny that actual auditors, lenders, and regulators failed to provide — the same failure of "too big to question" thinking that let Enron's fabricated earnings pass unchallenged for years and that let FTX's ledger go unaudited by anyone with the leverage to demand real answers. Kim's pardon adds a second, equally durable lesson: the leniency shown to economically prominent fraudsters, weighed against the ordinary sentences handed to smaller-scale scammers, is a pattern that recurs across very different legal systems and continues to shape how much real deterrent effect white-collar sentencing actually has.`,
+    sourceUrl: 'https://en.wikipedia.org/wiki/Kim_Woo-choong',
+  },
+  {
+    title: 'Changpeng Zhao, Binance, and the $4.3 Billion Money-Laundering Case That Ended in a Presidential Pardon',
+    slug: 'changpeng-zhao-binance-money-laundering-pardon',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Changpeng_Zhao_in_2022.jpg?width=1200',
+    coverImageCredit: 'Photo: Aevozer, 2022, via Wikimedia Commons (CC BY-SA 4.0)',
+    coverImagePosition: 50,
+    body: `Changpeng Zhao — known almost universally by his initials, "CZ" — built Binance from a company he formed in 2017 into the largest cryptocurrency exchange in the world by trading volume, processing hundreds of billions of dollars in transactions for tens of millions of users. Binance grew that fast in part because it was designed, deliberately, to avoid pinning itself down: the exchange had no fixed corporate headquarters, operated across a maze of affiliated entities in different jurisdictions, and for years resisted implementing the kind of anti-money-laundering and know-your-customer checks that regulated banks and brokerages are required to run. Zhao cultivated a public image as a scrappy outsider disrupting a slow-moving financial establishment, while Binance served customers around the world with minimal friction and, prosecutors would later say, minimal oversight of where the money was coming from or going.
+
+That absence of oversight was not an accident of a fast-growing startup — according to the U.S. Department of Justice, it was a business decision Zhao made and re-made even after his own compliance staff warned him of the consequences. Internal communications cited in the case showed Binance employees flagging that the platform was facilitating transactions tied to designated terrorist organizations, including Hamas's al-Qassam Brigades and al-Qaeda-linked accounts, along with transactions that violated U.S. sanctions on Iran — and that Zhao and other executives were aware of these compliance failures and allowed them to continue rather than block growth or slow onboarding. Investigators ultimately identified more than 1.5 million suspicious transactions, worth close to $900 million, that Binance's own anti-money-laundering program should have caught and did not.
+
+In November 2023, Zhao personally pleaded guilty to a felony violation of the Bank Secrecy Act for willfully failing to maintain an effective anti-money-laundering program at Binance, and stepped down as the company's CEO as part of a resolution with U.S. prosecutors. Binance itself agreed to forfeit more than $2.5 billion and pay a criminal fine of roughly $1.8 billion — a combined penalty of about $4.3 billion, the largest corporate resolution of its kind in the history of U.S. cryptocurrency enforcement. Zhao personally agreed to pay a $50 million fine. Prosecutors, arguing that Zhao's decisions had made Binance's platform a preferred conduit for money launderers and sanctions evaders on a scale no other single actor in the crypto industry had matched, recommended a 36-month prison sentence.
+
+The federal judge overseeing the case in Seattle sentenced Zhao far more leniently than prosecutors sought: in April 2024, he received four months in prison, a sentence that drew criticism from financial-crime watchdogs as disproportionately small relative to the scale of harm the DOJ itself had documented. Zhao served the sentence and was released later that year, resuming a highly visible role advising crypto ventures despite the felony conviction. In October 2025, President Trump granted Zhao a full pardon, a decision the White House defended as correcting what it called "overprosecution" under the prior administration — even as reporting at the time noted that the Trump family's own cryptocurrency venture had entered into a trading-platform arrangement connected to Binance, raising conflict-of-interest questions that Trump said he was unaware of when he signed the pardon.
+
+Binance's case is a reminder that most large-scale fraud losses reported to agencies like the FTC and FBI don't end with the scammer — they end with the money moving through an exchange, a wallet, or a payment rail, and how carefully that intermediary screens its customers determines whether a "pig butchering" or romance-investment scam's proceeds are traceable and recoverable or gone for good. Zhao's guilty plea confirmed what compliance staff inside his own company had already told him: an exchange that chooses growth over screening isn't a neutral pipe for legitimate crypto trading, it is functionally a laundering service for whoever is willing to move enough volume through it, whether that's a sanctioned regime or the operator of a stranger's fake investment platform.`,
+    sourceUrl: 'https://www.justice.gov/archives/opa/pr/binance-and-ceo-plead-guilty-federal-charges-4b-resolution',
+  },
+  {
+    title: 'Philip Esformes and the $1.3 Billion Medicare Fraud Scheme That Used Opioids to Keep Patients Captive',
+    slug: 'philip-esformes-medicare-fraud-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Philip Esformes ran one of the largest networks of skilled nursing and assisted living facilities in Florida, built on a family real-estate and health-care business that expanded, over roughly two decades, into some twenty facilities across Florida, Illinois, and Missouri. On paper, the business looked like an ordinary, if aggressively growing, elder-care operation. Behind it, federal prosecutors say, Esformes ran what the Department of Justice would later call the largest health care fraud scheme it had ever charged — a conspiracy that funneled more than $1 billion in fraudulent claims through Medicare and Medicaid over the better part of a decade.
+
+The mechanics were built around a network of patient recruiters who received illegal kickbacks for steering vulnerable people — many of them elderly, homeless, or struggling with substance addiction — into Esformes's facilities, whether or not they needed the level of care being billed. Once inside, patients were subjected to medically unnecessary tests, procedures, and prescriptions solely to generate billable claims, with doctors and hospital administrators bribed to refer patients and sign off on services never actually required. Investigators found that Esformes directed some facilities to keep patients dependent on powerful, addictive opioids including OxyContin and fentanyl specifically to keep them from leaving — turning addiction itself into a retention tool that let the billing continue for months or years longer than any patient's actual medical needs would have justified. He personally profited more than $37 million from the scheme, which he spent on luxury cars, a $360,000 watch, and other extravagances that eventually helped investigators trace the money.
+
+A joint FBI–HHS task force built the case through years of surveillance and financial records, and Esformes was arrested in 2016 along with several co-defendants, including doctors and a hospital administrator who pleaded guilty and cooperated against him. At trial in 2019, a jury convicted Esformes on twenty of the thirty counts against him, including conspiracy, health care fraud, and money laundering, while deadlocking on the remaining counts. In April 2019, he was sentenced to 20 years in prison and ordered to pay roughly $44 million in restitution and forfeiture — among the harshest sentences ever handed down in a health care fraud case.
+
+Esformes served just over four years of that sentence before President Trump commuted it in December 2020, following a clemency petition backed by the Aleph Institute, a Jewish prisoner-advocacy organization with ties to Trump son-in-law Jared Kushner's family. The commutation ended his prison term but left the underlying conviction, and the multimillion-dollar financial penalties, in place — and it did not resolve the counts the original jury had deadlocked on, which the Justice Department still intended to retry. That retrial never happened in full: in February 2024, Esformes pleaded guilty to a single remaining count of conspiracy to commit health care fraud, and was sentenced to time served, formally closing out a case that had run for nearly eight years from his first arrest to its final resolution.
+
+Esformes's scheme is a stark illustration of a pattern that keeps surfacing in health care and addiction-treatment fraud: recruiters paid to deliver vulnerable patients, care decisions made to maximize billing rather than to help anyone get well, and, in the worst cases, patients' own dependency used as leverage to keep the fraud running. The same patient-brokering mechanic — cash or kickbacks paid per referral, unnecessary services layered on top, and a financial incentive to keep patients sick rather than heal them — continues to drive fraud in addiction-treatment and sober-living facilities across the country today, making it one of the clearest reminders that a "trusted" health care provider's business model is worth understanding before a vulnerable family member is referred anywhere.`,
+    sourceUrl: 'https://www.justice.gov/usao-sdfl/pr/south-florida-health-care-facility-owner-sentenced-20-years-prison-role-largest-healt-0',
+  },
 ];
 
 // Practical "how it works / red flags / what to do" guides covering the
@@ -15853,6 +15904,42 @@ const SEED_SCAMS: SeedScam[] = [
     alertLevel: 'high',
     sources: ['North Dakota Insurance Department'],
     sourceUrl: 'https://www.insurance.nd.gov/news/godfread-issues-warning-fraudulent-substance-use-treatment-centers',
+  },
+  {
+    name: 'Fake ADOL Fraud-Reporting Website Scam',
+    slug: 'alabama-fake-adol-fraud-reporting-website-scam',
+    description:
+      'Scammers send Alabamians text messages directing them to a lookalike Alabama Department of Labor website ending in ".com" rather than the real agency\'s ".gov" domain, framed as a portal for reporting suspected unemployment-benefits identity theft. The inverted pretext, posing as the place to report fraud rather than a place to claim a benefit, exploits real, widespread anxiety after a wave of pandemic-era unemployment identity theft in the state, and the fake site is built to harvest the personal information a real victim would need to provide to actually report fraud. The Alabama Attorney General\'s Office confirmed the Alabama Department of Labor never communicates with claimants by text message, and that the real ADOL fraud-reporting channel is only reachable through the agency\'s own labor.alabama.gov domain.',
+    categorySlug: 'public-benefits-fraud',
+    country: 'US',
+    state: 'AL',
+    alertLevel: 'medium',
+    sources: ['Alabama Attorney General\'s Office'],
+    sourceUrl: 'https://www.alabamaag.gov/attorney-general-steve-marshall-warns-alabamians-of-phishing-scam-related-to-unemployment-benefits-fraud/',
+  },
+  {
+    name: 'Idaho Medicaid Provider Fraud at a Child Development Center',
+    slug: 'idaho-medicaid-provider-fraud-child-development-center',
+    description:
+      'The executive director of an Idaho nonprofit serving Medicaid participants with developmental disabilities billed Idaho Medicaid for services never provided to the children in the program. The Idaho Attorney General\'s Office prosecuted her under the state\'s Public Assistance Provider Fraud statute; she pleaded guilty and was sentenced to supervised probation, more than $150,000 in restitution to Idaho Medicaid, a fine, and community service and labor, and her guilty plea allows state health officials to suspend her Medicaid provider credentials. This is institutional insider fraud against a state benefit program with a named defendant and a concrete sentencing outcome, a reminder that families relying on Medicaid-funded developmental or disability services should watch for services being billed that their child never actually received.',
+    categorySlug: 'healthcare-fraud',
+    country: 'US',
+    state: 'ID',
+    alertLevel: 'high',
+    sources: ['Idaho Office of the Attorney General'],
+    sourceUrl: 'https://www.ag.idaho.gov/newsroom/attorney-general-labrador-announces-sentencing-of-kootenai-county-woman-for-public-assistance-provider-fraud/',
+  },
+  {
+    name: 'Kansas Corporation Commission Electric-Discount Impersonation Scam',
+    slug: 'kansas-corporation-commission-electric-discount-impersonation-scam',
+    description:
+      'A caller impersonating a Kansas Corporation Commission employee contacts electric utility customers offering a 30% discount on their bill, then asks for two things: the customer\'s Medicare or Medicaid eligibility information, and their credit card number, ostensibly to process a "refund." The Kansas Corporation Commission confirmed it received reports of the scheme and stated the caller is not an employee and is not affiliated with the agency in any way. Impersonating the state\'s actual utility-rate regulator, rather than the utility itself, while harvesting Medicare or Medicaid eligibility data alongside payment card details is a distinct pattern from a generic fake-utility-company customer-service call, and Kansans are advised to hang up and verify any claimed discount directly with their utility provider.',
+    categorySlug: 'utility-scams',
+    country: 'US',
+    state: 'KS',
+    alertLevel: 'medium',
+    sources: ['Kansas Corporation Commission'],
+    sourceUrl: 'https://kvoe.com/2024/10/31/kansas-corporation-commission-report-scam-effort/',
   },
 ];
 
