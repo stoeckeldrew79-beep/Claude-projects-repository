@@ -3669,7 +3669,7 @@ Chastain's case matters less for the dollar amount involved than for what it est
     sourceUrl: 'https://www.justice.gov/usao-sdny/pr/former-employee-nft-marketplace-sentenced-prison-first-ever-digital-asset-insider',
   },
   {
-    title: "Marcin Plichta and the Amber Gold Scheme That Toppled Poland's Aviation Minister and Shook Its Government",
+    title: "Marcin Plichta and the Amber Gold Scheme That Reached Poland's Prime Minister",
     slug: 'marcin-plichta-amber-gold-poland-pyramid-scheme',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
