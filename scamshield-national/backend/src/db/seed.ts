@@ -18796,6 +18796,64 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ["Indiana Attorney General's Office", 'WISH-TV', 'The Indiana Lawyer'],
     sourceUrl: 'https://events.in.gov/event/attorney-general-todd-rokita-secures-revocation-of-license-against-avon-real-estate-broker-who-defrauded-investors-of-millions',
   },
+  {
+    name: 'Treasure Valley Fake City Permit Invoice Scam',
+    slug: 'idaho-treasure-valley-fake-permit-invoice-scam',
+    description:
+      'Scammers scrape publicly available planning and zoning records from Treasure Valley cities, then email homeowners and contractors forged "invoices" for permit or inspection fees that mimic the real thing closely, using the city\'s actual logo, a real staff member\'s name, and the correct project address and contractor details pulled straight from the public file. The messages create urgency by warning that a project will be stalled or the permit voided if payment isn\'t sent immediately, and they push victims toward cryptocurrency or gift cards rather than a normal payment method. Idaho Attorney General Raúl Labrador and officials in Boise, Meridian, Nampa, and Caldwell issued a joint warning in June 2026 after the scheme hit planning departments across the region, noting the fraudulent emails typically arrive from a generic domain (such as one ending in "usa.com") rather than the city\'s actual ".gov" or municipal address. Cities stress they never demand wire transfers, crypto, or gift cards for permitting fees, and residents should call the planning department directly using a number looked up independently, never one listed in the email, before paying any permit invoice.',
+    categorySlug: 'government-impersonation',
+    country: 'US',
+    state: 'ID',
+    alertLevel: 'high',
+    sources: ["Idaho Attorney General's Office", 'Idaho Press', 'KIFI/LocalNews8'],
+    sourceUrl: 'https://www.ag.idaho.gov/newsroom/ag-labrador-and-cities-across-the-treasure-valley-warn-idaho-consumers-about-planning-and-zoning-fraud-scheme/',
+  },
+  {
+    name: 'Fortify Maine Homes Fake Eligibility Website Scam',
+    slug: 'maine-fortify-maine-homes-fake-eligibility-scam',
+    description:
+      'Fortify Maine Homes is a real state grant program, run through the Maine Bureau of Insurance, that will eventually help homeowners in select counties replace and reinforce roofs against severe weather, but scammers built lookalike websites — not hosted on maine.gov — that offer to "check eligibility," collect personal and financial information, or let applicants "get ahead in line" for a grant. Because public interest in the program is high and details about timing and enrollment are still rolling out, the fake sites exploit the resulting confusion to harvest data before the real application process has even opened. The Maine Bureau of Insurance issued a public warning in April 2026 stating flatly that its own site, www.maine.gov/pfr/insurance/fortify-maine, is the only place to find legitimate information about the program and that applications were not yet being accepted at all. Consumers should treat any non-maine.gov site claiming to process Fortify Maine Homes applications, or any request for an eligibility fee or personal data ahead of a real application window, as a scam.',
+    categorySlug: 'phishing',
+    country: 'US',
+    state: 'ME',
+    alertLevel: 'medium',
+    sources: ['Maine Bureau of Insurance', 'WABI-TV', 'NewsCenter Maine'],
+    sourceUrl: 'https://www.maine.gov/pfr/insurance/fortify-maine',
+  },
+  {
+    name: 'Unauthorized Crowdfunding Charity Page Scheme',
+    slug: 'alaska-unauthorized-crowdfunding-charity-pages-lawsuit',
+    description:
+      'Six national crowdfunding and donation platforms — GoFundMe, PayPal, Charity Navigator, JustGiving, Pledge, and Network for Good — allegedly used publicly available nonprofit data to auto-generate donation pages for more than a million charities, including several thousand in Alaska, without ever asking the charities\' permission, then solicited and collected donations through those pages. A donor searching for a specific Alaska nonprofit could land on one of these unauthorized pages believing it belongs to the charity, with no guarantee the group ever learns who gave, how much, or that the donation happened at all, and no visibility into what fees were taken before any money reaches the organization. Alaska Attorney General Stephen Cox\'s office filed suit in March 2026 alleging the practice violates Alaska\'s Unfair Trade Practices and Charitable Solicitations Acts, seeking removal of unauthorized pages and civil penalties. Before donating online, consumers should navigate directly to a charity\'s own official website or a platform the charity has publicly confirmed it uses, rather than trusting the top search result or a shared link, since a professional-looking donation page is no guarantee the listed charity authorized it or will ever see the money.',
+    categorySlug: 'charity-scams',
+    country: 'US',
+    state: 'AK',
+    alertLevel: 'medium',
+    sources: ["Alaska Department of Law — Office of the Attorney General", 'Alaska\'s News Source'],
+    sourceUrl: 'https://law.alaska.gov/press/releases/2026/031026-FinTech.html',
+  },
+  {
+    name: 'PlexCoin ICO Fraud',
+    slug: 'canada-plexcoin-ico-fraud',
+    description:
+      'Quebec promoter Dominic Lacroix and his partner Sabrina Paradis-Royer raised roughly $15 million from thousands of investors worldwide in 2017 through an initial coin offering for a cryptocurrency called PlexCoin, falsely promising returns of up to 1,354 percent in under a month with no real product behind the token. Quebec\'s securities regulator, the Autorité des marchés financiers, froze the pair\'s assets within weeks of the offering — the same case that prompted the U.S. Securities and Exchange Commission\'s first-ever ICO enforcement action, filed as an emergency action in December 2017. Lacroix was later jailed for violating the asset freeze by moving funds, and Quebec\'s Financial Markets Administrative Tribunal ultimately ordered him and Paradis-Royer to disgorge more than $4.5 million in ill-gotten gains plus a $1 million civil penalty each. The case is now a standard reference point for Canadian regulators warning that an ICO promising guaranteed, outsized returns is a securities offering like any other and needs to be registered.',
+    categorySlug: 'investment-fraud',
+    country: 'CA',
+    isHistorical: true,
+    sources: ['Autorité des marchés financiers (AMF)', 'U.S. Securities and Exchange Commission (SEC)'],
+    sourceUrl: 'https://lautorite.qc.ca/en/general-public/media-centre/news/fiche-dactualites/plexcoin-new-orders-issued-against-dominic-lacroix-sabrina-paradis-royer-and-several-individuals-institutions-and-businesses',
+  },
+  {
+    name: 'Canadian Instagram Crypto Extortion Scam',
+    slug: 'canada-instagram-crypto-extortion-scam',
+    description:
+      'A phishing email disguised as an Instagram security notice links to a convincing fake login page that harvests the victim\'s username and password, letting the fraudster lock the real account owner out entirely. Rather than demanding a ransom directly, the attacker tells the victim the only way to regain access is to film themselves promoting a cryptocurrency platform, then posts that video to the hijacked account along with fraudulent investment links, exposing it to the victim\'s own followers. The Canadian Anti-Fraud Centre warns that victims who comply are typically never given their account back regardless, and that followers who invest based on the video become secondary victims of the same scheme. Enabling multi-factor authentication and never entering Instagram credentials through a link in an unsolicited email are the CAFC\'s primary recommended defenses.',
+    categorySlug: 'account-takeover',
+    country: 'CA',
+    alertLevel: 'medium',
+    sources: ['Canadian Anti-Fraud Centre (CAFC)'],
+    sourceUrl: 'https://fcnb.ca/en/news-alerts/canadian-anti-fraud-centre-bulletin-social-media-crypto-extortion-scam',
+  },
 ];
 
 async function seedCategoriesAndScams() {
