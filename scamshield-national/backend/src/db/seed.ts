@@ -4951,20 +4951,6 @@ Thérèse Humbert was tried in 1903 and sentenced to five years' hard labor; her
     sourceUrl: 'https://en.wikipedia.org/wiki/Th%C3%A9r%C3%A8se_Humbert',
   },
   {
-    title: 'William "520 Percent" Miller and the Franklin Syndicate That Predated Ponzi by Twenty Years',
-    slug: 'william-miller-franklin-syndicate-ponzi',
-    author: 'ScamShield Editorial',
-    tags: ['notorious', 'notorious-scammer', 'historical'],
-    body: `In 1899, a 21-year-old former Sunday school teacher and low-level bookkeeping clerk named William F. Miller opened a Brooklyn investment office under the name the Franklin Syndicate, offering ordinary savers a return that sounded almost too good to question: 10 percent interest, paid weekly, on whatever they invested. Compounded, that worked out to roughly 520 percent a year, and the promise earned Miller the nickname that stuck to him for the rest of his life — "520 Percent" Miller. He told investors he had a secret arrangement with Wall Street brokers that let him trade on inside information about stock movements, an explanation vague enough to sound plausible and specific enough that few investors pressed for details.
-
-The Franklin Syndicate operated on the same structural trick that would later make Charles Ponzi famous two decades afterward: Miller paid the promised weekly returns to existing investors using cash collected from new investors, with no underlying trading generating any of it. As word spread through Brooklyn's working- and middle-class neighborhoods that Miller's investors really were getting paid on schedule, the syndicate grew explosively — by the fall of 1899 it had drawn in an estimated 13,000 investors and more than $1 million, worth well over $25 million today, most of it in small sums from people who could least afford to lose it. Behind Miller stood Robert A. Ammon, a lawyer who advised him on how to structure the operation and who took a large share of the incoming cash for himself.
-
-The scheme collapsed in November 1899 after New York newspapers began publishing exposés questioning how the syndicate could possibly sustain its payouts, triggering a panic among investors who rushed to withdraw their money all at once. On November 24, 1899, with the office besieged by creditors and no way to pay them, Miller fled to Montreal on Ammon's advice, while Ammon stayed behind controlling most of what remained of the stolen money. Once safely in Canada, Miller found that Ammon had little intention of sharing the proceeds — feeding him only enough money to survive and a small weekly allowance for his wife and child, while using the threat of cutting off even that support to keep Miller quiet.
-
-Extradited and convicted, Miller was sentenced in 1900 to ten years in Sing Sing Prison. In 1903, after years of getting almost nothing from the lawyer who had orchestrated his own betrayal, Miller agreed to testify against Ammon, whose trial that June ended in a conviction for receiving stolen property and a sentence of at least four years at hard labor. Miller was pardoned after his cooperation and, by most accounts, spent the rest of his life running a small grocery store on Long Island, a quiet ending for a man whose Brooklyn storefront had, for a few months in 1899, been paying out fake 520 percent returns to thousands of investors nearly twenty years before Charles Ponzi ran the same trick under his own name.`,
-    sourceUrl: 'https://content.time.com/time/specials/packages/article/0,28804,2104982_2104983_2104992,00.html',
-  },
-  {
     title: 'Marthe Hanau and La Gazette du Franc: The Ponzi Scheme That Rocked 1920s Paris',
     slug: 'marthe-hanau-gazette-du-franc-ponzi',
     author: 'ScamShield Editorial',
