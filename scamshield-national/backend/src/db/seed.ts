@@ -1748,10 +1748,9 @@ Haddow was finally sentenced in July 2026 to 54 months in prison and ordered to 
     title: 'Sunny Balwani: The Theranos President Who Got a Longer Sentence Than Elizabeth Holmes',
     slug: 'sunny-balwani-theranos-coo-fraud',
     author: 'ScamShield Editorial',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Palo_Alto,_California_(City_Hall)_2004.jpg?width=1200',
-    coverImageCredit: 'Photo: Nader Moussa (CC BY-SA 3.0)',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Sunny_Balwani_at_Stanford_University.jpg?width=1200',
+    coverImageCredit: 'Photo: Glenn Fawcett / U.S. Department of Defense (public domain)',
     coverImagePosition: 50,
-    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Theranos and its founder Elizabeth Holmes are already covered elsewhere in this collection, but Ramesh "Sunny" Balwani — the company's President and COO from 2009 to 2016 — was tried separately from Holmes and, in some ways, was found to bear even more direct responsibility for the fraud. Balwani ran Theranos's day-to-day lab operations and the retail rollout inside Walgreens stores, and personally delivered the financial projections that convinced investors to pour money into the company: that Theranos would generate more than $100 million in revenue and break even by 2014, and approach $1 billion in revenue by 2015. None of it was true, and prosecutors argued Balwani knew it.
 
@@ -4096,6 +4095,10 @@ The "wire store" itself is largely a museum piece today, but its core promise �
     slug: 'william-duer-panic-of-1792',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Federal_Hall_front.jpg?width=1200',
+    coverImageCredit: 'Photo: Hu Totya (CC BY-SA 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `William Duer was about as close to the center of American financial power as a private citizen could get in 1789: a signer of the Articles of Confederation, a member of the Continental Congress, and the first assistant secretary of the newly created U.S. Treasury under Alexander Hamilton. That last job gave him early, detailed knowledge of exactly how the young federal government intended to price and restructure its debt — knowledge he kept trading on for his own account even after leaving the post, at a time when the ban on that kind of self-dealing was more a matter of honor than of enforceable law.
 
 Duer teamed up with a fellow speculator, Alexander Macomb, to try to corner the market in Bank of New York and Bank of the United States stock, borrowing heavily — often at extortionate short-term interest rates from small lenders across New York who trusted his reputation — to keep buying shares and drive prices ever higher. The scheme depended entirely on a rising market and a continuous supply of new credit to refinance what he already owed. Neither held. In March 1792, Duer and Macomb defaulted on loan payments they could no longer cover, and the securities they had piled into crashed, wiping out banks, merchants, and ordinary New Yorkers who had lent Duer money directly.
@@ -4141,6 +4144,10 @@ The case took an extraordinary final turn in July 2025, when the U.K. Supreme Co
     slug: 'richard-whitney-nyse-president-embezzlement',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Sing_Sing_prison_aerial_photo_1920.JPG?width=1200',
+    coverImageCredit: 'Photo: Library of Congress, Bain Collection (public domain)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Richard Whitney was about as establishment as Wall Street got. A Groton- and Harvard-educated broker from an old New England family, he served as president of the New York Stock Exchange from 1930 to 1935 and spent the early years of the Depression as the Exchange's public face, testifying before Congress that Wall Street could police itself and needed no new federal regulator looking over its shoulder. His younger brother George was a senior partner at J.P. Morgan & Co., and Richard traded on that name and pedigree for decades. Behind the pedigree, his own brokerage firm, Richard Whitney & Co., was quietly losing money for years, propped up first by a failed bet on apple-brandy manufacturing in New Jersey and then by an ever-widening circle of loans from friends, family, and institutions that trusted him precisely because of who he was.
 
 By the mid-1930s Whitney was borrowing to cover old borrowing, and when legitimate lenders ran out, he started simply taking what wasn't his. He pledged securities held in trust for his father-in-law's estate as collateral for his own loans. As treasurer of the New York Yacht Club, he looted its funds. Most damning of all, as a director of the New York Stock Exchange itself, he stole bonds out of the Exchange's Gratuity Fund — money set aside to pay death benefits to the families of deceased members — to keep his firm afloat. Investigators later tallied more than $30 million in loans Whitney had negotiated in his final years, a staggering sum built on collateral that, again and again, turned out not to be his to pledge.
@@ -4269,6 +4276,10 @@ Freed, Morse went straight back to speculative ventures, and during World War I 
     slug: 'charles-deville-wells-monte-carlo-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Monte_Carlo_Casino.jpg?width=1200',
+    coverImageCredit: 'Photo: Wigulf (CC BY 2.5)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `In the summer of 1891, an English gambler calling himself Charles Deville Wells sat down at the roulette tables of the Monte Carlo casino and won so heavily, so repeatedly, that the casino ran out of cash at his table eleven times — a feat casino tradition marks by draping the table in a black cloth until reserves can be replenished, known ever since as "breaking the bank." He returned that November and did it again. His winnings across both trips are estimated at roughly £40,000, an enormous sum at the time, and his exploits inspired the music hall hit "The Man Who Broke the Bank at Monte Carlo," turning Wells into an international celebrity almost overnight.
 
 What the song's audiences didn't know was that Wells was already a career con artist. Before Monte Carlo, he had spent years patenting and promoting inventions that mostly didn't work — including a device he claimed would make ship engines dramatically more fuel-efficient — and using the patents to solicit investment from backers who never saw a return. His sudden fame at the roulette table handed him something he'd never had: a plausible cover story for spending other people's money. He used the celebrity to raise fresh investment for a "Vaporized Fuel Syndicate" built around the same fraudulent fuel-efficiency patents, and lived lavishly off investors' cash, including the purchase of a steam yacht.
@@ -4363,6 +4374,10 @@ Teapot Dome endures as a case study in how corruption in public office often unr
     slug: 'wu-ying-bense-ponzi-scheme',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Hangzhou_Skyline_on_West_Lake.jpg?width=1200',
+    coverImageCredit: 'Photo: Yinweichen (CC BY-SA 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Wu Ying built Bense Holding Group into a sprawling business empire in Zhejiang province — hair salons, real estate, and other ventures — and by her mid-twenties was being celebrated in Chinese media as one of the country's richest self-made women, at one point ranked among the wealthiest people in China by the Hurun Report. Behind that success, prosecutors later showed, Wu was raising enormous sums from private investors between 2005 and 2007 by promising extraordinary returns, reportedly as high as 80% a year, on money that was supposedly being invested in her businesses. In reality, much of the new money coming in was being used to repay earlier investors and cover Wu's own mounting debts and spending — the same structural core as a Ponzi scheme, dressed up as the kind of informal private lending that was, and remains, common among cash-strapped entrepreneurs in Zhejiang's shadow-banking economy.
 
 Wu was arrested in 2007, and prosecutors charged her under China's "fund-raising fraud" statute, alleging she had defrauded 11 individuals and companies of roughly 770 million yuan (then about $122 million) through the scheme. In December 2009, an intermediate court in Jinhua sentenced her to death, and Zhejiang's high court upheld the sentence in January 2012 — a punishment technically available under Chinese law at the time for large-scale financial fraud, but rarely imposed at that scale on a nonviolent, first-time economic offender.
@@ -4409,6 +4424,10 @@ The Koskotas affair endures as one of the starkest examples of how a single embe
     slug: 'viktor-kozeny-pirate-of-prague-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Prague_skyline_view.jpg?width=1200',
+    coverImageCredit: 'Photo: MurderousPass (CC0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Viktor Kožený returned to his native Czechoslovakia in 1990, just after the fall of communism, as the country began converting state-owned industry into private hands through a voucher privatization program that let ordinary citizens exchange government-issued vouchers for shares in newly privatized companies. Kožený founded Harvard Capital and Consulting — a name chosen for its prestige association, with no actual connection to Harvard University — and ran an aggressive advertising campaign promising investors a tenfold return if they signed their vouchers over to his funds instead of choosing shares themselves. It worked spectacularly: by 1992 hundreds of thousands of Czechs and Slovaks had joined, eventually growing to more than 800,000 participants, drawn in part by an initial round of payouts in 1993 that made the promise look real.
 
 Behind the marketing, Kožený was systematically transferring the funds' most valuable assets out to companies he personally controlled. After a series of mergers and reorganizations through the mid-1990s, the funds' remaining assets were sold off to one of Kožený's own holding companies for roughly 10.6 billion Czech crowns — despite being carried on the books at nearly double that value — leaving the hundreds of thousands of ordinary investors who had trusted him with a fraction of what they were promised. He left the Czech Republic for the Bahamas in 1994, just as investigators began closing in, and never returned.
@@ -4460,6 +4479,10 @@ Yerkes doesn't fit neatly into a single fraud case the way a Ponzi scheme does �
     slug: 'albert-grant-emma-silver-mine-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/1904-11-26_front_Leicester_Square_London.jpg?width=1200',
+    coverImageCredit: 'Photo: public domain (published before 1931)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Albert Grant was born Abraham Gottheimer in the Dublin slums in 1831, the son of an impoverished peddler, and reinvented himself so completely — new name, new social circle, new class — that by his mid-thirties he was a Conservative Member of Parliament with a country estate. The engine behind that rise was company promotion: through the 1860s and 1870s, Grant built and sold shares in dozens of companies backed by little more than an expensively printed prospectus, favorable (often paid-for) newspaper coverage, and a sales pitch aimed at investors — clergy and widows among them — who had money to place and no practical way to verify what they were buying.
 
 His most notorious venture was the 1871 flotation of the Emma Silver Mining Company, built around a mine in Little Cottonwood Canyon, Utah, that its American promoters — including a sitting U.S. senator — already suspected was running out of ore. Grant helped float the company on the London Stock Exchange at a valuation of roughly £1 million and personally pocketed about £200,000 in commission for selling the shares to British investors. Within a year the mine's silver was largely exhausted, the share price collapsed, and a London lawsuit that dragged on for years eventually forced Grant and his fellow promoters to repay more than £180,000 to the company — a partial reckoning that still left most investors far short of what they had put in.
@@ -4476,6 +4499,10 @@ Grant became notorious enough in his own lifetime that novelist Anthony Trollope
     slug: 'mark-hofmann-mormon-document-forger-bombings',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Salt_Lake_Temple,_Utah_-_Sept_2004-2.jpg?width=1200',
+    coverImageCredit: 'Photo: Diliff (CC BY 2.5)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Mark Hofmann grew up in a devout Mormon family in Salt Lake City and, from his teenage years, was fascinated with rare documents and how they were made — he later claimed he had forged a coin as a teenager and gotten away with it. By the late 1970s he had turned that skill into a business, presenting himself to the Church of Jesus Christ of Latter-day Saints and to private collectors as a dealer with an uncanny knack for turning up long-lost pieces of Mormon history.
 
 His most consequential creation was the "Salamander Letter," a purported 1830 letter from early Mormon witness Martin Harris that recast the church's founding story — describing a white salamander, rather than an angel, guiding Joseph Smith to the golden plates. Hofmann sold it in 1984 for $40,000 to businessman Steven Christensen and Gary Sheets, who intended to donate it to the church; the letter set off a controversy inside Mormon scholarship precisely because it was subversive enough to feel authentic. Over roughly five years, church archivists and private collectors bought at least 446 Hofmann forgeries in total — letters, deeds, even a supposed pre-Mayflower "Oath of a Freeman" — worth well over a million dollars combined.
@@ -4680,6 +4707,10 @@ Wild was hanged at Tyburn on May 24, 1725, before a large and hostile crowd that
     slug: 'marconi-scandal-insider-trading-1912',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Marconi_wireless_station_and_aerials_(Rankin_Kennedy,_Electrical_Installations,_Vol_V,_1903).jpg?width=1200',
+    coverImageCredit: 'Photo: public domain (published 1903)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `In the spring of 1912, Britain's Liberal government was negotiating a contract with the Marconi Wireless Telegraph Company to build a chain of imperial wireless stations linking London to the rest of the empire. The company on the British side of that deal, Marconi's Wireless Telegraph Company, was chaired by Godfrey Isaacs — whose brother, Rufus Isaacs, happened to be the government's Attorney General, one of the most senior law officers in the country. Godfrey also ran a related American firm, the Marconi Company of America, which had no direct stake in the British government contract but whose share price stood to rise sharply on the news of it, since the two companies were widely and reasonably assumed by the public to be the same business.
 
 In April 1912, before the British contract had been publicly announced, Godfrey Isaacs offered his brother Rufus a block of American Marconi shares. Rufus turned some down but bought 10,000 himself, then sold half to Chancellor of the Exchequer David Lloyd George and passed more to Liberal Chief Whip Alexander Murray and to the Master of Elibank; all three ministers bought in at around £2 a share days before the stock's public listing, then watched it climb toward £4 as the government contract news spread. When rumors of ministerial share-dealing reached Parliament that summer, Isaacs and Lloyd George gave a public denial so narrowly worded — insisting they had never touched shares in "the Marconi Company," meaning only the British firm — that it was later seen as deliberately misleading about their very real dealings in its American affiliate.
@@ -4829,6 +4860,10 @@ What ultimately became of Thompson himself is thinly documented — contemporary
     slug: 'kakuei-tanaka-lockheed-bribery-scandal',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/National_Diet_Building_-_Tokyo,_Japan_-_DSC06736.JPG?width=1200',
+    coverImageCredit: 'Photo: public domain (CC0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Kakuei Tanaka rose from a poor rural upbringing with no university education to become Japan's prime minister in 1972, a self-made political operator known for both his construction-industry fortune and his mastery of the money politics that ran Japan's ruling Liberal Democratic Party. He was forced to resign in 1974 after Japanese press exposés detailed how he'd used political funds to enrich himself personally, but he remained the country's most powerful political kingmaker from behind the scenes — which made it all the more explosive when, two years later, his name surfaced in a bribery scandal that had begun on the other side of the Pacific.
 
 In February 1976, U.S. Senate hearings into Lockheed Corporation revealed the American aerospace giant had paid roughly $22 million in bribes to foreign officials across multiple countries to win aircraft sales, and Japan was named as one of the destinations. Investigators traced payments through Lockheed's Japanese sales agent, the trading house Marubeni, to government and airline officials who could steer All Nippon Airways toward buying Lockheed's L-1011 TriStar over competing jets. On July 27, 1976, Tokyo prosecutors arrested Tanaka, alleging he had personally accepted 500 million yen — roughly $2.1 million — funneled through Marubeni in exchange for using his influence to push the TriStar purchase through.
@@ -4913,6 +4948,10 @@ Romand was tried in 1996, convicted of the murders, and sentenced to life impris
     slug: 'charles-van-doren-twenty-one-quiz-show-scandal',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Columbia_University_01.jpg?width=1200',
+    coverImageCredit: 'Photo: Momos (CC BY-SA 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `When NBC's quiz show Twenty-One premiered in 1956, it nearly failed instantly — its first broadcast produced such a lopsided, boring contest that sponsor Geritol and producers Jack Barry and Dan Enright decided the show needed a compelling villain and hero, and they had both the means and the willingness to manufacture one. The producers fed contestants questions and answers in advance, scripted their on-air hesitations and brow-mopping for suspense, and told them exactly when to win and when to lose, all to keep viewers hooked on a fixed morality play dressed up as a test of knowledge.
 
 The producers' first "star," Herbert Stempel, a blunt, unglamorous City College of New York student, was built up as the champion audiences were meant to root against, then instructed to intentionally answer an easy question wrong — naming the wrong Best Picture winner of 1955 — so the show could crown a more telegenic winner. That winner was Charles Van Doren, an instructor at Columbia University from one of America's most respected literary families; his father, Mark Van Doren, had won the Pulitzer Prize for poetry. Fed answers and staging notes by Enright, Van Doren won more than $129,000 over fourteen episodes, became a national celebrity, and was hired as a regular contributor on NBC's Today program.
