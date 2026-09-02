@@ -14515,6 +14515,41 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Bundesnetzagentur'],
     sourceUrl: 'https://www.bundesnetzagentur.de/DE/Vportal/TK/Aerger/Faelle/Ping/start.html',
   },
+  {
+    name: 'Kentucky Fake Medical Marijuana Certification Clinic Scam',
+    slug: 'kentucky-fake-medical-marijuana-certification-clinic',
+    description:
+      'An out-of-state operator advertising as "Kentucky Cannabis Clinic" opened a storefront charging patients nearly $150 for a medical marijuana "certification," billed as a video-chat visit with a doctor, despite no doctor actually working on-site and the certification not corresponding to any real product under Kentucky\'s Medical Cannabis Program. A local news investigation traced the business\'s listed phone number to an out-of-state operator and found the company would not explain what patients actually received for their payment, quietly editing misleading language on its site only after being contacted by reporters. Patients seeking a real medical cannabis card are advised to register only through Kentucky\'s official Medical Cannabis Program portal, not a walk-in storefront or ad promising a fast certification.',
+    categorySlug: 'healthcare-fraud',
+    country: 'US',
+    state: 'KY',
+    alertLevel: 'medium',
+    sources: ['WHAS11 (Louisville)', 'Better Business Bureau'],
+    sourceUrl: 'https://www.whas11.com/article/news/verify/misleading-medical-marijuana-cards-price-kentucky-cannabis-gov-andy-beshear-better-business-bureau-attorney-general/417-05e0001a-81e1-499b-898a-bcac18074bce',
+  },
+  {
+    name: 'Utah "Done-For-You" Amazon Business-Opportunity Scam',
+    slug: 'utah-done-for-you-amazon-business-opportunity-scam',
+    description:
+      'A Utah-based seller offered "done-for-you" Amazon storefront packages, charging victims $5,000 to $20,000 in upfront "consulting fees" plus several thousand dollars more in "inventory costs" per product line, promising thousands of dollars a month in passive profit within 60 days along with a full refund if the store wasn\'t profitable within a year. The Utah Division of Consumer Protection\'s investigation found no victim ever received a functioning, profitable store, no refunds were ever issued despite the guarantee, and bank records showed the money was instead diverted to the seller\'s personal cryptocurrency purchases and credit card debt. A Utah court ordered the operator to pay $7.9 million in restitution and permanently barred him from telemarketing or offering business opportunities in the state; regulators advise treating any "guaranteed passive income" e-commerce pitch requiring a large upfront fee as a red flag regardless of who is selling it.',
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    state: 'UT',
+    alertLevel: 'high',
+    sources: ['Utah Division of Consumer Protection', 'KSL.com'],
+    sourceUrl: 'https://www.ksl.com/article/51421111/utah-man-ordered-to-pay-up-to-79m-for-running-e-commerce-scam',
+  },
+  {
+    name: 'FIFA World Cup 2026 Spoofed Ticket and Website Scam',
+    slug: 'fifa-world-cup-2026-spoofed-ticket-website-scam',
+    description:
+      'Ahead of and during the 2026 FIFA World Cup, hosted across the US, Canada, and Mexico, scammers built dozens of spoofed websites cloning FIFA\'s official branding, ticket-purchase flow, and even fake employment or vendor application pages to harvest fans\' names, addresses, phone numbers, and banking details. The FBI identified a financially motivated group it dubbed "GHOST STADIUM" running the scheme across more than 300 domains, naming 36 specific spoofed FIFA sites in a May 2026 advisory, with malicious online advertising as the main way victims found the fake pages. The FBI advises buying tickets only through FIFA\'s official site or an authorized resale partner, never a link from an ad or unsolicited message, and verifying any "FIFA" job or vendor offer directly through FIFA\'s own careers or procurement pages before providing any personal or financial information.',
+    categorySlug: 'online-shopping-scams',
+    country: 'US',
+    alertLevel: 'high',
+    sources: ['Federal Bureau of Investigation (FBI) Internet Crime Complaint Center (IC3)'],
+    sourceUrl: 'https://www.ic3.gov/PSA/2026/PSA260527',
+  },
 ];
 
 async function seedCategoriesAndScams() {
