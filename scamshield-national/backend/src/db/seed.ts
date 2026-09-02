@@ -6250,6 +6250,58 @@ The most effective prevention step doesn't require watching for anything at all:
 
 If you find signs your child's identity has already been used, go to IdentityTheft.gov, the FTC's dedicated recovery site, which supports reports of minor identity theft and generates a personalized, step-by-step recovery plan. Contact each of the three credit bureaus directly to check whether a credit file already exists in your child's name — it shouldn't, until they're an adult — and dispute any fraudulent accounts you find. Report the scam to the FTC at ReportFraud.ftc.gov.`,
   },
+  {
+    title: 'Crypto Wallet Drainer Scams: How Signing One Transaction Can Empty Your Wallet',
+    slug: 'crypto-wallet-drainer-scam-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'wallet-drainer-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Creating-Atala_PRISM-crypto_wallet-seed_phrase.png?width=1200',
+    coverImageCredit: 'Photo: FlippyFlink (CC BY-SA 4.0)',
+    coverImagePosition: 50,
+    sourceUrl: 'https://www.ic3.gov/PSA/2022/PSA220817',
+    body: `A "wallet drainer" scam doesn't ask for your password or your seed phrase directly — it asks you to click "Connect Wallet" and approve a transaction, something crypto users do dozens of times a week without a second thought. The trap is baked into what that approval actually authorizes. Scammers build convincing fake websites for NFT mints, token airdrops, or "claim your rewards" pages, often promoted through hacked verified social media accounts, compromised Discord servers, or ads that appear high in search results. The site prompts a wallet connection, then a signature request that looks routine but is actually a broad, often unlimited approval letting the site's smart contract move tokens out of the wallet whenever it wants — sometimes immediately, sometimes hours or days later to avoid raising suspicion.
+
+What makes this different from a stolen password is that the victim's private keys are never compromised at all; the wallet itself signed away permission, legitimately, to a contract controlled by criminals. That's also why it's so hard to reverse: there's no "unauthorized login" for an exchange or wallet provider to flag, because the transaction was authorized by the real owner, even though they were deceived about what they were authorizing. A single successful drain can empty every token and NFT a wallet holds within seconds, and because blockchain transactions are irreversible by design, there's no bank to call for a chargeback.
+
+Red flags: a wallet-connect prompt that follows an urgent, time-limited pitch ("mint ends in 10 minutes," "first 500 claims only"); a signature request you're asked to approve quickly without reading; a link from a compromised or unofficial account, even one that used to be trustworthy; and any site offering free tokens, refunds, or "support" that requires connecting a wallet holding real assets rather than a project's own official minting page.
+
+Protect yourself by using a separate "burn" wallet with minimal funds for minting or connecting to unfamiliar sites, never approving a transaction you don't fully understand (revoke.cash and similar tools let you review and cancel standing token approvals), and treating any unsolicited DM or comment offering crypto rewards as fraudulent by default. If you're drained, use a token approval checker to revoke any remaining permissions immediately from a fresh wallet, and report the incident to the FBI's IC3 (ic3.gov) — recovery is rare, but reporting helps track the pattern.`,
+  },
+  {
+    title: 'Discord and Gaming Account Scams: What Targets Kids and Teens Online',
+    slug: 'discord-gaming-account-scam-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'gaming-scam', 'discord-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Gamer_at_Gamescom_2015_(20430203215).jpg?width=1200',
+    coverImageCredit: 'Photo: Sergey Galyonkin (CC BY-SA 2.0)',
+    coverImagePosition: 40,
+    // representative photo — replace with an exact match if found
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2023/07/scammers-are-targeting-online-gamers',
+    body: `Gaming platforms and Discord servers are where a lot of kids and teens spend their social lives, and scammers follow the audience. The pitches are built specifically for that world: a DM offering a "free Discord Nitro" gift that actually leads to a phishing page cloned to look identical to Discord's real login screen, harvesting the account's session token the moment credentials are entered; a "free V-Bucks," "free Robux," or in-game currency generator that asks the player to log in on a third-party site or complete a survey that installs malware or steals stored payment info; and fake game cheats, mod downloads, or "aimbot" tools that quietly install password-stealing malware alongside whatever they claim to do.
+
+A related pattern targets item and account trading directly: a stranger in a server offers to "boost" an account's rank for payment, or proposes a skin or item trade that requires the victim to send first, or sends first and then reverses the payment through a chargeback once the item has already changed hands. Because gaming and Discord accounts are frequently linked to real payment methods, saved card details, and a young person's only email address, a single stolen login can cascade into real financial loss and identity exposure well beyond the game itself.
+
+What makes kids and teens a specific target isn't naivety so much as unfamiliarity with how account takeovers work and a trust in online peer communities that adults are often more skeptical of — plus the platforms themselves genuinely do run real giveaways and promotions sometimes, which gives cover to fake ones. A cloned login page can be pixel-perfect; the giveaway itself is what's fake, not the website's appearance.
+
+Practical defenses: enable two-factor authentication on gaming and Discord accounts (an authenticator app, not just SMS), never enter account credentials on any site reached through a DM or in-server link, and treat "free" premium currency, skins, or Nitro that requires logging in elsewhere as fraudulent by default — real platforms distribute promotions inside their own app, not through third-party claim pages. Parents can also periodically check which third-party sites are authorized to access a child's gaming or Discord account and remove anything unrecognized. If an account is compromised, use the platform's official account-recovery process immediately, change the password (and the password on any other account reusing it), and report the scam to the platform and, for financial loss, to the FTC at ReportFraud.ftc.gov.`,
+  },
+  {
+    title: 'Telecommunications Relay Service Fraud: How Scammers Exploit Relay Calls to Target Deaf and Hard-of-Hearing Communities and the Businesses on the Other End of the Line',
+    slug: 'ip-relay-service-fraud-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'relay-service-fraud'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/A_Video_Relay_Service_session_helping_a_Deaf_person_communicate_with_a_hearing_person_via_a_Video_Interpreter_%28sign_language_interpreter%29_and_a_videophone_DSC0051c.jpg?width=1200',
+    coverImageCredit: 'Photo: SignVideo, London, UK (CC BY-SA 4.0)',
+    coverImagePosition: 50,
+    sourceUrl: 'https://www.fcc.gov/consumers/guides/internet-protocol-ip-relay-service',
+    body: `Telecommunications relay services (TRS) — including IP Relay (text-based, over the internet) and Video Relay Service (VRS, using sign language interpreters) — exist to let Deaf, hard-of-hearing, and speech-disabled people make ordinary phone calls, with a communications assistant relaying the conversation between typed or signed language and spoken language in real time. It's a legally protected, FCC-mandated service, and by federal rule the assistant must relay every call exactly as it comes, without judgment, refusal, or any ability to flag a call as suspicious to the person on the other end.
+
+That neutrality, essential for the service's legitimate purpose, is also exactly what fraudsters have exploited for two decades. A criminal — often based overseas, with no hearing or speech disability at all — places relay calls to retailers, banks, or private individuals, using the free, anonymous, text-to-voice pathway to run classic fraud scripts: negotiating a purchase with a stolen credit card, convincing a seller to ship merchandise before payment clears, or running fake-check and romance-scam money requests. Because the call arrives through a relay operator, the person on the other end often can't verify who they're really speaking with the way they could on a normal call, and because the service is specifically designed to be judgment-free, businesses have historically been reluctant to refuse relay calls outright for fear of discriminating against legitimate Deaf callers, which scammers count on.
+
+This creates two distinct groups of victims: the businesses and individuals defrauded through relay calls they had every legal reason to accept, and — less visibly — the Deaf and hard-of-hearing community itself, whose access to an essential communication tool has periodically been threatened by proposals to restrict or more heavily screen relay calls in response to the fraud, along with the reputational harm of an accessibility service becoming associated with scams it exists independent of.
+
+If you receive a relay call: treat it exactly as you would any other unfamiliar caller — verify identity and payment through the same checks you'd apply to a voice call (a callback to a known number, an independently verified account, confirmed cleared payment before shipping goods), never faster or looser simply because the call came through relay. Relay users themselves should know that a legitimate business, bank, or agency cannot require you to prove you're not a scammer just because your call arrives through TRS, and the Federal Trade Commission and FCC recommend reporting fraudulent relay-based calls to the FTC (ReportFraud.ftc.gov) and to the FCC's Consumer Complaint Center, which tracks relay-specific fraud patterns separately from general phone scams.`,
+  },
 ];
 
 async function seedArticles(articles: SeedArticle[], label: string) {
