@@ -18319,6 +18319,30 @@ const SEED_SCAMS: SeedScam[] = [
     isHistorical: true,
     firstRecorded: '2018-03-15',
   },
+  {
+    name: 'Fitzgerald, Georgia Fake Insurance Policy Scheme',
+    slug: 'fitzgerald-georgia-fake-insurance-policy-scheme',
+    description:
+      "Two agents at Rutherford Insurance Agency in Fitzgerald, Georgia allegedly took customers' monthly premium payments, sometimes in cash, for auto and property coverage but never forwarded the money to any actual insurer, leaving policyholders unknowingly uninsured — some only discovered it after a wreck or claim revealed no policy had ever existed. A joint investigation by the Ben Hill County Sheriff's Office, the Fitzgerald Police Department, and the Georgia Insurance Commissioner's Office led to the November 2025 arrest of Michelle \"Allie\" Joiner on insurance fraud and elder exploitation counts and Angela Krause on multiple insurance fraud counts, after dozens of area residents reported paying for coverage that turned out not to exist. The Georgia Office of Commissioner of Insurance and Safety Fire maintains a free online license lookup so consumers can confirm an agency and agent are actually licensed before handing over a premium, and recommends always getting a copy of the actual policy declarations page directly from the insurer rather than relying on a receipt from the agent.",
+    categorySlug: 'insurance-fraud',
+    country: 'US',
+    state: 'GA',
+    alertLevel: 'high',
+    sources: ['WALB News (Fitzgerald, GA)', 'Georgia Office of Commissioner of Insurance and Safety Fire'],
+    sourceUrl: 'https://www.walb.com/2025/11/19/south-ga-insurance-agents-arrested-insurance-fraud-exploitation-elderly/',
+  },
+  {
+    name: 'Vermont Office of Professional Regulation Impersonation Phishing',
+    slug: 'vermont-opr-impersonation-phishing',
+    description:
+      "Scammers are emailing Vermont-licensed professionals and small businesses from addresses spoofed to look official, claiming to write on behalf of the Enforcement Unit within the Vermont Secretary of State's Office of Professional Regulation about a pending investigation or license violation, and pushing recipients to click a link or reply with sensitive information. The Secretary of State's Office confirms the messages are not legitimate, noting telltale signs including sender addresses that don't end in the official @vermont.gov domain, embedded links that lead to Google forms or other non-government sites instead of the state's own portal, and misspellings — including of the word \"Vermont\" itself. The office is now displaying a standing warning across its OPR web pages and advises anyone who gets a suspicious email or call claiming to be from a Vermont state agency to avoid clicking links or replying, and instead verify it by contacting the agency directly using contact information from its official website.",
+    categorySlug: 'government-impersonation',
+    country: 'US',
+    state: 'VT',
+    alertLevel: 'medium',
+    sources: ['Vermont Secretary of State — Office of Professional Regulation'],
+    sourceUrl: 'https://sos.vermont.gov/opr/',
+  },
 ];
 
 async function seedCategoriesAndScams() {
