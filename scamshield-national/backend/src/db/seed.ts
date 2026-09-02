@@ -15288,6 +15288,39 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['U.S. Attorney\'s Office, District of South Carolina (Department of Justice)'],
     sourceUrl: 'https://www.justice.gov/usao-sc/pr/29-plead-guilty-conspiracy-commit-wire-fraud-5m-covid-fraud-investigation',
   },
+  {
+    name: 'Australian Bulk Email Sextortion Scam',
+    slug: 'australian-bulk-email-sextortion-scam',
+    description:
+      'Mass, untargeted emails claim the sender has hacked the recipient\'s webcam or computer and recorded compromising footage while the recipient allegedly visited an adult website, threatening to send the material to the victim\'s contacts unless a cryptocurrency payment is made. To appear credible, the emails often include a real password or personal detail sourced from an old, unrelated data breach rather than any actual hack. The National Anti-Scam Centre confirmed it received hundreds of reports in a short window and stated there is no evidence the senders actually possess any compromising material, calling it a "fictional threat" distinct from the classic romance/webcam-luring sextortion pattern since no interaction or image-sharing by the victim ever occurs. Recipients are advised to simply delete the email, never pay, and never reply.',
+    categorySlug: 'sextortion',
+    country: 'AU',
+    alertLevel: 'high',
+    sources: ['National Anti-Scam Centre / Scamwatch (Australian Competition and Consumer Commission)'],
+    sourceUrl: 'https://www.scamwatch.gov.au/about-us/news-and-alerts/scam-alert-bulk-email-extortion-scam',
+  },
+  {
+    name: 'ASIC Business Name and Company Renewal Notice Scam',
+    slug: 'asic-business-name-company-renewal-notice-scam',
+    description:
+      'Scammers, sometimes operating as unauthorized third-party "renewal services," send Australian business and company name holders letters, emails, or texts styled to look like official ASIC renewal notices or invoices, often arriving well before the real 30-day renewal window and quoting fees inflated above ASIC\'s actual published rates. The notices use invoice-style formatting, urgent deadlines, and blended fee language to pressure business owners into paying unnecessary charges or clicking links that harvest payment details or install malware. ASIC confirms it only sends renewal emails from addresses ending in @asic.gov.au and states business owners never need to use a third party, since they can renew directly via their own ASIC Connect account or existing registered agent.',
+    categorySlug: 'government-impersonation',
+    country: 'AU',
+    alertLevel: 'medium',
+    sources: ['ASIC (Australian Securities and Investments Commission)'],
+    sourceUrl: 'https://www.asic.gov.au/about-asic/news-centre/news-items/unsolicited-business-name-renewal-and-company-review-notices',
+  },
+  {
+    name: 'Australian Storm/Disaster Chaser Insurance Repair Scam',
+    slug: 'australian-storm-disaster-chaser-insurance-repair-scam',
+    description:
+      'In the immediate aftermath of severe storms, floods, or hail events, unlicensed operators known as "storm chasers" or "disaster chasers" door-knock or approach damaged properties, falsely claiming to be sent by or acting on behalf of the homeowner\'s insurer, and pressure residents into signing on-the-spot repair contracts or handing over cash deposits. Work performed is often substandard, incomplete, or never done at all, and insurers frequently refuse to cover repairs the policyholder authorized without first notifying the insurer, leaving victims to cover the cost themselves. ASIC advises consumers to deal only with their insurer directly or an authorised, licensed broker, and to ask any door-knocking operator who they are acting for and whether they hold a licence, while Queensland\'s Office of Fair Trading separately warns residents to verify a trader\'s ABN and licence and notes a statutory cooling-off period applies to unsolicited contracts.',
+    categorySlug: 'insurance-fraud',
+    country: 'AU',
+    alertLevel: 'high',
+    sources: ['ASIC (Australian Securities and Investments Commission)', 'Queensland Government (Office of Fair Trading)'],
+    sourceUrl: 'https://www.asic.gov.au/about-asic/news-centre/articles/when-the-rubber-hits-the-road-making-insurance-claims-under-the-new-reforms/',
+  },
 ];
 
 async function seedCategoriesAndScams() {
