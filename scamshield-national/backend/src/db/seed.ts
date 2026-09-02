@@ -20053,6 +20053,43 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Bitdefender Labs', 'Federal Trade Commission (FTC)'],
     sourceUrl: 'https://www.bitdefender.com/en-us/blog/hotforsecurity/back-to-school-scam-report-2026',
   },
+  {
+    name: 'Michigan Nursing Home Chronic-Understaffing Medicaid Fraud (Pioneer Health Care Management)',
+    slug: 'michigan-pioneer-health-care-nursing-home-understaffing-medicaid-fraud',
+    description:
+      'Michigan Attorney General Dana Nessel sued nursing home owner Fahim Uddin, his companies Pioneer Health Care Management and Legacy Healthcare Management, and nine skilled-nursing facilities across Macomb, Oakland, Wayne, and Gratiot counties in July 2026, alleging they collected more than $111 million in Medicaid reimbursement for around-the-clock nursing and personal care while chronically and severely understaffing the homes, billing for services residents were never actually given. The civil complaint, filed under Michigan\'s Medicaid False Claim Act after a two-year investigation launched in October 2024, seeks the full $111 million back plus triple damages and civil penalties of $5,000 to $10,000 per violation, and describes residents left without basic care despite the facilities being paid full Medicaid rates as if adequately staffed. A nursing home\'s billing and its actual staffing levels are two different things a facility can misrepresent independently, so before placing a family member, check a specific facility\'s current staffing hours and inspection history on Medicare\'s Care Compare website and Michigan\'s own licensing database rather than relying on marketing materials or a tour alone, and report suspected neglect to Michigan\'s Attorney General Health Care Fraud Division or the state long-term care ombudsman.',
+    categorySlug: 'healthcare-fraud',
+    country: 'US',
+    state: 'MI',
+    alertLevel: 'high',
+    sources: ['Michigan Attorney General', 'CBS Detroit'],
+    sourceUrl: 'https://www.michigan.gov/ag/news/press-releases/2026/07/30/ag-nessel-files-lawsuit-against-nursing-home-operator-for-violating-medicaid-false-claim-act',
+  },
+  {
+    name: 'New Bedford Insurance Brokerage Premium-Pocketing Scheme (BL Insurance)',
+    slug: 'massachusetts-bl-insurance-brokerage-premium-theft-scheme',
+    description:
+      'Brendan and Lisa Lawler ran BL Insurance Brokerage LLC out of New Bedford, Massachusetts, collecting insurance payments from at least 50 clients between March 2023 and March 2024 that were supposed to be forwarded to the clients\' actual insurers, premium finance companies, or hard-money lenders — but instead the couple kept the money and spent it on themselves, while issuing clients fake insurance documents that falsely showed them as covered. Because the fraud happened entirely on the paperwork side, most victims had no way to know their coverage had lapsed or never existed until a claim was filed and denied, or a lender or landlord discovered the policy was fake. The Lawlers pleaded guilty to conspiracy to commit wire fraud in March 2026 and were sentenced to eight months in federal prison plus three years of supervised release, having stolen more than $750,000. Anyone who pays a broker or agent directly for insurance should independently confirm the policy is active by calling the named insurance carrier at a number looked up separately — never one provided by the broker — rather than trusting a certificate of insurance or ID card handed over at the time of purchase.',
+    categorySlug: 'insurance-fraud',
+    country: 'US',
+    state: 'MA',
+    isHistorical: true,
+    firstRecorded: '2023-03-01',
+    sources: ['U.S. Attorney\'s Office, District of Massachusetts', 'The Boston Globe'],
+    sourceUrl: 'https://www.justice.gov/usao-ma/pr/new-bedford-couple-sentenced-defrauding-least-50-clients-over-750000-connection-their',
+  },
+  {
+    name: 'Atlanta-Area Fake Nurse Using Stolen LPN Identity',
+    slug: 'georgia-atlanta-fake-nurse-stolen-lpn-identity-scheme',
+    description:
+      'From August 2021 to April 2025, Lonnie Releford of Atlanta obtained a string of nursing jobs at hospitals and nursing homes across metro Atlanta despite having no nursing degree and no license to practice, by submitting fraudulent credentials and stealing the name and license number of a real, licensed practical nurse — and, prosecutors say, lying about a criminal history that already included convictions for identity theft and fraud. Facilities that hired him then billed Medicare and Medicaid for skilled nursing services he was not legally qualified to provide, including at one point dispensing medication at a nursing home, while patients and families had no way of knowing the person providing their care was not who his badge said he was. Releford was charged by federal criminal information in June 2026 as part of the Justice Department\'s 2026 National Health Care Fraud Takedown. A license number and a name on a badge are not proof of who is actually treating a patient; anyone can verify a nurse\'s license is real and belongs to the person standing in front of them through the Georgia Secretary of State\'s free professional license lookup before consenting to care, a step that would have caught this scheme immediately since the real nurse whose identity was used remained separately, verifiably licensed the whole time.',
+    categorySlug: 'identity-theft',
+    country: 'US',
+    state: 'GA',
+    alertLevel: 'medium',
+    sources: ['U.S. Department of Justice', 'WSB-TV'],
+    sourceUrl: 'https://www.justice.gov/criminal/criminal-fraud/health-care-fraud-unit/2026-national-hcf-case-summaries',
+  },
 ];
 
 async function seedCategoriesAndScams() {
