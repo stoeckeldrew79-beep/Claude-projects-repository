@@ -19129,6 +19129,30 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['U.S. Department of Justice, U.S. Attorney\'s Office for the Northern District of Iowa', 'U.S. Department of Agriculture Office of Inspector General'],
     sourceUrl: 'https://www.justice.gov/usao-ndia/pr/iowa-farmer-sentenced-more-fifteen-years-cattle-theft-and-bankruptcy-fraud-scheme',
   },
+  {
+    name: 'Japan Post Insurance (Kampo) Elderly Mis-Selling Scandal',
+    slug: 'japan-post-insurance-kampo-elderly-misselling-scandal',
+    description:
+      'Japan Post Insurance (kampo), the insurance arm of the government-affiliated Japan Post group, ran sales quotas so aggressive that its own network of post-office agents talked roughly 183,000 policyholders over five years — heavily weighted toward elderly customers — into cancelling perfectly good policies and buying new ones purely to generate a fresh sales commission. Of the policies scrutinized in detail, investigators found about 22,000 cases where customers ended up paying double premiums during the switch, roughly 47,000 cases where a gap between the old policy\'s cancellation and the new one\'s start left customers with no coverage at all for months, and thousands more involving forged signatures or other rule violations. Japan\'s Financial Services Agency issued a business improvement order in December 2019 and imposed a rare multi-month suspension of new door-to-door sales, while Japan Post Insurance\'s and Japan Post Holdings\' top executives resigned to take responsibility. The scandal shows that predatory sales pressure can come from a trusted, government-linked institution\'s own commission structure rather than a stranger on the phone — anyone asked by their existing agent to cancel a policy and replace it with a new one should get an independent, written side-by-side comparison of both policies\' terms and any coverage gap before signing anything.',
+    categorySlug: 'insurance-fraud',
+    country: 'JP',
+    isHistorical: true,
+    firstRecorded: '2019-06-24',
+    sources: ['Financial Services Agency (Japan)', 'Japan Post Insurance Co.', 'The Japan Times'],
+    sourceUrl: 'https://www.japantimes.co.jp/opinion/2019/07/14/editorials/inappropriate-sales-japan-post-insurance/',
+  },
+  {
+    name: 'Big Motor Used-Car Repair Insurance Fraud Scandal',
+    slug: 'big-motor-used-car-insurance-fraud-scandal',
+    description:
+      'Big Motor, once Japan\'s largest used-car dealership and repair chain, was found to have systematically inflated auto-body repair bills by deliberately damaging customers\' vehicles beyond their original accident damage — technicians struck panels with hammers and golf balls stuffed in socks, gouged bumpers with screwdrivers, and drove cars into curbs to manufacture extra dents and scratches that were then billed to the customer\'s own insurer as legitimate accident repair. A joint investigation by Japan\'s four largest non-life insurers identified roughly 65,000 suspect claims tied to Big Motor, and Sompo Japan — the insurer that kept referring customers to Big Motor even after being alerted to the fraud in 2022 — was separately found by the Financial Services Agency to have concealed the scale of the problem rather than reporting it, revoking Big Motor\'s registration as an insurance agent. Japan\'s transport ministry ordered 34 Big Motor outlets to halt vehicle-maintenance operations and revoked private-inspection licenses at 12 of them, Sompo Holdings\' president and CEO both resigned by early 2024, a former store manager was arrested in January 2024 in connection with the wider investigation, and Big Motor itself collapsed and was sold off, re-emerging as Wecars in 2024. The case is a reminder that a repair shop\'s own damage estimate is not independent of its own profit motive — a customer with insurance-covered bodywork has the right to request photographs of the pre-repair damage and a second estimate before work begins, and to ask their insurer whether the shop receiving referrals has any financial relationship with the insurer handling the claim.',
+    categorySlug: 'insurance-fraud',
+    country: 'JP',
+    isHistorical: true,
+    firstRecorded: '2023-07-01',
+    sources: ['Financial Services Agency (Japan)', 'Nikkei Asia', 'Japan Times'],
+    sourceUrl: 'https://asia.nikkei.com/business/insurance/insurer-sompo-japan-failed-to-report-systemic-fraud-at-bigmotor',
+  },
 ];
 
 async function seedCategoriesAndScams() {
