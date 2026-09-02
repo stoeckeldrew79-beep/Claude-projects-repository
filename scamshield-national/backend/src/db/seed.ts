@@ -7099,6 +7099,54 @@ Regulators have watched this shift from stock-tip emails and message boards to r
 
 Warning signs include unsolicited investment tips in a group chat you didn't seek out, pressure to buy a specific stock immediately because of a closing "window," claims of insider or advance information, a thinly traded stock most legitimate financial media haven't covered, and a chat where enthusiasm and gains are described but never independently verifiable. Before acting on any group-chat stock tip, check the company's actual SEC filings on EDGAR, verify trading volume and recent price history independently, and be skeptical of anyone in a chat you don't personally know who is urging speed. If you believe you've been targeted, report it to the SEC at sec.gov/tcr and to FINRA, and preserve screenshots of the chat as evidence.`,
   },
+  {
+    title: 'Ransomware: How It Locks Your Files and What to Do If You\'re Hit',
+    slug: 'ransomware-attack-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'ransomware'],
+    sourceUrl: 'https://www.cisa.gov/stopransomware/ransomware-101',
+    body: `Ransomware is malicious software that encrypts the files on a computer or network, making them unreadable, and then demands payment — almost always in cryptocurrency — for a decryption key. Many modern strains add a second layer of pressure known as "double extortion": before encrypting anything, the attacker quietly copies sensitive files off the device, then threatens to publish or sell them if the ransom isn't paid, so even a victim with solid backups can still face blackmail over leaked data.
+
+For individuals, the most common way ransomware gets in is through the same doors as other malware: a malicious email attachment disguised as an invoice, resume, or shipping notice; a link in a phishing message that downloads the payload silently; a pirated software installer or "free" cracked app; or an infected USB drive. Businesses are more often hit through unpatched software vulnerabilities or an exposed remote-desktop connection that attackers scan the internet for and break into directly, without needing anyone to click anything.
+
+This isn't a fringe threat. The FBI's Internet Crime Complaint Center logged 3,611 ransomware reports in 2025, up from 3,156 in 2024 and 2,825 in 2023, with reported losses jumping 259% year over year to $32.3 million — and the FBI itself notes that figure excludes the costlier parts of an attack: days or weeks of downtime, forensic investigation, legal exposure, and reputational damage. The FBI identified 63 new ransomware variants in 2025, with strains like Akira, Qilin, RansomHub, LockBit, and Medusa hitting healthcare, manufacturing, and government targets especially hard.
+
+The best defense is prevention: keep offline, regularly tested backups of anything you can't afford to lose (a backup connected to the network can be encrypted too), keep your operating system and software patched, be wary of unexpected attachments and links even from people you know (their account may be compromised), and turn on multi-factor authentication everywhere it's offered.
+
+If you're hit, disconnect the infected device from the network immediately to stop it from spreading, and don't pay the ransom if you can avoid it — payment funds future attacks and comes with no guarantee the criminals will actually provide a working decryption key, or that they won't leak your data anyway. Check nomoreransom.org, a joint law-enforcement project, for free decryption tools that may already exist for the strain that hit you, report the incident to the FBI's IC3 (ic3.gov) or your local FBI field office, and restore from a clean backup once the infected system has been wiped.`,
+  },
+  {
+    title: 'Crypto Rug Pulls: How a Fake Token Launch Vanishes With Investors\' Money',
+    slug: 'crypto-rug-pull-scam-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'crypto-rug-pull'],
+    sourceUrl: 'https://www.sec.gov/oiea/investor-alert-5-ways-fraudsters-may-lure-victims-scams-involving-crypto-asset',
+    body: `A "rug pull" is a crypto exit scam: the developers of a new token or NFT project build hype, take investors' money, and then disappear with it, leaving the token worthless. In a "hard" rug pull, the scam is baked into the code from the start — the smart contract contains a hidden function that lets only the creators sell or withdraw the pooled funds, while everyone else's tokens are effectively locked. In a "soft" rug pull, there's no malicious code at all; the founders simply sell off their own massive token holdings and abandon the project once enough outside money has come in, which is harder to prosecute because it can look like ordinary (if reckless) trading rather than outright theft.
+
+The hype itself is often manufactured. Scammers frequently use multiple wallets they control to buy up the new token in a short window, creating the appearance of fast-growing organic demand and a rapidly climbing price. That activity gets amplified across Discord servers, Telegram groups, and social media by paid promoters or bots posing as independent enthusiasts, pulling in real investors who don't want to miss what looks like early momentum. Once outside money has flowed in, the insiders drain the liquidity pool or dump their holdings, the price collapses to near zero within minutes, and the project's social accounts and website typically go dark soon after.
+
+This is a large and growing problem: crypto scams pulled in an estimated $14–17 billion in 2025, and rug pulls specifically cost investors roughly $1.8 billion that year. A 2025 Chainalysis analysis found that of the tokens launched in 2024, over 74,000 — about 3.6% of all launches — were suspected pump-and-dump or rug-pull schemes, and while the number of individual incidents fell sharply from the year before, the scams that did happen got much bigger, including a single scheme, MetaYield Farm, that vanished with an estimated $290 million.
+
+The clearest red flags, per crypto-security researchers: liquidity that isn't locked (meaning developers can withdraw it at will), a small number of wallets holding most of the token supply, contract code that blocks regular holders from selling while allowing the creators to, and an anonymous team making outsized promises with no verifiable track record. A legitimate project's contract can usually be checked on a block explorer, and its liquidity-lock status verified through third-party auditing tools before you ever put money in.
+
+Before investing in any new token or NFT project, verify the team's identity, check whether the contract has been independently audited, confirm the liquidity pool is actually locked and for how long, and treat "guaranteed" returns or urgent, limited-time entry windows as a warning sign rather than an opportunity. If you've already lost money to a rug pull, preserve wallet addresses and transaction records, report it to the FBI's IC3 (ic3.gov) and the SEC at sec.gov/tcr, and be skeptical of anyone who contacts you afterward promising to recover the funds for an upfront fee — that follow-up pitch is very often a second scam.`,
+  },
+  {
+    title: 'W-2 Phishing: How Scammers Trick HR Into Handing Over Employee Tax Data',
+    slug: 'w2-phishing-payroll-scam-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'w2-phishing'],
+    sourceUrl: 'https://www.irs.gov/newsroom/form-w-2-ssn-data-theft-information-for-businesses-and-payroll-service-providers',
+    body: `W-2 phishing is a business email compromise variant with a different target: instead of asking for a wire transfer, the scammer impersonates a company executive and asks payroll or human resources for a list of employees' Form W-2 data — names, Social Security numbers, and income figures — usually framed as a routine, time-sensitive request from the CEO or CFO. The email is typically spoofed or sent from a compromised or lookalike account, arrives with the same tone of quiet authority as a real executive request, and asks the recipient to reply directly with the file or a spreadsheet rather than raising it through any other channel.
+
+The scam works precisely because handing W-2 data to payroll or HR is a routine part of an accountant's or auditor's job during tax season, so a request that fits that pattern doesn't stand out the way an obviously fake email would. It's also low-cost and highly scalable for criminals to send this exact request to thousands of companies at once — even a small percentage of successful responses hands over enough stolen identities to be extremely profitable, since a full name, Social Security number, and income figure is everything needed to file a fraudulent tax return in someone else's name.
+
+Once the data is stolen, the IRS has found that criminals typically move fast to file fraudulent returns claiming refunds before the real employees file their own, which is why the scam clusters heavily around January through April, when payroll departments are already fielding a high volume of legitimate W-2 requests from employees, accountants, and tax preparers. The IRS has renewed warnings about this scam annually, including flagging phishing and impersonation schemes targeting payroll departments in its 2026 "Dirty Dozen" list of tax scams.
+
+Warning signs include a request for W-2 or employee SSN data that arrives by email only, urgency or a request to keep the matter confidential, a sender address that's slightly altered from the real executive's (an extra letter, a different domain), and any request routed around the normal channel your company uses for this kind of data. As with any BEC variant, the fix is procedural: verify any request for bulk employee tax data through a second channel — a phone call to the requester at a number you already have on file, not one in the email — before sending anything.
+
+If your organization sent W-2 data in response to a scam like this, the IRS recommends notifying it immediately at dataloss@irs.gov, filing a complaint with the FBI's IC3 (ic3.gov), and notifying affected employees quickly so they can place a fraud alert with the credit bureaus, watch for IRS notices about a return they didn't file, and consider requesting an IRS Identity Protection PIN before criminals file in their name. If you received the phishing email but didn't respond, the IRS asks that you forward it, with headers intact, to phishing@irs.gov with the subject line "W2 Scam."`,
+  },
 ];
 
 async function seedArticles(articles: SeedArticle[], label: string) {
