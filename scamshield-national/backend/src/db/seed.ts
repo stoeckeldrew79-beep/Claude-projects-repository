@@ -4118,6 +4118,9 @@ The end came in July 1991, after the Bank of England commissioned an independent
 
 BCCI remains the reference case for what can happen when a financial institution is deliberately built to outrun any one country's oversight: not just a fraud that fooled regulators, but one engineered from the start so that no regulator could ever see all of it at once.`,
     sourceUrl: 'https://www.britannica.com/topic/Bank-of-Credit-and-Commerce-International',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/The_Bank_of_Credit_and_Commerce_International_(BCCI),_Karachi_-_panoramio.jpg?width=1200',
+    coverImageCredit: 'Photo: Anwar Ahmed (CC BY-SA 3.0)',
+    coverImagePosition: 50,
   },
   {
     title: 'Tom Hayes and the Libor Scandal That Convicted Wall Street\'s "Rain Man" — Then, a Decade Later, Cleared Him',
@@ -4174,6 +4177,9 @@ Means strung McLean along for weeks with invented updates and excuses, always pr
 
 Means never left prison. He died at Leavenworth in 1938, still maintaining, according to some accounts, that he could have secured the child's return if only he'd been given more time and money — a final performance from a man whose entire career had been built on exploiting exactly that kind of hope. The case remains one of the starkest illustrations of a pattern that recurs throughout the history of fraud: a real tragedy, a desperate victim, and a confident stranger promising a private shortcut that official channels supposedly couldn't offer.`,
     sourceUrl: 'https://www.fbi.gov/history/famous-cases/lindbergh-kidnapping',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Gaston_B._Means_NPC.jpg?width=1200',
+    coverImageCredit: 'Photo: National Photo Company Collection, Library of Congress (public domain)',
+    coverImagePosition: 50,
   },
   {
     title: 'The Tichborne Claimant: How a Wagga Wagga Butcher Nearly Inherited a British Baronetcy',
@@ -4190,6 +4196,9 @@ The case became a sensation that split British society along class lines: to muc
 
 The Tichborne case cost the parties involved roughly £90,000 in legal fees at the time — an immense sum for Victorian Britain — and remains one of the most exhaustively documented identity-fraud cases in English legal history, still cited in law courses on eyewitness testimony, mass public credulity, and the length courts will go to unwind a single false claim of identity.`,
     sourceUrl: 'https://en.wikipedia.org/wiki/Tichborne_case',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Arthur_Orton_1873.jpg?width=1200',
+    coverImageCredit: 'Photo: Boston Medical Library, Harvard University (public domain)',
+    coverImagePosition: 50,
   },
   {
     title: 'Philip Arnold and John Slack: The Great Diamond Hoax That Fooled Tiffany & Co.',
@@ -4234,6 +4243,9 @@ In February 1856, with exposure closing in, Sadleir was found dead on Hampstead 
 
 The scandal's mix of political respectability, forged securities, and a hidden insolvency that unraveled all at once became a template Charles Dickens drew on directly for the swindling financier Mr. Merdle in Little Dorrit, serialized the following year — a character whose polished reputation shields a fraud everyone was too dazzled by his apparent success to question. Anthony Trollope later mined the same case for his own portrait of a fraudulent City grandee in The Way We Live Now, cementing Sadleir's collapse as the real-world blueprint for one of Victorian literature's most enduring cons: the trusted man whose numbers never actually added up.`,
     sourceUrl: 'https://en.wikipedia.org/wiki/John_Sadleir',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/John-sadleir.jpg?width=1200',
+    coverImageCredit: 'Portrait: unknown artist, c. 1856 (public domain)',
+    coverImagePosition: 50,
   },
   {
     title: 'Charles W. Morse: The "Ice King" Whose Copper Corner Triggered the Panic of 1907',
@@ -4248,6 +4260,9 @@ The New York Clearing House forced Morse out of banking within days, and federal
 
 Freed, Morse went straight back to speculative ventures, and during World War I he was investigated again over a shipbuilding scheme that collected tens of millions of dollars in federal contracts from the U.S. Shipping Board to build vessels that were delivered late, over budget, and in some cases barely seaworthy. He avoided a second conviction, but the "Ice King's" reputation never recovered. Morse died in 1933, remembered less for the ice monopoly that made him rich than for a failed stock corner that helped trigger a panic serious enough to push Congress toward creating the Federal Reserve System in 1913.`,
     sourceUrl: 'https://en.wikipedia.org/wiki/Charles_W._Morse',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/C.W._Morse_LCCN2014684993.jpg?width=1200',
+    coverImageCredit: 'Photo: George Grantham Bain Collection, Library of Congress (public domain)',
+    coverImagePosition: 50,
   },
   {
     title: 'Charles Deville Wells: The Man Who "Broke the Bank at Monte Carlo" — and Broke Investors Everywhere Else',
@@ -4320,6 +4335,9 @@ The investigation's actual punishments were strikingly light given the scale of 
 
 The Crédit Mobilier affair became the signature political scandal of the Grant administration and one of the defining episodes of Gilded Age corruption — a case study in how a company can capture the very government body meant to oversee it, simply by cutting its overseers in on the profits. It remains a standard reference point in American history for stock-based bribery, and a reminder that a bribe doesn't have to look like cash changing hands in an alley; it can just as easily look like a friendly stock tip from a company that needs a favor.`,
     sourceUrl: 'https://history.house.gov/Historical-Highlights/1851-1900/The-Credit-Mobilier-scandal/',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Oakes_Ames_-_Brady-Handy.jpg?width=1200',
+    coverImageCredit: 'Photo: Mathew Brady/Levin Handy, Library of Congress (public domain)',
+    coverImagePosition: 50,
   },
   {
     title: 'Albert Fall and the Teapot Dome Scandal That Sent a Cabinet Secretary to Prison',
@@ -4336,6 +4354,9 @@ Harding never faced the fallout himself — he died in August 1923, months befor
 
 Teapot Dome endures as a case study in how corruption in public office often unravels: not through the bribe itself, which is designed to stay hidden, but through the visible lifestyle a bribe buys — in Fall's case, a suddenly renovated ranch that a Senate investigator's curiosity, and Fall's own greed, turned into a national scandal.`,
     sourceUrl: 'https://en.wikipedia.org/wiki/Teapot_Dome_scandal',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Albert_B._Fall.jpg?width=1200',
+    coverImageCredit: 'Photo: Library of Congress (public domain)',
+    coverImagePosition: 50,
   },
   {
     title: 'Wu Ying and the Death Sentence That Rewrote China\'s Fraud Laws',
@@ -4430,6 +4451,9 @@ With Chicago turning openly hostile, Yerkes sold his transit holdings there in 1
 
 Yerkes doesn't fit neatly into a single fraud case the way a Ponzi scheme does — much of what he built, elevated trains in Chicago and tunnels in London, still functions as public infrastructure today. But his method was consistent across two continents and three decades: extract public value through bribery and financial engineering, exit before the bill came due, and let the public absorb whatever was left over. Novelist Theodore Dreiser used Yerkes as the direct model for the ruthless financier Frank Cowperwood in his "Trilogy of Desire," cementing Yerkes's afterlife as American literature's clearest portrait of a Gilded Age operator who broke the law on his way up and bought his way past the consequences.`,
     sourceUrl: 'https://en.wikipedia.org/wiki/Charles_Yerkes',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Yerkes002.jpg?width=1200',
+    coverImageCredit: 'Photo: public domain (published before 1931)',
+    coverImagePosition: 50,
   },
   {
     title: 'Baron Albert Grant and the Emma Silver Mine: The Victorian Fraudster Who Bought Public Goodwill With a Public Square',
@@ -4478,6 +4502,9 @@ Factor's own reckoning came a decade later: in 1943 he was convicted of mail fra
 
 Rather than fade away, Factor reinvented himself again — as a Las Vegas casino financier with a stake in the Stardust — and in 1962, after donating heavily to John F. Kennedy's presidential campaign, received a full pardon that erased his whiskey-fraud conviction and let him keep his U.S. citizenship. He died in Los Angeles in 1984, having spent six decades staying a step ahead of the consequences of his own fabrications — consequences that, in Roger Touhy's case, fell on someone else instead.`,
     sourceUrl: 'https://en.wikipedia.org/wiki/John_Factor',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/John_Factor,_aka_Jake_the_Barber.jpg?width=1200',
+    coverImageCredit: 'Photo: Los Angeles Times Photographic Collection, UCLA Library (CC BY 4.0)',
+    coverImagePosition: 50,
   },
   {
     title: 'Ernest Terah Hooley: The Company Promoter Who Sold Dunlop and Bovril to a Credulous Public',
@@ -4508,6 +4535,9 @@ Brinkley's real innovation was marketing. In 1923 he built KFKB ("Kansas' First,
 
 Brinkley's downfall came from the press rather than the government: in 1938, Morris Fishbein, editor of the Journal of the American Medical Association, published a scathing exposé documenting patient deaths and calling Brinkley a fraud. Brinkley sued Fishbein for libel and lost badly, and the trial record became the basis for a wave of malpractice and wrongful-death lawsuits that bankrupted him by 1941; he died of heart failure in 1942. Brinkley's career — chronicled in Pope Brock's book "Charlatan" — is now a standard case study in the history of American medical quackery and in how early radio let a single unlicensed operator reach a mass audience faster than regulators could catch up.`,
     sourceUrl: 'https://en.wikipedia.org/wiki/John_R._Brinkley',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Dr._John_R._Brinkley.jpg?width=1200',
+    coverImageCredit: 'Photo: public domain (published c. 1921)',
+    coverImagePosition: 50,
   },
   {
     title: 'Ferdinand de Lesseps and the Panama Canal Bribery Scandal That Wiped Out 800,000 French Investors',
@@ -4522,6 +4552,9 @@ By 1888, with the company hemorrhaging money, its directors sought French parlia
 
 The bribery itself did not become public until 1892, when the antisemitic newspaper La Libre Parole exposed the payments to parliamentarians, triggering a political crisis that brought down parts of the French government and fed a wave of antisemitic conspiracy theorizing around Herz and Reinach's roles. Ferdinand de Lesseps, his son Charles, engineer Gustave Eiffel, and others were tried for fraud and corruption; Ferdinand, by then 87 and in serious mental decline, was convicted in February 1893 and sentenced to five years in prison, but a higher court later voided the conviction on a statute-of-limitations technicality. Charles de Lesseps served time in prison for his role. Ferdinand himself never seemed to grasp what had happened to his reputation and died the following year, in 1894; the canal he could not finish was eventually completed by the United States in 1914, and the "Panama scandal" remains one of the largest corruption cases in French political history.`,
     sourceUrl: 'https://en.wikipedia.org/wiki/Panama_scandals',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Ferdinand_de_Lesseps_by_Nadar.jpg?width=1200',
+    coverImageCredit: 'Photo: Nadar (public domain)',
+    coverImagePosition: 50,
   },
   {
     title: 'Daniel Drew: The Cattle Drover Who Invented "Watered Stock" on Wall Street',
@@ -4536,6 +4569,9 @@ His most notorious scheme came during the "Erie War" of 1866–1868, when Cornel
 
 Drew's own former allies eventually turned on him: Fisk and Gould later cornered their old mentor in a raid of their own, inflicting losses he never fully recovered from, and the Panic of 1873 wiped out most of what remained of his fortune. He had used earlier wealth to found and endow the Drew Theological Seminary — now Drew University — in 1867, but when his fortune collapsed he could not make good on his pledged donations, leaving the seminary to find other benefactors to cover the gap. Daniel Drew died in 1879 nearly penniless, having gone from cattle drover to one of the wealthiest men in America and back again; the term he popularized for fraudulent stock remains standard usage in corporate and securities law more than 150 years later.`,
     sourceUrl: 'https://en.wikipedia.org/wiki/Daniel_Drew',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Daniel_Drew_1872.jpg?width=1200',
+    coverImageCredit: 'Photo: public domain (published 1872)',
+    coverImagePosition: 50,
   },
   {
     title: 'Albert T. Patrick and the Forged Will That Led to a Millionaire\'s Murder',
@@ -4694,6 +4730,9 @@ Cochrane insisted for the rest of his life that Berenger's visit was purely soci
 
 Cochrane spent the following decades rebuilding his reputation abroad, commanding the rebel navies of Chile, Brazil and Greece in their wars of independence, all the while petitioning London to overturn what he called a wrongful conviction. The government relented gradually: he was restored to the Navy List in 1832 with a royal pardon, reinstated as a Rear Admiral, and eventually had his Order of the Bath returned, and a parliamentary committee concluded decades later that his post-1832 treatment amounted to an official acknowledgment of his innocence — though the original conviction itself was never formally quashed. The case endures as one of the earliest documented instances of using fabricated news to manipulate a securities market, a template of spreading a false, price-moving story and cashing out before it unravels that would recur, in one disguise or another, on trading floors for the next two centuries.`,
     sourceUrl: 'https://en.wikipedia.org/wiki/Great_Stock_Exchange_Fraud_of_1814',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Lord_Cochrane,_by_James_Ramsay.jpg?width=1200',
+    coverImageCredit: 'Portrait: James Ramsay, c. 1830 (public domain)',
+    coverImagePosition: 50,
   },
   {
     title: '"Chainsaw Al" Dunlap and the Sunbeam Accounting Fraud That Faked a Turnaround',
