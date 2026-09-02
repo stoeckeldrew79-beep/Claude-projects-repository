@@ -5674,6 +5674,57 @@ The trick works by exploiting exactly how the actual trademark process feels to 
 
 The reliable check is that every authentic USPTO communication, including any request for payment, is posted to the Trademark Status and Document Retrieval system at tsdr.uspto.gov; if a notice claiming to be from the USPTO doesn't appear there, it isn't real, no matter how official it looks. Genuine USPTO email always comes from an address ending in @uspto.gov, and the agency never requests payment or personal information by phone or text. Before paying any renewal or monitoring notice related to a trademark, verify it directly through TSDR or by calling the Trademark Assistance Center at 1-800-786-9199, using a number looked up independently rather than one printed on the notice. Report suspected trademark scam notices to the USPTO at TMScams@uspto.gov and to the FTC at ReportFraud.ftc.gov.`,
   },
+  {
+    title: 'Miracle Cure Health Scams: Why "Doctors Don\'t Want You to Know This" Is Always a Lie',
+    slug: 'miracle-cure-health-scam-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'health-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Vitamin%20D%20pills.jpg?width=1200',
+    coverImageCredit: 'Photo: Mx. Granger (CC0, public domain)',
+    coverImagePosition: 50,
+    sourceUrl: 'https://consumer.ftc.gov/articles/common-health-scams',
+    body: `A social media ad, an infomercial, or a slickly designed website promises a single pill, tincture, or device that treats or reverses something serious — cancer, diabetes, Alzheimer's, chronic pain, arthritis — often with a line like "the government doesn't want you to know about this" or "doctors hate this one trick." A supposed doctor or scientist appears on camera to vouch for it, testimonials from ordinary-looking customers describe dramatic results, and the checkout page pushes a "limited time" discount plus an option to "subscribe and save," which quietly enrolls the buyer in recurring monthly shipments and charges.
+
+The pitch works because it targets people at their most vulnerable: someone newly diagnosed, in chronic pain, or caring for a parent with a memory condition is often desperate enough to try something outside of conventional medicine, especially when it's framed as suppressed knowledge rather than an unproven claim. The FTC has documented that dietary supplements, unlike prescription drugs, are not reviewed by the FDA for safety or effectiveness before they're sold, which is exactly the gap these sellers exploit — they can print "clinically proven," "100% natural," or "doctor recommended" on a label with no independent agency checking whether any of it is true.
+
+The reliable red flags are consistent across nearly every version of this scam: a single product claimed to cure or treat multiple unrelated diseases, "natural" framed as automatically safe, guaranteed results in a fixed number of days "or your money back," paid actors posing as patients or doctors, and any suggestion that mainstream medicine or the government is hiding the cure. A real breakthrough treatment is reported in peer-reviewed medical journals and prescribed by physicians — it is never marketed exclusively through a Facebook ad or a 2 a.m. infomercial with a countdown timer.
+
+Before buying any product that claims to treat a medical condition, talk to your own doctor and search for the product name alongside the word "complaint" or "scam," and check the FDA's own list of fraudulent health products at fda.gov. If you or a family member has already purchased one of these products, stop taking it, save the packaging in case it needs to be tested for undisclosed ingredients, and check your card statement for the recurring "subscribe and save" charge — most of these sites make it deliberately difficult to cancel and may require calling a specific number rather than clicking a button online. Report any side effects to the FDA's MedWatch program at 1-800-FDA-1088, and report the scam itself to the FTC at ReportFraud.ftc.gov.`,
+  },
+  {
+    title: 'Fake Customer Service Numbers: The Scam Hiding in Your Own Search Results',
+    slug: 'fake-customer-service-number-search-scam-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'fake-customer-service-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Concerned%20Phone%20Call%20(Unsplash).jpg?width=1200',
+    coverImageCredit: 'Photo: Ehimetalor Unuabona (CC0, public domain)',
+    coverImagePosition: 50,
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2020/08/scammers-customer-service-another-imposter-scam',
+    body: `Someone has a real, ordinary problem — a delayed refund, a locked account, a flight that needs to be changed — and instead of digging through a company's website for a support link, they type the company's name and "customer service number" into a search engine and call the first result. That number is often not the real company at all: scammers buy paid search ads, and sometimes plant fake listings and directory pages, so their own number outranks or sits right alongside the legitimate one for exactly the searches a frustrated customer is most likely to run.
+
+Once connected, the person on the other end sounds like ordinary customer support — they may even use hold music and a script that references the real company by name — before the scam reveals itself: they ask to remotely access the caller's computer or phone "to fix the issue," request a wire transfer or gift cards to process a "refund," or simply harvest a card number and login credentials under the guise of verifying the account. Because the caller dialed the number themselves rather than receiving an unexpected call, the usual instinct to be suspicious of "who's calling me" doesn't fire — they believe they're the one who initiated contact with a real company.
+
+This scam thrives on urgency and inconvenience rather than fear: the victim already has a problem they want solved quickly, and a helpful-sounding voice that appears to be from the right company short-circuits the caution a cold call would normally trigger. The clearest warning signs are an operator who answers with a generic "customer service" or "help line" instead of the company's actual name, any request to install remote-access software, and any request to pay or "verify" an account with a gift card, wire transfer, or cryptocurrency — no legitimate company's support line asks for those.
+
+The safest way to reach a company is to go directly to its official website by typing the address yourself or using a link you already know is correct — a saved bookmark, an app, or a number printed on a bill or the back of a card — rather than trusting a search result or a number found through a general web search. If you've already called a fake number and shared payment information, contact your bank or card issuer immediately to dispute the charge and watch for follow-up "recovery" offers, which are frequently the same scammers calling back a second time. Report the fake number and any money lost to the FTC at ReportFraud.ftc.gov, and report a compromised device or account at IdentityTheft.gov.`,
+  },
+  {
+    title: 'Scam PACs: How Political Donation Fraud Runs Between Every Election, Not Just During One',
+    slug: 'scam-pac-political-donation-scam-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'political-donation-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/United%20States%20Capitol%20dome%20daylight.jpg?width=1200',
+    coverImageCredit: 'Photo: U.S. federal government (public domain)',
+    coverImagePosition: 60,
+    sourceUrl: 'https://www.ic3.gov/PSA/2024/PSA241029',
+    body: `An unsolicited call, text, or email asks for an "urgent" donation to help a well-known candidate, a cause like veterans or police officers, or a political party — often citing a donation-matching deadline or claiming the recipient already pledged support earlier. The group behind the request has a name that sounds official and cause-driven, and it may genuinely be registered with the Federal Election Commission as a political action committee. That registration is exactly what makes the pitch feel safe, even though it proves nothing about where the money actually goes.
+
+The FBI has warned that so-called "scam PACs" collect donations that go almost entirely toward the operators' own fundraising fees, consulting contracts, and salaries rather than to the candidate or cause named in the pitch — and because they're organized as PACs rather than charities, they aren't required to spend a minimum share of donations on their stated mission the way some charitable organizations are. A related version approaches it from the opposite direction: a caller claims a donation will function like an investment, promising a financial "return" once a favored candidate wins office, which is not how campaign or PAC contributions legally work under any circumstances.
+
+This works especially well on politically engaged people precisely because they care and want to act quickly — a call timed close to an election, paired with a familiar name and a matching-funds deadline, is built to be acted on in the moment rather than researched. Scam PACs also lean on donors' good intentions the same way disaster charity scams do: a name evoking law enforcement, veterans, or firefighters generates an emotional response before anyone stops to ask exactly who is running the group or how the money is spent.
+
+Before donating to any political group, especially in response to an unsolicited call or text, look it up independently through the FEC's own committee database at fec.gov, and be skeptical of any PAC that reports unusually high spending on fundraising, consulting, or "administrative" costs relative to what it actually gives to campaigns. Donate directly through a candidate's or an established organization's own verified website rather than through a link in a text or a payment request over the phone, and never send money in response to a claim that you already pledged a donation you don't remember making. Report suspected scam PACs and election-related fraud to the FBI's Internet Crime Complaint Center at ic3.gov and to the Federal Election Commission's Office of Inspector General.`,
+  },
 ];
 
 async function seedArticles(articles: SeedArticle[], label: string) {
