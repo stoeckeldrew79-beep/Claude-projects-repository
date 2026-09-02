@@ -19001,6 +19001,28 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Federal Bureau of Investigation (FBI)', 'National Council For Adoption', 'CBS News'],
     sourceUrl: 'https://www.fbi.gov/how-we-can-help-you/scams-and-safety/common-frauds-and-scams/adoption-fraud',
   },
+  {
+    name: 'Fake MyChart Patient Portal Phishing Scam',
+    slug: 'fake-mychart-patient-portal-phishing-scam',
+    description:
+      'An email or text mimicking the MyChart patient portal used by hundreds of U.S. hospitals and health systems tells the recipient new lab results are ready, sometimes warning that an "AI-powered review" found alarming patterns in their bloodwork, and links to a convincing fake login page copied from the real site’s code. Victims who enter their credentials are shown a fabricated report with blacked-out critical values and pushed through a "human verification" step or an "Unlock Full Report" button that instead downloads malware, such as a file named Full_Analysis_Report.exe, onto their device. A second version of the campaign tells patients they have won a free Medicare benefits kit and collects a "shipping fee" along with payment and personal information. Epic Systems, which makes MyChart, says the surge reflects criminals abusing the brand’s recognition rather than any breach of MyChart itself, and more than a dozen health systems and the American Hospital Association issued warnings after the campaign was discovered in the summer of 2026. MyChart never asks patients to run keyboard commands or install software to "unlock" a result, and the safest way to check for real messages is to log in directly through the official app or a bookmarked provider website rather than any link in an email or text.',
+    categorySlug: 'healthcare-fraud',
+    country: 'US',
+    alertLevel: 'high',
+    sources: ['Epic Systems (MyChart)', 'American Hospital Association (AHA)', 'HIPAA Journal'],
+    sourceUrl: 'https://www.mychart.org/l/en-us/help/staying-safe-from-scams-and-fraud/',
+  },
+  {
+    name: 'State Farm Dividend Payment Impersonation Scam',
+    slug: 'state-farm-dividend-payment-impersonation-scam',
+    description:
+      'State Farm began distributing a one-time $5 billion cash-back dividend to eligible auto policyholders in the summer of 2026 — the largest payout in the company’s history — sent either as a paper check or, notably, as a digital transfer offered through Zelle, Venmo, or PayPal. That unusual reliance on peer-to-peer payment apps for a legitimate insurance payout gives scammers a ready-made script: a fake "State Farm" email, text, or call claims a dividend is waiting but that the recipient must first pay a processing fee, verify their bank login, or hand over a Zelle or Venmo PIN to release it. The New Hampshire Insurance Department issued a consumer advisory noting that the only legitimate dividend notice comes from sfdividend@statefarm.com with a unique ID and PIN pointing to the official portal at sfdividend.com, and that State Farm will never ask a policyholder to pay a fee, wire money, buy gift cards, or share an email or banking password to receive the payment. Because the real payout is arriving in waves over several months and by more than one method, regulators warn it is an especially convenient cover story for impersonators contacting policyholders out of the blue.',
+    categorySlug: 'insurance-fraud',
+    country: 'US',
+    alertLevel: 'medium',
+    sources: ['New Hampshire Insurance Department', 'State Farm', 'WBAY'],
+    sourceUrl: 'https://www.insurance.nh.gov/news-and-media/blog/consumer-advisory-regarding-state-farm-auto-policyholder-dividend-payments',
+  },
 ];
 
 async function seedCategoriesAndScams() {
