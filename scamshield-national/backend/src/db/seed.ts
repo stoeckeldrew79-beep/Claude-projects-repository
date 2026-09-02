@@ -22703,6 +22703,64 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Japan National Police Agency', 'Japan Cybercrime Control Center (JC3)'],
     sourceUrl: 'https://www.npa.go.jp/bureau/cyber/countermeasures/fake-shop.html',
   },
+  {
+    name: 'Bowen Home Improvement Swimming Pool Contractor Fraud',
+    slug: 'delaware-bowen-swimming-pool-contractor-fraud',
+    description:
+      'Jeremy Bowen, 46, ran a Greensboro, Maryland-based home improvement business that took on projects across Kent and Sussex counties, Delaware, with swimming pool construction as his central pitch — homeowners, several of them seniors, paid deposits and progress payments toward a new backyard pool or other renovation only to watch the job stall indefinitely, get finished shoddily, or never start at all. Bowen collected payment on at least 13 separate contracts this way and, in at least one instance, wrote a check back to a client that bounced. The Delaware Department of Justice\'s Fraud and Consumer Protection Division built a case charging him with three counts of felony home improvement fraud, one misdemeanor count of home improvement fraud, and issuing a bad check; he pleaded guilty in Sussex County Superior Court on April 7, 2025, and on June 20, 2025, was sentenced to six months in prison followed by a year of home confinement, permanently barred from doing home improvement work in Delaware for four and a half years, and ordered to pay roughly $270,000 in restitution. Attorney General Kathy Jennings said Bowen\'s "deceitful actions didn\'t just hurt his victims financially – they caused a great deal of emotional and psychological distress to several families across our state." Before signing a contract or handing over a deposit for a big-ticket home project like a pool, homeowners should check a contractor\'s complaint history with the Delaware Department of Justice\'s Fraud and Consumer Protection Division, insist on a written contract tying payments to completed work stages, and treat any demand for full or near-full payment before work begins as a warning sign on its own.',
+    categorySlug: 'mortgage-foreclosure-scams',
+    country: 'US',
+    state: 'DE',
+    isHistorical: true,
+    sources: ['Delaware Department of Justice'],
+    sourceUrl: 'https://news.delaware.gov/2025/07/02/doj-secures-prison-time-for-fraudulent-home-improvement-contractor/',
+  },
+  {
+    name: 'Straw-Owner Dietary Supplement Credit-Card-Laundering Scheme',
+    slug: 'utah-dietary-supplement-straw-owner-laundering-scheme',
+    description:
+      'Phillip Gannuscia, 55, of Salt Lake City, was the last of nine Utah-connected defendants sentenced in a $100 million fraud and money-laundering scheme built around a network of nutraceutical, CBD, and dietary-supplement websites and a call center operating out of Utah, which falsely advertised its products as effective treatments for weight loss, seizures, cancer, and erectile dysfunction to draw in credit-card orders from consumers nationwide. Because the exaggerated health claims and hard-to-cancel subscriptions generated an unusually high rate of customer refund disputes, the operation\'s merchant credit-card processing accounts kept getting shut down by card networks for excessive chargebacks — so from around December 2018 through April 2022, Gannuscia and his co-defendants recruited family and friends as "straw owners," using their personal information to register a rotating cast of fake LLCs, each one used to open a fresh merchant-processing account so the operation could keep charging consumers\' cards once the last account was flagged and closed. Gannuscia pleaded guilty to conspiracy to commit money laundering and, having previously been under a court order permanently barring him from this exact kind of credit-card laundering, was sentenced in 2025 to 36 months in federal prison plus 24 months of supervised release and forfeited a Porsche 911 traceable to the fraud, with prosecutors attributing more than $1.5 million in personal gain to him alone. The case shows how a deceptive online seller can dodge accountability by continuously opening new corporate shells to keep its payment processing alive rather than fixing the product claims driving the refunds — consumers who spot an unfamiliar company name on a card statement for a supplement subscription they don\'t remember agreeing to should dispute the charge with their card issuer immediately, since the billing entity is often not the one whose ad or website they actually ordered from.',
+    categorySlug: 'online-shopping-scams',
+    country: 'US',
+    state: 'UT',
+    isHistorical: true,
+    firstRecorded: '2018-12-01',
+    sources: ["U.S. Attorney's Office, District of Utah", 'IRS Criminal Investigation'],
+    sourceUrl: 'https://www.justice.gov/usao-ut/pr/final-defendant-sentenced-100m-dietary-supplement-fraud-and-money-laundering-scheme',
+  },
+  {
+    name: 'Cloned ActBlue/WinRed Campaign Donation Site Scam Ahead of the 2026 Midterms',
+    slug: 'cloned-actblue-winred-campaign-donation-site-scam',
+    description:
+      'Ahead of the November 2026 midterm elections, fraud operations are registering huge volumes of election-themed domains and building lookalike websites that clone the checkout pages of ActBlue and WinRed — the two dominant online payment processors that legitimate Democratic and Republican campaigns actually use — along with fake "official" campaign merchandise stores trading on a real candidate\'s name and branding. Because a genuine donation or merch purchase already involves typing in a name, address, and card number, a cloned page built to look identical to the real thing can harvest all of it with nothing about the transaction feeling out of the ordinary, and some of these storefronts keep charging cards and taking "donations" long after a campaign\'s actual fundraising has ended. Check Point Research tracked roughly 5,150 new domains containing "election" or "vote" registered in the single month between April 13 and May 14, 2026 alone, and separately found approximately 9,500 credential sets tied to ActBlue and 6,500 tied to WinRed already circulating in criminal marketplaces as of May 2026 — exposure gathered mostly through infostealer malware on individual donors\' own devices rather than any breach of the platforms themselves, but usable all the same for account takeover and follow-on scams targeting the same donors. A genuine ActBlue or WinRed payment page loads at secure.actblue.com or secure.winred.com specifically, never a similar-looking variation reached through a text, social media ad, or search result, and donors should give directly through a candidate\'s own verified site rather than a link forwarded by someone else, especially in the final weeks before an election when donation volume — and scrutiny — is lowest.',
+    categorySlug: 'phishing',
+    country: 'US',
+    alertLevel: 'high',
+    sources: ['Check Point Research', 'CISA'],
+    sourceUrl: 'https://blog.checkpoint.com/exposure-management/the-2026-u-s-midterms-have-a-cyber-problem-but-its-not-at-the-ballot-box/',
+  },
+  {
+    name: 'Teen "Money Mule" Recruitment to Launder Payments for Child Sexual Abuse Material',
+    slug: 'teen-money-mule-csam-payment-laundering-scheme',
+    description:
+      'A message on social media, in a comment on a gaming platform, or by email offers a teenager or young adult easy pay for simple work: accept digital payments into a personal account, keep a cut, and convert the rest to cryptocurrency to send along to the "employer," who typically claims to run an IT services or gaming-upgrade business. What the recruit is actually doing is laundering payments for producers and distributors of child sexual abuse material — the digital payments being routed through the teenager\'s account are customers paying for illegal content, not for any legitimate service, and the recruit becomes a money mule in a child-exploitation operation, often without ever being told what the money is really for. The FBI\'s Omaha Field Office issued a warning after tracking this exact pattern, noting recruiters commonly reach out through web-based email accounts and gaming or social platforms with promises of "easy money for little to no effort," and stressed that becoming entangled this way can expose a young person to a federal money-laundering and child-exploitation investigation, not just a financial scam. Parents and caregivers should talk with teens directly about the risk before an offer like this ever arrives, since by the time a payment has already gone through, the teen has become a participant in the underlying crime rather than only a victim of one; anyone who receives such a solicitation should not respond or click any links, and should report it to the FBI at tips.fbi.gov.',
+    categorySlug: 'employment-scams',
+    country: 'US',
+    alertLevel: 'medium',
+    sources: ['FBI Omaha Field Office'],
+    sourceUrl: 'https://www.fbi.gov/contact-us/field-offices/omaha/news/money-mule-scheme-targets-teenagers-and-young-adults',
+  },
+  {
+    name: 'Fake "Free Robux" Generator Account-Theft Scam',
+    slug: 'free-robux-generator-account-theft-scam',
+    description:
+      'A YouTube video, TikTok clip, Discord bot, or standalone website promises to generate free Robux — the paid virtual currency used across Roblox, one of the most-played online platforms among American kids and young teens — in exchange for nothing more than logging into the child\'s real Roblox account or completing a short "human verification" step. There is no legitimate way to generate Robux outside of Roblox\'s own purchase system, so every version of the offer is a credential-phishing or malware operation: some simply capture the username and password typed into a fake login page, while more sophisticated versions distributed through Discord links copy the session cookie stored in the child\'s browser while they are already logged in, letting the scammer take over the account without ever seeing a password at all. Once inside, the attacker drains any purchased Robux or limited-edition items to resell, uses the compromised account to spread the same "free Robux" link to the victim\'s own friends list, and may pivot to a linked email or reused password to reach other accounts entirely. Roblox\'s own safety team states flatly that free Robux, subscription, or currency generators, hacks, and shortcuts offered by any outside site, video, or game are always a scam and a violation of its terms of service, and recommends enabling two-step verification, never entering account credentials on any site besides roblox.com, and reporting compromised accounts directly through Roblox\'s account-recovery process rather than any "restore my Robux" link a scammer offers afterward.',
+    categorySlug: 'account-takeover',
+    country: 'US',
+    alertLevel: 'medium',
+    sources: ['Roblox Corporation', 'Federal Trade Commission'],
+    sourceUrl: 'https://en.help.roblox.com/hc/en-us/articles/204262550-Free-Robux-or-Subscription-Generators',
+  },
 ];
 
 async function seedCategoriesAndScams() {
