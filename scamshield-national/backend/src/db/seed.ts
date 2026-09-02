@@ -22581,6 +22581,44 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Tribunal Judiciaire de Paris', 'Gendarmerie Nationale (AlerteCyberGend)'],
     sourceUrl: 'https://www.universfreebox.com/article/596631/free-mobile-et-bnp-paribas-condamnes-apres-le-vol-de-pres-de-17-000-e-a-une-abonnee-sfr-dont-la-ligne-avait-ete-usurpee',
   },
+  {
+    name: 'Brilliant Minds Services AI-Fabricated Minnesota Medicaid Housing Fraud',
+    slug: 'mn-brilliant-minds-housing-stabilization-ai-medicaid-fraud',
+    description:
+      'Moktar Hassan Aden, Mustafa Dayib Ali, Khalid Ahmed Dayib, and Abdifitah Mohamud Mohamed set up Brilliant Minds Services LLC out of the Griggs-Midway Building in St. Paul and enrolled it as a provider under Minnesota\'s now-defunct Housing Stabilization Services (HSS) program, a Medicaid benefit meant to help seniors and people with disabilities, mental illness, or substance use disorders find and keep stable housing. Between April 2022 and April 2025 the four men signed up roughly 350 Medicaid recipients for HSS and then billed the program for home-visit and housing-support services that were never provided or were billed at inflated rates — and when investigators and program auditors demanded documentation to back up the claims, the men used the AI chatbot ChatGPT to generate fabricated case notes and support records to make the fictitious services look real, stealing approximately $2.2 million in taxpayer-funded Medicaid dollars. In separate hearings held between July 7 and July 23, 2026, each of the four pleaded guilty to one count of wire fraud, a charge carrying a maximum 20-year federal sentence; announcing the pleas, the Justice Department\'s Assistant Attorney General Colin M. McDonald said "taxpayer dollars designed to provide shelter and support for the homeless and needy instead went to the pockets of these men." The case is part of a broader pattern of AI-assisted fraud against Minnesota\'s social-service programs the Justice Department has been prosecuting, and it underscores that a provider\'s paperwork alone is no longer proof a billed service actually happened — benefit recipients and their families who never received a visit or service that shows up on an insurer\'s or Medicaid statement should report it, since the fabricated record was built specifically to survive exactly that kind of audit.',
+    categorySlug: 'healthcare-fraud',
+    country: 'US',
+    state: 'MN',
+    isHistorical: true,
+    firstRecorded: '2022-04-01',
+    sources: ['U.S. Department of Justice', 'U.S. Attorney\'s Office, District of Minnesota'],
+    sourceUrl: 'https://www.justice.gov/opa/pr/four-men-plead-guilty-2m-minnesota-medicaid-fraud',
+  },
+  {
+    name: 'Aiken "Forged Will" Scheme to Steal a Dementia Patient\'s $20 Million Estate',
+    slug: 'sc-aiken-forged-will-estate-theft',
+    description:
+      'Mary Margaret Wenzel Crandall was an 88-year-old Aiken, South Carolina woman suffering from dementia and psychosis when, sometime during the pandemic, a will was executed in her name purporting to leave her roughly $20 million estate entirely to Thomas Allen Bateman Jr., a local funeral-home figure and former South Carolina House candidate; the document also named Cody Lee Anderson as personal representative, entitling him to a five-percent executor\'s fee worth roughly $1 million. Investigators with the FBI\'s Columbia Field Office and the South Carolina Attorney General\'s Vulnerable Adults and Medicaid Provider Fraud (VAMPF) unit found that witnesses never actually saw Crandall sign the document and that handwriting analysis pointed to a forged signature, while medical evidence showed she lacked the mental capacity at the time to make an informed decision about her assets — and in an apparent sign of consciousness of guilt, Anderson asked to be removed as personal representative in 2021 and withdrew his claims on the estate after Crandall died in January 2022. A federal grand jury indicted Bateman in May 2024 and added Anderson in a July 2024 superseding indictment; both men pleaded guilty to conspiracy to commit bank fraud, and on September 16, 2025, U.S. District Judge Joseph F. Anderson Jr. sentenced each to 24 months in federal prison followed by three years of supervised release. Families who suspect a will was altered or fabricated for a relative with declining mental capacity should request the original signing file from the drafting attorney or notary and can report suspected exploitation of a vulnerable adult to the South Carolina Attorney General\'s VAMPF unit, which investigates exactly this kind of estate theft alongside more familiar Medicaid fraud complaints.',
+    categorySlug: 'identity-theft',
+    country: 'US',
+    state: 'SC',
+    isHistorical: true,
+    firstRecorded: '2020-06-01',
+    sources: ['U.S. Attorney\'s Office, District of South Carolina', 'South Carolina Attorney General\'s Office (VAMPF Unit)'],
+    sourceUrl: 'https://www.justice.gov/usao-sc/pr/aiken-men-sentenced-federal-prison-defrauding-elderly-woman-will-scheme',
+  },
+  {
+    name: 'American Mint "Bait and Hook" Collectibles Subscription Scheme',
+    slug: 'pa-american-mint-collectibles-subscription-scheme',
+    description:
+      'American Mint LLC, a collectibles company based in Mechanicsburg, Pennsylvania, advertised commemorative coins and other collectibles through direct mail, phone offers, print ads, and its website at steeply reduced or "free" introductory prices, but the Pennsylvania Attorney General\'s Office found the offers were a bait-and-hook: accepting one silently enrolled the customer in an ongoing subscription plan that shipped and billed for additional items unless the customer caught the terms buried in the fine print and canceled within a narrow 20-day return window, and confusing, hard-to-parse invoices made it difficult for customers to even realize they had been enrolled. More than 200 Pennsylvania consumers filed complaints before Attorney General Dave Sunday\'s office sued under the state\'s Unfair Trade Practices and Consumer Protection Law; a Consent Petition for Final Decree filed in Cumberland County Court of Common Pleas on October 30, 2025 required American Mint to pay $750,000 in consumer restitution and costs, permanently end its negative-option subscription plans, stop all collection activity on the nearly 200,000 consumer accounts tied to the program, discharge outstanding balances already sent to collections, and clearly disclose subscription terms and obtain explicit consent before enrolling anyone going forward. "Negative option features are a breach of state consumer laws as they are deceptive practices designed to enroll consumers into future purchases," Sunday said in announcing the settlement. Anyone who ordered a "free" or steeply discounted item by mail or phone and later found unexpected charges or shipments on a credit card statement should read the original order confirmation for the words "subscription" or "club" before assuming the charge is fraud, then dispute continued billing with the card issuer once the company itself refuses to cancel.',
+    categorySlug: 'online-shopping-scams',
+    country: 'US',
+    state: 'PA',
+    isHistorical: true,
+    sources: ['Pennsylvania Office of Attorney General'],
+    sourceUrl: 'https://www.attorneygeneral.gov/taking-action/ag-sunday-reaches-750k-settlement-with-mechanicsburg-based-collectibles-company-over-negative-option-subscription-practices/',
+  },
 ];
 
 async function seedCategoriesAndScams() {
