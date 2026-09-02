@@ -4447,6 +4447,54 @@ Grant was declared bankrupt in 1877 as his creditors caught up with him, tried a
 Grant became notorious enough in his own lifetime that novelist Anthony Trollope used him as the model for Augustus Melmotte, the fraudulent financier at the center of "The Way We Live Now" (1875), a novel Trollope wrote specifically to skewer the culture of speculative company promotion Grant embodied. More than a century later, Leicester Square still bears no trace of the fraud that helped pay for it; it remains one of central London's most-visited public spaces, a rare case of a Victorian swindler's money leaving behind something the public still genuinely uses.`,
     sourceUrl: 'https://en.wikipedia.org/wiki/Albert_Grant_(company_promoter)',
   },
+  {
+    title: 'Mark Hofmann: The Mormon Document Forger Who Killed to Protect His Fakes',
+    slug: 'mark-hofmann-mormon-document-forger-bombings',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Mark Hofmann grew up in a devout Mormon family in Salt Lake City and, from his teenage years, was fascinated with rare documents and how they were made — he later claimed he had forged a coin as a teenager and gotten away with it. By the late 1970s he had turned that skill into a business, presenting himself to the Church of Jesus Christ of Latter-day Saints and to private collectors as a dealer with an uncanny knack for turning up long-lost pieces of Mormon history.
+
+His most consequential creation was the "Salamander Letter," a purported 1830 letter from early Mormon witness Martin Harris that recast the church's founding story — describing a white salamander, rather than an angel, guiding Joseph Smith to the golden plates. Hofmann sold it in 1984 for $40,000 to businessman Steven Christensen and Gary Sheets, who intended to donate it to the church; the letter set off a controversy inside Mormon scholarship precisely because it was subversive enough to feel authentic. Over roughly five years, church archivists and private collectors bought at least 446 Hofmann forgeries in total — letters, deeds, even a supposed pre-Mayflower "Oath of a Freeman" — worth well over a million dollars combined.
+
+By October 1985, Hofmann had promised documents he had not actually produced and owed money he did not have. On October 15, he planted two pipe bombs in Salt Lake City, killing Christensen at his office and Kathleen Sheets, Gary Sheets's wife, at their home — killings investigators later concluded were meant to delay creditors and distract from his unraveling finances. The next day, a third bomb detonated inside Hofmann's own car, badly injuring him and turning him from forger into suspect.
+
+The bombing investigation exposed the forgeries themselves. Document examiners, working from a recipe for period iron-gall ink found in a book seized from Hofmann's home, discovered he had synthesized his own ink and artificially aged paper with ammonia fumes and ozone to mimic decades of oxidation — a technique convincing enough to fool outside experts, but one that left a microscopic "alligator" cracking pattern under magnification that genuine 19th-century ink did not show. Confronted with the forensic case against him, Hofmann pled guilty in January 1987 to two counts of second-degree murder and to theft by deception, and was sentenced to life in prison, where he remains.
+
+The case forced the LDS Church to publicly reassess and correct parts of the historical record it had built partly on Hofmann's fabrications, and it reshaped the science of forensic document examination — the ink formula he unknowingly left behind became a textbook study in how forged historical documents get caught. It has stayed in public view through the book "Salamander" and the 2021 Netflix documentary "Murder Among the Mormons."`,
+    sourceUrl: 'https://en.wikipedia.org/wiki/Mark_Hofmann',
+  },
+  {
+    title: 'Jake "the Barber" Factor: The Stock Swindler Who Faked His Own Kidnapping',
+    slug: 'jake-the-barber-factor-faked-kidnapping-stock-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `John "Jake the Barber" Factor was born in Poland and raised on Chicago's West Side, where he drifted from bootlegging into confidence schemes and built ties to Al Capone's organization. His nickname came from an early career cutting hair, but his real trade was selling worthless securities to people who had no way to check what he told them.
+
+In 1923, Factor pulled off what was described at the time as one of the largest stock swindles in European history: with financial backing reportedly arranged through New York gambler Arnold Rothstein, he sold British and European investors shares in bogus mining and oil ventures, walking away with millions of dollars before the operation collapsed. British authorities tried him in absentia and sentenced him to a lengthy prison term, and by the early 1930s London was pressing the United States to extradite him to serve it.
+
+Facing extradition in 1933, Factor staged his own kidnapping. He disappeared for several days, then resurfaced claiming he had been abducted and held for ransom — and pointed the finger at Roger "Terrible" Touhy, a rival Chicago bootlegger who stood in the way of the Capone organization's expansion into his territory. American authorities, reluctant to hand a supposed kidnapping victim back to Britain, let the extradition request quietly lapse. Touhy was convicted on Factor's account and spent 26 years in prison before a federal judge ruled in 1959 that the kidnapping had been fabricated and ordered him released; Touhy was shot dead in the street within weeks of walking free.
+
+Factor's own reckoning came a decade later: in 1943 he was convicted of mail fraud over a scheme selling fraudulent bonded-whiskey warehouse receipts, drew a ten-year federal sentence, and served roughly six years before release on parole around 1948.
+
+Rather than fade away, Factor reinvented himself again — as a Las Vegas casino financier with a stake in the Stardust — and in 1962, after donating heavily to John F. Kennedy's presidential campaign, received a full pardon that erased his whiskey-fraud conviction and let him keep his U.S. citizenship. He died in Los Angeles in 1984, having spent six decades staying a step ahead of the consequences of his own fabrications — consequences that, in Roger Touhy's case, fell on someone else instead.`,
+    sourceUrl: 'https://en.wikipedia.org/wiki/John_Factor',
+  },
+  {
+    title: 'Ernest Terah Hooley: The Company Promoter Who Sold Dunlop and Bovril to a Credulous Public',
+    slug: 'ernest-terah-hooley-company-promoter-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Ernest Terah Hooley was a Nottingham lace merchant's son who, in the 1890s, discovered a more lucrative trade than lace: buying up promising private businesses cheaply and reselling them to the investing public at a steep markup, dressed up with a glossy prospectus and a board stacked with titled directors who lent respectability rather than expertise.
+
+His signature deal was the Dunlop Pneumatic Tyre Company. Hooley bought it in 1896 for roughly £3 million — already above the £2.5 million the founders themselves thought it was worth — and floated it on the London Stock Exchange days later at a valuation near £5 million, pocketing the difference. He ran the same play with bicycle maker Raleigh, the Schweppes soft-drink business, and the Bovril beef-extract brand, and paid handsomely to keep friendly coverage of his flotations running in the financial press.
+
+The formula depended on a constant supply of fresh investor money and a public willing to take the puffery at face value, and it could not survive real scrutiny. By 1898 a Pall Mall Gazette investigation totted up the damage: the 17 companies Hooley had promoted had lost more than half their combined market value since listing, wiping out roughly £4.3 million of investors' money — worth several hundred million pounds today. Hooley himself was declared bankrupt that same year, the first of four bankruptcies in his lifetime.
+
+Civil ruin did not end his career. In 1912 he was convicted at the Old Bailey of fraudulently promoting the Jubilee Cotton Mills — a company built around shares, and even a mill, that turned out not to exist — and was sentenced to twelve months in prison; a decade later, in 1922, he was convicted again over the same company's finances and given three years' penal servitude.
+
+Hooley died in 1947, having gone from multimillionaire company promoter to twice-convicted fraudster and four-time bankrupt without ever fully losing his talent for finding new investors. Historians of British finance still cite his career — Dunlop and Bovril above all — as a template for a distinctly Edwardian style of fraud: real, recognizable brands used to lend credibility to wildly inflated share prices, sold to a public with no independent way to check the promoter's numbers.`,
+    sourceUrl: 'https://en.wikipedia.org/wiki/Ernest_Terah_Hooley',
+  },
 ];
 
 // Practical "how it works / red flags / what to do" guides covering the
@@ -19266,6 +19314,51 @@ const SEED_SCAMS: SeedScam[] = [
     alertLevel: 'medium',
     sources: ['New Mexico Department of Justice, Office of the Attorney General'],
     sourceUrl: 'https://nmdoj.gov/press-release/new-mexico-attorney-general-raul-torrez-files-lawsuit-against-disabled-veterans-consultants-inc-for-defrauding-new-mexican-veterans/',
+  },
+  {
+    name: 'Sterling New Life Lease Retiree Housing Scheme',
+    slug: 'sterling-new-life-lease-retiree-housing-scheme',
+    description:
+      'The Perth-based Sterling Group marketed its "Sterling New Life Lease" to retirees and seniors as a way to release the equity in their home for a secure, long-term residential lease of up to 40 years, while steering many of the roughly 101 people who signed up into related investment products meant to fund their ongoing rent — 63 into the Sterling Income Trust (managed by Theta Asset Management) and 38 into "Silverlink" preference shares. The arrangement was so complex that ASIC later found the accompanying disclosure documents, running over 100 pages, would have been difficult for an experienced lawyer to fully understand, let alone an elderly retiree assessing whether their home and life savings were actually secure. When the Sterling Group collapsed into external administration in May 2019, tenants — some in their 80s — were left facing eviction from homes they believed they had secured for life, with 82% of investors ultimately losing more than $100,000 each in the roughly $18.5 million collapse. The Federal Court found in November 2020 that Theta Asset Management and its managing director Robert Marie had breached the Corporations Act through defective disclosure, fining Theta $2 million and banning Marie from providing financial services for four years, while Sterling Group founder Raymond Jones, his son Ryan Jones, and associate Simon Bell were separately charged in 2023 with multiple counts of aiding and abetting dishonest conduct and, having pleaded not guilty, are now awaiting a criminal trial listed for 2027. ASIC has pointed to Sterling as a cautionary example of retirees being persuaded to entangle their home and retirement savings in a single complex, related-party investment structure they had no independent way to evaluate.',
+    categorySlug: 'investment-fraud',
+    country: 'AU',
+    alertLevel: 'low',
+    sources: ['Australian Securities and Investments Commission (ASIC)'],
+    sourceUrl: 'https://www.asic.gov.au/about-asic/asic-investigations-and-enforcement/enforcement-activities/sterling-group-investigation',
+  },
+  {
+    name: 'HSBC Australia Scam-Protection Failures Enforcement Action',
+    slug: 'hsbc-australia-scam-protection-failures-enforcement-action',
+    description:
+      'Between January 2020 and August 2024, HSBC Bank Australia received roughly 950 reports of unauthorised transactions from customers whose accounts scammers had accessed by impersonating HSBC staff over the phone, totalling about $23 million in losses — with some individual customers losing $90,000 or more and nearly $16 million lost in just the six months from October 2023 to March 2024 alone. ASIC alleged in Federal Court proceedings filed in December 2024 that HSBC Australia\'s failures were widespread and systemic: the bank knew from at least January 2023 that gaps existed in its fraud controls, left its internal transfer system inadequately protected between May 2023 and May 2024, and took an average of 145 days to investigate a customer\'s unauthorised-transaction report and 95 days to restore account access, with one customer waiting 542 days. HSBC admitted to the failures, and in June 2026 the Federal Court ordered the bank to pay a $35 million civil penalty on top of the $21.5 million it had already paid affected customers in compensation and $6.5 million it recovered and returned. The case is one of the largest scam-related penalties ever imposed on an Australian bank, and a reminder that a scam beginning with a caller impersonating your own bank can be compounded by the bank\'s own failure to detect and unwind the resulting unauthorised transfers quickly.',
+    categorySlug: 'account-takeover',
+    country: 'AU',
+    isHistorical: true,
+    firstRecorded: '2020-01-01',
+    sources: ['Australian Securities and Investments Commission (ASIC)'],
+    sourceUrl: 'https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-126mr-35-million-penalty-sought-as-hsbc-admits-to-scam-protection-failures-and-implements-compensation-plan',
+  },
+  {
+    name: 'Camp Lejeune Justice Act Claims Impersonation Scam',
+    slug: 'camp-lejeune-justice-act-claims-scam',
+    description:
+      'Because more than a million service members, civilian workers, and their families lived at or near Marine Corps Base Camp Lejeune while its water was contaminated with industrial solvents between the 1950s and 1980s, the real compensation program created by the 2022 Camp Lejeune Justice Act has become an attractive backdrop for fraud. Scammers contact veterans and family members by phone, text, or email posing as Department of Justice attorneys, Navy claims officials, or affiliated law firms, sometimes citing real case details to sound credible, and either demand an upfront "filing fee" to process a claim or harvest Social Security numbers, military records, and banking details under the guise of "verifying eligibility." The Department of Justice and the Department of the Navy issued a joint public warning in January 2024 stating flatly that neither agency will ever request payment to file a Camp Lejeune claim, and the FTC has repeated that warning as claims continue to be processed years later. Anyone contacted about a Camp Lejeune claim should independently verify the caller through the Navy\'s Camp Lejeune Claims Unit at (757) 241-6020 or CLCLaims@us.navy.mil rather than any number or link supplied in the outreach itself, and should never pay a fee or share a Social Security number to "start" or "release" a claim.',
+    categorySlug: 'government-impersonation',
+    country: 'US',
+    alertLevel: 'medium',
+    sources: ['U.S. Department of Justice', 'U.S. Department of the Navy', 'Federal Trade Commission'],
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2024/01/filing-camp-lejeune-justice-act-claim-heres-how-spot-avoid-scams',
+  },
+  {
+    name: 'Forged Grading-Label Trading Card Fraud',
+    slug: 'counterfeit-psa-graded-trading-card-fraud',
+    description:
+      'As sports and Pokémon card values have surged, a third-party grading label from a company like PSA, BGS, or CGC has become the thing collectors actually pay for — and the thing fraudsters counterfeit, either by forging a fake grading label and slab outright or by cracking open a genuine slab, swapping in a lower-grade card, and resealing it to look untouched. Federal prosecutors in the Southern District of New York convicted a New York man in a scheme that ran from 2022 through May 2024, in which he and a co-defendant sold and attempted to sell forged, high-grade PSA labels on cards — including one Michael Jordan rookie card resold three times with three different forged grades — to victims nationwide through eBay, card shops, and card shows, defrauding buyers of more than $2 million. When confronted by a suspicious buyer, the defendant would simply refund the purchase, take the card back, and resell the same forged card to a new victim. Collectors can protect themselves by looking up any graded card\'s certification number directly on the grading company\'s own official database before buying — a mismatched or missing cert number is definitive proof of a fake — and by treating a graded card priced well under market value, or a seller unwilling to show the cert number clearly, as a red flag.',
+    categorySlug: 'online-shopping-scams',
+    country: 'US',
+    alertLevel: 'medium',
+    sources: ['U.S. Attorney\'s Office, Southern District of New York'],
+    sourceUrl: 'https://www.justice.gov/usao-sdny/pr/perpetrator-nationwide-sports-and-pokemon-trading-card-fraud-convicted',
   },
 ];
 
