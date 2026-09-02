@@ -5823,6 +5823,57 @@ This works especially well on politically engaged people precisely because they 
 
 Before donating to any political group, especially in response to an unsolicited call or text, look it up independently through the FEC's own committee database at fec.gov, and be skeptical of any PAC that reports unusually high spending on fundraising, consulting, or "administrative" costs relative to what it actually gives to campaigns. Donate directly through a candidate's or an established organization's own verified website rather than through a link in a text or a payment request over the phone, and never send money in response to a claim that you already pledged a donation you don't remember making. Report suspected scam PACs and election-related fraud to the FBI's Internet Crime Complaint Center at ic3.gov and to the Federal Election Commission's Office of Inspector General.`,
   },
+  {
+    title: 'Fake Vehicle Recall Notices: When "Urgent Recall" Mail Is Really a Sales Pitch',
+    slug: 'fake-vehicle-recall-notice-scam-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'vehicle-recall-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/VIN_-_IMG_0467.JPG?width=1200',
+    coverImageCredit: 'Photo: Hans Haase (CC BY-SA 3.0)',
+    coverImagePosition: 50,
+    sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2018/10/washington-dc-area-car-dealerships-marketing-firm-settle-deceptive-advertising-charges',
+    body: `A postcard, letter, text, or phone call arrives stamped with bold red letters reading "URGENT RECALL NOTICE," warning that a specific vehicle has an open safety recall and instructing the owner to bring it to a named dealership or service center right away. The notice looks and reads like something a manufacturer or a federal safety regulator would send — official-sounding language, a case or reference number, sometimes even a deadline. In a case the FTC settled in 2018, a group of Washington, D.C.-area dealerships and a marketing firm were caught mailing more than 21,000 of these "urgent recall" postcards to Toyota and Nissan owners, and the FTC found that the vast majority of the vehicles named in those notices had no actual open recall at all.
+
+The pitch works because it borrows the credibility of a genuinely serious category of mail: real safety recalls exist, they do arrive by mail, and ignoring one can leave a defective airbag, brake system, or fuel line unrepaired. A notice that mimics that format short-circuits the skepticism a person would normally apply to an unsolicited sales pitch, because it's framed as a safety matter rather than a marketing one — and unlike most junk mail, a recall notice is the rare piece of mail people feel they shouldn't ignore. Once the owner shows up at the dealership expecting a free recall repair, the visit becomes an opportunity to sell an unrelated, unnecessary repair or a paid service contract instead.
+
+The clearest warning sign is the sender: a real recall notice comes from the vehicle's manufacturer, not from an individual dealership or a marketing company, and it directs the owner to any authorized dealer, not one specific location. A second red flag is any request for payment — a phone caller or a notice demanding a fee to "process," "schedule," or "expedite" a recall repair is not legitimate, because federal law requires recall repairs to be performed free of charge for as long as the recall remains open. Pressure to act immediately, and any request for a Social Security number, credit card, or bank details to "verify eligibility" for a recall, are both signs of a scam layered on top of the fake notice.
+
+The reliable way to check any recall claim is to ignore the notice entirely and look the vehicle up independently: go to NHTSA.gov/Recalls and enter the vehicle's VIN, found on the dashboard by the windshield or on the driver's-side doorjamb, to see every open recall for free, or call the National Highway Traffic Safety Administration's Vehicle Safety Hotline at 1-888-327-4236. If a dealership is pressuring a visit based on a notice that doesn't check out, or asking for money to perform recall work, treat it as a deceptive sales tactic rather than a safety obligation. Report a suspected fake recall notice to the FTC at ReportFraud.ftc.gov and to NHTSA.`,
+  },
+  {
+    title: "Diversity Visa Lottery Scams: The \"You've Won\" Notice for a Contest You Never Entered",
+    slug: 'diversity-visa-lottery-scam-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'visa-lottery-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Visa_usa.jpg?width=1200',
+    coverImageCredit: 'Photo: U.S. Department of State (public domain)',
+    coverImagePosition: 50,
+    sourceUrl: 'https://www.ftc.gov/media/79859',
+    body: `An email, letter, or phone call announces that the recipient has "won" the U.S. Diversity Visa Lottery — the real State Department program that randomly selects roughly 50,000 people a year for a chance at a U.S. green card — sometimes even though the person never entered. The message asks for a fee to "process," "confirm," or "secure" the win, or directs the recipient to a website that mimics the government's real application portal, harvesting entry fees, passport numbers, and other personal information during the actual October-to-November entry window each year.
+
+The scam works because the real program is genuinely well known and genuinely free, which makes a fake version plausible rather than obviously suspicious — especially to people in countries where demand for U.S. immigration is high and the appeal of a random shot at a green card is significant. The bureaucratic, multi-step nature of the real process, involving an online entry, a status check, and eventually a consular interview, gives a fake "processing fee" or "confirmation payment" room to blend in as one more expected step, particularly for someone unfamiliar with exactly how the U.S. immigration system is supposed to work.
+
+The FTC is direct about the two clearest red flags: the State Department will never send a letter or an email saying an application has been chosen, and it will never ask for a fee in advance for the Diversity Visa Lottery. Any notification of a "win" that arrives unprompted by email, text, or mail is fake by definition, since selection can only be confirmed by checking status directly at the government's own site. A website address that isn't exactly dvlottery.state.gov for entry or dvprogram.state.gov for checking status is not official, no matter how convincing its design looks, and any request to wire money, pay by gift card, or send banking details before a scheduled consular interview is a scam — real DV visa fees are paid only in person, at the U.S. embassy or consulate, at the time of the interview.
+
+Enter and check status only through the official government sites typed in directly, never through a link in an email or text, and never pay anyone to enter the lottery, improve the odds, or learn a result — the process is entirely random and entirely free until an actual embassy appointment is scheduled. If a consulate or "immigration office" contacts you demanding payment, verify it by calling the embassy directly using a number looked up independently rather than one provided in the message. Report suspected Diversity Visa Lottery scams to the FTC at ReportFraud.ftc.gov.`,
+  },
+  {
+    title: 'Unclaimed Property Scams: Why a Text About "Your $2,400 in Unclaimed Funds" Is a Red Flag',
+    slug: 'unclaimed-property-funds-scam-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'unclaimed-property-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Vault%20Door%2C%20Federal%20Hall.jpg?width=1200',
+    coverImageCredit: 'Photo: Spinklink (CC BY-SA 4.0)',
+    coverImagePosition: 50,
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2026/03/how-handle-unexpected-calls-about-unclaimed-funds',
+    body: `An unexpected call, text, or email says the recipient has unclaimed property waiting with the government — an old bank account, an uncashed check, a forgotten security deposit, or a life insurance payout — and names a specific dollar figure to sound credible. The message uses a real-sounding but fake agency name, and often adds pressure: a "processing fee" is needed to release the funds, or the claim window is closing soon unless the recipient acts today.
+
+The pitch works precisely because the underlying premise is true: every state genuinely runs an unclaimed property program, and collectively they hold billions of dollars in forgotten money — old paychecks, dormant accounts, insurance proceeds — that is completely real and completely free to claim. That legitimacy is what a scammer borrows: a specific dollar amount and an official-sounding name make the story feel too concrete to be made up, and because state programs occasionally do reach out about genuine unclaimed funds, a fake version of that same contact doesn't stand out as obviously wrong.
+
+The FTC's guidance is direct about the tells: state unclaimed property programs do not text alerts about unclaimed property, so a text message claiming this is, by that fact alone, a scam. Any request for personal information or an upfront "processing fee," "release fee," or a purchased "bond" before funds can be sent is a scam, since the government never charges to search for or release unclaimed property. Urgency language — "time is running out" or "we've extended the claim period just for you" — is a manufactured pressure tactic layered on top of a legitimate-sounding premise to prevent the recipient from checking independently before reacting.
+
+Don't click links in an unexpected text or call back a number provided in the message. Instead, search for unclaimed property under your own name, for free, at unclaimed.org/search, the site run by the National Association of Unclaimed Property Administrators that links directly to every state's official database — filing a claim with a state treasury costs nothing, ever. If you're contacted about funds you weren't expecting, verify it only through that official channel, never through a link or number the caller supplies. Report suspected unclaimed property scams to the FTC at ReportFraud.ftc.gov.`,
+  },
 ];
 
 async function seedArticles(articles: SeedArticle[], label: string) {
@@ -16645,6 +16696,42 @@ const SEED_SCAMS: SeedScam[] = [
     alertLevel: 'high',
     sources: ['Federal Bureau of Investigation (FBI) Internet Crime Complaint Center (IC3)'],
     sourceUrl: 'https://www.ic3.gov/PSA/2022/PSA220721',
+  },
+  {
+    name: 'Delaware Department of Insurance Spoofed License-Verification Phishing',
+    slug: 'delaware-insurance-department-spoofed-license-verification-phishing',
+    description:
+      'Fraudulent emails spoof the Delaware Department of Insurance\'s own address and impersonate the Department itself to solicit "license verification" from insurance carriers and third-party administrators the agency regulates, through embedded links built to harvest credentials or install malware. The Department issued a formal bulletin confirming it never sends license-verification requests via unsolicited links, and that genuine Department correspondence only ever originates from its own official state email domain. This targets regulated businesses rather than individual consumers, impersonating a specific Delaware regulator with a specific spoofed sender address named in the state\'s own bulletin, distinct from a consumer-facing tax-refund text scam or a fake corporate-compliance mailer.',
+    categorySlug: 'phishing',
+    country: 'US',
+    state: 'DE',
+    alertLevel: 'medium',
+    sources: ['Delaware Department of Insurance'],
+    sourceUrl: 'https://insurance.delaware.gov/wp-content/uploads/sites/15/2025/11/Universally-Applicable-Bulletin-010.pdf',
+  },
+  {
+    name: 'Arizona Empowerment Scholarship Account (ESA) Ghost-Children Fraud',
+    slug: 'arizona-esa-ghost-children-fraud',
+    description:
+      'Arizona\'s Empowerment Scholarship Account program provides state-funded education vouchers to parents; operators living out of state submitted roughly 50 ESA applications using forged birth certificates, utility bills, and lease agreements, with the large majority of the "children" listed on the applications not actually existing. The scheme fraudulently obtained over $110,000 from the program before the Arizona Attorney General\'s Office uncovered it, and the defendants pleaded guilty to fraudulent schemes and forgery. This is one of several similar ESA fraud prosecutions Arizona\'s AG has pursued, illustrating how a specific, named state voucher program can be defrauded via fabricated dependents rather than inflated billing for real recipients, distinct from a healthcare-provider billing fraud case against the same state\'s Medicaid program.',
+    categorySlug: 'public-benefits-fraud',
+    country: 'US',
+    state: 'AZ',
+    alertLevel: 'medium',
+    sources: ['Arizona Attorney General\'s Office'],
+    sourceUrl: 'https://www.azag.gov/press-release/attorney-general-mayes-announces-two-convictions-esa-program-fraud',
+  },
+  {
+    name: 'Missouri Cannabis Microbusiness License Lottery Predatory Consulting Scheme',
+    slug: 'missouri-cannabis-microbusiness-lottery-predatory-consulting-scheme',
+    description:
+      'Missouri\'s marijuana microbusiness license lottery was created to steer a limited number of licenses to disabled veterans, low-income individuals, and people with prior nonviolent marijuana offenses. A cannabis consultant and associates charged eligible applicants thousands of dollars on top of the state\'s own lottery submission fee to enter them in the lottery, then locked winning applicants into contracts that left them with only a minority of voting control or company profits, with exit fees reported in the millions of dollars if an applicant tried to leave the arrangement. Missouri\'s Division of Cannabis Regulation moved to revoke dozens of licenses tied to these arrangements after finding the contracts transferred real ownership and operational control away from the disadvantaged applicants the program was designed to benefit, a genuinely Missouri-specific pattern tied to the state\'s own social-equity microbusiness statute and enforcement, distinct from any other cannabis-licensing or lottery-related scam.',
+    categorySlug: 'public-benefits-fraud',
+    country: 'US',
+    state: 'MO',
+    alertLevel: 'high',
+    sources: ['Missouri Division of Cannabis Regulation'],
+    sourceUrl: 'https://www.stlpr.org/government-politics-issues/2024-12-03/missouri-cannabis-microbusiness-mentor-connected-licenses-state-investigation',
   },
 ];
 
