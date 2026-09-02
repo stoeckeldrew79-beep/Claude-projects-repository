@@ -5393,6 +5393,48 @@ The scheme finally unraveled in 2017 after a Miami real estate developer who had
 Gignac's three-decade run endures as one of the most extreme examples of a fraud sustained almost entirely by performance rather than paperwork — no forged deed, no fabricated bank statement, just a costume, a title, and a willingness to commit to the role for years at a stretch, in a world where questioning a claimed prince's identity risks the same social embarrassment that protected Cassie Chadwick's fictional Carnegie inheritance more than a century earlier. It is the same mechanism regulators still warn about in modern romance scams and "prosperity gospel" investment pitches that borrow a claimed title, credential, or connection to a famous name: verifying the claim is easy, but the social cost of asking is what a confident enough impostor is always counting on.`,
     sourceUrl: 'https://www.justice.gov/usao-sdfl/pr/south-florida-resident-sentenced-more-eighteen-years-prison-impersonating-member-saudi',
   },
+  {
+    title: 'The Bidwell Brothers and the 1873 Forgery That Nearly Broke the Bank of England',
+    slug: 'bidwell-brothers-bank-of-england-forgery-1873',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `George Bidwell and his younger brother Austin Biron Bidwell were American career forgers before either of them ever set foot in London. George had already served two years for defrauding grocers in West Virginia; Austin, still in his early twenties, had built a reputation as a skilled bank forger back in the United States. In 1871 the two crossed the Atlantic with a far larger target in mind than any American bank had offered them: the Bank of England itself, then as now one of the most trusted financial institutions in the world.
+
+The plan required patience most confidence schemes never bother with. Austin, posing as a wealthy American railway financier under the alias "Frederick Albert Warren," opened a legitimate deposit account at the Bank's fashionable West End branch in Burlington Gardens, Mayfair, and spent months depositing genuine bills of exchange to build a track record of respectability and easy credit. He recruited two accomplices to help sustain the illusion: George MacDonnell, a Harvard-educated forger he'd met while imprisoned at Sing Sing, and Edwin Noyes, brought in to convert the eventual proceeds into cash and securities. Only once "Mr. Warren" was a trusted, established customer did the brothers introduce forged bills into the stream of genuine ones passing through his account — and because the branch had no reason to doubt a client it had spent months coming to know, the forgeries went unchallenged.
+
+Between January 21 and February 28, 1873, the gang forged and discounted more than ninety bills of exchange, extracting £102,217 from the Bank — an amount worth roughly £10 million in today's money — before a single clerical slip brought the whole scheme down. Two of the bills went out without a date of acceptance, and when the Bank routinely sent them to the supposed accepting firm, Blydenstein & Co., for confirmation on March 1, the firm immediately declared them forgeries. Within days Noyes was arrested at his London bank; the others scattered, but none got far. MacDonnell was picked up in New York, Austin Bidwell was captured in Havana, and George Bidwell was finally run down in Edinburgh.
+
+All four were convicted at the Old Bailey and sentenced to life imprisonment — deliberately severe, contemporaries said, to reassure a shaken financial world that the Bank of England's credit remained sound. George Bidwell was released in 1887 on grounds of failing health, and Austin followed in 1892; the brothers went on to write competing memoirs of the affair and toured giving lectures on their exploits, an odd late-Victorian afterlife for two men who had come close to embarrassing the world's most important bank. George and Austin died within weeks of each other in March 1899, while on a joint lecture tour in Butte, Montana. The case remains a foundational study in "patient" fraud: the forged instrument itself was almost incidental to the real con, which was months of manufactured trust deliberately built up before it was ever spent.`,
+    sourceUrl: 'https://en.wikipedia.org/wiki/1873_Bank_of_England_forgeries',
+  },
+  {
+    title: 'Stanley Clifford Weyman: The Brooklyn Impostor Who Reinvented Himself for Fifty Years',
+    slug: 'stanley-clifford-weyman-serial-impostor',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Stanley Clifford Weyman was born Stephen Jacob Weinberg in Brooklyn in 1890, the son of a family that couldn't afford to send him to college. Rather than accept an ordinary working life, Weyman spent the next five decades becoming, briefly and repeatedly, whoever the situation called for — a diplomat, a naval officer, a physician, a military attaché — with a fluency that repeatedly got him further than most professional con artists ever manage, even though the money he extracted was often almost beside the point.
+
+His first documented imposture came in 1910, posing as a U.S. consular representative to Morocco to secure meals and credit at fine New York restaurants. He escalated from there: in the early 1910s he alternated between posing as a Serbian military attaché and a U.S. Navy lieutenant, each identity lending fake credibility to the other. His most theatrical stunt came in 1915, when — dressed in, by one account, "a stunning light-blue uniform dripping with gold braid and wearing an admiral's hat" — he presented himself as a lieutenant commander and Romanian consul general and talked his way aboard the USS Wyoming for a full inspection tour, complete with a 21-gun salute from a crew that had no reason to doubt him. He was arrested at a dinner celebrating the "inspection" and served a year in prison, the first of at least thirteen prison stints that would punctuate his life.
+
+Weyman's most consequential con came in 1921, when, posing as a U.S. State Department naval liaison officer, he approached a visiting Afghan princess and convinced her he could arrange meetings with Secretary of State Charles Evans Hughes and President Warren Harding in exchange for roughly $10,000 in "gifts" and fees. Remarkably, he delivered — genuinely securing her audiences with both men before small errors in diplomatic protocol aroused suspicion and led to his arrest and a two-year sentence. He kept going regardless: in 1926 he posed as the personal physician of actress Pola Negri at Rudolph Valentino's funeral, issuing statements to the press on her condition; during World War II he served seven years for advising men on how to fake medical conditions to dodge the draft; and as late as 1948, in his late fifties, he was posing as a journalist covering the United Nations, befriending real delegates including Andrei Gromyko, until a diplomatic appointment offer exposed him as a fraud.
+
+Weyman's career finally ended not through a con but through simple bad luck: in 1960, working an ordinary job as a night porter at a Yonkers, New York hotel, he tried to intervene in an armed robbery and was shot and killed. He was 69. Unlike most fraudsters in this collection, Weyman rarely pursued large sums of money as an end in itself — investigators and journalists who covered him repeatedly noted that what he seemed to want most was the experience of being, if only for an afternoon, someone important. That distinction doesn't make his impostures harmless: he defrauded a foreign princess of real money and used fabricated authority to access genuine government officials and military assets. It does make him a useful case study in a fraud pattern that persists today, from fake "government inspectors" to online impersonators of officials and executives — that a confident enough performance of legitimate authority can open doors that a request for money alone never would.`,
+    sourceUrl: 'https://en.wikipedia.org/wiki/Stanley_Clifford_Weyman',
+  },
+  {
+    title: 'Edward Okun and the $126 Million 1031 Exchange Fraud That Ended in a 100-Year Sentence',
+    slug: 'edward-okun-1031-tax-group-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Edward Okun built a career as a Virginia real estate investor before acquiring The 1031 Tax Group LLP, a company that served as a "qualified intermediary" for a specific, obscure corner of the tax code: Section 1031 like-kind exchanges, which let real estate investors defer capital gains taxes by routing the proceeds of a property sale through an intermediary and into a replacement property within a set window, rather than taking the cash directly. To qualify, the seller's funds had to sit untouched with the intermediary in the interim — a structure that requires investors to hand over large sums of money and simply trust that it will still be there weeks or months later.
+
+Okun didn't keep that trust. Between August 2005 and April 2007, he used 1031TG and a network of subsidiary qualified-intermediary companies he acquired to misappropriate roughly $126 million in client escrow funds, diverting the money into his own commercial real estate holdings, his personal spending, and the acquisition of yet more intermediary firms whose client funds he could then also draw on — a structure that let him keep the scheme running by continuously expanding the pool of new deposits available to cover what he'd already taken. Investigators later detailed how he also engaged in bulk cash smuggling, directing employees at his Richmond office to withdraw $15,000 increments — just under the amount that triggers federal reporting requirements — and physically transport the cash to his personal yacht in the Bahamas.
+
+The scheme collapsed in 2007 when 1031TG and its affiliated companies filed for bankruptcy, leaving clients who had entrusted their sale proceeds to the company mid-exchange suddenly unable to recover their money or complete their transactions, in many cases triggering the very capital-gains tax bills the exchange had been designed to defer. A joint investigation by the FBI, IRS, and U.S. Postal Inspection Service followed, and a federal jury in Richmond convicted Okun on March 19, 2009, of conspiracy to commit mail and wire fraud, wire fraud, conspiracy to commit money laundering, money laundering, bulk cash smuggling, and perjury. In August 2009 he was sentenced to 100 years in federal prison — one of the longest sentences ever handed down in a U.S. fraud case — and the Fourth Circuit Court of Appeals upheld both the conviction and the sentence in 2011. Okun died in federal prison in 2024 at age 69, having served roughly 15 years of the term.
+
+The 1031TG collapse became a cautionary case study for an entire industry: because qualified intermediaries in 1031 exchanges were then largely unregulated and unbonded in most states, investors had no reliable way to verify that the escrow funds they'd been told were safely held were actually intact, and several states tightened bonding and segregated-account requirements for exchange intermediaries in the years afterward. It's a pattern that recurs whenever a legitimate-sounding intermediary role — an escrow agent, a title company, a "trust account" administrator — sits unmonitored between a customer's money and its intended destination: the trust the role requires is exactly what makes it exploitable.`,
+    sourceUrl: 'https://www.justice.gov/archives/opa/pr/business-owner-sentenced-100-years-his-role-scheme-defraud-clients-funds-allegedly-held-trust',
+  },
 ];
 
 // Practical "how it works / red flags / what to do" guides covering the
@@ -22808,6 +22850,40 @@ const SEED_SCAMS: SeedScam[] = [
     alertLevel: 'medium',
     sources: ['Roblox Corporation', 'Federal Trade Commission'],
     sourceUrl: 'https://en.help.roblox.com/hc/en-us/articles/204262550-Free-Robux-or-Subscription-Generators',
+  },
+  {
+    name: 'Canadian Crypto "Task Scam" Job Offer',
+    slug: 'canada-crypto-task-scam-job-offer',
+    description:
+      'A message on WhatsApp, Telegram, or a job board — sometimes using the real name of a well-known Canadian retailer or app to look legitimate — offers flexible remote work "boosting" products, apps, or video views using software the recruiter provides. After installing the software and creating an account, the worker completes small tasks and receives a modest payout or commission deposited into a crypto wallet, just enough to prove the job pays out and build trust. Once that trust is established, "leveling up" to higher-paying task batches requires depositing the worker\'s own money into the same wallet to "unlock" the next round of orders, and any funds already earned or deposited become permanently unwithdrawable once the operator disappears. The Canadian Anti-Fraud Centre recorded $47 million in job-opportunity fraud losses in 2024 and $22.7 million in just the first quarter of 2025, and flags any job offer involving a crypto wallet, an investment-style "unlock" step, or a request to fund the platform with the worker\'s own money before being paid as the hallmark of this specific scheme — a distinct pattern from ordinary overpayment-cheque job scams because here the worker is the one sending money in, not receiving and returning it.',
+    categorySlug: 'employment-scams',
+    country: 'CA',
+    alertLevel: 'high',
+    sources: ['Canadian Anti-Fraud Centre'],
+    sourceUrl: 'https://antifraudcentre-centreantifraude.ca/scams-fraudes/job-emploi-eng.htm',
+  },
+  {
+    name: 'Canadian Business Email Compromise (Vendor Payment Redirect) Scam',
+    slug: 'canada-business-email-compromise-vendor-redirect-scam',
+    description:
+      'A fraudster gains access to, or closely spoofs, the email account of a company\'s actual vendor, contractor, or supplier — the RCMP notes spoofed addresses are often altered by a single character, such as swapping a hyphen for an underscore — and inserts themselves into an ongoing invoice or payment conversation with a Canadian business\'s accounts-payable staff. Posing as the real vendor, the fraudster asks for future payments to be redirected to "updated" banking details that actually belong to an account the fraudster controls, and because the request arrives inside an email thread the employee already trusts, wire transfers or e-transfers worth hundreds of thousands to millions of dollars go out before anyone independently verifies the change. RCMP detachments in Nova Scotia and British Columbia both issued fresh public alerts in late 2025 describing a sharp increase in this pattern hitting Canadian businesses and organizations. The RCMP\'s recommended defense is to confirm any change to banking or payment details by calling the vendor directly at a phone number already on file, never one supplied in the email requesting the change.',
+    categorySlug: 'business-email-compromise',
+    country: 'CA',
+    alertLevel: 'high',
+    sources: ['Royal Canadian Mounted Police'],
+    sourceUrl: 'https://www.rcmp.ca/en/federal-policing/cybercrime/cyber-features/business-email-compromise',
+  },
+  {
+    name: 'CEWS Wage Subsidy Fraud Using Stolen CRA Business Credentials',
+    slug: 'canada-cews-wage-subsidy-credential-theft-fraud',
+    description:
+      'During the COVID-19 pandemic, fraudsters obtained compromised "Represent a Client" (RepID) credentials — normally used by accountants and bookkeepers to act on a business\'s behalf with the Canada Revenue Agency — together with unlawfully accessed CRA "My Business Account" logins belonging to real, unsuspecting Canadian companies, then used that access to submit unauthorized Canada Emergency Wage Subsidy (CEWS) applications in those businesses\' names and divert the resulting payments. The affected companies had no idea their own CRA accounts had been used to file the claims until investigators traced the fraudulent applications back to them. Following a joint investigation launched in January 2021 by the RCMP\'s International Anticorruption Team and the CRA\'s Criminal Investigations Division, the RCMP announced charges in May 2026 against two individuals, Mohammed Ehteshamul Huq and Robert Arthur Otto, tied to approximately $5.7 million in fraudulent CEWS claims. The case is a reminder that a business\'s CRA login credentials are as valuable a fraud target as an individual taxpayer\'s, and that unexplained CRA correspondence about a "Represent a Client" authorization or a wage-subsidy application the business never filed should be reported immediately rather than assumed to be an error.',
+    categorySlug: 'public-benefits-fraud',
+    country: 'CA',
+    isHistorical: true,
+    firstRecorded: '2021-01-01',
+    sources: ['Royal Canadian Mounted Police'],
+    sourceUrl: 'https://rcmp.ca/en/news/2026/05/4352894',
   },
 ];
 
