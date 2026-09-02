@@ -17664,6 +17664,29 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['U.S. Attorney\'s Office, District of Montana'],
     sourceUrl: 'https://www.justice.gov/usao-mt/pr/kansas-man-admits-defrauding-montana-rancher-hay-scam-during-drought',
   },
+  {
+    name: 'Dutch Palm Invest Dubai Real Estate Ponzi Scheme',
+    slug: 'dutch-palm-invest-dubai-real-estate-ponzi-scheme',
+    description:
+      'Palm Invest B.V., founded in 2006 by Danny Klomp and Remco Voortman, raised roughly €32 million from more than 400 Dutch investors with a minimum €50,000 stake, promising a fixed 9% annual return from real estate developments on Dubai\'s man-made Palm Islands. Only a small fraction of that money was ever actually invested in property; the rest was transferred to foreign accounts and used to pay "returns" to earlier investors out of new investors\' deposits, a textbook Ponzi structure that unraveled after a lawyer\'s fraud complaint led Dutch fiscal investigators (FIOD) to raid the company in January 2008. Both men were convicted of large-scale fraud and money laundering, with the Hoge Raad (Dutch Supreme Court) finalizing a sentence of four years and nine months in 2015; Klomp fled the country and was not arrested in Spain and extradited until 2024, while Voortman was convicted again in 2025 for separately defrauding six more people out of roughly €800,000. It remains one of the Netherlands\' largest prosecuted private investment fraud cases and is cited as a reason to check any real-estate investment offer against the AFM\'s public warning register before committing funds.',
+    categorySlug: 'investment-fraud',
+    country: 'NL',
+    isHistorical: true,
+    firstRecorded: '2006-01-01',
+    sources: ['NOS (Dutch public broadcaster)', 'Opgelicht?! (AVROTROS)'],
+    sourceUrl: 'https://nos.nl/artikel/2045679-celstraf-oprichter-palm-invest-iets-bekort',
+  },
+  {
+    name: 'Dutch Fake Giro555 Disaster-Appeal Donation Email Scam',
+    slug: 'dutch-fake-giro555-donation-email-scam',
+    description:
+      'Whenever Dutch aid organizations launch a joint Giro555 appeal after a major disaster, such as the 2022 invasion of Ukraine, fraudsters send emails spoofed to look like they come from Giro555\'s own address, info@giro555.nl, asking recipients to transfer donations to a different bank account or drop off physical goods at a specified location, neither of which the real Giro555 ever requests. After one such spoofed account was reported and blocked by the bank, the same fraudsters returned days later with a second fake email routing donations to a German bank account instead. Giro555 and the Nationaal Cyber Security Centrum (NCSC) both stress that a genuine Giro555 account number always ends in "555" and that Giro555 never asks donors to hand over physical items, urging anyone unsure about a donation request to verify the account directly on giro555.nl rather than trusting a link or number in an email.',
+    categorySlug: 'charity-scams',
+    country: 'NL',
+    alertLevel: 'medium',
+    sources: ['Nationaal Cyber Security Centrum (NCSC)', 'Giro555'],
+    sourceUrl: 'https://www.ncsc.nl/ondernemersverhaal/zo-kwam-giro555-in-actie-tegen-nepmails',
+  },
 ];
 
 async function seedCategoriesAndScams() {
