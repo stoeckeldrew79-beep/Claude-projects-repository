@@ -17722,6 +17722,28 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Nebraska Public Service Commission'],
     sourceUrl: 'https://psc.nebraska.gov/for-consumers/commission-approves-hansen-mueller-grain-claims',
   },
+  {
+    name: 'Singapore CDC Vouchers RedeemSG Phishing Scam',
+    slug: 'singapore-cdc-vouchers-redeemsg-phishing-scam',
+    description:
+      'Around each Community Development Council (CDC) Vouchers disbursement, victims receive an SMS or social media message with a fake link impersonating the official RedeemSG claim site, urging them to "claim" or "verify" their vouchers before a deadline; the counterfeit page then harvests NRIC numbers, personal details, and in some variants banking or card credentials under the guise of completing the redemption. A related variant discovered in 2025 used fraudulent Telegram channels and Instagram accounts promoting government payouts to trick victims into linking their Telegram accounts, resulting in the accounts themselves being taken over and used to scam the victim\'s contacts. The Singapore Police Force states that a genuine CDC Vouchers SMS with a claim link only arrives from the "gov.sg" sender ID after a resident has already successfully claimed at go.gov.sg/cdcv, and that the scheme never asks residents to disclose banking credentials, transfer money, or install apps from outside official app stores to receive vouchers.',
+    categorySlug: 'public-benefits-fraud',
+    country: 'SG',
+    alertLevel: 'high',
+    sources: ['Singapore Police Force'],
+    sourceUrl: 'https://www.police.gov.sg/media-hub/news/2025/01/20250117_police_advisory_on_phishing_websites_impersonating_redeemsg',
+  },
+  {
+    name: 'Singapore OneMotoring/LTA Road Tax Phishing Scam',
+    slug: 'singapore-onemotoring-lta-road-tax-phishing-scam',
+    description:
+      'Vehicle owners receive an email or SMS impersonating OneMotoring, the Land Transport Authority\'s official portal for road tax and vehicle matters, warning that their road tax or licence has expired and linking to a lookalike payment page that captures credit or debit card numbers, CVVs, and other personal details entered to "renew" it. The Singapore Police Force recorded at least 37 such cases since December 2024 with combined losses exceeding S$407,000, and separately warned of a variant impersonating LTA to target Singaporean travellers heading to Malaysia over supposed cross-border vehicle fees. LTA states it never sends payment links by SMS or email for outstanding fees; genuine notices arrive only via an SMS from the "gov.sg" sender ID directing owners to log in to OneMotoring with Singpass, or as a physical letter to the registered address, and any unpaid-fee message containing a direct payment link should be verified through LTA\'s own hotline before acting.',
+    categorySlug: 'government-impersonation',
+    country: 'SG',
+    alertLevel: 'high',
+    sources: ['Singapore Police Force', 'Land Transport Authority (LTA)'],
+    sourceUrl: 'https://www.police.gov.sg/media-hub/news/2025/04/20250414_police_advisory_on_resurgence_of_phishing_scams_involving_the_impersonation_of_onemotoring',
+  },
 ];
 
 async function seedCategoriesAndScams() {
