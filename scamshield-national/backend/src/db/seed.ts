@@ -20656,6 +20656,52 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ["Idaho Attorney General's Office", 'Internal Revenue Service'],
     sourceUrl: 'https://www.ag.idaho.gov/newsroom/attorney-general-labrador-warns-idahoans-about-tariff-rebate-text-scam/',
   },
+  {
+    name: 'Swedish Advance-Fee Loan Scam',
+    slug: 'sweden-advance-fee-loan-scam',
+    description:
+      'A caller, texter, or emailer offers a loan with no credit check and fast approval but requires the borrower to pay a "processing," "insurance," or release fee upfront — anywhere from a few thousand kronor to tens of thousands — before any money is disbursed; once the fee is paid, the promised loan never arrives and the fraudster disappears. Finansinspektionen reported that in just the first half of 2025 it added 108 suspected fraudulent actors to its public warning list, with the majority of new warnings tied to fake loan offers, which overtook crypto and stock-tip lures as the country\'s single largest category of financial fraud. Scammers pressure victims into a fast decision and sometimes impersonate FI staff or threaten fabricated debt-collection or imprisonment consequences to keep the fees coming. FI consumer economist Moa Langemark states plainly that a legitimate lender never asks for payment before a loan is paid out — genuine fees, if any, come out of the loan itself or are billed afterward.',
+    categorySlug: 'debt-relief-scams',
+    country: 'SE',
+    alertLevel: 'high',
+    sources: ['Finansinspektionen'],
+    sourceUrl: 'https://www.fi.se/sv/publicerat/nyheter/2025/se-upp-for-falska-laneerbjudanden/',
+  },
+  {
+    name: 'Swedish Pump-and-Dump Stock Scam',
+    slug: 'sweden-pump-and-dump-stock-scam',
+    description:
+      'Fraudsters build a fake or impersonated financial-influencer identity — in one widely reported 2025 case, posing as Adam Gerge, the real co-founder of Swedish investment firm Didner & Gerge, complete with a fabricated "assistant" persona — and use it to draw small investors into private WhatsApp groups promising inside stock tips. After a few small, real gains build trust, the group is steered toward a thinly traded company where the fraudsters already hold a large, cheap position; as members pile in and the share price rises, the fraudsters quietly sell, crashing the price and leaving the group holding the loss. Finansinspektionen said it had "not previously seen this type of fraud at this scale," reporting that pump-and-dump schemes hit more than 5,000 Swedish small investors in 2025 for a combined roughly 500 million kronor, with some individuals losing several million kronor each — including television personality Catherine Bråkenhielm, who lost 600,000 kronor over months in a group she believed Gerge himself was running. The real Adam Gerge filed a police report over the impersonation, and FI now treats unsolicited stock tips shared in closed chat groups as one of the fastest-growing investment-fraud patterns in the country.',
+    categorySlug: 'investment-fraud',
+    country: 'SE',
+    alertLevel: 'critical',
+    sources: ['Finansinspektionen', 'SVT Nyheter'],
+    sourceUrl: 'https://www.svt.se/nyheter/ekonomi/falska-investeringstipsen-smasparare-bedragna-pa-en-halv-miljard',
+  },
+  {
+    name: 'Silver City "KISS" Afterschool Program Medicaid Fraud and Child Identity Theft',
+    slug: 'new-mexico-kiss-afterschool-medicaid-fraud-child-identity-theft',
+    description:
+      'Susanne Kee and her daughter Bethanne Kee-Medran ran Kids in Need of Support Services (KISS), a nonprofit afterschool program in Silver City, New Mexico, and used it to submit more than $1.6 million in fraudulent Medicaid claims for behavioral-health services that were never provided. To make the billing look legitimate, they used the Social Security and Medicaid identification numbers of both adults and children enrolled in the program without consent, and fabricated records diagnosing some of those children with psychological disorders they did not have. New Mexico Attorney General Raúl Torrez charged both women with Medicaid fraud, conspiracy, and dozens of counts of identity theft; they pleaded guilty in 2026 and were ordered to pay $6.6 million in combined criminal restitution and civil penalties, with prison terms of up to five years. The case is a reminder for parents to ask any program that collects a child\'s Social Security or Medicaid number exactly why it is needed and how it will be used, and to review Medicaid Explanation of Benefits statements for services or diagnoses tied to a child\'s name that the family never sought.',
+    categorySlug: 'healthcare-fraud',
+    country: 'US',
+    state: 'NM',
+    isHistorical: true,
+    sources: ["New Mexico Department of Justice (Office of the Attorney General)"],
+    sourceUrl: 'https://nmdoj.gov/press-release/attorney-general-raul-torrez-announces-6-6-million-restitution-for-mother-daughter-duo-leading-afterschool-program-medicaid-fraud-and-child-identity-theft-scheme/',
+  },
+  {
+    name: 'Parkville, Maryland Insurance Agent Premium-Check Diversion and Fabricated Evidence (Okolo)',
+    slug: 'maryland-okolo-insurance-premium-diversion-fraud',
+    description:
+      'Michael C. Okolo, a Baltimore County insurance agent and financial advisor, took two checks totaling $36,500 from a client that were meant to pay life insurance and annuity premiums, made the checks payable to his own business instead of the insurer, deposited them into his own account, and spent the money on personal and business expenses. After the Maryland Attorney General\'s Office charged him with insurance fraud, Okolo tried to derail his own trial by submitting a letter he claimed the client had written and signed, when he had actually written it himself and pasted a copy of the client\'s real signature onto it. A Baltimore County jury convicted him of insurance fraud and obstruction of justice, and he was later convicted a second time on ten more felony counts for continuing to sell insurance after the Maryland Insurance Administration revoked his license. The case shows why premium payments should always be made out directly to the insurance carrier, never to an agent or the agent\'s business, and why any agent\'s license status is worth checking through the Maryland Insurance Administration\'s public producer lookup before handing over money.',
+    categorySlug: 'insurance-fraud',
+    country: 'US',
+    state: 'MD',
+    isHistorical: true,
+    sources: ['Office of the Maryland Attorney General'],
+    sourceUrl: 'https://oag.maryland.gov/News/Pages/Baltimore-County-Jury-Finds-Former-Insurance-Agent-and-Financial-Advisor-Guilty-of-Insurance-Fraud-and-Obstruction-of-Justi.aspx',
+  },
 ];
 
 async function seedCategoriesAndScams() {
