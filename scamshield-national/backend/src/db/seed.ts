@@ -23078,6 +23078,30 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Westfield (Indiana) Police Department', 'Federal Bureau of Investigation', 'CBS Sports'],
     sourceUrl: 'https://www.westfieldin.gov/CivicAlerts.aspx?AID=135',
   },
+  {
+    name: 'Ecommerce Business Builders Fake "Business Opportunity" Coaching Scheme',
+    slug: 'ohio-ecommerce-business-builders-fake-business-opportunity-scheme',
+    description:
+      'Cole Dockery of Hicksville, Ohio, marketed his company Ecommerce Business Builders (EBB) on social media as a way for consumers to quickly maximize profits by launching their own online stores on Amazon and TikTok Shop, promising to research, stock, and ship merchandise on the buyer\'s behalf and to market the resulting store through paid influencers, in exchange for an initial "investment" that ran from $6,700 to $32,100 per consumer. According to a lawsuit Ohio Attorney General Dave Yost filed in Defiance County Common Pleas Court in November 2025, Dockery instead took down payments larger than state law allows a business-opportunity seller to accept without escrowing the excess, failed to provide the earnings documentation and disclosures the Ohio Business Opportunity Purchasers Protection Act requires, and never delivered the services he\'d promised, leaving at least seven consumers who filed complaints with more than $142,000 in disputed charges and no working online store to show for it. It was Dockery\'s second run-in with Yost\'s office: in 2022 he settled a nearly identical case over a company called National Anglers Association that sold consumers on a supposed fishing-lure business opportunity, agreeing to pay $4,579.37 in restitution and a $3,500 penalty before rebranding into e-commerce coaching. "If you\'re going to sell business success, you\'d better offer a whole lot more than empty promises," Yost said. Any paid "business opportunity" that promises fast profits from running a store, product line, or side hustle should come with the seller\'s actual written earnings claims and required disclosures under state business-opportunity law before any money changes hands, and a seller who has already been sued once for an unrelated "opportunity" business is a reason to check with the state attorney general\'s consumer protection office first, not after paying a five-figure "investment."',
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    state: 'OH',
+    alertLevel: 'high',
+    sources: ["Ohio Attorney General's Office"],
+    sourceUrl: 'https://www.ohioattorneygeneral.gov/Media/News-Releases/November-2025/Previously-Sued-Businessman-Faces-New-Lawsuit-Over',
+  },
+  {
+    name: 'Fake State "Pilot Program" Cannabis License-for-Sale Scheme',
+    slug: 'connecticut-fake-cannabis-license-pilot-program-scheme',
+    description:
+      'Michael Tedesco of Fairfield and Zafir Iqbal of Oakdale told Connecticut retail-shop owners they were part of a state "pilot program" that gave them the inside track to sell exclusive cannabis establishment licenses and to supply cannabis product once a buyer\'s license came through — a program that Connecticut regulators confirm has never existed. To back up the pitch, the pair produced forged documents made to look like they were issued by the Department of Consumer Protection and signed by an official in the Attorney General\'s own office, and, according to the complaint, told the owner of a New Haven convenience store and a New Milford smoke shop in January 2024 that they had connections in high positions in state government who could get them licensed; five months later they told the owner of a Manchester smoke shop the same thing and handed over a forged cannabis establishment license and a forged cannabis ID card in exchange for $30,500. Connecticut Attorney General William Tong sued the pair and their company, MAKECTBETTER LLC, in Hartford Superior Court in July 2025, alleging the scheme reached roughly 70 businesses at $25,000 to $30,000 each and seeking a $2.5 million prejudgment remedy to freeze their assets ahead of trial. "This was a brazen scam to extract tens of thousands of dollars from Connecticut retailers based on false promises and forged documents," Tong said. Connecticut\'s actual cannabis establishment licenses are issued only through the Department of Consumer Protection\'s official application and lottery process, never sold directly by an individual claiming insider access, so any retailer approached about buying a license outside that public process — especially one backed by a document supposedly signed by a named state official — should verify it directly with the Department of Consumer Protection before paying anything.',
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    state: 'CT',
+    alertLevel: 'high',
+    sources: ["Connecticut Office of the Attorney General"],
+    sourceUrl: 'https://portal.ct.gov/ag/press-releases/2025-press-releases/attorney-general-tong-seeks-2-5-million-prejudgment-remedy',
+  },
 ];
 
 async function seedCategoriesAndScams() {
