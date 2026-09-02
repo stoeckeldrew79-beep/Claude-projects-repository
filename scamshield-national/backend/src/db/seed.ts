@@ -4399,6 +4399,54 @@ By then Kožený was already based in the Bahamas, and when he was arrested ther
 Kožený remains in the Bahamas today, decades after fleeing Prague, having built two fortunes on the same basic pattern: an enormous, well-marketed promise of extraordinary returns from a privatization process most investors couldn't independently verify, followed by the quiet diversion of the underlying assets to himself. His case is also a pointed lesson in the limits of cross-border justice — a conviction on paper means little without a country willing to enforce it, and a fugitive with the resources to litigate extradition indefinitely can outlast the very case built against him.`,
     sourceUrl: 'https://en.wikipedia.org/wiki/Viktor_Ko%C5%BEen%C3%BD',
   },
+  {
+    title: 'George Hull and the Cardiff Giant: The Hoax That Fooled a Nation for Two Months',
+    slug: 'george-hull-cardiff-giant-hoax',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `On October 16, 1869, workmen digging a well behind William "Stub" Newell's farm near Cardiff, New York, struck something enormous: a ten-foot stone figure of a man, lying as if it had been buried for centuries. Word spread through upstate New York within days, and Newell — after a decent interval of pretending surprise — began charging visitors fifty cents to view what he called a "petrified giant," drawing 300 to 500 people a day to a farm that had never seen that kind of traffic in its history.
+
+The giant was not petrified, and it certainly wasn't ancient. It was the creation of Newell's cousin, George Hull, a cigar maker and atheist from Binghamton who had spent the previous year building the hoax after an argument with a Methodist revivalist preacher over a literal reading of Genesis 6:4, that "there were giants in the earth in those days." Hull commissioned a ten-foot block of gypsum from a quarry in Fort Dodge, Iowa, shipped it to Chicago under the pretense that it was bound for a monument, and paid stonecutters there to carve it into a human likeness, using needles set in a board to hammer pores into the surface and sulfuric acid to age the stone. He then shipped the finished giant by rail back to Newell's farm and buried it in November 1868, letting it "age" underground for nearly a year before staging its discovery.
+
+On an investment of roughly $2,600, Hull sold his stake in the giant to a syndicate of five businessmen led by David Hannum for $23,000, and the new owners moved it to Syracuse, where paying crowds kept coming. Showman P.T. Barnum tried to buy or lease the giant outright and was turned down; his solution was to commission his own plaster replica, put it on display in New York, and advertise it as the "real" giant — while the original giant's promoters were left insisting, to a public no longer sure which one was fake, that theirs was the genuine article.
+
+Hull confessed to the press on December 10, 1869, less than two months after the "discovery," explaining exactly how he had built and buried the giant, and by early February 1870 a New York court had formally declared both giants — his original and Barnum's copy — frauds. No one was ever prosecuted; there was no law against exhibiting a statue and calling it old, and Hull had technically defrauded people only of the price of admission to look at something they had agreed to pay to see. He went on to stage at least one copycat hoax, a fake "petrified man" buried in Colorado, before fading from public life.
+
+The Cardiff Giant survives today at the Farmers' Museum in Cooperstown, New York, less as a monument to Hull's ingenuity than as an early case study in how quickly an audience will pay to keep believing something once it wants to. It is frequently cited as an origin point of the American hoax industry that Barnum would spend a career refining — proof that a con didn't need a bank account or a stock certificate to work, only a good story, a receptive audience, and a fifty-cent admission fee.`,
+    sourceUrl: 'https://en.wikipedia.org/wiki/Cardiff_Giant',
+  },
+  {
+    title: 'Charles Tyson Yerkes: The Transit Baron Who Bribed His Way to Two Empires',
+    slug: 'charles-yerkes-transit-baron-bribery',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Charles Tyson Yerkes was a rising young Philadelphia financier — trusted as the city's outside broker to invest its own funds — when the bond-market panic touched off by the 1871 Great Chicago Fire caught him overextended. Yerkes had quietly been using roughly $400,000 of the city's money, funneled to him as Philadelphia's fiscal agent, to speculate in stocks. When the panic hit and he couldn't cover the shortfall, the city had him arrested for larceny; a jury convicted him in 1873, and a judge sentenced him to thirty-three months in Philadelphia's Eastern State Penitentiary.
+
+Yerkes served only seven months before well-connected Philadelphians helped secure his release, eager to see an embarrassing case quietly closed. He rebuilt his fortune trading the 1877 gold market, divorced, remarried, and in 1881 relocated entirely to Chicago — a city where almost nobody knew his history — where he began buying up the horse-drawn streetcar lines serving the fast-growing North and West Sides.
+
+Yerkes's real skill wasn't running streetcars; it was buying the politicians who controlled the franchises streetcars needed to operate. He bribed Chicago aldermen so routinely that the practice became a running local joke — "boodle" was the era's word for it — and his operation was accused of using blackmail on lawmakers bribery couldn't move. In 1897 he got the Illinois legislature to pass a bill letting city councils grant fifty-year transit franchises without a public vote, then tried to push the ordinance through Chicago's own council for his lines — a plan so blatant it triggered a genuine backlash: reform aldermen defeated it, the "boodle" legislators who had backed Yerkes were swept out of office in the 1899 elections, and the enabling law was repealed that same year.
+
+With Chicago turning openly hostile, Yerkes sold his transit holdings there in 1899 for a substantial profit and moved to London, where he ran a similar operation on a different empire: he financed and built major stretches of what became the London Underground, including the Bakerloo, Piccadilly, and Hampstead lines, again through a web of holding companies and aggressive financing that alarmed British regulators even as it delivered infrastructure the city badly needed. He died at New York's Waldorf-Astoria Hotel in December 1905, before any of the Underground lines he financed had opened to riders.
+
+Yerkes doesn't fit neatly into a single fraud case the way a Ponzi scheme does — much of what he built, elevated trains in Chicago and tunnels in London, still functions as public infrastructure today. But his method was consistent across two continents and three decades: extract public value through bribery and financial engineering, exit before the bill came due, and let the public absorb whatever was left over. Novelist Theodore Dreiser used Yerkes as the direct model for the ruthless financier Frank Cowperwood in his "Trilogy of Desire," cementing Yerkes's afterlife as American literature's clearest portrait of a Gilded Age operator who broke the law on his way up and bought his way past the consequences.`,
+    sourceUrl: 'https://en.wikipedia.org/wiki/Charles_Yerkes',
+  },
+  {
+    title: 'Baron Albert Grant and the Emma Silver Mine: The Victorian Fraudster Who Bought Public Goodwill With a Public Square',
+    slug: 'albert-grant-emma-silver-mine-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Albert Grant was born Abraham Gottheimer in the Dublin slums in 1831, the son of an impoverished peddler, and reinvented himself so completely — new name, new social circle, new class — that by his mid-thirties he was a Conservative Member of Parliament with a country estate. The engine behind that rise was company promotion: through the 1860s and 1870s, Grant built and sold shares in dozens of companies backed by little more than an expensively printed prospectus, favorable (often paid-for) newspaper coverage, and a sales pitch aimed at investors — clergy and widows among them — who had money to place and no practical way to verify what they were buying.
+
+His most notorious venture was the 1871 flotation of the Emma Silver Mining Company, built around a mine in Little Cottonwood Canyon, Utah, that its American promoters — including a sitting U.S. senator — already suspected was running out of ore. Grant helped float the company on the London Stock Exchange at a valuation of roughly £1 million and personally pocketed about £200,000 in commission for selling the shares to British investors. Within a year the mine's silver was largely exhausted, the share price collapsed, and a London lawsuit that dragged on for years eventually forced Grant and his fellow promoters to repay more than £180,000 to the company — a partial reckoning that still left most investors far short of what they had put in.
+
+Grant's other ventures followed a similar pattern at smaller scale: a discount bank that failed within two years of its founding, and a narrow-gauge Welsh railway scheme that lost the underlying company £7,000 while paying Grant an £8,800 commission regardless. In January 1874, as the Emma Mine allegations were becoming public knowledge, Grant bought the derelict, fenced-off private garden at the center of London's Leicester Square for just over £11,000, restored it, and formally handed the deeds to the city that July — a piece of philanthropic theater with striking timing. The square opened to grateful crowds, and Grant was unseated from his Kidderminster parliamentary seat that same year for bribing voters in his own re-election.
+
+Grant was declared bankrupt in 1877 as his creditors caught up with him, tried and failed to rebuild his fortune with a new bank the following year, and was declared bankrupt again in 1885 and a third time just days before his death in 1899. He spent his final years in reduced circumstances, a long way from the mansion and title he had built on other people's investments.
+
+Grant became notorious enough in his own lifetime that novelist Anthony Trollope used him as the model for Augustus Melmotte, the fraudulent financier at the center of "The Way We Live Now" (1875), a novel Trollope wrote specifically to skewer the culture of speculative company promotion Grant embodied. More than a century later, Leicester Square still bears no trace of the fraud that helped pay for it; it remains one of central London's most-visited public spaces, a rare case of a Victorian swindler's money leaving behind something the public still genuinely uses.`,
+    sourceUrl: 'https://en.wikipedia.org/wiki/Albert_Grant_(company_promoter)',
+  },
 ];
 
 // Practical "how it works / red flags / what to do" guides covering the
@@ -19152,6 +19200,30 @@ const SEED_SCAMS: SeedScam[] = [
     firstRecorded: '2023-07-01',
     sources: ['Financial Services Agency (Japan)', 'Nikkei Asia', 'Japan Times'],
     sourceUrl: 'https://asia.nikkei.com/business/insurance/insurer-sompo-japan-failed-to-report-systemic-fraud-at-bigmotor',
+  },
+  {
+    name: 'IM Mastery Academy / IYOVIA $1.2 Billion Investment-Training MLM Scheme',
+    slug: 'nevada-im-mastery-academy-iyovia-investment-training-mlm-scheme',
+    description:
+      'Operating out of Nevada under the names IM Mastery Academy, iMarketsLive, IM Academy, and most recently IYOVIA, this multi-level-marketing operation used social-media posts flaunting luxury cars, private jets, and beach vacations to recruit mostly young adults into buying expensive "financial education" courses on trading currencies and cryptocurrencies, promising recruits could quit their jobs and "make money while they sleep." The FTC and the Nevada Attorney General jointly sued in May 2025 in the U.S. District Court for the District of Nevada, alleging the scheme generated more than $1.2 billion since 2018 while the vast majority of participants earned little or nothing back, and that commissions were paid overwhelmingly for recruiting new members rather than any real trading success. A federal judge granted a preliminary injunction against the company and its owners in August 2025, and by May 2026 the lead defendants, including founders Chris and Isis Terry, agreed to turn over tens of millions of dollars in assets toward a $795.8 million judgment. The case is a reminder that testimonials built around a lavish lifestyle are marketing, not proof of trading skill, and that any "investment training" business whose real product is recruiting new paying members — rather than the training itself — fits the legal definition of an illegal pyramid scheme regardless of what it calls itself.',
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    state: 'NV',
+    alertLevel: 'high',
+    sources: ['Federal Trade Commission', 'Nevada Office of the Attorney General'],
+    sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2025/05/ftc-state-nevada-take-action-against-im-mastery-academy-deceiving-consumers',
+  },
+  {
+    name: 'New Mexico "Claim Shark" Veterans Benefits Consulting Fee Scheme',
+    slug: 'new-mexico-disabled-veterans-consultants-benefits-fee-scheme',
+    description:
+      'Las Cruces-based Disabled Veterans Consultants, Inc. marketed itself to New Mexico veterans as able to secure faster, larger VA disability payouts, then charged large upfront fees and a cut of any benefits awarded — despite the company not being accredited by the U.S. Department of Veterans Affairs to charge for such help, and despite VA claims processing in order of receipt regardless of who files them, meaning no consultant can truly speed up the line. New Mexico Attorney General Raúl Torrez sued the company and its owners in April 2025 in the Third Judicial District Court, alleging violations of the state Unfair Practices Act, calling the operation a predatory "claim shark," and noting that payments were directed not to the company itself but to several affiliated LLCs, and is seeking full restitution for affected veterans, cancellation of their contracts, and a shutdown of the business. Federal law requires that anyone charging veterans a fee to prepare, present, or prosecute a VA benefits claim be individually accredited by the VA, and the agency itself, along with Veterans Service Organizations like the VFW and American Legion, provides that same assistance for free. Veterans can verify whether a person or firm is VA-accredited at va.gov before signing any consulting agreement or agreeing to sign over any portion of a future benefits award.',
+    categorySlug: 'public-benefits-fraud',
+    country: 'US',
+    state: 'NM',
+    alertLevel: 'medium',
+    sources: ['New Mexico Department of Justice, Office of the Attorney General'],
+    sourceUrl: 'https://nmdoj.gov/press-release/new-mexico-attorney-general-raul-torrez-files-lawsuit-against-disabled-veterans-consultants-inc-for-defrauding-new-mexican-veterans/',
   },
 ];
 
