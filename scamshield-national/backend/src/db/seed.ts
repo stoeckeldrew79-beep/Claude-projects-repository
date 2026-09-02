@@ -21083,6 +21083,44 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Financial Services Agency (Japan)'],
     sourceUrl: 'https://www.fsa.go.jp/ordinary/chuui/20260901.html',
   },
+  {
+    name: 'Direct Energy Deceptive Electric Rate Settlement',
+    slug: 'illinois-direct-energy-deceptive-electric-rate-settlement',
+    description:
+      "Direct Energy Services LLC, an alternative retail electric supplier licensed to sell power in Illinois's deregulated market, allegedly promised customers who switched away from their default utility (ComEd or Ameren) lower electricity rates, then moved them onto variable-rate plans that ended up charging more than 230% above the standard utility rate once introductory teaser pricing expired. Illinois Attorney General Kwame Raoul's investigation found the company's telemarketing and door-to-door sales pitches misrepresented the savings customers would see, while their actual bills in the months and years afterward ran far higher than if they had simply stayed on their utility's default supply. On April 16, 2025, Raoul announced a $12 million consent decree resolving the case, with roughly $9.4 million set aside as restitution for current and former Illinois residential customers who bought electric supply from Direct Energy between June 2013 and April 2025, plus a year-long ban on new marketing in the state. Alternative suppliers are legal in Illinois, but a separate line item for \"electric supply\" priced above the utility's own default rate is the sign a household signed up with a reseller, often without fully realizing it — comparing that per-kWh rate against the utility's published default rate is the fastest way to check whether a switch is actually saving money or costing more.",
+    categorySlug: 'utility-scams',
+    country: 'US',
+    state: 'IL',
+    isHistorical: true,
+    sources: ["Illinois Attorney General's Office"],
+    sourceUrl:
+      'https://illinoisattorneygeneral.gov/news/story/attorney-general-raoul-announces-12-million-settlement-with-alternative-retail-electric-supplier-over-deceptive-and-unfair-business-practices-4-17-25',
+  },
+  {
+    name: 'United Risk Managers of Oklahoma Unlicensed Insurance Fraud',
+    slug: 'oklahoma-united-risk-managers-unlicensed-insurance-fraud',
+    description:
+      "Brent Carter operated United Risk Managers of Oklahoma, LLC out of Oklahoma City, presenting himself to at least one customer as a licensed insurance producer and collecting a premium payment for a policy he arranged. The Oklahoma Insurance Department's Anti-Fraud Unit, which opened an investigation after a customer complaint, found that Carter had in fact been selling, soliciting, or negotiating insurance without a valid license, never forwarded the customer's premium to any actual insurance company, and handed over fabricated policy documents — leaving that customer believing they had active coverage that did not exist. Following a show-cause hearing on December 10, 2025, OID revoked Carter's producer license permanently, barring him from ever holding an Oklahoma insurance license again, and fined him $1,000, with the order made public in June 2026. Before paying any insurance premium, Oklahoma consumers can verify a producer's license status for free through the Oklahoma Insurance Department's online lookup, and should be wary of paying an individual agent directly by cash, check, or app rather than through the insurer's own official billing channel — that direct-payment channel is exactly what let Carter pocket the money instead of ever forwarding it to an insurer.",
+    categorySlug: 'insurance-fraud',
+    country: 'US',
+    state: 'OK',
+    isHistorical: true,
+    sources: ['Oklahoma Insurance Department'],
+    sourceUrl: 'https://www.oid.ok.gov/release_062626/',
+  },
+  {
+    name: 'CryptoTraders Management Elder Investment Fraud',
+    slug: 'montana-cryptotraders-management-elder-investment-fraud',
+    description:
+      'Idaho resident Shawn Cutting and two uncharged associates ran CryptoTraders Management (CTM), telling investors — including several elderly Montanans — that they were buying a fractional interest in a professionally managed cryptocurrency trading fund that would generate steady returns. Prosecutors say CTM was actually operating as an unregistered securities dealer running a pyramid-style promotional scheme, taking in more than $1 million from dozens of investors over several years without ever being licensed to sell securities in Montana; Cutting had already been the target of a March 2021 SEC emergency action over a related crypto vehicle that the SEC said raised at least $6.9 million from more than 450 investors nationwide between 2017 and 2020, using fake financial-adviser credentials and fabricated monthly gains as high as 50%. On October 7, 2025, Montana\'s Commissioner of Securities and Insurance, working with the Missoula County Attorney, announced criminal charges against Cutting including six felony counts of elder exploitation, securities fraud, running a pyramid scheme, and acting as an unlicensed securities dealer; the case is pending trial. Montana\'s securities regulator lets anyone check a broker or fund manager\'s license status for free before investing, and doing so here would have surfaced Cutting\'s unresolved 2021 SEC fraud case years before Montana investors ever handed him money.',
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    state: 'MT',
+    alertLevel: 'medium',
+    sources: ['Montana Commissioner of Securities and Insurance', 'U.S. Securities and Exchange Commission'],
+    sourceUrl:
+      'https://csimt.gov/2025/10/07/in-missoula-county-defendant-charged-with-engaging-in-conspiracy-to-defraud-investors-in-cryptocurrency-scheme/',
+  },
 ];
 
 async function seedCategoriesAndScams() {
