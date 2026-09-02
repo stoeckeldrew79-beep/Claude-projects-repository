@@ -5483,6 +5483,48 @@ Willcocks spent the rest of her life in comparative obscurity: a failed attempt 
 Unlike most cases in this collection, Caraboo's hoax produced no financial ruin for her victims — the Worralls appear to have spent the episode more delighted than defrauded, and the "harm" was mainly to Regency high society's collective credulity. But the mechanics are the same ones behind modern impostor and identity fraud: a fabricated but internally consistent story, a supposedly independent expert (the "translator," the doctor) whose authority the victims had no easy way to check, and a target population — wealthy, curious provincial gentry starved for novelty — primed to want the story to be true. It's the same dynamic that lets modern fake heirs, fabricated foreign royals, and invented "exotic" credentials work on marks who would ordinarily verify a stranger's claims, if only the story weren't quite so entertaining to believe.`,
     sourceUrl: 'https://en.wikipedia.org/wiki/Princess_Caraboo',
   },
+  {
+    title: 'David Hampton: The Con Man Who Posed as Sidney Poitier\'s Son to Infiltrate New York High Society',
+    slug: 'david-hampton-sidney-poitier-son-con',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `David Hampton grew up in Buffalo, New York, the son of an attorney, and moved to Manhattan in the early 1980s with the kind of easy charm and quick intelligence that made him a natural at talking his way into rooms he had no business entering. The idea for his most famous con came almost by accident: turned away from Studio 54 one night in 1983 with a friend, the two joked about pretending to be celebrities to get past the velvet rope, and Hampton picked a role that would prove far more durable than a single night out — he became "David Poitier," the fictional son of actor Sidney Poitier.
+
+The persona worked because Hampton built a plausible frame around it rather than just a famous name. He claimed to be a Harvard student, sprinkled in details about his "father's" film career, and let his genuine wit and poise do the rest of the convincing. Wealthy New Yorkers who met him — including the dean of a Columbia University graduate school and the president of public television station WNET — invited him into their homes, lent him money, and in some cases let him stay overnight, flattered by the idea that they'd befriended the son of one of Hollywood's most respected actors. The con unraveled the same year it began, in October 1983, when one of his marks discovered the real Sidney Poitier had no son by that description, and Hampton was arrested; he ultimately pleaded guilty to attempted burglary and related charges tied to the scheme and served time in prison.
+
+Hampton's story might have remained a minor Manhattan scandal if not for what happened next. Playwright John Guare, who knew several of Hampton's victims socially, turned the episode into "Six Degrees of Separation," a 1990 Broadway play (later a 1993 film starring Will Smith) that fictionalized Hampton as the character "Paul" and became one of the most acclaimed American plays of its era. Hampton, feeling exploited rather than immortalized, sued Guare and the play's producers for $100 million, arguing they had profited from his life story without compensating him; the suit was dismissed. He spent much of the rest of his life drifting between further petty cons, brief bursts of media attention tied to the play's success, and periods of homelessness, before dying of AIDS-related illness in 2003 at age 39.
+
+Hampton's con is a clean illustration of a specific social-engineering pattern that shows up again and again in impostor fraud: borrowing the reflected credibility of someone famous rather than fabricating credentials from scratch. Nobody who met "David Poitier" independently verified his story, because the social cost of questioning a friendly, well-spoken young man who claimed a beloved actor as his father felt higher than the risk of being wrong — the same calculation modern romance scammers and fake-heir fraudsters still count on when they borrow a recognizable name to short-circuit a stranger's normal skepticism.`,
+    sourceUrl: 'https://en.wikipedia.org/wiki/David_Hampton',
+  },
+  {
+    title: 'Robert Hendy-Freegard: The Car Salesman Who Posed as an MI5 Agent for a Decade',
+    slug: 'robert-hendy-freegard-fake-mi5-agent',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `Robert Hendy-Freegard worked ordinary jobs as a car salesman and pub manager in the English Midlands, but from his early twenties through his thirties he ran a con built entirely on invented secret-service credentials. Starting in 1993, he told a series of acquaintances — often students or young colleagues — that he was an undercover MI5 officer working to infiltrate the IRA, and that they themselves were now in danger and needed his protection. Once a target believed the story, Hendy-Freegard used it to demand total obedience: victims were told to cut contact with family, hand over savings and bank cards to fund the "operation," and in some cases live under his direction for years, all while believing their compliance was the only thing keeping them and their loved ones alive.
+
+Over roughly a decade, Hendy-Freegard is estimated to have taken more than £1 million from at least five victims through this method, alongside a parallel string of romantic relationships and engagements he ran simultaneously using the same false intelligence-officer identity to extract money and control from each partner. The scheme finally came apart when a family who had gone years without contact with a victim eventually located and confronted him, leading to his arrest. In 2005, a jury convicted Hendy-Freegard of kidnapping, deception, and theft, and he was sentenced to life imprisonment — one of the longest sentences given in the UK at the time for a non-violent confidence crime, reflecting the scale of psychological control the case documented.
+
+The conviction did not hold. In 2007, the Court of Appeal quashed the kidnapping charges, ruling that because Hendy-Freegard's victims had never been physically restrained — no locks, no ropes, no direct force — their compliance did not meet the legal definition of kidnapping as English law then stood, since coercive and psychological control over an intimate partner or associate was not yet a recognized offense in its own right. He was released in 2009 having served roughly five years, and the case became a widely cited example that helped drive the UK's later push to criminalize "coercive control" as a standalone offense under the Serious Crime Act 2015. Hendy-Freegard has continued to draw police attention since: in August 2022, French police visiting his home over irregularities in a dog-breeding business he was running struck two officers with his car while trying to flee, and a French court sentenced him to six years in prison for the assault in February 2025.
+
+Hendy-Freegard's case remains a stark illustration of how a fabricated position of institutional authority — a badge, a clearance, a claimed government role — can substitute for physical force in controlling a victim, and of how far the legal system lagged behind that reality: the law caught up to coercive control as a distinct harm only after his sentence had already been overturned for lacking it. Modern romance scams and "government official" impersonation frauds still rely on the identical mechanism: manufacturing an authority no victim can independently check, then using the fear and obligation that authority creates to extract money and compliance long after a stranger's ordinary suspicion should have kicked in.`,
+    sourceUrl: 'https://en.wikipedia.org/wiki/Robert_Hendy-Freegard',
+  },
+  {
+    title: 'Steven Jay Russell: The "King Con" Who Escaped Prison Four Times by Impersonating Doctors, Lawyers, and a Judge',
+    slug: 'steven-jay-russell-king-con-prison-escapes',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `Steven Jay Russell built a career on the observation that most people, including trained professionals and institutions with real security procedures, will accept a confident performance of authority over almost any other form of proof. Across the 1990s, Russell used at least a dozen aliases and forged credentials to impersonate a physician, a lawyer, a judge, a corrections officer, and a corporate executive — not as one-off stunts, but as sustained identities he used to steal money and, later, to break out of prison.
+
+His most damaging fraud came in early 1996, when he talked his way into the chief financial officer role at NAMM (National Association of Managed Care Physicians) in Houston using a fabricated résumé and forged references. In roughly four months on the job, Russell embezzled about $800,000 from the company before the fraud was discovered and he was arrested. It was one of several similar frauds across his career, including insurance scams and identity theft, that funded a lifestyle built almost entirely on invented professional standing rather than any legitimate income.
+
+Russell became more widely known for what he did after being caught. Between 1992 and 1998 he escaped from Texas custody four separate times, each escape relying on the same impersonation skills he used to steal money rather than on force: he forged documents to secure early release, posed as a judge to lower his own bail, impersonated corrections and health officials to walk out of custody, and for his final escape falsified medical records, lost significant weight, and faked late-stage AIDS symptoms convincingly enough to be transferred to a hospice, from which he called the facility posing as a doctor and simply directed staff to release him. He was recaptured each time and now serves a 144-year sentence in the Texas prison system, largely in solitary confinement due to his escape history.
+
+Central to his public notoriety was his relationship with fellow inmate Phillip Morris, whom Russell met during one of his incarcerations; his escapes and frauds were driven in significant part by a desire to reunite with and provide for Morris after his release. Their story was chronicled in journalist Steve McVicker's book and adapted into the 2009 film "I Love You Phillip Morris," starring Jim Carrey as Russell. Russell's case is frequently cited in corporate-hiring and identity-verification contexts as a caution against relying on a candidate's self-reported credentials: a confident résumé, a plausible reference, and a well-rehearsed professional manner got him control of a company's finances just as effectively as they got him out of a locked prison cell, because in both settings, the people responsible for checking his story simply didn't.`,
+    sourceUrl: 'https://en.wikipedia.org/wiki/Steven_Jay_Russell',
+  },
 ];
 
 // Practical "how it works / red flags / what to do" guides covering the
@@ -23146,6 +23188,39 @@ const SEED_SCAMS: SeedScam[] = [
     alertLevel: 'medium',
     sources: ['Rechtspraak (Dutch Judiciary)', 'AT5'],
     sourceUrl: 'https://www.rechtspraak.nl/organisatie-en-contact/organisatie/rechtbanken/rechtbank-amsterdam/nieuws/2026/08/veroordeling-voor-oplichting-met-pomeriaan-pups',
+  },
+  {
+    name: 'Australian Fake AFP Call Centre Money Laundering Scam',
+    slug: 'australian-fake-afp-call-centre-money-laundering-scam',
+    description:
+      'Scammers phone an Australian victim claiming to be an AFP officer and say a bank account has been opened in the victim\'s identity by a "suspect" linked to a money laundering investigation, then escalate to an encrypted video call — staged in front of AFP logos, signage, and uniforms made to look like a genuine police facility — for "identification verification." The victim is walked through recording a formal statement, identifying a fake suspect, and signing a bogus "confidentiality agreement," before being told to hand over bank account details so the "investigation" can protect their funds; an imposed "temporary surveillance protocol" then requires check-ins every few hours and reports of any contact from outsiders, keeping the victim isolated and compliant while the real goal — draining their bank accounts — plays out. The AFP uncovered the script, along with the fake police signage, after Thai authorities raided a scam compound in O\'Smach, Cambodia in early 2026, and identified roughly 300 Australians as potential targets. This is a distinct mechanism from AFP-badged texts and calls demanding an immediate arrest-avoidance payment, or from the "virtual kidnapping" scam aimed at international students — here the pressure builds over an extended, video-verified fake investigation designed to extract full banking access rather than a single up-front payment.',
+    categorySlug: 'government-impersonation',
+    country: 'AU',
+    alertLevel: 'high',
+    sources: ['Australian Federal Police (AFP)'],
+    sourceUrl: 'https://www.afp.gov.au/news-centre/media-release/revealed-sophisticated-script-cambodian-scammers-used-pose-afp-officers',
+  },
+  {
+    name: 'Australian ASIC Impersonation Money Recovery Scam',
+    slug: 'australian-asic-impersonation-money-recovery-scam',
+    description:
+      'A "money recovery" operator — ASIC has named www.payback-recovery.com as one example — contacts Australians who already lost money to a prior scam or failed investment and offers to get their funds back, backing the pitch with fake documents carrying the ASIC logo and the Commonwealth Coat of Arms, sometimes claiming the sender is an official "Unclaimed Money Representative" and touting an implausible recovery rate around 95%. Victims who pay the requested up-front fee — sometimes in US dollars, sometimes as a crypto-wallet "release" transfer — to unlock their supposedly recovered funds receive nothing further, effectively being scammed a second time while still trying to recover from the first loss. ASIC has stated it has no association with the operators of such sites, never charges a fee to release funds or assets, and never holds cryptoassets on a consumer\'s behalf — distinct from the earlier-recorded ASIC "clone firm" scam, which fabricates a licensed investment business up front, and from the ASIC business-name renewal notice scam, which targets business owners rather than people who have already been defrauded.',
+    categorySlug: 'government-impersonation',
+    country: 'AU',
+    alertLevel: 'high',
+    sources: ['ASIC (Australian Securities and Investments Commission)'],
+    sourceUrl: 'https://www.asic.gov.au/about-asic/news-centre/news-items/alert-money-recovery-scam-using-fake-documents-to-impersonate-asic-www-payback-recovery-com/',
+  },
+  {
+    name: 'Australian Taylor Swift Eras Tour Ticket Scam',
+    slug: 'australian-taylor-swift-eras-tour-ticket-scam',
+    description:
+      'Ahead of Taylor Swift\'s Eras Tour shows in Sydney and Melbourne, scammers took over genuine Australians\' social media accounts and used them to message the real owner\'s own friends and followers, posing as that friend and offering to sell Eras Tour tickets "at cost" with a fabricated reason for no longer being able to attend, then pressuring the buyer over the intense demand for tickets and asking for an extra fee to transfer the ticket name across. Because the offer appeared to come from a genuine friend\'s own account, buyers had far less reason for suspicion than with a stranger\'s classified ad — the ACCC recorded 273 reports and over $135,000 lost nationally from June 2023, including 114 reports and $54,645 lost in NSW and 96 reports and $53,607 lost in Victoria, with young fans "desperately trying to secure a ticket" a deliberately targeted group. The ACCC\'s National Anti-Scam Centre urged buyers to purchase only through Ticketek Marketplace, the tour\'s sole authorised resale channel, and warned the same compromised-account tactic recurs around other high-demand tours and events.',
+    categorySlug: 'online-shopping-scams',
+    country: 'AU',
+    alertLevel: 'medium',
+    sources: ['ACCC (Australian Competition and Consumer Commission)'],
+    sourceUrl: 'https://www.accc.gov.au/media-release/swifties-beware-scammers-are-in-their-cruel-summer-era',
   },
 ];
 
