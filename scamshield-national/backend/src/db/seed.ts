@@ -17549,6 +17549,31 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Google', 'CBS News'],
     sourceUrl: 'https://www.cbsnews.com/news/google-maps-fake-listings-lawsuit-scams/',
   },
+  {
+    name: 'Louisiana Hurricane Ida "Secret Representation" Insurance Claim Scheme',
+    slug: 'louisiana-hurricane-ida-secret-representation-insurance-scheme',
+    description:
+      'After Hurricane Ida, an Alabama roofing company signed up Louisiana homeowners to agreements assigning it rights to their insurance claims, then routed those claims to a Houston-based law firm, McClenny Moseley & Associates. Rather than disclosing to insurers that it was actually representing the roofing company\'s financial interest, the firm and its Louisiana managing partner allegedly told insurers they represented the homeowners themselves, letting them negotiate and settle claims while concealing the real relationship — leaving most of more than 850 affected homeowners with reduced payouts after unauthorized attorney fees and expenses, or no repair money at all. The Louisiana Department of Insurance documented at least 856 fraudulent representations and fined the firm and its partners a combined $2 million in 2023, and federal prosecutors charged the managing partner, Richard Huye III, with conspiracy to commit wire fraud in August 2026. Homeowners should read exactly what any post-storm contractor agreement authorizes before signing, and should independently confirm with their insurer who is actually listed as representing their claim.',
+    categorySlug: 'insurance-fraud',
+    country: 'US',
+    state: 'LA',
+    alertLevel: 'medium',
+    sources: ['Louisiana Department of Insurance', 'U.S. Attorney\'s Office'],
+    sourceUrl: 'https://www.ldi.la.gov/consumers/insurance-fraud',
+  },
+  {
+    name: 'Kansas Hay Scam Defrauds Drought-Stricken Montana Ranchers',
+    slug: 'kansas-hay-scam-montana-ranchers-drought',
+    description:
+      'During the severe 2021 drought that left Montana and Wyoming ranchers scrambling to find enough hay to keep their herds fed, a Kansas man advertised on Facebook under the name "Heart Cross Ranch, LLC," offering large quantities of hay for delivery from out of state at prices cheaper than ranchers could find locally. A Montana ranching couple in Ingomar signed a contract for 190 tons of hay for $43,300 and wired half as a down payment; three weeks later they received only 23 tons before the remaining hay, and their money, never materialized. The U.S. Attorney\'s Office for the District of Montana prosecuted the case as wire fraud, and the defendant pleaded guilty in 2024 and was sentenced to probation with restitution. The case is a reminder that a livestock or feed listing found through social media during a shortage deserves the same scrutiny as any other online purchase: verify the seller has a real, checkable business history and never wire a large deposit before confirming delivery terms in writing.',
+    categorySlug: 'online-shopping-scams',
+    country: 'US',
+    state: 'MT',
+    isHistorical: true,
+    firstRecorded: '2021-07-01',
+    sources: ['U.S. Attorney\'s Office, District of Montana'],
+    sourceUrl: 'https://www.justice.gov/usao-mt/pr/kansas-man-admits-defrauding-montana-rancher-hay-scam-during-drought',
+  },
 ];
 
 async function seedCategoriesAndScams() {
