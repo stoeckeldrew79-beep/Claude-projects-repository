@@ -19392,6 +19392,31 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['U.S. Attorney\'s Office, Southern District of New York'],
     sourceUrl: 'https://www.justice.gov/usao-sdny/pr/perpetrator-nationwide-sports-and-pokemon-trading-card-fraud-convicted',
   },
+  {
+    name: 'DC Fake Job Offer Insurance-Premium Scheme',
+    slug: 'dc-fake-job-offer-insurance-premium-scheme',
+    description:
+      'Scammers target DC job seekers by text, email, and social media with unusually attractive remote or hybrid positions offering guaranteed hiring, high pay, and generous "benefits," then bundle the offer with a supposed life or health insurance policy the new hire must pay premiums on directly as a condition of employment. The insurance is not real, licensed coverage — the premium payment itself is the point — and fake offer letters often borrow a real, well-known company\'s name and logo to look legitimate. The DC Department of Insurance, Securities and Banking (DISB) warns that a legitimate employer never requires a new hire to pay for their own benefits directly to the company before starting work, and recommends verifying any named insurer by calling the number listed on that insurer\'s own official website, never a number or link supplied in the job offer itself.',
+    categorySlug: 'employment-scams',
+    country: 'US',
+    state: 'DC',
+    alertLevel: 'medium',
+    sources: ['DC Department of Insurance, Securities and Banking (DISB)'],
+    sourceUrl: 'https://disb.dc.gov/page/watch-out-fake-job-offers-102825',
+  },
+  {
+    name: 'Alpha Dental "Free Dinner" Medicare Misrepresentation Scheme',
+    slug: 'pennsylvania-alpha-dental-medicare-misrepresentation-scheme',
+    description:
+      'Bucks County, Pennsylvania-based Infinity Dental Management, doing business as Alpha Dental Excellence, hosted "free dinner" marketing events to recruit elderly and low-income patients, then told them expensive dental procedures — implants, dentures, and other major work — would be covered by Medicare, coverage Medicare does not actually provide for most dental care. The company is also accused of applying for and opening third-party financing loans in patients\' names to pay for the procedures, at times without their full knowledge or consent, generating more than 5,000 such loans totaling over $10 million between January 2015 and August 2022. Pennsylvania Attorney General Dave Sunday announced a $1 million settlement in June 2026, including roughly $517,000 in direct restitution to affected patients plus civil penalties and investigative costs. Anyone offered "free" dental work through a promotional dinner event should independently verify what Medicare actually covers by calling Medicare directly, and should never sign a financing application on the spot without reading exactly what is being applied for in their name.',
+    categorySlug: 'healthcare-fraud',
+    country: 'US',
+    state: 'PA',
+    isHistorical: true,
+    firstRecorded: '2015-01-01',
+    sources: ['Pennsylvania Office of Attorney General'],
+    sourceUrl: 'https://www.attorneygeneral.gov/taking-action/attorney-general-sunday-announces-1-million-settlement-with-alpha-dental-patients-who-were-pushed-into-expensive-services-to-receive-500k/',
+  },
 ];
 
 async function seedCategoriesAndScams() {
