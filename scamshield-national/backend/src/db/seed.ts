@@ -17031,6 +17031,42 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Uisce Éireann (formerly Irish Water)'],
     sourceUrl: 'https://www.water.ie/contact/general-enquiry/spam-email',
   },
+  {
+    name: 'James Henley Fraudulent Business Registration & Home Deed Theft Scheme',
+    slug: 'indiana-james-henley-business-registration-deed-theft',
+    description:
+      'An Indiana man registered several fake businesses with state authorities, falsely claiming to be their CEO, then used those fabricated corporate identities to file forged deeds with a county recorder\'s office claiming Indianapolis homeowners had sold their homes to his shell companies. He stole five homes this way over several years, reselling them below market value for hundreds of thousands of dollars in profit as part of a broader multimillion-dollar fraud spree, and was sentenced to 10 years in federal prison with nearly $1.9 million in restitution ordered. This case is part of what drove a 2025 Indiana law that now requires third-party filers with the Secretary of State to verify the identity of anyone they file business paperwork on behalf of, a reminder that a property\'s deed history is worth checking independently rather than trusting that filed paperwork alone reflects a legitimate transaction.',
+    categorySlug: 'identity-theft',
+    country: 'US',
+    state: 'IN',
+    alertLevel: 'high',
+    sources: ['Indiana Attorney General\'s Office'],
+    sourceUrl: 'https://events.in.gov/event/insidious-fraudster-sentenced-to-10-years-ordered-to-pay-nearly-2m-as-attorney-general-todd-rokita-protects-consumers',
+  },
+  {
+    name: 'LifeX Research Corporation "Become an Employee" Unlicensed Health Plan Scheme',
+    slug: 'tennessee-lifex-unlicensed-health-plan-scheme',
+    description:
+      'A company told Tennessee consumers they could obtain health coverage by becoming "employees" of the company, falsely implying the coverage would be issued by well-known, licensed insurers. The Tennessee Department of Commerce & Insurance and the state Attorney General\'s Office jointly confirmed that no licensed major-medical insurer in Tennessee actually provides coverage through this arrangement, and that the company and its associated entities are not licensed to sell insurance in the state at all. Consumers who bought these plans risk having medical providers refuse to recognize the coverage, leaving them personally responsible for the full cost of care, and Tennessee regulators urged residents to verify any insurance seller\'s license before handing over personal information or payment.',
+    categorySlug: 'insurance-fraud',
+    country: 'US',
+    state: 'TN',
+    alertLevel: 'high',
+    sources: ['Tennessee Department of Commerce & Insurance', 'Tennessee Attorney General\'s Office'],
+    sourceUrl: 'https://www.tn.gov/commerce/news/2026/2/23/consumer-purchasing-insurance-policies-from-lifex-research-corporation.html',
+  },
+  {
+    name: 'Continental Resources Suspended-Royalty-Account Fraud',
+    slug: 'oklahoma-continental-resources-suspended-royalty-fraud',
+    description:
+      'A former division-order analyst at an Oklahoma oil-and-gas company used his insider access to identify mineral-royalty accounts the company had suspended because the rightful owners had died or could not be located, then worked with co-conspirators to create fictitious companies and fraudulent deeds redirecting over a million dollars in suspended royalty payments from those legitimate mineral owners\' estates to accounts they controlled. Federal prosecutors indicted the three on conspiracy, wire fraud, aggravated identity theft, and money laundering charges, and all three later pleaded guilty to conspiracy to commit wire fraud with substantial restitution ordered. The scheme is distinctly tied to Oklahoma\'s mineral-estate structure, where mineral rights are commonly severed from surface land and payments can sit suspended for years when an owner dies or moves without updating contact information, a reminder for heirs to keep royalty-payer contact information current after a mineral-rights owner in the family passes away.',
+    categorySlug: 'mortgage-foreclosure-scams',
+    country: 'US',
+    state: 'OK',
+    alertLevel: 'high',
+    sources: ['U.S. Attorney\'s Office, Western District of Oklahoma', 'FBI Oklahoma City Field Office'],
+    sourceUrl: 'https://www.oklahomaminerals.com/former-continental-employee-and-two-others-plead-guilty-in-royalty-scheme',
+  },
 ];
 
 async function seedCategoriesAndScams() {
