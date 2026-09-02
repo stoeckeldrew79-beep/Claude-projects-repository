@@ -23659,6 +23659,40 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['AsiaOne', 'Singapore Police Force'],
     sourceUrl: 'https://www.asiaone.com/singapore/police-looking-singapore-firm-luring-jobseekers-scam-linked-cambodian-resort',
   },
+  {
+    name: 'GainBitcoin Cryptocurrency Mining Ponzi Scheme',
+    slug: 'india-gainbitcoin-cryptocurrency-ponzi-scheme',
+    description:
+      'GainBitcoin, fronted by Pune-based entrepreneur Amit Bhardwaj through GB Miners and a web of associated firms starting in 2015, promised investors a fixed 10 percent monthly return in Bitcoin for 18 months in exchange for buying into supposed cloud-mining contracts, paying out early participants with new deposits and a multi-level marketing referral structure rather than any real mining revenue. The scheme collapsed as withdrawals stopped, and the CBI\'s investigation — reopened and expanded after Bhardwaj\'s 2022 death in custody — now estimates roughly 29,000 Bitcoin was funneled through the network, worth close to ₹20,000 crore at current prices, defrauding an estimated 8,000 investors across India. In February 2025 the CBI conducted coordinated searches at more than 60 locations across Delhi NCR, Maharashtra, Punjab, and other states, seizing cryptocurrency worth nearly ₹24 crore along with hardware wallets, laptops, and financial records, while the Enforcement Directorate pursues a parallel money-laundering case under PMLA against Bhardwaj\'s brother Ajay and other associates. Unlike India\'s equity- and forex-linked investment frauds, GainBitcoin\'s pitch rested entirely on a fabricated Bitcoin-mining operation and MLM-style downline recruiting, making it one of the earliest and largest cryptocurrency-specific Ponzi schemes prosecuted in the country.',
+    categorySlug: 'investment-fraud',
+    country: 'IN',
+    sources: ['Central Bureau of Investigation (CBI)', 'Press Information Bureau (PIB), Government of India'],
+    sourceUrl: 'https://www.pib.gov.in/PressReleasePage.aspx?PRID=2238127&reg=3&lang=2',
+    isHistorical: true,
+    firstRecorded: '2015-01-01',
+  },
+  {
+    name: 'Unauthorised Forex Trading Platform Scam',
+    slug: 'india-unauthorised-forex-trading-platform-scam',
+    description:
+      'Instagram, YouTube, and Telegram ads or "forex mentor" influencers push Indians toward foreign-exchange trading apps and websites that are never authorised to deal in forex under FEMA or to run an electronic trading platform in India, showing screenshots of huge leveraged gains to pull in an initial deposit before account access is frozen, "margin call" top-up demands begin, or withdrawals are simply refused. The Reserve Bank of India maintains a running public "Alert List" of these unauthorised platforms and the entities promoting them, updating it repeatedly through 2024 and 2025 — most recently in November 2025, when it added seven more names including Fusion Markets and Nord FX, bringing the total past 95 — and warns the list is illustrative, not exhaustive, so a platform\'s absence from it is no proof of legitimacy. Distinct from the Telegram stock-tip and fake trading-app schemes that target domestic equities and IPOs, this fraud is specific to retail forex speculation, which is illegal for resident Indians outside a small set of RBI-authorised channels regardless of whether the platform itself turns out to be a scam; RBI advises verifying any forex platform or advisor against its published lists of authorised persons and ETPs before depositing any money.',
+    categorySlug: 'investment-fraud',
+    country: 'IN',
+    alertLevel: 'high',
+    sources: ['Reserve Bank of India (RBI)'],
+    sourceUrl: 'https://rbi.org.in/scripts/bs_viewcontent.aspx?Id=4235',
+  },
+  {
+    name: 'AI Deepfake Video-KYC Bypass Fraud',
+    slug: 'india-deepfake-video-kyc-bypass-fraud',
+    description:
+      'Fraudsters contact a target through social media, dating apps, job portals, or an ordinary phone call and draw them into a video interaction — asking them to blink, turn their head, or speak on camera — ostensibly for a normal reason, then feed the recorded footage into AI tools to generate a synthetic replica of the person\'s face capable of defeating liveness checks and facial-authentication systems entirely separate from the target. Criminals use the resulting deepfake to fraudulently pass a bank\'s or fintech\'s video-KYC process and open accounts, activate digital wallets, or take out loans in someone else\'s identity, or to bypass account-recovery facial checks and hijack existing accounts. India\'s Ministry of Home Affairs and its Indian Cyber Crime Coordination Centre (I4C) issued an advisory in June 2026 warning citizens, banks, NBFCs, and fintech firms that first-generation liveness detection is no longer sufficient against these AI-generated synthetic identities, urging financial institutions to add dedicated deepfake-detection layers to onboarding and recovery flows. This is distinct from AePS fraud, where criminals clone a victim\'s own fingerprint from public land-registry images to authorise payments, and from AI deepfake sextortion, where a fabricated video is used to blackmail rather than to open accounts; here the AI-generated face is used purely to defeat identity-verification systems and impersonate the victim to a financial institution.',
+    categorySlug: 'identity-theft',
+    country: 'IN',
+    alertLevel: 'high',
+    sources: ['Indian Cyber Crime Coordination Centre (I4C)', 'Ministry of Home Affairs, Government of India'],
+    sourceUrl: 'https://www.etvbharat.com/en/bharat/ai-generated-deepfake-being-used-to-bypass-kyc-facial-authentication-mha-warns-banks-fintech-firms-enn26061102858',
+  },
 ];
 
 async function seedCategoriesAndScams() {
