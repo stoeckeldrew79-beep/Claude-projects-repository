@@ -5412,6 +5412,63 @@ Red flags include any mailed notice demanding payment for a business filing or c
 
 If you receive a letter like this, don't pay it or respond using any contact information it provides. Instead, look up your state's Secretary of State or Department of State website directly and check your business's actual filing status and any fees genuinely owed. Report the letter to your state's Secretary of State consumer protection or business filings division and to the FTC at ReportFraud.ftc.gov.`,
   },
+  {
+    title: 'Investment Newsletter and Stock-Tip Scams: When the "Insider Pick" Is Really a Paid Promotion',
+    slug: 'investment-newsletter-stock-tip-scam-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'investment-newsletter-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Stock%20market%20Image%20public%20domain.jpg?width=1200',
+    coverImageCredit: 'Photo: rawpixel.com (CC0, public domain)',
+    coverImagePosition: 50,
+    sourceUrl: 'https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-alerts/updated',
+    body: `An email newsletter, a paid Telegram or Discord group, or a slick investment-research website promises access to a small-cap stock about to take off — the kind of "insider" pick a subscriber won't hear about from a mainstream broker. Some pitches are free to build a mailing list before the real ask; others charge a subscription fee for premium picks, framed as the cost of professional-grade research most investors can't get anywhere else. Either way, the message is urgent: buy now, before the rest of the market catches on, because tomorrow's price could look very different.
+
+It usually does look different — just not the way subscribers are told. The SEC's Office of Investor Education and Advocacy has repeatedly warned that stock promotions like these are frequently run by paid promoters or company insiders who profit by driving up a thinly traded stock's price and then selling their own shares into the buying frenzy they created, a pattern commonly called "pump and dump." Investment newsletters are named specifically in the SEC's alerts as one of the recurring vehicles for this: a publisher may tout a particular stock because they were paid to do so, sometimes with compensation that rises as the share price rises, without ever disclosing that financial arrangement to readers who assume they're getting independent analysis.
+
+This works because the entire pitch borrows the packaging of legitimate financial research — charts, jargon, a professional-looking site — while quietly removing the parts that make research trustworthy: a named, licensed analyst with a verifiable track record, and disclosure of who's paying whom. A subscription fee paradoxically adds credibility rather than suspicion, since paying for something makes it feel more like a service and less like spam. Layered on top is time pressure that's the opposite of how real investing works: legitimate opportunities don't evaporate if you take a day to research them, but a stock a promoter is actively dumping absolutely does.
+
+The SEC's alert lays out the recurring red flags: aggressive promotion that goes far beyond describing what a company actually makes or does, guaranteed high returns with claims of "the next big thing," pressure to buy "right now," unsolicited tips arriving by email, social media, or newsletter rather than sought out, and a microcap or penny stock showing a sudden spike in price or trading volume with little underlying business to explain it. A newsletter that discloses it was paid to promote a stock is not automatically safe either — the SEC alert notes that even disclosed compensation should make an investor more skeptical of the recommendation's independence, not less.
+
+Before acting on any stock tip from a newsletter or subscription service, research the company independently through its actual SEC filings rather than relying on the promoter's summary, and be especially cautious with thinly traded microcap and penny stocks, where a relatively small amount of coordinated buying can move the price dramatically. If you've already bought based on a promoted tip and suspect you were misled, document the newsletter, the promoter, and the specific claims made. Report suspected securities fraud to the SEC at investor.gov/report and to the FTC at ReportFraud.ftc.gov.`,
+  },
+  {
+    title: 'Continuing Education Credit Mills: The Fake CEU Provider That Can Cost a Professional Their License',
+    slug: 'continuing-education-credit-mill-scam-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'ceu-credit-mill-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/CCNA%20certificate.jpg?width=1200',
+    coverImageCredit: 'Photo: Zhanglide (CC0, public domain)',
+    coverImagePosition: 50,
+    sourceUrl: 'https://www.csbs.org/newsroom/state-financial-agencies-settle-mortgage-educator-multi-state-fraud-scheme',
+    body: `Nurses, mortgage loan originators, insurance agents, real estate brokers, and dozens of other licensed professions all share the same annual chore: a set number of continuing education (CE) hours or CEU credits are required to keep the license active, and the deadline always seems to land during the busiest part of the year. A website offering a fast, cheap way to knock the requirement out — a short online module, a "life experience" credit, or in the worst cases, someone else quietly completing the coursework under the licensee's login — looks like a reasonable shortcut through paperwork that feels more like a formality than real education.
+
+It isn't a shortcut regulators recognize, and the consequences fall on the license holder, not the provider selling the shortcut. In February 2022, financial regulators in dozens of states settled a multistate enforcement action against a California-based mortgage education company and its owner for issuing false continuing education certificates and completing required coursework on behalf of mortgage loan originators through other providers, in violation of the SAFE Act's mandatory 8 hours of annual CE. A related multistate action addressed 441 mortgage loan originators nationwide who ended up having deceptively claimed to complete CE they never actually did; every one of them was required to surrender their license for three months and pay a $1,000 fine in each state where they were licensed, on top of taking make-up coursework — real professional consequences for CE credit that, from the licensee's side, looked like it had simply been purchased and delivered like any other online course.
+
+The scheme survives because the CE requirement is treated by everyone involved as background compliance rather than a substantive check, which is exactly the assumption a fraudulent provider exploits: a licensee under deadline pressure who sees a certificate land in their inbox has little reason to scrutinize whether the underlying coursework actually happened, and a state licensing board doing a routine audit is often the first and only place the fraud eventually surfaces — sometimes years after the fact, once a provider's certificates have already been submitted for renewal after renewal. Nursing regulators have separately flagged the same pattern with a wave of online CEU providers that were never actually approved by a recognized accrediting body like the ANCC or a state Board of Nursing, leaving nurses who unknowingly used them out of compliance despite having paid for and completed the courses in good faith.
+
+The clearest warning sign is a CE provider that cannot produce a verifiable, current approval or provider number in your specific licensing board's own public database — a legitimate CE provider's accreditation is checkable independently, not just claimed on the provider's own website. Other red flags include coursework that can be finished implausibly fast for the number of credit hours being awarded, a provider that offers to "complete the course for you" for an extra fee, and a certificate that arrives without any actual quiz, exam, or attendance verification behind it.
+
+Before enrolling with any CE provider, verify their approval status directly through your profession's state licensing board or national accrediting body, not through a link the provider supplies, and keep your own records of coursework completed in case your license is ever audited. Anyone who has already used a provider later found to be non-compliant should contact their licensing board proactively, since self-reporting before an audit catches it is generally treated far more favorably than being caught. Report a fraudulent CE or credential provider to your state licensing board's enforcement division and to the FTC at ReportFraud.ftc.gov.`,
+  },
+  {
+    title: 'The "Free" Medical Alert Device Robocall: How a No-Cost Pitch Becomes a Recurring Charge',
+    slug: 'medical-alert-device-telemarketing-scam-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'medical-alert-device-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Doro%20phone%20for%20seniors%20(16723387215).jpg?width=1200',
+    coverImageCredit: 'Photo: Kārlis Dambrāns (CC BY 2.0)',
+    coverImagePosition: 50,
+    sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2021/12/ftc-issues-refunds-totaling-more-18-million-consumers-defrauded-lifewatch-incs-deceptive-medical',
+    body: `A robocall opens with a recorded voice announcing good news: a medical alert system — the kind of wearable pendant that can summon help after a fall — has already been purchased for the listener, often by a relative, and is ready to ship "at no cost whatsoever." Some versions add a claim that the device is endorsed by a respected health organization like the American Heart Association or American Diabetes Association. All the listener supposedly needs to do is stay on the line and confirm a shipping address and a card number, just to cover a nominal handling fee.
+
+The FTC's enforcement history shows exactly what happens next. In a case against New York-based Lifewatch, Inc., the agency found that consumers who accepted the "free" device were never told about the true cost buried in the pitch: an ongoing monthly monitoring fee that started once the device shipped, whether or not it was ever activated, along with cancellation penalties for anyone who tried to back out. The FTC has documented that operations running this exact playbook made at least a billion unsolicited robocalls targeting people nationwide, with older Americans disproportionately targeted; in December 2021 the agency mailed 71,899 refund checks totaling more than $1.8 million to consumers harmed by Lifewatch's scheme, on top of a permanent telemarketing ban against the company.
+
+The pitch is built to short-circuit exactly the skepticism a cold call about money would normally trigger. Framing the device as something a family member "already bought" removes the natural question of why a stranger is offering something valuable for free, and invoking a well-known medical association's name borrows credibility the caller has no right to. Once a small card charge for "shipping" goes through, most people don't think to watch closely for a separate, larger monthly charge showing up weeks later on a different billing cycle, and by the time it's noticed, canceling the subscription and the device that supposedly justifies it can turn into its own ordeal.
+
+The clearest red flags are a claim that someone else already purchased a device for you, any invocation of a health organization's endorsement that you haven't independently verified, and a "free" offer of any kind that still asks for a credit card number before anything is confirmed in writing. A legitimate medical alert provider will let you review pricing and monitoring terms on your own time, in writing, without a live recorded call pressuring an immediate answer, and will not bill monitoring fees for a device that was never activated.
+
+If you receive a call like this, hang up rather than staying on the line to "opt out," and never provide payment information based on an unsolicited robocall. Anyone already enrolled and being billed should contact their card issuer to dispute the charges and demand cancellation in writing from the company directly. Report the scam to the FTC at ReportFraud.ftc.gov.`,
+  },
 ];
 
 async function seedArticles(articles: SeedArticle[], label: string) {
