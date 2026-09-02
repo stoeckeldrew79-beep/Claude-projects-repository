@@ -21895,6 +21895,43 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Federal Trade Commission (FTC)'],
     sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2026/04/ftc-maryland-attorney-general-secure-full-refunds-additional-penalties-against-lindsay-auto-group',
   },
+  {
+    name: 'Barbara Trickle Nevada Prize-Notice Mail Fraud Operation',
+    slug: 'nevada-trickle-prize-notice-mail-fraud',
+    description:
+      'Barbara Trickle, 80, of Las Vegas, owned and operated a printing and mailing business that mass-produced fraudulent "prize notices" for a scheme that ran from 2012 until the U.S. Postal Inspection Service shut it down with search warrants in February 2018, stealing more than $15 million from victims, many of them elderly, across the United States and abroad. Rather than a phone call, the mailers themselves were the pitch: recipients were told they had been individually selected to win a large cash prize and just needed to pay a $20 to $50 "processing fee" to claim it, but no victim ever received a real prize — only a generic "report" listing sweepstakes opportunities or a trinket of minimal value. Trickle personally supervised the lasering, printing, and mailing of the fraudulent notices at industrial scale, and on April 28, 2025, she pleaded guilty in the District of Nevada to conspiracy to commit mail and wire fraud alongside her co-conspirators. The case illustrates that a "you\'ve won" notice does not have to arrive by phone or email to be fake — official-looking printed mail demanding an upfront fee to release a prize is the same scam in a different format, and a legitimate sweepstakes never requires payment to collect winnings.',
+    categorySlug: 'lottery-sweepstakes-scams',
+    country: 'US',
+    state: 'NV',
+    isHistorical: true,
+    firstRecorded: '2012-01-01',
+    sources: ["U.S. Department of Justice", 'Las Vegas Review-Journal'],
+    sourceUrl: 'https://www.reviewjournal.com/crime/courts/80-year-old-woman-pleads-guilty-in-elder-fraud-scheme-3364370/',
+  },
+  {
+    name: 'Sterling Capital Ponzi and Investment Advisory Fraud',
+    slug: 'illinois-sterling-capital-ponzi-fraud',
+    description:
+      'John Sterling Myers, 41, of Chicago, ran Sterling Capital, LLC and Sterling Capital Management, LLC, raising roughly $4 million from about 28 investors across multiple states between January 2022 and July 2025 by promising professional investment management, then sending clients false account statements that inflated the value of their holdings while he was actually losing their money in trading. The SEC\'s parallel civil complaint, filed June 5, 2026 in the Northern District of Illinois, alleges Myers ran a Ponzi-like operation — using new investor money to make it look like earlier clients\' funds were intact — and diverted at least $1.8 million into his own personal accounts, leaving investors with more than $3.6 million in losses. On the same day, federal prosecutors in Chicago obtained a criminal indictment charging Myers with four counts of wire fraud tied to three identified victims, including a husband and wife from Michigan, each count carrying up to 20 years in prison. The case is a reminder to verify an investment adviser\'s registration and disciplinary history through the SEC\'s Investment Adviser Public Disclosure database and to be skeptical of account statements that only ever show gains, especially from an adviser managing money outside a well-known custodian\'s own reporting.',
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    state: 'IL',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office, Northern District of Illinois", 'Securities and Exchange Commission'],
+    sourceUrl: 'https://www.justice.gov/usao-ndil/pr/illinois-investment-advisor-indicted-federal-fraud-charges-allegedly-swindling-clients',
+  },
+  {
+    name: 'Munoz Counseling Oregon Medicaid Billing Fraud',
+    slug: 'oregon-munoz-counseling-medicaid-fraud',
+    description:
+      'Roberto Felipe Munoz, owner and registered agent of Munoz Counseling LLC in the Portland area, was charged on April 6, 2026 with 18 felony counts — including making false claims for health care payment, aggravated theft, and aggravated identity theft — after CareOregon, the coordinated care organization that administers Medicaid benefits in Multnomah County, discovered and referred suspected fraudulent billing to investigators. Prosecutors allege that between March and August 15, 2025, Munoz and his counseling practice submitted Medicaid claims to CareOregon seeking payment for services the practice was not entitled to receive. Oregon Attorney General Dan Rayfield\'s Medicaid Fraud Control Unit announced the charges alongside two other, separate Multnomah County Medicaid fraud cases resolved the same week, including a guilty plea from another local provider, underscoring that outside billing audits by the coordinated care organization itself — not just patient complaints — are how many provider-side Medicaid fraud schemes come to light. Medicaid recipients are advised to review their own claims history or Explanation of Benefits periodically and report any billed service or provider name they do not recognize.',
+    categorySlug: 'healthcare-fraud',
+    country: 'US',
+    state: 'OR',
+    alertLevel: 'high',
+    sources: ['Oregon Department of Justice'],
+    sourceUrl: 'https://www.doj.state.or.us/media-home/news-media-releases/ag-rayfield-announces-medicaid-fraud-charges-and-convictions-in-three-separate-multnomah-county-cases/',
+  },
 ];
 
 async function seedCategoriesAndScams() {
