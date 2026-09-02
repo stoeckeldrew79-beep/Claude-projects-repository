@@ -4625,6 +4625,20 @@ The scheme fell apart in late 2012, when a routine review by the Financial Marke
 Ross was released on parole in 2019 after serving roughly the minimum term, and the fallout from his fraud continued in New Zealand's courts for years afterward: investors who lost money won court approval to pursue a class-action lawsuit against ANZ, the bank that had handled Ross Asset Management's accounts, alleging the bank should have noticed and acted on warning signs long before regulators did. The case remains New Zealand's reference point for how a single trusted local adviser — with no offshore secrecy, no exotic financial instruments, and no international profile — can still run one of the largest and longest-lived Ponzi schemes ever uncovered in the country.`,
     sourceUrl: 'https://www.sfo.govt.nz/media-cases/media-releases/david-ross-sentenced-for-new-zealands-largest-ever-ponzi',
   },
+  {
+    title: 'Jonathan Wild: London\'s "Thief-Taker General" Who Ran the Crime He Was Paid to Solve',
+    slug: 'jonathan-wild-thief-taker-general-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Jonathan Wild arrived in London around 1710, a Wolverhampton buckle-maker's son who had spent time in debtors' prison before finding his calling as an agent to Charles Hitchen, a corrupt Under City Marshal who ran a lucrative side business helping crime victims recover stolen goods for a fee. Wild quickly surpassed his mentor, and by the early 1720s he had built a public reputation as London's most effective crime-fighter, operating an "Office for the Recovery of Lost and Stolen Property" where robbery victims could pay to have their possessions returned — a service so reliable that Wild styled himself, with no official appointment whatsoever, the "Thief-Taker General of Great Britain and Ireland."
+
+The reliability was the fraud. Wild did not recover stolen property by chance; he controlled the theft in the first place, running a network of pickpockets and burglars who delivered their takings to him, after which he would "discover" the goods and return them to grateful, paying owners, often never having let the property leave his own warehouses. Thieves who tried to sell stolen goods outside his network, or who threatened to expose the arrangement, were simply turned in to the authorities and hanged on Wild's own testimony as a reward-seeking informant — a legal loophole he exploited so effectively that historians estimate he sent more than 100 people to the gallows over his career, eliminating rivals and disloyal associates under the cover of public service.
+
+Parliament eventually moved against the scheme rather than the man: the Transportation Act of 1718, later nicknamed "Jonathan Wild's Act," made it a capital offense to accept a reward for recovering stolen goods without helping to prosecute the thief who took them, a law aimed squarely at Wild's business model even though it took years to catch up with him. He was finally arrested in February 1725 after helping a servant girl escape custody, and once behind bars, years of resentful former associates came forward with evidence of his double-dealing; he was convicted at the Old Bailey under the 1718 act for taking a reward to recover stolen lace without informing on the thief who stole it.
+
+Wild was hanged at Tyburn on May 24, 1725, before a large and hostile crowd that jeered rather than mourned, after an unsuccessful suicide attempt by laudanum the night before left him barely conscious on the scaffold. His story became an instant sensation — Daniel Defoe published an account of his life within weeks of the execution, and Henry Fielding later used him as the satirical model for his novel "The Life of Mr. Jonathan Wild the Great" — and Wild is remembered today as one of history's clearest examples of a fraud built entirely on controlling both sides of a transaction: manufacturing the crime and then selling the cure.`,
+    sourceUrl: 'https://www.britannica.com/biography/Jonathan-Wild',
+  },
 ];
 
 // Practical "how it works / red flags / what to do" guides covering the
