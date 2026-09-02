@@ -15998,6 +15998,28 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Kansas Corporation Commission'],
     sourceUrl: 'https://kvoe.com/2024/10/31/kansas-corporation-commission-report-scam-effort/',
   },
+  {
+    name: 'Fake High-Paying Overseas Job Offer / Scam Compound Trafficking Recruitment',
+    slug: 'fake-overseas-job-offer-scam-compound-trafficking',
+    description:
+      'Recruiters post unusually generous job listings, customer service, tech support, "online marketing," or night-shift roles specifically seeking American-accented English speakers, on social media and job boards, offering paid travel and lucrative pay for work in Southeast Asia. Once the victim arrives, traffickers confiscate passports, assign manufactured "travel and lodging debts," and use threats or actual violence to force them to work inside industrial-scale scam compounds, concentrated in Cambodia and along the Burma-Thailand border, running cryptocurrency "pig-butchering" and romance-investment fraud against other Americans. The FBI and DOJ have documented recruitment channels with thousands of followers targeting people specifically for their American accents, with reported 2025 losses to these operations reaching billions of dollars, and warn that any high-pay, paid-travel overseas job offer sourced through social media rather than a verified employer should be treated as a likely trafficking recruitment attempt, not a real opportunity.',
+    categorySlug: 'employment-scams',
+    country: 'US',
+    alertLevel: 'critical',
+    sources: ['Federal Bureau of Investigation (FBI) Internet Crime Complaint Center (IC3)', 'U.S. Department of Justice'],
+    sourceUrl: 'https://www.justice.gov/opa/pr/scam-center-strike-force-takes-major-actions-against-southeast-asian-scam-centers-targeting',
+  },
+  {
+    name: 'TSP/401(k) "Protect Your Retirement" Precious Metals Rollover Scam',
+    slug: 'tsp-401k-precious-metals-rollover-scam',
+    description:
+      'Fraudsters use fear-based pitches, warnings of an imminent market crash, government seizure, or inflation wiping out savings, to convince federal employees, military service members, and other retirement-account holders to liquidate securities in their Thrift Savings Plan, 401(k), or IRA and roll the proceeds into a new self-directed IRA. The self-directed IRA is then used to buy gold or silver coins the promoter claims carry only a small markup, when actual markups have been documented as high as 130%, a hidden, essentially unrecoverable loss baked into the purchase price itself, distinct from a typical fake investment that simply disappears with the money. In one SEC enforcement case, this exact scheme defrauded over 700 investors of more than $50 million and resulted in a $76 million judgment, and the SEC advises anyone considering a retirement-account rollover into precious metals to independently verify the promoter\'s registration and compare the quoted markup against the metal\'s actual spot price before committing any funds.',
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    alertLevel: 'high',
+    sources: ['U.S. Securities and Exchange Commission (SEC)'],
+    sourceUrl: 'https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-alerts/protect-your-tsp-account',
+  },
 ];
 
 async function seedCategoriesAndScams() {
