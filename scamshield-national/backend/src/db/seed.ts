@@ -25418,6 +25418,61 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ["Vermont Attorney General's Office"],
     sourceUrl: 'https://ago.vermont.gov/blog/2025/02/06/attorney-general-clark-announces-settlement-hearing-home-llc-alleged-violations-consumer-protection',
   },
+  {
+    name: 'Google Calendar Fake Subscription Renewal Invite Scam',
+    slug: 'google-calendar-fake-renewal-invite-scam',
+    description:
+      'Scammers are planting phishing lures directly inside victims\' Google Calendar rather than their inbox, exploiting a default setting where Calendar automatically adds event invitations from senders the recipient has never interacted with — meaning the fake event appears on a person\'s schedule without them opening an email or clicking "accept" on anything. The event is disguised as a subscription renewal receipt, typically naming a well-known brand, listing a large charge (often several hundred dollars for "multiple years" of service), inventing a transaction ID to look authentic, and providing a phone number to call to dispute or cancel it. Because the amount is large and the notice looks like it landed automatically the way a real calendar reminder would, victims react with urgency and call the number, at which point a live scammer pressures them in real time for payment details, remote access, or personal information — the same endgame as a classic tech-support or billing-fraud callback scam, just reached through an inbox filter that never got the chance to flag it. Security researchers at Malwarebytes documented an active March 2026 wave of these invites impersonating Malwarebytes\' own renewal notices, and Google\'s Trust & Safety team flagged "calendar invite abuse" as a distinct, growing phishing technique in its June 2026 fraud and scams advisory, alongside guidance to change Calendar\'s "Automatically add invitations" setting to "No, only show invitations to which I\'ve responded" so unsolicited events never appear on the calendar in the first place.',
+    categorySlug: 'phishing',
+    country: 'US',
+    alertLevel: 'medium',
+    sources: ['Google (Trust & Safety)', 'Malwarebytes'],
+    sourceUrl: 'https://blog.google/innovation-and-ai/technology/safety-security/fraud-scams-advisory-june-2026/',
+  },
+  {
+    name: '"$6,400 Health Subsidy" Fake Government Benefit Scam',
+    slug: '6400-health-subsidy-scam',
+    description:
+      'A scam ad, robocall, or text claims the recipient qualifies for a "$6,400 health subsidy," "spending allowance," or "government relief check" tied to the Affordable Care Act, and directs them to click a link or call a number to "claim" it. The number itself is real — $6,400 is roughly the maximum annual Advanced Premium Tax Credit some households can qualify for under the ACA marketplace — but scammers have distorted it into a universal cash payment or spending card that does not exist: the actual subsidy is paid directly to an insurer to lower a household\'s monthly premium, is never mailed to consumers as a check, and its size depends entirely on income, age, and location rather than being a flat amount everyone gets. The lure has spread widely on Facebook and other social platforms since 2024, often through accounts styled to look official ("HealthAidFund," "Vital Health Grants") using imagery lifted from government agencies, and clicking through leads either to a fake enrollment site engineered to harvest a Social Security number, bank details, and medical information, or to a lead-generation "quiz" that funnels a phone number into an avalanche of robocalls from unrelated insurance marketers under a buried terms-of-service consent. The scam has picked up renewed volume in 2026 as enhanced ACA premium tax credits expired at the end of 2025 and marketplace premiums jumped sharply for millions of enrollees, leaving confused consumers primed to believe an ad promising a large, specific dollar figure back. Consumers are advised to apply for coverage only through HealthCare.gov or their state\'s official marketplace, never through a link in an unsolicited ad, call, or text, and to remember that no legitimate ACA subsidy is ever paid out as a lump-sum check or gift card.',
+    categorySlug: 'healthcare-fraud',
+    country: 'US',
+    alertLevel: 'high',
+    sources: ['healthinsurance.org', 'Better Business Bureau (BBB) Scam Tracker'],
+    sourceUrl: 'https://www.healthinsurance.org/faqs/fact-check-is-the-6400-subsidy-real-or-a-scam/',
+  },
+  {
+    name: 'German Fake Fund-Recovery "Rückholservice" Scam',
+    slug: 'germany-fake-fund-recovery-ruckholservice-scam',
+    description:
+      'Consumers who already lost money to an investment scam are contacted again, by email or phone, by someone offering to help recover the lost funds — falsely claiming to work with or alongside BaFin, Germany\'s financial regulator, to lend the offer credibility. The callers use contact lists compiled from earlier fraud victims, who are often desperate to get their money back and therefore more receptive to a "rescue" offer, then demand an upfront fee or a fresh transfer of banking and identity details before vanishing without recovering anything. In a May 2026 consumer warning, BaFin stated explicitly that recovering money lost to fraud is not part of its statutory mandate, that it never engages third parties to do so on a victim\'s behalf, and that it has no connection whatsoever to any person or firm offering such help — advising anyone contacted this way to refuse and report it to the police or public prosecutor rather than pay anything further.',
+    categorySlug: 'investment-fraud',
+    country: 'DE',
+    alertLevel: 'high',
+    sources: ['BaFin (Federal Financial Supervisory Authority)'],
+    sourceUrl: 'https://www.bafin.de/SharedDocs/Veroeffentlichungen/DE/Verbrauchermitteilung/weitere/2026/meldung_2026_05_04_bafin_warnt_vor_angeblichen_hilfsangeboten.html',
+  },
+  {
+    name: 'German Cloned Bank Identity Fixed-Deposit (Festgeld) Scam',
+    slug: 'germany-cloned-bank-festgeld-comparison-site-scam',
+    description:
+      'Operators of unlicensed websites styled as interest-rate or fixed-deposit comparison portals — such as zinsvergleich-24.de and festgeldvergleich-49.de, which BaFin warned about in April 2025 — falsely present their offers as coming from a real, well-known financial group, in that case Allianz SE, using lookalike sender addresses such as info@officeallianz.de and info@backofficeallianz.de to appear legitimate. BaFin confirmed Allianz SE has no connection whatsoever to these sites or the accounts they solicit deposits into, and that offering brokered fixed-term or savings deposits in Germany requires a genuine BaFin authorization the operators never held; money wired in pursuit of an above-market Festgeld rate goes to an account with no link to the real institution and is not recoverable. This clone-firm pattern, distinct from a wholly invented trading platform, exploits the specific trust German savers place in a recognized bank or insurer\'s name — BaFin has issued dozens of nearly identical warnings against other cloned Festgeld comparison sites throughout 2025 and 2026, and recommends verifying any such offer through the institution\'s own official website and BaFin\'s public company database before transferring money.',
+    categorySlug: 'investment-fraud',
+    country: 'DE',
+    alertLevel: 'high',
+    sources: ['BaFin (Federal Financial Supervisory Authority)'],
+    sourceUrl: 'https://www.bafin.de/SharedDocs/Veroeffentlichungen/DE/Verbrauchermitteilung/unerlaubte/2025/meldung_2025_04_03_ZinsVergleich_24_FestgeldVergleich_49.html',
+  },
+  {
+    name: 'German Fake "Miracle" Cooling Device AI-Ad Scam',
+    slug: 'germany-fake-miracle-cooling-device-ai-ad-scam',
+    description:
+      'During heat waves, deceptive online and social-media ads market a supposedly revolutionary personal air-conditioning device that needs no installation or exhaust hose and claims to cool a whole room instantly, when the product actually shipped is a cheap imported fan or heater incapable of lowering room temperature at all. German police crime-prevention authorities warn the ads are built to look convincing using AI-generated "inventor" backstories and fabricated expert endorsements, synthetic customer photos, and fake review pages designed to mimic independent consumer-testing sites while functioning purely as advertisements for a single product. Victims pay inflated prices for the worthless device — netting scammers an "enormous profit margin," according to the advisory — and are left with a fan or heater bought at cooling-appliance prices; consumers are advised to check whether the claimed cooling method is even physically possible without an exhaust system, reverse-image-search product and "reviewer" photos to spot reused stock images, and use the Verbraucherzentrale\'s Fakeshop-Finder before ordering from an unfamiliar site.',
+    categorySlug: 'online-shopping-scams',
+    country: 'DE',
+    alertLevel: 'medium',
+    sources: ['Polizeiliche Kriminalprävention der Länder und des Bundes (polizei-beratung.de)'],
+    sourceUrl: 'https://www.polizei-beratung.de/aktuelles/detailansicht/die-klimageraete-falle-betrug-mit-fake-technik/',
+  },
 ];
 
 async function seedCategoriesAndScams() {
