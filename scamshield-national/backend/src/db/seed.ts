@@ -24816,6 +24816,42 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Federal Trade Commission (FTC)'],
     sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2026/06/animal-lovers-learn-spot-and-avoid-breed-pet-scams',
   },
+  {
+    name: 'Nebraska "WiFi Money" Dropshipping Investment Scheme',
+    slug: 'nebraska-wifi-money-dropshipping-investment-scheme',
+    description:
+      'Nebraska social media influencer Elizabeth "Liz" Friesen of Hampton promoted an "automated" e-commerce business opportunity on Instagram and TikTok, telling followers they could get "paid to live" by paying a self-styled "dropshipping guru" to build and run an Amazon or Walmart.com storefront on their behalf, backed by a money-back guarantee. Nebraska Attorney General Mike Hilgers\'s lawsuit, filed November 12, 2024 in Lancaster County District Court against Friesen, Florida company WiFi Money, and several co-defendants, alleges the scheme persuaded at least 60 people to pay roughly $15,000 apiece for stores that were never profitable, with several run in ways that violated Amazon\'s and Walmart\'s own marketplace policies and got the accounts suspended entirely — leaving buyers with no promised refund and no "passive income," just a dead account and a lost deposit. The complaint alleges Nebraskans lost roughly $3 million altogether, while Friesen and her co-defendants allegedly used the proceeds to fund multimillion-dollar mansions, Lamborghinis, a private jet, and other luxury purchases they displayed on social media to recruit more buyers. "These highly deceptive \'passive income\' schemes will not be tolerated in Nebraska under my watch," Hilgers said in announcing the suit, which seeks full refunds, civil penalties, and an injunction under the state\'s Consumer Protection Act and Uniform Deceptive Trade Practices Act. Anyone offered a guaranteed-profit "done for you" online store should treat a promise of guaranteed passive income as the first red flag, since no legitimate business venture — dropshipping included — can promise returns without real market risk, and should weigh an influencer\'s business claims against independent reviews rather than the curated lifestyle content used to sell the opportunity.',
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    state: 'NE',
+    alertLevel: 'high',
+    sources: ["Nebraska Attorney General's Office"],
+    sourceUrl: 'https://ago.nebraska.gov/news/nebraska-attorney-general-hilgers-files-lawsuit-against-social-media-%E2%80%9Cinfluencers%E2%80%9D-their',
+  },
+  {
+    name: 'Montana Native American Reservation Obamacare Rehab Fraud Scheme',
+    slug: 'montana-native-american-reservation-obamacare-rehab-fraud',
+    description:
+      'Recruiters working for out-of-state operators set up information booths on Native American reservations across Montana, offering free, luxury drug and alcohol rehabilitation in Southern California to residents struggling with addiction. To "qualify," recruiters convinced victims to disenroll from Medicaid and sign up instead for an Affordable Care Act marketplace health plan, exploiting a special enrollment provision available to tribal members. Victims were then flown or driven across state lines and housed not in licensed treatment facilities but in rundown houses and Airbnbs, where they received little or no real care while the operators billed insurers roughly $9,000 a day per person for services that were fabricated, unnecessary, or drastically inflated — as much as $810,000 in claims per victim over a purported 90-day stay. When the billing stopped, many victims were left stranded on the street in Arizona or Southern California with no way home. Montana Commissioner of Securities and Insurance James Brown\'s office identified the scheme after insurer PacificSource flagged suspicious ACA enrollments in January 2025, and by early 2026 investigators had traced roughly $54.7 million in fraudulent claims tied to at least 207 victims recruited from nearly every reservation in the state, rescinding more than 126 fraudulent policies and stopping or recovering over $37 million on behalf of Montana insurers — though Brown\'s office says some victims from the scheme still have not been located. Anyone approached with an offer of free out-of-state addiction treatment, especially one that requires switching health coverage first, should verify the facility\'s license directly with the state where it operates and confirm with their own insurer, not the recruiter, that any coverage change is actually in their interest.',
+    categorySlug: 'healthcare-fraud',
+    country: 'US',
+    state: 'MT',
+    alertLevel: 'high',
+    sources: ['Montana Commissioner of Securities and Insurance'],
+    sourceUrl: 'https://csimt.gov/2026/01/23/montana-exposes-54-7m-obamacare-fraud-scheme/',
+  },
+  {
+    name: 'Worcester Pastor Trinity Investments Real Estate Ponzi Scheme',
+    slug: 'massachusetts-trinity-investments-pastor-real-estate-ponzi-scheme',
+    description:
+      'Jose Encarnacion, senior pastor of Iglesia Cristiana De La Comunidad in Worcester, used his standing in the church and a network of affiliated congregations — reaching heavily into the Central African immigrant community — to solicit investments in Trinity Estate Investments & Development LLC, a real estate company he formed in March 2020. Encarnacion told investors their money would fund the purchase and renovation of specific properties Trinity already owned, and that rental income or resale proceeds would repay their principal plus interest; in one instance detailed by regulators, he told an investor their $60,000 would renovate a Southbridge, Massachusetts property that Trinity sold a year later for $220,000, but the investor was never repaid from the proceeds. The Massachusetts Securities Division\'s February 11, 2026 administrative complaint against Encarnacion and Trinity alleges the company raised roughly $10 million since 2020 — more than $2 million from Massachusetts residents alone — through unregistered, non-exempt promissory notes, and that as Trinity fell behind on interest payments to existing investors, Encarnacion kept soliciting new ones, using their money to pay off the old in the classic mechanics of a Ponzi scheme, while spending investor funds on personal travel, jewelry, and concerts. The Division is seeking a permanent bar on Encarnacion and Trinity offering or selling securities in Massachusetts, a full accounting of investor funds, and rescission offers with interest to affected investors. A request to invest through a pastor, church leader, or other trusted community figure deserves the same scrutiny as a stranger\'s pitch — a promissory note offering fixed returns from real estate is a security, and Massachusetts investors can check whether an offering and the person selling it are actually registered through the Securities Division\'s own database before writing a check.',
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    state: 'MA',
+    alertLevel: 'high',
+    sources: ['Massachusetts Securities Division'],
+    sourceUrl: 'https://www.sec.state.ma.us/divisions/securities/download/26-02-11-Administrative-Complaint--E-2025-0187-_Final.pdf',
+  },
 ];
 
 async function seedCategoriesAndScams() {
