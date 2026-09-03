@@ -4081,10 +4081,9 @@ Black Friday remains one of the earliest, starkest American examples of a scheme
     title: 'Lou Blonger and Denver\'s "Million Dollar Bunco Ring"',
     slug: 'lou-blonger-denver-bunco-ring',
     author: 'ScamShield Editorial',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Denver_City_and_County_Building_from_the_Colorado_State_Capitol_a.jpg?width=1200',
-    coverImageCredit: 'Photo: Nyttend / Jameslwoodward, Wikimedia Commons (CC0)',
+    coverImage: 'https://en.wikipedia.org/wiki/Special:FilePath/Lou_Blonger.jpg?width=1200',
+    coverImageCredit: 'Photo: Denver Police Department, 1923 booking photo (public domain, published before 1931)',
     coverImagePosition: 50,
-    // representative photo — replace with a portrait if found
     tags: ['notorious', 'historical'],
     body: `Lou Blonger arrived in Denver in the 1880s as a saloon and gambling-house operator, one of thousands of hustlers drawn west by the mining boom. By the early 1900s he had built something far more lucrative and far better hidden: a criminal syndicate that ran elaborate confidence games out of rented downtown storefronts for more than two decades, reaching a scale that later investigators called Denver's "Million Dollar Bunco Ring."
 
