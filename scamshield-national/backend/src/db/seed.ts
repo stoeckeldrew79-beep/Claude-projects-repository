@@ -25172,6 +25172,39 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Rhode Island Department of Business Regulation — Division of Insurance'],
     sourceUrl: 'https://dbr.ri.gov/sites/g/files/xkgbur696/files/2025-03/INS_2024-IN-017%20Terrell%20Gray%20Consent%20Agreement%20Executed.pdf',
   },
+  {
+    name: 'Japan "Apo-Den" Reconnaissance-Call Home Invasion Robbery',
+    slug: 'japan-apo-den-reconnaissance-robbery',
+    description:
+      'A caller posing as a police officer, city hall employee, or financial regulator phones a private home and, under the pretext of a routine safety survey or fraud-prevention check, asks probing questions about how much cash is kept in the house, the bank card PIN, the family\'s makeup, and what times the home is normally empty. Known in Japan as an "apo-den" (アポ電, short for "appointment call"), the call itself demands no money and often ends the moment enough detail has been gathered — the profile is instead passed to an accomplice, in some documented cases recruited through the same "yami baito" dark part-time job postings used to staff other fraud roles, who breaks into the profiled home days or weeks later, sometimes violently, to steal the cash and valuables directly. Osaka Prefectural Police and other prefectural forces have warned that this reconnaissance-call pattern has escalated into armed home-invasion robbery across multiple prefectures since 2023, and it is mechanically distinct from Japan\'s telephone scams that talk a victim into handing over money on the call itself, such as the cash-card-swap or fake-police video-call frauds: here the call is pure surveillance for a physical break-in carried out later by someone else entirely. Police advise hanging up without answering any of the caller\'s questions and immediately contacting family or the police, since no legitimate officer, city office, or financial regulator ever surveys a household\'s cash holdings and daily schedule by phone.',
+    categorySlug: 'government-impersonation',
+    country: 'JP',
+    alertLevel: 'critical',
+    sources: ['Osaka Prefectural Police', 'National Police Agency (Japan)'],
+    sourceUrl: 'https://www.police.pref.osaka.lg.jp/ochikakunokeisatsusho/keisatsushobetsujoho/35/1/4/5/14924.html',
+  },
+  {
+    name: 'Japan Bank Account Buying and Selling Recruitment Scam',
+    slug: 'japan-bank-account-buying-selling-scam',
+    description:
+      'Social media posts and ads using hashtags like "#口座買取" (account purchase), "#副業" (side job), or "#即日即金" (same-day cash) offer to buy an "unused" bank passbook, cash card, or online banking login for a lump-sum payment, pitching it to people in financial difficulty as an easy side gig rather than a scam against them. Once handed over, the account is fed straight into the laundering pipeline for phone and SNS-investment fraud syndicates, cycling stolen victim funds through it before investigators can trace the money — and separately from any fraud committed with it, Japan\'s Act on Prevention of Transfer of Criminal Proceeds makes transferring or receiving a bank account for any reason, paid or not, a standalone crime carrying up to three years in prison and a ¥5 million fine for the person who sold it, regardless of whether they ever intended to help commit fraud. The Tokyo Metropolitan Police Department states plainly that both the buyer and the seller of a bank account face arrest, and in November 2025 Japan\'s National Banking Association launched a joint public-education campaign with the Financial Services Agency and National Police Agency — titled "You sold an account, that\'s all" — after account trading tied to phone and SNS-type investment and romance fraud, whose combined losses hit record levels in 2024 and kept climbing through 2025, reached what the campaign called a crisis point; anyone offered cash for an "unused" bank account should recognize that selling it is itself a prosecutable crime, not a harmless shortcut around one.',
+    categorySlug: 'identity-theft',
+    country: 'JP',
+    alertLevel: 'high',
+    sources: ['Tokyo Metropolitan Police Department', 'National Banking Association (Zenginkyo)'],
+    sourceUrl: 'https://www.keishicho.metro.tokyo.lg.jp/multilingual/japanese/safe_society/law_violations/sell_buy_Japanese.html',
+  },
+  {
+    name: 'Japan QR Code Sticker Overlay Payment Scam',
+    slug: 'japan-qr-code-sticker-overlay-scam',
+    description:
+      'A fraudulent QR code sticker, printed to match the exact size and design of a venue\'s genuine payment code, is placed directly over the real one at self-checkout counters, food-court payment terminals, and similar unattended pay points, so a customer scanning what looks like the normal code is instead routed to a convincing fake payment page that harvests their credit card number and security code. The Tokyo Metropolitan Police Department has issued a specific public warning about this "QR code replacement" (QRコードの貼り替え) tactic, distinct from the SMS- and email-based QR phishing the Council of Anti-Phishing Japan tracks separately, since the fraud here starts by tampering with a real, physical payment sign rather than sending an unsolicited message. Police advise touching a public QR code before scanning to check whether it feels like a sticker peeling away from the surface underneath, confirming with staff if anything looks off, and always reviewing the destination page shown after scanning rather than assuming a QR code posted at a legitimate business is itself trustworthy.',
+    categorySlug: 'phishing',
+    country: 'JP',
+    alertLevel: 'medium',
+    sources: ['Tokyo Metropolitan Police Department', 'Council of Anti-Phishing Japan'],
+    sourceUrl: 'https://www.keishicho.metro.tokyo.lg.jp/kurashi/cyber/notes/qrcord.html',
+  },
 ];
 
 async function seedCategoriesAndScams() {
