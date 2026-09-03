@@ -3937,6 +3937,10 @@ In September 2000, Lebed settled with the SEC without admitting or denying wrong
     slug: 'emil-savundra-fire-auto-marine-insurance-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/The_City_London.jpg?width=1200',
+    coverImageCredit: 'Photo: kloniwotski (CC BY-SA 2.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Emil Savundra arrived in postwar Britain with a long, largely unpunished history as an international swindler — a Ceylon-born black marketeer who had already been imprisoned in Belgium in 1954 for defrauding a bank over a fake rice-shipment deal, and who had run schemes across Europe, West Africa, and Central America before settling in London. In 1963, he founded Fire, Auto and Marine Insurance Company (FAM), and pitched it directly at Britain's rapidly growing population of car owners with a simple hook: premiums priced as much as 40% below what established insurers charged.
 
 The underpricing wasn't a smarter business model — it was the fraud. FAM took in roughly £2.5 million in premiums from an estimated 400,000 policyholders while never building the financial reserves an insurer needs to actually pay claims, and Savundra padded the company's books with securities that regulators later found were wildly overstated or didn't exist in the amounts claimed. When FAM collapsed into insolvency in late 1966, hundreds of thousands of British drivers discovered they had been driving uninsured for months without knowing it, and thousands of accident victims and policyholders with pending claims — including people injured or with wrecked cars from accidents that had already happened — were left with valid-looking policies that would never pay out.
@@ -4167,6 +4171,10 @@ The Whitney scandal landed at a pivotal moment for American financial regulation
     slug: 'serge-rubinstein-panhandle-stock-manipulation-murder',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Manhattan_Skyline_at_Night,_Including_Bank_of_America_Tower.JPG?width=1200',
+    coverImageCredit: 'Photo: Ariarmstrong (CC BY-SA 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Serge Rubinstein was born in St. Petersburg to a wealthy banking family — his father had been a financial adviser to Grigori Rasputin — and fled Russia as a teenager after the 1917 Revolution. He arrived in the United States by way of Europe and the Far East with a taste for elaborate corporate maneuvering and a knack for making other people's money disappear into his own accounts. By the 1930s and '40s he had built a career buying up controlling stakes in undervalued or distressed companies, stripping their assets, and moving cash through a maze of holding companies that made it nearly impossible for regulators, creditors, or minority shareholders to follow where it went.
 
 His signature deal came in 1942, when Rubinstein bought control of Panhandle Producing and Refining Company for roughly $187,000 and used it as a shell to absorb other companies he controlled, driving the stock from around $1 to $14 a share while he and insiders quietly sold in. Federal prosecutors estimated he personally pocketed about $3.5 million from the scheme and indicted him in 1949 on stock fraud, mail fraud, and securities-law charges — Rubinstein was acquitted at trial in 1951, a verdict that did little to dent his reputation as one of the most brazen operators on Wall Street. He faced civil suits for years afterward, including one from his own sister-in-law accusing him of cheating his late brother out of $1.5 million in a separate deal involving Korean gold-mining assets, and another from Blair Holdings alleging a $5 million conspiracy to defraud.
@@ -4679,6 +4687,10 @@ Hogue's Princeton fraud became one of the most widely told impostor stories in A
     slug: 'frederic-bourdin-the-chameleon-serial-impostor',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Nantes_banner.jpg?width=1200',
+    coverImageCredit: 'Photo: Jibi44 / Jjtkk (CC BY-SA 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Frédéric Bourdin grew up in Nantes, France, raised by his grandparents after a chaotic early childhood, and by his teens had discovered he could talk his way into an identity that fit better than his own. Over the following two decades he claimed dozens of false names and backstories, most often posing as an abandoned or abused minor to get taken in by French social services, foster families, or children's shelters — a pattern French tabloids eventually gave a nickname: "Le Cameleon," the Chameleon, for how completely he could disappear into someone else's life.
 
 Bourdin's most notorious impersonation began in 1997, when he was 23 and facing possible imprisonment in Spain after one of his fabricated identities had unraveled. Searching a missing-children hotline for a boy roughly his own build, he found the case of Nicholas Barclay, a 13-year-old who had vanished from San Antonio, Texas, in June 1994. Despite having brown eyes to Barclay's blue, an unmistakable French accent, and being a decade older than the boy he claimed to be, Bourdin — calling himself Nicholas — convinced Spanish authorities, the U.S. embassy, the FBI, and ultimately Barclay's own family that he was their missing son, explaining away the mismatches with a story that he had been abducted into a European child-trafficking and military-experimentation ring that had altered his eyes and accent.
@@ -4693,6 +4705,10 @@ Deportation didn't end Bourdin's pattern: French authorities and journalists doc
     slug: 'mark-karpeles-mt-gox-bitcoin-collapse',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Tokyo_skyline_2017.jpg?width=1200',
+    coverImageCredit: 'Photo: Kallerna (CC BY-SA 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Mt. Gox began in 2010 as a trading site for Magic: The Gathering cards — its name an acronym for "Magic: The Gathering Online eXchange" — before its founder, Jed McCaleb, repurposed it into a bitcoin exchange and sold it in 2011 to Mark Karpelès, a French programmer running the business out of Tokyo. Under Karpelès, Mt. Gox grew into the dominant venue for trading the still-obscure cryptocurrency, and by 2013 it was handling an estimated 70 percent of all bitcoin transactions worldwide, making it, for a time, effectively synonymous with the bitcoin market itself.
 
 Trouble had been building for years before the final collapse. A 2011 security breach let an intruder manipulate the exchange's price and access customer account data, and in 2013 U.S. federal authorities seized roughly $5 million from a Mt. Gox-linked bank account for operating as an unlicensed money transmitter. Then, in February 2014, Mt. Gox abruptly halted all customer withdrawals, citing vague "technical issues," before filing for bankruptcy protection days later. The filing revealed that approximately 850,000 bitcoin belonging to the exchange and its customers — worth roughly $450 million at the time — had disappeared, along with millions of dollars in cash. It was, at the time, the largest known theft in cryptocurrency's short history, and it wiped out the holdings of hundreds of thousands of customers around the world.
@@ -4709,6 +4725,10 @@ The collapse became a foundational case study for cryptocurrency regulation, cit
     slug: 'lai-xiaomin-china-huarong-bribery-execution',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Beijing_skyline_(cropped).jpg?width=1200',
+    coverImageCredit: 'Photo: Alexander Guo (CC BY-SA 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Lai Xiaomin spent much of his career inside China's banking regulatory apparatus before being appointed in 2012 as chairman of China Huarong Asset Management, one of four state-owned "bad bank" companies created in 1999 to absorb non-performing loans weighing down China's major state banks. Under Lai, Huarong expanded far beyond that original mandate into a sprawling financial conglomerate spanning banking, trusts, securities, and leasing, funded by aggressive borrowing that briefly made it one of the most systemically important non-bank financial institutions in China.
 
 That expansion was built substantially on corruption. Chinese investigators found that from 2008 — while Lai still held senior regulatory posts overseeing bank lending — through 2018, when he was dismissed as Huarong's chairman, he had solicited and accepted bribes from businesses and individuals seeking loan approvals, financing, or regulatory favor. The total came to nearly 1.79 billion yuan, or roughly $277 million, one of the largest bribery hauls ever documented in a single Chinese corruption prosecution. State media publicized lurid details of the scale once the case became public: reportedly more than 200 million yuan (about $31 million) in cash stored in one of Lai's properties, so densely packed that the currency-counting machines used to tally it wore out, along with more than 100 apartments allegedly held under other people's names.
@@ -4790,6 +4810,10 @@ Kanebo's cosmetics division was ultimately sold off to Kao Corporation and survi
     slug: 'hunt-brothers-silver-corner-silver-thursday',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Silver_Bar_01.jpg?width=1200',
+    coverImageCredit: 'Photo: Armin Kübelbeck (CC BY-SA 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Nelson Bunker Hunt and his brother William Herbert Hunt were heirs to one of the largest oil fortunes in Texas, and by the mid-1970s they had turned their attention to silver, a market they believed was undervalued and vulnerable to inflation in a way gold no longer was. Starting in 1973 and accelerating through 1979, the Hunts — joined at times by their brother Lamar and a group of wealthy Middle Eastern investors — began buying silver bullion and futures contracts on a scale the market had never seen, eventually amassing a position estimated at roughly 195 million ounces, close to a third of the world's deliverable supply outside government reserves.
 
 The buying was not simple long-term investing; regulators and rival traders came to see it as a deliberate attempt to corner the market, using leveraged futures positions and coordinated bullion purchases to squeeze the available supply and force the price relentlessly upward. It worked, spectacularly and briefly: silver, trading around $6 an ounce in early 1979, spiked to a record $50.42 in January 1980 — a nearly tenfold run that rippled through jewelry counters and flatware drawers across the country as ordinary Americans melted down silverware to cash in on the mania the Hunts had set off. Commodity exchanges, alarmed at the concentration of the Hunts' position and the leverage propping it up, responded by sharply tightening margin requirements and imposing new rules restricting purchases to liquidation-only trading, cutting off the fuel the corner depended on.
@@ -4912,6 +4936,10 @@ Batista's fall — from magazine covers boasting he'd overtake Carlos Slim and B
     slug: 'william-thompson-original-confidence-man',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/NYC_Manhattan_Skyline.JPG?width=1200',
+    coverImageCredit: 'Photo: Lesekreis (CC0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Long before "confidence trick" was a stock phrase, it described one specific man working the streets of New York City in the late 1840s. William Thompson — a well-dressed operator who also went by aliases including Samuel Thompson, Samuel Willis, and William Evans — approached prosperous-looking strangers, struck up a conversation as though they were old acquaintances, and, once he'd put the mark at ease, asked a single disarming question: did they have the confidence to lend him their watch until the next day? Just often enough, the answer was yes. Thompson would pocket the watch, thank the stranger, and walk away for good.
 
 On May 12, 1849, one of those marks was Thomas McDonald of Madison Street, who handed over a gold lever watch worth $110 on William Street after a few minutes of Thompson's genial small talk. What made Thompson's case different from the dozens of similar street cons working the city wasn't the scheme itself — bilking strangers out of small valuables was hardly new — but sheer bad luck on his part: weeks later, McDonald spotted Thompson again, this time on Liberty Street, and had him arrested on the spot. Officer Swayse of the Third Ward took Thompson into custody on June 8, 1849, reportedly after Thompson "showed desperate fight" and had to be forcibly subdued. Brought before Justice McGrath, he was recognized as a repeat offender — described in court as "a graduate of the college at Sing Sing," a wink at an earlier stint in the state penitentiary.
@@ -4961,6 +4989,10 @@ A 1985 Australian Royal Commission of Inquiry spent years examining the bank's c
     slug: 'sante-kimes-con-artist-murder',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Las_Vegas_Strip_panorama.jpg?width=1200',
+    coverImageCredit: 'Photo: Matthew Field (CC BY 2.5)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Sante Kimes spent nearly four decades running scams before the world outside true-crime circles ever learned her name. Beginning in the 1960s and continuing through the 1990s, she and, in later years, her son Kenneth Kimes Jr. cycled through insurance fraud, slavery and forced-servitude charges involving undocumented domestic workers, credit card fraud, identity theft, arson-for-insurance schemes, and a long string of stayed-and-skipped hotel bills across multiple states. She was convicted of enslaving a housekeeper in the 1980s and served time for it, but conviction after conviction did little to interrupt a lifestyle that mixed genuine wealth — she had married a real estate and government-contracting millionaire, Kenneth Kimes Sr. — with an underlying pattern of theft, forged documents, and impersonation that never stopped.
 
 By the late 1990s, mother and son had set their sights on a much larger prize: the multimillion-dollar Manhattan townhouse of 82-year-old Irene Silverman, a former Radio City Music Hall dancer who rented furnished apartments to wealthy tenants. Posing as a tenant under a false name, Kenneth moved into Silverman's building in the summer of 1998 while Sante forged documents designed to transfer ownership of the townhouse into a shell identity the pair controlled. On July 5, 1998, Irene Silverman vanished from her home. Her body was never found, but investigators recovered a trove of evidence — including a bag containing a gun, handcuffs, a stun gun, and forged identification documents — in a car the Kimeses were driving when they were arrested days later in Manhattan, along with Silverman's Social Security card and a notarized (and forged) document purporting to sell her the townhouse.
@@ -4975,6 +5007,9 @@ Sante Kimes died in her prison cell in Bedford Hills, New York, in May 2014, hav
     slug: 'elmyr-de-hory-art-forger',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Elmyr_de_Hory_1974.png?width=1200',
+    coverImageCredit: 'Photo: Kitetoa (CC BY-SA 4.0)',
+    coverImagePosition: 50,
     body: `Elmyr de Hory arrived in Paris after World War II hoping to make a name for himself as an original painter. He never did — not under his own style, at least. Sometime around 1946, according to his own later account, a friend mistook one of his Picasso-influenced sketches for a genuine Picasso and offered to buy it. De Hory, broke and struggling, didn't correct him. Over the next two decades, that single transaction grew into what is widely regarded as one of the most prolific art-forgery careers in history: de Hory painted and sold work he attributed to Picasso, Matisse, Modigliani, Renoir, and Derain, among others, moving through galleries and private collectors across Europe and the United States who rarely questioned a charming, cultured Hungarian émigré with a plausible story about a family collection.
 
 De Hory rarely sold the forgeries directly. Instead he relied on a rotating cast of dealers and middlemen — most notoriously Fernand Legros and Real Lessard — who marketed the paintings to collectors and institutions, often with fabricated provenance documents to match. The scheme's undoing began in 1967, when Texas oil millionaire Algur Hurtle Meadows discovered that some 40 paintings he had bought, believed to be by major modern masters, were fakes — a revelation that triggered gallery investigations, lawsuits, and a wave of press coverage that made de Hory notorious just as authorities in France and the United States began pursuing him. Legros and Lessard were eventually convicted of fraud in France; de Hory himself was harder to pin down criminally, since forgery statutes in several jurisdictions targeted signing a forged name to sell it, and de Hory increasingly let his dealers do the selling and the signing.
@@ -5212,6 +5247,10 @@ Decades later, the Philippine government has recovered only a fraction of what w
     slug: 'sani-abacha-nigeria-embezzlement',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Mausoleum_of_General_Sani_Abacha_in_Kano.jpg?width=1200',
+    coverImageCredit: 'Photo: 阿道 (CC0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `General Sani Abacha seized power in Nigeria through a 1993 coup and ruled as military head of state until his death in 1998 — five years marked by the violent suppression of political opposition and one of the largest state-looting operations in African history, carried out quietly enough that its full scale only became clear after he was gone.
 
 The embezzlement ran through a scheme built on manufactured threats to the state. Abacha's National Security Adviser, Ismaila Gwarzo, wrote a steady stream of secret memos warning of invented plots against Nigeria's security, each one requesting that millions of dollars be released from the Central Bank of Nigeria — in cash, traveler's checks, or wire transfers — supposedly to fund covert operations protecting the country. The threats didn't exist. The money went directly to Abacha and his family, then was laundered through shell companies, real estate, and private bank accounts across Switzerland, the United Kingdom, Jersey, Luxembourg, and the United States.
@@ -5244,6 +5283,10 @@ Leissner's own sentencing was delayed for years while his cooperation continued,
     slug: 'allen-chan-sino-forest-timber-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Hong-Kong_skyline.JPG?width=1200',
+    coverImageCredit: 'Photo: Robster1983 (CC0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Sino-Forest Corporation was, on paper, one of the largest forestry companies in the world — a Toronto Stock Exchange-listed firm that told investors it controlled vast tracts of timberland across China's Yunnan and other provinces, worth billions of dollars. Its chairman and CEO, Allen Chan, had built the company through a reverse takeover in the 1990s and grown it into a market darling, attracting major institutional investors including Paulson & Co., the hedge fund that had famously profited from betting against the U.S. subprime mortgage market.
 
 The company's credibility collapsed almost overnight. On June 2, 2011, the short-seller research firm Muddy Waters, led by Carson Block, published a report calling Sino-Forest "a multi-billion dollar Ponzi scheme" built on a reverse-merger fraud, alleging the company had wildly overstated its timber holdings and fabricated sales transactions through a network of opaque intermediaries. Sino-Forest's stock lost more than 75% of its value within days. The company initially denied the allegations and commissioned an independent committee investigation to refute them.
@@ -5258,6 +5301,10 @@ The regulatory reckoning took years. In 2017, the Ontario Securities Commission 
     slug: 'christian-gerhartsreiter-clark-rockefeller-impostor-murder',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Charles_River_Esplanade,_Boston,_Massachusetts.JPG?width=1200',
+    coverImageCredit: 'Photo: Daderot (CC BY-SA 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Christian Karl Gerhartsreiter arrived in the United States from Germany as a teenager in the late 1970s and spent the next three decades inventing new identities, each more socially elevated than the last. In the early 1980s, living in San Marino, California, he called himself Christopher Chichester and claimed descent from British aristocracy. He later resurfaced in Wisconsin and New York under other names, including a Wall Street bond trader persona, before settling by the 1990s into the identity that would define him publicly: Clark Rockefeller, a supposed member of the famous American banking family, complete with a fabricated pedigree, an invented art collection, and a manner polished enough to fool Boston and New York's social elite for sixteen years.
 
 As "Clark Rockefeller," Gerhartsreiter married a Harvard Business School graduate who went on to a senior consulting career, and the couple had a daughter. The marriage ended in divorce in 2007, and in July 2008 — during a court-supervised visit in Boston — he abducted the seven-year-old girl, triggering a nationwide Amber Alert and a multi-state manhunt covered on national news. He was captured days later in Baltimore, and fingerprint analysis revealed that "Clark Rockefeller" did not exist; the man in custody was Christian Gerhartsreiter, a German national with no connection to the Rockefeller family at all. He was convicted of kidnapping in 2009 and sentenced to four to five years in prison.
@@ -5307,6 +5354,10 @@ With Stolzenberg beyond the reach of Canadian courts, the legal reckoning over C
     slug: 'jean-marie-messier-vivendi-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/La_Défense_-_Paris_photo5.jpg?width=1200',
+    coverImageCredit: 'Photo: Sami Mlouhi (CC BY-SA 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Jean-Marie Messier took over Compagnie Générale des Eaux, a staid French water utility, in 1996 and spent the following six years transforming it into Vivendi Universal, a sprawling media and telecommunications conglomerate assembled through an extraordinary run of acquisitions — Canal+, Universal Studios, Universal Music, and dozens of smaller technology and publishing companies, financed largely with borrowed money. Messier became a celebrity chief executive in France, nicknamed "J6M" (a self-mocking French acronym roughly translating to "Jean-Marie Messier, myself, master of the world"), and Vivendi's stock rode the dot-com boom to become one of the most valuable companies on the Paris exchange.
 
 The acquisition spree left Vivendi with roughly €35 billion in debt by 2002, a liquidity crisis Messier and his chief financial officer, Guillaume Hannezo, chose to paper over rather than disclose. According to the U.S. Securities and Exchange Commission, which filed a civil fraud action against both men and the company, Vivendi issued a string of press releases through 2001 and into 2002 describing its cash flow and liquidity as "excellent" or "strong" while internally the company was scrambling to cover its obligations; the SEC's complaint further alleged the company had improperly adjusted accounting reserves specifically to hit its EBITDA targets and had failed to disclose material financial commitments to investors on both sides of the Atlantic, since Vivendi's shares traded in New York as well as Paris.
@@ -5321,6 +5372,10 @@ The legal reckoning arrived in stages. The SEC settled its case in December 2003
     slug: 'cortes-randell-national-student-marketing-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Washington_dc_skyline.jpg?width=1200',
+    coverImageCredit: 'Photo: Ad Meskens (CC BY-SA 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Cortes Wesley Randell founded National Student Marketing Corporation in 1966 with a simple pitch: NSMC would connect major advertisers like Ford, Time magazine, and American Airlines to the lucrative youth market through campus reps and student-focused campaigns. The company went public in 1968 at $6 a share, and Randell used the stock as acquisition currency, buying up a string of unrelated businesses — a computing job-placement service, a beer mug manufacturer, a travel guide publisher — in a blitz of "go-go" era dealmaking that Wall Street rewarded richly. By the end of 1969, NSMC shares had rocketed to $144, and the 29-year-old Randell was profiled as a boy-wonder symbol of the bull market's most speculative excesses.
 
 The fraud lived in NSMC's accounting for those acquisitions. To keep reported earnings climbing fast enough to justify the stock price, the company relied on aggressive treatment of merger-related revenue that regulators later found didn't reflect the underlying business. The scheme's defining moment came during NSMC's 1969 merger with Interstate National Corporation: NSMC's outside auditor, Peat, Marwick, Mitchell & Co., determined that the nine-month interim financial statement backing the deal — which showed a profit — would actually show a loss once properly adjusted. The unsigned "comfort letter" flagging that discrepancy wasn't even delivered to the closing meeting until shortly before the filing deadline, and the lawyers for both companies, aware of the problem, proceeded with the closing anyway after a brief discussion.
@@ -5437,6 +5492,10 @@ Paul was indicted in the early 1990s and convicted in November 1993 on 68 of 69 
     slug: 'don-dixon-vernon-savings-loan-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Downtown_Vernon,_TX_Picture_2209.jpg?width=1200',
+    coverImageCredit: 'Photo: Billy Hathorn (CC BY-SA 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Don Dixon bought a small Texas thrift called Vernon Savings and Loan in 1982, just as federal deregulation freed savings and loans to move beyond conservative home mortgages into commercial real estate, brokered deposits, and speculative development lending. Under Dixon, Vernon grew explosively — deposits climbed from roughly $80 million in 1982 to $1.6 billion by 1986 — fueled almost entirely by fast-money brokered deposits chasing high interest rates and funneled into real estate deals of questionable soundness, a growth pattern regulators would later find repeated across dozens of deregulated Texas thrifts.
 
 Dixon ran Vernon less like a federally insured depository and more like a personal treasury. He and his executives were later found to have diverted company funds toward Dixon's own lifestyle, including a Solana Beach, California beach house used to entertain business associates and a yacht called the High Spirits — sister ship to the presidential yacht Sequoia — which Dixon berthed in Washington, D.C., and used to court the very federal regulators and lawmakers who were supposed to be overseeing thrifts like his. Examiners who audited Vernon after its seizure found the bank's loan portfolio in a state of near-total collapse, with a 96 percent default rate on its books — a figure so extreme that regulators took to calling the thrift "Vermin Savings" rather than Vernon.
@@ -5506,6 +5565,10 @@ Kurniawan's fraud remains the defining case study in why rare-wine collecting is
     slug: 'glenn-turner-koscot-dare-to-be-great-pyramid-scheme',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Orlando_Florida_April_2010_14.JPG?width=1200',
+    coverImageCredit: 'Photo: ILA-boy (CC BY-SA 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Glenn Wesley Turner grew up the son of a South Carolina sharecropper, born with a cleft palate that left him with a pronounced speech impediment, and dropped out of school in the eighth grade. He supported himself for years as a door-to-door salesman — vacuum cleaners, encyclopedias, sewing-machine lessons — before discovering he could make far more money selling other people the right to sell for him. On August 27, 1967, he founded Koscot Interplanetary, Inc. ("Kosmetics for the Communities of Tomorrow") in Orlando, Florida.
 
 Koscot's structure made the underlying pyramid almost impossible to miss, in retrospect: for nearly its first year in business the company had no cosmetics to sell at all, and its earliest "distributors" made money purely by recruiting other distributors. Later, joining as a "supervisor" required advancing up to $5,000 for a package of cosmetics inventory, and profit came overwhelmingly from bringing in new recruits below you rather than from retail sales to actual customers — the textbook structure of a recruitment-driven pyramid. In 1969, Turner layered a second business on top of it: Dare to Be Great, Inc., selling motivational self-improvement courses and audiotapes through the same evangelical, stadium-rally sales meetings, with Turner's own rags-to-riches story built into the pitch. At its peak, Turner's roughly 70 affiliated companies together employed an estimated half a million people across dozens of states.
@@ -5576,6 +5639,10 @@ Weyman's career finally ended not through a con but through simple bad luck: in 
     slug: 'edward-okun-1031-tax-group-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Richmond,_Virginia_skyline.jpg?width=1200',
+    coverImageCredit: 'Photo: Ben Schumin (CC BY-SA 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Edward Okun built a career as a Virginia real estate investor before acquiring The 1031 Tax Group LLP, a company that served as a "qualified intermediary" for a specific, obscure corner of the tax code: Section 1031 like-kind exchanges, which let real estate investors defer capital gains taxes by routing the proceeds of a property sale through an intermediary and into a replacement property within a set window, rather than taking the cash directly. To qualify, the seller's funds had to sit untouched with the intermediary in the interim — a structure that requires investors to hand over large sums of money and simply trust that it will still be there weeks or months later.
 
 Okun didn't keep that trust. Between August 2005 and April 2007, he used 1031TG and a network of subsidiary qualified-intermediary companies he acquired to misappropriate roughly $126 million in client escrow funds, diverting the money into his own commercial real estate holdings, his personal spending, and the acquisition of yet more intermediary firms whose client funds he could then also draw on — a structure that let him keep the scheme running by continuously expanding the pool of new deposits available to cover what he'd already taken. Investigators later detailed how he also engaged in bulk cash smuggling, directing employees at his Richmond office to withdraw $15,000 increments — just under the amount that triggers federal reporting requirements — and physically transport the cash to his personal yacht in the Bahamas.
@@ -5590,6 +5657,10 @@ The 1031TG collapse became a cautionary case study for an entire industry: becau
     slug: 'reed-waddell-gold-brick-swindle',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Eiffel_Tower_Paris_01.JPG?width=1200',
+    coverImageCredit: 'Photo: Waithamai (CC BY-SA 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Reed C. Waddell was born around 1860 in Springfield, Illinois, into a comfortable, upper-middle-class family that had no idea what to make of a son who preferred high-stakes gambling to any respectable trade. His family cut him off before he turned 21, and rather than reform, Waddell headed for New York City, arriving in 1880 with a con so simple in concept that it would lend a permanent phrase to the English language: the gold brick swindle.
 
 The scheme worked on a mix of greed and a false sense of insider access. Waddell fabricated bricks of ordinary lead, plated them in gold, and stamped them with convincing counterfeit markings from the U.S. Assayer's Office to suggest official government certification. He would approach a mark — often a prosperous farmer or businessman visiting the city — with a story about a smuggled or ill-gotten brick of gold bullion he needed to unload quietly, below its true value. If the buyer grew suspicious and asked to have the brick tested, an accomplice posing as an independent assayer would drill into a small plug of real gold Waddell had embedded specifically for that purpose, "confirming" the brick's authenticity while the rest of it stayed pure lead. Waddell's first sale reportedly netted him $4,000, and subsequent bricks sold for anywhere between $3,500 and $7,000 — enormous sums in 1880s dollars — as word of his method spread and other confidence men across the country adopted it as a standard tool of the trade, giving rise to the enduring slang term "goldbricking."
@@ -5644,6 +5715,10 @@ Unlike most cases in this collection, Caraboo's hoax produced no financial ruin 
     slug: 'david-hampton-sidney-poitier-son-con',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Manhattan_Skyline_at_Night,_Including_the_Chrysler_Building.JPG?width=1200',
+    coverImageCredit: 'Photo: Ariarmstrong (CC BY-SA 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `David Hampton grew up in Buffalo, New York, the son of an attorney, and moved to Manhattan in the early 1980s with the kind of easy charm and quick intelligence that made him a natural at talking his way into rooms he had no business entering. The idea for his most famous con came almost by accident: turned away from Studio 54 one night in 1983 with a friend, the two joked about pretending to be celebrities to get past the velvet rope, and Hampton picked a role that would prove far more durable than a single night out — he became "David Poitier," the fictional son of actor Sidney Poitier.
 
 The persona worked because Hampton built a plausible frame around it rather than just a famous name. He claimed to be a Harvard student, sprinkled in details about his "father's" film career, and let his genuine wit and poise do the rest of the convincing. Wealthy New Yorkers who met him — including the dean of a Columbia University graduate school and the president of public television station WNET — invited him into their homes, lent him money, and in some cases let him stay overnight, flattered by the idea that they'd befriended the son of one of Hollywood's most respected actors. The con unraveled the same year it began, in October 1983, when one of his marks discovered the real Sidney Poitier had no son by that description, and Hampton was arrested; he ultimately pleaded guilty to attempted burglary and related charges tied to the scheme and served time in prison.
@@ -5658,6 +5733,10 @@ Hampton's con is a clean illustration of a specific social-engineering pattern t
     slug: 'robert-hendy-freegard-fake-mi5-agent',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Thames_house_exterior.jpg?width=1200',
+    coverImageCredit: 'Photo: Cnbrb (CC BY-SA 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Robert Hendy-Freegard worked ordinary jobs as a car salesman and pub manager in the English Midlands, but from his early twenties through his thirties he ran a con built entirely on invented secret-service credentials. Starting in 1993, he told a series of acquaintances — often students or young colleagues — that he was an undercover MI5 officer working to infiltrate the IRA, and that they themselves were now in danger and needed his protection. Once a target believed the story, Hendy-Freegard used it to demand total obedience: victims were told to cut contact with family, hand over savings and bank cards to fund the "operation," and in some cases live under his direction for years, all while believing their compliance was the only thing keeping them and their loved ones alive.
 
 Over roughly a decade, Hendy-Freegard is estimated to have taken more than £1 million from at least five victims through this method, alongside a parallel string of romantic relationships and engagements he ran simultaneously using the same false intelligence-officer identity to extract money and control from each partner. The scheme finally came apart when a family who had gone years without contact with a victim eventually located and confronted him, leading to his arrest. In 2005, a jury convicted Hendy-Freegard of kidnapping, deception, and theft, and he was sentenced to life imprisonment — one of the longest sentences given in the UK at the time for a non-violent confidence crime, reflecting the scale of psychological control the case documented.
@@ -5672,6 +5751,10 @@ Hendy-Freegard's case remains a stark illustration of how a fabricated position 
     slug: 'steven-jay-russell-king-con-prison-escapes',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/PolunskyUnitWestLivingstonTX.jpg?width=1200',
+    coverImageCredit: 'Texas Department of Criminal Justice (public domain, Texas Public Information Act)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Steven Jay Russell built a career on the observation that most people, including trained professionals and institutions with real security procedures, will accept a confident performance of authority over almost any other form of proof. Across the 1990s, Russell used at least a dozen aliases and forged credentials to impersonate a physician, a lawyer, a judge, a corrections officer, and a corporate executive — not as one-off stunts, but as sustained identities he used to steal money and, later, to break out of prison.
 
 His most damaging fraud came in early 1996, when he talked his way into the chief financial officer role at NAMM (National Association of Managed Care Physicians) in Houston using a fabricated résumé and forged references. In roughly four months on the job, Russell embezzled about $800,000 from the company before the fraud was discovered and he was arrested. It was one of several similar frauds across his career, including insurance scams and identity theft, that funded a lifestyle built almost entirely on invented professional standing rather than any legitimate income.
@@ -5686,6 +5769,10 @@ Central to his public notoriety was his relationship with fellow inmate Phillip 
     slug: 'george-graham-rice-stock-swindler-jackal-of-wall-street',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Gold_mines_and_mining_facilities,_Goldfield,_Nevada,_ca.1904_(CHS-5423).jpg?width=1200',
+    coverImageCredit: 'Photo: C.C. Pierce, ca. 1904 (public domain)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `George Graham Rice was born Jacob Simon Herzig in Manhattan in 1870, the son of a furrier, and reached adulthood already twice convicted: first in 1890, at nineteen, for stealing from his own father's business to cover gambling debts, which cost him two years at the Elmira Reformatory, and again in 1895 for forgery and further theft from his family, which sent him to Sing Sing for four years. He walked out of prison with a new name — borrowed from a fellow inmate — and a new trade that would occupy the next four decades of his life: separating strangers from their money using nothing but the printed word.
 
 Rice's first vehicle was Maxim & Gay, a racetrack tipster sheet that promised subscribers inside information on fixed races; it built a paying readership of roughly 100,000 people before the U.S. Post Office shut it down for mail fraud. He then pivoted to what would become his signature con, moving to the Nevada mining boomtowns of Goldfield and Rawhide around 1904 and discovering that the same printed-tip-sheet formula worked just as well selling worthless mining stock as it did selling fixed horse races. Through vehicles including the Nevada Mining News Bureau, the L.M. Sullivan Trust Company, Nat C. Goodwin & Co., and later B.H. Scheftels & Company, Rice flooded newspapers with paid advertisements and glowing "news" bulletins about desert claims that were either barren or wildly oversold, pocketing the proceeds as investors' checks poured in from across the country. He had a genuine flair for promotion — he co-financed a nationally covered 1906 prizefight between Joe Gans and Battling Nelson simply to keep the Goldfield mining district in the headlines — and used that same talent for spectacle to manufacture demand for stock in companies that, in several cases, mined nothing at all.
@@ -5700,6 +5787,10 @@ Rice's career is a useful reminder that financial fraud does not require sophist
     slug: 'gerard-lee-bevan-city-equitable-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/The_Central_Criminal_Court,_Old_Bailey_-_geograph.org.uk_-_5923124.jpg?width=1200',
+    coverImageCredit: 'Photo: Bill Henderson (CC BY-SA 2.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Gerard Lee Bevan was born into exactly the kind of family whose name was supposed to guarantee trustworthiness: his father, Francis Bevan, chaired Barclays Bank, and Gerard was educated at Eton and Trinity College, Cambridge, before building a respectable career as a London stockbroker with the firm Ellis & Co. In 1916, he bought a large stake in the City Equitable Fire Insurance Company and became its chairman, gaining control of a pool of policyholder premiums and investment capital that he proceeded to treat as his own private trading account.
 
 Rather than investing City Equitable's funds conservatively, as an insurer holding other people's premiums is expected to do, Bevan funneled the company's money into speculative and often self-dealing ventures — including businesses he personally controlled — while using the firm's respectable name and his own family pedigree to keep policyholders, auditors, and the market from asking hard questions. When the speculative investments soured after the First World War, Bevan concealed the mounting losses rather than disclose them, continuing to present City Equitable as financially sound while the hole in its accounts grew. By the time the company collapsed into bankruptcy in early 1921, it had lost roughly £1.2 million — worth tens of millions of pounds today — much of it traceable directly to Bevan's fraudulent dealings and self-interested investment decisions.
@@ -5731,6 +5822,10 @@ The Royal Mail Case became a landmark in British corporate law specifically beca
     slug: 'franz-tausend-alchemist-gold-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Munich_skyline_1.jpg?width=1200',
+    coverImageCredit: 'Photo: Mwinog2777 (CC BY-SA 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Franz Seraph Tausend was an unemployed Munich decorative painter with a lifelong fascination with alchemy when, in the mid-1920s, he announced he had cracked the problem that had defeated centuries of predecessors: a formula, derived from astrological calculations, for transmuting lead and other base metals into gold. The timing was not an accident. Germany in the years after the First World War was crushed under hyperinflation and Treaty of Versailles reparations payments, and a process that promised to manufacture gold on an industrial scale had obvious appeal to a nation desperate for a way out of its debts — especially to the nationalist circles most bitter about how the war had ended.
 
 Tausend found his way to exactly those circles. In October 1925 he formed a society to fund and profit from his process with General Erich Ludendorff, Germany's former WWI supreme military commander and, a year earlier, a co-conspirator in Hitler's failed Beer Hall Putsch, serving as its figurehead "trustee." Under the arrangement, Ludendorff would take 75 percent of any profits for "patriotic purposes," Tausend 5 percent, and the remaining 20 percent would go to other promoters who helped raise capital. Investors — Ludendorff among them, alongside wealthy nationalist sympathizers and ordinary pensioners in Tausend's own home village — bought gold certificates valued at 25,000 marks per 10-kilogram batch of promised future gold, eventually pouring in roughly half a million dollars, worth millions today, to fund five laboratories, a research institute, and a mining operation. Tausend staged demonstrations that appeared to produce real results, including one nugget a Munich jeweler certified as genuine 23-karat gold; investigators later established he had concealed gold foil inside a cigarette and flicked its ashes into his crucible to fake the transmutation in front of witnesses.
@@ -5747,6 +5842,9 @@ Tausend's case is a reminder that fraud dressed in the language of national salv
     slug: 'ignatius-trebitsch-lincoln-fraud-mp-spy',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Ignatius_Timothy_Trebitsch-Lincoln_circa_1915.jpg?width=1200',
+    coverImageCredit: 'George Grantham Bain Collection, Library of Congress (public domain)',
+    coverImagePosition: 50,
     body: `Ignác Trebitsch was born in 1879 in Paks, Hungary, to an Orthodox Jewish family, and fled to London in 1897 after petty theft accusations at home. There he reinvented himself entirely, converting to Christianity, taking baptism in 1899, and training as a missionary — a role that took him to Canada before he returned to England in 1903 to work as an Anglican curate in Kent. By deed poll he added "Lincoln" to his name, and in 1909 he secured British naturalization, completing a transformation from provincial Hungarian fugitive to respectable English clergyman in barely a decade.
 
 That respectability became a springboard into politics. Through his patron Seebohm Rowntree, a prominent Liberal figure, Trebitsch-Lincoln was nominated as the Liberal candidate for Darlington and, remarkably for a man who had held British citizenship for less than a year, won the seat in the January 1910 general election. But MPs of the era drew no salary, and Trebitsch-Lincoln had no independent fortune to fall back on; mounting debts left him unable to campaign when a second general election was called that November, and he lost the seat after less than a year in Parliament. He turned next to business, launching failed commercial ventures including an oil pipeline scheme in Galicia and an Anglo-Hungarian banking venture, both of which collected investor money for projects that produced little beyond further debt and, in time, outright fraud allegations.
@@ -5763,6 +5861,10 @@ Trebitsch-Lincoln's decades-long career — clergyman, elected Member of Parliam
     slug: 'peter-foster-weight-loss-scam-conman',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Gold_Coast_Skyline_Dec_2013.jpg?width=1200',
+    coverImageCredit: 'Photo: Donaldytong (CC BY-SA 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Peter Clarence Foster was fined for a fraudulent insurance claim over a failed boxing promotion in Australia at just twenty, and by his early twenties had found the formula he would run, with only cosmetic variations, for the next forty years: an implausible weight-loss product, celebrity endorsement to lend it credibility, and a company structure designed to obscure his own involvement once regulators came looking. In the mid-1980s he began marketing "Bai Lin tea" — plain black China tea repackaged as an "ancient Chinese diet secret" — across Australia, Britain, and the United States, recruiting glamour model Samantha Fox and Sarah Ferguson, Duchess of York, to promote it. British authorities fined him £5,000 in 1988 after laboratory testing confirmed the tea had no special properties at all, and when Australian regulators closed in on the local operation, Foster relaunched it in America as "Chow Low Tea," landing a conspiracy-to-commit-grand-theft conviction and four months in a Los Angeles prison.
 
 That pattern — sell an unproven slimming product, get caught, relaunch under a new name and jurisdiction — repeated for decades. Foster was jailed in the UK in 1996 for a slimming-granules scheme, absconded from an open prison using a false passport, and was later imprisoned for 33 months after using fraudulent documents to obtain business credit for another thigh-reduction cream venture. His most lucrative fraud came through "Chaste Corporation," which sold "TRIMit" diet pills through a franchise model that concealed his own participation — he was already banned from the industry — behind front operators; the scheme took at least $1 million from roughly 70 investors who each paid up to $42,000 for distribution rights to a product with fabricated efficacy claims, and in 2005 an Australian federal court fined Foster and banned him for five years from any cosmetic, health, or weight-loss business.
@@ -5927,6 +6029,10 @@ Gerguson died in Los Angeles in 1971, having spent roughly four decades committi
     slug: 'meyer-blinder-penny-stock-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Denver_Skyline_in_Winter.JPG?width=1200',
+    coverImageCredit: 'Photo: R0uge (CC BY-SA 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Meyer Blinder was born in New York in 1921, worked as a young man in his parents' candy shop and as a traveling salesman, and served in World War II before building a string of small businesses — most profitably a coffee-vending company — that gave him enough capital to retire comfortably in his forties. Retirement didn't take. In 1970 he founded a small securities brokerage in New York, and after relocating it to Denver in 1978 he built Blinder, Robinson & Co. into the largest penny-stock brokerage in the country and the tenth-largest brokerage overall, with roughly 3,000 employees across 80 branch offices at its peak — a size that earned the firm its own derisive nickname on Wall Street: "Blind 'em and Rob 'em."
 
 The firm's core method was a scripted "three-call" sales approach designed to build a stranger's trust over a series of cold calls before ever mentioning a specific stock, at which point brokers pitched shares in thinly traded shell companies that Blinder himself controlled or had a financial stake in — securities the firm was creating a market for as much as selling. The real engine of the fraud, though, was pricing: Blinder, Robinson charged customers markups and commissions as high as 140 percent on some penny-stock trades, more than ten times the level regulators considered a legitimate ceiling, while concealing the true size of those charges from the customers paying them. Money moved through the operation fast enough, and in volume large enough, that Blinder personally accumulated a fortune estimated near $100 million even as the firm's own customers, mostly small individual investors chasing the promise of a cheap stock that might multiply, absorbed the losses.
@@ -5958,6 +6064,10 @@ Heyman's "trust game" is, structurally, the direct ancestor of the modern romanc
     slug: 'louis-enricht-water-gasoline-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Wall_Street_-_New_York_Stock_Exchange.jpg?width=1200',
+    coverImageCredit: 'Photo: Carlos Delgado (CC BY-SA 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `In May 1916, with wartime gasoline shortages squeezing Europe and American newspapers hungry for a miracle, a bearded Long Island inventor named Louis Enricht invited reporters onto his lawn in Farmingdale, New York, for a demonstration. He had them inspect an empty car's fuel tank, fill it with plain water from a garden hose, and then add two ounces of a greenish liquid that smelled faintly of almonds. The car started, ran, and drove around the property for half an hour. Enricht claimed his secret formula could turn ordinary water into a gasoline substitute costing about a penny a gallon, and — echoing wartime fears about foreign sabotage of a genuine breakthrough — refused to disclose a single ingredient, saying only that he intended to patent it.
 
 The demonstration was enough to draw serious money from people who should have known to ask harder questions. Henry Ford took the claim seriously enough to investigate it directly. Hiram Percy Maxim's Maxim Munitions Corporation paid Enricht a six-figure sum for rights to the formula, with company president Hudson Maxim later admitting he had never actually witnessed a demonstration himself and found the whole affair "dubious." Banker B.F. Yoakum advanced Enricht $100,000 in exchange for a sealed envelope Enricht said held the written formula; when it was finally opened, it contained nothing but Liberty Bonds. Independent examiners who tested the mysterious additive, including inventor Miller Reese Hutchison, concluded it was most likely an acetylene-based compound that corroded engines rather than any energy breakthrough — the "gasoline substitute" barely qualified as fuel, let alone a formula worth a fortune.
@@ -5972,6 +6082,10 @@ Enricht's case is an early template for every "impossible energy breakthrough" i
     slug: 'gert-postel-fake-psychiatrist-impostor',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Hinweisschild_Gestundheitsamt_mit_dem_Gesundheitsamt_dahinter_(Flensburg),_Bild_03.JPG?width=1200',
+    coverImageCredit: 'Photo: Soenke Rahn (CC BY-SA 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Gert Postel trained as a letter carrier in West Germany, finishing only a basic secondary education before going to work for the postal service. In September 1982, using the invented alias "Dr. med. Dr. phil. Clemens Bartholdy," he applied for the position of assistant public health officer in the town of Flensburg, backing the application with forged academic credentials and a talent for dense medical jargon he had picked up largely from reading. He got the job, and held it for months, writing psychiatric assessments and making clinical decisions with no medical training whatsoever, before the fraud was discovered. He was convicted of forgery and impersonation in 1984.
 
 Rather than deter him, the conviction became a kind of proof of concept. In the mid-1990s, applying openly under his own name and with his forgery conviction a matter of public record, Postel beat out roughly 40 genuinely qualified candidates for the position of senior physician and acting chief psychiatrist at the Zschadrass district hospital, one of the largest psychiatric institutions in the former East Germany. For about eighteen months he ran wards, supervised staff, and made diagnostic and treatment decisions affecting real patients, relying on the same command of psychiatric terminology and sheer verbal confidence that had worked in Flensburg — this time inside a hospital administration that never independently verified a medical license belonging to a man it could easily have looked up.
@@ -5986,6 +6100,10 @@ Postel's case is less about money than about the specific vulnerability of insti
     slug: 'john-friedrich-national-safety-council-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Melbourne_skyline_from_West_Gate_Bridge.jpg?width=1200',
+    coverImageCredit: 'Photo: Vincent (vincentq) (CC BY-SA 2.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `John Friedrich arrived in Australia in the mid-1970s under a false identity, having fled West Germany — where he was born Johann Friedrich Hohenberger — after embezzling money from a road-construction firm. He joined the Victorian division of the National Safety Council of Australia, a small, unglamorous workplace-safety charity, in 1977, and by 1982 had talked his way into the job of executive director. Over the following years he transformed it into something closer to a private paramilitary rescue force: helicopters, fixed-wing aircraft, armored vehicles, and even a submersible were purchased in the council's name, all in service of a search-and-rescue capability far beyond anything a workplace-safety nonprofit had any obvious need for.
 
 None of it was paid for honestly. Friedrich financed the buildup by borrowing hundreds of millions of dollars from banks and financial institutions against collateral and asset valuations that were fabricated or wildly inflated, and by presenting the council's finances in a way that made an organization with no real revenue base look creditworthy for loan after loan. By the time auditors and lenders began asking the questions that should have been asked years earlier, the council's total exposure had reached an estimated AUD $236 million, making it, at the time, the largest fraud case in Victoria's history and one of the largest corporate collapses in Australia.
@@ -6017,6 +6135,10 @@ Psalmanazar's hoax worked for the same reason later ethnic and identity impostur
     slug: 'william-chaloner-counterfeiter-vs-isaac-newton',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/The_Royal_Mint,_London_(378803870).jpg?width=1200',
+    coverImageCredit: 'Photo: Steve Cadman (CC BY-SA 2.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `William Chaloner was born around 1650 in Warwickshire to a weaver's family and apprenticed to a Birmingham nail maker in a town already notorious for counterfeiting cheap "Birmingham groats." He learned the trade there and carried it to London in the 1680s, where guild restrictions locked him out of legitimate work and he supported himself with a string of small deceptions — selling novelty tin watches, posing as a quack doctor and fortune-teller, and "recovering," for a reward, stolen goods he had stolen himself. It was an unpromising start for a man who would go on to run one of the most audacious counterfeiting operations in English history and, before it was through, personally accuse the Master of the Royal Mint of incompetence to Parliament's face.
 
 Chaloner's real skill emerged once he joined a coining gang built around the goldsmith Patrick Coffey and the engraver Thomas Taylor, producing gilded guineas and counterfeit French pistoles good enough that Chaloner could buy a house in Knightsbridge, keep a carriage, and dress as a gentleman on the proceeds — a transformation conspicuous enough to draw official attention. Rather than stay hidden, he escalated: in 1695 he published pamphlets attacking the Royal Mint's competence, and in early 1696 testified before the Privy Council and Lords Justices accusing named Mint officials of producing underweight and counterfeit coin themselves. It was a brazen bit of misdirection from a man who was, at that very moment, running his own counterfeiting operation — and it worked long enough to have him briefly taken seriously as a reformer before investigators realized the informant was the felon.
@@ -6031,6 +6153,10 @@ Chaloner's career is a striking early example of a fraud tactic that still recur
     slug: 'rene-rivkin-qantas-insider-trading',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Sydney_Harbour_Bridge_and_Sydney_Opera_House_panorama.jpg?width=1200',
+    coverImageCredit: 'Photo: Kgbo (CC BY-SA 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Rene Rivkin was born in Shanghai in 1944 to Russian-Jewish parents who emigrated to Australia when he was seven. He studied law, became the youngest-ever member of the Sydney Stock Exchange, and built a thirty-year career as one of Australia's most recognizable financial personalities — a cigar-chomping, headline-courting stockbroker who was named Australia's stockbroker of the year in 1985 and whose paid investment newsletter, the Rivkin Report, gave tens of thousands of retail investors a tip sheet they treated as gospel. By the 1990s he was wealthy well beyond his broking fees, with stakes in advertising and printing ventures and a public profile most fund managers never came close to.
 
 Part of that wealth traced back to a printing plant called Offset Alpine, which Rivkin's company acquired in 1992. On Christmas Eve 1993, the plant burned down — its only significant asset destroyed — and the insurer paid out $53.2 million, more than three times what the company had paid for the plant. Suspicion followed for a decade: starting in 1995, Australia's securities regulator, ASIC, spent years trying to identify the owner of a 38 percent stake in the company held through a secretive Swiss "black box" account at Bank Leumi, ultimately tracing over $25 million of the insurance proceeds into a Swiss account controlled by Rivkin himself. No one was ever charged over the fire or the concealed shareholding — the investigation ran for years without producing a prosecutable case — but the episode cemented Rivkin's reputation as an operator who moved money in ways regulators could see but not quite prove.
@@ -6079,6 +6205,10 @@ Rachel's business worked as a fraud precisely because it disguised itself as a s
     slug: 'william-roupell-forged-will-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Lambeth_Palace_London_240404.jpg?width=1200',
+    coverImageCredit: 'Photo: Tagishsimon (CC BY-SA 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `William Roupell was born in 1831, the illegitimate son of Richard Palmer Roupell, a wealthy London scrap-metal dealer and property developer who kept his son on a modest allowance rather than folding him fully into the family's fortune. Anxious that his illegitimacy would leave him cut out of his father's eventual will, and determined to live like the gentleman his allowance didn't support, William began forging his way into money years before his father died — as early as 1853 he forged a deed of gift for the family's Roupell Park property from his own mother and used it to raise fraudulent mortgages, eventually extracting roughly £100,000 through a string of similar forged instruments against land the family owned around London.
 
 The bigger fraud came at his father's death. When Richard Palmer Roupell died in September 1856, William destroyed his father's genuine will — which would have left the bulk of the estate to William's legitimate brother, Richard — and substituted a forged version naming his mother as beneficiary. He then persuaded his mother to waive her rights as executor, leaving him free to dispose of an estate worth roughly £300,000 however he liked. The forged will sailed through probate by late September 1856, and William, already a Member of Parliament for Lambeth since March 1857 despite doing little discernible legislative work, spent the following years running through the stolen fortune on property speculation, high living, and gambling losses that eventually swallowed most of it.
@@ -6093,6 +6223,10 @@ Roupell's case is a reminder that estate and inheritance fraud has never require
     slug: 'henry-fauntleroy-banker-forgery-execution',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Guildhall,_City_of_London_-_Diliff.jpg?width=1200',
+    coverImageCredit: 'Photo: David Iliff (CC BY-SA 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Henry Fauntleroy joined the London bank Marsh, Sibbald & Co. as a clerk at around sixteen, following his father, who had been one of the firm's founding partners. He rose quickly, was made a full partner while still in his twenties, and within a few years was effectively running the bank's day-to-day operations himself, trusted with managing client accounts, including trust funds the bank held on behalf of estates and private clients who expected their money to sit untouched until it was needed.
 
 It didn't. Starting around 1815, as the bank's finances came under strain from bad loans and a struggling client base, Fauntleroy began quietly forging the signatures of trustees to authorize withdrawals from accounts that were never his to spend, funneling the proceeds partly into the bank's own operations to keep it solvent and partly, by his accusers' account, into personal extravagance. He kept the fraud running for roughly nine years, forging trustee authorizations again and again to plug the widening hole, until the bank finally suspended payments in September 1824 and the scale of the missing trust money — estimated at the time at up to £250,000 — came to light all at once.
@@ -6107,6 +6241,10 @@ Fauntleroy's downfall shows how a fiduciary fraud can persist for years precisel
     slug: 'maan-al-sanea-saad-group-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Al_Khobar_skyline_(30522201253).jpg?width=1200',
+    coverImageCredit: 'Photo: Francisco Anzola (CC BY 2.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Maan Al-Sanea was born in 1955 in Khobar, Saudi Arabia, a Saudi businessman of Kuwaiti origin who trained as a fighter pilot before moving into finance. His decisive career break came through marriage: he wed into the Algosaibi family, one of Saudi Arabia's oldest and wealthiest business dynasties, and used that connection to become the man who ran the money-exchange arm of Ahmad Hamad Algosaibi & Brothers Company (AHAB), one of the kingdom's largest private conglomerates. On the strength of that access, Al-Sanea built his own separate empire, the Saad Group, founded in 1980, into a sprawling conglomerate spanning construction, real estate, hospitals, and financial investments across roughly forty companies on five continents, making him for a time one of the wealthiest men in the Middle East.
 
 The fortune rested on a mechanism regulators would later describe as one of the largest Ponzi schemes in history. According to fraud allegations that emerged after the 2009 collapse, Al-Sanea used his managerial control of AHAB's Money Exchange division to misappropriate more than $4 billion from it, then covered the resulting hole by causing AHAB to take on more than $9.2 billion in debt from international banks — debt AHAB's own family partners say they never authorized. Loans raised in AHAB's name were funneled into Al-Sanea's Saad Group and used, in classic Ponzi fashion, to service and roll over earlier borrowing rather than fund the productive investments lenders believed they were financing. For years the arrangement worked precisely because Al-Sanea controlled both the operation generating the debt and the reporting that was supposed to disclose it.
@@ -6121,6 +6259,10 @@ The Al-Sanea case shows how a family-connection-based fraud can grow to a scale 
     slug: 'john-drewe-john-myatt-forged-provenance-art-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Trafalgar_Square_view_from_National_Gallery.JPG?width=1200',
+    coverImageCredit: 'Photo: DevilDimon (CC BY-SA 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `John Myatt was a struggling, divorced art teacher in Staffordshire, England, supplementing his income in the late 1980s by advertising "genuine fakes" — competent paintings done in the style of well-known modern masters and sold openly as decorative reproductions, not forgeries. One of the people who answered his ad was John Drewe, a man who presented himself as a physicist with connections in the nuclear industry and who bought several of Myatt's paintings before proposing something different: Myatt should keep painting in the style of artists like Braque, Giacometti, Matisse, and Ben Nicholson, but Drewe would find buyers willing to pay real prices for them as authentic lost works. Myatt, needing the money to support his two children, agreed.
 
 Myatt supplied the forgeries — often painted with ordinary household emulsion paint over old furniture varnish rather than expensive oils, and finished in a matter of days rather than the weeks a genuine period work might take. What made the scheme extraordinary wasn't the paintings themselves but what Drewe did to authenticate them. He ingratiated himself with major British art institutions, including the Tate Gallery, the Victoria and Albert Museum, and the Institute of Contemporary Arts, in one case making a £20,000 donation to the Tate that helped secure him access to its archives. Once inside, Drewe altered genuine catalogues and exhibition records and physically inserted forged documents, gallery labels, and sale receipts referencing Myatt's fake paintings, manufacturing a paper trail that made each forgery appear to have a real, traceable history stretching back decades. He backed this with invented former owners and fabricated correspondence, and even paid to have some of the archive tampering carried out by an unwitting archivist who had no idea the "corrections" she was helping make were fraudulent.
@@ -6135,6 +6277,10 @@ The case remains a landmark not because of any single forged canvas but because 
     slug: 'plustoken-crypto-ponzi-scheme',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Shanghai_Night_Skyline.jpg?width=1200',
+    coverImageCredit: 'Photo: Harry Alverson (CC BY-SA 2.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `PlusToken launched in early 2018, marketed to investors across China and South Korea as a cryptocurrency wallet and investment platform built on genuine blockchain technology. Founded by a South Korean operator named Chen Bo, the platform promised extraordinary guaranteed returns — reportedly as high as 6 to 18 percent a month — for depositing Bitcoin, Ethereum, and other cryptocurrencies into PlusToken wallets, supposedly to fund an automated arbitrage trading system. Like most classic Ponzi schemes, it also built in a multi-level referral structure, paying existing members generous commissions for recruiting new depositors, which let the platform grow explosively through word of mouth and social-media promotion in the two countries where it operated most heavily.
 
 There was no arbitrage trading system generating those returns. New deposits paid the "returns" owed to earlier investors, and the promised profits existed only as numbers displayed inside the app. Because the underlying deposits were real cryptocurrency rather than cash, PlusToken accumulated a genuinely enormous treasury as it grew — at its peak the scheme is estimated to have taken in more than 314,000 Bitcoin, roughly 9 million Ethereum, and large quantities of other coins including Bitcoin Cash, Litecoin, Dogecoin, and XRP, worth in excess of $2 billion at the time (a stash later valued at many times that as crypto prices rose in subsequent years). Millions of people, most concentrated in China and South Korea, deposited funds before the collapse.
@@ -6149,6 +6295,10 @@ PlusToken is a useful modern bookend to two much older fraud patterns operating 
     slug: 'edmund-backhouse-china-arms-fraud-fabricated-memoirs',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Radcliffe_Camera,_Oxford,_UK.jpg?width=1200',
+    coverImageCredit: 'Photo: Zhushenje (CC BY-SA 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Edmund Backhouse arrived in Peking in 1899, the son of a Quaker baronet and Barclays Bank director, having fled Oxford under a cloud of debt without finishing his degree. He proved a genuinely gifted linguist, and within a few years had made himself indispensable to Times correspondent George Ernest Morrison, supplying Chinese-language translations and claiming intimate personal access to the Manchu imperial court that, historians later concluded, he never actually had. On the strength of that invented reputation he co-wrote "China Under the Empress Dowager" (1910), a bestselling account of the Qing court built substantially on a supposed eyewitness diary of a court official named Ching Shan — a document scholars would eventually determine Backhouse had forged himself.
 
 The fabricated scholarship was a warm-up for a far more direct fraud. Around 1916, in the middle of the First World War, Backhouse presented himself to British firms as a secret agent acting on behalf of the British legation in Peking and the Chinese imperial court, claiming he could broker a large arms deal — rifles and other war matériel the Chinese government supposedly wanted to purchase. Acting on his claimed insider access, the American Bank Note Company and the British shipbuilder John Brown & Company advanced money and committed to the arrangement. No arms deal existed. When the firms tried to follow up, Backhouse had already left the country, and when he eventually returned to Peking years later, he declined to discuss what had happened to the money. British officials, having relied on a source they'd trusted with sensitive wartime business, absorbed the embarrassment rather than pursue it publicly.
@@ -6199,6 +6349,10 @@ The case that had persisted for over 150 years as a genuine historical mystery w
     slug: 'james-townshend-saward-jim-the-penman-forgery',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Old_Bailey_entrance.JPG?width=1200',
+    coverImageCredit: 'Photo: Tbmurray (CC BY 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `James Townshend Saward was called to the English Bar in 1840 and kept chambers in the Inner Temple, building a respectable, if unremarkable, career as a barrister in the years that followed. It was a genuine legal practice, not a front invented after the fact — which made it the perfect cover for a second career that ran in parallel for roughly thirty years: as the anonymous mastermind behind one of Victorian London's largest and most durable cheque-forgery rings, known in the city's criminal underworld only by the nickname "Jim the Penman."
 
 Saward's operation was built around insulating himself from the crimes he directed. Accomplices acquired blank cheques through pickpockets paid for the work, and when a genuine signature was needed to copy, Saward arranged for it through deception — in one documented instance, hiring a solicitor to collect a legitimate debt and then paying the resulting invoice with a forged cheque, capturing an authentic signature in the process. From there, a layered network of associates — men named Anderson and Atwell among them — handled the actual cashing, with Atwell reportedly disguising himself and hiring messenger boys to present the forged cheques at bank counters, so that "the bank had only the errand boy to question" if anything went wrong. Each forged cheque might net only a couple of hundred pounds, but the ring ran for decades, and Saward's associates also fenced stolen goods and were tied to some of the era's most notorious heists, including the Great Gold Robbery of 1855 — Britain's first recorded robbery of a moving train.
@@ -6213,6 +6367,10 @@ Saward's unmasking became one of the sensational criminal stories of the year �
     slug: 'allan-hawkins-equiticorp-yeoman-loop-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Auckland_skyline_from_Viaduct_Harbour.jpg?width=1200',
+    coverImageCredit: 'Photo: Chiara Coetzee (CC0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Allan Hawkins built Equiticorp into one of New Zealand's largest and most aggressive corporate empires during the deregulated boom of the 1980s, assembling stakes across finance, manufacturing, and heavy industry, including major shareholdings in appliance maker Fisher & Paykel and carpet manufacturer Feltex. The company's signature deal came in 1987, when Equiticorp paid the New Zealand government NZ$166 million to buy New Zealand Steel — a headline acquisition that made Hawkins one of the country's most prominent businessmen at the height of the era's leveraged-buyout enthusiasm, just months before the October 1987 global stock market crash upended the New Zealand corporate scene that had produced him.
 
 Behind the public deal-making, Hawkins and Equiticorp's company lawyer, Paul Darvell, had constructed a financing structure prosecutors later dubbed the "Yeoman Loop" — a chain of offshore companies designed to move money through multiple currency conversions and jurisdictions, obscuring both its source and its ultimate destination from Equiticorp's own shareholders and auditors. In one transaction alone, prosecutors alleged that in March 1987 the Loop channeled a NZ$66 million loan into a Hawkins-controlled company, Richardson Camway, ostensibly to fund Equiticorp's own one-for-four rights issue — new shares nominally purchased with money that had in fact been drawn from the company itself and disguised as an independent, arm's-length loan. Converted through several currencies and finally routed into Auckland corporate accounts under Hawkins's control via the company's own solicitors, the scheme in effect let Hawkins buy into his own capital raising with the company's money while it looked, on paper, like independent investor demand.
@@ -6227,6 +6385,10 @@ Hawkins's post-prison record undercut any reading of the case as a one-off lapse
     slug: 'linda-taylor-welfare-queen-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Chicago_Skyline_from_Lake_Michigan.jpg?width=1200',
+    coverImageCredit: 'Photo: Bladerunner2019 (CC BY-SA 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Linda Taylor was born Martha Louise White around January 1926 in Golddust, Tennessee, and had only a second-grade education by the time she was a teenager. She was arrested three times before turning twenty on charges including vagrancy, disorderly conduct, and prostitution in Seattle, and drifted through a series of identities and locations before settling in the Chicago area around 1960. Over the following decades she married six times, raised five children from her first two marriages, and — far more consequentially — began building a career on invented identities, at various points presenting herself as Black, white, Hispanic, Asian, or Jewish, and as anywhere from her twenties to her fifties, depending on which welfare office, Social Security window, or marriage license clerk she was standing in front of.
 
 By the early 1970s, that talent for reinvention had become an elaborate multi-identity fraud operation. Taylor obtained false identification documents under as many as 80 different names over her lifetime — among them "Linda Bennett," "Connie Walker," "Linda Jones," and "Linda Lynch" — and used them to register for public assistance benefits repeatedly under different names and addresses, collecting overlapping welfare payments that a single-identity applicant could never have drawn. Cook County investigators ultimately documented four aliases tied to roughly $8,000 in fraudulently obtained benefits, though they suspected her total take across the scheme's full run was closer to $40,000. It was also, disturbingly, the least serious of the allegations that would eventually attach to her name: one of her ex-husbands told police he suspected her involvement in the unsolved 1964 kidnapping of infant Paul Fronczak, and her own adult son later said he believed she had traded children on the black market — suspicions investigators never charged because they could never be proven, but which biographer Josh Levin would spend years re-examining decades later.
@@ -6282,6 +6444,10 @@ Oates's case sits outside the usual financial-swindle mold this archive otherwis
     slug: 'norman-baker-cancer-cure-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Muscatine_Court_House.JPG?width=1200',
+    coverImageCredit: 'Photo: Thug outlaw69 (CC BY-SA 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Norman G. Baker was born in 1882 into a well-off Muscatine, Iowa, family — his father held 126 patents — and spent his early career as a genuinely talented inventor and showman, most notably creating the Tangley Calliaphone, a popular calliope-style carnival organ. That inventive streak carried him into radio in the mid-1920s, where he built KTNT ("Know The Naked Truth") into one of Iowa's most-listened-to stations, using it as a personal platform for conspiratorial attacks on the American Medical Association, organized medicine, and anyone he decided was an enemy of the "common man" — while, off the air, selling investors on ventures that regulators would later scrutinize just as closely as his medical claims.
 
 Around 1930, Baker fell in with Harry Hoxsey, an already-convicted medical swindler peddling an unproven cancer treatment, and saw a business opportunity in the desperation of cancer patients failed by, or afraid of, conventional surgery and radiation. He opened the Baker Institute in Muscatine that same year, promoting a "cure" that was, by his own institute's formula, a mixture of corn silk, watermelon seed, clover, water, and carbolic acid injected directly into patients — a substance with no demonstrated effect on cancer whatsoever, marketed with the specific claim that it could cure the disease without the surgery or radiation Baker insisted, over the airwaves, was itself the real fraud being perpetrated on the American public by organized medicine.
@@ -6298,6 +6464,10 @@ Baker's case remains one of the twentieth century's clearest illustrations of me
     slug: 'yang-bin-euro-asia-agricultural-sinuiju-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/North_Korean_border_at_Dandong,_China.jpg?width=1200',
+    coverImageCredit: 'Photo: Jack Upland (CC BY-SA 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Yang Bin was born in Nanjing in 1963 and orphaned as a young child, raised afterward by his grandmother and relatives. He served as an officer in China's People's Liberation Army Navy before emigrating to the Netherlands in 1987, where he became a naturalized Dutch citizen and ran a small textile business. Returning to China in 1995, Yang applied Dutch horticultural techniques to build a greenhouse and orchid operation outside Shenyang, growing it into Euro-Asia Agricultural Holdings, a company he took public on the Hong Kong Stock Exchange, and Holland Village, a 220-hectare Netherlands-themed real estate development on the city's outskirts. The business press dubbed him the "orchid king" and the "flower king," and by 2001 Forbes had ranked him China's second-richest person, with an estimated net worth of $900 million built substantially on Euro-Asia's soaring share price.
 
 That fortune rested on fabricated paperwork. Chinese investigators later determined that Yang had forged roughly 1.7 billion yuan in phony receipts to inflate the financial statements used to list Euro-Asia on the Hong Kong exchange, and separately obtained 700 million yuan (about $84.5 million) in fraudulent bank loans using falsified permits and documents for the Holland Village development — built, in large part, on land officially designated for agricultural use rather than real estate, secured through bribes to local officials who signed off on the illegal land-use change. The horticultural empire that had made him one of China's richest men was, underneath its greenhouses and show gardens, financed by loans the banks would never have approved had the underlying paperwork been real.
@@ -6314,6 +6484,9 @@ Freedom did not end the pattern. In April 2021, less than five years after his r
     slug: 'john-worrell-keely-motor-company-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/John_Ernst_Worrell_Keely_(ca._1895).jpg?width=1200',
+    coverImageCredit: 'The Granger Collection, New York, ca. 1895 (public domain)',
+    coverImagePosition: 50,
     body: `John Ernst Worrell Keely was born in Chester, Pennsylvania, on September 3, 1837, and orphaned young, raised afterward by his grandparents. He drifted through a string of trades before turning forty — theatrical orchestra musician, house painter, carpenter, carnival barker, itinerant mechanic — none of which suggested the scientific breakthrough he claimed to have found. In 1872, working out of a rented workshop at 1422 North Twentieth Street in Philadelphia, Keely began demonstrating a machine he said was powered by a previously undiscovered force he drew from ordinary water and air, generating pressure readings his audiences of prospective backers had no easy way to explain. Within months, investors organized the Keely Motor Company in New York, capitalized at a headline-grabbing $5,000,000 — worth roughly $95 million in today's money — on the promise that Keely's engine would soon replace steam power across American industry.
 
 No commercial engine ever shipped, but Keely kept his backers' attention for another quarter-century by continually renaming and re-explaining the science behind his invention. What began as "etheric" or "vaporic" force evolved into "vibratory sympathy," a theory Keely said involved striking tuning forks to disintegrate water molecules and release limitless "interatomic ether." He staged demonstrations calibrated to keep skepticism just barely at bay: on November 10, 1874, he produced a reading of roughly 10,000 psi from a device fed by a breath of air and five gallons of water; on September 20, 1884, he fired a lead ball from a "vaporic gun" at Sandy Hook using his mystery force, though the Army's own Lieutenant E. L. Zalinski, an experienced ordnance engineer who witnessed it, noted that compressed air could have produced identical results. Investors sued repeatedly to force him to disclose his methods — a Philadelphia judge ordered him in April 1882 to reveal his process, and in November 1888 a contempt citation in a stockholder's lawsuit landed Keely briefly in jail, a ruling Pennsylvania's Supreme Court reversed on procedural grounds two months later — but he never once demonstrated the technology under conditions his own operators didn't control.
@@ -6381,6 +6554,10 @@ Diss Debar kept working her old trade almost to the end. In 1907, the Detroit Fr
     slug: 'shaun-greenhalgh-bolton-art-forger',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Bolton_Town_Hall_(3).JPG?width=1200',
+    coverImageCredit: 'Photo: Rept0n1x (CC BY-SA 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Shaun Greenhalgh was born September 19, 1961, in Bromley Cross, near Bolton in Lancashire, England, and left school at 16 with no formal art training. Working from a garden shed behind the council house he shared with his elderly parents, George and Olive Greenhalgh, in the South Turton area of Bolton, Shaun spent roughly seventeen years — from 1989 to 2006 — producing forged artworks and antiquities across an astonishing range of styles, materials, and periods, while his parents fronted the sales to museums, auction houses, and private collectors as a family antiques business. Scotland Yard's Art and Antiques Unit later described it as possibly the most diverse forgery operation ever uncovered.
 
 The family's most audacious fake was the "Amarna Princess," a 20-inch alabaster statue Shaun carved in about three weeks using basic hand tools, which he and his parents presented as a rediscovered 3,300-year-old Egyptian antiquity from the reign of Akhenaten. Bolton Museum bought it in 2003 for £439,767 after outside Egyptologists judged it genuine. Other fakes moved through the same channel with similarly convincing results: the "Risley Park Lanx," a purported Roman silver plate that sold for £100,000; a wooden sculpture called "The Faun," attributed to Paul Gauguin and authenticated by the respected Wildenstein Institute before the Art Institute of Chicago bought it for $125,000; and paintings and sculptures falsely credited to L.S. Lowry, Barbara Hepworth, and the American landscape painter Thomas Moran, among many others.
@@ -6412,6 +6589,10 @@ Marco spent his remaining years unrepentant, insisting in interviews that his in
     slug: 'alan-conway-fake-stanley-kubrick',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Piccadilly_Circus_by_day_January_2012.JPG?width=1200',
+    coverImageCredit: 'Photo: Billy Hicks (CC BY-SA 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Alan Conway was, on paper, an unremarkable London travel agent running small offices in Harrow and Muswell Hill with his wife. In the early 1990s he discovered he could talk his way into free dinners, drinks, and social access across the city's entertainment industry simply by telling people he was Stanley Kubrick — the reclusive director of 2001: A Space Odyssey, A Clockwork Orange, and The Shining, who by then had not given an interview or been photographed in public for the better part of two decades. Kubrick's near-total invisibility was exactly what made the impersonation work: almost nobody Conway met had any current image of the director to compare him against, and few questioned why one of the world's most famous filmmakers looked nothing like his old photographs, since Conway was clean-shaven and Kubrick had worn a full beard since the 1960s.
 
 Conway had no resemblance to Kubrick and no detailed knowledge of his films, but he had confidence, a working knowledge of showbiz gossip, and a con artist's instinct for exploiting people's reluctance to challenge a famous name to their face. He promised aspiring actors and journalists parts in upcoming films and exclusive interviews that never materialized, and ran up meals and bar tabs at restaurants and hotels by telling staff his studio, Warner Bros., would settle the bill. His highest-profile mark was New York Times theater critic Frank Rich, who hosted Conway and his entourage at Joe Allen's restaurant in Manhattan believing he was dining with the actual director, and discovered the deception only after calling Warner Bros. directly — where executives told him they already knew an impostor was working London and New York under Kubrick's name, but had never been able to identify or stop him. Conway's targets ranged from young actors hoping for a break to journalists chasing a rare interview with one of cinema's most guarded figures, and for several years he moved between them largely unchecked.
@@ -6441,6 +6622,10 @@ Her downfall came from a smaller theft: caught stealing a silver tankard, Carlet
     slug: 'chicago-may-queen-of-crooks',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Detroit_Michigan.jpg?width=1200',
+    coverImageCredit: 'Photo: Derek Gauci (CC BY-SA 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Mary Anne Duignan was born on December 26, 1871, in Edenmore, Ballinamuck, County Longford, Ireland, and left home for good at nineteen after stealing her parents' life savings — around £60 — to fund passage to Britain and, soon after, to New York. She drifted to Chicago in 1893 to work the crowds drawn by the World's Columbian Exposition, and it was there, working as a prostitute alongside a partner who robbed clients while she distracted them, that she learned the trade that would define the rest of her life and earn her the nickname that stuck for good: Chicago May.
 
 A brief marriage to a man named Jim Sharpe left her with the name May Churchill Sharpe, which she kept using long after the marriage itself ended, and she spent the following years graduating from pickpocketing and petty theft into more organized confidence rackets, working what was known as the badger game — luring wealthy men into compromising situations, then extorting them with the threat of exposure — across the United States, Britain, and continental Europe. Her criminal partnership with bank robber Eddie Guerin escalated her operations considerably: together they helped plan a robbery of the American Express office in Paris, for which she served prison time, and by her own later account she ran schemes across nine countries and four continents. In London her reputation reached the point that a besotted aristocrat, Sir Sidney Hamilton Gore, reportedly proposed marriage to her before shooting himself.
@@ -6508,6 +6693,9 @@ Rather than disappear in disgrace, Grin leaned into the notoriety, touring music
     slug: 'eugene-bontoux-union-generale-bank-crash',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Eugéne_Bontoux.jpg?width=1200',
+    coverImageCredit: '(public domain)',
+    coverImagePosition: 50,
     body: `Paul Eugène Bontoux was a mining engineer and former Rothschild railway executive who, in 1878, took control of the Union Générale, a small Catholic bank founded a few years earlier in Lyon by monarchist investors. Under Bontoux, the bank recast itself as a financial champion of Catholic and legitimist interests, positioned as an alternative to the Rothschild-dominated, largely Protestant and Jewish banking establishment of the French Third Republic. It expanded aggressively across Austria-Hungary, the Balkans, and North Africa, financing railways and industrial ventures at a breakneck pace.
 
 What drove the bank's soaring share price wasn't sound underlying growth but manipulation. Union Générale stock rose from around 500 francs in 1879 to more than 3,000 francs by early 1882, fueled by aggressive promotion to small Catholic investors — parish priests, provincial nobility, and ordinary savers drawn in partly on religious and political loyalty — combined with the bank secretly buying up its own shares to prop up the price and falsified financial reports that concealed how thin the capital behind the expansion really was. It was, in essence, a bubble the bank's own leadership was inflating and profiting from as it grew.
