@@ -29039,6 +29039,42 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ["Nebraska Attorney General's Office"],
     sourceUrl: 'https://protectthegoodlife.nebraska.gov/news/nebraska-attorney-generals-office-issues-consumer-alert-regarding-extortion-scam-utilizing',
   },
+  {
+    name: 'Alaska DOT&PF Unpaid-Toll Smishing Scam',
+    slug: 'alaska-dotpf-unpaid-toll-smishing-scam',
+    description:
+      'The Alaska Department of Transportation & Public Facilities issued a public warning in June 2025 after residents statewide reported fraudulent text messages claiming they owed money for an unpaid toll or parking ticket and demanding immediate payment through a link in the message. The department pointed out the scam\'s most obvious flaw: "Alaska has only one toll facility — the Whittier Tunnel," and no toll invoice or fine is ever collected by text message. The fake texts share the hallmarks of smishing schemes reported around the country — a false sense of urgency, misspelled agency names, vague charge descriptions, suspicious shortened links, and threats of added penalties or legal consequences for not paying right away. DOT&PF spokesperson Shannon McCarthy urged anyone who receives one of these messages not to click the link or reply, to forward it to 7726 (SPAM) to report it to their mobile carrier, and to file a report with the FTC at reportfraud.ftc.gov or the Alaska Attorney General\'s Consumer Protection Unit at (907) 269-5200.',
+    categorySlug: 'government-impersonation',
+    country: 'US',
+    state: 'AK',
+    alertLevel: 'medium',
+    sources: ['Alaska Department of Transportation & Public Facilities'],
+    sourceUrl: 'https://dot.alaska.gov/comm/pressbox/arch2025/PR25-0022.shtml',
+  },
+  {
+    name: 'Seaford Tech-Support Pop-Up and Cash Courier Pickup Scam',
+    slug: 'delaware-seaford-tech-support-cash-courier-scam',
+    description:
+      'An 84-year-old man in Seaford, Delaware, encountered a pop-up message on his computer on March 25, 2026 that locked the screen and instructed him to call a "technical support" number for help. The scammers who answered convinced him his accounts had been compromised, coached him into withdrawing large sums of cash from his bank, and then arranged for a courier to come to his home to collect the money in person — a tactic that lets the scheme skip the extra step of a wire transfer or gift card that might tip off a bank teller or family member. The victim was contacted repeatedly over several days and coerced into arranging multiple cash pickups before Delaware State Police identified and arrested the alleged couriers, Dongjun Zou, 51, and Wulian Fan, 47, both of New York, charging them with felony theft from a victim over 62, conspiracy, and knowingly acquiring the proceeds of criminal activity. Delaware State Police stressed that "legitimate businesses and government agencies will never ask for payment via gift cards, cryptocurrency, cash amounts, or gold bars," and that anyone who gets a computer pop-up demanding a call to a support number should shut the browser or restart the computer instead of dialing the number on screen, and should verify any claimed account problem by contacting their bank or software provider directly using a number they look up themselves.',
+    categorySlug: 'tech-support-scams',
+    country: 'US',
+    state: 'DE',
+    alertLevel: 'high',
+    sources: ['Delaware State Police'],
+    sourceUrl: 'https://dsp.delaware.gov/2026/03/28/state-police-arrest-new-york-couple-for-courier-scam/',
+  },
+  {
+    name: 'American Tax Service "Pennies on the Dollar" Tax-Debt Relief Scheme',
+    slug: 'nevada-american-tax-service-pennies-on-the-dollar-scheme',
+    description:
+      'From February 2022 through October 2025, Terrance Selb and Tyler Bennett ran American Tax Service (ATS), marketing tax-debt relief services to consumers nationwide but concentrating heavily on Nevada, where the company was based, and falsely promising it could settle a customer\'s IRS or state tax debt for "pennies on the dollar." Investigators say the company\'s telemarketers impersonated tax authorities and used threatening, high-pressure language to convince already-struggling consumers, including many older adults, to pay thousands of dollars up front, then pressured them into buying expensive add-on services that frequently failed to deliver any real debt relief. The Nevada Attorney General\'s Office and the Federal Trade Commission jointly sued, and on June 3, 2026, announced a proposed settlement imposing a $77.7 million judgment against Selb and Bennett, who agreed to surrender roughly $8 million in cash plus additional assets worth close to $10 million combined for consumer restitution, pending final court approval. "Consumers who are struggling with tax debt deserve honest information and legitimate assistance, not false promises," said Nevada Attorney General Aaron Ford. Anyone contacted with an unsolicited offer to settle tax debt for a fraction of what\'s owed is advised to verify any company\'s standing with the Better Business Bureau and the Nevada Attorney General\'s Office before paying anything, since the IRS itself offers free debt-relief programs like an Offer in Compromise directly to qualifying taxpayers.',
+    categorySlug: 'tax-scams',
+    country: 'US',
+    state: 'NV',
+    alertLevel: 'high',
+    sources: ["Nevada Attorney General's Office", 'Federal Trade Commission'],
+    sourceUrl: 'https://ag.nv.gov/News/PR/2026/Attorney_General_Ford_Announces_Settlement_Requiring_Tax-Relief_Scammers_to_Surrender_Nearly_$10_Million_in_Assets_for_Consumer_Relief/',
+  },
 ];
 
 async function seedCategoriesAndScams() {
