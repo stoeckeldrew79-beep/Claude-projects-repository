@@ -11655,10 +11655,9 @@ Before signing anything, a homeowner should ask for a full written breakdown of 
     slug: 'patient-brokering-addiction-treatment-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'patient-brokering-scam'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Norderney,_Klinik_Norderney_(Rehaklinik)_--_2025_--_9006.jpg?width=1200',
-    coverImageCredit: 'Photo: Dietmar Rabich (CC BY-SA 4.0)',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Vista_Taos_Renewal_Center.jpg?width=1200',
+    coverImageCredit: 'Photo: Vistataos (CC BY-SA 4.0)',
     coverImagePosition: 50,
-    // representative photo — replace with an exact match if found
     sourceUrl: 'https://oig.hhs.gov/fraud/enforcement/california-addiction-treatment-facility-operator-convicted-of-paying-nearly-29m-in-illegal-kickbacks/',
     body: `Patient brokering targets people in one of the most vulnerable moments of their lives: actively seeking help for a substance use disorder. A "body broker" or patient recruiter — sometimes found through a slick online treatment-finder ad, sometimes working the halls of Alcoholics Anonymous meetings, homeless shelters, or even other treatment programs — offers a person in active addiction free airfare, a free phone, cash, gift cards, or even drugs to travel to a specific treatment center or "sober living" home, usually in a state with lax licensing and rich private insurance reimbursement rates. The recruiter isn't acting out of compassion; they're paid a fee, often ranging from a few hundred to several thousand dollars per person, by the facility they deliver the patient to.
 
@@ -12732,6 +12731,9 @@ If you're not in the middle of setting up a new device, don't enter any code you
     slug: 'chinese-law-enforcement-impersonation-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'chinese-law-enforcement-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/China_Traffic_Police.jpg?width=1200',
+    coverImageCredit: 'Photo: Beijing Patrol from US (CC BY 2.0)',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.ic3.gov/PSA/2025/PSA251113',
     body: `The call comes in Chinese, from a phone number that displays as a real U.S. health insurance company's claims department — the caller ID has been spoofed to match a legitimate line. The person on the other end asks about a recent insurance claim for a surgical procedure the recipient never had, and to make the confusion feel concrete, pulls up what looks like a real invoice on screen through video-calling software, then demands payment to resolve it. It's an odd, unsettling call, but it's only the opening move.
 
@@ -12748,6 +12750,9 @@ If a call like this comes in, hang up and verify independently: call your health
     slug: 'fake-ransomware-extortion-letter-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'ransomware-extortion-letter-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Physical_Bitcoin_by_Mike_Cauldwell_(Casascius).jpg?width=1200',
+    coverImageCredit: 'Photo: Mike Cauldwell / Casascius (free use)',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.ic3.gov/PSA/2025/PSA250306-2',
     body: `A physical letter arrives at a company's headquarters, addressed to a specific executive and stamped "Time Sensitive Read Immediately." Inside, the letter claims to be from the "BianLian Group" — a real, well-documented ransomware gang whose name has shown up in genuine breach news for years — and states that the group has already broken into the company's network and stolen thousands of sensitive files. It threatens to publish the stolen data unless a ransom of $250,000 to $500,000 is paid within ten days, and includes a QR code that links directly to a Bitcoin wallet for payment, along with a line making clear there's no room to negotiate.
 
@@ -12764,6 +12769,9 @@ Companies that receive a letter like this should preserve it exactly as received
     slug: 'ghost-student-federal-financial-aid-fraud-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'ghost-student-financial-aid-fraud'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Nashville_State_Community_College_-_Main_Campus.JPG?width=1200',
+    coverImageCredit: 'Photo: Skye Marthaler (CC BY-SA 4.0)',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.fincen.gov/news/news-releases/fincen-issues-alert-fraud-schemes-targeting-federal-student-aid',
     body: `No one applies for financial aid on their own behalf in this scam — that's what makes it hard for the victim to ever see it coming. A fraud ring gets hold of someone's stolen personal information, sometimes a child's, and uses it to enroll a "student" who will never attend a single class at a community college or online program with open admissions. The application goes in, the FAFSA gets filed, and federal aid gets awarded to a person who exists only on paper. To keep the refund flowing, the fraud ring might run an AI chatbot through the online coursework just well enough to avoid being dropped, or pay a complicit accomplice to log in and do it. The actual person whose identity was used has no idea any of it is happening.
 
@@ -12780,6 +12788,9 @@ If you believe someone has used your information, or your child's, to apply for 
     slug: 'fcc-commissioner-impersonation-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'fcc-impersonation-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/FCC_HQ.jpg?width=1200',
+    coverImageCredit: 'Photo: Ser Amantio di Nicolao (CC BY 3.0)',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.fcc.gov/document/alert-beware-scammers-impersonating-fcc-commissioners-employees',
     body: `A call or text arrives claiming to be from the Federal Communications Commission — sometimes invoking a real, sitting commissioner by name — warning that the recipient's own phone number has been linked to criminal activity: illegal robocalling, number spoofing, fraud committed using the line. To resolve it, the caller says, the recipient needs to speak with a "law enforcement hotline" they're immediately transferred to, or pay a fine on the spot, or hand over personal financial details to avoid the number being disconnected or something worse happening.
 
@@ -12796,6 +12807,9 @@ If you get a call or text like this, hang up or stop responding immediately, and
     slug: 'senior-us-official-impersonation-encrypted-messaging-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'senior-official-impersonation-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/White_House.jpg?width=1200',
+    coverImageCredit: 'Photo: Ed Brown (Public Domain)',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.ic3.gov/PSA/2025/PSA251219',
     body: `A text message arrives out of nowhere, or a voice note lands in an inbox, from someone claiming to be a senior U.S. official — a Cabinet secretary, a member of Congress, a White House staffer, in some documented cases someone posing as the President himself. The message references a topic that seems to genuinely match the recipient's own work, industry, or interests, which is what makes it land as personal outreach rather than a mass robocall. Before any request for money or information comes up, though, the "official" asks to keep talking somewhere else: Signal, Telegram, or WhatsApp instead of ordinary text.
 
@@ -12812,6 +12826,9 @@ No sitting Cabinet secretary, member of Congress, or White House official conduc
     slug: 'video-game-loot-box-in-game-currency-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'video-game-microtransaction-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Children_playing_video_games.jpg?width=1200',
+    coverImageCredit: 'Photo: Gamesingear (CC BY-SA 3.0)',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.consumerfinance.gov/archive/newsroom/consumer-advisory-video-games-are-targeting-your-children-to-get-into-your-wallet/',
     body: `A kid downloads a "free" game on a phone, tablet, or console, and there's no upfront purchase to raise a parent's eyebrow — the payment card is already linked to the account, whether it's a parent's card or one saved to the app store itself. What follows is a steady drip of small purchases: a couple of dollars buys a bundle of gems, gems buy a loot box, a loot box almost has the item the game keeps hinting is just out of reach. None of it feels like much in the moment. Weeks later, a bank alert or a credit card statement shows those small purchases added up to hundreds of dollars a parent never approved and, in many cases, never even saw happening in real time.
 
@@ -12828,6 +12845,9 @@ The most effective fix is limiting the exposure before it starts: link a prepaid
     slug: 'esta-travel-authorization-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'esta-travel-authorization-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/United_States_Passport_Book_2871134419_721dd2b0db_o.jpg?width=1200',
+    coverImageCredit: 'Photo: Tony Webster (CC BY-SA 4.0)',
+    coverImagePosition: 50,
     sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2026/03/how-avoid-scams-while-applying-esta',
     body: `Anyone from a visa waiver country planning a U.S. trip — a relative visiting for a wedding, a foreign friend flying in for a shared vacation, a fan traveling in for the 2026 World Cup — first needs an ESTA: an Electronic System for Travel Authorization approval from U.S. Customs and Border Protection. A search for "ESTA application" turns up a page that looks official enough — a form asking for passport details, travel dates, and payment — and the applicant fills it out assuming they've reached the government site.
 
@@ -12842,6 +12862,10 @@ The only legitimate place to apply is esta.cbp.dhs.gov, a website that ends in "
     slug: 'international-student-visa-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'international-student-visa-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/International_Students.jpg?width=1200',
+    coverImageCredit: 'Photo: Vrenibean (CC BY-SA 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.ic3.gov/PSA/2025/PSA250513',
     body: `An international student studying in the U.S. on an F-1 visa gets a call, sometimes followed by an email, from someone claiming to represent the Department of Homeland Security, Homeland Security Investigations, or U.S. Citizenship and Immigration Services. The caller says there's a problem with the student's visa status — a supposed paperwork violation, a missed filing, or a claim that the student has broken the terms of their visa — and warns that failing to resolve it immediately will mean arrest, deportation, or a permanent bar from re-entering the country. In some versions, the threat goes further: the caller claims to be a diplomat or official from the student's own home country, impersonating identities tied to nations including the United Arab Emirates and Qatar to add a second, culturally specific layer of authority to the threat.
 
@@ -12856,6 +12880,10 @@ No U.S. federal agency resolves a visa status problem over a same-day phone call
     slug: 'social-media-trading-education-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'trading-education-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/2018_Bentley_Continental_GT_(37965555952).jpg?width=1200',
+    coverImageCredit: 'Photo: More Cars (CC BY 2.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2026/08/how-spot-investment-training-scams-social-media',
     body: `A social media feed fills up with photos of fast cars, first-class flights, and stacks of cash, all captioned with some version of the same pitch: learn to trade currencies or crypto online, quit your job, and live like this too. There's no cold call and no unsolicited email — the recruiting happens through an acquaintance's own posts, or a stranger's ad optimized to land in front of people searching for a way to make extra money, which makes the approach feel more like a tip from a peer than a sales pitch from a company.
 
@@ -12870,6 +12898,9 @@ No one can guarantee low-risk trading profits, and no legitimate trading educato
     slug: 'fake-pet-emergency-vet-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'pet-emergency-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Doggie_doctor,_Cherry_Point_veterinary_clinic_provides_animal_care_services_DVIDS334180.jpg?width=1200',
+    coverImageCredit: 'Photo: Cpl. Samuel A. Nasso / U.S. Marine Corps (Public Domain)',
+    coverImagePosition: 50,
     sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2026/06/animal-lovers-learn-spot-and-avoid-breed-pet-scams',
     body: `The call or text comes in claiming to be from law enforcement or an animal hospital: your dog or cat has been found after an accident, is being treated right now, and the vet needs payment before treatment can continue. Sometimes it's paired with a photo of an injured animal that looks enough like yours to short-circuit any hesitation, especially if the message arrives while you know your pet is briefly out of sight — at a groomer, with a pet sitter, or simply loose in the yard for a few minutes.
 
@@ -12884,6 +12915,9 @@ If you get a call or message like this, don't send money based on the story alon
     slug: 'cfpb-impersonation-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'cfpb-impersonation-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/CFPB_-_Consumer_Financial_Protection_Bureau_in_Washington_D.C..jpg?width=1200',
+    coverImageCredit: 'Photo: Tony Webster (CC BY 2.0)',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.consumerfinance.gov/about-us/blog/beware-of-scammers-pretending-to-be-from-the-cfpb/',
     body: `A phone or video call comes in from someone identifying themselves as an official with the Consumer Financial Protection Bureau, the federal agency that actually does regulate banks, lenders, and debt collectors. The caller says there's good news: the target is eligible for a payout from a class-action lawsuit settlement, or has won a lottery or sweepstakes, sometimes one they don't remember entering. To release the money, the caller explains, a small upfront payment is needed first — described as taxes, a processing fee, or a foreign transfer charge.
 
@@ -12900,6 +12934,9 @@ Anyone contacted this way should hang up or stop responding without sharing any 
     slug: 'dea-agent-impersonation-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'dea-agent-impersonation-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Sample_retired_DEA_agent_badge_and_credentials.jpg?width=1200',
+    coverImageCredit: 'Photo: U.S. Drug Enforcement Administration (Public Domain)',
+    coverImagePosition: 50,
     sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2021/03/drug-enforcement-administration-isnt-calling',
     body: `The call opens with a badge number and a claim designed to produce instant panic: a vehicle rented in your name was stopped with drugs inside, or your Social Security number turned up at a drug-trafficking or money-laundering scene states away. The caller identifies himself as a Drug Enforcement Administration agent, sometimes using the real name of an actual DEA employee, and says an arrest is imminent — unless the matter can be resolved right now, over the phone, through an immediate payment.
 
@@ -12916,6 +12953,10 @@ If you get a call like this, hang up without confirming any personal information
     slug: 'form-2439-tax-credit-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'form-2439-tax-credit-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/1920_tax_forms_IRS.jpg?width=1200',
+    coverImageCredit: 'Photo: Underwood & Underwood (Public Domain)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.irs.gov/newsroom/dirty-dozen-tax-scams-for-2026-irs-reminds-taxpayers-to-watch-out-for-dangerous-threats',
     body: `Most tax refund scams either invent a credit out of thin air or pressure someone into overstating one they might legitimately qualify for. The version the IRS added to its 2026 "Dirty Dozen" list of tax scams works differently: it hijacks a real, narrow federal tax form and uses it to manufacture a refund that was never earned in the first place.
 
@@ -12932,6 +12973,10 @@ The clearest defense is simple unfamiliarity: a taxpayer who has never received 
     slug: 'counterfeit-postage-stamp-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'counterfeit-postage-stamp-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/First_US_Stamps_1847_Issue.jpg?width=1200',
+    coverImageCredit: 'Photo: U.S. Post Office / Gwillhickers (Public Domain)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.uspis.gov/news/scam-article/counterfeit-postage',
     body: `Postage stamps are one of the last things most people think to be suspicious of, which is exactly why counterfeit stamp sellers have found such an easy foothold on social media marketplaces, ecommerce sites, and online classifieds. The pitch is straightforward: bulk stamps or prepaid shipping labels at a steep discount, often 20% to 50% below face value, sold by an account with no obvious connection to the Postal Service and, frequently, no obvious connection to the United States at all.
 
