@@ -28831,6 +28831,42 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Green Mountain Power'],
     sourceUrl: 'https://greenmountainpower.com/news/alerting-customers-about-scam-calls-targeting-small-businesses/',
   },
+  {
+    name: 'Iowa Attorney General Impersonation Crypto ATM Refund Scam',
+    slug: 'iowa-attorney-general-impersonation-crypto-atm-refund-scam',
+    description:
+      'After Iowa Attorney General Brenna Bird announced lawsuits against cryptocurrency ATM operators over more than $20 million in losses reported by Iowans, scammers set up fake Facebook and Telegram accounts using her photo and the office\'s official seal to impersonate Bird and the Iowa Division of Criminal Investigation. The fake accounts contact Iowans, including people who already lost money to a crypto ATM scam, offering to help recover their funds or process a refund, then use that opening to request personal or financial information or an upfront fee. Attorney General Bird\'s office issued a consumer alert stressing that government agencies do not charge fees to issue a refund and that the real office never solicits personal or financial details over social media, phone, text, or email. Iowans who are contacted this way are advised to verify any claimed message from the Attorney General\'s office only through the official iowaattorneygeneral.gov website and to report the impersonating account by calling 1-888-777-4590.',
+    categorySlug: 'government-impersonation',
+    country: 'US',
+    state: 'IA',
+    alertLevel: 'medium',
+    sources: ["Iowa Attorney General's Office"],
+    sourceUrl: 'https://www.iowaattorneygeneral.gov/newsroom/attorney-general-bird-warns-iowans-about-scammers-impersonating-the-iowa-attorney-generals-office',
+  },
+  {
+    name: 'Trading Spaces ABA Connecticut Medicaid Autism-Therapy Fraud',
+    slug: 'connecticut-trading-spaces-aba-medicaid-autism-fraud',
+    description:
+      'Glenroy Patterson and his now-defunct Connecticut company, Trading Spaces ABA, LLC, billed and were reimbursed by the Connecticut Medical Assistance Program for applied behavior analysis treatment for beneficiaries under 21 diagnosed with autism spectrum disorder, even though there were no patient records or session notes to support that the therapy was ever delivered, between January 2017 and December 2021. Connecticut Attorney General William Tong announced a $710,815.34 civil settlement in 2026 under the state\'s False Claims Act, representing treble damages and per-claim penalties, resolving the allegations without an admission of wrongdoing by the settlement itself. Separately, Patterson pleaded no contest to related criminal fraud charges and was sentenced in Hartford Superior Court on June 4, 2026, where he was also ordered to pay $102,084.17 in criminal restitution. Families whose children receive autism therapy billed to Medicaid are encouraged to review their explanation-of-benefits statements for sessions or services that were never actually provided and to report suspected Medicaid billing fraud to the Attorney General\'s office.',
+    categorySlug: 'healthcare-fraud',
+    country: 'US',
+    state: 'CT',
+    alertLevel: 'medium',
+    sources: ['Connecticut Office of the Attorney General'],
+    sourceUrl: 'https://portal.ct.gov/ag/press-releases/2026-press-releases/attorney-general-tong-announces-connecticut-false-claims-act-settlement',
+  },
+  {
+    name: 'Woodbury Dental Arts Suspended-License Implant Fraud',
+    slug: 'minnesota-woodbury-dental-arts-suspended-license-fraud',
+    description:
+      'Minnesota dentist Marko Kamel had his license suspended in November 2023 after botched dental-implant procedures left patients with painful infections, but he misrepresented his standing to patients and kept booking and collecting up-front fees, sometimes exceeding $10,000 per patient, for future implant work for roughly another year. In May 2024, Kamel abruptly closed his practice, Woodbury Dental Arts, without notice and filed for bankruptcy, abandoning hundreds of patients mid-treatment with no refunds and, in many cases, no access to their own dental records. Minnesota Attorney General Keith Ellison reached a settlement enabling harmed patients to file claims, and as of a May 2026 update the office had issued 76 refund checks totaling more than $1,047,210 against upwards of 340 claims filed; Kamel must wait at least ten years before he can even apply to have his dental license reinstated. Patients considering a large up-front payment for elective dental or medical work are advised to verify a provider\'s current license status directly with the Minnesota Board of Dentistry before paying anything.',
+    categorySlug: 'healthcare-fraud',
+    country: 'US',
+    state: 'MN',
+    alertLevel: 'medium',
+    sources: ["Minnesota Attorney General's Office"],
+    sourceUrl: 'https://www.ag.state.mn.us/Office/Communications/2026/05/01_WDA.asp',
+  },
 ];
 
 async function seedCategoriesAndScams() {
