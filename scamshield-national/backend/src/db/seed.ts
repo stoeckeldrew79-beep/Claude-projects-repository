@@ -27343,6 +27343,42 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Japan National Police Agency'],
     sourceUrl: 'https://www.npa.go.jp/bureau/safetylife/sos47/case/special/',
   },
+  {
+    name: 'RONGISTRVAUTOSALES.COM Fake Online RV Dealer Wire-Transfer Scam',
+    slug: 'idaho-rongistrvautosales-fake-rv-dealer-wire-scam',
+    description:
+      'A Craigslist ad for a recreational vehicle led a buyer to RONGISTRVAUTOSALES.COM, a slickly built website posing as an established online RV dealership, where the seller pushed the buyer to wire roughly $27,400 directly to a bank account to "secure" the purchase before anyone else could grab it. The buyer\'s own bank, an Idaho-chartered financial institution, flagged the outgoing wire as suspicious and froze it before the money left the account, which let the Idaho Department of Finance open an investigation that traced the site to Auto Sales Group, LLC, AAAEquiplag, LLC, and individuals Larry Gibbs and Darius Petronis. The Department\'s cease-and-desist order, issued January 4, 2024 under the Idaho Financial Fraud Prevention Act, found the operation was not a real RV dealership at all but a fake storefront built specifically to collect upfront wire payments for vehicles that were never delivered — a pattern regulators say increasingly follows a script of a below-market listing on a classifieds site, a professional-looking but otherwise unverifiable dealer website, and urgent pressure to wire funds before an in-person inspection or a traceable payment method like a credit card is ever discussed. The Department urges Idaho vehicle shoppers to insist on seeing a vehicle in person before paying anything, to avoid any seller who accepts only wire transfers, and to ask their own bank to verify a large outgoing wire before it is sent, since a flagged and frozen transfer — as happened in this case — is often the only thing standing between a buyer and a total loss once the money is gone.',
+    categorySlug: 'online-shopping-scams',
+    country: 'US',
+    state: 'ID',
+    alertLevel: 'medium',
+    sources: ['Idaho Department of Finance'],
+    sourceUrl: 'https://www.finance.idaho.gov/cease-and-desist-order-issued-against-rongistrvautosales-com-associated-parties-for-perpetuating-a-fake-business-scam/',
+  },
+  {
+    name: 'Global Onboard Partners "Scam Within a Scam" Tied to First Liberty Collapse',
+    slug: 'georgia-global-onboard-partners-kirk-adams-scam-within-scam',
+    description:
+      'When the Georgia Secretary of State\'s Securities Division began unwinding the roughly $140 million First Liberty Building and Loan Ponzi scheme, investigators started checking whether the people First Liberty had loaned money to were legitimate borrowers or something else entirely — and one thread led to Global Onboard Partners, LLC and its principal, Kirk Adams. Records show Global Onboard Partners borrowed approximately $350,000 from First Liberty in December 2020, with Adams personally guaranteeing the loan, but around that same period Adams and his company were separately soliciting outside investors into Global Onboard Partners itself, promising them returns despite the investment never being registered as a security and neither Adams nor his company ever holding a license to sell securities under the Georgia Uniform Securities Act of 2008. The Secretary of State\'s office opened a formal investigation on January 30, 2026 and, in preliminary interviews, identified roughly 40 people who had put money into Global Onboard Partners; investigators say the promised returns never materialized and many of those investors now fear a total loss. The office\'s February 2026 investor alert frames this as a "scam within a scam" — a fraud that grew up inside the wreckage of a larger, already-collapsing fraud — and is now examining whether other companies and individuals who borrowed from First Liberty used those loans as cover to run their own unregistered investment pitches. Georgia investors, especially those connected to the First Liberty network through a borrower, referral, or business relationship, are urged to verify any investment\'s registration status through the Secretary of State\'s Securities Division before sending money, and anyone who invested in Global Onboard Partners is asked to contact the Division directly.',
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    state: 'GA',
+    alertLevel: 'high',
+    sources: ['Georgia Secretary of State — Securities Division'],
+    sourceUrl: 'https://sos.ga.gov/sites/default/files/2026-02/Investor%20Alert%20021026_0.pdf',
+  },
+  {
+    name: 'FEMA Impersonation and Identity-Theft Scams Following 2025 West Virginia Flooding',
+    slug: 'west-virginia-fema-impersonation-flood-disaster-fraud',
+    description:
+      'After federally declared flooding disasters struck West Virginia twice in 2025 — a February 15-18 flood across Logan, McDowell, Mercer, Mingo, Wayne, and Wyoming counties (FEMA declaration DR-4861-WV) and a separate summer flood across the state\'s northern and north-central counties — scam artists moved into the affected areas alongside legitimate disaster workers. FEMA and West Virginia Attorney General JB McCuskey documented three distinct schemes playing out on flood victims: people posing as FEMA inspectors or contractors who demand cash, a Social Security number, or banking information before "processing" an assistance claim (real FEMA inspectors already have an applicant\'s registration information and never charge for an inspection or ask for advance payment); criminals who use a victim\'s stolen name, address, and Social Security number to file a fraudulent FEMA assistance application in that person\'s name, sometimes diverting the real payment before the actual survivor applies; and unlicensed "contractors" who collect large upfront payments for storm repairs and then vanish. In a July 29, 2025 consumer alert, McCuskey warned that "during disasters we often see the best in West Virginians ... but unfortunately, it\'s also a time when bad actors try to take advantage," and urged residents to demand a photo ID badge from anyone claiming to represent FEMA, to never give financial or Social Security information to an unsolicited caller, and to verify any contact by calling FEMA\'s helpline directly at 1-800-621-3362 rather than a number the caller provides. Suspected fraud can be reported to West Virginia\'s Consumer Protection Division at 800-368-8808 or to the federal Disaster Fraud Hotline at 1-866-720-5721, and anyone who discovers a FEMA application was already filed in their name should report it immediately, since a stranger\'s fraudulent claim can delay or complicate the real survivor\'s own assistance.',
+    categorySlug: 'government-impersonation',
+    country: 'US',
+    state: 'WV',
+    alertLevel: 'high',
+    sources: ['West Virginia Attorney General\'s Office', 'FEMA'],
+    sourceUrl: 'https://ago.wv.gov/article/scam-alert-attorney-general-mccuskey-warns-west-virginians-about-fema-scams',
+  },
 ];
 
 async function seedCategoriesAndScams() {
