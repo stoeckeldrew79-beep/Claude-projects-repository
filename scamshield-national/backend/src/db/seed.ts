@@ -4236,6 +4236,9 @@ The resulting litigation became one of the longest court cases in German history
 
 In 1968, she married American historian Jack Manahan and took his name, settling in Charlottesville, Virginia, where she died in February 1984, still insisting to the end that she was Anastasia. The question was finally settled a decade later: in 1994, DNA extracted from a tissue sample preserved after a 1979 surgery was compared against blood from Britain's Prince Philip, a maternal relative of the Romanovs, and showed no match whatsoever. Instead, the DNA matched a relative of Franziska Schanzkowska, a Polish factory worker who had vanished amid mental health struggles in 1920 — the same year Anderson surfaced in Berlin. When the remains of the entire Romanov family, Anastasia included, were finally recovered and DNA-confirmed by Russian and international scientists in 2007, the last theoretical possibility that any imperial child had escaped execution closed for good, leaving Anna Anderson's six-decade impersonation as one of the twentieth century's most exhaustively documented identity frauds.`,
     sourceUrl: 'https://en.wikipedia.org/wiki/Anna_Anderson',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Anna_Anderson_1920.jpg?width=1200',
+    coverImageCredit: 'Photo: unknown photographer, 1920 (public domain)',
+    coverImagePosition: 50,
   },
   {
     title: "John Sadleir: The Banker Whose Suicide Exposed a Fraud and Inspired Dickens's Merdle",
@@ -4302,6 +4305,9 @@ The fraud unraveled fast. In September 1929, the London Stock Exchange's own com
 
 Hatry served nine years before his release from Maidstone Prison in January 1939, and — far from the "irretrievable ruin" he predicted for himself at sentencing — he went on to rebuild yet another fortune after his release, eventually owning London's Hatchards bookshop and other businesses. His case remains a textbook example of how forged and double-pledged collateral can let a promoter borrow far beyond any real asset base, and of how a single fraud, exposed at the wrong moment in an overheated market, can do damage well beyond its own balance sheet — London's Hatry-driven crash was a preview, five weeks early, of the panic Wall Street would suffer on a vastly larger scale.`,
     sourceUrl: 'https://en.wikipedia.org/wiki/Clarence_Hatry',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Clarence_Hatry.jpg?width=1200',
+    coverImageCredit: 'Photo: Agence Rol, 1929, Bibliothèque nationale de France (public domain)',
+    coverImagePosition: 50,
   },
   {
     title: 'Iwan Herstatt and the Hidden Currency Bets That Broke a German Bank — and Renamed a Risk',
@@ -4454,6 +4460,10 @@ Hull confessed to the press on December 10, 1869, less than two months after the
 
 The Cardiff Giant survives today at the Farmers' Museum in Cooperstown, New York, less as a monument to Hull's ingenuity than as an early case study in how quickly an audience will pay to keep believing something once it wants to. It is frequently cited as an origin point of the American hoax industry that Barnum would spend a career refining — proof that a con didn't need a bank account or a stock certificate to work, only a good story, a receptive audience, and a fifty-cent admission fee.`,
     sourceUrl: 'https://en.wikipedia.org/wiki/Cardiff_Giant',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Cardiff_giant_exhumed_1869.jpg?width=1200',
+    coverImageCredit: 'Photo: 1869 exhumation photograph (public domain)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
   },
   {
     title: 'Charles Tyson Yerkes: The Transit Baron Who Bribed His Way to Two Empires',
@@ -4548,6 +4558,9 @@ Civil ruin did not end his career. In 1912 he was convicted at the Old Bailey of
 
 Hooley died in 1947, having gone from multimillionaire company promoter to twice-convicted fraudster and four-time bankrupt without ever fully losing his talent for finding new investors. Historians of British finance still cite his career — Dunlop and Bovril above all — as a template for a distinctly Edwardian style of fraud: real, recognizable brands used to lend credibility to wildly inflated share prices, sold to a public with no independent way to check the promoter's numbers.`,
     sourceUrl: 'https://en.wikipedia.org/wiki/Ernest_Terah_Hooley',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Ernest_Terah_Hooley_Vanity_Fair_1896-12-17.jpg?width=1200',
+    coverImageCredit: 'Caricature: Leslie Ward ("Spy"), Vanity Fair, 1896 (public domain)',
+    coverImagePosition: 50,
   },
   {
     title: 'John R. Brinkley: The "Goat Gland" Doctor Who Ran a Fake Cure Empire From the Radio',
