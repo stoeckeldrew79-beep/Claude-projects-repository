@@ -13234,6 +13234,38 @@ Red flags include an unsolicited offer of weekly pay just to drive with an ad wr
 
 Never deposit a check from an unsolicited job offer and send any portion of it back to someone else, no matter how official the check looks or how quickly the funds show as available in your account — a bank showing money as available is not the same as the check having actually cleared, which a teller can confirm directly if asked. A legitimate advertiser pays for the wrap and the driver's time itself; it never asks the driver to front payment to a third party. Report car wrap and similar fake-check job offers to the FTC at ReportFraud.ftc.gov and to the Better Business Bureau's Scam Tracker.`,
   },
+  {
+    title: 'The "Self-Employment Tax Credit" Scam: Why That Social Media Refund Windfall Isn\'t Real',
+    slug: 'self-employment-tax-credit-setc-scam-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'setc-tax-scam'],
+    sourceUrl: 'https://www.irs.gov/newsroom/national-small-business-week-2026-avoid-the-scam',
+    body: `A TikTok video, a paid Facebook ad, or a YouTube pre-roll makes a specific, exciting promise: self-employed people and gig workers who missed work during the pandemic can claim a "Self-Employment Tax Credit" worth up to $32,220, no matter how long ago 2020 and 2021 were. A link leads to a website that collects Social Security numbers, prior tax returns, and bank account details, then files an amended return on the target's behalf — often for a large upfront fee or a cut of whatever refund gets approved.
+
+There is no such thing as a broad "Self-Employment Tax Credit." The IRS has confirmed that promoters are twisting a real but narrow provision — Credits for Sick Leave and Family Leave, claimed on Form 7202 — into a sweeping, made-up refund that supposedly applies to nearly any self-employed person. The actual credit was available only for specific, documented COVID-19-related absences from self-employment work during limited windows in 2020 and 2021, and it is not available for any tax year after that. Most people targeted by these ads never had a qualifying absence in the first place, and many were not even self-employed during the period the promoters are filing for.
+
+The IRS named the bogus Self-Employment Tax Credit scheme to its 2026 "Dirty Dozen" list of the year's most dangerous tax scams and issued a dedicated warning during National Small Business Week, saying it is closely scrutinizing amended returns that arrive carrying this cover story. That scrutiny falls on the taxpayer, not the promoter: the filer's name is on the return, and it's the filer — not the marketing company that ran the ad — who is legally responsible if the claim turns out to be false. A refund issued in error doesn't stay issued; the IRS can claw it back with interest, add a 20% accuracy-related penalty on top, and in cases it considers willful, refer the filer for criminal prosecution alongside the promoter.
+
+The warning signs are consistent: any ad or video promising a specific, large dollar figure for a "self-employment," "gig worker," or "1099" tax credit; a promoter who charges a percentage of the refund rather than a flat fee for tax preparation, giving them an incentive to file regardless of eligibility; pressure to act "before the deadline" for a credit that, in reality, closed years ago; and any request to hand over a prior year's full tax return and bank account and routing numbers to a company found through a social media ad rather than a referral.
+
+Before claiming any credit tied to self-employment income, verify eligibility using the IRS's own Publication 334, Tax Guide for Small Business, or a qualified tax professional you found independently — not a company that found you through an ad. If you already filed a claim like this, or paid a promoter who filed one in your name, consult an independent tax professional about amending the return before the IRS flags it, and report the promoter to the IRS at IRS.gov/submitatip.`,
+  },
+  {
+    title: 'Fake "Help" Setting Up Your IRS Online Account: A New Front for Tax Identity Theft',
+    slug: 'irs-online-account-setup-identity-theft-scam-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'irs-online-account-scam'],
+    sourceUrl: 'https://www.irs.gov/newsroom/dirty-dozen-irs-warns-of-scammers-offering-help-to-set-up-an-online-account-creates-identity-theft-risk-for-honest-taxpayers',
+    body: `Setting up an IRS Online Account — the official IRS.gov portal for checking a balance, viewing past returns, or managing payment plans — requires clearing an identity-verification step that some taxpayers find confusing or intimidating. That confusion is exactly what a newer scam targets: someone offering to "help" create the account, sometimes contacting the taxpayer directly, sometimes advertising the service online, and walking them through a process that asks for a home address, a photo ID, and a Social Security number or Individual Taxpayer Identification Number along the way.
+
+The IRS has been direct about this one: "no help is needed" to create an IRS Online Account. The setup process is designed to be completed by the taxpayer alone, in a single sitting, on IRS.gov. A third party who inserts themselves into that process isn't simplifying anything — they're collecting exactly the packet of identifying information an identity thief needs, handed over willingly because the request arrived wrapped in the appearance of legitimate tax help.
+
+Once a scammer has a name, address, date of birth, ID photo, and Social Security number, the account-setup pretext is just the entry point. The IRS warns this information can be sold to other criminals, used to file a fraudulent tax return and redirect the resulting refund, or used to open credit accounts and loans in the victim's name that have nothing to do with taxes at all. Because the victim believes they were simply getting assistance with an official government process, there's often no reason to suspect anything went wrong until a rejected e-file, an unexplained IRS notice, or an unfamiliar credit account surfaces months later.
+
+The IRS included this scheme on its 2026 "Dirty Dozen" list specifically because it inverts the usual script: instead of a threatening call demanding payment, it's a helpful-sounding offer around a task that many taxpayers genuinely find confusing, which lowers the guard that a more obviously aggressive scam would trigger. The warning signs are simple: any unsolicited offer to assist with creating or accessing an IRS Online Account, any request to see a Social Security number or photo ID "to help you register," and any account-setup help that didn't come from the taxpayer's own visit to IRS.gov.
+
+Create or access an IRS Online Account only by going directly to IRS.gov yourself, never through a link, call, or offer from someone else, and enable multi-factor authentication on the account once it's set up. Never share a Social Security number, ITIN, or photo ID with anyone offering to handle IRS account setup, regardless of how official they sound. If you believe you've already shared this information with someone posing as a helper, file a report with the FTC at IdentityTheft.gov to get a personalized recovery plan, and report the suspected scam to the IRS by submitting Form 14242 to the IRS Lead Development Center.`,
+  },
 ];
 
 async function seedArticles(articles: SeedArticle[], label: string) {
