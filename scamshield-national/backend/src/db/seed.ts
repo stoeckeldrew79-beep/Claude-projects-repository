@@ -7245,6 +7245,34 @@ The scheme unraveled in 1990 when a check Van Rossem wrote to a French businessm
 The Moneytron affair remains one of Belgium's defining financial scandals, and a clean illustration of a pattern that recurs across eras and technologies alike: a claimed black-box system nobody outside the company is ever allowed to actually inspect, offered as the explanation for returns that are, in fact, coming from the next round of investors' own money.`,
     sourceUrl: 'https://en.wikipedia.org/wiki/Jean-Pierre_Van_Rossem',
   },
+  {
+    title: 'John Meehan, "Dirty John": The Fake Anesthesiologist Who Preyed on Women for a Decade',
+    slug: 'john-meehan-dirty-john-con-artist',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `John Meehan built his adult life around a single lie: that he was a successful anesthesiologist and Doctors Without Borders volunteer. In reality, he was a nurse anesthetist with a felony record for stealing narcotics from hospitals — a career that collapsed in 2002 when he was caught at a hospital in Hamilton, Ohio, submitting a patient's urine as his own to pass a drug test, part of a pattern of drug theft across Indiana, Kentucky, Ohio, and Michigan that eventually cost him his nursing license and drew a 17-month prison sentence in Michigan.
+
+None of that stopped him from working. From roughly 2005 onward, Meehan trawled online dating sites for financially independent women, using the fabricated doctor persona to fast-track intimacy and trust. Once inside a relationship, his pattern repeated with unnerving consistency: move in quickly, gain access to bank accounts and credit, take money directly from wallets or push for cash "deposits," and turn controlling and threatening the moment a partner tried to leave. By the time he'd worked through a string of these relationships, at least three women held active restraining orders against him and three more had requested them — a record any of his targets could have found with a basic background check, had they known to run one.
+
+In October 2014, Meehan met Debra Newell, a Southern California interior designer, on a dating site; they married two months later, in December 2014, before she learned any of it. Her adult children grew suspicious, dug into his past online, and tried to warn her — uncovering the drug convictions, the prison time, and the restraining orders their mother had no idea existed. Newell eventually left him, but Meehan wouldn't let it end there.
+
+On August 20, 2016, Meehan confronted Newell's daughter Terra in the parking garage of her Newport Beach apartment building carrying a knife; she stabbed him in self-defense, and he died four days later. No charges were filed against her. Los Angeles Times reporter Christopher Goffard's investigation into Meehan's history became the "Dirty John" podcast and a Bravo television series, turning what started as a single family's ordeal into one of the best-documented case studies of how a fabricated professional identity — "doctor," in this case — can be the entire con.`,
+    sourceUrl: 'https://en.wikipedia.org/wiki/Dirty_John',
+  },
+  {
+    title: 'Michael J. Meehan and the RCA Stock Pool That Helped Set the Stage for the Crash of 1929',
+    slug: 'michael-meehan-rca-stock-pool-1929',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Michael J. Meehan arrived on Wall Street with no financial pedigree at all — he started out scalping Broadway theater tickets to brokers on the street. He used the money and connections from six years of that trade to buy a seat on the New York Curb Exchange, then saved enough to buy a seat on the New York Stock Exchange itself, and worked his way up to become the NYSE's official specialist for Radio Corporation of America stock — the single hottest, most speculated-on issue of the 1920s bull market, and now his to manage.
+
+That position gave him the tools to manipulate the very stock he was supposed to be neutrally matching buyers and sellers on. In March 1929, Meehan organized a trading pool among a group of wealthy investors, with his own brothers running order desks on the exchange floor to "paint the tape" — trading the stock rapidly back and forth among pool members to manufacture the appearance of heavy public demand. Outside investors, seeing the volume and the climbing price, piled in and drove it higher still. In roughly nine trading days, RCA stock — which had already run from about $85 in 1925 toward a peak near $549 by 1929 — jumped further, and Meehan's pool cashed out for a profit estimated near $5 million before dumping its shares on the buyers it had lured in. Stock pools like this one were not yet illegal; they were simply how a specialist with the right connections could legally engineer a stampede.
+
+Meehan weathered the October 1929 crash relatively unscathed and spent part of the Depression building a fortune from an unrelated stake in the Good Humor ice cream company. But in 1935 he tried the RCA playbook again on a much smaller target, Bellanca Aircraft, using matched orders to run its price from $1.75 to $5.50 before selling out — only this time, the Securities and Exchange Commission existed, created the year before specifically to police the kind of manipulation Meehan had helped make famous. The SEC made him its very first enforcement target.
+
+Regulators found Meehan guilty of manipulation and expelled him from every exchange he belonged to — the NYSE, the Curb Exchange, and the Chicago Board of Trade — ending his Wall Street career for good; ill health kept him from even testifying at his own hearing. He died in 1948. Meehan's RCA pool remains a standard case study in histories of the 1929 crash, cited as one of the clearest illustrations of why regulators eventually banned the very kind of "painting the tape" pool manipulation that had once been just an accepted cost of doing business on the trading floor.`,
+    sourceUrl: 'https://en.wikipedia.org/wiki/Michael_J._Meehan',
+  },
 ];
 
 // Practical "how it works / red flags / what to do" guides covering the
