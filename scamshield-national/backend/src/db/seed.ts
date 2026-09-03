@@ -7529,10 +7529,9 @@ Rather than retreat, Wakefield relocated to the United States, where no comparab
     title: 'Greg Mortenson: The "Three Cups of Tea" Humanitarian Who Ran His Charity as His Personal ATM',
     slug: 'greg-mortenson-three-cups-of-tea-charity-fraud',
     author: 'ScamShield Editorial',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/K2_from_Concordia_-_3.jpg?width=1200',
-    coverImageCredit: 'Photo: Sallahuddin Shah, Wikimedia Commons (CC BY-SA 4.0) — K2, the mountain whose failed 1993 climb Mortenson credited as the origin of his charity work',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Greg_Mortenson_portrait.jpg?width=1200',
+    coverImageCredit: 'Photo: Central Asia Institute, Wikimedia Commons (CC BY-SA 3.0) — Greg Mortenson',
     coverImagePosition: 50,
-    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Greg Mortenson was born in St. Cloud, Minnesota, and spent much of his childhood in Tanzania, where his parents worked as educators and he grew up fluent in Swahili, before returning to the United States and graduating from the University of South Dakota in 1983 with degrees in liberal studies and nursing. In 1993, Mortenson attempted to climb K2, the world's second-highest and among its most dangerous mountains, in memory of his sister Christa, who had died of epilepsy-related complications; he failed to summit and, in his own retelling, stumbled exhausted into the remote Pakistani village of Korphe in the Karakoram range, where villagers nursed him back to health. That encounter became the founding story of his career: moved by the village's lack of a school, Mortenson said he vowed to return and build one, and in 1996 he co-founded the Central Asia Institute (CAI) with Silicon Valley physicist Jean Hoerni to fund schools, especially for girls, across remote Pakistan and Afghanistan.
 
@@ -29894,6 +29893,42 @@ const SEED_SCAMS: SeedScam[] = [
     alertLevel: 'medium',
     sources: ["Alabama Attorney General's Office", 'WTVM'],
     sourceUrl: 'https://www.alabamaag.gov/attorney-general-marshall-secures-300000-settlement-against-tuskegee-care-facility-in-national-healthcare-fraud-takedown/',
+  },
+  {
+    name: 'Flawless Results LLC Window and Door Deposit-and-Vanish Fraud',
+    slug: 'new-mexico-flawless-results-window-door-fraud',
+    description:
+      'Flawless Results LLC, an Albuquerque-based window and door installer that also operated locations in Colorado Springs, Colorado, and El Paso, Texas, collected large upfront deposits from hundreds of New Mexico homeowners for remodeling work, then shut down abruptly in late 2024 leaving customers with unfinished or never-started jobs and no refunds. New Mexico Attorney General Raúl Torrez sued the company and its operators, John Steven Georges Sr., Robert Dean "Bobby" Murphy Jr., and Jacob Chalmer Tryon, in the Second Judicial District Court, alleging violations of the state\'s Unfair Practices Act and estimating consumer losses topping $700,000. The lawsuit also accuses the company of steering customers into financing agreements with Cross River Bank that lacked required consumer-protection disclosures, so homeowners were left owing monthly loan payments on remodeling that was never completed or that failed inspection. The case seeks restitution for affected consumers, civil penalties, and an injunction barring the defendants from doing home-improvement business in New Mexico. Homeowners hiring a remodeling contractor are advised to avoid financing arrangements the contractor itself arranges or pushes without an independent review of the terms, to pay in installments tied to completed, inspected work rather than a large deposit upfront, and to check a contractor\'s complaint history with the New Mexico Regulation and Licensing Department\'s Construction Industries Division before signing anything.',
+    categorySlug: 'mortgage-foreclosure-scams',
+    country: 'US',
+    state: 'NM',
+    alertLevel: 'medium',
+    sources: ['New Mexico Department of Justice, Office of the Attorney General', 'KOB.com'],
+    sourceUrl: 'https://nmdoj.gov/press-release/new-mexico-attorney-general-raul-torrez-files-lawsuit-against-flawless-results-llc-for-deceptive-business-practices/',
+  },
+  {
+    name: 'Capital City Tree Service Storm-Cleanup Price Gouging',
+    slug: 'arkansas-capital-city-tree-service-price-gouging',
+    description:
+      'In the weeks after tornadoes tore through central Arkansas in March 2023 and again in May 2024, Capital City Tree Service, LLC and its owners, Charles Shaw, Janet Shaw, and Matthew Shaw, routinely charged desperate homeowners more than $20,000 — in one case as much as $35,948 — to remove a single downed tree, billing Arkansas consumers over $450,000 in April 2023 alone. According to Arkansas Attorney General Tim Griffin\'s lawsuit, the company rushed consumers into signing contracts on a tablet or phone that locked in an eight-hour minimum charge even though most jobs took less than four hours, promised there would be no out-of-pocket cost because the bill would go through the homeowner\'s insurance, then refused to actually work with the insurance company and demanded full payment of the inflated invoice directly from the homeowner, filing liens against several consumers\' homes when they couldn\'t pay. "You will not profit off the despair of fellow Arkansans," Griffin said, pledging to "pursue you to the full extent of the law." The state won a judgment finding 47 violations of the Arkansas Deceptive Trade Practices Act and, in a follow-up ruling, a court imposed a $470,000 fine against the company. Arkansans hiring storm-cleanup crews are advised to get a written, itemized estimate before work begins, confirm the total price does not depend on a padded time minimum, and treat any contractor who refuses to bill insurance directly or who rushes a signature on a phone or tablet as a red flag.',
+    categorySlug: 'mortgage-foreclosure-scams',
+    country: 'US',
+    state: 'AR',
+    isHistorical: true,
+    sources: ["Arkansas Attorney General's Office", 'KARK'],
+    sourceUrl: 'https://arkansasag.gov/news-release/attorney-general-griffin-sues-capital-city-tree-service-for-price-gouging/',
+  },
+  {
+    name: 'BM Motor Cars Hidden-Fee and Odometer-Disclosure Fraud',
+    slug: 'new-jersey-bm-motor-cars-used-car-fraud',
+    description:
+      'Federal Auto Brokers, Inc., doing business as BM Motor Cars in Rahway, sold used cars to New Jersey consumers for nearly a decade while systematically hiding the true cost and condition of the vehicles: dealer preparation fees were left out of advertised online prices, consumers were pressured into signing away their right to an independent inspection without being told about defects that would have caused the car to fail one, required odometer-mileage disclosure statements were never provided at the time of sale, and imported "gray market" vehicles were sold without the safety and emissions warnings state law requires. The dealership had already been fined $55,899 under a 2018 consent order for similar conduct and kept operating the same way anyway. The New Jersey Division of Consumer Affairs found 511 separate violations of the state Consumer Fraud Act, odometer-disclosure law, and motor vehicle advertising regulations in just a two-month window, and on January 20, 2026 the Superior Court in Union County entered a final judgment of more than $840,000 — a $793,500 civil penalty plus attorneys\' fees and investigative costs — and permanently barred the dealership from further unfair or deceptive practices. "Consumers have the right to clear, truthful information when navigating the expensive and complex process of buying a car," Acting Attorney General Jennifer Davenport said. Buyers of any used car in New Jersey are entitled to a signed odometer disclosure statement at the time of transfer and to an all-in advertised price with fees included, and should treat a dealer\'s request to waive a pre-purchase inspection as a reason to walk away rather than sign.',
+    categorySlug: 'online-shopping-scams',
+    country: 'US',
+    state: 'NJ',
+    isHistorical: true,
+    sources: ["New Jersey Office of the Attorney General", 'Union County Superior Court final judgment'],
+    sourceUrl: 'https://www.njoag.gov/acting-attorney-general-davenport-announces-840000-judgment-protecting-consumers-from-fraud-by-used-car-dealership-bm-motor-cars/',
   },
 ];
 
