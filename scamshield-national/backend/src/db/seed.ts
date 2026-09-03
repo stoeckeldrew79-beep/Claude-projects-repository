@@ -24246,6 +24246,28 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Finansinspektionen (Swedish Financial Supervisory Authority)'],
     sourceUrl: 'https://www.fi.se/sv/vara-register/fis-varningslista/',
   },
+  {
+    name: 'Fake QR Code EV Charging Station Payment Scam',
+    slug: 'ev-charging-station-fake-qr-code-scam',
+    description:
+      'Scammers print a sticker nearly identical to the legitimate payment QR code posted on a public electric-vehicle charging station and paste it directly over the real one, so a driver who scans it to start a charging session is instead sent to a cloned payment page that harvests full card numbers or, in some documented cases, silently enrolls the victim in an unauthorized recurring subscription. The utility Entergy New Orleans warned in March 2026 that fraudsters had tampered with QR codes across roughly 30 of its public Level 2 chargers throughout the city, stressing that it "does not use QR codes for payments," while a Florida couple charging their car on vacation in Inverness had their card flagged for unauthorized charges within two minutes of scanning a tampered code — part of a pattern the Better Business Bureau has tracked at charging stations, parking meters, and other pay-by-QR machines nationwide as "quishing." The scam exploits a driver\'s urgency to get a charge going in an unfamiliar location, when a sticker that looks slightly raised or a URL that doesn\'t quite match the charging network\'s real domain is easy to miss in the moment. Drivers should start and pay for a charging session through the network\'s official app or a manually typed website address instead of scanning an on-site code, check whether a QR sticker feels like it can be peeled away from the panel underneath, and review card statements for unrecognized charges tied to a charging stop.',
+    categorySlug: 'phishing',
+    country: 'US',
+    alertLevel: 'medium',
+    sources: ['Entergy New Orleans', 'Better Business Bureau'],
+    sourceUrl: 'https://www.wftv.com/news/local/we-have-unauthorized-charges-here-scammers-use-fake-qr-codes-steal-money-personal-info/JNQHUQVCIFGTJBTUQKBG4H4HW4/',
+  },
+  {
+    name: 'IDScan.net Driver\'s License Verification Breach',
+    slug: 'idscan-net-drivers-license-verification-breach',
+    description:
+      'A dark web marketplace called Nexus began advertising in late August 2026 the sale of more than 153 million scanned U.S. and Canadian driver\'s licenses, plus over 10 million other ID cards, roughly 3 million passports and travel documents, and more than 579,000 medical and dispensary cards — many including front-and-back images along with the infrared and ultraviolet scans some verification systems capture, timestamped down to the second. Krebs on Security traced the leaked images to IDScan.net, a New Orleans-based identity-verification company whose scanning technology handles more than 21 million ID checks a month at rental car counters, cannabis dispensaries, casinos, and other age-restricted checkpoints for clients including Hertz, Target, FedEx, and Caesars Entertainment; the seller claimed the data had been "continuously exfiltrating for over a year" before the listing surfaced on August 31, 2026. The FBI\'s New Orleans field office opened an investigation and the Nexus marketplace went dark shortly after the report, though IDScan.net had not confirmed the breach\'s scope as of early September 2026. Because the leaked files are exactly the kind of high-resolution, multi-spectrum ID scans that "identity verification" checks rely on to confirm a document is real and unaltered, criminals can use them to pass know-your-customer checks when opening new bank, loan, or crypto accounts in someone else\'s name, to make family-emergency or fake-support-call scripts far more convincing by already knowing a victim\'s real license number and address, or to resell fully "verified" synthetic identities outright. Anyone who has had an ID scanned at a rental car counter, dispensary, casino, or similar checkpoint in the past year or more should place a credit freeze or fraud alert with the three major credit bureaus, watch for unfamiliar new accounts or hard inquiries, and treat any unsolicited call, text, or email asking to "re-verify" a driver\'s license — especially one that already recites real license details — as a probable follow-up scam rather than routine verification.',
+    categorySlug: 'identity-theft',
+    country: 'US',
+    alertLevel: 'critical',
+    sources: ['Krebs on Security', 'Federal Bureau of Investigation (FBI)'],
+    sourceUrl: 'https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/',
+  },
 ];
 
 async function seedCategoriesAndScams() {
