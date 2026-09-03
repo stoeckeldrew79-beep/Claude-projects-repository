@@ -1,7 +1,7 @@
 # ScamShield National
 
 A national scam intelligence database and subscription platform. See
-`../content/docs` in this repo — or the original technical specification —
+`../docs` in this repo — or the original technical specification —
 for the full architecture, schema, and API design this scaffold implements.
 
 ## Status
