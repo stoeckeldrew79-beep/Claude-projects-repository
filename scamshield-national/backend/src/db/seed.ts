@@ -28657,6 +28657,42 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['U.S. Attorney\'s Office, Middle District of Florida', 'U.S. Commodity Futures Trading Commission'],
     sourceUrl: 'https://www.justice.gov/usao-mdfl',
   },
+  {
+    name: 'Montana MVD Text Message Registration-Suspension Scam',
+    slug: 'montana-mvd-text-message-registration-suspension-scam',
+    description:
+      'The Montana Department of Justice\'s Office of Consumer Protection is warning residents about a wave of fraudulent text messages impersonating the state\'s Motor Vehicle Division (MVD), claiming the recipient owes an unpaid traffic ticket or fine and must pay immediately through a link in the text or face escalating fees and suspension of their vehicle registration. The office says reports spiked sharply in February 2026 — nearly 50 came in on a single Monday alone — with the texts typically arriving from non-U.S. phone numbers, written in stilted or grammatically off language, and built around a fabricated deadline meant to push the recipient into clicking through before they stop to think. The real MVD does not initiate contact by text message demanding payment. "Be skeptical. Always verify. Talk to family members or call the agency, especially the agency that\'s trying to get in touch with you. Never feel pressure," said Andrew Butler, a supervising attorney in the Montana DOJ\'s Office of Consumer Protection. Montanans who receive one of these texts are urged not to click any link or reply with payment or personal information, and instead to verify any claimed balance directly through the MVD or by calling the Montana Department of Justice\'s Office of Consumer Protection at (406) 444-4500 or (800) 481-6896.',
+    categorySlug: 'government-impersonation',
+    country: 'US',
+    state: 'MT',
+    alertLevel: 'high',
+    sources: ['Montana Department of Justice — Office of Consumer Protection'],
+    sourceUrl: 'https://dojmt.gov/office-of-consumer-protection',
+  },
+  {
+    name: 'West Virginia DMV "Smishing" Toll and Ticket Text Scam',
+    slug: 'west-virginia-dmv-smishing-toll-ticket-scam',
+    description:
+      'The West Virginia Attorney General\'s Office and the state Division of Motor Vehicles issued a joint alert after multiple residents reported fraudulent text messages impersonating the DMV, claiming an unpaid toll or traffic ticket and threatening legal action, license suspension, or a damaged credit score unless the recipient pays immediately through a link in the message. Several red flags exposed the scam on close reading: the texts referred to a "West Virginia Department of Motor Vehicles" — the agency\'s actual name is the Division of Motor Vehicles — cited vague "Administrative Code" violations, contained noticeably poor grammar, and linked to look-alike web addresses built to resemble the real domain, such as a fake "transportation.wv.gov" address with extra characters tacked onto the end. "Government business is almost always sent via the U.S. Postal Service and never through text," Attorney General John B. McCuskey said, noting that the real DMV will never text a resident demanding payment. The DMV and Attorney General\'s Office recommend forwarding suspicious texts to 7726 (SPAM) to report them to wireless carriers, filing a complaint with the FTC at reportfraud.ftc.gov or the FBI\'s Internet Crime Complaint Center at ic3.gov, and calling the West Virginia Attorney General\'s Consumer Protection Division at 1-800-368-8808 with any questions before clicking a link or paying.',
+    categorySlug: 'government-impersonation',
+    country: 'US',
+    state: 'WV',
+    alertLevel: 'high',
+    sources: ["West Virginia Attorney General's Office", 'West Virginia Division of Motor Vehicles'],
+    sourceUrl: 'https://ago.wv.gov/article/scam-alert-attorney-general-mccuskey-warns-dmv-smishing-scam-targeting-west-virginians',
+  },
+  {
+    name: 'Idaho Missed-Jury-Duty Text and Call Scam',
+    slug: 'idaho-missed-jury-duty-text-call-scam',
+    description:
+      'Idaho Attorney General Raúl Labrador issued a consumer alert after a wave of scam texts, calls, and emails swept the state falsely telling recipients they missed jury duty and must pay a fine immediately, by gift card, cryptocurrency, or a link embedded in the message, to avoid arrest or additional penalties. Investigators say the operations, many run from overseas, spoof caller ID to look local and dress up their messages with real court logos, addresses, and the names of actual sitting sheriffs and judges to make the threat feel specific and credible rather than generic. "Idahoans — particularly senior citizens — are frequent victims of these criminal scams," Labrador said, noting that older residents lose millions of dollars a year to jury-duty and similar court-impersonation schemes nationally. Idaho courts do not text or email people about jury service, do not demand payment through a link, and do not threaten an arrest warrant by text message; anyone unsure whether a jury summons is real is advised to call their local court clerk directly using a number looked up independently, never one provided in the message itself. Idahoans who receive one of these scam messages are urged not to click any link or pay anything, and to file a report with the Attorney General\'s Consumer Protection Division at ReportScamsIdaho.com.',
+    categorySlug: 'government-impersonation',
+    country: 'US',
+    state: 'ID',
+    alertLevel: 'high',
+    sources: ["Idaho Office of the Attorney General"],
+    sourceUrl: 'https://www.ag.idaho.gov/newsroom/consumer-alert-attorney-general-cautions-against-jury-duty-scams-sweeping-across-idaho/',
+  },
 ];
 
 async function seedCategoriesAndScams() {
