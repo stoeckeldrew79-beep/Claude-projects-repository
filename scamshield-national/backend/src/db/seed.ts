@@ -27183,6 +27183,39 @@ const SEED_SCAMS: SeedScam[] = [
     sourceUrl: 'https://www.svt.se/nyheter/inrikes/nya-bluffen-bedragare-anvander-lackta-uppgifter-fran-resesajter',
   },
   {
+    name: 'Swedish Fake Home-Care Worker (Hemtjänst) Home-Entry Scam',
+    slug: 'sweden-fake-hemtjanst-home-care-worker-scam',
+    description:
+      'A caller, text message, or unannounced visitor tells an elderly resident they represent hemtjänsten — the municipal home-care service many Swedish seniors already rely on — and asks to be let in to clean the home, install a personal safety alarm, or handle some other routine-sounding task, or asks the resident to approve a booking through a link sent by SMS. Because real hemtjänst staff genuinely do enter clients\' homes as part of their jobs, the claim lowers a resident\'s guard in a way an unfamiliar stranger\'s request never would. Sigtuna kommun warned residents on July 29, 2026 after roughly 20 elderly residents there were approached by phone, text, and in person using the ploy, and Härnösands kommun issued a similar warning on July 16, 2026 after someone tried to gain entry claiming to have been sent to clean a resident\'s home; Eva Nordin Silén, spokesperson for Härnösand\'s social services department, said no one had actually been let in but urged anyone approached to report it as an attempted fraud regardless. Both municipalities stress that genuine home-care staff wear a uniform bearing the municipality\'s logo, let themselves in with their own key or code rather than asking to be let in, and never request a BankID login over the phone; residents and relatives are advised to confirm any unscheduled hemtjänst contact by calling the municipality\'s home-care unit directly, using a number looked up independently rather than one supplied by the caller.',
+    categorySlug: 'government-impersonation',
+    country: 'SE',
+    alertLevel: 'medium',
+    sources: ['Härnösands kommun', 'Sigtuna kommun', 'SVT Nyheter'],
+    sourceUrl: 'https://www.svt.se/nyheter/lokalt/vasternorrland/falsk-hemtjanst-i-harnosand-kommunen-varnar-aldre',
+  },
+  {
+    name: 'Swedish Fake "Insurance-Sent" Pipe-Flushing Tradesman Scam',
+    slug: 'sweden-fake-insurance-pipe-flushing-tradesman-scam',
+    description:
+      'A caller tells an elderly homeowner that their insurance company has sent them to flush the pipes in the house, and warns that the home\'s insurance coverage will become invalid if the work isn\'t carried out — a false claim used to justify both an unscheduled home visit and an on-the-spot payment. In one case in Sweden\'s southern police region, the intended target grew suspicious after the call, contacted family members, and alerted police, who hid inside the home and arrested the callers when they arrived to carry out the supposed inspection on August 20, 2026. Cajsa Ernholdt, head of the regional fraud section for Polisregion Syd, praised the response: "Vi vill verkligen berömma personens och de anhörigas agerande" (we really want to commend the person and their relatives\' actions). Police in the Bergslagen region separately reported a rise in similar aggressive doorstep sales tactics targeting elderly homeowners with claims of urgently needed maintenance work that same month. No insurance company sends an unannounced tradesperson to a policyholder\'s home on its own initiative, and Polisen advises hanging up on any caller who claims otherwise, never letting an unexpected visitor into the home, and calling the insurer directly — using a number looked up independently — to check whether any such visit was actually arranged.',
+    categorySlug: 'insurance-fraud',
+    country: 'SE',
+    alertLevel: 'high',
+    sources: ['Polismyndigheten (Swedish Police Authority)'],
+    sourceUrl: 'https://polisen.se/aktuellt/nyheter/syd/2026/augusti/bedragare-greps-under-pagaende-bedrageriforsok/',
+  },
+  {
+    name: 'Swedish "Bluffdöva" Fake Deaf-Mute Home-Entry Theft',
+    slug: 'sweden-bluffdova-fake-deaf-mute-home-entry-theft',
+    description:
+      'A stranger appears unannounced at an elderly person\'s front door pretending to be deaf and unable to speak, communicating instead through handwritten notes or gestures and carrying folders or papers as props — a performance designed to trigger sympathy and lower a resident\'s guard long enough to be let inside. Once in, the visitor either steals jewelry and cash directly or works to stay in the home long enough for an accomplice to do so. Bergslagen police press officer Anders Dahlman told SVT on September 3, 2026 that the pattern first surfaced in Skåne, then spread to western Sweden, and has now reached Bergslagen, with police suspecting the perpetrators are continuing to move north; the Swedish National Association of the Deaf has separately warned the public about impersonators using deafness as a cover story, noting a similar wave surfaced roughly a decade earlier. Anyone who did not request a visit and cannot verify a caller\'s identity or purpose is advised not to open the door, or to keep a chain or latch engaged and communicate through the gap, and to call police non-emergency line 114 14 to report the attempt even if nothing was taken.',
+    categorySlug: 'identity-theft',
+    country: 'SE',
+    alertLevel: 'high',
+    sources: ['SVT Nyheter (Nyhetstecken)', 'Polismyndigheten (Swedish Police Authority)'],
+    sourceUrl: 'https://www.svt.se/nyheter/nyhetstecken/polisen-varnar-bluffdova-tar-sig-in-i-aldres-bostader',
+  },
+  {
     name: 'Hawaii Attorney General Impersonation Gift Card Scam',
     slug: 'hawaii-attorney-general-impersonation-gift-card-scam',
     description:
