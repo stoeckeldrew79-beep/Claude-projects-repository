@@ -6132,6 +6132,34 @@ Keely died of pneumonia on November 18, 1898, having never revealed a working me
 Keely's fraud predates most of the twentieth century's free-energy and perpetual-motion swindles by decades, and it laid out the template later versions would follow almost exactly: a plausible-sounding pseudoscience just complicated enough to resist casual scrutiny, staged demonstrations that never quite let an independent party control the conditions, and a inventor who kept redefining the underlying "breakthrough" every time investors' patience wore thin — long enough, in Keely's case, for the scheme to outlive nearly every other Gilded Age fraud of its size, and to only be exposed once its author was no longer alive to relocate the tubing.`,
     sourceUrl: 'https://en.wikipedia.org/wiki/John_Ernst_Worrell_Keely',
   },
+  {
+    title: 'Frederick Cook: The Arctic Explorer Whose Faked Discoveries Ended in an Oil Stock Fraud Conviction',
+    slug: 'frederick-cook-north-pole-oil-stock-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Frederick Albert Cook was born in Hortonville, New York, on June 10, 1865, earned a medical degree in 1890, and built a genuine early reputation as a polar physician and explorer, serving on Arctic and Antarctic expeditions including Robert Peary's 1891-92 Greenland voyage and Adrien de Gerlache's Belgian Antarctic Expedition. That legitimate record made what followed more credible than it otherwise would have been. In 1906, Cook claimed to have reached the summit of Denali (then Mount McKinley), North America's highest peak — a claim later widely discredited after his own expedition photographer, Edward Barrill, signed an affidavit in 1909 admitting the "summit" photograph had actually been taken on a minor peak roughly 20 miles away and thousands of feet lower.
+
+Cook's more famous claim came two years later: that he had reached the North Pole on April 21, 1908, a full year before his rival Peary said he had done the same. The two men's dueling claims triggered one of the great scientific controversies of the era, playing out in newspapers on both sides of the Atlantic. A University of Copenhagen commission reviewed the papers Cook submitted as proof and ruled on December 21, 1909 that they contained no evidence he had actually reached the Pole. Neither man's claim has ever been conclusively verified by historians, but Cook's scientific reputation collapsed under the weight of the Denali finding and the commission's rejection, and he spent the following decade largely discredited.
+
+Cook resurfaced in the early 1920s in Fort Worth, Texas, at the height of a regional oil boom, as president of the Petroleum Producers Association, which sold stock in oil leases to investors across the country on promises of outsized returns. In April 1923, Cook and roughly two dozen other Fort Worth oil promoters were indicted on federal mail fraud charges. Prosecutors showed the association had been paying "dividends" to existing shareholders not from oil profits, but from the proceeds of selling stock to new investors — the same pay-earlier-investors-with-later-investors'-money structure that had made Charles Ponzi infamous in Boston three years earlier. A jury convicted Cook on 14 counts of fraud, and in November 1923 Judge John M. Killits sentenced him to 14 years and nine months in federal prison — the longest sentence handed down among the defendants. His appeal failed, and he entered Leavenworth Federal Penitentiary to serve it.
+
+Cook was released on parole in 1930 after roughly seven years inside, and in 1940 President Franklin D. Roosevelt granted him a full pardon restoring his civil rights. He died of a cerebral hemorrhage on August 5, 1940, just months after the pardon. Cook's case is unusual on this list for combining two different kinds of fraud built on the same foundation: a respected professional's word taken on faith, first in a scientific claim no layperson could independently verify, and later in a financial one built on the same borrowed credibility — a pattern investors and the press proved just as reluctant to question the second time as the first.`,
+    sourceUrl: 'https://en.wikipedia.org/wiki/Frederick_Cook',
+  },
+  {
+    title: 'Clark Stanley, the "Rattlesnake King": How a Fake Cure Gave Fraud the Name "Snake Oil"',
+    slug: 'clark-stanley-snake-oil-liniment-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Clark Stanley, born around 1854 and later billed as a Texas cowboy turned self-taught herbalist, built one of the best-known patent medicine brands of the late 19th century on a claim he said he'd picked up from a Hopi medicine man in Arizona in 1879: the secret of "snake oil," a liniment he said was rendered from rattlesnakes and could cure rheumatism, sprains, toothache, sore throat, frostbite, and more. He turned the pitch into theater, most famously at the 1893 World's Columbian Exposition in Chicago, where he killed live rattlesnakes in front of crowds, plunged them into boiling water, and skimmed off the fat that rose to the surface as "proof" of what was inside his bottles. The showmanship worked: Stanley built production facilities in Beverly, Massachusetts, and Providence, Rhode Island, and sold "Clark Stanley's Snake Oil Liniment" nationwide for decades.
+
+The claim itself traded on a reputation that predated Stanley by years — accounts from 19th-century Chinese immigrant laborers describe genuine snake fat, rich in certain fatty acids, being used as a folk remedy for joint pain with some real anti-inflammatory basis. Stanley's product borrowed that credibility without the substance behind it. After the Pure Food and Drug Act of 1906 gave federal regulators new authority to test what patent medicines actually contained, government chemists seized a shipment of Stanley's liniment in 1917 and ran it through analysis. The results contained no snake product of any kind: the liniment was primarily mineral oil, mixed with a fatty substance believed to be of beef origin, capsaicin from red pepper (likely responsible for the warming sensation users felt and mistook for the product working), and turpentine.
+
+Federal prosecutors charged Stanley under the Act for misbranding a fraudulent product. The penalty, by later standards, was almost comically small: a fine of $20, worth roughly $500 today, for a business that had sold a knowingly fake medical cure across the country for the better part of thirty years. No prison time and no broader restitution to the customers who'd bought it followed.
+
+The financial punishment barely registered, but the case outlived it. "Snake oil" had already been drifting into English as shorthand for a worthless quack remedy before 1917, but the extensive press coverage of the federal lab results — mineral oil, beef fat, chili pepper, and turpentine, and not one trace of snake — turned Clark Stanley personally into the reference point for the phrase, cementing "snake oil salesman" as the enduring American term for anyone selling a fraudulent cure. More than a century later, the label still gets attached to every miracle supplement, unproven health device, and pseudo-medical scheme that promises a cure a doctor won't give you — Stanley's real legacy, worth far more than the $20 he was ever made to pay for it.`,
+    sourceUrl: 'https://en.wikipedia.org/wiki/Clark_Stanley',
+  },
 ];
 
 // Practical "how it works / red flags / what to do" guides covering the
@@ -25743,6 +25771,75 @@ const SEED_SCAMS: SeedScam[] = [
     alertLevel: 'medium',
     sources: ['Indiana Senior Medicare Patrol', 'WRTV Investigates'],
     sourceUrl: 'https://www.wrtv.com/news/wrtv-investigates/check-your-medicare-statements-for-new-twist-on-fraudulent-billing-scam',
+  },
+  {
+    name: 'French Fake "Revolut/Barclays/Boursorama" Savings Account Clone Scam',
+    slug: 'french-acpr-fake-savings-account-clone-scam',
+    description:
+      'Fraudsters advertise savings accounts (livrets d\'épargne) on social media or lead-generating websites offering interest rates well above the market — far above the regulated Livret A\'s capped rate — then follow up with phone calls and emails impersonating real, well-known banks such as Revolut, Barclays, or Boursorama to make the pitch credible. Victims are instructed to wire their deposit to a real, French-registered IBAN that is not actually held by the impersonated bank but by a "compte rebond" — a rebound account used as a money-laundering relay — from which the funds are immediately moved onward, with roughly 60% leaving France right away, less than 10% ever recovered by victims, and only about 2% frozen by judicial seizure. France\'s banking-and-insurance regulator recorded over 661 million euros in suspicious transfers tied to this pattern, a 45% jump in a single year, with an average loss of about 69,000 euros per victim in the fake-savings-account version specifically (some cases exceeding 400,000 euros), and separately warned that its own name, along with the Banque de France and the AMF, is being impersonated in follow-up phishing and "unlocking fee" demands. The regulator advises independently calling the supposed bank back using a phone number found on that bank\'s own official website — never a number or link supplied by the person who first made contact — before transferring any money.',
+    categorySlug: 'investment-fraud',
+    country: 'FR',
+    alertLevel: 'critical',
+    sources: ['L\'Autorité de contrôle prudentiel et de résolution (ACPR), Banque de France'],
+    sourceUrl: 'https://acpr.banque-france.fr/fr/communiques-de-presse/lacpr-met-en-garde-les-epargnants-contre-la-multiplication-de-faux-placements-proposes-par-des',
+  },
+  {
+    name: 'French MaPrimeRénov\' Identity-Theft Subsidy Fraud',
+    slug: 'french-maprimerenov-identity-theft-subsidy-fraud',
+    description:
+      'Rather than cold-calling a homeowner directly, fraudsters steal a homeowner\'s or an RGE-certified tradesperson\'s identity and personal data to open a fraudulent application in their name on the official MaPrimeRénov\' portal — France\'s state home-energy-renovation subsidy platform run by the Agence nationale de l\'habitat (Anah) — submitting inflated or entirely fictitious renovation quotes and diverting the resulting government aid payment into an account the real homeowner or tradesperson never controlled or agreed to. In one prosecuted case in Saintes, three company directors were tried for organized fraud and money laundering exceeding one million euros after allegedly opening Anah applications under the stolen identities of both homeowners and craftspeople across roughly 50 households in Charente-Maritime; other RGE-certified firms have discovered their name and certification number were used, entirely without their knowledge, to falsely qualify claims they never worked on. Anah reported blocking around 44,000 suspicious applications in 2024 alone, preventing an estimated 230 million euros in fraudulent payouts, and has since tightened identity verification and expanded data-sharing with fraud-prevention services as more cases reach French courts. Homeowners are advised to check for an unrecognized MaPrimeRénov\' application under their own name via the France Rénov\' portal and to report any suspected identity theft on the platform immediately, since — unlike a cold-call pitch for fake "1 euro" insulation — this fraud can happen entirely without the victim ever being contacted.',
+    categorySlug: 'government-impersonation',
+    country: 'FR',
+    alertLevel: 'high',
+    sources: ['Agence nationale de l\'habitat (Anah)', 'franceinfo'],
+    sourceUrl: 'https://www.franceinfo.fr/environnement/energie/maprimerenov-usurpation-d-identite-devis-gonfles-la-chasse-aux-fraudeurs-sera-renforcee_7293774.html',
+  },
+  {
+    name: 'French Booking.com Hotel-Account Compromise Phishing Scam',
+    slug: 'french-booking-com-hotel-account-compromise-phishing-scam',
+    description:
+      'Fraudsters first target a hotel itself — sometimes by posing as a guest who claims to have left a passport behind and sending a link to infostealer malware disguised as a document, other times by making a fake reservation and then contacting the front desk about it — to steal the hotel staff\'s own login credentials to their Booking.com extranet account. Once inside, the fraudsters use that hijacked but entirely genuine hotel account to message real, recent guests through Booking.com\'s own official in-platform messaging system (making the message appear inside the guest\'s legitimate booking thread, alongside real dates and reservation details), claiming a payment problem or "guarantee" verification is needed and directing the guest to a convincing fake payment page that captures their card number, expiry, and security code. One French hotelier reported the same fraudulent message was sent to 23 of her guests through her compromised account, with eight of them clicking the malicious link before the pattern was caught; the CNIL and French fraud-prevention authorities have been notified of the wider wave, and hotel-industry unions have urged managers to file criminal complaints. Cybermalveillance.gouv.fr advises guests never to enter payment details through a link received via a booking platform\'s messaging system, chat, SMS, or email — always logging into the official app or site directly instead — and advises hoteliers to enable two-factor authentication on their extranet account and report a suspected compromise to Booking.com\'s partner support immediately.',
+    categorySlug: 'phishing',
+    country: 'FR',
+    alertLevel: 'high',
+    sources: ['Cybermalveillance.gouv.fr', 'franceinfo'],
+    sourceUrl: 'https://www.franceinfo.fr/internet/securite-sur-internet/cyberattaques/on-peut-se-faire-avoir-facilement-une-arnaque-cible-les-utilisateurs-du-site-booking-com_7937261.html',
+  },
+  {
+    name: 'Oregon Phone Number "Porting Alert" PIN-Theft Scam',
+    slug: 'oregon-phone-number-porting-alert-pin-theft-scam',
+    description:
+      'Oregonians receive an unsolicited text message or email warning that their phone number is being transferred to a new wireless carrier and providing a PIN code, along with instructions to call a number to "secure" the account before the transfer completes. Consumers who call the number and read back the PIN unknowingly hand a scammer the exact verification code needed to complete a real, in-progress hijack of their phone number to a device the scammer controls. The Oregon Department of Justice\'s Consumer Hotline says the resulting takeover has cut off victims\' cell service and, in at least one case, let scammers access and drain a consumer\'s bank accounts once they controlled the SMS codes tied to it. The DOJ advises never sharing a carrier PIN or verification code with anyone, and instead calling your carrier directly using the number on a past bill, not a number provided in the text or email itself.',
+    categorySlug: 'account-takeover',
+    country: 'US',
+    state: 'OR',
+    alertLevel: 'high',
+    sources: ['Oregon Department of Justice'],
+    sourceUrl: 'https://www.doj.state.or.us/media-home/news-media-releases/oregon-department-of-justice-consumer-hotline-warns-of-new-phone-number-transfer-scam/',
+  },
+  {
+    name: 'Wisconsin "Charitable Gift" Lottery Scam via Priority Mail',
+    slug: 'wisconsin-charitable-gift-lottery-priority-mail-scam',
+    description:
+      'A letter arrives on official-looking lottery letterhead claiming the recipient has been "gifted a million dollars as part of a charitable initiative," even though they never entered any drawing. What sets this version apart is delivery: scammers pay roughly $10 to send the letter via USPS Priority Mail and require a signature on receipt, a level of postage only legitimate organizations typically use, specifically to make the letter feel more credible than an ordinary envelope. The letter then asks the recipient to provide personal information to claim the prize. Wisconsin Department of Agriculture, Trade and Consumer Protection consumer protection specialist Michelle Reinen said one consumer who received the letter "paused and thought about it and realized that it was really too good to be true" before contacting DATCP. The agency reminds consumers that a real prize can\'t be won without having entered, real lotteries never require secrecy about a win, and anyone who receives such a letter should search the sender\'s name alongside words like "scam" or "complaint" and verify independently before responding.',
+    categorySlug: 'lottery-sweepstakes-scams',
+    country: 'US',
+    state: 'WI',
+    alertLevel: 'medium',
+    sources: ['Wisconsin Department of Agriculture, Trade and Consumer Protection'],
+    sourceUrl: 'https://www.wsaw.com/2026/04/19/wisconsin-officials-warn-million-dollar-lottery-scam-delivered-by-priority-mail/',
+  },
+  {
+    name: 'North Dakota "Domain Directory" Deceptive Invoice Scheme (Lake Holdings)',
+    slug: 'north-dakota-lake-holdings-domain-directory-deceptive-invoice-scheme',
+    description:
+      'A company operating under the names Domain Networks, North Dakota Domain Directory, and My Safe Domain mailed North Dakota small businesses, public entities, churches, and nonprofit organizations invoice-like solicitations formatted with formal billing language and payment deadlines, designed to look as though payment was required for domain-registration or directory-listing services the recipient never ordered. Recipients who paid, believing it was a legitimate renewal notice from their actual domain registrar, were in fact paying an unrelated third party for a service they hadn\'t purchased. North Dakota Attorney General Drew Wrigley announced a settlement with the company\'s operator, Lake Holdings, LLC, in February 2026 resolving allegations that the mailers violated the state\'s Consumer Fraud Law; the settlement, entered without an admission of wrongdoing, requires Lake Holdings to notify every eligible North Dakota entity within 30 days and offer full refunds. Wrigley noted that "churches, nonprofit organizations, and small businesses work hard to serve their communities, often with limited staff and resources," making them frequent targets for exactly this kind of deceptive mailer. Any invoice-style mailer for a recurring service should be checked against the organization\'s actual vendor records before payment, regardless of how official the letterhead looks.',
+    categorySlug: 'business-email-compromise',
+    country: 'US',
+    state: 'ND',
+    alertLevel: 'medium',
+    sources: ["North Dakota Attorney General's Office"],
+    sourceUrl: 'https://attorneygeneral.nd.gov/attorney-general-wrigley-announces-settlement-with-company-behind-deceptive-invoice-solicitations/',
   },
 ];
 
