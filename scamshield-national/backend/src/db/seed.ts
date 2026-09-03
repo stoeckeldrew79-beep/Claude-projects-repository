@@ -9721,6 +9721,10 @@ Before trusting any insurance claim, look up the company directly using the FDIC
     slug: 'real-estate-investment-seminar-coaching-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'real-estate-seminar-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Professional_Development_Seminar_(8261254).jpg?width=1200',
+    coverImageCredit: 'Photo: Airman 1st Class Jhade Herrera / U.S. Air Force (Public Domain)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2019/11/yet-another-real-estate-seminar-scam',
     body: `A postcard, infomercial, or social media ad invites you to a free local event, often fronted by a TV personality from a house-flipping show, promising to teach a "system" for making money in real estate with little or no cash of your own — buying distressed properties, wholesaling contracts, or flipping houses for fast profit. The event is free to attend, and that's deliberate: it isn't the product, it's the sales floor.
 
@@ -9737,6 +9741,10 @@ Before paying for any real estate training program, search the company's name al
     slug: 'credit-piggybacking-tradeline-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'tradeline-piggybacking-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Paying_with_a_Credit_Card_(28886645201).jpg?width=1200',
+    coverImageCredit: 'Photo: Adam Szuly (CC BY 2.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2022/05/ftc-acts-shut-down-credit-game-running-bogus-credit-repair-scheme-fleeced-consumers',
     body: `An ad promises to boost your credit score by 50, 100, or more points within thirty days, guaranteed — not by paying down debt or fixing errors, but by adding you as an "authorized user" on a stranger's credit card account with years of on-time payments and a low balance. The pitch is that the account's strong history will start showing up on your credit report too, priced per "tradeline" added, often running anywhere from a few hundred to several thousand dollars each.
 
@@ -9753,6 +9761,10 @@ Real, durable credit improvement comes from paying bills on time, keeping card b
     slug: 'ponzi-scheme-investment-fraud-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'ponzi-scheme'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Money_-_Flickr_-_Tracy_O.jpg?width=1200',
+    coverImageCredit: 'Photo: Tracy O (CC BY-SA 2.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.investor.gov/protect-your-investments/fraud/types-fraud/ponzi-scheme',
     body: `A Ponzi scheme doesn’t need a real business behind it at all — it just needs a steady stream of new money coming in. The mechanic is simple and always the same: money from newer investors is paid out to earlier investors as "returns," creating the appearance of a genuinely profitable investment, when in reality little or nothing is actually being invested anywhere. The scheme is named for Charles Ponzi, who ran a scam built on international postal reply coupons in 1920s Boston, but the structure predates him and has outlived him by a century, resurfacing in every era’s hot new asset class — real estate, oil and gas, and now crypto and AI trading bots.
 
@@ -9769,6 +9781,10 @@ Before investing with anyone, verify their registration through the SEC’s EDGA
     slug: 'fake-online-reviews-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'fake-online-reviews'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Person_works_on_laptop_while_holding_smartphone_in_living_room.jpg?width=1200',
+    coverImageCredit: 'Photo: Shixart1985 (CC BY 2.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2024/08/federal-trade-commission-announces-final-rule-banning-fake-reviews-testimonials',
     body: `A product page loaded with hundreds of glowing five-star reviews used to be a reasonably trustworthy signal. It no longer reliably is. An entire underground market exists to manufacture that appearance: private Facebook and Discord groups that recruit people to post five-star reviews in exchange for a free product or a cash payment, sellers who refund a purchase in full the moment a buyer posts a positive review, and, increasingly, AI tools that can generate hundreds of plausible, varied-sounding testimonials from reviewers who never touched the product at all.
 
@@ -9785,6 +9801,10 @@ Before trusting reviews on any purchase, check them across more than one indepen
     slug: 'section-8-housing-voucher-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'housing-voucher-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Visit_of_Secretary_Shaun_Donovan_to_Tampa,_Florida,_where_he_toured_the_Ella_(Senior_Residences,_the_first_completed_apartment_building_within_the_Encore_Housing_Development_(funded_-_DPLA_-_e5d92a5e70ec53074c9f9395ab035d8d.jpg?width=1200',
+    coverImageCredit: 'Photo: Jeff Blakley / HUD (Public Domain)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://hudoig.gov/fraud-prevention/section-8-housing-voucher-fraud-scheme',
     body: `The Housing Choice Voucher program, still widely known by its old name, Section 8, is the federal government’s largest rental assistance program for very low-income families, older adults, and people with disabilities, administered locally by public housing agencies (PHAs). Demand badly outstrips available vouchers in most cities, so waitlists frequently run years long and many PHAs close their lists to new applicants for long stretches at a time — conditions that create real desperation, and desperation is exactly what this scheme’s fraudsters are built to exploit.
 
@@ -9801,6 +9821,10 @@ Before responding to any waitlist notice or voucher-friendly listing, verify it 
     slug: 'forex-trading-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'forex-trading-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/No_Known_Restrictions_Trading_Floor,_New_York_Stock_Exchange_(Highsmith_LOC)_(6718386525).jpg?width=1200',
+    coverImageCredit: 'Photo: Carol M. Highsmith / Library of Congress (Public Domain)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.cftc.gov/LearnAndProtect/AdvisoriesAndArticles/CustomerAdvisory_MustKnowForex.html',
     body: `A stranger messages you on Instagram, WhatsApp, or a dating app, mentions almost in passing that they trade foreign currency for a living, and offers to teach you. Or an ad promotes an automated "forex robot" or a paid signal group that supposedly wins nearly every trade. Either way, the hook is a dashboard: an app or website that shows a modest deposit growing by eye-popping percentages within days. In the large majority of these cases there is no real trading happening at all — the balance is simply a number the fraudster controls and updates by hand, and any money deposited, often funneled through cryptocurrency specifically because it is hard to trace or reverse, goes straight into the fraudster's pocket rather than into any actual currency market.
 
@@ -9817,6 +9841,10 @@ If you believe you've been targeted or have already lost money to a forex tradin
     slug: 'auto-dealer-addon-loan-packing-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'auto-loan-packing'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Mazda_Car_Lot_Eastern_Avenue_-_geograph.org.uk_-_1152167.jpg?width=1200',
+    coverImageCredit: 'Photo: Paul Farmer (CC BY-SA 2.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.consumerfinance.gov/about-us/blog/overcharging-for-add-on-products-on-auto-loans/',
     body: `After you've agreed on a price for a car, the deal moves to the finance office, where a stack of paperwork appears fast and a rehearsed patter walks you through it. Buried in that stack are "add-on" products — Guaranteed Asset Protection (GAP) coverage, an extended service contract, paint and fabric protection, credit life or disability insurance, VIN etching — each adding hundreds or thousands of dollars to the loan's principal, and therefore to the interest charged on it over the life of the loan. The Consumer Financial Protection Bureau calls this practice "packing" when it happens without the buyer's clear, informed consent: products are presented as mandatory, pre-filled into the contract, or described as already "included" in the monthly payment the buyer was quoted, rather than offered and priced as the optional purchases they actually are.
 
@@ -9833,6 +9861,10 @@ If a dealer or lender packed products onto your loan without clear consent, refu
     slug: 'contract-for-deed-rent-to-own-home-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'contract-for-deed-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Suburban_house_-_Cambridge_-_geograph.org.uk_-_5505720.jpg?width=1200',
+    coverImageCredit: 'Photo: Mr Ignavy (CC BY-SA 2.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.consumerfinance.gov/about-us/newsroom/cfpb-takes-action-to-stop-contract-for-deed-investors-from-setting-borrowers-up-to-fail/',
     body: `For someone who can't qualify for a traditional mortgage — often because of thin or damaged credit, an inconsistent income history, or immigration status — a "rent-to-own" or "owner financing" home listing can look like the only door open to homeownership. Under a contract for deed, also called a land contract, the buyer moves in and makes monthly payments directly to the seller, but the seller keeps the legal deed until the full purchase price is paid off, often over 10, 15, or even 30 years. That structure isn't automatically fraudulent — but the Consumer Financial Protection Bureau has documented investor groups that buy distressed, sometimes uninhabitable properties cheaply, then resell them through contracts for deed at inflated prices with high implicit interest rates and a balloon payment the buyer is unlikely to ever be able to make.
 
@@ -9849,6 +9881,10 @@ If you're already in a contract-for-deed arrangement that looks predatory, or yo
     slug: 'adoption-fraud-scams-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'adoption-fraud'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Newborn_feet_nestled_gently_in_a_parent%27s_hand_highlighting_the_bond_of_love_and_care_at_home.jpg?width=1200',
+    coverImageCredit: 'Photo: Nenad Stojković (CC BY 2.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.fbi.gov/how-we-can-help-you/scams-and-safety/common-frauds-and-scams/adoption-fraud',
     body: `Adoption is expensive, emotionally exhausting, and often takes years — a combination that makes hopeful adoptive parents an unusually easy target. A prospective family is contacted, often online or through social media, and told a birth mother has chosen them: a due date is coming up, the match feels urgent, and the family is asked to start covering the birth mother's medical bills, rent, or living expenses right away to "secure" the placement. Money moves fast, sympathy runs high, and by the time anything looks wrong, thousands of dollars are already gone.
 
@@ -9865,6 +9901,10 @@ Anyone who suspects they're caught in a fraudulent adoption scheme — as a pros
     slug: 'do-not-call-registry-fee-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'do-not-call-registry-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/President_George_W._Bush_signs_the_Do_Not_Call_Registry_in_the_Roosevelt_Room.jpg?width=1200',
+    coverImageCredit: 'Photo: Eric Draper / The White House (Public Domain)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://consumer.ftc.gov/articles/national-do-not-call-registry-faqs',
     body: `A call, text, or online ad offers to add a phone number to the National Do Not Call Registry — for a fee. Sometimes it's framed as a one-time "processing" charge, sometimes as an annual "renewal" needed to keep protection active, and sometimes it shows up as a paid search ad sitting above the real, free government listing when someone searches for how to stop unwanted calls. Every version of this pitch is a scam: registering a phone number with the National Do Not Call Registry, run by the Federal Trade Commission, has never cost anything, has no expiration date, and requires no third-party company to process it.
 
@@ -9881,6 +9921,10 @@ Register directly and for free at DoNotCall.gov, and never through a link in a t
     slug: 'home-energy-audit-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'home-energy-audit-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Door-to-door-salesman.jpg?width=1200',
+    coverImageCredit: 'Photo: Worlee Glover (CC BY 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.bbb.org/article/scams/26879-scam-alert-home-energy-auditor-promising-to-save-you-money-be-careful',
     body: `A stranger knocks, claiming to represent a utility company or a government energy-efficiency program, offering a free home energy audit to check for leaks, drafts, or wasted electricity. They may carry a clipboard, a badge, or a lanyard that looks official, and the pitch usually leans on the idea that the visit was somehow scheduled or authorized by the homeowner's actual utility — even though the utility has no record of sending anyone. The Better Business Bureau has tracked this specific setup as a recurring seasonal scam, warning that the "free audit" is really just a way to get inside the house and in front of the homeowner for a sales pitch.
 
@@ -9897,6 +9941,10 @@ Before letting anyone in, call the phone number printed on an actual utility bil
     slug: 'mobile-phone-bill-cramming-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'cramming'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Black_smartphone_in_hand_(Unsplash).jpg?width=1200',
+    coverImageCredit: 'Photo: Dennis Cortés (CC0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.ftc.gov/news-events/topics/mobile-cramming',
     body: `A phone bill arrives a few dollars higher than usual, and buried among the taxes, fees, and regular service charges is a line item for something the account holder never ordered: a "premium text club," a horoscope or trivia subscription, a "voicemail-to-text" add-on, or a vaguely worded "membership" or "protection plan." The charge is small enough — often just $9.99 or so a month — that it's easy to miss on a bill most people scan for the total rather than read line by line, which is exactly what makes it profitable at scale. The FTC calls this practice cramming: placing unauthorized, misleading, or deceptive charges directly onto a consumer's phone bill.
 
@@ -9913,6 +9961,10 @@ Reviewing the itemized detail of every phone bill, not just the total due, is th
     slug: 'pension-advance-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'pension-advance-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Deposit_Into_Piggy_Bank_Savings_Account_(6093700157).jpg?width=1200',
+    coverImageCredit: 'Photo: Ken Teegardin (CC BY-SA 2.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.consumerfinance.gov/ask-cfpb/i-was-offered-a-pension-advance-what-is-this-what-should-i-look-out-for-en-1715/',
     body: `A retiree with a monthly pension — military, public-sector, or a private-sector defined-benefit plan — facing a medical bill, mounting debt, or a costly home repair is approached by a company offering a lump sum of cash right now in exchange for signing over some or all of their monthly pension payments for a set number of years, commonly five to ten. The pitch is framed as a "sale" of an asset the retiree already owns, not a loan, which sounds like a simple trade rather than a debt — and that framing is deliberate.
 
@@ -9929,6 +9981,10 @@ Before agreeing to any pension advance, get independent guidance from a nonprofi
     slug: 'energy-supplier-switching-slamming-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'energy-supplier-slamming'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/House_Meter_-_Flickr_-_Brian_in_Cleveland.jpg?width=1200',
+    coverImageCredit: 'Photo: Brian Cassidy (CC BY 2.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://ag.ny.gov/press-release/2022/attorney-general-james-sues-energy-service-company-overcharging-and-misleading',
     body: `In the roughly eighteen states plus Washington, D.C. that have deregulated retail electricity or natural gas markets, customers can legally choose an alternative energy service company (ESCO) to supply their power or gas instead of the default utility rate, while the local utility still owns the wires or pipes and handles delivery and billing. That real element of choice creates an opening for a different kind of scam than the shutoff-threat calls most utility scam warnings focus on: a door-to-door representative or telemarketer, sometimes wearing a vest or badge that looks official, or claiming an affiliation with the local utility, asks to see a copy of the customer's utility bill to "check eligibility for a discount" or "verify current savings." The real target isn't the discount — it's the account number printed on that bill.
 
@@ -9945,6 +10001,10 @@ Never hand a copy of a utility bill or read out an account number to an unsolici
     slug: 'car-title-loan-debt-trap-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'car-title-loan-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/LoanMax_Title_Loans_-_panoramio.jpg?width=1200',
+    coverImageCredit: 'Photo: Corey Coyle (CC BY 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.consumerfinance.gov/about-us/newsroom/cfpb-finds-one-five-auto-title-loan-borrowers-have-vehicle-seized-failing-repay-debt/',
     body: `A car title loan lets a borrower hand over their vehicle's title as collateral in exchange for quick cash, often within a single visit and with no credit check, since the lender's real security is the ability to repossess the car itself. The pitch is aimed squarely at people who need money fast and have few other options: no bank statement review, no proof of income beyond owning a car outright, sometimes cash in hand the same day. What the marketing rarely spells out clearly is the loan's true structure — a single balloon payment due in as little as 30 days, at a triple-digit annual percentage rate once every fee is counted, secured by an asset the borrower depends on to get to work.
 
@@ -9961,6 +10021,10 @@ Before signing over a car title, compare the loan's actual APR against a persona
     slug: 'buy-here-pay-here-repo-churning-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'buy-here-pay-here-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Used_car_lot_in_Lansingburgh,_New_York.jpg?width=1200',
+    coverImageCredit: 'Photo: Tyler A. McNeil (CC BY-SA 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.consumerfinance.gov/ask-cfpb/what-is-a-no-credit-check-or-buy-here-pay-here-auto-loan-or-dealership-en-887/',
     body: `A "buy-here-pay-here" (BHPH) dealership sells a used car and finances it in-house, with the buyer making payments directly to the same lot that sold them the car rather than to a bank or credit union. For someone with damaged or no credit who's been turned down everywhere else, the pitch is straightforward: no credit check, drive off today, make your payments right here. What isn't obvious from the sales floor is that at some BHPH lots, the financing terms aren't a byproduct of the sale — they're the entire business model, structured so that repossessing and reselling the same vehicle to a new buyer is often more profitable than any single loan being paid off in full.
 
@@ -9977,6 +10041,10 @@ Before signing, get pre-approved for financing through a bank or credit union fi
     slug: 'credit-card-interest-rate-reduction-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'interest-rate-reduction-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Credit-cards.jpg?width=1200',
+    coverImageCredit: 'Photo: Lotus Head (CC BY-SA 2.5)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://consumer.ftc.gov/articles/how-recognize-scams-lower-your-credit-card-interest-rate',
     body: `An unsolicited robocall opens with a recorded voice claiming to be from "cardholder services" or "card member services" — vague enough to sound like it could be affiliated with any bank — announcing that the recipient qualifies for a lower credit card interest rate and just needs to press 1 to speak with a specialist. The call sounds urgent but routine, the kind of automated security or benefits message that legitimate banks and card issuers do send from time to time, which is exactly the resemblance the scam is built to exploit. Pressing 1 connects to a live salesperson who walks through a pitch: for an upfront fee, often running from several hundred dollars up to nearly $5,000, the company will negotiate a dramatically lower interest rate on the caller's credit cards, promising thousands of dollars in savings.
 
@@ -9993,6 +10061,10 @@ Never provide a credit card number, bank account information, or any payment to 
     slug: 'odometer-rollback-fraud-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'odometer-rollback-fraud'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/123,456_kilometres!_(7948500820).jpg?width=1200',
+    coverImageCredit: 'Photo: Riley / NZ Car Freak (CC BY 2.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.nhtsa.gov/press-releases/consumer-advisory-nhtsa-tips-protect-against-odometer-fraud',
     body: `A used car listed with a suspiciously low mileage reading isn't always a lucky find — it can be a vehicle whose odometer has been deliberately rolled back to hide how far it's actually been driven. On older cars with mechanical odometers, this meant physically disconnecting the cable and spinning the numbers backward by hand. Today's digital odometers are supposed to make that harder, but a market of cheap devices that plug into a car's onboard diagnostic (OBD) port can reprogram the mileage stored in its computer in minutes, leaving no obvious physical sign that anything was tampered with. NHTSA estimates that more than 450,000 vehicles are sold in the United States each year with false odometer readings, costing American car buyers well over $1 billion annually in inflated prices and vehicles that need repairs far sooner than their odometer suggests.
 
@@ -10009,6 +10081,10 @@ Before buying any used car, compare the current odometer reading against the mil
     slug: 'office-supply-toner-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'office-supply-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Samsung_laser_toner_cartridge_front_view.jpg?width=1200',
+    coverImageCredit: 'Photo: W.carter (CC BY-SA 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.ftc.gov/business-guidance/blog/2017/07/billed-office-supplies-you-didnt-order-dont-pay',
     body: `A call comes into a small business, a church, a school, or a nonprofit office, and whoever happens to answer the phone hears something that sounds routine: a "vendor" claiming to be confirming an existing order, checking whether the copier toner or cleaning supplies on file still match what's needed, or offering a "free sample" or catalog with no obligation to buy. The call is deliberately vague and low-pressure, aimed at whoever picks up rather than an owner or purchasing manager, and it's designed to produce something — anything — that sounds like agreement to a loosely worded question, even when no actual purchase was intended.
 
@@ -10025,6 +10101,10 @@ The law is unambiguous here: federal law treats unordered merchandise sent to a 
     slug: 'cash-for-gold-mail-in-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'cash-for-gold-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Gold_bullion_bars.jpg?width=1200',
+    coverImageCredit: 'Photo: Stevebidmead (CC0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.bbb.org/article/news-releases/23336-bbb-tip-selling-gold',
     body: `Mail-in "cash for gold" companies advertise heavily on late-night TV, radio, and social media with a simple pitch: request a free, prepaid envelope or shipping kit, mail in old jewelry, coins, or scrap gold, and receive a check based on the current market price soon after. The convenience is real — no need to visit a pawn shop or local buyer in person — but that same convenience removes every safeguard an in-person sale would normally offer, since once a package is mailed, the seller has no way to watch the item be weighed, tested, or assessed, and no leverage to negotiate before the company sends its offer.
 
@@ -10041,6 +10121,9 @@ Before mailing anything, get a baseline value: check the current spot price of g
     slug: 'gift-card-draining-rack-tampering-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'gift-card-draining'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Roblox_gift_cards.jpg?width=1200',
+    coverImageCredit: 'Photo: User 3df (CC BY-SA 4.0)',
+    coverImagePosition: 50,
     sourceUrl: 'https://consumer.ftc.gov/articles/avoiding-and-reporting-gift-card-scams',
     body: `Most gift card warnings focus on scammers demanding a card as payment, but a separate scheme targets the cards themselves before anyone even buys them. Gift card draining starts at the rack in a retail store, where the cards hang unactivated behind a thin printed backing that reveals the card number and PIN once scratched off. A scammer working the rack peels back or scratches off that covering on a handful of cards, photographs or copies down the numbers, then carefully reseals the packaging — sometimes with a fresh sticker or a bit of glue — and slides the card back onto the rack, indistinguishable from any other card a shopper might grab.
 
@@ -10057,6 +10140,10 @@ Buy gift cards from behind the checkout counter or directly from a retailer's of
     slug: 'zombie-debt-time-barred-collection-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'zombie-debt'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Mailing_Letters.jpg?width=1200',
+    coverImageCredit: 'Photo: Smithsonian National Postal Museum (Public Domain)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://consumer.ftc.gov/articles/debt-collection-faqs',
     body: `Every state sets a statute of limitations on debt — typically somewhere between three and ten years, depending on the type of debt and the state — after which a creditor or debt collector can no longer sue a person to force payment. Debt that has aged past that deadline is often called "time-barred," and once it's been charged off and resold, it becomes what's known in the industry as zombie debt: an old, sometimes decades-old balance, frequently already paid off, discharged in bankruptcy, or simply too old to legally enforce, that keeps getting bought and resold between debt buyers for pennies on the dollar and pursued as if it were fresh.
 
@@ -10073,6 +10160,10 @@ Anyone contacted about an old debt should ask for validation in writing — fede
     slug: 'auto-repair-shop-unnecessary-work-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'auto-repair-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Car_mechanic_worker_repairing_suspension_of_lifted_automobile_at_auto_repair_garage_shop.jpg?width=1200',
+    coverImageCredit: 'Photo: Nenad Stojković (CC BY 2.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://consumer.ftc.gov/articles/0211-auto-repair-basics',
     body: `Car repair is one of the few major purchases most people make without being able to verify the work themselves — a customer can watch a mechanic hand over a bill listing new brake pads, a replaced sensor, or hours of diagnostic labor, but has no real way to confirm the parts were actually new, the sensor was actually replaced, or the hours billed reflect the work performed. That information gap is what a dishonest repair shop is built to exploit, and it shows up in a handful of recurring patterns rather than one single trick.
 
@@ -10089,6 +10180,10 @@ Get a written estimate before any work begins and insist it lists parts, labor h
     slug: 'medical-identity-theft-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'medical-identity-theft'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Medical_records_La_Junta_Hospital_CO_(24237261305).jpg?width=1200',
+    coverImageCredit: 'Photo: Mennonite Church USA Archives (Public Domain)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://consumer.ftc.gov/articles/what-know-about-medical-identity-theft',
     body: `Medical identity theft happens when someone uses another person's name, Social Security number, health insurance ID, or Medicare number to receive medical care, fill a prescription, buy medical equipment, or bill an insurer — and unlike a stolen credit card, the damage isn't just financial. A thief's diagnoses, treatments, allergies, and blood type can end up mixed into the real patient's medical chart, creating a permanent record that can affect future care long after any fraudulent charges are sorted out. The information needed to pull this off is often easy to come by: a stolen wallet, a data breach at a hospital or insurer, a dishonest clinic employee, or a scammer who simply calls and talks a patient into reading off their Medicare number over the phone.
 
@@ -10105,6 +10200,10 @@ The FTC recommends creating a personalized recovery plan at IdentityTheft.gov, w
     slug: 'genetic-testing-medicare-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'genetic-testing-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Home_DNA_Testing_Kit_Tube_(47400098641).jpg?width=1200',
+    coverImageCredit: 'Photo: Tony Webster (CC BY 2.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://oig.hhs.gov/fraud/consumer-alerts/fraud-alert-genetic-testing-scam',
     body: `A booth at a health fair, a table set up in a grocery store parking lot, or an unsolicited phone call offers something that sounds like a genuine perk of having Medicare: a free genetic test that can reveal a predisposition to cancer, heart disease, or other serious conditions, no cost and no doctor's visit required. All that's asked in return is a cheek swab and a Medicare number to "process" the kit — a request that sounds like routine paperwork but is actually the entire point of the scheme.
 
@@ -10121,6 +10220,10 @@ Never give a Medicare number to anyone who calls, texts, or approaches in person
     slug: 'social-media-tax-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'social-media-tax-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Portion_of_IRS_Form_1040_for_2012,_showing_the_OMB_Control_Number.png?width=1200',
+    coverImageCredit: 'Source: Internal Revenue Service (Public Domain)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.irs.gov/newsroom/misleading-social-media-advice-leads-to-false-claims-for-fuel-tax-credit-sick-and-family-leave-credit-household-employment-taxes-faqs-help-address-common-questions-next-steps-for-those-receiving-irs',
     body: `A short video promises a little-known "loophole" that can put thousands of dollars in a viewer's pocket: claim a credit almost nobody has heard of, fill out a specific tax form, and file for a refund the IRS supposedly doesn't want people to know about. Unlike most scams in this guide, nobody is asking for money up front and no scammer is impersonating an agency official — the "scam" is bad information itself, packaged to look like an insider tip, and the person who acts on it becomes the one who ends up owing the IRS money rather than the other way around.
 
@@ -10137,6 +10240,10 @@ Before claiming any credit encountered on social media, check its actual eligibi
     slug: 'rental-assistance-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'rental-assistance-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Residential_buildings_with_%22For_Rent%22_signs_on_an_unidentified_street.jpg?width=1200',
+    coverImageCredit: 'Photo: Missouri History Museum (Public Domain)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2021/01/avoid-scammers-offering-pay-your-rent',
     body: `A renter behind on payments and facing eviction is exactly the person a legitimate assistance program exists to help — local and state emergency rental assistance programs, funded in part through federal dollars administered by HUD and the Treasury Department, cover back rent and utility bills for households that qualify. That same desperation is also what a scammer is counting on, because someone staring down a court date rarely has the time or composure to slow down and verify who's actually on the other end of a call, text, or social media message offering to make the problem disappear.
 
@@ -10153,6 +10260,10 @@ Anyone facing eviction should go directly to their local public housing agency o
     slug: 'self-directed-ira-fraud-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'self-directed-ira-fraud'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Pink_Piggy_Bank_(5737823348).jpg?width=1200',
+    coverImageCredit: 'Photo: Ken Teegardin (CC BY-SA 2.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.finra.org/investors/insights/self-directed-IRAs-risk-of-fraud',
     body: `A self-directed IRA is a real, legal retirement account that lets an owner hold assets a conventional 401(k) or brokerage IRA won't touch — real estate, private company shares, promissory notes, tax lien certificates, precious metals, and cryptocurrency among them. That flexibility is also the opening a promoter exploits: because the account itself sounds like a sophisticated, custodian-backed financial product, a fraudulent investment pitched through one can borrow an air of legitimacy that the same pitch, made directly, would never earn on its own.
 
@@ -10169,6 +10280,10 @@ Before moving retirement funds into a self-directed IRA, verify both the custodi
     slug: 'deferred-interest-medical-credit-card-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'medical-credit-card-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Fotothek_df_roe-neg_0006274_004_Zahn%C3%A4rztin_mit_Patient_w%C3%A4hrend_der_Behandlung.jpg?width=1200',
+    coverImageCredit: 'Photo: Roger & Renate Rössing / Deutsche Fotothek (CC BY-SA 3.0 DE)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.consumerfinance.gov/about-us/blog/whats-the-deal-with-health-care-credit-cards-four-things-you-should-know/',
     body: `A dental office, veterinary clinic, or elective medical provider quotes a bill the patient can't pay all at once, then offers an easy fix right at the front desk: apply for a special health care credit card, get approved in minutes, and pay "no interest" for a promotional period — often six, twelve, or eighteen months. The application happens in the middle of an appointment, sometimes while a patient is anxious about a diagnosis or in pain, which is precisely the moment least suited to reading the fine print on a financial product that behaves very differently from an ordinary credit card.
 
@@ -10185,6 +10300,10 @@ Before signing up for a health care credit card at the point of care, ask for th
     slug: 'pace-home-improvement-financing-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'pace-financing-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Solar_Energy_Roof_Solar_Power_Generation_2666770_CC0.jpg?width=1200',
+    coverImageCredit: 'Photo: Roy Bury (CC0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2022/10/ftc-california-act-stop-ygrene-energy-fund-deceiving-consumers-about-pace-financing-placing-liens',
     body: `A contractor going door to door for solar panels, a new roof, HVAC replacement, or energy-efficient windows offers what sounds like an easy way to pay: financing through a Property Assessed Clean Energy, or PACE, program, approved on the spot with little regard to income or credit score and repaid through an addition to the homeowner's property tax bill. The pitch leans on the fact that PACE is a real, government-authorized financing tool in dozens of states, which lets a contractor's sales patter borrow legitimacy a private loan pitch couldn't. What often goes unsaid is what that financing structure actually does to the home's legal standing once the paperwork is signed.
 
@@ -10201,6 +10320,10 @@ Before signing anything, a homeowner should ask for a full written breakdown of 
     slug: 'patient-brokering-addiction-treatment-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'patient-brokering-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Norderney,_Klinik_Norderney_(Rehaklinik)_--_2025_--_9006.jpg?width=1200',
+    coverImageCredit: 'Photo: Dietmar Rabich (CC BY-SA 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://oig.hhs.gov/fraud/enforcement/california-addiction-treatment-facility-operator-convicted-of-paying-nearly-29m-in-illegal-kickbacks/',
     body: `Patient brokering targets people in one of the most vulnerable moments of their lives: actively seeking help for a substance use disorder. A "body broker" or patient recruiter — sometimes found through a slick online treatment-finder ad, sometimes working the halls of Alcoholics Anonymous meetings, homeless shelters, or even other treatment programs — offers a person in active addiction free airfare, a free phone, cash, gift cards, or even drugs to travel to a specific treatment center or "sober living" home, usually in a state with lax licensing and rich private insurance reimbursement rates. The recruiter isn't acting out of compassion; they're paid a fee, often ranging from a few hundred to several thousand dollars per person, by the facility they deliver the patient to.
 
@@ -10217,6 +10340,10 @@ Before choosing a facility, verify its state licensing directly with the state's
     slug: 'predatory-towing-impound-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'predatory-towing-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Tow_Truck_-_Minneapolis_Impound_Lot_-_Snow_Emergency_(24671533572).jpg?width=1200',
+    coverImageCredit: 'Photo: Tony Webster (CC BY-SA 2.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://ag.ny.gov/press-release/2022/attorney-general-james-sues-predatory-towing-company-cheating-and-harassing-new',
     body: `A driver parks briefly in a lot, steps away for a few minutes, and returns to find the car gone — towed by a company that patrols private lots looking for any vehicle it can plausibly claim to remove, rather than responding to a call from the property owner. Some predatory towing operators tow cars whose owners are still on the scene and willing to move them immediately; others target vehicles that were only idling, or park in places where required signage is missing, faded, or posted somewhere a driver would never see it. Because the tow happens fast, before there's any real chance to object, the driver's only path back to their own car runs entirely through the towing company's lot, on the towing company's terms.
 
@@ -10233,6 +10360,10 @@ Before paying, a driver should photograph the lot, any signage (or its absence),
     slug: 'card-testing-fraud-small-charges-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'card-testing-fraud'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Bunch_of_credit_cards_(49860171753).jpg?width=1200',
+    coverImageCredit: 'Photo: Yuri Samoilov (CC BY 2.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2017/08/payments-you-didnt-authorize-could-be-scam',
     body: `Someone buying a batch of stolen card numbers off a dark web marketplace — or generating plausible ones by chaining a stolen bank identification number through the same checksum formula issuers use to validate real cards — doesn't actually know which numbers still work. Some were already canceled after a breach; others were never valid to begin with. Rather than risk a big purchase on a dead card, criminals run each candidate through a "test" first: a wave of very small transactions, often a few cents to a few dollars, pushed through checkout flows with weak fraud screening — nonprofit donation pages, subscription sign-up forms, and small online stores are favorite targets because they're built for speed and rarely challenge a first-time buyer the way a large purchase would.
 
@@ -10249,6 +10380,10 @@ Reviewing a statement line by line rather than skimming the total is the single 
     slug: 'fake-government-auction-website-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'government-auction-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Commercial_Vehicle_Auction_site_-_geograph.org.uk_-_2438246.jpg?width=1200',
+    coverImageCredit: 'Photo: Jonathan Thacker (CC BY-SA 2.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.bbb.org/article/scams/26574-bbb-scam-alert-dont-place-that-bid-be-sure-its-not-an-auction-scam',
     body: `Government agencies really do auction off surplus and forfeited property — GSA Auctions sells federal surplus equipment and vehicles at gsaauctions.gov, the U.S. Marshals Service periodically auctions seized assets from criminal cases, and county sheriffs and municipalities regularly sell impounded or forfeited vehicles, often through platforms like GovDeals. These sales are genuine bargains because the government's goal is disposing of property, not maximizing profit. That real, well-known fact is exactly what makes it a useful cover story: scammers build professional-looking copycat sites, complete with government seals and official-sounding language, sometimes describing themselves as an "authorized partner," and list name-brand cars, boats, and electronics at prices set just low enough to feel like a lucky find rather than an obvious con.
 
@@ -10265,6 +10400,10 @@ Anyone who's already paid should contact their bank or card issuer immediately t
     slug: 'forced-labor-scam-compound-trafficking-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'scam-compound-trafficking'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Raided_gang-run_internet_%E2%80%98scam_farm%E2%80%99_in_Manila,_the_Philippines_(53832317605).jpg?width=1200',
+    coverImageCredit: 'Photo: Laura Gil / UNODC (CC BY 2.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.fincen.gov/system/files/shared/FinCEN_Alert_Pig_Butchering_FINAL_508c.pdf',
     body: `A meaningful share of the romance-investment ("pig butchering"), crypto, and job-offer scams reaching American phones and inboxes trace back to something the person on the other end of the chat rarely lets on: large, guarded compounds across Southeast Asia — documented in Cambodia, Myanmar, and Laos — where many of the people typing the scripted messages aren't willing criminals at all, but trafficking victims forced to work under threat of violence. The Treasury Department's Financial Crimes Enforcement Network warned banks explicitly in a 2023 alert that pig butchering operations are "frequently perpetrated" using victims of forced labor, and in 2025 the Justice Department indicted the chairman of Cambodia's Prince Group for operating scam compounds that ran cryptocurrency fraud schemes, an action paired with a Treasury sanctions package and one of the largest cryptocurrency seizures on record.
 
@@ -10281,6 +10420,10 @@ Anyone considering an overseas job offer should verify the employer independentl
     slug: 'home-equity-sharing-agreement-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'home-equity-sharing-agreement-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/House_on_suburban_street_in_Sunshine,_Victoria.jpg?width=1200',
+    coverImageCredit: 'Photo: Philip Mallis (CC BY-SA 2.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.consumerfinance.gov/data-research/research-reports/issue-spotlight-home-equity-contracts-market-overview/',
     body: `A company offers a homeowner a lump sum of cash — often tens of thousands of dollars — in exchange for a share of the home's future value, with no monthly payments and no interest rate. It's pitched as a way to tap home equity without taking on debt, aimed heavily at retirees on fixed incomes and homeowners with credit scores too low to qualify for a home equity loan or HELOC. Because there's no monthly bill and no loan document that says "interest," the pitch feels fundamentally different from borrowing money. Legally and financially, it isn't: the homeowner still owes a lump sum back, usually within 10 to 30 years or whenever the house is sold or refinanced, and that repayment amount is set by a formula built into the contract, not by anything the homeowner controls.
 
@@ -10297,6 +10440,10 @@ Anyone considering one of these agreements should get a second, more conventiona
     slug: 'peer-to-peer-car-sharing-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'car-sharing-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Someone_handing_a_key_over.jpg?width=1200',
+    coverImageCredit: 'Photo: Kaboompics (CC0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.bbb.org/all/auto/renting-sharing-cars/renting-a-car',
     body: `Apps like Turo and Getaround let car owners rent out their personal vehicles directly to strangers, cutting out the traditional rental counter — and cutting out a lot of the built-in protections that come with it. The scams that grow out of this arrangement run in both directions. Renters get hit with damage claims filed days or weeks after a trip ends, for dents, scratches, or interior stains the host can't prove happened during the rental, along with toll and parking-violation charges for roads the renter never drove or citations issued after the car was already returned. Because the claim is submitted through the platform well after the keys were handed back, a renter with no dated photos of the car's condition has almost nothing to push back with.
 
@@ -10313,6 +10460,10 @@ Before renting or listing a car on one of these apps, read the specific insuranc
     slug: 'life-settlement-viatical-investment-fraud-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'life-settlement-viatical-fraud'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Metropolitan_Life_Insurance_Company_Tower.jpg?width=1200',
+    coverImageCredit: 'Photo: Kidfly182 (CC BY 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/life',
     body: `A life settlement lets someone sell their existing life insurance policy to a third party for a lump sum that's more than the policy's cash-surrender value but less than its full death benefit — the buyer then takes over the premium payments and collects the full payout when the original policyholder dies. A viatical settlement is the same structure applied to a terminally or chronically ill policyholder, historically marketed as a way for someone facing a short life expectancy to get cash from a policy they'd otherwise never live to use. Both are legal, regulated products in most states. Both have also been the vehicle for large, well-documented investment frauds that recruit ordinary investors — often retirees looking for a steady, "safe" return — to fund the purchase of pooled policies.
 
