@@ -6795,6 +6795,34 @@ Her earliest frauds, in the 1860s and 1870s, were straightforward: posing under 
 Baillie's frauds caught up with her repeatedly, and each time she simply resumed under a new name once she was free. She was first imprisoned in 1872, serving nine months for obtaining goods by false pretenses, then convicted again in the late 1870s and sentenced to five years' penal servitude for a larger confidence fraud. Her final recorded arrest came in Scotland in 1888, by which point the accumulated weight of her convictions brought a cumulative sentence of roughly twelve years. On her release around 1900, by then in her fifties, she is recorded as having adopted yet another new identity — reportedly assuming an American persona — before disappearing from the historical record entirely; no further trace of her life or death has been established. Her career is remembered today as a case study in how an itinerant swindler could keep fleecing an entire country for decades before instant communication and shared criminal records existed, moving on to a fresh town, a fresh title, and a fresh set of victims each time the last town caught on.`,
     sourceUrl: 'https://en.wikipedia.org/wiki/Annie_Gordon_Baillie',
   },
+  {
+    title: 'Belle Gunness: The Lonely Hearts Scam That Became a Serial Murder Case',
+    slug: 'belle-gunness-lonely-hearts-insurance-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Belle Gunness, born Brynhild Paulsdatter Størseth in Norway in 1859, immigrated to the United States in 1881 and eventually settled on a farm outside La Porte, Indiana. Long before she became one of the most prolific killers in American history, she was running a financial fraud: collecting life insurance payouts from the deaths of people close to her. Her first husband, Mads Sorenson, died in 1900 on the one day two overlapping life insurance policies on him happened to both be in effect, netting her roughly $8,500. Her second husband, Peter Gunness, died eight months into their 1902 marriage, allegedly when a meat grinder fell from a shelf and struck his head; she collected another payout. Both deaths were ruled accidental at the time.
+
+Around 1905, Gunness escalated the scheme into something far more systematic. She began placing "lonely hearts" advertisements in Norwegian-language newspapers across the Midwest, describing herself as a prosperous widow with a fine farm, seeking a husband of means — and specifying that "triflers need not apply," a coded instruction that suitors should arrive with their savings in hand. Men answered from across the country, often selling farms or withdrawing life savings before traveling to La Porte to meet her. Once there, guests routinely disappeared. Investigators would later determine that Gunness killed her suitors, typically with poison or a blow to the head, then dismembered the bodies and buried them around her property, sometimes disposing of the remains in the farm's hog pen. Andrew Helgelien, one victim, had wired her $2,900 of his savings just before he vanished.
+
+The scheme unraveled on April 28, 1908, when Gunness's farmhouse burned to the ground. Inside investigators found the headless bodies of her three children and an adult woman initially presumed to be Gunness herself. Digging that followed unearthed the remains of at least eleven more victims buried across the property, alongside jewelry, personal effects, and correspondence tying still more missing men to the farm. Her hired hand, Ray Lamphere, was tried and convicted of arson; he later claimed Gunness had planned the fire herself and had killed a woman to leave a body behind that could pass, superficially, as her own.
+
+Whether Belle Gunness actually died in that fire has never been conclusively settled. The headless corpse recovered from the ruins was missing several key identifying features, weighed considerably less than contemporary accounts put Gunness's weight at, and its identification rested heavily on a dental bridge her dentist said he recognized amid the debris — evidence some investigators at the time considered plantable. Reported sightings of Gunness continued for years afterward across the Midwest, and a 2007-2008 exhumation and DNA analysis of the presumed remains proved inconclusive. Estimates of her total victim count range from around a dozen confirmed dead to as many as forty. The case endures as an early, extreme illustration of a fraud pattern that predates the internet by a century and never went away: a scam built entirely on a lonely person's hope of finding both love and financial security in one advertisement, the same emotional lever behind the romance scams that now drain victims of billions of dollars a year.`,
+    sourceUrl: 'https://en.wikipedia.org/wiki/Belle_Gunness',
+  },
+  {
+    title: "Breifne O'Brien: The Celtic Tiger Socialite Who Ran a Ponzi Scheme on His Own Friends",
+    slug: 'breifne-obrien-ireland-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Breifne O'Brien was a fixture of Dublin high society during Ireland's Celtic Tiger boom — a Trinity College-educated businessman who drove an Aston Martin, kept a golfing villa in Barbados, an apartment on Dalkey's Vico Road, and a family home in Glenageary, and moved easily among a circle of wealthy friends dating back to his university years. That circle became his client list. Beginning in the early 2000s, O'Brien began pitching friends and extended family on investment opportunities he claimed to have access to: property deals in Paris, Manchester, and Hamburg, including a purportedly prestigious address near the Place Vendôme, along with a shipping insurance venture. To lend the pitches credibility, he fabricated letters that appeared to come from respected international businessmen and lawyers, and told investors he needed their money on deposit temporarily to demonstrate available funds to other parties in the deals.
+
+None of the deals existed. Money that came in from new investors was used to quietly repay earlier investors' returns — the classic mechanic of a Ponzi scheme — while a substantial share was diverted straight into O'Brien's own lifestyle: a home extension, a car for his wife, the deposit and stamp duty on property purchases, and the upkeep of nearly 100 bank accounts he used to move funds around and obscure where the money was actually going. Because his victims were personal friends who trusted him from decades of relationships rather than strangers responding to a cold pitch, few of them checked his claims independently, and some continued lending him money even after growing suspicious, reluctant to believe someone they'd known that long could be lying to them.
+
+The scheme finally came apart in 2008, when O'Brien could no longer keep the payments to earlier investors flowing and admitted to a group of them that he could not repay what he owed. Ireland's Garda Síochána Fraud Squad opened an investigation, and the scale of the deception became clear: prosecutors said his victims, many of them close friends, had lost sums totaling more than €10 million. In court, O'Brien was described as having called his own investors "suckers" — a detail that underscored how deliberately he had exploited relationships built on trust rather than any real financial expertise.
+
+O'Brien pleaded guilty to theft and deception charges and, on October 8, 2014, was sentenced to seven years in prison; the Court of Appeal upheld the sentence in December 2015, and he was declared bankrupt by Ireland's High Court in 2016. He was released on parole in May 2018 after serving roughly half his term. Irish media dubbed him "Ireland's Bernie Madoff," and his case remains one of the country's clearest examples of affinity fraud — the pattern in which a con artist's real product isn't a fake investment at all, but the trust of people who have known him for years and simply can't imagine he'd steal from them.`,
+    sourceUrl: "https://en.wikipedia.org/wiki/Breifne_O'Brien",
+  },
 ];
 
 // Practical "how it works / red flags / what to do" guides covering the
@@ -27441,6 +27469,42 @@ const SEED_SCAMS: SeedScam[] = [
     alertLevel: 'high',
     sources: ['West Virginia Attorney General\'s Office', 'FEMA'],
     sourceUrl: 'https://ago.wv.gov/article/scam-alert-attorney-general-mccuskey-warns-west-virginians-about-fema-scams',
+  },
+  {
+    name: 'Fake Arkansas Court Traffic Citation Text Scam',
+    slug: 'arkansas-fake-court-traffic-citation-text-scam',
+    description:
+      'Arkansans have been receiving unsolicited text messages claiming to come from the state court system, warning that the recipient has an unpaid traffic citation and including a fabricated case number, a named judge, and a firm deadline to respond before penalties like license suspension or an arrest warrant kick in. The messages pressure the recipient to tap an embedded link to "resolve" the citation or pay the supposed fine immediately, exploiting the same urgency and borrowed authority as fake toll-road and jury-duty texts that have circulated in the state. The Arkansas Attorney General\'s Office issued a consumer alert on April 7, 2026 stating plainly that "Arkansas courts will not send unsolicited text messages demanding payment or directing you to click a link to resolve a citation," and warned that the invented case numbers and judge names are designed to make the message look like it came from a real docket. Recipients are advised not to click any link or reply to the text, to report and delete the message, and to verify any claimed citation by contacting their local court clerk directly using a phone number looked up independently rather than one in the text; suspected scams can also be reported to the Arkansas Attorney General\'s Office at (501) 682-2007 or to the FBI\'s Internet Crime Complaint Center at ic3.gov.',
+    categorySlug: 'government-impersonation',
+    country: 'US',
+    state: 'AR',
+    alertLevel: 'medium',
+    sources: ["Arkansas Attorney General's Office"],
+    sourceUrl: 'https://arkansasag.gov/news-release/consumer-alert-scammers-claiming-to-be-court-system-target-arkansans-via-text-with-fake-traffic-citations/',
+  },
+  {
+    name: 'Central Maine Power Door-to-Door and Prepaid-Card Impersonation Scam',
+    slug: 'maine-central-maine-power-door-to-door-prepaid-card-scam',
+    description:
+      'Fraudsters posing as Central Maine Power representatives have been targeting the utility\'s customers across Maine through three channels at once — unannounced doorstep visits, phone calls with spoofed caller ID that displays as CMP, and email — using a mix of tactics documented in a company alert first issued in January 2025 and renewed after continued reports in March 2026. The impersonators tell customers their account shows a past-due balance and threaten same-day disconnection unless they pay immediately with a prepaid debit card, claim a meter needs a paid "upgrade" and demand cash or a prepaid card on the spot, or say a recent payment failed due to a "system glitch" and ask for banking details to reprocess it; some doorstep visits go further, asking to see a copy of the customer\'s bill or account information, or asking to come inside to use a computer. CMP says it will never ask to view a bill or account information at the door, never has an employee ask to enter a home to access a computer, never photographs a customer\'s bill, never solicits customers with door-to-door discount offers, and never demands payment by prepaid debit card or any other non-refundable method. "Scammers are becoming more sophisticated, and the best defense is staying alert," said CMP Vice President of Customer Service Mike Morisette, adding that legitimate CMP employees always carry a visible ID badge and arrive in a CMP-branded vehicle. Customers who are approached in person, by phone, or by email are urged to hang up, close the door, or stop replying and instead call CMP\'s own customer service line at 1-800-750-4000 to verify whether the contact was genuine, and to report suspected scams to CMP, local law enforcement, and the FTC at ReportFraud.ftc.gov.',
+    categorySlug: 'utility-scams',
+    country: 'US',
+    state: 'ME',
+    alertLevel: 'medium',
+    sources: ['Central Maine Power', 'WGME', 'NewsCenter Maine'],
+    sourceUrl: 'https://www.newscentermaine.com/article/news/local/public-safety/central-maine-power-warns-of-aggressive-scams-impersonations-text-mail/97-8a633afc-4843-4d76-be03-40b6079e0865',
+  },
+  {
+    name: 'New Jersey SNAP/EBT "Card Unlock" Shutdown Scam',
+    slug: 'new-jersey-snap-ebt-card-unlock-shutdown-scam',
+    description:
+      'As the federal government shutdown left New Jersey SNAP recipients anxious about whether benefits would keep arriving in late 2025, scammers began placing unsolicited calls and texts posing as SNAP or other government representatives offering to "unblock or unlock" an EBT card, verify eligibility, or otherwise help secure benefits — then asking for the recipient\'s EBT card number, PIN, Social Security number, or bank account information, and in some versions charging a fee for the supposed help. New Jersey Attorney General Matthew J. Platkin and the Division of Consumer Affairs issued a joint consumer alert on November 3, 2025 warning residents that legitimate SNAP assistance is always free and that the state never asks for this information by unsolicited phone call or text. "Scammers know that people are most vulnerable during times of fear and uncertainty," said Elizabeth M. Harris, the Division\'s Acting Director, urging recipients not to share EBT card details with anyone who contacts them first, to disregard unsolicited offers of benefits help, to check their EBT account regularly at NJFamiliesFirst.com or by calling 1-800-997-3333, and to change their PIN monthly and immediately after any sign of unauthorized activity. Suspected scams should be reported to county social services or the Division of Consumer Affairs.',
+    categorySlug: 'public-benefits-fraud',
+    country: 'US',
+    state: 'NJ',
+    alertLevel: 'medium',
+    sources: ['New Jersey Office of the Attorney General', 'New Jersey Division of Consumer Affairs'],
+    sourceUrl: 'https://www.njoag.gov/ag-platkin-division-of-consumer-affairs-warn-new-jerseyans-to-beware-of-potential-scams-targeting-supplemental-nutrition-assistance-program-snap-recipients-amid-federal-government-shutdown/',
   },
 ];
 
