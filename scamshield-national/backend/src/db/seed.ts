@@ -23924,6 +23924,44 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Georgia Secretary of State'],
     sourceUrl: 'https://sos.ga.gov/news/raffensperger-announces-agreement-get-more-40-first-liberty-victims-their-money-back',
   },
+  {
+    name: 'Walcott Insurance Agent Family-Identity-Theft Policy Scheme',
+    slug: 'iowa-walcott-agent-identity-theft-insurance-fraud',
+    description:
+      'Stanly Blythe, a 61-year-old licensed insurance agent in Walcott, Iowa, allegedly used his access to family members\' personal information to open insurance policies in their names without their knowledge, forging their signatures on the application paperwork so the policies would appear legitimate. Between February 2024 and January 2025, the Iowa Insurance Division\'s Fraud Bureau found, Blythe opened policies on at least 11 family members this way, generating or attempting to generate more than $36,000 in commissionable premiums for himself. He was arrested on June 26, 2026, and charged with 24 counts including ongoing criminal conduct, fraudulent sales practice, forgery, and identity theft, held on $75,000 cash-only bond. The case is a reminder that an insurance producer\'s access to a family member\'s Social Security number and other identifying information is a standing opportunity for this kind of fraud — anyone who might be a relative, close friend, or client of a producer should periodically pull their own credit report and contact their state insurance department directly to check whether any policy exists in their name that they never applied for.',
+    categorySlug: 'insurance-fraud',
+    country: 'US',
+    state: 'IA',
+    alertLevel: 'high',
+    sources: ['Iowa Insurance Division'],
+    sourceUrl: 'https://iid.iowa.gov/press-release/2026-07-02/walcott-insurance-agent-charged-23-felonies-identity-theft-insurance-fraud-scheme',
+  },
+  {
+    name: 'Jesse Wayne Harris Real Estate and Concrete Ponzi Scheme',
+    slug: 'kansas-jesse-harris-ponzi-scheme',
+    description:
+      'Starting in 2016, Wichita resident Jesse Wayne Harris sold securities through his company, Harris Custom Projects LLC, to raise money he told investors would fund real estate purchases for resale and the purchase and resale of concrete. Instead, the Kansas Department of Insurance found, Harris misappropriated the vast majority of what he raised for personal use and to pay off earlier investors — the defining pattern of a Ponzi scheme. In June 2018 a Kansas court ordered the state\'s Securities Commissioner to act as receiver over Harris and his company, and that receivership ultimately returned $500,000 in restitution to defrauded investors. Harris was sentenced in Sedgwick County District Court on August 20, 2024, to 30 months in prison on three level-four felony counts of securities fraud, and was taken into custody the following week. The case illustrates why any promissory note or investment pitch promising a fixed return from a specific side business — real estate flipping, commodity resale, or similar — should be verified against the Kansas Securities Division\'s registration records before money changes hands, since the company itself was never registered to sell securities in the state.',
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    state: 'KS',
+    isHistorical: true,
+    firstRecorded: '2024-08-20',
+    sources: ['Kansas Department of Insurance — Securities Division'],
+    sourceUrl: 'https://www.insurance.kansas.gov/Home/Components/News/News/122/',
+  },
+  {
+    name: 'David Castillo Brookhaven Fake Investment Manager Fraud',
+    slug: 'mississippi-castillo-investor-wire-fraud',
+    description:
+      'David Tiler Castillo, a 23-year-old from Brookhaven, Mississippi, told investors he was in the business of managing money on their behalf, investing it in marketable securities such as stocks. Between soliciting funds and his 2026 sentencing, Castillo took in $928,500 from Mississippi investors this way — but invested only about $3,000 of it, using the rest for his own benefit, including buying vehicles, according to prosecutors. The case was investigated jointly by the Mississippi Attorney General\'s Office, the Mississippi Secretary of State\'s Securities Division, the Lincoln County Sheriff\'s Office, and the U.S. Secret Service, and prosecuted by the U.S. Attorney\'s Office for the Southern District of Mississippi. Castillo pleaded guilty to one count of wire fraud and was sentenced on January 13, 2026, to 40 months in federal prison plus three years of supervised release, and ordered to pay $928,500 in restitution. Before handing money to anyone claiming to manage investments on a client\'s behalf, investors can and should confirm that person is registered with the Mississippi Secretary of State\'s Securities Division or the SEC — Castillo held no such registration.',
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    state: 'MS',
+    isHistorical: true,
+    firstRecorded: '2026-01-13',
+    sources: ['U.S. Attorney\'s Office, Southern District of Mississippi', 'Mississippi Attorney General\'s Office'],
+    sourceUrl: 'https://www.justice.gov/usao-sdms/pr/brookhaven-man-sentenced-40-months-federal-prison-wire-fraud',
+  },
 ];
 
 async function seedCategoriesAndScams() {
