@@ -7793,10 +7793,9 @@ News of the case turned Ninger into a minor sensation, less for the scale of his
     title: 'Isabel dos Santos: How Africa\'s Richest Woman Built a Fortune Investigators Say Was Looted From Angola',
     slug: 'isabel-dos-santos-luanda-leaks-angola-fraud',
     author: 'ScamShield Editorial',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Marginal_of_Luanda.JPG?width=1200',
-    coverImageCredit: 'Photo: Paulo César Santos, Wikimedia Commons (CC0) — the Marginal waterfront in Luanda, Angola, the capital city where Isabel dos Santos built her business empire',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Isabel_dos_Santos_(cropped).jpg?width=1200',
+    coverImageCredit: 'Photo: Nuno Coimbra, Wikimedia Commons (CC BY-SA 4.0) — Isabel dos Santos in 2019',
     coverImagePosition: 50,
-    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer'],
     body: `Isabel dos Santos is the eldest daughter of José Eduardo dos Santos, who ruled Angola as president from 1979 to 2017, and for years she was celebrated internationally as a self-made success story — Forbes named her Africa's first female billionaire in 2013, crediting an entrepreneurial career that began with a Luanda beach club and grew into stakes spanning telecommunications, banking, diamonds, and energy. That narrative collapsed in January 2020, when the International Consortium of Investigative Journalists (ICIJ) published the "Luanda Leaks" investigation, built on roughly 715,000 leaked emails, contracts, audits, and financial records obtained through the Platform to Protect Whistleblowers in Africa and analyzed with dozens of media partners worldwide. The documents traced how dos Santos's companies won contracts, licenses, and ownership stakes in Angolan state assets on preferential terms while her father held the presidency — arrangements investigators concluded were not the product of business acumen but of her family's control over the machinery of the Angolan state itself.
 
