@@ -29418,6 +29418,42 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ["Michigan Attorney General's Office"],
     sourceUrl: 'https://www.michigan.gov/ag/news/press-releases/2024/07/02/ag-nessel-halts-wyoming-business-selling-deceptive-ready-made-businesses',
   },
+  {
+    name: 'Colorado "Bogus Blackmail" Sextortion Letter and Email Scam',
+    slug: 'colorado-bogus-blackmail-sextortion-scam',
+    description:
+      "Colorado Attorney General Phil Weiser issued a consumer alert on March 4, 2025 warning of a surge in phishing scams involving phony blackmail threats, usually arriving as an email with an attached letter. The letters and emails vary in exact wording but share a pattern: they include the recipient's real name, email, phone number, and home address, sometimes paired with a photo of the recipient's house that, Weiser's office found, is typically just a Google Maps street-view image rather than proof of surveillance. The letters falsely claim the sender has compromised the recipient's computer or phone with spyware and has been secretly monitoring their internet activity for months, then threaten to reveal embarrassing or sexual material to the recipient's friends and family unless a payment is made in cryptocurrency. \"I've personally had friends and colleagues receive these types of scams recently, and I want to be clear that my office does not see them as anything more than scare tactics,\" Weiser said, adding that fraudsters \"use fear and intimidation to scare victims into handing over their hard-earned money.\" The office stresses these letters show no sign of being backed by any real compromise or surveillance, distinct from genuine sextortion, which involves a criminal who actually tricks a victim into sharing explicit images or video before making threats, and advises recipients not to pay, to avoid clicking links or downloading attachments in emails from unknown senders, and to report the letter or email to the attorney general at StopFraudColorado.gov.",
+    categorySlug: 'sextortion',
+    country: 'US',
+    state: 'CO',
+    alertLevel: 'medium',
+    sources: ["Colorado Attorney General's Office"],
+    sourceUrl: 'https://coag.gov/press-releases/blackmail-scam-consumer-alert-weiser-3-4-25/',
+  },
+  {
+    name: 'Fake "Louisiana Department of Justice" Driving Record Text Scam',
+    slug: 'louisiana-department-of-justice-driving-record-text-scam',
+    description:
+      "In April 2026, Louisiana residents statewide began receiving unsolicited text messages impersonating the Louisiana Department of Justice, falsely claiming the recipient had an \"unresolved driving record issue\" tied to a fabricated document number and citing a nonexistent \"Louisiana Judicial Process Act.\" The texts threatened a 30-day driver's license suspension, a frozen vehicle registration, a 35% late-payment penalty, higher insurance rates, and a permanent violation record unless the recipient clicked a link to a fake \"Designated Enforcement Portal\" and resolved the matter immediately — a portal built to harvest personal information rather than process anything real. Attorney General Liz Murrill's office said it was fielding a flood of calls from residents asking whether the texts were legitimate and moved to set the record straight: \"Any text message claiming to be from the Louisiana Department of Justice is a scam.\" The office's guidance is simple — do not click any link in the message, do not respond to the sender, and delete the text immediately — and it urged residents to help spread the warning after screenshots of the fake notices went viral on social media. Anyone unsure whether a driving-record notice is real can contact the Attorney General's office directly at 225-326-6079 or 877-297-0995 rather than using any number or link supplied in the text itself.",
+    categorySlug: 'government-impersonation',
+    country: 'US',
+    state: 'LA',
+    alertLevel: 'high',
+    sources: ["Louisiana Department of Justice — Office of Attorney General Liz Murrill", 'WBRZ News', 'American Press'],
+    sourceUrl: 'https://www.wbrz.com/news/attorney-general-s-office-says-text-messages-about-state-driving-records-are-fake',
+  },
+  {
+    name: 'Fake Package Delivery Notification Scam',
+    slug: 'arizona-fake-package-delivery-notification-scam',
+    description:
+      "Arizona Attorney General Kris Mayes issued a consumer alert on March 30, 2026 warning residents about a rise in scams built around fake package delivery problems, in which fraudsters impersonate major carriers like UPS, FedEx, and the U.S. Postal Service. Most versions arrive as an unsolicited text or email claiming a package is on its way or that a delivery issue needs to be resolved, with a link to a lookalike site using a slightly altered domain, such as \"fed-ex.com\" instead of the real carrier's address, built to harvest personal and financial information. Other versions skip the digital lure entirely: scammers call directly to pressure a recipient into handing over personal details, or physically stick a fake \"missed delivery\" tag on the front door with a fraudulent callback number instead of the carrier's real customer service line. \"The goal is the same: to steal your money and your personal information or identity,\" the office said. Arizonans are advised never to click a link in an unsolicited delivery text or email, to check a tracking number only by typing the carrier's real website address directly into a browser rather than following a link, and to call a carrier's official published number rather than any number left on a paper door tag. Anyone who already clicked a link or shared information should report it to the FBI's Internet Crime Complaint Center at ic3.gov, file an identity-theft report with the FTC at identitytheft.gov, consider a fraud alert or credit freeze with Experian, TransUnion, and Equifax, and can file a consumer complaint with the Arizona Attorney General's Office at (602) 542-5763 or (800) 352-8431.",
+    categorySlug: 'package-delivery-scams',
+    country: 'US',
+    state: 'AZ',
+    alertLevel: 'medium',
+    sources: ["Arizona Attorney General's Office"],
+    sourceUrl: 'https://www.azag.gov/press-release/attorney-general-mayes-warns-arizonans-package-notification-could-be-scam',
+  },
 ];
 
 async function seedCategoriesAndScams() {
