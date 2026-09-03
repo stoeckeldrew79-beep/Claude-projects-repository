@@ -3453,10 +3453,9 @@ Binance's case is a reminder that most large-scale fraud losses reported to agen
     title: 'Philip Esformes and the $1.3 Billion Medicare Fraud Scheme That Used Opioids to Keep Patients Captive',
     slug: 'philip-esformes-medicare-fraud-scheme',
     author: 'ScamShield Editorial',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Miami,_Florida_skyline.jpg?width=1200',
-    coverImageCredit: 'Photo: Wilfredor (CC0)',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Philip_Esformes_mugshot_(2024).jpg?width=1200',
+    coverImageCredit: 'Photo: Miami-Dade County Corrections and Rehabilitation (Public Domain)',
     coverImagePosition: 50,
-    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Philip Esformes ran one of the largest networks of skilled nursing and assisted living facilities in Florida, built on a family real-estate and health-care business that expanded, over roughly two decades, into some twenty facilities across Florida, Illinois, and Missouri. On paper, the business looked like an ordinary, if aggressively growing, elder-care operation. Behind it, federal prosecutors say, Esformes ran what the Department of Justice would later call the largest health care fraud scheme it had ever charged — a conspiracy that funneled more than $1 billion in fraudulent claims through Medicare and Medicaid over the better part of a decade.
 
@@ -7285,6 +7284,10 @@ Regulators found Meehan guilty of manipulation and expelled him from every excha
     title: 'Stephen Glass and the New Republic Stories That Were Almost Entirely Invented',
     slug: 'stephen-glass-new-republic-fabrication-scandal',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Georgetown_University_Law_Center_-_Washington_D.C._Law_School_(53816202575).jpg?width=1200',
+    coverImageCredit: 'Photo: Tony Webster (CC BY 2.0) — Georgetown University Law Center, where Glass earned his law degree',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Stephen Glass built a reputation in the 1990s as one of Washington's most compelling young journalists, publishing vivid, quote-rich stories in The New Republic and, on the side, in Rolling Stone, Harper's, and George. The stories read almost too well — colorful characters, perfect dialogue, telling details that made abstract subjects feel alive. Editors loved him, readers loved him, and almost none of it was real.
 
@@ -7299,6 +7302,10 @@ Glass's account of the scandal became a story in its own right: a semi-autobiogr
     title: 'Janet Cooke and the Pulitzer Prize the Washington Post Had to Return',
     slug: 'janet-cooke-jimmys-world-pulitzer-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/The_Washington_Post_-_Newspaper_Office_in_Washington_D.C._(53799265385).jpg?width=1200',
+    coverImageCredit: 'Photo: Tony Webster (CC BY 2.0) — The Washington Post headquarters, Washington, D.C.',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `On September 28, 1980, The Washington Post published a front-page story by 26-year-old reporter Janet Cooke titled "Jimmy's World," describing an eight-year-old heroin addict in Southeast Washington, D.C., being injected with drugs by his mother's boyfriend. The piece was specific and devastating enough to reach the mayor's office: Marion Barry ordered police and social services to find the boy and remove him from the home. When they couldn't locate him, Cooke told editors she was concealing his identity to protect sources who had threatened her life if she revealed them.
 
