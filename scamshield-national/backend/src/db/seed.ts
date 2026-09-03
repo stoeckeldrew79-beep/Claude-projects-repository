@@ -29179,6 +29179,42 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ["Nevada Attorney General's Office", 'Federal Trade Commission'],
     sourceUrl: 'https://ag.nv.gov/News/PR/2026/Attorney_General_Ford_Announces_Settlement_Requiring_Tax-Relief_Scammers_to_Surrender_Nearly_$10_Million_in_Assets_for_Consumer_Relief/',
   },
+  {
+    name: 'Smiles Adult Day Care Phantom-Billing Medicaid Fraud',
+    slug: 'missouri-smiles-adult-day-care-phantom-billing-medicaid-fraud',
+    description:
+      "Chontell Wilkes, 34, and Sandra Wilkes, 55, ran Smiles Adult Day Care in St. Louis and are accused of billing Missouri's Medicaid program for services their clients never received: between December 1, 2024 and March 30, 2026, prosecutors say the pair submitted more than 1,418 false claims worth over $121,000, including for stretches when the facility itself was closed and could not possibly have been providing any care at all. Missouri Attorney General Catherine Hanaway announced the charges on June 23, 2026 as part of a statewide sweep charging 24 defendants, including several other adult day-care and in-home care operators, with stealing a combined $613,000 or more from the Medicaid program, tying into that year's National Health Care Fraud Takedown. \"If you steal from our Missouri Medicaid program, we will find you and hold you accountable,\" Hanaway said. The office notes that Medicaid billing fraud like this is often uncovered only when a family member or caregiver notices a charge for a day their loved one was never actually dropped off, and it encourages Missourians who review a Medicaid explanation of benefits and see a service date or provider that doesn't match reality to report it to the Attorney General's Medicaid Fraud Control Unit rather than assume it was a clerical error. All defendants are presumed innocent unless and until convicted.",
+    categorySlug: 'healthcare-fraud',
+    country: 'US',
+    state: 'MO',
+    alertLevel: 'high',
+    sources: ["Missouri Attorney General's Office (Medicaid Fraud Control Unit)"],
+    sourceUrl: 'https://ago.mo.gov/attorney-general-hanaway-charges-dozens-of-medicaid-fraudsters-for-over-613000-in-stolen-funds/',
+  },
+  {
+    name: 'SCDMV Unpaid Traffic Ticket Text Scam',
+    slug: 'south-carolina-scdmv-unpaid-ticket-text-scam',
+    description:
+      "The South Carolina Department of Motor Vehicles has repeatedly warned residents about a wave of fraudulent text messages, impersonating the SCDMV, that claim the recipient has an unpaid traffic ticket or toll violation and threaten license suspension or added penalties unless payment is made immediately through a link in the message. The texts direct victims to look-alike web pages built to imitate the real SCDMVOnline.com, complete with official-sounding legal citations and a hard deadline meant to short-circuit any second-guessing. The agency has been blunt about the giveaway: it \"is not involved in the collection of toll fees or overdue traffic tickets nor does the agency use text messages to collect fees from customers,\" and any genuine notice about an unpaid ticket or a license action arrives by U.S. mail, typically with at least 30 days' advance notice, never a same-day text threat. South Carolinians who receive one of these messages are advised to delete it without clicking any link, forward it to 7726 (SPAM) to report it to their wireless carrier, monitor their bank and credit card accounts if they already engaged with the text, and file a report with the FTC at reportfraud.ftc.gov.",
+    categorySlug: 'government-impersonation',
+    country: 'US',
+    state: 'SC',
+    alertLevel: 'high',
+    sources: ['South Carolina Department of Motor Vehicles (SCDMV)'],
+    sourceUrl: 'https://dmv.sc.gov/News/Scam-Text-Advisory',
+  },
+  {
+    name: 'Leo\'s Luxury Motors and Equipment Express Fake Dealership Websites',
+    slug: 'tennessee-fake-dealership-website-scam',
+    description:
+      "The Tennessee Attorney General's Division of Consumer Affairs has twice warned residents, in November 2024 and again in March 2026, about fraudulent websites built to look like real classic car and heavy equipment dealerships, advertising vehicles or machinery at prices well below market to lure in buyers who send payment for something that never exists. In one documented example, a site calling itself Leo's Luxury Motors claimed to sell and ship classic cars, but the business itself was never real and its inventory photos had simply been copied from a legitimate dealership in Michigan. In another, scammers built a fake website for \"Equipment Express\" that borrowed the actual name and Lebanon, Tennessee address of a real, small forklift dealership that has never had a website of its own, so a buyer searching the business name would find the fake site with nothing to immediately contradict it. To make the con feel real, operators answer phone calls, send videos of the supposed inventory, and in some cases provide forged business licenses. \"These scammers don't care one bit about your family's financial well-being,\" Attorney General Jonathan Skrmetti said. The office recommends verifying any dealership through the Better Business Bureau and Tennessee's business entity search, insisting on an in-person viewing or an independent third-party inspection before paying, running a CARFAX or AutoCheck history report, and paying only by check or credit card rather than wire transfer, cryptocurrency, or a money transfer service.",
+    categorySlug: 'online-shopping-scams',
+    country: 'US',
+    state: 'TN',
+    alertLevel: 'medium',
+    sources: ["Tennessee Attorney General's Office — Division of Consumer Affairs"],
+    sourceUrl: 'https://www.tn.gov/attorneygeneral/news/2024/11/20/pr24-80.html',
+  },
 ];
 
 async function seedCategoriesAndScams() {
