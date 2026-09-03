@@ -27506,6 +27506,39 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['New Jersey Office of the Attorney General', 'New Jersey Division of Consumer Affairs'],
     sourceUrl: 'https://www.njoag.gov/ag-platkin-division-of-consumer-affairs-warn-new-jerseyans-to-beware-of-potential-scams-targeting-supplemental-nutrition-assistance-program-snap-recipients-amid-federal-government-shutdown/',
   },
+  {
+    name: 'Indian Petrol Pump and Shop QR Code Sticker-Swap Fraud',
+    slug: 'india-qr-code-sticker-swap-fraud',
+    description:
+      'Fraudsters visit petrol pumps, retail shops, and roadside stalls, often overnight, and paste a fake UPI QR code sticker linked to their own bank account directly over the merchant\'s genuine payment sticker, so customers who scan and pay exactly as they normally would unknowingly send their money to the fraudster instead of the business — the merchant only discovers the shortfall later, during reconciliation, once revenue has already vanished. In September 2025, Uttar Pradesh Police uncovered an operation that had struck petrol pumps across five states — Uttar Pradesh, Haryana, Punjab, Uttarakhand, and Himachal Pradesh — after a fuel station owner in Baghpat noticed payments were missing despite recorded fuel sales; officers arrested two men and seized counterfeit QR-code printing equipment used to mass-produce swapped stickers for multiple locations. Cybercrime cells advise customers to always check the payee name displayed in their UPI app after scanning and before entering a PIN — it should exactly match the business\'s registered name, and a personal name appearing in its place is a sign the sticker has been swapped.',
+    categorySlug: 'online-shopping-scams',
+    country: 'IN',
+    alertLevel: 'high',
+    sources: ['Uttar Pradesh Police'],
+    sourceUrl: 'https://the420.in/qr-code-petrol-pump-scam-baghpat-cyber-fraud/',
+  },
+  {
+    name: 'Indian Fake Wedding Invitation APK Malware Scam',
+    slug: 'india-fake-wedding-invitation-apk-scam',
+    description:
+      'A WhatsApp message that looks like a personal wedding invitation carries a "Digital Invitation" or "Save the Date" file with an .apk extension instead of the JPG image or PDF a real e-card would use, and installing it on an Android phone grants the app permissions to read SMS messages, contacts, and notifications — letting the malware intercept incoming banking OTPs, harvest the victim\'s contact list to auto-forward the same fake invite to everyone in it, and in many documented cases quietly authorize UPI transactions straight off the compromised device. Himachal Pradesh Police\'s cybercrime wing issued a public advisory on November 28, 2025 describing exactly this scheme, with Superintendent of Police Rohit Malpani warning that "once opened, scammers gain access to everything stored on the device, resulting in personal and financial losses," while Rajasthan Police and other state cyber cells issued parallel warnings as cases spiked ahead of the 2025-26 wedding season. Both forces stress that a genuine wedding card is always sent as an image or PDF, never as a file ending in ".apk," and that any such file received through WhatsApp — even from a known contact, since infected phones auto-forward it onward — should be deleted without opening, with suspected incidents reported to the national cybercrime helpline at 1930.',
+    categorySlug: 'phishing',
+    country: 'IN',
+    alertLevel: 'high',
+    sources: ['Himachal Pradesh Police', 'Rajasthan Police'],
+    sourceUrl: 'https://www.tribuneindia.com/news/himachal/invited-to-wedding-police-say-check-the-link-before-you-click',
+  },
+  {
+    name: 'Indian Fake GST Summons Extortion Scam',
+    slug: 'india-fake-gst-summons-scam',
+    description:
+      'Fraudsters draft fake summons and notices that closely mimic genuine communications from India\'s Directorate General of GST Intelligence (DGGI) or CGST field offices — copying the department\'s letterhead, formatting, and a fabricated Document Identification Number (DIN) — and send them to GST-registered traders and businesses, whether or not the recipient is actually under any investigation, to pressure them into paying money or handing over sensitive business and banking details to make an alleged violation "go away." The Central Board of Indirect Taxes and Customs (CBIC) issued a formal public caution on February 12, 2024 confirming that the DINs used on these fake summons do not correspond to any genuine DGGI communication, and said it has been filing police complaints against those responsible for creating and circulating the forged notices. CBIC advises every recipient of a GST summons or notice to independently verify it before responding, using the "VERIFY CBIC-DIN" search tool on the department\'s own esanchar.cbic.gov.in portal — a document that fails this check should not be replied to or paid, and should instead be reported to CBIC, the DGGI, or local police.',
+    categorySlug: 'tax-scams',
+    country: 'IN',
+    alertLevel: 'medium',
+    sources: ['Central Board of Indirect Taxes and Customs (CBIC)'],
+    sourceUrl: 'https://www.pib.gov.in/PressReleasePage.aspx?PRID=2004867',
+  },
 ];
 
 async function seedCategoriesAndScams() {
