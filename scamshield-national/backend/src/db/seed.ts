@@ -30893,6 +30893,48 @@ const SEED_SCAMS: SeedScam[] = [
   },
 ];
 
+// Appended via push() rather than inline above: at this array's current
+// size, adding new object literals directly inside the SEED_SCAMS literal
+// makes the TypeScript checker fail with "TS2590: Expression produces a
+// union type that is too complex to represent." Pushing a separate small
+// literal keeps each expression small enough to type-check while leaving
+// the runtime SEED_SCAMS array, and every consumer of it, unchanged.
+SEED_SCAMS.push(
+  {
+    name: 'Moody-Fairfield Mother-Daughter Caretaker Elder Fraud Scheme',
+    slug: 'alabama-moody-fairfield-caretaker-elder-fraud',
+    description: `Cynthia H. Mixon, 50, of Fairfield, Alabama, and her daughter Mykia L. Henderson, 32, of Moody, Alabama, worked as in-home caretakers for an elderly Alabama victim from December 2020 through February 2022, using the trust and financial access that came with the job to defraud them alongside co-conspirators including Corey Webb, 44, also of Moody. According to the U.S. Attorney's Office for the Northern District of Alabama, the group set up fraudulent merchant accounts through Square, Inc. and Stripe, Inc., ran unauthorized charges against the victim's credit cards through those accounts, wrote checks to themselves drawn on the victim's own bank accounts, and moved the proceeds into their personal accounts — draining nearly $500,000 from a single elderly victim. Two more Birmingham-area defendants were charged separately in the same scheme: Whitney Wallace, the victim's house cleaner, who kept using the victim's stolen credit card information to make personal purchases after she stopped working there, and Shakira English, charged in an eleven-count indictment covering conspiracy, wire fraud, and aggravated identity theft. Henderson and Mixon each pleaded guilty to conspiracy to commit wire fraud and aggravated identity theft, and on July 30, 2025, U.S. District Judge Anna M. Manasco sentenced Henderson to 87 months in federal prison and Mixon to 57 months. "Reporting from consumers about fraud and fraud attempts is critical to law enforcement's efforts to investigate and prosecute schemes targeting older adults," said U.S. Attorney Prim Escalona. Families hiring an in-home caregiver should run a background check before giving anyone household access, keep payment cards and online banking credentials away from caregivers entirely, set up account alerts for new merchant sign-ups and unusual charges, and have a trusted relative or friend outside the household review monthly statements rather than relying on the caregiver to flag anything wrong.`,
+    categorySlug: 'identity-theft',
+    country: 'US',
+    state: 'AL',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office for the Northern District of Alabama", 'WBRC', 'CBS 42'],
+    sourceUrl: 'https://www.justice.gov/usao-ndal/pr/mother-daughter-duo-sentenced-elder-fraud-scheme',
+  },
+  {
+    name: 'Tactical Traders Fake Day-Trading Profits Settlement',
+    slug: 'idaho-tactical-traders-day-trading-settlement',
+    description: `Idaho Attorney General Raúl Labrador's Consumer Protection Division investigated Tactical Traders LLC, an Idaho-based business owned by Justin Werlein that sold subscriptions to online day-trading "mentorship" and coaching programs built almost entirely around Werlein's own personal story — that he went from delivering pizzas to earning more than $700,000 in profits as a day trader. Thirteen Idaho consumers who paid for access to Tactical Traders' educational materials, coaching, and trading community filed complaints alleging Werlein misled them about his trading track record and failed to deliver the services they purchased; in early 2026, Werlein himself publicly admitted he had never actually made any day-trading profits, and he closed the business and pulled its training materials. On August 27, 2026, Attorney General Labrador announced a settlement resolving the investigation under the Idaho Consumer Protection Act's ban on false and deceptive advertising: Werlein is permanently barred from opening a similar trading-education business again and must issue refunds to eligible Idaho consumers who bought a Tactical Traders subscription, lacked access to it because the business shut down, and never received a prior refund or credit card chargeback. "Protecting Idaho families from deceptive marketing is a priority for my Consumer Protection Division," Labrador said. Affected consumers have until October 12, 2026 to file a claim through the Attorney General's office. Anyone considering a paid trading "mentorship" or signal service should treat a seller's self-reported personal success story as unverifiable marketing rather than evidence, ask what independent, audited track record backs the claimed returns, and check the seller's name against the state Attorney General's consumer complaint records before paying for access.`,
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    state: 'ID',
+    alertLevel: 'medium',
+    sources: ['Idaho Office of the Attorney General', 'Gem State Chronicle'],
+    sourceUrl: 'https://www.ag.idaho.gov/newsroom/ag-labrador-wins-settlement-against-fraudulent-investment-business/',
+  },
+  {
+    name: 'Sioux Falls EBT Card Skimming Scheme',
+    slug: 'south-dakota-sioux-falls-ebt-skimming',
+    description: `Beginning around May 1, 2025, criminals installed hidden card-skimming devices inside payment terminals at a Walmart on East Arrowhead Parkway and at least two Dollar General stores in Sioux Falls, South Dakota, capturing the card numbers and PINs of shoppers who swiped their state-issued EBT cards to pay for groceries with SNAP benefits. The skimmers stayed active through roughly June 30, 2025, and the stolen card data was used to clone the cards and drain balances through unauthorized, out-of-state transactions — with some victims not receiving an official notification letter about the theft until August, weeks after their benefits were already gone. More than 350 people across the Sioux Falls area reported losses to the South Dakota Department of Social Services and Sioux Falls police; in one case, a family of six lost nearly all of their $978 in monthly benefits to a string of $248 withdrawals. "People went to go use their EBT cards and found out there is no balance on the card, or there was an insufficient amount of funds for a transaction to take place," said Sioux Falls Police Sergeant Aaron Benson. Federal rules limit SNAP replacement benefits to losses from household disasters like a fire or flood, and the American Relief Act, 2025, signed into law in December 2024, eliminated the federal government's separate authority to reimburse benefits stolen through skimming and similar fraud, leaving replacement up to whatever a state's own funds allow — as of the theft, South Dakota's Department of Social Services had not announced whether it would reimburse the Sioux Falls victims. EBT cardholders can protect themselves by changing their PIN regularly, checking their balance and recent transactions often through the card issuer's app or hotline, and using the card-lock or transaction-block features many state EBT systems now offer to prevent out-of-state or online use when the card isn't actively being used.`,
+    categorySlug: 'public-benefits-fraud',
+    country: 'US',
+    state: 'SD',
+    alertLevel: 'high',
+    sources: ['South Dakota Department of Social Services', 'Sioux Falls Police Department', 'South Dakota Public Broadcasting (SDPB)', 'Dakota News Now'],
+    sourceUrl: 'https://www.sdpb.org/crime-courts/2025-08-12/dss-snap-benefits-stolen-from-over-350-people-in-sioux-falls-area',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
