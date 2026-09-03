@@ -27978,6 +27978,39 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Louisiana Secretary of State'],
     sourceUrl: 'https://www.knoe.com/2025/07/24/secretary-landry-tells-businesses-beware-fraudulent-letters/',
   },
+  {
+    name: 'Canadian Puppy and Pet Scam',
+    slug: 'canada-puppy-pet-scam',
+    description:
+      'Classified ads on Kijiji, Facebook Marketplace, and dedicated pet-sale sites offer a purebred puppy or kitten at a suspiciously low price, sometimes paired with a sympathetic story about needing to rehome the animal quickly. After an exchange of messages, the "seller" asks for a deposit by e-transfer or wire to hold the pet, then, once that payment lands, invents a growing string of further charges — a travel crate, pet insurance, vaccination certificates, or an airline "customs release" fee — claiming the animal is stuck at an airport or border crossing and cannot be shipped until the buyer pays again. No pet is ever delivered, and the seller stops responding once the buyer refuses to send more money. The Canadian Anti-Fraud Centre recorded 507 victims and losses of more than $701,000 to pet-related fraud in 2021 alone, with dogs the most common bait, and warns that animal frauds almost always follow this same escalating-payment pattern. It advises buyers to insist on a live video call showing the actual animal, reverse-image-search the ad photos to check whether they have been reused elsewhere online, and never pay for a pet — deposit or "shipping fee" included — before seeing it in person.',
+    categorySlug: 'online-shopping-scams',
+    country: 'CA',
+    alertLevel: 'medium',
+    sources: ['Canadian Anti-Fraud Centre', 'CBC News'],
+    sourceUrl: 'https://antifraudcentre-centreantifraude.ca/scams-fraudes/merchandise-marchandises-eng.htm',
+  },
+  {
+    name: 'Canadian Money Mule Job Recruitment Scam',
+    slug: 'canada-money-mule-job-recruitment-scam',
+    description:
+      'A job posting or unsolicited message — often responding to a resume already posted online — offers easy pay for a "payment processor," "financial officer," or package-reshipping role that simply requires accepting money or parcels into a personal account or address and forwarding them elsewhere, sometimes keeping a cut as commission. What the new "employee" is not told is that the funds or goods passing through them are proceeds of someone else\'s fraud, and that acting as this link in the chain — a money mule — makes them complicit in money laundering rather than a legitimate worker, exposing them to the same criminal charges as the organizers even when they never knew the funds were stolen. The Canadian Anti-Fraud Centre warns that legitimate employers never ask a new hire to move money through a personal bank account, receive and reship packages, or transfer cryptocurrency on a company\'s behalf. More than 2,300 Canadians reported losing a combined $49 million to job and employment scams in 2024, a total the CAFC says has roughly quadrupled since 2022 as AI-generated fake job postings made the recruitment pitch harder to distinguish from a real one.',
+    categorySlug: 'employment-scams',
+    country: 'CA',
+    alertLevel: 'high',
+    sources: ['Canadian Anti-Fraud Centre', 'Royal Canadian Mounted Police'],
+    sourceUrl: 'https://antifraudcentre-centreantifraude.ca/features-vedette/2020/awareness-sensibilisation-eng.htm',
+  },
+  {
+    name: 'Canadian Counterfeit Ozempic and GLP-1 Weight-Loss Drug Scam',
+    slug: 'canada-counterfeit-ozempic-glp1-scam',
+    description:
+      'Counterfeit or unauthorized versions of GLP-1 weight-loss and diabetes drugs — semaglutide (Ozempic, Wegovy) and tirzepatide (Mounjaro, Zepbound) — are being sold in Canada by unlicensed online sellers and even some in-person retailers, exploiting demand that has outpaced legitimate supply. Health Canada warns these products have not been assessed for safety, effectiveness, or quality, and that counterfeit injectables carry additional risks beyond a wasted purchase: incorrect or absent active ingredient, undisclosed contaminants, and sterility failures that can cause infections, scarring, or serious allergic reactions. Some seized products have carried a real-looking eight-digit Drug Identification Number and even a fake Health Canada logo to appear legitimate, and sellers frequently advertise no-prescription-required purchases at prices well below what a licensed Canadian pharmacy charges. Health Canada advises buying prescription GLP-1 drugs only from a licensed pharmacy, verifying a product\'s DIN against its public Drug Product Database before use, and reporting any suspected counterfeit product to the department directly.',
+    categorySlug: 'healthcare-fraud',
+    country: 'CA',
+    alertLevel: 'high',
+    sources: ['Health Canada'],
+    sourceUrl: 'https://recalls-rappels.canada.ca/en/alert-recall/thinking-about-buying-glp-1-drugs-ozempic-or-mounjaro-beware-fake-or-unauthorized',
+  },
 ];
 
 async function seedCategoriesAndScams() {
