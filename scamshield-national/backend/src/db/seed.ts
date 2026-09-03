@@ -25029,6 +25029,39 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Better Business Bureau (BBB)'],
     sourceUrl: 'https://www.bbb.org/article/scams/29411-bbb-scam-alert-why-you-should-never-pay-to-recover-your-social-media-account',
   },
+  {
+    name: 'Dutch "Pig Butchering" Crypto-Romance Investment Scam',
+    slug: 'dutch-pig-butchering-crypto-romance-scam',
+    description:
+      'A match on a dating app develops over weeks into what feels like a real relationship — often someone claiming to be a successful professional living abroad — before the conversation turns to crypto trading, with the new partner casually mentioning big, easy profits and offering to show the victim how it works on a slick-looking trading platform. Early "withdrawals" go through smoothly, building confidence, so the victim starts moving in savings, borrowed money, or even business funds as the platform\'s dashboard shows the balance climbing; when the victim finally tries to cash out for real, the platform suddenly demands a "tax" or "release fee" of around a third of the balance, and after that is paid too, the partner and the platform both disappear. NOS reported the case of a 54-year-old man, "Douwe," who lost over €150,000 in three months to a woman posing as a German single mother named "Julia" — built from a stolen influencer\'s photos — before he could get any money out. Unlike a standard romance scam\'s single fabricated emergency, this pattern is built around a fake but fully interactive trading platform run entirely by the scammers; Fraudehelpdesk logged 943 victims and over €25 million in losses in 2024 alone, rising further through 2025, and its guidance is to treat any online partner who introduces a "trading opportunity" — especially one showing profits that only grow — as a certain sign of fraud.',
+    categorySlug: 'investment-fraud',
+    country: 'NL',
+    alertLevel: 'critical',
+    sources: ['NOS (Dutch public broadcaster)', 'Fraudehelpdesk (Netherlands)'],
+    sourceUrl: 'https://nos.nl/artikel/2555638-opnieuw-meer-slachtoffers-cryptofraude-douwe-verloor-150-000-euro-aan-julia',
+  },
+  {
+    name: 'Dutch Bewindvoerder (Court-Appointed Financial Administrator) Embezzlement Fraud',
+    slug: 'dutch-bewindvoerder-embezzlement-fraud',
+    description:
+      'A "bewindvoerder" is a financial administrator a Dutch subdistrict court (kantonrechter) appoints to manage the money of someone unable to do so themselves — an elderly person, someone with a disability, or someone in serious debt — giving that administrator sole day-to-day control over the person\'s bank accounts. NOS reported that the director of Trevo Bewind, a firm in Leusden managing dozens of such accounts, was caught systematically transferring client money into her own bank account after one client discovered €15,000 missing; the court\'s review found at least 43 vulnerable clients affected and roughly €150,000 stolen, and it dismissed the firm as administrator, reassigned its clients, and reported the director to police for prosecution. It was not an isolated case — a former administrator in Weert was separately convicted in September 2025 for embezzling over €140,000 from her clients between 2015 and 2021. Because oversight of bewindvoerders has historically relied on an annual account statement the administrator files with the court, rather than any independent, ongoing check, theft can continue for years before a client or relative notices a shortfall; anyone with a bewindvoerder, or a relative under one, can ask the court for a copy of the annual "rekening en verantwoording" and request a change of administrator if the numbers don\'t add up.',
+    categorySlug: 'identity-theft',
+    country: 'NL',
+    alertLevel: 'high',
+    sources: ['NOS (Dutch public broadcaster)', 'Rechtspraak (Dutch Judiciary)'],
+    sourceUrl: 'https://nos.nl/artikel/2575431-bewindvoerder-leusden-steelt-duizenden-euro-s-van-kwetsbare-clienten',
+  },
+  {
+    name: 'Dutch Sold-Out Event Ticket Fraud (Kaartjesfraude)',
+    slug: 'dutch-sold-out-event-ticket-fraud-kaartjesfraude',
+    description:
+      'Ads on Marktplaats and social media offer "exclusive" or "last-minute" tickets to a sold-out concert or football match, sending eager buyers to a professional-looking ticket shop that takes payment and then delivers nothing — the tickets never existed. To demonstrate how convincing the pitch is, Dutch police built their own decoy version, TicketBewust.nl, together with Fraudehelpdesk, Consumentenbond, Marktplaats, Ticketmaster, Eventim, Ajax, the KNVB, and about a dozen other partners, and ran it as a real-looking storefront for sold-out shows and matches; between October 30, 2025 and January 11, 2026 it drew over 300,000 ad impressions on Marktplaats, more than 30,000 clicks, 7,402 site visits, and 3,432 people who got far enough to attempt a "purchase" before the page revealed itself as an awareness campaign. Police say the Landelijk Meldpunt Internet Oplichting (LMIO) fields roughly 50,000 online fraud reports a year, with about one in ten involving tickets, and that an estimated 80 percent of ticket-fraud cases go unreported because individual losses feel too small to bother with. The advice from the campaign\'s partners is to buy only through an event\'s official box office or a named, verified resale platform, and to treat any "guaranteed" ticket to a sold-out show sold outside those channels as fake.',
+    categorySlug: 'online-shopping-scams',
+    country: 'NL',
+    alertLevel: 'medium',
+    sources: ['Politie (Dutch National Police)', 'Fraudehelpdesk (Netherlands)'],
+    sourceUrl: 'https://www.politie.nl/nieuws/2026/januari/15/politie-waarschuwt-met-nepwebsite-voor-ticketfraude.html',
+  },
 ];
 
 async function seedCategoriesAndScams() {
