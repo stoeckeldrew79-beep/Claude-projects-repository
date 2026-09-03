@@ -26759,6 +26759,42 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Singapore Police Force'],
     sourceUrl: 'https://www.police.gov.sg/Media-Hub/News/2026/01/20260123_52_persons_investigated_for_suspected_involvement_in_registering_sim_cards',
   },
+  {
+    name: 'Portsmouth Private-Equity Founder\'s $50 Million "Lucas Brand Equity" Fund Fraud',
+    slug: 'new-hampshire-jay-lucas-brand-equity-fund-fraud',
+    description:
+      'Jay Lucas — a Portsmouth, New Hampshire businessman, former state representative, and the 1998 Republican nominee for governor — spent from 2013 to 2025 raising more than $50 million from hundreds of investors through three funds he ran out of his firm, Lucas Brand Equity, LLC: Lucas Brand Equity LP, Lucas Brand Equity Emerging Growth LP, and Lucas Brand Equity Wellness Growth LP. Lucas told investors their money would go into early-stage health, wellness, beauty, and skincare startups, but the SEC\'s parallel civil complaint alleges he instead diverted millions to his own rent, alimony, wedding costs, personal real-estate purchases, payments to a political consultant, and funding for a New Hampshire newspaper, The Eagle Times of Claremont, which he had bought in 2022 and which ceased operating in the summer of 2025 once the money ran out. He also steered roughly $4 million of fund assets into Immunocologie, a skincare company founded by his wife, without disclosing the conflict of interest to investors, and moved more than $6 million to a separate LLC he controlled to pay for a Manhattan apartment, upscale restaurants, luxury travel, and an interior designer. One named victim, former AutoFair Automotive Group owner Andy Crews, told investigators he lost $150,000 through one of Lucas\'s "Self Best Wellness" pitches. The U.S. Attorney\'s Office for the Southern District of New York indicted Lucas on December 18, 2025, and on July 24, 2026 he pleaded guilty before a federal magistrate judge to securities fraud, investment adviser fraud, wire fraud, and money laundering, with sentencing set for November 12, 2026 and federal guidelines suggesting 12.5 to 15.5 years in prison; the SEC filed a related civil fraud case seeking disgorgement and a bar from the securities industry. New Hampshire residents solicited to invest in a private fund run by a locally prominent businessperson — someone with name recognition from politics, local media ownership, or philanthropy — should treat that reputation as no substitute for confirming the fund and its manager are actually registered, and for asking pointed questions about where fund assets have gone, since Lucas kept raising new money from fresh investors for years after the SEC alleges the personal spending had already begun.',
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    state: 'NH',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office, Southern District of New York", 'U.S. Securities and Exchange Commission'],
+    sourceUrl: 'https://www.justice.gov/usao-sdny/pr/founder-private-equity-firm-pleads-guilty',
+  },
+  {
+    name: 'Norwalk Investment Adviser\'s Hidden Attorney Suspensions and Falsified Records (J. Davenport Advisors)',
+    slug: 'connecticut-j-davenport-advisors-hidden-suspensions-consent-order',
+    description:
+      'John F. Davenport ran J. Davenport Advisors, LLC, a registered investment adviser at 800 Connecticut Avenue in Norwalk, Connecticut, while concealing from both regulators and clients that his Connecticut law license had been suspended six times for failing to complete attorney registration requirements — a fact he never disclosed on his Form U-4, the licensing document every investment adviser representative must keep current and accurate. A 2023 examination by the Connecticut Department of Banking\'s Securities and Business Investments Division turned up inconsistent business and financial records, prompting a deeper look that found Davenport had also misrepresented sub-advisor fees to clients, failed to maintain adequate supervisory procedures, and hired a paralegal with a prior securities-fraud conviction without putting any safeguards in place to protect client information or funds. The Banking Commissioner issued a formal Order to Cease and Desist along with a Notice of Intent to Fine and to Revoke Registration on January 14, 2026 (Matter No. CDFR-25-202500-S), and the matter was resolved by a Consent Order on March 18, 2026 that revoked both the firm\'s investment adviser registration and Davenport\'s individual registration and barred him for seven years from doing business in Connecticut as a broker-dealer, agent, investment adviser, or adviser representative in any capacity requiring state licensing. Connecticut investors working with a financial adviser can and should verify that adviser\'s license and disciplinary history — including any parallel professional licenses like a law license — through the Department of Banking\'s free lookup before handing over account statements or signing an advisory agreement, since Davenport\'s clients had no way to know about his suspended law license or the felon he had hired unless they checked independently.',
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    state: 'CT',
+    alertLevel: 'high',
+    sources: ['Connecticut Department of Banking — Securities and Business Investments Division'],
+    sourceUrl: 'https://portal.ct.gov/dob/bulletin/2026/bulletin-3230-january-16-2026',
+  },
+  {
+    name: 'Davidsonville Man\'s Fake Park Heights Affordable-Housing Investment Scheme',
+    slug: 'maryland-otis-jackson-park-heights-affordable-housing-scheme',
+    description:
+      'Otis H. Jackson of Davidsonville, Maryland used two companies, Social Solutions, LLC and SITO Capital, LLC, to solicit at least 17 investors between 2019 and 2024 into what he called a "Social and Economic Development Program," pitched as funding affordable-housing development in Baltimore City\'s Park Heights neighborhood through claimed partnerships with nonprofits, private-equity lenders, and local government. Investors purchased promissory notes — an unregistered security under Maryland law — expecting fixed returns backed by the housing project, but Jackson never actually developed the properties he described; instead, the Maryland Attorney General\'s Securities Division found he diverted investor funds to his own mortgage payments, dining, and transportation, occasionally using money from newer investors to make partial payments to earlier ones so the fund would appear to be performing, while most investors received nothing back at all. Attorney General Anthony Brown announced a settlement on April 21, 2026 in which Jackson, Social Solutions, and SITO Capital were permanently barred from selling securities or providing investment advice in Maryland and ordered to pay $562,000 in restitution to be distributed among the 17 defrauded investors, resolved through a consent order in which the respondents neither admitted nor denied the Division\'s findings. The case is a reminder that a values-driven pitch — funding affordable housing, community development, or another cause a Maryland investor cares about — carries no more legal protection than any other promissory note, and that the Maryland Securities Division\'s registration lookup can confirm in minutes whether a company and the person selling its notes are actually authorized to raise money from state residents.',
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    state: 'MD',
+    alertLevel: 'high',
+    sources: ['Office of the Maryland Attorney General — Securities Division'],
+    sourceUrl: 'https://oag.maryland.gov/News/pages/Attorney-General-Brown-Secures-$562,000-Settlement-for-Investors-Defrauded-in-Fake-Affordable-Housing-Scheme--.aspx',
+  },
 ];
 
 async function seedCategoriesAndScams() {
