@@ -10715,6 +10715,54 @@ Before donating to any organization soliciting on behalf of police, firefighters
 
 Anyone who suspects they've donated to a sham police, firefighter, or veteran charity should report it to their state Attorney General's charity registration office and to the FTC at ReportFraud.ftc.gov, and can look up a charity's IRS tax-exempt status directly through the IRS Tax Exempt Organization Search tool before giving again. A high-pressure call asking for an immediate pledge is, on its own, reason enough to hang up and verify independently before sending a dime.`,
   },
+  {
+    title: '"Your Boss" Wants Gift Cards: The Text That Impersonates Someone You Trust at Work',
+    slug: 'boss-pastor-gift-card-impersonation-scam-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'gift-card-scam'],
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2026/01/no-thats-not-your-boss-asking-you-buy-gift-cards',
+    body: `A text or email arrives that looks like it's from a supervisor, a company owner, or — in a widely reported church variant — a pastor or priest. The message says something urgent has come up: they're stuck in a meeting or traveling and can't talk, but they need a favor handled right away. Could the recipient run out and buy gift cards for a client appreciation gift, a surprise for an employee, or a family in need, then send back the card numbers and PINs so they can be used immediately? The tone is friendly but pressed for time, precisely calibrated to make an employee or parishioner want to help quickly rather than question the request.
+
+The scam works by borrowing a real relationship's authority without borrowing any of its actual verification. Scammers scrape a boss's or pastor's name and title from a company website, LinkedIn, or a church bulletin, then send the message from a look-alike email address or an unfamiliar phone number, banking on the recipient noticing the trusted name before noticing that the reply-to address doesn't match. Some versions dodge gift-card-related spam filters and skepticism by using coded language — asking for "Google certificates" or "Apple cards" instead of naming gift cards outright, or claiming the request is for a "surprise" that has to stay confidential, which conveniently discourages the recipient from checking with anyone else before acting.
+
+Once the recipient buys the cards, the scammer asks for a photo of the back of each card or the redemption code read aloud, and cashes out the balance within minutes — a gift card's value transfers the moment the code is known, regardless of who's physically holding the plastic. By the time anyone realizes the real boss or pastor never sent the message, the money is already gone, and gift card purchases carry none of the fraud protections or reversal options that come with a credit card charge or a bank wire.
+
+Red flags include any request for gift cards as a business, ministry, or organizational expense — which is not how real companies or churches actually pay for anything; a message that arrives outside the normal channel a supervisor or clergy member uses; an emphasis on secrecy or urgency that discourages verifying the request with a coworker or staff member; and a reply-to email address or phone number that doesn't match the person's known contact information, even when the display name looks correct.
+
+Anyone who gets a request like this should stop and verify it independently before buying anything — call or text the supposed sender using a number already saved in their contacts, not one provided in the suspicious message, or simply walk over and ask in person. Anyone who already sent gift card codes should contact the card issuer immediately, since some retailers can freeze an unspent balance if notified quickly, and should report the scam to the FTC at ReportFraud.ftc.gov and to their employer's IT or HR department so coworkers can be warned before the same message reaches them.`,
+  },
+  {
+    title: '"Can You Hear Me?" Robocalls: The One-Word Answer Scammers Want Recorded',
+    slug: 'can-you-hear-me-robocall-voice-signature-scam-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'robocall-scam'],
+    sourceUrl: 'https://www.bbb.org/article/scams/5691-scam-alert-the-can-you-hear-me-phone-scam-is-still-ringing',
+    body: `A call comes in from an unfamiliar number, and when it's answered, a voice — sometimes a live person, sometimes a recording — asks a simple, seemingly harmless question: "Can you hear me?" The instinctive answer is "yes," and that's exactly what the call is designed to capture. The scam has circulated in waves for years, periodically resurfacing as a new round of warnings from consumer protection groups, precisely because the premise is so simple it barely needs updating.
+
+The theory behind the scam is that a recorded "yes" becomes a voice signature scammers can splice into an automated phone system to falsely authorize a purchase, a subscription, or a charge to a phone or utility bill — the same way saying "yes" to an automated menu ("Do you agree to these terms?") can serve as consent in some voice-authorization systems. Some versions of the call don't try to extract a "yes" at all; instead, they exist mainly to confirm that a phone number is live and answered by a real person, which makes that number more valuable to sell to other scam operations for future robocalls. Variants dress the same setup in different disguises, with a caller posing as a bank, government agency, or insurance company before pivoting to ask for personal or account information once the target is engaged.
+
+Documentation of actual financial losses tied specifically to a recorded "yes" is thinner than the scam's viral spread through news coverage and social media might suggest, but consumer protection groups still treat it as a real and low-cost-to-avoid risk: the defense costs nothing and the potential harm, however uncertain, is entirely avoidable by simply not engaging.
+
+Red flags include any incoming call from a number not saved in contacts that opens with a yes-or-no question rather than identifying the caller and the reason for the call; a recorded or robotic-sounding voice; and any call that continues pushing for verbal confirmation of unrelated statements after the first answer, a pattern sometimes used to build a longer recording that can be edited into different contexts.
+
+The safest response is not to answer unfamiliar numbers at all and let them go to voicemail, since a legitimate caller will leave a message. If a call like this is answered by accident, hanging up immediately without saying "yes," "sure," or any other affirmative word avoids creating anything a scammer could misuse. Registering with the National Do Not Call Registry won't stop illegal robocalls, since scammers ignore it by definition, but it reduces the volume of legal telemarketing mixed in with the scam calls, and any suspicious call can be reported to the BBB Scam Tracker and the FTC at ReportFraud.ftc.gov. Anyone who's unsure whether an unauthorized charge resulted from a call like this should review recent bank, credit card, and phone bill statements for anything unfamiliar.`,
+  },
+  {
+    title: 'Fake Better Business Bureau Emails and Calls: When "BBB" Is the Impersonator, Not the Real Thing',
+    slug: 'bbb-impersonation-phishing-scam-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'impersonation-scam'],
+    sourceUrl: 'https://www.bbb.org/all/spot-a-scam/how-to-spot-a-bbb-impostor',
+    body: `An email lands in a small business owner's inbox with the Better Business Bureau's logo across the top, warning that a customer has filed a formal complaint and that the business has a limited window to respond before the complaint becomes public or "affects" its rating. A link promises to show the complaint details or let the business file an appeal. In a different version, a phone caller identifies themselves as a BBB representative offering to fix a low rating, sell "accreditation," or help resolve debt — services the real BBB doesn't provide in the way the caller describes. Because the Better Business Bureau's actual job is handling exactly the kind of complaint the message describes, the impersonation lands with unusual credibility.
+
+The email version is straightforward credential phishing dressed in trustworthy branding: the link leads to a fake login page, or an attachment carries malware, and the message deliberately imitates BBB's visual identity closely enough that the fraud isn't obvious at a glance. The sender address is the most reliable tell, since it won't end in the real @bbb.org domain even when the display name reads "Better Business Bureau." The phone version works differently, using the BBB's name as a badge of authority to make an unrelated pitch — commonly credit repair, debt relief, or a request for a Social Security number or payment card "to verify" the business's file — land more easily than it would coming from an unknown company.
+
+A separate, longer-running variant arrives by mail: an official-looking letter using an unauthorized BBB seal or logo, sometimes announcing a sweepstakes win, sometimes threatening legal consequences over an unresolved complaint, and asking for a mailed payment or personal information in response. Like the email and phone versions, it borrows the BBB's reputation to bypass the skepticism a similar letter from an unknown sender would receive.
+
+Red flags include any BBB email from an address that isn't @bbb.org; generic greetings like "Dear Business Owner" instead of a specific business name; urgent deadlines pressuring an immediate click or callback; a request for a Social Security number, full payment card number, or remote device access, none of which the real BBB asks for; and any offer to sell "accreditation" or guarantee a rating change, since actual BBB accreditation is a standards-based review process, not something purchased over the phone.
+
+Anyone who receives a suspicious BBB-branded message should not click any links or call any number it provides, and should instead go directly to bbb.org or call the local BBB office using a number looked up independently to ask whether a complaint or accreditation notice is genuine. Suspicious emails can be forwarded to BBB's phishing reporting address, and anyone who already clicked a link or shared information should change any reused passwords, monitor financial statements, and report the incident to the BBB Scam Tracker and the FTC at ReportFraud.ftc.gov.`,
+  },
 ];
 
 async function seedArticles(articles: SeedArticle[], label: string) {
