@@ -13527,6 +13527,9 @@ Never click a link or call a number inside an unexpected text about SNAP or EBT 
     slug: 'farm-service-agency-impersonation-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'farm-service-agency-impersonation-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Madison_Parish_Farm_Service_Agency_01.jpg?width=1200',
+    coverImageCredit: 'Photo: Ktkvtsh (CC BY 4.0) — a Farm Service Agency office',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.oig.usda.gov/articles/news/press-releases/usda-oig-fraud-advisory-phone-scams',
     body: `A farmer or rancher gets a call from someone identifying themselves as a "Farm Loan Services" representative calling out of Washington, D.C. The caller says the Farm Service Agency owes the farmer disaster assistance funds — money left over from a drought, flood, or other program the farmer may have actually applied for — and just needs a checking account number or credit card number to get it deposited. For someone who has genuinely worked with FSA before and knows real disaster programs exist, the call doesn't sound far-fetched; it sounds like the payoff finally arriving.
 
@@ -13545,6 +13548,9 @@ Never give financial information to an inbound caller claiming to be from FSA or
     slug: 'fake-lead-paint-inspection-certificate-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'lead-paint-inspection-certificate-fraud'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Lead_Paint_-_cracking_and_flaking.jpg?width=1200',
+    coverImageCredit: 'Photo: Ich (CC BY-SA 4.0) — lead paint cracking and flaking on a porch',
+    coverImagePosition: 50,
     sourceUrl: 'https://oag.maryland.gov/News/pages/Lead-Paint-Inspector-Sentenced-for-Falsifying-Lead-Paint-Certificates-and-Operating-Radiation-Machine-Without-a-License.aspx',
     body: `In cities with large amounts of housing built before 1978, a rental unit typically can't legally be leased to a family, especially one with young children, until it passes a lead paint inspection and the landlord receives a certificate confirming the property is free of dangerous lead hazards. A tenant who sees that certificate reasonably assumes it means what it says: that a licensed inspector actually tested the paint and dust in the unit and found it safe. In some cases, the certificate is fabricated paperwork that was never backed by a real test at all.
 
@@ -13555,6 +13561,42 @@ The scheme worked because the certificate system runs almost entirely on trust t
 Red flags include a lead inspection or risk-reduction certificate naming a lab, inspector, or license number that can't be verified through your state's environmental or health agency; a property manager or landlord who can't produce the inspector's name, license number, or the actual date testing was done; a certificate whose address, unit number, or date doesn't cleanly match the unit being rented; and any inspection — lead-related or general home inspection — completed unusually fast, with no visible dust-wipe sampling or testing equipment, especially when the same company also stands to profit from remediation work it recommends.
 
 Before signing a lease or closing on an older home, verify a lead inspection certificate directly with your state's environmental agency using the inspector's accreditation number rather than taking the paperwork at face value, and independently verify any general home inspector's license through your state's licensing board. If there's any doubt and young children are in the home, an accredited lab-based lead dust-wipe test can confirm the truth regardless of what the certificate says. Report a suspected fake lead certificate to your state environmental agency and to the FTC at ReportFraud.ftc.gov, and if a child's blood lead level comes back elevated, contact a pediatrician right away for follow-up testing and guidance.`,
+  },
+  {
+    title: 'Representative Payee Fraud: When the Person Trusted to Manage a Loved One\'s Social Security Checks Steals Them',
+    slug: 'representative-payee-fraud-social-security-benefits-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'representative-payee-fraud'],
+    sourceUrl: 'https://oig.ssa.gov/news-releases/2025-05-13-fall-river-woman-sentenced-for-stealing-nearly-90-000-in-social-security-benefits-intended-for-her-child/',
+    body: `Nancy Taylor of Fall River, Massachusetts was appointed her child's representative payee — the person the Social Security Administration entrusts to receive and manage benefits on behalf of someone who can't yet manage their own, in this case a minor. When the child stopped living with her in May 2016, federal prosecutors say Taylor didn't tell SSA, as she was required to. She kept collecting the monthly checks anyway, and when SSA's contact information lapsed, she called the agency in 2021 to update it and later visited a field office in 2022 to reactivate the benefits, submitting forms falsely claiming the child still lived with her. Between May 2016 and May 2022, she took in roughly $86,994 that was supposed to support her child and used the vast majority of it on her own bills. She pleaded guilty in February 2025 and was sentenced to ten months in federal prison plus three years of supervised release, with $86,994 in restitution ordered.
+
+The representative payee system exists because millions of Social Security and SSI beneficiaries genuinely can't manage their own money — young children, adults with significant cognitive or intellectual disabilities, people with severe mental illness, and seniors with advanced dementia among them. SSA appoints a payee, often a family member but sometimes a friend, a professional fiduciary, or a nonprofit organization, to receive the benefit on the beneficiary's behalf and spend it only on that person's food, housing, medical care, and other needs. According to Fiscal Year 2024 data, roughly 5.7 million payees manage benefits for about 7.7 million beneficiaries, totaling more than $81 billion a year — and just over half of those beneficiaries are minor children, meaning most payees are parents like Taylor. That scale, combined with beneficiaries who by definition often can't monitor their own money or speak up if it's misused, is exactly what makes the arrangement a target.
+
+Misuse takes more than one shape. Some payees, like Taylor, simply spend a dependent's or relative's benefits on themselves. Others keep collecting checks for a beneficiary who has died or who they've lost contact with — federal prosecutors in Massachusetts brought two such cases in 2026 alone, against payees who continued receiving a deceased beneficiary's Social Security payments for years after the death. And misuse isn't limited to family: in congressional testimony, SSA's Office of the Inspector General described an organizational payee called "Payee-R-Us" in Washington State, managing money for roughly 200 vulnerable beneficiaries, whose director embezzled more than $107,000 — including one homeless beneficiary's $15,000 retroactive check, taken for personal use without the beneficiary ever learning it existed.
+
+The oversight gap has been documented for years. Testimony from SSA's Inspector General found that between October 1997 and March 2003 alone, the agency opened more than 3,200 representative payee investigations, identifying nearly $26 million in fraud and producing over 600 convictions — and a separate internal audit around the same period found SSA had referred only a minority of confirmed misuse cases over $5,000 for possible prosecution. Payees are generally required to file a periodic accounting of how the money was spent, but an audit found SSA was able to actually collect and review less than half of the reports it had requested, meaning a payee's spending often goes unchecked for long stretches by default rather than by design.
+
+Warning signs include a payee who won't explain in plain terms how a beneficiary's money is being spent; a beneficiary whose basic needs — food, rent, medical care, clothing — aren't being met despite the full benefit being collected each month; a payee who avoids or repeatedly misses the periodic accounting SSA requires; a payee who has lost contact with, moved away from, or is no longer caring for a beneficiary but keeps receiving and managing the checks anyway; and any sudden, unexplained improvement in a payee's own finances or spending that doesn't track with their own income.
+
+A beneficiary who can manage their own affairs can ask SSA to become their own payee, and SSA also allows anyone still capable of making the choice to name their own preferred future payee in advance — called Advance Designation — rather than leaving that decision to be made for them later, after they may no longer be able to weigh in. Anyone who suspects a payee is misusing a beneficiary's funds, whether the beneficiary themselves, a family member, or an outside observer, can report it directly to SSA or to the Social Security Administration's Office of the Inspector General online at oig.ssa.gov or by mail to the Social Security Fraud Hotline, P.O. Box 17785, Baltimore, MD 21235. SSA will investigate, can appoint a new payee or begin paying the beneficiary directly, and will attempt to recover misused funds; suspected criminal theft can also be reported to local police.`,
+  },
+  {
+    title: 'Real Estate "Wealth-Building" Seminar Scams: How a Free House-Flipping Workshop Turns Into a $40,000 Bill',
+    slug: 'real-estate-investment-seminar-scam-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'real-estate-seminar-scam'],
+    sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2019/11/ftc-acts-shut-down-companies-operating-real-estate-seminar-scheme',
+    body: `A postcard, an infomercial, or a targeted social media ad invites you to a free 90-minute seminar on flipping houses, often name-dropping a familiar face from HGTV or a reality show as an endorser or instructor. The pitch is simple and appealing: real estate has made ordinary people wealthy, and this particular program will teach the "insider" formula, with access to discounted, "off-market" deals thrown in. The free session, though, isn't really the product — it's the doorway into a sales funnel built to sell something far more expensive.
+
+The Federal Trade Commission sued Nudge, LLC and several affiliated companies over exactly this model in November 2019, describing a scheme that pulled in more than $400 million in revenue from late 2014 to late 2017 alone. According to the FTC's complaint, Nudge's free seminars — featuring paid endorsers including Scott Yancey, Doug Clark, and Josh Altman — were high-pressure pitches for a three-day workshop costing over $1,100, which in turn pitched "advanced training" that could run as high as $40,000. An FTC survey of people who'd actually attended found that more than 95% of them ended up paying Nudge more money than they ever made back flipping real estate. FTC Bureau of Consumer Protection Director Andrew Smith didn't soften the conclusion: "These defendants presided over a sales process that started with empty promises of future wealth and ended with many consumers left in financial ruin."
+
+Nudge wasn't an isolated case. The FTC brought a parallel action against Zurixx, LLC, another Utah-based real estate coaching operation that used HGTV personalities including Tarek and Christina El Moussa and Hilary Farr as endorsers, luring attendees into $1,997 seminars that escalated into tens of thousands of dollars in coaching fees built on the same false earnings promises. In July 2024, the FTC mailed out more than $12 million in refund checks to 25,563 consumers harmed by the scheme — a settlement that also permanently banned the operators from ever selling real estate or business coaching again.
+
+What makes these programs effective is that the underlying premise isn't a lie — some people genuinely do build wealth flipping or investing in real estate — which makes an audience of already-motivated, financially stretched attendees receptive to a pitch that promises to teach them how. Inside the room, the sales tactics compound that receptiveness: manufactured urgency to sign up "before the discount expires today only," staff walking the aisles encouraging attendees to open new credit cards on the spot to cover the workshop fee, and, in some FTC cases, contract terms that barred paying customers from posting negative reviews or even contacting a regulator about their experience.
+
+Red flags include a free seminar that turns into same-day pressure to buy a paid workshop; specific, guaranteed dollar-figure earnings claims from real estate "coaching" or "training"; a program that escalates in stages, each one more expensive than the last, often reaching five figures; encouragement to finance the purchase with a credit card opened in the room; a celebrity endorsement offered as the main evidence of legitimacy; and any contract clause that restricts your ability to leave a review or file a complaint.
+
+Before paying for any real estate investment training, search the company's name alongside "FTC," "lawsuit," or "complaint," and check the FTC's own case database at ftc.gov/legal-library. Free or low-cost alternatives exist through public libraries, a local Real Estate Investors Association, or a real estate attorney — none of which require a same-day credit card decision. If you've already paid into a program like this, you can report it to the FTC at ReportFraud.ftc.gov and to your state Attorney General's consumer protection office, and should check the FTC's refund announcements, since the agency has repeatedly recovered and redistributed money from operators of these schemes.`,
   },
 ];
 
@@ -29331,6 +29373,42 @@ const SEED_SCAMS: SeedScam[] = [
     alertLevel: 'medium',
     sources: ["Tennessee Attorney General's Office — Division of Consumer Affairs"],
     sourceUrl: 'https://www.tn.gov/attorneygeneral/news/2024/11/20/pr24-80.html',
+  },
+  {
+    name: 'Wyoming Department of Health Spoofed "Investigative Unit" Call Scam',
+    slug: 'wyoming-department-of-health-spoofed-investigative-unit-scam',
+    description:
+      "Callers using caller-ID spoofing technology have been placing calls that display the real primary phone number of the Wyoming Department of Health Director's Office, 307-777-7656, then claim to be from an \"investigative unit\" or a pharmacy and press whoever answers to hand over sensitive personal information. The Wyoming Department of Health issued a public warning on June 30, 2026 stating flatly that \"official department representatives will never call to ask for sensitive personal information in this manner,\" making clear the caller-ID match alone is not proof the call is genuine. The department's recommended response is to hang up and independently dial a number found on its own official website rather than trust the number shown on the phone, to never share a Social Security number, financial account details, or other sensitive data with an unsolicited caller, to decline any request to pay by credit card, debit card, or gift card over the phone, to ask a wireless carrier about call-blocking features, and to report spoofed calls to the Federal Communications Commission.",
+    categorySlug: 'government-impersonation',
+    country: 'US',
+    state: 'WY',
+    alertLevel: 'medium',
+    sources: ['Wyoming Department of Health'],
+    sourceUrl: 'https://health.wyo.gov/wyoming-department-of-health-warns-residents-about-spoofing-calls/',
+  },
+  {
+    name: 'State Farm "Hail Focus Initiative" Claim-Denial Scheme',
+    slug: 'oklahoma-state-farm-hail-focus-initiative-lawsuit',
+    description:
+      "Oklahoma Attorney General Gentner Drummond sued State Farm Fire and Casualty Company on June 24, 2026, accusing the insurer of running an internal program called the \"Hail Focus Initiative\" that was designed to reduce roof-replacement approvals and minimize what the company paid out on hail and wind damage claims. The lawsuit, filed in Cleveland County District Court, alleges State Farm marketed its homeowners policies as providing full replacement-cost coverage for storm damage while secretly applying undisclosed internal claims-handling standards and outcome-oriented engineering reviews built to justify denying or underpaying otherwise valid claims — leaving Oklahoma homeowners covering storm-repair costs their premiums were supposed to guarantee. Drummond's petition accuses State Farm of violating the Oklahoma Consumer Protection Act and the state's Racketeer-Influenced and Corrupt Organizations Act, along with civil conspiracy and unjust enrichment, and seeks injunctive relief, civil penalties, disgorgement of profits, and restitution for affected policyholders. \"This case is about more than individual claim disputes. The allegations describe a corporate scheme that threatens the integrity of Oklahoma's insurance marketplace,\" Drummond said, adding, \"It is unacceptable that Oklahomans are paying rising homeowners insurance premiums yet receiving less protection.\" Homeowners who believe a legitimate storm-damage claim was wrongly denied or lowballed are advised to request a copy of their insurer's full engineering report, obtain an independent contractor estimate, and file a complaint with the Oklahoma Insurance Department if the dispute isn't resolved directly with the company.",
+    categorySlug: 'insurance-fraud',
+    country: 'US',
+    state: 'OK',
+    alertLevel: 'medium',
+    sources: ["Oklahoma Attorney General's Office"],
+    sourceUrl: 'https://oklahoma.gov/oag/news/newsroom/2026/june/drummond-files-new-lawsuit-against-state-farm.html',
+  },
+  {
+    name: 'Wyoming Corporate Services "Aged Shelf Company" Deception',
+    slug: 'michigan-wyoming-corporate-services-shelf-company-deception',
+    description:
+      "Michigan Attorney General Dana Nessel concluded an investigation into Wyoming Corporate Services, a business-formation company, after finding it marketed pre-formed Michigan business entities — \"shelf companies\" incorporated years earlier and left dormant, then sold to a buyer looking to instantly own a business with a years-long paper history — specifically as a way to gain more favorable treatment in loan applications, equipment leasing, and competitive bids than a company's real, short operating history would otherwise warrant. Nessel's office found this marketing violated the Michigan Consumer Protection Act by inducing consumers and business counterparties to rely on a fabricated impression of a company's age and track record. \"One reason someone might purchase a company that has been incorporated and 'put on shelf' for a lengthy period is to gain a more favorable market perception,\" Nessel said, adding that \"this kind of deception undermines the trust consumers place in businesses and distorts fair competition.\" Wyoming Corporate Services agreed to an Assurance of Voluntary Compliance and Discontinuance filed in Ingham County's 30th Judicial Circuit Court on July 2, 2024, permanently stopping its sale of aged shelf companies formed under Michigan law rather than face potential litigation. Anyone evaluating a business partner, lender, or bidder should verify a company's actual incorporation and operating history directly through the Michigan Department of Licensing and Regulatory Affairs' business-entity search rather than taking a company's stated years-in-business at face value.",
+    categorySlug: 'identity-theft',
+    country: 'US',
+    state: 'MI',
+    alertLevel: 'medium',
+    sources: ["Michigan Attorney General's Office"],
+    sourceUrl: 'https://www.michigan.gov/ag/news/press-releases/2024/07/02/ag-nessel-halts-wyoming-business-selling-deceptive-ready-made-businesses',
   },
 ];
 
