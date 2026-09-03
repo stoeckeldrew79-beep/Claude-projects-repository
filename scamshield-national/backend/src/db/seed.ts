@@ -7214,6 +7214,34 @@ The arrangement surfaced in 1988 through local reporting on a Kawasaki city offi
 The Recruit scandal remains one of postwar Japan's defining corruption cases, credited with fueling the political disillusionment that helped end the Liberal Democratic Party's unbroken decades-long grip on government by 1993 — a reminder that not every scheme built on quiet insider access needs an ordinary victim writing a check; sometimes the currency being defrauded is public trust in the government itself.`,
     sourceUrl: 'https://en.wikipedia.org/wiki/Recruit_scandal',
   },
+  {
+    title: 'Arlan Galbraith and the Pigeon King Ponzi Scheme That Fleeced North American Farmers',
+    slug: 'arlan-galbraith-pigeon-king-international-ponzi',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `In 2001, an Ontario farmer named Arlan Galbraith announced he had bred a superior new line of pigeon and founded Pigeon King International to sell breeding pairs to other farmers. His pitch was straightforward: buy a starter flock, breed them, and Pigeon King would buy back every offspring at a fixed, guaranteed price for the next ten years. Galbraith told buyers the birds were destined for a booming market — first as racing pigeons, later as squab, a delicacy he claimed restaurants and grocers were clamoring for.
+
+There was no such market. Pigeon King wasn't selling birds into any real downstream demand; it was using the cash from each new round of buyers to make the buy-back payments it owed to the round before, a textbook Ponzi structure wearing overalls instead of a suit. Galbraith targeted Mennonite and other close-knit farming communities across Ontario and the American Midwest in part because he calculated, correctly for years, that they were less likely to sue or go to the police than to quietly absorb a loss. Farmers who'd never touched a stock certificate in their lives found themselves building elaborate custom pigeon lofts on his instructions, sinking their savings and sometimes their farms' equity into breeding stock at prices far above what any pigeon had ever sold for.
+
+The math simply couldn't hold: forensic accountants later determined Pigeon King owed roughly $356 million in future buy-back obligations against the roughly $42 million in new investor cash it had ever actually taken in. The company collapsed into bankruptcy in June 2008, leaving close to a thousand farmers across 20 U.S. states and five Canadian provinces holding lofts full of pigeons nobody wanted and contracts nobody would honor. Galbraith was arrested in 2010, and a jury convicted him of criminal fraud in 2013; he was sentenced in 2014 to seven years in prison, with the judge citing his refusal to show any remorse or apologize to his victims as an aggravating factor.
+
+The Pigeon King case is now taught as a case study in agricultural-sector Ponzi schemes precisely because the mechanics were so ordinary — a guaranteed buy-back price funded entirely by the next round of buyers — dressed in a setting, and aimed at a community, that made the fraud look nothing like Wall Street.`,
+    sourceUrl: 'https://www.ctvnews.ca/kitchener/article/jury-finds-pigeon-king-founder-guilty-of-criminal-fraud/',
+  },
+  {
+    title: "Jean-Pierre Van Rossem and the Moneytron \"Supercomputer\" That Was Really a Ponzi Scheme",
+    slug: 'jean-pierre-van-rossem-moneytron-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Jean-Pierre Van Rossem was a Belgian mathematician and self-styled financial genius who, through the 1980s, built a public reputation as a man who had cracked the stock market. His investment firm, Moneytron, claimed to run client money through a proprietary supercomputer capable of forecasting price movements with uncanny accuracy. The machine itself was never shown to investors or journalists — it was kept, Van Rossem said, behind a locked door — and the returns it supposedly generated were consistently, suspiciously excellent.
+
+They were fictional. Moneytron wasn't trading its way to superior returns; it was paying earlier investors with money raised from new ones, the same structure Ponzi had run six decades earlier, laundered through the language of computerized forecasting instead of postal coupons. Van Rossem used the inflow to fund an extravagant public profile, including buying a majority stake in the Onyx Formula One racing team in 1989 and rebranding it Moneytron Onyx — a very visible advertisement for a firm that, behind the scenes, had no real engine generating the profits it claimed.
+
+The scheme unraveled in 1990 when a check Van Rossem wrote to a French businessman for roughly $50 million bounced, triggering scrutiny that exposed Moneytron's books. Belgian authorities charged him with fraud, and rather than wait for the case to reach him, Van Rossem founded his own political party, ROSSEM, and ran for parliament in 1991 — winning a seat that came with parliamentary immunity from prosecution, which delayed his sentence for years. He was ultimately convicted and sentenced to five years in prison, along with an order to pay roughly $30 million in damages to his defrauded clients, once his immunity lapsed in 1995. Van Rossem died in Brussels in 2018.
+
+The Moneytron affair remains one of Belgium's defining financial scandals, and a clean illustration of a pattern that recurs across eras and technologies alike: a claimed black-box system nobody outside the company is ever allowed to actually inspect, offered as the explanation for returns that are, in fact, coming from the next round of investors' own money.`,
+    sourceUrl: 'https://en.wikipedia.org/wiki/Jean-Pierre_Van_Rossem',
+  },
 ];
 
 // Practical "how it works / red flags / what to do" guides covering the
