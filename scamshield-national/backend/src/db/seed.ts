@@ -28731,6 +28731,42 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ["Idaho Office of the Attorney General"],
     sourceUrl: 'https://www.ag.idaho.gov/newsroom/consumer-alert-attorney-general-cautions-against-jury-duty-scams-sweeping-across-idaho/',
   },
+  {
+    name: 'North Dakota "Domain Networks" Deceptive Invoice Scam',
+    slug: 'north-dakota-domain-networks-deceptive-invoice-scam',
+    description:
+      'Lake Holdings, LLC mailed North Dakota businesses, churches, and nonprofits notices formatted and worded to look like real invoices — under the names Domain Networks, North Dakota Domain Directory, and My Safe Domain — complete with formal billing language and a firm payment deadline, creating the false impression that payment was owed for domain-related services the recipient never ordered. North Dakota Attorney General Drew Wrigley announced a settlement in February 2026 resolving alleged violations of the state\'s Consumer Fraud Law: Lake Holdings agreed to pay $19,650 in civil penalties, without admitting wrongdoing, and to notify every North Dakota entity that paid in response to the mailers since March 2022 of their right to a full refund. Organizations that receive an unsolicited invoice-like mailer for a service they never ordered are advised to verify it independently with whoever actually manages their domain or web services before paying, and to report deceptive mailers to the North Dakota Attorney General\'s office at attorneygeneral.nd.gov or (701) 328-3404.',
+    categorySlug: 'business-email-compromise',
+    country: 'US',
+    state: 'ND',
+    alertLevel: 'medium',
+    sources: ['North Dakota Attorney General\'s Office'],
+    sourceUrl: 'https://attorneygeneral.nd.gov/attorney-general-wrigley-announces-settlement-with-company-behind-deceptive-invoice-solicitations/',
+  },
+  {
+    name: 'New Hampshire Quit-Claim Deed Fraud',
+    slug: 'new-hampshire-quit-claim-deed-fraud',
+    description:
+      'The New Hampshire Attorney General\'s Office and the FBI\'s Boston Division issued a joint consumer alert in June 2025 warning of a steady increase in quit-claim deed fraud, in which scammers forge a deed purporting to transfer ownership of someone\'s real property to themselves or an accomplice, then race to record the forged document with the county register of deeds before the real owner ever finds out. Once a fraudulent deed is on record, the scammer can sell the property, take out a mortgage against it, or rent it out for profit, leaving the true owner to untangle the fraud in court after the fact. Fraudsters tend to target vacant lots, property with no mortgage or lien on it, and homes owned by people who live out of state and are less likely to notice a problem quickly. The alert recommends owners regularly check their property\'s recorded status with their county register of deeds and consider a free monitoring service such as PropertyFraudAlert.com, which sends an alert whenever a new document is recorded against a specific property.',
+    categorySlug: 'identity-theft',
+    country: 'US',
+    state: 'NH',
+    alertLevel: 'medium',
+    sources: ["New Hampshire Department of Justice", 'Federal Bureau of Investigation — Boston Division'],
+    sourceUrl: 'https://www.doj.nh.gov/news-and-media/consumer-alert-attorney-general-warns-public-be-diligent-amidst-reports-quit-claim',
+  },
+  {
+    name: 'Green Mountain Power Small-Business Meter Impersonation Scam',
+    slug: 'vermont-green-mountain-power-small-business-meter-scam',
+    description:
+      'Vermont\'s largest electric utility, Green Mountain Power, has repeatedly warned customers about callers impersonating the company and telling small businesses specifically that they must pay immediately to avoid having their electric meter disconnected or "replaced." In several waves of reports, the caller places multiple calls to the same business over time to build a sense of familiarity and trust before pressuring an employee to buy a prepaid gift card and read off the numbers to settle the supposed balance. GMP says it would never threaten an immediate shutoff or demand payment by gift card or prepaid card, and recommends that anyone unsure whether a call is real hang up and call the company\'s official customer service line directly rather than a number the caller provides. Suspicious calls can be reported to the Vermont Attorney General\'s Consumer Assistance Program at 800-649-2424.',
+    categorySlug: 'utility-scams',
+    country: 'US',
+    state: 'VT',
+    alertLevel: 'medium',
+    sources: ['Green Mountain Power'],
+    sourceUrl: 'https://greenmountainpower.com/news/alerting-customers-about-scam-calls-targeting-small-businesses/',
+  },
 ];
 
 async function seedCategoriesAndScams() {
