@@ -5796,6 +5796,48 @@ By 1917, with the United States newly at war with Germany, rumors spread that th
 Enricht's case is an early template for every "impossible energy breakthrough" investment pitch that followed, from perpetual-motion machines to more recent free-energy and miracle-fuel scams: a compelling live demonstration engineered to survive surface scrutiny, a "proprietary formula" withheld under the cover of legitimate-sounding secrecy, and a roster of credible, famous believers whose involvement did more to recruit the next investor than any technical evidence ever could. Sophistication in a mark's other dealings is no defense against a scheme built specifically to exploit the story sophisticated people want to believe about a shortage they're desperate to solve.`,
     sourceUrl: 'https://en.wikipedia.org/wiki/Louis_Enricht',
   },
+  {
+    title: 'Gert Postel: The Mail Carrier Who Became Chief Psychiatrist at a German Mental Hospital',
+    slug: 'gert-postel-fake-psychiatrist-impostor',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Gert Postel trained as a letter carrier in West Germany, finishing only a basic secondary education before going to work for the postal service. In September 1982, using the invented alias "Dr. med. Dr. phil. Clemens Bartholdy," he applied for the position of assistant public health officer in the town of Flensburg, backing the application with forged academic credentials and a talent for dense medical jargon he had picked up largely from reading. He got the job, and held it for months, writing psychiatric assessments and making clinical decisions with no medical training whatsoever, before the fraud was discovered. He was convicted of forgery and impersonation in 1984.
+
+Rather than deter him, the conviction became a kind of proof of concept. In the mid-1990s, applying openly under his own name and with his forgery conviction a matter of public record, Postel beat out roughly 40 genuinely qualified candidates for the position of senior physician and acting chief psychiatrist at the Zschadrass district hospital, one of the largest psychiatric institutions in the former East Germany. For about eighteen months he ran wards, supervised staff, and made diagnostic and treatment decisions affecting real patients, relying on the same command of psychiatric terminology and sheer verbal confidence that had worked in Flensburg — this time inside a hospital administration that never independently verified a medical license belonging to a man it could easily have looked up.
+
+The second imposture unraveled only by chance, in July 1997, when a former colleague from the Flensburg case recognized him. Postel went into hiding rather than surrender, prompting a manhunt that made him a fixture of German tabloids, and was finally arrested in May 1998. A Leipzig court convicted him in 1999 of repeated impersonation and document forgery and sentenced him to four years in prison; he was released on probation in January 2001. Rather than disappear afterward, Postel leaned into his notoriety, publishing a memoir, "Doktorspiele" ("Playing Doctor"), that framed his years inside the psychiatric establishment as an indictment of a profession he argued was too credential-obsessed and too incurious to notice it was being run, for a year and a half, by a man with no medical degree at all.
+
+Postel's case is less about money than about the specific vulnerability of institutions that treat a credential as self-verifying once it's on file: nobody at Zschadrass called the licensing board, and nobody thought a second look was warranted for an applicant who simply sounded like he belonged. It is the same gap modern fake-doctor and fake-professional cases still exploit — hospitals, schools, and employers that accept the paperwork and the fluency of the pitch as sufficient proof, rather than confirming a license or degree at its actual source before handing someone authority over other people's care.`,
+    sourceUrl: 'https://en.wikipedia.org/wiki/Gert_Postel',
+  },
+  {
+    title: 'John Friedrich and the $236 Million National Safety Council Fraud That Ended in a Shotgun Suicide',
+    slug: 'john-friedrich-national-safety-council-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `John Friedrich arrived in Australia in the mid-1970s under a false identity, having fled West Germany — where he was born Johann Friedrich Hohenberger — after embezzling money from a road-construction firm. He joined the Victorian division of the National Safety Council of Australia, a small, unglamorous workplace-safety charity, in 1977, and by 1982 had talked his way into the job of executive director. Over the following years he transformed it into something closer to a private paramilitary rescue force: helicopters, fixed-wing aircraft, armored vehicles, and even a submersible were purchased in the council's name, all in service of a search-and-rescue capability far beyond anything a workplace-safety nonprofit had any obvious need for.
+
+None of it was paid for honestly. Friedrich financed the buildup by borrowing hundreds of millions of dollars from banks and financial institutions against collateral and asset valuations that were fabricated or wildly inflated, and by presenting the council's finances in a way that made an organization with no real revenue base look creditworthy for loan after loan. By the time auditors and lenders began asking the questions that should have been asked years earlier, the council's total exposure had reached an estimated AUD $236 million, making it, at the time, the largest fraud case in Victoria's history and one of the largest corporate collapses in Australia.
+
+What made the case unusual, and part of why it took so long to unravel, was that Friedrich did not appear to be enriching himself. Investigators found the money had gone almost entirely back into the organization — into helicopters, equipment, salaries, and the council's genuine, if wildly overbuilt, rescue operations — rather than into personal accounts. When the fraud finally surfaced in 1989, Friedrich vanished for sixteen days, triggering a nationwide manhunt and blanket press coverage, before he was found and charged with obtaining loans by deception. He never faced a verdict: on July 26, 1991, days before he was due to give evidence at his own committal hearing, Friedrich shot himself with a shotgun at a friend's rural property, ending the case without ever explaining, in court, exactly how he'd talked so many lenders into funding a fantasy for over a decade.
+
+Friedrich's fraud is a reminder that the checks meant to catch financial deception — audited collateral, verified revenue, a lender's own due diligence — depend entirely on someone actually doing the verifying, and that a scheme built to fund an organization's mission rather than a fraudster's lifestyle can look, on the surface, less like theft and more like ambition, right up until the debts come due and there's nothing real behind them.`,
+    sourceUrl: 'https://en.wikipedia.org/wiki/John_Friedrich_(fraudster)',
+  },
+  {
+    title: 'George Psalmanazar: The Frenchman Who Convinced Georgian London He Was a Native of Formosa',
+    slug: 'george-psalmanazar-formosa-impostor',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Sometime around 1702, a young Frenchman of uncertain origin — his real name was never established, and "George Psalmanazar" was itself a pseudonym he borrowed from a king mentioned in the Book of Kings — arrived in the Netherlands claiming to be a native of Formosa, the island now known as Taiwan, kidnapped from his homeland by Jesuit missionaries and forcibly converted to Catholicism before escaping to Europe. He fell in with a Scottish army chaplain, William Innes, who "reconverted" him to Anglicanism in a stunt letter-writing campaign to Church of London officials that appears, in hindsight, to have been staged by both men to build Psalmanazar's credibility. In 1703 Innes brought him to London, where a genuine exotic convert from a virtually unknown Asian island was a sensation waiting to happen.
+
+Psalmanazar did not merely claim a foreign identity; he built an entire invented civilization to support it. He devised a Formosan alphabet and grammar he could write and translate fluently, described a society that practiced human sacrifice and polygamy, claimed to eat raw meat seasoned only with spices, and, when pressed on why a man supposedly from a tropical island had pale European skin, explained that Formosan nobility lived exclusively underground, sheltered from the sun. In 1704 he published "An Historical and Geographical Description of Formosa," a detailed, entirely fabricated ethnography that became a bestseller. He lectured before the Royal Society, sparred credibly with skeptical scholars including the astronomer Edmond Halley, and was invited to Christ Church, Oxford, to teach the "Formosan" language he had invented, drawing a stipend for instructing students in a tongue that didn't exist.
+
+The deception held for roughly two years before the weight of its own inconsistencies, and mounting skepticism from missionaries and travelers who had actually visited Formosa and found nothing resembling Psalmanazar's account, brought it down around 1706. He never publicly revealed his real name or origin even after admitting the story was invented, and spent the rest of his life in London working as a hack writer and encyclopedia contributor, eventually earning a reputation as a genuinely learned and pious man — Samuel Johnson later called him one of the best men he had ever known and said he would as soon think of contradicting a bishop. Psalmanazar died in London on May 3, 1763, and only in his posthumously published memoirs did he formally confess the full extent of the fraud, though he still withheld his birth name.
+
+Psalmanazar's hoax worked for the same reason later ethnic and identity impostures have kept working since: eighteenth-century London had no way to verify a claim about a place almost nobody there had ever seen, so the burden of disproof fell entirely on witnesses who could point to inconsistencies rather than on Psalmanazar to substantiate anything, and a confident, detailed, endlessly elaborated performance filled that gap for years before the story's own excess of invented detail finally became the thing that gave it away.`,
+    sourceUrl: 'https://en.wikipedia.org/wiki/George_Psalmanazar',
+  },
 ];
 
 // Practical "how it works / red flags / what to do" guides covering the
@@ -24456,6 +24498,39 @@ const SEED_SCAMS: SeedScam[] = [
     alertLevel: 'critical',
     sources: ['Krebs on Security', 'Federal Bureau of Investigation (FBI)'],
     sourceUrl: 'https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/',
+  },
+  {
+    name: 'Shield Master Fund and First Guardian Superannuation Switching Scheme',
+    slug: 'australian-shield-first-guardian-superannuation-switching-scheme',
+    description:
+      'A telemarketing call or online ad offering a free "superannuation health check" refers the target to an affiliated financial adviser, who recommends rolling their existing retirement savings out of a regulated industry fund and into an unfamiliar "choice" investment product — most often Shield Master Fund or First Guardian Master Fund — while mainstream superannuation platforms such as Macquarie, Equity Trustees, Diversa, and Netwealth lent the switch an air of legitimacy simply by making the funds available for rollover. About 12,000 Australians moved more than $1 billion in retirement savings into the two funds this way before both collapsed: roughly 6,000 investors lost an estimated $500-590 million in First Guardian and about 5,800 lost around $480 million in Shield. ASIC has since frozen assets, appointed receivers and liquidators, cancelled licences, banned more than a dozen financial advisers, and in 2025 sued both Macquarie Investment Management and Equity Trustees in the Federal Court over their gatekeeping failures; deputy chair Sarah Court said the two funds "were riddled with conflicts, with misconduct, with false statements that were made to investors." ASIC\'s message is that a cold call promising a free super review, followed by pressure to switch out of a familiar fund and into a product promoted mainly through referral networks and third-party ratings rather than a person\'s own trusted adviser, is a pattern worth refusing outright — genuine super advice is never solicited by telemarketer.',
+    categorySlug: 'investment-fraud',
+    country: 'AU',
+    alertLevel: 'critical',
+    sources: ['ASIC (Australian Securities and Investments Commission)'],
+    sourceUrl: 'https://www.asic.gov.au/about-asic/asic-investigations-and-enforcement/enforcement-activities/shield-master-fund',
+  },
+  {
+    name: 'Australian Cryptocurrency ATM Cash Deposit Scam',
+    slug: 'australian-cryptocurrency-atm-cash-deposit-scam',
+    description:
+      'A scammer running an investment pitch, a romance con, an extortion threat, or a fake tech-support or job offer instructs the victim to withdraw cash and feed it into a cryptocurrency ATM — now numbering more than 1,800 across Australia, up from just 23 in 2019 — before scanning a QR code the scammer supplies so the converted crypto is sent straight to a wallet the scammer controls. The AFP recorded 150 ReportCyber reports and more than $3.1 million in losses to crypto ATM scams in the twelve months to January 2025, about one report every two and a half days and averaging over $20,000 per victim, with investment scams the largest single category (63 reports) followed by extortion (35) and romance (24); nearly half of all victims were aged over 51. Because a crypto ATM deposit is treated like cash and is irreversible once confirmed, AUSTRAC has since placed conditions on all crypto ATM operators including a $5,000 transaction limit, and the AFP warns the true scale of losses is likely far higher than reported figures suggest. No legitimate bank, government agency, romantic partner, or employer will ever direct someone to a cryptocurrency ATM to "protect," "invest," or "release" funds — an instruction to do so should be treated as confirmation of a scam in progress.',
+    categorySlug: 'investment-fraud',
+    country: 'AU',
+    alertLevel: 'high',
+    sources: ['Australian Federal Police'],
+    sourceUrl: 'https://www.afp.gov.au/news-centre/media-release/3-million-lost-cryptocurrency-atm-scams-12-months-may-be-just-tip-iceberg',
+  },
+  {
+    name: 'Australian "Ghost Store" Fake Boutique Webshop Scam',
+    slug: 'australian-ghost-store-fake-boutique-webshop-scam',
+    description:
+      'A Facebook or Instagram ad shows a small Australian boutique — complete with a fabricated owner backstory and AI-generated photos — running a heavily discounted "closing down sale," but the Shopify-built store is actually operated overseas, ships cheap, mass-produced goods that don\'t match what was advertised (if anything arrives at all), and gives buyers no real way to get a refund. The ACCC has received at least 360 reports about roughly 60 of these "ghost stores" since the start of 2025 and issued Public Warning Notices on 3 July 2025 against four of them by name — everly-melbourne.com, willowandgrace-adelaide.com, sophie-claire.com, and doublebayboutique.com — while writing to Meta and Shopify to demand action against the operators behind them. ACCC deputy chair Catriona Lowe said the conduct "preys on the empathy of consumers who have a genuine desire to support local businesses, as well as creating a false sense of urgency." Red flags the ACCC lists include a .com domain instead of .com.au, no ABN or physical contact details, an overseas return address despite claiming to be local, and glowing on-site testimonials that don\'t match negative reviews found elsewhere; shoppers should verify an unfamiliar retailer against the Australian Business Register before buying and report suspect stores to Scamwatch, Meta, or Shopify.',
+    categorySlug: 'online-shopping-scams',
+    country: 'AU',
+    alertLevel: 'high',
+    sources: ['ACCC (Australian Competition and Consumer Commission)'],
+    sourceUrl: 'https://www.accc.gov.au/media-release/consumers-warned-about-ghost-stores-imitating-australian-businesses',
   },
 ];
 
