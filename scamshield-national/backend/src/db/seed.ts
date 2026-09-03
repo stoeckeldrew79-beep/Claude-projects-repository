@@ -14106,6 +14106,9 @@ Protect yourself by never revealing your home address, even indirectly, on a str
     slug: 'squatting-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'squatting-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Notices_on_door_and_windows_of_foreclosed_house,_Walden,_NY,_April_2013.jpg?width=1200',
+    coverImageCredit: 'Daniel Case, CC BY-SA 3.0, via Wikimedia Commons — notices posted on the door of a vacant, unoccupied house',
+    coverImagePosition: 50,
     // representative photo — replace with an exact match if found
     sourceUrl: 'https://cbs12.com/news/local/serial-fraudster-arrested-for-20-year-squatting-scheme-in-luxury-rentals-fake-bank-records-forged-wire-transfers-wellington-real-estate-scam-26-evictions-organized-fraud-charges-bad-checks-meadow-wood-drive-corsica-drive',
     body: `A property owner in Wellington, Florida listed a $740,000 four-bedroom home for rent in May 2025. A prospective tenant came back quickly with what looked like solid proof she could afford it: screenshots of bank accounts showing a balance of more than $23,000. The owner's daughter, reassured, handed over the keys. Investigators later found the accounts behind those screenshots actually held less than ten dollars combined. By the time anyone figured that out, the tenant had already moved in — and the family was out $32,500.
@@ -14125,6 +14128,9 @@ Protect a vacant or remotely managed property by checking on it in person, or th
     slug: 'career-training-job-placement-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'career-training-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Hiring_Our_Heroes_veteran%E2%80%99s_job_fair_held_at_Fort_Jackson_120306-A-IL912-012.jpg?width=1200',
+    coverImageCredit: 'Sgt. 1st Class Joel Quebec, U.S. Army (Public Domain) — a job fair booth for veterans and military spouses',
+    coverImagePosition: 50,
     // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2024/07/career-step-pay-435-million-cash-debt-cancellation-resolve-charges-it-used-deceptive-advertising',
     body: `An online ad promises a fast track into a stable, well-paid career — medical billing, coding, pharmacy technician work — through a self-paced training program that takes less than six months, comes with a guaranteed hands-on externship, and leads almost certainly to a job, since more than 80% of graduates land one in their field. For military spouses especially, the pitch comes with an extra hook: the tuition can be paid entirely with a federal benefit, the Military Spouse Career Advancement Account, so it can feel like a program with essentially no downside. Enroll, and a very different picture emerges.
@@ -14144,6 +14150,9 @@ Before enrolling in or paying for any career-training or coaching program, verif
     slug: 'athletic-recruiting-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'athletic-recruiting-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/High_School_Football_Spring_Practice_1_(7160213359).jpg?width=1200',
+    coverImageCredit: 'L.P. Stokes, U.S. Department of Energy (Public Domain) — high school football practice',
+    coverImagePosition: 50,
     // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.fox5atlanta.com/news/sisters-scammed-fake-college-recruiter-scholarship-hoax',
     body: `Regina DeLoach-Ratliff and her twin sister co-host a youth football recruiting show near Atlanta, so when a man named Malcolm Walker told them he could get her son, an aspiring college football player already holding a scholarship at Mercer University, in front of major program coaches, the pitch landed with people who thought they knew the recruiting world. Walker convinced the family it was worth pulling the scholarship and entering Lonnie Ratliff IV into the NCAA transfer portal to chase a bigger offer, then sent screenshots of texts supposedly from college coaches and asked for money to cover flights and hotels for campus visits. Visit after visit fell through on some new excuse. By the time the family gave up and asked for their money back, they'd handed Walker roughly $6,000 — and he refused to return it. "He makes you feel bad about asking for your own money back," DeLoach-Ratliff said. Gainesville, Georgia police arrested Walker in March 2025; he'd been arrested the year before in a separate scheme accused of taking more than $12,000 from two victims over fraternity dues.
@@ -14163,6 +14172,9 @@ Before paying for any recruiting service, agent, or "college consultant," look t
     slug: 'blind-visually-impaired-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'blind-visually-impaired-scams'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Blind_man_walking_with_a_long_cane.jpg?width=1200',
+    coverImageCredit: 'Jay Galvin, CC BY 2.0, via Wikimedia Commons',
+    coverImagePosition: 50,
     // representative photo — replace with an exact match if found
     sourceUrl: 'https://patch.com/illinois/oswego/montgomery-woman-swindled-blind-66-year-old-out-3-5k-oswego-pd',
     body: `A 66-year-old legally blind woman in Oswego, Illinois hired Tiffany Berger as her in-home caregiver — someone trusted with the ordinary tasks a blind person often has to hand off to somebody else, including help with money. Between September and November 2024, police say Berger used the woman's debit and credit cards without permission, running up more than $3,500 in unauthorized charges the victim had no easy way to catch, since she couldn't independently read a paper statement to see what had posted to her own accounts. It took a 15-month investigation, financial records obtained by subpoena, and a report filed months after the fact before the Kendall County State's Attorney approved eight felony counts against Berger in May 2025, including financial exploitation of an elderly person and financial exploitation of a person with a disability.
