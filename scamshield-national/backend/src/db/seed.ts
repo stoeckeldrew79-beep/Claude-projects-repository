@@ -26585,6 +26585,42 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ["Missouri Attorney General's Office"],
     sourceUrl: 'https://ago.mo.gov/attorney-general-hanaway-offers-consumer-guidance-against-scams-ahead-of-world-cup/',
   },
+  {
+    name: 'Delaware Vacant-Property Deed Fraud and Seller Impersonation',
+    slug: 'delaware-vacant-property-deed-fraud-seller-impersonation',
+    description:
+      'Fraudsters search Delaware\'s public property records for non-owner-occupied homes and vacant lots, then impersonate the real owner using forged or AI-generated identification and a freshly created email address to make contact plausible. The impostor lists the property with a real estate agent, rushes to accept an offer, insists on their own notary, and refuses video calls or multifactor identity checks before submitting falsified transfer documents to a title company or attorney — who wires sale proceeds to the fraudster long before the actual owner learns anything happened. The scheme works because Delaware is a "race to record" state: recorders of deeds are required by law to check only formatting, forms, and fees on a submitted document, not whether it is authentic, so a convincing forgery gets recorded like any real one. The Delaware Real Estate Commission, part of the Division of Professional Regulation, warns agents, attorneys, title companies, and property owners to watch for a seller who provides a different address than the one on tax records, pressures for a fast below-market cash sale, or refuses standard identity verification.',
+    categorySlug: 'identity-theft',
+    country: 'US',
+    state: 'DE',
+    alertLevel: 'medium',
+    sources: ['Delaware Division of Professional Regulation', 'Delaware Real Estate Commission'],
+    sourceUrl: 'https://dpr.delaware.gov/scam-alert-information/',
+  },
+  {
+    name: 'Kansas Fake Traffic-Violation "Notice of Hearing" Text and QR Code Scam',
+    slug: 'kansas-fake-traffic-violation-notice-of-hearing-scam',
+    description:
+      'Kansans are receiving text messages and emails formatted to look like an official court "Notice of Hearing" for a traffic violation, complete with a real-looking court heading, a fabricated case number, citations to actual Kansas traffic statutes, and a QR code or link to "resolve" the matter by paying a fine immediately. Scanning the code or clicking the link leads to a fraudulent payment page that harvests card details, or in some versions installs malware on the device. Kansas Attorney General Kris Kobach issued a consumer alert in March 2026 stressing that Kansas courts never serve legal notices, summonses, or hearing dates by text message or email, and that anyone who receives one should not reply, call the listed number, scan the QR code, or click any link, but should instead report it to the Attorney General\'s Public Protection Division.',
+    categorySlug: 'government-impersonation',
+    country: 'US',
+    state: 'KS',
+    alertLevel: 'medium',
+    sources: ['Office of the Kansas Attorney General'],
+    sourceUrl: 'https://www.ag.ks.gov/Home/Components/News/News/296/1292',
+  },
+  {
+    name: 'South Dakota Storm-Chaser Repair Contractor Fraud',
+    slug: 'south-dakota-storm-chaser-repair-contractor-fraud',
+    description:
+      'After storms damaged property around Platte and Highmore, South Dakota in mid-2026, transient repair crews from out of the area moved in behind them soliciting door-to-door, pressuring homeowners into signing a contract on the spot before comparing any other bids. These "storm chasers" are frequently vague about their business name, licensing, and sales-tax registration, demand full payment upfront or before work is finished, and in some cases order roofing or building materials from a local supplier without paying for them — leaving the supplier to file a mechanic\'s lien against the homeowner\'s property months later for a bill the homeowner already paid the contractor to cover. The South Dakota Attorney General\'s Consumer Protection Division, led by Attorney General Marty Jackley, advises getting a written quote that fully identifies the business, asking for proof of sales-tax licensing, getting quotes from more than one local contractor, never paying the full price upfront, and confirming suppliers have actually been paid before releasing final payment.',
+    categorySlug: 'mortgage-foreclosure-scams',
+    country: 'US',
+    state: 'SD',
+    alertLevel: 'medium',
+    sources: ['South Dakota Attorney General, Consumer Protection Division'],
+    sourceUrl: 'https://drgnews.com/2026/07/02/attorney-generals-consumer-protection-division-warns-south-dakotans-to-be-alert-for-storm-repair-scams/',
+  },
 ];
 
 async function seedCategoriesAndScams() {
