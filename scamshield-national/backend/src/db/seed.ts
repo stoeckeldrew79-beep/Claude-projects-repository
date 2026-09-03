@@ -5263,10 +5263,9 @@ Decades later, the Philippine government has recovered only a fraction of what w
     slug: 'sani-abacha-nigeria-embezzlement',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Mausoleum_of_General_Sani_Abacha_in_Kano.jpg?width=1200',
-    coverImageCredit: 'Photo: 阿道 (CC0)',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Sani_Abacha_09.jpg?width=1200',
+    coverImageCredit: 'Photo: Mamajo355 (CC BY 4.0) — sculpture portrait of General Sani Abacha',
     coverImagePosition: 50,
-    // representative photo — replace with a portrait if found
     body: `General Sani Abacha seized power in Nigeria through a 1993 coup and ruled as military head of state until his death in 1998 — five years marked by the violent suppression of political opposition and one of the largest state-looting operations in African history, carried out quietly enough that its full scale only became clear after he was gone.
 
 The embezzlement ran through a scheme built on manufactured threats to the state. Abacha's National Security Adviser, Ismaila Gwarzo, wrote a steady stream of secret memos warning of invented plots against Nigeria's security, each one requesting that millions of dollars be released from the Central Bank of Nigeria — in cash, traveler's checks, or wire transfers — supposedly to fund covert operations protecting the country. The threats didn't exist. The money went directly to Abacha and his family, then was laundered through shell companies, real estate, and private bank accounts across Switzerland, the United Kingdom, Jersey, Luxembourg, and the United States.
@@ -7092,6 +7091,9 @@ The fraud unraveled in 1908, when a Persian jeweler came forward and revealed he
 
 The case became notorious enough in Paris that Georges Méliès, the pioneering filmmaker behind "A Trip to the Moon," made a short comic film about it the same year, and novelist Marcel Proust — who had lost money investing alongside Wernher — wrote a set of literary parodies titled "The Lemoine Affair," ridiculing how prominent French writers of the day would each have styled a report on the scandal. Lemoine's diamond-synthesis con endures as an early case study in a scam pattern that still recurs whenever a "revolutionary" industrial process needs financing: a dazzling, closely controlled demonstration, a wealthy backer flattered by exclusivity and secrecy, and a request to simply trust that the factory — always just out of sight — is coming.`,
     sourceUrl: 'https://en.wikipedia.org/wiki/Henri_Lemoine_(fraudster)',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Julius_Wernher00.jpg?width=1200',
+    coverImageCredit: 'Photo: public domain (PD-old) — Sir Julius Wernher, the De Beers financier who paid Lemoine roughly £64,000 for his fake diamond-synthesis process',
+    coverImagePosition: 50,
   },
   {
     title: '"Devil Bill" Rockefeller: The Con Man Who Fathered America\'s Richest Family',
@@ -7106,6 +7108,9 @@ Devil Bill's effect on his son is well documented and, in its way, direct: John 
 
 Rockefeller's biographers, most notably Ron Chernow in "Titan," have treated Devil Bill's fraud, bigamy, and reinvention as core to understanding the family's origin story rather than a footnote to it — a reminder that the line between "self-made" and "grew up watching a professional con artist operate" is sometimes thinner than a dynasty's later reputation would suggest.`,
     sourceUrl: 'https://en.wikipedia.org/wiki/William_Rockefeller_Sr.',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Bill_Rockefeller.jpg?width=1200',
+    coverImageCredit: 'Photo: public domain (PD-1923) — William Avery Rockefeller Sr., "Devil Bill," father of John D. Rockefeller',
+    coverImagePosition: 50,
   },
   {
     title: 'The Marquis de Rays and the Fake Pacific Colony That Killed Hundreds of Settlers',
@@ -7120,6 +7125,9 @@ De Rays never sailed to Port-Breton himself; he ran the scheme from France, cont
 
 The Port-Breton disaster remains a stark early case study in emigration fraud: a title, a flag, and a well-produced pitch were enough to move hundreds of ordinary people and their savings onto ships bound for a country that only existed on paper, with a body count to show for it once they arrived.`,
     sourceUrl: 'https://en.wikipedia.org/wiki/Marquis_de_Rays',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Italian_Pioneer_Tribute_-_panoramio.jpg?width=1200',
+    coverImageCredit: 'Photo: Annette Teng (CC BY 3.0) — memorial to the Italian pioneer families who survived the Marquis de Rays\' fraudulent Port-Breton colony and founded New Italy, New South Wales',
+    coverImagePosition: 50,
   },
   {
     title: 'Sylvia Browne: The Psychic Who Told Grieving Families Their Missing Children Were Dead',
@@ -7134,6 +7142,9 @@ These were not isolated misses. A 2010 study published in Skeptical Inquirer rev
 
 Browne died in 2013 — having once predicted, on television, that she would live to 88 — leaving behind a fraud conviction, a well-documented pattern of false predictions delivered directly to grieving families, and a body of skeptical research treating her case as a textbook example of cold reading and confident guesswork sold as certainty to people with nowhere else to turn.`,
     sourceUrl: 'https://en.wikipedia.org/wiki/Sylvia_Browne',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/James_Randi.jpg?width=1200',
+    coverImageCredit: 'Photo: Steve Jurvetson (CC BY 2.0) — James Randi, the skeptic investigator who publicly offered Browne a $1 million challenge to prove her psychic claims',
+    coverImagePosition: 50,
   },
   {
     title: 'The "Canoe Man": How John and Anne Darwin Faked a Death for a £250,000 Insurance Payout',
@@ -7148,6 +7159,9 @@ The scheme unraveled by accident. On December 1, 2007, John walked into a London
 
 The Darwins' sons, who had grieved their father as dead for five years and were never told the truth, remain the case's starkest reminder of what insurance fraud actually costs: not just an insurer's money, but the people closest to the fraud, deceived as thoroughly as anyone the couple was trying to profit from.`,
     sourceUrl: 'https://en.wikipedia.org/wiki/John_Darwin_disappearance_case',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Beach_at_Seaton_Carew_-_geograph.org.uk_-_7245073.jpg?width=1200',
+    coverImageCredit: 'Photo: Dylan Chester (CC BY-SA 2.0) — the beach at Seaton Carew, England, where John Darwin staged his fatal "canoe accident"',
+    coverImagePosition: 50,
   },
   {
     title: 'Faruk Fatih Özer and the $2 Billion Thodex Crypto Exchange Vanishing Act',
@@ -7162,6 +7176,9 @@ On April 20, 2021, Thodex abruptly halted trading, citing what it described as a
 
 Özer's case became one of the highest-profile exchange collapses cited in the wave of crypto regulation that followed 2021 and 2022, alongside FTX's failure — a reminder that a platform's marketing budget, celebrity sponsorships, and registered compliance status say nothing about whether customer funds sitting on an exchange are actually safe from the people who run it.`,
     sourceUrl: 'https://en.wikipedia.org/wiki/Thodex',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Istanbul_Skyline.jpg?width=1200',
+    coverImageCredit: 'Photo: Ben Morlok (CC BY-SA 2.0) — Istanbul, where Thodex was based before Özer fled the country',
+    coverImagePosition: 50,
   },
 ];
 
