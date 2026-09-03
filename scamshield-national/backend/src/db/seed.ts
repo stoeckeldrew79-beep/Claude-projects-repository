@@ -25621,6 +25621,61 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ["Mississippi Attorney General's Office", 'WLBT'],
     sourceUrl: 'https://www.wlbt.com/2025/12/11/jackson-woman-sentenced-10-years-fraud-case/',
   },
+  {
+    name: 'AI Search-Poisoned Fake Customer Support Numbers',
+    slug: 'ai-search-poisoned-fake-support-number-scam',
+    description:
+      'Rather than buying a fake sponsored search ad, scammers now seed the open web — compromised government and university pages, WordPress blogs, YouTube video descriptions, and bot-generated Yelp reviews — with simple, repetitive Q&A-style text pairing a real company\'s name with a fraudulent phone number, formatted specifically to be picked up and repeated as fact by AI-powered "answer engines." Security researchers at Aura Labs documented what they describe as the first real-world campaign of this kind in a December 2025 report, showing that asking Google\'s AI Overview, ChatGPT, Perplexity, or Anthropic\'s Claude for an airline or travel-site customer service number could surface one of the planted scam numbers as a confident, sourced-sounding answer; one recurring number, +1-833-621-7070, turned up across queries for multiple different airlines, including Delta, American, Southwest, and JetBlue, as well as booking sites like Expedia and Booking.com. Because the victim finds the number through a tool they trust and dials it themselves, the call carries none of the usual "stranger contacted me" suspicion — the person who answers can sound like ordinary airline support before asking for a card number to process a "rebooking fee" or a refund that was never actually owed. Consumers should get a company\'s support number only from its official website typed in directly, a saved bookmark, or the number printed on a ticket or bill, and should treat a phone number an AI chatbot or AI-generated search summary supplies as unverified until confirmed that same way — current answer-engine tools have no reliable way to confirm a number actually belongs to the company being asked about.',
+    categorySlug: 'tech-support-scams',
+    country: 'US',
+    alertLevel: 'medium',
+    sources: ['Aura Labs (Aurascape)', 'FTC Consumer Advice'],
+    sourceUrl: 'https://aurascape.ai/resources/auralabs-research/llm-search-poisoning-fake-support-numbers/',
+  },
+  {
+    name: 'Deepfake FBI/IC3 Impersonation Recovery Re-Targeting Scam',
+    slug: 'fbi-ic3-deepfake-impersonation-recovery-scam',
+    description:
+      'People who already reported a fraud loss to the FBI\'s Internet Crime Complaint Center (IC3), or who are searching online for help after being scammed, are being targeted a second time by criminals posing as the FBI or IC3 itself. In a July 2026 public service announcement, the FBI warned that scammers are circulating AI-generated deepfake videos depicting senior FBI officials that promote a counterfeit IC3 website, running fake FBI profiles on Facebook and Telegram that message past-victim groups with links disguised as "IC3 report updates," and operating a cloned complaint site with a simplified form that collects only a name, phone number, email, scam type, and dollar amount lost — enough personal and financial detail to build a convincing follow-up pitch offering to recover the stolen funds for an upfront fee. The bureau states plainly that IC3 does not maintain a social media presence and will never contact a complainant directly by phone, email, or social media to offer fund recovery, and that the only legitimate way to file or check on a complaint is by going directly to ic3.gov, typed in independently rather than reached through a link, an ad, or a video. Anyone contacted this way should not click the link, should not pay any fee to "release" a recovered loss, and can verify a suspicious FBI or IC3 contact by calling the FBI\'s public switchboard directly.',
+    categorySlug: 'government-impersonation',
+    country: 'US',
+    alertLevel: 'high',
+    sources: ['FBI Internet Crime Complaint Center (IC3)'],
+    sourceUrl: 'https://www.ic3.gov/PSA/2026/PSA260720',
+  },
+  {
+    name: 'Indian FASTag Annual Pass and KYC Update Phishing Scam',
+    slug: 'india-fastag-annual-pass-kyc-phishing-scam',
+    description:
+      'Fraudsters send an SMS or WhatsApp message posing as the National Highways Authority of India (NHAI) or a toll bank, warning that a driver\'s FASTag balance is low or its KYC needs updating, or they advertise the genuine Rs. 3,000 "FASTag Annual Pass" through look-alike websites — such as domains styled as nhai-online.in rather than the real nhai.gov.in — that rank highly in paid search ads, or through QR codes posted at toll plazas and on social media. A driver who clicks the link or scans the code and enters their FASTag ID, vehicle number, and OTP has that data used to drain their linked bank account via UPI, or simply pays for an annual pass that never activates because it was never processed by NHAI at all. NHAI has issued a public advisory confirming the FASTag Annual Pass is sold exclusively through its official Rajmarg Yatra app, stating "any other platform offering the pass is not authorised and may result in financial fraud or misuse of personal information," and that neither NHAI nor any bank will ever request an OTP or FASTag details by phone, SMS, or a third-party website.',
+    categorySlug: 'phishing',
+    country: 'IN',
+    alertLevel: 'high',
+    sources: ['National Highways Authority of India (NHAI)'],
+    sourceUrl: 'https://odishabytes.com/major-fastag-annual-pass-online-fraud-exposed-nhai-issues-advisory/',
+  },
+  {
+    name: 'Indian AI Deepfake Celebrity Investment Scam Ads',
+    slug: 'india-ai-deepfake-celebrity-investment-scam-ads',
+    description:
+      'AI-generated deepfake videos of prominent Indian public figures — including Finance Minister Nirmala Sitharaman, Union Minister Piyush Goyal, and the late industrialist Ratan Tata — are digitally altered to appear to endorse a stock-trading or crypto platform promising extreme guaranteed returns, in one debunked video claiming Rs. 25.5 lakh a month on a Rs. 22,000 investment, and are then run as paid advertisements on Instagram, Facebook, and YouTube. Viewers who click through hand over their contact details and are called by a fake "relationship manager" who walks them into depositing money on an unregistered trading platform that displays fabricated rising profits before blocking withdrawals; in one documented case a Pune nurse lost more than Rs. 4 lakh across eleven transactions after seeing a deepfake Ratan Tata video promoting a firm called "World Tradex." The Press Information Bureau\'s Fact Check unit has repeatedly debunked these videos as fake and digitally altered, and SEBI\'s #SEBIvsSCAM investor-awareness campaign warns that fraudsters routinely pose as SEBI-registered intermediaries, celebrities, or company executives specifically to lend false credibility to schemes promising guaranteed or unusually high returns.',
+    categorySlug: 'ai-deepfake-scams',
+    country: 'IN',
+    alertLevel: 'high',
+    sources: ['Press Information Bureau (PIB) Fact Check Unit', 'Securities and Exchange Board of India (SEBI)'],
+    sourceUrl: 'https://www.newsonair.gov.in/pib-fact-check-viral-video-of-finance-minister-promoting-investment-scheme-is-fake',
+  },
+  {
+    name: 'Indian 1930 Cyber Helpline Account-Freeze Extortion Scam',
+    slug: 'india-1930-helpline-account-freeze-extortion-scam',
+    description:
+      'Fraudsters deposit a small, unexplained sum into a target\'s bank account and then file a fake complaint through the National Cyber Crime Reporting Portal or the 1930 helpline falsely claiming the deposit is proceeds of crime, which triggers the bank\'s automated account-freeze process against an account holder who was never actually a scam victim to begin with. Once the account is locked, the fraudsters call posing as a "1930 callback," an "I4C refund cell," or a police or Enforcement Directorate officer, and threaten arrest or an ED case unless the victim pays a fee, shares an OTP, or reveals a UPI PIN to get the account "released" — weaponizing genuine cybercrime-reporting infrastructure to extort a second payment. In one documented case a Jamnagar, Gujarat brass-parts trader\'s account holding Rs. 1.44 crore was frozen after a Rs. 3,000 trigger deposit, before police identified and arrested the caller. The Indian Cyber Crime Coordination Centre (I4C) has issued a public notice clarifying that I4C itself does not freeze bank accounts, and that neither 1930 staff nor any genuine cybercrime official will ever call from an unlisted mobile number asking for an OTP, UPI PIN, CVV, or a processing fee to release funds.',
+    categorySlug: 'government-impersonation',
+    country: 'IN',
+    alertLevel: 'high',
+    sources: ['Indian Cyber Crime Coordination Centre (I4C)'],
+    sourceUrl: 'https://the420.in/gujarat-1930-cyber-helpline-misuse-trader-extortion-frozen-account/',
+  },
 ];
 
 async function seedCategoriesAndScams() {
