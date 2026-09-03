@@ -24580,6 +24580,30 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['ACCC (Australian Competition and Consumer Commission)'],
     sourceUrl: 'https://www.accc.gov.au/media-release/consumers-warned-about-ghost-stores-imitating-australian-businesses',
   },
+  {
+    name: 'Indiana Unclaimed Property "Escrow Agent" Fee Deception',
+    slug: 'indiana-unclaimed-property-escrow-agent-fee-deception',
+    description:
+      'U.S. Claims Services Inc., a California-based "finder" company operating in Indiana as Payne Richards and Associates, mailed solicitations to Hoosiers falsely stating their unclaimed property was being held by "a third-party escrow agent," when the funds actually sat with the Indiana Attorney General\'s own Unclaimed Property Division — a state office that lets anyone search and claim matching property for free, in minutes, at IndianaUnclaimed.gov. The company\'s fee agreements also omitted language Indiana law requires: a disclosure telling consumers they could claim property held by the Attorney General\'s office directly, at no charge, without hiring a locator service at all. Attorney General Todd Rokita\'s office found 435 Hoosiers had paid the company under these misleading terms and announced a settlement on January 21, 2026 requiring U.S. Claims Services to refund $107,874.67 in fees, immediately correct its solicitations, and include the required free-claim notice in every future fee agreement. "Hoosiers can easily and quickly search IndianaUnclaimed.gov on their own. There is no charge," Rokita said in announcing the deal. Anyone contacted by a "locator" or "recovery" firm about unclaimed funds should search their own name for free at their state treasury\'s or attorney general\'s official unclaimed-property database before agreeing to pay anyone a percentage to file a claim on their behalf, and should treat any claim that the money is held by an unnamed "escrow agent" rather than the state itself as a red flag worth verifying independently before signing a fee agreement.',
+    categorySlug: 'government-impersonation',
+    country: 'US',
+    state: 'IN',
+    isHistorical: true,
+    sources: ["Indiana Attorney General's Office"],
+    sourceUrl: 'https://events.in.gov/event/company-will-pay-107000-to-resolve-allegations-it-deceived-hoosiers-about-processes-for-securing-unclaimed-property',
+  },
+  {
+    name: 'Southern California "Vehicle Hostage" Tow Truck Fraud Ring',
+    slug: 'southern-california-vehicle-hostage-tow-truck-fraud-ring',
+    description:
+      'A tow truck arrives at the scene of a car accident in Riverside, San Bernardino, or Los Angeles County within minutes — sometimes before police or the victim\'s own insurance company can be reached — and the driver steers the crash victim toward signing paperwork and having the car towed to a specific body shop rather than one of the victim\'s choosing. At the shop, staff refuse to release the vehicle until the owner pays a cash sum typically not covered by insurance, effectively holding the car hostage, while accomplices elsewhere in the ring impersonate insurance company representatives to keep victims from questioning the process. The California Department of Insurance\'s Inland Empire Automobile Insurance Fraud Task Force traced one ring to Certified Auto in Buena Park, allegedly run by ringleader Andre Angelo Reyes, with accomplices including a California Highway Patrol employee, Rosa Isela Santistevan, accused of selling more than 3,500 pages of confidential CHP traffic collision reports to feed the scheme fresh accident victims to target. Sixteen Southern California residents were arraigned on felony charges in February 2025 over more than $216,932 in fraudulently obtained payments, with Reyes and a co-defendant also charged separately with evading $136,408 in taxes on the proceeds. Insurance Commissioner Ricardo Lara warned that a tow truck arriving unusually fast, a driver who insists on a specific body shop, or any request to sign paperwork or call a rideshare before the driver has spoken with their own insurer are all signs of the scheme, and urged accident victims to verify a tow truck through their insurance company or wait for CHP confirmation before letting anyone tow their vehicle away.',
+    categorySlug: 'insurance-fraud',
+    country: 'US',
+    state: 'CA',
+    alertLevel: 'high',
+    sources: ['California Department of Insurance'],
+    sourceUrl: 'https://www.insurance.ca.gov/0400-news/0100-press-releases/2025/Department-of-Insurance-warns-drivers-ab.cfm',
+  },
 ];
 
 async function seedCategoriesAndScams() {
