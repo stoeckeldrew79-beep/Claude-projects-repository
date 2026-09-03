@@ -27841,6 +27841,42 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Miami-Dade Sheriff\'s Office'],
     sourceUrl: 'https://www.cbsnews.com/miami/news/miami-dade-hoa-condo-fraud-arrests-operation-sundown-august-2026/',
   },
+  {
+    name: 'Arizona Backyard Casita (ADU) Construction Fraud',
+    slug: 'arizona-adu-casita-construction-fraud',
+    description:
+      'Fraudulent contractors are targeting Arizona homeowners who want to build an Accessory Dwelling Unit — a backyard casita, guest house, in-law suite, or rental unit — presenting polished proposals and personalized consultations before collecting a large upfront payment by check, cash, Zelle, cryptocurrency, or gift card and then stalling indefinitely. Attorney General Kris Mayes warned in April 2026 that affected families have lost tens of thousands of dollars each, with some individual losses reaching $250,000, after discovering no building permits were ever filed and no construction ever began; some operators recruit or pressure a licensed local contractor into lending their credentials to the scheme, leaving that contractor legally exposed for complaints while the unlicensed operation does the actual work, or lack of it. Warning signs include an out-of-state company claiming to operate locally, pressure to sign quickly or skip getting competing bids, a claim that permits are "already in process" with no documentation to back it up, and appeals to shared faith or community connections to build trust before any money changes hands. Homeowners should verify a contractor\'s license at roc.az.gov or by calling 1-877-692-9762, get multiple written estimates with detailed timelines before paying anything, and can file a complaint with the Arizona Registrar of Contractors or the Attorney General\'s Office if a project stalls after payment.',
+    categorySlug: 'mortgage-foreclosure-scams',
+    country: 'US',
+    state: 'AZ',
+    alertLevel: 'high',
+    sources: ["Arizona Attorney General's Office"],
+    sourceUrl: 'https://www.azag.gov/press-release/attorney-general-mayes-warns-arizonans-construction-fraud-targeting-adu-projects',
+  },
+  {
+    name: 'Climax Solar Hidden-Fee Financing Scheme',
+    slug: 'michigan-climax-solar-hidden-fee-financing-scheme',
+    description:
+      'A Portage-based company called Climax Solar, owned by Joshua Thompson, arranged an estimated $81 million in home solar financing for roughly 1,700 Michigan homeowners while allegedly baking more than $22 million in undisclosed "dealer" and "platform" fees — averaging over 27% of the amount financed — directly into loan balances arranged through partner financial institutions, without separately disclosing those costs to consumers as finance charges. Michigan Attorney General Dana Nessel sued Climax Solar, Thompson, and the financing companies in July 2026, alleging many customers were left owing tens of thousands of dollars on loans for systems that were left unfinished, underperforming, unsafe, or never turned on at all, in violation of the federal Consumer Financial Protection Act, the Michigan Consumer Protection Act, and the Michigan Home Solicitation Sales Act. Homeowners considering solar financing should insist on an itemized, all-in loan amount before signing anything — not just a monthly payment estimate — and independently confirm with the lender, using its own published contact information rather than a number the salesperson provides, exactly which fees are already built into the loan balance.',
+    categorySlug: 'utility-scams',
+    country: 'US',
+    state: 'MI',
+    alertLevel: 'high',
+    sources: ["Michigan Attorney General's Office"],
+    sourceUrl: 'https://www.michigan.gov/ag/news/press-releases/2026/07/15/ag-nessel-files-lawsuit-against-solar-company-financial-institutions-for-alleged-deceptive-scheme',
+  },
+  {
+    name: 'Krish Kumar Future Fractal Investments Fraud',
+    slug: 'oklahoma-krish-kumar-future-fractal-investments-fraud',
+    description:
+      "An Oklahoma college student, Krish Kumar, raised approximately $7.8 million from about two dozen investors between January 2024 and February 2025 through two private funds he created and solely managed, Future Fractal Investments LLC and Arcane Resonance Fund LLC, by promising a defined trading strategy with built-in risk limits. The SEC alleges Kumar instead misappropriated more than $5.6 million from Future Fractal and over $1.3 million from Arcane Resonance into personal accounts, then quietly used at least $300,000 of Arcane's remaining assets to cover Future Fractal investor withdrawals and disguise the losses — at one point emailing investors a fabricated, photoshopped brokerage screenshot to explain the missing money with a stop-loss trade that had never actually happened. The SEC filed settled charges against Kumar on March 26, 2026, for violating the antifraud and investment-adviser provisions of federal securities law, with Kumar consenting to permanent injunctions while monetary penalties are determined later by the court. Investors approached about a private fund promising steady, low-risk returns should independently verify the manager's registration status through the SEC's Investment Adviser Public Disclosure database and request account statements directly from the fund's custodian rather than the manager, since Kumar's investors had no independent, third-party confirmation of the performance figures he reported to them.",
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    state: 'OK',
+    alertLevel: 'high',
+    sources: ['U.S. Securities and Exchange Commission'],
+    sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26507',
+  },
 ];
 
 async function seedCategoriesAndScams() {
