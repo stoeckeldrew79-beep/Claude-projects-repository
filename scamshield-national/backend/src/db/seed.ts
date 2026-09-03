@@ -29773,6 +29773,42 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ["West Virginia Attorney General's Office", 'Roofing Contractor magazine'],
     sourceUrl: 'https://ago.wv.gov/article/attorney-general-mccuskey-files-complaints-against-putnam-county-roofing-contractor',
   },
+  {
+    name: 'All Seasons Lawn, Tree and Landscape Elderly Deposit Fraud',
+    slug: 'kansas-all-seasons-lawn-tree-landscape-elderly-fraud',
+    description:
+      'Kansas Attorney General Kris Kobach filed a civil lawsuit on February 6, 2026 against Jeremy Lord and his Topeka-based company, All Seasons Lawn, Tree and Landscape, LLC, alleging he ran a pattern of deceptive and unconscionable acts against elderly consumers in violation of the Kansas Consumer Protection Act. According to the petition, filed in Shawnee County District Court, Lord took a $50,000 deposit from one elderly consumer for landscaping work, and when the consumer questioned the amount he planned to charge, Lord allegedly promised a refund, never issued it, never performed any work, and then stopped responding entirely. In a separate transaction described in the same filing, the state alleges Lord induced another consumer to pay more than $30,000 in additional funds by fabricating a government "grant program" that he falsely claimed would reimburse 50% to 85% of the construction costs — a program the state says never existed. The lawsuit seeks full restitution for both consumers, civil penalties for the alleged KCPA violations, and a permanent injunction barring Lord from doing business in Kansas. Homeowners hiring a landscaping or home-improvement contractor are advised to be skeptical of any claimed government grant or rebate program tied to the work, to get contract terms and any refund promise in writing, and to avoid handing over a deposit anywhere near the full project cost before work begins.',
+    categorySlug: 'mortgage-foreclosure-scams',
+    country: 'US',
+    state: 'KS',
+    alertLevel: 'high',
+    sources: ["Kansas Attorney General's Office", 'WIBW-TV'],
+    sourceUrl: 'https://www.wibw.com/2026/02/06/kansas-ag-files-civil-lawsuit-against-topeka-landscaper-allegedly-scamming-elderly-consumers/',
+  },
+  {
+    name: 'Fake "Ankle Monitor Program" Jail-Release Payment Scam',
+    slug: 'hawaii-fake-ankle-monitor-program-jail-release-scam',
+    description:
+      'The Honolulu Police Department issued a warning on August 27, 2026 about scammers who call residents claiming to be HPD personnel and tell them a family member has been arrested and can only be released if the victim immediately pays for enrollment in an "ankle monitor program," with the caller pressuring for payment through peer-to-peer apps like Venmo or Zelle. The callers use caller-ID spoofing to make the call appear to come from an official HPD number, adding to the pressure and confusion at a moment when the victim believes a relative's freedom is on the line. HPD said it does not solicit payments over the phone for a family member's release under any circumstances and urged residents to hang up on any caller claiming to be HPD personnel who asks for money or personal financial information, noting that spoofed caller ID cannot be relied on to verify a call is genuine. Anyone contacted this way is advised to hang up immediately, independently look up and call HPD's non-emergency line to check whether a relative has actually been arrested, and to file a report with HPD at (808) 529-3111 or online rather than sending any money.',
+    categorySlug: 'government-impersonation',
+    country: 'US',
+    state: 'HI',
+    alertLevel: 'high',
+    sources: ['Honolulu Police Department', 'Hawaii News Now'],
+    sourceUrl: 'https://www.hawaiinewsnow.com/2026/08/28/hpd-warns-new-scam-demanding-fake-ankle-monitor-payments/',
+  },
+  {
+    name: 'Teen University Medicaid Basic-Living-Skills Billing Fraud',
+    slug: 'alabama-teen-university-medicaid-billing-fraud',
+    description:
+      'Teen University, a Phenix City, Alabama facility owned by 72-year-old Alfonza Smith of Smiths Station, contracted with the Alabama Department of Human Services to provide room, board, and behavioral-management services — including two hours of "Basic Living Skills" instruction per resident every day — to children placed in its care and billed to Medicaid. An investigation by Alabama Attorney General Steve Marshall\'s Medicaid Fraud Control Unit, opened as part of the 2026 National Healthcare Fraud Takedown, found that residents were not routinely receiving the Basic Living Skills services the facility was being paid to provide. The matter was resolved through a federal False Claims Act settlement announced June 24, 2026, under which Smith agreed to repay $300,000 to the Alabama Medicaid Agency; Teen University is no longer an enrolled Medicaid provider. "When providers take taxpayer money without delivering the services they promised, we will find them, and there will be consequences," Marshall said. The case is a reminder that Medicaid-funded group homes and residential programs for children are required to actually deliver the specific, itemized services their contracts promise, and that parents, guardians, or caseworkers who suspect a facility is billing for services it isn\'t providing can report it to the Alabama Medicaid Fraud Control Unit.',
+    categorySlug: 'healthcare-fraud',
+    country: 'US',
+    state: 'AL',
+    alertLevel: 'medium',
+    sources: ["Alabama Attorney General's Office", 'WTVM'],
+    sourceUrl: 'https://www.alabamaag.gov/attorney-general-marshall-secures-300000-settlement-against-tuskegee-care-facility-in-national-healthcare-fraud-takedown/',
+  },
 ];
 
 async function seedCategoriesAndScams() {
