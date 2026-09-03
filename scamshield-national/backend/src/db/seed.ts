@@ -6879,6 +6879,9 @@ Facing extradition, Duquesne spent nearly two years feigning total paralysis at 
 
 Duquesne's final and largest fraud was espionage itself: recruited by Nazi Germany's Abwehr in the 1930s, he assembled and ran what became known as the Duquesne Spy Ring, gathering military and industrial intelligence from inside the United States. The ring was compromised by an American double agent, William Sebold, and on June 28, 1941, the FBI arrested Duquesne along with 32 co-conspirators — still, decades later, the largest espionage prosecution in U.S. history. Convicted in January 1942, Duquesne received 18 years in prison and a $2,000 fine. Released in 1954 due to failing health, he died impoverished in a New York City public hospital on May 24, 1956, at age 78. His career endures as an early illustration of a fraud pattern regulators still track closely: a confidently constructed false identity — a credential, a title, a heroic backstory — that lets one person extract money from insurers, charities, and eventually a nation's own war effort, simply because no one thought to verify the story behind the performance.`,
     sourceUrl: 'https://en.wikipedia.org/wiki/Fritz_Duquesne',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Fbi_duquesne.jpg?width=1200',
+    coverImageCredit: 'FBI file photo (public domain — PD-USGov-FBI)',
+    coverImagePosition: 50,
   },
   {
     title: 'John St. John Long: The Harley Street Quack Whose Fake Consumption Cure Killed His Patients',
@@ -6893,6 +6896,9 @@ The fraud proved fatal more than once. In October 1830, Long treated Catherine C
 
 Neither trial meaningfully damaged Long's practice or his standing among the wealthy patrons who continued to defend him. He died on July 2, 1834, at age 35 or 36, reportedly of tuberculosis — the very disease he had spent seven years claiming to cure — though some accounts suggest the illness was compounded by a riding accident. Former patients who credited him with genuine relief later paid for an elaborate monument praising him at London's Kensal Green Cemetery, an epitaph as flattering as it was disconnected from the deaths that preceded it. Long's case remains a foundational example in the history of medical fraud of how social status, charm, and a prestigious address can function as a kind of proof on their own — letting a practitioner with no training and no evidence behind his claims escape meaningful accountability even after his treatment killed the people who trusted him, a dynamic regulators pursuing wellness and alternative-medicine fraud still watch for today.`,
     sourceUrl: 'https://en.wikipedia.org/wiki/John_St._John_Long',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/St.-John-Long-18310219.jpg?width=1200',
+    coverImageCredit: 'Lithograph: J. Fahey, 1831 (public domain)',
+    coverImagePosition: 50,
   },
 ];
 
