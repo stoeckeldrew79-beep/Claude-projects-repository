@@ -30127,6 +30127,42 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Virginia Office of the Attorney General', 'WAVY'],
     sourceUrl: 'https://www.oag.state.va.us/media-center/news-releases/2946-january-16th-2026-attorney-general-jason-miyares-sues-solar-company-founders-and-lenders-for-misrepresenting-savings-and-hiding-loan-fees',
   },
+  {
+    name: 'iYogi Fake Computer-Infection Tech Support Scam',
+    slug: 'washington-iyogi-tech-support-scam',
+    description:
+      "iYogi, once one of the largest independent tech-support providers in the world, ran a call-center operation that used its own diagnostic software to scan customers' computers and falsely flag ordinary, harmless files as dangerous \"infections,\" then used that fabricated evidence to scare Washington consumers into buying unnecessary support plans and antivirus subscriptions, sometimes repeatedly. Washington Attorney General Bob Ferguson sued iYogi Holdings and its U.S. subsidiary, along with company president Vishal Dhar, in King County Superior Court in 2015 for violating the state Consumer Protection Act and Computer Spyware Act, alleging hundreds if not thousands of Washingtonians were charged as much as $540 each for services they didn't need. The court entered $6.3 million in judgments against iYogi's Indian parent and U.S. entities, making them jointly liable for $4 million in consumer restitution plus more than $2.2 million in civil penalties, damages, and costs, and the ruling effectively shut the company down. \"This lawsuit shut down a major international tech support scammer so they are no longer able to deceive Washingtonians,\" Ferguson said. Computer users are advised to never buy support services based solely on a scan result from software the support company itself provided, to get a second opinion from a locally trusted technician before paying for any \"infection\" repair, and to treat any unsolicited pressure to purchase tech support on the spot as a red flag regardless of how official the diagnostic report looks.",
+    categorySlug: 'tech-support-scams',
+    country: 'US',
+    state: 'WA',
+    isHistorical: true,
+    sources: ["Washington State Office of the Attorney General", 'The Seattle Times'],
+    sourceUrl: 'https://www.atg.wa.gov/news/news-releases/ag-s-lawsuit-shuts-down-tech-support-scammer-iyogi',
+  },
+  {
+    name: 'Optimum Construction Home-Improvement Deposit Theft',
+    slug: 'maryland-optimum-construction-elrahimy-deposit-theft',
+    description:
+      "Derwood-based Optimum Construction, Inc. and its affiliate Optimum Interiors, Inc., run by owner Amr \"Omar\" Elrahimy, sent an unlicensed salesperson door to door to sign Maryland homeowners to home-improvement contracts that didn't meet the disclosures Maryland law requires, collected deposits and progress payments toward additions, remodels, and repairs, and then routinely failed to finish the promised work or refund the money — instead, according to the Maryland Attorney General's Consumer Protection Division, Elrahimy diverted the funds to a lavish personal lifestyle and unrelated businesses. The complaints started in Montgomery County, whose Office of Consumer Protection referred residents' cases to the state, and on June 18, 2025 the Consumer Protection Division issued a Final Order finding the company and Elrahimy liable for more than $2 million in consumer restitution and $2.45 million in civil penalties — over $4.5 million total — for violating the Maryland Consumer Protection Act. Maryland homeowners hiring a contractor are advised to confirm the salesperson and company are properly licensed with the Maryland Home Improvement Commission before signing anything, to make sure the written contract includes the specific start and completion dates and other disclosures state law requires, and to avoid paying a large deposit upfront — Maryland law caps a home-improvement deposit at one-third of the contract price unless materials must be special-ordered.",
+    categorySlug: 'mortgage-foreclosure-scams',
+    country: 'US',
+    state: 'MD',
+    isHistorical: true,
+    sources: ["Office of the Attorney General of Maryland", 'Montgomery County Office of Consumer Protection'],
+    sourceUrl: 'https://oag.maryland.gov/News/Pages/Maryland-based-Home-Improvement-Contractor-Ordered-to-Pay-more-than-$4.5-million-in-Penalties-and-Restitution.aspx',
+  },
+  {
+    name: 'Riverpark/Avamere Eugene Nursing Home Understaffing Billing Fraud',
+    slug: 'oregon-riverpark-avamere-nursing-home-billing-fraud',
+    description:
+      "Riverpark Operations, LLC, doing business as Avamere Riverpark of Eugene, a 119-bed skilled nursing facility, billed Medicare and Oregon Medicaid for care it was not adequately staffed to provide: during stretches in late 2017 and again from September 2018 through July 2019, the facility's staffing levels fell below what its own billing represented, and investigators found residents suffered an increased rate of preventable urinary tract infections, pressure sores, and falls as a result. A joint investigation by the U.S. Attorney's Office for the District of Oregon and the Oregon Department of Justice's Medicaid Fraud Control Unit led Riverpark and its parent company, Avamere Group, LLC, to agree to a $2 million civil settlement resolving the False Claims Act allegations, announced as part of the 2025 National Health Care Fraud Takedown, along with a five-year Corporate Integrity Agreement with the U.S. Department of Health and Human Services requiring outside monitoring of the facility's staffing and care quality. Families choosing a nursing home for a Medicaid- or Medicare-covered loved one are advised to check the facility's staffing ratios and inspection history on Medicare's Care Compare website before enrolling, to watch for a sudden pattern of falls, infections, or pressure sores in a resident's condition, and to report suspected substandard billed care to the Oregon DOJ's Medicaid Fraud Control Unit.",
+    categorySlug: 'healthcare-fraud',
+    country: 'US',
+    state: 'OR',
+    isHistorical: true,
+    sources: ['Oregon Department of Justice', 'U.S. Attorney\'s Office, District of Oregon', 'KEZI'],
+    sourceUrl: 'https://www.justice.gov/usao-or/pr/us-attorneys-office-participates-national-health-care-fraud-takedown-resulting-2-million',
+  },
 ];
 
 async function seedCategoriesAndScams() {
