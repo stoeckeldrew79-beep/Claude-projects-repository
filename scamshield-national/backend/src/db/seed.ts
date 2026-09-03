@@ -3316,10 +3316,9 @@ Insull was never convicted of a crime, and that is precisely why his case became
     title: 'Ferdinand Ward, "The Young Napoleon of Wall Street" Who Bankrupted a Former President',
     slug: 'ferdinand-ward-grant-and-ward-ponzi-scheme',
     author: 'ScamShield Editorial',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/New_York_Stock_Exchange_Facade_-_New_York_City,_USA.jpg?width=1200',
-    coverImageCredit: 'Photo: Donatingpictures (CC BY-SA 4.0)',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Ferdinand_Ward.jpg?width=1200',
+    coverImageCredit: 'Lithograph: New York Times, 1894 (public domain)',
     coverImagePosition: 50,
-    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Ferdinand Ward was stealing money before he was out of his teens — he later admitted to robbing a Sunday school collection plate and laundering it through a local bank — but the con that made his name was built on the most respectable partner an American swindler could ask for: a former president of the United States. Ward married into a wealthy Connecticut family in 1877, moved into New York banking circles, and by 1880 had launched his own brokerage. His breakthrough came when he cultivated a friendship with Ulysses S. "Buck" Grant Jr., the son of former president and Civil War general Ulysses S. Grant, and in 1880 the two formed the investment firm of Grant & Ward.
 
@@ -4144,10 +4143,9 @@ The case took an extraordinary final turn in July 2025, when the U.K. Supreme Co
     slug: 'richard-whitney-nyse-president-embezzlement',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Sing_Sing_prison_aerial_photo_1920.JPG?width=1200',
-    coverImageCredit: 'Photo: Library of Congress, Bain Collection (public domain)',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Former_head_of_New_York_Stock_Exchange_before_Senate_Committee._Washington_D.C._Richard_Whitney%3B_former_President_of_the_New_York_Stock_Exchange%2C_was_the_first_witness_as_the_Senate_LCCN2016871192_(cropped).jpg?width=1200',
+    coverImageCredit: 'Photo: Harris & Ewing, 1937, Library of Congress (public domain)',
     coverImagePosition: 50,
-    // representative photo — replace with a portrait if found
     body: `Richard Whitney was about as establishment as Wall Street got. A Groton- and Harvard-educated broker from an old New England family, he served as president of the New York Stock Exchange from 1930 to 1935 and spent the early years of the Depression as the Exchange's public face, testifying before Congress that Wall Street could police itself and needed no new federal regulator looking over its shoulder. His younger brother George was a senior partner at J.P. Morgan & Co., and Richard traded on that name and pedigree for decades. Behind the pedigree, his own brokerage firm, Richard Whitney & Co., was quietly losing money for years, propped up first by a failed bet on apple-brandy manufacturing in New Jersey and then by an ever-widening circle of loans from friends, family, and institutions that trusted him precisely because of who he was.
 
 By the mid-1930s Whitney was borrowing to cover old borrowing, and when legitimate lenders ran out, he started simply taking what wasn't his. He pledged securities held in trust for his father-in-law's estate as collateral for his own loans. As treasurer of the New York Yacht Club, he looted its funds. Most damning of all, as a director of the New York Stock Exchange itself, he stole bonds out of the Exchange's Gratuity Fund — money set aside to pay death benefits to the families of deceased members — to keep his firm afloat. Investigators later tallied more than $30 million in loans Whitney had negotiated in his final years, a staggering sum built on collateral that, again and again, turned out not to be his to pledge.
@@ -4709,6 +4707,9 @@ Ross was released on parole in 2019 after serving roughly the minimum term, and 
     title: 'Jonathan Wild: London\'s "Thief-Taker General" Who Ran the Crime He Was Paid to Solve',
     slug: 'jonathan-wild-thief-taker-general-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Jonathan_Wild,_the_thief-taker,_sitting_on_a_cart,_is_pelted_Wellcome_V0041843.jpg?width=1200',
+    coverImageCredit: 'Engraving: Valois, Wellcome Collection (CC BY 4.0)',
+    coverImagePosition: 50,
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Jonathan Wild arrived in London around 1710, a Wolverhampton buckle-maker's son who had spent time in debtors' prison before finding his calling as an agent to Charles Hitchen, a corrupt Under City Marshal who ran a lucrative side business helping crime victims recover stolen goods for a fee. Wild quickly surpassed his mentor, and by the early 1720s he had built a public reputation as London's most effective crime-fighter, operating an "Office for the Recovery of Lost and Stolen Property" where robbery victims could pay to have their possessions returned — a service so reliable that Wild styled himself, with no official appointment whatsoever, the "Thief-Taker General of Great Britain and Ireland."
 
@@ -4846,6 +4847,9 @@ No one has ever been convicted or served prison time over what remains Kenya's l
     title: "Eike Batista: From the World's Eighth-Richest Man to a 30-Year Sentence",
     slug: 'eike-batista-ogx-oil-fraud-brazil',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/EIKE_BATISTA_(crop).jpg?width=1200',
+    coverImageCredit: 'Photo: JulianaCoutinho (CC BY-SA 3.0)',
+    coverImagePosition: 50,
     tags: ['notorious', 'notorious-scammer'],
     body: `Eike Batista built one of the most spectacular fortunes of Brazil's commodities boom, assembling a sprawling conglomerate of companies whose names all began with the letter X — oil producer OGX, miner MMX, shipbuilder OSX, power generator MPX — under the umbrella of his EBX Group. By 2012, Forbes ranked him as the eighth-richest person on earth, with a fortune estimated near $30 billion, and Batista publicly and repeatedly predicted he would soon become the richest man in the world.
 
@@ -5095,6 +5099,9 @@ The Xu Xiang case became a landmark for Chinese securities regulation, cited aft
     title: 'Alessandro Cagliostro: The Self-Proclaimed Count Who Sold Europe an Elixir of Life',
     slug: 'alessandro-cagliostro-elixir-of-life-swindler',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Portrait_of_Giuseppe_Balsamo_(called_Count_Alessandro_Cagliostro)_LACMA_62.18_(1_of_2).jpg?width=1200',
+    coverImageCredit: 'Sculpture: Jean-Antoine Houdon, LACMA (public domain)',
+    coverImagePosition: 50,
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Giuseppe Balsamo was born in 1743 to a poor family in Palermo, Sicily, and grew up running petty scams and forgeries — including, by most accounts, a fraud involving a forged deed to a supposed buried treasure — before fleeing Sicily as a young man to avoid prosecution. By the time he resurfaced in Europe's capitals, he had reinvented himself entirely: a self-styled "Count Alessandro di Cagliostro," claiming noble birth, secret initiation into ancient Egyptian mysteries, and mastery of alchemy, all while accompanied by a wife he presented as a countess.
 
@@ -5340,6 +5347,9 @@ Dixon himself was indicted on 38 counts and convicted in December 1990 on 23 of 
     title: 'Gary Winnick, Global Crossing, and the $47 Billion Telecom Collapse That Ended Without a Single Criminal Charge',
     slug: 'gary-winnick-global-crossing-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Winnickphoto.jpg?width=1200',
+    coverImageCredit: 'Photo: Riaz162, Wikimedia Commons (CC BY-SA 4.0)',
+    coverImagePosition: 50,
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Gary Winnick spent the 1970s and 1980s as a bond salesman at Drexel Burnham Lambert, working under junk-bond financier Michael Milken before striking out on his own. In March 1997 he founded Global Crossing to build one of the first privately financed undersea fiber-optic cable networks, racing to lay the physical infrastructure that would supposedly carry the internet's exploding traffic between North America, Europe, Latin America, and Asia. Riding the dot-com boom, Global Crossing's stock valuation reached roughly $47 billion at its peak — briefly worth more than McDonald's or PepsiCo — and Winnick became a billionaire faster than almost anyone in American history to that point, building a Bel-Air mansion and assembling an art collection to match his new fortune.
 
@@ -5368,6 +5378,9 @@ Gordon-Gordon never faced an American courtroom. He settled quietly near Heading
     title: 'Rudy Kurniawan and the Kitchen "Laboratory" That Manufactured Millions in Fake Rare Wine',
     slug: 'rudy-kurniawan-counterfeit-wine-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Rudy_Kurniawan_4-7-21_ICE.jpg?width=1200',
+    coverImageCredit: 'Photo: U.S. Immigration and Customs Enforcement (public domain)',
+    coverImagePosition: 50,
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Rudy Kurniawan arrived in the United States from Indonesia in the late 1990s and, within a few years, transformed himself into one of the most recognized names in the tiny, insular world of ultra-rare wine collecting. Operating out of Los Angeles, he became known to fellow collectors and auction houses as "Dr. Conti" for his seemingly bottomless appetite for Domaine de la Romanée-Conti, the most sought-after — and expensive — Burgundy producer in the world, and for years nobody thought to ask exactly where his money, or his wine, was actually coming from.
 
@@ -5402,6 +5415,9 @@ Turner spent his later years largely out of the public eye and died on January 8
     title: 'Anthony Gignac: The Colombian Orphan Who Spent Three Decades Posing as a Saudi Prince',
     slug: 'anthony-gignac-fake-saudi-prince-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Anthony_Gignac_Miami_PD_mugshot.jpg?width=1200',
+    coverImageCredit: 'Photo: Miami-Dade Police Department (public domain)',
+    coverImagePosition: 50,
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Anthony Gignac and his younger brother were born in Colombia and orphaned young; in 1977, at age six, the two boys were adopted by a middle-class couple in Michigan. By his own account, the instability of his early childhood and the pressure of effectively raising his younger brother left Gignac drawn to reinvention, and he began practicing it astonishingly early: at around age 12, he talked a Mercedes-Benz dealership into letting him test-drive a car by claiming to be the son of a Saudi prince.
 
@@ -5476,6 +5492,9 @@ Waddell's gold brick swindle endures less as a specific technique — nobody tod
     title: 'Sophie Lyons: The "Queen of Crime" Who Turned a Lifetime of Cons Into a Real Estate Fortune',
     slug: 'sophie-lyons-queen-of-crime',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Sophie_Lyons_in_Professional_Criminals_of_America.png?width=1200',
+    coverImageCredit: 'Photo: mugshot, "Professional Criminals of America" (public domain)',
+    coverImagePosition: 50,
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Sophie Lyons was born Sophie Levy on December 24, 1848, in Lauben, Germany, into a family with no intention of raising her honestly. Her mother, herself a shoplifter, began training Sophie in pickpocketing and theft almost as soon as she could walk; Sophie was reportedly first arrested at age three and again for shoplifting at twelve. By her teens she had no formal education at all, only a thorough apprenticeship in the era's confidence and theft rackets, and a first marriage, at sixteen, to a career criminal named Maury Harris that ended when he was sent to prison.
 
@@ -5492,6 +5511,9 @@ Lyons's career is an unusually complete case study in how the proceeds of long-r
     title: 'Princess Caraboo: The Devon Servant Girl Who Fooled Regency England as a Shipwrecked Royal',
     slug: 'princess-caraboo-mary-baker-hoax',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Illustration_facing_page_44,_Devonshire_Characters_and_Strange_Events.png?width=1200',
+    coverImageCredit: 'Illustration: Nathan Cooper Branwhite, 1817 (public domain)',
+    coverImagePosition: 50,
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Mary Willcocks was born on November 11, 1792, in Witheridge, Devon, the daughter of a cobbler, and spent her early adult years cycling through a series of domestic service jobs across England — the kind of itinerant, anonymous work that left her with no fixed community to vouch for, or contradict, whatever she claimed to be. On April 3, 1817, a cobbler in Almondsbury, Gloucestershire, encountered a young woman in exotic, turban-wrapped clothing who spoke in an unrecognizable language and seemed thoroughly disoriented. Word reached the local magistrate, Samuel Worrall, and his wife Elizabeth, who took the stranger into their home while the village tried to work out who — or what — she was.
 
@@ -5688,6 +5710,9 @@ Merkin's case remains one of the clearest illustrations of the "feeder fund" pro
     title: "Lambert Simnel: The Tradesman's Son Crowned King of England at Age Ten",
     slug: 'lambert-simnel-pretender-king-edward-vi-dublin',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Lambert_simnel.jpg?width=1200',
+    coverImageCredit: 'Illustration: contemporary depiction, Wikimedia Commons (CC BY-SA 4.0)',
+    coverImagePosition: 50,
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Lambert Simnel was born around 1477, the son of an Oxford tradesman, and by any ordinary account should have lived and died in complete obscurity. Instead, at around ten years old, he became the figurehead of one of the most audacious impostor schemes in English history — a plot built not on Simnel's own cunning, since he was a child being used by adults, but on a priest named Richard Simon (sometimes recorded as William Symonds), who recognized that the boy's bearing and appearance could be shaped into a convincing royal claimant. Simon first coached Simnel to pass as Richard of Shrewsbury, one of the "Princes in the Tower," before settling on a more workable story: that the boy was actually Edward Plantagenet, 17th Earl of Warwick, nephew of the last two Yorkist kings and a legitimate rival claimant to Henry VII's throne — even though the real Earl of Warwick was, at that very moment, alive and held in the Tower of London.
 
@@ -5704,6 +5729,9 @@ Simnel's case is a striking early example of a pattern that still defines impost
     title: 'Perkin Warbeck: The Impostor Who Spent a Decade as a Prince-in-Exile',
     slug: 'perkin-warbeck-pretender-richard-duke-of-york',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Perkin_Warbeck.jpg?width=1200',
+    coverImageCredit: "Drawing: Jacques Le Boucq, Recueil d'Arras (public domain)",
+    coverImagePosition: 50,
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Perkin Warbeck was born around 1474 in Tournai, in modern Belgium, the son of a boatman and minor customs official — an ordinary Flemish upbringing that gave no hint of the decade he would go on to spend as one of the most internationally backed impostors in European history. By 1491 he was working for a Breton silk merchant in Cork, Ireland, when local Yorkist sympathizers, struck by his fine bearing and apparent resemblance to the English royal family, began floating him as a possible pretender. After early trial versions of the story — that he was the Earl of Warwick, or an illegitimate son of Richard III — failed to catch on, the plotters settled on the most explosive claim available: that Warbeck was Richard of Shrewsbury, Duke of York, the younger of the two "Princes in the Tower" who had vanished in 1483 and were widely believed murdered on Richard III's orders, but whose deaths had never been publicly confirmed.
 
@@ -5736,6 +5764,9 @@ False Dmitry I's case remains a striking illustration of how far a fabricated id
     title: 'Adele Spitzeder: The Actress Whose Munich "Bank" Ran One of the First Recorded Ponzi Schemes',
     slug: 'adele-spitzeder-munich-ponzi-scheme',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Adele_Spitzeder_-_Die_Gartenlaube.jpg?width=1200',
+    coverImageCredit: 'Illustration: Die Gartenlaube, 1873 (public domain)',
+    coverImagePosition: 50,
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Adelheid "Adele" Spitzeder was born in Berlin in 1832 to a family of actors and spent two decades trying, and largely failing, to build a stage career of her own, drifting through theaters in Coburg, Mannheim, Brno, Nuremberg, and Frankfurt without ever achieving lasting success. By 1868 she was broke and living in Munich on a modest allowance from her mother. The following year, with no banking experience and no capital of her own, she opened for business anyway: the Spitzedersche Privatbank, offering ordinary working-class residents of Munich's Au district a return that no legitimate institution could match — 10 percent interest, paid monthly.
 
@@ -5780,6 +5811,9 @@ Blinder's case is a useful corrective to the assumption that securities fraud re
     title: 'Bertha Heyman, the "Confidence Queen": The Gilded Age Con Artist Who Ran Her Trust Game From Inside Prison',
     slug: 'bertha-heyman-confidence-queen-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Bertha_Heyman.jpg?width=1200',
+    coverImageCredit: 'Photo: public domain, 1880s',
+    coverImagePosition: 50,
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Bertha Heyman was born Bertha Schlesinger around 1851 in Prussia and immigrated to the United States in 1878, settling in New York after a first marriage, to a man named Fritz Karko, that took her briefly to Milwaukee. By the early 1880s, going by her second husband's surname, she had refined a single con into a career: posing as a fabulously wealthy woman temporarily unable to touch her own fortune because of some plausible-sounding legal tangle, and persuading marks to advance her cash to help "unlock" it, in exchange for a job managing her nonexistent estate, a share of the payout, or simple romantic devotion. She checked into good hotels, kept up appearances with hired servants, and let her targets do the work of convincing themselves she was exactly who she claimed to be.
 
@@ -5836,6 +5870,9 @@ Friedrich's fraud is a reminder that the checks meant to catch financial decepti
     title: 'George Psalmanazar: The Frenchman Who Convinced Georgian London He Was a Native of Formosa',
     slug: 'george-psalmanazar-formosa-impostor',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Houghton_MS_Hyde_76_(1.1.xix)_-_George_Psalmanazar.jpg?width=1200',
+    coverImageCredit: 'Portrait: unknown artist, mid-18th century, Houghton Library (public domain)',
+    coverImagePosition: 50,
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Sometime around 1702, a young Frenchman of uncertain origin — his real name was never established, and "George Psalmanazar" was itself a pseudonym he borrowed from a king mentioned in the Book of Kings — arrived in the Netherlands claiming to be a native of Formosa, the island now known as Taiwan, kidnapped from his homeland by Jesuit missionaries and forcibly converted to Catholicism before escaping to Europe. He fell in with a Scottish army chaplain, William Innes, who "reconverted" him to Anglicanism in a stunt letter-writing campaign to Church of London officials that appears, in hindsight, to have been staged by both men to build Psalmanazar's credibility. In 1703 Innes brought him to London, where a genuine exotic convert from a virtually unknown Asian island was a sensation waiting to happen.
 
@@ -5892,6 +5929,9 @@ Because Abrams died before any verdict, the AMA's sting and Scientific American'
     title: 'Madame Rachel: The Bond Street "Beautiful For Ever" Beautician Who Blackmailed Her Clients',
     slug: 'madame-rachel-beautiful-for-ever-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Rachel_ad.jpg?width=1200',
+    coverImageCredit: 'Advertisement: Cambria Daily Leader, public domain',
+    coverImagePosition: 50,
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Sarah Rachel Leverson was born around 1814 into a poor Jewish family in London's East End and spent her early adulthood scraping by selling rabbit skins, dried fish, and secondhand clothes. Sometime in the 1850s she reinvented herself as "Madame Rachel," and in 1863 she opened a lavishly decorated beauty salon on fashionable New Bond Street under the slogan "Beautiful For Ever" — the title of a 24-page pamphlet she gave clients describing herself as a possessor of ancient, exotic beauty secrets. Wrapped in Arabian-style robes and surrounded by crystal talismans, she sold jars of "Magnetic Rock Dew of the Sahara" and "Royal Arabian" face cream at prices that could run into hundreds of pounds, at a moment when respectable Victorian women were expected to look youthful without ever admitting to using cosmetics at all — a taboo Rachel's mystique-laden pitch was built specifically to exploit.
 
@@ -6080,6 +6120,9 @@ Released on probation in December 1999 after serving two-thirds of his term, Sch
     title: 'Titus Oates and the Popish Plot: The Fabricated Conspiracy That Sent Fifteen Innocent Men to the Gallows',
     slug: 'titus-oates-popish-plot-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Titus_Oates_Engraving.jpg?width=1200',
+    coverImageCredit: 'Engraving: Robert White, National Portrait Gallery (public domain)',
+    coverImagePosition: 50,
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Titus Oates was born in Oakham, Rutland, in September 1649, the son of a Baptist preacher, and drifted through Cambridge — where a tutor remembered him as "a great dunce" — and a series of failed clerical postings before being expelled from a naval chaplaincy over allegations of sodomy and briefly converting to Catholicism to gain entry to Jesuit colleges on the European continent, from which he was also expelled. None of it suggested a man capable of convincing an entire kingdom of a murder conspiracy. But in 1678, teamed with an eccentric Anglican clergyman named Israel Tonge, Oates fabricated exactly that: a supposed Jesuit plot, blessed by the Pope, to assassinate King Charles II and install his Catholic brother James on the throne by force.
 
@@ -6144,6 +6187,9 @@ Keely's fraud predates most of the twentieth century's free-energy and perpetual
     title: 'Frederick Cook: The Arctic Explorer Whose Faked Discoveries Ended in an Oil Stock Fraud Conviction',
     slug: 'frederick-cook-north-pole-oil-stock-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Frederick_Cook_%D1%81._1906.jpg?width=1200',
+    coverImageCredit: 'Photo: public domain, c. 1906',
+    coverImagePosition: 50,
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Frederick Albert Cook was born in Hortonville, New York, on June 10, 1865, earned a medical degree in 1890, and built a genuine early reputation as a polar physician and explorer, serving on Arctic and Antarctic expeditions including Robert Peary's 1891-92 Greenland voyage and Adrien de Gerlache's Belgian Antarctic Expedition. That legitimate record made what followed more credible than it otherwise would have been. In 1906, Cook claimed to have reached the summit of Denali (then Mount McKinley), North America's highest peak — a claim later widely discredited after his own expedition photographer, Edward Barrill, signed an affidavit in 1909 admitting the "summit" photograph had actually been taken on a minor peak roughly 20 miles away and thousands of feet lower.
 
@@ -6158,6 +6204,9 @@ Cook was released on parole in 1930 after roughly seven years inside, and in 194
     title: 'Clark Stanley, the "Rattlesnake King": How a Fake Cure Gave Fraud the Name "Snake Oil"',
     slug: 'clark-stanley-snake-oil-liniment-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Clark_Stanley.jpg?width=1200',
+    coverImageCredit: 'Photo: public domain, from "The Life and Adventures of the American Cow-Boy"',
+    coverImagePosition: 50,
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Clark Stanley, born around 1854 and later billed as a Texas cowboy turned self-taught herbalist, built one of the best-known patent medicine brands of the late 19th century on a claim he said he'd picked up from a Hopi medicine man in Arizona in 1879: the secret of "snake oil," a liniment he said was rendered from rattlesnakes and could cure rheumatism, sprains, toothache, sore throat, frostbite, and more. He turned the pitch into theater, most famously at the 1893 World's Columbian Exposition in Chicago, where he killed live rattlesnakes in front of crowds, plunged them into boiling water, and skimmed off the fat that rose to the surface as "proof" of what was inside his bottles. The showmanship worked: Stanley built production facilities in Beverly, Massachusetts, and Providence, Rhode Island, and sold "Clark Stanley's Snake Oil Liniment" nationwide for decades.
 
