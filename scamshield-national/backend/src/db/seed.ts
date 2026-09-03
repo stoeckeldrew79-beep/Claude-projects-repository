@@ -3919,6 +3919,10 @@ Soapy Smith never faced a courtroom for any of it — Skagway's vigilantes serve
     slug: 'jonathan-lebed-teenage-pump-and-dump-sec-case',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/The_Main_Entrance_to_the_New_York_Stock_Exchange,_18_Broad_Street,_Manhattan,_New_York_(7236979828).jpg?width=1200',
+    coverImageCredit: 'Photo: Ken Lund (CC BY-SA 2.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `In September 2000, the SEC announced a civil fraud settlement over a stock-manipulation scheme that had netted roughly $800,000 in trading profits — an unremarkable size for an SEC case, except that the defendant, Jonathan Lebed, was a 15-year-old high school freshman in Cedar Grove, New Jersey, running the scheme from a computer in his bedroom. He became the first minor ever charged by the SEC with securities fraud.
 
 Lebed's method was a straightforward pump-and-dump, but executed with a teenager's fluency in the still-new medium of internet message boards rather than the phone banks and boiler rooms regulators were used to policing. He would buy a block of a thinly traded microcap stock, then flood dozens of Yahoo! Finance and AOL financial message boards with dozens of enthusiastic posts under multiple usernames, hyping the stock as the "most undervalued stock ever" or predicting imminent huge gains, without disclosing that he already owned shares and stood to profit the moment other investors piled in. Because the stocks were so thinly traded, even modest buying interest from message-board readers could move the price sharply within a single day — and Lebed would sell into that spike before the price fell back. Between September 1999 and February 2000, the SEC found he'd made eleven such trades, with single-day gains ranging from about $12,000 to $74,000.
@@ -4128,6 +4132,10 @@ BCCI remains the reference case for what can happen when a financial institution
     slug: 'tom-hayes-libor-rigging-scandal',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/City_of_London_skyline,_April_2013.jpg?width=1200',
+    coverImageCredit: 'Photo: KrakenHammer (CC BY-SA 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Tom Hayes was a star derivatives trader, first at UBS and later at Citigroup, whose profits depended on the tiniest movements in Libor, the London Interbank Offered Rate that underpinned trillions of dollars in loans, mortgages, and derivatives contracts worldwide. Libor wasn't measured directly from real transactions; it was set each day from estimates a panel of banks submitted for what it would cost them to borrow from one another, which meant the number driving global finance was, at its core, a set of self-reported guesses — and Hayes realized that nudging those guesses by a fraction of a percentage point, in the right direction on the right day, could be worth a fortune to his own trading positions.
 
 Starting around 2006, Hayes began systematically asking submitters at his own bank and colleagues at rival banks to submit Libor estimates that suited his trades rather than reflecting their honest view of borrowing costs, coordinating the requests over email and instant message in a paper trail investigators later reconstructed in detail. He wasn't unique in doing this — the practice turned out to be widespread across the industry — but he was unusually organized about it, and unusually candid, in his own communications, about exactly what he was doing and why.
@@ -4315,6 +4323,10 @@ Hatry served nine years before his release from Maidstone Prison in January 1939
     slug: 'iwan-herstatt-bank-collapse-1974',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Koeln_ehem_Bankhaus_Herstatt_GS.JPG?width=1200',
+    coverImageCredit: 'Photo: Georg Schelbert (CC BY-SA 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Iwan Herstatt founded Bankhaus I.D. Herstatt in Cologne in 1955, reviving a family banking name his father had carried before losing his own firm in Germany's 1931 banking crisis. By the early 1970s, Herstatt's bank had grown into a mid-sized but well-connected private bank, and it had built a reputation as an aggressive player in foreign-exchange trading — a business that had become newly volatile after the Bretton Woods system of fixed exchange rates broke down in 1971 and major currencies began floating freely against each other.
 
 Herstatt's foreign-exchange traders used that volatility to make large, unauthorized bets on the direction of the U.S. dollar against the German mark, and when those bets went wrong, the losses were concealed rather than reported — kept off the bank's books through unrecorded transactions that made Herstatt's foreign-exchange desk look far more conservative than it actually was. By June 1974, the hidden losses had reached roughly 470 million German marks, more than ten times the bank's entire capital base of about 44 million marks, when the head of the foreign-exchange department confessed what had happened.
@@ -4329,6 +4341,10 @@ The collapse triggered a run on deposits at other German banks, a spike in Eurod
     slug: 'arnaud-du-tilh-martin-guerre-impostor',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Thumbnail_(5).jpg?width=1200',
+    coverImageCredit: 'Photo: Openbare Bibliotheek Brugge (CC BY-SA 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `In 1548, a young peasant named Martin Guerre walked away from his wife, Bertrande de Rols, and his family's land in the French village of Artigat, after years of a strained arranged marriage and a dispute with his father over stolen grain. He was gone for eight years, eventually serving as a soldier and losing a leg in battle, while back in Artigat his abandoned wife raised their son alone and waited for word that never came. In 1556, a man arrived in the village claiming to be Martin Guerre, returned at last — and the village, including Guerre's own sisters, welcomed him home.
 
 The man was actually Arnaud du Tilh, a drifter and petty con artist known locally as "Pansette," who happened to closely resemble Guerre and who had spent time among soldiers who had served alongside the real man, absorbing enough personal detail about Guerre's life, family, and habits to perform the role convincingly. He moved into Guerre's house, was accepted by Bertrande as her husband, fathered children with her, and spent roughly three years managing Guerre's inherited property — including pursuing a lawsuit against Guerre's uncle, Pierre Guerre, over control of the family estate, a dispute that would ultimately expose him.
@@ -4399,6 +4415,10 @@ The case's impact reached well beyond Wu herself. A little over two years after 
     slug: 'robert-trippet-home-stake-oil-swindle',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Tulsa_Skyline.jpg?width=1200',
+    coverImageCredit: 'Photo: Caleb Long (CC BY-SA 2.5)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Robert S. Trippet was a Tulsa, Oklahoma attorney who founded Home-Stake Production Company in 1955 as an oil-and-gas exploration venture, selling investors fractional interests in wells the company would drill and operate on their behalf. For nearly two decades, Home-Stake cultivated an air of exclusivity, spreading mostly by word of mouth among entertainers rather than through cold sales pitches, and its investor rolls eventually read like a Hollywood and broadcasting who's-who: Bing Crosby, Jack Benny, Walter Matthau, Andy Williams, Liza Minnelli, Barbra Streisand, Bob Dylan, David Cassidy, Buddy Hackett, Candice Bergen, and news anchor Walter Cronkite among more than 2,000 investors who together put in over $100 million.
 
 Very little of that money went into productive oil wells. Investigators later found that Home-Stake developed only a fraction of the properties it claimed to be operating, and that company employees resorted to elaborate props to keep up appearances — reportedly painting ordinary farm irrigation pipes to pass them off as oil pipeline infrastructure during investor site visits. Behind the scenes, Home-Stake ran on the same mechanism as any Ponzi scheme: money coming in from new investors was funneled back out as "profit participations" paid to earlier investors, creating the appearance of a consistently profitable operation even as the underlying wells produced little or nothing.
@@ -4415,6 +4435,10 @@ Home-Stake remains a textbook case study in affinity and celebrity-driven fraud:
     slug: 'george-koskotas-bank-of-crete-scandal',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Acropolis_Of_Athens_Greece_02.jpg?width=1200',
+    coverImageCredit: 'Photo: Spirosparas (CC BY-SA 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `George Koskotas arrived at Greece's Bank of Crete in 1979 as a junior accounting employee and, over the following decade, quietly embezzled bank funds to buy up its shares, working his way into the chairmanship by January 1985. From that position he built a sprawling media empire — two Athens daily newspapers, five magazines, a radio station, the storied Hotel Grande Bretagne, and the Olympiacos football club — all financed with money stolen from his own bank's depositors, ultimately totaling more than $200 million funneled out through falsified records.
 
 What made the scandal historic wasn't just its scale but the political protection Koskotas later said made it possible. After his flight and arrest, he told investigators and journalists that he had bought newspapers to attack critics of Prime Minister Andreas Papandreou's governing PASOK party, bankrolled pro-government organizations, and funneled cash to at least one cabinet minister in a Swiss account — all in exchange for rapid regulatory approvals, protection from bank audits, and legislation that shielded him from prosecution. Time magazine's March 1989 cover story on his allegations, published under the headline "The Looting of Greece," turned a bank-embezzlement case into a full-blown national political crisis.
@@ -4635,6 +4659,10 @@ Patrick was indicted for murder and forgery, tried, and in March 1902 convicted 
     slug: 'james-hogue-princeton-impostor-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Firestone_Library,_Princeton_University,_Princeton_NJ.jpg?width=1200',
+    coverImageCredit: 'Photo: John Phelan (CC BY-SA 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `James Arthur Hogue had already spent years perfecting a con by the time he reached Princeton — reinventing himself as a teenager repeatedly in the years before, including a stint impersonating a wealthy student and cycling prodigy in Kansas that ended in a fraud conviction. In September 1985, at age 25, he stole the identity of a deceased infant, enrolled at Palo Alto High School in California posing as a 16-year-old orphan named Jay Huntsman, and became a standout distance runner on the school's track team — winning a state cross-country title before school officials, growing suspicious of a student who never seemed to age, discovered the deception and had him expelled.
 
 Rather than abandon the persona, Hogue upgraded it. In 1988 he applied to Princeton University as "Alexi Indris-Santana," presenting himself as a self-taught orphan who had spent years alone in the Utah desert and Grand Canyon, raising sheep and reading Plato — a hardship narrative engineered to explain away his lack of school transcripts and to appeal directly to an admissions office looking for compelling, unconventional applicants. It worked: Princeton admitted him, and over the following two-plus years "Alexi" made the dean's list, joined the elite Ivy Club, dated fellow students, and became a star on the university's track and cross-country teams, competing against Ivy League rivals under a name that was not his own.
@@ -4744,6 +4772,10 @@ The Marconi affair left no prosecuted fraudster and no seized fortune, but it be
     slug: 'kanebo-accounting-fraud-japan',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Osaka_city_view_01.jpg?width=1200',
+    coverImageCredit: 'Photo: Chris 73 (CC BY-SA 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Kanebo Ltd. was, for most of the twentieth century, one of Japan's most recognizable corporate names — a textile conglomerate turned cosmetics powerhouse that ranked as the country's number-two beauty brand behind only Shiseido. Behind that respectable public face, Kanebo's core textile and pharmaceutical businesses had been quietly bleeding money since the mid-1990s, weighed down by the aftermath of Japan's asset-price bubble. Rather than report the losses and risk the credit downgrades, bank pressure and reputational damage that would follow, Kanebo's management chose to make the numbers disappear on paper instead.
 
 From at least 1999 through 2003, Kanebo executives systematically inflated the company's reported profits and papered over what was in reality a negative net worth, understating losses and overstating the value of subsidiaries and inventory to keep the balance sheet looking solvent. An internal investigation launched after the scheme unraveled found that management had dressed up its books by roughly 200 billion yen — well over a billion dollars — over five consecutive fiscal years, a fiction large enough that restated financials showed Kanebo had actually been insolvent for most of the period it was reporting profits. The company's auditors at ChuoAoyama, the Japanese affiliate of PricewaterhouseCoopers, did not catch the fraud — they facilitated it, with four of the firm's certified public accountants later arrested for colluding with Kanebo executives to falsify the audited financial statements the firm was supposed to independently verify.
@@ -4803,6 +4835,10 @@ The SEC's civil case concluded in 2002, when Dunlap agreed to a permanent bar fr
     slug: 'toshiba-accounting-scandal-japan',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Tokyo_Tower,_Minato_City.jpg?width=1200',
+    coverImageCredit: 'Photo: David Kernan (CC BY 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Toshiba was, for most of the postwar era, one of Japan's most trusted industrial names — a sprawling conglomerate spanning consumer electronics, semiconductors, nuclear power and heavy infrastructure. In February 2015, Japan's Securities and Exchange Surveillance Commission received a whistleblower tip alleging improper accounting inside the company's infrastructure businesses, and what began as a narrow inquiry into a handful of long-term construction projects grew into one of the largest corporate accounting scandals in Japanese history.
 
 An independent investigation committee of roughly 98 lawyers and accountants found that Toshiba had been systematically overstating its profits since at least fiscal year 2008, spanning the tenure of three consecutive chief executives — Atsutoshi Nishida, Norio Sasaki and Hisao Tanaka. The mechanics varied by division but shared a common thread: on long-running infrastructure and semiconductor projects, managers recognized revenue far ahead of actual work completed and understated costs still to come, while other units improperly valued inventory and delayed booking known losses, all to hit profit targets set from the top. The investigation concluded that senior executives had applied relentless pressure on subordinates to close the gap between real results and unrealistic targets, and that Toshiba's corporate culture actively discouraged employees from pushing back against directives from above — even when those directives amounted to falsifying the numbers.
@@ -4817,6 +4853,10 @@ Japan's securities regulator recommended a record 7.37 billion yen — about $60
     slug: 'luckin-coffee-fabricated-sales-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Luckin_Coffee_Kunming_store.jpg?width=1200',
+    coverImageCredit: 'Photo: Amin (CC BY-SA 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Luckin Coffee launched in Beijing in 2017 with a simple pitch: an app-only chain that could out-scale Starbucks in China by opening stores faster and subsidizing prices with aggressive coupons. It worked, at least on paper — Luckin listed on the Nasdaq in May 2019, raising $650 million at a roughly $4 billion valuation, and by January 2020 its share price had nearly doubled again on the strength of reported same-store sales and item counts that kept beating expectations quarter after quarter.
 
 On January 31, 2020, the short-seller Muddy Waters Research published an anonymous 89-page report it said it had received from an outside source, alleging the growth was manufactured. The report's investigators claimed to have recorded more than 11,000 hours of surveillance video outside hundreds of Luckin stores and collected over 25,000 customer receipts, concluding that the company had overstated items sold per store by 69% in the third quarter of 2019 and 88% in the fourth. Luckin initially dismissed the report as baseless, and its stock, after an early plunge, largely recovered within weeks.
@@ -4833,6 +4873,10 @@ Luckin's collapse became a case study in how quickly a fraud can unravel once ph
     slug: 'kamlesh-pattni-goldenberg-scandal-kenya',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Nairobi_skyline_from_Uhuru_Park.jpg?width=1200',
+    coverImageCredit: 'Photo: Ephymbaya (CC BY-SA 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `In the late 1980s, Kenya's government set up an export compensation scheme meant to encourage exporters to bring hard currency into the country, paying gold and diamond exporters a bonus of up to 35% above the value of what they shipped abroad. The catch was that Kenya barely mined any gold or diamonds at all. In 1990, a young Nairobi businessman named Kamlesh Pattni, working alongside James Kanyotu, the director of Kenya's intelligence service, set up a company called Goldenberg International to exploit that gap directly.
 
 Goldenberg claimed to be exporting vast quantities of gold and diamonds it never actually produced. What little gold the company handled appears to have been smuggled in from neighboring countries and relabeled as Kenyan output; the rest of its claimed exports existed only on paper. Using a companion firm, Exchange Bank Limited, and direct access to the Central Bank of Kenya, Pattni's companies claimed roughly $400 million in gold and diamond exports at the scheme's peak, collecting export compensation payments and preferential foreign-exchange allocations far beyond what any legitimate exporter of that size could have earned — in some cases collecting compensation before any goods had supposedly even shipped.
@@ -4899,6 +4943,10 @@ He never lived to see it resolved. A stroke in 1985 sharply curtailed his public
     slug: 'nugan-hand-bank-collapse',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Sydney_skyline_at_dusk_-_Dec_2008.jpg?width=1200',
+    coverImageCredit: 'Photo: David Iliff (CC BY-SA 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Nugan Hand Bank opened in Sydney in 1973, co-founded by Australian lawyer Francis "Frank" Nugan and Michael Jon Hand, a former U.S. Army Green Beret turned CIA-linked operative who'd served in Laos. From the start, the bank's real capitalization was closer to fiction than finance: according to investigative accounts, the company had roughly $80 in its account and $5 in genuine paid-up capital when Nugan wrote his own bank a personal check for $980,000 to purchase 490,000 shares — a check that was never meant to clear and simply let the ledgers show a well-funded institution that didn't actually exist.
 
 What the bank lacked in real capital it made up for in connections and marketing. Nugan Hand recruited an extraordinary roster of retired American military and intelligence figures onto its letterhead and advisory boards, including former CIA director William Colby and retired Rear Admiral Earl P. Yates, lending the operation an air of establishment credibility that helped it promise depositors interest rates as high as 16% along with the anonymity of offshore, tax-free accounts. The bank expanded rapidly into a network of branches spanning the Cayman Islands, Hong Kong, Singapore, Taiwan, the Philippines, Thailand, Hawaii, and Washington, D.C. — a footprint that later fueled persistent, and never conclusively proven, allegations that the bank had also served as a conduit for drug money and covert intelligence operations across Southeast Asia.
@@ -4941,6 +4989,10 @@ In late 1976, facing a renewed French extradition order he believed he could not
     slug: 'affair-of-the-diamond-necklace',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Le_Collier_de_la_reine.jpg?width=1200',
+    coverImageCredit: 'Photo: Château de Breteuil (CC BY-SA 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `In 1784, a French noblewoman of little money but grand pretensions, Jeanne de Saint-Rémy de Valois, self-styled Comtesse de la Motte, set her sights on an extraordinarily expensive piece of jewelry: a 2,800-carat diamond necklace, commissioned years earlier for King Louis XV's mistress and never sold, that Parisian jewelers Boehmer and Bassenge were desperate to unload at a price of 1.6 million livres — one of the most valuable objects in France. La Motte had no means to buy it herself. What she had was access to Cardinal Louis René Édouard de Rohan, a wealthy, socially ambitious churchman who had fallen badly out of favor with Queen Marie Antoinette and was desperate to win back royal favor.
 
 La Motte convinced Rohan that the Queen secretly wished to buy the necklace but could not be seen doing so openly, and that helping arrange the purchase in secret would restore him to the Queen's good graces. To make the deception convincing, La Motte staged a nighttime meeting in the gardens of Versailles between Rohan and a woman he believed to be Marie Antoinette herself — in reality a prostitute named Nicole Le Guay d'Oliva, dressed and coached to resemble the Queen, who handed Rohan a rose and a few whispered words in the dark. Convinced, the Cardinal signed a purchase agreement on the Queen's supposed behalf, took delivery of the necklace from the jewelers in early 1785, and handed it directly to La Motte to deliver to the Queen. La Motte's husband instead broke the necklace apart and sold its diamonds individually in London.
@@ -4986,6 +5038,10 @@ The consequences were immediate and lasting. Van Doren was fired the same day fr
     slug: 'paul-mozer-salomon-brothers-treasury-scandal',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Wall_Street_Sign_NYC.jpg?width=1200',
+    coverImageCredit: 'Photo: JSquish (CC BY-SA 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Every few weeks, the U.S. Treasury auctions off billions of dollars in new government debt, and to keep any single firm from cornering an auction and squeezing everyone else who needs those bonds, the Treasury capped how much any one bidder could buy: no more than 35 percent of a given auction. In the early 1990s, Paul Mozer, the head of Salomon Brothers' government bond trading desk — then the most powerful desk on Wall Street — decided the cap was an obstacle to be routed around rather than obeyed.
 
 Beginning in December 1990 and continuing through May 1991, Mozer submitted bids at Treasury auctions using the names of Salomon's own clients, including Quantum Fund and Warburg Asset Management, without those clients' knowledge or authorization, then quietly moved the resulting bonds onto Salomon's own trading book. In the February 1991 five-year note auction alone, the unauthorized bids let Salomon end up controlling 57 percent of the entire issue — enough, combined with the firm's other holdings, to effectively corner the market and force other traders who had shorted the notes to buy them back from Salomon at whatever price it demanded. It worked, repeatedly, for months.
@@ -5048,6 +5104,10 @@ The scheme finally came apart in February 2000, when Schmider and Kleiser were a
     slug: 'brett-kebble-jci-randgold-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Johannesburg-city-skyline-night.jpg?width=1200',
+    coverImageCredit: 'Photo: Frankbel (CC BY-SA 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Roger Brett Kebble was born in South Africa on February 19, 1964, earned a law degree from the University of Cape Town in 1986, and went into the mining business alongside his father, Roger Kebble, a veteran mining engineer, in 1991. Over the following decade Brett rose to control a tangled web of century-old South African mining houses — JCI (Johannesburg Consolidated Investment), Randgold & Exploration, Randgold Resources, and Western Areas — often through black economic empowerment partnerships, including a prominent one with businessman Mzi Khumalo, that gave him influence over companies whose shares and cash he did not always fully own.
 
 That web of interlinked, cross-holding companies became the mechanism for the fraud. Kebble and fellow directors at JCI misappropriated and sold approximately 21.8 million shares of Randgold Resources — worth roughly R2 billion — without proper authorization from the shareholders who actually owned them, then used the proceeds to prop up the ailing JCI and Western Areas and to sustain a personal lifestyle that reportedly cost around R5 million a month. Because the companies were so deeply intertwined, the missing shares and diverted cash were, for years, extraordinarily difficult for outside auditors or regulators to trace to any single decision or signature — the same structural complexity that had let Kebble build his empire also let him raid it.
@@ -5062,6 +5122,9 @@ Kebble never faced that reckoning in a courtroom. On September 27, 2005, he was 
     slug: 'titanic-thompson-legendary-hustler-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Ti-1915.jpg?width=1200',
+    coverImageCredit: 'Photo: Unknown author, headstuff.org (public domain, published before 1931)',
+    coverImagePosition: 50,
     body: `Alvin Clarence Thomas was born in Rockwall County, Texas, in 1892 and grew up in the Ozarks of Arkansas, where a talent for cards, marksmanship, and pool earned him spending money before he was out of his teens. By his early twenties he had left home for the pool halls and card rooms of the American South and Midwest, working under the name "Titanic Thompson" — a nickname a bartender reportedly coined after watching him "sink" a roomful of gamblers the same year the ocean liner went down. For the next five decades, Thompson made his living not by cheating outright, but by engineering proposition bets he had privately already won before his mark ever agreed to the terms.
 
 His signature move was the rigged wager disguised as a fair contest. He would practice throwing a walnut, a lemon, or a horseshoe hundreds of times before offering to bet a stranger he could out-throw him at a game the mark thought he understood better than Thompson did. He was ambidextrous and would lose the first round of a golf match right-handed on purpose, drawing a confident opponent into a bigger bet for a rematch — then switch to his left hand and win. He is widely credited with staking a young Alabama hustler named Alvin "Titanic" — no relation — better known to history as Minnesota Fats' rival Ky Laffoon, and with backing a teenage Lee Elder and a young Arnold Palmer in money golf games years before either turned pro. He also bankrolled and befriended professional card players, most notably a young Texas road gambler named Doyle Brunson, whom Thompson helped steer toward the poker career that eventually made Brunson a two-time World Series of Poker champion.
@@ -5093,6 +5156,10 @@ Rothstein's own end came less from the World Series scandal than from a separate
     slug: 'xu-xiang-zexi-investment-stock-manipulation',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Shanghai_Skyline_from_the_Bund.jpg?width=1200',
+    coverImageCredit: 'Photo: Wilson Hui (CC BY 2.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Xu Xiang left school as a teenager in the 1990s to trade stocks on China's then-young exchanges, and by the early 2010s had built Zexi Investment, a private Shanghai hedge fund, into one of the most celebrated names in Chinese finance. Business media dubbed him "Brother No. 1 of Private Placement," and his fund's returns were staggering even by the standards of China's roaring bull market — Zexi's value reportedly grew 218% in the first three quarters of 2015 alone, more than double the return of its nearest competitor, drawing comparisons in the domestic press to Carl Icahn.
 
 Those returns were not the product of ordinary stock-picking skill. Chinese prosecutors alleged that between 2010 and 2015, Xu conspired with the chairmen and senior executives of at least 13 listed companies, trading nonpublic information about upcoming corporate announcements to Zexi in advance, then using the fund's enormous capital to move share prices sharply before the news became public — a combination of insider trading and market manipulation executed at a scale large enough to move individual stocks on China's exchanges. The scheme unraveled amid the broader summer 2015 crash of China's stock market, when regulators scrutinizing the causes of the crash's volatility began tracing unusual trading patterns back to Zexi and Xu personally.
@@ -5159,6 +5226,10 @@ The recovery effort stretched on for more than two decades after Abacha's death,
     slug: 'tim-leissner-goldman-sachs-1mdb-bribery',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Petronas_Tower_-_Jalan_Ampang_-_Kuala_Lumpur_-_DSC001.jpg?width=1200',
+    coverImageCredit: 'Photo: Ajish R (CC BY-SA 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Tim Leissner spent nearly two decades as one of Goldman Sachs's most prized dealmakers, rising to chairman of the bank's Southeast Asia business and, at one point, holding the title of "participating managing director" — one of the firm's most senior ranks. Beginning in 2012, he was the banker who brought Goldman the deal of a lifetime: arranging three bond offerings worth more than $6 billion for 1Malaysia Development Berhad (1MDB), the state investment fund at the center of what U.S. prosecutors have called one of the largest financial frauds in history. This site profiles the fund's fugitive architect, Jho Low, and Malaysia's convicted former prime minister, Najib Razak, separately — Leissner was the Wall Street insider who made Goldman's role in the theft possible.
 
 Leissner and his co-conspirators paid more than $1 billion in bribes to at least 12 government officials in Malaysia and the United Arab Emirates to win and keep 1MDB's business for Goldman, according to the U.S. Department of Justice. He personally admitted to pocketing roughly $73.4 million funneled from 1MDB itself, plus another $80 million paid to him by Low. Goldman, meanwhile, collected about $600 million in fees on the bond deals — far above market rates — while the underlying proceeds were siphoned off through shell companies instead of funding the Malaysian infrastructure projects the bonds were supposedly financing.
@@ -5218,6 +5289,10 @@ Investigators eventually put the total misappropriated at roughly £750,000 — 
     slug: 'wolfgang-stolzenberg-castor-holdings-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Montreal_-_QC_-_Skyline.jpg?width=1200',
+    coverImageCredit: 'Photo: Taxiarchos228 (CC BY 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Castor Holdings was a Montreal-based private lender that, through the 1980s, became one of the most active sources of second- and third-mortgage financing for commercial real estate in North America, backing high-profile projects including the Montreal Eaton Centre and the Maple Leaf Village development in Niagara Falls, Ontario. It was the creation of Wolfgang Stolzenberg, a German-Canadian financier who chaired the company and, according to the RCMP officers who later investigated him, was a "master of illusion" at projecting financial strength that didn't exist.
 
 The illusion rested on Castor's loan book. Stolzenberg raised capital from banks, pension funds, and other institutional lenders around the world by presenting Castor as a highly profitable operation — in 1990, its last year of audited financial statements, the company reported a loan portfolio of roughly $1.7 billion and net earnings of $31.2 million. Those numbers depended on inflated appraisals of the real estate securing Castor's loans and on undisclosed related-party transactions that let losses on some deals be papered over using money raised for others. Castor's outside auditor, the international accounting firm Coopers & Lybrand, signed off on those valuations year after year, lending its name and credibility to numbers a later Quebec Superior Court ruling would find the firm had no reasonable basis to certify.
@@ -5274,6 +5349,10 @@ Several of Razmilovic's co-defendants, including former general counsel Leonard 
     slug: 'rakesh-saxena-bangkok-bank-of-commerce-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Bangkok_Skyline_(MK).jpg?width=1200',
+    coverImageCredit: 'Photo: Mathias Krumbholz (CC BY-SA 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Rakesh Saxena, an Indian-born financier educated in England with a specialty in foreign-exchange and derivatives trading, became an informal but powerful adviser to Bangkok Bank of Commerce in 1989, working closely with the bank's president, Krirkkiat Jalichandra. Saxena never held a formal board seat or executive title at BBC, but that lack of an official position didn't stop him from directing huge swings of the bank's money — an arrangement that gave him outsized influence with none of the accountability a titled officer would have faced.
 
 Prosecutors alleged Saxena used that influence to siphon off roughly $88 million from the bank through a web of complex derivative transactions between 1994 and 1996, while also helping steer some 1.6 billion baht in loans through a shell company called City Trading Corp. BBC compounded the damage by extending large, poorly collateralized loans to politically connected borrowers, a pattern of reckless and self-dealing lending that left the bank's balance sheet riddled with bad debt behind a facade of routine banking operations.
@@ -5288,6 +5367,9 @@ That fight lasted thirteen years, with Saxena spending much of it under a court-
     slug: 'arthur-nadel-scoop-management-ponzi-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Arthur-nadel-294x368.jpg?width=1200',
+    coverImageCredit: 'Photo: Pinellas County Sheriff\'s Office (public record)',
+    coverImagePosition: 50,
     body: `Arthur Nadel was a disbarred lawyer and amateur pianist who reinvented himself in Sarasota, Florida, as a hedge fund manager with an unusually consistent talent for calling the market. Starting in 1999, he ran six affiliated funds — including Scoop Capital, Scoop Real Estate, and, through a partnership with local businessman Neil Moody and Moody's son Christopher, the Valhalla, Victory, and Viking funds — telling investors he generated steady double-digit annual returns through day-trading. Many of his investors were fellow Sarasota residents, retirees, and local charitable foundations drawn in by a decade of reported success and Nadel's own reputation as a civic-minded philanthropist.
 
 The reported returns were fiction. According to the SEC and federal prosecutors, Nadel's funds were losing money for most of their existence, and he covered the gap by sending investors account statements that overstated the funds' combined value by roughly $300 million — at the point investigators finally opened the books in 2009, the funds' actual combined assets came to less than $1 million, against the hundreds of millions on paper. Nadel used a portion of the incoming cash to fund a personal lifestyle that included multiple homes, several airplanes, and a helicopter, while continuing to solicit new investments to keep the illusion running.
@@ -5302,6 +5384,10 @@ Nadel was indicted in Manhattan federal court on 15 counts of securities, wire, 
     slug: 'j-david-dominelli-la-jolla-ponzi-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/La_Jolla_Cove_from_the_south.JPG?width=1200',
+    coverImageCredit: 'Photo: Invertzoo (CC BY-SA 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Jerry "J. David" Dominelli opened J. David & Company in the wealthy San Diego enclave of La Jolla, California, in 1979, pitching it as a currency and commodities trading operation with an extraordinary edge: he told early investors he could deliver returns of 40 to 50 percent a year through overnight interbank currency trading. Working alongside his business partner and companion, socialite Nancy Hoover, Dominelli turned the firm into a status symbol among La Jolla's professional and social elite, eventually drawing in roughly 1,500 investors — doctors, business owners, and members of the city's social circuit who competed for the chance to hand him their money.
 
 There was no trading operation capable of producing those returns. J. David & Company was a straightforward Ponzi scheme: new investor money paid the "returns" older investors were promised, while Dominelli and Hoover used the rest to fund a lavish lifestyle of mansions, luxury cars, and a private jet, and to make generous, image-building contributions to local causes and political campaigns. One of those campaigns proved to be the firm's undoing in ways that went beyond finance: Nancy Hoover was romantically involved with Tom Shepard, campaign consultant to San Diego mayoral candidate Roger Hedgecock, and prosecutors later determined that J. David money had been funneled through Shepard's firm to illegally finance Hedgecock's successful 1983 mayoral campaign.
@@ -5333,6 +5419,10 @@ Redpath stood trial at the Old Bailey in January 1857 and was convicted and sent
     slug: 'david-paul-centrust-bank-savings-loan-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Miami_Skyline_2020.jpg?width=1200',
+    coverImageCredit: 'Photo: Chris6d (CC BY-SA 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `David L. Paul bought a small, failing Miami thrift in 1983 and renamed it CenTrust Bank, riding the wave of savings-and-loan deregulation to build it into the largest thrift in the southeastern United States, with more than $9 billion in assets at its peak in 1989. Paul cultivated an image as a civic patron and financial visionary, commissioning a gleaming I.M. Pei-designed office tower in downtown Miami and positioning CenTrust as a symbol of the city's arrival as a banking center — all while running the institution largely as an extension of his personal ambitions.
 
 Those ambitions extended well beyond banking. Between late 1987 and mid-1988, CenTrust traded junk bonds with California's Lincoln Savings and Loan — Charles Keating's thrift — in deals arranged through Drexel Burnham Lambert and Michael Milken, a daisy-chain of related-party bond trades between troubled thrifts that let both institutions book paper profits regulators would later find had no real economic substance. Examiners also discovered that CenTrust had sunk roughly $29 million into museum-quality artwork, including a $13 million painting by the Flemish master Peter Paul Rubens — purchased, nominally, as a bank asset, but hanging not in any CenTrust office or lobby but on the walls of Paul's own Miami Beach mansion.
@@ -5451,6 +5541,10 @@ Gignac's three-decade run endures as one of the most extreme examples of a fraud
     slug: 'bidwell-brothers-bank-of-england-forgery-1873',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Bank_of_England_Building,_London,_UK_-_Diliff.jpg?width=1200',
+    coverImageCredit: 'Photo: David Iliff (CC BY-SA 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `George Bidwell and his younger brother Austin Biron Bidwell were American career forgers before either of them ever set foot in London. George had already served two years for defrauding grocers in West Virginia; Austin, still in his early twenties, had built a reputation as a skilled bank forger back in the United States. In 1871 the two crossed the Atlantic with a far larger target in mind than any American bank had offered them: the Bank of England itself, then as now one of the most trusted financial institutions in the world.
 
 The plan required patience most confidence schemes never bother with. Austin, posing as a wealthy American railway financier under the alias "Frederick Albert Warren," opened a legitimate deposit account at the Bank's fashionable West End branch in Burlington Gardens, Mayfair, and spent months depositing genuine bills of exchange to build a track record of respectability and easy credit. He recruited two accomplices to help sustain the illusion: George MacDonnell, a Harvard-educated forger he'd met while imprisoned at Sing Sing, and Edwin Noyes, brought in to convert the eventual proceeds into cash and securities. Only once "Mr. Warren" was a trusted, established customer did the brothers introduce forged bills into the stream of genuine ones passing through his account — and because the branch had no reason to doubt a client it had spent months coming to know, the forgeries went unchallenged.
@@ -5465,6 +5559,9 @@ All four were convicted at the Old Bailey and sentenced to life imprisonment —
     slug: 'stanley-clifford-weyman-serial-impostor',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Stanley_Clifford_Weyman_(noted_imposter),_the_three_sons_of_Princess_Fatima_Sultana_of_Afghanistan,_Princess_Fatima,_and_Prince_Zerdechene_of_Millan_in_Washington,_D.C.,_during_a_visit_to_LOC_npcc.04706.jpg?width=1200',
+    coverImageCredit: 'Photo: National Photo Company Collection, Library of Congress (public domain)',
+    coverImagePosition: 50,
     body: `Stanley Clifford Weyman was born Stephen Jacob Weinberg in Brooklyn in 1890, the son of a family that couldn't afford to send him to college. Rather than accept an ordinary working life, Weyman spent the next five decades becoming, briefly and repeatedly, whoever the situation called for — a diplomat, a naval officer, a physician, a military attaché — with a fluency that repeatedly got him further than most professional con artists ever manage, even though the money he extracted was often almost beside the point.
 
 His first documented imposture came in 1910, posing as a U.S. consular representative to Morocco to secure meals and credit at fine New York restaurants. He escalated from there: in the early 1910s he alternated between posing as a Serbian military attaché and a U.S. Navy lieutenant, each identity lending fake credibility to the other. His most theatrical stunt came in 1915, when — dressed in, by one account, "a stunning light-blue uniform dripping with gold braid and wearing an admiral's hat" — he presented himself as a lieutenant commander and Romanian consul general and talked his way aboard the USS Wyoming for a full inspection tour, complete with a 21-gun salute from a crew that had no reason to doubt him. He was arrested at a dinner celebrating the "inspection" and served a year in prison, the first of at least thirteen prison stints that would punctuate his life.
@@ -5617,6 +5714,9 @@ Bevan's case illustrates a pattern that recurs across a century of corporate fra
     slug: 'lord-kylsant-royal-mail-case-dividend-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Lord_Kylsant.jpg?width=1200',
+    coverImageCredit: 'Public domain (1920s portrait)',
+    coverImagePosition: 50,
     body: `Owen Cosby Philipps, later Lord Kylsant, spent the first three decades of the twentieth century building the largest shipping empire in the world. As chairman and managing director of the Royal Mail Steam Packet Company from 1902 onward, he acquired controlling stakes in more than twenty shipping lines — including the Union-Castle Line, the Pacific Steam Navigation Company, and, in 1927, the White Star Line, owner of the Titanic's sister ships — assembling a sprawling group of interlocking companies under his personal control. That complexity was not incidental to what came next; it was the mechanism.
 
 Through the 1920s, as postwar shipping demand collapsed and several of his companies began trading at a loss, Kylsant kept paying shareholders steady dividends anyway, maintaining the appearance of a thriving business. He did it using an accounting practice that was technically legal at the time but designed to obscure the truth: shifting money between the group's many subsidiary companies and drawing down hidden reserves built up in profitable earlier years, so that published accounts showed comfortable profits and uninterrupted dividends even as the underlying shipping operations bled money. Auditors, working from a fragmented multi-company structure with legal room to withhold the size and movement of reserves, signed off on financial statements without disclosing to shareholders or the public that the "profits" funding those dividends were, in substantial part, fictions of accounting presentation rather than money the company had actually earned.
@@ -5698,6 +5798,10 @@ Jones's career, chronicled in his era's own true-crime literature — Pinkerton'
     slug: 'natwarlal-conman-forger-prison-escapes',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Taj_Mahal_2018.jpg?width=1200',
+    coverImageCredit: 'Photo: Almbauer (CC0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Mithilesh Kumar Srivastava was born in 1912 in Bangra, a village in Bihar's Siwan district, the son of a railway stationmaster, and showed little interest in school before drifting into petty crime as a young man — his first documented offense, in 1937, was the theft of nine tonnes of iron. What followed was nearly six decades of forgery, fraud, and escape that made him, under the name "Natwarlal," one of independent India's most written-about criminals, even as much of his popular reputation rests on stories no court record actually confirms.
 
 His verified crimes were substantial on their own. Across roughly fourteen documented forgery cases in Bihar alone, courts sentenced him to a combined 113 years in prison — a figure that reflects how often he was caught and convicted rather than any single scheme's scale. In one of his best-documented frauds, from the 1950s, he swindled Punjab National Bank out of roughly 650,000 rupees through a fabricated rice-and-rail-freight financing scheme, presenting forged shipping and payment documents to draw down loans against cargo that didn't exist. Investigators who tracked his methods over the decades described a consistent pattern: convincing forged government letterhead, fabricated demand drafts and cheques, and an ability to talk his way into rooms — bank offices, government departments — that should have been closed to an outsider entirely.
@@ -5768,6 +5872,9 @@ Warbeck's decade-long run illustrates something modern impostor fraud rarely ach
     slug: 'false-dmitry-i-pretender-tsar-russia',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/False_Dmitry_I_portrait.png?width=1200',
+    coverImageCredit: 'Public domain (17th-century portrait)',
+    coverImagePosition: 50,
     body: `Tsarevich Dmitry Ivanovich, the youngest son of Ivan the Terrible, died in the town of Uglich in 1591 at age eight — officially ruled an accident, a self-inflicted knife wound suffered during an epileptic seizure, though many Russians suspected at the time that the boy had been murdered on the orders of Boris Godunov, the regent who became Tsar in 1598 after the death of Dmitry's elder half-brother, Feodor I. That lingering suspicion created the opening for one of history's most consequential impostor schemes: around 1600–1603, a man surfaced in Poland-Lithuania claiming to be Dmitry himself, insisting he had survived the supposed assassination attempt because a substitute child had been killed in his place. Russian investigators who looked into the claim identified him as Grigory Otrepyev, a member of the minor gentry from Kostroma who had served in noble households and lived as a monk in the Chudov Monastery inside the Kremlin itself before fleeing to Polish territory — though no contemporary eyewitness ever definitively proved the identification, and the true identity of "False Dmitry" remains debated by historians to this day.
 
 The claim gained real traction because it found politically motivated backers rather than because it withstood scrutiny. The Polish nobleman Jerzy Mniszech and a circle of Polish-Lithuanian magnates backed the pretender's cause, and in exchange for military support he secretly converted to Catholicism, promised to spread the Catholic faith in Orthodox Russia, and pledged Russian territory to his sponsors — while also becoming engaged to Mniszech's daughter, Marina. Backed by Polish mercenaries and Cossack forces, he invaded Russia in 1604, and support snowballed as town after town defected to him. Boris Godunov died suddenly in April 1605; Godunov's teenage son and successor, Feodor II, was murdered by conspirators within weeks; and the pretender entered Moscow in triumph, crowned Tsar of Russia on July 18, 1605, not yet twenty years into what had begun as a peasant's story about a dead child.
@@ -5803,6 +5910,9 @@ Spitzeder's case is often cited by historians as the first well-documented Ponzi
     slug: 'prince-michael-romanoff-harry-gerguson-impostor',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Michael_Romanoff.jpg?width=1200',
+    coverImageCredit: 'Photo: Los Angeles Daily News Photographic Collection, UCLA Library (CC BY 4.0)',
+    coverImagePosition: 50,
     body: `Harry F. Gerguson was born Hershel Geguzin in 1890, most likely in Lithuania, and emigrated to New York as a child, growing up in an orphanage and cycling through a series of unglamorous jobs, pants-pressing among them, that gave no hint of the identity he would eventually construct for himself. Starting in his twenties, Gerguson began adopting invented aristocratic personas — at various points passing himself off as "Count Gladstone" and other minor European nobles — and using the borrowed credibility to run up bills, cash bad checks, and talk his way into rooms, restaurants, and society he had no legitimate claim to. The pattern of arrest, brief jail time or deportation, and reinvention under a new alias repeated for years; a 1932 New Yorker profile series on him documented, among other episodes, his deportation to France on fraud charges that same year.
 
 By the 1920s Gerguson had settled on his most durable and audacious character: "Prince Michael Dimitri Alexandrovich Obolensky-Romanoff," a supposed nephew of the last Tsar, Nicholas II, who had escaped the Russian Revolution destitute but noble. He worked the story between New York and Hollywood, living for stretches on the credit extended to him by people flattered to be seen with Russian royalty, and even drew a salary as a "technical adviser" on films set in imperial Europe, a job he was entirely unqualified for on the merits but perfectly cast for on the bluff. In the 1930s a genuine Russian aristocrat confronted him at a Hollywood party, recognizing on sight that no such Romanov relative existed — but by then the exposure barely mattered.
@@ -5935,6 +6045,9 @@ Rivkin's file is really two separate stories that never quite connected: a $53 m
     slug: 'albert-abrams-electronic-reactions-of-abrams-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Dr._Albert_Abrams.jpg?width=1200',
+    coverImageCredit: 'Public domain (published before 1931)',
+    coverImagePosition: 50,
     body: `Albert Abrams was, by any ordinary measure, a legitimate physician before he became one of the twentieth century's most successful medical fraudsters. Born in San Francisco in 1863, he earned his medical degree at the University of Heidelberg while still in his early twenties and returned home to a genuinely respected career, holding a professorship in pathology at Cooper Medical College and serving as an officer in several California medical societies. It was against that credible backdrop that he began, around 1916, promoting a theory he called the Electronic Reactions of Abrams, or ERA — the claim that every disease radiated its own measurable "vibratory rate," detectable and treatable with equipment only he had developed.
 
 The diagnostic ritual was as elaborate as it was meaningless. A patient's blood — or, Abrams claimed, sometimes just a sample of their handwriting — was connected by wires to a device called the Dynamizer, in turn wired to a healthy volunteer whose bare abdomen a practitioner would tap, listening for changes in resonance that supposedly located the disease. Diagnosis complete, the patient could then be treated with a companion device, the Oscilloclast or Radioclast, tuned to counteract the offending frequency. Abrams never sold the machines — he leased them, for an initial fee of roughly $200 to $250 plus $5 a month, under contracts that legally forbade practitioners from ever opening the sealed casing, ostensibly to protect its delicate calibration. By 1921 an estimated 3,500 practitioners were leasing his equipment nationwide, and public figures including the novelist Upton Sinclair lent the system credibility with enthusiastic public endorsements.
@@ -6050,6 +6163,9 @@ Historian Hugh Trevor-Roper was asked to assess the memoir for publication and i
     slug: 'amy-bock-percy-redwood-marriage-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Amy_Bock,_confidence_trickster.jpg?width=1200',
+    coverImageCredit: 'Public domain (New Zealand, c. 1908)',
+    coverImagePosition: 50,
     body: `Amy Maud Bock was born in 1859 in Hobart, Tasmania, and emigrated to New Zealand in the mid-1880s after a first fraud conviction in Melbourne, where she had falsified school attendance rolls to inflate her teaching salary and written fake letters announcing her own death to dodge creditors. Over the following two decades in New Zealand she built one of the country's longest documented careers in confidence fraud: befriending employers, landladies, and acquaintances, borrowing money and goods under invented names and never repaying them, pawning property that belonged to other people, and forging a promissory note in a scheme one prosecutor called "the most cunning ever adopted in the colony." By 1909 she had been convicted thirteen times and served a combined sixteen years in prison under a rotating cast of aliases, repeatedly caught, repeatedly released, and repeatedly starting over somewhere new.
 
 Her most audacious con began in January 1909, when — using the invented identity "Percival Leonard Carol Redwood," a supposedly wealthy Canterbury sheep farmer — Bock, disguised as a man, took a room at a respectable Dunedin boarding house and charmed her way into local society. She traveled to the small South Otago settlement of Port Molyneux, where she courted Agnes "Nessie" Ottaway, the daughter of a guesthouse proprietor, sustaining the fiction with forged letters purporting to be from lawyers and family members and with small loans and gifts bought on credit she had no intention of repaying. On April 21, 1909, "Percy Redwood" married Agnes Ottaway in a large wedding attended by roughly 200 guests, including a sitting member of Parliament.
@@ -6127,6 +6243,10 @@ Taylor herself faded from public view after her 1980 parole and died of a heart 
     slug: 'jurgen-schneider-german-real-estate-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Deutsche-Bank-Frankfurt-am-Main.jpg?width=1200',
+    coverImageCredit: 'Photo: Raimond Spekking (CC BY-SA 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Jürgen Schneider spent the 1980s and early 1990s building one of Germany's largest privately held real estate empires, buying and lavishly renovating historic buildings in Frankfurt, Munich, Leipzig, and Berlin. At its peak the empire spanned more than 150 properties held through over 130 subsidiary companies, financed by roughly 5.5 billion deutschmarks in loans drawn from about 55 different banks. German reunification supercharged his expansion, as Schneider moved aggressively into eastern German cities amid the building boom that followed the Wall's fall, cultivating a public image as the man rebuilding Germany's grandest old properties for a new era.
 
 The empire's real foundation, prosecutors later established, was a set of numbers fed to lenders that had little relationship to reality. Schneider systematically inflated the size of his properties and presented projected future rental income to banks as though it were already-guaranteed current revenue. In one of the case's most-cited examples, he told lenders that the Zeilgalerie shopping arcade in Frankfurt contained 22,000 square meters of leasable space when it actually held roughly 9,000 — and as his need for fresh credit grew more desperate, he began counting building restrooms as rentable square footage. The deception went unchallenged for years even though a public construction signboard near Deutsche Bank's own Frankfurt headquarters displayed the correct, far smaller measurements the whole time; bank after bank extended loan after loan against figures none of them independently verified.
@@ -6244,6 +6364,9 @@ The financial punishment barely registered, but the case outlived it. "Snake oil
     slug: 'ann-odelia-diss-debar-spirit-medium-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Swami_Laura_Horos.jpg?width=1200',
+    coverImageCredit: 'Photo: George Grantham Bain Collection, Library of Congress (public domain)',
+    coverImagePosition: 50,
     body: `The woman who became famous as Ann O'Delia Diss Debar was, by the best surviving evidence, born around 1849 in Kentucky under the name Ann O'Delia Salomon. Almost nothing else about her is certain, because inventing a new identity was the foundation of her entire career. Over four decades she operated under at least a dozen names — Editha Lola Montez, Vera P. Ava, Swami Laura Horos, Princess Editha Lolita, Mother Elinor, and Madame Diss Debar among them — and for a time claimed to be the secret illegitimate daughter of King Ludwig I of Bavaria and the dancer Lola Montez, a fabrication convincing enough that she reportedly extracted a $300 settlement from the real Montez estate.
 
 Her signature con was spiritualism at its most theatrical. Diss Debar staged séances in which she claimed to summon the spirits of Old Master painters, who would then produce "spirit paintings" — canvases she said appeared through her body by supernatural means, timed to sell to credulous, often wealthy sitters. Her most notorious mark was Luther R. Marsh, a prominent and elderly New York attorney who in the 1880s deeded her his Madison Avenue townhouse and much of his fortune after she convinced him the spirits of history's great minds were communicating through her on his behalf. The scheme unraveled at trial in 1888, where the magician Carl Hertz demonstrated in court exactly how her "spirit paintings" and other effects were faked using ordinary conjuring tricks, stripping the supernatural claims of any credibility in front of the jury. Diss Debar was convicted of fraud and served six months on Blackwell's Island.
@@ -6272,6 +6395,9 @@ Greenhalgh was released in 2010 and, unlike most forgers exposed by the law, cho
     slug: 'enric-marco-fake-holocaust-survivor',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Enric_Marco_Batlle_(2001).jpg?width=1200',
+    coverImageCredit: 'Photo: Generalitat de Catalunya',
+    coverImagePosition: 50,
     body: `Enric Marco Batlle was born in Barcelona in 1921 and, for the last three decades of the twentieth century and the first years of the twenty-first, built a public identity as one of Spain's most prominent living witnesses to Nazi atrocity. He claimed to have been arrested for his role in the anti-Franco resistance, deported to Germany, and imprisoned in the Flossenbürg concentration camp, where he said he endured torture and came close to death. On the strength of that story he rose to become president of the Amical de Mauthausen, Spain's association of Nazi camp survivors, gave hundreds of talks in schools and public forums, was received by dignitaries, and was awarded one of Catalonia's highest civilian honors, the Creu de Sant Jordi, in 2001.
 
 None of the camp imprisonment happened. Marco had in fact traveled to Germany voluntarily in 1941 as part of a labor arrangement between Franco's Spain and Nazi Germany, working in a shipyard rather than being held in any camp, and he returned home in 1943 of his own accord. His fabricated survivor story instead built on a genuine, separate history he did have: as a young man he had briefly deserted from the Republican army during the Spanish Civil War and later spent time in a Francoist jail for unrelated reasons, threads of real biography he wove into an invented camp narrative that grew more elaborate, and more publicly celebrated, with each retelling over some three decades.
@@ -6329,6 +6455,10 @@ Released in 1917 after roughly a decade behind bars, May returned to the United 
     slug: 'sarah-wilson-fake-princess-colonial-america',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Virginia_Gazette_June_03,_1773_pg._2_Sarah_Wilson_(cropped).jpg?width=1200',
+    coverImageCredit: 'Public domain (Virginia Gazette, 1773)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Sarah Wilson was an English servant with an established pattern of talking her way into things that weren't hers. Around 1767 she was arrested for obtaining expensive clothing from a Mrs. Davenport under false pretenses, and at the Westminster Quarter Sessions in January 1768 she was convicted and sentenced to penal transportation to the American colonies — a common alternative to hanging for property crimes at the time. (A later, more dramatic story that she had stolen a portrait and jewels directly from Queen Charlotte's own household began circulating in colonial newspapers in 1773, years after the fact, but it has no contemporary documentation and appears to have grown out of the very impersonation it was meant to explain.)
 
 Sold as a convict servant to a Maryland planter, William Devall of Frederick County, around 1771, Wilson escaped bondage and reinvented herself completely. Traveling through Virginia, the Carolinas, and eventually as far as New York and Boston, she presented herself under a rotating set of titles — "Princess Sophia Carolina Augusta," "Princess Carolina Matilda," "Princess of Browtonsburgh" — claiming to be a sister of Britain's own Queen Charlotte, exiled or traveling incognito among the colonists. She had one prop that did the real work: a miniature portrait, plausibly resembling royalty, that she displayed as proof of her connection to the crown.
@@ -6343,6 +6473,10 @@ No trial record documents her ever being formally caught and punished for the im
     slug: 'rosie-ruiz-boston-marathon-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Boston_Skyline_from_Columbia_Point.jpg?width=1200',
+    coverImageCredit: 'Photo: ButteBag (CC BY-SA 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Rosie Ruiz's fraud began before she ever reached Boston. To qualify for the 1980 Boston Marathon, a runner needed a sufficiently fast time from a prior certified race, so Ruiz entered the 1979 New York City Marathon — reportedly securing a late spot by telling organizers she was seriously ill — and posted a time of 2:56:29, good enough for 11th among women and a Boston qualifying berth. A photographer who covered the race later said she recognized Ruiz from the subway partway through the course, and that Ruiz rejoined the runners near the finish, where volunteers marked her as an official finisher without anyone checking whether she had actually covered the full 26.2 miles.
 
 The qualifying time, fraudulent as it was, got her into Boston, and on April 21, 1980, Ruiz crossed the finish line with an official time of 2:31:56 — a mark that would have been the fastest women's time in Boston Marathon history and one of the fastest ever recorded by a woman at that distance. She was crowned the women's champion on the spot.
@@ -6357,6 +6491,9 @@ Ruiz never admitted to cutting the course, maintaining her innocence for decades
     slug: 'louis-de-rougemont-castaway-hoax',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Portrait_of_Louis_de_Rougemont.jpg?width=1200',
+    coverImageCredit: 'Public domain (The Critic, c. 1898)',
+    coverImagePosition: 50,
     body: `In August 1898, London's newly launched Wide World Magazine — which marketed itself with the slogan "Truth Is Stranger Than Fiction" — began serializing what it presented as a true account: thirty years spent as a castaway in the Australian outback, living among Aboriginal people who allegedly worshipped him as a god, riding giant sea turtles across the waves, and battling sharks and cannibals along the way. The author called himself Louis de Rougemont, and for several months he was one of the most talked-about men in England.
 
 He was not, in fact, a Swiss-born gentleman explorer. He was Henri Louis Grin, a Swiss immigrant who had spent years drifting through menial jobs across Australia — cook, photographer's assistant, butler, and for a time a spiritualist medium in New Zealand — before arriving in London in 1898 and talking his way into an introduction to Wide World's editor. What he sold the magazine wasn't a manuscript so much as a performance: a first-person "true" adventure built largely from books he read in the British Museum's Reading Room, dressed up with enough vivid, specific detail to feel authentic. The magazine paid him for the serialization and promoted him heavily; London society, still hungry for tales of empire and exploration, embraced him as a genuine celebrity, and he was invited to address the British Association for the Advancement of Science.
@@ -6385,6 +6522,10 @@ Bontoux was arrested and, in March 1883, convicted of fraud by the Cour d'Appel 
     slug: 'harry-hoxsey-cancer-cure-scam',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Dallas_Skyline_Dallas.JPG?width=1200',
+    coverImageCredit: 'Photo: Peraltita (CC BY-SA 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Harry M. Hoxsey was born in 1901 near Auburn, Illinois, into a family that told a very particular story about where its fortune would eventually come from. According to Hoxsey's own account, his great-grandfather had, decades earlier, watched a prize stallion cure itself of a cancerous leg tumor by grazing on wild plants in a pasture; the family collected those plants into an herbal formula that Hoxsey's father, a horse doctor, began applying to human cancer patients, with young Harry assisting from around age eight. There is no independent verification the horse story ever happened. What is verified is that by the 1920s, Harry Hoxsey — a former coal miner with no medical training or license — had turned that inherited formula into a full-blown cancer treatment business, opening his first clinics in Illinois and expanding from there for the next three decades.
 
 The "Hoxsey Therapy" came in two forms: a caustic paste of antimony, zinc, bloodroot, arsenic, sulfur, and talc applied directly to external tumors, and an oral tonic of licorice, red clover, burdock root, and other herbs for internal cancers, paired with laxatives, vitamin supplements, and a diet that forbade tomatoes, vinegar, pork, alcohol, salt, sugar, and white flour. None of it had any demonstrated effect on cancer. For a stretch around 1930, Hoxsey partnered with Iowa radio huckster Norman Baker, who ran his own nearly identical cancer-cure racket out of the Baker Institute in Muscatine before the two fell out and sued each other; Hoxsey went on to build a far larger operation on his own.
@@ -6401,6 +6542,10 @@ Hoxsey's own body delivered the final verdict on his life's work: when he develo
     slug: 'tania-head-fake-911-survivor-hoax',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/National_September_11_Memorial_South_Pool,_New_York_City,_20231003_091238.jpg?width=1200',
+    coverImageCredit: 'Photo: Jakub Hałun (CC BY 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Alicia Esteve Head was a businesswoman from Barcelona, Spain, born in 1973, who spent roughly three years in the mid-2000s living as "Tania Head," a woman she claimed had survived the collapse of the World Trade Center's South Tower on September 11, 2001. Her story, as she told it to a support network of genuine survivors, was extraordinarily specific and extraordinarily dramatic: she said she had been a Merrill Lynch vice president working on the 78th floor when United Airlines Flight 175 struck, that she escaped through smoke and flames with severe burns to her arm, and that her fiancé, referred to as "Dave," died in the North Tower that same morning. If true, her account would have made her one of only about 19 people at or above the impact zone to survive.
 
 Head embellished the story with details that tied her directly into the day's most documented acts of heroism, claiming she had been guided to safety by Welles Crowther, the real 9/11 victim later celebrated as "the man in the red bandanna" for saving multiple lives before dying in the collapse, and that a dying stranger had pressed his wedding ring into her hand and asked her to return it to his widow. In 2004, Gerry Bogacz, a founder of the World Trade Center Survivors' Network, found Head's own online survivor support group and merged it into the larger organization. Head quickly became one of the network's most visible and trusted members: she rose to become its president, led tours through the Tribute WTC Visitor Center for grieving families and other survivors, and was photographed alongside Mayor Michael Bloomberg, former Mayor Rudy Giuliani, and former Governor George Pataki as a public face of 9/11 survivorship.
