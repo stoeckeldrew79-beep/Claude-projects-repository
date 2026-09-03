@@ -7079,6 +7079,34 @@ Alexander died around 170 CE, in Lucian's gleeful and possibly exaggerated accou
     coverImageCredit: 'Photo: Ángel M. Felicísimo (CC BY 2.0) — 2nd-century AD marble statue of Glycon, the snake-god idol at the center of the fraud, Constanța Museum of National History',
     coverImagePosition: 50,
   },
+  {
+    title: 'Henri Lemoine and the Fake Diamond-Making Machine That Fooled De Beers',
+    slug: 'henri-lemoine-diamond-synthesis-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `In 1904, a French inventor named Henri Lemoine contacted Sir Julius Wernher, a German-born financier and one of the governors of De Beers, the company that controlled most of the world's diamond supply. Lemoine's claim was audacious even by the standards of turn-of-the-century swindles: he said he had discovered a process for manufacturing gem-quality diamonds from ordinary coal, cheaply and at industrial scale. If true, it would have been worth a fortune to whoever controlled it — and an existential threat to a company whose entire business model depended on diamonds staying rare.
+
+Lemoine offered to demonstrate. In his Paris laboratory, in front of Wernher and later a De Beers technical expert sent to verify the claim, he would undress before the demonstration began, ostentatiously showing he had nothing hidden on his body. He then mixed iron filings, powdered carbon, and other substances in a crucible, subjected it to heat and pressure for roughly fifteen minutes, and extracted the results with tweezers: a handful of small, well-formed diamonds. The performance was convincing enough that Wernher, eager to control the process before a rival could, agreed to fund Lemoine's research in exchange for exclusive rights — and to keep the arrangement secret. Formal agreements were drawn up in 1905 and 1906, and over roughly three years Wernher paid Lemoine a total of around £64,000, an enormous sum for the period. When Wernher asked to see the promised factory that would scale up production, Lemoine sent him a photograph — of an ordinary electrical plant in the south of France that had nothing to do with diamonds at all.
+
+The fraud unraveled in 1908, when a Persian jeweler came forward and revealed he had been the one supplying Lemoine with the small real diamonds used in every demonstration — planted in the crucible beforehand, not created by any chemical process. Confronted, Lemoine could not reproduce his "invention" for the judges at his own trial. He fled France before sentencing could be carried out and was never held to account.
+
+The case became notorious enough in Paris that Georges Méliès, the pioneering filmmaker behind "A Trip to the Moon," made a short comic film about it the same year, and novelist Marcel Proust — who had lost money investing alongside Wernher — wrote a set of literary parodies titled "The Lemoine Affair," ridiculing how prominent French writers of the day would each have styled a report on the scandal. Lemoine's diamond-synthesis con endures as an early case study in a scam pattern that still recurs whenever a "revolutionary" industrial process needs financing: a dazzling, closely controlled demonstration, a wealthy backer flattered by exclusivity and secrecy, and a request to simply trust that the factory — always just out of sight — is coming.`,
+    sourceUrl: 'https://en.wikipedia.org/wiki/Henri_Lemoine_(fraudster)',
+  },
+  {
+    title: '"Devil Bill" Rockefeller: The Con Man Who Fathered America\'s Richest Family',
+    slug: 'william-rockefeller-sr-devil-bill-con-man',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Long before "Rockefeller" meant Standard Oil and the largest fortune in American history, it belonged to William Avery Rockefeller Sr. — a traveling con man known to the rural communities he swindled as "Devil Bill." Born in 1810 in upstate New York, he spent his career moving from town to town selling herbal tonics and "cancer cures" under the invented identity of "Dr. William Levingston, the Celebrated Cancer Specialist," a self-styled "botanic physician" with no medical training peddling elixirs to people desperate enough to believe him. Alongside the quack medicine, he ran a predatory lending sideline: loaning money to farmers at steep interest, reportedly favoring borrowers he judged unlikely to repay so he could foreclose and take their land or livestock instead.
+
+His personal life was as deceptive as his business. He married Eliza Davison in 1837 — the mother of his children, including a son, John D. Rockefeller, born in 1839 — but abandoned the family for extended stretches, reappearing under his "Dr. Levingston" alias in other states. In 1849 he was indicted in Auburn, New York, on a charge of rape at gunpoint against a young woman employed in his household; rather than stand trial, he sold his property and disappeared, and no record shows the charge was ever resolved. In 1855, while still legally married to Eliza, he bigamously married a much younger woman, Margaret Allen, under his Levingston alias and lived out much of the rest of his life with her instead, never divorcing his first wife and periodically resurfacing to visit his Rockefeller grandchildren without ever publicly acknowledging who "Dr. Levingston" really was.
+
+Devil Bill's effect on his son is well documented and, in its way, direct: John D. Rockefeller later recalled his father teaching him sharp dealing as a lesson, quoted as saying "I cheat my boys every chance I get. I want to make 'em sharp," and a $1,000 loan from his father at 10 percent interest in 1859 helped bankroll the produce business that became the seed of Standard Oil. As John D. became the richest man in the world, his father's double life became an open secret journalists chased for decades — Joseph Pulitzer's newspaper reportedly offered a substantial reward for information confirming that "Doc Levingston" and William Rockefeller were the same person — but the family kept his whereabouts quiet, and reporters never caught up with him before his death in 1906. He was buried under the name William Levingston, the alias he had used to defraud people for most of his adult life.
+
+Rockefeller's biographers, most notably Ron Chernow in "Titan," have treated Devil Bill's fraud, bigamy, and reinvention as core to understanding the family's origin story rather than a footnote to it — a reminder that the line between "self-made" and "grew up watching a professional con artist operate" is sometimes thinner than a dynasty's later reputation would suggest.`,
+    sourceUrl: 'https://en.wikipedia.org/wiki/William_Rockefeller_Sr.',
+  },
 ];
 
 // Practical "how it works / red flags / what to do" guides covering the
