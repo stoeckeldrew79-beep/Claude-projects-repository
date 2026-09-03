@@ -27677,6 +27677,39 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Central Board of Indirect Taxes and Customs (CBIC)'],
     sourceUrl: 'https://www.pib.gov.in/PressReleasePage.aspx?PRID=2004867',
   },
+  {
+    name: 'French "Finfluenceur" Financial Scam Promotion',
+    slug: 'french-finfluenceur-financial-scam-promotion',
+    description:
+      'Under France\'s June 2023 influencer law, anyone promoting a financial or crypto-asset product to French followers must hold the required AMF or PSAN authorization and clearly disclose that a post is paid advertising — rules widely ignored by "finfluenceurs" who accept secret payments to tout unlicensed trading platforms, "signal" groups, and crypto schemes on Instagram, TikTok, and Snapchat. The DGCCRF\'s March 2025 annual report found that nearly half of the 287 influencers it controlled in 2024 — a rate essentially unchanged from 2023 — showed anomalies, including undisclosed sponsorship of risky financial products whose followers lost, in some cases, "hundreds of thousands of euros," according to DGCCRF director general Sarah Lacoche, who said the agency would "pursue all these practices." The DGCCRF and AMF jointly forced around twenty influencers to stop promoting unauthorized investment offers in 2024-2025 alone, building on precedents like the 2019 case of reality-TV personality Nabilla Benattia-Vergara, fined 20,000 euros after promoting a Bitcoin trading platform on Snapchat in 2018 without disclosing she was paid to do so. Consumers should treat any investment tip from a social media personality as advertising by default and independently verify a promoted platform against the AMF\'s public blacklist before sending any money.',
+    categorySlug: 'investment-fraud',
+    country: 'FR',
+    alertLevel: 'high',
+    sources: ['DGCCRF (Direction générale de la concurrence, de la consommation et de la répression des fraudes)', 'franceinfo'],
+    sourceUrl: 'https://www.franceinfo.fr/internet/reseaux-sociaux/pres-de-la-moitie-des-287-influenceurs-controles-en-2024-par-la-repression-des-fraudes-presentaient-des-anomalies-dans-leurs-publications_7128150.html',
+  },
+  {
+    name: 'French Fraudulent Dropshipping Online Store Scam',
+    slug: 'french-dropshipping-fraudulent-online-store-scam',
+    description:
+      'Fake online boutiques advertised through slick TikTok and Meta (Facebook/Instagram) ad campaigns lure French shoppers with steep "flash sale" discounts, fake countdown timers, and fabricated five-star reviews for products that either never ship, arrive months later as cheap counterfeits from an overseas dropshipper, or turn out to be entirely different from what was pictured — with no working customer service to request a refund once payment clears. A DGCCRF investigation of 215 dropshipping websites found violations at 116 of them, more than half, ranging from misleading price reductions and fake urgency tactics to unrealistic delivery promises and consumer-rights violations, and an earlier probe of a dozen dropshipping professionals resulted in eight criminal referrals with individual fines ranging from 15,000 to 80,000 euros. The DGCCRF has kept dropshipping among its enforcement priorities into 2025-2026, tying inspections to the EU\'s Digital Services Act and General Product Safety Regulation and reporting the removal of more than 100,000 unsafe or non-compliant products sold by foreign online marketplaces in a single announcement in April 2026. Shoppers are advised to check a site\'s legal notices (mentions légales) for a real registered company and address, search the site name alongside "avis" or "arnaque" before ordering, and pay only by card, never by bank transfer, to preserve chargeback rights.',
+    categorySlug: 'online-shopping-scams',
+    country: 'FR',
+    alertLevel: 'high',
+    sources: ['DGCCRF (Direction générale de la concurrence, de la consommation et de la répression des fraudes)'],
+    sourceUrl: 'https://www.economie.gouv.fr/dgccrf/laction-de-la-dgccrf/les-enquetes/dropshipping-des-manquements-dans-la-moitie-des-sites',
+  },
+  {
+    name: 'French Fraudulent SEPA Direct Debit Scam (Prélèvements SEPA Frauduleux)',
+    slug: 'french-fraudulent-sepa-direct-debit-scam',
+    description:
+      'Exploiting a structural weakness in the European SEPA payment system — where any registered creditor can trigger a direct debit against an IBAN without the receiving bank verifying that a mandate genuinely exists — fraudsters who buy or steal databases of French IBANs and account-holder names (including from large breaches like the October 2024 hack of telecom operator Free, which exposed IBANs tied to 24 million subscriber contracts) register as a creditor and pull small, calibrated debits, often under 50 euros, timed and spaced out to avoid triggering a bank\'s fraud alerts. The stolen sums are funneled into intermediary accounts and rapidly moved abroad through money-laundering networks before a victim notices the unfamiliar debit line on a statement, by which point the receiving account is often already closed. Because an IBAN alone — something routinely printed on invoices and shared by email — is enough to originate a debit, the Banque de France states plainly that a bank must reimburse a fraudulent SEPA direct debit and restore the account to its prior state, without requiring special insurance, provided the victim reports it within 13 months; consumers are advised to review their account activity weekly, revoke any direct-debit mandate they don\'t recognize, and file a police report alongside notifying their bank.',
+    categorySlug: 'identity-theft',
+    country: 'FR',
+    alertLevel: 'high',
+    sources: ['Banque de France', 'Le Journal du Net'],
+    sourceUrl: 'https://www.banque-france.fr/fr/a-votre-service/particuliers/arnaques-moyens-paiement-credit-epargne',
+  },
 ];
 
 async function seedCategoriesAndScams() {
