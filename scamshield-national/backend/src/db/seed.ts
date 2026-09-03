@@ -4296,10 +4296,9 @@ Freed, Morse went straight back to speculative ventures, and during World War I 
     slug: 'charles-deville-wells-monte-carlo-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Monte_Carlo_Casino.jpg?width=1200',
-    coverImageCredit: 'Photo: Wigulf (CC BY 2.5)',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Charles_Deville_Wells_01.jpg?width=1200',
+    coverImageCredit: 'Sketch: unknown artist, 1890s newspaper (public domain)',
     coverImagePosition: 50,
-    // representative photo — replace with a portrait if found
     body: `In the summer of 1891, an English gambler calling himself Charles Deville Wells sat down at the roulette tables of the Monte Carlo casino and won so heavily, so repeatedly, that the casino ran out of cash at his table eleven times — a feat casino tradition marks by draping the table in a black cloth until reserves can be replenished, known ever since as "breaking the bank." He returned that November and did it again. His winnings across both trips are estimated at roughly £40,000, an enormous sum at the time, and his exploits inspired the music hall hit "The Man Who Broke the Bank at Monte Carlo," turning Wells into an international celebrity almost overnight.
 
 What the song's audiences didn't know was that Wells was already a career con artist. Before Monte Carlo, he had spent years patenting and promoting inventions that mostly didn't work — including a device he claimed would make ship engines dramatically more fuel-efficient — and using the patents to solicit investment from backers who never saw a return. His sudden fame at the roulette table handed him something he'd never had: a plausible cover story for spending other people's money. He used the celebrity to raise fresh investment for a "Vaporized Fuel Syndicate" built around the same fraudulent fuel-efficiency patents, and lived lavishly off investors' cash, including the purchase of a steam yacht.
@@ -5623,10 +5622,9 @@ Gignac's three-decade run endures as one of the most extreme examples of a fraud
     slug: 'bidwell-brothers-bank-of-england-forgery-1873',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Bank_of_England_Building,_London,_UK_-_Diliff.jpg?width=1200',
-    coverImageCredit: 'Photo: David Iliff (CC BY-SA 3.0)',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Trial_of_the_1873_Bank_of_England_forgers.jpg?width=1200',
+    coverImageCredit: 'Illustration: Bidwell\'s Travels (1897), public domain — trial of the four Americans at the Old Bailey',
     coverImagePosition: 50,
-    // representative photo — replace with a portrait if found
     body: `George Bidwell and his younger brother Austin Biron Bidwell were American career forgers before either of them ever set foot in London. George had already served two years for defrauding grocers in West Virginia; Austin, still in his early twenties, had built a reputation as a skilled bank forger back in the United States. In 1871 the two crossed the Atlantic with a far larger target in mind than any American bank had offered them: the Bank of England itself, then as now one of the most trusted financial institutions in the world.
 
 The plan required patience most confidence schemes never bother with. Austin, posing as a wealthy American railway financier under the alias "Frederick Albert Warren," opened a legitimate deposit account at the Bank's fashionable West End branch in Burlington Gardens, Mayfair, and spent months depositing genuine bills of exchange to build a track record of respectability and easy credit. He recruited two accomplices to help sustain the illusion: George MacDonnell, a Harvard-educated forger he'd met while imprisoned at Sing Sing, and Edwin Noyes, brought in to convert the eventual proceeds into cash and securities. Only once "Mr. Warren" was a trusted, established customer did the brothers introduce forged bills into the stream of genuine ones passing through his account — and because the branch had no reason to doubt a client it had spent months coming to know, the forgeries went unchallenged.
@@ -7219,6 +7217,9 @@ The Recruit scandal remains one of postwar Japan's defining corruption cases, cr
     slug: 'arlan-galbraith-pigeon-king-international-ponzi',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Racing_Homer_White.jpg?width=1200',
+    coverImageCredit: 'Photo: Bodlina (CC BY-SA 3.0) — a racing homer, the breed Pigeon King sold to farmers',
+    coverImagePosition: 50,
     body: `In 2001, an Ontario farmer named Arlan Galbraith announced he had bred a superior new line of pigeon and founded Pigeon King International to sell breeding pairs to other farmers. His pitch was straightforward: buy a starter flock, breed them, and Pigeon King would buy back every offspring at a fixed, guaranteed price for the next ten years. Galbraith told buyers the birds were destined for a booming market — first as racing pigeons, later as squab, a delicacy he claimed restaurants and grocers were clamoring for.
 
 There was no such market. Pigeon King wasn't selling birds into any real downstream demand; it was using the cash from each new round of buyers to make the buy-back payments it owed to the round before, a textbook Ponzi structure wearing overalls instead of a suit. Galbraith targeted Mennonite and other close-knit farming communities across Ontario and the American Midwest in part because he calculated, correctly for years, that they were less likely to sue or go to the police than to quietly absorb a loss. Farmers who'd never touched a stock certificate in their lives found themselves building elaborate custom pigeon lofts on his instructions, sinking their savings and sometimes their farms' equity into breeding stock at prices far above what any pigeon had ever sold for.
@@ -7233,6 +7234,9 @@ The Pigeon King case is now taught as a case study in agricultural-sector Ponzi 
     slug: 'jean-pierre-van-rossem-moneytron-ponzi-scheme',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Jean_Pierre_Van_Rossem.jpg?width=1200',
+    coverImageCredit: 'Photo: Isai Symens (CC BY-SA 4.0)',
+    coverImagePosition: 50,
     body: `Jean-Pierre Van Rossem was a Belgian mathematician and self-styled financial genius who, through the 1980s, built a public reputation as a man who had cracked the stock market. His investment firm, Moneytron, claimed to run client money through a proprietary supercomputer capable of forecasting price movements with uncanny accuracy. The machine itself was never shown to investors or journalists — it was kept, Van Rossem said, behind a locked door — and the returns it supposedly generated were consistently, suspiciously excellent.
 
 They were fictional. Moneytron wasn't trading its way to superior returns; it was paying earlier investors with money raised from new ones, the same structure Ponzi had run six decades earlier, laundered through the language of computerized forecasting instead of postal coupons. Van Rossem used the inflow to fund an extravagant public profile, including buying a majority stake in the Onyx Formula One racing team in 1989 and rebranding it Moneytron Onyx — a very visible advertisement for a firm that, behind the scenes, had no real engine generating the profits it claimed.
