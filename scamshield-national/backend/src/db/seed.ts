@@ -10805,6 +10805,38 @@ Red flags include any BBB email from an address that isn't @bbb.org; generic gre
 
 Anyone who receives a suspicious BBB-branded message should not click any links or call any number it provides, and should instead go directly to bbb.org or call the local BBB office using a number looked up independently to ask whether a complaint or accreditation notice is genuine. Suspicious emails can be forwarded to BBB's phishing reporting address, and anyone who already clicked a link or shared information should change any reused passwords, monitor financial statements, and report the incident to the BBB Scam Tracker and the FTC at ReportFraud.ftc.gov.`,
   },
+  {
+    title: 'Cash Advance Apps: How a "Free" $500 Turns Into a Recurring Fee Trap',
+    slug: 'cash-advance-app-tip-fee-scam-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'cash-advance-app-scam'],
+    sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2024/11/ftc-takes-action-against-online-cash-advance-app-dave-deceiving-consumers-charging-undisclosed-fees',
+    body: `An ad for a cash advance app promises instant money before payday — "up to $500," available "on the spot," "in under 5 minutes," with no credit check and no interest. It sounds nothing like a payday loan, and legally it isn't marketed as one, but the Federal Trade Commission alleges the industry's most downloaded app, Dave, built its business on a gap between that pitch and what actually happens once someone links a bank account. In a November 2024 lawsuit, the FTC said few consumers who apply are ever offered anything close to the advertised $500 — one user quoted in the complaint said Dave "kept promising 500 for the past month and NEVER delivered," and another reported an approved advance of just $25.
+
+The fees are where the real business model shows up, and the FTC alleges Dave structured them to stay hidden until a bank account was already connected. Getting the advance "instantly" requires paying an undisclosed "Express Fee" of $3 to $25 — skip it and the money takes two to three business days instead, which defeats the entire reason someone downloaded a cash-advance app in an emergency. On top of that, the app defaults to adding a "tip" of up to 15% of the advance, presented through an interface the FTC's complaint describes as designed to make it hard to decline; one consumer told the agency, "the interface is set up to trick you into giving the tip." Dave paired the tip prompt with a cartoon graphic implying the money funded meals for a child in need — while, the complaint alleges, actually donating only 10 cents per percentage point tipped and keeping the rest. Across 2022 through mid-2024, the FTC says these "tips" alone generated more than $149 million in revenue, on top of a separate $1 monthly membership fee the complaint says was hard to cancel.
+
+None of this requires anything a fraud victim would recognize as a scam call or a fake check — the advance is real money, deposited by a real, publicly traded company. That's exactly what regulators say makes the fee structure so effective: framed as a "tip" instead of interest, the charge sidesteps the sticker shock a stated annual percentage rate would trigger, even though the Center for Responsible Lending has calculated that cash-advance and earned-wage-access apps charging fees this way can carry an effective APR above 300%, in the range of a storefront payday loan. The Consumer Financial Protection Bureau proposed a rule in 2024 making clear that these products are loans and that "tips" and expedite fees count as finance charges that have to be disclosed under the Truth in Lending Act — regulation the industry has pushed back against, leaving the FTC's enforcement power as the sharper tool currently in use.
+
+Red flags include an app that advertises a specific advance amount without a clear, upfront statement of how much of that amount is typically approved; any "tip" or "express fee" that's pre-selected by default rather than genuinely optional to set at zero; a fee or tip percentage not disclosed until after a bank account is already linked; and marketing that ties a tip to a charitable cause without a clear, verifiable accounting of where the money actually goes.
+
+Before linking a bank account to any cash-advance app, look specifically for a true $0 option on both the tip and the express fee, and read what happens to the advance if it isn't repaid on time. Add up the total cost — advance amount, express fee, and tip — as a percentage of what's actually received to see the real cost, not just the sticker price advertised. Anyone who feels trapped in a cycle of repeat advances and fees should treat that as the same warning sign as a payday-loan debt cycle, and can file a complaint with the CFPB at consumerfinance.gov/complaint or with the FTC at ReportFraud.ftc.gov.`,
+  },
+  {
+    title: '"You\'re Pre-Approved": The Loan Call You Never Applied For',
+    slug: 'preapproved-loan-phone-scam-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'loan-phishing-scam'],
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2025/09/ignore-unexpected-calls-about-loans-you-didnt-apply',
+    body: `An unfamiliar number calls, and the person on the line says congratulations — you've been "prequalified" or "pre-approved" for a personal loan or debt consolidation offer. There's just one problem: whoever is answering never applied for one. The FTC issued a consumer alert about exactly this pattern in September 2025, describing callers who lean on urgency-flavored reassurance — phrases like "I hope you don't miss out" alongside a claim of "no pressure" in almost the same breath — to keep a confused target on the line long enough to start collecting personal information.
+
+Unlike a scam that asks for money upfront, this one asks for the ingredients of identity theft instead: a Social Security number, date of birth, or full bank account and routing number, framed as the last step needed to "finalize" a loan that was supposedly already approved. Because no cash changes hands and nothing is technically being purchased, the request can feel more like paperwork than fraud — which is exactly the gap the scam is built to exploit. Once that information is handed over, it can be used to open credit in the victim's name, take over an existing bank account, or simply be resold as a "verified" lead to the next scammer running the same script.
+
+The FTC's alert flags the volume and persistence of these calls as a defining trait: the same person can get called multiple times a day from different numbers, since scammers routinely spoof caller ID to display a local area code or a number that looks like a legitimate financial institution. Some calls end with a recorded offer to "press 1" or call back a number to be removed from the list — which the FTC warns is itself a trap, designed to get a target to initiate contact and prove the number is live and answered by a real, engaged person, making it more valuable for future calls rather than less.
+
+This is a different scam from a lender demanding an upfront "processing fee" before releasing a loan that never arrives, and different again from a scheme that deposits an unauthorized loan directly into a bank account and then drains it through recurring "finance charges" — both of which involve money moving. Here, nothing is deposited and nothing is asked for in dollars; the entire scam is the information itself, harvested under the appearance of finishing a lending transaction that was never real to begin with.
+
+The FTC's core advice is not to engage at all: never provide a Social Security number or bank account details over an inbound call about a loan that wasn't applied for, and never call back a number left in a voicemail promising removal from a list. Anyone who wants an actual loan should apply directly with a bank, credit union, or a lender they've independently verified, checking licensing through their state financial regulator or the NMLS Consumer Access database rather than trusting whatever a caller claims. Suspicious calls can be blocked using a phone carrier's or device's call-blocking tools and should be reported to the FTC at ReportFraud.ftc.gov, including the number that called and any callback number provided.`,
+  },
 ];
 
 async function seedArticles(articles: SeedArticle[], label: string) {
@@ -24851,6 +24883,39 @@ const SEED_SCAMS: SeedScam[] = [
     alertLevel: 'high',
     sources: ['Massachusetts Securities Division'],
     sourceUrl: 'https://www.sec.state.ma.us/divisions/securities/download/26-02-11-Administrative-Complaint--E-2025-0187-_Final.pdf',
+  },
+  {
+    name: 'Irish Bogus Caller and Rogue Trader Doorstep Fraud',
+    slug: 'ireland-bogus-caller-rogue-trader-scam',
+    description:
+      'An unsolicited caller offers to tarmac a driveway, clean a roof, trim trees, or paint a house using materials supposedly left over from a nearby job, then pressures an older or vulnerable resident into paying cash for shoddy or unnecessary work — sometimes escorting the victim to a bank to withdraw more money mid-job, or having a second member of the gang return days later posing as a VAT or Revenue official demanding a further "tax" payment on work already paid for. A related version has one caller keep the resident talking at the front door, sometimes claiming to represent a utility company or to be collecting for charity, while an accomplice slips in through an unlocked back door to steal cash and valuables. An Garda Síochána\'s national crime prevention guidance says bogus callers "aim to take advantage of vulnerable people," typically operating on weekdays between 9am and 4pm and targeting an older person living alone, and provisional Garda crime statistics for 2025 recorded a sharp year-on-year rise in bogus-tradesman reports. Gardaí advise using a door chain or viewer, always asking for identification and a written quote, never handing cash to an unsolicited caller, and getting an independent second quote before agreeing to any work.',
+    categorySlug: 'utility-scams',
+    country: 'IE',
+    alertLevel: 'high',
+    sources: ['An Garda Síochána'],
+    sourceUrl: 'https://www.garda.ie/en/crime-prevention/crimecall-on-rte/crimecall-episodes/2025/27-january/crime-prevention-message-bogus-callers-traders.html',
+  },
+  {
+    name: 'Irish Concert and Event Ticket Resale Scam',
+    slug: 'ireland-concert-ticket-resale-scam',
+    description:
+      'Ahead of a high-demand concert or match — most visibly Oasis\'s sold-out Croke Park reunion shows in August 2025 — a fraudster clones a real Facebook or Instagram account down to the profile photo, name, and mutual friends of someone genuinely trying to sell a spare ticket, then offers a ticket at face value or a modest markup and pressures the buyer to send payment by bank transfer before the tickets "sell out." Once the transfer clears, the scammer blocks the buyer and no ticket ever existed; Banking and Payments Federation Ireland described the fraudsters as operating like professionals, "using stolen images, building up trust over time" to exploit fans\' emotional attachment to the event, while one Wexford fan described nearly transferring €200 to a cloned account of someone he thought he knew before a community warning stopped him. The Competition and Consumer Protection Commission\'s official ticket-scam guidance and An Garda Síochána both advise buying only through an official ticket agent, promoter, or the venue itself, paying by debit or credit card rather than bank transfer so a chargeback is possible if something goes wrong, and treating any private seller who pushes for an immediate transfer as a serious red flag.',
+    categorySlug: 'online-shopping-scams',
+    country: 'IE',
+    alertLevel: 'high',
+    sources: ['Competition and Consumer Protection Commission (CCPC)', 'Banking and Payments Federation of Ireland (BPFI)'],
+    sourceUrl: 'https://www.ccpc.ie/consumers/2024/08/29/dont-get-played-outsmart-ticket-scammers-and-secure-your-spot/',
+  },
+  {
+    name: 'Irish Cloned "Closing Down Sale" Retailer Website Scam',
+    slug: 'ireland-cloned-retailer-closing-down-sale-scam',
+    description:
+      'A fraudulent website copies the name and branding of EuroGiant, a real Irish retailer that had already gone into liquidation and taken its own site offline, and uses paid social media ads to drive shoppers to what looks like a genuine "closing down" clearance sale on household goods and electronics at steeply reduced prices. Shoppers who order and pay receive nothing, since the site has no connection to the real, now-defunct business and exists purely to take card payments for stock that was never for sale. The Competition and Consumer Protection Commission issued a public warning on February 13, 2026 confirming the site was fraudulent, noting that scammers "create convincing clones of trusted websites to trick shoppers" by trading on a brand name people already recognise, and it advises anyone who ordered from the site to contact their card issuer immediately to seek a chargeback and to report it to An Garda Síochána.',
+    categorySlug: 'online-shopping-scams',
+    country: 'IE',
+    alertLevel: 'high',
+    sources: ['Competition and Consumer Protection Commission (CCPC)'],
+    sourceUrl: 'https://www.ccpc.ie/news-and-media/news/article/2026/02/13/ccpc-warns-of-suspected-scam-website-impersonating-eurogiant',
   },
 ];
 
