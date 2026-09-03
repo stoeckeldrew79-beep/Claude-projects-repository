@@ -25277,6 +25277,61 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Tokyo Metropolitan Police Department', 'Council of Anti-Phishing Japan'],
     sourceUrl: 'https://www.keishicho.metro.tokyo.lg.jp/kurashi/cyber/notes/qrcord.html',
   },
+  {
+    name: 'Childcare Provider Fake Check Overpayment Scam',
+    slug: 'childcare-provider-fake-check-overpayment-scam',
+    description:
+      'A scammer poses as a parent who says they are relocating to the area — often supposedly from overseas — and urgently needs childcare, reaching independent babysitters, nannies, and home daycare providers by email, text, social media, or through online caregiving platforms. After a brief exchange, the "parent" sends a check to pay for care in advance, but the check is written for noticeably more than the agreed rate; they then explain the overpayment was accidental and ask the provider to wire back, Zelle, or gift-card the difference before the child ever arrives. Because the check appears to clear and the funds show as available in the provider\'s account within a day or two, many providers send the "refund" before the bank finishes processing the check — which later bounces as counterfeit, leaving the provider on the hook to repay their bank for the full amount they already deposited, on top of whatever they sent back. In a June 2026 consumer alert, the FTC said it was seeing a rise in reports of this pattern specifically from childcare providers and stressed a rule that applies to any fake-check scam: a legitimate customer never sends more money than they owe and then asks for the difference back, and a check "clearing" or funds appearing in an account is not proof it is genuine, since banks can take weeks to detect a forged check and will hold the depositor responsible once they do.',
+    categorySlug: 'employment-scams',
+    country: 'US',
+    alertLevel: 'high',
+    sources: ['Federal Trade Commission'],
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2026/05/fake-check-scam-targets-childcare-providers',
+  },
+  {
+    name: 'Smart TV Streaming App Fake Tech Support Pop-Up',
+    slug: 'smart-tv-streaming-app-fake-tech-support-pop-up',
+    description:
+      'While opening a streaming app on a smart TV, a viewer who can\'t log in or hits a playback error sees a full-screen pop-up claiming there is a problem with the device, the app, or the subscription, and instructing them to call a phone number or scan a code to fix it. The Better Business Bureau has tracked reports naming Roku specifically, where the pop-up claims an "activation fee" is required to keep using the device — something Roku does not actually charge, as a quick check of the company\'s own site would show. Anyone who calls reaches a fake "customer service" representative who pushes for payment by credit card, or asks the victim to buy gift cards "for verification" or "anti-hacking protection" (one BBB-reported case involved three $100 Xbox gift cards), or talks them into installing a remote-access app that hands the scammer control of the television and any accounts or payment methods linked to it. The scam is mechanically the same con as a PC-based fake antivirus pop-up, but it catches smart TV owners off guard because a warning appearing on the television itself, rather than a computer browser, feels more like it is coming from the streaming service or the TV manufacturer. The BBB advises never calling a number that appears only in an on-screen pop-up, instead looking up the streaming service or TV manufacturer\'s real support line independently, and never granting remote access to a smart TV any more than a viewer would to a personal computer.',
+    categorySlug: 'tech-support-scams',
+    country: 'US',
+    alertLevel: 'medium',
+    sources: ['Better Business Bureau'],
+    sourceUrl: 'https://www.bbb.org/article/scams/28221-bbb-scam-alert-scammers-may-be-target-your-smart-tv',
+  },
+  {
+    name: 'Singapore Renovation Contractor Prepayment Fraud',
+    slug: 'singapore-renovation-contractor-prepayment-fraud',
+    description:
+      'A renovation or interior-design contractor quotes a homeowner a price for work, collects a deposit paid directly into the contractor\'s own personal account rather than the company\'s, and then either stalls the job indefinitely, produces forged receipts to justify further payments, or vanishes once a large share of the contract sum has changed hands. In one 2026 case, a 44-year-old contractor trading as WS Renovation quoted a homeowner S$55,000, collected a S$5,500 deposit into his personal account, then forged three interior-design-firm receipts to extract further payment, and separately induced another client to falsely claim S$8,400 in bathroom supplies so the firm would reimburse him — he pleaded guilty to cheating, criminal breach of trust, and forgery, and was sentenced to 16 months\' jail, a S$13,140 fine, and S$22,000 in ordered compensation. The Consumers Association of Singapore (CASE) recorded 962 renovation-sector complaints in 2024 alone, accounting for S$728,000 of prepayment losses — roughly a third of all prepayment losses CASE tracked that year — and found 97% of these complaints were against contractors without CaseTrust accreditation, whose standard renovation contract caps deposits at 10% and includes a deposit performance bond. CASE advises paying no more than 20-30% upfront, tying remaining installments to completed work stages rather than a lump sum before work starts, and verifying a contractor carries CaseTrust or RCMA accreditation before signing.',
+    categorySlug: 'mortgage-foreclosure-scams',
+    country: 'SG',
+    isHistorical: true,
+    sources: ['Consumers Association of Singapore (CASE)', 'State Courts of Singapore'],
+    sourceUrl: 'https://www.case.org.sg/wp-content/uploads/2025/02/Media-Release-CASE-sees-prepayment-losses-more-than-quadruple-in-2024-entertainment-related-complaints-nearly-triple.pdf',
+  },
+  {
+    name: 'Singapore Digitally Modified NRIC Payment Account Fraud',
+    slug: 'singapore-digitally-modified-nric-payment-account-fraud',
+    description:
+      'Scammers obtain a softcopy of a genuine Singapore identity card — in some cases from people who had earlier been tricked into submitting one during an unrelated scam — then use digital editing tools to replace the original photo on the card with the face of an accomplice, and submit the doctored image online to open a new account with a payment service provider. When the provider runs a mandatory "facial liveness" check to confirm the applicant matches the ID photo, the accomplice whose face was pasted onto the card completes the scan and passes verification, since the doctored document and the live face now match. Once opened, these fraudulently created accounts are used to receive and move proceeds stolen from other scam victims, distancing the money trail from the scam ring itself and, in cases where the original ID belonged to an earlier scam victim, implicating an innocent person\'s identity in the laundering. The Singapore Police Force issued a public advisory in November 2025 warning that digitally altering and submitting a government identity document to open an account is forgery under Section 468 of the Penal Code 1871, punishable by up to 10 years\' imprisonment and a fine, and urged the public to never share softcopies of their NRIC with unverified individuals or platforms online.',
+    categorySlug: 'identity-theft',
+    country: 'SG',
+    alertLevel: 'high',
+    sources: ['Singapore Police Force'],
+    sourceUrl: 'https://www.police.gov.sg/Media-Hub/News/2025/11/20251112_police_advisory_on_the_use_of_digitally_modified_identity_cards',
+  },
+  {
+    name: 'Singapore 2013 Penny Stock Crash Market Manipulation Scheme',
+    slug: 'singapore-penny-stock-crash-market-manipulation-scheme',
+    description:
+      'Between August 2012 and October 2013, Malaysian businessman Soh Chee Wen and his associate Quah Su-Ling secretly controlled 187 trading accounts registered under 58 individuals and companies to coordinate buying that artificially inflated the share prices of three SGX-listed counters — Blumont Group, Asiasons Capital, and LionGold Corp — creating the appearance of genuine market demand, while also pledging the inflated shares as collateral to Goldman Sachs International and Interactive Brokers to obtain margin financing they knew the shares could not legitimately support. When the scheme unwound on 4 October 2013, all three counters collapsed within a single trading day, destroying roughly S$8 billion in combined market value in what became known as Singapore\'s largest stock market manipulation case, leaving thousands of retail investors who had bought into the rally holding near-worthless shares. Soh and Quah were convicted in the High Court in 2022 on 180 and 169 charges respectively of market manipulation and cheating financial institutions, and sentenced to 36 and 20 years\' imprisonment; the Court of Appeal dismissed their conviction appeals in October 2025 and upheld both sentences on 18 March 2026. Because coordinated trading through nominee accounts can look identical to genuine buying interest to an ordinary investor, MAS and the courts have pointed to the case as a caution against chasing sudden, unexplained rallies in thinly-traded, low-liquidity stocks.',
+    categorySlug: 'investment-fraud',
+    country: 'SG',
+    isHistorical: true,
+    sources: ['Monetary Authority of Singapore', 'Singapore Police Force', "Attorney-General's Chambers (Singapore)"],
+    sourceUrl: 'https://www.police.gov.sg/Media-Hub/News/2026/04/20260409_convictions_and_sentences_upheld_for_masterminds_behind',
+  },
 ];
 
 async function seedCategoriesAndScams() {
