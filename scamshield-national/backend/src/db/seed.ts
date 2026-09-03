@@ -14002,6 +14002,9 @@ Before paying anyone, check your bankruptcy court's own published list of petiti
     slug: 'swatting-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'swatting'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/FBI_SWAT_team_Watervliet_Arsenal.jpg?width=1200',
+    coverImageCredit: 'Photo: U.S. Army Materiel Command (CC BY 2.0) — an FBI SWAT team during a tactical entry drill, unrelated to the swatting cases described',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.justice.gov/opa/pr/california-teenager-sentenced-48-months-prison-nationwide-swatting-spree',
     // representative photo — replace with an exact match if found
     body: `A family at home hears nothing unusual until red and blue lights fill the street outside and officers in tactical gear order everyone out at gunpoint, responding to a shooting or hostage situation that never happened. Nobody in the house called 911. In most of these cases, nobody in the house has ever met the person who did.
