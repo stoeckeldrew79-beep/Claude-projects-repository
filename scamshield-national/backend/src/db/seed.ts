@@ -26649,6 +26649,39 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['South Dakota Attorney General, Consumer Protection Division'],
     sourceUrl: 'https://drgnews.com/2026/07/02/attorney-generals-consumer-protection-division-warns-south-dakotans-to-be-alert-for-storm-repair-scams/',
   },
+  {
+    name: 'Dutch WhatsApp Verification Code Account Takeover Scam',
+    slug: 'dutch-whatsapp-verification-code-account-takeover-scam',
+    description:
+      'A stranger contacts a target on WhatsApp claiming to be a Marktplaats buyer, an acquaintance, or someone who "accidentally" sent a text to the wrong number, and asks them to forward a six-digit code that just arrived by SMS — the code is actually the verification code WhatsApp sends when someone tries to register that phone number on a new device. Handing it over lets the criminal instantly log into the victim\'s own WhatsApp account, lock them out, and then message the victim\'s real contacts posing as them to run a "vriend in nood" money request, distinct from cases where a friend\'s account was compromised through some other route. Dutch police warn that a WhatsApp verification code is meant to stay private and that no legitimate person or organization will ever need it forwarded to them, and recommends enabling two-step verification with a separate self-chosen PIN so a stolen code alone cannot hijack the account.',
+    categorySlug: 'account-takeover',
+    country: 'NL',
+    alertLevel: 'high',
+    sources: ['Politie (Dutch National Police)'],
+    sourceUrl: 'https://www.politie.nl/informatie/tips-om-te-voorkomen-dat-uw-whatsapp-account-wordt-gehackt-overgenomen.html',
+  },
+  {
+    name: 'Dutch Fake Google Helpdesk Account Recovery Scam',
+    slug: 'dutch-fake-google-helpdesk-account-recovery-scam',
+    description:
+      'A caller impersonating Google\'s support helpdesk, sometimes with a spoofed number and often already holding personal details from a previous data breach, claims suspicious activity or a data-export request was detected on the victim\'s Google account and walks them through "security steps" that are actually the real account-recovery process — reading out a two-factor code that arrives by text, or approving a login prompt, hands the scammer control of the account instead of securing it. Fraudehelpdesk notes that once inside, criminals specifically dig for cryptocurrency wallets, saved passwords, and other Google-linked accounts before the victim realizes anything is wrong. Google never phones a user asking for a verification code or a password change; Fraudehelpdesk advises hanging up and contacting Google only through contact details looked up independently, never ones read out or texted by the caller.',
+    categorySlug: 'account-takeover',
+    country: 'NL',
+    alertLevel: 'high',
+    sources: ['Fraudehelpdesk (Netherlands)'],
+    sourceUrl: 'https://www.fraudehelpdesk.nl/alert/neptelefoontjes-uit-naam-van-helpdesk-google/',
+  },
+  {
+    name: 'Dutch "Gratis Proefpakket" Subscription Trap Scam',
+    slug: 'dutch-gratis-proefpakket-subscription-trap-scam',
+    description:
+      'An online ad or social media post offers a "free" trial pack — commonly skincare, supplements, or coffee capsules — asking only for a small shipping fee and a card or iDEAL payment to cover it, but the checkout page buries, in barely visible fine print, an agreement to a recurring subscription that then bills hundreds of euros for follow-up shipments the buyer never knowingly ordered. The Autoriteit Consument & Markt (ACM) receives roughly 200 reports a month about these unsolicited follow-up shipments and states that without a consumer\'s clear, explicit agreement to a subscription there is no valid contract, meaning nothing has to be paid regardless of what the checkout page implied. ACM has already forced several free-trial sellers to refund affected customers and can fine a company up to €450,000 for the practice; its ConsuWijzer "Terecht-checker" tool lets a consumer check whether they actually owe anything before paying a follow-up invoice.',
+    categorySlug: 'online-shopping-scams',
+    country: 'NL',
+    alertLevel: 'medium',
+    sources: ['Autoriteit Consument & Markt (ACM)'],
+    sourceUrl: 'https://www.acm.nl/nl/publicaties/publicatie/14307/Gratis-proefpakketjes-kosten-vaak-honderden-euros',
+  },
 ];
 
 async function seedCategoriesAndScams() {
