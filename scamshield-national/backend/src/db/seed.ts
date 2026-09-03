@@ -11127,6 +11127,38 @@ Red flags include any text claiming a draft has been reinstated or that the reci
 
 Never click a link or call a number from an unsolicited draft-related text — if there's any doubt about registration status, check or register directly at the official Selective Service website, sss.gov, typed in independently rather than through the message. Do not provide a Social Security number, date of birth, or any other personal information in response to the text. Report the message as spam to your carrier by forwarding it to 7726 ("SPAM"), file a complaint with the FCC at consumercomplaints.fcc.gov, and report the scam to the FTC at ReportFraud.ftc.gov.`,
   },
+  {
+    title: 'Spoofed Car Dealership Websites: When the Whole Dealership Is a Clone',
+    slug: 'fake-car-dealership-website-scam-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'car-dealership-scam'],
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2026/09/scammers-are-spoofing-car-dealership-websites-what-you-need-know',
+    body: `A shopper searching for a hard-to-find vehicle — a rare muscle car, a discontinued classic, a specific trim that's sold out everywhere nearby — finds exactly what they're looking for on what appears to be a real, established dealership's website. The site isn't improvised: scammers now use AI tools to clone a legitimate dealer's actual site down to the logo, the inventory photos, the "About Us" page, and even fabricated glowing customer reviews, so the clone is functionally indistinguishable from the business it's copying. The listed vehicle is priced to be tempting but not implausible, and the "buying process" described on the site sounds professional, right down to a flexible-sounding return policy meant to lower a cautious buyer's guard.
+
+The scam completes the moment payment moves. After some back-and-forth negotiation designed to feel like a normal sale, the site or a "sales representative" over phone or email insists on payment by wire transfer, sometimes with pressure that other buyers are interested in the same vehicle and the deal will disappear if the buyer hesitates. Once the wire clears — a payment method that, unlike a credit card, offers essentially no way to reverse the transaction — the buyer either travels to pick up the car or waits for delivery that never comes. Some victims drive to the real, physical dealership address listed on the site, only to be told the dealership has no record of their order, their payment, or the vehicle at all, because the actual business had nothing to do with the site that took their money.
+
+This works precisely because everything about the transaction looks like a normal, safe car purchase up until the final step. A shopper doing basic due diligence — checking that the dealership is a real, physically operating business — will find that it is, because the clone borrows a genuine dealer's name and address wholesale; the fraud isn't in the dealership's identity but in the disconnect between the real business and the copycat site actually collecting the money. Fabricated five-star reviews add a second layer of false reassurance for anyone who searches the dealer's name expecting to catch a scam through obviously bad feedback.
+
+Red flags include a deal that requires payment by wire transfer or cryptocurrency with no other option offered, any refusal to let the vehicle be inspected in person or through an independent third-party mobile inspection service, pressure to close quickly because another buyer is supposedly circling the same car, and reviews that are exclusively glowing with no complaints or mixed feedback at all — a pattern real, long-running dealerships almost never actually have. Searching the dealership's name alongside words like "scam," "review," or "complaint" is a useful first check, but isn't sufficient on its own, since a cloned site can still turn up a real dealer's legitimate positive history.
+
+Before sending any money, confirm the sale directly with the dealership using a phone number looked up independently — not one listed on the site itself — and ask whether the specific vehicle and order actually exist in their system. Insist on an in-person viewing or, for a remote purchase, an independent mobile inspection service before paying anything, and walk away from any dealer who won't allow either. Pay by credit card rather than wire transfer or crypto whenever the seller will accept it, since a credit card carries dispute rights that a wire does not. Report suspected fake dealership sites to the FTC at ReportFraud.ftc.gov.`,
+  },
+  {
+    title: '"Play-to-Earn" Crypto Games: The App That Steals While You Win',
+    slug: 'play-to-earn-crypto-game-scam-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'play-to-earn-crypto-scam'],
+    sourceUrl: 'https://www.ic3.gov/PSA/2023/PSA230309',
+    body: `A friendly stranger met online — through a dating app, social media, or even what looks like a wrong-number text — spends weeks building an ordinary-feeling relationship before mentioning a mobile game that pays real cryptocurrency for playing it. The game is framed as "play-to-earn": tend an animated farm, grow crops, level up a character, and the app displays rewards accumulating in real time, denominated in a cryptocurrency the player can supposedly cash out. To get started, the new player is walked through creating a crypto wallet, buying a modest amount of cryptocurrency, and depositing it into the game, with the promise that the more that's staked, the faster the in-game rewards grow.
+
+The FBI's Internet Crime Complaint Center has been blunt about the mechanism: "Criminals create fake gaming applications to steal millions of dollars in cryptocurrency." The rewards shown inside the app are real-looking but entirely fabricated — a number on a screen with no actual cryptocurrency backing it — and the app itself is built with malicious code that activates the moment a player connects a real wallet, quietly draining it once the player stops actively depositing new funds. Because the "winnings" keep climbing convincingly during active play, victims are encouraged to deposit progressively larger amounts before ever attempting a withdrawal, exactly the moment the scam is designed to prevent from succeeding.
+
+When a player does try to cash out and hits a wall, the operators don't simply vanish — they introduce new, invented obstacles: a "tax" that must be paid before funds release, a "verification fee," or a claim that the account needs an additional deposit to "unlock" withdrawals. Each payment is framed as the final step before the money becomes accessible, and each one is really just another transfer straight to the scammer, with the underlying wallet already compromised and the original deposits long gone by the time a victim realizes nothing was ever going to be released.
+
+Red flags include an online relationship, however sincere it feels, that pivots into recommending a specific investment or gaming app, any request to create a new crypto wallet and fund it specifically for that app, in-game rewards that climb steadily with no ability to actually withdraw them, and any additional "tax," "fee," or extra deposit demanded before a withdrawal will supposedly go through — legitimate platforms never require sending more money to release funds that are already owed. An app available only through a direct download link rather than an official app store listing is another common tell.
+
+Keep any cryptocurrency used for gaming or unfamiliar apps in a separate wallet from primary crypto holdings, so a compromised gaming wallet can't reach the rest of a person's funds. Periodically check token allowance permissions granted to any app through a blockchain explorer, and revoke access for anything unfamiliar or no longer in use. Never pay an additional fee, tax, or deposit to "unlock" a withdrawal — that request is itself the scam. Report suspected play-to-earn or crypto gaming fraud to the FBI's Internet Crime Complaint Center at ic3.gov and to the FTC at ReportFraud.ftc.gov.`,
+  },
 ];
 
 async function seedArticles(articles: SeedArticle[], label: string) {
@@ -25504,6 +25536,30 @@ const SEED_SCAMS: SeedScam[] = [
     alertLevel: 'medium',
     sources: ['Polizeiliche Kriminalprävention der Länder und des Bundes (polizei-beratung.de)'],
     sourceUrl: 'https://www.polizei-beratung.de/aktuelles/detailansicht/die-klimageraete-falle-betrug-mit-fake-technik/',
+  },
+  {
+    name: 'Wyoming Secretary of State Fake Annual Report Dissolution Emails',
+    slug: 'wyoming-sos-fake-annual-report-dissolution-scam',
+    description:
+      'Wyoming businesses have been targeted with fraudulent emails impersonating the Wyoming Secretary of State that warn a company\'s Annual Report is overdue and threaten administrative dissolution unless the recipient acts immediately, typically through a link to a payment page that has nothing to do with the real state filing system. Cyber Wyoming, the state\'s nonprofit cybersecurity resource center, reported in November 2025 that the emails are unusually convincing because scammers pull a business\'s real name, address, and filing dates from the Secretary of State\'s own public online business-entity search and drop them straight into the fake notice, so the message looks personalized even though the sending address is never an official wyo.gov domain. The Secretary of State\'s office has separately warned for years about copycat "Business Compliance Division" mailers pushing a bogus paid "certificate of existence," and says it will only ever notify a company about a real delinquency by mail or from a wyo.gov address, never by an unsolicited emailed dissolution threat demanding immediate action. Any Wyoming business that gets one of these notices is advised not to click the link or call any number it provides, and instead to confirm its filing status directly at wyobiz.wyo.gov or by calling the Business Division at 307-777-7311.',
+    categorySlug: 'government-impersonation',
+    country: 'US',
+    state: 'WY',
+    alertLevel: 'medium',
+    sources: ['Cyber Wyoming', 'Wyoming Secretary of State'],
+    sourceUrl: 'https://news.wyosupport.com/recent-email-and-business-filing-scams-target-wyoming-organizations/',
+  },
+  {
+    name: 'LoanMax Title Loans Employee Identity-Theft Loan Fraud',
+    slug: 'mississippi-loanmax-employee-identity-theft-loan-fraud',
+    description:
+      'Kiana Rochelle Cooper, an employee at a LoanMax Title Loans branch in Jackson, Mississippi, used the access to customers\' personal identifying information that came with her job to file fraudulent title loans in other people\'s names without their knowledge, a scheme the Mississippi Attorney General\'s Office investigated and prosecuted on a single count of false pretenses. On November 20, 2025, Hinds County Circuit Court Judge Debra H. Gibbs sentenced Cooper to 10 years in the custody of the Mississippi Department of Corrections, with 2 years to serve and 5 years of post-release supervision, and ordered her to pay $44,948 in restitution to the people whose identities she used. Attorney General Lynn Fitch said fraud "is not a victimless crime; it hurts hardworking individuals," and the case is a reminder that title-loan and payday-loan storefronts collect exactly the kind of personal information — a driver\'s license, Social Security number, proof of income, sometimes a vehicle title — that lets a dishonest employee open a loan in a customer\'s name without ever needing to trick them into anything. Anyone who has applied for or visited a title-loan business is advised to check their credit report periodically at AnnualCreditReport.com for a loan or account they don\'t recognize, since a fraudulently filed title loan otherwise tends to surface only when a collections call or a lien shows up against a vehicle the victim still legitimately owns.',
+    categorySlug: 'identity-theft',
+    country: 'US',
+    state: 'MS',
+    isHistorical: true,
+    sources: ["Mississippi Attorney General's Office", 'WLBT'],
+    sourceUrl: 'https://www.wlbt.com/2025/12/11/jackson-woman-sentenced-10-years-fraud-case/',
   },
 ];
 
