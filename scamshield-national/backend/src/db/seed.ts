@@ -24247,6 +24247,44 @@ const SEED_SCAMS: SeedScam[] = [
     sourceUrl: 'https://www.fi.se/sv/vara-register/fis-varningslista/',
   },
   {
+    name: 'AKME Gardens Fake Nursery-Certification Non-Delivery Scheme',
+    slug: 'alabama-akme-gardens-nursery-certification-non-delivery',
+    description:
+      "AKME Group, LLC and AKME, LLC, doing business as AKME Gardens out of Baldwin County, Alabama, sold nursery plants, trees, and seeds nationwide through its website while falsely claiming to hold current Alabama nursery and seed certifications — even though the business had not been certified to sell nursery stock since its certification lapsed in September 2022, and had not held a valid seed certification for at least three years. Owners Adam Karsten Morck and Kristina Nis Dias also took payment from customers for orders that were simply never shipped, a pattern the Alabama Attorney General's Office traced back to consumer complaints from 2021 onward. After Morck opened a second business, Ride Doctors LLC, in August 2024, Attorney General Steve Marshall filed a complaint in March 2025 alleging 24 violations of the state's Deceptive Trade Practices Act for the false certification claims and 13 more for taking payment without delivering, obtained a temporary restraining order, and won a preliminary injunction on May 30, 2025, from a Baldwin County Circuit Court judge barring the defendants from operating any business in Alabama, including Ride Doctors. Marshall said 'falsely claiming to be an Alabama-certified nursery and accepting money for products that were never delivered isn't just unethical — it's illegal,' and his office is seeking restitution for affected consumers along with civil penalties; anyone ordering nursery stock or seeds by mail or online can verify a seller's actual certification status with their state's department of agriculture before paying, rather than trusting claims made on the seller's own website.",
+    categorySlug: 'online-shopping-scams',
+    country: 'US',
+    state: 'AL',
+    alertLevel: 'high',
+    sources: ["Alabama Attorney General's Office"],
+    sourceUrl:
+      'https://www.alabamaag.gov/judge-grants-preliminary-injunction-against-baldwin-county-company-after-attorney-general-marshall-files-complaint-alleging-deceptive-conduct/',
+  },
+  {
+    name: 'Virginia Beach Counterfeit Coupon Scheme',
+    slug: 'virginia-beach-counterfeit-coupon-scheme',
+    description:
+      "Operating from her Virginia Beach home under the online alias \"MasterChef,\" Lori Ann Talens used a computer to design, print, and sell counterfeit manufacturer coupons with inflated face values to networks of coupon enthusiasts she found through social media groups and coupon-trading apps, from at least April 2017 through May 2020 — for every dollar a buyer paid her, she supplied them with an estimated $50 in fake coupon value, which they then redeemed at real retailers as if genuine. Her husband, Pacifico Talens Jr., helped print, package, and ship the counterfeit coupons; federal agents who searched their home seized roughly $1 million worth of them, and a Secret Service financial analysis found the scheme caused more than $31.8 million in losses to retailers and manufacturers who honored the fake coupons. Both Talenses pleaded guilty to mail fraud in 2021 — Lori also to wire fraud and health care fraud, having separately concealed household income to fraudulently collect about $43,000 in Medicaid and SNAP benefits — and were sentenced to 12 years and 7 years 3 months in prison, respectively; five of their bulk-buying customers were prosecuted as well, and the U.S. Attorney's Office for the Eastern District of Virginia announced the final sentencing on June 16, 2026, when Sherise Williams of Palmetto, Florida, who had bought counterfeit coupons from Talens on 274 separate occasions for $19,821.34 — causing an estimated $991,067 in losses on her purchases alone — received three years and five months in prison. The case is a reminder that coupons offered in bulk through private social-media groups at steep discounts, rather than obtained directly from a manufacturer or retailer, carry real legal risk for the buyer as well as the seller, since retailers and law enforcement can and do trace counterfeit coupons back to who redeemed them.",
+    categorySlug: 'online-shopping-scams',
+    country: 'US',
+    state: 'VA',
+    isHistorical: true,
+    firstRecorded: '2026-06-16',
+    sources: ['U.S. Attorney\'s Office, Eastern District of Virginia'],
+    sourceUrl: 'https://www.justice.gov/usao-edva/pr/seven-people-sentenced-prison-their-roles-31m-coupon-fraud-scheme',
+  },
+  {
+    name: 'North Dakota Transient Asphalt-Paving Scam',
+    slug: 'north-dakota-transient-asphalt-paving-scam',
+    description:
+      "Traveling paving crews go door to door in North Dakota neighborhoods each summer claiming they are \"already in the area\" finishing a nearby job and have leftover asphalt or sealant they can offer homeowners at a steep discount if the work is done that same day. Attorney General Drew Wrigley's office warns the crews pressure homeowners into an immediate decision without a written estimate, then either demand a large payment upfront and never return once paid, or rush through the job using too little material, the wrong grade of asphalt, or unskilled labor with no proper base preparation — leaving a driveway that cracks or fails within a season — while some crews use intimidation to collect payment before a homeowner can inspect the finished work. The office recommends never hiring a contractor who shows up unannounced or who cannot provide a fixed local business address, checking whether the business is registered with the Secretary of State and licensed as required, getting a written contract with an itemized estimate before any work begins, asking for and calling local references, and searching online for complaints before paying anything — and to contact the Attorney General's Consumer Protection Division at (701) 328-3404 with questions or to report a suspected scam.",
+    categorySlug: 'mortgage-foreclosure-scams',
+    country: 'US',
+    state: 'ND',
+    alertLevel: 'medium',
+    sources: ["North Dakota Attorney General's Office"],
+    sourceUrl: 'https://attorneygeneral.nd.gov/attorney-general-wrigleywarns-about-transient-asphalt-paving-scams/',
+  },
+  {
     name: 'Fake QR Code EV Charging Station Payment Scam',
     slug: 'ev-charging-station-fake-qr-code-scam',
     description:
