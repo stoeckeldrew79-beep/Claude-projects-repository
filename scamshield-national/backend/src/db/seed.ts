@@ -24730,6 +24730,39 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ["Office of the Attorney General of Maryland"],
     sourceUrl: 'https://oag.maryland.gov/News/Pages/Harford-County-Home-Builder-Ordered-to-Pay-Over-$1,000,000-for-Violations-of-the-Consumer-Protection-Act.aspx',
   },
+  {
+    name: 'QuadrigaCX Cryptocurrency Exchange Collapse',
+    slug: 'canada-quadrigacx-collapse-fraud',
+    description:
+      'Vancouver-based cryptocurrency exchange QuadrigaCX collapsed in early 2019 after founder Gerald Cotten died suddenly while travelling in India, with the company claiming roughly $215 million in client cash and crypto was locked in cold wallets only he had the keys to. A 2020 Ontario Securities Commission investigation found the real cause was old-fashioned fraud rather than lost keys: Cotten had secretly opened trading accounts under aliases, credited himself with fictitious currency and crypto balances, and traded against unsuspecting clients, then covered the resulting shortfall by funnelling other clients\' deposits into his own accounts on outside exchanges, where he lost much of it on speculative trades — "an old-fashioned fraud wrapped in modern technology," in the OSC\'s words. Court-appointed monitor Ernst & Young was able to recover or identify only about $46 million against roughly $169 million owed to some 76,000 affected users. The case remains Canada\'s starkest example of the risk of leaving cryptocurrency on an unregulated, custodial exchange rather than in a wallet the user controls directly, since a client of an exchange like Quadriga has no real claim on specific coins — only an unsecured promise from the operator.',
+    categorySlug: 'investment-fraud',
+    country: 'CA',
+    isHistorical: true,
+    sources: ['Ontario Securities Commission', 'CBC News'],
+    sourceUrl: 'https://www.osc.ca/quadrigacxreport/',
+  },
+  {
+    name: 'Canadian Fake QR Code Parking Meter Scam',
+    slug: 'canada-fake-qr-code-parking-meter-scam',
+    description:
+      'Fraudsters affix a counterfeit QR code sticker directly over the real one on a municipal parking meter or pay-and-display machine, so a driver who scans it to pay for parking is instead taken to a convincing fake payment page that harvests their credit card number, expiry date, and security code. Police have reported the scheme on meters in Ottawa and Montreal before it spread west, with RCMP detachments in Kelowna, Penticton, and Whistler, B.C., and Toronto Police Service all issuing public warnings through 2025 and into 2026 after finding tampered meters in their jurisdictions. Officers advise checking a meter\'s QR code for a sticker with peeling edges, mismatched branding, or a slightly different shape or placement than the machine\'s printed code before scanning, paying directly through the official municipal parking app or at the machine\'s card reader instead, and contacting the issuing bank immediately if a suspicious code was already scanned and payment details entered.',
+    categorySlug: 'phishing',
+    country: 'CA',
+    alertLevel: 'high',
+    sources: ['Royal Canadian Mounted Police'],
+    sourceUrl: 'https://rcmp.ca/en/bc/news/2025/08/penticton-rcmp-warn-residents-national-qr-code-parking-scam',
+  },
+  {
+    name: 'Winnipeg Immigration Consultant Fraudulent Work Permit Scheme',
+    slug: 'canada-fraudulent-work-permit-immigration-consultant-scam',
+    description:
+      'Winnipeg-based Regulated Canadian Immigration Consultant Balkaran Singh charged foreign nationals for work permits built on fabricated job offers, presenting Canada Border Services Agency officers with employment letters — in one instance claiming three separate clients each had jobs waiting at a Gurdwara near Winnipeg — that a CBSA digital forensic investigation proved were invented from the start. Singh pleaded guilty in October 2024 to counselling misrepresentation under the Immigration and Refugee Protection Act and was sentenced to two years less a day of house arrest with a curfew, 200 hours of community service, a $50,000 fine, and a prohibition on ever giving immigration advice again. The College of Immigration and Citizenship Consultants has separately disciplined and even revoked the licences of other regulated consultants for the same "job selling" pattern — fabricating an employer\'s job offer or payroll records to support a work-permit application the client pays for. Anyone hiring an immigration consultant should verify the consultant\'s licence on the CICC\'s public register and independently confirm any job offer directly with the named employer before paying a fee, since no legitimate consultant needs a client to simply trust that a stated job offer is real.',
+    categorySlug: 'employment-scams',
+    country: 'CA',
+    isHistorical: true,
+    sources: ['Canada Border Services Agency', 'CBC News'],
+    sourceUrl: 'https://www.cbc.ca/news/canada/manitoba/immigration-fraud-fine-house-arrest-1.7343191',
+  },
 ];
 
 async function seedCategoriesAndScams() {
