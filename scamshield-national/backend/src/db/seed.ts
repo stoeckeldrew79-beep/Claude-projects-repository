@@ -7185,6 +7185,9 @@ On April 20, 2021, Thodex abruptly halted trading, citing what it described as a
     slug: 'belle-gibson-whole-pantry-fake-cancer-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Melbourne_City_skyline.jpeg?width=1200',
+    coverImageCredit: 'Photo: Misaochan2 (CC BY-SA 4.0) — Melbourne, where Gibson built and sold The Whole Pantry',
+    coverImagePosition: 50,
     body: `In 2013, a young Melbourne woman named Belle Gibson began telling followers on Instagram that she had been diagnosed with terminal brain cancer, and that she had rejected chemotherapy and radiotherapy in favor of a "clean" diet, alternative therapies, and positive thinking — a regimen she credited with keeping her alive and, eventually, curing her. She said the cancer had spread to her blood, spleen, uterus, liver, and kidneys before she brought it under control herself. None of it was true; she had never had cancer at all.
 
 The story built a business. Gibson launched a mobile app and cookbook called The Whole Pantry, packaging her claimed recovery into recipes and lifestyle advice; the app was named Apple's Best Food and Drink App of 2013 and was downloaded hundreds of thousands of times, and Penguin published an accompanying cookbook in 2014. Gibson also told followers she was donating large portions of the app's profits to charity — including a specific pledge of tens of thousands of dollars to a critically ill boy's family — building a second layer of goodwill on top of the illness story that had made her following possible in the first place.
@@ -7199,6 +7202,9 @@ Gibson's case became a reference point in Australia for a specific kind of fraud
     slug: 'hiromasa-ezoe-recruit-scandal-insider-trading',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/%E4%BC%9A%E9%95%B7%E6%99%82%E4%BB%A3_copia.jpg?width=1200',
+    coverImageCredit: 'Photo: Beyondafterhouse (CC BY-SA 4.0)',
+    coverImagePosition: 50,
     body: `Hiromasa Ezoe built Recruit from a University of Tokyo side project — a newspaper selling job advertisements to fellow students, started in 1960 — into one of Japan's largest information and human-resources conglomerates. By the mid-1980s Recruit was diversifying aggressively, and in 1986 Ezoe prepared to take one of its subsidiaries, real-estate firm Recruit Cosmos, public. Before the shares ever reached the open market, he arranged for blocks of unlisted Cosmos stock to be quietly distributed to dozens of politicians, senior bureaucrats, business executives, and journalists, letting them buy in at the pre-IPO price.
 
 The arrangement worked exactly as intended for everyone involved. When Recruit Cosmos shares began trading publicly, their price climbed sharply, and each recipient of the pre-IPO stock was able to sell at a profit — reportedly averaging around ¥66 million per person — without having taken on any real investment risk or, in many cases, without the public having any idea the shares had changed hands at all. The scheme wasn't a conventional swindle aimed at ordinary investors; it was a mechanism for buying influence, dressed up as a stock transaction, and it reached extraordinarily high: recipients eventually tied to the scandal included sitting cabinet ministers and, indirectly, Prime Minister Noboru Takeshita himself.
