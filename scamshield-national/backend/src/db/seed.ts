@@ -26290,6 +26290,39 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Canadian Real Estate Association'],
     sourceUrl: 'https://www.crea.ca/cafe/what-realtors-should-know-about-wire-transfer-fraud/?category=53794',
   },
+  {
+    name: 'Australian Fake Purchase Callback Scam',
+    slug: 'australian-fake-purchase-callback-scam',
+    description:
+      'A text, email, app notification, or even a fake calendar invite tells the victim they just bought something they never ordered — commonly a phone, security software, plane or event tickets, or cryptocurrency, priced between roughly $300 and $2,000 — and gives a phone number to call if they want to "cancel" or "reverse" the charge. The message often includes real personal details such as the victim\'s name, email, phone number, or address to make it look legitimate, and may invoke a payment service the victim actually uses, such as PayPal, to add credibility. Scammers then apply urgency, warning that the window to stop the payment is short before the money leaves the account, pressuring the victim to call immediately rather than check their real account first. Anyone who calls the number is walked through "verifying" their identity or installing remote-access software, which the scammer then uses to drain the victim\'s real bank account, or is asked for one-time codes, passwords, or gift card numbers. Scamwatch, run by the National Anti-Scam Centre at the ACCC, warns Australians never to call a number supplied in this kind of message and to instead check any account directly through the official app or website.',
+    categorySlug: 'phishing',
+    country: 'AU',
+    alertLevel: 'high',
+    sources: ['Scamwatch (ACCC) / National Anti-Scam Centre'],
+    sourceUrl: 'https://www.scamwatch.gov.au/about-us/news-and-alerts/scam-alert-fake-purchase-callback-scams',
+  },
+  {
+    name: 'Australian AI-Generated "Fired Retail Worker" Deepfake Video Scam',
+    slug: 'australian-fired-retail-worker-deepfake-video-scam',
+    description:
+      'Scammers post AI-generated videos on TikTok and Facebook, made to look like a tearful current or former Bunnings, Coles, or Woolworths employee who claims to have been fired or gotten in trouble after a shift, and who is now "spilling insider secrets" about massive discounts, giveaways, or gift cards available through a linked website. The videos use the retailers\' real logos and branding to look authentic and typically come from newly created accounts with few followers, an emotional or dramatic backstory, and claims of special "insider" discount codes or methods. The linked sites are not run by Bunnings, Coles, or Woolworths and are designed to harvest visitors\' personal details and financial or card information under the guise of claiming a discount or prize. All three retailers issued public warnings in February 2026 after the coordinated campaign spread across their brands, urging customers to treat any third-party site offering products, gift cards, or discounts with no real connection to the retailer as a scam, and to report it to Scamwatch rather than click through.',
+    categorySlug: 'ai-deepfake-scams',
+    country: 'AU',
+    alertLevel: 'high',
+    sources: ['Bunnings Australia', 'Coles', 'Woolworths'],
+    sourceUrl: 'https://au.finance.yahoo.com/news/bunnings-worker-prompts-warning-after-growing-coles-woolworths-scam-exposed-be-wary-200706167.html',
+  },
+  {
+    name: 'Australian NDIS Provider Exploitation and Billing Fraud',
+    slug: 'australian-ndis-provider-exploitation-billing-fraud',
+    description:
+      'Some registered and unregistered NDIS (National Disability Insurance Scheme) providers target participants — who are, by definition, people living with disability and often among the most vulnerable users of any government support scheme — with conduct that shades from misleading marketing into outright fraud. The ACCC has documented providers who falsely advertise products or services as "NDIS-approved" or "NDIS-eligible" when they are not, who charge NDIS plans for support products or services that were never supplied or not delivered as agreed, and who pressure participants into signing agreements they do not understand, sometimes with inducements like cash, alcohol, or cigarettes used to secure a sign-up before funds are billed against the participant\'s plan. Because NDIS funding pays for support many participants cannot do without, the ACCC\'s Deputy Chair has called this conduct particularly harmful given how essential the products and services are to participants\' everyday lives. The ACCC has already taken enforcement action and secured penalties against companies for false NDIS-endorsement claims, and the NDIS Quality and Safeguards Commission separately runs a dedicated Fraud Reporting and Scams Helpline (1800 650 717) for participants, families, and providers to report suspected exploitation or fraud.',
+    categorySlug: 'public-benefits-fraud',
+    country: 'AU',
+    alertLevel: 'high',
+    sources: ['Australian Competition and Consumer Commission (ACCC)', 'NDIS Quality and Safeguards Commission'],
+    sourceUrl: 'https://www.accc.gov.au/media-release/australians-living-with-disability-at-risk-of-exploitation-by-ndis-providers-breaching-consumer-laws',
+  },
 ];
 
 async function seedCategoriesAndScams() {
