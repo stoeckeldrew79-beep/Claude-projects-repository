@@ -24763,6 +24763,17 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Canada Border Services Agency', 'CBC News'],
     sourceUrl: 'https://www.cbc.ca/news/canada/manitoba/immigration-fraud-fine-house-arrest-1.7343191',
   },
+  {
+    name: 'AI-Generated "Your Pet Is Hurt" Ransom Scam',
+    slug: 'ai-generated-pet-in-distress-ransom-scam',
+    description:
+      'A caller claiming to be a veterinarian, animal hospital, or police officer says they have a person\'s missing or injured pet and, in a growing number of cases, backs up the claim with an AI-generated photo or video showing that specific animal in apparent distress — imagery built from photos the scammer pulled off a lost-pet flyer or the owner\'s own social media posts. The caller demands immediate payment by gift card, payment app, cryptocurrency, or wire transfer to cover "emergency treatment" or the pet\'s return, exploiting the panic and guilt of someone who believes their own animal is suffering. The FTC issued a consumer alert on June 24, 2026 describing the pattern as one of three AI-enabled pet scams now in circulation, alongside fake shelter donation pages and fake charity-linked prize notifications, and noted scammers "use AI to create fake photos or videos of your pet in distress" to make the extortion far more convincing than an old-fashioned unverifiable claim over the phone. The FTC\'s clearest tell: "If someone says the only way to pay for your pet\'s treatment is with a gift card, a payment app, cryptocurrency, or a wire transfer service, you\'re dealing with a scammer" — a real veterinary clinic or animal control agency accepts ordinary payment methods and lets an owner verify the claim by calling the clinic or shelter directly at a number looked up independently, not one supplied by the caller.',
+    categorySlug: 'online-shopping-scams',
+    country: 'US',
+    alertLevel: 'high',
+    sources: ['Federal Trade Commission (FTC)'],
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2026/06/animal-lovers-learn-spot-and-avoid-breed-pet-scams',
+  },
 ];
 
 async function seedCategoriesAndScams() {
