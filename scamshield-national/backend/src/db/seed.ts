@@ -7135,6 +7135,34 @@ These were not isolated misses. A 2010 study published in Skeptical Inquirer rev
 Browne died in 2013 — having once predicted, on television, that she would live to 88 — leaving behind a fraud conviction, a well-documented pattern of false predictions delivered directly to grieving families, and a body of skeptical research treating her case as a textbook example of cold reading and confident guesswork sold as certainty to people with nowhere else to turn.`,
     sourceUrl: 'https://en.wikipedia.org/wiki/Sylvia_Browne',
   },
+  {
+    title: 'The "Canoe Man": How John and Anne Darwin Faked a Death for a £250,000 Insurance Payout',
+    slug: 'john-anne-darwin-canoe-man-faked-death-insurance-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `On March 21, 2002, John Darwin, a former teacher and prison officer from Hartlepool in northeast England, paddled a canoe out from the coast near Seaton Carew and vanished. The canoe washed up in pieces; no body was ever found. His wife, Anne, told police and, later, their two adult sons that he was presumed drowned. What neither son knew was that their parents had planned the disappearance together, driven by roughly £130,000 in mortgage debt on rental properties the couple could no longer service. Within days of the "accident," John was living quietly in a bedsit next door to the family home; by February 2003 he had moved back into the house itself, hidden behind a specially built partition wall whenever visitors came, including his own sons and grandchildren.
+
+The fraud that followed the fake death ran for more than five years. Anne collected a £250,000 life insurance payout from Unat Direct Insurance Management, part of AIG, and filed additional false claims against a teachers' pension scheme and the UK's Department for Work and Pensions, together bringing the couple's take to roughly £500,000. John obtained a fraudulent passport under the name "John Jones," built from the identity of a deceased infant, to travel internationally without detection. Using the stolen insurance money, the couple began making trips to Panama starting in 2006, eventually buying a tropical estate near the Panama Canal — while Anne continued living in England as a grieving widow, accepting condolences from neighbors who had no idea her husband was alive.
+
+The scheme unraveled by accident. On December 1, 2007, John walked into a London police station claiming amnesia and no memory of the previous five years — a story that fell apart almost immediately when the Daily Mirror published a photograph, found by a member of the public through a simple Google Images search, showing John and Anne together in Panama in 2006, smiling, very much a couple, a year before he supposedly wandered back into his own life with no memory of it. Anne was arrested at Manchester Airport the next day; John was arrested at his son's home. Both eventually pleaded guilty at Leeds Crown Court — John to seven counts of obtaining money by deception plus the passport offense, Anne to six counts of deception — and in July 2008 were sentenced to prison: six years and three months for John, six years and six months for Anne, whom police described as a "compulsive liar." Courts later ordered full repayment; by 2015 the couple's Panama properties and remaining assets had been sold off to recover the money, and Anne and John divorced in 2012.
+
+The Darwins' sons, who had grieved their father as dead for five years and were never told the truth, remain the case's starkest reminder of what insurance fraud actually costs: not just an insurer's money, but the people closest to the fraud, deceived as thoroughly as anyone the couple was trying to profit from.`,
+    sourceUrl: 'https://en.wikipedia.org/wiki/John_Darwin_disappearance_case',
+  },
+  {
+    title: 'Faruk Fatih Özer and the $2 Billion Thodex Crypto Exchange Vanishing Act',
+    slug: 'faruk-fatih-ozer-thodex-crypto-exchange-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Faruk Fatih Özer founded Thodex, a Turkey-based cryptocurrency exchange, in 2017, and built it into one of the country's most heavily promoted platforms — sponsoring a professional basketball team, running a national television and billboard advertising campaign, and at one point offering a promotional giveaway of a Tesla to attract new users. By 2021 Thodex had registered around 391,000 users and was marketing itself internationally, having secured registration as a Money Service Business with the U.S. Financial Crimes Enforcement Network. Behind the marketing, prosecutors later found, client funds were never simply held for trading — they were being funneled out through a web of shell transactions and converted into cryptocurrency and gold that Özer could move and control himself.
+
+On April 20, 2021, Thodex abruptly halted trading, citing what it described as a cyberattack. The next day, users found they had lost all access to their accounts entirely, and the platform announced it was "temporarily" closing — a closure that turned out to be permanent. An estimated $2 billion in customer cryptocurrency assets disappeared with it, one of the largest exchange collapses of the early crypto era anywhere in the world. Özer himself was already gone: he had flown to Tirana, Albania the same day trading stopped, boarding a plane before most users even realized their money was inaccessible. Turkish authorities issued arrest warrants for Özer and members of his family, and Interpol issued a Red Notice on April 23, 2021, two days after he vanished.
+
+Özer spent more than a year as a fugitive before Albanian police apprehended him at a resort in the coastal city of Vlorë on August 30, 2022, and extradited him back to Turkey to face trial alongside twenty other defendants, including his own siblings. Prosecutors sought sentences that, combined across all defendants, totaled tens of thousands of years, reflecting Turkish law's practice of stacking individual counts of fraud, founding a criminal organization, and money laundering into cumulative maximum terms. On September 7, 2023, an Istanbul court convicted Özer and sentenced him to 11,196 years in prison; his brother and sister, also convicted for their roles in the scheme, received identical sentences.
+
+Özer's case became one of the highest-profile exchange collapses cited in the wave of crypto regulation that followed 2021 and 2022, alongside FTX's failure — a reminder that a platform's marketing budget, celebrity sponsorships, and registered compliance status say nothing about whether customer funds sitting on an exchange are actually safe from the people who run it.`,
+    sourceUrl: 'https://en.wikipedia.org/wiki/Thodex',
+  },
 ];
 
 // Practical "how it works / red flags / what to do" guides covering the
