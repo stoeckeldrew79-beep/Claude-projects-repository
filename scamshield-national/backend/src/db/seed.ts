@@ -7249,6 +7249,10 @@ The Moneytron affair remains one of Belgium's defining financial scandals, and a
     title: 'John Meehan, "Dirty John": The Fake Anesthesiologist Who Preyed on Women for a Decade',
     slug: 'john-meehan-dirty-john-con-artist',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Newport_Center_Skyline_and_Santa_Ana_Mountains.jpg?width=1200',
+    coverImageCredit: 'Photo: Brian1078, Wikimedia Commons (CC BY-SA 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `John Meehan built his adult life around a single lie: that he was a successful anesthesiologist and Doctors Without Borders volunteer. In reality, he was a nurse anesthetist with a felony record for stealing narcotics from hospitals — a career that collapsed in 2002 when he was caught at a hospital in Hamilton, Ohio, submitting a patient's urine as his own to pass a drug test, part of a pattern of drug theft across Indiana, Kentucky, Ohio, and Michigan that eventually cost him his nursing license and drew a 17-month prison sentence in Michigan.
 
@@ -7263,6 +7267,10 @@ On August 20, 2016, Meehan confronted Newell's daughter Terra in the parking gar
     title: 'Michael J. Meehan and the RCA Stock Pool That Helped Set the Stage for the Crash of 1929',
     slug: 'michael-meehan-rca-stock-pool-1929',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/1930-67B.png?width=1200',
+    coverImageCredit: 'Photo: Herbert Hoover Presidential Library and Museum (public domain, U.S. federal government work)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Michael J. Meehan arrived on Wall Street with no financial pedigree at all — he started out scalping Broadway theater tickets to brokers on the street. He used the money and connections from six years of that trade to buy a seat on the New York Curb Exchange, then saved enough to buy a seat on the New York Stock Exchange itself, and worked his way up to become the NYSE's official specialist for Radio Corporation of America stock — the single hottest, most speculated-on issue of the 1920s bull market, and now his to manage.
 
