@@ -7006,6 +7006,34 @@ The acquittal did not restore his reputation. The trial's extensive press covera
     coverImageCredit: 'Photo: William H. Mumler, c. 1872 — his famous "Mary Todd Lincoln with the ghost of Abraham Lincoln" spirit photograph (public domain)',
     coverImagePosition: 50,
   },
+  {
+    title: "P.T. Barnum and the Enslaved Woman He Sold as George Washington's 161-Year-Old Nurse",
+    slug: 'pt-barnum-joice-heth-hoax',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Before he built Barnum's American Museum or ran the circus that made his name synonymous with showmanship, Phineas Taylor Barnum was a 25-year-old with no fixed career who, in August 1835, paid a Kentucky exhibitor named R.W. Lindsay $1,000 to lease the rights to a story attached to an elderly, blind, and largely paralyzed enslaved woman named Joice Heth. Slavery was illegal in New York, so Barnum structured the deal as a one-year lease rather than a purchase, financing his half with a loan and bringing in a business partner, Levi Lyman, to cover the rest. What he was actually buying was a narrative: that Heth, then billed as 161 years old and supposedly born in 1674, had been the nurse who raised the infant George Washington, and that she could still recount stories about "dear little George" from firsthand memory.
+
+Barnum opened the exhibition at Niblo's Garden in New York City on August 10, 1835, advertising Heth as "the most astonishing and interesting curiosity in the World" and papering the city with handbills and a twelve-page pamphlet elaborating a fabricated biography that had her born in Madagascar and enslaved as a teenager before entering the Washington household. Paying customers filed past her for a fee to hear her sing hymns, answer questions about the Washington family, and confirm, in whatever way a very old, blind, largely immobile woman could, that the story was true. The exhibition was a sensation and, by the estimate of historian Eric Lott, brought in roughly $1,500 a week — worth close to $47,000 in today's money — making it one of the most commercially successful acts in the young country's history. When public skepticism began to grow in later months, Barnum did not retreat from the con; he escalated it, anonymously circulating a letter to a newspaper claiming Heth was in fact an automaton built of "whalebone, springs, and india rubber," a stunt designed to reignite curiosity and drive a fresh wave of ticket sales from people who now had two competing hoaxes to come see disproven.
+
+Heth died on February 19, 1836, having spent the final months of her life performing on a touring circuit that exhausted a body already blind and paralyzed. Barnum's exploitation of her did not end with her death. He sold tickets — fifty cents apiece — to a public autopsy performed on February 25, 1836, before roughly 1,500 paying spectators at a New York City saloon, with surgeon Dr. David L. Rogers cutting the body open on a public stage to determine her true age. Rogers concluded she had been approximately 80 years old, not 161, definitively exposing the central claim of the exhibition as fraudulent. Barnum's response was to double down again: he told reporters the wrong body had been examined and insisted the real Joice Heth was alive and performing in Europe, a claim he later admitted was itself invented purely to keep the story, and the ticket sales built around it, alive a little longer.
+
+The Joice Heth exhibition left no criminal record — there was no law against exhibiting a person for money and lying about her age and biography — and Barnum went on to a five-decade career as America's most famous showman, later building an actual legitimate zoological and museum empire and, in his final years, serving as a Connecticut state legislator and the mayor of Bridgeport. He never faced meaningful consequence for how he had built his fortune's foundation: renting a disabled, elderly enslaved woman's body, engineering a story around her that dictated what she would be made to say for money, and then converting her death into one final ticketed spectacle. Historians of American popular culture treat the Heth exhibition as the founding template for Barnum's entire career and, more broadly, for the commercial hoax industry he spent the rest of his life refining — a case still cited today as an early, stark illustration of how thoroughly consumer fraud and the exploitation of a vulnerable person can be fused into a single, wildly profitable act of entertainment.`,
+    sourceUrl: 'https://en.wikipedia.org/wiki/Joice_Heth',
+  },
+  {
+    title: 'Marjoe Gortner: The Child Evangelist Who Confessed His Own Revival Circuit Was a Con',
+    slug: 'marjoe-gortner-child-evangelist-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Hugh Marjoe Ross Gortner was born January 14, 1944, in Long Beach, California, to evangelical parents who decided almost immediately that their son would become a preacher — not eventually, but as a toddler. His mother, Marge, coached him to deliver sermons from memory, and at age four his parents staged a mock wedding ceremony for him, complete with a bride, an "I do," and press coverage that included Life magazine photographers, all to generate publicity for the traveling revival act the family was building around him. He later described how his parents built the entire enterprise on a fabricated origin story — a supposed divine vision he received while being bathed as an infant — that he was required to repeat, word for word, from the pulpit for years, and enforced his cooperation not with visible violence but through psychological coercion, including mock-drowning episodes designed to compel compliance without leaving marks a congregation might see.
+
+Billed as the youngest ordained minister in history, "Marjoe" — a name his parents built from a splice of Mary and Joseph — became a genuine sensation on the American revival circuit through the late 1940s and 1950s, preaching hellfire sermons, faith-healing routines, and altar calls to packed tent revivals across the country while his family collected the offering plates. His younger brother Vernoe joined the family act by 1951, and by the time Gortner reached his teens the ministry had generated an estimated three million dollars in donations passing through his parents' hands. Shortly after that milestone, his father disappeared with the money entirely, leaving the family enterprise and its finances in ruins and Gortner, still a teenager, largely on his own; he spent the years that followed drifting through a beatnik lifestyle far removed from the revival tents that had defined his childhood.
+
+By the late 1960s, weighed down by what he described as a crisis of conscience over the mechanics of the racket he had grown up inside — the fake testimonies, the staged healings, the sale of "holy" trinkets to congregants who believed they carried genuine spiritual power — Gortner agreed to a proposal from documentary filmmakers Howard Smith and Sarah Kernochan: he would return to the preaching circuit one more time, mic'd for sound, and let cameras follow him both on stage delivering the same routines that had made his family rich and backstage, narrating exactly how each effect was manufactured for the audience that had just applauded it. Through 1971 he toured revival meetings in California, Texas, and Michigan performing the act while simultaneously deconstructing it on camera — explaining the salted "healings," the choreography of collapsing into ecstatic fits, and the psychological techniques for reading a crowd and extracting maximum donations from it.
+
+The resulting film, Marjoe (1972), won the Academy Award for Best Documentary Feature and became one of the most influential exposés of revivalist fraud ever made, screened for decades afterward in journalism, sociology, and religious-studies courses as a case study in how a confidence scheme can be built entirely around sincere-seeming performance rather than any single false financial claim. Gortner never faced prosecution — soliciting donations for a religious ministry, however manufactured the theatrics behind it, was not itself illegal, and by the time the documentary aired the specific offering-plate money that had funded his childhood had long since vanished with his father — but his own on-camera confession closed the case more completely than any court could have, permanently retiring both the "Marjoe" act and the broader assumption that a preacher's tears, collapses, and claimed miracles could be taken at face value. He went on to a modest acting career in the years that followed, but the documentary remains his defining legacy: a rare instance of a con artist providing, in his own words and on his own initiative, the definitive record of exactly how his con had worked.`,
+    sourceUrl: 'https://en.wikipedia.org/wiki/Marjoe_Gortner',
+  },
 ];
 
 // Practical "how it works / red flags / what to do" guides covering the
@@ -28085,6 +28113,42 @@ const SEED_SCAMS: SeedScam[] = [
     alertLevel: 'high',
     sources: ['Health Canada'],
     sourceUrl: 'https://recalls-rappels.canada.ca/en/alert-recall/thinking-about-buying-glp-1-drugs-ozempic-or-mounjaro-beware-fake-or-unauthorized',
+  },
+  {
+    name: 'Fake "Jewish Holocaust Claims Center" Restitution Scam',
+    slug: 'ny-jewish-holocaust-claims-center-restitution-scam',
+    description:
+      'Unsolicited mail and other correspondence from an entity calling itself the "Jewish Holocaust Claims Center," or JHCC, urges Holocaust survivors and their families to contact it to submit a claim for compensation or restitution of assets — using the pretext of processing a legitimate claim to collect personal and financial information. New York\'s Department of Financial Services said in an August 2026 consumer notice that it could not verify JHCC\'s identity, services, or legitimacy, referred the matter to law enforcement, and had the entity\'s fraudulent website taken down by its hosting provider. DFS points to the real Holocaust Claims Processing Office it created in 1997 — a free service, unlike the impostor\'s outreach, that has recovered more than $184 million in bank accounts, insurance proceeds, and looted cultural property for survivors and heirs — as the only verified channel for checking actual eligibility for compensation. The department urges survivors and their families to exercise caution with any unsolicited outreach about compensation or restitution and to independently verify it before providing personal or financial information, including by calling the genuine Holocaust Claims Processing Office directly at (800) 695-3318 rather than any number or address in the letter itself.',
+    categorySlug: 'phishing',
+    country: 'US',
+    state: 'NY',
+    alertLevel: 'high',
+    sources: ['New York State Department of Financial Services', "Governor Kathy Hochul's Office"],
+    sourceUrl: 'https://www.dfs.ny.gov/consumers/alerts/holocaust-survivors-beware-unsolicited-correspondence',
+  },
+  {
+    name: 'California Real Estate Agent Identity Impersonation Scam',
+    slug: 'california-dre-real-estate-agent-impersonation-scam',
+    description:
+      'Scammers lift a real, licensed California real estate salesperson\'s or broker\'s name, headshot, license number, and other identifying details, then build a fake website, email address, and social media presence — including TikTok accounts and Craigslist listings — to pose as that actual agent and solicit home buyers, renters, or property-management clients. Victims believe they are dealing with a legitimate, vetted licensee and can be steered into paying advance fees, cash, or wire transfers for a transaction that never closes. The California Department of Real Estate, which oversees roughly 434,000 licensees statewide, warned in an April 2026 consumer alert that a request for money before services are performed, a demand for cash, or pressure to wire funds are all red flags, and advises consumers to independently look up an agent\'s license on DRE\'s public license-search database, find that agent\'s phone number themselves rather than use the one in the listing or ad, and call to confirm the person actually represents the property before sending any money or personal information. Licensees whose identities are stolen this way are advised to send cease-and-desist letters to the impersonating accounts, monitor their own credit, and periodically search their own name online.',
+    categorySlug: 'identity-theft',
+    country: 'US',
+    state: 'CA',
+    alertLevel: 'medium',
+    sources: ['California Department of Real Estate (DRE)'],
+    sourceUrl: 'https://dre.ca.gov/Consumers/ConsumerAlerts/ConsumerAlert_2026_04_27_Scammers_Using_Names_Info_Impersonating_Agents.html',
+  },
+  {
+    name: 'Fake "Attorney General Paxton" Social Security Suspension Email Scam',
+    slug: 'texas-fake-attorney-general-paxton-signature-email-scam',
+    description:
+      'Fraudulent emails and letters carry a forged copy of Texas Attorney General Ken Paxton\'s name, signature, and the Office of the Attorney General\'s official seal to look like genuine state correspondence, then — posing as the "Social Security Board" — falsely claim the recipient\'s Social Security number is being suspended over alleged crimes such as drug trafficking, money laundering, theft, or tax evasion. The message directs the recipient to call a toll-free number, where callers attempt to extract Social Security numbers, bank details, or other personal information under the pretense of resolving the fabricated suspension. The Texas Office of the Attorney General says this exact phishing campaign misusing Paxton\'s signature and seal has recurred in waves dating back to 2019 and 2022, with the OAG reissuing its warning as recently as December 2023, and states plainly that anyone who receives such a letter or email should not call the number provided or give out any information — the real OAG does not send communications like this, and neither does the Social Security Administration threaten suspension by email. Suspected fraud can be reported to the OAG\'s Consumer Protection Division by calling 1-800-621-0508 or filing an online complaint through the agency\'s website.',
+    categorySlug: 'government-impersonation',
+    country: 'US',
+    state: 'TX',
+    alertLevel: 'high',
+    sources: ['Texas Office of the Attorney General'],
+    sourceUrl: 'https://www.texasattorneygeneral.gov/news/releases/consumer-alert-beware-fraudulent-emails-attempting-steal-personal-information-using-attorney-general',
   },
 ];
 
