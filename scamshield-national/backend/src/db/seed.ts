@@ -29693,6 +29693,42 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ["Ohio Attorney General's Office"],
     sourceUrl: 'https://www.ohioattorneygeneral.gov/Media/News-Releases/May-2026/Yost-Sues-Online-Seller-of-Model-Trains-for-Failur',
   },
+  {
+    name: 'Mark Diamond Reverse-Mortgage and Home-Repair Fraud Scheme',
+    slug: 'illinois-mark-diamond-reverse-mortgage-home-repair-fraud',
+    description:
+      'Mark Steven Diamond, operating through his Chicago company OSI Financial Services Inc., targeted more than 120 elderly homeowners on Chicago\'s West Side — the oldest was 98 — with a scheme that used the promise of home repairs as a cover for fraudulent reverse-mortgage loans. In some cases Diamond told homeowners the paperwork they were signing was simply to authorize repair work, when it was actually a reverse-mortgage application; in others he falsely claimed to represent "the city" offering government-funded repairs at no cost. Once a loan closed, Diamond and his co-schemers pocketed the proceeds and frequently performed little or no work at all, stripping victims of roughly $10 million in home equity. Illinois regulators had already suspended Diamond\'s loan-originator registration in 2010 — and he and OSI had been under a 2003 consent decree barring them from closing loans in the first place — yet he kept operating for years afterward. He pleaded guilty in the U.S. District Court for the Northern District of Illinois to wire fraud affecting a financial institution, and on January 16, 2025, Judge Franklin U. Valderrama sentenced him to 205 months (more than 17 years) in federal prison and ordered $2.7 million in restitution. Illinois homeowners approached about a reverse mortgage in connection with "free" or discounted home repairs should independently verify with a HUD-approved housing counselor that any document they\'re signing is actually a repair contract and not a loan application before signing anything.',
+    categorySlug: 'mortgage-foreclosure-scams',
+    country: 'US',
+    state: 'IL',
+    isHistorical: true,
+    sources: ["U.S. Attorney's Office for the Northern District of Illinois", 'Chicago Sun-Times'],
+    sourceUrl: 'https://www.justice.gov/usao-ndil/pr/chicago-businessman-sentenced-more-17-years-prison-bilking-elderly-homeowners-reverse',
+  },
+  {
+    name: 'GoGo Travel Consulting Fake-Broker Timeshare Exit Scam',
+    slug: 'indiana-gogo-travel-consulting-timeshare-exit-scam',
+    description:
+      'GoGo Travel Consulting LLC, nominally based in Jasper, Indiana, cold-called timeshare owners nationwide with high-pressure claims that a ready buyer was waiting and that the owner just needed to pay upfront "taxes" or "closing costs" to complete the sale — money that, once sent, produced no sale and no refund. To make the pitch credible, the company used the name and license number of an actual Indiana-licensed real estate broker without his knowledge or consent, and calls made through a number that appeared to originate in southern Indiana actually traced back to two Mexican nationals operating out of Puerto Vallarta. Indiana Attorney General Todd Rokita\'s office sued under the state\'s Home Solicitation Sales Act and Deceptive Consumer Sales Act, and on November 4, 2025 announced it had won a default judgment judicially dissolving the company, on top of two website-takedown notices to shut down its online presence. Timeshare owners contacted out of the blue about a supposed buyer should independently verify any broker\'s license through the Indiana Professional Licensing Agency before paying anything, and should treat a demand for upfront "taxes" or "closing costs" on a timeshare sale as a red flag on its own — legitimate closing costs come out of sale proceeds, they are never paid upfront by the seller.',
+    categorySlug: 'timeshare-scams',
+    country: 'US',
+    state: 'IN',
+    isHistorical: true,
+    sources: ["Indiana Attorney General's Office"],
+    sourceUrl: 'https://events.in.gov/event/attorney-general-todd-rokita-wins-judgment-against-travel-company-involved-in-fraudulent-timeshare-transactions-gogo-travel-consulting-llc-is-judicially-dissolved',
+  },
+  {
+    name: 'Patriot Roofing & Framing Deposit-and-Disappear Contractor Fraud',
+    slug: 'west-virginia-patriot-roofing-framing-contractor-fraud',
+    description:
+      'John Cook, doing business in Winfield as Patriot Roofing & Framing LLC in Putnam County, collected deposits and progress payments from homeowners for roofing and other home-improvement projects, then, according to multiple consumer complaints, either never started the work, left it unfinished, or refused to issue a refund once paid. Cook held a valid West Virginia contractor\'s license from February 2019 that was placed on inactive status in September 2024 and only reactivated that December, a gap regulators say did not stop him from continuing to take on and bill for new projects. West Virginia Attorney General JB McCuskey filed suit against Cook in Kanawha County Circuit Court on March 26, 2026, alleging violations of the state\'s Consumer Credit and Protection Act, and is asking the court to permanently bar him from providing home-improvement or contracting services in the state, along with restitution for victims, civil penalties, and attorney\'s fees. "Home improvements are an expensive investment – people sometimes save up for years for this type of work," McCuskey said. "Then, to have a contractor not finish the job or not show up at all can be devastating and is wrong." Before paying a deposit to any home-improvement contractor, West Virginians can check a license\'s current status and any past complaints through the Attorney General\'s Consumer Protection Division at 800-368-8808, and should avoid paying the full contract price before work is complete.',
+    categorySlug: 'mortgage-foreclosure-scams',
+    country: 'US',
+    state: 'WV',
+    alertLevel: 'medium',
+    sources: ["West Virginia Attorney General's Office", 'Roofing Contractor magazine'],
+    sourceUrl: 'https://ago.wv.gov/article/attorney-general-mccuskey-files-complaints-against-putnam-county-roofing-contractor',
+  },
 ];
 
 async function seedCategoriesAndScams() {
