@@ -7435,10 +7435,9 @@ If you're contacted about a lost pet, call back on an independently verified num
     title: 'Accidental Payment Scams: Why That "Oops, Wrong Person" Zelle or Venmo Refund Request Is Fake',
     slug: 'accidental-payment-refund-scam-guide',
     author: 'ScamShield Editorial',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Banca%20m%C3%B3vil.jpg?width=1200',
-    coverImageCredit: 'Photo: Torsten Dettlaff (CC BY-SA 4.0)',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Zelle_-_Send_%26_Receive_Money_(51093038972).jpg?width=1200',
+    coverImageCredit: 'Photo: Tech Daily (CC BY 2.0)',
     coverImagePosition: 50,
-    // representative photo — replace with an exact match if found
     tags: ['guide', 'accidental-payment-scam'],
     sourceUrl: 'https://www.staysafeonline.org/articles/protect-your-wallet-from-accidental-deposit-scams',
     body: `A stranger's payment lands in your Venmo, Zelle, or Cash App account — often several hundred to a few thousand dollars — with no explanation. Within minutes or hours, a text or in-app message follows: apologetic and urgent, claiming the money was sent by mistake (a typo in the username, a payment meant for someone else) and asking you to send it right back. Because the deposit already shows up as available in your balance, returning it feels like simple courtesy rather than a decision that deserves scrutiny.
@@ -11591,6 +11590,10 @@ Never share a Medicare number with a door-to-door solicitor, a caller, or anyone
     slug: 'bill-pay-impersonator-search-ad-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'bill-pay-impersonator-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/A_woman_sits_comfortably_at_her_laptop,_holding_her_credit_card_up_for_an_online_transaction.jpg?width=1200',
+    coverImageCredit: 'Photo: Nenad Stojković (CC BY 2.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2026/08/searching-online-bill-pay-impersonators',
     body: `Someone needs to pay a medical bill, a phone bill, or a highway toll, so they type the company's name into a search engine and click the first result that comes up. It looks official — the ad even names the real biller — but the site behind it belongs to a completely different company, one that has no relationship with the biller at all beyond having paid to appear above the real result.
 
@@ -11607,6 +11610,10 @@ The FTC's fix is simple: skip the sponsored results entirely when searching for 
     slug: 'fake-ic3-fbi-deepfake-recovery-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'ic3-fbi-impersonation-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/J._Edgar_Hoover_FBI_Building,_Washington_DC_(5946589446).jpg?width=1200',
+    coverImageCredit: 'Photo: Rob Young (CC BY 2.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.ic3.gov/PSA/2026/PSA260720',
     body: `Someone who already reported a fraud loss to the FBI's Internet Crime Complaint Center — or simply searched online for help after being scammed — gets contacted again, this time by someone claiming to be a federal agent working their case. The follow-up contact might come as a message on Facebook or Telegram, an email, or a link to a website that looks exactly like IC3.gov. Sometimes it goes further: a video call where a "senior FBI official" appears on screen, addressing the victim by name and describing details of their original complaint.
 
@@ -11615,6 +11622,36 @@ The FBI issued a public service announcement in July 2026 warning that criminals
 The endpoint of the scheme is a cloned website built to look like the real IC3.gov, asking only for a name, phone number, email, and the dollar amount of a prior loss — a request that looks harmless precisely because it's so much less invasive than banking details, which makes people less suspicious even as it hands scammers exactly the information needed to build a convincing follow-up pitch or resell the victim as a proven target to another criminal. Older adults, and people who have already filed a real IC3 complaint or lost money to any prior scam, are described as facing particular risk, since a first loss already establishes both a paper trail scammers can reference and a psychological vulnerability the second scam is built to exploit.
 
 The FBI's own IC3 will never directly reach out over the phone, by email, through social media, or in a public forum to offer fund recovery, and it never charges a fee to accept or process a complaint. The only reliable way to reach the real site is to type www.ic3.gov directly into a browser rather than clicking a link or a sponsored search result, and to confirm any government site actually ends in ".gov" before entering any information. Anyone contacted by someone claiming to be an FBI agent or IC3 representative about a prior loss should hang up or close the message, independently verify through ic3.gov, and report the impersonation attempt at the real site or to the Department of Justice's Elder Justice Hotline at 1-833-FRAUD-11 (1-833-372-8311).`,
+  },
+  {
+    title: 'Party Invitation Phishing: Why That Evite Asking for Your Email Password Isn\'t Real',
+    slug: 'party-invitation-phishing-scam-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'party-invitation-phishing-scam'],
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2026/05/asked-enter-your-email-address-and-password-open-party-invite-thats-scam',
+    body: `A text or email arrives that looks like an invitation to a birthday party, baby shower, or holiday gathering, sometimes naming a host the recipient actually knows. Clicking through to view the details doesn't show a date and address, though — it shows a login screen, asking for an email address and password to "unlock" the invite, or a phone number and a special pass code to RSVP.
+
+The FTC's May 2026 consumer alert describes scammers impersonating well-known invitation platforms like Evite and Paperless Post to harvest exactly that information. As the FTC puts it plainly: "That's not how real invitations work. This is just a scammer trying to steal (or reset) your account information." No legitimate invitation service requires a guest to enter their personal email password to view a party's details — invitations are meant to be opened with a simple link, not a login.
+
+What makes this scheme spread quickly is what happens after someone falls for it: with a real email password in hand, scammers can take over that account outright, then use the compromised inbox and contact list to blast the same fake invitation to everyone the victim knows — turning each new victim into the unwitting "host" the next message appears to come from. Because the follow-on messages arrive from a real, familiar email address rather than an obvious stranger, recipients are far less likely to question them, letting the scam cascade through friend groups, coworkers, and family in a way a cold outreach never could.
+
+The tell is the request itself: any invitation — digital or otherwise — that asks for an email password or account credentials to be viewed is not a real invitation. A phone number and RSVP code requested to "confirm attendance" deserves the same suspicion, especially from an unexpected message. Before clicking anything, it's worth confirming with the supposed host directly, through a call or a separate text, that they actually sent an invite.
+
+Never enter an email password on a page reached through a text or emailed link, and turn on two-factor authentication for email and other important accounts so a stolen password alone isn't enough to take them over. Anyone who already entered credentials on a fake invitation page should change that password immediately, check for unfamiliar account activity, and warn contacts not to trust anything sent from the compromised address in the meantime. Report phishing emails to reportphishing@apwg.org, forward phishing texts to 7726 (SPAM), and file a report at ReportFraud.ftc.gov.`,
+  },
+  {
+    title: 'Fake Zoning and Permit Fee Emails: How Scammers Target People Who Are Actually Mid-Renovation',
+    slug: 'zoning-permit-fee-phishing-scam-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'permit-phishing-scam'],
+    sourceUrl: 'https://www.ic3.gov/PSA/2026/PSA260309',
+    body: `Someone pulls a real permit for a home addition, a fence, or a commercial build-out, and partway through the process gets an email that looks like it's from the city or county planning and zoning office. It cites the actual permit number, the correct zoning application number, and the real property address, then attaches an invoice for an outstanding fee — payable by wire transfer, a peer-to-peer payment app, or cryptocurrency, with a warning that the project will face delays if payment isn't sent right away.
+
+The FBI's Internet Crime Complaint Center warned in March 2026 that criminals are impersonating city and county planning and zoning officials specifically to exploit this moment, targeting "individuals and businesses with active applications for land-use permits" using publicly available permitting records to make the outreach look unmistakably legitimate. Because permit applications, project addresses, and zoning case numbers are often public record, a scammer doesn't need to breach anything to source them — a routine records search of a municipality's own public permit portal supplies everything needed to make a fake invoice look like it belongs to that specific project.
+
+The emails are built to survive a skeptical glance: professional formatting, government-style seals and letterhead, and language that mirrors how a real planning department writes, arriving at a moment that lines up with an actual, ongoing permit review so the request doesn't feel out of place. The giveaway is almost never in the content — it's in the sender's domain, which routes through a generic commercial email address like "@usa.com" or a similar look-alike rather than the municipality's real ".gov" domain, and in the instruction to reply by email or click a link to pay rather than to call a published office number.
+
+Before paying any fee tied to a permit or zoning application, check the sender's full email domain against the municipality's actual website rather than trusting the display name, and call the planning or zoning department directly using a phone number pulled from that official site — never one listed in the email or invoice itself. Many local governments post active scam warnings on their permitting pages once a pattern like this starts targeting their jurisdiction, so a quick search of the department's own site before paying is worth the extra minute. Anyone who receives a suspicious permit or zoning fee email should report it to the FBI's Internet Crime Complaint Center at IC3.gov with the email address, project details, invoice amount, and payment method requested, and should notify the actual planning or zoning office so it can warn other applicants.`,
   },
 ];
 
@@ -26350,6 +26387,42 @@ const SEED_SCAMS: SeedScam[] = [
     alertLevel: 'high',
     sources: ['Australian Competition and Consumer Commission (ACCC)', 'NDIS Quality and Safeguards Commission'],
     sourceUrl: 'https://www.accc.gov.au/media-release/australians-living-with-disability-at-risk-of-exploitation-by-ndis-providers-breaching-consumer-laws',
+  },
+  {
+    name: 'Wyoming "Rose Brothers" Spoofed Dealership Website Scam',
+    slug: 'wyoming-rose-brothers-spoofed-dealership-scam',
+    description:
+      'Scammers cloned the website of Rose Brothers, a real Southeast Wyoming equipment and vehicle dealership, copying its design and graphics onto a lookalike domain and posting vehicles and equipment at unrealistically attractive prices to lure buyers into wiring money for merchandise that was never for sale. Rose Brothers confirmed the site was not theirs, and the Wyoming Department of Transportation opened an investigation after an out-of-state buyer avoided losing thousands of dollars only because he insisted on traveling to Wyoming to verify the vehicle and dealership in person before paying. WYDOT and the Wyoming Attorney General\'s Consumer Protection and Antitrust Unit warn buyers to verify any dealership through a phone number or website looked up independently, check the state\'s list of licensed dealers, and treat any deal that seems too good to be true as a red flag rather than a reason to move faster.',
+    categorySlug: 'online-shopping-scams',
+    country: 'US',
+    state: 'WY',
+    alertLevel: 'medium',
+    sources: ['Wyoming Department of Transportation', "Wyoming Attorney General's Office"],
+    sourceUrl: 'https://www.dot.state.wy.us/news/wydot-warns-of-potential-vehicle-scams-via-spoof-dealer-websites',
+  },
+  {
+    name: 'Nebraska "Milton Brothers Implement" Spoofed Farm Equipment Website',
+    slug: 'nebraska-milton-brothers-implement-spoofed-website-scam',
+    description:
+      'Fraudsters built a polished imposter website impersonating Milton Brothers Implement, a longtime Friend, Nebraska equipment dealer that had not sold equipment in years and had no website of its own, using the real business\'s name and highway address alongside a working search tool and more than a dozen heavy machinery listings priced between $23,000 and $160,000. When a prospective buyer grew suspicious and asked for identification, the person behind the site reportedly supplied what investigators believe was a fraudulent driver\'s license listing a Rhode Island address. The Better Business Bureau of the Midwest Plains was alerted in April 2026 and referred the case to the Saline County Sheriff\'s Office and the Nebraska Attorney General\'s Office. Buyers are urged to contact any equipment "dealer" directly through a phone number found independently — not one listed on the site — before wiring money, and to insist on an in-person or independently verified inspection before paying for farm equipment advertised online.',
+    categorySlug: 'online-shopping-scams',
+    country: 'US',
+    state: 'NE',
+    alertLevel: 'medium',
+    sources: ['Better Business Bureau of the Midwest Plains', "Nebraska Attorney General's Office"],
+    sourceUrl: 'https://www.1011now.com/2026/04/27/live-2pm-fake-website-impersonates-nebraska-business-bbb-investigating/',
+  },
+  {
+    name: 'New Mexico Ruidoso Flood Price-Gouging and Contractor Fraud',
+    slug: 'new-mexico-ruidoso-flood-price-gouging-contractor-fraud',
+    description:
+      'In the aftermath of the flash floods that devastated Ruidoso, New Mexico, evacuees and homeowners faced a wave of predatory conduct on top of the disaster itself: lodging businesses in nearby Roswell and Artesia hiked room rates on displaced residents, out-of-town contractors falsely claimed to be "FEMA-approved" — a designation FEMA does not issue to anyone — to win repair jobs before disappearing with deposits, and solicitors collected donations for charities with no real connection to flood relief. New Mexico Attorney General Raúl Torrez sent cease-and-desist letters to six lodging businesses over alleged price gouging and warned that a second wave of predatory activity typically follows once federal and state disaster funds begin reaching survivors, urging residents to verify any contractor, charity, or insurance contact independently and to report suspected price gouging or fraud to the New Mexico Department of Justice.',
+    categorySlug: 'government-impersonation',
+    country: 'US',
+    state: 'NM',
+    alertLevel: 'high',
+    sources: ['New Mexico Department of Justice, Office of the Attorney General', 'Village of Ruidoso'],
+    sourceUrl: 'https://www.ktsm.com/news/local-news/new-mexico-attorney-general-warns-ruidoso-flood-victims-of-potential-scams/',
   },
 ];
 
