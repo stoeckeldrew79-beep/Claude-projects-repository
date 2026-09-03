@@ -25676,6 +25676,42 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Indian Cyber Crime Coordination Centre (I4C)'],
     sourceUrl: 'https://the420.in/gujarat-1930-cyber-helpline-misuse-trader-extortion-frozen-account/',
   },
+  {
+    name: 'Virginia Fake-Lawyer Bar-Number Impersonation Targeting Immigrants',
+    slug: 'virginia-fake-lawyer-bar-number-immigration-scam',
+    description:
+      'Scammers harvest a real, licensed Virginia attorney\'s name and bar number from the Virginia State Bar\'s public online directory, then use that stolen credential to impersonate the attorney and offer fraudulent immigration legal services to vulnerable clients, citing the legitimate bar number to make the pitch far harder to spot than a wholly invented identity would be. In some cases the actual impersonated lawyer only learns their name is being misused when a confused client calls the real law office directly to confirm whether the attorney is handling their case. The Virginia State Bar issued a public alert about the scheme in May 2026, noting it is directly affecting both licensed attorneys and the immigrant families they serve, and that the American Bar Association has flagged the same pattern nationally and briefed the Department of Homeland Security\'s Office of Inspector General and the Executive Office for Immigration Review\'s Fraud and Abuse Prevention Program, both of which are actively investigating. Anyone contacted about immigration legal help should independently look up the attorney through the Virginia State Bar\'s own online attorney search — never through contact information or a bar number the caller themselves provides — since a real bar number recited by the person calling you proves nothing about who is actually on the other end of the line.',
+    categorySlug: 'identity-theft',
+    country: 'US',
+    state: 'VA',
+    alertLevel: 'high',
+    sources: ['Virginia State Bar', 'American Bar Association'],
+    sourceUrl: 'https://vsb.org/Site/Site/news/news-items/20260501-lawyer-scam.aspx',
+  },
+  {
+    name: 'Memphis Caregiver Bank-Card Financial Exploitation of a Vulnerable Adult',
+    slug: 'tennessee-caregiver-bank-card-financial-exploitation',
+    description:
+      'A hired in-home caregiver with legitimate access to a vulnerable adult\'s home and finances uses that position of trust to make unauthorized purchases and withdrawals on the client\'s bank card, exploiting the same access that makes home caregiving possible in the first place rather than any outside trick. In one Shelby County case, 34-year-old caregiver Kelsey Moore was indicted on April 28, 2026, and arrested days later, accused of using a patient\'s bank card for unauthorized personal purchases from October through December 2025; she was charged with financial exploitation of a vulnerable adult and identity theft and held on a $25,000 bond after Adult Protective Services referred the case to the Memphis Police Department and the Tennessee Bureau of Investigation\'s Medicaid Fraud Control Division. It follows a similar pattern to a Davidson County case months earlier, in which a 26-year-old Nashville caregiver was arrested after allegedly using a client\'s bank card and personal information for fraudulent transactions over a two-day span in May 2025 — both referred to TBI through the same Adult Protective Services pipeline. Families who hire in-home caregivers, whether independently or through an agency, are advised to set up bank alerts for every card transaction, review statements at least weekly rather than trusting an occasional glance, and report a caregiver\'s unexplained purchases to Adult Protective Services promptly rather than assuming an isolated charge was a mistake.',
+    categorySlug: 'identity-theft',
+    country: 'US',
+    state: 'TN',
+    isHistorical: true,
+    sources: ['Tennessee Bureau of Investigation', 'Action News 5 (WMC-TV)'],
+    sourceUrl: 'https://www.actionnews5.com/2026/05/04/indictment-accuses-ex-caregiver-using-patients-bank-card-make-personal-purchases/',
+  },
+  {
+    name: 'Indiana Chronic Care Management Medicare Billing Fraud',
+    slug: 'indiana-chronic-care-management-medicare-billing-fraud',
+    description:
+      'Dishonest providers, and outright scammers who have obtained a beneficiary\'s Medicare number through a data breach, bill Medicare for Chronic Care Management (CCM) — a legitimate benefit that pays for a doctor\'s ongoing phone-based care coordination for patients with two or more chronic conditions — even though the beneficiary\'s doctor never ordered it and the beneficiary never agreed to receive it. Nancy Moore, director of the Indiana Senior Medicare Patrol, told WRTV Investigates during Medicare Fraud Prevention Week in June 2026 that CCM "is a legitimate coverage, if your doctor has ordered it, and the beneficiary has to agree to it" — meaning any CCM charge that shows up without either of those steps having happened is fraudulent, and the Indiana SMP had already fielded two separate reports of it. Because CCM normally carries a coinsurance charge, a fraudulent claim can cost the beneficiary money directly (up to 20% of the billed amount for anyone without supplemental coverage) on top of draining the Medicare trust fund, which the Department of Health and Human Services estimates loses roughly $60 billion a year system-wide to fraud, errors, and abuse combined. Medicare beneficiaries are advised to check their quarterly Medicare Summary Notice or online Explanation of Benefits for any Chronic Care Management charge from a provider they don\'t recognize or didn\'t agree to, and to report it to the Senior Medicare Patrol at 1-800-986-3505, Medicare directly at 1-800-MEDICARE, or the HHS Office of Inspector General at 1-800-HHS-TIPS.',
+    categorySlug: 'healthcare-fraud',
+    country: 'US',
+    state: 'IN',
+    alertLevel: 'medium',
+    sources: ['Indiana Senior Medicare Patrol', 'WRTV Investigates'],
+    sourceUrl: 'https://www.wrtv.com/news/wrtv-investigates/check-your-medicare-statements-for-new-twist-on-fraudulent-billing-scam',
+  },
 ];
 
 async function seedCategoriesAndScams() {
