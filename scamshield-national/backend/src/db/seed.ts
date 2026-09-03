@@ -25970,6 +25970,42 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['SVT Nyheter', 'Polismyndigheten (Swedish Police Authority)'],
     sourceUrl: 'https://www.svt.se/nyheter/inrikes/nya-bluffen-bedragare-anvander-lackta-uppgifter-fran-resesajter',
   },
+  {
+    name: 'Hawaii Attorney General Impersonation Gift Card Scam',
+    slug: 'hawaii-attorney-general-impersonation-gift-card-scam',
+    description:
+      'A Hawaii resident received text messages from someone falsely claiming to be Attorney General Anne Lopez, instructing them to purchase gift cards and then photograph the cards along with their redemption codes and send the images back by text — the victim was ultimately able to work with their financial institution to recover the money. The Hawaii Department of the Attorney General issued a public warning on August 3, 2026 after learning of the incident, with Lopez stating that "criminals who impersonate public officials to steal money exploit the public\'s trust in those officials, making this an especially deceptive and egregious form of fraud." The department stressed that no state official — the Attorney General included — will ever ask anyone to purchase gift cards, provide gift card numbers or redemption codes, or send money through text messages, email, or other unofficial channels, and that anyone impersonating a public official is itself subject to criminal charges. Anyone who receives a similar message is advised not to respond, to verify the claim by contacting the Department of the Attorney General directly through a number looked up independently, and to report the attempt to local police.',
+    categorySlug: 'government-impersonation',
+    country: 'US',
+    state: 'HI',
+    alertLevel: 'high',
+    sources: ['Hawaii Department of the Attorney General', 'KHON2'],
+    sourceUrl: 'https://governor.hawaii.gov/newsroom/2026-49-department-of-the-attorney-general-warns-public-of-gift-card-scam-impersonating-the-attorney-general/',
+  },
+  {
+    name: 'Action Plumbing, Heating, Air & Electric Elder Exploitation Upselling Scheme',
+    slug: 'utah-action-plumbing-elder-exploitation-upselling-scheme',
+    description:
+      'Utah\'s Divisions of Professional Licensing (DOPL) and Consumer Protection (DCP), represented by the Utah Attorney General\'s Office, filed legal proceedings in January 2025 against Connectionz Acquisition, LLC — doing business as Action Plumbing, Heating, Air, and Electric — and twelve of its electricians and plumbers, alleging a commission-only pay structure trained technicians to "upsell" every customer and close 100% of their calls regardless of actual need. The complaint documents a pattern of targeting elderly customers with dementia specifically: in one case a technician charged an elderly woman $22,120 to replace 50 ordinary light switches that cost roughly $1 each, and in another an electrician pressured a woman with dementia into signing checks — that he filled out himself — for more than $50,000 in services she did not recall requesting or authorizing; the same electrician was separately quoted describing another elderly customer with dementia and saying he would "hopefully upsell." State regulators are seeking substantial fines, full consumer restitution, and revocation of the company\'s and its technicians\' professional licenses. The case is a reminder that a long-operating, licensed home-service brand can still be built around exploiting vulnerable homeowners, and that any unusually large, urgent repair bill presented to an aging relative is worth an independent second opinion and a check of the technician\'s license and complaint history with the Utah Division of Professional Licensing before any payment is made.',
+    categorySlug: 'mortgage-foreclosure-scams',
+    country: 'US',
+    state: 'UT',
+    alertLevel: 'high',
+    sources: ['Utah Department of Commerce', 'KSL.com', 'Fox 13 Now'],
+    sourceUrl: 'https://commerce.utah.gov/2025/01/16/utah-department-of-commerce-brings-legal-proceedings-against-action-plumbing-heating-air-and-electric-alleging-gross-misconduct-and-exploitation-of-seniors/',
+  },
+  {
+    name: 'Vital Care EMS Physician Certification Forgery Scheme',
+    slug: 'south-carolina-vital-care-ems-physician-certification-forgery',
+    description:
+      'Misty Dawn Woody, a Greenville County, South Carolina employee of Vital Care EMS, is accused of forging or copying a doctor\'s signature onto roughly 100 Physician Certification Statement (PCS) forms between February 2022 and September 2025 — legally required documents certifying that a patient\'s medical condition necessitates non-emergency ambulance transport before Medicare will pay for it. According to the federal indictment, Woody had obtained a single blank PCS form pre-signed by a doctor for legitimate emergency use, kept it on a clipboard, and filled out copies by hand for non-emergency transports without the doctor\'s knowledge or authorization, then passed the forged forms to other Vital Care EMS staff for submission to Medicare as though the physician had completed them. The scheme generated approximately $1.8 million in fraudulent Medicare billings, of which Medicare actually paid out about $936,000, before Woody was indicted in June 2026 on three federal counts of false statements relating to health care matters — one case among more than a dozen announced as part of a July 2026 Justice Department fraud sweep across seven Southeastern states. The case is a reminder that Medicare billing fraud isn\'t always committed by the provider whose name is on the claim — it can be a staff member with unsupervised access to a doctor\'s signature — and that Medicare beneficiaries who use non-emergency ambulance transport can help catch this kind of fraud by reviewing their own Medicare Summary Notice for any transport they don\'t recognize.',
+    categorySlug: 'healthcare-fraud',
+    country: 'US',
+    state: 'SC',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office, District of South Carolina", 'Fox Carolina', 'WSPA'],
+    sourceUrl: 'https://www.foxcarolina.com/2026/06/10/upstate-woman-accused-falsifying-medical-documents-18m-medicare-billing-case/',
+  },
 ];
 
 async function seedCategoriesAndScams() {
