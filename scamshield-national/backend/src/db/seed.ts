@@ -12851,6 +12851,38 @@ What ties all three together, and what the FTC calls the clearest tell, is the p
 
 If you get a call or message like this, don't send money based on the story alone — hang up or stop responding, and independently verify your pet's whereabouts first: check with whoever last had them, call actual local shelters and emergency vet clinics near you using numbers you find yourself, and only then consider whether the claim holds up. Never provide gift card codes, wire transfer details, or crypto payment over the phone to resolve a pet emergency, donation request, or prize claim you can't independently confirm, and report the scam to the FTC at ReportFraud.ftc.gov.`,
   },
+  {
+    title: 'CFPB Impersonation Scams: Fake Lawsuit Payouts and Sweepstakes Wins Using Real Employee Names',
+    slug: 'cfpb-impersonation-scam-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'cfpb-impersonation-scam'],
+    sourceUrl: 'https://www.consumerfinance.gov/about-us/blog/beware-of-scammers-pretending-to-be-from-the-cfpb/',
+    body: `A phone or video call comes in from someone identifying themselves as an official with the Consumer Financial Protection Bureau, the federal agency that actually does regulate banks, lenders, and debt collectors. The caller says there's good news: the target is eligible for a payout from a class-action lawsuit settlement, or has won a lottery or sweepstakes, sometimes one they don't remember entering. To release the money, the caller explains, a small upfront payment is needed first — described as taxes, a processing fee, or a foreign transfer charge.
+
+The Consumer Financial Protection Bureau has confirmed this is a real and ongoing scheme impersonating the agency itself, warning that fraudsters have used the actual name and likeness of a former senior CFPB official to convince victims a supposed lottery or class-action win was legitimate. Contact comes through nearly every channel available — phone calls, video calls, emails, texts, social media, messaging apps, even physical mail — and the CFPB says the victims it has heard from, who lost thousands of dollars each, are disproportionately older adults. Once a first fee is paid, the story rarely ends there: the agency's own warning notes that scammers "may continue to find 'reasons' for you to pay more fees or taxes," stretching the con across multiple payments rather than a single one.
+
+The scheme works precisely because the CFPB is a real agency most people have heard of but few have ever actually dealt with, so a caller using its name carries built-in authority without inviting the skepticism a less familiar name might. Pairing that with the promise of a windfall — money owed to you, rather than money demanded from you — short-circuits the caution a threat-based scam might trigger instead; nobody feels like a target when they think they're the one about to receive something.
+
+The CFPB is direct about the reality: it "will NEVER contact you and ask you for sensitive information or to pay money," and it never calls to confirm that someone has won a lottery, sweepstakes, or class-action settlement. A genuine class-action payout is distributed by a court-appointed settlement administrator, not announced over a cold call, and never requires the recipient to pay a fee, tax, or transfer charge to receive money that's already been awarded to them.
+
+Anyone contacted this way should hang up or stop responding without sharing any personal or financial information, and can independently verify whether a call actually came from the CFPB by calling its consumer response center directly at (855) 411-2372, Monday through Friday, 8 a.m. to 8 p.m. ET — a number looked up independently, never one provided by the caller. Report the scam to the FTC at ReportFraud.ftc.gov, and if an older relative or friend mentions a call like this, it's worth walking through these facts with them before any money changes hands.`,
+  },
+  {
+    title: 'DEA Agent Impersonation Scams: Fake Drug Trafficking Accusations That Demand Payment Over the Phone',
+    slug: 'dea-agent-impersonation-scam-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'dea-agent-impersonation-scam'],
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2021/03/drug-enforcement-administration-isnt-calling',
+    body: `The call opens with a badge number and a claim designed to produce instant panic: a vehicle rented in your name was stopped with drugs inside, or your Social Security number turned up at a drug-trafficking or money-laundering scene states away. The caller identifies himself as a Drug Enforcement Administration agent, sometimes using the real name of an actual DEA employee, and says an arrest is imminent — unless the matter can be resolved right now, over the phone, through an immediate payment.
+
+The FTC warns that these callers come prepared to sound convincing: caller ID is spoofed to display a legitimate-looking law enforcement number, and the scammer may text a photo that closely resembles a real DEA credential to back up the claim. Some already have a piece of real personal information — part of a Social Security number, a professional license number — obtained from a data breach or a previous scam, which they recite early in the call specifically to make the rest of the story feel independently confirmed rather than invented. Victims are told the money is needed for "safekeeping," to post a fine, or to "prove cooperation" with the investigation, and are instructed to pay by wire transfer, gift card, cash, or cryptocurrency — never by check, never through any channel that could be reversed or traced back once sent.
+
+The FTC notes these calls disproportionately target seniors, immigrants, and medical professionals — immigrants in particular because a false drug-trafficking accusation carries the added threat of deportation on top of arrest, giving the scammer a second layer of fear to work with. Callers keep victims on the line for as long as possible, often instructing them not to hang up or discuss the call with anyone else, framed as protecting the integrity of an active investigation — a story that conveniently prevents the one thing that would expose the scam: stopping to check with a family member or call the real DEA back on a number found independently.
+
+No real DEA agent resolves a case by phone, and no legitimate law-enforcement agency anywhere in the U.S. demands immediate payment by gift card, wire transfer, cryptocurrency, or cash pickup to avoid an arrest that's supposedly already been decided. The DEA does not request Social Security numbers, bank account details, or any other sensitive information over an unsolicited call, and any real notification of an investigation or legal action arrives in person or by official letter, not a cold call demanding money before you can hang up.
+
+If you get a call like this, hang up without confirming any personal information, and don't call back any number the caller provides. Anyone who wants to check whether a call might be genuine can look up the DEA's own published contact information independently and call that number instead. Report the scam to the FBI's Internet Crime Complaint Center at ic3.gov and to the FTC at ReportFraud.ftc.gov, and consider warning older relatives specifically, since they remain the group most frequently targeted by this scheme.`,
+  },
 ];
 
 async function seedArticles(articles: SeedArticle[], label: string) {
@@ -28302,6 +28334,42 @@ const SEED_SCAMS: SeedScam[] = [
     alertLevel: 'medium',
     sources: ['Illinois Secretary of State'],
     sourceUrl: 'https://www.ilsos.gov/content/dam/news/2025/january/250116d1.pdf',
+  },
+  {
+    name: 'Georgia Wildfire Price-Gouging, Contractor, and Charity Fraud',
+    slug: 'georgia-wildfire-price-gouging-contractor-charity-scam',
+    description:
+      'When Governor Brian Kemp declared a State of Emergency across 91 Georgia counties on April 22, 2026 over wildfires burning in the southern part of the state, the declaration automatically activated Georgia\'s price-gouging statute and, with it, a predictable wave of predatory activity on top of the disaster itself. Retailers in the affected counties are barred from selling necessities — the alert specifically names motor fuel, diesel, and other petroleum products — above pre-emergency prices except to reflect a genuine increase in the seller\'s own costs, while out-of-town roofing and repair contractors circle evacuated and fire-damaged areas offering deals that come with red flags: demands for payment entirely upfront or in cash only, no written contract, or an offer to personally cover the homeowner\'s insurance deductible as a "no-cost" incentive. Attorney General Chris Carr\'s office also warned that fraudulent charities exploit the same emergency, standing up realistic-looking websites that copy a legitimate relief organization\'s logo or use a name deceptively close to a well-known one to collect donations that never reach fire victims. Georgians who suspect price gouging, contractor fraud, or a fake charity are urged to contact the Consumer Protection Division at (404) 651-8600 or (800) 869-1123, or the Secretary of State\'s Charities Division at (470) 312-2640 to verify a charity\'s registration before giving.',
+    categorySlug: 'charity-scams',
+    country: 'US',
+    state: 'GA',
+    alertLevel: 'high',
+    sources: ['Office of the Georgia Attorney General', 'Office of Governor Brian P. Kemp'],
+    sourceUrl: 'https://law.georgia.gov/press-releases/2026-04-22/carr-warns-georgians-price-gouging-and-wildfire-scams',
+  },
+  {
+    name: 'Utah State Fair Fake Vendor Solicitation Scam',
+    slug: 'utah-state-fair-vendor-scam',
+    description:
+      'Businesses hoping to sell food, merchandise, or run a concession booth at the Utah State Fair are being targeted by scammers who call or email posing as Fair staff, falsely telling the recipient they\'ve been approved for a last-minute vendor or concession space and pressuring them to send payment to secure it. The fraudulent messages come from look-alike addresses built to be mistaken for the real thing at a glance — one identified example was "info.utahstatefairr@gmail.com," a copy of the Fair\'s actual contact address with an extra "r" slipped into "fairr," sent from a free Gmail account rather than an official one. The Utah State Fair states plainly that it never conducts vendor business or requests payment from a Gmail address, that all legitimate communication comes only from addresses ending in "@utahstatefair.com," and that any prospective vendor contacted this way should not click links, open attachments, or send money, and should instead call the Fair directly to verify before paying anything.',
+    categorySlug: 'business-email-compromise',
+    country: 'US',
+    state: 'UT',
+    alertLevel: 'medium',
+    sources: ['Utah State Fair', 'ABC4 Utah'],
+    sourceUrl: 'https://www.utahstatefair.com/p/thefair/participate/vendors',
+  },
+  {
+    name: 'Pennsylvania Spoofed Sheriff "Failure to Appear" Bail Scam',
+    slug: 'pennsylvania-sheriff-impersonation-bail-scam',
+    description:
+      'Pennsylvania Attorney General Dave Sunday issued a consumer alert on August 7, 2026 over a surge in calls where scammers spoof caller ID to make the call appear to come from a real local county sheriff\'s office, then claim the recipient has an outstanding arrest warrant for missing Federal Grand Jury duty or a court hearing and demand immediate payment of "bail" or "bond" to avoid arrest. Victims are kept on the phone continuously while being directed to withdraw cash and deposit it into a Bitcoin ATM, or to scan a QR code to pay, and are coached to lie to their own bank teller about the purpose of the withdrawal — claiming it\'s for a car purchase or home improvement — and told not to discuss the call with anyone, tactics designed to prevent a bank employee or family member from intervening before the money is gone. "Scammers are becoming increasingly sophisticated and convincing, but their goal remains the same – to pressure you into sending money before you have time to verify the facts," Sunday said, stressing that no legitimate sheriff\'s office, court, or law enforcement agency will ever demand instant payment by phone in gift cards or cryptocurrency. Suspected scam calls can be reported to the Attorney General\'s Bureau of Consumer Protection at 1-800-441-2555 or scams@attorneygeneral.gov.',
+    categorySlug: 'government-impersonation',
+    country: 'US',
+    state: 'PA',
+    alertLevel: 'high',
+    sources: ['Pennsylvania Office of Attorney General'],
+    sourceUrl: 'https://www.attorneygeneral.gov/taking-action/attorney-general-sunday-alerts-pennsylvanians-of-an-uptick-in-government-imposter-scams-posing-as-local-county-sheriff-offices/',
   },
 ];
 
