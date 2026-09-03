@@ -7056,6 +7056,9 @@ Belaney fell ill during his final British tour, returned to his cabin, and died 
 
 Grey Owl is now treated by historians as one of the earliest and most consequential documented cases of what is now called "Pretendian" fraud — a non-Indigenous person building fame, income, and institutional authority on a fabricated Indigenous identity — and the case remains genuinely complicated by the fact that his conservation advocacy was real and influential, helping shape early Canadian wildlife-protection policy even as the man delivering it had invented the identity that gave him his platform. His Ajawaan Lake cabin is preserved as a heritage site today, a monument to both the genuine environmental legacy and the sustained deception that built it.`,
     sourceUrl: 'https://en.wikipedia.org/wiki/Grey_Owl',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Grey_Owl.jpg?width=1200',
+    coverImageCredit: 'Photo: Yousuf Karsh, 1936, Library and Archives Canada (public domain)',
+    coverImagePosition: 50,
   },
   {
     title: 'Alexander of Abonoteichus and the Snake-God Oracle That Fooled the Roman Empire',
@@ -7072,6 +7075,9 @@ Lucian's essay, written some years after Alexander's death, laid out the fraud's
 
 Alexander died around 170 CE, in Lucian's gleeful and possibly exaggerated account from gangrene in his leg, having spent roughly two decades running one of the best-documented religious frauds of antiquity. Modern classicists credit substantial portions of Lucian's hostile narrative precisely because it is independently corroborated by coinage and archaeological finds rather than resting on Lucian's word alone, making the case a rare instance of an ancient confidence scheme that can still be reconstructed today — one historians and skeptics alike cite as a direct ancestor of the psychic hotlines and faith-healing operations that would recur, with the same core mechanics, two thousand years later.`,
     sourceUrl: 'https://en.wikipedia.org/wiki/Alexander_of_Abonoteichus',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Glycon_(51644816839).jpg?width=1200',
+    coverImageCredit: 'Photo: Ángel M. Felicísimo (CC BY 2.0) — 2nd-century AD marble statue of Glycon, the snake-god idol at the center of the fraud, Constanța Museum of National History',
+    coverImagePosition: 50,
   },
 ];
 
@@ -28244,6 +28250,30 @@ const SEED_SCAMS: SeedScam[] = [
     alertLevel: 'high',
     sources: ['Texas Office of the Attorney General'],
     sourceUrl: 'https://www.texasattorneygeneral.gov/news/releases/consumer-alert-beware-fraudulent-emails-attempting-steal-personal-information-using-attorney-general',
+  },
+  {
+    name: 'DC Deepfake Telemarketing Emergency Scam',
+    slug: 'dc-deepfake-telemarketing-emergency-scam',
+    description:
+      'Scammers use AI-generated audio and video to impersonate a family member, friend, business, or government official in an urgent phone or video call, fabricating an emergency — an accident, an arrest, unpaid taxes, or bail — that requires money right away. DC Attorney General Brian Schwalb issued a consumer alert warning that residents, particularly seniors, are increasingly targeted by scammers "using artificial intelligence to steal their money, sensitive information and data," and urged anyone contacted this way to hang up and independently call the person or agency back on a number they already have on file, never one provided during the call, and to avoid granting remote access to a device or discussing the request with anyone but a trusted contact before sending money.',
+    categorySlug: 'ai-deepfake-scams',
+    country: 'US',
+    state: 'DC',
+    alertLevel: 'high',
+    sources: ['Office of the Attorney General for the District of Columbia'],
+    sourceUrl: 'https://oag.dc.gov/release/attorney-general-schwalb-issues-consumer-alert-3',
+  },
+  {
+    name: 'Illinois Wholesale Dealer Odometer Rollback Fraud',
+    slug: 'illinois-wholesale-dealer-odometer-rollback-fraud',
+    description:
+      'Out-of-state businesses licensed in Illinois as wholesale used-vehicle dealers illegally roll back a car\'s odometer and falsify the mileage shown on its title before selling it to an unsuspecting buyer, while also failing to disclose major mechanical problems. Illinois Secretary of State Alexi Giannoulias warned residents after one buyer discovered a vehicle sold to them with a stated 80,000 miles had actually been driven more than 200,000, citing Carfax data ranking Illinois among the states with the most rolled-back-odometer vehicles on the road and NHTSA estimates that odometer fraud costs U.S. consumers over $1 billion a year. Buyers are advised to pull a vehicle history report before purchase, compare the reported mileage against the car\'s title, service records, and wear, and buy only from dealers licensed and verifiable through the Secretary of State\'s office.',
+    categorySlug: 'online-shopping-scams',
+    country: 'US',
+    state: 'IL',
+    alertLevel: 'medium',
+    sources: ['Illinois Secretary of State'],
+    sourceUrl: 'https://www.ilsos.gov/content/dam/news/2025/january/250116d1.pdf',
   },
 ];
 
