@@ -24694,6 +24694,42 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['California Department of Insurance'],
     sourceUrl: 'https://www.insurance.ca.gov/0400-news/0100-press-releases/2025/Department-of-Insurance-warns-drivers-ab.cfm',
   },
+  {
+    name: 'Idaho "Arenal Outdoor Center" Vacation Package Fraud',
+    slug: 'idaho-arenal-outdoor-center-vacation-package-fraud',
+    description:
+      'For nearly two decades, Keith Craig Fletcher sold river trips, fishing excursions, and vacation packages through a rotating cast of Idaho recreation businesses — closing one under a wave of unrefunded-payment complaints, bounced checks, and unpaid payroll taxes, then reopening under a new name to start the pattern again, most recently as Arenal Outdoor Center. State and local agencies fielded more than 30 complaints against Fletcher and his businesses between 2007 and 2018 with little lasting consequence, and a 2021 settlement requiring him to refund over $100,000 to more than 25 customers at a minimum $1,500 a month went largely unpaid. In October 2025 the Idaho Attorney General\'s Office caught him soliciting a customer for a Costa Rica trip while still bound by that settlement, and on November 24, 2025, Attorney General Raúl Labrador secured a judgment under the Idaho Consumer Protection Act permanently banning Fletcher from offering any travel-related goods or services in the state — closing off his ability to simply rebrand and continue. Anyone booking a vacation package or guided trip directly through a small operator, rather than a bonded travel agency, should search the seller\'s name alongside past business names before paying in full, and treat refusal to accept a deposit-only payment plan as a reason to verify further before wiring the balance.',
+    categorySlug: 'online-shopping-scams',
+    country: 'US',
+    state: 'ID',
+    isHistorical: true,
+    sources: ["Idaho Attorney General's Office"],
+    sourceUrl: 'https://www.ag.idaho.gov/newsroom/attorney-general-announces-judgment-against-vacation-scam-company-with-long-history-of-abuse-and-fraud/',
+  },
+  {
+    name: 'Vermont "Unified Parking Partners" Fake Citation Scheme',
+    slug: 'vermont-upp-global-misleading-parking-citation-scheme',
+    description:
+      'UPP Global, LLC, a private parking-management company operating in Vermont as Unified Parking Partners, mailed notices to drivers formatted and worded to look like an official government-issued "citation" or "fine" for a private lot violation, then threatened consequences the company had no legal authority to impose — damage to the recipient\'s credit rating, problems renewing a vehicle registration or driver\'s license, and blacklisting from future rental-car reservations. None of those threats reflected any real governmental power UPP held; the language was designed to make a disputed private parking fee feel like it carried the force of law. Vermont Attorney General Charity Clark announced a settlement on June 5, 2025 requiring UPP to pay $150,000 to the state, strip the words "citation" and "fine" from its notices, and remove any language implying municipal or governmental issuance. "Words matter and misrepresentations carry consequences," Clark said in announcing the deal. A notice left on a windshield or mailed afterward that uses official-sounding language but comes from a private company — not a police department or municipal parking authority named on the notice itself — should be checked against the issuing company\'s actual legal authority before assuming nonpayment carries the license or credit consequences it claims.',
+    categorySlug: 'government-impersonation',
+    country: 'US',
+    state: 'VT',
+    isHistorical: true,
+    sources: ['Office of the Vermont Attorney General'],
+    sourceUrl: 'https://ago.vermont.gov/blog/2025/06/05/attorney-general-clark-settles-private-parking-operator-misleading-citations',
+  },
+  {
+    name: 'Korey Homes Building Group Maryland Deposit Ponzi Scheme',
+    slug: 'maryland-korey-homes-ponzi-like-deposit-scheme',
+    description:
+      'Harford County home builder Korey Homes Building Group, LLC, run by Korey Wayne Smith and his father Kenneth W. Smith, collected deposits and advance payments from Maryland homebuyers for new-construction contracts but never placed the money in the escrow account state law requires builders to maintain separate from their operating funds. Instead, according to the Maryland Attorney General\'s Consumer Protection Division, the company used new customers\' deposits to cover costs and subcontractor payments on earlier, already-troubled projects — a "Ponzi-like scheme" that left some buyers with homes riddled with defects and others with construction that was never finished at all. A Final Order issued November 17, 2025 requires Korey Homes and the two Smiths to return the money they took improperly, pay more than $300,000 in civil penalties on top of over $115,000 in costs, and post a $500,000 bond before either man can work as a home builder in Maryland again. Homebuyers making a deposit on new construction should confirm in writing, before signing, that the builder holds funds in a dedicated escrow account or bonded trust rather than an operating account, and should be able to verify that confirmation against the Maryland Home Builder Registration Unit\'s own records rather than taking the builder\'s word for it.',
+    categorySlug: 'mortgage-foreclosure-scams',
+    country: 'US',
+    state: 'MD',
+    isHistorical: true,
+    sources: ["Office of the Attorney General of Maryland"],
+    sourceUrl: 'https://oag.maryland.gov/News/Pages/Harford-County-Home-Builder-Ordered-to-Pay-Over-$1,000,000-for-Violations-of-the-Consumer-Protection-Act.aspx',
+  },
 ];
 
 async function seedCategoriesAndScams() {
