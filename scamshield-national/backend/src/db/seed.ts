@@ -7107,6 +7107,34 @@ Devil Bill's effect on his son is well documented and, in its way, direct: John 
 Rockefeller's biographers, most notably Ron Chernow in "Titan," have treated Devil Bill's fraud, bigamy, and reinvention as core to understanding the family's origin story rather than a footnote to it — a reminder that the line between "self-made" and "grew up watching a professional con artist operate" is sometimes thinner than a dynasty's later reputation would suggest.`,
     sourceUrl: 'https://en.wikipedia.org/wiki/William_Rockefeller_Sr.',
   },
+  {
+    title: 'The Marquis de Rays and the Fake Pacific Colony That Killed Hundreds of Settlers',
+    slug: 'marquis-de-rays-port-breton-new-france-colonial-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Charles Marie Bonaventure du Breil, Marquis de Rays, was a minor French nobleman who, in 1877, declared himself "Charles I, King of New France" — sovereign over a Pacific empire that existed only in his own advertisements. He claimed a vast, unclaimed stretch of territory running from eastern New Guinea to the Solomon Islands and began promoting a settlement he called the "Colonie Libre de Port-Breton," or Free Colony of Port-Breton, on the island of New Ireland. Through newspaper notices, recruitment posters, public meetings, and his own promotional journal, Nouvelle France, he described fertile soil, a ready-built town with roads, a hospital, schools, and a cathedral, and the promise of instant prosperity for anyone willing to pay their way to a new life. It was, in substance, a real estate and emigration fraud sold to people who had never seen the place being sold to them and never could have — because the "colony" he was selling did not exist.
+
+Between 1880 and 1882, de Rays sent four expeditions of paying colonists — mostly Italian families from the Veneto region, alongside French and German settlers who together paid or worked off roughly 1,800 francs apiece — to Port-Breton. What they found instead of a functioning town was an unimproved, malaria-ridden coastline with no infrastructure, no food stores, and no plan for their survival. Disease and starvation killed settlers by the dozens; on the best-documented of the four voyages alone, more than a hundred colonists died before the survivors could be evacuated by Australian authorities. Survivors who reached Sydney and Nouméa were left destitute in a foreign country, and one group of Italian survivors eventually founded a permanent settlement, New Italy, near Woodburn, New South Wales, rather than attempt the voyage home. Across all four expeditions, de Rays is estimated to have collected more than seven million francs from investors and colonists for a colony that consisted, in reality, of nothing.
+
+De Rays never sailed to Port-Breton himself; he ran the scheme from France, continuing to solicit new colonists even as reports of disaster and death filtered back from the survivors of earlier voyages. He was eventually arrested for fraud in Spain in July 1882 and extradited to France, where he was tried and convicted of criminal negligence and sentenced to six years in prison. He died in 1893 in an asylum near Rosporden, in Brittany, having never compensated the families his advertisements had lured across the world.
+
+The Port-Breton disaster remains a stark early case study in emigration fraud: a title, a flag, and a well-produced pitch were enough to move hundreds of ordinary people and their savings onto ships bound for a country that only existed on paper, with a body count to show for it once they arrived.`,
+    sourceUrl: 'https://en.wikipedia.org/wiki/Marquis_de_Rays',
+  },
+  {
+    title: 'Sylvia Browne: The Psychic Who Told Grieving Families Their Missing Children Were Dead',
+    slug: 'sylvia-browne-psychic-fraud-missing-persons-predictions',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Sylvia Browne built a decades-long media career as a self-described psychic, appearing regularly on The Montel Williams Show and Larry King Live, authoring roughly 40 books, and running a business that by 2010 was reportedly bringing in millions of dollars a year — much of it from people desperate for information about missing loved ones. Long before that career took off, however, Browne already had a documented history of financial fraud. In 1992, she and her then-husband Kenzil Brown were indicted in Santa Clara County, California, for selling unregistered securities in a gold-mining venture: prosecutors found they had told an investor a $20,000 payment would cover the operation's costs, then diverted much of the money to their own psychic-research foundation instead, later declaring bankruptcy without telling him. Browne pleaded no contest to a felony charge of selling a security without a permit and was sentenced to probation and 200 hours of community service.
+
+That conviction did little to slow her television career, and it was on-air where Browne caused the most documented harm. On The Montel Williams Show in 2004, she told Louwana Miller, the mother of missing Ohio teenager Amanda Berry, "She's not alive, honey. Your daughter's not the kind who wouldn't call," describing a vision of Berry's jacket found in trash near a lake. Miller died in 2005 still believing her daughter was dead; Berry was found alive in 2013, nearly a decade into captivity in a house three miles from her own home. In another televised prediction, Browne told the family of kidnapped 11-year-old Shawn Hornbeck that he had been abducted by a dark-skinned man with dreadlocks and was dead; Hornbeck was found alive in 2007, and his actual kidnapper was a light-skinned man with short hair.
+
+These were not isolated misses. A 2010 study published in Skeptical Inquirer reviewed 115 of Browne's on-air predictions in missing-persons and murder cases and found that of the 25 cases with a confirmed resolution, she was wrong in all 25 — a record starkly at odds with her own claim of roughly 85 percent accuracy. Investigator James Randi's foundation offered Browne one million dollars to demonstrate her abilities under controlled conditions; she agreed to the challenge on Larry King Live in 2001 but never followed through, and later disputed Randi's account of why, despite documentation he provided.
+
+Browne died in 2013 — having once predicted, on television, that she would live to 88 — leaving behind a fraud conviction, a well-documented pattern of false predictions delivered directly to grieving families, and a body of skeptical research treating her case as a textbook example of cold reading and confident guesswork sold as certainty to people with nowhere else to turn.`,
+    sourceUrl: 'https://en.wikipedia.org/wiki/Sylvia_Browne',
+  },
 ];
 
 // Practical "how it works / red flags / what to do" guides covering the
