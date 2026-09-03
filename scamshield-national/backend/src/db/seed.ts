@@ -14724,6 +14724,10 @@ Never pay for unsolicited recognition, and never send a personal check to an org
     slug: 'find-my-iphone-unlock-phishing-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'find-my-iphone-phishing-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/IPhone_Home_Screen_(23724266304).jpg?width=1200',
+    coverImageCredit: 'freestocks.org, CC0, via Wikimedia Commons',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.securityweek.com/law-enforcement-dismantles-phishing-platform-used-for-unlocking-stolen-phones/',
     body: `Weeks or even months after a phone goes missing, the owner gets a text, an iMessage, or a call: their lost iPhone has been found, often "abroad," and they just need to confirm their Apple ID to get it back or see its last known location. The message is oddly convincing — it names the exact model, color, and storage size, details that feel like proof someone genuinely has the device. In reality, none of that had to come from a good Samaritan at all. It came from an industrialized phishing service built specifically to trick theft victims into unlocking their own stolen phones, and by the time Europol-coordinated investigators shut down the largest one, it had targeted more than 1.2 million devices and claimed roughly 483,000 victims across Latin America and Spain.
 
@@ -14744,6 +14748,10 @@ The moment a phone is lost or stolen, use another device or a browser to mark it
     slug: 'counterfeit-coupon-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'counterfeit-coupon-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Store_coupons_are_coupon-based_discounts_offered_for_a_particular_item_or_group_of_items.jpg?width=1200',
+    coverImageCredit: 'Saralekker, CC BY-SA 4.0, via Wikimedia Commons',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.justice.gov/usao-edva/pr/seven-people-sentenced-prison-their-roles-31m-coupon-fraud-scheme',
     body: `Operating from her Virginia Beach home under the online alias "MasterChef," Lori Ann Talens spent years designing, printing, and selling counterfeit manufacturer coupons with wildly inflated face values to networks of coupon enthusiasts she found through social media groups and coupon-trading apps. From at least April 2017 through May 2020, buyers paid Talens roughly one dollar for every fifty dollars of fake coupon value she supplied — coupons that looked and scanned like the real thing at checkout. Her husband, Pacifico Talens Jr., helped print, package, and ship them. When federal agents searched their home, they seized roughly $1 million worth of counterfeit coupons, and a Secret Service financial analysis found the scheme had caused more than $31.8 million in losses to retailers and manufacturers who honored the fakes. Both Talenses pleaded guilty to mail fraud in 2021 and were sentenced to 12 years and 7 years 3 months in prison. Prosecutors didn't stop at the people who made the coupons — five of their bulk-buying customers were charged too, with the last of them, Sherise Williams of Palmetto, Florida, sentenced in June 2026 to three years and five months after buying counterfeit coupons from Talens on 274 separate occasions for $19,821.34, causing an estimated $991,067 in losses on her purchases alone.
 
@@ -14764,6 +14772,10 @@ Get coupons directly from a manufacturer's official website or app, a retailer's
     slug: 'remittance-money-transfer-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'remittance-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Money_transfer_to_nigeria_(2739542266).jpg?width=1200',
+    coverImageCredit: 'secretlondon123, CC BY-SA 2.0, via Wikimedia Commons',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://dfpi.ca.gov/news/insights/dont-let-fear-lead-to-fraud-how-immigrants-can-keep-their-money-safe/',
     body: `Sending money to family in another country is often routine and urgent at the same time — rent, a medical bill, a child's school fees — which is exactly the pressure scammers count on when they offer to move that money faster, cheaper, or with "no fee" compared to a bank or a well-known transfer brand. The sender hands over cash at a storefront, through a contact found on social media, or via an app that isn't a real, licensed money transmitter, and the money either never reaches the family member on the other end, arrives weeks late after a string of excuses, or arrives short because of a hidden exchange-rate markup nobody disclosed up front.
 
@@ -14782,6 +14794,10 @@ Before sending money through any provider you haven't used before, verify its li
     slug: 'empty-box-return-fraud-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'empty-box-return-fraud'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Ships_out_today_(Unsplash).jpg?width=1200',
+    coverImageCredit: 'Bench Accounting, CC0, via Wikimedia Commons',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.justice.gov/usao-ndal/pr/members-noirs-luxury-refunds-telegram-channel-sentenced-prison',
     body: `A buyer requests a return, mails a package back with a legitimate-looking label, and the tracking shows it delivered right on schedule. Only when the seller opens it do they find the box is empty, stuffed with packing material, or loaded with something worthless standing in for the product — while the marketplace has already processed the refund because, as far as its system is concerned, a tracked return arrived on time. The buyer keeps the merchandise, gets their money back, and the seller is out both the item and the sale.
 
@@ -14800,6 +14816,10 @@ Sellers can protect themselves by weighing every outbound package and keeping th
     slug: 'itin-application-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'itin-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/NYC_IRS_office_by_Matthew_Bisanz.JPG?width=1200',
+    coverImageCredit: 'Matthew G. Bisanz, CC BY-SA 3.0, via Wikimedia Commons',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.myfreetaxes.org/resource/avoiding-itin-scams/',
     body: `Every year, people in the U.S. who aren't eligible for a Social Security number but still need to file a tax return — the spouse or dependent of a visa holder, someone without lawful status who owes federal taxes, a foreign national with U.S. investment income — need an Individual Taxpayer Identification Number (ITIN) from the IRS. The entire process is free when done directly: filing Form W-7 by mail, at an IRS Taxpayer Assistance Center, or through a free Volunteer Income Tax Assistance (VITA) site costs nothing. The gap between how confusing that paperwork feels and how simple the real process actually is is exactly what ITIN scammers count on.
 
@@ -14816,6 +14836,10 @@ Before paying anyone for ITIN help, check whether the preparer appears on the IR
     slug: 'h1b-visa-sponsorship-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'h1b-visa-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Sculpture_%22La_Tormenta_%28The_Storm%29%22_interior_atrium_of_U.S._Citizenship_and_Immigration_Services%2C_DHS%2C_Chicago%2C_Illinois_LCCN2010719945.tif?width=1200',
+    coverImageCredit: 'Carol M. Highsmith, Public Domain, via Wikimedia Commons — interior atrium of the USCIS building in Chicago',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.visaverge.com/news/texas-whistleblower-exposes-h-1b-visa-scam-targeting-f-1-students/',
     body: `In January 2026, a Texas investigative report exposed a network of recruiters — many operating out of India — who had spent months targeting international students in the U.S. on F-1 visas with a simple pitch: pay roughly $1,000 upfront, and receive a job "offer letter" that would qualify the student for Optional Practical Training (OPT) work authorization or a future H-1B sponsorship. The letters looked professional and named real-sounding companies, but many represented jobs that never actually existed, involved no real interview or resume review, and in some cases required the student to hand over a cut of their "salary" once "employed." Texas Governor Greg Abbott ordered all state agencies and public universities to freeze new H-1B petitions after the report aired, while U.S. Citizenship and Immigration Services said it had already denied and revoked a growing number of H-1B petitions tied to fraud investigations spanning fiscal years 2023 through 2025, with some cases referred for criminal prosecution.
 
