@@ -26726,6 +26726,39 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Autoriteit Consument & Markt (ACM)'],
     sourceUrl: 'https://www.acm.nl/nl/publicaties/publicatie/14307/Gratis-proefpakketjes-kosten-vaak-honderden-euros',
   },
+  {
+    name: 'Singapore Google Meet Police Impersonation Scam',
+    slug: 'singapore-google-meet-police-impersonation-scam',
+    description:
+      'Victims receive an unsolicited Google Meet video call from someone dressed in a police uniform or using the Singapore Police Force logo as their profile picture, often from an email address containing words like "Singapore" or "Police." The caller alleges a problem with the victim\'s bank card or account tied to a crime investigation, then asks for internet banking credentials, card details, or a one-time password (OTP) to "verify" the account. The Singapore Police Force issued an advisory after at least 13 such cases since 1 April 2026 caused losses of at least S$32,000, stressing that genuine officers never contact the public over Google Meet or request banking credentials or OTPs by any channel.',
+    categorySlug: 'government-impersonation',
+    country: 'SG',
+    alertLevel: 'high',
+    sources: ['Singapore Police Force'],
+    sourceUrl: 'https://www.police.gov.sg/media-hub/news/2026/04/20260419_police_advisory_on_phishing_scams_involving_google_meet_video_calls',
+  },
+  {
+    name: 'Singapore Police Pop-Up "Fine" Phishing Scam',
+    slug: 'singapore-police-pop-up-fine-phishing-scam',
+    description:
+      'While browsing an ordinary website on a computer or laptop, a victim is hit with a pop-up alert impersonating the Singapore Police Force that freezes the page and claims a fine is owed, then prompts for bank card details to pay it on the spot. Victims typically only discover the scam once unauthorized transactions show up on their card statement. The Singapore Police Force\'s advisory on this pattern reiterates that no government official ever asks the public to enter card details or transfer money through a pop-up alert, and recommends checking any suspicious link or pop-up through the ScamShield app before entering any information.',
+    categorySlug: 'phishing',
+    country: 'SG',
+    alertLevel: 'high',
+    sources: ['Singapore Police Force'],
+    sourceUrl: 'https://www.police.gov.sg/media-hub/news/2026/02/20260224_police_advisory_on_phishing_scams_pop_up_alerts_impersonating_the_singapore_police_force',
+  },
+  {
+    name: 'Singapore SIM Card Registration-for-Cash Scam',
+    slug: 'singapore-sim-card-registration-for-cash-scam',
+    description:
+      'Recruiters offer easy cash — typically S$10 to S$20 per card — for registering postpaid SIM cards in the recruit\'s own name and handing the physical cards over to a "courier," sometimes after being told to buy in bulk from multiple telco retailers. The registered SIM cards are then funneled to criminal syndicates that use them as an anonymous channel for scam calls and texts, unlicensed moneylending, and vice activities, leaving the person whose identity is on record exposed to prosecution. The Singapore Police Force has run repeated island-wide enforcement operations throughout 2026 — including one probing 52 people in January and further arrests through the year — and warns that knowingly providing a registered SIM card to facilitate another person\'s crime, for any form of gain, carries a fine of up to S$10,000, up to 3 years\' jail, or both.',
+    categorySlug: 'identity-theft',
+    country: 'SG',
+    alertLevel: 'medium',
+    sources: ['Singapore Police Force'],
+    sourceUrl: 'https://www.police.gov.sg/Media-Hub/News/2026/01/20260123_52_persons_investigated_for_suspected_involvement_in_registering_sim_cards',
+  },
 ];
 
 async function seedCategoriesAndScams() {
