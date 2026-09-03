@@ -10301,6 +10301,10 @@ Before investing in a life settlement or viatical fund, verify that any provider
     slug: 'fake-captcha-verification-malware-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'fake-captcha-malware'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Operating_a_Computer_Keyboard_MOD_45158105.jpg?width=1200',
+    coverImageCredit: 'Photo: Chief Photographer / UK Ministry of Defence (OGL v1.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2026/06/how-spot-captcha-scam',
     body: `A CAPTCHA — the little "prove you're not a robot" check that's been a routine part of browsing the web for two decades — is one of the last things most people would think to be suspicious of. That familiarity is exactly what a newer scam exploits: after clicking a link in a phishing email, a text message, or a compromised website, a visitor is shown a screen that looks like an ordinary CAPTCHA verification, sometimes with a checkbox, sometimes with a claim that "additional verification" is needed to prove the visitor is human before content will load.
 
@@ -10317,6 +10321,10 @@ If you completed the steps on one of these screens, disconnect the device from t
     slug: 'tech-support-refund-overpayment-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'tech-support-refund-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Fraudulent_call_center_in_Kyiv,_September_2023_-_office_workplaces,_01.jpg?width=1200',
+    coverImageCredit: 'Photo: National Police of Ukraine (CC BY 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2020/08/hang-fake-refund-calls',
     body: `This scam starts the same way many tech support scams do — a pop-up warning, an unsolicited call, or a follow-up to an earlier "support" interaction — but instead of demanding payment for a fake problem, it offers money back. The caller claims the target is owed a refund: for tech support services that were supposedly overcharged, for antivirus software the target no longer needs, or from a company the target may have dealt with before. To "process" it, the caller asks for remote access to the target's computer, framing it as the only way to complete the deposit.
 
@@ -10333,6 +10341,10 @@ Anyone contacted about an unexpected tech support or company refund should hang 
     slug: 'voter-registration-election-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'election-voter-scams'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Voting_booths_at_a_polling_station_in_Washington_DC,_5_Nov._2024.jpg?width=1200',
+    coverImageCredit: 'Photo: OSCE Parliamentary Assembly (CC BY-SA 2.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.fbi.gov/scams-and-safety/common-scams-and-crimes/election-crimes-and-security',
     body: `As an election approaches, a text or email arrives warning that a recipient's voter registration has a problem — it's been flagged, it's about to expire, or it needs to be "confirmed" — with a link to fix it immediately. The link opens a page built to look like an official state election website, requesting a full name, date of birth, Social Security number, and driver's license number to "re-verify" registration. No such confirmation step exists in real voter registration systems, and the page exists purely to harvest personal information that can be used for identity theft or resold to other scammers, not to protect anyone's ability to vote.
 
@@ -10343,6 +10355,54 @@ A related pattern spreads deliberately false claims that voter registration data
 Deliberately deceiving qualified voters to keep them from voting is voter suppression, a federal crime, and deliberately spreading false claims about how, when, or where to vote falls into the same category regardless of the medium — text, robocall, or social media post. The reliable defense is to treat any message about a voter registration problem, a changed polling location, or a new mail-in ballot requirement as unverified until checked directly: go to the official state or county election website by typing the address in yourself (never through a link in the message) or call the local election office using a number looked up independently, not one provided by the caller or text.
 
 Anyone who receives one of these messages should not click the link, provide personal information, or act on the instructions it contains, and should report it to their state or local election official as well as to the FBI's Internet Crime Complaint Center at ic3.gov. CISA's #Protect2026 initiative and most state election websites also publish current, verified information on registration deadlines and polling locations that can be used to independently confirm or debunk any message received.`,
+  },
+  {
+    title: 'Vacant Land Scams: How Fraudsters Impersonate Owners to Sell Property They Don\'t Have',
+    slug: 'vacant-land-seller-impersonation-scam-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'vacant-land-scam'],
+    sourceUrl: 'https://www.ic3.gov/PSA/2026/PSA260616',
+    body: `Vacant land is an unusually easy target for fraud precisely because nobody is watching it. A parcel with no mortgage, no house, and an owner who lives out of state — or has passed away — can sit unmonitored for years, giving a scammer plenty of room to pose as the legitimate owner and sell it out from under them without anyone noticing until the real owner tries to use the property or pays the next tax bill.
+
+The scheme runs in stages. First, the fraudster pulls the real owner's name and the parcel's details from public county records, then builds a fake identity around it — a forged driver's license or passport, a new Gmail or Outlook address, and a VoIP phone number that can't be traced to a physical location. Posing as the owner, they contact a local real estate agent or title company, list the land for a quick sale — often priced a little below market to attract a fast buyer — and produce a notarized deed or power of attorney to make the transaction look routine. Once the sale closes, the proceeds are wired out, frequently to an account or attorney in another state or overseas, and the "seller" disappears; the real owner only finds out when a tax notice, a buyer's contractor, or a title search turns up a sale they never made.
+
+Red flags investigators point to include a seller who refuses to meet in person or even appear on a live video call, insisting on text, email, or VoIP calls only; unusual urgency to close quickly, sometimes paired with a below-market price; a seller who seems vague about basic property details or can't produce consistent documentation; and payment instructions that route sale proceeds to an account unconnected to the seller's stated location, or to an international wire transfer. A notarization stamped from an unrelated state or country on documents tied to a property in a completely different one is another common tell.
+
+Both landowners and buyers have a role in stopping this before money moves. Owners of vacant land, especially land they don't visit often, should enroll in their county recorder's free document-alert service, which flags any deed or lien filed against their name, and should check with the assessor's office periodically to confirm the property is still listed in their name. Buyers and real estate professionals should insist on a live video call with the seller, verify identification independently rather than accepting a scanned copy, and — per FBI guidance — send a certified letter to the address on file for the recorded owner before closing, since a real owner receiving that letter can flag an impersonation before the deal completes.
+
+Anyone who suspects a vacant land parcel has been sold without their knowledge, or who is buying land and sees these warning signs, should stop the transaction and report the details — including any bank accounts, email addresses, and phone numbers used by the "seller" — to the FBI's Internet Crime Complaint Center at ic3.gov, and should contact the county recorder and a title insurance attorney immediately to begin unwinding any fraudulent filing.`,
+  },
+  {
+    title: 'Medical Discount Plan Scams: When a "Discount Card" Is Sold as Real Health Insurance',
+    slug: 'medical-discount-plan-scam-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'medical-discount-plan-scam'],
+    sourceUrl: 'https://www.ftc.gov/media/79880',
+    body: `Medical discount plans are a legal product, but they are not health insurance, and the entire scam depends on blurring that distinction. A telemarketer, a slick website, or a booth at a job fair offers coverage that sounds comprehensive — doctor visits, hospital stays, prescriptions, sometimes even dental and vision — for a monthly premium that looks like a bargain next to a real health plan. What's actually being sold is a membership card that entitles the holder to a discount at a limited network of providers, if those providers agree to honor it at all. There is no claims payment, no coverage for a hospital bill, and no protection against a major medical event — the entire "benefit" is a maybe-lower price at checkout.
+
+The sales pitch is where the fraud usually lives. Marketers targeting people who are uninsured, recently laid off, self-employed, or priced out of ACA marketplace plans will describe the plan using insurance language — "coverage," "network," "benefits," "copay" — while avoiding the word "discount plan" until it's buried in fine print the caller never reads aloud. High-pressure tactics reinforce the deception: enrollment deadlines that don't really exist, refusal to send written plan documents before payment, and insistence that the deal has to be finalized on the call. Consumers often don't discover the truth until they're at a pharmacy counter or an emergency room being told the card isn't accepted, or that the promised "80% off" applies only to a short list of unfamiliar providers.
+
+Red flags include guaranteed discount percentages quoted before any medical need is even known; refusal to provide a written summary of the plan's actual terms before you pay; pressure to enroll immediately rather than take time to review documents; and any pitch that uses insurance terminology without ever using the word "discount plan" or clearly stating that the product does not pay medical claims. A legitimate ACA marketplace plan or licensed insurance agent will always be able to name the insurer, show you a summary of benefits, and give you time to compare it against other options.
+
+Before paying anything, verify the company's name and license status with your state Department of Insurance — discount plan administrators are regulated differently from insurers in most states, and a plan that isn't registered at all is a strong warning sign on its own. Ask directly whether the product pays claims or only offers a discount, request the written plan documents, and check the specific providers listed as "in-network" to confirm they actually honor the card, since directories are sometimes outdated or fabricated.
+
+Anyone who bought a plan believing it was real health insurance, or who spots these deceptive sales tactics, should file a complaint with the FTC at ReportFraud.ftc.gov, and with their state Attorney General and state Insurance Commissioner, who can take enforcement action against unlicensed plan administrators operating in their state.`,
+  },
+  {
+    title: 'Predatory "We Buy Houses" Cash Offers: How Real Estate Wholesalers Target Older Homeowners',
+    slug: 'we-buy-houses-predatory-cash-offer-scam-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'we-buy-houses-scam'],
+    sourceUrl: 'https://www.aarp.org/advocacy/fighting-we-buy-home-schemes/',
+    body: `The yard signs and postcards are familiar: "We Buy Houses — Cash — Any Condition — Fast Close." Some of the companies behind them are legitimate real estate investors offering a genuinely convenient trade-off — speed and certainty in exchange for a lower price. But a significant slice of this industry, known as residential wholesaling, is built around finding homeowners who won't shop the offer around, locking them into a contract at a steep discount, and then reselling that contract to an actual investor for a quick profit — sometimes tens of thousands of dollars — without the original seller ever knowing their home was flipped before it even closed.
+
+The targeting is not random. Wholesalers cross-reference public records — foreclosure filings, probate and divorce court records, death notices, and tax delinquency lists — against ZIP codes with high concentrations of older homeowners who are likely to have substantial equity and a specific reason to want a fast, low-hassle sale: a spouse who just died, a move into assisted living, or a house that's become too much to maintain. AARP has found that in some markets, nearly every predatory offer identified by real estate agents specifically targeted an older adult, with sales reps trained to move quickly before the homeowner can get a second opinion or an independent appraisal.
+
+The pressure tactics follow a pattern: an unsolicited call or door knock claims urgency that doesn't exist, the offer is presented and signed on a phone or tablet screen in a single visit with no printed copy left behind, and the homeowner is discouraged from consulting a real estate agent, attorney, or family member before signing. Because the property is bought "as-is," never listed publicly, and never appraised, the seller has no way to compare the offer to what a competitive, open-market sale would actually bring — and by the time they find out, the contract is often already signed and difficult to unwind.
+
+Red flags include an offer that arrives out of the blue rather than in response to the homeowner listing the property; pressure to sign the same day, especially on a phone or tablet rather than a printed document; refusal to explain that the buyer may resell the contract before closing; and no mention of the seller's right to get an independent appraisal or consult an attorney first. A legitimate cash-offer company will give a seller time, put everything in writing, and have no objection to the homeowner getting a second opinion.
+
+Before signing anything, a homeowner considering a cash offer should ask a real estate agent for a free comparative market analysis, get an independent appraisal, and have any contract reviewed by an attorney — most states give sellers little to no cooling-off period once a real estate contract is signed, so the time to catch a bad deal is before signing, not after. Complaints about high-pressure or deceptive wholesaling practices can be filed with the state Attorney General's consumer protection division and with AARP's fraud watch network at aarp.org/fraudwatchnetwork.`,
   },
 ];
 
