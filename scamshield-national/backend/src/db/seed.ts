@@ -9221,10 +9221,9 @@ Warning signs include unsolicited investment tips in a group chat you didn't see
     slug: 'ransomware-attack-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'ransomware'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Hand_on_computer_keyboard.jpg?width=1200',
-    coverImageCredit: 'Photo: Soumil Kumar (CC0)',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Ransomware-pic.jpg?width=1200',
+    coverImageCredit: 'FBI (Public Domain) — a real ransomware lock screen impersonating federal law enforcement',
     coverImagePosition: 50,
-    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.cisa.gov/stopransomware/ransomware-101',
     body: `Ransomware is malicious software that encrypts the files on a computer or network, making them unreadable, and then demands payment — almost always in cryptocurrency — for a decryption key. Many modern strains add a second layer of pressure known as "double extortion": before encrypting anything, the attacker quietly copies sensitive files off the device, then threatens to publish or sell them if the ransom isn't paid, so even a victim with solid backups can still face blackmail over leaked data.
 
@@ -10089,10 +10088,9 @@ The U.S. military does not charge service members or their families to process l
     slug: 'nigerian-prince-advance-fee-email-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'advance-fee-email-scam'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Hand_on_computer_keyboard.jpg?width=1200',
-    coverImageCredit: 'Photo: Soumil Kumar (CC0)',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/NigerianScam.jpg?width=1200',
+    coverImageCredit: 'Morburre, CC BY-SA 3.0, via Wikimedia Commons — an actual 1995 "Nigerian prince" advance-fee scam letter',
     coverImagePosition: 50,
-    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.fbi.gov/contact-us/field-offices/portland/news/press-releases/fbi-tech-tuesday-building-a-digital-defense-against-nigerian-419-scams',
     body: `An email arrives from a stranger claiming to be royalty, a senior bank official, a lawyer settling a deceased client's estate, or a government minister, describing an enormous sum of money — often tens of millions of dollars — trapped behind bureaucratic obstacles, frozen accounts, or a country's currency controls. The writer needs a foreign bank account and a trustworthy partner to help move the funds out, and offers a generous cut, sometimes 20 to 40 percent of the total, just for the use of the recipient's name and account. It's flattering, oddly specific, and completely fabricated.
 
@@ -11746,6 +11744,10 @@ Before paying any fee tied to a permit or zoning application, check the sender's
     slug: 'consent-phishing-oauth-permission-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'consent-phishing-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Man_with_smartphone_and_laptop_(Unsplash).jpg?width=1200',
+    coverImageCredit: 'Photo: Alejandro Escamilla (CC0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.ic3.gov/PSA/2026/PSA260901',
     body: `A message arrives from an unfamiliar account on LinkedIn, Instagram, or X, posing as a journalist working on a story, an event coordinator finalizing details, or someone from a government office — asking the recipient to review a shared document or verify their identity through a link. The link goes to a real Microsoft or Google sign-in page, the kind seen a dozen times a week, so typing in an email and password feels completely routine. After logging in, a second screen appears asking to "Allow" an application to access the account. One click later, the conversation moves on, nothing seems to have happened, and no password was ever stolen.
 
@@ -11762,6 +11764,10 @@ Before clicking "Allow" on any permission prompt, it's worth pausing to read exa
     slug: 'world-cup-2026-fifa-website-spoofing-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'world-cup-ticket-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/MetLife_Stadium_Exterior,_2026_FIFA_World_Cup_(June_20,_2026).jpg?width=1200',
+    coverImageCredit: 'Photo: MiracleMiles (CC BY 4.0) — MetLife Stadium during the 2026 FIFA World Cup',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.ic3.gov/PSA/2026/PSA260527',
     body: `A fan searching for World Cup 2026 tickets clicks a sponsored search result or a link shared in a group chat, lands on a page that looks exactly like FIFA's official site, and buys what's advertised as a hospitality package or a bundle of tickets to a marquee match. The page has the right branding, the right typefaces, even a checkout flow that feels like any other ticket purchase — except the tickets never arrive, and the card number, address, and phone number entered during checkout are now in the hands of whoever built the site.
 
@@ -11778,6 +11784,9 @@ The FBI's recommended fix is to skip search results entirely: type www.fifa.com 
     slug: 'medicare-back-brace-durable-medical-equipment-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'medicare-dme-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/TLS_Brace.jpg?width=1200',
+    coverImageCredit: 'Photo: KFFOWLER (CC BY-SA 3.0) — a thoracolumbosacral orthopedic back brace, the type of equipment billed in these scams',
+    coverImagePosition: 50,
     sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2019/10/back-brace-scams-target-people-medicare',
     body: `A phone call, a daytime TV ad, or a letter in the mail offers something that sounds harmless, even generous: a back brace, knee brace, or other piece of medical equipment at little or no cost, because "Medicare will cover it." The pitch rarely asks for cash upfront. Instead, it asks for something that feels far more routine — a Medicare number, to "verify eligibility" or process the paperwork. That single detail is the entire scam.
 
@@ -11794,6 +11803,9 @@ The response costs nothing and takes seconds: hang up on any unsolicited call of
     slug: 'real-id-skip-the-line-dmv-phishing-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'real-id-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/DMV_2018.03.14_Gov_REAL_ID_(25_of_43)_(39148981310).jpg?width=1200',
+    coverImageCredit: 'Photo: NCDOTcommunications (CC BY 2.0) — a REAL ID being processed in person at a DMV, the only way one can be issued',
+    coverImagePosition: 50,
     sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2025/06/yes-going-dmv-only-way-avoid-real-id-scam',
     body: `A text or email arrives claiming to be from the DMV or the Department of Homeland Security, warning that a REAL ID application is incomplete, or offering something that sounds like a relief valve for a genuinely frustrating process: pay a fee, click a link, and skip the in-person line to get a REAL ID processed faster. For anyone who has put off the trip to the DMV, or who remembers hearing about long waits at their local office, the offer solves a real, relatable problem — which is exactly why it works.
 
