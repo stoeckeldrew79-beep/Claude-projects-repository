@@ -27002,6 +27002,75 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Office of the Maryland Attorney General — Securities Division'],
     sourceUrl: 'https://oag.maryland.gov/News/pages/Attorney-General-Brown-Secures-$562,000-Settlement-for-Investors-Defrauded-in-Fake-Affordable-Housing-Scheme--.aspx',
   },
+  {
+    name: 'Colorado Virtual-Mailbox Fraudulent Business Registration Network',
+    slug: 'colorado-virtual-mailbox-fraudulent-business-registration-network',
+    description:
+      'Fraud networks operating across the United States and internationally, including groups based in China and Southeast Asia, registered more than 12,000 fake businesses with the Colorado Secretary of State using a single downtown Denver address tied to a virtual mailbox service, then used the resulting Colorado business registrations and certificates of good standing to lend a false air of legitimacy to crypto, romance, and investment scams pitched to victims who had never set foot in the state. Some of the entities were also filed using the unauthorized home addresses of real Colorado residents as the purported business location, leaving those homeowners fielding unexplained mail, collection notices, and complaints for companies they had never heard of and never agreed to be associated with. Colorado Attorney General Phil Weiser filed a series of lawsuits in Denver District Court in May 2026 seeking court orders to dissolve the fraudulent filings, after victims nationwide told investigators they had checked a company\'s Colorado "good standing" status before wiring money — sometimes losing more than $100,000 — precisely because the registration made the operation look real. Before relying on a business\'s state registration as proof it is legitimate, Colorado\'s Secretary of State recommends checking whether the registered agent address is a known virtual mailbox or mail-drop location, since a real, active company with an actual office is a very different thing from an LLC that exists only on paper at a rented mailbox.',
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    state: 'CO',
+    alertLevel: 'high',
+    sources: ['Colorado Attorney General\'s Office', 'Colorado Secretary of State'],
+    sourceUrl: 'https://coag.gov/press-releases/weiser-launches-crackdown-on-fraudulent-colorado-businesses/',
+  },
+  {
+    name: 'Minnesota Fake Electric-Scooter Rental Pyramid Scheme',
+    slug: 'minnesota-electric-scooter-rental-pyramid-scheme',
+    description:
+      'Recruiters approach Minnesotans, often within non-English-speaking communities and largely by word of mouth, with a pitch to buy into a company that supposedly rents out fleets of electric scooters: pay an upfront buy-in and receive a cut of the rental income the scooters earn, with bigger returns for recruiting friends and family to buy in too. The scooters themselves are never actually shown or demonstrated working, because the promised rental business does not exist — participants are told to accept payment in cryptocurrency rather than through a bank or credit card, and the "returns" some early participants receive are funded by the buy-ins of the people they recruited, the defining structure of a pyramid scheme rather than a real business. Minnesota Attorney General Keith Ellison issued a Scam Stopper consumer alert in July 2025 warning residents that a product no one can see running, combined with pressure to bring in new recruits and to pay in crypto instead of traceable methods, are the clearest signs the "investment" is fake. Anyone who bought into an electric-scooter company under these terms and suspects a scam can file a complaint with the Attorney General\'s Office at 651-296-3353 in the Twin Cities or 1-800-657-3787 elsewhere in Minnesota.',
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    state: 'MN',
+    alertLevel: 'high',
+    sources: ['Office of Minnesota Attorney General Keith Ellison'],
+    sourceUrl: 'https://www.ag.state.mn.us/Office/Communications/2025/07/23_ElectricScooterScam.asp',
+  },
+  {
+    name: 'Franklin, Massachusetts "Phantom" Debt Collector Impersonating Constables and Lawyers',
+    slug: 'massachusetts-franklin-phantom-debt-collector-constable-impersonation',
+    description:
+      'Brothers Paul and Richard Santorsola ran East Coast Financial ("ECF") and a related debt-buying company, Assessment Resolution, LLC, out of Franklin, Massachusetts, operating what the Attorney General\'s Office calls a "phantom" debt collector — one that calls consumers demanding payment on debts without the legal right or documentation to actually collect them. ECF callers and associates used profane, threatening language and adopted false names and fake affiliations with a constable\'s office or a law firm, warning targets that a constable was about to seize their property or that they faced arrest unless they paid immediately, tactics designed to extract money before a consumer could stop to question whether any of it was true. Massachusetts Attorney General Andrea Joy Campbell\'s office secured a court order in June 2026 immediately halting ECF, Assessment Resolution, and the Santorsola brothers\' debt collection activity and barring them from destroying records or moving assets while the state pursues permanent injunctions, full restitution for affected consumers, and civil penalties under the Massachusetts Consumer Protection Act and the state\'s debt collection regulations. No real constable, sheriff, or law firm collects a debt by phone with threats of on-the-spot arrest or property seizure; consumers contacted this way should ask for written validation of the debt, and can report suspected phantom debt collectors to the Massachusetts Attorney General\'s Consumer Advocacy and Response Division at 617-727-8400.',
+    categorySlug: 'debt-relief-scams',
+    country: 'US',
+    state: 'MA',
+    alertLevel: 'high',
+    sources: ['Office of Massachusetts Attorney General Andrea Joy Campbell'],
+    sourceUrl: 'https://www.mass.gov/news/ags-office-secures-court-order-preventing-phantom-debt-collectors-from-engaging-in-illegal-debt-collection-scheme',
+  },
+  {
+    name: 'Fake Police "Asset Investigation" Gold Bullion Handover Scam',
+    slug: 'japan-fake-police-gold-bullion-scam',
+    description:
+      'A caller impersonating a police officer or prosecutor tells the victim their bank account, phone contract, or My Number ID has turned up in a money-laundering or fraud investigation and that their assets must be "protected" while the matter is cleared up, then directs them to withdraw their savings and convert the cash into gold bullion at a dealer — sometimes claiming that gold, unlike a bank balance, cannot be frozen or seized by the criminals under investigation. A courier, often another recruit posing as an "asset protection officer," then meets the victim in person, at a train station or their home, to take physical custody of the gold for supposed safekeeping, and simply disappears with it. With gold prices at record highs, Japan\'s National Police Agency recorded roughly ¥5.8 billion in losses to this precious-metals handover method in 2024 alone and has formally asked bullion dealers to flag unusual purchases, stating plainly that a real police officer never instructs anyone to buy gold or hand it to a stranger.',
+    categorySlug: 'government-impersonation',
+    country: 'JP',
+    alertLevel: 'critical',
+    sources: ['Japan National Police Agency', 'NHK News'],
+    sourceUrl: 'https://www.npa.go.jp/bureau/safetylife/sos47/new-topics/241218/02.html',
+  },
+  {
+    name: 'Japan International "Wangiri" One-Ring Callback Scam',
+    slug: 'japan-wangiri-one-ring-callback-scam',
+    description:
+      'A call from an unfamiliar international number rings once and disconnects before it can be answered, deliberately leaving the number sitting in the recipient\'s missed-call log to invite a curious callback. Calling back connects to a premium-rate international line that bills steep per-minute connection charges to the caller, a share of which flows back to whoever operates the number through revenue-sharing arrangements with the receiving carrier — the scam, called "wangiri" (ワン切り, literally "one cut"), originated in Japan in the early 2000s and has resurged as fraud groups shift from domestic IP numbers, which now require identity verification to obtain, to foreign numbers instead. Japan\'s Ministry of Internal Affairs and Communications opened a dedicated "Denwan Center" consultation line in June 2025 for these calls, and the National Consumer Affairs Center of Japan has separately warned residents never to return a call from an unrecognized international number, noting that a legitimate caller with real business will leave a message rather than hang up after one ring.',
+    categorySlug: 'phishing',
+    country: 'JP',
+    alertLevel: 'medium',
+    sources: ['National Consumer Affairs Center of Japan (NCAC)', 'Ministry of Internal Affairs and Communications (Japan)'],
+    sourceUrl: 'https://www.kokusen.go.jp/news/data/n-20250806_2.html',
+  },
+  {
+    name: 'Gambling "Sure-Win Method" Information Fraud (Gyanburu Hisshouhou Sagi)',
+    slug: 'japan-gambling-sure-win-method-info-scam',
+    description:
+      'An ad in a magazine, on a website, or in an unsolicited email or message offers a guaranteed "winning method" for horse racing, pachinko or pachislot, or advance knowledge of lottery winning numbers, urging anyone interested to register as a paying member to receive the secret system or information. After the membership or "information" fee is paid, the promised method either never arrives or turns out to be worthless, and victims are sometimes told their own mistakes caused the loss and pressured to send further payments to "recover" it or unlock a supposedly improved version. Japan\'s National Police Agency lists this as one of its ten officially tracked categories of "tokushu sagi" (special fraud) and states there is no legitimate way to guarantee a lottery number or gambling outcome in advance — any offer that claims otherwise is, by definition, fraudulent.',
+    categorySlug: 'lottery-sweepstakes-scams',
+    country: 'JP',
+    alertLevel: 'medium',
+    sources: ['Japan National Police Agency'],
+    sourceUrl: 'https://www.npa.go.jp/bureau/safetylife/sos47/case/special/',
+  },
 ];
 
 async function seedCategoriesAndScams() {
