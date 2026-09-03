@@ -6913,6 +6913,9 @@ What followed was one of the most elaborate confidence games of the 18th century
 
 The arrangement finally collapsed in 1763, when a former Casanova associate denounced him to the marquise in order to take over as her new resident magician — a rival conman's exposure, not any skepticism on her part, that ended the con. By then Casanova was only one of several occultists who had drained the marquise's fortune over the years; she is separately recorded as having paid roughly 100,000 écus to the self-styled Count of Saint-Germain and several hundred thousand francs more to Alessandro Cagliostro, showing how the same wealthy, grief- and mortality-haunted victim could be worked by an entire circuit of fraudulent mystics in succession. Much of what is known about the Casanova episode comes from his own memoirs, "Histoire de ma vie," written decades later and prone to self-flattering embellishment like any autobiography of its kind — but the outline is independently corroborated by the marquise's own family correspondence and by later biographers who traced the ceremonies and payments through archival records. Casanova himself died in 1798, working as a librarian in a Bohemian castle, having burned through most of what he'd taken over a lifetime of similar schemes. His swindle of the Marquise d'Urfé endures as an early, well-documented case of a con that modern regulators still warn about by another name: the psychic and spiritual-adviser fraud, in which a confident performance of supernatural insight is used to talk a grieving or fearful person out of money for a "next step" that never quite arrives.`,
     sourceUrl: 'https://en.wikipedia.org/wiki/Giacomo_Casanova',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Giacomo_Casanova_by_Francesco_Narici.jpg?width=1200',
+    coverImageCredit: 'Painting: Francesco Narici, c. 1760 (public domain)',
+    coverImagePosition: 50,
   },
   {
     title: 'Grigori Grabovoi: The Self-Declared Messiah Who Sold Grieving Beslan Mothers a Fake Resurrection',
@@ -6927,6 +6930,10 @@ Russian prosecutors opened a fraud investigation in 2006, and on July 7, 2008, a
 
 Release did not end Grabovoi's career. He relocated and rebranded, marketing what became known as "Grabovoi numbers" — specific numerical sequences he claimed could be visualized to cure disease, attract wealth, or alter reality — through an online store that at one point sold a device called the PRK-1U, priced around €9,700, marketed as a treatment for aging, HIV, and cancer. Those number sequences found an entirely new, much larger audience during the COVID-19 pandemic, spreading virally across TikTok, Pinterest, and other platforms under hashtags like #LawOfAttraction and #Manifestation — repackaged as wellness "cheat codes" for a young, mostly Western audience with little or no awareness that the man behind them was a convicted fraudster whose original scheme had targeted mothers grieving murdered children. Grabovoi's case is a stark illustration of how thoroughly a fraud record can be erased by rebranding and time: the same techniques a criminal court found to be a swindle in 2008 continue to circulate today as harmless-looking self-help content, a pattern consumer-protection agencies now watch for whenever numerology, "energy," or manifestation claims are marketed as a substitute for real medical or financial help.`,
     sourceUrl: 'https://en.wikipedia.org/wiki/Grigori_Grabovoi',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Beslan_Ground_on_Beslan_Monument.jpg?width=1200',
+    coverImageCredit: 'Photo: AndreyA (Public Domain)',
+    coverImagePosition: 50,
   },
   {
     title: 'Misha Defonseca: The Holocaust Memoir Raised by Wolves That Was Never True',
