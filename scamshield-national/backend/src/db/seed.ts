@@ -23962,6 +23962,64 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['U.S. Attorney\'s Office, Southern District of Mississippi', 'Mississippi Attorney General\'s Office'],
     sourceUrl: 'https://www.justice.gov/usao-sdms/pr/brookhaven-man-sentenced-40-months-federal-prison-wire-fraud',
   },
+  {
+    name: 'Oahu Counterfeit Check Manufacturing Ring',
+    slug: 'hawaii-oahu-counterfeit-check-manufacturing-ring',
+    description:
+      'Felix Savoy (also known as Felix Tigilau), Baron Yamabe, and Ursula Ramos allegedly took unauthorized bank account and routing information from unsuspecting victims and used it to manufacture counterfeit checks, which they then deposited at Oahu banks between June and August 2024, netting roughly $1.2 million. The Hawaii Department of the Attorney General arrested Savoy and Yamabe on July 16, 2026, on outstanding warrants of $1,000,000 and $100,000 respectively, with Ramos still being sought on a $5,000 warrant, and charged the group with 54 counts of forgery, theft, and attempted theft. Investigators say the case is a continuation of an earlier scheme: in August 2024, Tigilau, Yamabe, and two others were arrested over a separate, roughly $1.5 million run of counterfeit checks, pointing to an organized ring that repeatedly targeted account holders whose banking details had been compromised elsewhere. Attorney General Anne Lopez said the scope and repetition of the fraud were "deeply troubling" and asked anyone who spots an unfamiliar check clearing against their account, or unexplained charges tied to it, to contact the Attorney General\'s Investigations Division, since a compromised routing and account number is enough on its own for a counterfeit check to be printed and cashed without the victim ever making a purchase or handing over a card.',
+    categorySlug: 'identity-theft',
+    country: 'US',
+    state: 'HI',
+    alertLevel: 'high',
+    sources: ["Hawaii Department of the Attorney General", 'Honolulu Star-Advertiser'],
+    sourceUrl: 'https://governor.hawaii.gov/newsroom/2026-46-department-of-the-attorney-general-arrests-two-in-alleged-1-2-million-fraudulent-check-scheme/',
+  },
+  {
+    name: 'Pain and Recovery Center Medicaid Identity-Theft Billing Scheme',
+    slug: 'new-mexico-pain-recovery-center-medicaid-identity-theft',
+    description:
+      'Morgan Ortiz, a former New Mexico State Police officer, and Dr. Keith Levitt, whose medical license had already been revoked multiple times, ran the now-shuttered Pain and Recovery Center in Albuquerque, which was supposed to offer outpatient detox and ketamine infusion therapy for substance abuse patients. Between 2019 and April 2021, a New Mexico grand jury found, the pair billed the state\'s Medicaid program more than $800,000 in fraudulent claims, in part by using patients\' identities to bill for services those patients never actually received. Both men were indicted in November 2024 on charges including Medicaid fraud, conspiracy to commit identity theft, document falsification, and practicing medicine without a license; Ortiz pleaded guilty in October 2025, and on January 24, 2026, was sentenced to the three-year statutory maximum under his plea agreement plus a $750,000 fine, with $1.5 million in restitution ordered against the two defendants combined, while Levitt received probation. New Mexico Attorney General Raúl Torrez said the outcome "reinforces that those who manipulate our justice and health care systems will be met with meaningful consequences" — a reminder that Medicaid recipients should periodically check their own claims history through the state\'s Medicaid portal or their managed care plan for services billed in their name that they never received, since that kind of billing fraud can go undetected for years when it hides inside a legitimate-looking clinic.',
+    categorySlug: 'healthcare-fraud',
+    country: 'US',
+    state: 'NM',
+    isHistorical: true,
+    firstRecorded: '2026-01-24',
+    sources: ["New Mexico Department of Justice", 'Albuquerque Journal'],
+    sourceUrl: 'https://nmdoj.gov/press-release/attorney-general-raul-torrez-secures-maximum-sentence-for-former-new-mexico-state-police-officer-morgan-ortiz-for-substance-abuse-recovery-scheme/',
+  },
+  {
+    name: 'French "Faux Policier" In-Person Elder Robbery Scam',
+    slug: 'france-faux-policier-elder-robbery-scam',
+    description:
+      'A pair or small group knocks on an elderly victim\'s door, typically in the early morning, presenting fake police or gendarme identification and claiming a burglary was just committed nearby or attempted at the victim\'s own home overnight — sometimes going so far as to damage the front door themselves or scatter banknotes on the floor beforehand to make the story convincing. They ask the victim to retrieve their cash, jewelry, and gold so they can be checked for the "burglars\' fingerprints" or logged as evidence, then leave with the valuables and never return. On February 4, 2025, the Gendarmerie Nationale\'s Section de recherches de Versailles and the Brigade de recherche et d\'intervention nationale arrested five people aged 23 to 55 accused of running this exact routine against elderly victims across the Île-de-France region, and gendarmerie units elsewhere have logged dozens of similar thefts of cash and gold — around sixty in the Loiret département in 2025 alone, with the pattern continuing into 2026. Genuine police and gendarmes never ask a resident to hand over cash or jewelry for "verification," never conduct fingerprint checks on personal valuables at the door, and can always be confirmed by calling the local police or gendarmerie station directly using a number looked up independently, not one the visitor provides.',
+    categorySlug: 'government-impersonation',
+    country: 'FR',
+    alertLevel: 'critical',
+    sources: ['Gendarmerie Nationale'],
+    sourceUrl: 'https://www.gendarmerie.interieur.gouv.fr/gendinfo/criminalite-organisee-et-enquetes/2025/la-section-de-recherches-de-versailles-interpelle-une-equipe-de-faux-gendarmes-et-policiers-soupconnes-de-depouiller-des-personnes-agees',
+  },
+  {
+    name: 'French AMF "Biens Divers" Tangible Asset Investment Scam',
+    slug: 'france-amf-biens-divers-investment-scam',
+    description:
+      'Unlike a trading-app or forex platform, this fraud sells fractional ownership in a physical, tangible asset — fine wine, champagne, whisky casks, gold, cattle herds, or "green" forestry projects — through a slick website or cold call promising steady returns as the goods appreciate or are resold. Under France\'s Code monétaire et financier, any such "biens divers" investment offer must be registered with the Autorité des marchés financiers (AMF) and file investor-information documentation before it can be marketed or solicited to the French public, a requirement in place since 2017, yet the operators behind these sites are routinely unregistered — money is collected but the promised wine, whisky, or livestock is never actually delivered or resold on the investor\'s behalf. On August 1, 2025, the AMF issued a public warning naming newly blacklisted "biens divers" websites, including two operating in the wine-and-champagne category, adding to a blacklist that has grown to include well over 400 unauthorized sites since 2017 spanning wine, champagne, whisky, gold, and livestock offers. The AMF advises checking any such offer against its official whitelist of registered "biens divers" products before investing, since a slick website and a real-sounding physical asset are not proof that an offer is legitimate.',
+    categorySlug: 'investment-fraud',
+    country: 'FR',
+    alertLevel: 'high',
+    sources: ['Autorité des marchés financiers (AMF)'],
+    sourceUrl: 'https://www.amf-france.org/en/news-publications/news-releases/amf-news-releases/amf-warning-public-against-several-entities-proposing-invest-miscellaneous-goods-offers-without',
+  },
+  {
+    name: 'French Fake Cashier\'s Check Overpayment Scam (Arnaque au Chèque de Banque)',
+    slug: 'france-fake-cashiers-check-overpayment-scam',
+    description:
+      'Unlike scams that collect an upfront deposit for a listing that never existed, this fraud targets the seller in a private sale — a car, furniture, or other high-value item advertised online — after a "buyer" sends what looks like a certified cashier\'s check (chèque de banque) for more than the agreed price, then asks the seller to wire back the difference, often for supposed shipping or handling costs, before the check has actually cleared. Because a chèque de banque is traditionally treated as guaranteed funds, sellers often release the item or refund the overage immediately, only for the check to be revealed days later as forged or stolen — genuine watermarking and the handwritten "chèque de banque" notation on the reverse can be counterfeited convincingly enough that a bank teller\'s initial acceptance is not proof the check is real. The Ministry of the Interior\'s Ma Sécurité platform and the Banque de France both warn that a bank confirming a deposit does not mean a check has been irrevocably validated, since forged or stolen checks can still be rejected one to two weeks later once fully processed, and recommend refusing to refund any part of a private-sale payment until that full clearance period has passed, favoring bank transfers or secure online payment methods over checks from an unknown buyer instead.',
+    categorySlug: 'online-shopping-scams',
+    country: 'FR',
+    alertLevel: 'high',
+    sources: ['Ministère de l\'Intérieur (Ma Sécurité)', 'Banque de France'],
+    sourceUrl: 'https://www.masecurite.interieur.gouv.fr/fr/fiches-pratiques/famille-et-aides-aux-victimes/comment-se-proteger-arnaques-cheques-bancaires',
+  },
 ];
 
 async function seedCategoriesAndScams() {
