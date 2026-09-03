@@ -7388,6 +7388,46 @@ Freed, Schiff went right back to selling the same theory, now marketed through h
 On February 24, 2006, Schiff was sentenced to 151 months in federal prison — later extended by 12 months after a separate criminal-contempt conviction for continuing to file "zero returns" and instruct others to do the same even after a federal judge had specifically enjoined him from it — plus more than $4.2 million in restitution. He never stopped arguing his theory was correct, representing himself for stretches of his later proceedings and continuing to insist from behind bars that the income tax was a fraud perpetrated by the government rather than the reverse. Schiff died at a hospital connected to the federal prison in Fort Worth, Texas, on October 16, 2015, of lung cancer, at age 87, having spent much of his final decade in custody for the very scheme that had made him a folk hero to a tax-protest movement whose core arguments the IRS still lists today among its official catalog of "frivolous tax arguments" that examiners are trained to reject on sight.`,
     sourceUrl: 'https://en.wikipedia.org/wiki/Irwin_Schiff',
   },
+  {
+    title: '"Diamond" Doris Payne: The Jewel Thief Who Talked Her Way Past Security for Seven Decades',
+    slug: 'doris-payne-diamond-jewel-thief-con-artist',
+    author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Saks_Fifth_Avenue_flagship_Mar_2021_24.jpg?width=1200',
+    coverImageCredit: 'Photo: Epicgenius, Wikimedia Commons (CC BY-SA 4.0) — a Saks Fifth Avenue store, the chain Payne targeted repeatedly across multiple decades',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Doris Payne was born October 10, 1930, in Slab Fork, West Virginia, one of six children of a coal miner father and a mother who endured his violence. As a teenager, Payne later said, she watched a white saleswoman fawn over a customer trying on a ring at a local jewelry counter and treat Payne, a Black girl, with open contempt the moment she stepped up to look — a memory she cited as the spark for a criminal career built almost entirely on turning that same performance of wealth and belonging back on the industry that had denied it to her.
+
+Her method relied on charm and misdirection rather than force. Dressed in furs and gloves, speaking with practiced polish, and often working with the ring or bracelet still in her hand under the pretext of comparing pieces or asking a salesperson to fetch a second item, Payne would engineer a moment of distraction — a phone ringing, another customer needing help, her own manufactured question — long enough to palm the piece and simply walk out. She used the con artist's oldest advantage as camouflage: for decades, investigators later concluded, stores were slow to suspect an older, well-dressed Black woman of shoplifting six-figure jewelry in broad daylight, and some retailers were reportedly reluctant to admit publicly that they had been fooled at all.
+
+Payne's thefts spanned continents. In the 1970s she stole a roughly $500,000, ten-carat diamond ring in Monte Carlo, fled to France, was detained in Nice, and was extradited back to Monaco, where she was held for nine months before being released after authorities could not recover the missing stone. Over a criminal career researchers and courts have traced back to the 1950s, she was arrested more than 20 times across at least two continents — including in Greece, Switzerland, and France — and investigators say she used roughly 20 aliases along with multiple fabricated Social Security numbers and dates of birth to keep ahead of a criminal record that any single true identity would have made impossible to ignore.
+
+Age never slowed her down. On October 29, 2013, at 83, she was arrested in Palm Desert, California, for stealing a $22,500 diamond ring, pleaded guilty, and on April 30, 2014, was sentenced to two years in prison plus two years of parole with an order to stay out of jewelry stores — a sentence a California appeals court later found excessive for a nonviolent property crime committed by an octogenarian, though the underlying conviction stood. She was arrested again at 85 in October 2015 for lifting $690 earrings from an Atlanta Saks Fifth Avenue, and again the following year at a Chamblee, Georgia Walmart, and once more in July 2017 — while still wearing an ankle monitor from an earlier arrest — for shoplifting $86.22 worth of merchandise, a strange coda for a woman once accused of taking half a million dollars in a single afternoon.
+
+Payne's late-life fame outran her thefts. The 2013 documentary "The Life and Crimes of Doris Payne" and extensive news coverage of her arrests turned her into a folk-legend figure, and in 2019 she published a memoir, "Diamond Doris: The True Story of the World's Most Notorious Jewel Thief," openly narrating a life she never fully renounced. She remains, by her own account and by court records spanning roughly seventy years, one of the most prolific individual jewel thieves in American history — proof that a well-rehearsed performance of respectability, deployed against an industry primed to look past exactly the kind of customer she pretended to be, could outlast dozens of arrests and just as many prison terms.`,
+    sourceUrl: 'https://en.wikipedia.org/wiki/Doris_Payne',
+  },
+  {
+    title: 'Efraim Diveroli: The Twentysomething Arms Dealer Who Sold the Pentagon Repackaged Chinese Ammunition',
+    slug: 'efraim-diveroli-aey-inc-chinese-ammunition-fraud',
+    author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Afghan_National_Army.jpg?width=1200',
+    coverImageCredit: 'Photo: Petty Officer 1st Class Scott Cohen, U.S. Navy (public domain, U.S. federal government work) — Afghan National Army soldiers, the intended end recipients of AEY\'s ammunition contract',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Efraim Diveroli was born December 20, 1985, in Miami Beach, Florida, into an Orthodox Jewish family; his uncle is the well-known rabbi and author Shmuley Boteach. In March 2001, at just 15 years old, Diveroli returned to Miami Beach and took over AEY Inc., a shell company his father had originally set up, naming it after the initials of his own siblings. Working alone out of an apartment with little more than a laptop, he began trawling the federal government's public contracting website, fbo.gov, bidding on small surplus munitions contracts that larger, more established defense contractors considered too minor to bother with.
+
+The strategy worked far beyond what anyone could have predicted for a teenager running a company from his bedroom: by his own account Diveroli was a millionaire by age 18, systematically underbidding major arms manufacturers on Pentagon contracts to arm foreign militaries. The peak came in January 2007, when AEY Inc. was awarded a $298 million U.S. Army contract to supply small-arms ammunition and other matériel to the Afghan National Army and police as part of the broader U.S. effort to build up Afghan security forces during the war.
+
+To fulfill orders at the scale he had promised, Diveroli's company began sourcing millions of rounds of aging surplus ammunition originally manufactured in China — a country the United States has barred its own contractors from importing arms from, and whose ammunition AEY's Pentagon contract explicitly prohibited supplying regardless of the general embargo, since the pre-1989 manufacture date placed it outside the embargo's own cutoff but not outside the contract's separate, plainly written ban. Rather than disclose the ammunition's origin, AEY had roughly 90 million rounds of the Chinese-made ammunition repackaged in plain cardboard boxes designed to obscure its source, deceiving Army inspectors and the Afghan forces who would ultimately rely on it in combat.
+
+The scheme collapsed after New York Times reporter C.J. Chivers, working from photographs an AEY subcontractor took of the ammunition's original Chinese-marked packaging, published an investigation on March 27, 2008, that exposed both the ammunition's true origin and its often-degraded, decades-old condition. The U.S. government suspended AEY from further federal contracting that same day, and a subsequent House Committee on Oversight and Government Reform investigation found much of the ammunition unserviceable, prompting a broader overhaul of how the Army vetted small arms contractors. Diveroli was indicted, and in late August 2008 he pleaded guilty to conspiracy to defraud the United States; while free on bond awaiting sentencing he was separately convicted of illegal possession of a firearm as a person under felony indictment, delaying and complicating his case further. On January 4, 2011, he was sentenced to four years in federal prison and was released in August 2014; his junior partner and childhood friend David Packouz, who cooperated with prosecutors, received seven months of home confinement instead of prison time.
+
+Diveroli's story became far more widely known after his release than during the scheme itself. Rolling Stone's 2011 feature "Arms and the Dudes" and Guy Lawson's subsequent book inspired Todd Phillips's 2016 film "War Dogs," which dramatized the AEY contract; Diveroli sued Warner Bros. in an unsuccessful attempt to block the film's release, and in 2016 published his own memoir, "Once a Gun Runner," co-written with fellow convicted fraudster Matthew Cox. In 2022, the U.S. Army formally ended his 14-year debarment from federal contracting. The case remains a standard reference in defense-procurement circles for how easily a barely regulated corner of Pentagon contracting could be won, and exploited, by an unsupervised teenager chasing government contracts too small for anyone experienced to want them.`,
+    sourceUrl: 'https://en.wikipedia.org/wiki/Efraim_Diveroli',
+  },
 ];
 
 // Practical "how it works / red flags / what to do" guides covering the
@@ -13444,6 +13484,10 @@ Workers who are asked to pay a recruitment or placement fee, or who are already 
     slug: 'truck-driver-lease-purchase-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'truck-driver-lease-purchase-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Trucking_semi_truck_under_overpass.jpg?width=1200',
+    coverImageCredit: 'Photo: Chris Yarzab (CC BY 2.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://landline.media/truck-leasing-task-force-calls-lease-purchase-programs-irredeemable-tools-of-fraud/',
     body: `A recruiting ad for a trucking company promises something a plain company-driver job doesn't: "no money down," "be your own boss," drive today and own your truck in a few years. For someone who just finished a CDL program with tuition debt and little savings, and who may have been turned away by carriers wanting two years of experience, a lease-purchase program is often the only door that opens — sign a lease on a truck, haul loads for the same carrier that leased it, and the truck payment comes straight out of each week's settlement.
 
@@ -13462,6 +13506,9 @@ Before signing a lease-purchase agreement, get the complete contract in writing 
     slug: 'snap-ebt-text-message-phishing-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'snap-ebt-text-phishing-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Brooklyn_Deli_with_%22We_Accept_Food_Stamps,_EBT%22_sign.jpg?width=1200',
+    coverImageCredit: 'Photo: Clementine Gallot (CC BY 2.0)',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.fns.usda.gov/news-item/fraud-alert-usda-warns-text-message-scam-targeting-snap-recipients',
     body: `A text lands on a SNAP recipient's phone warning that their EBT card has been deactivated, locked for "suspicious activity," or that they've been newly selected for extra food-assistance benefits — either way, a link or phone number is included to fix it right now. For a household that depends on that balance to buy groceries this week, the message doesn't read as something to research; it reads as an emergency that has to be resolved immediately, which is exactly the reaction the scam is built to produce.
 
