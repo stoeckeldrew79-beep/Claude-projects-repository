@@ -6948,6 +6948,9 @@ The unraveling began not with a skeptical historian but with a money dispute. De
 
 The financial reckoning took years to catch up with the emotional one. A Massachusetts appeals court ruled in 2014 that the fraud Defonseca had perpetrated on the court itself voided her half of the 2002 judgment, ordering her to return the $22.5 million rather than collect it — while Jane Daniel remained separately on the hook for close to $10 million owed to ghostwriter Vera Lee over the same royalty dispute. The case is now taught as a cautionary example in publishing circles and in Holocaust-education contexts alike: a fabricated survivor story not only defrauded a publisher and misled readers worldwide, but also appropriated the real historical suffering of Holocaust victims and diverted public sympathy and shelf space away from genuine survivor testimony, a harm memoir fraud specialists distinguish from ordinary financial scams precisely because the currency being stolen is collective memory as much as money.`,
     sourceUrl: 'https://en.wikipedia.org/wiki/Misha_Defonseca',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/H%C3%B4tel_communal_de_Schaerbeek_-_Plaque_comm%C3%A9morative_(1).jpg?width=1200',
+    coverImageCredit: 'Photo: Lumixbx (CC BY-SA 3.0) — Schaerbeek town-hall WWII memorial plaque; the blank line once held her father Robert De Wael\'s name',
+    coverImagePosition: 50,
   },
   {
     title: 'Miss Cleo: The "Jamaican Shaman" Behind a $1 Billion Psychic Hotline Scam',
@@ -6962,6 +6965,10 @@ More than two thousand consumer complaints and lawsuits from multiple state atto
 
 Miss Cleo's boisterous television persona made the case a pop-culture punchline — she was parodied on "Saturday Night Live" and referenced constantly in comedy for years afterward — which had the odd effect of obscuring how large and serious the underlying fraud actually was: a nine-figure debt-forgiveness settlement remains, by dollar volume, one of the biggest consumer-fraud resolutions the FTC has ever extracted from a single pay-per-call operation. Harris spent her later years largely out of the spotlight, doing occasional interviews about her real background and her regret at being remembered mainly as a punchline for a scheme she said she hadn't personally designed, before dying of cancer in 2016 at age 53. The case remains a reference point for regulators warning about "free" psychic, tarot, and horoscope hotlines: the greeting is free, the warning goes, but the line that follows almost never is.`,
     sourceUrl: 'https://en.wikipedia.org/wiki/Miss_Cleo',
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Tarot_cards_-_Celtic_cross_spread.jpg?width=1200',
+    coverImageCredit: 'Photo: Nosferattus (CC0)',
+    coverImagePosition: 50,
   },
   {
     title: 'The Fox Sisters: The Toe-Cracking Hoax That Launched a Religion Believed by Millions',
@@ -6978,6 +6985,9 @@ The most dramatic reversal came on October 21, 1888, when Margaret Fox — by th
 
 All three sisters died within five years of the confession, in poverty: Leah in 1890, Kate in 1892, and Margaret in 1893, none of them having profited long-term from a movement that, by some later estimates, involved money and property changing hands from believers to mediums on a scale never fully reconstructed. The Fox sisters' case remains a foundational reference point for consumer-protection and skeptic organizations alike, not because of a single large theft but because it demonstrates how a small, technically simple deception — two children cracking their toe joints — could be scaled, through showmanship and an audience's own desire to believe, into decades of commercial exploitation of the bereaved, a pattern that reappeared in the 20th and 21st centuries in psychic hotlines, spiritual advisers, and fake mediums that regulators still pursue today.`,
     sourceUrl: 'https://en.wikipedia.org/wiki/Fox_sisters',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Kate_and_Maggie_Fox,_Spirit_Mediums_from_Rochester,_New_York.jpg?width=1200',
+    coverImageCredit: 'Photo: Thomas Martin Easterly, 1852 daguerreotype (public domain)',
+    coverImagePosition: 50,
   },
   {
     title: "William Mumler and the Spirit Photograph That Sold Grief Back to the Bereaved",
@@ -6992,6 +7002,9 @@ Suspicion caught up with him twice. In Boston in the mid-1860s, several sitters 
 
 The acquittal did not restore his reputation. The trial's extensive press coverage had already walked the public through, in exhaustive technical detail, how spirit photography was almost certainly faked, and Mumler's business never recovered its earlier scale. He continued limited spirit-photography work in Boston through the 1870s, patented a genuine and commercially useful photographic printing process along the way, and died in poverty in 1884; his obituaries focused mainly on his legitimate technical contributions to photography, mentioning the spirit-photograph scandal only in passing. His central image of Mary Todd Lincoln remains one of the most reproduced photographs in the history of the medium, cited today less as evidence of the paranormal than as an early case study — taught in photography, journalism, and consumer-fraud contexts alike — in how a new technology's mysteries can be marketed to a grieving public as proof of something it was never capable of showing.`,
     sourceUrl: 'https://en.wikipedia.org/wiki/William_H._Mumler',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Mumler_(Lincoln).jpg?width=1200',
+    coverImageCredit: 'Photo: William H. Mumler, c. 1872 — his famous "Mary Todd Lincoln with the ghost of Abraham Lincoln" spirit photograph (public domain)',
+    coverImagePosition: 50,
   },
 ];
 
