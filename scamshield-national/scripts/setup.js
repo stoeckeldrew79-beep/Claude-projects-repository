@@ -32,6 +32,8 @@ if (!existsSync(envPath)) {
   console.log('\nbackend/.env already exists — leaving it as is.');
 }
 
+// The root package holds `concurrently`, which `npm run dev` needs.
+run('npm', ['install'], root);
 run('npm', ['install'], path.join(root, 'backend'));
 run('npm', ['install'], path.join(root, 'frontend'));
 run('npm', ['run', 'migrate'], path.join(root, 'backend'));
