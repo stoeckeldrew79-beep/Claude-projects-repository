@@ -6208,10 +6208,9 @@ const GUIDE_ARTICLES: SeedArticle[] = [
     slug: 'romance-scams-warning-signs',
     author: 'ScamShield Editorial',
     tags: ['guide', 'romance'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Smartphone_dating_app_illustration.jpg?width=1200',
-    coverImageCredit: 'Photo: Santeri Viinamäki (CC BY-SA 4.0)',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/DatingScamPassport.jpg?width=1200',
+    coverImageCredit: 'U.S. State Department (Public Domain) — a falsified passport used in an actual internet romance scam',
     coverImagePosition: 50,
-    // representative photo — replace with an exact match if found
     sourceUrl: 'https://consumer.ftc.gov/romance-scams',
     body: `A romance scam starts like an ordinary online connection — a dating app match, a friend request, a comment on a post — and moves fast toward intimacy. Within days or weeks, the scammer is expressing deep feelings, planning a future together, and finding reasons a video call or in-person meeting can't quite happen yet: they're on a remote oil rig, deployed overseas, or working on an international contract.
 
@@ -6859,9 +6858,9 @@ Every state's land records or county recorder's office lets you check your own d
     slug: 'fake-check-overpayment-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'fake-check-scams'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Blank_check.jpg?width=1200',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Check_used_in_Internet_scam_with_victims_name_removed.JPG?width=1200',
+    coverImageCredit: 'Photo: Tomwsulcer (CC0) — an actual fraudulent check from a Craigslist overpayment scam, victim\'s name redacted',
     coverImagePosition: 50,
-    // representative photo — replace with an exact match if found
     sourceUrl: 'https://consumer.ftc.gov/articles/how-spot-avoid-and-report-fake-check-scams',
     body: `A stranger sends a check for more than what's actually owed — for a job, a sold item, a "mystery shopper" assignment, or a sweepstakes prize — and asks the recipient to deposit it, then wire back or send via gift card the difference, framed as a refund, a fee, or funds meant for a third party. The check is fake, but by the time that becomes clear, the victim has already sent their own real money to the scammer.
 
@@ -10940,6 +10939,10 @@ Anyone who receives one of these messages should not click the link, provide per
     slug: 'vacant-land-seller-impersonation-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'vacant-land-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/LAND_FOR_SALE_IN_COOS_BAY_AREA_-_NARA_-_545049.jpg?width=1200',
+    coverImageCredit: 'Photo: Gene Daniels / U.S. EPA DOCUMERICA, via National Archives (Public Domain)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.ic3.gov/PSA/2026/PSA260616',
     body: `Vacant land is an unusually easy target for fraud precisely because nobody is watching it. A parcel with no mortgage, no house, and an owner who lives out of state — or has passed away — can sit unmonitored for years, giving a scammer plenty of room to pose as the legitimate owner and sell it out from under them without anyone noticing until the real owner tries to use the property or pays the next tax bill.
 
@@ -10956,6 +10959,10 @@ Anyone who suspects a vacant land parcel has been sold without their knowledge, 
     slug: 'medical-discount-plan-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'medical-discount-plan-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/New_US_Medicare_Card_Sample_2018.jpg?width=1200',
+    coverImageCredit: 'Photo: Medicare.gov (Public Domain, U.S. Government)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.ftc.gov/media/79880',
     body: `Medical discount plans are a legal product, but they are not health insurance, and the entire scam depends on blurring that distinction. A telemarketer, a slick website, or a booth at a job fair offers coverage that sounds comprehensive — doctor visits, hospital stays, prescriptions, sometimes even dental and vision — for a monthly premium that looks like a bargain next to a real health plan. What's actually being sold is a membership card that entitles the holder to a discount at a limited network of providers, if those providers agree to honor it at all. There is no claims payment, no coverage for a hospital bill, and no protection against a major medical event — the entire "benefit" is a maybe-lower price at checkout.
 
@@ -10972,6 +10979,9 @@ Anyone who bought a plan believing it was real health insurance, or who spots th
     slug: 'we-buy-houses-predatory-cash-offer-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'we-buy-houses-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/We_Buy_Houses.jpg?width=1200',
+    coverImageCredit: 'Photo: Alan Stanton (CC BY-SA 2.0)',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.aarp.org/advocacy/fighting-we-buy-home-schemes/',
     body: `The yard signs and postcards are familiar: "We Buy Houses — Cash — Any Condition — Fast Close." Some of the companies behind them are legitimate real estate investors offering a genuinely convenient trade-off — speed and certainty in exchange for a lower price. But a significant slice of this industry, known as residential wholesaling, is built around finding homeowners who won't shop the offer around, locking them into a contract at a steep discount, and then reselling that contract to an actual investor for a quick profit — sometimes tens of thousands of dollars — without the original seller ever knowing their home was flipped before it even closed.
 
@@ -10988,6 +10998,10 @@ Before signing anything, a homeowner considering a cash offer should ask a real 
     slug: 'child-protective-services-impersonation-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'cps-impersonation-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Man_talking_on_the_phone_in_Montr%C3%A9al-Pierre_Elliott_Trudeau_International_Airport_006.jpg?width=1200',
+    coverImageCredit: 'Photo: Wilfredor (CC0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://dcyf.wa.gov/services/foster-parenting/scam-calls-2021',
     body: `A caller identifies themselves as a caseworker from Child Protective Services, the Department of Social Services, or a similarly named state child-welfare agency. They say a complaint has been filed — a teacher, neighbor, or anonymous tipster reported suspected neglect or abuse — and that a case is now open on the family. To avoid an immediate home visit, a supervised removal, or an arrest, the caller says, the parent needs to act right now: confirm identifying details, pay a "compliance fee" or "bond" to keep the case from escalating, or stay on the line with a supposed supervisor or attorney who reinforces the threat. Some versions target foster and adoptive parents specifically, leaving voicemails about a fabricated "serious felony" tied to their license and demanding a callback.
 
@@ -11004,6 +11018,10 @@ Anyone who receives one of these calls should hang up without providing any info
     slug: 'school-payment-portal-phishing-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'school-phishing-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/20111025-FNS-RBN-1916_-_Flickr_-_USDAgov.jpg?width=1200',
+    coverImageCredit: 'Photo: U.S. Department of Agriculture (Public Domain)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://dos.ny.gov/news/back-school-alert-ahead-new-school-year-nys-department-states-division-consumer-protection',
     body: `A text message arrives claiming to be from a child's school district, warning that their meal account balance is overdue or that a fee is unpaid, with a link to "resolve" it before lunch service is affected. The message uses the real district's name and mimics the look of legitimate parent-communication platforms like ParentSquare, PowerSchool, or a cafeteria payment app such as MySchoolBucks. The link leads to a convincing fake payment page that asks for a debit or credit card number, or in some versions, a login for the district's actual parent portal — handing scammers either a payment card or credentials that can be reused to access other accounts using the same password.
 
@@ -11020,6 +11038,10 @@ Anyone who clicked a link and entered payment or login information should immedi
     slug: 'police-firefighter-veteran-charity-telemarketing-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'charity-fraud'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Firefighters_Fill-the-Boot_Fundraising_Drive_Kickoff_(9512823808).jpg?width=1200',
+    coverImageCredit: 'Photo: Seattle City Council (CC0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://consumer.ftc.gov/articles/what-know-donating-help-first-responders-active-duty-military-veterans-and-their-families',
     body: `A phone call comes in from an organization with a name that sounds exactly like what it claims to be — something like the "Disabled Police Officers Fund" or the "Coalition of Police and Sheriffs" — asking for a donation to help injured officers, fallen firefighters' families, or wounded veterans. Unlike disaster-appeal charity scams that flare up after a hurricane or wildfire and then disappear, this style of fraud runs continuously, year-round, powered by professional for-profit telemarketing firms that call on behalf of thinly staffed or entirely sham nonprofits with a name deliberately close to a real, well-known organization.
 
@@ -11036,6 +11058,9 @@ Anyone who suspects they've donated to a sham police, firefighter, or veteran ch
     slug: 'boss-pastor-gift-card-impersonation-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'gift-card-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Roblox_gift_cards.jpg?width=1200',
+    coverImageCredit: 'Photo: 3df (CC BY-SA 4.0)',
+    coverImagePosition: 50,
     sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2026/01/no-thats-not-your-boss-asking-you-buy-gift-cards',
     body: `A text or email arrives that looks like it's from a supervisor, a company owner, or — in a widely reported church variant — a pastor or priest. The message says something urgent has come up: they're stuck in a meeting or traveling and can't talk, but they need a favor handled right away. Could the recipient run out and buy gift cards for a client appreciation gift, a surprise for an employee, or a family in need, then send back the card numbers and PINs so they can be used immediately? The tone is friendly but pressed for time, precisely calibrated to make an employee or parishioner want to help quickly rather than question the request.
 
@@ -11052,6 +11077,10 @@ Anyone who gets a request like this should stop and verify it independently befo
     slug: 'can-you-hear-me-robocall-voice-signature-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'robocall-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Making_a_phone_call_outside_The_Black_Swan_-_geograph.org.uk_-_3728590.jpg?width=1200',
+    coverImageCredit: 'Photo: Basher Eyre (CC BY-SA 2.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.bbb.org/article/scams/5691-scam-alert-the-can-you-hear-me-phone-scam-is-still-ringing',
     body: `A call comes in from an unfamiliar number, and when it's answered, a voice — sometimes a live person, sometimes a recording — asks a simple, seemingly harmless question: "Can you hear me?" The instinctive answer is "yes," and that's exactly what the call is designed to capture. The scam has circulated in waves for years, periodically resurfacing as a new round of warnings from consumer protection groups, precisely because the premise is so simple it barely needs updating.
 
@@ -11068,6 +11097,10 @@ The safest response is not to answer unfamiliar numbers at all and let them go t
     slug: 'bbb-impersonation-phishing-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'impersonation-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Phishing_attempt.png?width=1200',
+    coverImageCredit: 'Photo: Chris Lappas (CC BY-SA 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.bbb.org/all/spot-a-scam/how-to-spot-a-bbb-impostor',
     body: `An email lands in a small business owner's inbox with the Better Business Bureau's logo across the top, warning that a customer has filed a formal complaint and that the business has a limited window to respond before the complaint becomes public or "affects" its rating. A link promises to show the complaint details or let the business file an appeal. In a different version, a phone caller identifies themselves as a BBB representative offering to fix a low rating, sell "accreditation," or help resolve debt — services the real BBB doesn't provide in the way the caller describes. Because the Better Business Bureau's actual job is handling exactly the kind of complaint the message describes, the impersonation lands with unusual credibility.
 
@@ -11084,6 +11117,10 @@ Anyone who receives a suspicious BBB-branded message should not click any links 
     slug: 'cash-advance-app-tip-fee-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'cash-advance-app-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Mobile_banking_deposit_(5494592023).jpg?width=1200',
+    coverImageCredit: 'Photo: Kendra Helmer / USAID (Public Domain)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2024/11/ftc-takes-action-against-online-cash-advance-app-dave-deceiving-consumers-charging-undisclosed-fees',
     body: `An ad for a cash advance app promises instant money before payday — "up to $500," available "on the spot," "in under 5 minutes," with no credit check and no interest. It sounds nothing like a payday loan, and legally it isn't marketed as one, but the Federal Trade Commission alleges the industry's most downloaded app, Dave, built its business on a gap between that pitch and what actually happens once someone links a bank account. In a November 2024 lawsuit, the FTC said few consumers who apply are ever offered anything close to the advertised $500 — one user quoted in the complaint said Dave "kept promising 500 for the past month and NEVER delivered," and another reported an approved advance of just $25.
 
@@ -11100,6 +11137,10 @@ Before linking a bank account to any cash-advance app, look specifically for a t
     slug: 'preapproved-loan-phone-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'loan-phishing-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Woman_engaged_in_a_phone_conversation_while_working_on_her_laptop_at_home.jpg?width=1200',
+    coverImageCredit: 'Photo: Shixart1985 (CC BY 2.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2025/09/ignore-unexpected-calls-about-loans-you-didnt-apply',
     body: `An unfamiliar number calls, and the person on the line says congratulations — you've been "prequalified" or "pre-approved" for a personal loan or debt consolidation offer. There's just one problem: whoever is answering never applied for one. The FTC issued a consumer alert about exactly this pattern in September 2025, describing callers who lean on urgency-flavored reassurance — phrases like "I hope you don't miss out" alongside a claim of "no pressure" in almost the same breath — to keep a confused target on the line long enough to start collecting personal information.
 
@@ -11116,6 +11157,10 @@ The FTC's core advice is not to engage at all: never provide a Social Security n
     slug: 'staged-slip-and-fall-insurance-fraud-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'staged-slip-and-fall-fraud'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Wet_floor_sign_in_an_office_in_Arlington.jpg?width=1200',
+    coverImageCredit: 'Photo: Ser Amantio di Nicolao (CC0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.nicb.org/news/blog/when-slip-fall-no-accident',
     body: `A customer walks into a retail store, restaurant, or parking lot, and moments later is on the ground claiming to have slipped on a wet floor, tripped over an uneven mat, or been struck by a falling display item. Sometimes it's exactly what it looks like: an accident on a genuinely hazardous floor. But the National Insurance Crime Bureau, which has investigated nearly 12,000 questionable slip-and-fall claims since 2015, says a significant share are staged from the start — engineered by a claimant, and sometimes a small ring of repeat participants, specifically to generate an insurance payout from the property owner's liability policy.
 
@@ -11132,6 +11177,10 @@ Consumers pay for this fraud indirectly: NICB and industry data tie rising liabi
     slug: 'stalkerware-secret-phone-monitoring-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'stalkerware'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Blackview_A60_Smartphone_Android_mobile_phone_front_face_lock_screen.jpg?width=1200',
+    coverImageCredit: 'Photo: Acabashi (CC BY-SA 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://consumer.ftc.gov/articles/stalkerware-what-know',
     body: `Stalkerware is commercial monitoring software, sold openly online and often marketed as a parental-control or "employee monitoring" tool, that someone with brief physical access to another person's phone installs secretly so they can track it without the owner ever agreeing to be watched. Once installed, it can silently report a phone's real-time GPS location, read text messages and emails, log call history, capture browsing activity, and in some versions remotely turn on the microphone or camera — all without a notification, an icon on the home screen, or any other visible sign that anything has changed.
 
@@ -11148,6 +11197,10 @@ Once it's safe to act, the most reliable fix is usually a full factory reset fol
     slug: 'counterfeit-unsafe-marketplace-product-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'counterfeit-product-safety'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/CBP_Officers_Seize_Counterfeit_Goods_(48536232982).jpg?width=1200',
+    coverImageCredit: 'Photo: CBP Photography (Public Domain)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.cpsc.gov/Newsroom/News-Releases/2026/Consumer-Safety-Alert-CPSC-Warns-Consumers-About-Fake-and-Counterfeit-Squishy-Toys-Reiterates-Warning-About-Serious-Burn-Hazards',
     body: `A listing on a major online marketplace shows a familiar-looking toy, phone charger, or piece of baby gear at a fraction of what it costs at a well-known retailer, sold by a third-party storefront with a generic name and thousands of glowing reviews. The item that arrives looks close enough to the real thing to pass a quick glance, and often does what it's supposed to do — at least at first. What it usually hasn't done is pass the safety testing that U.S. law requires, because it was never made by, or for, the brand whose look it's copying.
 
@@ -11164,6 +11217,10 @@ To shop more safely, buy directly from the brand's own website or a retailer aut
     slug: 'counterfeit-cash-private-sale-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'counterfeit-cash'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/ABP_seize_counterfeit_money_at_border_crossing_130210-A-MX357-314.jpg?width=1200',
+    coverImageCredit: 'Photo: Staff Sgt. Shane Hamann / U.S. Army (Public Domain)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.secretservice.gov/newsroom/behind-the-shades/2025/11/learn-how-spot-fake-money-it-reaches-your-wallet',
     body: `Counterfeit currency shows up most often exactly where a bank teller or store scanner isn't standing between buyer and seller: a private, in-person sale of a big-ticket item like electronics, tools, or a used car, arranged through an online marketplace and paid for in cash. A buyer hands over a folded stack of bills, often insisting on a quick count in a parking lot or dim doorway, with one or more counterfeit notes mixed in among genuine ones. The seller pockets the cash, the buyer leaves with the merchandise, and the fake bill isn't discovered until it's deposited at a bank or scanned by a retailer's counterfeit detector — by which point there's no way to track down who passed it. A related version involves novelty "prop money" made for films and social media, printed with small "For Motion Picture Use Only" text that's easy to miss, which occasionally gets passed off as real cash in stores or as change.
 
@@ -11180,6 +11237,10 @@ If you discover you're already holding a counterfeit bill, don't try to spend it
     slug: 'rent-to-own-same-as-cash-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'rent-to-own'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/20110219_099_Cort_Furniture_Rental,_Ohio_St._near_Dearborn_St_(5515669009).jpg?width=1200',
+    coverImageCredit: 'Photo: David Wilson (CC BY 2.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2021/06/ftc-sends-more-172-million-refunds-consumers-misled-rent-own-provider-progressive-leasing',
     body: `Rent-to-own financing is sold at furniture, electronics, and appliance stores as an easy alternative to a credit check: no application beyond basic identity and income verification, small weekly or biweekly payments, and marketing language like "same as cash" or "no interest" that implies the total cost will match the sticker price. What the pitch usually skips is that the agreement is legally a lease, not a purchase — the store retains ownership of the item until every scheduled payment is made — and that the price baked into those small recurring payments is marked up well above what the item costs to buy outright.
 
@@ -11196,6 +11257,10 @@ Because these agreements are legally leases, you can typically return the mercha
     slug: 'fake-service-animal-esa-certification-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'service-animal-fraud'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Service_dog.jpg?width=1200',
+    coverImageCredit: 'Photo: DLeuchovius (CC BY-SA 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.ada.gov/resources/service-animals-faqs',
     body: `Websites with official-sounding names — "National Service Animal Registry," "ADA Certification Services," and similar — sell instant service dog "certification," registration documents, and matching ID cards or vests, usually for somewhere between $50 and $150. A related version sells "emotional support animal" letters after nothing more than a short online quiz, promising approval in minutes without ever connecting the buyer to a real, state-licensed mental health professional. Both are marketed to sound like a legal requirement or an official government process that pet owners need to complete.
 
@@ -11212,6 +11277,10 @@ Don't pay anyone for service animal "certification" or "registration" — it isn
     slug: 'criminal-identity-theft-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'criminal-identity-theft'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Fingerprinting_exercise,_Agency_for_Education_and_Professional_Training,_Bosnia_and_Herzegovina.jpg?width=1200',
+    coverImageCredit: 'Photo: Bosancica by MK (CC BY-SA 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://consumer.georgia.gov/consumer-topics/identity-theft-criminal-identity-theft',
     body: `Most identity theft is about money — a stolen number used to open a card or drain an account. Criminal identity theft is different: someone who gets stopped, cited, or arrested by police gives an officer a name, date of birth, and other identifying details that belong to a real, unconnected person instead of their own, sometimes backed up with a stolen driver's license or ID card in that person's name. The officer has no way to know the information is false, so it goes into the police report, the citation, and eventually the court record exactly as given — under someone else's name. The actual defendant may show up for a hearing or may not, and either way, the paper trail that follows is the victim's, not theirs.
 
@@ -11228,6 +11297,10 @@ File a report at IdentityTheft.gov to get the FTC's step-by-step recovery plan a
     slug: 'fake-travel-booking-website-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'travel-booking-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Departures_board_at_Miami_Airport_in_Florida,_US.jpg?width=1200',
+    coverImageCredit: 'Photo: Bobby Hidy (CC BY-SA 2.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2025/06/how-avoid-travel-website-scams',
     body: `Someone searches for a flight, a hotel room, or a vacation package and clicks a paid search ad or a link from social media advertising a deal that beats every other result. The site looks like a normal booking platform — airline-style branding, a countdown clock, a seat map, a "confirm your reservation" button — and the purchase goes through cleanly, card number and all, ending with a confirmation number and an email receipt that looks entirely routine. The problem surfaces later: at the airport counter, the airline has never heard of the reservation, or at hotel check-in, there's no room held under that name, or the promised booking simply never gets flagged as real because the site collected payment and never actually made one.
 
@@ -11244,6 +11317,10 @@ Book directly through the airline's or hotel's own official site or app whenever
     slug: 'fake-military-draft-text-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'selective-service-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Parade_of_draft_men,_September_20,_1917_(MOHAI_5495).jpg?width=1200',
+    coverImageCredit: 'Photo: Webster & Stevens / Museum of History and Industry (Public Domain)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.fcc.gov/army-selective-service-warn-bogus-texts',
     body: `A text message arrives claiming the recipient has been "selected" for a new military draft, sometimes citing a fabricated executive order or an urgent-sounding case number, and instructing them to call a number or visit a link immediately to avoid fines or years in prison for failing to comply. The message is timed to land on people between roughly 18 and 25 — the same age range legally required to register with Selective Service — because that's the group most likely to believe a draft notice is even plausible, and often the group with the least experience telling a real government notice from a fake one.
 
@@ -11260,6 +11337,10 @@ Never click a link or call a number from an unsolicited draft-related text — i
     slug: 'fake-car-dealership-website-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'car-dealership-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Seattle_-_Smith-Gandy_car_dealership,_circa_1960s_(55091228432).jpg?width=1200',
+    coverImageCredit: 'Photo: Seattle Municipal Archives (CC BY 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2026/09/scammers-are-spoofing-car-dealership-websites-what-you-need-know',
     body: `A shopper searching for a hard-to-find vehicle — a rare muscle car, a discontinued classic, a specific trim that's sold out everywhere nearby — finds exactly what they're looking for on what appears to be a real, established dealership's website. The site isn't improvised: scammers now use AI tools to clone a legitimate dealer's actual site down to the logo, the inventory photos, the "About Us" page, and even fabricated glowing customer reviews, so the clone is functionally indistinguishable from the business it's copying. The listed vehicle is priced to be tempting but not implausible, and the "buying process" described on the site sounds professional, right down to a flexible-sounding return policy meant to lower a cautious buyer's guard.
 
@@ -11276,6 +11357,10 @@ Before sending any money, confirm the sale directly with the dealership using a 
     slug: 'play-to-earn-crypto-game-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'play-to-earn-crypto-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Playing_with_smartphone.jpg?width=1200',
+    coverImageCredit: 'Photo: Santeri Viinamäki (CC BY-SA 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.ic3.gov/PSA/2023/PSA230309',
     body: `A friendly stranger met online — through a dating app, social media, or even what looks like a wrong-number text — spends weeks building an ordinary-feeling relationship before mentioning a mobile game that pays real cryptocurrency for playing it. The game is framed as "play-to-earn": tend an animated farm, grow crops, level up a character, and the app displays rewards accumulating in real time, denominated in a cryptocurrency the player can supposedly cash out. To get started, the new player is walked through creating a crypto wallet, buying a modest amount of cryptocurrency, and depositing it into the game, with the promise that the more that's staked, the faster the in-game rewards grow.
 
@@ -11292,6 +11377,9 @@ Keep any cryptocurrency used for gaming or unfamiliar apps in a separate wallet 
     slug: 'ftc-impersonation-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'ftc-impersonation'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/ApexBuildingHighsmith.jpg?width=1200',
+    coverImageCredit: 'Photo: Carol M. Highsmith / Library of Congress (Public Domain)',
+    coverImagePosition: 50,
     sourceUrl: 'https://consumer.ftc.gov/ftc-impersonators',
     body: `A call, text, or email arrives from someone claiming to work for the Federal Trade Commission — sometimes using a real title, like "chief privacy officer," or a fabricated badge and case number to sound official. The message says the recipient's identity or bank account has been linked to money laundering, that a previous scam payment is finally being investigated, or that a refund from an FTC enforcement case is waiting and just needs to be "verified." Caller ID may display a Washington, D.C. number, and a follow-up email can even arrive from an address made to look like an official ftc.gov account.
 
@@ -11306,6 +11394,10 @@ If a caller, texter, or emailer claims to be from the FTC: don't move money, don
     slug: 'mobile-beta-testing-app-investment-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'beta-testing-app-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/OnePlus_Nord_smartphone_displaying_Android_home_screen.jpg?width=1200',
+    coverImageCredit: 'Photo: Gannu03 (CC BY-SA 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.ic3.gov/PSA/2023/PSA230814',
     body: `A relationship that started on a dating app, a networking site, or even a "wrong number" text eventually turns into a financial pitch: a new cryptocurrency trading or investment app, still in early testing, that the other person says is earning strong returns. Instead of a link to the Apple App Store or Google Play, the pitch comes with instructions to join through a mobile beta-testing platform — a legitimate category of service that developers use to distribute early app versions to a small group of testers before public release, outside the normal app store review process.
 
@@ -11320,6 +11412,10 @@ Don't download an investment, trading, or crypto app through a beta-testing plat
     slug: 'veterans-benefits-postcard-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'veterans-postcard-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Mailbox_and_newspaper_box_along_22nd_Avenue,_Fairbanks,_Alaska.jpg?width=1200',
+    coverImageCredit: 'Photo: RadioKAOS (CC BY-SA 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2026/08/how-spot-postcard-scam-targeting-veterans',
     body: `A postcard arrives addressed to a veteran or their spouse, printed with official-looking seals and formatting and referencing the recipient's own state, sometimes alongside the names of real VA programs like CHAMPVA or TRICARE For Life to make the mailing look like it belongs in the same family of legitimate correspondence. The postcard announces that the recipient qualifies for extra monthly money through something called a "Veterans Savings Program" — a program the FTC is explicit does not exist — and warns that they need to "call right away or risk losing out," building urgency into a piece of mail that most people would otherwise set aside to deal with later.
 
@@ -11336,6 +11432,10 @@ Don't call the number printed on an unsolicited postcard. If a mailing claims to
     slug: 'franchise-sales-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'franchise-sales-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Jazzercise_Franchise_Ann_Arbor_Michigan.JPG?width=1200',
+    coverImageCredit: 'Photo: Dwight Burdette (CC BY 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2026/03/protecting-franchisees-ftcs-case-against-xponential-fitness',
     body: `Buying a franchise is pitched as a shortcut around the riskiest part of starting a business: instead of building a brand from nothing, a buyer pays a franchise fee and ongoing royalties for the right to open a store under an established name, with training, marketing, and a proven playbook supposedly included. That pitch is real for plenty of franchise systems — but it's also exactly the story a deceptive franchisor tells a prospective buyer who has no independent way to check whether it's true, and federal regulators have brought a steady stream of cases against companies that sold that story while hiding the parts that would have talked buyers out of signing.
 
@@ -11352,6 +11452,10 @@ Before signing anything, read the full FDD during the entire 14-day window rathe
     slug: 'freight-fraud-cargo-theft-double-brokering-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'freight-cargo-theft'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Southeastern_Freight_Lines_truck.jpg?width=1200',
+    coverImageCredit: 'Photo: Indy beetle (CC0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.ic3.gov/PSA/2026/PSA260430',
     body: `A trucking company or freight broker gets what looks like a routine email from a business partner — a shipper, another broker, or a load board they already use — asking them to log into an account or download a "standard" carrier agreement. The link installs remote monitoring software instead, and from there the criminals aren't after a bank password; they're after control of a legitimate, trusted identity inside the freight industry, which they'll use to make an entire truckload of real cargo disappear.
 
@@ -11366,6 +11470,10 @@ Brokers, carriers, and shippers should verify any load, agreement, or destinatio
     slug: 'hospice-fraud-medicare-enrollment-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'hospice-fraud'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/A_NURSE_HELPS_AN_ELDERLY_PATIENT_LEAVE_LOUISVILLE_MEMORIAL_HOSPITAL._A_LIQUID_CHLORINE_BARGE_ON_THE_OHIO_RIVER_HAD..._-_NARA_-_543906.jpg?width=1200',
+    coverImageCredit: 'Photo: Bill Strode / U.S. EPA DOCUMERICA, via National Archives (Public Domain)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.ic3.gov/PSA/2026/PSA260603',
     body: `Hospice is meant for someone whose doctor has certified they have six months or less to live and who has chosen to stop curative treatment in favor of comfort care. Fraudsters have turned that program into a billing target aimed at people who aren't dying at all: a fraudulent hospice operator enrolls a healthy, independent Medicare beneficiary in hospice services the person never asked for and may not even know they're receiving, then bills Medicare as though that beneficiary were a terminal patient.
 
