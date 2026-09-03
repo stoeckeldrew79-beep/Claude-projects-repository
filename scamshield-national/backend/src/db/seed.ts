@@ -7529,10 +7529,9 @@ Rather than retreat, Wakefield relocated to the United States, where no comparab
     title: 'Greg Mortenson: The "Three Cups of Tea" Humanitarian Who Ran His Charity as His Personal ATM',
     slug: 'greg-mortenson-three-cups-of-tea-charity-fraud',
     author: 'ScamShield Editorial',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/K2_from_Concordia_-_3.jpg?width=1200',
-    coverImageCredit: 'Photo: Sallahuddin Shah, Wikimedia Commons (CC BY-SA 4.0) — K2, the mountain whose failed 1993 climb Mortenson credited as the origin of his charity work',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Greg_Mortenson_portrait.jpg?width=1200',
+    coverImageCredit: 'Photo: Central Asia Institute, Wikimedia Commons (CC BY-SA 3.0) — Greg Mortenson',
     coverImagePosition: 50,
-    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Greg Mortenson was born in St. Cloud, Minnesota, and spent much of his childhood in Tanzania, where his parents worked as educators and he grew up fluent in Swahili, before returning to the United States and graduating from the University of South Dakota in 1983 with degrees in liberal studies and nursing. In 1993, Mortenson attempted to climb K2, the world's second-highest and among its most dangerous mountains, in memory of his sister Christa, who had died of epilepsy-related complications; he failed to summit and, in his own retelling, stumbled exhausted into the remote Pakistani village of Korphe in the Karakoram range, where villagers nursed him back to health. That encounter became the founding story of his career: moved by the village's lack of a school, Mortenson said he vowed to return and build one, and in 1996 he co-founded the Central Asia Institute (CAI) with Silicon Valley physicist Jean Hoerni to fund schools, especially for girls, across remote Pakistan and Afghanistan.
 
