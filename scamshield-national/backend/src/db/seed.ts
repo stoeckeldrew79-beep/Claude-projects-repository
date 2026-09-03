@@ -29532,6 +29532,42 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ["Arizona Attorney General's Office"],
     sourceUrl: 'https://www.azag.gov/press-release/attorney-general-mayes-warns-arizonans-package-notification-could-be-scam',
   },
+  {
+    name: '"Workers\' Compensation Board" Fake Online Hearing Scam',
+    slug: 'wisconsin-fake-workers-compensation-hearing-scam',
+    description:
+      'The Wisconsin Department of Workforce Development issued a warning on July 20, 2026 about a sophisticated multi-state fraud scheme targeting workers with an active worker\'s compensation claim, in which scammers impersonate a fake agency calling itself the "Workers\' Compensation Board" and send emails, often from a "@workcompcourt.org" domain, directing the recipient to attend an "online worker\'s compensation hearing" over a video-calling platform such as Zoom, Microsoft Teams, or WhatsApp. On the call, the fraudsters stage an elaborate fake proceeding complete with actors posing as a judge, bailiff, and attorneys, then tell the injured worker their case has been decided in their favor and they\'ve been awarded a settlement — but that they must first pay processing fees and hand over personal identifying information before any money can be released. DWD said it had already fielded reports from at least 10 Wisconsin workers, with the scheme disproportionately targeting Spanish-speaking individuals. The department stressed that Wisconsin\'s real Worker\'s Compensation Division schedules hearings only by physical, written letter, never by a video-call invitation, and that any attorney legitimately representing a party in a Wisconsin worker\'s compensation case must be licensed to practice law in the state, a status that can be verified through the State Bar of Wisconsin. Injured workers who receive an unsolicited email or message about a "hearing" for their claim are advised not to click any links or join any video call arranged this way, and to instead call a Worker\'s Compensation Division specialist directly at (608) 266-1340 to confirm whether any hearing has actually been scheduled.',
+    categorySlug: 'government-impersonation',
+    country: 'US',
+    state: 'WI',
+    alertLevel: 'high',
+    sources: ['Wisconsin Department of Workforce Development'],
+    sourceUrl: 'https://dwd.wisconsin.gov/press/2026/260720-scam-warning.htm',
+  },
+  {
+    name: 'Centurion Filing Services "Certificate of Good Standing" Markup Scheme',
+    slug: 'rhode-island-certificate-of-good-standing-markup-scheme',
+    description:
+      'Rhode Island Attorney General Peter Neronha sued Centurion Filing Services, LLC (doing business as RI Certificate Services), Business Document Center, LLC, and their principal, Florida resident Dean Marshlack, alleging the trio mined the Rhode Island Secretary of State\'s public, weekly list of newly registered businesses and mailed those owners official-looking solicitations claiming an additional filing step — a Certificate of Good Standing — was required to complete their registration. Consumers who paid the $84.50 or $87.25 fee the defendants charged had no way of knowing the same certificate cost only $7 for a nonprofit or $22 for a for-profit business when ordered directly from the Secretary of State, markups the state calculated at roughly 384% for for-profit companies and at least 1,200% for nonprofits, with the defendants simply pocketing the difference after filing the real, far cheaper request on the business\'s behalf. The lawsuit, filed in Providence County Superior Court, estimated the defendants had targeted more than 10,000 newly registered Rhode Island businesses and nonprofits and accused them of violating the state\'s Deceptive Trade Practices Act. "For too long, the defendants named in today\'s Superior Court complaint have deceived hard working business owners out of money they could have instead used to operate their enterprises," Neronha said. A Certificate of Good Standing is not required to complete a new business\'s initial registration at all, and any Rhode Island business owner who receives a mailer demanding payment for one is advised to ignore it and, if a certificate is actually needed later, to order it directly through the Secretary of State\'s website at its real, much lower price.',
+    categorySlug: 'business-email-compromise',
+    country: 'US',
+    state: 'RI',
+    alertLevel: 'medium',
+    sources: ["Rhode Island Attorney General's Office"],
+    sourceUrl: 'https://riag.ri.gov/press-releases/attorney-general-files-lawsuit-halt-certificate-good-standing-scheme-targeting-ri',
+  },
+  {
+    name: "Chase's Train Garage Model Train Preorder Scam",
+    slug: 'ohio-chases-train-garage-model-train-preorder-scam',
+    description:
+      'Ohio Attorney General Dave Yost sued Brecksville resident Chase D. Wheeler on May 13, 2026, accusing him of running Chase\'s Train Garage, an online business that advertised limited-edition, collectible model trains from manufacturer Broadway Limited Imports for preorder through social media and online marketplaces, collected full payment up front from customers who were told their trains would ship once released, then never actually purchased the trains from the manufacturer at all. According to the lawsuit, filed in Cuyahoga County Common Pleas Court, Wheeler kept the money, never delivered the products, and refused to issue refunds even as complaints piled up with the Ohio Attorney General\'s Consumer Protection Section starting in August 2025. "This guy\'s sales practices went off the rails. Cheating customers out of what they pay for isn\'t the way business is done in Ohio," Yost said. The lawsuit alleges violations of Ohio\'s Consumer Sales Practices Act and seeks restitution for the affected hobbyists, injunctive relief, and civil penalties. The case is a reminder that a preorder for a collectible item, especially one paid for in full months before it is due to ship, carries real risk when the seller is an individual running an online storefront rather than an established retailer, and that paying by credit card rather than debit card, gift card, or payment app offers the best chance at recovering the money if a "preorder" never arrives.',
+    categorySlug: 'online-shopping-scams',
+    country: 'US',
+    state: 'OH',
+    alertLevel: 'medium',
+    sources: ["Ohio Attorney General's Office"],
+    sourceUrl: 'https://www.ohioattorneygeneral.gov/Media/News-Releases/May-2026/Yost-Sues-Online-Seller-of-Model-Trains-for-Failur',
+  },
 ];
 
 async function seedCategoriesAndScams() {
