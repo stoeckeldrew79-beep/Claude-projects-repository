@@ -28399,6 +28399,42 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Pennsylvania Office of Attorney General'],
     sourceUrl: 'https://www.attorneygeneral.gov/taking-action/attorney-general-sunday-alerts-pennsylvanians-of-an-uptick-in-government-imposter-scams-posing-as-local-county-sheriff-offices/',
   },
+  {
+    name: 'Alaska Crypto ATM Elder Panic-Call Scam',
+    slug: 'alaska-crypto-atm-elder-panic-call-scam',
+    description:
+      'Alaska Attorney General Treg Taylor\'s office (under Department of Law head Stephen Cox) warned in April 2026 that criminals are increasingly directing older Alaskans to feed cash into cryptocurrency ATMs after high-pressure calls designed to create panic — posing as law enforcement claiming the victim missed jury duty or faces arrest unless they pay a "fine" or "bail," as a bank fraud department urging the victim to move money into crypto to "protect" it, or, using AI voice-cloning, as a family member in a manufactured emergency who suddenly needs bail money wired immediately. "Crypto isn\'t the problem — criminals are," Cox said, stressing that no legitimate business, bank, or law enforcement officer will ever ask someone to feed cash into a crypto ATM, for bail, "protection," or any other reason, and that the right response is to hang up immediately without arguing or explaining. The warning followed the collapse of Bitcoin Depot, one of the two largest crypto ATM operators used in these scams nationwide, whose kiosks in Alaska and elsewhere were exploited by unrelated scammers; the company\'s Chapter 11 bankruptcy in the U.S. Bankruptcy Court for the Southern District of Texas opened a claims process for Alaskans who lost money through its machines, though the Attorney General\'s office separately warned that people should never give personal information to an unsolicited caller offering to help file that claim. Community groups can request a scam-prevention presentation from the Consumer Protection Unit at consumerprotection@alaska.gov or 907-269-5200.',
+    categorySlug: 'government-impersonation',
+    country: 'US',
+    state: 'AK',
+    alertLevel: 'critical',
+    sources: ["Alaska Department of Law, Office of the Attorney General"],
+    sourceUrl: 'https://law.alaska.gov/press/releases/2026/042926-CryptoATM.html',
+  },
+  {
+    name: 'Nevada Over-the-Counter Hearing Aid Deceptive Marketing Scam',
+    slug: 'nevada-over-the-counter-hearing-aid-deceptive-marketing-scam',
+    description:
+      'Nevada Attorney General Aaron Ford\'s Bureau of Consumer Protection has warned residents, most recently during National Speech-Language-Hearing Month in May 2026, that sellers of over-the-counter hearing devices are misleading consumers with website displays of "FDA Registration Certificates" — documents styled to look official and often bearing the FDA logo — placed next to product photos to imply the device has been approved, cleared, or endorsed by the agency. In reality, the alert explains, federal law only requires medical device companies to register and list their products with the FDA, a bookkeeping step that indicates nothing about safety or effectiveness, and many of the devices marketed this way are legally just sound amplifiers rather than regulated hearing aids, meaning they may not work for someone with actual hearing loss and could make it worse. The Attorney General\'s office recommends consulting a licensed hearing specialist or audiologist before buying, verifying the seller through the Better Business Bureau, reading return and refund policies closely before paying, treating suspiciously low prices and glowing online reviews with skepticism, and filing a complaint with the Bureau of Consumer Protection at 702-486-3132 (Las Vegas) or 775-684-1180 (Reno) over any device marketed with misleading FDA claims.',
+    categorySlug: 'healthcare-fraud',
+    country: 'US',
+    state: 'NV',
+    alertLevel: 'medium',
+    sources: ['Office of the Nevada Attorney General, Bureau of Consumer Protection'],
+    sourceUrl: 'https://ag.nv.gov/News/PR/2025/Attorney_General_Ford_Warns_Nevadans_about_Deceptive_Over-the-Counter_Hearing_Aids/',
+  },
+  {
+    name: 'Wisconsin AI-Voice Loan Pre-Approval Robocall Scam',
+    slug: 'wisconsin-ai-voice-loan-preapproval-robocall-scam',
+    description:
+      'The Wisconsin Department of Agriculture, Trade and Consumer Protection (DATCP) reported a spike in July 2026 of AI-generated robocalls that impersonate loan officers offering a specific personal-loan "pre-approval" — callers give a first and last name (examples on file include "Grace Peters," "Anna Anderson," "Zack Kennedy," and "Elizabeth Turner"), cite a precise loan amount between roughly $20,000 and $30,000, a fixed interest rate around 5.5–5.8%, and a monthly payment estimate, but never name an actual bank or lender. The calls work current events into the script — one referenced incoming Federal Reserve leadership — to sound current and credible, and are built to sound like a real person rather than a robot, but DATCP says their actual purpose is harvesting the personal and financial information a caller gives up while trying to accept the "offer," not originating a real loan. "If we get consumers to just hang up ... that will be a great advantage," said Michelle Reinen of DATCP\'s Bureau of Consumer Protection, who recommends letting unrecognized numbers go to voicemail, using a carrier\'s call-blocking features, never confirming personal or account details to an inbound caller, and filing a complaint with DATCP\'s Consumer Protection Hotline at 800-422-7128 or online at ConsumerProtection.wi.gov.',
+    categorySlug: 'phishing',
+    country: 'US',
+    state: 'WI',
+    alertLevel: 'high',
+    sources: ['Wisconsin Department of Agriculture, Trade and Consumer Protection (DATCP)'],
+    sourceUrl: 'https://www.wbay.com/2026/07/22/loan-scam-calls-spike-wisconsin-officials-warn-ai-powered-fraud/',
+  },
 ];
 
 async function seedCategoriesAndScams() {
