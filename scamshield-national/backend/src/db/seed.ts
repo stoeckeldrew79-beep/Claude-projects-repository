@@ -24213,6 +24213,39 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Ministère de l\'Intérieur (Ma Sécurité)', 'Banque de France'],
     sourceUrl: 'https://www.masecurite.interieur.gouv.fr/fr/fiches-pratiques/famille-et-aides-aux-victimes/comment-se-proteger-arnaques-cheques-bancaires',
   },
+  {
+    name: 'Swedish Mass-Mailed Fake Invoice Fraud (Fakturabedrägeri)',
+    slug: 'sweden-mass-invoice-fraud-fakturabedrageri',
+    description:
+      'An email carrying a fabricated invoice lands in a Swedish business\'s own accounting inbox — often a shared function address like faktura@bolaget.se — with forged Swedish-language dialogue inserted into the message body to make it look like a genuine internal exchange confirming an outstanding bill, even though no such conversation ever took place. Every detail on the attached invoice is fake except the payment account, which routes to one of dozens of accounts scattered across other countries rather than Sweden. Svensk Handel\'s industry-run Varningslista recorded a 125% jump in published fraud warnings during 2025 versus the year before, with over half tied to this exact pattern and a sharp escalation since August 2025 that its warning-list coordinator, Ludvig Isacsson, called unprecedented in both volume and how fast the fraudsters change tactics; investigators traced 82 different recipient bank accounts spread across eight countries. Because the forged internal-sounding dialogue is specifically built to slip past routine accounts-payable review, Svensk Handel advises verifying any unexpected invoice through a separately confirmed contact at the supposed sender, never a phone number or reply address taken from the email itself, before paying.',
+    categorySlug: 'business-email-compromise',
+    country: 'SE',
+    alertLevel: 'high',
+    sources: ['Svensk Handel'],
+    sourceUrl: 'https://www.svenskhandel.se/nyhetscenter/pressmeddelanden/rekordokning-av-fakturabedragerier/',
+  },
+  {
+    name: 'Swedish Corporate Registry Hijacking (Bolagskapning)',
+    slug: 'sweden-bolagskapning-corporate-hijacking-scam',
+    description:
+      'A fraudster files a change-of-board notification with Bolagsverket, Sweden\'s Companies Registration Office, falsely declaring that a company\'s real board and CEO have resigned and naming themselves as the new board, signatory, or registered address, sometimes backed by forged meeting minutes purporting to show a sale of shares — a filing Bolagsverket processes without first confirming it with the actual owners. Once the change is registered, the fraudster can open accounts, sign contracts, take out loans, and drain the company\'s bank accounts in its own name, all before the legitimate owners learn the filing was ever made. Sweden made falsely representing a company this way a crime punishable by up to two years\' imprisonment starting January 1, 2025, and Bolagsverket now offers a free monitoring service that sends an immediate notification to a registered email address and digital mailbox the moment any change filing — a new board member, signatory, or address — is submitted for a company, giving real owners a chance to object before it takes effect.',
+    categorySlug: 'identity-theft',
+    country: 'SE',
+    alertLevel: 'high',
+    sources: ['Bolagsverket (Swedish Companies Registration Office)'],
+    sourceUrl: 'https://bolagsverket.se/foretag/skyddadittforetag/skyddadittforetagmotkapning.1211.html',
+  },
+  {
+    name: 'Swedish Investment Firm "Clone" Fraud (Klonbedrägeri)',
+    slug: 'sweden-investment-firm-clone-fraud-klonbedrageri',
+    description:
+      'Fraudsters build a professional-looking trading or investment website under a name deliberately borrowed from a real, already-established financial company, so that a cautious investor who searches for the name finds a mix of genuine news coverage and the fake site side by side, lending the fraud unearned credibility that a wholly invented company name would not have. Finansinspektionen\'s public warning list documents dozens of these "clone" cases, including a March 2026 warning that a fraudulent operation at ratos.capital was falsely trading on the name of Ratos, the real, Nasdaq Stockholm-listed Swedish investment company, to offer securities trading to Swedish investors, and a separate clone impersonating MedMera Bank, the retail cooperative Coop\'s own consumer bank. FI states plainly that recognizing a familiar company name is not enough proof of legitimacy: every firm actually authorized to do business in Sweden is listed in FI\'s own company register, a separate check from its warning list of known fraudulent names, and only checking that register confirms whether the company that contacted you is the real one or a clone wearing its name.',
+    categorySlug: 'investment-fraud',
+    country: 'SE',
+    alertLevel: 'high',
+    sources: ['Finansinspektionen (Swedish Financial Supervisory Authority)'],
+    sourceUrl: 'https://www.fi.se/sv/vara-register/fis-varningslista/',
+  },
 ];
 
 async function seedCategoriesAndScams() {
