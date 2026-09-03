@@ -4212,6 +4212,10 @@ The Tichborne case cost the parties involved roughly £90,000 in legal fees at t
     slug: 'philip-arnold-john-slack-great-diamond-hoax-1872',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Flaming_Gorge._Green_River,_Wyoming_-_NARA_-_519464.jpg?width=1200',
+    coverImageCredit: 'Photo: Timothy H. O\'Sullivan / Fortieth Parallel Survey, 1872 (Public Domain)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `In late 1870, two Kentucky cousins named Philip Arnold and John Slack walked into the San Francisco offices of banker William Ralston with a leather bag of uncut diamonds and other gems, claiming to have stumbled onto a rich, secret diamond field somewhere out West. Arnold, a former prospector who had once worked for one of Ralston's associates, played the reluctant discoverer perfectly — cagey about the exact location, wary of investors, and willing to be "convinced" to accept money only after considerable persuasion. It was exactly the performance needed to make ambitious San Francisco financiers believe they'd found the deal of a lifetime.
 
 Ralston and a circle of wealthy backers paid Arnold and Slack for a stake in the supposed mine and financed an expedition to verify it, during which the pair blindfolded their own investors for "secrecy" before leading them to a remote site near the Colorado-Wyoming border that the two men had, in fact, spent months secretly salting with inferior diamonds and other gems bought in London and Amsterdam. A sample was sent to Charles Lewis Tiffany of Tiffany & Co., who — despite having no real experience appraising uncut stones — valued the parcel at roughly $150,000, lending the scheme priceless credibility. Mining engineer Henry Janin, hired to inspect the field independently, found gems seemingly everywhere he dug and endorsed the discovery enthusiastically, collecting shares in the new venture as part of his fee before any real due diligence had occurred. Investors formed the New York Mining and Commercial Company and poured in roughly $600,000, implicitly valuing the "mine" at many millions more.
@@ -4873,10 +4877,9 @@ What ultimately became of Thompson himself is thinly documented — contemporary
     slug: 'kakuei-tanaka-lockheed-bribery-scandal',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/National_Diet_Building_-_Tokyo,_Japan_-_DSC06736.JPG?width=1200',
-    coverImageCredit: 'Photo: public domain (CC0)',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Kakuei_Tanaka_PM.jpg?width=1200',
+    coverImageCredit: 'Photo: Higuchi Susumu / Bungei Shunju, 1954 (Public Domain)',
     coverImagePosition: 50,
-    // representative photo — replace with a portrait if found
     body: `Kakuei Tanaka rose from a poor rural upbringing with no university education to become Japan's prime minister in 1972, a self-made political operator known for both his construction-industry fortune and his mastery of the money politics that ran Japan's ruling Liberal Democratic Party. He was forced to resign in 1974 after Japanese press exposés detailed how he'd used political funds to enrich himself personally, but he remained the country's most powerful political kingmaker from behind the scenes — which made it all the more explosive when, two years later, his name surfaced in a bribery scandal that had begun on the other side of the Pacific.
 
 In February 1976, U.S. Senate hearings into Lockheed Corporation revealed the American aerospace giant had paid roughly $22 million in bribes to foreign officials across multiple countries to win aircraft sales, and Japan was named as one of the destinations. Investigators traced payments through Lockheed's Japanese sales agent, the trading house Marubeni, to government and airline officials who could steer All Nippon Airways toward buying Lockheed's L-1011 TriStar over competing jets. On July 27, 1976, Tokyo prosecutors arrested Tanaka, alleging he had personally accepted 500 million yen — roughly $2.1 million — funneled through Marubeni in exchange for using his influence to push the TriStar purchase through.
@@ -4961,10 +4964,9 @@ Romand was tried in 1996, convicted of the murders, and sentenced to life impris
     slug: 'charles-van-doren-twenty-one-quiz-show-scandal',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Columbia_University_01.jpg?width=1200',
-    coverImageCredit: 'Photo: Momos (CC BY-SA 3.0)',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Charles-Van-Doren-Typewriter.jpg?width=1200',
+    coverImageCredit: 'Photo: TV Radio Mirror, June 1957 (Public Domain)',
     coverImagePosition: 50,
-    // representative photo — replace with a portrait if found
     body: `When NBC's quiz show Twenty-One premiered in 1956, it nearly failed instantly — its first broadcast produced such a lopsided, boring contest that sponsor Geritol and producers Jack Barry and Dan Enright decided the show needed a compelling villain and hero, and they had both the means and the willingness to manufacture one. The producers fed contestants questions and answers in advance, scripted their on-air hesitations and brow-mopping for suspense, and told them exactly when to win and when to lose, all to keep viewers hooked on a fixed morality play dressed up as a test of knowledge.
 
 The producers' first "star," Herbert Stempel, a blunt, unglamorous City College of New York student, was built up as the champion audiences were meant to root against, then instructed to intentionally answer an easy question wrong — naming the wrong Best Picture winner of 1955 — so the show could crown a more telegenic winner. That winner was Charles Van Doren, an instructor at Columbia University from one of America's most respected literary families; his father, Mark Van Doren, had won the Pulitzer Prize for poetry. Fed answers and staging notes by Enright, Van Doren won more than $129,000 over fourteen episodes, became a national celebrity, and was hired as a regular contributor on NBC's Today program.
@@ -5063,6 +5065,9 @@ Thompson died in 1974 in a Texas nursing home, largely broke — the one wager h
     slug: 'arnold-rothstein-black-sox-world-series-fix',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Arnold_Rothstein_(2a)_(1).jpg?width=1200',
+    coverImageCredit: 'Photo: New York Daily News, Oct. 29, 1920 (Public Domain)',
+    coverImagePosition: 50,
     body: `Arnold Rothstein built his fortune in early-20th-century New York as a bankroller — a man who financed other people's gambling operations, bootlegging routes, and loan-sharking rackets while rarely getting his own hands dirty, a caution that earned him the nickname "The Brain" and made him one of the wealthiest and most feared figures in the city's underworld. By 1919 he ran floating craps games, owned illegal casinos, and had built a reputation as the man to see when a criminal enterprise needed capital and cover — reputation and distance from the actual crime scene being, for Rothstein, the whole point.
 
 That fall, members of the heavily favored Chicago White Sox approached gamblers about deliberately losing the World Series to the Cincinnati Reds in exchange for cash, reportedly out of resentment toward the team's notoriously tight-fisted owner, Charles Comiskey. The scheme needed serious money to both pay the players and cover the bets that would profit from their losses, and it was Rothstein — approached by lower-level fixers including former ballplayer "Sleepy Bill" Burns and gambler Abe Attell — who is widely believed to have supplied that financing, funneling roughly $80,000 to the players through intermediaries while personally betting against Chicago through multiple bookmakers to obscure his own exposure. The Reds won five games to three in the best-of-nine series, and rumors of a fix circulated almost immediately in the sporting press.
@@ -5107,6 +5112,9 @@ His name outlived him as a byword for pretentious fraud — to call someone "a C
     slug: 'ferdinand-imelda-marcos-philippines-kleptocracy',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/President_Ronald_Reagan,_Nancy_Reagan,_Imelda_Marcos,_and_Ferdinand_Marcos.jpg?width=1200',
+    coverImageCredit: 'Photo: White House Photographic Office, 1982 (Public Domain)',
+    coverImagePosition: 50,
     body: `Ferdinand Marcos was elected president of the Philippines in 1965 on a platform of national development, and by 1972 had declared martial law, suspended the constitution, and begun ruling by decree — a state of emergency that lasted, in practice, for the next fourteen years. His wife Imelda Marcos became far more than a ceremonial first lady over that period: as Governor of Metro Manila and Minister of Human Settlements, she controlled enormous public budgets and building projects in her own right, making the couple's rule a genuinely joint operation rather than one enriching itself around the edges of the other's power.
 
 The mechanism was crony capitalism at a national scale. The Marcoses awarded lucrative government monopolies — over coconut exports, sugar trading, casino gambling, and major construction contracts — to a small circle of business allies who funneled a share of the proceeds back to the family, while commissions were skimmed directly off foreign loans and infrastructure projects, including the Bataan Nuclear Power Plant, a facility so riddled with graft and safety defects it never generated a single watt of power, yet took the Philippines until 2007 to finish paying off. Illicit proceeds were routed into anonymous Swiss "foundations" registered under invented names like "William Saunders" and "Jane Ryan," obscuring the money's real owners from regulators on two continents.
