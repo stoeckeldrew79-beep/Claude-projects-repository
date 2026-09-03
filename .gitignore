@@ -1,0 +1,12 @@
+# Repo-wide safety nets. Each project keeps its own .gitignore for
+# project-specific rules (pipertown-studios/, scamshield-national/).
+
+node_modules/
+.DS_Store
+*.log
+
+# Never commit real secrets; templates are fine.
+.env
+.env.local
+.env.*.local
+!.env.example
