@@ -11568,7 +11568,6 @@ Anyone who suspects they're caught in a fraudulent adoption scheme — as a pros
     coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/President_George_W._Bush_signs_the_Do_Not_Call_Registry_in_the_Roosevelt_Room.jpg?width=1200',
     coverImageCredit: 'Photo: Eric Draper / The White House (Public Domain)',
     coverImagePosition: 50,
-    // representative photo — replace with an exact match if found
     sourceUrl: 'https://consumer.ftc.gov/articles/national-do-not-call-registry-faqs',
     body: `A call, text, or online ad offers to add a phone number to the National Do Not Call Registry — for a fee. Sometimes it's framed as a one-time "processing" charge, sometimes as an annual "renewal" needed to keep protection active, and sometimes it shows up as a paid search ad sitting above the real, free government listing when someone searches for how to stop unwanted calls. Every version of this pitch is a scam: registering a phone number with the National Do Not Call Registry, run by the Federal Trade Commission, has never cost anything, has no expiration date, and requires no third-party company to process it.
 
@@ -13647,6 +13646,10 @@ Before paying for any real estate investment training, search the company's name
     slug: 'foster-youth-identity-theft-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'foster-youth-identity-theft'],
+    // representative photo — replace with an exact match if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Hubert_H._Humphrey_Building,_located_at_the_foot_of_Capitol_Hill,_Washington,_D.C_LCCN2013634632.jpg?width=1200',
+    coverImageCredit: 'Photo: Carol M. Highsmith / Library of Congress (Public Domain)',
+    coverImagePosition: 50,
     sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2025/09/how-help-protect-foster-youth-identity-theft',
     body: `A young adult who just aged out of foster care applies for their first apartment and gets rejected — not because of a thin credit file, which would be normal for an 18-year-old, but because of a credit report already full of accounts they never opened: a car loan, a credit card, sometimes a string of unpaid utility bills in cities they never lived in. Somewhere between early childhood and their 18th birthday, someone used their Social Security number, and because nobody was watching a minor's credit file, the damage had years to compound before it ever surfaced.
 
