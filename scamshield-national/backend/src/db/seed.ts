@@ -13210,6 +13210,9 @@ Anyone who has already bought or used stamps that turn out to be counterfeit, or
     slug: 'iraqi-dinar-currency-revaluation-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'iraqi-dinar-currency-revaluation-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Quarter_Iraqi_Dinar_1973_Replacement_Banknote_RR.jpg?width=1200',
+    coverImageCredit: 'Photo: Central Bank of Iraq (Public Domain)',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.atg.wa.gov/dfi-alert-iraqi-dinar-scams',
     body: `The pitch has circulated in one form or another since the early 2000s, and it still works because it sounds less like a scam than an insider tip: buy Iraqi dinar now, while the exchange rate is low, and hold on until Iraq "revalues" its currency — at which point a stack of dinar bought for a few hundred dollars is supposedly worth tens or hundreds of thousands. Dealers sell the currency in person, through websites, and increasingly through Telegram channels and Facebook groups built around "dinar community" news, accepting payment by check, wire transfer, money order, or cash on delivery for bricks of physical banknotes shipped straight to a buyer's door.
 
@@ -13228,6 +13231,9 @@ Anyone who has already purchased dinar or a similar currency on this promise sho
     slug: 'military-base-retailer-predatory-financing-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'military-base-retailer-predatory-financing-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Travis_Air_Force_Base_-_Main_Gate.jpg?width=1200',
+    coverImageCredit: 'Photo: U.S. Air Force (Public Domain)',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2022/07/ftc-18-states-sue-stop-harris-jewelry-cheating-military-families-illegal-financing-sales-tactics',
     body: `Drive past the main gate of almost any large military installation and the same cluster of businesses tends to appear within walking distance of the barracks: jewelry stores, electronics retailers, furniture showrooms, and used-car lots advertising "instant approval" and "no credit needed." The customer base is predictable and, to a predatory seller, ideal — young servicemembers newly arrived from basic training, often 18 to 22 years old, with their first steady paycheck, little or no credit history, and limited experience comparing financing terms, all within a culture that discourages questioning authority figures like a confident, uniformed-adjacent salesperson.
 
@@ -13246,6 +13252,9 @@ Before financing anything at a store clustered near a base, get the full price w
     slug: 'sec-impersonation-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'sec-impersonation-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/United_States_Securities_and_Exchange_Commission_(SEC)_(55266859043).jpg?width=1200',
+    coverImageCredit: 'Photo: Ajay Suresh (CC BY 4.0)',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-alerts/sec-impersonators-may-lure-investors-scams-through-social-media-or-text-messages-investor-alert',
     body: `A post shows up in a social media feed, or a text lands out of nowhere, claiming to come from the U.S. Securities and Exchange Commission — or from a specific SEC official by name. It carries the agency's seal, sometimes a link to the real sec.gov woven in among the scam content, and occasionally the actual name and photo of a sitting commissioner. The SEC's own investor-education office has published real examples of exactly this: one social media profile impersonated SEC Commissioner Hester Peirce outright, borrowing her name and photo to lend instant credibility to a fake investment pitch, while a separate unsolicited text message falsely claimed to be from the SEC itself, steering the recipient toward a private trading group it described as officially connected to the agency.
 
@@ -13262,6 +13271,9 @@ Verify any contact that claims to be from the SEC against the agency's list of o
     slug: 'sba-disaster-loan-broker-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'sba-disaster-loan-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/FEMA_-_46144_-_Disaster_Recovery_Facility,_Baton_Rouge,_LA.jpg?width=1200',
+    coverImageCredit: 'Photo: FEMA (Public Domain)',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.sba.gov/about-sba/oversight-and-advocacy/office-of-inspector-general/protect-yourself-from-scams-and-fraud/',
     body: `After a hurricane, wildfire, or flood, a homeowner or small-business owner who has registered for disaster assistance and applied for an SBA disaster loan — the low-interest federal loan that covers losses insurance doesn't — gets a call, text, or email from someone claiming they can guarantee approval, skip the line, or get the loan processed faster, in exchange for a fee paid up front. A second version doesn't even wait for the survivor to apply: it offers a private "bridge loan" to cover expenses right now, while the real SBA application is still pending, at a high interest rate the caller frames as a minor, temporary cost compared to the federal relief supposedly right around the corner.
 
@@ -13278,6 +13290,9 @@ Anyone applying for a real SBA disaster loan should do it directly through the S
     slug: 'fake-social-security-statement-email-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'ssa-statement-phishing-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Social_Security_Administration_Metro_West_Tower_%26_Complex_(1980),_300_N._Greene_Street,_Baltimore,_MD_21290_(36780621615).jpg?width=1200',
+    coverImageCredit: 'Photo: Baltimore Heritage (CC0)',
+    coverImagePosition: 50,
     sourceUrl: 'https://oig.ssa.gov/scam-alerts/2026-02-20-ssa-office-of-the-inspector-general-warns-public-of-surge-in-fraudulent-social-security-statement-emails/',
     body: `An email arrives that looks like routine government correspondence: your Social Security Statement — the same annual summary of your earnings history and future benefit estimates the real SSA has mailed and emailed for years — is "ready to view" or "ready to download," with a button or attachment to open it. In February 2026, the Social Security Administration's Office of the Inspector General warned of a surge in exactly this message, sent by cybercriminals impersonating the agency to trick recipients into compromising their personal data. Clicking through leads either to a convincing fake version of the real my Social Security login page, built to harvest whatever username and password gets typed into it, or to a downloaded attachment carrying malware instead of any actual statement.
 
@@ -13294,6 +13309,9 @@ The SSA OIG's core advice is simple: "Do not click links or open attachments in 
     slug: 'car-wrap-advertising-fake-check-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'car-wrap-advertising-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/%2710-%2712_Chevrolet_Malibu_Cosmopolitan_Taxi.jpg?width=1200',
+    coverImageCredit: 'Photo: Bull-Doser (Public Domain)',
+    coverImagePosition: 50,
     sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2024/03/how-avoid-getting-wrapped-car-wrap-scam',
     body: `A text, email, or social media ad offers hundreds of dollars a week just for driving around in a car wrapped in ads for a well-known brand — an energy drink, a streaming service, a major event. No interview, no application beyond a text exchange, and the pitch sounds less like a job than like getting paid for something you'd be doing anyway. The FTC has been tracking this one for years and renewed the warning in March 2024 as the offers kept circulating, describing the same script every time: sign up, and a "specialist" or "installer" is supposedly assigned to wrap your car.
 
@@ -13310,6 +13328,9 @@ Never deposit a check from an unsolicited job offer and send any portion of it b
     slug: 'self-employment-tax-credit-setc-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'setc-tax-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Form_1040,_2005.jpg?width=1200',
+    coverImageCredit: 'Photo: Dbenbenn (Public Domain — U.S. federal government work)',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.irs.gov/newsroom/national-small-business-week-2026-avoid-the-scam',
     body: `A TikTok video, a paid Facebook ad, or a YouTube pre-roll makes a specific, exciting promise: self-employed people and gig workers who missed work during the pandemic can claim a "Self-Employment Tax Credit" worth up to $32,220, no matter how long ago 2020 and 2021 were. A link leads to a website that collects Social Security numbers, prior tax returns, and bank account details, then files an amended return on the target's behalf — often for a large upfront fee or a cut of whatever refund gets approved.
 
@@ -13326,6 +13347,9 @@ Before claiming any credit tied to self-employment income, verify eligibility us
     slug: 'irs-online-account-setup-identity-theft-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'irs-online-account-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/IRS_Sign.JPG?width=1200',
+    coverImageCredit: 'Photo: Joshua Doubek (CC BY-SA 3.0)',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.irs.gov/newsroom/dirty-dozen-irs-warns-of-scammers-offering-help-to-set-up-an-online-account-creates-identity-theft-risk-for-honest-taxpayers',
     body: `Setting up an IRS Online Account — the official IRS.gov portal for checking a balance, viewing past returns, or managing payment plans — requires clearing an identity-verification step that some taxpayers find confusing or intimidating. That confusion is exactly what a newer scam targets: someone offering to "help" create the account, sometimes contacting the taxpayer directly, sometimes advertising the service online, and walking them through a process that asks for a home address, a photo ID, and a Social Security number or Individual Taxpayer Identification Number along the way.
 
@@ -13342,6 +13366,9 @@ Create or access an IRS Online Account only by going directly to IRS.gov yoursel
     slug: 'osha-poster-compliance-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'osha-poster-compliance-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/OSHA_Compliance_Officer_Emil_Szotko_(far_right)_with_employees_from_the_McShane_Construction_Company.jpg?width=1200',
+    coverImageCredit: 'Photo: U.S. Department of Labor (Public Domain)',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.osha.gov/publications/poster',
     body: `A newly registered small business gets a letter, email, or phone call within weeks of opening its doors. It looks official — sometimes carrying a federal-looking seal, sometimes naming an unfamiliar office like "US Corporate Compliance Office" or "Occupational Safety and Compliance Administration" — and it warns that the law requires displaying a specific set of workplace posters, OSHA's Job Safety and Health poster chief among them, and that fines or a shutdown will follow if the business doesn't buy them right away, often for $100 or more.
 
@@ -13360,6 +13387,9 @@ Get the real poster directly from OSHA.gov's publications page or by calling 1-8
     slug: 'h2a-h2b-guest-worker-recruitment-fraud-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'h2a-h2b-recruitment-fraud'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Bracero_Workers.jpg?width=1200',
+    coverImageCredit: 'Photo: Oregon State University (CC BY-SA 2.0) — Bracero Program guest workers, historical predecessor to H-2A',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.dol.gov/agencies/whd/fact-sheets/78b-h2b-recruiting',
     body: `A recruiter in a worker's home country — sometimes representing a real U.S. employer, sometimes inventing one — offers a seasonal U.S. job under the H-2A agricultural or H-2B non-agricultural guest worker visa program: picking fruit, working a hotel or landscaping crew, staffing a seafood plant. Getting the visa and the job, the recruiter says, requires a fee up front, often thousands of dollars, covering "processing," transportation, or a guaranteed placement. For a worker who has little independent way to verify a U.S. employer or a foreign labor contractor before leaving home, and who is often borrowing or spending savings to pay it, the fee feels like the unavoidable cost of the opportunity rather than a warning sign.
 
@@ -13372,6 +13402,42 @@ The scheme causes damage well beyond the fee itself. Because a worker's legal st
 Red flags include any recruiter or "visa agency" charging a fee to a worker for recruitment, job placement, visa processing, or a "guaranteed" U.S. position; a job offer that requires payment before travel, whether framed as a deposit, processing cost, or transportation advance; a demand that the fee be paid in cash or wired to a personal account rather than documented in a written contract; and vague or shifting details about the actual U.S. employer, wage, or job site. A legitimate H-2A or H-2B job order is filed with the Department of Labor and can be checked directly against the agency's own seasonal jobs registry at SeasonalJobs.dol.gov before any money changes hands or any travel is arranged.
 
 Workers who are asked to pay a recruitment or placement fee, or who are already in the U.S. and experiencing conditions different from what was promised, can contact the Department of Labor's Wage and Hour Division at 1-866-487-9243 (TTY: 1-877-889-5627), which accepts complaints regardless of immigration status, or the National Human Trafficking Hotline at 1-888-373-7888 if coercion or forced labor is involved. Suspected visa fraud can also be reported to the Department of Homeland Security's Fraud Detection and National Security Directorate.`,
+  },
+  {
+    title: 'Truck Driver Lease-Purchase Scams: The "Be Your Own Boss" Deal That Fails More Than 90% of the Time',
+    slug: 'truck-driver-lease-purchase-scam-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'truck-driver-lease-purchase-scam'],
+    sourceUrl: 'https://landline.media/truck-leasing-task-force-calls-lease-purchase-programs-irredeemable-tools-of-fraud/',
+    body: `A recruiting ad for a trucking company promises something a plain company-driver job doesn't: "no money down," "be your own boss," drive today and own your truck in a few years. For someone who just finished a CDL program with tuition debt and little savings, and who may have been turned away by carriers wanting two years of experience, a lease-purchase program is often the only door that opens — sign a lease on a truck, haul loads for the same carrier that leased it, and the truck payment comes straight out of each week's settlement.
+
+That settlement is where the arrangement usually turns predatory. The truck is typically owned not by the carrier itself but by an in-house leasing subsidiary, and the driver is required to haul exclusively for that one company while the lease is active — there's no shopping loads elsewhere to cover a slow week. Before any pay reaches the driver, the weekly settlement deducts the truck lease payment, physical damage and liability insurance, a maintenance reserve, fuel, tolls, and permits, sometimes along with the cost of the CDL training that got the driver into the truck in the first place. When those deductions exceed what the truck earned that week, the result is what drivers call a negative paycheck — money owed to the carrier instead of wages coming in.
+
+The Truck Leasing Task Force, created by Congress under the 2021 infrastructure law and made up of drivers, carriers, safety advocates, and federal regulators, spent more than a year examining these arrangements before delivering its final report in January 2025. Its conclusion was blunt: carrier-controlled lease-purchase programs are "irredeemable tools of fraud and driver oppression that threaten a safe national transportation system," and the task force recommended Congress ban them outright. The numbers behind that language are stark — the task force estimated more than 200,000 interstate drivers, roughly 5% of the driver population, have been affected by predatory lease-purchase agreements, that the deals fail more than 90% of the time, and that a driver's realistic odds of actually ending up owning the truck are closer to 1 in 1,000. Ryan Kelly of the Consumer Financial Protection Bureau, who worked with the task force, put the pattern plainly: "If a model fails 90% of the time, it's designed to fail. It's not an accident." The CFPB's own review identified the core mechanical flaw: drivers make payments every week but accrue no equity in the truck at all — walk away, get terminated, or fall behind, and the payments already made simply disappear along with the vehicle.
+
+Federal court records show the pattern playing out at named carriers, not just in aggregate statistics. In Roberts v. TransAm Trucking (D. Kan., No. 2:21-cv-02073), drivers alleged the company recruited them for company-driver positions, then pressured them into signing truck leases and reclassifying them as independent contractors — in violation of federal Truth-in-Leasing regulations and the minimum-wage requirements of the Fair Labor Standards Act. According to the litigation, lessee drivers earned less than one-third of the industry's average compensation. TransAm agreed to pay $3.75 million to settle the case, with final court approval entered in October 2024; similar lease-purchase lawsuits have been filed against other major carriers in the years since.
+
+The warning signs are consistent across these programs: a recruiting pitch that leads with "ownership" and "be your own boss" rather than with pay; a lease available only through the carrier's own financing arm rather than an outside bank; a requirement to haul exclusively for that one carrier while truck payments are still owed; a refusal to disclose in writing what percentage of drivers in the program actually complete it and take ownership; and a contract that leaves a driver who walks away still owing the "remaining balance" on a truck they never had equity in. None of this describes ordinary commercial truck financing — an independent lease-to-own arrangement through a bank or dedicated finance company, where the driver can haul for any customer and isn't financially tied to a single carrier, is a legal, different arrangement entirely.
+
+Before signing a lease-purchase agreement, get the complete contract in writing and have it reviewed independently, ask the recruiter directly how many drivers who started the program in the last year actually own their truck now, and compare the offer against a standard W-2 company-driver job that carries no truck payment at all. The Owner-Operator Independent Drivers Association tracks these lawsuits and can help review a lease before it's signed — reach OOIDA at ooida.com or 1-800-444-5791. Report predatory or misrepresented lease-purchase terms to the FMCSA, the Consumer Financial Protection Bureau at consumerfinance.gov/complaint, and the FTC at ReportFraud.ftc.gov.`,
+  },
+  {
+    title: 'SNAP/EBT "Your Card Has Been Deactivated" Text Scams: Why That Benefits Text Isn\'t From Your State',
+    slug: 'snap-ebt-text-message-phishing-scam-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'snap-ebt-text-phishing-scam'],
+    sourceUrl: 'https://www.fns.usda.gov/news-item/fraud-alert-usda-warns-text-message-scam-targeting-snap-recipients',
+    body: `A text lands on a SNAP recipient's phone warning that their EBT card has been deactivated, locked for "suspicious activity," or that they've been newly selected for extra food-assistance benefits — either way, a link or phone number is included to fix it right now. For a household that depends on that balance to buy groceries this week, the message doesn't read as something to research; it reads as an emergency that has to be resolved immediately, which is exactly the reaction the scam is built to produce.
+
+Clicking the link usually leads to a fake page asking for the EBT card number and PIN together, along with a Social Security number and bank account details; calling the number instead connects to a live scammer posing as a caseworker who talks the recipient through handing over the same information out loud. Once a scammer has both the card number and the PIN, the balance can be drained through an online purchase or a cloned card at a retailer within minutes — and because the cardholder handed the information over directly rather than having it lifted by a hidden device, it can be harder to get the loss treated as fraud after the fact.
+
+USDA's Food and Nutrition Service issued a fraud alert describing the pattern directly: "Be aware of a scam using texting to obtain your personal information," warning that "personal information includes your social security number, bank information, or SNAP electronic benefits transfer card or PIN number" and that none of it should ever be given out over an unsolicited text. Its advice for handling a suspicious message is just as direct: "If you think the text is a scam, do not reply at all. Just delete." The wave has hit multiple states at once — Pennsylvania, New Jersey, and Delaware each issued their own alerts after residents in all three states reported nearly identical "your card has been deactivated" texts within the same stretch of weeks.
+
+Pennsylvania Department of Human Services Secretary Dr. Val Arkoosh gave recipients a simple test to apply to any message like this: "If someone is claiming to be from or affiliated with the Department and they are asking you for your personal information, it is a scam." A real state SNAP agency does not text asking for a benefit amount, an account authorization number, or a PIN, and any legitimate link points to an official .gov or state agency domain, not an unfamiliar shortened URL.
+
+Red flags include any unsolicited text about SNAP or EBT eligibility, deactivation, or a surprise benefit increase; pressure to click or call immediately before benefits are supposedly lost; a request for the EBT card number and PIN together, which a real caseworker never needs over text or an unverified call; and a callback number that doesn't match the customer service number printed on the back of the actual EBT card.
+
+Never click a link or call a number inside an unexpected text about SNAP or EBT benefits — if there's any doubt, contact the state SNAP office directly using the number on the back of the EBT card, or find it through USDA's official state directory at fns.usda.gov/snap/state-directory. Anyone who has already shared a card number, PIN, or other personal information should call the number on the back of the card immediately to request a new card and PIN, watch for unauthorized purchases, and report the scam to the FTC at ReportFraud.ftc.gov.`,
   },
 ];
 
