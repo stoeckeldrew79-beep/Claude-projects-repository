@@ -7180,6 +7180,34 @@ On April 20, 2021, Thodex abruptly halted trading, citing what it described as a
     coverImageCredit: 'Photo: Ben Morlok (CC BY-SA 2.0) — Istanbul, where Thodex was based before Özer fled the country',
     coverImagePosition: 50,
   },
+  {
+    title: 'Belle Gibson: The Wellness Influencer Who Faked Cancer to Sell an App',
+    slug: 'belle-gibson-whole-pantry-fake-cancer-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `In 2013, a young Melbourne woman named Belle Gibson began telling followers on Instagram that she had been diagnosed with terminal brain cancer, and that she had rejected chemotherapy and radiotherapy in favor of a "clean" diet, alternative therapies, and positive thinking — a regimen she credited with keeping her alive and, eventually, curing her. She said the cancer had spread to her blood, spleen, uterus, liver, and kidneys before she brought it under control herself. None of it was true; she had never had cancer at all.
+
+The story built a business. Gibson launched a mobile app and cookbook called The Whole Pantry, packaging her claimed recovery into recipes and lifestyle advice; the app was named Apple's Best Food and Drink App of 2013 and was downloaded hundreds of thousands of times, and Penguin published an accompanying cookbook in 2014. Gibson also told followers she was donating large portions of the app's profits to charity — including a specific pledge of tens of thousands of dollars to a critically ill boy's family — building a second layer of goodwill on top of the illness story that had made her following possible in the first place.
+
+The account started coming apart in early 2015, when Australian journalists, prompted by people who knew her, found that the charitable donations she'd publicized had mostly never been paid, and that basic elements of her cancer story didn't hold up to scrutiny. Under pressure, Gibson admitted in an interview with Australian Women's Weekly that she had never had cancer. Consumer Affairs Victoria and, later, the Australian Competition and Consumer Commission pursued her through the Federal Court of Australia, which in March 2017 found she had engaged in conduct that was misleading, deceptive, and unconscionable under Australian Consumer Law, including the false donation claims. The court fined her A$410,000. She never paid it: by 2021 she was found to be sheltering assets, sheriff's officers raided her home, and the debt — grown with interest to well over half a million dollars — was ultimately marked uncollectable.
+
+Gibson's case became a reference point in Australia for a specific kind of fraud: not a fake investment or a forged document, but a health story, aimed at people frightened enough by illness to trust a stranger's Instagram account over their own oncologist, monetized through an app store that had no way to verify any of it.`,
+    sourceUrl: 'https://en.wikipedia.org/wiki/Belle_Gibson',
+  },
+  {
+    title: 'Hiromasa Ezoe and the Recruit Scandal That Shook Japan\'s Government',
+    slug: 'hiromasa-ezoe-recruit-scandal-insider-trading',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Hiromasa Ezoe built Recruit from a University of Tokyo side project — a newspaper selling job advertisements to fellow students, started in 1960 — into one of Japan's largest information and human-resources conglomerates. By the mid-1980s Recruit was diversifying aggressively, and in 1986 Ezoe prepared to take one of its subsidiaries, real-estate firm Recruit Cosmos, public. Before the shares ever reached the open market, he arranged for blocks of unlisted Cosmos stock to be quietly distributed to dozens of politicians, senior bureaucrats, business executives, and journalists, letting them buy in at the pre-IPO price.
+
+The arrangement worked exactly as intended for everyone involved. When Recruit Cosmos shares began trading publicly, their price climbed sharply, and each recipient of the pre-IPO stock was able to sell at a profit — reportedly averaging around ¥66 million per person — without having taken on any real investment risk or, in many cases, without the public having any idea the shares had changed hands at all. The scheme wasn't a conventional swindle aimed at ordinary investors; it was a mechanism for buying influence, dressed up as a stock transaction, and it reached extraordinarily high: recipients eventually tied to the scandal included sitting cabinet ministers and, indirectly, Prime Minister Noboru Takeshita himself.
+
+The arrangement surfaced in 1988 through local reporting on a Kawasaki city official who had received Cosmos shares, and the story metastasized from there as more recipients were identified. Takeshita's cabinet resigned en masse in 1989, Chief Cabinet Secretary Takao Fujinami was indicted, and Ezoe himself was arrested and stripped of his chairmanship. His prosecution turned into one of the longest criminal trials in Japanese history — 14 years and 322 separate court sessions — before a Tokyo court convicted him in 2003 of bribery-related charges and handed down a three-year prison sentence, suspended for five years, meaning Ezoe never actually served time. He spent his later years funding an opera company and writing about the case before dying in 2013.
+
+The Recruit scandal remains one of postwar Japan's defining corruption cases, credited with fueling the political disillusionment that helped end the Liberal Democratic Party's unbroken decades-long grip on government by 1993 — a reminder that not every scheme built on quiet insider access needs an ordinary victim writing a check; sometimes the currency being defrauded is public trust in the government itself.`,
+    sourceUrl: 'https://en.wikipedia.org/wiki/Recruit_scandal',
+  },
 ];
 
 // Practical "how it works / red flags / what to do" guides covering the
