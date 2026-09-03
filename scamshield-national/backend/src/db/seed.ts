@@ -28996,6 +28996,42 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ["Minnesota Attorney General's Office"],
     sourceUrl: 'https://www.ag.state.mn.us/Office/Communications/2026/05/01_WDA.asp',
   },
+  {
+    name: 'Central Mississippi SNAP Card-Skimming Ring',
+    slug: 'mississippi-central-snap-card-skimming-ring',
+    description:
+      'Starting in June 2024, the Mississippi Attorney General\'s Office began receiving reports of skimmer devices discovered on credit card readers at stores throughout central Mississippi. The office\'s Cyber Fraud Task Force traced the devices to a group of Romanian nationals who could be seen on store surveillance video fitting skimmers over card-reading machines at retail locations in Brandon, Byram, Clinton, Jackson County, Laurel, McComb, Natchez, Pascagoula, and Richland, ultimately locating more than 15 installed skimmers across Mississippi, Tennessee, and Louisiana. Stolen card data, including SNAP (Supplemental Nutrition Assistance Program) benefits meant to help low-income families buy groceries, was later used as far away as New Jersey and Pennsylvania. On August 12, 2025, a federal judge in the Southern District of Mississippi sentenced the third and final defendant, 23-year-old Bogdan Gabriel Radu, to 15 months in federal prison and ordered him to pay $85,640 in restitution for stolen SNAP benefits; Attorney General Lynn Fitch said the investigation prevented more than $37.6 million in potential fraud losses across the group\'s activities. Shoppers can guard against skimmers by using tap-to-pay or chip readers instead of swiping, and by checking whether a card reader looks bulkier or different than usual before inserting a card.',
+    categorySlug: 'public-benefits-fraud',
+    country: 'US',
+    state: 'MS',
+    alertLevel: 'medium',
+    sources: ["Mississippi Attorney General's Office", 'U.S. Attorney\'s Office for the Southern District of Mississippi'],
+    sourceUrl: 'https://attorneygenerallynnfitch.com/wp-content/uploads/2025/08/Skimmer-Sentencing-pt.-2-3.pdf',
+  },
+  {
+    name: 'Kentucky Transportation Cabinet Unpaid-Traffic-Ticket Text Scam',
+    slug: 'kentucky-transportation-cabinet-traffic-ticket-text-scam',
+    description:
+      'Kentuckians have received waves of text messages impersonating the Kentucky Transportation Cabinet (KYTC), its Office of Highway Safety, or driver-licensing offices, warning that a traffic ticket or "DMV violation" is unpaid and that driving privileges will be suspended, or other action taken, unless the recipient pays immediately through a link in the message. The link mimics KYTC\'s real website, drive.ky.gov, often with a subtle alteration such as an inserted hyphen designed to fool a quick glance. In a March 2026 alert, its third such warning in less than a year, KYTC reiterated that it "does not collect traffic ticket fees or notify customers of violations using text messages" and does not refer to itself as "KDOT" or "DMV" in official communications. Anyone who receives one of these texts is advised not to click the link or reply, to forward the message to 7726 (SPAM) to alert their mobile carrier, to contact their bank if they already shared financial information, and to report it to the FBI\'s Internet Crime Complaint Center at ic3.gov or the Kentucky Attorney General\'s Office at ag.ky.gov.',
+    categorySlug: 'government-impersonation',
+    country: 'US',
+    state: 'KY',
+    alertLevel: 'medium',
+    sources: ['Kentucky Transportation Cabinet'],
+    sourceUrl: 'https://transportation.ky.gov/NewsRoom/Scam%20Texts%20Alert%20-%20March%202026.pdf',
+  },
+  {
+    name: 'Nebraska "Special Pixel" Bitcoin Sextortion Email Scam',
+    slug: 'nebraska-special-pixel-bitcoin-sextortion-scam',
+    description:
+      'The Nebraska Attorney General\'s Office issued a consumer alert after residents reported receiving highly personalized extortion emails threatening to release "allegedly embarrassing content" — typically a claim the recipient was recorded through their own webcam while viewing pornography — unless they paid a large sum to a Bitcoin address. To make the threat feel credible, the emails included the recipient\'s real home address and a street-view image of their house, and falsely claimed the sender could prove the email had been read using a "special pixel" technology, alongside threats of arrest or harm to pressure a fast payment. The office noted that scammers favor irreversible payment methods like Bitcoin, gift cards, and wire transfers precisely because they cannot be clawed back once sent. Recipients are advised not to pay, to report the email to their provider (Gmail, Yahoo, Outlook, or similar), to report any Bitcoin wallet address to chainabuse.com/report or bitcoinwhoswho.com/scams, and to contact Nebraska\'s Consumer Affairs Response Team at 402-471-2682.',
+    categorySlug: 'sextortion',
+    country: 'US',
+    state: 'NE',
+    alertLevel: 'medium',
+    sources: ["Nebraska Attorney General's Office"],
+    sourceUrl: 'https://protectthegoodlife.nebraska.gov/news/nebraska-attorney-generals-office-issues-consumer-alert-regarding-extortion-scam-utilizing',
+  },
 ];
 
 async function seedCategoriesAndScams() {
