@@ -25937,6 +25937,39 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ["North Dakota Attorney General's Office"],
     sourceUrl: 'https://attorneygeneral.nd.gov/attorney-general-wrigley-announces-settlement-with-company-behind-deceptive-invoice-solicitations/',
   },
+  {
+    name: 'Swedish "Robotröst" Automated Police Impersonation Call',
+    slug: 'sweden-robotrost-automated-police-call-scam',
+    description:
+      'A phone call opens with a robotic, computer-generated voice claiming to be from the Swedish Police Authority, telling the recipient that their ID card has turned up connected to a crime or that an arrest warrant has been issued in their name, and instructing them to press a number on the keypad to be connected through to "the police" for further help. Pressing through hands the call to a live scammer who continues the impersonation, using the fear already created to extract personal information, payment details, or a BankID approval. Polisen\'s national fraud-prevention unit issued a nationwide warning on July 23, 2026 after a rising wave of reports of the automated calls, with spokesperson Björn Seeth stating plainly, "Polisen ringer aldrig dig med automatiserade röster" (police never call you using automated voices), and urging anyone who receives one to hang up immediately rather than press any key.',
+    categorySlug: 'government-impersonation',
+    country: 'SE',
+    alertLevel: 'medium',
+    sources: ['Polismyndigheten (Swedish Police Authority)', 'Sveriges Radio'],
+    sourceUrl: 'https://polisen.se/aktuellt/nyheter/nationell/2026/juli/varning-for-bedragare-som-utger-sig-att-vara-fran-polisen/',
+  },
+  {
+    name: 'Swedish "Billogram" Fake Invoice SMS-to-Home-Visit Scam',
+    slug: 'sweden-billogram-fake-invoice-sms-home-visit-scam',
+    description:
+      'A text message impersonating "Billogram" or "Billo" — a real, widely used Swedish digital invoicing and e-mailbox service — tells the recipient they have an unpaid invoice and provides a phone number to call to sort it out. A recipient who calls despite not recognizing any purchase is kept on the line by a scammer who works the conversation toward arranging a home visit, where the visitor claims local burglaries mean the resident\'s jewelry and gold must be photographed or temporarily taken into safekeeping — and then leaves with it. Polisen i väst (police in western Sweden) issued a public warning on March 10, 2026 after several attempted frauds and at least three completed thefts in Gothenburg, Kungsbacka, and Mölndal using this exact script, advising recipients to ignore unsolicited "Billogram" texts entirely and never let a follow-up caller\'s visitor into their home.',
+    categorySlug: 'phishing',
+    country: 'SE',
+    alertLevel: 'high',
+    sources: ['Polismyndigheten (Swedish Police Authority)', 'SVT Nyheter'],
+    sourceUrl: 'https://www.svt.se/nyheter/lokalt/halland/polisen-varnar-for-bluff-sms-kan-leda-till-hembesok-fran-bedragare',
+  },
+  {
+    name: 'Swedish WhatsApp Hotel-Booking "Card Verification" Scam',
+    slug: 'sweden-whatsapp-hotel-booking-verification-scam',
+    description:
+      'After a data breach at a travel-booking website, fraudsters use the leaked reservation details — a traveler\'s real travel dates, hotel name, and booking reference — to message them on WhatsApp posing as the booking platform or the hotel itself, claiming the traveler\'s payment card needs to be re-verified before their upcoming stay. Because the message cites accurate details about a genuine, already-scheduled trip, it reads as far more credible than an ordinary phishing email, and victims who click through and enter their card number to "verify" it hand it directly to the scammer; some are also pressured into paying for the same booking a second time. Jan Olsson of the Swedish Police Authority\'s National Operations Department told SVT in a July 15, 2026 report that the scheme is harder to catch than typical email phishing specifically because WhatsApp makes it difficult for a recipient to verify who is actually messaging them, with reports climbing through the preceding month.',
+    categorySlug: 'phishing',
+    country: 'SE',
+    alertLevel: 'high',
+    sources: ['SVT Nyheter', 'Polismyndigheten (Swedish Police Authority)'],
+    sourceUrl: 'https://www.svt.se/nyheter/inrikes/nya-bluffen-bedragare-anvander-lackta-uppgifter-fran-resesajter',
+  },
 ];
 
 async function seedCategoriesAndScams() {
