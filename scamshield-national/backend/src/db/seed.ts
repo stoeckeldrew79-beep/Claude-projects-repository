@@ -27942,6 +27942,42 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['U.S. Securities and Exchange Commission'],
     sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26507',
   },
+  {
+    name: 'North Carolina Fake DMV "Final Notice" Text Scam',
+    slug: 'north-carolina-dmv-final-notice-text-scam',
+    description:
+      'North Carolina residents are receiving unsolicited text messages impersonating the state DMV, warning that a traffic ticket is unpaid and that the recipient\'s driver\'s license will be suspended unless a fine is paid immediately. The texts link to a professional-looking but fake website — some copies even cite a nonexistent regulation, "North Carolina Administrative Code 15C-16.003," to sound official — that harvests payment card numbers and personal information; several versions of the link even contain ".gov" to look more convincing even though the site has no connection to the state. The North Carolina Division of Motor Vehicles says it does not collect traffic tickets by text, does not threaten license suspension this way, and never requests payment through a text link, so anyone who receives one should not click it and should report or delete the message.',
+    categorySlug: 'government-impersonation',
+    country: 'US',
+    state: 'NC',
+    alertLevel: 'high',
+    sources: ["North Carolina Department of Justice (Attorney General's Office)"],
+    sourceUrl: 'https://ncdoj.gov/attorney-general-jackson-warns-north-carolinians-about-new-wave-of-dmv-text-scams/',
+  },
+  {
+    name: 'Ohio Fake Court Document Toll and Parking Fine QR Code Text Scam',
+    slug: 'ohio-toll-parking-fine-qr-code-text-scam',
+    description:
+      'Ohioans are receiving text messages claiming they owe unpaid parking or toll fines and must pay immediately or appear in court. The message includes an image styled to look like an official court document along with a QR code; scanning it leads to a payment page on a domain traced to entities overseas rather than any Ohio court or toll authority, and can expose the phone to malware in addition to harvesting payment details. Ohio Attorney General Dave Yost and the state Bureau of Motor Vehicles warn that the messages rely on manufactured fear and urgency, and urge recipients to independently verify any claimed fine by contacting the relevant court or toll authority directly through its official phone number or website rather than scanning the code or using any link in the text.',
+    categorySlug: 'phishing',
+    country: 'US',
+    state: 'OH',
+    alertLevel: 'high',
+    sources: ["Ohio Attorney General's Office"],
+    sourceUrl: 'https://spectrumnews1.com/oh/columbus/news/2026/03/05/ohio-ag-text-scam-warning',
+  },
+  {
+    name: 'Louisiana Fake "Firstep" Business Annual Report Mailer Scam',
+    slug: 'louisiana-firstep-annual-report-mailer-scam',
+    description:
+      'Louisiana business owners are receiving official-looking letters from an entity calling itself "Business Filing, powered by Firstep," warning that the company\'s annual report must be filed through the Firstep platform by a stated deadline or the business will be administratively dissolved or have its authority to do business revoked. The letters include a QR code directing recipients to the outside platform to pay a filing fee. Secretary of State Nancy Landry\'s office says the mailers are not from the Louisiana Secretary of State\'s Commercial Division and should be discarded, noting that all official correspondence about business filings comes only through the state\'s own geauxBIZ portal or on Secretary of State letterhead; business owners should file and check the status of their annual report directly at geauxBIZ.com or by calling the Commercial Division rather than through any link or QR code in an unsolicited letter.',
+    categorySlug: 'government-impersonation',
+    country: 'US',
+    state: 'LA',
+    alertLevel: 'high',
+    sources: ['Louisiana Secretary of State'],
+    sourceUrl: 'https://www.knoe.com/2025/07/24/secretary-landry-tells-businesses-beware-fraudulent-letters/',
+  },
 ];
 
 async function seedCategoriesAndScams() {
