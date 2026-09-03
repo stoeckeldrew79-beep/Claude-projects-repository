@@ -28512,6 +28512,42 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Wisconsin Department of Agriculture, Trade and Consumer Protection (DATCP)'],
     sourceUrl: 'https://www.wbay.com/2026/07/22/loan-scam-calls-spike-wisconsin-officials-warn-ai-powered-fraud/',
   },
+  {
+    name: 'Bitcoin Depot Kiosk Scam-Loss Settlement',
+    slug: 'maine-bitcoin-depot-kiosk-scam-settlement',
+    description:
+      'After a two-year investigation, the Maine Bureau of Consumer Credit Protection reached a $1.9 million consent agreement with Bitcoin Depot, the operator of cryptocurrency ATM kiosks placed in convenience stores and gas stations across the state, over consumers who were scammed after being steered to the machines. In the typical pattern the Bureau documented, a criminal posing as a government agent, a bank fraud investigator, or a romantic interest builds urgency over the phone or by text, then instructs the victim to withdraw cash, feed it into a nearby Bitcoin Depot kiosk between 2022 and 2025, and send the resulting cryptocurrency to an "unhosted wallet" — one controlled entirely by the scammer rather than any bank or exchange — after which the funds are unrecoverable. Because the kiosks are unattended, "nobody there to oversee the transactions in some of these cases," as the Bureau put it, victims got no in-person warning before completing an irreversible transfer. Under the settlement, eligible Maine residents who lost money at a Bitcoin Depot kiosk in that window had until May 8, 2026 to file a claim, with the Bureau expecting to begin issuing refunds from the $1.9 million fund in July 2026. The Bureau and AARP Maine urge anyone contacted out of the blue and told to pay via a crypto kiosk to hang up, verify the claim independently, and never send money to a wallet address supplied by the caller.',
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    state: 'ME',
+    alertLevel: 'high',
+    sources: ['Maine Bureau of Consumer Credit Protection', 'Maine Office of the Attorney General'],
+    sourceUrl: 'https://www.maine.gov/pfr/consumercredit/enforcement/bitcoindepot.html',
+  },
+  {
+    name: 'Madison County "Eight Percent Fund" Ponzi Scheme',
+    slug: 'new-york-madison-county-eight-percent-fund-ponzi-scheme',
+    description:
+      'New York Attorney General Letitia James announced the conviction of Miles Burton Marshall, a Madison County tax preparer and insurance agent who ran a Ponzi scheme dating back to the early 1990s and continuing until March 2023, stealing more than $50 million from 988 investors — most of them his own longtime tax-preparation and insurance clients. Marshall pitched what he called the "Eight Percent Fund," telling clients their money would go toward buying and refurbishing rental properties in exchange for a guaranteed 8% annual return, then used new investors\' deposits to pay "returns" to earlier ones and to cover his own expenses. To keep the scheme going, Marshall directed staff to generate fake "Transaction Summaries" showing fabricated account balances and interest earnings, so clients who trusted him with their taxes and insurance had no reason to doubt the paperwork showing their investment steadily growing. Marshall pleaded guilty to Grand Larceny in the Second Degree, Securities Fraud under New York\'s Martin Act, and Scheme to Defraud in the First Degree; he is scheduled to be sentenced on June 11, 2026 to four to twelve years in state prison and must enter judgments in favor of his 988 victims totaling roughly $90 million in principal and interest. The Attorney General\'s office points to the case as a reminder that an "investment" run through the same person who prepares your taxes or sells your insurance — offering a fixed, guaranteed return with no independent statements — warrants outside verification before money changes hands.',
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    state: 'NY',
+    alertLevel: 'high',
+    sources: ["New York Attorney General's Office"],
+    sourceUrl: 'https://ag.ny.gov/press-release/2026/attorney-general-james-announces-conviction-madison-county-tax-preparer-running',
+  },
+  {
+    name: 'Goliath Ventures $400 Million Crypto "Liquidity Pool" Ponzi Scheme',
+    slug: 'florida-goliath-ventures-crypto-ponzi-scheme',
+    description:
+      'Christopher Alexander Delgado, the Florida-based founder and CEO of Goliath Ventures, pleaded guilty in federal court in the Middle District of Florida to conspiracy to commit wire fraud, wire fraud, and money laundering after raising more than $400 million from investors between January 2023 and January 2026 with a scheme he marketed as low-risk cryptocurrency arbitrage. Delgado told investors their money would be pooled into automated "liquidity pool" trading strategies generating steady monthly payouts; in his plea agreement he admitted those payouts were never real, and that Goliath instead used new investors\' deposits to pay earlier investors, fund withdrawals, and finance his own luxury spending and business events — a classic Ponzi structure that produced at least $250 million in investor losses. When Delgado was arrested, only about $160,000 of investor money remained, while prosecutors moved to forfeit eight properties, eleven vehicles, more than fifty luxury handbags and wallets, dozens of pieces of jewelry, and a collection of thirty watches purchased with the proceeds. He faces up to 20 years in prison on each wire-fraud count and up to 10 years for money laundering, with sentencing scheduled for October 8, 2026. Federal prosecutors cite the case as a warning that a "guaranteed" fixed monthly return from a crypto fund — regardless of how sophisticated the trading explanation sounds, or how many early "profit" withdrawals a promoter allows to build trust — is a hallmark of a Ponzi scheme, not a legitimate investment strategy.',
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    state: 'FL',
+    alertLevel: 'high',
+    sources: ['U.S. Attorney\'s Office, Middle District of Florida', 'U.S. Commodity Futures Trading Commission'],
+    sourceUrl: 'https://www.justice.gov/usao-mdfl',
+  },
 ];
 
 async function seedCategoriesAndScams() {
