@@ -25332,6 +25332,44 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Monetary Authority of Singapore', 'Singapore Police Force', "Attorney-General's Chambers (Singapore)"],
     sourceUrl: 'https://www.police.gov.sg/Media-Hub/News/2026/04/20260409_convictions_and_sentences_upheld_for_masterminds_behind',
   },
+  {
+    name: 'Alaska Permanent Fund Dividend Phishing Texts and Emails',
+    slug: 'alaska-pfd-phishing-texts-emails',
+    description:
+      'Because the annual Permanent Fund Dividend is a payment unique to Alaska, scammers have built a family of phishing lures around it that would not work in any other state. The Alaska Department of Revenue\'s PFD Division has posted repeated warnings about fraudulent text messages that display a fake case number and claim the recipient is "potentially losing out on" dividend funds unless they click a link, as well as emails impersonating the division with the subject line "IMPORTANT TAX INFORMATION" whose links do not actually lead back to the real pfd.alaska.gov site. A related wave targets myAlaska account holders directly with texts urging them to "update" or "confirm" their password. The division states flatly that it "DOES NOT send out text or SMS messages" about dividend applications and that myAlaska never requests a password change by text or email, yet the lures work because they land during the exact weeks Alaskans are watching their bank accounts for the dividend deposit. Alaska State Troopers and the Department of Revenue jointly warned in September 2025 that identity-theft attempts tied to the PFD had increased significantly, with fraudsters overwhelmingly based overseas and difficult to prosecute even after a report is filed. The division\'s standing advice is that a PFD applicant never has to click a link to "claim" a dividend, is never asked to pay money or provide bank details over an unsolicited call or text, and should verify any dividend-related message by logging into myAlaska directly rather than through a link in the message itself.',
+    categorySlug: 'public-benefits-fraud',
+    country: 'US',
+    state: 'AK',
+    alertLevel: 'high',
+    sources: ['Alaska Department of Revenue — Permanent Fund Dividend Division', 'Alaska State Troopers'],
+    sourceUrl: 'https://pfd.alaska.gov/',
+  },
+  {
+    name: 'Montana Backdated Insurance Reinstatement Claim Fraud',
+    slug: 'montana-backdated-insurance-reinstatement-claim-fraud',
+    description:
+      'A Miles City, Montana woman\'s auto policy with Root Insurance Co. was cancelled for nonpayment on May 2, 2022. On the night of May 9, she hit a deer, disabling her vehicle, then had a friend tow it from the scene and called the Custer County Sheriff\'s Office to report the collision at 9:57 p.m. — a call sheriff\'s dispatch records fixed precisely, right down to the deputy who was dispatched and cleared the scene at 10:02:54 p.m. The next morning, May 10 at 9:44 a.m., she paid to reinstate the lapsed Root policy and, in doing so, electronically signed a "Statement of No Loss" affirming that no vehicle on the policy had been in any accident since the cancellation. A few hours later she called Root to file a claim for the deer strike, telling the claims processor the accident had happened that same morning, sixteen minutes after her policy was reinstated — timing that immediately triggered a fraud investigation. Root\'s investigators noticed that one of the five damage photos she uploaded showed her headlights on and the surrounding scene dark, and pulled the phone\'s embedded metadata, which showed it had actually been taken at 9:39 p.m. the night before, before the policy lapse was ever fixed. Root referred the case to the Montana Commissioner of Securities and Insurance, whose investigator independently obtained the county dispatch records confirming the real time of the crash and the responding deputy\'s badge number. Facing that evidence, she eventually admitted she had called law enforcement the night before but continued to deny anyone had responded to the scene. On May 29, 2024, the Commissioner entered a default order finding she had committed administrative insurance fraud under the Montana Insurance Code by submitting a false Statement of No Loss and by misrepresenting the date of loss in her claim, and fined her $500. The case illustrates a specific, provable pattern regulators watch for — a policy reinstated in the hours just before a claim is filed for a loss the policyholder tries to date after that reinstatement — and how routinely both smartphone photo metadata and 911 dispatch logs now settle disputes over when an accident actually happened.',
+    categorySlug: 'insurance-fraud',
+    country: 'US',
+    state: 'MT',
+    isHistorical: true,
+    firstRecorded: '2022-05-09',
+    sources: ['Montana Commissioner of Securities and Insurance — Office of the Montana State Auditor'],
+    sourceUrl: 'https://csimt.gov/wp-content/uploads/2024/05/2024-05-29-Final-Agency-Action-and-Default-Order-Brown.pdf',
+  },
+  {
+    name: 'Vermont "Hearing At Home" Deceptive OTC Hearing Aid Sales',
+    slug: 'vermont-hearing-at-home-deceptive-hearing-aid-sales',
+    description:
+      'The Vermont Attorney General sued the seller behind the Nano Hearing Aids brand in January 2023, and reached a settlement with its successor company, Hearing At Home, LLC, on February 6, 2025, over how it marketed and sold over-the-counter hearing aids directly to Vermont consumers online. The state\'s investigation found the company ran "misleading and deceptive advertisements" that misrepresented what its devices could actually do, offered consumers a hearing test online that the state alleged was itself deceptive rather than a genuine diagnostic tool, and ran what were presented as limited-time promotional discounts that in practice never ended. Consumers who bought during one of those promotions later discovered the company had failed to disclose that accepting the promotional price voided their ability to return the device — so once the aids didn\'t perform as advertised, buyers found themselves with no way to get their money back. The company also sold hearing aids to customers under 18, a population OTC hearing aid rules are not designed for. Under the settlement, Hearing At Home agreed to a $41,500 restitution fund to reimburse affected Vermont consumers and a $100,000 civil penalty to the state, with both amounts suspended contingent on the company\'s compliance and financial capacity, and the state\'s enforcement action against the individuals behind the original Nano Hearing Aids operation continues separately. The case is a reminder that "as seen online" medical-adjacent devices sold with an urgent, ever-present "sale ends soon" countdown and a free self-administered "hearing test" deserve the same scrutiny as any other health claim, and that a promotional price is worth reading the fine print on before assuming normal return rights still apply.',
+    categorySlug: 'online-shopping-scams',
+    country: 'US',
+    state: 'VT',
+    isHistorical: true,
+    firstRecorded: '2023-01-01',
+    sources: ["Vermont Attorney General's Office"],
+    sourceUrl: 'https://ago.vermont.gov/blog/2025/02/06/attorney-general-clark-announces-settlement-hearing-home-llc-alleged-violations-consumer-protection',
+  },
 ];
 
 async function seedCategoriesAndScams() {
