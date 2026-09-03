@@ -7684,10 +7684,9 @@ U.S. District Judge Kenneth Marra sentenced Rose Marks on March 3, 2014 — coin
     title: 'Teodorin Obiang: The Vice President Who Turned a $100,000 Salary Into a $300 Million Fortune',
     slug: 'teodorin-obiang-equatorial-guinea-corruption',
     author: 'ScamShield Editorial',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Malabo_banner.jpg?width=1200',
-    coverImageCredit: 'Photo: Denis Barthel, Wikimedia Commons (CC BY-SA 3.0) — the Cathedral Plaza in Malabo, Equatorial Guinea, the capital of the country whose oil revenue funded Obiang\'s fortune',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Teodoro_Nguema_Obiang_Mangue_20250718_(cropped).jpg?width=1200',
+    coverImageCredit: 'Photo: Ministry of Foreign Affairs of Japan, Wikimedia Commons (CC BY 4.0) — Teodorin Obiang at Japan\'s Prime Minister\'s Office in Tokyo, July 2025',
     coverImagePosition: 50,
-    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Teodoro Nguema Obiang Mangue, universally known as "Teodorin," was born June 25, 1969, in Acoacán, in what is now Equatorial Guinea, the eldest son of Teodoro Obiang Nguema Mbasogo, who seized power in a 1979 coup and has ruled the small, oil-rich Central African nation ever since as one of the world's longest-serving heads of state. Teodorin was appointed Minister of Agriculture and Forestry in 1997, a post that paid him a government salary U.S. investigators later pegged at under $100,000 a year — and later rose to Second Vice President in 2012 and First Vice President in 2016, positioning him as his father's likely successor.
 
