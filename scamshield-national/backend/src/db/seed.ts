@@ -12336,6 +12336,10 @@ The FTC's guidance is straightforward: don't click links in unexpected texts or 
     slug: 'rewards-points-expiring-phishing-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'rewards-points-phishing-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Phishing.JPG?width=1200',
+    coverImageCredit: 'Photo: Stomchak (CC BY-SA 3.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2026/04/got-text-about-expiring-reward-points-look-closer',
     body: `A text message lands with a familiar brand name attached — an airline, a hotel chain, a credit card issuer, a grocery store loyalty program — warning that thousands of reward points are about to expire, today, unless the recipient taps a link to "save" them. The message reads like the kind of automated notice loyalty programs send all the time, which is exactly the point: almost everyone belongs to some rewards program, and almost no one tracks their point balance closely enough to know off the top of their head whether the warning is plausible.
 
@@ -12352,6 +12356,9 @@ Anyone who has already entered a password or card number on a page reached throu
     slug: 'residential-proxy-network-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'residential-proxy-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Home_wifi.jpg?width=1200',
+    coverImageCredit: 'Photo: Mrbeastmodeallday (CC BY-SA 4.0) — a home network gateway device',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.ic3.gov/PSA/2026/PSA260312',
     body: `An app promises a way to make a little passive income just by leaving it running in the background: install it, and it will "share" a sliver of unused internet bandwidth with paying customers somewhere else, in exchange for a few dollars a month credited to an account. A free VPN offers something similar in spirit — private browsing at no cost, in exchange for agreeing to lengthy terms of service almost no one reads in full. Both pitches sound like a fair trade. What neither says plainly is that "sharing bandwidth" means routing someone else's internet traffic through the household's own IP address, and that whoever pays for that access is often trying to hide exactly what they're doing online.
 
@@ -12368,6 +12375,9 @@ Anyone who suspects a device may already be part of a proxy network can check fo
     slug: 'dea-medical-license-impersonation-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'dea-impersonation-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Sample_retired_DEA_agent_badge_and_credentials.jpg?width=1200',
+    coverImageCredit: 'Drug Enforcement Administration (Public Domain)',
+    coverImagePosition: 50,
     sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2023/08/impersonation-scam-targets-doctors-nurses-other-medical-providers-steal-money',
     body: `A doctor, nurse, pharmacist, or other licensed medical provider gets an unexpected call from someone identifying themselves as a sheriff's deputy, a DEA agent, or an investigator with a state medical or nursing board. The caller says the provider missed a court date where they were required to testify as an expert witness, or that their DEA registration number is showing up in connection with suspicious prescriptions — possibly tied to drug trafficking or money laundering. Either way, the message is the same: there's a warrant out, or a license suspension pending, and it can supposedly be resolved right now, over the phone, if the provider pays a fine or "bond" immediately.
 
@@ -12384,6 +12394,10 @@ If you receive a call like this, hang up without providing any personal or licen
     slug: 'google-business-profile-hijacking-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'google-business-profile-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Google_Sign.jpg?width=1200',
+    coverImageCredit: 'Photo: brionv (CC BY-SA 2.0) — signage at Google\'s Mountain View campus',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.bbb.org/article/scams/26465-bbb-scam-alert-dont-let-scammers-steal-your-google-business-profile',
     body: `A small business's Google Business Profile — the listing that shows up on Google Maps and in search results with its hours, phone number, website, and years of accumulated customer reviews — is one of its most valuable assets, and it's also something a stranger can request to take over with a single click. Anywhere a business listing appears in Google Search or Maps, there's an "Own this business?" link available to anyone who visits the page, and clicking it sends an ownership-transfer request to the current account.
 
@@ -12400,6 +12414,10 @@ The core defense is simply noticing the request before it's approved: check that
     slug: 'account-takeover-sextortion-image-theft-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'account-takeover-sextortion'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/A_padlock.jpg?width=1200',
+    coverImageCredit: 'Photo: Taoheedah (CC BY-SA 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.ic3.gov/PSA/2026/PSA260810',
     body: `Most sextortion warnings describe a con: a stranger builds a fake romance online, coaxes a victim into sending an explicit photo or video, then threatens to send it to their contacts unless they pay. The FBI's Internet Crime Complaint Center issued a public service announcement in August 2026 describing a different, and in some ways more unsettling, version of the same crime — one that doesn't require tricking anyone into creating anything. Instead, criminals break directly into accounts where intimate images already exist, private ones a person never intended to share with anyone, and steal what's already there.
 
@@ -12416,6 +12434,9 @@ Anyone who believes their private images have already been accessed or stolen ca
     slug: 'equity-crowdfunding-investment-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'equity-crowdfunding-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/U.S._Securities_and_Exchange_Commission_headquarters.JPG?width=1200',
+    coverImageCredit: 'Photo: AgnosticPreachersKid (CC BY-SA 3.0) — SEC headquarters, which brought the first Reg CF fraud enforcement case',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/updated-11',
     body: `A social media ad or online pitch invites ordinary people, not just accredited investors, to buy an actual ownership stake in a startup — a cannabis brand, a real estate venture, a tech company with a compelling founder story — for as little as a few hundred dollars. This is a real, legal category of investing called Regulation Crowdfunding, created so early-stage companies could raise money directly from the public rather than only from venture capitalists and wealthy accredited investors. It's also become a landing spot for a distinct kind of fraud that looks nothing like a donation-based GoFundMe scam or a crypto rug pull, because the securities themselves, and the platforms selling them, are real and SEC-registered — the fraud is in who's actually running the company and where the money actually goes.
 
@@ -12430,6 +12451,10 @@ That last detail is the part worth remembering: a registered funding portal is a
     slug: 'crypto-investment-scam-courier-cash-pickup-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'crypto-courier-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Handing_a_package_over_for_delivery.jpg?width=1200',
+    coverImageCredit: 'Photo: Meanwell Packaging (CC BY 2.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.ic3.gov/PSA/2026/PSA260615',
     body: `A relationship that started as a friendly message from a stranger — sometimes framed as romantic interest, sometimes as a promising business connection — eventually turns into an investment tip: a cryptocurrency trading app the new contact swears is earning them steady, impressive returns. This is the familiar opening of a "pig butchering" scam, and for a long time it played out entirely online: the victim funds a fake trading account, watches a fabricated balance climb, and eventually wires more money to a bank or crypto exchange to keep the "gains" coming. The FBI's Internet Crime Complaint Center is now warning about a newer twist that moves the final step of that scam out of the browser and onto the victim's own doorstep.
 
@@ -12446,6 +12471,10 @@ If you're asked to hand cash to a courier for an online investment, don't do it 
     slug: 'device-code-phishing-microsoft-token-theft-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'device-code-phishing'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Building_92_of_Microsoft_Redmond_Campus_-_panoramio.jpg?width=1200',
+    coverImageCredit: 'Photo: Jiaqian AirplaneFan (CC BY 3.0) — Microsoft\'s Redmond campus',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.ic3.gov/PSA/2026/PSA260521',
     body: `Device code sign-in exists for a genuinely useful reason: it's how you log into a streaming app on a smart TV, a printer, or an Xbox — devices with no keyboard to type a password on. Instead, the device displays a short code, you type that code into a sign-in page on your phone or computer where you're already logged in, and the two devices link up. The FBI's Internet Crime Complaint Center is now warning that this legitimate feature has become the engine of a fast-growing phishing technique, one built specifically to skip past the password and the multi-factor authentication prompt that would normally stop an account takeover cold.
 
