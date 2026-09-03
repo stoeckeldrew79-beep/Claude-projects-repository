@@ -31190,6 +31190,43 @@ SEED_SCAMS.push(
   },
 );
 
+// Second push() batch — same TS2590 array-size workaround described above.
+SEED_SCAMS.push(
+  {
+    name: 'Arvada Fire-Damage Asbestos Abatement Elder Fraud',
+    slug: 'colorado-arvada-asbestos-abatement-elder-fraud',
+    description: `Lance Slayton, operating through Preferred Companies LLC and the Colorado Catastrophe Assistance Program, was paid more than $70,000 by an 82-year-old Arvada, Colorado property owner to perform asbestos abatement and restoration work on a fire-damaged rental home she owned. Instead of doing the job properly, Slayton hired unlicensed laborers who lacked the training required to handle a known carcinogen, and prosecutors say he intentionally spilled and dumped hazardous asbestos-contaminated material rather than disposing of it through the controlled process the law requires — leaving the property unsafe and exposing workers and nearby residents to contamination risk while the restoration itself was never properly completed. A Jefferson County jury convicted Slayton in November 2024 on criminal exploitation of an at-risk elder, theft from an at-risk elder, intentionally causing a hazardous substance incident, and both felony and misdemeanor violations of Colorado's Air Quality Control Act. On February 13, 2025, a Jefferson County District Court judge sentenced him to 10 years in the Colorado Department of Corrections on the elder-exploitation and theft counts, plus concurrent four-year terms on the hazardous-substance and Air Quality Control Act felonies and a 364-day concurrent misdemeanor term, and ordered roughly $85,000 in restitution. Colorado Attorney General Phil Weiser's office, which prosecuted the case, said Slayton "violated the trust of a vulnerable property owner and knowingly exposed others to a dangerous carcinogen" by prioritizing profit over people. Homeowners hiring a contractor for fire, water, or mold restoration work — especially one involving a suspected hazardous material like asbestos — should verify the contractor's and any subcontracted laborers' licensing directly with the Colorado Department of Public Health and Environment before work begins, insist on documentation of proper hazardous-material disposal, and treat pressure to pay large sums upfront for work that never seems to finish as a warning sign to contact the Colorado Attorney General's Consumer Protection Section.`,
+    categorySlug: 'mortgage-foreclosure-scams',
+    country: 'US',
+    state: 'CO',
+    alertLevel: 'high',
+    sources: ["Colorado Attorney General's Office", 'Law360', '9NEWS'],
+    sourceUrl: 'https://coag.gov/press-releases/colorado-contractor-sentenced-fraud-environmental-crimes/',
+  },
+  {
+    name: 'Pelham Tech-Support Cash Pickup Scam',
+    slug: 'new-hampshire-pelham-tech-support-cash-pickup-scam',
+    description: `A malicious pop-up alert appeared on the computer of a 92-year-old woman in Pelham, New Hampshire, falsely warning that her bank accounts had been compromised and directing her to call a "tech support" number for help. The scammers who answered walked her through the fraud playbook step by step, coaching her to withdraw $50,000 in cash and arranging for someone to come collect it from her home late in the evening of April 8, 2025 — but the victim suspected something was wrong and called Pelham police before the pickup happened. When Yalei Li, 39, of Rosemead, California, arrived at her home to collect the cash, officers were already waiting for him. A Hillsborough County Superior Court jury convicted Li on May 27, 2026 of attempted theft by deception, and he was sentenced to 2 to 4 years in the New Hampshire State Prison. The case, prosecuted by New Hampshire Attorney General John M. Formella's office, is one of several the office has brought in recent years against out-of-state couriers sent to physically collect cash from elderly New Hampshire victims of tech-support and bank-impersonation scams, including similar prosecutions of couriers who traveled from Massachusetts and New York to pick up money from victims in Allenstown and Seabrook. No legitimate bank, tech company, or government agency will ever direct someone to withdraw cash and hand it to a courier who shows up at their home, and anyone who receives a pop-up warning about a compromised account should close the browser or restart the device — never call the number displayed — and verify any real account concern by contacting their bank directly using a number they look up themselves, and should alert local police immediately if someone is en route to collect cash in person.`,
+    categorySlug: 'tech-support-scams',
+    country: 'US',
+    state: 'NH',
+    alertLevel: 'high',
+    sources: ['New Hampshire Department of Justice', 'WGME', 'Union Leader'],
+    sourceUrl: 'https://www.doj.nh.gov/news-and-media/california-man-sentenced-scam-targeting-elderly-pelham-new-hampshire-resident',
+  },
+  {
+    name: 'Eastern Oregon Gold Bar "Safekeeping" Scam',
+    slug: 'oregon-eastern-oregon-gold-bar-safekeeping-scam',
+    description: `A woman in Eastern Oregon received a phone call from someone claiming to be a federal agent, who told her that her financial accounts were at risk of being frozen or hacked and that the only way to protect her savings was to withdraw them and convert the money into physical gold bars for "safekeeping." Following the caller's detailed instructions, she purchased $600,000 in gold from a real, legitimate dealer — nearly her entire life savings — and surrendered it to a courier who was dispatched to collect it from her home, after which the scammers disappeared with the gold entirely. The scheme was only stopped from taking an additional $300,000 from her when her sister learned what was happening and called the Oregon Department of Justice's Consumer Hotline, which alerted local law enforcement in time to intervene before a second handover could take place. Oregon Attorney General Dan Rayfield's office publicized the case in a July 18, 2025 consumer alert and issued a follow-up warning weeks later after another Oregonian, in the same county, lost $60,000 in a nearly identical scheme involving silver bars, as reports of the "gold bar scam" climbed across the Pacific Northwest. "This is a heartbreaking example of how sophisticated and predatory these scams have become," Rayfield said. "No one — especially not a government agency — will ever ask you to buy gold or hand over your money." The scam's defining, disarming feature is that the gold purchase itself is entirely legal and unremarkable, since victims buy from real dealers; the fraud is the instruction to buy gold at all and the in-person handover that follows, and Oregon DOJ urges anyone told by a caller claiming to be a federal agent, bank officer, or other official to convert savings into gold, cash, or other valuables to hang up immediately, never let a courier collect anything from their home, and report the call to the ODOJ Consumer Hotline at 1-877-877-9392 or OregonConsumer.gov.`,
+    categorySlug: 'government-impersonation',
+    country: 'US',
+    state: 'OR',
+    alertLevel: 'critical',
+    sources: ['Oregon Department of Justice', 'KGW', 'KPTV'],
+    sourceUrl: 'https://www.doj.state.or.us/media-home/news-media-releases/oregon-woman-scammed-out-of-600k-in-gold-bars-odoj-urges-vigilance-as-gold-bar-scam-spreads-nationwide/',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
