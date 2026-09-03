@@ -26431,6 +26431,75 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['New Mexico Department of Justice, Office of the Attorney General', 'Village of Ruidoso'],
     sourceUrl: 'https://www.ktsm.com/news/local-news/new-mexico-attorney-general-warns-ruidoso-flood-victims-of-potential-scams/',
   },
+  {
+    name: 'Irish RIP.ie Fake Funeral Livestream Scam',
+    slug: 'ireland-rip-ie-funeral-livestream-scam',
+    description:
+      'Fraudsters lift a deceased person\'s name, photo, and funeral details from a real notice on RIP.ie, Ireland\'s national death-notices website, then set up a fake Facebook page offering a link to "watch the livestream" of the funeral. Grieving family and friends who click through are asked to enter credit card details, supposedly to verify their identity or unlock the stream, handing their card straight to the scammer. Funeral directors and gardaí have confirmed genuine livestreams are always free to watch and are only ever linked directly from the funeral home\'s own page or RIP.ie itself, with reports of the pattern spreading from Donegal to other counties as fraudsters copy the same template onto fresh obituaries.',
+    categorySlug: 'online-shopping-scams',
+    country: 'IE',
+    alertLevel: 'medium',
+    sources: ['An Garda Síochána', 'Irish Examiner'],
+    sourceUrl: 'https://www.irishexaminer.com/news/courtandcrime/arid-41321800.html',
+  },
+  {
+    name: 'Irish ATM Card Skimming and Card Trapping Fraud',
+    slug: 'ireland-atm-card-skimming-trapping-fraud',
+    description:
+      'A device fitted over or inside an ATM\'s card slot either copies the card\'s magnetic stripe data while a hidden pinhole camera or fake keypad overlay records the PIN ("skimming"), or physically grips the card so it never comes back out after the machine reads it ("trapping") — the fraudster then either clones the card to withdraw cash and shop with it, or retrieves the trapped card directly once the frustrated victim gives up and walks away. An Garda Síochána\'s fraud unit and the CCPC both warn this happens most at ATMs in less-trafficked or poorly lit locations, and advise using machines in busy, well-lit areas, always covering the keypad when entering a PIN, and checking for a loose or added-on card reader, camera, or keypad before inserting a card — reporting any tampered-looking ATM rather than using it.',
+    categorySlug: 'account-takeover',
+    country: 'IE',
+    alertLevel: 'medium',
+    sources: ['An Garda Síochána', 'Competition and Consumer Protection Commission (CCPC)', 'FraudSMART (Banking & Payments Federation Ireland)'],
+    sourceUrl: 'https://www.garda.ie/en/crime/fraud/my-card-has-been-skimmed-what-do-i-do-.html',
+  },
+  {
+    name: 'Irish WhatsApp "Product Boosting" Task-Scam Job Offer',
+    slug: 'ireland-whatsapp-product-boosting-task-scam',
+    description:
+      'An unsolicited WhatsApp message offers a flexible remote job — often described as "product boosting," market research, or reviewing items for well-known retailers — paying an unusually high €170 to €250 a day, using a real recruitment agency\'s name and logo without its knowledge. After a quick sign-up on an unfamiliar website and a few trivial starter tasks, the target is told they must pay a small fee, often around €10, to "unlock" higher-paying tasks or activate their account; once paid, the demanded amounts escalate into the hundreds or thousands of euro before the "employer" disappears. The Employment and Recruitment Federation (ERF) issued a public warning stating that no reputable recruitment agency in Ireland will ever ask a candidate for money to access work, training, or job opportunities, and urges anyone contacted this way to independently verify the agency through its official website or published phone number before engaging further, and to report suspected fraud to An Garda Síochána.',
+    categorySlug: 'employment-scams',
+    country: 'IE',
+    alertLevel: 'high',
+    sources: ['Employment and Recruitment Federation (ERF)', 'An Garda Síochána'],
+    sourceUrl: 'https://dublinpeople.com/news/dublin/articles/2025/12/16/jobseekers-warned-about-serious-whatsapp-recruitment-scam/',
+  },
+  {
+    name: 'Fraudulent State of Alabama Checks Mailed to Consumers',
+    slug: 'alabama-fraudulent-state-checks-mailed-to-consumers',
+    description:
+      'Scammers mail official-looking checks purporting to be issued by the State of Alabama Department of Finance, typically sent by priority mail to recipients nationwide alongside a letter claiming the money is a sign-on bonus for a job the recipient supposedly applied for online, payment for agreeing to place advertising decals or a wrap on their personal vehicle, or an inheritance from a recently deceased relative. The letter instructs the recipient to deposit the check and immediately wire back a portion of the funds for taxes, fees, or shipping — before the forged check bounces days later, leaving the victim liable for the full amount their own bank had already provisionally credited. Alabama Attorney General Steve Marshall and State Comptroller Kathleen Baxter issued a joint consumer alert confirming no funds have ever actually been withdrawn from a real State of Alabama account to cover these checks, and urge anyone who receives an unexpected check appearing to be from the state to call the Comptroller\'s Office directly to verify it before depositing or spending any of it.',
+    categorySlug: 'government-impersonation',
+    country: 'US',
+    state: 'AL',
+    alertLevel: 'medium',
+    sources: ["Alabama Attorney General's Office", 'Alabama Office of the State Comptroller'],
+    sourceUrl: 'https://www.alabamaag.gov/attorney-general-steve-marshall-state-comptroller-kathleen-baxter-issue-consumer-alert-about-fraudulent-checks-that-appear-to-be-from-state-of-alabama/',
+  },
+  {
+    name: 'Rhode Island Energy Multi-Channel Impersonation Scam',
+    slug: 'rhode-island-energy-multi-channel-impersonation-scam',
+    description:
+      'Scammers impersonate Rhode Island Energy, the state\'s dominant electric and gas utility, across phone calls, text messages, email, and even door-to-door visits: callers falsely threaten same-day service disconnection unless a customer pays immediately, phishing emails copy the utility\'s real branding to harvest account logins or trick recipients into clicking a malicious link, and people posing as field technicians ask to be let in to "inspect equipment" or demand an on-the-spot payment — something genuine crews never do without advance notice. Rhode Island Energy has confirmed it only sends unsolicited texts through its own short code, RIEMSG (743674), for outage reports and balance checks a customer themselves initiated, meaning any other text soliciting payment is fraudulent. Vice President of Customer Services Kristin DeSousa said the company is "seeing an increase in sophisticated scams that attempt to pressure customers into making quick payments or handing over personal information," and advises anyone contacted this way to ask for the last five digits of their account number to verify a legitimate employee, hang up on any high-pressure call, and report suspected scams to Rhode Island Energy or the Rhode Island Attorney General\'s office.',
+    categorySlug: 'utility-scams',
+    country: 'US',
+    state: 'RI',
+    alertLevel: 'medium',
+    sources: ['Rhode Island Energy', "Rhode Island Office of the Attorney General"],
+    sourceUrl: 'https://news.pplweb.com/Rhode-Island-Energy-Shares-Tips-to-Help-Customers-Protect-Themselves-against-Utility-Scams',
+  },
+  {
+    name: 'Kansas City FIFA World Cup Rental, Ticket, and Parking Scams',
+    slug: 'missouri-kansas-city-world-cup-rental-parking-ticket-scams',
+    description:
+      'As Kansas City hosted 2026 FIFA World Cup matches, the Missouri Attorney General\'s office warned of three distinct scams converging on the event, separate from the FBI\'s nationwide warning about spoofed FIFA ticketing websites: fake short-term rental listings posted on unofficial sites or asking for payment outside a platform like Airbnb or Vrbo at suspiciously low prices for the dates in question; counterfeit, duplicated, or altered digital tickets sold through untrusted resale sites that harvest a buyer\'s payment and personal information along with the sale; and fraudulent parking operations near stadiums and fan zones that issue bogus citations, aggressively tow legally parked cars, or post fake QR codes at the pay station that route payment to a scammer instead of the lot operator. Attorney General Catherine Hanaway\'s office advises booking rentals only through established platforms with a verifiable address, paying for tickets by credit card through official resale channels for the fraud-dispute protection it offers, and, before paying any parking citation, checking it against the Kansas City Municipal Court\'s own online portal rather than scanning a QR code posted at the lot.',
+    categorySlug: 'online-shopping-scams',
+    country: 'US',
+    state: 'MO',
+    alertLevel: 'medium',
+    sources: ["Missouri Attorney General's Office"],
+    sourceUrl: 'https://ago.mo.gov/attorney-general-hanaway-offers-consumer-guidance-against-scams-ahead-of-world-cup/',
+  },
 ];
 
 async function seedCategoriesAndScams() {
