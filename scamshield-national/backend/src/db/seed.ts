@@ -14264,7 +14264,9 @@ Protect yourself by requesting a free U.S. currency identification tool — the 
     slug: 'va-pension-poaching-aid-attendance-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'pension-poaching-scam'],
-    // representative photo — replace with an exact match if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Huntington_Veterans_Affairs_Regional_Office_2023.jpg?width=1200',
+    coverImageCredit: 'Photo: Antony-22 (CC BY-SA 4.0)',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.gao.gov/products/gao-12-540',
     body: `A widow in Thousand Oaks, California met a man who introduced himself as a financial planner with ties to the Department of Veterans Affairs, there to help her claim the survivor pension she was entitled to after her husband's death. To "process" the paperwork, David Todd Neuman collected her husband's military discharge records, death certificate, and their marriage certificate — the exact documents needed to file a VA claim. He wasn't filing anything on her behalf. Prosecutors say Neuman used those documents to apply for death and survivor benefits himself, diverting more than $187,000 in VA payments into his own bank account while the widows he'd approached received nothing at all. He pleaded guilty to embezzlement and false impersonation and was sentenced to 120 days in county jail with three years of probation, in a case California's Department of Insurance publicized as a warning to other veterans and survivors being approached the same way.
 
@@ -14304,6 +14306,9 @@ Before hiring anyone, verify they're certified through the Chimney Safety Instit
     slug: 'hearing-aid-marketing-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'hearing-aid-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Hearing_aid_variety.jpg?width=1200',
+    coverImageCredit: 'Photo: Vilma Liella (CC BY-SA 2.0)',
+    coverImagePosition: 50,
     sourceUrl: 'https://ago.vermont.gov/blog/2023/01/03/attorney-general-sues-over-counter-hearing-aid-company-nano-misleading-consumers',
     body: `Between January 2018 and July 2021, roughly 800 Vermont consumers bought hearing devices from a company called Nano Hearing Aids, drawn in by an online "hearing test" the company described as an accurate consultation. Vermont's attorney general later alleged that test wasn't reviewed by any actual audiologist, that staff were directed to present themselves as "hearing specialists" without the credentials to back it up, that the company ran a fake sale that never actually ended, and that it implied FDA approval its products never had while quietly designing them overseas despite marketing that claimed otherwise. When customers weren't satisfied, the state said, they were pressured to hold onto devices past the company's 45-day return window. The office filed suit in January 2023; by February 2025, the company — reorganized as Hearing At Home, LLC — had agreed to fund $41,500 in consumer restitution and pay a $100,000 civil penalty. "Our investigation revealed that Nano left consumers in the dark about the potential and serious health risks associated with their products," said then-Attorney General Susanne Young.
 
@@ -14322,6 +14327,10 @@ Before buying, get a baseline hearing evaluation from a licensed audiologist or 
     slug: 'wedding-baby-registry-hijacking-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'registry-hijacking-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Baby_shower_gifts_-_October_2022_Sarah_Stierch.jpg?width=1200',
+    coverImageCredit: 'Photo: Missvain (CC BY 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.nbcnews.com/business/consumer/wedding-site-zola-hacked-multiple-users-report-gifts-stolen-rcna30117',
     body: `Over a single weekend in May 2022, users of the wedding-planning site Zola started reporting something alarming: gift cards they'd never ordered were being purchased through their own registry accounts. The mechanism wasn't a breach of Zola's own systems — it was credential stuffing, where attackers take usernames and passwords already leaked from unrelated breaches and simply try them, at scale, against other websites, banking on how many people reuse the same login everywhere. Wherever a login worked, criminals logged into a couple's real registry account, used stored cash-gift funds or a saved credit card to buy gift cards, and had them emailed straight to an address they controlled — with instructions circulating on a Telegram channel specifically advising other scammers to work through Zola's mobile app rather than its website. Zola said fewer than 0.1% of accounts were affected, blocked the fraudulent cash-fund transfers it could catch, refunded the gift card orders that got through, reset every user's password, and briefly suspended its own apps — but the company declined to explain why two-factor authentication hadn't already been standard on every account before the attack.
 
