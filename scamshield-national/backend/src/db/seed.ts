@@ -7923,6 +7923,54 @@ Zhong pleaded guilty in November 2022 to a single count of wire fraud for the or
   },
 ];
 
+// Pushed separately rather than added as inline array literals: TypeScript
+// throws "TS2590: Expression produces a union type that is too complex to
+// represent" once NOTORIOUS_ARTICLES grows this large. Pushing keeps each
+// expression small enough to type-check while leaving the runtime array,
+// and every consumer of it, unchanged. (Same workaround as SEED_SCAMS below.)
+NOTORIOUS_ARTICLES.push(
+  {
+    title: 'Mehul Choksi and the $1.8 Billion Punjab National Bank Fraud He Ran From Antigua',
+    slug: 'mehul-choksi-gitanjali-gems-pnb-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Antwerp_diamond_district_-_street_view.jpg?width=1200',
+    coverImageCredit: 'Photo: Tyler Allen, Wikimedia Commons (CC BY 2.0) — the Antwerp diamond district, where Belgian police arrested Mehul Choksi in April 2025',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    body: `Mehul Choksi built Gitanjali Gems into one of India's largest jewelry and diamond conglomerates, with retail chains and celebrity-endorsed brands sold across the country, before Indian investigators accused him of running one of the biggest bank frauds in the nation's history — a scheme prosecutors say he operated for years out of a single branch of a state-owned bank, using little more than an unauthorized message format and complicit bank employees.
+
+According to India's Central Bureau of Investigation (CBI), starting as early as 2011 and accelerating sharply through 2017, Choksi's firms — working alongside his nephew Nirav Modi's separate jewelry companies — obtained fraudulent Letters of Undertaking (LoUs) and Foreign Letters of Credit (FLCs) from a single branch of Punjab National Bank (PNB) in Mumbai's Brady House, without the collateral such guarantees are supposed to require. Two PNB employees at the branch allegedly issued the LoUs using the SWIFT international messaging system while deliberately keeping them off the bank's own core accounting software, so the guarantees never showed up in any internal audit. Those LoUs let Choksi's companies borrow foreign currency from overseas branches of other Indian banks, which then rolled the debt into fresh LoUs before the old ones came due — a revolving door of increasingly large fraudulent guarantees that, according to CBI charge sheets, included 165 LoUs and 58 FLCs issued in 2017 alone. When the fraud was uncovered in early 2018, the CBI and India's Enforcement Directorate pegged the total loss to PNB at roughly ₹13,000-14,000 crore, or about $1.8 billion — at the time, the largest bank fraud ever detected in India.
+
+Choksi did not wait for the scandal to become public. He left India in early January 2018, weeks before PNB filed its formal complaint, and had already obtained citizenship of Antigua and Barbuda in November 2017 under the country's citizenship-by-investment program — a passport that gave him visa-free travel to more than 150 countries and, for years, an argument against extradition as an Antiguan national. India revoked his passport, secured an Interpol Red Notice, and pursued his extradition from Antigua for more than three years without success, while Choksi's lawyers fought the case through the Caribbean nation's courts.
+
+The pursuit turned dramatic in May 2021. Choksi disappeared from Antigua and turned up days later in neighboring Dominica, arrested on a beach near the capital, Roseau, after reportedly discarding documents into the sea; he told authorities he had been abducted from Antigua and taken to Dominica against his will, an account Dominican and Antiguan officials disputed and that a Belgian court later found unsupported by any evidence in the record. India dispatched a team seeking his immediate deportation, but Choksi was granted bail after roughly two months in Dominican custody and returned to Antigua, where he continued contesting extradition and where Prime Minister Gaston Browne moved to revoke his citizenship.
+
+Choksi's evasion of Indian authorities finally ran out of road in Europe. He relocated to Belgium — reportedly for medical treatment and through his wife's Belgian citizenship — where India's CBI tracked him and filed a formal extradition request in August 2024. Antwerp police arrested him on April 11, 2025, and Belgian courts repeatedly rejected his bail applications on flight-risk grounds while he remained in custody. An Antwerp appeals court ruled on October 17, 2025, that his extradition to India could proceed on six charges, including criminal conspiracy, forgery, and embezzlement; Choksi's final appeal to Belgium's Court of Cassation, the country's supreme court, was rejected on December 9, 2025, clearing the last legal obstacle to his return. As of early 2026, his physical extradition to India — to face a trial he has never yet stood — remained pending the completion of administrative formalities between the two governments, eight years after Punjab National Bank first discovered the fraud, and roughly five years after his nephew was separately arrested in London on the connected case.
+
+The Choksi case has become a case study, cited repeatedly by Indian regulators and bankers, in how a single unmonitored corner of an enormous institution — one branch, two employees, one messaging system nobody thought to reconcile against the bank's own books — can bleed a state-owned lender for years before anyone notices, and how a citizenship-by-investment passport, intended to attract legitimate capital, can just as easily buy a fugitive years of extra runway once the fraud is found.`,
+    sourceUrl: 'https://en.wikipedia.org/wiki/Mehul_Choksi',
+  },
+  {
+    title: 'Su Zhu, Kyle Davies, and the $10 Billion Collapse of Three Arrows Capital',
+    slug: 'su-zhu-kyle-davies-three-arrows-capital-collapse',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Merlion_and_the_Singapore_Skyline.JPG?width=1200',
+    coverImageCredit: 'Photo: Merlion444, Wikimedia Commons (CC0) — Singapore, where Su Zhu and Kyle Davies ran Three Arrows Capital before its collapse and their later arrest and imprisonment',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    body: `Su Zhu and Kyle Davies met as classmates at Columbia University and, in 2012, founded Three Arrows Capital (widely known as "3AC") as a conventional Singapore-based currency-arbitrage fund before pivoting hard into cryptocurrency around 2018. By early 2022, 3AC had grown into one of the most influential and aggressively leveraged hedge funds in crypto, with the two men — Zhu especially, through relentless bullish commentary on social media under the moniker "supercycle" — cultivated public reputations as some of the industry's savviest and most confident traders, managing a fund reported to control roughly $10 billion in assets at its peak.
+
+That leverage became the fund's undoing. 3AC had borrowed heavily — court filings later put its liabilities at roughly $3.5 billion owed to more than two dozen crypto lenders and counterparties worldwide — much of it used to take outsized, concentrated positions rather than the diversified arbitrage strategies the fund had built its reputation on. The firm poured hundreds of millions into TerraUSD and its sister token Luna, the algorithmic-stablecoin project that collapsed catastrophically in May 2022, wiping out roughly $60 billion in value within days and, with it, a large share of 3AC's balance sheet. As crypto prices fell further through the spring of 2022, margin calls from lenders arrived faster than 3AC could meet them, and the fund that had projected an image of near-invincible confidence turned out to have no cushion at all. A British Virgin Islands court, where 3AC was legally domiciled, ordered the fund into liquidation on June 27, 2022, and appointed the advisory firm Teneo to recover what it could for creditors.
+
+What followed was less a bankruptcy than a manhunt. Zhu and Davies went silent publicly and largely stopped cooperating with Teneo's liquidators, who told a Singapore court the pair had failed to disclose the extent of their remaining assets or their whereabouts. In September 2023, a Singapore court issued committal orders against both men for contempt after they refused to comply with orders compelling their cooperation with the liquidation investigation; Zhu was arrested attempting to board a flight out of Singapore's Changi Airport and sentenced to four months in prison, a term he later described publicly, after his release, as "enjoyable." Davies received an identical four-month sentence but was never located to serve it. Singapore's Monetary Authority separately barred both men from the country's regulated financial industry for nine years in September 2023, finding they had breached securities laws in how 3AC had been run. A BVI court froze roughly $1 billion in assets tied to the two founders and, separately, their liquidators pursued a $1.3 billion claim against Terraform Labs, the company behind the Luna and TerraUSD collapse that had helped trigger 3AC's downfall, arguing the token's failure amounted to market manipulation.
+
+Neither man has been criminally convicted of fraud, and both continued fighting the liquidators' efforts to compel disclosure well into 2025, when Singapore's courts partially sided with them on narrower procedural grounds even as broader disclosure orders stood. Three Arrows Capital's collapse remains one of the clearest illustrations to date of what unwinds when a fund's public reputation for brilliance is built less on strategy than on borrowed money and borrowed confidence: a firm that spent years telling the market it understood risk better than anyone else turned out, when the bet went wrong, to have no plan for losing at all — only a founder team that, once the bill came due, chose to disappear rather than answer for it.`,
+    sourceUrl: 'https://en.wikipedia.org/wiki/Three_Arrows_Capital',
+  },
+);
+
 // Practical "how it works / red flags / what to do" guides covering the
 // major scam categories, the same kind of coverage the FTC's Consumer
 // Advice site and AARP's Fraud Watch Network publish — well-documented
