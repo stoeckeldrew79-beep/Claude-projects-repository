@@ -13567,6 +13567,10 @@ Before signing a lease or closing on an older home, verify a lead inspection cer
     slug: 'representative-payee-fraud-social-security-benefits-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'representative-payee-fraud'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Old_man_being_assisted.jpg?width=1200',
+    coverImageCredit: 'Photo: geralt / Pixabay (CC0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://oig.ssa.gov/news-releases/2025-05-13-fall-river-woman-sentenced-for-stealing-nearly-90-000-in-social-security-benefits-intended-for-her-child/',
     body: `Nancy Taylor of Fall River, Massachusetts was appointed her child's representative payee — the person the Social Security Administration entrusts to receive and manage benefits on behalf of someone who can't yet manage their own, in this case a minor. When the child stopped living with her in May 2016, federal prosecutors say Taylor didn't tell SSA, as she was required to. She kept collecting the monthly checks anyway, and when SSA's contact information lapsed, she called the agency in 2021 to update it and later visited a field office in 2022 to reactivate the benefits, submitting forms falsely claiming the child still lived with her. Between May 2016 and May 2022, she took in roughly $86,994 that was supposed to support her child and used the vast majority of it on her own bills. She pleaded guilty in February 2025 and was sentenced to ten months in federal prison plus three years of supervised release, with $86,994 in restitution ordered.
 
@@ -13585,6 +13589,10 @@ A beneficiary who can manage their own affairs can ask SSA to become their own p
     slug: 'real-estate-investment-seminar-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'real-estate-seminar-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Audience_-_TNW_Conference_2011_-_Day_2_(5669377962).jpg?width=1200',
+    coverImageCredit: 'Photo: Julia de Boer / The Next Web (CC BY 2.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2019/11/ftc-acts-shut-down-companies-operating-real-estate-seminar-scheme',
     body: `A postcard, an infomercial, or a targeted social media ad invites you to a free 90-minute seminar on flipping houses, often name-dropping a familiar face from HGTV or a reality show as an endorser or instructor. The pitch is simple and appealing: real estate has made ordinary people wealthy, and this particular program will teach the "insider" formula, with access to discounted, "off-market" deals thrown in. The free session, though, isn't really the product — it's the doorway into a sales funnel built to sell something far more expensive.
 
