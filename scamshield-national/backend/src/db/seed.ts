@@ -4094,10 +4094,9 @@ The "wire store" itself is largely a museum piece today, but its core promise �
     slug: 'william-duer-panic-of-1792',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Federal_Hall_front.jpg?width=1200',
-    coverImageCredit: 'Photo: Hu Totya (CC BY-SA 3.0)',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/WilliamDuer.jpg?width=1200',
+    coverImageCredit: 'Engraving: Max Rosenthal (public domain)',
     coverImagePosition: 50,
-    // representative photo — replace with a portrait if found
     body: `William Duer was about as close to the center of American financial power as a private citizen could get in 1789: a signer of the Articles of Confederation, a member of the Continental Congress, and the first assistant secretary of the newly created U.S. Treasury under Alexander Hamilton. That last job gave him early, detailed knowledge of exactly how the young federal government intended to price and restructure its debt — knowledge he kept trading on for his own account even after leaving the post, at a time when the ban on that kind of self-dealing was more a matter of honor than of enforceable law.
 
 Duer teamed up with a fellow speculator, Alexander Macomb, to try to corner the market in Bank of New York and Bank of the United States stock, borrowing heavily — often at extortionate short-term interest rates from small lenders across New York who trusted his reputation — to keep buying shares and drive prices ever higher. The scheme depended entirely on a rising market and a continuous supply of new credit to refinance what he already owed. Neither held. In March 1792, Duer and Macomb defaulted on loan payments they could no longer cover, and the securities they had piled into crashed, wiping out banks, merchants, and ordinary New Yorkers who had lent Duer money directly.
@@ -4491,10 +4490,9 @@ Yerkes doesn't fit neatly into a single fraud case the way a Ponzi scheme does �
     slug: 'albert-grant-emma-silver-mine-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/1904-11-26_front_Leicester_Square_London.jpg?width=1200',
-    coverImageCredit: 'Photo: public domain (published before 1931)',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Albert_Grant_Vanity_Fair_21_February_1874.jpg?width=1200',
+    coverImageCredit: 'Caricature: Carlo Pellegrini, Vanity Fair, 1874 (public domain)',
     coverImagePosition: 50,
-    // representative photo — replace with a portrait if found
     body: `Albert Grant was born Abraham Gottheimer in the Dublin slums in 1831, the son of an impoverished peddler, and reinvented himself so completely — new name, new social circle, new class — that by his mid-thirties he was a Conservative Member of Parliament with a country estate. The engine behind that rise was company promotion: through the 1860s and 1870s, Grant built and sold shares in dozens of companies backed by little more than an expensively printed prospectus, favorable (often paid-for) newspaper coverage, and a sales pitch aimed at investors — clergy and widows among them — who had money to place and no practical way to verify what they were buying.
 
 His most notorious venture was the 1871 flotation of the Emma Silver Mining Company, built around a mine in Little Cottonwood Canyon, Utah, that its American promoters — including a sitting U.S. senator — already suspected was running out of ore. Grant helped float the company on the London Stock Exchange at a valuation of roughly £1 million and personally pocketed about £200,000 in commission for selling the shares to British investors. Within a year the mine's silver was largely exhausted, the share price collapsed, and a London lawsuit that dragged on for years eventually forced Grant and his fellow promoters to repay more than £180,000 to the company — a partial reckoning that still left most investors far short of what they had put in.
@@ -4620,6 +4618,9 @@ Drew's own former allies eventually turned on him: Fisk and Gould later cornered
     slug: 'albert-patrick-william-marsh-rice-forged-will-murder',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Albert_T._Patrick_(1866%E2%80%931940).png?width=1200',
+    coverImageCredit: "Photo: Leslie's Illustrated Weekly, 1912 (public domain)",
+    coverImagePosition: 50,
     body: `William Marsh Rice was, by 1900, one of the wealthiest men in America — a Texas cotton and real-estate magnate living quietly in a Manhattan apartment, tended to by his valet, Charles F. Jones, while a New York attorney named Albert T. Patrick worked to get close to him. Rice's first wife, Margaret, had died in 1896, and a decade-long legal fight had broken out over whether an earlier promise she made to leave half the couple's Texas property to charity survived her death. Patrick represented the opposing side in that fight, and by 1900 he had maneuvered his way into Rice's confidence and, more importantly, into Jones's.
 
 Rice's own will left the bulk of his fortune to fund a new Houston institute for higher education — what would become Rice University. Patrick decided to replace it. Working with Jones, he drafted a forged will naming himself the primary beneficiary and executor, forged Rice's signature on it and on a series of documents assigning Rice's securities directly to Patrick, and had two unwitting building employees sign as witnesses to a document they were told was something else entirely. All that remained was for the elderly Rice, then 84, to die before he could discover what had been done in his name.
@@ -4999,6 +5000,9 @@ Mozer was fired, indicted, and in 1993 pled guilty to two federal felony counts 
     slug: 'therese-humbert-great-inheritance-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Th%C3%A9r%C3%A8se_Humbert.jpg?width=1200',
+    coverImageCredit: 'Photo: La Vie illustrée, c. 1903 (public domain)',
+    coverImagePosition: 50,
     body: `In 1879, a young Frenchwoman named Thérèse Humbert began telling an extraordinary story: while traveling by train, she said, she had nursed an elderly American millionaire named Robert Henry Crawford through a heart attack, and in gratitude he had later named her sole heir to his fortune. When Crawford supposedly died in 1881, his will — kept, along with the securities it referenced, inside a large iron safe — reportedly left Humbert an estate worth 100 million francs, an almost incomprehensible sum for the era. There was one complication built into the story from the start: two nephews were contesting the will, and until the litigation resolved, the safe could not legally be opened. It never needed to be. The safe itself, sealed and unopened, became Humbert's collateral for the next two decades.
 
 Humbert's husband, Frédéric, was the son of Gustave Humbert, a former French Minister of Justice, and the family's political connections gave the story a credibility it never earned on its own merits. Using the promised inheritance as security, Thérèse Humbert borrowed enormous sums from banks, insurance companies, and private lenders across France, always presenting the loans as bridge financing against a fortune that was merely delayed by lawsuits, not in doubt. She used part of the money to live lavishly in Paris, hosting a political and literary salon that further burnished her respectability, and used the rest to pay interest on earlier loans — a structure that let her keep raising new debt to service the old for more than twenty years without anyone forcing the safe open. The two contesting "nephews" were, in reality, Thérèse's own brothers, playing invented characters in a fraud that had no real opposing party at all.
@@ -5013,6 +5017,9 @@ Thérèse Humbert was tried in 1903 and sentenced to five years' hard labor; her
     slug: 'marthe-hanau-gazette-du-franc-ponzi',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Marthe_Hanau.jpg?width=1200',
+    coverImageCredit: 'Photo: Le Petit Parisien, 1928 (public domain)',
+    coverImagePosition: 50,
     body: `Marthe Hanau was born in Lille, France, in 1886 to a Jewish industrial family, and married a businessman named Lazare Bloch in 1908; the couple later divorced but stayed close business partners for the rest of her life. In 1925, Hanau and Bloch founded La Gazette du Franc et des Nations, a financial newspaper that offered readers stock tips and investment advice, and built an affiliated brokerage and investment house around it. It was a shrewd piece of engineering: the newspaper could tout the shares of companies Hanau and her associates controlled, driving up prices through publicity rather than performance, while the brokerage collected deposits and bonds from ordinary readers who trusted the "banker of the Roaring Twenties," as the press soon nicknamed her.
 
 The underlying mechanics were the same trick Charles Ponzi had run in Boston less than a decade earlier, transplanted to Paris and dressed up in financial-journalism respectability. Hanau's operation paid out returns to existing depositors using cash raised from new subscribers rather than from any real trading profit, and as long as new money kept flowing in faster than withdrawals went out, the newspaper's glowing coverage of "her" companies gave investors every reason to believe the returns were genuine. The scheme drew in tens of thousands of small investors and, by some estimates, raised more than 170 million francs before it collapsed, leaving investors with an estimated 120 million francs in losses. Hanau's connections ran deep into French political and press circles — Le Quotidien, a newspaper aligned with the Cartel des Gauches coalition, had given her financial pages space to operate, a relationship that turned the eventual scandal into a political embarrassment as well as a financial one.
@@ -5194,6 +5201,9 @@ In 2013, a California jury convicted Gerhartsreiter of first-degree murder in Jo
     slug: 'george-hudson-railway-king-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/George_Hudson_-_Project_Gutenberg_eText_17293.jpg?width=1200',
+    coverImageCredit: 'Photo: public domain (pre-1929)',
+    coverImagePosition: 50,
     body: `George Hudson began as a draper's apprentice in York, England, and an unexpected inheritance from a distant relative in 1827 gave him the capital to start buying into the railway boom then transforming Britain. He proved a gifted promoter and consolidator, merging competing lines and driving fares down, and by the height of "Railway Mania" in the mid-1840s he chaired several major companies and personally controlled close to a third of all the railway track in Britain. Newspapers dubbed him the "Railway King," he was elected Member of Parliament for Sunderland, and he entertained royalty and aristocracy at his estates — an ordinary tradesman's son who had become one of the most powerful men in the country almost entirely on the strength of railway shares.
 
 The mechanism behind that success was fraud. Hudson kept investor confidence — and his companies' share prices — buoyant by paying shareholders dividends that bore no relationship to actual earnings, funding the payouts instead directly out of capital raised from new share issues, a structure that only worked as long as fresh investors kept buying in. He also used his position atop multiple companies to move assets and shares between them at prices he set himself, routing the profit from those internal transactions into his own pocket, and doctored company accounts to conceal both practices from shareholders and the auditors nominally reviewing them.
@@ -5306,6 +5316,9 @@ Dominelli pleaded guilty in 1985 to four felony fraud charges and was sentenced 
     slug: 'leopold-redpath-great-northern-railway-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Leopold_Redpath_attributed_to_William_Egley_1839.jpg?width=1200',
+    coverImageCredit: 'Portrait: attributed to William Egley, 1839 (public domain)',
+    coverImagePosition: 50,
     body: `Leopold Redpath was a struggling London clerk — bankrupted once already as an insurance broker — when he joined the Great Northern Railway in 1846 as chief clerk in its registration department, eventually rising to registrar, the official who kept the company's share register. It was a position of enormous trust and almost no oversight: the men who ran the Great Northern had little accounting expertise of their own, and Redpath, drawing a salary that never exceeded £250 a year, controlled the paperwork that determined who owned what stock in one of Britain's largest railway companies.
 
 Around 1848, Redpath began quietly exploiting that trust. He created spurious entries in the share register and issued fraudulent stock certificates — visually indistinguishable from genuine Great Northern shares — which he then sold on the open market to investors who had no way of knowing the shares didn't legitimately exist. Over roughly eight years he issued and sold nearly a quarter of a million pounds' worth of counterfeit stock, a sum worth well over £20 million in today's money, all while presenting himself publicly as a man of substantial and entirely legitimate wealth.
@@ -5365,6 +5378,9 @@ Unlike the executives behind contemporaneous frauds at Enron and WorldCom, Winni
     slug: 'lord-gordon-gordon-jay-gould-erie-railway-swindle',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Lord_Gordon-Gordon.jpg?width=1200',
+    coverImageCredit: 'Photo: Manitoba Historical Society (public domain)',
+    coverImagePosition: 50,
     body: `In 1871, a man calling himself Lord Gordon-Gordon arrived in New York claiming to be a wealthy Scottish nobleman, a cousin of the Campbell clan with vast Highland estates and a fortune to match. His real identity was murky even to his contemporaries — later research pointed to a man born John Crowningsfield, rumored to be the illegitimate son of an English clergyman and a family maid — but his manner, his tailored clothes, and his casual references to titled European relations were convincing enough that New York society, and eventually Wall Street's most ruthless robber baron, took him entirely at his word.
 
 Gordon-Gordon's biggest mark was Jay Gould, then locked in a brutal fight for control of the Erie Railway. Gordon-Gordon told Gould he personally controlled a huge block of Erie stock and could help him consolidate power over the company — and in exchange for the promise of those shares, Gould handed him roughly $1 million in cash and stock (worth well over $25 million today) along with a seat on the Erie board. There was no such stock. By the time Gould realized he had been swindled, Gordon-Gordon had already liquidated what he could and moved on, resurfacing in Minnesota, where he spent 1872 posing as a Scottish laird scouting land for tenants from his overcrowded estates — a ruse elaborate enough that the Northern Pacific Railway's land commissioner spent roughly $45,000 courting him as a prospective buyer before the con collapsed there too.
@@ -5663,6 +5679,9 @@ Foster's four-decade career illustrates a failure mode regulators still struggle
     slug: 'canada-bill-jones-three-card-monte-riverboat',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Canada_Bill_Jones.jpg?width=1200',
+    coverImageCredit: 'Photo: public domain (pre-1931)',
+    coverImagePosition: 50,
     body: `William "Canada Bill" Jones was born around 1837 into a Romanichal family in Yorkshire, England, and learned the art of deception the way many in his community did — as a child performer of card tricks and sleight of hand long before he ever ran a con for money. In 1860 he emigrated to Canada, where he apprenticed under an established three-card monte operator, Dick Cady, working as a "thrower" who dealt the cards while a partner steered marks toward the table. By the time he crossed into the United States, Jones had turned that apprenticeship into a trade of his own, and he spent the next decade and a half working it up and down the Mississippi River and across the rail lines of the American frontier.
 
 Three-card monte, Jones's specialty, is a variant of the ancient shell game: three cards are shown, one is the target, and the dealer's hands move fast enough that a mark who is certain he tracked the right card is, by design, always wrong. Jones partnered at various points with some of the era's other well-known riverboat gamblers — George Devol, Holly Chappell, and Tom Brown among them — running the con on Mississippi steamboats where a captive audience of travelers, often with nothing else to do for days at a stretch, provided a steady supply of marks. Contemporary accounts credit the crew with staggering sums; one partner's share alone reportedly reached $240,000, an almost unimaginable amount for the 1860s. Allan Pinkerton, the detective agency founder who tracked confidence men of the era professionally, described Jones as appearing "as gentle as a woman and as cunning as a fox" — a disheveled, guileless-looking man whose entire success depended on marks underestimating him on sight.
@@ -6045,6 +6064,9 @@ Bock was paroled in 1912 and, remarkably, lived a largely quiet life afterward �
     slug: 'karl-wilhelm-naundorff-louis-xvii-impostor',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Naundorff.jpg?width=1200',
+    coverImageCredit: 'Portrait: 1845, public domain',
+    coverImagePosition: 50,
     body: `Karl Wilhelm Naundorff surfaces in the historical record around 1810 as a Prussian clockmaker in Spandau, with nothing to suggest any connection to French royalty. His documented criminal history predates his famous claim by years: in Brandenburg an der Havel he was accused of arson, and in 1824 he was convicted of counterfeiting and served three years in a Prussian prison — a fraud conviction that would later sit awkwardly beside his insistence that he was, in fact, the rightful King of France.
 
 On his release in 1827, Naundorff began telling a very different story. Louis XVII, the young son of Louis XVI and Marie Antoinette, had reportedly died in French revolutionary custody in 1795 at age ten, but persistent rumors that guards had smuggled the real prince out and left a substitute child to die in his place gave the story just enough plausibility to spawn dozens of pretenders over the following decades — historians count more than thirty separate men who claimed, at one point or another, to be the lost Dauphin. Naundorff wrote a memoir describing his supposed escape and substitution with "a deaf and mute orphan," and by 1833 had traveled to Paris to press his claim publicly, timing his appearance to coincide with the trial of a rival pretender.
@@ -6276,6 +6298,9 @@ No fortune changed hands and no formal criminal case was ever built around the i
     slug: 'mary-carleton-german-princess',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Mary_Carleton_(n%C3%A9e_Moders)_(%27The_German_Princess_with_her_Suppos%27d_Husband_and_Lawyer%27)_by_James_Basire.jpg?width=1200",
+    coverImageCredit: 'Engraving: James Basire (public domain)',
+    coverImagePosition: 50,
     body: `Mary Carleton was born Mary Moders around 1642 in Canterbury, England, and by 1663 had reinvented herself in London as "Henrietta Maria van Wolway," a fabricated German princess from Cologne, complete with an invented father, "Henry van Wolway, Lord of Holmstein," and a tragic backstory about fleeing an unwanted suitor. Dressed and speaking the part convincingly enough to fool London's merchant and professional classes, she used the persona in April 1663 to marry a young surgeon named John Carleton, who believed he had married into foreign nobility and a fortune to match. He had, in fact, married a Canterbury cobbler's daughter with a documented history of bigamous marriages behind her already.
 
 The fraud collapsed within weeks when an anonymous letter exposed her true identity, and Carleton's family had her arrested and tried for bigamy and fraud. What followed became one of the most talked-about trials of Restoration London, fought as much in the printing houses as in court: both sides rushed competing pamphlets into print to sway public opinion, and Mary conducted her own defense with a performer's instinct for turning the tables on her accusers, pointing out that John Carleton had misrepresented his own wealth and status to win her hand. Her most quoted line from the proceedings — "You told me you were a lord, and I told you I was a princess, and I think I fitted you" — captured the case's essential symmetry well enough that the jury acquitted her, and London's playhouses staged dramatizations of her story, including a production Samuel Pepys recorded seeing and enjoying, within months of the verdict.
