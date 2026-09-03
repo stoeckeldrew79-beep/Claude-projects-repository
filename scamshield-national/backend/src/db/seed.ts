@@ -14417,6 +14417,9 @@ Protect your own registry with a unique password you don't use anywhere else, id
     slug: 'baby-monitor-camera-hacking-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'baby-monitor-hacking-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Baby_Monitor_(51817515261).jpg?width=1200',
+    coverImageCredit: 'Photo: Ajay Suresh (CC BY 2.0)',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2023/05/ftc-says-ring-employees-illegally-surveilled-customers-failed-stop-hackers-taking-control-users',
     body: `A family in Seattle installed a video baby monitor in their daughter's room like millions of parents do every year, expecting nothing more than a live feed on their phone to check on her while she slept. Instead, in the middle of the night, a voice came through the camera's speaker and said her name, then "I love you." The camera itself had moved, panning on its own to track her across the room. In a nearly identical case in Louisville, Kentucky, a stranger's voice asked a child "How old are you?" through the family's monitor. In a Texas household, the intrusion turned sexual, with a stranger making explicit remarks to a young girl over an internet-connected camera in her bedroom. None of these families had done anything unusual — they had simply set up a smart camera the way the box told them to.
 
@@ -14435,6 +14438,9 @@ Protect your family by changing every camera's default password to a unique one 
     slug: 'mms-chlorine-dioxide-autism-cure-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'mms-autism-cure-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Chlorine_dioxide_gas_and_solution.jpg?width=1200',
+    coverImageCredit: 'Photo: W. Oelen (CC BY-SA 3.0)',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/doj-press-releases-involving-fda-oci/leaders-genesis-ii-church-health-and-healing-who-sold-toxic-bleach-fake-miracle-cure-covid-19-and',
     body: `A Chicago native named Kerri Rivera relocated to Puerto Vallarta, Mexico, and began telling parents of autistic children she had found something doctors hadn't: a "protocol" that could recover their child from autism entirely. What she was actually instructing them to do was give their children increasing oral doses of a chemical called chlorine dioxide — sometimes marketed as Miracle Mineral Solution, or MMS — along with regular enemas of the same substance, at times multiple times a day. Chlorine dioxide is industrial bleach, ordinarily used to treat wastewater or strip textiles and pulp. Facing legal action from then-Illinois Attorney General Lisa Madigan's office, Rivera signed an assurance of voluntary compliance in 2015 barring her from selling chlorine dioxide or similar substances to Illinois residents and from presenting at any future Illinois conference promoting it as an autism treatment. She continued promoting the protocol from outside the state and the country.
 
@@ -14453,6 +14459,10 @@ If your child has ingested chlorine dioxide or MMS, call Poison Control immediat
     slug: 'fertility-egg-donor-surrogacy-agency-fraud-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'fertility-surrogacy-scam'],
+    // representative photo — replace with an exact match if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/IVF_laboratory.jpg?width=1200',
+    coverImageCredit: 'Photo: Galina Fomina (CC BY 4.0)',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.justice.gov/usao-cdca/pr/owner-san-gabriel-valley-surrogacy-agency-sentenced-federal-prison-ripping-would-be',
     body: `Allison Layton ran a Southern California business called Miracles Egg Donation, marketed to couples and individuals who couldn't conceive on their own as a trusted matchmaker between intended parents and egg donors or gestational surrogates. Between 2008 and 2012, clients paid Layton tens of thousands of dollars apiece, money that was supposed to sit in escrow until each stage of an arrangement — a donor's medical screening, a surrogate's compensation, an agency fee — was actually completed. Instead, federal prosecutors found, Layton spent client funds on a $60,000 wedding and other personal expenses, and used new clients' payments to paper over money she already owed to earlier ones. More than 40 families lost a combined $270,000 or more before she pleaded guilty and was sentenced in 2015 to 18 months in federal prison.
 
@@ -14471,6 +14481,9 @@ Before signing anything or wiring a deposit, have a reproductive attorney — no
     slug: 'senior-living-placement-referral-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'senior-living-placement-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Pleasant_View_Retirement.JPG?width=1200',
+    coverImageCredit: 'Photo: Cooljeanius (Public Domain)',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2012/09/two-online-placement-services-senior-care-centers-settle-ftc-charges',
     body: `A parent has a fall, or a dementia diagnosis suddenly makes living alone unsafe, and a family that has never had to find assisted living before is given days, not months, to figure it out. A search for "assisted living near me" turns up a placement service promising a free, unbiased local advisor who already knows every community in the area and can match a loved one with the right one fast. Under real time pressure, many families take the first few options that advisor recommends without ever learning that the advisor doesn't work for them at all.
 
@@ -30679,6 +30692,39 @@ const SEED_SCAMS: SeedScam[] = [
     alertLevel: 'medium',
     sources: ["Arkansas Attorney General's Office", 'Arkansas Business', 'Insurance Journal'],
     sourceUrl: 'https://arkansasag.gov/news-release/attorney-general-griffin-sues-general-motors-and-onstar-for-deceiving-arkansans-and-unlawfully-selling-data/',
+  },
+  {
+    name: 'Computer Tech Support Scam (Vermont Top Scam, 5 Years Running)',
+    slug: 'vermont-computer-tech-support-scam-2025-top-scam',
+    description: `The Vermont Attorney General's Consumer Assistance Program (CAP) received 3,982 scam reports in 2025, a 12% jump over 2024, and for the fifth consecutive year the single most-reported category was the "Computer Tech Support" scam, accounting for 575 reports — more than a quarter of all reports that made the office's Top 10 list. The scam typically opens with a sudden, alarming notification — a phone call, a pop-up on the screen, an email, or a text — claiming to be from a well-known company like Norton, Apple, Microsoft, or Amazon, warning that a credit card has just been charged, a security subscription has auto-renewed, or a package delivery has been delayed, and urging the recipient to call a number or click a link to sort it out. Once a victim engages, the caller walks them through "fixing" a nonexistent problem in a way that either extracts a payment for services never needed or gives the scammer remote access to the victim's computer and financial accounts. Attorney General Charity Clark released the Top 10 Scams of 2025 report on January 12, 2026, noting that debt-collection scams entered the list for the first time at #2 (311 reports) and government-imposter scams entered at #7, alongside the office's long-running warning: "If you receive unsolicited calls, emails, or text messages – especially those threatening legal action – do not respond." Vermonters who get an unexpected alert about a computer or account problem are advised not to call any number or click any link included in the message, and instead to contact the company directly using contact information they look up independently, and to report the contact to CAP at 800-649-2424 or AGO.CAP@vermont.gov.`,
+    categorySlug: 'tech-support-scams',
+    country: 'US',
+    state: 'VT',
+    alertLevel: 'high',
+    sources: ["Vermont Attorney General's Office", 'WCAX', 'Vermont Business Magazine'],
+    sourceUrl: 'https://ago.vermont.gov/blog/2026/01/12/attorney-general-clark-releases-top-10-scams-2025',
+  },
+  {
+    name: 'Kwame Boahene International Romance Fraud Network',
+    slug: 'delaware-boahene-international-romance-fraud',
+    description: `Federal prosecutors say 63-year-old Maryland resident Kwame Boahene helped run a multimillion-dollar romance-fraud operation that victimized people across the country, including at least one victim in Delaware, by having unnamed co-conspirators build fake online dating personas and cultivate what looked like genuine romantic relationships over weeks or months before asking their targets for money. Once trust was established, the scheme leaned on fabricated emergencies — a supposed inheritance that needed help clearing, medical bills that turned out not to exist — to talk victims into sending funds. Court documents allege Boahene received the money through bank accounts opened in the names of limited liability companies, then routed it through a mix of domestic and international accounts specifically structured to obscure where the money had actually gone. He was arrested on March 25, 2026, and the U.S. Attorney's Office for the District of Delaware charged him with wire fraud and conspiracy to commit wire fraud, exposing him to up to 20 years in prison on each count if convicted. The case underscores a pattern investigators see repeatedly in online romance fraud: a partner met exclusively online who is never willing to video chat or meet in person, who develops a sudden financial emergency after weeks of relationship-building, and who asks for money to be sent to an account or company name that doesn't match anything about the relationship as described — all reasons to stop, verify independently, and report the contact to the FBI's IC3 portal or the FTC before sending money.`,
+    categorySlug: 'romance-scams',
+    country: 'US',
+    state: 'DE',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office for the District of Delaware", 'Hoodline', 'Daily Voice'],
+    sourceUrl: 'https://www.justice.gov/usao-de/pr/maryland-man-arrested-facilitating-multimillion-dollar-international-romance-fraud',
+  },
+  {
+    name: 'Fake DEA Agent "Treasury Locker" Elder Fraud',
+    slug: 'montana-fake-dea-agent-treasury-locker-elder-fraud',
+    description: `Susan Bivins, a retired nurse in Anaconda, Montana, first noticed fraudulent charges on her Amazon account and called what she believed was Amazon customer service to sort them out. The call was transferred to a man who identified himself as DEA agent "Randall Jenkins," who told Bivins she was a suspect in a money-laundering investigation and, over several weeks of manufactured fear and urgency, convinced her that the only way to protect herself and her assets was to move her retirement savings into what he described as a secured U.S. Treasury locker. She ultimately transferred $240,000 — her life savings — before realizing no such locker existed and no real federal agency operates that way; she was forced to sell her Victorian home in Anaconda and move into a smaller one afterward. Montana Attorney General Austin Knudsen's office featured Bivins, now an AARP Montana Fraud Ambassador, in a statewide public service announcement launched June 1, 2026 built around the message "stop, check, and protect," pairing her account with a Missoula community presentation from the Department of Justice's Division of Criminal Investigation on recognizing elder financial exploitation. "You really need to listen to your gut, and if your gut tells you this is not right, pay attention to that," Bivins said. Real DEA agents and Treasury officials never ask anyone to move money into a "secure locker" or any other account to protect it from a supposed investigation, and anyone told to do so by a caller — however official the caller ID or badge number sounds — should hang up and report the contact to the Montana Department of Justice.`,
+    categorySlug: 'government-impersonation',
+    country: 'US',
+    state: 'MT',
+    alertLevel: 'high',
+    sources: ['Montana Department of Justice', 'AARP', 'NBC Montana'],
+    sourceUrl: 'https://www.aarp.org/states/montana/bivinsprofile/',
   },
 ];
 
