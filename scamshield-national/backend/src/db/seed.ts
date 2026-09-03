@@ -26170,6 +26170,77 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ["U.S. Attorney's Office, District of South Carolina", 'Fox Carolina', 'WSPA'],
     sourceUrl: 'https://www.foxcarolina.com/2026/06/10/upstate-woman-accused-falsifying-medical-documents-18m-medicare-billing-case/',
   },
+  {
+    name: 'Humane Wildlife Control Services Assumed-Name Shell Game',
+    slug: 'kentucky-humane-wildlife-control-assumed-name-scheme',
+    description:
+      'Louisville-area operator Beau Gast ran a wildlife-removal business under Humane Wildlife Control Services, LLC, filing 31 assumed names over the years — including "Louisville Animal Control," "Jefferson County Animal Control," and a copycat "Animal Ridders, LLC" lifted from a real, unrelated company operating since 1991 — names Kentucky Attorney General Russell Coleman\'s office says were "confusingly similar" to actual government agencies and legitimate competitors, letting the business borrow an appearance of official authority it didn\'t have. Customers paid upfront for animal-removal services — one for roughly $1,500, another for $524, another charged twice for the same job — only to have the crew vanish without finishing the work, according to the AG\'s civil complaint, while every contract included a non-disclosure clause threatening customers with thousands of dollars in fines for leaving a negative review or otherwise speaking critically about the company, a term Coleman\'s office says is itself unlawful. After the office issued a Civil Investigative Demand in April 2025, Gast withdrew all 31 assumed names that June, registered new LLCs using the same names days later, and dissolved the original entity in July, a pattern the AG\'s May 18, 2026 lawsuit calls "a coordinated scheme to solicit upfront payments from consumers through deceptive business practices, then evade accountability by using intimidation tactics and cycling through business names and entities." Before paying any home-service company upfront, Kentuckians can check the Secretary of State\'s business-entity search for a pattern of repeatedly dissolved and re-filed names under the same owner — a red flag no legitimate, stable business needs to raise — and should treat any contract clause that threatens fines for an honest negative review as itself a sign the company expects to disappoint customers.',
+    categorySlug: 'government-impersonation',
+    country: 'US',
+    state: 'KY',
+    alertLevel: 'high',
+    sources: ["Kentucky Attorney General's Office", 'WBKO'],
+    sourceUrl: 'https://www.wbko.com/2026/05/19/complete-scam-ky-ag-alleges-wildlife-control-company-runs-coordinated-scheme-new-lawsuit/',
+  },
+  {
+    name: 'Profit Connect "AI Supercomputer" Crypto-Mining Ponzi Scheme',
+    slug: 'nevada-profit-connect-ai-supercomputer-crypto-ponzi',
+    description:
+      'Las Vegas businessman Brent C. Kovar ran Profit Connect from late 2017 to July 2021, telling investors the company used "artificial intelligence software on a super computer" to mine cryptocurrency and verify blockchain transactions, and promising a fixed 15% to 30% annual return backed by a 100% money-back guarantee and hundreds of millions of dollars in supposed cryptocurrency reserves — claims pushed through a slick website, a YouTube video, and a PowerPoint presentation, with some investors additionally misled into believing their money carried FDIC protection. In reality, prosecutors said, Profit Connect was never profitable and held no reserves at all: Kovar used the roughly $24 million he raised from at least 400 investors to fund company operations, buy gifts for employees, purchase himself a house, and pay "returns" to earlier investors that were really just later investors\' own deposits cycling back to them. Following a nine-day trial, a federal jury in the District of Nevada convicted Kovar on August 24, 2026 of 11 counts of wire fraud, two counts of mail fraud, and two counts of money laundering; he faces a statutory maximum of 280 years in prison at sentencing, scheduled for November 30, 2026. "Criminals who build operations on false guarantees, fabricated profits and nonexistent reserves erode trust in our financial system," said IRS Criminal Investigation Acting Special Agent in Charge David Lowe. Any investment promising a fixed, guaranteed return regardless of market conditions — especially one dressed up with buzzwords like "AI" and "supercomputer" rather than audited financials — is worth checking against the SEC\'s EDGAR filings and a registered investment adviser\'s FINRA BrokerCheck record before any money changes hands, since a legitimate cryptocurrency-mining operation has no reason to guarantee a fixed return or promise your principal back on demand.',
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    state: 'NV',
+    isHistorical: true,
+    firstRecorded: '2026-08-24',
+    sources: ["U.S. Attorney's Office, District of Nevada", 'FDIC Office of Inspector General', 'Las Vegas Review-Journal'],
+    sourceUrl: 'https://www.fdicoig.gov/news/investigations-press-releases/jury-convicts-las-vegas-business-owner-cryptocurrency-ponzi',
+  },
+  {
+    name: '"Humanitarian Foundation" Risk-Free Returns Ponzi Scheme',
+    slug: 'iowa-humanitarian-foundation-ponzi-scheme',
+    description:
+      'Chad Michael Boal of Burlington and Cory Duane Richards of West Burlington, Iowa solicited investors from at least May 2023 through June 2025 into a string of purported charities — Golden Bar Foundation, Silver Bar Foundation, R8511 Foundation, New Life 314 Foundation, and True North Foundation — describing them as "unincorporated organized self-supporting humanitarian foundations" that would put investor money into bond trading and real estate development while holding it "safely" in an attorney escrow account, with promised returns of 24% to 100% billed as risk-free and tax-free within a matter of months. No escrow account genuinely protected the money: prosecutors say new investor deposits were used to pay off earlier investors, and remaining funds went toward luxury vehicles, farmland in Henry County, and the men\'s personal debts, defrauding dozens of victims out of tens of millions of dollars before a federal grand jury in Des Moines returned a 16-count indictment in May 2026. Boal faces charges of conspiracy to commit wire fraud, three additional counts of wire fraud, and 12 counts of money laundering over $10,000; Richards faces the conspiracy count; both were investigated jointly by the FBI, IRS Criminal Investigation, and the Iowa Insurance Division\'s Fraud Bureau, with trial set for April 26, 2027. The pitch\'s framing as a "humanitarian foundation" rather than an investment fund was itself a warning sign — a structure designed to sound charitable and pseudo-legal rather than to be checked against actual securities registration — and Iowans can verify whether any investment opportunity or the person selling it is properly registered through the Iowa Insurance Division before wiring money into any account described as an attorney-held escrow, since a real escrow arrangement can be confirmed directly with the escrow agent rather than taken on the seller\'s word.',
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    state: 'IA',
+    isHistorical: true,
+    firstRecorded: '2026-07-24',
+    sources: ['Iowa Insurance Division', 'FBI Omaha Field Office'],
+    sourceUrl: 'https://iid.iowa.gov/press-release/2026-07-24/two-southeast-iowa-men-indicted-multi-million-dollar-ponzi-scheme',
+  },
+  {
+    name: '"Hi Mom, My Phone Broke" Family Emergency Text Scam',
+    slug: 'canada-broken-phone-family-emergency-text-scam',
+    description:
+      'A text message or social media message poses as an adult child or other close relative claiming their phone was lost, dropped in water, or broken, explaining why they are messaging from an unfamiliar number, then asks for money — often by Interac e-Transfer — to cover a repair bill, a replacement phone, or another urgent expense that supposedly cannot wait. The vague, low-detail cover story is deliberate: unlike the classic grandparent phone-call scam involving bail or a car accident, this version arrives purely by text, targets parents of adult children specifically, and uses the broken-phone premise to pre-empt any suspicion about an unfamiliar writing style or unrecognized number. The Canadian Anti-Fraud Centre has tracked a steady rise in reports of this exact script, and RCMP detachments including North Vancouver have documented real losses from residents who sent money before confirming the story through another channel. Calling the family member back at their actual, previously known phone number — never the one supplied in the message — breaks the scam immediately.',
+    categorySlug: 'family-emergency-scams',
+    country: 'CA',
+    alertLevel: 'high',
+    sources: ['Canadian Anti-Fraud Centre', 'Royal Canadian Mounted Police'],
+    sourceUrl: 'https://antifraudcentre-centreantifraude.ca/scams-fraudes/emergency-urgence-eng.htm',
+  },
+  {
+    name: 'Canadian Bread Price-Fixing Settlement Phishing Scam',
+    slug: 'canada-bread-price-fixing-settlement-phishing-scam',
+    description:
+      'A text message impersonates Verita, the court-appointed administrator of Canada\'s real $500-million bread price-fixing class-action settlement — in which Loblaw and George Weston admitted to a 14-year, industry-wide scheme to fix the price of packaged bread and agreed to pay claimants a fixed $49.11, or $24.11 for anyone who already received the 2018 Loblaw $25 gift card — and directs the recipient to a fake claims site to "verify eligibility" before a deadline. The site collects a claimant\'s name, birthdate, and address, tells them they qualify for a payout inflated well above the real fixed settlement amount, and then asks for debit or credit card information to "process" the deposit. The Canadian Anti-Fraud Centre confirmed receiving reports of this exact phishing text within weeks of real settlement payouts beginning in May 2026, and Verita has stated it will never contact claimants by text message or ask for payment card details to release a payment.',
+    categorySlug: 'phishing',
+    country: 'CA',
+    alertLevel: 'medium',
+    sources: ['Canadian Anti-Fraud Centre', 'CBC News'],
+    sourceUrl: 'https://www.cbc.ca/news/canada/scam-bread-price-fixing-lawsuit-9.7147048',
+  },
+  {
+    name: 'Canadian Real Estate Closing Wire Fraud (Lawyer Impersonation)',
+    slug: 'canada-real-estate-closing-wire-fraud',
+    description:
+      'A fraudster gains access to, or closely imitates, the email account of the real estate lawyer, notary, or agent handling a home purchase, then inserts fraudulent wire instructions into the conversation at the exact moment a down payment or closing balance is due — directing the buyer\'s funds to an account the fraudster controls instead of the lawyer\'s real trust account. Because the message arrives inside an email thread the buyer already trusts, with the right names, dates, and file details, it is extremely difficult to distinguish from a legitimate instruction, and funds sent this way are rarely recovered once the fraudster withdraws them. The Canadian Real Estate Association warns that these fraudulent instructions are typically delivered through a hacked law firm email account or a look-alike address with one or two characters altered, and recommends buyers meet their lawyer in person or by video call before closing to verbally confirm trust account details directly, rather than trusting any wire instructions that arrive by email alone.',
+    categorySlug: 'business-email-compromise',
+    country: 'CA',
+    alertLevel: 'critical',
+    sources: ['Canadian Real Estate Association'],
+    sourceUrl: 'https://www.crea.ca/cafe/what-realtors-should-know-about-wire-transfer-fraud/?category=53794',
+  },
 ];
 
 async function seedCategoriesAndScams() {
