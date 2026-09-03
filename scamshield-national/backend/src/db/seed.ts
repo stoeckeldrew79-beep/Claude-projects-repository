@@ -30013,6 +30013,42 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ["New Jersey Office of the Attorney General", 'Union County Superior Court final judgment'],
     sourceUrl: 'https://www.njoag.gov/acting-attorney-general-davenport-announces-840000-judgment-protecting-consumers-from-fraud-by-used-car-dealership-bm-motor-cars/',
   },
+  {
+    name: 'Digron Machinery Depot Fake Heavy-Equipment Wire-Transfer Scam',
+    slug: 'south-dakota-digron-machinery-depot-heavy-equipment-scam',
+    description:
+      'Digron Machinery Depot, a website claiming a Sioux Falls address at 534 Frontage Road — actually the location of an unrelated Xcel Energy building — advertised heavy farm and construction equipment at discounts of up to 40% below market price, using photos lifted from legitimate equipment dealers to look real. Sales contacts created urgency by telling buyers other customers were "in line" for the same piece of equipment and would accept payment only by wire transfer, a red flag since wired funds generally can\'t be recovered once sent. According to the Better Business Bureau\'s Sioux Falls office, at least three consumers wired a combined $107,600 to Digron for equipment that was never delivered, because the business itself did not exist. "There is no business, there are no pieces of equipment, there is nothing legitimate," BBB regional director Jessie Schmidt said. The South Dakota Attorney General\'s Consumer Protection Division opened an investigation and issued a formal demand that the website be taken down immediately, citing wire fraud, theft by deception, and possible organized-crime racketeering violations, and warned the operation had already resurfaced once under a slightly different name after an earlier version was shut down. South Dakotans shopping for farm or construction equipment online are advised to never wire money to a seller they haven\'t verified in person or through a known dealer network, to reverse-image-search listing photos to check whether they\'ve been stolen from another business, and to treat any seller who claims other buyers are waiting and will accept only a wire transfer as an active scam.',
+    categorySlug: 'online-shopping-scams',
+    country: 'US',
+    state: 'SD',
+    alertLevel: 'high',
+    sources: ["South Dakota Attorney General's Office", 'Better Business Bureau', 'Dakota News Now'],
+    sourceUrl: 'https://www.dakotanewsnow.com/2026/04/27/attorney-general-bbb-call-out-alleged-scammer-sioux-falls/',
+  },
+  {
+    name: 'Canary General Contracting Charlotte Home-Renovation Fraud',
+    slug: 'north-carolina-canary-general-contracting-charlotte-renovation-fraud',
+    description:
+      'Canary General Contracting and Design, run out of the Charlotte area by Steven Sand and Khuneary Kim, took advance payments from homeowners for major renovation projects — additions, remodels, and repairs — then routinely started work late, left jobs unfinished, skipped required building permits and homeowners\'-association approvals, and in some cases performed work so substandard and unsafe that it had to be torn out and redone, all while demanding payments beyond what the signed contracts called for. North Carolina Attorney General Josh Stein sued the company and its operators in March 2024 for running an unlicensed general contracting operation in violation of the state\'s Unfair and Deceptive Trade Practices Act, after the Department of Justice\'s Consumer Protection Division received 15 complaints and homeowners reported more than $250,000 in combined losses. "We allege that Canary took people\'s money and then left major home renovation projects unfinished or finished them so poorly they had to be redone," Stein said. The state won a preliminary injunction barring Sand and Kim from performing or collecting payment for any contracting or home-repair work in North Carolina for the duration of the case. Homeowners hiring a contractor in North Carolina are advised to verify the contractor\'s license and any required permits with the state licensing board before signing anything, to avoid paying the full cost upfront, and to check the NCDOJ\'s complaint history for a contractor before handing over a deposit.',
+    categorySlug: 'mortgage-foreclosure-scams',
+    country: 'US',
+    state: 'NC',
+    alertLevel: 'medium',
+    sources: ['North Carolina Department of Justice', 'WBTV'],
+    sourceUrl: 'https://ncdoj.gov/attorney-general-josh-stein-wins-preliminary-injunction-to-protect-charlotte-area-homeowners/',
+  },
+  {
+    name: 'Power Home Solar (Pink Energy) Deceptive Loan and Savings Lawsuit',
+    slug: 'virginia-power-home-solar-pink-energy-loan-fraud',
+    description:
+      'Power Home Solar, which did business as Pink Energy before collapsing into bankruptcy in 2022, sold solar systems to more than 4,000 Virginia households on the promise that the panels would substantially cut their electric bills, while steering buyers into long-term loans worth more than $200 million that hid dealer fees and financing costs the homeowners were never clearly told about. Virginia Attorney General Jason Miyares filed suit on January 15, 2026 in the U.S. District Court for the Eastern District of Virginia in Richmond against the company\'s founders and the financial institutions that funded its loans, alleging violations of the Virginia Consumer Protection Act and the federal Consumer Financial Protection Act. The suit follows a multi-year, multistate investigation opened after Power Home Solar\'s 2022 bankruptcy, during which Miyares\'s office fielded almost 500 complaints describing a common pattern: systems that failed to perform, bills that went up instead of down, and lenders that kept collecting on loans for equipment that never delivered the promised savings. "I am filing this lawsuit today after a years-long investigation involving hundreds of complaints filed with my Office against Power Home Solar," Miyares said. Virginia homeowners approached about solar financing are advised to get the full loan terms and any dealer fees in writing before signing, to independently verify projected savings rather than relying on the installer\'s estimate, and to check a solar company\'s complaint history with the Virginia Attorney General\'s Consumer Protection Division before agreeing to financing.',
+    categorySlug: 'mortgage-foreclosure-scams',
+    country: 'US',
+    state: 'VA',
+    alertLevel: 'high',
+    sources: ['Virginia Office of the Attorney General', 'WAVY'],
+    sourceUrl: 'https://www.oag.state.va.us/media-center/news-releases/2946-january-16th-2026-attorney-general-jason-miyares-sues-solar-company-founders-and-lenders-for-misrepresenting-savings-and-hiding-loan-fees',
+  },
 ];
 
 async function seedCategoriesAndScams() {
