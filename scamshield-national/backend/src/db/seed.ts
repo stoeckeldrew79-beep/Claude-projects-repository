@@ -14542,6 +14542,10 @@ Ask any placement advisor point-blank whether they receive a fee from the commun
     slug: 'vanity-press-literary-agent-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'vanity-press-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Woodstock_typewriter,_1940s,_daylight.jpg?width=1200',
+    coverImageCredit: 'Cbaile19, CC0, via Wikimedia Commons',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2026/04/publishingcom-pay-15-million-misleading-consumers-about-how-much-income-they-could-earn-using',
     body: `A writer in upstate New York got the kind of email every unpublished author dreams of: a literary agent named Kelly O'Donnell had read their manuscript and loved it. O'Donnell's agency charged a "marketing fee" and steered the writer toward paid editing services before pronouncing the book ready. From there, O'Donnell recommended a publisher — Press-Tige Publishing or its sister imprint, New Millennium Publishing — that could get the book into print for a few thousand dollars more. What the writer didn't know was that the agent and the publisher were the same person: Kelly O'Donnell was an alias used by Martha Ivery, who owned and ran both companies from Catskill, New York, and never disclosed the connection to any of her clients. Between roughly 1998 and 2003, more than 200 authors paid into the scheme before federal prosecutors caught up with Ivery. She pleaded guilty to 15 counts of mail fraud, was sentenced to 65 months in federal prison, and was ordered to pay 231 victims a combined $728,248 in restitution.
 
@@ -14562,6 +14566,10 @@ Before paying anyone to represent or publish your work, check the agent against 
     slug: 'whos-who-vanity-award-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'whos-who-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Gfp-checkbooks.jpg?width=1200',
+    coverImageCredit: 'Yinan Chen, Public Domain (goodfreephotos.com), via Wikimedia Commons',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.justice.gov/usao-edny/pr/southampton-woman-pleads-guilty-elder-fraud-scheme',
     body: `Hundreds of people, most of them older adults, opened their mailboxes to a flattering letter: their accomplishments had earned them a spot in "The Remington Registry of Outstanding Professionals" or a companion volume called "Inspiring the Youth of America." All they needed to do was cover shipping — the letter specified $14 — for the two books and a commemorative plaque already "paid in full and ready for delivery." Recipients who mailed a personal check believed they were closing out a small, celebratory transaction. Instead, prosecutors say Mara Ficarra of Southampton, New York, and a co-conspirator used the routing and account numbers on those checks to produce fraudulent checks for far larger amounts, drawing on accounts at Citibank, EverBank, HSBC, JPMorgan Chase, and Wells Fargo, and pulling in more than $1.5 million between 2013 and December 2018 through companies including Remington Biographies, Inc., Remington Bookkeepers, Inc., and Mentorship America1, Inc. Ficarra pleaded guilty in June 2022 to conspiracy to commit mail, wire, and bank fraud, facing up to five years in prison along with forfeiture and restitution exceeding $1.5 million.
 
