@@ -27344,6 +27344,39 @@ const SEED_SCAMS: SeedScam[] = [
     sourceUrl: 'https://www.npa.go.jp/bureau/safetylife/sos47/case/special/',
   },
   {
+    name: 'German Deepfake Celebrity-Endorsed Crypto Investment Ads',
+    slug: 'germany-deepfake-celebrity-crypto-investment-ads',
+    description:
+      'Facebook, Instagram, and YouTube ads use AI-manipulated photos, synthetic voices, or fabricated news articles to make it look as though a well-known German public figure — entrepreneur Frank Thelen and TV hosts Günther Jauch, Markus Lanz, and Barbara Schöneberger have all been misused this way — is personally recommending a "revolutionary" cryptocurrency or trading system capable of turning a small deposit into life-changing returns. Clicking through leads to a registration form for an unlicensed trading platform, where a supposed "personal advisor" calls to walk the new sign-up through progressively larger deposits while a fake account dashboard displays invented profits that were never actually invested; BaFin has documented cases where the first deposit is even routed through a legitimate-looking IBAN, such as a charity\'s donation account, to build trust before later transfers go straight to an account the fraudsters control. The celebrities themselves have no connection to any of it and typically only learn their name and likeness were used once victims or journalists contact them; BaFin\'s April 2025 consumer warning states plainly that no genuine investment advertisement needs to borrow a celebrity\'s face to prove it works, and urges anyone who encounters such an ad to check the provider against BaFin\'s public register of licensed firms before sending any money.',
+    categorySlug: 'ai-deepfake-scams',
+    country: 'DE',
+    alertLevel: 'high',
+    sources: ['BaFin (Federal Financial Supervisory Authority)'],
+    sourceUrl: 'https://www.bafin.de/SharedDocs/Veroeffentlichungen/DE/Verbrauchermitteilung/weitere/2025/meldung_2025_04_29_Betrug_Anlageversprechen_gefaelschte_Promi_Werbung.html',
+  },
+  {
+    name: 'German Fake "Tagesschau" News Site Trading Platform Scam',
+    slug: 'germany-fake-tagesschau-trading-platform-scam',
+    description:
+      'Fraudsters build fake news pages that copy the look of Tagesschau, Germany\'s best-known and most trusted television news broadcast, and publish a fabricated "exclusive" story reporting that a prominent figure has just revealed a secret, government-insider trading system — one August 2026 version, hosted on a domain styled as a Tagesschau spin-off, invented a live-TV confrontation on the talk show "maischberger" in which politician Tino Chrupalla supposedly exposed Chancellor Friedrich Merz using software called "Loravexo," complete with a fake host, Sandra Maischberger, and a broadcast date the show never actually aired on. The article links straight to a same-day registration page demanding a deposit of around 250 euros to "unlock" the software, which is in fact an unauthorized, unregulated trading platform with no real investment behind it. BaFin\'s August 2026 warning confirmed the operators behind the "Tagesschau"-branded platform hold no license to offer financial services in Germany and are misappropriating the broadcaster\'s and the named individuals\' identities without any involvement from them, while the independent fact-checking outlet CORRECTIV separately debunked the fabricated broadcast after readers flagged it as suspicious. Consumers are advised to check a story\'s claims directly on the real tagesschau.de, verify any investment platform against BaFin\'s public database, and treat any "secret system" requiring an immediate same-day deposit as a red flag regardless of who appears to be endorsing it.',
+    categorySlug: 'investment-fraud',
+    country: 'DE',
+    alertLevel: 'high',
+    sources: ['BaFin (Federal Financial Supervisory Authority)', 'CORRECTIV Faktencheck'],
+    sourceUrl: 'https://correctiv.org/faktencheck/2026/08/31/maischberger-gespraech-zwischen-merz-und-chrupalla-erfunden/',
+  },
+  {
+    name: 'German Fake Online Vote/Poll WhatsApp Account Takeover',
+    slug: 'germany-fake-vote-whatsapp-account-takeover',
+    description:
+      'A message that appears to come from a real contact — often because that contact\'s own account was already hijacked the same way — asks the recipient to help by voting for someone in an online contest, linking to a professional-looking voting page. The page asks for a phone number to "register" the vote and then, following on-screen instructions to enter a code or "link an additional device," walks the victim through the exact steps WhatsApp normally uses to activate an account on a new phone: the site captures the verification code sent by SMS and uses it, along with the phone number, to register the victim\'s own WhatsApp account on a device the criminals control, instantly logging the real owner out. Once in control, the attackers message the victim\'s actual contact list posing as them, often to run further scams such as urgent money requests, restarting the same fake-vote link with the newly hijacked account to spread further. Germany\'s national police crime-prevention program (polizei-beratung.de) warned in August 2026 that no legitimate online poll ever needs a WhatsApp verification code or "device link" to register a vote, and recommends never sharing a verification code with anyone, enabling WhatsApp\'s two-step verification PIN, and warning contacts immediately by phone or SMS — not through the compromised account itself — if a takeover is suspected.',
+    categorySlug: 'account-takeover',
+    country: 'DE',
+    alertLevel: 'high',
+    sources: ['Polizeiliche Kriminalprävention der Länder und des Bundes (polizei-beratung.de)'],
+    sourceUrl: 'https://www.polizei-beratung.de/aktuelles/detailansicht/fake-abstimmung-so-uebernehmen-betrueger-whatsapp-accounts/',
+  },
+  {
     name: 'RONGISTRVAUTOSALES.COM Fake Online RV Dealer Wire-Transfer Scam',
     slug: 'idaho-rongistrvautosales-fake-rv-dealer-wire-scam',
     description:
