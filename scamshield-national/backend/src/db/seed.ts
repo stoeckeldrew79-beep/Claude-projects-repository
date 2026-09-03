@@ -27770,6 +27770,42 @@ const SEED_SCAMS: SeedScam[] = [
     sources: ['Banque de France', 'Le Journal du Net'],
     sourceUrl: 'https://www.banque-france.fr/fr/a-votre-service/particuliers/arnaques-moyens-paiement-credit-epargne',
   },
+  {
+    name: 'Washington "Prestige Legal Solutions" Fake Lemon Law Mailer Scheme',
+    slug: 'washington-prestige-legal-solutions-lemon-law-mailer-scheme',
+    description:
+      'Between December 2024 and June 2025, California-based Prestige Legal Solutions mailed more than 700,000 Washington vehicle owners letters designed to look like official settlement notices, claiming their car "may be a lemon" and entitled to a refund under Washington\'s Lemon Law — without ever inspecting the vehicles or verifying any actual defect. The firm based its claims on general automotive complaints pulled from internet forums rather than an individual car\'s repair history, and separately used Google search ads and SEO to surface in lemon-law searches while advertising a false "99% win rate." Thousands of Washingtonians who contacted the firm after receiving a letter learned their vehicle wasn\'t legally a lemon at all, after already engaging (and in some cases paying) a law firm they didn\'t need. Washington Attorney General Nick Brown announced a $125,000 settlement on July 2, 2026, saying the firm "sent misleading advertising to hundreds of thousands of Washingtonians, trying to drum up business by preying on their fears," and his office stressed that Washington\'s actual Lemon Law program provides free arbitration directly against a vehicle\'s manufacturer — no private attorney required — and has returned more than $18 million a year to state consumers. Anyone who receives a letter implying their car qualifies for a lemon-law refund should go straight to the Attorney General\'s free Lemon Law arbitration program rather than paying or signing on with whoever mailed the letter.',
+    categorySlug: 'debt-relief-scams',
+    country: 'US',
+    state: 'WA',
+    alertLevel: 'medium',
+    sources: ['Washington State Office of the Attorney General'],
+    sourceUrl: 'https://www.atg.wa.gov/news/news-releases/california-based-law-firm-prestige-legal-solutions-pay-125000-settle-claims',
+  },
+  {
+    name: 'Pennsylvania "PA Corporate Certificates" Fake State Agency Mailer',
+    slug: 'pennsylvania-pa-corporate-certificates-fake-state-agency-mailer',
+    description:
+      'A Florida-based company calling itself PA Corporate Certificates, LLC, run by Brian Capobiano, Dean Marshlack, and David Marshlack, mailed newly registered Pennsylvania business owners official-looking letters designed to resemble correspondence from the Pennsylvania Department of State, offering to obtain a "Subsistence Certificate" — a real but rarely-needed document confirming a business is still in existence — for $102.50, more than double the $40 the state itself charges for the identical certificate directly. Roughly 2,000 Pennsylvania businesses paid the inflated price before the scheme was caught, with Attorney General Dave Sunday\'s office finding the company had "misrepresented the purpose or benefit of a Subsistence Certificate" to convince owners they needed one they typically didn\'t. Under a Consent Petition filed in Dauphin County Court of Common Pleas and announced April 23, 2026, PA Corporate Certificates paid $40,000 in restitution, ceased all Pennsylvania operations, and is permanently barred from soliciting or selling certificates to Pennsylvania businesses again. New business owners who receive an unsolicited letter demanding payment for a state filing or certificate should confirm both the price and the requirement directly with the Pennsylvania Department of State before paying anyone who contacted them first, since many of the documents these mailers push aren\'t required for a typical small business at all.',
+    categorySlug: 'government-impersonation',
+    country: 'US',
+    state: 'PA',
+    alertLevel: 'medium',
+    sources: ["Pennsylvania Office of Attorney General"],
+    sourceUrl: 'https://www.attorneygeneral.gov/taking-action/attorney-general-sunday-reaches-40k-settlement-with-florida-based-company-that-allegedly-posed-as-pa-state-agency-targeting-new-business-owners/',
+  },
+  {
+    name: 'Miami-Dade "Operation Sundown" HOA and Condo Fake-Invoice Fraud Ring',
+    slug: 'florida-miami-dade-operation-sundown-hoa-condo-fake-invoice-fraud',
+    description:
+      "A property-management ring led by 60-year-old Juan Awais allegedly used its management contracts and personal relationships with condominium and homeowners' association board members to seize effective control of several Hialeah-area communities' finances, then billed the associations through affiliated vendors for landscaping, security, roofing, and renovation work using falsified invoices for services that were inflated, never performed, or never delivered as billed — diverting the money into personal bank accounts instead. The Miami-Dade Sheriff's Office, after a two-year probe called Operation Sundown, arrested Awais and five others — Michael Irizarry, Delma Alonso, Johana Barrios Pérez-Tapia, Juliet Ramos, and Cynthea Louise Waltz — on August 28, 2026, on charges including racketeering, organized fraud, grand theft, and money laundering, tied to at least five associations including Los Suenos Condominium and Lago Grande. Investigators confirmed at least $5.8 million stolen, with Miami-Dade Sheriff Rosie Cordero-Stutz stating the true losses are \"significantly greater,\" and noted that many of the volunteer board members overseeing these associations' money had no idea what was really happening to it. The case is a reminder that Florida condo and HOA boards facing today's mandatory structural-reserve funding requirements should require competitive bids and independent verification of vendor invoices before approving payment, rather than trusting a single property-management company to select its own contractors and self-report the results.",
+    categorySlug: 'identity-theft',
+    country: 'US',
+    state: 'FL',
+    alertLevel: 'high',
+    sources: ['Miami-Dade Sheriff\'s Office'],
+    sourceUrl: 'https://www.cbsnews.com/miami/news/miami-dade-hoa-condo-fraud-arrests-operation-sundown-august-2026/',
+  },
 ];
 
 async function seedCategoriesAndScams() {
