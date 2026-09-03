@@ -11628,6 +11628,10 @@ The FBI's own IC3 will never directly reach out over the phone, by email, throug
     slug: 'party-invitation-phishing-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'party-invitation-phishing-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Birthday_Balloons.jpg?width=1200',
+    coverImageCredit: 'Photo: AndLikeThings (CC BY-SA 2.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2026/05/asked-enter-your-email-address-and-password-open-party-invite-thats-scam',
     body: `A text or email arrives that looks like an invitation to a birthday party, baby shower, or holiday gathering, sometimes naming a host the recipient actually knows. Clicking through to view the details doesn't show a date and address, though — it shows a login screen, asking for an email address and password to "unlock" the invite, or a phone number and a special pass code to RSVP.
 
@@ -11644,6 +11648,9 @@ Never enter an email password on a page reached through a text or emailed link, 
     slug: 'zoning-permit-fee-phishing-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'permit-phishing-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Building_permit.jpg?width=1200',
+    coverImageCredit: 'Photo: Aavaaz home builder (CC BY-SA 4.0)',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.ic3.gov/PSA/2026/PSA260309',
     body: `Someone pulls a real permit for a home addition, a fence, or a commercial build-out, and partway through the process gets an email that looks like it's from the city or county planning and zoning office. It cites the actual permit number, the correct zoning application number, and the real property address, then attaches an invoice for an outstanding fee — payable by wire transfer, a peer-to-peer payment app, or cryptocurrency, with a warning that the project will face delays if payment isn't sent right away.
 
