@@ -13902,6 +13902,9 @@ Never agree to same-day work from an unsolicited door-to-door contractor. Ask fo
     slug: 'air-duct-cleaning-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'air-duct-cleaning-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Air_Duct_Cleaning.jpg?width=1200',
+    coverImageCredit: 'Photo: Flowingking (CC BY-SA 4.0)',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.atg.wa.gov/news/news-releases/judge-orders-10-million-penalties-ag-ferguson-s-robocall-lawsuit',
     body: `The phone rings with a recorded voice, or a coupon-style flyer shows up in the mail, advertising whole-house air duct cleaning for $29 to $55 — a "limited-time offer" that sounds too routine to be a trap. A homeowner books the appointment, and a technician arrives, pulls a vent cover or two, and announces that the advertised price only covers part of the system, or that the ducts are hiding mold, rodent droppings, or a fire hazard that requires an expensive treatment to fix right now. The bill that started at $29 ends the visit several hundred dollars higher.
 
@@ -13920,6 +13923,9 @@ Register your number at DoNotCall.gov, and treat any call about duct cleaning th
     slug: 'termite-inspection-fraud-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'termite-inspection-fraud'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Termite_tubes-1.jpg?width=1200',
+    coverImageCredit: 'Photo: Jim Conrad (public domain)',
+    coverImagePosition: 50,
     sourceUrl: 'https://commerce.utah.gov/2014/01/16/real-estate-commission-revokes-kyle-ashworths-broker-license-for-forging-termite-inspections-buyer-signatures-in-elaborate-fha-loan-scheme/',
     body: `A buyer closing on an FHA or VA-backed mortgage is handed one more document among the closing stack: a signed report certifying the home has no active termite infestation or unrepaired termite damage. It's a single page, easy to skim past among dozens of other signatures, and it's treated by the lender as settled fact. Months later, the new owner opens up a wall to remodel and finds tunneled, hollowed-out wood the report said wasn't there.
 
