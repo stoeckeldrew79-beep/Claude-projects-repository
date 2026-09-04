@@ -8779,6 +8779,47 @@ Fairfield Greenwich's story is a reminder that the "feeder fund" side of the Mad
   },
 );
 
+NOTORIOUS_ARTICLES.push(
+  {
+    title: 'Stanley Chais: The Beverly Hills Adviser Whose Own Family Profited Most From Madoff',
+    slug: 'stanley-chais-madoff-feeder-fund-beverly-hills',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Rodeo_Drive,_Beverly_Hills,_California_LCCN2013630392.tif?width=1200',
+    coverImageCredit: 'Photo: Carol M. Highsmith, Library of Congress (Public Domain) — Rodeo Drive in Beverly Hills, California, where Stanley Chais built his money-management practice',
+    coverImagePosition: 50,
+    body: `Stanley Chais was a Beverly Hills investment adviser who spent nearly four decades, from the early 1970s until Bernard Madoff's fraud collapsed in December 2008, steering hundreds of millions of dollars from wealthy Los Angeles clients into three funds — known collectively as the Chais Funds, and internally as Brighton, Lambeth, and Popham — that in reality did nothing but funnel investors' money straight into Madoff's operation. Chais told his clients he was actively managing their money himself, describing an investment approach he claimed as his own, while never disclosing that Madoff, not Chais, was the one making every trading decision.
+
+The returns the Chais Funds reported were implausibly smooth: between 20 and 25 percent annually for his outside investors, with only three losing months across more than a decade, in a period when the broader stock market swung through the dot-com crash and other major downturns. For that performance, Chais charged an extraordinary fee: 25 percent of all profits, a rate roughly double what a typical hedge fund charged, which by the SEC's later accounting brought him close to $270 million over the final decade alone. His own family accounts, which Irving Picard, the court-appointed trustee recovering money for Madoff's victims, later scrutinized separately, did even better — averaging around 40 percent a year from 1996 to 2007, with returns exceeding 100 percent on 35 separate occasions and topping 50 percent 125 times, a pattern the trustee's lawsuit said should have told Chais, better than almost anyone, that the numbers could not be real.
+
+The SEC sued Chais for securities fraud in June 2009, alleging he misrepresented his role in managing client assets and distributed account statements he should have known were false. California Attorney General Jerry Brown filed a parallel state fraud suit on behalf of California investors the same year, and Picard's trustee lawsuit sought to claw back more than $1 billion the trustee said the Chais family alone had withdrawn from the scheme since 1995 — money that, because Madoff's operation generated no real trading profits, could only have come from other victims' principal. Chais denied knowing about the fraud and insisted he had been deceived along with everyone else. He died in Manhattan on September 26, 2010, at age 84, before prosecutors who had opened a criminal investigation into him ever filed charges, and before either the SEC's or California's civil cases against him were resolved.
+
+His estate did not escape the consequences his death spared him from personally. In October 2016, the Chais estate agreed to pay $277 million to settle Picard's trustee lawsuit — one of the larger feeder-fund recoveries in the entire Madoff case — and a separate $15 million settlement was reached to compensate California investors who had put money with Chais specifically. Combined with the earlier trustee actions against Madoff's other major feeders, the Chais case became one more data point in the same pattern: professional money managers who collected extraordinary fees for a "strategy" that was, in substance, someone else's, and whose own outsized personal returns should have been the clearest warning sign of all that something about the numbers was not what it appeared to be.`,
+    sourceUrl: 'https://oag.ca.gov/news/press-releases/brown-sues-beverly-hills-investment-adviser-stanley-chais-misleading-investors',
+  },
+  {
+    title: 'Jeffry Picower and the Largest Single Forfeiture in U.S. Justice Department History',
+    slug: 'jeffry-picower-madoff-largest-beneficiary-forfeiture',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Palm_Beach_Florida_aerial_view.jpg?width=1200',
+    coverImageCredit: 'Photo: Postdlf, Wikimedia Commons (CC BY-SA 3.0) — Palm Beach, Florida, where Jeffry Picower died at his waterfront mansion in October 2009',
+    coverImagePosition: 50,
+    body: `Jeffry Picower was a lawyer, accountant, and philanthropist who began investing with Bernard Madoff in the late 1970s, decades before Madoff's fraud became public. Over the following thirty years, Picower and entities under his control deposited roughly $619 million into Madoff accounts — and, according to Irving Picard, the court-appointed trustee recovering money for Madoff's victims, withdrew approximately $7.8 billion, a gap of more than $7 billion in fictitious profits that made Picower by far the single largest beneficiary of the entire Ponzi scheme, taking more out of it than Madoff himself is believed to have personally kept.
+
+Picard's civil complaint against Picower's estate alleged that those returns were not merely lucky but engineered: Picower, often acting through a subordinate at his family office, would direct Madoff's staff to generate specific backdated "trades" retroactively timed to the most favorable moments in stock market history, manufacturing paper profits after the fact rather than through any real investment activity. In one instance cited in court filings, after Picower wired $125 million into a new account in April 2006, the vast majority of the account's purported transactions were backdated to January 2006, when the market happened to be near a low point for the period — guaranteeing an implausibly large paper gain. The trustee's complaint argued that returns of the size and consistency Picower received — sometimes exceeding 950 percent in a single year — were something Picower knew, or should have known, no legitimate trading strategy could produce.
+
+Picower never faced criminal charges and always maintained, through his attorneys, that he trusted Madoff's reputation as a skilled trader and had no knowledge the operation was fraudulent until Madoff's arrest in December 2008. He did not live to see how his case would ultimately be resolved: on October 25, 2009, Picower suffered a heart attack and drowned in the swimming pool of his Palm Beach, Florida mansion, at age 67.
+
+His widow, Barbara Picower, negotiated a settlement with Picard and separately with federal prosecutors on behalf of his estate. In December 2010, she agreed to return the entire $7.2 billion in fictitious profits the estate was found to have received — at the time, and for years afterward, the largest single forfeiture in the history of the U.S. Department of Justice. Of that sum, roughly $5 billion went directly into the trustee's recovery fund for defrauded Madoff investors, while the remaining $2.2 billion was forfeited to the U.S. government and later distributed to victims through a separate Justice Department claims process. Then-U.S. Attorney Preet Bharara called the settlement a "game changer" for Madoff's victims, and it remains, alongside the Madoff family's own forfeitures, one of the two or three recoveries that made any meaningful repayment to Madoff's victims possible at all.
+
+Picower's case stands apart from other Madoff associates precisely because he was never accused of recruiting a single investor or running a feeder fund of his own — his role was simply to be, for three decades, the account that took more out of the fraud than any other, at a scale investigators say could only have been achieved by asking for exactly the returns he received rather than passively accepting whatever the market produced.`,
+    sourceUrl: 'https://www.propublica.org/article/madoff-client-jeffry-picower-netted-5-billion',
+  },
+);
+
 // Practical "how it works / red flags / what to do" guides covering the
 // major scam categories, the same kind of coverage the FTC's Consumer
 // Advice site and AARP's Fraud Watch Network publish — well-documented
@@ -33582,6 +33623,42 @@ SEED_SCAMS.push(
     alertLevel: 'medium',
     sources: ['Housing & Development Board (HDB)'],
     sourceUrl: 'https://www.hdb.gov.sg/residential/living-in-an-hdb-flat/home-maintenance/guard-against-contractors-on-doortodoor-sales',
+  },
+);
+
+SEED_SCAMS.push(
+  {
+    name: 'Alabama Masada Biofuel Investment Fraud',
+    slug: 'alabama-masada-biofuel-investment-fraud',
+    description: `Between roughly 2011 and 2018, Birmingham attorney and businessman Donald V. Watkins Sr. and his son Donald V. Watkins Jr. solicited more than $10 million from individual investors — including several former professional athletes — by selling them on investments meant to help grow Masada Resource Group, a company Watkins Sr. claimed was developing biofuel and waste-to-energy technology. Instead of putting the money into the business as promised, prosecutors said the pair diverted investor funds to cover personal bills and debts, including taxes, alimony, and clothing. Watkins Sr., who was the largest shareholder of Alamerica Bank in Birmingham, separately defrauded the bank itself by directing a straw borrower to take out more than $900,000 in loans that were then funneled back for the defendants' personal benefit rather than the stated business purpose. A federal jury in the Northern District of Alabama convicted Watkins Sr. on seven counts of wire fraud, two counts of bank fraud, and one count of conspiracy, and convicted Watkins Jr. on one count of wire fraud and one count of conspiracy; U.S. District Judge Karon O. Bowdre sentenced Watkins Sr. to 60 months in federal prison and Watkins Jr. to 27 months on July 16, 2019. The case is a reminder that a familiar, locally prominent promoter — even one who also controls a federally chartered bank — is not proof that money handed over for a "sure thing" business venture is actually being invested as described, and that investors should independently verify how their funds are being used rather than relying on a promoter's reputation alone.`,
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    state: 'AL',
+    isHistorical: true,
+    sources: ['U.S. Attorney\'s Office, Northern District of Alabama', 'The Birmingham Times'],
+    sourceUrl: 'https://www.justice.gov/usao-ndal/pr/father-and-son-sentenced-prison-multimillion-dollar-investment-fraud-scheme',
+  },
+  {
+    name: 'Arkansas Scholarship Lottery Video Call Impersonation Scam',
+    slug: 'arkansas-scholarship-lottery-video-call-impersonation-scam',
+    description: `Scammers place unsolicited video calls and phone calls to Arkansas residents, posing as representatives of the Arkansas Scholarship Lottery (ASL) and claiming the recipient has already won a large cash prize — in one wave of reports, a "grand prize promotion" worth $797,000 plus a new 2025 Chevy Equinox — with no purchase or ticket entry required. To collect the fictitious winnings, callers ask victims to provide their name and Social Security or tax ID number, ostensibly so the lottery can verify their identity before releasing the prize, information the scammers can then use for identity theft or to demand upfront "processing" fees. The Arkansas Scholarship Lottery issued a public warning on June 1, 2026, with Executive Director Sharon Strong stating plainly, "this is a scam. Players can buy lottery tickets at licensed ASL retailers, but we do not offer winning lottery tickets or other monetary prizes over the phone." The agency emphasizes that it never contacts winners by unsolicited phone or video call to announce a prize, never asks for a Social Security number or tax ID to verify a win, and that legitimate prizes are claimed only in person at an official ASL Claim Center or by mail using materials from an actual purchased ticket; residents who receive such a call are urged to hang up and report it to the ASL or the Arkansas Attorney General's Consumer Protection Division.`,
+    categorySlug: 'lottery-sweepstakes-scams',
+    country: 'US',
+    state: 'AR',
+    alertLevel: 'medium',
+    sources: ['Arkansas Scholarship Lottery', 'Arkansas Attorney General\'s Office'],
+    sourceUrl: 'https://www.myarkansaslottery.com/press-release/arkansas-scholarship-lottery-warns-against-video-call-scam',
+  },
+  {
+    name: 'Idaho Forestry Accounts-Receivable Factoring Fraud',
+    slug: 'idaho-forestry-accounts-receivable-factoring-fraud',
+    description: `Douglas Worman of Coeur d'Alene owned and operated Worman Forest Management, a local forestry business that in 2010 entered a legitimate "factoring" arrangement with J.S. Richards Forestry Management, under which Richards would advance Worman cash up front against real invoices for logging and forestry work already performed, to be repaid once Worman's own customers eventually paid those invoices. Prosecutors said that between June and September 2018, Worman abused that arrangement by submitting more than $2 million in invoices that were inflated or entirely fabricated — billing for forestry work that was never actually performed for the customers named — to draw down factoring advances he was not entitled to, defrauding Richards out of more than $2.5 million overall. Following a six-day jury trial in the U.S. District Court for the District of Idaho, Worman was convicted in August 2024 on 17 counts of wire fraud (the jury acquitted him on five related bank-fraud counts), and Chief U.S. District Judge David C. Nye sentenced him on January 16, 2025 to 46 months in federal prison, three years of supervised release, and restitution to be determined. The case illustrates how accounts-receivable factoring — a legitimate financing tool many small businesses rely on for cash flow — can be turned into a fraud vehicle when a business owner submits invoices for work that was inflated or never performed, underscoring why factoring companies and lenders should independently verify invoices against actual completed work rather than relying solely on a longtime business partner's paperwork.`,
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    state: 'ID',
+    isHistorical: true,
+    sources: ['U.S. Attorney\'s Office, District of Idaho', 'Coeur d\'Alene Press'],
+    sourceUrl: 'https://www.justice.gov/usao-id/pr/coeur-dalene-man-sentenced-multimillion-dollar-accounts-receivable-factoring-scheme',
   },
 );
 
