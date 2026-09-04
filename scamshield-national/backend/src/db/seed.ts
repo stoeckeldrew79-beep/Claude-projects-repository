@@ -8065,6 +8065,53 @@ The Fidentia case remains a defining scandal in South African financial regulati
   },
 );
 
+NOTORIOUS_ARTICLES.push(
+  {
+    title: 'Al Parish: The TV "Economan" Whose Ponzi Scheme Funded a $1.2 Million Pen Collection',
+    slug: 'al-parish-parish-economics-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Downtown_Summerville_SC.jpg?width=1200',
+    coverImageCredit: 'Photo: Lee Keadle, Wikimedia Commons (CC BY 1.0) — downtown Summerville, South Carolina, where Al Parish ran Parish Economics out of a modest storefront office',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    body: `Al Parish spent more than two decades as one of coastal South Carolina's most recognizable financial voices. A tenured economics and business professor at Charleston Southern University, he became a fixture on local television and radio under the nickname "Economan," delivering market commentary with a folksy confidence that made him the go-to expert Charleston-area news stations called whenever the economy needed explaining. That media profile, and the trust it built, turned out to be the most valuable asset his real business ever had.
+
+Behind the TV appearances, Parish ran Parish Economics LLC out of Summerville, South Carolina, operating what he told investors were five distinct investment vehicles dating back to 1986: a Futures Pool trading commodities and securities futures, a Hedged Income Pool built on bonds, a Stock Pool, a Hard Asset Pool investing in watches, jewelry, and fine art, and a related entity called Summerville Hard Assets LLC. According to the U.S. Securities and Exchange Commission, which filed a civil fraud complaint against Parish and his firms on April 5, 2007, in the U.S. District Court for the District of South Carolina, Parish told investors and prospective clients that these funds held roughly $134 million in assets and were trading profitably — a figure regulators found was overstated by tens of millions of dollars, since the brokerage accounts he pointed to did not actually hold anything close to the sums he claimed. Behind the fabricated statements sat the mechanism common to nearly every scheme in this collection: money from new investors was used to pay off earlier ones, creating the appearance of steady returns on funds that were, in reality, disappearing.
+
+The lifestyle Parish built on that fiction became almost as well known locally as his TV segments. He amassed a pen collection reportedly worth $1.2 million, including a single diamond-encrusted pen valued at around $170,000, and funneled more than $4 million of investor money toward athletic-facility improvements at Charleston Southern University, cementing his standing as a prominent campus donor even as the funds paying for it belonged to the roughly 300 investors — many of them local retirees and acquaintances who trusted "Economan" precisely because he was already a familiar, credentialed public figure.
+
+The SEC obtained a permanent injunction and asset freeze against Parish and his entities on May 4, 2007, and criminal charges followed quickly behind the civil case. Parish pleaded guilty in federal court on October 5, 2007, to two counts of fraud. In 2008, U.S. District Judge David Norton sentenced him to 292 months — just over 24 years — in federal prison and ordered him to pay $66.8 million in restitution to the investors he had defrauded, whose total losses were estimated at up to $66 million against the roughly $90 million prosecutors said he had taken in over the life of the scheme.
+
+Parish served his sentence at the Butner Federal Correctional Complex in North Carolina, the same facility that later held Bernie Madoff. After a federal judge denied his first request in April 2020, Parish was granted compassionate release in March 2021 — citing Stage 3B chronic kidney disease and the heightened COVID-19 risk it posed — and walked out of prison roughly eleven years early, having served about half of his original term. Court records show he still owed victims tens of millions of dollars in unpaid restitution at the time of his release.
+
+Parish's case remains a locally cited cautionary tale in South Carolina financial-fraud circles for a specific reason: unlike a stranger cold-calling with a suspicious pitch, "Economan" was already inside the community's circle of trust, a face investors had watched explain the economy on the evening news for years before they ever wrote him a check — proof that a familiar, credentialed public persona can substitute for real due diligence just as effectively as any fabricated account statement.`,
+    sourceUrl: 'https://en.wikipedia.org/wiki/Al_Parish',
+  },
+  {
+    title: 'Stephen Walsh, Paul Greenwood, and the $554 Million Fraud Behind a Teddy Bear Collection',
+    slug: 'stephen-walsh-paul-greenwood-wg-trading-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Nassau_Coliseum_2021.jpg?width=1200',
+    coverImageCredit: 'Photo: Antony-22, Wikimedia Commons (CC BY-SA 4.0) — the Nassau Veterans Memorial Coliseum in Uniondale, New York, former home of the New York Islanders, the NHL franchise Stephen Walsh and Paul Greenwood partly owned before their fraud came to light',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    body: `Stephen Walsh and Paul Greenwood had been business partners since the late 1970s, building Westridge Capital Management and WG Trading Company into a Greenwich, Connecticut-based investment operation respected enough that institutional money managers, university endowments, pension funds, and charitable foundations entrusted it with billions of dollars. Part of what made the two men credible was visibility well outside finance: for part of the 1990s, Walsh and Greenwood held a minority ownership stake in the New York Islanders of the National Hockey League, the kind of high-profile investment that reinforced an image of two men who had genuinely made their fortune the ordinary way.
+
+Their pitch to investors was that WG Trading ran "equity index arbitrage," a strategy they described as conservative and market-neutral, and which they claimed had outperformed the S&P 500 for more than a decade running. Between 1996 and February 2009, according to the U.S. Attorney's Office for the Southern District of New York, Walsh and Greenwood used that pitch to solicit a combined $7.6 billion from investors — but rather than actually running the strategy they advertised, prosecutors said the two men misappropriated at least $554 million of client money for their own benefit, then concealed the theft for years by fabricating promissory notes and account statements that showed fictitious returns matching what the arbitrage strategy was supposed to deliver.
+
+Where the stolen money actually went became one of the case's more vivid details. Investigators found it had funded multiple multimillion-dollar homes, a horse farm and a string of horses, luxury cars — and, in Greenwood's case, an extensive collection of rare Steiff teddy bears, some individual bears reportedly worth well into six figures. For regulators and prosecutors, the teddy bears became a shorthand for just how far the money charities, universities, and pension plans believed was sitting in a "conservative" arbitrage fund had actually strayed from anything resembling an investment at all.
+
+The scheme collapsed when the SEC and the Commodity Futures Trading Commission filed parallel civil actions and the U.S. Attorney's Office brought criminal charges, and Walsh and Greenwood were arrested on February 24, 2009; courts froze roughly $554 million in the pair's assets shortly after. Deborah Duffy, WG Trading's chief compliance officer, pleaded guilty that July and began cooperating with investigators. Greenwood followed her lead relatively quickly, pleading guilty on July 28, 2010, to six counts including conspiracy, securities fraud, commodities fraud, wire fraud, and money laundering, and cooperating with prosecutors building the case against his former partner. Walsh instead fought the charges for nearly five more years before pleading guilty himself, on April 25, 2014, to securities fraud.
+
+U.S. District Judge Miriam Goldman Cedarbaum sentenced Walsh to 20 years in prison on October 29, 2014, along with forfeiture of more than $50.7 million, and sentenced Greenwood — whose earlier cooperation was reflected in a lighter term — to 10 years in prison on December 3, 2014, with an $83.5 million forfeiture. A court-appointed receiver spent years afterward clawing back what remained of the stolen billions on victims' behalf, distributing an initial $792 million to defrauded investors in 2011 and ultimately recovering more than $1 billion for the pension plans, university foundations, and charities the scheme had targeted, according to the CFTC.
+
+The case produced one more unusual postscript. In May 2019, after Walsh had served only about a quarter of his 20-year sentence, U.S. District Judge Loretta Preska found that his original defense lawyers had provided constitutionally ineffective counsel during his case, cut his sentence to time served, and ordered him released from the federal prison in Danbury, Connecticut, where he had been held. Greenwood, without a comparable ineffective-counsel claim, served his full term. Together, the two outcomes make the WG Trading case a study not only in how a "conservative" pitch and a high public profile can mask a theft in the hundreds of millions, but in how unevenly the consequences for identical conduct can land once cooperation, counsel, and appeals enter the picture.`,
+    sourceUrl: 'https://www.justice.gov/usao-sdny/pr/investment-managers-sentenced-manhattan-federal-court-several-hundred-million-dollar',
+  },
+);
+
 // Practical "how it works / red flags / what to do" guides covering the
 // major scam categories, the same kind of coverage the FTC's Consumer
 // Advice site and AARP's Fraud Watch Network publish — well-documented
