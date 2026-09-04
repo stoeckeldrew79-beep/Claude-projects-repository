@@ -32866,6 +32866,75 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'Wheeling Attorney Client Trust Account Fraud',
+    slug: 'west-virginia-wheeling-attorney-client-trust-fraud',
+    description: `Paul J. Harris, 62, a practicing attorney in Wheeling, West Virginia, was entrusted by clients to hold settlement proceeds and other funds in his law firm's client trust account until they were owed to be paid out — instead, prosecutors showed he repeatedly moved money out of that trust account into his firm's own operating account and personal use, at times using one client's money to cover funds he had already misappropriated from a different client to keep the shortfall from being noticed. Harris used the diverted funds for personal expenses including the purchase of his home and paying off the loan on his own law office. A federal jury in the Northern District of West Virginia found Harris guilty on November 13, 2025, of 29 counts of wire fraud and money laundering following an investigation by the FBI and IRS Criminal Investigation. On March 23, 2026, U.S. District Judge John Preston Bailey sentenced Harris to 97 months in federal prison, ordered forfeiture of the Harris Law Offices property in Wheeling, and required him to pay $701,623.86 in restitution to his victims. The case is a reminder that a client trust account is legally required to hold only client funds and never the attorney's own money, and that anyone with money sitting in a lawyer's trust account — a settlement, an escrow deposit, an estate distribution — can and should request a written accounting or ask the West Virginia Office of Disciplinary Counsel to verify the account is properly maintained if a payout is delayed or a lawyer becomes evasive about funds owed.`,
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    state: 'WV',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office for the Northern District of West Virginia", 'WV MetroNews', 'The Intelligencer', 'WTOV9'],
+    sourceUrl: 'https://www.justice.gov/usao-ndwv/pr/wheeling-attorney-sentenced-money-laundering-and-fraud',
+  },
+  {
+    name: 'NoDak Grain Ponzi-Style Grain Buying Scheme',
+    slug: 'north-dakota-nodak-grain-ponzi-scheme',
+    description: `Hunter Brian Hanson, then just 21 years old, ran NoDak Grain and Midwest Grain Trading out of Devils Lake, North Dakota, buying grain from farmers and elevators across North Dakota and Canada and promising to pay for it — but rather than running a legitimate grain-trading business, prosecutors say Hanson operated it like a Ponzi scheme throughout 2018, using proceeds from new grain purchases and sales to cover payments owed on earlier deals, writing checks he did not have sufficient funds to cover, and diverting roughly $1.27 million of the business's money into his own separate used-car dealership, Hanson Motors, in Belcourt. When the scheme collapsed, about 60 farmers, grain elevators, and grain brokers across North Dakota, Minnesota, and Canada were left unpaid for commodities they had already delivered. Hanson, of Leeds, North Dakota, pleaded guilty to federal wire fraud and money laundering, and on November 12, 2019, U.S. District Judge Daniel L. Hovland sentenced him to eight years in federal prison plus three years of supervised release, ordering $11,103,309.19 in restitution to his victims along with an additional $1.27 million money judgment tied to the funds funneled into his car business. Farmers and elevators delivering grain on credit to a buyer should check that the buyer is properly licensed and bonded with the North Dakota Public Service Commission's grain-buyer program before extending large amounts of unpaid credit, since state grain-buyer bonding exists specifically to provide a partial recovery fund when a licensed buyer defaults — protection an unlicensed or under-bonded buyer's sellers do not have.`,
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    state: 'ND',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office for the District of North Dakota", 'Bismarck Tribune', 'Agweek', 'InForum'],
+    sourceUrl: 'https://www.justice.gov/usao-nd/pr/leeds-nd-man-sentenced-11-million-dollar-fraud-scheme',
+  },
+  {
+    name: 'Providence Transnational Pop-Up Tech Support Elder Fraud Ring',
+    slug: 'rhode-island-providence-transnational-popup-elder-fraud-ring',
+    description: `A federal grand jury sitting in U.S. District Court in Providence, Rhode Island, returned an indictment charging eight individuals, including Nanjun Song, 27, of Brooklyn, New York, a Chinese national accused of overstaying a B2 visa, with conspiracy to commit wire fraud and conspiracy to commit money laundering in an elaborate transnational fraud scheme targeting elderly victims in the United States and Canada. According to Acting U.S. Attorney Sara Miron Bloom, the conspiracy sent pop-up messages to seniors' computers designed to look as though they came from a well-known technology company, falsely warning that the victim's financial accounts had been compromised, their computer hacked, or that they were the target of a criminal investigation, and directing them to call a "live agent" who claimed the victim's assets were at risk but could be "protected" — then walked victims through moving their real money into accounts the conspirators controlled. Law enforcement identified approximately 300 victims across at least 37 states, including Rhode Island, with known losses exceeding $5 million and evidence that roughly $16 million in additional suspected fraud proceeds moved through a single laundering account tied to the scheme. The May 2025 indictment was investigated by IRS Criminal Investigation and Homeland Security Investigations Providence as part of the Rhode Island Homeland Security Task Force, and two defendants have since pleaded guilty in the case. A pop-up warning that a computer is infected or an account is compromised, especially one instructing the viewer to call a phone number rather than contact the company through its real website or app, should never be trusted — legitimate technology companies do not detect problems on your device and display a support phone number on screen, and no legitimate bank or government agency asks you to move money to "protect" it from a threat it just warned you about.`,
+    categorySlug: 'tech-support-scams',
+    country: 'US',
+    state: 'RI',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office for the District of Rhode Island", 'Internal Revenue Service Criminal Investigation', 'ICE', 'GoLocalProv', 'ABC6'],
+    sourceUrl: 'https://www.justice.gov/usao-ri/pr/eight-indicted-transnational-fraud-scheme',
+  },
+);
+
+SEED_SCAMS.push(
+  {
+    name: 'Irish Customs Charge Text Message Scam',
+    slug: 'ireland-customs-charge-smishing-scam',
+    description: `Since new EU customs rules took effect on 1 July 2026 removing the old exemption for parcels under €150 and introducing a flat €3 per-item customs charge plus VAT, fraudsters in Ireland have flooded consumers with text messages impersonating An Post and other delivery companies, claiming a small "customs" or "delivery" fee — commonly listed as somewhere between €1.90 and €6.95 — must be paid before a parcel can be released. The texts include a click-through link to a page designed to look like An Post's real website, where victims are asked to enter their debit or credit card details to "clear" the charge; once entered, that information goes straight to the scammers, who can go on to make unauthorized charges far larger than the fee the victim thought they were paying. An Post has stated publicly that it "will never send you a click-through link to pay charges," and Ireland's Competition and Consumer Protection Commission (CCPC) has separately warned that "any requests for payment that claim to be from Revenue will definitely be a scam," since Revenue does not collect customs duties this way either. CCPC Director of Communications Gráinne Griffin warned ahead of the new rules taking effect that "scammers will look to exploit the situation and use it as an opportunity for fraud," and urged shoppers to treat any text about customs charges with extreme caution and not rush into paying anything. The CCPC and An Post both advise recipients of these texts to delete them without clicking any link, to check parcel status only by going directly to An Post's official website or app rather than through a link in a text message, and to contact their bank immediately to freeze the card and report the incident to An Garda Síochána if they have already entered payment details.`,
+    categorySlug: 'package-delivery-scams',
+    country: 'IE',
+    alertLevel: 'high',
+    sources: ['Competition and Consumer Protection Commission (CCPC)', 'An Post', 'RTE'],
+    sourceUrl: 'https://www.rte.ie/news/2026/0621/1579604-customs-scams/',
+  },
+  {
+    name: 'FraudSMART AI-Generated Celebrity Investment Scam',
+    slug: 'ireland-fraudsmart-ai-celebrity-investment-scam',
+    description: `FraudSMART, the fraud-awareness initiative run by Banking & Payments Federation Ireland (BPFI), has warned of a marked rise in investment scams using AI-generated pop-up advertisements that feature fabricated celebrity endorsements, run on social media and elsewhere online, primarily targeting people over 50 who are looking to supplement their pension or retirement savings. A victim who clicks "Learn More" on one of these ads is prompted to submit their contact details, after which a supposed "financial advisor" calls, often claiming to work for a well-known bank or investment firm and sometimes backed by a fake social media profile impersonating a real employee of that firm, along with professional-looking brochures sent by email to build credibility. Once a victim is persuaded to transfer money into what they believe is a bond, share, or other investment product, the criminals move the funds rapidly through multiple accounts, often overseas, to make recovery difficult. According to Niall Smith of An Garda Síochána's National Economic Crime Bureau, average individual losses in these investment schemes range between €30,000 and €40,000, and BPFI figures show Irish consumers reported losing €31 million to investment fraud in a single year, up from €14 million in 2021, with investment scam reports rising 21% in the third quarter of 2025 alone; a further worrying trend BPFI has flagged is fraudsters re-targeting people who already lost money to an investment scam, this time posing as a recovery agent who can get the lost funds back for an upfront fee. FraudSMART's advice is to never share banking details with someone who called or messaged first, to avoid clicking pop-up investment ads altogether, to resist any pressure to decide or transfer money quickly, to check whether a firm or individual is authorized by searching the Central Bank of Ireland's register before sending any money, and to verify unfamiliar investment websites using the Central Bank's own Scamchecker.ie tool.`,
+    categorySlug: 'ai-deepfake-scams',
+    country: 'IE',
+    alertLevel: 'high',
+    sources: ['Banking & Payments Federation Ireland (BPFI) / FraudSMART', 'An Garda Síochána National Economic Crime Bureau'],
+    sourceUrl: 'https://bpfi.ie/investment-scams-alert-following-marked-increase-in-ai-generated-adverts/',
+  },
+  {
+    name: 'CCPC Cloned Retailer and Fake Local Shop Online Shopping Scam',
+    slug: 'ireland-ccpc-cloned-retailer-fake-shop-scam',
+    description: `Ahead of Black Friday and Cyber Monday 2025, Ireland's Competition and Consumer Protection Commission (CCPC) published a set of real anonymized case studies, drawn from complaints it received between November 2024 and August 2025, warning that Irish shoppers were increasingly being tricked by convincing clones of trusted retailer websites and entirely fake "local shop" storefronts advertised through paid social media ads. The scam ads typically promote unusually large discounts, sometimes up to 80% off, and link through to a website that closely copies a real, well-known retailer's branding and layout, or presents itself as a small Irish business, complete with fabricated five-star reviews and a newly created social media profile with few followers or posts predating the ad campaign. Shoppers who order from these sites either receive nothing at all or receive a cheap counterfeit item, and because many pay by direct bank transfer rather than card, they have little way to reverse the payment once the money is sent. The case studies the CCPC published showed individual losses ranging from €42 up to €20,000. CCPC Director of Communications Gráinne Griffin urged consumers to "stop, search, and stay safe": stop and resist the pressure of a countdown timer or claimed limited stock before buying; search the retailer's name alongside terms like "reviews" or "scam" on independent sites such as Trustpilot or Reddit before entering any payment details; and stay alert to red flags such as prices far below every competitor, a website with no verifiable contact address or company registration, and a social media page with an unusually short history. The CCPC also recommends paying by credit card or a trusted payment provider rather than bank transfer wherever possible, since card payments can often be disputed through a chargeback, and advises anyone who has been scammed to contact their bank immediately and to report the incident to their local Garda station.`,
+    categorySlug: 'online-shopping-scams',
+    country: 'IE',
+    alertLevel: 'medium',
+    sources: ['Competition and Consumer Protection Commission (CCPC)', 'Irish Tech News'],
+    sourceUrl: 'https://www.ccpc.ie/consumers/2025/11/28/ccpc-warns-of-surge-in-online-scams-as-irish-consumers-enter-busiest-shopping-season/',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
