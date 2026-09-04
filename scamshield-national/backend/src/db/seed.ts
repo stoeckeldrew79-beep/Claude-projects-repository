@@ -8738,6 +8738,49 @@ The Braiscompany case is a reminder that the promise of steady, outsized monthly
   },
 );
 
+NOTORIOUS_ARTICLES.push(
+  {
+    title: 'Konstantin Ignatov: The Brother Who Ran OneCoin After the "Cryptoqueen" Vanished',
+    slug: 'konstantin-ignatov-onecoin-leadership',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Sofia-skyline-360-wikipedia-edit.jpg?width=1200',
+    coverImageCredit: 'Photo by Vladi Belperchinov-Shabanski, edit by koceto@gmail.com, Wikimedia Commons (CC BY-SA 3.0) — Sofia, Bulgaria, where Ruja Ignatova launched OneCoin and where her brother Konstantin Ignatov helped run it',
+    coverImagePosition: 50,
+    body: `When Ruja Ignatova boarded a flight out of Bulgaria in October 2017, one step ahead of the investigators closing in on OneCoin, she left the multibillion-dollar fraud she had built in the hands of the person she trusted most: her younger brother, Konstantin Ignatov. He had joined OneCoin as her personal assistant, but after her disappearance he stepped into the role of the operation's de facto leader, continuing to promote the fake cryptocurrency to a global network of investors even as the scheme's foundations were already collapsing under scrutiny.
+
+OneCoin had no real blockchain — coin "ownership" was just an entry in a database the company controlled — and by the time Konstantin took charge, U.S. and European authorities were well into building the case that would eventually name Ruja, Konstantin, OneCoin co-founder Karl Sebastian Greenwood, and the scheme's money-laundering lawyer Mark Scott as defendants. Konstantin was arrested at Los Angeles International Airport in March 2019, and prosecutors in the Southern District of New York charged him with conspiracy to commit wire fraud, wire fraud, conspiracy to commit money laundering, and money laundering — charges that together carried a potential sentence of up to 90 years.
+
+Rather than fight the case, Ignatov began cooperating with the government within months of his arrest. He pleaded guilty in October 2019 pursuant to a cooperation agreement, sat for nine proffer sessions with prosecutors, and in November 2019 testified as a government witness at the trial of Mark Scott, helping secure Scott's conviction on money-laundering charges tied to the roughly $400 million he had funneled through his "Fenero Funds." That cooperation became the central fact of Ignatov's own case: prosecutors, describing OneCoin as a fraud with hundreds of thousands of victims, ultimately recommended leniency in exchange for the assistance he had provided against his former co-conspirators.
+
+On March 5, 2024, U.S. District Judge Edgardo Ramos sentenced Ignatov to time served — the roughly 34 months he had already spent in custody — along with two years of supervised release and forfeiture of $118,000 in proceeds he had personally taken from the scheme. Ruja Ignatova, by contrast, has never been located; she was added to the FBI's Ten Most Wanted Fugitives list in 2022, with a reward for information leading to her capture that the agency has since raised to $5 million.
+
+Konstantin Ignatov's case is a useful companion to his sister's: it shows how differently the same fraud can end for two people who ran it together, depending entirely on whether one of them stayed to face the consequences and hand prosecutors what they needed to convict everyone else.`,
+    sourceUrl: 'https://coincodecap.com/cryptoqueens-brother-spared-further-jail-time-in-4-billion-onecoin-scam-case',
+  },
+  {
+    title: 'Walter Noel and Fairfield Greenwich Group, the $7 Billion Madoff Feeder Fund',
+    slug: 'walter-noel-fairfield-greenwich-madoff-feeder',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Old_Town_Hall,_Greenwich.jpg?width=1200',
+    coverImageCredit: 'Photo by Mx. Granger, Wikimedia Commons (CC0) — the Old Town Hall in Greenwich, Connecticut, where Walter Noel founded the investment firm that became Fairfield Greenwich Group',
+    coverImagePosition: 50,
+    body: `Walter M. Noel Jr. founded what became Fairfield Greenwich Group in 1983, and in 1989 merged it with a small brokerage run by Jeffrey Tucker, a former SEC enforcement lawyer whose regulatory background became a selling point: Fairfield told investors it applied deeper, more rigorous due diligence than its competitors. That same year, Tucker's father-in-law introduced Noel and Tucker to Bernard Madoff. In 1990 they launched the Fairfield Sentry Fund with just $1 million in seed capital, feeding it into Madoff's investment operation — a relationship that, over the next two decades, grew Fairfield into Madoff's single largest feeder fund, eventually channeling more than $7 billion of client money into his firm.
+
+Fairfield's client base was overwhelmingly foreign — by 2008, roughly 95 percent of its investors were from outside the United States, cultivated in large part through Andrés Piedrahita, who married Noel's daughter Corina in 1989 and became a formal partner in 2007. What Fairfield charged for access to Madoff's supposedly steady returns was strikingly rich by industry standards: a 20 percent cut of investment profits, roughly double what many competing funds charged, plus a 1 percent annual asset-management fee added in 2004. Between 2005 and 2008 alone, that structure generated Fairfield an estimated $400 million in fees.
+
+The warning signs were, in hindsight, hard to miss. Madoff reported only four losing months across 14 years of supposed trading, with returns that traced an almost perfectly straight upward line on a chart — a pattern no legitimate, volatile trading strategy produces. In 2005, Fairfield learned Madoff's outside auditor was effectively a one-accountant storefront operation, plainly incapable of auditing a business managing billions of dollars. In August 2008, JPMorgan Chase withdrew roughly $250 million tied to Fairfield's Madoff exposure, citing concerns about a lack of transparency — months before Madoff's fraud became public. Fairfield's principals, regulators later found, had every incentive not to look too closely at answers that would have ended a business generating them hundreds of millions of dollars a year.
+
+Madoff's arrest in December 2008 triggered a wave of consequences for Fairfield, all of them civil rather than criminal. Massachusetts Secretary of the Commonwealth William Galvin filed a fraud complaint in April 2009 alleging that Fairfield had misrepresented its due diligence and that Madoff had, in 2005, coached Fairfield staff on how to answer questions from SEC investigators; Fairfield settled that case in September 2009, paying an $8 million restitution fund plus a $500,000 penalty without admitting wrongdoing. Madoff trustee Irving Picard separately sued Fairfield entities seeking recovery of billions in withdrawals, and defrauded investors pursued their own class action, Anwar v. Fairfield Greenwich. In November 2012, Noel and Piedrahita agreed to personally contribute to an $80.3 million global settlement of that class action, approved by a federal judge in March 2013. Neither Noel, Tucker, nor Piedrahita was ever criminally charged.
+
+Fairfield Greenwich's story is a reminder that the "feeder fund" side of the Madoff fraud didn't require anyone to know for certain that the underlying investment was fake — it required a firm collecting outsized fees to keep deciding, year after year, that questions about a suspiciously perfect return stream could wait.`,
+    sourceUrl: 'https://en.wikipedia.org/wiki/Fairfield_Greenwich_Group',
+  },
+);
+
 // Practical "how it works / red flags / what to do" guides covering the
 // major scam categories, the same kind of coverage the FTC's Consumer
 // Advice site and AARP's Fraud Watch Network publish — well-documented
