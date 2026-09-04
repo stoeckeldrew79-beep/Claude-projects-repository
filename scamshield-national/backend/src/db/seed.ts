@@ -15697,6 +15697,45 @@ Before responding to any loan, job, or benefits offer that arrives out of the bl
   },
 );
 
+GUIDE_ARTICLES.push(
+  {
+    title: 'Cloned Car Dealership Websites: How AI-Built Fakes Trick Buyers Into Wiring Money for a Car That Was Never for Sale',
+    slug: 'cloned-car-dealership-website-scam-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'car-dealership-website-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Car_dealership_on_Nithsdale_Drive_(B763),_Glasgow_(geograph_6971412).jpg?width=1200',
+    coverImageCredit: 'Photo: JThomas, CC BY-SA 2.0, via Wikimedia Commons',
+    coverImagePosition: 50,
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2026/09/scammers-are-spoofing-car-dealership-websites-what-you-need-know',
+    body: `On September 1, 2026, the FTC's Bureau of Consumer Protection issued a consumer alert describing a car-buying scam built entirely around a website that looks completely real: fraudsters clone a legitimate, existing dealership's site — sometimes using AI to speed up the copying — duplicating its logo, its actual vehicle inventory photos, its listed staff, and even fabricated customer testimonials down to details that would take a careful shopper a while to question. Some versions advertise a rare or hard-to-find vehicle, a low-mileage classic or a discontinued trim, specifically because a scarce car is the one a buyer is least likely to walk away from over a slightly-too-good price.
+
+The mechanics of the con depend on borrowed legitimacy rather than a wholly invented business. Because the underlying dealership is real — with an actual showroom, actual staff, and actual cars on the lot — a buyer who searches the dealership's name finds a genuine business with real reviews and a real address, and has no easy way to know that the specific website they landed on, often reached through a search ad or a social media listing rather than a direct search for the dealer's name, is not the dealership's own site. The clone walks the buyer through what looks like an ordinary purchase process, sometimes advertising a flexible return policy to head off hesitation, and asks for payment — a deposit, a down payment, or the full purchase price — before the vehicle ships or before the buyer is invited to pick it up. The FTC's alert is blunt about the method: "Walk away if the dealer insists on an upfront payment by wire transfer only," since a wire transfer, once sent, generally cannot be reversed or recalled the way a credit card charge can.
+
+The buyer only discovers the fraud when they show up to the actual dealership, or call the actual sales line, and are told there's no record of their order, their payment, or any car being held for them — the scam website was never operated by the business it impersonated, and whatever money was wired is already gone. Because the clone reproduces a real inventory listing, the vehicle the buyer thought they were purchasing was often never actually for sale to them in the first place; it may still be sitting on the real lot, unaware it was ever "sold" online.
+
+The FTC's alert lays out a specific set of checks a buyer can run before sending any money. Search the dealership's name alongside words like "scam," "review," or "complaint" — a cloned site can still carry glowing reviews written for it, so a search that turns up nothing negative isn't proof of legitimacy, but a search that turns up fraud warnings is a clear stop sign. Ask to see the car and the dealership in person, and treat any reluctance or excuse for why an in-person visit isn't possible as a serious red flag. When the vehicle or dealership is too far away to visit directly, the FTC suggests hiring an independent mobile inspection service to physically verify the car exists and matches its listing before any money changes hands. And never pay for a vehicle by wire transfer as the only accepted method — a legitimate dealership accepts financing, a cashier's check picked up and verified in person, or another traceable, reversible payment method, and one that insists on wire-only payment upfront is signaling exactly the kind of fraud this alert describes.
+
+Buyers who encounter a suspected cloned dealership site, or who have already sent money to one, should report it to the FTC at ReportFraud.ftc.gov, and should also contact the real dealership directly — using a phone number looked up independently, not one taken from the suspect site — so the business is aware its identity and inventory are being used to defraud its own customers.`,
+  },
+  {
+    title: '"Text From the Teacher" Scams: How a First-Day-of-School Photo Turns Into a Fake Fee Request',
+    slug: 'fake-teacher-text-school-fee-scam-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'fake-teacher-text-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Back_to_school_snacks_water_bottle_notebook_backpack_(20503811429).jpg?width=1200',
+    coverImageCredit: 'Photo: Personal Creations, CC BY 2.0, via Wikimedia Commons',
+    coverImagePosition: 50,
+    sourceUrl: 'https://www.wsaw.com/2026/08/20/experts-warn-back-to-school-shopping-scams/',
+    body: `Every August, parents post the same proud photo: a child on the front porch or at the bus stop, holding a hand-lettered sign with their name, grade, school, and sometimes their teacher's name written out for the caption. The Better Business Bureau's back-to-school 2026 warning points out an uncomfortable fact about that ritual — the exact details that make the photo shareable are also, as the BBB put it, "the same ones more than half of adults use as security questions and passwords," and posting a child's full name, school, teacher, and age publicly hands a scammer a ready-made profile to work from.
+
+That profile feeds directly into a specific follow-on scam the BBB has been flagging as the school year starts: a text message arrives at a parent's phone appearing to come from their child's teacher, referencing the child, the school, and sometimes the teacher's actual name pulled straight from a social media post, asking the parent to click a link and send money for classroom supplies or an unpaid fee. Because the message gets the child's and teacher's real names right, and arrives with the same tone of routine, mildly urgent classroom business a real note home might carry, it clears the first hurdle a scam text usually fails — it doesn't feel like a stranger guessing. Lisa Schiller, the BBB's senior director of investigations, told local reporters covering the warning that the fix is simple but has to happen before paying, not after: "You want to call the school or teacher directly before paying any fees found in any text messages or emails... verify directly with the school or again, the teacher."
+
+The same information harvested from a proud back-to-school post can be reused well beyond a single fake fee text. BBB investigators note that a child's full name, birth date or age, and school details are also enough, in combination, to attempt opening a fraudulent credit account in the child's name — a form of child identity theft that can go undetected for years, since most children don't check their own credit until they're old enough to apply for something that requires it themselves, by which point a scammer may have had a decade-plus head start.
+
+None of this means back-to-school photos have to stop. The BBB's practical guidance is about what stays out of the frame and out of the caption, not whether to take the picture at all: skip signs that spell out a child's full name, age, grade, teacher, and school together in one shareable post, choose a background that doesn't show a house number, street sign, or school name, and consider limiting the audience for the post to people who already know the child rather than a fully public account. For any text, email, or app message that asks for money on behalf of a school, teacher, coach, or student organization, verify it before paying by calling the school's main office or the teacher directly, using a phone number looked up independently rather than any number included in the message itself — the same rule that applies to every other unsolicited payment request, applied to the one kind that's built to feel personal. Suspected scams can be reported to the BBB's Scam Tracker at bbb.org/scamtracker and to the FTC at ReportFraud.ftc.gov.`,
+  },
+);
+
 async function seedArticles(articles: SeedArticle[], label: string) {
   for (const article of articles) {
     await pool.query(
