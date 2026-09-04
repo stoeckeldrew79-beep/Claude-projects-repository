@@ -8442,8 +8442,8 @@ The Westgate case became one of the wave of Ponzi-scheme prosecutions that follo
     slug: 'chalana-mcfarland-atlanta-mortgage-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Richard_Russell_Federal_Building.jpg?width=1200',
-    coverImageCredit: 'Photo: User:DukeArcTerex, Wikimedia Commons (CC BY 3.0) — the Richard B. Russell Federal Building in Atlanta, home to the federal courthouse where Chalana McFarland was prosecuted',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Elbert-P-Tuttle-US-Courthouse-01.jpg?width=1200',
+    coverImageCredit: 'Photo: Eoghanacht, Wikimedia Commons (public domain) — the Elbert P. Tuttle U.S. Courthouse in Atlanta, home to the U.S. Court of Appeals for the Eleventh Circuit, which reviewed the federal Atlanta case against Chalana McFarland',
     coverImagePosition: 50,
     // representative photo — replace with a portrait if found
     body: `Chalana McFarland was a real estate closing attorney running her own firm, the McFarland Law Firm, in the Atlanta, Georgia area when she became the leader and organizer of an extensive mortgage fraud ring that operated from mid-1999 through late 2002. Rather than simply falsifying a handful of loan files, prosecutors described McFarland as the hub of a scheme that touched more than a hundred properties and diverted more than $20 million in fraudulently obtained mortgage loans.
