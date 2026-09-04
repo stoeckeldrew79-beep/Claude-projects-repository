@@ -8623,6 +8623,44 @@ Forsage is a useful case precisely because "decentralized" was the sales pitch, 
   },
 );
 
+NOTORIOUS_ARTICLES.push(
+  {
+    title: 'Mark Scott, the Big Law Partner Who Laundered $400 Million for OneCoin',
+    slug: 'mark-scott-onecoin-fenero-funds-laundering',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/British_Virgin_Islands.jpg?width=1200',
+    coverImageCredit: 'Jesse Allen, NASA Earth Observatory (Public Domain) — the British Virgin Islands, where Mark Scott registered the "Fenero Funds" shell entities used to launder OneCoin\'s proceeds',
+    coverImagePosition: 50,
+    body: `OneCoin needed more than a charismatic founder selling a fake cryptocurrency out of packed arenas — it needed someone who could make roughly $400 million in cash from that sales pitch look like it belonged to legitimate investors. That person was Mark Scott, an American attorney and equity partner at Locke Lord LLP, a large international law firm, who was introduced to OneCoin co-founder Ruja Ignatova in September 2015. By early 2016, prosecutors say, Scott had gone from outside counsel to architect of the scheme's money-laundering infrastructure.
+
+Scott's vehicle was a set of private equity funds he formed in the British Virgin Islands under the name "Fenero Funds." According to the Justice Department, he disguised roughly $400 million in incoming OneCoin fraud proceeds as investments from "wealthy European families," then layered the money through Fenero bank accounts in the Cayman Islands and Ireland before wiring much of it back to Ignatova and other OneCoin-linked entities — this time dressed up as outbound Fenero "investments" rather than what it actually was: fraud proceeds moving in a circle with a law firm partner's name on the paperwork. For his services, prosecutors said, Scott was paid more than $50 million, which he spent on a yacht, luxury cars, and multiple seaside homes.
+
+A federal jury in the Southern District of New York convicted Scott on all counts — conspiracy to commit money laundering and conspiracy to commit bank fraud — on November 21, 2019. He remained free on bail for years while his post-trial motions and appeals played out, and it wasn't until January 25, 2024, that U.S. District Judge Edgardo Ramos sentenced him to 10 years in prison and ordered him to forfeit $392,940,000 along with specific assets including his yacht, two Porsches, and four real estate properties. Scott appealed; the Second Circuit affirmed his conviction and sentence by summary order on January 31, 2025, and the U.S. Supreme Court declined to hear the case on October 6, 2025, closing off his last avenue of appeal.
+
+Scott's co-conspirators tell the rest of the story: OneCoin co-founder Karl Sebastian Greenwood was sentenced to 20 years in 2023, while Ruja Ignatova herself fled in October 2017 and has never been found, landing her on the FBI's Ten Most Wanted Fugitives list with a $5 million reward outstanding. Scott, by contrast, never pitched OneCoin to a single victim and never claimed the coin was real. His role was narrower and, in its way, more essential: giving a multibillion-dollar fraud's outbound cash flow the paperwork trail of a legitimate private equity fund, using the credibility of a Big Law partnership to make questions that should have been asked — where is this money really from? — look like questions that had already been answered.`,
+    sourceUrl: 'https://www.justice.gov/usao-sdny/pr/former-law-firm-partner-sentenced-10-years-prison-laundering-400-million-onecoin-fraud',
+  },
+  {
+    title: 'Sanjay Shah and the $1.7 Billion "Cum-Ex" Raid on Denmark\'s Treasury',
+    slug: 'sanjay-shah-cum-ex-solo-capital-denmark-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Sanjay_Shah_born_1970.jpg?width=1200',
+    coverImageCredit: 'Photo by Pranish Pradhan, via Wikimedia Commons (CC BY-SA 4.0)',
+    coverImagePosition: 50,
+    body: `Sanjay Shah, a British former banker who had worked at Morgan Stanley, Credit Suisse, and Rabobank, founded Solo Capital Partners in London in 2009. Between 2012 and 2015, according to Danish prosecutors, Solo Capital and a network of associated funds ran a coordinated trading scheme built around Danish share dividends — timing rapid trades around dividend record dates so that a single dividend withholding tax payment could be the basis for multiple, simultaneous refund claims filed on behalf of supposed beneficial owners, including more than 200 purported American pension plans, who Danish authorities say in many cases never actually owned the shares or paid the tax at all.
+
+The scheme worked because Denmark's tax authority, SKAT, largely paid dividend-tax refund claims on the strength of the paperwork submitted rather than independently verifying underlying share ownership. Danish prosecutors say SKAT paid out roughly 9 billion Danish kroner (about $1.3–1.35 billion) in refunds tied to Shah's network between 2012 and 2015 — on top of an additional 553 million kroner in claims prosecutors say Shah attempted but failed to collect — and that Shah, as the scheme's architect, personally directed its "central and leading role." Solo Capital collapsed into administration in 2016 as the fraud came to light, and Denmark, Germany, Belgium, and Norway all later pursued cases tied to the broader "cum-ex" dividend-arbitrage scandal that swept European markets; UK regulators separately fined brokers, including Sapien Capital and Mako Financial Markets, for financial-crime control failures tied to executing trades for Shah's Solo Group.
+
+Shah relocated to Dubai and lived there openly for years, giving interviews insisting he had exploited a legal loophole rather than broken any law. He was arrested in Dubai on May 31, 2022, on an Interpol red notice, and fought extradition until the United Arab Emirates handed him over to Denmark on December 6, 2023. His trial opened at the Court of Glostrup near Copenhagen in March 2024, and on December 12, 2024, the court convicted him and sentenced him to 12 years in prison — the longest sentence ever handed down in Denmark for a financial crime — while ordering roughly $1 billion in his assets confiscated and permanently barring him from entering the country. Shah has denied wrongdoing throughout and is appealing the conviction.
+
+The scale of Shah's case is what sets it apart even within a scandal that European investigators have estimated cost the continent's treasuries tens of billions of euros collectively: a single trading network, exploiting a single country's refund-verification gap, extracted more than a billion dollars from a national treasury before anyone stopped it — a reminder that "cum-ex" fraud didn't require deceiving individual victims at all, only a tax system willing to trust the paperwork a sophisticated trading operation put in front of it.`,
+    sourceUrl: 'https://www.thenationalnews.com/news/uk/2024/12/12/sanjay-shah-british-hedge-fund-trader-jailed-in-denmark-for-tax-fraud/',
+  },
+);
+
 // Practical "how it works / red flags / what to do" guides covering the
 // major scam categories, the same kind of coverage the FTC's Consumer
 // Advice site and AARP's Fraud Watch Network publish — well-documented
