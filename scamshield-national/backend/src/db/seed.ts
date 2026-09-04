@@ -33736,6 +33736,42 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'Iowa Fake Unemployment Claims Identity Theft Scheme',
+    slug: 'iowa-fake-unemployment-claims-identity-theft-scheme',
+    description: `Long Ly, a Vietnamese immigrant living in the Des Moines area, used his standing and connections inside the local Vietnamese community to approach at least five people — several with limited English proficiency — and convince them to let him "help" file unemployment benefits claims with Iowa Workforce Development on their behalf, even though every one of them was actually employed and therefore ineligible for benefits. During 2020 and 2021, Ly submitted claims to Iowa Workforce Development that misrepresented both himself and his victims as unemployed, and in some submissions he went further and filed claims in victims' names without their knowledge or approval at all, directing the resulting benefit payments into bank accounts he personally controlled rather than the victims' own accounts. Iowa Workforce Development ended up issuing nearly $100,000 in benefits payments across these fraudulent and misrepresented claims. Ly, 45, was convicted of wire fraud and aggravated identity theft in the U.S. District Court for the Southern District of Iowa and was sentenced in February 2025 to three years in federal prison, with a federal judge also ordering him to pay $72,872.20 in restitution; Iowa Workforce Development's Integrity Bureau worked alongside the U.S. Attorney's Office to build the case. The scheme is a reminder that identity-theft-based benefits fraud does not always start with a stranger — trusted community figures who offer to "help" file a government claim can misuse the personal information handed over in the process, and that unemployment claimants should check their own Iowa Workforce Development account activity directly rather than relying on someone else to manage a claim filed in their name.`,
+    categorySlug: 'identity-theft',
+    country: 'US',
+    state: 'IA',
+    alertLevel: 'high',
+    sources: ['U.S. Attorney\'s Office, Southern District of Iowa', 'Iowa Workforce Development'],
+    sourceUrl: 'https://www.justice.gov/usao-sdia/pr/man-sentenced-three-years-federal-prison-wire-fraud-and-identity-theft-charges',
+  },
+  {
+    name: 'Colorado "Fix and Flip" Real Estate Investment Fraud (Michelle Boyer)',
+    slug: 'colorado-fix-and-flip-real-estate-investment-fraud-michelle-boyer',
+    description: `Michelle Boyer, a Colorado woman with a background as an insurance agent and investment advisor, began soliciting money from acquaintances and clients around March 2017 for what she pitched as "fix and flip" real estate investments — buying distressed properties, renovating them, and reselling at a profit — promising investors monthly returns of roughly 7% to 12% plus origination fees, and describing the deals as safe with minimal risk of loss. In reality, prosecutors said, Boyer did not put investor money into real estate deals as described; she used it to cover her own business debts and personal expenses, including dining and vehicle payments, made large unexplained cash withdrawals, and paid some "returns" to earlier investors using money raised from newer ones — the hallmark structure of a Ponzi-style scheme rather than a real property-flipping business. The Colorado Attorney General's Office opened an investigation after two of Boyer's investors came forward, and found she had taken a total of roughly $727,000 from victims. Boyer, 58, was indicted on felony securities fraud and theft charges, pleaded guilty, and was sentenced on February 3, 2025 to four years in Colorado state prison plus three years of mandatory parole, and ordered to pay $706,000 in restitution. Colorado Attorney General Phil Weiser said the case shows that "if you defraud investors, you will find yourself in prison," and the office notes that a promised fixed monthly return with "minimal risk" from an unregistered real estate fund is a classic warning sign — real fix-and-flip deals carry genuine project-by-project risk, and prospective investors can verify whether a promoter or offering is properly registered through the Colorado Division of Securities before wiring any money.`,
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    state: 'CO',
+    alertLevel: 'high',
+    sources: ['Colorado Attorney General\'s Office', 'Denver Gazette'],
+    sourceUrl: 'https://coag.gov/press-releases/boyer-real-estate-investment-scheme-2-13-25/',
+  },
+  {
+    name: 'Connecticut Lottery and Romance Fraud Ring (Farouq Fasasi)',
+    slug: 'connecticut-lottery-and-romance-fraud-ring-farouq-fasasi',
+    description: `Between approximately August 2015 and March 2020, Farouq Fasasi of Manchester, Connecticut led a fraud ring that combined two classic cons: in the lottery-scam side, victims were contacted by phone, online message, or mail and told they had won a large cash prize but needed to pay upfront "taxes," shipping, or processing fees before the winnings could be released; in the romance-scam side, ring members created fake dating-site and social-media profiles — often describing themselves as a widow or widower or as a deployed member of the military — to build trust with lonely victims before asking them for money. Fasasi worked with co-defendant Rodney Thomas Jr. and others to run both schemes simultaneously against primarily elderly victims across the country, ultimately defrauding more than 200 victims of over $5 million combined; one Connecticut victim alone lost more than $1 million, and court records describe some victims losing their entire life savings. Following an investigation by the U.S. Secret Service, Fasasi was convicted in the U.S. District Court for the District of Connecticut, and U.S. District Judge Stefan R. Underhill sentenced him in Bridgeport in August 2022 to 168 months (14 years) in federal prison, three years of supervised release, and more than $5.9 million in restitution; several co-conspirators, including Rodney Thomas Jr., were separately convicted and sentenced for their own roles in the ring. The case illustrates how lottery and romance scams are frequently run by the same criminal organizations rather than as isolated, one-off cons, and reinforces two enduring warning signs: a real lottery or sweepstakes never requires a winner to pay a fee before receiving a prize, and an online companion who asks for money, gift cards, or wire transfers — especially one who has never been willing to meet in person or video chat — is not who they claim to be.`,
+    categorySlug: 'romance-scams',
+    country: 'US',
+    state: 'CT',
+    isHistorical: true,
+    sources: ['U.S. Attorney\'s Office, District of Connecticut', 'U.S. Secret Service'],
+    sourceUrl: 'https://www.justice.gov/usao-ct/pr/leader-lottery-and-romance-fraud-scheme-sentenced-14-years-federal-prison',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
