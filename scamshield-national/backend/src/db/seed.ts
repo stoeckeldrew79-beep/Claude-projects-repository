@@ -8465,6 +8465,10 @@ NOTORIOUS_ARTICLES.push(
     slug: 'peter-madoff-blmis-compliance-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Thurgood_Marshall_Courthouse_(37868265681).jpg?width=1200',
+    coverImageCredit: 'Photo: Paul Sableman, Wikimedia Commons (CC BY 2.0) — the Thurgood Marshall United States Courthouse at Foley Square, Manhattan, part of the federal courthouse complex where Peter Madoff was sentenced in December 2012',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Peter Madoff spent decades as Chief Compliance Officer and Senior Managing Director at Bernard L. Madoff Investment Securities LLC (BLMIS), the firm his older brother Bernie ran as the largest Ponzi scheme in history, profiled separately on this site. Peter's job, on paper, was to be the internal check that made sure the firm actually followed securities regulations — precisely the function that, if performed honestly, should have surfaced the fact that no real trades were happening behind client account statements at all.
 
 Instead, prosecutors said, Peter helped fabricate the appearance that the check was working. He created false and misleading compliance records claiming he had performed trading reviews that never actually took place, and he falsified the firm's SEC Form ADV filings, understating how many clients BLMIS had and how much money it managed. Separately, from 1998 through 2008, he engaged in his own tax fraud, using sham promissory notes totaling roughly $15.7 million to move wealth to family members while avoiding gift and estate taxes, and arranged a "no-show" job for his wife, Marion, that paid her between $100,000 and $160,000 a year for work she did not do. In December 2008, as redemption requests mounted and the scheme neared collapse, he was involved in an attempt to distribute roughly $300 million to preferred insiders and family members before the firm went under — money that, had the transfer succeeded, would have come at ordinary investors' expense in the scheme's final days.
@@ -8479,6 +8483,10 @@ Peter Madoff's case is a reminder that a fraud this large depended on more than 
     slug: 'salomon-melgen-medicare-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Retinal_camera.jpg?width=1200',
+    coverImageCredit: 'Photo: Jason Ruck, Wikimedia Commons (CC BY-SA 3.0) — a retinal camera used to photograph the back of the eye, the kind of ophthalmic imaging equipment central to the billing fraud Melgen was convicted of',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Salomon Melgen was a South Florida ophthalmologist whose practice, treating elderly Medicare patients for eye conditions including macular degeneration, made him the highest-paid Medicare doctor in the entire country between 2008 and 2013, billing the program far beyond what typical practices of his size took in. That distinction turned out to have a straightforward explanation: much of what he was billing for either never needed to happen or never happened the way his records claimed.
 
 Prosecutors and trial evidence described a practice built around unnecessary and often painful treatment. Melgen gave elderly patients repeated eye injections and laser treatments on their retinas that some described as torturous, in some cases administering them to patients who did not need them. He billed Medicare for tests and treatments performed on patients' prosthetic eyes — eyes that could not physically receive the treatment being billed for. He ran diagnostic tests in a matter of seconds that should have taken minutes or longer to perform meaningfully, rendering the results medically useless while still billing for a full, valid test. And he took a single-use vial of an expensive injectable eye medication, split it into as many as four separate doses, and billed Medicare separately for each one, multiplying his reimbursement from medication meant to be used once. At his practice's peak, he was billing for procedures on as many as 100 patients in a single day.
