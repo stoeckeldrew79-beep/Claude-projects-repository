@@ -33475,6 +33475,39 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'Singapore DBS/Shopee iMessage Callback Phishing Scam',
+    slug: 'singapore-dbs-shopee-imessage-callback-phishing-scam',
+    description: `An unsolicited Apple iMessage impersonating DBS Bank or Shopee claims a transaction is pending and needs urgent verification, giving the recipient a phone number to call rather than a link to click. Victims who call the number are told their card details have been compromised and are talked into reading out their card number and one-time password (OTP) to a live scammer posing as a bank fraud investigator or Shopee support agent, draining the linked account. The Singapore Police Force flagged the pattern in a September 2026 advisory as a callback variant distinct from earlier link-based iMessage phishing, and advises verifying any pending-transaction alert by logging directly into the bank's own app rather than dialing a number supplied in the message.`,
+    categorySlug: 'phishing',
+    country: 'SG',
+    alertLevel: 'high',
+    sources: ['Singapore Police Force'],
+    sourceUrl: 'https://www.police.gov.sg/Media-Hub/News/2026/09/20260902_police_advisory_on_phishing_scams_impersonating_dbs_and_shopee_via_imessage',
+  },
+  {
+    name: 'Singapore URA Parking Fine Phishing Scam',
+    slug: 'singapore-ura-parking-fine-phishing-scam',
+    description: `An email impersonating the Urban Redevelopment Authority (URA) claims the recipient owes an unpaid parking fine and must settle it immediately, pressuring the recipient to transfer money or disclose online banking login details to resolve it, with a related variant impersonating URA or other government staff to request personal details over a supposed problem with a URA submission or SingPass account. URA states it will never ask a member of the public to transfer money or disclose bank log-in details over a phone call, letter, email, or text message, and directs anyone unsure about a message to verify it through URA's own hotline or the ScamShield helpline before acting.`,
+    categorySlug: 'government-impersonation',
+    country: 'SG',
+    alertLevel: 'medium',
+    sources: ['Urban Redevelopment Authority (URA)'],
+    sourceUrl: 'https://www.ura.gov.sg/Corporate/Media-Room/Media-Releases/scam-advisory',
+  },
+  {
+    name: 'Singapore HDB Fake "Upgrading Works" Contractor Scam',
+    slug: 'singapore-hdb-fake-upgrading-works-contractor-scam',
+    description: `Bogus contractors operating under names such as "Upgrading General Contractor," "Homework General Contractor," and "Shinden General Contractor" go door-to-door in HDB estates, mostly during office hours when elderly residents are more likely to be home alone, claiming to be carrying out official upgrading works for the block. Carrying files or dockets designed to look like HDB paperwork, they assert the flat is in violation of vague regulations and pressure the resident into paying on the spot for imaginary "rectification" work, sometimes threatening that HDB will take action if the resident refuses. HDB states that residents are always given prior notice before genuine works are carried out, that its appointed contractors wear uniforms bearing the company name and display identification cards, and that anyone can call the HDB Branch service line to verify a contractor before letting them in or making any payment.`,
+    categorySlug: 'utility-scams',
+    country: 'SG',
+    alertLevel: 'medium',
+    sources: ['Housing & Development Board (HDB)'],
+    sourceUrl: 'https://www.hdb.gov.sg/residential/living-in-an-hdb-flat/home-maintenance/guard-against-contractors-on-doortodoor-sales',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
