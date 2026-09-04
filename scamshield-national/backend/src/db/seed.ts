@@ -8459,6 +8459,39 @@ McFarland served roughly fifteen years of the sentence before President Trump gr
   },
 );
 
+NOTORIOUS_ARTICLES.push(
+  {
+    title: "Peter Madoff: The Compliance Chief Who Faked the Checks That Should Have Caught His Brother",
+    slug: 'peter-madoff-blmis-compliance-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Peter Madoff spent decades as Chief Compliance Officer and Senior Managing Director at Bernard L. Madoff Investment Securities LLC (BLMIS), the firm his older brother Bernie ran as the largest Ponzi scheme in history, profiled separately on this site. Peter's job, on paper, was to be the internal check that made sure the firm actually followed securities regulations — precisely the function that, if performed honestly, should have surfaced the fact that no real trades were happening behind client account statements at all.
+
+Instead, prosecutors said, Peter helped fabricate the appearance that the check was working. He created false and misleading compliance records claiming he had performed trading reviews that never actually took place, and he falsified the firm's SEC Form ADV filings, understating how many clients BLMIS had and how much money it managed. Separately, from 1998 through 2008, he engaged in his own tax fraud, using sham promissory notes totaling roughly $15.7 million to move wealth to family members while avoiding gift and estate taxes, and arranged a "no-show" job for his wife, Marion, that paid her between $100,000 and $160,000 a year for work she did not do. In December 2008, as redemption requests mounted and the scheme neared collapse, he was involved in an attempt to distribute roughly $300 million to preferred insiders and family members before the firm went under — money that, had the transfer succeeded, would have come at ordinary investors' expense in the scheme's final days.
+
+Notably, prosecutors never alleged that Peter Madoff knew his brother's investment operation was a fraud with no real trading behind it; at his plea, he said he had no idea Bernie was running a Ponzi scheme. What he pleaded guilty to, in June 2012, was a two-count charge covering conspiracy — spanning securities fraud, tax fraud, mail fraud, and ERISA fraud — and falsifying the records of an investment adviser. On December 20, 2012, U.S. District Judge Laura Taylor Swain sentenced him to 10 years in federal prison and ordered forfeiture of $143.1 billion, a figure representing the full amount of investor money that had flowed through BLMIS from 1996 to 2008; as part of a related family settlement, his wife was left with a small fraction of their assets. He was released to home confinement in August 2020.
+
+Peter Madoff's case is a reminder that a fraud this large depended on more than one liar: even someone who says, credibly, that he never knew about the underlying scheme can still be essential to how long it survives — by making the one internal safeguard designed to catch it look, on paper, like it was actually working.`,
+    sourceUrl: 'https://www.justice.gov/archive/usao/nys/pressreleases/December12/PeterMadoffSentencing.html',
+  },
+  {
+    title: "Salomon Melgen: The Highest-Billing Medicare Doctor Who Treated Patients He Was Defrauding",
+    slug: 'salomon-melgen-medicare-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Salomon Melgen was a South Florida ophthalmologist whose practice, treating elderly Medicare patients for eye conditions including macular degeneration, made him the highest-paid Medicare doctor in the entire country between 2008 and 2013, billing the program far beyond what typical practices of his size took in. That distinction turned out to have a straightforward explanation: much of what he was billing for either never needed to happen or never happened the way his records claimed.
+
+Prosecutors and trial evidence described a practice built around unnecessary and often painful treatment. Melgen gave elderly patients repeated eye injections and laser treatments on their retinas that some described as torturous, in some cases administering them to patients who did not need them. He billed Medicare for tests and treatments performed on patients' prosthetic eyes — eyes that could not physically receive the treatment being billed for. He ran diagnostic tests in a matter of seconds that should have taken minutes or longer to perform meaningfully, rendering the results medically useless while still billing for a full, valid test. And he took a single-use vial of an expensive injectable eye medication, split it into as many as four separate doses, and billed Medicare separately for each one, multiplying his reimbursement from medication meant to be used once. At his practice's peak, he was billing for procedures on as many as 100 patients in a single day.
+
+Prosecutors alleged the scheme totaled as much as $136 million in fraudulent billing; at sentencing, the judge found $73 million of it proven. A federal jury convicted Melgen in April 2017 on 67 counts, including health care fraud, submitting false claims, and falsifying patient records. On February 22, 2018, U.S. District Judge Kenneth Marra sentenced him to 17 years in federal prison and ordered him to pay $42.6 million in restitution to Medicare.
+
+Melgen's case became entangled with a separate scandal just weeks before that sentencing: he had been indicted in 2015 alongside U.S. Senator Bob Menendez of New Jersey on federal bribery charges, accused of showering the senator with gifts — including private jet flights and luxury vacations — in exchange for official favors. That trial ended in a deadlocked jury and a mistrial in November 2017, after which a judge dismissed several of the remaining counts for insufficient evidence, and the Justice Department declined to retry the case in January 2018, dropping the charges against both men. The bribery case never reached a verdict; the Medicare fraud case, built on his own patients' falsified charts and prescription records, did.
+
+Melgen's case is a useful illustration of how a legitimate, credentialed medical practice can double as one of the largest kinds of consumer fraud there is: every fraudulent claim was submitted using real patients' real Medicare numbers, for treatments most of them had no medical training to question, submitted by a doctor whose billing volume alone should have been an obvious red flag to anyone reviewing it years before agents ever raided his office.`,
+    sourceUrl: 'https://www.justice.gov/usao-sdfl/pr/south-florida-doctor-sentenced-medicare-fraud-scheme',
+  },
+);
+
 // Practical "how it works / red flags / what to do" guides covering the
 // major scam categories, the same kind of coverage the FTC's Consumer
 // Advice site and AARP's Fraud Watch Network publish — well-documented
