@@ -8786,7 +8786,7 @@ NOTORIOUS_ARTICLES.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
     // representative photo — replace with a portrait if found
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Rodeo_Drive,_Beverly_Hills,_California_LCCN2013630392.tif?width=1200',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Rodeo_Drive,_Beverly_Hills,_California_LCCN2013632140.tif?width=1200',
     coverImageCredit: 'Photo: Carol M. Highsmith, Library of Congress (Public Domain) — Rodeo Drive in Beverly Hills, California, where Stanley Chais built his money-management practice',
     coverImagePosition: 50,
     body: `Stanley Chais was a Beverly Hills investment adviser who spent nearly four decades, from the early 1970s until Bernard Madoff's fraud collapsed in December 2008, steering hundreds of millions of dollars from wealthy Los Angeles clients into three funds — known collectively as the Chais Funds, and internally as Brighton, Lambeth, and Popham — that in reality did nothing but funnel investors' money straight into Madoff's operation. Chais told his clients he was actively managing their money himself, describing an investment approach he claimed as his own, while never disclosing that Madoff, not Chais, was the one making every trading decision.
@@ -8804,8 +8804,8 @@ His estate did not escape the consequences his death spared him from personally.
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
     // representative photo — replace with a portrait if found
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Palm_Beach_Florida_aerial_view.jpg?width=1200',
-    coverImageCredit: 'Photo: Postdlf, Wikimedia Commons (CC BY-SA 3.0) — Palm Beach, Florida, where Jeffry Picower died at his waterfront mansion in October 2009',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Aerial_view_of_the_Kennedy_family_home_in_Palm_Beach,_Florida_(10999217183).jpg?width=1200',
+    coverImageCredit: 'Photo: State Library and Archives of Florida, via Flickr Commons (No known copyright restrictions) — an aerial view of Palm Beach, Florida, where Jeffry Picower died at his waterfront mansion in October 2009',
     coverImagePosition: 50,
     body: `Jeffry Picower was a lawyer, accountant, and philanthropist who began investing with Bernard Madoff in the late 1970s, decades before Madoff's fraud became public. Over the following thirty years, Picower and entities under his control deposited roughly $619 million into Madoff accounts — and, according to Irving Picard, the court-appointed trustee recovering money for Madoff's victims, withdrew approximately $7.8 billion, a gap of more than $7 billion in fictitious profits that made Picower by far the single largest beneficiary of the entire Ponzi scheme, taking more out of it than Madoff himself is believed to have personally kept.
 
