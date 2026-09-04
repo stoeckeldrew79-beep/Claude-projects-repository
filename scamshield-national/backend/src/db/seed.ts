@@ -33814,6 +33814,39 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'Indian TRAI Fake Mobile Number Disconnection Call Scam',
+    slug: 'indian-trai-fake-mobile-disconnection-call-scam',
+    description: `An automated or live phone call claims to be from the Telecom Regulatory Authority of India (TRAI) and warns that the recipient's mobile number will be permanently disconnected within a few hours because it has been used for "illegal activities" or to circulate "objectionable content," instructing the listener to press a key — commonly 1 or 9 — to speak with an "officer" and avoid the shutdown. Doing so transfers the call to a fraudster posing as a police, cybercrime, or telecom official who uses the manufactured panic over losing phone service to extract the victim's Aadhaar number, bank details, or one-time passwords, or to push the call further into a "digital arrest" extortion routine. TRAI issued a public advisory on April 7, 2025 stating plainly that it "does not initiate communication with customers regarding mobile number disconnection through messages or otherwise" and has authorized no third party to make such contact on its behalf, noting that any disconnection for genuine billing, KYC, or misuse reasons is handled directly by a subscriber's own telecom operator — never by an unsolicited call demanding immediate action. The authority directs citizens to report suspected fraudulent communication through the Chakshu facility on the Sanchar Saathi portal and to file confirmed cybercrime complaints with the national 1930 helpline or cybercrime.gov.in.`,
+    categorySlug: 'government-impersonation',
+    country: 'IN',
+    alertLevel: 'high',
+    sources: ['Telecom Regulatory Authority of India (TRAI)', 'Government of India (Press Information Bureau)'],
+    sourceUrl: 'https://www.newsonair.gov.in/trai-warns-public-against-fake-calls-threatening-mobile-disconnection',
+  },
+  {
+    name: 'Indian Fake RBI Voicemail Vishing Scam',
+    slug: 'indian-fake-rbi-voicemail-vishing-scam',
+    description: `A pre-recorded voicemail or robocall, styled to sound as if it comes from the Reserve Bank of India, warns the recipient that "all bank accounts in your name will be blocked in the next two hours" because a linked credit card has supposedly been involved in fraudulent activity or because KYC verification has expired, and instructs the listener to press a key — such as 9 — for more information. Pressing the key, or calling the number back, connects the victim to a fraudulent call center where a scammer impersonating an "RBI Cyber Fraud Control Officer" demands the account holder's debit or credit card number, CVV, net-banking password, UPI PIN, or OTP to "verify" the account and prevent the freeze, information that is then used to drain the account or take it over. The Press Information Bureau's Fact Check unit publicly debunked the voicemail on November 19, 2025, stating that "RBI never calls, emails, or sends voicemails asking customers for OTP, PIN, passwords, or account details," and urging anyone who receives such a message to ignore it, avoid calling back or clicking any link in it, and never disclose card details, PINs, or OTPs under any circumstance; suspected fake communications from a government body can be reported to the PIB Fact Check unit by WhatsApp or email.`,
+    categorySlug: 'phishing',
+    country: 'IN',
+    alertLevel: 'high',
+    sources: ['Press Information Bureau Fact Check, Government of India', 'Reserve Bank of India (RBI)'],
+    sourceUrl: 'https://www.newsonair.gov.in/pib-fact-check-warns-of-scam-using-fake-rbi-message',
+  },
+  {
+    name: 'Indian Fake India Post ₹20,000 Giveaway Survey Scam',
+    slug: 'indian-fake-india-post-20000-giveaway-survey-scam',
+    description: `A social media post or forwarded message claims that India Post, the national postal service, is running a lucky-draw or survey giveaway paying out ₹20,000 in cash to participants, and links to a page that asks recipients to answer a short quiz or "eligibility survey" while collecting their name, phone number, address, and sometimes banking details before the promised payout ever arrives — a classic prize-bait phishing technique that trades on the postal service's long-standing public trust. The Press Information Bureau's Fact Check unit debunked the claim on October 26, 2025, stating that it is "completely fake" and that "the Indian Post Office has no connection to any such subsidy or lucky draw," and separately flagged a related wave of fraudulent SMS messages impersonating India Post parcel-delivery notices around the same period. The unit urged the public to be alert to online fraud carried out in the name of a recognized government body, to avoid clicking suspicious links or webpages claiming to offer cash prizes or subsidies, and to verify any purported government scheme only through the department's own official website before entering personal or financial information.`,
+    categorySlug: 'lottery-sweepstakes-scams',
+    country: 'IN',
+    alertLevel: 'medium',
+    sources: ['Press Information Bureau Fact Check, Government of India', 'India Post'],
+    sourceUrl: 'https://www.newsonair.gov.in/government-debunks-fake-post-claiming-%E2%82%B920000-giveaway-by-indian-post/',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
