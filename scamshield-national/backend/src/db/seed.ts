@@ -4774,10 +4774,9 @@ Wild was hanged at Tyburn on May 24, 1725, before a large and hostile crowd that
     slug: 'marconi-scandal-insider-trading-1912',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Marconi_wireless_station_and_aerials_(Rankin_Kennedy,_Electrical_Installations,_Vol_V,_1903).jpg?width=1200',
-    coverImageCredit: 'Photo: public domain (published 1903)',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Rufus_Isaacs_-_portrait.jpg?width=1200',
+    coverImageCredit: 'Portrait of Rufus Isaacs (later Marquess of Reading), the Attorney General at the center of the scandal, by Walton Adams, 1910, National Portrait Gallery London (public domain)',
     coverImagePosition: 50,
-    // representative photo — replace with a portrait if found
     body: `In the spring of 1912, Britain's Liberal government was negotiating a contract with the Marconi Wireless Telegraph Company to build a chain of imperial wireless stations linking London to the rest of the empire. The company on the British side of that deal, Marconi's Wireless Telegraph Company, was chaired by Godfrey Isaacs — whose brother, Rufus Isaacs, happened to be the government's Attorney General, one of the most senior law officers in the country. Godfrey also ran a related American firm, the Marconi Company of America, which had no direct stake in the British government contract but whose share price stood to rise sharply on the news of it, since the two companies were widely and reasonably assumed by the public to be the same business.
 
 In April 1912, before the British contract had been publicly announced, Godfrey Isaacs offered his brother Rufus a block of American Marconi shares. Rufus turned some down but bought 10,000 himself, then sold half to Chancellor of the Exchequer David Lloyd George and passed more to Liberal Chief Whip Alexander Murray and to the Master of Elibank; all three ministers bought in at around £2 a share days before the stock's public listing, then watched it climb toward £4 as the government contract news spread. When rumors of ministerial share-dealing reached Parliament that summer, Isaacs and Lloyd George gave a public denial so narrowly worded — insisting they had never touched shares in "the Marconi Company," meaning only the British firm — that it was later seen as deliberately misleading about their very real dealings in its American affiliate.
@@ -6640,10 +6639,9 @@ Her downfall came from a smaller theft: caught stealing a silver tankard, Carlet
     slug: 'chicago-may-queen-of-crooks',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Detroit_Michigan.jpg?width=1200',
-    coverImageCredit: 'Photo: Derek Gauci (CC BY-SA 4.0)',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Chicago_May_1928_press_photo.jpg?width=1200',
+    coverImageCredit: 'Photo: ACME Newspictures, 1928 (public domain — PD-US-not renewed)',
     coverImagePosition: 50,
-    // representative photo — replace with a portrait if found
     body: `Mary Anne Duignan was born on December 26, 1871, in Edenmore, Ballinamuck, County Longford, Ireland, and left home for good at nineteen after stealing her parents' life savings — around £60 — to fund passage to Britain and, soon after, to New York. She drifted to Chicago in 1893 to work the crowds drawn by the World's Columbian Exposition, and it was there, working as a prostitute alongside a partner who robbed clients while she distracted them, that she learned the trade that would define the rest of her life and earn her the nickname that stuck for good: Chicago May.
 
 A brief marriage to a man named Jim Sharpe left her with the name May Churchill Sharpe, which she kept using long after the marriage itself ended, and she spent the following years graduating from pickpocketing and petty theft into more organized confidence rackets, working what was known as the badger game — luring wealthy men into compromising situations, then extorting them with the threat of exposure — across the United States, Britain, and continental Europe. Her criminal partnership with bank robber Eddie Guerin escalated her operations considerably: together they helped plan a robbery of the American Express office in Paris, for which she served prison time, and by her own later account she ran schemes across nine countries and four continents. In London her reputation reached the point that a besotted aristocrat, Sir Sidney Hamilton Gore, reportedly proposed marriage to her before shooting himself.
