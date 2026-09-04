@@ -32742,6 +32742,42 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'Anchorage Tycoon Trading Foreign-Currency Investment Fraud',
+    slug: 'alaska-anchorage-tycoon-trading-forex-ponzi-scheme',
+    description: `Garrett Elder ran Tycoon Trading LLC and a related entity, the Daily Bread Fund LLC, out of Anchorage, Alaska, soliciting friends, acquaintances, and members of his own church community between 2016 and October 2022 to hand over money for him to invest in stocks and foreign currency trading. Elder told investors he used a proprietary trading strategy that could generate reliable, often extraordinary returns, and for a time produced account statements and made periodic payouts that made the arrangement look legitimate, but according to federal prosecutors he was not consistently trading with the money at all — instead using new investors' funds to pay earlier investors and to cover his own personal expenses, and in some cases keeping money without ever taking any trading position with it. The scheme ultimately took in more than $26 million from at least 177 victims across Alaska before it collapsed, with many victims losing retirement savings or life savings to a man they had trusted as a friend or fellow churchgoer. Elder was criminally charged by the U.S. Attorney's Office for the District of Alaska in March 2023, pleaded guilty to one count of wire fraud in May 2023, and on November 13, 2023 was sentenced by U.S. District Judge Joshua Kindred to 10 years in federal prison followed by three years of supervised release, along with an order to pay $26 million in restitution to his victims. Announcing the sentence, prosecutors pointed to the case as a warning that an investment manager's personal or social connections, including a shared church or community, are not a substitute for verifying credentials and licensing, and that guaranteed or unusually consistent high returns from an unregistered "trading strategy" should prompt investors to check with the Alaska Division of Banking and Securities before handing over any money.`,
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    state: 'AK',
+    alertLevel: 'high',
+    sources: ['U.S. Attorney\'s Office for the District of Alaska', 'Anchorage Daily News', 'Alaska\'s News Source'],
+    sourceUrl: 'https://www.justice.gov/usao-ak/pr/us-attorney-alaska-announces-sentence-26m-investment-fraud-scheme-discusses-financial',
+  },
+  {
+    name: 'Lander Wyoming Catholic College CFO CARES Act Grant Fraud',
+    slug: 'wyoming-lander-mccown-cares-act-grant-fraud',
+    description: `Paul McCown, chief financial officer of Wyoming Catholic College in Lander, Wyoming, was in the process of trying to start a personal gin distillery business on the side when the State of Wyoming began distributing federal Coronavirus Aid, Relief, and Economic Security (CARES) Act relief funds to Wyoming businesses hurt by the pandemic through the Wyoming Business Council. According to the U.S. Attorney's Office for the District of Wyoming, McCown applied for and fraudulently obtained $841,863 in CARES Act relief grants for the distillery even though it had never sold any product, using forged documents and false statements to make the nonexistent business look like a going concern eligible for pandemic aid meant for real struggling Wyoming employers. When an audit began exposing the fraud, McCown escalated rather than stopped, impersonating other people and forging additional documents in an attempt to fraudulently induce a financial management firm, Ria R Squared, Inc., into loaning him $15 million. A federal grand jury indicted McCown, and he pleaded guilty in March 2022 to seven counts of wire fraud; on July 5, 2022, Chief U.S. District Judge Scott W. Skavdahl sentenced him to 63 months in federal prison followed by three years of supervised release for defrauding both the state's pandemic relief program and the private lender. The case is one of dozens the U.S. Attorney's Office for the District of Wyoming has prosecuted involving CARES Act and other pandemic-relief fraud, and it illustrates how emergency public-benefit programs distributed quickly, with limited up-front verification, can be exploited even by trusted insiders such as a college's own finance chief — a reminder that grant funds tied to a business's real operations are routinely subject to after-the-fact audit, and that fabricating a business's sales or activity to qualify for public relief money is a federal crime carrying years in prison and full restitution.`,
+    categorySlug: 'public-benefits-fraud',
+    country: 'US',
+    state: 'WY',
+    alertLevel: 'high',
+    sources: ['U.S. Attorney\'s Office for the District of Wyoming', 'Sheridan Media', 'InsuranceNewsNet'],
+    sourceUrl: 'https://www.justice.gov/usao-wy/pr/lander-man-sentenced-63-months-imprisonment-wire-fraud-relating-cares-act-stimulus',
+  },
+  {
+    name: 'Chittenden Solid Waste District Fake-Invoice Business Email Compromise',
+    slug: 'vermont-chittenden-solid-waste-district-bec-scam',
+    description: `In late January 2026, staff at the Chittenden Solid Waste District (CSWD), a public agency in Vermont's Chittenden County managing a new recycling facility construction project, received an email that appeared to come from one of the project's real construction partners, directing the district to redirect upcoming payments to a different bank account. The email was part of a highly sophisticated business email compromise scheme, using a sender address nearly identical to a real member of the construction partner's finance team, complete with that person's actual photo, to make the redirected-payment request look like ordinary routine correspondence. CSWD's finance director, believing the instructions were legitimate, wired more than $3 million in two roughly $1.5 million payments in late February 2026 into the fraudulent account. About a week later the district discovered the payments had gone to scammers rather than its actual contractor, and immediately notified the FBI and Citibank, which froze the account before the fraudsters could withdraw everything; by that point roughly $750,000 had already been withdrawn or spent. The U.S. Attorney's Office for the District of Vermont and the FBI worked to trace and seize the remaining funds, obtaining a judgment of forfeiture for $2,270,202.39, which was returned to CSWD in July 2026, keeping the recycling facility project on track despite the loss. The case is a reminder that any request to change payment or wiring instructions for an existing vendor or construction contract, even one that appears to come from a known contact's real email address and photo, should be verified by phone using a previously known number before any funds are sent, since business email compromise schemes routinely spoof or closely mimic a genuine contact's identity to redirect large payments.`,
+    categorySlug: 'business-email-compromise',
+    country: 'US',
+    state: 'VT',
+    alertLevel: 'high',
+    sources: ['U.S. Attorney\'s Office for the District of Vermont', 'FBI', 'VTDigger', 'Seven Days', 'WCAX'],
+    sourceUrl: 'https://www.justice.gov/usao-vt/pr/over-2-million-stolen-funds-recovered-us-attorneys-office-and-fbi',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
