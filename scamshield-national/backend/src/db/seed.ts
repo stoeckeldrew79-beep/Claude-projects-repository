@@ -8820,6 +8820,48 @@ Picower's case stands apart from other Madoff associates precisely because he wa
   },
 );
 
+NOTORIOUS_ARTICLES.push(
+  {
+    title: 'Annette Bongiorno: The Secretary Who Ran the Back Office of Madoff\'s Fraud',
+    slug: 'annette-bongiorno-madoff-back-office-manager',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Daniel_Patrick_Moynihan_U.S._Courthouse,_Manhattan,_New_York_(7237347688).jpg?width=1200',
+    coverImageCredit: 'Photo by Ken Lund, Wikimedia Commons (CC BY-SA 2.0) — the Daniel Patrick Moynihan U.S. Courthouse in Manhattan, where Annette Bongiorno was tried and convicted in 2014',
+    coverImagePosition: 50,
+    body: `Annette Bongiorno joined Bernard Madoff's investment firm in 1968, straight out of high school in Ozone Park, Queens, at age 19, with no background in finance and, according to her own later account, no understanding of how the stock market worked. Over the next four decades she rose from Madoff's personal secretary to become, in effect, the day-to-day operator of the investment-advisory business that turned out to be the largest Ponzi scheme in American history — running the unit that generated fake trade confirmations and account statements for thousands of individual client accounts, including Madoff's own family and friends.
+
+Bongiorno's specific method was to fabricate historical trades after the fact: she and colleagues used old stock-price tables to select advantageous past prices, then generated backdated buy and sell confirmations showing that a client's account had made well-timed trades it never actually made. The resulting statements showed steady, market-beating returns year after year, feeding the illusion that sustained a fraud the trustee overseeing Madoff's estate later estimated cost investors roughly $20 billion in principal. Bongiorno grew wealthy doing it, drawing an income far beyond what a legitimate bookkeeper would earn and maintaining homes in Manhasset, New York, and Boca Raton, Florida.
+
+She was arrested in 2010 alongside fellow back-office employee JoAnn Crupi, following the cooperation of Madoff's finance chief, Frank DiPascali, who pleaded guilty and testified against his former colleagues. Bongiorno, Crupi, and three other former Madoff staffers — Daniel Bonventre, Jerome O'Hara, and George Perez, collectively dubbed the "Madoff Five" by the press — went to trial in October 2013. After nearly six months of testimony, a jury convicted Bongiorno in March 2014 on securities fraud, falsifying the books and records of a broker-dealer, conspiracy, and tax fraud charges, rejecting the defense argument that she had simply followed orders without understanding she was committing a crime.
+
+At sentencing in December 2014, U.S. District Judge Laura Taylor Swain said Bongiorno's decision to keep following Madoff's instructions for so many years, despite what Swain called her lack of any real competence for the complex work she was doing, was "inexcusable." Prosecutors had asked for roughly 20 years; Swain sentenced her to six, along with a forfeiture order — entered jointly and severally with her co-defendants, in the manner typical of Madoff-related forfeiture judgments meant to reflect the total scale of the fraud rather than what any one defendant personally owes — of more than $155 billion. Bongiorno was released from federal custody in 2020.
+
+Bongiorno's case illustrates a distinct role in a scheme the size of Madoff's: not the man who dreamed it up, and not the outside advisers who profited by looking away, but the employee who built and ran the paperwork machinery that made tens of thousands of fake statements look real, for over forty years, to people who trusted the numbers on the page.`,
+    sourceUrl: 'https://www.justice.gov/usao-sdny/pr/four-employees-bernard-l-madoff-s-fraudulent-investment-advisory-business-sentenced',
+  },
+  {
+    title: 'Manish Lachwani and the Fake Revenue Behind HeadSpin\'s Billion-Dollar Valuation',
+    slug: 'manish-lachwani-headspin-fake-revenue-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Palo_Alto,_California_(City_Hall)_2004.jpg?width=1200',
+    coverImageCredit: 'Photo by Nader Moussa, Wikimedia Commons (CC BY-SA 3.0) — Palo Alto, California, where HeadSpin was headquartered while Manish Lachwani ran the company',
+    coverImagePosition: 50,
+    body: `Manish Lachwani co-founded HeadSpin, a Palo Alto startup that sold mobile-app testing infrastructure to other tech companies, and served as its CEO from 2015 until the company's board removed him in May 2020. Under Lachwani, HeadSpin raised more than $100 million from investors — including Iconiq Capital, Tiger Global, and other prominent venture and growth funds — between April 2017 and April 2020, culminating in a 2020 funding round that valued the company at roughly $1.1 billion, giving it "unicorn" status.
+
+According to the SEC and the U.S. Attorney's Office for the Northern District of California, that valuation rested on numbers Lachwani manufactured. Prosecutors said that from at least 2018 through 2020 he personally controlled HeadSpin's sales and financial reporting, isolated employees across departments so no one could see the full picture, and fabricated customer contracts and revenue figures to inflate the company's annual recurring revenue. In one example cited by the SEC, Lachwani told investors a major ride-share company had committed to roughly $1.44 million a year in business, when in reality that customer had made a single one-time purchase of $720,000 in 2018 with no ongoing commitment — a gap Lachwani closed by creating fabricated invoices. When HeadSpin's board finally investigated in 2020, it found the company's actual annual recurring revenue was closer to $10 million, not the roughly $80 million Lachwani had reported to investors; the company's valuation was subsequently marked down from $1.1 billion to about $300 million.
+
+Lachwani did not just inflate numbers on paper — prosecutors said he personally profited from the inflated valuation, selling $2.5 million of his own HeadSpin shares in a 2019 funding round while misrepresenting the company's performance to the investors buying in. The SEC filed civil fraud charges against him in August 2021, and the Justice Department brought parallel criminal charges for wire fraud and securities fraud the same year.
+
+Lachwani pleaded guilty in April 2023 to two counts of wire fraud and one count of securities fraud. On April 22, 2024, a federal judge in the Northern District of California sentenced him to 18 months in prison, followed by three years of supervised release, and ordered him to pay a $1 million fine.
+
+The HeadSpin case is a compact illustration of how startup fraud works at the venture-capital stage: rather than lying to individual retail investors, Lachwani lied to sophisticated institutional funds conducting their own due diligence, using doctored invoices and a company structure designed so that no single employee — other than Lachwani himself — ever saw enough of the real numbers to catch the gap between what HeadSpin reported and what it actually earned.`,
+    sourceUrl: 'https://www.justice.gov/usao-ndca/pr/silicon-valley-start-founder-sentenced-18-months-prison-wire-fraud-and-securities',
+  },
+);
+
 // Practical "how it works / red flags / what to do" guides covering the
 // major scam categories, the same kind of coverage the FTC's Consumer
 // Advice site and AARP's Fraud Watch Network publish — well-documented
