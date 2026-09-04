@@ -15944,6 +15944,47 @@ Anyone who has already clicked a suspicious unsubscribe link should look at what
   },
 );
 
+GUIDE_ARTICLES.push(
+  {
+    title: 'Fake Rental Listings During a Military PCS Move: Why Families Ordered Cross-Country Are a Favorite Target',
+    slug: 'military-pcs-move-rental-scam-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'military-pcs-rental-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/For-rent-sign.jpg?width=1200',
+    coverImageCredit: 'Public domain, via Wikimedia Commons',
+    coverImagePosition: 50,
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2026/07/how-spot-fake-rental-listings-during-military-move',
+    body: `Permanent Change of Station orders don't leave much room for a leisurely house hunt. A service member gets weeks, not months, to find housing at a new duty station that might be a thousand miles away or overseas, often while still working full days at the old post and unable to fly out for a weekend of touring apartments in person. That combination — a hard deadline, a market the family has never seen in person, and a strong incentive to lock something down fast — is exactly the setup the FTC warned about in a July 2026 consumer alert focused specifically on rental scams during military moves.
+
+The scam itself follows the same basic playbook as any fake rental listing, but the FTC's alert flags why military families get hit harder by it than most renters. Scammers build convincing listings two ways: by fabricating a property that doesn't exist or isn't actually for rent, or by stealing photos from a real listing and reposting them elsewhere with different contact information, so a search for the real address turns up the same unit listed twice, once by the actual landlord and once by the scammer underneath it. The fake version is usually priced below market to draw attention fast, and when a renter asks to tour it, the scammer has a ready excuse — deployed, traveling, the current tenant hasn't moved out yet — that a family calling from across the country or another continent has no way to independently check.
+
+The FTC's broader December 2025 data on rental fraud shows how much money this pattern moves even outside the military context: consumers have reported nearly 65,000 rental scams since 2020, totaling roughly $65 million in losses, with a median loss around $1,000 per report — and about half of victims said the fake listing first reached them through Facebook, with another sixth pointing to Craigslist. Because most rental scams are never reported at all, the FTC treats that figure as a floor, not a ceiling. Military families layer extra urgency and extra distance on top of an already common scam, which is precisely why the agency called them out with a dedicated alert rather than folding the warning into its general rental-scam guidance.
+
+The payment request is where a fake listing turns into an irreversible loss. The FTC's alert singles out cash, gift cards, cryptocurrency, and wire-transfer services like Western Union or MoneyGram as the methods scammers push for specifically because none of them can be clawed back once sent — a landlord who insists on one of these instead of a check, a credit card, or a reputable rental platform's own payment system is asking for money in a form no bank or regulator can help recover. Red flags the FTC lists alongside that payment pressure include the same property showing up under a different price or a different landlord's name elsewhere online, any refusal or repeated excuse to avoid an in-person tour, and pressure to wire a deposit or first month's rent within hours to "hold" the unit against other interested renters.
+
+Before sending money on any listing found from a distance, search the property's exact address alongside terms like the landlord's name to check whether it's posted more than once at different prices — a legitimate discrepancy is rare, and a duplicate listing with different contact information is close to definitive proof of a scam. Request an in-person tour, or ask a trusted friend, relative, real estate agent, or fellow service member already in the area to view the unit and meet the landlord on the family's behalf before any money changes hands. Every major military installation has a relocation or housing referral office that maintains vetted local rental listings specifically to give incoming families an alternative to search results and social media groups — contacting that office before signing anything is free and takes the guessing out of an unfamiliar market. Suspected rental scams can be reported to the FTC at ReportFraud.ftc.gov and to the state attorney general's office in the state where the property is located.`,
+  },
+  {
+    title: 'The Fake Check Scam Targeting Licensed Daycares and Home Childcare Providers',
+    slug: 'childcare-provider-fake-check-scam-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'childcare-provider-check-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Kids_at_daycare.jpg?width=1200',
+    coverImageCredit: 'Photo: Grant Barrett, CC BY 2.0, via Wikimedia Commons',
+    coverImagePosition: 50,
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2026/05/fake-check-scam-targets-childcare-providers',
+    body: `A licensed in-home daycare or a small childcare business advertises open enrollment spots the ordinary way — a listing on a caregiving platform, a post in a local parents' group, a sign out front — and gets a message from someone who says they're relocating to the area, often from overseas, and need to enroll their child right away. There's no time for the usual intake process, the message explains, but that's fine: they'll pay in advance to hold the spot.
+
+The FTC issued a consumer alert in 2026 describing exactly this pattern aimed specifically at childcare providers, distinct from the more familiar version of the scam that targets someone applying for a nanny or babysitting job. Here the provider is already the established business, and the scammer poses as an incoming customer rather than an employer. A check arrives that's deliberately larger than the quoted fee — described by the FTC as "for more than you expected" — and the sender follows up with an apologetic explanation: they overpaid by mistake, and could the provider please send the difference back, usually by wire transfer, a payment app, a gift card, or cryptocurrency. The FTC's guidance is blunt about what that combination means: "If someone sends you a check and then asks you to send part of the money back, treat it as a scam."
+
+The mechanism works because of a timing gap that has nothing to do with how careful the provider is. A bank is required to make deposited funds provisionally available within a day or two under federal rules, but actually verifying that a check is genuine — confirming the account it's drawn on is real and funded — can take a week or longer to come back as a bounced check. By the time it does, any money already wired back to the "parent" is gone for good, and the provider owes the bank the full amount of the check that never should have cleared in the first place, on top of whatever they already spent preparing for a child who was never coming.
+
+Red flags line up closely with other fake-check scams but carry a few tells specific to this version: a prospective family who insists on immediate enrollment while skipping the provider's normal intake process, application, or reference check; anyone who claims to be moving from out of state or overseas and wants to pay before ever verifying the provider's information or meeting in person; a check for more than the agreed fee paired with a request to return the difference; and communication that stays limited to text, email, or a caregiving app with no phone call and no willingness to video chat.
+
+Never deposit a check and then wire, gift-card, or otherwise send back any portion of it, regardless of how the overpayment is explained — a bank showing funds as "available" is not proof the check has cleared. Insist on completing your normal enrollment and payment process, including speaking by phone, before accepting funds from anyone claiming they need immediate placement, and ask your bank to verify a check directly with the issuing bank before treating any of it as spendable. Report a suspected childcare provider check scam to the FTC at ReportFraud.ftc.gov and to the U.S. Postal Inspection Service at uspis.gov if the check arrived by mail.`,
+  },
+);
+
 async function seedArticles(articles: SeedArticle[], label: string) {
   for (const article of articles) {
     await pool.query(
