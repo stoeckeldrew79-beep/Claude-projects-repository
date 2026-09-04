@@ -31831,6 +31831,43 @@ SEED_SCAMS.push(
   },
 );
 
+// Sixth push() batch — same TS2590 array-size workaround described above.
+SEED_SCAMS.push(
+  {
+    name: 'Hyattsville Elderly-Targeted Lottery Advance-Fee Scheme',
+    slug: 'maryland-hyattsville-lottery-advance-fee-scheme',
+    description: `Keno Romario Brown, 26, of Hyattsville, Maryland, ran a scheme beginning around April 2013 in which he and co-conspirators called victims across the country and falsely told them they had won a lottery or sweepstakes prize, then demanded advance payment of supposed "taxes" or processing fees before the winnings could be released. More than 100 victims — nearly all of them elderly — sent money by mail or wire in response to the calls, which was collected by "runners" who funneled the cash back to Brown; he also used stolen personal information belonging to elderly victims to obtain debit cards in their names without their consent, using the cards to launder the fraud proceeds. A federal jury sitting in Greenbelt, Maryland convicted Brown on March 12, 2020 of conspiracy to commit mail and wire fraud, wire fraud, and mail fraud, and on May 6, 2021, U.S. District Judge George J. Hazel sentenced him to eight years in federal prison plus three years of supervised release and ordered him to pay $775,225.48 in restitution to his victims. "Brown perpetrated a heartless scheme targeting more than 100 elderly victims," said then-Acting U.S. Attorney for the District of Maryland Jonathan F. Lenzner, while the FBI's Baltimore field office and a U.S. Postal Inspector involved in the case both stressed the scheme's deliberate targeting of vulnerable, older residents. A real lottery or sweepstakes never requires a winner to pay any fee, tax, or "processing charge" up front to collect a prize — that demand is itself the scam, and anyone who receives such a call should hang up, never send money or personal information to claim a prize, and encourage an elderly relative or neighbor who mentions an unexpected "winnings" call to verify it with a trusted family member before responding.`,
+    categorySlug: 'lottery-sweepstakes-scams',
+    country: 'US',
+    state: 'MD',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office for the District of Maryland", 'FBI Baltimore Field Office', 'CBS News Baltimore'],
+    sourceUrl: 'https://www.justice.gov/usao-md/pr/fraudster-who-scammed-more-100-elderly-victims-more-775000-through-lottery-scheme',
+  },
+  {
+    name: 'Parma Fake Gold-Inheritance Romance Fraud Conspiracy',
+    slug: 'ohio-parma-gold-inheritance-romance-fraud',
+    description: `From December 2017 through March 2024, an international fraud conspiracy that included Abdoul Issaka Assimiou, 38, of Parma, Ohio, built fake personas on dating websites and social media platforms to strike up romantic relationships with older victims across the country, then used fabricated stories — including false claims about a gold inheritance that needed help being unlocked or transported — to convince victims to wire money into accounts the conspirators controlled. Assimiou pleaded guilty in October 2025 in the U.S. District Court for the Northern District of Ohio to conspiracy to commit wire fraud and money laundering, and U.S. District Judge John R. Adams sentenced him to 63 months in federal prison plus three years of supervised release, ordering him to pay $220,485 in restitution to the 15 identified victims of his portion of the scheme. The case was investigated by the FBI's Cleveland Division and prosecuted under the Elder Abuse Prevention and Prosecution Act of 2017, part of a broader Northern District of Ohio effort against romance-scam networks that build trust over months before introducing a financial "emergency" only the victim can solve by sending money. Anyone building an online relationship with someone they have never met in person should be skeptical of any story that leads to a request for money — including inheritances, gold, or other assets that supposedly need funds to be released — and should stop contact and report the account to the platform and to the FBI's Internet Crime Complaint Center (IC3.gov) the moment money is requested.`,
+    categorySlug: 'romance-scams',
+    country: 'US',
+    state: 'OH',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office for the Northern District of Ohio", 'FBI Cleveland Division', 'Highland County Press'],
+    sourceUrl: 'https://highlandcountypress.com/headlines/ohio-man-sentenced-prison-fraud-conspiracy-targeted-elderly',
+  },
+  {
+    name: 'Upstate Law Group Veterans\' Pension-Assignment Investment Fraud',
+    slug: 'south-carolina-upstate-law-group-veterans-pension-fraud',
+    description: `Candy Kern, 55, of Anderson, South Carolina, was the managing partner of Easley-based Upstate Law Group, which from approximately 2012 through 2021 ran a nationwide "structured cash flow" scheme that paired two groups of victims: financially struggling military veterans, who were offered an upfront lump sum in exchange for signing over their monthly pension or disability payments for a fixed period, and retiree investors, who were sold those same veterans' payment streams as a supposedly safe investment paying roughly 8% returns. Kern knew the underlying pension assignments were void under federal law, which bars veterans from signing away their benefits this way, but processed the contracts anyway and, when veterans fell behind or refused to keep paying, used her law firm to sue them and win default judgments — roughly $14 million in veterans' benefits flowed through accounts her firm controlled, and one Iraq War veteran alone lost nearly $75,000. The scheme's investor side collapsed the underlying paper's value once the veteran assignments' illegality became clear, contributing to more than $31 million in total losses to veterans and retiree investors nationwide. Kern pleaded guilty to conspiracy in April 2023 and was sentenced that August to five years of probation and roughly a year and a half of home detention, and ordered to pay more than $3.5 million in restitution and $560,000 in fines; on June 20, 2024, the South Carolina Supreme Court unanimously disbarred her, citing "egregious misconduct." Veterans considering a lump-sum offer for their pension or disability benefits should know federal law makes such assignments void and unenforceable, and retirees offered a fixed high return backed by "veteran payment streams" or similar income products should verify the arrangement's legality with the VA or a lawyer with no financial stake in the deal before investing.`,
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    state: 'SC',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office for the District of South Carolina", 'The Post and Courier', 'Stars and Stripes'],
+    sourceUrl: 'https://www.postandcourier.com/greenville/news/candy-kern-disbarred-upstate-law-group-fraud-veterans-south-carolina/article_9510127e-2f13-11ef-8d88-f71d0eea3c22.html',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
