@@ -82,10 +82,14 @@ if (!existsSync(envPath)) {
   console.log('\nbackend/.env already exists — leaving it as is.');
 }
 
+// --no-audit keeps setup off npm's audit endpoint, which can hang for minutes
+// on a slow or filtered connection. Run `npm audit` yourself when you want it.
+const install = ['install', '--no-audit', '--no-fund'];
+
 // The root package holds `concurrently`, which `npm run dev` needs.
-run('npm', ['install'], root);
-run('npm', ['install'], path.join(root, 'backend'));
-run('npm', ['install'], path.join(root, 'frontend'));
+run('npm', install, root);
+run('npm', install, path.join(root, 'backend'));
+run('npm', install, path.join(root, 'frontend'));
 run('npm', ['run', 'migrate'], path.join(root, 'backend'));
 run('npm', ['run', 'seed'], path.join(root, 'backend'));
 
