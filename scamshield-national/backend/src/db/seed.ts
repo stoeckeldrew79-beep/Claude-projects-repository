@@ -16104,6 +16104,45 @@ Red flags worth treating as a hard stop include any presenter who claims a livin
   },
 );
 
+GUIDE_ARTICLES.push(
+  {
+    title: 'The Fake "Federal Property Tax Relief" Video: Why There\'s No IRS Form That Freezes Your Bill',
+    slug: 'fake-federal-property-tax-relief-form-scam-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'property-tax-relief-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Tattnall%20County%20Tax%20Commissioner%2C%20Tag%20Office%2C%20Tax%20Assessor.jpg?width=1200',
+    coverImageCredit: 'Photo: Michael Rivera (Mjrmtg), CC BY-SA 4.0, via Wikimedia Commons',
+    coverImagePosition: 50,
+    sourceUrl: 'https://lacounty.gov/2026/09/03/county-officials-warn-property-owners-about-fake-property-tax-relief-scam/',
+    body: `A slickly produced video shows up in a social media feed or a YouTube recommendation, promising that homeowners — especially seniors — can freeze or slash their property tax bill by filing a little-known federal form. The pitch sounds bureaucratic enough to be real: a specific form number, references to a program supposedly passed by Congress, and instructions to take the request straight to the local county assessor's or auditor's office. None of it holds up, but by the time officials get ahead of one version, another is already circulating somewhere else.
+
+Los Angeles County officials issued a consumer alert on September 3, 2026, after fielding a wave of inquiries about a claim spreading through social media, online videos, and phone solicitations: that property owners can reduce or freeze their tax bill, and even sidestep local school bonds, by filing a nonexistent federal IRS "Form 1098-SR." County Assessor Jeff Prang put it bluntly: "There is no federal 1098-SR form that freezes or reduces your property taxes," adding that "no legitimate property tax program requires you to file a mysterious federal form you learned about through social media." As the alert stresses, the federal government has no role in setting, capping, or freezing local property tax assessments in the first place — property taxes are governed by state law and administered by local and county government, not Washington.
+
+The same underlying hoax, dressed up slightly differently, has been popping up county by county for months. In Colorado, the Douglas County Assessor's Office warned residents about a viral video spreading false claims of a federal property tax relief program that doesn't exist. In Ohio, Hamilton County Auditor Jessica Miranda reported in August 2026 that a roughly 30-minute AI-generated video circulating on YouTube told viewers they qualified for a "decade or generational property tax break" tied to the year they were born, supposedly authorized by Congress, and directed them to request specific IRS and federal forms from their county auditor's office. The video prompted enough calls that the Auditors Association of Ohio flagged it and got it taken down — but its retreat from one platform doesn't mean the claim won't resurface in a new video with a new form number aimed at a different state.
+
+What makes this pitch effective is that it borrows the texture of something real. Legitimate property tax relief programs genuinely do exist — homestead exemptions for a primary residence, senior or disability exemptions, and assessment freezes for qualifying low-income or elderly homeowners are all real options in many states — which is exactly why a fabricated federal program can sound plausible layered on top of them. The difference is that real relief programs are created and administered under state law, applied for directly through your own county assessor or auditor's office using that office's own forms, and never require submitting a form you first heard about in a social media video or an unsolicited phone call.
+
+Before acting on any property tax "savings" tip encountered online, verify it directly with your county assessor's or tax collector's office using a phone number or website looked up independently — never one provided in the video, text, or call itself. Treat any pitch describing a "secret," "guaranteed," or newly discovered federal program as a red flag on its own, since real government relief programs don't rely on word-of-mouth virality to reach eligible homeowners. Never provide a Social Security number, bank account information, or a payment to anyone soliciting you about property tax relief before confirming independently that the program is real. If you've already been contacted or have information about one of these schemes, report it to your county assessor's office and to your state attorney general's consumer protection division.`,
+  },
+  {
+    title: 'Fake Travel Team Camps: How a Trusted Youth Sports Coach Became a $60,000 Fraud Scheme',
+    slug: 'youth-sports-travel-camp-scam-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'youth-sports-travel-camp-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Children%20playing%20soccer.jpg?width=1200',
+    coverImageCredit: 'Photo: Bill Branson, National Cancer Institute, public domain, via Wikimedia Commons',
+    coverImagePosition: 50,
+    sourceUrl: 'https://fcpdnews.org/2026/07/14/soccer-coach-charged-with-embezzlement-and-computer-fraud/',
+    body: `A coach families already knew — someone employed by their child's real, established soccer club — announces a new opportunity: a travel camp abroad, with training and matches against clubs overseas. It isn't run through the club itself, but the coach's existing role there is exactly what makes the pitch feel trustworthy enough not to ask too many questions before writing a check.
+
+Fairfax County, Virginia police charged 31-year-old Ahmed Mohamed in June 2026 with 13 counts of embezzlement and 13 counts of computer fraud after investigators said he used a company he created in December 2025, "Sporting Soccer Academy," to sell families on a summer travel camp in Italy that never happened. Mohamed was employed by the Alexandria Soccer Association at the time and used that connection to reach some of the families he's accused of defrauding, according to police; the association later stated publicly that "his actions were not authorized by ASA and were unrelated to his responsibilities with the organization or any ASA-sponsored program or activity." Investigators said victims paid between $2,000 and $12,000 apiece between roughly November 2025 and March 2026, with total losses reaching close to $60,000 across at least 13 confirmed victims. Court documents cited by local reporting said the Italian soccer club Mohamed claimed to be arranging the trip through told investigators he had never made any reservations or payments with them at all — the camp, lodging, and match schedule existed only in the pitch to parents.
+
+The pattern in this case is a common one behind youth sports travel and camp fraud generally: a coach, instructor, or organizer who already has a legitimate relationship with families — through a real school, league, or club — starts marketing a separate program that trades on that existing trust, collects payment directly rather than through the affiliated organization's own accounts, and either delivers nothing or something far short of what was promised. Because the fraud rides on a real relationship rather than a cold pitch from a stranger, it tends to bypass the skepticism families would normally apply to an unfamiliar company.
+
+Before paying for any travel camp, tournament, or trip pitched by a coach or instructor, confirm in writing — directly with the school, league, or club whose name or reputation is attached to the pitch — whether the program is actually affiliated with or sanctioned by that organization, since a coach's employment there doesn't automatically mean a side program they're separately selling is endorsed by it. Insist that payment go to the organization's own account or a verifiable business entity rather than an individual's personal account or app, ask for a written, itemized contract covering the exact travel, lodging, and activity arrangements along with a cancellation and refund policy, and independently contact the destination camp, club, or venue named in the pitch to confirm a reservation actually exists before sending a final payment. Be wary of enrollment deadlines that pressure a quick decision, and check an organizer's business registration and any complaint history with your state attorney general's office or the Better Business Bureau before committing. If you believe you've been defrauded by a youth sports program, report it to your local police department's financial crimes unit and to the Better Business Bureau's Scam Tracker.`,
+  },
+);
+
 async function seedArticles(articles: SeedArticle[], label: string) {
   for (const article of articles) {
     await pool.query(
