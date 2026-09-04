@@ -8661,6 +8661,45 @@ The scale of Shah's case is what sets it apart even within a scandal that Europe
   },
 );
 
+NOTORIOUS_ARTICLES.push(
+  {
+    title: 'James Velissaris and the $3 Billion Hedge Fund Built on Invented Numbers',
+    slug: 'james-velissaris-infinity-q-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Thurgood_Marshall_Courthouse,_10.14.17.jpg?width=1200',
+    coverImageCredit: 'Photo by TJ Bickerton, Wikimedia Commons (CC BY-SA 4.0) — the Thurgood Marshall U.S. Courthouse in Manhattan, home of the Southern District of New York, where Velissaris was sentenced',
+    coverImagePosition: 50,
+    body: `James Velissaris founded Infinity Q Capital Management in New York and served as its chief investment officer, building a mutual fund (the Infinity Q Diversified Alpha Fund) and a companion hedge fund that together told investors they held roughly $3 billion in assets under management. The funds' pitch was sophistication itself: a complex options-and-derivatives strategy designed to profit in both rising and falling markets, priced daily using values Infinity Q said came from independent, arm's-length sources.
+
+They didn't. According to the Justice Department and the SEC, Velissaris spent years secretly overriding the fair-value prices that outside pricing services returned for the funds' over-the-counter derivative positions, replacing them with inflated numbers he generated himself — sometimes using a spreadsheet he'd built specifically to produce the values he wanted rather than the values the market actually supported. The scheme accomplished two things at once: it hid mounting losses inside funds marketed as steady performers, and it inflated the assets under management and paper returns that determined Velissaris's own fees and bonuses.
+
+The fund's board caught the discrepancy in February 2021, froze redemptions, and brought in an outside firm to reprice the portfolio — at which point the true scale of the overstatement became public and the Infinity Q Diversified Alpha Fund was ultimately liquidated, wiping out value for the retail and institutional investors who had bought in on the strength of numbers Velissaris had made up. He was charged criminally in February 2022, pleaded guilty to securities fraud in November 2022, and was sentenced by U.S. District Judge Denise Cote in the Southern District of New York on April 10, 2023, to 15 years in prison, three years of supervised release, and roughly $22 million in forfeiture. The Second Circuit later upheld his guilty plea on appeal.
+
+Velissaris's fraud is a reminder that a fund manager doesn't need a nonexistent product or a stack of forged bank statements to defraud investors — control over how your own fund's most illiquid, hardest-to-verify assets get priced each day is, on its own, enough to manufacture years of fake performance, right up until someone outside the firm finally checks the math.`,
+    sourceUrl: 'https://www.justice.gov/usao-sdny/pr/founder-and-former-chief-investment-officer-infinity-q-sentenced-15-years-prison',
+  },
+  {
+    title: 'Matthew Beasley and the $519 Million Las Vegas Ponzi Scheme That Ended in FBI Gunfire',
+    slug: 'matthew-beasley-las-vegas-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Lloyd_D._George_Courthouse.jpg?width=1200',
+    coverImageCredit: 'Photo by Daniel Lobo, Wikimedia Commons (CC0) — the Lloyd D. George U.S. Courthouse in Las Vegas, where Matthew Beasley was prosecuted',
+    coverImagePosition: 50,
+    body: `Matthew Beasley was a practicing Las Vegas attorney when, prosecutors say, he and business partner Jeffrey Judd began operating a scheme — court filings refer to it by the two men's initials, "J&J" — pitched as short-term litigation funding: investor money would be lent to personal-injury plaintiffs, often described as slip-and-fall victims, who needed cash while waiting for their lawsuits to settle, in exchange for a cut of the eventual payout. Beasley and Judd told investors the arrangement could pay annual returns around 50 percent. Much of their recruiting ran through their own religious community, drawing heavily on members of The Church of Jesus Christ of Latter-day Saints in Nevada, Utah, Arizona, and California — a classic case of affinity fraud, where shared community trust does the work a stranger's sales pitch couldn't.
+
+From 2017 to 2022, according to federal prosecutors, Beasley helped solicit more than $519 million from over 1,200 investors. There were no real settlement-funding deals behind most of it: the "returns" paid to earlier investors came from money raised from newer ones, the standard Ponzi mechanic dressed up in legal-sounding paperwork from a man whose day job made the pitch sound credible. The SEC sued Beasley, Judd, and several associates in February 2022 and won an emergency asset freeze; federal prosecutors later charged Beasley alongside alleged unregistered promoters Christopher Humphries, Shane Jager, Jason Jongeward, Denny Seybert, and Roland Tanner.
+
+The scheme's collapse became a national story for how it ended: when FBI agents arrived at Beasley's Las Vegas home in March 2022 to execute a search, he answered the door holding a gun, pointed it at his own head, and then raised it toward the agents, who opened fire and wounded him. He survived, was taken into custody, and later filed his own lawsuit against the agents who shot him. In October 2025, Beasley pleaded guilty to five counts of wire fraud; as part of the agreement, prosecutors and Beasley jointly recommended a sentence of 12 to 20 years in prison plus restitution, with formal sentencing scheduled for January 28, 2026.
+
+Beasley's case is a reminder that affinity fraud doesn't require a stranger's confidence trick — some of the most damaging schemes are built entirely on trust that already exists inside a community, run by someone whose professional license and shared faith made "why would he lie to us" feel like a rhetorical question.`,
+    sourceUrl: 'https://www.reviewjournal.com/crime/courts/las-vegas-attorney-pleads-guilty-to-wire-fraud-in-multimillion-dollar-ponzi-scheme-3511955/',
+  },
+);
+
 // Practical "how it works / red flags / what to do" guides covering the
 // major scam categories, the same kind of coverage the FTC's Consumer
 // Advice site and AARP's Fraud Watch Network publish — well-documented
