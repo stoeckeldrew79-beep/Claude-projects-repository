@@ -32709,6 +32709,39 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'NZ Fake QR Code Parking Meter Scam ("Quishing")',
+    slug: 'nz-fake-qr-code-parking-meter-scam',
+    description: `Scammers have been placing fake QR code stickers directly over the genuine payment codes on street parking meters across New Zealand, including in Christchurch (reported by Christchurch City Council in July 2026) and Wellington (reported by police in September 2026), with earlier incidents also logged in Auckland on ParkMate-operated machines. In some cases the meter's screen was deliberately scratched out or covered with permanent marker so a driver in a hurry has no way to pay except by scanning the sticker. Scanning the fake code leads to a convincing lookalike payment page that asks for the expected parking duration and licence plate number before harvesting the victim's credit card details, and in some cases enabling recurring unauthorised charges. New Zealand Police and the affected councils warn that legitimate parking payment is completed only through the official app named on the meter itself (such as ParkMate or PayMyPark) or by tapping a card directly on the meter, never by scanning a sticker attached over the meter's own code, and anyone who has already entered card details on one of these fake pages should contact their bank immediately and report the meter's location to the local council and to Police via 105.`,
+    categorySlug: 'phishing',
+    country: 'NZ',
+    alertLevel: 'high',
+    sources: ['New Zealand Police', 'Christchurch City Council'],
+    sourceUrl: 'https://www.rnz.co.nz/news/crime-and-justice/1244803/fake-parking-qr-codes-discovered-in-wellington',
+  },
+  {
+    name: 'NZ Facebook Marketplace Fake "Payment Received" Phishing Link',
+    slug: 'nz-facebook-marketplace-fake-payment-received-scam',
+    description: `A buyer messaging a seller on Facebook Marketplace in New Zealand claims to have already paid for an item and sends a link to a page showing the payment is "on hold" and needs to be confirmed or "released" before the seller can access it, sometimes styled to look like it comes from NZ Post or another courier. The linked page is a fake login screen that harvests the seller's online banking username and password rather than releasing any real payment, and scammers then use the stolen credentials to make ongoing withdrawals from the victim's account, at times taking small, regular amounts specifically so the loss goes unnoticed for longer. New Zealand Post has publicly confirmed it does not hold or process Facebook Marketplace payments and has no such release mechanism, and Netsafe advises that Marketplace transactions should be completed with cash on pickup or another method within Facebook's own in-app payment system, never through a link sent by a buyer claiming money is waiting to be unlocked.`,
+    categorySlug: 'online-shopping-scams',
+    country: 'NZ',
+    alertLevel: 'medium',
+    sources: ['New Zealand Post', 'Netsafe'],
+    sourceUrl: 'https://www.stuff.co.nz/money/350479158/new-zealand-post-issues-warning-as-payment-scam-circulates-facebook-marketplace',
+  },
+  {
+    name: 'NZ Ministry of Justice Fake Fines Payment Text Scam',
+    slug: 'nz-ministry-of-justice-fake-fines-text-scam',
+    description: `Scam text messages and emails impersonating the New Zealand Ministry of Justice tell recipients they have an overdue court fine and must pay immediately through a link in the message to avoid further penalties or enforcement action. The Ministry of Justice has publicly warned that these scam texts continue to circulate and that genuine Ministry communications about fines always include specific identifying details, such as the recipient's fine or case reference number, which the scam messages typically lack. The Ministry does not send payment links by text message or email, and anyone unsure whether a message about a fine is genuine is urged to hang up on unsolicited calls and instead call the Ministry's own fines call centre directly on 0800 4 FINES (0800 434 637) to verify before paying anything.`,
+    categorySlug: 'government-impersonation',
+    country: 'NZ',
+    alertLevel: 'medium',
+    sources: ['New Zealand Ministry of Justice'],
+    sourceUrl: 'https://www.justice.govt.nz/about/news-and-media/news/text-reminders-about-fines-due/',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
