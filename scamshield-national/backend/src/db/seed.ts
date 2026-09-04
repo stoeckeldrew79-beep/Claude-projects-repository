@@ -32166,6 +32166,43 @@ SEED_SCAMS.push(
   },
 );
 
+// Third push() batch — same TS2590 array-size workaround described above.
+SEED_SCAMS.push(
+  {
+    name: 'Wake County Fake Court "Notice of Default" Toll and Parking Text Scam',
+    slug: 'north-carolina-wake-county-fake-court-notice-toll-parking-scam',
+    description: `Starting in March 2026, North Carolina drivers began receiving text messages formatted to look like an official "Notice of Default" for an unpaid parking or toll violation, complete with a citation to North Carolina statutes, a fabricated case number, a scheduled court date and location, and the names of a judge and clerk of court — none of which are real. Recipients who look closely can spot the tell: even the North Carolina state seal on the notice was AI-generated and doesn't match the real seal's design. The text includes a QR code that, if scanned, is designed to harvest payment information or personal data under the threat of a looming court appearance, license suspension, or additional fines. North Carolina Attorney General Jeff Jackson's office issued a statewide consumer alert about the scheme, warning that it follows a wave of similar fake-DMV and fake-toll text scams the office has tracked since 2024 but escalates the fear factor by inventing an entire fictitious court case rather than just an unpaid ticket. "Scammers are getting more sophisticated, and this fake court notice is designed to scare you into acting fast," the Attorney General's office said. No North Carolina court, the DMV, or the NC Turnpike Authority sends a legal notice, threatens arrest, or demands payment through a text message with a QR code; recipients are advised not to scan the code or reply, to delete the message and block the sender, and to verify any claimed citation directly through the court system's or DMV's own website before ever considering payment.`,
+    categorySlug: 'government-impersonation',
+    country: 'US',
+    state: 'NC',
+    alertLevel: 'high',
+    sources: ["North Carolina Department of Justice (Attorney General's Office)", 'WRAL'],
+    sourceUrl: 'https://ncdoj.gov/consumer-alert-theres-a-new-parking-violation-scam-targeting-north-carolina-drivers/',
+  },
+  {
+    name: 'RentDue Capital $89 Million Fake Day-Trading Fund Fraud',
+    slug: 'utah-rentdue-capital-fake-day-trading-fund-fraud',
+    description: `Matthew Shane Perkins, 47, of Washington City, Utah, ran a trading operation called Forged Oak LLC and marketed himself through RentDue Capital LLC — which recruited investors nationwide through social media, its website, and in-person investor meetings — as a "brilliant trader who consistently beat the market and rarely suffered losing days." From August 2023 through November 2025, Perkins and RentDue's founder deliberately left Perkins's last name off investor-facing materials to hide his history of prior financial failures and regulatory discipline, then kept the money flowing in by handing investors falsified internal accounting records and fabricated brokerage statements showing the fund held more than $133 million in trading profits, when in reality Perkins had lost $77,683,091.96 of the roughly $89 million that more than 200 investors had put in. He used misappropriated investor funds to make a down payment on a home and to buy a cabin, luxury vehicles, and an airplane. Perkins pleaded guilty to one count of wire fraud on February 2, 2026, agreeing to forfeit the cabin, the airplane, several vehicles, and more than $13 million in remaining funds, plus pay $77,683,091.96 in restitution; on September 2, 2026, U.S. District Judge Ann Marie McIff Allen sentenced him in the District of Utah to 180 months (15 years) in federal prison followed by three years of supervised release. The Utah Division of Securities, which investigated the case and issued a public investor alert about RentDue Capital as the scheme was unraveling, urges anyone approached with an investment opportunity promising unusually consistent, low-risk trading returns to independently verify the trader's licensing and disciplinary history through the SEC's Investment Adviser Public Disclosure database or FINRA's BrokerCheck before wiring any money, since a fund's outside marketer vouching for the trader's track record is not independent verification.`,
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    state: 'UT',
+    alertLevel: 'high',
+    sources: ['Utah Division of Securities', "U.S. Attorney's Office for the District of Utah", 'ABC4 Utah'],
+    sourceUrl: 'https://www.justice.gov/usao-ut/pr/southern-utah-man-admits-wire-fraud-89m-investment-scheme-over-200-victims',
+  },
+  {
+    name: 'Fairfax Gift-Card Mule and Counterfeit Baby-Formula Fraud Schemes',
+    slug: 'virginia-fairfax-gift-card-mule-baby-formula-fraud',
+    description: `Sunyu Qian, 31, of Fairfax, Virginia, played the money-mule role in two separate fraud schemes prosecuted out of the Eastern District of Virginia. From November 19, 2020 through August 13, 2023, Qian took part in a criminal organization that called or emailed victims across the United States — mostly older adults — and convinced them to buy gift cards from major retailers and read the card numbers back over the phone; Qian and his co-conspirators then used the stolen gift-card balances to buy high-value electronics, which Qian shipped out to other members of the ring, netting the scheme roughly $1.1 million in unauthorized purchasing power. Separately, from April 19, 2023 through March 23, 2024, Qian ran a retail-fraud scheme of his own, printing counterfeit price tags — for example, relabeling large containers of baby formula normally priced at $62.99 with fake barcodes for 13-ounce cans priced at $4.99 — scanning them at self-checkout to buy the formula far below its real price, and then reselling it in bulk to co-conspirators for cash, defrauding two retailers of at least $124,000. Qian pleaded guilty on May 15, 2024 in the U.S. District Court for the Eastern District of Virginia in Alexandria to one count each of conspiracy to commit access device fraud and conspiracy to commit wire fraud, facing a statutory maximum of 25 years in prison at sentencing. The elderly-targeted gift-card half of the scheme follows the classic pattern federal prosecutors and the FTC warn about nationally — a legitimate retail gift card is never a valid way to pay a government agency, utility, or family member in an emergency, and anyone asked to read gift-card numbers over the phone to resolve a supposed debt or legal problem should hang up and contact the retailer or their bank to see if the card can still be frozen before the balance is drained.`,
+    categorySlug: 'identity-theft',
+    country: 'US',
+    state: 'VA',
+    alertLevel: 'high',
+    sources: ["U.S. Department of Justice, Eastern District of Virginia", 'Patch'],
+    sourceUrl: 'https://www.justice.gov/usao-edva/pr/fairfax-man-pleads-guilty-multiple-scams-totaling-over-million-dollars',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
