@@ -107,6 +107,15 @@ optional unless you're exercising those specific integrations.
 
 `npm run setup` is safe to re-run — it won't overwrite an existing `backend/.env`.
 
+Setup needs Docker running before it can start Postgres and Redis. If Docker
+Desktop isn't up, setup says so and stops rather than failing partway through.
+Already running Postgres and Redis yourself? Point `DATABASE_URL` and
+`REDIS_URL` in `backend/.env` at them and skip the Docker step:
+
+```bash
+npm run setup -- --no-docker
+```
+
 <details>
 <summary>Manual setup (equivalent, run separately)</summary>
 
