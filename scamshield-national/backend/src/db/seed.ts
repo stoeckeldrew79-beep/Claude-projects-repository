@@ -33004,6 +33004,39 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'Australian Superannuation Credential Stuffing Follow-On Scam',
+    slug: 'australia-superannuation-credential-stuffing-follow-on-scam',
+    description: `Over the weekend of April 4-6, 2025, criminals used "credential stuffing" — trying usernames and passwords already leaked from unrelated data breaches against superannuation fund login pages, betting on password reuse — to break into member accounts at several of Australia's largest super funds, including AustralianSuper, Rest, Hostplus, Australian Retirement Trust, and Insignia Financial (owner of the MLC brand). Some funds had weak or no multi-factor authentication in place at the time, and at least $500,000 was confirmed stolen from compromised accounts before funds locked down access and forced password resets across the affected platforms. Almost immediately, Australia's National Cyber Security Coordinator, Lieutenant General Michelle McGuinness, issued a public warning that scammers were exploiting news coverage of the breach itself: criminals sent unsolicited texts, emails, and calls impersonating the affected super funds or "third-party recovery specialists" offering to help members check whether their account was compromised or get stolen funds back, using the real incident as bait to harvest logins or extract upfront fees. McGuinness's advice was blunt: do not click links or respond to unsolicited messages claiming to be from a superannuation fund or offering third-party help recovering money after a breach — instead, contact the fund directly using the phone number or app listed on its own official website, never one provided in the message itself, and enable multi-factor authentication on the account if it is not already on.`,
+    categorySlug: 'account-takeover',
+    country: 'AU',
+    alertLevel: 'high',
+    sources: ['National Cyber Security Coordinator (Australian Government)', 'Australian Broadcasting Corporation (ABC News)', 'Cyber Daily'],
+    sourceUrl: 'https://www.cyberdaily.au/security/11952-breaking-national-cyber-security-coordinator-warns-of-scams-following-superannuation-hack',
+  },
+  {
+    name: 'Qantas Data Breach Impersonation Scam',
+    slug: 'australia-qantas-data-breach-impersonation-scam',
+    description: `On June 30, 2025, Qantas detected that hackers had broken into a third-party platform used by one of its airline contact centres and stolen personal data — including names, email addresses, phone numbers, dates of birth, and frequent flyer numbers — belonging to 5.7 million unique customers; Qantas confirmed no credit card numbers, passwords, PINs, or passport details were stored on the compromised system. Starting in August 2025, Scamwatch and Qantas began publicly warning of a wave of follow-on scam texts, emails, and phone calls impersonating Qantas that used the breach as a hook, contacting people (whether or not they were actually Qantas customers) with claims their frequent flyer account was compromised or a "refund" or "compensation" payment was owed, and directing them to a fake login page or asking them to hand over a PIN, password, or one-time passcode to "verify" their identity. Scamwatch's guidance is that Qantas will never contact a customer asking for a PIN, password, or one-time passcode by text or email, and that anyone who receives such a message should go directly to the Qantas app or the official qantas.com website rather than clicking any link in the message, and report the scam to Scamwatch.`,
+    categorySlug: 'phishing',
+    country: 'AU',
+    alertLevel: 'high',
+    sources: ['Scamwatch (National Anti-Scam Centre, ACCC)', 'Qantas'],
+    sourceUrl: 'https://www.scamwatch.gov.au/about-us/news-and-alerts/scam-alert-qantas-impersonation-scam',
+  },
+  {
+    name: 'ASIC Fake Bond Investment Scam Money Laundering Network',
+    slug: 'australia-asic-fake-bond-investment-money-laundering-network',
+    description: `Between January and July 2021, a fraudulent investment scheme used fictitious investment-comparison websites and Facebook advertisements to offer Australian investors fake fixed-return bonds and other financial products, promising annual returns of between 4.5% and 9.5% while impersonating legitimate financial services businesses. Victims' money was deposited into Australian bank accounts controlled by a network of facilitators before being moved offshore or converted through cryptocurrency exchanges to obscure its origin. Following an investigation by the Australian Securities and Investments Commission (ASIC), four Victorian men — Dimitrios (James) Podaridis, Peter Delis, Bassilios (Bill) Floropoulos, and Harry Tsalikidis — were charged in mid-2025 with money laundering offences under the Commonwealth Criminal Code for their roles receiving and moving the victims' funds; none of the four is alleged to have operated the underlying investment scam itself. Podaridis and Floropoulos each face 28 charges of dealing in the proceeds of indictable crime, Delis faces eight, and Tsalikidis faces 12, including aiding and abetting the others; the matter, prosecuted by the Commonwealth Director of Public Prosecutions, was listed for committal mention on October 30, 2025. ASIC points to the case as a reminder that a bond or term-deposit-style offer discovered through a social media ad or comparison website should be independently verified against the ASIC Connect professional register before any money is transferred, since scammers routinely impersonate real, licensed financial businesses to lend their pitch false credibility.`,
+    categorySlug: 'investment-fraud',
+    country: 'AU',
+    alertLevel: 'high',
+    sources: ['Australian Securities and Investments Commission (ASIC)'],
+    sourceUrl: 'https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2025-releases/25-156mr-four-people-charged-with-money-laundering-in-fake-investment-scam/',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
