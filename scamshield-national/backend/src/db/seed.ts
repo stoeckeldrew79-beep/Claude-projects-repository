@@ -14996,6 +14996,10 @@ GUIDE_ARTICLES.push(
     slug: 'cdl-training-debt-trap-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'cdl-training-debt-trap'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Trainco_Truck_Driving_Schools_truck_Superior_Township_Michigan.JPG?width=1200',
+    coverImageCredit: 'Photo: Dwight Burdette (CC BY 3.0) — a truck driving school training vehicle',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2025/01/ftc-cfpb-take-action-against-trucking-companies-illegal-practices-trap-truck-drivers-debt',
     body: `In January 2025, the Federal Trade Commission and the Consumer Financial Protection Bureau jointly sued two of the country's largest trucking companies, TransAm Trucking and CRST, over the same basic pitch that draws thousands of new drivers into the industry every year: an ad promising "free" commercial driver's license (CDL) training, sometimes alongside cash incentives, that turns out to come with a debt few applicants understood they were signing up for. According to the complaints, drivers who left the company early — even to take a better-paying job at another carrier — were hit with bills of $6,000 to $10,000 or more for the "free" training, on top of tactics the agencies said included deceiving applicants about the terms, structuring contracts to make debts nearly impossible to escape, and in some cases threatening drivers with debt collection, lawsuits, and damage to their credit to keep them from quitting. The companies agreed to pay a combined $6.6 million to resolve the FTC and CFPB actions.
 
@@ -15014,6 +15018,10 @@ Before accepting any "free training" job offer in trucking or any other field, a
     slug: 'international-marriage-broker-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'international-marriage-broker-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Wedding_rings_(Unsplash).jpg?width=1200',
+    coverImageCredit: 'Photo: Glen McCallum, CC0, via Wikimedia Commons',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://travel.state.gov/content/travel/en/us-visas/immigrate/family-immigration/fiance-visa/international-matchmaking-organizations.html',
     body: `A U.S. citizen looking for a spouse abroad signs up with an online "international introduction" agency that advertises verified, marriage-minded profiles of women overseas — often in the Philippines, Ukraine, Colombia, Thailand, or elsewhere — and pays a membership fee to browse profiles, plus per-message or per-translation charges to actually communicate with any of them. The conversations that follow feel warm and promising, sometimes moving quickly toward talk of a real relationship and a future fiancé visa. What a lot of members never learn is that some of the "women" replying are agency staff paid to keep a paying customer messaging as long as possible, that translation and video-call fees can be marked up far beyond their real cost, and that a genuine relationship with a real person the client actually intends to marry may never be the point of the business model at all.
 
