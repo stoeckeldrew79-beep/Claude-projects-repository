@@ -8699,6 +8699,45 @@ Beasley's case is a reminder that affinity fraud doesn't require a stranger's co
   },
 );
 
+NOTORIOUS_ARTICLES.push(
+  {
+    title: 'Matthew Motil, the "Cash Flow King" Podcaster Who Sold the Same Mortgage to Dozens of Investors',
+    slug: 'matthew-motil-cash-flow-king-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Cuyahoga_County_Justice_Center,_Cleveland,_OH_(28669451617).jpg?width=1200',
+    coverImageCredit: 'Photo by Warren LeMay, Wikimedia Commons (CC0) — the Cuyahoga County Justice Center in Cleveland, Ohio, near where Matthew Motil operated his real estate Ponzi scheme',
+    coverImagePosition: 50,
+    body: `Matthew Motil built his following the way a lot of real estate "gurus" do — through a podcast, a self-published book called *Man on Fire*, and a personal brand he called the "Cash Flow King," all pitched at ordinary people looking for a safe way into real estate investing. The North Olmsted, Ohio-based agent's actual product was a promissory note: investors would lend him money, he told them, and each loan would be secured by a first-lien mortgage on a specific residential property in Northeast Ohio, making the investment feel as safe as a bank loan while promising returns well above what a bank would pay.
+
+The properties, prosecutors said, were rarely worth what Motil implied and were pledged to far more people than the paperwork should have allowed. According to the SEC and the Justice Department, Motil sold the same houses over and over — in one instance, he sold more than $1 million in promissory notes to twenty different investors, each one led to believe they held the sole first-lien position on a single property he had originally bought for $47,000. Each victim received a note and closing documents that looked legitimate; none of them knew how many other "sole" lienholders had been sold the identical claim on the identical house.
+
+Operating from October 2017 to March 2022, Motil raised more than $7.3 million from at least 63 victims, using new investors' money to make interest payments to earlier ones — the standard Ponzi mechanic — while diverting a substantial share to himself. Investigators found he spent investor funds on a lakeside mansion rental, courtside NBA season tickets, and roughly $400,000 in credit card payments for his wife, rather than the property renovations and mortgage payoffs he had promised. The SEC charged him civilly in July 2023; he pleaded guilty to federal securities fraud and wire fraud charges in September 2024, and on July 18, 2025, U.S. District Judge Donald C. Nugent sentenced him to 70 months in federal prison, three years of supervised release, and $5,085,247.08 in restitution.
+
+Motil's case is a reminder that a mortgage-backed promissory note is only as safe as the lien behind it — and that a friendly, media-savvy pitch, a podcast, and a book with his face on the cover did nothing to stop him from selling the same collateral to dozens of people who each believed they were the only one holding it.`,
+    sourceUrl: 'https://www.justice.gov/usao-ndoh/pr/former-real-estate-podcaster-sentenced-more-5-years-prison-orchestrating-7m-ponzi',
+  },
+  {
+    title: 'Joel Ferreira de Souza and the $190 Million Braiscompany Crypto Ponzi Scheme',
+    slug: 'joel-ferreira-de-souza-braiscompany-crypto-ponzi',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Bitcoin.png?width=1200',
+    coverImageCredit: 'Public domain Bitcoin logo, Wikimedia Commons — representative image; Braiscompany marketed itself as a cryptocurrency investment platform',
+    coverImagePosition: 50,
+    body: `Braiscompany presented itself to Brazilian investors as a cryptocurrency trading and asset-management platform, promising steady returns of roughly 8 percent a month — an eye-catching rate for a market where interest rates on ordinary savings run far lower. Between June 2018 and early 2023, the company built a following of more than 20,000 investors across Brazil, drawn by a scheme that prosecutors later said was run substantially by Joel Ferreira de Souza, who used a network of shell companies, proxy accounts, and unregulated crypto wallets to move investor money and disguise where it actually went.
+
+There was no trading strategy generating the promised returns. Like every Ponzi scheme, Braiscompany paid earlier investors with money raised from newer ones, a structure that can only run as long as new money keeps arriving faster than payouts go out. Cracks appeared in 2022, when payments began slipping; by January 2023 payouts had stopped entirely, and Brazilian federal police launched "Operation Halving" the following month, raiding the company's operations and seizing assets. Investigators estimated total losses at roughly 1.11 billion reais — about $190 million — making it one of the largest cryptocurrency fraud prosecutions in Brazilian history.
+
+A Brazilian federal court convicted Ferreira de Souza of operating an unlicensed financial institution and laundering the proceeds through shell companies and informal crypto transactions. In April 2025, the court sentenced him to 128 years in prison — believed to be a record sentence for a financial crime in Brazil — while co-defendants Antônio "Neto" Ais and Fabrícia Farias Campos received roughly 88 and 62 years respectively, and broker Gesana Rayane Silva and Ferreira de Souza's son, Victor Veronez, received additional prison terms; two other defendants were acquitted. Brazilian sentencing law means these terms function differently than headline numbers suggest, but the scale of the sentence reflected the scale of the fraud: tens of thousands of investors whose "returns" turned out to be a paper illusion built entirely on new deposits.
+
+The Braiscompany case is a reminder that the promise of steady, outsized monthly returns from crypto trading is a red flag regardless of country or currency — the mechanics of a Ponzi scheme translate perfectly across borders, and a slick platform quoting monthly percentages instead of transparent, verifiable trades is worth walking away from before, not after, the payouts stop.`,
+    sourceUrl: 'https://www.coindesk.com/policy/2025/04/18/leaders-of-usd190m-brazilian-crypto-ponzi-scheme-sentenced-to-over-170-years-in-prison',
+  },
+);
+
 // Practical "how it works / red flags / what to do" guides covering the
 // major scam categories, the same kind of coverage the FTC's Consumer
 // Advice site and AARP's Fraud Watch Network publish — well-documented
@@ -33295,6 +33334,44 @@ SEED_SCAMS.push(
     alertLevel: 'medium',
     sources: ['Consumer Affairs Agency (Japan)'],
     sourceUrl: 'https://www.caa.go.jp/policies/policy/consumer_policy/caution/internet/trouble/sakura.html',
+  },
+);
+
+SEED_SCAMS.push(
+  {
+    name: 'New Hampshire Lottery and Sweepstakes Scam Surge Targeting Older Adults',
+    slug: 'new-hampshire-lottery-sweepstakes-scam-older-adults',
+    description: `Starting in late 2024 and continuing into 2025, New Hampshire residents — overwhelmingly older adults — began reporting a sharp rise in calls, texts, and letters falsely claiming they had won a major prize, frequently invoking the real Publishers Clearing House sweepstakes or a foreign national lottery. The caller says the winnings can't be released until the recipient first pays "taxes," "legal fees," "insurance," or a "processing fee," directing payment by wire transfer, Bitcoin ATM, or prepaid gift and debit cards; the New Hampshire Department of Justice noted that in two reports it received, scammers demanded these fees in repeated increments of exactly $8,500. Attorney General John M. Formella issued a Consumer Alert on January 27, 2025 after the pattern surged, stressing that a person cannot win a contest they never entered, that no legitimate sweepstakes or lottery ever requires payment of any kind to release a prize, and that Publishers Clearing House itself never calls in advance to announce a win — anyone who gets such a call should hang up and verify directly with PCH's own published number. The alert urges anyone targeted, or anyone who knows an older relative who mentioned an unexpected prize call, to report it to local police, the AG's Consumer Protection and Antitrust Bureau at (603) 271-3641, and the Bureau of Adult and Aging Services before any money changes hands.`,
+    categorySlug: 'lottery-sweepstakes-scams',
+    country: 'US',
+    state: 'NH',
+    alertLevel: 'high',
+    sources: ['New Hampshire Department of Justice — Office of the Attorney General'],
+    sourceUrl: 'https://www.doj.nh.gov/news-and-media/consumer-alert-increase-lottery-and-sweepstakes-scams-targeting-new-hampshires-older',
+  },
+  {
+    name: 'Wichita "FBI Agent" Gold Bar Safekeeping Fraud Conspiracy',
+    slug: 'kansas-wichita-fbi-agent-gold-bar-safekeeping-fraud',
+    description: `Between May and September 2025, a fraud ring posing as Federal Bureau of Investigation agents targeted a retired victim in Kansas, falsely warning that the victim's identity had been compromised in a way that could lead to jail time and financial ruin unless immediate action was taken. Following the fake agents' detailed instructions, the victim withdrew savings, converted them into $255,287 worth of gold, and handed the gold over believing it was being sent to a government agency for safekeeping pending resolution of the supposed identity-theft investigation — money that instead went straight to the conspiracy. A federal grand jury in Wichita indicted Venkateswara Reddy Chagamreddy, 27, of San Antonio, Texas, and Sai Praveen Kommana, 29, of Frisco, Texas, on one count of wire fraud conspiracy and one count of interference with commerce by threat, with prosecutors describing the pair as part of a larger conspiracy that primarily targets elderly retired individuals nationwide using this false identity-compromise pretext. The U.S. Attorney's Office for the District of Kansas notes that real FBI agents and other federal officials never ask a member of the public to buy gold, cash, or other valuables and hand them over "for safekeeping," and that anyone who receives such a call should hang up and verify by calling the agency directly using a number looked up independently rather than one given by the caller.`,
+    categorySlug: 'government-impersonation',
+    country: 'US',
+    state: 'KS',
+    isHistorical: true,
+    firstRecorded: '2025-05-01',
+    sources: ['U.S. Attorney\'s Office, District of Kansas', 'Internal Revenue Service Criminal Investigation'],
+    sourceUrl: 'https://www.justice.gov/usao-ks/pr/men-indicted-posing-fbi-agents-commit-fraud',
+  },
+  {
+    name: 'Florence "Safe at Home" Durable Medical Equipment Billing Fraud',
+    slug: 'south-carolina-florence-safe-at-home-dme-billing-fraud',
+    description: `Tina Marie Armstrong, 67, of Florence, South Carolina, ran a durable medical equipment supply company called Safe at Home Medical Equipment and Supplies, LLC, which prosecutors say she used to submit $198,981.55 in false and fraudulent claims to Medicare and Medicaid, of which $104,577.74 was actually paid out before the scheme was caught. According to the indictment, Armstrong billed the government health programs for equipment that had never been delivered, was never authorized by a treating physician, or was billed as an ongoing monthly rental long after the equipment was no longer in service — including claims submitted for patients who had already died and for people who never used or needed the equipment she billed for. Federal prosecutors announced the charges as one of two South Carolina cases folded into the U.S. Department of Justice's June 30, 2025 National Health Care Fraud Takedown, the largest coordinated health care fraud enforcement action in DOJ history; Armstrong was charged with health care fraud and aggravated identity theft and has pleaded not guilty. Medicare and Medicaid beneficiaries are advised to review their Medicare Summary Notice or Medicaid explanation-of-benefits statements for equipment or rental charges they never requested, never received, or that continued billing well past when the device should have stopped being needed, and to report discrepancies to the HHS Office of Inspector General.`,
+    categorySlug: 'healthcare-fraud',
+    country: 'US',
+    state: 'SC',
+    isHistorical: true,
+    firstRecorded: '2025-02-01',
+    sources: ['U.S. Attorney\'s Office, District of South Carolina', 'U.S. Department of Justice'],
+    sourceUrl: 'https://www.justice.gov/usao-sc/pr/sc-cases-among-hundreds-announced-national-health-care-fraud-takedown',
   },
 );
 
