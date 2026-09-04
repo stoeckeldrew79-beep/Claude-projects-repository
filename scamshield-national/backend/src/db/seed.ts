@@ -16579,6 +16579,45 @@ An HOA or condo board doesn't have to wait for a headline case like this one to 
   },
 );
 
+GUIDE_ARTICLES.push(
+  {
+    title: 'Diabetic Test Strip Buyback Scams: Why "We Pay Cash for Your Unused Strips" Often Doesn\'t Pay at All',
+    slug: 'diabetic-test-strip-buyback-scam-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'diabetic-test-strip-buyback-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Blausen_0301_Diabetes_GlucoseMonitoring.png?width=1200',
+    coverImageCredit: 'Illustration: BruceBlaus / Blausen Medical, CC BY 3.0, via Wikimedia Commons',
+    coverImagePosition: 50,
+    sourceUrl: 'https://www.fda.gov/news-events/press-announcements/fda-warns-about-risks-using-home-use-test-strips-are-pre-owned-or-not-authorized-sale-us-including',
+    body: `An online ad, a flyer, or a post in a diabetes support group promises fast cash for diabetic blood glucose test strips sitting unused in a cabinet — boxes left over after a prescription change, a switched insurance plan, or a family member who passed away. The pitch is simple and appealing: mail in the unopened boxes, and a check or electronic payment arrives within a day or two. For a lot of people who agreed to that deal, no payment ever came at all.
+
+The Better Business Bureau has fielded hundreds of complaints against buyback operations built almost entirely on that broken promise. One Chicago-based company, Surplus Diabetic Supplies, doing business online as CashNowOffer.com, drew more than 244 complaints to the BBB over three years — the overwhelming majority from people who say they shipped their test strips as instructed and were told payment would follow within 24 hours, then never received a cent and got no response when they followed up. The BBB gave the company its lowest possible rating, an F, and similar patterns have shown up at other test-strip buyback sites, including QuickCash4TestStrips.com. By the time a seller realizes the money isn't coming, the actual product — inventory with real resale value — is already gone, sent to a company with no incentive to ever pick up the phone again.
+
+There's a second, less obvious problem that applies even to buyback operations that do pay: reselling test strips that were originally obtained through Medicare, Medicaid, or private insurance is against federal law, and both the buyer and the seller can be held liable. Someone selling leftover strips rarely stops to check how their own supply was originally purchased, or realizes that a stranger's cash offer for "any unused boxes" is quietly asking them to break that rule. On the other side of the same gray market, the FDA has separately warned that buying pre-owned or resold test strips carries its own danger regardless of the legal question: strips that have been repackaged, improperly stored, counterfeited, or that are past their expiration date can produce an inaccurate blood glucose reading, and the FDA has said the resulting harm from a wrong reading can be serious, including death.
+
+Red flags on the selling side include any buyer that asks for strips to be shipped before payment is sent, a "payment within 24 hours" promise with no other verification of the company's legitimacy, a quoted price noticeably higher than competitors specifically to get boxes in the mail faster, and a business with no verifiable physical address or BBB profile. On the buying side, an price that undercuts a pharmacy by a wide margin, loose or damaged packaging, a seller unable to say how the strips were originally obtained, or a listing on a classifieds site or social marketplace rather than a licensed pharmacy are all signs the box may not be safe to use even if it looks sealed.
+
+Anyone with genuinely unused, unexpired supplies who wants to responsibly get rid of them should check with a local pharmacy, a diabetes nonprofit's donation program, or their own insurer about approved take-back options rather than an unfamiliar buyback site found through an ad. The American Diabetes Association warns that it does not endorse any specific product or company, so any pitch claiming ADA endorsement is false on its face. Anyone who shipped supplies and was never paid should file a complaint with the Better Business Bureau, report it to the FTC at ReportFraud.ftc.gov, and contact their state Attorney General's consumer protection office; if the supplies involved were originally paid for by Medicare or Medicaid, it can also be reported to the U.S. Department of Health and Human Services Office of Inspector General.`,
+  },
+  {
+    title: 'The Spark Driver Settlement: What Walmart\'s $100 Million Deceptive-Earnings Case Reveals About Gig Delivery Pay Promises',
+    slug: 'spark-driver-gig-delivery-earnings-scam-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'gig-delivery-earnings-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Food_delivery_driver_in_car.jpg?width=1200',
+    coverImageCredit: 'Photo: Meanwell Packaging, CC BY 2.0, via Wikimedia Commons',
+    coverImagePosition: 50,
+    sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2026/02/walmart-agrees-100-million-judgment-settle-ftc-states-charges-over-deceptive-earnings-claims-related',
+    body: `Gig delivery apps sign up drivers with a pitch built around a number: an advertised tip amount on an offer screen, an "up to" hourly rate, a bonus for hitting a target. In February 2026, the FTC and eleven states announced that Walmart's Spark Driver platform — the app through which independent contractors deliver Walmart orders — had spent years dressing up exactly those kinds of numbers in ways regulators said were deceptive, and Walmart agreed to a $100 million judgment to settle the case.
+
+The complaint described several distinct ways drivers say the numbers they were shown didn't match what they were actually paid. Spark Driver displayed a specific tip amount attached to a delivery offer, but didn't disclose that the tip wasn't guaranteed or preauthorized — if a customer's payment method later failed to cover the full charge, the driver could end up with less than the figure they'd accepted the job for, and in some cases a shown tip was actually split across multiple drivers on a multi-stop route without that being made clear upfront. Separately, when Walmart pulled an order out of a batched, multi-customer delivery after a driver had already accepted it, the app could reduce the driver's base pay and tip to match — again, without adequate notice, so a driver sometimes only discovered the pay cut after finishing the route. Incentive and referral bonuses came with eligibility conditions, like a requirement to work specific delivery zones, that Walmart allegedly didn't spell out clearly before drivers signed up chasing the advertised bonus. And despite marketing that told customers 100% of their tip went to the driver, the FTC said Walmart in some instances kept tips it collected from customers without refunding them.
+
+None of this is a new playbook. In 2021, the FTC reached a similar, larger settlement with Amazon over its Flex driver program: Amazon had advertised that it paid 100% of customer tips to drivers, then quietly used $61.7 million of those actual tips to make up for a lowered base pay rate it didn't announce, a scheme regulators said ran for roughly two and a half years before Amazon changed course once it learned the FTC was investigating. Two of the country's largest retailers, running two different gig delivery programs years apart, were both accused of the same basic move: advertise a pay or tip figure that sounds concrete and guaranteed, then quietly let the actual payout diverge from it once the driver has already accepted the job.
+
+The Walmart settlement requires the company to build real earnings verification into the platform going forward, restrict changes to an accepted delivery's pay after the fact except in narrow, legitimate circumstances like a canceled or incomplete order, and stop misrepresenting what an offer actually pays. For someone considering gig delivery work now, the practical lesson from both cases is the same: a platform's advertised "up to" rate, tip estimate, or bonus figure is a marketing number until it's actually deposited, and screenshotting the offer screen before accepting a delivery is a cheap way to have a record if the final payout doesn't match. Drivers who believe a platform reduced pay after they'd already accepted an offer, split a tip without disclosure, or denied a bonus based on conditions that weren't disclosed upfront can file a complaint with the FTC at ReportFraud.ftc.gov and with their state Attorney General's consumer protection division.`,
+  },
+);
+
 async function seedArticles(articles: SeedArticle[], label: string) {
   for (const article of articles) {
     await pool.query(
