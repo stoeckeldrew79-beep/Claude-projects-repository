@@ -31697,6 +31697,43 @@ SEED_SCAMS.push(
   },
 );
 
+// Fifth push() batch — same TS2590 array-size workaround described above.
+SEED_SCAMS.push(
+  {
+    name: 'Southeast DC Disabled Senior Cash App Financial Exploitation',
+    slug: 'dc-southeast-disabled-senior-cash-app-exploitation',
+    description: `Yolanda Forbe, 54, formerly of Fredericksburg, Virginia, had known her 79-year-old victim — a disabled Southeast DC woman living on Social Security whom Forbe had known since infancy — for most of her life, and used that decades-long trusted relationship to take over the woman's finances after the victim suffered an injury that limited her ability to manage her own household. Between June 2024 and March 2025, according to the Office of the Attorney General for the District of Columbia, Forbe transferred $6,899 out of the victim's bank account through Cash App transfers the victim never authorized and never even used herself, and separately ran up unauthorized charges on the victim's debit card at Amazon and at a tobacco and vape shop near Forbe's home in Virginia. The theft came to light only when the victim found she could no longer pay her rent. Forbe pleaded guilty on June 3, 2026 to one felony count of Financial Exploitation of a Vulnerable Adult or Elderly Person and one misdemeanor count of Credit Card Fraud before the Honorable Andrea Hertzfeld, with sentencing scheduled for July 14, 2026. "Financially exploiting a vulnerable senior citizen to the point where she was unable to pay her rent is reprehensible," said Attorney General Brian Schwalb. The case was prosecuted by the OAG's Fraud and Public Corruption Section under the District's Financial Exploitation of Vulnerable Adults Act, which lets DC's Attorney General bring criminal charges directly in these cases. Families and caregivers of an elderly or disabled DC resident should set up independent account alerts for any new linked payment app or unusual card activity, keep a trusted second person outside the caregiving relationship reviewing monthly statements, and treat a caregiver's resistance to that kind of outside oversight as a warning sign on its own.`,
+    categorySlug: 'identity-theft',
+    country: 'US',
+    state: 'DC',
+    alertLevel: 'high',
+    sources: ['Office of the Attorney General for the District of Columbia', 'WJLA', 'WUSA9'],
+    sourceUrl: 'https://oag.dc.gov/release/attorney-general-schwalb-secures-guilty-plea',
+  },
+  {
+    name: 'Hummingbird Construction Deposit-and-Disappear Scheme',
+    slug: 'michigan-hummingbird-construction-deposit-scheme',
+    description: `Hummingbird Construction Co., LLC and its owner, Matthew Ashline, collected large upfront deposits from homeowners across St. Clair, Monroe, Eaton, and Washtenaw counties in Michigan for roofing, porch, and new-home construction projects, then routinely failed to start the work and refused or delayed refunding the money despite repeated customer requests. Michigan Attorney General Dana Nessel's office documented a pattern in its lawsuit: one customer paid an $8,000 deposit in July 2024 for roof and porch repairs that never began, only getting a refund after filing a police complaint months later; another paid a $7,000 deposit in February 2025 for a roof replacement with no work started; and in the most severe case, Hummingbird collected $162,000 in deposits over the course of 2025 to build a new home that was repeatedly delayed with no refund ever issued. Nessel filed suit in Washtenaw County Circuit Court on July 11, 2025, alleging the conduct violated the Michigan Consumer Protection Act and asking the court to dissolve the company and order repayment to affected customers. "Construction projects are a major investment, and consumers deserve to be treated honestly and fairly when hiring a business to perform work on their homes," Nessel said. On February 17, 2026, the court entered a consent judgment against Hummingbird and Ashline that dissolved the company, barred Ashline from owning, managing, or selling construction jobs for any construction company in Michigan for ten years, and required restitution to the customers he had defrauded. Homeowners hiring a contractor should get a written contract spelling out the full scope of work and a realistic start date before paying anything, keep any deposit as small as the law and the contractor's reputation genuinely require, pay by check or card rather than cash so there's a documented trail, and check a contractor's name against the Michigan Attorney General's Consumer Protection complaint records before signing.`,
+    categorySlug: 'mortgage-foreclosure-scams',
+    country: 'US',
+    state: 'MI',
+    alertLevel: 'high',
+    sources: ["Michigan Department of Attorney General", 'Insurance Journal', 'WILX', 'WLNS'],
+    sourceUrl: 'https://www.michigan.gov/ag/news/press-releases/2026/02/17/ag-nessel-secures-judgment-against-construction-company-for-consumer-protection-violation',
+  },
+  {
+    name: 'James McAuliffe Pandemic Unemployment Identity Theft Scheme',
+    slug: 'maine-mcauliffe-pandemic-unemployment-identity-theft',
+    description: `James McAuliffe, then living in Arizona, used the stolen personal identifying information of Maine residents — full names, Social Security numbers, and other identifiers he never had permission to use — to file a string of fraudulent unemployment insurance claims with the Maine Department of Labor's Bureau of Unemployment Compensation between January and November 2020, at the height of pandemic-era unemployment relief. To make the fraudulent claims look legitimate, McAuliffe also filed false applications for replacement driver's licenses with the Maine Bureau of Motor Vehicles under his victims' identities, changing the mailing address on file so the replacement licenses would come to him instead of the real license holder, then used those falsified IDs as identity verification to support the bogus unemployment claims. Once approved, the stolen benefits were loaded onto debit cards and wired into a bank account McAuliffe had opened in someone else's name, and he withdrew the funds through ATMs in Arizona — despite living in Kansas by the time he was arrested. According to the U.S. Attorney's Office for the District of Maine, McAuliffe pleaded guilty in August 2023 to six counts of wire fraud and six counts of aggravated identity theft, and on January 16, 2024, was sentenced in Bangor to 60 months in federal prison, three years of supervised release, and ordered to pay $203,616 in restitution to the Maine Department of Labor and the victims whose identities he stole. The scheme illustrates how pandemic-era unemployment systems' reliance on faxed or mailed identity documents left an opening for an out-of-state identity thief who never set foot in Maine to file claims entirely by mail and phone. Anyone who receives an unexpected unemployment benefits notice, a 1099-G tax form for benefits they never applied for, or a driver's license renewal notice for an address change they never requested should report it immediately to the Maine Department of Labor's fraud unit and the Maine Bureau of Motor Vehicles, and place a fraud alert or credit freeze with the major credit bureaus.`,
+    categorySlug: 'public-benefits-fraud',
+    country: 'US',
+    state: 'ME',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office for the District of Maine", 'WGME', 'Bangor Daily News'],
+    sourceUrl: 'https://www.justice.gov/usao-me/pr/former-arizona-man-sentenced-5-years-stealing-mainers-identities-part-pandemic',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
