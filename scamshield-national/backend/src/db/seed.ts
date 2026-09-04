@@ -33379,6 +33379,29 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'Dutch Fake Police Officer "Safekeeping" Doorstep Fraud',
+    slug: 'netherlands-fake-police-officer-safekeeping-doorstep-fraud',
+    description: `A caller falsely claims to be a police officer investigating a burglary wave in the neighborhood, telling a Dutch resident — usually an older person living alone — that their name turned up on a list of potential targets. To "protect" the victim's savings and valuables while the investigation continues, the caller says a police colleague will come by shortly to collect cash, jewelry, or bank cards for safekeeping, then hands the visit off to an accomplice who arrives at the door posing as that colleague and walks out with the items. According to the Openbaar Ministerie (the Dutch Public Prosecution Service), a 25-year-old Rotterdam man stood trial on May 26, 2025 after investigators used phone taps to trace this exact scheme back to his home; prosecutors proved six completed frauds and one attempted fraud against victims contacted this way, plus money laundering after a search of his home turned up roughly €9,000 in unexplained designer clothing, and demanded a 30-month prison sentence. The Dutch national fraud hotline Fraudehelpdesk separately warns that this "nepagent" (fake officer) pattern is a recurring one nationwide and states plainly that the real Dutch police never phone residents to arrange a home visit to collect money, bank cards, or valuables for safekeeping — anyone who receives such a call should hang up and, if in doubt, call the police's own non-emergency number (0900-8844) directly rather than a number the caller provides.`,
+    categorySlug: 'government-impersonation',
+    country: 'NL',
+    alertLevel: 'high',
+    sources: ['Openbaar Ministerie (Dutch Public Prosecution Service)', 'Fraudehelpdesk'],
+    sourceUrl: 'https://www.om.nl/actueel/nieuws/2025/05/26/oplichting-door-nepagent-om-eist-30-maanden-gevangenisstraf',
+  },
+  {
+    name: 'Dutch Crypto-Exchange Helpdesk Fraud (Cryptohelpdeskfraude)',
+    slug: 'netherlands-crypto-exchange-helpdesk-fraud',
+    description: `A Dutch crypto-currency holder first receives a phishing text message, then a follow-up phone call from someone claiming to work for their bank or crypto exchange (such as Bitvavo) about "suspicious activity" or a hacking attempt on their wallet. The caller talks the victim into installing what is presented as antivirus software alongside the remote-access tool AnyDesk so the "employee" can supposedly secure the account, and once connected either watches the victim log into their crypto wallet and captures the credentials directly, or pressures them to move their holdings into a "safe wallet" that is in fact controlled by the criminals. The Cybercrime Team of police in the Netherlands' Noord-Nederland region announced on March 30, 2026 that it had arrested eight suspects in two rounds — March 4 and March 9, 2026 — across Groningen, IJsselstein, Zwijndrecht, and Amsterdam, after more than 40 victims filed complaints with total losses of just over €1.7 million; searches turned up data-storage devices, hardware wallets, luxury goods, and a firearm with ammunition. Dutch fraud lawyers have separately begun describing this pattern as "cryptohelpdeskfraude," a crypto-specific evolution of the older "bankhelpdeskfraude" con, and police stress that no legitimate bank or exchange employee will ever ask a customer to install remote-access software or move funds to a different wallet "for safekeeping" over an unsolicited call.`,
+    categorySlug: 'account-takeover',
+    country: 'NL',
+    alertLevel: 'high',
+    sources: ['Politie (Dutch National Police) — Cybercrime Team Noord-Nederland'],
+    sourceUrl: 'https://www.politie.nl/nieuws/2026/maart/30/onderzoek-naar-bankhelpdeskfraude-leidt-tot-acht-aanhoudingen-in-het-noorden-van-het-land.html',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
