@@ -33439,6 +33439,42 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'North Dakota Fake-Military Romance Fraud Ring',
+    slug: 'north-dakota-fake-military-romance-fraud-ring',
+    description: `Foreign-based "romance fraud" operators built fake social-media profiles posing as U.S. military members deployed overseas, then contacted older North Dakota women, cultivated what the women believed were real romantic relationships, and eventually asked for money to resolve invented emergencies. A New Town, North Dakota woman was contacted by someone posing first as "General Joseph Martins" and later as "Diplomat David Jones," and ultimately sent a total of $200,000 — a $150,000 cashier's check to one domestic middleman and $50,000 to another — while a Tioga, North Dakota woman targeted by a persona calling himself "Christopher Mahoney," supposedly a U.S. Marine, lost $800,000. Those domestic middlemen, Chinedu Ikenna Nwafor, 42, of Bowie, Maryland, and Vitus Uzoma Uzowuru, 56, of Glendale, Maryland, received the victims' wired and mailed funds and passed them along to the overseas operators; Nwafor was sentenced in the U.S. District Court for the District of North Dakota on December 17, 2024 to 25 months in federal prison, three years of supervised release, and $180,000 in restitution after pleading guilty to conspiracy to commit mail fraud, while Uzowuru was sentenced on August 8, 2024 to time served (roughly 10 months) plus three years of supervised release and $50,000 in restitution after pleading guilty to aiding and abetting mail fraud. A third defendant, Juliet Chinyere Molenda, was indicted on a related wire fraud charge tied to the same scheme. U.S. Attorney Mac Schneider said romance scammers "will face justice" for targeting the hard-earned savings of North Dakotans, and the case illustrates how a supposed military deployment is used specifically to explain away why a new "partner" can never meet in person or video chat — real deployed service members can communicate with family, and anyone asked to send money, gift cards, or cashier's checks to someone they have only met online should stop and verify independently, including through the FBI's Internet Crime Complaint Center at ic3.gov or the National Elder Fraud Hotline at 833-372-8311.`,
+    categorySlug: 'romance-scams',
+    country: 'US',
+    state: 'ND',
+    alertLevel: 'high',
+    sources: ['U.S. Attorney\'s Office, District of North Dakota', 'InForum (Forum Communications)'],
+    sourceUrl: 'https://www.justice.gov/usao-nd/pr/two-maryland-men-sentenced-imprisonment-participating-romance-fraud-scheme',
+  },
+  {
+    name: 'Hawaii "Xavier Carter" Advance-Fee Investment Fraud',
+    slug: 'hawaii-xavier-carter-advance-fee-investment-fraud',
+    description: `Beginning around July 2015, Richard Patterson Jr. of Norco, California, adopted the alias "Xavier Carter," used a fabricated foreign accent to pose as a wealthy international financier, and worked with co-conspirators Dashawn Hill and Judy Ramos to solicit "advance payment" investments of between $5,000 and $550,000 from more than 15 victims, falsely promising the upfront money would cover fees for financial products generating risk-free returns of 200% to 1,000%. To make the scheme look credible, Patterson set up fictitious businesses — including Hawaiian Crush, Inc. and Aloha Aina, Ltd. in Hawaii, along with Securities and Trust of Switzerland AG (FSTS), Red Rock Equity Group, and Advance Development Group — and moved victims' money through bank accounts in Hawaii, Minnesota, and South Dakota, while he personally spent it on a luxury Ala Moana condominium, high-end goods, and travel rather than any investment. Patterson was indicted in the District of Hawaii in February 2022; a week before his October 2024 trial date he stopped communicating with his attorney, failed to appear for two hearings, and fled the Central District of California while out on bond, before eventually being located and pleading guilty. On March 11, 2026, he was sentenced in Honolulu to 68 months in federal prison and three years of supervised release, and ordered to pay $2,030,000 in restitution to his victims. The case underscores two durable warning signs: a promised "risk-free" return of hundreds or thousands of percent, and a promoter who claims foreign banking or trust credentials that cannot be independently verified — real financial products never guarantee outsized, guaranteed returns, and anyone offered one is encouraged to check the promoter's licensing with Hawaii's Department of Commerce and Consumer Affairs before sending any money.`,
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    state: 'HI',
+    alertLevel: 'high',
+    sources: ['U.S. Attorney\'s Office, District of Hawaii', 'Hawaii News Now'],
+    sourceUrl: 'https://www.justice.gov/usao-hi/pr/california-man-sentenced-over-5-years-federal-prison-multimillion-dollar-fraud-scheme',
+  },
+  {
+    name: 'Maine Standby Letter of Credit (SBLC) Investment Fraud',
+    slug: 'maine-standby-letter-of-credit-sblc-investment-fraud',
+    description: `Between March 2017 and March 2018, Russell Hearld of Sugar Land, Texas ran a scheme telling investors nationwide that a relatively small initial investment could be leveraged against a multimillion-dollar Standby Letter of Credit (SBLC) — a real category of bank payment guarantee that the scheme misused as bait — and would generate returns worth many times their initial investment within weeks. Investors were told their money would sit safely in a Florida attorney's trust account until a letter of credit was confirmed, but Hearld routinely emailed the attorney, Christopher Ochoa of Jacksonville, Florida, directing him to disburse the funds the moment they arrived rather than holding them as promised; one victim who held a Maine bank account wired $500,000 into that trust account in March 2017, only for it to be moved out the next day on Hearld's instruction, and the scheme raised roughly $3.5 million in total. Arthur Merson, 68, of Scottsdale, Arizona, acted as an intermediary who recruited investors directly, falsely telling them the deal was low-risk, that he had personally been involved in similar successful SBLC deals before, and that he stood to earn only a small finder's fee — concealing that he in fact held an undisclosed financial stake in the transaction. All three men were charged in the U.S. District Court for the District of Maine; Hearld, who used roughly $2.2 million of the proceeds on luxury vehicles including a Rolls-Royce, was sentenced in January 2022 to two years and five months in federal prison, and Merson pleaded guilty and was later sentenced to 15 months in prison, three years of supervised release, and over $3.4 million in restitution to victims. The case is a reminder that a "safe until closing" attorney trust account is only as safe as the instructions that attorney has been given, and that a promised return of many multiples of an investment within weeks — especially one tied to an exotic-sounding bank instrument like an SBLC — is a hallmark of advance-fee investment fraud rather than a legitimate opportunity.`,
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    state: 'ME',
+    alertLevel: 'high',
+    sources: ['U.S. Attorney\'s Office, District of Maine', 'Bangor Daily News'],
+    sourceUrl: 'https://www.justice.gov/usao-me/pr/arizona-man-sentenced-role-investment-fraud-scheme',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
