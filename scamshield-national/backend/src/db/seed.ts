@@ -33150,6 +33150,42 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'Lafayette "Frozen Bank Account" Wire Fraud Scheme',
+    slug: 'louisiana-lafayette-frozen-bank-account-wire-fraud-scheme',
+    description: `Felicia Young, 58, ran several small Lafayette, Louisiana businesses — ALA Floral 2, Kreole Ala 2, Johnston Street Drive-Thru, and F&B Rentals — that gave her a credible public presence and a wide circle of acquaintances she could approach for money. According to a federal grand jury indictment in the U.S. District Court for the Western District of Louisiana, Young used that local trust starting around March 2020 to run a years-long fraud scheme: she told victims her bank accounts had been frozen over an outstanding debt and asked them for loans or deposits to help "unlock" the funds, promising quick repayment. To make the lie convincing, she recruited Leisa Fuselier, 59, a Trinidad and Tobago citizen and U.S. lawful permanent resident, who posed as a representative of Young's financial institution on three-way phone calls, falsely confirming to victims that the accounts were indeed frozen and that Young needed the money to release them. Victims sent at least $1.5 million combined through CashApp, Venmo, personal checks, and cash withdrawals over the life of the scheme, and prosecutors separately allege Young obstructed the investigation in December 2023. A federal grand jury indicted both women on July 15, 2026, charging Young with conspiracy to commit wire fraud, wire fraud, and obstruction of justice, and Fuselier with conspiracy to commit wire fraud and wire fraud; each wire fraud count carries up to 20 years in federal prison. The case shows a distinctly local-trust version of the classic "frozen account" con — rather than a stranger cold-calling out of nowhere, the person asking for money was someone the victim already knew from a neighborhood business, with a second person on the line lending false institutional credibility to the story. Anyone asked to send money to help a friend, relative, or acquaintance unlock a "frozen" bank account should independently call their own bank or the person's bank using a number looked up separately — never one provided during the call — before sending anything.`,
+    categorySlug: 'family-emergency-scams',
+    country: 'US',
+    state: 'LA',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office for the Western District of Louisiana", 'KATC', 'KLFY', 'Yahoo News'],
+    sourceUrl: 'https://www.justice.gov/usao-wdla/pr/two-lafayette-women-indicted-sophisticated-million-dollar-fraud-scheme-targeting',
+  },
+  {
+    name: '"Nvest Portal" Fake Trading Ponzi Scheme',
+    slug: 'kentucky-nvest-portal-fake-trading-ponzi-scheme',
+    description: `Mihir Deepak Sukthankar, a 23-year-old Californian who had been profiled in Forbes and L'Officiel Monaco as a young trading "prodigy," ran a group of trading firms that solicited outside investors with promises of outsized returns from foreign-exchange and options trading. According to a federal indictment returned by a grand jury in the U.S. District Court for the Eastern District of Kentucky, Central Division, in August 2025, Sukthankar built a password-protected client website called the Nvest Portal that displayed fabricated account balances and invented trading gains, letting him show investors returns that were never actually being earned. Business associate Dylan Bryce Baker allegedly recruited a Lexington, Kentucky investor into the scheme, first convincing them to wire an initial $1 million and then, using the fake profits displayed on the Nvest Portal as proof the money was growing, persuading the same investor to send an additional $4.2 million to an account linked to one of Sukthankar's partners. Prosecutors say Sukthankar commingled investor money with his own personal funds and used newer deposits to cover both his personal expenses and payouts that made the scheme look profitable to earlier investors — the hallmark structure of a Ponzi scheme — with total losses estimated at roughly $5 million. Sukthankar was indicted on wire fraud, conspiracy to commit wire fraud, and money-laundering conspiracy; Baker was indicted on conspiracy to commit wire fraud and money-laundering conspiracy. Sukthankar was arrested in Tarrant County, Texas, on August 9, 2025. The case is a reminder that a slick-looking investor portal showing steadily rising account balances is not, by itself, proof that money is actually being invested anywhere — an investor should independently verify a fund manager's registration with the SEC or state securities regulators and confirm trading activity through an independent, third-party custodian rather than relying on numbers displayed on the manager's own website.`,
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    state: 'KY',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office for the Eastern District of Kentucky", 'The Lexington Times', 'Yahoo News'],
+    sourceUrl: 'https://lexingtonky.news/2025/08/13/california-trader-associate-accused-in-5m-kentucky-investment-scam/',
+  },
+  {
+    name: 'Krimm Financial Services Mortgage-Business Ponzi Scheme',
+    slug: 'delaware-krimm-financial-services-mortgage-ponzi-scheme',
+    description: `Matthew A. Krimm, then a 35-year-old former Rehoboth Beach, Delaware mortgage loan officer, formed Krimm Financial Services, LLC and told investors he ran a "highly successful" mortgage-origination business that was raising capital to expand. Krimm and KFS sold at least 25 investors more than $1.69 million in unregistered promissory notes, backed by offering documents and financial statements that the U.S. Securities and Exchange Commission later said were false — KFS conducted no actual mortgage lending business at all. Instead, according to the SEC's April 2017 civil complaint (Litigation Release No. 23811) and a parallel criminal case, Krimm used more than 75% of the new money coming in from investors to cover his own personal expenses and to make payments to earlier investors, maintaining the appearance that the business was profitable — the classic structure of a Ponzi scheme. Delaware's Department of Justice Investor Protection Unit, led by Deputy Attorney General William Green and Special Investigator Lester Johnson, obtained a 25-count indictment against Krimm from a Sussex County grand jury on April 26, 2017, following a year-long investigation, charging him with racketeering, eight counts of securities fraud, eight counts of felony theft, and eight counts of selling unregistered securities. The SEC pursued a parallel federal civil case, and on May 28, 2019, the U.S. District Court for the District of Delaware entered a default judgment against Krimm and KFS, ordering them to pay roughly $2 million in disgorgement and civil penalties and permanently barring them from further securities-law violations. The case underscores a rule Delaware's Investor Protection Unit repeats often: a promissory note or private investment tied to someone's personal business is not automatically registered or vetted by any regulator just because the person is a licensed professional in a related line of work, and an investor should independently confirm both the security's registration status (or valid exemption) and the underlying business's real financial statements before wiring any money.`,
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    state: 'DE',
+    alertLevel: 'high',
+    sources: ['Delaware Department of Justice — Investor Protection Unit', 'U.S. Securities and Exchange Commission', 'HousingWire', 'Dover Post'],
+    sourceUrl: 'https://news.delaware.gov/2017/04/26/mkin/',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
