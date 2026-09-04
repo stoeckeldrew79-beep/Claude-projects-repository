@@ -32246,6 +32246,43 @@ SEED_SCAMS.push(
   },
 );
 
+// Fourth push() batch — same TS2590 array-size workaround described above.
+SEED_SCAMS.push(
+  {
+    name: 'Mecca Barbershop Money Laundering Cell in $42 Million Elder Fraud Ring',
+    slug: 'california-mecca-barbershop-san-diego-elder-fraud-money-laundering',
+    description: `Victor Lee Marion ran Mecca Barbershop in the Miramar area of San Diego, California, but prosecutors say his real business was recruiting and running a local cell of money launderers for an international elder-fraud network that operated call centers out of India, Thailand, and the United Arab Emirates. The scheme, which the FBI's San Diego Elder Justice Task Force says ran since at least mid-2021, worked in two linked stages: victims first received pop-up warnings or experienced fake technical problems that funneled them to bogus "tech support" services charging for unnecessary fixes, then were told they had mistakenly been refunded far more money than they were owed and pressured to wire or mail the supposed overpayment back — money that, in reality, scammers had simply made appear in the victim's account using remote-access software rather than an actual transfer. Marion's role was to help the overseas operation get the money out of the country: prosecutors say he transferred millions of dollars in fraud proceeds to co-conspirators abroad, used his barbershop as a recruiting hub for local people willing to open bank accounts and register shell companies to collect victims' payments, and helped some co-conspirators relocate overseas for scam training. The FBI has described Marion as "the leader of the San Diego money laundering cell" in a case that ultimately named 22 defendants and identified more than 500 victims across the country who lost a combined total of over $42 million. Marion pleaded guilty on January 17, 2026, in the U.S. District Court for the Southern District of California, to one count of conspiracy to commit mail and wire fraud and one count of conspiracy to commit money laundering, becoming one of the first of the 22 charged defendants to admit guilt. The U.S. Attorney's Office for the Southern District of California warns that a legitimate tech-support company will never claim it accidentally overpaid a customer and demand the "extra" money be wired or mailed back, and that anyone asked to return a refund they never actually see reflected in their real bank balance — only in a support technician's remote screen-share — should stop the call and contact their bank and local FBI field office directly.`,
+    categorySlug: 'tech-support-scams',
+    country: 'US',
+    state: 'CA',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office for the Southern District of California", 'NBC 7 San Diego'],
+    sourceUrl: 'https://www.justice.gov/usao-sdca/pr/leader-local-money-laundering-cell-pleads-guilty-42-million-international-elder-fraud',
+  },
+  {
+    name: 'CAM Solar San Antonio Deceptive Solar Panel Sales Lawsuit',
+    slug: 'texas-cam-solar-san-antonio-deceptive-sales-lawsuit',
+    description: `CAM Solar Inc., a rooftop solar company headquartered in San Antonio that markets and installs residential solar-panel systems across Texas, is the target of a fraud lawsuit Texas Attorney General Ken Paxton's office filed on May 20, 2026 in Bexar County District Court. The suit grew out of a broader investigation into the rooftop solar industry that the Attorney General's office announced in April 2026 after fielding more than 100 consumer complaints, and it accuses CAM Solar of violating the Texas Deceptive Trade Practices Act by luring homeowners in with misrepresentations about how much they would save on their electric bills, overstating how much power the systems would actually generate, and failing to disclose maintenance fees buried in the fine print. According to the state's petition, some customers watched their systems stop producing power within a few years of installation with no meaningful response when they requested service, while others say the tax credits and rebates they were promised as part of the sales pitch never materialized. In one especially dramatic complaint cited by the state, panels detached entirely from a customer's roof less than a year after installation, damaging both that home and a neighboring property. The Attorney General's lawsuit seeks to stop CAM Solar's sales practices, secure restitution for affected Texans, and impose civil penalties under the DTPA. Texans considering rooftop solar are advised to get multiple independent quotes, verify a company's licensing and complaint history with the Better Business Bureau and the Texas Attorney General's Consumer Protection Division before signing anything, ask for the specific savings and production estimates in writing, and never sign a financing agreement on the spot under pressure from a door-to-door or in-home sales visit.`,
+    categorySlug: 'utility-scams',
+    country: 'US',
+    state: 'TX',
+    alertLevel: 'high',
+    sources: ["Texas Office of the Attorney General", 'KXAN Austin'],
+    sourceUrl: 'https://www.texasattorneygeneral.gov/news/releases/attorney-general-ken-paxton-sues-san-antonio-based-solar-company-fraudulent-sales-solar-panel',
+  },
+  {
+    name: 'Puppyland Predatory Puppy-Loan and Health-Guarantee Deception',
+    slug: 'washington-puppyland-predatory-loan-health-guarantee-deception',
+    description: `Puppyland, a chain of puppy stores operating in Washington state since 2018, was sued by the Washington Attorney General's Office in King County Superior Court in April 2023 for a set of sales practices the office says were designed to trap buyers rather than help them take home a healthy pet. According to the lawsuit, Puppyland misrepresented the breeding standards and health of the puppies it sold and then, when buyers relied on the store's advertised health guarantee after a sick puppy racked up veterinary bills, routinely failed to honor that guarantee. On the financing side, the office alleged Puppyland steered customers into signing predatory loans carrying interest rates approaching 200% — often on the spot, in-store, with little real opportunity to read or understand the terms before signing. The lawsuit also challenged non-disparagement clauses buried in Puppyland's purchase agreements, which the Attorney General's office says roughly 7,000 Washington customers signed since 2018 and which illegally barred them from posting truthful negative reviews about their experience. Puppyland resolved the case in January 2025, agreeing to pay $3.75 million — in installments accruing 12% annual interest until paid in full, due by June 30, 2026 — and to end the illegal advertising, financing, and non-disparagement practices at issue, with the state directing its restitution efforts toward customers left holding unreimbursed vet bills after a health guarantee wasn't honored. The Attorney General's office urges anyone buying a pet on credit to read financing paperwork in full before signing, ask what the effective annual interest rate actually is rather than relying on a monthly payment figure, get any health guarantee in writing, and never sign a non-disparagement or gag clause as a condition of a routine retail purchase.`,
+    categorySlug: 'online-shopping-scams',
+    country: 'US',
+    state: 'WA',
+    alertLevel: 'medium',
+    sources: ["Washington State Office of the Attorney General", 'KIRO 7', 'KING 5'],
+    sourceUrl: 'https://www.atg.wa.gov/news/news-releases/puppyland-pay-375-million-result-consumer-protection-lawsuit',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
