@@ -15579,6 +15579,9 @@ GUIDE_ARTICLES.push(
     slug: 'medicare-card-replacement-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'medicare-card-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Medical_Care_Card_USA_Sample.JPG?width=1200',
+    coverImageCredit: 'Centers for Medicare & Medicaid Services, Public Domain (U.S. federal government work) — sample card from the official "Medicare & You" handbook',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2014/10/ftc-halts-fake-medicare-scheme-took-money-seniors-bank-accounts',
     body: `Telemarketers working for a Florida operation called Sun Bright Ventures and its affiliated company Citadel ID Pro spent months calling Medicare beneficiaries around the country with a pitch built around a single, well-chosen lie: that a new Medicare card was on its way, and they just needed to confirm the beneficiary's bank account number to verify their identity before sending it. Callers assured victims no money would ever be taken from the account — it was strictly for verification, they said. According to the Federal Trade Commission, that promise was false. The company then withdrew either $399 or $448 directly from each victim's account using remotely created checks, a payment method that lets someone withdraw funds without the account holder's signature, and delivered nothing in return, not even the identity-theft protection service some victims were told they were paying for. The FTC obtained a federal court order in September 2014 freezing the defendants' assets and halting the scheme, ultimately securing a judgment of more than $1.4 million against defendant Benjamin Todd Workman, suspended after he paid $35,000 and surrendered certain bank accounts, along with a permanent ban on telemarketing deceptive healthcare offers.
 
@@ -15597,6 +15600,10 @@ Medicare will never call you first to ask for your Medicare number, Social Secur
     slug: 'fake-permit-invoice-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'permit-invoice-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Planning_Application_on_Signpost_-_geograph.org.uk_-_1062470.jpg?width=1200',
+    coverImageCredit: 'Photo: David Lally, CC BY-SA 2.0, via Wikimedia Commons',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.ic3.gov/PSA/2026/PSA260309',
     body: `In September 2025, the contractor Rochon Corporation got what looked like good news about a bid to install a digital sign at a Minneapolis middle school: an email, apparently from city planner Ben Carrier, said the company's sign variance had been recommended for approval, and that paying an attached $4,800 invoice would help it avoid administrative delays on the way to final authorization. The planner's name was real. The recommendation language sounded exactly like the kind of routine update a permit applicant actually receives. The email address was not — it had actually been sent from "Planning-Dept.CityOffMinneapolisMN@usa.com," a free consumer email account with the city's name stuffed into it, rather than any address ending in the city of Minneapolis's real government domain. Rochon's case was one of a wave the American Planning Association has since tracked hitting planning departments in Martinsville, Indiana; Miami; Houston; Las Vegas; Montclair, New Jersey; and Oskaloosa, Iowa, using real planner names — including Shawn Christ in Oskaloosa and Suvidha Bandi in Houston — copied straight off city staff directories. On March 9, 2026, the FBI's Internet Crime Complaint Center issued a public service announcement warning that criminals are impersonating city and county officials nationwide specifically to collect fraudulent planning and zoning permit fees.
 
