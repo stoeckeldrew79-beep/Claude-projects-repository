@@ -33925,6 +33925,39 @@ SEED_SCAMS.push(
 
 SEED_SCAMS.push(
   {
+    name: 'Swedish International Call-Center BankID Vishing Ring (Gothenburg Trial)',
+    slug: 'swedish-international-call-center-bankid-vishing-ring-gothenburg-trial',
+    description: `Fourteen defendants — ten men and four women — were charged with aggravated fraud after prosecutors say they ran call centers in multiple countries that systematically targeted elderly people across Sweden with sometimes hour-long phone calls, using the extended pressure of the conversation to manipulate victims into opening their BankID app and completing a signing that the caller framed as routine identity verification but that actually authorized an outgoing bank transfer. Senior prosecutor Petter Lundgren of the Swedish Prosecution Authority (Åklagarmyndigheten) said the group got victims to "genomföra signeringar med BankID" (complete signings with BankID) and thereby approve transfers out of their own accounts, ultimately taking in more than 17 million kronor from at least 139 people who came forward as injured parties; two alleged ringleaders were separately charged with aggravated assault against a call-center worker, accused of using violence to enforce discipline within the operation. Around 15 police officers built the case from spring 2023 onward, tracing the network from money launderers up through the call-center operators to its leadership and seizing a mix of cryptocurrency, real estate, vehicles, watches, gold, and cash as recoverable assets; the trial opened at Gothenburg District Court (Göteborgs tingsrätt, case B 22203-24) on April 9, 2025. The case illustrates why Swedish banks and police repeatedly warn that a BankID approval triggered mid-phone-call, however routine the caller makes it sound, should never be treated as a simple identity check — a genuine bank or authority never needs a customer to open BankID during an unsolicited call, and the appropriate response is to hang up and contact the institution directly using a number looked up independently.`,
+    categorySlug: 'account-takeover',
+    country: 'SE',
+    alertLevel: 'critical',
+    sources: ['Åklagarmyndigheten (Swedish Prosecution Authority)'],
+    sourceUrl: 'https://www.aklagare.se/for-media/pressmeddelanden/2025/mars/atal-vackt-mot-14-personer-for-grova-bedragerier-mot-aldre/',
+  },
+  {
+    name: 'Swedish Fake Police Messaging-App BankID Scam',
+    slug: 'swedish-fake-police-messaging-app-bankid-scam',
+    description: `Fraudsters contact victims through a popular messaging app rather than a phone call, setting their profile picture to the Swedish Police Authority's official logo and claiming in the chat or a voice call placed through the app to be a real police officer, then asking the recipient to "verify their identity" by approving a BankID request. The Polismyndigheten (Swedish Police Authority) issued a public warning on March 6, 2026 describing the scheme plainly: "Bedragarna ringer i polisens namn och använder polisens logotyp som profilbild" (the fraudsters call in the police's name and use the police logo as their profile picture), and stated flatly that "Polisen ringer aldrig upp via appar" (the police never call via apps). The warning instructs anyone contacted this way to hang up or end the chat immediately, never approve a BankID request for someone who called them out of the blue, save the caller's name and number for a police report, and report the contact through the non-emergency line 114 14 or at polisen.se — treating a police badge used as a chat-app profile photo as no more trustworthy than any other unverified claim of identity.`,
+    categorySlug: 'government-impersonation',
+    country: 'SE',
+    alertLevel: 'high',
+    sources: ['Polismyndigheten (Swedish Police Authority)'],
+    sourceUrl: 'https://polisen.se/aktuellt/nyheter/nord/2026/mars/varning-for-bedragare-som-anvander-polisens-logotyp/',
+  },
+  {
+    name: 'Swedish Fake Online Health Assessment Invoice Scam',
+    slug: 'swedish-fake-online-health-assessment-invoice-scam',
+    description: `Social media ads invite users to answer a short, seemingly free "health assessment" questionnaire on sites such as hälsobedömning.com, bedömahälsa.com, or halsaliv.com — a Konsumentverket (Swedish Consumer Agency) spokesperson described the pattern directly: "Här handlar det om annonser som dyker upp i sociala medier där du uppmanas att svara på några frågor om din hälsa. I efterhand har man fått en faktura på 900 kronor för resultatet" (ads appear on social media asking you to answer a few questions about your health, and afterward you receive an invoice for 900 kronor for the results) — with the actual price left unclear or never disclosed before the quiz is completed. A related version of the scam sends emails designed to look like they come from Folkhälsomyndigheten (the Public Health Agency of Sweden), telling recipients they must complete an "obligatory" health check, then similarly billing them afterward. Konsumentverket logged more than 800 complaints in total — 369 filed directly with the agency since July 2024 plus 456 more through its guidance service and Konsument Europa — with many consumers reporting that unpaid invoices quickly escalate into added fees and debt-collection threats and that the operators are difficult or impossible to reach. Both Folkhälsomyndigheten and Konsumentverket have labeled the emails and invoices "bluff" (fraud) and advise recipients not to pay, to dispute any invoice in writing with proof of delivery, to screenshot all contact attempts before and after disputing, and to formally contest any subsequent debt-collection demand so it does not result in a payment remark on their credit record.`,
+    categorySlug: 'healthcare-fraud',
+    country: 'SE',
+    alertLevel: 'medium',
+    sources: ['Konsumentverket (Swedish Consumer Agency)', 'Dagens PS'],
+    sourceUrl: 'https://www.konsumentverket.se/fragor-och-svar/3186930/faktura-efter-halsoutvardering-i-mejl-fran-folkhalsomyndigheten-maste-jag-betala/',
+  },
+);
+
+SEED_SCAMS.push(
+  {
     name: 'Michael Zeto Las Vegas Fraudulent Check Scheme',
     slug: 'nevada-michael-zeto-fraudulent-check-scheme',
     description: `Michael Zeto, a 76-year-old Las Vegas man, partnered with telemarketers operating overseas who fed him the names, bank account numbers, and other personal information of American consumers who had supposedly purchased products by phone. Using that stolen account data, Zeto created fraudulent "remotely created checks" made payable to shell companies he controlled, then opened accounts with U.S. banks and payment processors to deposit them and drain money directly out of victims' checking accounts — many of them retirees and other older Americans who never authorized any purchase or payment. A federal grand jury in Nevada returned a 20-count indictment against Zeto on April 22, 2022, charging him with wire fraud, bank fraud, and aggravated identity theft; he faced a maximum of 20 years for wire fraud, 30 years for bank fraud, and a mandatory consecutive two years for aggravated identity theft. Zeto later pleaded guilty. Acting U.S. Attorney Christopher Chiou said his office would "continue to prosecute fraudsters" working with the Justice Department's Consumer Protection Branch, while FDIC Office of Inspector General Special Agent Kathy A. Enstrom said the agency "remains committed to working with our law enforcement partners to pursue those who seek to defraud banking customers." The case illustrates how a legitimate-sounding phone sale can be a front for handing a victim's bank account number to a separate criminal ring that turns it into a forged check months later — a reason to review bank and credit card statements regularly for unrecognized charges rather than assuming a purchase never made means no risk exists.`,
