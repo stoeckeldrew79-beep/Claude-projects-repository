@@ -236,10 +236,9 @@ Enron remains the reference case for a specific kind of fraud — not a lone con
     title: "Wirecard: Germany's Biggest Fraud, and the Executive Who Vanished",
     slug: 'wirecard-jan-marsalek-fraud',
     author: 'ScamShield Editorial',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Wirecard-aschheim-2019.jpg?width=1200',
-    coverImageCredit: 'Photo: Kaethe17 (CC BY-SA 4.0)',
-    coverImagePosition: 50,
-    // representative photo — replace with a more specific case photo if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Markus_Braun.png?width=1200',
+    coverImageCredit: 'Photo: Leo Molatore (CC BY-SA 2.0) — Wirecard CEO Markus Braun, who stood trial over the fraud; his co-executive Jan Marsalek remains a fugitive with no known rights-cleared photo',
+    coverImagePosition: 35,
     tags: ['notorious'],
     body: `Wirecard was a German payments-processing company that grew, on paper, into one of Europe's most valuable fintech firms, joining the prestigious DAX 30 index of Germany's largest public companies in 2018 — a rare feat for a company barely two decades old.
 
