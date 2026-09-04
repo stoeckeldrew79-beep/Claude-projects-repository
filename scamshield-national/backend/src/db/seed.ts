@@ -30615,18 +30615,6 @@ const SEED_SCAMS: SeedScam[] = [
     sourceUrl: 'https://www.wsaw.com/2026/04/19/wisconsin-officials-warn-million-dollar-lottery-scam-delivered-by-priority-mail/',
   },
   {
-    name: 'North Dakota "Domain Directory" Deceptive Invoice Scheme (Lake Holdings)',
-    slug: 'north-dakota-lake-holdings-domain-directory-deceptive-invoice-scheme',
-    description:
-      'A company operating under the names Domain Networks, North Dakota Domain Directory, and My Safe Domain mailed North Dakota small businesses, public entities, churches, and nonprofit organizations invoice-like solicitations formatted with formal billing language and payment deadlines, designed to look as though payment was required for domain-registration or directory-listing services the recipient never ordered. Recipients who paid, believing it was a legitimate renewal notice from their actual domain registrar, were in fact paying an unrelated third party for a service they hadn\'t purchased. North Dakota Attorney General Drew Wrigley announced a settlement with the company\'s operator, Lake Holdings, LLC, in February 2026 resolving allegations that the mailers violated the state\'s Consumer Fraud Law; the settlement, entered without an admission of wrongdoing, requires Lake Holdings to notify every eligible North Dakota entity within 30 days and offer full refunds. Wrigley noted that "churches, nonprofit organizations, and small businesses work hard to serve their communities, often with limited staff and resources," making them frequent targets for exactly this kind of deceptive mailer. Any invoice-style mailer for a recurring service should be checked against the organization\'s actual vendor records before payment, regardless of how official the letterhead looks.',
-    categorySlug: 'business-email-compromise',
-    country: 'US',
-    state: 'ND',
-    alertLevel: 'medium',
-    sources: ["North Dakota Attorney General's Office"],
-    sourceUrl: 'https://attorneygeneral.nd.gov/attorney-general-wrigley-announces-settlement-with-company-behind-deceptive-invoice-solicitations/',
-  },
-  {
     name: 'Swedish "Robotröst" Automated Police Impersonation Call',
     slug: 'sweden-robotrost-automated-police-call-scam',
     description:
