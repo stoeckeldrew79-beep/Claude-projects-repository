@@ -33186,6 +33186,39 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'Japanese Door-to-Door Electricity Retailer Switching Scam',
+    slug: 'japan-door-to-door-electricity-switching-scam',
+    description: `A salesperson goes door to door — heavily targeting people who just moved into a new apartment, students, and young renters between March and June — falsely claiming to represent a customer's existing utility or a partner acting on its behalf, and asks to see the resident's meter reading slip (検針票) to "confirm" their current plan. The pitch then leans on social pressure ("everyone else in the building has already switched") or a false sense of obligation to get the resident to sign a contract switching their electricity retailer on the spot, often to a plan with worse rates than the one advertised, without clearly disclosing that a new supplier is being substituted. Japan's National Consumer Affairs Center has specifically flagged this door-to-door switching pitch as a recurring seasonal trouble spot since the 2016 retail electricity liberalization; because it qualifies as a door-to-door sale under the Act on Specified Commercial Transactions, a resident who signs still has an 8-day statutory cooling-off period to cancel in writing, no reason required.`,
+    categorySlug: 'utility-scams',
+    country: 'JP',
+    alertLevel: 'medium',
+    sources: ['National Consumer Affairs Center of Japan (NCAC)'],
+    sourceUrl: 'https://www.kokusen.go.jp/news/data/n-20250422_1.html',
+  },
+  {
+    name: 'Japanese TEPCO Impersonation Unpaid Electricity Bill Phishing SMS',
+    slug: 'japan-tepco-unpaid-electricity-bill-phishing-sms',
+    description: `A text message or email impersonating Tokyo Electric Power Company (TEPCO), Japan's largest electric utility, claims an electricity bill is unpaid and that the recipient's payment method "could not be approved," then manufactures urgency by warning that power will be cut off within a set window — messages citing "within 24 hours" or "in 2 hours" have both been reported — unless payment is completed immediately through a link. The link leads to a convincing fake TEPCO payment page built to harvest credit card numbers, expiration dates, and security codes. Japan's Council of Anti-Phishing Japan issued an urgent alert after a surge of these messages in March 2024, and TEPCO's own security notice confirms it never sends threatening same-day disconnection demands by text or email; the utility's real SMS payment requests only ever originate from a small set of published sender numbers, and any unexpected "unpaid bill" link should be checked by logging into the official TEPCO site directly rather than tapping through.`,
+    categorySlug: 'utility-scams',
+    country: 'JP',
+    alertLevel: 'high',
+    sources: ['Council of Anti-Phishing Japan', 'Tokyo Electric Power Company (TEPCO)'],
+    sourceUrl: 'https://www.antiphishing.jp/news/alert/tepco_20240315.html',
+  },
+  {
+    name: 'Japanese "Sakura Site" Fake Dating Platform Scam',
+    slug: 'japan-sakura-site-fake-dating-scam',
+    description: `A dating, matchmaking, or "consultation" website — sometimes reached through an unsolicited text or a social media ad — is secretly staffed by "sakura," paid shills hired by the site operator itself to pose as a romantic prospect, a lonely celebrity asking for encouragement, a fortune teller, or someone offering an easy side job or a cash gift. Every message exchanged on the site costs the user points that must be purchased with real money, so the sakura's entire job is to keep the conversation going indefinitely — promising an in-person meeting, a prize, or a payout that never actually arrives — while the user keeps buying more points to keep messaging. Unlike a typical one-on-one romance scam, the fraud is run structurally by the platform operator profiting from prolonged engagement rather than by a single scammer requesting a lump-sum payment. Japan's Consumer Affairs Agency (消費者庁) has published a standing consumer-caution page on these "sakura site" schemes, warning that any messaging site charging per-message fees where a promised in-person meeting keeps getting delayed should be treated as a likely scam.`,
+    categorySlug: 'romance-scams',
+    country: 'JP',
+    alertLevel: 'medium',
+    sources: ['Consumer Affairs Agency (Japan)'],
+    sourceUrl: 'https://www.caa.go.jp/policies/policy/consumer_policy/caution/internet/trouble/sakura.html',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
