@@ -8200,6 +8200,50 @@ The Krion case remains one of the starkest illustrations South Africa has produc
   },
 );
 
+NOTORIOUS_ARTICLES.push(
+  {
+    title: 'Philip Cummings and the Help-Desk Job That Became a 30,000-Victim Identity Theft Ring',
+    slug: 'philip-cummings-teledata-identity-theft-ring',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Thurgood_Marshall_United_States_Courthouse,_New_York.jpg?width=1200',
+    coverImageCredit: 'Photo: Mike Peel, Wikimedia Commons (CC BY-SA 4.0) — the Thurgood Marshall U.S. Courthouse in Manhattan, home to the Southern District of New York, where Philip Cummings was prosecuted and sentenced',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    body: `Philip Cummings took a help-desk job at Teledata Communications Inc. (TCI), a Long Island software firm, in mid-1999. TCI's product gave subscribing banks and finance companies computerized access to consumer credit reports from all three national credit bureaus — Equifax, Experian, and TransUnion — through passwords and subscriber codes TCI issued to each client. As a support technician, Cummings had access to those credentials for troubleshooting purposes. According to federal prosecutors, he decided to sell them.
+
+Cummings began supplying stolen passwords and subscriber codes to a contact with ties to a Bronx- and Brooklyn-based identity-theft ring, which paid $60 for each credit report pulled using the stolen credentials, with the proceeds split between Cummings and his contact. At first, prosecutors said, Cummings personally used a laptop to download the reports himself using lists of names and Social Security numbers the ring supplied; he later handed over a pre-programmed computer and taught members of the ring how to query the credit bureaus' systems directly, letting the scheme scale far beyond what one person pulling reports individually could manage. When TCI's clients changed their passwords, he supplied new ones. He left TCI in March 2000, but the scheme did not stop with his employment — investigators said Cummings and his co-conspirators went on to impersonate legitimate TCI subscribers, including Ford Motor Credit Company and Washington Mutual Bank, to keep pulling credit reports directly from Experian's systems for nearly three more years.
+
+Each stolen credit report gave the ring everything needed to open new credit lines, drain bank accounts, and take out loans in a stranger's name — a report contains a person's full Social Security number, employment and address history, existing account numbers, and credit limits. Federal investigators eventually tied the operation to more than 30,000 victims and losses estimated between $50 million and $100 million, at the time the largest identity-theft case the U.S. Department of Justice had ever prosecuted. A grand jury in the Southern District of New York indicted Cummings in November 2002; two of his downstream buyers, Linus Baptiste and Hakeem Muhammad, were separately charged and pleaded guilty that same year for using the stolen reports to defraud individual victims.
+
+Cummings pleaded guilty on September 14, 2004, to conspiracy and wire fraud. U.S. District Judge George B. Daniels sentenced him on March 9, 2005, to 14 years in federal prison — rejecting defense arguments for leniency based on Cummings' health — in a case prosecuted by the U.S. Attorney's Office for the Southern District of New York under then-U.S. Attorney James Comey. At the time, it stood as the longest sentence ever handed down for an identity-theft offense in the United States.
+
+The Cummings case became an early, formative example — cited for years afterward in identity-theft prevention guidance from the FTC and consumer advocates — of a lesson that predates most of the phishing emails and fake tech-support calls that dominate identity theft today: the biggest exposure in a credit-reporting system built on trusted intermediaries isn't always a hacker breaking in from outside, but an insider with legitimate access who simply decides to start selling it, one password at a time, to people who were never supposed to have it.`,
+    sourceUrl: 'https://www.justice.gov/archive/criminal/cybercrime/press-releases/2002/cummingsIndict.htm',
+  },
+  {
+    title: "Bernard Tapie and the €403 Million Arbitration France's Courts Later Called Fraud",
+    slug: 'bernard-tapie-adidas-arbitration-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Bernard_Tapie_2012.JPG?width=1200',
+    coverImageCredit: 'Photo: Gind2005 (derivative by JJ Georges), Wikimedia Commons (CC BY-SA 3.0) — Bernard Tapie in 2012',
+    coverImagePosition: 50,
+    body: `Bernard Tapie was, by turns, one of the most famous businessmen, football club presidents, government ministers, and television personalities in modern France — a self-made corporate turnaround specialist who bought struggling companies cheap, a president of Olympique de Marseille who led the club to five straight French championships and the 1993 UEFA Champions League title, briefly a cabinet minister, and later an actor and talk-show host. It was a dispute over one of his corporate deals, though, that would occupy French courts for the better part of three decades and end with judges concluding that Tapie had walked away with hundreds of millions of euros he was never actually owed.
+
+In 1990, Tapie bought the sporting-goods maker Adidas for roughly 1.6 billion francs, financed through loans arranged by the partly state-owned bank Crédit Lyonnais. When mounting debts forced him to sell Adidas in 1993, Crédit Lyonnais handled the sale through an intermediary structure, and the company was resold within two years for a price dramatically higher than what Tapie had received — a gap he spent the next twenty years arguing was proof the bank had defrauded him, either by secretly holding an interest in the resale itself or by deliberately undervaluing the company to profit from it later.
+
+Rather than let the dispute run through France's ordinary courts, the French government — by then the effective owner of Crédit Lyonnais' bad debts through a state entity called the Consortium de Réalisation (CDR) — agreed in 2007 to resolve the claim through private arbitration, an unusual choice for a matter involving public money. Finance Minister Christine Lagarde, who would go on to lead the International Monetary Fund and later the European Central Bank, approved sending the case to a three-member arbitration panel rather than contesting the resulting award through appeal. On July 7, 2008, that panel ordered the CDR to pay Tapie approximately €403 million, including €45 million for "moral prejudice" — an outcome French media and opposition politicians immediately criticized as an extraordinarily generous, and extraordinarily fast, resolution of a claim the ordinary courts had valued far lower just years earlier.
+
+The arbitration unraveled once investigators started asking who had actually decided it. Prosecutors found that one of the three arbitrators, retired judge Pierre Estoup, had undisclosed prior professional ties to Tapie's own lawyer, Maurice Lantourne — a conflict neither the panel nor the CDR had been told about before the ruling. A Paris court reopened the case, and on December 3, 2015, the Cour d'appel de Paris annulled the entire arbitration award, ruling it had been obtained through fraud, and ordered Tapie to repay the full €403 million plus years of accumulated interest — a sum his lawyers said left him financially ruined. Lagarde herself was separately tried before France's Cour de Justice de la République, a special tribunal for ministerial conduct, which found her negligent in approving the arbitration route but imposed no punishment, in a December 2016 ruling.
+
+The criminal case built around the arbitration itself — charging Tapie, Lantourne, Estoup, and former CDR officials with organized fraud — took years longer to reach trial and ended in a result that startled the civil courts that had already ruled against Tapie: on July 9, 2019, a Paris criminal court acquitted every defendant, finding the evidence insufficient to prove the arbitration had been deliberately rigged, even as the earlier civil annulment for fraud stood. Prosecutors appealed the acquittal, but the appeal never reached a final verdict — Tapie, who had been diagnosed with stomach and esophageal cancer the year before, died in Paris on October 3, 2021, at age 78, with the criminal proceedings against him still formally unresolved.
+
+Tapie's case remains a singular illustration, cited repeatedly in French legal and political commentary, of how thin the line can run between a legitimate settlement and a laundered one when a state chooses private arbitration over open court for a dispute involving public money: the same set of facts produced a maximal payout from three arbitrators behind closed doors, a unanimous finding of fraud from an open appellate court once the arbitrators' conflicts came to light, and, in the end, a criminal acquittal that left the question of Tapie's own culpability formally undecided at the moment he died.`,
+    sourceUrl: 'https://en.wikipedia.org/wiki/Bernard_Tapie',
+  },
+);
+
 // Practical "how it works / red flags / what to do" guides covering the
 // major scam categories, the same kind of coverage the FTC's Consumer
 // Advice site and AARP's Fraud Watch Network publish — well-documented
