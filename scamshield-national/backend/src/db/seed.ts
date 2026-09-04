@@ -31950,6 +31950,43 @@ SEED_SCAMS.push(
   },
 );
 
+// Seventh push() batch — same TS2590 array-size workaround described above.
+SEED_SCAMS.push(
+  {
+    name: 'Philadelphia Municipal Court Fake Parking Ticket Text Scam',
+    slug: 'pennsylvania-municipal-court-parking-ticket-text-scam',
+    description: `Pennsylvania Attorney General Dave Sunday issued a consumer alert on February 19, 2026 warning residents about a wave of fraudulent text messages and emails impersonating municipal courts — most commonly Philadelphia Municipal Court — that falsely claim the recipient has an unpaid parking ticket and must pay immediately or face additional fines, a suspended driver's license, or further court enforcement action. The messages include a link that leads to a fake payment page designed to harvest a victim's credit card number and personal information, relying on the same fear, urgency, and embarrassment tactics common to other government-impersonation smishing schemes, but tailored specifically to Pennsylvanians by invoking a real, familiar local court. "Scammers rely on fear, urgency, and embarrassment to pressure people into acting quickly," Sunday said, adding that government agencies do not conduct official business through unsolicited text messages and that most agencies do not email residents unless they requested it first. The Attorney General's office advises anyone who receives one of these messages not to click the link, to verify any claimed parking ticket directly through Philadelphia Municipal Court's own official website or by calling a number looked up independently rather than one provided in the message, and to report the fraudulent message as spam through their phone or email provider before blocking the sender. Consumers who believe they have already entered payment information on a fraudulent site should contact their bank or card issuer immediately and file a complaint with the Attorney General's Bureau of Consumer Protection at 1-800-441-2555, including a copy of the fraudulent message.`,
+    categorySlug: 'government-impersonation',
+    country: 'US',
+    state: 'PA',
+    alertLevel: 'high',
+    sources: ['Pennsylvania Office of Attorney General'],
+    sourceUrl: 'https://www.attorneygeneral.gov/taking-action/attorney-general-sunday-warns-pennsylvanians-of-scam-messages-impersonating-municipal-court/',
+  },
+  {
+    name: 'Act for Cause Nonprofit Self-Dealing Charity Fraud',
+    slug: 'minnesota-act-for-cause-nonprofit-self-dealing-fraud',
+    description: `Act for Cause, a Minnesota nonprofit corporation whose stated mission was to provide employment assistance, community support, and access to housing and job resources, was founded and run by Rajesh Mehta as what Minnesota Attorney General Keith Ellison's office alleges was effectively a personal piggy bank rather than a charity. According to the lawsuit Ellison's office filed on January 6, 2026, Mehta commingled the nonprofit's finances with his own personal accounts, used Act for Cause's bank accounts to pay for his son's college tuition, piano lessons, gym memberships, personal property taxes, and car payments, and made large, unexplained cash withdrawals from the organization's funds. The lawsuit also alleges Mehta rented nonprofit property to roughly ten to fifteen tenants while personally profiting from the for-profit tenants among them, and that when the arrangement wound down he transferred a commercial property valued at roughly $1 million to his own for-profit corporation without any compensation flowing back to Act for Cause. On top of the alleged self-dealing, the complaint describes basic governance failures — Act for Cause lacked a properly constituted board of directors, never held required annual board meetings, and failed to maintain adequate financial records — that the Attorney General's office says amount to breaches of fiduciary duty on top of the direct misuse of charitable assets. "It is appalling that the defendant founded and used a nonprofit to serve his own personal interests," rather than the Minnesotans it claimed to help, the Attorney General's office said in announcing the suit, which seeks to recover the diverted assets and hold Mehta accountable under Minnesota's nonprofit governance laws. Donors can check a charity's registration, governance, and financial filings before giving through the Attorney General's Charities Division, and can report suspected charity fraud online at ag.state.mn.us or by calling (651) 296-3353 in the Twin Cities or (800) 657-3787 elsewhere in Minnesota.`,
+    categorySlug: 'charity-scams',
+    country: 'US',
+    state: 'MN',
+    alertLevel: 'medium',
+    sources: ["Minnesota Attorney General's Office"],
+    sourceUrl: 'https://www.ag.state.mn.us/Office/Communications/2026/01/06_ActForCause.asp',
+  },
+  {
+    name: 'Gallatin Revoked-License Insurance Agent Elder Annuity Fraud',
+    slug: 'tennessee-gallatin-revoked-license-insurance-annuity-fraud',
+    description: `Johnny Ray Jackson, 55, of Gallatin, Tennessee, had his insurance license revoked by the Tennessee Department of Commerce and Insurance back on October 26, 1999, after regulators found he had altered policy dates, misappropriated premium payments, and failed to properly reimburse clients. Rather than stop, Jackson kept selling insurance illegally in Sumner County for more than two decades under a string of business names, including Senior Health and Wealth Marketing, and in one case fraudulently transferred an elderly client's annuity funds without the client's knowledge or consent, pocketing a commission of more than $3,000 while leaving the victim to absorb substantial financial penalties. A Sumner County grand jury indicted Jackson and five co-defendants on October 4 on charges spanning conspiracy, identity theft, financial exploitation of the elderly, and money laundering, following a joint investigation by the Tennessee Bureau of Investigation and the Tennessee Department of Commerce and Insurance. Jackson was ultimately convicted on two felony counts of impersonating a licensed professional, and on July 10, 2025, Sumner County Criminal Court Judge Dee David Gay sentenced him to 10 years at 45% service, with 365 days to be served day-for-day in the Sumner County Jail followed by nine years of supervision under Community Corrections. Assistant District Attorneys Thomas Dean and Christopher Boiano prosecuted the case, and the Sumner County District Attorney's Office said it "remains committed to protecting Tennessee residents — especially the elderly — from financial exploitation." Before doing business with anyone selling insurance or annuity products, Tennesseans can verify an agent's license is active and in good standing through the Tennessee Department of Commerce and Insurance's online license lookup, and should be especially wary of any agent who initiates a transfer or "rollover" of an existing annuity without a clear, independently verified reason.`,
+    categorySlug: 'insurance-fraud',
+    country: 'US',
+    state: 'TN',
+    alertLevel: 'high',
+    sources: ['Sumner County District Attorney’s Office', 'Tennessee Bureau of Investigation', 'Sumner County Source'],
+    sourceUrl: 'https://sumnercountysource.com/sumner-county-man-gets-10-years-for-insurance-fraud-targeting-elderly-client/',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
