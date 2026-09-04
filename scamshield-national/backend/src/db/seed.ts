@@ -16168,6 +16168,10 @@ The most effective fix is avoiding paper checks in the mail stream altogether wh
     slug: 'living-trust-seminar-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'living-trust-seminar-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Manhattan_Beach,_N.Y.,_April_4,_2013_--_FEMA_for_Seniors_visited_the_JASA_Brighton_Beach-Manhattan_Beach_Senior_Center._Community_Relations_Specialists_gave_a_presentation_on_disast_-_DPLA_-_55e5b95acd5d62d976bf38fc375eb420.jpg?width=1200',
+    coverImageCredit: 'Photo: Kenneth C. Wilsey / FEMA, public domain',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://oag.ca.gov/consumers/general/living_trust_scams',
     body: `An invitation arrives by mail, a phone call, or a flyer posted at a church or senior center: a free seminar on living trusts, wills, and how to "avoid probate," often with a free lunch or dinner included. The room is set up like an ordinary community education event, and the presenter — introduced as an estate planner or financial expert — spends the first stretch of the talk on genuinely useful-sounding information about what a living trust is and why probate can be slow and expensive. What isn't disclosed up front is that the seminar exists to generate sales leads, not to educate.
 
