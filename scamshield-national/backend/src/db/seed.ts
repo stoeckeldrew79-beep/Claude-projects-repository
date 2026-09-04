@@ -8416,6 +8416,41 @@ Foster's case became a reference point in UK financial-fraud enforcement for how
   },
 );
 
+NOTORIOUS_ARTICLES.push(
+  {
+    title: 'James Nicholson and the $133 Million Westgate Capital Ponzi Scheme',
+    slug: 'james-nicholson-westgate-capital-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `James Michael Nicholson founded Westgate Capital Management LLC, an unregistered hedge fund manager based in New York City, and served as its president, senior portfolio manager, and sole managing member. Starting at least in 2004, Nicholson told investors that Westgate had assets under management ranging from $600 million to $900 million — a figure the SEC would later find was, in truth, materially inflated. He raised money across several affiliated funds, including the Westgate Strategic Growth Fund and the Westgate Absolute Return Fund, marketing them to investors as consistently profitable, low-volatility vehicles run by a disciplined, successful trader.
+
+The pitch rested on numbers Nicholson simply made up. Marketing brochures for the Strategic Growth Fund claimed positive returns in every single month from January 2004 through August 2008, and a brochure for another Westgate fund claimed positive returns in 98 of 99 consecutive months — an unbroken run regulators later said was fabricated to project an almost impossible-looking track record. To make the claims look independently verified, Nicholson provided investors with a private offering memorandum falsely stating that the Strategic Growth Fund was audited by an independent accounting firm in New York; the SEC's subsequent civil complaint alleged he had gone so far as to invent a fictitious accounting firm, using a real accountant's name along with his own phone number and driver's license, to issue fake audited financial statements. When one of Westgate's funds suffered real losses tied to its exposure to the collapsed Lehman Brothers, Nicholson closed it and folded its remaining assets into another Westgate fund rather than disclose the loss to investors.
+
+As redemption requests mounted during the 2008 financial crisis, Nicholson kept the scheme running the way most Ponzi schemes eventually break down: by using new investors' money, and whatever cash remained, to pay off investors who wanted out, while blaming those who asked for their money back for "irrational behavior." At least one investor was paid with a check that bounced. The FBI arrested Nicholson on February 25, 2009, the same day the SEC filed a civil fraud complaint against him and Westgate in the U.S. District Court for the Southern District of New York, seeking an asset freeze, disgorgement, and penalties. A federal grand jury in the Southern District of New York indicted him on April 23, 2009.
+
+On December 11, 2009, Nicholson pleaded guilty before U.S. District Judge Richard J. Sullivan to three felony counts — securities fraud, investment adviser fraud, and mail fraud — admitting that, as a result of his Ponzi scheme, investors had suffered losses of approximately $133 million. Manhattan U.S. Attorney Preet Bharara said Nicholson had "swindled his victims out of $133 million by making false assurances and claiming false profits." On October 29, 2010, Judge Sullivan sentenced Nicholson, then 44, to 40 years in federal prison, followed by three years of supervised release, and ordered him to pay more than $140 million in restitution and forfeit more than $131 million in proceeds from his crimes. Bharara noted at sentencing that Nicholson had "victimized hundreds of investors and swindled more than $100 million for personal gain."
+
+The Westgate case became one of the wave of Ponzi-scheme prosecutions that followed the 2008 financial crisis, when the sudden rush of investor redemptions exposed fund managers, Bernie Madoff most famously among them, who had been fabricating returns rather than actually investing the money entrusted to them. Nicholson remains incarcerated at the Federal Correctional Institution in Otisville, New York, with a projected release date in 2043, when he would be in his late seventies.`,
+    sourceUrl: 'https://www.justice.gov/archive/usao/nys/pressreleases/October10/nicholsonjamessentencingpr.pdf',
+  },
+  {
+    title: 'Chalana McFarland and the Atlanta Identity-Theft Mortgage Fraud Ring',
+    slug: 'chalana-mcfarland-atlanta-mortgage-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Chalana McFarland was a real estate closing attorney running her own firm, the McFarland Law Firm, in the Atlanta, Georgia area when she became the leader and organizer of an extensive mortgage fraud ring that operated from mid-1999 through late 2002. Rather than simply falsifying a handful of loan files, prosecutors described McFarland as the hub of a scheme that touched more than a hundred properties and diverted more than $20 million in fraudulently obtained mortgage loans.
+
+The scheme worked on two fronts at once. To qualify buyers who had no real ability to repay the loans, McFarland's ring used stolen identities and false Social Security numbers as borrowers, and separately recruited and paid straw borrowers, listing fabricated employment, income, assets, and liabilities on loan applications submitted to banks and mortgage lenders. Prosecutors said McFarland personally paid for each stolen identity used in the scheme. To make the underlying properties appear to justify the inflated loan amounts, she paid more than $400,000 to a cooperating real estate appraiser who supplied artificially inflated property valuations. As the closing attorney, McFarland was positioned at the one point in the transaction where all of that fabricated paperwork converged — and where the fraudulently inflated loan proceeds could be pulled out at closing.
+
+Once loans closed, the excess proceeds were laundered through the McFarland Law Firm's escrow accounts and funneled out to a network of shell companies for the benefit of McFarland and her co-conspirators, obscuring where the stolen mortgage money actually went. The scale and organization of the operation — one attorney sitting at the center of stolen identities, straw buyers, a paid appraiser, and her own escrow accounts — made it one of the largest mortgage fraud prosecutions to come out of Atlanta in the early 2000s, years before mortgage fraud became a nationally recognized crisis during the subprime collapse.
+
+McFarland was indicted along with numerous co-defendants and went to trial rather than pleading guilty. In 2005, a jury convicted her on 169 counts, including conspiracy, bank fraud, wire fraud, mail fraud, aggravated identity theft, fraudulent use of Social Security numbers, money laundering, obstruction of justice, and perjury. She was sentenced to 30 years in federal prison — a term far longer than those given to co-defendants who pleaded guilty and cooperated, some of whom received sentences of only a few years, a disparity McFarland and her supporters later cited as excessive given that she was a first-time offender. She was disbarred following her conviction.
+
+McFarland served roughly fifteen years of the sentence before President Trump granted her clemency on January 20, 2021, one of seventy people who received clemency grants that day. The White House's stated rationale credited her with alerting authorities to a potential threat against the federal prosecutor on her case and noted she had been a "model inmate." She was released to home confinement and has since spoken publicly about the sentencing disparities in her case as part of criminal-justice-reform advocacy. Her case remains a reference point in discussions of mortgage fraud and identity theft prosecutions from the pre-financial-crisis housing boom, and of the wide sentencing gaps that can separate a defendant who goes to trial from co-defendants who plead guilty and cooperate.`,
+    sourceUrl: 'https://www.candoclemency.com/chalana-mcfarland/',
+  },
+);
+
 // Practical "how it works / red flags / what to do" guides covering the
 // major scam categories, the same kind of coverage the FTC's Consumer
 // Advice site and AARP's Fraud Watch Network publish — well-documented
