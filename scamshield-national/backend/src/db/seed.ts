@@ -31616,6 +31616,44 @@ SEED_SCAMS.push(
   },
 );
 
+// Fifth push() batch — same TS2590 array-size workaround described above.
+SEED_SCAMS.push(
+  {
+    name: 'Mystic Widower Lottery-Fee Fraud (Stieve Fernandez)',
+    slug: 'connecticut-mystic-stieve-fernandez-lottery-fee-fraud',
+    description: `Between roughly 2015 and 2018, an elderly man in Mystic, Connecticut received a string of phone calls from a man using the aliases "Damian Jackson," "Jesse Jackson," and "Huckleberry Finn," who convinced him he had won a lottery or sweepstakes prize and needed to pay a series of fees — for taxes, insurance, handling, and other invented charges — before the winnings could be released. Believing the win was real, the victim sent a total of $1,196,207 through a mix of channels the callers directed him to use: mailing checks and money orders to a co-conspirator in Brampton, Ontario and another in Orlando, Florida, wiring funds directly to their bank accounts, and purchasing and shipping precious-metals products, all of which were then funneled to the scheme's leader, Stieve Fernandez, in Jamaica and later Argentina. Fernandez was arrested in Jamaica on May 9, 2019 and extradited to the United States, where he pleaded guilty on February 3, 2021 to one count of conspiracy to commit mail and wire fraud in connection with a broader pattern of lottery scams that defrauded victims of more than $1.8 million. U.S. District Judge Kari A. Dooley sentenced Fernandez, then 35, to 71 months in federal prison and ordered him to pay the full $1,196,207 in restitution to the Connecticut victim. The case, prosecuted by the U.S. Attorney's Office for the District of Connecticut, illustrates the layered structure many lottery-fee schemes still use — a caller working from a script and a rotating set of aliases, "fees" collected through a chain of out-of-state and out-of-country intermediaries rather than directly, and a mix of payment methods designed to make any single transaction look unremarkable — and is a reminder that no legitimate lottery or sweepstakes ever requires a winner to pay money up front to receive a prize.`,
+    categorySlug: 'lottery-sweepstakes-scams',
+    country: 'US',
+    state: 'CT',
+    isHistorical: true,
+    firstRecorded: '2015-01-01',
+    sources: ["U.S. Attorney's Office for the District of Connecticut", 'The Day (New London)', 'Jamaica Observer'],
+    sourceUrl: 'https://www.justice.gov/usao-ct/pr/man-sentenced-71-months-operating-lottery-scam-defrauded-connecticut-victim-12-million',
+  },
+  {
+    name: 'Mandeville Widow Romance Fraud Ring (Akpieyi & Hall)',
+    slug: 'louisiana-mandeville-akpieyi-hall-romance-fraud',
+    description: `Federal investigators opened their case after a 77-year-old widow on Louisiana's North Shore, in Mandeville, told the FBI she had lost more than $100,000 to a man she met on social media and believed she was in a relationship with — money she was told was needed, among other things, to repair a storm-damaged school in Georgia. That report led to Kenneth G. Akpieyi, 45, of Marietta, Georgia, and Emuobosan Emmanuella Hall, 45, of Atlanta, Georgia, who, beginning around April 2020, ran a romance-fraud operation that built fake identities — posing at various times as a four-star general, a Syrian delegate, a petroleum engineer, and an oil-rig worker — to meet victims on Facebook and Instagram, move the conversation to WhatsApp, and cultivate what looked like a genuine relationship with women, primarily widows over 60, before asking for money for fabricated causes such as charitable donations, sick relatives, or business emergencies. Prosecutors say the pair defrauded at least 31 women across the country of nearly $10 million combined; Akpieyi alone was tied to more than $3.5 million in losses and was arrested in 2023 while attempting to cash a check under an alias at a Georgia bank. Akpieyi was convicted after a four-day jury trial in July 2025 on charges of conspiracy to commit mail and wire fraud, mail fraud, and conspiracy to commit money laundering, while Hall pleaded guilty to conspiracy to commit mail and wire fraud and conspiracy to commit money laundering. On January 28, 2026, U.S. District Judge Jane Triche Milazzo of the Eastern District of Louisiana sentenced Akpieyi to 25 years in federal prison and Hall to 8 years, with a restitution hearing to set the exact amount owed to victims scheduled for later in 2026; Hall subsequently failed to report to the Bureau of Prisons to begin her sentence, and as of spring 2026 the FBI's New Orleans field office was actively searching for her as a fugitive. The case underscores a durable pattern in romance fraud: a partner met exclusively online, in an implausible or high-status occupation that keeps them unable to meet in person, who eventually asks for money to be sent for a cause that can't be independently verified — a pattern that should prompt anyone in an online relationship to stop and confirm the person's identity before sending money, regardless of how long the relationship has developed or how convincing the story sounds.`,
+    categorySlug: 'romance-scams',
+    country: 'US',
+    state: 'LA',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office for the Eastern District of Louisiana", 'Fox 8 WVUE New Orleans', 'WWL-TV'],
+    sourceUrl: 'https://www.justice.gov/usao-edla/pr/georgia-residents-sentenced-multi-million-dollar-romance-scam',
+  },
+  {
+    name: 'Fake Bail Bond "GPS Monitoring Fee" Phone Scam',
+    slug: 'oklahoma-fake-bail-bond-gps-monitoring-fee-scam',
+    description: `The Oklahoma Insurance Department issued a consumer alert on March 18, 2026 warning residents about callers who impersonate bail bond agents from unfamiliar phone numbers, tell the person who answers that a relative has just been arrested, and demand immediate payment — often framed as bail money or a fee to activate court-ordered GPS ankle monitoring — before the caller supposedly loses the chance to help. The calls are built around urgency: victims are pressured to pay right away, before they have time to call the relative directly or check with an actual jail or bonding company, and are typically told to pay through Cash App, gift cards, or another electronic transfer that can't be reversed once sent. "We're urging consumers to be skeptical of anyone calling and demanding money. Always fact-check these calls by contacting the parties involved, and never send them money," said Oklahoma Insurance Commissioner Glen Mulready. The department's alert instructs anyone who gets a call like this to hang up and independently verify whether an arrest actually happened by calling the relevant jail directly using a publicly listed number, to confirm any bond amount or fee with a licensed bail bond company rather than the caller, to never share banking information or send gift cards or app-based payments to an unknown caller, and to report suspected bail-bond scam calls to local law enforcement and to the Oklahoma Insurance Department at 800-522-0071 or oid.ok.gov, since bail bond agents are licensed and regulated through that department and a real one's credentials can be checked before any money changes hands.`,
+    categorySlug: 'family-emergency-scams',
+    country: 'US',
+    state: 'OK',
+    alertLevel: 'medium',
+    sources: ['Oklahoma Insurance Department'],
+    sourceUrl: 'https://www.oid.ok.gov/release_031826/',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
