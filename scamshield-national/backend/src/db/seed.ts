@@ -16372,6 +16372,10 @@ Anyone who has ever used 23andMe, or a similar consumer DNA-testing service, sho
     slug: 'prediction-market-fake-trade-marketing-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'prediction-market-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Parx%20Casino%20Sportsbook%20on%20NFL%20Sunday.jpeg?width=1200',
+    coverImageCredit: 'Photo: Dough4872, CC BY-SA 4.0, via Wikimedia Commons',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://ag.ny.gov/press-release/2026/consumer-alert-and-industry-alert-attorney-general-james-warns-new-yorkers',
     body: `Kalshi, Polymarket, and a wave of newer copycats let anyone buy and sell "event contracts" — in plain terms, a yes-or-no bet, dressed up as a financial trade, on whether something will happen: which candidate wins an election, whether a storm makes landfall in a given state, whether the Federal Reserve cuts interest rates. Marketed as prediction markets rather than sportsbooks, these platforms have expanded aggressively into states where ordinary sports betting apps can't legally operate, because Kalshi and, following a 2025 licensing move, Polymarket run under a federal commodities license from the Commodity Futures Trading Commission rather than a state gambling license — a technical distinction that lets them advertise nationwide, and one regulators have started treating very differently from how the average bettor downloading the app actually understands it.
 
