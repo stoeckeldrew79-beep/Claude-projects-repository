@@ -32558,6 +32558,39 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'UK "Task-Based" Fake Remote Job Scam',
+    slug: 'uk-task-based-fake-remote-job-scam',
+    description: `Nottinghamshire Police issued a public warning in October 2024 after receiving a growing number of reports of a "task-based" fake remote job scam, including one Nottingham man in his 40s who was coerced into paying more than £10,000. According to the force, the scam typically begins when someone clicks a social-media advert for a remote working role and is contacted, often via WhatsApp or a similar messaging app, and gradually coaxed into signing up for what looks like a legitimate part-time job that pays for completing simple daily "tasks," such as posting fake positive or negative reviews to boost or diminish a product's online rating. Small early payouts are used to build the victim's confidence that the job is real. Victims are then told they must pay money into a cryptocurrency account to "release" each day's batch of tasks, and that after completing a set number — 40 in the case reported to Nottinghamshire Police — their accumulated earnings can be withdrawn; in practice, victims who complete the tasks find they cannot withdraw any of the money they were promised, while the fraudsters keep whatever was paid in to unlock the tasks. Nottinghamshire Police, working with the UK's national fraud reporting service Action Fraud, advises anyone who is asked to pay their own money to unlock, release, or qualify for paid "task" work to treat it as a scam, to never send cryptocurrency to an unknown recruiter, and to report incidents to Action Fraud at actionfraud.police.uk or by calling 0300 123 2040, or to Nottinghamshire Police on 101.`,
+    categorySlug: 'employment-scams',
+    country: 'GB',
+    alertLevel: 'high',
+    sources: ['Nottinghamshire Police', 'Action Fraud'],
+    sourceUrl: 'https://www.nottinghamshire.police.uk/news/nottinghamshire/news/news/2024/october/warning-over-fake-job-scam-as-nottingham-resident-loses-thousands-of-pounds/',
+  },
+  {
+    name: 'UK Counterfeit Weight-Loss Injection ("Fake Ozempic") Scam',
+    slug: 'uk-counterfeit-weight-loss-injection-scam',
+    description: `The UK's Medicines and Healthcare products Regulatory Agency (MHRA) has repeatedly dismantled criminal operations manufacturing and selling counterfeit and unlicensed weight-loss injections — sold online and through unregulated sellers under names resembling legitimate GLP-1 medicines such as Ozempic, Wegovy, and Mounjaro, or containing unlicensed substances like retatrutide and tirzepatide — to UK consumers seeking a shortcut to prescription-only weight-loss drugs. In a raid on 28-29 May 2026, officers from the MHRA's Criminal Enforcement Unit, supported by police, searched a country estate near Northampton and seized approximately 12,000 doses of unlicensed weight-loss medicines along with substantial packaging materials and pharmaceutical substances, arresting two 29-year-old men on suspicion of offences under the Human Medicines Regulations 2012; the MHRA described it as the largest seizure of unlicensed weight-loss medicines it had ever carried out. It followed an earlier raid, in late October 2025, on an industrial warehouse on the outskirts of Northampton where officers dismantled what the MHRA said was the first illicit weight-loss medicine manufacturing facility discovered in the UK, seizing more than 2,000 finished retatrutide and tirzepatide pens worth over £250,000 on the street, tens of thousands of empty pens ready to be filled, raw chemical ingredients, and around £20,000 in suspected trafficking cash. Andy Morling, Head of the MHRA's Criminal Enforcement Unit, said "medicines regulation isn't discretionary — it exists to protect people," warning that products bought outside the regulated supply chain may contain no active ingredient, dangerous contaminants, or incorrect dosing that can cause serious harm. The MHRA advises consumers to obtain weight-loss medicines only from a registered pharmacy against a prescription from a qualified healthcare professional, to consult a GP or use NHS services rather than buying from unregulated online sellers or social media adverts, to check the MHRA's #FakeMeds guidance before purchasing medicines online, and to report any suspected side effects through the MHRA's Yellow Card scheme.`,
+    categorySlug: 'healthcare-fraud',
+    country: 'GB',
+    alertLevel: 'critical',
+    sources: ['Medicines and Healthcare products Regulatory Agency (MHRA)', 'GOV.UK'],
+    sourceUrl: 'https://www.gov.uk/government/news/two-arrested-during-the-mhras-largest-ever-seizure-of-unlicensed-weight-loss-medicines',
+  },
+  {
+    name: 'UK "Sextortion" Blackmail Scam Targeting Teenage Boys',
+    slug: 'uk-sextortion-scam-targeting-teenage-boys',
+    description: `The National Crime Agency (NCA) launched a nationwide awareness campaign on 20 March 2025, aimed at boys aged 15 to 17, to combat "sextortion" — financially motivated sexual extortion in which an offender, usually posing online as an attractive young woman, persuades a boy to share a nude or semi-nude photo of himself and then threatens to send that image (or, increasingly, a fabricated one) to the victim's family, friends, and social media contacts unless he pays money, typically within a very short window. The NCA's CEOP Safety Centre received 380 reports of sextortion from young people in 2024, while UK police forces recorded an average of 117 reports a month from under-18s in the first five months of that year; the agency says the offences are predominantly carried out by organised crime groups based overseas, mainly in West Africa and Southeast Asia, who are financially motivated rather than seeking sexual gratification and in some cases move from first contact to blackmail in under an hour. NCA research found that 74% of surveyed boys did not fully understand the threat and did not recognise a request for intimate images as a warning sign, and 73% did not know how to report it, leaving many victims feeling too ashamed or afraid to tell a parent or the police, sometimes with tragic consequences. The National Crime Agency's core message to victims is that they are not to blame and help is available: anyone being blackmailed over an intimate image should stop all contact with the blackmailer immediately, not pay any money, not send any further images, take screenshots of the messages as evidence, and report the offence to a trusted adult, local police, or the NCA's CEOP Safety Centre at ceop.police.uk/safety-centre, which can also help get images removed from the internet.`,
+    categorySlug: 'sextortion',
+    country: 'GB',
+    alertLevel: 'critical',
+    sources: ['National Crime Agency (NCA)', "NCA's CEOP Safety Centre"],
+    sourceUrl: 'https://www.nationalcrimeagency.gov.uk/news/national-crime-agency-launches-online-campaign-to-tackle-sextortion-among-young-teenage-boys',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
