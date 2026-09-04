@@ -8492,6 +8492,47 @@ Melgen's case is a useful illustration of how a legitimate, credentialed medical
   },
 );
 
+NOTORIOUS_ARTICLES.push(
+  {
+    title: 'Robert Jaffe: The Palm Beach Recruiter Who Fed Madoff More Than $1 Billion',
+    slug: 'robert-jaffe-madoff-palm-beach-recruiter',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/U.S._Securities_and_Exchange_Commission_headquarters.JPG?width=1200',
+    coverImageCredit: 'Photo: AgnosticPreachersKid, Wikimedia Commons (CC BY-SA 3.0) — SEC headquarters, Washington, D.C., which charged Cohmad Securities and Robert Jaffe with acting as Bernie Madoff’s in-house marketing arm',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    body: `Robert M. Jaffe never ran a Ponzi scheme of his own. What he did, for roughly a decade and a half, was work the Palm Beach, Florida social circuit — the Palm Beach Country Club above all — as a vice president of Cohmad Securities Corporation, a brokerage whose name was itself a portmanteau of its two founders, Bernie Madoff and Sonny Cohn. Between 1996 and 2008, prosecutors and regulators later said, Jaffe personally brought in roughly 150 accounts and more than $1 billion in client money for Bernard L. Madoff Investment Securities, earning commissions of one to two percent on the "profits" those clients appeared to be making.
+
+Jaffe's own family sat at the center of Madoff's client list: he was married to Ellen Shapiro, daughter of Boston philanthropist and Kay Windsor Inc. founder Carl Shapiro, one of Madoff's oldest friends and largest investors. Days before Madoff's arrest in December 2008, Jaffe reportedly urged his father-in-law to invest an additional $250 million with Madoff — money that, like everyone else's, was gone within days.
+
+The compensation arrangement itself should have been a warning sign long before the scheme collapsed. Madoff always insisted his investment advisory business charged no fees and made its money only on trading commissions; a broker being quietly paid a cut of clients' reported investment gains, as Cohmad's arrangement worked, made sense only if someone believed those gains were real. The SEC's June 2009 civil complaint against Cohmad, its chairman Maurice Cohn, chief operating officer Marcia Cohn, and Jaffe alleged the firm operated as Madoff's "in-house marketing arm," funneling in more than 800 accounts and billions of dollars while collecting over $100 million in referral payments from Madoff's firm over the years — revenue that in some years made up as much as 90 percent of Cohmad's business. Massachusetts Secretary of State William Galvin filed a parallel action in January 2009; Jaffe invoked his Fifth Amendment right against self-incrimination rather than testify, and Cohmad's state registration was revoked.
+
+Jaffe was never criminally charged. His case was resolved entirely through civil settlements: a permanent injunction barring further securities-law violations, a $38 million payment to Madoff trustee Irving Picard as part of a $550 million recovery agreement announced in December 2010 involving the Shapiro family and related entities, and a March 2011 FINRA arbitration award ordering him to pay $1.1 million to a group of investors who said he had solicited their money knowing Madoff was a fraud.
+
+Jaffe's case is a useful companion to Madoff's own: he wasn't the architect of the fraud, and no court ever found he knew for certain it was one. But the regulators and the arbitration panel that eventually reviewed his conduct concluded that a longtime insider, collecting an undisclosed cut of "profits" no one could actually verify, from a friend and relative who had never let an outsider audit his books, had every reason to ask harder questions than he ever did.`,
+    sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-21095',
+  },
+  {
+    title: 'Frank Avellino and Michael Bienes: The Accountants Who Fed Madoff for Three Decades Before Anyone Noticed',
+    slug: 'avellino-bienes-madoff-early-feeder-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/United_States_Securities_and_Exchange_Commission_(SEC)_(55266859043).jpg?width=1200',
+    coverImageCredit: 'Photo: Ajay Suresh, Wikimedia Commons (CC BY 4.0) — the U.S. Securities and Exchange Commission, which shut down Avellino & Bienes’s unlicensed brokerage in 1992, sixteen years before Bernie Madoff’s Ponzi scheme finally collapsed',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    body: `Long before Bernie Madoff's Ponzi scheme became the largest in history, a much smaller version of the same warning sign had already surfaced — and regulators looked directly at it without seeing what it meant. Frank Avellino and Michael Bienes were two accountants who met Madoff in the 1960s while working at Alpern & Heller, the accounting firm run by Madoff's father-in-law, Saul Alpern, who had begun quietly steering friends and family money into Madoff's new brokerage as early as 1960. Avellino started recruiting clients for Madoff directly in 1962, and when Alpern retired in 1974, Avellino and Bienes took over the firm, renamed it Avellino & Bienes, and kept the pipeline running for another eighteen years.
+
+Their pitch required no securities license, which was itself a problem, since they didn't have one: Avellino & Bienes sold unregistered promissory notes promising guaranteed annual returns, ranging from 13.5 percent for small investors up to 20 percent for the firm's largest clients — a fixed, guaranteed rate that no legitimate investment can honestly promise. By the time the SEC caught up with them in November 1992, the firm had sold roughly $441 million worth of these notes to more than 3,200 investors, almost all of it quietly passed straight through to Bernie Madoff.
+
+The SEC's investigation should have been the moment the entire scheme unraveled sixteen years early. A court-appointed accountant reviewing Avellino & Bienes's books found that essentially all of the $441 million had been placed with Bernard L. Madoff Investment Securities. Madoff himself supplied the SEC with account statements verifying the money was there, and because he was, by then, a respected figure who had served on SEC advisory committees and chaired the NASDAQ exchange, regulators took his word for it rather than digging further into how a supposedly conservative trading strategy could support guaranteed double-digit returns for three decades straight. Since no money appeared to actually be missing, the SEC's resolution was comparatively mild: it fined Avellino and Bienes roughly $500,000 for running an unlicensed brokerage and ordered them to return the full $441 million to their investors. Many of those investors, freshly repaid, turned around within weeks and reinvested the same money directly with Madoff.
+
+Neither man was ever criminally charged over the episode. Bienes later spoke candidly to PBS's Frontline about how little he'd ever questioned the arrangement that made him wealthy, saying of Madoff's strategy: "Why would I ask him? I wouldn't understand it if he explained it." That incuriosity, multiplied across the accountants, brokers, and family feeder funds who spent decades quietly channeling money to Madoff without ever independently verifying where it went, is a large part of why a fraud regulators had already glimpsed once, in 1992, was allowed to keep growing for sixteen more years before it finally consumed $65 billion and collapsed under its own weight in 2008.`,
+    sourceUrl: 'https://www.pbs.org/wgbh/pages/frontline/madoff/interviews/bienes.html',
+  },
+);
+
 // Practical "how it works / red flags / what to do" guides covering the
 // major scam categories, the same kind of coverage the FTC's Consumer
 // Advice site and AARP's Fraud Watch Network publish — well-documented
