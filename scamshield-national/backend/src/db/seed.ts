@@ -15218,6 +15218,10 @@ GUIDE_ARTICLES.push(
     slug: 'youtube-creator-account-takeover-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'youtube-creator-account-takeover-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Youtubeheadquarters.jpg?width=1200',
+    coverImageCredit: 'Photo: Coolcaesar (CC BY-SA 3.0) — YouTube’s former headquarters, San Mateo, California',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.malwarebytes.com/blog/threat-intel/2026/04/fake-youtube-copyright-notices-can-steal-your-google-login',
     body: `A YouTuber opens an email that looks exactly like an official copyright strike notice, complete with their own channel handle, profile picture, subscriber count, and most recent video pulled in to make the warning feel personalized rather than mass-produced. The message gives a three-day deadline to respond or the channel will face "enforcement action," and links to a case-review page. Clicking through leads to what looks like a normal Google sign-in window — except it isn't a real browser window at all. It's an HTML-and-CSS mockup rendered inside the page itself, a technique security researchers call a "browser-in-the-browser" attack, built specifically so that even someone who checks the address bar out of habit sees what looks like a legitimate accounts.google.com prompt. Whatever username and password gets typed in goes straight to the attacker.
 
@@ -15238,6 +15242,10 @@ Real copyright strikes, community guideline warnings, and monetization notices s
     slug: 'child-support-enforcement-impersonation-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'child-support-impersonation-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Family_Court_Building_Philadelphia.jpg?width=1200',
+    coverImageCredit: 'Photo: Beyond My Ken (CC BY-SA 4.0) — a family court building',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.wilsoncountynews.com/articles/texas-attorney-general-warns-of-child-support-identity-scam/',
     body: `The Texas Attorney General's Office, which runs one of the largest state child support enforcement programs in the country, opened a criminal investigation after dozens of Texans reported the same phone call: a caller claiming to be collecting overdue child support on the agency's behalf, telling the person on the line that an arrest warrant had already been issued over the missed payments. To "confirm" the account, the caller asked for a Social Security number. To resolve it, the caller instructed the target to go buy a prepaid debit card, load it with cash, and call back to read off the number printed on the back — a single call that handed the scammer both a cash payment and enough personal information to attempt identity theft on top of it.
 
@@ -15261,6 +15269,10 @@ GUIDE_ARTICLES.push(
     slug: 'eb5-investor-visa-fraud-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'eb5-investor-visa-fraud'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Seattle_Downtown_Skyline_2019-1104.jpg?width=1200',
+    coverImageCredit: 'Photo: James Conkis (CC BY-SA 4.0) — downtown Seattle, where the fraudulent EB-5 project was marketed',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.sec.gov/newsroom/press-releases/2015-173',
     body: `In August 2015, the Securities and Exchange Commission froze the assets of Lobsang Dargey, a Bellevue, Washington real estate developer who had raised at least $125 million from roughly 250 Chinese nationals for two projects — a downtown Seattle skyscraper and a mixed-use development with a farmers' market in Everett — marketed specifically to investors seeking U.S. permanent residency through the EB-5 Immigrant Investor Program. According to the SEC, Dargey told both U.S. Citizenship and Immigration Services and his investors that their money would go only into those two projects, then diverted at least $14 million to unrelated real estate deals and roughly $3 million to personal spending, including a $2.5 million home and cash withdrawals at casinos; later SEC filings put the total misappropriated as high as $46 million. Dargey pleaded guilty in January 2017 to conspiracy to commit wire fraud and concealing material information from the federal government, and prosecutors said his broader scheme had fraudulently obtained more than $235 million overall, including over $140 million from immigrant investors. At sentencing, U.S. District Judge Robert Lasnik called his conduct "incredibly reckless" and imposed four years in federal prison. The people who lost the most weren't just out money — some had staked their family's entire path to living legally in the United States on a project that never delivered what they were told it would.
 
@@ -15277,6 +15289,10 @@ Before committing to any EB-5 investment, independently verify a regional center
     slug: 'lgbtq-dating-app-robbery-blackmail-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'lgbtq-dating-app-robbery-blackmail-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/H%C3%A4meentie_with_LGBT_Pride_flag_on_a_sunny_morning_in_June_2024.jpg?width=1200',
+    coverImageCredit: 'Photo: JIP (CC BY-SA 4.0) — an LGBTQ pride flag',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.justice.gov/usao-cdca/pr/compton-man-sentenced-over-9-years-prison-targeting-and-robbing-gay-men-he-met-grindr',
     body: `Derrick Patterson used Grindr, a dating and social networking app built for gay, bisexual, transgender, and queer users, to arrange what his victims believed were ordinary hookups — then robbed them once he was inside their home or a hotel room. In one incident detailed in his federal plea agreement, Patterson entered a victim's home under the pretense of a sexual encounter, asked to borrow the victim's phone, had sex with him as a distraction while quietly transferring money out of his accounts, then pulled out a kitchen knife and stole $3,950 through the victim's Venmo app. Prosecutors said Patterson robbed at least five victims between June 2021 and March 2022, assaulted one using a homophobic slur, and threatened to shoot another during a hotel room encounter. He was sentenced in Los Angeles federal court to 111 months — more than nine years — in prison, with a hate-crime enhancement applied because he deliberately targeted victims for being gay, and ordered to pay $84,195 in restitution.
 
