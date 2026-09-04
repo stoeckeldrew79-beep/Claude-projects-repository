@@ -32451,6 +32451,42 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'High Road Builders Unlicensed Home Renovation Fraud',
+    slug: 'minnesota-high-road-builders-unlicensed-renovation-fraud',
+    description: `Earl Christian Rode IV ran High Road Builders, LLC, taking on home renovation and remodeling jobs across Minnesota even though the state's Department of Labor and Industry had already banned him from claiming to be a licensed contractor. According to a lawsuit Minnesota Attorney General Keith Ellison's office filed in Hennepin County District Court in October 2025, Rode told prospective customers he was licensed anyway, and in at least one case handed a homeowner a packet of fabricated documents — a copy of an unrelated, legitimate contractor's builder's license altered to look like his own, a fake contract bearing that company's name, and a forged supplier invoice — to collect a $60,000 advance before disappearing. In another case cited in the complaint, a customer paid Rode more than $900,000 over more than a year to renovate his mother's home after Rode falsely claimed to be licensed and insured, stringing the customer along with fabricated progress updates to justify additional payments before abandoning the project with only a small fraction of the work done. The Attorney General's office said Rode and High Road Builders took more than $1.2 million total from at least 10 Minnesota families, in violation of the state's Prevention of Consumer Fraud Act, Uniform Deceptive Trade Practices Act, and False Statements in Advertisement Act. On January 28, 2026, Hennepin County District Court entered a $2.6 million judgment against Rode and High Road Builders, permanently banning both from Minnesota's residential construction industry and ordering $1.3 million in restitution to victims plus $1.3 million in civil penalties. Attorney General Ellison's office urges any Minnesotan hiring a contractor to verify the person's license number directly through the Department of Labor and Industry's license lookup before signing anything or making any payment, to be wary of large up-front payments for work not yet performed, and to get a second opinion before wiring more money in response to vague "we ran into a problem" updates on a stalled project.`,
+    categorySlug: 'online-shopping-scams',
+    country: 'US',
+    state: 'MN',
+    alertLevel: 'high',
+    sources: ["Minnesota Attorney General's Office", 'Star Tribune', 'KSTP-TV'],
+    sourceUrl: 'https://www.ag.state.mn.us/Office/Communications/2026/01/28_HighRoadBuilders.asp',
+  },
+  {
+    name: 'La Crosse Fake Publishers Clearing House and Mega Millions Sweepstakes Ring',
+    slug: 'wisconsin-la-crosse-fake-sweepstakes-ring',
+    description: `Starting in May 2024, callers told a married couple in their 70s living in La Crosse, Wisconsin that they had won the Publishers Clearing House sweepstakes, and later that they had also won a Mega Millions/Reader's Digest prize, but that they first needed to pay taxes and fees before the winnings could be released. Over the following roughly eight months, and after the couple received an estimated 2,419 calls coordinating payments, the victims mailed $361,200 in cash, bought $16,322 in gift cards, had $53,733 taken from their checking account, and were fraudulently charged $17,494 to a credit card — losses La Crosse County prosecutors put at $450,435 once reported to police. A La Crosse County Circuit Court judge signed arrest warrants in September 2025 for five defendants accused of theft by false representation against elderly victims: Gavin J. McIntosh, Malcolm Christopher Sterling, Faedar Brittanya Rockhead, Tanya Santanya Rockhead, and Shanice Shereece Reeves. Faedar Rockhead pleaded guilty and was sentenced in 2026 to two years in prison, and Malcolm Sterling reached a plea agreement and was sentenced to three years in prison followed by three years of extended supervision, with restitution of more than $450,000 to be divided among those convicted. The La Crosse County Sheriff's Office and Wisconsin consumer-protection officials warn that no legitimate sweepstakes, including Publishers Clearing House, ever requires a winner to pay taxes, fees, or "insurance" before releasing a prize, that repeated high-pressure calls demanding cash, gift cards, or wire transfers are themselves the clearest sign of fraud, and that families should check in regularly with older relatives who mention an unexpected prize notification before any money changes hands.`,
+    categorySlug: 'lottery-sweepstakes-scams',
+    country: 'US',
+    state: 'WI',
+    alertLevel: 'high',
+    sources: ['La Crosse County Sheriff’s Office', 'La Crosse Tribune', 'WIZM News', 'News 8000'],
+    sourceUrl: 'https://www.news8000.com/news/crime/five-accused-in-elaborate-sweepstakes-scam-that-cost-la-crosse-couple-over-450-000/article_026e561b-db22-4213-a100-6183fad84a05.html',
+  },
+  {
+    name: 'Pawnee "Maurice Dinero" Romance Scam Money-Laundering Case',
+    slug: 'oklahoma-pawnee-maurice-dinero-romance-scam-laundering',
+    description: `Christine Joan Echohawk, a 53-year-old woman from Pawnee, Oklahoma, was arrested in April 2025 on charges of laundering roughly $1.5 million that four elderly women across the country sent to an online romantic interest who called himself "Maurice Dinero." According to Attorney General Gentner Drummond's office, the four victims, ranging in age from 64 to 79, believed they were in real long-distance relationships with the man and were told to send cash, checks, and electronic transfers to accounts Echohawk controlled between roughly September and December 2024; one victim was persuaded to sell her house so she could send $600,000. Prosecutors say Echohawk moved the money through various accounts, converted much of it into cryptocurrency, and forwarded the crypto to an unidentified co-conspirator, effectively acting as the domestic "money mule" layer that let the scam's operators overseas collect victims' funds while staying a step removed from U.S. banks. Echohawk was charged with four counts of unlawful use of criminal proceeds and one count of using a computer in violation of state statute, exposing her to a combined 24 to 62 years in prison and up to $260,000 in fines; she later pleaded guilty to the charges. Attorney General Drummond's office warns that anyone who has never met an online romantic partner in person should be highly skeptical of any request to receive or forward money on that person's behalf, that legitimate financial transactions do not route through a stranger's personal bank account or a rushed cryptocurrency conversion, and that Oklahomans who are asked to accept and move funds for an online partner they have never met face criminal money-laundering exposure themselves, not just the risk of being scammed.`,
+    categorySlug: 'romance-scams',
+    country: 'US',
+    state: 'OK',
+    alertLevel: 'high',
+    sources: ['Oklahoma Office of the Attorney General', 'KFOR', 'KTUL'],
+    sourceUrl: 'https://oklahoma.gov/oag/news/newsroom/2025/april/pawnee-woman-arrested-for-laundering-funds-connected-to-online-romance-scams.html',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
