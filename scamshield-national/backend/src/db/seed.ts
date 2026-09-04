@@ -32326,6 +32326,42 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'Superior Healthcare Unproven Stem Cell Therapy Scheme',
+    slug: 'georgia-superior-healthcare-stem-cell-therapy-scheme',
+    description: `Superior Healthcare LLC and related companies — Regenerative Medicine Institute of America LLC (doing business as Stem Cell Institute of America) and Physicians Business Solutions LLC — aggressively marketed and sold expensive, unproven stem cell products to consumers across Georgia, the vast majority of whom were older or disabled adults, according to a consumer-protection action brought by Georgia Attorney General Chris Carr. The Attorney General's Consumer Protection Division alleged the companies and their co-founders, Steven Peyroux and Brent Detelich, made deceptive claims about what the injections could treat and how effective they were, pressuring vulnerable consumers into paying thousands of dollars for products with no proven medical benefit. A superior court order announced on January 8, 2025 permanently banned Peyroux and Detelich from advertising, marketing, promoting, offering for sale, or selling any stem cell therapy or other regenerative medicine treatment, imposed $1,845,000 in civil penalties, and required $3,310,146 in refunds to 479 Georgia consumers. This was not Carr's office's first stem cell case: it had previously sued another Georgia clinic, Elite Integrated Medical, over similar deceptive claims made to elderly and disabled consumers. The Attorney General's Consumer Protection Division advises anyone considering a stem cell treatment to ask whether it has FDA approval or is part of an FDA-authorized clinical trial, to get a second opinion from a physician with no financial stake in the product, and to be skeptical of any clinic that claims stem cell injections can cure or dramatically improve chronic conditions like arthritis, back pain, or neurological disease.`,
+    categorySlug: 'healthcare-fraud',
+    country: 'US',
+    state: 'GA',
+    alertLevel: 'medium',
+    sources: ["Georgia Attorney General's Consumer Protection Division", 'Office of the Attorney General'],
+    sourceUrl: 'https://consumer.georgia.gov/press-releases/2025-01-08/carr-superior-healthcare-co-founders-banned-marketing-stem-cell',
+  },
+  {
+    name: 'Ghana-Based AI Video Persona Romance Fraud Ring',
+    slug: 'ohio-ghana-ai-video-persona-romance-fraud-ring',
+    description: `From roughly July 2024 to April 2026, a group of Ghana-based defendants — Jamal Abubakari, Kamal Abubakari, Amanda Joy Opoku-Boachie, Frederick Kumi, and Daniel Yussif — ran a romance-fraud operation that targeted older Americans, including victims in Ohio, on dating websites and social media, according to indictments unsealed in the U.S. District Court for the Northern District of Ohio. Instead of relying only on text messages and photos, prosecutors say the conspirators used artificial-intelligence-driven video platforms to generate live, convincing video of fictitious young women, letting them build trust with victims through what appeared to be real video chats rather than static images that could be reverse-image-searched. After cultivating a romantic relationship over weeks or months, the conspirators fabricated financial emergencies, investment opportunities, or other pretexts to induce victims to wire money to U.S. bank accounts, which was then moved to co-conspirators in Ghana and elsewhere. The scheme is alleged to have defrauded more than 130 victims nationwide out of over $15 million. Jamal Abubakari, Kamal Abubakari, and Opoku-Boachie were ordered detained after their arrests in the United States, while Kumi and Yussif were awaiting extradition from Ghana as of the DOJ's June 4, 2026 announcement. The U.S. Attorney's Office for the Northern District of Ohio and the FBI warn that anyone who has never met an online romantic interest in person — even after a live video call — should be highly skeptical of any request for money, should independently verify the person's identity, and should ask a trusted friend or family member to review the relationship before sending funds, since AI video tools have made it possible to fabricate convincing live video of a person who does not exist.`,
+    categorySlug: 'romance-scams',
+    country: 'US',
+    state: 'OH',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office for the Northern District of Ohio", 'U.S. Department of Justice'],
+    sourceUrl: 'https://www.justice.gov/usao-ndoh/pr/ghanaian-nationals-indicted-romance-fraud-scams',
+  },
+  {
+    name: '"Patriot Life Insurance" Fake Policy Scheme Targeting Homeless and Addicted Arizonans',
+    slug: 'arizona-patriot-life-insurance-fake-policy-scheme',
+    description: `From about July 2017 through July 2019, Ryan Patrick Michell and Shannon Ariel Lovell ran a scheme in Maricopa County, Arizona built around a fictitious company Michell created called "Patriot Life Insurance Company," which the pair advertised as offering a free term life insurance policy subsidized by a nonprofit for people who could not otherwise afford coverage. Lovell served as the primary recruiter, approaching victims at methadone clinics and among the homeless population — people the Arizona Attorney General's office says had little ability or capacity to track a policy or follow up on it later — and signing them up for what they believed was legitimate, no-cost coverage. Michell then altered the resulting policy documents to list himself and Lovell as beneficiaries and swapped out victims' contact information for fake addresses under the pair's control, so that when a victim died, insurers paid the death benefit to Michell and Lovell instead of the victim's actual next of kin. Arizona Attorney General Kris Mayes announced in April 2026 that both defendants had pleaded guilty to Participating in a Criminal Syndicate and Fraudulent Schemes and Artifices; Michell was sentenced to 5.5 years in the Arizona Department of Corrections followed by four years of supervised probation, and Lovell was sentenced to 3.5 years followed by three years of supervised probation. The Attorney General's office warns that a legitimate life insurance policy will never be sold door-to-door at a treatment clinic or shelter, that consumers should be able to obtain a copy of their own policy directly from the named insurer at any time, and that anyone who was offered a "free" life insurance policy under unusual circumstances should call the insurer named on the paperwork directly to confirm the policy and its listed beneficiary are accurate.`,
+    categorySlug: 'insurance-fraud',
+    country: 'US',
+    state: 'AZ',
+    alertLevel: 'high',
+    sources: ["Arizona Attorney General's Office", '12News', 'AZFamily'],
+    sourceUrl: 'https://www.azag.gov/press-release/attorney-general-mayes-announces-prison-sentences-fraudulent-life-insurance-scheme',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
