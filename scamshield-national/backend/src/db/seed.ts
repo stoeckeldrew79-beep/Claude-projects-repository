@@ -8373,6 +8373,49 @@ The Rite Aid case became a fixture of early-2000s corporate-fraud coverage — c
   },
 );
 
+NOTORIOUS_ARTICLES.push(
+  {
+    title: 'Robert Citron and the Psychic-Advised Bet That Bankrupted Orange County',
+    slug: 'robert-citron-orange-county-bankruptcy',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Old_Courthouse,_Santa_Ana,_California.JPG?width=1200',
+    coverImageCredit: 'Photo: Adrián Cerón, Wikimedia Commons (CC BY-SA 4.0) — the Old Orange County Courthouse in Santa Ana, California, the county Robert Citron served as elected treasurer-tax collector before its 1994 bankruptcy',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    body: `Robert Lafee Citron was elected treasurer-tax collector of Orange County, California, in 1970 and held the office for nearly a quarter-century, building a reputation as a folksy financial wizard who consistently delivered investment returns for the county's pooled funds — money belonging to the county government, its school districts, and dozens of cities and special districts that voluntarily invested with him — that beat what more conservative treasurers elsewhere in the state could offer, all without raising taxes.
+
+What Citron didn't advertise was how he generated those returns. He borrowed heavily against the pool's own securities through short-term repurchase agreements, using the borrowed cash to buy still more securities, and concentrated the portfolio in complex derivatives whose value depended on interest rates continuing to fall. At its peak the roughly $7.5 billion investment pool was leveraged to nearly three times its base value, a bet that worked well through the early 1990s as rates declined — and became catastrophic the moment they reversed. A grand jury investigation that followed the collapse found that as the county's finances began to falter, Citron had been supplementing his own market judgment with predictions from a mail-order astrologer and a psychic.
+
+The Federal Reserve started raising interest rates in February 1994, and by autumn the pool's leveraged derivative bets were bleeding value while the repo lenders who had financed the leverage started demanding more collateral. Orange County's outside investors — the cities and school districts that trusted Citron with their operating cash — began pulling out as the losses became public, and on December 1, 1994, the county disclosed a loss of roughly $1.5 billion. Unable to meet its obligations, Orange County filed for Chapter 9 municipal bankruptcy on December 6, 1994 — at the time the largest municipal bankruptcy in American history — with total losses eventually reaching about $1.64 billion. The filing froze payrolls, forced brutal cuts to county services, and sent a jolt through the entire municipal bond market as investors nationwide suddenly had to price in the risk that a public treasurer could gamble away a county's cash.
+
+Citron had already resigned in early December 1994 as the scale of the losses became clear. Orange County District Attorney Michael Capizzi's office charged him criminally, and in April 1995 Citron pleaded guilty to six felony counts, including misappropriation of public funds and knowingly filing false and misleading financial statements to the local agencies that had invested in his pool — filings that had concealed the pool's true risk from the very government bodies relying on it. His defense presented medical testimony that he was in the early stages of dementia, a factor the court weighed at sentencing. In December 1995 he was sentenced to one year in county jail — served largely on work furlough — five years of probation, a $100,000 fine, and 1,000 hours of community service; he avoided state prison in part because of his cooperation and the medical evidence.
+
+The Orange County bankruptcy became a landmark case study in public finance, cited for decades afterward in state laws tightening how municipal treasurers can invest public money and in business-school courses on derivative risk — not because Citron enriched himself the way a Ponzi schemer would, but because an elected official chasing ever-higher yields for his taxpayers financed jackpot-sized bets to get there, then hid the risk from the school boards and city councils whose money he was investing until it collapsed on all of them at once. Citron died on January 16, 2013, at age 87.`,
+    sourceUrl: 'https://voiceofoc.org/2013/01/robert-l-citron-key-player-in-county-bankruptcy-dies/',
+  },
+  {
+    title: 'Kevin Foster and the £34 Million "Phase 9" Betting Ponzi Scheme',
+    slug: 'kevin-foster-phase-9-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Harrow_Crown_Court_-_geograph.org.uk_-_6292050.jpg?width=1200',
+    coverImageCredit: 'Photo: Des Blenkinsopp, Wikimedia Commons (CC BY-SA 2.0) — Harrow Crown Court in London, where Kevin Foster stood trial and was convicted in 2010',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    body: `Kevin Foster, from Doddington, Kent, started small in 2001 with a football-betting operation that promised participants a fivefold return on their money if they let him place bets on their behalf and reinvest the winnings. By 2002 he had rebranded the operation as "KF Concept," presenting himself to investors as a professional gambler who had cracked a system for consistently profitable betting on football and horse racing, and claiming — falsely — that the scheme already had 50,000 members and £203 million in assets.
+
+The mechanics were classic Ponzi: new investors' deposits funded the payouts advertised to earlier ones, creating the appearance of a wildly successful betting operation when in reality only a small fraction of the money raised was ever placed on actual bets. Foster promoted KF Concept through flamboyant roadshows across England, Wales, and Scotland — events built around raffle-style draws where previously enrolled investors' names were pulled for cash payouts and prizes including cars, theater designed to reassure the room that the scheme was paying out real money. He drew his investor base disproportionately from lower-income, close-knit communities, with a heavy concentration in the South Wales valleys, taking in over 8,500 investors who put in an average of roughly £4,200 each, some borrowing against mortgages and credit cards to do it. After negative publicity caught up with KF Concept in 2003, Foster rebranded the operation again as "Phase 9" and kept recruiting.
+
+Kent Police and the Financial Services Authority opened an investigation in January 2004, and regulators froze the scheme's assets the following month, halting new payouts. The investigation found that Foster had funneled roughly £12 million of investor money into an offshore pyramid scheme called Planline, purportedly based in the Cayman Islands, of which only £1,703 was ever recovered — and that Foster had spent lavishly on himself in the meantime, including a £600,000 Kent farmhouse stocked with exotic animals and koi ponds, more than £700,000 on vehicles including a Ferrari, and close to £3 million withdrawn in cash. The UK's Serious Fraud Office took over the case and charged Foster in May 2007 with sixteen counts under the Financial Services and Markets Act 2000 and the Theft Act 1968.
+
+Foster's trial at Harrow Crown Court ran seven weeks, and on March 9, 2010, a jury convicted him on 14 of the 16 counts, acquitting him on one theft charge and failing to reach a verdict on another. SFO director Richard Alderman said afterward that the case had been "a very complex investigation" the agency was "determined to" pursue "to bring justice for the many victims who lost their hard earned savings." On April 16, 2010, Foster was sentenced to ten years in prison; a subsequent appeal in March 2011 reduced the term to nine years after some convictions were reconsidered. In all, investigators traced roughly £34 million taken from investors, most of it never recovered.
+
+Foster's case became a reference point in UK financial-fraud enforcement for how a Ponzi scheme could operate for years in plain sight, using staged public events and word-of-mouth trust within tight community networks to keep recruiting long after any legitimate betting operation could have produced the returns being promised — and for how much of the damage fell on people who could least afford to lose it.`,
+    sourceUrl: 'https://www.moneymarketing.co.uk/news/ponzi-scheme-organiser-kevin-foster-convicted-of-fraud/',
+  },
+);
+
 // Practical "how it works / red flags / what to do" guides covering the
 // major scam categories, the same kind of coverage the FTC's Consumer
 // Advice site and AARP's Fraud Watch Network publish — well-documented
