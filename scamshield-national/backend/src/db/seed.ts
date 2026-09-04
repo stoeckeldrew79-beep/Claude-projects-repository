@@ -8862,6 +8862,45 @@ The HeadSpin case is a compact illustration of how startup fraud works at the ve
   },
 );
 
+NOTORIOUS_ARTICLES.push(
+  {
+    title: 'Markus Jooste: The Steinhoff CEO Whose $7.4 Billion Fraud Ended With a Fine and a Gunshot',
+    slug: 'markus-jooste-steinhoff-accounting-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Johannesburg_Stock_Exchange.jpg?width=1200',
+    coverImageCredit: 'Photo: Andres de Wet, Wikimedia Commons (CC BY-SA 3.0) — the Johannesburg Stock Exchange, where Steinhoff International traded before Markus Jooste\'s accounting fraud wiped out most of its market value in days',
+    coverImagePosition: 50,
+    body: `Markus Jooste spent nearly two decades building Steinhoff International from a mid-sized furniture manufacturer into a sprawling global retail empire, becoming its chief executive in 2000 and driving a run of acquisitions that eventually brought Conforama, Mattress Firm, Poundland, and South African retail giant Pepkor under one roof. By 2016, Steinhoff was the 15th-largest company on the Johannesburg Stock Exchange, dual-listed in Frankfurt, employing more than 130,000 people across five continents — a growth story Jooste was widely credited with engineering.
+
+On December 5, 2017, Deloitte refused to sign off on Steinhoff's annual accounts without further evidence behind a series of transactions the auditors said lacked "economic substance." Jooste resigned that day, and within a week Steinhoff's share price had collapsed by more than 90%, erasing roughly €10 billion in market value. A forensic investigation by PwC, completed in 2019, later concluded that Steinhoff had recorded fictitious profits and inflated asset values totaling roughly €6.5 billion (about $7.4 billion) built up over the better part of a decade, largely through transactions with a network of off-balance-sheet entities tied to associates of Jooste and other senior executives — reported income that had never actually been earned, propping up a stock price that investors, employees, and pension funds around the world had trusted as real.
+
+South Africa's Financial Sector Conduct Authority (FSCA) spent years investigating before formally acting. On March 20, 2024, the regulator fined Jooste and Steinhoff's former European finance chief, Dirk Schreiber, a combined penalty that included a personal administrative fine against Jooste of R475 million (roughly $25 million), finding that he had published false and misleading financial statements covering 2014 through the first half of 2017. The same week, South African police issued an arrest warrant, with Jooste expected to surrender to the Hawks, the country's elite investigative unit, within days. He never did: on March 21, 2024, a day after the fine was announced, Jooste died of a self-inflicted gunshot wound on a footpath near his home in the coastal town of Hermanus, hours before he was due to hand himself in.
+
+Jooste's death closed the door on a criminal prosecution — South African charges against him were never tested at trial, and the FSCA's R475 million penalty against his estate remains unpaid and contested years later — but the paper trail it left behind endures as one of the largest accounting frauds in South African corporate history, and a case study in how a fabricated decade of "growth" can survive right up until an auditor finally refuses to look away.`,
+    sourceUrl: 'https://businesstech.co.za/news/business/762087/ex-steinhoff-ceo-markus-jooste-slapped-with-r475-million-fine/',
+  },
+  {
+    title: 'Arif Naqvi and the Abraaj Group: How the Middle East\'s Largest Private Equity Firm Was Built on Borrowed Money',
+    slug: 'arif-naqvi-abraaj-group-private-equity-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Dubai_Marina_Skyline.jpg?width=1200',
+    coverImageCredit: 'Photo: Norlando Pobre, Wikimedia Commons (CC BY 2.0) — Dubai, where Arif Naqvi built the Abraaj Group into the largest private equity firm in the Middle East before its 2018 collapse',
+    coverImagePosition: 50,
+    body: `Arif Naqvi founded Abraaj Capital in Dubai in 2002 with a pitch that appealed to development-minded investors worldwide: private equity returns paired with real social impact, deploying capital into hospitals, infrastructure, and growing businesses across Africa, Asia, Latin America, and the Middle East. After merging with Aureos Capital in 2012, the renamed Abraaj Group grew into the largest private equity firm in the region, managing roughly $14 billion at its peak and drawing money from marquee institutional investors, sovereign wealth funds, and development-finance institutions who saw Naqvi as emerging markets' answer to Western buyout titans.
+
+The unraveling began in late 2017, when an anonymous email from an employee alleged years of financial wrongdoing inside the firm. It escalated in early 2018, when the Bill & Melinda Gates Foundation and other investors in Abraaj's $1 billion Growth Markets Health Fund — created to fund hospitals and healthcare access across South Asia and Africa — hired forensic accountants after noticing irregularities in how the fund's capital was being deployed. The investigation found more than $200 million sitting uninvested despite capital calls, and the U.S. Securities and Exchange Commission later alleged that Naqvi had commingled Health Fund assets with Abraaj's own corporate accounts and used investor money to cover unrelated liquidity shortfalls, then issued false and misleading financial statements to conceal what had happened. Separately, the U.S. Department of Justice charged that from around 2014 onward, Naqvi and a co-defendant inflated the reported performance of Abraaj's funds by more than half a billion dollars to keep new investor money flowing in.
+
+Abraaj collapsed into provisional liquidation in June 2018, wiping out one of emerging markets' most closely watched investment platforms almost overnight. Naqvi was arrested in London in April 2019 on a U.S. extradition request tied to fraud, racketeering, and money-laundering charges, and released on a then-record £15 million bail with electronic tagging. Two former Abraaj partners subsequently pleaded guilty in U.S. federal court and agreed to cooperate against him. In the United Arab Emirates, regulators fined Naqvi more than $135 million and banned him from Dubai's financial center, while a UAE court separately sentenced him in absentia to three years in prison in a related case.
+
+Naqvi fought extradition through the UK courts for years, exhausting his appeals in 2023 and losing a final judicial-review bid years later, while continuing to deny the criminal charges against him. As of this writing his U.S. criminal case remains unresolved — a reminder that even a fraud this thoroughly documented, spanning SEC filings, DOJ indictments, and multiple national regulators, can take the better part of a decade to reach a courtroom verdict.`,
+    sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-24449',
+  },
+);
+
 // Practical "how it works / red flags / what to do" guides covering the
 // major scam categories, the same kind of coverage the FTC's Consumer
 // Advice site and AARP's Fraud Watch Network publish — well-documented
