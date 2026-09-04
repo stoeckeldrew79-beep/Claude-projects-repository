@@ -8287,6 +8287,49 @@ Tapie's case remains a singular illustration, cited repeatedly in French legal a
   },
 );
 
+NOTORIOUS_ARTICLES.push(
+  {
+    title: 'William Aramony and the United Way Empire He Turned Into His Personal Bank',
+    slug: 'william-aramony-united-way-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Albert_V_Bryan_Federal_District_Courthouse_-_Alexandria_Va_-_0005_-_2012-03-10_(6828497078).jpg?width=1200',
+    coverImageCredit: 'Photo: Tim Evanson, Wikimedia Commons (CC BY-SA 2.0) — the federal courthouse in Alexandria, Virginia, home to the U.S. District Court for the Eastern District of Virginia, where William Aramony was tried and sentenced',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    body: `William Aramony spent twenty-two years, from 1970 to 1992, as president of United Way of America, and by most measures he was extraordinarily good at the job. Under his leadership, the charity's annual receipts grew from roughly $787 million to more than $3 billion, and Aramony became a fixture in Washington nonprofit circles — a confidant of presidents, credited with modernizing charitable fundraising in America. He was also, prosecutors later proved, running a private slush fund out of the organization's back office.
+
+Aramony created a web of United Way spin-off entities — including one called Partnership Umbrella — that existed largely to obscure how much of the charity's money was flowing toward his own life. Investigators later documented that he used roughly $1.2 million in charity-linked funds for personal benefit, including buying and lavishly furnishing a New York City condominium, flying first-class and on the Concorde, and being driven around in chauffeured town cars. His longtime secretary, Rina Duncan, admitted to altering years of expense records to disguise the spending, substituting other names for the young woman, Lori Villasor, on whom Aramony lavished gifts and payments — including an annual $27,500 arrangement tied to real estate work she did little of.
+
+United Way's board hired outside investigators in December 1991 after questions began circulating about Aramony's spending; the initial review found sloppy bookkeeping but no smoking gun. Aramony announced his retirement in February 1992 as scrutiny intensified, but that didn't end the matter — a federal grand jury indicted him later that year, along with the charity's former chief financial officer Thomas Merlo and an associate, Stephen Paulachak, on 53 counts covering conspiracy, mail fraud, wire fraud, filing false tax returns, and money laundering.
+
+The case went to trial in the U.S. District Court for the Eastern District of Virginia, and on April 3, 1995, a jury convicted Aramony on 23 felony counts. Prosecutors and trial testimony painted a picture of a charity leader who treated United Way's spin-off entities as a personal piggy bank while the organization's public image rested on the trust of small individual donors giving through workplace payroll deductions. On June 22, 1995, he was sentenced to seven years in federal prison. He served roughly six years, being released in September 2001, and later sued United Way — unsuccessfully, for the most part — over pension benefits the charity had withheld.
+
+The scandal did lasting damage well beyond Aramony himself: United Way of America's donations reportedly dropped by hundreds of millions of dollars in the years following the revelations, as local United Way chapters across the country had to actively work to reassure donors that their contributions weren't funding a Manhattan condo and first-class Concorde tickets. The case became a textbook example, cited for years afterward in nonprofit governance training, of why charity boards need independent audit committees and real oversight of executive spending — because the same trust that makes charitable giving possible is exactly what an insider willing to abuse it can quietly convert into a private income stream.`,
+    sourceUrl: 'https://www.washingtonpost.com/archive/politics/1995/06/23/ex-united-way-chief-sentenced-to-7-years/1b2b4f24-dc01-4d19-bd0c-42e79cb8309b/',
+  },
+  {
+    title: 'Peter Young and the £220 Million Morgan Grenfell Fraud That Ended Without a Conviction',
+    slug: 'peter-young-morgan-grenfell-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Old_Bailey_October_2022.jpg?width=1200',
+    coverImageCredit: 'Photo: Nick-D, Wikimedia Commons (CC BY-SA 4.0) — the Old Bailey in London, where the "trial of the facts" over Peter Young\'s conduct at Morgan Grenfell was held',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    body: `Peter Young ran two of the largest European unit trusts in Britain — the Morgan Grenfell European Growth Trust and Morgan Grenfell European Capital Growth Trust, part of Deutsche Bank's asset-management arm — and for years produced returns that made him one of the City of London's star fund managers. In September 1996, Morgan Grenfell fired him after discovering that his funds' performance was resting on something regulators had never approved: a hidden pile of unlisted, illiquid shares stretched across a web of holding companies, some of them registered in Luxembourg, that Young himself had quietly set up and controlled.
+
+Rules set by IMRO, the UK's Investment Management Regulatory Organisation, capped how much of a retail unit trust could sit in unquoted, hard-to-value securities — normally around 10 percent — precisely because ordinary investors buying into these funds needed to be able to trust the stated value of their holdings. Young got around the limit, investigators found, by funneling money into unlisted companies through the Luxembourg holding structures he'd built and quietly ascribing them optimistic valuations, allowing as much as a third of the funds' assets to sit in unlisted securities while the funds' public price kept climbing. He was also accused of siphoning fund money into accounts he personally controlled, including using fund dividends toward a roughly £450,000 house in Amersham, Buckinghamshire.
+
+The discovery forced Deutsche Bank into emergency action: the affected funds, worth hundreds of millions of pounds, were suspended from trading, and Deutsche Bank had to inject hundreds of millions of pounds of its own money to stabilize them and protect ordinary investors from losses, a rescue that ultimately cost the bank more than £400 million once compensation was included. Britain's securities regulator separately fined Morgan Grenfell Asset Management £2 million for its failure to supervise Young — at the time, one of the largest penalties a UK regulator had levied against an asset manager.
+
+The Serious Fraud Office charged Young, along with a Norwegian stockbroker and a former colleague, with conspiracy to defraud in connection with the roughly £220 million scheme. But the criminal case never reached a normal conclusion. Young's co-defendants were acquitted or had their charges dropped over the following years, and Young's own case took an unusual turn: he began appearing in court wearing dresses, makeup, and a wig, and medical evidence submitted to Southwark Crown Court described multiple episodes of severe self-harm. At the end of 2000, the court found Young unfit to stand trial after psychiatrists diagnosed him with schizophrenia — meaning no jury would ever formally rule on his guilt, and a subsequent Old Bailey "trial of the facts," intended only to establish what had happened rather than assign criminal responsibility, closed out Britain's investigation into one of the biggest unit-trust scandals in its history.
+
+The case became a landmark in UK fund-management regulation not because of a dramatic courtroom conviction, but because of the opposite — a scheme large enough to nearly wreck two flagship retail funds and cost a global bank hundreds of millions of pounds, whose central figure was never actually found guilty of anything, which pushed British regulators toward tighter rules on valuing unlisted holdings inside funds sold to ordinary savers.`,
+    sourceUrl: 'https://www.moneymarketing.co.uk/news/peter-young-is-found-unfit-to-face-fraud-trial/',
+  },
+);
+
 // Practical "how it works / red flags / what to do" guides covering the
 // major scam categories, the same kind of coverage the FTC's Consumer
 // Advice site and AARP's Fraud Watch Network publish — well-documented
