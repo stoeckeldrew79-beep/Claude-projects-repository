@@ -15088,6 +15088,10 @@ GUIDE_ARTICLES.push(
     slug: 'fake-health-inspector-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'fake-health-inspector-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Health_Inspector_checking_in_a_restaurant.jpg?width=1200',
+    coverImageCredit: 'Photo: Slayym (CC BY-SA 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.seattletimes.com/seattle-news/fake-health-inspector-demands-cash-from-tacoma-restaurants/',
     body: `A man in a dress shirt walks into a small restaurant, flashes something that looks like a badge, and announces he's with the health department. He says he's found a violation, or that a customer complaint has come in, and that the restaurant will be fined — sometimes $5,000 — unless the owner or manager pays him cash on the spot, right now, before he'll let them stay open. Variations of this exact scene have played out at restaurants across the country for years, and Tacoma, Washington health officials confirmed at least four incidents in 2018 alone, all at Mexican restaurants, where the caller demanded $300 in cash and threatened a $5,000 fine if the business stayed open during a supposed inspection. In one version, the scammer called twice — first in Spanish, posing as a customer with a complaint, then hours later in English, posing as the inspector following up on it, insisting on cash only and refusing a check or money order. Every targeted restaurant in Tacoma avoided losing money by refusing to pay and calling the health department directly, which is exactly what officials say should happen. As the county's food safety manager, Katie Lott, put it: "We don't ever call and demand cash."
 
@@ -15104,6 +15108,10 @@ If someone claiming to be a health inspector asks for money, refuses to show ID,
     slug: 'unemployment-overpayment-recoupment-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'unemployment-overpayment-recoupment-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/US_Dept_of_Labor.jpg?width=1200',
+    coverImageCredit: 'Photo: Ed Brown (Public Domain)',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://workforce.iowa.gov/news/fraud-alerts',
     body: `Someone who has actually collected unemployment benefits — not a stranger whose identity was stolen to file a fake claim, but a real recipient — gets a letter that looks like it came from their state workforce agency, claiming they were overpaid and now owe money back, sometimes framed as a "lien" that must be resolved immediately. The letter includes a phone number to call. It is not the state's number. State workforce agencies across the country, including Iowa Workforce Development, have issued fraud alerts describing this exact scheme: fake debt-collection letters mailed to unemployment claimants, designed to look like an official overpayment notice, that list a scammer's phone number instead of the agency's real one and press the recipient to hand over banking information to "resolve" the supposed debt.
 
