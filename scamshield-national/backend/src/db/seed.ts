@@ -33884,6 +33884,42 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'Michael Zeto Las Vegas Fraudulent Check Scheme',
+    slug: 'nevada-michael-zeto-fraudulent-check-scheme',
+    description: `Michael Zeto, a 76-year-old Las Vegas man, partnered with telemarketers operating overseas who fed him the names, bank account numbers, and other personal information of American consumers who had supposedly purchased products by phone. Using that stolen account data, Zeto created fraudulent "remotely created checks" made payable to shell companies he controlled, then opened accounts with U.S. banks and payment processors to deposit them and drain money directly out of victims' checking accounts — many of them retirees and other older Americans who never authorized any purchase or payment. A federal grand jury in Nevada returned a 20-count indictment against Zeto on April 22, 2022, charging him with wire fraud, bank fraud, and aggravated identity theft; he faced a maximum of 20 years for wire fraud, 30 years for bank fraud, and a mandatory consecutive two years for aggravated identity theft. Zeto later pleaded guilty. Acting U.S. Attorney Christopher Chiou said his office would "continue to prosecute fraudsters" working with the Justice Department's Consumer Protection Branch, while FDIC Office of Inspector General Special Agent Kathy A. Enstrom said the agency "remains committed to working with our law enforcement partners to pursue those who seek to defraud banking customers." The case illustrates how a legitimate-sounding phone sale can be a front for handing a victim's bank account number to a separate criminal ring that turns it into a forged check months later — a reason to review bank and credit card statements regularly for unrecognized charges rather than assuming a purchase never made means no risk exists.`,
+    categorySlug: 'identity-theft',
+    country: 'US',
+    state: 'NV',
+    isHistorical: true,
+    sources: ["U.S. Attorney's Office, District of Nevada", 'Federal Deposit Insurance Corporation Office of Inspector General', 'U.S. Department of Justice'],
+    sourceUrl: 'https://www.justice.gov/usao-nv/pr/nevada-man-indicted-multi-million-dollar-fraudulent-check-scheme',
+  },
+  {
+    name: 'KBB Auto Sales Odometer Rollback Fraud',
+    slug: 'indiana-kbb-auto-sales-odometer-rollback-fraud',
+    description: `KBB Auto Sales LLC, an Indianapolis used-car dealership, allegedly rolled back the odometers on 216 known vehicles by a combined total of more than 14 million miles — an average of nearly 65,000 miles shaved off each car — before reselling them to unsuspecting Indiana buyers at prices inflated to match the fake lower mileage. Indiana Attorney General Todd Rokita's office alleges the dealership and its owners and employees, Brandon Billingsley, Shannon Hayes, and Nicolas Fortinberry, bought vehicles at auction and then disguised their true wear and mechanical condition by swapping instrument clusters or using an odometer-rollback tool, misleading buyers about how much life a car actually had left. Indiana State Police had already identified at least 46 victims at the dealership before Rokita filed suit, alleging violations of the Indiana Deceptive Consumer Sales Act, the Indiana Odometer Act, the federal Truth in Mileage Act, and the state's Motor Vehicle Unfair Practices Act, and seeking injunctive relief, consumer restitution, treble damages, and civil penalties. "This outright fraud unfairly gives a bad name to the good and honest people working in the used-car business," Rokita said. Buyers of a used car are advised to compare the odometer reading against the mileage on the title and any oil-change or inspection stickers, check for wear on the seat, pedals, and steering wheel that doesn't match a low-mileage claim, and pull an independent vehicle history report before completing a purchase.`,
+    categorySlug: 'online-shopping-scams',
+    country: 'US',
+    state: 'IN',
+    isHistorical: true,
+    sources: ["Office of the Indiana Attorney General", 'Indiana State Police', 'WRTV'],
+    sourceUrl: 'https://events.in.gov/event/indy-used-car-dealers-alleged-odometer-rollback-of-14-million-miles-revs-up-lawsuit-from-attorney-general-todd-rokita-to-help-hoosier-consumers',
+  },
+  {
+    name: 'Aequitas Capital Management $350 Million Ponzi Scheme',
+    slug: 'oregon-aequitas-capital-management-ponzi-scheme',
+    description: `Aequitas Capital Management, a Lake Oswego, Oregon-based private investment firm founded and run by CEO Robert J. Jesenik, told more than 1,500 investors nationwide that their money was funding health care, education, and transportation-related investments — chiefly the purchase of private student loans made to students at the for-profit Corinthian Colleges chain. According to the SEC, once Corinthian collapsed in 2014 and took Aequitas's core business down with it, Jesenik and executive vice president Brian A. Oliver kept soliciting millions more from investors while concealing the firm's rapidly deteriorating finances and using new investor money in Ponzi-like fashion to pay off earlier investors, rather than disclosing the truth. The SEC filed a civil fraud complaint against Aequitas and its top executives in the U.S. District Court for the District of Oregon in Portland on March 10, 2016, alleging the firm had raised more than $350 million while owing investors roughly $312 million it could not repay. A separate federal criminal case followed: after a 31-day trial, a jury convicted Jesenik of conspiracy to commit mail and wire fraud, 28 counts of wire fraud, and falsifying a loan application, tied to prosecutors' finding that more than 2,000 investors lost upwards of $454 million between June 2014 and March 2016; he was sentenced in 2023 to 14 years in federal prison and ordered to forfeit about $1.5 million, with two other former executives also receiving lengthy sentences. The case is a reminder that a fund's private, "alternative" investment strategy — buying discounted or distressed receivables an ordinary retail investor cannot verify independently — depends entirely on trusting the fund's own account statements, which is exactly what let Aequitas mask a widening cash shortfall for nearly two years after its core business had already failed.`,
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    state: 'OR',
+    isHistorical: true,
+    sources: ['U.S. Securities and Exchange Commission', "U.S. Attorney's Office, District of Oregon", 'KGW'],
+    sourceUrl: 'https://www.sec.gov/newsroom/press-releases/2016-49',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
