@@ -18,14 +18,14 @@ cd /d "%~dp0"
 echo ============================================
 echo  Pulling latest code from GitHub...
 echo ============================================
-git fetch origin claude/scamshield-national-phase1
+git fetch origin main
 if errorlevel 1 (
   echo.
   echo git fetch failed - see the error above. Not continuing.
   pause
   exit /b 1
 )
-git checkout -B claude/scamshield-national-phase1 origin/claude/scamshield-national-phase1
+git checkout -B main origin/main
 if errorlevel 1 (
   echo.
   echo git checkout failed - see the error above. Not continuing.
