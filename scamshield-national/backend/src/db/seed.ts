@@ -33628,6 +33628,39 @@ SEED_SCAMS.push(
 
 SEED_SCAMS.push(
   {
+    name: 'German Fake Verbraucherzentrale "Lottery Cancellation" Call Scam',
+    slug: 'german-fake-verbraucherzentrale-lottery-cancellation-call-scam',
+    description: `Callers claiming to work for a regional Verbraucherzentrale (consumer advice center) contact households by phone, using caller-ID-spoofed Düsseldorf numbers in the 0211 955 88 range or Dutch numbers to appear legitimate, and assert that the recipient has an old, forgotten lottery or sweepstakes subscription, or a costly "data entry" on file, that is quietly continuing to run up charges. The caller then offers to cancel it immediately for a one-time fee — reported at around 79 euros in a wave of calls to Verbraucherzentrale Nordrhein-Westfalen's own office in June 2025 — and pressures the recipient to pay on the spot or read out bank details before the "subscription" supposedly renews again. Verbraucherzentrale NRW states plainly that no German consumer advice center ever initiates unsolicited phone contact with the public ("Verbraucherzentralen treten niemals von sich aus und unaufgefordert in telefonischen … Kontakt"), so any such call is impersonation regardless of how official the number or the caller's script sounds, and it advises hanging up immediately, never confirming personal or account data by phone, and reporting the number to the Bundesnetzagentur.`,
+    categorySlug: 'lottery-sweepstakes-scams',
+    country: 'DE',
+    alertLevel: 'medium',
+    sources: ['Verbraucherzentrale Nordrhein-Westfalen'],
+    sourceUrl: 'https://www.verbraucherzentrale.nrw/pressemeldungen/vertraege-reklamation/unerwarteter-anruf-von-der-verbraucherzentrale-vorsicht-falle-95109',
+  },
+  {
+    name: 'German Fake "Wichtige Verwaltungsmitteilung" Speeding-Fine Phishing Email',
+    slug: 'german-fake-verwaltungsmitteilung-speeding-fine-phishing-email',
+    description: `An email titled "Wichtige Verwaltungsmitteilung Deutschland" (Important Administrative Notice Germany) and styled to look like it comes from a federal government portal or the Kraftfahrt-Bundesamt (KBA) in Flensburg tells the recipient that a speeding-violation fine has grown larger because earlier reminders were supposedly ignored. It offers a discounted "Gutschrift" if paid within just 24 hours, threatens further surcharges for any delay, and directs the recipient to click a link to a fake administrative-payment portal that harvests personal and bank card details rather than an actual government site; a related variant carries a malicious attachment instead of a link. Germany's Verbraucherzentrale warns that a genuine fine notice ("Bußgeldbescheid") is never issued by email with a link and a same-day deadline — real notices arrive only by post — and that the KBA does not send speeding-violation emails at all, so the safest response is to delete the message rather than click through or open any attachment.`,
+    categorySlug: 'government-impersonation',
+    country: 'DE',
+    alertLevel: 'high',
+    sources: ['Verbraucherzentrale (Germany)'],
+    sourceUrl: 'https://www.verbraucherzentrale.de/wissen/digitale-welt/phishingradar/betrug-phishingmails-und-falsche-sms-von-ministerien-und-behoerden-76907',
+  },
+  {
+    name: 'German WhatsApp Chain-Message Fake Supermarket Voucher Scam',
+    slug: 'german-whatsapp-chain-message-fake-supermarket-voucher-scam',
+    description: `A WhatsApp message that appears to come from a real contact — because it was innocently forwarded by someone already fooled — announces that Rewe, Edeka, Aldi, Lidl, or another major German supermarket chain is giving away a shopping voucher worth 250 to 500 euros, often timed around Christmas or another holiday. The link leads to a convincingly branded fake storefront that asks the recipient to complete a short survey and, critically, to forward the message to 10 or 20 more contacts before the "voucher" can be claimed, which is how the message spreads exponentially rather than through any real advertising by the retailer. Verbraucherzentrale NRW warns that the chain ends in one of three ways: personal data sold on to data brokers and used for spam and further scam calls, an expensive premium subscription silently billed to the victim's phone account, or a prompt to install a fake "security app" that is actually spyware harvesting passwords and banking credentials — and that both Aldi and other named retailers have separately confirmed they run no such giveaway. Consumers are advised never to click the link, never forward the chain message, and to check any supposed retailer promotion only on the retailer's own verified website or app.`,
+    categorySlug: 'lottery-sweepstakes-scams',
+    country: 'DE',
+    alertLevel: 'medium',
+    sources: ['Verbraucherzentrale Nordrhein-Westfalen'],
+    sourceUrl: 'https://www.verbraucherzentrale.nrw/wissen/digitale-welt/soziale-netzwerke/fakegewinnspiele-per-email-bei-facebook-und-instagram-erkennen-91061',
+  },
+);
+
+SEED_SCAMS.push(
+  {
     name: 'Alabama Masada Biofuel Investment Fraud',
     slug: 'alabama-masada-biofuel-investment-fraud',
     description: `Between roughly 2011 and 2018, Birmingham attorney and businessman Donald V. Watkins Sr. and his son Donald V. Watkins Jr. solicited more than $10 million from individual investors — including several former professional athletes — by selling them on investments meant to help grow Masada Resource Group, a company Watkins Sr. claimed was developing biofuel and waste-to-energy technology. Instead of putting the money into the business as promised, prosecutors said the pair diverted investor funds to cover personal bills and debts, including taxes, alimony, and clothing. Watkins Sr., who was the largest shareholder of Alamerica Bank in Birmingham, separately defrauded the bank itself by directing a straw borrower to take out more than $900,000 in loans that were then funneled back for the defendants' personal benefit rather than the stated business purpose. A federal jury in the Northern District of Alabama convicted Watkins Sr. on seven counts of wire fraud, two counts of bank fraud, and one count of conspiracy, and convicted Watkins Jr. on one count of wire fraud and one count of conspiracy; U.S. District Judge Karon O. Bowdre sentenced Watkins Sr. to 60 months in federal prison and Watkins Jr. to 27 months on July 16, 2019. The case is a reminder that a familiar, locally prominent promoter — even one who also controls a federally chartered bank — is not proof that money handed over for a "sure thing" business venture is actually being invested as described, and that investors should independently verify how their funds are being used rather than relying on a promoter's reputation alone.`,
