@@ -39368,6 +39368,44 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'Fake "Attorney General" Final Legal Notification Phishing Email',
+    slug: 'virginia-attorney-general-herring-impersonation-phishing',
+    description: `Virginia Attorney General Mark R. Herring's office warned residents that scammers were sending emails, and in some cases making follow-up phone calls, impersonating the Attorney General and his staff. The messages, headed "Final Legal Notification," falsely claimed the recipient owed a debt to an entity called "Cash Advance, Inc." (or a similarly named variant) or that an arrest warrant had already been issued against them, and demanded immediate payment to make the supposed legal problem go away. The Attorney General's office stated flatly that it does not operate this way and never emails or calls Virginians to demand payment over a debt or a warrant, and the Virginia State Police opened a criminal investigation into the scheme. The pitch works by borrowing the authority of the state's top law-enforcement office and pairing it with the panic of a claimed arrest warrant, pushing a recipient to pay before they stop to verify anything independently. Anyone who receives a similar email or call claiming to be from the Attorney General's office was advised to not respond or click any link, and instead to report it directly to Virginia State Police at questions@vsp.virginia.gov.`,
+    categorySlug: 'phishing',
+    country: 'US',
+    state: 'VA',
+    isHistorical: true,
+    firstRecorded: '2015-03-09',
+    sources: ["Virginia Attorney General's Office", 'Virginia State Police'],
+    sourceUrl: 'https://www.oag.state.va.us/consumer-protection/index.php/news/76-march-9-2015-scammers-are-posing-as-the-office-of-attorney-general-mark-herring-in-emails',
+  },
+  {
+    name: 'Fake-Celebrity Romance Scam Ring Tied to Jonesborough Retiree\'s Suicide',
+    slug: 'tennessee-fake-celebrity-romance-scam-jonesborough-suicide',
+    description: `Beginning in August 2023, a retired Jonesborough, Tennessee teacher was contacted online by someone posing as a well-known actress, then drawn into what he believed was a real romantic relationship with her. Stephen O. Anagor, Chinagorom Onwumere, and Onwumere's wife Salma Abdalkareem worked the scheme from New Jersey and Washington state on behalf of a relative based in Nigeria, who impersonated the celebrity directly in messages to the victim, while Onwumere and Abdalkareem later posed as the FBI to tell him he owed "fines" to settle a fabricated sexual-harassment claim against the celebrity he thought he was dating. Over the following weeks the retiree sent five checks totaling $86,900 — his entire life savings, topped off with a loan he took out against his truck to make the final payment. In his last known text messages to the person he believed was the actress, he wrote that he had no money left and was going to end his life; he died by suicide on October 23, 2023. Following an investigation by the FBI's Nashville Field Office, all three defendants were convicted, and on December 2, 2025, a federal judge in the Eastern District of Tennessee sentenced Anagor to 108 months, Onwumere to 84 months, and Abdalkareem to 51 months in prison, along with a combined $388,500 in restitution. The case underscores that a real celebrity will never contact a stranger for a romantic relationship or ask for money to resolve a legal problem, and that a partner who is never available in person and who directs escalating "fine" or "fee" payments is a scam regardless of how convincing the relationship feels.`,
+    categorySlug: 'romance-scams',
+    country: 'US',
+    state: 'TN',
+    alertLevel: 'high',
+    sources: ['U.S. Department of Justice — Eastern District of Tennessee', 'FBI Nashville Field Office'],
+    sourceUrl: 'https://www.justice.gov/usao-edtn/pr/nigerian-men-and-sudanese-woman-sentenced-over-20-years-romance-scam-resulting-elderly',
+  },
+  {
+    name: 'Travis Peterson Fake Veterans Charity Vehicle-Donation Scheme',
+    slug: 'utah-travis-peterson-veterans-charity-vehicle-donation-scheme',
+    description: `From April 2012 to July 2018, Travis Deloy Peterson of Ephraim, Utah registered a series of organizations he represented as tax-exempt veterans' charities in Utah, Nevada, and Michigan, then used millions of robocalls — frequently targeting senior citizens — to solicit donations of cars, boats, and other vehicles, promising the proceeds would fund veterans' programs and that the gift was tax-deductible. None of the entities were actually registered tax-exempt charities, and investigators found veterans received nothing from the roughly $500,000 Peterson personally pocketed from the scheme. The Federal Trade Commission first sued Peterson in Utah federal court, winning an April 1, 2019 order that permanently barred him from soliciting charitable donations or making robocalls and required him to forfeit 88 vehicles seized from the operation. He was later indicted and, in the Northern District of Georgia, pleaded guilty to mail fraud; he was sentenced on March 23, 2022 to three years and five months in prison plus five years of supervised release, and ordered to pay more than $540,000 in restitution. The case is a reminder that a "donate your car to veterans" robocall pitch should be independently verified against a charity's actual tax-exempt registration — through the IRS Tax Exempt Organization Search or a state charity regulator — before signing over a vehicle's title, since a legitimate charity will never need to rely on cold robocalls alone to prove it exists.`,
+    categorySlug: 'charity-scams',
+    country: 'US',
+    state: 'UT',
+    isHistorical: true,
+    firstRecorded: '2012-04-01',
+    sources: ['Federal Trade Commission', 'U.S. Department of Justice — Northern District of Georgia', 'KSL.com'],
+    sourceUrl: 'https://www.justice.gov/usao-ndga/pr/utah-man-who-operated-fraudulent-veteran-charities-sentenced-federal-prison',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
