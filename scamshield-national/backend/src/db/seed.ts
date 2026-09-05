@@ -10351,6 +10351,47 @@ Piercey's case is a reminder that affinity fraud runs on borrowed trust rather t
   },
 );
 
+NOTORIOUS_ARTICLES.push(
+  {
+    title: 'Amir Bruno Elmaani and the Oyster Protocol "Exit Scam"',
+    slug: 'amir-bruno-elmaani-oyster-protocol-exit-scam',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-sdny/pr/cryptocurrency-founder-bruno-block-sentenced-four-years-prison',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Martinsburg_Train_Station_Martinsburg_WV_2022-08-06_12-08-39.jpg?width=1200',
+    coverImageCredit: 'Photo: G. Edward Johnson, Wikimedia Commons (CC BY 4.0) — the Martinsburg, West Virginia train station, near where Amir Bruno Elmaani lived when arrested',
+    coverImagePosition: 50, // representative photo — replace with a portrait if found
+    body: `Amir Bruno Elmaani, going by the alias "Bruno Block," founded Oyster Protocol in 2017, an Ethereum-based project pitched as a decentralized cloud storage platform. To fund development, Elmaani launched an initial coin offering for a companion cryptocurrency called Pearl (PRL), telling investors between September and October 2017 that the token's total supply was fixed — a scarcity promise meant to reassure buyers the way a fixed share count reassures a stockholder.
+
+The promise wasn't true. Elmaani had retained special administrative access to the smart contract controlling Pearl's supply, and on October 29, 2018, without telling investors or even his own project team, he used that access to secretly mint a large new batch of PRL tokens for himself and sold them into the open market. The sudden flood of unauthorized tokens diluted everyone else's holdings and crashed the price, a maneuver crypto commentators quickly dubbed the "Oyster exit scam." Trading in Pearl halted soon afterward, and the project never recovered.
+
+The Securities and Exchange Commission filed a parallel civil complaint in 2020, charging Elmaani with conducting an unregistered securities offering and defrauding investors through the undisclosed token-minting scheme. Federal prosecutors in the Southern District of New York separately found that despite pocketing millions of dollars from selling the secretly minted tokens, Elmaani reported almost none of it to the IRS — claiming just $15,000 in income on his 2017 tax return and reporting zero income in 2018 — while moving the proceeds through nominees and shell companies and spending more than $10 million of it on yachts, real estate, and precious metals.
+
+Elmaani was arrested in 2020 and pleaded guilty in April 2023 before U.S. District Judge Colleen McMahon to tax evasion, admitting the scheme caused a federal tax loss of more than $5.5 million. In October 2023, Judge McMahon sentenced him to four years in prison plus one year of supervised release and ordered him to pay back the full $5.5 million in restitution.
+
+Oyster's collapse became one of the ICO boom's clearest cautionary tales about a narrow but critical risk: a "fixed supply" is only as fixed as the trust investors place in whoever still holds the administrative keys to the underlying contract, and Elmaani's own project could not stop its founder from minting more of a token he had promised, in writing, could never be minted again.`,
+  },
+  {
+    title: 'Alex Dee, Brian Kaplan, and the "8 Figure Dream Lifestyle" Pyramid Scheme',
+    slug: '8-figure-dream-lifestyle-pyramid-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/archives/opa/pr/founders-illegal-pyramid-scheme-sentenced-roles-fraud-caused-over-23m-losses-victims',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Alfred_A._Arraj_United_States_Courthouse_(23387332304).jpg?width=1200',
+    coverImageCredit: 'Photo: Paul Sableman, Wikimedia Commons (CC BY 2.0) — the Alfred A. Arraj U.S. Courthouse in Denver, where the 8FDL founders were sentenced',
+    coverImagePosition: 50,
+    body: `From roughly January 2017 through March 2019, Alex Dee (formerly known as Alex Dowlatshahi), Brian Kaplan, and Jerrold Mauer founded and ran an online "business opportunity" called 8 Figure Dream Lifestyle, or 8FDL, incorporated in Wyoming and marketed nationwide through emails, robocalls, slick promotional videos, and recruiting webinars that promised ordinary people — with no prior business experience — they could "easily earn millions" in the online marketing space.
+
+Behind the pitch, prosecutors said, there was no real product. Members paid to join 8FDL and then made money almost entirely by recruiting new members who paid to join beneath them — the textbook structure of an illegal pyramid scheme, where payouts depend on a constantly expanding base of new recruits rather than on any product or service sold to outside customers. Dee and his co-conspirators told prospective members wildly inflated stories about how much existing members had already earned, understated the real ongoing costs of participating, and promised earnings of more than $10,000 within 60 to 90 days that, for the great majority of members, never materialized.
+
+More than 2,800 people around the country joined 8FDL, collectively losing approximately $23.5 million — money that flowed disproportionately to the three founders and a small number of early recruiters at the top of the structure, while most members who joined later never recouped what they had paid in.
+
+Federal prosecutors indicted the three men in the U.S. District Court for the District of Colorado. Kaplan pleaded guilty to conspiracy to commit wire fraud in November 2023, Mauer pleaded guilty on the same charge later that month, and Dee entered his own guilty plea in July 2024. In December 2024, U.S. District Judge Charlotte N. Sweeney sentenced Dee to 36 months in prison and ordered him to forfeit $1,845,600; Kaplan received 22 months and was ordered to forfeit $2,838,700; and Mauer also received 22 months and was ordered to forfeit $1,545,500, with all three also facing two years of supervised release.
+
+8FDL is a reminder that a pyramid scheme doesn't need an elaborate cover story to work: dressed up as an "online marketing business" or an entrepreneurial "dream lifestyle," the entire enterprise can still boil down to the oldest structure in fraud — a promise that recruiting the next person in is itself the product — one that mathematically guarantees most participants lose money even when a handful of early recruiters walk away rich.`,
+  },
+);
+
 // Practical "how it works / red flags / what to do" guides covering the
 // major scam categories, the same kind of coverage the FTC's Consumer
 // Advice site and AARP's Fraud Watch Network publish — well-documented
