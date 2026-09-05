@@ -10392,6 +10392,45 @@ Federal prosecutors indicted the three men in the U.S. District Court for the Di
   },
 );
 
+NOTORIOUS_ARTICLES.push(
+  {
+    title: 'Daren Li, the Pig-Butchering Money Launderer Who Fled a $4 Million Bounty on His Head',
+    slug: 'daren-li-pig-butchering-money-laundering-fugitive',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-cdca/pr/dual-national-china-and-st-kitts-and-nevis-sentenced-20-years-federal-prison-role',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Los_Angeles_Federal_Buildings.jpg?width=1200',
+    coverImageCredit: 'Photo: Busition, Wikimedia Commons (CC BY-SA 4.0) — federal buildings in Los Angeles, where Daren Li was prosecuted and sentenced in the Central District of California',
+    coverImagePosition: 50, // representative photo — replace with a portrait if found
+    body: `Daren Li, a dual citizen of China and St. Kitts and Nevis who also held residences in Cambodia and the United Arab Emirates, sat near the top of a "pig butchering" money-laundering network that prosecutors say drained at least $73.6 million from victims across the United States between 2021 and 2024. The underlying fraud followed the pattern that has become one of the most common scams reported to U.S. authorities: unsolicited messages arriving through social media, phone calls, text messages, and online dating apps, sometimes posing as a romantic interest and sometimes as tech support warning of a computer virus, all aimed at building enough trust to steer a victim onto a fraudulent cryptocurrency trading platform that showed fabricated profits climbing while the money quietly disappeared.
+
+Li's specific role, according to federal prosecutors, was on the laundering side of that machine rather than the victim-facing scripts: he directed co-conspirators to open U.S. bank accounts in the names of shell companies, monitored the accounts as stolen victim funds flowed in — at least $59.8 million of the total came from U.S. victims alone — and then moved the money onward, including through The Bahamas and into virtual-asset wallets, converting a substantial share into USDT (Tether) before it could be traced back to the scam centers operating out of Cambodia. Investigators later linked more than $341 million in virtual assets to wallets connected to the broader network.
+
+Li was arrested on April 12, 2024, at Hartsfield-Jackson Atlanta International Airport; a co-defendant, Yicheng Zhang, was separately arrested in Los Angeles the following month. Transported to the Central District of California, Li was charged with conspiracy to commit money laundering along with several substantive money-laundering counts, and on November 12, 2024, he pleaded guilty to the conspiracy count, admitting to the full $73.6 million laundering scheme as part of his plea. Eight of his co-conspirators have also pleaded guilty.
+
+Then, awaiting sentencing and out on conditions that included electronic GPS monitoring, Li did what almost none of the hundreds of other defendants in similar cryptocurrency fraud prosecutions have managed: he disappeared. In December 2025, he cut off his ankle monitor and fled, becoming a fugitive just weeks before his sentencing date. U.S. District Judge R. Gary Klausner sentenced him in absentia on February 9, 2026, to the statutory maximum of 20 years in federal prison plus three years of supervised release — a sentence Li was not present to hear. Assistant Attorney General A. Tysen Duva said the Justice Department's Criminal Division "will work with our law enforcement partners around the world to ensure that Li is returned to the United States to serve his full sentence."
+
+In April 2026, the State Department's Transnational Organized Crime Rewards Program offered up to $4 million for information leading to Li's arrest, and the U.S. Secret Service added him to its own Most Wanted list, publishing his physical description — 5'6", 130 pounds, black hair, brown eyes, born November 8, 1982 — alongside a list of known aliases: "Devon," "KG," "RF," "KG-Perfect," and Xuan Li. Li's case is a reminder that a guilty plea and an admitted nine-figure fraud don't guarantee an ending: for a defendant with the money, the passports, and the international connections a scam-center laundering operation provides, sentencing itself can become just one more step to route around, leaving restitution and the last chapter of the case unresolved for the victims who already lost everything they sent.`,
+  },
+  {
+    title: 'Nader Pourhassan and the CytoDyn Stock Fraud Built on a Failed COVID Drug',
+    slug: 'nader-pourhassan-cytodyn-leronlimab-securities-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-md/pr/biotech-ceo-sentenced-securities-fraud-scheme',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Aerial_view_of_downtown_Vancouver_WA_from_the_south_(2021).jpg?width=1200',
+    coverImageCredit: "Photo: Steve Morgan, Wikimedia Commons (CC BY-SA 4.0) — downtown Vancouver, Washington, where CytoDyn was headquartered during Nader Pourhassan's fraud scheme",
+    coverImagePosition: 50, // representative photo — replace with a portrait if found
+    body: `Nader Pourhassan spent a decade as chief executive of CytoDyn Inc., a publicly traded biotechnology company headquartered in Vancouver, Washington, whose entire market story rested on a single experimental drug: leronlimab, a humanized monoclonal antibody originally developed as an HIV treatment. When COVID-19 arrived, CytoDyn — and Pourhassan personally, through frequent public statements and investor updates — pivoted the company's pitch to retail investors around leronlimab's supposed promise as a coronavirus treatment, at a moment when any credible COVID drug candidate could send a small-cap biotech's stock soaring.
+
+Federal prosecutors said that between 2018 and 2021, Pourhassan intentionally misled investors about leronlimab's real prospects for FDA approval in order to artificially inflate CytoDyn's stock price and draw in new money, while quietly selling his own shares into the inflated market — 4.8 million shares, netting him roughly $4.4 million personally. The centerpiece of the fraud came in March 2021, when CytoDyn's Phase 3 COVID-19 trial failed to show any statistically significant improvement in survival for hospitalized patients compared with a placebo. Rather than disclosing that failure plainly, Pourhassan told investors the results were "the best results ever achieved for this population in a Phase 3 clinical trial." Two months later, in May 2021, the FDA publicly and directly contradicted him, stating that "the data currently available do not support the clinical benefit of leronlimab for the treatment of COVID-19" — a rare instance of a federal regulator rebutting a public company's characterization of its own trial data in real time.
+
+Pourhassan was tried alongside Kazem Kazempour, chief executive of Amarex Clinical Research LLC, the Maryland-based contract research organization CytoDyn had hired to run its trials and serve as its liaison with the FDA; Kazempour was convicted in the same trial of one count of securities fraud and one count of wire fraud, tied to more than $340,000 he personally made from CytoDyn stock sales. A federal jury convicted Pourhassan in December 2024 on four counts of securities fraud, two counts of wire fraud, and three counts of insider trading. U.S. District Judge Paula Xinis sentenced him on January 23, 2026, in the District of Maryland to 30 months in federal prison, ordering him to pay more than $5.3 million in restitution and to forfeit more than $4.4 million — essentially the full amount of his personal stock-sale proceeds. A Justice Department prosecutor said Pourhassan had "exploited a deadly public health crisis to intentionally deceive investors," a case built jointly by the FBI, the FDA's Office of Criminal Investigations, and the U.S. Postal Inspection Service, following a parallel civil fraud and insider-trading case the SEC had filed against him in 2022.
+
+CytoDyn's collapse from pandemic-era retail-investor darling to federal fraud conviction is a case study in a specific kind of stock fraud: not a company built on nothing, like a Ponzi scheme, but a real company with a real drug candidate whose executive chose to keep selling investors a story the company's own clinical data had already stopped supporting — and chose to keep selling his own shares into that story right up until the trial results made it impossible to sustain.`,
+  },
+);
+
 // Practical "how it works / red flags / what to do" guides covering the
 // major scam categories, the same kind of coverage the FTC's Consumer
 // Advice site and AARP's Fraud Watch Network publish — well-documented
