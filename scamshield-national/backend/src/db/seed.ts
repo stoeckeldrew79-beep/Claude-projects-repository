@@ -10134,8 +10134,8 @@ If you've attended one of these seminars and felt pressured, or already invested
     title: 'Courier Fraud: When a Stranger Comes to Your Door to Collect Your Bank Card or Cash',
     slug: 'courier-fraud-card-cash-collection-scam-guide',
     author: 'ScamShield Editorial',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Gold_bullion_bars.jpg?width=1200',
-    coverImageCredit: 'Photo: Stevebidmead via Pixabay (CC0)',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Woman_holding_credit_card_closeup.jpg?width=1200',
+    coverImageCredit: 'Photo: Nenad Stojković, CC BY 2.0, via Wikimedia Commons',
     coverImagePosition: 50,
     // representative photo — replace with an exact match if found
     tags: ['guide', 'courier-fraud'],
@@ -12789,8 +12789,8 @@ Never pay a medical bill through a link in an unsolicited text. Instead, log int
     slug: 'precious-metals-rare-coin-investment-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'precious-metals-coin-scam'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Gold_bullion_bars.jpg?width=1200',
-    coverImageCredit: 'Photo: Stevebidmead (CC0)',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/New_American_Eagles.jpg?width=1200',
+    coverImageCredit: 'Photo: U.S. Mint, public domain, via Wikimedia Commons',
     coverImagePosition: 50,
     // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.cftc.gov/PressRoom/PressReleases/8881-24',
@@ -13512,8 +13512,8 @@ The law is unambiguous here: federal law treats unordered merchandise sent to a 
     slug: 'cash-for-gold-mail-in-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'cash-for-gold-scam'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Gold_bullion_bars.jpg?width=1200',
-    coverImageCredit: 'Photo: Stevebidmead (CC0)',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Cash_for_Gold_Pawn_Store,_Griffin.JPG?width=1200',
+    coverImageCredit: 'Photo: Michael Rivera, CC BY-SA 3.0, via Wikimedia Commons',
     coverImagePosition: 50,
     // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.bbb.org/article/news-releases/23336-bbb-tip-selling-gold',
@@ -14069,8 +14069,8 @@ Anyone who suspects they've donated to a sham police, firefighter, or veteran ch
     slug: 'boss-pastor-gift-card-impersonation-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'gift-card-scam'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Roblox_gift_cards.jpg?width=1200',
-    coverImageCredit: 'Photo: 3df (CC BY-SA 4.0)',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Google_Play_gift_card.jpeg?width=1200',
+    coverImageCredit: 'Photo: Pmsyyz, CC BY-SA 4.0, via Wikimedia Commons',
     coverImagePosition: 50,
     sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2026/01/no-thats-not-your-boss-asking-you-buy-gift-cards',
     body: `A text or email arrives that looks like it's from a supervisor, a company owner, or — in a widely reported church variant — a pastor or priest. The message says something urgent has come up: they're stuck in a meeting or traveling and can't talk, but they need a favor handled right away. Could the recipient run out and buy gift cards for a client appreciation gift, a surprise for an employee, or a family in need, then send back the card numbers and PINs so they can be used immediately? The tone is friendly but pressed for time, precisely calibrated to make an employee or parishioner want to help quickly rather than question the request.
