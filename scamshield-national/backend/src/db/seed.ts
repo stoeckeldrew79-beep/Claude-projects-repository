@@ -35822,6 +35822,45 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'Bellinfantie Romance and Lottery Scam Targeting an Arizona Widow',
+    slug: 'arizona-bellinfantie-romance-lottery-scam',
+    description: `Sherwayne Benjamin Bellinfantie, a Jamaican national who used the alias "Ice Man," admitted in a federal plea agreement that from December 2015 to January 2019 he and co-conspirators ran a romance-and-sweepstakes scheme against an 85-year-old Arizona resident. A co-conspirator pretended to be romantically involved with the victim, sending flowers with love notes to her home, while the group separately convinced her she had won a lottery prize and a new vehicle that she could only collect by first paying supposed fees and taxes — draining roughly $469,302 from her over the scheme's three-year run. Bellinfantie was indicted in March 2022, extradited to the United States in June 2025, and pleaded guilty in the District of Arizona on May 20, 2026 to conspiracy to commit mail and wire fraud, agreeing to pay restitution for the full amount stolen. The FBI's Phoenix Division investigated the case, a reminder that a new online love interest who quickly needs money, or who tells you that you have won a prize you must pay to claim, is one of the most consistent hallmarks of elder-targeted fraud.`,
+    categorySlug: 'romance-scams',
+    country: 'US',
+    state: 'AZ',
+    isHistorical: true,
+    firstRecorded: '2015-12-01',
+    sources: ["U.S. Attorney's Office for the District of Arizona", 'Federal Bureau of Investigation (FBI)', 'Tucson.com'],
+    sourceUrl: 'https://www.justice.gov/usao-az/pr/jamaican-national-extradited-united-states-pleads-guilty-lottery-and-romance-scheme',
+  },
+  {
+    name: 'Superior Stem Cell Institute Fake Regenerative-Medicine Scheme (Michael Pavey)',
+    slug: 'iowa-pavey-fake-stem-cell-treatment-scheme',
+    description: `Michael Pavey, an executive of an Omaha-based company marketed as a stem cell treatment provider, sold Iowans expensive, unproven injections he claimed could treat COPD, joint pain, Alzheimer's disease, and even aging itself, often branding the product "regenerative medicine." Iowa Attorney General Brenna Bird's office alleged Pavey specifically targeted older Iowans and used a misleading testimonial video to convince vulnerable consumers the treatments worked, despite there being no legitimate medical evidence behind the claims and reports that some recipients became sick afterward. The Attorney General's office announced a settlement on February 11, 2025 that permanently bans Pavey from marketing or selling stem cell treatments in Iowa, requires him to pay approximately $240,000 in restitution to the Iowans he sold to, and directs an additional $6,000 to the state's consumer education and litigation fund. The case is part of a broader pattern regulators are watching nationally: before paying for any stem cell therapy, consumers should ask whether it has FDA approval or is part of an FDA-authorized clinical trial and get a second opinion from a physician with no financial stake in the product.`,
+    categorySlug: 'healthcare-fraud',
+    country: 'US',
+    state: 'IA',
+    isHistorical: true,
+    firstRecorded: '2025-02-11',
+    sources: ['Iowa Attorney General', 'KIOS-FM (Omaha Public Radio)', "River Cities' Reader"],
+    sourceUrl: 'https://www.iowaattorneygeneral.gov/newsroom/attorney-general-bird-secures-settlement-against-executive-of-alleged-scam-stem-cell-treatment-compa',
+  },
+  {
+    name: 'Gold Bar Federal-Agent Impersonation Fraud Conspiracy (Rakeshkumar Patel)',
+    slug: 'delaware-patel-gold-bar-federal-agent-fraud',
+    description: `Between May 2023 and May 2024, Rakeshkumar Patel of Flushing, New York conspired with others to run a "federal agent" impersonation scheme that called elderly victims, told them their identities had been compromised and that they were the subject of a federal investigation, and instructed them to liquidate their life savings and convert the cash into gold bars for "safekeeping." Couriers posing as federal agents then collected the cash or gold directly from victims' homes or in public meetups. A Delaware woman was defrauded of $701,529 through the scheme, while other victims lost roughly $1.06 million combined in Nebraska, $248,360 in North Carolina, and $150,000 in Florida — more than $2.15 million in total. Patel, who was in the country illegally, pleaded guilty in the U.S. District Court for the District of Delaware in May 2025 to wire fraud conspiracy, agreed to pay full restitution of $2,154,889, and faced more than five years in federal prison at sentencing. The FBI's Wilmington Resident Agency investigated the case, and prosecutors note the scheme's signature warning sign: no genuine federal agent will ever instruct someone to withdraw savings, convert it to gold, and hand it to a courier who arrives at their home.`,
+    categorySlug: 'government-impersonation',
+    country: 'US',
+    state: 'DE',
+    isHistorical: true,
+    firstRecorded: '2023-05-01',
+    sources: ["U.S. Attorney's Office for the District of Delaware", 'Federal Bureau of Investigation (FBI)', 'WHYY'],
+    sourceUrl: 'https://www.justice.gov/usao-de/pr/indian-national-pleads-guilty-defrauding-elderly-victims-excess-2m',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
