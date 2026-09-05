@@ -41266,6 +41266,39 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'Jordan Online Gold Sales Fraud via Social Media',
+    slug: 'jordan-online-gold-sales-fraud-social-media',
+    description: `Since early 2026, Jordan's Cybercrime Directorate has logged a growing wave of complaints tied to gold sold through unlicensed sellers advertising on social media, where posts offer jewelry and bullion at prices well below the market rate — frequently pitched as exempt from the manufacturing and licensing fees a legitimate jeweler would normally charge. One victim, Mohammed Nassar, transferred payment to an online store after being drawn in by exactly that pitch; the website disappeared before any gold was ever delivered. Another victim, Tala Al-Habashneh, did receive a physical item after buying gold advertised through a social media page, only to have it tested and found to be counterfeit, mixed with cheaper metals rather than the gold she had paid for. Colonel Amer Al-Sartawi, spokesperson for Jordan's Public Security Directorate, said the complaints his unit receives fall into these same two patterns: money wired to a seller who then disappears, or a delivered piece that turns out to be "made from other less valuable metals, such as copper or iron" rather than genuine gold. The Jordan Standards and Metrology Organisation (JSMO) has stepped up monitoring of unlicensed sellers operating through social media as complaints have mounted. Authorities are advising buyers to purchase gold only from licensed jewelry shops that can be verified through JSMO, to treat any online seller offering gold significantly under market price or claiming to be "fee-exempt" as a warning sign, and to file a report with the Cybercrime Directorate immediately if a seller stops responding after payment or a delivered item raises doubts about its purity.`,
+    categorySlug: 'online-shopping-scams',
+    country: 'JO',
+    alertLevel: 'high',
+    sources: ['Al Jazeera', 'Jordan Public Security Directorate'],
+    sourceUrl: 'https://www.aljazeera.com/economy/2026/5/12/social-media-becomes-a-goldmine-for-fraudsters-in-jordan',
+  },
+  {
+    name: 'Jordan Security Officer Impersonation Phone Scam',
+    slug: 'jordan-security-officer-impersonation-phone-scam',
+    description: `On June 9, 2026, Jordan's Public Security Directorate (PSD) issued a public warning about a scam in which fraudsters contact victims through audio and video calls on communication apps while posing as security officers. The scheme runs in two stages: first, the caller threatens the victim by claiming a legal case has already been filed against them, using that fabricated urgency to pressure the victim into handing over full personal details; second, the caller instructs the victim to "visit security departments," a pretext PSD said is really an attempt to gain access to the victim's personal information and bank accounts. The PSD stated plainly that "official security authorities do not utilize such methods for investigations or when summoning individuals" — a genuine security or law-enforcement agency in Jordan does not open a case, notify a suspect, or request personal or financial information over WhatsApp or similar apps. The directorate urged citizens to avoid engaging with any call from an unknown number claiming to represent a security agency through a communication app, and to report suspicious calls immediately either to the emergency line (911), the Cybercrime Unit's official channels, or the Criminal Investigation Department at the nearest police station, rather than complying with any instructions given over the call.`,
+    categorySlug: 'government-impersonation',
+    country: 'JO',
+    alertLevel: 'high',
+    sources: ['Petra - Jordan News Agency', 'Jordan Public Security Directorate'],
+    sourceUrl: 'https://www.petra.gov.jo/en/news/psd-warns-against-new-phone-scam-impersonating-security-officers',
+  },
+  {
+    name: 'Central Bank of Jordan Fake Prize Social Media Scam',
+    slug: 'jordan-fake-prize-social-media-scam',
+    description: `On July 22, 2026, the Central Bank of Jordan (CBJ) posted a public warning on its official Facebook page cautioning citizens about fraudulent advertisements circulating on social media that falsely tell users they have won a cash prize. The ads are built to capitalize on the excitement of an unexpected windfall, prompting people who click through to hand over personal and financial details that the CBJ said should never be shared with an unverified party regardless of what a message promises. "Protecting your data starts with not sharing it with any untrusted party," the bank said in its warning, adding that no one should disclose banking information, national ID numbers, or other personal data to anyone claiming they have won a prize through a social media ad or message. The warning is part of a broader pattern of CBJ alerts about unlicensed entities and fraudulent offers circulating on social media in Jordan, and it reflects a scam format used worldwide: a bank, government agency, or well-known company never asks a winner to provide payment details, banking passwords, or personal identification numbers to claim a prize they never entered to win, and any message that does should be treated as fraudulent and reported rather than answered.`,
+    categorySlug: 'lottery-sweepstakes-scams',
+    country: 'JO',
+    alertLevel: 'medium',
+    sources: ['Central Bank of Jordan', 'Ammon News'],
+    sourceUrl: 'https://en.ammonnews.net/article/93550',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
