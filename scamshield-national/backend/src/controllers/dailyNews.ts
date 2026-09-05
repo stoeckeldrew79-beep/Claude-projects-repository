@@ -52,3 +52,20 @@ export const list = asyncHandler<AuthedRequest>(async (req, res) => {
   );
   res.json({ data: rows });
 });
+
+// States that actually have alerts, with counts, so the UI can offer only
+// real choices rather than all 51 jurisdictions with most of them empty.
+// `ag_count` lets the UI distinguish a state whose own Attorney General
+// publishes a feed from one covered only by news search.
+export const states = asyncHandler<AuthedRequest>(async (_req, res) => {
+  const { rows } = await pool.query(
+    `SELECT state,
+            count(*)::int AS total,
+            count(*) FILTER (WHERE source_kind = 'ag')::int AS ag_count
+     FROM daily_scam_news
+     WHERE state IS NOT NULL
+     GROUP BY state
+     ORDER BY state`
+  );
+  res.json({ data: rows });
+});
