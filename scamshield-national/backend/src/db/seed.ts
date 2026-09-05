@@ -15105,8 +15105,8 @@ Anyone contacted this way should hang up or stop responding without sharing any 
     slug: 'dea-agent-impersonation-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'dea-agent-impersonation-scam'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Sample_retired_DEA_agent_badge_and_credentials.jpg?width=1200',
-    coverImageCredit: 'Photo: U.S. Drug Enforcement Administration (Public Domain)',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/DEA_badge_C.PNG?width=1200',
+    coverImageCredit: 'U.S. Drug Enforcement Administration (Public Domain)',
     coverImagePosition: 50,
     sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2021/03/drug-enforcement-administration-isnt-calling',
     body: `The call opens with a badge number and a claim designed to produce instant panic: a vehicle rented in your name was stopped with drugs inside, or your Social Security number turned up at a drug-trafficking or money-laundering scene states away. The caller identifies himself as a Drug Enforcement Administration agent, sometimes using the real name of an actual DEA employee, and says an arrest is imminent — unless the matter can be resolved right now, over the phone, through an immediate payment.
