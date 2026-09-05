@@ -10636,6 +10636,47 @@ As of this writing, Batino's case remains pending, with the charges against him 
   },
 );
 
+NOTORIOUS_ARTICLES.push(
+  {
+    title: 'Vincent Camarda and the A.G. Morgan Financial Advisors $160 Million Fraud',
+    slug: 'vincent-camarda-ag-morgan-financial-advisors-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-edny/pr/long-island-investment-advisor-pleads-guilty-160-million-investment-fraud',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/AmityvilleVillageHall.jpg?width=1200',
+    coverImageCredit: 'Photo: Abductive, Wikimedia Commons (CC0) — Amityville Village Hall in Amityville, New York, near where Vincent Camarda ran A.G. Morgan Financial Advisors',
+    coverImagePosition: 50, // representative photo — replace with a portrait if found
+    body: `Vincent Camarda spent more than 30 years building a reputation as a trusted Long Island investment adviser before federal prosecutors say he turned that trust into the raw material for a $160 million fraud. As founder and CEO of A.G. Morgan Financial Advisors, LLC, based in Massapequa, New York, Camarda — together with the firm's co-owner, James E. McArthur — held himself out as a conservative steward of his clients' retirement savings. Prosecutors and the Securities and Exchange Commission say that image was largely fiction.
+
+According to parallel criminal and civil actions filed April 3, 2026, in the U.S. District Court for the Eastern District of New York, Camarda and McArthur created, managed, and owned five private investment funds and sold their advisory clients promissory notes in those funds, describing the investments as "safe," "conservative," and diversified. The SEC's complaint alleges that from June 2020 through at least December 2023, the defendants raised at least $138 million from more than 431 investors this way — many of them elderly, retired, and financially unsophisticated people who had come to Camarda for standard retirement planning, not high-risk speculation. In reality, according to the SEC, four of the five funds were concentrated almost entirely in a single high-risk cryptocurrency-mining venture, while the fifth existed solely to bankroll a coffee shop startup owned by Camarda's own son — conflicts of interest prosecutors say were never disclosed to the clients whose money funded them.
+
+Federal prosecutors described a pattern that went beyond bad investment judgment into direct theft. In one transaction cited in court filings, a client wired Camarda $700,000; he is alleged to have put roughly $370,000 of it into the mining venture and simply kept the remaining $400,000 for himself. Prosecutors said Camarda used client wire transfers to pay for personal expenses including plastic surgery, jewelry, and vacations, on top of collecting undisclosed compensation tied to the investments he was steering clients into.
+
+Camarda pleaded guilty on April 3, 2026, in federal court in Central Islip to one count of securities fraud and one count of investment adviser fraud, admitting to conduct spanning January 2017 through December 2024. He agreed to pay at least $160 million in restitution and to forfeit more than $6.6 million, and faces up to 20 years in prison at sentencing. "Today's guilty plea is an important step toward holding the defendant accountable for the substantial harm he has caused," said U.S. Attorney Joseph Nocella Jr. for the Eastern District of New York. The SEC's separate civil case against Camarda, McArthur, and A.G. Morgan Financial Advisors seeks permanent injunctions, disgorgement, and civil penalties.
+
+Camarda's case is a reminder that a registered investment adviser license and three decades in the business are not, by themselves, evidence of trustworthiness — a licensed adviser can still misrepresent risk, hide conflicts of interest, and divert client money to a family member's unrelated business venture. Investors, especially retirees relying on an adviser for capital preservation rather than growth, can verify how a fund is actually invested through the SEC's EDGAR and Investment Adviser Public Disclosure databases rather than relying solely on an adviser's own description of a fund as "safe."`,
+  },
+  {
+    title: 'Rathnakishore Giri and the New Albany Bitcoin Derivatives Ponzi Scheme',
+    slug: 'rathnakishore-giri-bitcoin-derivatives-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/opa/pr/ohio-investment-manager-sentenced-nine-years-10m-cryptocurrency-ponzi-scheme',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Georgian_home_in_New_Albany,_Ohio.jpg?width=1200',
+    coverImageCredit: 'Photo: Lisa Hinson, Wikimedia Commons (CC BY-SA 4.0) — a home in New Albany, Ohio, where cryptocurrency Ponzi operator Rathnakishore Giri lived',
+    coverImagePosition: 50, // representative photo — replace with a portrait if found
+    body: `Rathnakishore Giri told investors around Columbus, Ohio, that he was an expert Bitcoin derivatives trader who could generate lucrative returns with no risk to their principal, which he personally guaranteed to return in full. Neither claim held up. Federal prosecutors say Giri, 31, of New Albany, Ohio, had in fact accumulated a long history of losing the principal investors gave him — a track record he never disclosed to the people he kept recruiting.
+
+According to the Justice Department, Giri operated the scheme from at least 2019 onward, raising more than $10 million from investors, many of whom lived in or around Columbus. Rather than trading their money as promised, prosecutors say Giri ran a straightforward Ponzi structure, using new investors' deposits to make payments to earlier investors and create the appearance of a profitable trading operation. He was charged in November 2022 with five counts of wire fraud in the U.S. District Court for the Southern District of Ohio.
+
+What happened next is what separates Giri's case from a typical Ponzi prosecution. On October 4, 2024, he appeared before Chief Judge Algenon L. Marbley and pleaded guilty to one count of wire fraud. Then, according to prosecutors, while free on pretrial release and awaiting sentencing, Giri went right back to soliciting money from cryptocurrency investors — generating new victims and new losses even after he had already admitted, under oath, to defrauding the people who came before them. Prosecutors flagged the continued solicitation as an aggravating factor at sentencing.
+
+On May 18, 2026, Giri was sentenced to nine years in federal prison, to be followed by three years of supervised release. The case was announced by the Justice Department's Criminal Division, with Assistant Attorney General A. Tysen Duva and FBI Cincinnati Field Office Special Agent in Charge Jason Cromartie crediting the investigation, and Acting Deputy Chief Lucy B. Jennings and Trial Attorney Tamara Livshiz of the Fraud Section handling the prosecution.
+
+Giri's willingness to keep soliciting new cryptocurrency investors after already pleading guilty to defrauding earlier ones underscores a hard truth about affinity-style crypto Ponzi schemes: a guilty plea alone does nothing to freeze a fraudster's ability to keep raising money unless prosecutors also seek pretrial detention or a court specifically restrains further solicitation, and a self-described "expert trader" promising guaranteed, risk-free returns on Bitcoin derivatives is describing a product that does not exist — no legitimate derivatives strategy eliminates the risk of loss, guaranteed or otherwise. The FBI's Internet Crime Complaint Center, at ic3.gov, continues to take reports from investors who believe they lost money to Giri's operation.`,
+  },
+);
+
 // Practical "how it works / red flags / what to do" guides covering the
 // major scam categories, the same kind of coverage the FTC's Consumer
 // Advice site and AARP's Fraud Watch Network publish — well-documented
