@@ -37472,6 +37472,42 @@ SEED_SCAMS.push(
   },
 );
 
+// Three new, real, sourced cases tied to Colombia — a country not
+// previously covered in SEED_SCAMS (verified by grep before adding).
+SEED_SCAMS.push(
+  {
+    name: 'SIC Investigation into Telecom SIM-Swap Failures',
+    slug: 'colombia-sic-sim-swapping-telecom-investigation',
+    description: `Colombia's Superintendencia de Industria y Comercio (SIC) opened a formal administrative investigation on October 14, 2025, against the country's four largest mobile carriers — Tigo (Colombia Móvil), Claro (Comcel), Movistar (Colombia Telecomunicaciones), and WOM (Partners Telecom Colombia) — over security failures in how they handled SIM card replacement requests. The SIC's Directorate for Investigation of User Protection of Communications Services found that all four operators lacked reliable tools to verify a customer's identity before swapping a phone number onto a new SIM, and had no adequate ongoing oversight to catch the problem despite prior warning signs, including what the agency described as unclear or insufficient responses to users who had already reported unauthorized replacements. That gap is what enables SIM swapping: a fraudster who has gathered enough of a victim's personal information contacts the carrier, poses as the account holder, and talks a representative into activating the victim's phone number on a SIM card the fraudster controls — at which point the criminal starts receiving the victim's calls and text messages, including the one-time SMS codes banks and other services use to verify identity, letting the fraudster reset passwords and drain accounts while the real owner's phone silently goes dead. Each of the four operators faces potential fines of up to 15,000 times Colombia's monthly minimum wage — more than 19.5 billion pesos per company at 2025 rates — and had fifteen business days from notification to respond. Consumers can reduce their exposure by adding a carrier-side PIN or passphrase requirement to their mobile account wherever the operator offers one, watching for a sudden and complete loss of cell signal as a possible sign a SIM swap is already underway, and avoiding financial one-time codes as the sole method of account recovery when a stronger option, such as an authenticator app, is available.`,
+    categorySlug: 'account-takeover',
+    country: 'CO',
+    alertLevel: 'high',
+    sources: ['Superintendencia de Industria y Comercio (SIC)', 'Infobae Colombia', 'Forbes Colombia'],
+    sourceUrl: 'https://www.infobae.com/colombia/2025/10/14/la-sic-investiga-a-tigo-claro-movistar-y-wom-por-fallas-en-la-reposicion-de-sim-cards/',
+  },
+  {
+    name: 'The "Banana Pyramid" (Pirámide del Plátano) Investment Fraud',
+    slug: 'colombia-piramide-del-platano-banana-pyramid-scheme',
+    description: `Between 2021 and 2024, Mariana Vanessa Araos Borja and Alexander Suarez Burgos ran an illegal fundraising scheme in Colombia's Urabá banana-growing region built around two related pitches: an initial one promising to buy plantains from local growers and resell the crop to a foreign buyer at a markup, and a later one, run through a cooperative structure set up in 2022, that recruited people as "asociados" or hidden partners under participation-account contracts in exchange for a promised return of 25 percent every 25 business days, supposedly funded by the same plantain-export business. Colombia's Fiscalía General de la Nación, through its Specialized Directorate Against Money Laundering, found that the scheme took in roughly 200 billion pesos from about 8,000 people, a large share of them exactly the kind of savers with the least room to absorb a loss: rural teachers, farmers, women heading their own households, and people who had been displaced by Colombia's armed conflict, concentrated in the Antioquia municipalities of Turbo, Carepa, Apartadó, Medellín, and Andes, with additional victims in Valle del Cauca, Tolima, and Magdalena. None of the promised returns materialized for most participants, and investigators found no evidence the underlying banana-export business ever operated at anywhere near the scale needed to justify the payouts on offer. In 2026, the Fiscalía formally charged Araos Borja and Suarez Burgos, moving the case toward trial. The scheme illustrates a recurring pattern in Colombian pyramid fraud: anchoring an implausible investment return to a familiar, tangible local commodity — in this case a crop many victims had grown or sold themselves — to make an unlicensed fundraising pitch feel more like a normal business deal than a stranger's promise of free money.`,
+    categorySlug: 'investment-fraud',
+    country: 'CO',
+    isHistorical: true,
+    firstRecorded: '2021-01-01',
+    sources: ['Fiscalía General de la Nación (Colombia)', 'Semana', 'Publimetro Colombia'],
+    sourceUrl: 'https://www.publimetro.co/noticias/2026/08/18/la-millonaria-piramide-de-platanos-que-engano-a-8000-personas-en-colombia-prometian-rendimientos-del-25/',
+  },
+  {
+    name: 'Carlos Mario Montoya Forero Fake-Official Auction Fraud',
+    slug: 'colombia-carlos-montoya-forero-fake-dian-auction-fraud',
+    description: `Carlos Mario Montoya Forero built a fraud around impersonating officials from two different Colombian government bodies, first posing as a municipal official offering access to affordable-housing programs before shifting to a pitch built around DIAN (Colombia's tax and customs authority) and, later, the Fiscalía General de la Nación itself. Contacting targets through social media and email across the departments of Risaralda, Valle del Cauca, and Quindío, he claimed insider access to government auctions of seized vehicles, appliances, and electronics, and told victims that an upfront payment would secure them advance information and a guaranteed spot before the public sale — payments he then kept without ever delivering any auction access or goods. Colombian authorities documented 79 victims defrauded of more than 1.6 billion pesos before Montoya Forero was captured in Pereira, Risaralda, on November 21, 2025. He was charged with aggravated fraud, which carries a sentence of two to twelve years in prison, and with falsifying public documents, which can add four to nine years — fifteen if the perpetrator is found to have actually been a public official — and a judge ordered him held in pretrial detention. Colombia's Fiscalía has stated plainly that DIAN and the Attorney General's Office never request money in advance to grant access to a government auction, and that official auction listings and procedures are published exclusively on the agencies' own government websites rather than shared through an individual's social media account or personal email.`,
+    categorySlug: 'government-impersonation',
+    country: 'CO',
+    alertLevel: 'high',
+    sources: ['Fiscalía General de la Nación (Colombia)', 'Infobae Colombia', 'HSB Noticias'],
+    sourceUrl: 'https://www.infobae.com/colombia/2025/11/27/1600-millones-en-estafas-fiscalia-esclarece-modalidad-usada-por-un-falso-funcionario-para-captar-incautos-en-subastas-fraudulentas/',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
