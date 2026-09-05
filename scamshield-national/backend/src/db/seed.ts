@@ -36894,6 +36894,45 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'Burtonsville Online-Dating "Business Investment" Fraud Ring (Krist Koranteng)',
+    slug: 'maryland-koranteng-online-dating-fraud-conspiracy',
+    description: `Between September 2012 and February 2014, Krist Koranteng, then living in Burtonsville and Laurel, Maryland, ran a conspiracy that trolled online dating websites to strike up romantic relationships with men and women — including several elderly victims — purely to get at their money. Members of the conspiracy used phone calls, emails, and text messages to build a sense of real intimacy with their targets before asking them to wire, deposit, or mail funds into accounts tied to Koranteng's business, dressing up the requests as loans, business investments, or help covering a supposed emergency rather than admitting the relationship itself was fabricated. By the time the scheme unraveled, the conspirators had drawn more than $1.1 million out of victims across the country, a significant share of it from elderly people who had no way to independently verify that the "boyfriend" or "girlfriend" pressing them for money existed anywhere outside a dating profile. Koranteng pleaded guilty in federal court in Maryland to conspiracy to commit mail and wire fraud and to money laundering, and on November 19, 2015 a federal judge sentenced him to 33 months in prison plus three years of supervised release, ordering $1,171,657 in restitution — the full amount of the victims' documented losses. The U.S. Attorney's Office for the District of Maryland pointed to the case as a caution for anyone forming a relationship entirely online: a partner who professes love within weeks, resists any video call or in-person meeting, and then needs money for a "business opportunity" or sudden crisis is a well-worn romance-fraud script, and money sent to a stranger met on a dating site is rarely recoverable once it leaves an account.`,
+    categorySlug: 'romance-scams',
+    country: 'US',
+    state: 'MD',
+    isHistorical: true,
+    firstRecorded: '2012-09-01',
+    sources: ["U.S. Attorney's Office for the District of Maryland"],
+    sourceUrl: 'https://www.justice.gov/usao-md/pr/montgomery-county-man-sentenced-over-three-years-prison-arising-11-million-fraud-scheme',
+  },
+  {
+    name: 'Fake Virginia Beach Jeweler Romance Scam (Richard Yaw Dorpe)',
+    slug: 'virginia-dorpe-chesapeake-widow-romance-scam',
+    description: `Richard Yaw Dorpe, a Ghanaian national, built a profile on OurTime — a dating site marketed to people over 50 — posing as a single 57-year-old jeweler from Virginia Beach who was traveling abroad to buy gold and other jewelry before returning home. Through that fake identity he met a 68-year-old recent widow living in Chesapeake, Virginia, and spent months courting her in an online relationship, all while never actually being anywhere near Virginia Beach. Between August 2016 and January 2017, Dorpe used the relationship to convince the widow to mail and wire him clothing, jewelry, a computer, a watch, and more than $300,000 in cash, describing each request as a temporary need tied to his supposed overseas jewelry-buying trips. She eventually grew suspicious and contacted the FBI, which traced the scheme back to Ghana; after Ghana approved a U.S. extradition request in January 2021, Dorpe was brought to the United States, pleaded guilty in the Eastern District of Virginia to wire fraud, and was sentenced to 40 months in federal prison. The U.S. Attorney's Office for the Eastern District of Virginia and the FBI's Norfolk office pointed to the case as a reminder that a dating-site match who claims to live locally but is perpetually "traveling for business" and unable to meet in person is a hallmark of romance fraud — and that any request to wire money, mail cash, or ship valuables to someone never met face-to-face warrants independent verification before a single dollar moves.`,
+    categorySlug: 'romance-scams',
+    country: 'US',
+    state: 'VA',
+    isHistorical: true,
+    firstRecorded: '2016-08-01',
+    sources: ["U.S. Attorney's Office for the Eastern District of Virginia", 'Federal Bureau of Investigation', 'WAVY-TV'],
+    sourceUrl: 'https://www.justice.gov/usao-edva/pr/ghanaian-national-sentenced-online-romance-fraud-scheme',
+  },
+  {
+    name: 'Mariner Finance Hidden Add-On Loan Fee Settlement',
+    slug: 'tennessee-mariner-finance-deceptive-lending-settlement',
+    description: `Mariner Finance, an installment lender operating in Tennessee, built add-on financial products — insurance-like coverage and other supplemental products bundled into personal loans — into loan packages without giving borrowers the clear, informed choice the law requires, according to the Tennessee Attorney General's Office. Investigators found that these add-ons could inflate a borrower's loan balance by hundreds or even thousands of dollars beyond the amount actually needed, while the company's sales tactics pushed customers toward taking on more credit than they had asked for or fully understood, trapping many in cycles of escalating debt. The scale of the practice was national: the Attorney General's office found that in 2019 alone, Mariner Finance collected $121.7 million nationwide in premiums and fees tied to these bundled add-on products. Tennessee Attorney General Jonathan Skrmetti's office reached a settlement with the company requiring $11.1 million in total consumer relief — about $1 million paid out as direct restitution to affected Tennessee borrowers and roughly $10.1 million delivered through cancellation of debt still owed by impacted customers — announced on May 8, 2026. "When a business uses deceptive practices to rip off consumers, they violate Tennessee law and my consumer protection team will hold them accountable," Skrmetti said. The case is a reminder that anyone taking out an installment loan should ask for an itemized breakdown of every fee and add-on product before signing, decline any optional insurance or membership product bundled into the loan that wasn't specifically requested, and compare the total repayment amount — not just the monthly payment — against a loan from a federally insured bank or credit union before accepting financing pushed hard by the lender itself.`,
+    categorySlug: 'debt-relief-scams',
+    country: 'US',
+    state: 'TN',
+    isHistorical: true,
+    firstRecorded: '2026-05-08',
+    sources: ['Tennessee Attorney General\'s Office'],
+    sourceUrl: 'https://www.tn.gov/attorneygeneral/news/2026/5/8/pr26-17.html',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
