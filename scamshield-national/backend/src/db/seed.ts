@@ -37857,6 +37857,49 @@ SEED_SCAMS.push(
   },
 );
 
+// Three new, real, sourced cases for the three states tied for the fewest
+// SEED_SCAMS entries (DE, RI, NE all had 10 — verified with a brace-depth
+// parser scoped to the SEED_SCAMS region only, not the unrelated
+// SEED_STATE_AG_SOURCES array below). Each is a genuinely distinct
+// scheme/category from that state's existing entries (checked via
+// case-insensitive grep for the scam name, company/scheme name, and
+// people's names/aliases — zero existing hits before adding).
+SEED_SCAMS.push(
+  {
+    name: 'Kars-R-Us.com Deceptive Cancer Charity Vehicle-Donation Scheme',
+    slug: 'delaware-kars-r-us-cancer-charity-vehicle-donation-scheme',
+    description: `Kars-R-Us.com, Inc. solicited vehicle donations nationwide between 2017 and 2022 on behalf of the United Breast Cancer Foundation (UBCF), telling donors their car, truck, or boat would fund free and low-cost breast cancer screenings. More than 84,000 donors gave upwards of $45.5 million over that period, but the Federal Trade Commission found that only $126,815 — about 0.28% of the total raised — actually went toward screenings; roughly $34.9 million went to Kars-R-Us, its operators, and the vendors that processed and resold the donated vehicles, while most of what UBCF itself kept paid its own CEO rather than patient services. On October 2, 2025, Delaware Attorney General Kathy Jennings joined the FTC and a coalition of 19 states in a settlement permanently banning Kars-R-Us president and co-owner Michael Irwin from any future charitable fundraising and restricting co-owner Lisa Frank and the company from making deceptive donation-impact claims, alongside a $3.88 million monetary judgment that is largely suspended based on the defendants' documented inability to pay. "To prey upon the kindness and generosity of individuals who sacrifice to support charity is a despicable act," Jennings said in announcing the action. Before donating a vehicle to any charity, Delawareans are advised to look up the actual charity's finances on the IRS's Tax Exempt Organization Search or a service like CharityWatch rather than trusting a fundraiser's own claims about where the money goes, since a for-profit vehicle-donation processor and the charity whose name it uses are often two separate entities splitting the proceeds.`,
+    categorySlug: 'charity-scams',
+    country: 'US',
+    state: 'DE',
+    alertLevel: 'high',
+    sources: ['Delaware Department of Justice', 'Federal Trade Commission'],
+    sourceUrl: 'https://news.delaware.gov/2025/10/02/doj-joins-federal-trade-commission-coalition-of-19-states-to-stop-deceptive-fundraising-scheme/',
+  },
+  {
+    name: 'Publishers Clearing House-Style Lottery Scam Targeting Rhode Island Seniors',
+    slug: 'rhode-island-lottery-sweepstakes-scam-dallas-byfield',
+    description: `Patrick Dallas, Stacey Robinson, and Owen Demoy Byfield ran a telephone and mail-based sweepstakes fraud that told senior citizens in Rhode Island and several other states they had won millions of dollars in a "Publishers Clearing House"-style lottery, then told victims they had to pay upfront "taxes" or "fees" before their winnings could be released. Victims were instructed to hand over personal identifying information for supposed prize verification and to send cash, gift cards, and high-value items such as Rolex watches and iPhones to addresses the defendants controlled, and the group laundered the proceeds through shell entities and bank accounts in their own names. Prosecuted in the U.S. District Court for the District of Rhode Island, Dallas was sentenced to 24 months in federal prison followed by three years of supervised release and ordered to pay restitution, while Byfield received the same 24-month sentence, a $1.7 million restitution order, and a judicial order of removal clearing the way for deportation after his sentence; the case was investigated by Homeland Security Investigations, the U.S. Postal Inspection Service, and the Warwick Police Department. No legitimate sweepstakes — including the real Publishers Clearing House — ever requires a winner to pay taxes, fees, or "processing costs" before releasing a prize, and any call or letter claiming otherwise should be treated as fraud regardless of how official the paperwork looks.`,
+    categorySlug: 'lottery-sweepstakes-scams',
+    country: 'US',
+    state: 'RI',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office, District of Rhode Island", 'Patch'],
+    sourceUrl: 'https://patch.com/rhode-island/across-ri/georgia-man-sentenced-2-years-conspiring-scam-ri-seniors-feds',
+  },
+  {
+    name: 'Omaha Power-of-Attorney Financial Exploitation of a Memory-Care Father',
+    slug: 'nebraska-omaha-power-of-attorney-elder-financial-exploitation-deacy',
+    description: `In 2023, Patricia Deacy's father — a memory-care resident in Omaha with declining cognitive function — was pressured into naming her his power of attorney, and investigators say she began systematically draining his accounts once she had that access. A financial review by the Douglas County Sheriff's Office found roughly $1.4 million in withdrawals and transfers, including $213,286.64 sent through Venmo and PayPal to a man who owned only a flip phone, $116,358.44 spent on boats, $94,469.01 on home improvements for a father who owned no home, and nearly $50,000 on vehicle expenses despite the father not driving — spending that funded Deacy's own retirement, homes, vehicles, a pool, and vacations. After accounting for some repayments, investigators calculated roughly $874,732.98 in confirmed misappropriated funds; Deacy was booked into Douglas County Corrections on July 28, 2026, charged with felony abuse of a vulnerable adult and felony theft over $5,000. "Crimes like this can wreak havoc and upend lives, especially those of vulnerable people," Douglas County Sheriff Aaron Hanson said in announcing the arrest. Families granting a power of attorney to help an aging or cognitively declining relative are advised to require a co-signer or a regular independent accounting of the account, since a power of attorney is rarely double-checked once granted and a bank has no way to know an agent is spending beyond what the account holder actually authorized.`,
+    categorySlug: 'identity-theft',
+    country: 'US',
+    state: 'NE',
+    alertLevel: 'high',
+    sources: ["Douglas County Sheriff's Office (Nebraska)", 'WOWT'],
+    sourceUrl: 'https://www.wowt.com/2026/07/28/omaha-woman-arrested-allegedly-stealing-770k-father-after-gaining-power-attorney/',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
