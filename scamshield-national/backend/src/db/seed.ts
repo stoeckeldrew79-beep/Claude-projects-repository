@@ -18642,6 +18642,9 @@ GUIDE_ARTICLES.push(
     slug: 'medicare-advantage-broker-kickback-lawsuit-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'medicare-advantage-broker-kickback-lawsuit'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Robert_F._Kennedy_Department_of_Justice_Building,_Washington,_D.C.jpg?width=1200',
+    coverImageCredit: 'Photo: Pelajanela (CC BY-SA 4.0)',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.justice.gov/opa/pr/united-states-files-false-claims-act-complaint-against-three-national-health-insurance',
     body: `On May 1, 2025, the Justice Department filed a False Claims Act complaint in the U.S. District Court for the District of Massachusetts against three of the country's largest health insurers — Aetna Inc. (a CVS Health company), Elevance Health Inc. (formerly Anthem), and Humana Inc. — and three of the largest Medicare Advantage insurance brokers — eHealth Inc., GoHealth Inc., and SelectQuote Inc. The government's allegation is one that should worry anyone who has ever called a toll-free number or a licensed "independent" agent to compare Medicare Advantage plans: that from 2016 through at least 2021, the insurers paid the brokers hundreds of millions of dollars in kickbacks, disguised as "marketing development funds," in direct exchange for steering Medicare beneficiaries toward whichever insurer's plan paid the broker the most — regardless of which plan actually fit the beneficiary's health needs.
 
@@ -18660,6 +18663,9 @@ Red flags to watch for during Medicare's fall enrollment season: unsolicited rob
     slug: 'dave-cash-advance-app-hidden-fees-lawsuit-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'dave-cash-advance-app-hidden-fees-lawsuit'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/FTC_entrance_Freedom_250_banner_door_Washington_DC_2026-07-31_10-50-42.jpg?width=1200',
+    coverImageCredit: 'Photo: G. Edward Johnson (CC BY 4.0)',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2024/11/ftc-takes-action-against-online-cash-advance-app-dave-deceiving-consumers-charging-undisclosed-fees',
     body: `On November 5, 2024, the Federal Trade Commission filed a complaint against Dave Inc., the fintech company behind one of the most downloaded cash-advance apps in the country, alleging it lured in consumers living paycheck to paycheck with a promise it rarely kept: instant access to "up to $500" in cash. According to the FTC, only a small fraction of users were ever offered anywhere near that amount, and the app's own customer reviews told the story — one consumer quoted in the complaint said, "I only was able to get $25. Not very helpful." In December 2024, the FTC referred the case to the Department of Justice, which filed an amended complaint adding a claim for civil penalties and naming Dave's founder and CEO, Jason Wilk, as an individual defendant.
 
@@ -18681,6 +18687,9 @@ GUIDE_ARTICLES.push(
     slug: 'navient-student-loan-servicer-settlement-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'navient-student-loan-servicer-settlement'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/CFPB_-_Consumer_Financial_Protection_Bureau_HQ_-_Washington_D.C._(53799066428).jpg?width=1200',
+    coverImageCredit: 'Photo: Tony Webster (CC BY 2.0)',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.consumerfinance.gov/archive/newsroom/cfpb-bans-navient-from-federal-student-loan-servicing-and-orders-the-company-to-pay-120-million-for-wide-ranging-student-lending-failures/',
     body: `For most of the 2010s, Navient was the largest servicer of federal student loans in the country, standing between more than 12 million borrowers and the paperwork that determined how much they'd pay each month. A federal student loan servicer doesn't choose your interest rate or forgive your debt — but it does answer the phone when you call struggling to make a payment, and it's supposed to walk you through every option available, including income-driven repayment (IDR) plans that cap monthly payments based on what you actually earn. According to the Consumer Financial Protection Bureau, Navient spent years steering struggling borrowers away from that option and into something faster for the company to process: forbearance, a temporary pause on payments that lets interest keep piling up and capitalize onto the loan balance.
 
@@ -18699,6 +18708,9 @@ If you believe a current or former servicer steered you into forbearance instead
     slug: 'ngl-labs-anonymous-messaging-app-settlement-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'ngl-labs-anonymous-messaging-app-settlement'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Federal_Trade_Commission_logo_Washington_DC_2025-04-05_14-07-24.jpg?width=1200',
+    coverImageCredit: 'Photo: G. Edward Johnson (CC BY 4.0)',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2024/07/ftc-order-will-ban-ngl-labs-its-founders-offering-anonymous-messaging-apps-kids-under-18-halt',
     body: `NGL — short for "not gonna lie" — built its business on a simple hook aimed squarely at teenagers: link the app to your Instagram or Snapchat story, and friends can send you anonymous messages and questions. The mystery of not knowing who sent a message was the entire product. According to a July 2024 complaint filed jointly by the Federal Trade Commission and the Los Angeles County District Attorney's Office, NGL Labs, LLC and its co-founders, Raj Vir and Joao Figueiredo, allegedly manufactured that mystery on purpose — and then sold teenagers a fake way to solve it.
 
@@ -18720,6 +18732,9 @@ GUIDE_ARTICLES.push(
     slug: 'university-of-phoenix-ftc-settlement-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'university-of-phoenix-ftc-settlement'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/University_of_Phoenix_Building_2025.png?width=1200',
+    coverImageCredit: 'University of Phoenix (CC0)',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2019/12/ftc-obtains-record-191-million-settlement-university-phoenix-resolve-ftc-charges-it-used-deceptive',
     body: `For years, the University of Phoenix was the largest for-profit university in the country and, by its own later disclosures, the single largest recipient of Post-9/11 GI Bill benefits of any school in the nation — a fact that made its advertising to servicemembers, veterans, and military spouses more than an ordinary marketing choice. According to a complaint filed by the Federal Trade Commission, the school built a recruiting pitch around name-brand employers that, in the FTC's telling, existed mainly to make the advertising look convincing rather than to reflect anything real about a student's job prospects.
 
@@ -18738,6 +18753,9 @@ If you believe you were misled by a school's advertising about job placement, co
     slug: 'pointbreak-media-google-robocall-settlement-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'pointbreak-media-google-robocall-settlement'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/FTC_headquarters.jpg?width=1200',
+    coverImageCredit: 'Photo: Postdlf (CC BY-SA 3.0)',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2019/05/ftc-disconnects-pointbreak-media-robocall-scheme-defendants',
     body: `A robocall reaches a small business owner's phone with an urgent warning: their listing is about to be removed from Google search results, or marked "permanently closed," unless they act immediately. Pressing 1 connects the call to a live representative who explains that for a one-time fee — typically $300 to $700 — the caller's company can guarantee the business stays visible, or even secure it exclusive keywords that push it to the first page of search results. According to a Federal Trade Commission complaint, that entire premise was fabricated, and the operation behind it became one of the largest robocalling schemes the agency has ever taken to court.
 
