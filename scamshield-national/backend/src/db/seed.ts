@@ -13868,10 +13868,9 @@ Never install a banking or financial app from a link in a text or email — go t
     slug: 'prime-bank-trading-program-fraud-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'prime-bank-fraud'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Citizens_Bank_in_Kilgore,_TX_IMG_5926.JPG?width=1200',
-    coverImageCredit: 'Photo: Billy Hathorn (CC BY-SA 3.0)',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Marriner_S._Eccles_Federal_Reserve_Board_Building.jpg?width=1200',
+    coverImageCredit: 'Photo: AgnosticPreachersKid, CC BY-SA 3.0, via Wikimedia Commons — the Marriner S. Eccles Federal Reserve Board Building; scam pitches invoke a fictitious Fed tie-in real central bankers have nothing to do with',
     coverImagePosition: 50,
-    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-alerts/investor-57',
     body: `An investor is approached — often by someone in their own professional or religious network — with access to an exclusive "trading program" available only to the world's largest banks: a chance to buy discounted financial instruments with names like standby letters of credit, bank guarantees, or medium-term notes, then resell them at a markup in a secret secondary market, generating guaranteed weekly or monthly returns that would be extraordinary for any real investment. The pitch is thick with authentic-sounding banking terminology — SWIFT transfers, "prime world bank" issuers, IMF or World Bank affiliation, a supposed roll program — and investors are frequently asked to sign a non-disclosure agreement before hearing the details, which is framed as protecting a rare opportunity but which also happens to stop them from comparing notes with anyone else or doing outside research.
 
@@ -15690,10 +15689,9 @@ Book directly through the airline's or hotel's own official site or app whenever
     slug: 'fake-military-draft-text-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'selective-service-scam'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Parade_of_draft_men,_September_20,_1917_(MOHAI_5495).jpg?width=1200',
-    coverImageCredit: 'Photo: Webster & Stevens / Museum of History and Industry (Public Domain)',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Seal_of_the_Selective_Service_System.svg?width=1200',
+    coverImageCredit: 'Seal of the U.S. Selective Service System, public domain (U.S. government work) — the real agency; registration never happens through a surprise text',
     coverImagePosition: 50,
-    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.fcc.gov/army-selective-service-warn-bogus-texts',
     body: `A text message arrives claiming the recipient has been "selected" for a new military draft, sometimes citing a fabricated executive order or an urgent-sounding case number, and instructing them to call a number or visit a link immediately to avoid fines or years in prison for failing to comply. The message is timed to land on people between roughly 18 and 25 — the same age range legally required to register with Selective Service — because that's the group most likely to believe a draft notice is even plausible, and often the group with the least experience telling a real government notice from a fake one.
 
@@ -17567,10 +17565,9 @@ Real copyright strikes, community guideline warnings, and monetization notices s
     slug: 'child-support-enforcement-impersonation-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'child-support-impersonation-scam'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Family_Court_Building_Philadelphia.jpg?width=1200',
-    coverImageCredit: 'Photo: Beyond My Ken (CC BY-SA 4.0) — a family court building',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/William_P._Clements_State_Office_Building.JPG?width=1200',
+    coverImageCredit: "Photo: Spazmilk72, CC BY 3.0, via Wikimedia Commons — the William P. Clements State Office Building in Austin, home to the Texas Attorney General's office",
     coverImagePosition: 50,
-    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.wilsoncountynews.com/articles/texas-attorney-general-warns-of-child-support-identity-scam/',
     body: `The Texas Attorney General's Office, which runs one of the largest state child support enforcement programs in the country, opened a criminal investigation after dozens of Texans reported the same phone call: a caller claiming to be collecting overdue child support on the agency's behalf, telling the person on the line that an arrest warrant had already been issued over the missed payments. To "confirm" the account, the caller asked for a Social Security number. To resolve it, the caller instructed the target to go buy a prepaid debit card, load it with cash, and call back to read off the number printed on the back — a single call that handed the scammer both a cash payment and enough personal information to attempt identity theft on top of it.
 
