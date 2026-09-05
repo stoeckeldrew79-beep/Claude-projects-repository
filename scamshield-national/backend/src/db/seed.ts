@@ -16914,6 +16914,10 @@ Booking Holdings isn't the only hotel-adjacent company to face this kind of acti
     slug: 'shutterstock-subscription-cancellation-fee-settlement-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'stock-photo-subscription-negative-option-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/DSLR Camera with Lens on a Tripod head.jpg?width=1200',
+    coverImageCredit: 'Photo: James Niland (CC BY 2.0), via Wikimedia Commons',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2026/05/shutterstock-pay-35-million-settle-ftc-allegations-over-illegal-subscription-cancellation-practices',
     body: `A subscription that's easy to start and hard to stop is one of the oldest patterns in online billing, and it isn't limited to sketchy, fly-by-night sites — it can happen at a company whose stock photos and videos show up across mainstream advertising, journalism, and social media. In May 2026, the FTC announced that Shutterstock, Inc. agreed to pay $35 million to settle federal charges that its subscription and cancellation practices broke both the FTC Act and the Restore Online Shoppers' Confidence Act (ROSCA), the federal law that specifically targets deceptive negative-option billing — subscriptions that keep charging a customer's card automatically unless they take some affirmative action to stop it.
 
@@ -34545,6 +34549,42 @@ SEED_SCAMS.push(
     isHistorical: true,
     sources: ['Washington State Office of the Attorney General', 'Washington Secretary of State'],
     sourceUrl: 'https://www.atg.wa.gov/news/news-releases/ag-ferguson-court-shuts-down-websites-companies-targeted-small-businesses',
+  },
+);
+
+SEED_SCAMS.push(
+  {
+    name: 'California Military Consumer Month "Security Clearance" Impersonation Alert',
+    slug: 'california-military-consumer-month-security-clearance-impersonation-alert',
+    description: `On July 31, 2025, California Attorney General Rob Bonta issued a consumer alert for Military Consumer Month warning service members, veterans, and their families about scammers who impersonate officials from the Department of Defense or the Department of Veterans Affairs and falsely claim the target's security clearance is under review or in jeopardy — a threat calibrated to trigger panic in anyone whose livelihood depends on holding that clearance — in order to pressure the victim into handing over a Social Security number, banking details, or other personal information "to resolve the issue." The alert grouped this identity-theft tactic alongside nine other scam categories the AG's office says disproportionately target the military community, including fraudulent charities using patriotic-sounding names, for-profit schools that misrepresent GI Bill benefits, predatory pension advisers who pressure veterans into costly annuities, and debt collectors who illegally threaten a target's security clearance or military career over an unpaid bill. Bonta's office says scammers deliberately exploit both the trust and "camaraderie that unites the military community" and the unique leverage a false clearance threat carries, since a service member has strong incentive to comply quickly rather than risk their career by taking time to verify the caller's identity. The office recommends that service members bring a trusted "battle buddy" to any major financial decision, verify any government agency's contact information independently rather than using a number or link supplied in the suspicious message, monitor free annual credit reports, place a fraud alert with the credit bureaus, and report suspected scams to oag.ca.gov/report or the FTC — noting that no legitimate DoD or VA official will ever resolve a security-clearance matter over an unsolicited phone call or email demanding personal information.`,
+    categorySlug: 'government-impersonation',
+    country: 'US',
+    state: 'CA',
+    alertLevel: 'medium',
+    sources: ["California Attorney General's Office (Rob Bonta)"],
+    sourceUrl: 'https://oag.ca.gov/news/press-releases/attorney-general-bonta-issues-consumer-alert-amid-increase-reported-scams',
+  },
+  {
+    name: 'Akiel Doman Nationwide Lottery Fee Fraud Scheme',
+    slug: 'florida-akiel-doman-nationwide-lottery-fee-fraud-scheme',
+    description: `Akiel Doman, 34, of North Miami Beach, Florida, and his co-conspirators spent from May 2020 to July 2022 cold-calling victims across the country — many of them elderly — and falsely telling them they had won millions of dollars, and often a car, in a lottery, then instructing the victims to send money upfront to cover supposed taxes or processing fees before their "winnings" could be released. Prosecutors say the payments Doman collected were funneled into his own bank accounts through direct deposits and other transfers, all while Doman was already bound by a 2019 federal court order that specifically prohibited him from participating in lottery scams, making his continued involvement a separate criminal-contempt violation on top of the underlying fraud. Doman pleaded guilty in October 2024 to conspiracy to commit mail and wire fraud and to criminal contempt for violating that court order, and the U.S. Attorney's Office for the Southern District of Florida announced in February 2025 that he was sentenced to 44 months in federal prison and ordered to pay $234,995 in restitution to his victims. The case is one of several South Florida-based lottery fraud prosecutions federal authorities have pursued in recent years, and investigators emphasize the same warning each time: a real lottery or sweepstakes never requires a winner to pay any fee, tax, or "processing charge" upfront to receive money already won, so any call demanding payment before a prize can be released is the clearest sign of a scam.`,
+    categorySlug: 'lottery-sweepstakes-scams',
+    country: 'US',
+    state: 'FL',
+    isHistorical: true,
+    sources: ["U.S. Attorney's Office, Southern District of Florida", 'U.S. Immigration and Customs Enforcement (Homeland Security Investigations)', 'WSVN 7News'],
+    sourceUrl: 'https://www.justice.gov/usao-sdfl/pr/lottery-fraud-scheme-against-seniors-lands-south-florida-man-federal-prison',
+  },
+  {
+    name: 'WhalesTrade Fake Crypto Trading Platform Scheme',
+    slug: 'new-york-whalestrade-fake-crypto-trading-platform-scheme',
+    description: `Operating out of Vietnam, scammers built a fake cryptocurrency trading platform called WhalesTrade — complete with a professional-looking website and a fabricated BitLicense certificate designed to make it look like a business New York actually authorizes to handle virtual currency — and then targeted Russian-speaking New Yorkers in Brooklyn with deceptive Facebook ads written in Russian, paid for using cryptocurrency the operation had stolen from earlier victims. Once someone responded to an ad, the scammers moved the conversation off Facebook and onto encrypted apps like Telegram, where they built trust over time and showed the target a trading dashboard displaying steadily growing account balances to encourage larger and larger deposits — a classic "pig butchering" pattern in which the profits on screen are entirely fabricated and no real trading ever takes place. New York Attorney General Letitia James's office, working with the Brooklyn District Attorney and the New York State Department of Financial Services, announced on June 18, 2025 that it had identified more than 300 victims with over $1 million in estimated losses in Brooklyn alone, seized more than 100 fraudulent domains tied to the operation, obtained a court order freezing $300,000 in cryptocurrency linked to the scammers, and directly warned the identified victims to stop investing before losing more money; the Brooklyn DA separately seized an additional $140,000. The Attorney General's office urges anyone approached about a crypto investment through an unsolicited social media ad or moved into a private chat app to verify that any platform or individual is actually licensed to do business in New York — a real BitLicense holder is listed on the Department of Financial Services' own public registry — before depositing any money, since a fabricated license graphic on a slick website costs a scammer nothing to produce.`,
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    state: 'NY',
+    alertLevel: 'high',
+    sources: ["New York Attorney General's Office (Letitia James)", 'Brooklyn District Attorney', 'New York State Department of Financial Services'],
+    sourceUrl: 'https://ag.ny.gov/press-release/2025/attorney-general-james-freezes-300000-cryptocurrency-linked-scammers-targeting',
   },
 );
 
