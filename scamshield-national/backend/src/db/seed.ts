@@ -37212,6 +37212,42 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'Archer City DME Telemedicine Kickback Medicare Fraud',
+    slug: 'archer-city-dme-telemedicine-kickback-medicare-fraud',
+    description: `Robert "Bobby" Leon Smith III, 50, of Archer City, Texas, owned and operated seven durable medical equipment (DME) supply companies based in Texas, Florida, and Maryland that ran deceptive telemarketing campaigns — including through an offshore call center in the Philippines — pressuring Medicare beneficiaries into accepting orthotic braces, electronic foot baths, and genetic tests they neither needed nor had requested. According to the Justice Department, Smith obtained the doctors' orders needed to bill Medicare by paying kickbacks and bribes to illegitimate telemedicine companies, then resold those orders to other DME suppliers he knew would use them to submit fraudulent claims, all told generating roughly $61.5 million in false and fraudulent billings to Medicare. After a four-day jury trial got underway, Smith pleaded guilty in March 2025 to conspiracy to commit health care fraud and wire fraud and to a substantive health care fraud count; he then absconded and was a fugitive for more than a month before being apprehended, and in March 2026 he was sentenced to 150 months in prison and two years of supervised release, with the court ordering more than $30.1 million in restitution and forfeiture of over $9.2 million along with Texas real estate holdings. The case, investigated by HHS-OIG and the FBI, illustrates a healthcare-fraud mechanism distinct from a simple stolen-Medicare-number scheme: it runs on a "kickback marketplace" for doctors' orders funneled through sham telemedicine outfits, letting a DME network bill Medicare at scale for products beneficiaries were talked into accepting over the phone — a reason to treat any unsolicited telemarketing offer of a "free" brace, foot bath, or genetic test, especially one involving a phone-only doctor visit, as a red flag and to review Medicare Summary Notices for equipment never actually requested from your own physician.`,
+    categorySlug: 'healthcare-fraud',
+    country: 'US',
+    state: 'TX',
+    alertLevel: 'high',
+    sources: ['U.S. Department of Justice', 'Washington Times', 'FOX 4 Dallas-Fort Worth'],
+    sourceUrl: 'https://www.justice.gov/opa/pr/texas-fugitive-apprehended-and-sentenced-over-12-years-prison-61m-telemarketing-fraud-scheme',
+  },
+  {
+    name: 'Los Angeles SIM-Swap Instagram and Zelle Fraud Scheme',
+    slug: 'los-angeles-sim-swap-instagram-zelle-fraud-scheme',
+    description: `Amir Hossein Golshan, 25, of downtown Los Angeles, ran a multi-year campaign of online fraud and account hijacking that combined SIM swapping with impersonation of Apple support and abuse of the Zelle payment network. From roughly April 2019 through February 2023, Golshan and associates convinced mobile carriers to transfer victims' phone numbers onto SIM cards they controlled, using the resulting control over incoming calls and texts to defeat two-factor authentication and hijack Instagram accounts, including one belonging to a social media influencer; separately, he impersonated Apple support representatives to trick victims into handing over account credentials. According to the U.S. Attorney's Office for the Central District of California, Golshan's schemes stole an NFT valued at approximately $319,000 and about $70,000 in cryptocurrency from individual victims, while a Zelle-fraud component defrauded roughly 500 victims out of about $82,000 total, typically in amounts of $300 to $500 apiece. Golshan was sentenced to 96 months (eight years) in federal prison and ordered to pay $1,218,526 in restitution. The case shows how account-takeover fraud increasingly chains several techniques together — a hijacked phone number to intercept one-time login codes, a spoofed tech-support call to extract credentials directly, and a peer-to-peer payment app to move stolen funds quickly — which is why security experts recommend moving off SMS-based two-factor authentication toward an authenticator app or hardware key, and contacting a mobile carrier directly (never through a number or link provided by an unexpected caller) at the first sign of lost cell service.`,
+    categorySlug: 'account-takeover',
+    country: 'US',
+    state: 'CA',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office for the Central District of California"],
+    sourceUrl: 'https://www.justice.gov/usao-cdca/pr/sim-swapper-sentenced-eight-years-prison-campaign-fraud-and-deception-including',
+  },
+  {
+    name: '"Operation Gold Phish" Chicago Romance and Mystery Shopper Scam Ring',
+    slug: 'operation-gold-phish-chicago-romance-mystery-shopper-scam',
+    description: `"Operation Gold Phish" was a Chicago-based federal investigation that unraveled a multi-year fraud ring, primarily targeting elderly victims, running two intertwined schemes: online "romance" scams that built a fabricated relationship with a victim through sites and apps like Match.com, Facebook, and Instagram before asking for money, and "mystery shopper" job scams that mailed victims a fraudulent check with instructions to deposit it, withdraw cash, and wire part of it to a third party under the guise of a shopping assignment. Ten defendants, most living in the Chicago area and several born in Nigeria, were ultimately indicted for conspiracy to commit wire fraud, with prosecutors describing proceeds funneled into personal bank accounts and shell companies before being moved overseas, often to Nigeria. One defendant, Olaniyi Nasiru Ojikutu, fled Chicago by bus after being charged, was arrested seven months later in Canada, and was extradited to the United States in January 2020, where he pleaded guilty to one count of wire fraud; prosecutors said that over roughly three years he opened about 25 bank accounts — in his own name, a fake name, and a shell company — through which he moved approximately $3.4 million in fraudulently obtained funds, with some individual victims losing hundreds of thousands of dollars. Ojikutu was sentenced to 88 months in federal prison. The Justice Department's account of the case underscores a mechanism distinct from a single-shot romance scam: the same ring layered a second, ostensibly unrelated "job" scam onto the first, using the mystery-shopper check-cashing pretext both to launder romance-scam proceeds and to recruit new victims directly, which is why experts advise refusing to deposit any unsolicited check tied to a job offer or online relationship and verifying an employer or romantic partner's identity independently before sending money or personal information.`,
+    categorySlug: 'romance-scams',
+    country: 'US',
+    state: 'IL',
+    alertLevel: 'high',
+    sources: ['U.S. Attorney\'s Office for the Northern District of Illinois', 'Chicago Sun-Times', 'WTTW'],
+    sourceUrl: 'https://www.justice.gov/usao-ndil/pr/chicago-resident-sentenced-seven-years-connection-international-romance-scam',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
