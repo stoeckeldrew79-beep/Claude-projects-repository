@@ -9629,6 +9629,39 @@ Amodeo later argued on appeal that an undiagnosed bipolar disorder should have b
   },
 );
 
+NOTORIOUS_ARTICLES.push(
+  {
+    title: 'Edwin Fujinaga and the $1.5 Billion Ponzi Scheme That Preyed on Japanese Retirees',
+    slug: 'edwin-fujinaga-mri-international-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Edwin Yoshihiro Fujinaga ran MRI International Inc. out of Las Vegas as a "factoring" business — a company that buys medical providers' unpaid accounts receivable at a discount, then collects the full amount from the debtor or insurer, pocketing the spread. It was a real, if obscure, corner of finance, and Fujinaga used its complexity to his advantage: from 2000 until the company collapsed in 2013, he and his associates fraudulently solicited more than $1 billion from over 10,000 investors, nearly all of them residents of Japan who wired their savings from across the Pacific into accounts Fujinaga controlled in Las Vegas.
+
+Marketing materials that Fujinaga personally approved promised investors their money would be used only to purchase discounted medical claims, and that an independent escrow agent would police how MRI spent the funds — a safeguard designed to make an unfamiliar, foreign investment feel secure. According to the Justice Department, it was almost entirely fiction: Fujinaga spent less than two percent of investor money on actual medical receivables. The rest paid off earlier investors in classic Ponzi fashion and funded a lifestyle that included a golf-course mansion outside Las Vegas, a private jet, luxury cars, and real estate in California wine country, Beverly Hills, and Hawaii.
+
+Two more MRI executives helped keep the scheme running from the Japan side: Junzo Suzuki, the company's executive vice president for the Asia-Pacific region, and his son Paul Suzuki, MRI's general manager for Japan operations, who continued soliciting Japanese investors even as the company's finances deteriorated. In an unusually rare move, Japan extradited both of its own citizens to face charges in the United States in April 2019 — normally a legal near-impossibility given Japan's reluctance to hand over its nationals for prosecution abroad.
+
+A federal jury convicted Fujinaga in November 2018, after a five-week trial, on eight counts of mail fraud, nine counts of wire fraud, and three counts of money laundering. Chief Judge Gloria Navarro of the U.S. District Court for the District of Nevada sentenced him on May 23, 2019, to 50 years in federal prison, followed by three years of supervised release, and ordered restitution of $1,129,409,449 along with forfeiture of $813,297,912.65 — among the largest such judgments ever entered in a Ponzi-scheme case. The Suzukis, who cooperated after extradition, each received five years in prison.
+
+By the time MRI collapsed, it owed investors more than $1.5 billion it no longer had, money that had been wired in good faith from Japan on the strength of a paperwork trail — the "escrow agent," the receivables purchase records — engineered to look exactly like the safeguards a cautious, distant investor would think to ask for.`,
+    sourceUrl: 'https://www.justice.gov/archives/opa/pr/president-and-ceo-las-vegas-investment-company-sentenced-50-years-prison-running-15-billion',
+  },
+  {
+    title: 'Anthony Elgindy: The Short Seller Who Bought a Corrupt FBI Agent to Wreck Stocks',
+    slug: 'anthony-elgindy-short-seller-fbi-extortion',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Amr "Anthony" Elgindy built a public reputation as a crusading short seller, operating a subscription website under the persona "Anthony@Pacific" where he told paying members which companies he believed were frauds worth betting against. Short selling itself is legal and can genuinely expose corporate wrongdoing — but prosecutors said Elgindy's edge came from something no legitimate analyst had: a source inside the FBI itself.
+
+Starting around 2000, Elgindy cultivated a relationship with Jeffrey Royer, an FBI special agent who had access to confidential law enforcement and SEC databases identifying which companies were under active federal investigation. Royer fed that non-public information to Elgindy, who used it to take short positions in the targeted stocks before the investigations became public and the share prices fell — and, prosecutors said, Elgindy went further, using the threat of publicizing the stolen information to extort targeted companies into handing over discounted stock or other concessions. When Royer's activity drew scrutiny, he left the Bureau to work for Elgindy directly, and another agent, Lynn Wingate, continued funneling confidential files to the operation.
+
+A federal grand jury returned a superseding racketeering indictment against Elgindy, Royer, Wingate, and an associate, Jonathan Daws, in January 2005. Following a four-month trial, a jury convicted Elgindy of racketeering conspiracy, securities fraud, and related charges, including insider trading tied to five specific stocks. On June 19, 2006, he was sentenced in federal court to nine years in prison for the racketeering conspiracy, plus a consecutive two years for making false statements to federal officials while free on pretrial release — eleven years total — and ordered to forfeit approximately $1.5 million. Royer, the corrupted agent whose access made the scheme possible, received six years; Wingate and Daws were sentenced to probation.
+
+Elgindy served nearly seven years and was released in late 2013. He died by suicide on July 23, 2015, at age 47. His case remains a stark illustration of how a legitimate-sounding investment strategy — publicly calling out companies as frauds — can double as cover for an entirely different, illegal one running underneath it: profiting not from research, but from a law enforcement officer's badge.`,
+    sourceUrl: 'https://www.justice.gov/archive/usao/nye/pr/2006/2006Oct02.html',
+  },
+);
+
 // Practical "how it works / red flags / what to do" guides covering the
 // major scam categories, the same kind of coverage the FTC's Consumer
 // Advice site and AARP's Fraud Watch Network publish — well-documented
