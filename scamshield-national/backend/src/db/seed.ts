@@ -39937,6 +39937,42 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'Illinois AI Voice-Cloning "Family Emergency" Phone Scam Alert',
+    slug: 'illinois-ai-voice-cloning-family-emergency-scam-alert',
+    description: `Illinois Attorney General Kwame Raoul issued a consumer alert on January 3, 2024, warning residents about a new twist on the decades-old "family emergency" scam: criminals using artificial intelligence to clone the voice of a target's actual relative. Scammers pull short audio clips — often just a few seconds lifted from videos posted to social media — and feed them into AI voice-cloning software to produce a convincing impersonation of a parent, grandparent, or child, then call the target sounding exactly like that person and claiming to be in sudden trouble and in urgent need of money. "These criminals are very good and convincing at what they do," Raoul said. "Their goal is to catch you off guard, scare you into sending payment and disappear before you realize what happened." At the time of the alert, Raoul's office had not yet logged a confirmed case of the AI-enhanced version targeting an Illinois resident, but pointed to a prior Federal Trade Commission warning about voice-cloning scams and a Biden administration executive order flagging the same risk. Raoul urged anyone who gets a distress call from a seemingly familiar voice to hang up and call that person back on a number independently known to be theirs rather than one the caller provided, and recommended families agree in advance on a private codeword — never posted anywhere public — that a genuine relative could use to prove their identity before any money is sent.`,
+    categorySlug: 'ai-deepfake-scams',
+    country: 'US',
+    state: 'IL',
+    alertLevel: 'medium',
+    sources: ['Illinois Attorney General Kwame Raoul'],
+    sourceUrl: 'https://illinoisattorneygeneral.gov/news/story/consumer-alert-attorney-general-raoul-urges-illinois-residents-to-be-alert-for-phone-scammers-using-ai-to-mimic-voices',
+  },
+  {
+    name: 'Centene Washington Medicaid Pharmacy Benefit Overbilling Settlement',
+    slug: 'washington-centene-medicaid-pharmacy-overbilling-settlement',
+    description: `Attorney General Bob Ferguson and the Washington State Health Care Authority announced on August 24, 2022, that Centene Corporation, a Fortune 50 managed-care giant, would pay $19 million to resolve allegations that it overcharged the state's Medicaid program for pharmacy benefit management services — the second-largest Medicaid fraud recovery in Washington history. Centene subsidiary Coordinated Care of Washington contracted with pharmacy benefit managers to negotiate prescription drug prices, rebates, and dispensing fees on the state's behalf; investigators alleged the company failed to pass along discounts it actually received and inflated the dispensing fees it billed to the Medicaid program instead. The Attorney General's Medicaid Fraud Control Division and the Health Care Authority's Program Integrity Team opened the investigation in 2019 after a whistleblower came forward with information that pharmacy costs were not being truthfully disclosed; Washington ultimately recovered just under $19 million for the state, with an additional roughly $13 million paid to the federal government for its share of Medicaid administration. Centene reached similar resolutions with ten other states over the same billing practices. The case is a reminder that healthcare fraud losses often show up not as an obvious scam call but as inflated numbers buried inside routine billing — Medicaid and Medicare recipients who want to check for irregularities can review their own claims history through their state's benefits portal or by requesting an itemized statement from their plan.`,
+    categorySlug: 'healthcare-fraud',
+    country: 'US',
+    state: 'WA',
+    isHistorical: true,
+    sources: ['Washington State Office of the Attorney General', 'Washington State Health Care Authority'],
+    sourceUrl: 'https://www.atg.wa.gov/news/news-releases/ag-ferguson-health-care-giant-centene-pay-washington-19-million-overcharging',
+  },
+  {
+    name: 'TFG Holding "JustFab" VIP Membership Deceptive Billing Multistate Settlement',
+    slug: 'louisiana-tfg-holding-justfab-vip-membership-settlement',
+    description: `A coalition of 33 state attorneys general, including Louisiana, announced a settlement on October 23, 2025 with TFG Holding, Inc., the parent company behind the online fashion retailers JustFab, ShoeDazzle, and FabKids, resolving allegations that the company used deceptive "negative option" marketing to enroll shoppers in a recurring VIP Membership Program. Investigators alleged that customers who accepted an advertised discount at checkout were, without clear disclosure, simultaneously enrolled in a membership that charged $49.95 every month unless the customer either made a new purchase or logged in before the sixth of the month to "skip" that month's charge — a step many customers never realized they needed to take. Under the settlement, TFG Holding must pay roughly $3.8 million in automatic refunds to consumers who joined a VIP program before May 31, 2016, made only their initial purchase, and never skipped a subsequent charge, plus $1 million split among the participating states to cover investigation costs. The company also agreed to reform how it discloses membership enrollment and pricing going forward. The case is a reminder that any online "discount" applied automatically at checkout is worth reading closely before confirming a purchase — a recurring membership fee is sometimes bundled into the very click that seems to just be applying a coupon.`,
+    categorySlug: 'online-shopping-scams',
+    country: 'US',
+    state: 'LA',
+    isHistorical: true,
+    sources: ['Louisiana Department of Justice, Office of the Attorney General', 'Multistate Attorneys General Coalition (33 states)'],
+    sourceUrl: 'https://ago.vermont.gov/blog/2025/10/23/coalition-attorneys-general-secure-settlement-online-retailer-deceptive-advertising-and-billing',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
