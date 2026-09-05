@@ -38268,6 +38268,39 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'Fake DEDDIE Electricity Worker "Explosion Risk" Scam Network',
+    slug: 'greece-deddie-electrician-explosion-risk-elderly-fraud',
+    description: `In late 2025, Greece's Agrinio Criminal Investigation Unit dismantled three separate criminal networks that had spent months calling elderly residents while posing as employees of DEDDIE/HEDNO, the operator of Greece's electricity distribution network, and warning that a dangerous fault or gas leak in their home's wiring put it at imminent risk of explosion. To make the pretext convincing, callers followed up with a video call over a messaging app that displayed the utility's official logo on screen, then instructed the frightened victim to gather cash and jewelry — either leaving it in a designated spot outside for a supposed "technician" to collect, or letting a supposed inspector into the home, where an accomplice searched for valuables while a second caller kept the resident talking on the phone. Investigators identified 22 people involved across the three networks, arresting four and naming 18 more, all traced to makeshift call centers run out of private homes in the Attica and Argolis regions, and calculated that the schemes had taken more than €410,000 from victims; a separate but nearly identical ring using the same "electrical hazard" pretext was broken up in Patras around the same time, adding three more arrests over the theft of roughly €16,000 in cash and jewelry from a single elderly victim. Searches of the suspects' homes turned up dozens of mobile phones and SIM cards, laptops, and USB storage devices used to run the operation. Citizen Protection Minister Michalis Chrysochoidis has since described telephone fraud targeting the elderly as an "epidemic" in Greece and announced plans to make organized scams against elderly victims a felony under the criminal code. No legitimate utility company ever asks a customer to hand cash or jewelry to a technician at the door or leave it outside — a call warning of an emergency repair should be verified by hanging up and dialing the utility's published customer service number directly.`,
+    categorySlug: 'utility-scams',
+    country: 'GR',
+    alertLevel: 'high',
+    sources: ['Agrinio Criminal Investigation Unit / Hellenic Police', 'Athens Times', 'GreekReporter.com'],
+    sourceUrl: 'https://athens-times.com/phone-scams-targeting-elderly-net-over-e410000-four-arrested/',
+  },
+  {
+    name: 'Fake "Judicial Order" Europol/Cyber Crime Division Extortion Email',
+    slug: 'greece-fake-europol-judicial-order-extortion-email',
+    description: `Since mid-2026, Greek residents have been receiving an email designed to look like an official notice from the Hellenic Police's Cyber Crime Division, sent from an address styled to resemble the "Hellenic Europol National Unit" (enugr@enu.gr) and carrying the subject line "JUDICIAL ORDER." The message falsely accuses the recipient of involvement in child pornography and other serious criminal offenses, dresses up the accusation with forged European Union and Europol logos plus a fabricated signature attributed to a Police Inspector General, and pressures the recipient to respond quickly to avoid supposed prosecution — the kind of shock-and-urgency combination designed to make someone act before thinking to verify anything. The Hellenic Police issued a public announcement warning that no such email had been sent by any real police authority, and that the campaign's real goal is "illegal financial gain" for the senders, whether through a payment demanded to make the fabricated charges disappear or through malware delivered via an attachment. Officers advised the public never to open any attachment on such a message, never to reply or send personal information, and to delete it immediately, directing anyone unsure whether a police or Europol communication is genuine to check directly with the Cyber Crime Division through the official astynomia.gr and cyberalert.gr websites rather than anything in the email itself. Genuine law enforcement does not open a criminal case over an unsolicited email, and never asks a suspect to pay to resolve one.`,
+    categorySlug: 'government-impersonation',
+    country: 'GR',
+    alertLevel: 'high',
+    sources: ['Hellenic Police (ELAS) Cyber Crime Division announcement', 'ProtoThema English', 'Athens24.com'],
+    sourceUrl: 'https://en.protothema.gr/2026/06/22/new-online-scam-involving-fake-europol-and-police-emails-hellenic-police-announcement/',
+  },
+  {
+    name: 'Offshore Crypto "Guaranteed Returns" Fraud Against a Thesprotia Pensioner',
+    slug: 'greece-thesprotia-offshore-crypto-investment-fraud',
+    description: `Over sixteen months between February 2025 and June 2026, a 78-year-old man from the village of Parapotamos in Thesprotia, in northwestern Greece, was gradually persuaded by people claiming to represent a foreign-based investment firm to wire a total of €300,000 into an offshore cryptocurrency scheme that promised guaranteed, high-yield returns. Rather than asking for the money in one lump sum, the callers built the relationship over repeated contacts, having the pensioner make one wire transfer after another over more than a year — the kind of slow, incremental approach that keeps a victim from recognizing the scale of what is being taken until long after the fact. The fraud came to light only once the losses had already reached €300,000, and Greece's Igoumenitsa Sub-Directorate for the Prosecution and Investigation of Crimes opened a case file for grand fraud against unidentified perpetrators, an investigation that remained active with no arrests yet announced as of the case becoming public. It is one of a wider pattern Greek authorities have flagged of elderly residents being targeted with promises of guaranteed cryptocurrency profits from firms with no verifiable physical presence or regulatory license in Greece — a guarantee no legitimate investment can honestly make, since every real investment carries risk of loss, and any firm soliciting money for one should be checked against the Hellenic Capital Market Commission's public registry before a single transfer is sent.`,
+    categorySlug: 'investment-fraud',
+    country: 'GR',
+    alertLevel: 'high',
+    sources: ['Igoumenitsa Sub-Directorate for the Prosecution and Investigation of Crimes', 'GreekReporter.com'],
+    sourceUrl: 'https://greekreporter.com/2026/08/20/massive-e300000-crypto-fraud-greece/',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
