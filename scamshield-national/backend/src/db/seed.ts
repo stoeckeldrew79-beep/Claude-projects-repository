@@ -10133,8 +10133,8 @@ DMERx's business model depended on a public willingness to trust a doctor's sign
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/opa/pr/aspiration-partners-co-founder-sentenced-prison-248m-scheme-defraud-investors-and-lenders',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Marina_Del_Rey_Looking_South.jpg?width=1200',
-    coverImageCredit: 'Photo: Albaum, public domain, via Wikimedia Commons — an aerial view of Marina del Rey, California, home to the Aspiration Partners headquarters Joseph Sanberg co-founded // representative photo — replace with a portrait if found',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Joe_Sanberg_(48011199056).jpg?width=1200',
+    coverImageCredit: 'Photo: Gage Skidmore, Wikimedia Commons (CC BY-SA 2.0) — Joseph Sanberg speaking at the 2019 California Democratic Party State Convention in San Francisco',
     coverImagePosition: 50,
     body: `Joseph Neal Sanberg spent a decade building a public identity as one of Los Angeles's most prominent do-gooders: an Orange County kid raised by a single mother who made it to Harvard on financial aid, worked his way through Blackstone and Tiger Global Management, then founded CalEITC4Me, the outreach campaign credited with pushing California to adopt its own earned income tax credit for low-income workers, and became one of the Democratic Party's most visible donors in the state. In 2013 he co-founded Aspiration, Inc. with Andrei Cherny, a "sustainability-as-a-service" digital bank based in Marina del Rey that promised customers their deposits would never fund fossil fuels and let them plant a tree with every debit-card swipe. The pitch, and Sanberg's own reputation, drew an extraordinary roster of investors and boosters — Leonardo DiCaprio, Drake, Orlando Bloom, Robert Downey Jr., Cindy Crawford, eBay co-founder Jeff Skoll, and former Microsoft CEO Steve Ballmer among them — helping the company raise nearly $600 million and, in a 2021 deal to go public via a SPAC merger that ultimately collapsed, reach a paper valuation of $2.3 billion.
 
