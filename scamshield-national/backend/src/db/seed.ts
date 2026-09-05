@@ -9309,6 +9309,41 @@ The investigation didn't end with the 1999 raids. A second phase in 2002 execute
   },
 );
 
+NOTORIOUS_ARTICLES.push(
+  {
+    title: 'Farid Fata: The Oncologist Who Poisoned Patients for Insurance Money',
+    slug: 'farid-fata-unnecessary-chemotherapy-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Farid Fata was a hematologist-oncologist who built a network of seven cancer-treatment clinics across suburban Detroit, Michigan Hematology Oncology Centers, that at its peak was one of the largest oncology practices in the state. Patients trusted him with the most frightening diagnosis a doctor can deliver, and he used that trust as the mechanism for a fraud that didn't just take money from insurers — it inflicted unnecessary chemotherapy, radiation, and other toxic treatments directly onto the bodies of hundreds of people, some of whom did not have cancer at all.
+
+Fata's billing depended on volume: the more infusions, injections, and rounds of aggressive treatment he administered, the more he could charge Medicare and private insurers. Prosecutors later detailed how he diagnosed cancer in patients who did not have it, prescribed unnecessarily aggressive chemotherapy regimens to patients whose actual cancer required far less, and kept some patients on infusion therapies indefinitely long after any legitimate course of treatment should have ended — in one instance continuing to bill for and administer cancer treatment to a patient after her death. In total, prosecutors identified 553 patients who received medically unnecessary infusions or injections at his clinics, part of roughly $34 million in fraudulent claims submitted to Medicare and private insurance.
+
+The scheme was exposed from the inside. In 2013, a newly hired physician at Fata's practice, Dr. Soe Maunglay, examined a patient he'd been told had lung cancer and found no evidence to support that diagnosis; when Maunglay resigned in alarm and raised what he'd seen, practice manager George Karadsheh — who had separately grown suspicious of the billing patterns — compiled the concerns from Maunglay and other staff and filed a whistleblower complaint under the False Claims Act. An earlier warning had also reached Michigan's health department in 2010, when nurse Angela Swantek reported what she called a "chemo mill" after observing the clinic during a job interview, though the state did not act on it at the time. Once Karadsheh's complaint reached federal investigators, the FBI and Department of Health and Human Services moved quickly: agents arrested Fata on August 6, 2013.
+
+Fata pleaded guilty in September 2014 to 13 counts of health care fraud, one count of conspiracy to pay or receive kickbacks, and two counts of money laundering. On July 10, 2015, U.S. District Judge Paul D. Borman of the Eastern District of Michigan sentenced him to 45 years in federal prison and ordered him to forfeit $17.6 million; the government ultimately recovered roughly $13 million of that for a court-supervised restitution process that split payments between patients' out-of-pocket losses and the cost of remedial medical care needed to address the damage his unnecessary treatments had caused. At sentencing, Judge Borman called Fata's crimes "the most egregious form of medical fraud" he had encountered, noting that Fata had profited from patients even in the last days of their lives.
+
+The Fata case is frequently cited in health-fraud enforcement and medical-ethics circles because the harm wasn't limited to money: patients described lasting physical damage from chemotherapy and radiation they never needed, and families spoke of loved ones who died months or years earlier than they otherwise would have. It remains a reference point for why healthcare fraud is treated as a distinct and especially serious category of financial crime — the incentive to overbill can translate directly into unnecessary and dangerous medical treatment when the person profiting from the fraud is also the one deciding what treatment a patient receives.`,
+    sourceUrl: 'https://www.justice.gov/opa/pr/detroit-area-doctor-sentenced-45-years-prison-providing-medically-unnecessary-chemotherapy',
+  },
+  {
+    title: 'Glafira Rosales and the $80 Million Knoedler Gallery Forgery Scandal',
+    slug: 'glafira-rosales-knoedler-gallery-forgery',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Knoedler & Company was, until 2011, one of the oldest and most prestigious art galleries in New York, in business since 1846 and having sold works to collectors including Andrew Mellon and the National Gallery of Art. That reputation was exactly what made it a viable outlet for one of the largest art forgery schemes in American history — one that ran for roughly 14 years before it collapsed the gallery entirely.
+
+Beginning around 1994, Long Island art dealer Glafira Rosales began bringing paintings to Knoedler's longtime director, Ann Freedman, that she claimed came from an anonymous collector — later described as the son of a wealthy client with a private collection of undiscovered Abstract Expressionist works, who wished to remain unidentified. The paintings were represented as previously unknown works by major postwar American artists: Mark Rothko, Jackson Pollock, Willem de Kooning, Robert Motherwell, Barnett Newman, Franz Kline, and Sam Francis among them. Knoedler and a second gallery, Julian Weissman Fine Art, went on to sell more than 30 of these paintings for a combined total later estimated at roughly $80 million, including one purported Rothko that sold for $8.3 million and a purported Pollock that sold for $17 million.
+
+None of the paintings were genuine. Rosales had commissioned all of them from Pei-Shen Qian, a classically trained Chinese immigrant artist working out of a garage studio in Queens, who produced the forgeries convincingly enough — reportedly aging some canvases with tea bags and using period-appropriate paint — that they passed inspection by galleries, collectors, and even some outside authenticators for over a decade. The scheme began to unravel when a Rothko expert and later scientific testing of the paint and materials in several works, commissioned by suspicious buyers, found anachronisms inconsistent with the decades the paintings were supposedly created in. Knoedler & Company closed abruptly in November 2011 amid mounting lawsuits and an FBI investigation, ending its 165-year run.
+
+Federal prosecutors charged Rosales in 2013, and on September 16, 2013, she pleaded guilty in Manhattan federal court to conspiracy, wire fraud, money laundering, and filing false tax returns, admitting that the paintings sold as rediscovered masterworks were, in her words, "actually fakes." She faced a statutory maximum well beyond 20 years but cooperated with prosecutors and, in 2017, was sentenced to no additional prison time beyond the roughly three months she had already served, ordered instead to pay restitution and forfeit assets including cash and her home. Pei-Shen Qian was indicted as well but fled to China before he could be arrested; because the United States and China have no extradition treaty, he has never faced trial. Ann Freedman, who maintained she too had been deceived and was never criminally charged, settled nine separate civil suits brought by defrauded collectors, with Knoedler & Company settling seven more; the final case, over a $5.5 million fake Rothko, was resolved in 2017.
+
+The Knoedler scandal remains a benchmark case in art-world fraud because of how long expert scrutiny failed to catch it: paintings passed through one of the country's most respected galleries, were reviewed by scholars and conservators, and still sold for tens of millions of dollars before anyone definitively proved they were fakes. It helped push the art market toward far more rigorous forensic authentication — pigment analysis, canvas dating, provenance verification — as a standard practice rather than an afterthought, on the theory that a seller's reputation, however old and well-earned, is not itself proof that what's being sold is real.`,
+    sourceUrl: 'https://www.justice.gov/usao-sdny/pr/art-dealer-pleads-guilty-manhattanfederal-court-80-million-fake-art-scammoney',
+  },
+);
+
 // Practical "how it works / red flags / what to do" guides covering the
 // major scam categories, the same kind of coverage the FTC's Consumer
 // Advice site and AARP's Fraud Watch Network publish — well-documented
@@ -17437,6 +17472,47 @@ The Commission's final order, approved on a unanimous vote in July 2023, permane
 What makes this case worth understanding as a consumer-protection matter, not just a tech-privacy footnote, is how ordinary the underlying behavior has become. Mental-health and wellness apps routinely embed the same advertising-platform tracking code used by any retail website, and a privacy policy's promise of "confidentiality" often applies narrowly to the clinical record, not to metadata like your email address, device information, or which page on the site you visited — the exact categories of data the FTC said BetterHelp shared. That gap between what a health app promises in plain language and what its advertising pixels actually transmit is a pattern regulators have since pursued against other health, fertility, and wellness apps as well.
 
 Before creating an account with any therapy, medical, or wellness app, look specifically for whether its privacy policy distinguishes between your clinical information and your account/browsing data, and whether it names the third-party advertising platforms it works with — a policy that only makes a vague promise of "confidentiality" without addressing tracking pixels and ad partners deserves a second look. If you were a BetterHelp customer between August 2017 and December 2020 and never received a refund notice, the settlement is administered independently of BetterHelp itself, so verify any claim of eligibility directly through the FTC's refund page at ftc.gov/enforcement/refunds rather than through a link in an unsolicited email or text.`,
+  },
+);
+
+GUIDE_ARTICLES.push(
+  {
+    title: 'The Vonage Settlement: What $100 Million in FTC Refunds Reveals About "Impossible to Cancel" Subscriptions',
+    slug: 'vonage-ftc-cancellation-settlement-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'vonage-ftc-settlement'],
+    sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2022/11/ftc-action-against-vonage-results-100-million-customers-trapped-illegal-dark-patterns-junk-fees-when-trying-cancel-service',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Call_Centre_2006.jpg?width=1200',
+    coverImageCredit: 'Photo: vitorcastillo, CC BY 2.0, via Wikimedia Commons',
+    coverImagePosition: 50,
+    body: `Vonage built its business on making internet phone service easy to start: pick a home or business calling plan on its website, enter payment information, and service begins within minutes, no salesperson or phone call required. For years, according to a Federal Trade Commission complaint, canceling that same service worked nothing like signing up for it.
+
+Starting in 2017, the FTC alleged, Vonage eliminated the ability to cancel online or by simply calling regular customer service. Instead, a customer who wanted out had to reach a specific "retention" phone line — one that was harder to find than the main support number, kept more limited hours, and, in many cases, never returned the callback it promised when hold times ran long. Customers who did get through were then hit with a second surprise: an early termination fee running into the hundreds of dollars that, the FTC said, was never clearly disclosed when they signed up in the first place. Even after a customer managed to cancel, Vonage sometimes kept billing the account anyway, and complaints about those unauthorized post-cancellation charges frequently resulted in only a partial refund rather than the full amount taken.
+
+The FTC's complaint, filed in federal court and announced November 3, 2022, framed this as a "negative option" problem covered by the Restore Online Shoppers' Confidence Act (ROSCA) and the FTC Act: a business that makes it meaningfully harder to leave a subscription than to join one is using what regulators call a "dark pattern," regardless of what the underlying product actually costs. Vonage agreed to pay $100 million — refunds distributed directly to affected consumers and businesses, with individual monthly charges that had ranged from roughly $5 to $50 for residential customers and up to thousands of dollars a month for larger business accounts. "This record-breaking settlement should remind companies that they must make cancellation easy or face serious legal consequences," said Samuel Levine, director of the FTC's Bureau of Consumer Protection, in announcing the order. Beyond the refunds, the settlement requires Vonage to get a customer's express, informed consent before charging them, to let customers cancel through the same method they used to sign up, and to stop using dark patterns to frustrate anyone trying to leave.
+
+Vonage was far from an isolated case — it arrived alongside a wave of FTC actions against subscription services that made joining a single click and leaving a maze, a pattern the agency later targeted more broadly with its 2024 "click-to-cancel" rule requiring that cancellation be no harder than signup across industries. What makes the Vonage case worth remembering on its own is how ordinary the trap looked from the inside: nothing about a missed callback or a "please hold" recording feels like fraud in the moment, which is exactly why regulators treat an unreasonably difficult cancellation process as its own category of deceptive practice, separate from whether the service itself worked as advertised.
+
+If a subscription's cancellation process seems designed to wear you down — a phone-only option with long holds, a chat bot that won't process a cancellation request, or fees you don't remember agreeing to — document every call, screenshot the original signup terms if you still have access to them, and dispute any post-cancellation charge directly with your bank or card issuer rather than continuing to argue with the company. Complaints about a subscription that's unreasonably hard to cancel can be filed with the FTC at ReportFraud.ftc.gov, and state attorneys general and the Better Business Bureau can also take action against a pattern affecting many customers at once, even when no single complaint on its own would move a company to change its practices.`,
+  },
+  {
+    title: 'The Credit Karma Settlement: How "90% Approval Odds" Became a $3 Million FTC Case Over Fake Pre-Approval',
+    slug: 'credit-karma-ftc-pre-approved-settlement-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'credit-karma-ftc-settlement'],
+    sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2023/01/ftc-finalizes-order-requiring-credit-karma-pay-3-million-halt-deceptive-pre-approved-claims',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Credit-score-chart.svg?width=1200',
+    coverImageCredit: 'Pne, CC BY 2.0, via Wikimedia Commons',
+    coverImagePosition: 50,
+    body: `Credit Karma's core product — a free credit score and credit report — is genuinely free to use, and the company makes its money a different way: when a user applies for a credit card or loan the site recommends and gets approved, the lender pays Credit Karma a referral fee. That business model depends on getting as many people as possible to click "apply," which is precisely where the Federal Trade Commission said the company crossed a legal line.
+
+In a complaint announced September 1, 2022, the FTC alleged that Credit Karma used "dark patterns" to tell users they were "pre-approved" for specific credit card offers, in some cases quoting "90% odds" of approval, when in reality many of those users did not qualify at all. According to the FTC, nearly a third of people who applied for a Credit Karma offer marketed as "pre-approved" ended up denied by the lender — a discovery that, for the consumer, arrived only after they'd already submitted a full application. Each of those applications triggered a hard inquiry on the applicant's credit report, the kind of inquiry that can knock a few points off a credit score regardless of whether the application is approved, on top of the time spent filling out paperwork for credit that was never really available to them in the first place. "Many people who got 'pre-approved' credit offers from Credit Karma weren't approved for credit and, as a result, wasted time applying and saw their credit scores drop," FTC staff attorney Seena Gressin wrote when the case was announced.
+
+The FTC's Commission voted 4-0 to finalize its consent order on January 23, 2023, permanently barring Credit Karma from claiming a user is "pre-approved" or quoting specific approval odds unless that's actually true, and requiring the company to pay $3 million to reimburse consumers harmed between February 2018 and April 2021. The agency opened a claims process in December 2023, and checks and PayPal payments began going out to affected consumers in October 2024, ultimately returning more than $2.3 million directly to the people who'd been misled.
+
+The distinction the FTC drew matters beyond this one company: a real "prescreened" or preapproved credit offer, the kind governed by the Fair Credit Reporting Act, is typically generated from a soft inquiry a lender runs on its own — one that doesn't affect your credit score — and arrives already reflecting that lender's actual underwriting criteria for you specifically. A website banner promising "90% odds" based on a general profile match is a different, much weaker kind of signal, and treating the two as interchangeable is exactly the confusion the FTC said Credit Karma's marketing created.
+
+Before applying for any credit product flagged as "pre-approved" on a comparison site or credit-monitoring app, look for language distinguishing a genuine preapproval from an estimate or "odds" figure, and ask directly — many sites now disclose this — whether the specific offer involved only a soft pull or whether applying will trigger a hard inquiry. Checking your own credit reports for free at AnnualCreditReport.com lets you spot an unexpected hard inquiry after the fact, and any inquiry tied to an offer that turned out not to be a real pre-approval is worth disputing with the credit bureau. Complaints about deceptive "pre-approved" marketing can be filed with the FTC at ReportFraud.ftc.gov and with the Consumer Financial Protection Bureau at consumerfinance.gov/complaint.`,
   },
 );
 
@@ -35516,6 +35592,39 @@ SEED_SCAMS.push(
       'BusinessMirror',
     ],
     sourceUrl: 'https://nbi.gov.ph/press_releases/2022/01212022/5812/',
+  },
+);
+
+SEED_SCAMS.push(
+  {
+    name: 'Korean Prosecutor Impersonation Voice Phishing Call',
+    slug: 'south-korea-prosecutor-impersonation-voice-phishing',
+    description: `A caller claiming to be from South Korea's Supreme Prosecutors' Office, the National Police Agency, or the Financial Supervisory Service tells the victim their name has been linked to a crime — often drug trafficking or money laundering — and that they must wire their savings to a "safe" or "verification" account to prove their innocence, or install a "security" app that actually hands the caller remote control of the phone. The scam increasingly targets Koreans living overseas by spoofing the phone number of a real Korean embassy or consulate: South Korea's Foreign Ministry received 23 reports of diplomat-impersonation phishing calls from January through September 2025, versus just one in the same period a year earlier, with most aimed at Koreans in the United States and Canada. In one such case reported to both Korean police and the FBI, a Korean resident of Florida was shown a fake website "confirming" his involvement in a drug case and, believing the call genuine because it displayed a number matching the Korean embassy in Washington, wired 300 million won (about $210,000) to "prove the money wasn't drug proceeds." Nationwide, voice-phishing losses reached roughly 600 billion won ($432 million) in just the first half of 2025, nearly double the same period a year earlier, and more than 150,000 bank accounts linked to these schemes were frozen between 2020 and early 2025. Real Korean prosecutors, police, and financial regulators never investigate a case, demand a "safe transfer," or ask someone to install an app over the phone.`,
+    categorySlug: 'government-impersonation',
+    country: 'KR',
+    alertLevel: 'critical',
+    sources: ['The Korea Times', 'Korea JoongAng Daily'],
+    sourceUrl: 'https://www.koreajoongangdaily.com/korea/sophisticated-phishing-scams-targeting-overseas-koreans-rising-as-criminals-impersonate-embassy-consular-staff/12105983',
+  },
+  {
+    name: 'Pig-Butchering Romance-Investment Scam Targeting Korean Men',
+    slug: 'south-korea-pig-butchering-romance-scam',
+    description: `Scammers posing online as attractive foreign professionals living abroad spend weeks or months building a romantic relationship with a Korean target through chat apps before introducing a cryptocurrency "investment opportunity" — a tactic nicknamed "pig-butchering" because the victim is patiently fattened up with affection and small early "profits" before being fleeced completely. Once the target has been coaxed into moving increasingly large sums onto a fraudulent trading platform the scammers control, the displayed account balance is manipulated to show large fake gains that push the victim to invest still more, right up until the platform disappears with everything deposited. According to Korean parliamentary data, reported losses accelerated sharply through 2025: romance-scam losses hit roughly 100 billion won ($73 million) from January through September 2025, up from 68 billion won for February through December 2024, with reported cases rising from 1,265 to 1,565 over that comparison. Investigators say many of the rings operate out of Cambodia and elsewhere in Southeast Asia; in one case, a Korean couple allegedly running such an operation from Cambodia used deepfake video-call technology to maintain fabricated identities and defrauded more than 100 victims of roughly 12 billion won. Victims of this scam have less legal protection than voice-phishing victims because Korean law's account-freeze provisions exclude payments framed as being for "goods or services" — precisely how these fraudulent investment platforms present themselves.`,
+    categorySlug: 'romance-scams',
+    country: 'KR',
+    alertLevel: 'critical',
+    sources: ['The Korea Times'],
+    sourceUrl: 'https://www.koreatimes.co.kr/southkorea/law-crime/20251024/pig-butchering-romance-scams-bleed-korean-men-of-73-million-this-year',
+  },
+  {
+    name: '"High-Paying Overseas Job" Scam Recruiting Koreans Into Phishing Rings',
+    slug: 'south-korea-overseas-job-scam-phishing-recruitment',
+    description: `Job ads flooding Korean social media and recruitment platforms promise young jobseekers salaries as high as $8,900 a month, free airfare, and luxury housing for vaguely described "customer service" or "consulting" work in Cambodia, Thailand, or Vietnam. Recruiters are often startlingly candid once an applicant responds: the job actually means working inside a voice-phishing call center impersonating Korean prosecutors and police to defraud victims back home, with one recruiter openly advertising pay of up to 10 million won ($7,200) a week for the work while insisting "security and safety are top priorities" and that going overseas is "necessary for protection." Applicants are asked to hand over passport copies and identification photos before travel, and recruiters pre-empt fears of trafficking and confinement — the kind documented at other Southeast Asian scam compounds — by claiming "no Chinese nationals are involved" and that staff can "go out freely after work hours." The ads have persisted even after the death of a Korean college student in Cambodia in August 2025 renewed public warnings about this recruitment pipeline, with experts pointing to weak job prospects for Korean youth and thin oversight of online recruitment platforms as what keeps the ads circulating despite police pledges to crack down.`,
+    categorySlug: 'employment-scams',
+    country: 'KR',
+    alertLevel: 'critical',
+    sources: ['The Korea Times'],
+    sourceUrl: 'https://www.koreatimes.co.kr/southkorea/society/20251015/earn-8900-a-month-overseas-job-scams-lure-young-koreans-into-phishing-crimes',
   },
 );
 
