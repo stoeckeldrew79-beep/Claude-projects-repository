@@ -41006,6 +41006,43 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'New Mexico eHarmony "Glenn Brown" Romance Scam',
+    slug: 'new-mexico-eharmony-glenn-brown-romance-scam',
+    description: `On January 6, 2025, the U.S. Attorney's Office for the District of New Mexico announced that a federal jury in Albuquerque convicted Olutayo Sunday Ogunlaja, 39, and Abel Adeyi Daramola, 37, both Nigerian nationals, after a four-day trial and less than three hours of deliberation, on charges stemming from an international romance scam. According to trial evidence, the scheme began in January 2016 when a co-conspirator created a fictitious persona named "Glenn Brown" on the dating site eHarmony.com and used it to strike up an online romantic relationship with a victim in Albuquerque. Over the following months, "Glenn Brown" told the victim he needed money to complete a construction project in Malaysia so he could finally travel to the United States and meet her in person — a request repeated and escalated until, between January 2016 and April 2017, the victim wired approximately $560,000 to a string of bank accounts in the United States, Canada, and Malaysia. FBI investigators recovered text messages and WhatsApp correspondence on Daramola's phone documenting his role supplying bank accounts to the scheme, while Ogunlaja used his own Bank of America account to receive and move the fraudulent funds; Daramola denied any knowledge of the romance angle at trial. Both defendants face up to 20 years in federal prison without parole at sentencing. The case illustrates a pattern the FBI and FTC warn is common to romance scams generally: a scammer builds trust for weeks or months before inventing a plausible-sounding emergency — a stalled business deal, a customs fee, a medical bill — that requires an urgent wire transfer, and anyone in an online relationship who has never met their partner in person yet is asked to send money should treat the request as a likely fraud and report it to the FBI's Internet Crime Complaint Center at ic3.gov.`,
+    categorySlug: 'romance-scams',
+    country: 'US',
+    state: 'NM',
+    isHistorical: true,
+    firstRecorded: '2016-01-01',
+    sources: ["U.S. Attorney's Office, District of New Mexico"],
+    sourceUrl: 'https://www.justice.gov/usao-nm/pr/us-attorneys-office-secures-guilty-verdict-nigerian-romance-scheme',
+  },
+  {
+    name: 'West Virginia Medicare Card Renewal Phone Scam',
+    slug: 'west-virginia-medicare-card-renewal-phone-scam',
+    description: `On January 16, 2026, the West Virginia Attorney General's Consumer Protection Division released its tally of 2025 complaints and reported that Medicare-related scams were the single most-reported fraud category statewide, ahead of robocalls and Social Security or other government-impersonation calls. In the recurring version of the scam, callers claiming to represent Medicare or a related benefits office tell the recipient — usually an older adult — that they need to verify a Social Security number or Medicare Beneficiary Identifier in order to issue a new card, activate a supposed new benefit, or prevent a lapse in coverage, then use whatever information the victim provides to file fraudulent claims for durable medical equipment, genetic testing, or other services the victim never received and never authorized. The division's year-end report also noted that debt collection, tax-relief, and home-warranty complaints all climbed further in December, consistent with scammers timing pressure calls to the holiday season, and Attorney General JB McCuskey urged residents to be skeptical of any unsolicited call, text, or email from an unfamiliar source, saying "it's vitally important for consumers to be diligent" before ever sharing personal information. The office reminds West Virginians that the real Medicare program already has their Social Security number on file and will never call asking for it, that no legitimate agency demands payment by wire transfer or bitcoin to keep a benefit active, and that suspected Medicare scam calls can be reported to the Attorney General's Consumer Protection Division at 800-368-8808 or directly to Medicare at 1-800-MEDICARE.`,
+    categorySlug: 'healthcare-fraud',
+    country: 'US',
+    state: 'WV',
+    alertLevel: 'high',
+    sources: ["West Virginia Attorney General's Office"],
+    sourceUrl: 'https://ago.wv.gov/article/attorney-generals-office-warns-top-scams-2025-medicare-scams-lead-list',
+  },
+  {
+    name: 'Casco, Maine Online Romance Scam',
+    slug: 'maine-casco-online-romance-scam',
+    description: `Ahead of Valentine's Day 2026, the FBI's Boston Field Office — which covers Massachusetts, Maine, New Hampshire, and Rhode Island — warned that romance scams cost more than 700 victims across the four states roughly $20 million in 2025 alone, cautioning that the true toll is almost certainly higher because many victims are too embarrassed to come forward. Among the cases the Boston office highlighted was a woman from Casco, Maine, who lost $20,000 after she began an online romantic relationship with a man claiming to live in Cuba; he told her he needed the money so he could travel to the United States and finally be with her in person, a trip that, as in nearly every such case, never happened once the money was sent. The FBI noted that scammers increasingly use generative AI tools to polish grammar and produce convincing photos, making foreign-based fraudsters harder to spot than in years past, even as the underlying script — weeks of affectionate messages followed by a sudden, dollar-specific request for travel money, medical bills, or customs fees — has changed little. The Bureau's guidance for anyone in an online relationship who is asked for money, especially someone who has never met the other person face-to-face, is to stop all contact immediately, avoid sending any funds, and file a report with the FBI's Internet Crime Complaint Center at ic3.gov.`,
+    categorySlug: 'romance-scams',
+    country: 'US',
+    state: 'ME',
+    alertLevel: 'medium',
+    sources: ['FBI Boston Field Office'],
+    sourceUrl: 'https://www.fbi.gov/contact-us/field-offices/boston/news/fbi-boston-urges-you-to-protect-your-heart-and-your-money-from-romance-scammers-ahead-of-valentines-day',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
