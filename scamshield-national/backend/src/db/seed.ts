@@ -38572,6 +38572,42 @@ SEED_SCAMS.push(
   },
 );
 
+// Three new, real, sourced cases for Finland (FI) — a country not previously
+// represented in SEED_SCAMS (verified via case-insensitive grep for
+// "Finland" / country: 'FI' before adding these).
+SEED_SCAMS.push(
+  {
+    name: 'Deepfake Fake Police Video Call Scam (Impersonating National Police Commissioner)',
+    slug: 'finland-deepfake-fake-police-video-call-scam',
+    description: `Starting in mid-2026, Finland's Poliisi (National Police Board) issued repeated public warnings about a scam in which criminals contact victims — disproportionately foreign residents living in Finland — over Google Meet or similar video-call platforms while impersonating real police officers. During the call, the fraudsters claim the victim is under investigation and pressure them to display a payment card or identity document to the camera, sometimes threatening arrest, deportation, or the closure of the victim's bank account if they refuse to comply. Police said the scam has grown more sophisticated over time: some calls now use deepfake video and voice technology to recreate the likeness of real, named officers, including Finland's own National Police Commissioner, Ilkka Koskimäki, to make the impersonation more convincing. Poliisi's guidance is unambiguous: Finnish police never initiate video calls to members of the public, and no legitimate police officer, bank, or government authority will ever ask someone to show banking details or an ID document on a video call; residents were advised to restrict Google Meet and similar apps to calls from known contacts only, hang up immediately on any unsolicited "police" video call, and report the attempt to their bank and to the police. Cyber-enabled fraud of this kind — spanning phishing, investment scams, and impersonation schemes — caused an estimated €88 million in losses across Finland in 2025 alone, according to police figures.`,
+    categorySlug: 'government-impersonation',
+    country: 'FI',
+    alertLevel: 'high',
+    sources: ['Poliisi (Finnish Police)', 'Finnish Government (valtioneuvosto.fi)'],
+    sourceUrl: 'https://poliisi.fi/en/-/fake-police-video-calls-continue-and-become-more-sophisticated',
+  },
+  {
+    name: 'Suspected €25 Million Fake Online Investment Platform Fraud',
+    slug: 'finland-25-million-fake-investment-platform-fraud',
+    description: `Finland's National Cybercrime Investigation Unit, part of the Central Finland Police Department, opened an aggravated fraud investigation in May 2026 after a single investor from southern Finland filed a criminal complaint reporting losses of roughly €25 million — among the largest suspected investment-fraud cases Finnish police have ever investigated. According to police, the victim was first approached through social media by someone claiming to represent a legitimate investment service provider, and investigators now believe the entire trading platform the victim was steered toward had been built from the outset purely as a vehicle for fraud rather than as a real investment product. Authorities say the scheme was likely run by an international criminal network, and Finnish investigators are working with law-enforcement counterparts in other countries to trace the missing funds and identify those responsible. The case illustrates a pattern Finnish police have flagged repeatedly: unsolicited investment pitches that arrive through a social media contact, rather than a regulated broker or bank, and that funnel victims onto a platform the victim cannot independently verify. Police urge anyone contacted with an investment "opportunity" through social media to check whether the provider is authorized by Finland's Financial Supervisory Authority before transferring any money, and to be especially wary once a platform shows fast, escalating paper gains.`,
+    categorySlug: 'investment-fraud',
+    country: 'FI',
+    alertLevel: 'high',
+    sources: ['Helsinki Times', 'Finnish Police (National Cybercrime Investigation Unit)'],
+    sourceUrl: 'https://www.helsinkitimes.fi/finland/finland-news/domestic/28941-police-investigate-25m-investment-scam-in-finland.html',
+  },
+  {
+    name: 'Fake Cryptocurrency Trading Platform "Stuck Funds" Fraud',
+    slug: 'finland-crypto-trading-platform-stuck-funds-fraud',
+    description: `Finland's National Bureau of Investigation (Keskusrikospoliisi) announced on September 30, 2022, that it had referred a cryptocurrency fraud case to the Prosecution District of Western Finland for consideration of aggravated-fraud charges, after Finnish victims lost roughly 250 bitcoins — about €4.6 million at the time — to fraudulent online investment platforms. The sites displayed fabricated performance charts designed to show a victim's holdings growing steadily, with one victim telling police the platform indicated they could expect profits running into the tens of millions of euros; in reality, according to Detective Chief Inspector Hans Fagerström, the bitcoin sent by victims was never invested at all but was instead funneled directly into money-laundering networks. When victims tried to withdraw their supposed gains, they were told their funds were "stuck" and that releasing them required sending yet more bitcoin first — a classic advance-fee tactic layered on top of the original fake-platform fraud. One suspect was remanded in custody on suspicion of aggravated fraud, and investigators said international cooperation had allowed them to trace and recover some of the funds, part of which had been used to finance a suspect's lavish lifestyle. Police advise treating any crypto "investment" platform that shows uninterrupted, chart-perfect growth with suspicion, and warn that a request for additional payment to "unlock" or "release" existing funds is always a sign of fraud, never a legitimate fee.`,
+    categorySlug: 'investment-fraud',
+    country: 'FI',
+    alertLevel: 'high',
+    sources: ['National Bureau of Investigation (Finland)', 'Poliisi (Finnish Police)'],
+    sourceUrl: 'https://poliisi.fi/en/-/cryptocurrency-fraud-investigation-to-prosecutor-for-consideration-of-charges-victims-scammed-on-online-investment-platforms',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
