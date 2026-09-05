@@ -34292,6 +34292,42 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'Regina Henaku Fake Caregiver Elder Theft Scheme',
+    slug: 'massachusetts-regina-henaku-fake-caregiver-elder-theft',
+    description: `Regina Henaku, 33, of Leominster, Massachusetts, used the stolen professional credentials and identity of a relative and a former co-worker to get hired as a caregiver at multiple home health agencies and long-term care facilities across Worcester and Middlesex Counties, even though she was never a licensed or legitimate healthcare worker herself. Prosecutors say that between August and November 2024, Henaku exploited the trust and access that comes with a caregiving role to steal the bank cards of at least sixteen elderly and disabled victims in her care, then used eleven of those cards to drain roughly $28,000 from their accounts, attempting to steal from the remaining victims as well. When investigators from the Massachusetts Attorney General's Office closed in, Henaku allegedly used misleading tactics to obstruct the inquiry and intimidate a witness rather than stop the scheme. A statewide grand jury indicted her in March 2025 on nine counts, including larceny from an elder or disabled person, credit card fraud, identity fraud, and obstruction of justice; she pleaded guilty in Middlesex Superior Court in October 2025 to larceny, credit card fraud, identity fraud, and witness intimidation, and was sentenced to prison followed by probation. The case underscores a warning the Massachusetts AG's office repeats often: home-care agencies and facilities should independently verify a caregiver's licensing credentials and identity directly with the issuing board rather than relying on documents or references the applicant supplies, and families should ask agencies what background-check and credential-verification steps they actually perform before letting anyone alone with an elderly relative's finances or belongings.`,
+    categorySlug: 'identity-theft',
+    country: 'US',
+    state: 'MA',
+    isHistorical: true,
+    sources: ['Massachusetts Attorney General’s Office', 'Worcester Business Journal'],
+    sourceUrl: 'https://www.mass.gov/news/leominster-woman-indicted-for-posing-as-caregiver-to-steal-from-elderly-victims-in-worcester-and-middlesex-counties',
+  },
+  {
+    name: 'Titan Macro "Capital Strategy Forum" WhatsApp Investment Fraud',
+    slug: 'new-jersey-titan-macro-capital-strategy-forum-whatsapp-investment-fraud',
+    description: `An Instagram advertisement promoting a lucrative trading opportunity invited a New Jersey resident to join a WhatsApp chat group called "Capital Strategy Forum 1," run by an outfit calling itself Titan Macro, which the New Jersey Bureau of Securities says was never registered to sell securities or act as a broker-dealer in the state. Inside the group, people posing as professional "trading mentors" offered advice on supposedly high-return investments in sectors like energy, real estate, and technology, and the platform showed the victim what looked like real, growing profits — even allowing small withdrawals early on to build confidence. As the victim deposited larger sums, the operation shifted tactics: the displayed "profits" became increasingly inflated, and withdrawal requests were met with demands for unexpected fees, supposedly for taxes or account management, before any money could be released. By the time New Jersey's Bureau of Securities took action against the scheme in April 2026, at least one New Jersey resident had lost $64,000; regulators coordinated with California counterparts, who identified a similar victim there who lost more than $20,000 to what appears to be the same social-media-driven operation. The Bureau of Securities issued a cease-and-desist order and urges anyone approached about an investment opportunity through an unsolicited social media ad, WhatsApp, or Telegram chat to check the person or firm's registration status through NJ's Division of Consumer Affairs or the SEC's and FINRA's public databases before depositing a single dollar, since a legitimate broker-dealer will already be registered and will never need to pressure a prospective investor through a stranger's chat group.`,
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    state: 'NJ',
+    alertLevel: 'high',
+    sources: ['New Jersey Office of the Attorney General', 'New Jersey Bureau of Securities', 'WRNJ Radio'],
+    sourceUrl: 'https://www.njoag.gov/nj-bureau-of-securities-takes-action-to-shut-down-investment-fraud-scheme-being-carried-out-in-whatsapp-chat-group/',
+  },
+  {
+    name: 'Kotto Yaphet Paul Multimillion-Dollar Bank Fraud Scheme',
+    slug: 'north-carolina-kotto-yaphet-paul-multimillion-dollar-bank-fraud-scheme',
+    description: `Kotto Yaphet Paul, of Waxhaw, North Carolina, led a fraudulent loan scheme that federal prosecutors say defrauded at least seventeen federally insured financial institutions of more than $17 million between 2016 and May 2021. Paul and his co-conspirators — including Latoya Tameika Ford of Covington, Georgia, and Bruce Howard Marko of Charlotte — submitted fraudulent loan applications packed with fabricated income documentation, falsified business records, and misrepresented collateral to secure financing the applicants were never actually qualified to receive, then laundered the proceeds through a network of accounts to obscure their origin and make the scheme harder for banks and investigators to trace. Paul pleaded guilty to conspiracy to commit wire fraud and bank fraud along with money laundering and aiding and abetting, and in 2024 the U.S. Attorney's Office for the Western District of North Carolina announced he was sentenced to 15 years in federal prison followed by five years of supervised release — one of the longest sentences the district has handed down for bank fraud. Ford was sentenced to 27 months in prison, and Marko received 12 months and a day plus $1.5 million in ordered restitution for his smaller role. The case illustrates how loan fraud rings exploit the fact that many lenders process high volumes of applications quickly: banks and credit unions increasingly cross-check income and business documentation against independent third-party sources such as IRS transcripts and state business registries specifically because self-reported paperwork alone, even when it looks polished and complete, can be entirely fabricated.`,
+    categorySlug: 'identity-theft',
+    country: 'US',
+    state: 'NC',
+    isHistorical: true,
+    sources: ["U.S. Attorney's Office, Western District of North Carolina", 'Internal Revenue Service Criminal Investigation', 'QC News'],
+    sourceUrl: 'https://www.justice.gov/usao-wdnc/pr/leader-multimillion-dollar-bank-fraud-scheme-sentenced-15-years-prison',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
