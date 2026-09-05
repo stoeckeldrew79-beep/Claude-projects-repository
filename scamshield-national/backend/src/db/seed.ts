@@ -18392,6 +18392,9 @@ GUIDE_ARTICLES.push(
     slug: 'unclaimed-stimulus-payment-text-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'stimulus-payment-text-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Sign_for_the_Internal_Revenue_Service_building_Washington_DC_2025-02-07_13-21-52_1.jpg?width=1200',
+    coverImageCredit: 'Photo: G. Edward Johnson (CC BY 4.0)',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.irs.gov/newsroom/irs-announces-special-payments-going-this-month-to-1-million-taxpayers-who-did-not-claim-2021-recovery-rebate-credit-encourages-non-filers-about-approaching-deadline-to-claim-credits',
     body: `On December 20, 2024, the IRS announced something genuinely good news for about a million taxpayers: it was automatically sending "special payments" of up to $1,400 per person, totaling roughly $2.4 billion, to people who had filed a 2021 tax return but left the Recovery Rebate Credit line blank or entered $0 despite actually qualifying for it. The credit exists for anyone who didn't receive one or more of the 2021 Economic Impact Payments — the third round of COVID-era stimulus checks — and the IRS said the money would arrive automatically, by direct deposit to the bank account on file from a taxpayer's 2023 return or by paper check to their address of record, with no application, no phone call, and no action required. Anyone who hadn't filed a 2021 return at all still had until April 15, 2025 to do so and claim the credit.
 
@@ -18432,6 +18435,9 @@ GUIDE_ARTICLES.push(
     slug: 'cerebral-telehealth-data-privacy-settlement-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'cerebral-telehealth-data-privacy-settlement'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/FTC_Building_sign_Washington_DC_2025-02-07_13-30-31_1.jpg?width=1200',
+    coverImageCredit: 'Photo: G. Edward Johnson (CC BY 4.0)',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2024/04/proposed-ftc-order-will-prohibit-telehealth-firm-cerebral-using-or-disclosing-sensitive-data',
     body: `Cerebral, Inc. launched in 2019 and grew explosively during the pandemic by promising fast, discreet online treatment for anxiety, depression, and ADHD — sign up, complete an intake questionnaire, get matched with a clinician, and in many cases walk away with a prescription within days. Marketing materials assured customers their information would be kept "safe, secure, and discreet," and that a subscription could be canceled "anytime." On April 15, 2024, the FTC announced Cerebral would pay more than $7 million and accept what the agency called a first-of-its-kind restriction after finding that both promises were false.
 
@@ -18450,6 +18456,9 @@ Before signing up for a telehealth or mental-health app, search for the company'
     slug: 'strategic-financial-solutions-debt-relief-fraud-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'strategic-financial-solutions-debt-relief-fraud'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Consumer_Financial_Protection_Bureau_logo_on_the_CFPB_Headquarters_building_in_Washington_D.C._on_10_February_2025_(cropped).jpg?width=1200',
+    coverImageCredit: 'Photo: G. Edward Johnson (CC BY 4.0)',
+    coverImagePosition: 50,
     sourceUrl: 'https://www.consumerfinance.gov/archive/newsroom/cfpb-and-seven-state-attorneys-general-sue-debt-relief-enterprise-strategic-financial-solutions-for-illegally-swindling-more-than-100-million-from-financially-struggling-families/',
     body: `On January 10, 2024, the CFPB and attorneys general from seven states filed a sealed lawsuit against Strategic Financial Solutions (later StratFS) and a sprawling web of affiliated shell companies and law firms, along with its founders Ryan Sasson and Jason Blust, alleging the enterprise had collected more than $100 million in illegal fees from financially struggling consumers since 2016. A federal magistrate judge in the Western District of New York granted an immediate temporary restraining order the next day, freezing the defendants' assets, halting their operations, and appointing a temporary receiver to take control of the companies — an unusually aggressive opening move that signaled how serious regulators considered the harm already done.
 
