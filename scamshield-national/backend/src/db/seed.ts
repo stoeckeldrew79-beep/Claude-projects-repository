@@ -37304,6 +37304,52 @@ The CFTC filed a civil enforcement complaint against Vault Options and Global Tr
   },
 );
 
+// Three new, real, sourced Egypt cases — the country was not previously
+// represented in SEED_SCAMS (verified by grep before adding). All three
+// are distinct platforms/operators, each independently reported and
+// prosecuted, so nothing here duplicates existing content.
+SEED_SCAMS.push(
+  {
+    name: 'HoggPool Cloud-Mining Cryptocurrency Ponzi Scheme',
+    slug: 'egypt-hoggpool-cloud-mining-crypto-ponzi',
+    description: `HoggPool, marketed under the corporate name Hogg Community Tech, presented itself as a cryptocurrency cloud-mining service, claiming to have been founded in Colorado in 2019 and offering "mining" plans that let customers buy a stake in supposed mining hardware starting at about $10, up to an $800 "machine" advertised to pay out $55 per day. In reality, Egyptian investigators say, the platform never operated any real mining infrastructure at the scale it claimed; instead it ran on classic Ponzi mechanics, using deposits from newer participants to cover payouts promised to earlier ones. The scheme opened to Egyptian customers in August 2022 and spread largely through word of mouth — acquaintances who had already been paid out recruiting friends and family — as well as social media advertising, before it abruptly stopped honoring withdrawals and shut down on February 28, 2023.
+
+Egyptian police identified two villas in Cairo that served as the operation's headquarters and, in early March 2023, arrested 29 people connected to the scheme, including 13 foreign nationals. Investigators seized 95 mobile phones, 3,367 SIM cards, and roughly $194,000 in Egyptian and foreign currency from the raids. Reuters and other outlets reported that investors lost an estimated $618,000 in the collapse, though victims' lawyers said the true toll was likely higher since many participants never filed formal reports. The case became one of the clearest examples of the "cloud mining" variant of crypto Ponzi fraud spreading across North Africa and the Middle East: a plausible-sounding technical premise — buying into shared mining hardware rather than trading an asset directly — used to disguise an otherwise ordinary pay-the-old-investors-with-the-new-investors'-money scheme.`,
+    categorySlug: 'investment-fraud',
+    country: 'EG',
+    isHistorical: true,
+    firstRecorded: '2022-08-01',
+    sources: ['CBS News', 'Egyptian Ministry of Interior', 'CoinDesk'],
+    sourceUrl: 'https://www.cbsnews.com/news/egypt-crypto-investment-scam-hoggpool-arrests/',
+  },
+  {
+    name: 'White Sands "Click-to-Earn" Pyramid App',
+    slug: 'egypt-white-sands-click-to-earn-pyramid-app',
+    description: `White Sands was a mobile app and website that spread rapidly across Egypt in December 2021, promising subscribers daily cash for simple social-media busywork: liking and subscribing to Facebook and YouTube pages, then uploading a screenshot as proof. Users paid for one of several annual subscription "bundles," priced from roughly EGP 300 (about $19) up to EGP 6,000 (about $382), and in return were promised daily commissions ranging from about EGP 10.4 to EGP 264 depending on which bundle they'd bought. On top of the pay-per-task structure, White Sands layered a pyramid-referral system that let subscribers earn additional commissions by recruiting new subscribers underneath them — the two mechanisms together meant nearly all of the payouts to existing users depended on cash from people signing up after them. To lend the operation false legitimacy, its operators claimed White Sands belonged to Omnicom, the real New York-based global media and marketing holding company, which had no actual connection to the app.
+
+The operation, reportedly run by five people posing as foreign nationals under fake names such as "Elissa," "Simon," and "Jessia," working with dozens of local recruiters, began delaying commission payments in late December 2021. Payouts stopped entirely on January 5, 2022; the operators promised they would resume by January 10, but on January 11, 2022, the White Sands app and website disappeared outright, cutting off millions of Egyptian subscribers who had paid in what local media described as billions of Egyptian pounds combined. Egyptian outlets covering the collapse described it as one of the largest task-based Ponzi/pyramid schemes to hit the country's booming market of "make money from your phone" apps, a category that has repeatedly drawn in users with no prior investing experience by disguising a payout scheme as ordinary gig work.`,
+    categorySlug: 'investment-fraud',
+    country: 'EG',
+    isHistorical: true,
+    firstRecorded: '2021-12-01',
+    sources: ['Ahram Online', 'Daily News Egypt'],
+    sourceUrl: 'https://english.ahram.org.eg/NewsContent/1/2/456600/Egypt/Society/Ponzi-scheme-app-White-Sands-vanishes-after-steali.aspx',
+  },
+  {
+    name: 'FBC (Financial Business Community) Task-Based Investment Fraud',
+    slug: 'egypt-fbc-financial-business-community-fraud',
+    description: `FBC, short for "Financial Business Community," launched in Egypt in late 2024 as an online platform pitched as a legitimate investment opportunity: subscribers paid a minimum entry fee of about EGP 720 through digital wallets and were told they could earn steady returns by completing simple tasks such as watching videos and promoting and reviewing other apps. Like White Sands before it, FBC paired its task-based payouts with a pyramid-style referral system that rewarded members for recruiting new subscribers, and it built early trust by reliably paying out smaller, consistent returns before the fraud became known — a pattern that let it draw in far more deposits than it could ever pay back once new signups slowed.
+
+Egypt's Ministry of Interior announced on February 24, 2025, that it had arrested 13 suspects tied to the FBC scheme, describing the operation as led by three foreign nationals residing in Egypt with ties to an international crime network, working alongside 11 Egyptian collaborators who had helped set up a front company in Cairo. Officers recovered 1,135 SIM cards, mobile phones, a laptop, and about EGP 1.27 million in cash from the raids. Egypt's Ministry of Interior said its investigation had documented more than 100 victims defrauded of nearly EGP 2 million (roughly $40,000), a formally confirmed figure far smaller than the far larger sums — reportedly in the billions of Egyptian pounds — that some Egyptian media outlets estimated the platform had actually taken in from a user base authorities said ran into the hundreds of thousands. The gap between the two figures reflects how much of the money moved through informal digital-wallet transfers that were never captured in a victim's formal police report, a recurring problem investigators cite in prosecuting app-based investment fraud. In the weeks after the arrests, members of Egypt's Parliament publicly pressed the government for tighter action against unlicensed online investment platforms, and the Interior Ministry went on to identify three additional fraudulent platforms operating on the same model.`,
+    categorySlug: 'investment-fraud',
+    country: 'EG',
+    isHistorical: true,
+    firstRecorded: '2024-10-01',
+    sources: ['Egyptian Ministry of Interior', 'Ahram Online', 'Egyptian Streets'],
+    sourceUrl: 'https://english.ahram.org.eg/News/540994.aspx',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
