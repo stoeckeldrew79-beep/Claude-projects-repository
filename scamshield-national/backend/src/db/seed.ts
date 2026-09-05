@@ -35276,6 +35276,56 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'Omaha Business Email Compromise and Romance-Scam Money Mule Network',
+    slug: 'nebraska-omaha-business-email-compromise-romance-scam-network',
+    description: `Between January 2015 and September 2016, a ring of at least six Nigerian nationals ran a business email compromise scheme that spoofed the email accounts of company executives to trick employees at businesses in Nebraska and other states into wiring company funds to bank accounts the conspirators controlled — and, according to the U.S. Attorney's Office for the District of Nebraska, fed a portion of those receiving accounts with unwitting "money mules" the group had separately recruited by posing as romantic partners in online dating scams. Businesses lost more than $6 million to the scheme, with attempted losses U.S. Attorney Joe Kelly's office put above $30 million, before a federal grand jury in Omaha returned indictments unsealed in 2020; the Treasury Department's Office of Foreign Assets Control took the unusual step of imposing financial sanctions directly on the six men still believed to be in Nigeria — Richard Uzuh, Micheal Olorunyomi, Alex Ogunshakin, Felix Okpoh, Abiola Kayode, and Nnamdi Benson — freezing any U.S. property and barring Americans from transacting with them while prosecutors pursued extradition. Adewale Aniyeloye, who sent the spoofed executive emails, was sentenced in February 2019 to 96 months in prison and ordered to pay $1,570,938.05 in restitution; Pelumi Fawehinimi, who supplied the receiving bank accounts, was sentenced in March 2019 to 72 months and ordered to pay $1,014,159.60; and Onome Ijomone, who ran the romance-scam side that recruited unwitting mules, was extradited from Poland and sentenced in January 2020 to 60 months and $508,934.40 in restitution. Alex Ogunshakin was later extradited from Nigeria and sentenced in October 2024 to 45 months, and Abiola Kayode — who had been named to the FBI's Most Wanted Cyber Criminals list — was arrested in Ghana in April 2023 and extradited to Nebraska in December 2024 to face trial. The case shows how two familiar scams reinforce each other: the online "boyfriend" or "girlfriend" asking a new partner to receive and forward a wire transfer is very often unknowingly laundering money stolen from a business fraud victim states away, which is why businesses are urged to verify any executive wire-transfer request by phone using an independently known number, and why romance-scam victims who are asked to move money through their own account should recognize that request as a serious red flag rather than a favor for a partner they trust.`,
+    categorySlug: 'business-email-compromise',
+    country: 'US',
+    state: 'NE',
+    alertLevel: 'high',
+    sources: [
+      "U.S. Attorney's Office, District of Nebraska",
+      'Federal Bureau of Investigation',
+      'U.S. Department of the Treasury (OFAC)',
+      'Lincoln Journal Star',
+    ],
+    sourceUrl: 'https://www.justice.gov/usao-ne/pr/u-s-attorney-kelly-and-s-c-johnson-announce-unsealing-scam-indictments-and-treasury',
+  },
+  {
+    name: 'Dillingham Fake Lawsuit-Settlement Advance-Fee Scheme',
+    slug: 'alaska-dillingham-fake-settlement-advance-fee-scheme',
+    description: `Floyd Jay Mann Jr., then in his mid-fifties and living in Puyallup, Washington, spent years telling residents of Dillingham, Alaska and elsewhere that he was the beneficiary of a multimillion-dollar pharmaceutical class-action settlement that was tied up in court, and that if they helped him cover the legal fees and medical bills standing between him and the payout, he would repay them in full plus a substantial return once the money came through. There was no lawsuit and no settlement; prosecutors said Mann used the roughly $2.7 million he collected to gamble at a casino, where he won more than $1 million in jackpots over the same period he was also drawing need-based Social Security benefits. His first victim in the scheme was an elderly Dillingham man dying of cancer, who handed over his life savings and his monthly Social Security checks believing the payout was imminent — and who died still waiting for money that was never coming. Other victims lost homes and retirement savings chasing the same promise. A federal jury convicted Mann in July 2017 on 11 counts of wire fraud and 8 counts of money laundering, and Chief U.S. District Judge Timothy M. Burgess sentenced him that December to 10 years in federal prison plus full restitution to his victims. The U.S. Attorney's Office for the District of Alaska, which has made elder-fraud cases a standing priority in the state, points to the scheme as a reminder that a request to advance money against a future payout — a lawsuit settlement, an inheritance, a lottery prize — should be treated as fraud until independently verified through a court record or another source the victim controls, never through documents or explanations the person asking for money supplies themselves.`,
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    state: 'AK',
+    isHistorical: true,
+    sources: [
+      "U.S. Attorney's Office, District of Alaska",
+      'Social Security Administration, Office of Inspector General',
+      'Anchorage Daily News',
+      'KTOO Public Media',
+    ],
+    sourceUrl: 'https://www.justice.gov/usao-ak/pr/washington-man-sentenced-10-years-defrauding-alaskans-out-approximately-27-million',
+  },
+  {
+    name: 'Cross-Border "Grandparent Scam" Ring Targeting Kentucky Victims',
+    slug: 'kentucky-canadian-grandparent-scam-ring',
+    description: `From August 2020 to May 2021, a call-center-based "grandparent scam" conspiracy phoned elderly victims in Kentucky and across the United States, told them a grandchild had just been in a car accident and was being held on bail, and then dispatched local couriers to collect cash directly from the victims' homes — proceeds that were later moved through banks and cryptocurrency exchanges to obscure their origin. The U.S. Attorney's Office for the Western District of Kentucky, working with IRS Criminal Investigation and the U.S. Secret Service, said the scheme reached hundreds of victims nationwide and cost them more than $3 million. Robert Louis Sanchez of Albuquerque, New Mexico, who served as a courier and cash "safehouse," was sentenced in June 2024 to a year and a half in prison after pleading guilty to wire fraud conspiracy; Mark Anthony Phillips of Ruskin, Florida, who helped launder the stolen cash, was sentenced that May to 6 years for money laundering conspiracy. The last of six defendants sentenced, Canadian citizen Phillipe Gravel-Nadon, who prosecutors described as a manager or supervisor within the conspiracy, was extradited from Colombia and sentenced in June 2025 to 5 years and 1 month in prison plus $963,290 in restitution. Because this scam depends on panicking a grandparent into acting before they can think it through or call anyone else, the U.S. Attorney's Office urges anyone who receives such a call to hang up and contact the family member directly using a phone number they already have saved — and to remember that no real bail, court fee, or legal fee is ever collected in cash by a courier sent to a private home.`,
+    categorySlug: 'family-emergency-scams',
+    country: 'US',
+    state: 'KY',
+    alertLevel: 'high',
+    sources: [
+      "U.S. Attorney's Office, Western District of Kentucky",
+      'IRS Criminal Investigation',
+      'U.S. Secret Service',
+    ],
+    sourceUrl: 'https://www.justice.gov/usao-wdky/pr/canadian-man-sixth-and-final-defendant-sentenced-grandparent-scam-targeted-kentucky',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
