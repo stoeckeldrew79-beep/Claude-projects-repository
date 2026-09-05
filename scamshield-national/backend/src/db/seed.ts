@@ -9055,6 +9055,48 @@ Ng's case closed out the U.S. prosecution of the individual Goldman bankers at t
   },
 );
 
+NOTORIOUS_ARTICLES.push(
+  {
+    title: 'Martin Armstrong: The Cycle-Forecaster Behind a $3 Billion Ponzi Scheme',
+    slug: 'martin-armstrong-princeton-economics-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Daniel_Patrick_Moynihan_U.S._Courthouse,_Manhattan,_New_York_(7237347688).jpg?width=1200',
+    coverImageCredit: 'Photo: Ken Lund, Wikimedia Commons (CC BY-SA 2.0) — the Daniel Patrick Moynihan U.S. Courthouse in Manhattan, where Martin Armstrong pleaded guilty and was sentenced',
+    coverImagePosition: 50,
+    body: `Martin Arthur Armstrong built his reputation as a self-taught commodities and currency trader who claimed to have developed a proprietary mathematical model — built around cycles tied to the constant pi — capable of forecasting turning points in financial markets years in advance. Through his firm, Princeton Economics International, Ltd., he marketed that reputation directly to corporate treasurers, mostly at Japanese companies, as the foundation for a supposedly safe way to earn steady returns.
+
+The vehicle was a private security called a "Princeton Note," issued by a related holding company, Princeton Global Management, Ltd. According to the superseding indictment later filed against him, from 1992 through 1999 Armstrong fraudulently induced approximately 139 corporate investors to purchase more than $3 billion of these notes, repaying earlier investors with money raised from later ones in a structure prosecutors described as a classic Ponzi scheme. The fraud rested on three pillars: fabricated representations about the value of the accounts he controlled, misrepresentations of his own trading track record, and wrongful commingling of investor funds to conceal losses that, by the time the scheme collapsed, exceeded $700 million. Republic Securities, the broker-dealer whose accounts Armstrong used to run the scheme, itself pleaded guilty to conspiracy and securities fraud in January 2002 and paid roughly $569 million in restitution; three of Armstrong's co-conspirators pleaded guilty in 2004.
+
+The SEC and the Commodity Futures Trading Commission sued Armstrong civilly in September 1999, and a federal judge ordered him to surrender assets, including gold bars, rare coins, and antiquities investigators said he had hidden in a Cayman Islands warehouse. When he failed to comply, he was held in civil contempt starting in January 2000 — a contempt confinement that stretched past seven years, among the longest in American legal history, before he finally pleaded guilty on August 17, 2006, to one count of conspiracy to commit securities fraud, commodities fraud, and wire fraud.
+
+On April 10, 2007, U.S. District Judge John F. Keenan sentenced Armstrong in Manhattan federal court to 60 months in prison — the statutory maximum for the count of conviction — to run consecutively to the contempt time he had already served, and ordered him to pay $80 million in restitution. Between the contempt and the criminal sentence, Armstrong was not released until September 2, 2011, more than a decade after his arrest.
+
+Armstrong never stopped promoting the forecasting model at the center of his fraud. After his release, he rebuilt a public platform as an economic commentator through "Armstrong Economics," attracting a following of readers and subscribers for the same cycle-based market calls he had once used to sell Princeton Notes — a second act built on convincing people that yesterday's discredited pitch is today's independent research.`,
+    sourceUrl: 'https://en.wikipedia.org/wiki/Martin_A._Armstrong',
+  },
+  {
+    title: 'Gilbert Chikli: The Con Man Who Invented the "Fake President" Wire Fraud',
+    slug: 'gilbert-chikli-fake-president-scam-le-drian-mask',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Paris-Hotel_de_Brienne-Minist%C3%A8re_de_la_d%C3%A9fense.JPG?width=1200',
+    coverImageCredit: 'Photo: Khardan, Wikimedia Commons (CC BY-SA 2.0 FR) — the Hôtel de Brienne in Paris, seat of France’s Ministry of the Armed Forces, whose minister Gilbert Chikli’s accomplices impersonated by phone and video using a silicone mask',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    body: `Gilbert Chikli grew up in the working-class Belleville neighborhood of Paris, the son of a Tunisian Jewish immigrant, and moved through a string of petty fraud convictions before settling, in the early 2000s, on the scheme that would make him notorious across French law enforcement: what investigators came to call "l'arnaque au président," or the fake-president scam, and what English-language coverage generally calls CEO fraud or business email compromise.
+
+Between 2005 and 2006, Chikli's crews cold-called finance and accounting employees at French banks and corporations — a target list that eventually ran to 33 companies, including Accenture, Alstom, HSBC, La Banque Postale, Crédit Lyonnais, and Thomson — with someone on the line impersonating the company's own chief executive or an outside auditor. The pitch combined urgency with secrecy: a confidential overseas acquisition, a tax authority requiring immediate payment, a deal that could not wait for normal verification and could not be discussed with colleagues. Employees who complied wired company funds to accounts controlled by Chikli's network abroad; French authorities managed to freeze roughly €52.6 million in transfers before they could be withdrawn, though a smaller sum was actually taken. Chikli fled to Israel in 2009 as French investigators closed in, and obtained Israeli citizenship, a status that let him resist extradition for years. A Paris court convicted him in absentia on May 20, 2015, sentencing him to seven years in prison and a €1 million fine for the scheme.
+
+By then Chikli, still in Israel, had already moved on to an even more audacious version of the same con. Starting in 2015, he and an accomplice, Anthony Lasarevitsch, posed over Skype video calls — Chikli reportedly wearing a silicone mask modeled on French Defense Minister Jean-Yves Le Drian — to solicit secret ransom payments, telling wealthy targets that French special forces needed untraceable funds to free hostages held by jihadist groups in Syria and that absolute confidentiality was essential to the operation's success. The Aga Khan wired transfers totaling roughly €20 million to accounts in Poland and China before intercepting three of the payments, losing about €7.7 million; Turkish businessman İnan Kıraç was persuaded to send tens of millions of dollars believing it would ransom kidnapped journalists. Prosecutors said three victims alone parted with a combined €55 million.
+
+Ukrainian authorities arrested Chikli on August 18, 2017, and France extradited him by the end of November that year. A Paris court convicted him on March 11, 2020, of organized fraud and identity usurpation over the fake-Le-Drian scheme, sentencing him to 11 years in prison and a €2 million fine, with Lasarevitsch receiving seven years. On appeal, the Paris Court of Appeal reduced Chikli's sentence to 10 years while leaving Lasarevitsch's seven-year term unchanged, and dropped the fines.
+
+Chikli's case matters less for its size than for its influence: the "fake president" method he pioneered as a low-tech phone con became, within a decade, the template for the billions of dollars in business email compromise losses that the FBI now tracks as one of the costliest categories of fraud in the world, run by criminal groups who never have to invent a mask at all.`,
+    sourceUrl: 'https://www.cnn.com/2020/03/12/europe/france-fraud-minister-case-sentencing-scli-intl/index.html',
+  },
+);
+
 // Practical "how it works / red flags / what to do" guides covering the
 // major scam categories, the same kind of coverage the FTC's Consumer
 // Advice site and AARP's Fraud Watch Network publish — well-documented
