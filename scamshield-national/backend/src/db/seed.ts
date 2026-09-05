@@ -35243,6 +35243,39 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: '"Finto Carabiniere" Elderly Home-Invasion Fraud Ring ("Altro Mondo," Milan, Italy)',
+    slug: 'italy-finto-carabiniere-altro-mondo-milan-elderly-fraud',
+    description: `Italy's Carabinieri Provincial Command of Milan, coordinated by the Milan Public Prosecutor's Office, spent roughly two years investigating a criminal network built around the "finto carabiniere" (fake carabiniere) trick before executing precautionary-measure orders against 21 people on December 15, 2025, in an operation named "Altro Mondo." The scheme followed a well-worn script that Italian police have flagged as a nationwide epidemic against older residents: perpetrators wearing convincing police-style insignia and carrying fabricated identification approached elderly victims as they returned home alone, or called ahead posing as carabinieri or lawyers with an invented emergency — a car accident, a relative's arrest — to talk their way inside, isolate the victim psychologically, and then demand cash or jewelry on the spot as supposed bail or damages before ransacking the home. Investigators tied the group, based out of a logistics hub in Milan's Muggiano neighborhood and allegedly led by a 96-year-old woman described as its "capostipite," to 12 thefts, 15 cases of handling stolen goods, 8 instances of money laundering, and 2 of self-laundering, netting an estimated €2.5 million in cash and jewelry from victims across Lombardy, with the network's reach extending into Switzerland and Belgium. Of the 21 people targeted, six were sent to prison, nine were placed under house arrest, and five were ordered to remain in a fixed residence. Italian police repeat the same core warning behind every version of this scam: real carabinieri and law-enforcement officers never demand cash, jewelry, or bank transfers at the door or over the phone, and anyone receiving such a visit or call should refuse entry, hang up, and independently verify the claim by calling 112 before acting.`,
+    categorySlug: 'government-impersonation',
+    country: 'IT',
+    alertLevel: 'high',
+    sources: ['Arma dei Carabinieri (Comando Provinciale di Milano)', 'Procura della Repubblica di Milano', 'Il Giorno'],
+    sourceUrl: 'https://www.ilgiorno.it/milano/cronaca/truffe-anziani-finto-carabiniere-x982366l',
+  },
+  {
+    name: 'GlobalFXM Fake Cryptocurrency Trading Platform Fraud (Italy)',
+    slug: 'italy-globalfxm-fake-crypto-trading-platform-fraud',
+    description: `Italy's Polizia Postale, working through Europol's cybercrime taskforce J-CAT alongside Czech police, unraveled an international online-investment fraud built around a bogus cryptocurrency trading site at globalfxm.com after a victim's report opened the case. The fraudsters posed as financial promoters offering guaranteed high returns, steered targets to the fake platform to "invest" in cryptocurrency, and let a dashboard show convincing paper gains to encourage larger deposits — a single identified victim was talked out of €380,000 this way. When that victim tried to withdraw funds, the operators switched to extortion, threatening the victim and demanding further payments before they would supposedly "unlock" a refund that never came, while the original deposits were funneled onward into bank accounts held in the Czech Republic. Investigators identified two women, of Ukrainian and Armenian nationality, as the administrators of those foreign accounts, and a Cagliari judge issued a sequestration order that let Czech authorities freeze and recover roughly €226,000 of the stolen funds. Announcing the case, the Polizia Postale urged anyone approached with an unsolicited investment opportunity to verify that the broker or platform is actually authorized by CONSOB and the Bank of Italy, to check for warnings from ESMA and other regulators, to independently research the company outside the pitch itself, and to treat any promise of guaranteed or unusually high returns — and any later demand for extra fees to release a withdrawal — as a clear sign of fraud.`,
+    categorySlug: 'investment-fraud',
+    country: 'IT',
+    alertLevel: 'high',
+    sources: ['Polizia di Stato — Polizia Postale', 'Europol J-CAT', 'Policie ČR (Czech Police)'],
+    sourceUrl: 'https://www.poliziadistato.it/articolo/postale-scoperta-truffa-internazionale-su-cripto-valute',
+  },
+  {
+    name: 'San Gemini Online Romance Scam (Umbria, Italy)',
+    slug: 'italy-san-gemini-umbria-online-romance-scam',
+    description: `Carabinieri in San Gemini, in Italy's Umbria region, investigated a romance scam after a local woman in her sixties reported that a man she had met on a social network in autumn 2023 — who presented himself as younger and repeatedly found excuses to avoid meeting her in person — had gradually earned her trust and then began asking for small sums to cover sudden personal emergencies, requests that grew over time into repeated prepaid-card top-ups totaling roughly €25,000. She grew suspicious and reported the fraud only after the man kept postponing every attempt to meet face to face. Carabinieri traced the money and, in May 2025, referred five people for prosecution on money-laundering charges: two Italian women and three foreign nationals of African origin, aged between 26 and 72, living in different regions of Italy. Investigators found that the photos used for the fake suitor's profile had been lifted from a real, uninvolved person who had no idea his pictures were circulating, and had already been reused in other unrelated romance scams elsewhere in the country; the profile's name was invented and its phone number was registered to a nonexistent identity. Funds loaded onto the prepaid cards were forwarded almost immediately to accounts based in other countries, with only a small cut kept back — as apparent payment for laundering the money — before that residue, too, was moved on to further prepaid cards and accounts tied to the same group. Italian police's standing advice on romance scams is to treat a new online partner's refusal to ever video call or meet in person as a serious warning sign, and to never send money, gift cards, or prepaid-card top-ups to someone known only through an online relationship.`,
+    categorySlug: 'romance-scams',
+    country: 'IT',
+    alertLevel: 'medium',
+    sources: ['Arma dei Carabinieri (Stazione di San Gemini)', 'Corriere dell\'Umbria', 'UmbriaOn', 'TerniToday'],
+    sourceUrl: 'https://corrieredellumbria.it/news/terni/355926/truffa-sentimentale-sul-web-donna-versa-25-mila-euro-a-finto-corteggiatore-scattano-le-denunce-dei-carabinieri-di-san-gemini.html',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
