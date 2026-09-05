@@ -40851,6 +40851,42 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'Fake "Rhode Island Office of Taxpayer Assistance" Phone Scam',
+    slug: 'rhode-island-fake-office-of-taxpayer-assistance-phone-scam',
+    description: `On April 22, 2024, the Rhode Island Division of Taxation issued advisory ADV 2024-18, reminding taxpayers and tax professionals of an ongoing telephone scam in which callers claim to represent a "Rhode Island Office of Taxpayer Assistance" — an office that does not exist anywhere within the Division of Taxation. The advisory followed an increase in scam reports the Division had already logged in January and February of that year, concentrated during the state's extended tax filing season, when identity thieves and fraud perpetrators are most active. In some cases the callers used "spoofing" to make the incoming call display a legitimate Division of Taxation phone number, lending false credibility to threats about an unpaid tax debt. The Division emphasized three permanent tells that distinguish it from the impersonators: it always mails written notice of a tax debt before ever calling, it never makes threatening, insulting, or hostile statements, and it never requests payment by gift card or wire transfer. Taxpayers who receive such a call are told not to call back the number that contacted them, but instead to verify any claim directly through the Division's Taxpayer Assistance Section at 401-574-8829, and to report the attempt by emailing tax.assist@tax.ri.gov with any screenshots or call recordings they were able to capture.`,
+    categorySlug: 'tax-scams',
+    country: 'US',
+    state: 'RI',
+    alertLevel: 'medium',
+    sources: ['Rhode Island Division of Taxation'],
+    sourceUrl: 'https://tax.ri.gov/sites/g/files/xkgbur541/files/2024-04/ADV_2024_18_Scam_Update.pdf',
+  },
+  {
+    name: 'Delmarva Power Shutoff Threat Impersonation Scam',
+    slug: 'delaware-delmarva-power-shutoff-threat-scam',
+    description: `On March 5, 2019, the Consumer Protection Unit of the Delaware Department of Justice warned residents about a recurring scam in which callers impersonate Delmarva Power, the utility serving most of Delaware, and falsely claim the customer has an overdue balance that will trigger a service shutoff within minutes unless immediate payment is made. The callers pressure victims into paying with MoneyPak cards, iTunes gift cards, or other prepaid card products — forms of payment no legitimate utility accepts for a real past-due bill — and in some versions of the scam the caller's number is "spoofed" to display what looks like a genuine Delmarva Power line. Delaware's Consumer Protection Unit and Delmarva Power itself have repeated similar warnings in the years since, describing the same core tactic: an unsolicited, threatening call demanding an unusual form of instant payment to avoid disconnection. The Consumer Protection Unit advises anyone who receives such a call to ask the caller for information a real utility representative would already have on file — the account number, the property address, and the name on the account — and to hang up immediately if the caller cannot produce it, then call Delmarva Power directly using the number printed on a past billing statement, not a number given by the caller, before making any payment.`,
+    categorySlug: 'utility-scams',
+    country: 'US',
+    state: 'DE',
+    alertLevel: 'medium',
+    sources: ['Delaware Department of Justice Consumer Protection Unit'],
+    sourceUrl: 'https://news.delaware.gov/2019/03/05/us/',
+  },
+  {
+    name: 'Fake Donation Check Scam Targeting Hawaiʻi Nonprofits',
+    slug: 'hawaii-fake-donation-check-scam-nonprofits',
+    description: `On August 19, 2025, Hawaiʻi Attorney General Anne Lopez's office issued News Release 2025-81, warning the state's nonprofit organizations about a scam involving fraudulent donation checks. In the scheme, someone posing as a generous donor or corporate representative contacts a nonprofit and offers a specific donation amount, then sends a check for more than that amount; soon after, the "donor" contacts the nonprofit again, claims to have made an error, and asks for a portion of the funds to be refunded, often citing an urgent personal emergency. Nonprofits that send the refund before the original check has fully cleared later discover the check was counterfeit, leaving them out the refunded amount with nothing to show for it. The Department named two identities used in suspected Hawaiʻi attempts — a "Leonardo Kotlar" and an entity calling itself the "Give To Help Foundation" — noting one had no digital footprint or record in the IRS's tax-exempt organization database, and that a fraudulent cashier's check had also been used in at least one attempted Hawaiʻi incident. Eunice Park, Charities Program Administrator for the Department's Tax and Charities Division, said the scam is "designed to exploit the goodwill of nonprofits and the community they serve," and urged organizations to verify unfamiliar donors, confirm a check was issued by a real bank rather than one bearing a legitimate bank's name on a forged document, wait for a check to fully clear before refunding any portion of it, and require multiple approvals on outgoing wire transfers or refunds. Questions or suspected scam donations can be reported to the Department's Tax & Charities Division at 808-586-1480 or ATG.Charities@hawaii.gov.`,
+    categorySlug: 'charity-scams',
+    country: 'US',
+    state: 'HI',
+    alertLevel: 'medium',
+    sources: ['Hawaii Department of the Attorney General'],
+    sourceUrl: 'https://ag.hawaii.gov/wp-content/uploads/2025/08/News-Release-2025-81.pdf',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
