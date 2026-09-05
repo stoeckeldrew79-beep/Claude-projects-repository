@@ -9491,6 +9491,40 @@ Caspersen pleaded guilty in July 2016 to one count of securities fraud and one c
   },
 );
 
+NOTORIOUS_ARTICLES.push(
+  {
+    title: 'Jason Galanis and the $60 Million Tribal Bond Scheme That Looted a Native American Nation He Was Supposed to Help',
+    slug: 'jason-galanis-tribal-bond-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Jason_Galanis_picture.jpg?width=1200',
+    coverImageCredit: 'Jason Galanis, CC BY 3.0, via Wikimedia Commons',
+    coverImagePosition: 30,
+    body: `Fraud ran in the family. Jason Galanis's father, John Galanis, had already spent decades running fraudulent tax shelters and mutual-fund schemes that fleeced thousands of investors — including, in one 1980s deal, the actor Eddie Murphy — landing him a 27-year federal sentence and, later, years as a fugitive after escaping a work-release program. By the 2010s, Jason had built his own career on Wall Street's edges: private equity deals, asset management firms, and a growing list of business partners who would later regret trusting him, including Devon Archer, a Yale-educated financier and former business partner of Hunter Biden.
+
+Jason Galanis's first major scheme centered on Gerova Financial Group, a company whose stock he and his associates secretly controlled through nominees while promoting it to the investing public — a classic pump that left outside shareholders holding shares once the group cashed out. Prosecutors were still building that case when Galanis moved on to something bigger. From 2014 through 2016, Galanis, his father, Archer, and other associates set out to defraud a Native American tribal entity, the Wakpamni Lake Community Corporation — an economic-development arm of the Oglala Sioux Tribe in South Dakota. The plan: get tribal officials to authorize $60 million in bonds ostensibly meant to fund reservation development, then divert the proceeds. To find buyers for bonds that had no real market and little chance of ever being repaid, Galanis and his co-conspirators used their control over asset management firms to quietly load the illiquid, unrated Tribal Bonds into the accounts of unwitting advisory clients — including a Native American retirement plan and municipal police and firefighter pension funds — clients who had no idea their money had been moved into bonds they could not sell or redeem.
+
+The case became legally tangled almost as soon as it was charged. Galanis pleaded guilty to the Gerova scheme in 2016 and to the Tribal Bond scheme in January 2017, but the Second Circuit later threw out both pleas after finding his lawyer had provided constitutionally deficient advice. Galanis was tried again on a consolidated seven-count information covering both schemes, pleading guilty a second time on January 31, 2020. On September 24, 2020, a Manhattan federal judge sentenced him to 189 months — nearly 16 years — in prison, and ordered him to forfeit more than $80.8 million along with his interests in properties in New York and Los Angeles, plus restitution of more than $80 million to his victims, among them the tribal corporation and the pension funds whose retirees never knew they'd been exposed. His father, John Galanis, was separately sentenced to 10 years; Devon Archer, whose connection to Hunter Biden made the case a recurring reference point in Republican-led congressional investigations even though Biden himself was never accused of wrongdoing, was sentenced to a year and a day.
+
+In March 2025, President Trump commuted Jason Galanis's sentence to time served, following an earlier pardon for Archer — decisions that drew criticism from Native American advocacy groups and from lawyers for the pension funds still owed restitution, who noted that the underlying $80 million judgment against Galanis remained unpaid regardless of the clemency.`,
+    sourceUrl: 'https://www.justice.gov/usao-sdny/pr/jason-galanis-sentenced-manhattan-federal-court-multiple-securities-fraud-schemes',
+  },
+  {
+    title: 'Lev Parnas: The Rudy Giuliani Associate Whose "Fraud Guarantee" Company Was Itself a Fraud',
+    slug: 'lev-parnas-fraud-guarantee-campaign-finance',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Lev Parnas, a Soviet-born businessman who had spent decades cycling through failed ventures in Brooklyn and Florida, found his way in the late 2010s into the orbit of Rudy Giuliani, then serving as President Trump's personal lawyer. Parnas and a business partner, Igor Fruman, styled themselves as well-connected operators who could open doors in Ukrainian energy and, later, the emerging legal cannabis industry — access they were willing to pay for with money whose real source they took pains to hide.
+
+Alongside associate David Correia, Parnas co-founded Fraud Guarantee, a company pitched to investors as a service that would protect businesses from becoming victims of fraud themselves. From 2013 through mid-2019, prosecutors said, Parnas and Correia raised more than $2 million from investors by lying to them: falsely claiming the company had already raised millions more from other backers and that the founders had personally invested hundreds of thousands of dollars of their own money into it. In reality, little of that was true, and some of the investor money that did come in flowed out again — including roughly $500,000 in payments to Giuliani himself for consulting work, paid at a time when Giuliani was publicly representing Trump and pursuing Ukraine-related inquiries on his behalf.
+
+At the same time, Parnas and Fruman were funneling money — some of it from a Russian businessman — into U.S. political campaigns through a shell company, Global Energy Producers, falsely presented as the true source of a $325,000 contribution to a pro-Trump political action committee. Prosecutors charged that the two men made contributions in the names of others to disguise the funds' real origin and to evade the federal ban on foreign nationals financing U.S. elections, all in service of cultivating access to officials who might help their Ukrainian gas ambitions and, separately, their push to have the U.S. ambassador to Ukraine, Marie Yovanovitch, removed from her post — conduct that entangled Parnas in the first impeachment inquiry against President Trump.
+
+A Manhattan federal jury convicted Parnas in October 2021 on six counts, including conspiracy to solicit a foreign national's campaign contribution, conspiracy to make contributions in the name of another, causing an unlawful corporate contribution, falsification of records, and wire fraud conspiracy tied to Fraud Guarantee. He was sentenced on June 29, 2022, to 20 months in prison, three years of supervised release, and $2,322,500 in restitution and forfeiture. Correia, who pleaded guilty rather than go to trial, was sentenced separately to a year in prison and ordered to repay the roughly $43,000 he'd taken along with more than $2 million in restitution; Fruman pleaded guilty to a separate charge and received 366 days.`,
+    sourceUrl: 'https://www.justice.gov/usao-sdny/pr/lev-parnas-sentenced-20-months-prison-campaign-finance-wire-fraud-and-false-statements',
+  },
+);
+
 // Practical "how it works / red flags / what to do" guides covering the
 // major scam categories, the same kind of coverage the FTC's Consumer
 // Advice site and AARP's Fraud Watch Network publish — well-documented
