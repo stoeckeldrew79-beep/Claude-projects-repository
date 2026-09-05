@@ -35435,6 +35435,54 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'KAPA Community Ministry "Love Gift" Ponzi Scheme',
+    slug: 'philippines-kapa-community-ministry-love-gift-ponzi-scheme',
+    description: `KAPA-Community Ministry International Inc., led by self-styled "Pastor" Joel Apolinario, told Filipinos across the country that a "love gift" donation of at least ₱10,000 to the religious group would be repaid with a 30% return every single month, for life — a structure built specifically to dodge securities law by calling the payments donations rather than an investment. The pitch worked at staggering scale: the Securities and Exchange Commission said KAPA amassed roughly 5 million members and collected no less than ₱50 billion, a sum the SEC itself called mathematically impossible to sustain without an endless stream of new recruits, since paying existing members alone would have required roughly ₱15 billion every month. The SEC issued a cease-and-desist order against KAPA on February 14, 2019, made it permanent that March after KAPA failed to contest it, and revoked the group's certificate of incorporation on April 3, 2019; the Court of Appeals froze KAPA's assets on June 4, 2019 on a joint petition from the SEC and the Anti-Money Laundering Council. Apolinario went into hiding as a Cagayan de Oro court issued a warrant for his arrest on syndicated estafa charges, and was finally captured on July 21, 2020 in a raid on an isolated resort in Lingig, Surigao del Sur, during which two of his armed followers were killed in a shootout with police and 23 others were arrested alongside him. On December 12, 2023, the Regional Trial Court in Butuan City convicted Apolinario and fellow incorporators Cristobal Baradad and Joji Jusay on eight counts of syndicated estafa, sentencing each to life imprisonment on every count — a case the SEC and Philippine press have called one of the largest investment scams in the country's history. The SEC urges Filipinos to verify with its own registry, at checkwithsec.sec.gov.ph, whether any group soliciting money — religious or otherwise — is actually licensed to sell investments, since a guaranteed, fixed monthly return offered by an unregistered entity is the clearest signal of a Ponzi scheme regardless of what the payment is called.`,
+    categorySlug: 'investment-fraud',
+    country: 'PH',
+    isHistorical: true,
+    sources: [
+      'Philippine Securities and Exchange Commission (SEC)',
+      'Philippine News Agency',
+      'GMA News Online',
+      'Philippine Daily Inquirer',
+    ],
+    sourceUrl: 'https://www.sec.gov.ph/wp-content/uploads/2023/12/2023PR-Kapa-masterminds-sentenced-to-life-in-prison-for-syndicated-estafa-12212023.pdf',
+  },
+  {
+    name: 'Bamban "Zun Yuan Technology" Scam Compound and Trafficking Case',
+    slug: 'philippines-bamban-zun-yuan-technology-scam-compound',
+    description: `Zun Yuan Technology Inc., a Chinese-run gaming operator, ran a 7.9-hectare walled compound in the town of Bamban, Tarlac, leased from Baofu Land Development Corporation — a company co-incorporated by Bamban's own mayor, Alice Guo, alongside a Chinese national later identified as a fugitive gang leader wanted in China. Guo, elected mayor in 2022, was later exposed by a Senate investigation as a Chinese national born Guo Hua Ping who had obtained a fabricated Filipino birth certificate and identity to run for office. In March 2024, after a Vietnamese worker escaped and alerted police, Philippine authorities raided the compound and rescued nearly 800 people — Filipino, Chinese, Vietnamese, Malaysian, Taiwanese, Indonesian, and Rwandan nationals among them — who investigators said were held under threat and forced to staff online fraud operations, including cryptocurrency and romance-investment "pig butchering" scams run against victims worldwide, alongside the site's illegal offshore gaming (POGO) business. Guo fled the Philippines as the Senate probe intensified and was arrested by Indonesian immigration authorities in Tangerang, in the Greater Jakarta area, on September 3, 2024, before being deported and flown back to Manila under Philippine government escort. On November 20, 2025, the Regional Trial Court in Pasig convicted Guo and co-accused Rachelle Malonzo Carreon, Jaimielyn Cruz, and Walter Wong Rong of qualified trafficking in persons, sentencing each to life imprisonment, a ₱2 million fine, and ₱600,000 in damages to each of four named trafficking victims. The case became a national reckoning over how a scam compound recruiting and confining foreign workers to defraud people abroad had operated for years under the protection of an elected local official, and Philippine officials have since pushed for tighter vetting of POGO-linked land leases and candidates' citizenship documents to prevent a repeat.`,
+    categorySlug: 'employment-scams',
+    country: 'PH',
+    isHistorical: true,
+    sources: [
+      'Presidential Anti-Organized Crime Commission (PAOCC)',
+      'Philippine Bureau of Immigration',
+      'Reuters',
+      'CNN',
+    ],
+    sourceUrl: 'https://edition.cnn.com/2025/11/20/asia/philippines-alice-guo-jailed-scams-intl-hnk',
+  },
+  {
+    name: '"Mark Nagoyo" GCash Scampage and BDO Account-Takeover Ring',
+    slug: 'philippines-mark-nagoyo-gcash-scampage-bdo-fraud-ring',
+    description: `In December 2021, a fraud ring the National Bureau of Investigation dubbed the "Mark Nagoyo Heist Group" — "nagoyo" being Filipino slang for someone duped — broke into more than 700 BDO Unibank customer accounts by bypassing one-time-PIN protections, while separately building and selling "scampages": phishing websites built to look identical to GCash's own login portal, designed to harvest the personal and account details of anyone who typed their credentials into the fake page. Investigators said the group offered an undercover informant three compromised accounts capable of receiving ₱10 million each, while the phishing scampage itself was sold for as little as ₱2,000 — a cheap, reusable tool for draining far larger sums from unsuspecting victims. The NBI's Cybercrime Division arrested five suspects on January 18, 2022: Nigerian nationals Ifesinachi Fountain Anaekwe ("Daddy Champ") and Chukwuemeka Peter Nwadi, charged with trafficking in unauthorized access devices under the Access Devices Regulation Act; and Jherom Anthony Taupa, identified as a scampage developer and one of the operation's masterminds, along with alleged support-role suspects Ronelyn Panaligan and Clay Revillosa, charged under the Cybercrime Prevention Act. GCash worked directly with the NBI on the case and on a wider crackdown announced that same January, and the Bangko Sentral ng Pilipinas has since ordered banks and e-wallets, under BSP Circular No. 1213, to phase out SMS- and email-based one-time passwords in favor of stronger in-app or biometric verification, since a text-message OTP intercepted through a scampage or SIM-based attack was the exact vulnerability the Nagoyo ring exploited. The NBI and GCash both stress that neither a bank nor an e-wallet will ever ask a customer to enter login credentials, an OTP, or an MPIN through a link sent by text or email — any such link should be treated as fraudulent and reported through the bank or e-wallet's official app or verified hotline rather than clicked.`,
+    categorySlug: 'phishing',
+    country: 'PH',
+    alertLevel: 'high',
+    sources: [
+      'National Bureau of Investigation (NBI), Philippines',
+      'GCash (Mynt)',
+      'Philippine Daily Inquirer',
+      'BusinessMirror',
+    ],
+    sourceUrl: 'https://nbi.gov.ph/press_releases/2022/01212022/5812/',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
