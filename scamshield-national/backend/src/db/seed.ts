@@ -8901,6 +8901,46 @@ Naqvi fought extradition through the UK courts for years, exhausting his appeals
   },
 );
 
+NOTORIOUS_ARTICLES.push(
+  {
+    title: 'Craig Carton: The Sports Radio Host Who Ran a Ticket-Resale Ponzi Scheme to Cover Gambling Debts',
+    slug: 'craig-carton-ticket-resale-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Boomer_and_Carton_(29872193013)_(cropped).jpg?width=1200',
+    coverImageCredit: 'Photo: Greg2600 (CC BY-SA 2.0) — Craig Carton (right) with WFAN co-host Boomer Esiason in October 2016, roughly a year before his fraud was exposed',
+    coverImagePosition: 40,
+    body: `Craig Carton co-hosted "Boomer and Carton," the top-rated sports-talk radio show in the country's largest media market, teaming with former NFL quarterback Boomer Esiason on WFAN in New York for more than a decade and earning a reported $2 million a year from the platform it gave him. That platform, prosecutors later showed, was also the credibility he used to solicit investors for a ticket-resale business built almost entirely on fiction.
+
+Beginning around 2015, Carton partnered with Joseph Meli and Michael Wright to pitch investors — including sophisticated institutional players — on ventures that would supposedly buy large blocks of tickets to high-demand events, such as Adele concerts, the Broadway musical "Hamilton," and Barbra Streisand and Metallica shows, then resell them at a markup on the secondary market. Carton used his industry connections, including a relationship with Brooklyn Sports & Entertainment, the operator of the Barclays Center, to lend the pitch an air of insider access that made the numbers sound plausible to people who had no independent way to check them. According to prosecutors, agreements he presented to at least one hedge fund as binding ticket-purchase contracts were fabricated, and instead of buying tickets, Carton used new investor money to pay off earlier investors and to cover his own gambling losses — the classic structure of a Ponzi scheme dressed up as a legitimate resale business.
+
+The scheme began unraveling when a hedge fund, after wiring roughly $700,000 to Carton for a ticket deal, discovered a large share of it — around $133,000 — had gone straight to casinos rather than to any ticket purchase. The Securities and Exchange Commission charged Carton and Meli civilly in September 2017, the same month federal prosecutors in Manhattan brought parallel criminal charges, and Carton resigned from WFAN the day of his arrest. He went to trial in Manhattan federal court, and on November 7, 2018, a jury convicted him on all counts — securities fraud, wire fraud, and conspiracy — after roughly five hours of deliberation, rejecting his defense that he had himself been duped by a business partner rather than knowingly defrauding investors.
+
+Chief U.S. District Judge Colleen McMahon sentenced Carton on April 5, 2019, to 42 months in federal prison, three years of supervised release, $4,835,186.56 in restitution, and forfeiture of $4,590,000. Co-defendant Michael Wright received 28 months, and Joseph Meli — who had separately run an even larger ticket-fraud scheme of his own, raising money from other investors under nearly the same pitch — received 78 months and was ordered to pay more than $160 million in restitution and forfeiture across his combined cases. At sentencing, Carton, who had publicly described himself as a gambling addict, acknowledged the losses his investors suffered while his lawyers pressed for leniency on the strength of his cooperation and the underlying addiction driving the fraud.
+
+Carton's case is a reminder that celebrity and industry access can substitute for the due diligence investors would otherwise demand: a fund that would never wire millions to an unknown stranger on the strength of a verbal promise did exactly that for a well-known radio personality with real relationships inside the concert and sports-venue business, on paperwork that turned out to describe deals that were never real.`,
+    sourceUrl: 'https://www.justice.gov/usao-sdny/pr/radio-talk-show-host-craig-carton-sentenced-42-months-prison-securities-and-wire-fraud',
+  },
+  {
+    title: 'She Zhijiang: The Fugitive Behind Myanmar\'s "Scam City" of Forced-Labor Fraud Compounds',
+    slug: 'she-zhijiang-shwe-kokko-scam-compounds',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Shwe_Kokko_Scam_City,_Myawaddy,_Myanmar.jpg?width=1200',
+    coverImageCredit: 'Photo: Angshu2193, Wikimedia Commons (CC BY-SA 4.0) — Shwe Kokko, the Myanmar border development She Zhijiang built and U.S. officials describe as "a resort city custom built for gambling, drug trafficking, prostitution, and scams"',
+    coverImagePosition: 50,
+    body: `She Zhijiang built his fortune running illegal online gambling platforms out of the Philippines before Chinese authorities began pursuing him roughly a decade before his eventual capture. Rather than stop, he moved his operation to Myanmar's border with Thailand, took Cambodian citizenship, and founded Yatai International Holding Group, which struck a 2017 agreement with a Karen ethnic armed group to develop a stretch of land in Kayin State into what was marketed as a legitimate $15 billion tourism and casino complex called Shwe Kokko, or "Yatai New City."
+
+What actually rose from that land, according to U.S., British, and other investigators, was one of Southeast Asia's most notorious hubs of "pig butchering" fraud — the practice of cultivating a fake romantic or friendly relationship online for weeks or months before steering the victim into a fraudulent cryptocurrency investment and draining their savings. Behind the scam scripts, human rights investigators and Western sanctions authorities say Shwe Kokko relied on forced labor: thousands of workers lured to the site with fake job listings, then held against their will inside guarded, walled compounds and coerced through threats and violence into running fraud operations around the clock, targeting victims across the United States, Europe, and Asia. The U.S. Treasury Department has described Shwe Kokko as "a resort city custom built for gambling, drug trafficking, prostitution, and scams targeting people around the world."
+
+Interpol issued a Red Notice for She in 2020 at Beijing's request over allegations of running illegal gambling and fraud operations, but he continued operating from Cambodia and Myanmar for years afterward. Thai authorities finally arrested him in August 2022, after he crossed into Thailand, and he spent more than three years fighting extradition through the Thai courts while his attorneys argued the Chinese charges were politically motivated and that he faced a risk of mistreatment if returned. The United States and United Kingdom separately sanctioned She and Yatai directly, freezing any assets under their jurisdiction and barring their citizens and institutions from dealing with him, as part of a broader wave of 2024-2025 sanctions targeting the scam-compound networks that have proliferated along the Myanmar-Thailand border since the 2021 Myanmar coup.
+
+A Thai appeals court upheld the extradition order in late 2025, and on November 12, 2025, She was flown from Bangkok to mainland China to face the original gambling and fraud charges that had followed him for more than a decade. His case illustrates how the forced-labor scam compounds now blamed for a large share of the world's romance and investment fraud losses did not spring up in a lawless vacuum — Shwe Kokko was built with a signed agreement, marketed as a legitimate development, and allowed to operate for years before the scale of the fraud and trafficking behind it drew Interpol notices, sanctions from multiple governments, and finally an extradition that took over three years to complete.`,
+    sourceUrl: 'https://hongkongfp.com/2025/11/12/thailand-extradites-alleged-scam-kingpin-to-china/',
+  },
+);
+
 // Practical "how it works / red flags / what to do" guides covering the
 // major scam categories, the same kind of coverage the FTC's Consumer
 // Advice site and AARP's Fraud Watch Network publish — well-documented
