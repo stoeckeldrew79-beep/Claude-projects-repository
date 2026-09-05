@@ -40126,6 +40126,43 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'Massachusetts Money-Mule Romance Scam Network (Charles Uchenna Nwadavid)',
+    slug: 'ma-nwadavid-romance-scam-money-mule-network',
+    description: `Between roughly 2016 and September 2019, Charles Uchenna Nwadavid, 35, of Abuja, Nigeria, ran a romance scam scheme that tricked victims into sending money to people they'd met online who never actually existed as described. To hide where the money ultimately went, the operation recruited a Massachusetts victim to unknowingly act as a "money mule": that victim was persuaded to receive funds wired in from five other romance scam victims scattered around the United States, then forward the combined money on through a series of cryptocurrency transactions that funneled it to Nwadavid overseas. In all, more than $2.5 million was stolen from six victims. Nwadavid was extradited, and in June 2025 pleaded guilty in federal court in Boston to mail fraud, money laundering, and aiding and abetting money laundering; U.S. District Judge Leo T. Sorokin sentenced him to two years in prison plus one year of supervised release and ordered $2,724,810.41 in restitution. The case is a reminder that a romance scam's damage doesn't stop with the person being courted online — the same operation may separately be grooming an unrelated victim, often an older adult, to unwittingly launder money for total strangers by receiving and re-sending "gift" or "business" funds, a role that itself carries real legal and financial risk.`,
+    categorySlug: 'romance-scams',
+    country: 'US',
+    state: 'MA',
+    isHistorical: true,
+    firstRecorded: '2016-01-01',
+    sources: ['U.S. Department of Justice — U.S. Attorney\'s Office, District of Massachusetts'],
+    sourceUrl: 'https://www.justice.gov/usao-ma/pr/nigerian-national-sentenced-two-years-prison-romance-scam-and-money-laundering-scheme',
+  },
+  {
+    name: 'Fake Donation Drives Exploiting the York County Police Shooting',
+    slug: 'pa-york-county-police-shooting-charity-scam',
+    description: `After a gunman killed three Northern York County Regional Police officers and injured two others in York County, Pennsylvania, in September 2025, Attorney General Dave Sunday's Bureau of Consumer Protection issued a public warning that scammers were already moving to exploit public grief and generosity with fraudulent donation drives claiming to benefit the officers, their families, or their department. The alert, issued September 22, 2025, urged anyone wanting to help to verify a fundraiser before giving: check the Northern York County Regional Police Department's and York County Sheriff's Office own Facebook pages for the fundraising efforts they've actually endorsed, and confirm whether a police benevolent association or Fraternal Order of Police lodge stands behind a given campaign, rather than trusting a crowdfunding page or social media post simply because it names the tragedy. It's a pattern that repeats after nearly every high-profile local tragedy nationwide: scammers spin up look-alike fundraisers within hours of a shooting, natural disaster, or other newsworthy loss, betting that people moved to act quickly won't stop to confirm where the money is actually going.`,
+    categorySlug: 'charity-scams',
+    country: 'US',
+    state: 'PA',
+    alertLevel: 'medium',
+    sources: ['Pennsylvania Office of Attorney General'],
+    sourceUrl: 'https://www.attorneygeneral.gov/taking-action/ag-sunday-warns-of-potential-scams-involving-donation-drive-for-york-county-police-officers-killed-injured-last-week/',
+  },
+  {
+    name: 'Fake Recruiter Job Offers Targeting Laid-Off DC-Area Federal Workers',
+    slug: 'dc-federal-worker-layoff-fake-job-text-scam',
+    description: `In early 2025, as federal workforce cuts and buyouts pushed tens of thousands of federal employees out of their jobs nationwide — a shock felt especially hard in Washington, D.C., where federal workers make up roughly a quarter of the District's entire workforce — scammers began targeting the newly unemployed with text messages and emails posing as recruiters and hiring managers offering remote or hybrid positions with unusually generous pay and few real qualifications required. The pitch exploits exactly the pressure a recently laid-off worker is under: a need for income fast, and less patience to scrutinize a "job" that seems to be falling into their lap. Victims who engage are pushed to hand over Social Security numbers and bank account details up front, supposedly to "set up payroll" or cover a "background check" or "training materials" fee, sent through payment apps like Cash App, Venmo, or Zelle that offer no way to reverse the charge. The District of Columbia's Office of the Attorney General and the FBI both issued warnings on the scheme, with the FBI noting the tell that separates it from a real job offer: a legitimate employer only asks for a Social Security number and bank account information for payroll purposes after someone is actually hired, never as a condition of being considered.`,
+    categorySlug: 'employment-scams',
+    country: 'US',
+    state: 'DC',
+    alertLevel: 'medium',
+    sources: ['District of Columbia Office of the Attorney General', 'Federal Bureau of Investigation (FBI)', 'WJLA/ABC7 News'],
+    sourceUrl: 'https://wjla.com/news/local/text-scam-federal-worker-firings-job-cuts-workforce-laid-off-trump-administration-jd-vance-targets-scammers-washington-dc-maryland-virginia-dmv-scammers-target-thousands-fake-jobs-dmv',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
