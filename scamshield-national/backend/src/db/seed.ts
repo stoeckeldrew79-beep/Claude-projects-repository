@@ -37898,6 +37898,43 @@ SEED_SCAMS.push(
   },
 );
 
+// Three new, real, sourced cases for Chile (country code CL) — the first
+// entries for this country, verified via case-insensitive grep for "Chile",
+// "IM Forex", "BancoEstado", and "Belsport"/"JetSmart" with zero existing
+// hits before adding.
+SEED_SCAMS.push(
+  {
+    name: 'IM Forex Pyramid Investment Scheme',
+    slug: 'chile-imforex-pyramid-scheme',
+    description: `Between 2014 and 2016, Víctor and Ivonne Pantoja ran IM Forex, a supposed foreign-exchange investment business with public-facing offices in Providencia (Santiago), Viña del Mar, Antofagasta, Concepción, and Puerto Montt, telling investors their money was being placed through proprietary trading software that generated guaranteed high returns. Chile's Fiscalía Oriente (Eastern Metropolitan Prosecutor's Office) proved that no investments were ever actually made and that the "returns" paid to earlier investors were simply money collected from newer victims — a textbook pyramid structure. The scheme reached roughly 1,200 victims, of whom 867 filed formal criminal complaints, with accredited losses of about 13 billion Chilean pesos. After the Pantojas were held in pretrial detention, prosecutors secured an abbreviated-trial conviction in August 2018 before Judge Alicia Rosende on charges of repeated fraud and violating Chile's General Banking Law, winning the sentences they had requested: five years in prison for Víctor Pantoja and four years of supervised release for Ivonne Pantoja. The Fiscalía de Chile later reported that, through asset-recovery efforts, roughly 10 billion of the 13 billion pesos lost was recovered, and in subsequent years announced additional court authorizations allowing victims to finally collect their share of the recovered funds — one of the country's largest prosecuted investment-fraud cases and a template for how phony currency-trading software has been used to launder an otherwise ordinary Ponzi scheme.`,
+    categorySlug: 'investment-fraud',
+    country: 'CL',
+    alertLevel: 'high',
+    sources: ['Fiscalía de Chile', 'Emol', 'BioBioChile'],
+    sourceUrl: 'https://www.emol.com/noticias/Nacional/2018/08/20/917683/Fiscalia-Oriente-logra-condena-contra-duenos-de-IM-Forex-por-estafa-piramidal.html',
+  },
+  {
+    name: 'BancoEstado Phishing Email Campaign',
+    slug: 'chile-bancoestado-phishing-campaign',
+    description: `Chile's national CSIRT (the government's Computer Security Incident Response Team, under the Ministry of the Interior) has repeatedly had to publish formal alerts about criminals impersonating BancoEstado, the country's state-owned bank — logging separate campaigns under alert codes 8FPH22-00659-01, 8FPH23-00748-01, 8FPH24-00929-01, and FPH24-00950 across 2022 through 2024 alone. In the most recent wave, publicized on August 19, 2025 after the Judicial Power's own Security Office and Cyber Risk Area (Corporación Administrativa del Poder Judicial) detected staff being targeted, a fraudulent email using BancoEstado's branding warns recipients that a "fine" will be charged to their account unless they click a link to "update their personal data." The fake portal that opens then harvests the victim's RUT (national ID number), online-banking password, card number, phone number, and one-time "tarjeta de coordenadas" security codes — before quietly redirecting the victim to the real BancoEstado website so nothing appears to have gone wrong. The Judicial Power and BancoEstado urge anyone who receives such an email to delete it without clicking, and anyone who already entered data to contact the bank immediately to block their coordinate card, Banco Estado app, and passwords.`,
+    categorySlug: 'phishing',
+    country: 'CL',
+    alertLevel: 'high',
+    sources: ['Poder Judicial de Chile', 'CSIRT Nacional de Chile', 'CNN Chile'],
+    sourceUrl: 'https://www.pjud.cl/prensa-y-comunicaciones/noticias-del-poder-judicial/130335',
+  },
+  {
+    name: 'Belsport and JetSMART Brand Impersonation Scam',
+    slug: 'chile-belsport-jetsmart-impersonation-scam',
+    description: `On July 29, 2025, Chile's national consumer protection agency SERNAC issued a public alert covering two unrelated instances of corporate identity theft that had already generated real consumer complaints. Sporting-goods retailer Belsport reported that a fraudulent site, tiendabelsport.cl, was using its brand and mimicking its legitimate customer-service channels to deceive shoppers into believing they were buying from the real retailer — a repeat of an earlier fake domain, belsports.cl, that SERNAC had already had taken down. Separately, low-cost airline JetSMART reported that criminals had created fake LinkedIn and X (formerly Twitter) profiles impersonating its real legal representative, Estuardo José Ortiz Porras, using the fake accounts to respond directly to customers' public complaints and requests for help in order to harvest their personal data under the guise of resolving the issue. JetSMART filed its own criminal complaint with Chile's Public Prosecutor's Office (Ministerio Público), and SERNAC referred evidence from both cases to prosecutors as well given the fraud and impersonation involved. SERNAC's public guidance was to verify any company website or social-media account through the business's own official channels before handing over personal or payment information, since a professional-looking fake site or profile is no guarantee of legitimacy.`,
+    categorySlug: 'online-shopping-scams',
+    country: 'CL',
+    alertLevel: 'medium',
+    sources: ['SERNAC (Servicio Nacional del Consumidor)', 'Emol', 'La Cuarta'],
+    sourceUrl: 'https://www.sernac.cl/portal/604/w3-article-86661.html',
+  },
+);
+
 // Three new, real, sourced cases for the three states tied for the fewest
 // SEED_SCAMS entries (DE, RI, NE all had 10 — verified with a brace-depth
 // parser scoped to the SEED_SCAMS region only, not the unrelated
