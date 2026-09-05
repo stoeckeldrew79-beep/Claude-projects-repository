@@ -18064,6 +18064,47 @@ For anyone evaluating a video-calling, messaging, or file-sharing tool today —
   },
 );
 
+GUIDE_ARTICLES.push(
+  {
+    title: `The Rite Aid Facial Recognition Settlement: What Happens When a Store's "Anti-Shoplifting" AI Gets It Wrong`,
+    slug: 'rite-aid-ftc-facial-recognition-settlement-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'rite-aid-ftc-facial-recognition-settlement'],
+    sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2023/12/rite-aid-banned-using-ai-facial-recognition-after-ftc-says-retailer-deployed-technology-without',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Facial_Recognition22.jpg?width=1200',
+    coverImageCredit: 'Photo: Mike MacKenzie, CC BY 2.0, via Wikimedia Commons',
+    coverImagePosition: 50,
+    body: `From 2012 to 2020, Rite Aid quietly built one of the largest retail facial recognition programs in the country, deploying the technology in hundreds of stores nationwide as a tool to spot shoplifters before they ever reached the register. The pitch was simple: cameras would scan shoppers' faces against a database of people the company had previously flagged, and an alert would tell staff when someone on that list walked in. On December 19, 2023, the Federal Trade Commission announced a settlement banning Rite Aid from using facial recognition technology for surveillance purposes for five years, after alleging the company deployed the system "without reasonable safeguards" and caused real harm to real customers in the process.
+
+The FTC's complaint described a system that malfunctioned at scale. Investigators found the technology generated thousands of false-positive matches — instances where it flagged a completely innocent shopper as someone previously enrolled as a suspected shoplifter, sometimes based on enrollment photos taken thousands of miles away, and sometimes flagging the very same person as a repeat "hit" at dozens of different store locations across the country who had never actually been there before. The complaint also found the false-positive rate wasn't evenly distributed: it was higher in stores located in plurality-Black and plurality-Asian communities than in plurality-White communities, meaning the technology's errors fell disproportionately on people of color. FTC Bureau of Consumer Protection Director Samuel Levine put it bluntly: "Rite Aid's reckless use of facial surveillance systems left its customers facing humiliation and other harms, and its order violations put consumers' sensitive information at risk."
+
+The human cost behind those statistics is what made the case land. According to the FTC, employees acting on the system's false alerts followed innocent customers through stores, publicly accused them of theft and other crimes in front of family, coworkers, and other shoppers, searched them, ordered them to leave, and in some instances called the police on people who had done nothing wrong. The complaint also alleged Rite Aid failed to test the system for accuracy before deploying it, failed to train or oversee the employees who acted on its alerts, and continued relying on a technology known internally to be unreliable rather than fixing or abandoning it.
+
+Unlike many FTC settlements, this one carried no monetary penalty — the order instead focused entirely on stopping the practice and cleaning up its aftermath. Rite Aid must not use any facial recognition or analysis system for surveillance purposes for five years. It must delete all photos and videos collected through the program, along with any data, models, or algorithms derived from them. If the company wants to use similar technology again after the ban lifts, it must first implement a comprehensive monitoring program, notify consumers when their biometric information is enrolled and when an automated system takes action based on it, delete biometric information within a set retention window, and submit to independent, third-party security assessments — with the company's CEO personally certifying compliance every year.
+
+The case is a reminder that "smart" surveillance sold as a security upgrade is still, underneath, software making a probabilistic guess — and a wrong guess made about a person's face, in front of other people, is not a minor inconvenience. Anyone who believes they were wrongly accused, followed, or detained based on a store's use of facial recognition or similar automated technology can file a complaint with the FTC at ReportFraud.ftc.gov and with their state attorney general's consumer protection office; a growing number of state privacy laws also give consumers a right to ask a business what biometric data it holds on them and to request that it be deleted.`,
+  },
+  {
+    title: `The Bank of America "Double-Dipping" Settlement: What $250 Million in CFPB and OCC Penalties Reveals About Repeat Overdraft Fees`,
+    slug: 'bank-of-america-cfpb-double-dipping-settlement-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'bank-of-america-cfpb-settlement'],
+    sourceUrl: 'https://www.consumerfinance.gov/archive/newsroom/bank-of-america-for-illegally-charging-junk-fees-withholding-credit-card-rewards-opening-fake-accounts/',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Bank_of_America_Branch,_Concord_MA.jpg?width=1200',
+    coverImageCredit: 'Photo: John Phelan, CC BY 3.0, via Wikimedia Commons',
+    coverImagePosition: 50,
+    body: `On July 11, 2023, the Consumer Financial Protection Bureau and the Office of the Comptroller of the Currency jointly announced enforcement actions against Bank of America totaling roughly $250 million in penalties and consumer redress, resolving allegations that the bank had, in CFPB Director Rohit Chopra's words, "double-dipped on fees, withheld reward bonuses, and opened accounts without customer consent." It was one of the largest CFPB actions of the year, and it targeted three separate practices that had nothing to do with each other except who was behind them.
+
+The first, and largest, piece of the case was what the CFPB called "double-dipping" on nonsufficient funds (NSF) fees. When a customer's account lacked the money to cover a transaction, Bank of America charged a $35 fee — standard practice across the industry — but the CFPB found that when a merchant then resubmitted the very same declined transaction for payment, the bank charged another $35 fee on the identical transaction, sometimes more than once, even though the customer had taken no new action at all between charges. The CFPB's order required Bank of America to refund at least $80 million to customers who were hit with these repeat fees between September 1, 2018 and February 18, 2022, on top of a $60 million CFPB penalty for the practice specifically.
+
+The second piece involved Bank of America's credit card rewards program. The CFPB alleged that for years, the bank had withheld cash rewards and bonus points that it had explicitly promised customers for opening new credit card accounts, particularly targeting customers who had applied in person at a branch or over the phone rather than online. Internal system failures meant thousands of customers who had done everything asked of them to earn a bonus simply never received it, and the bank did not proactively identify or fix the problem. Bank of America had already separately paid roughly $23 million to affected customers before the settlement, on top of penalties assessed for the underlying conduct.
+
+The third piece was arguably the most serious: the CFPB alleged that starting in 2012, some Bank of America employees, driven by internal sales incentives, opened credit card accounts in customers' names without their knowledge or consent, in some cases pulling a customer's credit report without permission to do so — the same basic fake-accounts pattern that had exposed Wells Fargo to sweeping penalties years earlier, now surfacing at one of its largest competitors. The CFPB assessed a further $30 million penalty covering the rewards and fake-account findings together, bringing the Bureau's total penalty across all three practices to $90 million, while the OCC separately levied its own $60 million penalty for related unfair billing practices, and the order required Bank of America to stop opening any account without a customer's affirmative consent going forward.
+
+The order requires Bank of America to identify and refund every customer harmed by each of these three practices, to clearly disclose any conditions or limitations on advertised rewards before a customer applies, and to end the repeat-fee practice on NSF transactions entirely. For anyone banking anywhere — not just at Bank of America — the case is a practical checklist: read a bank statement closely enough to notice if the exact same declined transaction generated more than one fee, keep records of any rewards or bonus terms advertised at account opening so a denied bonus can be disputed with evidence in hand, and check your own credit report periodically (free, weekly, at annualcreditreport.com) for any account you never opened. A customer who believes their bank overcharged them, denied an earned reward, or opened an account without their consent can file a complaint directly with the Consumer Financial Protection Bureau at consumerfinance.gov/complaint, which forwards complaints to the company and tracks the response.`,
+  },
+);
+
 async function seedArticles(articles: SeedArticle[], label: string) {
   for (const article of articles) {
     await pool.query(
@@ -36673,6 +36714,78 @@ SEED_SCAMS.push(
     alertLevel: 'critical',
     sources: ['Indonesia Financial Services Authority (OJK)', 'Indonesia Anti-Scam Centre (IASC)', 'Jakarta Globe'],
     sourceUrl: 'https://ojk.go.id/en/berita-dan-kegiatan/siaran-pers/Pages/The-Rise-of-Scams-OJK-and-the-Government-Launch-National-Campaign-to-Combat-Scam-and-Illegal-Financial-Activities.aspx',
+  },
+);
+
+SEED_SCAMS.push(
+  {
+    name: 'Fake Cantonal Police Phone Scam ("Faux Policier")',
+    slug: 'switzerland-fake-cantonal-police-phone-scam',
+    description: `Criminal networks operating mainly out of France call victims in French-speaking Switzerland using spoofed numbers, claim to be cantonal police officers investigating a security threat — a common opening line is "two young people have been arrested with a duplicate of your bank card" — and back up the claim with a fake badge number and a real police-station address to sound convincing. Once trust is established, the caller tells the victim their card or cash is compromised and must be handed over "for safekeeping" or "as evidence," then sends a young courier, or "mule," to collect bank cards, cash, or jewelry directly from the victim's home. Victims are overwhelmingly elderly and are often selected from digital phone directories by searching for traditional first names. Losses in French-speaking Switzerland alone climbed from CHF 1.5 million in 2023 to CHF 3.5 million in 2024 and had already passed CHF 4.5 million in the first ten months of 2025 — nearly CHF 10 million stolen since 2023. Investigators describe a hierarchical, almost military structure: masterminds based in France recruit young mules who commute across the border daily using Swiss SIM cards and coordinate logistics and victim lists over Snapchat. Cantonal police forces in Fribourg, Geneva, Jura, Neuchâtel, Vaud, and Valais joined the Federal Office of Police (Fedpol) in a coordinated cross-border operation to dismantle these networks. Genuine Swiss police will never call to demand a bank card, cash, or jewelry be handed to a courier or "held as evidence" — anyone receiving such a call is advised to hang up immediately and contact the police directly using an independently verified number, never one given by the caller.`,
+    categorySlug: 'government-impersonation',
+    country: 'CH',
+    alertLevel: 'high',
+    sources: ['SWI swissinfo.ch (Swiss Broadcasting Corporation)', 'The Local Switzerland', 'Fedpol (Swiss Federal Office of Police)'],
+    sourceUrl: 'https://www.swissinfo.ch/eng/best-of-srg-content/scammers-posing-as-swiss-police-steal-chf10-million-since-2023/90811951',
+  },
+  {
+    name: 'Deepfake Celebrity-Endorsed Trading Platform Scam',
+    slug: 'switzerland-deepfake-celebrity-trading-platform-scam',
+    description: `Fraudsters build AI-generated deepfake videos and fabricated news-article mockups, styled to look like outlets such as Blick, that show well-known Swiss public figures — including tennis star Roger Federer and federal councillors, most prominently Finance Minister and then-Federal President Karin Keller-Sutter — appearing to personally endorse a crypto or forex trading platform, complete with synthetic voices, invented quotes, and fake chat logs showing enormous profits. The ads run on YouTube and social media and direct viewers to a sign-up page; anyone who registers is then contacted directly by supposed "financial advisers" who pressure them into depositing steadily larger sums. Switzerland's National Cyber Security Centre (NCSC, now part of the Federal Office for Cybersecurity, BACS) logged 3,485 reports of online investment-advertising fraud in the first half of 2025 alone, compared with 729 in the same period of 2024 — almost a five-fold jump — and dedicated a September 2025 weekly bulletin specifically to the wave of fake ads and videos misusing Keller-Sutter's image and office to lend the scheme credibility. Zurich Cantonal Police (Kapo Zürich) had already issued a public warning in December 2023 after early reports of Federer- and federal-councillor-themed deepfakes, urging anyone who had registered on such a platform to report it, block any card details they had shared, and immediately change their e-banking credentials if those had been shared too. Authorities stress that no legitimate investment platform is promoted through an unsolicited celebrity endorsement video, that any such endorsement should be verified directly through the public figure's own official channels before money changes hands, and that a "guaranteed profit" trading platform is fraudulent regardless of whose face — real or synthetic — appears in the advertisement.`,
+    categorySlug: 'ai-deepfake-scams',
+    country: 'CH',
+    alertLevel: 'high',
+    sources: ['Swiss National Cyber Security Centre / Federal Office for Cybersecurity (NCSC/BACS)', 'Zurich Cantonal Police', 'SwissCybersecurity.net'],
+    sourceUrl: 'https://www.swissinfo.ch/eng/various/internet-investment-scams-on-the-rise-in-switzerland/90376269',
+  },
+  {
+    name: 'Long-Running Online Romance Fraud',
+    slug: 'switzerland-online-romance-fraud-fribourg-case',
+    description: `Starting in late 2016, a fraudster created a fake female social-media profile and used it to build a years-long online romantic relationship with a man in the Fribourg area, repeatedly inventing emergencies that required money and arranging in-person meetings that were always postponed or never materialized. By the time the victim filed a criminal complaint, prompting Fribourg cantonal police to open an active investigation and issue a public alert, he had sent the fraudster more than CHF 600,000 over roughly eight years. The case reflects a pattern serious enough that Swiss Crime Prevention (SKP/PSC) — the intercantonal crime-prevention service run under the Conference of Cantonal Justice and Police Directors — joined cantonal and municipal police forces nationwide, including in Lugano, to launch "Romance Scam: True love doesn't cost anything," a national prevention campaign running from March through May 2025 built around the site romance-scam.ch, which publishes victim video testimonials and explains how these fraudsters operate, often using AI translation tools to sustain relationships with victims across language barriers. Swiss Crime Prevention notes that deep emotional attachment and a strong sense of shame keep many victims from ever reporting what happened, meaning official case counts and loss totals significantly understate the true scale of the problem. Authorities advise treating any request for money from someone known only online as a warning sign regardless of how long the relationship has lasted, discussing the relationship with a trusted friend or family member before sending anything, and reporting suspected fraud to the police even years into an ongoing "relationship."`,
+    categorySlug: 'romance-scams',
+    country: 'CH',
+    alertLevel: 'high',
+    sources: ['Fribourg Cantonal Police', 'The Swiss Times', 'Swiss Crime Prevention (Prévention Suisse de la Criminalité / SKP)', 'Lugano City Police'],
+    sourceUrl: 'https://theswisstimes.ch/swiss-scam-man-loses-over-600000-chf-in-romance-fraud/',
+  },
+);
+
+SEED_SCAMS.push(
+  {
+    name: 'Student Aid Center Upfront-Fee Student Loan Debt Relief Scam',
+    slug: 'dc-student-aid-center-debt-relief-scam',
+    description: `Student Aid Center, Inc., run by Ramiro Fernandez-Moris and Damien Alvarez, marketed itself to District of Columbia student loan borrowers as a debt relief service, charging upfront fees of roughly $600 to $1,000 to enroll people in loan consolidation and forgiveness programs that the U.S. Department of Education already offers for free, while providing little or none of the promised assistance in return. DC Attorney General Karl Racine sued the company for violating the District's Consumer Protection Procedures Act, and the Superior Court of the District of Columbia entered a judgment on December 4, 2017 ordering the company to pay more than $425,000 total, including $192,824.95 in restitution to 233 District consumers and a $233,000 civil penalty, plus a permanent injunction barring it from collecting advance fees for student loan services in the District. Florida, Kentucky, and Washington state's attorneys general and the Federal Trade Commission pursued parallel actions against the same operation. "We will not tolerate scammers preying on District residents who worked hard to get an education and are now struggling to repay their student loans," Racine said, and his office continues to direct borrowers toward the Department of Education and its own free Student Loan Resource Page rather than any company demanding payment before it will even discuss a borrower's loans.`,
+    categorySlug: 'debt-relief-scams',
+    country: 'US',
+    state: 'DC',
+    isHistorical: true,
+    firstRecorded: '2017-12-04',
+    sources: ['Office of the Attorney General for the District of Columbia', 'Federal Trade Commission'],
+    sourceUrl: 'https://oag.dc.gov/release/ag-racine-wins-judgment-more-425k-company-running',
+  },
+  {
+    name: 'Noble Foundation "BIPOC Communities" Charity Embezzlement Scheme',
+    slug: 'washington-vancouver-noble-foundation-charity-fraud',
+    description: `Ophelia Noble founded the Noble Foundation and related nonprofits — including Our Place/Nuestra Casa Multicultural Center and Southwest Washington Communities United for Change — in Vancouver, Washington in 2012, soliciting roughly $1.5 million from private foundations by promising the money would advance racial equity and serve Black, Indigenous, and other communities of color. Washington Attorney General Bob Ferguson's office alleged that beginning in 2019 Noble instead diverted approximately $1 million in donated funds for personal enrichment, including a $355,000 "back pay" payment to herself with no supporting documentation, $310,000 in consulting fees routed to her own company, roughly $200,000 in unexplained cashier's-check withdrawals, and a real estate scheme that netted about $224,000, with her father Douglas Noble, mother Alice Prejean, daughter Alyce Noble, and associate Joann Hampton also named as defendants. Ferguson's office sued in Clark County Superior Court on September 12, 2023, and the court entered a $1.4 million judgment on November 13, 2024 — an immediate $25,000 payment plus roughly $400,000 from forced sale of a house and vehicle bought with the misappropriated money, with the remaining $1 million suspended so long as the defendants comply — while permanently banning Ophelia Noble and barring the other defendants for ten years from operating or managing any charity in Washington. "My office will continue to be a watchdog ensuring that charities follow the law," Ferguson said, and the case underscores how privately funded nonprofits can have far weaker financial oversight than publicly funded ones, letting a trusted founder redirect donations meant for a community cause into her own household for years before anyone caught it.`,
+    categorySlug: 'charity-scams',
+    country: 'US',
+    state: 'WA',
+    isHistorical: true,
+    firstRecorded: '2023-09-12',
+    sources: ['Washington State Office of the Attorney General', 'The Columbian'],
+    sourceUrl: 'https://www.atg.wa.gov/news/news-releases/ag-ferguson-wins-14m-judgment-against-vancouver-area-charity-directors-who',
+  },
+  {
+    name: 'Fake St. Louis Veterinarian Romance Scam (Rotimi Oladimeji)',
+    slug: 'missouri-oladimeji-veterinarian-romance-scam',
+    description: `A scammer found a St. Louis-area woman on the dating site Silver Singles and, posing as a Belgian veterinarian and animal behaviorist supposedly living in St. Louis, spent months building an online relationship with her — including making plans to meet in person that never materialized, once leaving her waiting alone at the Missouri Botanical Garden. In October 2019 the fake veterinarian told her he was traveling to Dubai for a business deal and would not be allowed to leave the country unless she wired money, the first of a long series of four- and five-figure requests that ultimately drained nearly $1.17 million from her. Rotimi Oladimeji, 38, of Richardson, Texas, helped run the scheme with co-conspirators Olumide Akirinmade and Adewale Adesanya, directing the victim to send cash and cashier's checks by FedEx to Akirinmade's Texas home; Oladimeji personally kept about 20 percent of the take, money mules kept another 20 percent, and the rest went to scammers based in Nigeria. He pleaded guilty in December 2022 to two counts of mail fraud, two counts of wire fraud, and one count of conspiracy to commit mail and wire fraud, and a federal judge in the Eastern District of Missouri sentenced him on December 20, 2023 to three years in prison and ordered full restitution; Adesanya received four years and $1.5 million in restitution, while Akirinmade received 15 months and owed $46,500. The U.S. Attorney's Office for the Eastern District of Missouri points to the case as a textbook pig-butchering-style pattern: a romantic partner met exclusively online who repeatedly finds reasons they cannot meet in person before eventually needing an urgent wire transfer to resolve a manufactured crisis.`,
+    categorySlug: 'romance-scams',
+    country: 'US',
+    state: 'MO',
+    isHistorical: true,
+    firstRecorded: '2019-10-01',
+    sources: ["U.S. Attorney's Office for the Eastern District of Missouri", 'NBC News', 'CBS News'],
+    sourceUrl: 'https://www.justice.gov/usao-edmo/pr/romance-scammer-who-helped-steal-nearly-12-million-missouri-woman-sentenced-3-years',
   },
 );
 
