@@ -37350,6 +37350,46 @@ Egypt's Ministry of Interior announced on February 24, 2025, that it had arreste
   },
 );
 
+// Three new, real, sourced cases added to the four states tied for fewest
+// SEED_SCAMS entries (FL, MA, NY, PA all at 9) — one each for FL, NY, and
+// PA, each covering a category and mechanism not already represented for
+// that state (verified against every existing FL/NY/PA entry before adding).
+SEED_SCAMS.push(
+  {
+    name: 'Marion County "Romance-Turned-Investment" Crypto Fraud Recovery',
+    slug: 'florida-marion-county-romance-turned-investment-crypto-recovery',
+    description: `Florida Attorney General James Uthmeier and Marion County Sheriff Billy Woods announced on April 14, 2026 that the Attorney General's Office of Statewide Prosecution's Cyber Fraud Enforcement Unit (CFEU) had recovered $5.4 million in stolen cryptocurrency from a "romance-turned-investment" scam network — the largest single statewide recovery of its kind — after an investigation that began with one victim's complaint and expanded to identify victims across six Florida counties plus Massachusetts. The scheme follows a "pig butchering" pattern: a scammer builds an ordinary-seeming romantic relationship with a target on a dating website over weeks or months, disproportionately targeting seniors, before introducing a cryptocurrency "investment opportunity" and steering the victim into moving savings into digital assets that the scammer actually controls. One Ocala man in Marion County had lost more than $450,000 this way and had never even filed a police report, believing the money was gone for good, when detectives arrived at his home to tell him it had been recovered. Of the $5.4 million clawed back through blockchain tracing and seizure of the scammers' digital wallets, $700,000 is being returned to Florida victims and $1.3 million to victims in Massachusetts, with Uthmeier noting the CFEU had recovered a quarterly-record $3.3 million in the first three months of 2026 alone. "Our office made it a priority to recover as much money as possible from cyber criminals and return it to victims," Uthmeier said. Anyone who meets someone on a dating site or app who later raises a cryptocurrency investment, especially one promising guaranteed or fast returns, should treat that pivot itself as the warning sign, and should report a suspected romance-investment scam to Florida's CFEU through the Attorney General's Office at MyFloridaLegal.com even if — like the Ocala victim — they assume the money is unrecoverable.`,
+    categorySlug: 'romance-scams',
+    country: 'US',
+    state: 'FL',
+    alertLevel: 'high',
+    sources: ['Florida Office of the Attorney General — Office of Statewide Prosecution, Cyber Fraud Enforcement Unit', 'FOX 35 Orlando', 'Hoodline'],
+    sourceUrl: 'https://www.myfloridalegal.com/newsrelease/attorney-general-james-uthmeier-announces-historic-crypto-fraud-recovery-returns-record',
+  },
+  {
+    name: 'Healing for Heroes Veterans Charity Fraud Lawsuit',
+    slug: 'new-york-healing-for-heroes-veterans-charity-fraud',
+    description: `New York Attorney General Letitia James sued Healing for Heroes — A Disabled Veteran's Retreat and its affiliated property-holding company, Wooded Oasis, Inc., on August 12, 2026, along with the charity's Board President Thomas Nelsen and Board Secretary/Treasurer Jennifer Milchanoski-Nelsen, alleging the Bemus Point, Chautauqua County organization defrauded donors who believed they were funding free retreats for disabled veterans. Founded in 2024 and marketed as offering "100 percent" of donations directly to veterans, the charity had in fact hosted only four retreats, all serving board members and their own friends and family rather than the veterans it solicited money to help, according to James's office. The investigation found the Nelsens rented the charity's 30-acre property out on Airbnb at least 32 times in 2024 and 2025 while telling the public the proceeds would benefit veterans, then kept at least $33,312.16 of that rental income personally; of the nearly $100,000 the charity raised in donations overall, roughly half went to the Nelsens' own bathroom renovations, deck construction, personal shopping, meals, and vehicle repairs and gas rather than to any veteran. The lawsuit also alleges the charity solicited donations illegally before registering with the state and kept inadequate records of donated materials and vehicles. James is asking a court to dissolve Healing for Heroes and Wooded Oasis, distribute their remaining assets to legitimate veterans' charities, permanently bar the Nelsens from soliciting funds or holding a leadership role at any New York charity again, and impose civil penalties of up to $1,000 per violation of state charity law and $5,000 per violation of the state's Fair Business Practices Act. Before donating to any veterans' charity, prospective donors can verify its registration and finances for free through the New York Attorney General's Charities Bureau search tool (CharitiesNYS.com) rather than relying on a group's own claims about how donations are spent.`,
+    categorySlug: 'charity-scams',
+    country: 'US',
+    state: 'NY',
+    alertLevel: 'medium',
+    sources: ["New York Attorney General's Office", 'Spectrum News', 'Hoodline'],
+    sourceUrl: 'https://ag.ny.gov/press-release/2026/attorney-general-james-sues-purported-veterans-charity-defrauding-donors',
+  },
+  {
+    name: 'Lititz ATM and Crypto-Teller Ponzi Scheme (Daryl Heller)',
+    slug: 'pennsylvania-lititz-daryl-heller-atm-crypto-ponzi-scheme',
+    description: `Daryl Heller, 56, of Lititz, Pennsylvania, controlled and was the majority owner of several Lancaster County companies — Paramount Management Group, LLC, Heller Capital Group, LLC, and Prestige Investment Group, LLC — that he used to raise roughly $770 million from about 2,700 investors between 2017 and 2024, pitched as funding the purchase and operation of physical ATMs and cryptocurrency teller machines ("BTMs") in exchange for guaranteed monthly returns. Prosecutors say Heller's sales network specifically courted Pennsylvania's Amish and Mennonite communities, drawing on Heller's own family ties to Mennonite pastors and using local intermediaries and the Pennsylvania Dutch language to build trust inside those close-knit religious groups, with investment increments commonly set at $52,000, $104,000, or $120,000. Rather than actually buying ATMs and BTMs as promised, a substantial share of investor funds was instead used to pay the promised monthly returns owed to earlier investors — the defining structure of a Ponzi scheme — while Heller also used forged or fraudulent financial documents to inflate the apparent health of his businesses and diverted money to his own personal expenses and other business debts. After being indicted in September 2025, Heller pleaded guilty on August 10, 2026 in the U.S. District Court for the Eastern District of Pennsylvania to a single count of securities fraud, with prosecutors dropping four wire-fraud counts under the plea agreement; U.S. District Judge Catherine Henry is scheduled to sentence him on December 1, 2026, with a maximum possible sentence of 20 years in prison, and prosecutors say investors are owed roughly $402 million in unpaid principal. The case illustrates affinity fraud layered onto a Ponzi structure: a scheme run in the investor's own community, in the investor's own dialect, by someone with real standing inside it — a reminder that a guaranteed monthly return on any investment, physical ATM businesses included, is a red flag regardless of who is offering it or how well they are vouched for locally.`,
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    state: 'PA',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office for the Eastern District of Pennsylvania", 'The Philadelphia Inquirer', 'Amish America'],
+    sourceUrl: 'https://www.justice.gov/usao-edpa/pr/lancaster-county-man-pleads-guilty-connection-massive-investment-fraud-scheme',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
