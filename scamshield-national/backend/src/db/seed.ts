@@ -10431,6 +10431,47 @@ CytoDyn's collapse from pandemic-era retail-investor darling to federal fraud co
   },
 );
 
+NOTORIOUS_ARTICLES.push(
+  {
+    title: 'John Jay Kersey, the Northwestern Mutual Advisor Who Ran a 20-Year Ponzi Scheme on Friends and Family',
+    slug: 'john-jay-kersey-northwestern-mutual-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-sdoh/pr/former-financial-advisor-sentenced-5-years-prison-running-86m-ponzi-scheme',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Downtown_Cincinnati_skyline_at_night.jpg?width=1200',
+    coverImageCredit: 'Photo: EEJCC, Wikimedia Commons (CC0) — downtown Cincinnati, Ohio, where John Jay Kersey was sentenced in federal court',
+    coverImagePosition: 50, // representative photo — replace with a portrait if found
+    body: `John Jay Kersey, of Maineville, Ohio, spent 22 years as a financial advisor with Northwestern Mutual, building exactly the kind of reputation that makes a Ponzi scheme possible: friends and relatives trusted him with their savings precisely because he wasn't a stranger. According to federal prosecutors in the Southern District of Ohio, Kersey used that trust to steal $8.6 million from those same friends and relatives over a 20-year span, from 2003 through 2023.
+
+The mechanics were simple and required no exotic investment product at all. Kersey convinced his clients to move their existing investments out of his company and into other funds he claimed to control, then simply kept the money for himself. Prosecutors said he spent it paying down his own credit card bills, covering his insurance premiums, and putting a down payment on real estate — and, when the scheme needed to keep running, he used newer clients' money to pay off earlier ones, the same rob-Peter-to-pay-Paul mechanic underlying every Ponzi scheme since Charles Ponzi's own. To keep clients from asking questions, Kersey provided false financial summaries, fictitious bank account numbers, and fabricated charts and graphs designed to show steady, positive returns on investments that no longer existed.
+
+Court documents describe Kersey targeting people at some of the most vulnerable moments of their lives. In one instance, after a client's spouse died, Kersey personally assured the grieving widow that he would take care of her finances going forward — while, in reality, he had already stolen her funds and spent them on himself. Northwestern Mutual barred Kersey from the industry in February 2024 after he failed to respond to the firm's information requests, by which point his clients' losses had been accumulating for two decades.
+
+Kersey was charged federally by bill of information in June 2025 and pleaded guilty that same month to wire fraud. On April 7, 2026, Senior U.S. District Judge Susan J. Dlott sentenced him in Cincinnati to 60 months in federal prison. U.S. Attorney Dominick S. Gerace II and FBI Cincinnati Special Agent in Charge Jason Cromartie announced the sentence, with Deputy Criminal Chief Emily N. Glatfelter prosecuting the case for the government.
+
+Kersey's two decades of undetected theft is a reminder that a Ponzi scheme doesn't need a stranger, a slick pitch deck, or a promise of exotic returns to survive for years — it can just as easily be run by the trusted advisor a family has used for a generation, propped up by paperwork that looks routine and account statements no one thought to double-check, until the day the money someone was told they had simply isn't there.`,
+  },
+  {
+    title: 'Stefano Zanetti, the Extradited Ringleader of a Multi-Million-Dollar "Grandparent Scam" Network',
+    slug: 'stefano-zanetti-grandparent-scam-elder-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-wdpa/pr/canadian-man-sentenced-more-15-and-half-years-prison-lead-role-multi-million-dollar',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Downtown_Pittsburgh_from_the_Andy_Warhol_bridge_(17156101718).jpg?width=1200',
+    coverImageCredit: 'Photo: J Yochem, Wikimedia Commons (CC BY-SA 2.0) — downtown Pittsburgh, where Stefano Zanetti was sentenced for leading an elder fraud scheme',
+    coverImagePosition: 50, // representative photo — replace with a portrait if found
+    body: `Stefano Zanetti, a 44-year-old Canadian citizen, led a "grandparent scam" network that federal prosecutors say inflicted between $1.5 million and $3.5 million in losses on elderly victims in Pittsburgh and across the United States. The scheme followed a script familiar to anyone who has read a fraud-prevention pamphlet, yet remains devastatingly effective in practice: callers working for Zanetti contacted elderly victims and falsely claimed that a family member — usually a grandchild — had been detained in connection with a legal proceeding and urgently needed cash for bail.
+
+Victims who believed the story were instructed to withdraw the money in cash and hand it directly to a "courier" who would come to their home to collect it. No grandchild had actually been arrested; the "courier" was simply another member of the conspiracy, sent to physically retrieve the payout before the victim had a chance to verify anything. In September 2021 and again in February 2022, three-man crews reporting directly to Zanetti traveled to Pittsburgh specifically to run the scheme and collect cash from victims in person, while a separate indictment out of the District of Vermont charged 25 Canadian nationals connected to the call centers that generated the leads and made the initial calls.
+
+All six of the crew members who traveled to Pittsburgh — Roderick Feurtado, Tarek Bouanane, Roberto Gutierrez, Hector Enrique Escorihuela Gil, Yhonlester Wuiler Manuel Da Silva Quintero, and Adrian Orozco Perez — were convicted and sentenced to prison. Two more men who helped Zanetti direct the scheme from abroad, Samuel David Ferrer Avila and Cesar Javier Chourio Morante, were extradited from Panama and convicted alongside him. Zanetti himself was also extradited from Panama by the Justice Department's Office of International Affairs, a reminder that running an operation from outside U.S. borders is no longer the safe harbor it once was.
+
+Through his plea agreement, Zanetti accepted responsibility for the full $1.5 million to $3.5 million range of victim losses and pleaded guilty to conspiracy to commit wire fraud and conspiracy to commit money laundering. On May 4, 2026, U.S. District Judge J. Nicholas Ranjan sentenced him to 188 months — more than 15 and a half years — in federal prison, plus a $35,000 fine and $780,870 in restitution. Before imposing the sentence, Judge Ranjan noted that Zanetti had "perfect knowledge" of the scheme's many moving parts and stressed the emotional and financial toll it took on its elderly victims. U.S. Attorney Troy Rivetti, whose office prosecuted the case with Homeland Security Investigations, the Pennsylvania State Police, and the Bethel Park Police Department, said Zanetti and his co-conspirators "inflicted severe financial and emotional injury upon numerous elderly victims and their families through this scheme."
+
+The grandparent scam endures precisely because it exploits a grandparent's instinct to act first and verify later when a grandchild's freedom seems to be on the line. Anyone who receives a call like this should hang up and independently contact the family member in question directly — through a number they already have, not one the caller provides — before withdrawing a single dollar or handing cash to anyone who shows up at the door.`,
+  },
+);
+
 // Practical "how it works / red flags / what to do" guides covering the
 // major scam categories, the same kind of coverage the FTC's Consumer
 // Advice site and AARP's Fraud Watch Network publish — well-documented
