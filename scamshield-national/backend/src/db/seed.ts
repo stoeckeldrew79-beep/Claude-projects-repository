@@ -40093,6 +40093,39 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'CLAE Pyramid Scheme (Carlos Manrique)',
+    slug: 'peru-clae-pyramid-scheme-carlos-manrique',
+    description: `Carlos Manrique founded Centro Latinoamericano de Asesoría Empresarial (CLAE) in Lima as an unregulated financial company that took deposits from ordinary Peruvians and paid interest as high as 20 percent a year, versus roughly 6 percent at conventional banks — a gap CLAE never explained with any real underlying business, because there wasn't one; new depositors' money was simply used to pay the promised returns to earlier ones. The scheme found its widest audience during Peru's early-1990s recession, when tens of thousands of workers laid off amid the economic crisis invested their severance payments in CLAE, and many came to depend on its interest checks to live. By the time Peru's government intervened in April 1993 and declared the unlicensed company insolvent, Associated Press reporting put the losses at roughly $350 million taken from about 160,000 depositors — though the intervention was so unpopular that some 100,000 of Manrique's own investors rallied in a downtown Lima plaza to defend him. Manrique fled the country on an illegal passport once Peruvian authorities, having found deposits they could not account for, ordered his arrest in February 1994; he was captured leaving a bank in Miami on October 31, 1994, extradited to Peru in 1995, and ultimately served part of an eight-year sentence for fraud before his release in 2001. "That money was the product of our hard work... now we have nothing," one investor who lost $5,000 told the AP — a reminder that an unlicensed investment paying far more than regulated banks offer is not a better deal, it's usually the first sign that the "interest" being paid out is just other depositors' own principal.`,
+    categorySlug: 'investment-fraud',
+    country: 'PE',
+    isHistorical: true,
+    sources: ['Associated Press (via The Seattle Times)'],
+    sourceUrl: 'https://archive.seattletimes.com/archive/?date=19941116&slug=1942158',
+  },
+  {
+    name: 'Peru Call-Center "English Course" Government-Impersonation Scam',
+    slug: 'peru-english-course-call-center-impersonation-scam',
+    description: `Call centers run out of Lima spent years placing internet-based calls to Spanish-speaking consumers across the United States, using caller-ID spoofing so the number looks trustworthy or official, and posing as universities, "Hispanic help centers," court officials, police, attorneys, or federal agents. Callers told victims they'd been approved for a free or subsidized English-language course, then demanded "storage," processing, or enrollment fees before the promised materials could be shipped; anyone who balked or asked for a refund was threatened with a lawsuit, arrest, or immigration consequences if they didn't pay. The U.S. Department of Justice has prosecuted the operation as a single sprawling conspiracy spanning more than a dozen defendants, extraditing one Peruvian national after another from Lima to face charges in the Southern District of Florida. David Cornejo Fernandez, who supplied the call centers with spoofed phone lines, call-recording tools, and replacement numbers whenever a line got reported and cut off, pleaded guilty in July 2025 to conspiracy to commit mail and wire fraud; prosecutors said the scheme he helped run caused more than $3 million in losses to more than 8,800 identified victims, out of a broader conspiracy DOJ says defrauded more than 30,000 consumers nationwide, and a federal judge sentenced him to 80 months in prison plus $3 million in restitution. A separate defendant extradited in the same investigation, Carla Magaly Alcedo Mendoza, was indicted over a version of the scheme that ran from January 2013 to December 2018. The pattern is consistent across the conspiracy: a call that already sounds official, a small fee standing between the victim and something they're told they've already won or qualified for, and an escalating threat the moment they hesitate to pay — a legitimate university, government agency, or law firm will never demand a fee by phone to release a prize or course you supposedly already qualify for, and will never threaten immediate arrest for not paying on the spot.`,
+    categorySlug: 'government-impersonation',
+    country: 'PE',
+    alertLevel: 'critical',
+    sources: ['U.S. Department of Justice', 'U.S. Attorney’s Office for the Southern District of Florida'],
+    sourceUrl: 'https://www.justice.gov/opa/pr/peruvian-national-sentenced-more-6-years-prison-transnational-scheme-defraud-spanish',
+  },
+  {
+    name: 'Fake Digital Loan Application Bank-Phishing Campaign',
+    slug: 'peru-fake-digital-loan-phishing-campaign',
+    description: `Starting in 2024, threat intelligence firm Group-IB tracked a large-scale phishing campaign built around fake "digital loan" application pages impersonating one of Peru's leading banks, driven by roughly 35 social media ads promising a fast, easy loan. A victim who clicked through was walked step by step through what looked like a genuine application: enter your national ID (DNI) number, pick a loan amount, then verify your identity — except the "facial recognition" verification step was built to fail every single time, funneling every visitor onto an alternate "manual verification" path that asked for a credit card number (checked in real time with the Luhn checksum algorithm so only working card numbers were accepted), an online banking password, and a 6-digit PIN. Once all of it was harvested, the victim was quietly redirected to the real bank's legitimate website, with nothing on screen to suggest anything had gone wrong. Group-IB identified at least 370 unique phishing domains tied to this and related campaigns, at least 16 of them impersonating the same Peruvian bank, and found the underlying kit had already been adapted to target banks in Colombia, Chile, Ecuador, and El Salvador as well. Because the flow mimics a real loan application so closely — and because failing "facial verification" feels like an ordinary tech hiccup rather than a warning sign — anyone applying for a loan online should go directly through their bank's own app or verified website rather than an ad, and should treat any loan process that asks for a card PIN or online banking password, which no legitimate lender needs to approve a loan, as a clear sign of fraud.`,
+    categorySlug: 'phishing',
+    country: 'PE',
+    alertLevel: 'high',
+    sources: ['Group-IB'],
+    sourceUrl: 'https://www.group-ib.com/blog/peru-digital-loan-scam/',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
