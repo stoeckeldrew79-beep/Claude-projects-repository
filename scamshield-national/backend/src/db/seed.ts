@@ -41190,6 +41190,43 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'Arkansas Toll Road Text Scam',
+    slug: 'arkansas-toll-road-smishing-text-scam',
+    description: `Arkansans have repeatedly received text messages claiming to be from a toll service provider, warning of an unpaid toll fee and pressuring the recipient to click a link and enter card details to avoid late penalties — even though Arkansas has no toll roads at all, which by itself exposes the message as fraudulent. The Arkansas Attorney General's Office first flagged the scheme in 2024 and issued a renewed consumer alert on February 27, 2025 after it resurfaced statewide, with Attorney General Tim Griffin describing it as a "smishing" scam (a blend of SMS and phishing) designed to harvest personal and payment information through urgency and a fabricated deadline. The office advised recipients not to click the link or reply, to report the text using the robocall reporting form on the Attorney General's website, and to never send payment to an entity that has only ever contacted them by text.`,
+    categorySlug: 'phishing',
+    country: 'US',
+    state: 'AR',
+    alertLevel: 'medium',
+    sources: ['Arkansas Attorney General'],
+    sourceUrl: 'https://arkansasag.gov/news-release/consumer-alert-toll-road-scam-resurfaces/',
+  },
+  {
+    name: 'Wichita-Area Oil Rig Romance Scam (Heistand Case)',
+    slug: 'kansas-wichita-oil-rig-romance-scam-heistand',
+    description: `In 2020, a 74-year-old recently widowed woman in the Wichita area was contacted on Facebook by someone using the name "Victor Patrick," who said he worked on an oil rig in the Gulf and could not meet in person until he retired. Over months of online contact, "Patrick" built a romantic relationship with the widow and then asked for money, directing her to send it to a South Carolina woman, Kathy Heistand, who he said would pass the funds along to him. The widow sent six cashier's checks made payable to Heistand totaling $532,000 before the scheme was uncovered. Sedgwick County prosecutors charged Heistand, then 68, with mistreatment of an elder person and theft; she pleaded guilty in May 2021, and prosecutors recommended probation with restitution given her lesser role in the fraud and her cooperation in the investigation targeting the still-unidentified "Patrick." The Sedgwick County District Attorney's Office pointed to the case as a warning that romance scammers frequently invent remote, hard-to-verify jobs — oil rigs, overseas military deployments, offshore construction — specifically to explain away video calls and in-person meetings, and that any online partner who asks for money funneled through a third party should be treated as a red flag regardless of how long the relationship has developed.`,
+    categorySlug: 'romance-scams',
+    country: 'US',
+    state: 'KS',
+    isHistorical: true,
+    firstRecorded: '2020-01-01',
+    sources: ['Sedgwick County District Attorney', 'KSN News'],
+    sourceUrl: 'https://www.ksn.com/news/crime/romance-scams-sedgwick-county-district-attorney-shares-warning-after-local-person-bilked-of-482k/',
+  },
+  {
+    name: 'Mississippi Lottery Fake App Impersonation Scam',
+    slug: 'mississippi-lottery-fake-app-impersonation-scam',
+    description: `Fraudulent mobile apps and social media posts have circulated claiming to let users buy Mississippi Lottery tickets or scratch-offs online, even though the Mississippi Lottery Corporation has no app and does not sell tickets online at all — tickets are only available in person through authorized retailers. The Mississippi Lottery Corporation issued a public warning in September 2025 after players reported encountering these fake apps, cautioning that they are designed to steal personal and financial information and can charge a victim's credit card without ever delivering a real ticket. The warning built on the corporation's longstanding scam-alert guidance that it never contacts winners directly, never asks a winner to pay taxes or fees upfront to release a prize, and does not authorize any foreign lottery operating in the United States. Mississippians who encounter a suspected fake app, email, or call claiming to be from the Mississippi Lottery are directed to report it to the Mississippi Attorney General's Office, Consumer Protection Division, or to the Lottery's own customer service line.`,
+    categorySlug: 'lottery-sweepstakes-scams',
+    country: 'US',
+    state: 'MS',
+    alertLevel: 'medium',
+    sources: ['Mississippi Lottery Corporation', 'LotteryUSA'],
+    sourceUrl: 'https://www.mslottery.com/players/fraud-and-scam-alerts/',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
