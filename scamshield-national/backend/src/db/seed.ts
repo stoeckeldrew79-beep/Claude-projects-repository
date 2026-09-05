@@ -7718,8 +7718,8 @@ Moon's case remains a rare instance of a religious founder's personal finances b
     title: 'Vincent Lacroix and the Norbourg Scandal: How $130 Million Vanished From 9,200 Quebec Investors',
     slug: 'vincent-lacroix-norbourg-scandal-quebec',
     author: 'ScamShield Editorial',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Montreal_-_QC_-_Skyline.jpg?width=1200',
-    coverImageCredit: 'Photo: Wladyslaw (Taxiarchos228), Wikimedia Commons (CC BY 3.0) — the Montreal skyline, home to the Norbourg Financial Group offices raided in the fraud investigation',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Palais_de_Justice_de_Montreal_10.JPG?width=1200',
+    coverImageCredit: 'Photo: Jeangagnon, Wikimedia Commons (CC BY-SA 3.0) — the Palais de Justice de Montréal, the Quebec courthouse where Vincent Lacroix\'s Norbourg case was tried',
     coverImagePosition: 50,
     // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
@@ -8309,8 +8309,8 @@ The scandal did lasting damage well beyond Aramony himself: United Way of Americ
     slug: 'peter-young-morgan-grenfell-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Old_Bailey_October_2022.jpg?width=1200',
-    coverImageCredit: 'Photo: Nick-D, Wikimedia Commons (CC BY-SA 4.0) — the Old Bailey in London, where the "trial of the facts" over Peter Young\'s conduct at Morgan Grenfell was held',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Central_Criminal_Court,_Old_Bailey_-_geograph.org.uk_-_2503473.jpg?width=1200',
+    coverImageCredit: 'Photo: Stephen Richards, Wikimedia Commons (CC BY-SA 2.0) — the Old Bailey (Central Criminal Court) in London, where the "trial of the facts" over Peter Young\'s conduct at Morgan Grenfell was held',
     coverImagePosition: 50,
     // representative photo — replace with a portrait if found
     body: `Peter Young ran two of the largest European unit trusts in Britain — the Morgan Grenfell European Growth Trust and Morgan Grenfell European Capital Growth Trust, part of Deutsche Bank's asset-management arm — and for years produced returns that made him one of the City of London's star fund managers. In September 1996, Morgan Grenfell fired him after discovering that his funds' performance was resting on something regulators had never approved: a hidden pile of unlisted, illiquid shares stretched across a web of holding companies, some of them registered in Luxembourg, that Young himself had quietly set up and controlled.
