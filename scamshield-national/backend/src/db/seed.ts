@@ -10642,6 +10642,7 @@ If you see one of these pop-ups: close the browser without calling the number (f
     author: 'ScamShield Editorial',
     tags: ['guide', 'government-impersonation'],
     coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/The_Internal_Revenue_Service_Building,_located_in_the_center_of_the_Federal_Triangle_complex_in_Washington,_D.C_LCCN2013634106.jpg?width=1200',
+    coverImageCredit: 'Photo: Carol M. Highsmith, Library of Congress (Public Domain) — the Internal Revenue Service headquarters building in Washington, D.C., one of the agencies scammers most often impersonate',
     coverImagePosition: 50,
     sourceUrl: 'https://consumer.ftc.gov/articles/how-avoid-government-impersonation-scam',
     body: `A caller claims to be from the IRS, the Social Security Administration, or local police, and says something is seriously wrong: unpaid taxes, a suspended Social Security number, an outstanding warrant. The tone is urgent and threatening — arrest, deportation, frozen bank accounts — and the caller insists the only way to resolve it immediately is a specific, unusual form of payment: gift cards, a wire transfer, or increasingly, in-person cash pickup by a courier.
@@ -10658,6 +10659,7 @@ If you get one of these calls: hang up. Do not call back any number the caller p
     author: 'ScamShield Editorial',
     tags: ['guide', 'business-email-compromise'],
     coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Man_typing_on_laptop_(Unsplash).jpg?width=1200',
+    coverImageCredit: 'Photo: Alejandro Escamilla (CC0) — a laptop and smartphone on a desk, the entry point for the phishing emails behind business email compromise',
     coverImagePosition: 50,
     // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.ic3.gov/CrimeInfo/BEC',
@@ -10742,6 +10744,7 @@ If you get one of these texts: don't click the link. If you want to check on an 
     author: 'ScamShield Editorial',
     tags: ['guide', 'employment-fraud'],
     coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Blank_check.jpg?width=1200',
+    coverImageCredit: 'Photo: Mario Lurig (CC0) — a blank check, the type of fraudulent overpayment check used in fake remote-job scams',
     coverImagePosition: 50,
     sourceUrl: 'https://consumer.ftc.gov/articles/how-spot-avoid-and-report-fake-check-scams',
     body: `A job offer arrives — often for flexible, well-paid remote work — sometimes after only a brief chat interview, or no interview at all beyond a text exchange. The role is vague ("personal assistant," "mystery shopper," "payment processor"), the pay is generous relative to the minimal qualifications required, and the "employer" quickly sends a check, often for more than an agreed advance or equipment stipend, asking the new hire to deposit it and wire back the difference, or to use it to purchase equipment from a specific vendor.
@@ -10967,6 +10970,7 @@ Before sending any money, insist on seeing the unit in person or via a live vide
     author: 'ScamShield Editorial',
     tags: ['guide', 'ai-voice-cloning'],
     coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Smartphone_in_Hand_(Unsplash).jpg?width=1200',
+    coverImageCredit: 'Photo: NeONBRAND (CC0) — a smartphone held to take a call, the medium scammers use to deliver an AI-cloned voice',
     coverImagePosition: 50,
     // representative photo — replace with an exact match if found
     sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2023/03/scammers-use-ai-enhance-their-family-emergency-schemes',
@@ -10984,6 +10988,7 @@ The FTC's core advice is to never trust the voice alone: hang up and call the pe
     author: 'ScamShield Editorial',
     tags: ['guide', 'sextortion'],
     coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/USB_webcam_for_PC.jpg?width=1200',
+    coverImageCredit: 'Photo: WrS.tm.pl (CC0) — a USB webcam, the kind of device sextortion scammers falsely claim was hijacked to record victims',
     coverImagePosition: 50,
     // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.ic3.gov/PSA/2023/psa230605',
@@ -11019,6 +11024,7 @@ The clearest warning signs are a demand for payment before any service is perfor
     author: 'ScamShield Editorial',
     tags: ['guide', 'medicare-scams'],
     coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/New_US_Medicare_Card_Sample_2018.jpg?width=1200',
+    coverImageCredit: 'Photo: Medicare.gov, U.S. government (Public Domain) — a sample of the redesigned Medicare card, the number scammers target',
     coverImagePosition: 50,
     sourceUrl: 'https://www.aarp.org/money/scams-fraud/most-common-medicare-scams/',
     body: `Someone claiming to be from Medicare calls offering a "new" or "upgraded" card, or shows up at a health fair with a "free" knee brace, glucose monitor, or genetic testing kit — in every version, the actual product or paperwork is beside the point. What the scammer is really after is the beneficiary's Medicare number itself, because that number alone is enough to bill Medicare directly for services, equipment, or tests that were never actually provided. As one Senior Medicare Patrol director described a genetic-testing scheme, the scammers "would just discard the swabs and use the Medicare number" — the swab was never going to a lab at all.
@@ -11052,6 +11058,7 @@ The clearest warning signs are any request for payment before work is done, inst
     author: 'ScamShield Editorial',
     tags: ['guide', 'identity-theft'],
     coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Californian_sample_driver%27s_license,_c._2019.jpg?width=1200',
+    coverImageCredit: "Photo: California DMV (Public Domain) — a sample driver's license, the kind of document identity thieves exploit",
     coverImagePosition: 50,
     sourceUrl: 'https://consumer.ftc.gov/articles/what-know-about-identity-theft',
     body: `Identity theft happens when someone uses personal information — a name, Social Security number, date of birth, address, or account numbers — without permission. That single piece of stolen information can be used in two fundamentally different ways, and understanding the difference matters for spotting each one: existing-account fraud, where a thief uses a card or bank account someone already has, showing up as unauthorized charges or withdrawals on statements a victim already checks; and new-account fraud, where a thief opens something entirely new in the victim's name — a credit card, a utility or phone account, or even a job — using stolen information the victim never sees on any bill they're already reviewing.
@@ -11104,6 +11111,7 @@ The FTC's advice is blunt: hang up. Don't press any number, since doing so can c
     author: 'ScamShield Editorial',
     tags: ['guide', 'lottery-sweepstakes'],
     coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Mega_Millions_lottery_tickets.JPG?width=1200',
+    coverImageCredit: 'Photo: Lieutenant Ramathorn (CC0) — real Mega Millions lottery tickets, the game scammers invoke in fake prize notifications',
     coverImagePosition: 50,
     sourceUrl: 'https://consumer.ftc.gov/articles/fake-prize-sweepstakes-and-lottery-scams',
     body: `A call, text, email, or letter announces that you've won a prize — a new car, an iPad, a cash jackpot, sometimes a specific lottery like Publishers Clearing House or a foreign national lottery. To collect it, you're told, you first need to pay something: "taxes," "insurance," "shipping and handling," or "customs duties" on a prize you supposedly already won. Some versions have a scammer falsely claiming to call from the Federal Trade Commission itself, telling the victim that paying a one-time fee for "taxes and insurance" is all that stands between them and the winnings.
@@ -11137,6 +11145,7 @@ If you get a call like this, hang up and contact your utility directly using the
     author: 'ScamShield Editorial',
     tags: ['guide', 'card-skimming'],
     coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/NS_skimapparaat.jpg?width=1200',
+    coverImageCredit: 'Photo: Paul Wiegmans (Public Domain) — a card-skimming device attached to a payment terminal, the kind used to steal card data',
     coverImagePosition: 50,
     sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2018/08/watch-out-card-skimming-gas-pump',
     body: `A skimmer is a small illegal card reader that criminals secretly attach inside or over a legitimate card slot at a gas pump, ATM, or point-of-sale terminal, capturing your card's magnetic stripe data the moment you swipe or insert it. A hidden pinhole camera or a fake keypad overlay often captures your PIN at the same time, giving thieves everything needed to clone your card or drain an account without ever touching your physical wallet.
@@ -11241,6 +11250,7 @@ The CFPB's core advice is to establish two trusted contacts — typically the re
     author: 'ScamShield Editorial',
     tags: ['guide', 'home-title-theft'],
     coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Morrish_deed_for_property_in_the_Anclote_area_near_Tarpon_Springs.jpg?width=1200',
+    coverImageCredit: 'Photo: Tarpon Springs Public Library Collections (Public Domain) — a 1915 property deed, the type of document at the center of home title theft',
     coverImagePosition: 50,
     sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2024/08/home-title-lock-insurance-not-lock-all',
     body: `Home title theft, also called deed fraud, is a form of identity theft where a criminal forges a homeowner's signature on a deed — often a quitclaim deed, chosen specifically because it requires no title warranty and draws less scrutiny when filed — and records it with the county, making it look, on paper, like the real owner willingly transferred the property away. From there, the scammer can sell the home to an unsuspecting buyer, borrow against it as collateral, or rent it out, while the actual owner may have no idea anything happened until a tax bill, a for-sale sign, or a stranger at the door tips them off.
@@ -11274,6 +11284,7 @@ The clearest rule, straight from the FTC: never send money based on funds from a
     author: 'ScamShield Editorial',
     tags: ['guide', 'synthetic-identity-theft'],
     coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Social_Security_card.jpg?width=1200',
+    coverImageCredit: 'Photo: Social Security Administration (Public Domain) — a Social Security card, the real number synthetic identity fraud pairs with fabricated details',
     coverImagePosition: 50,
     // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.federalreserve.gov/newsevents/pressreleases/other20190709a.htm',
@@ -11309,6 +11320,7 @@ The core protection is simple to state and easy to forget in the moment: legitim
     author: 'ScamShield Editorial',
     tags: ['guide', 'veterans-benefits-scams'],
     coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Veteran_Affairs_backlog_(2012-08-09).jpg?width=1200',
+    coverImageCredit: 'Photo: U.S. Department of Veterans Affairs (Public Domain) — bundled VA claim folders, the benefits paperwork claim sharks charge veterans to file',
     coverImagePosition: 50,
     sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2026/07/veterans-dont-pay-apply-va-benefits',
     body: `A veteran is contacted out of the blue — often through social media, a community event, or a referral from someone they trust — by a person offering to help file a VA disability or benefits claim, for a fee, and promising a fast approval or even a guaranteed 100% disability rating in exchange for upfront payment. The pitch sounds like paid expertise navigating a notoriously complicated system. It's actually illegal on its face: applying for VA benefits is, and always has been, free.
@@ -11360,6 +11372,7 @@ The rule that cuts through every version of this scam is simple, straight from t
     author: 'ScamShield Editorial',
     tags: ['guide', 'neighbor-spoofing'],
     coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Concerned_Phone_Call_(Unsplash).jpg?width=1200',
+    coverImageCredit: 'Photo: Ehimetalor Unuabona (CC0) — a woman answering a concerned phone call, the reaction neighbor-spoofed robocalls are designed to provoke',
     coverImagePosition: 50,
     // representative photo — replace with an exact match if found
     sourceUrl: 'https://consumer.ftc.gov/comment/30521',
@@ -12081,6 +12094,7 @@ Before applying anywhere unfamiliar, check whether the lender is registered to d
     author: 'ScamShield Editorial',
     tags: ['guide', 'government-grant-scam'],
     coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/U.S._Treasury_Department_Building,_Washington,_D.C_LCCN2011635063.jpg?width=1200',
+    coverImageCredit: 'Photo: Carol M. Highsmith, Library of Congress (Public Domain) — the U.S. Treasury Department building in Washington, D.C., the agency scammers invoke in fake grant offers',
     coverImagePosition: 50,
     sourceUrl: 'https://consumer.ftc.gov/articles/government-grant-scams',
     body: `A call, text, email, or social media message announces that you've been selected for, or already qualify for, a government grant — money to cover bills, home repairs, education costs, or debt, with no strings attached. The person on the other end may claim to work for an invented-sounding office like a "Federal Grants Administration," or may impersonate a real agency, sometimes going as far as spoofing its phone number or copying its logo onto a fake website. To "process" the grant, they ask for a Social Security number and bank account information, supposedly to confirm eligibility and deposit the funds — and then, before any money supposedly arrives, they ask for a fee, described as taxes, insurance, delivery, or processing, paid by gift card, wire transfer, a cash reload card, or cryptocurrency.
@@ -13302,6 +13316,7 @@ Red flags include any unsolicited offer of a paid "allowance" from someone met o
     author: 'ScamShield Editorial',
     tags: ['guide', 'payroll-diversion-scam'],
     coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Man_at_a_laptop_in_an_office_(Unsplash).jpg?width=1200',
+    coverImageCredit: 'Photo: Bench Accounting (CC0) — a man at a laptop in an office, the setting where a phishing email can redirect a paycheck',
     coverImagePosition: 50,
     // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.ic3.gov/PSA/2018/PSA180918',
@@ -13489,6 +13504,7 @@ If your organization sent W-2 data in response to a scam like this, the IRS reco
     author: 'ScamShield Editorial',
     tags: ['guide', 'ai-nudify-sextortion'],
     coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Black_smartphone_in_hand_(Unsplash).jpg?width=1200',
+    coverImageCredit: 'Photo: Dennis Cortés (CC0) — a smartphone held in hand, the device used to receive and circulate AI-generated "nudify" images',
     coverImagePosition: 50,
     // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.fbi.gov/news/stories/charlotte-child-sexual-abuse-material-case-shows-unsettling-reach-of-ai-generated-imagery',
@@ -13547,6 +13563,7 @@ Before paying anything toward a pre-need funeral or cemetery plan, verify the pr
     author: 'ScamShield Editorial',
     tags: ['guide', 'family-emergency-text-scam'],
     coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Man_on_a_smartphone_(Unsplash).jpg?width=1200',
+    coverImageCredit: 'Photo: Gilles Lambert (CC0) — a man reading a message on his phone, the format of the urgent "family emergency" text scam',
     coverImagePosition: 50,
     // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2025/04/new-ftc-data-show-top-text-message-scams-2024-overall-losses-text-scams-hit-470-million',
@@ -13582,6 +13599,7 @@ Warning signs include a job offer with no interview or verifiable company addres
     author: 'ScamShield Editorial',
     tags: ['guide', 'fake-remote-worker-scam'],
     coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/ComputerProgrammer.jpg?width=1200',
+    coverImageCredit: 'Photo: Free-Photos, Pixabay (CC0) — hands typing code at a keyboard, representing the remote developer role this fraud scheme fakes',
     coverImagePosition: 50,
     // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.fbi.gov/investigate/cyber/alerts/2025/north-korean-it-worker-threats-to-u-s-businesses',
@@ -13850,6 +13868,7 @@ Before entering payment details on any of these sites, read the checkout page in
     author: 'ScamShield Editorial',
     tags: ['guide', 'fake-banking-app-malware'],
     coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Man_with_smartphone_and_laptop_(Unsplash).jpg?width=1200',
+    coverImageCredit: 'Photo: Alejandro Escamilla (CC0) — a man with a laptop and smartphone, the combination through which fake banking-app links spread by text',
     coverImagePosition: 50,
     // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.ic3.gov/PSA/2020/PSA200610',
