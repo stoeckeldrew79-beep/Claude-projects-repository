@@ -41078,6 +41078,40 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'Bab Darna Fictitious Real Estate Development Fraud',
+    slug: 'morocco-bab-darna-real-estate-fraud',
+    description: `Between 2017 and 2019, the Bab Darna group, led by chief executive Mohamed El Ouardi, marketed roughly a dozen residential developments around Casablanca — advertised on state television, in glossy brochures, and at real-estate fairs in Casablanca, Paris, and Brussels — promising buyers "dream homes at three for the price of two" with premium finishes, while collecting deposits worth anywhere from 20 percent to the full purchase price up front. Investigators later established that Bab Darna held neither land title nor building permits for most of the projects it was selling, meaning the developments buyers paid into had no legal basis to ever be built; many buyers were members of Morocco's diaspora (MRE) wiring savings home from Europe to secure a retirement or family home. El Ouardi was arrested at Mohammed V International Airport in Casablanca on November 21, 2019, as he attempted to leave the country, and was placed in pretrial detention days later alongside six accomplices, including his finance manager and a notary accused of helping falsify official documents. Prosecutors said the scheme had taken in more than 600 million dirhams (roughly $65 million) from over 1,000 buyers; on January 13, 2023, the Casablanca Court of Appeal's criminal chamber convicted El Ouardi of fraud, forgery of official documents, and issuing bad checks, sentencing him to 15 years in prison, while the notary received 12 years and other co-defendants received terms ranging from two to twelve years. Morocco's then-Minister of Urban Planning publicly acknowledged "dysfunctions and illegal practices" in the real-estate sector following the case. Buyers can protect themselves by verifying a developer's land title (titre foncier) and building permit directly with Morocco's Agence Nationale de la Conservation Foncière or the local commune before paying any deposit, rather than relying on a developer's own marketing materials.`,
+    categorySlug: 'investment-fraud',
+    country: 'MA',
+    isHistorical: true,
+    firstRecorded: '2019-11-21',
+    sources: ['Arab News', 'France 24', 'Bladi.net'],
+    sourceUrl: 'https://www.france24.com/en/20200402-morocco-s-65-million-real-estate-swindle',
+  },
+  {
+    name: 'Al Khair Group WhatsApp Investment Pyramid',
+    slug: 'morocco-al-khair-group-whatsapp-pyramid',
+    description: `Starting in February 2022, a group founded by three women in Tangier built "Al Khair Group" into a fast-growing pyramid scheme run almost entirely through WhatsApp groups: new members paid an initial contribution of 1,800 dirhams (about $180) on a promise of 10,000 dirhams (about $1,000) in returns within six months, while a premium "pack" required 10,500 dirhams (about $1,500) up front against a promised payout of 300,000 dirhams (about $30,000) — and members were encouraged to recruit others to reduce or eliminate their own required contribution, the classic structure of a recruitment-funded pyramid rather than a real investment. Payments moved by bank transfer and cash hand-offs, and the scheme spread by word of mouth through workplaces and households across Tangier and other Moroccan cities, eventually drawing complaints from Moroccans both inside the country and abroad. By September 2024, Moroccan authorities had arrested eleven people — ten women and one man — identified as founders or key operators of the scheme, while several other suspects fled the country, and the investigating judge at the Tangier Court of First Instance had logged roughly 1,000 victim complaints, prompting the court to open a dedicated office just to process them. Tangier-based attorney Ridouane El-Saidaoui, commenting on the case, said plainly that "there is no such thing as quick, effortless profit, particularly when the promised returns are disproportionately high in a short period." The case illustrates a pattern regulators worldwide warn about: any scheme that pays existing members primarily from new members' contributions, rather than from a real underlying business, is structurally guaranteed to collapse once recruitment slows.`,
+    categorySlug: 'investment-fraud',
+    country: 'MA',
+    alertLevel: 'high',
+    sources: ['Morocco World News'],
+    sourceUrl: 'https://www.moroccoworldnews.com/2024/09/15140/investigation-into-al-khair-group-scam-intensifies-with-1-000-victims-reported/',
+  },
+  {
+    name: 'Ouarzazate Fake Europe Work-Contract Scam',
+    slug: 'morocco-ouarzazate-fake-europe-work-contract-scam',
+    description: `In January 2025, Morocco's General Directorate of Territorial Surveillance and the Royal Gendarmerie arrested two suspects in Ouarzazate and the nearby Kalaat M'Gouna area over a scheme that had defrauded at least six victims with fake promises of legal passage to Europe. The suspects sold what they presented as guaranteed job placements backed by real employment contracts abroad, collecting large sums of cash from each victim up front — money the victims believed was covering visa and placement fees for jobs that never existed. When officers searched the suspects, they seized a passport, forged identification documents, a fabricated academic diploma, and money-transfer receipts that police said were "likely linked to the criminal activity," and a police source described the victims as having been "lured by false dreams and promises." The bust echoed an earlier, larger case in Tangier in 2023, in which ten fraudsters were arrested for running the same con on migrants hoping to reach Europe for work — victims who showed up expecting to collect visas were instead turned away empty-handed. Morocco's US Embassy has separately warned residents about scammers impersonating American government officials to advertise fraudulent overseas jobs. Anyone offered work abroad through an intermediary should independently verify the employer and the job offer directly with that country's embassy or consulate, and treat any recruiter who demands large upfront cash payments for "guaranteed" visas or contracts as a warning sign, since legitimate work-visa sponsorship is arranged through the employer and the relevant immigration authority rather than paid for in advance to a private fixer.`,
+    categorySlug: 'employment-scams',
+    country: 'MA',
+    alertLevel: 'medium',
+    sources: ['Morocco World News'],
+    sourceUrl: 'https://www.moroccoworldnews.com/2025/01/165516/fraudster-immigration-scam-busted-in-morocco/',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
