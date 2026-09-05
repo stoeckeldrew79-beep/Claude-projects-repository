@@ -3751,10 +3751,9 @@ Chastain's case matters less for the dollar amount involved than for what it est
     title: "Marcin Plichta and the Amber Gold Scheme That Reached Poland's Prime Minister",
     slug: 'marcin-plichta-amber-gold-poland-pyramid-scheme',
     author: 'ScamShield Editorial',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Gda%C5%84sk_centrala_Amber_Gold.JPG?width=1200',
-    coverImageCredit: 'Photo: Tomasz Przechlewski (CC BY 2.0)',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Komisja_%C5%9Aledcza_ds._Amber_Gold_%E2%80%93_przes%C5%82uchanie_Marcina_P._%282%29.JPG?width=1200',
+    coverImageCredit: 'Photo: Sejm RP / Rafał Zembrzycki (CC BY 2.0) — Marcin Plichta testifying before Poland\'s parliamentary investigative commission on Amber Gold, June 28, 2017',
     coverImagePosition: 50,
-    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Marcin Plichta was already a repeat fraud offender by the time he founded Amber Gold in Gdańsk in January 2009 — Polish courts had convicted him of fraud several times between 2005 and 2009, each time handing down a suspended sentence that left him free to keep operating. Renamed from an earlier holding company that summer, Amber Gold marketed itself as Poland's first dedicated storage house for gold and other precious metals, offering ordinary savers a way to invest in bullion the company said it was buying and holding on their behalf, with guaranteed returns that comfortably beat anything a Polish bank would pay on a savings account. In a country only two decades removed from communism, where trust in formal banking was still incomplete and gold carried a cultural reputation as the safest possible store of value, the pitch found a ready audience.
 
