@@ -34031,6 +34031,42 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'Kevin Merrill Maryland Consumer-Debt Portfolio Ponzi Scheme',
+    slug: 'maryland-kevin-merrill-consumer-debt-ponzi-scheme',
+    description: `Kevin B. Merrill, a Towson, Maryland businessman, ran what federal prosecutors called one of the largest Ponzi schemes ever charged in Maryland, together with Jay B. Ledford and a third associate, Cameron Jezierski. Starting around January 2013, the trio invited investors to buy "consumer debt portfolios" — batches of defaulted debt owed on credit cards, student loans, and car and truck loans that Merrill and Ledford claimed to be acquiring cheaply from banks and lenders and reselling to third-party debt collectors at a profit. To make the pitch look real, the men created more than thirty shell companies and opened over fifty-five bank accounts, used those accounts to shuffle money between each other and fabricate the appearance of legitimate debt-portfolio purchases and payouts, and falsified bank records and account statements investors were shown as proof their money was safely invested. A federal grand jury in Maryland indicted Merrill, Ledford, and Jezierski on September 18, 2018, and the SEC filed a parallel civil fraud complaint the same day. Of the more than $364 million investors put in — a figure prosecutors said grew to roughly $396 million by the time of sentencing — authorities said Merrill personally diverted around $45 million to buy and renovate five Maryland homes concentrated in Baltimore County plus a vacation property in Naples, Florida, along with at least 25 sports cars, a private jet stake, jewelry, and roughly $25 million spent gambling at casinos. Merrill pleaded guilty and was sentenced to 22 years in federal prison for conspiracy and wire fraud; Ledford and Jezierski were also convicted, with courts ultimately ordering forfeiture of nine properties, 26 vehicles, a boat, and the jet interest. Victims ranged from small-business owners, contractors, and retirees to doctors, lawyers, accountants, and even professional athletes and financial advisers who should have known better — a reminder that a private, hard-to-verify asset class like discounted debt portfolios depends entirely on trusting the seller's own paperwork, and that any promoter unwilling to let an investor independently confirm a claimed debt purchase with the actual originating bank or lender is a serious red flag regardless of how sophisticated the offering looks.`,
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    state: 'MD',
+    isHistorical: true,
+    sources: ["U.S. Attorney's Office, District of Maryland", 'U.S. Securities and Exchange Commission', 'NBC News'],
+    sourceUrl: 'https://www.justice.gov/usao-md/pr/maryland-and-texas-men-indicted-alleged-364-million-ponzi-scheme-one-largest-ever-charged',
+  },
+  {
+    name: 'Matthew Peterson Kansas City Sports-Betting Ponzi Scheme',
+    slug: 'missouri-matthew-peterson-sports-betting-ponzi-scheme',
+    description: `Matthew R. Peterson of Kansas City, Missouri, told friends, acquaintances, and fellow members of his church community that he was a skilled sports-betting expert who could turn their money into steady, outsized returns. From 2012 to 2016 he persuaded at least 37 investors to put roughly $6 million into his betting operation, backing the pitch with fabricated spreadsheets, financial statements, and account summaries showing consistent winning results that did not reflect his actual, and far less successful, betting record. Like a classic Ponzi scheme, about $3.3 million of the money coming in from newer investors was simply funneled back out to earlier investors and mischaracterized to them as trading profits, keeping the operation looking solvent long after Peterson's actual funds had been lost. One victim, identified in court records only as "T.C.," went into business with Peterson and withdrew his entire 401(k) retirement account to invest; Peterson separately opened an American Express credit card in T.C.'s name without his knowledge or consent. Peterson ran a second, smaller fraud alongside the Ponzi scheme, using a company called AIS Travel to sell what he advertised as discount travel packages to members of his own church, collecting roughly $16,000 for trips that were never delivered. He pleaded guilty on September 10, 2020, to one count of bank fraud and one count of money laundering, and on March 11, 2021, a federal judge in the Western District of Missouri sentenced him to eight years and one month in federal prison without parole, ordering $2,516,010 in restitution to his victims. The case illustrates how a Ponzi scheme often hides inside an affinity group — a church congregation, in this instance — where the promoter's personal relationships and shared trust substitute for any real, independently verifiable track record; investors approached by a fellow congregant, relative, or friend touting consistent betting or trading returns should ask to see audited, third-party account statements rather than the promoter's own spreadsheets before handing over retirement savings.`,
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    state: 'MO',
+    isHistorical: true,
+    sources: ["U.S. Attorney's Office, Western District of Missouri", 'FOX4 Kansas City'],
+    sourceUrl: 'https://www.justice.gov/usao-wdmo/pr/kc-man-sentenced-6-million-ponzi-scheme',
+  },
+  {
+    name: 'Omolere Omomowo D.C. Medicaid Mental-Health Billing Fraud Scheme',
+    slug: 'dc-omomowo-medicaid-mental-health-fraud-scheme',
+    description: `Omolere Omomowo, a Laurel, Maryland resident who also kept a home in Fort Lauderdale, Florida, led a group of District of Columbia companies that claimed to provide mental-health rehabilitative services to some of the city's most vulnerable Medicaid recipients. According to a federal indictment, the scheme began in early 2020 while Omomowo served as chief financial officer of Prestige Healthcare Resources, when he oversaw the company's move into the District's Assertive Community Treatment (ACT) program — a higher-reimbursement Medicaid billing category — by inappropriately transitioning existing clients into ACT and inflating the documented severity of their mental-health needs to justify more frequent and more expensive billing than their actual conditions warranted. After resigning from Prestige in April 2021, Omomowo did not stop: he founded a new company, The Marcaulay Group, recruited several of his former "community support worker" colleagues from Prestige to join him, and — despite the new company lacking the certification required to bill Medicaid directly for ACT services — partnered with other licensed providers to keep submitting claims built on the same false clinical assessments. Prosecutors say the combined scheme, spanning both companies, defrauded the D.C. Medicaid program of more than $10 million by billing for mental-health services that were not medically necessary, not properly reimbursable under program rules, or that never occurred at all. A federal grand jury indicted Omomowo along with five community support workers on August 1, 2024, on charges including conspiracy to commit health care fraud. The case is a reminder that a Medicaid recipient's own mental-health treatment plan and diagnosis are legal documents that belong to them — recipients and their families should ask their provider directly what program or billing category they've been placed into and why, and can report suspected billing for services that were never rendered to the DC Department of Health Care Finance's Program Integrity office or the HHS Office of Inspector General.`,
+    categorySlug: 'healthcare-fraud',
+    country: 'US',
+    state: 'DC',
+    isHistorical: true,
+    sources: ["U.S. Attorney's Office for the District of Columbia", 'D.C. Office of the Inspector General'],
+    sourceUrl: 'https://www.justice.gov/usao-dc/pr/six-indicted-scheme-defraud-dc-medicaid-program',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
