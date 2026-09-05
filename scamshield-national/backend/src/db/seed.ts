@@ -20368,6 +20368,49 @@ Parents who believe TikTok or any other platform is collecting personal informat
   },
 );
 
+GUIDE_ARTICLES.push(
+  {
+    title: 'The Fashion Nova Settlement: How Hiding Hundreds of Thousands of Negative Reviews Became a $4.2 Million FTC Case',
+    slug: 'fashion-nova-ftc-review-suppression-settlement-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'fashion-nova-ftc-review-suppression-settlement'],
+    sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2022/01/fashion-nova-will-pay-42-million-part-settlement-ftc-allegations-it-blocked-negative-reviews',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Bridal_store_-_Santee_Street,_Fashion_District,_Los_Angeles_(2011-01-08_13.12.45_by_David_Hilowitz).jpg?width=1200',
+    coverImageCredit: "Photo: David Hilowitz, CC BY 2.0, via Wikimedia Commons — a clothing storefront in LA's Fashion District",
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
+    body: `Online shoppers checking a product's star rating before buying are relying on a basic assumption: that the reviews shown reflect what actual customers experienced, good and bad. According to a Federal Trade Commission complaint announced January 25, 2022, fast-fashion retailer Fashion Nova spent nearly four years making sure that assumption didn't hold on its own website.
+
+The FTC alleged that from late 2015 through November 2019, Fashion Nova used a third-party review management platform configured to automatically publish four- and five-star reviews the moment a customer submitted one, while routing anything rated lower — the one-, two-, and three-star reviews — into a separate queue that supposedly required manual approval before it could go live. According to the complaint, Fashion Nova's staff essentially never approved that queue: hundreds of thousands of negative and critical reviews sat unpublished indefinitely, invisible to any shopper browsing the product page, while every glowing review appeared instantly. The FTC's complaint said this wasn't a technical oversight but a business practice repeated across the company's entire catalog for years, and pointed to internal examples where customers had flagged serious problems — items arriving broken, describing garments as poor quality, or reporting long delays — that never appeared anywhere on the site.
+
+Fashion Nova settled the case without admitting or denying the FTC's allegations. The company agreed to pay $4.2 million, an amount the FTC said reflected the harm consumers suffered from being misled about the product opinions other shoppers had already had. A federal court finalized the order in March 2022. Beyond the payment, the order bars Fashion Nova from misrepresenting that reviews on its site reflect the experiences of everyone who submitted one, and requires the company to post all consumer reviews going forward — including sharply negative ones — with narrow carve-outs only for content that's obscene, discriminatory, unrelated to the product, or otherwise unlawful. The FTC later ran a claims process and mailed refund checks to consumers identified as affected by the suppressed-review scheme.
+
+The case was the FTC's first enforcement action built specifically around a company concealing negative reviews, and it became a template: two years later, the FTC finalized its 2024 Rule on Fake or Manipulated Consumer Reviews, which explicitly bans review suppression as an unfair or deceptive practice and lets the agency seek civil penalties directly, without having to build a case fact pattern from scratch the way it did with Fashion Nova. For any shopper, the practical lesson is that a product page showing only five-star reviews, or reviews that read suspiciously uniform in tone, isn't necessarily proof the product is good — it may be evidence the review system itself has been filtered. Cross-checking a product on an independent platform that isn't controlled by the seller, reading a retailer's app-store reviews (which a company generally can't selectively hide), and treating an unusually clean rating with some skepticism are reasonable habits regardless of which specific retailer is involved.
+
+Consumers who believe an online retailer is hiding, deleting, or refusing to post their negative reviews can file a complaint with the FTC at ReportFraud.ftc.gov, and can report the platform to the review site itself if the suppression happened through a third-party tool rather than the retailer's own site.`,
+  },
+  {
+    title: "The ACI Worldwide Settlement: How a Software Test Gone Wrong Pulled $2.3 Billion Out of Mortgage Holders' Accounts",
+    slug: 'aci-worldwide-cfpb-unauthorized-mortgage-payments-settlement-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'aci-worldwide-cfpb-settlement'],
+    sourceUrl: 'https://www.consumerfinance.gov/about-us/newsroom/cfpb-takes-action-aci-worldwide-illegally-processing-2-3-billion-mortgage-payments-homeowners-did-not-authorize/',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/CFPB_Consumer_Financial_Protection_Bureau_entrance_Washington_DC_2025-02-10_11-14-45.jpg?width=1200',
+    coverImageCredit: 'Photo: G. Edward Johnson, CC BY 4.0, via Wikimedia Commons — CFPB headquarters entrance, Washington, D.C.',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
+    body: `A mortgage servicer's payment system is supposed to be one of the most boring, predictable parts of a household's finances: the same amount, withdrawn on the same schedule, month after month. On April 23, 2021, that predictability broke down for hundreds of thousands of homeowners at once, not because of fraud by an outside criminal, but because of an internal mistake at a payment processor most of those homeowners had never heard of.
+
+According to a Consumer Financial Protection Bureau order issued June 27, 2023, payments technology company ACI Worldwide and its subsidiary ACI Payments were running a test of their Speedpay platform — used to process mortgage payments on behalf of Mr. Cooper (formerly known as Nationstar Mortgage), one of the country's largest mortgage servicers — when live customer account data was mistakenly submitted into the production payment system instead of a test environment. The result: ACI initiated roughly 1.4 million ACH withdrawal attempts from Mr. Cooper customers' bank accounts in a single batch, totaling approximately $2.3 billion, none of it authorized by the customers whose accounts were debited. While many of the attempted withdrawals were ultimately blocked, reversed, or never completed, the CFPB found that hundreds of thousands of transactions went through and actually drained money from nearly 500,000 homeowners' accounts, some of them withdrawing a full mortgage payment weeks or months before it was due.
+
+The CFPB's order laid out the scale of the individual harm: at a single bank alone, more than 60,000 customer accounts absorbed a combined $330 million in unauthorized debits, and roughly 7,300 account holders saw their available balance drop by more than $10,000 overnight — money that, for a household living paycheck to paycheck, can mean bounced rent or utility payments, overdraft fees, and denied point-of-sale purchases before the error is caught and reversed. The CFPB ordered ACI Worldwide and ACI Payments to pay a $25 million civil penalty into the agency's victims relief fund, and imposed forward-looking requirements: the companies must adopt and enforce reasonable information-security and change-management practices designed to prevent test data or test transactions from ever reaching a live payment system again, and are barred from using real consumer financial account data for software development or testing without documenting a specific business justification and obtaining consumer consent. Separately, a 44-state multistate settlement added a further $10 million penalty, and Mr. Cooper itself pursued ACI in civil litigation to recover costs tied to the incident, reflecting that the servicer whose name was on the transactions bore its own reputational and operational fallout for an error it didn't cause.
+
+The incident is a reminder that a homeowner's mortgage payment being pulled from the wrong account, on the wrong day, or for the wrong amount isn't necessarily proof of scam activity aimed at that specific person — it can just as easily be a processing failure somewhere upstream in the chain of vendors a servicer relies on, invisible to the homeowner until money is already gone. Anyone who notices an unexpected or unauthorized mortgage-related withdrawal should contact their bank immediately to dispute the transaction under Regulation E, which generally gives consumers a window to report unauthorized electronic transfers and get the funds provisionally restored while the bank investigates, and should separately contact their mortgage servicer to confirm whether the withdrawal was tied to a known processing error.
+
+Homeowners who believe a servicer or its payment processor withdrew money from their account without authorization can file a complaint with the CFPB at consumerfinance.gov/complaint, which the agency uses both to assist individual consumers and to identify patterns that lead to broader enforcement action, and can also report the incident to their state attorney general's consumer protection office.`,
+  },
+);
+
 async function seedArticles(articles: SeedArticle[], label: string) {
   for (const article of articles) {
     await pool.query(
