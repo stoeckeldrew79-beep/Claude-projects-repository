@@ -39515,6 +39515,42 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'We Energies and Xcel Energy Disconnection-Threat Utility Scam',
+    slug: 'wisconsin-utility-imposter-disconnection-scam',
+    description: `The Wisconsin Department of Agriculture, Trade and Consumer Protection warned on April 21, 2026 of a rise in calls from scammers impersonating real, trusted Wisconsin utility providers, including We Energies and Xcel Energy. The caller claims the recipient's home or business utility account is overdue and threatens to disconnect service — sometimes claiming a disconnection truck is already on its way — unless payment is made immediately, often demanding an unconventional method such as a prepaid gift card, cryptocurrency, a peer-to-peer banking app, or a wire transfer. DATCP noted the surge affected both residential customers and small businesses, echoing an earlier wave of similar calls targeting We Energies business accounts. The department stressed that a real utility company contacts a customer multiple times by mail before ever threatening disconnection, never demands instant phone payment, and never insists on gift cards or crypto to keep the lights on. Anyone who receives a threatening utility call is advised to hang up and call the provider directly using the number printed on a past billing statement, not a number given by the caller, and to report the attempt to DATCP's Consumer Protection Hotline at (800) 422-7128 or DATCPHotline@wisconsin.gov.`,
+    categorySlug: 'utility-scams',
+    country: 'US',
+    state: 'WI',
+    alertLevel: 'medium',
+    sources: ["Wisconsin Department of Agriculture, Trade and Consumer Protection"],
+    sourceUrl: 'https://datcp.wi.gov/Pages/News_Media/20260421ConsumerAlertRiseInUtilityImposterScams.aspx',
+  },
+  {
+    name: 'Jinrong Shi and Jiyang Zhong Tech Support and Grandparent Scam Ring',
+    slug: 'ohio-shi-zhong-tech-support-grandparent-scam-ring',
+    description: `A federal grand jury in the Northern District of Ohio indicted Jinrong Shi, 28, of New York, New York, and Jiyang Zhong, 27, a Chinese national living in Little Neck, New York, on a 10-count indictment for running two interlocking scams that defrauded elderly victims in Cleveland Heights, Willoughby, Canton, and Warren, Ohio of more than $201,000 in May and June 2024. In the tech-support half of the operation, callers convinced victims their computer or online account had been compromised and that they needed to pay for supposed repairs; in the companion "grandparent scam," callers impersonated law enforcement or another authority figure and told elderly victims a grandchild was in legal trouble and needed emergency cash. In both variants, a "fraud caller" built the false story and collected the victim's address, then handed it to a "fraud courier" who traveled to the victim's home to physically pick up cash — using a shared password the caller had given the victim in advance so the in-person courier could "confirm" the pickup was legitimate; some victims were instead told to mail cash to addresses the defendants controlled. Prosecutors allege the stolen proceeds were laundered through cryptocurrency accounts overseas. Shi was charged with conspiracy to commit wire and mail fraud, wire fraud, mail fraud, money laundering conspiracy, and concealment of money laundering, facing up to 20 years in prison; Zhong faces the same charges apart from the concealment count. The case illustrates why a real grandchild's emergency, or a real computer problem, is verified by calling the family member or device maker back on a known number — never by paying a stranger who shows up at the door with a password.`,
+    categorySlug: 'tech-support-scams',
+    country: 'US',
+    state: 'OH',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office — Northern District of Ohio"],
+    sourceUrl: 'https://www.justice.gov/usao-ndoh/pr/new-york-man-and-chinese-national-charged-running-scams-took-thousands-elderly-victims',
+  },
+  {
+    name: 'Mudasiru Afeez Olawale Financially Motivated Sextortion Case',
+    slug: 'north-carolina-olawale-sextortion-extradition',
+    description: `Mudasiru Afeez Olawale, 24, a Nigerian national, was indicted in the Middle District of North Carolina in August 2023 on charges including sexual exploitation of a minor resulting in death, coercion and enticement of a minor, distribution of child sexual abuse material, and interstate threatening communications, after federal prosecutors say he targeted minors in a financially motivated sextortion scheme that led to at least one teenager's death by suicide. Olawale was arrested in Nigeria in August 2023 as part of "Operation Artemis," an FBI-led surge against Nigeria-based, financially motivated sextortion rings that pose as a young woman online, quickly build a rapport with a teenage target, obtain a compromising image, and then threaten to send it to the victim's family and friends unless money is paid immediately — a threat delivered and escalated within hours, leaving little time for a scared teenager to ask an adult for help. With the assistance of Nigeria's Attorney General and the Justice Department's Office of International Affairs, Olawale was extradited to the United States and appeared before U.S. Magistrate Judge L. Patrick Auld in federal court in Greensboro on August 27-28, 2026; he faces a mandatory minimum of 30 years up to life in prison on the child-exploitation-resulting-in-death charge alone. The FBI urges any teenager or parent facing this kind of threat to stop all contact, not pay or send more images, save the messages as evidence, and report it immediately to a trusted adult or law enforcement rather than trying to resolve it alone.`,
+    categorySlug: 'sextortion',
+    country: 'US',
+    state: 'NC',
+    alertLevel: 'high',
+    sources: ['U.S. Department of Justice — Office of Public Affairs', 'Federal Bureau of Investigation'],
+    sourceUrl: 'https://www.justice.gov/opa/pr/two-nigerian-nationals-extradited-nigeria-united-states-face-sextortion-charges-north',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
