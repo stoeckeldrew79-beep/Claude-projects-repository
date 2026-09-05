@@ -9180,6 +9180,13 @@ Zhao's trial finally opened in Zimbabwe's courts in July 2025, roughly two years
 
 E-Creator followed a pattern familiar well beyond Zimbabwe: a foreign operator, a plausible-sounding gig-economy premise, a mobile-money rail that let thousands of small depositors move money in minutes, and — critically — the paid endorsement of trusted local celebrities to do the persuading a stranger's advertisement never could. The same multi-level structure and celebrity-seeded promotion have powered fake-review and "task-based" investment platforms well beyond southern Africa, precisely because a familiar face vouching for a payout is far more convincing than any claim the platform makes about itself.`,
     sourceUrl: 'https://en.wikipedia.org/wiki/Zhao_Jiaotong',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Harare_International_Airport.jpg?width=1200',
+    coverImageCredit: 'Photo: Macvivo (CC BY-SA 3.0)',
+    coverImagePosition: 50,
+    // Robert Gabriel Mugabe International Airport in Harare (pictured under
+    // its former name), where Zhao was arrested attempting to board a flight
+    // to Dubai — used because no free-licensed portrait of Zhao could be
+    // located.
   },
 );
 
@@ -9239,6 +9246,13 @@ ARL's business model didn't stop at refund schemes. Prosecutors in a separate fe
 
 Kahn's case is a study in how a tax-fraud operation can survive years of open litigation by simply rebranding: regulators and prosecutors were already circling ARL when it reincorporated itself as a "ministry," and the switch bought Kahn several more years of new customers and two separate federal prosecutions before it finally caught up with him.`,
     sourceUrl: 'https://en.wikipedia.org/wiki/Eddie_Ray_Kahn',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Ocala_US_crths_wide01.jpg?width=1200',
+    coverImageCredit: 'Photo: Ebyabe (CC BY-SA 2.5)',
+    coverImagePosition: 50,
+    // Golden-Collum Memorial Federal Building and U.S. Courthouse in Ocala,
+    // Florida (Middle District of Florida), where the federal grand jury
+    // indicted Kahn and where he and Rosile stood trial — used because no
+    // free-licensed portrait of Kahn could be located.
   },
   {
     title: "Sholom Rubashkin and the Kosher Meatpacking Empire Built on Fabricated Collateral",
@@ -9253,6 +9267,9 @@ A federal jury in Cedar Rapids convicted Rubashkin on November 12, 2009, on 86 c
 
 Rubashkin's case became an unusual bipartisan cause: years of appeals and clemency petitions from across the political spectrum argued the 27-year term was excessive next to sentences other executives had received for comparably sized frauds. In December 2017, President Trump commuted Rubashkin's sentence after he had served roughly eight years; the commutation ended his prison term but did not overturn his conviction, leaving the restitution order and a term of supervised release in place. The case remains a reference point for how a small-town, community-rooted business — one whose owner was, by many accounts, personally well-liked — was nonetheless built for years on fabricated collateral that outside lenders had no independent way to verify.`,
     sourceUrl: 'https://www.justice.gov/archive/usao/ian/news/2010/jun_10/6_22_10_Rubashkin.html',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/%D7%A9%D7%9C%D7%95%D7%9D_%D7%9E%D7%A8%D7%93%D7%9B%D7%99_%D7%A8%D7%95%D7%91%D7%A9%D7%A7%D7%99%D7%9F.jpg?width=1200',
+    coverImageCredit: 'Photo: Itzik1 (CC BY-SA 4.0)',
+    coverImagePosition: 35,
   },
 );
 
