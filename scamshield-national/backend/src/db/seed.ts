@@ -36312,6 +36312,42 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'Semisub Inc. $29 Million Shipbuilding Investment Fraud',
+    slug: 'hawaii-semisub-shipbuilding-investment-fraud',
+    description: `Honolulu-based Semisub Inc. was run by husband-and-wife executives Curtiss E. Jackson, as CEO, and Jamey Denise Jackson, as president, who spent more than a decade telling investors nationwide that the company's prototype vessel, "Semisub One," was only "weeks" or "months" from beginning commercial operations — a claim federal prosecutors say was false for years running. To draw in additional money, the Jacksons also falsely claimed Semisub had struck agreements with government agencies and a private investment firm to build and sell an entire fleet of "Semisubs" worth tens of millions of dollars. Rather than funding the vessel, investor money instead paid for luxury residences in Hawaii and California, a Mercedes-Benz, high-end vacations, psychics, and marijuana, according to the U.S. Attorney's Office for the District of Hawaii. Jamey Denise Jackson pleaded guilty in January 2023 to conspiracy to commit mail and wire fraud and was sentenced to two years in prison; Curtiss Jackson fought the case to trial and was convicted in May 2024 of securities fraud, conspiracy, mail fraud, wire fraud, witness tampering, and obstructing an official proceeding — the obstruction charge stemming from his attempt to flee U.S. territorial waters aboard Semisub One, the same vessel subject to criminal forfeiture, the day before his bond-revocation hearing, along with a threatening video he sent his ex-wife during the investigation. On August 6, 2025, a federal judge sentenced Curtiss Jackson to 13 years in prison for the roughly $29 million scheme. The case is a reminder that a prototype product perpetually described as "almost ready" for commercial launch, used for years to justify raising still more money from new investors rather than delivering an actual product, is one of the clearest warning signs of investment fraud.`,
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    state: 'HI',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office for the District of Hawaii", 'U.S. Securities and Exchange Commission'],
+    sourceUrl: 'https://www.justice.gov/usao-hi/pr/ceo-and-president-hawaii-shipbuilding-company-sentenced-29m-investment-fraud-scheme',
+  },
+  {
+    name: 'Boltz Steel Furniture Order Non-Delivery Scheme',
+    slug: 'arkansas-boltz-steel-furniture-non-delivery',
+    description: `Boltz Steel Furniture, based in Greenbrier, Arkansas and owned by Susan Farrell, advertised custom steel furniture as normally shipping in under two weeks and took orders from customers across the United States — but, according to the Arkansas Attorney General's Office, many of those customers paid and then never received the furniture they ordered. By the time Attorney General Tim Griffin's office filed suit, it had already logged 33 separate complaints against the company totaling more than $27,000 in payments consumers say they never received products or refunds for. Griffin's office filed the complaint in Pulaski County Circuit Court on July 3, 2025, alleging violations of the Arkansas Deceptive Trade Practices Act and seeking restitution for affected customers, civil penalties — enhanced where victims were elderly or disabled — and forfeiture of the company's authorization to do business in Arkansas; the same day, his office filed a nearly identical suit against Community Builders, a since-closed West Memphis bathroom-remodeling company accused of collecting deposits and never finishing the promised work. "When businesses aren't willing to do right by consumers, I can and will hold them accountable," Griffin said. Anyone ordering custom furniture, or any product advertised with an unusually fast turnaround, directly from a seller's own website should be wary of paying the full price up front, particularly when the seller has no verifiable track record of on-time delivery.`,
+    categorySlug: 'online-shopping-scams',
+    country: 'US',
+    state: 'AR',
+    alertLevel: 'high',
+    sources: ["Arkansas Attorney General's Office"],
+    sourceUrl: 'https://arkansasag.gov/news-release/attorney-general-griffin-sues-two-arkansas-companies-for-violating-the-arkansas-deceptive-trade-practices-act/',
+  },
+  {
+    name: 'Tuan Anh Khuu Client Settlement-Fund Theft',
+    slug: 'oklahoma-tuan-anh-khuu-settlement-fund-theft',
+    description: `Tuan Anh Khuu, a former member of the Oklahoma Bar Association who ran several law firms in Oklahoma and Texas — including the Law Offices of Tuan Khuu & Associates, Khuu & Associates, The Affordable Law Group, and Global Law Group LLC — spent from March 2015 through October 2020 negotiating injury settlements on behalf of clients and then, according to federal prosecutors, routing the money into his own business and personal bank accounts instead of paying it out to the people it belonged to. In one case cited by the U.S. Attorney's Office for the Western District of Oklahoma, an Oklahoma City couple hired Khuu after their son was killed in a car accident; he negotiated a $55,000 settlement with the insurer in 2018 and never told the couple it existed. Twenty-two of Khuu's former clients eventually filed grievances with the Oklahoma Bar Association, whose disciplinary investigation led him to resign his law license in October 2020, a resignation the bar treated as tantamount to disbarment. A federal grand jury indicted Khuu on nine counts of wire fraud in October 2024, he pleaded guilty to all nine counts in August 2025, and in July 2026 U.S. District Judge Timothy D. DeGiusti sentenced him to 41 months in federal prison and three years of supervised release, ordering him to pay $422,577.09 in restitution to his victims. The case is a reminder that a client is entitled to know the outcome of any settlement or judgment reached on their behalf, and that anyone who suspects a lawyer is withholding money owed to them can file a grievance directly with their state bar's disciplinary counsel.`,
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    state: 'OK',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office for the Western District of Oklahoma", 'Federal Bureau of Investigation'],
+    sourceUrl: 'https://www.justice.gov/usao-wdok/pr/former-attorney-serve-more-three-years-federal-prison-after-stealing-settlement-money',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
