@@ -34407,6 +34407,42 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'ABC Plumbing, Heating, Cooling & Electric Senior Home-Repair Overcharge Scheme',
+    slug: 'illinois-abc-plumbing-heating-cooling-electric-senior-overcharge-scheme',
+    description: `Arlington Heights-based ABC Plumbing, Heating, Cooling & Electric Inc. sent technicians into Illinois homes, most often belonging to senior citizens, and allegedly used the visit as a pretext to inspect areas of the house the resident never asked them to look at, then declared whatever they found — a furnace, a water heater, a section of ductwork — an "emergency" or "life-threatening hazard" that had to be fixed immediately. Illinois Attorney General Kwame Raoul's lawsuit, filed September 2026, alleges technicians handed customers a digital tablet and rushed them into signing a contract for the inflated repair before they had a chance to actually read it, a practice that also buried or omitted the three-day right to cancel that Illinois law requires for door-to-door and in-home sales. The complaint further alleges that unlicensed technicians performed some of the work despite the company holding itself out as fully licensed and qualified. Raoul's office is seeking a permanent injunction, an audit of the company's existing contracts, monetary relief for affected customers, and suspension or revocation of ABC's business licenses. Homeowners who call a repair company for one specific problem are advised to say no to any additional "inspection" of unrelated systems, to insist on a written, itemized estimate before any work begins, and to know that Illinois law gives buyers three business days to cancel a home-repair contract signed in their own home — a right no legitimate technician has any reason to rush past.`,
+    categorySlug: 'mortgage-foreclosure-scams',
+    country: 'US',
+    state: 'IL',
+    alertLevel: 'high',
+    sources: ['Illinois Attorney General Kwame Raoul', 'Chicago Sun-Times', 'CBS News Chicago'],
+    sourceUrl: 'https://illinoisattorneygeneral.gov/news/story/attorney-general-raoul-sues-abc-plumbing-heating-cooling-electric-for-unfair-deceptive-business-practices',
+  },
+  {
+    name: 'Philly Salvage Antique Restoration Deposit-and-Vanish Scheme',
+    slug: 'pennsylvania-philly-salvage-antique-restoration-deposit-scheme',
+    description: `Philly Salvage, LLC, doing business as Philadelphia Salvage and run by owner Christopher Stock, took deposits from Pennsylvania consumers to restore antiques and heirloom household items — furniture, fixtures, and other sentimental pieces entrusted to the business for repair — then abruptly shut down operations without finishing the work, returning the items, or refunding a single customer who had already paid. The Pennsylvania Attorney General's office sued Philly Salvage in December 2025 under the state's Unfair Trade Practices and Consumer Protection Law, and Attorney General Dave Sunday announced a settlement on May 26, 2026 requiring the company to provide restitution to affected consumers, permanently cease all restoration business operations, and stop taking any advertising, marketing, or sales of household items and restoration services going forward; the settlement also bars the business from ever again collecting prepayments or deposits for goods or services it has not yet delivered. Consumers who paid Philly Salvage and never got their items back or their money returned had until August 24, 2026 to file a complaint with the Attorney General's office to be considered for restitution. The case is a reminder that Pennsylvania consumer law requires a business to deliver purchased merchandise or services within the time promised (or a reasonable time if none was stated), and that a deposit for restoration or repair work on a sentimental or valuable item is safest paid in stages tied to completed, verified progress rather than in full up front.`,
+    categorySlug: 'online-shopping-scams',
+    country: 'US',
+    state: 'PA',
+    isHistorical: true,
+    sources: ['Pennsylvania Office of Attorney General'],
+    sourceUrl: 'https://www.attorneygeneral.gov/taking-action/attorney-general-sunday-secures-settlement-with-philadelphia-salvage-over-companys-failure-to-provide-restoration-services/',
+  },
+  {
+    name: 'EFile Business / Online Filing LLC Fake Annual Report Fee Scheme',
+    slug: 'washington-efile-business-online-filing-fake-annual-report-fee-scheme',
+    description: `Starting around January 2022, Wyoming-based EFile Business Inc. and Online Filing LLC, run by Cameron Groom, sent more than 147,000 deceptive text messages and thousands of emails to Washington small businesses and nonprofits, designed to look as though they came from the Washington Secretary of State, demanding $200 to file the state's routine annual report — a filing the Secretary of State's office actually charges $60 for (as little as $20 to $60 for a nonprofit) and that any business can file itself in minutes. Other messages from the same operation charged $150 to $175 for "annual meeting minutes" that Washington law does not even require. More than 800 Washington companies paid the inflated fees before Attorney General Bob Ferguson's office, after opening an investigation in May 2022, filed suit in King County Superior Court on May 9, 2023, and obtained a preliminary injunction shutting down the defendants' websites and internet domains after Groom ignored the lawsuit and kept messaging Washington businesses. A King County Superior Court judge ultimately ordered EFile Business and Online Filing to pay $450,636 in restitution and civil penalties. Because these solicitations are built to mimic official state mail and often arrive by text or email around the time a filing is actually due, the Secretary of State's office advises business owners to file annual reports only through the state's own official portal at sos.wa.gov and to treat any third-party message demanding a filing fee as a red flag, especially one asking for more than the state's own posted price.`,
+    categorySlug: 'government-impersonation',
+    country: 'US',
+    state: 'WA',
+    isHistorical: true,
+    sources: ['Washington State Office of the Attorney General', 'Washington Secretary of State'],
+    sourceUrl: 'https://www.atg.wa.gov/news/news-releases/ag-ferguson-court-shuts-down-websites-companies-targeted-small-businesses',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
