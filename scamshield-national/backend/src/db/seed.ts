@@ -17516,6 +17516,47 @@ Before applying for any credit product flagged as "pre-approved" on a comparison
   },
 );
 
+GUIDE_ARTICLES.push(
+  {
+    title: 'The GoodRx Settlement: How a Prescription Discount App Became the FTC\'s First Health Breach Notification Rule Case',
+    slug: 'goodrx-ftc-health-data-settlement-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'goodrx-ftc-settlement'],
+    sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2023/02/ftc-enforcement-action-bar-goodrx-sharing-consumers-sensitive-health-info-advertising',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Prescription_drugs.jpg?width=1200',
+    coverImageCredit: 'Photo: J. Troha, National Cancer Institute (Public Domain), via Wikimedia Commons',
+    coverImagePosition: 50,
+    body: `GoodRx built its business on a simple, genuinely useful pitch: search a medication, compare pharmacy prices, and download a coupon that can cut a prescription's cost dramatically. Nothing about that transaction looks like it involves anyone but the user, the pharmacy, and GoodRx. According to a Federal Trade Commission complaint filed February 1, 2023, that assumption was wrong for years.
+
+The FTC alleged that starting in 2017, GoodRx used tracking tools embedded in its website and app — including the Facebook Pixel and similar tools from Google, Criteo, Branch, and Twilio — to pass along exactly which medications and health conditions a user had searched for, tagged as "custom events" with labels referencing specific drugs and diagnoses. That data reached advertising platforms alongside identifiers like email addresses and mobile advertising IDs, letting companies build ad-targeting profiles around a person's prescriptions for conditions including HIV, pregnancy, and mental health, at the same time GoodRx's own privacy policy told users their health information would never be shared that way. The FTC's complaint noted GoodRx also let Facebook use this data to create "custom audiences" for ad campaigns — lists of GoodRx users grouped by the health conditions inferred from their searches.
+
+What made this more than an ordinary privacy complaint was a rule almost nobody outside the FTC had ever seen enforced before: the Health Breach Notification Rule, a 2009 regulation requiring health apps not covered by HIPAA to notify consumers, the FTC, and sometimes the media when their unsecured personal health data is disclosed without authorization. The FTC treated GoodRx's undisclosed sharing with advertisers as exactly that kind of breach and charged the company with failing to report it — the first time the agency had ever used the rule this way. "Digital health companies and the health apps consumers use should not cash in on consumers' extremely sensitive and personally identifiable health information," said Samuel Levine, director of the FTC's Bureau of Consumer Protection, when the case was announced.
+
+GoodRx settled without admitting wrongdoing, agreeing to pay a $1.5 million civil penalty and to a permanent ban on sharing users' health information with third parties for advertising purposes. The order also requires GoodRx to obtain a user's affirmative express consent before disclosing that data for any other purpose, to instruct every ad platform it fed data to delete what it received, and to limit how long it retains user health data going forward. The FTC brought closely related cases the same year against BetterHelp and the fertility-tracking app Premom, signaling that health, wellness, and telehealth apps generally — not just one company — were on notice that a privacy policy's promise of confidentiality has to match what a site's underlying ad-tracking code actually transmits.
+
+Anyone using a medication, symptom-tracking, telehealth, or prescription-discount app can look for a privacy policy that specifically addresses third-party advertising trackers and pixels, not just a general statement about "confidentiality," and can decline optional tracking permissions where an app's settings allow it. Because targeted ads referencing a specific medical condition are themselves a warning sign that health data has already leaked to an advertiser, seeing one is worth treating as a reason to review — and where possible limit — an app's data-sharing settings rather than dismissing it as a coincidence. Complaints about a health app misusing personal medical information can be filed with the FTC at ReportFraud.ftc.gov and, for HIPAA-covered providers, with the Department of Health and Human Services' Office for Civil Rights at hhs.gov/ocr.`,
+  },
+  {
+    title: 'The Marriott and Starwood Settlement: What $52 Million and a 20-Year FTC Order Reveal About 383 Million Stolen Guest Records',
+    slug: 'marriott-starwood-ftc-data-breach-settlement-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'marriott-starwood-ftc-settlement'],
+    sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2024/10/ftc-takes-action-against-marriott-starwood-over-multiple-data-breaches',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/JW_Marriott_-_Washington,_DC_(53840385899).jpg?width=1200',
+    coverImageCredit: 'Photo: Ajay Suresh, CC BY 2.0, via Wikimedia Commons',
+    coverImagePosition: 50,
+    body: `Marriott acquired Starwood Hotels & Resorts — parent of brands including Sheraton, Westin, and W Hotels — in 2016, folding Starwood's massive guest-reservation database into its own systems. Two years later, Marriott disclosed that intruders had been living inside that database since 2014, undetected through the entire acquisition, accessing the personal information of up to 383 million guest records worldwide before anyone noticed.
+
+The Federal Trade Commission's complaint, announced October 9, 2024, described not one breach but three, spanning six years of security failures at both companies. The first began around June 2014, when hackers compromised Starwood's point-of-sale payment systems and quietly collected the card details of more than 40,000 customers for fourteen months before Starwood detected and disclosed it in late 2015. The second — the one that made headlines — started in the same period but wasn't discovered until September 2018, nearly two years after Marriott owned the system, and exposed roughly 383 million guest records, including names, passport numbers (more than five million of them unencrypted), payment card data, loyalty account numbers, and travel history. A third intrusion, discovered in 2020, hit Marriott's own network directly, exposing contact information for another 5.2 million guests. The FTC's complaint alleged that across all three incidents, the companies had failed to take basic precautions — deploying multifactor authentication broadly, segmenting their networks so a single compromised system couldn't expose everything connected to it, monitoring for the kind of unusual activity that let the second breach run undetected for years, and patching known vulnerabilities on a reasonable timeline.
+
+Because the FTC lacks authority to impose civil penalties for this type of data-security case, its order carries no fine on its own; instead it locks Marriott into a 20-year consent order requiring a comprehensive information-security program, independent third-party security assessments every two years, minimizing how much guest data the company retains and for how long, and giving affected guests an easier path to review what personal data Marriott holds on them and request its deletion. The financial penalty came from a separate track: the same day, a coalition of 49 state attorneys general and the District of Columbia announced their own settlement requiring Marriott to pay $52 million and adopt parallel data-security commitments, including restoring loyalty points to guests who lost them dealing with the breach's fallout.
+
+The case is a reminder that a company doesn't need to be the one committing fraud against you to be the reason fraud happens to you: nobody at Marriott stole anyone's identity, but the FTC's complaint describes years of security gaps that left the door open for someone who did. Passport numbers and loyalty account details from a hotel breach are exactly the raw material used to build convincing follow-on phishing and account-takeover attempts, sometimes years after the original intrusion, which is why breach notifications for incidents this large keep generating a second wave of scam activity long after the news cycle moves on.
+
+Anyone notified of a past Marriott, Starwood, or any other hotel-chain data breach should check whether they're eligible for the identity-monitoring or reimbursement services the settlement offers rather than assuming the window has closed, and should treat any unsolicited call, text, or email referencing a hotel stay, loyalty account, or passport renewal with extra skepticism, verifying independently through the company's official app or website rather than a link or number the message provides. Consumers can check whether they were affected by a major breach and find applicable settlement claims processes at the FTC's own refund page, ftc.gov/enforcement/refunds, and can report suspected follow-on fraud to ReportFraud.ftc.gov.`,
+  },
+);
+
 async function seedArticles(articles: SeedArticle[], label: string) {
   for (const article of articles) {
     await pool.query(
