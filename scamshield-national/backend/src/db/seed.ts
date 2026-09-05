@@ -39482,6 +39482,39 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'Fake "Courts of Denmark" SMS Phishing Scam',
+    slug: 'denmark-courts-domstole-sms-phishing-scam',
+    description: `Starting in mid-2024, residents across Denmark began receiving text messages claiming to come from Domstolsstyrelsen (the Courts of Denmark), falsely stating that the recipient had received a piece of digital mail from the court system and urging them to click a link to "update their information." The link led to a fraudulent website designed to harvest personal data and, in some versions, prompted victims to log in with MitID — Denmark's national digital identity system used for banking, tax, and government services — handing the credentials directly to the scammers. The Courts of Denmark issued a public statement making clear it had not sent the messages and advising anyone who received one to simply delete it. Politiets Nationale Enhed for Særlig Kriminalitet (NSK), the national police unit that handles serious and organized fraud, reported that SMS-based fraud complaints had risen roughly 130 percent year-on-year, with more than 35,000 reports of SMS-related IT crime logged in the preceding year alone, and noted that the same tactic — a spoofed link impersonating a trusted institution — was also being used to impersonate banks, shipping companies, and the Danish Tax Agency. NSK's guidance was blunt: neither the police, banks, nor public authorities will ever ask someone to hand over personal information, bank card details, or a MitID login over the phone, by email, or by text message, and anyone unsure about a message claiming to be official should stop and check with a trusted person before clicking anything.`,
+    categorySlug: 'phishing',
+    country: 'DK',
+    alertLevel: 'high',
+    sources: ['The Local Denmark', 'Courts of Denmark (Domstolsstyrelsen)', 'National Special Crime Unit (NSK), Danish Police'],
+    sourceUrl: 'https://www.thelocal.dk/20240611/danish-courts-issue-warning-over-sms-scam',
+  },
+  {
+    name: 'Fake Danish-Sounding Webshop Network',
+    slug: 'denmark-fake-danish-sounding-webshop-network-scam',
+    description: `Denmark's Consumer Ombudsman (Forbrugerombudsmanden) warned on October 27, 2025 that it continues to receive large numbers of complaints about foreign-run online shops built to look Danish, using names such as johansenmode.dk, pedersen-butik.dk, and elinakobenhavn.com that combine Danish surnames or city names — København, Aarhus — with Danish-language storefronts and prices listed in kroner. The sites advertise clothing, jewelry, and home décor at steep discounts, often through Facebook and Instagram ads built around fabricated emotional stories, such as an elderly family business supposedly being forced to close after decades in operation; the Consumer Ombudsman's office found one such shop network's ad campaign had racked up more than 30 million impressions across over 10,000 individual advertisements on Meta's platforms. Customers who order typically receive items that are cheaply made and nothing like what was pictured, shipped from overseas rather than Denmark, and returns must generally be sent back to a warehouse abroad at a cost that can nearly equal the price of the item itself, discouraging refund claims. Newer versions of the scheme layer on AI-generated Danish-language customer reviews and fake profile photos, misused logos from real certification schemes, and CVR numbers (Danish business registration numbers) that are either invented or copied from unrelated companies. Consumer Ombudsman Torben Jensen said it is becoming increasingly difficult to protect Danish consumers from this kind of fraud because "when one scam site closes, another opens under a different name," and his office forwards complaints to police as possible criminal fraud. Consumers are advised to check a shop's CVR number against the official business register at virk.dk, look up domain ownership through punktum.dk or who.is, read the returns policy for a foreign warehouse address before buying, and search online for the shop's name plus "svindel" (fraud) before entering payment details.`,
+    categorySlug: 'online-shopping-scams',
+    country: 'DK',
+    alertLevel: 'high',
+    sources: ['Forbrugerombudsmanden (Danish Consumer Ombudsman)', 'Tjekdet.dk'],
+    sourceUrl: 'https://forbrugerombudsmanden.dk/nyheder/forbrugerombudsmanden/pressemeddelelser/2025/20251027-forbrugere-snydes-stadig-i-stort-omfang-af-danskklingende-netbutikker',
+  },
+  {
+    name: 'Fake "Space AI" Unauthorized Investment Platform',
+    slug: 'denmark-space-ai-unauthorized-investment-platform-scam',
+    description: `On August 20, 2025, Finanstilsynet (the Danish Financial Supervisory Authority, DFSA) issued a formal public warning against Space AI, a platform operating at spaceaius.com that marketed itself to Danish consumers as a securities and investment trading service. The DFSA confirmed the firm held no authorization whatsoever to provide investment services in Denmark, placing it alongside a running list of unlicensed platforms — including one branded TD365.com, which the regulator flagged the same year — that the authority publishes precisely because their marketing is designed to look like that of a regulated broker. The DFSA stressed that using an unauthorized platform strips away every protection a Danish investor would normally have: because the firm is not licensed, a customer who loses money has no right to complain to the Danish Financial Complaint Board (Det Finansielle Ankenævn), and any funds deposited are not covered by the Danish Guarantee Fund for depositors and investors, meaning money paid in is effectively unrecoverable if the platform disappears or simply refuses withdrawal requests. The DFSA's advice to consumers approached with an unfamiliar investment opportunity is to check the firm's name directly against its public register of authorized financial companies before depositing any money, and to treat an unlisted platform's promises of secure, regulated trading as worthless regardless of how professional its website or marketing appears.`,
+    categorySlug: 'investment-fraud',
+    country: 'DK',
+    alertLevel: 'high',
+    sources: ['Finanstilsynet (Danish Financial Supervisory Authority)'],
+    sourceUrl: 'https://www.dfsa.dk/supervision/warnings-against-companies/2025/warning-against-investing-with-space-ai',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
