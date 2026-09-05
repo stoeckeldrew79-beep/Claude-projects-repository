@@ -34147,6 +34147,39 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'French ANTS Fake "Carte Grise" Vehicle-Registration Website Scam',
+    slug: 'france-ants-fake-carte-grise-website-scam',
+    description: `An unsolicited SMS or email impersonating France's Agence Nationale des Titres Sécurisés (ANTS) or a local préfecture warns that a vehicle's registration certificate ("carte grise") needs to be "regularized" or that a fine is unpaid, and links to a lookalike website — often ending in .com, .net, or a near-miss spelling rather than the real .gouv.fr domain — that either charges a hefty fee for a service that is free or low-cost through the genuine ANTS portal, or simply harvests the victim's identity documents and payment card details. ANTS's own fraud-alert page states plainly that all authentic French government sites end in ".gouv.fr", that the agency never demands urgent action through a text or email link, and it directs anyone targeted to report the attempt through Cybermalveillance.gouv.fr and the ANTS fraud/identity-theft reporting page rather than clicking through or paying.`,
+    categorySlug: 'government-impersonation',
+    country: 'FR',
+    alertLevel: 'high',
+    sources: ['Agence Nationale des Titres Sécurisés (ANTS)', 'Cybermalveillance.gouv.fr'],
+    sourceUrl: 'https://ants.gouv.fr/Actualites/Arnaque-aux-faux-sites-administratifs',
+  },
+  {
+    name: 'French Vinted Off-Platform Payment Scam',
+    slug: 'france-vinted-off-platform-payment-scam',
+    description: `A buyer or seller on Vinted, France's dominant secondhand-clothing marketplace, is steered into completing payment outside the app — through a direct bank transfer, a PayPal "friends and family" payment, a PCS prepaid voucher code, or a spoofed "generate shipping label" link that mimics Vinted's own checkout — after which the item never ships, arrives as an empty package, or the money is simply taken, and the platform's buyer protection cannot help because it only covers payments made through Vinted's own in-app system. SignalConso, the official consumer-complaint portal run by France's DGCCRF (Direction générale de la concurrence, de la consommation et de la répression des fraudes), is the government channel for reporting the practice and warns that no legitimate marketplace transaction should ever require paying, verifying an account, or communicating with a buyer or seller outside the platform's own tools.`,
+    categorySlug: 'online-shopping-scams',
+    country: 'FR',
+    alertLevel: 'medium',
+    sources: ['DGCCRF (Direction générale de la concurrence, de la consommation et de la répression des fraudes)', 'SignalConso'],
+    sourceUrl: 'https://signal.conso.gouv.fr/fr/arnaque-escroquerie',
+  },
+  {
+    name: 'French Préfecture Appointment Black-Market Resale Scam',
+    slug: 'france-prefecture-appointment-blackmarket-scam',
+    description: `A parallel online marketplace organized largely over Telegram, WhatsApp, and TikTok sells appointment slots at French préfectures needed to file for or renew a residence permit (titre de séjour) for anywhere from about €20 up to €400 each, even though booking directly through a préfecture's own website is entirely free; organizers use automated bots and mass bookings made under fake identities from cybercafés to seize newly released slots within seconds, then resell them, sometimes selling the same appointment to more than one buyer and leaving at least one paying customer with no appointment and no way to get a refund. The French Senate's official parliamentary questions record documents the scale of this trafficking, and the Ministry of the Interior has acknowledged the problem and describes countermeasures — including identity verification and AI-assisted booking tools — aimed at shutting down the resale networks that exploit foreign residents who have no way to independently confirm a "guaranteed" slot before paying.`,
+    categorySlug: 'government-impersonation',
+    country: 'FR',
+    alertLevel: 'medium',
+    sources: ["Sénat (French Senate)", "Ministère de l'Intérieur"],
+    sourceUrl: 'https://www.senat.fr/questions/base/2021/qSEQ211024742.html',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
