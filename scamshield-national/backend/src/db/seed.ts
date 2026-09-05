@@ -10273,6 +10273,45 @@ SafeMoon's collapse is a reminder that a "locked" liquidity pool, an audited sma
   },
 );
 
+NOTORIOUS_ARTICLES.push(
+  {
+    title: 'Rashawn Russell: The Deutsche Bank Trader Whose "R3 Crypto Fund" Hid a Gym-Locker Identity Theft Ring',
+    slug: 'rashawn-russell-r3-crypto-fund-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-edny/pr/former-investment-banker-and-registered-broker-sentenced-41-months-imprisonment',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/60_Wall_Street_Full_View.jpg?width=1200',
+    coverImageCredit: 'Photo: MainlyTwelve, CC BY-SA 4.0, via Wikimedia Commons — 60 Wall Street in Manhattan, Deutsche Bank\'s Americas headquarters while Russell worked there',
+    coverImagePosition: 50, // representative photo — replace with a portrait if found
+    body: `Rashawn Russell's résumé was the kind that made people stop asking questions: an investment banker at Deutsche Bank Securities in New York, a registered broker, credentials that signaled someone who understood markets from the inside. Starting in November 2020, prosecutors say, Russell used that credibility to launch the R3 Crypto Fund, soliciting money from friends, acquaintances, and other investors with promises to trade cryptocurrency on their behalf and, in some cases, guarantees of outsized, risk-free returns — a promise no legitimate trading fund can honestly make, since real markets have no guaranteed side.
+
+Almost none of the money went where Russell said it would. According to the Justice Department, he fabricated screenshots of trading account balances and doctored wire-transfer confirmations to convince investors their money was growing, while in reality he was spending it on himself, gambling much of it away, and using new investors' deposits to pay off earlier ones whenever someone asked to withdraw — the same borrow-from-Peter-to-pay-Paul mechanics that define a Ponzi scheme regardless of how sophisticated the underlying asset sounds. By the time the fund collapsed in August 2022, prosecutors say roughly 29 investors had lost a combined $1.5 million.
+
+Rather than stop once the crypto fund fell apart, Russell moved on to an entirely different kind of theft. Between September 2021 and June 2023 — overlapping with the fund's final months — he built a side operation stealing wallets and gym bags out of lockers at fitness centers across New York and New Jersey, fraudulently obtaining at least 97 credit and debit cards and at least 43 identification cards belonging to strangers. He used the stolen cards and IDs to open online gambling accounts and run unauthorized transactions, treating other people's identities as simply another funding source once his own investors had nothing left to give.
+
+Russell was indicted in April 2023 and pleaded guilty that September, at age 27, to one count of wire fraud tied to the R3 Crypto Fund and one count of access device fraud tied to the gym-locker scheme, each carrying a statutory maximum of up to 30 years. On May 30, 2024, U.S. District Judge Hector Gonzalez sentenced him in Brooklyn federal court to 41 months in prison, followed by three years of supervised release, and ordered him to pay $1,522,494.95 in restitution to his crypto-fund victims. The Commodity Futures Trading Commission separately pursued a parallel civil case, winning a court order requiring Russell to pay damages and a civil penalty and permanently barring him from trading commodities on behalf of others.
+
+Russell's case is a reminder that a finance credential — a bank employer's name, a broker registration, a title that sounds like expertise — verifies where someone has worked, not that the specific fund they're pitching you today actually exists or does what they say. A doctored account screenshot looks exactly like a real one until an investor demands independent, third-party verification of the numbers; by the time Russell's investors asked hard enough questions to notice the fabrications, most of the $1.5 million was already gone.`,
+  },
+  {
+    title: 'AirBit Club: The $100 Million Crypto Pyramid Scheme That Sold Fake Mining Profits to Spanish-Speaking Investors',
+    slug: 'airbit-club-crypto-pyramid-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-sdny/pr/co-founder-global-multimillion-dollar-cryptocurrency-ponzi-scheme-airbit-club',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Miami_Beach_and_Port_of_Miami_Skyline_(2720195951).jpg?width=1200',
+    coverImageCredit: 'Photo: joiseyshowaa, CC BY-SA 2.0, via Wikimedia Commons — the Miami Beach skyline, a hub for AirBit Club\'s Spanish-language recruitment events',
+    coverImagePosition: 50, // representative photo — replace with a portrait if found
+    body: `AirBit Club launched in 2015 as the creation of Pablo Renato Rodriguez and Gutemberg Dos Santos, marketed as a multilevel-marketing club built around cryptocurrency mining and trading. Members bought "memberships" for roughly $1,000 apiece and were promised passive, guaranteed daily returns generated by the club's own bitcoin mining operations and automated trading — plus commissions for recruiting new members underneath them, the same pyramid structure that has powered affinity scams for a century, repackaged with a crypto-era veneer. Prosecutors say the club's online member portals showed account balances steadily climbing, exactly as advertised. None of it was real: there was no meaningful mining operation and no trading generating the returns members saw on screen.
+
+The recruitment engine ran heavily through Spanish-language YouTube videos and lavish, expo-style presentations held across the United States, Latin America, Asia, and Eastern Europe, deliberately targeting Latino and Spanish-speaking communities whose members were more likely to trust a pitch delivered in their own language by people who looked and sounded like them. Senior promoters Cecilia Millan and Jackie Aguilar fronted much of that outreach, while attorney Scott Hughes provided a veneer of legal legitimacy and, prosecutors say, laundered roughly $18 million of the scheme's proceeds through his firm's accounts. When members eventually tried to cash out, withdrawal requests were met with delays, excuses, and, eventually, silence — while Rodriguez and Dos Santos funneled the incoming money into luxury cars, jewelry, real estate, and the very promotional events used to recruit the next wave of victims.
+
+Federal prosecutors unsealed an indictment on August 18, 2020, charging Rodriguez, Dos Santos, Hughes, Millan, and Aguilar; Dos Santos was arrested that same day in Panama City, Panama, and later extradited to face trial in New York, while a superseding indictment that October added promoter Karina Chairez. All six eventually pleaded guilty. Sentencing came in stages in the fall of 2023: on September 26, U.S. District Judge George B. Daniels sentenced Rodriguez, the scheme's lead architect, to 12 years in prison and ordered him to forfeit $65 million in cash and property; days later, Dos Santos received 40 months, Millan received five years, Hughes received 18 months for the money laundering, and Chairez received just over a year. Prosecutors said the group's fraud totaled more than $100 million. "Pyramid schemes like AirBit Club would not be possible without facilitators like Hughes, Millan, and Chairez," said then-U.S. Attorney Damian Williams, warning that "anyone who facilitates cryptocurrency investment schemes...will face serious consequences." The Justice Department later opened a remission fund so victims could apply to recover a share of the forfeited assets.
+
+AirBit Club is a reminder that affinity carries in both directions — a pitch delivered in your own language, at a community event, by promoters who share your background, can feel far more trustworthy than a cold call from a stranger ever would, even though shared language and community say nothing about whether the underlying "mining" or "trading" a company claims to run is actually happening. A portal showing account balances climbing every day is not proof of profit; it is only proof that someone controls what the portal displays, and a request to withdraw real money is the only test that actually matters.`,
+  },
+);
+
 // Practical "how it works / red flags / what to do" guides covering the
 // major scam categories, the same kind of coverage the FTC's Consumer
 // Advice site and AARP's Fraud Watch Network publish — well-documented
