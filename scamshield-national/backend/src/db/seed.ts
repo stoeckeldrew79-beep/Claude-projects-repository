@@ -17140,6 +17140,49 @@ A real dispute is still exactly the right tool when a charge is genuinely wrong:
   },
 );
 
+GUIDE_ARTICLES.push(
+  {
+    title: 'Fake Starlink Ads: Why That "Lifetime" Satellite Internet Deal on Facebook Isn\'t Real',
+    slug: 'fake-starlink-ads-scam-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'fake-starlink-ads-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Starlink_dish_01.webp?width=1200',
+    coverImageCredit: 'Photo: Wikideas1, CC0, via Wikimedia Commons',
+    coverImagePosition: 50,
+    sourceUrl: 'https://www.techspot.com/news/108874-viral-lifetime-starlink-offer-facebook-total-scam.html',
+    body: `A Facebook or Instagram ad promises a "lifetime" subscription to SpaceX's Starlink satellite internet for a single payment of around $127 — roughly what one ordinary month of real Starlink service costs. A companion version of the same pitch offers a full year of service for $67, often thrown in with a "free" Starlink Mini dish. Both are entirely fake, and both have been circulating across Facebook in numerous regional variants since at least mid-2025, still active as of this writing. Clicking either ad leads to a website built to closely mimic Starlink's real design, where the checkout page — sometimes routed through an ordinary Shopify storefront rather than anything belonging to SpaceX — collects a full credit card number for a product or service that will never actually be activated.
+
+A separate, more elaborate version of the scam uses AI-generated images of Elon Musk to promote something called a "Starlink chip": a supposed add-on that lets any existing smartphone connect directly to satellites for $14.90 a month, pitched with the promise to "stay connected anywhere in the world with total freedom." Clicking through leads to a fake Starlink page that first walks the visitor through a short survey about their current cell service — a stalling tactic that builds a sense of investment and personalization before the pitch ever mentions money — while banners warn that supplies are running low to push a fast decision. The survey ends on a checkout page offering a choice of "plans," all collecting payment for a product that doesn't exist: Starlink's real direct-to-cell satellite service works only through a handful of specific wireless carrier partnerships, such as T-Mobile in the United States, and isn't sold to consumers as a standalone chip, SIM card, or app-based add-on through any checkout page at all.
+
+Both campaigns exploit the same gap: Starlink is a real, fast-growing service that genuinely does run occasional promotions — including a legitimate offer of a free dish with a 12-month contract, advertised as up to a $499 value — so an unusually generous deal doesn't sound obviously impossible to someone who has heard the brand is expanding and cutting prices. Meta has said it didn't immediately respond to reporters' questions about the specific ads, though the company has separately rolled out expanded scam-ad reporting tools that let advertisers and users flag suspected fraud — a tacit acknowledgment that its ad review process doesn't reliably catch this kind of impersonation before it reaches a news feed.
+
+Red flags include any Starlink pricing or promotion encountered through a paid social media ad rather than found by typing starlink.com into a browser directly; a "lifetime" or "annual" subscription price that undercuts Starlink's normal monthly cost; any product — a "chip," SIM card, or app — claiming to add satellite connectivity to a phone you already own as a one-time purchase; a countdown timer or "limited supply" messaging attached to an internet service; and a checkout page hosted on a generic e-commerce platform instead of Starlink's own site or app.
+
+Before paying for any Starlink offer seen in an ad, go directly to starlink.com or the official Starlink app to check real pricing and availability, and verify any promotion through Starlink's own verified social media accounts rather than the ad itself. If you've already entered card details on one of these sites, contact your card issuer immediately to dispute the charge and ask about a replacement card, report the ad directly through the platform's own "report ad" tool, and file a complaint with the FTC at ReportFraud.ftc.gov.`,
+  },
+  {
+    title: 'Change-of-Address Fraud: How Criminals Redirect Your Mail to Steal Your Identity',
+    slug: 'change-of-address-fraud-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'change-of-address-fraud'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/USPS-Mail-Truck.jpg?width=1200',
+    coverImageCredit: 'Photo: IFCAR, public domain, via Wikimedia Commons',
+    coverImagePosition: 50,
+    sourceUrl: 'https://www.uspis.gov/news/scam-article/change-of-address-scams',
+    body: `Filing a change of address with the Postal Service is free in person and costs just $1.10 online at USPS.com, a small identity-verification fee rather than a service charge. That gap between "nearly free" and "worth paying someone else for" is exactly what one version of this scam exploits: the U.S. Postal Inspection Service warns that unauthorized third-party websites, styled to look like an official USPS page, charge consumers as much as $40 to process the same routine request — and in some documented cases, never actually submit the change at all, leaving the customer out the fee with their mail still going to the old address.
+
+A far more damaging version of the scam runs in the opposite direction. Rather than someone overpaying to redirect their own mail, a criminal who already has a target's name and current address — often bought cheaply from a people-search or data-broker site — files a change-of-address request in that person's name, rerouting their mail to an address the criminal controls. Once approved, the redirected stream can include exactly what an identity thief wants most: bank and credit card statements, tax documents, checks, and pre-approved credit offers, all of it useful for opening fraudulent accounts, cashing stolen checks, or in the most serious documented cases, laying groundwork for home title and deed fraud.
+
+The scale of the problem drew bipartisan congressional attention in March 2023, when a group of members of Congress wrote to the Postmaster General citing a 167% jump in fraudulent change-of-address submissions — from 8,857 cases in 2020 to 23,606 in 2021 — out of roughly 36 million total address-change requests the Postal Service processed that year, and pressed for stronger identity verification on a process the lawmakers described as historically requiring little more than a signature on a postcard or a form.
+
+USPS has since added a multi-factor verification layer to its online change-of-address process: a request now requires a mobile phone number, which receives a texted one-time passcode, along with a credit or debit card charged the standard $1.10 fee, and the card's billing address must match either the old or new address on the request — prepaid cards and gift cards aren't accepted. Whichever way a change of address is filed, USPS sends a Move Validation Letter to the old address and, separately, a Customer Notification Letter carrying a confirmation code to the new one, specifically so the actual resident of the address being left behind has a chance to catch and cancel a move they never requested.
+
+The clearest warning sign is a sudden, unexplained drop in personal mail — bills, statements, and letters addressed specifically to you stop arriving over several consecutive days, even as mail addressed generically to "resident" or "occupant" keeps showing up as normal, since a redirect only affects mail matching the name on the fraudulent request. Anyone enrolled in USPS Informed Delivery can cross-check that daily email preview against what's actually arriving in the mailbox to catch the gap even faster. A Move Validation Letter for a move you never requested is not something to ignore or assume is a mistake.
+
+If you receive a change-of-address notice you didn't request, contact your local Post Office or the U.S. Postal Inspection Service immediately — a pending or recently processed fraudulent request can often still be reversed, but the window narrows the longer mail keeps flowing to the wrong address. Only ever start a change of address at USPS.com or in person at a Post Office, never through a third-party site found via a search ad. Check your credit reports for unfamiliar accounts, consider a credit freeze if you suspect your mail was redirected, and report suspected fraud to the Postal Inspection Service at uspis.gov/report or 1-877-876-2455, and to the FTC at IdentityTheft.gov.`,
+  },
+);
+
 async function seedArticles(articles: SeedArticle[], label: string) {
   for (const article of articles) {
     await pool.query(
