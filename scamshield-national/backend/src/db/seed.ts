@@ -10472,6 +10472,47 @@ The grandparent scam endures precisely because it exploits a grandparent's insti
   },
 );
 
+NOTORIOUS_ARTICLES.push(
+  {
+    title: 'Gina Champion-Cain and the Fake Liquor-License Loan Ponzi Scheme That Took Down a San Diego Restaurant Empire',
+    slug: 'gina-champion-cain-ani-development-liquor-license-ponzi',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://www.justice.gov/usao-sdca/pr/san-diego-business-leader-gina-champion-cain-sentenced-15-years-massive-ponzi-scheme',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Downtown_San_Diego_skyline.jpg?width=1200',
+    coverImageCredit: 'Photo: RightCowLeftCoast, Wikimedia Commons (CC BY-SA 4.0) — downtown San Diego, where Gina Champion-Cain ran her liquor-license lending Ponzi scheme',
+    coverImagePosition: 50, // representative photo — replace with a portrait if found
+    body: `Gina Champion-Cain was one of San Diego's most visible business figures — the owner of the Patio restaurant group, a chain of popular local eateries, and a fixture of the city's civic and social scene — when she began quietly running what federal prosecutors would later call a nearly $400 million Ponzi scheme hidden inside a business built entirely on paperwork almost no investor could independently check. Through a company called American National Investments (ANI Development), Champion-Cain told investors starting around 2012 that she could offer them a lucrative niche opportunity: short-term, high-interest loans to entrepreneurs trying to buy one of California's tightly capped liquor licenses, which state law requires be held in escrow while a sale is finalized.
+
+The pitch worked because it sounded boring and technical rather than speculative — exactly the kind of "insider" arrangement a friend recommends rather than a stranger sells. In reality, prosecutors found, the liquor licenses on Champion-Cain's lists were frequently expired, canceled, or already accounted for elsewhere, and the escrow accounts investors believed were holding their money didn't function the way she described. Champion-Cain used forged signatures and fabricated escrow paperwork to make the arrangement look real, then paid roughly $200 million back to earlier investors using money raised from newer ones — the same mechanic underlying every Ponzi scheme, dressed up in liquor-license jargon specific enough to discourage outside questions.
+
+Nearly 500 victims poured more than $350 million into the scheme over its roughly seven-year run, money Champion-Cain used well beyond keeping the Ponzi payments flowing: prosecutors detailed roughly $2 million in personal salary, $840,000 spent on San Diego Padres and Chargers tickets, $200,000 on jewelry, $750,000 to pay off her own credit cards, and homes in Rancho Mirage and Mission Beach. When she learned in 2020 that the SEC and FBI were investigating, she didn't stop — she accelerated, changing her company's email retention policy to just 24 hours to destroy incriminating messages, directing accountants to alter records of her personal spending, ordering staff to shred lending documents, and attempting to raise another $150 million from investors to paper over the scheme's true scope before it collapsed entirely.
+
+Champion-Cain pleaded guilty in June 2020 to securities fraud, conspiracy, and obstruction of justice. Her company's collapse rippled directly into her restaurant business: several Patio Group locations closed outright, including the Patio on Goldfinch and Fireside by the Patio, while others were transferred out to a competing restaurant group as the empire she'd built on borrowed credibility came apart alongside the fraud that had financed it. Her accountant and ANI's CFO, Crispin Torres Jr., pleaded guilty separately and was sentenced to four years for his role deciding when to siphon investor funds toward Champion-Cain's other ventures.
+
+On March 31, 2021, U.S. District Judge Larry Alan Burns sentenced Champion-Cain to 15 years in federal prison — five years longer than what federal prosecutors themselves had recommended in exchange for her cooperation — calling her fraud a "monumental crime and a betrayal." Champion-Cain's case is a reminder that the most durable disguise for a Ponzi scheme isn't a slick pitch about revolutionary returns; it's a genuinely respected local business owner selling something dull enough, and specific enough, that the people trusting her with their money never thought to ask a lawyer to check the paperwork themselves.`,
+  },
+  {
+    title: 'Carl Ruderman and the 1 Global Capital "Merchant Cash Advance" Fraud That Bilked Thousands of Retirees',
+    slug: 'carl-ruderman-1-global-capital-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-sdfl/pr/former-chairman-1-global-sentenced-five-years-prison-running-250-million-securities',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Panorama_View_at_Hallandale_Beach,_FL,_USA.jpg?width=1200',
+    coverImageCredit: 'Photo: Saanina, Wikimedia Commons (CC BY-SA 4.0) — Hallandale Beach, Florida, home to 1 Global Capital, the cash-advance firm Carl Ruderman used to defraud investors',
+    coverImagePosition: 50, // representative photo — replace with a portrait if found
+    body: `Carl Ruderman built 1 Global Capital, a Hallandale Beach, Florida lending business, around a real and legal niche: merchant cash advances, a form of short-term, high-interest financing that lets small businesses borrow against their future credit-card receipts. That underlying business existed. What Ruderman sold to more than 3,400 investors around it — federal prosecutors say he raised over $250 million from them — was a set of promises about that business that were false almost from the start.
+
+According to the Justice Department, Ruderman and his co-conspirators told investors that 1 Global's finances had been independently audited by a public accounting firm, that their money would go directly toward funding merchant cash advances to small businesses, and that they could expect steady double-digit annual returns. To keep the operation running without registering the offering with the SEC — a step that would have exposed it to real outside scrutiny — Ruderman directed an attorney to draft legal opinion letters in 2016 that improperly justified skipping registration entirely, letting 1 Global raise money from retail investors for years with none of the disclosure requirements that registration would have forced.
+
+Rather than deploying the money as promised, prosecutors said, Ruderman diverted large sums of investor cash to fund his own lifestyle: credit card bills, vacation travel, insurance on an art collection and jewelry, household staff including drivers, nannies, and housekeepers, mortgage payments, private-school tuition, and luxury vehicles, along with transfers to other businesses benefiting his family that investors were never told about. 1 Global Capital filed for bankruptcy in July 2018, leaving thousands of investors — many of them retirees who had been sold the investment as a safe, steady alternative to the stock market — facing the discovery that their principal was gone.
+
+Ruderman's co-conspirators were sentenced first: chief financial officer Alan G. Heide received five years and was ordered to pay more than $57 million in restitution; attorney Andrew Dale Ledbetter received five years and more than $148 million in restitution; chief operating officer Steven Allen Schwartz received two years and more than $36 million in restitution; and attorney Jan Douglas Atlas, who drafted the improper legal opinions, received eight months and more than $29 million in restitution. Ruderman himself pleaded guilty in October 2023, and on January 31, 2024, was sentenced to five years in federal prison along with a forfeiture judgment of more than $285 million.
+
+The 1 Global Capital case is a reminder that a fraud doesn't need an invented product to work — it can just as easily be a real business, real loans, and a real niche market, wrapped around numbers and audits that were never independently checked, sold by people whose actual returns came from new investors' money rather than the merchant loans they claimed to be funding.`,
+  },
+);
+
 // Practical "how it works / red flags / what to do" guides covering the
 // major scam categories, the same kind of coverage the FTC's Consumer
 // Advice site and AARP's Fraud Watch Network publish — well-documented
