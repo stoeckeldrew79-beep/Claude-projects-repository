@@ -9556,6 +9556,37 @@ Salame pleaded guilty in September 2023 to one count of conspiracy to make unlaw
   },
 );
 
+NOTORIOUS_ARTICLES.push(
+  {
+    title: 'Danielle Chiesi: The New Castle Trader Whose Personal Relationships With Corporate Insiders Fed the Galleon Case',
+    slug: 'danielle-chiesi-new-castle-galleon-insider-trading',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Danielle Chiesi worked as a portfolio manager and senior analyst at New Castle Funds LLC, an equity hedge fund unit tied to Bear Stearns Asset Management that managed roughly $1 billion, when federal prosecutors identified her as one of the central figures feeding the largest insider-trading network of its era. Where most inside sources are cultivated through years of professional networking, prosecutors said Chiesi built hers through close personal relationships with senior corporate executives — relationships she then used to extract material nonpublic information well before it ever reached the market.
+
+Her most consequential source was Robert Moffat, a senior International Business Machines executive with whom she had a personal relationship. Between roughly August and October 2008, prosecutors said Moffat passed her nonpublic details about IBM, Lenovo, and Advanced Micro Devices, generating trading gains of more than $1.7 million for the funds she managed. Separately, Kieran Taylor, Akamai Technologies' senior director of marketing, tipped her in 2008 that the company was about to lower its revenue guidance — information that let her funds sell ahead of the announcement and pocket roughly $2.4 million before the news became public.
+
+Chiesi didn't just trade on the tips herself; she passed the same information on to Raj Rajaratnam, the billionaire founder of Galleon Group, creating a mutually beneficial pipeline of nonpublic information between two of the era's most active insider traders. The government's evidence against her came not from suspicious trading patterns but from FBI wiretaps that captured her discussing the scheme in real time, including recorded calls in which she fretted about juggling multiple insider sources at once — tapes that later became some of the most-quoted evidence in the government's broader Galleon prosecution. The SEC filed civil fraud charges against Chiesi in October 2009 alongside Rajaratnam, fellow Galleon-linked defendants Rajiv Goel and Anil Kumar, New Castle co-head Mark Kurland, Moffat, and New Castle Funds itself.
+
+Chiesi pleaded guilty on January 19, 2011, to three counts of conspiracy to commit securities fraud before U.S. District Judge Richard J. Holwell in Manhattan. Judge Holwell sentenced her on July 21, 2011, to 30 months in prison, two years of supervised release, and a $25,000 fine, and she began serving the sentence that October. In a parallel civil case, the SEC permanently barred her from the securities industry and ordered her to pay $540,534.90 in disgorgement and prejudgment interest. Moffat, her IBM source, pleaded guilty and was sentenced to six months; Rajaratnam, who received her tips at the center of the network, was convicted at trial and sentenced to 11 years — the wiretap recordings that first caught Chiesi on tape went on to help convict nearly every other defendant the case touched.`,
+    sourceUrl: 'https://www.fbi.gov/newyork/press-releases/2011/danielle-chiesi-sentenced-in-manhattan-federal-court-to-30-months-in-prison-for-insider-trading-crimes',
+  },
+  {
+    title: 'Brendan Ross: The Direct Lending Investments Founder Who Faked Loan Payments to Inflate a $1 Billion Fund',
+    slug: 'brendan-ross-direct-lending-investments-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Brendan Ross founded Direct Lending Investments (DLI) in 2012 out of La Cañada Flintridge, California, marketing funds that invested in loans originated by online small-business and consumer lenders — a "private credit" pitch to institutional and individual investors promising steady, stock-market-independent returns. The pitch worked: by 2017, DLI had grown into one of the most prominent names in the marketplace-lending industry, with more than $1 billion in assets under management.
+
+The fraud prosecutors later uncovered ran through one of DLI's underlying lending partners, QuarterSpot Inc., an online small-business lender. From early 2014 through late 2017, prosecutors said Ross directed QuarterSpot to send DLI's funds payments booked as though delinquent borrowers were making ordinary principal payments on their loans — when the money actually came from fee rebates QuarterSpot owed the funds, not from the borrowers at all. Because DLI's own valuation policy required marking down loans that had stopped performing, disguising missed payments as real ones let Ross avoid writing down loans that should have been reported as failing, keeping the funds' reported monthly values artificially high.
+
+The deception let Ross inflate the funds' cumulative reported value by more than $300 million over roughly four years, and the SEC said it let DLI collect at least several million dollars in management and performance fees the firm would not otherwise have been entitled to charge. Cracks began showing publicly in 2017, when an entrepreneur who had borrowed from one of DLI's underlying lenders published an account raising doubts about the health of the loan book DLI was reporting to investors. Ross resigned as CEO in March 2019, and DLI collapsed into receivership the following month, leaving roughly 1,000 investors unable to recover their money on the terms they'd been promised.
+
+The SEC filed a civil fraud complaint against Ross in August 2020, and the Justice Department unsealed a parallel grand jury indictment charging him with ten counts of wire fraud; the FBI arrested him on August 11, 2020. Ross pleaded guilty in August 2022 to one count of wire fraud. U.S. District Judge Dale S. Fischer sentenced him in the Central District of California on July 9, 2025, to 40 months in federal prison and ordered him to pay $5.9 million in restitution — a scheme built not on inventing loans that never existed, but on quietly hiding which of the real ones had already gone bad.`,
+    sourceUrl: 'https://www.justice.gov/usao-cdca/pr/former-ceo-crescenta-valley-investment-firm-sentenced-over-3-years-federal-prison',
+  },
+);
+
 // Practical "how it works / red flags / what to do" guides covering the
 // major scam categories, the same kind of coverage the FTC's Consumer
 // Advice site and AARP's Fraud Watch Network publish — well-documented
@@ -36600,6 +36631,39 @@ SEED_SCAMS.push(
     alertLevel: 'high',
     sources: ["U.S. Attorney's Office for the Middle District of Alabama", 'Social Security Administration Office of Inspector General'],
     sourceUrl: 'https://www.justice.gov/usao-mdal/pr/east-point-georgia-man-sentenced-federal-prison-cares-act-unemployment-fraud',
+  },
+);
+
+SEED_SCAMS.push(
+  {
+    name: 'Wahyu Kenzo and the Auto Trade Gold (ATG) "Crazy Rich" Robot-Trading Scam',
+    slug: 'indonesia-auto-trade-gold-wahyu-kenzo-scam',
+    description: `Wahyu Kenzo, a 36-year-old from Surabaya, built a verified Instagram following around exotic cars, private jets, and photos alongside politicians and celebrities, using that "Crazy Rich Surabayan" persona to promote Auto Trade Gold (ATG) — a platform he marketed as an artificial-intelligence-powered forex "robot" that could scan currency markets and generate guaranteed returns of up to 200 percent a year without the member ever needing to trade themselves. ATG recruited through a referral structure that rewarded members for signing up friends and family, and Kenzo's own conspicuous wealth and Instagram credibility served as the platform's chief marketing tool, drawing in members not just across Indonesia but among the Indonesian diaspora in Europe, Japan, the United Arab Emirates, and the United States. Indonesia's Criminal Investigation Agency (Bareskrim Polri) arrested Kenzo on March 8, 2023, along with associates Bayu Walker and Raymond Enovan, after complaints piled up once payouts stopped; investigators identified roughly 25,000 confirmed victims — out of a membership ATG had claimed exceeded 300,000 — with combined losses reaching approximately Rp9 trillion (about $585 million). The Malang District Court convicted Kenzo on January 19, 2024, of violating Indonesia's Trade Law (Article 106 of Law No. 7/2014) and its anti-money-laundering statute (Law No. 8/2010), sentencing him to 10 years in prison and a Rp10 billion fine — lighter than the 15 years prosecutors had sought; Walker received 8 years and Enovan 4 years and 6 months. ATG was one of a wave of nearly identical Indonesian "robot trading" Ponzi schemes — including Net89, DNA Pro, and Fahrenheit — that surged between 2019 and 2023 by dressing up an old-fashioned pyramid payout in the unfamiliar language of algorithmic and AI trading; the common thread across all of them is a guaranteed, fixed return with no verifiable explanation of how the underlying trading actually works, a promise no legitimate trading strategy — human or automated — can make.`,
+    categorySlug: 'investment-fraud',
+    country: 'ID',
+    alertLevel: 'high',
+    sources: ['South China Morning Post', 'Indonesian Criminal Investigation Agency (Bareskrim Polri)', 'Antara News', 'Detik'],
+    sourceUrl: 'https://www.scmp.com/week-asia/article/3214725/arrest-indonesias-crazy-rich-surabayan-spotlights-risk-robot-trading-investment-scams',
+  },
+  {
+    name: 'Indra Kenz and Doni Salmanan Binary-Options Affiliate Fraud (Binomo & Quotex)',
+    slug: 'indonesia-binomo-quotex-binary-options-affiliate-scam',
+    description: `Indra Kesuma, known online as Indra Kenz, and Doni Salmanan built massive followings on Instagram and Telegram — Kesuma's Binomo-focused Telegram group topped 200,000 members, Salmanan's Quotex group around 25,000 — by "flexing" luxury cars, watches, and cash and telling followers they had earned "tens of millions of rupiah in minutes" trading on the binary-options platforms Binomo (registered in St Vincent and the Grenadines and operating in more than 130 countries) and Quotex. Both men worked as top affiliates for their respective platforms, earning roughly 80 percent of the money that users who signed up under their referral codes ultimately lost — meaning the more followers they convinced to deposit and trade, the more the two personally profited regardless of whether any follower ever won. One victim, 27-year-old Maru Nazara, told the ABC he lost the equivalent of $50,000 over six months after joining Kesuma's Binomo group, believing Kesuma's on-camera winnings were proof the platform was legitimate. Indonesian police arrested Kesuma in February 2022 and Salmanan in March 2022 on charges of fraud, illegal gambling, spreading false information, and money laundering, seizing roughly $5.7 million in Kesuma's assets and freezing about $50 million in Salmanan's bank accounts along with $5 million in luxury goods and $300,000 in cash. A West Jakarta court convicted Kesuma on November 14, 2022, sentencing him to 10 years in prison, a Rp5 billion fine, and forfeiture of his seized assets to the state; a separate court convicted Salmanan on December 15, 2022, but sentenced him to only 4 years, cleared him of the money-laundering charge, and let him keep his assets without paying victim restitution — a split outcome Indonesian victims and anti-corruption advocates publicly criticized as inconsistent. The case remains one of the clearest illustrations of affiliate-driven fraud, in which a scam's most visible promoters are paid directly out of victims' losses, making a platform's flashiest, most convincing endorsers structurally incapable of ever recommending it in good faith.`,
+    categorySlug: 'investment-fraud',
+    country: 'ID',
+    alertLevel: 'high',
+    sources: ['ABC News (Australia)', 'Indonesian National Police (Bareskrim Polri)', 'Detik', 'Tirto'],
+    sourceUrl: 'https://www.abc.net.au/news/2022-04-03/rich-indonesians-binary-options-fraud/100935904',
+  },
+  {
+    name: 'Indonesian Bank & Government "Verification Call" Impersonation Scam',
+    slug: 'indonesia-ojk-bank-government-impersonation-call-scam',
+    description: `A caller claiming to be from a bank, Indonesia's Financial Services Authority (OJK), the police, or another government agency tells the victim their account has been compromised or flagged in a crime and that they must "verify" it immediately by reading out a one-time password (OTP) or PIN, or by installing a remote-access app — information and access that, in reality, only let the scammer take over the account. OJK says impersonation calls of this kind generated more than 31,000 reported incidents and Rp1.31 trillion in losses in a single recent tally, part of roughly Rp7.9 trillion ($474 million) Indonesians lost to online scams in the one-year span through November 2025. OJK, together with Indonesia's Communications Ministry and the National Cyber and Crypto Agency (BSSN), launched the Indonesia Anti-Scam Centre (IASC) and a National Campaign to Combat Scams and Illegal Financial Activities on August 19, 2025 to speed up victim reporting and account-freezing. "If someone claims to be from a bank or an institution, just hang up and visit the official office instead," said Friderica Widyasari Dewi, at the time OJK's Chief Executive of Market Conduct Supervision, Financial Education, and Consumer Protection (later appointed OJK's chair). No legitimate bank, OJK official, or police officer will ever ask a customer to read out an OTP, share a PIN, or install remote-access software over an unsolicited call — the only safe response is to hang up and call the institution back on a number found independently, never one supplied by the caller.`,
+    categorySlug: 'government-impersonation',
+    country: 'ID',
+    alertLevel: 'critical',
+    sources: ['Indonesia Financial Services Authority (OJK)', 'Indonesia Anti-Scam Centre (IASC)', 'Jakarta Globe'],
+    sourceUrl: 'https://ojk.go.id/en/berita-dan-kegiatan/siaran-pers/Pages/The-Rise-of-Scams-OJK-and-the-Government-Launch-National-Campaign-to-Combat-Scam-and-Illegal-Financial-Activities.aspx',
   },
 );
 
