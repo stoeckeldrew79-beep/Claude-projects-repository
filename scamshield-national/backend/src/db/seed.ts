@@ -41381,6 +41381,42 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'Wisconsin "Relationship Investment" Pig-Butchering Alert',
+    slug: 'wisconsin-relationship-investment-pig-butchering-scam',
+    description: `Ahead of Valentine's Day 2026, the Wisconsin Department of Financial Institutions (DFI) issued a consumer warning about "relationship investment scams" — commonly known as "pig butchering" — in which a stranger builds a romantic connection with a victim through a dating app or social media, often over weeks or months, before steering the conversation toward a supposedly lucrative cryptocurrency trading opportunity. Once trust is established, the scammer directs the victim to deposit funds into a fake trading platform that the scammer controls, sometimes showing fabricated "profits" to encourage larger deposits before cutting off contact and disappearing with the money. DFI took part in a national awareness campaign led by the Commodity Futures Trading Commission alongside other federal and state regulators, noting that relationship investment scams cost Americans an estimated $10 billion a year. The agency's warning signs for consumers include an online romantic interest who is never available to meet in person or video chat, who steers the relationship toward encrypted messaging apps, who claims special expertise in cryptocurrency trading, and who eventually offers to help the victim "invest" — all reasons to stop communicating and independently verify any investment platform before sending money to someone met online.`,
+    categorySlug: 'romance-scams',
+    country: 'US',
+    state: 'WI',
+    alertLevel: 'high',
+    sources: ['Wisconsin Department of Financial Institutions'],
+    sourceUrl: 'https://dfi.wi.gov/Pages/About/NewsEvents/NewsReleases/20260211RomanceInvestmentScams.aspx',
+  },
+  {
+    name: 'Coon Rapids Romance Fraud Ring Targeting Elderly Victims (Solomon Wilfred)',
+    slug: 'minnesota-coon-rapids-wilfred-romance-fraud-elderly',
+    description: `Solomon Eghosa Wilfred, of Coon Rapids, Minnesota, helped run a romance fraud scheme that used phony online personas — posing as a senior U.S. diplomat or military official — to pursue sham romantic relationships with primarily elderly victims contacted through social media apps between roughly June 2020 and March 2021, during the height of pandemic isolation. After building trust, the fake persona would ask the victim for money to resolve a fabricated financial crisis; Wilfred's specific role was helping collect and move the proceeds, opening at least six P.O. boxes across Minnesota to receive victims' packages, and — under the guise of one of the fake personas — mailing victims romantic cards along with wedding rings or other gifts to deepen the fictitious relationship and encourage them to send even more money. Wilfred pleaded guilty to mail fraud, and U.S. District Judge Katherine M. Menendez sentenced him to three years in federal prison plus three years of supervised release and ordered him to pay $1.35 million in restitution to his victims. The case is a reminder that a romantic interest met online who is never available to meet in person, claims a prestigious title like military officer or diplomat, and eventually asks for money to resolve an emergency is a documented and prosecuted fraud pattern, not an isolated occurrence — and that even physical gestures like cards or gifts mailed from a P.O. box can be part of the manipulation rather than proof the relationship is real.`,
+    categorySlug: 'romance-scams',
+    country: 'US',
+    state: 'MN',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office for the District of Minnesota", 'CBS News Minnesota'],
+    sourceUrl: 'https://www.justice.gov/usao-mn/pr/coon-rapids-man-sentenced-prison-13m-romance-fraud-scheme-targeted-elderly-victims',
+  },
+  {
+    name: 'India-Based Call Center Social Security Impersonation and Gold Bar Pickup Scheme',
+    slug: 'maryland-india-call-center-social-security-gold-bar-scheme',
+    description: `In February 2026, the FBI's Baltimore Field Office, the Montgomery County Police Department, and the Montgomery County State's Attorney's Office announced the results of a joint investigation that traced fraud reports from Montgomery County, Maryland residents to extensive, India-based scam call centers that had been targeting Americans since 2022. Callers impersonated Social Security Administration and other government officials, telling victims their identity or bank accounts had been compromised and that, to "protect" their money, they needed to convert it to gold bars and hand the gold to a courier sent to their home — couriers who were really money mules working for the scheme. Montgomery County State's Attorney John McCarthy said his office secured ten indictments against individuals, "many of them couriers or mules who were used to pick up gold bars from victims who thought they were working with the feds to protect their investments," while Montgomery County Police Captain Marc Erme said the scams "exploit fear, trust, and vulnerability." Nationwide, about 660 victims reported losses totaling roughly $48.8 million tied to these call centers; in Maryland alone, investigators identified nearly two dozen victims with combined losses of $6,257,869. India's Central Bureau of Investigation dismantled three of the call centers in December 2025 and arrested six Indian nationals accused of running them. FBI Special Agent in Charge Jimmy Paul credited victims who came forward, saying "Americans are safer right now because" they took action, and authorities stressed that no legitimate government agency will ever instruct someone to withdraw cash, buy gold or gift cards, or hand valuables to a courier to keep their money "safe."`,
+    categorySlug: 'government-impersonation',
+    country: 'US',
+    state: 'MD',
+    alertLevel: 'high',
+    sources: ['Federal Bureau of Investigation, Baltimore Field Office', "Montgomery County State's Attorney's Office"],
+    sourceUrl: 'https://www.fbi.gov/contact-us/field-offices/baltimore/news/federal-and-local-partners-announce-results-of-joint-investigation-and-warn-of-costly-fraud-schemes-targeting-marylanders',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
