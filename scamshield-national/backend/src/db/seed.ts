@@ -39208,6 +39208,44 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'Missouri "Department of Corrections" Incarcerated-Family Work-Release Scam',
+    slug: 'missouri-doc-incarcerated-family-work-release-scam',
+    description: `Missouri Attorney General Catherine Hanaway's office issued a consumer alert on February 26, 2026 warning families of incarcerated Missourians about a caller falsely claiming to represent the Missouri Department of Corrections. The caller tells a relative that their loved one, held specifically in the Christian County Jail, qualifies for a work-release treatment program, but that a spot must be secured with an upfront payment made right away. Hanaway's office stated flatly that "the Missouri DOC will never require offenders or their families to pay for jobs or job training," making any request for payment tied to a work-release slot, treatment-program placement, or job assignment inside the corrections system an automatic red flag rather than a normal part of the process. The scam preys on the same emotional leverage as a grandparent or family-emergency scam, but through a different channel: instead of inventing a fictitious arrest or accident, it exploits a family's real, already-stressful knowledge that a relative is incarcerated to make a fabricated program offer sound plausible. The Attorney General's office urged anyone contacted this way to hang up without paying and to verify any claimed DOC program directly with the facility using a phone number looked up independently, then report the call to the Consumer Protection Hotline at 800-392-8222 or file a complaint at ago.mo.gov.`,
+    categorySlug: 'government-impersonation',
+    country: 'US',
+    state: 'MO',
+    alertLevel: 'medium',
+    sources: ["Missouri Attorney General's Office"],
+    sourceUrl: 'https://ago.mo.gov/attorney-general-hanaway-warns-of-new-phone-scam-targeting-families-of-incarcerated-missourians/',
+  },
+  {
+    name: 'Indianapolis "Kareem Sunday" OurTime Romance-Scam Money Mule (Edwin Agbi)',
+    slug: 'indiana-edwin-agbi-ourtime-romance-scam-money-mule',
+    description: `Edwin Agbi, 29, of Indianapolis, served as a domestic money mule for an international romance-scam ring that built fake profiles on OurTime, a dating site marketed to adults over 50, to court senior victims into believing they were in genuine relationships. Once trust was established, the scammers invented reasons the victims needed to send money or valuables, telling at least one man that his entire 401(k), worth roughly $400,000, needed to be forwarded to keep it safe on his "girlfriend's" instructions. Operating under the alias "Kareem Sunday," Agbi's specific role was to receive cash packages mailed to his Indianapolis home between 2018 and 2019, keep a cut for himself, and wire the remainder to co-conspirators' foreign bank accounts; one package intercepted by investigators during that stretch contained $20,000 in cash. The U.S. Secret Service and U.S. Postal Inspection Service investigated the scheme, and Agbi was convicted on March 2, 2022 of mail fraud, use of a fictitious name in furtherance of mail fraud, conspiracy to commit mail fraud, and conspiracy to commit money laundering. U.S. District Judge James R. Sweeney II sentenced him on August 25, 2022 to 57 months in federal prison plus three years of supervised release, and ordered him to pay $95,500 in restitution to the victims. The case illustrates that a romance scam's most vulnerable point is often the domestic mule receiving and forwarding the cash rather than the overseas scammer running the relationship, and that a dating-site partner who is never available to meet and who directs large sums to be mailed or wired to a third party is reason enough to stop and independently verify who is really receiving the money.`,
+    categorySlug: 'romance-scams',
+    country: 'US',
+    state: 'IN',
+    isHistorical: true,
+    firstRecorded: '2018-01-01',
+    sources: ['U.S. Secret Service', 'U.S. Postal Inspection Service'],
+    sourceUrl: 'https://www.secretservice.gov/newsroom/releases/2022/08/indianapolis-man-sentenced-57-months-federal-prison-defrauding-senior',
+  },
+  {
+    name: 'Teknicians Inc. Bloomington Tech-Support Scam',
+    slug: 'minnesota-teknicians-tech-support-scam',
+    description: `Minnesota Attorney General Keith Ellison's office sued Bloomington-based Teknicians, Inc. in early January 2019 as part of a coordinated "Tech Support Scam Takedown" spanning 19 jurisdictions with the National Association of Attorneys General, the U.S. Department of Justice, and the FTC. According to the office's investigation, Teknicians falsely claimed an affiliation with Microsoft, then used remote access to a consumer's computer to falsely claim it was infected and pressure the owner into buying unnecessary support services; one undercover investigator found that the company's software kept access to the computer's camera even after the support call had ended. Consumers who fell for the pitch paid an initial fee of $199, then renewal charges of $178.99 and $179.99, and in at least one case an unexplained withdrawal of $550 turned up on a victim's account. Valerie Johnson of Hoffman, Minnesota was cited as an example victim, having lost roughly $1,108 across multiple transactions between February 2016 and February 2018 before the pattern was uncovered. When Teknicians failed to respond to the lawsuit, Ellison's office moved for default judgment on March 7, 2019, seeking an injunction against the company's deceptive practices, restitution for affected consumers, and civil penalties. The case is a reminder that a legitimate tech company never initiates contact to warn about a virus on a computer it has no way of monitoring, and that granting remote access to an unsolicited caller can hand them a standing window into a device — including its camera — long after the phone call itself has ended.`,
+    categorySlug: 'tech-support-scams',
+    country: 'US',
+    state: 'MN',
+    isHistorical: true,
+    firstRecorded: '2016-02-01',
+    sources: ["Minnesota Attorney General's Office", 'Star Tribune'],
+    sourceUrl: 'https://www.ag.state.mn.us/Office/Communications/2019/03/07_TechSupportScamTakedown.asp',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
