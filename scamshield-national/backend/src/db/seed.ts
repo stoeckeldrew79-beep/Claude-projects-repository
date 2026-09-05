@@ -39332,6 +39332,42 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'Bangladesh Bank $81 Million SWIFT Heist',
+    slug: 'bangladesh-bank-swift-cyber-heist',
+    description: `On the night of February 4, 2016, hackers who had spent months inside Bangladesh Bank's network — having first gained access through spear-phishing emails — used stolen credentials to send 35 fraudulent payment instructions over the SWIFT messaging system, directing the Federal Reserve Bank of New York to transfer money out of Bangladesh Bank's account and attempting to move nearly $1 billion in total. Custom malware the attackers planted on the bank's local SWIFT terminal suppressed the printed confirmation slips and altered on-screen transaction logs so staff would not immediately see the outgoing requests. Most of the transfers were blocked by the Fed's own fraud checks or by a coincidental spelling flag — a $20 million transfer to a Sri Lankan NGO was halted after a routing bank noticed the beneficiary's name was misspelled "Shalika Fandation" instead of "Foundation" — but four transfers totaling $81 million reached accounts at Rizal Commercial Banking Corporation (RCBC) in Manila, where the money was quickly withdrawn, funneled through a foreign exchange broker, and disappeared into Philippine casinos before Bangladesh Bank could freeze it. The theft was discovered only when Bangladesh Bank staff returned from a weekend holiday and found a backlog of confirmation messages from the New York Fed; by then the money was already gone, and the bank faced criticism for having kept the loss quiet for weeks. Bangladesh Bank Governor Atiur Rahman resigned on March 15, 2016 amid pressure over how slowly the incident was disclosed to the government. In 2018, the U.S. Department of Justice publicly attributed the heist to Lazarus Group hackers working for North Korea's Reconnaissance General Bureau, and in February 2021 it unsealed a criminal complaint against three North Korean military intelligence programmers — Park Jin Hyok, Jon Chang Hyok, and Kim Il — tying them to the Bangladesh Bank theft alongside the 2017 WannaCry ransomware attack and the 2014 Sony Pictures hack, describing a coordinated, state-run scheme to generate revenue and cause damage through cyberattacks on financial institutions worldwide. The episode remains one of the largest bank heists in history and a stark illustration that a payment-messaging system is only as trustworthy as the credentials protecting it — malware that hijacks a legitimate terminal and rewrites its own confirmations can turn an authenticated, "normal-looking" transfer request into one nobody at the bank ever approved.`,
+    categorySlug: 'account-takeover',
+    country: 'BD',
+    isHistorical: true,
+    firstRecorded: '2016-02-04',
+    sources: ['U.S. Department of Justice', 'U.S. Secret Service'],
+    sourceUrl: 'https://www.justice.gov/usao-cdca/pr/north-korean-regime-backed-programmer-charged-conspiracy-conduct-multiple-cyberattacks',
+  },
+  {
+    name: 'Evaly Advance-Payment E-Commerce Ponzi Scheme',
+    slug: 'evaly-ecommerce-advance-payment-ponzi-bangladesh',
+    description: `Evaly launched in Dhaka on December 16, 2018, founded by Mohammad Rassel with his wife Shamima Nasrin as chairperson, and grew within about two years into one of Bangladesh's most talked-about e-commerce platforms by advertising discounts of 50 to 90 percent on motorbikes, electronics, and other big-ticket goods — far steeper than any competitor could sustainably offer — in exchange for full payment up front, with delivery sometimes promised weeks or months later. The business model outran its own cash: rather than using customer payments to buy the discounted stock it had promised, Evaly used incoming customers' money to pay off older, overdue orders, the same pay-the-old-with-the-new mechanic that defines a Ponzi scheme, while its founders separately funneled out large sums. A Bangladesh Bank inspection report examined by the central bank's board found that Evaly's liabilities to customers and merchants had reached roughly Tk 404 crore (then about $47 million) against only about Tk 65 crore ($7.6 million) in actual assets, and the central bank's board formally described the company's business model as a Ponzi scheme. As complaints piled up nationwide from customers who had paid for goods that never arrived, Bangladesh's Rapid Action Battalion (RAB) raided Rassel and Nasrin's Mohammadpur, Dhaka residence and arrested both on September 16, 2021. The Criminal Investigation Department (CID) separately filed a case under Bangladesh's Anti-Money Laundering Act accusing the couple of embezzling more than Tk 310.99 crore (roughly $36 million) collected from customers whose orders were never fulfilled, and the pair went on to face hundreds of additional cheque-dishonor and fraud cases filed by individual customers and merchants across the country. Evaly's collapse left an estimated hundreds of thousands of customers holding paid-for orders that never shipped, and stands as a reminder that an online storefront advertising steep, sustained discounts that require full payment before delivery — and that keeps missing its own delivery promises — is often paying yesterday's customers with today's money rather than actually stocking and shipping goods.`,
+    categorySlug: 'online-shopping-scams',
+    country: 'BD',
+    isHistorical: true,
+    firstRecorded: '2018-12-16',
+    sources: ['Bangladesh Bank', 'The Daily Star', 'The Business Standard'],
+    sourceUrl: 'https://www.thedailystar.net/news/bangladesh/crime-justice/news/rab-conducting-raid-home-evaly-chairman-ceo-2177431',
+  },
+  {
+    name: 'Destiny Group Tree Plantation Investment Ponzi Scheme',
+    slug: 'destiny-group-tree-plantation-ponzi-bangladesh',
+    description: `Destiny-2000 Ltd, a multi-level marketing company run by Managing Director Rafiqul Amin under the umbrella Destiny Multipurpose Cooperative Society, formed Destiny Tree Plantation Ltd in 2009 to sell ordinary Bangladeshis a strikingly literal pitch: pay in, "own" a share of trees the company would plant and harvest, and collect a guaranteed, above-market payout once the trees matured, on top of commissions for recruiting further investors beneath them. The offer, marketed nationwide through an MLM sales network reaching small towns and villages the formal investment industry rarely touched, drew in an estimated 1.75 million investors. Bangladesh's Anti-Corruption Commission (ACC) later found that only about 5.3 percent of the trees investors had paid for actually existed — the scheme's real economics ran on newer investors' payments covering older investors' promised returns, the standard Ponzi mechanic, dressed up as a plantation business. The ACC filed a case on July 31, 2012 against Rafiqul Amin, Destiny Chairman Mohammad Hossain, Destiny-2000 President Lt. Gen. (retd.) Harun-Ar-Rashid, and nine others, alleging they had embezzled and laundered Tk 257.78 crore (roughly $31 million at the time) specifically from the tree-plantation project's funds. The case took more than twelve years to reach a verdict: on January 15, 2025, Judge Md Rabiul Alam of Dhaka's Special Judge's Court-4 convicted Rafiqul Amin and 18 co-defendants, sentencing Amin to 12 years in prison and Harun-Ar-Rashid to 4 years, while fining the defendants a combined Tk 4,515.57 crore, to be deposited to the state within six months or face further enforcement action. The case remains one of Bangladesh's largest MLM prosecutions and underscores that a scheme promising fixed, guaranteed returns funded by recruiting new members underneath existing ones is a Ponzi scheme regardless of what physical asset — trees, land, gemstones — it claims to be selling; verifying that the underlying asset actually exists in the claimed quantity is a check worth making before any money changes hands.`,
+    categorySlug: 'investment-fraud',
+    country: 'BD',
+    isHistorical: true,
+    firstRecorded: '2009-01-01',
+    sources: ['Anti-Corruption Commission (Bangladesh)', 'The Business Standard', 'The Daily Star'],
+    sourceUrl: 'https://www.tbsnews.net/bangladesh/court/misappropriating-tk25778cr-destiny-md-among-19-sentenced-12-years-prison-1043386',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
