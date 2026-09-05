@@ -35326,6 +35326,55 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'Connecticut Courier\'s Grandparent Scam Ring Targeting Wisconsin Seniors',
+    slug: 'wisconsin-connecticut-courier-grandparent-scam',
+    description: `Between October 24 and October 28, 2022, a network of couriers fanned out across Wisconsin collecting cash from elderly victims who had just been called by conspirators — operating from outside the United States — falsely claiming a relative had caused a serious car accident that badly injured or killed someone else and now needed bail money sent immediately, sometimes through a supposed "relative's attorney" on the line to add pressure. One of those couriers, Matthew Ramos-Soto, then 27 and living in Hartford, Connecticut, personally picked up cash directly from victims' homes throughout Wisconsin during that five-day run, contributing to a haul that totaled more than $250,000 in that window alone. He was arrested on June 28, 2023 while attempting to collect another payment from a victim in Ottawa County, Michigan, and was later charged in the Western District of Wisconsin, where prosecutors said he was part of a larger, coordinated grandparent-scam conspiracy that had targeted seniors across the state. Ramos-Soto pleaded guilty to wire fraud conspiracy on April 4, 2024, and Chief U.S. District Judge James D. Peterson sentenced him that December to 41 months in federal prison plus restitution to his victims. The scheme's success depended entirely on panic — victims were given no time to hang up and call the relative directly, or to ask anyone else whether the story was true — which is why federal prosecutors and Wisconsin law enforcement urge anyone who gets a call like this to resist the pressure to act immediately, hang up, and reach the family member in question using a phone number they already have, since no real bail or legal fee is ever collected as cash handed to a courier at the victim's front door.`,
+    categorySlug: 'family-emergency-scams',
+    country: 'US',
+    state: 'WI',
+    alertLevel: 'high',
+    sources: [
+      "U.S. Attorney's Office, Western District of Wisconsin",
+      'Wisconsin State Journal',
+      'WFRV-TV',
+    ],
+    sourceUrl: 'https://www.justice.gov/usao-wdwi/pr/connecticut-man-sentenced-prison-role-grandparent-scheme',
+  },
+  {
+    name: 'Ayudando Guardians Client Trust Fund Embezzlement',
+    slug: 'new-mexico-ayudando-guardians-embezzlement',
+    description: `Ayudando Guardians Inc. was an Albuquerque, New Mexico nonprofit that provided court-appointed guardianship, conservatorship, and financial management services to nearly 1,000 New Mexicans with disabilities or special needs, many of whom depended on the firm to safely receive and manage their Social Security and VA disability benefit payments. From 2006 until the U.S. Marshals Service seized control of the company in the summer of 2017, the firm's president and 95% owner Susan Harris, her husband and fellow guardian William Harris, her son Craig Young, and business partner and chief financial officer Sharon Moore transferred money out of individual client accounts into a comingled company account without any client-related justification, then wrote themselves, family members, and other associates checks — often for more than $10,000 at a time — funding celebrity Caribbean cruises, luxury goods, sporting event tickets, vehicles, and upscale homes, ultimately embezzling more than $11 million from the vulnerable clients who trusted the firm with their finances. Susan Harris was sentenced to 47 years in federal prison, Sharon Moore to 20 years, William Harris to 15 years, and Craig Young to 71 months, following prosecution by the U.S. Attorney's Office for the District of New Mexico with the FBI, IRS Criminal Investigation, the U.S. Marshals Service, and the inspectors general for the VA and Social Security Administration. In July 2025, the Justice Department announced that a settlement with Ayudando's insurer, Travelers, along with asset forfeiture, had secured $4.9 million for victims, partially satisfying a $6.8 million money judgment entered against the Harrises. The case is one of the largest guardianship-fraud prosecutions in U.S. history and a reminder that anyone with a family member under a professional guardianship or conservatorship should insist on regular, independent accountings of how that person's funds are being spent, and should report suspected misuse directly to the state's Adult Protective Services or the local U.S. Attorney's Office rather than assuming a licensed fiduciary is automatically trustworthy.`,
+    categorySlug: 'public-benefits-fraud',
+    country: 'US',
+    state: 'NM',
+    isHistorical: true,
+    sources: [
+      "U.S. Attorney's Office, District of New Mexico",
+      'Federal Bureau of Investigation',
+      'Social Security Administration Office of Inspector General',
+      'Albuquerque Journal',
+    ],
+    sourceUrl: 'https://www.justice.gov/usao-nm/pr/49-million-secured-victims-ayudando-guardians-fraud-scheme-through-settlement-and-asset',
+  },
+  {
+    name: 'East West Roofing Advance-Fee Contractor Fraud',
+    slug: 'colorado-east-west-roofing-advance-fee-fraud',
+    description: `George Harris ran East West Roofing LLC out of Grand Junction, Colorado, and between June 2014 and May 2015 solicited large upfront payments from homeowners — many of them older, at-risk adults — in Grand Junction, Durango, Montrose, and Summit County to perform roofing repairs, in direct violation of Colorado's 2012 Residential Roofing Bill of Rights, which bars a roofing contractor from collecting a customer's money until materials have been ordered or substantial work has actually been completed. Instead of doing the promised work, Harris pocketed more than $250,000 collected from 30 victims and spent it on multiple houses, frequent lavish meals, and anti-aging procedures, leaving customers with damaged roofs and no repairs to show for their money. A Mesa County grand jury indicted Harris in 2017, and following a month-long trial a jury in the Twenty-First Judicial District Court in Grand Junction convicted him in 2019 on all seven felony counts of theft. He was sentenced to eight years in the Colorado Department of Corrections, followed by ten years of economic-crimes probation, and ordered to pay restitution to his victims; his business partner, who cooperated with prosecutors and testified at trial, separately pleaded guilty to felony theft and was also ordered to pay restitution. Harris's later appeal seeking to overturn his convictions was rejected. Colorado Attorney General Phil Weiser, whose office prosecuted the case, said dishonest and deceptive businesses "that violate the law and steal from Coloradans will not be tolerated." Homeowners hiring a roofer or any home-improvement contractor should know Colorado law limits how much a contractor can collect before work begins, should verify a contractor's license and any complaint history with the state before paying anything, and should report a contractor who takes a large deposit and then stalls or disappears to the Colorado Attorney General's Consumer Protection Section.`,
+    categorySlug: 'mortgage-foreclosure-scams',
+    country: 'US',
+    state: 'CO',
+    isHistorical: true,
+    sources: [
+      'Colorado Attorney General',
+      'The Durango Herald',
+      'Grand Junction Daily Sentinel',
+    ],
+    sourceUrl: 'https://coag.gov/press-releases/8-22-19-2/',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
