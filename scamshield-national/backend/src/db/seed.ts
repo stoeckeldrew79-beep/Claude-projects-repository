@@ -38380,6 +38380,42 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'Tesis Labs Genetic-Testing Medicare and Medicaid Kickback Scheme',
+    slug: 'colorado-tesis-labs-genetic-testing-kickback-scheme',
+    description: `Seven executives — Ronald King, 51, of Bangor, Maine; Victor Roiter, 55, of Sunny Isles Beach, Florida; Tina Wellman, 51, of Mayfield, New York; Adam Shorr, 55, of Dunedin, Florida; Robert O'Sullivan, 55, of Lake Sherwood, California; Bradley Edson, 66, of Mesa, Arizona; and John Gautereaux, 59, of Temecula, California — used two Colorado genetic-testing laboratories, Claro Scientific Laboratories in Lafayette and 303 Diagnostics in Aurora, both owned through parent company Tesis Labs LLC, to bill Medicare and Colorado Medicaid for medically unnecessary genetic tests. According to a federal grand jury indictment announced by the U.S. Attorney's Office for the District of Colorado, the defendants paid kickbacks and bribes to marketing companies — including one running a call center in New York — to recruit elderly Medicare beneficiaries for genetic testing "regardless of medical necessity," using telemedicine providers who, prosecutors said, typically spoke to each beneficiary for only a few minutes, never examined them, and never intended to use the test results to diagnose or treat anything. The scheme generated more than $40 million in false and fraudulent claims paid to the two Colorado labs before the seven defendants made initial appearances in Denver federal court between late August and early September 2024. Medicare beneficiaries offered a "free" genetic test by an unfamiliar telemarketer or mailer should decline and report it rather than hand over a Medicare number, since billing that number for an unnecessary test — not the cheek swab itself — is the actual point of the call.`,
+    categorySlug: 'healthcare-fraud',
+    country: 'US',
+    state: 'CO',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office for the District of Colorado", 'CBS News Colorado', 'National Insurance Crime Bureau'],
+    sourceUrl: 'https://www.justice.gov/usao-co/pr/seven-people-charged-over-40-million-medicare-and-medicaid-fraud',
+  },
+  {
+    name: 'Jordan DeMay Financial Sextortion Case (Ogoshi Brothers)',
+    slug: 'michigan-jordan-demay-sextortion-case',
+    description: `Jordan DeMay, a 17-year-old high school athlete from Marquette, Michigan, died by suicide in March 2022 within hours of being targeted in a financial sextortion scheme run out of Lagos, Nigeria. According to the U.S. Attorney's Office for the Western District of Michigan, brothers Samuel Ogoshi and Samson Ogoshi used a hacked Instagram account to pose as a young woman, exchanged messages with DeMay that escalated to explicit images, and then threatened to send those images to his family and friends unless he paid — a scheme prosecutors said the brothers ran against more than 100 victims, mostly teenage boys, across the country. A federal grand jury indicted the brothers in November 2022, Nigeria extradited them in August 2023, and both pleaded guilty in April 2024 to conspiracy to sexually exploit minors; on September 5, 2024, a federal judge sentenced each brother to 210 months (17.5 years) in prison followed by five years of supervised release. The FBI, which led the investigation, and DeMay's family have since spoken publicly about the case to warn other parents that financial sextortion can escalate from first contact to a payment demand to a threat of exposure within hours. Teens and parents confronted with a sextortion demand are urged to stop all contact immediately, save the messages as evidence, and report to the FBI or NCMEC's CyberTipline rather than paying, since payment does not stop the threats and frequently invites more of them.`,
+    categorySlug: 'sextortion',
+    country: 'US',
+    state: 'MI',
+    alertLevel: 'critical',
+    sources: ["U.S. Attorney's Office for the Western District of Michigan", 'Federal Bureau of Investigation', 'The Washington Post', 'Bloomberg'],
+    sourceUrl: 'https://www.justice.gov/opa/pr/nigerian-brothers-sentenced-sextortion-scheme-resulted-death-teen',
+  },
+  {
+    name: 'Bronx Cash-Courier for Dominican Republic Grandparent Scam (Victor Valdez)',
+    slug: 'new-york-bronx-grandparent-scam-courier-valdez',
+    description: `Victor Anthony Valdez, 39, of the Bronx, acted as an in-person cash courier for a transnational "grandparent scam" that federal prosecutors say ran through call centers in the Dominican Republic from August 2020 to August 2021, targeting elderly Americans nationwide. According to the U.S. Attorney's Office for the District of New Jersey, callers posed as a victim's panicked grandchild, then handed the phone to a second conspirator posing as an attorney or court official who falsely claimed the "grandchild" had been arrested and needed cash for bail or legal fees; once a victim agreed to help, couriers like Valdez were dispatched to collect the cash directly from the victim's home. Valdez, a former Social Security Administration claims specialist, was charged with one count of wire fraud conspiracy, which the Social Security Administration's Office of the Inspector General and Homeland Security Investigations say carries a maximum sentence of 20 years in prison and a $250,000 fine. U.S. Attorney Philip R. Sellinger said the scheme worked by counting "on the grandparents' love and devotion to their families in order to convince them to put up money" rather than verify the story first. Anyone who gets an urgent call claiming a grandchild has been arrested should hang up and call that grandchild directly at a number already saved in their phone — never send cash with a courier or wire money based on a single unverified call, no matter how convincing the second "lawyer" on the line sounds.`,
+    categorySlug: 'family-emergency-scams',
+    country: 'US',
+    state: 'NY',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office for the District of New Jersey", 'Social Security Administration Office of the Inspector General', 'Homeland Security Investigations'],
+    sourceUrl: 'https://www.justice.gov/usao-nj/pr/new-york-man-charged-connection-transnational-grandparent-scam-operated-dominican',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
