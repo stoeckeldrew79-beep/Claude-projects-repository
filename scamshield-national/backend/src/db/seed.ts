@@ -10554,6 +10554,49 @@ Whatever a jury ultimately decides, the allegations against Mattson illustrate a
   },
 );
 
+NOTORIOUS_ARTICLES.push(
+  {
+    title: 'Emerson Pires, Flavio Goncalves, and the EmpiresX Crypto Ponzi Scheme That Fled to Brazil',
+    slug: 'emerson-pires-flavio-goncalves-empiresx-crypto-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.sec.gov/newsroom/press-releases/2022-119',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Fort_Myers_FL_city_hall01.jpg?width=1200',
+    coverImageCredit: 'Photo: Ebyabe, Wikimedia Commons (CC BY-SA 3.0) — Fort Myers, Florida, where Empires Consulting Corp. was based when Pires and Goncalves ran the EmpiresX fraud',
+    coverImagePosition: 50, // representative photo — replace with a portrait if found
+    body: `Emerson Sousa Pires and Flavio Mendes Goncalves, two Brazilian nationals living in Port St. Lucie, Florida, launched EmpiresX in September 2020 through a company called Empires Consulting Corp., registered out of a Fort Myers address. Their pitch was built around the same feature driving nearly every crypto-era Ponzi scheme: a proprietary "trading bot" that supposedly traded cryptocurrency, forex, and other commodity products on investors' behalf and generated guaranteed daily returns of roughly 1 percent — a pace that, left to compound, implied returns no legitimate trading strategy could sustain for long. Joining them as the operation's public face was Joshua David Nicholas of Stuart, Florida, billed as EmpiresX's "head trader," who fronted webinars and investor calls explaining how the bot worked.
+
+None of it was real. According to the Securities and Exchange Commission, Nicholas showed prospective investors a screenshot of what he described as EmpiresX's live, profitable trading account on a major exchange platform — a page the defendants had fabricated to mimic the real thing, since EmpiresX held no such account at all. The trio also falsely claimed EmpiresX was a properly registered hedge fund and concealed that Nicholas himself had previously been suspended by the National Futures Association for misappropriating customer funds in an earlier venture, a fact that would have been an obvious red flag to any investor who checked. Marketed through the company's website and social media, EmpiresX drew in more than $41 million from upwards of 12,500 investors around the world before it was through.
+
+Investor money did not go toward trading. Prosecutors and regulators say Pires, Goncalves, and Nicholas used it to fund their own lifestyles — leasing a Lamborghini, shopping at Tiffany & Co., and making payments toward a home — while using new deposits to keep paying out "returns" to earlier investors in the classic Ponzi pattern. By November 2021, withdrawal requests had stopped being honored altogether, and by early 2022 the founders had begun winding the operation down and leaving the country.
+
+The SEC, the Commodity Futures Trading Commission, and the Justice Department filed parallel actions on June 30, 2022, in the U.S. District Court for the Southern District of Florida. Nicholas was arrested, pleaded guilty on September 8, 2022, to conspiracy to commit securities fraud, and was sentenced that December to 51 months in federal prison plus three years of supervised release. Pires and Goncalves were not so easily reached: upon learning of the charges, both fled back to Brazil, whose constitution bars the extradition of its own citizens — leaving them, as of this writing, beyond the practical reach of U.S. prosecutors despite years of litigation.
+
+That litigation still produced a paper judgment. On February 4, 2025, U.S. District Judge Cecilia Altonaga entered a default judgment against the absent founders, ordering Pires and Goncalves to jointly pay more than $32 million in disgorgement and a $96.5 million civil penalty — a combined sanction north of $128 million, on top of the smaller penalties assessed against Nicholas — along with permanent bans from U.S. trading and registration. It is one of the largest crypto-fraud judgments on record, and one its own defendants have never had to answer for in an American courtroom.
+
+EmpiresX is a case study in how far a single fabricated screenshot can go: a fake account page, a fabricated hedge-fund registration, and a concealed regulatory history let three men extract tens of millions of dollars before any of it was checked. A "proprietary trading bot" that promises guaranteed daily returns is not a technology claim any outsider can verify — and by the time regulators catch up, the people who built it may already be beyond the court's reach.`,
+  },
+  {
+    title: 'Aiden Pleterski, Ontario\'s Self-Styled "Crypto King," and the Fraud Case That Ended in His Own Kidnapping',
+    slug: 'aiden-pleterski-crypto-king-ontario-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.cbc.ca/news/canada/toronto/ontario-s-crypto-king-and-his-associate-arrested-charged-with-fraud-1.7204958',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Whitby_GO_Station.jpg?width=1200',
+    coverImageCredit: 'Photo: GTD Aquitaine, Wikimedia Commons (public domain) — Whitby, Ontario, where Aiden Pleterski ran the AP Private Equity fraud scheme',
+    coverImagePosition: 50, // representative photo — replace with a portrait if found
+    body: `Aiden Pleterski built a public persona as Ontario's "Crypto King" while still in his early twenties, posting flashy displays of wealth and trading acumen on social media to attract clients to AP Private Equity Limited, a firm he ran out of Whitby, in Ontario's Durham Region. Between 2021 and 2022, according to Durham Regional Police and the Ontario Securities Commission, roughly 160 investors handed Pleterski and his associate Colin Murphy around CA$40 million (about US$30 million), believing it would be invested in cryptocurrency and foreign-exchange markets in exchange for outsized weekly returns.
+
+A trustee's review of the firm's books after it collapsed found that Pleterski had actually placed only about 1.6 percent of the money he received into any real investment. The rest, an estimated CA$15.9 million of it, went toward personal spending: a lakefront mansion, luxury vehicles, and vacations, according to bankruptcy filings. Complaints from investors triggered a joint investigation between Durham police and the OSC beginning in July 2022 — a probe police later described as the largest fraud investigation in the force's history.
+
+Before Pleterski ever faced a criminal charge, he became the victim of his own scheme's fallout. On December 5, 2022, he was abducted at gunpoint in Toronto and held for three days, during which his captors beat him, waterboarded him, burned him with cigarettes, and struck him with golf clubs while driving him between locations across southern Ontario, before forcing him to call his landlord to arrange a $3 million ransom and releasing him under threat to his life and his family's. Five men were eventually charged in connection with the kidnapping, including Akil Heywood, an investor who said he had lost roughly $740,000 to Pleterski, and Deren Akyeam-Pong, who pleaded guilty to nine charges including kidnapping, assault, and firearms offenses.
+
+The fraud case against Pleterski himself moved far more slowly. He and Murphy — charged separately with fraud over $5,000 — were arrested in May 2024, nearly two years after the investigation began, and Pleterski was charged with fraud and money laundering in connection with AP Private Equity. He has denied the fraud allegations, and a four-week jury trial was confirmed for October 5, 2026. Separately, in July 2025, Pleterski pleaded guilty in Newmarket, Ontario, to assault, harassment, and unlawfully entering a dwelling in connection with an intimate-partner-violence incident unrelated to the investment case.
+
+Pleterski's saga underscores an uncomfortable truth about affinity and image-based fraud in the crypto era: a slick social media presence, a self-applied nickname like "Crypto King," and a promise of steady weekly profits are marketing, not proof of any actual trading operation — and the same scheme that can empty 160 investors' accounts can just as easily turn its architect into a target himself. As of this writing, Pleterski's criminal fraud trial remains pending, with the underlying allegations against him still to be proven in court.`,
+  },
+);
+
 // Practical "how it works / red flags / what to do" guides covering the
 // major scam categories, the same kind of coverage the FTC's Consumer
 // Advice site and AARP's Fraud Watch Network publish — well-documented
