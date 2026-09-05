@@ -12858,10 +12858,9 @@ No legitimate bank, tech company, or federal agency will ever ask you to move yo
     slug: 'digital-wallet-ghost-tap-fraud-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'digital-wallet-fraud'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Contactless_payment_1_2023-06-17.jpeg?width=1200',
-    coverImageCredit: 'Photo: Fastily (CC BY-SA 4.0)',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Google_Pay_and_Apple_Pay_options_above_a_VeriFone_H5000_at_the_Rossmann,_Bunde_(2019).jpg?width=1200',
+    coverImageCredit: 'Donald Trung, CC BY-SA 4.0, via Wikimedia Commons — Apple Pay and Google Pay options on a real retail payment terminal',
     coverImagePosition: 50,
-    // representative photo — replace with an exact match if found
     sourceUrl: 'https://krebsonsecurity.com/2025/02/how-phished-data-turns-into-apple-google-wallets/',
     body: `It usually starts the way an unpaid-toll or missed-package text scam always does: a message claiming a small balance is due, with a link to a fake payment page that harvests a card number and billing details. What makes this version different is the follow-up. Shortly after entering card details, the victim gets a text or call claiming their bank needs to "verify" the card, and reads them a one-time passcode to confirm it's really theirs. That code isn't verifying anything — it's the real confirmation code needed to load the stolen card onto an Apple Pay or Google Pay wallet on a phone the scammer controls, and reading it aloud hands over the last piece needed to finish the job.
 
@@ -14142,10 +14141,9 @@ Apply for Lifeline only through the official National Verifier at checklifeline.
     slug: 'gig-delivery-driver-phishing-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'gig-delivery-driver-scam'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Smartphone_mounted_on_car_dashboard_during_a_drive_in_a_modern_vehicle_with_a_focus_on_navigation_use.jpg?width=1200',
-    coverImageCredit: 'Photo: Nenad Stojković (CC BY 2.0)',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/DoorDash_Logo.svg?width=1200',
+    coverImageCredit: 'DoorDash (PD-textlogo), via Wikimedia Commons — one of the two real platforms named in the article',
     coverImagePosition: 50,
-    // representative photo — replace with an exact match if found
     sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2023/07/scammers-impersonate-delivery-service-support-rip-drivers-restaurants',
     body: `A driver for DoorDash, Uber Eats, Instacart, or a similar gig-delivery platform gets a call, text, or in-app message from someone claiming to be from the platform's support team — often about something mundane: a customer complaint on a recent order, a payment error, a canceled order that needs to be "refunded," or an unsolicited offer of free equipment like a tablet or printer to help manage orders. The tone is routine and helpful, exactly the kind of account-issue message a driver might expect after any ordinary shift, which is what makes it easy to let the guard down.
 
@@ -14936,10 +14934,9 @@ Anyone considering one of these agreements should get a second, more conventiona
     slug: 'peer-to-peer-car-sharing-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'car-sharing-scam'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Someone_handing_a_key_over.jpg?width=1200',
-    coverImageCredit: 'Photo: Kaboompics (CC0)',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Turo_(company)_logo.svg?width=1200',
+    coverImageCredit: 'Turo (PD-textlogo), via Wikimedia Commons — one of the two real platforms named in the article',
     coverImagePosition: 50,
-    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.bbb.org/all/auto/renting-sharing-cars/renting-a-car',
     body: `Apps like Turo and Getaround let car owners rent out their personal vehicles directly to strangers, cutting out the traditional rental counter — and cutting out a lot of the built-in protections that come with it. The scams that grow out of this arrangement run in both directions. Renters get hit with damage claims filed days or weeks after a trip ends, for dents, scratches, or interior stains the host can't prove happened during the rental, along with toll and parking-violation charges for roads the renter never drove or citations issued after the car was already returned. Because the claim is submitted through the platform well after the keys were handed back, a renter with no dated photos of the car's condition has almost nothing to push back with.
 
@@ -15193,10 +15190,9 @@ The safest response is not to answer unfamiliar numbers at all and let them go t
     slug: 'bbb-impersonation-phishing-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'impersonation-scam'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Phishing_attempt.png?width=1200',
-    coverImageCredit: 'Photo: Chris Lappas (CC BY-SA 4.0)',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Better_Business_Bureau.svg?width=1200',
+    coverImageCredit: 'Better Business Bureau (PD-textlogo), via Wikimedia Commons — the real BBB logo scammers impersonate',
     coverImagePosition: 50,
-    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.bbb.org/all/spot-a-scam/how-to-spot-a-bbb-impostor',
     body: `An email lands in a small business owner's inbox with the Better Business Bureau's logo across the top, warning that a customer has filed a formal complaint and that the business has a limited window to respond before the complaint becomes public or "affects" its rating. A link promises to show the complaint details or let the business file an appeal. In a different version, a phone caller identifies themselves as a BBB representative offering to fix a low rating, sell "accreditation," or help resolve debt — services the real BBB doesn't provide in the way the caller describes. Because the Better Business Bureau's actual job is handling exactly the kind of complaint the message describes, the impersonation lands with unusual credibility.
 
@@ -15528,10 +15524,9 @@ Don't call the number printed on an unsolicited postcard. If a mailing claims to
     slug: 'franchise-sales-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'franchise-sales-scam'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Jazzercise_Franchise_Ann_Arbor_Michigan.JPG?width=1200',
-    coverImageCredit: 'Photo: Dwight Burdette (CC BY 3.0)',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Club_Pilates_-_Silver_Spring,_Maryland.jpg?width=1200',
+    coverImageCredit: 'Photo: Farragutful (CC BY-SA 4.0) — a Club Pilates studio, one of Xponential Fitness\'s franchise brands',
     coverImagePosition: 50,
-    // representative photo — replace with an exact match if found
     sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2026/03/protecting-franchisees-ftcs-case-against-xponential-fitness',
     body: `Buying a franchise is pitched as a shortcut around the riskiest part of starting a business: instead of building a brand from nothing, a buyer pays a franchise fee and ongoing royalties for the right to open a store under an established name, with training, marketing, and a proven playbook supposedly included. That pitch is real for plenty of franchise systems — but it's also exactly the story a deceptive franchisor tells a prospective buyer who has no independent way to check whether it's true, and federal regulators have brought a steady stream of cases against companies that sold that story while hiding the parts that would have talked buyers out of signing.
 
@@ -17153,10 +17148,9 @@ Use WIC benefits only at an authorized vendor and only for the exact items liste
     slug: 'nanny-caregiver-job-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'nanny-caregiver-job-scam'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Baby_sitter.jpg?width=1200',
-    coverImageCredit: 'Mstephen247, CC BY-SA 4.0, via Wikimedia Commons',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Care.Com_Logo.svg?width=1200',
+    coverImageCredit: 'Care.com (CC0), via Wikimedia Commons — the real platform scammers target with fake job offers',
     coverImagePosition: 50,
-    // representative photo — replace with an exact match if found
     sourceUrl: 'https://consumer.ftc.gov/articles/nanny-and-caregiver-job-scams',
     body: `Samantha Stahl, a 24-year-old graduate student at Columbia College Chicago, was looking for nanny work on Care.com when someone texting under the names "Brenda and Cody Davies" reached out, saying they were relocating from Ontario, Canada to Chicago with their two-year-old son and offering her $450 a week once they arrived. Before the family had even landed, "Brenda" asked Stahl to run a few errands and sent her a check for $2,000 — far more than the $450 she was actually owed — telling her to keep her pay and use the remaining $1,550 to buy Apple gift cards for family birthdays, then text back the codes printed on the back of each card. Stahl deposited the check, and her bank showed the funds as available within a day or two, long before the check had actually been verified as good. She hesitated before sending the gift card codes — and days later, the check bounced, leaving her on the hook to her bank for money that had briefly, deceptively appeared to be hers. "It really sounded all legit because of all the details she was giving me," Stahl told the Chicago Sun-Times. "It's really crazy how people think they can prey on young adults."
 
@@ -18154,10 +18148,9 @@ Booking Holdings isn't the only hotel-adjacent company to face this kind of acti
     slug: 'shutterstock-subscription-cancellation-fee-settlement-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'stock-photo-subscription-negative-option-scam'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/DSLR Camera with Lens on a Tripod head.jpg?width=1200',
-    coverImageCredit: 'Photo: James Niland (CC BY 2.0), via Wikimedia Commons',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Shutterstock_logo_2025.svg?width=1200',
+    coverImageCredit: 'Shutterstock (PD-textlogo), via Wikimedia Commons — the real company named in the FTC settlement',
     coverImagePosition: 50,
-    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2026/05/shutterstock-pay-35-million-settle-ftc-allegations-over-illegal-subscription-cancellation-practices',
     body: `A subscription that's easy to start and hard to stop is one of the oldest patterns in online billing, and it isn't limited to sketchy, fly-by-night sites — it can happen at a company whose stock photos and videos show up across mainstream advertising, journalism, and social media. In May 2026, the FTC announced that Shutterstock, Inc. agreed to pay $35 million to settle federal charges that its subscription and cancellation practices broke both the FTC Act and the Restore Online Shoppers' Confidence Act (ROSCA), the federal law that specifically targets deceptive negative-option billing — subscriptions that keep charging a customer's card automatically unless they take some affirmative action to stop it.
 
