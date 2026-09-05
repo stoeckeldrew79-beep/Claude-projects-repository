@@ -8886,9 +8886,8 @@ Jooste's death closed the door on a criminal prosecution — South African charg
     slug: 'arif-naqvi-abraaj-group-private-equity-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
-    // representative photo — replace with a portrait if found
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Dubai_Marina_Skyline.jpg?width=1200',
-    coverImageCredit: 'Photo: Norlando Pobre, Wikimedia Commons (CC BY 2.0) — Dubai, where Arif Naqvi built the Abraaj Group into the largest private equity firm in the Middle East before its 2018 collapse',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Arif_M._Naqvi_-_World_Economic_Forum_on_the_Middle_East_2008.jpg?width=1200',
+    coverImageCredit: 'Photo: World Economic Forum, Wikimedia Commons (CC BY-SA 2.0)',
     coverImagePosition: 50,
     body: `Arif Naqvi founded Abraaj Capital in Dubai in 2002 with a pitch that appealed to development-minded investors worldwide: private equity returns paired with real social impact, deploying capital into hospitals, infrastructure, and growing businesses across Africa, Asia, Latin America, and the Middle East. After merging with Aureos Capital in 2012, the renamed Abraaj Group grew into the largest private equity firm in the region, managing roughly $14 billion at its peak and drawing money from marquee institutional investors, sovereign wealth funds, and development-finance institutions who saw Naqvi as emerging markets' answer to Western buyout titans.
 
