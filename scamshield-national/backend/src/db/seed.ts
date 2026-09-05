@@ -9279,6 +9279,10 @@ NOTORIOUS_ARTICLES.push(
     slug: 'sanjay-williams-jamaican-lottery-operation-hard-copy',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Exterior,_Federal_Building_and_U.S._Courthouse,_Fargo,_North_Dakota_LCCN2010719569.tif?width=1200',
+    coverImageCredit: 'Photo: Carol M. Highsmith / Library of Congress (Public Domain) — the federal courthouse in Fargo, North Dakota, where "Operation Hard Copy" was based',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `The Jamaican Lottery Fraud is a form of advance-fee scam in which callers based in Jamaica telephone Americans — disproportionately elderly ones — and tell them they've won a multimillion-dollar prize in a sweepstakes like Publishers Clearing House or Mega Millions, plus a new car. To collect it, the victim only needs to first wire a "processing fee," pay "taxes," or send prepaid gift cards. There is no prize. The scam runs on "lead lists": names, phone numbers, ages, and other personal details of prospective victims, typically Americans who had previously responded to some other sweepstakes offer or fallen for an earlier scam, making them likelier targets a second time. Those lists are compiled in the United States and sold to scam callers overseas for roughly $200 to $500 per hundred names.
 
 Sanjay Ashani Williams was one of the largest lead-list brokers supplying that pipeline. Working out of Jamaica, he sold victim lists to hundreds of lottery-fraud callers, including codefendant Lavrick Willocks; federal investigators identified the two men as leaders of separate, competing scam networks that together were traced to more than 70 victims and over $5.6 million in losses. The case that ultimately brought Williams down began when an FBI agent based in North Dakota, Frank Gasper, interviewed a woman in Harvey, North Dakota, who said a caller had told her she'd won $19 million and a new car, and needed only to pay taxes and fees to collect it — she sent $300,000 before realizing it was fraud. That single complaint helped launch "Operation Hard Copy," a multi-agency investigation based in the District of North Dakota that ultimately identified more than 100 victims across 31 states and 97 cities, with reported losses exceeding $6 million; individual victims lost as little as $199 and, in one case, as much as $850,000.
@@ -9315,6 +9319,10 @@ NOTORIOUS_ARTICLES.push(
     slug: 'farid-fata-unnecessary-chemotherapy-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Theodore_Levin_United_States_Courthouse,_Detroit_Federal_Building,_Detroit,_Michigan_LCCN2010719527.tif?width=1200',
+    coverImageCredit: 'Photo: Carol M. Highsmith / Library of Congress (Public Domain) — the federal courthouse in Detroit where Fata was sentenced',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Farid Fata was a hematologist-oncologist who built a network of seven cancer-treatment clinics across suburban Detroit, Michigan Hematology Oncology Centers, that at its peak was one of the largest oncology practices in the state. Patients trusted him with the most frightening diagnosis a doctor can deliver, and he used that trust as the mechanism for a fraud that didn't just take money from insurers — it inflicted unnecessary chemotherapy, radiation, and other toxic treatments directly onto the bodies of hundreds of people, some of whom did not have cancer at all.
 
 Fata's billing depended on volume: the more infusions, injections, and rounds of aggressive treatment he administered, the more he could charge Medicare and private insurers. Prosecutors later detailed how he diagnosed cancer in patients who did not have it, prescribed unnecessarily aggressive chemotherapy regimens to patients whose actual cancer required far less, and kept some patients on infusion therapies indefinitely long after any legitimate course of treatment should have ended — in one instance continuing to bill for and administer cancer treatment to a patient after her death. In total, prosecutors identified 553 patients who received medically unnecessary infusions or injections at his clinics, part of roughly $34 million in fraudulent claims submitted to Medicare and private insurance.
@@ -9331,6 +9339,10 @@ The Fata case is frequently cited in health-fraud enforcement and medical-ethics
     slug: 'glafira-rosales-knoedler-gallery-forgery',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/M._Knoedler_%26_Co._(interior.),_from_Robert_N._Dennis_collection_of_stereoscopic_views.jpg?width=1200',
+    coverImageCredit: 'New York Public Library, Robert N. Dennis collection of stereoscopic views (Public Domain) — the interior of M. Knoedler & Co.\'s gallery, c. 1860s-1880s',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Knoedler & Company was, until 2011, one of the oldest and most prestigious art galleries in New York, in business since 1846 and having sold works to collectors including Andrew Mellon and the National Gallery of Art. That reputation was exactly what made it a viable outlet for one of the largest art forgery schemes in American history — one that ran for roughly 14 years before it collapsed the gallery entirely.
 
 Beginning around 1994, Long Island art dealer Glafira Rosales began bringing paintings to Knoedler's longtime director, Ann Freedman, that she claimed came from an anonymous collector — later described as the son of a wealthy client with a private collection of undiscovered Abstract Expressionist works, who wished to remain unidentified. The paintings were represented as previously unknown works by major postwar American artists: Mark Rothko, Jackson Pollock, Willem de Kooning, Robert Motherwell, Barnett Newman, Franz Kline, and Sam Francis among them. Knoedler and a second gallery, Julian Weissman Fine Art, went on to sell more than 30 of these paintings for a combined total later estimated at roughly $80 million, including one purported Rothko that sold for $8.3 million and a purported Pollock that sold for $17 million.
