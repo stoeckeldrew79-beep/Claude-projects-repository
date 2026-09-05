@@ -38731,6 +38731,48 @@ SEED_SCAMS.push(
   },
 );
 
+// Three new, real, sourced additional-scam cases for Georgia (GA),
+// Connecticut (CT), and the District of Columbia (DC) — a brace-depth-aware
+// parse of the entire SEED_SCAMS region (initial array + every subsequent
+// .push() block) found these tied for the fewest entries among states not
+// recently touched; each case below uses a category not already covered
+// for that state (verified before adding).
+SEED_SCAMS.push(
+  {
+    name: 'Georgia Department of Driver Services Fake Traffic-Ticket Text Scam',
+    slug: 'georgia-dds-traffic-ticket-text-scam',
+    description: `The Georgia Department of Driver Services (DDS) has repeatedly warned residents about a recurring smishing campaign in which fraudulent text messages claim the recipient owes an unpaid traffic fine or must resolve a driving violation, then direct them to click a link and enter personal or financial information on a website designed to look like the real DDS site. DDS Commissioner Spencer R. Moore's office has flagged several tells that expose the messages as fake: they reference a "Georgia Department of Motor Vehicles," an agency that does not exist in Georgia (the state agency is DDS, not a DMV); they cite fabricated administrative codes; and some versions mention toll booths, even though Georgia replaced its toll booths with all-electronic Peach Pass Express Lanes years ago. DDS has issued the same warning multiple times, including press releases in May and September 2025 and again in April 2026, after the campaign kept resurfacing with minor variations. The agency states plainly that DDS employees will never contact customers by text to request payment or confidential information, and that legitimate license or registration notices arrive by official mail, not text message; residents who receive such a text are told to delete it without clicking any link and to verify any real obligation directly through the official DDS website.`,
+    categorySlug: 'government-impersonation',
+    country: 'US',
+    state: 'GA',
+    alertLevel: 'medium',
+    sources: ['Georgia Department of Driver Services', 'Atlanta News First', '11Alive'],
+    sourceUrl: 'https://dds.georgia.gov/press-releases/2025-09-15/continued-text-message-scams',
+  },
+  {
+    name: 'Connecticut DRS Tax-Debt-Relief Phone Impersonation Scam',
+    slug: 'connecticut-drs-tax-debt-relief-phone-scam',
+    description: `Connecticut's Department of Revenue Services (DRS) issued a warning on August 27, 2025, alerting taxpayers to a phone-based impersonation scam in which callers claim to be DRS representatives offering to reduce or settle a taxpayer's back taxes. According to DRS, the calls typically originate from phone numbers without a Connecticut area code, and callers sometimes claim to be calling from a DRS office that does not actually exist within the department, using the offer of tax relief as a pretext to draw victims into disclosing Social Security numbers, bank account details, and other sensitive tax information over the phone. DRS emphasized that the department will never initiate contact by text message or social media to discuss a taxpayer's personal tax information, and that legitimate DRS correspondence about an account or a payment plan comes through official mail or the taxpayer's own login to the state's myconneCT portal — not an unsolicited cold call promising a discount on back taxes. The department urged anyone who receives such a call to hang up without providing any information and to report the attempt using DRS's online fraud-referral form, rather than calling back a number provided by the caller.`,
+    categorySlug: 'tax-scams',
+    country: 'US',
+    state: 'CT',
+    alertLevel: 'medium',
+    sources: ['Connecticut Department of Revenue Services', 'WTNH News 8', 'Hartford Business Journal'],
+    sourceUrl: 'https://portal.ct.gov/drs/press-room/press-releases/2025/warning---scammers-offering-tax-assistance',
+  },
+  {
+    name: 'DC Attorney General Alert on Sweepstakes and Lottery Prize-Fee Scams',
+    slug: 'dc-sweepstakes-lottery-prize-fee-scam',
+    description: `The Office of the D.C. Attorney General has issued a standing consumer alert warning District residents about sweepstakes and lottery scams in which someone contacts a person by phone, mail, or online message claiming they have won a cash prize — often a foreign lottery, which is illegal for U.S. residents to legally play or win under federal law — despite the recipient never having entered any such drawing. The scheme's mechanics follow a consistent pattern: after generating excitement over a supposed win, the caller asks the victim to first pay a fee, described as covering "taxes," "shipping," "processing," or "insurance," before the prize can be released, and some callers falsely claim to represent a federal entity such as a "Federal Sweepstakes Board" to lend the request an air of official legitimacy. OAG's alert lists the red flags District residents should recognize: unsolicited notice of a win for a sweepstakes never entered, any request for upfront payment to "claim" winnings, and any contact claiming to represent a government prize authority, since no legitimate sweepstakes or lottery — and no real government agency — will ever ask a winner to pay money or hand over personal information before releasing a prize. The Office's guidance to residents is direct: do not respond, do not send any money, and do not give out personal information; District residents who encounter such a scam can file a complaint with OAG's Office of Consumer Protection, the FTC, or the U.S. Postal Inspection Service.`,
+    categorySlug: 'lottery-sweepstakes-scams',
+    country: 'US',
+    state: 'DC',
+    alertLevel: 'medium',
+    sources: ["Office of the Attorney General for the District of Columbia"],
+    sourceUrl: 'https://oag.dc.gov/consumer-protection/consumer-alert-sweepstakes-and-lottery-scams',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
