@@ -5026,10 +5026,9 @@ In late 1976, facing a renewed French extradition order he believed he could not
     slug: 'affair-of-the-diamond-necklace',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Le_Collier_de_la_reine.jpg?width=1200',
-    coverImageCredit: 'Photo: Château de Breteuil (CC BY-SA 4.0)',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Cardinal_Rohan2.jpg?width=1200',
+    coverImageCredit: 'Portrait: Cardinal de Rohan, unidentified 18th-century French painter (public domain)',
     coverImagePosition: 50,
-    // representative photo — replace with a portrait if found
     body: `In 1784, a French noblewoman of little money but grand pretensions, Jeanne de Saint-Rémy de Valois, self-styled Comtesse de la Motte, set her sights on an extraordinarily expensive piece of jewelry: a 2,800-carat diamond necklace, commissioned years earlier for King Louis XV's mistress and never sold, that Parisian jewelers Boehmer and Bassenge were desperate to unload at a price of 1.6 million livres — one of the most valuable objects in France. La Motte had no means to buy it herself. What she had was access to Cardinal Louis René Édouard de Rohan, a wealthy, socially ambitious churchman who had fallen badly out of favor with Queen Marie Antoinette and was desperate to win back royal favor.
 
 La Motte convinced Rohan that the Queen secretly wished to buy the necklace but could not be seen doing so openly, and that helping arrange the purchase in secret would restore him to the Queen's good graces. To make the deception convincing, La Motte staged a nighttime meeting in the gardens of Versailles between Rohan and a woman he believed to be Marie Antoinette herself — in reality a prostitute named Nicole Le Guay d'Oliva, dressed and coached to resemble the Queen, who handed Rohan a rose and a few whispered words in the dark. Convinced, the Cardinal signed a purchase agreement on the Queen's supposed behalf, took delivery of the necklace from the jewelers in early 1785, and handed it directly to La Motte to deliver to the Queen. La Motte's husband instead broke the necklace apart and sold its diamonds individually in London.
