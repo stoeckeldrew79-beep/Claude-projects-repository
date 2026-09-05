@@ -9769,6 +9769,37 @@ On November 1, 2024, U.S. District Judge Margo Brodie sentenced Michel in Brookl
     sourceUrl: 'https://www.bloomberg.com/news/articles/2024-11-01/mutant-ape-planet-nft-fraudster-avoids-prison-in-investor-scam',
   },
 );
+NOTORIOUS_ARTICLES.push(
+  {
+    title: 'Kris Roglieri and the Prime Capital Ventures "Loan Deposit" Scheme That Bilked Clients Out of Tens of Millions',
+    slug: 'kris-roglieri-prime-capital-ventures-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/James_T._Foley_United_States_Courthouse,_Albany,_New_York.jpg?width=1200',
+    coverImageCredit: 'Photo: Beyond My Ken, Wikimedia Commons (CC BY-SA 4.0) — the James T. Foley U.S. Courthouse in Albany (Northern District of New York), where Kris Roglieri was prosecuted and sentenced',
+    coverImagePosition: 50,
+    body: `Kris Roglieri ran Prime Capital Ventures, LLC out of Queensbury, New York, marketing it to small and mid-sized businesses as a commercial lender able to arrange large loans — sometimes tens of millions of dollars — through third-party funding sources when a client's own bank couldn't or wouldn't provide that kind of financing. To start the process, Prime Capital told prospective borrowers to make an upfront "Interest Credit Account," or ICA, payment: money the company said would help it secure the promised loan, and that it promised in writing to refund in full if the loan never closed.
+
+From mid-2022 through January 2024, prosecutors said, that promise was the fraud. Roglieri and associates collected ICA payments from a stream of clients while, according to the Justice Department, using much of the incoming money not to fund any real loans but to repay earlier clients who were asking for their promised refunds — a Ponzi-style shell game that kept the business looking active as long as new deposits kept arriving. Roglieri personally spent large sums of what clients believed was collateral for their loans: an $84,000 Rolex with a gold diamond bezel (one of roughly seven watches he owned), a $101,000 round-trip private jet flight from Albany to Anguilla for a family vacation, exotic cars, and a Virginia Beach, Virginia mansion.
+
+The scheme collapsed as more clients demanded refunds Prime Capital could no longer produce. Federal prosecutors indicted Roglieri on wire fraud conspiracy charges, and the FBI arrested him on May 31, 2024; he was later hit with an additional charge for allegedly threatening an FBI agent investigating the case while he awaited trial, and was held without bail at the Rensselaer County jail. Two associates, Kimberly Owen (known as "Kimmy Humphrey") and her brother Christopher Snyder, who prosecutors said helped Roglieri communicate with clients and collect deposits while portraying the loan process as active, separately pleaded guilty to their roles in the conspiracy.
+
+Roglieri pleaded guilty on November 13, 2025, to one count of wire fraud conspiracy. U.S. District Judge Mae A. D'Agostino sentenced him in the Northern District of New York to 97 months — just over 8 years — in federal prison, followed by three years of supervised release, and ordered him to forfeit a money judgment of $55,484,674.84 along with twelve vehicles, eight watches, the Virginia Beach mansion, and other property traced to the scheme. The case is a reminder that an "advance deposit," even one backed by a written refund promise, is worth exactly as much as the company's ability to actually make it good — and that a lender who needs your money before it can lend you any of its own may not be a lender at all.`,
+    sourceUrl: 'https://www.justice.gov/usao-ndny/pr/prime-capital-ventures-ceo-sentenced-97-months-multimillion-dollar-wire-fraud',
+  },
+  {
+    title: 'Danh Vo and the VBit Technologies Bitcoin Mining Scheme That Sold More Rigs Than It Ever Owned',
+    slug: 'danh-vo-vbit-technologies-bitcoin-mining-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `Danh C. Vo ran VBit Technologies Corp., a Philadelphia-based bitcoin mining company, on a pitch aimed squarely at people who wanted crypto exposure without the hassle of buying and running mining hardware themselves: pay VBit for a "Hosting Agreement," and the company would run and maintain a physical mining rig on your behalf, passing along a share of whatever bitcoin it mined. Between December 2018 and February 2022, the SEC says, VBit sold Hosting Agreements to roughly 6,400 investors and raised more than $95.6 million on the strength of that promise.
+
+The trouble, according to the SEC's December 2025 complaint, is that VBit sold far more Hosting Agreements than it had rigs to back them. At one point in 2021, the company had sold agreements tied to more than 8,400 mining rigs while actually operating only 1,643 — meaning the overwhelming majority of investors were paying for a share of mining capacity that, physically, did not exist. Rather than the returns Hosting Agreement holders were promised, the SEC alleges Vo simply diverted the money: prosecutors say he misappropriated roughly $48.5 million of investor funds for gambling, cryptocurrency purchases for himself, and cash gifts of around $5 million to family members, including his ex-wife, mother, brother, and sister.
+
+The scheme came apart as VBit's obligations to its Hosting Agreement customers outran what its actual mining operation could ever produce. Rather than face the fallout, the SEC says Vo left the United States for Vietnam with what remained of the misappropriated funds, leaving investors and regulators behind. The SEC filed a civil fraud complaint against Vo in federal court in Delaware on December 17, 2025, charging violations of the registration and antifraud provisions of the federal securities laws and naming his ex-wife, mother, brother, and sister as relief defendants who received the diverted funds; the family members have consented to disgorgement judgments returning that money. The SEC is seeking a permanent injunction, disgorgement with interest, civil penalties, and an officer-and-director bar against Vo, who as of the filing remained outside the country and outside the reach of U.S. law enforcement. The case is a reminder that a "hosting" or "hashrate" pitch selling a share of a physical machine is only as real as an independent count of the machines themselves — something almost no retail investor is ever in a position to verify before sending the money.`,
+    sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26448',
+  },
+);
 
 // Practical "how it works / red flags / what to do" guides covering the
 // major scam categories, the same kind of coverage the FTC's Consumer
