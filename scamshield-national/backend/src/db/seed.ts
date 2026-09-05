@@ -16621,6 +16621,47 @@ An HOA or condo board doesn't have to wait for a headline case like this one to 
 
 GUIDE_ARTICLES.push(
   {
+    title: 'The Hopper "Swipe to Book" Settlement: How a Travel App\'s Pre-Checked Fees Collected $85.6 Million Consumers Never Agreed To',
+    slug: 'hopper-travel-app-hidden-fees-settlement-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'travel-app-hidden-fee-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Check-In_at_Riga_Airport.jpg?width=1200',
+    coverImageCredit: 'Photo: Markus Winkler, markuswinkler.de, CC BY 4.0, via Wikimedia Commons',
+    coverImagePosition: 50,
+    sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2026/07/travel-app-hopper-pay-35-million-settle-ftc-allegations-it-charged-fees-without-consent-deceived',
+    body: `A traveler searching Hopper for a flight or hotel would get to checkout and see a "total price" next to a Swipe to Book button — the kind of clean, final-looking screen that makes a purchase feel safe to complete without scrolling any further. According to the FTC, that screen was hiding something: two additional charges, labeled a "Tip" and "VIP Support," that were already pre-selected as if the traveler had chosen to add them, sitting on a part of the screen that only became visible if the customer scrolled down past the total. Between 2021 and 2023, the FTC says, that design collected roughly $18 million in Tip fees and $67.6 million in VIP Support fees — a combined $85.6 million — from users who, in large part, never realized they had agreed to pay either one. In July 2026, Hopper agreed to a $35 million settlement to resolve the FTC's case.
+
+What makes the case more than a garden-variety hidden-fee complaint is what the FTC says Hopper's own staff knew about it at the time. The agency's complaint quotes internal company communications in which an employee flagged the design directly: "To me, the problem here is that we're tricking users." Internal testing had reportedly shown that when the fees were disclosed clearly, most customers declined to pay them — a result the complaint frames as evidence the company understood exactly what made the pre-checked, scroll-to-see design effective, and chose to keep it anyway.
+
+The FTC's complaint also targeted two paid add-on products Hopper sold on top of a booking. VIP Support was marketed as a way to reach customer service "instantly" or within 5 to 10 minutes; the FTC alleges many customers who paid for it couldn't get through to a representative at all. Price Freeze — pitched as a way to lock in an advertised fare or rate so a traveler could book the same trip later at the same price — came with restrictions the company allegedly failed to disclose clearly, including that the frozen price only held up to a certain dollar amount and only if the original booking was still available when the traveler came back to use it. The FTC also says Hopper promised that the Price Freeze fee itself would be credited toward the final cost of the booking, and then didn't apply it as promised.
+
+None of this required a traveler to do anything wrong — the deception was built into the checkout flow itself, which is precisely why the FTC pursued it as a violation of the agency's rule against unfair or deceptive fees rather than treating it as an isolated billing dispute. The $35 million settlement funds consumer redress, and going forward Hopper is barred from charging fees it hasn't clearly disclosed and from misrepresenting what its total price, VIP Support, or Price Freeze products actually deliver.
+
+The practical defense for any online travel purchase — on Hopper or any other booking app — is to always scroll past the "total" shown at the top of a checkout screen before tapping any button that finalizes a purchase, since that is exactly where an added, pre-selected fee is designed to hide. Before paying for any promised perk like guaranteed live support or a locked-in price, look specifically for the dollar limits, time limits, and availability conditions attached to it — a real guarantee is written down, not implied by a product's name. Anyone who believes they were charged a fee they never knowingly agreed to should dispute it with their card issuer and can file a complaint with the FTC at ReportFraud.ftc.gov; consumers who paid Hopper's Tip or VIP Support fees during the period the FTC investigated should watch for redress instructions tied to the settlement.`,
+  },
+  {
+    title: '"Active Listening": The AI Ad-Targeting Service the FTC Says Was Never Actually Listening',
+    slug: 'active-listening-ai-ad-targeting-ftc-settlement-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'active-listening-ad-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Echo_Dot_(3rd_Gen)_03.jpg?width=1200',
+    coverImageCredit: 'Photo: Samuel Wiki, CC0, via Wikimedia Commons',
+    coverImagePosition: 50,
+    sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2026/08/ftc-finalizes-orders-cox-media-group-two-other-firms-settling-charges-they-deceived-customers-about',
+    body: `Almost everyone has had the unsettling experience of mentioning something out loud — a product, a vacation spot, a brand name — and then seeing an ad for exactly that thing turn up on a phone minutes later. For years, the most common explanation people reached for was that a phone's microphone must be secretly listening. In late 2023, a leaked pitch deck seemed to confirm the fear directly: it described an advertising product called "Active Listening," built by a marketing arm of Cox Media Group and sold to small businesses, that claimed to use a "special algorithm" to pick up nearby conversations from smartphones, smart TVs, and other microphone-equipped devices, and convert them into hyper-targeted local ads — sold, the materials said, with the consumer's consent already secured.
+
+In August 2026, the FTC finalized settlements with three companies behind that pitch — Georgia-based CMG Media Corporation (Cox Media Group), New Hampshire-based MindSift LLC, and Wisconsin-based 1010 Digital Works LLC — over exactly what the "Active Listening" service actually was. According to the FTC's complaint, it wasn't voice-based at all: the ad targeting the companies sold was built from ordinary email lists purchased from third-party data brokers and resold to small-business clients at a substantial markup, with no consumer voice data collected, analyzed, or used at any point. The FTC also said consumers had never actually consented to anything, because the underlying "listening" the pitch described was never happening in the first place. MindSift and 1010 Digital Works, the FTC found, went further by supplying CMG with the marketing materials, sales scripts, and answers to customer questions that kept the false claim alive with the small businesses buying the service.
+
+The three companies agreed to pay a combined $930,000 — $880,000 from CMG and $25,000 each from MindSift and 1010 Digital Works — to settle the FTC's charges, with the money set aside to redress CMG customers harmed by the deception. The FTC's own language on the underlying claim is worth sitting with: the agency noted that if the "Active Listening" service had actually functioned as advertised — genuinely capturing and using consumers' voice data without their knowledge or consent — that conduct would itself have violated the FTC Act. In other words, the product being sold would have been illegal if it were real; instead, it was a different kind of violation, because it wasn't.
+
+The case doesn't prove a phone's microphone is never a privacy risk — apps do request microphone permissions, and voice assistants do process spoken commands they're built to listen for. But it is direct evidence, from the one advertising product publicly built and marketed around the specific claim of covert conversation-based ad targeting, that the capability as pitched to small businesses was fabricated, and that the uncannily well-targeted ad someone sees after a spoken conversation is far more likely explained by the ordinary, less mysterious machinery of modern advertising: location data, browsing and purchase history, app-tracking identifiers, and precisely the kind of purchased data-broker lists the FTC says were doing the real work here.
+
+Consumers concerned about ad targeting tied to a phone's microphone can review and limit microphone and ad-tracking permissions app by app in their phone's privacy settings, opt out of ad personalization where a platform offers it, and treat any business's claim to "hear" and target them through their device with skepticism rather than assuming it's confirmed fact. Small businesses that were sold the "Active Listening" service and believe they were misled about what it actually delivered can file a complaint with the FTC at ReportFraud.ftc.gov.`,
+  },
+);
+
+GUIDE_ARTICLES.push(
+  {
     title: 'Diabetic Test Strip Buyback Scams: Why "We Pay Cash for Your Unused Strips" Often Doesn\'t Pay at All',
     slug: 'diabetic-test-strip-buyback-scam-guide',
     author: 'ScamShield Editorial',
