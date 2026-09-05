@@ -1,0 +1,57 @@
+name: Deliver ScamShield content to main
+
+on:
+  push:
+    branches: [claude/scamshield-national-phase1]
+  schedule:
+    - cron: '5 */6 * * *'
+  workflow_dispatch:
+
+concurrency:
+  group: deliver-content-to-main
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  deliver:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: main
+
+      - name: Check whether anything needs delivering
+        id: check
+        run: |
+          git fetch origin claude/scamshield-national-phase1
+          n=$(git rev-list --count HEAD..origin/claude/scamshield-national-phase1)
+          echo "count=$n" >> "$GITHUB_OUTPUT"
+          echo "$n commit(s) to deliver"
+
+      - name: Merge content branch
+        if: steps.check.outputs.count != '0'
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git merge --no-ff origin/claude/scamshield-national-phase1 \
+            -m "Deliver ${{ steps.check.outputs.count }} ScamShield content commit(s) to main"
+
+      - name: Verify the merged tree
+        if: steps.check.outputs.count != '0'
+        run: |
+          fail=0
+          check() { if eval "$2"; then echo "ok   $1"; else echo "FAIL $1"; fail=1; fi; }
+          check "pipertown-studios/ populated" '[ -n "$(ls -A pipertown-studios 2>/dev/null)" ]'
+          check "setup.js root install step"   'grep -q "install, root)" scamshield-national/scripts/setup.js'
+          check "setup.js docker guard"        'grep -qi "docker" scamshield-national/scripts/setup.js'
+          check "scamshield root lockfile"     '[ -f scamshield-national/package-lock.json ]'
+          check "root CLAUDE.md"               '[ -f CLAUDE.md ]'
+          check "root README.md"               '[ -f README.md ]'
+          exit $fail
+
+      - name: Push to main
+        if: steps.check.outputs.count != '0'
+        run: git push origin HEAD:main
