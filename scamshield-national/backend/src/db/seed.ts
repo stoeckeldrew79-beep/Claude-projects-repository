@@ -13707,10 +13707,9 @@ If you're in a crash that feels engineered: call the police to the scene and get
     slug: 'malvertising-fake-software-download-search-ads-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'malvertising'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Laptop_computer.jpg?width=1200',
-    coverImageCredit: 'Photo: KK IN HK (CC BY-SA 4.0)',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Google_2015_logo.svg?width=1200',
+    coverImageCredit: 'Google 2015 logo (public domain, PD-textlogo) — the search engine whose ad results malvertising campaigns spoof',
     coverImagePosition: 50,
-    // representative photo — replace with an exact match if found
     sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2023/04/ads-fake-ai-other-software-spread-malicious-software',
     body: `Searching for a piece of free or well-known software — a PDF reader, a video player, an AI chatbot app, a system cleanup tool — turns up a sponsored ad at the very top of the results, above the real company's own listing, often using the company's actual name and logo. The ad looks like the fastest way to get what you searched for, but clicking it can lead to a cloned website built to look identical to the real one, offering a download that installs information-stealing malware instead of, or alongside, the software you were looking for. Security researchers have tracked this technique — "malvertising" — targeting ads for widely used free programs including VLC, 7-Zip, and CCleaner, precisely because their popularity guarantees a steady stream of searchers to target.
 
@@ -15814,10 +15813,9 @@ The FBI's own IC3 will never directly reach out over the phone, by email, throug
     slug: 'party-invitation-phishing-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'party-invitation-phishing-scam'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Birthday_Balloons.jpg?width=1200',
-    coverImageCredit: 'Photo: AndLikeThings (CC BY-SA 2.0)',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Evite_Logo.png?width=1200',
+    coverImageCredit: 'Evite logo (CC BY-SA 4.0, via Wikimedia Commons) — the invitation platform impersonated in the FTC\'s May 2026 alert',
     coverImagePosition: 50,
-    // representative photo — replace with an exact match if found
     sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2026/05/asked-enter-your-email-address-and-password-open-party-invite-thats-scam',
     body: `A text or email arrives that looks like an invitation to a birthday party, baby shower, or holiday gathering, sometimes naming a host the recipient actually knows. Clicking through to view the details doesn't show a date and address, though — it shows a login screen, asking for an email address and password to "unlock" the invite, or a phone number and a special pass code to RSVP.
 
