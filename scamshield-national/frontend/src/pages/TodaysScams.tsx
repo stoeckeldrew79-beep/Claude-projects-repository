@@ -27,7 +27,7 @@ function NewsRow({ item }: { item: DailyScamNews }) {
 export default function TodaysScams() {
   useDocumentMeta({
     title: "Today's Scams",
-    description: 'Real scam-related news headlines from across the US, scanned automatically and updated daily.',
+    description: 'Real scam-related news headlines from US and international outlets, scanned automatically and updated daily.',
     path: '/todays-scams',
   });
 
@@ -39,7 +39,7 @@ export default function TodaysScams() {
         <p className="text-xs font-semibold tracking-widest text-red-700 uppercase">Live feed</p>
         <h1 className="mt-1 text-3xl sm:text-4xl font-bold text-slate-900">Today's Scams</h1>
         <p className="mt-3 max-w-2xl text-slate-600">
-          Real scam-related news from outlets across the US, scanned automatically and updated daily. Every headline
+          Real scam-related news from US and international outlets, scanned automatically and updated daily. Every headline
           links directly to the original story at its source — nothing here is written or verified by hand, so
           always read the full article before acting on it.
         </p>
