@@ -17759,6 +17759,51 @@ A cardholder whose fraud claim is denied without a clear explanation, or who exp
   },
 );
 
+GUIDE_ARTICLES.push(
+  {
+    title: 'The Toyota Motor Credit Settlement: How an Add-On Loan Product Got in the Way of a Refund Consumers Were Always Owed',
+    slug: 'toyota-motor-credit-cfpb-addon-refund-settlement-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'toyota-motor-credit-cfpb-settlement'],
+    sourceUrl: 'https://www.consumerfinance.gov/about-us/newsroom/cfpb-orders-toyota-motor-credit-to-pay-60-million-for-illegal-lending-and-credit-reporting-misconduct/',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/A_Toyota_Dealership_in_Alamogordo,_New_Mexico,_In_The_Evening.jpg?width=1200',
+    coverImageCredit: 'Photo: D&RG Railfan, CC BY 3.0, via Wikimedia Commons',
+    coverImagePosition: 50,
+    body: `Financing a car almost always comes with a menu of optional extras pitched at the finance desk after the price of the vehicle itself is already settled: Guaranteed Asset Protection (GAP), which covers the gap between what you owe and what your insurer pays if the car is totaled, and Credit Life and Accidental Health (CLAH) coverage, which promises to pay off the loan if the borrower dies or becomes disabled. Both products are legal, and both can be worth buying in the right circumstances. What a federal regulator found at Toyota Motor Credit Corporation (TMCC) — the financing arm behind loans and leases at Toyota and Lexus dealerships nationwide, and one of the largest indirect auto lenders in the country — is that the promises attached to these add-ons weren't being kept once a customer actually tried to use them.
+
+The Consumer Financial Protection Bureau's order, issued November 20, 2023, found that Toyota Motor Credit made it unreasonably difficult for borrowers to cancel GAP and CLAH coverage they no longer wanted or needed — requiring, among other hurdles, that cancellation requests go through the auto dealer that sold the loan rather than directly through TMCC itself, even for dealers that had gone out of business or stopped cooperating. The CFPB also found that when customers paid off their loans early, or ended a lease before its term, TMCC often failed to issue the refund of unearned GAP and CLAH premiums those customers were owed for coverage they no longer needed — money that, by the math of the products themselves, wasn't earned once the underlying loan was gone. A separate part of the order covers customers who did manage to cancel a vehicle service agreement but received a refund calculated incorrectly.
+
+The order also found a credit-reporting problem layered on top of the refund problem: TMCC reported some customers' accounts as delinquent for missing monthly payments even after those customers had already returned their leased vehicles at lease-end, and the company did not promptly correct the inaccurate information it had already sent to the credit reporting companies even after learning it was wrong — a violation of the Fair Credit Reporting Act's requirement that furnishers investigate and correct data they know to be inaccurate.
+
+TMCC neither admitted nor denied the CFPB's findings but agreed to pay $60 million total: a $12 million penalty to the CFPB's victims relief fund, plus $48 million in redress to affected consumers, broken out as roughly $32 million to refund unearned GAP and CLAH premiums, $9.9 million to consumers who were unable to cancel that coverage at all, more than $6 million to consumers harmed by the false delinquency reporting, and smaller amounts to consumers who received inaccurate vehicle-service-agreement refunds. The order also requires TMCC to overhaul how it processes cancellations and refunds going forward and to correct any remaining inaccurate credit information still on file.
+
+Anyone who financed a vehicle through Toyota Motor Credit, or any other lender, and bought GAP, credit life, or a similar add-on product at the dealership can apply the same checklist regardless of which company is on the paperwork: ask for the cancellation and refund terms in writing at the time of purchase, since federal and state law generally entitle you to a pro-rated refund of unearned premium if you cancel early or pay off the loan before the coverage period ends; keep a copy of every payoff statement and lease turn-in receipt, since those are the documents that prove a refund was owed; and pull your credit reports for free at AnnualCreditReport.com after returning a leased or financed vehicle to confirm the account was closed and reported accurately, not marked delinquent for payments that were never actually due.
+
+A borrower who was denied a refund on a canceled add-on product, or who finds inaccurate information about a paid-off or returned vehicle on a credit report, can file a complaint with the Consumer Financial Protection Bureau at consumerfinance.gov/complaint, dispute the inaccurate item directly with Equifax, Experian, and TransUnion, and report the underlying practice to their state attorney general's consumer protection office.`,
+  },
+  {
+    title: 'The Capital One 360 Savings Settlement: What $425 Million Reveals About a Bank\'s Own Higher-Rate Account It Never Told Existing Customers About',
+    slug: 'capital-one-360-savings-interest-rate-settlement-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'capital-one-360-savings-settlement'],
+    sourceUrl: 'https://www.consumerfinance.gov/archive/newsroom/cfpb-sues-capital-one-for-cheating-consumers-out-of-more-than-2-billion-in-interest-payments-on-savings-accounts/',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Capital_One_Bank_Cabin_John_Village_MD_2023-04-26_17-27-36.jpg?width=1200',
+    coverImageCredit: 'Photo: G. Edward Johnson (Lorax), CC BY 4.0, via Wikimedia Commons',
+    coverImagePosition: 50,
+    body: `Capital One built its 360 Savings account into one of the best-known online savings products in the country, marketing it for years as a top-rate, no-fee way to earn interest with no minimum balance. What the account's own customers weren't told, according to federal regulators, is that Capital One quietly rolled out a nearly identical product in 2018 — 360 Performance Savings — that paid a substantially higher rate, and that the bank never proactively moved existing 360 Savings customers into it or even told them it existed.
+
+The gap between the two accounts grew wide. By 2024, some longtime 360 Savings customers were earning as little as 0.30% in annual interest, while new customers who opened a 360 Performance Savings account with the same bank, doing essentially the same thing with their money, could earn up to 4.35%. The Consumer Financial Protection Bureau alleged in a lawsuit filed January 14, 2025, that Capital One continued marketing the older, lower-paying account as offering "one of the highest savings rates in America" even after the higher-rate product launched, and took steps that made the better-paying option hard for existing customers to find — allegedly costing 360 Savings customers more than $2 billion in foregone interest collectively.
+
+That federal lawsuit did not run its course: on February 27, 2025, under new CFPB leadership, the Bureau voluntarily dismissed the case against Capital One with prejudice, without publicly stating a reason, and the court closed it the same day. No regulator-ordered refund came out of that filing.
+
+Consumers still got relief through a different channel. A consolidated federal class action, In re: Capital One 360 Savings Account Interest Rate Litigation (No. 1:24-md-03111, U.S. District Court for the Eastern District of Virginia), reached a $425 million settlement covering anyone who held a Capital One 360 Savings account at any point between September 18, 2019, and June 16, 2025, including joint accountholders. The settlement requires no claim form — eligible customers with a payment of $5 or more are simply mailed a check, or can choose electronic payment — though payouts that were originally expected to begin in mid-2025 have been delayed by an appeal filed by an objecting class member.
+
+The underlying lesson applies well beyond Capital One: a bank is generally free to freeze an older account's rate at a low level for years while marketing a newer, better-paying product to new customers under a different name, and it isn't required to move existing customers over automatically or even flag that the option exists. Anyone with a savings account that's been open for more than a couple of years should periodically compare its current annual percentage yield against whatever rate the same bank is advertising to new customers on its own website, and ask a representative directly whether a newer, higher-paying version of the same basic product exists — banks aren't obligated to volunteer the comparison. It's also worth treating any unsolicited text, email, or call about a "settlement claim" or "refund" tied to this case with suspicion and verifying independently through the official settlement website or the bank directly, since real class-action settlements like this one regularly attract copycat phishing attempts aimed at people who've heard the news but never actually opened the real settlement notice.
+
+Anyone with questions about eligibility or payment from the 360 Savings settlement should go through the official class-action settlement administrator's website named in the court-approved notice rather than a link in an unexpected text or email, and can file a general complaint about a bank's savings account practices with the Consumer Financial Protection Bureau at consumerfinance.gov/complaint or with the Office of the Comptroller of the Currency at helpwithmybank.gov.`,
+  },
+);
+
 async function seedArticles(articles: SeedArticle[], label: string) {
   for (const article of articles) {
     await pool.query(
