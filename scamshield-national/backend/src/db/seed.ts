@@ -37554,6 +37554,46 @@ SEED_SCAMS.push(
   },
 );
 
+// Three new, real, sourced cases added to the states tied for fewest
+// SEED_SCAMS entries (MA at 9, all others at 10) — one each for MA, VT,
+// and WY, each covering a category and mechanism not already represented
+// for that state (verified against every existing MA/VT/WY entry first).
+SEED_SCAMS.push(
+  {
+    name: 'Bitcoin Depot Crypto Kiosk Fraud-Facilitation Lawsuit',
+    slug: 'massachusetts-bitcoin-depot-crypto-kiosk-lawsuit',
+    description: `Massachusetts Attorney General Andrea Joy Campbell sued cryptocurrency kiosk operator Bitcoin Depot Inc. and Bitcoin Depot Operating LLC in Suffolk County Superior Court on February 3, 2026, alleging the company used misleading sales tactics to overcharge customers and knowingly facilitated crypto scams that robbed Massachusetts consumers of more than $10 million. The Attorney General's investigation found that more than 80% of customers who deposited $10,000 or more into the company's kiosks between August 2023 and January 2025 were completing scam-related transactions, generating $10.6 million in fees for Bitcoin Depot — nearly 60% of the company's kiosk revenue in the state — and that the company's own employees had internally flagged that most large transactions were scam-linked without management taking action to stop them. The complaint further alleges Bitcoin Depot kept roughly 30% of the money customers fed into its machines as fees and spreads and refused to refund victims even after they reported the transactions as fraud, while separately misleading its own investors about how much of its kiosk activity was scam-driven. Campbell's office is asking the court to bar Bitcoin Depot from accepting kiosk transactions above $10,000 a day without stronger fraud-prevention steps such as live questioning of customers, to order mandatory refunds of fees and spreads once a customer files a police report, and to secure restitution and civil penalties. Anyone contacted out of the blue and told to withdraw cash and feed it into a cryptocurrency kiosk to "protect" money, pay a fine, or resolve a supposed account problem should treat that instruction itself as proof of fraud, since a legitimate bank, government agency, or business never resolves anything that way.`,
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    state: 'MA',
+    alertLevel: 'high',
+    sources: ['Massachusetts Attorney General Andrea Joy Campbell', 'ICIJ', 'Western Mass News'],
+    sourceUrl: 'https://www.mass.gov/news/ag-campbell-sues-bitcoin-kiosk-operator-for-facilitating-crypto-scams-against-massachusetts-consumers',
+  },
+  {
+    name: 'Cross-State Dating-Site Romance Fraud (Cedric Wormely)',
+    slug: 'vermont-cedric-wormely-romance-fraud',
+    description: `Cedric Wormely, 58, of Birmingham, Alabama, met a Vermont woman on an online dating site in the summer of 2022 and, over the following months, built a romantic relationship with her while posing as a fellow New Englander with decades of steady employment in the Cumberland, Maine area. Wormely told the victim he had a pension he was having trouble accessing and that he needed her financial help to cover costs on a large construction job he had taken on in Mississippi, promising repayment once the job paid out and the pension issue resolved. Believing the relationship and the business story were genuine, the victim sent Wormely more than $100,000 over time through money-transfer apps and wire transfers. A federal grand jury in the District of Vermont indicted Wormely on ten counts of wire fraud on January 2, 2025, after he was first charged by criminal complaint the previous September; he ultimately pleaded guilty to two counts of wire fraud, and a federal judge sentenced him to 30 months in prison and ordered $151,432.19 in restitution covering this victim and others he defrauded through the same pattern in other states. The case underscores that a long-distance partner met only online who develops a sudden, story-driven financial need — a stuck pension, a business emergency, a project that needs bridge funding — is a common romance-fraud structure regardless of how long the relationship has built trust, and any request for money from someone never met in person should be verified independently before sending anything.`,
+    categorySlug: 'romance-scams',
+    country: 'US',
+    state: 'VT',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office for the District of Vermont", 'WCAX', 'Vermont Business Magazine'],
+    sourceUrl: 'https://www.justice.gov/usao-vt/pr/birmingham-alabama-man-charged-wire-fraud-connection-alleged-romance-fraud-scheme',
+  },
+  {
+    name: 'Fraudulent Federal Warrant / Jury Duty Text Scam',
+    slug: 'wyoming-fraudulent-federal-warrant-jury-duty-scam',
+    description: `The FBI's Denver Field Office, which covers Wyoming, warned in March 2025 after a wave of reports that scammers are texting and emailing Wyoming residents fabricated federal warrant documents — dressed up with official-looking seals, case numbers, and a judge's signature — falsely claiming the recipient missed jury duty or a court appearance and now faces arrest unless a fine is paid immediately. In one Wyoming case publicized by the FBI, a woman received a text claiming she had failed to appear as a prospective juror and, following the instructions in the message, ended up sending scammers more than $10,000. The FBI stressed that a real federal warrant is served in person by a federal officer or, at most, delivered by certified mail — never by text message or email — and urged anyone who receives one of these messages to hang up or ignore it, independently look up and call their local court clerk or the FBI's Denver field office directly to verify, and never pay a purported fine using gift cards, cryptocurrency, or gold as instructed by the sender of the message. Suspected scams can be reported to the FBI at 1-800-CALL-FBI or tips.fbi.gov.`,
+    categorySlug: 'government-impersonation',
+    country: 'US',
+    state: 'WY',
+    alertLevel: 'high',
+    sources: ['FBI Denver Field Office', 'Oil City News', 'County 17'],
+    sourceUrl: 'https://www.fbi.gov/contact-us/field-offices/denver/news/fbi-warns-of-fraudulent-federal-warrants-in-wyoming',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
