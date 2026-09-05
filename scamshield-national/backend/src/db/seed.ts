@@ -9017,6 +9017,44 @@ Santillo's case is a reminder that owning a licensed financial firm is not the s
   },
 );
 
+NOTORIOUS_ARTICLES.push(
+  {
+    title: 'Thierry Magon de la Villehuchet: The French Aristocrat Whose Feeder Fund Fed Madoff $1.4 Billion',
+    slug: 'thierry-magon-de-la-villehuchet-access-international-madoff',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Creed_Madison_Avenue_1450.JPG?width=1200',
+    coverImageCredit: 'Photo: Gryffindor, Wikimedia Commons (CC0) — a storefront on Madison Avenue, Manhattan, the street where Villehuchet kept the Access International Advisors office in which he died',
+    coverImagePosition: 50,
+    body: `René-Thierry Magon de la Villehuchet was born in 1943 in Saint-Malo, France, into a family of Breton shipbuilders, and built a genuinely credentialed finance career before he ever touched Bernie Madoff's money: an MBA from HEC Paris, a move to New York in 1982, a stint running the Interfinance brokerage, and by 1987 the chairmanship and chief executive's chair at Crédit Lyonnais Securities USA. He also helped establish Apollo Management, the private equity firm founded by Leon Black. In 1994 he left that world of institutional finance to co-found his own firm, Access International Advisors (AIA), with fellow French banker Patrick Littaye, marketing hedge-fund-of-funds products to the European aristocracy and old-money families he counted as friends and relatives.
+
+AIA's flagship vehicle, a Luxembourg-registered fund called LuxAlpha Sicav-American Selection, existed almost entirely to funnel client money to Madoff: by Bloomberg's reporting, Madoff exposure grew from roughly 30% to about 75% of AIA's $3 billion in assets by 2008, and LuxAlpha alone held close to $1.4 billion in net assets barely a month before Madoff's arrest. Villehuchet marketed the fund as sophisticated, actively managed, and rigorously vetted, when in substance it was a pipe carrying his clients' savings — and a large share of his own family's money — straight into a Ponzi scheme he never detected. His client list included Liliane Bettencourt, heir to the L'Oréal fortune, and Prince Michael of Yugoslavia, a measure of how deeply AIA had penetrated the European elite that trusted Villehuchet's name.
+
+Madoff's arrest on December 11, 2008, wiped out essentially the entire fund overnight. Villehuchet spent the following eleven days trying to account for what had happened to money that, in many cases, belonged to relatives and lifelong friends who had invested because he personally vouched for the strategy. On December 22, 2008, he was found dead in his Madison Avenue office, having taken sleeping pills and cut his wrists and arms with a box cutter; no suicide note was found, though his brother Bertrand later said Villehuchet had written a message conveying deep remorse. He was the first, and most widely reported, death connected to the Madoff scandal's collapse.
+
+Villehuchet was never charged with any crime — investigators and later litigation treated him as one of Madoff's largest victims rather than a knowing accomplice, since AIA's own capital was invested in LuxAlpha alongside client money and vanished in the same collapse. His Access International co-founder, Patrick Littaye, was charged in France with breach of trust in 2009 over the firm's due-diligence failures. The case became a stark illustration of a distinct danger inside the wider Madoff fraud: feeder funds run not by con artists but by trusted insiders who staked their own reputations, and in Villehuchet's case his own fortune and ultimately his life, on returns they never adequately questioned.`,
+    sourceUrl: 'https://en.wikipedia.org/wiki/Thierry_Magon_de_La_Villehuchet',
+  },
+  {
+    title: 'Roger Ng: The Only Goldman Sachs Banker Convicted at Trial Over the 1MDB Scandal',
+    slug: 'roger-ng-goldman-sachs-1mdb-trial-conviction',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/United_States_Courthouse_-_Eastern_District_of_New_York_(48228039566).jpg?width=1200',
+    coverImageCredit: 'Photo: Ajay Suresh (CC BY 2.0) — the Theodore Roosevelt U.S. Courthouse in Brooklyn, where a federal jury convicted Roger Ng in 2022',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    body: `Roger Ng Chong Hwa spent more than a decade at Goldman Sachs, rising to managing director and head of investment banking for Malaysia, working under his mentor and direct boss Tim Leissner. Between 2012 and 2013, the pair helped arrange three bond offerings worth roughly $6.5 billion for 1Malaysia Development Berhad (1MDB), the state investment fund that Malaysian financier Jho Low and other officials used as a vehicle to loot billions of dollars in one of the largest financial frauds ever prosecuted. Where Leissner became the government's star cooperating witness after pleading guilty in 2018, Ng chose the opposite path: he fought the charges and became the only Goldman banker to face a U.S. jury over 1MDB.
+
+Prosecutors said Ng helped Leissner and Low launder embezzled 1MDB funds and pay more than $1.6 billion in bribes to roughly a dozen government officials in Malaysia and Abu Dhabi to win and keep the bond business, while also conspiring to circumvent Goldman's internal accounting controls. At trial in Brooklyn federal court, evidence showed Leissner had directed more than $35 million in kickbacks to a shell company nominally owned by Ng's mother-in-law but actually controlled by Ng and his wife, who used the funds on purchases including roughly $300,000 in diamond jewelry and a gold hourglass. The defense argued the money came from an unrelated transaction; the jury didn't buy it. On April 8, 2022, Ng was convicted on all three counts he faced: conspiracy to launder money and two counts of conspiring to violate the Foreign Corrupt Practices Act.
+
+U.S. District Judge Margo K. Brodie sentenced Ng on March 9, 2023, to 10 years in prison — half the 15 years to 20 years prosecutors had sought and well under the 30-year statutory maximum he faced. Rather than immediately beginning that sentence in U.S. custody, Ng was returned to Malaysia in October 2023 under an arrangement between the two governments, with Malaysian authorities citing his ongoing cooperation in efforts to recover 1MDB assets as the reason for keeping him there. He separately appealed his conviction to the Second Circuit, which rejected the appeal in December 2025, leaving the jury's verdict and sentence intact.
+
+Ng's case closed out the U.S. prosecution of the individual Goldman bankers at the center of 1MDB: Leissner's cooperation bought him a two-year sentence handed down in 2025, while Goldman Sachs itself pleaded guilty as an institution in 2020 and paid more than $2.9 billion globally to resolve the matter. Ng's outcome is the clearest illustration in the whole scandal of what betting on a trial instead of a guilty plea actually cost — the one banker who didn't cooperate wound up with a five-times-longer sentence than the one who did.`,
+    sourceUrl: 'https://www.aljazeera.com/economy/2022/4/8/guilty-roger-ng-faces-up-to-30-years-in-prison-for-role-in-1mdb',
+  },
+);
+
 // Practical "how it works / red flags / what to do" guides covering the
 // major scam categories, the same kind of coverage the FTC's Consumer
 // Advice site and AARP's Fraud Watch Network publish — well-documented
@@ -16850,6 +16888,40 @@ The consumer harm here isn't a stolen payment or a ticket that never arrives —
 The settlement requires Elite Events and its operators to pay $10.7 million, largely suspended based on their financial condition with $300,000 due immediately, and permanently bars them from circumventing ticket-purchase security measures, using multiple accounts or IP addresses to dodge limits, or buying tickets with payment methods that aren't their own. It's a template the FTC has used before and is likely to use again: purchase-limit evasion at industrial scale is being treated as a distinct violation of federal law, not just an aggressive but legal reselling strategy.
 
 There's no consumer-side fix for bot-driven scalping in the moment a sale goes live — the countermeasure has to happen upstream, through enforcement like this case and through ticketing platforms' own bot-detection systems. What a fan can do is buy directly through the venue, artist, or team's official on-sale channel rather than a resale marketplace whenever possible, since that's the only route bots are specifically trying to get around; be skeptical of any listing that appears within minutes of an on-sale event selling out, since real fans reselling a single extra ticket rarely move that fast; and, when a resale purchase is unavoidable, use a platform with a face-value guarantee or buyer protection rather than an unfamiliar site. Anyone who suspects a reseller is using bots or fake accounts to corner ticket inventory can report it to the FTC at ReportFraud.ftc.gov, which enforces the BOTS Act alongside state attorneys general.`,
+  },
+);
+
+GUIDE_ARTICLES.push(
+  {
+    title: 'Hotel "Junk Fees": How Booking.com\'s Parent Company Got Hit With a Record $9.5 Million Settlement Over Hidden Charges',
+    slug: 'hotel-booking-resort-fee-drip-pricing-settlement-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'hotel-resort-fee-drip-pricing-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Room in Hotel.jpg?width=1200',
+    coverImageCredit: 'Photo: Виктор Пинчук (Viktor Pinchuk), CC BY-SA 4.0, via Wikimedia Commons',
+    coverImagePosition: 50,
+    sourceUrl: 'https://www.texasattorneygeneral.gov/news/releases/attorney-general-ken-paxton-secures-historic-95-million-settlement-booking-engaging-deceptive-junk',
+    body: `A hotel room search shows an appealing nightly rate, low enough to make a booking decision easy. Then, screens later at checkout, a "Taxes and Fees" line jumps the total up by anywhere from a few dollars to over a hundred, folding in charges that have nothing to do with any tax — a "resort fee," an "amenity fee," a "destination fee," sometimes a "utility fee" — that were never broken out or disclosed anywhere earlier in the shopping flow. In August 2025, Texas Attorney General Ken Paxton announced that Booking Holdings Inc. — the parent company of Booking.com, Priceline, and Kayak — would pay $9.5 million to settle a lawsuit over exactly that practice, the largest amount any state has recovered from a hotel or online travel agency over "junk fee" pricing.
+
+The Texas lawsuit alleged a pattern regulators call "drip pricing": advertising an artificially low headline room rate to win the click and the comparison, then dripping in mandatory charges one screen at a time until the final number due bears little resemblance to the one that drew the shopper in. Paxton's office said Booking obscured these mandatory fees by lumping them into a generic "Taxes and Fees" line alongside money that actually is owed to the government, making it impossible for a consumer glancing at checkout to tell how much of that number was tax and how much was a fee the hotel or platform simply chose to charge. Booking, headquartered in Norwalk, Connecticut, denied wrongdoing in the settlement and said it remained committed to pricing transparency, but agreed to the terms rather than continue litigating.
+
+This case landed alongside a wider federal shift. The FTC's own Rule on Unfair or Deceptive Fees took effect in May 2025, requiring any business advertising hotel rooms or event tickets to display the full, all-in total price — including every mandatory fee it can calculate in advance — the first time a price is shown, not several screens into checkout. The rule doesn't cap resort fees or ban them outright; hotels remain free to charge whatever add-on fees they want. What they can no longer do is hide those fees behind a lower number and reveal the real total only in stages. Under its Texas settlement, Booking must now clearly disclose any fees added to a room's advertised price upfront, letting shoppers compare real, final totals across sites rather than headline numbers that were never actually available.
+
+Booking Holdings isn't the only hotel-adjacent company to face this kind of action — Hyatt separately settled a Texas suit over the same underlying practice for $1.25 million in December 2025 — and state attorneys general across the political spectrum have signaled this is an active, ongoing enforcement area rather than a one-time sweep. For anyone booking travel, the practical defense is the same regardless of which site is used: treat the first price shown as provisional, and don't compare offers or commit to a booking until a single "total price due" figure appears with no more screens left to click through. A price that seems unusually low compared to competitors is often a sign the site is displaying a partial number, not a better deal. Anyone who was charged fees at checkout that were never disclosed in the advertised price can dispute the charge with their card issuer and can file a complaint with the FTC at ReportFraud.ftc.gov or with their state attorney general's consumer protection office.`,
+  },
+  {
+    title: 'The Shutterstock Subscription Trap: What a $35 Million FTC Settlement Reveals About "Free Trials" and Cancellation Fees',
+    slug: 'shutterstock-subscription-cancellation-fee-settlement-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'stock-photo-subscription-negative-option-scam'],
+    sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2026/05/shutterstock-pay-35-million-settle-ftc-allegations-over-illegal-subscription-cancellation-practices',
+    body: `A subscription that's easy to start and hard to stop is one of the oldest patterns in online billing, and it isn't limited to sketchy, fly-by-night sites — it can happen at a company whose stock photos and videos show up across mainstream advertising, journalism, and social media. In May 2026, the FTC announced that Shutterstock, Inc. agreed to pay $35 million to settle federal charges that its subscription and cancellation practices broke both the FTC Act and the Restore Online Shoppers' Confidence Act (ROSCA), the federal law that specifically targets deceptive negative-option billing — subscriptions that keep charging a customer's card automatically unless they take some affirmative action to stop it.
+
+According to the FTC's complaint, Shutterstock sold "annual, paid monthly" subscription plans and on-demand image "packs" in ways that left customers not understanding what they'd actually signed up for — the agency's complaint quotes Shutterstock's own internal materials acknowledging that customers "don't realize what they have signed up for." Image packs were marketed as "best for a one-time project" with "no commitment," language that suggested a single purchase, while the terms underneath quietly enrolled buyers in automatic refills and, if a customer tried to back out, a 50% cancellation fee — which the complaint says the company itself treated internally as a "powerful retention tool" rather than a fair cost of doing business. Free trials converted into paid annual plans without adequate notice, and before a 2024 change, customers couldn't cancel online at all — early cancellation required contacting customer support by phone, chat, or email, channels the complaint describes as complicated and time-consuming by design.
+
+None of this required tricking anyone into visiting a fake website or wiring money to a stranger — the harm accumulated through ordinary billing cycles, one recurring charge at a time, against customers who had no clear path to make it stop. That's precisely the pattern ROSCA and the FTC's broader "negative option" enforcement push are built to catch: charging a card based on a customer's failure to opt out, rather than their clear choice to opt in, is treated as its own category of deceptive practice separate from any lie about the product itself.
+
+Under the settlement, Shutterstock must clearly disclose all material subscription terms — including recurring charges and any early-termination fee — before ever collecting billing information, obtain a customer's express informed consent to those terms, and provide a genuinely easy cancellation path, including one-click online cancellation and a customer service phone line that actually works, with the FTC monitoring compliance going forward. The $35 million goes toward refunding consumers harmed by the practices. The broader lesson travels well beyond stock photography: before entering payment information for any "trial," "pack," or introductory offer, read the actual cancellation terms rather than the marketing language around them, calendar the date a free trial converts to a paid plan, and if a company makes cancellation online impossible and offline slow, that friction is itself worth documenting. Anyone who was charged a cancellation fee they weren't clearly told about, or who couldn't cancel a subscription despite trying, can file a complaint with the FTC at ReportFraud.ftc.gov.`,
   },
 );
 
@@ -34368,6 +34440,39 @@ SEED_SCAMS.push(
     isHistorical: true,
     sources: ["U.S. Attorney's Office, Eastern District of Virginia", 'U.S. Securities and Exchange Commission', 'FBI'],
     sourceUrl: 'https://www.justice.gov/usao-edva/pr/former-uva-football-player-sentenced-40-years-10-million-fraud',
+  },
+);
+
+SEED_SCAMS.push(
+  {
+    name: 'Canadian CERB Identity Theft and CRA Account Takeover Fraud',
+    slug: 'canada-cerb-identity-theft-cra-account-takeover-fraud',
+    description: `Between 2020 and 2022, an organized fraud network stole the personal information of Canadians, used it to gain unauthorized access to their Canada Revenue Agency (CRA) My Account online portals, then altered the banking details on file and redirected Canada Emergency Response Benefit (CERB) payments — the federal government's flagship COVID-19 income-support program — into bank accounts the fraudsters controlled, often leaving the real account holder with no idea a claim had ever been filed in their name. The RCMP's investigation, opened in August 2020, led to charges against eight people from Ottawa, Gatineau, and Montreal in May 2026 over roughly $364,000 in payments fraudulently obtained this way, following an earlier, separate RCMP case that charged eight other individuals in a similar CERB identity-theft scheme. The pattern differs from ordinary phishing because the victim's own real government account is compromised rather than a fake one created from scratch, meaning the first sign of trouble for many victims was an unexpected CRA reassessment or tax slip for benefit income they never received. The RCMP and CRA advise Canadians to register for a CRA My Account with multi-factor authentication enabled, to check their account periodically for benefit applications or banking changes they don't recognize, and to report suspected identity fraud to the Canadian Anti-Fraud Centre immediately if unfamiliar CERB, CRB, or other benefit activity turns up under their name.`,
+    categorySlug: 'public-benefits-fraud',
+    country: 'CA',
+    alertLevel: 'high',
+    sources: ['Royal Canadian Mounted Police (RCMP)', 'Canadian Anti-Fraud Centre'],
+    sourceUrl: 'https://rcmp.ca/en/news/2026/05/4353253',
+  },
+  {
+    name: 'Canadian Fake Government Grant and Business Financing Scam',
+    slug: 'canada-fake-government-grant-business-financing-scam',
+    description: `A website or unsolicited caller offers "free" government grant money for individuals, or special guaranteed access to government financing programs for small businesses, often dressing the pitch up with a real-looking Government of Canada logo, flag, or an official-sounding invented department name to look legitimate. After an applicant fills out a form and is told they "qualify," the operator asks for an upfront fee — described as a processing charge, insurance, or a payment needed to "unlock" the funds — and, once paid, either delivers nothing at all or produces a second and third round of fee demands before contact stops entirely. The Competition Bureau of Canada warns that legitimate federal and provincial grant and loan programs are administered directly by government departments free of charge, and that no company can guarantee approval for a government grant or loan since eligibility is decided by the government program itself, not by a third-party intermediary; it recommends business owners verify any financing program directly through Canada.ca or their provincial government website rather than through a link or phone number a caller provides, and to treat any request for an upfront fee before funds are released as a certain sign of fraud.`,
+    categorySlug: 'government-impersonation',
+    country: 'CA',
+    alertLevel: 'medium',
+    sources: ['Competition Bureau of Canada', 'Canadian Anti-Fraud Centre'],
+    sourceUrl: 'https://www.canada.ca/en/competition-bureau/news/2016/03/don-t-trust-companies-that-promise-government-grants-and-loans.html',
+  },
+  {
+    name: 'Toronto Eras Tour Fake Concert Ticket Scam',
+    slug: 'canada-toronto-eras-tour-fake-ticket-scam',
+    description: `Ahead of Taylor Swift's Eras Tour shows in Toronto, a Hamilton, Ontario woman advertised concert tickets for sale and collected payment from buyers across Southern Ontario, but the tickets never existed — when purchasers tried to access their seats there was nothing there, and when they asked for refunds she falsely told them a third party had stolen the money, a claim court documents later showed to be untrue. Between August 2023 and November 2024, 107 buyers paid a combined $265,330 for these nonexistent tickets, with some individual fans paying as much as $5,100 each; prosecutors say roughly $139,000 of the proceeds went to online gambling and more than $297,000 was withdrawn as cash. The woman pleaded guilty in 2026 to defrauding the public, while her common-law partner pleaded guilty to possession of property obtained by crime. The Competition Bureau of Canada warns that private-seller ticket resale carries no platform protection and no way to confirm a ticket is genuine until the event itself, and advises buying only through an event's official box office or an authorized resale partner, treating requests for e-transfer or cash payment from an individual seller, and any pressure to "act fast" given high demand, as serious warning signs.`,
+    categorySlug: 'online-shopping-scams',
+    country: 'CA',
+    isHistorical: true,
+    sources: ['Competition Bureau of Canada', 'CTV News'],
+    sourceUrl: 'https://competition-bureau.canada.ca/en/deceptive-marketing-practices/protect-yourself-online-ticket-fraud',
   },
 );
 
