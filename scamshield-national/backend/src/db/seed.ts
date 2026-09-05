@@ -10829,6 +10829,47 @@ Saleem's scheme is a reminder that in crypto — where reputations are built ent
   },
 );
 
+NOTORIOUS_ARTICLES.push(
+  {
+    title: 'Leor Moshe and the $47 Million Merchant Cash Advance Ponzi That Preyed on His Own Orthodox Jewish Community',
+    slug: 'leor-moshe-capital-funding-asap-affinity-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.sec.gov/newsroom/press-releases/2026-74-sec-charges-toms-river-trio-connection-alleged-47-million-fraud-targeting-orthodox-jewish',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Ocean%20County%20Courthouse.jpg?width=1200',
+    coverImageCredit: "Photo: James Welsh, Wikimedia Commons (CC BY-SA 3.0) — the Ocean County Courthouse in Toms River, New Jersey, where Leor Moshe's affinity fraud scheme was based",
+    coverImagePosition: 50,
+    body: `Leor Moshe ran Capital Funding ASAP LLC out of Toms River, New Jersey, pitching it to friends and neighbors as a straightforward, low-risk way to fund short-term "merchant cash advance" loans to small businesses — the kind of bridge financing that lets a struggling shop cover payroll or inventory while it waits on receivables. Between around November 2019 and June 2023, according to the Securities and Exchange Commission, Moshe told investors their money would be pooled to fund those loans and would pay fixed returns ranging from 9 percent up to as high as 53 percent, an eye-catching spread that in hindsight should have been the first warning sign. Almost all of Moshe's investors, like Moshe himself, were active members of Toms River's Orthodox Jewish community — the same social and religious network that gave him the credibility to raise money without ever having to answer to a regulator or a compliance department.
+
+Two other men, Jacob Goldman and Isaac Odes, worked as unregistered sales agents for Moshe, according to the SEC's complaint, personally soliciting more than $23 million from at least 25 investors by leaning on the same community ties — synagogue relationships, family introductions, word of mouth among people who already trusted one another — that let the pitch travel without any independent underwriting. Neither man was registered as a broker, and the SEC alleges both received undisclosed compensation for the investors they brought in, conduct that on its own violates federal broker-registration law regardless of whether the underlying investment ever paid what it promised.
+
+It didn't. Rather than funding business loans, Moshe used more than $11 million of investor money for his own personal benefit, the SEC says, and used more than $850,000 of newer investors' money to make Ponzi-like payments to earlier investors — the classic mechanism that lets a fraud keep collecting new money long after the underlying business has stopped generating any real returns. The scheme raised roughly $47 million in total before it came apart, leaving investors spread across seven states — New Jersey, New York, Florida, Arizona, Connecticut, Illinois, and Ohio — with more than $25 million in losses.
+
+The SEC filed a civil fraud complaint against Moshe, Goldman, and Odes in the U.S. District Court for the District of New Jersey on August 13, 2026, charging Moshe with violating the antifraud provisions of the federal securities laws and charging Goldman and Odes with acting as unregistered brokers. "The defendants promised returns exceeding thirty percent, which clearly fits, 'if it sounds too good to be true, it probably is,'" said Thomas P. Smith Jr., an SEC enforcement official, in announcing the case. In a parallel criminal case brought by the U.S. Attorney's Office for the District of New Jersey, Moshe pleaded guilty the same day to a federal wire fraud charge, admitting to conduct mirroring the SEC's civil allegations. Goldman and Odes have not been criminally charged, and the allegations against them in the SEC's still-pending civil case have not been proven in court.
+
+Moshe's case sits inside a well-worn pattern regulators call affinity fraud: a promoter who shares a victim's religion, ethnicity, or community deliberately uses that shared identity to shortcut the skepticism a stranger's investment pitch would normally get, because members of a tight community are far less likely to demand paperwork, ask hard questions, or check references on someone who prays alongside them every week. Investigators and consumer advocates have flagged the same dynamic for decades, from real estate Ponzi schemes inside Orthodox Jewish enclaves in New Jersey to affinity frauds targeting church congregations and immigrant communities nationwide — the promoter's true product was never the merchant cash advance loans, but the trust of people who had no obvious reason to doubt him.`,
+  },
+  {
+    title: 'Raymond Pirrello Jr.: The Barred Broker Who Hid Inside His Own $528 Million Pre-IPO Stock Fraud',
+    slug: 'raymond-pirrello-late-stage-management-pre-ipo-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-edny/pr/three-sales-executives-plead-guilty-500-million-investment-fraud-scheme',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Federal%20Courthouse%20Brooklyn.jpg?width=1200',
+    coverImageCredit: 'Photo: Beyond My Ken, Wikimedia Commons (CC BY-SA 4.0) — the Theodore Roosevelt U.S. Courthouse in Brooklyn, where Raymond Pirrello Jr. pleaded guilty',
+    coverImagePosition: 50,
+    body: `By 2019, Raymond Pirrello Jr. was already someone federal regulators had gone out of their way to bar from the securities industry. A court found him liable for insider trading that August and entered a permanent injunction against him, and on September 23, 2019, the SEC barred Pirrello from associating with any broker, dealer, investment adviser, municipal securities dealer, or transfer agent, and separately barred him from participating in any offering of penny stock. For most people, a bar like that ends a career in finance. For Pirrello, prosecutors say, it just meant the next company he ran had to be built so his name never appeared on it.
+
+That company was Late Stage Management LLC, a Montclair, New Jersey-based fund manager that marketed itself to investors nationwide as a way to buy "pre-IPO" stock — shares in private companies expected to go public or be acquired soon — with no fees attached, so that an investor's entire contribution went directly toward buying stock rather than being eaten up by commissions. Pirrello held no formal title at Late Stage or at any of the outside sales offices that sold its offerings, according to the SEC and federal prosecutors, working instead as a behind-the-scenes partner specifically because his disciplinary record made his name toxic to disclose to the investors he was trying to reach.
+
+The "no fee" pitch was false. Late Stage worked with a nationwide network of unregistered sales agents and agencies — including Prior2IPO, run by chief executive Joseph Passalaqua, and Pre-IPO Marketing Inc., headed by Robert Cassino — that together raised at least $528 million from more than 4,000 investors around the world between March 2019 and July 2022. Every one of those investments carried an undisclosed markup built into the price investors paid for the stock, sometimes as high as 150 percent above what Late Stage itself had paid, prosecutors say — a hidden fee that funneled roughly $88 million out of money investors thought was going straight into pre-IPO shares and into Pirrello's and his co-conspirators' pockets instead.
+
+The SEC filed civil fraud charges against Pirrello, Passalaqua, Cassino, and several additional unregistered brokers and companies in December 2023, and the U.S. Attorney's Office for the Eastern District of New York brought parallel criminal charges in Brooklyn federal court. Pirrello and Passalaqua each pleaded guilty to conspiracy to commit securities fraud, securities fraud, and conspiracy to commit wire fraud; Cassino pleaded guilty on February 18, 2026, to wire fraud conspiracy. At sentencing, Pirrello and Passalaqua each face a statutory maximum of 45 years in prison, and Cassino faces up to 20 years; the SEC's parallel civil case seeks disgorgement, penalties, and permanent securities-industry bars against the defendants named in its complaint.
+
+Pirrello's case is a study in how a securities bar doesn't necessarily stop a fraudster — it just teaches him to stay off the paperwork. A permanent bar is only as effective as investors' ability to know who is actually running the company asking for their money, and Late Stage's "no fee" branding gave more than 4,000 investors exactly the reassurance a barred insider trader needed them to feel, right up until the hidden markup built into every share they bought finally became public.`,
+  },
+);
+
 // Practical "how it works / red flags / what to do" guides covering the
 // major scam categories, the same kind of coverage the FTC's Consumer
 // Advice site and AARP's Fraud Watch Network publish — well-documented
