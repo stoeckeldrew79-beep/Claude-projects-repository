@@ -9722,6 +9722,37 @@ Dowdell pleaded guilty to securities fraud, wire fraud, and money laundering, an
   },
 );
 
+NOTORIOUS_ARTICLES.push(
+  {
+    title: "Sushovan Hussain: The Autonomy CFO Whose Accounting Fraud Cost HP $8.8 Billion",
+    slug: 'sushovan-hussain-autonomy-hp-accounting-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Autonomy Corporation was a British enterprise-software success story: founded by Cambridge-trained entrepreneur Mike Lynch, it built a "meaning-based" search engine called IDOL that promised to make sense of a company's unstructured data — emails, video, voicemail — and by the late 2000s it had become one of the UK's largest technology companies. Sushovan Hussain served as Autonomy's chief financial officer through the years that mattered most: from 2009 through the company's sale in 2011, prosecutors said, he and other executives systematically dressed up the numbers investors and, ultimately, an acquirer would rely on.
+
+The techniques, laid out in detail by the U.S. Department of Justice, were the classic toolkit of financial-statement fraud dressed up in enterprise-software jargon. Autonomy resold low-margin computer hardware through value-added reseller deals and booked the proceeds as high-margin software licensing revenue. It engaged in "round-trip" transactions, in which Autonomy paid a business partner for something of little value at the same time the partner bought Autonomy software, letting both sides book revenue while no real cash actually left the loop. Contracts were backdated to pull revenue into earlier quarters and hit analysts' targets. Prosecutors said the effect was to inflate Autonomy's publicly reported revenue by as much as 21.5% in a single quarter.
+
+In August 2011, Hewlett-Packard — under CEO Léo Apotheker, pushing the company toward higher-margin software — agreed to buy Autonomy for $11.1 billion, HP's largest software acquisition ever and a roughly 64% premium to Autonomy's trading price. Barely a year later, in November 2012, HP announced an $8.8 billion writedown on the deal, telling investors that Autonomy had engaged in "serious accounting improprieties" before the sale and attributing roughly $5 billion of the writedown directly to that misconduct. HP referred the matter to the SEC and the UK's Serious Fraud Office; American prosecutors built a criminal case against Hussain in the Northern District of California.
+
+A federal jury in San Francisco convicted Hussain in April 2018 on one count of conspiracy, fourteen counts of wire fraud, and one count of securities fraud. In May 2019, U.S. District Judge Charles Breyer sentenced him to five years in federal prison and ordered him to pay roughly $10 million — a $6.1 million forfeiture and a $4 million fine. The Ninth Circuit Court of Appeals affirmed his conviction in August 2020, and the UK's Financial Reporting Council separately banned him from the accountancy profession until 2038. Autonomy's founder, Mike Lynch, fought extradition for years before finally standing trial in the same San Francisco courthouse in 2024 — and was acquitted of all charges by a federal jury that June, only to die weeks later when his yacht sank off the coast of Sicily. Hussain, the CFO who admitted no such fortune, remains the one executive a jury actually convicted over the fraud that turned one of Silicon Valley's most-touted acquisitions into one of its most expensive mistakes.`,
+    sourceUrl: 'https://www.cnbc.com/2019/05/14/ex-autonomy-cfo-sentenced-in-the-us-to-5-years-in-prison-over-hewlett-packard-fraud.html',
+  },
+  {
+    title: 'Aurelien Michel and the Mutant Ape Planet NFT Rug Pull That Became a Federal Test Case',
+    slug: 'aurelien-michel-mutant-ape-planet-nft-rug-pull',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `By late 2021, the NFT market was in the grip of "profile picture" mania, and nothing sold better than a cartoon ape with the right pedigree. Aurelien Michel, a young French national living in the United Arab Emirates, built a project called Mutant Ape Planet whose branding and name deliberately echoed the wildly popular Mutant Ape Yacht Club — without any affiliation to it — and marketed it directly to buyers hunting for the next version of that success. To drive demand, Michel promised purchasers a package of "exclusive" perks: giveaways, raffles for real-world prizes, and additional free NFT drops meant to keep the collection's resale value climbing after the mint sold out.
+
+According to prosecutors in the Eastern District of New York, none of it was built to last. After the public sale raised nearly $3 million from thousands of buyers in January 2022, Michel and his co-conspirators simply stopped delivering on the promised rewards, moved the proceeds into cryptocurrency wallets under their own control, and walked away from the project — a maneuver crypto traders had already coined a name for: the "rug pull." It was one of a wave of nearly identical schemes that swept the 2021–2022 NFT boom, most of which left buyers with nothing more than a worthless picture of a monkey and no one to sue.
+
+Federal agents arrested Michel at JFK Airport in New York in January 2023 as he arrived on a flight, and prosecutors charged him by criminal complaint with conspiracy to commit wire fraud, a charge carrying up to five years in prison. He pleaded guilty on November 14, 2023, formally admitting that Mutant Ape Planet's promised rewards were a hook for a scheme that was never going to deliver them.
+
+On November 1, 2024, U.S. District Judge Margo Brodie sentenced Michel in Brooklyn federal court. Prosecutors had asked for 37 months in prison; the judge instead imposed only the roughly one month Michel had already spent in custody since his arrest, along with a $15,000 fine and an order to forfeit $1.4 million. Light as the sentence was compared to the ask, the case stood out as one of the first NFT "rug pull" schemes to run its full course through a federal guilty plea and sentencing — a rare instance of consequences reaching a fraud model that, for most of its brief heyday, largely operated with none.`,
+    sourceUrl: 'https://www.bloomberg.com/news/articles/2024-11-01/mutant-ape-planet-nft-fraudster-avoids-prison-in-investor-scam',
+  },
+);
+
 // Practical "how it works / red flags / what to do" guides covering the
 // major scam categories, the same kind of coverage the FTC's Consumer
 // Advice site and AARP's Fraud Watch Network publish — well-documented
