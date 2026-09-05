@@ -20613,8 +20613,8 @@ GUIDE_ARTICLES.push(
     author: 'ScamShield Editorial',
     tags: ['guide', 'cleo-ai-ftc-settlement'],
     sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2025/03/cash-advance-company-cleo-ai-agrees-pay-17-million-result-ftc-lawsuit-charging-it-deceives-consumers',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Mobile_banking_deposit_(5494592023).jpg?width=1200',
-    coverImageCredit: 'Photo: Kendra Helmer / USAID, public domain, via Wikimedia Commons',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Smartphone_Use.jpg?width=1200',
+    coverImageCredit: 'Photo: Océanos y datos, CC0, via Wikimedia Commons — a smartphone home screen, the interface for the Cleo AI cash-advance app',
     coverImagePosition: 50,
     // representative photo — replace with an exact match if found
     body: `Cleo AI markets itself as a friendly, chatbot-driven budgeting app, but the feature that actually drove downloads was a promise of fast cash: sign up, connect a bank account, and get an advance — described in Cleo's own marketing as arriving "today" or "instantly" — of up to a few hundred dollars before payday. According to a Federal Trade Commission complaint filed March 27, 2025 in the U.S. District Court for the Southern District of New York, that promise rarely matched what customers actually received, and getting out of the subscription required to access it was deliberately made harder than getting in.
