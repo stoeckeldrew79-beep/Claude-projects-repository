@@ -1,10 +1,13 @@
-import { useDailyScamNews } from '../hooks/useDailyNews';
+import { useState } from 'react';
+import { useDailyScamNews, useDailyNewsStates } from '../hooks/useDailyNews';
 import { useDocumentMeta } from '../hooks/useDocumentMeta';
 import { DailyScamNews } from '../types';
 import { BlurFade } from '../components/magicui/blur-fade';
 import { timeAgo } from '../utils/timeAgo';
+import { stateName } from '../utils/usStates';
 
 function NewsRow({ item }: { item: DailyScamNews }) {
+  const isAgAlert = item.source_kind === 'ag';
   return (
     <a
       href={item.source_url}
@@ -19,7 +22,21 @@ function NewsRow({ item }: { item: DailyScamNews }) {
         </span>
       </div>
       {item.summary && <p className="mt-1.5 text-sm text-slate-600">{item.summary}</p>}
-      <p className="mt-2 text-xs font-medium text-red-700">{item.source_name}</p>
+      <div className="mt-2 flex flex-wrap items-center gap-2">
+        <p className="text-xs font-medium text-red-700">{item.source_name}</p>
+        {/* An alert straight from the state's own Attorney General carries more
+            weight than press coverage about it, so it is labelled as such. */}
+        {isAgAlert && (
+          <span className="rounded-sm bg-red-50 px-1.5 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-red-800">
+            Official AG alert
+          </span>
+        )}
+        {item.state && (
+          <span className="rounded-sm bg-slate-100 px-1.5 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-slate-600">
+            {item.state}
+          </span>
+        )}
+      </div>
     </a>
   );
 }
@@ -27,11 +44,16 @@ function NewsRow({ item }: { item: DailyScamNews }) {
 export default function TodaysScams() {
   useDocumentMeta({
     title: "Today's Scams",
-    description: 'Real scam-related news headlines from US and international outlets, scanned automatically and updated daily.',
+    description:
+      'Real scam-related news headlines from US and international outlets, plus official state Attorney General alerts, scanned automatically and updated daily.',
     path: '/todays-scams',
   });
 
-  const { data: news, isLoading, isError } = useDailyScamNews();
+  const [state, setState] = useState<string>('');
+  const { data: news, isLoading, isError } = useDailyScamNews(state || undefined);
+  const { data: stateCounts } = useDailyNewsStates();
+
+  const selected = stateCounts?.find((s) => s.state === state);
 
   return (
     <div className="max-w-3xl mx-auto px-4 py-12">
@@ -45,6 +67,57 @@ export default function TodaysScams() {
         </p>
       </BlurFade>
 
+      {/* Only offer states that actually have alerts — all 51 with most of them
+          empty would be a menu of dead ends. */}
+      {stateCounts && stateCounts.length > 0 && (
+        <div className="mt-6 flex flex-wrap items-center gap-3">
+          <label htmlFor="state-filter" className="text-sm font-medium text-slate-700">
+            Filter by state
+          </label>
+          <select
+            id="state-filter"
+            value={state}
+            onChange={(e) => setState(e.target.value)}
+            className="rounded-md border border-slate-300 px-3 py-2 text-sm"
+          >
+            <option value="">All states &amp; international</option>
+            {stateCounts.map((s) => (
+              <option key={s.state} value={s.state}>
+                {stateName(s.state)} ({s.total})
+              </option>
+            ))}
+          </select>
+          {state && (
+            <button
+              type="button"
+              onClick={() => setState('')}
+              className="text-sm font-medium text-red-700 hover:underline"
+            >
+              Clear
+            </button>
+          )}
+        </div>
+      )}
+
+      {selected && (
+        <p className="mt-3 text-sm text-slate-600">
+          {selected.ag_count > 0 ? (
+            <>
+              {selected.ag_count} official alert{selected.ag_count === 1 ? '' : 's'} published directly by the{' '}
+              {stateName(selected.state)} Attorney General, plus news coverage.
+            </>
+          ) : (
+            // Deliberately not phrased as "this AG publishes no feed": several
+            // offices do publish one that is simply empty right now, and the
+            // count alone cannot tell those two cases apart.
+            <>
+              No official {stateName(selected.state)} Attorney General alerts in the last 30 days — these are news
+              reports mentioning that office.
+            </>
+          )}
+        </p>
+      )}
+
       {isLoading && <p className="mt-8 text-slate-500">Loading…</p>}
       {isError && <p className="mt-8 text-red-700">Couldn't load today's scam news.</p>}
 
@@ -54,7 +127,13 @@ export default function TodaysScams() {
             <NewsRow item={item} />
           </BlurFade>
         ))}
-        {news && news.length === 0 && <p className="text-slate-500">No scam news scanned yet — check back soon.</p>}
+        {news && news.length === 0 && (
+          <p className="text-slate-500">
+            {state
+              ? `No recent alerts for ${stateName(state)} — try another state or clear the filter.`
+              : 'No scam news scanned yet — check back soon.'}
+          </p>
+        )}
       </div>
     </div>
   );
