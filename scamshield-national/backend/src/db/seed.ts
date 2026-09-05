@@ -17361,6 +17361,49 @@ Before trusting any "AI lawyer," "AI doctor," or similarly billed automated prof
   },
 );
 
+GUIDE_ARTICLES.push(
+  {
+    title: `The TurboTax "Free" Case: What a $141 Million Settlement and an FTC Order Reveal About "Free" Advertising`,
+    slug: 'turbotax-intuit-free-filing-settlement-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'turbotax-intuit-free-filing-settlement'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/The_Internal_Revenue_Service_Building,_located_in_the_center_of_the_Federal_Triangle_complex_in_Washington,_D.C_LCCN2013634106.jpg?width=1200',
+    coverImageCredit: 'Photo: Carol M. Highsmith, Public Domain, via Wikimedia Commons/Library of Congress',
+    coverImagePosition: 50,
+    sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2024/01/ftc-issues-opinion-finding-turbotax-maker-intuit-inc-engaged-deceptive-practices',
+    body: `The IRS Free File Program is a real partnership between the IRS and a coalition of tax software companies that lets eligible taxpayers — historically, the roughly 70% of filers under a set income threshold — prepare and e-file a federal return at no cost at all. For years, Intuit, the maker of TurboTax, was one of the participating companies. It was also, regulators eventually concluded, running an advertising campaign designed to keep as many of those eligible people as possible away from the truly free product and inside a "TurboTax Free Edition" that could suddenly stop being free the moment a return included a form the free version didn't cover.
+
+In March 2022, the FTC filed an administrative complaint against Intuit alleging that its "free, free, free" ad campaign deceived consumers who had no way of knowing, before they'd already spent time entering personal and financial information, whether their specific tax situation actually qualified. The complaint pointed to a concrete example of how far the company went to protect that funnel: for about five months during the peak of the 2018 filing season, Intuit added code to its actual IRS Free File landing page that blocked search engines from indexing it, making the genuinely free product effectively invisible to anyone searching for it online while TurboTax's own "Free Edition" — free only for simple returns — stayed fully visible.
+
+An FTC administrative law judge and then, on January 22, 2024, the full five-member Commission (voting unanimously) found that Intuit's advertising violated the FTC Act. The Commission's final order bars Intuit from advertising any product as "free" unless it is free for all consumers, or unless the ad clearly and conspicuously discloses, right next to the word "free," what percentage of people actually qualify — and if most people don't qualify, the ad has to say that plainly rather than let the word "free" carry the whole pitch.
+
+That case ran alongside a separate, earlier action: in May 2022, a coalition of all 50 state attorneys general and the District of Columbia announced a $141 million multistate settlement with Intuit, covering consumers who paid to file a federal return through TurboTax for tax years 2016 through 2018 despite being eligible to file for free through the IRS program. Roughly 4.4 million people were identified automatically, with no claim form required, and administrator Rust Consulting mailed checks ranging from $29 to $85 starting in May 2023. Intuit itself had exited the IRS Free File Program entirely in July 2021, a move regulators and consumer advocates said followed years of the company lobbying to keep the free option limited rather than expand it.
+
+Neither case alleged the sweepstakes-style fraud most people picture when they hear "scam" — nobody impersonated the IRS or asked for a wire transfer. The harm here was quieter and, because it came from a company millions of people already trusted with their most sensitive financial information, arguably harder to spot: an advertising structure engineered so that by the time you learned you didn't qualify for "free," you'd already invested the time entering your W-2s, dependents, and bank account number, making the extra charge feel like a fait accompli rather than a decision you could still walk away from.
+
+The practical lesson extends past this one company and past tax season. Any "free" claim attached to a financial product — free trading, free credit monitoring, free refinancing consultation — is worth checking against the specific terms before you commit any personal data, not after. If you qualify for the IRS Free File Program (available directly at irs.gov, not through a tax company's own branded "free" product page), that link is the one to bookmark, since a company's own free tier can carry narrower eligibility rules that only surface once you're partway through a return. And if you paid to file a simple return for tax years 2016 through 2018 and never received one of the settlement checks, the FTC's own refund-verification page at ftc.gov/enforcement/refunds is the place to check status — never a link that arrives unsolicited by text or email claiming to represent this settlement.`,
+  },
+  {
+    title: `The BetterHelp Settlement: What $7.8 Million in FTC Refunds Reveals About Therapy Apps Selling Your Health Data`,
+    slug: 'betterhelp-ftc-health-data-settlement-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'betterhelp-ftc-health-data-settlement'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Counselling_session.jpg?width=1200',
+    coverImageCredit: 'Photo: tiyowprasetyo, CC0, via Wikimedia Commons',
+    coverImagePosition: 50,
+    sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2023/07/ftc-gives-final-approval-order-banning-betterhelp-sharing-sensitive-health-data-advertising',
+    body: `BetterHelp is an online counseling platform that, at signup, asks new users to answer a detailed intake questionnaire covering things like past suicidal thoughts, current medications, and history of therapy — the kind of information people share with a therapist because they've been told, explicitly, that it will stay confidential. In March 2023, the FTC filed a complaint alleging that BetterHelp's privacy promises didn't match what the company actually did with that data behind the scenes.
+
+According to the complaint, BetterHelp used and disclosed consumers' email addresses, IP addresses, and their answers to those personal health questions to third-party advertising platforms — including Facebook, Snapchat, Criteo, and Pinterest — so it could target ads at them and find more people who resembled its existing user base. The FTC's complaint described specific numbers: BetterHelp uploaded the email addresses of more than 7 million visitors and users to Facebook for ad-matching purposes, and disclosed the IP addresses and email addresses of about 5.6 million visitors to Snapchat to retarget them with ads for the service — all while its website and privacy policies told users their health information would be kept confidential except as needed to provide counseling.
+
+The Commission's final order, approved on a unanimous vote in July 2023, permanently bans BetterHelp from disclosing consumers' health information to third parties for advertising, requires the company to obtain a consumer's affirmative express consent before sharing any personal health data for any other purpose going forward, and orders it to instruct Facebook, Snapchat, and every other platform it fed data to, to delete what it received. The order also included $7.8 million to be returned to consumers who signed up and paid for BetterHelp's services between August 1, 2017 and December 31, 2020 — which the FTC described as its first action to return money directly to consumers whose health data was compromised this way. Refund notices began reaching eligible consumers in May 2024, again with no claim form required to receive a payment.
+
+What makes this case worth understanding as a consumer-protection matter, not just a tech-privacy footnote, is how ordinary the underlying behavior has become. Mental-health and wellness apps routinely embed the same advertising-platform tracking code used by any retail website, and a privacy policy's promise of "confidentiality" often applies narrowly to the clinical record, not to metadata like your email address, device information, or which page on the site you visited — the exact categories of data the FTC said BetterHelp shared. That gap between what a health app promises in plain language and what its advertising pixels actually transmit is a pattern regulators have since pursued against other health, fertility, and wellness apps as well.
+
+Before creating an account with any therapy, medical, or wellness app, look specifically for whether its privacy policy distinguishes between your clinical information and your account/browsing data, and whether it names the third-party advertising platforms it works with — a policy that only makes a vague promise of "confidentiality" without addressing tracking pixels and ad partners deserves a second look. If you were a BetterHelp customer between August 2017 and December 2020 and never received a refund notice, the settlement is administered independently of BetterHelp itself, so verify any claim of eligibility directly through the FTC's refund page at ftc.gov/enforcement/refunds rather than through a link in an unsolicited email or text.`,
+  },
+);
+
 async function seedArticles(articles: SeedArticle[], label: string) {
   for (const article of articles) {
     await pool.query(
