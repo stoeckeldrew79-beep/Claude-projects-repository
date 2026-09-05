@@ -10312,6 +10312,47 @@ AirBit Club is a reminder that affinity carries in both directions — a pitch d
   },
 );
 
+NOTORIOUS_ARTICLES.push(
+  {
+    title: 'Brian Kolfage and the "We Build the Wall" Fundraiser That Defrauded More Than 100,000 Donors',
+    slug: 'brian-kolfage-we-build-the-wall-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-sdny/pr/leaders-we-build-wall-online-fundraising-campaign-charged-defrauding-hundreds-thousands',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Brian_Kolfage_keynote_at_Navy_League_Sea_Service_Awards.jpg?width=1200',
+    coverImageCredit: 'Photo: U.S. Navy, Mass Communication Specialist Diana Quinlan (public domain) — Kolfage in 2012, before founding We Build the Wall',
+    coverImagePosition: 25,
+    body: `Brian Kolfage, a triple-amputee Air Force veteran wounded in Iraq, had spent years building a public profile as a resilient wounded warrior and a minor conservative-media figure running viral partisan Facebook pages. In December 2018, he turned that following into "We Build the Wall," a GoFundMe campaign pitched as a grassroots answer to a stalled congressional border-wall appropriation: if Washington wouldn't pay for a wall along the U.S.-Mexico border, ordinary donors would crowdfund one themselves.
+
+Kolfage told the public he would "not take a penny in salary or compensation" and that "100% of the funds raised... will be used in the execution of our mission and purpose." Former Trump strategist Steve Bannon, who joined the effort's advisory board, reinforced the pitch, describing it as a volunteer organization. More than 100,000 donors gave over $25 million.
+
+According to federal prosecutors in the Southern District of New York, that promise was false almost from the start. Kolfage, working with Bannon, Florida associate Andrew Badolato, and Colorado businessman Timothy Shea, is alleged to have routed the nonprofit's money through shell companies and a fabricated invoicing arrangement, quietly diverting more than $350,000 to himself — spent, prosecutors said, on a boat, a luxury SUV, cosmetic surgery, and personal credit-card debt — while Bannon collected at least $1 million through a separate nonprofit he controlled. The wall the campaign actually built, a roughly half-mile private section near Sunland Park, New Mexico, needed emergency repairs within months over erosion concerns.
+
+All four men were indicted in August 2020. Bannon received a presidential pardon from Donald Trump in the final hours of his administration, before trial, ending the federal case against him. Kolfage was later charged separately in Florida with tax fraud for failing to report the diverted money as income, and in 2022 pleaded guilty to conspiracy to commit wire fraud, conspiracy to commit money laundering, and tax fraud. In April 2023, he was sentenced to 51 months in prison and ordered to forfeit more than $17.8 million along with over $2 million in restitution. Badolato was sentenced to three years; Shea, convicted at a second trial after the first ended in a deadlocked jury, received 63 months.
+
+The case is a reminder that a cause people already believe in — even one as politically charged as a border wall — is exactly the kind of pitch that can suppress the ordinary skepticism donors would apply to a stranger asking for money, especially when the person asking wears a war injury as proof of sincerity and promises, in writing, that "100%" of every dollar goes where it's supposed to.`,
+  },
+  {
+    title: 'Matthew Piercey and the Fake "Upvesting Fund" That Ended With a Submersible in Lake Shasta',
+    slug: 'matthew-piercey-upvesting-fund-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-edca/pr/shasta-county-man-sentenced-30-years-prison-running-35-million-investment-fraud-scheme',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Aerial_view_of_Shasta_Dam_and_Shasta_Lake_(2019).jpg?width=1200',
+    coverImageCredit: 'Photo: Bureau of Reclamation, U.S. Dept. of the Interior (CC BY-SA 2.0) — Shasta Dam and Lake Shasta, where Piercey tried to flee arrest',
+    coverImagePosition: 50, // representative photo — replace with a portrait if found
+    body: `Matthew Piercey ran an investment operation out of Palo Cedro, a small community in Shasta County, California, built around something he called the Upvesting Fund — an automated algorithmic trading program he told investors had a long, proven track record of returns. Prosecutors say Piercey told a very different story in private: to at least one associate, he admitted the Upvesting Fund did not actually exist.
+
+Between July 2015 and August 2020, Piercey raised roughly $35 million from investors, many of whom he met through his own church congregation and who handed over retirement accounts and life savings on the strength of his standing as a trusted member of their community. As in a classic Ponzi scheme, the "returns" paid to earlier investors came from cash raised from newer ones rather than from any real trading activity. When the flow of new money threatened to slow, prosecutors say Piercey enlisted a Redding-area chiropractor to help quietly bring in new investor funds and keep the fraud running.
+
+The case took an unusual turn on November 16, 2020, when federal agents arrived to arrest Piercey. He led them on a vehicle pursuit, abandoned his car, and fled into Lake Shasta using an underwater submersible device in an attempt to escape. He was caught anyway, and was later charged with witness tampering on top of the underlying fraud.
+
+Piercey pleaded guilty in May 2025 — four days before his trial was set to begin — to 27 counts including wire fraud, concealment money laundering, and witness tampering, without any plea agreement in place. Investigators found he had repaid only about $8.8 million of the $35 million he raised, spending much of the rest on personal expenses, real estate, and his own criminal defense. In May 2026, a federal judge sentenced him to 30 years in prison and ordered him to pay $25.5 million in restitution to his victims.
+
+Piercey's case is a reminder that affinity fraud runs on borrowed trust rather than real returns: a fellow congregant asking for retirement savings can feel safer than a stranger's cold pitch, even though shared faith says nothing about whether an "automated trading fund" is actually placing a single trade — and that when the fraud finally catches up with the person running it, the lengths some will go to avoid answering for it can be as dramatic as evading arrest through a lake with a submersible.`,
+  },
+);
+
 // Practical "how it works / red flags / what to do" guides covering the
 // major scam categories, the same kind of coverage the FTC's Consumer
 // Advice site and AARP's Fraud Watch Network publish — well-documented
