@@ -6571,10 +6571,9 @@ Diss Debar kept working her old trade almost to the end. In 1907, the Detroit Fr
     slug: 'shaun-greenhalgh-bolton-art-forger',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Bolton_Town_Hall_(3).JPG?width=1200',
-    coverImageCredit: 'Photo: Rept0n1x (CC BY-SA 3.0)',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Amarna_Princess.JPG?width=1200',
+    coverImageCredit: 'Photo: Geni, Wikimedia Commons (CC BY-SA 4.0) — the "Amarna Princess," one of Shaun Greenhalgh\'s forged Egyptian antiquities, sold to Bolton Museum for £440,000',
     coverImagePosition: 50,
-    // representative photo — replace with a portrait if found
     body: `Shaun Greenhalgh was born September 19, 1961, in Bromley Cross, near Bolton in Lancashire, England, and left school at 16 with no formal art training. Working from a garden shed behind the council house he shared with his elderly parents, George and Olive Greenhalgh, in the South Turton area of Bolton, Shaun spent roughly seventeen years — from 1989 to 2006 — producing forged artworks and antiquities across an astonishing range of styles, materials, and periods, while his parents fronted the sales to museums, auction houses, and private collectors as a family antiques business. Scotland Yard's Art and Antiques Unit later described it as possibly the most diverse forgery operation ever uncovered.
 
 The family's most audacious fake was the "Amarna Princess," a 20-inch alabaster statue Shaun carved in about three weeks using basic hand tools, which he and his parents presented as a rediscovered 3,300-year-old Egyptian antiquity from the reign of Akhenaten. Bolton Museum bought it in 2003 for £439,767 after outside Egyptologists judged it genuine. Other fakes moved through the same channel with similarly convincing results: the "Risley Park Lanx," a purported Roman silver plate that sold for £100,000; a wooden sculpture called "The Faun," attributed to Paul Gauguin and authenticated by the respected Wildenstein Institute before the Art Institute of Chicago bought it for $125,000; and paintings and sculptures falsely credited to L.S. Lowry, Barbara Hepworth, and the American landscape painter Thomas Moran, among many others.
@@ -9381,9 +9380,8 @@ The Centra Tech case became one of the defining prosecutions of the 2017-2018 IC
     slug: 'jared-rice-arisebank-ico-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
-    // representative photo — replace with a portrait if found
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Earl_Cabell_Federal_Building,_cropped.jpg?width=1200',
-    coverImageCredit: 'Photo: Rapidfire / Xnatedawgx, Wikimedia Commons (CC BY-SA) — the Earle Cabell Federal Building in Dallas, home of the U.S. District Court for the Northern District of Texas, where Rice was sentenced',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Jared_Rice_Sr.jpg?width=1200',
+    coverImageCredit: 'Photo: Sudeshroul, Wikimedia Commons (CC BY-SA 4.0) — Jared Rice Sr., the AriseBank founder later convicted of securities fraud',
     coverImagePosition: 50,
     body: `In late 2017, Dallas-area entrepreneur Jared Rice Sr. launched AriseBank with a pitch designed to ride two crazes at once: he called it "the world's first decentralized banking platform," promising customers FDIC-insured accounts, Visa-branded debit cards, and the ability to hold and spend more than 700 different cryptocurrencies, all funded through an initial coin offering for a token called AriseCoin. Rice and business partner Stanley Ford told the press and investors that AriseBank had already collected roughly $600 million in presale commitments since November 2017 — a figure regulators later said bore no real relationship to the money actually being taken in.
 
