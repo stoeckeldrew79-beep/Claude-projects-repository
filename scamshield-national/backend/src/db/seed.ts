@@ -37257,6 +37257,53 @@ SEED_SCAMS.push(
   },
 );
 
+// Three new, real, sourced Israel cases — the country was not previously
+// represented in SEED_SCAMS (verified by grep before adding). All three
+// are distinct companies/individuals from the Lee Elbaz/Yukom/BinaryBook
+// case already covered under GUIDE_ARTICLES, so nothing here duplicates
+// existing content.
+SEED_SCAMS.push(
+  {
+    name: 'SpotOption Binary Options Trading-Platform Fraud',
+    slug: 'israel-spotoption-binary-options-platform-fraud',
+    description: `Spot Option, Ltd. — an Israeli company that later renamed itself Spot Tech House, Ltd. — did not sell binary options directly to retail customers. Instead, from at least April 2012 through August 2017, it built and licensed nearly the entire technical backbone of the global binary options industry: a proprietary trading platform, back-office software, and marketing materials, all bundled and sold to "white label" brands around the world that put their own name on the product and did the actual soliciting. The U.S. Securities and Exchange Commission alleged that Spot Option's founder and CEO, Malhaz Pinhas Patarkazishvili (known as "Pini Peter"), and its president, Ran Amiran, instructed those white-label partners to market binary options to retail investors as a highly profitable investment while concealing a basic conflict at the center of the business: the partner brands were the counterparty on every investor trade, meaning they profited directly whenever a customer lost. The SEC's complaint further alleged that Spot Option engineered its platform to tilt the odds further still — permitting only partial withdrawals of deposited funds, designing payout structures that shorted winning trades, and building the system to increase the odds that a given trade would expire worthless regardless of the customer's actual market read. Combined, the fraud is alleged to have cost U.S. and foreign investors more than $100 million.
+
+The SEC filed its complaint in the U.S. District Court for the District of Nevada on April 16, 2021. Ran Amiran settled without admitting or denying the SEC's allegations, agreeing in November 2021 to a permanent injunction along with $103,365 in disgorgement, $18,508 in prejudgment interest, and a $78,000 civil penalty. Spot Option and Pini Peter did neither: after both failed to respond to the complaint, the court entered a default against them in October 2021, and on January 6, 2023, Judge James C. Mahan of the Nevada district court entered a default judgment holding Spot Option and Pini Peter jointly liable for $56,460,888.04 in disgorgement and $17,885,590.18 in prejudgment interest, plus a separate $13,254,592 civil penalty against Pini Peter individually. The case illustrates a layer of the binary options fraud economy that rarely gets top billing: the software and licensing vendor sitting behind dozens of differently branded "brokers," collecting a cut of every deposit regardless of which storefront the money came through — a reminder that a scam's public-facing brand is often not the only, or even the primary, business profiting from it.`,
+    categorySlug: 'investment-fraud',
+    country: 'IL',
+    isHistorical: true,
+    firstRecorded: '2012-04-01',
+    sources: ['U.S. Securities and Exchange Commission', 'SEC v. Spot Option, Ltd., et al. (D. Nev.)'],
+    sourceUrl: 'https://www.sec.gov/newsroom/press-releases/2021-66',
+  },
+  {
+    name: 'The GetFinancial Ring\'s Kfar Saba-Based Investment Fraud Call Centers',
+    slug: 'israel-getfinancial-ring-investment-fraud',
+    description: `From 2015 through 2021, a father-and-son team from Kfar Saba, Israel ran what German prosecutors called the "GetFinancial" ring: a network of phone call centers, operating out of Israel and several European countries, that cold-called and pressured victims across Europe into depositing money into online trading platforms. Victims were told their deposits were being professionally invested in real financial markets and shown account dashboards that appeared to track live, profitable trades; in reality, prosecutors say, the money was funneled into running the call centers themselves and into the personal accounts of the operators, while withdrawal requests went unmet. Nadav Gover ran the operation as its principal leader, his father Yaakov Gover held a senior role, and Yuri Dashevsky served as a senior executive overseeing parts of the call-center network; two non-Israeli operatives, Vadim Tsysaruk and Anna Sokolova, were also convicted for their roles. Investigators traced roughly 77 million euros (about $83 million) taken from victims across the scheme's six-year run.
+
+German prosecutors in Bavaria pursued the case, and all three Israeli defendants ultimately pleaded guilty before the Regensburg Regional Court's economic-crimes chamber. On July 3, 2023, the court sentenced Nadav Gover, identified as the ring's leader, to five years and nine months in prison along with a fine of 10.1 million euros; his father Yaakov Gover received four years and two months and a 37,200-euro fine; and Yuri Dashevsky was sentenced to four years and nine months and a 1.9-million-euro fine. The case is one of the largest cross-border investment-fraud prosecutions brought against Israeli nationals in a European court, and it follows a pattern German and Israeli investigators have flagged repeatedly since Israel's 2017 ban on the domestic binary options industry pushed many of the same call-center operators into ostensibly separate but functionally identical forex and "account manager" schemes — polished dashboards, an assigned personal adviser pushing bigger deposits, and withdrawal requests that quietly go nowhere.`,
+    categorySlug: 'investment-fraud',
+    country: 'IL',
+    isHistorical: true,
+    firstRecorded: '2015-01-01',
+    sources: ['Regensburg Regional Court (Landgericht Regensburg), Germany', 'The Times of Israel', 'FinTelegram News'],
+    sourceUrl: 'https://www.timesofisrael.com/german-prosecutors-take-aim-at-israelis-behind-77-million-euro-fraud-ring/',
+  },
+  {
+    name: 'Vault Options and Global Trader 365 Unregistered Binary Options Fraud',
+    slug: 'israel-vault-options-global-trader-365-fraud',
+    description: `Vault Options, Ltd. and Global Trader 365 were Israeli, web-based binary options firms that, starting at least in October 2012, solicited U.S. customers directly through their own websites to trade "binary options" — all-or-nothing bets on whether an asset's price would land above or below a set level by a set time. Neither firm was registered with U.S. regulators to offer these contracts, and the U.S. Commodity Futures Trading Commission's investigation found the firms' pitch relied on a set of misrepresentations common to the wider binary options fraud industry of that era: they misstated customers' real odds of profit and loss, falsely claimed that deposited funds were insured against losses, pressured customers to send additional money before earlier withdrawal requests had been honored, and, according to the CFTC's complaint, misappropriated customer funds outright rather than using them to place the trades customers believed they were making. At least 50 U.S. customers were drawn into sending more than $1 million combined to the two firms.
+
+The CFTC filed a civil enforcement complaint against Vault Options and Global Trader 365 in the U.S. District Court for the Northern District of Illinois on February 2, 2016. Neither firm defended the case, and on July 20, 2016, Judge John Z. Lee entered a final default judgment ordering them to pay, jointly and severally, a $3 million civil monetary penalty and $1,587,731 in restitution to defrauded customers, along with permanent trading bans and injunctions against both firms ever again soliciting U.S. customers or operating as unregistered futures commission merchants. The case was one of the CFTC's earliest enforcement actions against the wave of Israeli-run, web-based binary options operations that would go on to draw far larger criminal and civil cases over the following decade, and it previewed a warning regulators have repeated ever since: a platform that claims deposits are "insured against loss" is describing something no legitimate exchange-traded investment actually offers, since real market products always carry the possibility of loss.`,
+    categorySlug: 'investment-fraud',
+    country: 'IL',
+    isHistorical: true,
+    firstRecorded: '2012-10-01',
+    sources: ['U.S. Commodity Futures Trading Commission'],
+    sourceUrl: 'https://www.cftc.gov/PressRoom/PressReleases/7414-16',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
