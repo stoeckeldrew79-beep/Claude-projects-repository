@@ -40698,6 +40698,43 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'Montana "Celebrity" Romance-to-Bitcoin Scam',
+    slug: 'montana-celebrity-impersonation-romance-bitcoin-scam',
+    description: `A Montana woman identified only as "Rita" was going through a divorce when a man she believed was a celebrity reached out to her on social media in 2024, and the two bonded over their shared experience before the relationship "morphed into something more romantic." He soon asked to move their conversation to an encrypted messaging app, refused ever to meet in person or video-chat, and over several months of near-constant texting — she later said "these texts were like a drug" — began asking her for money for expenses tied to supposed celebrity events and appearances, always to be sent as Bitcoin. By the time she recognized the deception, Rita had sent roughly $90,000. She agreed to share her story, using only her first name, in a public service announcement the FBI's Salt Lake City Field Office (which covers Montana) released to mark World Elder Abuse Awareness Day on June 15, 2025, saying, "If I can save just one person from this folly ... I've done my job." The FBI noted that in 2024 alone, Montana had 44 victims report romance-scam losses of more than $2.29 million to its Internet Crime Complaint Center, and it urges anyone in an online relationship who is asked to pay — especially in cryptocurrency, and especially by someone who always has an excuse not to meet or video-call — to stop sending money and independently verify who they are actually talking to.`,
+    categorySlug: 'romance-scams',
+    country: 'US',
+    state: 'MT',
+    alertLevel: 'high',
+    sources: ['FBI Salt Lake City Field Office', 'Newstalk KGVO'],
+    sourceUrl: 'https://www.fbi.gov/contact-us/field-offices/saltlakecity/news/romance-scam-victim-tells-her-story-warns-others-to-be-vigilant',
+  },
+  {
+    name: 'Rapid City Fake-Arrest Cash-and-Gold Impersonation Scam',
+    slug: 'south-dakota-rapid-city-fake-law-enforcement-gold-cash-scam',
+    description: `In 2023, callers working with Abdul Waheed Mohammed and Shalinee Vyas contacted an elderly woman in the Rapid City, South Dakota area and falsely told her she was implicated in a crime and faced immediate arrest unless she handed over cash and gold to resolve the matter, warning her not to tell anyone what was happening. Believing them, the victim gathered roughly $110,000 in cash and gold — and Mohammed was arrested by law enforcement when he arrived at her home in person to collect it, after the victim's friends noticed something was wrong and alerted authorities. Vyas, 46, was sentenced in October 2025 to 63 months in federal prison, and following a three-day jury trial that same month that convicted him of conspiracy to commit wire fraud, Mohammed, 33, was sentenced on January 27, 2026 to five years in prison and ordered to pay $163,000 in restitution. The case is distinct from South Dakota's phone-only "jury duty" impersonation scams in that it escalated to an in-person pickup of physical cash and gold from the victim's own home — a pattern South Dakota authorities and the U.S. Attorney's Office for the District of South Dakota warn is increasingly used nationally by fraud rings, and one where the giveaway is the same regardless of the story: no genuine police officer, prosecutor, or federal agent will ever tell someone to avoid arrest by handing cash or gold to a courier who shows up at their door.`,
+    categorySlug: 'government-impersonation',
+    country: 'US',
+    state: 'SD',
+    isHistorical: true,
+    firstRecorded: '2023-01-01',
+    sources: ["U.S. Attorney's Office for the District of South Dakota", 'KOTA Territory News', 'The Dakota Scout'],
+    sourceUrl: 'https://www.justice.gov/usao-sd/pr/indiana-man-convicted-federal-court-defrauding-elderly-victims-out-tens-thousands',
+  },
+  {
+    name: 'Ellendale Publishers Clearing House Facebook Prize Scam',
+    slug: 'north-dakota-ellendale-publishers-clearing-house-facebook-scam',
+    description: `Everett Rain of Ellendale, North Dakota received a Facebook message from a woman telling him he had won $1 million and a new car from Publishers Clearing House, and that all he needed to do to claim the prize was buy and send her an Apple gift card. Rain complied, and when the scammer kept coming back asking for more money, he lost a total of $300 before recognizing what was happening and speaking out publicly in July 2025 to warn others, telling a local news crew, "It's getting to be where you can't trust nobody anymore" and "I'm just tired of it." His story, reported by Valley News Live, illustrates a scam pattern that has spread from phone calls and mailers to direct Facebook messages: a supposed sweepstakes win that arrives unsolicited on social media, paired with a demand for upfront payment — via gift card, wire transfer, or otherwise — to "release" nonexistent winnings. Real sweepstakes operators, including the actual Publishers Clearing House, never contact winners through a personal Facebook message and never require a fee, tax payment, or gift card purchase before delivering a prize.`,
+    categorySlug: 'lottery-sweepstakes-scams',
+    country: 'US',
+    state: 'ND',
+    alertLevel: 'medium',
+    sources: ['Valley News Live'],
+    sourceUrl: 'https://www.valleynewslive.com/2025/07/25/north-dakota-man-warns-publishers-clearing-house-scam/',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
