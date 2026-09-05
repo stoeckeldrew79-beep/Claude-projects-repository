@@ -9197,6 +9197,12 @@ Patel was arrested in Singapore in September 2018 and extradited to the United S
 
 The HGlobal case became a template — for prosecutors, who used it to demonstrate that an overseas call-center kingpin was not beyond the reach of U.S. extradition, and, unfortunately, for the scam itself, which barely slowed down after Patel's arrest. IRS- and immigration-impersonation calls threatening arrest for unpaid taxes remain one of the most reported phone scams in the country years later, run by a long tail of imitators using the same fear-first, pay-immediately structure Patel's call centers refined at scale.`,
     sourceUrl: 'https://www.justice.gov/usao-sdtx/pr/owner-and-operator-india-based-call-centers-sentenced-scamming-us-victims-out-millions',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/CaseyFederalCourthouseHoustonTX.JPG?width=1200',
+    coverImageCredit: 'Photo: WhisperToMe (Public Domain)',
+    coverImagePosition: 50,
+    // Bob Casey U.S. Courthouse in Houston (Southern District of Texas), where
+    // Patel was sentenced — used because no free-licensed portrait of Patel
+    // could be located.
   },
   {
     title: "Adrian Abramovich and the FCC's Largest-Ever Robocall Fine",
@@ -9211,6 +9217,11 @@ The FCC issued Abramovich a Notice of Apparent Liability in 2017, along with a C
 
 Abramovich never paid the fine, and the government went to federal court to collect it. In the U.S. District Court for the Southern District of Florida, Abramovich fought the collection suit for years on procedural grounds; as of a December 2023 ruling recommending that the court reject his motion to dismiss, the case remained in litigation nearly seven years after the calls themselves had stopped — a reminder that even a record-setting fine is only as real as the government's ability to actually collect it.`,
     sourceUrl: 'https://www.fcc.gov/document/fcc-fines-massive-neighbor-spoofing-robocall-operation-120-million-0',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Seal_of_the_Federal_Communications_Commission.jpg?width=1200',
+    coverImageCredit: 'Photo: Federal Communications Commission (Public Domain)',
+    coverImagePosition: 50,
+    // No free-licensed portrait of Abramovich could be located; using the
+    // seal of the agency that brought the record fine against him.
   },
 );
 
