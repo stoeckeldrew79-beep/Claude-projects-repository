@@ -10588,10 +10588,9 @@ If you're helping an older family member, agree in advance on a household rule t
     slug: 'online-marketplace-scams-facebook-craigslist',
     author: 'ScamShield Editorial',
     tags: ['guide', 'online-marketplace'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Old_items_displayed_at_garage_sale.jpg?width=1200',
-    coverImageCredit: 'Photo: Sneha G Gupta (CC BY-SA 4.0)',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Craigslist_logo.svg?width=1200',
+    coverImageCredit: 'Craigslist (PD-textlogo), via Wikimedia Commons — one of the two real platforms named in the article',
     coverImagePosition: 50,
-    // representative photo — replace with an exact match if found
     sourceUrl: 'https://consumer.ftc.gov/articles/buying-online-marketplace',
     body: `Online marketplaces like Facebook Marketplace, Craigslist, and OfferUp connect local buyers and sellers directly, without the structured buyer-protection programs and dispute resolution that come standard on larger platforms like Amazon or eBay — which is exactly what makes them attractive to scammers on both sides of a transaction.
 
@@ -11207,10 +11206,9 @@ Red flags include any claim that a government agency is behind the offer, pressu
     slug: 'crowdfunding-gofundme-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'crowdfunding-scams'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/2023-09-13_Digital_donation_box_to_combat_homelessness.jpg?width=1200',
-    coverImageCredit: 'Photo: Bärbel Miemietz (CC BY-SA 4.0)',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/GoFundMe.svg?width=1200',
+    coverImageCredit: 'GoFundMe (PD-textlogo), via Wikimedia Commons — the real platform named in the article',
     coverImagePosition: 50,
-    // representative photo — replace with an exact match if found
     sourceUrl: 'https://consumer.ftc.gov/articles/donating-through-crowdfunding-and-fundraising-platforms',
     body: `A crowdfunding campaign appears with a compelling story — a stranger's medical emergency, a family displaced by disaster, a beloved community figure in crisis — often paired with real, emotionally striking photos and a specific dollar goal. The story spreads on social media, donations pour in from people who've never met the person involved, and by the time anyone questions it, the organizer has already withdrawn the funds and disappeared.
 
@@ -13921,10 +13919,9 @@ Real verification never arrives as an unsolicited email or DM inviting you to ap
     slug: 'pet-sitting-job-overpayment-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'pet-sitting-scam'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Dog_walking_woman.jpg?width=1200',
-    coverImageCredit: 'Photo: Amin (CC BY-SA 4.0)',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Rover.com_logo.svg?width=1200',
+    coverImageCredit: 'Rover.com (PD-textlogo), via Wikimedia Commons — one of the two real platforms named in the article',
     coverImagePosition: 50,
-    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.bbb.org/article/scams/24708-scam-alert-pet-sitting-job-is-too-good-to-be-true',
     body: `Someone lists themselves as a pet sitter or dog walker on Rover, Care.com, or a similar platform, and a "client" reaches out with an offer that skips every normal step of hiring: they're relocating to the area soon, need care to start right away, will pay well above the going rate, and don't need an interview or even a video call first — the sitter is "clearly" trustworthy from their profile alone. The lack of vetting feels like a compliment rather than a warning sign, which is precisely the point.
 
@@ -14517,8 +14514,8 @@ Before letting anyone in, call the phone number printed on an actual utility bil
     slug: 'mobile-phone-bill-cramming-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'cramming'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Black_smartphone_in_hand_(Unsplash).jpg?width=1200',
-    coverImageCredit: 'Photo: Dennis Cortés (CC0)',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Smartphone-mobile-hand-technology-internet-finger.jpg?width=1200',
+    coverImageCredit: 'Photo: pxhere.com, via Wikimedia Commons (CC0)',
     coverImagePosition: 50,
     // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.ftc.gov/news-events/topics/mobile-cramming',
@@ -19424,10 +19421,9 @@ For anyone who received a MOVEit-related breach notification — and many people
     author: 'ScamShield Editorial',
     tags: ['guide', 'powerschool-data-breach'],
     sourceUrl: 'https://www.texasattorneygeneral.gov/news/releases/attorney-general-paxton-sues-big-tech-company-catastrophic-data-breach-compromised-personal',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Dalby_State_School,_Computer_lab,_2023.jpg?width=1200',
-    coverImageCredit: 'Photo: Queensland Department of Education, via Kerry Raymond (CC BY 4.0)',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Simplified_PowerSchool_Logo.svg?width=1200',
+    coverImageCredit: 'PowerSchool (PD-textlogo), via Wikimedia Commons — the real company named in the article',
     coverImagePosition: 50,
-    // representative photo — replace with an exact match if found
     body: `PowerSchool is the student information system that runs quietly behind thousands of American public school districts — the platform administrators use to record grades, attendance, health accommodations, disciplinary records, and enrollment data for tens of millions of children. Between December 19 and December 28, 2024, a hacker used a single compromised password belonging to a support-portal account to walk through PowerSchool's back door and download an enormous slice of that data directly, in what security researchers and state investigators have since called one of the largest breaches of children's personal information in U.S. history.
 
 The access point wasn't a sophisticated exploit — it was a maintenance feature built into a customer-support portal, reachable with valid credentials for a single employee account, that let whoever was logged in export bulk student and staff records across PowerSchool's customer districts nationwide. According to the breach notifications PowerSchool later sent, the exposed data varied by district but could include students' full names, dates of birth, Social Security numbers, home addresses, medical information, disability and special-education records, disciplinary histories, and in some cases even bus-stop assignments — the kind of detail that, in the words of the Texas Attorney General's subsequent lawsuit, "can be used to physically locate Texas children." Reported totals put the exposure at more than 62 million student records and nearly 10 million teacher and staff records, spanning school districts across the United States and Canada.
@@ -19527,10 +19523,9 @@ GUIDE_ARTICLES.push(
     author: 'ScamShield Editorial',
     tags: ['guide', 'loandepot-data-breach-settlement'],
     sourceUrl: 'https://www.loandepotbreachsettlement.com/',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Irvine_City_Hall.jpg?width=1200',
-    coverImageCredit: 'Photo: Azusa Tarn, CC BY-SA 4.0, via Wikimedia Commons — Irvine, California, headquarters city of loanDepot',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/LoanDepot_logo.svg?width=1200',
+    coverImageCredit: 'loanDepot (PD-textlogo), via Wikimedia Commons — the real company named in the article',
     coverImagePosition: 50,
-    // representative photo — replace with an exact match if found
     body: `loanDepot is one of the largest nonbank mortgage lenders in the country, the kind of company that touches a borrower's financial life at its most sensitive point: the bank account and Social Security numbers behind a home loan. Between January 3 and January 5, 2024, according to the company's own regulatory disclosures, an attacker broke into loanDepot's network and encrypted a portion of its systems, forcing the lender to take some IT systems offline and temporarily disrupting its ability to process loan payments for existing customers. loanDepot publicly disclosed the intrusion on January 8, 2024, and on February 16, 2024, the ALPHV/BlackCat ransomware group — the same ransomware-as-a-service operation later tied to the Change Healthcare attack — claimed responsibility.
 
 What made the breach so consequential wasn't just that it happened, but what it exposed: Social Security numbers, financial account numbers, home addresses, dates of birth, email addresses, phone numbers, and in some cases passwords belonging to roughly 16.9 million people, according to notices loanDepot ultimately sent — making it one of the largest data breaches disclosed in 2024. Because loanDepot's core business is mortgage origination and servicing, the exposed records weren't limited to basic contact information the way a retail breach might be; they included the kind of account and identity data that underlies a home loan itself, information that stays valid and dangerous for identity thieves for years, not just until a card gets reissued. SecurityWeek later reported loanDepot's own disclosed remediation costs at roughly $27 million, covering incident response, legal fees, and credit-monitoring services for affected customers.
