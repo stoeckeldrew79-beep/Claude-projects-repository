@@ -39632,6 +39632,41 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'Menzgold Gold Investment Ponzi Scheme (NAM1)',
+    slug: 'ghana-menzgold-nam1-gold-investment-ponzi',
+    description: `Menzgold Ghana Limited, founded by Nana Appiah Mensah — widely known as "NAM1" — invited members of the public to deposit gold collectables with the firm in exchange for contracts promising guaranteed monthly returns of roughly 7 to 10 percent, marketing itself as a safe alternative to the stock market at a time of high youth unemployment and low trust in banks. The business functioned as a Ponzi scheme: new deposits funded the "returns" paid to earlier depositors rather than any real trading profit, a structure that could only work as long as new money kept flowing in. Ghana's Securities and Exchange Commission (SEC) investigated the firm and, in a directive dated September 7, 2018, ordered Menzgold to immediately stop taking new gold-collectable deposits and issuing guaranteed-return contracts, finding it had been operating a securities business without the license required under the Securities Industry Act, 2016; the Bank of Ghana publicly backed the shutdown. Menzgold halted withdrawals the same month, freezing the funds of what prosecutors later said were more than 16,000 named victims. NAM1 was separately arrested in Dubai in December 2018 over an unrelated gold-trading dispute before returning to Ghana in mid-2019, where he, his wife, and his sister were charged with 39 counts including operating a deposit-taking business without authorization, selling gold without a license, defrauding by false pretences, fraudulent breach of trust, and money laundering, with prosecutors alleging total defrauded sums exceeding GH¢340 million; the trial was still ongoing years later. Ghana's Ministry of Finance and consumer advocates have since pointed to Menzgold as the case study for why a "guaranteed" fixed monthly return that outpaces every licensed bank or investment product is the clearest available warning sign of a Ponzi structure, and why anyone offered such a deal should verify the firm's license directly with the SEC before depositing anything.`,
+    categorySlug: 'investment-fraud',
+    country: 'GH',
+    isHistorical: true,
+    firstRecorded: '2018-09-07',
+    sources: ['Ghana Securities and Exchange Commission', 'GhanaWeb', 'MyJoyOnline', 'Africanews'],
+    sourceUrl: 'https://www.ghanaweb.com/GhanaHomePage/NewsArchive/SEC-stops-Menzgold-from-gold-investment-trading-684357',
+  },
+  {
+    name: 'DKM Diamond Microfinance Collapse',
+    slug: 'ghana-dkm-diamond-microfinance-collapse',
+    description: `DKM Diamond Microfinance Company Limited grew rapidly across Ghana's Brong Ahafo, Northern, and Upper West regions by offering depositors — many of them teachers, nurses, traders, and other low- and middle-income savers — interest rates well above what licensed banks paid, while quietly funneling customer deposits into a sprawling network of unrelated subsidiaries including DKM Airlines, a fuel station, a transport company, a shea butter processor, and a mining company. The Bank of Ghana placed the firm under a moratorium in mid-2015 after finding it had breached its microfinance license conditions, and a subsequent audit found DKM held only about GH¢10.8 million in cash against roughly GH¢115.24 million in deposit liabilities, with about GH¢77.26 million of customer money having been diverted into those subsidiary businesses — a shortfall the central bank described as resembling a Ponzi scheme, since new deposits were being used to pay off maturing obligations to earlier depositors rather than being invested as promised. When DKM's operations froze, angry depositors besieged company offices in Sunyani, Nkoranza, and Berekum in late 2015, smashing windows and doors in protests serious enough that authorities treated the unrest as a public-security concern. The Bank of Ghana revoked DKM's license and placed it into receivership; the resulting claims process eventually validated 88,962 of the 90,353 claims filed, and by September 2020 — five years after the collapse — the government-appointed receiver had fully repaid roughly 74,000 of those customers, with President Nana Akufo-Addo publicly committing to clear the remaining outstanding claims. The case remains a reference point for Ghanaian regulators warning that an unlicensed investment scheme's above-market interest rate is not a sign of a better deal, but of a business that cannot generate real returns and is instead spending new depositors' money to keep old promises looking credible.`,
+    categorySlug: 'investment-fraud',
+    country: 'GH',
+    isHistorical: true,
+    firstRecorded: '2015-06-01',
+    sources: ['Bank of Ghana', 'Ghana Business News', 'allAfrica', 'Pulse Ghana'],
+    sourceUrl: 'https://www.bog.gov.gh/wp-content/uploads/2024/05/FREQUENTLY-ASKED-QUESTIONS-3.pdf',
+  },
+  {
+    name: '"Sakawa" AI-Assisted Online Romance and Identity-Theft Fraud',
+    slug: 'ghana-sakawa-online-romance-identity-theft',
+    description: `"Sakawa" is the Ghanaian term — borrowed from a Hausa phrase meaning "putting inside" — for a persistent cottage industry of online romance, inheritance, and identity-theft scams run largely by young, often unemployed men who build fake profiles on dating sites and social media, then cultivate long-distance romantic or business relationships with targets abroad before inventing a medical emergency, customs fee, or investment opportunity that requires a wire transfer. Ghana's Cyber Security Authority, the national regulator established in 2020 to track and respond to cyber threats, reported that identity-theft-enabled fraud — the category that captures most sakawa-style scams — accounted for the largest share of complaints it received, with victims losing an estimated GH¢49.5 million (about $4.5 million) in just the first half of 2023 alone, a figure the Authority attributed partly to how easily fake social-media accounts can be created and partly to persistent poverty and youth unemployment above 30 percent driving young Ghanaians toward the schemes. Investigations by the Thomson Reuters Foundation and other outlets have documented how some operators pair the scams with visits to traditional spiritual practitioners for rituals believed to increase their odds of success, and how the schemes have evolved to include AI-generated images and cloned voices to make fabricated personas more convincing on video calls. Ghana's government responded in 2023 by launching a national school program to teach students about social-media risk and cyber hygiene, and by agreeing with Nigeria to share intelligence and run joint operations against cross-border romance-fraud networks operating in both countries. The Cyber Security Authority urges anyone in an online relationship with someone they have never met in person to be highly skeptical of any request for money — especially one tied to a sudden emergency, customs clearance, or "guaranteed" investment — and to independently verify the person's identity through a video call and a reverse image search before sending anything.`,
+    categorySlug: 'romance-scams',
+    country: 'GH',
+    alertLevel: 'high',
+    sources: ['Cyber Security Authority (Ghana)', 'Ghana News Agency', 'Thomson Reuters Foundation (Context)', 'The Conversation'],
+    sourceUrl: 'https://www.context.news/digital-rights/sakawa-boys-meet-ghanas-online-romance-scammers',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
