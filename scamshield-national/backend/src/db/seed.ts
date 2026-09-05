@@ -34737,6 +34737,39 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'INSS Unauthorized Association Payroll-Deduction Fraud (Operação Sem Desconto)',
+    slug: 'brazil-inss-unauthorized-association-payroll-deduction-fraud',
+    description: `Starting in 2019, dozens of unions and "associations" struck formal agreements with Brazil's Instituto Nacional do Seguro Social (INSS) — the federal agency that pays retirement and disability benefits — allowing each group to deduct a recurring monthly "membership fee" directly from beneficiaries' pension deposits before the money ever reached the retiree's bank account. A federal investigation, Operação Sem Desconto (Operation No Discount), run jointly by the Polícia Federal and the Controladoria-Geral da União (CGU, Brazil's federal comptroller general), found that of 29 associations it examined, 72% had never even filed the documentation required to legally establish a deduction agreement with INSS in the first place, and many had no real staff, office, or service structure behind the "membership" they were charging for. CGU's audit of 11 of the entities under investigation found roughly R$6.3 billion diverted from beneficiaries between 2019 and 2024, and estimated that 97% of the retirees and pensioners charged had never actually authorized the deduction — many only discovered the recurring charge after comparing their benefit statement line by line, since the amount withheld each month was often small enough to go unnoticed for years. The scandal broke publicly in early 2025, prompting Brazil's Supreme Federal Tribunal to order pre-trial detention for at least one suspect, Senate bills aimed at tightening INSS's oversight of these deduction agreements, and a federal reimbursement effort the Ministry of Finance estimated at R$1–2 billion, with a stated goal of repaying 1.8 million affected retirees by mid-2025. INSS itself now urges every beneficiary to check their monthly statement in the Meu INSS app or by calling the agency's 135 hotline, and to formally contest and request a refund for any association or union deduction they do not specifically remember authorizing in writing.`,
+    categorySlug: 'public-benefits-fraud',
+    country: 'BR',
+    alertLevel: 'high',
+    sources: ['Controladoria-Geral da União (CGU)', 'Polícia Federal', 'Instituto Nacional do Seguro Social (INSS)'],
+    sourceUrl: 'https://www.gov.br/inss/pt-br/noticias/inss-acionara-a-policia-federal-se-houver-indicios-de-fraudes-nos-descontos-feitos-por-associacoes',
+  },
+  {
+    name: 'Golpe da Falsa Central (Fake Bank Call Center Impersonation Scam)',
+    slug: 'brazil-golpe-da-falsa-central-bank-impersonation-scam',
+    description: `Brazil's national banking federation, Febraban (Federação Brasileira de Bancos), reported that the "golpe da falsa central" — criminals posing as an employee of a bank or another company the victim already has a real relationship with — was among the three most-reported bank fraud patterns of 2024, logging roughly 105 million complaints for the year across its member institutions. The scam typically opens with a phone call, text, or WhatsApp message, sometimes even including a photo of the victim's real branch manager copied from social media, in which the caller claims there has been a suspicious transaction or security problem on the victim's account. Once the target is alarmed, the caller — now posing as bank security staff — talks them through "protective" steps that actually walk the victim into authorizing a Pix instant-payment transfer, reading out a one-time password sent by SMS, or handing over online banking credentials, all under the pretense of stopping a fraud that was never really happening. Brazil's central bank, the Banco Central do Brasil, separately reported that identified Pix fraud cases jumped 80% in 2024 to roughly 4.7 million confirmed incidents totaling about R$6.5 billion in losses, and has stated publicly that the Pix payment system itself is technically secure — the actual vulnerability is the social-engineering call that convinces a victim to authorize the transfer themselves. A Procon/SC (Santa Catarina) case handled in this pattern saw a consumer recover R$13,000 within six days after the state consumer-protection agency intervened directly with the bank, but Febraban and Banco Central both stress that recovery is never guaranteed and the only reliable defense is hanging up and calling the bank back only through the number printed on a card or the official app, since no legitimate bank employee will ever ask a customer to read back a password or authorize a transfer to "protect" their account.`,
+    categorySlug: 'phishing',
+    country: 'BR',
+    alertLevel: 'high',
+    sources: ['Federação Brasileira de Bancos (Febraban)', 'Banco Central do Brasil', 'Procon-SC'],
+    sourceUrl: 'https://portal.febraban.org.br/noticia/4279/pt-br/',
+  },
+  {
+    name: 'WhatsApp Account Cloning via SMS Verification Code Scam',
+    slug: 'brazil-whatsapp-account-cloning-sms-verification-code-scam',
+    description: `Procon-SP, São Paulo's state consumer-protection foundation, has repeatedly warned Brazilian consumers about a scam in which a criminal who already has a target's name and phone number — often lifted from a marketplace listing or social media — contacts them posing as a site employee needing to "verify" or "activate" a classified ad, and asks the target to read back a six-digit code that just arrived by SMS. That code is not a marketplace verification code at all; it is the confirmation code WhatsApp sends when someone tries to register the victim's phone number on a new device, and handing it over lets the criminal instantly take over the victim's WhatsApp account, log the real owner out, and lock them out of their own contact list and chat history. Once in control, the scammer messages the victim's family, friends, and coworkers pretending to be them, typically fabricating an urgent need for money — a medical emergency, a stranded relative, an unpaid bill — and asking contacts to send a Pix payment right away, counting on the trust built into an already-familiar chat thread to bypass the skepticism a message from a stranger would trigger. Febraban's 2024 fraud tally recorded roughly 523,000 WhatsApp-related financial scam cases industry-wide for the year, and Procon-SP's standing guidance is unambiguous: never share a verification code with anyone for any reason, since neither WhatsApp nor any legitimate business will ever need to ask for one. The agency also recommends every user enable WhatsApp's own "two-step verification" feature (Settings > Account > Two-step verification) as a second lock a stolen SMS code alone cannot open, and to warn contacts immediately through another channel — a phone call, a different app — if a WhatsApp account has just been cloned, since messages sent from the compromised account will look exactly like the real person typing them.`,
+    categorySlug: 'account-takeover',
+    country: 'BR',
+    alertLevel: 'medium',
+    sources: ['Procon-SP (Fundação de Proteção e Defesa do Consumidor)', 'Federação Brasileira de Bancos (Febraban)'],
+    sourceUrl: 'https://www.procon.sp.gov.br/golpe-do-whatsapp/',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
