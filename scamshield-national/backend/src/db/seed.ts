@@ -10031,6 +10031,45 @@ Brogdon's scheme is a reminder that a red flag doesn't always announce itself as
   },
 );
 
+NOTORIOUS_ARTICLES.push(
+  {
+    title: 'Sidney Field, Joseph Lampariello, and the Medical Receivables Company That Paid Old Investors With New Money',
+    slug: 'sidney-field-joseph-lampariello-medical-capital-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://www.sec.gov/litigation/litreleases/lr-21141',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/AnaheimPanorama.jpg?width=1200',
+    coverImageCredit: 'Photo: mtungate, CC BY 2.0 — Anaheim, California, where Medical Capital Holdings kept its offices',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    body: `Sidney Field and Joseph Lampariello ran Medical Capital Holdings, Inc. out of offices in Anaheim and Tustin, California, on a pitch that sounded almost boring next to the exotic hedge funds and crypto schemes that dominate this collection: the company said it bought medical receivables — unpaid bills owed to doctors, hospitals, and clinics — at a discount, then collected them at full value, pocketing the spread. Investors who bought Medical Capital's private-placement notes were told their money funded that receivables-buying business, plus a modest amount of secured lending and general operating costs. Starting in 2003, that pitch raised the company more than $2.2 billion.
+
+The business didn't work the way it was marketed. The SEC's civil complaint, filed as an emergency action on July 16, 2009, in the U.S. District Court for the Central District of California, alleged that Field and Lampariello had misrepresented to investors that none of Medical Capital's prior note offerings had ever defaulted or made late payments — when in fact, since August 2008, five of the company's special-purpose entities had already defaulted or gone late on a combined $992.5 million in notes. By the time U.S. District Judge David O. Carter froze the company's assets and installed a receiver, nearly 9,000 investors were owed roughly $1.08 billion. Lampariello's own conduct went further than concealment: over an 11-month stretch in 2008 and 2009, prosecutors said he personally misappropriated money raised by one entity, Medical Provider Funding Corporation VI — which had taken in nearly $50 million from more than 700 investors — to make Ponzi-style payments to earlier noteholders and to pay himself undisclosed administrative fees.
+
+The SEC's civil case against Field ended in a settlement in which he neither admitted nor denied the allegations; a final judgment on February 23, 2016, ordered Medical Capital's entities and executives, combined, to pay $831 million in disgorgement. Lampariello faced criminal charges as well as civil ones. He pleaded guilty to one felony count of wire fraud and a misdemeanor count of willfully failing to file a tax return, and on June 15, 2016, Judge Carter — the same judge who had frozen the company's assets seven years earlier — sentenced him to 121 months, just over ten years, in federal prison, along with $39,961,859 in restitution. Investors recovered only a fraction of what they were owed: roughly $432 million total, about 40 cents on the dollar, pieced together from bank and bond-trustee settlements, brokerage-firm settlements, and the receiver's sale of what assets remained.
+
+Medical Capital's fraud is a reminder that a scheme doesn't need an exotic asset class to disguise a Ponzi structure — a company that says it's in the unglamorous business of buying and collecting medical debt can still be quietly using this month's investors to pay off last month's, as long as no one outside the building is checking whether the receivables it claims to hold are actually worth what it says they are.`,
+  },
+  {
+    title: 'Joseph Blimline and the Oil-and-Gas Ponzi Scheme That Followed Him From Michigan to Texas',
+    slug: 'joseph-blimline-provident-royalties-oil-gas-ponzi',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://www.justice.gov/archive/usao/miw/news/2012/2012_0504_JBlimline.html',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/View_of_the_Dallas,_Texas,_skyline,_taken_from_Reunion_Tower_LCCN2014632132.tif?width=1200',
+    coverImageCredit: 'Photo: Carol M. Highsmith, public domain (Library of Congress) — the Dallas, Texas skyline; Joseph Blimline ran Provident Royalties out of Dallas',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    body: `Joseph Stanley Blimline's first oil-and-gas Ponzi scheme collapsed in Michigan, and instead of stopping, he simply moved. From roughly 2003 to 2005, Blimline and co-conspirators Eric and Jay Merkle, of Williamston, Michigan, raised money from investors by promising inflated returns on oil-and-gas drilling ventures that had no realistic prospect of paying what was promised, using new investors' money to pay off earlier ones and diverting a share for personal use — the standard mechanics of a Ponzi scheme dressed up as an energy investment. When that scheme became unsustainable, Blimline relocated to Dallas, Texas, and, starting in early 2006, built a new company, Provident Royalties, LLC, on essentially the same model with a new set of collaborators.
+
+Provident sold preferred stock and promissory notes through a network of independent broker-dealers, telling investors their money would go toward interests in oil-and-gas and other natural-resource projects. Between 2006 and early 2009, it raised approximately $485 million from at least 7,700 investors — while, prosecutors said, Blimline directed the company to take out millions of dollars in unsecured loans against investor funds and to buy what amounted to worthless assets left over from the earlier Michigan scheme, effectively laundering one collapsed fraud's bad paper into a second, larger one. Blimline departed Provident in late 2008, but the company kept running on the same footing for several more months: even after discovering how dire its finances actually were, executives Brendan Coughlin, Henry Harrison, and Paul Melbye concealed that fact from investors between January and early February 2009, in order to bring in an additional $2.3 million before the SEC shut the operation down that summer with an emergency asset freeze.
+
+Blimline pleaded guilty to mail fraud in both the Western District of Michigan and the Eastern District of Texas, and on May 4, 2012, U.S. District Judge Marcia A. Crone sentenced him to two concurrent 20-year prison terms and ordered him to pay restitution; the Merkle brothers were each sentenced to ten years for their roles in the Michigan scheme. The Provident executives who kept the Texas operation going after Blimline left faced lighter consequences: Coughlin and Harrison each pleaded guilty to conspiracy to commit mail fraud and were sentenced on July 3, 2013, to 21 months in federal prison, Melbye to 18 months, and a fourth executive, W. Mark Miller, who had authorized payments prosecutors called deceptive, to 6 months plus 6 months of home confinement — with the group ordered to pay $2.3 million in restitution between them. Across both the Michigan and Texas versions of the scheme, prosecutors put the combined losses at more than $400 million.
+
+Blimline's case is a reminder that a collapsed fraud doesn't always end when the money runs out in one state — a con man who moves his operation, changes his company's name, and finds a fresh set of investors can keep the same scheme running for years, and the executives who inherit that scheme from him can end up facing federal charges of their own for continuing to hide what they eventually learned about its true condition.`,
+  },
+);
+
 // Practical "how it works / red flags / what to do" guides covering the
 // major scam categories, the same kind of coverage the FTC's Consumer
 // Advice site and AARP's Fraud Watch Network publish — well-documented
