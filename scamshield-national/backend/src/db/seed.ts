@@ -16737,6 +16737,43 @@ The Walmart settlement requires the company to build real earnings verification 
   },
 );
 
+GUIDE_ARTICLES.push(
+  {
+    title: 'The "Black Screen" Video-Call Sweepstakes Scam: When You Can\'t See Who\'s Calling, But They Can See You',
+    slug: 'black-screen-video-call-sweepstakes-scam-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'video-call-sweepstakes-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Woman%20sitting%20on%20a%20chair%20in%20a%20cafe%20using%20her%20smartphone%20to%20make%20a%20video%20call.jpg?width=1200',
+    coverImageCredit: 'Photo: Nenad Stojković, CC BY 2.0, via Wikimedia Commons',
+    coverImagePosition: 40,
+    sourceUrl: 'https://ago.wv.gov/article/attorney-general-mccuskey-warns-consumers-new-scam-tactics-targeting-west-virginians',
+    body: `A video call comes in through WhatsApp, FaceTime, or a similar app — not from a phone number, but from an email address, with no caller ID to check. Answer it, and the screen stays black. There's no picture, no face, nothing to look at — but on the other end, the caller can see you. West Virginia's Attorney General reported on September 4, 2026 that its Consumer Protection Division had identified exactly this pattern as one of two newly emerging scam tactics behind a spike to 401 scam complaints in August alone, with sweepstakes and lottery schemes landing among the division's top five categories that month. "Many consumers who reported this scam did not answer," the office noted, but among those who did, the description was consistent: a black screen on the caller's side, and a claim that the recipient had won a prize or sweepstakes.
+
+The mechanics work specifically because a video call carries more assumed legitimacy than a voice call or a text. A stranger cold-calling to announce a prize win is an obviously overused script by now, but framing it as a video call — the kind of format normally reserved for people who already know each other — creates a strange, unearned sense that the interaction must be real, even before a single word is exchanged. The blacked-out screen only deepens the asymmetry: the recipient has no visual information to size up the caller, while the caller can watch the recipient's face, surroundings, and reaction in real time, learning whether the person seems confused, annoyed, intrigued, or elderly and alone — all useful signal for deciding whether to keep pushing or move to the next name on a list. Calls arriving from an email address rather than a phone number, with no caller ID to look up independently, are a related giveaway across both this scam and other current WV-reported schemes, since a genuine prize administrator has no reason to route contact through an app in a way that hides its identity.
+
+No legitimate sweepstakes, lottery, or prize program requires a winner to answer a video call to "verify" anything, and real prize notifications don't depend on catching a call live in the first place — they come through a process the entrant can independently confirm, in writing, from an organization whose name and contact information can be checked. A caller who claims a win but won't show their face, won't provide a callable phone number, or pushes toward a follow-up request for personal information, a processing fee, or gift cards to "release" the prize is behaving exactly like every other version of the lottery-scam script, just with a new, unsettling delivery mechanism layered on top.
+
+Anyone who receives a video call like this should hang up rather than stay on the line trying to figure out who's on the other end — there's no benefit to waiting out a black screen, and no legitimate caller has a reason to leave it that way. West Virginia residents can report the scam to the Attorney General's Consumer Protection Hotline at 1-800-368-8808 or through ago.wv.gov; residents of any state can file a report with their own state attorney general's consumer protection office and with the FTC at ReportFraud.ftc.gov, including the app used, the contact information the call came from, and what the caller claimed to be offering.`,
+  },
+  {
+    title: 'Fake Product Recall Alerts: The "Sign In Now" Text That Isn\'t From Amazon, Costco, or Walmart',
+    slug: 'fake-product-recall-phishing-scam-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'product-recall-phishing-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Cardboard%20box.jpg?width=1200',
+    coverImageCredit: 'Photo: MrBeastRapper, CC BY-SA 4.0, via Wikimedia Commons',
+    coverImagePosition: 50,
+    sourceUrl: 'https://www.aarp.org/states/virginia/aarp-fraud-watch-network-helpline-alert--product-recall-scams-are-on-the-rise/',
+    body: `A text or email arrives saying a product recently purchased has been recalled over a safety concern, and it looks like it came from a retailer whose name is instantly familiar — Amazon, Costco, Walmart. The message is polite and reassuring rather than alarming: "To ensure your safety and process your full refund without delay, please sign in to your account through the official website and review your order below." A link sits right there, ready to click. The AARP Fraud Watch Network Helpline reported in a 2026 alert that these recall-themed phishing messages were on the rise, warning that the link doesn't lead anywhere near the retailer it names — it leads to a lookalike login page built to harvest whatever account credentials and personal information get typed into it.
+
+The pitch works by borrowing urgency from a real and familiar category of consumer news. Actual product recalls happen constantly and get real news coverage, so a message that name-drops a specific, plausible-sounding retailer doesn't require much suspension of disbelief — most people have, at some point, bought something from Amazon, Costco, or Walmart recently enough that the claim lands as at least possible. Framing the ask as processing a refund rather than demanding money is what makes it disarming: nobody feels like they're being scammed into paying for something, they feel like they're being offered money back, which lowers the guard a request for a wire transfer or gift card would normally raise.
+
+The tell is in what a genuine recall actually asks a consumer to do. The U.S. Consumer Product Safety Commission, which coordinates real product recalls, is explicit that legitimate recall notices instruct people to stop using the affected product and describe how to get a repair, replacement, or refund — they don't function as urgent account-verification prompts demanding an immediate login through a link embedded in a text or email. A retailer that already has a customer's order and account information has no need to ask that customer to "sign in and review your order below" through anything other than the retailer's own app or a URL the customer typed in directly; a real recall communication also doesn't hinge on speed the way this message does, since a genuine safety recall stays open and available to affected customers for as long as it's active, not for a limited window.
+
+Anyone who gets a message like this should avoid clicking the link entirely and instead check two things independently: first, log into the retailer's account directly through its official app or by typing the retailer's actual web address into a browser, rather than through any link the message provided, to see whether any real order notice appears there; second, search the specific product at cpsc.gov/Recalls or SaferProducts.gov, the government's own recall databases, to confirm whether an actual recall exists. Anyone who already clicked a link and entered account information should change that account's password immediately, check for unauthorized orders or address changes, and enable two-factor authentication if it isn't already on. Suspected fake recall messages can be reported to the FTC at ReportFraud.ftc.gov and to the AARP Fraud Watch Network Helpline at 1-877-908-3360, which offers free support to anyone, regardless of AARP membership, who wants to talk through a suspicious message before responding to it.`,
+  },
+);
+
 async function seedArticles(articles: SeedArticle[], label: string) {
   for (const article of articles) {
     await pool.query(
