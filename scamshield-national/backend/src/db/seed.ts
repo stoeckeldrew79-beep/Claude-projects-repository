@@ -38690,6 +38690,47 @@ SEED_SCAMS.push(
   },
 );
 
+// Three new, real, sourced second-scam cases for Alaska (AK), Oklahoma (OK),
+// and New Hampshire (NH) — a brace-depth-aware parse of the entire
+// SEED_SCAMS region (initial array + every subsequent .push() block) found
+// these three tied for the fewest entries; each case below uses a category
+// not already covered for that state (verified before adding).
+SEED_SCAMS.push(
+  {
+    name: 'Business Email Compromise Scheme Defrauding an Alaska Nonprofit Performing Arts Organization',
+    slug: 'alaska-nonprofit-performing-arts-business-email-compromise',
+    description: `Federal prosecutors named an Alaska-based nonprofit performing arts organization as one of the victims of a business email compromise scheme run out of Connecticut and several other countries by Nigerian national Okechuckwu Valentine Osuji, according to the U.S. Attorney's Office for the District of Connecticut. Osuji and his co-conspirators compromised or spoofed business email accounts and used forged invoices, contracts, and wire-transfer instructions to pose as trusted vendors or business partners, tricking the Alaska nonprofit and other victims — including a Connecticut-based financial company, a Colorado-based lending company, and a New York-based food-and-beverage company — into wiring payments to accounts the conspirators controlled; the stolen funds were then moved through networks of witting and unwitting "money mule" bank accounts before being consolidated or converted to cash, with losses and intended losses in Osuji's case exceeding $6 million. Osuji, 39, was sentenced in federal court in New Haven on December 5, 2024, to eight years in prison. A co-conspirator, Kenyan national John Muriuku Wamuigah, who forged invoices, contracts, and wire instructions at Osuji's direction as part of the wider scheme — which caused losses and intended losses topping $12 million — was arrested in Malaysia in 2022, extradited to the United States in 2025, pleaded guilty on October 17, 2025, to conspiracy to commit wire fraud, and was sentenced to time already served (roughly 23 months) before being turned over to immigration authorities for removal to Kenya. Any nonprofit, small business, or arts organization that receives an email asking to change a vendor's payment or wiring instructions — even one that appears to come from a familiar contact or a real invoice — should confirm the change by phone using a previously known number before sending money, since a convincingly forged invoice is the entire mechanism this scheme depends on.`,
+    categorySlug: 'business-email-compromise',
+    country: 'US',
+    state: 'AK',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office for the District of Connecticut", 'U.S. Department of Justice'],
+    sourceUrl: 'https://www.justice.gov/usao-ct/pr/extradited-nigerian-national-sentenced-eight-years-prison-business-email-compromise',
+  },
+  {
+    name: "Asbury Communities Diverted Donor-Restricted Funds at Tulsa's Inverness Village",
+    slug: 'oklahoma-asbury-communities-inverness-village-donor-funds',
+    description: `Oklahoma Attorney General Gentner Drummond's Charity Enforcement Unit found that Asbury Communities, Inc. and its affiliated Asbury Foundation had spent donor-restricted charitable gifts on general operating expenses rather than the specific resident-care programs and endowment the donors intended, after residents and families of Inverness Village — a Tulsa continuing care retirement community Asbury once operated — gave more than $500,000 over the years to support benevolent care and dedicated programs for fellow residents. Inverness Village filed for bankruptcy and was sold in 2019, and the Attorney General's investigation concluded the charitable donations tied to the facility had not been properly safeguarded or preserved for their intended charitable purpose. Under a settlement announced April 17, 2025, Asbury agreed to pay $400,000 total: $355,000 redirected to Tulsa Hills Community, Inc., the facility's successor operator, to fund senior care consistent with the original donors' wishes, and $45,000 to reimburse the Attorney General's investigation costs. No individuals were criminally charged; the matter was resolved civilly through Oklahoma's charitable trust oversight authority. Donors who give to a specific fund, memorial, or program at a nonprofit — rather than to its general operations — should ask the charity for an accounting of how restricted gifts were actually spent, since a change in ownership or a bankruptcy is exactly when funds earmarked for one purpose are most likely to quietly become available for another.`,
+    categorySlug: 'charity-scams',
+    country: 'US',
+    state: 'OK',
+    alertLevel: 'medium',
+    sources: ["Oklahoma Attorney General's Office", 'Oklahoma Attorney General Charity Enforcement Unit'],
+    sourceUrl: 'https://oklahoma.gov/oag/news/newsroom/2025/april/charity-enforcement-unit-secures-400k-settlement.html',
+  },
+  {
+    name: 'Market Shark LLC Used to Launder Business Email Compromise Proceeds',
+    slug: 'new-hampshire-market-shark-llc-bec-money-laundering',
+    description: `Beginning in late 2022, a money-laundering ring allegedly routed millions of dollars in stolen business email compromise proceeds through Market Shark LLC, a business registered with the New Hampshire Secretary of State, according to the U.S. Attorney's Office for the District of New Hampshire. Prosecutors allege the underlying fraud started elsewhere: conspirators compromised or spoofed the email accounts of companies around the country and altered bank payment information on outgoing invoices, tricking victim businesses into wiring payments to accounts the conspirators controlled. Bill Ying Li, 51, Bing Xun Gong, 56, and Sabir Magdeev, 33, were then charged with conspiring to launder more than $3 million of those fraud proceeds by moving the money through Market Shark's New Hampshire-registered bank accounts alongside other shell entities and cryptocurrency wallets, layering the funds to obscure their criminal origin. A federal grand jury indicted the three men on one count of conspiracy to launder monetary instruments on July 16, 2026; Li and Gong were arrested and made initial appearances in California and Illinois respectively before being scheduled to appear in New Hampshire on July 29, 2026, while Magdeev was awaiting extradition from Cyprus. The charge carries a maximum sentence of 20 years in prison. The case is a reminder that a legitimate-looking, properly registered New Hampshire LLC can exist for no purpose other than receiving and re-routing another company's stolen wire transfer — a business owner asked to accept large incoming wires from an unfamiliar company and immediately forward most of the money elsewhere, often for a "commission," should recognize that pattern as money laundering, not a legitimate contract.`,
+    categorySlug: 'business-email-compromise',
+    country: 'US',
+    state: 'NH',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office for the District of New Hampshire", 'FBI Boston Field Office', 'New Hampshire Union Leader'],
+    sourceUrl: 'https://www.justice.gov/usao-nh/pr/three-charged-money-laundering-conspiracy-using-new-hampshire-business-conceal-funds',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
