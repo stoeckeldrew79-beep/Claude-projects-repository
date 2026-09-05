@@ -36277,6 +36277,41 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'Dh12 Million Online "Love Scam" Targeting a Lonely Elderly Woman (UAE)',
+    slug: 'uae-elderly-woman-dh12-million-online-love-scam',
+    description: `Dubai Police disclosed on February 17, 2025 the case of an elderly European woman who lost approximately Dh12 million (roughly $3.3 million) in life savings to an online romance scam after a stranger contacted her on social media claiming to be a handsome, wealthy young businessman living in Dubai. Over an extended period, the fraudster built what felt to the victim like a genuine romantic connection, drawing on details she had shared about her emotional state and financial circumstances to tailor his approach, before persuading her to sell off her assets back home and wire the proceeds to him. It was only after she relocated to Dubai to be with the man she believed she loved that she discovered he did not live there at all — investigators traced the operation to a fraudster working from an African country as part of an organized romance-scam network, not a wealthy Dubai resident. Brigadier General Saeed Al Hajri, Assistant Director General of Dubai Police's Criminal Investigations General Directorate, said such scammers deliberately study a target's social media presence to learn "your social and financial status, emotional needs, and whether you are lonely or fulfilled" before ever making contact, and urged residents to restrict who can see their personal posts, report suspicious profiles, and come forward to police without fear or embarrassment if they suspect they are being targeted. The case illustrates why Dubai Police repeatedly warn that a new online partner who has never met you in person yet quickly professes love and eventually asks for money or asset transfers is following a well-documented fraud script, however genuine the relationship may feel.`,
+    categorySlug: 'romance-scams',
+    country: 'AE',
+    alertLevel: 'high',
+    firstRecorded: '2025-02-17',
+    sources: ['Dubai Police', 'Gulf News'],
+    sourceUrl: 'https://gulfnews.com/uae/crime/love-scam-in-uae-elderly-woman-loses-dh12-million-to-online-romance-fraud-1.500039219',
+  },
+  {
+    name: '"High and Quick Profits" Fake Trading Platform Ring (UAE)',
+    slug: 'uae-high-quick-profits-fake-trading-platform-ring',
+    description: `Dubai Police's Anti-Fraud Centre, part of the General Department of Criminal Investigation, announced on July 20, 2025 the arrest of four suspects behind an online investment fraud ring that cold-called victims and ran social media advertisements promising "high and quick profits" through supposedly reputable trading and investment brands. The gang operated under multiple fabricated brand names — including Sigma-One Capital, DuttFx, EVM Prime, UTrade, EVA Markets, and Core Financial Markets — with Sigma-One Capital in particular already known to have vanished with millions of dirhams from earlier UAE investors; the operation shared office space with a firm called Gulf First Commercial Brokers, whose staff used both names interchangeably, claimed the business was registered in St. Lucia, and listed a Dubai address at Musalla Tower where investigators found no evidence any real operations actually took place. Victims who transferred money on the promise of fast, outsized returns had their funds moved into bank accounts outside the UAE, putting the money largely beyond reach once the fraud was discovered. Dubai Police stated plainly that "only authorized and licensed institutions are allowed to provide investment services in the country," and the arrests were publicized as part of the force's ongoing #BeAwareofFraud public-awareness campaign, which urges residents to verify any trading platform's license with the UAE Securities and Commodities Authority or the Central Bank before transferring a single dirham.`,
+    categorySlug: 'investment-fraud',
+    country: 'AE',
+    alertLevel: 'high',
+    firstRecorded: '2025-07-20',
+    sources: ['Dubai Police', 'Dubai Media Office', 'Khaleej Times', 'Gulf News', 'Finance Magnates'],
+    sourceUrl: 'https://www.mediaoffice.ae/en/news/2025/july/20-07/dubai-police-nab-cybercrime-gang-posing-as-investment-brokers',
+  },
+  {
+    name: 'Ajman "Dh4 Toll Fine" Fake SMS and Stolen-Card POS Fraud Ring (UAE)',
+    slug: 'uae-ajman-dh4-toll-fine-sms-pos-fraud-ring',
+    description: `The UAE Public Prosecution disclosed the dismantling of a cross-emirate fraud network that had been sending fake SMS messages to residents offering to let them settle supposedly unpaid toll-gate charges for as little as Dh4, far below any real Salik or Darb fine, in order to create a sense of a minor, easy-to-clear debt. Victims who clicked the link in the text and entered their banking details to "pay" the fake fine instead handed over card data that the network used to drain their accounts through fraudulent transactions. Investigators traced the operation to a residential apartment in Ajman that served as the ring's headquarters, and seized 22 electronic point-of-sale devices there that had been used, together with stolen card data, to process unauthorized transactions routed through shell companies with bank accounts opened in Sharjah and Ajman. Prosecutors said the scheme was allegedly directed remotely by a Pakistani national based outside the UAE, who supplied the stolen card data and coordinated the shell companies from abroad. Across the emirates, 35 separate complaints were recorded, 29 of them in Dubai alone, before the network was broken up and its members detained pending further investigation. Authorities urged residents to verify any traffic-fine notice only through official government platforms — Dubai's RTA or the national Darb/Salik apps — rather than clicking a link in an unsolicited text message, however small and plausible the amount it demands.`,
+    categorySlug: 'government-impersonation',
+    country: 'AE',
+    alertLevel: 'high',
+    sources: ['UAE Public Prosecution', 'Khaleej Times'],
+    sourceUrl: 'https://www.khaleejtimes.com/uae/crime/dh4-traffic-fine-cross-emirate-fraud-network-busted-over-fake-sms-scam',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
