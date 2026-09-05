@@ -38232,6 +38232,42 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'Huntsville Tech-Support Impersonation Scam Drained Through a Cryptocurrency Kiosk',
+    slug: 'alabama-huntsville-tech-support-cryptocurrency-kiosk-fraud',
+    description: `A 73-year-old woman from Huntsville, Alabama believed she had a trusted financial technical-support team helping to protect her money, and over ten months between March and December 2024 she followed their instructions to a single cryptocurrency kiosk, completing 192 separate transactions that funneled a total of $335,420 out of her accounts and into the scammer's digital wallet. The Alabama Securities Commission surfaced her case while conducting a statewide review of crypto-kiosk fraud, examining transaction records from six kiosk operators covering all of 2024, successfully reaching about half of the 1,185 Alabamians who had used the machines that year, and finding that 64% of those contacted had been victimized and 52% of the confirmed victims were 60 or older — with $6.5 million lost out of $12.5 million deposited statewide. On what turned out to be her final visit to the kiosk, the Huntsville woman tripped and fell, and she later died of complications from her injuries. "The numbers are staggering and shocking, and the consequences are always devastating," ASC Director Amanda Senn said, adding that fraudsters "invent new scams daily" and increasingly use artificial intelligence to refine them. In response, Alabama Representative Russell Bedsole introduced the Cryptocurrency Kiosk Fraud Prevention Act (House Bill 303) in January 2026 to cap kiosk transaction amounts, mandate fraud warnings at the machines, and require refunds for confirmed fraud victims. Anyone contacted out of the blue by a supposed "tech support" team, bank, or government office and instructed to withdraw cash and feed it into a cryptocurrency kiosk should hang up immediately — no legitimate organization ever resolves an account problem that way, and once a kiosk transaction is confirmed, the money is gone for good.`,
+    categorySlug: 'tech-support-scams',
+    country: 'US',
+    state: 'AL',
+    alertLevel: 'high',
+    sources: ['Alabama Securities Commission'],
+    sourceUrl: 'https://asc.alabama.gov/wp-content/uploads/2026/01/Proposed-Bill-Introduced-in-Alabama-Legislature-to-Protect-Consumers-from-Cryptocurrency-Kiosks-Fraud.pdf',
+  },
+  {
+    name: 'Devils Lake "Grandchild Needs Bail Money" Scam',
+    slug: 'north-dakota-devils-lake-grandparent-bail-scam',
+    description: `An 80-year-old woman in Devils Lake, North Dakota received a phone call on December 12, 2025 from someone claiming to be her granddaughter, who tearfully said she had been in a car accident in Suffolk County, New York, had been charged with three crimes, and urgently needed bail money — while begging her grandmother to keep the call secret from the rest of the family. A second caller then got on the line posing as an attorney, instructed the woman to withdraw cash and mail it via the U.S. Postal Service to an address in Shirley, New York, and made repeated, aggressive follow-up calls demanding still more money. The woman mailed $8,500 in cash, but after the Devils Lake Police Department was alerted, a detective traced the package and notified the Suffolk County District Attorney's Office, whose investigators worked with U.S. Postal Inspection Service inspectors to intercept the package in Shirley on December 17, 2025 — recovering the full $8,500 and returning it to the victim before the scammers ever collected it. Unlike a romance scam that builds trust over weeks or months, this scheme relies entirely on manufactured panic and a demand for secrecy delivered in a single phone call; anyone who gets an urgent call from a "family member" in trouble should hang up and call that relative back directly at a known number before sending any money, especially when the caller insists on cash mailed to a stranger's address and pleads that no one else be told.`,
+    categorySlug: 'family-emergency-scams',
+    country: 'US',
+    state: 'ND',
+    alertLevel: 'high',
+    sources: ["Suffolk County District Attorney's Office", 'KX News'],
+    sourceUrl: 'https://www.suffolkcountyda.org/8500-returned-to-senior-citizen-after-scammers-tricked-her-into-mailing-u-s-currency/',
+  },
+  {
+    name: 'Honolulu Pair\'s Fraudulent FEMA Wildfire-Relief Claims',
+    slug: 'hawaii-honolulu-fema-disaster-relief-fraud-lahaina-palisades',
+    description: `Chelsea Johnson, 32, of Honolulu, and her co-defendant Daylyn Harris conspired to defraud FEMA by filing false disaster-assistance claims tied to two wildfires neither of them actually suffered losses in. Harris falsely claimed he had lived in Lahaina, Maui during the devastating August 2023 wildfire there and had lost housing, income, and property, while Johnson corroborated the lie by posing as his landlord; Johnson then separately filed her own false claim asserting she lived in Pacific Palisades, California during the January 2025 wildfires there and had lost housing as a result, even though she actually lived in Honolulu the entire time. Together the pair fraudulently collected more than $60,000 in FEMA disaster-relief funds intended for real wildfire victims. Both pleaded guilty to conspiracy to commit wire fraud, and on April 2, 2026, Johnson was sentenced to four months in federal custody (to be served as home confinement) followed by three years of supervised release, and ordered to pay $60,458 in restitution to FEMA; Harris's sentencing followed in May 2026. The case, investigated by the Department of Homeland Security's Office of Inspector General and prosecuted by the U.S. Attorney's Office for the District of Hawaii, is a reminder that disaster-relief fraud isn't limited to scammers impersonating FEMA and cold-calling survivors for a fee — it also includes people with no connection to the disaster zone filing fabricated claims that divert real recovery money away from Hawaii families who actually lost everything, which is why FEMA and state agencies cross-check applicants' actual residency and losses before releasing funds.`,
+    categorySlug: 'public-benefits-fraud',
+    country: 'US',
+    state: 'HI',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office, District of Hawaii", 'Maui Now'],
+    sourceUrl: 'https://www.justice.gov/usao-hi/pr/hawaii-woman-sentenced-federal-prison-stealing-disaster-relief-funds-intended-lahaina',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
