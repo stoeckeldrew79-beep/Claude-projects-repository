@@ -10070,6 +10070,43 @@ Blimline's case is a reminder that a collapsed fraud doesn't always end when the
   },
 );
 
+NOTORIOUS_ARTICLES.push(
+  {
+    title: 'William Apostelos: The $70 Million Dayton Ponzi Scheme Run by a Fake Stockbroker',
+    slug: 'william-apostelos-dayton-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://www.justice.gov/usao-sdoh/pr/local-businessman-sentenced-180-months-prison-orchestrating-70-million-ponzi-scheme',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/The_Walter_H._Rice_Federal_Building_and_U.S._Courthouse,_Dayton,_Ohio_(LOC).jpg?width=1200',
+    coverImageCredit: 'Photo: Carol M. Highsmith, Library of Congress (public domain) — the Walter H. Rice Federal Building and U.S. Courthouse in Dayton, Ohio, where William Apostelos was indicted, pleaded guilty, and was sentenced',
+    coverImagePosition: 50,
+    body: `William M. Apostelos, of Springboro, Ohio, built what federal prosecutors called the largest Ponzi scheme in Dayton's history by presenting himself as exactly the kind of local investment expert a small community tends to trust: he told investors he held a degree in mathematics and was a registered securities broker, credentials the U.S. Attorney's Office later confirmed were both false. Starting in 2009, Apostelos and his wife, Connie — who also went by Connie Coleman — recruited investors from 37 states into a network of companies based in the Dayton area, principally WMA Enterprises, LLC and Midwest Green Resources, LLC, telling them their money would buy stocks and securities, fund real estate purchases, back business loans, or purchase gold and silver.
+
+None of that happened at anywhere near the scale claimed. According to court documents, the couple used incoming investor money to pay earlier investors — the defining structure of a Ponzi scheme — while diverting large sums to personal luxuries: Apostelos was spending $35,000 a month on his wife's horse-racing company, Silver Bridle Racing, LLC, and $400 a month on Victoria's Secret lingerie, even as the underlying "investments" generated nothing. When payments to investors fell behind, the couple offered a rotating set of excuses — a hacked bank account, a bank's wiring mistake, a deal "temporarily on hold" — rather than admit the money wasn't there. Over at least five years, Apostelos took in roughly $70 million from investors in total; the U.S. Department of Labor separately found he had stolen approximately $1.9 million directly from pension funds covered by federal employee-benefit-plan law.
+
+Apostelos and his wife were indicted in October 2015. He pleaded guilty in February 2017 to conspiracy to commit mail and wire fraud and to theft or embezzlement from an employee benefit plan, and on June 30, 2017, U.S. District Judge Thomas M. Rose sentenced him to 180 months — 15 years — in federal prison, along with more than $32 million in restitution. Connie Apostelos pleaded guilty to a single count of mail fraud; Steven Scudder, an attorney who had served as trustee of the WMA Trust and admitted using his law license to lend the scheme false credibility, pleaded guilty to wire fraud and was sentenced to 14 months. The Securities and Exchange Commission pursued a parallel civil case, ultimately winning a final judgment in 2019 ordering Apostelos to pay more than $11.7 million in disgorgement and prejudgment interest, with the three companies he controlled held jointly liable for a similar amount. Investigators seized racehorses, vehicles, jewelry, artwork, and cash totaling roughly $650,000 from the couple — a fraction of what nearly 500 victims had actually lost.
+
+Apostelos's case is a reminder that the credentials a salesman claims are only as real as an investor's willingness to check them: Ohio's own securities regulator noted after the sentencing that its Investor Protection Hotline exists precisely so people can verify, before writing a check, whether the person selling them an investment is actually a licensed broker at all — a five-minute call Apostelos's own investors never made.`,
+  },
+  {
+    title: 'Ming Xu and the WCM777 "Cloud Computing" Ponzi Scheme That Bought Golf Courses',
+    slug: 'ming-xu-wcm777-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://www.sec.gov/news/press-release/2014-60',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Edward_R._Roybal_Federal_Building_and_United_States_Courthouse_(Los_Angeles).JPG?width=1200',
+    coverImageCredit: 'Photo: Alexis Doine, CC0, via Wikimedia Commons — the Edward R. Roybal Federal Building and U.S. Courthouse in Los Angeles, home to the U.S. District Court for the Central District of California, which handled the SEC\'s case against Ming Xu and WCM777',
+    coverImagePosition: 50,
+    body: `Phil Ming Xu, an entrepreneur living in Temple City, California, built WCM777 into a multi-level marketing operation that told investors they were buying membership units granting access to cloud computing services — website hosting, data storage, and software support, sold through a network of recruiters rather than an ordinary sales force. Starting in March 2013, Xu and his web of corporations, including World Capital Market, Inc., WCM777 Inc., and WCM777 Ltd., promised investors returns of up to 60 percent over a 100-day period, marketed heavily to Asian and Latino immigrant communities in the United States and abroad.
+
+WCM777 provided no meaningful cloud computing services and generated no legitimate revenue anywhere close to what it was paying out. Forensic accountants working for the SEC traced investor deposits into Xu- and WCM-affiliated bank accounts between January 2013 and March 2014 and found no appreciable source of money other than new investor payments — the hallmark of a Ponzi scheme — used both to pay earlier investors and to fund Xu's personal spending, which included two golf courses, vacant land, a warehouse, single-family homes, an oil-and-gas investment, and rough diamonds bought from a Hong Kong merchant. The SEC filed suit against Xu and WCM on March 27, 2014, and the court immediately appointed a receiver and froze the defendants' assets, halting a scheme that had by then collected more than $65 million from investors worldwide.
+
+Xu never seriously contested the underlying fraud allegations, consenting in July 2014 to entry of judgment against him; a federal judge in the Central District of California ultimately entered final judgment of $57,260,683.88 against Xu personally and $87,793,384.02 against the WCM corporate entities. A related Ninth Circuit appeal — brought not by Xu but by an attorney who had received $5 million Xu wired him just weeks after learning the SEC was investigating — laid out in unusual detail how thin the scheme's paper trail really was: the "loan agreement" the attorney produced to justify keeping the money was drafted the day after the funds arrived, promised repayment to Xu personally instead of to the company that had actually sent it, and set a repayment date nearly five years in the future — evidence a federal judge found showed the "loan" was a sham meant to keep the money beyond the SEC's reach, a finding the Ninth Circuit affirmed in 2017. Xu himself later resurfaced overseas: Chinese media reported in 2016 that an individual identified as Xu, tied to World Capital Market, had been taken into custody amid a separate Chinese crackdown on a related pyramid-marketing operation, though no outcome of that matter was ever reflected in U.S. court filings.
+
+WCM777's downfall illustrates a durable pattern in affinity fraud: a scheme dressed in unglamorous, plausible-sounding technology jargon — "cloud computing membership units" — can move tens of millions of dollars through immigrant communities specifically because its promoters share language, culture, or community ties with their targets, making the pitch feel like a tip from a trusted neighbor rather than a stranger's investment offer.`,
+  },
+);
+
 // Practical "how it works / red flags / what to do" guides covering the
 // major scam categories, the same kind of coverage the FTC's Consumer
 // Advice site and AARP's Fraud Watch Network publish — well-documented
