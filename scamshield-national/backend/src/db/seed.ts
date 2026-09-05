@@ -9697,6 +9697,9 @@ NOTORIOUS_ARTICLES.push(
     slug: 'frederick-darren-berg-meridian-group-ponzi-scheme',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/U.S._Courthouse,_Seattle,_from_street_level.jpg?width=1200',
+    coverImageCredit: 'Photo: SounderBruce, Wikimedia Commons (CC BY-SA 2.0) — the U.S. Courthouse in Seattle, where Frederick Darren Berg was sentenced in February 2012',
+    coverImagePosition: 50,
     body: `Frederick Darren Berg ran a group of Seattle-area investment funds called the Meridian Group — Meridian Mortgage, the Meridian Diversified Fund, and related entities — telling investors for the better part of a decade that their money was pooled into commercial real estate contracts and mortgage notes. Prosecutors said Berg's funds represented that roughly $245 million in investor money was safely invested this way. In reality, according to the U.S. Attorney's Office for the Western District of Washington, most of it was an elaborate Ponzi scheme: new investors' cash paid off earlier ones, while Berg treated the rest as his own.
 
 The money bought a lifestyle to match the fiction. Court filings and the DOJ's own sentencing summary itemized a $1.95 million condo in downtown Seattle, a $1.25 million house in La Quinta, California, a $1.4 million San Francisco condo, and a Mercer Island waterfront home purchased for $5.475 million with another roughly $5 million poured into renovating it. Berg bought two Learjets for a combined $5.5 million to purchase and operate, multiple yachts costing $3.6 million to buy, run, and modify, and a stable of Porsches and an Audi S5. He also diverted about $45 million of investor funds between 2003 and 2010 into MTR Western, a charter bus company he separately owned.
@@ -9728,6 +9731,9 @@ NOTORIOUS_ARTICLES.push(
     slug: 'sushovan-hussain-autonomy-hp-accounting-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Phillip_Burton_Federal_Building_%26_United_States_Courthouse.jpg?width=1200',
+    coverImageCredit: 'Photo: Marincyclist, Wikimedia Commons (CC BY-SA 4.0) — the Phillip Burton Federal Building and United States Courthouse in San Francisco, where Sushovan Hussain was tried and sentenced',
+    coverImagePosition: 50,
     body: `Autonomy Corporation was a British enterprise-software success story: founded by Cambridge-trained entrepreneur Mike Lynch, it built a "meaning-based" search engine called IDOL that promised to make sense of a company's unstructured data — emails, video, voicemail — and by the late 2000s it had become one of the UK's largest technology companies. Sushovan Hussain served as Autonomy's chief financial officer through the years that mattered most: from 2009 through the company's sale in 2011, prosecutors said, he and other executives systematically dressed up the numbers investors and, ultimately, an acquirer would rely on.
 
 The techniques, laid out in detail by the U.S. Department of Justice, were the classic toolkit of financial-statement fraud dressed up in enterprise-software jargon. Autonomy resold low-margin computer hardware through value-added reseller deals and booked the proceeds as high-margin software licensing revenue. It engaged in "round-trip" transactions, in which Autonomy paid a business partner for something of little value at the same time the partner bought Autonomy software, letting both sides book revenue while no real cash actually left the loop. Contracts were backdated to pull revenue into earlier quarters and hit analysts' targets. Prosecutors said the effect was to inflate Autonomy's publicly reported revenue by as much as 21.5% in a single quarter.
@@ -9742,6 +9748,9 @@ A federal jury in San Francisco convicted Hussain in April 2018 on one count of 
     slug: 'aurelien-michel-mutant-ape-planet-nft-rug-pull',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/E.D.N.Y,_Mar_2019.jpg?width=1200',
+    coverImageCredit: 'Photo: Antigng, Wikimedia Commons (CC BY-SA 4.0) — the Theodore Roosevelt U.S. Courthouse in Brooklyn (Eastern District of New York), where Aurelien Michel pleaded guilty and was sentenced',
+    coverImagePosition: 50,
     body: `By late 2021, the NFT market was in the grip of "profile picture" mania, and nothing sold better than a cartoon ape with the right pedigree. Aurelien Michel, a young French national living in the United Arab Emirates, built a project called Mutant Ape Planet whose branding and name deliberately echoed the wildly popular Mutant Ape Yacht Club — without any affiliation to it — and marketed it directly to buyers hunting for the next version of that success. To drive demand, Michel promised purchasers a package of "exclusive" perks: giveaways, raffles for real-world prizes, and additional free NFT drops meant to keep the collection's resale value climbing after the mint sold out.
 
 According to prosecutors in the Eastern District of New York, none of it was built to last. After the public sale raised nearly $3 million from thousands of buyers in January 2022, Michel and his co-conspirators simply stopped delivering on the promised rewards, moved the proceeds into cryptocurrency wallets under their own control, and walked away from the project — a maneuver crypto traders had already coined a name for: the "rug pull." It was one of a wave of nearly identical schemes that swept the 2021–2022 NFT boom, most of which left buyers with nothing more than a worthless picture of a monkey and no one to sue.
