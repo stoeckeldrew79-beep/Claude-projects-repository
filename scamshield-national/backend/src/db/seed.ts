@@ -10230,6 +10230,49 @@ Bossetti's case is a reminder that a large social media following is a marketing
   },
 );
 
+NOTORIOUS_ARTICLES.push(
+  {
+    title: 'Todd Burkhalter and the $380 Million Drive Planning Ponzi Scheme That Advertised at Ballparks and Racetracks',
+    slug: 'todd-burkhalter-drive-planning-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-ndga/pr/drive-planning-fraudsters-sentenced-federal-prison-operating-massive-380-million-ponzi',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Atlanta_Skyline_-_March_2019_(cropped).jpg?width=1200',
+    coverImageCredit: 'Photo: formulanone, CC BY-SA 2.0, via Wikimedia Commons — the Atlanta skyline, where Burkhalter was sentenced in federal court',
+    coverImagePosition: 50, // representative photo — replace with a portrait if found
+    body: `Russell Todd Burkhalter had the paperwork of an ordinary financial professional: a Georgia insurance license dating back to 1997, a stretch as a registered investment adviser through 2014, and in 2020 the publication of his own book on conservative money management, "Bullet Proof Your Finances: Confidence in Creating Financial Security." He had founded Drive Planning LLC back in 2015, but starting in September 2020, prosecutors say, he turned the firm into the vehicle for what federal authorities would later call the largest Ponzi scheme in Georgia history.
+
+Drive Planning's pitch centered on two products: the "Real Estate Acceleration Loan," or REAL, and the "Cash Out Real Estate Fund," or CORE Fund. Both were marketed as low-risk bridge loans to real estate developers, collateralized by real property, paying a guaranteed 10 percent return every three months — a fixed, no-exceptions payout that outstripped almost anything a legitimate real estate lending fund could plausibly promise regardless of market conditions. Investors who asked for specifics were pointed to a portfolio of developer loans and collateral that prosecutors say frequently did not exist or was wildly overvalued; the money coming in from new investors was used largely to pay "returns" to earlier ones, cover sales commissions, and fund Burkhalter's personal spending.
+
+Rather than recruiting quietly through referrals, Drive Planning advertised the way a mainstream consumer brand would. It bought stadium signage at Tropicana Field during Tampa Bay Rays games under the tagline "keep more, make more and live more," sponsored Sarah Fisher Hartman Racing's IndyCar program at events including Indiana's Anderson Speedway, and built a sales force that had grown to more than 100 agents by the time regulators caught up with it in 2024. Burkhalter promoted the firm directly to his own Facebook following, framing the fund's rapid growth as evidence of its success rather than a warning sign of how fast a Ponzi scheme needs new money to keep old promises funded.
+
+The Securities and Exchange Commission opened an investigation into Drive Planning around March 2024, but the company kept soliciting investors even after learning of the inquiry. By the time it was shut down, more than 2,000 investors across the country had put in roughly $380 million. Burkhalter, meanwhile, had spent millions of that money on himself: prosecutors pointed to a $2 million yacht, a $2.1 million luxury condo in Cabo San Lucas, Mexico, and frequent chartered private jet travel, on top of the sales commissions and lifestyle expenses that drained the fund from the inside.
+
+Burkhalter pleaded guilty to fraud charges and, in August 2026, U.S. District Judge Tiffany R. Johnson sentenced him in Atlanta to 20 years in federal prison — the statutory maximum — plus three years of supervised release, and ordered him to pay $233,777,763.82 in restitution. Two other Drive Planning executives were sentenced alongside him: former Chief Operating Officer David Bradford received four years and three months and was ordered to pay $4.2 million in restitution, while former Chief Administrative Officer Julie Edwards received two years and was ordered to pay $630,000. "Todd Burkhalter lured investors to send millions of dollars to Drive Planning for investments that he knew didn't actually exist," said U.S. Attorney Theodore S. Hertzberg. "He promised investors that they were guaranteed substantial returns on their investments, and he ruthlessly encouraged them to deplete their kids' college funds, take early distributions from retirement accounts, and borrow significant sums at high interest rates."
+
+Drive Planning is a reminder that a scheme doesn't need to hide in the shadows to be a fraud — buying ballpark signage and sponsoring a race team is a marketing budget, not proof of a real, cash-generating business behind it. A fixed quarterly return that never moves regardless of what real estate or interest rates are actually doing is the tell a licensed, independently audited lending fund can never honestly offer, no matter how polished the advertising around it looks.`,
+  },
+  {
+    title: 'Braden Karony and the SafeMoon "Rug-Pull-Proof" Promise That Hid a $9 Million Personal Piggy Bank',
+    slug: 'braden-karony-safemoon-crypto-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-edny/pr/ceo-digital-asset-company-safemoon-sentenced-100-months-prison-multi-million-dollar',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Salt_Lake_City,_Utah_(5821947732).jpg?width=1200',
+    coverImageCredit: 'Photo: Andrew A. Smith, CC BY-SA 2.0, via Wikimedia Commons — Salt Lake City, Utah, where SafeMoon was registered and Karony bought stolen-fund properties',
+    coverImagePosition: 50, // representative photo — replace with a portrait if found
+    body: `SafeMoon launched in March 2021, at the height of the pandemic-era meme-coin boom, with a pitch designed to stand out from the crowd of tokens that were openly just jokes: this one, its creators said, was built with safeguards against the exact scam crypto investors feared most. Every SafeMoon transaction carried a 10 percent tax, split into two halves — 5 percent redistributed to existing holders as a "reflection" reward for not selling, and 5 percent deposited into a liquidity pool that founder Kyle Nagy, Chief Technology Officer Thomas Smith, and Chief Executive Officer Braden John Karony publicly described as permanently "locked" and rug-pull-proof. At its peak, the token's market capitalization exceeded $8 billion, and the company's leadership repeatedly and publicly denied personally holding or trading SafeMoon for their own benefit.
+
+The locked liquidity pool depended entirely on the honesty of the people who controlled the keys to it, and prosecutors say Karony treated it as exactly the personal reserve he had promised investors it could never become. Beginning in 2021, according to the Justice Department, Karony exploited his backend access to divert and misappropriate more than $9 million in crypto assets earmarked for the liquidity pool, funneling the proceeds into a $2.2 million home in Utah, additional properties in Utah and Kansas, a $277,000 Audi R8, a Tesla, and a pair of customized Ford F-550 and Jeep Gladiator trucks — all while the company's public messaging continued to insist the pool was untouchable and that its founders held no personal stake in the token's price.
+
+The Internal Revenue Service's Criminal Investigation division, working with the FBI, built a case that led to federal charges against all three SafeMoon executives. Thomas Smith pleaded guilty in February 2025 to conspiracy to commit securities and wire fraud and is awaiting sentencing; Kyle Nagy has never been apprehended and remains a fugitive. Karony chose to fight the charges, and in May 2025, following a three-week trial in the U.S. District Court for the Eastern District of New York, a federal jury convicted him of conspiracy to commit securities fraud, wire fraud, and money laundering.
+
+On February 10, 2026, U.S. District Judge Eric Komitee sentenced Karony to 100 months — more than eight years — in federal prison and ordered him to forfeit approximately $7.5 million, including the two residential properties bought with diverted funds; the restitution owed to victims will be determined separately. "Karony lied to investors from all walks of life — including military veterans and hard-working Americans — and defrauded thousands of victims in order to buy mansions, sports cars, and custom trucks," said U.S. Attorney Joseph Nocella. An IRS-CI special agent overseeing the case added that Karony had "exploited SafeMoon's liquidity pool" for personal enrichment, and that the agency's investigators had unwound the scheme despite his efforts to hide it.
+
+SafeMoon's collapse is a reminder that a "locked" liquidity pool, an audited smart contract, or a founder's public denial of personal holdings is only as trustworthy as the people who control the platform's backend — none of it can be verified by an outside investor in real time, no matter how large the token's market capitalization grows or how loudly its creators insist the mechanism protects against exactly the kind of theft it was built to prevent.`,
+  },
+);
+
 // Practical "how it works / red flags / what to do" guides covering the
 // major scam categories, the same kind of coverage the FTC's Consumer
 // Advice site and AARP's Fraud Watch Network publish — well-documented
