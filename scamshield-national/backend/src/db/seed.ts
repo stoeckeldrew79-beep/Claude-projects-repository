@@ -11553,8 +11553,8 @@ Before buying any used car, check its full title history through the National Mo
     slug: 'mystery-shopper-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'mystery-shopper-scam'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Blank_check.jpg?width=1200',
-    coverImageCredit: 'Photo: Mario Lurig (CC0)',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Inside_the_shopping_mall_CC_Mart%27n.jpg?width=1200',
+    coverImageCredit: "Photo: Øyvind Holmstad, Wikimedia Commons (CC0) — a shopping mall interior, the kind of retail setting mystery shopper \"assignments\" claim to evaluate",
     coverImagePosition: 50,
     sourceUrl: 'https://consumer.ftc.gov/articles/mystery-shopping-scams',
     body: `A job listing or unsolicited message offers work as a "mystery shopper" — visiting or reviewing businesses and getting paid for the trouble — and the first assignment sounds simple: evaluate a store that sells gift cards or wire-transfer services. The company mails a check upfront, sometimes for several hundred or a few thousand dollars, with instructions to deposit it, use part of the money to buy gift cards as part of the "evaluation," and keep the rest as pay.
@@ -17339,8 +17339,8 @@ GUIDE_ARTICLES.push(
     slug: 'medicare-card-replacement-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'medicare-card-scam'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Medical_Care_Card_USA_Sample.JPG?width=1200',
-    coverImageCredit: 'Centers for Medicare & Medicaid Services, Public Domain (U.S. federal government work) — sample card from the official "Medicare & You" handbook',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Raymond_Massey_receiving_the_first_Medicare_identification_card.jpg?width=1200',
+    coverImageCredit: 'Los Angeles Times Photographic Collection, UCLA Library (CC BY 4.0) — actor Raymond Massey receiving the first Medicare identification card, Los Angeles, February 1966',
     coverImagePosition: 50,
     sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2014/10/ftc-halts-fake-medicare-scheme-took-money-seniors-bank-accounts',
     body: `Telemarketers working for a Florida operation called Sun Bright Ventures and its affiliated company Citadel ID Pro spent months calling Medicare beneficiaries around the country with a pitch built around a single, well-chosen lie: that a new Medicare card was on its way, and they just needed to confirm the beneficiary's bank account number to verify their identity before sending it. Callers assured victims no money would ever be taken from the account — it was strictly for verification, they said. According to the Federal Trade Commission, that promise was false. The company then withdrew either $399 or $448 directly from each victim's account using remotely created checks, a payment method that lets someone withdraw funds without the account holder's signature, and delivered nothing in return, not even the identity-theft protection service some victims were told they were paying for. The FTC obtained a federal court order in September 2014 freezing the defendants' assets and halting the scheme, ultimately securing a judgment of more than $1.4 million against defendant Benjamin Todd Workman, suspended after he paid $35,000 and surrendered certain bank accounts, along with a permanent ban on telemarketing deceptive healthcare offers.
@@ -17546,8 +17546,8 @@ GUIDE_ARTICLES.push(
     slug: 'military-pcs-move-rental-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'military-pcs-rental-scam'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/For-rent-sign.jpg?width=1200',
-    coverImageCredit: 'Public domain, via Wikimedia Commons',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Moving-boxes.jpg?width=1200',
+    coverImageCredit: 'Photo: MoveON moving, Wikimedia Commons (CC BY-SA 4.0) — moving boxes, the kind of cross-country household move that makes military PCS families a target for rental scams',
     coverImagePosition: 50,
     sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2026/07/how-spot-fake-rental-listings-during-military-move',
     body: `Permanent Change of Station orders don't leave much room for a leisurely house hunt. A service member gets weeks, not months, to find housing at a new duty station that might be a thousand miles away or overseas, often while still working full days at the old post and unable to fly out for a weekend of touring apartments in person. That combination — a hard deadline, a market the family has never seen in person, and a strong incentive to lock something down fast — is exactly the setup the FTC warned about in a July 2026 consumer alert focused specifically on rental scams during military moves.
