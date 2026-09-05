@@ -37,6 +37,7 @@ const NOTORIOUS_ARTICLES: SeedArticle[] = [
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
     coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Charles_Ponzi_mug_shot.jpg?width=1200',
+    coverImageCredit: 'Photo: US Government (Public Domain)',
     coverImagePosition: 50,
     body: `In 1920, a Boston businessman named Charles Ponzi promised investors he could double their money in 90 days. His pitch had a real financial instrument behind it: international postal reply coupons, which could in theory be bought cheaply in one country and redeemed for stamps worth more in another. The arbitrage was real. The scale Ponzi claimed to be running it at was not.
 
@@ -53,6 +54,7 @@ Ponzi didn't invent the pay-earlier-investors-with-later-investors' -money struc
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
     coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Bernard_Madoff_2009_mug_shot_(3x4_cropped).jpg?width=1200',
+    coverImageCredit: 'Photo: U.S. Department of Justice (Public Domain)',
     coverImagePosition: 50,
     body: `Bernard Madoff spent decades as a respected figure on Wall Street — a former chairman of the NASDAQ stock exchange — running an investment advisory business that quietly became the largest Ponzi scheme in history. For at least 17 years, and likely longer, Madoff paid "returns" to investors using money from new investors, while producing no real trading activity behind the numbers on their statements.
 
@@ -87,6 +89,7 @@ Advance-fee fraud remains one of the most reported scam categories worldwide pre
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
     coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Abagnale-friendswood-april-26-2021-louisiana-voice.png?width=1200',
+    coverImageCredit: 'Photo: Friendswood Police Department (Public Domain)',
     coverImagePosition: 50,
     body: `Frank Abagnale's own account, told in his 1980 memoir "Catch Me If You Can" and popularized by the 2002 film of the same name, is one of the most famous con-artist stories of the 20th century: a teenager in the 1960s who allegedly impersonated an airline pilot, a doctor, and a lawyer, forged roughly $2.5 million in fraudulent checks across 26 countries, and escaped custody multiple times before eventually being caught and later hired by the FBI to teach fraud prevention.
 
@@ -171,6 +174,7 @@ The gap between what Belfort owes and what he's actually paid is worth knowing o
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
     coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Allen_Stanford_mug_shot.jpg?width=1200',
+    coverImageCredit: 'Photo: U.S. Marshals Service (Public Domain)',
     coverImagePosition: 50,
     body: `Robert Allen Stanford built Stanford Financial Group into a network of investment firms centered on Stanford International Bank, an offshore bank he ran out of Antigua and Barbuda, where his wealth and political influence earned him an honorary knighthood. Over roughly two decades, the bank sold certificates of deposit promising unusually high, steady returns, eventually reaching somewhere between 18,000 and 30,000 investors in more than 100 countries.
 
@@ -293,6 +297,7 @@ The case is a reminder that a criminal accusation and a criminal conviction are 
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Lou-pearlman-mugshot.jpg?width=1200',
+    coverImageCredit: 'Photo: Federal Bureau of Investigation (Public Domain)',
     coverImagePosition: 50,
     body: `Lou Pearlman built and managed some of the biggest boy bands of the 1990s and 2000s, including the Backstreet Boys and *NSYNC, becoming one of the most powerful figures in pop music. Alongside his entertainment business, he ran investment programs — including an "Employee Investment Savings Account" and an airline-leasing venture — that promised safe, above-market returns.
 
@@ -327,6 +332,7 @@ Beyond the fraud itself — an all-too-common fake investment fund — the stage
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
     coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Ruja_Ignatova_FBI_(rightpic).jpg?width=1200',
+    coverImageCredit: 'Photo: Federal Bureau of Investigation (Public Domain)',
     coverImagePosition: 50,
     body: `Ruja Ignatova launched OneCoin in 2014, marketing it worldwide as a revolutionary cryptocurrency positioned to rival Bitcoin, sold through a multi-level-marketing structure that rewarded members for recruiting new investors as much as for the coin itself. Filling packed arenas across Europe, Asia, and Africa with the confidence of a tech visionary, she built OneCoin into a global operation that took in an estimated $4 billion or more from investors before anyone could verify the one thing the entire pitch depended on.
 
@@ -343,6 +349,7 @@ OneCoin is a useful case precisely because the fraud wasn't a subtle accounting 
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
     coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Michael_Milken_1.jpg?width=1200',
+    coverImageCredit: 'Photo: U.S. Government (Public Domain)',
     coverImagePosition: 50,
     body: `Michael Milken built the high-yield "junk bond" market at Drexel Burnham Lambert into one of the most powerful financing engines on Wall Street through the 1980s, using it to fund the era's wave of corporate takeovers and leveraged buyouts. At his peak he was reportedly the highest-paid person in America, earning hundreds of millions of dollars a year and wielding influence that let him reshape entire industries from his famous "X-shaped" trading desk in Beverly Hills.
 
@@ -359,6 +366,7 @@ The case remains a foundational reference point for insider trading and securiti
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
     coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Samuel_Israel_III.jpg?width=1200',
+    coverImageCredit: 'Photo: FBI (Public Domain)',
     coverImagePosition: 50,
     body: `Sam Israel III founded the Bayou Hedge Fund Group in 1996, reporting steady, market-beating returns to investors year after year. Behind those numbers, the fund was actually losing money almost from the start; Israel and an accomplice covered the losses by creating a fake accounting firm to produce audited-looking statements that bore no relationship to the fund's real performance, a nearly identical mechanism to the fabricated audits later found at Bernie Madoff's and Lou Pearlman's operations.
 
@@ -375,6 +383,7 @@ Sam Israel's story is a near-exact echo of Marcus Schrenker's staged plane crash
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
     coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Bernard_Ebbers.jpg?width=1200',
+    coverImageCredit: 'Photo: U.S. National Communications System (Public Domain)',
     coverImagePosition: 50,
     body: `Bernard Ebbers built WorldCom from a small Mississippi long-distance reseller into the second-largest telecommunications company in the United States through the 1990s, fueled by an aggressive string of acquisitions, including its $37 billion purchase of MCI. When the telecom industry's growth slowed at the turn of the century, WorldCom's stock price — and Ebbers' own heavily leveraged personal fortune, much of it borrowed against WorldCom shares — depended on the company continuing to look like it was growing.
 
@@ -408,6 +417,7 @@ The Keating Five scandal reshaped how seriously Congress treated its own senator
     slug: 'nick-leeson-barings-bank-collapse',
     author: 'ScamShield Editorial',
     coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Changi_Prison,_Singapore.jpg?width=1200',
+    coverImageCredit: 'Photo: Waycool27, Wikimedia Commons (Public Domain) — Singapore\'s Changi Prison, where Leeson served his sentence',
     coverImagePosition: 50,
     // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
@@ -496,6 +506,7 @@ The case is a reminder that owning real, recognizable companies doesn't make a b
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
     coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Eddie_Antar_mugshot.png?width=1200',
+    coverImageCredit: 'Photo: U.S. Marshals Service (Public Domain)',
     coverImagePosition: 50,
     body: `Eddie Antar built Crazy Eddie into one of the most recognizable electronics retail chains in the New York area during the 1970s and '80s, fronted by manic, unmistakable TV commercials promising prices so low they were "INSAAAANE." Behind the storefront, Antar and his family ran a cash-skimming operation for years before the company ever went public in 1984 — quietly pocketing a portion of cash sales and underreporting income to shrink the company's tax bill.
 
@@ -564,6 +575,7 @@ The Galleon case reshaped how insider trading gets prosecuted: the wiretap evide
     slug: 'ivan-boesky-insider-trading-scandal',
     author: 'ScamShield Editorial',
     coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Thurgood_Marshall_United_States_Courthouse_40_Centre_Street.jpg?width=1200',
+    coverImageCredit: 'Photo: Beyond My Ken, Wikimedia Commons (CC BY-SA 4.0) — the Thurgood Marshall U.S. Courthouse in Manhattan, where the SDNY prosecuted Boesky',
     coverImagePosition: 50,
     // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
@@ -758,6 +770,7 @@ Shapiro's case is unusual for how directly the stolen money became public specta
     slug: 'paul-burks-zeekrewards-ponzi-scheme',
     author: 'ScamShield Editorial',
     coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Charles_R._Jonas_Federal_Building,_Charlotte_(Mecklenburg_County,_North_Carolina).jpg?width=1200',
+    coverImageCredit: 'Photo: Unknown, Wikimedia Commons (Public Domain) — the federal courthouse in Charlotte, NC, where Burks was tried and sentenced',
     coverImagePosition: 50,
     // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
@@ -775,6 +788,7 @@ ZeekRewards is a textbook illustration of how a Ponzi scheme can hide inside an 
     slug: 'frank-gruttadauria-broker-fraud',
     author: 'ScamShield Editorial',
     coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Carl_B._Stokes_United_States_Courthouse,_Cleveland,_OH_(28692186017).jpg?width=1200',
+    coverImageCredit: 'Photo: Warren LeMay, Wikimedia Commons (CC0) — the federal courthouse in Cleveland, OH, the city where Gruttadauria ran his brokerage fraud',
     coverImagePosition: 50,
     // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
@@ -846,6 +860,7 @@ Mozilo's case became one of the defining examples of executive accountability, o
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
     coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Robert_Maxwell_1989.jpg?width=1200',
+    coverImageCredit: 'Photo: unknown photographer, Anefo/Nationaal Archief (CC0)',
     coverImagePosition: 50,
     body: `Robert Maxwell built a publishing empire spanning Mirror Group Newspapers, Maxwell Communication Corporation, and the market research firm AGB, becoming one of Britain's most powerful media figures through the 1980s. Behind the public image, Maxwell was quietly using his employees' pension funds as his personal source of liquidity — pledging pension assets as collateral for loans to his private companies and using pension money to prop up the price of his own publicly traded shares.
 
@@ -880,6 +895,7 @@ Nadir, who died in February 2025 at age 83, remained a divisive figure in Britai
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
     coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Conrad_Black_mug_shot.jpg?width=1200',
+    coverImageCredit: 'Photo: U.S. Marshals Service (Public Domain)',
     coverImagePosition: 50,
     body: `Conrad Black built Hollinger International into one of the world's largest newspaper empires, owning titles including Britain's Daily Telegraph, Canada's National Post, and the Chicago Sun-Times, and became one of the most prominent media barons of his era. As Hollinger sold off newspaper properties through the early 2000s, prosecutors alleged that Black and several other executives diverted millions of dollars meant for the company into their own pockets, disguised as "non-compete" payments — fees the buyers of Hollinger's newspapers paid supposedly to keep Hollinger itself from launching competing publications, money that should have gone to Hollinger's shareholders rather than its executives.
 
@@ -967,6 +983,7 @@ The case is a reminder that faking a disappearance doesn't make a fraud disappea
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
     coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Alexandre_Stavisky_1926.jpg?width=1200',
+    coverImageCredit: 'Photo: French police mugshot, 1926 (Public Domain)',
     coverImagePosition: 50,
     body: `Serge Alexandre Stavisky was a French financier and con man who built a career on fraudulent bond schemes run through provincial pawnshops, culminating in a fraud centered on the Crédit Municipal de Bayonne, a municipal pawnbroking institution. Stavisky had the institution issue bonds against wildly inflated collateral — including a supposed cache of emeralds he claimed once belonged to the German Empress, later shown to be worthless glass — then had those fraudulent bonds sold to insurance companies and investors as legitimate municipal debt, ultimately placing roughly $18 million worth before the scheme was uncovered.
 
@@ -1000,6 +1017,7 @@ Alexander's decade in Namibia is a reminder that fleeing to a country without an
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
     coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Tweed-Boss-LOC.jpg?width=1200',
+    coverImageCredit: 'Photo: Library of Congress, unknown photographer (Public Domain)',
     coverImagePosition: 50,
     body: `William "Boss" Tweed led the Tammany Hall political machine that controlled New York City government in the years after the Civil War, and used that control to run one of the largest municipal fraud schemes in American history. The clearest example was the construction of a new county courthouse on Chambers Street: originally budgeted at $250,000, the building's cost ballooned to roughly $13 million after Tweed and his associates directed favored contractors to inflate their invoices by five to a hundred times the real cost of materials and labor, with the overcharges quietly kicked back to Tweed's inner circle through a network of bank transactions. Investigators at the time estimated the broader "Tweed Ring" had drained roughly $45 million from the city treasury over about three years, though later historical estimates of the total theft, including patronage and kickback schemes beyond the courthouse alone, have ranged much higher.
 
@@ -1015,6 +1033,7 @@ Tweed's case remains a foundational study in how fraud hides in plain sight insi
     slug: 'ephren-taylor-city-capital-church-ponzi-scheme',
     author: 'ScamShield Editorial',
     coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Richard_B._Russell_Federal_Building_and_Courthouse,_Atlanta_(Fulton_County,_Georgia).jpg?width=1200',
+    coverImageCredit: 'Photo: Unknown, Wikimedia Commons (Public Domain) — the federal courthouse in Atlanta, GA, where Taylor\'s case was prosecuted',
     coverImagePosition: 50,
     // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer'],
@@ -1103,6 +1122,7 @@ Levine's case is often remembered less for its own numbers than for the domino e
     slug: 'danny-pang-private-equity-management-group-fraud',
     author: 'ScamShield Editorial',
     coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Ronald_Reagan_Federal_Building_and_Courthouse_at_411_West_Fourth_Street,_Santa_Ana,_California_LCCN2011631318.tif?width=1200',
+    coverImageCredit: 'Photo: Carol M. Highsmith, Library of Congress (Public Domain) — the federal courthouse in Santa Ana, CA, where the SEC case against Pang\'s Orange County firm was filed',
     coverImagePosition: 50,
     // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
@@ -1165,6 +1185,7 @@ The scheme unraveled as the Depression deepened. On March 12, 1932, Kreuger was 
 Kreuger's collapse remains one of history's largest corporate frauds, and its aftermath reshaped American finance: the scandal is widely credited as a direct catalyst for the U.S. Securities Act of 1933 and Securities Exchange Act of 1934, the laws that first required public companies to disclose real, audited financials to investors — a regulatory response built specifically to prevent a repeat of a man who talked his way to running half the world's match supply on paper that didn't hold up.`,
     sourceUrl: 'https://www.britannica.com/money/Ivar-Kreuger',
     coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Kreuger_ca1920.jpg?width=1200',
+    coverImageCredit: 'Photo: unknown photographer, studio photo c. 1920 (Public Domain)',
     coverImagePosition: 50,
   },
   {
@@ -1181,6 +1202,7 @@ Lustig's other signature con was the "Romanian box," a device he claimed could d
 Lustig died March 11, 1947, of pneumonia at the federal medical facility in Springfield, Missouri, after being transferred from Alcatraz. Unlike frauds built on falsified balance sheets, his cons worked purely on audacity and psychology — a fake title, a fabricated secret, and the well-founded bet that a mark tricked into something illegal or embarrassing would rather absorb the loss quietly than ever report it.`,
     sourceUrl: 'https://www.smithsonianmag.com/history/man-who-sold-eiffel-tower-twice-180958370/',
     coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Victor_Lustig_(cropped).jpg?width=1200',
+    coverImageCredit: 'Photo: Philadelphia newspaper, 1935 (Public Domain)',
     coverImagePosition: 50,
   },
   {
@@ -1258,6 +1280,7 @@ Cosmo's case is a reminder that a prior fraud conviction doesn't always stop som
     slug: 'john-rigas-adelphia-communications-fraud',
     author: 'ScamShield Editorial',
     coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Adelphia_would-be_headquarters_in_Coudersport.jpg?width=1200',
+    coverImageCredit: 'Photo: Nyttend, Wikimedia Commons (Public Domain) — Adelphia\'s headquarters building in Coudersport, PA, left vacant for years after the fraud collapsed the company',
     coverImagePosition: 50,
     // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
@@ -1293,6 +1316,7 @@ Refco's collapse is a stark illustration of how little time can separate a trium
     slug: 'russell-wasendorf-peregrine-financial-fraud',
     author: 'ScamShield Editorial',
     coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Mugshot_Russell_Wasendorf_Sr.jpg?width=1200',
+    coverImageCredit: 'Photo: Reuters (Public Domain)',
     coverImagePosition: 50,
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Russell Wasendorf Sr. built Peregrine Financial Group from a small brokerage he started in 1980 into one of the largest independent futures and commodities trading firms in the United States, headquartered in Cedar Falls, Iowa. For roughly two decades, while regulators and auditors believed customer funds were fully accounted for, Wasendorf was quietly draining the firm's customer-segregated bank account for his own use.
@@ -1309,6 +1333,7 @@ Wasendorf pleaded guilty in September 2012 to mail fraud, embezzlement, and lyin
     slug: 'calisto-tanzi-parmalat-fraud',
     author: 'ScamShield Editorial',
     coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Calisto_Tanzi.jpg?width=1200',
+    coverImageCredit: 'Photo: unknown photographer (Public Domain)',
     coverImagePosition: 50,
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Calisto Tanzi took over his family's small dairy and ham business in 1961 and spent the next four decades building it into Parmalat, an Italian multinational food conglomerate operating in more than 30 countries with roughly €7.6 billion in annual sales at its peak. Behind that success, Parmalat was quietly accumulating losses and debt that Tanzi and his executives spent over a decade hiding from investors, auditors, and regulators using a web of offshore shell companies in the Cayman Islands and Luxembourg.
@@ -1447,6 +1472,7 @@ Investigators who searched Frankel's properties also found astrological charts h
     slug: 'gerald-payne-greater-ministries-fraud',
     author: 'ScamShield Editorial',
     coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/GibbonsCourthouse.jpg?width=1200',
+    coverImageCredit: 'Photo: Chiefmiz, Wikimedia Commons (CC0) — the federal courthouse in Tampa, FL, where Payne was tried and sentenced',
     coverImagePosition: 50,
     // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
@@ -1590,6 +1616,7 @@ In March 2025, President Trump pardoned Milton, erasing the sentence just as pro
     slug: 'james-paul-lewis-jr-financial-advisory-consultants-fraud',
     author: 'ScamShield Editorial',
     coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Ronald_Reagan_Federal_Courthouse,_Santa_Ana,_California_LCCN2011634709.tif?width=1200',
+    coverImageCredit: 'Photo: Carol M. Highsmith, Library of Congress (Public Domain) — the federal courthouse in Santa Ana, CA, where Lewis pleaded guilty',
     coverImagePosition: 50,
     // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
@@ -1767,6 +1794,7 @@ Balwani and Holmes were later held jointly and severally liable for more than $4
     slug: 'charlie-javice-frank-jpmorgan-fraud',
     author: 'ScamShield Editorial',
     coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/JPMorgan_Chase_Headquarters_New_York_City.jpg?width=1200',
+    coverImageCredit: 'Photo: Wobbanight, Wikimedia Commons (CC0) — JPMorgan Chase headquarters in New York City; JPMorgan acquired Javice\'s startup Frank and later sued her for fraud',
     coverImagePosition: 50,
     // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer'],
@@ -1837,6 +1865,7 @@ Steven Cohen himself was never criminally charged over these trades; he settled 
     slug: 'yoshiaki-murakami-nippon-broadcasting-insider-trading',
     author: 'ScamShield Editorial',
     coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/%E3%83%8B%E3%83%83%E3%83%9D%E3%83%B3%E6%94%BE%E9%80%81_%E6%9C%89%E6%A5%BD%E7%94%BA%E6%9C%AC%E7%A4%BE.jpg?width=1200',
+    coverImageCredit: 'Photo: 呉, Wikimedia Commons (CC BY-SA 3.0) — Nippon Broadcasting System\'s headquarters, the stock Murakami traded on an insider tip from Livedoor',
     coverImagePosition: 50,
     // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer'],
@@ -1890,6 +1919,7 @@ U.S. prosecutors indicted Low in November 2018 on charges of conspiring to laund
     slug: 'john-rusnak-allfirst-bank-currency-fraud',
     author: 'ScamShield Editorial',
     coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Baltimore_Federal_(1978,_George_Sugarman),_E.A._Garmatz_Federal_Building,_101_W._Lombard_Street,_Baltimore,_MD_21201_(35320075031).jpg?width=1200',
+    coverImageCredit: 'Photo: Baltimore Heritage, Wikimedia Commons (CC0) — a federal building in Baltimore, where Allfirst Bank was based',
     coverImagePosition: 50,
     // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
@@ -2659,6 +2689,7 @@ What the settlers found when they arrived was nothing: no capital city, no gover
 Poyais stands as one of history's purest examples of confidence built entirely on production values rather than substance — a flag, a currency, a guidebook, and a title were enough to move real money through real financial markets and send real people to their deaths, not because any document was forged, but because nobody thought to check whether the country behind them existed at all. It is a case that still gets cited as the founding template for selling fictitious securities: dress the story in enough institutional trappings, and investors will supply the credibility themselves.`,
     sourceUrl: 'https://en.wikipedia.org/wiki/Gregor_MacGregor',
     coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/George_Watson_(1767-1837)_-_Gregor_MacGregor_(1786%E2%80%931845),_Adventurer_-_PG_2201_-_National_Galleries_of_Scotland.jpg?width=1200',
+    coverImageCredit: 'Photo: George Watson, National Galleries of Scotland (Public Domain)',
     coverImagePosition: 50,
   },
   {
@@ -2675,6 +2706,7 @@ The company's actual Louisiana trading revenue never came close to justifying th
 The Mississippi Bubble left France with a decades-long aversion to paper money and central banking that arguably weakened the state's finances all the way up to the Revolution nearly 70 years later — a reminder that a fraud built on genuinely novel financial engineering can still do lasting damage even when its architect believed his own theory. Law's scheme also ran almost exactly in parallel with Britain's South Sea Bubble the same year, and together the two collapses gave 18th-century Europe its first hard lesson in what happens when a national economy is asked to keep a speculative bubble inflated: eventually, someone has to try to cash out, and the entire structure was never built to survive that.`,
     sourceUrl: 'https://www.britannica.com/money/Mississippi-Bubble',
     coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/John_Law.jpg?width=1200',
+    coverImageCredit: 'Portrait: Casimir de Balthasar, Château de Versailles (Public Domain)',
     coverImagePosition: 50,
   },
   {
@@ -2691,6 +2723,7 @@ The scheme unraveled only because Olympus, under pressure to modernize, hired it
 The Olympus case became a landmark study in corporate governance failure precisely because the fraud survived so many opportunities to be caught — outside auditors, a rotating cast of executives, and Japan's own regulators all missed or overlooked it for years. What finally broke it wasn't a whistleblower hotline or a routine audit; it was one newly hired outsider willing to ask an obvious question and, when punished for it, refuse to let the answer stay buried. It's a pattern that recurs across long-running frauds everywhere: the failure isn't usually a lack of evidence, it's an institutional culture where everyone with access to the evidence has more to lose by raising it than by staying quiet.`,
     sourceUrl: 'https://www.cnbc.com/2013/07/03/olympus-bosses-avoid-jail-time-for-17-billion-fraud.html',
     coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/TokyoStockExchange1144.jpg?width=1200',
+    coverImageCredit: 'Photo: Fg2, Wikimedia Commons (Public Domain) — the Tokyo Stock Exchange, where Olympus shares traded during the scandal',
     coverImagePosition: 50,
     // representative photo — replace with a portrait if found
   },
@@ -3786,6 +3819,7 @@ Voigt spent the rest of his life monetizing the fame his crime had earned him, t
 Voigt's scheme worked for a reason that outlasted Prussian militarism by more than a century: none of the soldiers, the mayor, or the treasurer who deferred to him ever verified anything about him beyond what he was wearing. The uniform did all the persuasive work a forged document or a fabricated résumé does in modern fraud — it supplied instant, unearned authority that bypassed the ordinary human instinct to ask questions, and it worked precisely because questioning a superior's credentials, in that setting, was itself socially unthinkable. The same mechanism drives every modern impostor scam that opens with a caller identifying himself as a police officer, a federal agent, or a utility inspector: the claimed title is doing all the work, and the only reliable defense — then or now — is refusing to let a costume, a badge number, or a confidently stated rank substitute for independent verification of who is actually asking.`,
     sourceUrl: 'https://www.vdl.lu/en/friedrich-wilhelm-voigt',
     coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Wilhelm_Voigt_1906_10_26.jpg?width=1200',
+    coverImageCredit: 'Photo: Preussische Polizei, 1906 (Public Domain)',
     coverImagePosition: 50,
   },
   {
@@ -3903,6 +3937,7 @@ The Wells Fargo case is unusual among large-scale financial frauds in that no ou
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
     coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Soapy_Smith_1898.jpg?width=1200',
+    coverImageCredit: 'Photo: Unknown photographer, 1898 (Public Domain)',
     coverImagePosition: 50,
     body: `Jefferson Randolph "Soapy" Smith II built his reputation, and his nickname, on a simple street swindle: he would stack bars of soap on a table, wrap a few of the bars in cash — including, ostensibly, a $100 bill — reseal the wrappers, and auction the bars to a crowd for a dollar apiece, promising a lucky buyer a huge cash prize hidden inside. In reality Smith's confederates, working the crowd as shills, always won the marked bars, having palmed and switched them before the real buyers ever got a turn. The "soap game" made Smith's name in Denver in the 1880s, where he built a network of saloons, gambling parlors, and bribed police and politicians that let his crews run shell games, rigged card tables, and outright robbery with near-total impunity for over a decade.
 
