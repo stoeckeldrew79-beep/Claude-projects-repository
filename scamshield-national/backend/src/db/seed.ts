@@ -36207,6 +36207,42 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'Kraków "Fake Police Officer" Cash-Pickup Scam (Poland)',
+    slug: 'poland-krakow-fake-police-officer-cash-pickup-scam',
+    description: `On Saturday, December 13, 2025, an elderly couple from the Krowodrza district of Kraków, Poland — an 82-year-old woman and her 83-year-old husband — received a landline call from a man claiming to be a bank employee, who said he had a delivery for their son. Moments after that call ended, a second caller phoned, this time claiming to be an officer from the Kraków Regional Police Headquarters (Komenda Wojewódzka Policji), who told the couple that police were investigating a gang of thieves operating in their neighborhood and needed their help. Following the classic Polish "na policjanta" (posing-as-a-police-officer) script, the caller instructed the victims to gather every złoty of cash kept in their home and leave it just outside their front door, promising an officer would arrive to take it into safekeeping as evidence. The scammers kept the couple on the phone under constant time pressure, and when the victims grew suspicious and tried to independently call the police, another person on the scam network reinforced the false story rather than letting them verify it. By the time the couple realized what had happened, they had lost approximately 1 million złoty (roughly $250,000) in cash kept at home. The Polish National Police publicized the case on December 16, 2025, stressing that genuine police officers never discuss active investigations by phone and never ask a resident to hand over or leave cash, and urging anyone who receives such a call to hang up immediately and independently dial the police non-emergency line themselves rather than trusting a supposed "verification" call from the same line.`,
+    categorySlug: 'government-impersonation',
+    country: 'PL',
+    alertLevel: 'high',
+    firstRecorded: '2025-12-13',
+    sources: ['Polish National Police (Policja.pl)', 'Małopolska Regional Police (malopolska.policja.gov.pl)', 'RMF24', 'Polsat News'],
+    sourceUrl: 'https://policja.pl/pol/aktualnosci/270897,Malzenstwo-z-Krakowa-padlo-ofiara-oszustwa-na-policjanta-tracac-prawie-milion-zl.html',
+  },
+  {
+    name: 'iGenius LLC "Gamechangers Polska" Investment-Education Pyramid Scheme (Poland)',
+    slug: 'poland-igenius-gamechangers-pyramid-scheme',
+    description: `iGenius LLC, a company registered in Kaysville, Utah, sold Polish consumers packages of online "financial education" courses and trading training through the site igeniusglobal.com, with one-time package prices ranging from roughly $100 to about $1,500 plus recurring platform-access subscription fees of roughly $100 to $175 a month. According to Poland's Office of Competition and Consumer Protection (UOKiK), the real engine of the business was not the educational content but an affiliate-style partner program: members were paid commissions not primarily for using the material, but for recruiting new paying members, who in turn were expected to recruit further members of their own to earn anything back — the defining structure of an illegal pyramid-type promotional scheme under Polish law. In Poland, the offer was heavily promoted on TikTok and Instagram by an informal group calling itself "Gamechangers Polska," whose posts of luxury travel and hotel-pool lifestyle content were used to sell the promise of easy income from recruiting others into iGenius. On April 22, 2025, the President of UOKiK issued a formal consumer warning against iGenius LLC and simultaneously filed charges against six of its Polish promoters and organizers — Adam Biernat, Filip Gaworski, Cezary Lewicki, Wioletta Białek, Adrianna Rudnicka, and Dominika Janosz — for organizing or promoting a pyramid-type system, an offense that under Polish consumer-protection law can carry a fine of up to 10% of a company's annual turnover. UOKiK stated that in schemes like this, the "educational" packaging exists mainly to mask the real objective: extracting money from each new wave of recruits to pay off the ones who joined before them, a structure that collapses once recruitment can no longer outpace the number of members owed a payout.`,
+    categorySlug: 'investment-fraud',
+    country: 'PL',
+    alertLevel: 'high',
+    firstRecorded: '2025-04-22',
+    sources: ['Office of Competition and Consumer Protection (UOKiK), Poland'],
+    sourceUrl: 'https://uokik.gov.pl/en/warning-of-the-president-of-uokik-igenius-llc-with-its-registered-office-in-kaysville-usa',
+  },
+  {
+    name: 'Hijacked-Facebook-Account "Urgent Help" Gift-Card Scam Ring (Poland)',
+    slug: 'poland-cbzc-hijacked-facebook-account-giftcard-scam-ring',
+    description: `Poland's Central Bureau for Combating Cybercrime (Centralne Biuro Zwalczania Cyberprzestępczości, CBZC) dismantled an organized fraud ring that had illegally accessed the login credentials of more than 1,500 Facebook accounts, using the compromised profiles to impersonate their real owners in Messenger conversations with the victims' own friends and family. Posing as someone the recipient already knew and trusted, the scammers claimed their bank account had been locked and asked for urgent financial help, then directed victims to buy gift cards or online merchandise on their behalf rather than sending a direct bank transfer — proceeds the group then laundered by converting them into cryptocurrency through darknet exchange services. CBZC investigators determined the scheme ran from January 2023 through November 2025 across six Polish provinces, defrauding at least 750 victims, with the true number potentially exceeding 1,000, for a confirmed minimum loss of 340,000 złoty. On February 4, 2026, CBZC announced the arrest of nine suspects aged 18 to 27 and the seizure of roughly 4 million złoty in assets tied to the group, including more than 3 million złoty in cryptocurrency along with luxury watches, with the investigation continuing and further arrests not ruled out. The case illustrates why Polish police repeatedly warn social media users that a "friend" suddenly messaging to ask for money, a BLIK code, or a gift-card purchase because of a supposed emergency should always be verified by phone or in person before anything is sent, since the message may be coming from a criminal who has simply taken over that friend's real account.`,
+    categorySlug: 'account-takeover',
+    country: 'PL',
+    alertLevel: 'high',
+    firstRecorded: '2026-02-04',
+    sources: ['Central Bureau for Combating Cybercrime (CBZC), Polish Police'],
+    sourceUrl: 'https://cbzc.policja.gov.pl/bzc/aktualnosci/803,CBZC-rozbilo-zorganizowana-grupe-wyludzajaca-pieniadze-od-uzytkonikow-portalu-Fa.html',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
