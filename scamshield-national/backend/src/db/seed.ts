@@ -8940,6 +8940,45 @@ A Thai appeals court upheld the extradition order in late 2025, and on November 
   },
 );
 
+NOTORIOUS_ARTICLES.push(
+  {
+    title: 'James Davis: The Stanford Financial CFO Who Faked the Books Behind a $7 Billion Ponzi Scheme',
+    slug: 'james-davis-stanford-financial-cfo-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Federal_Courthouse_built_in_1962,_Houston,_Texas_LCCN2011630269.tif?width=1200',
+    coverImageCredit: 'Photo: Carol M. Highsmith, Library of Congress (public domain) — the Bob Casey federal courthouse in Houston, where James Davis pleaded guilty in 2009 and later testified as the government\'s star witness against Allen Stanford',
+    coverImagePosition: 50,
+    body: `James M. Davis met R. Allen Stanford as college roommates at Baylor University in the 1970s, and when Stanford began building his offshore banking empire, Davis followed him into it, eventually rising to chief financial officer of Stanford Financial Group and, later, of Stanford International Bank Limited (SIBL), the Antigua-based institution at the center of the operation. For roughly two decades, prosecutors would later show, Davis was not merely a numbers man executing someone else's fraud — he was one of two people, along with Stanford himself, who knew the bank's financial statements were fiction from the very beginning.
+
+SIBL sold certificates of deposit to some 20,000 investors in the United States and Latin America, marketed through Stanford's network of financial advisers as safe, high-yield alternatives to ordinary bank CDs, paying above-market interest rates that Stanford attributed to the bank's supposedly conservative, diversified investment portfolio. According to the Securities and Exchange Commission and the Department of Justice, that portfolio was largely a fabrication: Davis admitted that starting around 1990 he and Stanford began making false entries in SIBL's general ledgers to invent investment income the bank had never earned, then used new CD sales to pay returns to earlier investors and to fund Stanford's own lavish, undisclosed spending — the same rob-Peter-to-pay-Paul mechanics as any Ponzi scheme, dressed up with the credibility of an offshore "bank." By the time regulators moved in February 2009, the scheme had swollen to roughly $7 billion in liabilities against assets that did not remotely match them.
+
+Davis was indicted in June 2009 and pleaded guilty on August 27, 2009, to conspiracy to commit mail, wire, and securities fraud, and to obstructing an SEC investigation, admitting he had helped falsify SIBL's books and destroyed and altered records once regulators began asking questions. He then spent nearly three years cooperating with prosecutors before taking the stand in January 2012 as the government's central witness at Stanford's own criminal trial in Houston, walking the jury through exactly how the fraud had been built and concealed from the inside — testimony that helped convict Stanford on all but one of 14 fraud and conspiracy counts. Stanford was sentenced in June 2012 to 110 years in federal prison, one of the longest terms ever imposed for a financial crime.
+
+Davis's own cooperation bought him substantial leniency. On January 22, 2013, a federal judge in Houston sentenced him to five years in prison — a fraction of the guideline range he otherwise faced — along with three years of supervised release and a $1 billion restitution judgment he has no realistic ability to pay. He was released from FCI Memphis in July 2017. Davis's case is a reminder that a Ponzi scheme built on the scale of Stanford's rarely survives on one person's signature alone: it took a trusted lieutenant willing to falsify the underlying accounting, year after year, to make a fictional investment portfolio look real enough to fool tens of thousands of depositors and the auditors who were supposed to catch it.`,
+    sourceUrl: 'https://www.justice.gov/archives/opa/pr/former-chief-financial-officer-stanford-financial-group-entities-sentenced-prison-role-fraud',
+  },
+  {
+    title: 'The Danske Bank Estonia Scandal: How $230 Billion in Suspicious Money Moved Through a 15-Person Branch',
+    slug: 'danske-bank-estonia-money-laundering-scandal',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/20181126_Danske_Bank_HQ_Kongens_Nytorv_Copenhagen_0203_(32822505228).jpg?width=1200',
+    coverImageCredit: 'Photo: Johan Wessman / News Oresund (CC BY 2.0) — Danske Bank\'s Copenhagen headquarters, from which the bank oversaw the Estonian branch at the center of Europe\'s largest known money-laundering scandal',
+    coverImagePosition: 50,
+    body: `Danske Bank, Denmark's largest financial institution, acquired a small Estonian bank in 2007 and kept open its "non-resident portfolio" — a business line built almost entirely around foreign customers, most of them shell companies registered in the United Kingdom and other jurisdictions, moving money in and out of accounts with little connection to Estonia itself. Between 2007 and 2015, an estimated €200 billion (roughly $230 billion) flowed through that portfolio inside a branch that, according to later reporting, employed no more than a few dozen staff to oversee it — a volume of non-resident transactions that dwarfed Estonia's entire annual economic output several times over.
+
+Warning signs surfaced years before the scandal became public. Howard Wilkinson, a British banker who worked with the Estonian branch's business through Danske's Copenhagen trading desk, raised internal alarms about the non-resident portfolio's money-laundering risk starting in 2013 and 2014; when his concerns went nowhere inside the bank, he resigned in 2014 and eventually testified to the European Parliament in 2018, later receiving whistleblower awards for surfacing what regulators would come to call the largest money-laundering scandal in European history. Danish financial journalists began publishing detailed investigative reporting on the branch's non-resident business in 2017, and Danske Bank's own external investigation, released in September 2018, confirmed that a large share of the flagged transactions were suspicious and traced back to countries including Russia, Azerbaijan, and Moldova — money later linked by investigators to schemes known as the "Russian Laundromat" and the "Azerbaijani Laundromat," used to move corrupt and criminal proceeds into the legitimate financial system and to fund an international influence-buying operation.
+
+The human toll of the scandal played out publicly. Danske Bank's chief executive, Thomas Borgen, who had run the international banking division that included Estonia before becoming CEO in 2013, resigned in September 2018 as the internal investigation's findings became public, though Danish prosecutors ultimately dropped the criminal case against him in 2021 and he later prevailed in a civil suit brought by institutional investors seeking roughly $350 million in damages, a verdict under appeal. Aivar Rehe, the Estonian banker who had headed the branch from 2007 to 2015 during the years the suspicious flows were largest, was reported missing from his home outside Tallinn in September 2019 and found dead two days later; Estonian police determined he had taken his own life, making him the clearest individual casualty of a scandal in which no bank executive was ever convicted of a crime in Denmark.
+
+Danske Bank itself ultimately admitted criminal wrongdoing where individual executives did not. In December 2022, the bank pleaded guilty in U.S. federal court to one count of conspiracy to commit bank fraud, admitting it had defrauded U.S. banks by misrepresenting the Estonian branch's customers and anti-money-laundering controls to gain access to the U.S. financial system on their behalf, and agreed to forfeit more than $2 billion combined across coordinated resolutions with the Department of Justice, the Securities and Exchange Commission, and Danish prosecutors — one of the largest bank-fraud penalties in U.S. history. The case stands as a reminder that a money-laundering scheme this size didn't require a single mastermind: it took a bank that kept a lucrative, high-risk business line running for years after a whistleblower first raised the alarm, and it ended with a corporate guilty plea, a resigned CEO, and a branch manager who did not live to see the reckoning.`,
+    sourceUrl: 'https://www.justice.gov/archives/opa/pr/danske-bank-pleads-guilty-fraud-us-banks-multi-billion-dollar-scheme-access-us-financial',
+  },
+);
+
 // Practical "how it works / red flags / what to do" guides covering the
 // major scam categories, the same kind of coverage the FTC's Consumer
 // Advice site and AARP's Fraud Watch Network publish — well-documented
@@ -34177,6 +34216,42 @@ SEED_SCAMS.push(
     alertLevel: 'medium',
     sources: ["Sénat (French Senate)", "Ministère de l'Intérieur"],
     sourceUrl: 'https://www.senat.fr/questions/base/2021/qSEQ211024742.html',
+  },
+);
+
+SEED_SCAMS.push(
+  {
+    name: 'Misam Abidi Star Credit Holdings Crypto Ponzi Scheme',
+    slug: 'tennessee-misam-abidi-star-credit-holdings-crypto-ponzi-scheme',
+    description: `Misam M. Abidi, 47, of Nolensville, Tennessee, ran a cryptocurrency investment firm called Star Credit Holdings that federal prosecutors say was a Ponzi scheme dressed up as a sophisticated trading operation. Between 2020 and 2024, Abidi courted investors with guarantees of high, consistent returns, claims that he maintained a substantial reserve fund standing behind their money, and assurances that he personally managed far more capital than he actually controlled. Rather than generating profits through legitimate cryptocurrency trading, prosecutors allege Abidi paid earlier investors with money contributed by newer ones — the defining structure of a Ponzi scheme — while diverting more than $1.9 million of investor funds to himself and family members and failing to report that income on his federal tax returns. Investigators say Abidi went further than simply mismanaging the money he was given: he also helped some investors take out personal loans in their own names so they could funnel additional cash into Star Credit Holdings, and in at least one instance falsified an affidavit claiming an investor's identity had been stolen in order to get such a loan approved. A federal grand jury in the Western District of Tennessee returned an 11-count indictment against Abidi — three counts of wire fraud, two counts of operating an unlicensed money transmitting business, three counts of aiding and assisting in the preparation of false tax returns, and three counts of money laundering — following a joint investigation by the IRS, FBI, and U.S. Secret Service. The case illustrates a pattern regulators warn about across crypto investment pitches generally: a promoter who claims outsized, consistent returns, discourages independent verification of the trading activity, and pushes investors toward personal loans or retirement rollovers to keep new money flowing in is behaving exactly like the operator of a Ponzi scheme, regardless of how sophisticated the "cryptocurrency" framing sounds.`,
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    state: 'TN',
+    isHistorical: true,
+    sources: ["U.S. Attorney's Office, Western District of Tennessee", 'Internal Revenue Service Criminal Investigation', 'Decrypt'],
+    sourceUrl: 'https://www.justice.gov/usao-wdtn/pr/middle-tennessee-man-indicted-crypto-ponzi-scheme',
+  },
+  {
+    name: 'William Smith Detroit Riverfront Conservancy Embezzlement Scheme',
+    slug: 'michigan-william-smith-detroit-riverfront-conservancy-embezzlement',
+    description: `William Smith spent more than a decade as chief financial officer of the Detroit Riverfront Conservancy, the nonprofit responsible for developing and maintaining the public riverfront parks that transformed Detroit's downtown waterfront, before prosecutors say he quietly ran one of the largest nonprofit embezzlement schemes in Michigan history. As the sole person with control over the Conservancy's bank accounts and the only staffer with access to the business checking account's online portal, Smith was positioned to move money with no one else checking his work. From November 2012 through May 2024, he diverted roughly $24.4 million in Conservancy funds into the bank account of a company he owned called The Joseph Group — which was neither an approved vendor nor a provider of any real services to the Conservancy — while separately charging about $14.9 million in personal purchases, including family credit card bills, airline tickets, hotels, limousines, designer clothing, and jewelry, directly to a Conservancy American Express account. To keep the scheme hidden from the Conservancy's own accountant and board, Smith doctored the bank statements he provided them, creating falsified financial records that made the organization's books appear to balance. He was fired in May 2024 once the fraud came to light and an FBI investigation followed; Smith pleaded guilty that November to wire fraud and money laundering, and on April 24, 2025, U.S. District Judge Susan DeClercq sentenced him in the Eastern District of Michigan to 19 years in federal prison plus three years of supervised release, ordering at least $44.3 million in restitution. The case is a reminder that even a well-known, publicly celebrated charitable institution depends on internal financial controls most donors never see — a nonprofit's audited financial statements and IRS Form 990 filings are public records anyone can review before giving, and a charity where a single employee controls the bank accounts with no independent, arm's-length audit is vulnerable to exactly the kind of insider embezzlement that went undetected at the Conservancy for more than a decade.`,
+    categorySlug: 'charity-scams',
+    country: 'US',
+    state: 'MI',
+    isHistorical: true,
+    sources: ["U.S. Attorney's Office, Eastern District of Michigan", 'WDET', 'ClickOnDetroit (WDIV)'],
+    sourceUrl: 'https://www.justice.gov/usao-edmi/pr/former-detroit-riverfront-conservancy-chief-financial-officer-sentenced-embezzling',
+  },
+  {
+    name: 'Merrill Robertson Cavalier Union Investments Ponzi Scheme',
+    slug: 'virginia-merrill-robertson-cavalier-union-investments-ponzi-scheme',
+    description: `Merrill Robertson Jr., a former Fork Union Military Academy and University of Virginia football player who briefly played for the Philadelphia Eagles, teamed up with Sherman Carl Vaughn Jr. to run Cavalier Union Investments, LLC, an investment firm that spent roughly six years, from 2010 to 2016, drawing in more than 60 investors across multiple states. Many of the victims trusted Robertson specifically because of his background — former coaches and fellow alumni from Fork Union and UVA, along with employees and other people in his personal and professional network, some of whom he urged to roll over their retirement savings into the company. Robertson and Vaughn portrayed Cavalier as a sophisticated investment company with in-house advisors and multiple funds, promising annual returns of 10 to 20 percent, and falsely claimed they were using investor money to fund a broad range of real businesses — restaurants, real estate developments, alternative energy projects, and assisted living facilities. In reality, the SEC later found the company was functionally insolvent almost from the moment it was formed, and prosecutors say the two men stole nearly $6 million of the more than $10 million raised, spending it on luxury cars, family vacations, spa visits, designer goods, relatives' educational expenses, and a luxury suite at an NFL stadium — using money from newer investors to pay off earlier ones exactly as a Ponzi scheme does. A federal jury first convicted Robertson in August 2017, but an appeals court ordered a new trial after it emerged the judge had made prejudicial off-the-record remarks about the evidence that were later reported in the press; on retrial, a jury again convicted Robertson on all fifteen counts, and the Eastern District of Virginia sentenced him to 480 months — 40 years — in federal prison, one of the longest sentences ever imposed there for investment fraud. Vaughn pleaded guilty, testified against Robertson at both trials, and was sentenced to 12 years; the two were ordered to pay nearly $9 million in restitution, and the SEC separately pursued civil fraud charges against Cavalier Union Investments. The case is a pointed reminder that an investment pitch delivered by someone with a well-known personal connection — a former athlete, coach, or fellow alumnus — deserves the same independent scrutiny as a pitch from a stranger; a legitimate investment adviser will readily let a prospective investor verify claimed business holdings and returns through audited, third-party records rather than asking them to simply trust the relationship.`,
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    state: 'VA',
+    isHistorical: true,
+    sources: ["U.S. Attorney's Office, Eastern District of Virginia", 'U.S. Securities and Exchange Commission', 'FBI'],
+    sourceUrl: 'https://www.justice.gov/usao-edva/pr/former-uva-football-player-sentenced-40-years-10-million-fraud',
   },
 );
 
