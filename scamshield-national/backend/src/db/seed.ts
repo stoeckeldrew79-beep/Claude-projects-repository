@@ -39973,6 +39973,41 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'Golden Top Support Services Scam Call Center',
+    slug: 'zambia-golden-top-support-services-scam-call-center',
+    description: `Golden Top Support Services, a Chinese-run outfit based in Roma, an upmarket suburb of Lusaka, advertised ordinary-sounding call-center jobs to recruit Zambian youths aged 20 to 25 — then set them to work running scripted deceptive conversations against "mobile users around the world" over WhatsApp, Telegram, and other chatrooms, conversations Zambia's Drug Enforcement Commission (DEC) said were designed to steal money from unsuspecting victims. After months of investigation, a multi-agency team from the DEC, police, immigration department, and anti-terrorism unit raided the company's premises in early April 2024, arresting 77 people — including 22 Chinese nationals and one Cameroonian, with 17 Zambian suspects later released as investigations into the remainder continued — and seizing two firearms, 78 rounds of ammunition, 97 desktop computers plus 42 more still boxed and unused, 11 "SIM boxes" used to disguise international traffic as ordinary local calls, and more than 13,000 SIM cards across Airtel, MTN, and Vodafone lines. DEC Director General Nason Banda said the operation's victims were not confined to Zambia, reaching as far as Singapore, Peru, the United Arab Emirates, and other African countries. On June 5, 2024, all 22 Chinese nationals pleaded guilty to computer-related misrepresentation, identity-related crimes, and illegally operating a network or service; a Lusaka court subsequently handed the alleged mastermind, Li Xianlin, an 11-year sentence — the harshest of the group — while others, including the sole female defendant, Gu Tianjiao, received seven years apiece, on top of fines ranging from $1,500 to $3,000 each. Banda urged ordinary Zambians to "report to us every time you are scammed," a case that shows how a foreign-run company advertising unremarkable call-center work can in fact be recruiting local staff, knowingly or not, into defrauding people on the other side of the world.`,
+    categorySlug: 'employment-scams',
+    country: 'ZM',
+    isHistorical: true,
+    firstRecorded: '2024-04-01',
+    sources: ['Zambia Drug Enforcement Commission (DEC)', 'The Record from Recorded Future News', 'Global Anti-Scam Alliance (GASA)'],
+    sourceUrl: 'https://therecord.media/zambia-guilty-pleas-chinese-nationals-scam-call-center',
+  },
+  {
+    name: 'Deepfake Bank of Zambia Governor Investment Scam Video',
+    slug: 'zambia-boz-deepfake-governor-investment-scam',
+    description: `In mid-November 2025, a fabricated video began circulating on Zambian social media appearing to show Bank of Zambia Governor Dr. Denny Kalyalya personally endorsing an investment platform that promised extremely high earnings, prompt withdrawals, and minimal effort, with no real economic activity behind it to explain where those returns would actually come from. The video was in fact a deepfake — digitally altered, the Bank said, to imitate the Governor's likeness and voice — and it circulated alongside a fake article published on a website built to impersonate a legitimate Zambian news outlet, complete with fabricated quotes and a false claim of government backing. The Bank of Zambia issued a public alert on November 17, 2025 through Assistant Director of Communications Besnat Mwanza, stating plainly that it "neither operates, endorses, nor promotes any investment platform of this nature," that it had never authorized the video or article, and that the matter had been referred to the relevant authorities for investigation. The Bank urged the public to verify any investment claim attributed to it only through its own official channels — its website, verified social accounts, and press office — rather than through a video of a public official that cannot be independently confirmed, and cautioned that a scheme leaning on a borrowed face and voice to promise guaranteed high returns is a fraud regardless of how convincing the footage looks.`,
+    categorySlug: 'ai-deepfake-scams',
+    country: 'ZM',
+    alertLevel: 'high',
+    sources: ['Bank of Zambia', 'Zambia Monitor', 'Open Zambia'],
+    sourceUrl: 'https://www.zambiamonitor.com/bank-of-zambia-warns-public-against-fake-investment-video-featuring-governor/',
+  },
+  {
+    name: '"Mobile City Phones Paradise" Fake Online Shop Impersonation Scam',
+    slug: 'zambia-mobile-city-phones-paradise-fake-shop-scam',
+    description: `For more than two years, according to Zambia Police Service's Cyber Security Task Force, two men ran a fake online phone shop by copying the identity of a real, established Lusaka retailer: a Facebook page and WhatsApp channel branded "Mobile City Phones Paradise," using the genuine store's name and product photos to advertise smartphones for sale that were never actually in stock, then collecting payment from buyers who believed they were dealing with the real business. The scheme is believed to have run from June 2023 to October 2025 before unraveling after the genuine Mobile City Phones Paradise discovered its brand was being impersonated and sought police help; investigators traced the fraudulent accounts to suspects operating out of Kazembe District in Luapula Province and Senanga District in Western Province, arresting Kennedy Chama, 27, and David Kautu Zulu and recovering a TECNO Spark 90 phone holding the fake WhatsApp channel and a TECNO Spark 20 Pro holding the fake Facebook page. The genuine retailer later posted its own public warning telling customers to "be alert" for scam pages copying its name and photos to offer phones it was never actually selling. The case illustrates a durable pattern in online shopping fraud: rather than invent a fake storefront from scratch, a scammer can simply clone a real, trusted seller's name and photos to do the persuading for them — so buyers should confirm they are dealing with a retailer's verified page or number, not merely one that looks right, before paying for anything advertised only through social media.`,
+    categorySlug: 'online-shopping-scams',
+    country: 'ZM',
+    isHistorical: true,
+    firstRecorded: '2023-06-01',
+    sources: ['Zambia Police Service — Cyber Security Task Force', 'The Zambian Observer'],
+    sourceUrl: 'https://zambianobserver.com/zambia-police-crack-down-on-online-scammers/',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
