@@ -38497,6 +38497,42 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'Milwaukee Prenatal Care Coordination Medicaid Fraud (Lakia Jackson)',
+    slug: 'wisconsin-milwaukee-prenatal-care-medicaid-fraud-jackson',
+    description: `Lakia Jackson, 36, owned We Care Services, a Milwaukee prenatal care coordination (PNCC) agency that Wisconsin Medicaid pays to help at-risk pregnant women and new mothers access prenatal care. According to the U.S. Attorney's Office for the Eastern District of Wisconsin, Jackson offered kickbacks — including cash, diapers, and baby wipes — to induce women to hand over their Medicaid identification numbers, then billed Wisconsin Medicaid for prenatal and childcare coordination services that were rarely or never actually provided, often for the maximum amount permitted per client per month; investigators found more than 40,000 false claims submitted between 2020 and 2021, totaling roughly $3.8 million billed and $2.6 million actually paid out. Jackson pleaded guilty to one count of health care fraud and one count of aggravated identity theft following a 20-count federal indictment, and on March 19, 2026, was sentenced to 60 months in federal prison and ordered to pay $2.6 million in restitution; U.S. District Judge Pamela Pepper called it "an extensive criminal organization," adding it was "hard to overstate the harms done to a vulnerable, needy population." The case, investigated by the FBI and the Wisconsin Department of Justice's Medicaid Fraud Control and Elder Abuse Unit, was the third such Milwaukee PNCC-fraud prosecution after former agency owners Markita Barnes and Precious Cruse were separately convicted. Medicaid recipients approached with cash, gift cards, or supplies in exchange for their Medicaid number should refuse and report the offer, since handing over that number — not any care actually received — is what lets a fraudulent provider bill the program in the recipient's name.`,
+    categorySlug: 'healthcare-fraud',
+    country: 'US',
+    state: 'WI',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office for the Eastern District of Wisconsin", 'Wisconsin Department of Justice', 'Wisconsin Law Journal'],
+    sourceUrl: 'https://www.justice.gov/usao-edwi/pr/owner-now-closed-milwaukee-prenatal-care-coordination-company-sentenced-60-months',
+  },
+  {
+    name: 'Ottumwa Tax-Preparation and Unemployment Fraud Scheme (Thein Maung and Phyo Mi)',
+    slug: 'iowa-ottumwa-tax-preparation-unemployment-fraud-maung-mi',
+    description: `Thein Maung and his daughter Phyo Mi ran an unlicensed, cash-fee tax-preparation business out of their family home in Ottumwa, Iowa, catering mainly to immigrant and refugee customers working at Iowa meatpacking plants who had little ability to read, write, or speak English. According to the U.S. Attorney's Office for the Southern District of Iowa and the IRS Criminal Investigation division, the pair filed more than 1,600 federal tax returns between 2018 and 2022 without their customers' knowledge, larding the returns with fabricated residential energy credits, business-expense deductions, and military moving-expense deductions that customers never claimed and did not qualify for, collecting over $200,000 in cash preparation fees along the way. Maung and Mi also filed unemployment insurance claims with Iowa Workforce Development in some of their customers' names and diverted the payments to bank accounts they controlled, fraudulently collecting more than $70,000 in benefits. A federal jury convicted Mi on 16 fraud counts, while Maung pleaded guilty to 49 fraud and tax charges; in 2023, Maung was sentenced to 12 years in federal prison and Mi to 9 years, with the scheme blamed for nearly $4 million in total losses to the IRS, Iowa Workforce Development, and the customers themselves. Anyone using a cash-only, word-of-mouth tax preparer should ask for a copy of the actual return filed with the IRS and check it against pay stubs and W-2s, since a preparer willing to inflate a refund with fake credits is also willing to file it without the client ever seeing what was submitted.`,
+    categorySlug: 'tax-scams',
+    country: 'US',
+    state: 'IA',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office for the Southern District of Iowa", 'IRS Criminal Investigation', 'KTVO'],
+    sourceUrl: 'https://www.justice.gov/usao-sdia/pr/ottumwa-man-and-woman-sentenced-defrauding-internal-revenue-service-iowa-workforce',
+  },
+  {
+    name: 'Lavaca $134 Million COVID-19 Lab-Testing Fraud (Billy Joe Taylor)',
+    slug: 'arkansas-lavaca-covid19-lab-testing-fraud-taylor',
+    description: `Billy Joe Taylor, of Lavaca, Arkansas, controlled and directed multiple diagnostic laboratories that, between February 2017 and May 2021, submitted more than $134 million in false and fraudulent claims to Medicare, according to the U.S. Attorney's Office for the Western District of Arkansas. Taylor and his co-conspirators obtained Medicare beneficiaries' medical and personal information and used it to repeatedly bill for urine drug testing, COVID-19 testing, and other diagnostic laboratory services that were medically unnecessary, never ordered by any treating provider, or never actually performed as billed, then laundered the proceeds through purchases including a Rolls-Royce Wraith, real estate, jewelry, and guitars. Taylor pleaded guilty on October 27, 2022, to conspiracy to commit health care fraud and conspiracy to commit money laundering, and on June 8, 2023, was sentenced to 15 years in federal prison followed by three years of supervised release, along with an order to pay $29,835,825.99 in restitution. Medicare beneficiaries are urged to review their Medicare Summary Notices for lab tests they don't recall ordering or receiving and to report discrepancies immediately, since a stolen Medicare number — not an actual visit to a lab — was all this scheme needed to generate fraudulent charges in a beneficiary's name.`,
+    categorySlug: 'healthcare-fraud',
+    country: 'US',
+    state: 'AR',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office for the Western District of Arkansas", 'Internal Revenue Service Criminal Investigation', 'Arkansas Democrat-Gazette'],
+    sourceUrl: 'https://www.justice.gov/usao-wdar/pr/lavaca-man-sentenced-134-million-covid-19-health-care-fraud-and-money-laundering-scheme',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
