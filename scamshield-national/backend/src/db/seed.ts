@@ -39175,6 +39175,39 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'Taiwan Fake Prosecutor "Supervised Account" Phone Scam',
+    slug: 'taiwan-fake-prosecutor-supervised-account-phone-scam',
+    description: `Taiwan's Criminal Investigation Bureau (CIB), the National Police Agency's investigative arm, has repeatedly publicized a multi-stage phone fraud that opens with a caller claiming to be a clerk at a district household registration office, warning the target that someone has fraudulently used their identity to register a false household record. The call is then handed off to a second scammer posing as a police officer, who in turn transfers it to a third posing as a prosecutor, who tells the victim they are secretly implicated in a major criminal case — often framed as money laundering — and that their bank accounts must be placed under judicial "supervision" while the matter is investigated, with strict orders not to discuss it with anyone. In a case the CIB publicized in July 2026, the scammers moved communication to LINE and instructed the victim to place his bank cards inside an envelope and hide it outside his home, where an accomplice collected it for unauthorized withdrawals; he lost NT$19.12 million (roughly US$5.9 million) before the fraud was discovered, and his compromised accounts were separately used to launder an additional NT$540,000 in unrelated illicit funds. The CIB's advisory states plainly that "courts, prosecutors and police never ask people for their bank cards or passwords" during a genuine investigation, and that anyone who hears phrases like "supervised accounts" or "involvement in money laundering" over the phone should treat it as an immediate red flag, hang up, and verify the call independently through the 165 anti-fraud hotline or the 110 police line rather than through any number or LINE contact the caller provides.`,
+    categorySlug: 'government-impersonation',
+    country: 'TW',
+    alertLevel: 'critical',
+    sources: ['Taiwan Criminal Investigation Bureau (National Police Agency)', 'Taipei Times'],
+    sourceUrl: 'https://www.taipeitimes.com/News/taiwan/archives/2026/07/13/2003860669',
+  },
+  {
+    name: 'Taiwan LINE Account Hijacking via Fake "Help Vote" Links',
+    slug: 'taiwan-line-account-hijack-help-vote-scam',
+    description: `Taichung City Police Department's Criminal Investigation Brigade issued a public warning in August 2026 about a wave of account hijackings spreading through LINE, the messaging app that dominates personal communication in Taiwan, in which victims received messages that appeared to come from an existing friend or family contact, asking them to click a link to "help vote" in an online contest, "like" a photo of a child, or support an entry in a pet competition. The link led to a page that requested the recipient's phone number along with their LINE password or the SMS verification code just sent to their phone; anyone who entered the code handed scammers everything needed to log into the real account, which then forcibly logged its actual owner out. Once inside, the scammers impersonated the account's owner and sent urgent, fabricated money-borrowing requests to every contact in that person's LINE address book, using the built-in trust of an apparently real friend's account to spread the scam to new victims with each successive hijacking. Police noted the pattern followed a string of related warnings Taiwanese authorities issued through 2026 about fake LINE login pages and phishing links more broadly. The Criminal Investigation Brigade advised the public never to enter a LINE verification code in response to an unsolicited "vote," "like," or contest link no matter who appears to have sent it, to confirm any unusual money request from a contact by phone call rather than by chat, and to call the 165 Anti-Fraud Hotline immediately if an account is suspected to have been compromised.`,
+    categorySlug: 'account-takeover',
+    country: 'TW',
+    alertLevel: 'high',
+    sources: ['Taichung City Police Department', 'Taipei Times'],
+    sourceUrl: 'https://www.taipeitimes.com/News/taiwan/archives/2026/08/02/2003861802',
+  },
+  {
+    name: 'Taiwan Fake Overseas Job Scam Feeding Cambodia Trafficking Compounds',
+    slug: 'taiwan-fake-overseas-job-scam-cambodia-trafficking',
+    description: `Beginning in 2021 and continuing for years afterward, fraud rings recruited Taiwanese nationals — many of them young, unemployed, or in financial difficulty — through social-media job advertisements and direct messages promising easy, high-paying work abroad, no passport confiscation, and no binding contract. Taiwan's National Police Agency has estimated the true number of Taiwanese caught up in the pipeline runs into the thousands, and the Cabinet publicly confirmed on August 18, 2022 that at least 373 Taiwanese had been lured this way, with 333 still held inside Cambodia-based fraud compounds at that time. One case documented by Radio Free Asia illustrates how the recruitment worked: a 24-year-old Taiwanese woman identified by the pseudonym Pippi was contacted on social media by a fellow Taiwanese recruiter while she was traveling in the Philippines and offered a lucrative job with a promise that "my biggest responsibility is to keep you safe." After she arrived in Cambodia on June 25, her passport was confiscated at the airport and she was sold between trafficking rings four times over the following week, for sums ranging from $25,000 to $28,000, before being beaten with stun batons, sexually assaulted, and forced to run romance-investment scams against strangers using a company-issued script; she was rescued only after posting photos of her injuries to social media, which reached a Taiwanese YouTuber who alerted humanitarian groups and provincial Cambodian authorities, and she flew back to Taipei on July 10. Taiwan's National Police Agency separately arrested 67 people domestically in August 2022 for posting the fraudulent job advertisements and running the domestic recruitment side of the trafficking pipeline. Authorities warn that any offer of overseas work with an unusually high salary, no formal written contract, and pressure to travel immediately should be independently verified with the employer and Taiwan's Ministry of Foreign Affairs before accepting, since by the time a passport is confiscated at the destination airport, it is too late.`,
+    categorySlug: 'employment-scams',
+    country: 'TW',
+    alertLevel: 'critical',
+    sources: ['Taiwan National Police Agency', 'Radio Free Asia', 'Focus Taiwan'],
+    sourceUrl: 'https://www.rfa.org/english/news/china/trafficking-09032022120403.html',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
