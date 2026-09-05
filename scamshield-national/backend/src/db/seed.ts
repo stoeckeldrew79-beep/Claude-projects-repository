@@ -16996,6 +16996,10 @@ The FTC's standing guidance cuts through all of it: the agency will never call, 
     slug: 'cash-app-block-multistate-fraud-settlement-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'cash-app-block-settlement-scam'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Cashapp.png?width=1200',
+    coverImageCredit: 'Meshary Asal, Wikimedia Commons (CC BY-SA 4.0) — the Cash App logo',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     sourceUrl: 'https://ag.ny.gov/press-release/2026/attorney-general-james-secures-45-million-block-enabling-fraud-and-misleading',
     body: `Cash App's marketing told users their money was safe on the platform, protected by what the company called "cutting edge" fraud detection comparable to a bank. On July 8, 2026, a coalition of 46 state attorneys general announced Block, Inc. — the company behind Cash App — would pay $45 million to settle allegations that claim was false, and that Block knew fraud on its platform was climbing sharply for years while continuing to market the app as secure rather than fixing the problems investigators say enabled that fraud in the first place.
 
