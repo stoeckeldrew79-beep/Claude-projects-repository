@@ -36126,6 +36126,42 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'Louisiana "Professional Consultants" Investment Ponzi Scheme',
+    slug: 'louisiana-professional-consultants-ponzi-scheme',
+    description: `Between June 2007 and December 2014, John Steven Blount of Lake Charles, Louisiana operated an investment Ponzi scheme through his company, Professional Consultants LLC, even though the Financial Industry Regulatory Authority (FINRA) had permanently barred him from working as an investment adviser back in December 2003. Posing as a legitimate broker, Blount offered at least 73 investors — many of them local retirees — supposed investments in fictitious companies, bonds, and IRAs promising above-market rates of return, then diverted the roughly $5.8 million he raised into his own bank accounts to fund his personal lifestyle and other business interests rather than ever purchasing the securities he described. He pleaded guilty to one count of wire fraud in July 2015, and U.S. District Judge Patricia Minaldi sentenced him in October 2015 to 235 months — more than 19 years — in federal prison, followed by three years of supervised release and an order to pay $4.3 million in restitution. The case is a reminder that a regulatory bar is not self-enforcing: investors can and should independently verify a broker's license status through FINRA's BrokerCheck before wiring money, rather than assuming that anyone soliciting investments in their community is actually licensed to do so.`,
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    state: 'LA',
+    alertLevel: 'high',
+    sources: ['U.S. Attorney\'s Office, Western District of Louisiana', 'Federal Bureau of Investigation, New Orleans Field Office'],
+    sourceUrl: 'https://www.justice.gov/usao-wdla/pr/lake-charles-man-sentenced-more-19-years-prison-58-million-ponzi-scheme',
+  },
+  {
+    name: 'Oregon Crypto "Hedge Fund" and Carbon Offset Ponzi Scheme',
+    slug: 'oregon-ikkurty-crypto-carbon-ponzi-scheme',
+    description: `Sam Ikkurty of Oregon, operating through Ikkurty Capital, LLC (doing business as Rose City Income Fund I and Rose City Income Fund II), along with Jafia LLC and Seneca Ventures LLC, solicited investors he met at webinars and trade shows into what he described as sophisticated cryptocurrency "hedge funds" and a carbon-offset investment program, promising a steady 15% annual return from supposed trading profits. In reality, the U.S. Commodity Futures Trading Commission found the funds were, in the words of the agency's enforcement director, "plain, old-fashioned Ponzi schemes": Ikkurty's crypto holdings lost nearly 99% of their value within months, a fact he never disclosed to investors, and new investor money was used to pay out earlier investors rather than any real trading strategy. After the CFTC sued and a receiver was appointed, Ikkurty fled to India and was held in contempt of court for unlawfully transferring digital assets out of the receivership estate, though the CFTC later tracked down and recovered roughly $18 million of the missing crypto. On September 3, 2024, Judge Mary Rowland of the U.S. District Court for the Northern District of Illinois entered a $209,614,892 judgment against Ikkurty and his entities, made up of nearly $84 million in customer restitution, about $37 million in disgorgement of ill-gotten gains, a $110.9 million civil monetary penalty, and a separate $14 million contempt fine. The case illustrates how a promised fixed "steady" return regardless of market conditions — 15% a year no matter what crypto or carbon markets actually do — is itself a red flag no legitimate fund can honestly offer.`,
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    state: 'OR',
+    alertLevel: 'high',
+    sources: ['U.S. Commodity Futures Trading Commission'],
+    sourceUrl: 'https://www.cftc.gov/PressRoom/PressReleases/8959-24',
+  },
+  {
+    name: 'Indiana "Oxford International Credit Union" Fake Credit Union Ponzi Scheme',
+    slug: 'indiana-oxford-international-credit-union-ponzi-scheme',
+    description: `From around 2006 through March 2014, Timothy J. Coughlin of Indianapolis, Indiana ran a fictitious online investment vehicle called Oxford International Credit Union, later rebranded as the Oxford International Cooperative Union, soliciting annual "membership dues" and investments from more than 3,500 victims around the world through online payment processors. Coughlin built a members-only website that displayed fabricated account balances showing investors earning an average of 0.471% every single trading day between January 2007 and December 2009 — equivalent to a fantastical 356% average annual return — figures that existed only on the site and were never backed by any actual trading. When investors grew suspicious and asked questions, Coughlin impersonated an Internal Revenue Service official to lend the scheme false legitimacy and discourage them from withdrawing their money. He pleaded guilty in June 2014 to wire fraud and impersonating a federal official, and was ultimately sentenced to 90 months — more than seven years — in federal prison, along with an order to pay $10,084,625.56 in restitution to his victims. The case shows how a fake "credit union" label and a members-only login screen showing daily compounding gains can substitute for the audited statements a real financial institution provides, and how a caller falsely claiming IRS authority is, on its own, a scheme red flag rather than proof of legitimacy.`,
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    state: 'IN',
+    alertLevel: 'high',
+    sources: ['U.S. Attorney\'s Office, Eastern District of Virginia', 'U.S. Securities and Exchange Commission'],
+    sourceUrl: 'https://www.justice.gov/usao-edva/pr/indianapolis-man-sentenced-over-7-years-prison-and-ordered-pay-more-10-million-victims',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
