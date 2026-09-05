@@ -34518,6 +34518,39 @@ SEED_SCAMS.push(
 
 SEED_SCAMS.push(
   {
+    name: 'Fake SASSA SRD Grant Website Phishing Scam',
+    slug: 'south-africa-sassa-srd-grant-fake-website-phishing',
+    description: `Fraudsters build lookalike websites — using addresses such as srd-sassa.org.za and srdsassagov.co.za, deliberately close to the real domain — that copy the appearance of South Africa's official COVID-19 Social Relief of Distress (SRD) grant application platform almost exactly. Applicants seeking the R370 monthly grant are directed to these fake sites, often through social media posts or forwarded links, and asked to enter their ID number, banking details, phone number, and home address to "apply" or "reactivate" their grant. None of that information ever reaches the South African Social Security Agency (SASSA); instead it is harvested by the scammers, who use it to commit identity theft and to hijack the real grant payments by redirecting them into accounts they control. The Department of Social Development and SASSA have publicly identified these specific fake domains and stress that the only legitimate application platform is https://srd.sassa.gov.za, that a government website will always end in the "gov.za" domain reserved for the South African state, and that SASSA never asks applicants for a banking PIN or password and never sends application links by SMS or WhatsApp.`,
+    categorySlug: 'phishing',
+    country: 'ZA',
+    alertLevel: 'high',
+    sources: ['South African Social Security Agency (SASSA)', 'South African Government News Agency (SAnews)'],
+    sourceUrl: 'https://www.sanews.gov.za/south-africa/beware-fake-covid-19-srd-application-sites',
+  },
+  {
+    name: 'SIM Swap Banking Takeover Fraud (South Africa)',
+    slug: 'south-africa-sim-swap-banking-takeover-fraud',
+    description: `A fraudster who has already obtained a victim's personal details — often through an earlier phishing email or a fake bank SMS that harvested online banking login credentials — contacts the victim's mobile network provider posing as the account holder and requests that the phone number be transferred, or "swapped," onto a new SIM card the fraudster controls. Once the swap succeeds, the victim's phone loses signal entirely while the fraudster's SIM begins receiving the one-time PINs (OTPs) and SMS notifications that South African banks send to authorise logins, add new payment beneficiaries, and approve transfers, letting the fraudster empty the account without ever needing the victim's physical card or phone. The South African Banking Risk Information Centre (SABRIC), which represents the country's major banks, warns that a sudden, unexplained loss of cellphone signal — no calls, texts, or data — is often the first sign of an in-progress SIM swap and should be treated as an emergency: banks and the mobile network should both be contacted immediately, since a fraudster who has completed the swap can move quickly to drain linked accounts. SABRIC also advises never responding to an email, SMS, or call claiming to be from a bank that asks for account details, PINs, or passwords, and always reaching a bank's website by typing the address directly rather than following a link.`,
+    categorySlug: 'account-takeover',
+    country: 'ZA',
+    alertLevel: 'high',
+    sources: ['South African Banking Risk Information Centre (SABRIC)'],
+    sourceUrl: 'https://www.sabric.co.za/',
+  },
+  {
+    name: 'Banxso Online Trading Ponzi Scheme',
+    slug: 'south-africa-banxso-online-trading-ponzi-scheme',
+    description: `Banxso (Pty) Ltd marketed itself as a licensed online trading platform in South Africa, holding an FSP (Financial Services Provider) authorisation number that lent it an appearance of legitimacy, while soliciting client deposits with promises of unrealistic, guaranteed trading returns. Following an investigation opened after client complaints, the Financial Sector Conduct Authority (FSCA) — South Africa's financial markets regulator — found that Banxso and its key persons had misappropriated client funds, provided false and misleading information to both clients and the FSCA itself, and failed to act in clients' best interests, running the operation as a Ponzi-style scheme rather than a genuine trading business. On December 9, 2025, the FSCA announced its largest administrative penalty to date: R2 billion imposed jointly and severally on Banxso and directors Harel Adam Sekler and Warwick David Sneider, with additional fines against other key individuals, a debarment of up to 30 years for the directors involved, and a referral of the matter to the South African Police Service — while investors were left facing losses reported at more than R3 billion. The case is a reminder that holding an FSP number is not, by itself, proof a firm is trustworthy; the FSCA urges anyone considering a South African investment platform to independently verify the provider's licence status directly with the FSCA before depositing money, and to treat guaranteed or unrealistically high returns as a warning sign regardless of how official a platform's paperwork looks.`,
+    categorySlug: 'investment-fraud',
+    country: 'ZA',
+    isHistorical: true,
+    sources: ['Financial Sector Conduct Authority (FSCA)'],
+    sourceUrl: 'https://www.fsca.co.za/Latest-News/',
+  },
+);
+
+SEED_SCAMS.push(
+  {
     name: 'ABC Plumbing, Heating, Cooling & Electric Senior Home-Repair Overcharge Scheme',
     slug: 'illinois-abc-plumbing-heating-cooling-electric-senior-overcharge-scheme',
     description: `Arlington Heights-based ABC Plumbing, Heating, Cooling & Electric Inc. sent technicians into Illinois homes, most often belonging to senior citizens, and allegedly used the visit as a pretext to inspect areas of the house the resident never asked them to look at, then declared whatever they found — a furnace, a water heater, a section of ductwork — an "emergency" or "life-threatening hazard" that had to be fixed immediately. Illinois Attorney General Kwame Raoul's lawsuit, filed September 2026, alleges technicians handed customers a digital tablet and rushed them into signing a contract for the inflated repair before they had a chance to actually read it, a practice that also buried or omitted the three-day right to cancel that Illinois law requires for door-to-door and in-home sales. The complaint further alleges that unlicensed technicians performed some of the work despite the company holding itself out as fully licensed and qualified. Raoul's office is seeking a permanent injunction, an audit of the company's existing contracts, monetary relief for affected customers, and suspension or revocation of ABC's business licenses. Homeowners who call a repair company for one specific problem are advised to say no to any additional "inspection" of unrelated systems, to insist on a written, itemized estimate before any work begins, and to know that Illinois law gives buyers three business days to cancel a home-repair contract signed in their own home — a right no legitimate technician has any reason to rush past.`,
