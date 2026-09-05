@@ -9344,6 +9344,37 @@ The Knoedler scandal remains a benchmark case in art-world fraud because of how 
   },
 );
 
+NOTORIOUS_ARTICLES.push(
+  {
+    title: 'Sohrab Sharma, Robert Farkas, and the Centra Tech ICO Built on a CEO Who Never Existed',
+    slug: 'centra-tech-ico-fake-ceo-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Sohrab "Sam" Sharma, Robert Farkas, and Raymond Trapani founded Centra Tech in Miami in 2017, at the peak of the initial-coin-offering boom, pitching a "Centra Card" that would supposedly let anyone spend Bitcoin, Ether, and other cryptocurrencies anywhere Visa or Mastercard was accepted. To sell thousands of investors on the idea, the founders built a corporate identity almost entirely out of fabrication. Their marketing named a chief executive, "Michael Edwards," described as a veteran banker with a Harvard MBA — a person who did not exist; the photo used for his official bio actually belonged to a Canadian physiology professor with no connection to the company. Centra also claimed formal partnerships with Visa, Mastercard, and The Bancorp Bank to issue its cards, and said it held money-transmitter licenses in 38 states. None of that was true either.
+
+The scheme got a major publicity boost from two paid celebrity endorsements. Boxer Floyd Mayweather Jr. and music producer DJ Khaled each posted enthusiastic Instagram messages about Centra's token sale in mid-2017, telling millions of followers they intended to use the card themselves, without disclosing they had been paid to promote it. (The SEC separately charged both men in November 2018 with illegally touting Centra's ICO without disclosing their compensation; Mayweather paid $614,775 and Khaled paid $152,725 to settle those charges, without admitting or denying the SEC's findings.) Riding that wave of attention, Centra's "CTR token" sale raised more than $32 million from thousands of investors within a matter of months.
+
+The SEC filed emergency civil fraud charges against Sharma, Farkas, and Trapani on April 2, 2018, and the Department of Justice unsealed a parallel criminal indictment the same week charging them with conspiracy to commit securities and wire fraud. Sharma was arrested at John F. Kennedy International Airport in New York on April 1, 2018, as he attempted to flee the country; Farkas was arrested the same day in Miami. All three eventually pleaded guilty. Sharma, whom prosecutors described as the scheme's driving force, was sentenced in March 2021 by U.S. District Judge Lorna G. Schofield in Manhattan to eight years in prison and ordered to forfeit more than $36 million along with a $20,000 fine. Farkas was sentenced in December 2020 to one year and one day, and ordered to forfeit $347,062 and a Rolex watch bought with fraud proceeds. Trapani, who cooperated extensively with investigators after pleading guilty to ten federal counts, was sentenced in April 2022 to time served and ordered to pay $2.9 million in restitution. In May 2022, the SEC separately obtained final civil judgments ordering more than $37.7 million in disgorgement from Sharma, $2.6 million from Trapani, and roughly $395,000 from Farkas.
+
+The Centra Tech case became one of the defining prosecutions of the 2017-2018 ICO bubble — and, paired with the SEC's action against Mayweather and Khaled, one of the clearest official warnings that a celebrity's social media endorsement of a cryptocurrency offering is a paid advertisement, not independent judgment. It remains a reference point for how a fabricated executive biography, a handful of invented corporate partnerships, and two Instagram posts were enough to move tens of millions of dollars from investors who never checked whether "Michael Edwards" was a real person.`,
+    sourceUrl: 'https://www.justice.gov/usao-sdny/pr/leading-co-founder-cryptocurrency-company-sentenced-8-years-prison-ico-fraud-scheme',
+  },
+  {
+    title: 'Jared Rice Sr. and the AriseBank ICO That Called Itself "The World\'s First Decentralized Bank"',
+    slug: 'jared-rice-arisebank-ico-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `In late 2017, Dallas-area entrepreneur Jared Rice Sr. launched AriseBank with a pitch designed to ride two crazes at once: he called it "the world's first decentralized banking platform," promising customers FDIC-insured accounts, Visa-branded debit cards, and the ability to hold and spend more than 700 different cryptocurrencies, all funded through an initial coin offering for a token called AriseCoin. Rice and business partner Stanley Ford told the press and investors that AriseBank had already collected roughly $600 million in presale commitments since November 2017 — a figure regulators later said bore no real relationship to the money actually being taken in.
+
+None of AriseBank's core claims held up. The company was not chartered or licensed to conduct banking business in Texas, was not insured by the FDIC, and had no partnership of any kind with Visa. The Texas Department of Banking issued a cease-and-desist order on January 5, 2018, after determining AriseBank was neither chartered in the state nor supervised by any banking regulator. Rice pressed ahead with the ICO anyway. On January 25, 2018, the SEC obtained an emergency temporary restraining order and asset freeze against AriseBank, Rice, and Ford — the first time the agency had sought the appointment of a receiver in connection with an ICO fraud — halting the offering and taking control of the company's assets, including its digital currency.
+
+The gap between AriseBank's marketing and its reality was stark. Investigators found the operation had actually raised roughly $4.25 million, not the $600 million Rice had publicized, and that Rice diverted investor funds to cover personal expenses including hotel stays, food, clothing, and legal fees from a family-law dispute rather than building any working banking product. Prosecutors also noted that Rice had a prior undisclosed guilty plea tied to an earlier "internet-related business scheme," a fact he never shared with the people investing in AriseCoin. The FBI arrested Rice in November 2018, and he pleaded guilty in March 2019 to one count of securities fraud. In August 2021, U.S. District Judge Ed Kinkeade of the Northern District of Texas sentenced him to five years in federal prison and ordered him to pay $4,258,073 in restitution. Ford settled the SEC's civil case in November 2018, agreeing jointly with Rice to disgorge roughly $2.26 million plus interest and to each pay a $184,767 civil penalty.
+
+AriseBank stands as one of the clearest early examples of regulators moving to freeze an ICO's assets before the money could disappear entirely, and it remains a cautionary case study in how far a fraud's marketing claims can diverge from what investigators actually find once they look at the bank accounts — a $600 million banking "revolution" that, in reality, never held more than a few million dollars, most of which was never the company's to spend.`,
+    sourceUrl: 'https://www.justice.gov/usao-ndtx/pr/cryptocurrency-ceo-sentenced-five-years-4-million-crypto-scheme',
+  },
+);
+
 // Practical "how it works / red flags / what to do" guides covering the
 // major scam categories, the same kind of coverage the FTC's Consumer
 // Advice site and AARP's Fraud Watch Network publish — well-documented
