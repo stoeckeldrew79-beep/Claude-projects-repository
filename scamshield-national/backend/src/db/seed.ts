@@ -9144,6 +9144,45 @@ Eisenberg has not walked away from prison, however. Separately from the Mango Ma
   },
 );
 
+NOTORIOUS_ARTICLES.push(
+  {
+    title: 'Wisdom Onyobeno: The Romance-Scam "Kingpin" Who Bilked Elderly Widows Out of $5.8 Million',
+    slug: 'wisdom-onyobeno-romance-scam-kingpin',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Front_exterior,_John_O._Pastore_Federal_Building,_Providence,_Rhode_Island_LCCN2010719128.tif?width=1200',
+    coverImageCredit: "Photo: Carol M. Highsmith, Library of Congress (Public Domain) — the John O. Pastore Federal Building in Providence, Rhode Island, where Onyobeno was sentenced",
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    body: `Wisdom Oghenekaro Onyobeno, a Nigerian citizen living in Sandy Springs and Atlanta, Georgia, ran what federal prosecutors in Rhode Island called an "unrepentant" romance-and-money-laundering operation that reached across the United States and overseas. Beginning around 2014 and continuing for roughly five years, Onyobeno and a shifting network of co-conspirators built fake identities on dating sites and social apps — Plenty of Fish, Christian Mingle, OurTime, and even the word game Words With Friends — to court lonely older women, then invent a crisis only money could solve.
+
+The personas followed a well-worn script: a U.S. Army general stationed in Afghanistan, an oil-rig worker stranded overseas, a government contractor needing funds to ship personal belongings home or buy a plane ticket back to the United States. Victims who fell for the relationship were coaxed into refinancing homes, draining retirement accounts, and wiring money to the "boyfriend" they had never met in person, all while conspirators moved the incoming cash through a rotating set of business bank accounts, opening new ones as soon as banks grew suspicious and froze the old ones. Investigators eventually tied the scheme to at least 28 identified victims across more than a dozen states, women prosecutors described as "smart," "educated," and "kind" rather than gullible — simply targeted by people who had studied exactly how to manufacture trust.
+
+The case that anchored the prosecution began with a 76-year-old widow in South Kingstown, Rhode Island, who met a man calling himself "General Mathew Weyer" online. Over months of messages, she came to believe she was building a future with a decorated soldier who simply needed help covering logistics to come home. She sold property and refinanced what she owned to keep sending money, ultimately losing more than $1.4 million — including roughly $660,000 that investigators traced directly to Onyobeno's network. A second identified victim, a widow in Florida, lost more than $324,000 to the same conspiracy. Total losses tied to the scheme reached at least $5.8 million.
+
+A U.S. Postal Inspection Service investigation that began in 2018, following the South Kingstown case, eventually unraveled the network member by member; several co-conspirators, including Dominique Golden, were convicted and sentenced separately in both Rhode Island and the Northern District of Georgia. Onyobeno, identified by investigators as a ringleader of the group, pleaded guilty on April 28, 2023, to conspiracy to commit wire fraud, wire fraud, and money laundering. U.S. District Judge John J. McConnell Jr. sentenced him on October 8, 2024, to 121 months — just over ten years — in federal prison, to be followed by three years of supervised release, calling the scheme "a well-thought-out, smart, intricate operation" that was nonetheless, at bottom, "nothing but a two-bit fraud on innocent people."
+
+The Onyobeno case is a reminder that romance scams rarely run on the improvisation of a single con artist — behind the fabricated soldier or stranded contractor is often a division of labor: someone writing the messages, someone managing the identity across multiple platforms simultaneously, and someone else laundering the money through accounts built specifically to outrun a bank's fraud detection. The relationship a victim believes she is in is, from the other side, one node in an assembly line built to extract exactly this kind of loss from exactly this kind of trust.`,
+    sourceUrl: 'https://www.justice.gov/usao-ri/pr/leader-international-romance-scam-conspiracy-sentenced-more-ten-years-federal-prison',
+  },
+  {
+    title: 'Zhao Jiaotong and the E-Creator "Fake Review" Ponzi Scheme That Swept Zimbabwe',
+    slug: 'zhao-jiaotong-e-creator-ponzi-scheme-zimbabwe',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `E-Creator Electronic Commerce (Private) Limited registered as a Zimbabwean company on February 7, 2023, presenting itself as a technology platform that paid ordinary users to write product reviews for e-commerce sites. The pitch to Zimbabwean investors, most of them navigating an economy with unemployment estimates as high as 90 percent and inflation above 100 percent, was simple: sign up, "review" a batch of products in under twenty minutes, and earn several dollars a day — plus much larger returns for depositing more money up front and recruiting others into the platform. Entry-level accounts started as low as $15, with tiered packages running as high as $2,000 that promised commissions for both personal deposits and the recruits a participant brought in beneath them — the standard architecture of a multi-level pyramid dressed up as a gig-economy job.
+
+Zhao Jiaotong, a Chinese national born in 1984 who ran the company, built E-Creator's credibility using Zimbabwe's most visible social-media stars rather than traditional advertising. Comedian and influencer Admire "Mama Vee" Mushambi and fellow content creator Madam Boss — who between them commanded well over a million Facebook followers — were paid to promote E-Creator directly to their audiences, while local agents fanned out across smaller towns to sign up depositors through EcoCash, Zimbabwe's dominant mobile-money service. Mama Vee later testified he introduced Madam Boss to the scheme in June 2023 in exchange for $700 in advertising fees; both later said they had invested their own money and lost it, along with money from relatives they had personally persuaded to join.
+
+The platform held together for barely five months. On July 3, 2023, users began reporting that they could not withdraw their funds; E-Creator's operators told them a "system upgrade" was to blame. Two days later, on July 5, the company posted a notice on its own website announcing it had ceased operations, and blamed Zhao for disappearing with the money. Zhao was arrested on July 12, 2023, at Robert Gabriel Mugabe International Airport in Harare while attempting to board a flight to Dubai; his bail application was denied ten days later, and he remained in remand prison awaiting trial. Zimbabwean prosecutors ultimately charged him with fraud tied to more than $364,000 taken from over 670 identified investors in the criminal indictment, a figure well below the roughly $1 million in total deposits investigators and local media estimated the platform had collected across its full run before it collapsed.
+
+Zhao's trial finally opened in Zimbabwe's courts in July 2025, roughly two years after his arrest, with both Zhao and a co-defendant entering not-guilty pleas; Mama Vee and Madam Boss were called as prosecution witnesses to detail how the promotion campaign worked, and an arrest warrant was later issued for Mama Vee after he failed to appear for a scheduled court date. As of this writing the case remains in Zimbabwe's court system, unresolved.
+
+E-Creator followed a pattern familiar well beyond Zimbabwe: a foreign operator, a plausible-sounding gig-economy premise, a mobile-money rail that let thousands of small depositors move money in minutes, and — critically — the paid endorsement of trusted local celebrities to do the persuading a stranger's advertisement never could. The same multi-level structure and celebrity-seeded promotion have powered fake-review and "task-based" investment platforms well beyond southern Africa, precisely because a familiar face vouching for a payout is far more convincing than any claim the platform makes about itself.`,
+    sourceUrl: 'https://en.wikipedia.org/wiki/Zhao_Jiaotong',
+  },
+);
+
 // Practical "how it works / red flags / what to do" guides covering the
 // major scam categories, the same kind of coverage the FTC's Consumer
 // Advice site and AARP's Fraud Watch Network publish — well-documented
@@ -34895,6 +34934,39 @@ SEED_SCAMS.push(
     sources: ['U.S. Department of Justice — District of South Dakota', 'U.S. Securities and Exchange Commission (SEC)'],
     sourceUrl: 'https://www.justice.gov/usao-sd/pr/sioux-falls-man-sentenced-26-investment-fraud-felonies',
     isHistorical: true,
+  },
+);
+
+SEED_SCAMS.push(
+  {
+    name: 'Fake Banco Inmobiliario Mexicano (BIM) Online Banking Phishing Scam',
+    slug: 'mexico-banco-inmobiliario-mexicano-bim-fake-ebim-phishing-scam',
+    description: `Fraudsters built a fake version of the online banking portal for Banco Inmobiliario Mexicano, S.A. (BIM) — known to real customers as "eBIM" or Banca Electrónica — copying the bank's name, logo, and login page closely enough that customers who land on it type in their username, password, and one-time security tokens believing they are logging into their real account. Once those credentials are captured, the criminals do not stop there: they call the victim by phone claiming there has been a system failure or technical error with their account, and use that pretext to talk the victim through "resetting" their password or synchronizing a new security token, a step that actually hands the fraudsters everything needed to take over the victim's real mobile banking session and move money out. Comisión Nacional para la Protección y Defensa de los Usuarios de Servicios Financieros (CONDUSEF), Mexico's federal financial-consumer protection agency, issued a public alert on July 3, 2026 naming BIM as the impersonated institution and warning that this was one of eleven financial institutions whose identity had been used fraudulently that same month. CONDUSEF stresses that no legitimate bank ever asks a customer to reveal a password, security code, or token, or to synchronize a token, over an unsolicited phone call, text message, or link, and it urges anyone unsure whether a banking site or call is genuine to type the bank's web address directly into the browser rather than clicking a link, heed any browser warning about an unsafe site, and confirm an institution's real registration through CONDUSEF's own SIPRES registry or its free advisory line before entering any credentials.`,
+    categorySlug: 'phishing',
+    country: 'MX',
+    alertLevel: 'high',
+    sources: ['Comisión Nacional para la Protección y Defensa de los Usuarios de Servicios Financieros (CONDUSEF)'],
+    sourceUrl: 'https://www.gob.mx/condusef/prensa/la-condusef-alerta-sobre-la-posible-suplantacion-de-identidad-de-banco-inmobiliario-mexicano-s-a-institucion-de-banca-multiple-bim',
+  },
+  {
+    name: 'Fake CONDUSEF "Money Recovery" Impersonation Scam',
+    slug: 'mexico-fake-condusef-money-recovery-impersonation-scam',
+    description: `Scammers call victims or message them on WhatsApp claiming to work for CONDUSEF, Mexico's federal agency that protects and defends users of financial services, and tell them the agency has already recovered money owed to them from a bank or other financial institution — money that just needs a small administrative payment, or the victim's own banking details, before it can supposedly be returned. Believing they are one step away from getting money back, victims share personal and banking information or wire funds directly to accounts the criminals control, only for no refund to ever arrive. CONDUSEF issued a public alert on March 4, 2025 flatly stating that the agency "no realiza recuperación de dinero ni bonificaciones" (does not carry out money recovery or offer bonus payments) and that it "no cuenta con gestores, representantes o empleados que realicen trámites de devolución de dinero" — meaning it has no agents, representatives, or employees who process money-return procedures of any kind, by phone, WhatsApp, or otherwise. The agency's recommendation is direct: never share personal or banking information with an unsolicited caller or WhatsApp contact under any circumstances, never make a deposit or transfer to an unknown account no matter how official the caller sounds, and report any such attempt both to CONDUSEF directly (asesoria@condusef.gob.mx) and to the appropriate authorities, since the promise of a refund is the bait, not a real service the agency performs.`,
+    categorySlug: 'government-impersonation',
+    country: 'MX',
+    alertLevel: 'high',
+    sources: ['Comisión Nacional para la Protección y Defensa de los Usuarios de Servicios Financieros (CONDUSEF)'],
+    sourceUrl: 'https://www.gob.mx/condusef/prensa/alerta-condusef-advierte-sobre-intento-de-fraude?idiom=es',
+  },
+  {
+    name: 'World Cup 2026 Fake Travel Package and Secondary-Market Ticket Fraud (Mexico)',
+    slug: 'mexico-world-cup-2026-fake-travel-package-ticket-fraud',
+    description: `As Mexico hosted matches for the 2026 FIFA World Cup, Procuraduría Federal del Consumidor (PROFECO), Mexico's federal consumer-protection agency, warned that fraudulent offers for match tickets, "exclusive experience" packages, tourist bundles, lodging, food, and souvenirs were spreading through social media, often from accounts with no verifiable contact information, physical address, or clear cancellation and refund policy. PROFECO flagged unofficial platforms and profiles reselling tickets at markups reported as high as three times face value, alongside travel agencies advertising steeply discounted packages to host cities that later canceled, delivered nothing, or simply disappeared once payment cleared. On June 23, 2026, PROFECO issued an official alert under its "Mundial Social" consumer-protection campaign identifying the warning signs: prices too low to be believable, high-pressure urgency to buy immediately, websites without HTTPS encryption or a visible security lock, and sellers who cannot substantiate their claims or operate entirely outside official ticketing and travel channels. PROFECO's recommendation to fans is to buy tickets and travel services only from FIFA's own official site or an authorized, verifiable provider, to avoid the secondary resale market altogether, and to report any deceptive advertising directly to PROFECO so it can pursue enforcement action against the seller.`,
+    categorySlug: 'online-shopping-scams',
+    country: 'MX',
+    alertLevel: 'high',
+    sources: ['Procuraduría Federal del Consumidor (PROFECO)'],
+    sourceUrl: 'https://www.gob.mx/profeco/prensa/profeco-advierte-sobre-ofertas-falsas-y-promociones-enganosas-en-el-mundial-2026-429151?idiom=es-MX',
   },
 );
 
