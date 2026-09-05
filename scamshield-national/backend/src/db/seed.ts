@@ -37669,6 +37669,42 @@ SEED_SCAMS.push(
   },
 );
 
+// Three new, real, sourced cases for Portugal (PT) — a country not
+// previously represented in SEED_SCAMS (verified via case-insensitive
+// grep for "Portugal" / country: 'PT' before adding these).
+SEED_SCAMS.push(
+  {
+    name: 'MB WAY / IBAN Urgent-Payment Smishing Scam',
+    slug: 'portugal-mb-way-iban-smishing-scam',
+    description: `Banco de Portugal has repeatedly warned consumers about a wave of fraudulent text messages, emails, and phone calls impersonating utility and delivery companies, public authorities, and even acquaintances who claim to be texting from a "new number," all pushing the recipient toward an urgent payment made through IBAN transfer, a Multibanco payment reference, or Portugal's ubiquitous mobile payment app MB WAY. The messages manufacture urgency with claims of an overdue invoice, a package held up in customs or awaiting a small redelivery fee, a tax debt, or a family member in sudden financial trouble, often threatening that a service will be cut off or a fine incurred if payment is not made immediately — with phrasing along the lines of "se não pagar, cortam-lhe…" ("if you don't pay, they'll cut off…"). Because MB WAY transfers settle instantly and reference-based Multibanco payments require no card number to be "verified" by the victim, a scammer who gets a victim to act on the spot can extract funds before there is any real chance to stop and check the story. In a January 2026 consumer alert, Banco de Portugal reiterated that legitimate companies and public bodies never demand urgent payment through SMS, email, or a messaging app, and it urged consumers to never click links in unsolicited messages, to independently look up and call the sender organization's official phone number rather than replying to the message, and — when a "family member" texting from an unfamiliar number asks for money — to hang up and call that person's known number directly before sending anything.`,
+    categorySlug: 'phishing',
+    country: 'PT',
+    alertLevel: 'high',
+    sources: ['Banco de Portugal', 'Postal (postal.pt)', '4gnews'],
+    sourceUrl: 'https://www.bportugal.pt/',
+  },
+  {
+    name: 'Fake ASAE Inspector Extortion Scam',
+    slug: 'portugal-fake-asae-inspector-extortion-scam',
+    description: `Portugal's Economic and Food Safety Authority (ASAE), the government body responsible for inspecting shops, restaurants, and other businesses, has for years had to publicly warn small business owners about people impersonating its own inspectors. In the scam, a caller or an in-person visitor poses as an ASAE inspector, notifies the business operator of a supposed infraction — a hygiene violation, missing paperwork, or similar — and then immediately demands payment of a "fine," usually by bank transfer or a Multibanco reference, threatening that failure to pay on the spot will bring a full ASAE brigade to shut the establishment down. A related variant has fraudsters actually filling out fake inspection forms on-site to make the visit look procedurally legitimate before following up with the same demand for a hypothetical administrative-offense payment. ASAE first issued a national press release exposing the scheme in 2015 and has had to renew the warning repeatedly since, including alerts in 2023 and again in 2024 targeting shopkeepers specifically in the Baixo Alentejo region and Beja district, after local business associations in Évora reported members being targeted. ASAE states plainly that its real inspectors never contact economic operators directly to collect a fine — any genuine infraction notice is sent by registered mail specifying the responsible entity, the bank reference, and the amount owed — and it urges any business contacted this way to refuse payment, decline to hand over money on the spot, and report the contact to ASAE at correio.asae@asae.pt or 217 983 600.`,
+    categorySlug: 'government-impersonation',
+    country: 'PT',
+    alertLevel: 'medium',
+    sources: ['ASAE (Autoridade de Segurança Alimentar e Económica)', 'Observador', 'Correio Alentejo'],
+    sourceUrl: 'https://www.asae.gov.pt/espaco-publico/destaques/alerta-falsos-inspetores-da-asae.aspx',
+  },
+  {
+    name: 'Pedro Mourato €500 Million Crypto and Credit Card Fraud',
+    slug: 'portugal-pedro-mourato-crypto-credit-card-fraud',
+    description: `Pedro Mourato, a 39-year-old from Lisbon wanted by Portuguese authorities in connection with an estimated €500 million (roughly $580 million) in cryptocurrency-investment and credit-card fraud spanning Portugal, elsewhere in Europe, and the Philippines, spent more than two years as a fugitive after entering Thailand on a tourist visa in 2023, letting his visa lapse and never registering an address, and continuing to run schemes locally — including a Bitcoin-investment scam that defrauded victims in Bangkok of more than 1 million baht (about $30,800). His run ended in October 2025 when a Portuguese journalist on holiday recognized him, from extensive Portuguese media coverage of the case, inside a luxury Bangkok shopping mall and alerted Thai authorities; more than ten plainclothes officers from Thailand's Immigration Division, working with facial-recognition and biometric database matches and an Interpol notice tied to the outstanding Portuguese warrant, confirmed his identity and arrested him on the spot. Portuguese, European, and Thai investigators had been pursuing the case for years, and following Thai immigration proceedings authorities said Mourato would be deported to face the fraud charges awaiting him in Portugal. The case illustrates how a single operator can run parallel investment-fraud schemes across several countries at once — luring victims with promised cryptocurrency returns while separately harvesting and misusing credit card details — and how far a fugitive will go, including years of illegal residence abroad, to stay ahead of a warrant this size.`,
+    categorySlug: 'investment-fraud',
+    country: 'PT',
+    alertLevel: 'high',
+    sources: ['Decrypt', 'Khaosod English', 'Cryptopolitan'],
+    sourceUrl: 'https://decrypt.co/342846/suspected-crypto-scammer-linked-to-580-million-in-stolen-funds-arrested-in-bangkok',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
