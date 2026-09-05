@@ -37787,6 +37787,39 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'Generación Zoe Cryptocurrency Pyramid Scheme',
+    slug: 'argentina-generacion-zoe-pyramid-scheme',
+    description: `Leonardo Cositorto, an Argentine self-styled "life coach" and financial guru, built Generación Zoe into a scheme that marketed itself as a coaching, "ontological," and financial-consulting company while actually running a classic pyramid structure: new members had to pay a mandatory "membership" fee starting at roughly $400, with premium tiers running to $1,000, $2,000, or $5,000, in exchange for a contract or receipt promising extraordinary, guaranteed returns from investments in real estate, agribusiness, and the company's own cryptocurrency. The scheme expanded into at least 17 countries and, according to Argentine investigators, defrauded victims of at least $120 million before it collapsed, at which point Cositorto fled the country. He was arrested by Interpol in the Dominican Republic in April 2022 after roughly a month as a fugitive and was extradited to Argentina to face fraud and illicit-association charges. Argentine courts have since convicted him repeatedly in separate provincial cases: a court in Corrientes (Goya) sentenced him to 12 years in prison, and in July 2025 a tribunal in Salta handed down an additional 11-year sentence after a more than 500-page ruling found he and local partners had defrauded 118 victims in that jurisdiction alone of 776,834,153 Argentine pesos, with prosecutors having sought as much as 16 years. He has separately been processed on more than a thousand additional fraud complaints filed in Buenos Aires. The case is one of Latin America's largest prosecuted pyramid schemes and illustrates how a "personal development" or coaching brand can be used to launder the credibility of an otherwise ordinary Ponzi structure across multiple countries at once.`,
+    categorySlug: 'investment-fraud',
+    country: 'AR',
+    alertLevel: 'high',
+    sources: ['El Cronista', 'Infobae', 'Página/12', 'Perfil', 'SWI swissinfo.ch'],
+    sourceUrl: 'https://www.infobae.com/judiciales/2025/07/16/una-estafa-piramidal-de-776-millones-la-justicia-revelo-los-fundamentos-de-la-condena-a-generacion-zoe-en-salta/',
+  },
+  {
+    name: 'Fake ANSES Employee Retiree Phone and Social Media Scam',
+    slug: 'argentina-anses-impersonation-retiree-scam',
+    description: `Argentina's national social security administration, ANSES, has had to repeatedly publish official warnings after scammers impersonating its staff — sometimes claiming to be "outsourced" ANSES workers — contacted retirees and other benefit recipients by phone call, email, social media message, or text to extract security codes, account numbers, home-banking credentials, or card data. One recurring variant dangles a fabricated year-end bonus, such as a supposed 70,000-peso "aguinaldo" or holiday payment, or claims a special procedure is needed to keep benefits active, to pressure an older beneficiary into handing over sensitive information on the spot. ANSES has renewed these public alerts multiple times, including around the December holiday period when scam volume typically spikes, stating flatly that it "never requests personal data, security codes, or banking information through phone calls, emails, social media, or text messages," and that any legitimate transaction takes place either in person or through its own official website (anses.gob.ar), authenticated only with a beneficiary's CUIL and Social Security password. The agency urges anyone contacted this way to hang up, ignore the message, and never share codes, card numbers, or passwords with a caller claiming to represent ANSES.`,
+    categorySlug: 'government-impersonation',
+    country: 'AR',
+    alertLevel: 'medium',
+    sources: ['ANSES (Administración Nacional de la Seguridad Social)', 'El Cronista', 'Ámbito Financiero'],
+    sourceUrl: 'https://www.anses.gob.ar/noticias/anses-advierte-sobre-estafas-telefonicas-y-virtuales-1',
+  },
+  {
+    name: 'SIM Swapping Bank Account Takeover Fraud',
+    slug: 'argentina-sim-swapping-bank-fraud',
+    description: `On September 26, 2024, fraudsters used a self-service SIM-replacement process at Movistar Argentina to duplicate a customer's phone chip without the telecom properly verifying the requester's identity, seizing control of her phone line and, with it, the one-time codes tied to her Banco Galicia account. Within minutes the attackers executed seven transfers of roughly 3 million pesos each out of her account, draining a total of 19.2 million pesos. The victim sued both companies, and Argentina's Civil and Commercial Chamber of Appeals in Junín ruled in her favor on June 30, 2026, rejecting appeals from both Movistar and Banco Galicia and holding the telecom and the bank jointly and severally liable for failing their respective security duties — the telecom for not verifying the chip-swap request and the bank for not detecting an obviously anomalous rapid-fire transfer pattern. The court ordered payment of the full 19.2 million pesos in actual damages, an additional 5.76 million pesos in moral damages, and a punitive-damages award pegged to four INDEC-published basic-basket values. The ruling echoed an earlier case in which a retired Falklands War veteran, treated by the court as a "vulnerable consumer," was likewise awarded compensation from his bank and telecom provider after SIM swapping fraud emptied roughly $12,500 from his savings account. Argentine courts have increasingly held that a bank and a mobile carrier share responsibility when weak identity checks on a SIM-replacement request are what make an account takeover possible in the first place.`,
+    categorySlug: 'account-takeover',
+    country: 'AR',
+    alertLevel: 'high',
+    sources: ['Cámara de Apelaciones en lo Civil y Comercial de Junín', 'iProfesional', 'Infobae'],
+    sourceUrl: 'https://www.iprofesional.com/legales/460604-condenan-movistar-banco-galicia-por-un-caso-de-sim-swapping-estafa',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
