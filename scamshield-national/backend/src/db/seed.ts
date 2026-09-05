@@ -38416,6 +38416,42 @@ SEED_SCAMS.push(
   },
 );
 
+// Three new, real, sourced cases for Austria (AT) — a country not previously
+// represented in SEED_SCAMS (verified via case-insensitive grep for
+// "Austria" / country: 'AT' before adding these).
+SEED_SCAMS.push(
+  {
+    name: 'ID Austria Certificate-Expiry Phishing & AnyDesk Bank-Takeover Scam',
+    slug: 'austria-id-austria-certificate-phishing-anydesk-scam',
+    description: `With roughly 300,000 digital-identity certificates for ID Austria — the credential Austrians use to sign in to tax, health, and other e-government services — due to expire between May and August 2026, criminals launched a wave of SMS and email messages impersonating ID Austria or the Federal Ministry of Finance, warning recipients that their certificate was about to lapse and urging them to "renew" it immediately through a linked page. The link led to lookalike phishing sites, including domains such as web-id-austria[.]info and ld-austria[.]at-kunden-ident[.]info, styled to resemble the real ID Austria portal and designed to harvest a victim's ID number, login credentials, and — under the guise of "identity verification" — online banking details. Victims who entered their data were then called by a second fraudster posing as a bank employee, who claimed a "technical error" or a "suspicious transaction" needed to be resolved and talked the victim into installing remote-access software such as AnyDesk or TeamViewer; once connected, the criminals took control of the device and initiated transfers that the bank's systems saw as approved directly by the account holder. Austria's Bundeskriminalamt (Federal Criminal Police Office) reported that, by April 2026, the scheme had generated nearly 100 confirmed cases and roughly €500,000 in combined losses, with individual losses running into five figures and the earliest cases surfacing in the western state of Vorarlberg; the consumer watchdog Watchlist Internet tracked the same campaign independently. The Bundeskriminalamt's guidance is direct: "Bankmitarbeitende fragen Sie nie nach persönlichen Daten oder TANs" (bank staff never ask for personal data or TANs) — no legitimate bank employee will ever ask a customer to install remote-access software, ID Austria should only ever be managed at the official id-austria.gv.at domain, and anyone who has already installed AnyDesk or TeamViewer at a caller's request should disconnect immediately, contact their bank to freeze the account, and report the incident to the Cybercrime reporting office at against-cybercrime@bmi.gv.at.`,
+    categorySlug: 'account-takeover',
+    country: 'AT',
+    alertLevel: 'high',
+    sources: ['Bundeskriminalamt (Austrian Federal Criminal Police Office)', 'Watchlist Internet', 'Biometric Update'],
+    sourceUrl: 'https://www.bundeskriminalamt.at/news7481.html?id=6f45367243466c735631633d',
+  },
+  {
+    name: 'Fake Helmut Ettl / Focus Money WhatsApp Investment-Tip Scam',
+    slug: 'austria-fma-fake-executive-whatsapp-investment-scam',
+    description: `Austria's Financial Market Authority (FMA) warned on July 31, 2025, of a growing pattern of fraudulent WhatsApp groups and channels promising "exclusive" stock tips and guaranteed high returns, in which scammers impersonate well-known financial media outlets and even named FMA officials to lend the scheme false credibility. In one documented case, a fake WhatsApp profile used the name and photograph of Helmut Ettl, a member of the FMA's own executive board, to circulate specific buy recommendations — messages the FMA stated flatly were not authentic, noting that FMA representatives never recommend buying or selling individual financial instruments. Other fraudulent accounts posed as the German financial magazine Focus Money and the Austrian business magazine Gewinn, using near-identical branding to add legitimacy before inviting targets, via unsolicited contact requests or social-media ads, into closed groups where "community" enthusiasm for a hot tip pushed victims toward wiring money to accounts or platforms controlled by the fraudsters, frequently based abroad. The FMA's advice: scrutinize any invitation to a financial WhatsApp group or channel for telltale spelling variations in the sender's name, treat any promise of quick, high, low-risk returns as a red flag rather than an opportunity, ignore, report, and block accounts making such claims, check any unfamiliar provider against the FMA's public company register before sending money, and report suspected fraudulent profiles to Watchlist Internet and investment fraud itself directly to the FMA.`,
+    categorySlug: 'investment-fraud',
+    country: 'AT',
+    alertLevel: 'high',
+    sources: ['Austrian Financial Market Authority (FMA)', 'APA-OTS', 'Watchlist Internet'],
+    sourceUrl: 'https://www.ots.at/presseaussendung/OTS_20250731_OTS0043/fma-warnt-vor-zunehmenden-betrugsversuchen-ueber-whatsapp-gruppen-und-kanaele-mit-anlageempfehlungen',
+  },
+  {
+    name: 'Deepfake Van der Bellen / Celebrity Investment-Platform Scam',
+    slug: 'austria-deepfake-celebrity-investment-scam',
+    description: `Austrian authorities documented a surge of deepfake investment scams in which fabricated video clips splice real footage of well-known public figures with AI-generated voice and lip-sync to make them appear to endorse fraudulent trading platforms. One fake clip, built to look like a genuine ZiB news broadcast, showed Austrian Federal President Alexander Van der Bellen claiming citizens could turn a 250-euro deposit into 250,000 euros through an "automated gas-trading platform"; another, styled as a fake interview on the talk show "Stöckl," showed television host Armin Assinger promoting a "secret Bitcoin project," while a third depicted presenter Miriam Weichselbraun claiming weekly profits of up to 7,000 euros on a platform with "limited spots." The videos, spread through ads on Facebook, Instagram, TikTok, and YouTube, funneled viewers to fake trading dashboards where a small initial deposit appeared to generate quick profits and a personal "advisor" pushed victims by phone to deposit larger sums — only for withdrawals to be blocked and the advisor to disappear or demand upfront "tax" or "fee" payments before any money could supposedly be released, with real losses commonly reaching six figures. In a further twist, a separate fake Van der Bellen clip circulated claiming the government would compensate all fraud victims within 72 hours provided they first paid an advance fee — a second scam built directly on top of the first. The Austrian government's cybersecurity portal and Watchlist Internet, together with the FMA's own year-end fraud report — which recorded 843 investment-fraud cases and a record €19.6 million in losses for 2025, with deepfake celebrity videos and AI chatbots simulating an active trading "community" named as the year's leading new tactics — urged consumers to treat any celebrity investment endorsement as fake by default, watch for unnatural lip movement or audio that doesn't quite match, stop any further deposits and contact their bank immediately if they have already sent money, and file a police report rather than pay any "release" fee to a platform that has stopped honoring withdrawals.`,
+    categorySlug: 'ai-deepfake-scams',
+    country: 'AT',
+    alertLevel: 'high',
+    sources: ['Watchlist Internet', 'Austrian Federal Chancellery (onlinesicherheit.gv.at)', 'Austrian Financial Market Authority (FMA)'],
+    sourceUrl: 'https://www.onlinesicherheit.gv.at/Services/News/Deepfake-Videos-mit-bekannten-Gesichtern-locken-in-Investmentfallen.html',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
