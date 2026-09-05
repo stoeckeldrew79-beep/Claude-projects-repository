@@ -38952,6 +38952,43 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'Lawrence County Fake Microsoft Security Pop-Up Scam',
+    slug: 'south-dakota-lawrence-county-microsoft-popup-tech-support-scam',
+    description: `Beginning on July 26, 2024, a couple in Lawrence County, South Dakota started receiving pop-up messages on their laptop formatted to look like alerts from "Microsoft Security," warning that their computer had been compromised and directing them to call a phone number for help. The number connected them not to Microsoft but to a caller posing as a fraud investigator at their own bank, who convinced the couple that criminals had accessed their accounts and that money needed to be moved to "secure" it by paying commissions or fees tied to the supposed fraud. Over the following weeks the couple made three separate payments under this pretext; when they arranged a fourth payment, the man collecting it in person — Chao Zheng, 30, of Monterey, California — was arrested by law enforcement on August 23, 2024, before he could leave with the money. South Dakota Attorney General Marty Jackley's office announced that Zheng pleaded guilty in February 2025 to one felony count of aiding and abetting grand theft of more than $100,000 but less than $500,000 by deception, and in June 2025 he was sentenced in Lawrence County Circuit Court to eight years in prison and ordered to pay $325,000 in restitution; as a Chinese national, Zheng also faces the possibility of deportation. The case, investigated by the South Dakota Division of Criminal Investigation and the Lawrence County Sheriff's Office and prosecuted jointly by the Attorney General's Office and the Lawrence County State's Attorney's Office, illustrates a tech-support scam pattern that increasingly ends with an in-person cash pickup rather than a wire transfer or gift cards — a fake security pop-up that funnels a victim to a phone number, followed by a supposed bank "fraud investigator" who directs the victim to withdraw and hand over cash to a stranger, should be treated as a scam at every step; a real Microsoft alert never appears as a browser pop-up with a phone number to call, and a real bank fraud department will never ask a customer to hand cash to someone in person.`,
+    categorySlug: 'tech-support-scams',
+    country: 'US',
+    state: 'SD',
+    isHistorical: true,
+    firstRecorded: '2024-07-26',
+    sources: ["South Dakota Attorney General's Office", 'Rapid City Journal', 'KOTA Territory News'],
+    sourceUrl: 'https://atg.sd.gov/OurOffice/Media/pressreleasesdetail.aspx?id=2850',
+  },
+  {
+    name: 'New Mexico Bogus Publishers Clearing House Prize Scam',
+    slug: 'new-mexico-bogus-publishers-clearing-house-scam',
+    description: `The New Mexico Department of Justice issued a consumer scam alert warning state residents, particularly senior citizens, about phone calls falsely claiming to be from Publishers Clearing House. Callers tell the recipient they have won a substantial cash prize or sweepstakes award, then mail a check made out to the victim along with instructions to deposit it and use part of the funds to buy gift cards or wire money back to the caller to cover supposed "taxes," "fees," or "insurance" before the rest of the winnings can be released. Because the check is fraudulent, it eventually bounces days after being deposited, leaving the victim responsible for the full amount of the phony check plus whatever cash, gift cards, or wire transfers they already sent the caller believing it was borrowed against real winnings. Then-Attorney General Hector Balderas's office stressed that the real Publishers Clearing House never asks a winner to pay any fee, wire money, or purchase gift cards to claim or release a prize, and that it never calls unannounced to notify someone of a win before a prize patrol shows up in person for verified sweepstakes. New Mexicans were urged never to cash a check tied to an unexpected prize notification and never to give out bank account or personal information to an unsolicited caller, and to report any such call to the Attorney General's Office or the FTC at ftc.gov/complaint, citing "lottery scam phone call" in the complaint.`,
+    categorySlug: 'lottery-sweepstakes-scams',
+    country: 'US',
+    state: 'NM',
+    alertLevel: 'medium',
+    sources: ['New Mexico Department of Justice', 'Federal Trade Commission'],
+    sourceUrl: 'https://nmdoj.gov/press-release/scam-alert-ag-balderas-warns-new-mexicans-of-bogus-publishers-clearing-house-calls/',
+  },
+  {
+    name: 'Maine Turnpike Authority Fake Unpaid Toll Text Scam',
+    slug: 'maine-turnpike-authority-ezpass-toll-text-scam',
+    description: `The Maine Turnpike Authority issued a public warning after fielding a wave of reports from drivers who received text messages, styled to look like official MTA correspondence, claiming they had an unpaid toll balance from a recent trip on the Maine Turnpike. The messages typically read some version of "This is a final reminder regarding the unpaid toll from your recent trip on the Maineturnpike toll road. To avoid an additional fee of $35.00, please settle your outstanding toll balance now by visiting the link below," pressuring recipients to click through immediately to avoid an escalating penalty. The link leads to a fake payment page cloned to resemble the MTA's or E-ZPass's own website, designed to harvest the victim's credit card number, billing address, and other personal information under the guise of "settling" a toll that was never actually owed. MTA spokesperson Erin Courtney confirmed that the authority does not use text messages to collect toll payments or notify drivers of violations, and that any legitimate notice about an unpaid toll or fee arrives only by official mail, never by text. The Maine Turnpike Authority urged anyone who receives one of these texts not to click any link or reply, and to report the message to the FTC and to the MTA's own customer service line at 1-888-MTA-PASS; the pattern was part of a broader nationwide wave of toll-related smishing texts that also spoofed toll agencies in other states, but the fraudulent messages targeting Maine drivers specifically impersonated the Maine Turnpike Authority's own branding and E-ZPass account system to add false legitimacy.`,
+    categorySlug: 'government-impersonation',
+    country: 'US',
+    state: 'ME',
+    alertLevel: 'medium',
+    sources: ['Maine Turnpike Authority', 'Portland Press Herald'],
+    sourceUrl: 'https://www.maineturnpike.com/news/recent-news/maine-turnpike-authority-warns-of-smishing-scam-targeting-e-zpass-users',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
