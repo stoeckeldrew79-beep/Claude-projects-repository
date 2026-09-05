@@ -10191,6 +10191,45 @@ NovaTech is a reminder that affinity fraud doesn't require a stranger — it wor
   },
 );
 
+NOTORIOUS_ARTICLES.push(
+  {
+    title: 'John Lopez: The 74-Year-Old Behind the $24 Million PMMCO "Algorithm" Ponzi Scheme',
+    slug: 'john-lopez-pmmco-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-nm/pr/arizona-man-sentenced-30-years-imprisonment-24-million-ponzi-scheme',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Pete_V._Domenici_United_States_Courthouse_2022-05-30.jpg?width=1200',
+    coverImageCredit: 'Photo: Xnatedawgx, CC BY-SA 4.0, via Wikimedia Commons — the Pete V. Domenici U.S. Courthouse in Albuquerque, New Mexico, where John Lopez was tried and sentenced', // representative photo — replace with a portrait if found
+    coverImagePosition: 50,
+    body: `John Lopez didn't pitch cryptocurrency, real estate, or a hot pre-IPO stock. He pitched math. Operating out of Arizona under the name Personal Money Management Company, or PMMCO, Lopez told prospective clients — many of them older, financially conservative residents of northern New Mexico — that he had personally developed a proprietary trading algorithm capable of generating returns far beyond anything a conventional broker could offer. From 2014 to 2022, he used that pitch to solicit millions of dollars, guaranteeing annual returns of 10 to 42 percent and assuring investors their money was safely parked in stocks and bonds through a system only he understood.
+
+None of it was real. Prosecutors said Lopez never invested client money in securities at all. Instead, he used a portion of incoming funds to make Ponzi-style payments to earlier investors — cutting roughly $6.1 million in checks designed to look like trading profits — while quietly diverting a far larger sum, an estimated $16 million of the roughly $24 million he collected, into precious metals. Investigators later found that stockpile scattered across his life: silver and gold stored in his home's basement, in his office, in a rented storage unit, and buried underground. To keep the illusion alive for clients who asked questions, Lopez produced fabricated account statements; one showed a client's $200,000 investment supposedly growing to $3,289,273 in five years — a claimed return of more than 1,500 percent that a real trading algorithm has never produced for anyone.
+
+The scheme unraveled when federal agents seized PMMCO's assets in November 2021 and found less than $15 million on hand, far short of the roughly $39 million in account balances Lopez had told clients they held. A federal grand jury indicted him on a 27-count mail and wire fraud indictment, and in October 2024, after a week-and-a-half trial in the U.S. District Court for the District of New Mexico, a jury convicted Lopez, then 73, on 17 counts of wire fraud, 12 counts of mail fraud, and two counts of engaging in monetary transactions involving criminal proceeds. Even after the verdict, the case wasn't finished turning up hidden assets: a follow-up search of Lopez's home uncovered roughly 19 boxes of silver coins, worth an estimated $350,000, hidden in the crawl space beneath the house.
+
+On August 11, 2025, Lopez was sentenced to 30 years in federal prison and ordered to forfeit $24,065,636.20 — restitution meant to recoup the full scale of what more than 100 victims, the large majority of them in northern New Mexico, had lost. U.S. Attorney Alexander M.M. Uballez and FBI Albuquerque Special Agent in Charge Raul Bujanda announced the sentence, capping a case the FBI described as one of the largest investment fraud prosecutions the district had brought.
+
+PMMCO worked because "proprietary algorithm" sounds like exactly the kind of thing an ordinary investor isn't supposed to be able to verify — and Lopez leaned into that asymmetry, backing up the pitch with statements that showed exactly the returns he'd promised. A trading strategy that consistently beats the market by a wide margin, year after year, is either extraordinarily rare or fabricated, and account statements are only as trustworthy as the person who prints them: real returns can be confirmed independently through a licensed, third-party custodian, and no investor should accept a manager's own paperwork as proof that the underlying money is actually there.`,
+  },
+  {
+    title: 'Tyler Bossetti: The Columbus "Finfluencer" Behind the $23 Million Boss Lifestyle Ponzi Scheme',
+    slug: 'tyler-bossetti-boss-lifestyle-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-sdoh/pr/social-media-influencer-sentenced-6-years-prison-20-million-ponzi-scheme-tax-fraud',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Joseph_P._Kinneary_Courthouse_2018.jpg?width=1200',
+    coverImageCredit: 'Photo: Antony-22, CC BY-SA 4.0, via Wikimedia Commons — the Joseph P. Kinneary U.S. Courthouse in Columbus, Ohio, where Tyler Bossetti was sentenced', // representative photo — replace with a portrait if found
+    coverImagePosition: 50,
+    body: `Tyler Bossetti built his pitch on the same platforms where millions of people look for financial advice every day. Through Facebook and YouTube, the 31-year-old Columbus, Ohio resident marketed himself as a real estate investment expert running a program called Boss Lifestyle LLC, offering short-term investment opportunities in real estate deals that he said were low-risk and guaranteed returns of 30 percent or more. Between 2019 and 2023, the pitch — polished, confident, and delivered directly to followers rather than through a broker or a prospectus — pulled in more than $23 million from investors across the United States and abroad.
+
+There was no real estate empire generating those returns. According to the Justice Department, Bossetti ran Boss Lifestyle as a classic Ponzi scheme, using new investors' money to make payments to earlier investors while diverting a substantial share of the funds toward his own lifestyle: rent on a downtown Columbus condo, frequent travel, a $150,000 Mercedes SUV, and cryptocurrency speculation. When some investors asked for documentation of the interest they were supposedly earning, Bossetti went a step further than most Ponzi operators — prosecutors said he caused the filing of approximately 14 false IRS Form 1099-INT tax forms, fabricating interest income for investors who had never actually earned any, manufacturing a paper trail with the federal government itself rather than just his victims.
+
+The scheme collapsed under its own weight: dozens of investors ultimately lost more than $11 million when Boss Lifestyle could no longer make good on the returns it had promised. Bossetti pleaded guilty in June 2025 to wire fraud and aiding in the filing of a false tax return. On April 10, 2026, U.S. District Judge Algenon L. Marbley sentenced him in the U.S. District Court for the Southern District of Ohio to six years in federal prison and ordered him to pay more than $12.5 million in restitution to his victims. "As we close out tax season for the year, I want to remind the public that this office will aggressively pursue those who cheat the tax system or otherwise steal from the U.S. Treasury," said U.S. Attorney Dominick S. Gerace II. "We will not tolerate fraud — whether committed against the government or private citizens." The case was investigated by IRS Criminal Investigation and the FBI.
+
+Bossetti's case is a reminder that a large social media following is a marketing asset, not a credential — a persuasive video and a slick company name say nothing about whether an investment is real, licensed, or capable of delivering the returns being promised. A guaranteed 30-percent-plus return pitched through Facebook or YouTube, without a licensed broker-dealer or registered offering behind it, should be treated as a red flag regardless of how many followers or testimonials the person promoting it has.`,
+  },
+);
+
 // Practical "how it works / red flags / what to do" guides covering the
 // major scam categories, the same kind of coverage the FTC's Consumer
 // Advice site and AARP's Fraud Watch Network publish — well-documented
