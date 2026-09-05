@@ -10790,6 +10790,45 @@ Chief U.S. District Judge Richard Seeborg sentenced Andrade on July 29, 2025, to
   },
 );
 
+NOTORIOUS_ARTICLES.push(
+  {
+    title: 'Minal Patel and the $463 Million Genetic-Testing Scheme That Turned Cheek Swabs Into a Medicare Fraud Machine',
+    slug: 'minal-patel-labsolutions-genetic-testing-medicare-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/opa/pr/lab-owner-sentenced-463m-genetic-testing-scheme',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Federal_Courthouse_in_Miami.jpg?width=1200',
+    coverImageCredit: 'Photo: Miami92, Public Domain, via Wikimedia Commons — the Wilkie D. Ferguson Jr. U.S. Courthouse in Miami, where Minal Patel was tried and convicted',
+    coverImagePosition: 50, // representative photo — replace with a portrait if found
+    body: `Minal Patel owned LabSolutions LLC, an Atlanta-based laboratory enrolled with Medicare to perform cancer genetic screening — the kind of test, known as CGx testing, that looks for inherited mutations linked to elevated cancer risk. It was legitimate technology used for an illegitimate purpose: prosecutors say Patel built an entire fraud operation around getting as many Medicare beneficiaries as possible swabbed, billed, and never actually helped, regardless of whether they needed the test or would ever see the results.
+
+The pipeline worked in reverse from how real medical care is supposed to. Instead of a doctor deciding a patient needed a genetic test, telemarketing call centers — working on Patel's behalf, prosecutors said, as part of a scheme that also swept up telemedicine companies and patient brokers — cold-called Medicare beneficiaries and told them, falsely, that Medicare covered expensive cancer genetic tests they might qualify for at no cost. Beneficiaries who agreed to a cheek-swab kit were then matched, after the fact, with a telemedicine doctor who had never examined them and often never spoken to them, producing a signed order that made the test look medically justified on paper. Patel paid kickbacks and bribes to the patient brokers who fed him those signed orders, according to prosecutors, buying his way into a stream of billable Medicare claims that had nothing to do with actual patient need.
+
+Between July 2016 and August 2019, LabSolutions submitted more than $463 million in claims to Medicare for genetic and other laboratory tests, of which the program actually paid out over $187 million — money that flowed to Patel while the beneficiaries whose Medicare numbers had been used mostly never learned their results, never had a doctor discuss them, and in many cases never should have been tested in the first place. The case became part of Operation Double Helix, a Justice Department Health Care Fraud Strike Force initiative that in 2019 charged 35 defendants nationwide in genetic-testing fraud schemes responsible for a combined $2.1 billion in intended losses, at the time one of the largest health care fraud takedowns in department history.
+
+A federal jury in the Southern District of Florida convicted Patel in December 2022 on one count of conspiracy to commit health care fraud and wire fraud, three counts of health care fraud, one count of conspiracy to defraud the United States and to pay and receive illegal health care kickbacks, four counts of paying illegal kickbacks, and one count of conspiracy to commit money laundering. On August 18, 2023, Patel — then 44 and living in Atlanta — was sentenced to 27 years in federal prison, one of the longest sentences ever handed down in a health care fraud case. A subsequent forfeiture order required him to give up more than $187 million along with cash, a 2018 Ferrari Spider, a Land Rover Range Rover, and real property purchased with the proceeds. "Deception, kickbacks, and bribes have no place in the provision of legitimate genetic testing and telemedicine services to patients who need them," said FBI Miami Special Agent in Charge Jeffrey B. Veltri in announcing the sentence.
+
+The LabSolutions case became a template regulators and investigators still point to when describing how CGx fraud works: it doesn't need a fake product, only a legitimate one aimed at the wrong patient for the wrong reason, wrapped in a phone call that sounds like a benign Medicare benefit rather than a set-up for a bill the taxpayer will ultimately pay. Genetic testing fraud remains a recurring category flagged by the Senior Medicare Patrol and the HHS Office of Inspector General specifically because the pitch works: nobody objects to a free cancer-risk test, right up until they realize their Medicare number bought a doctor's signature they never gave and a lab bill they never should have generated.`,
+  },
+  {
+    title: 'Noman Saleem, the Telegram Impersonator Who Sold Fake "Staking" Deals as a Fake Crypto Influencer',
+    slug: 'noman-saleem-telegram-crypto-influencer-impersonation-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-md/pr/new-york-man-sentenced-prison-impersonating-crypto-influencers-investment-scam',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Queens_Supreme_Courthouse_Nov_2025_30.jpg?width=1200',
+    coverImageCredit: 'Photo: Epicgenius, CC BY-SA 4.0, via Wikimedia Commons — the Queens Supreme Courthouse in Jamaica, New York, near the Queens home of Noman Saleem',
+    coverImagePosition: 50, // representative photo — replace with a portrait if found
+    body: `Noman Saleem didn't invent a fake cryptocurrency, a fake mining operation, or a fake trading bot — he invented a fake version of someone else's real credibility. Starting in December 2020, the Queens, New York man copied the Telegram handle, profile photo, and public persona of a popular, genuine crypto influencer, then used that borrowed identity to build a following of his own among people who believed they were following the real thing.
+
+Once his impersonation channel had attracted thousands of followers, Saleem opened an exclusive "VIP" sub-channel, charging members roughly $500 to $600 in cryptocurrency for access. Inside, he directly messaged subscribers — a level of personal contact that, prosecutors said, reinforced the illusion they were corresponding with the actual influencer — and pitched a crypto "staking" program promising fixed returns over windows of 30 to 90 days, with bigger payouts for bigger deposits. Believers sent their crypto to wallet addresses Saleem controlled. No staking program existed. There was no trading, no yield, and no real financial product behind any of it — just Saleem collecting deposits and, once a member had paid in, eventually cutting off contact rather than paying anything back.
+
+Operating between December 2020 and at least March 2021, Saleem drew in victims across multiple states — including in Maryland, which gave federal prosecutors there jurisdiction to bring the case — collecting at least $1,415,067.14 in cryptocurrency and cash equivalents before the scheme fell apart. He pleaded guilty to wire fraud on September 30, 2025, in the U.S. District Court for the District of Maryland. On June 23, 2026, U.S. District Judge Deborah K. Chasanow sentenced Saleem to 15 months in federal prison followed by three years of supervised release; the government recovered a portion of victims' losses through asset seizures identified in his plea agreement. "No real investment or staking ever happened," a federal official said in announcing the sentence. "The money simply went into wallets he owned."
+
+Saleem's scheme is a reminder that in crypto — where reputations are built entirely on screen names, profile photos, and follower counts rather than any license, credential, or regulator anyone can call to verify identity — a familiar face online proves nothing about who is actually typing on the other end. The same "VIP access" structure his case relied on has become a recurring pattern across social platforms: a public channel to build borrowed trust at scale, and a paid private one to convert that trust into money before any victim has a chance to compare notes with someone else who was pitched the identical promise.`,
+  },
+);
+
 // Practical "how it works / red flags / what to do" guides covering the
 // major scam categories, the same kind of coverage the FTC's Consumer
 // Advice site and AARP's Fraud Watch Network publish — well-documented
