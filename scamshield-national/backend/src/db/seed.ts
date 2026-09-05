@@ -35519,6 +35519,45 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'Madison Timber Properties Ponzi Scheme (Arthur Lamar Adams)',
+    slug: 'mississippi-madison-timber-properties-arthur-lamar-adams-ponzi',
+    description: `Arthur Lamar Adams ran Madison Timber Properties, LLC out of Mississippi, telling at least 150 investors that their money would be used to buy timber rights from landowners across Alabama, Florida, and Mississippi and then resold at a markup to lumber mills, with Adams promising steady annual returns of 12 to 15 percent. According to the SEC, Madison Timber never actually secured any harvesting rights at all — Adams forged deeds, cutting agreements, and documents purporting to show the value of the underlying timber, and kept the scheme running for over a decade by paying earlier investors with money from new ones and pressuring existing investors to roll their "returns" back into new notes rather than cash out. The SEC filed a sealed fraud complaint in federal court in Jackson, Mississippi on April 20, 2018, unsealed the following month, while the U.S. Attorney's Office for the Southern District of Mississippi brought parallel criminal charges; Adams pleaded guilty on May 9, 2018 to wire fraud. On October 30, 2018, U.S. District Judge Carlton W. Reeves sentenced him to 235 months — over 19 years — in federal prison, with the court finding losses to roughly 300 investors ranging from $65 million to $150 million, making it the largest Ponzi scheme in Mississippi history. A court-appointed receiver, Alysson Mills, has spent years since pursuing recovery litigation on behalf of defrauded investors. The case is a reminder that a note promising a fixed, above-market return backed by a physical asset like timber or real estate still needs to be verified independently — through recorded deeds and county land records, not paperwork supplied only by the person selling the investment.`,
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    state: 'MS',
+    isHistorical: true,
+    firstRecorded: '2018-04-20',
+    sources: ['U.S. Securities and Exchange Commission (SEC)', "U.S. Attorney's Office for the Southern District of Mississippi", 'Ponzitracker', 'Associated Press'],
+    sourceUrl: 'https://www.sec.gov/litigation/litreleases/2018/lr24129.htm',
+  },
+  {
+    name: 'Zurixx Real Estate Investment Coaching Scheme',
+    slug: 'utah-zurixx-real-estate-investment-coaching-scheme',
+    description: `Zurixx, LLC, a Utah-based real estate "coaching" company run by Christopher Cannon, James Carlson, and Jeffrey Spangler, invited consumers to free local seminars promoting a system for making tens or hundreds of thousands of dollars quickly by flipping or wholesaling real estate. The free seminars were high-pressure sales floors for a $1,997 multi-day workshop, which in turn pitched further "advanced" coaching packages that could run into the tens of thousands of dollars, all built on false or unsubstantiated earnings claims. Zurixx bolstered its credibility by partnering with HGTV and reality-TV house-flipping personalities, including Tarek and Christina El Moussa, Hilary Farr, Peter Souhleris, and Dave Seymour, as paid endorsers of the program. The FTC and the Utah Division of Consumer Protection sued Zurixx and its three owners in 2019, alleging deceptive earnings claims and abusive sales tactics; the case was later expanded in 2020 to add more individual defendants and companies used to funnel proceeds out of Zurixx. In February 2022 a federal court entered settlements totaling roughly $111 million in monetary judgment against the defendants (mostly suspended based on inability to pay), with Cannon, Carlson, and Spangler each personally ordered to pay $2.33 million, and all three permanently banned from ever again selling real estate or business "coaching" or investment services. In July 2024, the FTC mailed more than $12 million in refund checks to over 25,500 consumers harmed by the scheme. Regulators point to the same durable warning signs: a "free" seminar that pivots into same-day pressure to buy an expensive workshop, specific guaranteed-dollar earnings claims, a program that escalates in cost at every stage, and a celebrity endorsement offered as the main proof of legitimacy.`,
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    state: 'UT',
+    isHistorical: true,
+    firstRecorded: '2019-09-01',
+    sources: ['Federal Trade Commission (FTC)', 'Utah Division of Consumer Protection', 'KSL.com', 'Utah News Dispatch'],
+    sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2022/02/operators-investment-coaching-scheme-banned-industry-ordered-pay-millions-redress-defrauded',
+  },
+  {
+    name: 'ClearPath Wealth Management Ponzi Scheme (Patrick Churchville)',
+    slug: 'rhode-island-clearpath-wealth-management-churchville-ponzi',
+    description: `Patrick E. Churchville owned and ran ClearPath Wealth Management, LLC, an investment advisory firm based in Providence, Rhode Island, that raised money from more than 110 investors to place into private funds he controlled. Starting in the spring of 2008, Churchville steered roughly $18 million of that investor money into JER Receivables, an entity incorporated in Maryland, and by June 2010 he knew that JER's investments had stopped producing real returns and that ClearPath itself had been the target of fraudulent and misleading statements from JER's principals — but he kept soliciting and accepting new investor money anyway, using later investors' funds to keep paying earlier ones. Churchville also stole roughly $2.5 million of investor money to buy a waterfront home for himself and failed to pay more than $820,000 in personal federal income tax. He pleaded guilty on August 4, 2016 to five counts of wire fraud and one count of tax fraud, and U.S. District Chief Judge William E. Smith sentenced him in Rhode Island federal court to 84 months in prison, three years of supervised release, and 2,000 hours of community service. In a parallel civil case, the SEC obtained a final judgment in April 2024 ordering Churchville and ClearPath to pay roughly $27.1 million in disgorgement and prejudgment interest over fraud that the SEC found caused at least $27 million in losses to the funds and investors ClearPath advised. The case illustrates how an investment adviser can keep a Ponzi-like scheme alive well after learning an underlying investment has failed, simply by continuing to bring in new client money rather than disclosing the loss — which is why investors are urged to request independently audited fund statements rather than relying solely on an adviser's own account statements.`,
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    state: 'RI',
+    isHistorical: true,
+    firstRecorded: '2016-08-04',
+    sources: ["U.S. Attorney's Office for the District of Rhode Island", 'U.S. Securities and Exchange Commission (SEC)', 'Providence Journal'],
+    sourceUrl: 'https://www.justice.gov/usao-ri/pr/financial-advisor-sentenced-operating-21m-ponzi-scheme-stealing-investors-money-tax-fraud',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
