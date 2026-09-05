@@ -18893,6 +18893,49 @@ If you're concerned about how an app is collecting or sharing your location data
   },
 );
 
+GUIDE_ARTICLES.push(
+  {
+    title: `That "Unpaid Toll" Text Is Probably a Scam: Inside the Smishing Wave That Hit Every State With an E-ZPass`,
+    slug: 'unpaid-toll-text-smishing-scam-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'unpaid-toll-text-smishing-scam'],
+    sourceUrl: 'https://www.ic3.gov/PSA/2024/PSA240412',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/GA400_toll_booth.jpg?width=1200',
+    coverImageCredit: 'Photo: Biomedeng (Public Domain)',
+    coverImagePosition: 50,
+    body: `Starting in early March 2024, the FBI's Internet Crime Complaint Center (IC3) began logging a sudden wave of nearly identical text messages, all claiming the recipient owed money on an unpaid highway toll. By mid-April 2024, IC3 had received more than 2,000 complaints tied to the scheme across at least three states, and the agency's public service announcement noted the campaign appeared to be moving state to state, with a new region targeted every few weeks as scammers rotated which toll agency's name they impersonated.
+
+The texts followed a template regardless of which state or toll authority they claimed to represent: a message stating an "outstanding toll amount" of a specific, oddly precise dollar figure — often just over $12 — paired with a threat of a much larger late fee, usually $50, unless the recipient paid immediately through a link in the text. IC3's advisory quoted an example nearly verbatim: "We've noticed an outstanding toll amount of $12.51 on your record. To avoid a late fee of $50.00, visit [link] to settle your balance." The links spoofed the branding of real regional toll systems — E-ZPass, SunPass, FasTrak, and TxTag among them — with domain names designed to look plausible at a glance, while the phone numbers sending the texts changed constantly to dodge carrier spam filters.
+
+Clicking through led to a convincing fake payment page that asked for a credit card number, and in many versions, a driver's license number as well — handing scammers both a way to charge fraudulent purchases and enough personal information to attempt identity theft. The FTC picked up on the same pattern in its own May 2024 consumer alert, warning that "clicking the link can lead to a phishing attack, where the scammer tries to take your personal information." One of the clearest tells the FTC pointed to: people across the country reported getting toll texts for states they had never driven through, and in some cases for states that don't operate toll roads at all.
+
+The financial scale kept climbing well past the initial 2024 wave. When the FTC published its year-end look at 2024's top text-message scams in April 2025, it reported that Americans lost $470 million to text scams that year overall — more than five times what was reported lost in 2020 — and that reports of government-impersonation scams specifically rose 40%, a jump the agency attributed in part to the toll-text campaign. Government impersonation losses alone reached $789 million in 2024, up from $618 million the year before. State officials treated it as serious enough to issue their own warnings on top of the federal alerts; California Attorney General Rob Bonta issued a consumer alert about the surge in text-based toll scams targeting state residents, and several state toll authorities, including the Pennsylvania Turnpike Commission and Delaware River Joint Toll Bridge Commission, posted their own advisories confirming they do not send payment-demand texts.
+
+The single most reliable defense doesn't require any technical skill: legitimate toll agencies bill by mail, not by text message, and a real toll agency will never ask you to click a link to "settle your balance" the same day. If a toll text arrives, do not tap the link. Instead, look up your state's toll agency independently — by typing the web address you already know, or calling the number printed on your toll transponder statement or your state DMV's website — and check your account balance directly through that channel. The FTC recommends forwarding the suspicious text to 7726 (which spells "SPAM" on a keypad), a number several major carriers use to identify and block similar scam campaigns, then deleting the message.
+
+If you already clicked a link and entered payment or personal information, contact your bank or card issuer immediately to flag possible fraud and consider a card replacement, and monitor your credit reports for any new accounts opened in your name. Report the incident to the FBI's IC3 at ic3.gov, including the phone number the text came from if you still have it, and separately to the FTC at reportfraud.ftc.gov — both agencies use these reports to track the campaign's spread and identify the infrastructure behind it.`,
+  },
+  {
+    title: `The "Task Scam" Boom: How Fake Gig-App Jobs Talk Victims Into Depositing Their Own Money`,
+    slug: 'task-scam-gamified-job-scam-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'task-scam-gamified-job-scam'],
+    sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2024/12/new-ftc-data-show-skyrocketing-consumer-reports-about-game-online-job-scams',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Business_and_technology_concept_hand_holding_smartphone_and_search_bar_(52917310335).jpg?width=1200',
+    coverImageCredit: 'Photo: Jernej Furman (CC BY 2.0)',
+    coverImagePosition: 50,
+    body: `A text or WhatsApp message arrives out of nowhere, offering flexible online work: rate products, "optimize" app listings, or boost engagement on a platform, all for pay. It sounds like the gig economy at its most casual. According to Federal Trade Commission data released in December 2024, this is the opening move of "task scams," a category of fraud that barely existed before 2020 and has since become one of the fastest-growing forms of job scam in the country.
+
+The FTC's numbers trace an unusually steep growth curve: consumer reports of task scams went from essentially zero in 2020 to about 5,000 in 2023, then quadrupled to roughly 20,000 reports in just the first half of 2024 alone. By the FTC's count, task scams made up nearly 40% of all job-scam reports received in 2024. Overall reported losses to job scams of all kinds tripled between 2020 and 2023, and topped $220 million in just the first six months of 2024 — with cryptocurrency losses tied specifically to job scams hitting $41 million in that same six-month window, nearly double the total lost to crypto job scams in all of 2023 combined.
+
+The mechanics the FTC described follow a consistent script. After the initial unsolicited contact, victims are walked through simple starter tasks inside an app or web platform, often literally described as things like "app optimization" or "product boosting," and are shown a running tally of "earnings" accumulating in real time. To build trust, scammers frequently pay out a small real amount early on — the FTC's August 2025 consumer alert on the scam specified this initial payout is typically just $5 to $20 — enough to convince the victim the platform is legitimate. Once that trust is established, the platform tells the victim they must deposit their own money, usually in cryptocurrency, to "unlock" the next batch of higher-paying tasks or to withdraw their accumulated earnings. Making that deposit doesn't release any money; instead, the scam typically repeats, asking for progressively larger deposits with the promise that the next one will finally unlock a payout, until the victim stops paying or runs out of money to send. The FTC's alert is blunt about the outcome: "your real money will be gone," and the on-screen earnings were fictional the entire time.
+
+A related and increasingly common variant skips the "optimization" framing entirely and instead offers to pay people simply to like, rate, or engage with content online — a version the FTC specifically warns against, since no legitimate company pays strangers by text message to rate things it hasn't asked them to interact with through a verified employer relationship. Both variants share the same tell: a real job never requires the employee to pay money — in any currency, including crypto — in order to receive wages they've already supposedly earned. Any online "job" that asks for a deposit to unlock earnings, access more tasks, or cover a processing fee has already told you everything you need to know.
+
+The FTC's practical guidance is short and specific. Ignore generic, unexpected job offers that arrive by text, WhatsApp, or Telegram, since real employers overwhelmingly do not recruit that way. Never send money — especially cryptocurrency, which is difficult to trace or recover once sent — to unlock pay you supposedly already earned. And treat any offer to pay for simply liking or rating content online as an automatic red flag rather than an evaluation to be made case by case. If you've been targeted or lost money to a task scam, report it at ReportFraud.ftc.gov, and if the scam involved a cryptocurrency platform or wallet, keep transaction IDs and wallet addresses on hand, since that information helps investigators trace funds even when recovery isn't possible.`,
+  },
+);
+
 async function seedArticles(articles: SeedArticle[], label: string) {
   for (const article of articles) {
     await pool.query(
