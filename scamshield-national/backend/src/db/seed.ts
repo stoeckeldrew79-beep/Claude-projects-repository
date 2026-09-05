@@ -35013,6 +35013,39 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'Canary Islands-Madrid Crypto "Pig Butchering" Laundering Network (Spain)',
+    slug: 'spain-canary-islands-madrid-crypto-pig-butchering-laundering-network',
+    description: `Spain's Guardia Civil, working with Europol and law enforcement in Estonia, France, and the United States, dismantled a criminal network that had laundered roughly €460 million in proceeds from global cryptocurrency investment fraud defrauding more than 5,000 victims worldwide. The underlying scheme followed the "pig butchering" playbook: strangers built rapport with victims over weeks or months, often starting on dating apps or through unsolicited friendly chats, before steering the relationship toward a supposedly can't-miss cryptocurrency trading platform. Victims who deposited funds into the fake platform watched a dashboard show impressive paper gains and were encouraged to keep depositing more, but when they tried to withdraw their "profits" the platform stalled them with fake fees, taxes, or technical errors, and eventually cut off contact entirely once the money was gone. On June 25, 2025, the Guardia Civil carried out an action day with five arrests — three in the Canary Islands and two in Madrid — and five searches across those same locations, uncovering that the group had moved the stolen money through corporate and banking entities based in Hong Kong, payment gateways, and cryptocurrency-exchange accounts registered under multiple false identities, layering cash withdrawals, bank transfers, and crypto transactions to obscure its origin. Europol described online investment fraud enabled by increasingly convincing, AI-assisted social engineering as a major and growing security threat across the EU, and the operation stands as one of the largest crypto-fraud money-laundering cells ever dismantled on Spanish soil.`,
+    categorySlug: 'investment-fraud',
+    country: 'ES',
+    alertLevel: 'high',
+    sources: ['Europol', 'Guardia Civil (Spain)'],
+    sourceUrl: 'https://www.europol.europa.eu/media-press/newsroom/news/crypto-investment-fraud-ring-dismantled-in-spain-after-defrauding-5-000-victims-worldwide',
+  },
+  {
+    name: 'WhatsApp "Falso Amigo" Hijacked-Account Bizum Scam (Spain)',
+    slug: 'spain-whatsapp-falso-amigo-hijacked-account-bizum-scam',
+    description: `Known in Spain as the estafa del "falso amigo" (the "fake friend" scam), this fraud starts with a text message sent to the victim's own phone that looks like an ordinary WhatsApp account-verification alert, complete with a six-digit code and a link. Anyone who taps the link and shares that code unknowingly hands the scammer the keys to their own WhatsApp account, locking the real owner out and letting the criminal message every contact in the victim's address book while posing as them. The impersonator then reaches out to friends and family with an urgent, plausible cover story — a lost phone, a frozen bank card, an emergency needing cash right now — and asks for a small, unremarkable transfer sent instantly by Bizum, Spain's popular mobile person-to-person payment app, reasoning correctly that a modest amount from a trusted contact draws far less suspicion than a large one from a stranger. Guardia Civil officers in Lanjarón investigated one such case after four victims in Granada and Huelva lost a combined €1,070 to a hijacked account, tracing the receiving bank accounts back to a 25-year-old suspect who was arrested with the assistance of the Guardia Civil post in Onda and placed under investigation for four counts of fraud and one count of identity usurpation. Guardia Civil's public guidance is to never share a WhatsApp verification code with anyone for any reason, and to treat any urgent money request from a contact — even a real friend's account — with suspicion by calling that person directly on a number already saved in your phone, rather than replying to the chat, before sending anything.`,
+    categorySlug: 'account-takeover',
+    country: 'ES',
+    alertLevel: 'medium',
+    sources: ['Guardia Civil (Spain)'],
+    sourceUrl: 'https://www.economiafinanzas.com/la-guardia-civil-desarticula-una-estafa-con-bizum-del-falso-amigo/',
+  },
+  {
+    name: 'Fake Sold-Out Concert Ticket Bizum Fraud Ring ("Operación Estramayor," Spain)',
+    slug: 'spain-fake-concert-ticket-bizum-fraud-operacion-estramayor',
+    description: `After a resident of Castellar de Santiago, in Ciudad Real province, reported losing money to a fake ticket seller in late 2025, the Guardia Civil opened Operación Estramayor and, working alongside the Policía Nacional and the Mossos d'Esquadra, uncovered a criminal group responsible for 85 separate fraud cases spread across Spain. The scheme targeted fans who had missed out on sold-out concert and festival tickets: the criminals created fake social-media profiles posing as ordinary people reselling tickets they could no longer use, approached victims searching for exactly those sold-out shows, and asked for payment upfront by Bizum or bank transfer. Once the money landed, the seller simply stopped responding or blocked the buyer outright, and no ticket ever arrived. Investigators found the group spread its receiving accounts across numerous banks and ran the proceeds through online betting platforms in a deliberate "mixing" strategy meant to break the paper trail before the money was cashed out, findings that led Guardia Civil to identify three suspects investigated for fraud, money laundering, and membership in a criminal organization, with the case file forwarded to the Court of First Instance and Instruction of Valdepeñas. Guardia Civil's advice to ticket-seekers is to treat any sold-out show as a red flag for resale fraud, to buy only through official box offices or verified resale platforms that hold payment until delivery is confirmed, and to be especially wary of a seller who insists on an instant, irreversible Bizum payment before sending anything in return.`,
+    categorySlug: 'online-shopping-scams',
+    country: 'ES',
+    alertLevel: 'medium',
+    sources: ['Guardia Civil (Spain)'],
+    sourceUrl: 'https://www.cuadernosmanchegos.com/castilla-la-mancha/ciudad-real/la-estafa-de-las-entradas-fantasma-85-victimas-y-una-red-que-cobraba-por-bizum-para-desaparecer-despues/',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
