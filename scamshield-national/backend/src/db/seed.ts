@@ -40324,6 +40324,40 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: '"Halohalo" SIM-Registration Fraud Network',
+    slug: 'tz-halohalo-sim-registration-fraud-network',
+    description: `Tanzanian phone shop workers and fraud investigators call it "Halohalo": a fraud network built on a specific abuse of the biometric SIM registration system that was meant to make phone numbers harder to fake. Rogue registration agents tell a customer registering or replacing a SIM card that their fingerprint "wasn't captured properly" and ask them to scan it again — and during that second scan, secretly register an additional SIM card under the same customer's identity, without their knowledge or consent. Those illegitimately registered numbers, selling on the black market for as little as Sh10,000-15,000 (down from roughly Sh25,000 a card), are bought by fraud rings who use numbers registered under real people's stolen identities to place scam calls and texts that are harder to trace or block. Reporting on the network documented individual victims of the resulting fraud calls: Emil Yohana of Morogoro Region lost Sh25,000 after following instructions in a text that told him to transfer money to a different number, and the father of a Dodoma woman named Mariam Khamis lost Sh350,000 set aside for his daughter's university tuition after receiving a message falsely claiming her phone number had changed. On March 5, 2026, a Morogoro Regional Police operation in Kilombero District seized 198 SIM cards linked to fraud — 88 of them recovered from a single registration agent, all registered under different people's names — and arrested 10 suspects accused of running a syndicate that stole more than Sh12 million from victims as far away as Mbagala in Dar es Salaam. The Tanzania Communications Regulatory Authority (TCRA) has confirmed that Morogoro and Rukwa continue to record the country's highest rates of attempted phone fraud, and police say Tanzania lost more than Sh5 billion to fraud in 2024 alone, with only a small fraction ever recovered. The case is a reminder that a SIM registration system built around fingerprints and national ID numbers is only as trustworthy as the agent running it — a request to "scan your fingerprint again" at a phone shop is itself worth treating with suspicion.`,
+    categorySlug: 'identity-theft',
+    country: 'TZ',
+    alertLevel: 'high',
+    sources: ['The Citizen (Tanzania)', 'Tanzania Communications Regulatory Authority (TCRA)'],
+    sourceUrl: 'https://www.thecitizen.co.tz/tanzania/news/national/dishonest-sim-registration-agents-are-fueling-tanzania-s-phone-fraud-networks-5525316',
+  },
+  {
+    name: '"You\'ve Won a Prize" Mobile Money PIN Scam',
+    slug: 'tz-fake-prize-mobile-money-pin-scam',
+    description: `The single most common form of phone fraud reported in Tanzania is disarmingly simple: a call or text tells the recipient they've won a cash prize, an airtime bundle, or some other reward from their mobile network or a promotion they never entered, and that to "release" it they just need to share a PIN code that will be sent to their phone or read out over the call. That code is, in reality, the one-time verification PIN needed to authorize a mobile money withdrawal or a SIM swap — and once a caller has it, the victim's mobile money wallet can be drained directly. The Tanzania Communications Regulatory Authority recorded a 33 percent jump in mobile money fraud attempts in the first quarter of 2025 compared with December 2024, with Kilombero District logging 4,858 attempted incidents, the highest in the country, and the Rukwa and Morogoro regions together accounting for more than a third of all cases reported nationally; Airtel alone logged 5,876 fraud attempts against its subscribers in that period. Tanzania Police Force data put total reported fraud losses at Sh5.345 billion in 2024, up from Sh5.067 billion the year before, across 4,091 reported cases — a 9.6 percent rise — with 3,460 of those cases specifically involving mobile phone transactions and only Sh254.1 million ever recovered; 465 people were arrested nationwide over the period. "The expansion of digital platforms has brought many opportunities but also exposed us to sophisticated criminal networks," Police Commissioner Shaban Hiki said of the trend. No legitimate telecom promotion or prize draw ever requires a customer to read back a one-time PIN to "claim" a reward — that code exists solely to authorize the account holder's own transaction, and sharing it hands a stranger direct access to whatever money is sitting in the wallet.`,
+    categorySlug: 'lottery-sweepstakes-scams',
+    country: 'TZ',
+    alertLevel: 'high',
+    sources: ['The Citizen (Tanzania)', 'Tanzania Communications Regulatory Authority (TCRA)', 'Tanzania Police Force'],
+    sourceUrl: 'https://www.thecitizen.co.tz/tanzania/news/national/kilombero-tops-mobile-money-fraud-cases-as-incidents-surge-5008956',
+  },
+  {
+    name: 'The "Major General Mrai" Promotion-Bribery Impersonation Scam',
+    slug: 'tz-major-general-mrai-impersonation-scam',
+    description: `A fraudster calling himself "Major General Mrai" — invoking the name and rank of a senior Tanzania People's Defence Force officer — worked the phones calling Tanzania Police Force officers directly, offering to arrange the promotions, transfers, or prestigious postings they were hoping for, or a government job for their children, in exchange for a "facilitation" payment sent by mobile money. Ranking officers paid up: one regional police commander sent two payments totaling Sh150,000 (Sh100,000 and Sh50,000), another officer paid Sh400,000, and a third, hoping for a promotion, paid Sh270,000 and separately arranged to have a gift delivered to the caller in Dar es Salaam. Police arrested a suspect, David Otieno, in Msamvu, Morogoro Region, on April 4, 2022, after the scheme surfaced; investigators said he admitted to running more than 25 such schemes against police officers alone, with potential victims in other government departments as well. A police force spokesperson initially denied the reports when reporters asked about it, illustrating how an institution's reputational sensitivity can slow public acknowledgment of a fraud running against its own staff. The case shows the same impersonation playbook working just as well against people whose day job is enforcing the law: it targets a specific, well-understood desire — a promotion, a transfer, a job for one's child — while only asking for a modest amount at a time, which is exactly what makes each individual payment easy for a victim to justify to themselves.`,
+    categorySlug: 'government-impersonation',
+    country: 'TZ',
+    isHistorical: true,
+    firstRecorded: '2022-04-04',
+    sources: ['The Citizen (Tanzania)'],
+    sourceUrl: 'https://thecitizen.co.tz/tanzania/news/national/how-tanzania-police-officers-fell-victim-to-online-scam-3779012',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
