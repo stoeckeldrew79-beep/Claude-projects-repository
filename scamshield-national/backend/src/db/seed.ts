@@ -39783,6 +39783,40 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'Fake Central Bank and Police Fixed Deposit Fraud Scheme',
+    slug: 'sri-lanka-cbsl-police-fixed-deposit-impersonation-scam',
+    description: `Sri Lanka's Computer Emergency Readiness Team (SLCERT) issued an urgent public warning on August 17, 2026 about a fraud scheme in which callers impersonate officials from the Central Bank of Sri Lanka and the Police Financial Crimes Investigation Division (FCID). The scammers contact victims by mobile phone and social media claiming to already know the details of their savings and fixed deposit accounts, then falsely tell them that a complaint has been lodged alleging their deposits were obtained through fraudulent means and that an FCID investigation is imminent unless they cooperate. To make the threat convincing, the fraudsters send forged letters carrying fake Central Bank letterheads, invented officials' signatures, and counterfeit rubber stamps, and some are reported to possess police uniforms and fabricated bank identification cards. Victims are then instructed to transfer money — typically starting with half of their existing deposit — into a "verification" account at a different private bank that the callers falsely claim belongs to an FCID officer, and afterward to send a photo of the deposit slip as proof the transfer was made. SLCERT specifically flagged retirees and elderly account holders as most at risk and urged families to warn older relatives that neither the Central Bank nor the police ever conduct investigations over WhatsApp or personal phone calls, nor do they ever ask a member of the public to move money into a private individual's bank account.`,
+    categorySlug: 'government-impersonation',
+    country: 'LK',
+    alertLevel: 'high',
+    sources: ['Sri Lanka Computer Emergency Readiness Team (SLCERT)', 'Central Bank of Sri Lanka'],
+    sourceUrl: 'https://www.newswire.lk/2026/08/17/new-scam-targets-your-savings-fixed-deposits-cert-warning/',
+  },
+  {
+    name: 'Negombo WhatsApp "Easy Money" Task-Job Scam Network',
+    slug: 'sri-lanka-negombo-whatsapp-task-job-scam',
+    description: `Sri Lanka's Criminal Investigations Department (CID) raided a fraud operation based in the coastal town of Negombo after a Sri Lankan woman reported being lured into a WhatsApp group that promised cash payments for simple online tasks, such as commenting on videos and submitting screenshots as proof of completion. The scammers built trust by actually paying out the small amounts promised for the first few tasks, then escalated to "premium" tasks that required the victim to deposit increasingly large sums of her own money into private bank accounts before she could unlock the advertised payout — a classic advance-fee escalation that ultimately cost her Rs. 5.4 million (roughly $18,000) before she realized the promised earnings would never materialize. The CID raid uncovered a much larger operation than a single victim: it led to the arrest of 33 suspects, including foreign nationals from Pakistan, India, Bangladesh, and Indonesia, and the seizure of 57 mobile phones, 13 computers, and three laptops used to run scam scripts against victims in multiple countries. Suspects told investigators the network's operations extended beyond Sri Lanka to bases in Dubai and Afghanistan, part of a broader pattern of foreign-run online fraud networks relocating operations to the island as neighboring countries crack down on scam compounds.`,
+    categorySlug: 'employment-scams',
+    country: 'LK',
+    alertLevel: 'high',
+    sources: ['Sri Lanka Police Criminal Investigation Department (CID)', 'Tamil Guardian'],
+    sourceUrl: 'https://www.tamilguardian.com/content/sri-lankas-online-fraudsters-dozens-arrests-amidst-growth-fraud-activity-island',
+  },
+  {
+    name: '"Sports Chain" Cryptocurrency Ponzi Scheme',
+    slug: 'sri-lanka-sports-chain-crypto-ponzi-scheme',
+    description: `Beginning in 2020, a Chinese national identified as Zhang Kai, his girlfriend, and a Sri Lankan associate named Lamahewage Shamal Keerthi Bandara ran a fake cryptocurrency investment platform called "Sports Chain," marketed to Sri Lankans as a highly profitable place to park their savings. The trio courted prospective investors with lavish dinners and invitations to five-star hotels, using the appearance of wealth and success to win their trust before soliciting deposits into the scheme, which — like any Ponzi structure — paid early "returns" out of money collected from later investors rather than from any real trading or business activity. Sri Lanka's Criminal Investigation Department, whose probe was triggered by a formal complaint, eventually determined that more than 8,000 Sri Lankans had been drawn in, including doctors, teachers, and security officers alongside people from lower-middle-income backgrounds, for a combined loss of over Rs. 14 billion (roughly $37.9 million). Zhang Kai and his girlfriend were arrested at Bandaranaike International Airport on September 12, 2022 as they attempted to leave the country, and Bandara was arrested about a month later on October 11, 2022 and subsequently released on bail. Police spokesperson SSP Nihal Thalduwa said the case illustrates how crypto-investment fraud in Sri Lanka increasingly targets working professionals, not just inexperienced investors, by leaning on in-person social proof — dinners, hotel meetings, a polished pitch — rather than purely online promotion.`,
+    categorySlug: 'investment-fraud',
+    country: 'LK',
+    isHistorical: true,
+    firstRecorded: '2020-01-01',
+    sources: ['Sri Lanka Police Criminal Investigation Department (CID)', 'Ada Derana'],
+    sourceUrl: 'https://adaderana.lk/news/85794/police-shed-light-on-massive-fake-crypto-investment-scheme',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
