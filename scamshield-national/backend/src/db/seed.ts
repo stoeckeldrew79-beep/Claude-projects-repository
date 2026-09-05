@@ -9361,6 +9361,10 @@ NOTORIOUS_ARTICLES.push(
     title: 'Sohrab Sharma, Robert Farkas, and the Centra Tech ICO Built on a CEO Who Never Existed',
     slug: 'centra-tech-ico-fake-ceo-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/JFK_AIRPORT_TERMINAL_1_(7507465248).jpg?width=1200',
+    coverImageCredit: 'Photo: Eric Salard, Wikimedia Commons (CC BY-SA 2.0) — John F. Kennedy International Airport, where Sohrab Sharma was arrested attempting to flee the country',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Sohrab "Sam" Sharma, Robert Farkas, and Raymond Trapani founded Centra Tech in Miami in 2017, at the peak of the initial-coin-offering boom, pitching a "Centra Card" that would supposedly let anyone spend Bitcoin, Ether, and other cryptocurrencies anywhere Visa or Mastercard was accepted. To sell thousands of investors on the idea, the founders built a corporate identity almost entirely out of fabrication. Their marketing named a chief executive, "Michael Edwards," described as a veteran banker with a Harvard MBA — a person who did not exist; the photo used for his official bio actually belonged to a Canadian physiology professor with no connection to the company. Centra also claimed formal partnerships with Visa, Mastercard, and The Bancorp Bank to issue its cards, and said it held money-transmitter licenses in 38 states. None of that was true either.
 
@@ -9448,6 +9452,10 @@ The Butcher case remains a foundational example in U.S. banking regulation of ho
     title: 'Patrick Bennett and the Bennett Funding Group: The $700 Million Copier-Lease Ponzi Scheme That Funded Casinos and a Yacht',
     slug: 'patrick-bennett-bennett-funding-group-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Syracuse,_New_York_skyline.jpg?width=1200',
+    coverImageCredit: 'Photo: Quintin Soloviev, Wikimedia Commons (CC BY 4.0) — downtown Syracuse, New York, where Bennett Funding Group was headquartered',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Bennett Funding Group was a Syracuse, New York, equipment-leasing company founded by Edmund "Bud" Bennett, with his sons Michael as chief executive and Patrick R. Bennett as chief financial officer. For years it sold investors "lease-backed securities" — investment contracts pitched as backed by real leases on office copiers, fax machines, and similar equipment that small businesses across the country were renting. The pitch was straightforward and, on paper, low-risk: buy an interest in equipment already leased out to paying customers, and collect a steady return as the lease payments came in.
 
@@ -9516,6 +9524,9 @@ In March 2025, President Trump commuted Jason Galanis's sentence to time served,
     title: 'Lev Parnas: The Rudy Giuliani Associate Whose "Fraud Guarantee" Company Was Itself a Fraud',
     slug: 'lev-parnas-fraud-guarantee-campaign-finance',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/181205-D-LP265-1076_(46995821971)_(cropped).jpg?width=1200',
+    coverImageCredit: 'U.S. Coast Guard photo by Petty Officer 1st Class Andrew Kendrick / DoD, Wikimedia Commons (Public Domain) — Lev Parnas, cropped from a photo of the state funeral of George H.W. Bush',
+    coverImagePosition: 50,
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Lev Parnas, a Soviet-born businessman who had spent decades cycling through failed ventures in Brooklyn and Florida, found his way in the late 2010s into the orbit of Rudy Giuliani, then serving as President Trump's personal lawyer. Parnas and a business partner, Igor Fruman, styled themselves as well-connected operators who could open doors in Ukrainian energy and, later, the emerging legal cannabis industry — access they were willing to pay for with money whose real source they took pains to hide.
 
