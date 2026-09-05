@@ -36004,6 +36004,42 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'Kuala Lumpur "Government Official" Impersonation Syndicate (Malaysia)',
+    slug: 'malaysia-kl-government-official-impersonation-syndicate',
+    description: `In a joint transnational operation, the Singapore Police Force's Commercial Affairs Department and the Royal Malaysia Police's Bukit Aman Commercial Crime Investigation Department arrested sixteen Malaysian nationals, aged 24 to 43, in Kuala Lumpur on January 13, 2025 for running a "government official impersonation" call-centre scam. The syndicate's callers first posed as bank officers warning victims of fraudulent activity on their accounts, then transferred the call to accomplices who impersonated Singapore Police Force officers or Monetary Authority of Singapore officials — in some cases over video calls while wearing fake uniforms and displaying forged warrant cards — to accuse the victim of involvement in money laundering and pressure them into wiring their savings into supposed government "safety accounts." Police linked the Kuala Lumpur cell to more than 50 reported cases and losses exceeding S$1.4 million, part of a wider epidemic in which Singapore recorded over 1,100 government-official impersonation cases and roughly S$120 million in losses between January and October 2024 alone. The arrested suspects were referred to Malaysian prosecutors on charges of criminal conspiracy to cheat, and both police forces stressed that no genuine bank or government agency will ever ask a customer to transfer funds into a "safety account" to clear their name.`,
+    categorySlug: 'government-impersonation',
+    country: 'MY',
+    isHistorical: true,
+    firstRecorded: '2025-01-13',
+    sources: ['Singapore Police Force', 'Royal Malaysia Police (Bukit Aman Commercial Crime Investigation Department)', 'Wake Up Singapore'],
+    sourceUrl: 'https://www.police.gov.sg/media-hub/news/2025/01/20250124_sixteen_fake_government_official_scammers_based_in_kuala_lumpur_arrested',
+  },
+  {
+    name: 'AI Deepfake Sextortion Blackmail Campaign Targeting Malaysian Lawmakers',
+    slug: 'malaysia-ai-deepfake-blackmail-lawmakers',
+    description: `Beginning around September 12, 2025, at least ten Malaysian federal and state lawmakers — including Communications Minister Fahmi Fadzil, former economy minister Rafizi Ramli, Subang MP Wong Chen, Deputy Youth and Sports Minister Adam Adli, and several senators and state assemblymen, mostly from the People's Justice Party (PKR) — received near-identical anonymous emails threatening to publish AI-generated deepfake sexual videos bearing their likenesses unless each paid a ransom of 100,000 USDT (roughly US$100,000) within three days via a QR code embedded in the message. Minister Fadzil publicly disclosed that the emails shared almost identical wording and screenshots, indicating a single coordinated operation rather than separate incidents, in what authorities described as the largest coordinated deepfake blackmail campaign ever aimed at Malaysian politicians. The Royal Malaysia Police (PDRM) opened an investigation under Section 385 of the Penal Code (extortion by threat of injury) and Section 233 of the Communications and Multimedia Act 1998, working with the Malaysian Communications and Multimedia Commission (MCMC) to trace the sender, while officials urged the targeted lawmakers not to pay and to preserve the emails as evidence. No arrests had been publicly announced as of the case's reporting, underscoring how generative-AI tools now let scammers fabricate convincing blackmail material with no real compromising footage at all.`,
+    categorySlug: 'ai-deepfake-scams',
+    country: 'MY',
+    alertLevel: 'critical',
+    firstRecorded: '2025-09-12',
+    sources: ['Royal Malaysia Police (PDRM)', 'Malaysian Communications and Multimedia Commission (MCMC)', 'South China Morning Post'],
+    sourceUrl: 'https://www.scmp.com/week-asia/people/article/3325539/malaysian-mps-targeted-deepfake-sex-video-blackmail-demanding-us100000-payments',
+  },
+  {
+    name: '"Ms Nina" WhatsApp Stock Investment Scam (Malaysia)',
+    slug: 'malaysia-terengganu-ms-nina-investment-scam',
+    description: `An 87-year-old retiree in Kuala Terengganu, Malaysia came across a stock-investment advertisement circulating on WhatsApp on September 18, 2025 and, intrigued by the promised returns, contacted a person who introduced herself only as "Nina" and walked him through a purported stock-trading investment scheme. Trusting her explanations, the victim wired funds from his personal savings and his Tabung Haji pilgrimage-fund account into two different bank accounts across multiple transfers made between November 13 and December 24, 2025, ultimately losing RM277,000 (roughly US$59,000) without ever receiving a single payout. After months of excuses and no returns, he lodged a police report on March 5, 2026, and Kuala Terengganu police opened an investigation into "Nina" and her associates under Section 420 of the Penal Code, Malaysia's general cheating and fraud provision. Royal Malaysia Police cited the case as a textbook example of the fake investment schemes flooding Malaysian messaging apps and social media, and renewed public warnings against sending money to any unlicensed "investment adviser" encountered through an unsolicited WhatsApp message, regardless of how convincing the promised returns sound.`,
+    categorySlug: 'investment-fraud',
+    country: 'MY',
+    isHistorical: true,
+    firstRecorded: '2025-09-18',
+    sources: ['Royal Malaysia Police (PDRM)', 'The Star (Malaysia)', 'New Straits Times'],
+    sourceUrl: 'https://www.thestar.com.my/news/nation/2026/03/06/octogenarian-loses-rm277000-in-investment-scam',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
