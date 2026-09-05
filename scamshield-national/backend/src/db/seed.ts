@@ -9673,6 +9673,37 @@ Elgindy served nearly seven years and was released in late 2013. He died by suic
   },
 );
 
+NOTORIOUS_ARTICLES.push(
+  {
+    title: 'Frederick Darren Berg: The Ponzi Schemer Who Walked Out of Prison and Vanished',
+    slug: 'frederick-darren-berg-meridian-group-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `Frederick Darren Berg ran a group of Seattle-area investment funds called the Meridian Group — Meridian Mortgage, the Meridian Diversified Fund, and related entities — telling investors for the better part of a decade that their money was pooled into commercial real estate contracts and mortgage notes. Prosecutors said Berg's funds represented that roughly $245 million in investor money was safely invested this way. In reality, according to the U.S. Attorney's Office for the Western District of Washington, most of it was an elaborate Ponzi scheme: new investors' cash paid off earlier ones, while Berg treated the rest as his own.
+
+The money bought a lifestyle to match the fiction. Court filings and the DOJ's own sentencing summary itemized a $1.95 million condo in downtown Seattle, a $1.25 million house in La Quinta, California, a $1.4 million San Francisco condo, and a Mercer Island waterfront home purchased for $5.475 million with another roughly $5 million poured into renovating it. Berg bought two Learjets for a combined $5.5 million to purchase and operate, multiple yachts costing $3.6 million to buy, run, and modify, and a stable of Porsches and an Audi S5. He also diverted about $45 million of investor funds between 2003 and 2010 into MTR Western, a charter bus company he separately owned.
+
+When the funds collapsed and Berg filed for bankruptcy, prosecutors said he tried to keep the fraud going even in bankruptcy court, concealing roughly $400,000 from the trustees overseeing his case and lying about where his money had come from. He was arrested in Los Angeles on October 21, 2010, indicted the following month, and pleaded guilty in August 2011 to wire fraud, money laundering, and bankruptcy fraud. On February 9, 2012, U.S. District Judge Richard A. Jones sentenced Berg — then 49, of Mercer Island — to 18 years in federal prison and three years of supervised release, with restitution ultimately set above $100 million owed to more than 800 investors.
+
+The case did not end at sentencing. In December 2017, guards at the minimum-security work camp attached to the federal prison in Atwater, California, discovered Berg was missing — he had simply walked away. The U.S. Marshals Service later identified Berg's boyfriend, a flight attendant, as a person of interest after he posted photos from a Rio de Janeiro hotel and sent Berg's mother a message reading "hello from Rio." As of the most recent public reporting on the case, Berg has never been recaptured, making him one of the few masterminds of a nine-figure American Ponzi scheme to escape custody entirely rather than serve out his sentence.`,
+    sourceUrl: 'https://www.justice.gov/archive/usao/waw/press/2012/feb/berg.html',
+  },
+  {
+    title: 'Terry Dowdell and the Vavasseur Corporation "4% a Week" Ponzi Scheme',
+    slug: 'terry-dowdell-vavasseur-corporation-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Terry L. Dowdell had a genuinely impressive credential to open doors: he had worked as chief financial officer for operating companies inside famed investor Sir John Templeton's fund family. Starting in the late 1990s, the Charlottesville, Virginia man used that pedigree to sell a very different kind of investment through Vavasseur Corporation, a shell company he controlled in the Bahamas. Vavasseur's pitch, laid out in "Discretionary Investment Management Agreements," promised clients "Four Percent (4%)" of their invested funds "for each week in which trading occurs" — a stated annualized return of roughly 160% — supposedly earned by buying discounted notes from Barclays Bank and reselling them at face value. According to the SEC, Dowdell had no relationship with Barclays and no such notes existed; there was no trading of any kind.
+
+By March 2001, Dowdell had raised about $29 million from more than 60 investors, depositing the money into an AmSouth Bank account in Florida and using new deposits to pay "profits" to earlier investors in textbook Ponzi fashion. Two marketers helped bring in money: Kenneth G. Mason, a Chicago-area attorney, and Birgit "Gitte" Mechlenburg, a Danish citizen based in Massachusetts who collected roughly $500,000 in commissions. The SEC sued Dowdell and Vavasseur on November 19, 2001, and won an immediate temporary restraining order, freezing more than $23 million in U.S. accounts — but Dowdell had already transferred nominal ownership of Vavasseur to two British accountants, Shinder Gangar and Alan White, who kept the scheme running overseas. Between the SEC's initial suit and May 2002, Gangar and White raised an additional roughly $121 million from 76 more investors, routing money through banks in Ireland, Belgium, Guernsey, Mexico, Dominica, Israel, and Belize.
+
+Dowdell formally admitted the trading was fictitious in a June 2002 consent agreement, and a receiver was appointed the following month to unwind what was left of the company. On February 21, 2003, a federal judge entered a $130 million default judgment against Vavasseur Corporation, and the SEC separately obtained disgorgement of $121,235,000 plus $8.6 million in prejudgment interest and a $600,000 civil penalty. Even after admitting the fraud, Dowdell arranged for associates to funnel roughly $850,000 in still-unfrozen assets back into the United States, where it was spread among family members and used to fund an auto-repair business — money regulators later clawed back for investor restitution.
+
+Dowdell pleaded guilty to securities fraud, wire fraud, and money laundering, and on July 21, 2004, a federal court sentenced him to 15 years in prison. His British accountants fared little better: Gangar and White, who had run their own network of Ponzi schemes through their accountancy firm even before taking over Vavasseur, were convicted at Sheffield Crown Court and sentenced on April 11, 2008, to seven-and-a-half years each — six years for conspiracy to defraud and a consecutive eighteen months for conspiracy to corrupt a U.S. official. Mason and Mechlenburg, the marketers who had steered investors toward a "risk-free" 70%-a-year return, faced separate civil judgments for the commissions they collected chasing profits that, like the discounted Barclays notes supposedly behind them, never existed at all.`,
+    sourceUrl: 'https://www.sec.gov/litigation/litreleases/lr-17999',
+  },
+);
+
 // Practical "how it works / red flags / what to do" guides covering the
 // major scam categories, the same kind of coverage the FTC's Consumer
 // Advice site and AARP's Fraud Watch Network publish — well-documented
