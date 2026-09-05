@@ -12276,8 +12276,8 @@ The clearest red flags are any unexpected renewal notice quoting an unusually la
     slug: 'hacked-social-media-account-scam',
     author: 'ScamShield Editorial',
     tags: ['guide', 'social-media-account-takeover'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Social%20Media%20App%20Icons%20On%20The%20Screen%20of%20A%20Smartphone.jpg?width=1200',
-    coverImageCredit: 'Photo: Mike MacKenzie (CC BY 2.0)',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Instagram_app_on_smartphone.jpg?width=1200',
+    coverImageCredit: 'Photo: Santeri Viinamäki (CC BY-SA 4.0)',
     coverImagePosition: 50,
     sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2025/06/did-new-online-friend-ask-money-odds-are-its-scam',
     body: `A message shows up on Facebook, Instagram, or another platform from a real friend or family member's actual account — the profile photo, the name, the shared history of comments and tags all check out. But the account itself has been hijacked: a scammer got the login credentials, usually through a prior phishing message or a data breach, and is now working through the victim's real friends list pretending to be them. The message often opens with something plausible — stuck traveling, a sudden bill, a "you won't believe what happened" story — before asking for money by gift card, wire transfer, cryptocurrency, or a payment app.
@@ -12293,8 +12293,8 @@ The reliable defense is to verify off-platform before sending anything, no matte
     slug: 'social-security-account-takeover-benefit-redirect',
     author: 'ScamShield Editorial',
     tags: ['guide', 'social-security-account-takeover'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Social%20Security%20card.jpg?width=1200',
-    coverImageCredit: 'Photo: Social Security Administration (public domain)',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Social_Security_Administration_Offices,_3971_South_Research_Park_Drive,_Ann_Arbor,_Michigan_-_panoramio.jpg?width=1200',
+    coverImageCredit: 'Photo: Dwight Burdette (CC BY 3.0) — a Social Security Administration field office, Ann Arbor, Michigan',
     coverImagePosition: 50,
     sourceUrl: 'https://oig.ssa.gov/news-releases/2013-05-03-newsroom-news-releases-may3advisory/',
     body: `Millions of people receiving Social Security retirement, survivor, or disability benefits never get around to creating their own "my Social Security" online account at ssa.gov, assuming there's no urgency since the checks (or direct deposits) keep arriving either way. That gap is exactly what identity thieves exploit: using a victim's stolen Social Security number, date of birth, and other personal details — often gathered from a data breach, phishing message, or public records — a scammer creates the online account first, in the real beneficiary's name, before the actual beneficiary ever does.
@@ -12502,8 +12502,8 @@ If you believe you connected to a fake hotspot and entered account credentials o
     slug: 'guardianship-conservatorship-fraud-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'guardianship-conservatorship-fraud'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Courtroom%20One%20Gavel%20-%20Flickr%20-%20Joe%20Gratz.jpg?width=1200',
-    coverImageCredit: 'Photo: Joe Gratz (CC0, public domain)',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/CourtGavel.JPG?width=1200',
+    coverImageCredit: 'Photo: Jonathunder (CC BY-SA 3.0) — gavel and court minutes at the Minnesota Judicial Center',
     coverImagePosition: 50,
     sourceUrl: 'https://www.justice.gov/elderjustice/mistreatment-and-abuse-guardians-and-other-fiduciaries',
     body: `A probate court appoints a guardian or conservator — sometimes a family member, sometimes a professional the older adult has never met — to manage the finances and personal affairs of someone a judge has found unable to fully manage their own, usually because of dementia, a disability, or a medical crisis. The arrangement exists as a legitimate legal protection, and most guardians act in good faith. But the same authority that lets a guardian pay bills, manage bank accounts, and sell property on someone else's behalf can be turned against the very person it's meant to protect, and once a court has approved a guardianship, the person under it typically has far less power to challenge what the guardian does than an ordinary account holder would.
@@ -13143,10 +13143,9 @@ If you or someone you know is targeted, don't pay and don't send additional imag
     slug: 'airbnb-vacation-rental-host-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'rental-host-scam'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/DOM_Security_Lock_and_Key.JPG?width=1200',
-    coverImageCredit: 'Photo: ItalianLocksmith (CC BY-SA 3.0)',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Atrium_of_AirBnB_Headquarters_at_888_Brannan_St,_San_Francisco.jpg?width=1200',
+    coverImageCredit: 'Photo: Dllu (CC BY-SA 4.0) — atrium of Airbnb\'s headquarters, San Francisco',
     coverImagePosition: 50,
-    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.airbnb.com/help/article/971',
     body: `Vacation rental scams don't only target renters looking for a place to stay — hosts get targeted too, and the mechanics are different. A message arrives through the platform's inbox or by email, appearing to come from Airbnb, VRBO, or a "guest" asking a booking question, and it contains a link to "verify your account," "confirm your payout details," or "review this reservation." The link leads to a convincing fake login page that captures the host's username and password the moment they're entered, handing the scammer access to the real account — including saved payout information and the ability to message the host's actual guests.
 
@@ -13634,9 +13633,9 @@ If a stranger ever proposes splitting found money or asks you to withdraw cash a
     slug: 'funded-trader-prop-firm-challenge-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'prop-firm-challenge-scam'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Stock_market_Image_public_domain.jpg?width=1200',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/NASDAQ_stock_market_display.jpg?width=1200',
+    coverImageCredit: 'Photo: bfishadow (CC BY 2.0)',
     coverImagePosition: 50,
-    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.cftc.gov/PressRoom/PressReleases/8771-23',
     body: `Proprietary trading firms, or "prop firms," advertise a tempting pitch on social media and trading forums: pay a fee to take an online "evaluation" — hit a profit target on a demo account without breaching a maximum loss limit — and the firm will back you with tens or hundreds of thousands of dollars of its own capital to trade, splitting the real profits with you. Legitimate versions of this model exist, but the pitch has also become a magnet for firms built to collect fees rather than ever fund a trader. In a scam version, the "funded account" you're given after passing is still just another demo account trading fake money against a simulated price feed — you're never actually trading with the firm's capital, and any "profit" you earn exists only on a dashboard the firm controls.
 
@@ -15577,8 +15576,8 @@ Before paying any fee tied to a permit or zoning application, check the sender's
     slug: 'consent-phishing-oauth-permission-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'consent-phishing-scam'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/HP_Pavilion_Computer_laptop_keyboard_closeup.jpg?width=1200',
-    coverImageCredit: 'Photo: Carissa Rogers (CC BY 2.0)',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Keyboard_closeup.jpg?width=1200',
+    coverImageCredit: 'Photo: Pilaf (CC BY-SA 3.0)',
     coverImagePosition: 50,
     sourceUrl: 'https://www.ic3.gov/PSA/2026/PSA260901',
     body: `A message arrives from an unfamiliar account on LinkedIn, Instagram, or X, posing as a journalist working on a story, an event coordinator finalizing details, or someone from a government office — asking the recipient to review a shared document or verify their identity through a link. The link goes to a real Microsoft or Google sign-in page, the kind seen a dozen times a week, so typing in an email and password feels completely routine. After logging in, a second screen appears asking to "Allow" an application to access the account. One click later, the conversation moves on, nothing seems to have happened, and no password was ever stolen.
@@ -17011,10 +17010,9 @@ Sellers can protect themselves by weighing every outbound package and keeping th
     slug: 'itin-application-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'itin-scam'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/NYC_IRS_office_by_Matthew_Bisanz.JPG?width=1200',
-    coverImageCredit: 'Matthew G. Bisanz, CC BY-SA 3.0, via Wikimedia Commons',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Home_of_the_Internal_Revenue_Service.JPG?width=1200',
+    coverImageCredit: 'Photo: Joshua Doubek (CC BY-SA 3.0) — the IRS Building, Washington, D.C.',
     coverImagePosition: 50,
-    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.myfreetaxes.org/resource/avoiding-itin-scams/',
     body: `Every year, people in the U.S. who aren't eligible for a Social Security number but still need to file a tax return — the spouse or dependent of a visa holder, someone without lawful status who owes federal taxes, a foreign national with U.S. investment income — need an Individual Taxpayer Identification Number (ITIN) from the IRS. The entire process is free when done directly: filing Form W-7 by mail, at an IRS Taxpayer Assistance Center, or through a free Volunteer Income Tax Assistance (VITA) site costs nothing. The gap between how confusing that paperwork feels and how simple the real process actually is is exactly what ITIN scammers count on.
 
@@ -18137,8 +18135,8 @@ GUIDE_ARTICLES.push(
     slug: 'finfluencer-stock-touting-pump-and-dump-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'finfluencer-stock-touting-scam'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/No Known Restrictions Trading Floor, New York Stock Exchange (Highsmith LOC) (6718386525).jpg?width=1200',
-    coverImageCredit: 'Photo: Carol M. Highsmith, public domain, via Wikimedia Commons / Library of Congress',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/New_York_Stock_Exchange,_Manhattan,_New_York_(7236984682).jpg?width=1200',
+    coverImageCredit: 'Photo: Ken Lund (CC BY-SA 2.0) — the New York Stock Exchange building, Wall Street',
     coverImagePosition: 50,
     sourceUrl: 'https://www.sec.gov/newsroom/press-releases/2022-221',
     body: `Seven men built a combined following of more than 1.5 million people on Twitter and Discord by presenting themselves as savvy, generous traders willing to share their next big stock pick for free. Inside a private online community they ran called Atlas Trading, and across their own public feeds, they'd name a thinly traded stock, post a price target, and tell followers they were buying in themselves — real-sounding proof, from people who looked like ordinary retail traders rather than paid promoters. According to the Securities and Exchange Commission and the Justice Department, that authenticity was manufactured: the group had typically built a position in the stock before ever posting about it, and once enough followers bought in on the tip and pushed the price up, they quietly sold into the demand they'd created, without ever disclosing they were selling at all.
@@ -18309,8 +18307,8 @@ GUIDE_ARTICLES.push(
     slug: 'turbotax-intuit-free-filing-settlement-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'turbotax-intuit-free-filing-settlement'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/The_Internal_Revenue_Service_Building,_located_in_the_center_of_the_Federal_Triangle_complex_in_Washington,_D.C_LCCN2013634106.jpg?width=1200',
-    coverImageCredit: 'Photo: Carol M. Highsmith, Public Domain, via Wikimedia Commons/Library of Congress',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/TurboTax_headquarters.jpg?width=1200',
+    coverImageCredit: 'Photo: Coolcaesar (CC BY-SA 3.0) — headquarters of Intuit\'s Consumer Tax Group, San Diego, where TurboTax is developed',
     coverImagePosition: 50,
     sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2024/01/ftc-issues-opinion-finding-turbotax-maker-intuit-inc-engaged-deceptive-practices',
     body: `The IRS Free File Program is a real partnership between the IRS and a coalition of tax software companies that lets eligible taxpayers — historically, the roughly 70% of filers under a set income threshold — prepare and e-file a federal return at no cost at all. For years, Intuit, the maker of TurboTax, was one of the participating companies. It was also, regulators eventually concluded, running an advertising campaign designed to keep as many of those eligible people as possible away from the truly free product and inside a "TurboTax Free Edition" that could suddenly stop being free the moment a return included a form the free version didn't cover.
@@ -18751,8 +18749,8 @@ The case applies well beyond one brand of doorbell. Anyone with a connected came
     author: 'ScamShield Editorial',
     tags: ['guide', 'equifax-data-breach-settlement'],
     sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2019/07/equifax-pay-575-million-part-settlement-ftc-cfpb-states-related-2017-data-breach',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Social_Security_card_(09-61).jpg?width=1200',
-    coverImageCredit: 'Photo: N Giovannucci, CC BY-SA 4.0, via Wikimedia Commons',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Social_Security_Cards.jpg?width=1200',
+    coverImageCredit: 'U.S. Social Security Administration (Public Domain)',
     coverImagePosition: 50,
     body: `Equifax is one of just three companies in the United States that compiles the credit histories used to decide whether most Americans can get a mortgage, a car loan, or a credit card — which meant that when hackers broke into its systems in 2017, they didn't just steal data from Equifax's own customers, but from roughly 147 million people who had never done business with Equifax directly and had no way to opt out of the company holding their information in the first place. On July 22, 2019, the FTC, the Consumer Financial Protection Bureau, and 48 states, the District of Columbia, and Puerto Rico announced a joint settlement worth at least $575 million, and potentially up to $700 million, resolving allegations tied to that breach — at the time the largest data-breach settlement in U.S. history.
 
@@ -18770,8 +18768,8 @@ GUIDE_ARTICLES.push(
     slug: 'unclaimed-stimulus-payment-text-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'stimulus-payment-text-scam'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Sign_for_the_Internal_Revenue_Service_building_Washington_DC_2025-02-07_13-21-52_1.jpg?width=1200',
-    coverImageCredit: 'Photo: G. Edward Johnson (CC BY 4.0)',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/IRS_building_on_constitution_avenue_in_DC.jpg?width=1200',
+    coverImageCredit: 'U.S. Department of the Treasury (Public Domain) — the IRS Building on Constitution Avenue, Washington, D.C.',
     coverImagePosition: 50,
     sourceUrl: 'https://www.irs.gov/newsroom/irs-announces-special-payments-going-this-month-to-1-million-taxpayers-who-did-not-claim-2021-recovery-rebate-credit-encourages-non-filers-about-approaching-deadline-to-claim-credits',
     body: `On December 20, 2024, the IRS announced something genuinely good news for about a million taxpayers: it was automatically sending "special payments" of up to $1,400 per person, totaling roughly $2.4 billion, to people who had filed a 2021 tax return but left the Recovery Rebate Credit line blank or entered $0 despite actually qualifying for it. The credit exists for anyone who didn't receive one or more of the 2021 Economic Impact Payments — the third round of COVID-era stimulus checks — and the IRS said the money would arrive automatically, by direct deposit to the bank account on file from a taxpayer's 2023 return or by paper check to their address of record, with no application, no phone call, and no action required. Anyone who hadn't filed a 2021 return at all still had until April 15, 2025 to do so and claim the credit.
@@ -19033,8 +19031,8 @@ GUIDE_ARTICLES.push(
     author: 'ScamShield Editorial',
     tags: ['guide', 'moneymutual-payday-loan-settlement'],
     sourceUrl: 'https://www.dfs.ny.gov/reports_and_publications/press_releases/pr1503101',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Payday_Loans_Store_-_Check_Cashing_and_Pay_Day_Loan_-_Money_Mart_(25469046943).jpg?width=1200',
-    coverImageCredit: 'Photo: Tony Webster (CC BY 2.0) — a check-cashing and payday loan storefront',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/ACE_Cash_Express_on_Adams_Street,_Tallahassee,_Florida.jpg?width=1200',
+    coverImageCredit: 'Photo: The Bushranger (CC BY-SA 4.0) — a short-term lending storefront, Tallahassee, Florida',
     coverImagePosition: 50,
     body: `For years, television viewers across the country saw former Air Force officer and talk-show host Montel Williams appear in ads for MoneyMutual, a website that promised to connect people facing a cash crunch with a network of short-term lenders "quickly and easily." What the ads didn't say — and what a 2015 investigation by the New York State Department of Financial Services (DFS) found — was that MoneyMutual was selling the personal and financial information of hundreds of thousands of consumers to lenders charging interest rates that were flatly illegal in the states those borrowers lived in.
 
@@ -19252,10 +19250,9 @@ GUIDE_ARTICLES.push(
     author: 'ScamShield Editorial',
     tags: ['guide', 'moveit-data-breach'],
     sourceUrl: 'https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-158a',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/BalticServers_data_center.jpg?width=1200',
-    coverImageCredit: 'Photo: Fleshas for BalticServers.com (CC BY-SA 3.0)',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Progress_Software.jpg?width=1200',
+    coverImageCredit: 'Photo: Someone Not Awful (CC BY-SA 4.0) — office of Progress Software, the maker of MOVEit',
     coverImagePosition: 50,
-    // representative photo — replace with an exact match if found
     body: `Most people who were affected by the MOVEit breach have never heard of MOVEit at all. It isn't a bank, a retailer, or an app on anyone's phone — it's managed file-transfer software, made by Progress Software Corporation, that large organizations use behind the scenes to move batches of data between systems: a payroll file from an employer to a benefits administrator, a student-records export from a university to a loan servicer, a claims file from an insurer to a billing vendor. That plumbing role is exactly why one flaw in it became one of the largest data-exposure events in history — a single vulnerability didn't just hit MOVEit's own customers, it rippled out to every organization those customers, in turn, shared files with.
 
 On May 31, 2023, Progress Software disclosed a critical SQL injection vulnerability in MOVEit Transfer, tracked as CVE-2023-34362, that let an attacker reach into the underlying database without ever needing a valid login. The Russian-speaking ransomware and extortion gang known as Cl0p had already found it first: security researchers later concluded Cl0p had been quietly testing the flaw as early as 2021, then exploited it in earnest starting around May 27, 2023, installing a custom web shell named LEMURLOOT on vulnerable servers to pull data out directly. Unlike a typical ransomware attack, Cl0p mostly skipped encrypting victims' systems altogether — the entire operation was built around mass, silent data theft, followed by extortion emails and, for organizations that didn't pay, public listings on the gang's dark-web leak site naming them one by one.
@@ -19315,10 +19312,9 @@ If you were an AT&T customer any time in the last several years, treat both brea
     author: 'ScamShield Editorial',
     tags: ['guide', 'nh-predict-ai-medicare-lawsuit'],
     sourceUrl: 'https://www.hsgac.senate.gov/wp-content/uploads/2024.10.17-PSI-Majority-Staff-Report-on-Medicare-Advantage.pdf',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Humboldt_House_Rehabilitation_%26_Nursing_Center_-_fmr_Niagara_Lutheran_Home_for_the_Invalid_Aged_-_Buffalo,_New_York_-_20230113.jpg?width=1200',
-    coverImageCredit: `Photo: Andre Carrotflower, CC BY-SA 4.0, via Wikimedia Commons — a skilled nursing and rehabilitation facility`,
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/UnitedHealthcare_Corporate_Headquarters,_December_8_2024_(54191437643).jpg?width=1200',
+    coverImageCredit: `Photo: Chad Davis (CC BY 2.0) — UnitedHealthcare's corporate headquarters, Minnetonka, Minnesota`,
     coverImagePosition: 50,
-    // representative photo — replace with an exact match if found
     body: `Gene Lokken was 91 years old when he fractured his leg and ankle in May 2022. His doctors recommended extended rehabilitation in a skilled nursing facility, and his Medicare Advantage plan, sold by UnitedHealthcare, initially covered it — for 19 days. After that, according to a lawsuit his family later filed, coverage was cut off even though his own physicians said he still needed care he hadn't finished receiving. Unable to safely bring a 91-year-old man with a fractured leg home, the Lokken family paid $12,000 to $14,000 a month out of pocket to keep him in the facility for nearly a year. Gene Lokken died on July 17, 2023.
 
 His family's case became the lead claim in Estate of Gene B. Lokken v. UnitedHealth Group, Inc., filed November 14, 2023, in the U.S. District Court for the District of Minnesota. The lawsuit centers on nH Predict, an algorithm built by naviHealth — a post-acute-care management company UnitedHealth's Optum division acquired in 2020 — that estimates how many days of skilled nursing or rehabilitation care a given patient should need by cross-referencing that patient's diagnosis and characteristics against a database of similar prior patients. The complaint alleges that UnitedHealthcare and naviHealth used the tool's output to override treating physicians' own recommendations for how much post-acute care a patient actually needed, and that nH Predict carried a roughly 90% error rate — meaning that on the small share of denials patients did appeal, nine out of ten were ultimately reversed. The lawsuit further alleges the companies kept relying on the tool specifically because so few people appeal in the first place: an estimated 0.2% of policyholders challenge a denial, while the rest either pay out of pocket, as the Lokkens did, or simply go without the remaining care their doctor had recommended.
