@@ -9273,6 +9273,42 @@ Rubashkin's case became an unusual bipartisan cause: years of appeals and clemen
   },
 );
 
+NOTORIOUS_ARTICLES.push(
+  {
+    title: 'Sanjay Williams and the Jamaican Lottery Scam Behind Operation Hard Copy',
+    slug: 'sanjay-williams-jamaican-lottery-operation-hard-copy',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `The Jamaican Lottery Fraud is a form of advance-fee scam in which callers based in Jamaica telephone Americans — disproportionately elderly ones — and tell them they've won a multimillion-dollar prize in a sweepstakes like Publishers Clearing House or Mega Millions, plus a new car. To collect it, the victim only needs to first wire a "processing fee," pay "taxes," or send prepaid gift cards. There is no prize. The scam runs on "lead lists": names, phone numbers, ages, and other personal details of prospective victims, typically Americans who had previously responded to some other sweepstakes offer or fallen for an earlier scam, making them likelier targets a second time. Those lists are compiled in the United States and sold to scam callers overseas for roughly $200 to $500 per hundred names.
+
+Sanjay Ashani Williams was one of the largest lead-list brokers supplying that pipeline. Working out of Jamaica, he sold victim lists to hundreds of lottery-fraud callers, including codefendant Lavrick Willocks; federal investigators identified the two men as leaders of separate, competing scam networks that together were traced to more than 70 victims and over $5.6 million in losses. The case that ultimately brought Williams down began when an FBI agent based in North Dakota, Frank Gasper, interviewed a woman in Harvey, North Dakota, who said a caller had told her she'd won $19 million and a new car, and needed only to pay taxes and fees to collect it — she sent $300,000 before realizing it was fraud. That single complaint helped launch "Operation Hard Copy," a multi-agency investigation based in the District of North Dakota that ultimately identified more than 100 victims across 31 states and 97 cities, with reported losses exceeding $6 million; individual victims lost as little as $199 and, in one case, as much as $850,000.
+
+Williams was arrested in June 2013 after his flight landed in Charlotte, North Carolina, where he had traveled to meet people who moved money for the operation. He was the first Jamaican national tried and convicted in the United States specifically for selling lead lists used in international fraud. At trial, prosecutors presented evidence that Williams and his associates didn't just take victims' money — they threatened them when they tried to stop paying, in one instance threatening to kill a victim's sons and rape her daughters if she didn't send more. A federal jury convicted Williams in May 2015 on one count of conspiracy to commit wire and mail fraud, 35 counts of wire fraud, and one count of conspiracy to commit international money laundering.
+
+On November 24, 2015, Williams was sentenced to 240 months — 20 years — in federal prison, along with three years of supervised release and $5,672,561.15 in restitution, ordered jointly with his codefendants. He appealed on six separate grounds, including speedy-trial and double-jeopardy claims and a challenge to the court's jurisdiction over conduct that occurred entirely outside North Dakota; the Eighth Circuit Court of Appeals rejected every argument in 2016 and affirmed his conviction in full, holding that jurisdiction was proper because at least one victim lived in the state. Operation Hard Copy went on to secure extraditions and convictions of dozens of additional defendants from Jamaica, part of a broader U.S.-Jamaican law enforcement partnership that has continued to target lottery-fraud networks — though the underlying scam, adapted to new lead-list sources and payment methods, remains one of the most common frauds reported against elderly Americans today.`,
+    sourceUrl: 'https://www.justice.gov/usao-nd/pr/jamaican-lottery-fraud-defendant-sanjay-williams-found-guilty-conspiracy-commit-fraud-and',
+  },
+  {
+    title: 'Gregory Marino and Operation Bullpen: The $100 Million Fake-Autograph Ring',
+    slug: 'gregory-marino-operation-bullpen-forged-autographs',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Seal_of_the_Federal_Bureau_of_Investigation.svg?width=1200',
+    coverImageCredit: 'Seal: Federal Bureau of Investigation (Public Domain)',
+    coverImagePosition: 50,
+    // No free-licensed portrait of Marino could be located; using the seal
+    // of the federal agency that led the investigation against him.
+    body: `Gregory Marino could copy a celebrity's signature on sight, well enough to fool the autograph dealers, memorabilia shops, and collectors who made up the sports-collectibles boom of the 1990s. After meeting Southern California memorabilia shop owner Wayne Bray in 1994, the two went into business forging autographs — Mickey Mantle's among the first — and built it into a family operation: Marino's brother John forged alongside him, and their father produced lithographs of athletes that Gregory then "signed" to sell as originals for far more than a print alone was worth. Working roughly 15 hours a day, Marino later estimated he personally forged more than one million signatures over the years the ring operated, each accompanied by a fabricated certificate of authenticity designed to give a worthless item false provenance.
+
+The market that made Marino's forgeries so profitable also helped expose them. The 1998 home run chase between Mark McGwire and Sammy Sosa set off a surge in demand for contemporary baseball memorabilia, flooding the secondary market with bats, balls, and photos purportedly signed by both sluggers. When McGwire told federal investigators he had not signed items being sold under his name from that season, it became one of the threads the FBI followed back to a nationwide network of forgery rings supplying dealers across the country. Working with the IRS, the FBI opened "Operation Bullpen" and spent roughly three years building the case with undercover agents, informants, and wiretaps before moving to arrests.
+
+On October 13, 1999, agents executed search warrants across five states in a single coordinated action — at the time described as one of the largest single-day takedowns in FBI history — seizing roughly $10 million in forged memorabilia and $500,000 in cash. When the Bureau publicly detailed the investigation in April 2000, agents estimated that somewhere between 50 and 90 percent of autographed sports memorabilia then in circulation nationwide was fake, and put the scale of the underlying fraud at roughly $100 million. In 2000, Marino, his brother, and other family members, along with roughly twenty other defendants, pleaded guilty; Marino was sentenced to nearly three and a half years in federal prison. Ring associates including distributor Stan Fitzgerald were convicted separately, and a related forger, John Olson, was found to have produced some 10,000 fake autographs of his own, mostly of Muhammad Ali.
+
+The investigation didn't end with the 1999 raids. A second phase in 2002 executed 18 more search warrants across 12 states, this time targeting forgery rings that had moved to selling fake autographs through the still-new online auction market. By the time Operation Bullpen wound down around 2006, it had produced more than 60 convictions spanning 18 separate forgery rings nationwide, and remains one of the largest fraud investigations in FBI history by dollar value. The case pushed the memorabilia industry toward third-party authentication companies as a partial safeguard — even as it demonstrated that a certificate of authenticity, the very thing meant to prove a signature was real, was itself one of the easiest parts of the fraud to fake. Decades later, Marino spoke openly about his forgery career in the 2023 ESPN documentary "The Counterfeiter," revisiting an operation that, at its peak, may have put more fake autographs into circulation than real ones.`,
+    sourceUrl: 'https://en.wikipedia.org/wiki/Operation_Bullpen',
+  },
+);
+
 // Practical "how it works / red flags / what to do" guides covering the
 // major scam categories, the same kind of coverage the FTC's Consumer
 // Advice site and AARP's Fraud Watch Network publish — well-documented
