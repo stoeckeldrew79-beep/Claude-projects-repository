@@ -38076,6 +38076,49 @@ SEED_SCAMS.push(
   },
 );
 
+// Three new, real, sourced cases for three of the 43 states/DC tied for
+// the fewest SEED_SCAMS entries (verified with a brace-depth parser
+// scoped to the SEED_SCAMS region only, not the unrelated
+// SEED_STATE_AG_SOURCES array below). Each is a genuinely distinct
+// scheme/category from that state's existing entries (checked via
+// case-insensitive grep for the scam name, company/scheme name, and
+// people's names/aliases — zero existing hits before adding).
+SEED_SCAMS.push(
+  {
+    name: 'Heartland Tri-State Bank CEO Embezzlement in a Crypto "Pig Butchering" Scam',
+    slug: 'kansas-heartland-tri-state-bank-shan-hanes-pig-butchering-embezzlement',
+    description: `Shan Hanes, the 53-year-old CEO of Heartland Tri-State Bank in Elkhart, Kansas, spent decades building trust in his small farming community before an online "pig butchering" scam destroyed both his bank and his reputation. Beginning in 2022, Hanes was drawn into a fake cryptocurrency investment scheme, and after draining his own funds, a local church's account, an investment club's money, and his daughter's college savings chasing the promise of unlocking supposed returns, he turned to the bank itself: between May and July 2023, he authorized 11 wire transfers totaling $47.1 million of Heartland's own money to cryptocurrency wallets controlled by the scammers, believing each new transfer was the key to recovering everything he had already lost. The embezzlement wiped out the bank's capital, forced the FDIC to seize Heartland Tri-State Bank — one of only five U.S. bank failures in 2023 — and cost roughly 30 local shareholders, including farmers and teachers, more than $8 million in savings built up over generations, while the FDIC absorbed the remaining $47.1 million loss. Hanes pleaded guilty to embezzlement by a bank officer, and U.S. District Judge John Broomes sentenced him in August 2024 to 293 months (over 24 years) in federal prison, the longest white-collar sentence in Kansas history at the time, with U.S. Attorney Kate Brubacher noting that "his illegal schemes jeopardized confidence in financial institutions." The case is a stark warning that pig-butchering scams don't only target individual retirees; they can compromise anyone with access to institutional funds, and any investment that requires ever-larger transfers to "unlock" money already sent is not a payout, it is the same scam continuing.`,
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    state: 'KS',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office, District of Kansas", 'CNBC', 'Kansas Reflector'],
+    sourceUrl: 'https://www.justice.gov/usao-ks/pr/former-ceo-failed-bank-sentenced-prison',
+  },
+  {
+    name: 'Coeur d\'Alene "Money Mule" in a Business Email Compromise Ring',
+    slug: 'idaho-coeur-dalene-susan-white-money-mule-business-email-compromise',
+    description: `Susan White, also known as Susan Milne, of Coeur d'Alene, Idaho, spent roughly nine months between late 2017 and July 2018 acting as a "money mule" for a ring of business email compromise and other internet-enabled fraud schemes. Scammers behind the underlying frauds tricked victim businesses and individuals into wiring money based on spoofed or hacked emails impersonating executives, vendors, or trusted contacts, then needed a way to get that money out of the banking system before it could be traced or clawed back — which is where White came in: she opened and used her own personal bank accounts, and recruited or borrowed accounts belonging to other people, to receive the fraud proceeds and move them along to the scheme's organizers, keeping a cut of each transfer as her payment. Investigated by the U.S. Secret Service and prosecuted by the U.S. Attorney's Office for the District of Idaho, White was ultimately sentenced by Chief U.S. District Judge Amanda K. Brailsford to 12 months and a day in federal prison, followed by three years of supervised release, and ordered to pay $66,130.75 in restitution. Money mule recruitment often looks like an ordinary remote "payment processing" or "financial agent" job posting, but agreeing to receive and forward money through your own bank account for people you've never met in person is itself a federal crime, even for someone who never met the original phishing victims and believed they were just doing paid data-entry or transfer work.`,
+    categorySlug: 'business-email-compromise',
+    country: 'US',
+    state: 'ID',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office, District of Idaho", 'East Idaho News'],
+    sourceUrl: 'https://www.justice.gov/usao-id/pr/former-idaho-resident-indicted-money-mule-laundering-funds-wire-fraud-and-bank-fraud',
+  },
+  {
+    name: 'Fake Grammy-Nominated Saxophonist Charity Fraud Against a Gallatin County Nonprofit',
+    slug: 'montana-gallatin-county-big-brothers-big-sisters-ski-johnson-charity-fraud',
+    description: `In May 2012, a man using the alias "Kevin Wright" contacted Big Brothers Big Sisters of Gallatin County, Montana, claiming to represent Sony Records and a Grammy-nominated saxophonist named "Ski Johnson," and offered to donate two tickets to the Grammy Awards for the charity to auction at its upcoming golf tournament, with proceeds to be split between Big Brothers Big Sisters and a children's cancer foundation called Jazz for Life. The charity held the auction in July 2012 and secured a winning bid of $6,000 for the tickets, but stopped the transaction after discovering that "Kevin Wright" was actually Donald "Ski" Johnson himself, a saxophonist from Silver Spring, Maryland, who had never actually been nominated for a Grammy Award and had a documented history of soliciting charities under false pretenses. A federal jury in Montana convicted Johnson, then 48, of wire fraud for the scheme, and he was sentenced to five years of probation, including six months of house arrest, and ordered to pay restitution to the Gallatin County charity. Montana nonprofits and event organizers approached by an out-of-state donor offering a celebrity appearance, memorabilia, or awards-show tickets in exchange for a cut of the proceeds should independently verify the celebrity's actual award nominations and confirm the "representative's" identity directly with the record label or artist's management before promoting or auctioning the donation to the public.`,
+    categorySlug: 'charity-scams',
+    country: 'US',
+    state: 'MT',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office, District of Montana", 'Billings Gazette'],
+    sourceUrl: 'https://www.justice.gov/usao-mt/pr/washington-dc-area-saxophonist-sentenced-defrauding-montana-charity',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
