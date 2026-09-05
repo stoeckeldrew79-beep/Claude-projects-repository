@@ -35968,6 +35968,42 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'Alex Murdaugh Legal Settlement Theft Scheme',
+    slug: 'south-carolina-alex-murdaugh-settlement-theft-scheme',
+    description: `Alex Murdaugh, a fourth-generation attorney from a politically powerful Hampton County, South Carolina legal family, spent nearly two decades stealing from his own personal-injury and wrongful-death clients — including grieving families and the housekeeper's estate of a woman who died in a fall at his home — by diverting their settlement checks into accounts he controlled. According to a federal indictment and Murdaugh's own guilty plea, he directed co-conspirators to cut settlement checks to a fake entity called "Forge" that he set up to resemble the name of his law firm's legitimate disbursement account, deposited the money into a personal account, and used forged documents, false invoices, and misappropriated attorney's fees to hide the theft from his law partners and the state bar for years. Investigators say he stole nearly $11 million from at least 27 clients between roughly 2005 and 2021, spending the money to fund a multimillion-dollar opioid addiction and a lifestyle of boats, hunting property, and vehicles that masked the fraud from people who trusted him as their lawyer. Murdaugh pleaded guilty in September 2023 to 22 federal counts of conspiracy to commit wire fraud and bank fraud, wire fraud, and money laundering, and in April 2024 a federal judge sentenced him to 40 years in prison and ordered him to pay more than $8.7 million in restitution to his victims — a sentence running consecutively to the life sentence he is already serving after being convicted in state court of murdering his wife and son. The case is a stark reminder that a scam does not require a stranger: some of the most devastating financial fraud comes from a trusted professional — a lawyer, financial advisor, or accountant — who is handling money on a client's behalf, and clients should periodically request independent, itemized accountings of settlement funds and verify large disbursements directly with the paying insurance company rather than relying solely on their own attorney's documentation.`,
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    state: 'SC',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office for the District of South Carolina", 'CBS News', 'CNN', 'The Washington Post'],
+    sourceUrl: 'https://www.justice.gov/usao-sc/pr/alex-murdaugh-sentenced-40-years-prison-federal-financial-crimes',
+  },
+  {
+    name: 'Huntington Nigerian Fraud Scheme Money-Mule Laundering Case',
+    slug: 'west-virginia-huntington-nigerian-fraud-money-mule-scheme',
+    description: `Patricia Dudding, a Huntington, West Virginia woman, met an online contact she knew only as "Lucas" in early 2018 and, over the following months, agreed to open bank accounts at more than ten different financial institutions in her own name to receive and move money on his behalf, never meeting him in person. According to a federal indictment out of the Southern District of West Virginia, those accounts were used to launder proceeds from an international Nigerian fraud scheme that victimized elderly people and others across multiple states and countries, with more than $3 million passing through Dudding's accounts and roughly $100,000 of victim funds going toward her own personal expenses. Prosecutors described it as the largest elder fraud scheme ever prosecuted in West Virginia history at the time, part of a broader pattern in which fraud rings recruit ordinary, otherwise law-abiding Americans as "money mules" — people who never meet the scammer or the victims but who lend the scheme a domestic bank account and a layer of distance from the source of the money. Dudding was indicted on twelve counts including conspiracy to commit money laundering, bank fraud, and unlawful monetary transactions; she pleaded guilty and was later sentenced to three months in prison plus three years of supervised release, and ordered to pay $1,788,589.24 in restitution to victims. The case illustrates why banks and regulators warn people never to accept "helper" jobs from online romantic or business contacts that involve opening new accounts or moving money for someone else — acting as a money mule, even unknowingly, exposes a person to felony charges and personal financial liability for a stranger's fraud.`,
+    categorySlug: 'romance-scams',
+    country: 'US',
+    state: 'WV',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office for the Southern District of West Virginia", 'WSAZ', 'WV MetroNews', 'WBOY'],
+    sourceUrl: 'https://www.justice.gov/usao-sdwv/pr/huntington-woman-indicted-part-international-nigerian-fraud-scheme-laundering-funds',
+  },
+  {
+    name: 'Portland Repeat-Offender Investment Fraud Scheme',
+    slug: 'maine-portland-repeat-offender-investment-fraud-scheme',
+    description: `Jody Flynn Dalvet, a Portland, Maine woman, was convicted in September 2014 of theft by unauthorized taking after stealing more than $330,000 from an investor in a Maine paper company — and then, while that very indictment was still pending, quietly started a new investment scheme without ever telling her new victims she was already under criminal charges for misappropriating investor money. According to the Maine Attorney General's office, from November 2011 through April 2014 Flynn Dalvet induced five Maine investors to pay her investment company more than $1 million by promising large returns and partnerships with prominent business and political figures, then gave those investors fabricated financial statements and false updates on the business's progress while diverting the money to her own shopping, travel, and large cash withdrawals. A Cumberland County jury returned a guilty verdict against her on a charge of theft by deception on November 4, 2024, following the prosecution announced by Maine Attorney General Aaron M. Frey; under state law she faced up to 10 years in prison and a $20,000 fine. The case underscores a pattern common to serial affinity-fraud offenders: a prior fraud conviction does not stop a con artist from finding new victims, particularly when investors skip a basic background check, so anyone offered an investment opportunity by an individual (rather than a registered broker-dealer or investment adviser) should search Maine's Office of Securities licensing database and court records for that person's name before wiring any money, and should be especially wary of promised "partnerships" with well-known business or political figures used to lend false credibility to a pitch.`,
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    state: 'ME',
+    alertLevel: 'high',
+    sources: ['Office of the Maine Attorney General', 'Portland Press Herald', 'Bangor Daily News', 'Spectrum News Maine'],
+    sourceUrl: 'https://www.maine.gov/ag/news/article.shtml?id=13126095',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
