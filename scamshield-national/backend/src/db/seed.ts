@@ -9525,6 +9525,37 @@ A Manhattan federal jury convicted Parnas in October 2021 on six counts, includi
   },
 );
 
+NOTORIOUS_ARTICLES.push(
+  {
+    title: 'Scott Tucker: The Race Car Driver Whose $3.5 Billion Payday Loan Empire Hid Behind Native American Tribes',
+    slug: 'scott-tucker-amg-services-payday-loan-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Scott Tucker was a professional endurance-racing driver who bankrolled his own team, Level 5 Motorsports, on money he made running one of the largest illegal payday lending operations in American history. Starting in 2001 out of Overland Park, Kansas, Tucker built a network of online lenders operating under brand names like Ameriloan, Cash Advance, One Click Cash, United Cash Loans, and 500 FastCash — all controlled behind the scenes by the same small circle of Tucker family entities, even though each was marketed to borrowers as an independent company.
+
+The lenders' real product wasn't the loan; it was the fine print. Federal prosecutors said Tucker's operation told borrowers a $300 loan would cost a flat one-time fee, but the loan agreements were written so that, unless a borrower took the extra step of affirmatively opting out, the company would automatically renew the loan every pay period — withdrawing a brand-new finance charge from the borrower's bank account again and again, without ever reducing the principal. Effective annual interest rates on the loans reached as high as 1,000 percent, and the scheme generated more than $3.5 billion in revenue from at least 4.5 million Americans between 2008 and mid-2013 alone, according to the Department of Justice.
+
+To keep state regulators and courts from shutting the business down, Tucker paid three Native American tribes — including a sham $120,000 "sale" of the business to Oklahoma's Miami Nation — for the right to claim the loans were made by sovereign tribal lenders immune from state usury laws, while continuing to run every part of the operation himself and funneling the tribes only a token 1 to 2 percent of the revenue. The Federal Trade Commission sued Tucker and his companies in 2012, alleging the "tribal immunity" arrangement was a rent-a-tribe fiction and that Tucker had personally diverted more than $40 million in customer payments into Level 5 Motorsports under the guise of sponsorship fees. A federal court agreed, and in 2016 entered a $1.3 billion judgment against Tucker — at the time the largest litigated judgment the FTC had ever obtained.
+
+The Justice Department brought a parallel criminal case, and a Manhattan federal jury convicted Tucker in October 2017 on 14 counts, including racketeering conspiracy and conspiracy to collect unlawful debts, after prosecutors showed jurors how the tribal partnerships were negotiated and funded entirely by Tucker's team. He was sentenced on January 5, 2018, to 200 months — more than 16 years — in prison, plus a concurrent 36-month sentence on separate tax charges, and ordered to forfeit assets including his fleet of race cars and to pay roughly $1.2 billion in restitution alongside a $40 million tax judgment. His lawyer and longtime business partner, Timothy Muir, who had helped structure the tribal arrangements, was sentenced to seven years. Following the criminal case, the FTC and DOJ jointly began distributing a record $505 million in refunds to more than a million of Tucker's victims in September 2018 — money clawed back from the very accounts Tucker had once used to fund an auto-racing career built on other people's overdraft fees.`,
+    sourceUrl: 'https://www.justice.gov/usao-sdny/pr/scott-tucker-sentenced-more-16-years-prison-running-35-billion-unlawful-internet-payday',
+  },
+  {
+    title: 'Ryan Salame: The FTX Executive Whose Political Slush Fund and Shadow Bank Bought Access It Was Never Licensed to Sell',
+    slug: 'ryan-salame-ftx-political-contributions-money-transmitting',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `Ryan Salame ran the Bahamas end of Sam Bankman-Fried's crypto empire, serving as co-CEO of FTX Digital Markets and, before that, as a senior executive at Alameda Research, the sister trading firm at the center of FTX's November 2022 collapse. Unlike Bankman-Fried, Caroline Ellison, and other FTX insiders whose crimes centered on the roughly $8 billion in missing customer funds, Salame's prosecution focused on two narrower schemes he ran in parallel: buying political influence and running an unlicensed shadow bank.
+
+Prosecutors said that from 2020 through 2022, Salame worked with Bankman-Fried and fellow executive Nishad Singh to funnel more than $20 million into federal political campaigns using straw donors — routing contributions through Salame and others so that Bankman-Fried's name never appeared on the checks, evading both federal contribution limits and the Federal Election Commission's disclosure requirements. Salame separately founded and personally fronted his own super PAC, American Dream Federal Action, which alone spent millions supporting Republican candidates in the 2022 midterms, giving Bankman-Fried and his companies political access on both sides of the aisle without either party's name being publicly tied to the other's contributions.
+
+At the same time, Salame helped operate North Dimension Inc., a nominal "software" company that FTX and Alameda used as a front to open and maintain bank accounts for moving customer funds — accounts that let the companies transmit money on behalf of customers without ever registering as a licensed money transmitting business, as federal and state law required. That unlicensed pipeline became one of the channels FTX relied on to keep customer deposits flowing while dodging the compliance scrutiny a registered financial institution would have faced.
+
+Salame pleaded guilty in September 2023 to one count of conspiracy to make unlawful political contributions and defraud the FEC and one count of conspiracy to operate an unlicensed money transmitting business — becoming, alongside Ellison, Singh, and Gary Wang, one of four FTX-linked executives who cooperated with prosecutors ahead of Bankman-Fried's trial, though Salame, unlike the others, did not testify against his former boss. U.S. District Judge Lewis Kaplan nonetheless handed him the stiffest sentence of any cooperator: 90 months — seven and a half years — in prison on May 28, 2024, well above the five-to-seven-year range prosecutors themselves had recommended, plus more than $6 million in criminal forfeiture and more than $5 million in restitution. Judge Kaplan pointed to the scale of the straw-donor scheme and Salame's refusal to cooperate as fully as his peers in explaining the harsher term — a reminder that even the FTX insiders who avoided the customer-fraud charges still faced years in prison for the political and banking fraud they ran on the side.`,
+    sourceUrl: 'https://www.justice.gov/usao-sdny/pr/former-ftx-executive-ryan-salame-sentenced-90-months-prison',
+  },
+);
+
 // Practical "how it works / red flags / what to do" guides covering the
 // major scam categories, the same kind of coverage the FTC's Consumer
 // Advice site and AARP's Fraud Watch Network publish — well-documented
@@ -36420,6 +36451,39 @@ SEED_SCAMS.push(
     alertLevel: 'high',
     sources: ["U.S. Attorney's Office for the Western District of Oklahoma", 'Federal Bureau of Investigation'],
     sourceUrl: 'https://www.justice.gov/usao-wdok/pr/former-attorney-serve-more-three-years-federal-prison-after-stealing-settlement-money',
+  },
+);
+
+SEED_SCAMS.push(
+  {
+    name: '"Mr Pips" Fake MT4/MT5 Forex Trading Platform Fraud',
+    slug: 'vietnam-mr-pips-forex-mt4-mt5-trading-fraud',
+    description: `Pho Duc Nam, a young entrepreneur from Ho Chi Minh City who took the alias "Mr Pips," built one of Vietnam's largest online investment fraud operations by creating 36 fake trading websites, styled to look like legitimate international brokerages and integrated with the real MetaTrader 4 and MetaTrader 5 software that genuine forex brokers use worldwide. Working with co-conspirator Le Khac Ngo, known as "Mr Hunter," and a Turkish national investigators describe as a technical mentor, Nam's network — organized under roughly 85 shell companies he controlled — recruited hundreds of sales staff to cold-call prospective investors and walk them through registering on one of the fake sites and depositing money into what were, in reality, pre-configured platforms with no connection to any real market: the operators simply decided who won and who lost. Early investors were shown small, genuine payouts to build trust and encourage larger deposits, both from themselves and from people they referred, before the platforms froze withdrawals or vanished entirely. Hanoi police say the scheme carried out 920 separate frauds totaling more than 1.568 trillion VND (roughly $59.6 million), with Nam alone accumulating 32 real estate properties and gold and other assets worth over 141 billion VND from the proceeds, while Ngo's share of the operation accounted for 287 cases and 344 billion VND in victim losses. The Hanoi People's Procuracy filed charges against 188 defendants in August 2025, with investigators recommending further prosecution in February 2026, in what is considered one of the largest online investment fraud prosecutions in Vietnamese history. The case shows how a fake trading platform can borrow the same MetaTrader software real, regulated brokers use to make an entirely fabricated exchange feel indistinguishable from a legitimate one — a warning sign investors can only catch by independently verifying that the broker itself, not just the trading software it runs on, is licensed by a recognized financial regulator.`,
+    categorySlug: 'investment-fraud',
+    country: 'VN',
+    alertLevel: 'high',
+    sources: ['Hanoi People\'s Procuracy', 'Hanoi Department of Public Security', 'VietNamNet'],
+    sourceUrl: 'https://vietnamnet.vn/en/police-propose-prosecution-of-188-individuals-in-mr-pips-fraud-case-2533269.html',
+  },
+  {
+    name: 'Fake "Dich Vu Cong" Public Services App Malware Scam',
+    slug: 'vietnam-fake-public-services-app-scam',
+    description: `A Cambodia-based fraud ring impersonated Vietnamese police officers and government officials in phone calls to victims across the country, telling them they needed to "update" their national ID information or "synchronize" personal data with the government's public-service system, and that doing so required installing an application. The app, deceptively branded DICH VU CONG ("Public Services") to mimic Vietnam's genuine national public-services portal, was in fact spyware: once installed and granted permissions, it gave the scammers remote control of the victim's phone, letting them intercept one-time banking authentication codes, empty bank accounts, and even liquidate stock portfolios without the victim ever knowingly authorizing a transaction. Bac Ninh provincial police, working with the Ministry of Public Security's Cybersecurity and High-Tech Crime Prevention Department and police units nationwide, identified more than 13,500 victims defrauded of nearly 972 billion VND (about $38 million) combined. The ring operated out of Cambodia's Tai Thai border area with members assigned specialized roles — scriptwriting, translation, phone calls, malware deployment, and money laundering — and had trained members to erase digital evidence and coordinate their statements if questioned. Timing the operation for the Lunar New Year period, when many members traditionally return to Vietnam to visit family, roughly 200 officers arrested nearly 60 suspects in a coordinated sweep announced in July 2026, catching some as they crossed back into the country through the Moc Bai border gate and Noi Bai, Tan Son Nhat, and Cat Bi airports. The Ministry of Public Security stresses that Vietnam's real public-services and VNeID apps are only ever distributed through official app stores, that no legitimate government agency will ask a citizen to install an app via a link sent by phone call or text message, and that the only trustworthy source for a national ID or public-service update is the government's own verified portal.`,
+    categorySlug: 'government-impersonation',
+    country: 'VN',
+    alertLevel: 'high',
+    sources: ['Bac Ninh Provincial Police', 'Ministry of Public Security Cybersecurity and High-Tech Crime Prevention Department', 'Voice of Vietnam (VOV)'],
+    sourceUrl: 'https://english.vov.vn/en/society/police-bust-fake-public-services-app-scam-worth-us38-million-post1314829.vov',
+  },
+  {
+    name: 'Deepfake Viber Video Call Impersonating a Daughter',
+    slug: 'vietnam-deepfake-viber-family-emergency-scam',
+    description: `A woman in Hanoi's Long Bien district received a missed call in March 2025 from a Viber account using her daughter's name and photo. When she called back, a video connected for a few seconds — appearing to genuinely show her daughter's face — before the call abruptly cut out with a message blaming "poor signal quality," followed by an urgent text asking her to transfer money right away to cover a foreign-currency exchange. Trusting what she had just seen, she wired more than 1.3 billion VND (about $52,000) before growing suspicious when she noticed every prior message from the account had been deleted, and she reported the incident to police. Hanoi police, investigating the case, said the brief glimpse of video was most likely an AI-generated deepfake, engineered to run just long enough to convince the victim she was truly speaking with her daughter before a fabricated technical excuse ended the call before it could be scrutinized further, and cited it as an example of a fast-growing category of fraud in Vietnam that clones a real family member's face and voice from photos and videos the family had posted publicly online. Authorities urged the public to treat any urgent money request from a "family member" over a chat app with the same skepticism regardless of whether it comes with a photo or video attached, to always call back on the person's known phone number or verify in person before sending money, and to watch for the classic tells of a deepfake call: a suspiciously short connection, a convenient technical excuse for cutting it off, and mismatched lip movements, audio, or eye movements in the moments the video is visible.`,
+    categorySlug: 'ai-deepfake-scams',
+    country: 'VN',
+    alertLevel: 'high',
+    sources: ['Hanoi City Police', 'VietNamNet'],
+    sourceUrl: 'https://vietnamnet.vn/en/mother-loses-over-52-000-to-deepfake-scam-impersonating-daughter-on-viber-2386872.html',
   },
 );
 
