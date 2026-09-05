@@ -40405,6 +40405,40 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'Fake Hajj and Umrah Permit and Travel Package Scam',
+    slug: 'sa-fake-hajj-umrah-permit-travel-scam',
+    description: `Saudi Arabia's Ministry of Hajj and Umrah has repeatedly warned pilgrims worldwide against unlicensed operators who build convincing websites and social media pages advertising deeply discounted Hajj and Umrah packages, complete with offers of a "Hajj visa" or "Hajj permit" arranged outside official channels. Because a Hajj permit is issued exclusively through the ministry's Nusuk app or its Tasreeh permits platform — and is never sold by a private travel agency, foreign broker, or social media page — anyone who pays for a package built around one of these fake documents both loses their money and risks being turned away or deported on arrival; the Ministry of Interior has said expatriates caught attempting Hajj on a fraudulent permit face a fine of up to SR20,000 (roughly $5,300), deportation, and a 10-year ban from re-entering the Kingdom. The ministry has stated that dealing with any entity other than Nusuk puts a pilgrim's opportunity to perform the pilgrimage at risk, and has urged prospective pilgrims to book only through their country's official Hajj mission office, or directly through haj.gov.sa and the Nusuk platform where no such office exists. Saudi security forces have arrested individuals for posting misleading Hajj-campaign advertisements, and pilgrims in countries including Pakistan have reported losing money and personal data after following links in these fake campaigns.`,
+    categorySlug: 'online-shopping-scams',
+    country: 'SA',
+    alertLevel: 'high',
+    sources: ['Saudi Ministry of Hajj and Umrah', 'Arab News'],
+    sourceUrl: 'https://www.arabnews.com/node/2601177/POST',
+  },
+  {
+    name: 'SAMA Bank Impersonation Phone and SMS Phishing Scam',
+    slug: 'sa-sama-bank-impersonation-phishing-scam',
+    description: `The Saudi Arabian Monetary Authority (SAMA), the Kingdom's central bank, has repeatedly warned bank customers about scammers who place phone calls or send text messages and emails impersonating bank officials, using phone numbers and links that belong to no licensed bank, to claim the customer's account or ATM card urgently needs "updating." The caller or message asks the target to read back or type in login credentials, a card number, or a one-time passcode just sent to their phone — information that, once handed over, lets the scammer log directly into the victim's account or authorize a transaction. SAMA first sounded this alarm in October 2020 after a wave of reports from customers, and has renewed the same warning since, including during a later surge in reported financial fraud, each time reminding the public that a bank will never request personal or account information through an unsolicited call, text, or email, and urging anyone contacted this way to hang up and call their bank back only on the number printed on their card or statement. Cybersecurity researchers tracking the pattern point to Saudi Arabia's roughly 97.5% mobile penetration rate as a major reason Arabic-language "smishing" — fraudulent SMS and WhatsApp messages disguised as alerts from banks, government portals, or shipping companies, engineered to harvest login details or one-time passwords through a malicious link — remains one of the most persistent fraud vectors reported in the Kingdom.`,
+    categorySlug: 'phishing',
+    country: 'SA',
+    alertLevel: 'high',
+    sources: ['Saudi Arabian Monetary Authority (SAMA)', 'Saudi Gazette'],
+    sourceUrl: 'https://saudigazette.com.sa/article/619345/SAUDI-ARABIA/SAMA-cautions-bank-customers-amid-surge-in-financial-fraud',
+  },
+  {
+    name: '23-Member Virtual Currency, Gold, and Oil Investment Fraud Ring',
+    slug: 'sa-virtual-currency-gold-oil-investment-fraud-ring',
+    description: `In December 2022, Saudi Arabia's Public Prosecution announced the conviction of 23 individuals and commercial entities — including a Saudi citizen and her expatriate husband — for organizing a financial fraud and money-laundering network built around fake investment pitches in virtual currencies, gold, oil, and prepaid cards, along with bogus foreign-investment opportunities. After persuading victims to hand over bank account numbers or transfer funds directly, the network withdrew the money and rerouted it through accounts registered to fictitious individuals and shell commercial entities before moving it out of the Kingdom entirely, obscuring the trail before victims realized their "investment" had disappeared. A Saudi court sentenced the group to prison terms totaling 111 years combined and fines of SR28.6 million (roughly $7.6 million), on charges spanning financial fraud, money laundering, forgery, and violations of Saudi Arabia's anti-cybercrime law. The case was one of several the Public Prosecution's dedicated Financial Fraud unit brought that year, part of a wider crackdown that followed SAMA and Saudi banks documenting a surge in unlicensed "investment" pitches — frequently pushed through social media and messaging apps — promising outsized returns from crypto, precious-metals, or commodities trading that never actually took place.`,
+    categorySlug: 'investment-fraud',
+    country: 'SA',
+    isHistorical: true,
+    firstRecorded: '2022-12-20',
+    sources: ['Arab News', 'The National'],
+    sourceUrl: 'https://www.arabnews.com/node/2218926/saudi-arabia',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
