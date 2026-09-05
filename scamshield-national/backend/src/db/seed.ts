@@ -38773,6 +38773,39 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'The Bayrob Group Online Auction Malware Scheme',
+    slug: 'romania-bayrob-group-auction-fraud-malware',
+    description: `For more than a decade beginning in 2007, Bucharest residents Bogdan Nicolescu, Radu Miclaus, and Tiberiu Danet ran "Bayrob," a cybercrime enterprise that combined malware with fake online marketplace listings to defraud victims across the United States and abroad, according to the U.S. Department of Justice. The group sent malicious emails disguised as legitimate messages from Western Union, Norton AntiVirus, the IRS, and other trusted names; anyone who opened the attached file had malware silently installed that harvested the computer's information and enrolled the machine in the group's spam and hosting infrastructure. Using that infrastructure, Bayrob posted more than 1,000 fraudulent listings for cars, motorcycles, and other high-value items on eBay, and built spoofed eBay and payment-processor pages that intercepted visitors to steal login credentials and payment card numbers, routing "winning" bidders to fake escrow sites the group controlled and designed to look like a trusted third-party payment holder before the money disappeared. Prosecutors said the scheme infected more than 400,000 computers worldwide and generated at least $4 million in fraud proceeds, laundered in part through Western Union transfers made under false identities. Following an investigation supported by the FBI and Romanian authorities, Nicolescu and Miclaus were extradited to the United States and convicted by a federal jury in Ohio in April 2019 on all 21 counts against them, including conspiracy to commit wire fraud, aggravated identity theft, and money laundering; in December 2019, Nicolescu was sentenced to 20 years and Miclaus to 18 years in federal prison, while Danet, who had pleaded guilty earlier, received a 10-year sentence. The case illustrates a still-common pattern in online auction fraud: a listing, escrow page, or checkout screen that looks exactly like a real marketplace's own branding is not proof it's legitimate, since malware and spoofed pages can reproduce that branding convincingly — a buyer or seller should complete payment only inside the marketplace's own app or verified domain, never through a link inserted into an email or chat.`,
+    categorySlug: 'online-shopping-scams',
+    country: 'RO',
+    alertLevel: 'high',
+    sources: ['U.S. Department of Justice', 'FBI'],
+    sourceUrl: 'https://www.fbi.gov/news/stories/members-of-bayrob-romanian-hacking-group-sentenced-022020',
+  },
+  {
+    name: 'OLX Romania Fake Courier Payment-Link Scam',
+    slug: 'romania-olx-marketplace-courier-payment-scam',
+    description: `Beginning in 2024, Romania's National Cybersecurity Directorate (DNSC) began logging a wave of reports describing a reversed-payment scam run against sellers on OLX.ro, the country's largest classifieds marketplace, according to DNSC's own published fraud alert. A "buyer" contacts a seller who has just listed an item, quickly claims to have already paid for it, and then moves the conversation off OLX and onto WhatsApp or SMS, where they send a link to a fake payment page cloned to look like OLX or a courier such as FAN Courier, hosted on a lookalike domain designed to pass a quick glance rather than match the real olx.ro. Unlike a typical phishing page that asks a victim to pay, this one tells the seller they are about to receive money and asks them to enter their card number, expiry date, and CVV/CVC security code to "confirm" or "unlock" the incoming transfer — information that, once submitted, lets the scammers charge the seller's card rather than deposit anything into it. DNSC has stated that FAN Courier does not operate any such payment-collection service, and has urged anyone contacted this way to keep the conversation inside OLX's own messaging system, never enter card details through a link sent by a buyer, and check a marketplace or courier domain character-by-character before typing in any payment information; Romanians who lose money this way are directed to report it to police via the 1911 cybercrime hotline or DNSC's own portal at pnrisc.dnsc.ro. OLX Romania and Poliția Română have echoed the warning publicly, since the same reversed-payment mechanism — a message claiming money is already on its way, followed by a request for card details to "release" it — has also turned up on other Romanian classifieds and shopping sites under the same operators.`,
+    categorySlug: 'phishing',
+    country: 'RO',
+    alertLevel: 'high',
+    sources: ['Directoratul Național de Securitate Cibernetică (DNSC)', 'FAN Courier'],
+    sourceUrl: 'https://www.dnsc.ro/index.php/citeste/alerta-tentativa-de-frauda-olx',
+  },
+  {
+    name: 'Fake Carrier Cargo Fraud Ring',
+    slug: 'romania-fake-carrier-cargo-fraud',
+    description: `Beginning no later than 2017, an organized crime group made up mainly of Romanian nationals ran a scheme that spoofed the real email addresses of established European cargo and freight companies, according to Europol. Posing as those legitimate carriers, the group responded to genuine shipping-quote requests from businesses across the EU, negotiated and signed counterfeit transport contracts, and arranged a delivery date and pickup location just as a real freight company would, collecting an upfront prepayment for the shipping service in the process. On the agreed date, the fraudsters used forged transport documents and vehicles fitted with fake license plates to physically collect the cargo itself from the shipping victim, then disappeared with both the prepayment and the goods — which ranged from solar panels to aluminum bars and clothing — reselling the stolen cargo at a discount elsewhere in the EU. Following an investigation opened in March 2018, roughly 400 officers from Romania's Directorate for Investigation of Organized Crime and Terrorism (DIICOT) and the Dutch National Police, supported by Europol and Eurojust, carried out a coordinated action day on April 17, 2019 that included 46 house searches in Romania and 12 in the Netherlands, arresting six suspects; investigators estimated the group's fraud had caused roughly €2 million in damages to businesses between 2017 and 2019. The case is a reminder to any business booking freight or cargo transport that a real carrier's name, logo, and even email domain can be convincingly spoofed — a shipper should independently verify a carrier's identity and any last-minute change to pickup or payment instructions through a phone number obtained from the carrier's own official website, not from the quote or contract email itself, before releasing goods or a prepayment.`,
+    categorySlug: 'business-email-compromise',
+    country: 'RO',
+    alertLevel: 'medium',
+    sources: ['Europol', 'Directorate for Investigation of Organized Crime and Terrorism (DIICOT)'],
+    sourceUrl: 'https://www.europol.europa.eu/media-press/newsroom/news/fake-carrier-scam-6-arrested-in-romania-and-netherlands',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
