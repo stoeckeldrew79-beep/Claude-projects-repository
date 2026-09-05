@@ -41043,6 +41043,41 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'Quaestor Group Fictitious Corporate Bond Collapse',
+    slug: 'hungary-quaestor-group-fictitious-bond-collapse',
+    description: `On March 9, 2015, Quaestor Financial Hrurira — the bond-issuing arm of Quaestor Group, one of Hungary's oldest brokerage and investment-advisory conglomerates — filed for bankruptcy, and the following day the National Bank of Hungary (MNB) partially suspended the operating license of sister company Quaestor Securities and appointed an oversight commissioner after uncovering serious irregularities. MNB's investigation found that Quaestor Financial Hrurira had issued 210 billion forints in corporate bonds against a regulator-approved ceiling of only 60 billion forints — meaning roughly 150 billion forints (about €500 million at the time) of the bonds Quaestor's own brokerage arm sold to ordinary Hungarian savers as safe, government-adjacent investments were never properly authorized at all. News of the collapse triggered street protests from hundreds of bondholders demanding the government make them whole, and parliament eventually created a partial state compensation scheme funded through a special bank levy. The criminal case took nearly a decade to reach a verdict: on September 2, 2024, the Budapest Metropolitan Court convicted Quaestor's founder and chairman, Csaba István Tarsoly, on seven counts of embezzlement and 396 counts of fraud tied to a proven 77 billion forints (about €220 million) in damages to roughly 800 bondholders, handing him a non-binding first-instance sentence of 13 years in prison plus a 10-year ban from public affairs; a co-defendant received 16 years, and the remaining defendants among the case's eleven total accused received lesser sentences. The case remains one of the largest bond-fraud prosecutions in Hungarian history and illustrates a durable warning for any retail bond purchase: a corporate bond's real safety depends on whether the issuer actually holds regulatory authorization for that specific issuance size — something an ordinary buyer can verify directly with the securities regulator rather than trusting a familiar brokerage's own paperwork.`,
+    categorySlug: 'investment-fraud',
+    country: 'HU',
+    isHistorical: true,
+    firstRecorded: '2015-03-09',
+    sources: ['National Bank of Hungary (Magyar Nemzeti Bank)', 'bne IntelliNews', 'The Budapest Times'],
+    sourceUrl: 'https://www.budapesttimes.hu/hungary/brokerage-scandal-defendant-handed-13-years-prison-sentence/',
+  },
+  {
+    name: 'Buda-Cash Brokerage Embezzlement Scandal',
+    slug: 'hungary-buda-cash-brokerage-embezzlement-scandal',
+    description: `On February 24, 2015, the National Bank of Hungary (MNB) suspended the operating license of Buda-Cash Brókerház, one of the country's oldest brokerage houses, appointed supervisory commissioners, and filed a criminal complaint with police after finding the firm had falsified its client reports for roughly a decade and could not account for approximately 100 billion forints (about €327 million) that should have been sitting in customer accounts. MNB deputy president László Windisch said the firm had engaged in "a series of abuses going back several decades." The fallout reached well beyond Buda-Cash's own roughly 15,000-20,000 direct clients: the brokerage was closely tied to four regional lenders in the DRB Bank Group, whose combined 100,000-120,000 depositors also had their accounts restricted, prompting Hungary's National Deposit Insurance Fund (OBA) to begin compensating some 73,000 DRB customers up to the legal cap of €100,000 each. Investigators found that from April 2007 to May 2014, Buda-Cash executives had repeatedly bought and sold exchange-traded securities in client accounts without authorization and diverted the proceeds; one executive, identified in court filings only as "V. Péter" under Hungarian reporting convention, was found to have wired 9.2 billion forints to offshore accounts between 2008 and 2014. On October 19, 2018, the Budapest Metropolitan Court convicted five former Buda-Cash executives of continuing embezzlement tied to a total of 115 billion forints in client damages, sentencing each to 7 years and 6 months in prison, ordering asset seizures, and imposing a 10-year ban from leading any business entity — a verdict both prosecution and defense appealed. The case stands as a reminder that a brokerage's decades of apparent stability is no substitute for independently verifiable custody of assets: regulators recommend investors periodically request account statements directly from a central securities depository rather than relying solely on statements the brokerage itself produces.`,
+    categorySlug: 'investment-fraud',
+    country: 'HU',
+    isHistorical: true,
+    firstRecorded: '2015-02-24',
+    sources: ['National Bank of Hungary (Magyar Nemzeti Bank)', 'Daily News Hungary', 'Index.hu'],
+    sourceUrl: 'https://dailynewshungary.com/central-bank-suspends-operating-licence-of-buda-cash-brokerhaz/',
+  },
+  {
+    name: '"Unokázós" Grandchild-in-Trouble Phone Scam Ring',
+    slug: 'hungary-unokazos-grandchild-phone-scam-ring',
+    description: `Beginning no later than 2019, Hungarian police tracked a phone-fraud ring running the country's most common confidence trick against the elderly, known locally as the "unokázós" (grandchild) scam: a caller phones an older victim claiming to be a distressed grandchild, or a lawyer or police officer speaking on the grandchild's behalf, saying the relative has caused a serious car accident or been arrested and urgently needs cash or gold jewelry to make the problem disappear — timed to catch the victim before they can call the real family member to check the story. Investigators determined the calls were coordinated from the United Kingdom by a four-person cell led by a man identified as Ernő H., who directed a rotating cast of local collectors — in some documented cases instructed simply to retrieve bags of cash and jewelry left hanging on a victim's garden gate or fence — to gather the money from victims in cities and towns across Hungary. Police estimated the ring's Hungarian operations defrauded victims of at least 47 million forints (about €135,000) before an international arrest warrant was issued in 2019; Ernő H. was arrested in the United Kingdom in late 2020 and extradited to Hungary on August 18, 2021, to face organized-fraud charges alongside his co-conspirators. Hungarian police have continued documenting new variations of the same scam in the years since, including callers posing as lawyers who invent a hit-and-run car accident to pressure elderly victims into handing over their savings and jewelry on the spot. Police advise that anyone who receives such a call should hang up and independently call the relative directly using a number they already have on file — never one supplied by the caller — before sending, transferring, or leaving out any money at all.`,
+    categorySlug: 'family-emergency-scams',
+    country: 'HU',
+    alertLevel: 'critical',
+    sources: ['Hungarian National Police (Rendőrség)', 'Daily News Hungary'],
+    sourceUrl: 'https://dailynewshungary.com/fraud-ring-leader-returned-from-uk-to-hungary/',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
