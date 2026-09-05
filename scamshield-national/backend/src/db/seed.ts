@@ -9792,6 +9792,10 @@ Roglieri pleaded guilty on November 13, 2025, to one count of wire fraud conspir
     slug: 'danh-vo-vbit-technologies-bitcoin-mining-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Hut_8_Medicine_Hat_aerial_1.jpg?width=1200',
+    coverImageCredit: 'Photo: Curtis Huisman (CC BY 4.0) — aerial view of a bitcoin mining facility; representative image, not VBit Technologies',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Danh C. Vo ran VBit Technologies Corp., a Philadelphia-based bitcoin mining company, on a pitch aimed squarely at people who wanted crypto exposure without the hassle of buying and running mining hardware themselves: pay VBit for a "Hosting Agreement," and the company would run and maintain a physical mining rig on your behalf, passing along a share of whatever bitcoin it mined. Between December 2018 and February 2022, the SEC says, VBit sold Hosting Agreements to roughly 6,400 investors and raised more than $95.6 million on the strength of that promise.
 
 The trouble, according to the SEC's December 2025 complaint, is that VBit sold far more Hosting Agreements than it had rigs to back them. At one point in 2021, the company had sold agreements tied to more than 8,400 mining rigs while actually operating only 1,643 — meaning the overwhelming majority of investors were paying for a share of mining capacity that, physically, did not exist. Rather than the returns Hosting Agreement holders were promised, the SEC alleges Vo simply diverted the money: prosecutors say he misappropriated roughly $48.5 million of investor funds for gambling, cryptocurrency purchases for himself, and cash gifts of around $5 million to family members, including his ex-wife, mother, brother, and sister.
