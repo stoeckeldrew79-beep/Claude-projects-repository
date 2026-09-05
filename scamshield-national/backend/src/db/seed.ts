@@ -35935,6 +35935,39 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'Q-Net "Ponzi Scheme Academy" (Nigeria)',
+    slug: 'nigeria-qnet-ponzi-scheme-academy',
+    description: `Operating out of the Compensation Layout area of Gwagwalada in Abuja, an outfit calling itself "Q University" (also known as Q-Net) ran what Nigeria's Economic and Financial Crimes Commission (EFCC) described as a full-blown Ponzi scheme "academy": young recruits, enrolled via an "Independent Representative Application Form," were indoctrinated through a program branded "Special Training for New Generation Billionaire" using slogans like "I'm a Champion" and "I'm Unstoppable," and were then set loose to recruit further gullible Nigerians into the scheme with promises of unrealistic returns. Acting on intelligence, EFCC operatives raided the site on March 24, 2025 and arrested 133 suspects, describing the operation as training a pipeline of new recruiters rather than simply running a single investment fund. The case illustrates a distinct twist on the classic Ponzi structure: rather than just paying early investors with later ones' money, the scheme institutionalized recruitment itself as a curriculum, manufacturing new promoters faster than a single operator could ever recruit alone.`,
+    categorySlug: 'investment-fraud',
+    country: 'NG',
+    alertLevel: 'high',
+    sources: ['Economic and Financial Crimes Commission (EFCC)', 'Sahara Reporters', 'PRNigeria'],
+    sourceUrl: 'https://www.efcc.gov.ng/efcc/news-and-information/news-release/10827-efcc-busts-ponzi-scheme-academy-arrests-133-suspects-in-abuja',
+  },
+  {
+    name: 'Fake Airline Promo "Account Donor" Identity-Harvesting Scam (Nigeria)',
+    slug: 'nigeria-efcc-account-donor-identity-scam',
+    description: `In a July 2025 public alert, Nigeria's Economic and Financial Crimes Commission (EFCC) warned of a fast-growing fraud network built around fake foreign-airline ticket-discount "Promo" and "Investment Window" teasers, spread with the help of malware that harvests victims' account information once they engage with the offer. Beneath that layer, so-called "Account Suppliers" or "KYC Group" canvassers — numbering an estimated 12,000 people nationwide — pay ordinary Nigerians a token N1,500 to N2,000 to hand over their National Identification Number (NIN) slip, Bank Verification Number (BVN), passport photograph, and other identity documents as "account donors," then resell that identity package to fintech companies for about N5,000 apiece. The purchased identities are used to open accounts for investment scams and further fraud schemes, laundering the proceeds partly through cryptocurrency purchases. The EFCC called the practice a threat to national security and urged Nigerians never to act as an "account donor" for any fee, since a bank or fintech account opened in their name can be traced back to them long after the small payment is spent.`,
+    categorySlug: 'identity-theft',
+    country: 'NG',
+    alertLevel: 'critical',
+    sources: ['Economic and Financial Crimes Commission (EFCC)', 'Nairametrics', 'BusinessDay NG'],
+    sourceUrl: 'https://www.efcc.gov.ng/efcc/news-and-information/news-release/11307-public-alert-on-new-fraudulent-promo-scam',
+  },
+  {
+    name: 'Fake EFCC Officer and Fake Sting Operation Scam (Nigeria)',
+    slug: 'nigeria-efcc-fake-officer-impersonation-scam',
+    description: `Nigeria's Economic and Financial Crimes Commission (EFCC) has repeatedly warned the public about criminals who dress in fake uniforms, carry forged identification, and stage elaborate fake "sting operations" — including fabricated raids and dramatized property searches — to convince victims they are the target of a real EFCC investigation. One documented variant stops motorists based on their number plates, brandishes weapons, and extorts cash under threat of a fabricated criminal allegation; another lures victims to locations made to resemble genuine EFCC offices, where a fake "investigation" is used to pressure them into paying to make the phantom case disappear. In one case publicized in 2026, a man in Borno State was arrested after impersonating an EFCC officer and using the agency's name to defraud victims of roughly N3 million. The EFCC has stressed that it operates through established, verifiable procedures and channels, and urges anyone contacted by a supposed EFCC operative to independently confirm that person's identity through the Commission's official channels before handing over any money or personal information.`,
+    categorySlug: 'government-impersonation',
+    country: 'NG',
+    alertLevel: 'high',
+    sources: ['Economic and Financial Crimes Commission (EFCC)', 'The Guardian Nigeria', 'Premium Times Nigeria'],
+    sourceUrl: 'https://guardian.ng/news/nigeria/metro/efcc-raises-alarm-over-impersonators-fake-sting-operations-targeting-nigerians/',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
