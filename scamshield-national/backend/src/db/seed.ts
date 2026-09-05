@@ -36979,6 +36979,46 @@ SEED_SCAMS.push(
   },
 );
 
+// Second scam case for MI, NC, and NJ — the fewest-entries US states at
+// the time these were added (tied with several others at 9 SEED_SCAMS
+// rows apiece), each covering a scheme/category not already represented
+// for that state.
+SEED_SCAMS.push(
+  {
+    name: 'Young Pros / My Nest Egg Banned-Trader Investment Fraud',
+    slug: 'michigan-young-pros-my-nest-egg-investment-fraud',
+    description: `Brian Mitchell, 43, of Ann Arbor, Michigan, had already been barred by the Commodity Futures Trading Commission from soliciting or accepting money for commodity futures trading — a three-year suspension the CFTC imposed under a settlement covering violations between January 2018 and January 2019 — when he kept doing exactly that anyway, raising money through entities called Young Pros Investment Group and My Nest Egg. According to the U.S. Attorney's Office for the Eastern District of Michigan, Mitchell told investors their principal was protected from loss and that returns were both safe and profitable, never disclosing that regulators had already barred him from the activity he was soliciting them for. When trading losses did occur, prosecutors say Mitchell lied to investors about what had happened to their money rather than admit the losses, continuing to solicit and accept new investor funds throughout the suspension period. He defrauded multiple investors of more than $2.7 million before pleading guilty to wire fraud on June 16, 2026, agreeing to pay that full amount in restitution; he faces up to 20 years in prison at sentencing, scheduled for October 7, 2026, before U.S. District Judge Laurie J. Michelson. FBI Special Agent Jennifer Runyan said the case shows "those who commit these crimes will be held accountable." The case is a reminder that a regulatory bar on someone soliciting investment money is exactly the kind of fact a legitimate manager discloses up front — investors can and should independently check an individual's disciplinary history through the CFTC, SEC, or FINRA's BrokerCheck before wiring money to any trader or fund, rather than relying on the person's own description of their credentials.`,
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    state: 'MI',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office for the Eastern District of Michigan", 'Detroit News', 'CBS News Detroit'],
+    sourceUrl: 'https://www.justice.gov/usao-edmi/pr/suspended-ann-arbor-commodities-trader-pleads-guilty-multi-million-dollar-fraud-scheme',
+  },
+  {
+    name: 'Harvest Focused Medicaid Urine-Drug-Test Billing Fraud',
+    slug: 'north-carolina-harvest-focused-medicaid-urine-drug-test-fraud',
+    description: `Jasmine Hoyle owned and ran two Winston-Salem, North Carolina businesses — Harvest Focused & Consulting Services, LLC and The Ultimate Sacrifice — that billed North Carolina Medicaid for urine drug tests and office visits that were never provided. Prosecutors documented 97 separate claims Harvest Focused submitted between August 2020 and July 2022 for drug tests supposedly performed on one Medicaid beneficiary who, it turned out, had never heard of either company, never visited either business, and never provided a single sample — one thread among a scheme that ultimately siphoned more than $6 million in fraudulent Medicaid reimbursements. Hoyle used the proceeds on personal expenses, including buying a Dodge Challenger, while the claims kept flowing under Medicaid's billing system for services that existed only on paper. She pleaded guilty to one count of health care fraud and one count of money laundering, and was sentenced July 31, 2025 by U.S. District Judge William L. Osteen, Jr. in the Middle District of North Carolina, facing up to 10 years in prison, up to three years of supervised release, and financial penalties. North Carolina Attorney General Jeff Jackson's office worked the case alongside the U.S. Attorney's Office, IRS Criminal Investigation, HHS-OIG, and the U.S. Postal Inspection Service. The scheme is a common pattern in Medicaid billing fraud: a provider bills for tests or visits a beneficiary never asked for and never received, counting on the sheer volume of routine, low-dollar claims to avoid scrutiny — one reason Medicaid recipients are encouraged to review their own claims history (through NC Medicaid's beneficiary portal or an Explanation of Benefits) for any service billed under their name that they don't recognize.`,
+    categorySlug: 'healthcare-fraud',
+    country: 'US',
+    state: 'NC',
+    alertLevel: 'high',
+    sources: ["North Carolina Attorney General's Office", "U.S. Attorney's Office for the Middle District of North Carolina", 'IRS Criminal Investigation', 'WFMY News 2'],
+    sourceUrl: 'https://ncdoj.gov/attorney-general-jeff-jackson-announces-health-care-fraud-and-money-laundering-guilty-plea/',
+  },
+  {
+    name: '"Quickbooks Support Team" Fake Accounting-Software Tech Support Scam',
+    slug: 'new-jersey-quickbooks-support-team-tech-support-scam',
+    description: `Manoj Yadav, 40, of Clifton, New Jersey, ran a call-center operation from 2017 through 2023 that held itself out to victims as legitimate technical support affiliated with a major, widely used accounting-software company, operating under a rotating set of fictitious business names — including Phebs Software Services LLC, PN Bookkeeping Services, Quickbooks Tech Assist, Quickbook US, Quickbooks Accounting, and Quickbooks Support Team — none of which were actually authorized by the real software company. According to the U.S. Attorney's Office for the District of New Jersey, Yadav and his conspirators contacted victims claiming to fix software problems, then charged exorbitant, unauthorized fees for support that was never sanctioned by the legitimate company and often not needed at all. The scheme reached more than 7,000 victims, primarily small-business owners and elderly consumers, defrauding them of more than $13 million; Yadav personally kept an estimated 17% of the proceeds. He was arrested and charged by complaint on August 31, 2023 with one count of conspiracy to commit wire fraud, carrying a maximum penalty of 20 years in prison and a fine of $250,000 or twice the gross gain or loss from the offense, whichever is greater. The case illustrates a durable version of the tech-support scam: rather than a scary pop-up demanding an immediate call, it runs the long way around, positioning the caller as ordinary customer support for software the victim already trusts and uses daily — a reason to independently verify any support contact through the software vendor's own official website or in-app help rather than a phone number, chat window, or search-ad result someone else supplied.`,
+    categorySlug: 'tech-support-scams',
+    country: 'US',
+    state: 'NJ',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office for the District of New Jersey", 'NJ1015', 'NJBIZ'],
+    sourceUrl: 'https://www.justice.gov/usao-nj/pr/passaic-county-man-charged-13-million-technology-support-scam-targeting-over-seven',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
