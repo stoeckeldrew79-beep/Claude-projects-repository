@@ -9465,6 +9465,9 @@ NOTORIOUS_ARTICLES.push(
     title: 'Jeff Carpoff and the $1 Billion DC Solar Ponzi Scheme Hidden Inside 17,000 Generators That Didn\'t Exist',
     slug: 'jeff-carpoff-dc-solar-ponzi-scheme',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/U.S._Courthouse_%26_Federal_Building,_Sacramento,_CA.jpg?width=1200',
+    coverImageCredit: 'Photo: Xnatedawgx, Wikimedia Commons (CC BY-SA 4.0) — the Robert T. Matsui U.S. Courthouse in Sacramento, where Jeff Carpoff was sentenced (Eastern District of California)',
+    coverImagePosition: 50,
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Jeff Carpoff was a small-town auto mechanic in Martinez, California, when he and his wife Paulette founded DC Solar Solutions in nearby Benicia, building mobile solar generators — trailer-mounted units meant to supply backup power to cell towers, disaster-response sites, and outdoor events. The business model that made DC Solar attractive to investors wasn't really the generators themselves: it was the generous federal solar investment tax credits attached to them, stacked on top of promised lease revenue, which made buying into DC Solar's investment funds look like a low-risk way for large companies to shelter income while doing something green. The pitch worked spectacularly well — investors poured in hundreds of millions of dollars, and even Berkshire Hathaway's tax-equity funds put in $340 million to claim the credits.
 
@@ -9530,6 +9533,9 @@ NOTORIOUS_ARTICLES.push(
     title: 'Scott Tucker: The Race Car Driver Whose $3.5 Billion Payday Loan Empire Hid Behind Native American Tribes',
     slug: 'scott-tucker-amg-services-payday-loan-fraud',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/ScottTuckerRaceCarDriver.jpg?width=1200',
+    coverImageCredit: 'Photo: Level 5 Motorsports via Flickr (CC BY-SA 2.0) — Scott Tucker, whose auto-racing team was funded by his payday lending empire',
+    coverImagePosition: 40,
     tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Scott Tucker was a professional endurance-racing driver who bankrolled his own team, Level 5 Motorsports, on money he made running one of the largest illegal payday lending operations in American history. Starting in 2001 out of Overland Park, Kansas, Tucker built a network of online lenders operating under brand names like Ameriloan, Cash Advance, One Click Cash, United Cash Loans, and 500 FastCash — all controlled behind the scenes by the same small circle of Tucker family entities, even though each was marketed to borrowers as an independent company.
 
@@ -9544,6 +9550,9 @@ The Justice Department brought a parallel criminal case, and a Manhattan federal
     title: 'Ryan Salame: The FTX Executive Whose Political Slush Fund and Shadow Bank Bought Access It Was Never Licensed to Sell',
     slug: 'ryan-salame-ftx-political-contributions-money-transmitting',
     author: 'ScamShield Editorial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Moynihan-courthouse.jpg?width=1200',
+    coverImageCredit: 'Photo: Americasroof, Wikimedia Commons (CC BY-SA 3.0) — the Daniel Patrick Moynihan U.S. Courthouse in Manhattan, where Ryan Salame was sentenced',
+    coverImagePosition: 50,
     tags: ['notorious', 'notorious-scammer'],
     body: `Ryan Salame ran the Bahamas end of Sam Bankman-Fried's crypto empire, serving as co-CEO of FTX Digital Markets and, before that, as a senior executive at Alameda Research, the sister trading firm at the center of FTX's November 2022 collapse. Unlike Bankman-Fried, Caroline Ellison, and other FTX insiders whose crimes centered on the roughly $8 billion in missing customer funds, Salame's prosecution focused on two narrower schemes he ran in parallel: buying political influence and running an unlicensed shadow bank.
 
