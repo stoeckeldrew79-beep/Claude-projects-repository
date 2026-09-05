@@ -40288,6 +40288,42 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'New York Holiday Package Theft and Delivery-Fee Phishing Scam',
+    slug: 'ny-holiday-package-theft-delivery-fee-phishing',
+    description: `Each holiday shopping season, New York's Department of State Division of Consumer Protection issues a consumer alert warning residents about a surge in package-related fraud that rides alongside the wave of real deliveries. One scheme is old-fashioned porch piracy: with online shopping climbing roughly 9% during the Thanksgiving-to-Cyber-Monday stretch, thieves follow delivery trucks or simply watch doorsteps, and the U.S. Postal Service Office of Inspector General's 2025 report estimated at least 58 million packages were stolen nationwide in 2024, a loss of about $16 billion. The other, newer scheme is digital: text messages and emails impersonating UPS, FedEx, USPS, or a retailer claim a delivery problem or an unpaid "redelivery fee," pushing recipients to click a link that harvests login credentials or card numbers, while a related con has someone posing as a driver or postal worker at the door demanding a cash "delivery fee" before handing over a package that was never actually paid for. The Division of Consumer Protection's alert recommends tracking packages closely, scheduling deliveries for when someone is home, requiring a signature, using ship-to-store or locker pickup, and — for any unexpected text or email about a delivery — typing the carrier's or retailer's actual website address directly into a browser rather than tapping the link provided.`,
+    categorySlug: 'package-delivery-scams',
+    country: 'US',
+    state: 'NY',
+    alertLevel: 'medium',
+    sources: ['New York Department of State — Division of Consumer Protection', 'U.S. Postal Service Office of Inspector General'],
+    sourceUrl: 'https://dos.ny.gov/news/consumer-alert-department-states-division-consumer-protection-issues-warning-about-package',
+  },
+  {
+    name: 'Fake Ohio Department of Taxation Refund Text and Look-Alike Website Scam',
+    slug: 'oh-department-of-taxation-fake-refund-text-scam',
+    description: `Starting around September 2025, Ohioans began receiving text messages claiming, "Your tax refund request has been approved and is now pending release," and directing recipients to click a link to "confirm" their account details to speed up the payout. The link led to a look-alike website that copied the Ohio Department of Taxation's actual logo and branding closely enough to pass a quick glance, then harvested whatever personal and banking information the visitor entered. Ohio Tax Commissioner Patricia Harris warned that "scammers are becoming increasingly sophisticated, even going so far as to copy our logos and create fake websites that look official," and stressed a simple rule: "the Department of Taxation will never contact you by text about your taxes or refunds. If you receive one of these messages, do not click the link — go directly to tax.ohio.gov to ensure you are on our official site." Local police departments across the state, including in Trumbull County, issued their own warnings after residents reported receiving the texts, and the department directed anyone targeted to report it to the Ohio Attorney General's office as well as the Office of Consumer Affairs within the Department of Commerce's Division of Financial Institutions.`,
+    categorySlug: 'tax-scams',
+    country: 'US',
+    state: 'OH',
+    alertLevel: 'medium',
+    sources: ['Ohio Department of Taxation', 'Ohio Attorney General\'s Office'],
+    sourceUrl: 'https://content.govdelivery.com/accounts/OHTAX/bulletins/3f3744c',
+  },
+  {
+    name: 'Michigan Bank and Credit Union Imposter Phone Scam',
+    slug: 'mi-bank-credit-union-imposter-phone-scam',
+    description: `In August 2026, Michigan Attorney General Dana Nessel and the Department of Insurance and Financial Services (DIFS) warned residents about a wave of phone scams in which callers use caller-ID spoofing technology to make an incoming call appear to come from the consumer's own bank or credit union. The caller falsely claims there's a problem with the account — an unauthorized transaction or an overdraft — and offers to fix it on the spot, but only if the consumer first "verifies" their identity by reading back an account number, password, PIN, or a one-time code just texted to their phone. Anyone who complies hands the scammer everything needed to log in and drain the account directly. DIFS Director Anita Fox said "imposter scams continue to pose a serious threat to Michiganders, especially when fraudsters pretend to be trusted banks or credit unions in an attempt to steal personal and financial information," adding that "legitimate financial institutions will never pressure you to share information by phone, text, or email. Your best defense is simple: never share any information with anyone who contacts you." Older Michiganders have been the most frequent targets. The department's advice is to hang up on any unexpected call like this and call the bank or credit union back using the number printed on a card or statement, never a number given during the suspicious call itself.`,
+    categorySlug: 'phishing',
+    country: 'US',
+    state: 'MI',
+    alertLevel: 'high',
+    sources: ['Michigan Department of Attorney General', 'Michigan Department of Insurance and Financial Services (DIFS)'],
+    sourceUrl: 'https://www.michigan.gov/ag/news/press-releases/2026/08/12/ag-nessel-warns-of-bank-credit-union-imposter-scams',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
