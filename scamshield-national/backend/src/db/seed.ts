@@ -9596,6 +9596,39 @@ The SEC filed a civil fraud complaint against Ross in August 2020, and the Justi
   },
 );
 
+NOTORIOUS_ARTICLES.push(
+  {
+    title: 'David H. Brooks and the $200 Million Body Armor Fraud That Died With Him',
+    slug: 'david-h-brooks-dhb-industries-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `David H. Brooks founded DHB Industries and built it into the largest supplier of body armor to the U.S. military and domestic law enforcement, primarily through its Point Blank Body Armor division. As demand for bulletproof vests surged after September 11, 2001, DHB's stock climbed from around $2 a share in early 2003 to nearly $20 a share by late 2004 — a run federal prosecutors and the SEC later said was built substantially on fabricated numbers rather than real growth.
+
+According to the SEC and the Justice Department, Brooks, along with chief operating officer Sandra Hatfield and chief financial officer Dawn Schlegel, ran a multi-year accounting fraud designed to inflate DHB's reported profits: they overstated the value of the company's body-armor inventory by more than $7 million in both 2003 and 2004, added inventory to the books that didn't exist, and reclassified ordinary expenses to make DHB's margins look stronger than they were. While the falsified numbers pushed the stock upward, Brooks and Hatfield sold large blocks of their own DHB shares — Brooks pocketing more than $185 million and Hatfield more than $5 million — trades prosecutors charged as illegal insider selling on inflated financials.
+
+At the same time, DHB was manufacturing and selling vests using Zylon, a ballistic fiber the company had internal information showed degraded quickly and lost its stopping power over time — a defect its successor company, Point Blank Solutions, later paid $1 million to resolve related federal claims over. Brooks, meanwhile, treated the company treasury as his own: court filings and prosecutors documented DHB funds paying for a $100,000 diamond-encrusted belt buckle, his family's cosmetic surgery, country-club dues and vacations, his personal thoroughbred horse-racing stable, and a lavish bat mitzvah party for his daughter featuring paid performances by major recording artists.
+
+Brooks and Hatfield were convicted in September 2010 after an eight-month trial — Brooks on 17 counts including conspiracy, securities fraud, insider trading, lying to auditors, and obstruction of justice. In 2013, a federal judge sentenced Brooks to 17 years in prison, ordered him to forfeit roughly $65 million in trading profits, and imposed an $8.7 million fine; Hatfield received seven years, and Schlegel, who cooperated and testified against her former bosses, was sentenced far more leniently.
+
+Brooks never served out that sentence. He died in October 2016 at a federal prison in Danbury, Connecticut, at age 61, while his appeal was still pending — and under a legal doctrine called abatement ab initio, a defendant's death before an appeal is resolved wipes out the underlying conviction and any restitution tied to it, as though it had never happened. In 2017, the Second Circuit applied that rule to void more than $91 million in victim restitution Brooks had been ordered to pay, even after a separate judge allowed the government to keep more than $143 million in assets already forfeited through an independent civil proceeding. The case remains a stark, well-documented example of how the timing of a defendant's death — not just the underlying facts of the fraud — can determine whether a conviction ultimately stands.`,
+    sourceUrl: 'https://www.justice.gov/usao-edny/pr/david-h-brooks-founder-and-former-chief-executive-officer-dhb-industries-inc-sentenced',
+  },
+  {
+    title: 'Frank Amodeo and the $181 Million Payroll Tax Fraud Hidden Inside a Web of Shell Companies',
+    slug: 'frank-amodeo-mirabilis-payroll-tax-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Frank L. Amodeo built a network of Orlando, Florida-based companies around a business most people never think about: payroll processing. Through Mirabilis Ventures Inc. and a chain of affiliated professional employer organizations, or PEOs — firms that other businesses hire to handle payroll, benefits, and the legal responsibility for withholding and remitting employees' payroll taxes — Amodeo and his co-conspirators controlled companies including Presidion Corporation, Presidion Solutions, Professional Benefit Solutions, Sunshine Staff Leasing, and several more, according to the federal indictment against him.
+
+The fraud exploited a structural blind spot in how PEOs work: a client company hands over its payroll tax obligations almost entirely, trusting the PEO to actually forward the money it withholds from employee paychecks to the IRS. Prosecutors said Amodeo instead directed his companies to divert those funds elsewhere, while shuffling client accounts between a rotating cast of affiliated entities to keep the scheme running and dodge accumulating IRS liability — so that by the time a company's payroll taxes went unpaid, the entity nominally responsible for them had often already been replaced by a new one built to look independent. Across 2004 through 2006, prosecutors traced more than $181.8 million in payroll taxes that were withheld from employees' paychecks but never sent to the IRS, including roughly $129.6 million in FICA and federal withholding — money that instead helped fund Amodeo's personal real estate holdings, a fleet of luxury cars, and a private jet.
+
+A federal grand jury in the Middle District of Florida indicted Amodeo in August 2008 on charges of conspiracy, failure to remit payroll taxes, wire fraud, and obstruction of an agency proceeding. He pleaded guilty that September to conspiring to defraud the United States, failing to collect and remit payroll taxes, and obstructing an agency proceeding. U.S. District Judge John Antoon II sentenced him on May 26, 2009, to 270 months — 22 and a half years — in federal prison, one of the longest sentences ever handed down in a payroll-tax-fraud case, and ordered him to forfeit more than $1 million in seized cash, three homes, several luxury vehicles, commercial real estate, a Learjet, and the corporations themselves, alongside a roughly $181 million money judgment matching the stolen tax funds.
+
+Amodeo later argued on appeal that an undiagnosed bipolar disorder should have barred the court from accepting his guilty plea in the first place; the Eleventh Circuit rejected that argument and left his conviction and sentence intact. His case remains one of the largest employee-leasing and payroll-tax fraud prosecutions in U.S. history, and a reminder that outsourcing payroll to a third-party PEO doesn't just outsource the paperwork — it can leave a business with no direct way of confirming its own employees' withheld taxes ever actually reached the IRS, until the agency comes looking for the shortfall.`,
+    sourceUrl: 'https://www.justice.gov/archive/tax/usaopress/2008/txdv08_20080807_Amodeo_Orl_TaxFraudIndictment.pdf',
+  },
+);
+
 // Practical "how it works / red flags / what to do" guides covering the
 // major scam categories, the same kind of coverage the FTC's Consumer
 // Advice site and AARP's Fraud Watch Network publish — well-documented
