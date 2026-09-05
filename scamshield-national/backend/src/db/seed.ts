@@ -37019,6 +37019,42 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'Çiftlik Bank ("Farm Bank") Virtual-Farm Ponzi Scheme',
+    slug: 'turkey-ciftlik-bank-farm-ponzi-scheme',
+    description: `Launched in 2016 by brothers Mehmet Aydın and Fatih Aydın, Çiftlik Bank ("Farm Bank") marketed itself as an online farming game in the style of FarmVille, letting users buy virtual animals, crops, and land through a website and mobile app. The pitch was that real money spent on virtual livestock and produce funded actual farms in Turkey, entitling investors to a cut of the resulting profits from milk, honey, meat, and other agricultural products — with Aydın, a social-media personality with a large YouTube following, using that following to promote the scheme and vouch for its payouts. For roughly eighteen months payments to early participants arrived on schedule, funded in classic Ponzi fashion by the deposits of newer investors, and word of mouth pulled in tens of thousands more players chasing the advertised returns. By the time Turkish authorities moved in and the company's assets were seized in 2018, Çiftlik Bank had taken in more than 1.1 billion Turkish lira (roughly $131 million at contemporaneous exchange rates) from an estimated 132,000 people; Mehmet Aydın fled the country with a share of the proceeds and remained a fugitive for more than three years, moving through several South American countries, before turning himself in to authorities in Brazil in 2021 and being extradited back to Turkey. Turkish prosecutors ultimately indicted 48 suspects on charges including fraud, money laundering, and founding a criminal organization, naming 3,762 people as plaintiffs in the case, and on February 3, 2025 an Istanbul court convicted Mehmet and Fatih Aydın on 4,414 separate counts of fraud, sentencing each of them to 45,376 years and six months in prison. The case is one of Turkey's largest documented Ponzi prosecutions and illustrates how a gamified investment app — dressed up as a harmless social-media farming simulator rather than a financial product — can obscure the fact that "profits" are being paid from new deposits rather than any real underlying business, a red flag regulators say applies whenever a platform's returns depend on constant recruitment of new money rather than a verifiable, licensed investment activity.`,
+    categorySlug: 'investment-fraud',
+    country: 'TR',
+    isHistorical: true,
+    firstRecorded: '2016-01-01',
+    sources: ['Hürriyet Daily News', 'Daily Sabah', 'The National'],
+    sourceUrl: 'https://www.dailysabah.com/business/economy/turkish-farm-bank-ponzi-founder-gets-over-45370-years-in-prison',
+  },
+  {
+    name: 'Thodex Cryptocurrency Exchange Collapse',
+    slug: 'turkey-thodex-crypto-exchange-collapse',
+    description: `Thodex, founded in 2017 by Faruk Fatih Özer, grew into one of Turkey's largest cryptocurrency exchanges by offering steep sign-up bonuses and aggressive marketing that drew hundreds of thousands of retail investors into trading and holding digital assets on the platform. On April 21, 2021, Özer abruptly froze trading, first telling users the platform needed a four-to-five-day pause tied to an unspecified external investment, then shifting his explanation to claim the exchange had been hit by a cyberattack; within a day he had boarded a flight from Istanbul to Albania rather than restoring access to customer accounts. An estimated 400,000 Thodex users were left unable to withdraw their holdings, with losses estimated at roughly $2 billion, and Turkish authorities issued an Interpol red notice and arrest warrants for Özer and his two siblings, Serap and Güven Özer, who had helped operate the exchange. Özer was arrested in Albania in August 2022 and extradited back to Turkey in April 2023 to face trial. On September 7-8, 2023, the Anatolian 9th High Criminal Court in Istanbul convicted Özer of aggravated fraud, establishing and leading a criminal organization, and money laundering, sentencing him to 11,196 years, 10 months, and 15 days in prison along with a judicial fine of 135 million lira (about $5 million); his siblings received comparable prison terms for their roles running the exchange. Özer was later found dead in his prison cell in November 2025 while serving that sentence, with his lawyer demanding an investigation into the circumstances. The collapse pushed Turkish lawmakers to tighten oversight of cryptocurrency platforms and remains one of the largest exchange-collapse fraud cases worldwide, illustrating the risk of parking funds on an unregulated or thinly regulated exchange that offers outsized bonuses: investigators and Turkish financial regulators have since urged consumers to treat any platform holding customer crypto assets the way they would a bank — verifying licensing, insurance, and proof-of-reserves before depositing funds — rather than trusting sign-up incentives or trading volume alone.`,
+    categorySlug: 'investment-fraud',
+    country: 'TR',
+    isHistorical: true,
+    firstRecorded: '2021-04-21',
+    sources: ['Anatolian 9th High Criminal Court, Istanbul', 'Daily Sabah', 'Reuters', 'CoinDesk'],
+    sourceUrl: 'https://www.dailysabah.com/business/tech/turkish-ex-crypto-boss-sentenced-to-11196-years-in-jail',
+  },
+  {
+    name: 'Gerçek Evim / SAS Holding Real-Estate Dividend Ponzi Scheme',
+    slug: 'turkey-sas-holding-gercek-evim-real-estate-ponzi',
+    description: `Gerçek Evim ("My Real Home"), a real-estate investment company operating under SAS Holding with 31 branches across Turkey, promised customers a 10% dividend for putting money into its property investment plans, telling depositors their funds would be used to acquire and develop real estate on their behalf. As with any Ponzi structure, the company's early dividend payments arrived as promised, and satisfied customers who saw real returns on their initial deposits were encouraged to reinvest larger sums and to recruit friends and family, letting the scheme grow to roughly 13,000 customers and gross about 600 million Turkish lira (approximately $69.2 million) before it collapsed. Turkey's Banking Regulation and Supervision Agency (BDDK) determined the company met the legal definition of an unlicensed deposit-taking operation and ordered it liquidated, appointing liquidation administrators to inventory the company's remaining assets — of which investigators managed to seize only about 58.5 million lira, a small fraction of what customers had put in — for eventual distribution to victims. The case took a violent turn when SAS Holding executive Sibel Koçan was killed during a robbery in which assailants, believed to be among the company's own defrauded investors, attempted to steal 10 million lira in cash from her car, underscoring how badly some victims had been financially devastated by the scheme's collapse. Daily Sabah and Hürriyet reported extensively on the case as Turkish prosecutors pursued fraud charges tied to the company's collection of funds under false pretenses of legitimate, dividend-paying real-estate investment. The BDDK and Turkish consumer-protection reporting on the case both point to the same warning sign: any company offering a fixed, above-market dividend on a real-estate or investment product without holding a banking or capital-markets license is operating outside regulatory oversight, and a steady early payout is not proof of a scheme's legitimacy — regulators recommend verifying that any firm collecting deposits or investment funds is licensed by the relevant financial authority before handing over money.`,
+    categorySlug: 'investment-fraud',
+    country: 'TR',
+    isHistorical: true,
+    firstRecorded: '2021-07-01',
+    sources: ['Daily Sabah', "Turkey's Banking Regulation and Supervision Agency (BDDK)", 'Hürriyet'],
+    sourceUrl: 'https://www.dailysabah.com/turkey/investigations/real-estate-scam-in-turkey-grossed-nearly-70-million-report',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
