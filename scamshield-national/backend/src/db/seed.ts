@@ -41227,6 +41227,45 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'Idaho Prepaid Cash Card Lottery Scam',
+    slug: 'idaho-prepaid-cash-card-lottery-scam',
+    description: `In July 2012, Idaho Attorney General Lawrence Wasden issued a consumer alert after an Idaho resident lost more than $4,000 in a single day to a lottery scam built around prepaid cash cards, buying eight $500 Green Dot MoneyPak-style cards at the same retailer to comply with a caller's instructions. The scheme told the victim they had won a lottery or sweepstakes prize, but that taxes or fees had to be paid first by loading a prepaid cash card and then reading the card's authorization code back to the caller over the phone; once the caller had that code, they could drain the entire card balance themselves, and because the transfer happened instantly and anonymously, the money could not be traced or recovered. Wasden's office reiterated that no legitimate lottery, sweepstakes, or government agency ever asks a winner to pay upfront fees — especially through prepaid gift or cash cards — to release a prize, and urged Idahoans who receive such a call to hang up without reading any card number or authorization code to the caller.`,
+    categorySlug: 'lottery-sweepstakes-scams',
+    country: 'US',
+    state: 'ID',
+    isHistorical: true,
+    firstRecorded: '2012-07-01',
+    sources: ['Idaho Attorney General (Lawrence Wasden)', "Coeur d'Alene Press"],
+    sourceUrl: 'https://cdapress.com/news/2012/jul/09/ag-beware-of-cash-card-lottery-scam-5/',
+  },
+  {
+    name: 'Public Safety Communications Inc. Charity Telefunding Fraud',
+    slug: 'iowa-public-safety-communications-charity-telefunding-fraud',
+    description: `In May 2009, Iowa Attorney General Tom Miller filed a consumer fraud lawsuit against Public Safety Communications, Inc., a Des Moines-based professional fundraising company, alleging its telemarketers deceived Iowa donors while soliciting on behalf of charities including Handicapped Children's Services of America, the State Police Officers Council, American Veterans Network, and the Association of Firefighters and Paramedics. The lawsuit claimed the company collected more than $1.5 million from Iowans but forwarded only 10 to 20 percent of it to the named charities, while callers misrepresented who they were, where the organizations were located, and how much of each donation would actually reach the stated cause. The Attorney General's office sought civil penalties of up to $40,000 per violation of Iowa's Consumer Fraud Act and up to $5,000 per violation of the state's law protecting older Iowans, along with a court order barring the company from continuing its solicitation practices. The case reflected a pattern the Iowa Attorney General's office has repeatedly warned about with professional telefunders: a donor's dollar routed through certain fundraising calls can legally deliver only a few cents to the charity actually being named.`,
+    categorySlug: 'charity-scams',
+    country: 'US',
+    state: 'IA',
+    isHistorical: true,
+    firstRecorded: '2009-05-20',
+    sources: ['Iowa Attorney General (Tom Miller)', 'Radio Iowa', 'The Gazette'],
+    sourceUrl: 'https://www.radioiowa.com/2009/05/20/attorney-general-files-suit-against-fundraising-company/',
+  },
+  {
+    name: 'Omaha Medicaid Personal-Care Billing Fraud (Lisa Mitchell)',
+    slug: 'nebraska-omaha-medicaid-personal-care-billing-fraud-mitchell',
+    description: `Lisa Mitchell, a 57-year-old Omaha woman working as a Medicaid personal assistance services provider, kept billing Nebraska Medicaid for in-home care after she had been banned from providing services at Crown Tower, an assisted-living facility, and was no longer authorized to perform the work. An investigation by the Medicaid Fraud and Patient Abuse Unit of the Nebraska Attorney General's Office, working with the Program Integrity Unit of Nebraska Medicaid, found she billed for services she did not render to three Medicaid recipients despite the ban. Mitchell pleaded guilty on May 20, 2025, to felony theft by unlawful taking; District Judge Tressa Alioth ordered her to repay $12,008.31 to Nebraska Medicaid, sentenced her to five years of probation, and permanently barred her from billing any federally funded healthcare program again. The Nebraska Attorney General's Office pointed to the case as part of its ongoing effort to police personal-care and home-health billing, where a caregiver barred from one facility can otherwise keep submitting Medicaid claims elsewhere unless investigators catch the pattern.`,
+    categorySlug: 'healthcare-fraud',
+    country: 'US',
+    state: 'NE',
+    isHistorical: true,
+    firstRecorded: '2025-05-20',
+    sources: ['Nebraska Attorney General (Mike Hilgers)'],
+    sourceUrl: 'https://ago.nebraska.gov/news/omaha-woman-fined-medicaid-fraud',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
