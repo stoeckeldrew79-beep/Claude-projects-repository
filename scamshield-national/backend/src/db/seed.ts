@@ -38118,6 +38118,38 @@ SEED_SCAMS.push(
     sourceUrl: 'https://www.justice.gov/usao-mt/pr/washington-dc-area-saxophonist-sentenced-defrauding-montana-charity',
   },
 );
+SEED_SCAMS.push(
+  {
+    name: 'Norfund Business Email Compromise Wire Fraud',
+    slug: 'norway-norfund-business-email-compromise-2020',
+    description: `Norfund, Norway's state-owned investment fund for developing countries, discovered in April 2020 that it had been the victim of a months-long business email compromise attack that diverted roughly $10 million (about 100 million Norwegian kroner) intended for a legitimate microfinance investment in Cambodia. Attackers had quietly infiltrated Norfund's internal IT systems and monitored email traffic between its staff and investment partners for an extended period, studying real transaction patterns closely enough to falsify payment instructions convincingly. On March 16, 2020, the fraudsters intercepted a genuine transfer meant for a Cambodian microfinance institution and redirected it to a bank account in Mexico opened under a name nearly identical to the real recipient's, then sent a follow-up email to the actual Cambodian beneficiary blaming a payment delay on Norway's COVID-19 lockdown to buy time. The theft went undiscovered for more than a month, surfacing only when the same attackers attempted a second fraudulent transfer on April 30, 2020, which Norfund's staff caught and blocked. Norfund reported the fraud to Norwegian police (Økokrim) and Interpol and brought in external cybersecurity investigators, but the diverted $10 million was never recovered. The case shows that even sophisticated financial institutions with dedicated compliance staff can be defeated by a patient attacker who studies real correspondence long enough to make a fraudulent payment instruction look routine — any last-minute change to bank account details for a large transfer should be verified by phone through a previously known number, never through the email thread where the change appeared.`,
+    categorySlug: 'business-email-compromise',
+    country: 'NO',
+    alertLevel: 'high',
+    sources: ['Norfund official statement', 'CyberScoop', 'BleepingComputer'],
+    sourceUrl: 'https://www.norfund.no/norfund-has-been-exposed-to-a-serious-case-of-fraud/',
+  },
+  {
+    name: 'Mobile IMSI-Catcher Smishing Campaign Impersonating Norwegian Banks',
+    slug: 'norway-imsi-catcher-bank-smishing-fraud-2024',
+    description: `Over a 23-day span in August and September 2023, a 25-year-old Malaysian national drove a car fitted with an IMSI-catcher — a suitcase-sized device that mimics a legitimate cell tower — through the streets of Oslo and Bergen, using it to blast nearly 245,000 fraudulent text messages directly to nearby phones without going through any telecom carrier's network. The messages impersonated trusted Norwegian brands, including the bank DNB, the bank Bank Norwegian, and delivery company DHL, and linked to convincing fake websites that asked recipients to enter their online banking credentials and card details to resolve a supposed delivery or account problem. The scheme tricked 103 people into handing over real banking information before it collapsed for an unrelated reason: the device's radio signature was picked up by counter-espionage equipment protecting government buildings in Oslo, and the driver was first detained on suspicion of being a foreign spy before investigators realized he was running a financial fraud operation instead. Oslo District Court convicted him and sentenced him to three years in prison, a sentence Norway's national economic crime authority, Økokrim, considered too lenient given it had sought six years, given the scale of the operation and the direct financial harm to victims. The case demonstrates that smishing no longer requires phone number lists or hacked carrier accounts — a determined fraudster can broadcast fake bank texts to everyone within range of a car window — so links in unsolicited text messages about banking or deliveries should never be trusted regardless of how the message reached you.`,
+    categorySlug: 'phishing',
+    country: 'NO',
+    alertLevel: 'high',
+    sources: ['Commsrisk', 'Oslo District Court reporting'],
+    sourceUrl: 'https://commsrisk.com/3-years-in-prison-for-fraudster-who-drove-sms-blasting-imsi-catcher-around-norway/',
+  },
+  {
+    name: 'Octa Partners / Nano Club Crypto-Investment Ponzi Scheme',
+    slug: 'norway-okokrim-octa-partners-nano-club-crypto-ponzi-2025',
+    description: `Between March 2015 and November 2018, a Norwegian investment operation that rebranded itself repeatedly — first as Octa Partners, then as Nano Club, then Crypto888, and finally Nano Crowd — collected roughly 963 million Norwegian kroner (about $86.5 million) from thousands of investors in multiple countries. Investors were sold "product packages" that combined the scheme's own newly created cryptocurrencies, beginning with OctaCoin and later NanoCoin and Ormeus Coin, with promises of guaranteed monthly returns funded, Norwegian prosecutors Økokrim allege, entirely by the money paid in by newer investors rather than any real trading, mining, or business activity in the gas, mining, and real estate ventures the scheme claimed to operate. The operation recruited heavily through in-person presentations at conferences and events across several countries and through existing investors bringing in friends and family, the classic multi-level structure of a Ponzi scheme. In February 2025, Økokrim formally indicted four Norwegian men in their 50s, 60s and 70s, including Terje Hvidsten, a former art dealer with prior fraud convictions, and Dag Hætta Eriksen, who has past convictions for corruption and fraud; three were charged with collecting the fraudulent investments and one with laundering the proceeds. Prosecutors allege more than 700 million kroner (about $62.7 million) of the stolen money was funneled through a Norwegian investment firm before being moved into accounts in several Asian countries to obscure its origin. The scheme's practice of relaunching under a new name and new coin each time public scrutiny or regulatory attention increased is a recognizable warning sign that any "investment" promising guaranteed returns from new cryptocurrency products should be treated with deep suspicion, since a legitimate business does not need to keep rebranding under a new name to keep attracting money.`,
+    categorySlug: 'investment-fraud',
+    country: 'NO',
+    alertLevel: 'high',
+    sources: ['Økokrim', 'Decrypt', 'Cointelegraph'],
+    sourceUrl: 'https://decrypt.co/306550/norway-charges-four-over-87-million-crypto-investment-fraud',
+  },
+);
 
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
