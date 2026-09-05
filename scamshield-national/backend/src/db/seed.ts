@@ -39817,6 +39817,44 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'Paul Randall Medi-Cal Prescription Drug Billing Fraud',
+    slug: 'california-randall-medi-cal-prescription-fraud',
+    description: `Paul Richard Randall, 66, of Orange, California, orchestrated a scheme that exploited Medi-Cal's temporary suspension — adopted in early 2022 as part of a transition to a new payment system — of its usual requirement that providers get prior authorization before dispensing certain medications. Working with a pharmacist and pharmacy owner and a nurse practitioner, Randall caused a pharmacy network to bill Medi-Cal for expensive, non-contract prescription drugs that were often compounded from low-cost generic ingredients and, in many cases, were not medically necessary or never actually dispensed to the patients they were billed for. From May 2022 through April 2023, the scheme submitted at least approximately $269,120,829 in false and fraudulent claims, of which Medi-Cal paid out roughly $178,746,556. Randall pleaded guilty in April 2026 to one count of wire fraud committed while on release, facing a statutory maximum of 30 years in federal prison at his scheduled sentencing. The case shows how a temporary regulatory change meant to speed care during a system transition can be exploited at scale — a reminder that healthcare billing fraud on this scale is usually uncovered only through claims-pattern audits, which is why patients should check their own Medi-Cal or Medicare statements for medications they never received.`,
+    categorySlug: 'healthcare-fraud',
+    country: 'US',
+    state: 'CA',
+    isHistorical: true,
+    firstRecorded: '2022-05-01',
+    sources: ['U.S. Department of Justice — Central District of California'],
+    sourceUrl: 'https://www.justice.gov/usao-cdca/pr/orange-county-man-pleads-guilty-orchestrating-fraud-scheme-submitted-nearly-270',
+  },
+  {
+    name: 'Eastern District of Texas Romance and Business Email Compromise Ring',
+    slug: 'texas-edtx-romance-bec-unemployment-fraud-ring',
+    description: `Starting around January 2017, a group of conspirators based in the Plano, Allen, and Houston areas of Texas ran a sprawling fraud operation that combined online romance scams with business email compromise, investor fraud, and pandemic-era unemployment insurance fraud, ultimately taking approximately $17 million from more than 100 individual victims, companies, and government entities around the world. Victims recruited through romance scams were often turned into unwitting "money mules," moving stolen funds through their own accounts before the money was laundered further. Following convictions and guilty pleas, U.S. District Judge Amos L. Mazzant III sentenced the conspirators in June 2025: Damilola Kumapayi of Plano received 109 months, Sandra Iribhogbe Popnen of Plano received 365 months, and Edgal Iribhogbe of Allen along with Chidindu Okeke and Chiagoziem Okeke of Houston — convicted at trial — each received 480 months in federal prison. The case illustrates how a romance scam is frequently just the entry point into a larger, professionalized fraud operation that also targets businesses and government benefit programs — anyone asked by an online romantic interest to receive and forward money, or to open accounts in their name, should recognize that as a sign they are being recruited as a money mule, not helping a partner in need.`,
+    categorySlug: 'romance-scams',
+    country: 'US',
+    state: 'TX',
+    isHistorical: true,
+    firstRecorded: '2017-01-01',
+    sources: ['U.S. Department of Justice — Eastern District of Texas', 'IRS Criminal Investigation'],
+    sourceUrl: 'https://www.justice.gov/usao-edtx/pr/conspirators-sentenced-engaging-multitude-fraud-schemes-including-romance-scams',
+  },
+  {
+    name: 'Florida "Direct Deposit Refund" IRS Impersonation Tax Scam',
+    slug: 'florida-direct-deposit-refund-irs-impersonation',
+    description: `As part of the Florida Attorney General's 2024 Tax Season Scam Series, Attorney General Ashley Moody warned Floridians about a "direct deposit refund" scam in which callers, texters, or emailers pose as IRS agents and claim a mistake was made on the victim's tax return — typically that a refund was deposited in the wrong amount or the wrong account. The scammer then demands the victim immediately send the "overpayment" back, usually by wire transfer or gift card, creating a false sense of urgency so the victim acts before checking with the real IRS. The alert reminded taxpayers that the IRS never initiates contact about refunds by text or email, never demands immediate payment over the phone, and never requires payment by gift card or wire transfer; anyone unsure about the status of a refund should check it directly through the IRS's "Where's My Refund?" tool or the IRS2Go app rather than trusting a caller's claim. Floridians who encounter this or a similar scam can report it to the Florida Attorney General's Office at 1-866-9NO-SCAM or MyFloridaLegal.com, or to the FTC at ReportFraud.ftc.gov.`,
+    categorySlug: 'tax-scams',
+    country: 'US',
+    state: 'FL',
+    alertLevel: 'medium',
+    sources: ['Florida Office of the Attorney General'],
+    sourceUrl: 'https://www.myfloridalegal.com/newsrelease/video-consumer-alert-ag-moody-concludes-2024-tax-season-scam-series-warning-about',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
