@@ -35046,6 +35046,42 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'Aurora Phelps Dating-App Drugging and Robbery Scheme',
+    slug: 'nevada-aurora-phelps-dating-app-drugging-robbery',
+    description: `Federal prosecutors say Aurora Phelps, 43, who kept residences in Las Vegas, Nevada and Guadalajara, Mexico, spent roughly a year and a half meeting older men through online dating websites and apps, arranging in-person dates, and then drugging them so she could gain unauthorized access to their bank and financial accounts and drain the funds for her own and her family members' benefit. According to a superseding indictment returned by a federal grand jury and announced by the U.S. Attorney's Office for the District of Nevada in February 2025, the scheme ran from July 1, 2021 to December 9, 2022, and Phelps faces seven counts of wire fraud, three counts of mail fraud, six counts of bank fraud, three counts of aggravated identity theft, one count of kidnapping, and one count of kidnapping resulting in death. The case grew out of a two-year investigation by the FBI's Las Vegas Division; an original indictment was returned in September 2023, and the superseding indictment added the kidnapping charges after investigators tied the scheme to the death of at least one victim. At the time of the announcement Phelps was in custody in Mexico, where U.S. authorities were pursuing her extradition to face trial in Nevada; if convicted on all counts she faces a maximum possible sentence of life in prison. The case is an extreme version of a pattern seen across far more ordinary romance and dating-app scams: a relationship that moves quickly from an app to in-person meetings, unusual gifts of food or drink from a new partner, and any resulting confusion, memory gaps, or unauthorized account activity are all reasons to involve a trusted friend or family member and contact law enforcement immediately rather than assuming an innocent explanation.`,
+    categorySlug: 'romance-scams',
+    country: 'US',
+    state: 'NV',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office for the District of Nevada", 'FBI Las Vegas Division', 'NBC News', 'CBS News'],
+    sourceUrl: 'https://www.justice.gov/usao-nv/pr/nevada-woman-indicted-romance-scheme-defraud-seniors',
+  },
+  {
+    name: 'NuTech Energy Resources Coalbed-Methane Pump-and-Dump Scheme',
+    slug: 'wyoming-nutech-energy-resources-pump-and-dump',
+    description: `Justin Wallace Herman and Charles "Chuck" Winters Jr. conspired with Robert "Bob" Mitchell to take control of a dormant publicly traded shell company, EcoEmissions Solutions Inc., rename it NuTech Energy Resources Inc., and sell its stock to the public under the ticker symbol NERG as part of a classic "pump and dump" scheme. The conspirators built a false online image of NuTech as a real operating company based in Gillette, Wyoming, that used patented technology to produce coalbed-methane natural gas from wells across the state — when in fact NuTech had no business operations, no revenue, and no paid employees anywhere, in Wyoming or otherwise. To inflate the supply of tradeable stock they could sell into the artificially pumped-up price, Herman and Winters used altered, backdated, and forged corporate documents to acquire roughly 13 billion free-trading shares of NuTech common stock, then sold those worthless shares to investors who believed they were buying into a real Wyoming energy company. Mitchell pleaded guilty before trial and cooperated with prosecutors, and a federal jury in Cheyenne convicted Herman and Winters in October 2021 of securities fraud and identity theft-related crimes tied to the scheme. U.S. District Judge for the District of Wyoming later sentenced Herman, of Canonsburg, Pennsylvania, to 87 months in federal prison, and Winters, of Bradenton, Florida, to 54 months, with three years of supervised release and orders to pay restitution and a special assessment. The case is a reminder that a stock's convincing website, press releases, and technical-sounding claims about a specific named operation are not verification: before buying shares in any small or thinly traded company, investors should confirm through independent, audited SEC filings — not the company's own marketing — that it actually operates the business, and owns the assets, it claims to.`,
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    state: 'WY',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office for the District of Wyoming", 'Wyoming Tribune Eagle', 'Cowboy State Daily'],
+    sourceUrl: 'https://www.justice.gov/usao-wy/pr/defendants-sentenced-prison-securities-fraud-and-identity-theft-related-nutech-energy',
+  },
+  {
+    name: 'Cross-Border "Grandparent Scam" Cash-Courier Network (Gareth West)',
+    slug: 'vermont-gareth-west-grandparent-scam-network',
+    description: `Federal prosecutors in Burlington charged 25 Canadian nationals, including alleged ringleader Gareth West, 38, in connection with a nationwide "grandparent scam" that the U.S. Attorney's Office for the District of Vermont says stole roughly $21 million from elderly victims across at least 45 states — including Vermont and every other New England state — between the summer of 2021 and June 4, 2024. According to the indictment, callers working out of call centers in and around Montreal phoned elderly victims and, posing as a grandchild, claimed to have been arrested following a car accident and to urgently need money for bail; a second conspirator would then get on the line posing as a lawyer or police officer to add pressure and instruct the victim not to tell any other family member, sometimes falsely invoking a "gag order" to explain the secrecy. Once a victim agreed to help, in-person couriers were dispatched to collect cash directly from the victim's home, after which the money was driven across the U.S.-Canada border and laundered, in some cases through cryptocurrency, to obscure its origin before reaching the conspiracy's organizers. The investigation was led by the U.S. Attorney's Office for the District of Vermont together with Homeland Security Investigations, IRS Criminal Investigation, and U.S. Customs and Border Protection, working with Canadian counterparts at the Sûreté du Québec and the Royal Canadian Mounted Police; the defendants, including West, who was arrested by the RCMP in St-Colomban, Quebec, face conspiracy to commit wire fraud and money laundering charges carrying up to 40 years in prison, and the U.S. government is seeking their extradition from Canada to stand trial in Vermont. Because this scam depends on speed and secrecy, the Vermont Attorney General's office and federal investigators urge anyone who gets a frightened call claiming to be a grandchild in trouble to hang up and call that family member back directly at a number already saved in their phone — and never to hand cash to a courier or wire money based on a single unverified phone call, no matter how urgent or convincing it sounds.`,
+    categorySlug: 'family-emergency-scams',
+    country: 'US',
+    state: 'VT',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office for the District of Vermont", 'U.S. Immigration and Customs Enforcement (ICE)', 'IRS Criminal Investigation', 'Times Argus'],
+    sourceUrl: 'https://www.justice.gov/usao-vt/pr/25-canadian-nationals-charged-vermont-connection-nationwide-multimillion-dollar',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
