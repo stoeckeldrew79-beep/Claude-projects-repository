@@ -36933,6 +36933,41 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'Forex-3D Foreign-Exchange Ponzi Scheme',
+    slug: 'thailand-forex-3d-ponzi-scheme',
+    description: `Starting November 25, 2015, an invitation-only Facebook trading group calling itself Forex-3D, run through the website forex-3d.com, recruited Thai investors with promises of 60–80% returns from currency trading, split 60/40 in the investor's favor, for a minimum buy-in of about $2,000. Early "profits" were paid out on schedule and investors with large social-media followings encouraged their own followers to join, letting the group snowball for nearly five years before payments collapsed on September 8, 2020. Thailand's Department of Special Investigation (DSI), which built the case as Special Case No. 153/2562, ultimately tied the scheme to 9,825 victims who had invested a combined 2.49 billion baht. Alleged mastermind Apirak Kotethi fled after DSI obtained an arrest warrant for him in March 2020, and was tracked down and arrested at a Thonglor condominium in Bangkok on January 15, 2021, where investigators seized a Lamborghini Huracan (repainted from orange to blue to avoid recognition), a luxury watch, and other assets. On December 27, 2024, the Criminal Court convicted three co-defendants — Chatchai Khotchathin, Theeraphassakorn Kimwangtako, and Suranart Nakmusik — on one count of fraud for each of the 9,825 victims, technically sentencing each of them to 49,125 years in prison, a term Thai law caps at 20 years actually served, while acquitting several other defendants, including two Thai celebrities accused of promoting the scheme. The court additionally ordered 2.47 billion baht in restitution plus 7.5% annual interest running from April 2021, though further defendants — including an actress cleared in that same trial — continued moving through additional court proceedings well into 2026. DSI's case stands as one of Thailand's largest documented investment-fraud prosecutions and illustrates how quickly a closed, invitation-only "trading club" seeded through personal social-media endorsements can scale into a nationwide Ponzi scheme before regulators or victims recognize the payouts were never coming from real trading.`,
+    categorySlug: 'investment-fraud',
+    country: 'TH',
+    isHistorical: true,
+    firstRecorded: '2015-11-25',
+    sources: ["Thailand Department of Special Investigation (DSI)", 'Bangkok Post', 'FinanceMagnates'],
+    sourceUrl: 'https://www.dsi.go.th/en/Detail/6298c499ace561298d0f87c46eb5c632',
+  },
+  {
+    name: 'Fake Government Agency "Verification" Call-Center Scam Wave',
+    slug: 'thailand-government-agency-impersonation-call-scam',
+    description: `Callers using spoofed numbers tell Thai consumers they are calling from an agency people deal with routinely — most often the Department of Land, the Customs Department, or the Department of Business Development — and claim the person's records need "updating" or "verifying," sometimes through a face scan or by clicking a link sent by SMS to install what is actually remote-access malware. Once the software is installed or the victim is talking to the scammer directly, the caller pivots to one of several well-worn pressure scripts: accusing the victim of a frozen bank account or credit-card debt, implicating them in a drug-trafficking or money-laundering investigation, dangling a fake tax refund that requires an upfront ATM transfer to release, demanding a "tax" payment to unlock a prize, impersonating a bank employee requesting personal details, or claiming money was deposited into their account by mistake and must be "returned" immediately. In one widely reported case, Thai PBS news anchor Paweenamai Baikhloi lost more than one million baht in August 2023 after scammers impersonating Department of Land officials convinced her to install a fake application that gave them remote access to her phone; the Thailand Bankers' Association froze her accounts as soon as the case became public. On January 17, 2024, the Thai government's spokesperson, Chai Wacharonke, cited Bank of Thailand data in publicly warning citizens about these six most common call-center scam types, stressing that "no government agency has a policy of contacting the public directly" to demand a transfer, verification, or personal information over an unsolicited call. The government's advice is to hang up on any unexpected call demanding money or verification, never click a link or install an app sent by an unsolicited caller, and report suspected scams to the police's High-Tech Crime Division hotline (1441) or via www.thaipoliceonline.com rather than calling back a number the caller provides.`,
+    categorySlug: 'government-impersonation',
+    country: 'TH',
+    alertLevel: 'critical',
+    sources: ['Royal Thai Government (Government Spokesperson Chai Wacharonke)', 'Bank of Thailand', 'Bangkok Post', 'Royal Thai Embassy, Washington D.C. — Anti-Human Trafficking Action Project'],
+    sourceUrl: 'https://www.thaianti-humantraffickingaction.org/Home/2024/01/17/government-warns-public-of-six-most-common-types-of-call-center-scams/',
+  },
+  {
+    name: 'K2N Gold Shop Livestream Fake-Gold-Content Scam',
+    slug: 'thailand-k2n-gold-shop-livestream-scam',
+    description: `K2N Gold Shop, based in Bangkok's Khlong Sam Wa district and run by Kornkanok Suwannabut (alias "Mae Tuck") and Kanpon Rueang-aram (alias "Pa Bia"), sold gold amulets and jewelry to customers nationwide through Facebook and other social-media livestreams, advertising items as genuine gold at prices well below what a legitimate goldsmith could offer. Buyers only discovered a problem later, when they tried to pawn or resell a piece to an independent dealer and were told the gold content was substandard — in one case cited by police, a 32-year-old woman who bought a roughly 30,000-baht gold "Pixiu" bracelet as a gift learned it was largely worthless only after her mother tried to pawn it. Thailand's Consumer Protection Police Division (CPPD), led by Pol. Maj. Gen. Withaya Sriprasertparp, opened an investigation after at least 16 complaints came in, and arrested the couple in a raid on Ram Intra Road in Bangkok's Bang Khen district on September 30, 2024, seizing luxury cars and firearms pending a parallel review of their finances by Thailand's Anti-Money Laundering Office. Police opposed bail and held the pair on charges of public fraud, false advertising, and Computer Crime Act violations, all stemming from misrepresenting the gold content of items sold sight-unseen over a livestream. The case illustrates a scam pattern the CPPD has flagged repeatedly as online gold sales have grown in Thailand: a seller who cannot be independently verified, a too-good-to-be-true price, and a purity claim a buyer has no way to test until well after paying — for which the CPPD's standing advice is to buy gold only from a registered, physically inspectable goldsmith and to have any online gold purchase independently assayed immediately on receipt rather than waiting until a resale or pawn attempt reveals a problem.`,
+    categorySlug: 'online-shopping-scams',
+    country: 'TH',
+    isHistorical: true,
+    firstRecorded: '2024-09-30',
+    sources: ['Consumer Protection Police Division (CPPD), Royal Thai Police', 'Thai Examiner'],
+    sourceUrl: 'https://www.thaiexaminer.com/thai-news-foreigners/2024/09/30/gold-couple-arrested-in-police-raid-on-monday-on-criminal-charges-including-alleged-public-fraud/',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
