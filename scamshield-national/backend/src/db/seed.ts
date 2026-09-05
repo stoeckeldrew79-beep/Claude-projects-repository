@@ -40735,6 +40735,40 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'Fake "Moje daně" Tax Overpayment Phishing Scam',
+    slug: 'czech-moje-dane-tax-overpayment-phishing-scam',
+    description: `Since at least May 2024, the Financial Administration of the Czech Republic has warned of a two-pronged phishing campaign impersonating its own tax office. In one version, an automated phone call tells the recipient they are owed a tax overpayment — one documented example cited a refund of 30,000 CZK — then follows up with a text message carrying a link; in the other, the SMS arrives on its own, skipping the call entirely. Either way, the link leads to a convincing fake of "Moje daně" (My Taxes), the tax administration's real online portal, complete with the agency's official logo, and asks the victim to log in and hand over "sensitive personal information" along with their internet banking access data. The Financial Administration has stressed the tell that exposes the fraud every time: the real tax office pays overpayments automatically without any action from the taxpayer, and it never sends active links by SMS or email or places automated calls about a refund — so any such message, however official-looking, should be treated as fake and never clicked.`,
+    categorySlug: 'tax-scams',
+    country: 'CZ',
+    alertLevel: 'high',
+    sources: ['Financial Administration of the Czech Republic'],
+    sourceUrl: 'https://financnisprava.gov.cz/en/financial-administration/news/news-2024/warning-against-scam-phone-calls-and-text-messages',
+  },
+  {
+    name: '"JSME LIDÉ" Fake Ukraine Charity Collection-Box Fraud',
+    slug: 'czech-jsme-lide-fake-ukraine-charity-fraud',
+    description: `For months in 2024, a group calling itself "JSME LIDÉ" ("We Are People") set up donation collection boxes in shopping centers and supermarkets across Prague and towns in the surrounding Central Bohemian Region, soliciting cash from shoppers moved by Ukraine's wartime situation. The organization was registered in the Czech commercial register but had no website and no real social media presence — a fundraising operation that existed only at the collection box. Prague police detectives eventually traced the scheme to an 18-year-old organizer and several accomplices, who investigators say used the donated money not to help Ukraine but to fund their own travel, accommodation, and living expenses. Police confirmed roughly 1.1 million Czech crowns (about €44,000) in provable losses, while cautioning the real total taken in was likely far higher, and recovered several hundred thousand crowns during searches of the organizer's residence. The lead organizer was arrested and faces up to eight years in prison on fraud charges. The case is a reminder that a legitimate charity has a verifiable public presence — a real website, registered status with an actual charity regulator, and transparent reporting on where donations go — and a collection box with none of that, however sympathetic the cause, deserves scrutiny before any cash goes in.`,
+    categorySlug: 'charity-scams',
+    country: 'CZ',
+    isHistorical: true,
+    firstRecorded: '2024-09-01',
+    sources: ['Prague Police (Policie ČR)', 'Ukrinform', 'Yahoo News (via Ukrainska Pravda)'],
+    sourceUrl: 'https://www.ukrinform.net/rubric-crime/3908210-czech-teen-exposed-for-fraud-in-ukraine-fundraiser.html',
+  },
+  {
+    name: 'Fake Overseas Inheritance Drug-Courier Recruitment Scam',
+    slug: 'czech-overseas-inheritance-drug-courier-scam',
+    description: `Czech police have warned of a rise in scams, generally traced to West African criminal networks, that lure victims abroad on a false pretext and unknowingly turn them into drug couriers. The National Drug Headquarters says fraudsters typically make first contact by mail or email, using a story such as an unexpected inheritance or a budding personal relationship, and offer to cover all travel costs to persuade the target to fly overseas; in the final step, drugs are planted in the victim's luggage before the return flight. Elderly people are especially targeted, and in one documented case a 77-year-old man received an email from a supposed lawyer informing him he had inherited $5 million, but that he needed to travel to Brazil in person to collect it, backed up by forged certificates carrying the letterheads of real-looking foreign public and financial institutions. His family warned him it was a scam and even contacted Interpol, but he made the trip anyway and accepted a suitcase he was told held gifts; Brazilian police found seven kilograms of cocaine hidden inside it at the airport. Police say at least two Czechs have ended up jailed abroad this way in the past year, with several more cases under investigation, and note that in some instances the personal details used to craft these approaches were bought on darknet marketplaces — a warning that any unsolicited inheritance or romance-driven invitation to travel overseas, especially one that comes with a "gift" to carry home, should be treated as a potential trap rather than good fortune.`,
+    categorySlug: 'lottery-sweepstakes-scams',
+    country: 'CZ',
+    alertLevel: 'critical',
+    sources: ['Czech National Drug Headquarters (Národní protidrogová centrála)', 'Radio Prague International'],
+    sourceUrl: 'https://english.radio.cz/police-warn-more-czechs-targeted-overseas-drug-courier-scams-8873054',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
