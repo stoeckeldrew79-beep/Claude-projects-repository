@@ -11821,8 +11821,8 @@ Before paying for any online degree or certification program, verify the school'
     slug: 'influencer-brand-deal-payment-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'influencer-scam'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Social_Media_App_Icons_On_The_Screen_of_A_Smartphone.jpg?width=1200',
-    coverImageCredit: 'Photo: Mike MacKenzie (CC BY 2.0)',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Facebook_app_icon_on_smartphone_screen_(perspective_render)_(49896915791).jpg?width=1200',
+    coverImageCredit: 'Photo: Yuri Samoilov (CC BY 2.0)',
     coverImagePosition: 50,
     sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2024/03/influencers-spot-job-scam',
     body: `A message lands in a content creator's DMs or inbox from someone claiming to be a "brand ambassador manager" or recruiter for a well-known company, offering free products to try and a surprisingly generous payment for a post or two tagging the brand. The offer is flattering and specific — it names the creator, references their follower count or niche — and moves fast: before any contract or product has actually shown up, the "manager" asks for banking details so the payment can be sent, or for a purchase of the company's product upfront, to be reimbursed later alongside the fee.
@@ -12230,8 +12230,8 @@ The most effective defense is also the simplest: create your own my Social Secur
     slug: 'credit-privacy-number-cpn-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'cpn-scam'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Social%20Security%20card.jpg?width=1200',
-    coverImageCredit: 'Photo: Social Security Administration (public domain)',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/MBP_keyboard_closeup.JPG?width=1200',
+    coverImageCredit: 'Photo: Matthias.Kirchner (CC BY-SA 3.0)',
     coverImagePosition: 50,
     sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/1999/05/law-enforcement-crackdown-targets-credit-repair-con-artists',
     body: `Someone with damaged credit sees a "credit repair" pitch — increasingly on social media, historically through mailers, newspaper ads, and websites — offering a "Credit Privacy Number" (sometimes called a CPN or credit profile number) as a legal way to wipe the slate clean. The claim is that this nine-digit number can be used in place of a Social Security number on loan and credit card applications, letting a person with a ruined credit history start over with a spotless file, sometimes with instructions on obtaining new "starter credit" once the switch is made.
@@ -12768,10 +12768,9 @@ Before clicking anything, search the case name plus "settlement" independently �
     slug: 'google-voice-verification-code-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'google-voice-scam'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Young_people_texting_on_smartphones_using_thumbs.JPG?width=1200',
-    coverImageCredit: 'Photo: Tomwsulcer (CC0)',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Google_Voice_icon_(2020).svg?width=1200',
+    coverImageCredit: 'Google Voice icon (public domain)',
     coverImagePosition: 50,
-    // representative photo — replace with an exact match if found
     sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2021/10/google-voice-scam-how-verification-code-scam-works-and-how-avoid-it',
     body: `It usually starts somewhere ordinary: a reply to a listing on Facebook Marketplace or Craigslist, a message on a dating app, or a response to a "lost pet" or "found pet" post. The other person seems engaged and trustworthy, but says they want to verify you're a real person before going further — maybe because of "all the scammers out there" — and asks for your phone number so Google can text you a six-digit verification code, which they then ask you to read or text back to them. It feels like a small, reasonable ask, framed as being for your own protection.
 
@@ -13007,10 +13006,9 @@ If you're hit, disconnect the infected device from the network immediately to st
     slug: 'crypto-rug-pull-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'crypto-rug-pull'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Bitcoin_(38461156880)_(cropped).jpg?width=1200',
-    coverImageCredit: 'Photo: Stock Catalog (CC BY 2.0)',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Ethereum.jpg?width=1200',
+    coverImageCredit: 'Ethereum (CC0)',
     coverImagePosition: 50,
-    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.sec.gov/oiea/investor-alert-5-ways-fraudsters-may-lure-victims-scams-involving-crypto-asset',
     body: `A "rug pull" is a crypto exit scam: the developers of a new token or NFT project build hype, take investors' money, and then disappear with it, leaving the token worthless. In a "hard" rug pull, the scam is baked into the code from the start — the smart contract contains a hidden function that lets only the creators sell or withdraw the pooled funds, while everyone else's tokens are effectively locked. In a "soft" rug pull, there's no malicious code at all; the founders simply sell off their own massive token holdings and abandon the project once enough outside money has come in, which is harder to prosecute because it can look like ordinary (if reckless) trading rather than outright theft.
 
@@ -13027,10 +13025,9 @@ Before investing in any new token or NFT project, verify the team's identity, ch
     slug: 'w2-phishing-payroll-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'w2-phishing'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Form_1099-R,_2015.jpg?width=1200',
-    coverImageCredit: 'IRS form (public domain)',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Form_W-2,_2006.png?width=1200',
+    coverImageCredit: 'IRS Form W-2, Wage and Tax Statement (public domain)',
     coverImagePosition: 50,
-    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.irs.gov/newsroom/form-w-2-ssn-data-theft-information-for-businesses-and-payroll-service-providers',
     body: `W-2 phishing is a business email compromise variant with a different target: instead of asking for a wire transfer, the scammer impersonates a company executive and asks payroll or human resources for a list of employees' Form W-2 data — names, Social Security numbers, and income figures — usually framed as a routine, time-sensitive request from the CEO or CFO. The email is typically spoofed or sent from a compromised or lookalike account, arrives with the same tone of quiet authority as a real executive request, and asks the recipient to reply directly with the file or a spreadsheet rather than raising it through any other channel.
 
@@ -13312,10 +13309,9 @@ If you see a "Secret Sister," "Secret Santa," wine-exchange, or similar gift-cha
     slug: 'angler-phishing-fake-social-media-support-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'angler-phishing'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Social_Media_App_Icons_On_The_Screen_of_A_Smartphone.jpg?width=1200',
-    coverImageCredit: 'Photo: Mike MacKenzie (CC BY 2.0)',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Call_Center_Agent.jpg?width=1200',
+    coverImageCredit: 'Photo: FiveOne51 (CC BY-SA 3.0)',
     coverImagePosition: 50,
-    // representative photo — replace with an exact match if found
     sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2024/07/scammers-impersonate-airline-customer-service-representatives',
     body: `Someone posts a public complaint on X, Instagram, or Facebook — a delayed flight, a wrong order, a locked account — tagging the company and asking for help. Within minutes, an account that looks like official support replies with a sympathetic message and asks them to send a DM with their booking number, order number, or account details "so we can look into this." The account has a company logo as its profile picture and a name like "@AirlineHelpDesk" or "[email protected]," but it isn't run by the company at all — it's a scammer who was watching the same public complaint, waiting to reach the customer before the real support team does. Security researchers call this "angler phishing," a reference to the way it dangles bait in front of someone who's already asking for help.
 
@@ -13372,9 +13368,9 @@ The safer habit is to scroll past sponsored results and click the organic listin
     slug: 'otp-bot-verification-code-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'otp-bot-scam'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Smartphone_in_Hand_(Unsplash).jpg?width=1200',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Cellphone_(Unsplash).jpg?width=1200',
+    coverImageCredit: 'Photo: Rodion Kutsaev (CC0)',
     coverImagePosition: 50,
-    // representative photo — replace with an exact match if found
     sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2024/03/whats-verification-code-why-would-someone-ask-me-it',
     body: `A scammer who already has a stolen username and password — bought off a criminal marketplace or lifted through an earlier phishing email — still hits one last wall: the one-time passcode your bank, PayPal, or crypto exchange texts you to confirm a login or a money transfer. OTP bots exist to knock down that wall automatically. The fraudster enters your stolen credentials into the real login page, which triggers your bank to send you a genuine six-digit code by text, and within seconds an automated call reaches your phone with a polished, human-sounding script claiming to be your bank's fraud department, warning of "suspicious activity" and asking you to "verify your identity" by keying in or reading back the code that just arrived.
 
@@ -13506,9 +13502,9 @@ Before paying for any policy from an agent or broker you haven't used before, ve
     slug: 'curbstoning-unlicensed-car-dealer-scam',
     author: 'ScamShield Editorial',
     tags: ['guide', 'curbstoning'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Lono_Avenue_Value_Center_Used_Car_Lot.JPG?width=1200',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/2021_-_Used_Car_Lot_-_Outten_Chevrolet_-_Allentown_PA.jpg?width=1200',
+    coverImageCredit: 'Photo: Atwngirl (CC BY-SA 4.0)',
     coverImagePosition: 50,
-    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.bbb.org/article/news-releases/24541-bbb-tip-avoiding-illegal-car-sales-known-as-curbstoning',
     body: `"Curbstoning" is the practice of an unlicensed used-car dealer buying up cheap, often problem-ridden vehicles — wrecked, flooded, with rolled-back odometers, or carrying a branded title — and reselling them while posing as an ordinary private individual clearing out their own car. The term comes from the old habit of literally parking a rotating inventory along a curb or in a vacant lot with a "For Sale" sign, but today it happens mostly through Facebook Marketplace, Craigslist, and OfferUp listings that all read like a single owner selling one beloved car.
 
@@ -13523,10 +13519,9 @@ Before buying from anyone advertising as a private seller, ask to see the seller
     slug: 'debt-parking-credit-report-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'debt-parking-scam'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Credit-cards.jpg?width=1200',
-    coverImageCredit: 'Photo: Lotus Head (CC BY-SA 2.5)',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Credit_card_terminal.jpg?width=1200',
+    coverImageCredit: 'Photo: Izcool (public domain)',
     coverImagePosition: 50,
-    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2020/11/ftc-stops-debt-collectors-alleged-debt-parking-scheme-requires-it-delete-debts-it-placed-consumers',
     body: `Most people assume a debt collector has to contact them before anything shows up on their credit report. "Debt parking," also called passive collection, skips that step entirely: a collector adds a purported debt directly to a consumer's credit report without ever calling, mailing, or otherwise reaching out first. The debt is frequently one the consumer already paid off, one that belongs to someone else entirely, or one that was never valid in the first place — the collector simply reports it and waits, betting that most people won't notice until the damage is already done.
 
@@ -13576,10 +13571,9 @@ Before paying for a challenge, check whether the firm (or the broker it routes t
     slug: 'e-skimming-online-checkout-card-theft',
     author: 'ScamShield Editorial',
     tags: ['guide', 'e-skimming'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Shopping_online_with_bank_card.jpg?width=1200',
-    coverImageCredit: 'Photo: Bogdan Hoyaux / European Commission (CC BY 4.0)',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Close-up_keyboard_view.jpg?width=1200',
+    coverImageCredit: 'Photo: Brion Testaccount (CC BY-SA 3.0)',
     coverImagePosition: 50,
-    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.cisa.gov/news-events/alerts/2019/10/23/fbi-releases-article-defending-against-e-skimming',
     body: `Physical card skimmers get attached to gas pumps and ATMs, but a growing share of card theft never touches a physical device at all. In an "e-skimming" or "Magecart" attack, criminals inject malicious code — often just a few lines of obfuscated JavaScript — directly into a legitimate online store's checkout page, usually by exploiting an outdated plugin or a vulnerability in the site's software. The checkout page still looks and behaves completely normally: the order goes through, a confirmation email arrives, and the product ships. But in the background, the injected script has quietly copied the card number, expiration date, security code, name, and billing address as they were typed, and sent a copy to a server the criminals control.
 
@@ -13670,10 +13664,9 @@ Never sign an Assignment of Benefits or any contract from a door-to-door crew be
     slug: 'verified-badge-phishing-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'verified-badge-scam'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Instagram_app_on_smartphone.jpg?width=1200',
-    coverImageCredit: 'Photo: Santeri Viinamäki (CC BY-SA 4.0)',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Verified-badge.png?width=1200',
+    coverImageCredit: 'Instagram verified badge (public domain)',
     coverImagePosition: 50,
-    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.bbb.org/article/scams/27435-bbb-scam-alert-how-to-protect-your-verified-social-media-account',
     body: `An email or direct message arrives with good news instead of a threat: your Instagram account or Facebook Page has been "reviewed" and is now eligible for the official blue verification badge. It's a flattering pitch rather than a scary one, which is exactly what makes it effective — business owners, influencers, and anyone hoping to look more credible online are primed to want this to be true. The message copies Meta's real branding closely, sometimes adds a countdown ("respond within 24 hours or lose eligibility"), and links out to what looks like Meta's Accounts Center.
 
@@ -13872,10 +13865,9 @@ Modern versions have grown more polished, arriving as convincing corporate email
     slug: 'tsa-precheck-global-entry-renewal-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'tsa-precheck-renewal-scam'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Portland_International_Airport_security_check.jpg?width=1200',
-    coverImageCredit: 'Photo: M.O. Stevens (CC BY 3.0)',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/TSA_Precheck_logo.png?width=1200',
+    coverImageCredit: 'TSA (public domain)',
     coverImagePosition: 50,
-    // representative photo — replace with an exact match if found
     sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2023/04/renewing-your-tsa-precheck-be-alert-scammers',
     body: `An email lands claiming a TSA PreCheck, Global Entry, or NEXUS membership is about to expire, with a link to renew right away before travel plans are disrupted. A web search for "TSA PreCheck renewal" turns up the same kind of link near the top of the results, paid for as a search ad. The site that opens looks convincingly official — a familiar blue-and-white government aesthetic, an eagle seal, application forms that mirror the real ones — and walks the traveler through renewal exactly like the genuine process would.
 
@@ -14009,10 +14001,9 @@ Handle every account issue only inside the official app, or by contacting suppor
     slug: 'pre-settlement-lawsuit-loan-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'lawsuit-loan-scam'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Courtroom_One_Gavel_-_Flickr_-_Joe_Gratz.jpg?width=1200',
-    coverImageCredit: 'Photo: Joe Gratz (CC0)',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Hospital_bed.jpg?width=1200',
+    coverImageCredit: 'Photo: Tiia Monto (CC BY-SA 4.0)',
     coverImagePosition: 50,
-    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.dfs.ny.gov/consumers/litigation-funding',
     body: `Someone injured in a car accident or a slip-and-fall, waiting months or years for a personal injury lawsuit to settle while medical bills and lost wages pile up, sees an ad promising cash "in as little as 24 hours" against their future settlement — no credit check, no monthly payments, and "you owe nothing if you lose." The pitch is for pre-settlement lawsuit funding, sometimes called a lawsuit loan or legal funding: a company advances cash today in exchange for a cut of whatever the plaintiff eventually recovers. Unlike a bank loan, these advances are typically structured as "non-recourse," meaning the funder is repaid only out of case proceeds — a structure the industry uses to argue it isn't a loan at all, and therefore isn't bound by the interest-rate caps, disclosure rules, or licensing that apply to real lending.
 
@@ -14367,10 +14358,9 @@ Before signing over a car title, compare the loan's actual APR against a persona
     slug: 'buy-here-pay-here-repo-churning-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'buy-here-pay-here-scam'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Used_car_lot_in_Lansingburgh,_New_York.jpg?width=1200',
-    coverImageCredit: 'Photo: Tyler A. McNeil (CC BY-SA 4.0)',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Modern_Tow_Trucks.jpg?width=1200',
+    coverImageCredit: 'Photo: Tim (CC BY 2.0)',
     coverImagePosition: 50,
-    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.consumerfinance.gov/ask-cfpb/what-is-a-no-credit-check-or-buy-here-pay-here-auto-loan-or-dealership-en-887/',
     body: `A "buy-here-pay-here" (BHPH) dealership sells a used car and finances it in-house, with the buyer making payments directly to the same lot that sold them the car rather than to a bank or credit union. For someone with damaged or no credit who's been turned down everywhere else, the pitch is straightforward: no credit check, drive off today, make your payments right here. What isn't obvious from the sales floor is that at some BHPH lots, the financing terms aren't a byproduct of the sale — they're the entire business model, structured so that repossessing and reselling the same vehicle to a new buyer is often more profitable than any single loan being paid off in full.
 
@@ -14905,10 +14895,9 @@ Anyone who suspects a vacant land parcel has been sold without their knowledge, 
     slug: 'medical-discount-plan-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'medical-discount-plan-scam'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/New_US_Medicare_Card_Sample_2018.jpg?width=1200',
-    coverImageCredit: 'Photo: Medicare.gov (Public Domain, U.S. Government)',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Medical_Care_Card_USA_Sample.JPG?width=1200',
+    coverImageCredit: 'Centers for Medicare & Medicaid Services (public domain)',
     coverImagePosition: 50,
-    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.ftc.gov/media/79880',
     body: `Medical discount plans are a legal product, but they are not health insurance, and the entire scam depends on blurring that distinction. A telemarketer, a slick website, or a booth at a job fair offers coverage that sounds comprehensive — doctor visits, hospital stays, prescriptions, sometimes even dental and vision — for a monthly premium that looks like a bargain next to a real health plan. What's actually being sold is a membership card that entitles the holder to a discount at a limited network of providers, if those providers agree to honor it at all. There is no claims payment, no coverage for a hospital bill, and no protection against a major medical event — the entire "benefit" is a maybe-lower price at checkout.
 
@@ -15454,10 +15443,9 @@ The FTC's fix is simple: skip the sponsored results entirely when searching for 
     slug: 'fake-ic3-fbi-deepfake-recovery-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'ic3-fbi-impersonation-scam'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/J._Edgar_Hoover_FBI_Building,_Washington_DC_(5946589446).jpg?width=1200',
-    coverImageCredit: 'Photo: Rob Young (CC BY 2.0)',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Seal_of_the_FBI_Internet_Crime_Complaint_Center.png?width=1200',
+    coverImageCredit: 'FBI Internet Crime Complaint Center (public domain)',
     coverImagePosition: 50,
-    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.ic3.gov/PSA/2026/PSA260720',
     body: `Someone who already reported a fraud loss to the FBI's Internet Crime Complaint Center — or simply searched online for help after being scammed — gets contacted again, this time by someone claiming to be a federal agent working their case. The follow-up contact might come as a message on Facebook or Telegram, an email, or a link to a website that looks exactly like IC3.gov. Sometimes it goes further: a video call where a "senior FBI official" appears on screen, addressing the victim by name and describing details of their original complaint.
 
@@ -15509,10 +15497,9 @@ Before paying any fee tied to a permit or zoning application, check the sender's
     slug: 'consent-phishing-oauth-permission-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'consent-phishing-scam'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Man_with_smartphone_and_laptop_(Unsplash).jpg?width=1200',
-    coverImageCredit: 'Photo: Alejandro Escamilla (CC0)',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/HP_Pavilion_Computer_laptop_keyboard_closeup.jpg?width=1200',
+    coverImageCredit: 'Photo: Carissa Rogers (CC BY 2.0)',
     coverImagePosition: 50,
-    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.ic3.gov/PSA/2026/PSA260901',
     body: `A message arrives from an unfamiliar account on LinkedIn, Instagram, or X, posing as a journalist working on a story, an event coordinator finalizing details, or someone from a government office — asking the recipient to review a shared document or verify their identity through a link. The link goes to a real Microsoft or Google sign-in page, the kind seen a dozen times a week, so typing in an email and password feels completely routine. After logging in, a second screen appears asking to "Allow" an application to access the account. One click later, the conversation moves on, nothing seems to have happened, and no password was ever stolen.
 
@@ -16351,7 +16338,7 @@ Anyone responsible for a child in foster care — a caseworker, foster or adopti
     slug: 'ein-application-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'ein-application-scam'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Close-up_of_sign_for_the_Internal_Revenue_Service_building_Washington_DC_2025-02-07_13-21-58_1.jpg?width=1200',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Sign_for_the_Internal_Revenue_Service_building_Washington_DC_2025-02-07_13-21-52_1.jpg?width=1200',
     coverImageCredit: 'Photo: G. Edward Johnson (CC BY 4.0)',
     coverImagePosition: 50,
     sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2025/04/ftc-warns-operators-websites-charge-employer-identification-number-claim-affiliation-irs',
@@ -16416,10 +16403,9 @@ Never pay anyone claiming they can recover money already lost to a scam — veri
     slug: 'aca-marketplace-plan-switching-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'aca-marketplace-plan-switching-scam'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Cleveland_Small_Business_Event_(Pic_3).jpg?width=1200',
-    coverImageCredit: 'Photo: Rodney L. Brown / U.S. Dept. of Health and Human Services (public domain)',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Healthcare.gov_screenshot_2016-01-05.png?width=1200',
+    coverImageCredit: 'HealthCare.gov screenshot (public domain)',
     coverImagePosition: 50,
-    // representative photo — replace with an exact match if found
     sourceUrl: 'https://kffhealthnews.org/insurance/aca-fraud-misleading-ads-unauthorized-signups-switches-obamacare/',
     body: `In November, Texas resident Angelina Wells saw a Facebook ad promising up to $6,400 in cash for rent, groceries, and medical bills. She called the number, hoping for help. She never got a cash card. What she got instead, according to a federal lawsuit, was her Affordable Care Act health coverage silently switched three separate times between November and January — by different insurance carriers, through call centers she never chose, without her ever agreeing to any of it.
 
