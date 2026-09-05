@@ -9460,6 +9460,37 @@ The Bennett Funding Group collapse stands as one of the largest Ponzi schemes un
   },
 );
 
+NOTORIOUS_ARTICLES.push(
+  {
+    title: 'Jeff Carpoff and the $1 Billion DC Solar Ponzi Scheme Hidden Inside 17,000 Generators That Didn\'t Exist',
+    slug: 'jeff-carpoff-dc-solar-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Jeff Carpoff was a small-town auto mechanic in Martinez, California, when he and his wife Paulette founded DC Solar Solutions in nearby Benicia, building mobile solar generators — trailer-mounted units meant to supply backup power to cell towers, disaster-response sites, and outdoor events. The business model that made DC Solar attractive to investors wasn't really the generators themselves: it was the generous federal solar investment tax credits attached to them, stacked on top of promised lease revenue, which made buying into DC Solar's investment funds look like a low-risk way for large companies to shelter income while doing something green. The pitch worked spectacularly well — investors poured in hundreds of millions of dollars, and even Berkshire Hathaway's tax-equity funds put in $340 million to claim the credits.
+
+Behind that legitimate-sounding tax play, prosecutors said, DC Solar was losing money almost from the start, and the Carpoffs covered the gap the way Ponzi schemes always do: using new investors' money to make good on the "lease revenue" owed to earlier ones, while fabricating contracts and financial statements to make the underlying business look real. The company claimed to have manufactured roughly 17,000 solar generator units, supposedly worth some $2.5 billion — but federal investigators determined at least half of them never existed at all. To keep the fiction alive during investor site visits, conspirators reportedly swapped VINs between units and staged locations so inspectors would believe they were looking at distinct, functioning generators rather than the same handful of units moved around.
+
+The money that did come in funded a lifestyle far removed from cell-tower backup power: Jeff and Paulette Carpoff used scheme proceeds to buy a NASCAR racing team, a minor-league baseball team, international real estate, a private stadium suite for Oakland Raiders games, a private jet subscription, and a collection of roughly 150 luxury and collector cars, including a 1978 Pontiac Firebird once owned by Burt Reynolds. The scheme collapsed in December 2018 when the FBI raided DC Solar's properties; the company's entities filed for Chapter 11 bankruptcy the following month, converting to Chapter 7 liquidation by March 2019. Berkshire Hathaway subsequently disclosed a $377 million charge tied to its DC Solar-linked tax-equity investment once it concluded the underlying tax benefits were no longer valid — a rare example of one of the most rigorously vetted investors in the world getting caught in the same fraud as everyone else.
+
+Jeff Carpoff pleaded guilty in January 2020 to conspiracy to commit wire fraud and money laundering, and was sentenced in November 2021 to 30 years in federal prison and ordered to pay $790.6 million in restitution — a case the Justice Department called the largest criminal fraud scheme in the history of the Eastern District of California. Paulette Carpoff, who ran the company's distribution arm as chief operating officer, pleaded guilty to related charges and was sentenced in mid-2022 to more than 11 years; several other co-conspirators, including DC Solar's CFO and outside distributors, were separately convicted and sentenced to shorter terms. Federal authorities auctioned off the seized luxury vehicles for roughly $8.2 million toward restitution — a fraction of the nearly $1 billion the scheme is estimated to have taken in.`,
+    sourceUrl: 'https://www.justice.gov/usao-edca/pr/dc-solar-owner-sentenced-30-years-prison-billion-dollar-ponzi-scheme',
+  },
+  {
+    title: 'Andrew Caspersen: The Wall Street Financier Who Invented Fake Deals to Cover $108 Million in Trading Losses',
+    slug: 'andrew-caspersen-park-hill-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Andrew Caspersen looked like exactly the kind of person institutional investors should be able to trust with their money: a Princeton graduate and Harvard-trained lawyer, the son of a prominent Wall Street financier, and by 2015 a partner at Park Hill Group, the private equity and hedge fund capital-raising arm that had just been spun out of Blackstone into the newly formed PJT Partners. He was, by his firm's own account, earning millions of dollars a year doing exactly the kind of legitimate fundraising work his pitch to victims claimed to be an extension of.
+
+Starting in late 2014, prosecutors said, Caspersen began soliciting money from friends, family members, and charitable foundations for what he described as secured short-term loans to real private equity firms, promising annual returns of 15 to 20 percent — investments he backed up with invented financiers, fabricated email addresses, and misleading domain names designed to look like correspondence from legitimate institutions. The single largest victim was the Moore Charitable Foundation, a charity affiliated with billionaire hedge fund manager Louis Bacon, from which Caspersen fraudulently obtained roughly $24.6 million. In reality, prosecutors said, there were no loans and no private equity deals: money from new "investors" was used to plug earlier shortfalls, and increasingly large sums were funneled into Caspersen's own high-risk options trading, where he lost more than $108 million in less than a month between February and March 2016 attempting to trade his way out of the hole he'd already dug.
+
+The scheme unraveled that March, when Caspersen was arrested at LaGuardia Airport returning from vacation; PJT Partners fired him after he disclosed the fraud, and the SEC filed a parallel civil enforcement action. Prosecutors said he had ultimately tried to raise close to $150 million through the scheme, actually receiving around $38 million to $63 million depending on how the fraudulent transfers were counted, with victims including his own mother, brothers, and a Princeton classmate who lost $400,000.
+
+Caspersen pleaded guilty in July 2016 to one count of securities fraud and one count of wire fraud. Federal prosecutors' plea agreement called for a sentence of 12 to 16 years, but U.S. District Judge Jed Rakoff — a longtime critic of the federal sentencing guidelines in white-collar cases — departed sharply downward and sentenced him to just four years in prison. Caspersen was released in 2019 and was permanently barred from the securities industry. His case became a frequently cited example of how thin the line can be between a legitimate Wall Street capital-raiser's pitch and an outright Ponzi-style fraud — and of how unevenly the same conduct that draws decades-long sentences for other defendants in this list can be punished when the person committing it comes from inside the industry itself.`,
+    sourceUrl: 'https://www.justice.gov/usao-sdny/pr/former-finance-executive-andrew-caspersen-sentenced-four-years-prison-defrauding',
+  },
+);
+
 // Practical "how it works / red flags / what to do" guides covering the
 // major scam categories, the same kind of coverage the FTC's Consumer
 // Advice site and AARP's Fraud Watch Network publish — well-documented
