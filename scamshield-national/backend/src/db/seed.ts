@@ -34862,6 +34862,42 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'North Dakota Developments "Man Camp" Bakken Oilfield Housing Ponzi Scheme',
+    slug: 'north-dakota-developments-bakken-man-camp-ponzi-scheme',
+    description: `Starting around May 2012, North Dakota Developments LLC and its principals, Robert L. Gavin and Daniel J. Hogan, raised more than $62 million from roughly 980 investors across dozens of countries by selling interests in "man camps" — short-term workforce housing built to serve the flood of workers pouring into North Dakota's Bakken oil field, beginning with a project called Watford West in Arnegard, North Dakota. Investors were promised guaranteed fixed returns from renting rooms to oilfield workers, but the SEC alleged the projects never generated enough real rental income to cover the payouts, and the defendants instead used money from investors in later projects, including additional camps built across the border in Montana, to pay the "guaranteed" returns owed to earlier investors — the defining mechanic of a Ponzi scheme. The SEC's civil fraud lawsuit, filed in federal court in North Dakota, further alleged that more than $25 million of investor money was misappropriated to cover hidden sales-agent commissions, payments to Gavin and Hogan personally, and cash funneled into still more Bakken housing projects rather than the ones investors had actually bought into. The case became a widely covered cautionary tale in North Dakota's oil patch: investors drawn by real, visible demand for oilfield housing during the Bakken boom had no way to verify that the specific project they funded was solvent, since the payments they received each quarter looked identical whether they came from genuine rental income or from the next round of investor cash coming in behind them.`,
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    state: 'ND',
+    sources: ['U.S. Securities and Exchange Commission (SEC)'],
+    sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-23252',
+    isHistorical: true,
+  },
+  {
+    name: 'Whitehall Man\'s International Mass-Mailing Sweepstakes Fraud Scheme',
+    slug: 'montana-whitehall-mass-mailing-sweepstakes-fraud',
+    description: `Thomas Ressler, a 66-year-old artist and graphic designer living in Whitehall, Montana, spent from March 2012 through September 2016 designing more than 200 fraudulent sweepstakes and prize-notification letters on behalf of co-conspirators operating out of the United States, Canada, Hong Kong, and the Netherlands, according to federal prosecutors. The letters, sent under official-sounding but entirely fictitious names like "Cash Payout Disbursement Advisors," "Progressive Winners Guarantors," and "Vehicle Transport Company," told recipients — disproportionately elderly people across the country — that they had won a cash prize, lottery, or other valuable award, but needed to submit a "processing," "delivery," or "customs" fee before the winnings could be released. No prize ever existed; the fee itself was the entire scheme, and Ressler was paid roughly $850,000 for his design work over the four-and-a-half-year run of the operation, even as investigators later identified it as part of a broader pattern the Justice Department has separately catalogued in nationwide "mass mailing fraud" sweeps aimed primarily at elderly victims. Ressler pleaded guilty in February 2018 to conspiracy to commit mail fraud, and on June 12, 2018, U.S. District Judge Dana Christensen in Helena sentenced him to 36 months in federal prison. The case illustrates how a mass-mailing fraud operation can be geographically dispersed by design — a Montana-based designer producing materials for conspirators overseas — precisely so that a single recipient's letter offers no obvious clue about who is actually behind it, which is why the Justice Department's standing advice is that no legitimate sweepstakes or lottery ever requires a fee paid up front before a prize is delivered.`,
+    categorySlug: 'lottery-sweepstakes-scams',
+    country: 'US',
+    state: 'MT',
+    sources: ['U.S. Department of Justice — District of Montana'],
+    sourceUrl: 'https://www.justice.gov/usao-mt/pr/montana-man-sentenced-36-months-prison-designing-fraudulent-mail-solicitations-use',
+    isHistorical: true,
+  },
+  {
+    name: 'RAHFCO Funds Sioux Falls Hedge Fund Ponzi Scheme',
+    slug: 'south-dakota-rahfco-funds-sioux-falls-ponzi-scheme',
+    description: `Randal Kent Hansen ran RAHFCO Funds, Limited Partnership and RAHFCO Growth Fund, Limited Partnership, a pair of hedge funds based in Sioux Falls, South Dakota, telling more than 100 investors that only a small share of their money would actually be traded on S&P 500 futures while the rest sat safely in government securities they could withdraw at will. In reality, according to the SEC and federal prosecutors, Hansen used new investors' contributions to pay the "returns" and withdrawal requests of earlier investors, funneling in over $20 million from investors over the life of the scheme while losses to victims ultimately exceeded $17.5 million. A federal grand jury indicted Hansen in May 2013, and a jury convicted him in January 2014 on 26 felony counts — conspiracy to commit wire and mail fraud, four counts of wire fraud, and 21 counts of mail fraud. U.S. District Judge Karen Schreier sentenced Hansen on May 19, 2014 to 108 months (nine years) in federal prison, three years of supervised release, and restitution of $17,514,258.89 to his victims; the Eighth Circuit Court of Appeals affirmed all 26 convictions and the sentence in a published opinion issued June 30, 2015. The RAHFCO case remains one of South Dakota's largest prosecuted investment frauds and underscores a recurring warning from securities regulators: a fund manager's promise that money is safely parked in "government securities" while still earning steady returns is a claim investors can and should verify independently through account statements from an independent custodian, not simply trust because the manager operates locally and has a long-standing local reputation.`,
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    state: 'SD',
+    sources: ['U.S. Department of Justice — District of South Dakota', 'U.S. Securities and Exchange Commission (SEC)'],
+    sourceUrl: 'https://www.justice.gov/usao-sd/pr/sioux-falls-man-sentenced-26-investment-fraud-felonies',
+    isHistorical: true,
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
