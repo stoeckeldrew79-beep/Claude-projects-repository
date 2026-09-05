@@ -9214,6 +9214,37 @@ Abramovich never paid the fine, and the government went to federal court to coll
   },
 );
 
+NOTORIOUS_ARTICLES.push(
+  {
+    title: 'Eddie Ray Kahn and the Tax-Defiance Empire That Ensnared Wesley Snipes',
+    slug: 'eddie-ray-kahn-american-rights-litigators-tax-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Eddie Ray Kahn founded American Rights Litigators (ARL) out of Lake County, Florida, in 1996, marketing it as a membership organization that would help ordinary Americans fight the IRS. In 2003, as regulators started circling, ARL rebranded itself as "Guiding Light of God Ministries," draping the same business in the language of religious ministry. Whatever it called itself, the product Kahn sold was the same: a package of fringe "tax defiance" theories built on deliberate misreadings of the tax code, marketed to members as a legal way to stop paying federal income tax and even reclaim money they'd already paid. Over roughly eight years, ARL enrolled more than 4,000 customers in all 50 states and the District of Columbia.
+
+Kahn's flagship pitch was the "861 argument" — a debunked theory claiming that a narrow, technical section of the tax code (26 U.S.C. § 861) meant only income from certain foreign-source activities was actually taxable, and that wages earned by Americans working in the United States fell outside it. Courts had already rejected the theory repeatedly, but ARL kept selling it, and around 1999 the pitch reached one of its highest-profile customers: actor Wesley Snipes. Working with Douglas P. Rosile, a former accountant who had lost his CPA license, ARL prepared amended returns for Snipes seeking roughly $12 million in fraudulent refunds for the 1996 and 1997 tax years — on top of collecting membership fees and, per ARL's standard arrangement, 20 percent of any refund actually paid out. A federal grand jury in Ocala indicted Kahn, Rosile, and Snipes in October 2006 on conspiracy to defraud the IRS and presenting false claims for refunds; Snipes was separately charged with six misdemeanor counts of willfully failing to file tax returns for 1999 through 2004. At trial in February 2008, Kahn and Rosile were convicted on the felony counts, while Snipes — whose legal team distanced him from Kahn's more aggressive theories — was acquitted of the felonies but convicted on three of the six misdemeanor failure-to-file counts. On April 24, 2008, Kahn was sentenced to 10 years in federal prison.
+
+ARL's business model didn't stop at refund schemes. Prosecutors in a separate federal case found that Kahn and associates had manufactured and sold more than 1,000 worthless "bills of exchange" — fake financial instruments purportedly drawn on the U.S. Treasury — that customers were told they could use to make their tax debts disappear, and had also ghostwritten a stream of harassing, fabricated complaints against individual IRS employees, sent to the Treasury Inspector General for Tax Administration in Washington. While Kahn was already serving his first sentence, a federal grand jury in Washington, D.C. indicted him and three ARL associates — Stephen C. Hunter, Danny True, and Allan J. Tanguay — on charges of conspiracy to defraud the United States and conspiracy to commit mail fraud. Following a month-long jury trial, all four were convicted on May 26, 2010. On August 30, 2010, Kahn was sentenced to a second term of 20 years in prison; Hunter, True, and Tanguay each received 10-year sentences. Federal Bureau of Prisons records show Kahn was ultimately released on January 5, 2021.
+
+Kahn's case is a study in how a tax-fraud operation can survive years of open litigation by simply rebranding: regulators and prosecutors were already circling ARL when it reincorporated itself as a "ministry," and the switch bought Kahn several more years of new customers and two separate federal prosecutions before it finally caught up with him.`,
+    sourceUrl: 'https://en.wikipedia.org/wiki/Eddie_Ray_Kahn',
+  },
+  {
+    title: "Sholom Rubashkin and the Kosher Meatpacking Empire Built on Fabricated Collateral",
+    slug: 'sholom-rubashkin-agriprocessors-bank-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `Sholom Rubashkin ran the day-to-day operations of Agriprocessors, Inc., a kosher slaughterhouse and meatpacking plant in Postville, Iowa, that at its peak was the largest kosher meat producer in the United States. The company's growth was financed largely through loans from First Bank Business Capital, secured against Agriprocessors' accounts receivable — money owed to the company by its customers. Prosecutors found that Rubashkin systematically inflated those receivables, reporting sales and invoices that didn't reflect real transactions, in order to draw down millions of dollars in loans the company's actual, collateral-backed revenue could never have supported.
+
+To keep the fraud running, Rubashkin diverted millions of dollars in real customer payments — money that was contractually required to go straight to First Bank to pay down the loan — into other accounts instead, and then laundered tens of millions of dollars through accounts at a local grocery store and a religious school in Postville to obscure where the money had actually gone. He also delayed payments to the ranchers and cattle suppliers who kept the plant running, straining the same small agricultural community the company was supposed to be supporting. Separately, immigration investigators found Agriprocessors had knowingly employed hundreds of undocumented workers, some using fraudulent identity documents Rubashkin's company had helped arrange — findings that fed into a massive May 2008 immigration raid at the plant, at the time the largest single-site immigration enforcement action in U.S. history, which triggered the financial unraveling that exposed the bank fraud.
+
+A federal jury in Cedar Rapids convicted Rubashkin on November 12, 2009, on 86 counts of bank fraud, wire fraud, mail fraud, and money laundering. Investigators traced roughly $26 million in real losses to Agriprocessors' lenders, and found that Rubashkin had personally diverted about $1.5 million of the fraud proceeds over two years — spending it on credit card bills, a home remodel, jewelry, and sterling silver, among other personal expenses. On June 22, 2010, Chief Judge Linda R. Reade sentenced him to 324 months — 27 years — in federal prison and ordered $26,852,152.51 in restitution, a sentence that immediately drew criticism from a wide range of former U.S. Attorneys General and members of Congress as disproportionate to the underlying financial-fraud counts.
+
+Rubashkin's case became an unusual bipartisan cause: years of appeals and clemency petitions from across the political spectrum argued the 27-year term was excessive next to sentences other executives had received for comparably sized frauds. In December 2017, President Trump commuted Rubashkin's sentence after he had served roughly eight years; the commutation ended his prison term but did not overturn his conviction, leaving the restitution order and a term of supervised release in place. The case remains a reference point for how a small-town, community-rooted business — one whose owner was, by many accounts, personally well-liked — was nonetheless built for years on fabricated collateral that outside lenders had no independent way to verify.`,
+    sourceUrl: 'https://www.justice.gov/archive/usao/ian/news/2010/jun_10/6_22_10_Rubashkin.html',
+  },
+);
+
 // Practical "how it works / red flags / what to do" guides covering the
 // major scam categories, the same kind of coverage the FTC's Consumer
 // Advice site and AARP's Fraud Watch Network publish — well-documented
@@ -35198,39 +35229,6 @@ SEED_SCAMS.push(
     alertLevel: 'high',
     sources: ["U.S. Attorney's Office for the District of Vermont", 'U.S. Immigration and Customs Enforcement (ICE)', 'IRS Criminal Investigation', 'Times Argus'],
     sourceUrl: 'https://www.justice.gov/usao-vt/pr/25-canadian-nationals-charged-vermont-connection-nationwide-multimillion-dollar',
-  },
-);
-
-SEED_SCAMS.push(
-  {
-    name: '"Finto Carabiniere" Elderly Home-Invasion Fraud Ring ("Altro Mondo," Milan, Italy)',
-    slug: 'italy-finto-carabiniere-altro-mondo-milan-elderly-fraud',
-    description: `Italy's Carabinieri Provincial Command of Milan, coordinated by the Milan Public Prosecutor's Office, spent roughly two years investigating a criminal network built around the "finto carabiniere" (fake carabiniere) trick before executing precautionary-measure orders against 21 people on December 15, 2025, in an operation named "Altro Mondo." The scheme followed a well-worn script that Italian police have flagged as a nationwide epidemic against older residents: perpetrators wearing convincing police-style insignia and carrying fabricated identification approached elderly victims as they returned home alone, or called ahead posing as carabinieri or lawyers with an invented emergency — a car accident, a relative's arrest — to talk their way inside, isolate the victim psychologically, and then demand cash or jewelry on the spot as supposed bail or damages before ransacking the home. Investigators tied the group, based out of a logistics hub in Milan's Muggiano neighborhood and allegedly led by a 96-year-old woman described as its "capostipite," to 12 thefts, 15 cases of handling stolen goods, 8 instances of money laundering, and 2 of self-laundering, netting an estimated €2.5 million in cash and jewelry from victims across Lombardy, with the network's reach extending into Switzerland and Belgium. Of the 21 people targeted, six were sent to prison, nine were placed under house arrest, and five were ordered to remain in a fixed residence. Italian police repeat the same core warning behind every version of this scam: real carabinieri and law-enforcement officers never demand cash, jewelry, or bank transfers at the door or over the phone, and anyone receiving such a visit or call should refuse entry, hang up, and independently verify the claim by calling 112 before acting.`,
-    categorySlug: 'government-impersonation',
-    country: 'IT',
-    alertLevel: 'high',
-    sources: ['Arma dei Carabinieri (Comando Provinciale di Milano)', 'Procura della Repubblica di Milano', 'Il Giorno'],
-    sourceUrl: 'https://www.ilgiorno.it/milano/cronaca/truffe-anziani-finto-carabiniere-x982366l',
-  },
-  {
-    name: 'GlobalFXM Fake Cryptocurrency Trading Platform Fraud (Italy)',
-    slug: 'italy-globalfxm-fake-crypto-trading-platform-fraud',
-    description: `Italy's Polizia Postale, working through Europol's cybercrime taskforce J-CAT alongside Czech police, unraveled an international online-investment fraud built around a bogus cryptocurrency trading site at globalfxm.com after a victim's report opened the case. The fraudsters posed as financial promoters offering guaranteed high returns, steered targets to the fake platform to "invest" in cryptocurrency, and let a dashboard show convincing paper gains to encourage larger deposits — a single identified victim was talked out of €380,000 this way. When that victim tried to withdraw funds, the operators switched to extortion, threatening the victim and demanding further payments before they would supposedly "unlock" a refund that never came, while the original deposits were funneled onward into bank accounts held in the Czech Republic. Investigators identified two women, of Ukrainian and Armenian nationality, as the administrators of those foreign accounts, and a Cagliari judge issued a sequestration order that let Czech authorities freeze and recover roughly €226,000 of the stolen funds. Announcing the case, the Polizia Postale urged anyone approached with an unsolicited investment opportunity to verify that the broker or platform is actually authorized by CONSOB and the Bank of Italy, to check for warnings from ESMA and other regulators, to independently research the company outside the pitch itself, and to treat any promise of guaranteed or unusually high returns — and any later demand for extra fees to release a withdrawal — as a clear sign of fraud.`,
-    categorySlug: 'investment-fraud',
-    country: 'IT',
-    alertLevel: 'high',
-    sources: ['Polizia di Stato — Polizia Postale', 'Europol J-CAT', 'Policie ČR (Czech Police)'],
-    sourceUrl: 'https://www.poliziadistato.it/articolo/postale-scoperta-truffa-internazionale-su-cripto-valute',
-  },
-  {
-    name: 'San Gemini Online Romance Scam (Umbria, Italy)',
-    slug: 'italy-san-gemini-umbria-online-romance-scam',
-    description: `Carabinieri in San Gemini, in Italy's Umbria region, investigated a romance scam after a local woman in her sixties reported that a man she had met on a social network in autumn 2023 — who presented himself as younger and repeatedly found excuses to avoid meeting her in person — had gradually earned her trust and then began asking for small sums to cover sudden personal emergencies, requests that grew over time into repeated prepaid-card top-ups totaling roughly €25,000. She grew suspicious and reported the fraud only after the man kept postponing every attempt to meet face to face. Carabinieri traced the money and, in May 2025, referred five people for prosecution on money-laundering charges: two Italian women and three foreign nationals of African origin, aged between 26 and 72, living in different regions of Italy. Investigators found that the photos used for the fake suitor's profile had been lifted from a real, uninvolved person who had no idea his pictures were circulating, and had already been reused in other unrelated romance scams elsewhere in the country; the profile's name was invented and its phone number was registered to a nonexistent identity. Funds loaded onto the prepaid cards were forwarded almost immediately to accounts based in other countries, with only a small cut kept back — as apparent payment for laundering the money — before that residue, too, was moved on to further prepaid cards and accounts tied to the same group. Italian police's standing advice on romance scams is to treat a new online partner's refusal to ever video call or meet in person as a serious warning sign, and to never send money, gift cards, or prepaid-card top-ups to someone known only through an online relationship.`,
-    categorySlug: 'romance-scams',
-    country: 'IT',
-    alertLevel: 'medium',
-    sources: ['Arma dei Carabinieri (Stazione di San Gemini)', 'Corriere dell\'Umbria', 'UmbriaOn', 'TerniToday'],
-    sourceUrl: 'https://corrieredellumbria.it/news/terni/355926/truffa-sentimentale-sul-web-donna-versa-25-mila-euro-a-finto-corteggiatore-scattano-le-denunce-dei-carabinieri-di-san-gemini.html',
   },
 );
 
