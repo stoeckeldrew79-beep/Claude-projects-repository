@@ -40563,6 +40563,41 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'Operation "Uncovering the Mask": Qatar\'s QR10 Million Bank Smishing Ring',
+    slug: 'qatar-uncovering-the-mask-bank-smishing-ring',
+    description: `On August 25, 2020, Qatar's Ministry of Interior announced the results of a six-hour operation, code-named "Uncovering the Mask," that broke up a smishing ring blamed for roughly QR10 million (about $2.7 million) in losses and led to 31 arrests. Investigators with the Economic and Electronic Crimes Department said the group had cycled through close to 4,000 SIM cards over nearly two years, using them to blast out text messages claiming the recipient's bank card had been suspended and needed to be reactivated by calling a supplied number, or that the recipient had won a large cash prize — either pretext designed to get the victim on the phone or onto a fake page and hand over online banking passwords, card numbers, or one-time PIN codes. The Ministry linked the campaign to roughly 960 separate financial-fraud reports filed during the period the ring was active, and said the stolen funds were moved out of the country through accomplices, some of whom investigators identified as based overseas, before the raid could recover them. The case became one of the Ministry's standing reference points for the smishing pattern — a bank-branded text message manufacturing urgency around a blocked card or an unclaimed prize — that Qatari authorities have continued to warn about in the years since, including further waves of SMS-blaster and fake-traffic-fine impersonation campaigns disrupted in 2025. The Ministry's core guidance has stayed the same throughout: a real bank never asks a customer to confirm a card number, password, or verification code by replying to a text message or calling a phone number the message itself provides, and anyone who receives such a message should instead contact their bank directly through the number printed on their card or the bank's own official app.`,
+    categorySlug: 'phishing',
+    country: 'QA',
+    isHistorical: true,
+    firstRecorded: '2020-08-25',
+    sources: ['Qatar Ministry of Interior — Economic and Electronic Crimes Department', 'Qatar Tribune'],
+    sourceUrl: 'https://www.qatar-tribune.com/article/32458/latest-news/Huge-SMS-fraud-busted-in-Qatar-31-arrested-QR10-mn-lost',
+  },
+  {
+    name: 'FIFA World Cup 2022 Qatar Ticket, Merchandise, and Fan-Portal Scam Wave',
+    slug: 'qatar-fifa-world-cup-2022-ticket-scam-wave',
+    description: `In the run-up to the FIFA World Cup's November 20, 2022 kickoff in Qatar, researchers at cybersecurity firm Group-IB tracked a surge of fraud built entirely around the tournament's own branding and logistics. By the time Group-IB published its findings on November 29, 2022, its Digital Risk Protection team had identified more than 16,000 scam domains along with dozens of fake social media accounts, advertisements, and mobile apps exploiting fan demand. The operation broke down into several distinct tracks: five fake ticketing websites and more than 50 social media accounts, backed by roughly 40 fraudulent Google Play Store apps, promised access to official tickets that never existed; a fake merchandise site advertised through more than 130 social media posts took payment for counterfeit or nonexistent team gear and harvested buyers' card details in the process; five bogus employment websites promoted across some 30 social media pages dangled World Cup-related jobs in Qatar to collect applicants' personal data; and more than 16,000 fake surveys impersonated FIFA and other major brands to phish visitors directly. Separately, commodity credential-stealing malware (identified as RedLine and Erbium) compromised more than 90 user accounts on Hayya, the official fan ID portal required for match entry and Qatar travel, exposing ticket and personal data tied to those accounts. "Threat actors have a track record of trying to cash in on major events, especially those in the sporting world," said Sharef Hlal, Group-IB's Head of Digital Risk Protection Analytics for the Middle East and Africa. Group-IB reported the compromised Hayya accounts to Qatar's Computer Emergency Response Team (Q-CERT) and shared its full findings with INTERPOL to support takedown efforts. The pattern is one that recurs at every major global event: fans searching for tickets, gear, or event-linked jobs should buy only through an event's verified official channels and app stores, treat any site or ad demanding payment or a fan-portal password outside those channels as fraudulent, and check a URL carefully rather than trusting a search-engine or social-media ad to have already vetted it.`,
+    categorySlug: 'online-shopping-scams',
+    country: 'QA',
+    isHistorical: true,
+    firstRecorded: '2022-11-29',
+    sources: ['Group-IB', 'INTERPOL', 'Qatar Computer Emergency Response Team (Q-CERT)'],
+    sourceUrl: 'https://www.group-ib.com/media-center/press-releases/scammers-on-the-pitch/',
+  },
+  {
+    name: 'Qatar Fake Recruitment-Agency Impersonation Targeting Domestic-Worker Hires',
+    slug: 'qatar-fake-recruitment-agency-domestic-worker-scam',
+    description: `Qatar's Ministry of Labour has spent recent years fighting a recruitment-fraud pattern built around impersonation rather than invention: scammers copy the name, logo, and branding of real, licensed manpower and recruitment companies — and sometimes of well-known Qatari employers directly, including state-owned QatarEnergy, which maintains its own public warning page after fraudulent job ads circulated under its name — to run convincing-looking advertisements, mostly on social media, offering domestic-worker placements or other jobs in Qatar. Victims who respond are asked to pay upfront fees framed as visa processing, medical testing, or agency charges to a person or entity with no real licence to recruit, and the promised job, and the money, both disappear. On September 2, 2026, the Ministry of Labour responded by publishing an official list of 221 currently registered manpower and recruitment companies and launching an awareness campaign built around the line "Think twice. Verify first. Choose licensed," urging anyone considering a recruitment offer — whether an employer sourcing a domestic worker or a jobseeker abroad — to check the agency against the Ministry's published list, via a QR code included in the campaign, before paying anything or signing anything. The Ministry has already revoked the licences of two dozen recruitment agencies found operating illegally, but its central message is aimed at the public rather than the industry: Qatari law requires domestic workers to be recruited only through licensed offices under the Ministry's supervision, so any advertisement — however professional it looks, and however aggressively it is promoted online — that cannot be matched to that published, verifiable list of licensed agencies should be treated as a likely scam rather than a shortcut.`,
+    categorySlug: 'employment-scams',
+    country: 'QA',
+    alertLevel: 'high',
+    sources: ['Qatar Ministry of Labour', 'The Peninsula Qatar'],
+    sourceUrl: 'https://thepeninsulaqatar.com/article/02/09/2026/mol-issues-list-of-221-registered-recruitment-agencies-to-curb-fraudulent-advertisements',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
