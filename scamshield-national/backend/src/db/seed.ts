@@ -39144,6 +39144,41 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'Axact Fake Online University Diploma Empire',
+    slug: 'axact-fake-online-university-diploma-scam-pakistan',
+    description: `Axact, an Islamabad-based software company that publicly presented itself as an IT and digital-marketing firm, was in fact running one of the largest fake-degree operations ever uncovered, according to a May 2015 investigation by The New York Times and the subsequent criminal case brought by Pakistan's Federal Investigation Agency (FIA). Behind a network of roughly 350 invented "universities" and high schools with official-sounding names — including Nixon University, Barkley University, and Rochville University — Axact sold fabricated diplomas, transcripts, and degrees, up to and including doctorates, to buyers who wanted a credential without ever attending a class. Sales staff working multi-tiered call centers, often posing as accreditation officials, government agents, or even U.S. State Department employees, pressured buyers into paying escalating fees for supposed "authentication," "attestation," or "apostille" services on documents that were entirely fictitious, and the company invented its own bogus accreditation bodies to make the fake schools look legitimate to employers and licensing agencies. The Times investigation estimated Axact's revenue from the scheme at tens of millions of dollars a year, drawn from buyers in at least 197 countries. The FIA raided Axact's Islamabad headquarters within days of the report and opened a criminal investigation on May 19, 2015; CEO Shoaib Ahmed Sheikh was arrested and, along with 22 co-defendants, was convicted on July 5, 2018 in the District and Sessions Court, Islamabad, on charges including cheating, forgery of documents, and violations of Pakistan's Anti-Money Laundering Act, receiving sentences of up to seven years in prison alongside fines of Rs 1.3 million each — a verdict that followed an earlier 2016 acquittal that was overturned after the presiding judge in that acquittal was removed from the bench over an unrelated bribery admission. Anyone offered a fast-tracked degree, "life experience" credential, or diploma from a university they cannot verify through their home country's official accreditation register should treat the offer as a fraud rather than a shortcut, since a real degree cannot be bought without coursework regardless of how convincing the paperwork or the sales call sounds.`,
+    categorySlug: 'online-shopping-scams',
+    country: 'PK',
+    isHistorical: true,
+    firstRecorded: '2009-01-01',
+    sources: ["Pakistan Federal Investigation Agency (FIA)", 'The New York Times', 'Dawn', 'The Express Tribune'],
+    sourceUrl: 'https://www.dawn.com/news/1418156',
+  },
+  {
+    name: 'PSlash Fake Forex and Real Estate Investment Scheme',
+    slug: 'pslash-ponzi-investment-scam-khyber-pakhtunkhwa-pakistan',
+    description: `Operating out of an office in Peshawar's Deans Trade Center from January 2020, an online investment company that rebranded itself twice — first as "Earn Bitcoin," then "Payslash," and finally "PSlash" — drew in more than 100,000 people across Khyber Pakhtunkhwa province with promised monthly returns of up to 13 percent on money placed into supposed real estate, foreign-currency, and digital-currency trades. Local representatives, most prominently men identified in police reports as Wasim Zeb and Nabeel Khan, recruited investors in person and falsely claimed the company was registered with Pakistan's Securities and Exchange Commission, while the actual owner named in the criminal complaint, Rabia Batool, was never met by any of the investors who handed over money. Individual losses ranged from roughly Rs 500,000 to Rs 2.5 million, and the scheme collected an estimated Rs 5.6 billion in total before it collapsed: after a first fraud complaint reached the FIA in August 2020 and a second reached the Pakistan Telecommunication Authority the following month, the company's website displayed a message on November 20, 2020 claiming its "system is hacked," cutting off more than 100,000 registered investors from both their supposed profits and their original deposits overnight. Provincial FIA officials acknowledged losses running into the billions of rupees but faced criticism over the slow pace of the investigation and recovery effort. The case is a reminder that a monthly return in the double digits — far beyond what any legitimate real estate, currency, or crypto investment reliably delivers — is itself the warning sign, and that a claimed SECP registration should always be checked directly against SECP's own public company register rather than taken on a local recruiter's word.`,
+    categorySlug: 'investment-fraud',
+    country: 'PK',
+    isHistorical: true,
+    firstRecorded: '2020-01-01',
+    sources: ['Federal Investigation Agency (FIA)', 'Pakistan Telecommunication Authority', 'Arab News Pakistan'],
+    sourceUrl: 'https://www.arabnews.pk/node/1782216/pakistan',
+  },
+  {
+    name: 'Fake "State Bank of Pakistan" Verification Call Scam',
+    slug: 'fake-state-bank-of-pakistan-verification-phone-call-scam',
+    description: `The State Bank of Pakistan (SBP) issued a public advisory warning account holders about callers who falsely claim to represent the State Bank or another regulatory or banking authority, telling the victim that their bank account is under review and will be frozen or closed unless they immediately confirm their details over the phone. The caller then asks for exactly the information a real bank never requests by phone: the victim's CNIC number, full account number, ATM or debit card number, and the password, PIN, or one-time password (OTP) used to authorize transactions — information that, once handed over, lets the scammer log into the account or authorize a card transaction directly, emptying it before the victim realizes the call was never from the bank at all. SBP's advisory stated plainly that its own staff, and legitimate commercial banks generally, "do not seek personal details including PIN, CNIC number, one-time password (OTP), account number, etc. from account holders on telephone," and urged the public never to share such details with any caller regardless of how official the caller sounds or what urgency they invoke. The pattern has persisted alongside a related wave of "wrong transaction" text messages, in which a stranger's number sends a message claiming a sum such as Rs 85,000 was mistakenly transferred to the recipient's account and demands it be sent back immediately — a transfer that, verified against the victim's real account activity, never happened at all. Both the SBP and the Pakistan Telecommunication Authority direct anyone who receives such a call or text to hang up or ignore it, confirm their real account balance only through their bank's official app or branch, and report the incident to their bank and to SBP's helpline rather than acting on anything the caller or text claims.`,
+    categorySlug: 'phishing',
+    country: 'PK',
+    alertLevel: 'high',
+    sources: ['State Bank of Pakistan', 'Pakistan Telecommunication Authority', 'Dawn'],
+    sourceUrl: 'https://www.dawn.com/news/1445483',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
