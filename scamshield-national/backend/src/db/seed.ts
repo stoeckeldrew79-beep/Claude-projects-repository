@@ -9491,6 +9491,9 @@ Jeff Carpoff pleaded guilty in January 2020 to conspiracy to commit wire fraud a
     slug: 'andrew-caspersen-park-hill-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/U.S._District_Court_-_Southern_District_of_New_York_(48129021526).jpg?width=1200',
+    coverImageCredit: 'Photo: Ajay Suresh, Wikimedia Commons (CC BY 2.0) — the U.S. District Court for the Southern District of New York, where Andrew Caspersen was prosecuted and sentenced',
+    coverImagePosition: 50,
     body: `Andrew Caspersen looked like exactly the kind of person institutional investors should be able to trust with their money: a Princeton graduate and Harvard-trained lawyer, the son of a prominent Wall Street financier, and by 2015 a partner at Park Hill Group, the private equity and hedge fund capital-raising arm that had just been spun out of Blackstone into the newly formed PJT Partners. He was, by his firm's own account, earning millions of dollars a year doing exactly the kind of legitimate fundraising work his pitch to victims claimed to be an extension of.
 
 Starting in late 2014, prosecutors said, Caspersen began soliciting money from friends, family members, and charitable foundations for what he described as secured short-term loans to real private equity firms, promising annual returns of 15 to 20 percent — investments he backed up with invented financiers, fabricated email addresses, and misleading domain names designed to look like correspondence from legitimate institutions. The single largest victim was the Moore Charitable Foundation, a charity affiliated with billionaire hedge fund manager Louis Bacon, from which Caspersen fraudulently obtained roughly $24.6 million. In reality, prosecutors said, there were no loans and no private equity deals: money from new "investors" was used to plug earlier shortfalls, and increasingly large sums were funneled into Caspersen's own high-risk options trading, where he lost more than $108 million in less than a month between February and March 2016 attempting to trade his way out of the hole he'd already dug.
@@ -9582,6 +9585,9 @@ NOTORIOUS_ARTICLES.push(
     slug: 'danielle-chiesi-new-castle-galleon-insider-trading',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Moynihan_US_courthouse_from_Madison_St_jeh.jpg?width=1200',
+    coverImageCredit: 'Photo: Jim.henderson, Wikimedia Commons (CC BY-SA 3.0) — the Manhattan federal courthouse where Danielle Chiesi pleaded guilty and was sentenced',
+    coverImagePosition: 50,
     body: `Danielle Chiesi worked as a portfolio manager and senior analyst at New Castle Funds LLC, an equity hedge fund unit tied to Bear Stearns Asset Management that managed roughly $1 billion, when federal prosecutors identified her as one of the central figures feeding the largest insider-trading network of its era. Where most inside sources are cultivated through years of professional networking, prosecutors said Chiesi built hers through close personal relationships with senior corporate executives — relationships she then used to extract material nonpublic information well before it ever reached the market.
 
 Her most consequential source was Robert Moffat, a senior International Business Machines executive with whom she had a personal relationship. Between roughly August and October 2008, prosecutors said Moffat passed her nonpublic details about IBM, Lenovo, and Advanced Micro Devices, generating trading gains of more than $1.7 million for the funds she managed. Separately, Kieran Taylor, Akamai Technologies' senior director of marketing, tipped her in 2008 that the company was about to lower its revenue guidance — information that let her funds sell ahead of the announcement and pocket roughly $2.4 million before the news became public.
@@ -9596,6 +9602,9 @@ Chiesi pleaded guilty on January 19, 2011, to three counts of conspiracy to comm
     slug: 'brendan-ross-direct-lending-investments-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Los_Angeles_Federal_Courthouse_127_S_Broadway_dllu.jpg?width=1200',
+    coverImageCredit: 'Photo: Daniel L. Lu (dllu), Wikimedia Commons (CC BY-SA 4.0) — the First Street U.S. Courthouse in Los Angeles (Central District of California), where Brendan Ross was sentenced',
+    coverImagePosition: 50,
     body: `Brendan Ross founded Direct Lending Investments (DLI) in 2012 out of La Cañada Flintridge, California, marketing funds that invested in loans originated by online small-business and consumer lenders — a "private credit" pitch to institutional and individual investors promising steady, stock-market-independent returns. The pitch worked: by 2017, DLI had grown into one of the most prominent names in the marketplace-lending industry, with more than $1 billion in assets under management.
 
 The fraud prosecutors later uncovered ran through one of DLI's underlying lending partners, QuarterSpot Inc., an online small-business lender. From early 2014 through late 2017, prosecutors said Ross directed QuarterSpot to send DLI's funds payments booked as though delinquent borrowers were making ordinary principal payments on their loans — when the money actually came from fee rebates QuarterSpot owed the funds, not from the borrowers at all. Because DLI's own valuation policy required marking down loans that had stopped performing, disguising missed payments as real ones let Ross avoid writing down loans that should have been reported as failing, keeping the funds' reported monthly values artificially high.
@@ -9613,6 +9622,9 @@ NOTORIOUS_ARTICLES.push(
     slug: 'david-h-brooks-dhb-industries-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Roosevelt_Fed_Courthouse_Bk_west_side_PM_sun_jeh.jpg?width=1200',
+    coverImageCredit: 'Photo: Jim.henderson, Wikimedia Commons (CC0) — the Theodore Roosevelt U.S. Courthouse in Brooklyn (Eastern District of New York), where David H. Brooks was convicted and sentenced',
+    coverImagePosition: 50,
     body: `David H. Brooks founded DHB Industries and built it into the largest supplier of body armor to the U.S. military and domestic law enforcement, primarily through its Point Blank Body Armor division. As demand for bulletproof vests surged after September 11, 2001, DHB's stock climbed from around $2 a share in early 2003 to nearly $20 a share by late 2004 — a run federal prosecutors and the SEC later said was built substantially on fabricated numbers rather than real growth.
 
 According to the SEC and the Justice Department, Brooks, along with chief operating officer Sandra Hatfield and chief financial officer Dawn Schlegel, ran a multi-year accounting fraud designed to inflate DHB's reported profits: they overstated the value of the company's body-armor inventory by more than $7 million in both 2003 and 2004, added inventory to the books that didn't exist, and reclassified ordinary expenses to make DHB's margins look stronger than they were. While the falsified numbers pushed the stock upward, Brooks and Hatfield sold large blocks of their own DHB shares — Brooks pocketing more than $185 million and Hatfield more than $5 million — trades prosecutors charged as illegal insider selling on inflated financials.
@@ -9646,6 +9658,9 @@ NOTORIOUS_ARTICLES.push(
     slug: 'edwin-fujinaga-mri-international-ponzi-scheme',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Lasvegascourthouse.jpg?width=1200',
+    coverImageCredit: 'U.S. Department of Justice (Public Domain) — the Lloyd D. George U.S. Courthouse in Las Vegas, where Edwin Fujinaga was convicted and sentenced',
+    coverImagePosition: 50,
     body: `Edwin Yoshihiro Fujinaga ran MRI International Inc. out of Las Vegas as a "factoring" business — a company that buys medical providers' unpaid accounts receivable at a discount, then collects the full amount from the debtor or insurer, pocketing the spread. It was a real, if obscure, corner of finance, and Fujinaga used its complexity to his advantage: from 2000 until the company collapsed in 2013, he and his associates fraudulently solicited more than $1 billion from over 10,000 investors, nearly all of them residents of Japan who wired their savings from across the Pacific into accounts Fujinaga controlled in Las Vegas.
 
 Marketing materials that Fujinaga personally approved promised investors their money would be used only to purchase discounted medical claims, and that an independent escrow agent would police how MRI spent the funds — a safeguard designed to make an unfamiliar, foreign investment feel secure. According to the Justice Department, it was almost entirely fiction: Fujinaga spent less than two percent of investor money on actual medical receivables. The rest paid off earlier investors in classic Ponzi fashion and funded a lifestyle that included a golf-course mansion outside Las Vegas, a private jet, luxury cars, and real estate in California wine country, Beverly Hills, and Hawaii.
@@ -9662,6 +9677,9 @@ By the time MRI collapsed, it owed investors more than $1.5 billion it no longer
     slug: 'anthony-elgindy-short-seller-fbi-extortion',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Tonyheadshotlookleft.jpg?width=1200',
+    coverImageCredit: 'Anthony Elgindy, self-published (CC BY-SA 3.0), via Wikimedia Commons',
+    coverImagePosition: 50,
     body: `Amr "Anthony" Elgindy built a public reputation as a crusading short seller, operating a subscription website under the persona "Anthony@Pacific" where he told paying members which companies he believed were frauds worth betting against. Short selling itself is legal and can genuinely expose corporate wrongdoing — but prosecutors said Elgindy's edge came from something no legitimate analyst had: a source inside the FBI itself.
 
 Starting around 2000, Elgindy cultivated a relationship with Jeffrey Royer, an FBI special agent who had access to confidential law enforcement and SEC databases identifying which companies were under active federal investigation. Royer fed that non-public information to Elgindy, who used it to take short positions in the targeted stocks before the investigations became public and the share prices fell — and, prosecutors said, Elgindy went further, using the threat of publicizing the stolen information to extort targeted companies into handing over discounted stock or other concessions. When Royer's activity drew scrutiny, he left the Bureau to work for Elgindy directly, and another agent, Lynn Wingate, continued funneling confidential files to the operation.
