@@ -35630,39 +35630,6 @@ SEED_SCAMS.push(
 
 SEED_SCAMS.push(
   {
-    name: 'Korean Prosecutor Impersonation Voice Phishing Call',
-    slug: 'south-korea-prosecutor-impersonation-voice-phishing',
-    description: `A caller claiming to be from South Korea's Supreme Prosecutors' Office, the National Police Agency, or the Financial Supervisory Service tells the victim their name has been linked to a crime — often drug trafficking or money laundering — and that they must wire their savings to a "safe" or "verification" account to prove their innocence, or install a "security" app that actually hands the caller remote control of the phone. The scam increasingly targets Koreans living overseas by spoofing the phone number of a real Korean embassy or consulate: South Korea's Foreign Ministry received 23 reports of diplomat-impersonation phishing calls from January through September 2025, versus just one in the same period a year earlier, with most aimed at Koreans in the United States and Canada. In one such case reported to both Korean police and the FBI, a Korean resident of Florida was shown a fake website "confirming" his involvement in a drug case and, believing the call genuine because it displayed a number matching the Korean embassy in Washington, wired 300 million won (about $210,000) to "prove the money wasn't drug proceeds." Nationwide, voice-phishing losses reached roughly 600 billion won ($432 million) in just the first half of 2025, nearly double the same period a year earlier, and more than 150,000 bank accounts linked to these schemes were frozen between 2020 and early 2025. Real Korean prosecutors, police, and financial regulators never investigate a case, demand a "safe transfer," or ask someone to install an app over the phone.`,
-    categorySlug: 'government-impersonation',
-    country: 'KR',
-    alertLevel: 'critical',
-    sources: ['The Korea Times', 'Korea JoongAng Daily'],
-    sourceUrl: 'https://www.koreajoongangdaily.com/korea/sophisticated-phishing-scams-targeting-overseas-koreans-rising-as-criminals-impersonate-embassy-consular-staff/12105983',
-  },
-  {
-    name: 'Pig-Butchering Romance-Investment Scam Targeting Korean Men',
-    slug: 'south-korea-pig-butchering-romance-scam',
-    description: `Scammers posing online as attractive foreign professionals living abroad spend weeks or months building a romantic relationship with a Korean target through chat apps before introducing a cryptocurrency "investment opportunity" — a tactic nicknamed "pig-butchering" because the victim is patiently fattened up with affection and small early "profits" before being fleeced completely. Once the target has been coaxed into moving increasingly large sums onto a fraudulent trading platform the scammers control, the displayed account balance is manipulated to show large fake gains that push the victim to invest still more, right up until the platform disappears with everything deposited. According to Korean parliamentary data, reported losses accelerated sharply through 2025: romance-scam losses hit roughly 100 billion won ($73 million) from January through September 2025, up from 68 billion won for February through December 2024, with reported cases rising from 1,265 to 1,565 over that comparison. Investigators say many of the rings operate out of Cambodia and elsewhere in Southeast Asia; in one case, a Korean couple allegedly running such an operation from Cambodia used deepfake video-call technology to maintain fabricated identities and defrauded more than 100 victims of roughly 12 billion won. Victims of this scam have less legal protection than voice-phishing victims because Korean law's account-freeze provisions exclude payments framed as being for "goods or services" — precisely how these fraudulent investment platforms present themselves.`,
-    categorySlug: 'romance-scams',
-    country: 'KR',
-    alertLevel: 'critical',
-    sources: ['The Korea Times'],
-    sourceUrl: 'https://www.koreatimes.co.kr/southkorea/law-crime/20251024/pig-butchering-romance-scams-bleed-korean-men-of-73-million-this-year',
-  },
-  {
-    name: '"High-Paying Overseas Job" Scam Recruiting Koreans Into Phishing Rings',
-    slug: 'south-korea-overseas-job-scam-phishing-recruitment',
-    description: `Job ads flooding Korean social media and recruitment platforms promise young jobseekers salaries as high as $8,900 a month, free airfare, and luxury housing for vaguely described "customer service" or "consulting" work in Cambodia, Thailand, or Vietnam. Recruiters are often startlingly candid once an applicant responds: the job actually means working inside a voice-phishing call center impersonating Korean prosecutors and police to defraud victims back home, with one recruiter openly advertising pay of up to 10 million won ($7,200) a week for the work while insisting "security and safety are top priorities" and that going overseas is "necessary for protection." Applicants are asked to hand over passport copies and identification photos before travel, and recruiters pre-empt fears of trafficking and confinement — the kind documented at other Southeast Asian scam compounds — by claiming "no Chinese nationals are involved" and that staff can "go out freely after work hours." The ads have persisted even after the death of a Korean college student in Cambodia in August 2025 renewed public warnings about this recruitment pipeline, with experts pointing to weak job prospects for Korean youth and thin oversight of online recruitment platforms as what keeps the ads circulating despite police pledges to crack down.`,
-    categorySlug: 'employment-scams',
-    country: 'KR',
-    alertLevel: 'critical',
-    sources: ['The Korea Times'],
-    sourceUrl: 'https://www.koreatimes.co.kr/southkorea/society/20251015/earn-8900-a-month-overseas-job-scams-lure-young-koreans-into-phishing-crimes',
-  },
-);
-
-SEED_SCAMS.push(
-  {
     name: 'Madison Timber Properties Ponzi Scheme (Arthur Lamar Adams)',
     slug: 'mississippi-madison-timber-properties-arthur-lamar-adams-ponzi',
     description: `Arthur Lamar Adams ran Madison Timber Properties, LLC out of Mississippi, telling at least 150 investors that their money would be used to buy timber rights from landowners across Alabama, Florida, and Mississippi and then resold at a markup to lumber mills, with Adams promising steady annual returns of 12 to 15 percent. According to the SEC, Madison Timber never actually secured any harvesting rights at all — Adams forged deeds, cutting agreements, and documents purporting to show the value of the underlying timber, and kept the scheme running for over a decade by paying earlier investors with money from new ones and pressuring existing investors to roll their "returns" back into new notes rather than cash out. The SEC filed a sealed fraud complaint in federal court in Jackson, Mississippi on April 20, 2018, unsealed the following month, while the U.S. Attorney's Office for the Southern District of Mississippi brought parallel criminal charges; Adams pleaded guilty on May 9, 2018 to wire fraud. On October 30, 2018, U.S. District Judge Carlton W. Reeves sentenced him to 235 months — over 19 years — in federal prison, with the court finding losses to roughly 300 investors ranging from $65 million to $150 million, making it the largest Ponzi scheme in Mississippi history. A court-appointed receiver, Alysson Mills, has spent years since pursuing recovery litigation on behalf of defrauded investors. The case is a reminder that a note promising a fixed, above-market return backed by a physical asset like timber or real estate still needs to be verified independently — through recorded deeds and county land records, not paperwork supplied only by the person selling the investment.`,
