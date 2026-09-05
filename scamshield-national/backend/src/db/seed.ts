@@ -10325,10 +10325,9 @@ No legitimate bank, government agency, or law enforcement investigation will eve
     title: 'Business Opportunity and MLM Scams: When "Be Your Own Boss" Is the Pitch, Not a Product',
     slug: 'business-opportunity-mlm-scam-guide',
     author: 'ScamShield Editorial',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Business_man_and_woman_handshake_in_work_office.jpg?width=1200',
-    coverImageCredit: 'Photo: perzon seo (CC BY 2.0)',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Multi-level_marketing_tree_diagram.png?width=1200',
+    coverImageCredit: 'JohnDoe0007, Public Domain, via Wikimedia Commons — a diagram of the recruiting-tree structure behind MLM compensation plans',
     coverImagePosition: 50,
-    // representative photo — replace with an exact match if found
     tags: ['guide', 'business-opportunity-scam'],
     sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2024/09/what-are-multi-level-marketing-mlm-disclosure-statements-really-telling-you',
     body: `A friend, a social media ad, or someone from an old contact list reaches out with an opportunity to "be your own boss" selling a product through a multi-level marketing (MLM) company — skincare, supplements, essential oils, or financial coaching are common categories. The pitch usually leans heavily on the income other people are supposedly making, often shown through screenshots of deposit notifications or vague references to a six-figure lifestyle, with much less said about what it actually costs to get started or keep going.
