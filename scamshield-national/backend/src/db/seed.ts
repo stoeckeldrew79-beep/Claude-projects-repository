@@ -221,8 +221,10 @@ The case remains a reference point for municipal fraud prevention for a simple r
     slug: 'enron-accounting-fraud-collapse',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Jeffrey_Skilling_mug_shot.jpg?width=1200',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Downtown_Houston,_TX_Skyline_-_2018.jpg?width=1200',
+    coverImageCredit: 'Photo: David Daniel Turner (CC BY 4.0) — the Houston, Texas skyline; Enron was headquartered in Houston',
     coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Founded from a 1985 merger, Enron grew into one of the largest energy trading companies in America, named "America's Most Innovative Company" by Fortune magazine for six consecutive years through 2000. Its stock was a Wall Street favorite, and its executives were celebrated as visionaries reinventing how energy markets worked.
 
 Behind the growth, Enron's executives — led by CEO Kenneth Lay and COO, later CEO, Jeffrey Skilling — used a web of off-the-books "special purpose entities" to hide billions of dollars in debt and inflate reported profits, with the company's own auditor, Arthur Andersen, signing off on statements that didn't reflect Enron's actual financial condition. When the scheme unraveled in October 2001, Enron's stock collapsed from over $90 to under $1 within weeks, wiping out an estimated $74 billion in shareholder value and thousands of employees' retirement savings, which had been heavily invested in company stock.
