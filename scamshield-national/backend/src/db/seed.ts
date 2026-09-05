@@ -10117,7 +10117,7 @@ NOTORIOUS_ARTICLES.push(
     tags: ['notorious', 'notorious-scammer'],
     sourceUrl: 'https://www.justice.gov/opa/pr/ceo-health-care-software-company-sentenced-1b-fraud-conspiracy',
     coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Sandra_Day_O%27Connor_United_States_Courthouse_-_Phoenix,_Arizona_(49343843277).jpg?width=1200',
-    coverImageCredit: 'Photo: Tony Webster, CC BY-SA 2.0, via Wikimedia Commons — the Sandra Day O\'Connor United States Courthouse in Phoenix, Arizona, in Maricopa County, where Gary Cox lived and where his company was based // representative photo — replace with a portrait if found',
+    coverImageCredit: 'Photo: Tony Webster, CC BY-SA 2.0, via Wikimedia Commons — the Sandra Day O\'Connor U.S. Courthouse in Phoenix, Arizona, where Gary Cox lived and his company was based', // representative photo — replace with a portrait if found
     coverImagePosition: 50,
     body: `Gary Cox, 79, of Maricopa County, Arizona, ran a company with a name that sounded like back-office plumbing rather than the center of a billion-dollar fraud: Power Mobility Doctor Rx, LLC, doing business as DMERx. On paper, DMERx was a software platform that let doctors sign and transmit orders for durable medical equipment — orthotic braces, pain creams, and similar items — to the pharmacies and equipment suppliers that would bill Medicare for them. Prosecutors said Cox turned that plumbing into the connective tissue of a nationwide fraud network, linking marketers, telemedicine companies, doctors willing to sign orders sight-unseen, and offshore call centers into a single assembly line that billed federal health programs for more than $1 billion in equipment beneficiaries never needed and, in many cases, never wanted.
 
