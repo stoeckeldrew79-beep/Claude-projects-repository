@@ -39030,6 +39030,43 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'Arizona Attorney General Employment Scam Warning',
+    slug: 'arizona-attorney-general-employment-scam-warning',
+    description: `Arizona Attorney General Kris Mayes issued a consumer alert on April 24, 2025 warning job seekers to watch for employment scams as hiring activity picked up for part-time, seasonal, and full-time work. Scammers post fake job listings on job boards, social media, and in print, or contact prospects directly by phone, email, or text, often copying a real company's logo and website to look legitimate and dangling work-from-home roles that promise high pay for little or no experience. Rather than starting with an interview, these listings push applicants to hand over a full birthdate, Social Security number, bank account details, or other personal identifying information up front, which the scammers can then use to commit identity theft even if no "job" ever materializes. "Whether you are looking for part-time, seasonal or full-time employment, everyone needs to be alert when sharing your personal information with would-be employers," Mayes said, adding that "identity thieves and scam artists may take advantage of your earnest efforts to find gainful employment." The Attorney General's Office advised job seekers to research an employer independently before sending a resume or any personal information, to be suspicious of unsolicited job offers that arrive out of nowhere, and to avoid providing sensitive identifying information before an employer has extended an actual, verifiable job offer following a real interview process.`,
+    categorySlug: 'employment-scams',
+    country: 'US',
+    state: 'AZ',
+    alertLevel: 'medium',
+    sources: ["Arizona Attorney General's Office", 'KTAR News'],
+    sourceUrl: 'https://www.azag.gov/press-release/attorney-general-mayes-warns-job-seekers-be-alert-possible-employment-scams',
+  },
+  {
+    name: 'Kentucky Spoofed Government Employee Email Prize Scam',
+    slug: 'kentucky-spoofed-government-employee-email-scam',
+    description: `Kentucky Attorney General Andy Beshear's office issued a scam alert on May 16, 2017 warning residents about criminals who use spoofing technology to make fraudulent emails appear as though they were sent from the account of an actual government employee, rather than an outside impersonator's own address. Recipients received messages that looked as if they came from real state or federal personnel, tied to agencies such as the Census Bureau, HUD, the IRS, or local law enforcement, falsely claiming the recipient owed a debt or had won a sweepstakes prize that required an upfront payment to be released. "By using advanced technology to spoof actual employee email accounts, scammers are adding a new twist on impersonation scams," Beshear said. The alert followed five reports of the spoofed-email variant specifically, part of more than 200 impersonation-scam complaints Kentucky's Office of Consumer Protection received that year, ten of which together cost victims nearly $50,000. The office advised Kentuckians never to send money or personal or financial information in response to an email claiming to be from a government employee without first calling the agency directly using a phone number looked up independently, noting that legitimate agencies never demand an upfront fee to release a prize and never solicit payment through a reply to an unsolicited email.`,
+    categorySlug: 'phishing',
+    country: 'US',
+    state: 'KY',
+    isHistorical: true,
+    firstRecorded: '2017-05-16',
+    sources: ["Kentucky Attorney General's Office"],
+    sourceUrl: 'https://content.govdelivery.com/accounts/KYAG/bulletins/19ae712',
+  },
+  {
+    name: 'South Carolina "Gold Bar" Tech Support Courier Scam (Michael and Roxanne Chrisman)',
+    slug: 'south-carolina-gold-bar-tech-support-courier-scam',
+    description: `Michael Chrisman, a South Carolina retiree, received a pop-up on his computer in 2025 claiming it had been locked and compromised, along with a phone number to call for help. The person who answered, claiming to represent Microsoft, told him his financial accounts were also at risk, so Chrisman called his own credit card company using the number printed on the back of his card, not realizing the scammers were intercepting the call. Posing as bank employees, the callers convinced Michael and his wife Roxanne that their money needed to be moved to "protect" it, instructing them to liquidate their savings and retirement accounts and convert the cash into physical gold bars, which couriers then collected from the couple's home on multiple occasions with the false promise that the gold would be held at the Federal Reserve until their accounts were secured. The gold never came back, the accounts were never actually compromised, and the couple was left facing tax consequences on the IRAs and inherited funds they had cashed out. The FBI's Columbia, South Carolina field office publicized the couple's case in a warning to seniors, noting that South Carolinians had reported roughly $9 million in tech support scam losses in a single year. "If someone is asking you to move your money from one account into another in order to protect it, it's likely a scam," said FBI Columbia public affairs specialist Kevin Wheeler. The FBI urges anyone contacted this way to hang up, never move money or hand over cash, gold, or valuables to a courier, and to verify any claimed account problem by calling their bank directly using a number they look up independently, then report the contact to the FBI at 1-800-CALL-FBI or ic3.gov.`,
+    categorySlug: 'tech-support-scams',
+    country: 'US',
+    state: 'SC',
+    alertLevel: 'high',
+    sources: ['Federal Bureau of Investigation (Columbia Field Office)', 'InvestigateTV'],
+    sourceUrl: 'https://www.fbi.gov/contact-us/field-offices/columbia/news/fbi-warns-seniors-of-advanced-tech-support-and-government-impersonation-scams',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
