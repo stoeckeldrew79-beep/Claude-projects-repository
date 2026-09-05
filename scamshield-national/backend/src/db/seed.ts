@@ -36528,6 +36528,42 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'Windstar Financial Services Inflated Oil-Deal Consulting Fraud',
+    slug: 'connecticut-windstar-financial-donofrio-oil-deal-fraud',
+    description: `Dominick N. Donofrio, 73, ran Windstar Financial Services, Inc. out of Madison, Connecticut, and in 2013 was hired by Wisconsin-based Randall Robert Binversie Holdings to provide business and financial consulting on the purchase of a renewable-fuel business. In early 2014, Donofrio told Binversie about an opportunity to buy Tioga Fuel, a home heating-oil company in Philadelphia, and its properties, representing the purchase price as $2,050,567 — a figure federal prosecutors say he had fraudulently marked up by roughly $1.3 million above the real price. On top of the inflated purchase price, Donofrio charged Binversie more than $987,000 in fraudulent consulting, negotiation, and legal fees during 2013 and 2014, took approximately $87,000 directly from Tioga Fuel's account during the acquisition, and collected about $136,000 in "interest payments" on a $1.25 million loan that never actually existed — a combined loss of about $2.5 million. A federal grand jury in the Eastern District of Pennsylvania indicted Donofrio on wire fraud charges in July 2019, but he remained a fugitive for years until his arrest in Mystic, Connecticut in July 2024; he pleaded guilty to one count of wire fraud on February 4, 2026, and U.S. District Judge Kari A. Dooley in Bridgeport sentenced him to 36 months in federal prison plus three years of supervised release. The case is a reminder that a consultant retained to help negotiate and close a business acquisition has every opportunity to quietly pad the purchase price and invent side fees the buyer has no independent way to verify, so any business relying on a paid intermediary in an acquisition should get its own independent appraisal of the target company and confirm loan terms directly with the lender rather than through the consultant.`,
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    state: 'CT',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office for the District of Connecticut", 'Federal Bureau of Investigation'],
+    sourceUrl: 'https://www.justice.gov/usao-ct/pr/connecticut-man-sentenced-prison-25-million-fraud-scheme',
+  },
+  {
+    name: 'Tom Petters $3.65 Billion Ponzi Scheme',
+    slug: 'minnesota-tom-petters-ponzi-scheme',
+    description: `Thomas Joseph Petters, of Wayzata, Minnesota, built Petters Group Worldwide into a real, visible business empire — it owned Polaroid, the catalog retailer Fingerhut, and a controlling stake in Sun Country Airlines — which made it easier for investors to believe the fraud running underneath it. Through a subsidiary called Petters Company Inc. (PCI), Petters raised money from hedge funds, retirees, and even pastors and missionaries by promising returns of 15 to 20 percent, telling investors their money was funding the purchase of bulk consumer electronics and other wholesale goods that PCI would resell to big-box retailers like Costco and Sam's Club at a markup. No such merchandise deals existed anywhere near the scale claimed; Petters used forged purchase orders and fabricated shipping documents to make the scheme look like a real, profitable wholesale operation while using new investors' money to pay "returns" to earlier ones. The 16-year Ponzi scheme unraveled in September 2008 after a close associate, Deanna Coleman, went to federal authorities and wore a wire that recorded Petters discussing the fraud directly. Following a month-long trial, a federal jury convicted Petters on December 2, 2009 of twenty counts including wire fraud, mail fraud, conspiracy, and money laundering, and on April 8, 2010, U.S. District Judge Richard Kyle sentenced him to 50 years in federal prison — the longest sentence ever imposed for financial fraud in Minnesota history. Total losses to investors were estimated at $3.65 billion, making it one of the largest Ponzi schemes in U.S. history after Bernie Madoff's. The case is a reminder that owning real, recognizable companies does not make a business real: Polaroid and Fingerhut were genuine, operating brands, and their legitimacy lent credibility to a wholesale-goods scheme that, underneath, was fabricated from top to bottom.`,
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    state: 'MN',
+    alertLevel: 'high',
+    sources: ['Federal Bureau of Investigation', "U.S. Attorney's Office for the District of Minnesota"],
+    sourceUrl: 'https://archives.fbi.gov/archives/minneapolis/press-releases/2010/mp040810.htm',
+  },
+  {
+    name: 'CARES Act Unemployment Fraud Against the Alabama Department of Labor',
+    slug: 'alabama-adol-cares-act-unemployment-fraud-carter',
+    description: `Between March and September 2020, Brandon Cody Carter, 36, of East Point, Georgia, conspired with others to submit a wave of fraudulent unemployment insurance claims to the Alabama Department of Labor (ADOL) under the expanded pandemic unemployment provisions of the CARES Act, falsely claiming Alabama residency and using multiple aliases built on fictitious names, birthdates, and Social Security numbers to get the claims approved. According to federal prosecutors, Carter's scheme led ADOL to disburse $818,304 in fraudulent benefit payments before it was uncovered. Carter pleaded guilty on January 23, 2025 to conspiracy to commit mail fraud, and on May 13, 2025, was sentenced in the U.S. District Court for the Middle District of Alabama to 78 months in federal prison and three years of supervised release. Acting U.S. Attorney Kevin Davidson said the sentence "reflects the seriousness of defrauding programs intended to help those truly in need during a national crisis," while the investigating Social Security Administration Office of Inspector General special agent in charge, Mathew Broadhurst, said Carter "enriched himself by diverting taxpayer funds from a program intended to assist unemployed workers." The case is part of a wave of pandemic-era unemployment fraud that state labor agencies, including ADOL, are still uncovering years later, and it is a reminder that anyone who receives a tax form (Form 1099-G) reporting unemployment benefits they never applied for should report it immediately to their state labor department and the U.S. Department of Labor's Office of Inspector General, since an unresolved fraudulent claim can otherwise show up as taxable income on the real person's own tax return.`,
+    categorySlug: 'public-benefits-fraud',
+    country: 'US',
+    state: 'AL',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office for the Middle District of Alabama", 'Social Security Administration Office of Inspector General'],
+    sourceUrl: 'https://www.justice.gov/usao-mdal/pr/east-point-georgia-man-sentenced-federal-prison-cares-act-unemployment-fraud',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
