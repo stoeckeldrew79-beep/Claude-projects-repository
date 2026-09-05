@@ -6571,10 +6571,9 @@ Diss Debar kept working her old trade almost to the end. In 1907, the Detroit Fr
     slug: 'shaun-greenhalgh-bolton-art-forger',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Bolton_Town_Hall_(3).JPG?width=1200',
-    coverImageCredit: 'Photo: Rept0n1x (CC BY-SA 3.0)',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Amarna_Princess.JPG?width=1200',
+    coverImageCredit: 'Photo: Geni, Wikimedia Commons (CC BY-SA 4.0) — the "Amarna Princess," one of Shaun Greenhalgh\'s forged Egyptian antiquities, sold to Bolton Museum for £440,000',
     coverImagePosition: 50,
-    // representative photo — replace with a portrait if found
     body: `Shaun Greenhalgh was born September 19, 1961, in Bromley Cross, near Bolton in Lancashire, England, and left school at 16 with no formal art training. Working from a garden shed behind the council house he shared with his elderly parents, George and Olive Greenhalgh, in the South Turton area of Bolton, Shaun spent roughly seventeen years — from 1989 to 2006 — producing forged artworks and antiquities across an astonishing range of styles, materials, and periods, while his parents fronted the sales to museums, auction houses, and private collectors as a family antiques business. Scotland Yard's Art and Antiques Unit later described it as possibly the most diverse forgery operation ever uncovered.
 
 The family's most audacious fake was the "Amarna Princess," a 20-inch alabaster statue Shaun carved in about three weeks using basic hand tools, which he and his parents presented as a rediscovered 3,300-year-old Egyptian antiquity from the reign of Akhenaten. Bolton Museum bought it in 2003 for £439,767 after outside Egyptologists judged it genuine. Other fakes moved through the same channel with similarly convincing results: the "Risley Park Lanx," a purported Roman silver plate that sold for £100,000; a wooden sculpture called "The Faun," attributed to Paul Gauguin and authenticated by the respected Wildenstein Institute before the Art Institute of Chicago bought it for $125,000; and paintings and sculptures falsely credited to L.S. Lowry, Barbara Hepworth, and the American landscape painter Thomas Moran, among many others.
@@ -9381,9 +9380,8 @@ The Centra Tech case became one of the defining prosecutions of the 2017-2018 IC
     slug: 'jared-rice-arisebank-ico-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
-    // representative photo — replace with a portrait if found
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Earl_Cabell_Federal_Building,_cropped.jpg?width=1200',
-    coverImageCredit: 'Photo: Rapidfire / Xnatedawgx, Wikimedia Commons (CC BY-SA) — the Earle Cabell Federal Building in Dallas, home of the U.S. District Court for the Northern District of Texas, where Rice was sentenced',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Jared_Rice_Sr.jpg?width=1200',
+    coverImageCredit: 'Photo: Sudeshroul, Wikimedia Commons (CC BY-SA 4.0) — Jared Rice Sr., the AriseBank founder later convicted of securities fraud',
     coverImagePosition: 50,
     body: `In late 2017, Dallas-area entrepreneur Jared Rice Sr. launched AriseBank with a pitch designed to ride two crazes at once: he called it "the world's first decentralized banking platform," promising customers FDIC-insured accounts, Visa-branded debit cards, and the ability to hold and spend more than 700 different cryptocurrencies, all funded through an initial coin offering for a token called AriseCoin. Rice and business partner Stanley Ford told the press and investors that AriseBank had already collected roughly $600 million in presale commitments since November 2017 — a figure regulators later said bore no real relationship to the money actually being taken in.
 
@@ -10312,6 +10310,88 @@ AirBit Club is a reminder that affinity carries in both directions — a pitch d
   },
 );
 
+NOTORIOUS_ARTICLES.push(
+  {
+    title: 'Brian Kolfage and the "We Build the Wall" Fundraiser That Defrauded More Than 100,000 Donors',
+    slug: 'brian-kolfage-we-build-the-wall-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-sdny/pr/leaders-we-build-wall-online-fundraising-campaign-charged-defrauding-hundreds-thousands',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Brian_Kolfage_keynote_at_Navy_League_Sea_Service_Awards.jpg?width=1200',
+    coverImageCredit: 'Photo: U.S. Navy, Mass Communication Specialist Diana Quinlan (public domain) — Kolfage in 2012, before founding We Build the Wall',
+    coverImagePosition: 25,
+    body: `Brian Kolfage, a triple-amputee Air Force veteran wounded in Iraq, had spent years building a public profile as a resilient wounded warrior and a minor conservative-media figure running viral partisan Facebook pages. In December 2018, he turned that following into "We Build the Wall," a GoFundMe campaign pitched as a grassroots answer to a stalled congressional border-wall appropriation: if Washington wouldn't pay for a wall along the U.S.-Mexico border, ordinary donors would crowdfund one themselves.
+
+Kolfage told the public he would "not take a penny in salary or compensation" and that "100% of the funds raised... will be used in the execution of our mission and purpose." Former Trump strategist Steve Bannon, who joined the effort's advisory board, reinforced the pitch, describing it as a volunteer organization. More than 100,000 donors gave over $25 million.
+
+According to federal prosecutors in the Southern District of New York, that promise was false almost from the start. Kolfage, working with Bannon, Florida associate Andrew Badolato, and Colorado businessman Timothy Shea, is alleged to have routed the nonprofit's money through shell companies and a fabricated invoicing arrangement, quietly diverting more than $350,000 to himself — spent, prosecutors said, on a boat, a luxury SUV, cosmetic surgery, and personal credit-card debt — while Bannon collected at least $1 million through a separate nonprofit he controlled. The wall the campaign actually built, a roughly half-mile private section near Sunland Park, New Mexico, needed emergency repairs within months over erosion concerns.
+
+All four men were indicted in August 2020. Bannon received a presidential pardon from Donald Trump in the final hours of his administration, before trial, ending the federal case against him. Kolfage was later charged separately in Florida with tax fraud for failing to report the diverted money as income, and in 2022 pleaded guilty to conspiracy to commit wire fraud, conspiracy to commit money laundering, and tax fraud. In April 2023, he was sentenced to 51 months in prison and ordered to forfeit more than $17.8 million along with over $2 million in restitution. Badolato was sentenced to three years; Shea, convicted at a second trial after the first ended in a deadlocked jury, received 63 months.
+
+The case is a reminder that a cause people already believe in — even one as politically charged as a border wall — is exactly the kind of pitch that can suppress the ordinary skepticism donors would apply to a stranger asking for money, especially when the person asking wears a war injury as proof of sincerity and promises, in writing, that "100%" of every dollar goes where it's supposed to.`,
+  },
+  {
+    title: 'Matthew Piercey and the Fake "Upvesting Fund" That Ended With a Submersible in Lake Shasta',
+    slug: 'matthew-piercey-upvesting-fund-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-edca/pr/shasta-county-man-sentenced-30-years-prison-running-35-million-investment-fraud-scheme',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Aerial_view_of_Shasta_Dam_and_Shasta_Lake_(2019).jpg?width=1200',
+    coverImageCredit: 'Photo: Bureau of Reclamation, U.S. Dept. of the Interior (CC BY-SA 2.0) — Shasta Dam and Lake Shasta, where Piercey tried to flee arrest',
+    coverImagePosition: 50, // representative photo — replace with a portrait if found
+    body: `Matthew Piercey ran an investment operation out of Palo Cedro, a small community in Shasta County, California, built around something he called the Upvesting Fund — an automated algorithmic trading program he told investors had a long, proven track record of returns. Prosecutors say Piercey told a very different story in private: to at least one associate, he admitted the Upvesting Fund did not actually exist.
+
+Between July 2015 and August 2020, Piercey raised roughly $35 million from investors, many of whom he met through his own church congregation and who handed over retirement accounts and life savings on the strength of his standing as a trusted member of their community. As in a classic Ponzi scheme, the "returns" paid to earlier investors came from cash raised from newer ones rather than from any real trading activity. When the flow of new money threatened to slow, prosecutors say Piercey enlisted a Redding-area chiropractor to help quietly bring in new investor funds and keep the fraud running.
+
+The case took an unusual turn on November 16, 2020, when federal agents arrived to arrest Piercey. He led them on a vehicle pursuit, abandoned his car, and fled into Lake Shasta using an underwater submersible device in an attempt to escape. He was caught anyway, and was later charged with witness tampering on top of the underlying fraud.
+
+Piercey pleaded guilty in May 2025 — four days before his trial was set to begin — to 27 counts including wire fraud, concealment money laundering, and witness tampering, without any plea agreement in place. Investigators found he had repaid only about $8.8 million of the $35 million he raised, spending much of the rest on personal expenses, real estate, and his own criminal defense. In May 2026, a federal judge sentenced him to 30 years in prison and ordered him to pay $25.5 million in restitution to his victims.
+
+Piercey's case is a reminder that affinity fraud runs on borrowed trust rather than real returns: a fellow congregant asking for retirement savings can feel safer than a stranger's cold pitch, even though shared faith says nothing about whether an "automated trading fund" is actually placing a single trade — and that when the fraud finally catches up with the person running it, the lengths some will go to avoid answering for it can be as dramatic as evading arrest through a lake with a submersible.`,
+  },
+);
+
+NOTORIOUS_ARTICLES.push(
+  {
+    title: 'Amir Bruno Elmaani and the Oyster Protocol "Exit Scam"',
+    slug: 'amir-bruno-elmaani-oyster-protocol-exit-scam',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-sdny/pr/cryptocurrency-founder-bruno-block-sentenced-four-years-prison',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Martinsburg_Train_Station_Martinsburg_WV_2022-08-06_12-08-39.jpg?width=1200',
+    coverImageCredit: 'Photo: G. Edward Johnson, Wikimedia Commons (CC BY 4.0) — the Martinsburg, West Virginia train station, near where Amir Bruno Elmaani lived when arrested',
+    coverImagePosition: 50, // representative photo — replace with a portrait if found
+    body: `Amir Bruno Elmaani, going by the alias "Bruno Block," founded Oyster Protocol in 2017, an Ethereum-based project pitched as a decentralized cloud storage platform. To fund development, Elmaani launched an initial coin offering for a companion cryptocurrency called Pearl (PRL), telling investors between September and October 2017 that the token's total supply was fixed — a scarcity promise meant to reassure buyers the way a fixed share count reassures a stockholder.
+
+The promise wasn't true. Elmaani had retained special administrative access to the smart contract controlling Pearl's supply, and on October 29, 2018, without telling investors or even his own project team, he used that access to secretly mint a large new batch of PRL tokens for himself and sold them into the open market. The sudden flood of unauthorized tokens diluted everyone else's holdings and crashed the price, a maneuver crypto commentators quickly dubbed the "Oyster exit scam." Trading in Pearl halted soon afterward, and the project never recovered.
+
+The Securities and Exchange Commission filed a parallel civil complaint in 2020, charging Elmaani with conducting an unregistered securities offering and defrauding investors through the undisclosed token-minting scheme. Federal prosecutors in the Southern District of New York separately found that despite pocketing millions of dollars from selling the secretly minted tokens, Elmaani reported almost none of it to the IRS — claiming just $15,000 in income on his 2017 tax return and reporting zero income in 2018 — while moving the proceeds through nominees and shell companies and spending more than $10 million of it on yachts, real estate, and precious metals.
+
+Elmaani was arrested in 2020 and pleaded guilty in April 2023 before U.S. District Judge Colleen McMahon to tax evasion, admitting the scheme caused a federal tax loss of more than $5.5 million. In October 2023, Judge McMahon sentenced him to four years in prison plus one year of supervised release and ordered him to pay back the full $5.5 million in restitution.
+
+Oyster's collapse became one of the ICO boom's clearest cautionary tales about a narrow but critical risk: a "fixed supply" is only as fixed as the trust investors place in whoever still holds the administrative keys to the underlying contract, and Elmaani's own project could not stop its founder from minting more of a token he had promised, in writing, could never be minted again.`,
+  },
+  {
+    title: 'Alex Dee, Brian Kaplan, and the "8 Figure Dream Lifestyle" Pyramid Scheme',
+    slug: '8-figure-dream-lifestyle-pyramid-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/archives/opa/pr/founders-illegal-pyramid-scheme-sentenced-roles-fraud-caused-over-23m-losses-victims',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Alfred_A._Arraj_United_States_Courthouse_(23387332304).jpg?width=1200',
+    coverImageCredit: 'Photo: Paul Sableman, Wikimedia Commons (CC BY 2.0) — the Alfred A. Arraj U.S. Courthouse in Denver, where the 8FDL founders were sentenced',
+    coverImagePosition: 50,
+    body: `From roughly January 2017 through March 2019, Alex Dee (formerly known as Alex Dowlatshahi), Brian Kaplan, and Jerrold Mauer founded and ran an online "business opportunity" called 8 Figure Dream Lifestyle, or 8FDL, incorporated in Wyoming and marketed nationwide through emails, robocalls, slick promotional videos, and recruiting webinars that promised ordinary people — with no prior business experience — they could "easily earn millions" in the online marketing space.
+
+Behind the pitch, prosecutors said, there was no real product. Members paid to join 8FDL and then made money almost entirely by recruiting new members who paid to join beneath them — the textbook structure of an illegal pyramid scheme, where payouts depend on a constantly expanding base of new recruits rather than on any product or service sold to outside customers. Dee and his co-conspirators told prospective members wildly inflated stories about how much existing members had already earned, understated the real ongoing costs of participating, and promised earnings of more than $10,000 within 60 to 90 days that, for the great majority of members, never materialized.
+
+More than 2,800 people around the country joined 8FDL, collectively losing approximately $23.5 million — money that flowed disproportionately to the three founders and a small number of early recruiters at the top of the structure, while most members who joined later never recouped what they had paid in.
+
+Federal prosecutors indicted the three men in the U.S. District Court for the District of Colorado. Kaplan pleaded guilty to conspiracy to commit wire fraud in November 2023, Mauer pleaded guilty on the same charge later that month, and Dee entered his own guilty plea in July 2024. In December 2024, U.S. District Judge Charlotte N. Sweeney sentenced Dee to 36 months in prison and ordered him to forfeit $1,845,600; Kaplan received 22 months and was ordered to forfeit $2,838,700; and Mauer also received 22 months and was ordered to forfeit $1,545,500, with all three also facing two years of supervised release.
+
+8FDL is a reminder that a pyramid scheme doesn't need an elaborate cover story to work: dressed up as an "online marketing business" or an entrepreneurial "dream lifestyle," the entire enterprise can still boil down to the oldest structure in fraud — a promise that recruiting the next person in is itself the product — one that mathematically guarantees most participants lose money even when a handful of early recruiters walk away rich.`,
+  },
+);
+
 // Practical "how it works / red flags / what to do" guides covering the
 // major scam categories, the same kind of coverage the FTC's Consumer
 // Advice site and AARP's Fraud Watch Network publish — well-documented
@@ -10508,10 +10588,9 @@ If you're helping an older family member, agree in advance on a household rule t
     slug: 'online-marketplace-scams-facebook-craigslist',
     author: 'ScamShield Editorial',
     tags: ['guide', 'online-marketplace'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Old_items_displayed_at_garage_sale.jpg?width=1200',
-    coverImageCredit: 'Photo: Sneha G Gupta (CC BY-SA 4.0)',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Craigslist_logo.svg?width=1200',
+    coverImageCredit: 'Craigslist (PD-textlogo), via Wikimedia Commons — one of the two real platforms named in the article',
     coverImagePosition: 50,
-    // representative photo — replace with an exact match if found
     sourceUrl: 'https://consumer.ftc.gov/articles/buying-online-marketplace',
     body: `Online marketplaces like Facebook Marketplace, Craigslist, and OfferUp connect local buyers and sellers directly, without the structured buyer-protection programs and dispute resolution that come standard on larger platforms like Amazon or eBay — which is exactly what makes them attractive to scammers on both sides of a transaction.
 
@@ -11127,10 +11206,9 @@ Red flags include any claim that a government agency is behind the offer, pressu
     slug: 'crowdfunding-gofundme-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'crowdfunding-scams'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/2023-09-13_Digital_donation_box_to_combat_homelessness.jpg?width=1200',
-    coverImageCredit: 'Photo: Bärbel Miemietz (CC BY-SA 4.0)',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/GoFundMe.svg?width=1200',
+    coverImageCredit: 'GoFundMe (PD-textlogo), via Wikimedia Commons — the real platform named in the article',
     coverImagePosition: 50,
-    // representative photo — replace with an exact match if found
     sourceUrl: 'https://consumer.ftc.gov/articles/donating-through-crowdfunding-and-fundraising-platforms',
     body: `A crowdfunding campaign appears with a compelling story — a stranger's medical emergency, a family displaced by disaster, a beloved community figure in crisis — often paired with real, emotionally striking photos and a specific dollar goal. The story spreads on social media, donations pour in from people who've never met the person involved, and by the time anyone questions it, the organizer has already withdrawn the funds and disappeared.
 
@@ -13841,10 +13919,9 @@ Real verification never arrives as an unsolicited email or DM inviting you to ap
     slug: 'pet-sitting-job-overpayment-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'pet-sitting-scam'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Dog_walking_woman.jpg?width=1200',
-    coverImageCredit: 'Photo: Amin (CC BY-SA 4.0)',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Rover.com_logo.svg?width=1200',
+    coverImageCredit: 'Rover.com (PD-textlogo), via Wikimedia Commons — one of the two real platforms named in the article',
     coverImagePosition: 50,
-    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.bbb.org/article/scams/24708-scam-alert-pet-sitting-job-is-too-good-to-be-true',
     body: `Someone lists themselves as a pet sitter or dog walker on Rover, Care.com, or a similar platform, and a "client" reaches out with an offer that skips every normal step of hiring: they're relocating to the area soon, need care to start right away, will pay well above the going rate, and don't need an interview or even a video call first — the sitter is "clearly" trustworthy from their profile alone. The lack of vetting feels like a compliment rather than a warning sign, which is precisely the point.
 
@@ -14437,8 +14514,8 @@ Before letting anyone in, call the phone number printed on an actual utility bil
     slug: 'mobile-phone-bill-cramming-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'cramming'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Black_smartphone_in_hand_(Unsplash).jpg?width=1200',
-    coverImageCredit: 'Photo: Dennis Cortés (CC0)',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Smartphone-mobile-hand-technology-internet-finger.jpg?width=1200',
+    coverImageCredit: 'Photo: pxhere.com, via Wikimedia Commons (CC0)',
     coverImagePosition: 50,
     // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.ftc.gov/news-events/topics/mobile-cramming',
@@ -19344,10 +19421,9 @@ For anyone who received a MOVEit-related breach notification — and many people
     author: 'ScamShield Editorial',
     tags: ['guide', 'powerschool-data-breach'],
     sourceUrl: 'https://www.texasattorneygeneral.gov/news/releases/attorney-general-paxton-sues-big-tech-company-catastrophic-data-breach-compromised-personal',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Dalby_State_School,_Computer_lab,_2023.jpg?width=1200',
-    coverImageCredit: 'Photo: Queensland Department of Education, via Kerry Raymond (CC BY 4.0)',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Simplified_PowerSchool_Logo.svg?width=1200',
+    coverImageCredit: 'PowerSchool (PD-textlogo), via Wikimedia Commons — the real company named in the article',
     coverImagePosition: 50,
-    // representative photo — replace with an exact match if found
     body: `PowerSchool is the student information system that runs quietly behind thousands of American public school districts — the platform administrators use to record grades, attendance, health accommodations, disciplinary records, and enrollment data for tens of millions of children. Between December 19 and December 28, 2024, a hacker used a single compromised password belonging to a support-portal account to walk through PowerSchool's back door and download an enormous slice of that data directly, in what security researchers and state investigators have since called one of the largest breaches of children's personal information in U.S. history.
 
 The access point wasn't a sophisticated exploit — it was a maintenance feature built into a customer-support portal, reachable with valid credentials for a single employee account, that let whoever was logged in export bulk student and staff records across PowerSchool's customer districts nationwide. According to the breach notifications PowerSchool later sent, the exposed data varied by district but could include students' full names, dates of birth, Social Security numbers, home addresses, medical information, disability and special-education records, disciplinary histories, and in some cases even bus-stop assignments — the kind of detail that, in the words of the Texas Attorney General's subsequent lawsuit, "can be used to physically locate Texas children." Reported totals put the exposure at more than 62 million student records and nearly 10 million teacher and staff records, spanning school districts across the United States and Canada.
@@ -19447,10 +19523,9 @@ GUIDE_ARTICLES.push(
     author: 'ScamShield Editorial',
     tags: ['guide', 'loandepot-data-breach-settlement'],
     sourceUrl: 'https://www.loandepotbreachsettlement.com/',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Irvine_City_Hall.jpg?width=1200',
-    coverImageCredit: 'Photo: Azusa Tarn, CC BY-SA 4.0, via Wikimedia Commons — Irvine, California, headquarters city of loanDepot',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/LoanDepot_logo.svg?width=1200',
+    coverImageCredit: 'loanDepot (PD-textlogo), via Wikimedia Commons — the real company named in the article',
     coverImagePosition: 50,
-    // representative photo — replace with an exact match if found
     body: `loanDepot is one of the largest nonbank mortgage lenders in the country, the kind of company that touches a borrower's financial life at its most sensitive point: the bank account and Social Security numbers behind a home loan. Between January 3 and January 5, 2024, according to the company's own regulatory disclosures, an attacker broke into loanDepot's network and encrypted a portion of its systems, forcing the lender to take some IT systems offline and temporarily disrupting its ability to process loan payments for existing customers. loanDepot publicly disclosed the intrusion on January 8, 2024, and on February 16, 2024, the ALPHV/BlackCat ransomware group — the same ransomware-as-a-service operation later tied to the Change Healthcare attack — claimed responsibility.
 
 What made the breach so consequential wasn't just that it happened, but what it exposed: Social Security numbers, financial account numbers, home addresses, dates of birth, email addresses, phone numbers, and in some cases passwords belonging to roughly 16.9 million people, according to notices loanDepot ultimately sent — making it one of the largest data breaches disclosed in 2024. Because loanDepot's core business is mortgage origination and servicing, the exposed records weren't limited to basic contact information the way a retail breach might be; they included the kind of account and identity data that underlies a home loan itself, information that stays valid and dangerous for identity thieves for years, not just until a card gets reissued. SecurityWeek later reported loanDepot's own disclosed remediation costs at roughly $27 million, covering incident response, legal fees, and credit-monitoring services for affected customers.
@@ -19524,6 +19599,89 @@ The CFPB announced its order in November 2024: a $15 million civil penalty and r
 Then, in July 2025, under new leadership installed after a change in presidential administration, Acting CFPB Director Russell Vought signed an order terminating the consent decree entirely — canceling both the $15 million penalty and the $80 million in refunds Navy Federal had agreed to pay, before most members had actually received a check. Navy Federal itself had asked to be released from the order, and the Bureau granted it, "waiving" any alleged non-compliance rather than enforcing the original terms. The termination drew public pushback from consumer advocates and Democratic senators, including a formal letter to the Bureau, and complaint trackers subsequently reported a renewed wave of Navy Federal overdraft complaints from members who said the surprise fees had continued or resumed after the settlement was scrapped.
 
 The reversal doesn't change the facts the CFPB's own investigators found, and it doesn't mean the underlying practice was legal — it means the specific financial penalty for it was undone by a change in regulatory priorities before most affected members ever saw a refund check. That distinction matters for anyone who banked with Navy Federal during the 2017–2022 window covered by the original order: there is currently no active CFPB payment process to check for or file a claim against, since the order that would have funded it no longer exists, but that doesn't erase a legitimate grievance over a fee charged on a balance the bank itself had shown as sufficient. Anyone who believes they were charged this kind of "authorize positive, settle negative" overdraft fee — by Navy Federal or any other bank or credit union — can still document the specific transaction and balance history and file a complaint directly with the CFPB at consumerfinance.gov/complaint, since individual complaints remain part of the public record regardless of whether a broader enforcement order is in effect, and can also raise the same dispute directly with their bank's own customer service or ombudsman channel. Checking your own account's real-time available balance immediately before any large purchase, rather than relying on a balance you saw earlier in the day, remains the most reliable way to avoid this specific fee regardless of which bank holds the account or what a regulator has or hasn't required of it.`,
+  },
+);
+
+GUIDE_ARTICLES.push(
+  {
+    title: `T-Mobile's Repeat Data Breaches: How 76 Million Stolen Records Became a $500 Million Reckoning`,
+    slug: 't-mobile-data-breaches-fcc-settlement-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 't-mobile-data-breach-settlement'],
+    sourceUrl: 'https://www.fcc.gov/document/fcc-t-mobile-agree-settle-data-breach-investigations',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/T-Mobile_Headquarters_in_Bellevue,_WA.jpg?width=1200',
+    coverImageCredit: 'Photo: AtomicTaco, CC BY-SA 2.0, via Wikimedia Commons — T-Mobile headquarters, Bellevue, Washington',
+    coverImagePosition: 50,
+    body: `In August 2021, T-Mobile disclosed that a hacker had broken into its systems and stolen personal data belonging to roughly 76.6 million people in the United States — current customers, former customers, and even people who had merely applied for T-Mobile service but never signed up. The stolen data included full names, dates of birth, Social Security numbers, and driver's license or other government ID information, the exact combination of records identity thieves need to open new credit accounts in someone else's name. A hacker who later identified himself to reporters as John Erin Binns claimed responsibility, describing weak security on an exposed router as his way into T-Mobile's network. U.S. prosecutors indicted Binns, and as of this writing his extradition from Turkey remains an open matter.
+
+What made the 2021 breach especially alarming wasn't just its size — it was that T-Mobile had already suffered several smaller breaches in the years before it, a pattern regulators would later describe as a company that kept getting breached because it kept failing to fix the underlying security gaps. More than a hundred federal lawsuits followed the 2021 breach, consolidated as In re: T-Mobile Customer Data Security Breach Litigation in the U.S. District Court for the Western District of Missouri. T-Mobile agreed in 2022 to resolve the consolidated cases for $350 million in direct payments to affected customers, on top of a separate $150 million commitment to spend on data security and technology upgrades over the following two years — a combined $500 million response to a single breach. The settlement received final court approval in June 2023, and payments began going out afterward: a flat $25 for most class members ($100 for California residents, reflecting that state's stronger privacy statute), or up to $25,000 for customers who could document specific, breach-related financial losses.
+
+T-Mobile's troubles didn't end there. In January 2023, the company disclosed a second, separate incident: an attacker exploited one of T-Mobile's own application programming interfaces (APIs) — the software connections that let different systems talk to each other — to pull account data on approximately 37 million customers over roughly six weeks before T-Mobile detected and cut off the access. This breach exposed a narrower set of information than the 2021 incident (names, billing addresses, emails, phone numbers, dates of birth, and account numbers, but not Social Security numbers, passwords, or payment card data), but it happened barely a year after the company had promised to overhaul its security following the largest breach in its history. A third, smaller 2023 incident, involving a limited number of retail customers' data accessed through T-Mobile's own systems, added to the pattern regulators were tracking.
+
+The Federal Communications Commission opened its own investigation covering multiple T-Mobile breaches from 2021 through 2023, and in late September 2024 announced a $31.5 million settlement: $15.75 million paid to the U.S. Treasury as a civil penalty, and another $15.75 million that T-Mobile committed to invest directly in its own cybersecurity over the following two years, covering steps like adopting phishing-resistant multi-factor authentication and a "zero trust" security architecture that assumes no internal system should automatically trust another without verification. "As T-Mobile's data breaches show, the vulnerabilities of one company can create a domino effect impacting the security and privacy of millions of Americans," said FCC Enforcement Bureau Chief Loyaan Egal when the settlement was announced, tying the order explicitly to the repeated nature of the failures rather than any single incident alone.
+
+The T-Mobile story is a useful case study in exactly why a "the breach happened once, I got my letter, I'm done" mindset falls short for identity protection: the same company suffered materially different breaches, exposing different combinations of data, across a roughly 18-month span, and each one arrived with its own settlement, its own claims deadline, and its own credit-monitoring offer. Anyone who has ever been a T-Mobile customer — or applied for service and didn't complete a signup — should check whether their Social Security number was part of the 2021 breach specifically, since that's the incident carrying the highest identity-theft risk, and should treat a security freeze with Equifax, Experian, and TransUnion as a standing precaution rather than a one-time reaction to a single notice. Any text, email, or call referencing a "T-Mobile settlement payment" that asks for a bank login, a Social Security number, or an upfront fee to "release" a payment should be treated as a probable scam, since the real settlement administrator never needs that information sent to it again. Suspected phishing tied to any T-Mobile breach can be reported to the FTC at ReportFraud.ftc.gov, and identity-theft recovery steps are available at IdentityTheft.gov.`,
+  },
+  {
+    title: `The Ticketmaster Breach: How 560 Million Accounts Ended Up for Sale on a Hacking Forum`,
+    slug: 'ticketmaster-live-nation-snowflake-breach-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'ticketmaster-snowflake-breach'],
+    sourceUrl: 'https://www.aboutlawsuits.com/ticketmaster-data-breach-lawsuit/',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Ticketmaster_paper_ticket.jpg?width=1200',
+    coverImageCredit: 'Photo: Jud McCranie, CC BY-SA 4.0, via Wikimedia Commons — a physical Ticketmaster paper concert ticket',
+    coverImagePosition: 50,
+    body: `Ticketmaster and its parent company, Live Nation Entertainment, sell tickets to a huge share of the concerts, sports events, and live shows in the country, which means the company sits on an enormous database of names, contact information, and payment details belonging to essentially anyone who has ever bought a ticket online. In May 2024, that database became one of the largest breaches ever reported by a single consumer-facing company: a hacking group calling itself ShinyHunters advertised what it said were 560 million Ticketmaster customer records for sale on a cybercrime forum, asking $500,000 for the full trove and reportedly offering smaller regional slices for less.
+
+The breach didn't come from a hole in Ticketmaster's own website or app. It came through Snowflake, a third-party cloud data-storage platform that Ticketmaster, like thousands of other companies, used to warehouse huge volumes of customer data. Attackers spent the spring of 2024 systematically targeting Snowflake customer accounts that lacked multi-factor authentication, harvesting login credentials — many originally stolen years earlier by unrelated malware infections — and using them to walk into one company's Snowflake workspace after another. The U.S. Judicial Panel on Multidistrict Litigation later found that this single campaign, run between April and June 2024, compromised the data of more than 500 million people across roughly 165 different companies that stored data on Snowflake, including AT&T, Advance Auto Parts, Santander Bank, and LendingTree alongside Ticketmaster — a reminder that a breach notice naming an unfamiliar third-party vendor can still mean a familiar company's customer data was exposed.
+
+What ShinyHunters took from Ticketmaster's Snowflake workspace included full names, home and email addresses, phone numbers, order and event history, and partial payment card information — typically the last four digits and expiration date rather than a full card number, though even that partial data is useful to a scammer running a convincing phishing pitch that references a real past purchase. Ticketmaster confirmed the breach publicly at the end of May 2024, after reports of the stolen data being shopped around had already begun circulating, and offered affected customers free identity-monitoring services.
+
+More than a dozen federal class-action lawsuits followed within weeks, alleging Ticketmaster and Live Nation failed to adequately secure customer data and were slow to notify the people affected. Those cases, along with hundreds of others against Snowflake and its other breached corporate customers, were consolidated by the federal Judicial Panel on Multidistrict Litigation into In re: Snowflake, Inc. Customer Data Security Breach Litigation, based in the U.S. District Court for the District of Montana — a "hub-and-spoke" structure in which Snowflake itself is the hub and each affected company, Ticketmaster included, is treated as a separate spoke of claims. As of this writing, some companies caught up in the broader Snowflake litigation have reached settlements, but Ticketmaster and Live Nation continue to contest the claims, and no Ticketmaster-specific settlement or claims process has been finalized — anyone told they can currently "claim a payout" for this breach should treat that claim with real skepticism.
+
+The practical lesson extends well beyond concertgoers: a breach doesn't require a single hacked website when so much corporate data now sits on shared cloud platforms most customers have never heard of, and the security failure that matters most is often something as ordinary as one company's data warehouse lacking multi-factor authentication on the accounts that can access it. Anyone who has ever bought a ticket through Ticketmaster should watch for phishing that references a real past order, event, or seat — the kind of specific detail that makes a fake "your Ticketmaster account was compromised, click to secure it" message look far more convincing than it should. Never click a login link in an unsolicited text or email; go directly to ticketmaster.com or the official app to check account activity or change a password instead. Anyone who reused their Ticketmaster password on other sites should change it everywhere it was reused, and can watch for unauthorized charges on the card originally used for Ticketmaster purchases. Suspected phishing tied to this breach can be reported to the FTC at ReportFraud.ftc.gov, and identity-theft recovery steps are available at IdentityTheft.gov.`,
+  },
+);
+
+GUIDE_ARTICLES.push(
+  {
+    title: 'The Amazon Prime Settlement: How $2.5 Billion Became the FTC\'s Biggest "Dark Patterns" Case Yet',
+    slug: 'amazon-prime-ftc-dark-patterns-settlement-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'amazon-prime-ftc-settlement'],
+    sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2025/09/ftc-order-requires-amazon-pay-25-billion-over-charges-it-enrolled-consumers-prime-without-consent',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Amazon_Spheres_05.jpg?width=1200',
+    coverImageCredit: "Photo: Joe Mabel, CC BY-SA 4.0, via Wikimedia Commons — the Amazon Spheres at Amazon's Seattle headquarters",
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
+    body: `The Federal Trade Commission sued Amazon in June 2023 over how the company got tens of millions of people into Prime memberships in the first place, and how hard it made leaving one afterward. The complaint focused on the checkout screens themselves: on desktop, shoppers were shown a large, brightly colored button to join Prime alongside a much smaller, easy-to-miss link to simply continue their order without it. On mobile, the price of the subscription and the fact that it would auto-renew were pushed below the fold, visible only if a customer thought to scroll down before confirming. Internally, the FTC said, Amazon had a name for the cancellation flow it built to work against that same instinct: employees reportedly called it "Iliad," an allusion to the ancient Greek epic about a war that dragged on for years, because getting out required navigating a maze of pages, pop-ups, and re-enrollment pitches.
+
+Amazon fought the case for two years, but on September 25, 2025, it agreed to one of the largest settlements in FTC history: $1 billion in civil penalties, plus $1.5 billion set aside to refund consumers directly, for a combined $2.5 billion. The order requires Amazon to give shoppers a clear, conspicuous option to decline Prime during checkout instead of burying it beneath a more prominent enrollment button, to disclose the subscription's price and auto-renewal terms plainly rather than in fine print reachable only by scrolling, and to build a cancellation process the FTC's order describes as "simple" — a mechanic regulators have increasingly demanded match a general rule of thumb: if a company can sign you up in two clicks, it shouldn't take five phone transfers and a chat bot to get back out.
+
+The refund program covers a specific, carefully defined group: U.S. Prime members who enrolled through one of the challenged enrollment flows — the universal Prime decision page, the shipping-options screen, one-page checkout, or the Prime Video sign-up path — or who tried and failed to cancel online, any time between June 23, 2019, and June 23, 2025. Within that group, eligibility narrows further to members who used more than three but fewer than ten Prime benefits in any 12-month stretch of their membership, on the theory that someone who barely used the service is the clearest evidence they didn't really want to be enrolled at all, while someone who used it constantly likely did. Refunds run up to $51 per eligible member, and claims had to be filed by July 27, 2026, through the official settlement site, SubscriptionMembershipSettlement.com — some members with the clearest paper trail were refunded automatically and didn't need to file anything.
+
+The size of the penalty reflects how the FTC now treats subscription "dark patterns" as a category of its own, not a minor billing dispute: the agency has brought parallel cases in recent years against companies from cable providers to a food-delivery platform over enrollment and cancellation flows built to trap paying customers, and the Amazon case became the marquee example of the theory because of the company's scale — Prime has north of 200 million members worldwide. The order's core requirement is less about the refund than about redesigning the interface itself going forward: a company that makes it one click to join a subscription has to make cancellation comparably simple, not comparably confusing.
+
+Anyone billed for a subscription they don't remember actively choosing should look for the same warning signs the FTC flagged in Amazon's flows: a checkout screen where declining an add-on subscription requires more clicks or more scrolling than accepting it, a renewal price or date disclosed only in small text below a prominent "continue" button, or a cancellation path that requires navigating multiple confirmation screens, chat prompts, or "are you sure" offers before it actually completes. For any subscription, the safest practice is checking a card statement periodically for recurring charges that don't match an active, wanted service, and canceling directly through the company's official account settings — never through a link or phone number in an unsolicited text or email claiming to be about the charge. Consumers who believe they were misled into a subscription, at Amazon or anywhere else, can file a complaint with the FTC at ReportFraud.ftc.gov.`,
+  },
+  {
+    title: 'The Chime CFPB Settlement: When a Neobank Held Your Own Money Hostage After You Closed Your Account',
+    slug: 'chime-cfpb-refund-delay-settlement-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'chime-cfpb-settlement'],
+    sourceUrl: 'https://www.consumerfinance.gov/enforcement/actions/chime-financial-inc/',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Chime_Financial,_Inc._Headquarters_in_San_Francisco.jpg?width=1200',
+    coverImageCredit: 'Photo: Suiren2022, CC BY-SA 4.0, via Wikimedia Commons — Chime Financial headquarters, San Francisco',
+    coverImagePosition: 50,
+    body: `Chime built its business as a "neobank" — a financial technology company that offers checking and savings accounts through a slick mobile app, partnering with an actual FDIC-insured bank behind the scenes to hold the money, while marketing itself directly to people who found traditional banks' fees and minimum-balance requirements unaffordable. For millions of members, many living paycheck to paycheck, a Chime account functions as their only bank account — which is exactly what made it so damaging when the company was slow to give some of them their own money back.
+
+The Consumer Financial Protection Bureau's investigation, resolved in a consent order dated May 7, 2024, found that Chime had a written policy promising to refund a closed account's remaining balance within 14 days, whether the account was closed by the customer or by Chime itself. In practice, the Bureau found, that promise routinely wasn't kept: some customers waited far longer than 14 days for a refund check, and many waited more than 90 days — three months without access to money that was already theirs, sent by mail rather than returned to a linked account or card, from a company that had marketed fast, modern banking as its whole reason for existing. The CFPB found this pattern violated the Consumer Financial Protection Act's prohibition on unfair acts and practices, since customers had no reasonable way to get their own funds back faster once Chime closed or they closed an account.
+
+Without admitting or denying the findings, Chime agreed to pay at least $1.3 million in redress to affected customers — generally around $150 to anyone who still had an unrefunded balance of at least $10 more than 14 days after their account closed — plus a separate $3.25 million civil penalty to the CFPB's victims relief fund. The order also required Chime to fix the underlying process going forward and to notify affected customers directly about how to claim what they were owed, rather than requiring them to track down a settlement administrator on their own.
+
+The refund-delay order wasn't Chime's last brush with a security scare. In April 2026, a pro-Iranian hacking group calling itself "Team 313" claimed on its own leak site to have stolen Social Security numbers, dates of birth, government IDs, and other personal data belonging to Chime customers, timed to an outage that knocked the company's mobile app offline for hours and left an estimated 20,000 users unable to access their accounts. Chime disputed that any data was actually taken, telling customers during the outage that their money and personal information remained secure, and as of this writing no security researcher or regulator has independently confirmed the group's claim beyond what it posted publicly. Several proposed class-action lawsuits were filed anyway in the U.S. District Court for the Northern District of California, alleging Chime's security practices left customer data exposed regardless of what Team 313 did or didn't actually obtain — litigation that remains open and unresolved.
+
+The throughline across both episodes is the same: a bank account that lives entirely inside an app, with no local branch to walk into, concentrates risk in exactly the two places these incidents hit — how fast the company gives your own money back, and how well it protects the data behind your login. Anyone using Chime or a similar app-based bank account should keep a small buffer in a separate, traditional FDIC-insured account they can access if the app itself goes down or a dispute drags on, and should request written confirmation with a specific reference number any time they close an account, so there's a clear paper trail if a promised refund doesn't arrive on time. A customer who closes an account and doesn't have their balance refunded within the timeframe the company itself promises can file a complaint directly with the Consumer Financial Protection Bureau at consumerfinance.gov/complaint or by calling 1-855-411-2372, and anyone contacted about a supposed Chime data breach or refund by an unsolicited call, text, or email should verify independently through the official Chime app rather than any link or number the message provides.`,
   },
 );
 
@@ -39479,6 +39637,149 @@ SEED_SCAMS.push(
     firstRecorded: '2012-04-01',
     sources: ['Federal Trade Commission', 'U.S. Department of Justice — Northern District of Georgia', 'KSL.com'],
     sourceUrl: 'https://www.justice.gov/usao-ndga/pr/utah-man-who-operated-fraudulent-veteran-charities-sentenced-federal-prison',
+  },
+);
+
+SEED_SCAMS.push(
+  {
+    name: 'Fake "Courts of Denmark" SMS Phishing Scam',
+    slug: 'denmark-courts-domstole-sms-phishing-scam',
+    description: `Starting in mid-2024, residents across Denmark began receiving text messages claiming to come from Domstolsstyrelsen (the Courts of Denmark), falsely stating that the recipient had received a piece of digital mail from the court system and urging them to click a link to "update their information." The link led to a fraudulent website designed to harvest personal data and, in some versions, prompted victims to log in with MitID — Denmark's national digital identity system used for banking, tax, and government services — handing the credentials directly to the scammers. The Courts of Denmark issued a public statement making clear it had not sent the messages and advising anyone who received one to simply delete it. Politiets Nationale Enhed for Særlig Kriminalitet (NSK), the national police unit that handles serious and organized fraud, reported that SMS-based fraud complaints had risen roughly 130 percent year-on-year, with more than 35,000 reports of SMS-related IT crime logged in the preceding year alone, and noted that the same tactic — a spoofed link impersonating a trusted institution — was also being used to impersonate banks, shipping companies, and the Danish Tax Agency. NSK's guidance was blunt: neither the police, banks, nor public authorities will ever ask someone to hand over personal information, bank card details, or a MitID login over the phone, by email, or by text message, and anyone unsure about a message claiming to be official should stop and check with a trusted person before clicking anything.`,
+    categorySlug: 'phishing',
+    country: 'DK',
+    alertLevel: 'high',
+    sources: ['The Local Denmark', 'Courts of Denmark (Domstolsstyrelsen)', 'National Special Crime Unit (NSK), Danish Police'],
+    sourceUrl: 'https://www.thelocal.dk/20240611/danish-courts-issue-warning-over-sms-scam',
+  },
+  {
+    name: 'Fake Danish-Sounding Webshop Network',
+    slug: 'denmark-fake-danish-sounding-webshop-network-scam',
+    description: `Denmark's Consumer Ombudsman (Forbrugerombudsmanden) warned on October 27, 2025 that it continues to receive large numbers of complaints about foreign-run online shops built to look Danish, using names such as johansenmode.dk, pedersen-butik.dk, and elinakobenhavn.com that combine Danish surnames or city names — København, Aarhus — with Danish-language storefronts and prices listed in kroner. The sites advertise clothing, jewelry, and home décor at steep discounts, often through Facebook and Instagram ads built around fabricated emotional stories, such as an elderly family business supposedly being forced to close after decades in operation; the Consumer Ombudsman's office found one such shop network's ad campaign had racked up more than 30 million impressions across over 10,000 individual advertisements on Meta's platforms. Customers who order typically receive items that are cheaply made and nothing like what was pictured, shipped from overseas rather than Denmark, and returns must generally be sent back to a warehouse abroad at a cost that can nearly equal the price of the item itself, discouraging refund claims. Newer versions of the scheme layer on AI-generated Danish-language customer reviews and fake profile photos, misused logos from real certification schemes, and CVR numbers (Danish business registration numbers) that are either invented or copied from unrelated companies. Consumer Ombudsman Torben Jensen said it is becoming increasingly difficult to protect Danish consumers from this kind of fraud because "when one scam site closes, another opens under a different name," and his office forwards complaints to police as possible criminal fraud. Consumers are advised to check a shop's CVR number against the official business register at virk.dk, look up domain ownership through punktum.dk or who.is, read the returns policy for a foreign warehouse address before buying, and search online for the shop's name plus "svindel" (fraud) before entering payment details.`,
+    categorySlug: 'online-shopping-scams',
+    country: 'DK',
+    alertLevel: 'high',
+    sources: ['Forbrugerombudsmanden (Danish Consumer Ombudsman)', 'Tjekdet.dk'],
+    sourceUrl: 'https://forbrugerombudsmanden.dk/nyheder/forbrugerombudsmanden/pressemeddelelser/2025/20251027-forbrugere-snydes-stadig-i-stort-omfang-af-danskklingende-netbutikker',
+  },
+  {
+    name: 'Fake "Space AI" Unauthorized Investment Platform',
+    slug: 'denmark-space-ai-unauthorized-investment-platform-scam',
+    description: `On August 20, 2025, Finanstilsynet (the Danish Financial Supervisory Authority, DFSA) issued a formal public warning against Space AI, a platform operating at spaceaius.com that marketed itself to Danish consumers as a securities and investment trading service. The DFSA confirmed the firm held no authorization whatsoever to provide investment services in Denmark, placing it alongside a running list of unlicensed platforms — including one branded TD365.com, which the regulator flagged the same year — that the authority publishes precisely because their marketing is designed to look like that of a regulated broker. The DFSA stressed that using an unauthorized platform strips away every protection a Danish investor would normally have: because the firm is not licensed, a customer who loses money has no right to complain to the Danish Financial Complaint Board (Det Finansielle Ankenævn), and any funds deposited are not covered by the Danish Guarantee Fund for depositors and investors, meaning money paid in is effectively unrecoverable if the platform disappears or simply refuses withdrawal requests. The DFSA's advice to consumers approached with an unfamiliar investment opportunity is to check the firm's name directly against its public register of authorized financial companies before depositing any money, and to treat an unlisted platform's promises of secure, regulated trading as worthless regardless of how professional its website or marketing appears.`,
+    categorySlug: 'investment-fraud',
+    country: 'DK',
+    alertLevel: 'high',
+    sources: ['Finanstilsynet (Danish Financial Supervisory Authority)'],
+    sourceUrl: 'https://www.dfsa.dk/supervision/warnings-against-companies/2025/warning-against-investing-with-space-ai',
+  },
+);
+
+SEED_SCAMS.push(
+  {
+    name: 'Ibelis Gonzalez Six-Victim Fake-ID Debit Card Identity Theft',
+    slug: 'new-jersey-gonzalez-fake-id-debit-card-identity-theft',
+    description: `New Jersey's Division of Criminal Justice announced on March 17, 2026 the indictment of Ibelis Gonzalez, 46, of Jersey City, on charges that she used fictitious identification documents bearing her own photograph but six different victims' names to obtain replacement debit cards for their accounts at multiple Citizens Bank branches across New Jersey between May 14 and June 10, 2024. Once she had a card in a victim's name, Gonzalez allegedly drained the account through in-person branch withdrawals, ATM transactions, and debit purchases, stealing roughly $86,840 in total, including about $60,500 taken directly at bank counters. The scheme finally unraveled on June 10, 2024, when Citizens Bank employees grew suspicious of another fraudulent debit card application and called Irvington police, who arrived and confiscated a fake Massachusetts ID bearing Gonzalez's photo alongside a victim's name and personal details. She was charged with second-degree theft by deception, second-degree impersonation and theft of identity, and third-degree possession of a forged government document. Attorney General Jennifer Davenport noted that "the defendant coopted the identities of six different people and then stole money from their bank accounts," adding that identity theft carries both a financial cost and lasting disruption for victims. The case is a reminder that a bank's own in-branch verification is not foolproof against a convincing fake ID, and that anyone who spots unauthorized card activity or an unfamiliar card issued in their name should contact their bank and file a police report immediately, before further withdrawals can be made.`,
+    categorySlug: 'identity-theft',
+    country: 'US',
+    state: 'NJ',
+    isHistorical: true,
+    firstRecorded: '2024-05-14',
+    sources: ["New Jersey Office of the Attorney General", 'New Jersey Division of Criminal Justice'],
+    sourceUrl: 'https://www.njoag.gov/hudson-county-woman-indicted-for-allegedly-using-fake-ids-to-obtain-debit-cards-and-steal-more-than-86000/',
+  },
+  {
+    name: 'Jinrong Shi and Jiyang Zhong Tech Support and Grandparent Scam Ring',
+    slug: 'ohio-shi-zhong-tech-support-grandparent-scam-ring',
+    description: `A federal grand jury in the Northern District of Ohio indicted Jinrong Shi, 28, of New York, New York, and Jiyang Zhong, 27, a Chinese national living in Little Neck, New York, on a 10-count indictment for running two interlocking scams that defrauded elderly victims in Cleveland Heights, Willoughby, Canton, and Warren, Ohio of more than $201,000 in May and June 2024. In the tech-support half of the operation, callers convinced victims their computer or online account had been compromised and that they needed to pay for supposed repairs; in the companion "grandparent scam," callers impersonated law enforcement or another authority figure and told elderly victims a grandchild was in legal trouble and needed emergency cash. In both variants, a "fraud caller" built the false story and collected the victim's address, then handed it to a "fraud courier" who traveled to the victim's home to physically pick up cash — using a shared password the caller had given the victim in advance so the in-person courier could "confirm" the pickup was legitimate; some victims were instead told to mail cash to addresses the defendants controlled. Prosecutors allege the stolen proceeds were laundered through cryptocurrency accounts overseas. Shi was charged with conspiracy to commit wire and mail fraud, wire fraud, mail fraud, money laundering conspiracy, and concealment of money laundering, facing up to 20 years in prison; Zhong faces the same charges apart from the concealment count. The case illustrates why a real grandchild's emergency, or a real computer problem, is verified by calling the family member or device maker back on a known number — never by paying a stranger who shows up at the door with a password.`,
+    categorySlug: 'tech-support-scams',
+    country: 'US',
+    state: 'OH',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office — Northern District of Ohio"],
+    sourceUrl: 'https://www.justice.gov/usao-ndoh/pr/new-york-man-and-chinese-national-charged-running-scams-took-thousands-elderly-victims',
+  },
+  {
+    name: 'Mudasiru Afeez Olawale Financially Motivated Sextortion Case',
+    slug: 'north-carolina-olawale-sextortion-extradition',
+    description: `Mudasiru Afeez Olawale, 24, a Nigerian national, was indicted in the Middle District of North Carolina in August 2023 on charges including sexual exploitation of a minor resulting in death, coercion and enticement of a minor, distribution of child sexual abuse material, and interstate threatening communications, after federal prosecutors say he targeted minors in a financially motivated sextortion scheme that led to at least one teenager's death by suicide. Olawale was arrested in Nigeria in August 2023 as part of "Operation Artemis," an FBI-led surge against Nigeria-based, financially motivated sextortion rings that pose as a young woman online, quickly build a rapport with a teenage target, obtain a compromising image, and then threaten to send it to the victim's family and friends unless money is paid immediately — a threat delivered and escalated within hours, leaving little time for a scared teenager to ask an adult for help. With the assistance of Nigeria's Attorney General and the Justice Department's Office of International Affairs, Olawale was extradited to the United States and appeared before U.S. Magistrate Judge L. Patrick Auld in federal court in Greensboro on August 27-28, 2026; he faces a mandatory minimum of 30 years up to life in prison on the child-exploitation-resulting-in-death charge alone. The FBI urges any teenager or parent facing this kind of threat to stop all contact, not pay or send more images, save the messages as evidence, and report it immediately to a trusted adult or law enforcement rather than trying to resolve it alone.`,
+    categorySlug: 'sextortion',
+    country: 'US',
+    state: 'NC',
+    alertLevel: 'high',
+    sources: ['U.S. Department of Justice — Office of Public Affairs', 'Federal Bureau of Investigation'],
+    sourceUrl: 'https://www.justice.gov/opa/pr/two-nigerian-nationals-extradited-nigeria-united-states-face-sextortion-charges-north',
+  },
+);
+
+SEED_SCAMS.push(
+  {
+    name: 'Menzgold Gold Investment Ponzi Scheme (NAM1)',
+    slug: 'ghana-menzgold-nam1-gold-investment-ponzi',
+    description: `Menzgold Ghana Limited, founded by Nana Appiah Mensah — widely known as "NAM1" — invited members of the public to deposit gold collectables with the firm in exchange for contracts promising guaranteed monthly returns of roughly 7 to 10 percent, marketing itself as a safe alternative to the stock market at a time of high youth unemployment and low trust in banks. The business functioned as a Ponzi scheme: new deposits funded the "returns" paid to earlier depositors rather than any real trading profit, a structure that could only work as long as new money kept flowing in. Ghana's Securities and Exchange Commission (SEC) investigated the firm and, in a directive dated September 7, 2018, ordered Menzgold to immediately stop taking new gold-collectable deposits and issuing guaranteed-return contracts, finding it had been operating a securities business without the license required under the Securities Industry Act, 2016; the Bank of Ghana publicly backed the shutdown. Menzgold halted withdrawals the same month, freezing the funds of what prosecutors later said were more than 16,000 named victims. NAM1 was separately arrested in Dubai in December 2018 over an unrelated gold-trading dispute before returning to Ghana in mid-2019, where he, his wife, and his sister were charged with 39 counts including operating a deposit-taking business without authorization, selling gold without a license, defrauding by false pretences, fraudulent breach of trust, and money laundering, with prosecutors alleging total defrauded sums exceeding GH¢340 million; the trial was still ongoing years later. Ghana's Ministry of Finance and consumer advocates have since pointed to Menzgold as the case study for why a "guaranteed" fixed monthly return that outpaces every licensed bank or investment product is the clearest available warning sign of a Ponzi structure, and why anyone offered such a deal should verify the firm's license directly with the SEC before depositing anything.`,
+    categorySlug: 'investment-fraud',
+    country: 'GH',
+    isHistorical: true,
+    firstRecorded: '2018-09-07',
+    sources: ['Ghana Securities and Exchange Commission', 'GhanaWeb', 'MyJoyOnline', 'Africanews'],
+    sourceUrl: 'https://www.ghanaweb.com/GhanaHomePage/NewsArchive/SEC-stops-Menzgold-from-gold-investment-trading-684357',
+  },
+  {
+    name: 'DKM Diamond Microfinance Collapse',
+    slug: 'ghana-dkm-diamond-microfinance-collapse',
+    description: `DKM Diamond Microfinance Company Limited grew rapidly across Ghana's Brong Ahafo, Northern, and Upper West regions by offering depositors — many of them teachers, nurses, traders, and other low- and middle-income savers — interest rates well above what licensed banks paid, while quietly funneling customer deposits into a sprawling network of unrelated subsidiaries including DKM Airlines, a fuel station, a transport company, a shea butter processor, and a mining company. The Bank of Ghana placed the firm under a moratorium in mid-2015 after finding it had breached its microfinance license conditions, and a subsequent audit found DKM held only about GH¢10.8 million in cash against roughly GH¢115.24 million in deposit liabilities, with about GH¢77.26 million of customer money having been diverted into those subsidiary businesses — a shortfall the central bank described as resembling a Ponzi scheme, since new deposits were being used to pay off maturing obligations to earlier depositors rather than being invested as promised. When DKM's operations froze, angry depositors besieged company offices in Sunyani, Nkoranza, and Berekum in late 2015, smashing windows and doors in protests serious enough that authorities treated the unrest as a public-security concern. The Bank of Ghana revoked DKM's license and placed it into receivership; the resulting claims process eventually validated 88,962 of the 90,353 claims filed, and by September 2020 — five years after the collapse — the government-appointed receiver had fully repaid roughly 74,000 of those customers, with President Nana Akufo-Addo publicly committing to clear the remaining outstanding claims. The case remains a reference point for Ghanaian regulators warning that an unlicensed investment scheme's above-market interest rate is not a sign of a better deal, but of a business that cannot generate real returns and is instead spending new depositors' money to keep old promises looking credible.`,
+    categorySlug: 'investment-fraud',
+    country: 'GH',
+    isHistorical: true,
+    firstRecorded: '2015-06-01',
+    sources: ['Bank of Ghana', 'Ghana Business News', 'allAfrica', 'Pulse Ghana'],
+    sourceUrl: 'https://www.bog.gov.gh/wp-content/uploads/2024/05/FREQUENTLY-ASKED-QUESTIONS-3.pdf',
+  },
+  {
+    name: '"Sakawa" AI-Assisted Online Romance and Identity-Theft Fraud',
+    slug: 'ghana-sakawa-online-romance-identity-theft',
+    description: `"Sakawa" is the Ghanaian term — borrowed from a Hausa phrase meaning "putting inside" — for a persistent cottage industry of online romance, inheritance, and identity-theft scams run largely by young, often unemployed men who build fake profiles on dating sites and social media, then cultivate long-distance romantic or business relationships with targets abroad before inventing a medical emergency, customs fee, or investment opportunity that requires a wire transfer. Ghana's Cyber Security Authority, the national regulator established in 2020 to track and respond to cyber threats, reported that identity-theft-enabled fraud — the category that captures most sakawa-style scams — accounted for the largest share of complaints it received, with victims losing an estimated GH¢49.5 million (about $4.5 million) in just the first half of 2023 alone, a figure the Authority attributed partly to how easily fake social-media accounts can be created and partly to persistent poverty and youth unemployment above 30 percent driving young Ghanaians toward the schemes. Investigations by the Thomson Reuters Foundation and other outlets have documented how some operators pair the scams with visits to traditional spiritual practitioners for rituals believed to increase their odds of success, and how the schemes have evolved to include AI-generated images and cloned voices to make fabricated personas more convincing on video calls. Ghana's government responded in 2023 by launching a national school program to teach students about social-media risk and cyber hygiene, and by agreeing with Nigeria to share intelligence and run joint operations against cross-border romance-fraud networks operating in both countries. The Cyber Security Authority urges anyone in an online relationship with someone they have never met in person to be highly skeptical of any request for money — especially one tied to a sudden emergency, customs clearance, or "guaranteed" investment — and to independently verify the person's identity through a video call and a reverse image search before sending anything.`,
+    categorySlug: 'romance-scams',
+    country: 'GH',
+    alertLevel: 'high',
+    sources: ['Cyber Security Authority (Ghana)', 'Ghana News Agency', 'Thomson Reuters Foundation (Context)', 'The Conversation'],
+    sourceUrl: 'https://www.context.news/digital-rights/sakawa-boys-meet-ghanas-online-romance-scammers',
+  },
+);
+
+SEED_SCAMS.push(
+  {
+    name: 'Louis Curto Bluwyn Management Timeshare Resale Scam',
+    slug: 'nevada-curto-bluwyn-timeshare-resale-scam',
+    description: `Louis Joseph Curto III ran Bluwyn Management, LLC, a Las Vegas-based timeshare resale outfit that cold-called owners of unwanted timeshare properties between January 2013 and December 2015, falsely claiming he already had buyers lined up and just needed an upfront fee to close the sale. Victims across multiple states paid Curto thousands of dollars each based on those promises, but the promised buyers never materialized, the timeshares were never sold, and the fees were never returned. Nevada Attorney General Adam Paul Laxalt's office prosecuted the case, and Curto pleaded guilty in February 2018 to one count of securities fraud, a category B felony carrying a possible sentence of 12 to 240 months in prison and up to $500,000 in fines. The Attorney General's office said the plea "sends a message that those who engage in timeshare resale fraud will be brought to justice." Timeshare owners approached out of the blue by a company promising a ready buyer for a fee should independently verify the company's licensing and track record, get any promise in writing, and treat a demand for payment before a sale closes as a serious warning sign.`,
+    categorySlug: 'timeshare-scams',
+    country: 'US',
+    state: 'NV',
+    isHistorical: true,
+    firstRecorded: '2013-01-01',
+    sources: ['Nevada Attorney General'],
+    sourceUrl: 'https://ag.nv.gov/News/PR/2018/Attorney_General_Laxalt_Announces_Guilty_Plea_for_Multi-State_Timeshare_Resale_Scam/',
+  },
+  {
+    name: 'Woah-Tee Brothers Maryland Unemployment Insurance Fraud',
+    slug: 'maryland-woah-tee-unemployment-insurance-fraud',
+    description: `Brothers Daiwor Woah-Tee of Belcamp, Maryland and Dekwii Woah-Tee of Rosedale, Maryland used other people's stolen names, dates of birth, and Social Security numbers to file fraudulent unemployment insurance claims with the Maryland Department of Labor between March 2020 and September 2021, impersonating the real account holders to collect more than $1 million combined through the pandemic-era Pandemic Unemployment Assistance program and Federal Pandemic Unemployment Compensation. The scheme exploited the surge of unemployment claims processed during COVID-19, when expedited relief programs left less room for the state to verify each applicant's identity before releasing payments. The pair were indicted in February 2024 and arrested and arraigned in December 2024 following an investigation led by IRS Criminal Investigation. The case underscores why anyone who receives an unexpected unemployment determination letter, 1099-G tax form, or benefits debit card in their name should immediately report it to the Maryland Department of Labor's fraud unit — it usually means someone else already filed a claim using their identity.`,
+    categorySlug: 'public-benefits-fraud',
+    country: 'US',
+    state: 'MD',
+    isHistorical: true,
+    firstRecorded: '2020-03-01',
+    sources: ['IRS Criminal Investigation', 'Maryland Department of Labor'],
+    sourceUrl: 'https://www.irs.gov/compliance/criminal-investigation/two-maryland-men-indicted-for-unemployment-insurance-fraud-scheme-of-more-than-1-million',
+  },
+  {
+    name: 'Danyelle Calcagno Portland Tax Refund Identity Theft Scheme',
+    slug: 'oregon-calcagno-tax-refund-identity-theft-scheme',
+    description: `Danyelle Calcagno of Portland, Oregon filed at least 224 false federal income tax returns using the stolen names and Social Security numbers of other people — obtained both directly and through recruiters, including one in Phoenix, Arizona — fraudulently claiming a combined $1,220,246 in refunds, generally between $3,500 and $7,000 per return. To disguise where the returns were being filed from, Calcagno used internet access at Portland-area hotels, then had the IRS deposit the refunds into bank accounts and onto stored-value debit cards she controlled so the proceeds could be split up and the paper trail obscured. She pleaded guilty to conspiracy to defraud the government with respect to claims, wire fraud, and aggravated identity theft, and on February 16, 2017 was sentenced to 72 months in federal prison and ordered to pay $742,754 in restitution to the IRS. The case is a reminder that identity-based refund fraud is often discovered only when the real taxpayer's own return is rejected as a duplicate — filing early each year and monitoring for an IRS notice about an unrecognized return are two of the few ways an individual can catch this kind of theft before it compounds.`,
+    categorySlug: 'tax-scams',
+    country: 'US',
+    state: 'OR',
+    isHistorical: true,
+    sources: ['U.S. Department of Justice — Office of Public Affairs', 'Internal Revenue Service'],
+    sourceUrl: 'https://www.justice.gov/archives/opa/pr/oregon-woman-pleads-guilty-12-million-federal-income-tax-refund-fraud-scheme',
   },
 );
 
