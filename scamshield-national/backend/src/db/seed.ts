@@ -10392,6 +10392,45 @@ Federal prosecutors indicted the three men in the U.S. District Court for the Di
   },
 );
 
+NOTORIOUS_ARTICLES.push(
+  {
+    title: 'Daren Li, the Pig-Butchering Money Launderer Who Fled a $4 Million Bounty on His Head',
+    slug: 'daren-li-pig-butchering-money-laundering-fugitive',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-cdca/pr/dual-national-china-and-st-kitts-and-nevis-sentenced-20-years-federal-prison-role',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Los_Angeles_Federal_Buildings.jpg?width=1200',
+    coverImageCredit: 'Photo: Busition, Wikimedia Commons (CC BY-SA 4.0) — federal buildings in Los Angeles, where Daren Li was prosecuted and sentenced in the Central District of California',
+    coverImagePosition: 50, // representative photo — replace with a portrait if found
+    body: `Daren Li, a dual citizen of China and St. Kitts and Nevis who also held residences in Cambodia and the United Arab Emirates, sat near the top of a "pig butchering" money-laundering network that prosecutors say drained at least $73.6 million from victims across the United States between 2021 and 2024. The underlying fraud followed the pattern that has become one of the most common scams reported to U.S. authorities: unsolicited messages arriving through social media, phone calls, text messages, and online dating apps, sometimes posing as a romantic interest and sometimes as tech support warning of a computer virus, all aimed at building enough trust to steer a victim onto a fraudulent cryptocurrency trading platform that showed fabricated profits climbing while the money quietly disappeared.
+
+Li's specific role, according to federal prosecutors, was on the laundering side of that machine rather than the victim-facing scripts: he directed co-conspirators to open U.S. bank accounts in the names of shell companies, monitored the accounts as stolen victim funds flowed in — at least $59.8 million of the total came from U.S. victims alone — and then moved the money onward, including through The Bahamas and into virtual-asset wallets, converting a substantial share into USDT (Tether) before it could be traced back to the scam centers operating out of Cambodia. Investigators later linked more than $341 million in virtual assets to wallets connected to the broader network.
+
+Li was arrested on April 12, 2024, at Hartsfield-Jackson Atlanta International Airport; a co-defendant, Yicheng Zhang, was separately arrested in Los Angeles the following month. Transported to the Central District of California, Li was charged with conspiracy to commit money laundering along with several substantive money-laundering counts, and on November 12, 2024, he pleaded guilty to the conspiracy count, admitting to the full $73.6 million laundering scheme as part of his plea. Eight of his co-conspirators have also pleaded guilty.
+
+Then, awaiting sentencing and out on conditions that included electronic GPS monitoring, Li did what almost none of the hundreds of other defendants in similar cryptocurrency fraud prosecutions have managed: he disappeared. In December 2025, he cut off his ankle monitor and fled, becoming a fugitive just weeks before his sentencing date. U.S. District Judge R. Gary Klausner sentenced him in absentia on February 9, 2026, to the statutory maximum of 20 years in federal prison plus three years of supervised release — a sentence Li was not present to hear. Assistant Attorney General A. Tysen Duva said the Justice Department's Criminal Division "will work with our law enforcement partners around the world to ensure that Li is returned to the United States to serve his full sentence."
+
+In April 2026, the State Department's Transnational Organized Crime Rewards Program offered up to $4 million for information leading to Li's arrest, and the U.S. Secret Service added him to its own Most Wanted list, publishing his physical description — 5'6", 130 pounds, black hair, brown eyes, born November 8, 1982 — alongside a list of known aliases: "Devon," "KG," "RF," "KG-Perfect," and Xuan Li. Li's case is a reminder that a guilty plea and an admitted nine-figure fraud don't guarantee an ending: for a defendant with the money, the passports, and the international connections a scam-center laundering operation provides, sentencing itself can become just one more step to route around, leaving restitution and the last chapter of the case unresolved for the victims who already lost everything they sent.`,
+  },
+  {
+    title: 'Nader Pourhassan and the CytoDyn Stock Fraud Built on a Failed COVID Drug',
+    slug: 'nader-pourhassan-cytodyn-leronlimab-securities-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-md/pr/biotech-ceo-sentenced-securities-fraud-scheme',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Aerial_view_of_downtown_Vancouver_WA_from_the_south_(2021).jpg?width=1200',
+    coverImageCredit: "Photo: Steve Morgan, Wikimedia Commons (CC BY-SA 4.0) — downtown Vancouver, Washington, where CytoDyn was headquartered during Nader Pourhassan's fraud scheme",
+    coverImagePosition: 50, // representative photo — replace with a portrait if found
+    body: `Nader Pourhassan spent a decade as chief executive of CytoDyn Inc., a publicly traded biotechnology company headquartered in Vancouver, Washington, whose entire market story rested on a single experimental drug: leronlimab, a humanized monoclonal antibody originally developed as an HIV treatment. When COVID-19 arrived, CytoDyn — and Pourhassan personally, through frequent public statements and investor updates — pivoted the company's pitch to retail investors around leronlimab's supposed promise as a coronavirus treatment, at a moment when any credible COVID drug candidate could send a small-cap biotech's stock soaring.
+
+Federal prosecutors said that between 2018 and 2021, Pourhassan intentionally misled investors about leronlimab's real prospects for FDA approval in order to artificially inflate CytoDyn's stock price and draw in new money, while quietly selling his own shares into the inflated market — 4.8 million shares, netting him roughly $4.4 million personally. The centerpiece of the fraud came in March 2021, when CytoDyn's Phase 3 COVID-19 trial failed to show any statistically significant improvement in survival for hospitalized patients compared with a placebo. Rather than disclosing that failure plainly, Pourhassan told investors the results were "the best results ever achieved for this population in a Phase 3 clinical trial." Two months later, in May 2021, the FDA publicly and directly contradicted him, stating that "the data currently available do not support the clinical benefit of leronlimab for the treatment of COVID-19" — a rare instance of a federal regulator rebutting a public company's characterization of its own trial data in real time.
+
+Pourhassan was tried alongside Kazem Kazempour, chief executive of Amarex Clinical Research LLC, the Maryland-based contract research organization CytoDyn had hired to run its trials and serve as its liaison with the FDA; Kazempour was convicted in the same trial of one count of securities fraud and one count of wire fraud, tied to more than $340,000 he personally made from CytoDyn stock sales. A federal jury convicted Pourhassan in December 2024 on four counts of securities fraud, two counts of wire fraud, and three counts of insider trading. U.S. District Judge Paula Xinis sentenced him on January 23, 2026, in the District of Maryland to 30 months in federal prison, ordering him to pay more than $5.3 million in restitution and to forfeit more than $4.4 million — essentially the full amount of his personal stock-sale proceeds. A Justice Department prosecutor said Pourhassan had "exploited a deadly public health crisis to intentionally deceive investors," a case built jointly by the FBI, the FDA's Office of Criminal Investigations, and the U.S. Postal Inspection Service, following a parallel civil fraud and insider-trading case the SEC had filed against him in 2022.
+
+CytoDyn's collapse from pandemic-era retail-investor darling to federal fraud conviction is a case study in a specific kind of stock fraud: not a company built on nothing, like a Ponzi scheme, but a real company with a real drug candidate whose executive chose to keep selling investors a story the company's own clinical data had already stopped supporting — and chose to keep selling his own shares into that story right up until the trial results made it impossible to sustain.`,
+  },
+);
+
 // Practical "how it works / red flags / what to do" guides covering the
 // major scam categories, the same kind of coverage the FTC's Consumer
 // Advice site and AARP's Fraud Watch Network publish — well-documented
@@ -19682,6 +19721,49 @@ Without admitting or denying the findings, Chime agreed to pay at least $1.3 mil
 The refund-delay order wasn't Chime's last brush with a security scare. In April 2026, a pro-Iranian hacking group calling itself "Team 313" claimed on its own leak site to have stolen Social Security numbers, dates of birth, government IDs, and other personal data belonging to Chime customers, timed to an outage that knocked the company's mobile app offline for hours and left an estimated 20,000 users unable to access their accounts. Chime disputed that any data was actually taken, telling customers during the outage that their money and personal information remained secure, and as of this writing no security researcher or regulator has independently confirmed the group's claim beyond what it posted publicly. Several proposed class-action lawsuits were filed anyway in the U.S. District Court for the Northern District of California, alleging Chime's security practices left customer data exposed regardless of what Team 313 did or didn't actually obtain — litigation that remains open and unresolved.
 
 The throughline across both episodes is the same: a bank account that lives entirely inside an app, with no local branch to walk into, concentrates risk in exactly the two places these incidents hit — how fast the company gives your own money back, and how well it protects the data behind your login. Anyone using Chime or a similar app-based bank account should keep a small buffer in a separate, traditional FDIC-insured account they can access if the app itself goes down or a dispute drags on, and should request written confirmation with a specific reference number any time they close an account, so there's a clear paper trail if a promised refund doesn't arrive on time. A customer who closes an account and doesn't have their balance refunded within the timeframe the company itself promises can file a complaint directly with the Consumer Financial Protection Bureau at consumerfinance.gov/complaint or by calling 1-855-411-2372, and anyone contacted about a supposed Chime data breach or refund by an unsolicited call, text, or email should verify independently through the official Chime app rather than any link or number the message provides.`,
+  },
+);
+
+GUIDE_ARTICLES.push(
+  {
+    title: "The Match Group FTC Settlement: Fraud-Flagged Profiles, a Hidden Guarantee, and a $14 Million Order",
+    slug: 'match-group-ftc-settlement-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'match-group-ftc-settlement'],
+    sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2025/08/match-group-agrees-pay-14-million-permanently-stop-deceptive-advertising-cancellation-billing',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Tinder,_book_and_croissant_(Unsplash).jpg?width=1200',
+    coverImageCredit: "Photo: freestocks.org, CC0, via Wikimedia Commons — a phone displaying the Tinder app, one of Match Group's dating platforms",
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
+    body: `In September 2019, the Federal Trade Commission sued Match Group, the company behind Match.com, Tinder, Hinge, OkCupid, and PlentyOfFish, over a marketing tactic the agency said turned Match's own fraud-detection system into a sales tool. Match.com routinely emailed non-paying users a notification along the lines of "someone's interested in you," advertising a message, "like," or wink waiting behind the paywall — except, the FTC alleged, a huge share of those come-ons originated from accounts Match's own systems had already flagged as likely fraudulent. Between June 2016 and May 2018 alone, the complaint said, roughly 4 million such notices went out to non-subscribers touting contact from an account Match itself suspected wasn't real, and nearly 500,000 people bought a subscription within 24 hours of receiving one — only to find, once they'd paid to unlock the message, that the sender's profile had already vanished or that they'd been connected to the very fraudulent account Match had detected in the first place.
+
+A second piece of the complaint targeted Match's widely advertised "guarantee": a promise that anyone who paid for a subscription and didn't find someone special within six months would get an additional six months free. The catch, the FTC said, was buried in eligibility rules most subscribers never saw clearly — keeping a public profile, messaging at least five different people each month, and re-enrolling in the guarantee program before a deadline, among other conditions. Between 2013 and 2016, consumers bought an estimated 2.5 million subscriptions advertised with the guarantee attached; of those, only 32,438 people ever actually received the promised free extension, while close to a million were instead billed for another six months of paid service after quietly failing to meet a condition they'd never been clearly told applied to them.
+
+The complaint's third strand concerned what happened after a subscriber noticed a charge they didn't recognize or authorize and disputed it with their credit card company. Rather than simply refunding a legitimate dispute or contesting it through the normal chargeback process, the FTC alleged that Match's practice — until it changed the policy in 2019 — was to terminate the customer's account and delete their profile the moment a bank ruled against Match, cutting off access to a service the customer had already paid for and giving them a strong incentive never to dispute a Match charge again, however wrongful. The cancellation process itself was, separately, "confusing and cumbersome" enough, the complaint said, that many users believed they had successfully canceled a recurring subscription only to discover another charge on their statement weeks later.
+
+Match Group fought the case for nearly six years before agreeing to resolve it on August 12, 2025, with a $14 million payment to fund consumer redress, approved by the FTC in a unanimous vote and entered as an order in the U.S. District Court for the Northern District of Texas. Going forward, Match must clearly and conspicuously disclose any guarantee's actual eligibility terms rather than relying on fine print, is barred from denying paying customers access to services they've already purchased as retaliation for a billing dispute, and must offer a cancellation mechanism that doesn't require navigating a maze the company itself built to be harder to exit than to enter — the same "click to cancel" principle regulators applied to Amazon's Prime enrollment flow. Because this is a direct FTC enforcement settlement rather than a class action, there is no claim form to file; the agency compensates identified victims directly and never charges a fee or asks for banking information to send a refund, so anyone contacted by someone offering to "help" claim Match settlement money for a fee should assume it's a scam.
+
+The pattern here extends well past one dating company: any subscription service that dangles a "guarantee" is worth reading closely for the specific, numeric conditions attached before assuming it applies automatically, any "someone's interested" prompt that disappears the moment you pay for it is worth treating with real skepticism, and disputing a wrongful charge with a card issuer is a legally protected right no company can lawfully punish by cutting off access to what's already been paid for. Consumers who hit a similar cancellation runaround or an account shut down after a legitimate billing dispute, at a dating platform or any other subscription service, can file a complaint with the FTC at ReportFraud.ftc.gov.`,
+  },
+  {
+    title: 'The Allianz Life Data Breach: How a Vished Salesforce Login Exposed 1.5 Million Social Security Numbers',
+    slug: 'allianz-life-salesforce-vishing-breach-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'allianz-life-data-breach'],
+    sourceUrl: 'https://oag.ca.gov/system/files/ELN-24798%20Allianz%20Life%20Ins%20Adult%20CM%2024M%20CA%20r2prf.pdf',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Salesforce_Tower_2020.jpg?width=1200',
+    coverImageCredit: 'Photo: Saggittarius A, CC BY-SA 4.0, via Wikimedia Commons — Salesforce Tower in San Francisco, the CRM platform attackers vished',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
+    body: `Allianz Life Insurance Company of North America, the Minneapolis-based U.S. arm of the German insurer Allianz, detected unauthorized access to one of its systems on July 17, 2025, a day after the intrusion actually began. The company's early investigation found no evidence its core policy-administration network had been touched at all — the attackers hadn't broken through a firewall or exploited a software flaw. Instead, they'd gotten in the same way a growing wave of 2025 corporate breaches did: by picking up the phone. Posing as internal IT help-desk staff, the attackers talked an employee or contracted support agent into approving access inside Allianz Life's third-party, cloud-based customer relationship management system, letting them authorize a rogue data-export connection and bulk-download records the same way a legitimate integration would, without ever needing to guess a password or plant malware.
+
+Security researchers linked the intrusion to the loosely affiliated hacking network operating under names including Scattered Spider and ShinyHunters, tracked in Google's threat-intelligence reporting under the designation UNC6040. The same voice-phishing playbook — a fluent, English-speaking caller impersonating internal tech support to talk a real employee into authorizing a malicious "Data Loader" connected app inside their company's Salesforce environment — hit an estimated 20-plus organizations across Europe and the Americas in 2025, with confirmed victims including Google, Qantas, Adidas, Air France, Pandora, and LVMH-owned brands Dior, Louis Vuitton, and Tiffany & Co. Some members of the collective announced in September 2025 that they were "retiring," a claim security researchers greeted with open skepticism given how often such groups simply resurface under a new name.
+
+The scale of what Allianz Life lost became clear through the notice it filed with Maine's Attorney General: 1,497,036 people, described as Allianz Life customers, financial professionals, and a smaller number of the company's own employees, had names, home addresses, dates of birth, and Social Security numbers exposed — the majority of the company's roughly 1.4 million U.S. customers. Notification letters began going out on August 1, 2025, offering two years of free identity-theft protection and credit monitoring through Kroll. Multiple proposed class-action lawsuits followed almost immediately, the first filed July 29, 2025, alleging negligence and violations of state data-breach-notification laws; as of this writing the litigation remains ongoing, with no settlement reached.
+
+The Allianz Life breach is a case study in a specific, fast-spreading attack method rather than a sloppy password or an unpatched server: it worked because a human being on the other end of a phone call believed the person claiming to be from IT support, not because any encryption was broken. That's the detail worth taking away regardless of whether you ever get an Allianz breach letter — any call, however convincing the caller ID or internal jargon sounds, asking you to approve a login, read back a one-time passcode, or install remote-access software should be treated as a probable social-engineering attempt, verified independently through a number you already have on file rather than one the caller provides.
+
+Anyone who receives a notice about this breach should enroll in the free credit monitoring Allianz Life is offering, place a free freeze on credit reports with all three bureaus given that Social Security numbers were exposed, and stay alert for follow-up phishing emails or calls that reference the real breach by name to sound more credible — a tactic fraudsters reliably use in the weeks after any major breach makes headlines. Identity theft stemming from the exposure can be reported at IdentityTheft.gov, and phishing attempts referencing Allianz or the breach can be reported to the FTC at ReportFraud.ftc.gov.`,
   },
 );
 
@@ -39780,6 +39862,78 @@ SEED_SCAMS.push(
     isHistorical: true,
     sources: ['U.S. Department of Justice — Office of Public Affairs', 'Internal Revenue Service'],
     sourceUrl: 'https://www.justice.gov/archives/opa/pr/oregon-woman-pleads-guilty-12-million-federal-income-tax-refund-fraud-scheme',
+  },
+);
+
+SEED_SCAMS.push(
+  {
+    name: 'Fake Central Bank and Police Fixed Deposit Fraud Scheme',
+    slug: 'sri-lanka-cbsl-police-fixed-deposit-impersonation-scam',
+    description: `Sri Lanka's Computer Emergency Readiness Team (SLCERT) issued an urgent public warning on August 17, 2026 about a fraud scheme in which callers impersonate officials from the Central Bank of Sri Lanka and the Police Financial Crimes Investigation Division (FCID). The scammers contact victims by mobile phone and social media claiming to already know the details of their savings and fixed deposit accounts, then falsely tell them that a complaint has been lodged alleging their deposits were obtained through fraudulent means and that an FCID investigation is imminent unless they cooperate. To make the threat convincing, the fraudsters send forged letters carrying fake Central Bank letterheads, invented officials' signatures, and counterfeit rubber stamps, and some are reported to possess police uniforms and fabricated bank identification cards. Victims are then instructed to transfer money — typically starting with half of their existing deposit — into a "verification" account at a different private bank that the callers falsely claim belongs to an FCID officer, and afterward to send a photo of the deposit slip as proof the transfer was made. SLCERT specifically flagged retirees and elderly account holders as most at risk and urged families to warn older relatives that neither the Central Bank nor the police ever conduct investigations over WhatsApp or personal phone calls, nor do they ever ask a member of the public to move money into a private individual's bank account.`,
+    categorySlug: 'government-impersonation',
+    country: 'LK',
+    alertLevel: 'high',
+    sources: ['Sri Lanka Computer Emergency Readiness Team (SLCERT)', 'Central Bank of Sri Lanka'],
+    sourceUrl: 'https://www.newswire.lk/2026/08/17/new-scam-targets-your-savings-fixed-deposits-cert-warning/',
+  },
+  {
+    name: 'Negombo WhatsApp "Easy Money" Task-Job Scam Network',
+    slug: 'sri-lanka-negombo-whatsapp-task-job-scam',
+    description: `Sri Lanka's Criminal Investigations Department (CID) raided a fraud operation based in the coastal town of Negombo after a Sri Lankan woman reported being lured into a WhatsApp group that promised cash payments for simple online tasks, such as commenting on videos and submitting screenshots as proof of completion. The scammers built trust by actually paying out the small amounts promised for the first few tasks, then escalated to "premium" tasks that required the victim to deposit increasingly large sums of her own money into private bank accounts before she could unlock the advertised payout — a classic advance-fee escalation that ultimately cost her Rs. 5.4 million (roughly $18,000) before she realized the promised earnings would never materialize. The CID raid uncovered a much larger operation than a single victim: it led to the arrest of 33 suspects, including foreign nationals from Pakistan, India, Bangladesh, and Indonesia, and the seizure of 57 mobile phones, 13 computers, and three laptops used to run scam scripts against victims in multiple countries. Suspects told investigators the network's operations extended beyond Sri Lanka to bases in Dubai and Afghanistan, part of a broader pattern of foreign-run online fraud networks relocating operations to the island as neighboring countries crack down on scam compounds.`,
+    categorySlug: 'employment-scams',
+    country: 'LK',
+    alertLevel: 'high',
+    sources: ['Sri Lanka Police Criminal Investigation Department (CID)', 'Tamil Guardian'],
+    sourceUrl: 'https://www.tamilguardian.com/content/sri-lankas-online-fraudsters-dozens-arrests-amidst-growth-fraud-activity-island',
+  },
+  {
+    name: '"Sports Chain" Cryptocurrency Ponzi Scheme',
+    slug: 'sri-lanka-sports-chain-crypto-ponzi-scheme',
+    description: `Beginning in 2020, a Chinese national identified as Zhang Kai, his girlfriend, and a Sri Lankan associate named Lamahewage Shamal Keerthi Bandara ran a fake cryptocurrency investment platform called "Sports Chain," marketed to Sri Lankans as a highly profitable place to park their savings. The trio courted prospective investors with lavish dinners and invitations to five-star hotels, using the appearance of wealth and success to win their trust before soliciting deposits into the scheme, which — like any Ponzi structure — paid early "returns" out of money collected from later investors rather than from any real trading or business activity. Sri Lanka's Criminal Investigation Department, whose probe was triggered by a formal complaint, eventually determined that more than 8,000 Sri Lankans had been drawn in, including doctors, teachers, and security officers alongside people from lower-middle-income backgrounds, for a combined loss of over Rs. 14 billion (roughly $37.9 million). Zhang Kai and his girlfriend were arrested at Bandaranaike International Airport on September 12, 2022 as they attempted to leave the country, and Bandara was arrested about a month later on October 11, 2022 and subsequently released on bail. Police spokesperson SSP Nihal Thalduwa said the case illustrates how crypto-investment fraud in Sri Lanka increasingly targets working professionals, not just inexperienced investors, by leaning on in-person social proof — dinners, hotel meetings, a polished pitch — rather than purely online promotion.`,
+    categorySlug: 'investment-fraud',
+    country: 'LK',
+    isHistorical: true,
+    firstRecorded: '2020-01-01',
+    sources: ['Sri Lanka Police Criminal Investigation Department (CID)', 'Ada Derana'],
+    sourceUrl: 'https://adaderana.lk/news/85794/police-shed-light-on-massive-fake-crypto-investment-scheme',
+  },
+);
+
+SEED_SCAMS.push(
+  {
+    name: 'Paul Randall Medi-Cal Prescription Drug Billing Fraud',
+    slug: 'california-randall-medi-cal-prescription-fraud',
+    description: `Paul Richard Randall, 66, of Orange, California, orchestrated a scheme that exploited Medi-Cal's temporary suspension — adopted in early 2022 as part of a transition to a new payment system — of its usual requirement that providers get prior authorization before dispensing certain medications. Working with a pharmacist and pharmacy owner and a nurse practitioner, Randall caused a pharmacy network to bill Medi-Cal for expensive, non-contract prescription drugs that were often compounded from low-cost generic ingredients and, in many cases, were not medically necessary or never actually dispensed to the patients they were billed for. From May 2022 through April 2023, the scheme submitted at least approximately $269,120,829 in false and fraudulent claims, of which Medi-Cal paid out roughly $178,746,556. Randall pleaded guilty in April 2026 to one count of wire fraud committed while on release, facing a statutory maximum of 30 years in federal prison at his scheduled sentencing. The case shows how a temporary regulatory change meant to speed care during a system transition can be exploited at scale — a reminder that healthcare billing fraud on this scale is usually uncovered only through claims-pattern audits, which is why patients should check their own Medi-Cal or Medicare statements for medications they never received.`,
+    categorySlug: 'healthcare-fraud',
+    country: 'US',
+    state: 'CA',
+    isHistorical: true,
+    firstRecorded: '2022-05-01',
+    sources: ['U.S. Department of Justice — Central District of California'],
+    sourceUrl: 'https://www.justice.gov/usao-cdca/pr/orange-county-man-pleads-guilty-orchestrating-fraud-scheme-submitted-nearly-270',
+  },
+  {
+    name: 'Eastern District of Texas Romance and Business Email Compromise Ring',
+    slug: 'texas-edtx-romance-bec-unemployment-fraud-ring',
+    description: `Starting around January 2017, a group of conspirators based in the Plano, Allen, and Houston areas of Texas ran a sprawling fraud operation that combined online romance scams with business email compromise, investor fraud, and pandemic-era unemployment insurance fraud, ultimately taking approximately $17 million from more than 100 individual victims, companies, and government entities around the world. Victims recruited through romance scams were often turned into unwitting "money mules," moving stolen funds through their own accounts before the money was laundered further. Following convictions and guilty pleas, U.S. District Judge Amos L. Mazzant III sentenced the conspirators in June 2025: Damilola Kumapayi of Plano received 109 months, Sandra Iribhogbe Popnen of Plano received 365 months, and Edgal Iribhogbe of Allen along with Chidindu Okeke and Chiagoziem Okeke of Houston — convicted at trial — each received 480 months in federal prison. The case illustrates how a romance scam is frequently just the entry point into a larger, professionalized fraud operation that also targets businesses and government benefit programs — anyone asked by an online romantic interest to receive and forward money, or to open accounts in their name, should recognize that as a sign they are being recruited as a money mule, not helping a partner in need.`,
+    categorySlug: 'romance-scams',
+    country: 'US',
+    state: 'TX',
+    isHistorical: true,
+    firstRecorded: '2017-01-01',
+    sources: ['U.S. Department of Justice — Eastern District of Texas', 'IRS Criminal Investigation'],
+    sourceUrl: 'https://www.justice.gov/usao-edtx/pr/conspirators-sentenced-engaging-multitude-fraud-schemes-including-romance-scams',
+  },
+  {
+    name: 'Florida "Direct Deposit Refund" IRS Impersonation Tax Scam',
+    slug: 'florida-direct-deposit-refund-irs-impersonation',
+    description: `As part of the Florida Attorney General's 2024 Tax Season Scam Series, Attorney General Ashley Moody warned Floridians about a "direct deposit refund" scam in which callers, texters, or emailers pose as IRS agents and claim a mistake was made on the victim's tax return — typically that a refund was deposited in the wrong amount or the wrong account. The scammer then demands the victim immediately send the "overpayment" back, usually by wire transfer or gift card, creating a false sense of urgency so the victim acts before checking with the real IRS. The alert reminded taxpayers that the IRS never initiates contact about refunds by text or email, never demands immediate payment over the phone, and never requires payment by gift card or wire transfer; anyone unsure about the status of a refund should check it directly through the IRS's "Where's My Refund?" tool or the IRS2Go app rather than trusting a caller's claim. Floridians who encounter this or a similar scam can report it to the Florida Attorney General's Office at 1-866-9NO-SCAM or MyFloridaLegal.com, or to the FTC at ReportFraud.ftc.gov.`,
+    categorySlug: 'tax-scams',
+    country: 'US',
+    state: 'FL',
+    alertLevel: 'medium',
+    sources: ['Florida Office of the Attorney General'],
+    sourceUrl: 'https://www.myfloridalegal.com/newsrelease/video-consumer-alert-ag-moody-concludes-2024-tax-season-scam-series-warning-about',
   },
 );
 
