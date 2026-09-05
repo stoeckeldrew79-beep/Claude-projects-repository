@@ -39556,15 +39556,16 @@ SEED_SCAMS.push(
 
 SEED_SCAMS.push(
   {
-    name: 'We Energies and Xcel Energy Disconnection-Threat Utility Scam',
-    slug: 'wisconsin-utility-imposter-disconnection-scam',
-    description: `The Wisconsin Department of Agriculture, Trade and Consumer Protection warned on April 21, 2026 of a rise in calls from scammers impersonating real, trusted Wisconsin utility providers, including We Energies and Xcel Energy. The caller claims the recipient's home or business utility account is overdue and threatens to disconnect service — sometimes claiming a disconnection truck is already on its way — unless payment is made immediately, often demanding an unconventional method such as a prepaid gift card, cryptocurrency, a peer-to-peer banking app, or a wire transfer. DATCP noted the surge affected both residential customers and small businesses, echoing an earlier wave of similar calls targeting We Energies business accounts. The department stressed that a real utility company contacts a customer multiple times by mail before ever threatening disconnection, never demands instant phone payment, and never insists on gift cards or crypto to keep the lights on. Anyone who receives a threatening utility call is advised to hang up and call the provider directly using the number printed on a past billing statement, not a number given by the caller, and to report the attempt to DATCP's Consumer Protection Hotline at (800) 422-7128 or DATCPHotline@wisconsin.gov.`,
-    categorySlug: 'utility-scams',
+    name: 'Ibelis Gonzalez Six-Victim Fake-ID Debit Card Identity Theft',
+    slug: 'new-jersey-gonzalez-fake-id-debit-card-identity-theft',
+    description: `New Jersey's Division of Criminal Justice announced on March 17, 2026 the indictment of Ibelis Gonzalez, 46, of Jersey City, on charges that she used fictitious identification documents bearing her own photograph but six different victims' names to obtain replacement debit cards for their accounts at multiple Citizens Bank branches across New Jersey between May 14 and June 10, 2024. Once she had a card in a victim's name, Gonzalez allegedly drained the account through in-person branch withdrawals, ATM transactions, and debit purchases, stealing roughly $86,840 in total, including about $60,500 taken directly at bank counters. The scheme finally unraveled on June 10, 2024, when Citizens Bank employees grew suspicious of another fraudulent debit card application and called Irvington police, who arrived and confiscated a fake Massachusetts ID bearing Gonzalez's photo alongside a victim's name and personal details. She was charged with second-degree theft by deception, second-degree impersonation and theft of identity, and third-degree possession of a forged government document. Attorney General Jennifer Davenport noted that "the defendant coopted the identities of six different people and then stole money from their bank accounts," adding that identity theft carries both a financial cost and lasting disruption for victims. The case is a reminder that a bank's own in-branch verification is not foolproof against a convincing fake ID, and that anyone who spots unauthorized card activity or an unfamiliar card issued in their name should contact their bank and file a police report immediately, before further withdrawals can be made.`,
+    categorySlug: 'identity-theft',
     country: 'US',
-    state: 'WI',
-    alertLevel: 'medium',
-    sources: ["Wisconsin Department of Agriculture, Trade and Consumer Protection"],
-    sourceUrl: 'https://datcp.wi.gov/Pages/News_Media/20260421ConsumerAlertRiseInUtilityImposterScams.aspx',
+    state: 'NJ',
+    isHistorical: true,
+    firstRecorded: '2024-05-14',
+    sources: ["New Jersey Office of the Attorney General", 'New Jersey Division of Criminal Justice'],
+    sourceUrl: 'https://www.njoag.gov/hudson-county-woman-indicted-for-allegedly-using-fake-ids-to-obtain-debit-cards-and-steal-more-than-86000/',
   },
   {
     name: 'Jinrong Shi and Jiyang Zhong Tech Support and Grandparent Scam Ring',
