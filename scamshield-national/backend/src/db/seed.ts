@@ -40439,6 +40439,44 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'Back-to-Back Publishers Clearing House Sweepstakes Fraud Against an Alaska Retiree',
+    slug: 'alaska-85-year-old-sweepstakes-fraud',
+    description: `Starting in March 2021, callers impersonating Publishers Clearing House officials told an 85-year-old retired teacher in Alaska that she had won a Mercedes-Benz and millions of dollars, but that she first had to send money to cover "taxes" and processing fees before her winnings could be released. Over the following months she paid roughly $45,000 combined, using gift cards, cash, cashier's checks, wire transfers, and direct bank deposits to accounts the callers specified — and once that first group of scammers had drained what they could, her contact information was apparently resold on a scammer "lead list," exposing her to a second, unrelated sweepstakes scam that took more of her money the same way. Her son, an accountant in the Seattle-Tacoma area, tried repeatedly to warn her it was fraud, but she told her family she had prayed on it and felt the calls were legitimate; the family eventually contacted the AARP Fraud Watch Network Helpline for help. AARP and the Better Business Bureau, which documented the case, note that sweepstakes-fraud victims age 55 and older who lose money average close to $1,000 in losses each, though individual cases — like this one — can run far higher, and that scam victims are disproportionately "ordinary people" trying to help their families rather than acting out of greed. The real Publishers Clearing House, like any legitimate sweepstakes or lottery, never requires a winner to pay any fee, tax, or "insurance" charge before releasing a prize, and never calls to announce a win in advance of an in-person prize patrol — any call demanding payment to release winnings should be treated as fraud regardless of how convincing or official it sounds.`,
+    categorySlug: 'lottery-sweepstakes-scams',
+    country: 'US',
+    state: 'AK',
+    isHistorical: true,
+    firstRecorded: '2021-03-01',
+    sources: ['AARP Fraud Watch Network', 'Better Business Bureau'],
+    sourceUrl: 'https://www.aarp.org/money/scams-fraud/woman-lost-45k-sweepstakes/',
+  },
+  {
+    name: 'Stolen U.S. Treasury Check Ring Cashed Through Vermont Bank Branches',
+    slug: 'vermont-stolen-treasury-check-bank-fraud-ring',
+    description: `On May 28, 2026, a federal grand jury indicted seven people — including Davon Olin of Hackensack, New Jersey and the Bronx, along with Corey Vasquez, James Michael Roosevelt Williams, Mark Ochoa, and Lindsay Sheehan, all of the Bronx — in a scheme built around stolen U.S. Treasury checks and counterfeit identification. Prosecutors said Olin supplied fake driver's licenses matching the names on more than $500,000 worth of stolen federal checks, which Vasquez, Ochoa, Sheehan, and others then used to open new bank accounts and deposit the checks at branches across New England, including in Vermont, New Hampshire, and Maine, before the fraud was caught. The defendants face charges of wire fraud conspiracy, bank fraud conspiracy, and aggravated identity theft, each carrying up to 30 years in prison; Olin was ordered detained after his initial appearance in the District of New Jersey, while Ochoa and Williams were released on conditions following appearances in the Southern District of New York. The case fits a pattern the U.S. Postal Inspection Service has tracked nationally for years: Treasury-issued checks — tax refunds, Social Security payments, and similar federal benefits — are stolen from mail carriers, collection boxes, or residential mailboxes, then either "washed" to change the payee name or, as alleged here, paired with a forged ID that matches the real payee closely enough to fool a bank teller opening a new account. Anyone who doesn't receive an expected federal check on its usual schedule should contact the issuing agency (the IRS, Social Security Administration, or Treasury) directly to ask whether it was issued and cashed, rather than assuming it is simply running late, since a missing government check can mean it has already been stolen and is being deposited under someone else's forged identity.`,
+    categorySlug: 'identity-theft',
+    country: 'US',
+    state: 'VT',
+    alertLevel: 'high',
+    sources: ['U.S. Department of Justice — District of Vermont', 'IRS Criminal Investigation'],
+    sourceUrl: 'https://www.justice.gov/usao-vt/pr/seven-charged-scheme-cash-stolen-us-treasury-checks-throughout-new-england',
+  },
+  {
+    name: 'Associated Community Services Sham-Charity Robocall Operation',
+    slug: 'wyoming-associated-community-services-charity-fraud',
+    description: `On March 4, 2021, the FTC and 46 consumer-protection agencies from 38 states and D.C. — including the Wyoming Attorney General's Consumer Protection and Antitrust Unit — announced they had shut down Associated Community Services (ACS) and its affiliated companies, Central Processing Services, Community Services Appeal, Directele, and The Dale Corporation. The complaint accused owners Dick Cole, Barbara Cole, Bill Burland, and Amy Burland, along with senior managers Nikole Gilstorf, Tony Lia, John Lucidi, and Scot Stepek, of running one of the largest charity-fraud telefunding operations ever documented: using soundboard technology that let a live operator pick from prerecorded scripts to sound like a real conversation, the operation placed more than 1.3 billion calls to roughly 67 million consumers over several years, falsely soliciting donations on behalf of veterans, children, firefighters, and other sympathetic causes while keeping as much as 90 cents of every donated dollar for themselves — in some cases leaving the named charity with as little as one-tenth of one percent of the money raised in its name. The case, filed in the U.S. District Court for the Eastern District of Michigan, produced monetary judgments of more than $110 million (largely suspended given the defendants' inability to pay), permanent bans on the defendants ever fundraising or telemarketing again, and orders dissolving the corporate entities outright. Wyoming's Attorney General lists the case among its resolved consumer-protection matters as one of the state's actions against telefunding fraud; the underlying lesson for any donor is that a phone solicitation for a sympathetic-sounding charity — especially one using a recorded pitch or high-pressure tactics — should never be paid on the spot, and should instead be verified independently first through a source like the IRS Tax Exempt Organization Search or a charity-rating service, since a real charity's own name and cause can be, and routinely is, borrowed by telemarketers who send it almost none of the money raised.`,
+    categorySlug: 'charity-scams',
+    country: 'US',
+    state: 'WY',
+    isHistorical: true,
+    firstRecorded: '2021-03-04',
+    sources: ['Federal Trade Commission', 'Wyoming Attorney General — Consumer Protection and Antitrust Unit'],
+    sourceUrl: 'https://attorneygeneral.wyo.gov/law-office-division/consumer-protection-and-antitrust-unit/resolved-matters',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
