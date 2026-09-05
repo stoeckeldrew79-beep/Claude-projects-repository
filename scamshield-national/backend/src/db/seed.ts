@@ -9801,6 +9801,43 @@ The scheme came apart as VBit's obligations to its Hosting Agreement customers o
   },
 );
 
+NOTORIOUS_ARTICLES.push(
+  {
+    title: 'Leonard Glenn Francis, "Fat Leonard," and the Bribery Scheme That Corrupted the U.S. Navy\'s 7th Fleet',
+    slug: 'fat-leonard-glenn-francis-navy-bribery-scandal',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Leonard_Francis_2017_mugshot_-_2022_Wanted_poster.jpg?width=1200',
+    coverImageCredit: 'U.S. Marshals Service (Public Domain) — Leonard Glenn Francis\'s 2017 booking photo, later reissued as part of a 2022 fugitive wanted poster',
+    coverImagePosition: 50,
+    body: `Leonard Glenn Francis was a heavyset, gregarious Malaysian ship-husbanding contractor — sailors and Navy officers nicknamed him "Fat Leonard" — who spent more than a decade building his company, Glenn Defense Marine Asia (GDMA), into the indispensable fixer for U.S. Navy ships across the Pacific. GDMA arranged the unglamorous logistics a destroyer or aircraft carrier needs the moment it enters a foreign port: fuel, tugboats, fresh water, sewage removal, security, and provisions. Rather than compete for that business on price, prosecutors say, Francis spent years simply buying it from the Navy officers who controlled it.
+
+Francis's method was to identify rising officers in the Navy's 7th Fleet and cultivate them for years with cash, luxury hotel stays, expensive dinners, Cuban cigars, and prostitutes — gifts prosecutors said eventually totaled millions of dollars, including more than $500,000 in cash to a single Navy captain. In exchange, his "moles" fed him classified ship schedules and confidential bidding information, and used their influence to steer aircraft carriers, cruisers, and submarines toward ports in Southeast Asia that Francis controlled — where GDMA could then bill the Navy directly for husbanding services. Once ships were in his ports, GDMA routinely overbilled the Navy for fuel, water, and tugboat services that were inflated, duplicated, or never actually provided, defrauding the Navy of more than $35 million over the life of the scheme.
+
+The investigation, run by the Naval Criminal Investigative Service and federal prosecutors in San Diego, eventually implicated more than 30 people, including Navy admirals, ship captains, and even an NCIS special agent who had been assigned to catch Francis and instead fed him confidential details of the probe itself. Francis was lured to San Diego under the pretext of a meeting and arrested there in September 2013; he pleaded guilty to bribery and fraud conspiracy charges in January 2015 and spent years cooperating with prosecutors as dozens of subsequent cases moved through military and federal courts. His own sentencing was delayed for nearly a decade, in part by litigation over prosecutorial misconduct in handling sensitive case materials.
+
+Days before he was finally due to be sentenced in September 2022, Francis — under house arrest and fitted with a GPS ankle monitor — cut off the monitor, left it in a water cooler outside his San Diego home, and fled the country. He was tracked to Mexico and eventually Venezuela, where he was detained on an Interpol Red Notice at a Caracas airport while attempting to board a flight toward Cuba and, prosecutors believe, Russia. He was returned to the United States in December 2023 as part of a large prisoner swap between Washington and Caracas. On November 5, 2024, a federal judge in San Diego sentenced Francis to 15 years in prison, ordered him to pay $20 million in restitution and a $150,000 fine, and to forfeit $35 million in proceeds from the scheme; an appellate court later rejected his bid to shorten the sentence. Four Navy officers were court-martialed and several more were censured over conduct connected to the case, which remains the largest bribery and corruption scandal in U.S. Navy history — a reminder that a "trusted local fixer" who never has to compete on price is usually a fixer who has found a cheaper way to win the business than any of his competitors ever could.`,
+    sourceUrl: 'https://www.justice.gov/usao-sdca/pr/leonard-glenn-francis-sentenced-15-years-prison-massive-bribery-fraud-and',
+  },
+  {
+    title: 'Mark Whitacre: The FBI Informant Who Was Secretly Embezzling From the Company He Was Wiretapping',
+    slug: 'mark-whitacre-adm-price-fixing-embezzlement',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Mark_Whitacre.jpg?width=1200',
+    coverImageCredit: 'Photo: Jacob Willis / Bauman Photographers (CC BY-SA 3.0)',
+    coverImagePosition: 50,
+    body: `Mark Whitacre was president of Archer Daniels Midland's BioProducts Division and, in his mid-thirties, one of the youngest senior executives at one of the largest agribusiness conglomerates in the world — a rising star some inside the company believed was being groomed for its presidency. In November 1992, after describing to his wife what he'd witnessed inside ADM's executive suite, Whitacre approached the FBI with an extraordinary offer: he would wear a wire and secretly record ADM's most senior leadership conspiring with competitors around the world to fix the price of lysine, an amino acid used as a livestock feed additive.
+
+For roughly three years, Whitacre taped hundreds of hours of meetings with executives from competing firms — including Japan's Ajinomoto and South Korea's Sewon and Cheil Jedang — in hotel rooms from Mexico City to Tokyo to Hawaii, capturing ADM's president and other top executives on tape discussing exactly how to divide up the global lysine market and hold prices steady among companies that were supposed to be competing with each other. When the recordings became public in 1995, they triggered one of the largest price-fixing prosecutions in American history: ADM pleaded guilty and paid what was then a record $100 million criminal antitrust fine, and two of its top executives, Michael Andreas and Terrance Wilson, were convicted alongside Whitacre himself and sent to prison.
+
+But the same scrutiny that broke the price-fixing case also caught Whitacre in a fraud of his own. While he was secretly cooperating with the FBI, he was, prosecutors found, simultaneously embezzling from ADM: using fictitious companies and forged invoices routed through bank accounts in the Cayman Islands, Switzerland, Germany, and Hong Kong, Whitacre siphoned nearly $9.5 million out of the company between 1991 and 1995, later insisting the money amounted to compensation ADM secretly owed him and to compensation for the personal risk of informing. ADM's own auditors uncovered the embezzlement first, while combing through his expense records after the price-fixing scandal broke, and the evidence was turned over to federal prosecutors.
+
+Whitacre pleaded guilty in October 1997 to 37 counts including wire fraud, money laundering, conspiracy to defraud the IRS, and filing false tax returns. In 1998 he was sentenced to nine years in federal prison for the embezzlement, plus an additional 30 months to run consecutively for his role in the price-fixing conspiracy, and was ordered to repay ADM $11.4 million in restitution. He served roughly eight and a half years before his release in December 2006, and his case — later dramatized in the 2009 film "The Informant!" — remains a standard example in FBI and corporate-compliance training of a genuinely awkward proposition: a whistleblower's account of someone else's fraud is not proof that the whistleblower isn't committing fraud of his own at the very same time.`,
+    sourceUrl: 'https://www.justice.gov/archive/opa/pr/1997/October97/425crm.html',
+  },
+);
+
 // Practical "how it works / red flags / what to do" guides covering the
 // major scam categories, the same kind of coverage the FTC's Consumer
 // Advice site and AARP's Fraud Watch Network publish — well-documented
