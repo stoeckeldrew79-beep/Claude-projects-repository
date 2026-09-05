@@ -8979,6 +8979,45 @@ Danske Bank itself ultimately admitted criminal wrongdoing where individual exec
   },
 );
 
+NOTORIOUS_ARTICLES.push(
+  {
+    title: 'John Donald Cody, "Bobby Thompson": The Fugitive Lawyer Who Ran a Fake Navy Charity for a Decade',
+    slug: 'john-donald-cody-bobby-thompson-navy-veterans-charity-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Downtown_Tampa_Skyline.jpg?width=1200',
+    coverImageCredit: 'Photo: Mark Szelistowski, Wikimedia Commons (CC BY-SA 3.0) — downtown Tampa, Florida, where "Bobby Thompson" actually ran the fake U.S. Navy Veterans Association out of his apartment while claiming a Washington, D.C. headquarters',
+    coverImagePosition: 50,
+    body: `John Donald Cody was, on paper, an unlikely candidate to become one of America's most durable fraudsters: a University of Virginia and Harvard Law School graduate who served as a U.S. Army military intelligence captain before opening a defense law practice in Sierra Vista, Arizona, in 1980. That career ended in May 1984, when employees at his firm grew suspicious of his cash withdrawals and inquiries about fake identification, and Cody vanished before Arizona authorities could charge him with stealing roughly $100,000 from client accounts. An FBI wanted poster describing him as a fugitive lawyer sat unresolved for nearly two decades.
+
+Cody resurfaced under a stolen identity, "Bobby Thompson," and in 2002 registered the United States Navy Veterans Association (USNVA) as a tax-exempt charity claiming a Washington, D.C. headquarters. The real operation was run out of his own apartment in Tampa, Florida, and later out of a UPS Store mailbox listed as the group's national office. Over the following years, USNVA built a convincing public shell: it claimed 66,000 members, listed 85 state-chapter "officers," and said it had shipped 24,000 care packages to deployed servicemembers, complete with thank-you letters that investigators later found had been plagiarized from other veterans' organizations. Telemarketers working the phones for USNVA kept an estimated 60 to 85 percent of every dollar they raised, and Cody used the group's donations to buy political access, including a $55,500 contribution to a Virginia attorney general's campaign and photo opportunities with sitting U.S. senators and a former president — a level of apparent legitimacy that made the charity's pitch to small donors even harder to question.
+
+The fraud unraveled only because of local journalism, not a regulatory audit. Beginning in December 2009, reporters at the St. Petersburg Times pressed USNVA for basic answers — who ran it, where its "headquarters" actually was, what its money paid for — and found a "national office" that was a mailbox, state chapters registered to vacant lots, and financial filings that failed to meet basic accounting standards. Cody abandoned his Tampa apartment without a forwarding address before the paper's series ran in March 2010, evading a nationwide manhunt for two years until U.S. marshals arrested him in Portland, Oregon, in April 2012. He refused to identify himself and signed his own booking paperwork with an "X"; it took Army fingerprint records from 1969 to confirm, months later, that "Bobby Thompson" was John Donald Cody.
+
+A Cuyahoga County, Ohio jury convicted Cody in November 2013 on 23 counts, including theft, money laundering, identity fraud, and engaging in a pattern of corrupt activity, after a trial built around evidence that USNVA had raised close to $100 million nationally under false pretenses — investigators traced at least $20 million of it directly to Cody's own use. He was sentenced the following month to 28 years in prison plus more than $6.3 million in fines and costs, a term an appellate court later trimmed by one year on jurisdictional grounds while leaving the underlying conviction and prison term intact. Cody's earliest possible release date, in 2039, would make him 91 years old. His case remains a rare example of a fraud built almost entirely on the emotional credibility of a "veterans" cause — one that survived for the better part of a decade not because it was sophisticated, but because almost no one who mattered ever bothered to check whether the address on its letterhead actually existed.`,
+    sourceUrl: 'https://www.npr.org/sections/thetwo-way/2013/12/16/251650211/man-who-bilked-millions-from-navy-charity-donors-gets-28-years',
+  },
+  {
+    title: 'Perry Santillo, "King Perry": The Rochester Ponzi Schemer Who Bought Broker-Dealers to Reach New Victims',
+    slug: 'perry-santillo-king-perry-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    // representative photo — replace with a portrait if found
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Downtown_Rochester,_NY_HDR_by_patrickashley.jpg?width=1200',
+    coverImageCredit: 'Photo: Patrick Ashley, Wikimedia Commons (CC BY 2.0) — downtown Rochester, New York, where Perry Santillo built the network of firms he used to reach investors nationwide',
+    coverImagePosition: 50,
+    body: `Perry Santillo built his fraud on a shortcut most Ponzi schemers never find: instead of recruiting investors one at a time, he and business partner Christopher Parris bought at least fifteen small investment-advisory and broker-dealer firms across the country, inheriting each one's existing client base along with the trust those clients already placed in a licensed financial adviser. Operating under a shifting roster of entity names — including Lucian Development, First American Securities, Advice and Life Group, and Financial Planners Group of America — Santillo and Parris used that acquired credibility to persuade clients to cash out legitimate retirement accounts and mutual funds and roll the proceeds into promissory notes issued by their own companies, promising steady returns that had nothing real backing them.
+
+The scheme's origin was even more cynical than its mechanics. According to prosecutors, Santillo and Parris learned in July 2007 that money entrusted to another firm, City Capital Corp., had already been lost. Rather than disclosing that to investors, the pair acquired City Capital's remaining assets and debts and kept soliciting new money — using fresh investor deposits to paper over losses that had already happened, the defining move of a Ponzi scheme, from the very first month of the operation. Between January 2008 and June 2018, prosecutors say the scheme took in at least $115 million from roughly 1,000 investors across the country, paying back only about $44.8 million before it finally collapsed, leaving victims — many of them retirees who had liquidated real savings — short by more than $70 million.
+
+Santillo spent lavishly on himself while the operation ran: multiple homes in different states, luxury cars, country-club memberships, and a Las Vegas nightclub party at which he commissioned a song about himself referring to him as "King Perry," the nickname that stuck to his case. The Securities and Exchange Commission sued to shut the scheme down in June 2018, and criminal charges followed in the Western District of New York and the Middle District of Pennsylvania. Santillo pleaded guilty to conspiracy to commit mail fraud, mail fraud, and conspiracy to launder money, and separately admitted to a COVID-19 relief fraud scheme uncovered during the investigation. On January 13, 2022, a federal judge sentenced him to 210 months — 17.5 years — in prison and ordered him to pay roughly $103 million in restitution. Parris, his co-conspirator, was convicted and sentenced separately.
+
+Santillo's case is a reminder that owning a licensed financial firm is not the same as being trustworthy with the money inside it: buying his way into other advisers' client relationships let him skip the hardest part of running a Ponzi scheme — winning strangers' trust from scratch — and replace it with something just as effective, a firm's pre-existing paperwork and a familiar-sounding name on the letterhead.`,
+    sourceUrl: 'https://www.wealthmanagement.com/regulation-compliance/former-rochester-broker-sentenced-to-over-17-years-for-ponzi-scheme',
+  },
+);
+
 // Practical "how it works / red flags / what to do" guides covering the
 // major scam categories, the same kind of coverage the FTC's Consumer
 // Advice site and AARP's Fraud Watch Network publish — well-documented
