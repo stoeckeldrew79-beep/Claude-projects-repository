@@ -16474,8 +16474,8 @@ If a call like this comes in, hang up and verify independently: call your health
     slug: 'fake-ransomware-extortion-letter-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'ransomware-extortion-letter-scam'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Physical_Bitcoin_by_Mike_Cauldwell_(Casascius).jpg?width=1200',
-    coverImageCredit: 'Photo: Mike Cauldwell / Casascius (free use)',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Bitcoins.jpg?width=1200',
+    coverImageCredit: 'Photo: Jorge Franganillo, CC BY 2.0, via Wikimedia Commons — physical bitcoins, the ransom currency demanded in these fake extortion letters',
     coverImagePosition: 50,
     sourceUrl: 'https://www.ic3.gov/PSA/2025/PSA250306-2',
     body: `A physical letter arrives at a company's headquarters, addressed to a specific executive and stamped "Time Sensitive Read Immediately." Inside, the letter claims to be from the "BianLian Group" — a real, well-documented ransomware gang whose name has shown up in genuine breach news for years — and states that the group has already broken into the company's network and stolen thousands of sensitive files. It threatens to publish the stolen data unless a ransom of $250,000 to $500,000 is paid within ten days, and includes a QR code that links directly to a Bitcoin wallet for payment, along with a line making clear there's no room to negotiate.
@@ -20184,10 +20184,9 @@ GUIDE_ARTICLES.push(
     author: 'ScamShield Editorial',
     tags: ['guide', 'match-group-ftc-settlement'],
     sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2025/08/match-group-agrees-pay-14-million-permanently-stop-deceptive-advertising-cancellation-billing',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Tinder,_book_and_croissant_(Unsplash).jpg?width=1200',
-    coverImageCredit: "Photo: freestocks.org, CC0, via Wikimedia Commons — a phone displaying the Tinder app, one of Match Group's dating platforms",
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Match_Group_Logo_2018.png?width=1200',
+    coverImageCredit: "Match Group (PD-textlogo), via Wikimedia Commons — the corporate parent of Tinder, Match.com, and Hinge named in the FTC settlement",
     coverImagePosition: 50,
-    // representative photo — replace with an exact match if found
     body: `In September 2019, the Federal Trade Commission sued Match Group, the company behind Match.com, Tinder, Hinge, OkCupid, and PlentyOfFish, over a marketing tactic the agency said turned Match's own fraud-detection system into a sales tool. Match.com routinely emailed non-paying users a notification along the lines of "someone's interested in you," advertising a message, "like," or wink waiting behind the paywall — except, the FTC alleged, a huge share of those come-ons originated from accounts Match's own systems had already flagged as likely fraudulent. Between June 2016 and May 2018 alone, the complaint said, roughly 4 million such notices went out to non-subscribers touting contact from an account Match itself suspected wasn't real, and nearly 500,000 people bought a subscription within 24 hours of receiving one — only to find, once they'd paid to unlock the message, that the sender's profile had already vanished or that they'd been connected to the very fraudulent account Match had detected in the first place.
 
 A second piece of the complaint targeted Match's widely advertised "guarantee": a promise that anyone who paid for a subscription and didn't find someone special within six months would get an additional six months free. The catch, the FTC said, was buried in eligibility rules most subscribers never saw clearly — keeping a public profile, messaging at least five different people each month, and re-enrolling in the guarantee program before a deadline, among other conditions. Between 2013 and 2016, consumers bought an estimated 2.5 million subscriptions advertised with the guarantee attached; of those, only 32,438 people ever actually received the promised free extension, while close to a million were instead billed for another six months of paid service after quietly failing to meet a condition they'd never been clearly told applied to them.
@@ -20204,10 +20203,9 @@ The pattern here extends well past one dating company: any subscription service 
     author: 'ScamShield Editorial',
     tags: ['guide', 'allianz-life-data-breach'],
     sourceUrl: 'https://oag.ca.gov/system/files/ELN-24798%20Allianz%20Life%20Ins%20Adult%20CM%2024M%20CA%20r2prf.pdf',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Salesforce_Tower_2020.jpg?width=1200',
-    coverImageCredit: 'Photo: Saggittarius A, CC BY-SA 4.0, via Wikimedia Commons — Salesforce Tower in San Francisco, the CRM platform attackers vished',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Allianz.svg?width=1200',
+    coverImageCredit: 'Allianz (PD-textlogo), via Wikimedia Commons — the corporate logo of Allianz, parent of Allianz Life',
     coverImagePosition: 50,
-    // representative photo — replace with an exact match if found
     body: `Allianz Life Insurance Company of North America, the Minneapolis-based U.S. arm of the German insurer Allianz, detected unauthorized access to one of its systems on July 17, 2025, a day after the intrusion actually began. The company's early investigation found no evidence its core policy-administration network had been touched at all — the attackers hadn't broken through a firewall or exploited a software flaw. Instead, they'd gotten in the same way a growing wave of 2025 corporate breaches did: by picking up the phone. Posing as internal IT help-desk staff, the attackers talked an employee or contracted support agent into approving access inside Allianz Life's third-party, cloud-based customer relationship management system, letting them authorize a rogue data-export connection and bulk-download records the same way a legitimate integration would, without ever needing to guess a password or plant malware.
 
 Security researchers linked the intrusion to the loosely affiliated hacking network operating under names including Scattered Spider and ShinyHunters, tracked in Google's threat-intelligence reporting under the designation UNC6040. The same voice-phishing playbook — a fluent, English-speaking caller impersonating internal tech support to talk a real employee into authorizing a malicious "Data Loader" connected app inside their company's Salesforce environment — hit an estimated 20-plus organizations across Europe and the Americas in 2025, with confirmed victims including Google, Qantas, Adidas, Air France, Pandora, and LVMH-owned brands Dior, Louis Vuitton, and Tiffany & Co. Some members of the collective announced in September 2025 that they were "retiring," a claim security researchers greeted with open skepticism given how often such groups simply resurface under a new name.
@@ -20428,10 +20426,9 @@ Anyone who has been threatened by a caller demanding payment on a debt they beli
     author: 'ScamShield Editorial',
     tags: ['guide', 'davita-ransomware-breach'],
     sourceUrl: 'https://www.hipaajournal.com/davita-data-breach-settlement/',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Peritoneal_dialysis_machine.jpg?width=1200',
-    coverImageCredit: 'Photo: Ashashyou, CC BY-SA 3.0, via Wikimedia Commons — a peritoneal dialysis machine displayed at a hospital kidney-health event',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/DaVita_logo.svg?width=1200',
+    coverImageCredit: "DaVita Inc. (PD-textlogo), via Wikimedia Commons — the dialysis provider's logo",
     coverImagePosition: 50,
-    // representative photo — replace with an exact match if found
     body: `DaVita, one of the largest dialysis providers in the United States and the medical lifeline for hundreds of thousands of Americans with kidney failure, disclosed that on April 12, 2025, a ransomware group calling itself Interlock had broken into its network, stolen data, and encrypted files across parts of its systems, disrupting clinical operations at a company whose patients depend on regularly scheduled, time-sensitive treatment. Unlike a data breach limited to billing records, the intrusion reached deep into the clinical side of the business: according to DaVita's own breach notification and subsequent litigation, the exposed information for roughly 2.69 million patients included full names, contact details, Social Security numbers, health insurance information, and detailed clinical records — dialysis treatment history, lab results, and other medical data tied to a chronic, life-sustaining condition.
 
 When DaVita did not pay the ransom Interlock demanded, the group followed through on its usual pressure tactic and published an estimated 1.5 terabytes of the stolen data on its dark web leak site, making patient records that included both Social Security numbers and specific medical treatment history publicly accessible to anyone who found the listing. The breach prompted at least ten separate lawsuits from affected patients, which were consolidated into a single case, Julian Jenkins, et al. v. DaVita Inc., in the U.S. District Court for the District of Colorado, alleging negligence, breach of contract, and violations of state privacy law over DaVita's handling of the data that was stolen.
@@ -20492,10 +20489,9 @@ GUIDE_ARTICLES.push(
     author: 'ScamShield Editorial',
     tags: ['guide', 'fashion-nova-ftc-review-suppression-settlement'],
     sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2022/01/fashion-nova-will-pay-42-million-part-settlement-ftc-allegations-it-blocked-negative-reviews',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Bridal_store_-_Santee_Street,_Fashion_District,_Los_Angeles_(2011-01-08_13.12.45_by_David_Hilowitz).jpg?width=1200',
-    coverImageCredit: "Photo: David Hilowitz, CC BY 2.0, via Wikimedia Commons — a clothing storefront in LA's Fashion District",
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Fashion_Nova_Logo.svg?width=1200',
+    coverImageCredit: "Fashion Nova (PD-textlogo), via Wikimedia Commons — the company's logo",
     coverImagePosition: 50,
-    // representative photo — replace with an exact match if found
     body: `Online shoppers checking a product's star rating before buying are relying on a basic assumption: that the reviews shown reflect what actual customers experienced, good and bad. According to a Federal Trade Commission complaint announced January 25, 2022, fast-fashion retailer Fashion Nova spent nearly four years making sure that assumption didn't hold on its own website.
 
 The FTC alleged that from late 2015 through November 2019, Fashion Nova used a third-party review management platform configured to automatically publish four- and five-star reviews the moment a customer submitted one, while routing anything rated lower — the one-, two-, and three-star reviews — into a separate queue that supposedly required manual approval before it could go live. According to the complaint, Fashion Nova's staff essentially never approved that queue: hundreds of thousands of negative and critical reviews sat unpublished indefinitely, invisible to any shopper browsing the product page, while every glowing review appeared instantly. The FTC's complaint said this wasn't a technical oversight but a business practice repeated across the company's entire catalog for years, and pointed to internal examples where customers had flagged serious problems — items arriving broken, describing garments as poor quality, or reporting long delays — that never appeared anywhere on the site.
@@ -20512,10 +20508,9 @@ Consumers who believe an online retailer is hiding, deleting, or refusing to pos
     author: 'ScamShield Editorial',
     tags: ['guide', 'aci-worldwide-cfpb-settlement'],
     sourceUrl: 'https://www.consumerfinance.gov/about-us/newsroom/cfpb-takes-action-aci-worldwide-illegally-processing-2-3-billion-mortgage-payments-homeowners-did-not-authorize/',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/CFPB_Consumer_Financial_Protection_Bureau_entrance_Washington_DC_2025-02-10_11-14-45.jpg?width=1200',
-    coverImageCredit: 'Photo: G. Edward Johnson, CC BY 4.0, via Wikimedia Commons — CFPB headquarters entrance, Washington, D.C.',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/ACI_Worldwide_Universal_Payments_Corporate_Logo.svg?width=1200',
+    coverImageCredit: "ACI Worldwide (PD-textlogo), via Wikimedia Commons — the payments software company's logo",
     coverImagePosition: 50,
-    // representative photo — replace with an exact match if found
     body: `A mortgage servicer's payment system is supposed to be one of the most boring, predictable parts of a household's finances: the same amount, withdrawn on the same schedule, month after month. On April 23, 2021, that predictability broke down for hundreds of thousands of homeowners at once, not because of fraud by an outside criminal, but because of an internal mistake at a payment processor most of those homeowners had never heard of.
 
 According to a Consumer Financial Protection Bureau order issued June 27, 2023, payments technology company ACI Worldwide and its subsidiary ACI Payments were running a test of their Speedpay platform — used to process mortgage payments on behalf of Mr. Cooper (formerly known as Nationstar Mortgage), one of the country's largest mortgage servicers — when live customer account data was mistakenly submitted into the production payment system instead of a test environment. The result: ACI initiated roughly 1.4 million ACH withdrawal attempts from Mr. Cooper customers' bank accounts in a single batch, totaling approximately $2.3 billion, none of it authorized by the customers whose accounts were debited. While many of the attempted withdrawals were ultimately blocked, reversed, or never completed, the CFPB found that hundreds of thousands of transactions went through and actually drained money from nearly 500,000 homeowners' accounts, some of them withdrawing a full mortgage payment weeks or months before it was due.
@@ -20576,10 +20571,9 @@ GUIDE_ARTICLES.push(
     author: 'ScamShield Editorial',
     tags: ['guide', 'lexisnexis-risk-solutions-data-breach'],
     sourceUrl: 'https://therecord.media/lexis-nexis-breach-hundreds-thousands',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Server_Room_(22397102849).jpg?width=1200',
-    coverImageCredit: 'Photo: Carl Lender, CC BY 2.0, via Wikimedia Commons',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/LexisNexis_logo.svg?width=1200',
+    coverImageCredit: "LexisNexis (PD-textlogo), via Wikimedia Commons — the data broker's logo",
     coverImagePosition: 50,
-    // representative photo — replace with an exact match if found
     body: `Most people have never done business with LexisNexis Risk Solutions and never signed up for anything it offers, which is exactly the point: the company is a data broker, one of the background-check and identity-verification firms that banks, landlords, insurers, and debt collectors quietly pay to pull together a profile of a person before deciding whether to approve them for something. LexisNexis Risk Solutions built that profile business by compiling Social Security numbers, driver's license numbers, dates of birth, and contact details on hundreds of millions of Americans — most of whom never had a choice about being included.
 
 According to notifications the company began sending in the spring of 2025, an unauthorized party accessed data belonging to more than 364,000 people not by breaching LexisNexis Risk Solutions' own internal systems, but by getting into the company's account on GitHub, a widely used third-party platform where software developers store and manage code. LexisNexis Risk Solutions said the intrusion happened around Christmas 2024, but the company itself didn't learn about it until an unknown third party notified them on April 1, 2025 — meaning the exposed data sat in someone else's hands for more than three months before the company that was supposed to be protecting it even knew a theft had occurred. Names, phone numbers, email and postal addresses, Social Security numbers, driver's license numbers, and dates of birth were all included in what was taken.
