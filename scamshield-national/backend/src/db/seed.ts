@@ -37633,6 +37633,42 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'Montgomery County Charity Board-Member Embezzlement (Frank Lewis Brown)',
+    slug: 'alabama-montgomery-county-charity-embezzlement-frank-brown',
+    description: `Frank Lewis Brown, a Montgomery-area political consultant, sat on the board of a local nonprofit set up to help women and children affected by substance abuse and addiction, and used that position to keep county charity funding flowing to the group years after it had effectively gone defunct around 2017. Between 2018 and 2023, Brown obtained $50,000 a year — $350,000 in total — in Montgomery County Commission funding earmarked for the charity, then diverted more than two-thirds of it, $246,670, for his own personal use rather than the charity's stated mission. Alabama Attorney General Steve Marshall's office charged Brown with first-degree theft, and he pleaded guilty before a Montgomery County judge in January 2025. "Stealing from a non-profit is a despicable betrayal of public trust," Marshall said in announcing the plea. The case is a reminder that charity fraud isn't always a stranger cold-calling for donations — it can be an insider on a nonprofit's own board diverting government grant money meant for the people the charity was created to serve, and donors and grant-making bodies alike should ask for current, verifiable proof of a charity's actual program activity before continuing to fund it on reputation alone.`,
+    categorySlug: 'charity-scams',
+    country: 'US',
+    state: 'AL',
+    alertLevel: 'medium',
+    sources: ["Alabama Attorney General's Office", 'Alabama Reflector', 'WAKA 8'],
+    sourceUrl: 'https://www.alabamaag.gov/attorney-general-marshall-announces-guilty-plea-for-theft-of-charitable-funds/',
+  },
+  {
+    name: 'Financially Motivated Sextortion of Starkville Teen Walker Montgomery',
+    slug: 'mississippi-walker-montgomery-sextortion',
+    description: `In 2022, a predator posing online as another person convinced 16-year-old Walker Montgomery of Starkville, Mississippi to open a video chat and engage in a sexual encounter over Instagram, secretly recording it without his knowledge. When Montgomery ended the interaction, the predator threatened to release the recording to his family and friends unless he paid money. Under escalating pressure, Montgomery took his own life within hours of the first contact. Nigerian national Adebola Festus Adekunle was later indicted on charges including sexual exploitation of a minor resulting in death, production of child sexual abuse material, coercion and enticement of a minor, and interstate threats with intent to extort; he was arrested in Nigeria in 2023 and extradited to the United States, appearing in federal court in Oxford, Mississippi in August 2026 as part of the FBI's Operation Artemis, a surge against financially motivated sextortion rings operating out of Nigeria that have been linked to dozens of American teen suicides. The child-exploitation-resulting-in-death charge alone carries a mandatory minimum of 30 years in prison. Montgomery's death led Mississippi to criminalize sextortion and pass the Walker Montgomery Protecting Children Online Act, requiring social media platforms to add age verification and other safeguards for minors. Parents and teens should know that these schemes move fast — often from first contact to a threat within an hour — target teenage boys in particular, and that reporting to a trusted adult or law enforcement immediately, without paying and without deleting the messages, is safer than trying to handle the threat alone.`,
+    categorySlug: 'sextortion',
+    country: 'US',
+    state: 'MS',
+    alertLevel: 'critical',
+    sources: ['U.S. Department of Justice — Northern District of Mississippi', 'FBI', 'Mississippi Today', 'Magnolia Tribune'],
+    sourceUrl: 'https://www.fbi.gov/contact-us/field-offices/jackson/news/nigerian-extradited-to-the-us-after-being-indicted-for-financially-motivated-sextortion-scheme-that-caused-death-of-a-mississippi-teenager',
+  },
+  {
+    name: '"Big Bucks Bingo" Sham Charity Gambling Fraud',
+    slug: 'west-virginia-big-bucks-bingo-sham-charity-fraud',
+    description: `For years, seven Martinsburg-area residents operated bingo and raffle games in the Eastern Panhandle of West Virginia under a charity called Kids Against Drugs of W.Va., Inc., doing business as "Big Bucks Bingo," advertising the games as benefiting the Fraternal Order of Police #83 and the Berkeley County Humane Society. In reality, the operators — Brent Jackson, Steve Crites, James M. Crites, Betty Crites, Kristy Vanduzer, Larry Webster, and James R. "Jay" Crites — retained at least 90% of the more than $7 million the games generated, funneling the money into personal and business bank accounts rather than the charities named on the promotional materials. A federal grand jury in the Northern District of West Virginia indicted all seven on 15 counts of mail fraud, 18 counts of money laundering, 18 counts of illegal monetary transactions, one count of money laundering conspiracy, and one count of illegal gambling, exposing each to a maximum of 75 years in prison and over $1.5 million in fines. The case shows that a charity gambling night with a recognizable, sympathetic beneficiary printed on the flyer is not proof the money actually reaches that organization — West Virginia law requires charitable bingo and raffle operators to be registered and to file how proceeds are actually used, and donors giving through games of chance rather than a direct donation should ask the named beneficiary organization directly whether it has actually received money from the event before assuming it has.`,
+    categorySlug: 'charity-scams',
+    country: 'US',
+    state: 'WV',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office for the Northern District of West Virginia", 'WDTV', 'WHSV'],
+    sourceUrl: 'https://www.justice.gov/usao-ndwv/pr/seven-indicted-operation-sham-charity',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
