@@ -39709,6 +39709,44 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'Louis Curto Bluwyn Management Timeshare Resale Scam',
+    slug: 'nevada-curto-bluwyn-timeshare-resale-scam',
+    description: `Louis Joseph Curto III ran Bluwyn Management, LLC, a Las Vegas-based timeshare resale outfit that cold-called owners of unwanted timeshare properties between January 2013 and December 2015, falsely claiming he already had buyers lined up and just needed an upfront fee to close the sale. Victims across multiple states paid Curto thousands of dollars each based on those promises, but the promised buyers never materialized, the timeshares were never sold, and the fees were never returned. Nevada Attorney General Adam Paul Laxalt's office prosecuted the case, and Curto pleaded guilty in February 2018 to one count of securities fraud, a category B felony carrying a possible sentence of 12 to 240 months in prison and up to $500,000 in fines. The Attorney General's office said the plea "sends a message that those who engage in timeshare resale fraud will be brought to justice." Timeshare owners approached out of the blue by a company promising a ready buyer for a fee should independently verify the company's licensing and track record, get any promise in writing, and treat a demand for payment before a sale closes as a serious warning sign.`,
+    categorySlug: 'timeshare-scams',
+    country: 'US',
+    state: 'NV',
+    isHistorical: true,
+    firstRecorded: '2013-01-01',
+    sources: ['Nevada Attorney General'],
+    sourceUrl: 'https://ag.nv.gov/News/PR/2018/Attorney_General_Laxalt_Announces_Guilty_Plea_for_Multi-State_Timeshare_Resale_Scam/',
+  },
+  {
+    name: 'Woah-Tee Brothers Maryland Unemployment Insurance Fraud',
+    slug: 'maryland-woah-tee-unemployment-insurance-fraud',
+    description: `Brothers Daiwor Woah-Tee of Belcamp, Maryland and Dekwii Woah-Tee of Rosedale, Maryland used other people's stolen names, dates of birth, and Social Security numbers to file fraudulent unemployment insurance claims with the Maryland Department of Labor between March 2020 and September 2021, impersonating the real account holders to collect more than $1 million combined through the pandemic-era Pandemic Unemployment Assistance program and Federal Pandemic Unemployment Compensation. The scheme exploited the surge of unemployment claims processed during COVID-19, when expedited relief programs left less room for the state to verify each applicant's identity before releasing payments. The pair were indicted in February 2024 and arrested and arraigned in December 2024 following an investigation led by IRS Criminal Investigation. The case underscores why anyone who receives an unexpected unemployment determination letter, 1099-G tax form, or benefits debit card in their name should immediately report it to the Maryland Department of Labor's fraud unit — it usually means someone else already filed a claim using their identity.`,
+    categorySlug: 'public-benefits-fraud',
+    country: 'US',
+    state: 'MD',
+    isHistorical: true,
+    firstRecorded: '2020-03-01',
+    sources: ['IRS Criminal Investigation', 'Maryland Department of Labor'],
+    sourceUrl: 'https://www.irs.gov/compliance/criminal-investigation/two-maryland-men-indicted-for-unemployment-insurance-fraud-scheme-of-more-than-1-million',
+  },
+  {
+    name: 'Danyelle Calcagno Portland Tax Refund Identity Theft Scheme',
+    slug: 'oregon-calcagno-tax-refund-identity-theft-scheme',
+    description: `Danyelle Calcagno of Portland, Oregon filed at least 224 false federal income tax returns using the stolen names and Social Security numbers of other people — obtained both directly and through recruiters, including one in Phoenix, Arizona — fraudulently claiming a combined $1,220,246 in refunds, generally between $3,500 and $7,000 per return. To disguise where the returns were being filed from, Calcagno used internet access at Portland-area hotels, then had the IRS deposit the refunds into bank accounts and onto stored-value debit cards she controlled so the proceeds could be split up and the paper trail obscured. She pleaded guilty to conspiracy to defraud the government with respect to claims, wire fraud, and aggravated identity theft, and on February 16, 2017 was sentenced to 72 months in federal prison and ordered to pay $742,754 in restitution to the IRS. The case is a reminder that identity-based refund fraud is often discovered only when the real taxpayer's own return is rejected as a duplicate — filing early each year and monitoring for an IRS notice about an unrecognized return are two of the few ways an individual can catch this kind of theft before it compounds.`,
+    categorySlug: 'tax-scams',
+    country: 'US',
+    state: 'OR',
+    isHistorical: true,
+    sources: ['U.S. Department of Justice — Office of Public Affairs', 'Internal Revenue Service'],
+    sourceUrl: 'https://www.justice.gov/archives/opa/pr/oregon-woman-pleads-guilty-12-million-federal-income-tax-refund-fraud-scheme',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
