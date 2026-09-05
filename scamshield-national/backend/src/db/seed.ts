@@ -35630,6 +35630,40 @@ SEED_SCAMS.push(
 
 SEED_SCAMS.push(
   {
+    name: 'Ekeza Sacco / Gakuyo Real Estate Ponzi Scheme',
+    slug: 'kenya-ekeza-sacco-gakuyo-real-estate-ponzi-scheme',
+    description: `Televangelist David Kariuki Ngari, widely known as "Gakuyo," used his company Gakuyo Real Estate together with a savings and credit cooperative (sacco) he controlled, Ekeza Sacco, to solicit money from ordinary Kenyans — many of them low-income earners — with promises of affordable land and housing in Joska, Machakos County, plus a two percent monthly return through an affiliated "Gakuyo Investors Club." Members paid registration deposits of Sh10,000 to Sh20,000 to reserve two- and three-bedroom houses priced at roughly Sh1.5 million and Sh3.5 million respectively, and around 78,000 people ultimately signed up. A government-ordered audit found that between 2015 and 2018, Ngari and top managers diverted more than Sh1.05 billion (then roughly $8 million) out of the sacco's accounts and into accounts Ngari personally controlled — Sh88 million in 2015, Sh850 million in 2016, and Sh625 million in 2017 — rather than the land or houses members had paid for. Kenya's Directorate of Criminal Investigations (DCI) opened a public complaints line inviting victims to come forward, and the Sacco Societies Regulatory Authority placed Ekeza Sacco under statutory management before it ultimately folded. Ngari was charged with a dozen counts of conspiracy to defraud and obtaining money by false pretenses, pleaded not guilty, and was released on a Sh10 million cash bail as the case proceeded through Kenyan courts. The scheme remains one of Kenya's most prominent sacco-based investment frauds, and regulators point to it as a warning that a real-estate "investment club" promising a fixed monthly return, run by the same person who controls the sacco collecting the money, is a structure ordinary members have no independent way to verify from outside.`,
+    categorySlug: 'investment-fraud',
+    country: 'KE',
+    isHistorical: true,
+    firstRecorded: '2015-01-01',
+    sources: ['Directorate of Criminal Investigations (Kenya)', 'Business Daily Africa', 'The Standard (Kenya)'],
+    sourceUrl: 'https://www.dci.go.ke/investigations-misappropriation-funds-ekeza-sacco-ltd-gakuyo-real-estate-ltd-gakuyo-investors-club',
+  },
+  {
+    name: 'SIM-Swap Mobile Money Takeover Fraud',
+    slug: 'kenya-sim-swap-mpesa-mobile-money-fraud',
+    description: `Fraudsters targeting Kenya's M-Pesa mobile money network exploit the SIM-swap process — persuading or bribing a mobile network agent to reissue a victim's phone number onto a new SIM card the fraudster controls, often timed for while the real subscriber is traveling or otherwise unreachable — to seize the phone number tied to the victim's M-Pesa account and drain it before the owner can react. In one case investigated by the DCI's Cybercrime Unit, a woman returned to Kenya in December 2024 to discover her SIM card had been fraudulently swapped while she was abroad and that her M-Pesa account, which should have held roughly Sh450,500, had been almost completely emptied; detectives later traced and arrested a suspect over the theft. The pattern reflects a much larger national surge: mobile banking and mobile money fraud losses reported to the Central Bank of Kenya rose to about Ksh810 million in 2024, a 344 percent jump from 2023, and a TransUnion survey found four out of five Kenyans were targeted by some form of digital fraud in late 2024, with roughly eleven percent actually falling victim. Kenya's mobile money system lets a victim forward the M-Pesa confirmation SMS to short code 456 to request a reversal, and the DCI runs a toll-free Cybercrime Unit line (0800 722 203) for reports, but investigators stress the swap itself typically only succeeds because the fraudster has already gathered the victim's ID number and other personal details beforehand, often through a prior phishing call or a social-engineered SIM-registration trick — making it just as important to guard those details as to react quickly if a phone unexpectedly loses signal for no reason.`,
+    categorySlug: 'account-takeover',
+    country: 'KE',
+    alertLevel: 'critical',
+    sources: ['Directorate of Criminal Investigations (Kenya)', 'The Star (Kenya)', 'Capital FM Kenya'],
+    sourceUrl: 'https://www.the-star.co.ke/news/2026-06-06-dci-nets-sim-swap-fraud-suspect-in-sh450k-m-pesa-theft-probe',
+  },
+  {
+    name: '"High-Paying Overseas Job" Scam Trafficking Kenyans Into Southeast Asian Scam Compounds',
+    slug: 'kenya-overseas-job-scam-myanmar-trafficking',
+    description: `Recruitment agents and social-media job ads target Kenyan jobseekers with offers of well-paid "customer service," "data entry," or "IT support" positions in Thailand, Myanmar, Laos, or Cambodia, often promising free flights and a visa arranged entirely by the recruiter. Once applicants arrive, their passports are confiscated and they are moved across a land border — commonly into Myanmar's Karen State near the Thailand border, or into Cambodia — and forced, under threat of violence, into scam compounds where they must run online romance and cryptocurrency "pig-butchering" fraud against victims worldwide, working shifts as long as seventeen hours a day. Kenya's State Department for Diaspora Affairs says more than 750 Kenyans have been rescued from Myanmar alone since 2022, and in December 2025 it reported that 119 Kenyans had just been repatriated from Myanmar compounds following coordinated raids by Myanmar authorities and armed groups in Karen State, while 198 more Kenyans remained stranded in the region awaiting rescue; separately, between January and April 2026, 393 Kenyans were rescued from suspected scam compounds in Cambodia, with 304 subsequently returned home. Survivors have described beatings, starvation, solitary confinement, and sexual abuse, and in one case a Kisumu court awarded a trafficked woman Sh7.37 million in damages after she was forced to work up to seventeen-hour days on a cryptocurrency fraud operation in Myanmar. Kenyan investigators have repeatedly named specific recruiting agents — including Grace Eshiwani, John Njuguna, and Jane Thiong'o — as having funneled jobseekers into the pipeline, and the DCI's Transnational Organised Crime Unit says more than 87 trafficking-related cases stemming from it are currently active in Kenyan courts. Authorities warn that any overseas job offer requiring a passport handover on arrival, lacking a verifiable employer or work permit, or vague about the actual work involved should be treated as a probable trafficking pipeline rather than legitimate employment.`,
+    categorySlug: 'employment-scams',
+    country: 'KE',
+    alertLevel: 'critical',
+    sources: ['Daily Nation (Kenya)', 'Eastleigh Voice', "Kenya State Department for Diaspora Affairs"],
+    sourceUrl: 'https://nation.africa/kenya/diaspora/more-kenyans-lured-fake-overseas-jobs-asia-scammers-5545430',
+  },
+);
+
+SEED_SCAMS.push(
+  {
     name: 'Madison Timber Properties Ponzi Scheme (Arthur Lamar Adams)',
     slug: 'mississippi-madison-timber-properties-arthur-lamar-adams-ponzi',
     description: `Arthur Lamar Adams ran Madison Timber Properties, LLC out of Mississippi, telling at least 150 investors that their money would be used to buy timber rights from landowners across Alabama, Florida, and Mississippi and then resold at a markup to lumber mills, with Adams promising steady annual returns of 12 to 15 percent. According to the SEC, Madison Timber never actually secured any harvesting rights at all — Adams forged deeds, cutting agreements, and documents purporting to show the value of the underlying timber, and kept the scheme running for over a decade by paying earlier investors with money from new ones and pressuring existing investors to roll their "returns" back into new notes rather than cash out. The SEC filed a sealed fraud complaint in federal court in Jackson, Mississippi on April 20, 2018, unsealed the following month, while the U.S. Attorney's Office for the Southern District of Mississippi brought parallel criminal charges; Adams pleaded guilty on May 9, 2018 to wire fraud. On October 30, 2018, U.S. District Judge Carlton W. Reeves sentenced him to 235 months — over 19 years — in federal prison, with the court finding losses to roughly 300 investors ranging from $65 million to $150 million, making it the largest Ponzi scheme in Mississippi history. A court-appointed receiver, Alysson Mills, has spent years since pursuing recovery litigation on behalf of defrauded investors. The case is a reminder that a note promising a fixed, above-market return backed by a physical asset like timber or real estate still needs to be verified independently — through recorded deeds and county land records, not paperwork supplied only by the person selling the investment.`,
@@ -35664,6 +35698,44 @@ SEED_SCAMS.push(
     firstRecorded: '2016-08-04',
     sources: ["U.S. Attorney's Office for the District of Rhode Island", 'U.S. Securities and Exchange Commission (SEC)', 'Providence Journal'],
     sourceUrl: 'https://www.justice.gov/usao-ri/pr/financial-advisor-sentenced-operating-21m-ponzi-scheme-stealing-investors-money-tax-fraud',
+  },
+);
+
+SEED_SCAMS.push(
+  {
+    name: 'House Max Predatory Home-Buying Scheme (Kansas)',
+    slug: 'kansas-house-max-predatory-home-buying-scheme',
+    description: `House Max, an unlicensed Wyandotte County real estate company run by CEO Jason Jones and purchasing manager Herbert Brown, Jr., mailed thousands of homeowners across Wyandotte, Johnson, Leavenworth, and Miami counties personalized "checks" advertising specific cash offers to buy their homes fast, fee-free, and commission-free. Once a homeowner responded, the company allegedly reversed course, slashing the price by claiming the home needed repairs, concealing significant commissions, tacking on hidden fees, and imposing undisclosed cancellation penalties buried in one-sided contracts. According to the Kansas Attorney General's office, House Max's most aggressive tactic was recording liens against homeowners' properties that falsely asserted a legal interest in the home, clouding the title and pressuring owners into completing a sale even after they had changed their minds — on top of operating as an unlicensed real estate broker in violation of Kansas's licensing law. Attorney General Kris W. Kobach filed a consumer-protection lawsuit against House Max, Jones, and Brown on March 19, 2026, seeking a permanent injunction, civil penalties, and full restitution for affected homeowners, warning that the scheme deliberately targeted seniors and homeowners in financial distress. The case is a reminder to independently verify any unsolicited "we buy houses" offer, get an independent appraisal, and check with the state real estate commission before signing over a deed or accepting a wholesaler's cash offer.`,
+    categorySlug: 'mortgage-foreclosure-scams',
+    country: 'US',
+    state: 'KS',
+    alertLevel: 'high',
+    sources: ['Attorney General of Kansas', 'FOX4 Kansas City (KDVR/Nexstar)', 'Kansas Reflector'],
+    sourceUrl: 'https://www.ag.ks.gov/Home/Components/News/News/292/1292',
+  },
+  {
+    name: 'Trigon Group Ponzi Scheme (Daren Palmer)',
+    slug: 'idaho-trigon-group-daren-palmer-ponzi-scheme',
+    description: `Daren L. Palmer owned and ran Trigon Group, LLC out of Idaho Falls, Idaho, soliciting local clients from 2002 through December 2008 to invest their savings with him in exchange for promised favorable, safe rates of return. According to the FBI and federal prosecutors, Palmer took in approximately $75.8 million from 68 investors over that period but was already running the operation as a Ponzi scheme — using new investors' money to pay earlier ones — and concealed Trigon's deteriorating finances even as he kept soliciting new money, including a client he persuaded to invest $500,000 in September 2008 without disclosing that Trigon was already in serious financial trouble. Investors ultimately lost more than $29 million. Palmer pleaded guilty in May 2011 to wire fraud and money laundering, and in September 2011 U.S. District Judge Edward J. Lodge sentenced him in the District of Idaho to eight years in federal prison (later reduced to seven on appeal), three years of supervised release, 200 hours of community service, and restitution of $29,842,731 to his victims. The case illustrates a recurring warning sign in affinity-style investment fraud: a locally trusted operator offering steady, above-market returns to friends and neighbors while refusing to disclose independently verifiable account statements.`,
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    state: 'ID',
+    isHistorical: true,
+    firstRecorded: '2011-05-31',
+    sources: ['Federal Bureau of Investigation (FBI)', "U.S. Attorney's Office for the District of Idaho", 'Post Register', 'Ponzitracker'],
+    sourceUrl: 'https://www.fbi.gov/saltlakecity/press-releases/2011/idaho-falls-man-sentenced-in-29-million-loss-ponzi-scheme',
+  },
+  {
+    name: 'Financial Resources Mortgage Ponzi Scheme (Scott Farah)',
+    slug: 'new-hampshire-financial-resources-mortgage-farah-ponzi-scheme',
+    description: `Scott D. Farah of Meredith, New Hampshire owned Financial Resources Mortgage, Inc. (FRM), a mortgage brokerage that, together with Donald E. Dodge of Belmont and Dodge's unlicensed loan-servicing company C L and M, Inc., ran what the SEC called a massive Ponzi scheme built around a purported private lending program. Farah and FRM promised roughly 200 New Hampshire investors annual returns of 12 to 20 percent, telling them their money would be segregated and loaned out to a specific real estate construction project or business of their choosing, when in fact funds were commingled and, as underlying loans soured, used to pay off earlier investors — with some proceeds even diverted to a small church run by Farah's father. The SEC filed a fraud action in April 2010 after the scheme defrauded at least $33 million from investors; FRM collapsed in 2009 as the scheme unwound. Farah and Dodge both pleaded guilty to wire fraud (Farah also to mail fraud), and on January 19, 2011 a federal judge in Concord, New Hampshire sentenced Farah to 15 years in prison and Dodge to 6 years, followed by a final consent judgment in the SEC's civil case in February 2011. Because state securities regulators had received warning signs about FRM years before its 2009 collapse, the New Hampshire legislature voted in 2021 to allocate roughly $10 million in taxpayer funds toward compensating the scheme's victims, on top of what they recovered through restitution and bankruptcy proceedings — one of the largest Ponzi schemes in New Hampshire history.`,
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    state: 'NH',
+    isHistorical: true,
+    firstRecorded: '2010-04-01',
+    sources: ['U.S. Securities and Exchange Commission (SEC)', "U.S. Attorney's Office for the District of New Hampshire", 'NH Business Review', 'New Hampshire Public Radio (NHPR)'],
+    sourceUrl: 'https://www.sec.gov/litigation/litreleases/2011/lr21837.htm',
   },
 );
 
