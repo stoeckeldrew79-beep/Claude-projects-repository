@@ -41458,6 +41458,44 @@ SEED_SCAMS.push(
   },
 );
 
+// Ecuador (EC) had zero prior SEED_SCAMS entries — confirmed with a
+// case-insensitive grep for "Ecuador" and for country: 'EC' before adding.
+SEED_SCAMS.push(
+  {
+    name: 'Banco Pichincha Ransomware Attack and Customer Phishing Wave',
+    slug: 'ecuador-banco-pichincha-ransomware-phishing-wave',
+    description: `Over the weekend of October 9-10, 2021, Banco Pichincha — Ecuador's largest private bank, serving roughly 1.8 million customers with $4.5 billion in assets across more than 200 branches, plus operations in Peru, Colombia, and Panama — was hit by a ransomware attack that knocked ATMs offline and disabled online banking, mobile banking, and internal email for days, with the bank's own website reduced to a maintenance notice while it urged customers to stay calm rather than crowd branch lobbies. Cybersecurity researchers who reviewed indicators from the intrusion told BleepingComputer that the attackers had planted a Cobalt Strike beacon on the bank's network — the same toolkit ransomware crews routinely use to gain persistence and move laterally once inside — and the incident came eight months after a separate February 2021 breach in which a group calling itself Hotarus Corp claimed to have stolen ministry records, employee data, and internal emails (the bank said the actual point of failure was a compromised marketing-services vendor, not its own core systems). The disruption opened a second front for fraud: in the weeks that followed, criminals sent phishing emails carrying the subject line "Banca en línea suspendida" ("Online banking suspended"), telling recipients they had to complete a "validation process" to restore account access and driving them to a fake login page built to harvest credentials or plant malware, according to reporting by El Comercio. Banco Pichincha responded with repeated public warnings that its only outbound address is banco@pichincha.com, that it never emails customers from generic Gmail, Outlook, or Yahoo accounts, and that anyone unsure whether a message is genuine should ignore any link and call the bank's own verified line, (02) 299-9999, instead — a reminder that a major bank breach is often just the opening act for a wave of impersonation scams that exploit the resulting headlines and customer anxiety.`,
+    categorySlug: 'phishing',
+    country: 'EC',
+    isHistorical: true,
+    firstRecorded: '2021-10-09',
+    sources: ['BleepingComputer', 'Heimdal Security', 'El Comercio (Ecuador)'],
+    sourceUrl: 'https://www.bleepingcomputer.com/news/security/cyberattack-shuts-down-ecuadors-largest-bank-banco-pichincha/',
+  },
+  {
+    name: 'OneCoin-Branded Fake Investment Scheme (Ivonne O.)',
+    slug: 'ecuador-onecoin-branded-fake-investment-scheme',
+    description: `In 2019, a Quito woman identified in Ecuadorian court records only as Ivonne O. persuaded at least three acquaintances to hand over a combined $10,000 by pitching them on OneCoin, the fraudulent "cryptocurrency" that Bulgarian founder Ruja Ignatova had already built into a multibillion-dollar global Ponzi scheme before vanishing in 2017. Ivonne O. had no real affiliation with OneCoin's international network — Ecuador's financial regulators have never authorized OneCoin or any similar token to circulate as currency — but borrowed its name and reputation to run an entirely separate, smaller fraud of her own: after directing victims to deposit their money into a savings account that, prosecutors noted, was registered in the name of her daughter, who was eight years old at the time, she handed each victim a login code to a webpage that appeared to show their OneCoin holdings growing. When victims later tried to check on their "investment" or cash out, the page was simply gone. The Fiscalía's Patrimonio Ciudadano (citizen-assets) unit, led by prosecutor Santiago Guzmán, built an illegal-money-capture case that went to Pichincha's Tribunal de Garantías Penales, which convicted Ivonne O. on February 2, 2021, sentencing her to five years in prison, a fine of twelve basic salaries (about $4,800), and restitution of $10,000 to each of her three victims. The case shows how a globally notorious scam brand's name can be recycled years later by an unrelated local fraudster looking to borrow its credibility — and how funneling payments into a child's bank account does nothing to make an unlicensed "investment" legitimate.`,
+    categorySlug: 'investment-fraud',
+    country: 'EC',
+    isHistorical: true,
+    firstRecorded: '2019-01-01',
+    sources: ['Fiscalía General del Estado (Ecuador)', 'CriptoNoticias', 'Cointelegraph en Español'],
+    sourceUrl: 'https://www.criptonoticias.com/sucesos/cinco-anos-carcel-mujer-ecuador-estafaba-usando-nombre-onecoin/',
+  },
+  {
+    name: 'Saalda Illegal Money-Capture Scheme (Chimborazo)',
+    slug: 'ecuador-saalda-illegal-money-capture-scheme',
+    description: `Operating out of Riobamba and the neighboring canton of Guano in Ecuador's central Chimborazo province, a company called Saalda S.A. spent months collecting deposits from ordinary residents by promising monthly returns of between 12 and 200 percent, telling investors their money was being placed into stock-market trading and short-term digital-platform operations — payouts that dwarfed anything a licensed bank or credit union could legally offer, which is itself the point at which a "return" stops being plausible. By the time authorities moved, prosecutors said the scheme had taken in more than $2.4 million from at least 464 identified families. Investigators carried out eight simultaneous raids on June 6, 2025, seizing phones, computers, and investor paperwork documenting the operation. One defendant, 26-year-old Daniel Alejandro S.S., accepted responsibility under an abbreviated procedure and cooperation agreement; a Chimborazo court sentenced him on June 1, 2026, to 11 months in prison — well below the standard five-to-seven-year range Article 323 of Ecuador's Organic Integral Penal Code sets for illegal money capture, reduced because of his plea and cooperation — along with a $5,141 fine and an order to return $267,981 to the victims prosecutors were able to identify and verify. Two other suspects, described as a mother and daughter, remain fugitives with their cases suspended until they are located. The case is a reminder that a scheme's own payout math is usually the clearest warning sign: no legitimate stock-market or short-term digital investment can sustainably pay double- or triple-digit monthly returns, and by the time regulators or police catch up, restitution orders typically recover only a fraction of what victims actually lost.`,
+    categorySlug: 'investment-fraud',
+    country: 'EC',
+    isHistorical: true,
+    firstRecorded: '2025-06-06',
+    sources: ['Fiscalía General del Estado (Ecuador)', 'Metro Ecuador', 'El Diario (Ecuador)'],
+    sourceUrl: 'https://www.metroecuador.com.ec/noticias/2026/06/01/con-captacion-ilegal-de-dinero-sujeto-afecto-a-mas-de-400-familia-por-mas-de-usd-2-millones-en-ecuador/',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
