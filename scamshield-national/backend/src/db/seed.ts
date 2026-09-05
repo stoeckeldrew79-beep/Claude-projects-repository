@@ -38876,6 +38876,39 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'Arup Hong Kong Deepfake Video Conference Scam',
+    slug: 'hong-kong-arup-deepfake-video-conference-scam',
+    description: `In January 2024, an employee in the Hong Kong office of the UK-based engineering firm Arup received a message purportedly from the company's UK-based chief financial officer describing a confidential transaction that needed to be handled discreetly, according to Hong Kong police. Although the employee initially suspected the message itself was phishing, those doubts were overcome after being invited onto a video conference call where the CFO and several other colleagues appeared to be present — in reality, every participant besides the victim was a real-time deepfake built from publicly available video and audio of the real employees, reproducing their faces and voices convincingly enough to pass as a live call. Believing the instructions were genuine, the employee carried out 15 separate transfers totaling HK$200 million (about US$25.6 million) to five Hong Kong bank accounts before the fraud was discovered. At a press briefing in February 2024, Hong Kong police said it was the first case they had encountered in which a victim was deceived over a multi-person deepfake video call rather than a single spoofed voice or image, and disclosed six arrests in connection with related deepfake schemes; Arup itself was later confirmed by name as the victim company. No funds have been publicly reported as recovered and no suspects have been named specifically in the Arup case. Police and cybersecurity researchers cite the case as proof that seeing and hearing a familiar colleague on a video call is no longer reliable confirmation of their identity — any request for an urgent, confidential money transfer, even one apparently verified by video with a senior executive, should be independently confirmed through a separate contact channel obtained beforehand, not one supplied in the same message or call.`,
+    categorySlug: 'ai-deepfake-scams',
+    country: 'HK',
+    alertLevel: 'high',
+    sources: ['Hong Kong Police Force', 'South China Morning Post'],
+    sourceUrl: 'https://www.scmp.com/news/hong-kong/law-and-crime/article/3263151/uk-multinational-arup-confirmed-victim-hk200-million-deepfake-scam-used-digital-version-cfo-dupe',
+  },
+  {
+    name: 'JPEX Unlicensed Crypto Exchange Collapse',
+    slug: 'hong-kong-jpex-crypto-exchange-collapse',
+    description: `JPEX marketed itself in Hong Kong as a cryptocurrency exchange offering unusually high fixed returns — as of September 2023, advertised annual yields of up to 21% on ETH deposits, 20% on BTC, and 19% on USDT — promoted heavily through paid social media influencers, a YouTube investment personality, and a network of over-the-counter virtual-asset shops that accepted customer cash on the platform's behalf, according to Hong Kong's Securities and Futures Commission (SFC). On 13 September 2023, the SFC issued a public warning statement that JPEX was not licensed to operate a virtual asset trading platform in Hong Kong, had never approached the regulator about a licence application despite claiming otherwise in its marketing, and that its advertised yields should be treated as a red flag. Within days of the warning, JPEX began freezing customer withdrawals and imposing new fees, and Hong Kong's Commercial Crime Bureau launched a coordinated operation codenamed "Iron Gate," arresting an initial eight suspects on 18 September 2023, including social media figures who had promoted the platform to their followers. Police say more than 2,700 people reported losing a combined HK$1.6 billion (about US$206 million), making it the largest cryptocurrency collapse in Hong Kong's history; two years into the investigation, by November 2025, police had arrested a total of 80 people, formally charged 16, obtained Interpol Red Notices for three core members believed to have fled the city, and frozen roughly HK$228 million in cash, gold bars, luxury cars, and virtual assets tied to the case. The SFC points to JPEX as the clearest illustration of why an investment platform's claimed licences, celebrity or influencer endorsements, and above-market fixed returns need to be checked directly against the regulator's own public register of licensed platforms before any money is deposited, rather than taken on the strength of marketing alone.`,
+    categorySlug: 'investment-fraud',
+    country: 'HK',
+    alertLevel: 'high',
+    sources: ['Securities and Futures Commission of Hong Kong (SFC)', 'Hong Kong Police Force'],
+    sourceUrl: 'https://www.sfc.hk/en/News-and-announcements/Policy-statements-and-announcements/Statement-on-JPEX',
+  },
+  {
+    name: 'Impersonating Mainland Officials Telephone Deception Scam',
+    slug: 'hong-kong-impersonating-mainland-officials-phone-scam',
+    description: `Hong Kong's Anti-Deception Coordination Centre (ADCC), part of the police force's Commercial Crime Bureau, has for years tracked a recurring telephone fraud in which callers impersonate mainland Chinese law enforcement or government officials — commonly public security officers, prosecutors, customs officials, or staff of central government liaison offices — and tell the victim they are implicated in a serious mainland offense such as money laundering. To make the claim credible, callers walk victims through fabricated "evidence," at times forwarding fake arrest warrants or law-enforcement credentials bearing the victim's own name and photo, then direct them to transfer money into a designated "safe account," or in some variants to buy gold or hand cash to a courier in person, supposedly to "prove innocence" or assist a covert investigation, according to the ADCC's own published alerts. In the case Hong Kong police describe as the largest single loss recorded from this scam, a 70-year-old businesswoman was contacted in January 2024 by callers who, over multiple calls in which they "played different roles" as various mainland officials, convinced her she had unwittingly been involved in money laundering and persuaded her to transfer a total of HK$258 million before the fraud was discovered; police went on to arrest 10 suspects in connection with the case. ADCC figures show the scam disproportionately targets both elderly residents and mainland students newly arrived in Hong Kong: 481 such cases were reported in just the first half of 2024 alone, with combined losses of HK$88 million, and mainland students accounted for roughly a fifth of victims. Hong Kong police and the mainland authorities they cite both state plainly that no genuine law enforcement agency will ever ask a person to transfer money, buy gold or silver, or hand over cash to "facilitate an investigation" or "prove innocence" over the phone — any call making that request, however convincing the accompanying paperwork looks, should be ended immediately and reported to the police's Anti-Scam Helpline at 18222.`,
+    categorySlug: 'government-impersonation',
+    country: 'HK',
+    alertLevel: 'high',
+    sources: ['Hong Kong Police Force (Anti-Deception Coordination Centre)', 'South China Morning Post'],
+    sourceUrl: 'https://www.adcc.gov.hk/en-hk/alerts-detail/alerts-1444920525284507650.html',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
