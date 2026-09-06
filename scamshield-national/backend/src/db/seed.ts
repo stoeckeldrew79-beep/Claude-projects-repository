@@ -15350,8 +15350,8 @@ If you see a "Secret Sister," "Secret Santa," wine-exchange, or similar gift-cha
     slug: 'angler-phishing-fake-social-media-support-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'angler-phishing'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Call_Center_Agent.jpg?width=1200',
-    coverImageCredit: 'Photo: FiveOne51 (CC BY-SA 3.0)',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Person_looks_down_at_phone_(Unsplash).jpg?width=1200',
+    coverImageCredit: 'Photo: James Sutton (CC0)',
     coverImagePosition: 50,
     sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2024/07/scammers-impersonate-airline-customer-service-representatives',
     body: `Someone posts a public complaint on X, Instagram, or Facebook — a delayed flight, a wrong order, a locked account — tagging the company and asking for help. Within minutes, an account that looks like official support replies with a sympathetic message and asks them to send a DM with their booking number, order number, or account details "so we can look into this." The account has a company logo as its profile picture and a name like "@AirlineHelpDesk" or "[email protected]," but it isn't run by the company at all — it's a scammer who was watching the same public complaint, waiting to reach the customer before the real support team does. Security researchers call this "angler phishing," a reference to the way it dangles bait in front of someone who's already asking for help.
