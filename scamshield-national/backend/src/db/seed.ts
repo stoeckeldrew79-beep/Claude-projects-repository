@@ -45454,6 +45454,42 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'Operation Skip Trace Los Angeles Hospice Identity-Theft Fraud Ring',
+    slug: 'california-operation-skip-trace-hospice-fraud-ring',
+    description: `A Southern California hospice fraud ring purchased the personal identifying information of non-California residents on the dark web, used those stolen identities to fraudulently enroll the victims in Medi-Cal, and then installed "straw owners" atop 14 shell hospice companies that billed the state for end-of-life care that was never provided to anyone. California Attorney General Rob Bonta, working with the California Department of Health Care Services and the California Department of Justice, announced on April 9, 2026 that the operation — dubbed "Operation Skip Trace" — had charged 21 suspects in connection with $267 million in fraudulent hospice billing, calling it a "brazen, calculated scheme" in which "not a single legitimate hospice service was ever provided." On April 8, 2026, investigators executed search and arrest warrants at twelve locations across Southern California, arresting five suspects and seizing two handguns and more than $757,000 in cash. Defendants face charges including conspiracy to commit health care fraud, health care fraud, money laundering, and identity theft, with aggravated white-collar-crime and aggravated money-laundering enhancements attached given the scale of the loss. The case illustrates how hospice fraud can be committed entirely with stolen identities rather than real patients, meaning a Medi-Cal beneficiary might discover the fraud only after receiving a benefits statement listing hospice services under their name that they never received and never authorized. Californians who spot an unfamiliar hospice or home-health provider on a Medi-Cal or Medicare statement are urged to report it immediately to the California Department of Justice's Bureau of Medi-Cal Fraud and Elder Abuse rather than assume it is a clerical error.`,
+    categorySlug: 'healthcare-fraud',
+    country: 'US',
+    state: 'CA',
+    alertLevel: 'critical',
+    sources: ["California Office of the Attorney General", 'CNN', 'Hospice News'],
+    sourceUrl: 'https://oag.ca.gov/news/press-releases/attorney-general-bonta-dismantles-los-angeles-hospice-fraud-ring-responsible-267',
+  },
+  {
+    name: 'Unlock Partnership Solutions Unlawful Home Equity Agreement Scheme',
+    slug: 'minnesota-unlock-partnership-home-equity-agreement-scheme',
+    description: `Arizona-based fintech company Unlock Partnership Solutions, Inc. marketed "home equity agreements" to financially stretched Minnesota homeowners, advancing them a lump sum of cash in exchange for a large share of their home's future equity — an average of about 33 percent — to be repaid or redeemed within ten years, while charging homeowners an upfront cost equal to 100 to 140 percent of the advance plus a large origination fee. Minnesota Attorney General Keith Ellison alleged the roughly 86 agreements Unlock entered into with Minnesota homeowners between 2021 and 2023, with advances ranging from $30,000 to $339,500, were actually disguised mortgage loans carrying annualized interest of up to 22 percent that evaded Minnesota's licensing requirements, interest-rate protections, and mortgage-disclosure laws by being labeled something other than a loan. Ellison announced a settlement on August 7, 2026 under which Unlock, while denying the allegations, agreed to comply with Minnesota mortgage lending law going forward and to provide $944,626 in combined monetary and debt relief, including $201,050 in direct refunds to affected homeowners, roughly $460,000 in debt forgiveness, and $283,576 paid to the Attorney General's office for further restitution. The case is a reminder that a cash-advance product tied to a homeowner's equity is a mortgage loan in substance regardless of what label a company gives it, and that homeowners considering a "home equity agreement," "equity sharing," or similar cash-advance offer should have a housing counselor or attorney review the total repayment obligation — not just the upfront amount — before signing away a share of their home's value.`,
+    categorySlug: 'mortgage-foreclosure-scams',
+    country: 'US',
+    state: 'MN',
+    alertLevel: 'high',
+    sources: ["Minnesota Attorney General's Office", 'HousingWire', 'FOX 9 Minneapolis-St. Paul'],
+    sourceUrl: 'https://www.ag.state.mn.us/Office/Communications/2026/08/07_Unlock.asp',
+  },
+  {
+    name: 'Golden Qi Holdings Fake Childcare Center H-1B Visa Fraud Scheme',
+    slug: 'texas-golden-qi-holdings-h1b-visa-fraud-scheme',
+    description: `Golden Qi Holdings, LLC and its owner Yuan Yao, a citizen of the People's Republic of China, advertised childcare and autism-therapy businesses in the Dallas-Fort Worth area — including "Allen Infant Care Center" and "DFW ABA Center" — that were not licensed child-care facilities and, according to the lawsuit, did not actually operate as functioning businesses at all; a journalist who visited the listed Allen, Texas address found only an empty building and an overgrown playground rather than an operating daycare. Texas Attorney General Ken Paxton sued Yao and his network of entities in May 2026, alleging the sham businesses existed to file H-1B visa sponsorships and labor condition applications for positions such as software developer, business intelligence analyst, financial analyst, and web developer — jobs the fake childcare centers had no genuine need for — with the entities collectively sponsoring at least 37 H-1B workers and filing more than 50 labor condition applications with the federal government. The lawsuit alleges the scheme let Yao sell sponsorship of these fabricated positions, exploiting foreign nationals seeking a path to lawful U.S. work status through a program that requires a real job to actually exist. When confronted on camera about the discrepancy between the advertised businesses and the empty properties, Yao said only, "I only can tell you, everything is legal," and directed questions to his attorney. Texas is seeking injunctions barring the defendants from continuing to advertise childcare services or sponsor H-1B visas tied to the addresses in question, along with civil penalties of up to $10,000 per violation of the Texas Deceptive Trade Practices Act and additional penalties under the Texas Human Resources Code. The case is a reminder that a visa sponsorship built on a business with no real operations or premises is not a legitimate path to lawful work status, and that workers being recruited through an unfamiliar U.S. sponsor should independently verify the business actually operates at its listed address before paying anyone or relying on the sponsorship.`,
+    categorySlug: 'employment-scams',
+    country: 'US',
+    state: 'TX',
+    alertLevel: 'high',
+    sources: ["Texas Office of the Attorney General", 'Dallas Express', 'Dallas Morning News'],
+    sourceUrl: 'https://www.texasattorneygeneral.gov/news/releases/attorney-general-ken-paxton-sues-north-texas-company-owned-chinese-national-advertising-fake',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
