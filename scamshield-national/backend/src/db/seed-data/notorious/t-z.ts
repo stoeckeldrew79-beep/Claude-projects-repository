@@ -1344,4 +1344,44 @@ Wang arrived in Los Angeles on an ROC passport on January 13, 2007; two days lat
 
 Wang never faced trial. He was killed on May 27, 2016, in a multi-vehicle crash on a highway in West Covina, California, reportedly while traveling to prepare for his daughter's wedding; his ashes were later returned to Taiwan. His death closed the case without ever producing a verdict on the specific embezzlement and insider-trading charges against him, leaving the Rebar collapse as a lasting illustration of how a family-run conglomerate's in-house bank can be quietly drained to cover a parent company's losses — and of how a fugitive with enough resources, and a home government with few extradition partners, can outlast the very case built to hold him accountable.`,
   },
+  {
+    title: "Zhang Xiaolei and the $10 Billion Qbao 'Complete a Task, Earn a Return' Ponzi Scheme",
+    slug: 'zhang-xiaolei-qbao-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.scmp.com/business/companies/article/3015537/zhang-xiaolei-founder-chinese-fintech-firm-qbao-serve-15-year',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Nanjing_Skyline.jpg?width=1200',
+    coverImageCredit: 'Photo: _大面, Wikimedia Commons (CC BY-SA 2.5) — Nanjing, the city where Zhang Xiaolei built Qbao.com',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    body: `Zhang Xiaolei was already a known fraudster in Nanjing well before he became a national cautionary tale. In 2003, China's state Xinhua news agency reported he had been accused of embezzling 4.2 million yuan from investors by fabricating a contract with a South American football club to send Chinese teenagers abroad for soccer training — a scheme he settled by paying the money back without a formal conviction. Nearly a decade later, in 2012, he re-emerged in Nanjing as the "forthright, trustworthy" founder of Qbao.com, an online finance platform that would go on to defraud investors on a scale thousands of times larger than his first scheme.
+
+Qbao's pitch dressed a Ponzi scheme up as a gig-economy app: users who deposited money were told they could boost their annualized returns — up to 60%, with even higher figures dangled to prospective investors — by logging in daily to "complete tasks" like clicking on advertisements and filling out questionnaires. Behind that veneer of active participation, the platform functioned exactly like any other Ponzi structure, using new deposits to pay off earlier investors while Zhang built out roughly twenty affiliated operating companies spanning e-commerce, real estate, youth soccer academies, and bike-sharing — a sprawling corporate footprint that made Qbao look like a diversified conglomerate rather than a single unsustainable cash pipeline.
+
+For a period, the strategy worked spectacularly: Qbao became a state-media darling, celebrated in Chinese press as a homegrown fintech success story, and pulled in at least 50 billion yuan (roughly $7.25 billion) by court estimates, with some reporting putting Zhang's total illegal fundraising as high as 70 billion yuan, or about $10 billion. The music stopped in December 2017, when Qbao could no longer meet its payout obligations; hundreds of investors gathered in freezing conditions outside provincial government offices in Nanjing to demand action, and on December 28, 2017, Zhang turned himself in to police rather than wait to be caught.
+
+The Nanjing Intermediate People's Court convicted Zhang of financial fraud and illegal fundraising and, on June 21, 2019, sentenced him to 15 years in prison and ordered the confiscation of 100 million yuan of his personal assets. Zhang pleaded guilty and told the court he would not appeal — an unusually clean ending, at least procedurally, for a case that had drawn in ordinary Chinese savers with promises that logging in and clicking ads each day was a legitimate way to get rich.
+
+Qbao's "daily task" gimmick is a reminder that a Ponzi scheme doesn't need a sophisticated cover story to work — it just needs to give depositors something to do that feels like earning, rather than simply waiting, while the platform quietly spends their principal paying off the investors who got in earlier.`,
+  },
+  {
+    title: "Zhang Tianming and the $14.5 Billion Shanxinhui 'Poverty Alleviation' Pyramid Scheme",
+    slug: 'zhang-tianming-shanxinhui-pyramid-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.scmp.com/news/china/society/article/2178084/founder-us145-billion-chinese-pyramid-scheme-shanxinhui-jailed-17',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/A_spectacular_view_of_Shenzhen_Skyline.jpg?width=1200',
+    coverImageCredit: 'Photo: Wishds, Wikimedia Commons (CC BY-SA 3.0) — Shenzhen, where Zhang Tianming registered the Shanxinhui company in 2013',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    body: `Zhang Tianming registered Shenzhen Shanxinhui Culture Communication Co. — "Shanxinhui" translates roughly as "Kindness Exchange" — in Shenzhen, Guangdong province, in May 2013, and built it into one of the largest pyramid schemes ever documented anywhere in the world. Rather than pitching itself as an investment fund, Shanxinhui marketed itself as a "patriotic investment charity" devoted to poverty alleviation and spreading government-endorsed "positive energy" culture, wrapping a straightforward pyramid structure in language that made questioning it feel almost unpatriotic.
+
+The mechanics underneath that framing were conventional: Shanxinhui offered investors extraordinary short-term returns — as much as 50% within seven to ten days on small deposits, or roughly 10% on larger ones — funded not by any real charitable or business activity but by the deposits of newer participants. It worked at a staggering scale: authorities said nearly 6 million people nationwide put money into the scheme, and the total funds involved reached more than 100 billion yuan, or roughly $14.5 billion, generating an estimated 2.2 billion yuan in profits for its organizers before it collapsed.
+
+What set Shanxinhui apart from most Ponzi collapses was what happened when Chinese authorities moved against it. After Zhang's arrest in July 2017, tens of thousands of his own investors and supporters — estimates cited by Hong Kong media ran as high as 60,000 — gathered outside a Beijing exhibition center and the Supreme People's Procuratorate, waving Chinese flags, singing the national anthem, and demanding Zhang's release rather than accepting that the scheme they had believed in was a fraud. Prosecutors later added a charge of inciting a mob to create a public disturbance, saying Zhang had orchestrated some of the unrest himself in the days before his arrest.
+
+The Shuangpai People's Court in Hunan province convicted Zhang on charges including leading a multi-level marketing scheme and inciting public disorder, sentencing him on December 14, 2018, to 17 years in prison along with a 100 million yuan fine; nine of his employees received separate terms ranging from 18 months to 10 years for their roles in running the operation.
+
+Shanxinhui's scale and its supporters' street protests make it one of the starkest illustrations of how a Ponzi scheme dressed in the language of charity and patriotism can inspire loyalty even after the fraud is exposed — turning the very people it defrauded into a defense force for the man who took their money.`,
+  },
 );
