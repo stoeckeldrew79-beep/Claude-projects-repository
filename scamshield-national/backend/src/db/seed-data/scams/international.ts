@@ -8879,3 +8879,36 @@ International.push(
     country: 'UZ',
   },
 );
+
+International.push(
+  {
+    name: 'Facebook "No-Guarantor" Loan Advance-Fee Scam',
+    slug: 'mongolia-facebook-no-guarantor-loan-advance-fee-scam',
+    description: `Scammers post comments and ads on Facebook, Mongolia's dominant social platform, offering low-interest personal loans that require no guarantor and almost no paperwork — an appealing pitch in a country where formal bank loans are often slow and collateral-heavy. A victim who responds is told the loan is approved and just needs a "processing fee," commonly cited around $120, sent by Western Union before the first installment can be released; once that payment clears, the "lender" invents another fee, then another, each time promising the loan money is coming next. Global Press Journal documented one Ulaanbaatar victim who ended up wiring four separate payments over just a few days, totaling roughly $1,000 — more than twice the average Mongolian monthly salary at the time — before realizing no loan would ever arrive and the contact had gone silent. Mongolian police say this kind of online fraud has exploded alongside the country's fast-growing internet access, with registered electronic-fraud cases climbing from just 17 in 2015 to 6,759 in the first ten months of 2022 alone, and criminologists note the real number is almost certainly far higher because embarrassed victims frequently do not report losses they blame on their own judgment. Consumers are advised to treat any loan offer requiring an upfront "processing," "insurance," or "release" fee paid by wire transfer as a scam regardless of how official the paperwork looks, since a legitimate lender deducts fees from the loan proceeds rather than demanding cash before disbursing anything, and to apply only through a bank or licensed lender whose registration can be verified independently.`,
+    categorySlug: 'debt-relief-scams',
+    alertLevel: 'high',
+    sources: ['Global Press Journal', 'Mongolian National Police Agency'],
+    sourceUrl: 'https://globalpressjournal.com/asia/mongolia/scams-skyrocket-mongolia-goes-online/',
+    country: 'MN',
+  },
+  {
+    name: 'Hacked Facebook Account "Urgent Money" Impersonation Scam',
+    slug: 'mongolia-hacked-facebook-account-urgent-money-scam',
+    description: `Fraudsters take over a Mongolian Facebook user's account — typically through a phishing link or fake login page — then spend time quietly reading through the account's message history and friend list to learn who the real owner trusts and how they normally talk. Once the criminal has a convincing picture of those relationships, they message the victim's close friends and family from the compromised account itself, posing as the account owner and inventing an urgent reason money is needed immediately — a hospital bill, a fine, or funds stuck at a border crossing — and asking for a quick mobile-banking or money-transfer payment before the "problem" gets worse. Because the request arrives from a real, familiar account rather than a stranger, and mimics that person's usual writing style, recipients frequently pay before ever attempting to call and confirm the story by phone. Global Press Journal reported this hacked-account pattern as one of the most common fraud types driving Mongolia's scam surge, with Mongolian police recording a more than 50% jump in scam complaints between 2021 and 2022 alone, and criminologist Oyunbold Ganchuluun noting that actual case numbers likely far exceed official statistics since many victims never report losses at all. Consumers are advised to always verify an urgent money request from a friend or relative through a separate channel — a phone call or a video chat — before sending anything, to enable two-factor authentication on Facebook to make accounts harder to hijack in the first place, and to warn contacts immediately if their own account is compromised so a hijacker cannot use it against people who trust them.`,
+    categorySlug: 'account-takeover',
+    alertLevel: 'high',
+    sources: ['Global Press Journal', 'Mongolian National Police Agency'],
+    sourceUrl: 'https://globalpressjournal.com/asia/mongolia/scams-skyrocket-mongolia-goes-online/',
+    country: 'MN',
+  },
+  {
+    name: 'Fake Texas State Securities Board Crypto "Consent Fee" Refund Scam',
+    slug: 'mongolia-fake-texas-securities-board-crypto-refund-scam',
+    description: `People in Mongolia who already lost money to a cryptocurrency scam have been targeted a second time by fraudsters impersonating the Texas State Securities Board (SSB), a real US state financial regulator, who falsely claim the agency is compensating international victims of crypto fraud and can get their money back. The scammers build a convincing package of fake documentation — forged reimbursement and "refund request" forms bearing the Texas state seal and the agency's real mailing address, screenshots lifted from the SSB's actual website, and emails spoofed to look like they come from the agency — then tell the victim that to register their claim and receive reimbursement, they must first pay a "consent fee" of $150. Victims are instructed to send that fee not by check or bank transfer but in Tether (USDT), a cryptocurrency stablecoin, to wallet addresses on the Ethereum and TRON networks, which lets the money move instantly and irreversibly beyond any hope of recovery. The Texas State Securities Board publicly confirmed on February 17, 2023 that it has no connection to these communications, that it never charges a fee of any kind to process a complaint or return funds to a victim, and that it does not solicit payment in cryptocurrency under any circumstances. Anyone contacted by an entity claiming to be a government regulator that requires an upfront fee, especially one paid in crypto, to release a "refund" is advised to stop all contact immediately and confirm the claim only through that regulator's official phone number or website looked up independently — never through a link or number provided in the message — since no legitimate securities regulator will ever ask a fraud victim to pay to get their own money back.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Texas State Securities Board'],
+    sourceUrl: 'https://ssb.texas.gov/news-publications/securities-commissioner-warns-mongolian-victims-advance-fee-and-imposter-scheme',
+    country: 'MN',
+  },
+);
