@@ -3486,4 +3486,15 @@ export const UsGM: SeedScam[] = [
     country: 'US',
     state: 'KS',
   },
+  {
+    name: 'Minnesota Door-to-Door Pest-Control Scam',
+    slug: 'minnesota-door-to-door-pest-control-scam',
+    description: `Minnesota Attorney General Keith Ellison warned residents on July 3, 2025 about door-to-door pest-control salespeople using high-pressure tactics that intensify every summer as sales crews move neighborhood to neighborhood. Ellison's office said common tactics include claiming a "special" or "exclusive" deal is only available to the specific neighborhood being canvassed that day, pressuring a homeowner to sign on the spot before they can compare prices or read the contract, and burying hidden fees, steep early-cancellation penalties, and automatically renewing service terms in fine print the salesperson never mentions out loud. "Some scammers are out there trying to pressure you into buying pest-control services," Ellison's office warned, services a homeowner may not actually need or that end up costing far more than advertised. Minnesota law gives most door-to-door buyers a three-business-day "cooling off" period to cancel a contract signed at home without penalty, and some cities require peddlers to register locally before going door to door — a step homeowners can ask to see proof of before letting anyone in. The Attorney General's office recommends never signing a pest-control contract on the spot, reading every clause covering price, renewal, and cancellation before agreeing to anything, checking a company's reputation independently through the Better Business Bureau, and filing a complaint with the Attorney General's office at (651) 296-3353 or 1-800-657-3787 if a company won't honor the cancellation period or misrepresented its terms.`,
+    categorySlug: 'subscription-traps',
+    alertLevel: 'medium',
+    sources: ["Minnesota Attorney General's Office (Keith Ellison)"],
+    sourceUrl: 'https://www.ag.state.mn.us/Office/Communications/2025/07/03_Pest-Control-Scams.asp',
+    country: 'US',
+    state: 'MN',
+  },
 ];
