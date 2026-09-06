@@ -8626,6 +8626,36 @@ Egypt's Ministry of Interior announced on February 24, 2025, that it had arreste
     sourceUrl: 'https://www.banreservas.com/articulos/smishing-que-es-y-como-evitar-estafas-bancarias/',
     country: 'DO',
   },
+  {
+    name: 'Guatemalan "Virtual Kidnapping" Extortion Calls',
+    slug: 'guatemala-virtual-kidnapping-extortion-calls',
+    description: `Guatemala's Ministerio Público (Public Prosecutor's Office) logged 183 "virtual kidnapping" extortion complaints in just the first four-plus months of 2026 — an average of roughly 10 a week — continuing a sharp rise from 157 cases in all of 2024 to 345 in 2025. Callers, often claiming to be members of the Jalisco New Generation Cartel or another outside criminal group, contact a target by phone or social media, psychologically isolate them, and pressure the person's relatives to wire money through mobile banking or send cash via an ATM to save a loved one who is falsely claimed to be in immediate danger, keeping the victim on the line under constant intimidation until the family confirms a payment has gone through. Former prosecutor and security analyst Edgar Morales has traced the tactic's spread to South American criminal networks now copied by local operators, and retired senior police official Helver Beltetón has noted that many victims never file a formal complaint at all, "fearing that payment will not guarantee safety." Police urge anyone who receives such a call to hang up immediately, independently contact the supposedly endangered relative through a different channel before sending anything, and report the incident to the nearest police station rather than negotiating with the caller.`,
+    categorySlug: 'family-emergency-scams',
+    alertLevel: 'critical',
+    sources: ["Guatemala's Ministerio Público", 'The Tico Times'],
+    sourceUrl: 'https://ticotimes.net/2026/05/13/guatemala-reports-sharp-increase-in-virtual-kidnappings',
+    country: 'GT',
+  },
+  {
+    name: 'Fake SAT "25% Discount" Vehicle Tax Phishing Scam',
+    slug: 'guatemala-fake-sat-vehicle-tax-discount-scam',
+    description: `In July 2026, just ahead of the July 31 deadline to pay Guatemala's annual vehicle circulation tax (Impuesto de Circulación), posts began circulating on social media impersonating the Superintendencia de Administración Tributaria (SAT), Guatemala's tax authority, and advertising a fake 25% discount using a promotional code, "SAT25CONTIGO." The posts direct vehicle owners to fill out what looks like an official SAT-4091 payment form, capturing full names, email addresses, birthdates, phone numbers, national ID (CUI) numbers, and banking details before redirecting to a fraudulent look-alike site. SAT confirmed the promotion was entirely fabricated, stating plainly that "the institution does not promote any discount campaigns related to circulation tax," and pointed out that a genuine SAT-4091 form can only ever be generated through its own official platforms, Agencia Virtual and Declaraguate. Guatemalans are advised to ignore any social media promotion offering a tax discount, never enter personal or banking information into a form reached through a shared link, and generate or pay circulation-tax forms only directly through SAT's own Agencia Virtual or Declaraguate portals.`,
+    categorySlug: 'tax-scams',
+    alertLevel: 'high',
+    sources: ['Superintendencia de Administración Tributaria (SAT)', 'Prensa Libre'],
+    sourceUrl: 'https://www.prensalibre.com/guatemala/comunitario/estafadores-usan-la-identidad-de-la-sat-para-ofrecer-un-falso-descuento-del-25-en-el-impuesto-de-circulacion-de-vehiculos/',
+    country: 'GT',
+  },
+  {
+    name: 'Fake U.S. Work Visa Job-Placement Scam',
+    slug: 'guatemala-fake-us-work-visa-scam',
+    description: `Guatemala's Ministry of Labor (Mintrab) received 330 fraud reports tied to supposed jobs abroad through August 2025 alone, part of a longer surge that saw complaints climb from just 89 in 2019 to 798 in 2024 and 731 more in 2025, totaling 2,869 reported cases between 2019 and mid-2026. Fraudulent recruiters — some posing as legitimate migration agencies and even staging videocalls with people impersonating U.S. officials — advertise well-paying jobs or fast-tracked labor visas to the United States, then charge victims for flights, lodging, "processing," or visa-facilitation fees that Guatemalan law does not actually allow any recruiter to charge, since only a Guatemalan passport and the embassy's own visa fee are ever legitimate costs. In a case made public in August 2026, police in Chiquimulilla, Santa Rosa arrested a 39-year-old woman identified as "Wendy N.," accused of leading a network that used forged documents and fake visa-processing videocalls to defraud dozens of victims out of more than Q1 million (about $128,000), with investigators noting that similar networks have taken victims for as much as Q2 million in past cases. Mintrab maintains a public online registry of 53 legally authorized recruiting agencies and advises anyone offered a foreign job or work visa to verify the recruiter against that list before paying anything, since a legitimate employer or embassy never requires payment for recruitment, advertising, training, or "processing" services.`,
+    categorySlug: 'employment-scams',
+    alertLevel: 'high',
+    sources: ['Ministry of Labor of Guatemala (Mintrab)', 'Prensa Libre', 'Infobae'],
+    sourceUrl: 'https://www.prensalibre.com/economia/empleo-en-el-extranjero-senales-de-estafa-y-como-verificar-si-una-empresa-esta-registrada-en-el-mintrab/',
+    country: 'GT',
+  },
 ];
 
 International.push(
