@@ -5548,4 +5548,15 @@ export const UsAF: SeedScam[] = [
     country: 'US',
     state: 'VT',
   },
+  {
+    name: 'DC Water Technician Impersonation Scam',
+    slug: 'dc-water-technician-impersonation-scam',
+    description: `The Office of the D.C. Attorney General, working with DC Water, warned District residents about scammers calling and claiming to be DC Water technicians who tell the resident that staff will be coming to their home to "check on the quality of their water." No such calls or unsolicited home visits are being made by DC Water — the utility does not send technicians to investigate high water usage or test water quality unless the customer has specifically requested the service. The scam is designed to get a fraudulent "technician" through the front door, after which the resident's home and belongings, or personal and financial information volunteered during the visit, become the real target. DC Water notes that any genuine employee carries a DC Water and Sewer Authority photo identification card, which residents should ask to see and can verify by calling the utility directly using a number they look up themselves rather than one the caller provides. Anyone who receives a call like this is urged to hang up without sharing personal information or granting home access, and to report the call to DC Water at 202-354-3724 or to the Office of the Attorney General's Office of Consumer Protection at 202-442-9828.`,
+    categorySlug: 'utility-scams',
+    alertLevel: 'medium',
+    sources: ['Office of the D.C. Attorney General (Brian Schwalb)', 'DC Water'],
+    sourceUrl: 'https://oag.dc.gov/blog/consumer-alert-dc-water-scam',
+    country: 'US',
+    state: 'DC',
+  },
 ];
