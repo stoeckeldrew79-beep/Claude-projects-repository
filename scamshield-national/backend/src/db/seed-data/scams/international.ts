@@ -8656,6 +8656,36 @@ Egypt's Ministry of Interior announced on February 24, 2025, that it had arreste
     sourceUrl: 'https://www.prensalibre.com/economia/empleo-en-el-extranjero-senales-de-estafa-y-como-verificar-si-una-empresa-esta-registrada-en-el-mintrab/',
     country: 'GT',
   },
+  {
+    name: 'Golden Triangle Fake Job Ad Trafficking-to-Scam-Compound Pipeline',
+    slug: 'laos-golden-triangle-fake-job-trafficking-scam-compound',
+    description: `Recruiters advertise well-paid "customer service," "IT," or "casino" jobs in Thailand or China on Facebook and Telegram, then arrange travel that actually ends at the Golden Triangle Special Economic Zone (GTSEZ) in Laos's Bokeo province, a lawless Chinese-run enclave on the Mekong River where new arrivals have their passports confiscated and are forced, under threat of violence, to work inside compounds running online "pig-butchering" romance-investment fraud and illegal gambling operations against victims worldwide. In August 2024, Lao security forces raided the GTSEZ's Kings Romans casino complex and arrested 771 people from 15 Asian and African countries, seizing more than 700 desktop computers, sat phones, and equipment used to run scam call centers, and the zone's own management board publicly ordered all businesses there to halt online-scam activity immediately. The US Institute of Peace and other researchers estimate the broader network of scam compounds across the Mekong region — including the Lao zone — holds hundreds of thousands of trafficked workers and generates tens of billions of dollars a year, with reporting from Radio Free Asia and the Shan Herald Agency for News describing operators simply relocating staff to smaller rented houses nearby whenever a crackdown intensifies rather than shutting down. Jobseekers are advised to independently verify any overseas job offer directly with the hiring company through its official channels before traveling, to be especially wary of recruiters who arrange the trip themselves or discourage independent contact with the employer, and to treat any job that requires surrendering a passport on arrival as a certain sign of trafficking rather than employment.`,
+    categorySlug: 'employment-scams',
+    alertLevel: 'critical',
+    sources: ['Lao News Agency (KPL)', 'The Diplomat', 'Radio Free Asia', 'Shan Herald Agency for News'],
+    sourceUrl: 'https://thediplomat.com/2024/08/laos-issues-ultimatum-to-golden-triangle-scam-operators/',
+    country: 'LA',
+  },
+  {
+    name: 'Fake Six-Number Lottery Scam on WhatsApp and Facebook',
+    slug: 'laos-fake-whatsapp-facebook-lottery-scam',
+    description: `Scammers running accounts on WhatsApp and Facebook, Laos's most widely used social platforms, advertise a six-number lottery draw promising a jackpot of LAK 400 million (about $18,600) to anyone who picks the winning combination for an entry fee of just LAK 1,000. After a target "wins," the operators say the payout can only be released once the winner first pays a series of processing charges — a claims fee, a tax, a transfer fee — and each payment made only produces a new fee rather than any prize money. When victims finally try to reach the organizers to demand their winnings after the official draw results are announced, the chat lines and phone numbers provided go dead, and the accounts that ran the promotion disappear entirely. The Laotian Times, which documented the scheme in April 2024, reported that authorities and consumer advocates in Laos have flagged the fake-lottery format as one of the most common online frauds spreading through the country's WhatsApp and Facebook user base, and provincial authorities in northern Laos issued fresh public warnings in 2025 about a continuing surge in similar online lottery and prize scams. Consumers are advised to treat any social-media lottery that requires payment before a prize can be released as fraudulent, since no legitimate lottery ever charges winners a fee to collect money they have already won, and to verify any prize claim only through the official operator of a real, licensed lottery.`,
+    categorySlug: 'lottery-sweepstakes-scams',
+    alertLevel: 'high',
+    sources: ['Laotian Times'],
+    sourceUrl: 'https://laotiantimes.com/2024/04/26/scammers-prey-on-whatsapp-facebook-users-with-fake-lottery-offers/',
+    country: 'LA',
+  },
+  {
+    name: 'Vientiane Rental-Compound Online Investment Fraud Dens',
+    slug: 'laos-vientiane-rental-compound-investment-fraud-dens',
+    description: `Beyond the better-known Golden Triangle zone, syndicates have set up scam call centers inside ordinary rented buildings in and around Vientiane itself, staffing them with trafficked and locally recruited workers who run online investment and romance fraud, along with illegal gambling platforms, targeting victims abroad rather than local residents. On 18 July 2026, Lao police raided a compound run by ST Vegas Company in Dongphosy village, Hadxaifong District, detaining 589 suspects — including 373 Thai and 199 Lao nationals — and seizing close to 10,000 desktop computers, laptops, and phones for forensic examination; further raids through the summer hit additional Vientiane-area networks, including 122 suspects arrested on 14 July and 63 more on 4 August, part of what the Laotian Times reported as more than 4,400 cybercrime-related arrests across Laos in the first half of 2026 alone. Laos's government issued a public warning in July 2026 urging citizens and businesses not to rent property to, do business with, or otherwise engage with these scam and illegal-gambling networks, while the Chinese Commerce Chamber in Laos separately urged its own member businesses to cut ties with any operation suspected of running fraud. Anyone contacted online by an unfamiliar "investment manager" or romantic interest urging them to move money into an unfamiliar trading platform is advised to independently verify the platform's licensing with a real financial regulator before sending anything, and to be skeptical of any relationship that develops quickly online before pivoting to investment advice.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ['Laotian Times'],
+    sourceUrl: 'https://laotiantimes.com/2026/07/21/laos-warns-public-businesses-not-to-engage-with-scam-gambling-networks',
+    country: 'LA',
+  },
 ];
 
 International.push(
