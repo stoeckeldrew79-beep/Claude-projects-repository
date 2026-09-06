@@ -3307,4 +3307,15 @@ export const UsNS: SeedScam[] = [
     country: "US",
     state: "NC",
   },
+  {
+    name: 'Oklahoma "Unpaid Traffic Ticket" DPS/OHP Impersonation Text Scam',
+    slug: 'oklahoma-dps-ohp-traffic-ticket-texting-scam',
+    description: `Oklahoma Attorney General Gentner Drummond warned residents in March 2026 about a wave of text messages falsely claiming to come from the Department of Public Safety or the Oklahoma Highway Patrol, telling recipients they have an unresolved traffic ticket and must pay immediately through a link in the message or risk having their driver's license suspended. The texts are designed to look official, but Drummond's office and the Department of Public Safety confirmed that neither DPS nor OHP collects payment for traffic violations by text message — fines for traffic citations are handled through the county court clerk's office where the ticket was issued, never through a text link. Anyone clicking the link risks having personal and financial information harvested by scammers. Drummond's office advised Oklahomans who receive one of these messages not to click any links or reply, to delete the text, and to report it by emailing ConsumerProtection@oag.ok.gov with "Complaint" in the subject line; anyone unsure whether a ticket is genuinely outstanding should contact their county court clerk directly rather than use any number or link provided in the text.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ["Oklahoma Attorney General's Office", 'KFOR', 'KSWO'],
+    sourceUrl: 'https://oklahoma.gov/oag/news/newsroom/2026/march/drummond-warns-consumers-about-traffic-ticket-texting-scam.html',
+    country: 'US',
+    state: 'OK',
+  },
 ];
