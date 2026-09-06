@@ -509,6 +509,7 @@ export const UsGM: SeedScam[] = [
     alertLevel: 'high',
     sources: ['Mississippi Department of Banking and Consumer Finance (DBCF)'],
     sourceUrl: 'https://dbcf.ms.gov/alerts/',
+    state: 'MS',
   },
 {
     name: 'Kentucky Vital Records Third-Party Overcharge Website',
@@ -3451,5 +3452,16 @@ export const UsGM: SeedScam[] = [
     sourceUrl: "https://www.iowaattorneygeneral.gov/for-consumers/alert-text-messages-claiming-locked-ebt-cards-are-a-scam",
     country: "US",
     state: "IA",
+  },
+  {
+    name: 'Indianapolis Travel Insurance Claims Fraud Kickback Scheme',
+    slug: 'indiana-travel-insurance-claims-fraud-kickback-scheme',
+    description: `Jennifer Fleener, a case-management supervisor and claims handler at a Houston-based travel insurer's Indianapolis division, used her inside knowledge of the company's policy-issuance and claims-processing procedures to run a kickback scheme that submitted 441 fraudulent travel-insurance claims between 2016 and 2021, causing more than $1.2 million in losses. Fleener recruited seven other central Indiana residents — including her husband, Mike Fleener — to file bogus claims for trips and medical incidents that never happened, splitting the payouts as kickbacks once the claims were approved. All eight defendants pleaded guilty to conspiracy to commit mail and wire fraud; Jennifer Fleener was sentenced to 57 months in federal prison and Mike Fleener to 48 months, with the remaining defendants receiving a mix of shorter prison terms and probation following an FBI Indianapolis investigation. The case is a reminder that travel-insurance fraud inflates costs for every policyholder and can be run from inside the very company processing the claims, not just by outside applicants.`,
+    categorySlug: 'insurance-fraud',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office for the Southern District of Indiana", 'FBI Indianapolis'],
+    sourceUrl: 'https://www.justice.gov/usao-sdin/pr/eight-sentenced-federal-prison-12-million-travel-insurance-fraud-scheme',
+    country: 'US',
+    state: 'IN',
   },
 ];
