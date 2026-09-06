@@ -8596,6 +8596,36 @@ Egypt's Ministry of Interior announced on February 24, 2025, that it had arreste
     sourceUrl: 'https://dknews.kz/en/articles-in-english/374933-digital-fraud-in-kazakhstan-new-data-key-schemes-and',
     country: 'KZ',
   },
+  {
+    name: 'Dominican Republic Grandparent Scam Call Centers',
+    slug: 'dominican-republic-grandparent-scam-call-centers',
+    description: `Call centers operating openly in the Dominican Republic have run large-scale "grandparent scams" targeting elderly Americans, using commercial telemarketing software and victim lists reportedly sourced from the dark web to organize thousands of calls. An "opener" employee calls posing as a panicked grandchild who has just been in a car accident or arrested, and a "closer" then gets on the line pretending to be that grandchild's attorney or a bail bondsman, demanding cash immediately and instructing the victim not to tell any other family member. U.S. prosecutors say one such network, run from Santiago and led by Oscar Manuel Castanos Garcia, defrauded more than 400 victims — with an average age of 84 — out of over $5 million, concentrated among seniors in New Jersey, New York, Pennsylvania, and Massachusetts, with victims often told to hand cash directly to a rideshare driver or courier sent to their home. Thirteen people were indicted in May 2024, and several Dominican nationals, including Castanos Garcia, were later arrested in the Dominican Republic and extradited to face charges, with multiple guilty pleas since. Families are advised to hang up and independently call the grandchild or another relative on a number they already have — never one the caller provides — before sending any money, since a real emergency will hold up under a callback in a way a scripted, urgent call from an unfamiliar number will not.`,
+    categorySlug: 'grandparent-scams',
+    alertLevel: 'critical',
+    sources: ['U.S. Department of Justice (District of Massachusetts)', 'Dominican Today'],
+    sourceUrl: 'https://www.justice.gov/usao-ma/pr/four-dominican-men-extradited-united-states-allegedly-operating-elder-fraud-scheme',
+    country: 'DO',
+  },
+  {
+    name: 'Santo Domingo Timeshare Resale Advance-Fee Scam',
+    slug: 'dominican-republic-timeshare-resale-advance-fee-scam',
+    description: `Telemarketers cold-call U.S. and Canadian timeshare owners claiming they already have a buyer lined up who will pay a specific price for the owner's timeshare, or that they can sell it quickly, then charge an upfront "closing" fee — in one major case, up to $2,200 per victim — to process a sale that never happens. The Federal Trade Commission and the Florida Attorney General found that the ringleader behind the "Universal Timeshare" operation, Sheldon Lee Cohen, ran the scheme's telemarketing business out of Santo Domingo while using U.S. mail drops in Oregon and Nevada to make it appear domestic, and that the promised buyers never actually existed. The Dominican Republic has no law specifically regulating timeshare resale, which has made it an attractive base for this kind of advance-fee operation aimed at foreign owners; the court ultimately imposed a judgment of more than $10 million against the defendants and permanently banned them from selling timeshare resale services. Genuine buyers do not require a seller to pay a fee before a sale closes, so any resale offer that asks for payment up front should be treated as fraudulent.`,
+    categorySlug: 'timeshare-scams',
+    alertLevel: 'medium',
+    sources: ['Federal Trade Commission', 'Office of the Florida Attorney General'],
+    sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2014/07/ftc-obtains-court-orders-banning-defendants-selling-timeshare-resale-services',
+    country: 'DO',
+  },
+  {
+    name: 'Banreservas Impersonation Phishing & Smishing Scam',
+    slug: 'banreservas-impersonation-phishing-smishing-scam',
+    description: `Fraudsters impersonate Banreservas, the Dominican Republic's largest, state-owned bank, sending emails, text messages, and WhatsApp or Telegram messages made to look like real account alerts in order to pressure recipients into clicking a malicious link before they have time to think it through. In one documented example reported by Dominican media, a message sent at 3:36 a.m. and styled as an official Banreservas notice claimed a purchase of "DOP 11,210.00" had just been made at a Zara store and would be debited within two hours unless the recipient clicked a link to "cancel" it — with the message actually sent from a spoofed "Notificaciones Banreservas@hotmail.com" address rather than any real bank domain. Clicking through leads to a fake banking page designed to harvest login credentials, card numbers, and one-time verification codes, which are then used to drain the victim's real account. Banreservas has published repeated public warnings that it will never request confidential account information by text, WhatsApp, Telegram, email link, or phone call, and urges customers to verify any such message only by contacting the bank directly through its official app, website, or branches — never through a link or number included in the message itself.`,
+    categorySlug: 'phishing',
+    alertLevel: 'high',
+    sources: ['Banreservas', 'El Constituyente'],
+    sourceUrl: 'https://www.banreservas.com/articulos/smishing-que-es-y-como-evitar-estafas-bancarias/',
+    country: 'DO',
+  },
 ];
 
 International.push(
