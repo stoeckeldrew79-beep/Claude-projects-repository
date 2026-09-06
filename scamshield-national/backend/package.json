@@ -14,7 +14,8 @@
     "scan-daily-news": "ts-node src/jobs/scanDailyScamNews.ts",
     "test": "jest",
     "scan-state-ag-news": "ts-node src/jobs/scanStateAgNews.ts",
-    "generate-scams": "ts-node src/jobs/generateScamEntries.ts"
+    "generate-scams": "ts-node src/jobs/generateScamEntries.ts",
+    "set-password": "ts-node src/jobs/setPassword.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.116.0",
