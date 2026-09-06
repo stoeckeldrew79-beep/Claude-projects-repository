@@ -1955,4 +1955,15 @@ export const UsTZ: SeedScam[] = [
     country: "US",
     state: "UT",
   },
+  {
+    name: "Wisconsin Fake Bank Video-Call Screen-Share Scam",
+    slug: "wisconsin-fake-bank-video-call-screen-share-scam",
+    description: `The Wisconsin Department of Agriculture, Trade and Consumer Protection (DATCP) warned residents on August 26, 2026 about a new twist on bank-impersonation fraud: a scammer calls pretending to be from the victim's bank, then asks to switch the conversation from a regular phone call to a video call. Once connected by video, the scammer asks the victim to log into their online banking while pointing their phone camera at the computer screen, or to share their screen directly — letting the scammer watch, in real time, as the victim types login credentials, answers security questions, and reveals account numbers. DATCP said it was the agency's first report of this specific method, and Michelle Reinen, administrator of the Division of Trade and Consumer Protection, said scammers "are going to use pressure ... asking you to act quickly," a tactic she warned "may be more difficult for a consumer to recognize" once a video call makes the interaction feel more personal and legitimate. The division's guidance is to never trust an unsolicited call, text, or email claiming suspicious account activity, to never share a screen or point a camera at a computer during any such call, and instead to hang up and call the bank back using the number printed on the back of a card or a statement. Anyone who already shared account details this way should contact their bank immediately, and anyone targeted is encouraged to screenshot the call and report it to their phone company, local police, the FTC, or DATCP.`,
+    categorySlug: "account-takeover",
+    alertLevel: "high",
+    sources: ["Wisconsin Department of Agriculture, Trade and Consumer Protection (DATCP)"],
+    sourceUrl: "https://www.wbay.com/2026/08/26/scammers-now-using-video-calls-pose-banks-state-agency-warns/",
+    country: "US",
+    state: "WI",
+  },
 ];
