@@ -12116,6 +12116,69 @@ No Xerox executive was ever criminally charged over the scheme, and the case is 
   },
 );
 
+NOTORIOUS_ARTICLES.push(
+  {
+    title: "Nochi Dankner and the Rigged Share Offering That Sank Israel's Largest Business Empire",
+    slug: 'nochi-dankner-idb-holding-stock-manipulation',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://www.timesofisrael.com/supreme-court-increases-jail-sentence-of-tycoon-nochi-dankner-to-3-years/',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Israel_Tel_Aviv_-_Azrieli_towers.jpg?width=1200',
+    coverImageCredit: "Photo: Eurovaran, Wikimedia Commons (CC BY-SA 4.0) — the Azrieli Towers in Tel Aviv, home of IDB Holding's headquarters and Dankner's own offices",
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    body: `Nochi Dankner took control of IDB Holding Corporation in May 2003, alongside the Livnat and Manor families, and turned it into the largest business pyramid in Israel — a holding company whose layered ownership stakes gave Dankner effective control of companies worth an estimated NIS 400 billion of the Israeli public's wealth, including the mobile carrier Cellcom, supermarket chain Shufersal, internet provider Netvision, Clal Insurance, and a stake in Bank Hapoalim, the country's largest bank. By 2011, Forbes ranked him the eleventh-wealthiest person in Israel, and from his offices on the upper floors of Tel Aviv's Azrieli Towers he was, by most accounts, the single most powerful businessman in the country.
+
+The empire's foundations were far shakier than its size suggested. A failed Las Vegas hotel venture and a collapsed newspaper investment had loaded IDB with debt it could not easily service, and by early 2012 the group badly needed a share offering to succeed in order to keep the conglomerate solvent and Dankner's control intact. Rather than let the market decide the offering's fate honestly, prosecutors found, Dankner paid a stockbroker, Itay Strum, roughly eight million shekels to buy IDB shares on the open market at artificially inflated prices during the offering — manufacturing the appearance of investor demand that did not actually exist, and misleading the public shareholders who bought in believing the price reflected genuine confidence in the company.
+
+The manipulation bought IDB time, not survival: the group collapsed into a debt restructuring in 2014 that stripped Dankner of control entirely, wiping out much of the fortune that had once made him a national symbol of Israeli capitalism. A criminal investigation into the 2012 offering followed, and in July 2016 a Tel Aviv court convicted Dankner of securities fraud and market manipulation; Strum was convicted alongside him. On December 6, 2016, the court sentenced Dankner to two years in prison plus a suspended year and an 800,000 shekel fine — a sentence prosecutors had argued was too lenient, having sought three to five years.
+
+Dankner appealed, and the outcome ran the opposite direction from what he wanted: on August 29, 2018, Israel's Supreme Court rejected his appeal and increased his sentence to three years, calling the stock manipulation a serious breach of public trust from a man who had controlled so much of the public's own money. He entered Maasiyahu Prison on October 2, 2018, to begin serving the sentence, and was released early in February 2020 after a presidential commutation. Strum's sentence was likewise doubled on appeal, from one year to two, alongside a 500,000 shekel fine.
+
+The case became Israeli business's most closely watched fraud prosecution in a generation precisely because of who was in the dock: not an outsider running a criminal scheme from the shadows, but a country's most prominent tycoon manipulating the very market mechanism — a public share offering — that ordinary investors are told to trust as the one place price reflects reality rather than a controlling shareholder's own money buying the appearance of confidence.`,
+  },
+  {
+    title: 'Michael Bright and the Independent Insurance Collapse That Hid a Billion-Pound Hole Behind a Fake Profit',
+    slug: 'michael-bright-independent-insurance-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://caselaw.nationalarchives.gov.uk/ewca/crim/2008/462',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Lloyds_of_London_building_(Dec_2014).jpg?width=1200',
+    coverImageCredit: "Photo: Loco Steve, Wikimedia Commons (CC BY-SA 2.0) — the Lloyd's building in the City of London, at the heart of the UK insurance market Independent Insurance operated in",
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    body: `Michael Bright founded Independent Insurance in 1988 and built it, within little more than a decade, into the ninth-largest general insurer in Britain and a favorite of the London Stock Exchange, prized for growth that came from consistently underpricing its commercial and liability policies to take market share from bigger, more cautious rivals. That strategy only works if a company is honest with itself, and with regulators, about how much money it actually needs to hold in reserve to pay the claims those cut-price policies will eventually generate. Independent wasn't.
+
+Between January 1998 and June 2001, Bright, finance director Dennis Lomas, and deputy managing director Philip Condon dishonestly withheld and manipulated the claims data that the company's independent actuaries, Watson Wyatt, relied on to calculate Independent's reserves — data that, handled honestly, would have shown the reserves were falling further behind the company's real liabilities every year. Bright and Lomas separately gave incomplete disclosure of the company's actual reinsurance arrangements, the contracts meant to offload part of that risk onto other insurers, understating how exposed Independent really was. Together, the two practices let the company report profits that had far more to do with what its own executives decided to tell people than with the business's true financial condition.
+
+The gap finally became too large to paper over in March 2001, when Independent published annual accounts for 2000 showing a £22 million profit rather than the loss of at least £180 million regulators later determined was the truth. By June 2001, the company had collapsed into provisional liquidation — one of Britain's worst commercial disasters in decades, with a final deficiency in the region of £1 billion. The Serious Fraud Office and City of London Police opened a criminal investigation that same month. More than £366 million was eventually paid out to policyholders through the Financial Services Compensation Scheme, while thousands of shareholders lost their investments and employees lost their jobs when the company that had once been one of the City's fastest-growing insurers ceased to exist.
+
+Bright, Lomas, and Condon were charged in December 2005, and after a trial lasting many weeks at Southwark Crown Court, a jury convicted all three in October 2007 of conspiracy to defraud by withholding claims data; Bright and Lomas were convicted on a second count over the reinsurance disclosures, while Condon was acquitted of that charge. Bright was sentenced to seven years in prison and banned from serving as a company director for 12 years; Lomas received four years and a 10-year ban; Condon received three years and a 10-year ban, and was later ordered, at a 2009 confiscation hearing, to repay £1.28 million. Bright appealed, arguing his seven-year sentence was excessive; the Court of Appeal disagreed in 2008, ruling in the process that the correct statutory maximum for conspiracy to defraud was actually 10 years rather than the 7 the trial judge had assumed, and upheld the sentence in full given what it called the sheer "magnitude of the defendants' criminality."
+
+Independent's collapse anticipated a pattern that would recur at insurers on other continents in the years that followed: a company competing on price it could not actually sustain, closing the gap not with capital but with numbers quietly fed to the very professionals — independent actuaries — whose entire job was to catch a shortfall like this before it became irreversible.`,
+  },
+  {
+    title: "Philip Kenner, Tommy Constantine, and the NHL Players' Fortunes Lost to a Hawaii Resort That Was Never Really Built",
+    slug: 'philip-kenner-tommy-constantine-nhl-investment-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-edny/pr/former-investment-advisor-sentenced-17-years-prison-multi-million-dollar-investment',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Big_island_landscape_Hawaii_(32405462718).jpg?width=1200',
+    coverImageCredit: 'Photo: dronepicr, Wikimedia Commons (CC BY 2.0) — the Big Island of Hawaii, where Kenner and Constantine pitched the luxury real estate project that was never built',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    body: `Phillip Kenner built a client roster no ordinary financial adviser could get near: current and former National Hockey League players, introduced to him through a college friend who had been drafted into the league. Between 2002 and 2013, Kenner and a business partner, retired race car driver Tommy Constantine — who also went by "Tommy C. Hormovitis" — used that inside track to run a string of investment schemes that ultimately cost NHL players and other Long Island residents more than $15 million.
+
+The largest scheme centered on a real estate development on the Big Island of Hawaii. Starting in 2003, Kenner persuaded at least 13 players — including former New York Islander Michael Peca, 1995 first-round draft pick and Olympian Bryan Berard, and Stanley Cup champions Darryl Sydor, Bill Ranford, and Sergei Gonchar — to each invest $100,000 toward turning raw land into luxury estates. He then had many of the same players open lines of credit collateralized by their personal stock, bond, and savings accounts, worth at least $10 million combined, assuring them the credit lines were purely a bridge that would be fully repaid once Lehman Brothers Holdings, which had agreed in August 2006 to lend the project up to $105 million, closed its financing. Instead of developing the land, Kenner and Constantine diverted the money into personal real estate purchases and other expenses, and Lehman's 2008 collapse ensured the promised repayment never came; the Hawaii scheme alone cost investors roughly $13 million.
+
+The two men ran the same playbook again in 2008 and 2009, persuading many of the same NHL clients to put a further $1.4 million into Eufora, Constantine's prepaid debit card startup, money that likewise never went where it was supposed to. Prosecutors documented still more variations — investments pitched around Mexican land litigation, an unnamed startup company, and, in a scheme Kenner ran without Constantine, a real estate deal in Sag Harbor, New York — each one built on the same trust Kenner had established as the players' inside-the-locker-room financial guy.
+
+A federal grand jury in Brooklyn indicted Kenner and Constantine in November 2013; agents arrested them in Scottsdale, Arizona. Following a ten-week trial in Central Islip, New York, a jury convicted both men in July 2015 of wire fraud, wire fraud conspiracy, and money laundering conspiracy. Sentencing took another five years: in October 2020, U.S. Circuit Judge Joseph F. Bianco, sitting by designation on the district court, sentenced Kenner to 17 years in prison, and the following month sentenced Constantine to 10 years, ordering the forfeiture of an oceanfront resort in Mexico, real estate in Hawaii, and a Falcon 10 jet, along with restitution to the victims. Kenner appealed, arguing he deserved a new trial; the U.S. Court of Appeals for the Second Circuit rejected the appeal, leaving his conviction and sentence final.
+
+Professional athletes are frequent fraud targets for a specific reason the Kenner case illustrates well: substantial money arrives early, often before the financial experience to manage it, and a fraudster who can present himself as one of the players' own — reached through a teammate, speaking the language of the locker room rather than of Wall Street — can bypass the skepticism a cold-calling stranger would immediately trigger.`,
+  },
+);
+
 // Practical "how it works / red flags / what to do" guides covering the
 // major scam categories, the same kind of coverage the FTC's Consumer
 // Advice site and AARP's Fraud Watch Network publish — well-documented
