@@ -44797,6 +44797,42 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'Chula Vista Fast Patch Sham Youth Sports Charity Concessions Scheme',
+    slug: 'california-chula-vista-fast-patch-sham-charity-concessions-scheme',
+    description: `Martin J. Rebollo and Noly H. Ilarde ran three sham nonprofits — C V Fast Patch, Chula Vista Fast Patch Inc., and Chula Vista Fast Pitch — that posed as youth softball charities to win a spot in Petco Park's and Snapdragon Stadium's community concessions programs, under which a legitimate nonprofit can earn 10% to 12% of sales at a stand by supplying its own unpaid volunteers, with the proceeds meant to fund the charity's actual programs. From 2014 to 2023, Rebollo and Ilarde staffed 10 to 20 concession stands per game with 50 to 100 workers, but paid those workers only $50 to $120 a day in cash rather than treating them as genuine volunteers, then diverted the difference — as much as $80,000 in a single week — to their own personal spending on gambling, dining, and entertainment rather than any youth softball program; revenue climbed from about $40,000 in the charity's first full season in 2015 to more than $1.3 million by 2022. California Attorney General Rob Bonta filed a civil lawsuit on March 26, 2026 against Rebollo, Ilarde, and four associates — Melinda Avestruz, Dolores M. Rodriguez, Grace I. Gonzalez, and Hugo G. Munoz Flores — alleging conspiracy, fraud, unjust enrichment, and failure to account for at least $3.8 million in diverted charitable funds, after Rebollo and Ilarde had already pleaded guilty to related federal charges. "Those who try to steal funds intended for charity will only become rich in consequences," Bonta said announcing the case. Anyone donating to a charity collecting money at a stadium, concession stand, or storefront fundraiser should verify its nonprofit status and how it actually spends donations through the California Attorney General's registry of charities at oag.ca.gov/charities before giving, since a booth's presence inside a well-known venue is not itself proof the organization behind it is legitimate.`,
+    categorySlug: 'charity-scams',
+    country: 'US',
+    state: 'CA',
+    alertLevel: 'medium',
+    sources: ["California Attorney General's Office", 'NBC 7 San Diego', 'Fox 5 San Diego'],
+    sourceUrl: 'https://oag.ca.gov/news/press-releases/attorney-general-bonta-announces-lawsuit-over-38-million-fraudulent-charity',
+  },
+  {
+    name: 'VA Claims Insider Fraudulent "Free" Veterans Benefits Coaching Scheme',
+    slug: 'texas-va-claims-insider-veterans-benefits-coaching-fraud',
+    description: `VA Claims Insider, LLC ("VACI") sold memberships marketed as "free" education-based coaching to help veterans obtain or increase disability benefits from the U.S. Department of Veterans Affairs, but Texas Attorney General Ken Paxton's office found the company's actual 12-page contract charged exorbitant fees it never clearly disclosed — including a requirement that a veteran pay VACI six times the amount of any disability rating increase after signing up, or $5,000 in damages if the veteran failed to notify VACI of an increase within a week, even for claims VACI had no role in filing. VACI was not accredited by the VA to provide claim preparation services and had already received a cease-and-desist letter from the VA over the practice, yet its advertising never disclosed that gap to prospective members, and the company also misrepresented its cancellation procedures and its relationship to a recommended medical provider while requesting veterans hand over private information and their VA account logins. When veterans balked at the unexpected charges, VACI pursued them with aggressive debt collection. Paxton sued VACI on December 12, 2023 for deceptive trade practices, and on January 23, 2026 secured an agreed final judgment and permanent injunction barring the company from collecting on debts from consumers misled into believing its services were free, requiring VACI to forgo collection on nine years of qualifying debts — an estimated $6.8 million in relief for disabled veterans. "No company will be allowed to pose as a legitimate VA service in order to scam and deceive them," Paxton said. Veterans seeking help with a VA disability claim should confirm an organization's VA accreditation status through the VA's own accredited-representative search at va.gov before signing anything, and should never hand over VA.gov account login credentials to a private coaching company.`,
+    categorySlug: 'debt-relief-scams',
+    country: 'US',
+    state: 'TX',
+    alertLevel: 'medium',
+    sources: ["Texas Attorney General's Office", 'The Texas Tribune', 'Dallas Express'],
+    sourceUrl: 'https://www.texasattorneygeneral.gov/news/releases/attorney-general-ken-paxton-secures-over-68-million-debt-relief-disabled-veterans-harmed-fraudulent',
+  },
+  {
+    name: 'New York Text-Message Remote Job Cryptocurrency Deposit Scam',
+    slug: 'new-york-text-message-remote-job-crypto-deposit-scam',
+    description: `Scammers blasted unsolicited text messages to New Yorkers between January and June 2024 advertising flexible, high-paying remote jobs — often "reviewing products" or generating "market data" for well-known brands — and directed anyone who responded to open a cryptocurrency account, buy stablecoins such as USDC or Tether, and deposit them into wallets the scammers controlled to complete each "task," with an early small payout sometimes issued to build trust before victims were told they needed to deposit still more money to cover a "credit score improvement," "blockchain verification," or "escrow" fee before they could withdraw earnings that never materialized. One New York victim, a hotel receptionist, and another, a teacher, each lost more than $100,000 this way, and a Florida tech worker separately lost over $300,000 to the same scheme. Working with the U.S. Secret Service and the Queens County District Attorney's Office, New York Attorney General Letitia James froze nearly $2.2 million in stolen stablecoins on January 9, 2025 and filed a lawsuit seeking to recover it for victims — using a novel legal strategy of serving the unidentified defendants by airdropping a non-fungible token containing links to the legal filings directly into the crypto wallets the scammers used, since traditional service was impossible against anonymous wallet holders. "Deceiving New Yorkers looking to take on remote work and earn money to support their families is cruel and unacceptable," James said. Anyone contacted out of the blue by text about a remote job — especially one that asks the applicant to buy cryptocurrency or deposit their own money before being paid — should treat it as fraudulent and report it to the New York Attorney General's office and to the FTC at ReportFraud.ftc.gov rather than sending anything.`,
+    categorySlug: 'employment-scams',
+    country: 'US',
+    state: 'NY',
+    alertLevel: 'high',
+    sources: ["New York Attorney General's Office", 'U.S. Secret Service', 'Cointelegraph'],
+    sourceUrl: 'https://ag.ny.gov/press-release/2025/attorney-general-james-stops-text-message-scam-targeting-vulnerable-new-yorkers',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
