@@ -8846,3 +8846,36 @@ International.push(
     country: 'CM',
   },
 );
+
+International.push(
+  {
+    name: 'Social-Media "Trader" 10x-in-an-Hour Investment Scam',
+    slug: 'uzbekistan-social-media-trader-multiply-money-scam',
+    description: `Groups operating under names like "Uzbekiston InvestUz" build a following on Telegram and Instagram by posting videos of a self-styled "trader" who claims he can multiply any sum sent to him within a single hour — pitches have ranged from turning UZS 1 million into UZS 10 million to, in later versions of the scheme, promises of UZS 25 million from the same UZS 1 million stake. The group floods its channel daily with screenshots and short videos of supposedly satisfied "clients" boasting about their windfall, creating social proof that pressures new viewers into sending money of their own, when in reality the only person who profits is the trader collecting the deposits; no legitimate trading, arbitrage, or investment activity actually multiplies deposited cash in an hour, and the payouts shown are either fabricated or funded by newer victims' deposits in a classic pyramid structure. Kun.uz reported the "Uzbekiston InvestUz" channel had been running for three months with new recruitment videos posted daily and no enforcement action taken against it, and separately documented a related "fake traders" wave promising the same hour-long multiplication at a 1-to-25 ratio. Uzbekistan's Central Bank has separately warned citizens about the broader rise of digital-technology fraud schemes, urging people who receive unsolicited investment pitches, loan-cancellation offers, or requests to move money to a "safe account" to cut off contact, block the sender, and never install an unfamiliar APK file the pitch asks them to run. Consumers are advised to treat any offer to multiply money within hours or days as mathematically impossible rather than merely risky, to ignore screenshots and testimonial videos as unverifiable social proof, and to never send funds to an individual "trader" contacted only through a Telegram or Instagram channel.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ['Kun.uz', 'Central Bank of the Republic of Uzbekistan'],
+    sourceUrl: 'https://kun.uz/en/news/2024/07/23/new-financial-scam-in-uzbekistan-uzbekiston-investuz-promises-to-multiply-investments-by-10-times-in-one-hour',
+    country: 'UZ',
+  },
+  {
+    name: 'South Korea Overseas Labor Migration Job-Placement Fraud',
+    slug: 'uzbekistan-south-korea-labor-migration-job-fraud',
+    description: `An organized network made up of former officials from Uzbekistan's own External Labor Migration Agency, private employment-agency operators, and independent middlemen advertised guaranteed placements as migrant workers in South Korea, collecting fees reported to run from roughly $7,000 to $12,000 per applicant — in one Kashkadarya Region case a suspect demanded 165 million soum (about $13,000) from just two citizens, while in another, investigators say a group collected more than $408,000 from six citizens for the same false promise. Prosecutors examining the wider scheme now put total losses at as much as $90 million, with more than 600 citizens confirmed to have paid for a South Korean job placement that never materialized; a former migration-agency official has since been placed on an international wanted list over the case. The fraud traded on the scheme's insider credibility — recruiters could point to genuine agency titles and paperwork-heavy processes to make the offer look official — and on the real, high demand among Uzbek citizens for legal work in South Korea, where wages far exceed domestic pay. Uzbekistan's Prosecutor General's Office has urged anyone approached about paid assistance securing overseas work to verify the arrangement only through the official state labor migration program rather than a private fixer, to be suspicious of any "guaranteed" placement that demands a large fee before a work visa is actually issued, and to report suspected recruitment fraud to the Prosecutor General's Office or police rather than paying in the hope the promise is genuine.`,
+    categorySlug: 'employment-scams',
+    alertLevel: 'critical',
+    sources: ['Prosecutor General’s Office of Uzbekistan', 'ANEWZ', 'Kun.uz', 'UzDaily.uz'],
+    sourceUrl: 'https://anewz.tv/region/central-asia/20188/uzbekistan-probes-south-korea-job-scam/news',
+    country: 'UZ',
+  },
+  {
+    name: 'Fake "Telephone Exchange" Caller Targeting Pensioners for ID Data',
+    slug: 'uzbekistan-fake-ats-telephone-exchange-pensioner-scam',
+    description: `Scammers call elderly Uzbeks on their landline telephones, introducing themselves as employees of the ATS (the local telephone exchange) and claiming that a mass renumbering of phone lines is underway that requires the pensioner to confirm their passport details and prepare their documents. Once the victim is cooperating, the caller asks them to step outside their home with those documents so a photo of their face can supposedly be taken to complete the "renumbering" — in reality, the combination of passport data and a fresh photograph is exactly what is needed to impersonate the victim in banking apps and to apply for loans in their name. The consumer-advocacy community Potrebitel.uz reported receiving numerous accounts of pensioners targeted this way, and Uzbekistan's telephone exchange operator confirmed publicly that no such renumbering project exists and that it never asks customers for passport photographs over the phone. Because the scam specifically targets older people on landlines, who are less likely to be reached by the country's mainly mobile-focused fraud warnings, officials have urged Uzbekistanis to warn elderly relatives directly rather than relying on the pensioners to see the warnings themselves. Anyone who receives such a call is advised to hang up and never confirm passport details, meet a caller in person for a "verification photo," or leave the house at a stranger's instruction, and to report the call to the telephone operator and to younger family members who can check whether any loan or banking app account has been opened in the pensioner's name.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'high',
+    sources: ['NOVA24.UZ', 'Potrebitel.uz'],
+    sourceUrl: 'https://nova24.uz/en/uzbekistan-en/uzbekistanis-alert-about-a-new-phone-scam-scheme/',
+    country: 'UZ',
+  },
+);
