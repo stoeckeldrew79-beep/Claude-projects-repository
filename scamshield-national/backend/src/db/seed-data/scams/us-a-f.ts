@@ -5482,4 +5482,15 @@ export const UsAF: SeedScam[] = [
     sources: ['Massachusetts Department of Transportation (MassDOT)', 'Massachusetts Registry of Motor Vehicles (RMV)', 'Boston 25 News'],
     sourceUrl: 'https://www.mass.gov/news/massdot-alerts-customers-of-ezdrivema-scam',
   },
+  {
+    name: "Fake Plastic Medicare Card 'Activation' Scam",
+    slug: "alabama-fake-medicare-card-activation-scam",
+    description: `The Alabama Department of Senior Services and AARP Alabama warned residents in June 2026 after unsolicited plastic Medicare cards began turning up in mailboxes across the state, each one instructing the recipient to call a phone number and "activate" the card. The scam piggybacks on a real, large-scale Medicare data breach that has forced roughly 1.3 million beneficiaries nationwide to be issued genuine paper replacement cards, giving fraudsters cover to slip a look-alike plastic card into that same wave of mail and count on confused recipients not knowing the difference. Anyone who calls the number printed on a fake card and goes through with the requested "activation" risks handing over a Social Security number, Medicare number, or bank account details, which scammers can use to file fraudulent Medicare claims or drain accounts outright. Jamie Harding of AARP Alabama said the surest way to catch a fake is the material itself: "legitimate Medicare cards are always going to be made of paper," never plastic, and a genuine card never needs to be activated or paid for — it simply arrives valid and ready to use. Alabama seniors who receive a suspicious card are urged not to call any number printed on it, to verify their Medicare status directly by calling 1-800-MEDICARE, to contact the Alabama Department of Senior Services' Aging & Disability Resource line at 1-800-AGE-LINE with questions, and to report suspected fraud to local police.`,
+    categorySlug: "medicare-health-plans",
+    alertLevel: "high",
+    sources: ["Alabama Department of Senior Services", "AARP Alabama", "WBRC"],
+    sourceUrl: "https://www.wbrc.com/2026/06/22/fake-medicare-cards-are-showing-up-alabama-mailboxes-how-spot-scam/",
+    country: "US",
+    state: "AL",
+  },
 ];
