@@ -11929,6 +11929,68 @@ Tonken's case became a cautionary tale for the entire celebrity-fundraising indu
   },
 );
 
+NOTORIOUS_ARTICLES.push(
+  {
+    title: "Jon Corzine and the $1.6 Billion That Vanished From MF Global's Customer Accounts",
+    slug: 'jon-corzine-mf-global-customer-funds-collapse',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://www.cftc.gov/PressRoom/PressReleases/7508-17',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/SenatorJonCorzine.jpg?width=1200',
+    coverImageCredit: 'Photo: U.S. Congress (Public Domain) — Jon Corzine during his years in the U.S. Senate, before he became chairman and CEO of MF Global',
+    coverImagePosition: 50,
+    body: `Jon Corzine had already run one of Wall Street's most storied firms and governed a U.S. state by the time he took over MF Global in March 2010. He had risen to co-chairman and CEO of Goldman Sachs during the 1990s, steering its transformation from a private partnership into a public company, before winning election to the U.S. Senate in 2000 and then the New Jersey governorship in 2005. When Corzine lost his 2009 re-election bid, he pivoted back to finance, taking the helm of MF Global — a mid-sized commodities and futures brokerage spun out of a British parent in 2007 — with an explicit plan to turn a low-margin brokerage into something closer to the investment bank he used to run.
+
+His strategy centered on a single, enormous bet: using MF Global's own capital, Corzine personally directed the firm into "repurchase-to-maturity" trades on short-dated sovereign bonds issued by Italy, Spain, Belgium, Portugal, and Ireland — countries at the center of the European debt crisis — building the position to roughly $6.3 billion by 2011, against a firm with only about $1.3 billion in total equity. The wager wasn't a secret so much as it was underappreciated: it assumed Europe's crisis would ease before the bonds matured, and it left MF Global's survival tied to a single macroeconomic outcome far larger than the firm itself.
+
+That bet unraveled in October 2011. A Wall Street Journal report detailing the scale of MF Global's European exposure triggered a run: credit rating agencies downgraded the firm to junk, trading counterparties issued margin calls, and customers began pulling their accounts. In the firm's final, chaotic days, staff moved money out of accounts legally required to hold customer funds separately from the firm's own — segregated accounts that brokerages are never supposed to touch — to cover MF Global's own shortfalls, leaving a gap that investigators eventually measured at $1.6 billion. MF Global filed for Chapter 11 bankruptcy on October 31, 2011, one of the largest corporate bankruptcies in U.S. history.
+
+Corzine told Congress that December, "I simply do not know" where the missing customer money had gone, but a subsequent congressional subcommittee memo cited evidence that he had personally approved a $200 million transfer during the firm's final liquidity crunch. The Department of Justice investigated for more than a year before announcing in 2013 that it would not bring criminal charges, concluding it lacked evidence Corzine had intended to break the law. The Commodity Futures Trading Commission pursued a civil case instead, and in a settlement finalized in January 2017, Corzine agreed to pay a $5 million penalty out of his own pocket — barred from being reimbursed by any insurance policy — and accepted a permanent ban from ever registering with the CFTC or working for a futures brokerage again.
+
+Unusually for a case this large, MF Global's customers eventually got their money back in full, as the bankruptcy trustee recovered enough in litigation and asset sales to distribute more than $6.9 billion covering 100% of allowed claims. That rare full recovery doesn't soften the case's core lesson, though: the rule requiring brokerages to keep customer money walled off from their own — the same rule this collection's profiles of Refco's Phillip Bennett and Peregrine Financial's Russell Wasendorf show being broken through outright embezzlement — can also be broken by a firm's own leadership simply reaching for it during a crisis, and even when no one goes to prison for it, the money still has to come from somewhere.`,
+  },
+  {
+    title: "Patisserie Valerie: The High Street Bakery Chain That Collapsed Into 'Significant Fraud'",
+    slug: 'patisserie-valerie-accounting-fraud-collapse',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.gov.uk/sfo-cases/patisserie-holdings-plc',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Patisserie_Valerie,_Sutton_High_Street,_Sutton,_Surrey,_Greater_London.JPG?width=1200',
+    coverImageCredit: 'Photo: A P Monblat, Wikimedia Commons (CC BY-SA 4.0) — a Patisserie Valerie café in Sutton, Surrey, one of roughly 200 branches trading before the 2019 collapse',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    body: `Patisserie Valerie traced its name back to a small Belgian-founded café that opened in London's Soho in 1926, but the business investors knew by the 2010s was the creation of Luke Johnson, a serial entrepreneur already known for turning around PizzaExpress. Johnson bought the chain in 2006 through his investment vehicle Risk Capital Partners, expanded it into a network of nearly 200 cafés under the Patisserie Valerie, Baker & Spice, and Philpotts brands, and floated the business on London's AIM junior market in 2014 as Patisserie Holdings plc — a rare high-street success story that made Johnson one of Britain's more trusted small-cap chairmen.
+
+That reputation collapsed almost overnight on October 10, 2018, when Patisserie Holdings suspended its own shares and told investors the board had just learned of "significant, and potentially fraudulent, accounting irregularities." Within days, the company disclosed that its finance team had taken out roughly £9.7 million in undisclosed overdraft facilities with Barclays and HSBC without the board's knowledge, and that a headline cash position the company had reported to the market as some £28 million in the black was, in reality, negative. Longtime chief financial officer Chris Marsh was arrested by City of London Police on suspicion of fraud within days of the disclosure and suspended from his post.
+
+Johnson personally lent the company £20 million and helped arrange an emergency share placing to keep it solvent through the immediate crisis, but the rescue didn't hold: on January 22, 2019, Patisserie Holdings collapsed into administration, saying its failure was "a direct result of the significant fraud" uncovered three months earlier. Administrators from KPMG closed 71 of the group's nearly 200 stores immediately, costing roughly 920 jobs, before an Ireland-based investment firm, Causeway Capital, bought the surviving business days later and kept about 96 branches and 2,000 staff trading under new ownership — a chain that has continued shrinking in the years since, down to a small fraction of its pre-collapse footprint even as it has recently tried reopening a handful of new locations.
+
+Britain's Serious Fraud Office opened a criminal investigation the same week the fraud came to light and, in 2023, charged Marsh with eight counts of fraud and false accounting spanning 2015 to 2018, alongside his wife Louise Marsh, financial controller Pritesh Mistry, and consultant Nileshkumar Lad, each facing seven related counts. All four pleaded not guilty at arraignment in April 2024. As of the most recent scheduling, the trial itself is not due to begin until 2028 — a full decade after the SFO's investigation opened — with no verdict yet reached against any defendant.
+
+Patisserie Valerie is a reminder that, unlike most of the fraud cases in this collection, the reckoning here is still years from complete: a company can look, from the outside, like nothing so much as a well-run row of cheerful cafés — audited annual reports, a respected chairman, a growing footprint — right up until its own board admits it can no longer say where the company's cash actually is, and the criminal case that follows can then take longer to reach a courtroom than the collapse itself took to happen.`,
+  },
+  {
+    title: 'Opes Prime: The Securities Lender Whose Clients Never Knew They Didn\'t Own Their Own Shares',
+    slug: 'opes-prime-securities-lending-collapse',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://www.abc.net.au/news/2011-07-27/opes-prime-directors-jailed/2812154',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Supreme_Court_of_Victoria_(5064240836).jpg?width=1200',
+    coverImageCredit: "Photo: Alpha/avlxyz, Wikimedia Commons (CC BY-SA 2.0) — the Supreme Court of Victoria in Melbourne, where Opes Prime's directors were tried and sentenced",
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    body: `Opes Prime Stockbroking, founded in Melbourne in 2003 by Laurie Emini and Julian Smith, built a business lending money to investors who wanted to borrow against their share portfolios — a service that looked, to the roughly 1,200 clients who used it, like an ordinary margin loan secured by shares they still owned. It wasn't. Opes Prime operated through securities lending agreements under which clients technically transferred full legal title of their shares to the firm in exchange for cash, a structure that let Opes Prime treat those shares as its own to re-pledge as collateral elsewhere — a distinction buried in the fine print that most clients, by their own later account, never understood they had agreed to.
+
+That distinction became catastrophic in March 2008. With Opes Prime's own finances under severe strain amid the global credit crunch, Emini and fellow directors Smith and Anthony Blumberg arranged a $95 million loan from ANZ Bank days before the firm collapsed, pledging client shares as collateral for a debt that had nothing to do with those clients' own trading positions. When Opes Prime went into receivership on March 27, 2008, owing creditors more than $631 million, ANZ and fellow lender Merrill Lynch simply sold off roughly $1.6 billion in shares they now held legal title to — leaving hundreds of Opes clients to discover that stock they thought they still owned had already been liquidated to cover a loan they never took out and, in many cases, never knew existed.
+
+The collapse triggered a rare Australian securities-lending settlement: after litigation and a Senate inquiry into the affair, ANZ and Merrill Lynch agreed in 2009 to pay a combined $226 million into a scheme of arrangement for Opes Prime's former clients, a deal accepted by 96 percent of creditors by number, representing $457 million of the roughly $631 million in outstanding claims. It recovered a meaningful share of what clients had lost, but nowhere close to all of it, and it did nothing to unwind the underlying confusion that had let the collapse happen in the first place.
+
+Criminal proceedings took years longer to resolve, and split three ways. Emini pleaded guilty in 2011 to two counts of dishonestly using his position as a director and one count of recklessly signing company documents, tied to transfers used as collateral for loans benefiting entities in which he held a personal interest; a Victorian Supreme Court judge sentenced him to two years' imprisonment, to be released on a good-behaviour bond after serving one year. Blumberg pleaded guilty to a related dishonesty charge and was sentenced to one year, to be released after six months. Smith, the firm's other co-founder, fought his own dishonesty charge at trial and was acquitted by a jury in September 2013 — five and a half years after the collapse, and after his two former co-directors had already given the evidence against him that their plea deals required.
+
+Opes Prime remains one of Australia's clearest illustrations of how a securities lending agreement — a legitimate, common financial instrument — can function almost identically to fraud in its effect on the person who signs it without grasping what "transfer of title" actually means: not a technical formality, but the difference between owning shares that back your own loan and lending them, unknowingly, to somebody else's.`,
+  },
+);
+
 // Practical "how it works / red flags / what to do" guides covering the
 // major scam categories, the same kind of coverage the FTC's Consumer
 // Advice site and AARP's Fraud Watch Network publish — well-documented
