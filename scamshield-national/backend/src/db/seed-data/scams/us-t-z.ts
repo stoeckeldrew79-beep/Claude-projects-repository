@@ -1977,4 +1977,16 @@ export const UsTZ: SeedScam[] = [
     country: "US",
     state: "WY",
   },
+{
+    name: 'Washington Meta Platform Deepfake Investment Scam Alert',
+    slug: 'washington-meta-platform-deepfake-investment-scam',
+    description:
+      "Washington Attorney General Nick Brown warned of a surge of fraudulent investment schemes spreading across Facebook, Instagram, and WhatsApp. Ads use AI-generated deepfake video and audio of recognizable financial figures — without their knowledge or consent — endorsing an \"exclusive\" trading group with \"guaranteed\" high returns. Once a victim responds, the scammer moves the conversation off Meta's platforms to an encrypted app like WhatsApp or Telegram to dodge content moderation, then uses a group chat full of fake testimonials and fabricated early \"profits\" to build trust before pushing for a large deposit into a fraudulent trading platform. The Attorney General's Office notes that reputable, licensed broker-dealers and investment advisors do not solicit specific investment advice through social media ads, and urges anyone who encounters or loses money to one of these ads to report it to the Consumer Protection Division.",
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    state: 'WA',
+    alertLevel: 'high',
+    sources: ["Washington State Attorney General's Office"],
+    sourceUrl: 'https://www.atg.wa.gov/news/news-releases/consumer-alert-investment-scams-proliferate-meta-platforms',
+  },
 ];

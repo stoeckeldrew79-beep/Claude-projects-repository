@@ -3530,4 +3530,16 @@ export const UsGM: SeedScam[] = [
     country: 'US',
     state: 'ME',
   },
+{
+    name: 'Michigan Toll or Ticket Text Scam',
+    slug: 'michigan-toll-or-ticket-text-scam',
+    description:
+      "Michigan residents receive text messages claiming they owe an unpaid toll, parking ticket, or traffic fine, sometimes formatted to look like a \"Notice of Civil Infraction Hearing\" from a district court or impersonating agencies like the Michigan Department of Transportation, the Secretary of State, or private toll operators. The texts create false urgency, warning of late fees, license suspension, or court action, and include a link to a fake payment site designed to harvest personal and financial information. Real warning signs include being sent from an unusually long phone number, a shortened or scrambled link, and grammatical or spelling errors — government agencies and toll operators mail written notices and never demand immediate payment by text.",
+    categorySlug: 'government-impersonation',
+    country: 'US',
+    state: 'MI',
+    alertLevel: 'medium',
+    sources: ['Michigan Attorney General'],
+    sourceUrl: 'https://www.michigan.gov/ag/news/press-releases/2026/03/20/ag-nessel-issues-new-consumer-alert-on-toll-or-ticket-scams',
+  },
 ];

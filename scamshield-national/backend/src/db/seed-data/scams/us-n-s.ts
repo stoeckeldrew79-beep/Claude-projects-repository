@@ -3428,4 +3428,16 @@ export const UsNS: SeedScam[] = [
     country: 'US',
     state: 'SC',
   },
+{
+    name: "Bessie Mae Women's Health Center Unlicensed-Practice Medicaid Fraud",
+    slug: 'new-jersey-bessie-mae-unlicensed-medicaid-fraud',
+    description:
+      `Esney Davis-Sharpe, 63, of East Orange, owned and operated Bessie Mae Women's Health Center, an East Orange practice offering obstetrics/gynecology, primary care, and family care — despite holding no medical license herself. From December 2020 to February 2024 she personally performed gynecological services on patients while the practice submitted roughly 2,500 claims to the New Jersey Medicaid Program under the names of two licensed physicians who state officials say never actually treated those patients. The New Jersey Division of Consumer Affairs referred the case in August 2023, and after a cease-and-desist order in January 2024, Davis-Sharpe pleaded guilty in September 2026 to second-degree health care claims fraud, third-degree Medicaid fraud, and third-degree unlicensed practice of medicine; prosecutors are recommending four years' probation with 180 days in jail and a permanent bar on owning or running a medical facility. The Attorney General's Office stressed that patients deserve to know the people providing their care are properly licensed, and encouraged anyone who suspects a provider is unlicensed or that a claim was billed under a doctor's name without their involvement to check licensure and report suspected Medicaid fraud to the state's Medicaid Fraud Control Unit.`,
+    categorySlug: 'healthcare-fraud',
+    country: 'US',
+    state: 'NJ',
+    alertLevel: 'medium',
+    sources: ["New Jersey Attorney General's Office", 'New Jersey Office of the Insurance Fraud Prosecutor'],
+    sourceUrl: 'https://www.njoag.gov/essex-county-woman-admits-health-care-claims-fraud-and-unlicensed-practice-of-medicine/',
+  },
 ];
