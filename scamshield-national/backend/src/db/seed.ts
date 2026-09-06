@@ -666,7 +666,7 @@ Hamanaka was convicted in Tokyo in 1998 of fraud and forgery, including defraudi
     coverImageCredit: 'Photo: Oakshade (CC BY-SA 3.0)',
     coverImagePosition: 50,
     // representative photo — replace with a portrait if found
-    tags: ['notorious', 'notorious-scammer'],
+    tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Barry Minkow started a carpet-cleaning business, ZZZZ Best, out of his parents' garage at age 16, and by his early twenties had taken it public, presenting himself to Wall Street as a teenage self-made millionaire running one of the fastest-growing companies in the country. Much of that growth was built on a business that barely existed: ZZZZ Best claimed a large, lucrative insurance-restoration division that supposedly repaired water- and fire-damaged buildings, when in reality the large majority of that division's contracts were entirely fabricated.
 
 To make the fake division look real to auditors and investors, Minkow and his associates staged elaborate fronts — renting office space and construction sites, forging invoices and insurance paperwork, and even taking auditors on guided tours of buildings that had nothing to do with any real ZZZZ Best contract. The scheme also relied heavily on credit card fraud to fund the appearance of legitimate cash flow. ZZZZ Best's stock briefly valued the company at over $200 million before the fraud collapsed in 1987, wiping out investors and lenders to the tune of roughly $100 million.
@@ -9019,7 +9019,7 @@ A Cuyahoga County, Ohio jury convicted Cody in November 2013 on 23 counts, inclu
     title: 'Perry Santillo, "King Perry": The Rochester Ponzi Schemer Who Bought Broker-Dealers to Reach New Victims',
     slug: 'perry-santillo-king-perry-ponzi-scheme',
     author: 'ScamShield Editorial',
-    tags: ['notorious', 'notorious-scammer'],
+    tags: ['notorious', 'notorious-scammer', 'historical'],
     // representative photo — replace with a portrait if found
     coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Downtown_Rochester,_NY_HDR_by_patrickashley.jpg?width=1200',
     coverImageCredit: 'Photo: Patrick Ashley, Wikimedia Commons (CC BY 2.0) — downtown Rochester, New York, where Perry Santillo built the network of firms he used to reach investors nationwide',
@@ -9057,7 +9057,7 @@ Villehuchet was never charged with any crime — investigators and later litigat
     title: 'Roger Ng: The Only Goldman Sachs Banker Convicted at Trial Over the 1MDB Scandal',
     slug: 'roger-ng-goldman-sachs-1mdb-trial-conviction',
     author: 'ScamShield Editorial',
-    tags: ['notorious', 'notorious-scammer'],
+    tags: ['notorious', 'notorious-scammer', 'historical'],
     coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/United_States_Courthouse_-_Eastern_District_of_New_York_(48228039566).jpg?width=1200',
     coverImageCredit: 'Photo: Ajay Suresh (CC BY 2.0) — the Theodore Roosevelt U.S. Courthouse in Brooklyn, where a federal jury convicted Roger Ng in 2022',
     coverImagePosition: 50,
@@ -10434,7 +10434,7 @@ In April 2026, the State Department's Transnational Organized Crime Rewards Prog
     title: 'Nader Pourhassan and the CytoDyn Stock Fraud Built on a Failed COVID Drug',
     slug: 'nader-pourhassan-cytodyn-leronlimab-securities-fraud',
     author: 'ScamShield Editorial',
-    tags: ['notorious', 'notorious-scammer'],
+    tags: ['notorious', 'notorious-scammer', 'historical'],
     sourceUrl: 'https://www.justice.gov/usao-md/pr/biotech-ceo-sentenced-securities-fraud-scheme',
     coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Aerial_view_of_downtown_Vancouver_WA_from_the_south_(2021).jpg?width=1200',
     coverImageCredit: "Photo: Steve Morgan, Wikimedia Commons (CC BY-SA 4.0) — downtown Vancouver, Washington, where CytoDyn was headquartered during Nader Pourhassan's fraud scheme",
@@ -10797,7 +10797,7 @@ The LabSolutions case became a template regulators and investigators still point
     title: 'Noman Saleem, the Telegram Impersonator Who Sold Fake "Staking" Deals as a Fake Crypto Influencer',
     slug: 'noman-saleem-telegram-crypto-influencer-impersonation-fraud',
     author: 'ScamShield Editorial',
-    tags: ['notorious', 'notorious-scammer'],
+    tags: ['notorious', 'notorious-scammer', 'historical'],
     sourceUrl: 'https://www.justice.gov/usao-md/pr/new-york-man-sentenced-prison-impersonating-crypto-influencers-investment-scam',
     coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Queens_Supreme_Courthouse_Nov_2025_30.jpg?width=1200',
     coverImageCredit: 'Photo: Epicgenius, CC BY-SA 4.0, via Wikimedia Commons — the Queens Supreme Courthouse in Jamaica, New York, near the Queens home of Noman Saleem',
