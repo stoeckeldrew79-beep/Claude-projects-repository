@@ -44658,6 +44658,42 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'Berrada Properties Management Illegal Tenant Fees and Self-Help Eviction Settlement',
+    slug: 'wisconsin-berrada-properties-management-tenant-rights-settlement',
+    description: `Youssef "Joe" Berrada and his company, Berrada Properties Management, Inc. — the operator of one of the largest rental-housing portfolios in Milwaukee — illegally charged tenants late-rent fees and eviction attorney's fees the leases never authorized, failed to give tenants full credit for their security deposits, and in some cases resorted to "self-help" evictions, removing tenants' belongings or locking them out without ever going through court, according to a Wisconsin Department of Justice enforcement action. The state also alleged the company carried out renovations on occupied units with little regard for tenant safety or notice. Attorney General Josh Kaul filed the lawsuit on November 15, 2021, and a consent judgment entered December 18, 2024 resolved the case with a payment of more than $1.7 million, consisting of a $986,455.92 civil forfeiture plus roughly $249,225 in attorney's fees and costs — which Kaul called the largest settlement in a Wisconsin housing case to date. Beyond the monetary payment, the judgment requires Berrada to vacate and seal eviction judgments tainted by the illegal fees, run an income-based rental program for up to 300 tenants for three to five years, fund a $1.3 million credit account for rent-assistance grants, and provide up to $400,000 in move-out assistance to tenants facing eviction — all overseen by the nonprofit Community Advocates of Milwaukee. Wisconsin tenants should know that a landlord cannot charge late or attorney's fees beyond what a lease and state law actually allow, and that "self-help" eviction — changing locks, shutting off utilities, or removing belongings without a court order — is illegal no matter what a lease says; any renter facing one of these tactics should document everything, contact Wisconsin's Department of Agriculture, Trade and Consumer Protection or the DOJ's Consumer Protection Unit, and consult a legal aid organization before moving out.`,
+    categorySlug: 'mortgage-foreclosure-scams',
+    country: 'US',
+    state: 'WI',
+    alertLevel: 'medium',
+    sources: ['Wisconsin Department of Justice', 'Wisconsin Public Radio', 'Urban Milwaukee'],
+    sourceUrl: 'https://www.doj.state.wi.us/news-releases/ag-kaul-announces-settlement-lawsuit-alleging-milwaukee-landlord-joe-berrada-violated',
+  },
+  {
+    name: 'PayPal and Venmo Deceptive Fund-Access and Purchase Protection Settlement',
+    slug: 'new-hampshire-paypal-venmo-deceptive-purchase-protection-settlement',
+    description: `PayPal, Inc. and its Venmo subsidiary advertised that customers could access their money "anytime," but a New Hampshire Department of Justice investigation found many consumers who had accounts frozen over suspected fraud or a policy violation were locked out of their own funds for weeks with no clear, timely way to resolve it. Investigators also found PayPal marketed Venmo's "Purchase Protection" feature with a reassuring shield icon and broad promises of coverage on goods-and-services payments, while quietly building in exclusions and eligibility hurdles that left many New Hampshire consumers who paid a scammer through Venmo believing — wrongly — that they were covered, and the company's privacy disclosures about how it shared Venmo users' sensitive financial information also fell short of what state law requires. Attorney General John M. Formella's office announced a settlement, filed with the Merrimack County Superior Court, under which PayPal and PayPal Holdings, Inc. will pay $1.75 million and accept injunctive relief requiring the company to revise Venmo's Purchase Protection interface to drop misleading language and the shield icon, clearly define what counts as an eligible "purchase," add direct links to the feature's actual eligibility limitations, and give consumers clearer, more timely information about accessing their funds and resolving a frozen account. The case is a reminder that a "protection" feature a payment app advertises voluntarily is not automatically a guarantee: before assuming a payment through Venmo, PayPal, or any similar app is covered, read the actual eligibility terms rather than relying on a badge or icon, and if an account is ever frozen, request a written explanation and timeline, escalate through the app's official in-app support, and file a complaint with the New Hampshire Department of Justice's Consumer Protection and Antitrust Bureau if the company won't respond.`,
+    categorySlug: 'insurance-fraud',
+    country: 'US',
+    state: 'NH',
+    alertLevel: 'medium',
+    sources: ['New Hampshire Department of Justice', 'Union Leader', 'StreetInsider'],
+    sourceUrl: 'https://www.doj.nh.gov/news-and-media/attorney-general-formella-announces-175-million-and-injunctive-relief-settlement',
+  },
+  {
+    name: 'CVS Health and Caremark Deceptive Lobbying Text Campaign and Pharmacy Practices Settlement',
+    slug: 'louisiana-cvs-health-deceptive-text-campaign-pharmacy-settlement',
+    description: `CVS Health and its pharmacy benefit manager subsidiary, Caremark, used personal contact information Louisiana customers had provided for prescription purposes to blast out a mass text-message lobbying campaign against a 2025 state bill that would have restricted PBMs from also owning insurers and pharmacies, falsely telling recipients CVS would have to close every one of its Louisiana locations if the legislation passed, according to Attorney General Liz Murrill's office. That text campaign was the subject of one of three lawsuits Murrill's office filed against the companies in June 2025; a second alleged Caremark violated Louisiana regulatory requirements governing how it reimbursed and audited independent pharmacies, and a third alleged CVS and Caremark's vertically integrated business — simultaneously operating an insurer, a PBM, and thousands of its own retail pharmacies — violated Louisiana's Unfair Trade Practices and Consumer Protection Law by unfairly steering patients away from the state's independent pharmacies. Murrill announced a settlement resolving all three cases on February 20, 2026: CVS and Caremark agreed to pay $45 million without admitting wrongdoing, with the funds directed toward implementing new pharmacy-benefit-manager legislation and expanding Medicaid fraud investigations alongside the Louisiana Department of Health and the state's Inspector General. The case is a reminder that a pharmacy or health company holding your contact information for a prescription-related reason has no automatic license to reuse that same channel for unrelated political or promotional messaging; anyone who receives a text from a pharmacy or health plan pushing a legislative or political position rather than health information should ask the company directly how it obtained authorization to contact them that way, and can report suspected misuse of personal health information to the Louisiana Attorney General's Consumer Protection Section.`,
+    categorySlug: 'healthcare-fraud',
+    country: 'US',
+    state: 'LA',
+    alertLevel: 'medium',
+    sources: ["Louisiana Attorney General's Office", 'Louisiana Illuminator', 'WWL-TV'],
+    sourceUrl: 'https://lailluminator.com/2026/02/20/cvs-settlement/',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
