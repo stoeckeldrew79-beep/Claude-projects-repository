@@ -46107,6 +46107,42 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'RMV "Final Official Notice" Fake Traffic Fine Text Scam',
+    slug: 'massachusetts-rmv-final-notice-text-scam',
+    description: `The Massachusetts Registry of Motor Vehicles and MassDOT renewed warnings in May 2026 about a wave of fraudulent text messages telling recipients they owe money for traffic violations and must pay immediately through a link to a fake website. One version reads "MASSACHUSETTS REGISTRY OF MOTOR VEHICLES FINAL OFFICIAL NOTICE," while others use official-sounding phrasing such as "Per order of the Massachusetts Registry of Motor Vehicles" and "This document constitutes a formal final demand for payment." The messages invent escalating consequences to force a fast payment: vehicle registration cancellation effective within days, permanent suspension of the recipient's operator's license, referral to a collection agency, and threats of civil legal action with "maximum penalties" for nonpayment. Registrar of Motor Vehicles Colleen Ogilvie has repeatedly stressed that the RMV never requests payment through a text message and that the only legitimate site for RMV transactions is Mass.Gov/RMV — any other web address in a text or email claiming to be the RMV is fraudulent. Local police departments across the Commonwealth, including in Westfield and Hatfield, have separately issued their own alerts as residents reported receiving the same scam. MassDOT and the FBI advise recipients not to click any link in the message, to delete the text immediately, to report it to the FBI's Internet Crime Complaint Center at ic3.gov with the sending phone number and the fraudulent web address included, to monitor bank and card accounts for unauthorized charges, and to call the RMV directly at (857) 368-8000 (or EZDriveMA at (877) 627-7745 for toll-related messages) if there is any doubt about a real outstanding balance.`,
+    categorySlug: 'government-impersonation',
+    country: 'US',
+    state: 'MA',
+    alertLevel: 'high',
+    sources: ['Massachusetts Department of Transportation (MassDOT)', 'Massachusetts Registry of Motor Vehicles', 'WWLP 22News', "FBI Internet Crime Complaint Center (IC3)"],
+    sourceUrl: 'https://www.mass.gov/news/rmv-cautions-public-to-beware-of-scam-texts-stating-money-is-owed-for-motor-vehicle-violations-0',
+  },
+  {
+    name: 'Fake "Notice of Hearing" Traffic Court Text Scam',
+    slug: 'maryland-fake-court-hearing-text-scam',
+    description: `The Maryland Judiciary issued a string of consumer alerts through the first half of 2026 — including releases dated February, March, April, and August — warning of an evolving text-message scam that impersonates the District Court of Maryland over supposedly unpaid parking and toll violations. The texts are formatted to look like an official "Notice of Hearing — Traffic Violation," inventing a fabricated case number and even naming a specific judge (one version cited "Judge John Smith") and a real Baltimore City District Court address, 501 E. Fayette Street, to make the threat feel concrete. Recipients are told they must appear in person on a specific date and time or face penalties, and are pressured to avoid the hearing altogether by scanning an embedded QR code and paying a fine online before the deadline. Court officials confirmed the courthouse address named in one version of the text was not even open for business at the time listed, underscoring that the message was fabricated. A later wave of the same scheme referenced a supposed show-cause hearing set for August 7, 2026, again naming a judge, a clerk, and a law enforcement officer to lend it false authority. "The texts, and any variations of it, are a scam," the Maryland Judiciary stated flatly, noting that Maryland courts never send text messages, phone calls, or emails demanding payment or personal information, and never direct people to resolve a case by scanning a QR code. Residents are urged not to click any links or scan any codes in these messages, not to provide any payment or personal data, to verify any supposed court date by contacting their local District or Circuit Court directly using contact information from mdcourts.gov, and to report suspicious texts to the Attorney General's Consumer Protection Division hotline at 410-528-8662 or toll-free at 888-743-0023.`,
+    categorySlug: 'government-impersonation',
+    country: 'US',
+    state: 'MD',
+    alertLevel: 'high',
+    sources: ['Maryland Judiciary', 'FOX45 Baltimore (WBFF)', "Maryland Office of the Attorney General"],
+    sourceUrl: 'https://www.courts.state.md.us/media/news/2026/pr20260806',
+  },
+  {
+    name: 'Fake Classic Car & Heavy Equipment Dealership Website Scam',
+    slug: 'tennessee-fake-car-dealership-website-scam',
+    description: `The Tennessee Attorney General's Division of Consumer Affairs warned in March 2026 that scammers are running increasingly convincing fake websites impersonating legitimate classic car and heavy equipment dealerships to steal money from buyers shopping online. The fraudulent sites frequently steal a real dealership's business name, logo, and inventory photos outright, then advertise vehicles or machinery at prices well below market value to lure in buyers searching for a deal. To keep the ruse going once a buyer makes contact, the scammers answer phone calls like a normal dealership would, send staged "walk-around" videos of a vehicle that in reality does not exist or was never for sale, and even produce fabricated business licenses on request. Buyers who wire money, send a bank-to-bank transfer, or pay by cryptocurrency or gift card to secure the "purchase" never receive a vehicle and typically cannot recover the funds. "These scammers don't care one bit about your family's financial well-being," Attorney General Jonathan Skrmetti said, urging Tennesseans to slow down before sending money for any high-value item bought sight unseen online. His office recommends inspecting a vehicle or piece of equipment in person, or arranging a third-party inspection through an independent mechanic, before paying; checking the seller's history through the Better Business Bureau, a vehicle history report from CARFAX, AutoCheck, or the National Motor Vehicle Title Information System, and the Tennessee Secretary of State's business entity search; treating unrealistically low prices as a red flag; paying only by check or credit card rather than wire transfer, cryptocurrency, gift card, or money-transfer app; and never sending a Social Security number to an online seller. Complaints can be filed with the Tennessee Division of Consumer Affairs, the FBI's Internet Crime Complaint Center, or the Better Business Bureau.`,
+    categorySlug: 'online-shopping-scams',
+    country: 'US',
+    state: 'TN',
+    alertLevel: 'high',
+    sources: ["Tennessee Attorney General's Office", 'WSMV4', 'Hoodline'],
+    sourceUrl: 'https://www.tn.gov/attorneygeneral/news/2026/3/18/pr26-12.html',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
