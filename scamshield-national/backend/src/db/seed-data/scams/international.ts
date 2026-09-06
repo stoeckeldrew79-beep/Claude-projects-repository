@@ -8534,3 +8534,36 @@ Egypt's Ministry of Interior announced on February 24, 2025, that it had arreste
     country: "PA",
   },
 ];
+
+International.push(
+  {
+    name: 'AI Deepfake News Presenter Investment & Prepaid Mastercard Scam',
+    slug: 'fiji-ai-deepfake-news-presenter-investment-scam',
+    description: `The Fijian Competition & Consumer Commission (FCCC) issued a public warning on July 10, 2025 after identifying a wave of AI-generated deepfake videos circulating on social media designed to defraud Fijian consumers. In the most prominent case, fraudsters produced a deepfake video that falsely portrays a real Fiji Television news presenter delivering a segment that promotes a fraudulent financial investment platform, misusing the logos and branding of both the Reserve Bank of Fiji and Fiji One News to manufacture instant credibility. A second, related scam identified in the same alert circulated on TikTok, advertising a prepaid "M-PAiSA Mastercard" supposedly newly available in Fiji: the ad claims a $9.95 monthly subscription unlocks investment returns of USD $2,000 to $4,000, and directs interested viewers to pay a $49.95 "business joining fee" to sign up, after which victims are walked into handing over prepaid card numbers and one-time codes. FCCC Chief Executive Senikavika Jiuta said the Commission "strongly condemns the use of deceptive artificial intelligence tools to manipulate public trust" and warned that, with the addition of AI-assisted scams, "all Fijians ... are equally likely to be fooled," regardless of age or education, since the fabricated video and branding are convincing enough to bypass the skepticism a text-only scam might trigger. The FCCC's broader guidance for these campaigns is to treat any unsolicited investment pitch — however official the presenter, logo, or platform looks — as suspect, to independently verify through the Reserve Bank of Fiji's own channels whether an investment platform is licensed before sending any money or card details, and to report suspected scams to the FCCC on 8921 991.`,
+    categorySlug: 'ai-deepfake-scams',
+    country: 'FJ',
+    alertLevel: 'high',
+    sources: ['Fijian Competition & Consumer Commission (FCCC)', 'FBC News'],
+    sourceUrl: 'https://www.fbcnews.com.fj/news/crime/fccc-warns-public-of-scams-circulating-online/',
+  },
+  {
+    name: 'Fake Post Fiji Parcel Delivery Text Scam',
+    slug: 'fiji-post-fiji-parcel-delivery-smishing-scam',
+    description: `Fiji's government issued a public warning on July 20, 2024 about a smishing (SMS phishing) campaign impersonating Post Fiji, the national postal service, after the Fijian Competition & Consumer Commission (FCCC) flagged a wave of fraudulent text messages designed to look like an official delivery notice. The message tells the recipient there is a problem with their address on a package awaiting delivery and includes a link that, if clicked, leads to a fake website designed to harvest personal information — including addresses, identification details, and, on some variants, payment card information — under the guise of "correcting" delivery details. Acting Prime Minister Manoa Kamikamica, who also holds the trade and communications portfolio, said "scammers are becoming increasingly sophisticated in their tactics, making it very challenging for ordinary citizens to differentiate between legitimate and fraudulent messages," while FCCC Chief Executive Officer Joel Abraham noted the scheme "mimics the communication style of legitimate businesses, making it very convincing" — copying Post Fiji's tone, formatting, and branding closely enough that recipients often act on it without a second thought. Fijians who receive this or a similar delivery-themed text are advised never to click the embedded link, to verify any claimed delivery issue by contacting Post Fiji directly through its official published contact details rather than any number or link in the message itself, and to report the text to the FCCC so the Commission can track and warn against the specific numbers and websites in use.`,
+    categorySlug: 'package-delivery-scams',
+    country: 'FJ',
+    alertLevel: 'medium',
+    sources: ['Fijian Competition & Consumer Commission (FCCC)', 'Fiji Government', 'FijiVillage'],
+    sourceUrl: 'https://www.fijivillage.com/news/FCCC-warns-public-not-to-click-on-scam-links-rx8f54/',
+  },
+  {
+    name: 'Fake Overseas Farm-Work Job Offer & Trafficking Recruitment Scam',
+    slug: 'fiji-fake-overseas-job-offer-trafficking-scam',
+    description: `Fiji's Ministry of Employment, Productivity and Workplace Relations and the Fiji Police Force opened a joint investigation on June 27, 2026 after roughly 80 job seekers gathered at a church hall meeting in Martintar, Nadi, in response to what turned out to be a fraudulent overseas employment offer. Two individuals allegedly claimed to represent Top of the Crop, a real Australian employer, and to be recruiting under Australia's Pacific Australia Labour Mobility (PALM) scheme, collecting unauthorized payments from hopeful applicants in both Martintar and Vatukoula for farm-work placements that were never authorized through any official government channel. A police report was filed at Namaka Police Station and Fiji's Criminal Investigation Department took over the case, working with the Ministry to collect victim statements and coordinating with Australian authorities, while Employment Minister Agni Deo Singh warned that "Fijians should be wary of anyone claiming to offer overseas jobs or requesting payments outside these official channels" and urged applicants to verify any PALM or seasonal-work opportunity directly with the Ministry before paying any fee or handing over identity documents. The case sits inside a larger pattern the International Organization for Migration (IOM) publicly warned about on July 30, 2026: criminal syndicates increasingly use fake online job platforms — running dedicated "human resource" recruitment units — to target young, educated, English-speaking Fijians with professional backgrounds in IT, marketing, customer service, and HR, luring them overseas with a promised legitimate job before confiscating their passports and forcing them to work inside offshore online scam operations. IOM Fiji Chief of Mission Solomon Kantha said the agency has assisted more than 3,500 trafficking victims from 39 countries since 2022, tied to a regional scam-operation economy estimated at US$88–114 billion in annual losses across East and Southeast Asia, Australia, and New Zealand in 2025 alone. Job seekers are advised to verify any overseas job or seasonal-work offer directly with the Ministry of Employment before resigning from existing work, paying a recruitment fee, or surrendering a passport, and to treat any offer that bypasses official government recruitment channels as a serious warning sign.`,
+    categorySlug: 'employment-scams',
+    country: 'FJ',
+    alertLevel: 'critical',
+    sources: ['Fiji Ministry of Employment, Productivity and Workplace Relations', 'Fiji Police Force', 'International Organization for Migration (IOM)', 'The Australia Today', 'FijiVillage'],
+    sourceUrl: 'https://www.theaustraliatoday.com.au/fake-australia-job-offers-spark-recruitment-fraud-investigation-in-fiji/',
+  },
+);
