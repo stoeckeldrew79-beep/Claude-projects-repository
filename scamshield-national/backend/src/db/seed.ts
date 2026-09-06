@@ -45005,6 +45005,42 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'GS Labs COVID-19 Testing False Advertising Settlement',
+    slug: 'colorado-gs-labs-covid-testing-false-advertising-settlement',
+    description: `GS Labs, a COVID-19 rapid-testing business founded by medical diagnostics company 88Med, advertised inflated cash prices — as high as $380 per test and nearly $1,000 for multi-panel tests — specifically to secure higher reimbursement from insurers and cash-paying consumers, while separately marketing "no out-of-pocket expenses" for insured patients who were then hit with an undisclosed $49 administrative fee per test. The company also guaranteed results within three days, but hundreds of thousands of consumers waited well over a week for results that were, by then, essentially useless for the purpose they'd been ordered for, without ever receiving a refund or discount for the delay. Colorado Attorney General Phil Weiser and a bipartisan coalition of 18 other state attorneys general announced a $4.87 million settlement on June 10, 2026, resolving allegations that GS Labs' pricing and marketing practices violated the Colorado Consumer Protection Act; the company will pay more than $3.6 million directly to affected consumers as restitution and $1.25 million to the participating states, with Colorado receiving $23,601 toward legal costs. "Preying on Coloradans is never tolerated, and to do so during such a uniquely difficult period is unconscionable," Weiser said. "Our office will continue to hold bad actors accountable for such practices." GS Labs has since stopped offering COVID-19 rapid testing, and the settlement bars the company from charging undisclosed administrative fees, pricing above the market rate, or billing for late results if it resumes. Consumers evaluating any medical testing service's advertised price and turnaround guarantee should get both in writing and check whether a "no out-of-pocket" promise excludes separate administrative or processing fees before agreeing to be tested.`,
+    categorySlug: 'healthcare-fraud',
+    country: 'US',
+    state: 'CO',
+    alertLevel: 'medium',
+    sources: ['Colorado Attorney General'],
+    sourceUrl: 'https://coag.gov/press-releases/attorney-general-weiser-announces-settlement-with-former-covid-19-test-distributor-after-company-used-false-advertising-overcharged-coloradans/',
+  },
+  {
+    name: 'Metro Detroit Counterfeit Fragrance Amazon and Walmart Marketplace Ring',
+    slug: 'michigan-counterfeit-fragrance-amazon-walmart-marketplace-ring',
+    description: `In October 2023, Walmart Global Security asked Michigan Attorney General Dana Nessel's FORCE Team to help investigate suspected counterfeit cologne and perfume sellers, uncovering a distribution network that authorities say ran for years across both Amazon and Walmart's online marketplaces. Search warrants executed in December 2023 turned up more than 300 boxes of counterfeit fragrances at a Port Huron address, and a second round of warrants in Sterling Heights recovered more than 100,000 additional boxes of suspected fakes — knockoffs of brands including Bleu de Chanel, Victoria's Secret, Abercrombie & Fitch, and L'Oréal, manufactured outside any regulated or verifiable chemical supply chain. In August 2025, Nessel announced felony charges against four Michigan men: Shuba Barua, Ahasan Khan, and Bilal Ahmed each face one count of conducting a criminal enterprise, 13 counts of possession of counterfeit goods, and one count of using a computer to commit a crime, while Kyle McIntyre faces the same criminal-enterprise and computer-crime charges alongside six counts of possession of counterfeit goods. "Counterfeiting is an organized retail crime — and not a victimless offense," Nessel said. "It steals from legitimate business, deceives consumers, undermines brand integrity, and may endanger unsuspecting customers with unregulated product sourced from unverifiable chemical plants." The case relied on Walmart's and Amazon's own investigators flagging suspicious listings to state law enforcement, underscoring that even purchases made directly through a major retailer's own marketplace listing aren't guaranteed genuine, since both platforms host third-party sellers alongside their own inventory. Shoppers buying perfume, cologne, or other brand-name goods through a marketplace listing should check that the listing is "Sold by" or "Fulfilled by" the retailer itself rather than an unfamiliar third-party seller, and treat a price far below other listings for the same fragrance as a reason to verify the seller before buying a product meant to go on skin.`,
+    categorySlug: 'online-shopping-scams',
+    country: 'US',
+    state: 'MI',
+    alertLevel: 'medium',
+    sources: ['Michigan Attorney General'],
+    sourceUrl: 'https://www.michigan.gov/ag/news/press-releases/2025/08/07/attorney-general-nessel-announces-felony-charges-following-force-team',
+  },
+  {
+    name: 'Block Inc. Cash App Washington Unemployment Fraud Settlement',
+    slug: 'washington-block-cash-app-unemployment-fraud-settlement',
+    description: `Between March and August 2020, criminals used stolen personal information belonging to Washington residents to file fraudulent unemployment claims with the state's Employment Security Department and routed at least $22 million of the resulting benefit payments into Cash App accounts, exploiting the platform's lack of adequate anti-fraud and identity-verification controls to receive and move the stolen money. The Washington Attorney General's Office had already spent years unwinding the state's roughly $648 million in pandemic-era unemployment fraud losses, filing 26 complaints and 37 asset-forfeiture motions between August 2021 and September 2023 that recovered $41.5 million, before turning its investigation specifically to how Block, Inc. — the company behind Cash App — had handled the fraudulently deposited funds flowing through its own platform. On July 8, 2026, Attorney General Nick Brown announced Block would pay $20 million to resolve that investigation, in a settlement filed in King County Superior Court, separate from a parallel multistate settlement in which Washington will receive $1.8 million as part of a $45 million nationwide resolution over broader claims that Cash App misled consumers about its safety. "Block presented Cash App as a safe alternative to a traditional bank but failed to create the robust protections and safeguards that Washington law requires," Brown said. The case illustrates that peer-to-peer payment apps can become a laundering point for stolen government benefits when a platform doesn't verify who is actually opening an account, not just a tool scammers use to move money after taking it from an individual victim. Anyone who suspects a fraudulent unemployment claim was filed in their name should report it directly to the Washington Employment Security Department's fraud line and file an identity theft report at IdentityTheft.gov, since the same stolen information used for one fraudulent claim is often reused for others.`,
+    categorySlug: 'identity-theft',
+    country: 'US',
+    state: 'WA',
+    alertLevel: 'medium',
+    sources: ['Washington State Office of the Attorney General'],
+    sourceUrl: 'https://www.atg.wa.gov/news/news-releases/block-inc-owner-cash-app-settles-two-disputes-wa',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
