@@ -9095,3 +9095,36 @@ International.push(
     country: 'AM',
   },
 );
+
+International.push(
+  {
+    name: 'Bay Street "Free Prize" Timeshare Presentation Lure',
+    slug: 'bahamas-bay-street-timeshare-presentation-lure',
+    description: `Along Bay Street and near the cruise port in Nassau, touts approach tourists offering a "scratch card" that always turns out to be a big winner — cash, an iPad, or a free excursion — and direct the "winner" to a nearby office to collect it, often supplying a free taxi to get there. Once inside, staff explain that claiming the prize first requires sitting through a timeshare presentation billed as a quick 60-to-90-minute overview, but travel-safety publishers report the pitch routinely stretches past three or four hours, with salespeople using high-pressure tactics — inflated resale-value claims and repeated "today only" discounts — and resisting attendees who try to leave without buying. Visitors who decline often find the advertised prize has shrunk to something far less valuable or is simply unavailable, and because the "free" ride back to the resort was conditional on sitting through the full presentation, some are left to find their own way back once they say no. Consumer advocates note that no legitimate timeshare seller needs to withhold a promised prize, pressure a same-day purchase, or make return transportation contingent on buying, and that anyone lured in this way is free to leave a presentation at any time regardless of what was promised beforehand.`,
+    categorySlug: 'timeshare-scams',
+    alertLevel: 'medium',
+    sources: ['World Nomads', 'Federal Trade Commission'],
+    sourceUrl: 'https://www.worldnomads.com/travel-safety/caribbean/the-bahamas/bahamas-local-nuisances',
+    country: 'BS',
+  },
+  {
+    name: '"Free Bahamas Cruise" Robocall Scam',
+    slug: 'bahamas-free-cruise-robocall-scam',
+    description: `Prerecorded robocalls and voicemails tell recipients across the U.S. that they have been selected for, or have already won, a "free" cruise to the Bahamas, urging them to call a supplied number right away before the offer expires. Caller ID is routinely spoofed to display an ordinary-looking local number even though the call actually originates overseas, and callback numbers can carry premium foreign billing rates that run up huge phone charges the moment the victim dials back. Victims who call in are walked through a "verification survey" by a live telemarketer, then told the free trip still requires paying hundreds of dollars per traveler in port fees, taxes, and mandatory add-ons, plus handing over a credit card number just to "hold" the cabin — charges that frequently turn out to fund a vacation-club membership or cruise upgrade rather than the advertised trip. The Federal Trade Commission and Federal Communications Commission have flagged this Bahamas free-cruise pitch for more than a decade as one of the most common illegal robocall scripts nationwide, generating a large share of all consumer robocall complaints. Consumers are advised to hang up on unsolicited "you've won a free cruise" calls, never provide a credit card number to "hold" a supposedly free prize, and never dial a callback number left in a robocall voicemail without independently verifying it first.`,
+    categorySlug: 'travel-vacation-scams',
+    alertLevel: 'medium',
+    sources: ['Federal Trade Commission', 'Federal Communications Commission'],
+    sourceUrl: 'https://consumer.ftc.gov/consumer-alerts/2020/01/free-cruise-try-illegal-robocall-upsell',
+    country: 'BS',
+  },
+  {
+    name: 'Nassau Cruise Port "Free Facial" Skincare Pressure-Sale Scam',
+    slug: 'bahamas-nassau-free-facial-skincare-pressure-sale-scam',
+    description: `Cruise passengers stepping ashore near Prince George Wharf in Nassau are approached by promoters offering a free facial or skin consultation at a nearby shop. Once a passenger is inside, staff ply them with complimentary alcoholic drinks — sometimes early in the morning — and, in cases documented by consumer-protection reporters, have gone further by slipping in a sedative before launching into aggressive, hours-long sales tactics that end with the visibly impaired customer signing a credit card receipt for anywhere from $5,000 to $30,000 worth of "premium" skincare products. The receipts are stamped "absolutely no refund," and passengers who later dispute the charge with their card issuer report that the shop points to the signed in-store receipt as proof the purchase was voluntary, even though the customer has little or no memory of agreeing to it. The U.S. Embassy in Nassau and investigative consumer reporters say the shops cycle through different names and storefronts near the cruise port to stay ahead of complaints and bad reviews while continuing to target passengers who have only a few hours before their ship departs. Passengers are advised to decline unsolicited "free" beauty or spa offers near the port, never accept a drink from shop staff, photograph anything they are asked to sign, and immediately report a disputed charge to both their card issuer and the cruise line.`,
+    categorySlug: 'travel-vacation-scams',
+    alertLevel: 'high',
+    sources: ['Consumer Rescue', 'U.S. Embassy Nassau'],
+    sourceUrl: 'https://consumerrescue.org/cruise-fiascos/2-more-cruise-ship-passengers-scammed-nassau-what-happened/',
+    country: 'BS',
+  },
+);
