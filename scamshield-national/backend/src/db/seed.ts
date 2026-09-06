@@ -44406,6 +44406,39 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'National Bank of Georgia WhatsApp Loan-Assistance Phishing',
+    slug: 'georgia-nbg-whatsapp-loan-assistance-phishing',
+    description: `On July 30, 2026, the National Bank of Georgia (NBG) issued a public warning that fraudsters were contacting citizens over WhatsApp and other messaging channels while posing as NBG representatives, in some cases illegally using the central bank's own logo to appear legitimate. The callers offered to help recipients pay off existing loan obligations or resolve other supposed financial issues, and in a number of reported cases fabricated a story that unauthorized access to the victim's banking data had already been detected, creating urgency to "verify" the account immediately. Victims who went along were asked to enter their internet or mobile banking username and password, either through a link sent in the chat or directly to the person contacting them. The National Bank stated plainly that if such credentials are handed over, "fraudsters may gain access to your bank accounts, which creates the risk of unauthorized operations being carried out," and reminded the public that the NBG does not conduct individual client outreach over WhatsApp to resolve loan or account issues. The bank urged citizens never to share usernames, passwords, or other financial data with unknown contacts, to avoid entering credentials on links sent by strangers, to refuse to carry out any banking operation requested by an unsolicited caller, and to report suspected fraud to law enforcement immediately.`,
+    categorySlug: 'phishing',
+    country: 'GE',
+    alertLevel: 'high',
+    sources: ['National Bank of Georgia (NBG)', 'InterPressNews'],
+    sourceUrl: 'https://www.interpressnews.ge/en/article/148859-the-national-bank-warns-consumers-about-a-fraudulent-scheme/',
+  },
+  {
+    name: 'Fake National Bank of Georgia Online Lottery',
+    slug: 'georgia-fake-national-bank-online-lottery',
+    description: `On May 10, 2023, the National Bank of Georgia (NBG) issued a consumer warning about an online lottery scheme falsely presented as being organized or endorsed by the central bank. Consumers received offers, spread partly through social media, inviting them to enter a lottery for cash or other prizes; those who followed the offer were directed to websites where they were asked to enter personal and financial information to "claim" or "register" for the supposed prize, and some victims were encouraged to forward the offer to friends and family, widening the scheme's reach. The National Bank stated unambiguously that it "does not organize any online lottery" and that any communication claiming otherwise was fraudulent. NBG warned that disclosing personal information to such sites "creates the risk of fraudulent conduct by parties interested in obtaining this information," and advised the public to verify a website's actual address and ownership before entering any data, to watch for spelling errors and low-quality content as signs of a fake site, to be skeptical of financial offers circulating on social media, to use only trusted and verifiable payment channels, and to contact the NBG's consumer hotline directly with any questions about whether a communication genuinely came from the bank.`,
+    categorySlug: 'lottery-sweepstakes-scams',
+    country: 'GE',
+    alertLevel: 'medium',
+    sources: ['National Bank of Georgia (NBG)'],
+    sourceUrl: 'https://nbg.gov.ge/en/media/news/nbg-issues-another-warning-for-consume-1',
+  },
+  {
+    name: 'Forex and Crypto Investment Schemes Targeting Georgian Seniors',
+    slug: 'georgia-forex-crypto-investment-schemes-targeting-seniors',
+    description: `On April 14, 2026, the National Bank of Georgia (NBG) announced new payment-service requirements specifically designed to protect customers aged 60 and older from fraudulent online trading, investment, gambling, and virtual-asset schemes after regulators observed a pattern of high-risk transactions and unusual spending tied to this age group. The underlying schemes NBG cited included unregistered "forex" trading platforms and crypto-asset investment pitches promising high returns — an extension of pyramid- and Ponzi-style investment fraud the central bank has been warning citizens about since 2013, more recently including companies soliciting public funds by promising outsized returns from crypto-asset trading. Under the new rules, taking effect in September 2026 for card-based transactions, payment service providers must suspend or refuse card payments over GEL 500 that are linked to online trading, investment schemes, gambling, or virtual-asset activity when the customer is 60 or older and the transaction shows signs of being high-risk or behaviorally anomalous; providers must then notify the customer directly, and the customer is given a mandatory 48-hour reflection period before the flagged payment can proceed. The NBG said the measure was designed to align Georgia's consumer protections with international best practice and to give older account holders a deliberate pause to consult family or verify a supposed opportunity before money moves, rather than relying solely on after-the-fact fraud reporting once funds are already gone.`,
+    categorySlug: 'investment-fraud',
+    country: 'GE',
+    alertLevel: 'high',
+    sources: ['National Bank of Georgia (NBG)'],
+    sourceUrl: 'https://nbg.gov.ge/en/media/news/national-bank-of-georgia-tightens-payment-service-requirements-to-protect-customers-aged-6',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
