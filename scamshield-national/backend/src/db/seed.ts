@@ -46343,6 +46343,42 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'Fake "SERS Investment Advisor" Pension Scam Emails',
+    slug: 'illinois-sers-fake-investment-advisor-pension-scam',
+    description: `Illinois Attorney General Kwame Raoul and the State Employees' Retirement System (SERS) issued a joint consumer alert on April 24, 2026, warning current state employees and retirees about a wave of unsolicited emails from so-called "investment advisors" who imply, without saying so outright, that they are affiliated with SERS or the State of Illinois. SERS said it had already fielded hundreds of inquiries from members who received one or more of these messages, which typically dangle a "free pension review" or retirement-planning consultation and include a link to schedule an appointment — an approach designed to get a member on the phone with a salesperson who, the alert notes, is often really trying to sell a commission-generating product like a life insurance policy or annuity, or simply to harvest personal and financial information. SERS was blunt about the tell: the agency "does not contact members by email or in other ways to schedule a financial counseling appointment unless the member has contacted SERS to request one." Any retirement-planning outreach a member did not initiate themselves is, by definition, not coming from SERS. Members who receive one of these messages are told not to reply, not to hand over any contact or account information, and not to click the scheduling link, and instead to forward the email to SERS at reportfraud@srs.illinois.gov so the agency can track the pattern. Genuine pension information and counseling requests are handled only through SERS's own website and a member's verified online account, never through an inbound email from an unaffiliated "advisor."`,
+    categorySlug: 'government-impersonation',
+    country: 'US',
+    state: 'IL',
+    alertLevel: 'medium',
+    sources: ["Illinois Attorney General's Office", "State Employees' Retirement System of Illinois (SERS)", 'RiverBender.com'],
+    sourceUrl: 'https://illinoisattorneygeneral.gov/news/story/consumer-alert-attorney-general-raoul-warns-state-employees-and-retirees-about-investment-scams',
+  },
+  {
+    name: '36th District Court Fake Toll Violation Text Scam',
+    slug: 'michigan-36th-district-court-toll-violation-text-scam',
+    description: `Michigan Attorney General Dana Nessel warned residents on March 2, 2026, about a text-message scam impersonating the 36th District Court in Wayne County, one of the busiest courts in the state and a name recognizable enough to Detroit-area residents to lend the fraud instant credibility. The message includes an image styled as an official "Notice of Civil Infraction Hearing" tied to a supposed unpaid toll violation, tells the recipient they must either appear in court on a specified date or admit guilt and pay a penalty by a deadline, and embeds a QR code that the alert says is designed to look like it belongs to the Michigan Department of State but actually routes to a fraudulent payment page with no connection to any state agency. "Scammers are using toll road scams to scare residents into turning over their hard-earned money," Nessel said, urging anyone who receives a message like this to trust their instincts rather than the urgency the text manufactures. Her office noted that government agencies do not demand payment by email, phone call, or text message, that a genuine civil infraction notice arrives by mail with the actual court's contact information and payment options printed on it, and that this was not an isolated incident — similar fake toll and ticket messages circulating around the same time have separately impersonated private toll operators and the Michigan Department of Transportation. Residents who receive the text are advised not to click the link or scan the QR code, not to reply, and to verify any claimed violation directly with the 36th District Court or the agency named in the message using contact information found independently rather than in the text itself.`,
+    categorySlug: 'government-impersonation',
+    country: 'US',
+    state: 'MI',
+    alertLevel: 'high',
+    sources: ["Michigan Attorney General's Office", 'CBS News Detroit', 'WXYZ Detroit'],
+    sourceUrl: 'https://www.michigan.gov/ag/news/press-releases/2026/03/02/ag-nessel-warns-residents-of-new-toll-road-scam-impersonating-36th-district-court',
+  },
+  {
+    name: 'Cryptocurrency Kiosk "Emergency" Cash Deposit Scam',
+    slug: 'nevada-cryptocurrency-kiosk-emergency-deposit-scam',
+    description: `Nevada Attorney General Aaron Ford issued a consumer alert on June 5, 2026, warning residents about a fast-growing scam built around cryptocurrency kiosks — machines resembling ordinary ATMs, commonly found in gas stations, supermarkets, bars, and convenience stores, that convert cash into digital currency. The scam almost always starts with an unsolicited phone call, text, email, or pop-up designed to manufacture fear and urgency, frequently with the caller impersonating a relative in crisis, a law enforcement officer, or a representative of a legitimate company or government agency. Once the target is convinced an emergency exists — a supposed arrest to bail out, a fine to pay, a compromised bank account to "protect" — the caller directs them to the nearest crypto kiosk and talks them through feeding in cash and scanning a QR code tied to the scammer's own digital wallet. "Scammers will use cryptocurrency kiosks to trick you into transferring money in an almost untraceable manner," Ford said, noting that once funds move through one of these machines, the transaction cannot be reversed and is extremely difficult to trace, unlike a wire transfer or bank dispute that at least offers some chance of recovery. FBI data cited by AARP shows the losses are not marginal: cryptocurrency kiosk fraud accounted for over $389 million in reported losses in 2025 alone, and the scam disproportionately targets older adults. Ford's guidance is to treat the request itself as the warning sign: "If a person asks you to use a cryptocurrency kiosk to transfer money, stop and consider if the interaction feels above board" — no legitimate government agency, bank, or business will ever direct someone to resolve a debt, fine, or emergency by depositing cash into one of these machines. Nevadans who believe they've encountered this scam are urged to stop the transaction if possible and file a complaint with the Attorney General's office.`,
+    categorySlug: 'family-emergency-scams',
+    country: 'US',
+    state: 'NV',
+    alertLevel: 'high',
+    sources: ["Nevada Attorney General's Office", 'FOX5 Las Vegas (KVVU)', 'AARP'],
+    sourceUrl: 'https://ag.nv.gov/News/PR/2026/Attorney_General_Ford_Warns_Nevadans_of_Cryptocurrency_Kiosk_Scams/',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
