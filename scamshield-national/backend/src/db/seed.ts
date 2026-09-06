@@ -43948,6 +43948,41 @@ SEED_SCAMS.push(
   },
 );
 
+// Three new, real, sourced cases tied to Jamaica — a country not
+// previously covered in SEED_SCAMS (verified by grep before adding).
+SEED_SCAMS.push(
+  {
+    name: 'Antony Linton Stewart Jamaica-Based Lottery Fraud Ring',
+    slug: 'jamaica-antony-stewart-lottery-fraud-ring-charlotte',
+    description: `Antony Linton Stewart, a 40-year-old Jamaican citizen, led a Jamaica-based lottery fraud ring that, from 2010 through at least 2016, called elderly Americans by phone and falsely told them they had won a lottery prize or sweepstakes, then said they first needed to send money to cover supposed fees and taxes before the winnings could be released. According to the U.S. Attorney's Office for the Western District of North Carolina, Stewart and his co-conspirators kept individual victims on the hook for as long as they could be persuaded to keep sending more money, repeatedly inventing new costs that had to be paid before a nonexistent prize would ever arrive. Stewart pleaded guilty on August 3, 2023, to one count of conspiracy to commit mail and wire fraud, and on January 27, 2025, a federal judge in Charlotte sentenced him to 84 months (seven years) in prison and ordered him to pay $1,104,041.74 in restitution to his victims. The case is one of a long line of lottery-fraud prosecutions built around callers based in Jamaica reaching victims across the United States, and prosecutors emphasized that no legitimate lottery, sweepstakes, or prize program ever requires a winner to pay taxes or fees upfront out of pocket before receiving winnings — genuine prize taxes are withheld from the payout itself, and any call demanding advance payment to "release" a prize is a scam regardless of how official the caller sounds.`,
+    categorySlug: 'lottery-sweepstakes-scams',
+    country: 'JM',
+    isHistorical: true,
+    sources: ["U.S. Attorney's Office for the Western District of North Carolina", 'WBTV', 'FOX8 WGHP'],
+    sourceUrl: 'https://www.justice.gov/usao-wdnc/pr/jamaican-citizen-sentenced-prison-connection-lottery-scheme',
+  },
+  {
+    name: 'Roshard Carty Publishers Clearing House Extradition Case',
+    slug: 'jamaica-roshard-carty-publishers-clearing-house-extradition',
+    description: `Roshard Andrew Carty, a 34-year-old Jamaican national, began calling a 73-year-old southwest Washington woman in August 2020, posing as a Publishers Clearing House representative and telling her she had won a $22 million prize plus a car. To keep her paying, Carty said she first had to cover a series of taxes and fees before the winnings could be released, and to stop her from telling anyone or asking for help, he falsely warned her that the FBI was recording their calls and that revealing the "win" would forfeit it. According to the U.S. Attorney's Office for the Western District of Washington, Carty contacted the victim thousands of times from different phone numbers and platforms over nearly four years, at times arranging unsolicited tow-truck visits, pizza deliveries, and even police welfare checks at her home to reinforce the illusion that powerful, official forces were involved in her case. Between August 2020 and February 2024 the victim sent more than $600,000 to money couriers around the United States who forwarded the funds on to Carty in Jamaica, eventually selling her own home to keep covering the mounting "costs and fees." A federal grand jury indicted Carty in November 2024, and he was arrested in Jamaica on August 21, 2025, and extradited to the United States, arriving in the Western District of Washington for arraignment on October 23, 2025. He pleaded guilty to wire fraud in February 2026 and was sentenced on May 14, 2026, in U.S. District Court in Tacoma to three years in federal prison. "This defendant was relentless in defrauding a vulnerable victim," First Assistant U.S. Attorney Charles Neil Floyd said of the case. The scheme is a reminder that a real sweepstakes never asks a winner to pay taxes or fees before releasing a prize, and that any caller invoking the FBI or another agency to demand secrecy about a "win" is manufacturing urgency to keep a victim from checking the story with someone else.`,
+    categorySlug: 'lottery-sweepstakes-scams',
+    country: 'JM',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office for the Western District of Washington", 'KOMO News', 'KIRO 7'],
+    sourceUrl: 'https://www.justice.gov/usao-wdwa/pr/jamaican-national-sentenced-prison-lottery-scam-devastated-southwest-washington',
+  },
+  {
+    name: 'JCF "Scam Done, Justice A Run" Lottery Scam Raids in Montego Bay',
+    slug: 'jamaica-jcf-scam-done-justice-a-run-montego-bay-raids',
+    description: `Between June 5 and June 7, 2025, the Jamaica Constabulary Force's Counter-Terrorism and Organised Crime Investigations Branch, working through its Anti-Lottery Scam Unit alongside the Financial Investigations Division and other specialized units, ran a series of predawn raids in Montego Bay, St. James — the parish long identified as the center of Jamaica's lottery-scam industry — under the operation name "Scam Done, Justice A Run." A first set of coordinated raids between 3:00 a.m. and 6:00 a.m. on June 5 hit the Bogue and West Village housing schemes, followed by further action in Rosemount on June 7. The operations recovered more than JM$28 million in cash, over US$19,000, additional cash in other foreign currencies, and nine high-end motor vehicles. Police charged three men in connection with the raids: 30-year-old Bogue Village businessman O'Dayne Gilling, with possession of identity information; 23-year-old West Village resident Darrion Miller, with possession of an access device; and 42-year-old Rosemount resident Keyon Gibbs, with abstracting electricity. Deputy Superintendent of Police Dave Brown said of the broader campaign, "We are aggressively pursuing individuals who prey on vulnerable people both locally and abroad," describing the raids as part of a sustained effort to dismantle the scamming networks operating out of western Jamaica. For years those networks have run advance-fee lottery and sweepstakes calls targeting mostly elderly victims in the United States and Canada, and the scale of cash, foreign currency, and vehicles seized in a single weekend of raids illustrates how much money the scheme moves through a local network of operators, "money mules," and safehouses before it ever reaches a scammer's own pocket — reinforcing that anyone contacted about a prize win who is asked to send money, gift cards, or wire transfers first should hang up and report the call rather than engage further.`,
+    categorySlug: 'lottery-sweepstakes-scams',
+    country: 'JM',
+    alertLevel: 'high',
+    sources: ['Jamaica Constabulary Force', 'Jamaica Gleaner', 'Jamaica Observer'],
+    sourceUrl: 'https://jcf.gov.jm/jcf-intensifies-fight-against-lottery-scamming-with-major-operations-in-st-james-over-j28-million-and-us19000-seized/',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
