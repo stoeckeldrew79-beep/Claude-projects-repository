@@ -41960,6 +41960,40 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: "Bulgaria's \"Help the Police Catch a Gang\" Elder Phone-Fraud Networks",
+    slug: 'bulgaria-fake-police-elder-phone-fraud',
+    description: `Since at least the early 2010s, organized crews operating out of Bulgaria have run a phone-fraud script Bulgarian investigators call "подпомагане на полицията" — helping the police. A caller claiming to be a police officer tells an elderly victim that a gang is about to target their bank account or life savings, and asks them to "cooperate" with a sting: withdraw cash, gather any gold or jewelry in the house, and wait for a second call. That second caller, posing as the "gang member," instructs the victim to leave the money in a bag under a stone outside the building, hand it to a courier, or throw it from a balcony window — supposedly so undercover officers stationed outside can catch the thief in the act. A closely related version tells victims their banknotes are suspected counterfeit and that a "colleague" needs to confiscate them for verification. Reporting by Agence France-Presse, based on Bulgarian Interior Ministry data, found that roughly 900,000 people in Bulgaria's population of 7.4 million were targeted by this kind of phone fraud between 2011 and 2016, with about €11 million confirmed stolen in that period — nearly a third of it in 2015 alone — and police able to identify only around one in ten suspects, since callers use untraceable prepaid SIM cards and compartmentalized crews whose members never meet in person. One 82-year-old retired teacher in Kyustendil recalled a caller telling her, "Don't worry, madam ... collect everything you have," before she handed over her entire life savings of 5,800 leva (about €3,000). The pattern has not slowed since: Novinite reported that on July 2, 2026, Greek police arrested a 30-year-old Bulgarian national, Sylvester Mindev, for running a cross-border cell that used the same "relative in danger" and fake-official script to extract more than €690,000 from at least 29 elderly victims across Attica and Thessaloniki, catching him after a targeted victim tipped off police and cooperated in a surveillance operation.`,
+    categorySlug: 'government-impersonation',
+    country: 'BG',
+    alertLevel: 'critical',
+    sources: ['Agence France-Presse (via Daily Sabah)', 'Novinite.com (Sofia News Agency)'],
+    sourceUrl: 'https://www.novinite.com/articles/239391/Bulgarian+Man+Arrested+in+Greece+Over+690,000-Euro+Phone+Fraud+Scheme+Targeting+Elderly+Victims',
+  },
+  {
+    name: "Bulgaria-Based Fake Crypto \"Pig Butchering\" Call Center Network",
+    slug: 'bulgaria-fake-crypto-call-center-network',
+    description: `On January 11, 2023, Europol coordinated a takedown of a cross-border investment-fraud network running at least four call centers out of Bulgaria, Serbia, and Cyprus, working alongside Eurojust, the Bulgarian National Police, and law enforcement in Germany. Investigators said the network used social media advertisements to lure victims — reached mainly in Germany, but also Switzerland, Australia, and Canada — to slick, fraudulent cryptocurrency investment websites promising exceptional returns. Once a victim made an initial deposit, typically a three-digit sum, the fake platform showed a rapidly rising account balance and manufactured "profit" notifications designed to pressure them into wiring larger and larger amounts, the pattern now widely known as "pig butchering." The operation involved searches of 22 locations, including four call centers, and questioning of 261 people (42 in Bulgaria, 214 in Serbia, 2 in Cyprus, and 3 in Germany), resulting in 15 arrests — 14 in Serbia and one in Germany. Officers seized roughly $1 million in cryptocurrency held across three hardware wallets, about €50,000 in cash, three vehicles, and extensive digital evidence. German victims alone had confirmed losses exceeding €2 million, though Europol said the network's total illegal proceeds — from at least four such call centers operating across eastern Europe — likely reached into the hundreds of millions of euros. The case came roughly a year after a related January 2022 operation in which Bulgarian police raided two call centers in Sofia and Burgas running a more traditional boiler-room investment fraud, in which multilingual staff posed as financial advisers to defraud several hundred mostly German, Greek, and Spanish investors out of more than €10 million — evidence, investigators said, that the same Balkan call-center infrastructure keeps getting repurposed from fake forex and binary-options pitches to fake crypto ones as each scheme runs its course.`,
+    categorySlug: 'investment-fraud',
+    country: 'BG',
+    isHistorical: true,
+    firstRecorded: '2023-01-11',
+    sources: ['Europol', 'Eurojust', 'The Sofia Globe'],
+    sourceUrl: 'https://www.europol.europa.eu/media-press/newsroom/news/call-centres-selling-fake-crypto-taken-down-in-bulgaria-serbia-and-cyprus',
+  },
+  {
+    name: 'Fake Bulgarian National Bank "Loan Offer" Phone Scam',
+    slug: 'bulgaria-national-bank-fake-loan-phone-scam',
+    description: `Starting in the summer of 2025, the Bulgarian National Bank (BNB) began publicly warning about a wave of fraudulent phone calls in which callers falsely present themselves as BNB employees and tell the target that loans are being issued in the bank's name, then give instructions to carry out actions such as depositing cash or ordering a wire transfer. In a formal notice issued July 22, 2025 — reported in English by Bulgarian National Radio — the central bank stated plainly that "such calls are fraudulent and do not originate from BNB employees" and that "the Bulgarian National Bank does not make calls to citizens with offers of loans or other financial services." The BNB's own notice specifically warned that in some cases the fake BNB call is combined with a second, equally fake call from someone claiming to represent another state or public institution, layering one impersonation on top of another to make the pitch feel more official and to pressure the target into acting before checking the story with anyone else. The bank's advice to the public was direct: never share personal data over the phone, never follow instructions given during such a call, and if fraud is suspected, contact your own bank immediately and report the call to the nearest Ministry of Interior office.`,
+    categorySlug: 'government-impersonation',
+    country: 'BG',
+    alertLevel: 'high',
+    sources: ['Bulgarian National Bank (BNB)', 'Bulgarian National Radio (BNR)'],
+    sourceUrl: 'https://bnrnews.bg/en/post/137660/the-bulgarian-national-bank-warns-of-fraud-we-do-not-offer-loans-over-the-phone',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
