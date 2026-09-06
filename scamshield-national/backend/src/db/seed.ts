@@ -41610,6 +41610,42 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'New Hampshire Eversource Utility Shutoff Scam',
+    slug: 'new-hampshire-eversource-utility-shutoff-scam',
+    description: `Scammers place phone calls to New Hampshire utility customers, falsely claiming to be from Eversource, and tell the customer their account has a past-due balance that must be paid immediately — often by prepaid debit card or credit card over the phone — or their electricity will be shut off within the hour. The New Hampshire Attorney General's Office and the Public Utilities Commission's Director of Consumer Affairs issued a joint consumer alert warning that these calls do not come from New Hampshire utility companies, noting that a real disconnection notice is always sent in writing at least fourteen days before any proposed shutoff, never demanded same-day over the phone. The pattern has persisted for years and remains one of the most commonly reported utility-impersonation scams in the state; regulators advise hanging up on any caller who threatens immediate disconnection and calling the utility directly using the number printed on a past bill.`,
+    categorySlug: 'utility-scams',
+    country: 'US',
+    state: 'NH',
+    alertLevel: 'medium',
+    sources: ['New Hampshire Department of Justice', 'New Hampshire Public Utilities Commission'],
+    sourceUrl: 'https://www.marlownh.gov/police/page/eversource-tips-protect-customers-utility-scams',
+  },
+  {
+    name: 'Oklahoma Meta Deepfake Investment Ad Scam',
+    slug: 'oklahoma-meta-deepfake-investment-ad-scam',
+    description: `Oklahoma Attorney General Gentner Drummond issued a consumer alert in April 2026 warning residents about scam investment advertisements running on Meta platforms — Facebook, Instagram, and WhatsApp — that use deepfake video technology to fabricate celebrity endorsements of fraudulent cryptocurrency and stock trading opportunities. The ads promise guaranteed returns through "pump and dump" stock schemes, confidence scams that build trust before draining a victim's account, and fake crypto trading platforms, using AI-manipulated video of well-known public figures to make the pitch look credible and to create urgency. Drummond's office coordinated with attorneys general in 41 other states, who had previously sent Meta a joint letter demanding stronger advertisement-review processes to catch this kind of fabricated content before it reaches users. The alert urges Oklahomans to treat any celebrity-endorsed investment ad on social media as suspect by default and to verify any investment opportunity independently before sending money or cryptocurrency.`,
+    categorySlug: 'ai-deepfake-scams',
+    country: 'US',
+    state: 'OK',
+    alertLevel: 'high',
+    sources: ['Oklahoma Office of the Attorney General'],
+    sourceUrl: 'https://oklahoma.gov/oag/news/newsroom/2026/april/drummond-warns-oklahomans-of-scam-investment-ads.html',
+  },
+  {
+    name: 'South Carolina Timeshare Resale "Round Two" Scam',
+    slug: 'south-carolina-timeshare-resale-round-two-scam',
+    description: `The South Carolina Department of Consumer Affairs published a consumer "Spotlight" report warning that most timeshare resale scams targeting South Carolina owners begin with an unsolicited phone call from a "representative" who claims to already have a buyer lined up for the victim's timeshare — all the owner needs to do is pay an upfront fee to close the deal. Property records are public, which is how these callers find timeshare owners in the first place, and the promised buyer and closing never materialize once the fee is paid. SCDCA warns that victims of the initial resale scam are frequently targeted a second time, dubbed "Round Two," when a different caller offers — for another fee — to recover the money already lost; the agency notes that a legitimate recovery effort would never need to ask why the caller already knows a victim lost money, or demand more payment upfront to get it back. SCDCA advises owners to check for complaints on file against any resale company, get all terms in writing before agreeing to anything, and verify a company independently rather than trusting an unsolicited caller.`,
+    categorySlug: 'timeshare-scams',
+    country: 'US',
+    state: 'SC',
+    alertLevel: 'medium',
+    sources: ['South Carolina Department of Consumer Affairs'],
+    sourceUrl: 'https://consumer.sc.gov/sites/consumer/files/Documents/Spotlight/Timeshare_Scams.pdf',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
