@@ -2302,4 +2302,22 @@ The reversal doesn't change the facts the CFPB's own investigators found, and it
     coverImagePosition: 50,
     // representative photo — a school computer lab, not PowerSchool itself; replace with an exact match if found
   },
+  {
+    title: "The SimonMed Imaging Breach: How a Ransomware Attack on a Radiology Chain Exposed 1.2 Million Patients' Scans and Records",
+    slug: "simonmed-imaging-2025-data-breach-guide",
+    author: "ScamShield Editorial",
+    tags: ["guide", "simonmed-imaging-2025-breach"],
+    body: `SimonMed Imaging is one of the largest outpatient radiology providers in the country, running hundreds of MRI, CT, X-ray, and mammography centers across more than a dozen states where patients go for scans ordered by their own doctors. Between January 21 and February 5, 2025, hackers broke into the Scottsdale, Arizona-based company's network and spent more than two weeks quietly copying files before anyone caught them. The ransomware group Medusa later claimed responsibility, saying it had pulled more than 200 gigabytes of data, including patient records and medical scans.
+
+When SimonMed finished its investigation, the company confirmed that the personal and health information of roughly 1.27 million patients had been exposed. The compromised data reportedly included names, addresses, dates of birth, medical record numbers, diagnoses, treatment details, and health insurance information — the actual clinical substance of a radiology visit, not just contact information. SimonMed said it had not seen evidence the data had been misused as of its notification letters, but as with most large breaches, that assessment can only reflect what's known at the time notifications go out, not what happens to stolen files circulating afterward on criminal marketplaces.
+
+Medical imaging records carry a particular kind of risk that a simple email-and-password leak doesn't. A diagnosis, a treatment history, and a medical record number tied to a real name and birth date is exactly the kind of detail that makes a follow-up phishing message feel authentic — a text or call that references a specific scan, a specific diagnosis, or a "billing issue" tied to a real recent visit is far more convincing than a generic scam attempt, precisely because it's accurate. That same information can also be used for medical identity theft: someone using a patient's insurance details to obtain their own imaging, treatment, or equipment, which can leave the real patient with someone else's charges — or worse, someone else's medical history mixed into their own record.
+
+If you've had an MRI, CT scan, X-ray, or other imaging done at a SimonMed Imaging location, watch for an official notification letter describing exactly what information of yours was involved, and don't assume you're unaffected just because you haven't heard anything yet — breach notifications for incidents this size can take months to finish going out. Review your health insurance explanation-of-benefits statements for any services you don't recognize, since that's often the first sign of medical identity theft. If your Social Security number or comparably sensitive identifiers were part of what SimonMed disclosed to you specifically, consider a credit freeze with all three major bureaus. Be skeptical of any unexpected email, text, or call referencing SimonMed, a specific scan, or a "billing correction," and confirm anything that sounds legitimate by calling SimonMed directly using a number from its official website rather than one provided in the message — real breach headlines reliably draw a wave of copycat phishing that uses the incident itself as bait. Anyone who suspects their information was misused can report it to the FTC at ReportFraud.ftc.gov and start a recovery plan at IdentityTheft.gov.`,
+    sourceUrl: "https://www.hipaajournal.com/simonmed-imaging-confirms-january-2025-cyberattack/",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Modern_3T_MRI.JPG?width=1200",
+    coverImageCredit: "Photo: KasugaHuang, CC BY-SA 3.0, via Wikimedia Commons — a modern clinical MRI scanner",
+    coverImagePosition: 50,
+    // representative photo — a generic MRI scanner, not a SimonMed facility itself; replace with an exact match if found
+  },
 ];
