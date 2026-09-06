@@ -43229,6 +43229,39 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'Fake "Judicial Police" Phishing Emails',
+    slug: 'iceland-fake-judicial-police-phishing-emails',
+    description: `In 2025, Iceland's national police warned the public about a wave of fraudulent emails dressed up as official correspondence from the force itself, with attachments falsely carrying the name of National Commissioner Halla Bergþóra Björnsdóttir to make the message look like it came from the very top of Icelandic law enforcement. The emails accused recipients of an unspecified legal infraction and warned that legal proceedings — framed as a looming criminal case or arrest — would follow if the recipient did not respond, a fear-and-urgency tactic meant to push people into opening the attachment or replying before they had a chance to question whether the police actually communicate this way. Police confirmed the messages were not genuine and had nothing to do with any real investigation, and urged anyone who received one to verify the sender independently through the force's official channels, avoid opening unexpected attachments or links, and never hand over card numbers or other sensitive personal information in response to an unsolicited email — noting that this impersonation campaign fit a broader pattern of scammers borrowing the names of trusted Icelandic institutions to lend fake demands an air of authority.`,
+    categorySlug: 'government-impersonation',
+    country: 'IS',
+    alertLevel: 'high',
+    sources: ['Iceland Review'],
+    sourceUrl: 'https://www.icelandreview.com/news/iceland-police-fake-judicial-police-phishing-emails/',
+  },
+  {
+    name: 'Fake Tax Authority "Digital ID" Phishing Scam',
+    slug: 'iceland-tax-authority-digital-id-phishing-scam',
+    description: `Starting in January 2025, Icelanders began receiving fraudulent emails impersonating Iceland's Revenue and Customs Authority (Skatturinn), prompting the agency to issue a public warning on February 28, 2025 after the campaign continued for weeks. The emails told recipients they needed to activate their digital ID — rafræn skilríki, the electronic authentication credential Icelanders use to log into banking, government and tax portals — in order to "correct" a supposed problem with their tax statement, a pretext designed to trick victims into handing over the credentials that would give scammers access to real financial accounts. Despite posing as a domestic government agency, the messages displayed a sender address of info@ecogreenelectric.ro, tracing back to Romania rather than any legitimate Icelandic source. The tax authority reminded the public that it never asks recipients to click outbound links in an email to resolve an account issue — genuine notifications direct people to log in independently through island.is or the agency's own official website — and asked anyone who received one of the fraudulent emails to report it to police rather than engage with it.`,
+    categorySlug: 'tax-scams',
+    country: 'IS',
+    alertLevel: 'high',
+    sources: ['Reykjavík Grapevine', 'Iceland Review'],
+    sourceUrl: 'https://grapevine.is/news/2025/02/28/iceland-revenue-and-customs-authority-warns-against-phishing-scam/',
+  },
+  {
+    name: 'AI Voice "Microsoft Support" Scam Using Icelandic Phone Numbers',
+    slug: 'iceland-ai-voice-microsoft-support-scam',
+    description: `Icelandic police warned in 2025 that a long-running telephone fraud scheme — a caller posing as Microsoft support who claims there is a problem with the victim's computer and talks them into installing remote-access software — had evolved into a more convincing version using artificial intelligence. Where earlier versions of the scam typically came from obviously foreign numbers and were conducted in accented or machine-translated Icelandic, police said calls now appear to originate from genuine Icelandic phone numbers and use speech-synthesizer technology to communicate fluently in Icelandic, making the pretext far harder for a wary recipient to catch by accent or number alone. Once a victim installs the remote-access tool the caller talks them through, the scammer gains hands-on control of the computer and can lift banking credentials, card numbers, or other financial information directly from the machine. Police said the scheme's evolution coincided with a surge in reported losses, with cyber fraud reports to police totaling nearly ISK 190 million in just over a month, and advised anyone who suspects they were targeted to contact their bank immediately to secure their accounts, then report the incident to police through Iceland's island.is cybercrime reporting portal.`,
+    categorySlug: 'tech-support-scams',
+    country: 'IS',
+    alertLevel: 'high',
+    sources: ['Iceland Review', 'RÚV'],
+    sourceUrl: 'https://www.icelandreview.com/news/police-warn-of-ai-voice-scam-using-icelandic-phone-numbers/',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
