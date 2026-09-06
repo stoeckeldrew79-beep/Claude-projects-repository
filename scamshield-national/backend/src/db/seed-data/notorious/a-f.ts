@@ -3757,6 +3757,24 @@ Peru's banking and insurance regulator, the SBS, opened an investigation into CL
 
 CLAE's collapse left a durable scar on Peru's culture around informal finance: the label "claeístas" stuck to the scheme's victims for a generation, and CLAE remains the reference point Peruvian financial educators and regulators point to whenever a new too-good-to-be-true investment vehicle appears promising the double-digit monthly returns no legitimate, regulated institution can safely offer. Manrique spent his later years largely out of public view, occasionally resurfacing in interviews defending his conduct as a response to a broken banking system rather than a deliberate fraud; he died in a Lima hospital on July 10, 2024, from pulmonary and kidney complications, just short of his 90th birthday, having never repaid the vast majority of what CLAE's roughly 200,000 depositors were owed.`,
   },
+{
+    title: 'Dafina Milanović and the Dafiment Bank Pyramid That Helped Fund a War',
+    slug: 'dafina-milanovic-dafiment-bank-pyramid-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://www.washingtonpost.com/archive/politics/1993/04/02/serb-banks-face-run-by-depositors/5bdbec03-e67c-4fd0-a03d-fe83d4f2ad86/',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/National_Bank_of_Serbia_building.jpg?width=1200',
+    coverImageCredit: 'Photo: LukaP, Wikimedia Commons (CC BY-SA 3.0) — the National Bank of Serbia building in Belgrade, whose functions Dafiment Bank operated entirely outside of',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    body: `Dafina Milanović opened Dafiment Bank in Belgrade in October 1991, at about the worst possible moment for anyone with savings in Yugoslav dinars: international sanctions imposed over the wars accompanying Yugoslavia's breakup were starving the country of hard currency, and runaway inflation was shredding the value of deposits held in the state banking system. Dafiment offered a way out, advertising monthly interest of roughly 10 to 15 percent on hard-currency accounts and rates reported as high as 150 percent or more on dinar deposits — terms no legitimate bank could sustain, but that looked like salvation to people watching their savings evaporate by the week.
+
+The money poured in. An estimated 150,000 to 200,000 depositors, some reportedly selling homes or cars to invest, handed Dafiment sums that later estimates put anywhere from roughly 450 million to more than a billion German marks. What made the scheme unusual was less its mechanics — interest paid to early depositors came from cash brought in by new ones, ordinary Ponzi arithmetic dressed up as a bank — than its apparent sponsorship: journalists and later investigators concluded that Slobodan Milošević's government had encouraged and shielded Dafiment because its dinar deposits and hard-currency intake were quietly helping finance the state and the war effort in Bosnia at a time international sanctions had cut Belgrade off from ordinary sources of foreign exchange.
+
+Dafiment collapsed in 1993 once runaway inflation and the scheme's underlying arithmetic finally caught up with it, wiping out most of what depositors had put in. Milanović avoided prosecution for years and eventually left Serbia; she was arrested on an international warrant in Zweibrücken, Germany, in 2002, and Serbian prosecutors filed an indictment against her in October 2003 accusing her of embezzlement and abuse of official position. The case dragged on afterward — she was briefly detained again in Switzerland in 2007 before being released on health grounds.
+
+Milanović died in Belgrade on September 4, 2008, before her trial ever reached a verdict, leaving Dafiment's depositors, and the broader question of exactly how much of their money went toward financing Serbia's role in the Yugoslav wars, permanently unresolved. Dafiment remains one of the starkest examples in Europe of a private pyramid scheme operating with the tacit protection of a national government — not because its architect was especially skilled at evading financial oversight, but because for a period the state needed what her "bank" could bring in more than it needed to police it.`,
+  },
 ];
 
 NotoriousAF.push(

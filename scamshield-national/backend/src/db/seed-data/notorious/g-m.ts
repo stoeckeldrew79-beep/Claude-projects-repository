@@ -3895,4 +3895,22 @@ The payouts stopped in February 2022 once new recruitment could no longer cover 
 
 Estimates of Generación Zoe's total take vary by jurisdiction and investigation, ranging from roughly $120 million in one widely cited early accounting to considerably more once every province's victims are counted, and with new cases still working through Argentina's courts, the full scope of Cositorto's fraud — and his final combined sentence — remains unsettled years after his arrest. His case has become Argentina's clearest modern illustration of "affinity fraud" wrapped in self-help language: a pitch that recruited through trust, family ties, and the promise of personal transformation rather than through any financial credential Cositorto could actually claim to hold.`,
   },
+{
+    title: 'Jürgen Harksen: The Hamburg Fraudster Who Hired Actors to Play American Bankers',
+    slug: 'jurgen-harksen-hamburg-fake-bankers-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://www.news24.com/southafrica/news/convicted-fraudster-jurgen-harksen-has-died-reports-20240321',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Hamburg_Strafjustizgeb%C3%A4ude_Eingang.jpg?width=1200',
+    coverImageCredit: "Photo: Andreas Praefcke, Wikimedia Commons (CC BY-SA 3.0) — Hamburg's Strafjustizgebäude, where Harksen was tried in 2003",
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    body: `Starting in 1987, a Hamburg businessman named Jürgen Harksen began raising money from the city's wealthy Hanseatic elite for investment vehicles that, prosecutors later found, did not actually exist. Harksen promised spectacular returns — by some accounts as high as 1,300 percent — while funneling new investors' cash into paying off earlier ones, a textbook Ponzi structure, as he spent lavishly on himself. Over roughly five years he took in at least 150 million German marks from around 300 investors, a client list that reportedly included entertainer Udo Lindenberg and record producer Dieter Bohlen, both of whom later said they lost money to him.
+
+In 1993, with German investigators closing in, Harksen fled with his family to Cape Town, South Africa, and kept the scheme running from there rather than shutting it down. To reassure investors who wanted to see the "international financiers" managing their money, Harksen reportedly hired working-class South Africans to pose as American bankers at meetings in upscale Cape Town restaurants — men who, despite speaking with unmistakable South African accents, were passed off to German clients as Wall Street professionals. The theater worked well enough, paired with a mansion in Constantia and a conspicuously lavish lifestyle, to keep money flowing and to draw Harksen into the fringes of South African political life, where he later claimed — and authorities disputed — ties to local politicians and intelligence figures.
+
+South Africa spent almost a decade fighting over whether to send Harksen back to Germany, a battle that produced a landmark 2000 Constitutional Court ruling on the limits of the search-and-seizure powers used against him. Harksen finally consented to extradition in October 2002. A Hamburg court convicted him in April 2003 on 52 counts of fraud tied to roughly 30 million marks in proven losses to three investors — a fraction of the full scheme's estimated damage, but enough to draw a sentence of six years and nine months; his wife, Jeanette, received a suspended two-year term for helping run the operation.
+
+Harksen was released in February 2008 and relocated to Mallorca, where he worked in the wine trade and later ran two restaurants. He was not finished with fraud: in 2015 he was convicted again, this time over false promises made to a couple seeking help with an international adoption, and received a further suspended sentence. Harksen died in Palma de Mallorca on March 19, 2024, at 63, having spent his later years as something of a minor celebrity in Germany — the subject of a 2007 documentary and the inspiration for a 2010 television drama — a fraudster whose case endures less for its size than for the audacity of its staging: hiring actors to perform the very credibility his money was supposed to speak for.`,
+  },
 ];
