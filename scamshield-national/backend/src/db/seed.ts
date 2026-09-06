@@ -10944,6 +10944,45 @@ An "insurance" claim is only as good as the policy behind it, and a legitimate i
   },
 );
 
+NOTORIOUS_ARTICLES.push(
+  {
+    title: 'Matthew Melton and Price Physics: A Fake Trading Algorithm, an Affinity Fraud, and a Flight to the U.K.',
+    slug: 'matthew-melton-price-physics-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-25893',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Flatirons_Chatauqua_Park_Boulder_Colorado_USA.jpg?width=1200',
+    coverImageCredit: 'Photo: Greg Tally, Wikimedia Commons (CC BY-SA 2.5) — the Flatirons above Boulder, Colorado, where Matthew Melton lived before fleeing to the United Kingdom',
+    coverImagePosition: 50,
+    body: `Matthew Melton, of Boulder, Colorado, built his pitch around a number that should have set off alarms on its own: a guaranteed 12 percent return, every single month, indefinitely, from an investment vehicle he called Price Physics. Between April 2018 and October 2020, according to the Securities and Exchange Commission, Melton told at least 20 to 23 investors that Price Physics traded stock-index futures using a proprietary algorithm so reliable he would keep only a small cut — around 2 percent — of the gains for himself, passing the rest back to investors as pure profit. It was the kind of offer that sounds almost generous, which is precisely what made it effective.
+
+Melton did not cast a wide net; he fished a specific pond. The SEC's complaint describes him recruiting investors who shared his own affinity for outdoor recreation — people he met through sailing and similar activities, the same social circles he moved in personally. Affinity fraud of this kind works by substituting community trust for the due diligence a stranger would normally perform: if someone you sail with, worship with, or golf with vouches for an opportunity, the instinct is to skip the questions you would ask a cold caller. Investors who signed on with Melton were asked to enter loan agreements or promissory notes and wire funds directly into his personal bank accounts, where the money from different investors was pooled together rather than segregated into any actual trading account.
+
+There was no algorithm generating those returns. The SEC alleges Melton's own trading, to the extent he traded at all, was "consistently unprofitable," and that he used more than $1.5 million of the roughly $3.4 million he raised to make Ponzi-style payments to earlier investors and to fund his own lifestyle — mortgage payments and sailing excursions among the expenditures investigators cited. When the scheme's math inevitably caught up with it, Melton did not stay to face it: prosecutors say he fled the United States, and he was later located and extradited from the United Kingdom in December 2025 to face securities and wire fraud charges in the Southern District of New York.
+
+Melton pleaded guilty in April 2026, and in August 2026 U.S. District Judge Arun Subramanian sentenced him to 51 months in federal prison, ordering forfeiture of $3.76 million with a final restitution figure to be determined. "Matthew Melton sold investors on a sophisticated trading strategy and guaranteed extraordinary returns," said then–U.S. Attorney for the Southern District of New York Jay Clayton in announcing the sentence. "In reality, the supposed algorithm did not exist, and he used investor money to fund his lifestyle and sustain his scheme before fleeing the country." A separate SEC civil action against Melton, seeking disgorgement, penalties, and an officer-and-director bar, remains pending in federal court.
+
+A guaranteed monthly return, paid like clockwork regardless of what markets are doing, is not a sign of skill — it is the schedule a fraudster wrote down before there was any real trading to generate it. And when the person offering that guarantee is someone from your own social or recreational circle, the instinct to trust rather than verify is exactly the vulnerability affinity fraud is built to exploit. A real trading strategy can be described, audited, and verified with a broker-dealer or investment adviser registration search; a strategy whose only proof is a friend's word and a steady check is, as regulators put it, usually too good to be true.`,
+  },
+  {
+    title: 'Nathan Fuller and Privvy Investments: A $12.3 Million "AI Trading Bot" Crypto Scheme',
+    slug: 'nathan-fuller-privvy-investments-ai-crypto-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26558',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Downtown_Houston_Skyline;_2009.jpg?width=1200',
+    coverImageCredit: "Photo: Hequals2henry, Wikimedia Commons (CC BY-SA 3.0) — the downtown Houston skyline; Nathan Fuller's SEC case was filed in the Southern District of Texas",
+    coverImagePosition: 50,
+    body: `From late 2022 through mid-2024, Nathan Fuller of Cypress, Texas, raised approximately $12.3 million from roughly 150 investors through entities he controlled — Privvy Investments, LLC, Privvy Investments, and Gateway Digital Investments — by promising something artificial intelligence has become a convenient excuse to promise: automated, effortless, outsized returns. According to the SEC's civil fraud complaint, filed May 28, 2026 in the Southern District of Texas, Fuller told investors his platform used proprietary AI-driven trading bots capable of high-frequency arbitrage across cryptocurrency markets, generating returns of 40 to 50 percent within 30 to 45 days — with some pitches promising profits exceeding 100 percent in as little as 21 days.
+
+To close the deal with more cautious investors, the SEC alleges Fuller layered on a second set of false assurances: that funds were protected by insurance coverage and the necessary regulatory licenses to operate as a legitimate trading platform. None of that protection existed. The bots themselves, to whatever extent they functioned at all, did not perform as advertised, and Fuller is accused of covering the gap the same way Ponzi operators always have — using approximately $5.5 million of later investors' money to pay off earlier ones, while personally misappropriating at least $6.2 million, some of which investigators say went toward gambling. When investors grew anxious, the SEC alleges, Fuller kept them calm with fabricated account statements and phony correspondence manufactured to look like it came from independent, legitimate entities.
+
+The scheme's unraveling produced an unusually candid admission. In a related 2025 bankruptcy proceeding, Fuller reportedly acknowledged operating Privvy as a Ponzi scheme and creating false documentation to support it — an admission that led a bankruptcy court to deny discharge of more than $12.5 million in debt tied to the fraud. The SEC's subsequent civil complaint, which charges violations of the registration and antifraud provisions of the federal securities laws, seeks a permanent injunction, disgorgement with prejudgment interest, and civil penalties; the case is pending, and the allegations against Fuller have not been proven in court.
+
+"AI-powered trading" has become one of the fastest-growing wrappers for old-fashioned Ponzi mechanics, precisely because few investors — and, often, few regulators in the moment — can independently verify what a "proprietary algorithm" is actually doing with their money. A trading strategy that cannot be explained in terms an investor can evaluate, that promises specific outsized returns on a fixed short timeline, and that claims insurance or licensing protections an investor cannot verify with the named insurer or regulator directly, carries the same warning signs that predate cryptocurrency by decades — only now delivered with a more modern vocabulary.`,
+  },
+);
+
 // Practical "how it works / red flags / what to do" guides covering the
 // major scam categories, the same kind of coverage the FTC's Consumer
 // Advice site and AARP's Fraud Watch Network publish — well-documented
