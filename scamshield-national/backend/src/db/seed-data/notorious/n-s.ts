@@ -2769,4 +2769,24 @@ The fallout was substantial. At least nine of Potti's papers were formally retra
 
 Potti went on to practice clinical oncology after leaving Duke, first in South Carolina and later in North Dakota, treating cancer patients years after the same regulatory system that found him responsible for fabricating the data behind an entire genomic-medicine research program. His case remains a stark illustration of how much faster a fabricated dataset can be built into a live clinical trial affecting real treatment decisions than academic self-policing bodies can act to catch it — and how thin the consequences can be, professionally, for the person who built it.`,
   },
+  {
+    title: 'Robert Hoyzer and the Referee Who Sold Germany a Fixed Cup Upset',
+    slug: 'robert-hoyzer-german-football-match-fixing-scandal',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://en.wikipedia.org/wiki/2005_German_football_match-fixing_scandal',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/1992_Referee_whistles_for_football_Laslovarga_(8).jpg?width=1200',
+    coverImageCredit: "Photo: Laslovarga, Wikimedia Commons (CC BY-SA 4.0) — a referee's whistle, the tool Hoyzer used to fix Bundesliga and DFB-Pokal matches",
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    body: `Robert Hoyzer was a young, Berlin-based match official rising through the ranks of German football's referee corps, trusted with games in the second-tier 2. Bundesliga, the third-tier Regionalliga, and the DFB-Pokal, the national cup competition where lower-division clubs occasionally draw a top-flight opponent. That trust made him a natural target for a Berlin betting syndicate run out of a sports-bar-turned-bookmaking operation called Café King, controlled by three brothers, Ante, Milan, and Filip Sapina, who paid Hoyzer cash and gifts — including a large television set — in exchange for match outcomes he alone, as the man with the whistle and the cards, was positioned to help deliver.
+
+The clearest example came on August 21, 2004, in a DFB-Pokal first-round tie between fourth-tier amateur side SC Paderborn 07 and Hamburger SV, one of the Bundesliga's most storied clubs. Hoyzer awarded Paderborn two highly questionable penalties and sent off Hamburg forward Émile Mpenza for dissent, decisions that helped the massive underdog to a stunning 4-2 win — a result lopsided and statistically bizarre enough, given the gulf between the two clubs, that it drew scrutiny from Hoyzer's fellow officials rather than fading away as an ordinary cup shock.
+
+Several referees flagged the pattern of Hoyzer's officiating to the German Football Association (DFB), and facing an internal inquiry, Hoyzer confessed in January 2005 to fixing or attempting to fix a string of matches for the Sapina syndicate. The Sapina brothers were arrested on January 28, 2005, and investigators went on to examine roughly a dozen matches across the 2. Bundesliga, DFB-Pokal, and Regionalliga from the 2003-04 season for signs of manipulation, estimating that the syndicate's fixed-result bets had generated around €2 million in winnings.
+
+A Berlin court convicted Hoyzer of fraud in November 2005, sentencing him to two years and five months in prison and imposing a lifetime ban from all refereeing and organized football activity in Germany; a second referee implicated in the scheme, Dominik Marks, received a similar lifetime ban, while the Sapina brothers were separately convicted and imprisoned for their roles in running the syndicate. Hoyzer's conviction was upheld and became final, and he was released from custody in July 2008 after serving roughly half of his sentence.
+
+The scandal was Germany's biggest football corruption case in decades and pushed the DFB to tighten oversight and monitoring of match officials, but it also proved to be only a preview: Ante Sapina went on to run an even larger, Europe-wide match-fixing network implicated in hundreds of games, for which he was convicted a second time in 2011 in the sprawling "Bochum" trial. Hoyzer's own case, modest by comparison in the money involved, remains a stark illustration of how a single official's discretion over a penalty call or a red card can be the cheapest point in an entire sport for a fraud to buy.`,
+  },
 );
