@@ -1,6 +1,7 @@
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { useArticles } from '../hooks/useArticles';
+import { useInfiniteArticles } from '../hooks/useArticles';
+import { useInfiniteScroll } from '../hooks/useInfiniteScroll';
 import type { Article } from '../types';
 import { useDocumentMeta } from '../hooks/useDocumentMeta';
 import { NotoriousCoverArt } from '../components/NotoriousCoverArt';
@@ -72,18 +73,35 @@ export default function Articles() {
 
   const [filter, setFilter] = useState<string | undefined>(undefined);
   const [search, setSearch] = useState('');
-  const { data: articles, isLoading, isError } = useArticles(filter);
 
+  // Searching hits the API, so wait for a pause in typing rather than firing
+  // a request per keystroke.
+  const [query, setQuery] = useState('');
+  useEffect(() => {
+    const t = setTimeout(() => setQuery(search.trim()), 250);
+    return () => clearTimeout(t);
+  }, [search]);
+
+  const { data, isLoading, isError, fetchNextPage, hasNextPage, isFetchingNextPage } = useInfiniteArticles({
+    tag: filter,
+    q: query || undefined,
+  });
+  const articles = useMemo(() => data?.pages.flat(), [data]);
+  const sentinelRef = useInfiniteScroll(fetchNextPage, Boolean(hasNextPage) && !isFetchingNextPage);
+
+  // The server decides what matches; this only orders what it returned, so a
+  // title hit outranks a passing mention in a body. Ranking the accumulated
+  // pages means a later page can reshuffle earlier results, which is worth
+  // it because most searches fit in one page anyway.
   const filteredArticles = useMemo(() => {
     if (!articles) return articles;
-    const terms = search.trim().toLowerCase().split(/\s+/).filter(Boolean);
+    const terms = query.toLowerCase().split(/\s+/).filter(Boolean);
     if (terms.length === 0) return articles;
     return articles
       .map((a) => ({ article: a, score: relevanceScore(a, terms) }))
-      .filter((r) => r.score > 0)
       .sort((a, b) => b.score - a.score)
       .map((r) => r.article);
-  }, [articles, search]);
+  }, [articles, query]);
 
   return (
     <div className="max-w-5xl mx-auto px-4 py-10">
@@ -147,11 +165,21 @@ export default function Articles() {
             </Link>
           </BlurFade>
         ))}
-        {articles && articles.length === 0 && <p className="text-slate-500 col-span-2">No articles published yet.</p>}
-        {articles && articles.length > 0 && filteredArticles?.length === 0 && (
-          <p className="text-slate-500 col-span-2">No articles match "{search}".</p>
+        {articles && articles.length === 0 && !query && (
+          <p className="text-slate-500 col-span-2">No articles published yet.</p>
+        )}
+        {articles && articles.length === 0 && query && (
+          <p className="text-slate-500 col-span-2">No articles match "{query}".</p>
         )}
       </div>
+
+      <div ref={sentinelRef} aria-hidden className="h-px" />
+      {isFetchingNextPage && <p className="mt-8 text-center text-sm text-slate-500">Loading more…</p>}
+      {!hasNextPage && !isLoading && articles && articles.length > 0 && (
+        <p className="mt-10 text-center text-sm text-slate-400">
+          That's all {articles.length} {query ? 'matching ' : ''}articles.
+        </p>
+      )}
     </div>
   );
 }

@@ -12,6 +12,30 @@ export async function fetchArticles(tag?: string) {
 // suggest more existed.
 const PAGE_SIZE = 500;
 
+// One window of a collection. Public pages ask for these as the reader
+// scrolls rather than pulling 600+ articles up front.
+export const ARTICLE_PAGE_SIZE = 24;
+
+export interface ArticlePageParams {
+  tag?: string;
+  q?: string;
+  sort?: 'photos-first';
+  offset: number;
+}
+
+export async function fetchArticlePage({ tag, q, sort, offset }: ArticlePageParams) {
+  const { data } = await api.get<{ data: Article[] }>('/articles', {
+    params: {
+      ...(tag ? { tag } : {}),
+      ...(q ? { q } : {}),
+      ...(sort ? { sort } : {}),
+      limit: ARTICLE_PAGE_SIZE,
+      offset,
+    },
+  });
+  return data.data;
+}
+
 export async function fetchAllArticleSummaries(tag: string) {
   const all: ArticleSummary[] = [];
   for (let offset = 0; ; offset += PAGE_SIZE) {

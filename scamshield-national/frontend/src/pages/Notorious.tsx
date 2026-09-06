@@ -1,6 +1,7 @@
 import { useMemo } from 'react';
 import { Link } from 'react-router-dom';
-import { useArticles } from '../hooks/useArticles';
+import { useInfiniteArticles } from '../hooks/useArticles';
+import { useInfiniteScroll } from '../hooks/useInfiniteScroll';
 import { useDocumentMeta } from '../hooks/useDocumentMeta';
 import { NotoriousCoverArt } from '../components/NotoriousCoverArt';
 import { BlurFade } from '../components/magicui/blur-fade';
@@ -18,16 +19,18 @@ export default function Notorious() {
     path: '/notorious',
   });
 
-  const { data: articles, isLoading, isError } = useArticles('notorious');
+  // Profiles with a real, rights-cleared photo lead the collection; ones still
+  // waiting on the photo-hunt routine sort to the back. That ordering is the
+  // server's job now — sorting here would only order the pages already loaded,
+  // so the grid would alternate photo and no-photo blocks as the reader
+  // scrolled.
+  const { data, isLoading, isError, fetchNextPage, hasNextPage, isFetchingNextPage } = useInfiniteArticles({
+    tag: 'notorious',
+    sort: 'photos-first',
+  });
 
-  // Profiles with a real, rights-cleared photo lead the collection; ones
-  // still waiting on the photo-hunt routine (rendering generated cover art
-  // instead) sort to the back until a photo is found for them. A stable
-  // sort keeps each group's existing relative order otherwise.
-  const sortedArticles = useMemo(() => {
-    if (!articles) return articles;
-    return [...articles].sort((a, b) => Number(!a.cover_image) - Number(!b.cover_image));
-  }, [articles]);
+  const sortedArticles = useMemo(() => data?.pages.flat(), [data]);
+  const sentinelRef = useInfiniteScroll(fetchNextPage, Boolean(hasNextPage) && !isFetchingNextPage);
 
   return (
     <div className="max-w-5xl mx-auto px-4 py-12">
@@ -73,6 +76,14 @@ export default function Notorious() {
           <p className="text-slate-500 col-span-2">No entries published yet.</p>
         )}
       </div>
+
+      <div ref={sentinelRef} aria-hidden className="h-px" />
+      {isFetchingNextPage && <p className="mt-8 text-center text-sm text-slate-500">Loading more…</p>}
+      {!hasNextPage && !isLoading && sortedArticles && sortedArticles.length > 0 && (
+        <p className="mt-10 text-center text-sm text-slate-400">
+          That's all {sortedArticles.length} profiles.
+        </p>
+      )}
     </div>
   );
 }
