@@ -12277,6 +12277,61 @@ Fórum Filatélico endures, alongside Afinsa, as one of Europe's largest-ever co
   },
 );
 
+NOTORIOUS_ARTICLES.push(
+  {
+    title: 'Boyd Jefferies and the Stock-Parking Scheme That Ended the Career of a Wall Street Innovator',
+    slug: 'boyd-jefferies-stock-parking-scandal',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://www.washingtonpost.com/archive/local/2001/08/26/boyd-jefferies/c369f570-6df4-42fa-bf73-e9f9a0f69aef/',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/L.A_Financial_district.JPG?width=1200',
+    coverImageCredit: "Photo: Bobak Ha'Eri, Wikimedia Commons (CC BY-SA 2.5) — the Los Angeles financial district, where Boyd Jefferies built the brokerage that bore his name",
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    body: `Boyd L. Jefferies borrowed $30,000 in 1962 to buy a seat on the Pacific Coast Stock Exchange and built, from a Los Angeles telephone booth, one of Wall Street's most important "third market" firms — a brokerage that let big institutional investors trade large blocks of stock directly with each other, anonymously and outside the New York Stock Exchange floor, instead of moving the market by trading through it. Jefferies & Company grew into the nation's leading block-trading house; by the time its collapse began, it was deriving the overwhelming majority of its revenue from exactly that business, and Boyd Jefferies himself had become one of the most respected — and most trusted — brokers on the Street.
+
+That trust is what two of his most demanding clients exploited, and what he let them exploit. Starting in the mid-1980s, Jefferies agreed to "park" stock for the arbitrageur Ivan Boesky and the corporate raider Paul Bilzerian — buying shares and holding them in Jefferies & Company's own name for a fee, with a private understanding that the true owner would buy them back later at a price that shielded Jefferies from any real market risk. The purpose was concealment: parking let Boesky and Bilzerian control far larger stakes in takeover targets than public disclosure rules and margin requirements allowed, while regulators saw only a brokerage's own inventory rather than a hidden ownership position.
+
+The scheme unraveled once Boesky himself was caught. After pleading guilty to securities fraud in November 1986 and agreeing to cooperate — wearing a wire for federal investigators — Boesky implicated the string of Wall Street figures who had helped him, Jefferies among them. In 1987, Jefferies pleaded guilty to two federal felony counts covering the stock parking for Boesky and a related margin violation tied to Bilzerian's stock accumulations, resigned as chairman and CEO of the firm he had founded, and was barred from the securities industry for five years. A federal judge sentenced him to five years' probation and a $250,000 fine — a lenient outcome that reflected his guilty plea and cooperation, in a scandal where other central figures, including Boesky and Michael Milken, went to prison.
+
+Jefferies spent his later years largely out of the financial spotlight, occasionally reappearing as a witness in others' securities cases and pursuing outside business interests, including a winery. He died of an apparent heart attack near his home outside Aspen, Colorado, in August 2001, at age 70. His case remains one of the clearest illustrations of "stock parking" from the insider-trading scandals of the 1980s: a legitimate market innovation — the anonymous block trade — turned, in the hands of a trusted broker willing to disguise who really owned what, into a tool for evading the very disclosure rules the block-trading market depended on to stay honest.`,
+  },
+  {
+    title: "William Crotts and the Baptist Foundation of Arizona's $570 Million Affinity Fraud",
+    slug: 'william-crotts-baptist-foundation-arizona',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://baptistnews.com/article/appeals-court-upholds-convictions-of-baptist-foundation-of-arizona-officials/',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/P-_First_Baptist_Church-1923.jpg?width=1200',
+    coverImageCredit: 'Photo: Marine 69-71 ("Tony the Marine"), Wikimedia Commons (CC BY-SA 3.0) — a historic Baptist church in Phoenix, Arizona, the community the Baptist Foundation of Arizona was built to serve',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    body: `The Baptist Foundation of Arizona was founded in 1948 as a modest charitable trust: Southern Baptist churches and individual believers could invest money with it, earn a steady return, and know their funds were ultimately supporting Baptist ministries. For four decades it built a reputation as a safe, faith-based alternative to a bank certificate of deposit, drawing money not just from Arizona but from Baptist congregations and retirees across the country who trusted the foundation's religious identity more than they scrutinized its books.
+
+That trust concealed a real estate portfolio that had gone badly wrong. When Arizona property values collapsed in the late 1980s, the foundation — led by president William Pierre Crotts and general counsel Thomas Grabinski — refused to recognize the losses. Investigators later described how the foundation, rather than write down its bad investments, sold the distressed properties to a web of more than 100 nonprofit shell entities it had itself created, financed, and controlled, most prominently ones called ALO and New Church Ventures. The "sales" moved the losses off the foundation's books on paper while changing nothing in substance, and the foundation kept soliciting new investor money — increasingly from outside Arizona — using it to keep paying interest to existing certificate holders. By the mid-1990s, that constant inflow of new deposits, not any real investment return, was the only thing keeping the foundation's promised payouts flowing: a Ponzi scheme running underneath a religious charity's name.
+
+Investigative reporting by The Arizona Republic in 1998 forced state regulators to act, and the foundation collapsed into Chapter 11 bankruptcy in 1999, revealing roughly $530 million in liabilities against about $70 million in real assets and leaving more than 11,000 investors — many of them elderly retirees who had put in their life savings on the strength of a shared faith — with losses eventually totaling about $570 million. Arizona prosecutors charged Crotts and Grabinski criminally, and a jury convicted both in August 2006 after a ten-month trial, the longest in state history, on charges of fraud and illegally conducting an enterprise; five other former foundation officials had already pleaded guilty and testified for the prosecution. Crotts was sentenced to eight years in prison and Grabinski to six, with both ordered to help pay $159 million in restitution, and Arizona's Court of Appeals upheld their convictions in 2009. The foundation's outside auditor, Arthur Andersen, separately paid $217 million to settle claims that it had missed — or ignored — the fraud for years. Both men have long since completed their sentences, closing the books on what prosecutors called the largest affinity fraud in American history: a scheme that worked precisely because its victims were taught, from the pulpit, to trust the people running it.`,
+  },
+  {
+    title: 'Eric Bloom and the $665 Million Fraud Hidden Inside a "Safe" Cash Management Firm',
+    slug: 'eric-bloom-sentinel-management-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://www.justice.gov/usao-ndil/pr/ceo-and-head-trader-bankrupt-sentinel-management-sentenced-prison-terms-665-million',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Chicago_Board_of_Trade_Building,_Chicago,_Illinois_(9181563862).jpg?width=1200',
+    coverImageCredit: 'Photo: Ken Lund, Wikimedia Commons (CC BY-SA 2.0) — the Chicago Board of Trade Building, at the center of the futures industry Sentinel Management Group served',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    body: `Sentinel Management Group was not a hedge fund chasing big returns — it was the opposite pitch. Founded in 1979 by Philip Bloom, the Northbrook, Illinois firm managed idle cash for commodity brokers, hedge funds, pension funds, and other financial institutions, promising nothing more exciting than safety, liquidity, and modest interest on money its clients needed to have available on short notice to meet their own trading obligations. Philip's son Eric Bloom joined in 1988, became president in 1992, and by the time of the firm's collapse had run it as CEO for nearly two decades, with Sentinel registered as both a futures commission merchant and an SEC investment adviser overseeing well over a billion dollars in client cash.
+
+Behind that conservative image, prosecutors later showed, Sentinel was doing something its clients never agreed to: taking their segregated cash — much of it required by law to be kept safe and separate from the firm's own money — and pledging it as collateral for a large overnight credit line from the Bank of New York, then using the borrowed funds to finance a risky, highly leveraged proprietary trading portfolio that benefited Eric Bloom, his family, and companies they controlled. Clients received account statements showing their money safely invested in short-term instruments; in reality, a significant share of it had been commingled into a single undifferentiated pool and effectively put behind Sentinel's own bets.
+
+The scheme came apart in August 2007, when the unfolding credit crisis triggered a wave of client withdrawal requests that Sentinel could not meet, forcing it into bankruptcy and exposing roughly $665 million in customer losses — at the time the largest financial fraud case ever prosecuted in federal court in Chicago. Federal prosecutors indicted Bloom and Sentinel's senior vice president and head trader, Charles Mosley, in 2012; Mosley pleaded guilty in 2013 and was later sentenced to eight years, while Bloom fought the case to trial and was convicted in March 2014 on eighteen counts of wire fraud and one count of investment adviser fraud. A federal judge sentenced Bloom to 14 years in prison in January 2015, ordered him to pay restitution jointly with Mosley, and the Commodity Futures Trading Commission permanently barred him from the futures industry; a federal appeals court rejected his bid to overturn the conviction in 2017.
+
+Bloom did not serve the full sentence. In December 2024, President Biden commuted his prison term as part of a historic single-day clemency grant to nearly 1,500 people, most of whom had already been released to home confinement during the COVID-19 pandemic; Bloom's felony conviction stands, but his time behind bars ended that month. The case remains a stark reminder that "cash management" and "safety" are marketing words, not guarantees — the firms holding money meant to be boring and liquid can still gamble with it, and a client's only real protection is a segregated account that regulators and outside auditors actually verify rather than one that shows up correctly on a monthly statement.`,
+  },
+);
+
 // Practical "how it works / red flags / what to do" guides covering the
 // major scam categories, the same kind of coverage the FTC's Consumer
 // Advice site and AARP's Fraud Watch Network publish — well-documented
