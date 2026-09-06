@@ -1900,4 +1900,15 @@ export const UsTZ: SeedScam[] = [
     country: "US",
     state: "UT",
   },
+  {
+    name: "Wisconsin Local Government Imposter Invoice Scam",
+    slug: "wisconsin-local-government-imposter-invoice-scam",
+    description: `The Wisconsin Department of Agriculture, Trade and Consumer Protection (DATCP) issued a consumer alert on January 27, 2026, warning that scammers were impersonating local government entities and officials to deceive Wisconsin consumers, businesses, and even other government offices into wiring money for fake tax bills, building permits, or zoning submissions. The fraudulent emails and text messages are dressed up to look convincing, sometimes naming a specific real government employee and reusing an agency's actual logo, street address, and job titles, with well-written details and wire-transfer instructions attached, and some versions arrive as a printed invoice or letter in the mail on the theory that a physical document reads as more trustworthy than an email. The messages typically manufacture urgency by threatening late fees, fines, legal action, or even arrest if payment isn't sent right away. DATCP urges anyone who receives an unexpected invoice or fee demand from a "government" sender to independently look up the agency's real contact information rather than using anything in the message, confirm the charge before paying, and avoid clicking any included links. Suspected scams can be reported to DATCP's Consumer Protection Hotline at (800) 422-7128, by emailing DATCPHotline@wisconsin.gov, or at ConsumerProtection.wi.gov — DATCP recommends screenshotting or printing a suspicious message rather than forwarding it.`,
+    categorySlug: "government-impersonation",
+    alertLevel: "medium",
+    sources: ["Wisconsin Department of Agriculture, Trade and Consumer Protection (DATCP)"],
+    sourceUrl: "https://datcp.wi.gov/Pages/News_Media/ConsumerAlertGovernmentImposterScammers.aspx",
+    country: "US",
+    state: "WI",
+  },
 ];
