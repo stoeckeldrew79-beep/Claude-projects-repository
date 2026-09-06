@@ -42331,6 +42331,40 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'Nationwide Telecom and Prosecutor Impersonation Phone-Scam Crisis',
+    slug: 'lithuania-telecom-prosecutor-impersonation-phone-scam-crisis',
+    description: `Throughout 2025, Lithuanian prosecutors and telecom operators warned of a fast-escalating phone-fraud wave in which callers impersonate mobile-network staff, banks, and government institutions — including prosecutors and police — using "SIM boxes" to spoof legitimate-looking Lithuanian numbers and place simultaneous calls across multiple countries, while distributing malicious links through WhatsApp and iMessage to harvest banking credentials. By mid-2025 losses topped €20 million for the year, with prosecutors opening more than 2,300 preliminary investigations and documenting nearly 4,000 criminal offenses; individual victims lost anywhere from a few thousand to several hundred thousand euros. Prosecutor-General Nida Grunskienė said the cross-border structure of the schemes was outpacing the legal process built to fight them, warning that "by the time mutual legal assistance requests or European Investigation Orders are processed and translated, the money is often already gone," while President Gitanas Nausėda publicly called for dedicated investigative units and the Prosecutor's Office trained 132 prosecutors to specialize in fraud cases. Telecom operators including Telia Lietuva began building a shared, AI-assisted system to flag and block suspicious numbers and messages in real time. Anyone receiving an unexpected call or message claiming to be from a telecom operator, bank, or government office demanding urgent payment or account verification should hang up and contact the institution directly using a number looked up independently, never one supplied by the caller.`,
+    categorySlug: 'government-impersonation',
+    country: 'LT',
+    alertLevel: 'high',
+    sources: ['LRT (Lithuanian National Radio and Television)', "Prosecutor General's Office of Lithuania"],
+    sourceUrl: 'https://www.lrt.lt/en/news-in-english/19/2690362/lithuania-faces-eur20m-phone-scam-crisis-as-president-calls-for-stricter-action',
+  },
+  {
+    name: 'Fake Military Officer and Sailor Romance Scams',
+    slug: 'lithuania-fake-military-officer-sailor-romance-scams',
+    description: `Lithuanian banks and anti-money-laundering investigators reported a sharp rise in romance scams built around a highly specific persona: a foreign military officer or sailor met on social media, ostensibly stationed abroad or at sea, who cultivates a romantic relationship over weeks or months before asking for money. The Center of Excellence in Anti-Money Laundering, working with the Association of Lithuanian Banks, recorded 350 such cases in a single year with attempted transfers exceeding €1 million; individual banks reported their own tallies, including Swedbank (148 affected clients, over €300,000 lost), SEB Bank (45 customers, €154,000), Luminor (€380,000), and Šiaulių Bankas (€73,000). Lithuanian Union of Psychologists president Aina Adomaitytė said prolonged loneliness is the common thread among victims, who become "fully immersed in the creation of a new relationship" to the point that "rationality and critical thinking disappear" — with elderly women looking for companionship on social media described by banks as the most frequently targeted group. Banks also noted that the true scale is likely undercounted because embarrassed victims often delay reporting, and that financial institutions have no power to open an investigation on their own — only the affected customer can file a police report. A request for money from an online partner serving in the military or at sea who can never meet in person or hold a convincing video call should be treated as a decisive warning sign, not a hardship to be sympathized with.`,
+    categorySlug: 'romance-scams',
+    country: 'LT',
+    alertLevel: 'medium',
+    sources: ['LRT (Lithuanian National Radio and Television)', 'Association of Lithuanian Banks'],
+    sourceUrl: 'https://www.lrt.lt/en/news-in-english/19/2200446/hundreds-fall-victim-to-online-romance-scams-in-lithuania',
+  },
+  {
+    name: 'Cross-Border €100 Million Crypto Investment Fraud Laundered Through Lithuanian Accounts',
+    slug: 'lithuania-cross-border-crypto-investment-fraud-laundering',
+    description: `On September 23, 2025, Eurojust announced the results of a coordinated operation — built around a joint investigation team formed between Spanish and Lithuanian authorities, with Portugal's Judiciary Police, Italy's Guardia di Finanza, and Lithuania's Financial Crime Investigation Service also taking part — that dismantled a cryptocurrency investment fraud running since at least 2018 across 23 countries, defrauding more than 100 victims in Germany, France, Italy, Spain, and elsewhere of at least €100 million. The scheme lured victims through professionally designed online trading platforms promising high, steady returns on cryptocurrency investments; when victims tried to withdraw funds, they were told to pay additional "fees" first, after which the platform vanished along with their money. Eurojust's press release stated that "large parts of these investments were diverted mainly to bank accounts in Lithuania to launder the proceeds," making Lithuanian banking rails a key link in moving the stolen funds out of reach before victims or investigators could act. Five suspects were arrested in the coordinated action, including the alleged main perpetrator, on suspicion of large-scale fraud and money laundering. The case is a reminder that a slick, professional-looking crypto trading platform proves nothing about its legitimacy, and that being asked to pay a "release fee" or "tax" before a withdrawal will go through is a hallmark of exit-scam fraud rather than a normal step in cashing out real investment gains.`,
+    categorySlug: 'investment-fraud',
+    country: 'LT',
+    isHistorical: true,
+    firstRecorded: '2025-09-23',
+    sources: ['Eurojust'],
+    sourceUrl: 'https://www.eurojust.europa.eu/news/eurojust-coordinates-action-halt-cryptocurrency-fraud-over-100-million-euros-across-europe',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
