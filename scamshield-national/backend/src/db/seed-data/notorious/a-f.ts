@@ -3775,6 +3775,26 @@ Dafiment collapsed in 1993 once runaway inflation and the scheme's underlying ar
 
 Milanović died in Belgrade on September 4, 2008, before her trial ever reached a verdict, leaving Dafiment's depositors, and the broader question of exactly how much of their money went toward financing Serbia's role in the Yugoslav wars, permanently unresolved. Dafiment remains one of the starkest examples in Europe of a private pyramid scheme operating with the tacit protection of a national government — not because its architect was especially skilled at evading financial oversight, but because for a period the state needed what her "bank" could bring in more than it needed to police it.`,
   },
+  {
+    title: "Ahmed Al-Rayan and Egypt's $7 Billion 'Halal' Pyramid Scheme",
+    slug: 'ahmed-al-rayan-egypt-islamic-investment-pyramid-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://egyptianstreets.com/2022/09/22/egypts-bernie-madoff-the-story-of-ahmed-al-rayan/',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Egyptian_Central_Bank_building.jpg?width=1200',
+    coverImageCredit: 'Photo: Ibrahim.ID, Wikimedia Commons (CC BY 4.0) — the Central Bank of Egypt in Cairo, the institution whose 1988 crackdown law was written specifically to stop schemes like Al-Rayan\'s',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    body: `Ahmed Al-Rayan was in his mid-twenties when he and his brother founded Al-Rayan for Investments in Cairo in 1981, pitching it not as a bank but as something banks in Egypt could never legally be: an explicitly Islamic alternative that avoided riba, the interest income the Quran forbids, by structuring deposits as profit-sharing investments instead. In practice that framing meant Al-Rayan could offer depositors 20 to 25 percent a year at a time when ordinary Egyptian banks paid 7 to 13 percent, and it meant turning down the deal could be cast as choosing a forbidden transaction over a permissible one — a religious framing that did as much to disarm skepticism as the return itself.
+
+The money came in on a scale with few parallels anywhere in the world. By the mid-1980s, Al-Rayan had drawn more than 200,000 depositors and amassed an estimated 5.7 to 6 billion Egyptian pounds — reported at the time as roughly $7 billion — a sum equivalent to something like a fifth of Egypt's entire annual GDP, run by a man barely past 30. Al-Rayan was only the largest of dozens of so-called "Islamic money management companies" that sprang up across Egypt in the same years, all offering similar profit-sharing structures; behind the pious branding, prosecutors later established, the returns were funded almost entirely by new deposits rather than any real underlying investment portfolio — a Ponzi scheme running on faith in more than one sense.
+
+By 1988 Egyptian authorities, increasingly worried that these companies' independent wealth doubled as an unregulated financial base outside state control, moved against the industry directly. That May, Al-Rayan and his chief rival, Ashraf Al-Saad of the similarly structured Al-Saad company, announced a surprise merger — full-page newspaper advertisements declared the two firms would unite "for Egypt's sake" under one management — in what looked like an attempt to project strength just as scrutiny was mounting. The government immediately declared the merger illegal and, that same year, enacted Law No. 246 of 1988 specifically to criminalize the investment structure Al-Rayan and his peers had built their fortunes on.
+
+Investigators soon found Al-Rayan had already moved an estimated $550 million into Swiss accounts, and he was arrested in 1989 attempting to flee Egypt as depositors, sensing the scheme's end, rushed to withdraw money it no longer had. An Egyptian court convicted him in 1990 and sentenced him to 15 years in prison under the new law, with additional charges over bounced checks tacked on afterward — but Al-Rayan ultimately spent roughly 22 years in custody, well beyond his original term, held for years past his release date under emergency-law detention powers that his family and rights advocates argued had no further legal basis once his sentence was served.
+
+Al-Rayan was finally released on August 10, 2010, and spent his remaining years giving television interviews insisting he had been a victim of the state rather than its perpetrator, before dying of cancer in 2013. Egypt's 1988 crackdown forced more than a hundred similar investment companies to register or shut down, but the underlying pitch Al-Rayan pioneered — recasting a fraud's outsized returns as a matter of religious duty rather than financial risk — never fully disappeared, and Egyptian regulators continue to warn about "halal" investment schemes built on the same trust-through-faith playbook decades later.`,
+  },
 ];
 
 NotoriousAF.push(

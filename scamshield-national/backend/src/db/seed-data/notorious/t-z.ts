@@ -1246,6 +1246,25 @@ Drive Planning is a reminder that a scheme doesn't need to hide in the shadows t
     coverImageCredit: "Photo: QuintusPetillius, Wikimedia Commons (CC BY-SA 4.0) — the City of London, where Qian was sentenced at Southwark Crown Court",
     coverImagePosition: 50,
   },
+  {
+    title: 'Vladimir Antonov and the €500 Million Looting of Snoras Bank',
+    slug: 'vladimir-antonov-snoras-bank-fraud-lithuania',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.lrt.lt/en/news-in-english/19/2406100/lithuanian-court-convicts-former-snoras-bank-owners-in-absentia',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Krajbanka_-_panoramio.jpg?width=1200',
+    coverImageCredit: 'Photo: Dmitrijs Purgalvis, Wikimedia Commons (CC BY 3.0) — a branch of Latvijas Krājbanka, the Snoras subsidiary Antonov was separately convicted of looting',
+    coverImagePosition: 50,
+    body: `By the mid-2000s, Russian financier Vladimir Antonov and his business partner Raimondas Baranauskas had become the principal owners of Bankas Snoras, one of Lithuania's largest banks, while Antonov's personal fortune — reported at roughly $300 million at its peak — bought him a growing collection of high-profile assets abroad, including, in June 2011, England's Portsmouth Football Club, purchased through his Convers Sports Initiatives holding company.
+
+Behind Snoras's balance sheet, Lithuanian investigators later found, Antonov and Baranauskas had spent years quietly stripping the bank of its own money. Through a web of shell companies, falsified records, and at least 33 internal transfers carried out between 2008 and 2011, the two men diverted roughly €509 million in assets out of Snoras while telling the country's central bank the funds remained safely held in overseas collateral accounts that, in reality, did not contain what they claimed — inflicting an estimated €460 million in damage on the bank and its creditors, on top of a further €14.5 million embezzled outright. A parallel scheme drained Snoras's Latvian subsidiary, Latvijas Krājbanka, using much the same playbook.
+
+The fiction collapsed on November 16, 2011, when Lithuania's central bank, having discovered the offshore assets backing Snoras didn't exist, nationalized the bank overnight and placed it into bankruptcy — wiping out one of the country's largest financial institutions and triggering a bank run at Latvijas Krājbanka days later. Antonov, already in London (where UK regulators had rejected Snoras's own application for a banking license over "misleading and incomplete" answers), was arrested on a European arrest warrant on November 24, 2011, but spent years fighting extradition through UK courts. When a 2015 ruling finally ordered him extradited to Lithuania, Antonov instead fled to Russia, which granted him refuge rather than handing him over.
+
+Lithuanian and Latvian courts pressed on without him. Latvia convicted Antonov in August 2021 over the Krājbanka embezzlement, sentencing him in absentia to six years and ordering him to repay €27 million; Russia itself convicted him in March 2019 on an unrelated domestic bank-fraud charge, handing down a comparatively token 2.5-year sentence. The reckoning for Snoras itself came on November 5, 2024, when Lithuania's Vilnius Regional Court convicted both Antonov and Baranauskas in absentia on eight counts each and sentenced them to 10.5 years apiece — a verdict that, for more than a year, remained purely theoretical against a defendant living openly in Russia.
+
+It stopped being theoretical in December 2025, when French police arrested Antonov in the Brittany village of Baden, where he had spent roughly ten months living under forged papers identifying him as a Ukrainian war refugee. A court in Rennes ordered his extradition in April 2026 over his lawyers' objections that he would be unsafe in Lithuania, and on May 23, 2026, he was flown to Vilnius and jailed to begin serving his sentence. Appearing before Lithuania's Court of Appeal on June 30, 2026, Antonov pleaded guilty for the first time, telling the court, "We understood it was illegal; we understood it was the only way for the bank to function," while asking to begin serving his term immediately — a case still moving through appeal hearings scheduled into the fall of 2026, fifteen years after the bank he helped hollow out collapsed in a single day.`,
+  },
 ];
 
 NotoriousTZ.push(
