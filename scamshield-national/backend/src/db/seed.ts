@@ -11868,6 +11868,67 @@ The BAWAG affair remains Austria's largest banking scandal, remembered both for 
   },
 );
 
+NOTORIOUS_ARTICLES.push(
+  {
+    title: 'London Capital & Finance: The £237 Million Mini-Bond Collapse a UK Court Called a Ponzi Scheme',
+    slug: 'london-capital-finance-mini-bond-ponzi-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.judiciary.uk/wp-content/uploads/2024/11/LCF-Court-Press-Summary-141124.pdf',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/The_Pantiles,_Tunbridge_Wells_-_geograph.org.uk_-_1667596.jpg?width=1200',
+    coverImageCredit: 'Photo: N Chadwick, Geograph.org.uk (CC BY-SA 2.0) — The Pantiles in Tunbridge Wells, Kent, where London Capital & Finance was headquartered',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    body: `London Capital & Finance plc was incorporated in 2012 and, from around 2014, began marketing "mini-bonds" directly to ordinary retail savers through slick websites and national newspaper adverts, offering fixed returns of up to 8 percent a year and falsely suggesting the bonds were ISA-eligible and secured against the assets of small British businesses LCF claimed to be lending to. Chief executive Michael Thomson, known as Andy Thomson, was the public face of the company, while its founder and chairman Simon Hume-Kendall and an associate, Spencer Golding, sat behind a web of connected companies — collectively known as the London Group — that received almost all the money LCF raised.
+
+Rather than the diversified SME lending book advertised to bondholders, LCF's cash was funnelled overwhelmingly to a handful of businesses controlled by or benefiting Thomson, Hume-Kendall, Golding, and Hume-Kendall's associate Elten Barker, financing private jets, yachts, racehorses, and property rather than the small businesses investors believed they were backing. New bondholders' money was routinely used to pay interest and redemptions owed to earlier bondholders — the defining mechanic of a Ponzi scheme — while a marketing agency, Surge Financial, was paid an undisclosed 25 percent commission on every pound it brought in, a cut never revealed to the savers footing the bill.
+
+The FCA finally ordered LCF to withdraw its promotional material in December 2018 after years of red flags dating back to at least 2015, and the company collapsed into administration on January 30, 2019, leaving roughly 11,600 bondholders — many of them pensioners investing their life savings for the first time — with combined losses exceeding £237 million. An independent inquiry led by Dame Elizabeth Gloster in 2020 found the regulator itself had repeatedly failed to act on warnings about LCF, prompting the UK government to fund a compensation scheme that eventually paid eligible bondholders 80 percent of their losses.
+
+The most decisive reckoning came only in November 2024, when Mr Justice Miles handed down a 335-page High Court judgment concluding that LCF had been operated as a Ponzi scheme throughout its life and that more than £136 million had been misappropriated by Thomson, Hume-Kendall, Golding, Barker, and their associates for personal enrichment, ordering them to repay the company. The Serious Fraud Office's separate criminal investigation, opened in 2019, remains active as of 2026 with no fraud convictions yet secured against any of LCF's founders — Thomson's only conviction to date has been for repeatedly breaching a court order freezing his assets, including admitting in 2026 to selling off property covered by the order.
+
+London Capital & Finance has become Britain's reference case for the danger of unregulated corporate bonds sold to retail consumers: because the FCA regulated only how the bonds were marketed, not the underlying lending itself, LCF was able to use the regulator's own name in its adverts to imply a safety the product never had — a reminder that "FCA regulated" can describe the wrapper around a product without saying anything at all about what's inside it.`,
+  },
+  {
+    title: 'Martyn Dodgson and Operation Tabernula: The Longest-Running Insider Dealing Prosecution in UK History',
+    slug: 'martyn-dodgson-operation-tabernula-insider-dealing',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://www.fca.org.uk/news/press-releases/insider-dealers-sentenced-operation-tabernula-trial',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Inner_london_crown_court_southwark.jpg?width=1200',
+    coverImageCredit: 'Photo: MRSC, Wikimedia Commons (Public Domain) — Inner London Crown Court at Southwark, where Martyn Dodgson and Andrew Hind were sentenced',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    body: `Martyn Dodgson spent the 2000s moving through the upper ranks of London investment banking — a vice president in Global Capital Markets at Morgan Stanley until January 2007, then an executive director in Lehman Brothers' European investment banking division, before joining Deutsche Bank's corporate broking department in October 2008, where he rose to managing director. Each role put him inside the confidential planning of pending corporate takeovers before that information ever reached the market. Andrew Hind, a chartered accountant and property developer, was the other half of the operation, acting as the trader and "middle man" who turned Dodgson's advance knowledge into money.
+
+The scheme, which regulators say ran from November 2006 to March 2010, worked in a straightforward way: Dodgson passed non-public details of upcoming mergers and acquisitions — some involving deals he personally worked on, others gleaned from colleagues — to Hind, who dealt in the target companies' shares on both their behalf ahead of the public announcements that reliably sent the stock price up. To keep the arrangement hidden, the pair relied on unregistered pay-as-you-go mobile phones, encrypted personal records, and safety deposit boxes to store cash and paperwork, while trades were routed through associates including Iraj Parvizi, Ben Anderson, and Andrew Harrison to further obscure the trail back to Dodgson's desk.
+
+What was then Britain's financial regulator, the Financial Services Authority, launched Operation Tabernula and arrested Dodgson, Hind, and their associates in March 2010 in one of the largest insider-dealing investigations the UK had ever mounted. The sheer volume of financial and telecoms records involved, combined with a string of pre-trial legal challenges, meant the case did not reach a jury at Southwark Crown Court until 2015 — five years after the arrests — making it, by the time it concluded, the longest-running prosecution the successor Financial Conduct Authority had ever brought.
+
+The jury convicted Dodgson and Hind of conspiracy to insider deal in trades that generated roughly £7.5 million in illicit profit, while acquitting Parvizi, Anderson, and Harrison of related charges. In May 2016, Judge Christopher Pegden sentenced Dodgson to four and a half years in prison — the longest sentence ever imposed in an FCA-led insider dealing case — and Hind to three and a half years, describing their conduct as "persistent, prolonged, deliberate, dishonest behaviour," with confiscation proceedings following to strip both men of their gains.
+
+Operation Tabernula remains the clearest illustration of how insider dealing differs from the Ponzi schemes and boiler rooms that dominate fraud headlines: it has no visible victim writing a check to a con artist, only a market quietly tilted in favor of whoever already has the information everyone else is trading blind without — which is exactly why it took a five-year investigation, phone records, and a coded personal notebook to prove what should have been an even contest never was.`,
+  },
+  {
+    title: 'Aaron Tonken and the Celebrity Charity Circuit He Turned Into a Personal Piggy Bank',
+    slug: 'aaron-tonken-celebrity-charity-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://www.lawfuel.com/aaron-tonken-a-promoter-and-producer-of-charitable-fundraising-events/',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Hollywood_Sign.jpg?width=1200',
+    coverImageCredit: 'Photo: Thomas Wolf, www.foto-tw.de, Wikimedia Commons (CC BY-SA 3.0) — the Hollywood Sign, symbol of the celebrity fundraising circuit Aaron Tonken exploited',
+    coverImagePosition: 45,
+    // representative photo — replace with a portrait if found
+    body: `Aaron Tonken built a career in the 1990s and early 2000s as Hollywood's go-to producer of star-studded charity galas — glitzy tribute dinners that paired A-list celebrities with worthy causes and gave wealthy sponsors and donors the chance to rub shoulders with famous names for a good cause. By cultivating friendships across the entertainment industry, including with an older Beverly Hills couple who hosted regular gatherings for "old Hollywood" figures like Milton Berle and Red Buttons, Tonken built a reputation as someone who could reliably deliver celebrities to a stage — a reputation that made underwriters and donors trust him with checks they never thought to audit.
+
+The events themselves were often real, but the accounting behind them wasn't. Prosecutors said that from 1999 to 2002, Tonken and his associates told donors and underwriters their contributions would fund a named charity or cover event costs, then deposited the money into bank accounts he personally controlled or into shell entities styled to sound like charitable foundations, using much of it to bankroll his own lifestyle and to buy the lavish gifts he showered on the celebrities whose appearances kept his gala circuit running. "Family Celebration 2001," an April 2001 dinner honoring the cast of the television series Ally McBeal, raised at least $1.5 million that was supposed to go entirely to charities the cast selected; a separate event billed as "Celebrating Diana," a planned tribute to singer Diana Ross, collected at least $550,000 in donations and loans and was simply never held. Charities and individuals who lost money to the scheme included the Joan English Fund for Women's Cancer Research, the Robert H. Lorsch Foundation, the Betty Ford Center, and City of Hope.
+
+California Attorney General Bill Lockyer filed a civil fraud suit in 2003 to shut Tonken's operation down, while federal prosecutors in Los Angeles charged him separately with mail and wire fraud over the same 1999-2002 scheme, alleging he had diverted more than $1 million in donations meant for charities and celebrities into accounts he controlled. Tonken pleaded guilty to two counts of fraud, and in 2004 a federal judge sentenced him to 63 months in prison and ordered him to pay $3.8 million in restitution; he was released in December 2008 after serving roughly four and a half years.
+
+Tonken's case became a cautionary tale for the entire celebrity-fundraising industry precisely because nothing about the events themselves looked like a scam — real stars performed, real dinners were served, real donors wrote real checks, and it was only the accounting behind the velvet rope that was fake. It remains a reminder that star power and a worthy cause are not audits: a charity gala's glamour tells a donor nothing about whether the money raised that night ever reaches the charity whose name is on the invitation.`,
+  },
+);
+
 // Practical "how it works / red flags / what to do" guides covering the
 // major scam categories, the same kind of coverage the FTC's Consumer
 // Advice site and AARP's Fraud Watch Network publish — well-documented
