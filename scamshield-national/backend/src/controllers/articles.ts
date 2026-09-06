@@ -41,6 +41,18 @@ export const list = asyncHandler<AuthedRequest>(async (req, res) => {
   // This was a bare LIMIT 200 with no way to reach past it, which silently
   // hid every article beyond the 200 most recent — 464 of the 664 notorious
   // profiles could not be edited in admin at all. Callers page instead.
+  // Searching has to happen here, not in the browser. The page loads a
+  // window at a time, so a client-side filter can only ever match what has
+  // already scrolled into view and would silently miss the rest.
+  const q = typeof req.query.q === 'string' ? req.query.q.trim() : '';
+  if (q) {
+    values.push(`%${q}%`);
+    const like = `$${values.length}`;
+    conditions.push(
+      `(a.title ILIKE ${like} OR a.body ILIKE ${like} OR a.author ILIKE ${like} OR array_to_string(a.tags, ' ') ILIKE ${like})`
+    );
+  }
+
   const requested = Number(req.query.limit);
   const limit = Number.isFinite(requested) && requested > 0 ? Math.min(requested, MAX_LIMIT) : DEFAULT_LIMIT;
   const parsedOffset = Number(req.query.offset);
@@ -52,6 +64,16 @@ export const list = asyncHandler<AuthedRequest>(async (req, res) => {
 
   const columns = req.query.brief === '1' ? BRIEF_COLUMNS : 'a.*';
 
+  // Notorious leads with profiles that have a real photo and pushes the ones
+  // still awaiting the photo hunt to the back. That used to be a client-side
+  // sort over the whole collection, which stops working once the page loads
+  // in windows: each window would sort only within itself and the grid would
+  // alternate photo and no-photo blocks as the reader scrolled.
+  const order =
+    req.query.sort === 'photos-first'
+      ? '(a.cover_image IS NULL), a.published_at DESC NULLS LAST, a.id'
+      : 'a.published_at DESC NULLS LAST, a.id';
+
   const { rows } = await pool.query(
     `SELECT ${columns}, s.slug AS scam_slug
      FROM articles a
@@ -59,7 +81,7 @@ export const list = asyncHandler<AuthedRequest>(async (req, res) => {
      WHERE ${conditions.join(' AND ')}
      -- published_at ties are common (a seeded batch shares a timestamp), so
      -- id breaks them: without a total order, paging can repeat or skip rows.
-     ORDER BY a.published_at DESC NULLS LAST, a.id
+     ORDER BY ${order}
      LIMIT ${limitParam} OFFSET ${offsetParam}`,
     values
   );
