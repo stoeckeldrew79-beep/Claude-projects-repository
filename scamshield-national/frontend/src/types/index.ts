@@ -34,7 +34,9 @@ export interface Scam {
   source_url: string | null;
   locations?: ScamLocation[];
   country: string | null;
-  created_at: string;
+  created_at: string;  // Victim-targeting labels — a separate axis from category, so a scam
+  // can carry several or none.
+  tags?: string[] | null;
 }
 
 export interface Alert {

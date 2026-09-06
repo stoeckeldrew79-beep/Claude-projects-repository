@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import { Scam } from '../types';
 import { countryName } from '../utils/countries';
+import { tagShortLabel } from '../utils/scamTags';
 
 const ALERT_COLORS: Record<string, string> = {
   low: 'bg-slate-100 text-slate-700',
@@ -44,6 +45,20 @@ export function ScamCard({ scam }: { scam: Scam }) {
         )}
       </div>
       <p className="text-sm text-slate-600 mt-1 line-clamp-2">{scam.description}</p>
+      {/* Who it targets, when the source says so. Kept visually quieter than
+          the alert level: it is context, not severity. */}
+      {scam.tags && scam.tags.length > 0 && (
+        <div className="mt-2 flex flex-wrap gap-1">
+          {scam.tags.map((t) => (
+            <span
+              key={t}
+              className="rounded-sm bg-slate-100 px-1.5 py-0.5 text-[10px] font-medium uppercase tracking-wide text-slate-600"
+            >
+              {tagShortLabel(t)}
+            </span>
+          ))}
+        </div>
+      )}
       <p className="text-xs text-slate-400 mt-2">
         {firstRecordedYear && <>First recorded {firstRecordedYear}</>}
         {firstRecordedYear && scam.country && ' · '}
