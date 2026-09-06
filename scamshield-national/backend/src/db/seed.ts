@@ -159,14 +159,14 @@ FTX is a reminder that celebrity endorsements, slick marketing, and even testimo
     coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Jordan_Belfort_-_May_30,_2010.jpg?width=1200',
     coverImageCredit: 'Photo: Ralph Zuranski (CC BY 2.0)',
     coverImagePosition: 50,
-    body: `Through the late 1980s and 1990s, Jordan Belfort ran Stratton Oakmont, a Long Island brokerage built around a classic "pump and dump" scheme: brokers aggressively cold-called investors to buy shares in small, often nearly worthless companies that Stratton Oakmont itself secretly controlled large blocks of. The buying pressure artificially inflated ("pumped") the share price, at which point insiders sold ("dumped") their own shares at the inflated price — leaving ordinary investors holding stock that collapsed once the manufactured demand stopped.
+    body: `Through the late 1980s and into the mid-1990s, Jordan Belfort ran Stratton Oakmont, a Long Island brokerage the SEC would later call "the quintessential 'boiler room'": brokers worked from aggressive scripts to cold-call investors into buying shares of small, often nearly worthless companies that Stratton Oakmont itself secretly controlled large blocks of. The buying pressure artificially inflated ("pumped") the share price, at which point insiders sold ("dumped") their own shares at the inflated price — leaving ordinary investors holding stock that collapsed once the manufactured demand stopped. SEC filings describe Belfort maintaining a secret profit-sharing arrangement with associate Elliot Lavigne, who was paid in cash to serve as a nominee in more than twenty of Stratton's IPO manipulations.
 
 Over roughly a decade, the scheme took in an estimated $200 million from more than 1,500 victims. Belfort also built a notorious corporate culture around the firm, later recounted in his own memoir and dramatized — critics say glamorized — in the 2013 film "The Wolf of Wall Street."
 
-Belfort pleaded guilty in 1999 to securities fraud and money laundering, cooperated with prosecutors against former colleagues, and was sentenced in 2003 to four years in prison, of which he served 22 months, along with $110.4 million in court-ordered restitution to his victims. More than two decades later, court filings show he has repaid only a small fraction of that — roughly $12.8 million as of recent filings — while earning a living as a paid motivational speaker largely built on retelling the very story that created the debt he still owes.
+Belfort pleaded guilty in 1999 to securities fraud and money laundering, cooperated with prosecutors against former colleagues, and was sentenced in 2003 to four years in prison, of which he served 22 months, along with $110.4 million in court-ordered restitution to his victims. That obligation was never actually repaid — it simply expired: the 20-year statutory collection window closed on April 28, 2026, at which point Belfort publicly declared he had "completed" his restitution. Court records tell a different story: only about $13.75 million was ever recovered — roughly 12.5 cents on every dollar owed — and about $11 million of that came from the government seizing his assets at sentencing, not from voluntary payments, while he spent the intervening decades earning millions as a paid motivational speaker retelling the very story that created the debt.
 
-The gap between what Belfort owes and what he's actually paid is worth knowing on its own: it's a straightforward fact-check against the swagger of the "Wolf of Wall Street" mythology, and a reminder that a compelling redemption story and an unpaid restitution order can coexist for decades.`,
-    sourceUrl: 'https://www.investmentnews.com/ria-news/jordan-belfort-wolf-of-wall-street-falling-behind-on-restitution/74275',
+The gap between what Belfort owed and what his victims actually received is worth knowing on its own: it's a straightforward fact-check against both the swagger of the "Wolf of Wall Street" mythology and his own 2026 claim of having made things right — a reminder that a court-ordered deadline quietly running out is not the same thing as a debt being paid.`,
+    sourceUrl: 'https://www.celebritynetworth.com/articles/celebrity/jordan-belfort-was-ordered-to-repay-110-million-he-just-claimed-to-have-completed-restitution-heres-how-much-his-victims-actually-received/',
   },
   {
     title: "Allen Stanford's $7 Billion Offshore Ponzi Scheme",
@@ -2566,23 +2566,6 @@ Durham's case illustrates how a scheme can hide in plain sight inside an otherwi
     // representative photo — replace with a portrait if found
     coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Downtown_Akron_Ohio.jpg?width=1200',
     coverImageCredit: 'OHWiki, CC BY-SA 2.5, via Wikimedia Commons',
-    coverImagePosition: 50,
-  },
-  {
-    title: 'Jordan Belfort: The "Wolf of Wall Street" Boiler Room Behind Stratton Oakmont',
-    slug: 'jordan-belfort-stratton-oakmont-boiler-room',
-    author: 'ScamShield Editorial',
-    tags: ['notorious', 'notorious-scammer', 'historical'],
-    body: `Jordan Belfort founded the brokerage firm Stratton Oakmont in the late 1980s and built it into what the SEC would later call "the quintessential 'boiler room'" — a high-pressure sales operation where brokers worked from aggressive scripts to push customers into buying stock in small companies going public, often with little regard for whether the investment actually suited the customer.
-
-The scheme's real engine was IPO manipulation: Stratton controlled large blocks of stock in companies it took public, artificially inflated the price through coordinated trading and its brokers' relentless sales pressure, then sold its own shares into the inflated market — a classic pump-and-dump — while ordinary customers who bought in were left holding stock as the price collapsed. SEC filings describe Belfort maintaining secret profit-sharing arrangements with associates like Elliot Lavigne, who was paid in cash to serve as a nominee in more than twenty of Stratton's IPO manipulations. Prosecutors said the scheme ran for roughly seven years, manipulated stock in at least 34 companies, and defrauded more than 1,500 investors of about $200 million.
-
-Belfort pleaded guilty in 1999 to securities fraud and money laundering and was sentenced in July 2003 to four years in prison, but ultimately served only 22 months after cooperating extensively with federal prosecutors, including wearing a wire against former colleagues. He was also ordered to pay roughly $110 million in restitution to his victims, an obligation that — after decades of disputed and partial payments — wasn't fully resolved until 2026.
-
-Stratton Oakmont later became widely known through Belfort's own memoir and its 2013 film adaptation, which dramatized the firm's culture of excess without dwelling much on the mechanics of the underlying fraud — a reminder that a boiler room's real damage isn't the party at the center of it, but the ordinary investors on the other end of the phone who were sold stock in companies whose prices were never allowed to move on their own.`,
-    sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-16788',
-    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/JordanBelfort2017.png?width=1200",
-    coverImageCredit: 'Photo: Tai Lopez (CC BY 3.0)',
     coverImagePosition: 50,
   },
   {
