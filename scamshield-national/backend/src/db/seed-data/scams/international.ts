@@ -9032,3 +9032,36 @@ International.push(
     country: 'MN',
   },
 );
+
+International.push(
+  {
+    name: 'Fake "5G Activation" Telecom Employee Takeover Scam',
+    slug: 'armenia-fake-5g-activation-telecom-takeover-scam',
+    description: `The Central Bank of Armenia has warned of a growing wave of telephone fraud in which callers and text messages arriving from foreign country codes, including +63 and +212, and sent through SMS, iMessage, and RCS, pose as employees of a telecommunications company offering to improve internet speed or activate 5G service on the victim's phone. The caller talks the victim through changing phone settings, opening a link to install an unfamiliar app, or granting remote screen-access permissions, supposedly to complete the "activation" — in reality this hands the scammer either direct control of the device or the ability to see everything the victim subsequently types. In one case reported to Armenian media, a woman who agreed to "activate 5G internet" after a call from a foreign number later discovered that money had disappeared from her bank card and that two loans had been taken out in her name using the access and information the scammers had captured. The Central Bank stated plainly that no telecom operator or bank ever needs a customer to change phone settings, install an app, or grant screen access to improve service, and urged citizens to be especially wary of messages from unfamiliar international numbers. Consumers are advised to never install an app or grant remote access at the request of an unsolicited caller regardless of what benefit is promised, to never share passwords, one-time verification codes, or banking details over the phone, and to block and report suspicious international numbers rather than following their instructions.`,
+    categorySlug: 'account-takeover',
+    alertLevel: 'high',
+    sources: ['Central Bank of Armenia', 'ArmBanks.am'],
+    sourceUrl: 'https://armbanks.am/en/2026/05/26/273647/',
+    country: 'AM',
+  },
+  {
+    name: 'Fake "Telegram Support" Bot Account-Deletion Extortion Scheme',
+    slug: 'armenia-fake-telegram-support-bot-extortion-scheme',
+    description: `IDBank has warned of an extortion scheme spreading on Telegram, particularly among Russian-speaking users in Armenia, that relies entirely on psychological pressure rather than any real hacking ability. Victims receive a link to a bot disguised as an official service such as "Telegram Support," a verification tool, or a survey or prize-giveaway bot, and are invited to press "Start" to check their account, claim a gift, or complete a poll. Pressing "Start" only activates the bot's ability to message the user back — it does not give the bot owner any access to the victim's account — but scammers then contact the victim claiming they have somehow become the "owner" of the bot and threaten to file mass reports that will get the victim's Telegram account and all of their contacts deleted unless a payment is sent immediately. IDBank stressed that Telegram reviews complaints individually rather than deleting accounts automatically after a set number of reports, so the entire threat is fabricated, and that any money sent is effectively unrecoverable and paying only invites further demands rather than making the scammer stop. The bank advised users never to launch bots received through unsolicited links regardless of what they promise, to refuse any payment demand tied to a threatened account deletion, to block and report the bot and the contact through Telegram's own tools immediately, and to keep screenshots of the conversation in case a report to authorities becomes necessary.`,
+    categorySlug: 'tech-support-scams',
+    alertLevel: 'medium',
+    sources: ['IDBank', 'ArmBanks.am'],
+    sourceUrl: 'https://armbanks.am/en/2026/09/04/278921/',
+    country: 'AM',
+  },
+  {
+    name: 'TikTok Fake "Social Fund" Benefit Phishing Scam',
+    slug: 'armenia-tiktok-fake-social-fund-benefit-phishing-scam',
+    description: `Armenia's Cyber Police have warned of fraudulent posts circulating on TikTok that falsely claim citizens can receive a one-time payment of 300,000 drams from a purported government "social fund." The posts push viewers to act quickly, clicking a link and submitting an "application" before the supposed offer expires, and the application form then asks for a bank card number along with the PIN, CVV security code, and a one-time verification code sent to the applicant's phone — every piece of information needed to drain the linked account. There is no such 300,000-dram social fund program, and the entire scheme exists only to harvest banking details that are then used to steal directly from the victim's account, often within minutes of the form being submitted. The Cyber Police stressed that genuine Armenian government agencies never request personal or banking information through social media posts or comments, and that any real state benefit is administered and communicated only through verified official .am government websites, never through a TikTok link. Citizens are advised to never click unfamiliar benefit or prize links shared on social media, to never enter a card PIN, CVV, or one-time code into any web form regardless of how official it looks, and to verify any claimed government payment directly through the relevant agency's official website before providing any personal or financial information.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'high',
+    sources: ['Armenia Cyber Police', 'Ark Telecom'],
+    sourceUrl: 'https://arkatelecom.am/en/news/telecom/armenia-s-cyber-police-warns-of-tiktok-scams-offering-fake-social-benefits/',
+    country: 'AM',
+  },
+);
