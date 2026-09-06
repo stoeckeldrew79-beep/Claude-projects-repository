@@ -1944,4 +1944,15 @@ export const UsTZ: SeedScam[] = [
     country: "US",
     state: "TX",
   },
+  {
+    name: 'Fake "Department of Safety and Homeland Security" Traffic Violation Scam',
+    slug: 'utah-fake-department-of-safety-homeland-security-traffic-scam',
+    description: `Law enforcement across Southern Utah, including the St. George Police Department and the San Juan County Sheriff's Office, warned residents in late March 2026 about a fraudulent notice circulating by mail and online purporting to come from the "State of Utah, Department of Safety and Homeland Security" — an agency that does not exist; Utah's actual public-safety agency is the Department of Public Safety. The fake notice claims the recipient has a traffic violation "in default," uses threatening language about impending legal action, and instructs the person to pay immediately by scanning an embedded QR code. St. George Police Officer Tiffany Mitchell said the fake was easy to catch on close inspection: "This one is very obvious that it is not an official document. If you take the time to look at it, you can see the insignia at the top isn't legible or accurate," noting the seal appeared to be crudely AI-generated and the document was riddled with formatting errors. Nevada State Police reported a nearly identical version of the same notice circulating around the same time along the Utah-Nevada border, suggesting a single template being reused across state lines. Residents who receive the notice are advised not to scan the QR code or pay anything, to verify any claimed traffic violation directly through the actual Utah Department of Public Safety or their local court, and to report the fraudulent notice to local police or the Utah Division of Consumer Protection.`,
+    categorySlug: "government-impersonation",
+    alertLevel: "high",
+    sources: ["St. George Police Department", "San Juan County Sheriff's Office", "St. George News"],
+    sourceUrl: "https://www.stgeorgeutah.com/news/local/this-one-is-very-obvious-scam-using-fake-utah-agency-notice-spreads-across-southern-utah/article_563cf782-89ba-4b09-ae22-7ec800ab7d7a.html",
+    country: "US",
+    state: "UT",
+  },
 ];

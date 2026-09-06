@@ -3384,4 +3384,15 @@ export const UsNS: SeedScam[] = [
     country: 'US',
     state: 'OR',
   },
+  {
+    name: 'Rhode Island "Junk" Health Insurance Plan Scam',
+    slug: 'rhode-island-junk-health-insurance-plan-scam',
+    description: `Rhode Island Attorney General Peter Neronha issued a consumer alert on November 6, 2025, warning residents that many "junk" health insurance products marketed ahead of and during open enrollment are not actual health insurance at all, singling out Health Care Sharing Ministries (HCSMs), discount plans, and risk-sharing plans as look-alikes that do not guarantee coverage of medically necessary care. The alert flagged specific red flags: fine-print disclaimers admitting the product "is not insurance and is not sold by a licensed insurance company," names or logos designed to evoke the Affordable Care Act or "Obamacare," aggressive telemarketing and robocall sales tactics, dollar caps or broad exclusions on hospital, physician, or lab coverage, and premiums that look too good to be true next to a real HealthSource RI plan. "Consumers have enough to worry about without wondering whether their health insurance is legitimate or not," Neronha said. With HealthSource RI's open enrollment period running from November 1, 2025 through January 31, 2026, the office urged residents to verify that any plan — and the company selling it — is actually licensed by checking the Rhode Island Department of Business Regulation's list of authorized insurers or the National Association of Insurance Commissioners' registry before enrolling, to shop through healthsourceri.com or call 1-855-840-4774 for verified options, and to report a suspected junk plan to the Attorney General's office at healthcare@riag.ri.gov.`,
+    categorySlug: 'insurance-fraud',
+    alertLevel: 'medium',
+    sources: ["Rhode Island Attorney General's Office (Peter Neronha)", 'HealthSource RI'],
+    sourceUrl: 'https://riag.ri.gov/press-releases/consumer-alert-attorney-general-neronha-warns-rhode-islanders-about-junk-health',
+    country: 'US',
+    state: 'RI',
+  },
 ];
