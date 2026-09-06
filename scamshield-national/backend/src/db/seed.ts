@@ -1489,8 +1489,8 @@ Greater Ministries remains one of the starkest examples of an affinity fraud —
     title: 'Haywood "Don" Hall: The Traveling Pastor Behind GMIC\'s Roadshow Pitch',
     slug: 'haywood-eudon-hall-gmic-roadshow-fraud',
     author: 'ScamShield Editorial',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Downtown_Tampa_Skyline.jpg?width=1200',
-    coverImageCredit: 'Photo: Mark Szelistowski (CC BY-SA 3.0)',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Tampa_Skyline.jpg?width=1200',
+    coverImageCredit: 'Photo: Sonny SideUp (CC BY 2.0)',
     coverImagePosition: 50,
     // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
@@ -5115,8 +5115,8 @@ The consequences were immediate and lasting. Van Doren was fired the same day fr
     slug: 'paul-mozer-salomon-brothers-treasury-scandal',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Wall_Street_Sign_NYC.jpg?width=1200',
-    coverImageCredit: 'Photo: JSquish (CC BY-SA 3.0)',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Federal_Reserve_Bank_of_New_York,_Manhattan,_New_York_(7237027216).jpg?width=1200',
+    coverImageCredit: 'Photo: Ken Lund (CC BY-SA 2.0)',
     coverImagePosition: 50,
     // representative photo — replace with a portrait if found
     body: `Every few weeks, the U.S. Treasury auctions off billions of dollars in new government debt, and to keep any single firm from cornering an auction and squeezing everyone else who needs those bonds, the Treasury capped how much any one bidder could buy: no more than 35 percent of a given auction. In the early 1990s, Paul Mozer, the head of Salomon Brothers' government bond trading desk — then the most powerful desk on Wall Street — decided the cap was an obstacle to be routed around rather than obeyed.
