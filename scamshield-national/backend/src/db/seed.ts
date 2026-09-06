@@ -13243,8 +13243,8 @@ What makes this scam effective is that it doesn't ask for money directly — it 
 The clearest warning signs are a new match pushing quickly to move the conversation to a different app, insistence on a mutual "verification" site before a call or meeting, a site that asks for a credit card number for something advertised as free, and a verification process that never sends any actual results back. A recurring charge from an unfamiliar company on a card statement weeks after using one of these sites is also a strong retroactive signal.
 
 Legitimate dating platforms already offer built-in identity and photo verification features that don't require leaving the app or entering payment information on a third-party site — that's the only verification worth trusting. Never click a link a match sends to an outside "safety check," and keep conversations inside the platform's own messaging system until you've met in person. If card information has already been entered on one of these sites, contact the card issuer immediately to dispute any charges and request a new card number, and report the incident to the dating platform and to the FBI's Internet Crime Complaint Center at IC3.gov.`,
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Smartphone_dating_app_illustration.jpg?width=1200',
-    coverImageCredit: 'Photo: Santeri Viinamäki (CC BY-SA 4.0)',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Hand_holding_(Unsplash).jpg?width=1200',
+    coverImageCredit: 'Photo: Samson Vowles (CC0), via Wikimedia Commons/Unsplash',
     coverImagePosition: 50,
   },
   {
