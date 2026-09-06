@@ -3795,6 +3795,26 @@ Investigators soon found Al-Rayan had already moved an estimated $550 million in
 
 Al-Rayan was finally released on August 10, 2010, and spent his remaining years giving television interviews insisting he had been a victim of the state rather than its perpetrator, before dying of cancer in 2013. Egypt's 1988 crackdown forced more than a hundred similar investment companies to register or shut down, but the underlying pitch Al-Rayan pioneered — recasting a fraud's outsized returns as a matter of religious duty rather than financial risk — never fully disappeared, and Egyptian regulators continue to warn about "halal" investment schemes built on the same trust-through-faith playbook decades later.`,
   },
+  {
+    title: "Bogusław Bagsik and the 'Oscillator' That Nearly Broke Poland's Banking System",
+    slug: 'boguslaw-bagsik-art-b-oscillator-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://en.wikipedia.org/wiki/Bogus%C5%82aw_Bagsik',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Warszawa_-_Narodowy_Bank_Polski_Oddzia%C5%82_Okr%C4%99gowy_w_Warszawie.jpg?width=1200',
+    coverImageCredit: "Photo: Fred Romero (CC BY 2.0) — a Warsaw branch of the National Bank of Poland, the institution a senior official warned Bagsik's scheme had come close to collapsing entirely",
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    body: `Bogusław Bagsik was a piano tuner and organist in his twenties when he and a throat doctor named Andrzej Gąsiorowski founded Art-B in the late 1980s, right as communist Poland's economy was beginning its chaotic transition toward capitalism. The press, charmed by two men with no banking background suddenly running one of the country's fastest-growing companies, took to calling them "business artists." Art-B used its winnings to buy stakes in struggling Polish industry — including keeping the bankrupt Ursus tractor works alive a while longer, which endeared the pair to the government of the day — along with prime real estate and an art collection, all funded by a financial trick almost no one outside the company understood until it was too late.
+
+That trick was the "oscillator," a check-kiting scheme that exploited the slow, paper-based clearing times between Polish banks in the pre-computerized early 1990s. By writing checks against money that hadn't actually settled yet and cycling the same underlying funds rapidly between multiple banks, Art-B could collect interest on deposits that existed only on paper, effectively manufacturing money the banking system didn't have. Polish prosecutors later calculated the fraud at more than 4 trillion old zlotys, and a senior central bank official said plainly that had the oscillator been allowed to run just a few more months, it would have broken the entire Polish banking system. In 1991, Forbes-style rankings still listed Bagsik among Poland's eight wealthiest people, oblivious to how thin the foundation under that fortune really was.
+
+Polish authorities finally moved to arrest Bagsik and Gąsiorowski in the summer of 1991, and the pair fled the country only hours before their exit would have been blocked, reportedly carrying the equivalent of over 100 million zlotys in cash. Bagsik made it to Tel Aviv, where Israel granted him asylum and declined to extradite him — a refuge that lasted three years, until he was arrested passing through Zurich airport in 1994. Switzerland extradited him to Poland in 1996, and a Polish court convicted him in October 2000 of fraud tied to the oscillator scheme, sentencing him to nine years in prison, a fine, and a five-year ban on holding a position at any company. He was paroled in May 2004 after serving roughly half that term.
+
+Freedom didn't end Bagsik's career as a fraudster. Within a few years of his release he was running Digit Serve, a UK-registered firm that promised investors extraordinary returns — reportedly as much as 1 percent a week — from currency-market trading; records later showed the firm genuinely traded for a period before quietly sliding into paying earlier investors with money from new ones, in the pattern of an ordinary Ponzi scheme. Roughly 170 investors lost a combined tens of millions of zlotys before Digit Serve collapsed. Polish authorities arrested Bagsik again in 2014, and in 2019 a court convicted him a second time, sentencing him to six years in prison — but by then Bagsik had already fled the country once more.
+
+As of this writing, Bagsik remains a fugitive: Poland has issued multiple arrest warrants for him over the years, and in 2026 Polish police obtained a fresh Interpol Red Notice seeking his detention and extradition, with his whereabouts publicly unconfirmed. Three decades after the oscillator first exposed how little separated 1990s Poland's fledgling banking system from collapse, its architect has now spent a second career proving the same playbook — a confident pitch, a plausible-sounding trading strategy, and new deposits quietly propping up the old ones — still works on investors who never heard the first story.`,
+  },
 ];
 
 NotoriousAF.push(

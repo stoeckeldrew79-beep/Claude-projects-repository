@@ -3988,4 +3988,24 @@ The fund collapsed in June 2020 when Optimus abruptly suspended redemptions, una
 
 A Seoul court first sentenced Kim to 25 years in prison in 2021, but the Seoul High Court, hearing prosecutors' appeal, more than doubled the punishment on further review, and on July 14, 2022, South Korea's Supreme Court finalized a sentence of 40 years — one of the longest terms ever imposed on a white-collar defendant in the country's history — along with a 500 million won fine and forfeiture of more than 75 billion won in illicit proceeds. Kim remains behind bars serving that sentence, and prosecutors have continued clawing back forfeited assets years after the conviction, recovering an additional 2.28 billion won as recently as 2026 — a reminder that even a finalized sentence and a formal bankruptcy rarely mean investors in a scheme like this ever see the bulk of their money again.`,
   },
+  {
+    title: 'Gautam Kundu and the Rose Valley Group\'s ₹15,000 Crore Chit Fund Empire',
+    slug: 'gautam-kundu-rose-valley-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://en.wikipedia.org/wiki/Rose_Valley_financial_scandal',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Newtown,_Kolkata_Skyline.jpg?width=1200',
+    coverImageCredit: 'Photo: Sagnik 14, Wikimedia Commons (CC BY-SA 4.0) — the Kolkata skyline near Newtown, in the eastern Indian region where Rose Valley built its resort-and-hospitality empire',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    body: `Rose Valley Group was founded in 1997 by Kajal Kundu, a former Life Insurance Corporation salesman in West Bengal, but it was his brother Gautam Kundu who took over after Kajal's death in 2003 and built the company into a sprawling conglomerate spanning hotels, resorts, media, and real estate across eastern India. Underneath the diversified business empire, Rose Valley ran collective investment schemes that collected small recurring deposits from ordinary depositors — many of them villagers and small-town families — through a vast network of commission-earning agents, promising maturity payouts or discounted stays at its hotel chain in exchange for years of installment payments.
+
+The scale of the money involved was staggering even by the standards of India's chit-fund industry: collections grew from roughly ₹3.75 crore in 2005-06 to more than ₹2,016 crore by March 2011, and investigators eventually put Rose Valley's total haul at around ₹15,400 crore — by some estimates six times the size of the Saradha Group scheme that collapsed in the same region two years later. India's markets regulator, SEBI, barred Rose Valley's real-estate arm from raising further public funds in January 2011, but it was the very public collapse of Saradha in April 2013 that triggered the Enforcement Directorate raids exposing just how much larger Rose Valley's own scheme actually was.
+
+The Enforcement Directorate arrested Gautam Kundu in March 2015 under the Prevention of Money Laundering Act, alleging he had run one of India's largest Ponzi schemes through a network of more than 3,000 bank accounts spread across 12 states, and attached assets — including hotels and resort properties — valued at roughly ₹2,300 crore. The case widened into a significant West Bengal political scandal in its own right, drawing in sitting legislators and party officials accused of receiving payments from the group, and investigators later arrested Kundu's wife, Subhra Kundu, in 2021 as the probe expanded further into the family's finances.
+
+More than a decade after the first raids, the case remains unresolved. The Enforcement Directorate filed a supplementary charge sheet naming Subhra Kundu among the accused as recently as 2024, and India's Supreme Court-monitored restitution process has moved in slow, partial tranches — with the government handing over roughly ₹515 crore in 2024-25 toward repaying an estimated 7.5 lakh (750,000) of the more than 3.1 million claims filed by depositors. Gautam Kundu himself has cycled between judicial custody and periods of interim bail granted on health and family grounds while the criminal trial against him continues.
+
+The Rose Valley case sits alongside Saradha as one of two enormous, nearly simultaneous chit-fund collapses that devastated the same region of India within a few years of each other, and together they illustrate how thoroughly the informal-savings model can be scaled into a fraud too large for any single asset-recovery process to unwind quickly — even now, well over a decade after the first regulatory warning, the majority of Rose Valley's registered claimants are still waiting for a rupee back.`,
+  },
 ];
