@@ -1276,4 +1276,22 @@ If you get a call, text, or visit threatening an imminent shutoff, hang up or cl
     coverImageCredit: "Photo: Dwight Burdette, CC BY 3.0, via Wikimedia Commons — a Victoria's Secret store",
     coverImagePosition: 50,
   },
+  {
+    title: "The Workday Data Breach: How a Vished Employee Exposed Business Contact Data From the World's Biggest HR Platform",
+    slug: "workday-2025-data-breach-guide",
+    author: "ScamShield Editorial",
+    tags: ["guide", "workday-2025-data-breach"],
+    body: `On August 6, 2025, attackers posing as internal HR and IT staff placed phone calls and sent text messages to employees at Workday, the software company that manages payroll, benefits, and HR records for thousands of employers, including much of the Fortune 500. The goal wasn't to break into Workday's core product — the actual payroll and HR data companies store in Workday was never touched. Instead, the attackers talked employees into approving a rogue third-party application connected to a separate system: the Salesforce platform Workday itself uses to manage its own customer relationships and support tickets.
+
+That distinction matters, but it's a narrow one for anyone caught up in it. The data exposed was what Workday described as commonly available business contact information tied to customer support cases — names, email addresses, and phone numbers of people who had interacted with Workday's own customer service. No Social Security numbers, no payroll data, no login credentials, and no financial account information were exposed in this incident. Investigators linked the intrusion to the same campaign that hit dozens of other major companies throughout 2025 — a group tracked as ShinyHunters working alongside the social-engineering crew Scattered Spider — which spent the year calling company help desks, impersonating employees or IT staff, and convincing real support technicians to connect a fake data-management tool to a Salesforce environment. No password-guessing or software flaw was needed, just a convincing phone call.
+
+The reason this breach is worth knowing about even though the stolen data looks "minor" on paper is who Workday's customers actually are: employers. Millions of workers who have never bought anything from Workday directly may still have had their basic contact information swept up simply because their employer's HR department once opened a support ticket that included their name and contact details. And a verified name, email, and phone number tied to a real employer relationship is exactly the raw material a scammer needs to send a convincing follow-up phishing message — an email that looks like it's from "Workday HR support" or a text about a "benefits enrollment issue" lands differently when it references details that happen to be accurate.
+
+If your employer uses Workday for payroll, benefits, or HR self-service, be skeptical of any unexpected email or text referencing Workday, HR, IT support, or a "login problem" that asks you to click a link, verify your password, or read back a one-time code — go directly to your company's official Workday login page or contact your own HR or IT department using a number or address you already know, rather than anything provided in the message. Never approve a connection request or "support app" you didn't initiate yourself, and never read a verification code to someone who called you rather than the other way around. No Social Security numbers or financial data were reported stolen in this specific incident, so there's no need to freeze credit on that basis alone, but any phishing attempt that references this breach or invokes Workday's name can still be reported to the FTC at ReportFraud.ftc.gov.`,
+    sourceUrl: "https://www.security.org/identity-theft/breach/workday/",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Workday_Headquarters.jpg?width=1200",
+    coverImageCredit: "Photo: Coolcaesar, CC BY-SA 4.0, via Wikimedia Commons — Workday's headquarters in Pleasanton, California",
+    coverImagePosition: 50,
+    // representative photo — Workday's headquarters building, not the specific Salesforce system that was breached; replace with an exact match if found
+  },
 ];
