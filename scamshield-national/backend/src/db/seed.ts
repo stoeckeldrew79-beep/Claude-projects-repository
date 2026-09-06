@@ -295,7 +295,7 @@ The case is a reminder that a criminal accusation and a criminal conviction are 
     title: 'Lou Pearlman: The Boy Band Mogul Running a $300 Million Ponzi Scheme',
     slug: 'lou-pearlman-boy-band-ponzi-scheme',
     author: 'ScamShield Editorial',
-    tags: ['notorious', 'notorious-scammer'],
+    tags: ['notorious', 'notorious-scammer', 'historical'],
     coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Lou-pearlman-mugshot.jpg?width=1200',
     coverImageCredit: 'Photo: Federal Bureau of Investigation (Public Domain)',
     coverImagePosition: 50,
@@ -316,7 +316,7 @@ Pearlman's case shows how a fraud can hide behind a legitimate, glamorous busine
     coverImageCredit: 'Photo: bomberpilot (CC BY-SA 2.0)',
     coverImagePosition: 50,
     // representative photo — replace with a portrait if found
-    tags: ['notorious'],
+    tags: ['notorious', 'historical'],
     body: `Marcus Schrenker was an Indiana financial adviser and amateur pilot who used roughly $1.5 million stolen from at least nine clients — including a longtime friend and his own aunt — to fund a lavish lifestyle of private planes, luxury cars, and a 10,000-square-foot home, financed in part through a foreign currency investment fund that didn't actually exist.
 
 As regulators and investigators closed in during January 2009, Schrenker filed a fraudulent life insurance claim, then took off in his small plane, radioed a distress call claiming the windshield had shattered and he was bleeding, put the plane on autopilot, and parachuted out over Alabama — apparently hoping the plane's eventual crash would be mistaken for his death and the search for him would end there.
@@ -2731,7 +2731,7 @@ The Olympus case became a landmark study in corporate governance failure precise
     title: 'Nirmal Singh Bhangoo: The Milkman Who Built a $6.7 Billion Ponzi Scheme Selling Land That Didn\'t Exist',
     slug: 'nirmal-singh-bhangoo-pacl-pearls-ponzi-scheme',
     author: 'ScamShield Editorial',
-    tags: ['notorious', 'notorious-scammer'],
+    tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Nirmal Singh Bhangoo began his working life as a milkman in Punjab. By the early 2010s, the company he built, PACL India Limited (operating as part of the Pearls Group), had collected tens of billions of rupees from tens of millions of Indians on the promise of something almost every family in rural India wanted: a plot of farmland of their own.
 
 PACL's pitch worked through a vast network of commission-based agents — eventually numbering in the millions — who signed up customers, mostly in small towns and villages, to installment plans for parcels of agricultural land the company claimed to be developing across the country. Investors paid in over years, expecting either land title or a lump-sum payout with returns at maturity. In practice, the vast majority of the land was never acquired, developed, or allotted as promised; the plans functioned as a classic Ponzi structure, with money from new investors used to pay maturing obligations to earlier ones, and agents earning commissions for recruiting still more investors into the pipeline.
@@ -5947,7 +5947,7 @@ Jones's career, chronicled in his era's own true-crime literature — Pinkerton'
     title: 'Natwarlal: The Forger Whose Prison Escapes Made Him a Legend Before the "Sold the Taj Mahal" Myths Did',
     slug: 'natwarlal-conman-forger-prison-escapes',
     author: 'ScamShield Editorial',
-    tags: ['notorious', 'notorious-scammer'],
+    tags: ['notorious', 'notorious-scammer', 'historical'],
     coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Taj_Mahal_2018.jpg?width=1200',
     coverImageCredit: 'Photo: Almbauer (CC0)',
     coverImagePosition: 50,
@@ -9293,7 +9293,7 @@ Kahn's case is a study in how a tax-fraud operation can survive years of open li
     title: "Sholom Rubashkin and the Kosher Meatpacking Empire Built on Fabricated Collateral",
     slug: 'sholom-rubashkin-agriprocessors-bank-fraud',
     author: 'ScamShield Editorial',
-    tags: ['notorious', 'notorious-scammer'],
+    tags: ['notorious', 'notorious-scammer', 'historical'],
     body: `Sholom Rubashkin ran the day-to-day operations of Agriprocessors, Inc., a kosher slaughterhouse and meatpacking plant in Postville, Iowa, that at its peak was the largest kosher meat producer in the United States. The company's growth was financed largely through loans from First Bank Business Capital, secured against Agriprocessors' accounts receivable — money owed to the company by its customers. Prosecutors found that Rubashkin systematically inflated those receivables, reporting sales and invoices that didn't reflect real transactions, in order to draw down millions of dollars in loans the company's actual, collateral-backed revenue could never have supported.
 
 To keep the fraud running, Rubashkin diverted millions of dollars in real customer payments — money that was contractually required to go straight to First Bank to pay down the loan — into other accounts instead, and then laundered tens of millions of dollars through accounts at a local grocery store and a religious school in Postville to obscure where the money had actually gone. He also delayed payments to the ranchers and cattle suppliers who kept the plant running, straining the same small agricultural community the company was supposed to be supporting. Separately, immigration investigators found Agriprocessors had knowingly employed hundreds of undocumented workers, some using fraudulent identity documents Rubashkin's company had helped arrange — findings that fed into a massive May 2008 immigration raid at the plant, at the time the largest single-site immigration enforcement action in U.S. history, which triggered the financial unraveling that exposed the bank fraud.
@@ -11200,7 +11200,7 @@ With roughly ¥3.5 trillion (about $28 billion) in total liabilities against ass
     title: 'Jack Warner: The FIFA Vice President Who Turned World Cup Votes Into Bribes',
     slug: 'jack-warner-fifa-corruption-world-cup-bribery',
     author: 'ScamShield Editorial',
-    tags: ['notorious', 'notorious-scammer'],
+    tags: ['notorious', 'notorious-scammer', 'historical'],
     sourceUrl: 'https://www.espn.com/soccer/story/_/id/46360227/trinidad-court-blocks-extradition-ex-fifa-vp-warner-us',
     coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Jack_warner_football_executive.jpg?width=1200',
     coverImageCredit: 'Photo: Downing Street via Wikimedia Commons (CC BY 3.0)',
