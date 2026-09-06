@@ -8780,3 +8780,36 @@ International.push(
     country: 'AL',
   },
 );
+
+International.push(
+  {
+    name: 'Whish Money WhatsApp Customer-Service Impersonation Scam',
+    slug: 'lebanon-whish-money-whatsapp-impersonation-scam',
+    description: `Fraudsters targeting users of Whish Money, one of Lebanon's most widely used digital wallets, reach out over WhatsApp posing as a customer-service agent — in one documented case using the name "Tarek" — and claim the victim's account has a problem that must be "resolved" because of a high volume of transfers, or falsely tell the victim they have just received a transfer that needs to be confirmed. The scammer creates urgency by warning that funds will only be refunded if the issue is fixed quickly, then talks the victim through "completing a transaction" or reading out a one-time verification code, card number, or other account details needed to actually drain the wallet rather than fix anything. The same fraud rings have also built fake Facebook pages copying Whish Money's branding and logo to advertise bogus financial services and prepaid Visa cards, and separately send victims doctored screenshots of fake transfer receipts to convince a seller that payment has already been sent, prompting the victim to ship goods or resend money for a transfer that never happened. Digital-rights group SMEX, which documented the campaign running from October 2025 into 2026, says one victim who engaged with a fake "support" contact had roughly twenty unauthorized purchases attempted on their card within minutes, from a jewelry store to a Taiwanese phone shop to a Canadian immigration-services website. Whish Money users are advised to never share a one-time code, full card number, or other account details with anyone who contacts them first, including a person claiming to be Whish Money support, to verify any account issue only through the official Whish Money app or a number they look up independently, and to confirm any incoming "receipt" directly in their own account rather than trusting a screenshot sent by the other party.`,
+    categorySlug: 'phishing',
+    alertLevel: 'high',
+    sources: ['SMEX (Social Media Exchange)'],
+    sourceUrl: 'https://smex.org/digital-fraud-rings-are-targeting-whish-money-users-in-lebanon-heres-how-to-fight-back/',
+    country: 'LB',
+  },
+  {
+    name: 'Fake Housing Ads Targeting Displaced Persons for Advance Deposits',
+    slug: 'lebanon-fake-housing-ads-displaced-persons-deposit-scam',
+    description: `Scammers post fake rental listings on Facebook and other social media platforms, or contact people directly, specifically targeting Lebanese citizens who have been displaced from their homes and are urgently searching for a new place to live. The fraudster convinces the victim that a specific house or apartment has already been secured for them, then asks for an advance "deposit" or "reservation fee" to hold it — paid through a money-transfer company rather than in person — before cutting off all contact once the payment goes through, leaving the victim with no property and no way to recover the money. Lebanon's Internal Security Forces (ISF) issued a public warning about the scheme on August 3, 2026, noting that it deliberately preys on people under pressure from displacement who have little time to verify a listing before acting. The ISF's core advice is to never transfer money to an unknown party before physically inspecting the property in person and confirming the identity of its actual legal owner, and to report any suspected attempt through the "Baligh" reporting service on the ISF website or mobile app rather than continuing to engage with the poster.`,
+    categorySlug: 'rental-housing',
+    alertLevel: 'high',
+    sources: ['Internal Security Forces of Lebanon (ISF)'],
+    sourceUrl: 'https://isf.gov.lb/news/the-internal-security-forces-warn-of-scammers-exploiting-displaced-persons-through-fake-housing-advertisements-on-social-media-platforms/',
+    country: 'LB',
+  },
+  {
+    name: 'OMT Fake Traffic-Violation SMS Phishing Scam',
+    slug: 'lebanon-omt-fake-traffic-violation-sms-scam',
+    description: `Text messages circulating across Lebanon are made to look like official notices from OMT — the country's largest money-transfer network and the local agent for Western Union, which also processes government services such as speeding-ticket payments — falsely claiming the recipient has committed a speeding or other traffic violation and must pay a fine immediately through a link bearing OMT's name and branding. Clicking the link leads to a convincing fake payment page designed to harvest the victim's personal information and banking or card details rather than process any real fine. OMT publicly confirmed on August 14, 2026 that the messages and the accompanying link have no connection to the company and are being used purely for fraudulent purposes, warning that the campaign exploits the fact that OMT does legitimately notify some customers about traffic violations by text or phone, making the fake version easy to mistake for the real thing. The company urges recipients to avoid clicking the link, never share the message further, never enter personal or financial information through it, and to confirm any genuine traffic fine or OMT notice only through the company's official app, website, or customer service line rather than a link received by text.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['OMT Lebanon', 'Al Jadeed'],
+    sourceUrl: 'https://www.aljadeed.tv/news/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/585591/omt-%D8%A7%D8%AD%D8%B0%D8%B1%D9%88%D8%A7-%D8%B1%D8%B3%D8%A7%D8%A6%D9%84-%D8%A7%D9%84%D8%A7%D8%AD%D8%AA%D9%8A%D8%A7%D9%84-%D8%B5%D9%88%D8%B1%D8%A9/ar',
+    country: 'LB',
+  },
+);
