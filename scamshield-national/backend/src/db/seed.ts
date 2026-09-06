@@ -45549,6 +45549,39 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'Fake Crypto-Exchange Callback and AnyDesk Bank-Draining Scam',
+    slug: 'slovenia-crypto-exchange-anydesk-remote-access-scam',
+    description: `Slovenia's national police issued a public warning on May 26, 2023 after fraudsters began cold-calling residents while impersonating employees of legitimate cryptocurrency exchanges, telling victims — often in broken Slovenian — that thousands of euros in "earnings" were waiting to be withdrawn from a virtual wallet. To "process" the payout, the caller talks the victim into installing the remote-access program AnyDesk, which police said let the perpetrators "control the computer, access the injured party's online bank accounts and steal all the funds" rather than transfer anything in. Police reported more than 100 such cases in 2023 alone, with combined losses of about €3.5 million, and warned that callers may spoof legitimate-looking Slovenian numbers and rely on the victim's limited fluency in the language to push the call along before doubts can form. The advisory urged residents never to answer unsolicited calls about cryptocurrency winnings, never to install remote-access software at a caller's direction, and to report any such call to their local police station and bank immediately.`,
+    categorySlug: 'tech-support-scams',
+    country: 'SI',
+    alertLevel: 'high',
+    sources: ['Slovenian Police (Policija)'],
+    sourceUrl: 'https://www.policija.si/eng/newsroom/news-archive/news-archive/118962-police-warning-a-phone-call-with-a-notification-about-your-cryptocurrency-earnings-is-a-fraud',
+  },
+  {
+    name: 'Fake Bank "Urgent Update" Email and Callback Account-Draining Scam',
+    slug: 'slovenia-fake-bank-update-email-callback-scam',
+    description: `Slovenian police warned on September 29, 2023 that banking scams were "on the rise," describing a pattern that starts with either a phishing email made to look like it came from the victim's own bank, falsely claiming that an urgent update to online banking is required, or a phone call from someone posing as a bank employee. The email's link opens a page cloned to match the real online-banking site, which harvests the login details typed into it, while the phone-call version walks the victim through supposed "verification" steps that instead hand the caller control of the account. Police said at least twelve such cases had been identified in just over a month, with combined losses of roughly €1.4 million, and that most of the victims were businesses (legal persons) rather than individual account holders — a pattern police attributed to companies' larger account balances and multiple staff with account access, either of which can widen the opportunity for a convincing pretext call to succeed. The police reiterated the standard defense: no bank ever asks a customer to confirm login credentials or personal details by clicking a link in an email or text message, and any unsolicited "bank employee" call should be verified by hanging up and calling the number printed on a card or statement.`,
+    categorySlug: 'phishing',
+    country: 'SI',
+    alertLevel: 'high',
+    sources: ['Slovenian Police (Policija)'],
+    sourceUrl: 'https://www.policija.si/eng/newsroom/news-archive/news-archive/120161-banking-scams-on-the-rise-in-slovenia-warning',
+  },
+  {
+    name: 'Celebrity- and Government-Impersonating Fake Investment Ad Scam',
+    slug: 'slovenia-celebrity-government-fake-investment-ad-scam',
+    description: `Slovenia's national cybersecurity response center, SI-CERT, reported that investment scams were the costliest online fraud category in the country in 2024, causing losses exceeding €19 million with an average individual loss topping €27,000 — even as purchase (fake online storefront) scams were the most frequent complaint, adding almost €4.7 million more in losses. The investment scams typically begin as a sponsored advertisement on social media promoting an investment opportunity with implausibly high returns, made to look credible by misusing the name and likeness of celebrities, well-known brands, or even Slovenian state institutions — SI-CERT specifically flagged fraudulent ads that impersonated the Slovenian Police, the national intelligence and security agency, and various government ministries to lend the pitch an air of official backing. Clicking through leads to a slick but fake trading platform that shows fabricated account growth to encourage larger deposits, with withdrawal requests stalled or refused once a victim tries to cash out. SI-CERT's guidance mirrors that of the police: treat any investment ad using a celebrity's or government agency's name or image as a red flag rather than a reassurance, and verify any offer directly with the institution or public figure it claims to be affiliated with before sending money.`,
+    categorySlug: 'investment-fraud',
+    country: 'SI',
+    alertLevel: 'high',
+    sources: ['SI-CERT (Slovenian national cybersecurity response center)', 'Total Slovenia News'],
+    sourceUrl: 'https://www.total-slovenia-news.com/business/9590-online-fraud-growing-in-slovenia-especially-phishing',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
