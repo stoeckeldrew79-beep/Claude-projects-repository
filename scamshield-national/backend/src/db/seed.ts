@@ -45145,6 +45145,41 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'AI Deepfake Video Impersonating BCU President Investment Scam',
+    slug: 'uruguay-bcu-president-deepfake-investment-scam',
+    description: `In February 2025, Uruguay's Central Bank (Banco Central del Uruguay, BCU) warned the public about a fraudulent video, generated with artificial intelligence, that used the "image and voice" of Washington Ribeiro, president of the BCU's board, to recommend a "supposed investment platform." The clip was built to look like a genuine appearance by Ribeiro personally endorsing a specific trading or investment product, and it circulated on social media aimed at persuading viewers that the country's own financial regulator was vouching for the platform. It was at least the second such deepfake video the BCU had to publicly disown, after a similar clip using Ribeiro's likeness had already circulated in November 2024, and it followed an earlier pattern the bank had flagged: fake online advertisements formatted to look like genuine news coverage had also used Ribeiro's image and the BCU's name to push investment recommendations. The BCU stated that it does not intervene in commercial operations, does not participate in offering products or services, does not sponsor any entity, and never issues advertising or recommendations about investment platforms or sites, and it urged the public to verify any investment offer claiming an official BCU endorsement directly through the bank's own communication channels before sending money, or personal or banking data, to a platform advertised this way. The case illustrates how generative-AI video and voice cloning let scammers borrow the credibility of a country's own central-bank leadership at essentially no cost, and Uruguayans encountering a video of a public official recommending an investment should treat the endorsement itself as unverified until confirmed on the institution's official website or verified accounts, rather than assuming a familiar face and voice guarantee authenticity.`,
+    categorySlug: 'ai-deepfake-scams',
+    country: 'UY',
+    alertLevel: 'high',
+    sources: ['Banco Central del Uruguay (BCU)', 'El Observador', 'Cointelegraph'],
+    sourceUrl: 'https://www.elobservador.com.uy/nacional/bcu-advirtio-nueva-modalidad-estafa-video-inteligencia-artificial-n5985946',
+  },
+  {
+    name: 'Global Intergold Unauthorized Gold Investment Pyramid Scheme',
+    slug: 'uruguay-global-intergold-pyramid-scheme',
+    description: `In February 2023, the Banco Central del Uruguay (BCU) publicly warned residents about Global Intergold, a firm soliciting money from the public for supposed gold-backed investments despite holding no authorization from Uruguay's financial regulator to offer any investment product or service in the country. The BCU's alert came as part of a broader warning about a wave of unregistered companies using pyramid-style structures, in which the "returns" paid to early participants are drawn from money deposited by newer recruits rather than from any real underlying investment activity, so the scheme can only keep paying out as long as it keeps attracting fresh money and collapses once new deposits slow down. The central bank advised the public to "extremar cuidados y a chequear los datos y habilitación de la empresa" (exercise extreme caution and check the company's registration and authorization) before handing over any money, and pointed residents to the BCU's own public registry of licensed financial-services providers as the way to confirm whether a firm soliciting investment funds is actually authorized to do so. Uruguayan authorities have repeatedly noted that pyramid schemes promising gold, cryptocurrency, or foreign-currency returns have proliferated in the country through social media, in part because the promised profits and the (fictitious) backing asset can be described in ways that sound credible to savers without financial expertise. Anyone approached about a gold-, crypto-, or currency-backed investment opportunity should independently verify the offering company's registration on the BCU's website before transferring any funds, rather than relying on the pitch's own claims of licensing or backing.`,
+    categorySlug: 'investment-fraud',
+    country: 'UY',
+    isHistorical: true,
+    firstRecorded: '2023-02-22',
+    sources: ['Banco Central del Uruguay (BCU)', 'Radio Camacuá'],
+    sourceUrl: 'https://www.radiocamacua.uy/2023/02/banco-central-alerta-sobre-empresas-no-habilitadas-que-hacen-estafas-piramidales/',
+  },
+  {
+    name: '"Be" / Experiencia Sky Team Crypto Trading Pyramid Scheme',
+    slug: 'uruguay-be-experiencia-sky-team-crypto-pyramid-scheme',
+    description: `On March 3, 2023, the Banco Central del Uruguay (BCU) issued a public alert naming two related operations, "Be" and "Experiencia Sky Team," neither of which was registered with Uruguay's Financial Services Superintendency under any authorized category or held any license to operate as a financial or investment business. The scheme pitched itself as a cryptocurrency and foreign-exchange trading platform, offering supposedly expert trading "signals" that ordinary members could copy instantly to earn high returns, while also paying recruitment bonuses to members who brought in new investors — the classic multi-level structure of a pyramid scheme layered on top of crypto-trading branding to make it look like a legitimate fintech product. The BCU warned that "high returns can come with high financial risks" and that the operation "lacks financial sustainability," noting that participants who tried to withdraw their supposed profits or principal were met with delays and excuses rather than actual payouts, a pattern regulators say is common once a pyramid scheme can no longer recruit enough new money to cover redemptions. The central bank urged the public to treat any platform promising outsized, effortless crypto or forex returns — especially one that rewards recruiting other investors — as a red flag, and to check whether a firm soliciting investment is listed among the entities authorized by the BCU before depositing any funds with it. The case underscores that dressing a pyramid scheme in cryptocurrency or algorithmic-trading language does not change its underlying mechanics: without a real, verifiable source of profit, the payouts to early participants can only ever come from money deposited by those who join later.`,
+    categorySlug: 'investment-fraud',
+    country: 'UY',
+    isHistorical: true,
+    firstRecorded: '2023-03-03',
+    sources: ['Banco Central del Uruguay (BCU)', 'Montevideo Portal'],
+    sourceUrl: 'https://www.montevideo.com.uy/Noticias/BCU-advierte-por-estafas-piramidales--como-se-llaman-las-empresas-y-cual-es-la-modalidad--uc847257',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
