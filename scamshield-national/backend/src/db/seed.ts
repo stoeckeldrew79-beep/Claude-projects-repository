@@ -10870,6 +10870,43 @@ Pirrello's case is a study in how a securities bar doesn't necessarily stop a fr
   },
 );
 
+NOTORIOUS_ARTICLES.push(
+  {
+    title: 'Dakota Smith\'s Peoples Equity Group: A $27 Million Ponzi Scheme Built on Companies He Never Owned',
+    slug: 'dakota-smith-peoples-equity-group-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-wdtn/pr/florida-man-sentenced-over-15-years-prison-his-role-ponzi-scheme-losses-exceed-20',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Federal%20Building%20Main%20St%20Memphis%20TN%2005.jpg?width=1200',
+    coverImageCredit: 'Photo: Thomas R Machnitzki, Wikimedia Commons (CC BY 3.0) — the Clifford Davis/Odell Horton Federal Building in Memphis, where Dakota Smith was sentenced for the Peoples Equity Group fraud',
+    coverImagePosition: 50,
+    body: `Dakota A. Smith ran Peoples Equity Group (PEG), a Miami-based investment outfit, from 2021 to 2024, pitching it to investors across the United States and abroad as a way to buy real ownership stakes in profitable small businesses in two unrelated but equally attractive-sounding sectors: e-commerce and aviation. According to the U.S. Attorney's Office for the Western District of Tennessee, that pitch was fiction from the start — neither PEG nor any of its affiliated entities ever actually owned or controlled the companies Smith was selling shares in. Investors who thought they were buying a piece of a working business were, in reality, buying nothing at all.
+
+To keep the story alive, prosecutors say, Smith presented fabricated financial documents purporting to show the companies' strong performance, walking investors through the "results" on recurring monthly video calls — a modern, remote-friendly version of the glossy prospectus, delivered live and personally to make the fiction feel more credible than paperwork alone ever could. Those calls reached victims scattered across the country, including investors in West Tennessee, and internationally, letting Smith run a national fraud without ever needing investors to meet him, visit an office, or verify that the companies on his slides existed. A co-conspirator, Simon G. Outhwaite Jr., 26, of Miami, worked alongside him soliciting investors into the same scheme.
+
+By the time it collapsed in 2024, PEG had taken in more than $27 million from investors who believed they owned pieces of real, cash-flowing businesses. Smith pleaded guilty on November 18, 2025, to conspiracy to commit wire fraud, and Outhwaite pleaded guilty separately on May 26, 2026, to the same charge. On May 8, 2026, Chief U.S. District Judge Sheryl H. Lipman sentenced Smith to 188 months — just under 16 years — in federal prison, followed by three years of supervised release; the court left the restitution amount open for 90 days so additional victims could come forward and file claims before a final figure was set.
+
+PEG's pitch worked because "ownership interest" sounds concrete in a way that a promised interest rate does not — it implies a real, auditable asset sitting behind the investment, not just a promise of future payments. But a claimed ownership stake is only as real as the paperwork proving it, and a monthly video call showing polished financial statements is not independent verification; it's a presentation controlled entirely by the person asking for money. Investors who lost money to Smith had no way to independently confirm PEG's stated ownership of any of the companies it claimed to control, because no such ownership existed to confirm.`,
+  },
+  {
+    title: 'Oscar Manuel Castanos Garcia and the Dominican Call Centers Behind a $5 Million Grandparent Scam Network',
+    slug: 'oscar-castanos-garcia-dominican-republic-grandparent-scam-call-centers',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-ma/pr/operators-transnational-elder-fraud-scheme-plead-guilty',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/MoakleyFederalCourthouseRear.JPG?width=1200',
+    coverImageCredit: 'Photo: Mbfitz, Wikimedia Commons (public domain) — the John Joseph Moakley U.S. Courthouse in Boston, where the transnational elder fraud call-center case was prosecuted',
+    coverImagePosition: 50,
+    body: `Oscar Manuel Castanos Garcia, prosecutors say, oversaw a cluster of "grandparent scam" call centers run out of Santiago, in the Dominican Republic, that between May 2022 and April 2024 tricked more than 400 elderly victims across the United States — average age 84 — out of more than $5 million. The operation ran on a script familiar to anyone who has read an FTC elder-fraud warning: an "opener" employee would call an elderly victim claiming to be a grandchild who had just been in a car accident, sometimes adding details like a failed breathalyzer test or a fabricated police report, and a "closer" would then get on the line posing as a defense attorney or bail bondsman, demanding cash immediately to keep the "grandchild" out of jail. Victims were located and called using commercial telemarketing software, spoofed U.S. phone numbers, and victim lists prosecutors say were sourced from the dark web — the same kind of industrial-scale targeting infrastructure used in legitimate telemarketing, repurposed entirely for fraud.
+
+What made the operation hard to unwind wasn't just its scripts but its cash-collection network. Panicked victims were instructed to hand bundles of cash directly to rideshare drivers sent to their homes — often unwitting drivers who had no idea they were collecting fraud proceeds — or to mail cash and gift cards to addresses the callers provided. According to prosecutors, a codefendant, Gerardo Heriberto Nuñez Nuñez, then laundered the collected money through business bank accounts before moving it back to the Dominican Republic via wire transfers and hand-carried cash. In one representative case cited by investigators, a victim was talked into an initial $13,800 payment and then, days later, an additional $10,000 "follow-up" payment after the callers claimed there had been a "mix-up." The scheme's undoing began, notably, when Uber's own Global Security team flagged suspicious patterns in driver activity tied to repeated cash pickups, triggering the FBI's Boston Division investigation.
+
+A federal grand jury indicted thirteen people in May 2024, and after Castanos Garcia and several codefendants were arrested in the Dominican Republic in August 2025 and extradited to face charges, he pleaded guilty to one count of conspiracy to commit mail and wire fraud and one count of money laundering conspiracy; sentencing has not yet been scheduled. Several codefendants — including call center managers Joel Jose Cruz Rodriguez ("Paflow") and Edward Jose Puello Garcia — have also pleaded guilty, while a linked call center operator, Luis German Santos Burgos ("Mambo Flow"), was already sentenced on June 25, 2026, to 48 months in prison. Two more defendants, Ransel Starlin Tavarez Jimenez and Jose Arony Fermin Vasquez, remain at large. "These scams are not only financially devastating, they are emotionally traumatizing," said U.S. Attorney Leah B. Foley in announcing the guilty pleas.
+
+Grandparent scams work by manufacturing panic before a victim has time to verify anything — a "grandchild" in trouble, a demand for secrecy, and an urgent deadline are the three ingredients that keep a target from simply hanging up and calling their family directly. The Castanos Garcia network's scale — a purpose-built call center, dark-web victim lists, and a domestic cash-pickup logistics chain running through unwitting rideshare drivers — shows how far this once-crude phone scam has industrialized. Anyone who receives a call like this is safest hanging up immediately and calling the family member in question on a number they already have, rather than one the caller provides, and no legitimate bail, legal fee, or medical bill is ever paid by handing cash to a rideshare driver or a courier at the door.`,
+  },
+);
+
 // Practical "how it works / red flags / what to do" guides covering the
 // major scam categories, the same kind of coverage the FTC's Consumer
 // Advice site and AARP's Fraud Watch Network publish — well-documented
