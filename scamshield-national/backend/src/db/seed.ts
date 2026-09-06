@@ -11506,6 +11506,61 @@ Moldovan authorities have kept pursuing him ever since: in April 2023, the Chiș
   },
 );
 
+NOTORIOUS_ARTICLES.push(
+  {
+    title: "Rodrigo Rato: The IMF Chief Convicted Twice Over Spain's Bankia Collapse",
+    slug: 'rodrigo-rato-bankia-black-cards-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.aljazeera.com/news/2024/12/20/spain-court-sentences-ex-imf-chief-to-more-than-four-years-over-corruption',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Rodrigo_de_Rato_y_Figaredo.jpg?width=1200',
+    coverImageCredit: 'Photo: International Monetary Fund (Public Domain) — official IMF portrait of Rodrigo Rato, who later chaired Bankia and was twice convicted of fraud in Spain',
+    coverImagePosition: 30,
+    body: `Rodrigo Rato was, for years, about as respectable as European finance got. As Spain's economy minister from 1996 to 2004 he was credited with steering the country into the euro and through a long boom, and in 2004 he became managing director of the International Monetary Fund, one of the most powerful jobs in global finance. After leaving the IMF in 2007, he returned to Spain to chair Caja Madrid and then Bankia, the bank formed in 2010 from a merger of Caja Madrid with six other struggling regional savings banks. In July 2011, with Rato as chairman, Bankia went public in one of the largest bank listings in Spanish history, drawing in roughly 347,000 small retail investors — many of them ordinary savers and pensioners persuaded to buy shares in what was marketed as a solid, conservatively run institution.
+
+It wasn't one. Bankia reported a €309 million profit for 2011, the year of its IPO; months later, under new management, that figure was restated as a €3 billion loss. In May 2012, less than a year after the flotation, Rato resigned as chairman days before the Spanish government was forced into a €22 billion bailout of Bankia — at the time the largest bank rescue in the country's history, funded ultimately by taxpayers and largely at the expense of the retail shareholders whose savings had just been wiped out. Spain's National Court later ordered Rato and 33 other former executives and directors to stand trial on charges that Bankia's IPO prospectus had concealed the bank's true financial condition from the investors who bought into it. In September 2020, after years of proceedings, the court acquitted all 34 defendants, finding the falsification case unproven.
+
+By then Rato had already been convicted in a separate, more mundane scandal. Spanish prosecutors found that from 2003 to 2012, Rato and 64 other current and former Bankia and Caja Madrid executives had used secret, off-the-books corporate credit cards — dubbed the "black cards" in the Spanish press — to spend roughly €12 million combined on jewelry, vacations, and clothing, none of it declared as taxable income or disclosed to the bank's own books. Spain's High Court convicted Rato in February 2017 and sentenced him to four and a half years in prison for embezzlement; after his appeals were exhausted, he entered Madrid's Soto del Real prison in October 2018 and was released to a semi-open regime in October 2020, within days of the Bankia IPO acquittal.
+
+Rato's legal troubles did not end there. In December 2024, a Madrid court convicted him a second time — of three offenses against the Spanish treasury, one count of money laundering, and one count of corruption between individuals — for hiding roughly €15 million in undeclared funds in bank accounts across the Bahamas, Switzerland, Monaco, Luxembourg, and the UK between 2005 and 2015, and for exploiting a 2012 Spanish tax amnesty to launder rather than legitimize the concealed money. He was sentenced to four years, nine months, and one day in prison and fined more than €2 million; the ruling remains under appeal to Spain's Supreme Court, meaning Rato has not yet had to serve additional time. Few figures better illustrate how a career built on a reputation for prudent stewardship of other people's money can end in repeat criminal convictions for hiding his own.`,
+  },
+  {
+    title: "Bodo Schnabel and the ComROAD Fraud: A Telematics Company That Invented 97% of Its Sales",
+    slug: 'bodo-schnabel-comroad-fictitious-revenue-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://www.taipeitimes.com/News/bizfocus/archives/2002/05/04/0000134607',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Justizpalast_M%C3%BCnchen.jpg?width=1200',
+    coverImageCredit: 'Photo: Pixelteufel, Wikimedia Commons (CC BY 2.0) — the Justizpalast in Munich, home to the Landgericht München I court that convicted Schnabel in 2002',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    body: `Bodo Schnabel founded ComROAD AG to build telematics systems and navigation computers that let vehicle fleets be tracked and managed remotely, a genuinely promising technology as Germany's dot-com boom took off in the late 1990s. ComROAD listed on the Neuer Markt, the Frankfurt exchange's junior board created for fast-growing tech companies and often described as Germany's answer to Nasdaq, and its stock soared on the back of reported sales growth that hit 114 percent year over year. At its peak the company was valued at roughly €1.2 billion, and Schnabel was celebrated as one of the Neuer Markt's homegrown success stories.
+
+Almost none of it was real. ComROAD's revenue growth rested overwhelmingly on orders it said were placed by VT Electronics Ltd, a business customer in Hong Kong worth a combined $470 million in claimed purchases between 1998 and 2000. When the accounting firm Rödl & Partner was brought in as a special auditor in early 2002 after analysts and journalists began questioning the numbers, it found that VT Electronics did not meaningfully exist as a real, independent customer at all — and that roughly 97 percent of the €93 million in sales ComROAD had reported in its most recent financial year was fictitious. Actual revenue was closer to €3 million.
+
+The company collapsed within weeks of the findings becoming public, delisted from the Neuer Markt and forced into insolvency, wiping out shareholders who had bought in on the strength of growth figures that had simply been invented. Schnabel went on trial before the Munich Regional Court in November 2002 and, in a move that startled observers, abruptly confessed partway through the proceedings, telling the court "I regret my deed." He was convicted of securities fraud, insider trading, and commercial fraud and sentenced to seven years in prison; his wife Ingrid, who held a board position at the company, was convicted of aiding and abetting and received a two-year suspended sentence. Schnabel was released on parole after serving roughly half of his sentence.
+
+ComROAD was not an isolated case — it became one of the defining scandals of the Neuer Markt's brief existence, alongside contemporaneous frauds at companies like Infomatec and EM.TV, and the reputational damage from that wave of collapses was severe enough that Deutsche Börse shut the entire Neuer Markt segment down in 2003, folding its surviving listings into the main market. The scandal remains a case study in how thin the line can be between an aggressive growth story and outright fabrication when a single, unverified customer is allowed to account for nearly all of a public company's reported business.`,
+  },
+  {
+    title: "Hui Ka Yan and the $78 Billion Evergrande Accounting Fraud",
+    slug: 'hui-ka-yan-evergrande-accounting-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.npr.org/2026/08/20/nx-s1-5939335/chinese-sentence-founder-evergrande',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Evergrande_Guangzhou_headquarters_fenced_by_police.jpg?width=1200',
+    coverImageCredit: "Photo: Nrya, Wikimedia Commons (CC BY-SA 4.0) — Evergrande's headquarters tower in Guangzhou, fenced off by police after the company's collapse",
+    coverImagePosition: 50,
+    body: `Hui Ka Yan — known in mainland China by the Mandarin rendering of his name, Xu Jiayin — built China Evergrande Group from a single real-estate venture founded in Guangzhou in 1996 into the largest, and eventually the most indebted, property developer on Earth, at one point employing hundreds of thousands of people directly and supporting millions more jobs through its supply chain. Evergrande's business model depended on an unusually aggressive version of a common industry practice: it took enormous pre-sale payments from ordinary Chinese families buying apartments in developments that had not yet been built, then used that cash not just to finish those buildings but to fund new land purchases and new projects elsewhere, a structure that only worked as long as new pre-sales kept outpacing the company's ballooning debts.
+
+The music stopped in September 2021, when Evergrande missed a bond interest payment and formally defaulted months later, becoming the highest-profile casualty of a broader crackdown on Chinese property-sector leverage and the emblem of a nationwide construction slowdown that left hundreds of pre-sold, half-finished buildings stranded across the country. China's securities regulator later determined the company had been lying about its finances well before the collapse: in March 2024, the China Securities Regulatory Commission found that Evergrande's main onshore unit, Hengda Real Estate Group, had inflated its 2019 revenue by roughly 214 billion yuan and its 2020 revenue by a further 350 billion yuan — a combined overstatement of about 564 billion yuan, or roughly $78 billion, among the largest accounting frauds regulators anywhere have ever documented. The fabricated revenue accounted for about half of Hengda's total reported sales in 2019 and 79 percent of its reported sales in 2020, inflating the books specifically to support new bond issuances to investors who believed they were lending to a healthier company than the one that actually existed.
+
+The CSRC fined Hengda a record 4.18 billion yuan (about $581 million) and separately fined Xu Jiayin personally 47 million yuan (about $6.5 million) while banning him for life from China's securities markets — but that was only the opening act. Xu had already been detained by Chinese authorities in September 2023 on suspicion of unspecified "illegal crimes," and Evergrande itself was ordered into liquidation by a Hong Kong court in January 2024, with liquidators tasked with recovering what they could for creditors owed more than $300 billion. On August 20, 2026, a court in Shenzhen went further, convicting Hui Ka Yan of fraud and bribery and sentencing him to life in prison; two of his sons and several senior Evergrande executives were sentenced alongside him, and the group's various entities were fined a combined total exceeding $2.3 billion for financial crimes that included inflating the company's assets while concealing the true scale of its liabilities.
+
+Evergrande's collapse stands as one of the starkest illustrations of how a company built on pre-sold promises to ordinary homebuyers, propped up by fabricated financial statements to keep bondholders lending, can leave a trail of unfinished apartment blocks and unpaid debts stretching across an entire country — and how long it can take, even after the fabrication is exposed, for the person who built it to actually face a court.`,
+  },
+);
+
 // Practical "how it works / red flags / what to do" guides covering the
 // major scam categories, the same kind of coverage the FTC's Consumer
 // Advice site and AARP's Fraud Watch Network publish — well-documented
