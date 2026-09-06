@@ -44082,6 +44082,41 @@ SEED_SCAMS.push(
   },
 );
 
+// Three new, real, sourced cases tied to Kuwait — a country not
+// previously covered in SEED_SCAMS (verified by grep before adding).
+SEED_SCAMS.push(
+  {
+    name: 'Kuwait Ministry of Commerce Raffle Draw Manipulation Scheme',
+    slug: 'kuwait-raffle-draw-manipulation-scheme',
+    description: `Kuwait's Public Prosecution referred 73 defendants to the Criminal Court in October 2025 over a highly organized scheme that manipulated the results of commercial prize raffles — the kind banks and retailers use to draw winners of cars, cash, and other prizes — under the nominal supervision of the Ministry of Commerce and Industry. Investigators found that between 2021 and 2025 the network had tampered with the outcomes of 110 separate raffle draws, using forged official and electronic documents and fabricated waivers to steer prizes worth more than KD 1.244 million (roughly $4 million) to participants who had paid bribes rather than to the drawn winners, then laundered the proceeds through multiple financial channels; prosecutors seized KD 1.174 million in cash and in-kind assets tied to the case. The scheme became public in March 2025 after a video appearing to show a man manipulating a high-profile draw went viral on Kuwaiti social media, and an Egyptian woman and her husband who had "won" several prizes, including seven vehicles, were arrested attempting to leave the country. The Public Prosecution said the manipulation "was not random but highly coordinated, involving clear planning, division of roles, and intent to defraud," and charged defendants with bribery, mediation, forgery of official and electronic documents, and money laundering. The case is a reminder that even raffles run by well-known banks and retailers depend on internal controls that can be corrupted from the inside, and that a sudden run of suspiciously lucky "winners" connected to insiders is itself a warning sign worth reporting to regulators.`,
+    categorySlug: 'lottery-sweepstakes-scams',
+    country: 'KW',
+    alertLevel: 'medium',
+    sources: ["Kuwait Public Prosecution", "Arab Times Kuwait", "The National"],
+    sourceUrl: 'https://www.thenationalnews.com/news/gulf/2025/10/29/kuwait-refers-73-suspects-to-court-over-multimillion-dollar-fraud-in-raffle-draws/',
+  },
+  {
+    name: 'Kuwait KD 100 Million Cyberfraud and Hawala Laundering Network',
+    slug: 'kuwait-cyberfraud-hawala-laundering-network',
+    description: `Kuwait's Ministry of Interior announced on February 2, 2026 that it had dismantled an international gang that had drained more than KD 100 million (over $325 million) from victims' bank accounts through electronic fraud since 2023, in an operation personally supervised by First Deputy Prime Minister and Minister of Interior Sheikh Fahad Yousef Al-Sabah. The scheme began when fraudsters used stolen banking credentials to empty individual victims' accounts, then laundered the proceeds by buying large quantities of mobile phones with the stolen funds and reselling them through local associates, funneling the cash through shell-company bank accounts backed by fictitious invoices to disguise its origin, and finally smuggling it out of the country through the informal, unlicensed hawala transfer network — with roughly KD 6 million moved this way in the month before the raid alone. The investigation began after a single victim reported that his bank account had been emptied by an unknown electronic fraud, and it led police to nine suspects, including a Jordanian national identified as the network's ringleader, who fled Kuwait upon learning of the investigation but was located and repatriated the same day with the cooperation of Jordanian authorities; all nine were referred to the Public Prosecution, and the Central Bank of Kuwait separately pursued legal measures against a money-transfer company found to have facilitated the scheme outside its licensed activities. Authorities pointed to the case as evidence that stolen banking-fraud proceeds increasingly move through ordinary-looking commercial transactions like phone resale and shell-company invoicing before ever reaching an informal transfer network, making early bank fraud alerts on any unauthorized account activity critical to intercepting the money before it disappears abroad.`,
+    categorySlug: 'account-takeover',
+    country: 'KW',
+    alertLevel: 'high',
+    sources: ["Kuwait Ministry of Interior", "Gulf News", "Kuwait Times"],
+    sourceUrl: 'https://gulfnews.com/world/gulf/kuwait/kuwait-cracks-down-on-cyberfraud-network-seizes-over-kd100-million-1.500429774',
+  },
+  {
+    name: 'Kuwait "Smishing Triad" Fake Cell Tower Banking Fraud Ring',
+    slug: 'kuwait-smishing-triad-fake-cell-tower-fraud',
+    description: `In February 2025, Kuwait's Ministry of Interior announced it had broken up a six-member cell of an international cybercrime network — identified by threat-intelligence firm Resecurity as the "Smishing Triad," a China-based group that had previously run similar campaigns against victims in the UAE, India, Pakistan, and the United States — after detecting suspicious signal activity in the Farwaniya area south of Kuwait City. The gang drove vehicles fitted with fake GSM base stations, commonly known as IMSI catchers or "stingrays," which impersonated legitimate cell towers at close range to intercept nearby phones and blast out mass text messages spoofed to look as though they came from real Kuwaiti banks and telecom providers; the messages typically warned recipients of an account or service problem and pushed them to a phishing link designed to harvest banking credentials and card details. Police arrested a Chinese national found driving one of the equipped vehicles, along with the specialized electronic equipment, forged passports used to rent the vehicles, and a large cache of additional phones, and authorities said biometric fingerprint analysis helped unmask false identities the gang had used to cover its movements. Dr. Safaa Zaman, director of the Kuwait Association for Information Security, said the case showed that "electronic fraud methods have become more sophisticated and professional," while the Ministry vowed to "confront anyone who dares to tamper with the country's security." Because these messages arrive over an intercepted local cell signal rather than the internet, they can slip past carrier-level spam filtering entirely, making unsolicited bank or telecom texts asking for a click just as risky in Kuwait as anywhere else, regardless of how convincing the sender ID looks.`,
+    categorySlug: 'phishing',
+    country: 'KW',
+    alertLevel: 'high',
+    sources: ["Kuwait Ministry of Interior", "Arab Times Kuwait", "Resecurity"],
+    sourceUrl: 'https://www.resecurity.com/blog/article/kuwait-under-attack-by-smishing-triad-law-enforcement-takes-action',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
