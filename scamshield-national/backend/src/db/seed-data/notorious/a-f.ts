@@ -3740,3 +3740,24 @@ In April 2026, the State Department's Transnational Organized Crime Rewards Prog
     coverImagePosition: 60,
   },
 ];
+
+NotoriousAF.push(
+  {
+    title: 'Babak Zanjani, the Sanctions-Busting Billionaire Who Talked His Way Off Iran\'s Death Row',
+    slug: 'babak-zanjani-iran-oil-sanctions-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.iranintl.com/en/202404308410',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/National_Iranian_Oil_Company_headquarters_1.jpg?width=1200',
+    coverImageCredit: 'Photo: GTVM92, Wikimedia Commons (CC BY-SA 4.0) — the National Iranian Oil Company headquarters in Tehran, the ministry Zanjani was convicted of defrauding',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    body: `Babak Zanjani started out, by his own telling, as a small-time currency trader working the Iran-Turkmenistan border in the 1990s, and built that trade into the Sorinet Group, a sprawling conglomerate with operations reaching from Turkey and the United Arab Emirates to Malaysia and Tajikistan. As Western sanctions tightened around Iran's oil sector in the early 2010s, cutting the country off from the international banking system it needed to sell crude and collect payment, Zanjani positioned Sorinet as the workaround: a network of shell companies and offshore accounts that let the National Iranian Oil Company keep exporting petroleum and receiving payment through channels sanctions regulators couldn't easily trace back to Tehran.
+
+For a government desperate to keep oil revenue flowing, Zanjani's services were worth billions, and by some estimates he became one of the richest men in Iran, amassing an airline, a football club, and a media empire along the way. But when reformist President Hassan Rouhani took office in August 2013 promising to root out sanctions-era profiteering, investigators turned their attention to where all that oil money had actually gone — and found that a large share of it appeared to have stuck to Zanjani's own businesses rather than flowing back to the Iranian state that was owed it. He was arrested on December 30, 2013, on a complaint from the National Iranian Oil Company alleging he was withholding billions in proceeds from oil sales conducted on the ministry's behalf.
+
+In a televised trial, Iranian prosecutors accused Zanjani of embezzling roughly $2.7 to $2.8 billion in oil-ministry funds, and on March 6, 2016, a Tehran court convicted him of "corruption on earth" — one of the most severe offenses under Iran's Islamic penal code — sentencing him and two co-defendants to death. Iran's Supreme Court upheld the sentence on appeal, and Zanjani spent the following years on death row while periodically claiming, through his lawyers, that he could repay the state in full if given the chance to liquidate his frozen overseas assets. That argument eventually persuaded Iranian authorities: after Zanjani's associates returned an estimated $2.1 billion to the government, his death sentence was commuted to 20 years in prison on April 30, 2024, and he was released roughly a year later.
+
+Rather than fade from view, Zanjani re-emerged in 2025 and 2026 building a new business empire spanning rail, cryptocurrency exchanges, ride-sharing, and gold trading — prompting the U.S. Treasury Department to sanction him again in 2026 over two of his new digital-asset ventures, Zedcex and Zedxion, and a network of entities allegedly helping him move money in ways reminiscent of his original oil-sanctions scheme. The case remains a striking illustration of how a state's own effort to evade international sanctions can create exactly the kind of unaccountable, hard-to-trace financial channel that a well-placed insider can quietly siphon from — and how, in a system built to hide money from foreign regulators, proving after the fact how much of it actually went missing is a fight the state itself struggles to win.`,
+  },
+);

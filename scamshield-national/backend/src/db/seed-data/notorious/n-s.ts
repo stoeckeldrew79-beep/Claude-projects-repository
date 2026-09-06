@@ -2617,3 +2617,24 @@ CytoDyn's collapse from pandemic-era retail-investor darling to federal fraud co
     coverImagePosition: 50,
   },
 ];
+
+NotoriousNS.push(
+  {
+    title: 'Pablo Alcalde and the La Polar Scandal That Faked a Retailer\'s Way to Chile\'s Biggest Corporate Fraud',
+    slug: 'pablo-alcalde-la-polar-chile-credit-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://www.bloomberg.com/news/articles/2011-06-20/chile-s-la-polar-sinks-71-in-santiago-after-week-long-trading-halt-lifted',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Gran_Torre_Santiago,_Costanera_Center_(24847266437).jpg?width=1200',
+    coverImageCredit: 'Photo: Deensel via Wikimedia Commons (CC BY 2.0) — Santiago\'s financial district, where La Polar traded on the Santiago Stock Exchange',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    body: `La Polar was one of Chile's largest department-store chains, built around extending store-brand credit cards to working-class and lower-middle-class customers who had little access to traditional bank credit — a business model that made the company a market darling through the 2000s as its loan book, and its share price, climbed steadily year after year. Pablo Alcalde chaired La Polar's board and served as its general manager during the years prosecutors would later scrutinize most closely, a period in which the company's reported growth increasingly depended on a portfolio of consumer debt that was not nearly as healthy as its financial statements claimed.
+
+Rather than report rising defaults among its credit-card customers, La Polar's management unilaterally renegotiated the terms of delinquent accounts — extending repayment schedules and adding new fees without the customers' knowledge or consent — a practice that let the company reclassify loans that should have been written off as bad debt as merely restructured and still performing. Chilean regulators later found more than 418,000 customer accounts had been altered this way, letting La Polar report years of steadily growing profits that existed mostly on paper, inflating its stock price while Alcalde and other executives collected bonuses and sold shares into the rally their own falsified numbers had created.
+
+The fiction collapsed on June 9, 2011, when La Polar disclosed the irregularities to Chile's securities regulator and admitted it would need to set aside roughly $430 million in additional loan-loss provisions to reflect debt that had never actually been performing. Trading in the stock was halted for a week while the scale of the damage was assessed; when it resumed on June 20, 2011, La Polar shares collapsed 62.7% in a single session — the largest one-day drop ever recorded on the Santiago Stock Exchange — before falling further in the days that followed, wiping out the bulk of the company's market value and rattling Chile's pension funds, which held large stakes in the retailer on behalf of millions of ordinary savers.
+
+Chile's securities regulator filed charges against eighteen former La Polar executives, and Alcalde, alongside fellow executives Julián Moreno and María Isabel Farah, accepted a condensed plea process in 2015 that produced Chile's first-ever conviction for money laundering derived from the country's securities and banking laws; Alcalde was sentenced to five years of supervised liberty and ordered to repay roughly $220 million in bonuses he had received. Chile's Supreme Court upheld a related 680-million-peso fine against him in 2018, closing out the last major piece of litigation in a case that had already reshaped how Chilean regulators scrutinized consumer-lending disclosures at every major retailer in the country. The La Polar affair remains a textbook illustration of a fraud that required no fabricated transactions at all — only the quiet, unilateral rewriting of existing customers' loan terms, repeated hundreds of thousands of times, to make bad debt look exactly like good debt on the one set of books that mattered to investors.`,
+  },
+);
