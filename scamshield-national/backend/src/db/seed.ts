@@ -12395,6 +12395,63 @@ The Alibaba case shows how a buyback guarantee, normally a feature meant to redu
   },
 );
 
+NOTORIOUS_ARTICLES.push(
+  {
+    title: "Mahafarid Amir Khosravi and Iran's $2.6 Billion Bank Fraud That Ended at the Gallows",
+    slug: 'mahafarid-amir-khosravi-iran-bank-fraud-execution',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://en.wikipedia.org/wiki/Mahafarid_Amir_Khosravi',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/EvinHouseofDetention.jpg?width=1200',
+    coverImageCredit: 'Photo: Ehsan Iran, Wikimedia Commons (CC BY-SA 2.0) — the entrance to Evin Prison in Tehran, where Mahafarid Amir Khosravi was executed',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    body: `Mahafarid Amir Khosravi built the Aria Investment Development Company into a sprawling conglomerate of more than 35 businesses — mineral water, meat imports, steelmaking, even a professional football club — and, by his own government's later account, a personal fortune worth over a billion dollars. He did it, prosecutors said, by exploiting Iran's privatization program from the inside: securing forged letters of credit and loan guarantees from one of the country's largest state banks, Bank Saderat, and using bribes reported at more than $3 million to persuade bank managers to accept documents that never should have cleared.
+
+Beginning around 2007, that scheme generated roughly $2.6 billion in credit that Khosravi's companies were never able to legitimately obtain, according to Iranian investigators — money he used to buy up formerly state-owned enterprises being sold off under privatization, including a majority stake in the major steel producer Khuzestan Steel Company. On paper, the appearance was routine: an ambitious businessman winning bids in a government sell-off. In reality, the collateral behind those winning bids was forged, and the credit line propping up his empire was fictitious.
+
+The fraud became public in 2011 in what Iranian media dubbed the country's largest financial scandal since the 1979 revolution, implicating figures well beyond Khosravi himself — Bank Melli's chief executive, Mahmoud Reza Khavari, resigned and fled to Canada rather than face prosecution, and President Mahmoud Ahmadinejad was questioned by parliament about ties to the case, though no charges against him followed. Iran's judiciary moved fast and hard against Khosravi specifically: in September 2012, a branch of the Tehran Revolutionary Court convicted him of "corruption on earth" (efsad-e-fil-arz), a capital offense under Iran's penal code, and sentenced him and three of his closest associates to death. Iran's Supreme Court upheld the sentence, and Khosravi was executed by hanging at Evin Prison on May 24, 2014 — becoming, as far as international reporting has documented, the only person put to death over the case. Thirty-nine defendants in total were convicted, with sentences for the others ranging up to 25 years in prison.
+
+Khosravi's case remains one of the starkest illustrations of how a state's own privatization drive can become a vector for fraud rather than a check against it: when the government itself is the seller and the buyer's paperwork is never independently verified against the bank records behind it, the sale of a genuine public asset can rest entirely on a forged signature. It is also a reminder of how differently the same category of white-collar crime can be punished depending on where it happens — a $2.6 billion bank fraud that, prosecuted in most Western jurisdictions, would have ended in a lengthy prison sentence instead ended, in Iran, on the gallows.`,
+  },
+  {
+    title: 'Huynh Thi Huyen Nhu and the $190 Million VietinBank Deposit Scam That Drew a Life Sentence',
+    slug: 'huynh-thi-huyen-nhu-vietinbank-deposit-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://en.vietnamplus.vn/life-sentence-given-to-swindling-ex-vietinbank-official-post126403.vnp',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Ho_Chi_Minh_City,_Vietcombank_Tower,_2020-01_CN-01.jpg?width=1200',
+    coverImageCredit: 'Photo: Steffen Schmitz, Wikimedia Commons (CC BY-SA 4.0) — a bank tower in Ho Chi Minh City\'s financial district, the setting for the VietinBank fraud',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    body: `Huynh Thi Huyen Nhu was a deputy branch manager at Vietnam Joint Stock Commercial Bank for Industry and Trade, known as VietinBank, one of Vietnam's largest state-controlled lenders. Between 2007 and 2011, she used that position — and the trust it commanded — to draw large corporate and individual depositors into a branch she controlled, promising above-market interest rates on top of what VietinBank officially offered.
+
+Once the money arrived, prosecutors said, Nhu and a network of collaborators used counterfeit bank seals and forged authorization documents to divert it out of the depositors' accounts and into her own hands, all while the victims continued to believe their funds sat safely on VietinBank's books. The scheme eventually swindled roughly 4,000 billion Vietnamese dong — about $190 million — from banks, companies, and individuals, making it, at the time, Vietnam's largest-ever bank fraud case and a national scandal over how a single mid-level bank employee could forge her way past a state lender's internal controls for years.
+
+Ho Chi Minh City's People's Court convicted Nhu on January 27, 2014, of "fraudulently appropriating property" and "counterfeiting the seals and documents of agencies and organizations," sentencing her to life imprisonment. A former branch manager, Vo Anh Tuan, received 20 years, and twenty other defendants were sentenced to terms ranging from a year of house arrest up to 14 years. Nhu appealed, but Vietnam's appellate court upheld the life sentence in full, closing the door on any reduction.
+
+The case became a touchstone in Vietnamese banking regulation for a specific reason: several of the defrauded depositors were themselves financial institutions and corporate treasurers who had wired large sums based on nothing more than a trusted bank employee's personal assurances, bypassing the verification steps that were supposed to confirm deposits directly with VietinBank's back office. It is a pattern that recurs across bank fraud cases worldwide — the fraud succeeds not by beating a bank's security systems, but by convincing victims to route around them, trusting a person rather than confirming the paperwork.`,
+  },
+  {
+    title: "Tsvetan Vasilev and the Bank Bulgaria Says He Emptied From the Inside",
+    slug: 'tsvetan-vasilev-corporate-commercial-bank-bulgaria',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://en.wikipedia.org/wiki/Tsvetan_Vasilev',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Sofia_Garibaldi_square_at_ul_Graf_Ignatiev_2012_PD_1.jpg?width=1200',
+    coverImageCredit: 'Photo: Bin im Garten, Wikimedia Commons (CC BY-SA 3.0) — Garibaldi Square in Sofia, where Corporate Commercial Bank\'s headquarters stood',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    body: `Tsvetan Vasilev spent more than a decade building Corporate Commercial Bank, known in Bulgaria as Corpbank or KTB, into the country's fourth-largest lender by assets, courting depositors that included state-owned companies and municipal governments with competitive rates and an image of stability. As majority shareholder and chairman of its supervisory board, Vasilev effectively controlled the bank's lending decisions even while formally stepping back from day-to-day management.
+
+Bulgarian prosecutors and a later forensic audit by the consultancy AlixPartners painted a very different picture of what those lending decisions actually were: Corpbank, they found, had funneled large volumes of depositor money out through unsecured loans to a web of companies that were, in substance, controlled by Vasilev himself — an arrangement AlixPartners described as functioning much like a Ponzi scheme, with new deposits and loans used to paper over a hole in the bank's finances rather than fund genuine, independent borrowers. Investigators estimated the shortfall at roughly 2.5 to 2.8 billion Bulgarian leva, on the order of $1.5 billion.
+
+The scheme unraveled in June 2014, when a wave of withdrawals — reportedly around a fifth of the bank's total deposits — forced Corpbank's management to ask Bulgaria's central bank for emergency liquidity support. The central bank refused, and Corpbank was placed under special supervision on June 20, 2014, before regulators revoked its license outright later that year in what became Bulgaria's largest banking collapse since the fall of communism. Vasilev fled to Belgrade, Serbia, days after the run began, surrendering to Serbian police that September; Bulgarian prosecutors formally indicted him and seventeen others for embezzlement in July 2017.
+
+More than a decade later, the case remains unresolved in the way that cross-border financial fraud often does: Serbia has granted Vasilev asylum, and Belgrade's appellate court delivered a final refusal of Bulgaria's extradition request in May 2022, leaving him free while Bulgarian prosecutors continue to press their case from across a border he does not have to cross. Corpbank's collapse wiped out value for thousands of depositors and cost Bulgaria's deposit insurance fund one of the largest payouts in its history — a reminder that a bank's size and its ownership structure, not just its balance sheet, are what depositors are really trusting when they hand over their money.`,
+  },
+);
+
 // Practical "how it works / red flags / what to do" guides covering the
 // major scam categories, the same kind of coverage the FTC's Consumer
 // Advice site and AARP's Fraud Watch Network publish — well-documented
