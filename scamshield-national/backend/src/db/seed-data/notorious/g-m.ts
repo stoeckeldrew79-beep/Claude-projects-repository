@@ -3970,4 +3970,22 @@ France arrested Ablyazov in 2013 on a Russian and Kazakh extradition request, bu
 
 More than seventeen years after BTA's collapse, Ablyazov remains free in France, still fighting a revoked grant of political asylum through the country's courts, while the London judgments against him sit largely uncollected and Kazakhstan's second-largest bank absorbed a loss its own state ultimately had to cover. The case stands as one of the starkest illustrations of how a bank's own lending books — ordinarily the most heavily scrutinized part of its business — can be turned into the fraud's delivery mechanism itself, when the person deciding who gets a loan and the person secretly receiving it are the same man.`,
   },
+  {
+    title: "Kim Jae-hyun and the Optimus Asset Management Fraud That Faked Its Way to South Korea's Harshest White-Collar Sentence",
+    slug: 'kim-jae-hyun-optimus-asset-management-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.koreatimes.co.kr/southkorea/law-crime/20220714/40-year-prison-term-finalized-for-optimus-ceo-over-massive-investment-scam',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Supreme_Court_of_Korea_(2020).jpg?width=1200',
+    coverImageCredit: 'Photo: The Seoul Institute, via Wikimedia Commons (CC BY 4.0) — the Supreme Court of Korea, which finalized Kim Jae-hyun\'s sentence in 2022',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    body: `Kim Jae-hyun ran Optimus Asset Management, a private hedge fund manager in Seoul that marketed its flagship products to institutional and wealthy retail investors as one of the safest instruments on the Korean market: a fund that, its glossy term sheets promised, invested exclusively in accounts receivable owed by public institutions and companies working on state-led construction and infrastructure projects — the kind of counterparty risk a cautious investor could feel comfortable underwriting.
+
+Almost none of that was true. Between 2018 and 2020, Kim raised roughly 1.3 trillion won — nearly $1 billion — from thousands of investors on the strength of those documents, then diverted the overwhelming majority of it into an entirely different and far riskier portfolio: privately placed bonds issued by companies Kim's associates controlled, which in turn plowed the cash into speculative real-estate developments and stock-market bets, while a further slice of investor money went straight into Kim's personal accounts to fund his own trading in stocks, futures, and options. New investor deposits were used to make redemption payments to earlier investors, a Ponzi-style patch that kept the fund's advertised returns looking intact for years while its actual book of assets grew steadily more worthless underneath.
+
+The fund collapsed in June 2020 when Optimus abruptly suspended redemptions, unable to return money to investors who wanted out, and South Korea's Financial Supervisory Service opened an investigation that quickly found the fund's underlying assets bore no resemblance to what its marketing materials described. Prosecutors indicted Kim and several associates for fraud and embezzlement, and Optimus itself was declared bankrupt as the scale of the shortfall became clear — with authorities later placing the value of assets actually recoverable at only a small fraction of the roughly 523.5 billion won still on the fund's books.
+
+A Seoul court first sentenced Kim to 25 years in prison in 2021, but the Seoul High Court, hearing prosecutors' appeal, more than doubled the punishment on further review, and on July 14, 2022, South Korea's Supreme Court finalized a sentence of 40 years — one of the longest terms ever imposed on a white-collar defendant in the country's history — along with a 500 million won fine and forfeiture of more than 75 billion won in illicit proceeds. Kim remains behind bars serving that sentence, and prosecutors have continued clawing back forfeited assets years after the conviction, recovering an additional 2.28 billion won as recently as 2026 — a reminder that even a finalized sentence and a formal bankruptcy rarely mean investors in a scheme like this ever see the bulk of their money again.`,
+  },
 ];
