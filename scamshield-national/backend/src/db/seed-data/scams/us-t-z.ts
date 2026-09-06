@@ -1889,4 +1889,15 @@ export const UsTZ: SeedScam[] = [
     country: "US",
     state: "WV",
   },
+  {
+    name: "Fake Online Classic Car and Heavy Equipment Dealership Scam",
+    slug: "tennessee-fake-car-dealership-website-scam",
+    description: `Tennessee Attorney General Jonathan Skrmetti's Division of Consumer Affairs issued a consumer alert on March 18, 2026, warning residents about sophisticated fake websites posing as classic car and heavy equipment dealerships. The scam sites advertise vehicles or machinery at prices well below market value to lure in buyers, and go to unusual lengths to look legitimate — the operators answer phone calls, send video "walkarounds" of the inventory, and can produce fake business licenses on request. Buyers who wire money or send a bank-to-bank transfer for a vehicle or piece of equipment never receive anything, because the item being advertised does not actually exist; in some cases the scam sites lift real inventory photos from a legitimate dealership's own listings, or hijack the name and address of a small, real business that has no website of its own to make the fake one look authentic. "These scammers don't care one bit about your family's financial well-being," Skrmetti's office said, urging consumers to always be cautious when shopping online for a big-ticket item. The Attorney General's Office recommended inspecting a vehicle or piece of equipment in person whenever possible, arranging a third-party inspection through a neutral professional before sending any money, researching the seller through the Better Business Bureau and a vehicle history service, verifying a business's standing through the Tennessee Secretary of State's database, and using a secure payment method such as a check or credit card rather than a wire transfer. The office also warned that a legitimate seller will never ask for a Social Security number up front or demand payment by gift card or cryptocurrency. Tennesseans who believe they've encountered one of these scam sites are urged to report it to the FBI's Internet Crime Complaint Center (IC3), the Tennessee Attorney General's Division of Consumer Affairs at tn.gov/consumer, or the Better Business Bureau.`,
+    categorySlug: "online-shopping-scams",
+    alertLevel: "medium",
+    sources: ["Tennessee Attorney General's Office (Division of Consumer Affairs)", "WSMV", "WKRN"],
+    sourceUrl: "https://www.tn.gov/attorneygeneral/news/2026/3/18/pr26-12.html",
+    country: "US",
+    state: "TN",
+  },
 ];
