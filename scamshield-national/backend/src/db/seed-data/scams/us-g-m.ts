@@ -3497,4 +3497,15 @@ export const UsGM: SeedScam[] = [
     country: 'US',
     state: 'MN',
   },
+  {
+    name: 'Indiana Fraudulent FEMA Disaster-Assistance Application Identity Theft Scheme',
+    slug: 'indiana-fraudulent-fema-disaster-assistance-identity-theft',
+    description: `After a powerful derecho and widespread flooding triggered a federal disaster declaration covering more than 30 Indiana counties in August 2026, Attorney General Todd Rokita's office began fielding reports of criminals using stolen personal information to file fraudulent FEMA and state disaster-assistance applications in the names of storm victims who never applied at all. With the state processing roughly 40,000 assistance applications and FEMA approving more than $2 million in aid, residents were told the first sign of the fraud is often a call or letter from an actual FEMA caseworker asking about an application the recipient never submitted — meaning someone else used their name, address, and Social Security number to claim assistance intended for them, which can also delay or jeopardize the real victim's own legitimate claim. Speaking at a September 2, 2026 press conference where he also announced a series of civil lawsuits against contractors accused of price-gouging storm victims, Rokita said, "We are going after you ... This isn't the end ... This is the beginning of what we're going to file," and warned that criminal charges remain possible in the most serious cases. Residents who suspect someone has filed for assistance in their name are urged to notify FEMA immediately, file a report with the Indiana Attorney General's office at IndianaConsumer.com or 1-800-382-5516, and check their credit report for other signs of identity theft. Legitimate disaster assistance — worth up to $5,000 for immediate repairs — can only be applied for directly through DisasterAssistance.gov or by calling FEMA, and the application window for the August 2026 disaster remains open through October 25, 2026.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'high',
+    sources: ["Indiana Attorney General's Office (Todd Rokita)", 'WFYI', 'Indiana Capital Chronicle'],
+    sourceUrl: 'https://www.wfyi.org/statewide/2026-09-02/we-are-going-after-you-rokita-warns-scammers-taking-advantage-of-state-disaster',
+    country: 'US',
+    state: 'IN',
+  },
 ];

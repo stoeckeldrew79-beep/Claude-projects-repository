@@ -3395,4 +3395,15 @@ export const UsNS: SeedScam[] = [
     country: 'US',
     state: 'RI',
   },
+  {
+    name: 'North Carolina Meta Platforms Deepfake Investment Ad Scam',
+    slug: 'nc-meta-deepfake-investment-ad-scam',
+    description: `North Carolina Attorney General Jeff Jackson warned residents on April 17, 2026 about a wave of AI-generated deepfake video ads running on Facebook, Instagram, and WhatsApp that falsely show well-known financial figures such as Cathie Wood, Joe Kernen, and Kevin O'Leary personally endorsing an investment opportunity, without their knowledge or consent. The ads funnel victims into one of two schemes: a "pump and dump," where victims are added to an online group, shown fabricated testimonials, and pressured to buy a low-priced stock or cryptocurrency that scammers then dump once enough victims have bought in, collapsing its value; or a confidence scheme, where a slick-looking trading platform shows early "profits" and allows a small initial withdrawal to build trust, then pressures the victim to invest much larger sums before blocking any further withdrawal behind sudden new "fees" or "taxes." "Scammers are using familiar faces and new technology to build trust and steal your money," Jackson said, adding that a legitimate investment never demands an immediate decision. His office's warning signs include guaranteed returns, high-pressure sales tactics, celebrity endorsements that can't be verified, demands to pay in cryptocurrency, and requests to move the conversation to an encrypted app like WhatsApp or Telegram. Jackson urged North Carolinians to verify any broker or advisor through FINRA's BrokerCheck, search online for the company name alongside the word "scam" or "complaint" before investing, consult an independent financial advisor, and report suspected investment fraud to the North Carolina Secretary of State's Securities Division.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ["North Carolina Department of Justice (Attorney General Jeff Jackson)"],
+    sourceUrl: 'https://ncdoj.gov/attorney-general-jeff-jackson-warns-north-carolinians-of-investment-scams-on-meta-platforms/',
+    country: 'US',
+    state: 'NC',
+  },
 ];
