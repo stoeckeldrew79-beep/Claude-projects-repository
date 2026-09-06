@@ -45657,6 +45657,42 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'KLF Company / Freedom Center Medicaid Peer-Support Billing Fraud',
+    slug: 'kentucky-klf-freedom-center-medicaid-peer-support-fraud',
+    description: `Angela Renfro, 57, founder of the Louisville nonprofit Kristy Love Foundation, and Briana Gosnell, 35, ran two related companies — KLF Company LLC and Freedom Center LLC — that billed Kentucky Medicaid for peer-support and psychoeducation services between August 2021 and January 2024. According to a federal indictment unsealed in June 2026 as part of a nationwide health care fraud takedown, the pair billed for services that were fraudulent, unauthorized, and in many cases never actually provided, submitting $11,049,088.08 in claims to Kentucky Medicaid, of which $10,735,081.56 was actually paid out. Prosecutors say Renfro and Gosnell used the National Provider Identifier (NPI) numbers of licensed advanced practice registered nurses without those clinicians' knowledge or permission to make the fraudulent claims appear to come from a supervising provider, conduct charged separately as aggravated identity theft; Renfro faces 32 total federal counts and Gosnell 18, both including health care fraud, conspiracy, and aggravated identity theft. Kentucky Attorney General Russell Coleman, whose office's Medicaid Fraud Control Unit assisted the U.S. Attorney for the Western District of Kentucky, said the case reflects continued collaboration between state and federal law enforcement "to hold accountable" those who steal from taxpayer-funded benefit programs. Medicaid recipients who receive peer-support or behavioral health services should check the provider name and NPI listed on any Explanation of Benefits notice against the person who actually treated them, since this scheme depended entirely on the billed clinician never learning their credentials were being used without consent.`,
+    categorySlug: 'healthcare-fraud',
+    country: 'US',
+    state: 'KY',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office, Western District of Kentucky", 'Kentucky Attorney General\'s Office', 'WAVE 3 News'],
+    sourceUrl: 'https://www.justice.gov/usao-wdky/pr/5-individuals-and-2-companies-charged-part-department-justice-national-health-care',
+  },
+  {
+    name: 'Temu Data-Harvesting and Counterfeit-Merchandise Consumer Fraud Lawsuit',
+    slug: 'oklahoma-temu-data-harvesting-counterfeit-lawsuit',
+    description: `Oklahoma Attorney General Gentner Drummond sued the Chinese-owned online marketplace Temu and its U.S. entity Whaleco Inc. in Cleveland County District Court on May 6, 2026, alleging the shopping app secretly harvests far more personal data than it needs to function — including precise location, microphone and camera access, and records of a user's other installed apps — creating a pipeline of sensitive information the suit says Chinese national security law could force Temu to hand over to the Chinese government on request. The complaint also accuses Temu of flooding its marketplace with counterfeit merchandise bearing the trademarks of Oklahoma institutions, specifically naming the Oklahoma City Thunder, Oklahoma State University, and the University of Oklahoma, and of running "bait-and-switch" referral promotions that promise cash or prizes for inviting friends to sign up but never actually pay out. The lawsuit further alleges Temu conceals that some of the goods it sells are produced using forced labor from Chinese ethnic minorities, in violation of U.S. trade policy. "Temu built its business model on deception, exploiting consumers while undermining American companies," Drummond said in announcing the suit, which follows similar Temu lawsuits already filed by Texas, Kentucky, Nebraska, Arkansas, and Iowa and seeks injunctive relief, restitution for Oklahoma consumers, and civil penalties. Shoppers on Temu or similar low-cost overseas marketplace apps should review what data the app can access in their phone's privacy settings, buy licensed university or team merchandise only from an authorized retailer, and be skeptical of any "invite friends for a reward" prompt that requires handing over more contacts or personal information.`,
+    categorySlug: 'online-shopping-scams',
+    country: 'US',
+    state: 'OK',
+    alertLevel: 'high',
+    sources: ['Oklahoma Attorney General\'s Office', 'KOKH FOX 25'],
+    sourceUrl: 'https://oklahoma.gov/oag/news/newsroom/2026/may/drummond-files-lawsuit-against-temu-for-stealing-oklahomans-data-and-deceiving-consumers.html',
+  },
+  {
+    name: 'Synergy Title Real Estate Closing-Funds Embezzlement (Ryan Goodrich)',
+    slug: 'utah-synergy-title-closing-funds-embezzlement',
+    description: `Ryan Goodrich operated Synergy Title, a licensed title and escrow agency in Syracuse, Utah, that real estate buyers and sellers trusted to hold and disburse funds at closing — and, prosecutors say, systematically stole from that trust over roughly two years. Rather than paying off sellers' existing mortgages at closing as required, forwarding buyers' earnest money to sellers, or using escrowed funds for their intended purpose, Goodrich diverted more than $9 million entrusted to Synergy Title for unauthorized uses; one charge accuses him of forging a Morgan County couple's signatures and then borrowing against their home. Goodrich pleaded guilty to Communications Fraud and Pattern of Unlawful Activity, both second-degree felonies, and in 2025 a Second District Court judge sentenced him to two consecutive one-to-fifteen-year prison terms — a maximum of 30 years — with the judge citing the "profoundly emotional," not just financial, damage to victims whose homes were caught up in the fraud. Utah regulators separately pursued Goodrich after he tried opening an unlicensed construction business following his title-industry ban, underscoring their warning that a fiduciary's license or professional standing can be revoked and reused elsewhere; anyone closing on a home should confirm a title or escrow agent is currently licensed through the Utah Division of Real Estate before wiring any funds, and should independently verify with the seller's lender that a payoff was actually received rather than relying solely on the closing agent's paperwork.`,
+    categorySlug: 'mortgage-foreclosure-scams',
+    country: 'US',
+    state: 'UT',
+    isHistorical: true,
+    sources: ['Utah Attorney General\'s Office', 'FOX 13 Investigates (KSTU)'],
+    sourceUrl: 'https://attorneygeneral.utah.gov/ryan-goodrich-title-fraud-case',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
