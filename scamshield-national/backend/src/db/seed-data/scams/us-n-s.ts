@@ -3195,6 +3195,17 @@ export const UsNS: SeedScam[] = [
     state: "NJ",
   },
   {
+    name: "Spoofed Police Chief Bail Payment Phone Scam",
+    slug: "new-jersey-glen-rock-spoofed-police-chief-bail-scam",
+    description: `The Glen Rock Police Department in Bergen County, New Jersey warned residents on September 3, 2026 after a resident reported a call that displayed the department's own official phone number on the caller ID, with the caller falsely claiming to be Police Chief Michael Trover and raising a fabricated legal matter to try to pressure the resident into a payment. The resident recognized something was off, ended the call without providing any information, and reported it to police, who confirmed no such call had been made by the Chief or the department. Investigators said the scammer used "caller ID spoofing" technology to make the call appear to come from a legitimate local law enforcement number, a technique that is trivial for a scammer to deploy and defeats the instinct to trust a call just because the right department name and number show up on the screen. Glen Rock Police stressed that a real police department will never call demanding payment for bail, fines, or any other fee, and will never solicit money over the phone at all, so any such call — regardless of what number or name it displays — should be treated as fraudulent. Residents who receive a suspicious call claiming to be from local police are advised to hang up immediately, never provide financial details, bank account numbers, Social Security numbers, or other personal information to an unverified caller, and independently call the Glen Rock Police Department's published non-emergency number, 201-670-3947, to confirm whether an officer actually tried to reach them — never a number the caller provides.`,
+    categorySlug: "government-impersonation",
+    alertLevel: "medium",
+    sources: ["Glen Rock Police Department", "The Ridgewood Blog"],
+    sourceUrl: "https://theridgewoodblog.net/glen-rock-police-issue-phone-scam-warning-after-resident-spot-checks-fake-call/",
+    country: "US",
+    state: "NJ",
+  },
+  {
     name: "Bitcoin ATM \"Protect Your Money\" Government Imposter Scam",
     slug: "pennsylvania-bitcoin-atm-government-imposter-scam",
     description:

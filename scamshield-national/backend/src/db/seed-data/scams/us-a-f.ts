@@ -5493,4 +5493,15 @@ export const UsAF: SeedScam[] = [
     country: "US",
     state: "AL",
   },
+  {
+    name: "Offshore DeFi Cryptocurrency Exchange Investment Loss Scam",
+    slug: "connecticut-offshore-defi-exchange-investment-scam",
+    description: `Connecticut Attorney General William Tong and Banking Commissioner Jorge Perez issued a joint consumer alert on September 3, 2026, warning residents about unregulated, offshore "decentralized finance" (DeFi) cryptocurrency exchanges after a Connecticut resident was persuaded by someone claiming a personal connection to deposit $200,000 into one such platform — money the resident has had no way to recover. The alert named seven platforms operating outside state and federal regulatory frameworks that consumers should treat with particular caution: GMX, Gains Network, dYdX, Aevo, Drift Protocol, Vertex Protocol, and Hyperliquid, noting that Hyperliquid had already been designated an unauthorized entity by the United Kingdom's Financial Conduct Authority in May 2026 and flagged on the Monetary Authority of Singapore's official Investor Alert List as one of the first "DeFi" protocols cited globally for unauthorized derivatives activity. "These platforms are built to lure investors in with promises of easy access and bigger returns," Tong said. "What they don't advertise is that if something goes wrong, investors will be stranded with little to no recourse, while the platforms walk away with the profits. This isn't innovation, it's exploitation." Perez added that "these entities operate outside the safeguards that legitimate regulated financial institutions are required to follow, leaving investors dangerously exposed without protection." Unlike a registered broker-dealer or bank, these offshore exchanges typically offer no deposit insurance, no dispute-resolution process, and no regulator to appeal to if a platform freezes withdrawals, vanishes, or was never legitimate to begin with — and once funds are sent, blockchain transactions generally cannot be reversed or recalled. Tong and Perez urged Connecticut residents to be skeptical of anyone, including a purported friend or acquaintance, who pushes them toward an unfamiliar offshore trading platform promising outsized or "easy" returns, to verify that any investment platform is properly registered before depositing money, and to independently research a platform through official regulators rather than relying on the person who recommended it. Anyone who believes they've been targeted by this or a similar scheme is urged to file a complaint with the Connecticut Attorney General's Office at dir.ct.gov/ag/complaint/.`,
+    categorySlug: "cryptocurrency-scams",
+    alertLevel: "high",
+    sources: ["Connecticut Attorney General's Office (William Tong)", "Connecticut Department of Banking (Jorge Perez)", "CT News Junkie", "Crowdfund Insider"],
+    sourceUrl: "https://ctnewsjunkie.com/2026/09/04/attorney-general-warns-of-decentralized-finance-cryptocurrency-exchanges/",
+    country: "US",
+    state: "CT",
+  },
 ];
