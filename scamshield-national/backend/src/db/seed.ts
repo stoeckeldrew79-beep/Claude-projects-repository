@@ -41720,6 +41720,45 @@ SEED_SCAMS.push(
   },
 );
 
+// Additional push() batch covering three of the states with the fewest
+// SEED_SCAMS entries (Arizona, Connecticut, Nevada) — same TS2590
+// array-size workaround described above.
+SEED_SCAMS.push(
+  {
+    name: 'Phantom Hacker Gold Bullion Pickup Scheme',
+    slug: 'arizona-phantom-hacker-gold-bullion-pickup-scheme',
+    description: `Ajay Kumar, 24, of Los Angeles, California, worked as an in-person "collector" for a phantom hacker scam ring that contacted victims by posing as government employees and falsely telling them their bank accounts had been compromised, then convinced targets — after weeks of sustained contact in some cases — to withdraw cash or convert their savings into gold bullion that would supposedly be kept "safe" until the threat passed. In December 2024, Kumar traveled to Arizona and attempted to pick up roughly $500,000 in gold bullion from an Arizona victim as part of the scheme, one of several stops around the country where he collected cash and gold from victims and delivered the proceeds to his co-conspirators. The FBI's Phoenix Division investigated the case, and Kumar pleaded guilty on July 28, 2026 to conspiracy to commit money laundering, facing up to 20 years in prison and a $500,000 fine at his October 8, 2026 sentencing. Because a phantom hacker scheme always ends with a request to convert savings into gold, cash, or cryptocurrency for an in-person "government" pickup, the reliable warning sign is the instruction itself: no real bank, government agency, or law enforcement officer will ever direct someone to buy gold or withdraw cash to protect it from a hacker, and anyone told to do so should hang up and contact their bank or the FBI's Internet Crime Complaint Center (IC3.gov) directly.`,
+    categorySlug: 'tech-support-scams',
+    country: 'US',
+    state: 'AZ',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office for the District of Arizona", 'KTAR News'],
+    sourceUrl: 'https://www.justice.gov/usao-az/pr/california-man-pleads-guilty-role-phantom-hacker-scheme-targeting-elderly-victims',
+  },
+  {
+    name: 'Connecticut Financial-Services "Support Team" Phishing Scam',
+    slug: 'connecticut-financial-services-support-team-phishing-scam',
+    description: `Connecticut's Department of Banking and Department of Consumer Protection issued a joint consumer alert on October 10, 2025 warning that fraudsters are impersonating customer-support representatives for banks and investment apps, primarily through phishing emails, to steal personal information or install malware. In one case the departments documented, a scammer posing as a support agent convinced a victim to authorize a $10,000 transfer into what looked like the victim's own investment account; the transaction appeared to succeed, but weeks later the victim was locked out of the app and discovered no funds or securities had ever actually been deposited. The alert lists red flags including requests for passwords, Social Security numbers, or account details; links sent by text message; "support" emails from generic addresses like @gmail.com or @yahoo.com; spelling and grammar errors; and attachments claiming to be financial statements. "No legitimate firm will email claiming your account is compromised or requesting personal information," said Connecticut Banking Commissioner Jorge Perez. Consumers are advised to contact a financial company directly using a phone number from a genuine statement or the company's official website, avoid accessing financial accounts over public Wi-Fi, and never click a link in an unsolicited message; complaints can be filed with the Department of Consumer Protection at dcp.complaints@ct.gov or the Department of Banking at portal.ct.gov/dob.`,
+    categorySlug: 'phishing',
+    country: 'US',
+    state: 'CT',
+    alertLevel: 'medium',
+    sources: ['Connecticut Department of Banking', 'Connecticut Department of Consumer Protection'],
+    sourceUrl: 'https://portal.ct.gov/dob/newsroom/2025/dob-and-dcp-joint-consumer-alert',
+  },
+  {
+    name: 'NV Energy Sponsored-Ad Impersonation Scam',
+    slug: 'nevada-nv-energy-sponsored-ad-impersonation-scam',
+    description: `NV Energy warned customers on July 3, 2026 that scammers are buying sponsored search-engine advertisements that display NV Energy's name and logo so they appear above the utility's real website in search results. Nevadans searching online to start new electric service, most often when moving to a new home, click what looks like the top result and reach an imposter — either a fake customer-service phone line or a lookalike website — that harvests personal and financial information under the guise of setting up an account, information the utility says can then be used for identity theft. The warning went out ahead of a summer holiday weekend, when NV Energy said scammers typically expect customers to be less vigilant. The utility urges anyone trying to establish or manage service to go directly to nvenergy.com or call its verified customer service line at (775) 834-4444 rather than clicking a sponsored search result, and to check nvenergy.com/safety/scam-protection for current scam alerts before providing any account or payment information to a caller or website claiming to be NV Energy.`,
+    categorySlug: 'utility-scams',
+    country: 'US',
+    state: 'NV',
+    alertLevel: 'medium',
+    sources: ['NV Energy', 'KOLO 8 News Now', 'FOX5 Las Vegas'],
+    sourceUrl: 'https://www.kolotv.com/2026/07/03/nv-energy-warns-scam-that-may-lead-identity-theft/',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
