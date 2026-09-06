@@ -43736,6 +43736,41 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'Riga and Vilnius Cryptocurrency and Forex "Boiler Room" Call Center Network',
+    slug: 'latvia-riga-vilnius-boiler-room-call-center-fraud',
+    description: `On March 24-25, 2022, Latvian and Lithuanian police, backed by Europol and a Eurojust-coordinated joint investigation team, raided three call centers in Riga and Vilnius run by a single organized crime group and detained 108 people — 80 in Latvia and 28 in Lithuania, with nine of the Lithuanian suspects held in custody. Inside, roughly 200 "traders" fluent in English, Russian, Polish, and Hindi cold-called victims across multiple countries, posing as financial advisers offering investments in cryptocurrency, commodities, and foreign currency that in reality did not exist; investigators calculated the group was pulling in more than €3 million a month in illegal profit before the raids. Officers froze 25 international bank accounts, seized shares in four companies, three luxury vehicles, four properties worth over €317,000, and roughly €95,000 in cryptocurrency. The case is one of Europol's largest-ever single actions against boiler-room investment fraud and illustrates the classic pattern: a fluent, multilingual "trader" cold-calls with an unsolicited investment pitch, shows a dashboard of fabricated gains to build trust, and disappears — or blocks withdrawals — the moment a victim tries to cash out.`,
+    categorySlug: 'investment-fraud',
+    country: 'LV',
+    isHistorical: true,
+    firstRecorded: '2022-03-24',
+    sources: ['Europol', 'Eurojust', 'OCCRP'],
+    sourceUrl: 'https://www.europol.europa.eu/media-press/newsroom/news/latvia-and-lithuania-detain-108-over-multi-million-euro-call-centre-scam',
+  },
+  {
+    name: 'SIMCARTEL SIM-Box Network Enabling Mass Online Fraud',
+    slug: 'latvia-simcartel-sim-box-fraud-network',
+    description: `Operation SIMCARTEL, coordinated by Europol and Eurojust with investigators from Latvia, Austria, Estonia, and Finland, dismantled a "cybercrime-as-a-service" operation that rented out anonymous phone numbers from more than 80 countries to criminals worldwide so they could register verified accounts on banking, social media, and messaging platforms without leaving a trace back to their real location or SIM card. The service ran through two websites, GoGetSMS and Apisim, and relied on more than 1,200 physical SIM-box devices holding roughly 40,000 active SIM cards, which investigators say were used to help create an estimated 49 million fake online accounts. On October 10, 2025, Latvian State Police arrested five Latvian nationals — two women born in 1987 and 1970 and men born in 1977 and 1982 — with a sixth suspect detained days later, while parallel raids and seizures took place in Austria and Estonia; officers seized five servers, the SIM-box hardware, roughly €431,000 in cash, €266,000 in cryptocurrency, and four luxury vehicles. Investigators tied the network to at least 3,200 individual fraud cases, including 1,500 in Latvia alone (about €420,000 in losses) and 1,700 in Austria (about €4.5 million in losses). The takedown shows how ordinary-looking scam texts and fake accounts that victims encounter are often backed by industrial-scale infrastructure built specifically to defeat the phone-number verification meant to stop fraud.`,
+    categorySlug: 'identity-theft',
+    country: 'LV',
+    isHistorical: true,
+    firstRecorded: '2025-10-10',
+    sources: ['Europol', 'Latvian State Police (Valsts policija)', 'Eurojust'],
+    sourceUrl: 'https://www.vp.gov.lv/en/article/international-operation-simcartel-state-police-dismantles-it-infrastructure-used-online-fraud-five-latvian-nationals-arrested',
+  },
+  {
+    name: 'Moscow-Based Bank and Police Impersonation Remote-Access Scam',
+    slug: 'latvia-moscow-bank-police-impersonation-remote-access-scam',
+    description: `Between May and September 2025, an organized group of five Latvian nationals operating out of Moscow ran a phone-fraud scheme against Latvian residents, with callers speaking fluent Latvian while falsely identifying themselves as bank employees or police officers. Victims were told there was a security problem with their accounts and talked into downloading a remote-access program — AnyDesk or HopToDesk — onto their phone or computer, then into logging into their online banking while the fraudsters watched; using the access and credentials this exposed, the group transferred money out of the accounts directly. Latvia's State Police Cybercrime Combating Directorate identified at least 11 victims with combined losses topping €87,000 before concluding the initial pre-trial investigation on August 3, 2026, and said it was continuing a separate investigation into further offenses linked to the same group. The case fits a broader pattern flagged repeatedly by Latvian police: a legitimate bank or police officer will never ask a customer to install remote-access software or read out a one-time banking code over the phone, and any call demanding either should be treated as fraud and ended immediately, with the institution then contacted back on a number the customer looks up independently.`,
+    categorySlug: 'account-takeover',
+    country: 'LV',
+    alertLevel: 'high',
+    sources: ['Latvian Public Broadcasting (LSM.lv)', "Latvian State Police (Valsts policija)"],
+    sourceUrl: 'https://eng.lsm.lv/article/society/crime/05.08.2026-moscow-based-latvian-scammer-group-detained.a657602/',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
