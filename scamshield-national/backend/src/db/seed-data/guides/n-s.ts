@@ -2320,4 +2320,22 @@ If you've had an MRI, CT scan, X-ray, or other imaging done at a SimonMed Imagin
     coverImagePosition: 50,
     // representative photo — a generic MRI scanner, not a SimonMed facility itself; replace with an exact match if found
   },
+  {
+    title: "The SoundCloud Data Breach: When Your Anonymous Handle Got Linked to Your Real Email Address",
+    slug: "soundcloud-2026-data-breach-guide",
+    author: "ScamShield Editorial",
+    tags: ["guide", "soundcloud-2026-data-breach"],
+    body: `SoundCloud is one of the biggest platforms in the world for uploading, streaming, and sharing music and audio, home to millions of independent musicians, DJs, and podcasters who built public profiles under a stage name or handle rather than their real identity. In mid-December 2025, SoundCloud detected unauthorized activity in a system connected to the platform, and by the time the incident became public in early 2026, the breach-notification service Have I Been Pwned confirmed it had reviewed data covering roughly 29.8 million accounts — close to a fifth of SoundCloud's entire global user base.
+
+What makes this breach different from a typical password leak is exactly what was, and wasn't, taken. SoundCloud has said passwords, payment card numbers, and private messages were not exposed. Instead, according to security researchers, attackers gained access to an internal system and used it to connect users' private email addresses — the ones tied to account sign-up and billing — with public profile information: usernames, display names, profile pictures, follower and following counts, and in some cases general location details. The hacking group ShinyHunters claimed responsibility and reportedly attempted to extort the company before the data was leaked.
+
+That combination might sound harmless next to a stolen credit card number, but for anyone who deliberately kept their real identity separate from their public SoundCloud persona — a musician building a brand under a stage name, a podcaster who values a degree of anonymity, or simply someone who never expected their real inbox to be linkable to their public account — this breach undoes that separation. A scammer (or a stalker, or a harasser) who obtains this data now has a direct, verified link between a public username people already follow and interact with, and the private email address behind it, which is exactly the kind of accurate detail that makes a follow-up phishing email feel legitimate: "SoundCloud Support" reaching out about "unusual activity on your account" to an email address the attacker already knows is real and active.
+
+Because the exposed data links an email address to public activity rather than to a password, the most useful response is to treat that email address as more discoverable going forward, not to panic about a hacked SoundCloud account itself. Check whether your account was part of the breach at haveibeenpwned.com, and if you've ever reused your SoundCloud password on another site, change it there — a confirmed, active email address paired with a common password is valuable to attackers running automated login attempts elsewhere, even though SoundCloud's own passwords weren't part of this leak. Turn on two-factor authentication for your SoundCloud account if you haven't already. Treat any unexpected email or message claiming to be from SoundCloud — especially one asking you to "verify your account," reset your password, or click a link about "unusual login activity" — with real suspicion, and go directly to soundcloud.com instead of following a link in the message. If you rely on a stage name or pseudonym for privacy or safety reasons, it's worth reviewing what personal information is visible on your public profile now that your real email is more widely associated with it. Anyone targeted by a phishing attempt referencing this breach can report it to the FTC at ReportFraud.ftc.gov.`,
+    sourceUrl: "https://www.techrepublic.com/article/news-soundcloud-breach-exposes-nearly-30-million-users/",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/SoundcloudBerlin.jpg?width=1200",
+    coverImageCredit: "Photo: Eric Wahlforss, CC BY 2.0, via Wikimedia Commons — a SoundCloud community gathering in Berlin",
+    coverImagePosition: 50,
+    // representative photo — an earlier SoundCloud community event, not the specific 2026 breach; replace with an exact match if found
+  },
 ];
