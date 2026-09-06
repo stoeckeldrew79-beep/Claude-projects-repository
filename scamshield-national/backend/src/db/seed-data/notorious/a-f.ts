@@ -3857,6 +3857,25 @@ On July 27, 1989, Thailand's Criminal Court finally convicted Thipyaso and seven
 The number was always more symbolic than real: Thai law at the time capped actual imprisonment for this class of offense at 20 years regardless of how a court's arithmetic added up, and Thipyaso's sentence was reduced twice on top of that ceiling, leaving her to serve roughly eight years before her release in 1993. The gap between the eye-catching 141,078-year figure and the eight years she actually spent behind bars has made the case a durable case study in the difference between a sentence's headline number and a country's actual capacity — or willingness, when the defrauded include the politically powerful — to enforce it.`,
   },
   {
+    title: "Chanda Kochhar and the ICICI Bank Loan That Enriched Her Own Husband",
+    slug: 'chanda-kochhar-icici-videocon-loan-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.business-standard.com/companies/news/chanda-kochhar-videocon-loan-bribe-case-deepak-tribunal-ed-order-pmla-act-125072200608_1.html',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Chanda_Kochhar_-_India_Economic_Summit_2011.jpg?width=1200',
+    coverImageCredit: 'Photo: World Economic Forum / Eric Miller, Wikimedia Commons (CC BY-SA 2.0) — Chanda Kochhar at the India Economic Summit, 2011',
+    coverImagePosition: 30,
+    body: `Chanda Kochhar became managing director and CEO of ICICI Bank, India's largest private-sector lender, in May 2009, capping a rise from a management trainee in 1984 to the top of one of the country's most respected financial institutions. Weeks after she took charge of the bank's loan-sanctioning committee, ICICI approved a series of rupee term loans to companies controlled by Venugopal Dhoot, the chairman of the Videocon Group — credit facilities that would eventually total more than ₹3,250 crore and, within a decade, turn into some of the bank's largest bad debts.
+
+The arrangement investigators later focused on ran through a renewable-energy joint venture. In December 2008, Kochhar's husband, Deepak Kochhar, and Dhoot had set up NuPower Renewables, initially splitting ownership evenly; within months Dhoot resigned as a director and transferred his shares to Deepak Kochhar for a token sum. On June 7, 2009, ICICI sanctioned a ₹300 crore loan to a Videocon company — and the very next day, prosecutors allege, Dhoot's Supreme Energy transferred ₹64 crore into NuPower on effectively interest-free terms, an arrangement the Central Bureau of Investigation would later characterize as a quid pro quo: a loan approved by Chanda Kochhar's committee, followed almost immediately by a payment benefiting a company her own husband controlled.
+
+The arrangement stayed out of public view for years until a 2016 whistleblower letter from an investor named Arvind Gupta reached the Prime Minister's Office and market regulators, triggering scrutiny that ICICI's own board initially dismissed as baseless. An independent inquiry led by retired Supreme Court justice B.N. Srikrishna concluded otherwise in January 2019, finding that Kochhar had violated the bank's code of conduct by failing to disclose the conflict of interest; ICICI terminated her "for cause," retroactive to her October 2018 resignation, stripping her of bonuses and stock options earned since 2009.
+
+Criminal and civil proceedings followed on separate, slower tracks. The CBI registered a formal case in January 2019 and arrested Chanda Kochhar, Deepak Kochhar, and Dhoot in December 2022, though the Bombay High Court granted the couple bail within weeks, later ruling the arrest itself procedurally "illegal" for want of proper application of mind by investigators. The Enforcement Directorate pursued a parallel money-laundering case, and in July 2025 an appellate tribunal for forfeited property upheld the ED's attachment of the Kochhars' assets, finding — for the purposes of that civil proceeding — that the quid pro quo the CBI had alleged since 2019 was established.
+
+That tribunal finding is not a criminal conviction, and as of 2026 the CBI's underlying corruption case has yet to reach trial, leaving India's most prominent private-bank fraud allegation of the decade still legally unresolved seventeen years after the loan that triggered it. The case has become a reference point in Indian banking for a specific kind of failure: a lender's own governance structure — the committee empowered to approve large loans — sitting in the hands of an executive whose family stood to benefit from exactly the kind of approval only that committee could give.`,
+  },
+  {
     title: "Bai Suocheng and the Kokang Family Empire That Turned a Myanmar Border Zone Into a Scam-Compound Capital",
     slug: 'bai-suocheng-kokang-scam-syndicate',
     author: 'ScamShield Editorial',
