@@ -1294,4 +1294,22 @@ If your employer uses Workday for payroll, benefits, or HR self-service, be skep
     coverImagePosition: 50,
     // representative photo — Workday's headquarters building, not the specific Salesforce system that was breached; replace with an exact match if found
   },
+  {
+    title: "The WestJet Data Breach: How a Hacked Airline System Exposed Passport and ID Details for 1.2 Million Travelers",
+    slug: "westjet-2025-data-breach-guide",
+    author: "ScamShield Editorial",
+    tags: ["guide", "westjet-2025-data-breach"],
+    body: `On June 13, 2025, the Canadian airline WestJet noticed something wrong with its internal systems, its app, and its website — a disruption serious enough that it briefly warned customers not to expect normal service. Flight safety was never affected, and WestJet described the attacker only as a "sophisticated, criminal third party," but it took the airline months to fully understand what had been taken. When WestJet finally notified regulators and customers in the fall of 2025, the number was significant: about 1.2 million people had personal information stolen, and unlike many corporate breaches, this one went well beyond names and email addresses.
+
+The stolen data included names, dates of birth, home addresses, and — more seriously — government-issued identification and travel documents, including passport details, along with loyalty program information and records of accommodation requests and complaints that customers had filed with the airline. WestJet said credit card numbers, expiration dates, security codes, and account passwords were not part of the theft. No ransomware group publicly claimed responsibility, and WestJet has not said exactly how the attackers got in, only that the intrusion involved unauthorized access to internal systems and covert extraction of data over time. In response, the airline began offering affected customers two years of free identity monitoring and credit monitoring, plus up to $1 million in reimbursement insurance to cover costs tied to identity theft, and it asked customers whose bookings included other travelers — a spouse, a child, a travel companion — to let those people know their information may have been swept up too.
+
+A stolen passport number is a meaningfully bigger problem than a stolen email address. Combined with a real name, date of birth, and home address, it gives an identity thief the raw material to attempt fraudulent applications for loans, government benefits, or other accounts that rely on that exact combination of details to verify who you are — and unlike a credit card, a passport number isn't something most people think to "cancel" after a breach. Scammers also routinely follow real breach news with fake follow-up messages, so an email or text claiming to be from WestJet that asks you to "verify your travel documents" or click a link to "protect your account" should be treated as suspicious by default.
+
+If you've flown WestJet or held a WestJet Rewards account, take the airline up on the free identity and credit monitoring it's offering rather than ignoring the notice — it's a real benefit tied to a real incident, not a scam itself, but you should still access it only through WestJet's official site (westjet.com) rather than a link in an unsolicited email. Because passport information was exposed, watch your mail and inbox for anything referencing government services, loan applications, or account openings you didn't initiate, and consider a free credit freeze with Equifax and TransUnion if you're concerned about identity theft. If you suspect your passport information has been misused, report it to the U.S. State Department if you hold a U.S. passport, or to Passport Program Canada if you hold a Canadian one, and file a fraud report with the FTC at ReportFraud.ftc.gov or, for Canadian residents, with the Canadian Anti-Fraud Centre.`,
+    sourceUrl: "https://www.securityweek.com/1-2-million-impacted-by-westjet-data-breach/",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/WestJet_Boeing_737-800.jpg?width=1200",
+    coverImageCredit: "Photo: SAF1999, CC BY-SA 4.0, via Wikimedia Commons — a WestJet Boeing 737 departing Toronto Pearson",
+    coverImagePosition: 60,
+    // representative photo — a WestJet aircraft, not the specific system that was breached; replace with an exact match if found
+  },
 ];
