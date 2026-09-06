@@ -3230,4 +3230,15 @@ export const UsNS: SeedScam[] = [
     country: "US",
     state: "NV",
   },
+  {
+    name: "Fake Unpaid Toll and Parking Fine QR Code Text",
+    slug: "ohio-toll-parking-fine-qr-code-scam",
+    description: `Ohio Attorney General Dave Yost issued a consumer alert on March 5, 2026, warning residents about a wave of fraudulent text messages claiming the recipient owes an unpaid parking or toll fine and threatening court action if it isn't resolved immediately. The messages typically include an image styled to look like an official court document or citation, along with a QR code that recipients are pressured to scan on the spot to "pay" the supposed fine before a deadline. Scanning the code, however, routes the phone to a payment page whose domain has been traced to entities overseas rather than any real Ohio court, toll authority, or municipality, and Yost's office warned that in addition to harvesting payment card details, some of these QR codes can expose a device to malware. "Scammers rely on fear and urgency" to keep a target from stopping to think, the Attorney General's office said, and recommended that anyone who receives a message threatening court action or demanding immediate payment resist the pressure to act right away and instead verify the claim independently — contacting the relevant court, toll authority, or municipality directly using a phone number or website looked up on their own, never one supplied in the text. Ohioans who receive one of these messages are urged not to scan the QR code or click any link in it, and can report the scam to the Ohio Attorney General's Consumer Protection Section at OhioProtects.org or by calling 800-282-0515.`,
+    categorySlug: "qr-code-scams",
+    alertLevel: "high",
+    sources: ["Ohio Attorney General's Office", "Cleveland 19 News", "Dayton 24/7 Now"],
+    sourceUrl: "https://dayton247now.com/news/local/ohio-attorney-general-warns-of-scam-texts-claiming-unpaid-parking-or-toll-fines",
+    country: "US",
+    state: "OH",
+  },
 ];

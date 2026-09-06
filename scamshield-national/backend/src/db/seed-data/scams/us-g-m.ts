@@ -3342,4 +3342,15 @@ export const UsGM: SeedScam[] = [
     country: "US",
     state: "MI",
   },
+  {
+    name: "South Georgia Wildfire Price Gouging and Contractor Scams",
+    slug: "georgia-wildfire-price-gouging-contractor-scam",
+    description: `Georgia Attorney General Chris Carr issued a consumer alert on April 22, 2026, warning residents about price gouging and fraud following massive wildfires that burned across South Georgia, prompting a State of Emergency declaration covering 91 counties through May 22, 2026. Once the Governor's emergency declaration took effect, Georgia's price-gouging law made it illegal for retailers to charge more than pre-emergency prices for fuel, diesel, and other essential goods and services unless their own costs had genuinely risen, and Carr's office urged residents to report suspiciously inflated prices to the Consumer Protection Division. The alert also warned homeowners dealing with wildfire damage to be wary of unlicensed or opportunistic contractors going door-to-door offering cleanup, tree removal, or rebuilding services, cautioning against any contractor who demands full payment upfront, accepts only cash, refuses to provide a written contract, or offers to cover an insurance deductible — a practice that is itself illegal in Georgia and a common sign of a scam. Residents were advised to verify a contractor's license through the Secretary of State's office at sos.ga.gov and to request proof of liability insurance and a written warranty before any work begins. A third warning covered fraudulent charities: scammers frequently register fake relief organizations with names and logos designed to closely resemble real, established charities in the aftermath of a disaster, so Carr's office recommended vetting any organization through give.org, charitynavigator.org, or charitywatch.org before donating. Georgians who believe they've encountered price gouging, contractor fraud, or a fake charity are urged to file a complaint with the Attorney General's Consumer Protection Division at (404) 651-8600, (800) 869-1123, or online at consumer.georgia.gov, while charity-specific complaints can go to the Secretary of State's Charities Division at (470) 312-2640.`,
+    categorySlug: "home-improvement-solar",
+    alertLevel: "high",
+    sources: ["Georgia Attorney General's Office", "News4JAX"],
+    sourceUrl: "https://law.georgia.gov/press-releases/2026-04-22/carr-warns-georgians-price-gouging-and-wildfire-scams",
+    country: "US",
+    state: "GA",
+  },
 ];
