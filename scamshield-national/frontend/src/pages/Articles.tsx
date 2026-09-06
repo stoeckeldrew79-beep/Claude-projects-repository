@@ -32,6 +32,12 @@ function levenshtein(a: string, b: string): number {
 // title over tags over the body, with a fuzzy fallback against title
 // words for near-misses. Returns 0 for no match at all so the caller can
 // filter articles out entirely.
+// See Notorious: a stagger keyed to the running index grows without limit
+// once the list pages, leaving later cards blank for many seconds.
+function cardDelay(index: number): number {
+  return 0.04 + (index % 4) * 0.04;
+}
+
 function relevanceScore(article: Article, terms: string[]): number {
   const title = article.title.toLowerCase();
   const titleWords = title.split(/[^a-z0-9]+/).filter(Boolean);
@@ -140,7 +146,7 @@ export default function Articles() {
 
       <div className="grid gap-6 sm:grid-cols-2">
         {filteredArticles?.map((article, i) => (
-          <BlurFade key={article.id} delay={0.04 + i * 0.03} inView>
+          <BlurFade key={article.id} delay={cardDelay(i)} inView>
             <Link
               to={`/articles/${article.slug}`}
               className="group block overflow-hidden rounded-xl border border-slate-200 hover:border-slate-400 hover:shadow-md transition-all"

@@ -18,7 +18,10 @@ export function useInfiniteScroll(onReach: () => void, enabled: boolean) {
       (entries) => {
         if (entries[0]?.isIntersecting) handler.current();
       },
-      { rootMargin: '400px' }
+      // Deliberately generous: at 400px the reader reached the end before the
+      // next page arrived and the scroll stopped dead. Fetching this far ahead
+      // means the next window is normally already rendered.
+      { rootMargin: '1500px' }
     );
     observer.observe(el);
     return () => observer.disconnect();
