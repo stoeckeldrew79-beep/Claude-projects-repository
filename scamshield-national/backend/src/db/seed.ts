@@ -43813,6 +43813,42 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'Roswell, New Mexico Escrow Company $1.2 Million Trust Fund Fraud',
+    slug: 'new-mexico-roswell-escrow-trust-fund-fraud',
+    description: `Christopher Adam Jensen-Tanner bought Roswell Escrow Services, Inc. in 2013 and, as its owner, held large sums of client money in trust — funds tied to 1031 real estate exchanges and to real estate contracts the company serviced on clients' behalf. Starting in January 2017 and continuing through October 2019, Jensen-Tanner made material misrepresentations to his clients about how those escrowed funds would be held or spent, and instead repeatedly diverted more than $1.2 million of it to finance a lifestyle beyond his means, all while clients believed their money was sitting untouched in trust pending a real estate closing or exchange deadline. The U.S. Attorney's Office for the District of New Mexico, working with IRS Criminal Investigation's Roswell office, the FBI, and the New Mexico Regulation and Licensing Department's Securities and Financial Institutions divisions, charged Jensen-Tanner with wire fraud, and he admitted to knowingly defrauding clients through false representations. On July 25, 2024, he was sentenced in Las Cruces to 46 months in federal prison, with a restitution hearing held afterward to set the amount owed back to victims. Because a 1031 exchange requires sale proceeds to sit with a neutral third party for weeks or months before being reinvested, clients had no way to see their money moving until it was already gone — a reminder to ask any escrow or exchange company for proof of separate, federally insured client trust accounts and independent audits before wiring in sale proceeds, rather than assuming a company holding a state license is being separately monitored account-by-account.`,
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    state: 'NM',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office for the District of New Mexico", 'IRS Criminal Investigation', 'Los Alamos Daily Post'],
+    sourceUrl: 'https://www.justice.gov/usao-nm/pr/restitution-hearing-set-former-roswell-escrow-company-owner-convicted-fraud-scheme',
+  },
+  {
+    name: 'New Gloucester, Maine Counterfeit Treasury Check Deposit Scheme',
+    slug: 'maine-new-gloucester-counterfeit-treasury-check-fraud',
+    description: `Keith Mitchell, 39, of New Gloucester, Maine, deposited counterfeit U.S. Treasury checks totaling $83,632 into his own bank account between April and June 2024 — checks that carried the real serial numbers and dollar amounts of genuine Treasury checks already issued to other people, but had been altered to list Mitchell as the payee. It was Mitchell's second federal fraud within a few years: in May 2021 he had also obtained $20,832 in Paycheck Protection Program funds by submitting a fraudulent loan application that falsely claimed he owned a sole proprietorship with $100,000 in 2020 gross revenue, backed by a falsified tax return. He pleaded guilty to presenting counterfeit Treasury checks and wire fraud, and because he committed the check scheme while on federal supervised release from a prior drug conviction, Chief U.S. District Judge Lance E. Walker both sentenced him to 30 months in prison for the new offenses and revoked his supervised release, adding a consecutive 21 months, for a combined 51-month sentence handed down August 31, 2026, along with $104,464 in restitution. Genuine Treasury checks can be verified by contacting the issuing federal agency directly rather than simply depositing a check that looks legitimate, and banks encourage customers to report any check that arrives unexpectedly or from an unfamiliar sender before cashing it, since a counterfeit check can clear initially and then be reversed weeks later once the fraud is discovered, leaving the depositor liable for the funds.`,
+    categorySlug: 'government-impersonation',
+    country: 'US',
+    state: 'ME',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office for the District of Maine", 'IRS Criminal Investigation', 'The Maine Wire'],
+    sourceUrl: 'https://www.justice.gov/usao-me/pr/new-gloucester-man-sentenced-presenting-counterfeit-treasury-checks-and-wire-fraud',
+  },
+  {
+    name: 'Kootenai County, Idaho Child Development Center Medicaid Billing Fraud',
+    slug: 'idaho-kootenai-county-child-development-medicaid-fraud',
+    description: `Tracy Hofius, 49, served as executive director of North Star Child Development Center in Kootenai County, Idaho, a provider of services to children with disabilities paid for through Idaho Medicaid. During 2022 and 2023, Hofius fraudulently adjusted and submitted incorrect billing information to the Idaho Department of Health and Welfare, seeking Medicaid reimbursement for services that, in many cases, were never actually provided to the clients on the claims. The Idaho Attorney General's Medicaid Fraud Control Unit investigated and Hofius pleaded guilty to felony Public Assistance Provider Fraud on November 18, 2025. On January 21, 2026, Judge Barry McHugh sentenced her to three years of supervised probation, a $1,000 fine, court costs, 45 days in the Kootenai County Sheriff's Community Labor Program, and 120 hours of community service, and ordered her to pay $154,119 in restitution to the Idaho Medicaid program; the federal Department of Health and Human Services separately suspended her Medicaid provider credentials. Attorney General Raúl Labrador's office noted that Medicaid provider fraud drains a program meant for the state's most vulnerable residents and encouraged parents and guardians of children receiving Medicaid-funded therapy or developmental services to compare their own records of visits attended against the explanation-of-benefits statements Medicaid mails out, and to report any services listed that never happened to the Medicaid Fraud Control Unit.`,
+    categorySlug: 'healthcare-fraud',
+    country: 'US',
+    state: 'ID',
+    alertLevel: 'medium',
+    sources: ["Idaho Office of Attorney General", 'Idaho Attorney General Medicaid Fraud Control Unit'],
+    sourceUrl: 'https://www.ag.idaho.gov/newsroom/attorney-general-labrador-announces-sentencing-of-kootenai-county-woman-for-public-assistance-provider-fraud/',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
