@@ -1867,4 +1867,15 @@ export const UsTZ: SeedScam[] = [
     sources: ['Wisconsin Department of Agriculture, Trade and Consumer Protection (DATCP)', 'WBAY-TV'],
     sourceUrl: 'https://www.wbay.com/2026/07/22/loan-scam-calls-spike-wisconsin-officials-warn-ai-powered-fraud/',
   },
+  {
+    name: 'Trusted Person Cash Pickup Scam',
+    slug: 'trusted-person-cash-pickup-scam',
+    description: `Pennsylvania Attorney General Dave Sunday warned residents in April 2026 about a new twist on the fake-emergency cash scam, in which criminals convince a victim to pay in person by handing cash to a supposed "trusted person" who comes to their home or meets them nearby, rather than wiring money or buying gift cards — a method that skips the extra step of a bank teller or retail clerk who might otherwise ask questions and interrupt the scam. In one of two recent Pennsylvania cases the Office of Attorney General cited, a woman received a pop-up on her iPhone falsely claiming there were fraudulent Apple Pay charges on her account and directing her to call a toll-free number; the person who answered convinced her the charges were real, walked her through withdrawing $15,000 in cash, and told her a "government agent" would come to her home to collect it, supplying a fake "exclusive code" as proof the pickup was legitimate. Between the two known cases, victims collectively handed over more than $30,000 in cash to these in-person collectors. The Bureau of Consumer Protection advised Pennsylvanians never to click on a link or computer pop-up they did not request, not to answer unexpected calls or texts from unknown numbers, and to treat it as an immediate red flag if a caller insists on staying on the line and tells the victim not to discuss the situation with anyone else — a hallmark of active social-engineering pressure rather than a real emergency. Anyone who believes they have encountered this scam is urged to hang up immediately and report it to the Office of Attorney General's Bureau of Consumer Protection at 1-800-441-2555 or scams@attorneygeneral.gov.`,
+    categorySlug: 'tech-support-scams',
+    country: 'US',
+    state: 'PA',
+    alertLevel: 'high',
+    sources: ['Pennsylvania Office of Attorney General', 'ABC27 News', 'The Sentinel (Lewistown)'],
+    sourceUrl: 'https://www.attorneygeneral.gov/taking-action/attorney-general-sunday-warns-pennsylvanians-of-cash-scams-involving-trusted-person-pickups/',
+  },
 ];
