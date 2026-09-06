@@ -44160,6 +44160,50 @@ SEED_SCAMS.push(
   },
 );
 
+// Three new, real, sourced cases for DC, HI, and NE — three of the
+// states/DC tied for the fewest SEED_SCAMS entries (verified with a
+// brace-depth-aware parser scoped to the SEED_SCAMS region, plus a
+// plain grep -c "^\s*slug:" cross-check). Each is a genuinely distinct
+// scheme from that state's existing entries (checked via case-
+// insensitive grep for the scam name, defendant/company name, and
+// property names across the full file — zero existing hits before
+// adding).
+SEED_SCAMS.push(
+  {
+    name: 'LeDroit Park Forged-Deed Real Estate Theft (Jeffrey Young-Bey)',
+    slug: 'dc-ledroit-park-forged-deed-real-estate-theft-young-bey',
+    description: `Jeffrey M. Young-Bey, 68, of the District of Columbia, targeted a LeDroit Park townhome owned free and clear by an elderly homeowner, preparing a fraudulent deed with a forged signature and a fake notary stamp to make it look as though the owner had transferred the property to a corporate entity Young-Bey controlled. Using that forged deed as proof of ownership, he took out a fraudulent mortgage loan of roughly $360,000 against the stolen property beginning in November 2019, split the proceeds with an associate, and spent part of his share on a BMW 3 Series. He ran a similar scheme against a second residential property in the Shepherd Park neighborhood, using a falsified deed and unpaid transfer taxes to secure a large construction loan before selling that property for a profit as well. A federal jury convicted Young-Bey on 12 counts, including conspiracy to commit mail and bank fraud, bank fraud, mail fraud, money laundering, and aggravated identity theft, and U.S. District Judge Colleen Kollar-Kotelly sentenced him on July 24, 2025 to 138 months (11.5 years) in prison plus five years of supervised release. The FBI's Washington Field Office and the Metropolitan Police Department investigated the case, and prosecutors described the scheme as deliberately planned deceit rather than opportunistic crime. DC homeowners — especially elderly residents who own their homes outright with no mortgage to generate regular paperwork — are encouraged to check their property's recorded deed with the DC Recorder of Deeds periodically and enroll in the city's free property fraud alert notification service, since a forged deed can sit undetected for months while a fraudster uses it to borrow against or sell a home the real owner never agreed to transfer.`,
+    categorySlug: 'mortgage-foreclosure-scams',
+    country: 'US',
+    state: 'DC',
+    isHistorical: true,
+    sources: ["U.S. Attorney's Office for the District of Columbia", 'Hoodline', 'DC News Now'],
+    sourceUrl: 'https://www.justice.gov/usao-dc/pr/district-man-sentenced-115-years-scheme-steal-residential-real-estate-using-fraudulent',
+  },
+  {
+    name: 'Kaneohe "Phantom Hacker" Gold Bar Courier Fraud (Harsh Fojalal Shah)',
+    slug: 'hawaii-kaneohe-phantom-hacker-gold-bar-courier-shah',
+    description: `An elderly Kaneohe, Oahu woman, identified in court papers only as "Jane Doe," was contacted by callers who impersonated U.S. Marshals and told her that her identity had been compromised and that her savings needed to be converted into gold and handed over for safekeeping to avoid being seized as part of a criminal investigation. Following the callers' instructions, she handed over nine gold bars worth more than $137,000 to a courier and was being pressured to liquidate an additional $429,000 from her retirement account before law enforcement intervened. Investigators identified Harsh Fojalal Shah, 25, an Indian national, as the courier and set up a controlled operation using prop gold; on July 20, 2026, Shah met the "victim" at a Kaneohe location, handed over a one-dollar bill as a pre-arranged confirmation "password," and accepted the box he believed held ten gold bars before driving through Honolulu using evasive maneuvers and being arrested. In a post-arrest interview, Shah admitted to making roughly ten similar pickups from older adults over the preceding several months. He was charged by criminal complaint with conspiracy to commit wire fraud, facing up to 20 years in prison and a $250,000 fine if convicted. U.S. Attorney Ken Sorenson's office, which is prosecuting the case, said the scheme "underscores a growing national trend in which organized criminal networks prey upon older Americans using impersonation, high-pressure tactics, and isolation to steal their life savings." No genuine U.S. Marshal, FBI agent, or other federal official will ever instruct someone to withdraw their savings, convert it into gold, or hand it to a courier who arrives at their home — that instruction is itself the fraud, regardless of how convincing the caller's badge number or case details sound.`,
+    categorySlug: 'government-impersonation',
+    country: 'US',
+    state: 'HI',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office for the District of Hawaii", 'Hawaii News Now', 'Honolulu Star-Advertiser'],
+    sourceUrl: 'https://www.justice.gov/usao-hi/pr/indian-national-arrested-hawaii-role-gold-bar-elder-fraud-scheme',
+  },
+  {
+    name: 'Nebraska Attorney General "Shop Like a Billionaire" Temu Lawsuit',
+    slug: 'nebraska-temu-shop-like-a-billionaire-consumer-protection-lawsuit',
+    description: `Nebraska Attorney General Mike Hilgers filed a consumer-protection lawsuit against the Chinese e-commerce platform Temu and its U.S. entity on June 12, 2025, alleging violations of Nebraska's Uniform Deceptive Trade Practices Act and Consumer Protection Act. The suit alleges that Temu's shopping app secretly installs code that bypasses phone security settings, granting it far broader access to a user's device than a shopping app needs to function — access Hilgers's office says Chinese law could compel Temu to share with the Chinese government on request. The complaint also documents widespread counterfeiting of well-known Nebraska brands sold on the platform as if authentic, including Union Pacific, Runza, Cabela's, University of Nebraska Cornhuskers, and Creighton Bluejays merchandise, along with deceptive marketing practices such as inflated "market price" comparisons designed to make routine prices look like steep discounts, and "greenwashing" claims that purchases fund tree-planting initiatives. "Temu is putting Nebraskans' privacy at risk and running a platform rife with deceptive listings, unlawful promotional practices," Hilgers said in announcing the suit, which seeks an injunction against the alleged practices, refunds for affected Nebraska consumers, and civil penalties. Nebraska's suit follows similar consumer-protection actions against Temu by Texas, Oklahoma, Kentucky, and Arkansas. Shoppers on Temu or similar low-cost overseas marketplace apps should review what data the app is permitted to access in their phone's privacy settings, treat "was $X, now $Y" discount claims with skepticism unless verified against an independent price-history tool, and buy licensed team or brand merchandise only from a retailer listed as an authorized dealer.`,
+    categorySlug: 'online-shopping-scams',
+    country: 'US',
+    state: 'NE',
+    alertLevel: 'medium',
+    sources: ['Nebraska Attorney General\'s Office', 'Greenberg Traurig LLP', 'ConsumerAffairs'],
+    sourceUrl: 'https://ago.nebraska.gov/attorney-general-hilgers-files-lawsuit-against-temu-siphoning-nebraskans-phone-data',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
