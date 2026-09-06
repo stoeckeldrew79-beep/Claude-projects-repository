@@ -1878,4 +1878,15 @@ export const UsTZ: SeedScam[] = [
     sources: ['Pennsylvania Office of Attorney General', 'ABC27 News', 'The Sentinel (Lewistown)'],
     sourceUrl: 'https://www.attorneygeneral.gov/taking-action/attorney-general-sunday-warns-pennsylvanians-of-cash-scams-involving-trusted-person-pickups/',
   },
+  {
+    name: "Fake State Representative Insurance Subsidy Scam",
+    slug: "west-virginia-fake-state-representative-insurance-scam",
+    description: `West Virginia Attorney General JB McCuskey's office warned on September 4, 2026, that scammers posing as West Virginia state representatives were calling residents with offers of fake government insurance and subsidy programs, one of the fastest-growing complaint categories among the 401 scam reports the Consumer Protection Division logged in August 2026 alone, trailing only Medicare scams. The callers spoof West Virginia phone numbers so the calls appear to come from an official or familiar in-state source, use live callers rather than robocalls to sound more convincing and adapt to pushback, and in at least one case called the same consumer roughly 70 times to wear down their skepticism. Once a target engages, the caller pushes a supposed state insurance or subsidy program that does not exist, aiming to extract personal and financial information under the guise of enrollment. McCuskey's office advised West Virginians to independently verify any caller's identity before providing information, hang up and call the agency back using a number found on its official website rather than one supplied by the caller, and remember that legitimate state representatives do not enroll constituents in insurance programs over an unsolicited phone call. Residents who receive one of these calls can report it to the West Virginia Attorney General's Consumer Protection Hotline at 1-800-368-8808.`,
+    categorySlug: "government-impersonation",
+    alertLevel: "high",
+    sources: ["West Virginia Attorney General's Office", "Independent Herald"],
+    sourceUrl: "https://independentherald.com/attorney-general-warns-new-scam-tactics/",
+    country: "US",
+    state: "WV",
+  },
 ];
