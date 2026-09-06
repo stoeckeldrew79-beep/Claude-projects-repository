@@ -44929,6 +44929,40 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'BD6 Million Investment Company Fraud Conviction',
+    slug: 'bahrain-bd6-million-investment-fraud-conviction',
+    description: `Bahrain's National Financial Intelligence Centre referred a tip to the Public Prosecution's Financial Crimes and Money Laundering unit that unraveled one of the country's largest fraud cases: the owner of a licensed investment company was accused of pitching investors bogus business deals and financing arrangements, then using the money — more than BD6.8 million (roughly $18 million) in total — to pay off his own personal debts rather than invest it as promised. Prosecutors told the High Criminal Court the owner personally carried out 336 fictitious transactions, later revised upward to 388 across the case, while the company's chief executive and two board members were accused of processing further sham deals despite knowing money was being misappropriated; at a November 2025 hearing, the lead prosecutor said roughly 1,000 people were "still holding on to the hope that they will get their money back," after an initial charge sheet had already named 352 defrauded investors. In December 2025 the court convicted the owner of fraud, forgery, embezzlement and money laundering, sentencing him to eight years in prison and ordering him to pay close to BD14 million in fines and restitution, while the CEO and two board members were initially given one year in prison; on appeal, Bahrain's Supreme Criminal Appeals Court upheld the owner's eight-year sentence on March 17, 2026, but converted the three co-defendants' prison terms to community service. The case shows that a company holding a genuine local licence and years of apparent good standing is not by itself proof that money handed over for an "investment opportunity" is actually being invested — investors should insist on independent, verifiable proof of where their funds are deployed and be alert to windfall-style returns pitched informally through personal connections rather than audited, regulator-supervised products.`,
+    categorySlug: 'investment-fraud',
+    country: 'BH',
+    isHistorical: true,
+    sources: ['Gulf Daily News (GDN)', 'The Daily Tribune (Bahrain)'],
+    sourceUrl: 'https://www.gdnonline.com/Details/1378780/Businessman%E2%80%99s-jail-sentence-upheld-in-BD6m-fraud-case',
+  },
+  {
+    name: 'Fake Tender "Refundable Registration Fee" Email Scam',
+    slug: 'bahrain-fake-tender-refundable-registration-fee-scam',
+    description: `On June 20, 2025, the Cybercrime Unit of the General Directorate of Anti-Corruption and Economic and Electronic Security at Bahrain's Ministry of Interior warned companies and institutions across the Kingdom about a surge in fraudulent emails impersonating well-known, legitimate organisations to announce fake "official tenders." The emails are written to look convincing enough that a busy procurement or finance employee mistakes them for a genuine large-scale tender opportunity, and the messages direct recipients to wire a so-called "refundable registration fee" to a bank account before they can supposedly take part — money that, once sent, goes to an untraceable account controlled by the fraudsters and is never returned. The Cybercrime Unit urged companies to verify any unsolicited tender announcement directly with the organisation it claims to come from, through officially published contact details rather than any number or email in the message itself, to hold off transferring any money until that verification is complete, and to delete the email, alert their internal purchasing or cybersecurity teams, and report the message to the Ministry of Interior's Cybercrime Unit rather than reply to it. The warning is a reminder that business email compromise does not only target individual bank customers — a company's own procurement inbox is just as attractive a target, and any tender that requires an upfront "registration" or "processing" payment before work is awarded should be treated as a red flag rather than an opportunity.`,
+    categorySlug: 'business-email-compromise',
+    country: 'BH',
+    alertLevel: 'high',
+    sources: ['Bahrain Ministry of Interior', 'The Daily Tribune (Bahrain)'],
+    sourceUrl: 'https://www.newsofbahrain.com/bahrain/114463.html',
+  },
+  {
+    name: 'Decent Trading Fake Job Advertisement Scam',
+    slug: 'bahrain-decent-trading-fake-job-scam',
+    description: `A recruitment outfit called Decent Trading, operating out of Um Al Hassam, posted fake job advertisements on social media and job websites promising positions to jobseekers in Bahrain, then used the fabricated offers to charge upfront fees that were never linked to any real job. After Bahraini members of parliament passed on a wave of complaints from constituents, police and the Ministry of Interior's Director-General of Anti-Corruption and Economic and Electronic Security opened an investigation and arrested those behind the operation in July 2020. Investigators said the scheme had conned hundreds of jobseekers by charging BD20 to BD50 for supposed COVID-19 swab tests required before "hiring," BD200 for visa costs collected on an instalment basis, and a further BD20 "contract fee" — payments collected at each stage to keep victims believing a real job was imminent, right up until the promised position never materialised. Bahraini authorities urged anyone targeted by the scheme to file a complaint at Nabih Saleh Police Station or call the department's hotline, and the case is a reminder that a legitimate employer never asks a jobseeker to pay medical testing, visa, or contract fees out of pocket before starting work — any recruiter who does so, especially one advertising only through social media, should be treated as a likely scam.`,
+    categorySlug: 'employment-scams',
+    country: 'BH',
+    isHistorical: true,
+    firstRecorded: '2020-07-19',
+    sources: ['Gulf News', 'Bahrain Ministry of Interior'],
+    sourceUrl: 'https://gulfnews.com/world/gulf/bahrain/bahrain-job-agency-suspended-for-conning-hundreds-of-people-with-fake-job-advertisements-1.72694115',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
