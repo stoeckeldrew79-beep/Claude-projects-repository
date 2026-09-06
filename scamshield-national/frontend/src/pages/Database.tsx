@@ -1,10 +1,11 @@
 import { useState } from 'react';
 import { Link, useSearchParams } from 'react-router-dom';
-import { useCategories, useCountries, useInfiniteScams } from '../hooks/useScams';
+import { useCategories, useCountries, useInfiniteScams, useScamTags } from '../hooks/useScams';
 import { ScamListParams } from '../services/scams';
 import { ScamCard } from '../components/ScamCard';
 import { useDocumentMeta } from '../hooks/useDocumentMeta';
 import { TrendWatch } from '../components/TrendWatch';
+import { tagLabel } from '../utils/scamTags';
 import { countryName } from '../utils/countries';
 
 const SORT_OPTIONS: { value: NonNullable<ScamListParams['sort']>; label: string }[] = [
@@ -34,18 +35,23 @@ export default function Database() {
 
   const [search, setSearch] = useState('');
   const [category, setCategory] = useState<string | undefined>(undefined);
+  // Victim targeting is a second axis, not a category: a solar scam aimed at
+  // seniors is both, so this filter composes with the category select rather
+  // than replacing it.
+  const [tag, setTag] = useState<string | undefined>(searchParams.get('tag') ?? undefined);
   const [country, setCountry] = useState<string | undefined>(searchParams.get('country') ?? undefined);
   const [sort, setSort] = useState<NonNullable<ScamListParams['sort']>>('alert_level');
   const [view, setView] = useState<NonNullable<ScamListParams['view']>>('current');
   const { data: categories } = useCategories();
   const { data: countries } = useCountries();
+  const { data: scamTags } = useScamTags();
   const {
     data,
     isLoading,
     fetchNextPage,
     hasNextPage,
     isFetchingNextPage,
-  } = useInfiniteScams({ search: search || undefined, category, country, sort, view });
+  } = useInfiniteScams({ search: search || undefined, category, tag, country, sort, view });
 
   function handleViewChange(next: NonNullable<ScamListParams['view']>) {
     setView(next);
@@ -118,6 +124,21 @@ export default function Database() {
             </option>
           ))}
         </select>
+        {scamTags && scamTags.length > 0 && (
+          <select
+            value={tag ?? ''}
+            onChange={(e) => setTag(e.target.value || undefined)}
+            className="rounded-md border border-slate-300 px-3 py-2 text-sm"
+            aria-label="Filter by who the scam targets"
+          >
+            <option value="">Anyone targeted</option>
+            {scamTags.map((t) => (
+              <option key={t.tag} value={t.tag}>
+                {tagLabel(t.tag)} ({t.count})
+              </option>
+            ))}
+          </select>
+        )}
         {countries && countries.length > 1 && (
           <select
             value={country ?? ''}

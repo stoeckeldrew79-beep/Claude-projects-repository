@@ -6,6 +6,7 @@ export const PAGE_SIZE = 20;
 
 export interface ScamListParams {
   category?: string;
+  tag?: string;
   state?: string;
   zip?: string;
   country?: string;
@@ -17,6 +18,11 @@ export interface ScamListParams {
 
 export async function fetchScams(params: ScamListParams = {}) {
   const { data } = await api.get<{ data: Scam[] }>('/scams', { params });
+  return data.data;
+}
+
+export async function fetchScamTags() {
+  const { data } = await api.get<{ data: { tag: string; count: number }[] }>('/scams/tags');
   return data.data;
 }
 

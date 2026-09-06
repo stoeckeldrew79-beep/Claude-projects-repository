@@ -34,6 +34,9 @@ export interface Scam {
 
 export interface ScamListFilters {
   category?: string;
+  // Victim-targeting label (elder-targeted, veteran-targeted, ...). A
+  // separate axis from category: a solar scam aimed at seniors carries both.
+  tag?: string;
   state?: string;
   zip?: string;
   country?: string;
@@ -48,7 +51,7 @@ export interface ScamListFilters {
 }
 
 export async function listScams(filters: ScamListFilters) {
-  const { category, state, zip, country, search, sort = 'newest', view = 'current', page = 1, pageSize = 20 } = filters;
+  const { category, tag, state, zip, country, search, sort = 'newest', view = 'current', page = 1, pageSize = 20 } = filters;
   const conditions: string[] = ['s.is_active = true'];
   const values: unknown[] = [];
 
@@ -65,6 +68,12 @@ export async function listScams(filters: ScamListFilters) {
   if (country) {
     values.push(country);
     conditions.push(`s.country = $${values.length}`);
+  }
+  if (tag) {
+    // Array containment rather than `= ANY(tags)` so the GIN index added in
+    // migration 025 is actually used.
+    values.push([tag]);
+    conditions.push(`s.tags @> $${values.length}`);
   }
   if (state || zip) {
     const locConditions: string[] = [];
@@ -227,4 +236,18 @@ export async function softDeleteScam(id: string) {
     [id]
   );
   return rows[0] ?? null;
+}
+
+
+// Tags in use, with counts, so a filter can offer only labels that will
+// return something. Ordered by frequency: the useful ones surface first.
+export async function listScamTags() {
+  const { rows } = await pool.query(
+    `SELECT unnest(tags) AS tag, count(*)::int AS count
+     FROM scams
+     WHERE is_active = true AND tags IS NOT NULL
+     GROUP BY tag
+     ORDER BY count DESC, tag ASC`
+  );
+  return rows as { tag: string; count: number }[];
 }
