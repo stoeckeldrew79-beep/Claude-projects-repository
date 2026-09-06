@@ -12221,6 +12221,62 @@ Dieselgate remains one of corporate fraud's starkest illustrations of scale outr
   },
 );
 
+NOTORIOUS_ARTICLES.push(
+  {
+    title: "Jérôme Cahuzac and the Secret Swiss Account That Sank France's Anti-Fraud Chief",
+    slug: 'jerome-cahuzac-french-tax-fraud-swiss-account',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://www.france24.com/en/20180515-french-court-upholds-ex-ministers-fraud-conviction-but-no-jail',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/J%C3%A9r%C3%B4me_Cahuzac_%282012%29_cropped.jpg?width=1200',
+    coverImageCredit: "Photo: Cyclotron and César, Wikimedia Commons (CC BY-SA 3.0) — Jérôme Cahuzac at the Élysée Palace in Paris, May 2012, months before he became Budget Minister",
+    coverImagePosition: 25,
+    body: `Jérôme Cahuzac was a cosmetic surgeon before he was a politician, having built a hair-transplant clinic near the Champs-Élysées with his wife, a dermatologist, in the early 1990s. According to reporting by Le Monde, an associate opened an account in Cahuzac's name at UBS in Geneva in 1992 to hold proceeds from that clinic, and in 1998 the money — along with further undeclared income — was moved to a Swiss private bank, Reyl & Cie, and eventually routed through a shell company in the Seychelles to an account in Singapore. By the time French investigators pieced the trail together, it held roughly 600,000 euros that had never appeared on a French tax return.
+
+The irony was total: in 2012, Cahuzac became France's Budget Minister under President François Hollande, a job that put him in charge of the very tax administration responsible for hunting down offshore accounts like his own. When the investigative website Mediapart reported that he held a secret Swiss account in December 2012, Cahuzac denied it to the press, to the National Assembly, and reportedly to Hollande himself, declaring on the floor of parliament in February 2013 that he had "no account abroad, now or ever." He resigned as minister on March 19, 2013, and weeks later, as investigators closed in with recorded phone calls and banking records, admitted the account was real and that he had lied.
+
+A Paris court convicted Cahuzac of tax fraud and money laundering on December 8, 2016, sentencing him to three years in prison, only two suspended, along with a five-year ban from public office. Cahuzac appealed, and on May 15, 2018, the Paris Court of Appeal actually increased the formal sentence to four years — but suspended two of them and allowed the other two to be served outside prison under electronic ankle monitoring at his home in Corsica, alongside a 300,000-euro fine. Prosecutors declined to pursue a further appeal to France's Cour de Cassation, making the 2018 ruling final. His Geneva banker, François Reyl, separately received a one-year suspended sentence and a fine for helping move the funds.
+
+The Cahuzac affair became shorthand in France for the gap between a politician's public rhetoric and private conduct, feeding directly into the transparency laws passed after his resignation that require French ministers to publicly declare their assets. It also became a case study in how slowly hidden wealth can unravel: a 1992 account survived two decades, a ministerial appointment, and a direct parliamentary denial before a journalist's tip and a paper trail through three countries finally closed the loop on a fraud that had specifically been committed by the official France had put in charge of catching it.`,
+  },
+  {
+    title: 'Shan Jiuliang and the $6.4 Billion Fanya Metal Exchange Ponzi Scheme',
+    slug: 'shan-jiuliang-fanya-metal-exchange-ponzi',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://en.wikipedia.org/wiki/Fanya_Metal_Exchange',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Kunming,_China_(28640989873).jpg?width=1200',
+    coverImageCredit: "Photo: Sasha India, Wikimedia Commons (CC BY 2.0) — the entrance to Kunming's Green Lake Park, the city where Fanya Metal Exchange was based",
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    body: `Shan Jiuliang opened the Fanya Metal Exchange in Kunming, the capital of China's Yunnan province, in 2011, with the backing of local government officials who wanted a trading hub for the region's rare and minor metals — indium, bismuth, germanium, tellurium, and other materials with niche but real industrial uses. On its face, Fanya was billed as the world's largest spot-trading platform for these metals; in practice, its main draw for ordinary investors was a product called "ri jin bao," which let people buy claims on stockpiled metal and earn fixed annual returns as high as 13.7% while retaining a right to withdraw their principal on demand — a combination Fanya falsely told investors was safeguarded by major state banks acting as custodians.
+
+That guarantee was never real. Fanya used new investor deposits to pay off earlier investors and to fund purchases of physical metal that piled up in warehouses far faster than any genuine industrial demand could absorb, artificially inflating both trading volumes and metal prices in a self-reinforcing loop. Over roughly three years the exchange pulled in about 43 billion yuan — some $6.4 to $6.7 billion — from more than 220,000 investors across China, drawn by returns that dwarfed what any bank deposit could offer and by the appearance of government sponsorship. The arithmetic could not hold once withdrawal requests began outpacing new deposits.
+
+Fanya froze investor withdrawals in April 2015 and by July had locked up its accounts entirely, triggering protests by defrauded investors in Kunming, Shanghai, Beijing, and other cities as people who had put in retirement savings and family money found they could not get it back. Chinese authorities announced in August 2016 that Shan and twenty other Fanya executives would face prosecution, and the Kunming Intermediate People's Court put Shan and the others on public trial from June 30 to July 1, 2018, on charges including illegally absorbing public deposits and market manipulation.
+
+The court sentenced Shan Jiuliang to 18 years in prison, fined him 500,000 yuan personally, and confiscated roughly 50 million yuan of his property; the Fanya company itself was fined 1 billion yuan for illegal fundraising. Years later, regulators were still trying to auction off the huge stockpiles of indium and other metals Fanya had accumulated, in one case receiving no bids at all — a fitting coda to a scheme whose commodities, unlike its promised returns, turned out to be real but essentially unsellable at the prices its own trading had created.`,
+  },
+  {
+    title: "Francisco Briones and the €3.7 Billion Fórum Filatélico Stamp Pyramid",
+    slug: 'francisco-briones-forum-filatelico-stamp-pyramid',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.publico.es/politica/supremo-rebaja-condena-expresidente-forum-filatelico-casi-12-anos-prision-estafa-blanqueo.html',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Stamp_1980_Spain_MiNr2467_pm_B002.jpg?width=1200',
+    coverImageCredit: "Photo: Correos España / FNMT, Wikimedia Commons (public domain) — a 1980 Spanish postage stamp, the kind of collectible Fórum Filatélico sold to investors",
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    body: `Fórum Filatélico was incorporated in Madrid in 1979 as Fondo Filatélico Financiero, and under longtime chairman Francisco Briones it grew into one of Spain's most trusted household investments, marketed as a low-risk way to profit from stamp collecting rather than the stock market. Investors bought lots of rare and commemorative stamps from the company and signed contracts guaranteeing Fórum would buy them back later at a fixed, higher price, with implied annual returns comfortably above what Spanish banks paid on deposits. For decades, generations of Spanish savers — including many retirees — treated it as a safe, almost quaint alternative to the stock market.
+
+The stamps themselves were never worth what investors were told, and were never the real source of the promised returns. Prosecutors later established that Fórum Filatélico, like the parallel and separately run Afinsa scheme, was sustained almost entirely by money from new investors used to pay the buy-back guarantees owed to earlier ones — a straightforward pyramid dressed up in the respectable language of philately, collectible authentication, and fixed contracts. By the time Spanish authorities intervened, the company had close to 300,000 creditors, most of them ordinary stamp-buying clients rather than sophisticated investors, and a Madrid commercial court found a balance-sheet shortfall of roughly 2.85 billion euros.
+
+Spanish police and prosecutors moved against Fórum Filatélico and Afinsa together on May 9, 2006, raiding offices and freezing operations on charges of fraud, money laundering, punishable insolvency, and disloyal administration; a Madrid court formally declared Fórum insolvent weeks later. It took more than a decade for the case to reach trial — a delay the courts later cited as a mitigating factor — before Spain's Audiencia Nacional convicted Briones and several other Fórum directors in July 2018, sentencing Briones to 12 years and 4 months in prison for fraud and money laundering. Spain's Supreme Court reviewed the case in 2020, trimming the sentence on technical grounds to 11 years and 10 months while upholding the core convictions, imposing a 49.7-million-euro fine, and ordering Briones to help cover 3.7 billion euros in compensation owed to more than 190,000 claimants.
+
+Fórum Filatélico endures, alongside Afinsa, as one of Europe's largest-ever collectibles-based Ponzi schemes — proof that a fraud doesn't need cryptocurrency, exotic derivatives, or offshore secrecy to reach billions of victims' euros, just a physical object ordinary people already trust, a buy-back promise that sounds safer than it is, and enough decades of apparent respectability that regulators and depositors alike stopped asking where the money to honor those promises was actually coming from.`,
+  },
+);
+
 // Practical "how it works / red flags / what to do" guides covering the
 // major scam categories, the same kind of coverage the FTC's Consumer
 // Advice site and AARP's Fraud Watch Network publish — well-documented
