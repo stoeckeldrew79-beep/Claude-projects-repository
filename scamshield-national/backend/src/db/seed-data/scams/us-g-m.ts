@@ -3364,4 +3364,15 @@ export const UsGM: SeedScam[] = [
     country: "US",
     state: "MO",
   },
+  {
+    name: "Vinings Estate-Executor Investment Advisor Fraud (Eijroghene Okuma)",
+    slug: "georgia-okuma-estate-executor-investment-advisor-fraud",
+    description: `Eijroghene Okuma, 43, a former investment advisor in the Atlanta area, was appointed executor of the estate of his elderly client's late sister in 2022 — a position of trust he used to steal nearly $10 million from the client over the following three years. According to the U.S. Attorney's Office for the Northern District of Georgia, Okuma repeatedly told the victim the estate needed funds, then instead funneled the money into multiple bank accounts, including a brokerage account the victim never knew existed. With the stolen money, Okuma built a house in the affluent Vinings area worth more than $5 million and purchased a $1.4 million share of a beach house. The Financial Industry Regulatory Authority (FINRA) had already barred Okuma in December 2025 after he refused to cooperate with its own investigation into allegations that he misappropriated client funds. Okuma pleaded guilty to wire fraud in federal court in Atlanta on March 17, 2026, agreed to pay $13 million in restitution, and is scheduled to be sentenced on June 23, 2026. The case is a reminder that naming a financial advisor as executor or power of attorney over an estate hands that person direct access to accounts a client may never personally monitor — before granting that kind of authority, verify an advisor's registration and disciplinary history through FINRA BrokerCheck, and insist that a trusted second family member receive copies of every account statement tied to an estate or inheritance.`,
+    categorySlug: "investment-fraud",
+    sources: ["U.S. Attorney's Office, Northern District of Georgia", "Atlanta News First (WANF)", "Financial Advisor Magazine"],
+    sourceUrl: "https://www.justice.gov/usao-ndga/pr/investment-advisor-pleads-guilty-defrauding-elderly-client-out-nearly-10-million",
+    country: "US",
+    state: "GA",
+    isHistorical: true,
+  },
 ];

@@ -5504,4 +5504,15 @@ export const UsAF: SeedScam[] = [
     country: "US",
     state: "CT",
   },
+  {
+    name: "Ventura County Tech-Support Pop-Up Cash Courier Sting (Ze Li)",
+    slug: "california-ventura-county-tech-support-cash-courier-sting",
+    description: `An elderly Ventura County resident's computer locked up with a pop-up in August 2026 instructing him to call "Microsoft" for help; the caller, identifying himself as "Damian Myers," told the victim that $25,000 had already been fraudulently charged to his Ventura County Credit Union account to buy illegal materials in China and that he needed to withdraw the money in cash to "protect" it. Following the caller's instructions, the victim handed over $20,000 in cash to a courier at a designated meetup spot, according to the Ventura County District Attorney's Office. When the scammers called back demanding a second $20,000 pickup, investigators set up an undercover sting, and Ze Li, 35, of Fremont, was arrested on August 27, 2026 the moment he arrived to collect it. Li was arraigned on August 31 in Ventura County Superior Court, pleaded not guilty to all counts, and was held on $250,000 bail; the felony complaint includes special allegations that the victim was particularly vulnerable and that the crime involved planning, sophistication, or professionalism, and prosecutors from the DA's Fraud Technology Crimes Unit believe Li may be tied to additional, still-unidentified victims. The case fits a nationwide pattern the FBI and FTC have flagged of scammers sending physical couriers to collect cash directly from victims specifically to sidestep the bank fraud alerts a wire transfer would trigger — a pattern that has made California the top state for reported elder fraud losses, with the FBI tallying more than $620 million of the nation's $3.4 billion in 2023 elder fraud losses in the state alone. Investigators want anyone targeted by a similar call, or who has information about the scheme, to contact Ventura County DA Investigator Eric Jensen at (805) 662-1750, and remind residents that no legitimate business, bank, or government agency will ever instruct someone to withdraw cash and hand it to a stranger to "protect" it.`,
+    categorySlug: "tech-support-scams",
+    alertLevel: "high",
+    sources: ["Ventura County District Attorney's Office", "Hoodline", "FOX 11 Los Angeles"],
+    sourceUrl: "https://hoodline.com/2026/09/fremont-man-held-on-250k-bail-after-ventura-county-elder-scam-sting/",
+    country: "US",
+    state: "CA",
+  },
 ];
