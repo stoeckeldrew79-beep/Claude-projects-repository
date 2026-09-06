@@ -45773,6 +45773,39 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'Fake Social Insurance and Police Two-Stage Phone Scam Targeting Seniors',
+    slug: 'slovakia-fake-social-insurance-police-senior-scam',
+    description: `Slovak Police issued a public warning in 2026 about a two-stage telephone fraud scheme hitting seniors nationwide. In the first call, a fraudster phones an elderly victim's landline claiming to be an employee of the Sociálna poisťovňa (the state Social Insurance Agency) or another trusted institution, ostensibly about a pension payment or benefit adjustment, while quietly gathering reconnaissance — whether the victim lives alone, who else is in the household, and a direct phone number to reach them. A second caller then phones back posing as a criminal police investigator, telling the victim their bank savings are under imminent threat from thieves or a compromised account and that police need their cooperation to move the money somewhere "safe." Throughout the call the fraudsters apply heavy psychological pressure, insisting the victim stay on the line continuously and explicitly forbidding them from hanging up to call a family member or the real police to verify the story — a deliberate isolation tactic meant to prevent the scam from being caught before the money is handed over. Victims are ultimately talked into withdrawing their savings from the bank in cash and handing them to a courier the caller sends to collect it. The Police Force of the Slovak Republic has stressed that neither the police, the Sociálna poisťovňa, nor any other state institution will ever telephone a citizen and ask them to withdraw their savings and hand the cash to a stranger, and it urges anyone who receives such a call to hang up and independently verify the caller's identity using an officially published contact number rather than one the caller provides.`,
+    categorySlug: 'government-impersonation',
+    country: 'SK',
+    alertLevel: 'high',
+    sources: ['Police Force of the Slovak Republic (Policajný zbor SR)', 'Info.sk'],
+    sourceUrl: 'https://www.info.sk/sprava/281789/novy-telefonicky-podvod-zlodeji-izoluju-seniorov-a-tvrdia-ze-ich-peniaze-su-v-ohrozeni',
+  },
+  {
+    name: 'Fake Ministry of Interior Look-Alike Domains Targeting Mayors and Municipal Officials',
+    slug: 'slovakia-fake-minv-domains-mayors-officials-scam',
+    description: `Slovakia's Ministry of Interior and Police Force issued a joint warning in July 2026 after a wave of fraudulent contacts targeted mayors and other municipal officials across the country using look-alike web domains built to mimic the ministry and police's real online presence — names such as minvbrezno.sk, minvpztrencin.sk, minvtopolcany.sk, minvtrencin.sk, minvtrnava.sk, popradminv.sk, pztrencinminv.sk, and trencinminv.sk, none of which are official government sites despite closely echoing the real minv.sk ministry domain and regional police naming conventions. Officials were contacted by phone or message and directed to these fraudulent sites or given instructions that traded on the appearance of legitimate ministry or police authority, part of a broader pattern of impersonation scams that have moved beyond ordinary citizens to specifically target local government figures who may be more inclined to comply quickly with what looks like an urgent official request. The Ministry of Interior and Police Force are urging mayors, deputy mayors, and municipal staff to treat any such call or message with extreme caution and, whenever in doubt about a caller's identity or a website's authenticity, to verify it independently through the official, previously published contact details of the relevant institution rather than any number or link supplied in the suspicious contact itself.`,
+    categorySlug: 'phishing',
+    country: 'SK',
+    alertLevel: 'high',
+    sources: ['Slovak Ministry of Interior (Ministerstvo vnútra SR)', 'Rimava.sk'],
+    sourceUrl: 'https://www.rimava.sk/policajne-spravy/podvod-na-starostov-a-primatorov-policia-vydala-varovanie',
+  },
+  {
+    name: 'Fake Slovenská Pošta Parcel-Fee Phishing Emails',
+    slug: 'slovakia-fake-slovenska-posta-parcel-fee-phishing',
+    description: `A recurring phishing campaign impersonating Slovenská pošta (Slovak Post) has circulated repeatedly in Slovakia, with fresh waves flagged by consumer-warning site Hoax.sk and covered again in the national press in 2026. The emails claim a parcel addressed to the recipient is waiting and cannot be delivered until a small handling fee — commonly listed as €4.99 — is paid online, with a link leading to a convincing but fake payment page. Researchers who examined the campaign found telltale signs of the fraud: every supposed parcel carries the identical tracking code regardless of recipient, and clicking through on the purported sender reveals the message did not originate from Slovenská pošta at all but from unrelated foreign addresses, including domains such as n3tzkun5t.de. Victims who enter payment card details on the fake page don't just lose the €4.99 "fee" — in many documented cases their card data and online banking access were subsequently misused for much larger unauthorized charges. Slovenská pošta has repeatedly and publicly stated that it never requests a delivery or handling fee by email or SMS and never sends customers a payment link over the internet, and it directs anyone unsure about a message claiming to be from the postal service to verify it through its free customer line, 0850 122 413, rather than clicking any link in the message itself.`,
+    categorySlug: 'package-delivery-scams',
+    country: 'SK',
+    alertLevel: 'high',
+    sources: ['Slovenská pošta (Slovak Post)', 'Hoax.sk'],
+    sourceUrl: 'https://www.posta.sk/podpora/varovania-pred-podvodmi',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
