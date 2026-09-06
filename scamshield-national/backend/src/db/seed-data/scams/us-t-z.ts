@@ -1966,4 +1966,15 @@ export const UsTZ: SeedScam[] = [
     country: "US",
     state: "WI",
   },
+  {
+    name: "Wyoming DMV Unpaid Traffic Fine Text Scam",
+    slug: "wyoming-dmv-unpaid-traffic-fine-text-scam",
+    description: `The Wyoming Department of Transportation (WYDOT) warned residents on March 11, 2026 about a wave of smishing texts claiming to be from the "Wyoming DMV" and demanding immediate payment for supposedly unpaid traffic fines, warning that failure to pay could lead to license and registration suspension, additional fines, or legal action. The texts include a link to a fraudulent payment page designed to harvest personal and credit card information. WYDOT pointed to several built-in giveaways: Wyoming has no agency that calls itself "the DMV" — vehicle titling, registration, and driver licensing are handled by WYDOT and county offices — the agency does not collect ticket fees by text message, and it does not conduct business through phone numbers with foreign country codes, all of which the scam texts got wrong. Residents who receive one of these messages are urged not to open the link or provide any personal information, and to report it to the Federal Trade Commission through the link posted on WYDOT's scam-alert webpage.`,
+    categorySlug: "government-impersonation",
+    alertLevel: "medium",
+    sources: ["Wyoming Department of Transportation", "County 17"],
+    sourceUrl: "https://www.dot.state.wy.us/news/wydot-warns-against-recent-scam-texts",
+    country: "US",
+    state: "WY",
+  },
 ];
