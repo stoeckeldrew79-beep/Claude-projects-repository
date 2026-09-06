@@ -45314,6 +45314,41 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'Russian "High-Paying Job" Scam Recruiting Batswana Into Combat Against Ukraine',
+    slug: 'botswana-russia-fake-job-military-recruitment-scam',
+    description: `Botswana's Ministry of International Relations issued a public warning on July 18, 2026 that a growing number of Batswana are being lured abroad by fraudulent job offers and then coerced into fighting for Russia in its war against Ukraine, saying "the number of Batswana being misled into such arrangements is rising at an alarming rate" and that some recruits "are being forced into active combat." The ministry said it "continues to receive heartbreaking calls from Batswana already on the frontline, describing the perilous conditions they face," and noted that as early as December it believed at least two young Botswana nationals may already have been recruited, though the government has not disclosed how many citizens currently serve with Russian forces. The scheme mirrors recruitment fraud already documented in Kenya, South Africa, and other African countries: victims are approached online or through intermediaries with offers of well-paid civilian work — sometimes described as construction, security, or factory jobs — only to have their passports confiscated on arrival and be pressured or forced into signing military contracts and deploying to front-line positions with little or no training. The nonprofit Inpact has tracked more than 1,400 African nationals allegedly recruited by Russia between January 2023 and September 2025 and documented at least 316 African deaths in the conflict as of February 2026, and the European Parliament formally condemned the practice as human trafficking in March 2026. Botswana's government urged citizens to independently verify any overseas job offer — including confirming the employer, contacting Botswana's diplomatic missions before departure, and treating recruiters who pressure applicants to travel quickly or pay upfront fees as a red flag — before accepting work abroad, since by the time a recruit discovers the job does not exist, they may already be inside a war zone with no easy way home.`,
+    categorySlug: 'employment-scams',
+    country: 'BW',
+    alertLevel: 'critical',
+    sources: ['Ministry of International Relations (Botswana)', 'Bloomberg', 'Inpact'],
+    sourceUrl: 'https://united24media.com/world/russias-fake-job-offers-are-sending-botswana-citizens-to-ukraines-front-lines-at-alarming-rate-20884',
+  },
+  {
+    name: 'Ecoplexus Fake Solar-Investment Pyramid Scheme',
+    slug: 'botswana-ecoplexus-solar-investment-pyramid-scheme',
+    description: `An online investment scheme impersonating Ecoplexus, a real US-based solar energy company, ran a look-alike website that mirrored the legitimate firm's branding while promising participants daily returns for depositing money into a tiered scheme of "PV" investment levels — starting with a free PV0 tier and climbing through paid levels such as PV1, which required roughly P230 (about $17), up to a top tier that advertised annual returns as high as 1,544 percent, with additional bonuses paid for recruiting new members and for "upgrading" to higher levels. The Bank of Botswana and the Competition and Consumer Authority (CCA) jointly warned the public on May 17, 2023 that Ecoplexus Solar Equipment (Pty) Ltd was not licensed or authorized by either the central bank or the Non-Bank Financial Institutions Regulatory Authority (NBFIRA) to take deposits or provide financial services in Botswana, and the scheme collapsed in late April 2023 when it stopped honoring withdrawal requests. Consumer Protection Advocate Richard Harriman estimated losses running "into the tens of millions of pula," and police investigations in just two towns illustrated the scale: at Tatitown, 18 reported cases totaled more than P500,000, including one victim who lost P300,000, while in Francistown, 90 victims filed 36 cases involving over P400,000. Two suspects arrested in connection with the Tatitown cases claimed they did not personally control the accounts collecting victims' money, telling police they were acting on behalf of "a certain Chinese national" who ran the scheme from outside the country, leaving Botswana investigators with limited ability to recover the funds or reach the operation's organizers. Harriman noted that victims were "not only limited in their knowledge of internet scams, but... also desperate for any easy money," underscoring the regulators' standard advice: verify with the Bank of Botswana or NBFIRA whether any company soliciting deposits or investment is actually licensed before sending money, and treat any scheme promising fixed daily returns funded by recruiting more members as a pyramid structure regardless of what product or technology brand it claims to be selling.`,
+    categorySlug: 'investment-fraud',
+    country: 'BW',
+    isHistorical: true,
+    firstRecorded: '2023-04-01',
+    sources: ['Bank of Botswana', 'Competition and Consumer Authority (Botswana)', 'TechCabal', 'Botswana Daily News'],
+    sourceUrl: 'https://techcabal.com/2023/05/13/botswana-ecoplexus-scam/',
+  },
+  {
+    name: 'Orange Money "You\'ve Won P4,000" Prize Scam',
+    slug: 'botswana-orange-money-prize-scam',
+    description: `Fraudsters impersonating Orange Botswana call or message Orange Money subscribers claiming they have won a P4,000 prize in an Orange Money competition, then exploit the fact that Orange Money accounts are capped at a P4,000 maximum balance to talk victims into transferring their own existing account funds to an account the scammer controls, framing it as a necessary step to "make room" for the winnings that never arrive. Orange Botswana's legal and corporate affairs director, Lepata Mafa, publicly warned in January 2020 that "many customers" had already fallen for the scheme after it circulated by phone and word of mouth, telling the public: "Beware of scammers claiming to be calling from Orange regarding a P4,000 Orange Money competition that you have won! Call 123 to verify," and clarifying that any genuine competition winnings require the customer to visit an Orange office in person and sign a consent form rather than send money first. The company acknowledged that its own reported-case numbers likely understated the true toll, since many victims posted warnings on social media rather than formally reporting the fraud to Orange or the police, and launched an SMS and social media awareness campaign directing customers to dial the free 123 short code to confirm any prize or account request before acting on it. The scam is a variant of an advance-fee prize fraud adapted to mobile money's low balance caps: because a legitimate mobile wallet genuinely cannot hold more than P4,000, the false "you need to clear space first" logic sounds plausible to subscribers unfamiliar with how account limits work, which is why Orange and Botswana's other mobile money providers stress that no legitimate competition, refund, or reward ever requires the winner to send money out of their own account first.`,
+    categorySlug: 'lottery-sweepstakes-scams',
+    country: 'BW',
+    isHistorical: true,
+    firstRecorded: '2020-01-28',
+    sources: ['Orange Botswana', 'Sunday Standard'],
+    sourceUrl: 'https://www.sundaystandard.info/orange-botswana-warns-of-scammers/',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
