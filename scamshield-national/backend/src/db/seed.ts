@@ -42545,6 +42545,48 @@ SEED_SCAMS.push(
   },
 );
 
+// Kentucky, North Carolina, and Utah were tied for the fewest SEED_SCAMS
+// entries (11 each, alongside Virginia, Massachusetts, New Jersey, Oregon,
+// and Pennsylvania) at the time this batch was added, verified with a
+// brace-depth-aware parser scoped to the SEED_SCAMS region (the array
+// literal plus every subsequent .push() block) and cross-checked against a
+// plain grep for top-level slug fields in that same region.
+SEED_SCAMS.push(
+  {
+    name: 'Tracy Davenport Pool-Installation Down-Payment Fraud',
+    slug: 'kentucky-louisville-tracy-davenport-pool-installation-fraud',
+    description: `Tracy Davenport ran a Louisville, Kentucky pool-installation business that, between May 2021 and December 2022, induced more than fifty customers to sign contracts and pay large upfront down payments for new backyard pools that in most cases were never built, according to the U.S. Attorney's Office for the Western District of Kentucky. Rather than using the money for the promised construction, Davenport and others working at her direction diverted customer funds to other purposes, and she later filed for bankruptcy while continuing to conceal assets and obligations from the process. A federal jury convicted her, and on June 15, 2026 she was sentenced to 63 months in federal prison followed by three years of supervised release on eleven counts of wire fraud, one count of bankruptcy fraud, and five counts of money laundering, with restitution ordered in the amount of $3,398,536.75. FBI Louisville Special Agent in Charge Olivia Olson said Davenport "was a ruthless business owner who intentionally defrauded customers by promising to install a new pool, stealing their down payment, and never delivering a product." The case was investigated jointly by the FBI, IRS Criminal Investigation, the Louisville Metro Police Department, and the U.S. Trustee's Office. Homeowners hiring any contractor for a large home-improvement project should avoid paying more than a small deposit upfront, insist on a payment schedule tied to completed work, and check a company's licensing and complaint history with the state before signing a contract or handing over a down payment.`,
+    categorySlug: 'mortgage-foreclosure-scams',
+    country: 'US',
+    state: 'KY',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office for the Western District of Kentucky", 'FBI', 'WDRB', 'WAVE 3 News'],
+    sourceUrl: 'https://www.justice.gov/usao-wdky/pr/louisville-woman-sentenced-over-5-years-federal-prison-defrauding-customers',
+  },
+  {
+    name: 'Lumberton Tax Preparation Business Pandemic-Credit Fraud Ring (Nejlai Mitchell)',
+    slug: 'north-carolina-lumberton-nejlai-mitchell-pandemic-tax-credit-fraud',
+    description: `Nejlai Mitchell owned and operated a tax return preparation business out of Lumberton and Hope Mills, North Carolina that, from approximately April 2022 through May 2023, filed hundreds of federal returns fraudulently claiming the paid sick-and-family-leave tax credit — a COVID-19 relief provision meant to reimburse self-employed workers who missed work due to the pandemic — for clients who did not actually qualify, according to the U.S. Department of Justice. The scheme caused the IRS to pay out approximately $13,890,697 in fraudulent refunds as part of a broader conspiracy prosecutors said sought nearly $25 million total. Mitchell pleaded guilty on June 23, 2026 to conspiracy and to aiding in the preparation of false tax returns, joining seven employees who separately pleaded guilty over the preceding year — Sylvia Swindell and Jeannie Negron in August 2025, Katrena Stanback and Eyoubo McBurney in September 2025, Tiffany Moody and Shaneen Ray in December 2025, and Whitnee Leach in May 2026. Mitchell faces up to five years in prison on the conspiracy count and up to three years on the false-returns count, along with a forfeiture money judgment tied to the fraudulent refunds. Assistant Attorney General Colin M. McDonald of the Justice Department's Tax Division said "stealing taxpayer funded relief in a national emergency is both reprehensible and deeply harmful to the public." Taxpayers should be wary of any preparer who promises unusually large refunds tied to pandemic-era credits, should ask to see and understand every credit claimed on a return before signing it, and remain personally liable to the IRS for a false return even when someone else prepared it.`,
+    categorySlug: 'tax-scams',
+    country: 'US',
+    state: 'NC',
+    alertLevel: 'high',
+    sources: ['U.S. Department of Justice', 'IRS Criminal Investigation', "U.S. Attorney's Office for the Eastern District of North Carolina"],
+    sourceUrl: 'https://www.justice.gov/usao-ednc/pr/eight-north-carolina-return-preparers-plead-guilty-almost-25m-pandemic-relief',
+  },
+  {
+    name: 'Thomas Madden $23 Million Cascade IR / Savitar Systems Ponzi Scheme',
+    slug: 'utah-washington-city-thomas-madden-cascade-ir-savitar-ponzi-scheme',
+    description: `Thomas Paul Madden of Washington City, Utah, together with California-based business partner Jeremy Tyler Grabow, raised money from more than 200 investors across Utah, California, Colorado, Nevada, and North Dakota through two entities, Cascade IR, LLC and Savitar Systems, LLC, according to the Utah Division of Securities. Madden told investors their principal was protected and guaranteed high returns with little to no risk, while never disclosing his prior disciplinary history with securities regulators in Washington and Arizona or a 2024 Utah felony conviction for issuing bad checks. In classic Ponzi-scheme fashion, he used newer investors' money to pay purported returns to earlier investors while diverting a substantial share of the more than $23 million raised to his own personal expenses. Madden pleaded guilty in June 2025 to wire fraud and conspiracy to commit wire fraud, and on November 17, 2025 a federal judge sentenced him to 100 months in prison and ordered him to pay restitution of nearly $14 million; Grabow's federal jury trial on related wire fraud and money laundering conspiracy charges was set for May 2026. Utah Division of Securities Director Robert Cummings said "Mr. Madden preyed on investors' trust, promising high returns with little to no risk while knowingly concealing his significant disciplinary history and criminal past." Investors should independently verify any promoter's disciplinary and criminal history through the SEC, FINRA's BrokerCheck, or a state securities regulator before wiring money, since a guarantee of high returns with no risk is itself a hallmark of fraud.`,
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    state: 'UT',
+    alertLevel: 'high',
+    sources: ['Utah Division of Securities', "U.S. Attorney's Office for the District of Utah", 'KSL.com', 'St. George News'],
+    sourceUrl: 'https://commerce.utah.gov/securities/2025/11/17/utah-man-sentenced-to-100-months-in-prison-for-multi-million-dollar-securities-fraud-scheme/',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
