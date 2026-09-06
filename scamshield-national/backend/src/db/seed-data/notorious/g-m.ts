@@ -3988,4 +3988,24 @@ The fund collapsed in June 2020 when Optimus abruptly suspended redemptions, una
 
 A Seoul court first sentenced Kim to 25 years in prison in 2021, but the Seoul High Court, hearing prosecutors' appeal, more than doubled the punishment on further review, and on July 14, 2022, South Korea's Supreme Court finalized a sentence of 40 years — one of the longest terms ever imposed on a white-collar defendant in the country's history — along with a 500 million won fine and forfeiture of more than 75 billion won in illicit proceeds. Kim remains behind bars serving that sentence, and prosecutors have continued clawing back forfeited assets years after the conviction, recovering an additional 2.28 billion won as recently as 2026 — a reminder that even a finalized sentence and a formal bankruptcy rarely mean investors in a scheme like this ever see the bulk of their money again.`,
   },
+  {
+    title: "Mahafarid Amir Khosravi and the $2.6 Billion Bank Fraud That Ended in Execution",
+    slug: 'mahafarid-amir-khosravi-iran-bank-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://www.scmp.com/news/world/article/1519450/mahafarid-amir-khosravi-executed-iran-over-us26b-banking-scam',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Bank_Saderat_Iran.jpg?width=1200',
+    coverImageCredit: 'Photo: درپیت, Wikimedia Commons (CC BY-SA 4.0) — a Bank Saderat Iran branch, the state bank whose forged letters of credit fueled Khosravi\'s fraud',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    body: `Mahafarid Amir Khosravi, who also went by the name Amir Mansour Aria, turned a company capitalized at just 50 million rials into a conglomerate holding a reported 20 billion rials in assets within about three years — growth that had nothing to do with any genuine business success and everything to do with a network of forged documents that let him draw what amounted to unlimited credit from Iran's state banking system.
+
+Over roughly four years, Khosravi's Aria Investment Development Company obtained loans and letters of credit from seven Iranian banks, most prominently the state-owned Bank Saderat, using falsified paperwork and complicit or deceived bank officials to secure financing far beyond what any real collateral would have supported. Rather than simply pocket the cash, Khosravi used it to buy controlling stakes in dozens of companies then being sold off under Iran's state privatization program, most notably Khuzestan Steel Company, one of the country's largest steelmakers — turning looted bank credit into real, tangible industrial holdings rather than a paper fortune that a forensic audit could unwind with a single ledger entry.
+
+The scheme became public in September 2011, when Iranian media reported that a group of banks had been defrauded on a massive scale; by late October, authorities had questioned at least 67 people and arrested 31. The scandal reached the top of Iran's banking establishment almost immediately: Mahmoud Reza Khavari, managing director of Bank Melli, Iran's largest bank, resigned on September 27, 2011, and fled to Canada before investigators could question him over his bank's role — he has never been extradited or returned to face the allegations against him, remaining a fugitive to this day even after the man who actually carried out the fraud was put to death for it. Supreme Leader Ali Khamenei publicly demanded accountability within days, and prosecutors ultimately described the roughly $2.6 billion involved as the largest financial fraud in Iran since the 1979 revolution.
+
+A Tehran court convicted 39 defendants in July 2012, sentencing Khosravi and three associates to death, two others to life imprisonment, and the remainder to prison terms of up to 25 years. Khosravi's death sentence was upheld on further review, and on May 24, 2014, he was hanged at Tehran's Evin Prison — his own lawyer said afterward that he learned of the execution only once it had already happened, with no advance notice given to prepare any final appeal.
+
+Khosravi's case remains one of the starkest examples anywhere of a government treating large-scale financial fraud as a capital crime, a punishment almost never applied to white-collar fraud elsewhere in the world, and it stands as Iran's largest prosecuted banking fraud to date. It is also a study in how unevenly consequences can fall across a single scandal: the financier who physically engineered the fraud was executed within three years of its exposure, while the bank chief who resigned and disappeared the moment the story broke has spent more than a decade beyond the reach of the same justice system.`,
+  },
 ];
