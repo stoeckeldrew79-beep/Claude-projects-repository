@@ -3796,4 +3796,24 @@ In a televised trial, Iranian prosecutors accused Zanjani of embezzling roughly 
 
 Rather than fade from view, Zanjani re-emerged in 2025 and 2026 building a new business empire spanning rail, cryptocurrency exchanges, ride-sharing, and gold trading — prompting the U.S. Treasury Department to sanction him again in 2026 over two of his new digital-asset ventures, Zedcex and Zedxion, and a network of entities allegedly helping him move money in ways reminiscent of his original oil-sanctions scheme. The case remains a striking illustration of how a state's own effort to evade international sanctions can create exactly the kind of unaccountable, hard-to-trace financial channel that a well-placed insider can quietly siphon from — and how, in a system built to hide money from foreign regulators, proving after the fact how much of it actually went missing is a fight the state itself struggles to win.`,
   },
+  {
+    title: "Chamoy Thipyaso and the 141,078-Year Sentence Behind Thailand's Mae Chamoy Pyramid Scheme",
+    slug: 'chamoy-thipyaso-mae-chamoy-fund-thailand-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://www.guinnessworldrecords.com/world-records/65561-longest-prison-sentence-for-fraud',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Government_House_of_Thailand.JPG?width=1200',
+    coverImageCredit: 'Photo: Sodacan, Wikimedia Commons (CC BY-SA 3.0) — Government House in Bangkok, seat of the Thai cabinet whose political and military circles Thipyaso\'s fund counted among its investors',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    body: `Chamoy Thipyaso was an ordinary clerk at the Petroleum Authority of Thailand when she started what she called the Mae Chamoy Fund in the late 1960s, pitching it to friends and colleagues as a way to buy into oil-industry profits at a guaranteed high rate of return. There was no real oil investment behind the fund at all — it functioned as a straightforward chit fund, paying "returns" to existing members out of cash brought in by new ones — but Thipyaso's day job lent the pitch a veneer of industry credibility, and her personal ties to senior officers in the Royal Thai Air Force did the rest, drawing military money and, with it, military protection.
+
+That protection let the scheme grow far larger, and last far longer, than an ordinary Ponzi fund ever could. Over roughly two decades the Mae Chamoy Fund drew in 16,231 investors, including senior military figures and members of Thailand's Royal Household, and by the time it was finally shut down had taken in sums estimated at between $200 million and $301 million — a staggering total for the place and period, sustained less by any real financial engine than by the political weight of the people who had their own money riding on the fund's continued survival.
+
+The fund finally collapsed in the mid-1980s once the underlying arithmetic caught up with it, and the fallout reached all the way to the palace: accounts of the case describe King Bhumibol Adulyadej himself becoming involved in discussions over how to handle a scandal implicating figures in his own government and military, after which Thipyaso was taken into custody and reportedly held in secret by the Air Force for several days before formal proceedings began. Her eventual trial was delayed for years while authorities worked to first recover what they could of the losses owed to the fund's most powerful investors — a sequence that left ordinary depositors waiting even longer than the well-connected ones for any resolution at all.
+
+On July 27, 1989, Thailand's Criminal Court finally convicted Thipyaso and seven associates, and rather than issue one sentence for one broad fraud, the court imposed a separate sentence for each individual count of fraud tied to each defrauded investor — a method of calculation that, multiplied across thousands of victims, produced a combined sentence of 141,078 years, the longest prison term ever handed down anywhere in the world for fraud, a record Guinness World Records still credits her with today.
+
+The number was always more symbolic than real: Thai law at the time capped actual imprisonment for this class of offense at 20 years regardless of how a court's arithmetic added up, and Thipyaso's sentence was reduced twice on top of that ceiling, leaving her to serve roughly eight years before her release in 1993. The gap between the eye-catching 141,078-year figure and the eight years she actually spent behind bars has made the case a durable case study in the difference between a sentence's headline number and a country's actual capacity — or willingness, when the defrauded include the politically powerful — to enforce it.`,
+  },
 );
