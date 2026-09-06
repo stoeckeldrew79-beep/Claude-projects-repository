@@ -43571,6 +43571,39 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'Candriam WhatsApp Impersonation Investment Scam',
+    slug: 'luxembourg-candriam-whatsapp-impersonation-investment-scam',
+    description: `Starting in October 2025, Luxembourg's financial regulator, the Commission de Surveillance du Secteur Financier (CSSF), warned that fraudsters were impersonating Candriam — a real, CSSF-authorised Luxembourg management company and alternative investment fund manager — by creating WhatsApp groups that presented themselves as offering legitimate financial advice under the Candriam name. Group administrators posing as Candriam representatives steered members toward a fraudulent website, www.candriambel.com, and associated apps that had no connection to the genuine firm, using the borrowed brand recognition to make bogus investment pitches look credible. The CSSF stated plainly that "the company Candriam is not related to the above-mentioned activities" and updated its warning as late as November 27, 2025 as the scheme continued to circulate. The case illustrates a pattern regulators across Europe have flagged repeatedly: an unsolicited WhatsApp or Telegram group built around a real, well-known financial brand is a distribution channel scammers favor precisely because checking a company's genuine authorisation status against a regulator's public register takes only a few minutes, while joining a stranger's group and following its advice can cost a victim everything they deposit.`,
+    categorySlug: 'investment-fraud',
+    country: 'LU',
+    alertLevel: 'high',
+    sources: ['Commission de Surveillance du Secteur Financier (CSSF)'],
+    sourceUrl: 'https://www.cssf.lu/en/2025/10/warning-concerning-fraudulent-activities-performed-under-the-name-of-the-luxembourg-company-candriam/',
+  },
+  {
+    name: '"Luxembourg Finance Surveillance" Regulator-Impersonation Scam',
+    slug: 'luxembourg-finance-surveillance-regulator-impersonation-scam',
+    description: `On August 2, 2024, Luxembourg's real financial regulator, the Commission de Surveillance du Secteur Financier (CSSF), issued a warning about a scheme built around impersonating the regulator itself: unidentified individuals registered lookalike domains — including lf-surveillance.org, lfsurveillance.com, and cssf.devolopment-sites.info — under the name "Luxembourg Finance Surveillance," a name and initialism deliberately close to "CSSF," and paired them with fraudulent email addresses such as compliance@financesurveillance.org and support@lf-surveillance.com designed to look like official regulator correspondence. The operation even claimed a physical address in Luxembourg's Bonnevoie-Nord-Verlorenkost district to add a further veneer of legitimacy, despite having no connection to the real CSSF, whose actual offices sit at 283 route d'Arlon. The CSSF's warning, kept active with updates well into 2026, underscores a scam pattern with particular bite: victims of an unrelated investment fraud are often targeted a second time by someone impersonating the very regulator they might contact for help, offering fake "fund recovery" services that charge advance fees rather than returning any money. The CSSF advises verifying any communication claiming to be from the regulator directly through its official cssf.lu domain and phone contacts listed there, never through a link or number supplied in the message itself.`,
+    categorySlug: 'government-impersonation',
+    country: 'LU',
+    alertLevel: 'high',
+    sources: ['Commission de Surveillance du Secteur Financier (CSSF)'],
+    sourceUrl: 'https://www.cssf.lu/en/2024/08/warning-concerning-the-fraudulent-activities-carried-out-by-luxembourg-finance-surveillance-which-impersonates-the-cssf/',
+  },
+  {
+    name: '"MGLuxembourg" Unauthorised Investment Firm Scam',
+    slug: 'luxembourg-mgluxembourg-unauthorised-investment-firm-scam',
+    description: `On May 28, 2025, the CSSF warned the public about an outfit calling itself "MGLuxembourg," which falsely presented itself as a Luxembourg-based financial services provider from a claimed office at 2, Boulevard de la Foire while operating a website at the .cm domain www.mgluxembourg.cm rather than a genuine Luxembourg-registered address, and soliciting contact through the email no.reply@mgluxembourg.cm and phone numbers carrying UK (+44) and Italian (+39) country codes rather than Luxembourg's own. The CSSF confirmed the entity "is not supervised by the CSSF and has not been granted any authorisation to provide investment services" in Luxembourg, meaning anyone who invested through it had no regulatory protection and no legitimate recourse if the firm disappeared with their money. The regulator updated the warning on June 2, 2025 as the scheme continued operating. The case is a reminder that borrowing Luxembourg's reputation as a major, tightly regulated financial center is itself a common tactic — a firm's claimed Luxembourg address means nothing without independent verification against the CSSF's public register of authorised entities, which takes only a few minutes to check before wiring any money.`,
+    categorySlug: 'investment-fraud',
+    country: 'LU',
+    alertLevel: 'high',
+    sources: ['Commission de Surveillance du Secteur Financier (CSSF)'],
+    sourceUrl: 'https://www.cssf.lu/en/2025/05/warning-concerning-the-fraudulent-activities-carried-out-by-mgluxembourg/',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
