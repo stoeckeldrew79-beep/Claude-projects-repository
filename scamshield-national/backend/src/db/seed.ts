@@ -12179,6 +12179,65 @@ Professional athletes are frequent fraud targets for a specific reason the Kenne
   },
 );
 
+NOTORIOUS_ARTICLES.push(
+  {
+    title: "Loïk Le Floch-Prigent and the Elf Aquitaine Slush Fund That Bankrolled Everyone but Elf",
+    slug: 'loik-le-floch-prigent-elf-aquitaine-affair',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://www.npr.org/2003/11/13/1504349/former-french-oil-company-execs-convicted',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Loik_Le_Floch-Prigent_en_1999_(cropped).jpg?width=1200',
+    coverImageCredit: "Photo: Christian D'Aufin, Wikimedia Commons (CC BY-SA 3.0) — Loïk Le Floch-Prigent in 1999, four years before his conviction in the Elf Aquitaine affair",
+    coverImagePosition: 40,
+    body: `President François Mitterrand installed Loïk Le Floch-Prigent as chairman of Elf Aquitaine, France's state-controlled oil giant, in 1989, and over the next four years Le Floch-Prigent turned the company's balance sheet into a private treasury. Alongside Alfred Sirven, the executive he put in charge of "general affairs," and André Tarallo, a longtime Elf hand so entrenched in Francophone Africa that colleagues called him "Monsieur Afrique," Le Floch-Prigent built a system for siphoning company money into an off-the-books slush fund that answered to almost no one but the three of them.
+
+Investigating magistrate Eva Joly, who opened a probe in 1994 after a tip from Swiss authorities, eventually traced roughly 305 million euros diverted out of Elf between 1989 and 1993 — money that did not simply vanish into personal accounts, though plenty of it did that too. Prosecutors found it had also gone toward bribing African heads of state to secure oil concessions, financing French political parties across the spectrum so that no government would ever have reason to touch Elf's arrangements, and greasing a controversial French sale of six frigates to Taiwan. One thread of the frigate deal spun off into its own scandal: Elf had lavished gifts, a Paris apartment, and a reported 66 million francs on Christine Deviers-Joncour, mistress of then-Foreign Minister Roland Dumas, to help keep his ministry favorably disposed toward the sale.
+
+The investigation dragged international finance into the case as well, uncovering Swiss and Luxembourg accounts that traced the embezzled funds and implicating executives well beyond Elf's Paris headquarters; by the time prosecutors were done, 37 people faced charges in what French newspapers already called the republic's biggest political-financial scandal since World War II. A Paris court delivered its verdicts on November 12, 2003, convicting Le Floch-Prigent of misuse of corporate assets and sentencing him to five years in prison and a 375,000-euro fine; Sirven received the same five years plus a one-million-euro fine, and Tarallo four years and two million euros in fines — among fourteen defendants sentenced that day.
+
+Le Floch-Prigent's time behind bars proved almost as irregular as his tenure at Elf. He entered Fresnes prison in January 2003 pending appeal, had his sentence suspended in 2004 on account of cancer, was granted conditional release in 2005, and was ordered back to prison for a further stretch in 2009 after courts found he had understated his resources and failed to pay the compensation his sentence required him to pay his victims. He spent his later years writing books and giving interviews defending his record at Elf, never fully rehabilitated in French public life, until his death in Paris on July 15, 2025, at age 81.
+
+The Elf affair endures as a case study in a particular kind of state-adjacent fraud: a company treated not as a business answerable to shareholders but as a piggy bank for the diplomatic and political needs of the country that controlled it, run by executives who could tell themselves, for years, that buying influence on Elf's behalf and enriching themselves personally were simply two sides of the same job.`,
+  },
+  {
+    title: 'Todd and Julie Chrisley: The Reality-TV Bank Fraud Trump Pardoned Away',
+    slug: 'todd-julie-chrisley-bank-fraud-tax-evasion',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://www.justice.gov/usao-ndga/pr/television-personalities-sentenced-years-federal-prison-fraud-and-tax-evasion',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Richard_Russell_Federal_Building.jpg?width=1200',
+    coverImageCredit: 'Photo: DukeArcTerex, Wikimedia Commons (CC BY 3.0) — the Richard B. Russell Federal Building in Atlanta, where the Chrisleys were tried, convicted, and sentenced',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    body: `Todd Chrisley sold millions of viewers on a very specific image starting in 2014, when USA Network's "Chrisley Knows Best" premiered: a self-made Georgia real estate millionaire presiding over a mansion, a closet of designer clothes, and a large, photogenic family, all held together by his own blustering, camera-ready confidence. Federal prosecutors in Atlanta eventually showed that a meaningful share of the lifestyle the show sold as effortless success had actually been financed the way a much less telegenic kind of fraud usually is: by lying to banks.
+
+According to the Justice Department, Todd and his wife Julie spent roughly a decade, beginning around 2007, conspiring with a bank-insider business partner to defraud community banks in the Atlanta area out of more than $36 million in personal loans, submitting fabricated bank statements, forged audit reports, and false personal financial statements to qualify. When the loans came due, prosecutors said, the couple avoided repaying the lenders they had misled by filing for bankruptcy and shielding assets from the very people the loans were owed to — years before any camera ever followed them into a mansion paid for partly with that money. Once the show made the Chrisleys genuinely wealthy, the scheme shifted: prosecutors said Todd and Julie worked with their accountant, Peter Tarantino, to evade paying the federal income taxes they owed on that new money, including by funneling income through a corporation set up in one of their adult children's names and by moving to Florida in what prosecutors characterized as an effort to dodge Georgia tax collectors.
+
+A federal grand jury indicted the Chrisleys in August 2019, and after a nearly three-week trial, a jury convicted Todd and Julie on June 7, 2022, of conspiring to defraud banks, wire fraud, and tax crimes; Tarantino was convicted on related tax charges. On November 21, 2022, a judge sentenced Todd to 12 years in federal prison and Julie to 7 years, with Tarantino receiving 3 years. The Chrisleys appealed, and in June 2024 the Eleventh Circuit upheld both convictions but found the trial court had miscalculated Julie's sentence, ordering her resentenced; a judge held a new hearing in September 2024 and again arrived at a 7-year term.
+
+The Chrisleys did not serve out those sentences. On May 27, 2025, President Trump announced full pardons for Todd and Julie, telling their daughter Savannah by phone that her parents would be "free and clean" — ending, by executive action rather than by exoneration, a case built on the gap between the wealth a reality show could put on screen and the fraud that had helped pay for a meaningful part of it.`,
+  },
+  {
+    title: "Martin Winterkorn and the Volkswagen \"Defeat Device\" That Faked a Decade of Clean Diesel",
+    slug: 'martin-winterkorn-volkswagen-dieselgate-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/archives/opa/pr/former-ceo-volkswagen-ag-charged-conspiracy-and-wire-fraud-diesel-emissions-scandal',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Martin_Winterkorn_2015-03-13_001.jpg?width=1200',
+    coverImageCredit: 'Photo: Volkswagen AG, Wikimedia Commons (CC BY 3.0) — Martin Winterkorn in March 2015, six months before he resigned as Volkswagen CEO',
+    coverImagePosition: 30,
+    body: `Martin Winterkorn ran Volkswagen Group from 2007 to 2015 with a publicly stated goal of making it the largest automaker on Earth, and a central piece of that strategy in the United States was "clean diesel" — cars marketed to American buyers as delivering strong performance and fuel economy while still meeting the country's strict pollution limits, a combination competitors had mostly concluded wasn't achievable at the price points Volkswagen was promising.
+
+It wasn't achievable, because Volkswagen was cheating. Company engineers installed software, known as a "defeat device," in the engine control units of nearly 11 million diesel vehicles worldwide — about 500,000 of them in the United States — that could detect when a car was undergoing an official laboratory emissions test and switch on full pollution controls only for the duration of that test. On ordinary roads, the controls relaxed, letting the cars emit nitrogen oxides at up to 40 times the legal limit while their dashboards, their marketing, and their government certifications all told owners and regulators the vehicles were clean.
+
+Researchers at West Virginia University testing real-world emissions uncovered the discrepancy in 2014, and the U.S. Environmental Protection Agency issued Volkswagen a formal notice of violation on September 18, 2015. Volkswagen admitted the deception days later, and Winterkorn resigned as CEO on September 23, 2015, saying he was "not aware of any wrongdoing" on his part — a claim German and American investigators would spend the next decade testing. Volkswagen itself pleaded guilty in the United States in 2017 to conspiracy and obstruction charges, ultimately paying more than $4.3 billion in criminal and civil penalties on top of a separate $14.7 billion settlement with U.S. regulators, states, and vehicle owners.
+
+Winterkorn's own reckoning has moved far more slowly. The U.S. Justice Department indicted him in 2018 on charges of conspiracy and wire fraud, but Germany does not extradite its own citizens, so he has never faced that case in an American courtroom. German prosecutors separately charged him with fraud, market manipulation for failing to promptly disclose the scandal to investors, and giving false testimony to a parliamentary inquiry; his criminal trial finally opened in Braunschweig on September 3, 2024 — nine years after the scandal became public — only to be suspended within days over the 77-year-old's declared ill health, with proceedings still working through hearings scheduled into 2026.
+
+Dieselgate remains one of corporate fraud's starkest illustrations of scale outrunning accountability: a scheme that touched eleven million cars and cost the company tens of billions of dollars produced swift consequences for Volkswagen's balance sheet and its diesel ambitions alike, while the executive who led the company throughout the deception has yet, more than a decade later, to face a completed criminal verdict of his own.`,
+  },
+);
+
 // Practical "how it works / red flags / what to do" guides covering the
 // major scam categories, the same kind of coverage the FTC's Consumer
 // Advice site and AARP's Fraud Watch Network publish — well-documented
