@@ -1243,4 +1243,25 @@ The practical lesson extends well beyond concertgoers: a breach doesn't require 
     coverImageCredit: "Photo: Santeri Viinamäki, CC BY-SA 4.0, via Wikimedia Commons — a smartphone dating app screen",
     coverImagePosition: 50,
   },
+  {
+    title: `The Utility Shutoff Scam: Why "Pay Now or We Cut Your Power in an Hour" Isn't How Your Utility Company Works`,
+    slug: "utility-company-shutoff-scam-guide",
+    author: "ScamShield Editorial",
+    tags: ["guide","utility-shutoff-scam"],
+    body:
+      `The call, text, or in-person visit follows the same script no matter which real utility company's name the scammer borrows: your electric, gas, or water bill is overdue, and unless you pay within the next 30 to 60 minutes, service will be shut off — sometimes at your home, sometimes at your business. The message is built entirely around manufactured urgency, timed to catch people at their most distracted: during heat waves and cold snaps when losing power feels genuinely dangerous, during business hours when a shop owner can't afford to have the lights go out mid-shift, or right around when a real bill would typically be due, so the timing itself doesn't raise suspicion.
+
+The payment demand is where the scam becomes identifiable, because real utility companies do not operate this way. Scammers instruct victims to pay via a specific, hard-to-trace method — a prepaid debit or gift card read over the phone, a wire transfer through a service like Western Union or MoneyGram, cryptocurrency, or a person-to-person payment app — and in some markets, more elaborate versions have shown up as a QR code sent by text or left on a scannable "payment" flyer, which routes the victim to a fake payment portal that captures card details directly. Some variations flip the script entirely, telling the victim they're actually owed a refund or a rebate from a smart-meter upgrade or overpayment, and asking for bank account details to "process" the deposit — a lure toward giving up account access rather than an object like a gift card, wired the other way.
+
+Utility companies almost never call, text, or show up unannounced demanding same-day or same-hour payment to avoid a shutoff. Real disconnections for nonpayment follow a legally required process in nearly every U.S. state: multiple written notices mailed to the account holder over a period of weeks, not a single surprise phone call with an hour's deadline. A genuine utility also will not ask for payment via gift card, cryptocurrency, or a person-to-person payment app — those payment methods share one feature scammers rely on: once the money moves, it is essentially impossible to reverse or trace, unlike a check or a payment made directly through the utility's own billing system.
+
+Older adults and small-business owners are disproportionately targeted, the former because a shutoff threat plays on fear of losing heat, air conditioning, or medical equipment power, and the latter because a business owner facing a threatened shutoff mid-day often doesn't have time to independently verify the claim before deciding to just pay and move on. Scammers have also adapted the pitch seasonally, timing waves of calls to extreme heat and winter storm events when a real shutoff would be most dangerous and victims are most likely to panic rather than double-check.
+
+If you get a call, text, or visit threatening an imminent shutoff, hang up or close the door and call your utility company directly using the number printed on a past paper bill or listed on the utility's own official website — never a number the caller gives you, and never by clicking a link in the text itself. Real account status, including whether you actually owe a balance, is something your utility's customer service line or online account portal can confirm in minutes. Never pay a utility bill with a gift card, cryptocurrency, or a wire transfer, and treat any request to do so as confirmation you're being scammed regardless of how official the caller sounds or what caller ID displays, since caller ID numbers are easily spoofed to show a utility's real customer service line. If you've already paid a scammer, contact the gift card issuer, payment app, or your bank immediately to ask about reversing or freezing the transaction, then report the incident to your real utility company, to the FTC at ReportFraud.ftc.gov, and to your state's public utility commission, which tracks impersonation scams specifically because they trade on the fear of losing an essential service.`,
+    sourceUrl: "https://consumer.ftc.gov/articles/scammers-pretend-be-your-utility-company",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Electric_meter_and_the_circuit_breaker.JPG?width=1200",
+    coverImageCredit: "Photo: Zimin.V.G., CC BY-SA 4.0, via Wikimedia Commons — a residential electric meter and circuit breaker panel",
+    // representative photo — replace with an exact match if found
+    coverImagePosition: 50,
+  },
 ];
