@@ -41532,6 +41532,41 @@ SEED_SCAMS.push(
   },
 );
 
+// Costa Rica (CR) had zero prior SEED_SCAMS entries — confirmed with a
+// case-insensitive grep for "Costa Rica" and for country: 'CR' before adding.
+SEED_SCAMS.push(
+  {
+    name: 'WhatsApp Verification Code "Ghost Pairing" Account Takeover',
+    slug: 'costa-rica-whatsapp-verification-code-ghost-pairing',
+    description: `In a public alert issued May 12, 2026, Costa Rica's Organismo de Investigación Judicial (OIJ) warned of a fast-spreading WhatsApp takeover scheme in which a fraudster impersonates a friend, relative, delivery service, or company the victim already trusts and sends a message claiming that a six-digit verification code was "sent to your number by mistake," asking the victim to forward it back. That code is not a mistake — it is the real WhatsApp registration code the scammer's own linking attempt just triggered, and handing it over lets the attacker use a technique investigators described as "Ghost Pairing" to link the victim's account to a device the victim never approved, seizing full control within minutes and locking the real owner out. Once inside, the scammer immediately messages the victim's own contact list posing as them, typically fabricating an urgent emergency and asking for a SINPE Móvil transfer — Costa Rica's instant phone-linked bank transfer system — so the money moves before anyone thinks to call and check. The OIJ's Specialized Unit Against Fraud tied the warning to a broader surge, noting that Costa Rica logged 25,498 fraud complaints between January 1, 2025 and March 30, 2026, with scams now ranking among the most common property crimes the agency tracks. Investigators urged the public to never share a WhatsApp verification code under any circumstance, to enable two-step verification on the app, and to confirm any unusual money request through a separate channel — a phone call, a different app, or in person — before transferring anything, since by the time a victim realizes the "friend" texting them isn't real, the account and the money have often already moved.`,
+    categorySlug: 'account-takeover',
+    country: 'CR',
+    alertLevel: 'high',
+    sources: ['Organismo de Investigación Judicial (Costa Rica)', 'The Tico Times'],
+    sourceUrl: 'https://ticotimes.net/2026/05/12/costa-rica-oij-warns-of-new-whatsapp-verification-code-scams',
+  },
+  {
+    name: 'Hijacked-WhatsApp Discount Dollar Exchange Scam',
+    slug: 'costa-rica-whatsapp-discount-dollar-exchange-scam',
+    description: `Costa Rica's Organismo de Investigación Judicial (OIJ) warned on April 24, 2026 of a surge in a currency-exchange fraud that runs entirely through hijacked WhatsApp accounts, often the same accounts seized through the verification-code "Ghost Pairing" takeover the agency had separately flagged. Once criminals control an account, they mass-message its real owner's contacts offering to sell U.S. dollars at a rate ¢30 to ¢50 below the market price — a discount that reads as credible precisely because the offer appears to come from a friend, relative, or coworker the recipient already knows, rather than a stranger. Victims who take the offer are told to deposit colones into a designated bank account first, with dollars to follow; once the deposit clears, the promised dollars never arrive and the scammer, and the hijacked account, go silent. The OIJ's Specialized Unit Against Scams and Registry Fraud in San José said it had already logged 62 reports of the scheme in 2026 alone as of the alert, with some victims depositing several million colones after believing they had found a favorable exchange rate. Investigators urged residents to treat any offer of discounted dollars as a warning sign in itself, and to confirm the request by phone or in person, through a channel other than the WhatsApp thread it arrived on, before depositing money into any account — since a real friend or relative can always be reached another way, and a scammer controlling their phone cannot.`,
+    categorySlug: 'online-shopping-scams',
+    country: 'CR',
+    alertLevel: 'medium',
+    sources: ['Organismo de Investigación Judicial (Costa Rica)', 'The Tico Times'],
+    sourceUrl: 'https://ticotimes.net/2026/04/24/oij-warns-of-surge-in-whatsapp-dollar-scams-in-costa-rica',
+  },
+  {
+    name: 'Fake Job Offer "Virtual Kidnapping" Extortion Scheme',
+    slug: 'costa-rica-virtual-kidnapping-job-offer-extortion',
+    description: `On June 2, 2026, Costa Rica's Organismo de Investigación Judicial (OIJ) warned of a steep rise in "virtual kidnapping" extortion in which no one is actually abducted, but victims are made to believe otherwise. The scheme opens with a seemingly ordinary job offer — construction, transport, sales, or professional services — that lures the target to an isolated, prearranged meeting place, often chosen using personal details the victim had posted publicly online. Once there, a caller convinces the victim that snipers or accomplices are watching and that they will be shot if they hang up or move, while a second accomplice simultaneously calls the victim's family claiming a real kidnapping has occurred and demanding a ransom, typically between 15 and 20 million colones (roughly $30,000 to $40,000), before the family has any way to confirm what is actually happening. The OIJ said reports of the scheme jumped from just 8 cases between January and May 2025 to 58 over the same months in 2026, a roughly 625 percent increase, with complaints concentrated in Pérez Zeledón, San José, Alajuela, and Cartago, and March 2026 recording the highest monthly count so far. Investigators said the profile most targeted is people with a business or entrepreneurial venture and publicly accessible personal or contact information online, and advised the public to limit what personal details they share on social media, treat any unsolicited job offer requiring travel to a remote location with suspicion, stay calm and avoid isolating themselves further if targeted, and — critically — independently verify a supposedly kidnapped relative's safety by calling them directly before paying anything, since the "kidnapping" itself is staged and the victim is very often still free to answer their own phone.`,
+    categorySlug: 'employment-scams',
+    country: 'CR',
+    alertLevel: 'critical',
+    sources: ['Organismo de Investigación Judicial (Costa Rica)', 'The Tico Times'],
+    sourceUrl: 'https://ticotimes.net/2026/06/02/costa-ricas-oij-warns-of-surge-in-virtual-kidnapping-scams',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
