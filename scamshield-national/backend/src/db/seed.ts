@@ -44833,6 +44833,40 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'BAI Group and Bramer Bank Ponzi Collapse (Dawood Rawat)',
+    slug: 'mauritius-bai-bramer-bank-ponzi-collapse',
+    description: `British American Investment (BAI) Co (Mauritius) Ltd, chaired by businessman Dawood Rawat, sold "Super Cash Back Gold" and other single-premium, insurance-linked investment policies through its insurance arm and its own bank, Bramer Banking Corporation Ltd, promising savers fixed returns well above what regulated banks were paying. A government-ordered investigation concluded that roughly Rs 25 billion (about $690 million) of policyholder and depositor money had been run the way a Ponzi scheme is run — new money coming in was used to pay earlier investors and prop up the group's reported numbers — rather than genuinely invested as promised. When depositors began pulling money out in early 2015, Bramer could no longer meet withdrawals, and the Bank of Mauritius revoked its banking licence on April 2, 2015, while the Financial Services Commission suspended and later terminated BAI's insurance and asset-management licences; administrators were appointed to wind the group down, and around 30,000 depositor accounts were eventually transferred to a new state-backed bank formed from the wreckage. Rawat had already left for the United Kingdom before the collapse became public and never returned to Mauritius to face an arrest warrant issued April 20, 2015 on money-laundering and fraud allegations; Interpol's own File Control Commission cancelled the warrant's red notice in November 2019, after concluding the underlying case carried "a predominant political dimension," so the affair has never produced a criminal conviction even though the corporate collapse and the gap between promised and actual returns are not in dispute. The case is a reminder that a product sold by a licensed, familiar bank or insurer is not automatically safe merely because of that licence — a return that consistently beats every regulated competitor is itself a warning sign — and that savers should check a company's real financial statements and the Bank of Mauritius or FSC's own alerts before relying on brand recognition alone.`,
+    categorySlug: 'investment-fraud',
+    country: 'MU',
+    isHistorical: true,
+    firstRecorded: '2015-04-02',
+    sources: ['Bank of Mauritius', 'Financial Services Commission Mauritius', 'Business Daily Africa'],
+    sourceUrl: 'https://www.bom.mu/media/media-releases/communique-revocation-banking-licence-bramer-banking-corporation-ltd',
+  },
+  {
+    name: 'Fake "National Mauritius Bank" Bitcoin Era Investment Scam',
+    slug: 'mauritius-bitcoin-era-fake-bank-investment-scam',
+    description: `In December 2019, the Bank of Mauritius warned the public about fabricated news articles and social media posts promoting a "cryptocurrency auto-trading program called Bitcoin Era," which claimed ordinary Mauritians could become millionaires within three to four months by exploiting a supposed "wealth loop hole." Some versions of the pitch invoked the name of an entirely fictitious "National Mauritius Bank" to make the scheme look officially backed, along with fake celebrity endorsements designed to lend it further credibility. The central bank stated plainly that "National Mauritius Bank" did not exist and that it had never authorised anyone to represent such an institution, urged the public not to transact with it or anyone claiming to act on its behalf, referred the matter for police investigation, and directed residents to check its own published list of licensed institutions before dealing with any bank or investment platform advertised online. The scheme followed a template regulators see repeated worldwide — a spoofed or invented bank brand, celebrity-style endorsements, and a guaranteed return that outpaces every real investment — built to spread through social media faster than a regulator can respond to it. Mauritians should verify any bank or investment platform against the Bank of Mauritius's official list of licensees at bom.mu, and treat a guaranteed high return advertised on social media, especially one invoking a bank name or public figure that cannot be independently confirmed, as a warning sign rather than an opportunity.`,
+    categorySlug: 'investment-fraud',
+    country: 'MU',
+    alertLevel: 'high',
+    sources: ['Bank of Mauritius', 'SBM Group'],
+    sourceUrl: 'https://www.bom.mu/media/media-releases/fake-articles-high-return-investment-plans-circulated-online-and-social-media',
+  },
+  {
+    name: 'Empire Crypto Fake Recovery Platform Call Centres',
+    slug: 'mauritius-empire-crypto-recovery-scam-call-centres',
+    description: `Mauritius's Financial Crimes Commission (FCC) uncovered a cross-border "recovery scam," running back to at least May 2024, from a call centre in St Pierre operating under two front names, Strike Online and NetEra, and the client-facing brand "Empire Crypto" — a fictitious company posing as a legitimate British cryptocurrency-recovery service. Rather than pursuing new investors, the operation specifically re-targeted people who had already lost money to earlier crypto scams, mostly in France and Belgium, reaching them through Facebook advertisements that promised to recover their lost funds; in one case investigators cited, a Belgian victim was drained of Rs 8 million in a single two-hour call. Victims who responded were told to pay an upfront "activation fee" starting at €500, shown a fake recovery dashboard made to look like it was tracking their money, then pressed by agents working under aliases for further payments described as currency-conversion charges, "insurance," or taxes that supposedly had to clear before any funds could be released — money that, like the initial fee, was never returned. The FCC put the network's total alleged fraud at roughly Rs 450 million and arrested three men on April 16, 2025 — Ukrainian national Yevhen Syvokon and Mauritians Neervissingh Ramdenee, both charged with wire fraud, and Naresh Kumarsingh Jokhoo, charged with money laundering — who appeared before the Moka District Court, where they were provisionally charged under the FCC Act 2023 and remanded into custody while the investigation continued with international law-enforcement partners. Anyone who has already lost money to a cryptocurrency scam should treat an unsolicited offer to "recover" it, especially one demanding an upfront fee before any money changes hands, as a second attempt at the same fraud — a genuine law-enforcement or banking recovery process never asks the victim to pay activation fees, insurance, or taxes in advance.`,
+    categorySlug: 'investment-fraud',
+    country: 'MU',
+    alertLevel: 'high',
+    sources: ['Financial Crimes Commission Mauritius', 'Comsure Group', 'TOP FM Mauritius'],
+    sourceUrl: 'https://fcc.mu/the-fcc-uncovers-a-large-crypto-currency-recovery-platform-scam/',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
