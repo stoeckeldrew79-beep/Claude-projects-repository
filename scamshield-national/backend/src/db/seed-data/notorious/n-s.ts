@@ -2789,4 +2789,18 @@ A Berlin court convicted Hoyzer of fraud in November 2005, sentencing him to two
 
 The scandal was Germany's biggest football corruption case in decades and pushed the DFB to tighten oversight and monitoring of match officials, but it also proved to be only a preview: Ante Sapina went on to run an even larger, Europe-wide match-fixing network implicated in hundreds of games, for which he was convicted a second time in 2011 in the sprawling "Bochum" trial. Hoyzer's own case, modest by comparison in the money involved, remains a stark illustration of how a single official's discretion over a penalty call or a red card can be the cheapest point in an entire sport for a fraud to buy.`,
   },
+  {
+    title: 'Robert W. Lee Sr. and the IBF Ratings-for-Bribes Scandal',
+    slug: 'robert-w-lee-ibf-boxing-bribery-scandal',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://en.wikipedia.org/wiki/International_Boxing_Federation',
+    body: `Robert W. Lee Sr. founded the International Boxing Federation in 1983, and for over a decade the organization's rankings carried real financial weight: a fighter's position in the IBF's top-15 lists could determine whether he got a title shot and the multi-million-dollar purse that came with it. That made the rankings themselves a commodity, and federal investigators eventually concluded that Lee had turned them into one — for a price.
+
+The FBI opened an investigation in 1996 after former heavyweight titleholder Michael Moorer tipped off agents that promoters were paying to move fighters up the IBF's ratings. The probe led to a sweeping 32-count federal racketeering indictment handed down in November 1999 against Lee, his son Robert Lee Jr. (who worked for the IBF as a "ratings chairman"), and associates Donald Brennan and Francisco Fernandez, alleging roughly $338,000 in bribes paid since 1983 to fix rankings across 10 of the sport's 15 weight classes.
+
+At trial in August 2000, a federal jury acquitted Lee of the core bribery and racketeering charges — and acquitted his son and the co-defendants outright — but convicted Lee himself on separate money-laundering and tax-evasion counts tied to the scheme's proceeds. He was sentenced in 2001 to 22 months in prison, a $25,000 fine, and a lifetime ban from any involvement with the IBF or professional boxing. He appealed the conviction, but the U.S. Court of Appeals for the Third Circuit affirmed it in February 2004, and the Solicitor General opposed his subsequent petition to the Supreme Court, closing off any further appeal.
+
+Lee never returned to boxing administration and died on March 22, 2024, at age 90, with his conviction final and his sentence long since served. The case did lasting damage to the credibility of boxing's rankings system: reforms enacted in its wake included congressional hearings on the sport's fractured and largely self-policed sanctioning bodies, though critics note the underlying incentive — a private organization selling access to rankings nobody is required to regulate — was never fully addressed industry-wide.`,
+  },
 );
