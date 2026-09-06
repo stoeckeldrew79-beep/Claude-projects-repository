@@ -15,6 +15,37 @@ function cardDelay(index: number): number {
   return 0.06 + (index % 4) * 0.05;
 }
 
+// Stands in for a profile that has not loaded yet, at exactly the height of a
+// real card. Without these the document is only as tall as what has arrived,
+// so every batch makes it taller and the scrollbar thumb shrinks and slides —
+// the page fights the reader precisely when they are moving through it. With
+// them the height is right from the first paint and never changes.
+function PlaceholderCard() {
+  return (
+    <div
+      aria-hidden
+      // There can be hundreds of these. content-visibility lets the browser
+      // skip laying out the ones off screen while still reserving their
+      // height, which is the whole point of them being here.
+      style={{ contentVisibility: 'auto', containIntrinsicSize: '388px' }}
+      className="overflow-hidden rounded-xl border border-slate-200"
+    >
+      <div className="h-56 bg-slate-100" />
+      <div className="p-5">
+        <div className="h-14 space-y-2">
+          <div className="h-4 w-4/5 rounded bg-slate-100" />
+          <div className="h-4 w-3/5 rounded bg-slate-100" />
+        </div>
+        <div className="mt-2 h-[3.75rem] space-y-2">
+          <div className="h-3 w-full rounded bg-slate-50" />
+          <div className="h-3 w-full rounded bg-slate-50" />
+          <div className="h-3 w-2/3 rounded bg-slate-50" />
+        </div>
+      </div>
+    </div>
+  );
+}
+
 function excerpt(text: string, length = 180): string {
   const plain = text.replace(/\s+/g, ' ').trim();
   return plain.length > length ? `${plain.slice(0, length - 1)}…` : plain;
@@ -43,6 +74,11 @@ export default function Notorious() {
 
   const sortedArticles = useMemo(() => data?.pages.flat(), [data]);
   const sentinelRef = useInfiniteScroll(fetchNextPage, Boolean(hasNextPage) && !isFetchingNextPage);
+
+  // Reserve a slot for every profile still to come, so the page is its full
+  // height immediately. Falls back to none when the count has not arrived —
+  // an unknown total is better than a wrong one.
+  const placeholderCount = Math.max((total ?? 0) - (sortedArticles?.length ?? 0), 0);
 
   return (
     <div className="max-w-5xl mx-auto px-4 py-12">
@@ -82,14 +118,23 @@ export default function Notorious() {
                   <NotoriousCoverArt slug={article.slug} className="h-full transition-transform duration-500 group-hover:scale-105" />
                 )}
               </div>
+              {/* Fixed heights, not min-heights: a card that shrinks to fit a
+                  short title would change the page height as it loads, which
+                  is what makes the scrollbar jump. h-14 is two lines of
+                  text-lg, h-[3.75rem] three lines of text-sm. */}
               <div className="p-5">
-                <h2 className="text-lg font-semibold text-slate-900 group-hover:underline">{article.title}</h2>
-                <p className="mt-2 text-sm text-slate-600">{excerpt(article.body)}</p>
+                <h2 className="h-14 text-lg font-semibold text-slate-900 group-hover:underline line-clamp-2">
+                  {article.title}
+                </h2>
+                <p className="mt-2 h-[3.75rem] text-sm text-slate-600 line-clamp-3">{excerpt(article.body)}</p>
               </div>
             </Link>
           </BlurFade>
         ))}
-        {sortedArticles && sortedArticles.length === 0 && (
+        {Array.from({ length: placeholderCount }, (_, i) => (
+          <PlaceholderCard key={`placeholder-${i}`} />
+        ))}
+        {sortedArticles && sortedArticles.length === 0 && !placeholderCount && (
           <p className="text-slate-500 col-span-2">No entries published yet.</p>
         )}
       </div>
