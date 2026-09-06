@@ -45936,6 +45936,42 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'Derecho Storm Contractor "FEMA Will Pay" Scam',
+    slug: 'indiana-derecho-storm-contractor-fema-scam',
+    description: `An August 11, 2026 derecho tore across Indiana with wind gusts up to 99 mph, triggering widespread flooding and knocking out power to more than 300,000 utility customers. Within days, door-to-door "contractors" fanned out through the hardest-hit neighborhoods, falsely telling desperate homeowners that FEMA would cover the full cost of tree removal and repairs. "There is no FEMA in Indiana right now. That is not an accurate statement," Attorney General Todd Rokita said, describing salesmen who used high-pressure tactics, demanded signatures on the spot, and promised to "take care of" insurance deductibles — itself a form of insurance fraud. His office's outreach team knocked on more than 750 doors across 40-plus storm-affected communities before filing lawsuits in early September 2026 against Shade Tree Service Co., Storm Support Emergency Tree Removal, Timbercut Tree Experts, Garrison McKinney Tree and Bridge Services, and individual contractor David Foster. One case named in the suits: Garrison McKinney allegedly quoted an elderly Lake County woman $40,000 to remove two storm-damaged trees, then "negotiated" down to $35,000 — an amount she said would have wiped out her retirement savings. Several of the named contractors are also accused of operating without the license Indiana law requires. Rokita's office is seeking injunctive relief, restitution, and civil penalties of up to $5,000 per violation, and is urging storm victims to get a complete written contract before any work begins, refuse any "pay now or lose the discount" pressure, and verify a contractor's license at IndianaConsumer.com before signing anything.`,
+    categorySlug: 'government-impersonation',
+    country: 'US',
+    state: 'IN',
+    alertLevel: 'high',
+    sources: ["Indiana Attorney General's Office", 'WFYI/Indiana Public Broadcasting', 'Hoodline'],
+    sourceUrl: 'https://www.wfyi.org/statewide/2026-09-02/we-are-going-after-you-rokita-warns-scammers-taking-advantage-of-state-disaster',
+  },
+  {
+    name: 'NC DMV "Unpaid Ticket" Text Scam',
+    slug: 'north-carolina-dmv-text-scam',
+    description: `North Carolina Attorney General Jeff Jackson issued a 2026 consumer alert warning of a fresh wave of text messages impersonating the state Division of Motor Vehicles, claiming the recipient has an unpaid traffic ticket or toll and threatens license suspension, credit score damage, and mounting fines unless the balance is paid immediately. The texts link to a slick fake website designed to mimic an official NCDMV page but with no actual connection to state government, and invent penalties that do not exist under North Carolina law — including a fabricated "35% service fee" tacked onto unpaid tolls — purely to pressure recipients into entering a credit card number before they think to question it. Attorney General Jackson's office stressed that the real NCDMV never demands payment by text message and never threatens license suspension over a text, and urged anyone who receives one of these messages not to click the link, to report it to the Consumer Protection Division at ncdoj.gov/report-robocalls, and then to block the sending number and delete the message. Anyone unsure whether a text, email, or letter is genuinely from the NCDMV is advised to call the agency directly at (919) 715-7000 rather than using any contact information included in the suspicious message itself.`,
+    categorySlug: 'government-impersonation',
+    country: 'US',
+    state: 'NC',
+    alertLevel: 'high',
+    sources: ['North Carolina Department of Justice', 'WLOS', 'NCDOT'],
+    sourceUrl: 'https://ncdoj.gov/attorney-general-jackson-warns-north-carolinians-about-new-wave-of-dmv-text-scams/',
+  },
+  {
+    name: 'Amazon/Apple Pay/Walmart "Purchase Alert" Malvertising Scam Targeting Seniors',
+    slug: 'virginia-senior-purchase-alert-malvertising-scam',
+    description: `Threat researchers at The Media Trust recorded a sharp spike in malicious digital advertising aimed at senior citizens in July 2026, as scammers shifted from crude pop-up virus warnings to convincing financial-impersonation ads delivered through mainstream ad networks and disguised as trusted brands: Amazon, Apple Pay, Walmart, and PayPal. The ads and follow-on landing pages display realistic-looking "purchase confirmation" or "payment declined" notifications — for example, a fake $799 Apple Pay charge or an unauthorized Amazon order — that pressure the viewer into calling a phone number displayed on screen to "dispute" or "cancel" it. Once a victim calls, the person on the line poses as brand or bank support staff and works to extract banking credentials and card numbers or talk the victim into installing remote-access software, at which point the scammer can drain accounts directly. In response, the Virginia Office of the Attorney General funded a threat-intelligence initiative with cybersecurity firm Proxyware, deployed in August 2026 across eight senior living communities and five school districts statewide, that intercepts malicious ads and fraudulent domains before they reach residents' devices and feeds the resulting intelligence back to researchers tracking these networks. The Attorney General's office continues to advise Virginians, especially older residents, never to call a phone number displayed in a pop-up or unsolicited ad, and instead to contact the company directly using the number on a past bill or the official app.`,
+    categorySlug: 'tech-support-scams',
+    country: 'US',
+    state: 'VA',
+    alertLevel: 'high',
+    sources: ['Virginia Office of the Attorney General', 'The Media Trust', 'Business Wire'],
+    sourceUrl: 'https://www.businesswire.com/news/home/20260812382951/en/Virginia-Communities-Become-the-Front-Line-in-Disrupting-Online-Scams-for-Everyone',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
