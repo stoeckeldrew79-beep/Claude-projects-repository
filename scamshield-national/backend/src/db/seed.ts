@@ -11561,6 +11561,69 @@ Evergrande's collapse stands as one of the starkest illustrations of how a compa
   },
 );
 
+NOTORIOUS_ARTICLES.push(
+  {
+    title: "Carillion: The £7 Billion Collapse That Exposed Britain's Public Contracting Machine",
+    slug: 'carillion-collapse-richard-howson-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://www.fca.org.uk/news/press-releases/fca-fines-former-chief-executive-carillion-plc-liquidation',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/The_Carillion_Offices_on_the_Great_West_Road_in_Brentford_-_panoramio.jpg?width=1200',
+    coverImageCredit: "Photo: Maxwell Hamilton, Wikimedia Commons (CC BY-SA 3.0) — Carillion's former UK offices on the Great West Road in Brentford, England",
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    body: `Carillion Group, spun out of the construction firm Tarmac in 1999, grew within two decades into the United Kingdom's second-largest construction and support-services company, winning hundreds of long-term outsourced government contracts to maintain prisons, run school meal services, and build roads and hospitals across the country, on top of major infrastructure jobs including the Aberdeen bypass and two large new NHS hospitals. Behind the growth was chief executive Richard Howson, who took over in January 2012 and kept the company winning work through some of the thinnest profit margins in the industry, betting that scale and volume would make up for it.
+
+Carillion financed that scale increasingly through debt it went to unusual lengths to keep off its headline balance sheet. The company ran a large supply-chain finance facility that let it pay subcontractors early through a bank in exchange for a discount — a form of borrowing Carillion booked as ordinary trade payables rather than debt, understating its true leverage. At the same time, Britain's Financial Reporting Council later found, finance director Richard Adam and his successor Zafar Khan put "considerable pressure" on Carillion's own accountants to hit profit targets on major contracts that both men knew might be unrealistic, even as costs on several loss-making construction jobs quietly deteriorated. Regulators stopped short of finding either man had acted dishonestly, but concluded both had acted recklessly and failed to act with integrity in how the company's financial statements were prepared between 2013 and 2017.
+
+On July 10, 2017, Carillion admitted an £845 million write-down across several major contracts, wiping out roughly two-thirds of its share value in a single trading session and forcing out both Howson and Khan within weeks. The UK's Financial Conduct Authority later found that Howson, as group chief executive, had known the true scale of the construction division's problems well before that announcement and failed to ensure Carillion's public statements reflected it, letting the stock keep trading on numbers regulators concluded were misleading. Five months later, on January 15, 2018, with liabilities of nearly £7 billion against just £29 million in cash, Carillion collapsed into the UK's largest-ever compulsory liquidation of a trading company, throwing roughly 43,000 jobs worldwide into uncertainty, leaving a £2.6 billion pension shortfall for 27,000 scheme members, and stranding thousands of small UK subcontractors owed money they mostly never recovered.
+
+A joint parliamentary inquiry concluded the following year that Carillion's board had run the company as "a giant and unsustainable corporate time bomb," accusing directors of "stuffing their mouths with gold" through bonuses and dividends even as the business quietly buckled. It took years for individual consequences to follow: the UK Insolvency Service disqualified Howson from serving as a company director for eight years and Adam and Khan for periods of 12½ and 11 years in 2023; the FCA fined Howson £237,700 in February 2026 over the misleading statements; and the Financial Reporting Council fined Adam £222,019 and Khan £60,228 in May 2026, excluding them from the accountancy profession for 15 and 10 years respectively. Carillion's outside auditor, KPMG, was separately hit with a record £21 million FRC fine in 2023 for repeatedly signing off on audits that investigators found showed a persistent lack of "professional scepticism," with lead audit partner Peter Meehan personally fined £350,000.
+
+More than eight years after Carillion went under, no one involved has faced a criminal fraud conviction — every sanction against Howson, Adam, and Khan came through civil regulatory findings of recklessness rather than deliberate dishonesty. The case has become a fixture of UK corporate-governance debates for exactly that reason: a company can keep hundreds of millions of pounds of financing off its balance sheet, keep paying dividends while quietly running out of cash, and collapse leaving public services and small suppliers to absorb the damage, all without any individual ever being found to have lied on purpose.`,
+  },
+  {
+    title: 'The Folli Follie Fraud: How a Greek Luxury Brand Invented $1 Billion in Asian Sales',
+    slug: 'folli-follie-koutsolioutsos-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://greekreporter.com/2024/06/27/folli-follie-scandal-masterminds-prison-greece/',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/HK_Tung_Chung_One_CityGate_shop_Folli_Follie_Oct-2012.JPG?width=1200',
+    coverImageCredit: 'Photo: Tungyuemans23, Wikimedia Commons (CC BY-SA 3.0) — a Folli Follie store in Hong Kong, part of the Asian retail network at the center of the fraud',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    body: `Dimitris Koutsolioutsos and his wife Ketty founded Folli Follie in Athens in 1982, building a single jewelry counter into a global watch and accessories brand that listed on the Athens Stock Exchange in 1997. By the 2010s, with the couple's son Georgios — known within the company as "Tzortzis" — running day-to-day operations as chief executive, Folli Follie had expanded aggressively across Asia, and its stock became one of the most heavily weighted names on the Greek exchange, prized by investors for reporting steady double-digit growth even as European retail struggled through the aftermath of the financial crisis.
+
+That growth turned out to be substantially fictional. In May 2018, the New York-based short seller Quintessential Capital Management published a report questioning the number of stores Folli Follie claimed to operate in Asia and the plausibility of its reported sales there, sending the stock down more than 50% within days and triggering a Greek market-abuse investigation. Forensic auditors brought in to examine the company's Chinese subsidiary found it had for years been presenting fabricated bank balances — some attributed to real accounts that didn't hold the stated funds, others to accounts that did not exist at all — and manufacturing supporting bank statements to back up numbers that were simply invented. In the most recent full financial year investigators examined, Folli Follie had reported roughly $1.1 billion in Asian revenue against real sales closer to $117 million.
+
+Greek prosecutors brought fraud and money-laundering charges in 2018 against Dimitris Koutsolioutsos, his wife Aikaterini ("Kaiti"), their son Georgios, and more than a dozen other executives, including the company's finance chief and the head of its Asian operations. Georgios maintained at trial that he ran only the Greek parent company and had no knowledge of what was happening inside the Asian subsidiary his father and its local managers controlled. The case took more than six years to move from investigation to formal trial, and on June 26, 2024, an Athens Three-Member Court of Appeal for Felonies convicted the defendants on the core fraud counts by unanimous decision.
+
+The court handed down some of the heaviest white-collar sentences in modern Greek history: 17 years for founder Dimitris Koutsolioutsos, 11 years for his son Georgios, and 10 years for Aikaterini Koutsolioutsou. Citing the couple's advanced age, the court allowed Dimitris and Aikaterini to serve their sentences under house arrest rather than in prison, while Georgios — who had run the company's public-facing operations throughout the years the fraud was under way — was taken into custody. Several of the defendants have since appealed, seeking to have the sentences suspended.
+
+The Folli Follie case became known in the Greek press as the country's largest stock-market fraud, and it followed a familiar arc: a founding family kept tight personal control over a public company's most opaque, hardest-to-verify division — sales generated thousands of miles from company headquarters — and used exactly that distance to manufacture years of growth that regulators, auditors, and investors took at face value until an outside short seller finally asked to see the stores for himself.`,
+  },
+  {
+    title: "The London Whale: How JPMorgan Traders Hid a $6.2 Billion Loss Inside a 'Hedge'",
+    slug: 'london-whale-jpmorgan-iksil-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://www.cnbc.com/2017/07/21/us-decides-to-drop-criminal-charges-against-former-jpmorgan-traders-in-london-whale-case.html',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/J_P_Morgan_building,_Canary_Wharf_-_geograph.org.uk_-_3425799.jpg?width=1200',
+    coverImageCredit: "Photo: Andrew Wilson, Wikimedia Commons (CC BY-SA 2.0) — JPMorgan's Canary Wharf office in London, home to the Chief Investment Office unit at the center of the scandal",
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    body: `Bruno Iksil was a French derivatives trader inside JPMorgan Chase's Chief Investment Office, a London-based unit whose official job was to hedge the bank's broader balance-sheet risk rather than make speculative bets for profit. Starting in 2011, Iksil built an enormous position in an index of corporate credit-default swaps — so large that other traders in the relatively thin market began calling him the "London Whale," a nickname that surfaced publicly in Wall Street Journal and Bloomberg reporting in April 2012 describing a single trader whose positions were large enough to move an entire derivatives index.
+
+When JPMorgan chief executive Jamie Dimon was asked about those reports on an April 13, 2012 earnings call, he dismissed them as "a complete tempest in a teapot." Internally, the position was already losing money, and prosecutors later found that Iksil's direct supervisor, Javier Martin-Artajo, directed Iksil and a more junior trader, Julien Grout, to mark the unit's derivatives book at values more favorable than the market actually supported — inflating the reported value of the positions specifically to understate the scale of the losses being disclosed to senior management, outside auditors, and eventually investors, according to the criminal complaint later filed against the two men.
+
+On May 10, 2012, less than a month after his "tempest in a teapot" remark, Dimon disclosed that the reports had been accurate: the Chief Investment Office's position had already produced a loss of more than $2 billion, and the true figure kept climbing as JPMorgan unwound the trades, eventually reaching $6.2 billion. The loss was large enough that the bank clawed back more than $100 million in compensation from executives connected to the unit, including roughly $21.5 million from Ina Drew, the Chief Investment Office's global head, who resigned days after the disclosure, ending a 30-year career at the bank.
+
+In September 2013, JPMorgan admitted to US and UK regulators that it had failed to properly oversee the unit's trading and agreed to pay a combined $920 million in fines to the SEC, the Federal Reserve, and other regulators — one of the largest settlements ever tied to a single trading loss, though it rested on a finding of supervisory failure rather than fraud. Martin-Artajo and Grout were indicted in August 2013 on conspiracy, wire fraud, and false-filing charges, but Martin-Artajo had already returned to his native Spain and Grout to his native France, and both refused to return to the United States voluntarily. After nearly four years of unsuccessful extradition efforts — a Spanish court blocked Martin-Artajo's extradition in 2015, and France does not extradite its own citizens — the Department of Justice dropped the charges against both men in July 2017. Iksil himself was granted immunity in exchange for cooperating with investigators and was never charged; he was fired in 2013 and later published a memoir criticizing the bank's internal culture.
+
+Dimon kept his job — the board cut his 2012 compensation roughly in half rather than remove him — and more than a decade later, the London Whale affair remains one of the starkest examples in modern banking of a case where the mechanism of the fraud, mismarking a derivatives book to hide mounting losses, was clearly established by regulators and prosecutors, but where an ocean and two countries' extradition laws were enough to let the men accused of directing it avoid ever facing a US courtroom.`,
+  },
+);
+
 // Practical "how it works / red flags / what to do" guides covering the
 // major scam categories, the same kind of coverage the FTC's Consumer
 // Advice site and AARP's Fraud Watch Network publish — well-documented
