@@ -44583,6 +44583,38 @@ SEED_SCAMS.push(
     sourceUrl: 'https://consumer.georgia.gov/press-releases/2025-10-15/carr-announces-219-million-settlement-beauty-supply-institute',
   },
 );
+SEED_SCAMS.push(
+  {
+    name: 'Kantipur and Pashupati Cooperative Embezzlement (CB Lama)',
+    slug: 'nepal-kantipur-pashupati-cooperative-embezzlement',
+    description: `Chandra Bahadur "CB" Lama chaired both the Kantipur Savings and Credit Cooperative and the Pashupati Savings and Credit Cooperative in Nepal, using his position at the two institutions to draw in ordinary depositors' savings and, according to investigators, divert roughly Rs 6 billion from Kantipur and a further Rs 2 billion from Pashupati — around Rs 8 billion (about $60 million) in total — into land, resorts, colleges, and hospitals registered in his own name or those of associates rather than held for depositors. Pashupati savers were also allegedly pressured into a land-plotting scheme, buying back parcels at inflated prices with money that had originally been their own deposits. Lama went into hiding as the cooperatives' failures became public before being tracked down and arrested by the Kathmandu Valley Crime Investigation Office near the Nepal-India border in Chitwan on May 31, 2024, one of hundreds of arrests made across Nepal's broader cooperative-sector fraud crackdown. Before trusting any cooperative with savings, depositors should confirm it is registered and regularly audited by Nepal's Department of Cooperatives, be wary of the same individual chairing multiple cooperatives that lend to each other's schemes, and treat pressure to reinvest returns into the chairman's side ventures — such as land purchases — as a warning sign rather than a legitimate opportunity.`,
+    categorySlug: 'investment-fraud',
+    country: 'NP',
+    alertLevel: 'high',
+    sources: ['Kathmandu Post', 'Setopati', 'myRepublica'],
+    sourceUrl: 'https://kathmandupost.com/national/2024/05/31/ex-chair-of-kantipur-cooperative-lama-arrested',
+  },
+  {
+    name: 'Oriental Cooperative Deposit Fraud',
+    slug: 'nepal-oriental-cooperative-deposit-fraud',
+    description: `Oriental Cooperative Ltd, led by businessman Dipak Manange, built up more than Rs 10 billion in member deposits through nine branches spread across Kathmandu, Lalitpur, Bhaktapur, Pokhara, Nepalgunj, Dang, Surkhet, Biratnagar, and Itahari, drawing depositors in with interest rates — around 18 percent — well above what regulated banks were offering at the time. Nepal's Cabinet declared Oriental "crisis-ridden" on November 6, 2017 after the cooperative could no longer meet withdrawal demands, and a subsequent government probe found roughly Rs 10.84 billion of members' savings had been misappropriated rather than held or invested as promised. More than 7,600 depositors formally sought help recovering their money, and the case proceeded through Nepal's Supreme Court, but years after the collapse most depositors still had not been repaid. The case is one of dozens of similar cooperative failures that prompted a nationwide parliamentary investigation into Nepal's savings-and-credit cooperative sector. An interest rate far above what licensed banks pay is a red flag rather than a sign of a better deal, and savers should check a cooperative's audited financial statements and its standing with Nepal's Department of Cooperatives before depositing money, rather than relying on a branch network or a promised rate alone.`,
+    categorySlug: 'investment-fraud',
+    country: 'NP',
+    alertLevel: 'medium',
+    sources: ['Rising Nepal Daily', 'New Business Age', 'Kathmandu Post'],
+    sourceUrl: 'https://risingnepaldaily.com/news/18766',
+  },
+  {
+    name: 'Nepal Foreign Employment Recruitment Fraud',
+    slug: 'nepal-foreign-employment-manpower-recruitment-fraud',
+    description: `Licensed manpower companies and, far more often, unlicensed sub-agents working informally on their behalf promise Nepali jobseekers well-paying jobs in the Gulf states, Malaysia, and elsewhere, then charge illegal upfront "processing" fees well above the legal cap, hand over forged or non-existent visas and contracts, and in many cases confiscate passports on arrival — leaving workers stranded, in debt, or in exploitative jobs nothing like what was promised. Nepal's Department of Foreign Employment has reported that an average of roughly 545 people are defrauded this way every month, with monthly losses of about Rs 118.2 million (roughly $900,000), and by one count agents and middlemen — rather than the licensed companies themselves — were the target of the large majority of the thousands of complaints filed. Nepal's government has responded by canceling or suspending the licenses of hundreds of manpower agencies for illegal fees, fraud, and using unauthorized agents, while rights groups including Amnesty International have separately documented recruiters who evade accountability by routing dealings through individual agents rather than the registered company itself. Jobseekers should deal only with agencies listed as licensed on the Department of Foreign Employment's own registry, insist on a written contract and a labor permit before paying anything, confirm the job and salary directly with Nepal's embassy or labor attaché in the destination country, and never hand over a passport or pay the full fee before the job offer has been independently verified.`,
+    categorySlug: 'employment-scams',
+    country: 'NP',
+    alertLevel: 'high',
+    sources: ['Centre for Investigative Journalism Nepal', 'Amnesty International', "Nepal's Department of Foreign Employment"],
+    sourceUrl: 'https://www.cijnepal.org/fraud-in-foreign-jobs-agents-swindle-two-billion-rupees-in-two-years',
+  },
+);
 
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
