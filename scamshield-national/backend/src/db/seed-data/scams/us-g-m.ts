@@ -3464,4 +3464,15 @@ export const UsGM: SeedScam[] = [
     country: 'US',
     state: 'IN',
   },
+  {
+    name: 'Montana Spoof Marketplace and Website Scam',
+    slug: 'montana-spoof-marketplace-website-scam',
+    description: `The Montana Department of Justice's Office of Consumer Protection, under Attorney General Austin Knudsen, warned residents on September 3, 2026 about a rise in "spoof website" scams that take two closely related forms. In the first, scammers based mostly overseas post listings for a product that doesn't actually exist on a social media marketplace; when an interested buyer reaches out, the scammer supplies fabricated shipping or ownership documents and directs the buyer to a fake website built solely to collect a wire transfer, after which the buyer receives nothing and the money can't be recovered. In the second version, fraudsters clone a real, legitimate business's website almost exactly, registering a look-alike web address just a character or two off from the genuine site, so a shopper who lands there believes they're buying from the real company and enters both payment and personal banking information directly into the fake page. "Fraudsters are getting more creative and finding new ways online to steal Montanans' hard-earned money," Knudsen said. His office flags several tells that a listing or site is fraudulent: suspiciously precise "placeholder" prices such as a car listed at exactly $12,345, items marked "sold out" on a seller's own site while the same items are still being advertised on social media, and missing or unverifiable contact information. Montanans are advised to independently verify a seller or business before paying, confirm a site is secure and legitimate before entering any payment details, pay by credit card rather than wire transfer or gift card so a fraudulent charge can be disputed, and inspect higher-value items in person before buying. Suspected spoof website scams can be reported to the Office of Consumer Protection at 406-444-4500, 1-800-481-6896, or contactocp@mt.gov.`,
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'medium',
+    sources: ["Montana Department of Justice, Office of Consumer Protection"],
+    sourceUrl: 'https://dojmt.gov/attorney-general-knudsen-ocp-warn-of-spoof-website-scams',
+    country: 'US',
+    state: 'MT',
+  },
 ];
