@@ -3795,46 +3795,6 @@ Investigators soon found Al-Rayan had already moved an estimated $550 million in
 
 Al-Rayan was finally released on August 10, 2010, and spent his remaining years giving television interviews insisting he had been a victim of the state rather than its perpetrator, before dying of cancer in 2013. Egypt's 1988 crackdown forced more than a hundred similar investment companies to register or shut down, but the underlying pitch Al-Rayan pioneered — recasting a fraud's outsized returns as a matter of religious duty rather than financial risk — never fully disappeared, and Egyptian regulators continue to warn about "halal" investment schemes built on the same trust-through-faith playbook decades later.`,
   },
-  {
-    title: "Andika Surachman, Anniesa Hasibuan, and the First Travel Umrah Scam That Cheated Tens of Thousands of Pilgrims",
-    slug: 'andika-surachman-anniesa-hasibuan-first-travel-umrah-scam',
-    author: 'ScamShield Editorial',
-    tags: ['notorious', 'notorious-scammer'],
-    sourceUrl: 'https://www.thejakartapost.com/news/2018/05/31/first-travel-bosses-guilty-umrah-scam.html',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Mosqu%C3%A9e_Masjid_el_Haram_%C3%A0_la_Mecque.jpg?width=1200',
-    coverImageCredit: 'Photo: Tab59, Wikimedia Commons (CC BY-SA 2.0) — the Kaaba at Masjid al-Haram in Mecca, the pilgrimage First Travel sold fraudulent packages to reach',
-    coverImagePosition: 50,
-    // representative photo — replace with a portrait if found
-    body: `Andika Surachman and his wife, Anniesa Hasibuan, founded First Travel on July 1, 2009, in Depok, on the outskirts of Jakarta, at a moment when demand for umrah — the "minor pilgrimage" to Mecca that devout Muslims can undertake at any time of year, unlike the once-a-year hajj — was surging across Indonesia, the world's largest Muslim-majority country. Where established agencies charged the going rate of roughly 25 million rupiah or more for a package covering flights, visas, and hotels, First Travel advertised trips at a headline-grabbing 14.3 million rupiah, about $1,000 at the time — a price low enough to draw in tens of thousands of Indonesians for whom umrah had always seemed financially out of reach.
-
-The pricing worked because it wasn't really pricing at all: courts later found First Travel operating a Ponzi-style pyramid in which money from newly signed customers was used to fund the actual trips of customers who had signed up earlier, rather than any sustainable business model recovering its own costs. Anniesa Hasibuan's public profile as a hijab-fashion designer — she became the first designer to send an all-hijab collection down the runway at New York Fashion Week in September 2016 — gave the company a visibility and an aspirational glow that ordinary travel agencies couldn't match, and First Travel leaned on that reach and word-of-mouth trust within Indonesia's religious community to keep recruiting new depositors faster than the backlog of unfulfilled trips could catch up with it.
-
-By 2017 it couldn't keep up. Departures were delayed, then canceled outright, leaving prospective pilgrims who had already paid in full stranded without visas, flights, or refunds while investigators found Andika and Anniesa had funneled customer deposits into luxury cars, jewelry, and a fashion and restaurant business rather than the travel services they had been sold. Indonesia's Ministry of Religious Affairs revoked First Travel's license to organize umrah trips in August 2017 as complaints mounted, and police arrested the couple shortly afterward; the investigation ultimately documented that 56,682 prospective pilgrims had paid a combined 848 billion rupiah, roughly $60 million, for trips First Travel never delivered.
-
-The Depok District Court convicted Andika, Anniesa, and Anniesa's sister and First Travel finance director, Siti Nuraidah "Kiki" Hasibuan, on May 30, 2018, sentencing Andika to 20 years in prison, Anniesa to 18 years, and Kiki to 15 years, along with a 10-billion-rupiah fine apiece. Assets seized from the trio — villas, vehicles, and cash — were initially ordered forfeited to the state, but Indonesia's Supreme Court, hearing a case-review petition in 2020, ruled that those assets should instead be returned to First Travel's victims; even so, the recovered value has covered only a fraction of what tens of thousands of pilgrims paid, and public reporting has not indicated any early release for Andika or Anniesa since their sentences were handed down.
-
-First Travel remains one of Indonesia's largest travel-fraud cases and an unusual variant on the Ponzi structure: rather than promising a cash return that never materializes, it promised a religious pilgrimage — trading on the trust that Indonesian Muslims place in a shared faith community — and paid it out of newer customers' money for just long enough to keep the whole operation looking legitimate. The scandal pushed Indonesian regulators to tighten oversight of umrah travel agencies, requiring greater financial guarantees before a company can collect payment for pilgrimages it hasn't yet delivered.`,
-  },
-  {
-    title: "Chamoy Thipyaso and the Mae Chamoy Chit Fund That Earned the World's Longest Prison Sentence",
-    slug: 'chamoy-thipyaso-mae-chamoy-chit-fund-scam',
-    author: 'ScamShield Editorial',
-    tags: ['notorious', 'notorious-scammer', 'historical'],
-    sourceUrl: 'https://en.wikipedia.org/wiki/Chamoy_Thipyaso',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Bangkok_skyline,_Bangkok,_Thailand.jpg?width=1200',
-    coverImageCredit: 'Photo: Vyacheslav Argenberg, Wikimedia Commons (CC BY 4.0) — the Bangkok skyline, where the Mae Chamoy chit-fund scheme operated',
-    coverImagePosition: 50,
-    // representative photo — replace with a portrait if found
-    body: `Chamoy Thipyaso was a mid-level Thai civil servant, employed at the state-run Petroleum Authority of Thailand, when she began running a chit fund — an informal, rotating savings pool common across Thailand — under the name Mae Chamoy in the late 1960s. What began as a small circle of coworkers pooling savings grew over the following years into something else entirely: Thipyaso started marketing shares in the fund far beyond her immediate circle, pitching it as tied to lucrative oil-trading opportunities that only someone with her Petroleum Authority connections could access, and paying investors returns well above anything a bank or a legitimate investment could offer.
-
-Thipyaso's personal ties to senior officers in the Royal Thai Air Force lent Mae Chamoy an air of establishment credibility that a purely civilian operation could never have manufactured on its own, and word of mouth through Bangkok's civil-service and military circles let the fund keep growing for more than a decade without attracting the regulatory scrutiny a bank or brokerage would have faced. Depositors drawn in by that reputation, as much as by the returns themselves, eventually numbered more than 16,000.
-
-The arithmetic caught up with Mae Chamoy in the mid-1980s the way it eventually does with every scheme paying yesterday's depositors out of today's deposits: new money could no longer keep pace with what was owed to those already in the fund, and it collapsed, wiping out deposits that investigators later estimated at somewhere between $200 million and $301 million — a range wide enough to reflect how informally the fund's own books had been kept in the first place, run on personal trust rather than any regulated accounting.
-
-On July 27, 1989, a Thai court convicted Thipyaso and seven associates of fraud, calculating her sentence the way Thai law required at the time: one term for every fraudulent count proven against her, added together into a total the court put at 141,078 years — a figure still cited decades later as the longest single prison sentence ever handed down anywhere. The number was always more a statement about the sheer volume of counts than a literal punishment: Thai law capped how much of any fraud sentence could actually be served, and after that statutory ceiling was applied and then reduced further through Thailand's ordinary clemency process, Thipyaso was released in 1993, having served roughly eight years.
-
-The case endures as a fixture of legal trivia coverage precisely because of the gap between its headline sentence and how little of it Thipyaso actually served — a reminder that a court's arithmetic, however dramatic on paper, still runs through whatever statutory ceiling the law actually places on it, and that an operator with connections enough to make an informal fund look like it carried institutional backing can walk free years before the number attached to her case ever suggests she would.`,
-  },
 ];
 
 NotoriousAF.push(
