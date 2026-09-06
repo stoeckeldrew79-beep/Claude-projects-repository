@@ -43025,6 +43025,42 @@ SEED_SCAMS.push(
   },
 );
 
+// Three new, real, sourced cases for Croatia (HR) — a country not
+// previously represented in SEED_SCAMS (verified via case-insensitive
+// grep for "Croatia" / country: 'HR' before adding these).
+SEED_SCAMS.push(
+  {
+    name: 'Zadar Bitcoin Seed-Phrase Theft Ring',
+    slug: 'croatia-zadar-bitcoin-seed-phrase-theft-ring',
+    description: `Croatia's Ministry of the Interior (MUP) cybersecurity officers dismantled a cross-border cryptocurrency theft ring after a 39-year-old Croatian man in the Zadar region was drawn into what looked like a private opportunity to buy Bitcoin below market value. A 42-year-old Croatian suspect met the victim in person, and under the pretext of demonstrating how the transaction and blockchain confirmation would work, secretly photographed the victim's 24-word wallet seed phrase — the master key to a cryptocurrency wallet that lets anyone holding it drain the wallet completely. On December 23, 2024, a 45-year-old Austrian accomplice used the stolen seed phrase to empty the wallet of EUR 154,525.71 in Bitcoin, then fragmented the funds across numerous blockchain addresses and multiple exchanges to obscure the trail before cashing out through a foreign exchange account; investigators went on to link the pair to at least a dozen victims and more than USD 500,000 in combined losses. MUP's cybersecurity unit, working with blockchain-intelligence firm TRM Labs, used wallet-clustering and transaction-pattern analysis to reconstruct the laundering path and identify the cash-out points, leading to the arrest of both suspects. The case underscores that a wallet's seed phrase should never be spoken aloud, typed into any device, or shown to anyone — including someone offering a face-to-face deal — since whoever sees or photographs those words has everything needed to take every coin in the wallet, with no bank or exchange able to reverse the transfer afterward.`,
+    categorySlug: 'investment-fraud',
+    country: 'HR',
+    alertLevel: 'high',
+    sources: ['Croatian Ministry of the Interior (MUP)', 'TRM Labs'],
+    sourceUrl: 'https://www.trmlabs.com/resources/blog/croatian-ministry-of-interior-dismantles-cryptocurrency-fraud-ring',
+  },
+  {
+    name: 'Fake Croatian Post Cash-on-Delivery Courier Scam',
+    slug: 'croatia-fake-posta-cash-on-delivery-scam',
+    description: `Hrvatska pošta (Croatian Post) issued a public warning after residents in the wider Zagreb city-center area reported fraudsters posing as postal couriers and turning up at their doors with parcels they had never ordered, demanding cash-on-delivery ("pouzeće") payment before handing the package over. The fake couriers carry packages without the official Hrvatska pošta adresnica (shipping label) attached, using instead a blank form that Croatian Post normally fills out only internally when a parcel is handed in for delivery, and they pressure recipients to pay on the spot — in cash or by contactless card — before the person has time to stop and check whether they actually placed an order. Genuine Hrvatska pošta couriers wear a uniform bearing the company's official logo, carry a handheld device the recipient must sign on to confirm delivery, and only ever collect a cash-on-delivery amount tied to a real, verifiable order. The company renewed the warning again after a related wave of fraudulent SMS and Viber messages falsely claimed a parcel could not be delivered because of an incorrect address and asked recipients to click a link and enter their bank card details, stressing that Hrvatska pošta never asks customers for a card number by text or messaging app. Croatian Post's advice is to refuse any unannounced cash-on-delivery parcel that cannot be linked to an order the recipient remembers placing, and to check an unexpected delivery notice only through the tracking tool on Hrvatska pošta's own website rather than a link sent by text.`,
+    categorySlug: 'package-delivery-scams',
+    country: 'HR',
+    alertLevel: 'medium',
+    sources: ['Hrvatska pošta (Croatian Post)', 'Novi list', 'N1 Info'],
+    sourceUrl: 'https://hrvatska.posta.hr/hr/kako-prepoznati-pokusaje-prijevare-uime-hrvatske-poste',
+  },
+  {
+    name: 'Zagreb Fake Police "Counterfeit Money" Doorstep Scam',
+    slug: 'croatia-zagreb-fake-police-counterfeit-money-scam',
+    description: `Zagreb police arrested a trio — a 34-year-old man, a 38-year-old man, and a 39-year-old woman — in July 2026 after tracing a string of doorstep thefts targeting elderly women across the Črnomerec, Velika Gorica, and Maksimir areas of the city. According to police, the 34-year-old would telephone an elderly victim, falsely identify himself as a police officer, and tell her that banknotes in her home were suspected counterfeits that needed to be inspected; he displayed a fake police-badge wallet bearing a police insignia to back up the claim, then had the victim hand over her cash so it could supposedly be "photographed and checked," carried it out to a car waiting nearby, and drove off with it. Working from phone numbers the group found in victims' own address books, the trio is accused of defrauding an 85-year-old woman and an 81-year-old woman of a combined EUR 6,300 between July 13 and 17, 2026, and of attempting the same con on a 74-year-old woman before officers already investigating the pattern spotted two of the suspects fleeing her yard and stopped the group's car on Bukovačka Road shortly afterward. Croatian police stress that a real police officer will never ask a resident to hand over cash for "inspection" or remove it from the home, and that anyone who receives such a call should hang up and dial the police non-emergency contact number to confirm independently whether the request is genuine before opening the door or handing anyone money.`,
+    categorySlug: 'government-impersonation',
+    country: 'HR',
+    alertLevel: 'high',
+    sources: ['Hrvatska radiotelevizija (HRT)', 'Novi list', 'Net.hr'],
+    sourceUrl: 'https://vijesti.hrt.hr/hrvatska/lazni-policajci-varali-umirovljenike-trojac-uhicen-12824928',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
