@@ -42406,6 +42406,42 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'Branson Timeshare Exit Scam (RSI, LLC / Relief Solutions International)',
+    slug: 'missouri-branson-rsi-timeshare-exit-scam',
+    description: `Missouri Attorney General Andrew Bailey sued RSI, LLC, a Branson-based company doing business as Relief Solutions International, in a case filed September 28, 2023, alleging the company and its owners charged consumers several thousand dollars apiece with written guarantees to terminate unwanted timeshare contracts and eliminate ongoing maintenance fees, then failed to deliver on those promises. The Attorney General's Office identified at least 114 Missouri consumers who paid the company, with total losses exceeding $800,000, and brought the case under the Missouri Merchandising Practices Act seeking injunctive relief, full restitution for every affected consumer, and civil penalties for each violation. "I will always fight for the rule of law, which includes holding fraudulent companies accountable for preying on Missourians," Bailey said announcing the suit. Timeshare owners approached by a company promising a guaranteed exit for an upfront fee should treat that guarantee itself as a red flag — no legitimate exit or resale company can promise a cancellation will succeed — and should contact their timeshare company directly first, since canceling within a state's rescission period or negotiating an exit is often something an owner can attempt for free before ever paying a third party.`,
+    categorySlug: 'timeshare-scams',
+    country: 'US',
+    state: 'MO',
+    alertLevel: 'high',
+    sources: ["Missouri Attorney General's Office"],
+    sourceUrl: 'https://ago.mo.gov/attorney-general-bailey-sues-branson-based-timeshare-exit-company-for-violations-of-consumer-protection-laws/',
+  },
+  {
+    name: 'Labor Law Poster Service Government-Mailer Scam (Fata Family)',
+    slug: 'washington-labor-law-poster-service-fata-mailer-scam',
+    description: `Following a decades-long enforcement history, a King County Superior Court jury and Judge Maureen McKee found on July 8, 2025 that Labor Law Poster Service — a Michigan-based mail-order operation run by Joseph Fata and his son Justin Fata, previously doing business as Mandatory Poster Agency — had sent nearly 600,000 deceptive solicitations to Washington small businesses over roughly a decade, mailers the Washington Attorney General's Office said "mimicked legitimate government communications" to pressure recipients into believing that purchasing a "Complete State & Federal Posting Requirement Set" of workplace posters, typically priced around $79.50 or more, was a legal requirement rather than an optional and often unnecessary product. The court ordered $7.4 million in civil penalties (calculated at $12 per deceptive mailer) plus $850,000 in consumer restitution with 12% prejudgment interest, on top of a $1.15 million judgment Washington had already won against the same family's predecessor company in 2016 and enforcement actions other states including Arizona, Delaware, and Wisconsin had separately brought against them. Attorney General Bob Ferguson's office noted that "for years, the Fatas have treated adverse legal actions as the cost of doing business," continuing to mail new solicitations even after being found liable. Small business owners who receive an official-looking notice demanding payment for a "required" poster set, certificate, or filing should verify the request directly with their state's actual labor department or secretary of state using contact information they look up independently, since real government agencies do not sell compliance products by mail.`,
+    categorySlug: 'government-impersonation',
+    country: 'US',
+    state: 'WA',
+    alertLevel: 'high',
+    sources: ["Washington State Attorney General's Office", 'KING 5', 'KOIN'],
+    sourceUrl: 'https://www.atg.wa.gov/news/news-releases/ag-s-office-wins-82m-penalties-and-consumer-restitution-trial-against-repeat',
+  },
+  {
+    name: 'Deceased Ballplayer Identity Class-Action Claims Fraud (George Herman Ruth)',
+    slug: 'tennessee-george-herman-ruth-mlb-identity-class-action-fraud',
+    description: `George Herman Ruth, 70, of Morristown, Tennessee — sharing a name with the baseball legend but no other connection to him — was sentenced on June 10, 2026 by U.S. District Judge Clifton Corker in the Eastern District of Tennessee to 132 months (11 years) in federal prison after pleading guilty to 25 counts of mail fraud for a scheme that ran from January 2023 through July 2025. Ruth identified class-action lawsuit settlements around the country and submitted hundreds of fraudulent claim forms to their administrators, predominantly using the names of deceased former Major League Baseball players to whom he had no relation, opening at least 13 post office boxes across northeast Tennessee to receive the resulting checks and a bank account under a sham business, "El Mundo Marketing," to deposit the proceeds; he admitted attempting to obtain more than $250,000 through the scheme. Ruth committed the fraud while on supervised release from a prior 56-month federal sentence for conspiracy to defraud the Social Security Administration and IRS, and was separately found to have falsified his monthly supervision reports by denying he had post office box access or was traveling out of state when both were false. U.S. Attorney Francis M. Hamilton III said the conviction "exemplifies the unwavering commitment" of his office to prosecute fraud, in a case investigated jointly by the U.S. Postal Inspection Service, the Social Security Administration's Office of Inspector General, and the Morristown Police Department. Class-action administrators and consumers alike should treat the case as a reminder that claims processes rely partly on the honor system and are actively targeted by repeat fraudsters, and that using a real person's name and identifying details to file a financial claim — even a small one — is identity theft whether or not that person is still living.`,
+    categorySlug: 'identity-theft',
+    country: 'US',
+    state: 'TN',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office for the Eastern District of Tennessee", 'Social Security Administration Office of the Inspector General'],
+    sourceUrl: 'https://www.justice.gov/usao-edtn/pr/george-herman-ruth-sentenced-11-years-mail-fraud-scheme-and-violating-supervised',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
