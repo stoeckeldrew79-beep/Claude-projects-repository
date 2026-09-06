@@ -14263,10 +14263,9 @@ Red flags include any claim that a "secret" government account can pay off your 
     slug: 'loyalty-rewards-points-theft-scam-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'loyalty-points-scam'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/TSAPrecheckBoardingPass.jpg?width=1200',
-    coverImageCredit: 'Photo: HellcatSRT (CC0)',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Delta_Skymiles_membership_card.jpg?width=1200',
+    coverImageCredit: 'Photo: Ian Weller (Public Domain) — a Delta SkyMiles membership card, the type of airline loyalty account rewards-point thieves target',
     coverImagePosition: 50,
-    // representative photo — replace with an exact match if found
     sourceUrl: 'https://www.aarp.org/money/scams-fraud/loyalty-rewards-points/',
     body: `Airline miles and hotel points sit in an account you rarely check closely, protected — for many travelers — by nothing more than a password reused from some other site. That makes loyalty accounts an easy target: after a data breach anywhere else exposes an email-and-password combination, criminals run those same credentials against airline and hotel login pages in bulk, a technique called credential stuffing. Because so many people reuse passwords, a meaningful share of those attempts succeed, and unlike a bank account, most loyalty programs have historically required only a login — no card number, no second factor by default — to redeem the balance.
 
