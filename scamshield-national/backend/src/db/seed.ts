@@ -44481,6 +44481,46 @@ SEED_SCAMS.push(
   },
 );
 
+// Three new, real, sourced cases targeting the current lowest-count US
+// states (12 entries each, none on the recent-exclusion list) — verified
+// against official state AG press releases and cross-checked by grep of
+// the full file for the company/scheme name before adding.
+SEED_SCAMS.push(
+  {
+    name: 'Choice Home Warranty Fine-Print Coverage Denial Settlement',
+    slug: 'arizona-choice-home-warranty-fine-print-coverage-denial-settlement',
+    description: `Arizona Attorney General Kris Mayes's office received more than 1,500 consumer complaints between 2013 and 2023 against Choice Home Warranty, a New Jersey-based service-contract company, alleging that it took monthly premiums for home warranty plans but then refused to replace air conditioning units and other major appliances the company had advertised as covered once a claim was actually filed. The office's 2019 consumer fraud lawsuit alleged the company manipulated coverage-term language and buried critical exclusions in fine print that Arizona families, seniors, and veterans had no realistic way to spot before paying for a plan. A consent judgment entered January 23, 2026 resolved the case with an $11.8 million settlement — which Mayes called the largest of its kind in Arizona history — while Choice Home Warranty denied wrongdoing; the judgment requires the company to reform its sales practices and make meaningful upfront disclosures about exactly what is and isn't covered before a consumer hands over payment information. Consumers who purchased a Choice Home Warranty plan over the phone for an Arizona property between January 1, 2013 and January 1, 2023 may be eligible for restitution through the claims process the Attorney General's office opened following the settlement. "Businesses cannot hide behind fine print and hidden disclosures to exploit our vulnerable consumers," Mayes said in announcing the judgment. Before buying any home warranty, consumers should read the full contract for exclusions on big-ticket items like HVAC systems, water heaters, and plumbing before paying, ask the seller to confirm specific coverage in writing, and report a company that refuses to honor an advertised repair or replacement to the Arizona Attorney General's Consumer Information and Complaints Unit.`,
+    categorySlug: 'insurance-fraud',
+    country: 'US',
+    state: 'AZ',
+    alertLevel: 'medium',
+    sources: ["Arizona Attorney General's Office", '12News', 'Courthouse News Service'],
+    sourceUrl: 'https://www.azag.gov/press-release/attorney-general-mayes-announces-118-million-settlement-choice-home-warranty',
+  },
+  {
+    name: 'Four Star Realty Illegal Tenant Billing Settlement',
+    slug: 'colorado-four-star-realty-illegal-tenant-billing-settlement',
+    description: `Four Star Realty, a Boulder-based property manager overseeing rentals popular with college students in Boulder, Fort Collins, Greeley, and Denver, systematically overcharged tenants for routine maintenance and normal wear and tear by billing them for repainting, filling nail holes, and rekeying doors — sometimes charging rekeying fees even on units with electronic locks that were never physically rekeyed — according to a Colorado Attorney General investigation. The office also found the company charged tenants for damage they didn't cause, billed for unnecessary work, and withheld security deposits to cover costs that had nothing to do with the tenant's own conduct, while imposing hidden fees like a "move-out coordination fee" that never appeared on lease documents. Attorney General Phil Weiser announced a settlement on January 9, 2024 requiring Four Star Realty to pay $1 million, with $980,000 earmarked for restitution to affected tenants. "Too often, landlords and property management companies nickel and dime tenants by deceiving them into paying for things like normal wear and tear," Weiser said. Under the agreement, Four Star must now disclose all fees, rent, and other costs clearly on lease documents, maintain photos and records of property inspections and deposit withholdings for three years and provide them to tenants on request, and stop withholding any security-deposit funds unless the deduction is directly tied to the tenant's own actions. Renters anywhere who believe they've been charged for normal wear and tear or hit with fees never disclosed in their lease should request an itemized, written explanation of any deduction from their security deposit and file a complaint with their state attorney general's consumer protection office if the landlord won't provide one.`,
+    categorySlug: 'mortgage-foreclosure-scams',
+    country: 'US',
+    state: 'CO',
+    alertLevel: 'medium',
+    sources: ["Colorado Attorney General's Office", 'The Colorado Sun', 'Colorado Public Radio'],
+    sourceUrl: 'https://coag.gov/press-releases/four-star-realty-to-pay-1-million-end-illegal-tenant-billing-under-agreement-with-attorney-general-phil-weiser/',
+  },
+  {
+    name: 'Beauty Supply Institute "Store Opening Package" Business Opportunity Fraud',
+    slug: 'georgia-beauty-supply-institute-store-opening-package-fraud',
+    description: `Devin Robinson's Beauty Supply Institute, LLC and its affiliated company Derobis Enterprises, LLC sold aspiring entrepreneurs — many of them Black women — expensive "store opening packages" that promised help finding a retail location, hands-on operator training, and assistance stocking shelves with beauty supply inventory, according to a Georgia Attorney General's Office investigation. Regulators found the company's promotional materials overstated how many past students actually succeeded and falsely implied endorsements from major beauty brands, while the business itself violated Georgia's Sale of Business Opportunities Act and Fair Business Practices Act by collecting upfront payments exceeding the legal 15% cap on the total package price, failing to maintain the surety bond and independent escrow account the law requires to protect buyers' money, and refusing the refunds those same purchasers were legally owed when the promised support never materialized. Attorney General Chris Carr announced a settlement on October 15, 2025 permanently barring the companies from selling business opportunities in Georgia, from using previous purchasers' personal information, from collecting further payments from past customers, and from enforcing any existing business-opportunity contract — with a $2,189,255 civil penalty and refund obligation that becomes immediately due in full if the companies violate any term of the deal. "We will continue to protect Georgia consumers and small business owners by holding accountable companies that engage in unfair and unlawful practices," Carr said. Maryland regulators issued a cease-and-desist order against the same company in 2024 over nearly identical conduct. Anyone considering a "business opportunity" or franchise-style package that charges a large upfront fee should ask the seller for the legally required disclosure document before paying anything, verify that any brand-name endorsement claimed in marketing materials is genuine by contacting that brand directly, and check with their state attorney general's office or secretary of state whether the seller is registered and bonded to sell business opportunities before signing anything.`,
+    categorySlug: 'employment-scams',
+    country: 'US',
+    state: 'GA',
+    alertLevel: 'medium',
+    sources: ["Georgia Attorney General's Consumer Protection Division", 'Black Enterprise', 'Valdosta Today'],
+    sourceUrl: 'https://consumer.georgia.gov/press-releases/2025-10-15/carr-announces-219-million-settlement-beauty-supply-institute',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
