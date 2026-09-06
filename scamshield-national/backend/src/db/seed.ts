@@ -41919,6 +41919,47 @@ SEED_SCAMS.push(
   },
 );
 
+// California (CA), Colorado (CO), and Florida (FL) were tied with the fewest
+// SEED_SCAMS entries (11 each, alongside 16 other states) at the time this
+// block was added. Each entry below is a genuinely distinct pattern/category
+// from every existing entry for that state — confirmed with a case-insensitive
+// grep for names, aliases, and companies before adding.
+SEED_SCAMS.push(
+  {
+    name: 'California AG "Pig Butchering" Crypto Website Takedown',
+    slug: 'california-ag-pig-butchering-crypto-website-takedown',
+    description: `California Attorney General Rob Bonta announced on March 10, 2025 that his office, working with the Department of Financial Protection and Innovation (DFPI), had shut down 42 fraudulent cryptocurrency investment websites targeting state residents during 2024, after identifying at least $6.5 million in victim losses with an average loss of $146,306 per victim. The sites followed the "pig butchering" pattern: victims are contacted out of the blue by text or social media message from someone posing as a new friend or romantic interest, who spends weeks or months building trust before steering the conversation toward a "can't miss" crypto trading opportunity and a slick-looking platform that displays fabricated, steadily rising account balances. When a victim tries to withdraw supposed profits, the platform demands a "tax" or "fee" payment first, then the site goes dark or the balance is frozen entirely. Bonta's office listed red flags shared by nearly all of the 42 sites, including guaranteed or unusually high returns, missing or fake company registration and contact information, stock images or stolen branding, and poor grammar or inconsistent site design — and pointed residents to DFPI's Crypto Scam Tracker to check a platform before sending money. Neither DFPI nor the Attorney General's office will ever ask a consumer to send cryptocurrency to "verify" an account or unlock a withdrawal.`,
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    state: 'CA',
+    alertLevel: 'high',
+    sources: ['California Department of Justice — Office of Attorney General Rob Bonta', 'California Department of Financial Protection and Innovation (DFPI)'],
+    sourceUrl: 'https://oag.ca.gov/news/press-releases/attorney-general-bonta-protects-californians-shutting-down-42-fake',
+  },
+  {
+    name: 'Colorado Jury Duty Phone Scam',
+    slug: 'colorado-jury-duty-phone-scam',
+    description: `The Colorado Judicial Branch has repeatedly warned residents about phone calls from someone claiming to be a local sheriff's deputy or court official who says the recipient missed a jury summons and now faces arrest unless a fine is paid immediately, typically by gift card, wire transfer, or a prepaid debit card. Callers sometimes give a fake — but confident-sounding — badge number and other invented details, and the number showing on caller ID does not flag as spam, making the call feel legitimate. The Colorado Judicial Branch and Denver County Court both stress that no Colorado court or sheriff's office ever resolves a missed jury summons with a same-call payment demand: legitimate correspondence about a missed summons arrives by physical mail as an official "Failure to Appear Notice," never as an unsolicited call threatening same-day arrest. Colorado's Division of Real Estate has separately flagged a variant of the same script directed specifically at real estate brokers. Residents who receive one of these calls are urged to hang up, contact their local court clerk directly using an independently looked-up number, and report the call to their county sheriff's office or through the Colorado Attorney General's Stop Fraud Colorado program.`,
+    categorySlug: 'government-impersonation',
+    country: 'US',
+    state: 'CO',
+    alertLevel: 'medium',
+    sources: ['Colorado Judicial Branch', 'Denver County Court', 'Colorado Division of Real Estate', 'Colorado Attorney General — Stop Fraud Colorado'],
+    sourceUrl: 'https://www.coloradojudicial.gov/be-aware-jury-duty-phone-scam',
+  },
+  {
+    name: 'Sean Alterman Medicare Genetic-Testing Fraud Scheme',
+    slug: 'florida-alterman-medicare-genetic-testing-fraud',
+    description: `Sean Alterman, 38, of Lake Worth, Florida, pleaded guilty on January 15, 2026 to conspiracy to commit health care fraud and conspiracy to offer and pay kickbacks after federal prosecutors said he used two laboratories he owned, Live Beyond Medical MGMT, LLC and Dynix Diagnostics LLC, to defraud Medicare through a "doctor chasing" scheme. Patient recruiters ran deceptive telemarketing campaigns that targeted elderly Medicare beneficiaries with offers of a "free" genetic test, then Alterman's operation purchased the resulting doctors' orders — often signed after only a brief telehealth call in which the beneficiary was never properly examined — and used them to bill Medicare for medically unnecessary genetic testing. The scheme submitted approximately $52 million in false and fraudulent claims, of which Medicare actually paid out roughly $36 million; prosecutors say Alterman personally pocketed about $5.5 million of that, funneled through shell companies called Shivv LLC and Shank LLC. He faces up to 15 years in federal prison at sentencing, scheduled for April 16, 2026, and has agreed to forfeit his Lake Worth estate and a 2022 Rolls-Royce Ghost. Medicare beneficiaries offered a free genetic test by an unfamiliar telemarketer, mailer, or caller should decline and report it rather than hand over a Medicare number or agree to a brief phone "exam" — the test itself is rarely the point; billing Medicare for it is.`,
+    categorySlug: 'healthcare-fraud',
+    country: 'US',
+    state: 'FL',
+    alertLevel: 'high',
+    sources: ['U.S. Department of Justice — Office of Public Affairs'],
+    sourceUrl: 'https://www.justice.gov/opa/pr/florida-laboratory-owner-pleads-guilty-52m-medicare-fraud-scheme-involving-genetic-tests',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
