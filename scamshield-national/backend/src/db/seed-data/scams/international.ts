@@ -8746,6 +8746,36 @@ Egypt's Ministry of Interior announced on February 24, 2025, that it had arreste
     sourceUrl: 'https://www.seneweb.com/en/news/Faits-Divers/escroquerie-via-wave-et-orange-money-la-dsc-demantele-une-redoutable-bande-de-faux-agents-de-la-sonatel_n_362433.html',
     country: 'SN',
   },
+  {
+    name: 'Fake ASFI Official WhatsApp Phishing Calls',
+    slug: 'bolivia-fake-asfi-official-whatsapp-phishing-scam',
+    description: `Bolivia's Autoridad de Supervisión del Sistema Financiero (ASFI), the country's banking and financial-system regulator, has warned that fraudsters are impersonating its officials over WhatsApp voice calls and text messages, contacting people from suspicious numbers — including one publicly flagged as 526-869800640 — to ask for passwords, one-time verification codes, and other banking data under the pretext of resolving an account problem or confirming the victim's identity with the regulator. Because ASFI is the body Bolivians associate with keeping banks honest, its name lends the call instant credibility, and once a victim reads out a verification code or shares a password the caller uses it to seize direct control of the victim's real bank or mobile-money account. ASFI stated plainly that it "never solicits confidential information through calls, messages, or social media," and urged the public to distrust unsolicited contact from unknown numbers claiming to be its staff, to never share a password or verification code with any caller, to verify any supposed ASFI communication only through its official toll-free line (800-103-103) or website (www.asfi.gob.bo), and to report suspicious calls and numbers immediately rather than engaging with them.`,
+    categorySlug: 'phishing',
+    alertLevel: 'high',
+    sources: ['Autoridad de Supervisión del Sistema Financiero (ASFI)', 'Red Uno de Bolivia'],
+    sourceUrl: 'https://www.reduno.com.bo/noticias/cuidado-detectan-intentos-de-fraude-suplantando-a-funcionarios-de-asfi-202649133811',
+    country: 'BO',
+  },
+  {
+    name: 'Fake ASFI "You\'ve Won the Big Prize" WhatsApp Lottery Scam',
+    slug: 'bolivia-fake-asfi-whatsapp-prize-lottery-scam',
+    description: `A WhatsApp message circulating in Bolivia and dressed up with the real logo of the Autoridad de Supervisión del Sistema Financiero (ASFI) tells recipients, in the fraudsters' own wording, "¡Muchas felicidades... tu línea es ganadora del premio mayor... ASFI...", claiming their phone number has won a major cash prize supposedly awarded by the financial regulator. Victims who reply are then told they must pay a fee — framed as a processing, tax, or release charge — before the nonexistent winnings can be paid out, a payment that simply hands money to the scammers with nothing ever delivered in return. The fact-checking outlet Bolivia Verifica investigated the claim by checking ASFI's official website and social media accounts and confirmed with the regulator's own communications department that it "does not conduct contests or giveaways of any kind," meaning the entire prize is fabricated. Bolivians are advised to treat any message announcing an unsolicited lottery or prize win from a bank, regulator, or government body as fraudulent by default, to never pay a fee to "release" a prize they never entered to win, and to verify any such claim directly through the institution's official channels — or Bolivia Verifica's own fact-checking chatbot, Olivia (62352290) — before replying or sending any money.`,
+    categorySlug: 'lottery-sweepstakes-scams',
+    alertLevel: 'high',
+    sources: ['Autoridad de Supervisión del Sistema Financiero (ASFI)', 'Bolivia Verifica'],
+    sourceUrl: 'https://boliviaverifica.bo/siguen-las-estafas-por-whatsapp-la-asfi-no-realiza-sorteos-ni-concursos/',
+    country: 'BO',
+  },
+  {
+    name: 'Fake "ASFI Renta" AI-Generated Investment Website Scam',
+    slug: 'bolivia-fake-asfi-renta-investment-website-scam',
+    description: `ASFI, Bolivia's financial-system regulator, issued a public alert on April 21, 2026 about a fraudulent website, asfi-renta.com, that illegally uses the regulator's name, logo, and institutional branding to present itself as an official ASFI investment program. The site is promoted through paid social media advertisements and features AI-generated videos and cloned voices designed to look and sound like legitimate ASFI communications, and it recruits participants into a pyramid-style structure promising guaranteed, above-market returns in exchange for personal data, banking credentials, and direct money transfers. ASFI confirmed the operation has no legal authorization to conduct financial intermediation or investment activity of any kind in Bolivia, meaning every peso deposited is placed entirely outside any regulatory protection and at total risk of loss, with no realistic path to recovery once the platform stops paying out. The regulator stressed that its legitimate communications only ever originate from official ".gob.bo" government domains and that it never promotes private investment schemes, and it urged the public to verify any offer claiming ASFI's backing directly through its official website (www.asfi.gob.bo) or toll-free hotline (800-103-103) before sharing any personal information or sending money to a site like asfi-renta.com.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'critical',
+    sources: ['Autoridad de Supervisión del Sistema Financiero (ASFI)', 'Brújula Digital'],
+    sourceUrl: 'https://brujuladigital.net/economia/2026/04/22/asfi-alerta-sobre-web-fraudulenta-que-suplanta-su-identidad-para-captar-dinero-de-forma-ilegal-59814',
+    country: 'BO',
+  },
 ];
 
 International.push(
