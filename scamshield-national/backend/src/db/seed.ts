@@ -10907,6 +10907,43 @@ Grandparent scams work by manufacturing panic before a victim has time to verify
   },
 );
 
+NOTORIOUS_ARTICLES.push(
+  {
+    title: 'Edward Zimbardi and "The Crypto Program": A $165 Million Fixed-Return Scheme That Ended in a Fiji Manhunt',
+    slug: 'edward-zimbardi-the-crypto-program-165-million-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-ndga/pr/alleged-mastermind-165-million-cryptocurrency-ponzi-scheme-facing-federal-charges',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Richard_B._Russell_Federal_Building_and_Courthouse,_Atlanta_(Fulton_County,_Georgia).jpg?width=1200',
+    coverImageCredit: 'Photo: U.S. Marshals Service (public domain) — the Richard B. Russell Federal Building in Atlanta, seat of the Northern District of Georgia where Edward Zimbardi was indicted',
+    coverImagePosition: 50,
+    body: `Between June 2022 and August 2023, prosecutors say, Edward Zimbardi, 59, of Flowery Branch, Georgia, ran an online operation called The Crypto Program that promised something no legitimate investment ever can: a fixed 25 percent monthly return, guaranteed. The pitch, delivered through slickly produced videos and websites, framed the investment as the purchase of digital "advertising packages" rather than securities — packaging language investors were told to fund by sending cryptocurrency directly to wallets that, according to federal prosecutors, Zimbardi secretly controlled himself. Thousands of participants around the world eventually poured in more than $165 million.
+
+A guaranteed monthly return of 25 percent is mathematically impossible to sustain through any real business activity — it implies annualized gains that would outperform every legitimate asset class in human history, repeatedly, forever. Prosecutors allege Zimbardi never had any such business: money coming in from newer participants was used to pay the promised "returns" to earlier ones, the defining mechanic of a Ponzi scheme, while a substantial share of the funds went elsewhere entirely. According to the indictment, more than $34 million was diverted into risky foreign-currency trades unrelated to the advertised program, and roughly $10 million covered personal expenses, including a house and vehicles for Zimbardi himself.
+
+The scheme collapsed in August 2023, and Zimbardi disappeared soon after, according to authorities. The FBI alleges he fled more than 7,300 miles across the Pacific to Fiji as agents closed in, remaining there for more than a year while a federal grand jury in the Northern District of Georgia returned a 25-count indictment on July 8, 2026, charging him with twelve counts of wire fraud, twelve counts of money laundering, and one count of money laundering conspiracy. "Zimbardi allegedly preyed on trusting individuals through a complex scheme to separate people from their hard-earned money and then reportedly fled more than 7,300 miles to the South Pacific," said Marlo Graham, Special Agent in Charge of the FBI's Atlanta Field Office. Fijian authorities, after learning of the outstanding U.S. charges, deported Zimbardi on August 14, 2026; he made his initial appearance before a federal magistrate in Los Angeles before the case proceeded in Georgia, where it remains pending.
+
+None of the charges against Zimbardi have been proven in court, and he is presumed innocent unless and until convicted. But the structure prosecutors describe follows a pattern regulators warn about constantly: any offer promising a fixed, guaranteed return — especially one framed as an "advertising package," a "trading bot," or another euphemism that avoids the word "investment" — is a hallmark of a Ponzi scheme, not a business model. A real business's returns fluctuate with real performance; a number that never changes, month after month, regardless of market conditions, is usually just the schedule someone wrote down before they had any depositors to pay it with.`,
+  },
+  {
+    title: 'Donald Basile and Bitcoin Latinum: The "World\'s First Insured" Crypto Token That Was Never Insured At All',
+    slug: 'donald-basile-bitcoin-latinum-sec-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26530',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Palo_Alto_City_Hall.jpg?width=1200',
+    coverImageCredit: 'Photo: Grendelkhan, Wikimedia Commons (CC BY-SA 4.0) — Palo Alto City Hall, near where Bitcoin Latinum founder Donald Basile lived and worked',
+    coverImagePosition: 50,
+    body: `Donald G. Basile was not a crypto newcomer looking for a quick score — he was a Silicon Valley veteran, having previously served as CEO of the publicly traded flash-storage companies Fusion-io and Violin Memory. That resume, the SEC alleges, is part of what made his next venture credible to investors: a cryptocurrency called Bitcoin Latinum, marketed under the ticker LTNM, sold to hundreds of investors in the United States and abroad between March and December 2021 through Simple Agreements for Future Tokens issued by two entities Basile controlled, GIBF GP, Inc. and Monsoon Blockchain Corporation.
+
+The centerpiece of the pitch, according to the SEC's April 2026 civil complaint, was a claim designed to eliminate the one fear every crypto investor already has: that the asset could simply evaporate. Basile marketed LTNM as "the world's first insured digital asset," telling investors it carried "up to $1 billion" in coverage and was backed by an existing trust fund and a "basket" of digital assets supporting its value. The SEC alleges every part of that safety net was fictional — no insurance company ever issued a policy covering LTNM or any part of the offering, no trust or asset pool was ever created, and the claim that 80 percent or more of investor proceeds would support the token's underlying value was false as well. The project's promotional reach was amplified by paid endorsements from public figures, including professional poker player Phil Hellmuth, who helped introduce Bitcoin Latinum to audiences well outside the usual crypto trading community.
+
+Rather than developing the token as promised, the SEC alleges, Basile diverted millions of the roughly $16 million raised to personal uses — luxury real estate, personal credit card charges, and other expenditures unrelated to LTNM. A separate California lawsuit, filed by an investor who says he alone put in more than $15 million, echoes the same core allegations. By January 2022, LTNM's price on overseas exchanges had collapsed from roughly $200 to under $16, and the SEC says the token is now worthless. The Commission's complaint, filed in the Eastern District of New York, charges Basile with violating the antifraud provisions of the federal securities laws and seeks disgorgement, civil penalties, and an injunction barring him from participating in future securities offerings; the case is pending; and Basile has not been convicted of any wrongdoing.
+
+An "insurance" claim is only as good as the policy behind it, and a legitimate insurer's coverage of a specific asset is a matter of public, verifiable record — a real underwriter will confirm a real policy exists. Investors have no obligation to take a founder's word for coverage that supposedly protects nine or ten figures of exposure; asking the named insurer directly, before wiring any money, would have cost nothing and could have unraveled the entire pitch years earlier.`,
+  },
+);
+
 // Practical "how it works / red flags / what to do" guides covering the
 // major scam categories, the same kind of coverage the FTC's Consumer
 // Advice site and AARP's Fraud Watch Network publish — well-documented
