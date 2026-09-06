@@ -4112,4 +4112,42 @@ Thames Valley Police's Operation Hornet, a six-year investigation that cost more
 
 The bank's own conduct compounded the damage. The Financial Conduct Authority found that Bank of Scotland had identified suspicious activity inside the Reading unit in early 2007 but failed to properly report it to regulators until July 2009, and fined the bank £45.5 million in June 2019 for that failure — on top of the roughly £245 million HBOS's eventual owner, Lloyds Banking Group, wrote off in bad loans traced to the fraud and the more than £100 million Lloyds later set aside to compensate victims. With every criminal appeal exhausted and the underlying convictions final, the HBOS Reading case stands as one of the starkest illustrations of how a bank's own internal "help" for struggling customers can be turned into the mechanism of their destruction.`,
   },
+  {
+    title: "Liu Bi'an and the $4.6 Billion Zhongzhan Huaxin Fundraising Fraud",
+    slug: 'liu-bian-zhongzhan-huaxin-fundraising-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://global.chinadaily.com.cn/a/202604/27/WS69ef47aba310d6866eb45cdf.html',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Buildings_in_Wangcheng_District_of_Changsha,_Hunan,_China_20230224.jpg?width=1200',
+    coverImageCredit: "Photo: Huangdan2060, Wikimedia Commons (CC BY 3.0) — Changsha, Hunan, where the court that convicted Liu Bi'an is based",
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    body: `Starting in August 2014, Liu Bi'an built Zhongzhan Huaxin Group and a web of affiliated companies into a fundraising operation that would eventually pull in more than 31.4 billion yuan — roughly $4.6 billion — from ordinary Chinese investors, making it one of the largest Ponzi-style frauds Chinese courts have prosecuted in recent years. Neither Liu nor his companies held the financial licenses that would have entitled them to solicit public investment at all; prosecutors said the entire enterprise operated outside the regulatory perimeter from the start, relying on the appearance of scale and respectability rather than any lawful authorization to take money from the public.
+
+The pitch dressed the fraud up as legitimate investment: Zhongzhan Huaxin and its affiliates promoted "fabricated investment projects" to prospective investors, backed by promises that were, on their face, too good to be sustainable — guaranteed principal and above-market fixed returns regardless of how any underlying project actually performed. That guarantee was the tell. A real investment carries real risk that shows up in the return an investor is offered; a promise that principal and profit are both guaranteed, no matter what, usually means the "returns" are simply being funded by the next round of depositors rather than by any actual business activity.
+
+That is exactly what investigators found: most of the money Zhongzhan Huaxin collected was funneled straight back out to pay maturing obligations to earlier investors, cover employee salaries and sales commissions, or was spent outright by the scheme's operators, rather than being deployed into the investment projects it was raised for. By the time the structure collapsed, the shortfall between what came in and what could be repaid had reached an estimated 6.1 billion yuan in direct investor losses — money that had already been spent servicing the scheme's own unsustainable promises rather than sitting anywhere to be recovered.
+
+The Changsha Intermediate People's Court, in Hunan province, convicted Liu and fifteen co-defendants of fundraising fraud and illegally soliciting funds from the public, handing down its verdict in April 2026. Liu received a life sentence, along with the permanent loss of his political rights and the confiscation of all his personal property — the harshest available outcome short of a death sentence, which China removed from the list of penalties available for ordinary fundraising fraud in a 2015 reform. His fifteen co-defendants received prison terms ranging from five to fifteen years, along with fines. Chinese authorities said they had already recovered funds, real estate, vehicles, and company equity tied to the scheme, with plans to return the proceeds to investors proportionally to their losses once the judgment takes effect.
+
+The Zhongzhan Huaxin case follows a pattern that has repeated across China's shadow-financing sector for more than a decade: an unlicensed operator raises enormous sums by promising guaranteed returns no legitimate investment can consistently deliver, sustains the illusion for years by paying old investors with new investors' money, and leaves regulators and courts to sort out a recovery effort that, even when partially successful, can never make investors whole for money that was gone the moment it was diverted to someone else's payout.`,
+  },
+  {
+    title: 'James Wellesley and the $97 Million Bordeaux Cellars Phantom Wine Ponzi Scheme',
+    slug: 'james-wellesley-bordeaux-cellars-wine-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-edny/pr/united-kingdom-citizen-sentenced-10-years-prison-97-million-wine-fraud-scheme',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Vue_de_Bordeaux.jpg?width=1200',
+    coverImageCredit: "Photo: Azarhasard, Wikimedia Commons (CC BY-SA 4.0) — Bordeaux, France, the wine region Wellesley's scheme traded on",
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    body: `James Wellesley was a British national with prior UK convictions for false accounting and mortgage fraud when, between 2017 and 2019, he and an associate, Stephen Burton, ran a scheme through Bordeaux Cellars Limited, a company registered in Hong Kong in 2011, that turned a niche corner of the fine-wine market into a vehicle for large-scale fraud. Bordeaux Cellars pitched itself as a high-yield lending business: investors were told their money would fund short-term loans to wealthy wine collectors, secured by rare Bordeaux vintages worth thousands of dollars a bottle that the company claimed to hold as collateral, with steady interest payments flowing back to investors as the loans were repaid.
+
+None of it existed. Prosecutors said Bordeaux Cellars had neither the wine inventory it claimed nor the borrowers it said were taking out the loans — the entire lending operation was fabricated from the outset. Instead, the scheme ran on the oldest mechanic in the fraud playbook: money from new investors was used to pay "returns" to earlier ones, creating the appearance of a functioning, profitable lending business for as long as fresh deposits kept arriving, while Wellesley and Burton diverted a substantial share of the funds for their own use. Operating under aliases including "Andrew Fuller" and "Andrew Templar," Wellesley helped give the operation a layer of invented personnel to go along with its invented wine and invented borrowers.
+
+The scheme eventually pulled in more than $97 million from at least 141 victims spread across the world — 71 in the United States, 21 in the United Kingdom, 10 in Hong Kong, and others besides — before it collapsed, having repaid only a fraction of what it had taken in. Wellesley was arrested in the UK and, following extradition proceedings, was brought to face charges of wire fraud conspiracy, wire fraud, and money laundering conspiracy in federal court in Brooklyn. He pleaded guilty to wire fraud conspiracy before U.S. District Judge Pamela Chen, who, in sentencing him, described the operation as a "brazen crime" that "literally destroys lives." Burton separately pleaded guilty and agreed to forfeit $26 million in illicit gains.
+
+In April 2026, Judge Chen sentenced Wellesley to 10 years in prison, ordered $1 million in forfeiture, and postponed the calculation of restitution to victims until a later date. The case stands as a reminder that an investment marketed around a genuinely obscure, hard-to-verify asset — rare wine most investors will never see or authenticate themselves — depends entirely on trusting the operator's word that the collateral is real; when neither the wine nor the wine's supposed owners can be independently confirmed by the people sending money, the "collateral" backing the loan is worth exactly as much as the fraud built on top of it.`,
+  },
 ];
