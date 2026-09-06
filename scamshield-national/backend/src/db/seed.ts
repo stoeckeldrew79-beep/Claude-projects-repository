@@ -11394,6 +11394,63 @@ Switzerland pursued him separately, on charges tied to Swiss-based investors and
   },
 );
 
+NOTORIOUS_ARTICLES.push(
+  {
+    title: "Achilleas Kallakis and the £760 Million UK Mortgage Fraud Built on Forged Guarantees",
+    slug: 'achilleas-kallakis-aib-mortgage-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://www.gov.uk/government/news/solicitor-general-welcomes-guidance-on-sentencing-complex-frauds',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Market_Towers,_1_Nine_Elms_Lane,_London.jpg?width=1200',
+    coverImageCredit: 'Photo: David Curran, Wikimedia Commons (CC BY 2.0) — Market Towers in Vauxhall, one of the London properties Kallakis bought with fraudulently obtained loans',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    body: `Achilleas Kallakis, a Greek-born businessman already convicted in the early 1990s over bogus manorial titles, spent much of the 2000s posing as a well-connected international property tycoon in London, working alongside an accomplice, Alexander Williams (previously known as Martin Lewis). Between roughly 2003 and 2008 the pair used forged guarantees, invented references, and false claims of backing from wealthy overseas financiers to borrow from Allied Irish Bank (AIB) and the Bank of Scotland far more than the underlying properties were actually worth — money they used to assemble a portfolio of trophy London real estate.
+
+The scale of what they got away with was extraordinary even by the standards of pre-financial-crisis lending: prosecutors said the fraud totaled more than £760 million, financing the purchase of at least 16 buildings, including the UK Home Office's asylum-processing centre in Croydon (bought for roughly £100 million) and, most strikingly, the Daily Telegraph's own headquarters at 111 Buckingham Palace Road, acquired from the Barclay brothers for around £225 million in 2007. Kallakis also diverted borrowed money into personal extravagances, including converting a former passenger ferry into a private yacht. The fraud went undetected for years — banks had accepted the pair's fabricated guarantees from a Hong Kong-based company at face value — until a German bank conducting its own due diligence in 2008 spotted inconsistencies that finally unraveled the scheme.
+
+The UK's Serious Fraud Office charged Kallakis and Williams, and on January 16, 2013, a jury at Southwark Crown Court convicted both of conspiracy to defraud. The trial judge initially sentenced Kallakis to seven years and five months and Williams to five years — sentences the Solicitor General, in one of the rare cases where the Law Officers intervene, argued were unduly lenient. The Court of Appeal agreed, and increased Kallakis's sentence to 11 years and Williams's to eight, calling the longer terms the "just and proportionate" response to a fraud of that size.
+
+Kallakis was released from prison in 2018 having served roughly half of his sentence, but the case was far from over: recovering any of the £760 million proved to be its own decade-long pursuit. In June 2019, a UK court ordered him to pay a £3.25 million confiscation order within six months or face a further seven years in prison — a sum that, set against the size of the original fraud, illustrated how little of the money authorities were ever able to trace and claw back. The SFO continued pursuing additional confiscation orders against Kallakis for years afterward, tracking down further assets more than a decade after his original conviction. The Kallakis case remains one of the largest mortgage frauds in British history, and a stark illustration of how far a fabricated reputation — reinforced by forged paperwork rather than real wealth — can carry someone through a banking system that trusted its own diligence process more than it should have.`,
+  },
+  {
+    title: "Boaz Manor: The Portus Hedge Fund Collapse He Followed With a Second Fraud in Disguise",
+    slug: 'boaz-manor-portus-cg-blockchain-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.sec.gov/news/press-release/2020-12',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/King_and_Bay.jpg?width=1200',
+    coverImageCredit: "Photo: Leslie Mateus, Wikimedia Commons (CC BY-SA 2.5) — Toronto's King and Bay financial district, where Manor's Portus Alternative Asset Management was based",
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    body: `Boaz Manor co-founded Portus Alternative Asset Management in Toronto in the early 2000s, pitching Canadian retail investors on principal-protected notes that promised market-linked returns with their original deposit guaranteed. In its roughly two years of operation, Portus raised about $730 to $800 million from more than 26,000 investors across Canada — an enormous base for a firm of its size, built heavily through bank and financial-advisor referral networks rather than sophisticated institutional money.
+
+The Ontario Securities Commission placed Portus into receivership in March 2005 after discovering that investor money had not actually been segregated and invested the way the firm's marketing described, and that the fund's liabilities — north of $1.1 billion against roughly $730 million raised — did not add up. Manor left for Israel as the OSC's investigation closed in, and remained there until 2007, when he returned to Canada after the RCMP filed 18 criminal charges against him, including fraud and money laundering. He ultimately pleaded guilty in 2010 to the reduced charges of breach of trust and disobeying a court order, receiving a four-year sentence of which he served about one year. A receivership recovery effort, aided by cooperating financial institutions, eventually returned investors roughly 95 cents on the dollar — one of the better outcomes among major Ponzi-adjacent collapses — while the OSC separately banned Manor from Canadian securities markets for life and ordered $8.8 million in disgorgement he was found unable to pay.
+
+Rather than stay out of finance, Manor resurfaced a decade later in an entirely different disguise — literally. The SEC's January 2020 complaint alleged that Manor darkened his hair, grew a beard, and adopted the alias "Shaun MacDonald," posing as an employee of a New Jersey business partner named Edith Pardo rather than disclosing that he was the same Boaz Manor convicted in the Portus collapse. Operating through companies called CG Blockchain Inc. and BCT Inc., the pair raised more than $30 million between August 2017 and September 2018 through an initial coin offering for a product called "Blockchain Terminal," which they falsely claimed was already being used live by hedge funds when it was, according to the SEC, still an early prototype that firms had only tried for free.
+
+Pardo pleaded guilty to conspiracy and fraud charges in the parallel criminal case and was sentenced in 2023; Manor himself has never been arrested on the U.S. charges and remains a fugitive as of this writing, his location unconfirmed. His case stands as a rare instance of a Ponzi-scheme operator getting a second act at fraud entirely outside the eyes of the regulators who had already banned him for life — proof that a securities ban in one country, and even a criminal record, does little to stop a determined operator willing to change his name, his face, and his jurisdiction rather than his methods.`,
+  },
+  {
+    title: "Yoshiaki Tsutsumi: From the World's Richest Man to a Falsified Shareholder Registry",
+    slug: 'yoshiaki-tsutsumi-seibu-railway-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://www.forbes.com/2005/10/27/japan-tsutsumi-fraud-cx_cn_1027autofacescan01.html',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Seibu_Group_buildings_Kusunoki,_Tokorozawa,_Saitama_pref,_Japan_2007-03-29.jpg?width=1200',
+    coverImageCredit: 'Photo: Tokoro ten, Wikimedia Commons (CC BY-SA 3.0) — the Seibu Railway headquarters in Tokorozawa, Saitama, the company at the center of the fraud',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    body: `Yoshiaki Tsutsumi inherited the Seibu conglomerate from his father in 1964 and built it into one of the largest business empires in Japan, spanning the Seibu Railway network, the Prince Hotels chain, the Seibu Lions baseball team, and, at its peak, real estate holdings that reportedly amounted to roughly one-sixth of all the land in Japan. Forbes ranked him the world's richest person every year from 1987 to 1994, with an estimated net worth as high as $20 billion during Japan's bubble-era boom — a level of visible wealth and influence that made Seibu's flagship railway company one of the most trusted names on the Tokyo Stock Exchange.
+
+Behind that reputation, Seibu Railway's actual ownership structure was a fiction. Tokyo Stock Exchange listing rules capped how much of a listed company's shares its largest shareholders could control, precisely so that a company's public float couldn't become a hollow formality controlled by a single family. Tsutsumi's privately held holding company, Kokudo Corporation, actually owned around 88% of Seibu Railway's shares — far above the 80% ceiling — but for years Seibu's securities filings falsely reported that stake at closer to 64%, using shares registered under the names of employees, their family members, and relatives of Tsutsumi's late father without those people's knowledge, to disguise the true concentration of control.
+
+Just before the falsification became public, in September 2004 Kokudo sold roughly 180 million Seibu Railway shares in undisclosed, off-market transactions worth an estimated ¥21.6 billion (about $216 million) to affiliated entities — trades prosecutors later charged as insider trading, since they were executed with knowledge of a securities-law violation about to become public that would send the stock into a collapse. When the falsified filings came to light in late 2004, Seibu Railway's share price fell from a peak near ¥8,000 to around ¥400, and the Tokyo Stock Exchange delisted the company in December 2004, ending a listing that had lasted decades.
+
+Tokyo prosecutors arrested Tsutsumi on March 3, 2005, and he pleaded guilty to violating Japan's Securities and Exchange Law through both the falsified reports and the insider trading. On October 27, 2005, the Tokyo District Court sentenced him to 30 months in prison, suspended for four years, alongside a fine of 5 million yen (about $43,000) — a penalty that struck many observers as remarkably light given the size of the company and the scale of the deception, though it ended his career as a public-company chairman. Tsutsumi remained an indirect major shareholder in the restructured Seibu group, and in 2016 — more than a decade after his conviction — he agreed to pay Seibu ¥25.6 billion (roughly $223 million) to settle related claims. His fall from the world's most photographed billionaire to a suspended sentence over a falsified shareholder registry remains one of the starkest illustrations of how a company's public ownership disclosures, treated by most investors as dry procedural paperwork, can be the thread that unravels an empire once regulators find out the numbers were never real.`,
+  },
+);
+
 // Practical "how it works / red flags / what to do" guides covering the
 // major scam categories, the same kind of coverage the FTC's Consumer
 // Advice site and AARP's Fraud Watch Network publish — well-documented
