@@ -2058,4 +2058,22 @@ No legitimate person or business "flips" someone else's money for free out of ge
     coverImagePosition: 50,
     // representative photo — the app where the scam commonly circulates, not the scam itself; replace with an exact match if found
   },
+  {
+    title: "The Kering Data Breach: How a Vished Salesforce Login Exposed Gucci, Balenciaga, and Alexander McQueen Customers' Data",
+    slug: "kering-2025-data-breach-guide",
+    author: "ScamShield Editorial",
+    tags: ["guide", "kering-2025-data-breach"],
+    body: `Kering, the French luxury conglomerate that owns Gucci, Balenciaga, Alexander McQueen, and Yves Saint Laurent, confirmed in mid-September 2025 that an outside party had gotten into a system holding customer records and copied a large batch of it. The company traced the intrusion back further than its public statement suggested: attackers first slipped into Gucci's systems in 2024, then returned in the spring of 2025 to reach a broader Salesforce customer-database platform shared across Kering's house of brands, an intrusion the company says it discovered in June 2025. Kering said the stolen information included customers' names, email addresses, phone numbers, home addresses, dates of birth, and — notably — how much money individual customers had spent in stores around the world. The company was clear that no credit card numbers or passwords were part of the theft, though it has never publicly confirmed exactly how many people were affected.
+
+The hacking group ShinyHunters claimed credit for the breach and told reporters it had stolen records on more than 7 million customers, a figure security researchers say is likely conservative given the scale of what was taken. Investigators have linked the intrusion to compromised employee credentials tied to Kering's Salesforce single sign-on system, obtained through a targeted phishing and impersonation campaign against company staff — the same broad playbook, often described as "vishing," or voice phishing, that hit a long list of other luxury retailers throughout 2025, including Louis Vuitton, Dior, Tiffany & Co., Chanel, Cartier, and Adidas. Rather than exploiting a software bug, the attackers talked their way past a help desk or an employee into a working login, which is often all it takes to walk out with an entire customer database.
+
+A name and email address alone might seem unremarkable, but pairing them with a home address, a date of birth, and a record of exactly how much someone spends at Gucci or Balenciaga gives a scammer everything needed to fake a very convincing follow-up. An email or text that references a real past purchase, addresses you by name, and asks you to "verify your account" or "confirm a recent order" is far more likely to be believed than a generic phishing attempt, and high-spending customers of luxury brands are a deliberately attractive target for exactly that kind of tailored con, sometimes escalating to a phone call from someone posing as a personal client advisor.
+
+If you've ever shopped at or registered with Gucci, Balenciaga, Alexander McQueen, Saint Laurent, or another Kering-owned brand, be skeptical of any unexpected email, text, or phone call referencing the brand, especially one asking you to click a link, "confirm your identity," or discuss a purchase — go directly to the brand's official website or call a boutique using a number you look up yourself rather than one given in the message. Because your date of birth was exposed alongside your name and contact details, that combination can also be used to attempt identity theft or account takeovers on unrelated accounts, so it's worth watching your other financial accounts for unusual activity and considering a free credit freeze with Equifax, Experian, and TransUnion if you're concerned. No passwords or payment card numbers were reported stolen in this incident, but any suspicious contact that references this breach can still be reported to the FTC at ReportFraud.ftc.gov.`,
+    sourceUrl: "https://techcrunch.com/2025/09/15/company-that-owns-gucci-balenciaga-other-brands-confirms-hack/",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Gucci_NYC_Flagship_(48064046878).jpg?width=1200",
+    coverImageCredit: "Photo: Ajay Suresh, CC BY 2.0, via Wikimedia Commons — the Gucci flagship store in New York",
+    coverImagePosition: 50,
+    // representative photo — a Gucci storefront, not the specific Salesforce system that was breached; replace with an exact match if found
+  },
 ];
