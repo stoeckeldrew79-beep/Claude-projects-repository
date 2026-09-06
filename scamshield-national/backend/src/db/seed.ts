@@ -11098,6 +11098,67 @@ The RVAF collapse stands as one of South Africa's largest Ponzi schemes and a ca
   },
 );
 
+NOTORIOUS_ARTICLES.push(
+  {
+    title: 'Obinwanne Okeke, "Invictus Obi": The Forbes 30 Under 30 Honoree Who Hid an $11 Million Wire Fraud Behind a Business Empire',
+    slug: 'obinwanne-okeke-invictus-obi-caterpillar-wire-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://www.justice.gov/usao-edva/pr/nigerian-national-sentenced-prison-11-million-global-fraud-scheme',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Caterpillar_D6R_LGP.JPG?width=1200',
+    coverImageCredit: "Photo: Alf van Beem, Wikimedia Commons (CC0) — a Caterpillar D6R bulldozer, representing Caterpillar's export business that Okeke's scheme defrauded of $11 million",
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    body: `By his late twenties, Obinwanne Okeke had built a public profile most entrepreneurs twice his age would envy. Operating out of Anambra State, Nigeria, he ran the Invictus Group, a conglomerate he described as spanning oil and gas, real estate, technology, and agriculture, and cultivated a media presence to match: magazine profiles, conference appearances, and a spot on Forbes Africa's 30 Under 30 list in 2016 that cemented his reputation as one of the continent's most promising young business leaders. It was that same reputation — built on visible, legitimate-looking ventures — that made the criminal enterprise running underneath it so effective for so long.
+
+Beginning around 2015, Okeke and a network of co-conspirators operated a business email compromise (BEC) scheme, phishing hundreds of victims worldwide to harvest login credentials they could then use to impersonate real executives inside real companies. The operation's biggest score came in April 2018, when an executive at Unatrac Holding Limited — the UK-based export sales office that handles international sales of Caterpillar heavy industrial and farm equipment — fell for a phishing email that handed the conspirators access to his email account. Posing as the compromised executive in internal correspondence, the conspirators sent finance staff fraudulent wire-transfer instructions accompanied by fabricated invoices, ultimately diverting close to $11 million in company funds into bank accounts the conspirators controlled overseas.
+
+The scheme unraveled when FBI agents arrested Okeke in August 2019 at Dulles International Airport in Virginia, as he prepared to board a return flight to Nigeria after a visit to the United States. Confronted with evidence gathered during the investigation, Okeke pleaded guilty in 2020 to a single count of conspiracy to commit wire fraud. On February 16, 2021, a federal court in the Eastern District of Virginia sentenced him to 10 years in prison and ordered him to pay restitution to Unatrac and the scheme's other victims — a sharp fall for a man Forbes had celebrated as an emerging African success story only a few years earlier.
+
+Okeke's case became one of the most closely watched cybercrime prosecutions to come out of Nigeria precisely because of the contrast at its center: a real, outwardly legitimate business empire providing cover, credibility, and — investigators suspected — financial infrastructure for a scheme aimed at ordinary corporate finance departments an ocean away. It is also a reminder that business email compromise fraud — a single well-crafted phishing email, followed by wire instructions that look routine to an overworked accounts-payable clerk — has proven capable of extracting tens of millions of dollars from a single company far more quietly, and often far more successfully, than any flashier investment scam.`,
+  },
+  {
+    title: 'Cees van der Hoeven and the $880 Million Rebate Fraud Behind "Europe\'s Enron"',
+    slug: 'cees-van-der-hoeven-royal-ahold-accounting-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://www.bloomberg.com/news/articles/2009-01-28/ex-ahold-ceo-van-der-hoeven-fined-39-800-in-dutch-fraud-case',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Albert_Heijn_Headquarters_by_Niels_Kim.jpg?width=1200',
+    coverImageCredit: 'Photo: Niels Kim, Wikimedia Commons (CC BY-SA 3.0) — the Zaandam, Netherlands headquarters building of Albert Heijn, the supermarket chain around which Royal Ahold was built',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    body: `Cees van der Hoeven took over as chief executive of Royal Ahold in 1993 and spent the next decade turning the Dutch company — built around the Albert Heijn supermarket chain — into the world's third-largest food retailer, largely through an aggressive string of debt-fueled acquisitions across Europe, Latin America, and the United States. The most consequential of those deals was Ahold's 2000 purchase of U.S. Foodservice, a Columbia, Maryland-based wholesale distributor supplying restaurants, hospitals, and cafeterias across America — a subsidiary that would ultimately bring the entire company down.
+
+On February 24, 2003, Ahold stunned investors with an announcement that it would restate several years of earnings, that its internal controls had failed, and that van der Hoeven and chief financial officer A. Michiel Meurs were both resigning immediately. Ahold's shares plunged more than 60% in a single trading session, wiping out billions of euros in market value virtually overnight, and financial journalists across Europe quickly dubbed the collapse "Europe's Enron."
+
+At the center of the fraud were "promotional allowances" — rebates that food manufacturers pay wholesalers in exchange for shelf space and promotional support. U.S. Foodservice executives, led by marketing chief Mark Kaiser and purchasing head Timothy Lee, recorded allowances that suppliers had never actually agreed to pay, then pressured some of those suppliers to sign false confirmation letters backing up the fabricated numbers when Ahold's outside auditors came asking. U.S. federal prosecutors said the fictitious rebates inflated U.S. Foodservice's reported income by more than $800 million between 2000 and 2003, contributing to a restatement of Ahold's consolidated net income by roughly $1.1 billion across those same years.
+
+The fraud was prosecuted on two separate continents. In the United States, the SEC filed civil fraud charges against van der Hoeven, Meurs, and other executives in 2004, while federal prosecutors pursued the U.S. Foodservice executives criminally; Kaiser was convicted at trial and sentenced in 2007 to seven years in prison, but an appeals court later found errors in the jury instructions and ordered a new trial, after which Kaiser pleaded guilty and was resentenced in December 2011 to 46 months. In the Netherlands, prosecutors charged van der Hoeven with misleading Ahold's own auditors about how the company consolidated the results of joint ventures in Scandinavia and South America; a Dutch court convicted him and Meurs in 2006, sentencing each to a nine-month suspended term and a €225,000 fine, a verdict an Amsterdam appeals court upheld in 2009 while reducing van der Hoeven's fine to €30,000.
+
+The disparity in outcomes — years in a U.S. federal prison for the mid-level executives who fabricated the underlying rebate paperwork, a suspended sentence and a comparatively small fine for the CEO whose acquisitions and growth targets created the pressure to fabricate it — became one of the case's most debated legacies. Ahold itself settled with the SEC without admitting or denying wrongdoing and paid no fine, while shareholders separately recovered roughly $1.1 billion through a U.S. class-action settlement, a fraction of the value wiped out the day the fraud came to light.`,
+  },
+  {
+    title: 'Gregory Reyes: The First CEO Convicted in the Stock Options Backdating Scandal',
+    slug: 'gregory-reyes-brocade-stock-options-backdating',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-19768',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/San_Jose_Skyline_Silicon_Valley.jpg?width=1200',
+    coverImageCredit: 'Photo: Michael, Wikimedia Commons (CC BY 2.0) — the Silicon Valley skyline near San Jose, California, where Brocade Communications was headquartered during the backdating scheme',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    body: `Gregory Reyes became chief executive of Brocade Communications Systems, a Silicon Valley maker of storage-networking hardware, in 1998 and took the company public the following year, steering it through the fierce competition for engineering talent that defined the dot-com boom. To help Brocade compete for hires against better-funded rivals, Reyes turned to a tactic that would eventually make him a household name in corporate-fraud circles: backdating employee stock options.
+
+Rather than granting new stock options at the price on the actual date they were awarded, Reyes and Brocade's vice president of human resources, Stephanie Jensen, routinely picked a date after the fact — typically a day when Brocade's stock had hit a low point somewhere in the preceding weeks or months — and recorded that earlier, cheaper price on the paperwork as the official "grant date." That made the options already profitable the moment employees received them, without Brocade ever recording the resulting compensation expense on its books, as accounting rules required. According to the SEC, the practice covered the majority of new-hire option grants at Brocade between 2000 and 2004, and Jensen at times fabricated records of board committee meetings and even backdated grants to dates before an employee's actual start date.
+
+The scheme surfaced in 2006 amid a broader wave of stock-option-backdating investigations that eventually touched more than 200 U.S. companies. Brocade was forced to restate five years of financial statements, increasing its previously reported expenses by $229 million, and Reyes became the first corporate executive in the country to stand trial over backdating. A jury convicted him in August 2007 on ten counts of securities fraud, and he was sentenced to 21 months in prison and a $15 million fine — but in 2009 the Ninth Circuit threw the conviction out, ruling that prosecutors had misstated evidence to the jury during closing arguments, telling jurors Brocade's finance department was entirely unaware of the backdating when, in fact, several senior finance employees had told the FBI otherwise before trial.
+
+Prosecutors retried Reyes from scratch, and a second jury convicted him again in March 2010 on nine of the original ten counts; he was resentenced to 18 months in prison, along with another $15 million fine, a verdict the appeals court upheld. Jensen, who had prepared the falsified paperwork at Reyes's direction, was separately convicted and sentenced in 2008 to four months in prison and a $1.25 million fine, with the trial judge citing a need to deter other executives from aiding similar schemes even as he acknowledged her apparent remorse.
+
+Brocade's case became the bellwether for the options-backdating scandal that swept through Silicon Valley in the mid-2000s, and Reyes's decade-long path through two trials illustrated just how ordinary the practice of quietly repricing option grants after the fact had become at fast-growing technology companies competing for talent — and how difficult prosecutors found it to make backdating stick as a personal criminal conviction against the chief executive who ordered it, even with a paper trail as extensive as Brocade's.`,
+  },
+);
+
 // Practical "how it works / red flags / what to do" guides covering the
 // major scam categories, the same kind of coverage the FTC's Consumer
 // Advice site and AARP's Fraud Watch Network publish — well-documented
