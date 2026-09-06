@@ -3739,6 +3739,24 @@ In April 2026, the State Department's Transnational Organized Crime Rewards Prog
     coverImageCredit: "Photo: Base64, Wikimedia Commons (CC BY-SA 3.0) — Hong Kong, where Legkodymov's exchange Bitzlato was registered",
     coverImagePosition: 60,
   },
+  {
+    title: "Carlos Manrique and the CLAE 'Parallel Bank' That Swallowed the Savings of 200,000 Peruvians",
+    slug: "carlos-manrique-clae-peru-pyramid-scheme",
+    author: "ScamShield Editorial",
+    tags: ["notorious", "notorious-scammer", "historical"],
+    sourceUrl: "https://www.infobae.com/peru/2024/07/10/fallecio-carlos-manrique-creador-del-clae-y-autor-de-la-mayor-estafa-financiera-en-la-historia-del-peru/",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Palacio_de_Justicia_de_Lima,_Peru.jpg?width=1200",
+    coverImageCredit: "Photo: Miguel Francisco Rueda Ñañez, Wikimedia Commons (CC BY-SA 4.0) — the Palacio de Justicia in Lima, where Peru's courts eventually confronted CLAE's collapse",
+    coverImagePosition: 45,
+    // representative photo — replace with a portrait if found
+    body: `Carlos Manrique Carreño founded the Centro Latinoamericano de Asesoramiento Empresarial, universally known by its acronym CLAE, in Lima in February 1978 as a business-consulting outfit. It found its real business a decade later, during the hyperinflation that devastated Peru's economy in the final years of President Alan García's first term, when the country's formal banks paid savers interest rates that lagged far behind prices doubling every few months. CLAE offered a strikingly different deal: deposit contracts and promissory notes paying 80 to 100 percent, honored promptly and in full, at a time when trust in Peru's regulated financial system was collapsing along with the currency.
+
+Word of mouth did the rest. Between 1989 and 1992 — CLAE's peak years — the company signed thousands of new deposit contracts and became what Peruvians came to call a "banca paralela," a parallel bank operating completely outside the licensing, reserve requirements, and deposit-insurance rules that governed real ones. At its height CLAE was estimated to hold funds equivalent to roughly 40 percent of the liquidity in Peru's entire formal financial system, drawn from close to 200,000 depositors — schoolteachers, shopkeepers, and retirees who trusted Manrique's promissory notes more than they trusted the banks. None of it was backed by a reserve fund, verified by a banking regulator, or invested in anything capable of generating the returns being paid out; new deposits were what funded the interest owed to earlier depositors, the same arithmetic underlying every Ponzi scheme, dressed up as an alternative to a banking sector Peruvians had good reason to distrust.
+
+Peru's banking and insurance regulator, the SBS, opened an investigation into CLAE's mismanagement in 1992 as complaints of missed payments mounted, and when Manrique could not produce records showing the company held anything close to what it owed depositors, the government intervened CLAE on April 29, 1993, freezing its operations; Peru's Supreme Court ordered it formally dissolved just over a year later. Manrique had already fled the country by then, reportedly moving through several jurisdictions before US authorities arrested him in Miami in 1994. Peru extradited him in 1995, and he was convicted of fraud, ultimately serving roughly six years of an eight-year sentence before his release in 2001 — a strikingly short reckoning set against a fraud that, by regulators' own estimates, moved more than $600 million without ever being accountable to anyone.
+
+CLAE's collapse left a durable scar on Peru's culture around informal finance: the label "claeístas" stuck to the scheme's victims for a generation, and CLAE remains the reference point Peruvian financial educators and regulators point to whenever a new too-good-to-be-true investment vehicle appears promising the double-digit monthly returns no legitimate, regulated institution can safely offer. Manrique spent his later years largely out of public view, occasionally resurfacing in interviews defending his conduct as a response to a broken banking system rather than a deliberate fraud; he died in a Lima hospital on July 10, 2024, from pulmonary and kidney complications, just short of his 90th birthday, having never repaid the vast majority of what CLAE's roughly 200,000 depositors were owed.`,
+  },
 ];
 
 NotoriousAF.push(
