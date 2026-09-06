@@ -3218,4 +3218,16 @@ export const UsNS: SeedScam[] = [
     country: "US",
     state: "NC",
   },
+  {
+    name: "Cryptocurrency Kiosk \"Emergency\" Cash Deposit Scam",
+    slug: "nevada-cryptocurrency-kiosk-emergency-deposit-scam",
+    description:
+      "Nevada Attorney General Aaron Ford issued a consumer alert on June 5, 2026, warning residents about a fast-growing scam built around cryptocurrency kiosks — machines resembling ordinary ATMs, commonly found in gas stations, supermarkets, bars, and convenience stores, that convert cash into digital currency. The scam almost always starts with an unsolicited phone call, text, email, or pop-up designed to manufacture fear and urgency, frequently with the caller impersonating a relative in crisis, a law enforcement officer, or a representative of a legitimate company or government agency. Once the target is convinced an emergency exists — a supposed arrest to bail out, a fine to pay, a compromised bank account to \"protect\" — the caller directs them to the nearest crypto kiosk and talks them through feeding in cash and scanning a QR code tied to the scammer's own digital wallet. \"Scammers will use cryptocurrency kiosks to trick you into transferring money in an almost untraceable manner,\" Ford said, noting that once funds move through one of these machines, the transaction cannot be reversed and is extremely difficult to trace, unlike a wire transfer or bank dispute that at least offers some chance of recovery. FBI data cited by AARP shows the losses are not marginal: cryptocurrency kiosk fraud accounted for over $389 million in reported losses in 2025 alone, and the scam disproportionately targets older adults. Ford's guidance is to treat the request itself as the warning sign: \"If a person asks you to use a cryptocurrency kiosk to transfer money, stop and consider if the interaction feels above board\" — no legitimate government agency, bank, or business will ever direct someone to resolve a debt, fine, or emergency by depositing cash into one of these machines. Nevadans who believe they've encountered this scam are urged to stop the transaction if possible and file a complaint with the Attorney General's office.",
+    categorySlug: "family-emergency-scams",
+    alertLevel: "high",
+    sources: ["Nevada Attorney General's Office","FOX5 Las Vegas (KVVU)","AARP"],
+    sourceUrl: "https://ag.nv.gov/News/PR/2026/Attorney_General_Ford_Warns_Nevadans_of_Cryptocurrency_Kiosk_Scams/",
+    country: "US",
+    state: "NV",
+  },
 ];
