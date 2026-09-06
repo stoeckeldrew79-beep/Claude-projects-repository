@@ -41994,6 +41994,40 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'Crelan Bank "CEO Fraud" Business Email Compromise',
+    slug: 'belgium-crelan-bank-ceo-fraud',
+    description: `On January 19, 2016, Belgian cooperative bank Crelan (then known as Landbouwkrediet in Flanders) disclosed that it had lost approximately €70 million (about $75.8 million) to a "CEO fraud" business email compromise scheme uncovered by an internal audit. The attackers impersonated a senior executive by email, instructing an employee in the finance department to authorize a series of wire transfers, without ever needing to breach the bank's core systems — the fraud relied entirely on social engineering rather than a technical intrusion. Crelan CEO Luc Versele said the bank's historic capital reserves of roughly €1.1 billion meant it could absorb the loss "without any negative impact for our customers and affiliates," and the bank stated no client accounts or funds were affected, since the stolen money came from the bank's own operating funds rather than customer deposits. Crelan reported the fraud to Belgian judicial authorities and said it had since reinforced its internal payment-authorization procedures. At the time, security researchers flagged it as one of the largest publicly disclosed CEO fraud losses by a single financial institution, underscoring how the scam targets a company's payment-approval workflow rather than its firewalls — a single convincing email to the right employee, timed to look urgent and confidential, was enough to move tens of millions of euros before anyone caught it.`,
+    categorySlug: 'business-email-compromise',
+    country: 'BE',
+    isHistorical: true,
+    firstRecorded: '2016-01-19',
+    sources: ['The Brussels Times', 'Help Net Security'],
+    sourceUrl: 'https://www.brusselstimes.com/36335/belgian-bank-crelan-hit-by-a-70-million-eur-fraud',
+  },
+  {
+    name: 'Fake FSMA "Recovery Room" Investment-Fraud Follow-Up Scam',
+    slug: 'belgium-fsma-recovery-room-fraud',
+    description: `Belgium's Financial Services and Markets Authority (FSMA) has repeatedly warned — including in a formal notice on August 14, 2025 — that fraudsters are contacting people who already lost money to an earlier investment scam and impersonating FSMA staff, lawyers, accountants, or police officers to offer to "recover" the stolen funds. In the August 2025 warning, the FSMA flagged specific outfits operating this way, including one calling itself "Cyber Justice" (justice-cyberguard.com), another as "GL Markets" (glmarkets.io), and a "Money Recovery" service (moneyrecovery.me/.uk) — some of which the FSMA said were also stealing the identities of real, unrelated organizations such as the crypto exchange Bybit, the European Blockchain Association, and a financial-sector ombudsman service to look more credible. The pitch typically demands an upfront "administrative," "legal," or "tax" fee before any funds can supposedly be released, or asks the victim to install remote-desktop software or set up a new cryptocurrency wallet — both of which give the fraudsters direct access to whatever money or credentials the victim has left. The FSMA has stated plainly that it is not authorized to recover lost investments and would never itself contact a fraud victim with such an offer, and its half-yearly fraud dashboard recorded a 57% jump in recovery-room fraud reports in 2024 alone, part of a broader wave in which Belgian consumers reported losing more than €23 million to fraudulent investment platforms in the second half of 2025.`,
+    categorySlug: 'investment-fraud',
+    country: 'BE',
+    alertLevel: 'high',
+    sources: ['Belgian Financial Services and Markets Authority (FSMA)'],
+    sourceUrl: 'https://www.fsma.be/en/warnings/fsma-warns-against-certain-companies-suspected-recovery-room-fraud-1',
+  },
+  {
+    name: 'Fake "Pierre Garnier" Celebrity-Impersonation Romance Scam',
+    slug: 'belgium-pierre-garnier-romance-scam',
+    description: `Belgian media reported in November 2025 that a Belgian woman in her seventies, recently widowed and living in the country's central region, had been drawn into an online relationship with someone impersonating French singer Pierre Garnier — winner of the televised talent show Star Academy, announced in February 2024 — after she was contacted through a fan group for the show on social media. The impostor quickly declared romantic feelings and, over the following months, made a series of escalating requests for money, framed as help getting through difficult personal circumstances; the victim ultimately wired more than €7,000 to a succession of different bank accounts the fake "Garnier" provided. Convinced she was in a genuine long-distance relationship with the artist, she gradually cut off contact with her own family, and it was her adult children — alarmed by her changed behavior — who eventually uncovered the deception; her son publicly appealed for the real Pierre Garnier to record a video message so his mother would accept that the person taking her money was not him. Local police in Belgium have separately flagged romance scams as a fast-growing problem, citing Federal Public Service Economy figures that valued reported "sentimental scam" losses at more than €9 million in 2021 alone and noting that roughly one in twenty people in Belgium has been targeted by this kind of fraud — with the appeal of a public figure or celebrity persona used specifically to make the fabricated relationship feel more real and to justify why an in-person meeting never happens.`,
+    categorySlug: 'romance-scams',
+    country: 'BE',
+    alertLevel: 'high',
+    sources: ['Local Police S.H.A.P.E. (Belgium)', 'France 3 Normandie (France Télévisions)', 'Europe 1'],
+    sourceUrl: 'https://www.police.be/shape/en/questions/cyber-prevention/the-love-scammers-have-already-caused-millions-of-euros-to-be-lost',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
