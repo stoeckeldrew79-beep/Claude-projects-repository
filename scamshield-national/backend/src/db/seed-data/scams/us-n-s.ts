@@ -3296,4 +3296,15 @@ export const UsNS: SeedScam[] = [
     country: "US",
     state: "NH",
   },
+  {
+    name: "North Carolina Fake Workers' Compensation Hearing Scam",
+    slug: "north-carolina-fake-workers-compensation-hearing-scam",
+    description: `The North Carolina Industrial Commission, the state agency that administers workers' compensation claims, warned residents in mid-May 2026 about a fraud scheme in which criminals contact injured workers by phone, text, email, video call, and social media, falsely posing as a government employee, judge, attorney, or Industrial Commission staffer handling the worker's own case. The scammers pressure claimants into joining a fake online workers' compensation hearing — complete with actors posing as a judge, bailiff, or opposing attorney — that concludes with an official-looking ruling in the worker's favor, then tell the claimant they must pay a fee before any benefits or settlement can actually be released. North Carolina Attorney General Jeff Jackson's office amplified the warning, noting the scheme was hitting workers' compensation claimants "across multiple states through the use of official-looking communications and fake hearings," with Spanish-speaking workers across the South and West disproportionately targeted. The Industrial Commission said plainly that "these scams appear official with fake hearings and impersonated professionals with the intent of stealing money from the claimant and other injured workers," and stressed that it never contacts claimants by text message, video call, or social media, and that no legitimate agency will ever demand payment before releasing workers' compensation benefits or a settlement. North Carolinians who receive a suspicious call, text, or message about a workers' compensation claim are urged not to respond or send money, to verify the claim's real status by calling the Industrial Commission's Information Specialists directly at 800-688-8349 or 919-716-1700, and to report the scheme to the Commission's Criminal Investigations Division at fraudcomplaints@ic.nc.gov or 888-891-4895.`,
+    categorySlug: "employment-scams",
+    alertLevel: "medium",
+    sources: ["North Carolina Industrial Commission", "North Carolina Department of Justice (Attorney General's Office)", "Insurance Journal", "WITN"],
+    sourceUrl: "https://ncdoj.gov/attorney-general-jeff-jackson-warns-north-carolinians-of-workers-compensation-fraud-scheme/",
+    country: "US",
+    state: "NC",
+  },
 ];
