@@ -45624,6 +45624,39 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'Fake National Bank of Moldova Loan-Cancellation Phishing Messages',
+    slug: 'moldova-fake-national-bank-loan-cancellation-phishing',
+    description: `The National Bank of Moldova (BNM) issued a public warning on May 14, 2026 after fraudsters began circulating fake messages through Viber, WhatsApp, Telegram, and other messaging apps that impersonate the central bank, complete with forged BNM logos, fabricated document numbers, and officials' signatures the bank never issued. The messages tell recipients they have an "alleged loan," a pending "cancellation request," or a stalled "money transfer" that requires the victim to follow further instructions — a pretext designed to extract personal data, banking credentials, or payments to resolve a problem that doesn't exist. The BNM stated flatly that it "categorically denies the authenticity of these messages and documents and clarifies that they were not issued, approved, or sent by the institution," adding that it never contacts citizens to request personal data or passwords, never issues loans directly to individuals, never asks for transfers to "cancel" a supposed operation, and never creates group chats or assigns "specialists" to resolve a citizen's financial matter one-on-one. The bank urged anyone who receives such a message to stop responding immediately, avoid clicking any links or sharing identity documents or banking details, and report the message to their own bank and to the authorities.`,
+    categorySlug: 'phishing',
+    country: 'MD',
+    alertLevel: 'high',
+    sources: ['National Bank of Moldova (BNM)'],
+    sourceUrl: 'https://bnm.md/en/content/beware-fraud-nbm-warns-attempts-misuse-institutions-identity',
+  },
+  {
+    name: 'Fake Dubai Property and Investment App Scam',
+    slug: 'moldova-dubai-investment-app-scam',
+    description: `Moldovan police disclosed on July 9, 2026 that they had opened five new phone-fraud cases totaling roughly €76,500 (about 1.5 million lei) in losses, while also crediting officers with intercepting and stopping 140 additional scam attempts before any money changed hands. The most serious of the five involved a victim who was contacted through an online investment application and persuaded to wire money over several months toward what were presented as lucrative property purchases and investment opportunities in Dubai; the transfers eventually totaled more than €51,000, and the victim only reported the fraud to police four months after the payments began, by which point recovery was no longer possible. Police reiterated their standard guidance in response — never disclose personal or banking details over the phone, never share an SMS confirmation code with a caller no matter how official they sound, and hang up and report any unsolicited financial pitch through official channels rather than a number or app the caller provides — noting that the gap between when a victim starts paying and when they finally report the fraud is often the single biggest reason the money can't be traced or recovered.`,
+    categorySlug: 'investment-fraud',
+    country: 'MD',
+    alertLevel: 'high',
+    sources: ['Radio Moldova', 'Moldovan Police'],
+    sourceUrl: 'https://radiomoldova.md/p/80461/moldova-police-foil-140-phone-scams-amid-76k-investment-fraud',
+  },
+  {
+    name: 'Romania-Moldova Fake Cryptocurrency Investment Platform Network',
+    slug: 'moldova-romania-crypto-investment-platform-network',
+    description: `A joint Romanian-Moldovan organized crime group ran a cross-border fake cryptocurrency investment scheme that targeted more than 150 victims from 2022 onward, taking in an estimated €3 million before a coordinated law enforcement action, supported by Eurojust and Europol, took it down on August 7, 2024. The group placed misleading online advertisements for a supposed crypto investment opportunity, lending it false credibility by misusing the images and names of well-known public figures alongside forged bank logos and fabricated economic-publication branding. Victims who responded were directed to a fake investment platform and asked to hand over personal information; the fraudsters then called the victims directly, posing as financial professionals, and used that trust to gain access to victims' real bank accounts, from which they transferred out funds and stole cryptocurrency holdings outright rather than merely showing fabricated "returns" on a screen. On the August 2024 action day, Moldova's Prosecutor's Office for Combating Organized Crime and Special Cases carried out 19 house searches and ordered the preventive detention of suspects as part of a total of 12 people detained across both countries, while Europol ran a virtual command post and provided on-the-spot cryptocurrency-tracing support. The case illustrates how a fake investment platform is frequently just the first stage of a scheme that ultimately aims for direct access to a victim's existing bank accounts, not merely a one-time deposit into the platform itself.`,
+    categorySlug: 'investment-fraud',
+    country: 'MD',
+    alertLevel: 'high',
+    sources: ['Eurojust', 'Europol'],
+    sourceUrl: 'https://www.eurojust.europa.eu/news/financial-scammers-detained-following-actions-coordinated-eurojust',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
