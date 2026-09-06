@@ -45278,6 +45278,42 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'Lee\'s Summit Storage-Unit Pooling Ponzi Scheme (Trevor Uhls)',
+    slug: 'missouri-lees-summit-uhls-storage-unit-ponzi-scheme',
+    description: `Trevor Uhls, 29, of Lee's Summit, Missouri, texted acquaintances and other investors pitching a chance to earn 8.5% returns by pooling their money into storage-unit investments, according to a federal criminal complaint. At least 24 investors wired Uhls more than $2 million combined, including one Independence, Missouri investor who sent $15,000 on June 12, 2025 after Uhls promised the money would go toward buying storage units to rent out. Instead of investing the funds, prosecutors say Uhls combined that $15,000 with another $5,000 and spent $20,155.35 on a Rolex GMT-Master II watch and matching Jubilee bracelet from a Kansas City jeweler, using new investors' money to keep paying off earlier ones in a classic Ponzi structure. U.S. District Judge Stephen R. Bough issued a temporary restraining order against Uhls on July 20, 2026, barring him from soliciting more investors or moving the remaining funds while the U.S. Attorney's Office for the Western District of Missouri pursues wire fraud and money laundering charges that carry up to 20 and 10 years in prison respectively. The case shows how an informal, text-message investment pitch from someone in a person's own social circle can be just as much a Ponzi scheme as a polished one: a real storage-unit or rental-property investment produces a lease, a deed, or an LLC operating agreement naming the specific asset, and any pooled investment promising a fixed high return with no paperwork tying money to an actual purchase is a signal to ask an independent adviser before wiring funds.`,
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    state: 'MO',
+    alertLevel: 'high',
+    sources: ['U.S. Attorney\'s Office, Western District of Missouri', 'Internal Revenue Service Criminal Investigation'],
+    sourceUrl: 'https://www.justice.gov/usao-wdmo/pr/criminal-complaint-filed-against-lees-summit-missouri-man-ponzi-scheme-defrauding',
+  },
+  {
+    name: 'Baker City Investment Adviser Stock Theft (Jeffrey Higgins)',
+    slug: 'oregon-baker-city-higgins-investment-adviser-fraud',
+    description: `Jeffrey Thomas Higgins worked as an investment adviser in Baker City, Oregon for nearly two decades, from December 2007 through June 2024, telling clients he was buying stock on their behalf at a deep discount to market price. In reality, prosecutors say Higgins purchased the shares at ordinary market prices, then quietly sold them without the clients' knowledge and transferred the proceeds into his own personal bank account, sending fabricated annual statements that showed the exaggerated "discounted" holdings still safely on the books to keep the theft hidden. At least fourteen investors lost a combined $1.6 million or more before the scheme unraveled. Higgins, 54, pleaded guilty in June 2026 to investment adviser fraud and agreed as part of his plea to pay full restitution exceeding $1.6 million; he faces up to five years in prison, a $10,000 fine, and three years of supervised probation when a federal judge in the District of Oregon sentences him on December 7, 2026. The nearly 17-year run of the scheme underscores why investors should insist on statements that come directly from an independent, SEC- or state-registered custodian rather than only from the adviser managing the account — an adviser who also generates the paperwork showing how well an investment is doing has both the access and the motive to make losses disappear on paper.`,
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    state: 'OR',
+    alertLevel: 'high',
+    sources: ['U.S. Attorney\'s Office, District of Oregon'],
+    sourceUrl: 'https://www.justice.gov/usao-or/pr/baker-city-man-pleads-guilty-investment-fraud',
+  },
+  {
+    name: 'Rapha Residential Care Housekeeper Debit Card Theft (Cecily Haselden)',
+    slug: 'south-carolina-rapha-residential-care-haselden-debit-card-theft',
+    description: `Cecily Haselden, 30, worked as a housekeeper at Rapha Residential Care, an assisted living facility in Lexington County, South Carolina, where investigators say she used her access to the building to take residents' debit cards without permission and run up unauthorized charges for her own benefit. A joint investigation by the South Carolina Attorney General's Vulnerable Adults and Medicaid Provider Fraud (VAMPF) Unit and the Lexington County Sheriff's Office found that four vulnerable adult residents each had more than $500 in unauthorized transactions on their cards between August 2025 and January 2026. Haselden was booked into the Lexington County Detention Center on September 1, 2026, facing four counts of exploitation of a vulnerable adult and four counts of financial transaction card fraud; the Attorney General's Office is prosecuting the case, and all defendants are presumed innocent until proven guilty in court. Families with a relative in assisted living or memory care should ask the facility how staff access to residents' rooms, wallets, and payment cards is logged and supervised, and should check bank and card statements on a resident's account regularly rather than assuming a facility's own internal controls will catch small, repeated unauthorized charges before they add up.`,
+    categorySlug: 'identity-theft',
+    country: 'US',
+    state: 'SC',
+    alertLevel: 'medium',
+    sources: ['South Carolina Attorney General\'s Office'],
+    sourceUrl: 'https://www.scag.gov/about-the-office/news/attorney-general-alan-wilson-announces-housekeeper-charged-with-stealing-from-assisted-living-residents/',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
