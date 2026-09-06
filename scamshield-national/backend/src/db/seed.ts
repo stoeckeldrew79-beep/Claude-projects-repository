@@ -11744,6 +11744,67 @@ The case became one of the most widely cited examples of business email compromi
   },
 );
 
+NOTORIOUS_ARTICLES.push(
+  {
+    title: "Mario Conde and the $3.6 Billion Hole That Sank Banesto",
+    slug: 'mario-conde-banesto-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://en.wikipedia.org/wiki/Mario_Conde',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Mario_Conde.jpg?width=1200',
+    coverImageCredit: 'Photo: Periodista Digital, Wikimedia Commons (CC BY 4.0) — Mario Conde, the Banesto chairman behind Spain\'s first-ever bank intervention',
+    coverImagePosition: 40,
+    body: `Mario Conde trained as a state lawyer before reinventing himself as a financier, and in October 1987 he and fellow investor Juan Abelló bought a controlling stake in Banco Español de Crédito, known as Banesto — one of Spain's oldest and largest banks. Appointed executive chairman that December, Conde spent the next six years turning himself into a celebrity of Spain's post-Franco economic boom: young, telegenic, politically ambitious, and running a bank that by the early 1990s ranked as the country's third-largest banking group and the fifth-biggest company on the IBEX 35, with roughly 1,770 branches.
+
+That reputation for financial brilliance concealed a bank that had been quietly hollowed out. On December 28, 1993, Bank of Spain governor Luis Ángel Rojo ordered the first government intervention of a bank in Spanish history after an audit uncovered a capital shortfall of roughly $3.6 billion in Banesto's accounts — the product, regulators concluded, of years of aggressive lending and asset revaluations that had never been properly disclosed. Securities regulator Luis Carlos Croissier halted trading in Banesto's shares, and Conde was removed as chairman the following day. The central bank recapitalized the bank and, in 1994, sold it off in a rescue auction won by rival Banco Santander — effectively ending Banesto's independent existence.
+
+Conde was arrested on December 24, 1994, and jailed without bail on charges of fraud, embezzlement, and false accounting. Prosecutors alleged that he and other Banesto executives had diverted bank funds through unauthorized transactions routed via Conde's own holding vehicle, Argentia Trust, ultimately tracing millions of dollars into a Swiss account whose full destination Conde never fully explained at trial. Spain's National Court convicted him in March 2000 and sentenced him to ten years and two months for misappropriation, fraud, and falsifying accounts; two years later, in July 2002, the Supreme Court — weighing his convictions across the related Banesto prosecutions together — set his total prison term at twenty years. Under Spain's sentencing rules Conde served only a fraction of that before being released on parole in 2005.
+
+Prison did little to end Conde's public life. He remade himself as an author, television commentator, and occasional political candidate in the years that followed — until 2016, when Spanish police arrested him and his daughter on suspicion of money laundering and tax fraud, alleging he had been quietly funneling money originally embezzled from Banesto back into Spain through shell structures more than two decades after the bank's collapse.
+
+The Banesto affair remains the reference case Spanish regulators point to when explaining why a bank chairman's personal financial vehicles need to be walled off from the institution he runs: a systemically important lender brought down not by a market crash but by the private dealings of the man at its helm, in a collapse whose eventual sale to Santander reshaped Spanish banking for a generation.`,
+  },
+  {
+    title: 'Sergio Cragnotti and the $1.2 Billion Cirio Bond Collapse',
+    slug: 'sergio-cragnotti-cirio-bond-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://en.wikipedia.org/wiki/Sergio_Cragnotti',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Stadio_Olimpico_(Roma,_ITA).jpg?width=1200',
+    coverImageCredit: "Photo: ildirettore, Wikimedia Commons (CC BY 3.0) — Rome's Stadio Olimpico, home of S.S. Lazio during Sergio Cragnotti's presidency",
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    body: `Sergio Cragnotti rose through Italy's Ferruzzi industrial empire in the 1980s, under chairman Raul Gardini, eventually becoming chief executive of the chemicals and agribusiness giant Montedison. He then moved into food, taking control of Cirio — a canned-tomato and food brand dating back to the 19th century — and by 1994 had become sole owner of Cirio-Bertolli-De Rica, building it into one of Italy's best-known food conglomerates with brands spanning tomatoes, Bertolli olive oil, and De Rica preserves.
+
+In February 1992, Cragnotti bought the S.S. Lazio football club for 38 billion lire, serving as its president from 1992 to 1994 and again from 1998 to 2003. In 1998 he listed Lazio on the Milan stock exchange — the first Italian club ever to go public — using the proceeds to finance star signings including Alessandro Nesta, Pavel Nedvěd, and Juan Sebastián Verón, a spending spree that brought Lazio its only Serie A title, in the 1999–2000 season, among seven trophies overall.
+
+Funding both the club and an expanding food empire — including a costly acquisition of the Brazilian company Bombril — required capital, and between 1999 and 2002 the Cirio group issued nine rounds of bonds that raised roughly €1.125 billion, sold heavily to ordinary Italian retail savers through the country's banks. Regulators and prosecutors later found that Cirio's underlying finances had deteriorated far more severely than those bond prospectuses ever disclosed. In November 2002 the group defaulted on a bond payment, triggering cross-defaults across its other debt, and by October 2003 Cirio was placed into extraordinary insolvency administration, wiping out most of what more than 35,000 small investor families had put into its bonds — a collapse that broke just over a year before, and is regularly compared to, Italy's far larger Parmalat bond scandal.
+
+Cragnotti was indicted for false corporate communications and investigated for fraudulent bankruptcy, and in February 2004 he was arrested at his estate in Montepulciano, held for roughly six months before release. The legal proceedings that followed dragged on for nearly two decades: a Rome tribunal convicted him in July 2011 and sentenced him to nine years, calling him the "dominus" of a group whose altered balance sheets he was found to have known about; an appeals court cut that to eight years and eight months in 2015; Italy's Court of Cassation then partly annulled the ruling in 2017 over the Bombril dealings and ordered a retrial on that portion, before finally confirming, in March 2021, a reduced sentence of five years and three months for fraudulent patrimonial bankruptcy — while acquitting him of the more serious charge tied to the overall collapse of the Cirio holding companies.
+
+The Cirio default stands alongside Parmalat as one of the defining Italian bond scandals of the early 2000s, and the retail-investor losses both cases produced pushed Italian regulators to tighten disclosure rules around how ordinary savers' bonds were marketed through the country's bank branches in the years that followed.`,
+  },
+  {
+    title: 'Paul Bilzerian: The 1980s Corporate Raider Still Fighting a $180 Million Judgment',
+    slug: 'paul-bilzerian-corporate-raider-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-cdca/pr/convicted-corporate-raider-his-longtime-accountant-and-vaping-company-charged',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Paul_Bilzerian_mugshot.jpg?width=1200',
+    coverImageCredit: "Photo: Lake County, Florida (public record) — Paul Bilzerian's booking photograph",
+    coverImagePosition: 40,
+    body: `Paul Bilzerian was a Tampa, Florida financier who rode the 1980s corporate-raider boom, buying up stakes in undervalued industrial companies and pushing for buyouts or breakup sales. Between 1985 and 1986 he built positions and launched takeover runs at four companies at once — Cluett Peabody, Hammermill Paper, H.H. Robertson, and Armco Steel — none of which he ultimately won, before turning in late 1987 to Singer Company, by then a Stamford, Connecticut aerospace and defense-electronics maker that had already spun off its historic sewing-machine business the year before.
+
+With an additional $150 million in financing from fellow raider T. Boone Pickens in January 1988, Bilzerian completed a bitter hostile takeover of Singer that February, paying $1.06 billion — $50 a share, well below what Singer's own investment bank, Goldman Sachs, had expected the company to fetch. He then moved quickly to cash out: between July and October 1988 he sold eight of Singer's twelve operating divisions for roughly $2 billion, using the proceeds to pay down the acquisition debt, a textbook run of the era's leveraged-buyout playbook.
+
+On December 21, 1988 — the same day Drexel Burnham Lambert's Michael Milken pleaded guilty in the era's marquee insider-trading case — federal prosecutors in New York indicted Bilzerian on twelve counts of securities fraud, tax fraud, conspiracy, and making false statements to a federal officer. Prosecutors said he had used nominee purchasers to conceal his true ownership stakes in his takeover targets from the SEC's beneficial-ownership disclosure rules, and had filed a false personal tax return improperly deducting his takeover expenses. A Manhattan jury convicted him in June 1989 on nine of those counts, and that September a federal judge sentenced him to four years in prison — he served about thirteen months — plus a $1.5 million fine, a conviction the Second Circuit upheld in 1991.
+
+The SEC's parallel civil case outlasted the criminal one by decades. In 1993 a court ordered Bilzerian to disgorge $33 million in illegal profits plus $29 million in prejudgment interest, a judgment that grew to roughly $62 million. He spent the years that followed fighting collection rather than paying it: pleading poverty, filing for bankruptcy twice, and being held in contempt of court in 2000 for defying a receivership order, before eventually settling in the offshore haven of Saint Kitts and Nevis, beyond the easy reach of U.S. collections. Decades of accumulated interest have since pushed what he owes toward roughly $180 million — among the largest unpaid SEC judgments on record.
+
+In September 2024, federal prosecutors in the Central District of California indicted Bilzerian — by then in his seventies — along with his longtime accountant and former chief financial officer, Scott Rohleder, on conspiracy and fraud charges. The indictment alleged the two men used shell companies from December 2018 through September 2024 to help Bilzerian evade the outstanding SEC judgment while he secretly ran Ignite International Brands, a cannabis and lifestyle company publicly associated with his son, poker player and social-media personality Dan Bilzerian — publicly describing the pair as mere "unpaid consultants" and inflating Ignite's disclosed sales by counting roughly $4.63 million of unsold inventory as a sale to one of Bilzerian's own shell companies. The case, still pending, extends a legal saga that by then already spanned more than three decades — a rare instance of an unpaid fraud judgment from the 1980s becoming, on its own, the basis for an entirely new set of federal fraud charges.`,
+  },
+);
+
 // Practical "how it works / red flags / what to do" guides covering the
 // major scam categories, the same kind of coverage the FTC's Consumer
 // Advice site and AARP's Fraud Watch Network publish — well-documented
