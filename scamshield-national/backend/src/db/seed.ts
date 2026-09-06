@@ -42028,6 +42028,42 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'Oconee County Computer Pop-Up FTC-Impersonation Crypto Kiosk Scam',
+    slug: 'georgia-oconee-county-pop-up-ftc-impersonation-crypto-kiosk-scam',
+    description: `An elderly Oconee County, Georgia couple were targeted by a scheme that began with a computer pop-up warning falsely claiming their bank account had been breached and directing them to call a support number. The person who answered posed as a federal official with the Federal Trade Commission, telling the couple their money was at risk and instructing them to withdraw cash from their bank and feed it into a cryptocurrency kiosk instead, staying on the phone with them the entire time to coach their answers and keep them from tipping off a bank teller to what was really happening. Oconee County Sheriff's Office Investigator Matthew Pilcher, working with Georgia Bureau of Investigation Director Chris Hosey's agency and Attorney General Chris Carr's White Collar and Cyber Crime Unit, traced the stolen cryptocurrency as it moved through a chain of digital wallets to the exchange holding it, then obtained a court order directing the exchange to return the funds to the victims. "Our White Collar and Cyber Crime Unit is on the forefront of this fight – disrupting crypto scams, tracing transactions and recovering stolen funds," Carr said announcing the recovery on August 17, 2026. The case came about a month after Governor Brian Kemp signed HB 945 into law on July 1, 2026, a measure requiring cryptocurrency kiosk operators to post warnings that crypto transactions are irreversible before a customer can complete one. Anyone who receives a pop-up warning of a supposed account breach should close the browser without calling any number it displays, and should treat a request to move money into a cryptocurrency kiosk — especially from someone claiming to be a bank fraud investigator or federal agent who insists on staying on the phone during the transaction — as one of the clearest signs of a scam in progress.`,
+    categorySlug: 'government-impersonation',
+    country: 'US',
+    state: 'GA',
+    alertLevel: 'high',
+    sources: ["Georgia Attorney General's Office", 'WSB-TV', 'FOX 5 Atlanta'],
+    sourceUrl: 'https://law.georgia.gov/press-releases/2026-08-17/carr-announces-seizure-and-return-cryptocurrency-elderly-fraud-victims',
+  },
+  {
+    name: 'Rochester Facebook Marketplace Title-Jumping Vehicle Fraud (Jess Sampson)',
+    slug: 'indiana-rochester-jess-sampson-facebook-marketplace-title-jumping',
+    description: `Jess Sampson, of Rochester, Indiana, used a shared Facebook account to advertise roughly six vehicles and three watercraft for sale on Facebook Marketplace, according to a complaint the Indiana Attorney General's Office filed in Fulton County Superior Court in December 2025, alleging Sampson operated as an unlicensed dealer in violation of Indiana's vehicle merchandising law, acted as an unlicensed salvage recycler, "title jumped" ownership records rather than ever registering the vehicles in his own name, and made false representations to buyers about a vehicle's condition. The complaint centers on Attorney General Todd Rokita's own experience as a consumer: after hiring Sampson in 2025 to repair a Yamaha jet ski for $1,400 plus about $700 in parts, Sampson said the repair could not be completed and instead encouraged him to buy a 2001 Sea-Doo RX 951 for $3,000, texting that its engine had been "completely rebuilt" — a claim Rokita says proved false once the watercraft needed major repairs after the sale. Sampson's attorney argued the case should be thrown out because Rokita is simultaneously the state's enforcement chief, the wronged consumer, and a likely witness, but Fulton County Superior Court Judge Gregory Heller rejected that challenge on June 8, 2026 and let the case proceed; Sampson disputes the false-representation claims, maintaining the Sea-Doo had a legitimately "built" engine with new components. The state is seeking $11,012.33 in restitution on Rokita's behalf, on top of civil penalties, costs, and a permanent injunction barring Sampson from further unlicensed vehicle sales. Buyers shopping for a used vehicle or watercraft on Facebook Marketplace or a similar peer-to-peer site should ask to see the title in the seller's own name before paying anything, be wary of a seller who handles an unusually high volume of vehicles or repeatedly redirects a repair job into a different sale, and get any claim about rebuilt or replaced parts in writing before completing the purchase.`,
+    categorySlug: 'online-shopping-scams',
+    country: 'US',
+    state: 'IN',
+    alertLevel: 'medium',
+    sources: ["Indiana Attorney General's Office", 'Indiana Capital Chronicle', 'Inside INdiana Business'],
+    sourceUrl: 'https://www.insideindianabusiness.com/articles/indiana-judge-rejects-challenge-in-lawsuit-over-ag-todd-rokitas-jet-ski-purchase',
+  },
+  {
+    name: 'Ascension Parish Fake Police Officer Arrest-Warrant Extortion (Zulkar Nain)',
+    slug: 'louisiana-ascension-parish-zulkar-nain-fake-officer-extortion',
+    description: `Zulkar Nain, a 34-year-old Houston, Texas man, spent months between May and August 2026 extorting an elderly Ascension Parish, Louisiana resident by posing as a law enforcement officer over the phone and by text, falsely telling the victim there was an active arrest warrant out for them and threatening violence if they did not pay to make it go away. As the scheme dragged on, Nain instructed the victim to send money through cryptocurrency ATMs, gift cards, and FedEx packages, and eventually pressed the frightened victim into meeting him in person on three separate occasions to hand over cash directly, with those in-person payments alone totaling $90,000 toward a combined loss of roughly $275,000. The Ascension Parish Sheriff's Office, led by Sheriff Bobby Webre, identified and arrested Nain, booking him into the Ascension Parish Jail on a stack of felony charges that include extortion, false personation of a peace officer, theft over $25,000, exploitation of the elderly, and illegal transmission of monetary funds; investigators say they are still working to determine whether the scheme reached other victims. No real police officer will ever call, text, or threaten a target with an arrest warrant that can be resolved by paying cash, sending gift cards, using a cryptocurrency ATM, or shipping money through a courier service, and anyone contacted this way should hang up and call their local sheriff's non-emergency line directly to verify whether any warrant actually exists before sending anything.`,
+    categorySlug: 'government-impersonation',
+    country: 'US',
+    state: 'LA',
+    alertLevel: 'high',
+    sources: ["Ascension Parish Sheriff's Office", 'WBRZ', 'Hoodline'],
+    sourceUrl: 'https://hoodline.com/2026/09/houston-man-accused-of-bilking-ascension-parish-elder-out-of-275-000-in-fake-cop-scam/',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
