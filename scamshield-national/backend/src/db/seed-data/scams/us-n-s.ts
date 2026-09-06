@@ -3318,4 +3318,15 @@ export const UsNS: SeedScam[] = [
     country: 'US',
     state: 'OK',
   },
+  {
+    name: 'Nevada Cryptocurrency Kiosk Impersonation Scam',
+    slug: 'nevada-cryptocurrency-kiosk-impersonation-scam',
+    description: `In June 2026, Nevada Attorney General Aaron Ford warned residents about scammers directing victims to cryptocurrency kiosks — machines that resemble ATMs and are increasingly found in gas stations, convenience stores, and supermarkets across the state. The scam typically begins with an unsolicited call, text, email, or pop-up impersonating a relative in trouble, a government agency, tech support, or a romantic interest, building a fabricated emergency that requires money right away. Rather than asking for a wire transfer or gift cards, the caller walks the victim step by step to the nearest crypto kiosk, has them feed in cash, and provides a QR code linked to the scammer's own digital wallet so the converted cryptocurrency is sent directly to them — a transaction that, unlike a bank wire, cannot be reversed once it's confirmed. According to FBI data cited by AARP, cryptocurrency kiosk scams caused more than $389 million in reported losses nationwide in 2025 alone, with older adults disproportionately targeted. Ford's office advises that any unsolicited caller directing someone to a cryptocurrency kiosk is, without exception, running a scam, and residents who believe they've been victimized should file a complaint with the Attorney General's office.`,
+    categorySlug: 'cryptocurrency-scams',
+    alertLevel: 'high',
+    sources: ["Nevada Attorney General's Office", 'FBI Internet Crime Complaint Center (IC3)'],
+    sourceUrl: 'https://ag.nv.gov/News/PR/2026/Attorney_General_Ford_Warns_Nevadans_of_Cryptocurrency_Kiosk_Scams/',
+    country: 'US',
+    state: 'NV',
+  },
 ];
