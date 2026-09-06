@@ -14,7 +14,10 @@ const PAGE_SIZE = 500;
 
 // One window of a collection. Public pages ask for these as the reader
 // scrolls rather than pulling 600+ articles up front.
-export const ARTICLE_PAGE_SIZE = 24;
+// Larger pages mean fewer stops. The payload is a page of cards, not the
+// whole collection, so this stays modest while making a continuous scroll
+// feel continuous.
+export const ARTICLE_PAGE_SIZE = 36;
 
 export interface ArticlePageParams {
   tag?: string;
@@ -50,4 +53,9 @@ export async function fetchAllArticleSummaries(tag: string) {
 export async function fetchArticleBySlug(slug: string) {
   const { data } = await api.get<{ data: Article }>(`/articles/${slug}`);
   return data.data;
+}
+
+export async function fetchArticleCount(tag: string) {
+  const { data } = await api.get<{ data: { count: number } }>('/articles/count', { params: { tag } });
+  return data.data.count;
 }

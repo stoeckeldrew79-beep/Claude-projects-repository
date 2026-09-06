@@ -1,5 +1,5 @@
 import { useInfiniteQuery, useQuery } from '@tanstack/react-query';
-import { ARTICLE_PAGE_SIZE, fetchAllArticleSummaries, fetchArticleBySlug, fetchArticlePage, fetchArticles } from '../services/articles';
+import { ARTICLE_PAGE_SIZE, fetchAllArticleSummaries, fetchArticleBySlug, fetchArticleCount, fetchArticlePage, fetchArticles } from '../services/articles';
 
 export function useArticles(tag?: string) {
   return useQuery({
@@ -20,6 +20,11 @@ export function useInfiniteArticles(opts: { tag?: string; q?: string; sort?: 'ph
     getNextPageParam: (lastPage, allPages) =>
       lastPage.length < ARTICLE_PAGE_SIZE ? undefined : allPages.length * ARTICLE_PAGE_SIZE,
   });
+}
+
+// How many articles exist under a tag, independent of how many have loaded.
+export function useArticleCount(tag: string) {
+  return useQuery({ queryKey: ['articles', 'count', tag], queryFn: () => fetchArticleCount(tag) });
 }
 
 // Admin-only: every article with the given tag, not just the first page.

@@ -28,6 +28,24 @@ const BRIEF_COLUMNS =
 const DEFAULT_LIMIT = 200;
 const MAX_LIMIT = 500;
 
+// How many articles carry a tag. The list endpoint pages, so it can never
+// report a total, and a collection's size is worth stating plainly: 699
+// profiles is the point of the collection, not a detail of it.
+export const count = asyncHandler<AuthedRequest>(async (req, res) => {
+  const tag = req.query.tag as string | undefined;
+  const values: unknown[] = [];
+  const conditions = ['published = true'];
+  if (tag) {
+    values.push(tag);
+    conditions.push(`$${values.length} = ANY(tags)`);
+  }
+  const { rows } = await pool.query<{ count: string }>(
+    `SELECT COUNT(*)::text AS count FROM articles WHERE ${conditions.join(' AND ')}`,
+    values
+  );
+  res.json({ data: { count: Number(rows[0]?.count ?? 0) } });
+});
+
 export const list = asyncHandler<AuthedRequest>(async (req, res) => {
   const tag = req.query.tag as string | undefined;
   const conditions = ['a.published = true'];

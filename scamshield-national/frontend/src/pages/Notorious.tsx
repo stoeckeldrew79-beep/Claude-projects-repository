@@ -1,10 +1,19 @@
 import { useMemo } from 'react';
 import { Link } from 'react-router-dom';
-import { useInfiniteArticles } from '../hooks/useArticles';
+import { useArticleCount, useInfiniteArticles } from '../hooks/useArticles';
 import { useInfiniteScroll } from '../hooks/useInfiniteScroll';
 import { useDocumentMeta } from '../hooks/useDocumentMeta';
 import { NotoriousCoverArt } from '../components/NotoriousCoverArt';
 import { BlurFade } from '../components/magicui/blur-fade';
+
+// Cards fade in with a slight stagger, but the stagger has to reset. Keyed
+// to the running index it grew without limit — card 300 waited 15 seconds
+// before appearing, so scrolling deep into the collection meant scrolling
+// into blank space. Cycling over a row's worth keeps the effect and caps
+// the wait at a fifth of a second.
+function cardDelay(index: number): number {
+  return 0.06 + (index % 4) * 0.05;
+}
 
 function excerpt(text: string, length = 180): string {
   const plain = text.replace(/\s+/g, ' ').trim();
@@ -28,6 +37,9 @@ export default function Notorious() {
     tag: 'notorious',
     sort: 'photos-first',
   });
+  // The scale of the collection is the point of it, and paging means the
+  // grid can never show it. Counted separately and stated up front.
+  const { data: total } = useArticleCount('notorious');
 
   const sortedArticles = useMemo(() => data?.pages.flat(), [data]);
   const sentinelRef = useInfiniteScroll(fetchNextPage, Boolean(hasNextPage) && !isFetchingNextPage);
@@ -41,6 +53,11 @@ export default function Notorious() {
           The true stories behind history's most infamous cons — how they worked, why they fooled so many people,
           and what happened when they finally fell apart.
         </p>
+        {total !== undefined && (
+          <p className="mt-4 text-sm font-medium text-slate-900">
+            {total.toLocaleString()} profiles documented.
+          </p>
+        )}
       </BlurFade>
 
       {isLoading && <p className="mt-8 text-slate-500">Loading…</p>}
@@ -48,7 +65,7 @@ export default function Notorious() {
 
       <div className="mt-10 grid gap-6 sm:grid-cols-2">
         {sortedArticles?.map((article, i) => (
-          <BlurFade key={article.id} delay={0.06 + i * 0.05} inView>
+          <BlurFade key={article.id} delay={cardDelay(i)} inView>
             <Link
               to={`/articles/${article.slug}`}
               className="group block overflow-hidden rounded-xl border border-slate-200 hover:border-slate-400 hover:shadow-md transition-all"
@@ -81,7 +98,7 @@ export default function Notorious() {
       {isFetchingNextPage && <p className="mt-8 text-center text-sm text-slate-500">Loading more…</p>}
       {!hasNextPage && !isLoading && sortedArticles && sortedArticles.length > 0 && (
         <p className="mt-10 text-center text-sm text-slate-400">
-          That's all {sortedArticles.length} profiles.
+          That's all {sortedArticles.length.toLocaleString()} profiles.
         </p>
       )}
     </div>
