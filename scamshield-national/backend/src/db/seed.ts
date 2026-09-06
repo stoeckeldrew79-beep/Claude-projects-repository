@@ -20,6 +20,7 @@ import { NOTORIOUS_ARTICLES } from './seed-data/notorious';
 import { GUIDE_ARTICLES } from './seed-data/guides';
 import { SEED_CATEGORIES } from './seed-data/categories';
 import { SEED_SCAMS } from './seed-data/scams';
+import { SCAM_TAGS } from './seed-data/scam-tags';
 import { SEED_GLOBAL_SOURCES } from './seed-data/global-sources';
 import { SEED_STATE_AG_SOURCES } from './seed-data/state-ag-sources';
 
@@ -69,8 +70,8 @@ async function seedCategoriesAndScams() {
   let locationsUpserted = 0;
   for (const scam of SEED_SCAMS) {
     const { rows } = await pool.query(
-      `INSERT INTO scams (name, slug, description, category_id, alert_level, is_active, sources, source_url, country, is_historical, first_recorded)
-       VALUES ($1, $2, $3, (SELECT id FROM categories WHERE slug = $4), $5, true, $6, $7, $8, $9, $10)
+      `INSERT INTO scams (name, slug, description, category_id, alert_level, is_active, sources, source_url, country, is_historical, first_recorded, tags)
+       VALUES ($1, $2, $3, (SELECT id FROM categories WHERE slug = $4), $5, true, $6, $7, $8, $9, $10, $11)
        ON CONFLICT (slug) DO UPDATE SET
          name = EXCLUDED.name,
          description = EXCLUDED.description,
@@ -81,6 +82,7 @@ async function seedCategoriesAndScams() {
          country = EXCLUDED.country,
          is_historical = EXCLUDED.is_historical,
          first_recorded = EXCLUDED.first_recorded,
+         tags = EXCLUDED.tags,
          updated_at = NOW()
        RETURNING id`,
       [
@@ -94,6 +96,7 @@ async function seedCategoriesAndScams() {
         scam.country ?? 'US',
         scam.isHistorical ?? false,
         scam.firstRecorded ?? null,
+        SCAM_TAGS[scam.slug] ?? null,
       ]
     );
 
