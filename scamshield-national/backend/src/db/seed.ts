@@ -42853,6 +42853,39 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'Limassol-Based €600 Million Fake Crypto-Investment Call-Centre Network',
+    slug: 'cyprus-limassol-fake-crypto-investment-call-centre-network',
+    description: `Between October 27 and 29, 2025, judicial and police authorities from France, Belgium, Cyprus, Germany, and Spain carried out a coordinated takedown — organized through a joint investigation team convened at Eurojust's headquarters in The Hague — of a cryptocurrency fraud network that investigators say laundered roughly €600 million in victim funds through blockchain transactions. According to Eurojust, the criminal group ran dozens of fake cryptocurrency investment platforms designed to look like legitimate trading websites and to promise abnormally high returns, recruiting victims through social media advertising, cold calls, fabricated news articles, and fraudulent celebrity endorsements. Once a victim made an initial deposit, affiliated call centres took over the relationship, using social-engineering scripts and a fabricated, ever-rising account balance on the fake trading dashboard to pressure victims into wiring larger and larger sums — money that proved impossible to withdraw or recover once deposited. The operation's first phase led to nine suspects being arrested at residences in Cyprus, Spain, and Germany, with Cyprus's Attorney General's Office, the Cyprus Police, and the Cypriot financial intelligence unit MOKAS all taking part alongside French and Belgian investigators; officers seized €800,000 held in bank accounts, €415,000 in cryptocurrency, and €300,000 in cash across the participating countries. Cyprus-registered shell companies and Limassol-area office space have repeatedly turned up at the center of these cross-border "crypto boiler room" operations, and the case underscores that a celebrity's apparent endorsement of a trading platform, or a call center representative willing to personally walk a new investor through their first deposit, is a warning sign rather than a mark of legitimacy — genuine investment platforms never require a new deposit before an existing balance can be withdrawn.`,
+    categorySlug: 'investment-fraud',
+    country: 'CY',
+    alertLevel: 'critical',
+    sources: ['Eurojust', 'Cyprus Police', 'MOKAS (Cyprus Unit for Combating Money Laundering)'],
+    sourceUrl: 'https://www.eurojust.europa.eu/news/decisive-actions-against-cryptocurrency-scammers-earning-over-eur-600-million',
+  },
+  {
+    name: 'Fake CySEC "Compensation Claim" Impersonation Fee Scam',
+    slug: 'cyprus-cysec-impersonation-compensation-claim-fee-scam',
+    description: `The Cyprus Securities and Exchange Commission (CySEC) has repeatedly warned investors, most recently in a bulletin dated March 5, 2025, that fraudsters are impersonating its own staff using lookalike domains such as cysecgov.org and cysecgov.cc and email addresses such as supportcenter@cysecgov.org, contacting targets by email, phone, and social media. The callers falsely present themselves as CySEC officials offering to help a victim recover money already lost to a firm under CySEC's supervision, or to process a "compensation claim" against a broker, but only after the victim first pays an upfront fee to have the funds released. CySEC has stated that the scheme is a recurring one, noting that "similar scams were reported" in prior years involving fraudulent websites and emails impersonating the regulator, and has stressed that it "will never request personal financial details or payments" from investors and does not collect fees in connection with compensation claims of any kind — genuine CySEC correspondence comes only from an address ending in cysec.gov.cy. The impersonation scam frequently follows on the heels of a separate loss: CySEC separately maintains a continually updated public warning list of unauthorised investment websites, including a batch of 21 flagged in November 2025 that cloned the branding of licensed brokers such as AvaTrade and OneRoyal, meaning a person who already lost money to one fake platform is a prime target to be approached months later by a second set of scammers posing as the regulator itself and offering, for a fee, to get that money back.`,
+    categorySlug: 'government-impersonation',
+    country: 'CY',
+    alertLevel: 'high',
+    sources: ['Cyprus Securities and Exchange Commission (CySEC)'],
+    sourceUrl: 'https://www.cysec.gov.cy/en-GB/investor-protection/warnings/cysec/',
+  },
+  {
+    name: 'Automated "Confirm Your Payment" Robocall Vishing Scam',
+    slug: 'cyprus-automated-confirm-your-payment-robocall-vishing-scam',
+    description: `Cyprus Police issued a public warning on May 7, 2026, about a wave of automated phone calls, placed from spoofed local numbers, in which a recorded voice tells the recipient they must "confirm" or "approve" a transaction or payment by pressing a number on their keypad, falsely posing as a financial transactions and payments platform. Anyone who follows the recorded prompts is walked through steps designed to harvest personal data and banking credentials, which the callers then use to access the victim's real bank account. Police advised that anyone receiving such a call hang up and verify any claimed transaction only through the "official and publicly available communication channels" of the platform or bank in question, never a number or link supplied during the call itself. The warning came amid what the Cyprus Mail described in July 2025 as a scam "tsunami," with the paper's own tracking finding more than 30 separate reported scam cases since the start of 2025 spanning email phishing, SMS "smishing," phone-based "vishing," and fake online "task" jobs — including a Limassol man who lost €56,283 to a cryptocurrency scheme and a woman who lost €230 to a fake Etsy storefront — while the police cybercrime unit acknowledged it does not yet compile comprehensive nationwide statistics on these cases. The Cyprus Consumers Association has urged anyone targeted to report the call to police rather than simply hanging up and forgetting it, since the same spoofed numbers and recorded scripts are typically reused against many victims within a single campaign.`,
+    categorySlug: 'phishing',
+    country: 'CY',
+    alertLevel: 'medium',
+    sources: ['Cyprus Police', 'Politis', 'Cyprus Mail'],
+    sourceUrl: 'https://en.politis.com.cy/news/cy-news/1003549/police-warn-of-phone-scam-posing-as-payment-platform',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
