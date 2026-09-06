@@ -2338,4 +2338,21 @@ Because the exposed data links an email address to public activity rather than t
     coverImagePosition: 50,
     // representative photo — an earlier SoundCloud community event, not the specific 2026 breach; replace with an exact match if found
   },
+  {
+    title: "The RingCentral Data Breach: How a Social-Engineering Call Led to 1.6 Million Customer Records Leaked Online",
+    slug: "ringcentral-2026-data-breach-guide",
+    author: "ScamShield Editorial",
+    tags: ["guide", "ringcentral-2026-data-breach"],
+    body: `RingCentral is one of the largest cloud-based business phone and video-conferencing platforms in the world, used by more than 600,000 companies to handle calls, meetings, and messaging. In July 2026, the company disclosed that it had been hit by what it described as "a sophisticated social engineering campaign" — not a software flaw or a brute-force password attack, but attackers who talked their way into systems the same way many corporate breaches now happen, by convincing someone on the inside that they were legitimate.
+
+The extortion group ShinyHunters claimed responsibility on July 27, 2026, saying it had stolen roughly 623GB of RingCentral's data, and demanded a ransom in exchange for not releasing it. RingCentral disclosed the incident publicly the next day, saying the intrusion "affected data for a limited portion of RingCentral customers" and that it had taken remediation steps with no further unauthorized activity detected since. When RingCentral did not pay, ShinyHunters followed through on its threat, posting a 280GB compressed archive on a dark-web leak site. The breach-notification service Have I Been Pwned reviewed the leaked files and confirmed they covered roughly 1.6 million RingCentral accounts. The exposed information included names, email addresses, phone numbers, and physical addresses tied to those accounts — RingCentral has said passwords and payment card data were not part of what was taken.
+
+This breach is a useful reminder that a company doesn't need a software bug to lose your data — a single successful phone call, email, or chat message aimed at the right employee can be enough, and 2026 has seen this same "social engineering" playbook, often linked to groups like ShinyHunters and Scattered Spider, used against a long list of major companies. For customers, the practical risk isn't that your RingCentral password is now compromised; it's that your name, email, phone number, and home address are now circulating together on criminal forums, which is exactly the raw material scammers use to make a follow-up phishing call or text feel convincing. A call claiming to be "RingCentral support" that already knows your name, phone number, and address sounds a lot more credible than a random scam call — which is precisely the point.
+
+If your business uses RingCentral, check whether your account email address appears in this breach at haveibeenpwned.com, and treat any unexpected call, text, or email referencing RingCentral, a "billing issue," an "account verification," or a "security alert" with real suspicion — hang up or close the message, then contact RingCentral directly through the phone number or login page listed on its official website, never through contact information provided in the suspicious message itself. Never read a one-time login code out loud to anyone who calls you, and never approve a support request, screen-share, or third-party app connection you did not personally initiate — that exact kind of social-engineering trick is how this breach and many others like it began. If you've reused your RingCentral password anywhere else, change it there too, and turn on multi-factor authentication for your RingCentral account if it isn't already enabled. Anyone who receives a suspicious follow-up message referencing this breach can report it to the FTC at ReportFraud.ftc.gov.`,
+    sourceUrl: "https://www.bleepingcomputer.com/news/security/ringcentral-data-breach-exposed-info-of-16-million-accounts/",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/RingCentral_logo.svg?width=1200",
+    coverImageCredit: "RingCentral logo (public domain text logo, via Wikimedia Commons)",
+    coverImagePosition: 50,
+  },
 ];

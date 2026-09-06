@@ -8686,6 +8686,36 @@ Egypt's Ministry of Interior announced on February 24, 2025, that it had arreste
     sourceUrl: 'https://laotiantimes.com/2026/07/21/laos-warns-public-businesses-not-to-engage-with-scam-gambling-networks',
     country: 'LA',
   },
+  {
+    name: 'Fake Government Development Fund Investment Scam',
+    slug: 'namibia-fake-government-development-fund-investment-scam',
+    description: `Fraudsters approach targets — most often senior public figures, high-ranking government officials, politicians, and civil servants specifically chosen because their positions make the pitch look credible — claiming to personally control hundreds of millions or even billions of US dollars or euros that have supposedly been set aside for Namibian government development projects and now need a "partner" to help move or invest. To back up the story, the scammers produce forged documentation designed to pass a quick glance as genuine, including fabricated SWIFT wire-transfer confirmations and official-looking payment instructions that invoke "the Government, its Ministries, Offices, and Agencies" as the source and guarantor of the funds. The Bank of Namibia said in a February 2024 media release that it had noted "with concern" an escalation in this type of fraudulent investment activity, warning that the scheme's repeated references to government authority are being used deliberately to lend the fake investment false legitimacy. Anyone approached with an offer to help access, launder, or invest supposedly government-linked development funds is advised to treat forged SWIFT paperwork and official-sounding letterhead as red flags rather than proof, and to verify any claimed government investment program directly with the relevant ministry or with the Bank of Namibia itself before transferring any money or signing any documents.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ['Bank of Namibia'],
+    sourceUrl: 'https://www.bon.com.na/Informations/Media/Media-Releases/2024-Media-Releases/Articles/Fraudulent-Investment-Scams.aspx',
+    country: 'NA',
+  },
+  {
+    name: 'Windhoek "Pig-Butchering" Scam Compound Recruiting Namibian Youth',
+    slug: 'namibia-windhoek-pig-butchering-scam-compound',
+    description: `Operating under the front of a registered close corporation, Raylon Investment CC ran offices at Shapumba Towers in Windhoek and a roughly 20-bedroom residential compound in the city's Auasblick area — presented to new hires as a housing perk but really used to control more than 150 young Namibian recruits, aged 20 to 35, who had answered job ads without knowing what the work actually involved. Once inside, recruits were issued five cellphones each, trained to send around 450 messages per shift, and told during a June 2023 training session to primarily target wealthy men aged 50 and over in the United States and Europe, building fake romantic relationships before steering the "boyfriend" into a bogus cryptocurrency investment platform — the classic "pig-butchering" pattern in which the relationship is fattened up before the victim is financially slaughtered. Namibian police say the operation, running from December 2022 to October 2023, defrauded victims outside Namibia of more than N$8 billion, with proceeds cashed out partly through cryptocurrency ATMs at Maerua Mall and Grove Mall; recruits were paid just N$3,000 a month plus a N$1,000 bonus, dangled iPhones, cars, and houses as rewards for recruiting successful "clients," and faced fines of N$500 to N$12,000 for breaking house rules. Prosecutor General Martha Imalwa's office has charged twelve people — nine foreign nationals (Chinese, Cuban, and Singaporean) and three Namibians, alongside Raylon Investment CC itself — with 65 offences including human trafficking, racketeering, money laundering, and fraud, though several accused later skipped bail and, as of April 2026, six were confirmed to have fled to China; investigators have so far recovered more than N$5 million routed through the Seychelles. Namibians are urged to be deeply skeptical of job ads promising easy pay for "messaging" or "customer service" work with vague duties, and the wider public is warned that an online romantic partner who quickly pushes a cryptocurrency investment platform is a scam regardless of how genuine the relationship feels.`,
+    categorySlug: 'romance-scams',
+    alertLevel: 'critical',
+    sources: ['The Namibian'],
+    sourceUrl: 'https://www.namibian.com.na/iphones-cars-and-houses-used-to-lure-scam-recruits/',
+    country: 'NA',
+  },
+  {
+    name: 'Fake Bank "App Update" and Prize SMS Vishing Scam',
+    slug: 'namibia-bank-impersonation-vishing-smishing-scam',
+    description: `Scammers send Namibian bank customers SMS messages announcing a complimentary e-ticket or a lottery win, or call them directly while posing as staff from the customer's own bank, and use either approach to get the victim on the phone and talking through what sounds like routine account business. From there, the caller tells the customer their cellphone banking, iBank, or eWallet app urgently needs an "update," walks them through installing a lookalike app or clicking a link, and — under the guise of verifying identity or completing the update — gets them to read out their PIN, password, or username, or to personally authorize an EasyWallet or eWallet transfer or a cardless cash withdrawal that actually sends money straight to the fraudster. The Bankers Association of Namibia (BAN) has publicly warned that this vishing-and-smishing combination is a recurring pattern targeting cellphone-banking and eWallet users specifically, stressing that no bank will ever call a customer to ask them to send or release funds, and that banks never ask customers to divulge confidential information such as PINs, passwords, or usernames over the phone or by email. Customers who receive such a call or text are advised to hang up or ignore it, never install a banking app update from a link sent by SMS or a caller, and contact their bank's official fraud line directly using a number they look up independently if they are ever unsure whether a request is genuine.`,
+    categorySlug: 'phishing',
+    alertLevel: 'high',
+    sources: ['Bankers Association of Namibia', 'Bank Windhoek'],
+    sourceUrl: 'https://www.bankwindhoek.com.na/Pages/News/Bankers-Association-of-Namibia-warns-of-latest-scam.aspx',
+    country: 'NA',
+  },
 ];
 
 International.push(
