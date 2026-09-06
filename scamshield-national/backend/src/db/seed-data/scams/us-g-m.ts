@@ -3353,4 +3353,15 @@ export const UsGM: SeedScam[] = [
     country: "US",
     state: "GA",
   },
+  {
+    name: "Heat Advisory HVAC Repair Scam",
+    slug: "missouri-heat-advisory-hvac-repair-scam",
+    description: `Missouri Attorney General Catherine Hanaway issued a consumer alert on July 1, 2026, warning residents to watch for HVAC scams as much of the state sat under excessive heat advisories with temperatures climbing into the upper 90s, a stretch when air conditioners are most likely to break down and homeowners are most desperate for a fast fix. Hanaway's office described several recurring scare tactics: technicians who claim a functioning component needs to be replaced at an inflated price, who convince a customer to buy far more refrigerant than the unit actually needs, or who insist a "recharge" will solve the problem even though air conditioners do not require routine recharging. A related version of the scam advertises rock-bottom duct cleaning deals, only for the technician to declare once inside the home that the ducts are contaminated or full of mold and use that manufactured finding to upsell a far more expensive service while doing little or none of the promised work. "As excessive heat grips our state, we know families need cooling restored fast, but scammers can exploit emergencies to overcharge and cut corners," Hanaway said. "Consumers should keep an eye out for inflated prices and deceptive tactics. My office will go after anyone who takes advantage of Missourians." The Attorney General's Office urged residents to always get a second opinion before agreeing to a repair, to ask for a clear, itemized explanation of any recommended service before authorizing it, and to be skeptical of a technician who pressures for an immediate decision or begins work before the customer has actually agreed to it. Missourians who believe they've been targeted by an HVAC scam are urged to contact the Attorney General's Consumer Protection Hotline at 800-392-8222 or file a complaint at ago.mo.gov.`,
+    categorySlug: "home-improvement-solar",
+    alertLevel: "medium",
+    sources: ["Missouri Attorney General's Office (Catherine Hanaway)", "KFVS12", "KBIA"],
+    sourceUrl: "https://www.kfvs12.com/2026/07/01/mo-ag-warns-consumers-about-hvac-scams-amid-dangerous-heat-wave/",
+    country: "US",
+    state: "MO",
+  },
 ];
