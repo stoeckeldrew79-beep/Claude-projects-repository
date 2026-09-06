@@ -19,6 +19,7 @@ import Dashboard from './pages/Dashboard';
 import Admin from './pages/Admin';
 import Login from './pages/Login';
 import { useAuthStore } from './store/useAuthStore';
+import { roleFromToken } from './utils/tokenRole';
 import { ShieldLogo } from './components/ShieldLogo';
 import { formatPhoneDisplay, PUBLIC_PHONE, telHref } from './utils/publicPhone';
 
@@ -39,7 +40,13 @@ const NAV_LINKS = [
 function AccountNav() {
   const navigate = useNavigate();
   const user = useAuthStore((s) => s.user);
+  const token = useAuthStore((s) => s.token);
   const clearSession = useAuthStore((s) => s.clearSession);
+  // Admin is deliberately absent from the public nav, but that left the one
+  // person who uses it retyping a URL they have to remember. Shown only to an
+  // admin token — the page and every write behind it are enforced server-side
+  // regardless of what is linked here.
+  const isAdmin = roleFromToken(token) === 'admin';
 
   if (!user) {
     return (
@@ -51,6 +58,11 @@ function AccountNav() {
 
   return (
     <div className="flex items-center gap-4">
+      {isAdmin && (
+        <NavLink to="/admin" className="text-sm font-medium text-slate-700 whitespace-nowrap">
+          Admin
+        </NavLink>
+      )}
       <NavLink to="/dashboard" className="text-sm text-slate-500 whitespace-nowrap truncate max-w-[12rem]">
         {user.email}
       </NavLink>
