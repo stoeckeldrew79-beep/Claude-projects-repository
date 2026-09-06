@@ -42295,6 +42295,42 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'Arlington Dental Network Medicaid Gift-Card Kickback Scheme (Stadium Dental)',
+    slug: 'texas-arlington-stadium-dental-medicaid-kickback-scheme',
+    description: `Texas Attorney General Ken Paxton sued a network of Dallas-Fort Worth-area dental practices in a case unsealed March 30, 2026, alleging Drs. Ben Luka and Sheel Patel of Stadium Dental, Dr. Hiren Patel of the former SOH of Texas, and Samson Liu — who did business as Stadium Dental, Ellis Dental, and Park Row Dental — paid outside marketers, including Frank Villanueva of Dental Axis and his alleged partner Bryan Lopez of Dental Market One, to recruit Medicaid beneficiaries and their families with gift cards in exchange for showing up as patients. Once a family was in the door, the marketer defendants funneled them between clinics in the network to maximize how much could be billed, and the provider defendants allegedly performed medically unnecessary and in some cases high-risk dental procedures, then submitted the claims to Texas Medicaid, generating tens of thousands of fraudulent billings over several years. Financing company DFW Capital was also named in the suit, which Paxton brought under the Texas Health Care Program Fraud Prevention Act seeking restitution, civil penalties, and injunctive relief. "It is malicious and unacceptable that these providers were performing dangerous, medically unnecessary procedures on patients in order to scam our Medicaid system," Paxton said announcing the case. Medicaid families offered a gift card or cash incentive just to schedule a medical or dental appointment should treat that as a warning sign, and can report a suspected kickback scheme to the Texas Attorney General's Medicaid Fraud Control Unit rather than assuming a recommended procedure is medically necessary just because a clinic pushed for it.`,
+    categorySlug: 'healthcare-fraud',
+    country: 'US',
+    state: 'TX',
+    alertLevel: 'high',
+    sources: ["Texas Attorney General's Office", 'Dallas Express', 'Legal Newsline'],
+    sourceUrl: 'https://www.texasattorneygeneral.gov/news/releases/attorney-general-paxton-sues-dental-providers-and-fraudulent-marketers-performing-medically',
+  },
+  {
+    name: 'Gold-Bar Courier Elder Fraud Ring (Nirav B. Patel)',
+    slug: 'illinois-nirav-patel-gold-bar-courier-elder-fraud',
+    description: `Nirav B. Patel, a 44-year-old Chicago-area man living in the country illegally, drove hundreds of miles across Illinois, Wisconsin, and Indiana to personally collect cash and gold bars from elderly victims of an India-based fraud ring, in one instance picking up $177,000 in gold bars from an elderly woman at her assisted-living facility even though she was using a walker and on oxygen. According to trial evidence in the Southern District of Illinois, the scheme began with texts and emails falsely warning victims that their Amazon accounts had been compromised; when victims called the listed number, a second conspirator posing as a federal agent told them their bank accounts were unsafe and talked them into liquidating savings into cash or gold bars to be held in a supposed U.S. Treasury or trust account for "safekeeping." Patel personally made six trips to pick up or attempt to pick up a combined $403,400 from victims before a federal jury convicted him in February 2025 of conspiracy to commit wire and mail fraud, three counts of wire fraud, and illegal entry into the United States; a judge in East St. Louis sentenced him on June 2, 2025 to 12 years in federal prison, rejecting his claim that he did not know what the scheme's organizers were actually doing given that they trusted him with hundreds of thousands of dollars at a time. Anyone who receives an unsolicited text or email about a compromised Amazon or bank account should go directly to the company's official app or website rather than calling any number the message provides, and should be immediately suspicious of any caller — however official-sounding — who instructs them to convert savings into gold or cash and hand it to a courier who comes to their home.`,
+    categorySlug: 'government-impersonation',
+    country: 'US',
+    state: 'IL',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office for the Southern District of Illinois", 'The Telegraph (Edwardsville)', 'American Bazaar'],
+    sourceUrl: 'https://www.justice.gov/usao-sdil/pr/illegal-immigrant-gets-12-years-prison-his-part-india-based-fraud-targeting-elderly',
+  },
+  {
+    name: 'Flushing Cash-Package Collector in $64 Million Elder Fraud Ring (Hua Wang)',
+    slug: 'new-york-flushing-hua-wang-cash-package-elder-fraud',
+    description: `Hua Wang, 48, of Flushing, New York, pleaded guilty on June 30, 2026 in the Southern District of California to conspiracy to commit wire and mail fraud and to money laundering for his role collecting more than 2,000 cash packages that elderly victims across the country mailed to the fraud ring between 2019 and 2023, a haul prosecutors say totaled $64 million in losses. The scheme began with conspirators posing as tech support representatives, government officials, or bank employees who convinced victims their identity had been stolen or their money was unsafe in the bank, then instructed them to withdraw their savings in cash and mail it in packages to addresses the ring controlled; Wang was one of the collectors who received and redirected that cash. He was arrested at his Flushing home in April 2025, days after co-defendant Weining Su, who used the alias "Ning Ma," was arrested at JFK Airport attempting to board a one-way flight to China; ten other members of the ring have also pleaded guilty. Investigators credited YouTubers from the channels Scammer Payback and Trilogy Media, who record calls with scammers and track their operations, with helping identify multiple defendants and map the conspiracy's structure. No legitimate bank, government agency, or tech company will ever instruct someone to withdraw their savings in cash and mail it to an address in a package — that instruction is itself proof of a scam, and anyone who receives it should hang up and contact their bank or the agency directly using a number they look up independently.`,
+    categorySlug: 'government-impersonation',
+    country: 'US',
+    state: 'NY',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office for the Southern District of California", 'IRS Criminal Investigation', 'Times of San Diego'],
+    sourceUrl: 'https://www.justice.gov/usao-sdca/pr/lead-defendant-and-10-others-plead-guilty-65-million-multinational-fraud-ring',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
