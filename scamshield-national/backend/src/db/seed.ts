@@ -11681,6 +11681,69 @@ Homestore's fraud is now most often cited as one of the clearest dot-com-era ill
   },
 );
 
+NOTORIOUS_ARTICLES.push(
+  {
+    title: "Franklin Raines and the $6.3 Billion Accounting Fraud Behind Fannie Mae's Bonus-Driven Earnings",
+    slug: 'franklin-raines-fannie-mae-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://www.washingtonpost.com/wp-dyn/content/article/2006/05/23/AR2006052300184.html',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Fannie_Mae_Headquarters.JPG?width=1200',
+    coverImageCredit: "Photo: AgnosticPreachersKid, Wikimedia Commons (CC BY-SA 3.0) — Fannie Mae's Washington, D.C. headquarters, at the center of the accounting scandal",
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    body: `Franklin Raines spent the 1990s as one of the most celebrated technocrats in Washington and on Wall Street: the first Black partner at Lazard Frères, then President Bill Clinton's director of the Office of Management and Budget, before becoming vice chairman and then, on January 1, 1999, chairman and chief executive of Fannie Mae — a move that made him, by most accounts, the first African American to lead a Fortune 500 company. For the next five years, Fannie Mae's earnings rose with almost metronomic reliability under his direction, exactly the kind of dependable growth that made the country's largest mortgage financier a favorite of pension funds and 401(k) portfolios nationwide.
+
+That reliability, regulators later concluded, was manufactured. Fannie Mae's executive bonus plan tied enormous payouts to hitting precise earnings-per-share targets, and the company's safety-and-soundness regulator, the Office of Federal Housing Enterprise Oversight (OFHEO), found after a three-year investigation that Fannie Mae had misapplied accounting rules governing loan-fee amortization and derivatives hedging to shift income between quarters and smooth over results that would otherwise have missed those targets. OFHEO's May 2006 report singled out 1998 as an example: the company deferred roughly $200 million in expenses to future periods, pushing earnings per share to exactly $3.23 — the figure needed to trigger the maximum payout under the bonus plan — and releasing a $27.1 million bonus pool that included payments to both then-chairman James Johnson and Raines, at the time chairman-designate.
+
+The scheme unraveled after Freddie Mac's own accounting scandal in 2003 drew regulatory attention to both government-sponsored mortgage giants; the SEC and OFHEO opened investigations into Fannie Mae's books in 2004, and Raines was forced to resign as chairman and CEO that December as the accounting problems became public. OFHEO's 340-page report, released in May 2006, accused the company of an "arrogant and unethical corporate culture" that had engaged in what it bluntly called "extensive financial fraud," and in December 2006 Fannie Mae completed a formal restatement that cut its previously reported 2001–2004 earnings by $6.3 billion — at the time one of the largest corporate restatements in American history, trailing only WorldCom's.
+
+OFHEO sued Raines and two other former executives, chief financial officer Timothy Howard and controller Leanne Spencer, in December 2006, seeking more than $100 million in fines and $115 million in bonus restitution. The case settled in April 2008 for far less: Raines paid $24.7 million — a $2 million fine plus $15.6 million in surrendered stock options — while Howard and Spencer paid smaller amounts, and the Justice Department, after its own years-long investigation, brought no criminal charges against any of them. A separate shareholder class-action suit dragged on until 2012, when a federal judge granted Raines summary judgment, finding "no evidence that he even knew his statements were false" — a striking coda to a case regulators had once labeled fraud but no court ever tried.
+
+Fannie Mae itself never recovered the reputation Raines had built for it. Just five months after his personal settlement, the company he had once run was seized by the federal government and placed into conservatorship in September 2008, a casualty of the same subprime mortgage collapse that its earlier bonus-driven accounting, in hindsight, had done nothing to warn investors about.`,
+  },
+  {
+    title: 'Reinhard Siekaczek and the $1.6 Billion Bribery Scandal That Redefined Siemens',
+    slug: 'reinhard-siekaczek-siemens-bribery-scandal',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://www.justice.gov/archive/opa/pr/2008/December/08-crm-1105.html',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/The_Wings,_Siemens_HQ_Munich,_April_2017.jpg?width=1200',
+    coverImageCredit: "Photo: Martin Falbisoner, Wikimedia Commons (CC BY-SA 4.0) — Siemens' Munich headquarters, the company Reinhard Siekaczek's slush funds were built to serve",
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    body: `Siemens AG had used bribery as an ordinary tool of doing business for decades before anyone treated it as a crime. Until a 1999 change in German law, payments to foreign officials to win contracts were not only legal for German companies but tax-deductible as "nützliche Aufwendungen" — useful expenditures — and Siemens, one of the world's largest electronics and engineering conglomerates, kept the practice alive well after the law changed, adapting the mechanics rather than abandoning them.
+
+Reinhard Siekaczek was a mid-level manager in Siemens' telecommunications division who, from 2002 to 2006, oversaw an annual slush-fund budget of roughly $40 million to $50 million on behalf of his superiors. Working with outside consultants and a network of shell arrangements, he funneled cash through Liechtenstein and Switzerland into offshore accounts in Dubai and the British Virgin Islands, then routed it back out as bribes to government officials and state-company executives who could steer contracts to Siemens — $12.7 million to Nigerian officials for telecom deals, $5 million for a mobile-phone license in Bangladesh, and payments across Argentina, Venezuela, Iraq, Russia, Greece, and dozens of other countries where Siemens sold power equipment, telecom gear, and medical devices.
+
+German prosecutors raided Siemens' Munich headquarters in November 2006, and the investigation that followed found Siemens had paid roughly $1.4 billion in bribes between 2001 and 2007 — a scale that made the case, at the time, the largest corporate bribery scandal in modern history. The fallout reached the top of the company: chief executive Klaus Kleinfeld and supervisory board chairman Heinrich von Pierer both resigned in April 2007 even though neither was ever criminally charged, and von Pierer separately agreed in 2009 to pay Siemens €5 million to settle the company's civil claim that he had failed in his duty to prevent the bribery on his watch.
+
+Siekaczek himself was convicted in 2007 on charges of breach of trust for his role running the slush funds; a Munich court gave him a two-year suspended sentence and a €108,000 fine, a comparatively light outcome that reflected his cooperation as a key witness against the wider scheme. Siemens' own reckoning came in December 2008, when the company pleaded guilty to violating the U.S. Foreign Corrupt Practices Act and agreed to pay a combined $1.6 billion to German and American authorities — roughly $800 million split between a Justice Department criminal fine and an SEC disgorgement, and a similar sum to German prosecutors — the largest bribery settlement any company had ever paid up to that point.
+
+The Siemens case became the textbook example cited by regulators and compliance officers for the next decade: a global company where bribery had been so institutionalized that a single mid-level employee could run a $40-million-a-year cash operation for years with the knowledge of his superiors, and where cleaning it up cost Siemens more than $2.6 billion once internal investigations, legal fees, and compliance reforms were added to the fines. Peter Löscher, hired as Siemens' first outside chief executive in its history to lead the cleanup, rebuilt the company's compliance division from roughly 90 employees to more than 600 — a scale regulators would later point to as the template for how a corporation atones for institutionalized corruption.`,
+  },
+  {
+    title: 'Evaldas Rimasauskas and the Fake Quanta Computer Invoices That Fooled Google and Facebook Out of $120 Million',
+    slug: 'evaldas-rimasauskas-google-facebook-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://www.justice.gov/usao-sdny/pr/lithuanian-man-sentenced-5-years-prison-theft-over-120-million-fraudulent-business',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Vilnius_Modern_Skyline_At_Dusk,_Lithuania_-_Diliff.jpg?width=1200',
+    coverImageCredit: 'Photo: Diliff, Wikimedia Commons (CC BY-SA 3.0) — the Vilnius skyline; Rimasauskas ran his scheme from Lithuania before his 2017 extradition',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    body: `Evaldas Rimasauskas ran his fraud from Vilnius, Lithuania, with a method that required no hacking, no malware, and no technical sophistication at all — just paperwork that looked official enough to survive a corporate accounts-payable review. Between 2013 and 2015, he and unnamed co-conspirators targeted two of the most sophisticated technology companies in the world, Google and Facebook, both of which had genuine business relationships with a real Taiwan-based hardware manufacturer, Quanta Computer, that supplied server and computer equipment to both firms.
+
+Rimasauskas incorporated a company in Latvia bearing the same name as the real Quanta Computer, then opened and controlled bank accounts for it at banks in Latvia and Cyprus. Using forged invoices, contracts, and letters that falsely appeared to be signed by executives of Google and Facebook and stamped with counterfeit corporate seals bearing the two companies' names, he submitted fraudulent billing requests through the companies' own vendor-payment channels — invoices that looked, to accounts-payable staff processing thousands of legitimate supplier payments, like ordinary hardware bills from a vendor both companies already paid regularly.
+
+The scheme worked for more than two years and pulled in over $120 million combined — roughly $99 million from Facebook and $23 million from Google, according to the Justice Department's account — before it was discovered and both companies' banks moved to freeze and claw back the transfers. Rimasauskas laundered the money through a chain of accounts in Latvia, Cyprus, Slovakia, Lithuania, Hungary, and Hong Kong to obscure its path back to him. He was arrested by Lithuanian authorities in March 2017 at the request of the FBI, fought extradition for several months, and was extradited to the United States in August 2017 to face wire fraud, money laundering, and aggravated identity theft charges.
+
+Rimasauskas pleaded guilty in Manhattan federal court in March 2019 to a single count of wire fraud. In December 2019, a federal judge sentenced him to five years in federal prison, ordered him to forfeit $49.7 million, and required him to pay more than $26 million in restitution — figures that reflected both the money investigators had managed to trace and recover and the portion that had already disappeared into accounts beyond their reach.
+
+The case became one of the most widely cited examples of business email compromise fraud, a category the FBI's Internet Crime Complaint Center now ranks among the costliest forms of cybercrime by dollar losses reported each year — not because the technology involved was sophisticated, but because it wasn't. Rimasauskas needed no computer intrusion at all: he needed only a fake company name close enough to a real one, a handful of forged documents, and two victims large enough that a multimillion-dollar invoice from a familiar-sounding vendor could pass through the system without a second look.`,
+  },
+);
+
 // Practical "how it works / red flags / what to do" guides covering the
 // major scam categories, the same kind of coverage the FTC's Consumer
 // Advice site and AARP's Fraud Watch Network publish — well-documented
