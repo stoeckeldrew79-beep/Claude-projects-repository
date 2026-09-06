@@ -43196,6 +43196,39 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'Kampala Fake Gold Refinery Fraud',
+    slug: 'uganda-kampala-fake-gold-refinery-fraud',
+    description: `The Uganda Police Force arrested Asiimwe Moses and fifteen associates — operating under a company called Real Sunnex Ltd — after a Dubai-based businessman filed a complaint in July 2025 alleging he had been defrauded of USD 4,000,000 in a fake gold transaction at an illegal refinery. Investigators say the group lured the victim by claiming to hold quantities of raw gold ready for export, walked him through a staged "test and weigh" process at the refinery to make the material look genuine, and collected the payment before the gold could be independently verified; police say the same network had a second USD 4,000,000 scheme against another target already in progress when the arrests were made. The case implicated four serving Ugandan police officers — PC Kulutu Ayubu, PC Emorut Razak, PC Waiswa Benon, and PC Waiswa Siraj — whom the Force's internal disciplinary process subsequently recommended for dismissal or discharge over their role in the scheme, while officers recovered suspected fake gold, incriminating documents, and eight motor vehicles from the operation. All sixteen suspects were charged and remain pending trial, and the Uganda Police Force urged the public to exercise due diligence and verify that any gold or precious-mineral dealer is properly licensed before wiring money or meeting in person, since an offer of fast, private access to discounted raw gold is a hallmark of this kind of fraud rather than a genuine business opportunity.`,
+    categorySlug: 'investment-fraud',
+    country: 'UG',
+    alertLevel: 'high',
+    sources: ['Uganda Police Force'],
+    sourceUrl: 'https://upf.go.ug/arrest-of-16-suspects-including-four-police-officers-over-a-usd-4000000-fake-gold-fraud-scheme/',
+  },
+  {
+    name: 'Fake "Museveni Family" Financial Assistance Scam',
+    slug: 'uganda-fake-museveni-family-financial-assistance-scam',
+    description: `The Uganda Police Force dismantled two cyber fraud cells in Iganga District that impersonated President Yoweri Museveni and his daughter Natasha Museveni Karugire on TikTok and WhatsApp, running fake profiles — including one named "Youth Development Application Funds" — that offered followers scholarships, jobs, and financial assistance supposedly backed by the First Family. The scheme worked by having the fake accounts message people who had followed or commented on the real accounts, telling them they had been selected for a grant or opportunity, and then asking for a "registration fee" or "processing charge" to be paid by mobile money before the funds could supposedly be released. A first operation in Iganga Municipality on February 9, 2026 led to the arrest of Isabirye Ashiraf, Mulondo Rahman, Kakaire Zubair, and Egesa Sharif, with police recovering multiple phones and SIM cards used to run the fake accounts; a second raid on July 2, 2026 in Nandekula A village, Bulubandi Parish, netted six more suspects — several of them teenagers as young as 15 — along with nine phones holding additional fake profiles. The Uganda Police Force said neither the President nor his family solicit registration fees through social media for jobs, scholarships, or financial assistance, and urged anyone contacted this way to verify the offer through official government channels before sending any money.`,
+    categorySlug: 'government-impersonation',
+    country: 'UG',
+    alertLevel: 'high',
+    sources: ['Uganda Police Force'],
+    sourceUrl: 'https://upf.go.ug/arrest-of-multiple-cyber-fraud-gangs-impersonating-prominent-individuals-in-online-scam-crackdown/',
+  },
+  {
+    name: 'Uganda Mobile Money SIM-Swap and "Wrong Number" Fraud',
+    slug: 'uganda-mobile-money-sim-swap-wrong-number-fraud',
+    description: `Uganda's central bank and telecoms spent much of 2025 responding to a surge in mobile money fraud that a widely cited 2022 industry estimate put at roughly Shs19.2 billion in losses a year, driven mainly by SIM-card swaps carried out with the help of complicit mobile money agents, phishing messages asking users to confirm a PIN or personal detail, and social-engineering tricks that exploit the trust built into everyday mobile money use. One widely reported tactic sends a text timed to look like it comes from someone the victim just spoke with — "Hey, please send the money through this number instead, in the name of [X], my line isn't working" — banking on a recent, genuine conversation about a transfer to make the request seem authentic and prompt a fast resend with no call back to confirm. After Airtel Uganda customers organized an online "StopAirtelTheft" campaign in August 2025 over unresolved SIM-swap thefts, Bank of Uganda governor Michael Atingi-Ego publicly acknowledged the wave of complaints and said the bank had no record of unresolved cases that had actually been reported through the proper channel — first to the mobile money provider, then escalated to the Bank of Uganda's Directors of National Payment Systems or Communications and Public Relations if the telecom fails to resolve it — rather than aired only on social media, while Airtel Uganda managing director Soumendra Sahu acknowledged the harm to affected customers and pointed to tightened SIM-replacement verification as a needed fix. Bank of Uganda's advice to mobile money users is to never share a PIN or one-time code with anyone, including someone claiming to be an agent or telecom staff, to call a sender back on a known number before redirecting any "resend this transfer" request, and to report a suspected SIM swap or unauthorized transaction to the provider immediately, since funds withdrawn quickly through a hijacked line are rarely recoverable.`,
+    categorySlug: 'account-takeover',
+    country: 'UG',
+    alertLevel: 'high',
+    sources: ['Bank of Uganda', 'Sunrise.ug', 'Business Times Uganda'],
+    sourceUrl: 'https://sunrise.ug/tech-and-communication/202508/mobile-money-fraud-crisis-tests-ugandas-digital-economy-and-trust.html',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
