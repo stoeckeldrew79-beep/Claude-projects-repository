@@ -43397,6 +43397,42 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'Perth Amboy Man\'s 28-Store Home Depot Identity-Theft Spree (Christian Pacheco)',
+    slug: 'delaware-pacheco-home-depot-identity-theft-spree',
+    description: `Between August and September 2025, Christian Pacheco, 31, of Perth Amboy, New Jersey, made 28 separate visits to Home Depot stores across Delaware, telling cashiers each time that he had forgotten his store credit card and instead reciting a legitimate cardholder's Social Security number to look the account up manually — then backing up the claim with a fraudulent identification card that carried his own photo but a victim's name and personal information. The scheme, using the stolen identities of multiple different cardholders including at least one victim over 62, netted more than $24,000 in fraudulent merchandise before a Home Depot corporate investigator flagged the pattern of visits and referred it to the Delaware State Police Troop 2 Financial Crimes Unit in October 2025. Detectives traced the purchases back to Pacheco, who was taken into custody at a New Jersey airport on January 5, 2026 and extradited to Delaware, where he was charged with 28 counts of felony identity theft, 28 counts of second-degree forgery, 19 counts of unlawful use of a payment card belonging to a victim 62 or older, six counts of second-degree conspiracy, and dozens of related theft counts, before posting a $63,750 cash bond. The case is a reminder that identity theft doesn't require a computer or a stolen card in hand — a memorized Social Security number and a convincing fake ID were enough to walk out of two dozen stores with merchandise billed to strangers, which is why regularly reviewing store and credit card statements for unfamiliar purchases remains one of the few ways such slow-building schemes get caught.`,
+    categorySlug: 'identity-theft',
+    country: 'US',
+    state: 'DE',
+    alertLevel: 'high',
+    sources: ['Delaware State Police'],
+    sourceUrl: 'https://dsp.delaware.gov/2026/01/30/state-police-arrest-new-jersey-man-after-identity-theft-investigation/',
+  },
+  {
+    name: '"General Miller" Military-Impersonation Romance Scam Targeting a Rhode Island Widow (Fola Alabi)',
+    slug: 'rhode-island-alabi-general-miller-romance-scam',
+    description: `A Rhode Island widow struck up an online relationship with a man who called himself "General Miller" and claimed to be a four-star U.S. Army general stationed overseas — part of a nationwide romance-scam network that used the stolen identities and photographs of real military officers to court lonely, often widowed, older victims. After weeks of affectionate messages, the fake general told the widow he needed help shipping his personal belongings back to the United States and asked her to send $60,000; she mailed a check made out to a shell company called "Full Circle Import Exports" before her bank and the Westerly Police Department identified the fraud and stopped her from sending more. The Rhode Island victim was one of dozens nationwide bilked out of a combined $1,640,421 by the ring, whose Texas-based money launderer, Fola "Folayemi" Alabi, 52, of Richmond, opened bank accounts and shell companies to move the stolen funds. Alabi pleaded guilty in federal court in Providence to conspiracy and money laundering and was sentenced on April 25, 2023 by U.S. District Judge William E. Smith to 37 months in federal prison plus three years of supervised release, and was ordered to forfeit his Texas home and pay restitution to his victims. The case illustrates a hallmark of military-impersonation romance scams: a request for money tied to shipping costs, customs fees, or "getting leave to come home" from someone the victim has never met in person is the request to refuse, no matter how many uniformed photos or affectionate messages preceded it.`,
+    categorySlug: 'romance-scams',
+    country: 'US',
+    state: 'RI',
+    alertLevel: 'high',
+    sources: ['U.S. Attorney\'s Office, District of Rhode Island', 'Boston 25 News'],
+    sourceUrl: 'https://www.justice.gov/usao-ri/pr/texas-man-sentenced-role-scamming-seniors-rhode-island-and-elsewhere-online-romance-scams',
+  },
+  {
+    name: 'Hughes County Child-Protection-Services Fund Embezzlement (Lonna Carroll)',
+    slug: 'south-dakota-carroll-child-protection-services-embezzlement',
+    description: `Lonna Carroll, 68, worked for the South Dakota Department of Social Services, where she had access to state and federal funds set aside for children in the custody of Child Protection Services. Prosecutors say that between 2010 and March 2023, Carroll submitted 215 fraudulent financial requests on behalf of children who were no longer in the state's care, had the resulting payments deposited into accounts opened in those children's names, and then withdrew the money in cash for herself, ultimately stealing $1,777,665.73 from funds meant to support foster children. A Hughes County jury found Carroll guilty on April 3, 2025 of aggravated grand theft and grand theft, and on July 1, 2025 Circuit Judge Christina Klinger sentenced her to 10 years in prison with five years suspended on the aggravated count and three years with one year suspended on the grand theft count, served consecutively for a total of 13 years with six suspended, while ordering her to repay the full $1,777,665.73 plus court and defense costs. "This was a violation of trust by someone who had access to public funds," said South Dakota Attorney General Marty Jackley. "She stole money from the accounts of children who were in the custody of DSS, and now she is being held accountable for her actions." The case is a reminder that embezzlement schemes built on legitimate-looking, low-dollar transactions repeated hundreds of times over more than a decade can go undetected far longer than a single large theft — which is why state agencies overseeing benefit accounts for vulnerable people need routine, independent audits rather than relying on the employee who controls the accounts to flag their own irregularities.`,
+    categorySlug: 'public-benefits-fraud',
+    country: 'US',
+    state: 'SD',
+    alertLevel: 'high',
+    sources: ['South Dakota Attorney General', 'South Dakota Public Broadcasting'],
+    sourceUrl: 'https://www.sdpb.org/crime-courts/2025-07-01/carroll-receives-13-years-half-suspended-for-1-7-million-fraud-case',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
