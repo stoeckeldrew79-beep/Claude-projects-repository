@@ -9192,3 +9192,37 @@ International.push(
     country: 'MK',
   },
 );
+
+International.push(
+  {
+    name: 'Sanctuary Belize / Kanantik Overseas Real Estate Investment Scheme',
+    slug: 'belize-sanctuary-kanantik-real-estate-investment-scheme',
+    description: `Starting around 2005, telemarketers cold-calling consumers who had responded to infomercials and ads on Fox News and Bloomberg News pitched jungle and coastal lots in two Belize developments, Sanctuary Belize (with a related Sanctuary Bay and The Reserve) and Kanantik, as safe, "no-debt" investments where every dollar paid would go straight into construction. Callers posing as "property consultants" told buyers the roughly $150,000-to-$500,000 lots would double or triple in value within two or three years, that resale would be easy, and that the finished community would include a hospital staffed by American doctors, a championship golf course, an airstrip, and its own international airport, all completed within two to five years. In November 2018 a federal court in Maryland froze the operation at the FTC's request, finding it had taken in more than $100 million from consumers nationwide; the agency alleged the ringleaders, including Andris Pukke, diverted buyers' payments to fund their own lifestyles rather than the promised amenities, most of which were never built. Ten individual and corporate defendants settled with the FTC in December 2020, and after Pukke, Peter Baker, and John Usher were later ordered to turn over $120.2 million along with a ban on selling real estate, telemarketing, or misrepresenting facts to consumers, the FTC began mailing refund checks to victims, with a second round of nearly $23 million sent out in February 2026 on top of an earlier $10 million distribution. Consumer advocates note the same red flags recur across overseas land deals aimed at U.S. buyers: unsolicited telemarketing following a slick infomercial, promises that a raw or undeveloped lot will rapidly multiply in value, and assurances that a "no-debt" or fully funded model removes the risk ordinary construction financing carries, and recommend independently verifying any overseas developer's permits, completed infrastructure, and legal title before wiring any deposit.`,
+    categorySlug: 'investment-fraud',
+    isHistorical: true,
+    firstRecorded: '2005-01-01',
+    sources: ['Federal Trade Commission'],
+    sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2026/02/ftc-sending-nearly-23-million-consumers-who-invested-deceptive-sanctuary-belize-kanantik-real-estate',
+    country: 'BZ',
+  },
+  {
+    name: 'Fake "Belize Bank" Social Media Prize Phishing Scam',
+    slug: 'belize-bank-fake-prize-social-media-phishing-scam',
+    description: `Fraudsters have built fake social media profiles and pages closely copying Belize Bank's official branding, then use them to tell followers they have won a cash prize, gift, or reward and need only click a link to claim it. The link leads to a cloned page that asks the visitor to "verify" their identity by entering banking details such as a card number, PIN, username, or password, information the real bank says it would never request through a social media message or link. Belize Bank issued a public alert in February 2025 warning customers not to engage with these impersonation accounts and to never click unfamiliar prize or reward links purporting to come from the bank, directing anyone unsure whether a message is genuine to verify it directly through BBL Assist in its official Digital Banking app or by calling the bank's own published phone line rather than any number or link supplied in the suspicious post. The bank also urged customers who have fallen for such a link, or who suspect their account credentials were exposed, to register for its SOFT TOKEN two-factor login from a trusted device and to report the fake profile so it can be taken down. Because the impersonating accounts are cosmetically identical to the real thing, down to the logo and color scheme, the surest defense is to treat every unsolicited "you've won" message as fraudulent by default and to reach the bank only through channels the customer looked up themselves.`,
+    categorySlug: 'phishing',
+    alertLevel: 'high',
+    sources: ['Greater Belize Media', 'Belize Bank'],
+    sourceUrl: 'https://www.greaterbelize.com/belize-bank-warns-customers-of-online-scam/',
+    country: 'BZ',
+  },
+  {
+    name: 'Fake Bank Transfer Screenshot Scam Against Belizean Merchants',
+    slug: 'belize-fake-bank-transfer-screenshot-merchant-scam',
+    description: `Small business owners across Belize have been targeted by buyers who send a polished, convincing screenshot appearing to show a completed bank transfer for goods or services, then ask the merchant to hand over the item or provide the service immediately on the strength of that image. Because Belize's traditional banking system historically only finalized transfers after a processing delay, a payment submitted in the afternoon would not actually clear until the following business day, the merchant would release the goods believing payment was already in hand, only to discover hours or days later that the funds never actually arrived and the screenshot had been faked or doctored. Central Bank of Belize Governor Kareem Michael has publicly described the gap this scam exploits, noting that a payment entered at three o'clock would not be processed until finality the next day, leaving a window where a fabricated "proof of payment" looks indistinguishable from a real one. In April 2026 the Central Bank of Belize responded by launching a new Instant Payment System that settles transfers in roughly ten seconds and operates around the clock every day of the year, letting a merchant check its own account for a genuine, real-time deposit before releasing goods rather than trusting a screenshot the buyer supplies. Consumers and business owners are advised to never release merchandise or services based solely on a transfer screenshot or text message, and to instead confirm receipt of funds directly in their own banking app or account before completing a sale.`,
+    categorySlug: 'fake-check-overpayment',
+    alertLevel: 'high',
+    sources: ['Greater Belize Media', 'Central Bank of Belize'],
+    sourceUrl: 'https://www.greaterbelize.com/scammers-beware-belize-launches-instant-payment-system/',
+    country: 'BZ',
+  },
+);
