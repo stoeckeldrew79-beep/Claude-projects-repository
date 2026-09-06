@@ -43645,6 +43645,42 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'Washburn, North Dakota Crop Insurance Yield-Shifting Fraud',
+    slug: 'north-dakota-washburn-crop-insurance-yield-shifting-fraud',
+    description: `Kent Pfaff, a soybean farmer near Washburn, North Dakota, severely understated his 2019 soybean production yields when reporting to his federal crop insurance provider, the USDA's Risk Management Agency, and the Federal Crop Insurance Corporation — a technique investigators call "shifting production," where a farmer misattributes or hides real harvest bushels so the crop appears to have failed by more than it actually did, inflating the indemnity payment the insurance program then pays out. A subsequent USDA Office of Inspector General investigation, working with Risk Management Agency staff, found Pfaff's actual yields ran four to five times higher than what he had reported. Pfaff pleaded guilty to crop insurance fraud, and on March 26, 2024, U.S. District Judge Daniel Hovland sentenced him to time served, three years of probation, and $379,317 in restitution, and Pfaff agreed under his plea deal to a five-year exclusion from any USDA-funded federal procurement benefits. Because crop insurance premiums are subsidized by federal tax dollars and losses are spread across every policyholder in the program, an individual farmer inflating a claim ultimately raises costs for everyone else in the system — the same reason RMA field offices and the USDA OIG encourage neighbors, insurance adjusters, or elevator operators who notice yield numbers that don't match what was actually harvested or delivered to report the discrepancy through the USDA OIG hotline.`,
+    categorySlug: 'insurance-fraud',
+    country: 'US',
+    state: 'ND',
+    alertLevel: 'low',
+    sources: ["U.S. Attorney's Office for the District of North Dakota", 'Agweek', 'Bismarck Tribune'],
+    sourceUrl: 'https://www.justice.gov/usao-nd/pr/washburn-man-sentenced-crop-insurance-fraud-ordered-pay-37931700-restitution-and-agrees',
+  },
+  {
+    name: 'Hamilton, Montana Fake-Inheritance Advance-Fee Fraud',
+    slug: 'montana-hamilton-fake-inheritance-advance-fee-fraud',
+    description: `Richard William Brooks, of Hamilton, Montana, ran a years-long scheme — dating back to at least 2016 — in which he told acquaintances in Hamilton and Billings, often through third-party intermediaries, that he had fallen on hard financial times but that his daughter-in-law was about to receive a large inheritance, and that if a victim would front him money right away to cover the legal and court costs needed to release it, he would repay the loan plus a premium of between 25 and 100 percent once the inheritance came through. No inheritance ever materialized, and Brooks used the borrowed money for himself; one victim lost a business he had run for ten years along with his life savings, while another was subjected to threatening phone calls, driven from her home, and forced to sell treasured antiques just to get by. Brooks pleaded guilty to wire fraud, and under a plea agreement recommending a probationary sentence, he was sentenced to five years of probation and ordered to pay $722,808 in restitution to his two victims, to be paid at $3,000 a month — a schedule that will take nearly two decades to complete. The case illustrates a pattern common to advance-fee and inheritance scams generally: a story engineered around urgency ("the money is coming, but only if you act now") paired with a return far above what any legitimate loan or investment would pay, which is itself the surest sign the "inheritance" behind it does not exist.`,
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    state: 'MT',
+    alertLevel: 'medium',
+    sources: ['KULR8', 'NBC Montana'],
+    sourceUrl: 'https://www.kulr8.com/missoula/hamilton-man-to-pay-back-over-700-000-stolen-from-investors/article_aaf9f2b3-0203-5b93-87d0-9c27f6f9f497.html',
+  },
+  {
+    name: 'Long Beach, Mississippi Postal Clerk Foils IRS Cash-Mailing Scam',
+    slug: 'mississippi-long-beach-postal-clerk-irs-cash-mailing-scam',
+    description: `On April 8, 2026, an elderly woman walked into Premier Postal in Long Beach, Mississippi to mail a package to California, telling shop owner Jennifer Tolbert she was on the phone with the IRS about back taxes she owed. Tolbert grew suspicious — the woman was on speakerphone with a caller who had a strong accent and was directing her, step by step, through the shipping process, and she could not explain who was receiving the money or why expedited shipping was worth the extra cost. When Tolbert shook the box and heard something shift, she asked to open it with the woman's permission and found $25,000 in cash hidden inside magazines. Tolbert called the Harrison County Sheriff's Office, and Investigator Hanna Hendry — who had recently circulated bulletins warning about scammers demanding cash to resolve fake legal and tax debts — responded and confirmed it matched the same IRS-impersonation pattern, in which a caller claims a victim owes back taxes or fines and threatens arrest unless payment is sent immediately, often by mailing cash or buying gift cards. With help from the Department of Homeland Security, deputies returned the $25,000 to the woman, who had already sent scammers more than $30,000 before Tolbert intervened. The real IRS first contacts taxpayers by mail, never by phone, and never demands payment by cash, gift card, wire transfer, or cryptocurrency — retailers and shippers who notice a customer being coached through a transaction by someone on speakerphone are encouraged to ask questions and, when something feels wrong, to loop in local law enforcement before the package or payment goes out.`,
+    categorySlug: 'government-impersonation',
+    country: 'US',
+    state: 'MS',
+    alertLevel: 'high',
+    sources: ['WLOX', 'Harrison County Sheriff\'s Office', 'WXXV News 25'],
+    sourceUrl: 'https://www.wlox.com/2026/04/10/postal-worker-stops-scam-saves-elderly-woman-losing-25000/',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
