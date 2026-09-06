@@ -44267,6 +44267,42 @@ SEED_SCAMS.push(
   },
 );
 
+// Three new, real, sourced cases tied to Trinidad and Tobago — a country not
+// previously covered in SEED_SCAMS (verified by case-insensitive grep of the
+// full file, including its 'TT' ISO code, before adding).
+SEED_SCAMS.push(
+  {
+    name: 'TTSEC "Stable Rowdex" AI Deepfake Investment Scheme',
+    slug: 'trinidad-tobago-ttsec-stable-rowdex-ai-deepfake-investment-scheme',
+    description: `On March 5, 2026, the Trinidad and Tobago Securities and Exchange Commission (TTSEC) issued a public advisory warning that a fraudulent online investment operation cycling through the names Stable Rowdex, Stable Capital, and Futurix Capital was promoting a supposed AI-related investment opportunity to the Trinidad and Tobago public. The scheme spread across social media using AI-generated videos, fabricated newspaper articles, and doctored photographs to manufacture fake endorsements from prominent Trinidadian figures — including a fabricated endorsement attributed to the Prime Minister of Trinidad and Tobago, as well as economist Dr. Ronald Ramkissoon and former finance minister Wendell Mottley, ORTT — none of whom had any actual connection to the operation. TTSEC confirmed that none of the three operating names were registered with the Commission to offer securities or any other regulated investment product to the public, and cautioned that the scheme was deliberately evasive, regularly changing its branding, its operating name, and the identities of the public figures it impersonated whenever a version drew scrutiny, so the public could not simply avoid a single company name to stay safe. The Commission directed anyone who believed they had been targeted, or who had already sent money to the operation, to contact TTSEC directly at 1-868-223-2991 or marketcomplaints@ttsec.org.tt rather than engage further with the scheme's operators. Trinidad and Tobago residents are advised to check that any local investment firm or "opportunity" appears on TTSEC's public registrant list before sending money, and to treat a celebrity or official endorsement seen only in an online video, screenshot, or "news article" — and never confirmed through that person's own verified channels — as a strong signal of AI-generated fraud rather than genuine credibility.`,
+    categorySlug: 'ai-deepfake-scams',
+    country: 'TT',
+    alertLevel: 'high',
+    sources: ['Trinidad and Tobago Securities and Exchange Commission (TTSEC)', 'TTT News'],
+    sourceUrl: 'https://www.ttsec.org.tt/public-advisory-fraudulent-online-scheme-using-ai-generated-impersonations/',
+  },
+  {
+    name: 'TTPS "Bank Account Frozen" Phishing and Smishing Campaign',
+    slug: 'trinidad-tobago-ttps-bank-account-frozen-phishing-smishing-campaign',
+    description: `Beginning March 16, 2025, the Trinidad and Tobago Police Service's Fraud Squad White Collar Crime Division issued a public advisory about an active phishing and smishing campaign in which fraudsters sent emails and text messages falsely claiming that recipients' bank accounts had been frozen, urging them to click an embedded link to "resolve" the supposed problem. Despite the advisory, reports kept arriving at what police described as an alarming rate: by July 25, 2025, the TTPS had logged 46 separate reports across its divisions — 27 from the South office, 14 from Port of Spain, four from the Eastern Division, and three from Tobago — with combined confirmed losses of more than TT$2.8 million, plus additional victim losses reported in US and Jamaican dollars. In a follow-up statement, the TTPS reiterated that "financial institutions do not typically request sensitive information or urgent action via text or email," and urged anyone who received such a message to avoid clicking any link and instead visit their bank branch in person to check their account status, or call the bank directly using a number obtained independently rather than one supplied in the message. Victims were asked to preserve the suspicious message and report it to their nearest police station or the Fraud Squad. The scam's persistence for months after the initial public warning illustrates how effective a simple frozen-account pretext remains at creating enough panic that recipients click through a link before pausing to verify who actually sent it.`,
+    categorySlug: 'phishing',
+    country: 'TT',
+    alertLevel: 'high',
+    sources: ['Trinidad and Tobago Police Service (TTPS)', 'Caribbean National Weekly', 'Jamaica Observer'],
+    sourceUrl: 'https://www.caribbeannationalweekly.com/news/tt2-8m-lost-in-electronic-fraud-since-march-trinidad-police-says/',
+  },
+  {
+    name: 'US Embassy Port of Spain Visa Fraud Arrests',
+    slug: 'trinidad-tobago-us-embassy-port-of-spain-visa-fraud-arrests',
+    description: `On July 2 and 3, 2024, the Trinidad and Tobago Police Service's Fraud Squad, working with the U.S. Embassy's Diplomatic Security Service in Port of Spain, arrested four Trinidad and Tobago nationals — a 24-year-old woman taken into custody at the embassy's Marli Street building, a 63-year-old man and a 43-year-old woman arrested at their homes, and a 34-year-old woman arrested the following day — in connection with a scheme to obtain US visas through fraud. All four were charged with submitting fraudulent supporting documentation with their visa applications and with falsely claiming to be Trinidad and Tobago Police Service officers to embassy consular staff, apparently to make their applications appear more credible to reviewing officers. A magistrate granted each of the four TT$80,000 bail on July 4, 2024, with the case proceeding toward a sufficiency hearing. U.S. Ambassador Candace Bond said the arrests should "serve as a warning to anyone intending to falsify documents or misrepresent themselves to obtain a US visa through deceit that US federal agents will work alongside local law enforcement to arrest and prosecute them," and the embassy stressed that only its own consular officers can adjudicate a visa application — a reminder aimed at the broader population of Trinidadians who pay unlicensed "visa fixers" or facilitators who promise to improve their odds of approval through connections or paperwork shortcuts. Anyone applying for a US visa should deal directly with the embassy or a licensed immigration attorney, treat any intermediary who asks for fabricated employment letters, bank statements, or other documents as a red flag, and be equally wary of anyone who claims that borrowed official titles or credentials will help an application succeed.`,
+    categorySlug: 'identity-theft',
+    country: 'TT',
+    alertLevel: 'medium',
+    sources: ["U.S. Embassy in Trinidad & Tobago", 'Trinidad and Tobago Newsday', 'Trinidad Express'],
+    sourceUrl: 'https://tt.usembassy.gov/u-s-embassy-diplomatic-security-service-tt-police-service-collaborate-on-visa-fraud-arrests/',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
