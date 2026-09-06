@@ -43061,6 +43061,42 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'Cheyenne Section 8 and COVID Relief Double-Dip Fraud',
+    slug: 'wyoming-cheyenne-section-8-covid-relief-fraud',
+    description: `Sean and Victoria Madigan, a married couple in Cheyenne, Wyoming raising three children, received Section 8 Housing Choice Voucher rental assistance through the Cheyenne Housing Authority while also running a coffee shop at the Cheyenne Frontier Mall — but never disclosed the business's income when certifying their eligibility for the housing subsidy, understating their household income to keep the voucher. Sean separately used the coffee shop to apply for and obtain COVID-19 business relief funds from a State of Wyoming grant program, then, rather than spending the money on the business as the grant required, the couple ran it through the same bank account they used for household bills and spent a material portion of it on day-to-day living expenses. Sean pleaded guilty to wire fraud and making false statements and was sentenced on June 6, 2025 to five years of supervised probation, ordered to pay $161,175 in restitution to the State of Wyoming for the misused COVID relief funds plus $12,864, joint and several with Victoria, to the Cheyenne Housing Authority; Victoria pleaded guilty to related false-statement charges and was sentenced on September 10, 2025, also to five years of supervised probation. The case, investigated by the U.S. Department of Housing and Urban Development's Office of Inspector General, was prosecuted by the U.S. Attorney's Office for the District of Wyoming, whose U.S. Attorney Darin Smith said "we all end up paying when someone defrauds the government — the Madigans' actions are an outright theft from American taxpayers." Housing authorities and state relief programs cross-check reported income and bank records against tax and business filings, and failing to report self-employment or business income while receiving a housing subsidy, or spending emergency business-relief funds on personal expenses, is prosecuted as federal wire fraud rather than treated as a paperwork error.`,
+    categorySlug: 'public-benefits-fraud',
+    country: 'US',
+    state: 'WY',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office, District of Wyoming", 'Wyoming Tribune Eagle', 'Cap City News'],
+    sourceUrl: 'https://www.justice.gov/usao-wy/pr/cheyenne-couple-sentenced-fraud-case',
+  },
+  {
+    name: 'Bristol Custom Woodworking Take-the-Deposit-and-Stall Scam',
+    slug: 'vermont-bristol-old-camp-woodworking-fraud',
+    description: `David Conrad ran a custom woodworking business out of the two-car garage attached to his Bristol, Vermont home, advertising on Facebook and stand-alone websites under the names "Old Camp Woodworking" and "Vermont Custom Designs" and taking orders for dining tables, dressers, bedroom sets, desks, and other custom pieces. Between January 2022 and February 2023, Conrad accepted roughly $165,500 from customers in Vermont, New York, and New Hampshire for more than 100 items, quoting a standard 12-to-16-week completion window even though, prosecutors say, he knew he could not finish the work in that time — and often could not finish it at all. As orders fell further and further behind, Conrad strung customers along with false explanations for the delays, including invented claims that he had suffered a heart attack and had cut off part of a finger, and he invoked his own strict no-refund policy to keep customers' money even when he had not yet started their orders. Conrad pleaded guilty to wire fraud, and on January 30, 2024, U.S. District Judge Christina Reiss sentenced him to five years of probation and ordered him to pay $58,430.52 in restitution to 43 identified victims, along with forfeiture of an equal amount in fraud proceeds to the United States. The case, prosecuted by the U.S. Attorney's Office for the District of Vermont, is a reminder that a legitimate custom-goods business will provide a real production timeline and honor refund requests for work that was never started, and that customers who paid a deposit and are getting only excuses for missed deadlines should ask for a refund in writing and, if refused, report the business to their state attorney general's consumer protection office.`,
+    categorySlug: 'online-shopping-scams',
+    country: 'US',
+    state: 'VT',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office, District of Vermont", 'Vermont Business Magazine', 'WCAX'],
+    sourceUrl: 'https://www.justice.gov/usao-vt/pr/bristol-man-sentenced-defrauding-consumers-interstate-wire',
+  },
+  {
+    name: 'Diana Mae Fernandez "Self Made Success" Investment Fraud',
+    slug: 'west-virginia-diana-fernandez-self-made-success-investment-fraud',
+    description: `Diana Mae Fernandez of Bergenfield, New Jersey — who also went by "Diana Fernandez Koporan," "Dana Fernandez," and "Dajana Ko" — marketed herself on social media as a successful entrepreneur with access to "no-risk" investments, raising roughly $364,000 from at least 20 investors, including victims in Marion County, West Virginia, through two entities she controlled, The Self-Made Success and Diana Mae K., LLC. She told investors their money would go into cryptocurrency, private and publicly traded companies, and luxury real estate, guaranteeing returns as high as 63 percent, but instead of investing the funds as promised, Fernandez commingled investor money with her own, spending it on personal living expenses and hotel stays, making cash withdrawals, and using new investors' contributions to make Ponzi-like payments to earlier investors to keep the scheme going. The U.S. Securities and Exchange Commission sued Fernandez in the Northern District of West Virginia in December 2023, and in parallel criminal proceedings she pleaded guilty to wire fraud; she was sentenced to 33 months in federal prison followed by three years of supervised release and ordered to pay $330,144 in restitution to her victims, while the SEC obtained a judgment permanently barring her from offering securities again, with $296,021 in disgorgement satisfied through the criminal forfeiture. The case was investigated and prosecuted by the U.S. Attorney's Office for the Northern District of West Virginia alongside the SEC, and it illustrates how a polished social-media persona and a guarantee of "no-risk," above-market returns substitute for the audited financials and regulatory registration a real investment manager can show — before wiring money to anyone soliciting investments through social media, investors should verify the person and the security are actually registered with the SEC's EDGAR/Investor.gov databases or the West Virginia Securities Commission.`,
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    state: 'WV',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office, Northern District of West Virginia", 'U.S. Securities and Exchange Commission', 'WCHS-TV'],
+    sourceUrl: 'https://www.justice.gov/usao-ndwv/pr/new-jersey-woman-sentenced-investment-fraud',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
