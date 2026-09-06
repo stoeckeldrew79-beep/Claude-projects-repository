@@ -55,7 +55,9 @@ export async function fetchArticleBySlug(slug: string) {
   return data.data;
 }
 
-export async function fetchArticleCount(tag: string) {
-  const { data } = await api.get<{ data: { count: number } }>('/articles/count', { params: { tag } });
+export async function fetchArticleCount(opts: { tag?: string; q?: string }) {
+  const { data } = await api.get<{ data: { count: number } }>('/articles/count', {
+    params: { ...(opts.tag ? { tag: opts.tag } : {}), ...(opts.q ? { q: opts.q } : {}) },
+  });
   return data.data.count;
 }

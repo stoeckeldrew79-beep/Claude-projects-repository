@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { useInfiniteArticles } from '../hooks/useArticles';
+import { useArticleCount, useInfiniteArticles } from '../hooks/useArticles';
 import { useInfiniteScroll } from '../hooks/useInfiniteScroll';
 import type { Article } from '../types';
 import { useDocumentMeta } from '../hooks/useDocumentMeta';
@@ -36,6 +36,33 @@ function levenshtein(a: string, b: string): number {
 // once the list pages, leaving later cards blank for many seconds.
 function cardDelay(index: number): number {
   return 0.04 + (index % 4) * 0.04;
+}
+
+// A slot for an article that has not loaded yet, at exactly a card's height.
+// See Notorious: without these the document grows with every batch and the
+// scrollbar rescales under the reader mid-scroll.
+function PlaceholderCard() {
+  return (
+    <div
+      aria-hidden
+      style={{ contentVisibility: 'auto', containIntrinsicSize: '360px' }}
+      className="overflow-hidden rounded-xl border border-slate-200"
+    >
+      <div className="h-40 bg-slate-100 sm:h-48" />
+      <div className="p-5">
+        <div className="h-14 space-y-2">
+          <div className="h-4 w-4/5 rounded bg-slate-100" />
+          <div className="h-4 w-3/5 rounded bg-slate-100" />
+        </div>
+        <div className="mt-0.5 h-4" />
+        <div className="mt-2 h-[3.75rem] space-y-2">
+          <div className="h-3 w-full rounded bg-slate-50" />
+          <div className="h-3 w-full rounded bg-slate-50" />
+          <div className="h-3 w-2/3 rounded bg-slate-50" />
+        </div>
+      </div>
+    </div>
+  );
 }
 
 function relevanceScore(article: Article, terms: string[]): number {
@@ -95,6 +122,11 @@ export default function Articles() {
   const articles = useMemo(() => data?.pages.flat(), [data]);
   const sentinelRef = useInfiniteScroll(fetchNextPage, Boolean(hasNextPage) && !isFetchingNextPage);
 
+  // Counted with the same tag and search the list uses, so the reserved space
+  // matches what will actually arrive.
+  const { data: total } = useArticleCount({ tag: filter, q: query || undefined });
+  const placeholderCount = Math.max((total ?? 0) - (articles?.length ?? 0), 0);
+
   // The server decides what matches; this only orders what it returned, so a
   // title hit outranks a passing mention in a body. Ranking the accumulated
   // pages means a later page can reshuffle earlier results, which is worth
@@ -112,9 +144,16 @@ export default function Articles() {
   return (
     <div className="max-w-5xl mx-auto px-4 py-10">
       <h1 className="text-2xl font-bold text-slate-900 mb-2">Articles</h1>
-      <p className="text-slate-600 mb-6">
+      <p className="text-slate-600 mb-2">
         How-to guides for recognizing common scams, plus the historical stories behind them.
       </p>
+      {total !== undefined && (
+        <p className="mb-6 text-sm font-medium text-slate-900">
+          {query
+            ? `${total.toLocaleString()} matching ${total === 1 ? 'article' : 'articles'}.`
+            : `${total.toLocaleString()} articles published.`}
+        </p>
+      )}
 
       <div className="flex flex-wrap gap-3 mb-6">
         <input
@@ -163,18 +202,28 @@ export default function Articles() {
                   <NotoriousCoverArt slug={article.slug} className="h-full transition-transform duration-500 group-hover:scale-105" />
                 )}
               </div>
+              {/* Fixed heights, not min-heights, and the author line is
+                  reserved whether or not there is an author: a card that
+                  changes size as it loads is what makes the scrollbar jump. */}
               <div className="p-5">
-                <h2 className="text-lg font-semibold text-slate-900 group-hover:underline">{article.title}</h2>
-                {article.author && <p className="text-xs text-slate-400 mt-0.5">By {article.author}</p>}
-                <p className="mt-2 text-sm text-slate-600">{excerpt(article.body)}</p>
+                <h2 className="h-14 text-lg font-semibold text-slate-900 group-hover:underline line-clamp-2">
+                  {article.title}
+                </h2>
+                <p className="mt-0.5 h-4 text-xs text-slate-400 truncate">
+                  {article.author ? `By ${article.author}` : '\u00a0'}
+                </p>
+                <p className="mt-2 h-[3.75rem] text-sm text-slate-600 line-clamp-3">{excerpt(article.body)}</p>
               </div>
             </Link>
           </BlurFade>
         ))}
-        {articles && articles.length === 0 && !query && (
+        {Array.from({ length: placeholderCount }, (_, i) => (
+          <PlaceholderCard key={`placeholder-${i}`} />
+        ))}
+        {articles && articles.length === 0 && !placeholderCount && !query && (
           <p className="text-slate-500 col-span-2">No articles published yet.</p>
         )}
-        {articles && articles.length === 0 && query && (
+        {articles && articles.length === 0 && !placeholderCount && query && (
           <p className="text-slate-500 col-span-2">No articles match "{query}".</p>
         )}
       </div>

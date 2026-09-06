@@ -23,8 +23,11 @@ export function useInfiniteArticles(opts: { tag?: string; q?: string; sort?: 'ph
 }
 
 // How many articles exist under a tag, independent of how many have loaded.
-export function useArticleCount(tag: string) {
-  return useQuery({ queryKey: ['articles', 'count', tag], queryFn: () => fetchArticleCount(tag) });
+export function useArticleCount(opts: { tag?: string; q?: string }) {
+  return useQuery({
+    queryKey: ['articles', 'count', opts.tag ?? null, opts.q ?? ''],
+    queryFn: () => fetchArticleCount(opts),
+  });
 }
 
 // Admin-only: every article with the given tag, not just the first page.

@@ -39,6 +39,17 @@ export const count = asyncHandler<AuthedRequest>(async (req, res) => {
     values.push(tag);
     conditions.push(`$${values.length} = ANY(tags)`);
   }
+  // Must match list()'s filter exactly. A count that ignores the search would
+  // reserve space for articles the list will never return, leaving a page of
+  // placeholders below the results that never fill in.
+  const q = typeof req.query.q === 'string' ? req.query.q.trim() : '';
+  if (q) {
+    values.push(`%${q}%`);
+    const like = `$${values.length}`;
+    conditions.push(
+      `(title ILIKE ${like} OR body ILIKE ${like} OR author ILIKE ${like} OR array_to_string(tags, ' ') ILIKE ${like})`
+    );
+  }
   const { rows } = await pool.query<{ count: string }>(
     `SELECT COUNT(*)::text AS count FROM articles WHERE ${conditions.join(' AND ')}`,
     values
