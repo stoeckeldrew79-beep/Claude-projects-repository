@@ -2694,4 +2694,21 @@ Indonesian courts steadily lengthened Tantular's punishment as the case worked i
 
 Bank Century's collapse is remembered in Indonesia mainly as a political story, over whether officials broke the law to save a failing bank — but underneath that fight sat a simpler crime that predated the bailout entirely: a controlling shareholder using his own bank's counters and his own tellers' trusted faces to sell customers an investment product that, by regulators' own later account, never really existed.`,
   },
+  {
+    title: "Otto Pérez Molina and the La Línea Customs-Bribery Racket That Toppled a Guatemalan President",
+    slug: 'otto-perez-molina-guatemala-la-linea-customs-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.aljazeera.com/news/2022/12/8/guatemala-former-president-gets-16-years-for-fraud-conspiracy',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Foto_oficial_de_Presidente_Otto_Molina_Perez.jpg?width=1200',
+    coverImageCredit: 'Photo: Francisco Sandoval, Government of Guatemala, via Wikimedia Commons (public domain)',
+    coverImagePosition: 25,
+    body: `Otto Pérez Molina was a retired army general who won Guatemala's presidency in 2011 running on a hardline "iron fist" law-and-order platform, positioning himself as the candidate who would clean up a state widely seen as riddled with corruption and organized crime. Barely three years into his term, wiretaps obtained by Guatemala's UN-backed anti-corruption commission, CICIG, and the national attorney general's office revealed the opposite: a scheme, run out of the country's own customs administration and known as La Línea ("the Line"), that let importers systematically evade tariffs in exchange for bribes funneled up through a chain of officials — with evidence pointing to Pérez Molina and his vice president, Roxana Baldetti, sitting at the top of it.
+
+The mechanism was mundane in a way that made it durable: importers who wanted to skip paying full customs duties would call a designated phone line, agree on a reduced bribe payment with a customs contact, and have their goods cleared at a fraction of the legally owed tariff, with the difference split among officials up and down the chain. Investigators estimated the scheme funneled roughly $1 million or more in bribes to its participants while costing the Guatemalan treasury upwards of $2 million in lost customs revenue, but its real damage was to a state built on the promise that Pérez Molina himself had campaigned on ending precisely this kind of institutional graft.
+
+The wiretaps became public in April 2015, and the country's reaction was immediate: hundreds of thousands of Guatemalans, organized largely through social media rather than traditional political parties, filled the streets of Guatemala City in the largest anti-corruption protests the country had ever seen. Baldetti resigned that May after her own former private secretary was named the scheme's alleged operational ringleader and fled the country; Congress stripped Pérez Molina of presidential immunity in September, and he resigned and was jailed the same day, becoming the first sitting Guatemalan president to be arrested while still in office.
+
+The case against him moved slowly through Guatemala's courts for more than seven years before a tribunal convicted Pérez Molina on December 7, 2022, of customs fraud and illicit association, sentencing him to 16 years in prison; roughly thirty other officials and businesspeople were implicated alongside him. He was convicted again the following September, this time pleading guilty to money laundering and fraud in a related "Cooptation of the State" case and receiving an additional eight-year sentence that Guatemalan law allowed him to commute by making a financial payment, which he did that November. Pérez Molina's first conviction has still not been fully confirmed on appeal, and in January 2024 a judge released him on roughly $1.3 million bond with a travel ban and a requirement to check in with prosecutors every 30 days — meaning that, more than a decade after the wiretaps first surfaced, the case that toppled his presidency has yet to reach a final, unappealable word.`,
+  },
 );
