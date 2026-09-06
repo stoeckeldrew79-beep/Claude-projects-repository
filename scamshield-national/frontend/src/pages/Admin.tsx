@@ -5,6 +5,7 @@ import { useDocumentMeta } from '../hooks/useDocumentMeta';
 import { useAllArticleSummaries } from '../hooks/useArticles';
 import { AlertLevel } from '../types';
 import { useAuthStore } from '../store/useAuthStore';
+import { roleFromToken } from '../utils/tokenRole';
 import { NotoriousCoverArt } from '../components/NotoriousCoverArt';
 import {
   useCreateFiling,
@@ -313,7 +314,14 @@ function ArticleCoverPhotos({ tag, heading, subject }: { tag: string; heading: s
           );
         })}
       </div>
-      {mutation.isError && <p className="mt-2 text-xs text-red-700">Couldn't save — check you're signed in as an admin.</p>}
+      {mutation.isError && (
+        <p className="mt-2 text-xs text-red-700">
+          Couldn't save.{' '}
+          {(mutation.error as { response?: { status?: number } })?.response?.status === 403
+            ? 'The server rejected it as not-an-admin — sign out and back in to refresh your login token.'
+            : 'Check the backend is running and you are signed in.'}
+        </p>
+      )}
     </div>
   );
 }
@@ -915,9 +923,28 @@ function GlobalSourcesPanel() {
 export default function Admin() {
   useDocumentMeta({ title: 'Admin', description: 'ScamShield National admin panel.', noindex: true });
 
+  // The role lives in the token, not the user object, so the page used to
+  // render every panel for any signed-in account and let each save fail with
+  // one line of red text. A token issued before ADMIN_EMAILS was set stays
+  // non-admin for its full 7 days, which is a long time to spend wondering
+  // why nothing saves.
+  const token = useAuthStore((s) => s.token);
+  const isAdmin = roleFromToken(token) === 'admin';
+
   return (
     <div className="max-w-3xl mx-auto px-4 py-10">
       <h1 className="text-2xl font-bold text-slate-900 mb-2">Admin</h1>
+      {token && !isAdmin && (
+        <div className="mb-6 rounded-lg border border-amber-300 bg-amber-50 p-4">
+          <p className="text-sm font-semibold text-amber-900">You're signed in, but not as an admin.</p>
+          <p className="mt-1 text-sm text-amber-800">
+            Everything below will load, and every save will be rejected. Your role is written into the login
+            token when you sign in, so a token issued before your email was added to{' '}
+            <code className="rounded bg-amber-100 px-1 py-0.5 text-xs">ADMIN_EMAILS</code> stays non-admin until
+            it is replaced. <strong>Sign out and sign back in</strong> to get a new one.
+          </p>
+        </div>
+      )}
       <p className="text-slate-600 mb-6">
         Scam data entry, report review, and article publishing. Requires an admin-role account (see backend{' '}
         <code className="text-xs bg-slate-100 px-1 py-0.5 rounded">ADMIN_EMAILS</code>).
