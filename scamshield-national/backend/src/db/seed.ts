@@ -10983,6 +10983,64 @@ The scheme's unraveling produced an unusually candid admission. In a related 202
   },
 );
 
+NOTORIOUS_ARTICLES.push(
+  {
+    title: "Carlos Ghosn: The Nissan-Renault Chairman Who Fled Compensation-Fraud Charges in a Musical Instrument Case",
+    slug: 'carlos-ghosn-nissan-renault-compensation-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.npr.org/2021/06/23/1009435128/corporate-fugitive-carlos-ghosn',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Carlos_Ghosn_Leaf.JPG?width=1200',
+    coverImageCredit: "Photo: Nissan Motor Co., Ltd., Wikimedia Commons (CC BY-SA 3.0) — Carlos Ghosn charging a Nissan Leaf in 2010, during his years as chairman and CEO of Nissan and Renault",
+    coverImagePosition: 50,
+    body: `Carlos Ghosn spent two decades as one of the auto industry's most celebrated executives, credited with rescuing Nissan from near-bankruptcy in the late 1990s and building the Renault-Nissan-Mitsubishi Alliance into one of the world's largest car-making groups. He was famous enough in Japan to appear as a hero in his own manga comic. That reputation collapsed on November 19, 2018, when Tokyo prosecutors boarded his private jet at Haneda Airport and arrested him on suspicion of financial misconduct — the opening move in a case that would end not with a verdict, but with Ghosn hiding inside a box built for audio equipment.
+
+Prosecutors alleged Ghosn had systematically underreported his own compensation in Nissan's securities filings, understating roughly ¥5 billion (about $44 million) between 2010 and 2015 alone, with later charges covering deferred pay arrangements through 2018 that Japanese authorities said brought the total concealed compensation to roughly ¥9 billion. Separately, he was charged with aggravated breach of trust for temporarily shifting personal foreign-exchange losses of some $16.6 million onto Nissan's books in 2008, and for arranging roughly $14.7 million in payments from a Nissan subsidiary to a Saudi businessman who had personally guaranteed a loan for Ghosn. He denied all of it, and was held in Tokyo detention — rearrested multiple times as prosecutors added charges — for more than 130 days before being released on bail exceeding $9 million under strict conditions barring contact with his wife.
+
+On December 29, 2019, while awaiting trial under house arrest, Ghosn slipped out of Japan concealed inside a large case reportedly used for audio equipment, was driven to a private jet, and flew via Istanbul to Beirut. Lebanon, which does not extradite its own citizens and has no extradition treaty with Japan, gave him effective sanctuary — Ghosn holds Lebanese, French, and Brazilian citizenship. Days later he held a defiant press conference in Beirut, calling his arrest a "conspiracy" and Japan's justice system "rigged," and has remained in Lebanon ever since, never tried on the substance of the allegations against him.
+
+Ghosn's flight left others to answer for the scheme. Nissan itself pleaded guilty as a corporate entity to violating Japan's financial-instruments law and was fined ¥200 million, while his American deputy, Greg Kelly, was convicted in March 2022 on one count of helping conceal Ghosn's pay for a single fiscal year and given a six-month suspended sentence — a conviction a Japanese appellate court upheld in February 2025. France opened its own investigation, and in April 2022 the Parquet National Financier issued an international arrest warrant alleging Ghosn funneled roughly €15 million through an Omani car distributor, Suhail Bahwan Automobiles, to cover personal expenses including a yacht purchase. Lebanon has not extradited him for that case either.
+
+Ghosn's case is less a story about a hidden trading algorithm or a shell company than about how much unchecked authority a celebrated chief executive can accumulate at the top of a public company — enough, prosecutors say, to structure his own pay in ways his own board never approved and shareholders never saw. It is also a case study in the limits of white-collar accountability once a fugitive with multiple passports reaches a country that will not hand him over: five years after his escape, no court has ever ruled on whether the underlying allegations against Carlos Ghosn are true.`,
+  },
+  {
+    title: 'Franklin Ikechukwu Nwadialo: The Fifteen-Year Romance Scam Run as "Giovanni"',
+    slug: 'franklin-nwadialo-giovanni-romance-scam',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://komonews.com/news/local/nigerian-man-sentenced-to-5-years-in-prison-for-million-dollar-romance-scam-victims-online-dating-scams-match-zoosk-and-christian-cafe',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/William_Kenzo_Nakamura_United_States_Court_House.jpg?width=1200',
+    coverImageCredit: "Photo: Another Believer, Wikimedia Commons (CC BY-SA 3.0) — the William Kenzo Nakamura U.S. Courthouse in Seattle, where Franklin Nwadialo was sentenced for his romance scam",
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    body: `For more than fifteen years, Franklin Ikechukwu Nwadialo ran online dating profiles under the name "Giovanni" and other invented identities on Match, Zoosk, and Christian Café, building relationships with women he had never met and, according to federal prosecutors in the Western District of Washington, never intended to. His targets were consistently older, often widowed or divorced — the demographic romance scammers return to again and again, because loneliness and a genuine hope for companionship make caution feel like an insult to a new partner rather than a reasonable precaution.
+
+Nwadialo's method leaned on a single, durable excuse: he told victims he was deployed overseas with the U.S. military, which explained away video calls he couldn't make and meetings that never happened. Once trust was established — in one case, prosecutors said, over a relationship that lasted three years — he introduced a rotating cast of fabricated emergencies designed to extract money without raising alarm: a $150,000 military fine that needed paying, his father's death and funeral costs, a child's tuition, and purported investment opportunities that promised to pay victims back with interest. One widow lost her home and her life savings; across at least eight identified victims, prosecutors said Nwadialo extracted roughly $3.5 million.
+
+A federal grand jury indicted Nwadialo in December 2023 on fourteen counts of wire fraud. He was arrested in 2024 at a Texas airport as he arrived in the United States, and he ultimately pleaded guilty. At his sentencing in Tacoma in June 2026, U.S. District Judge Tiffany M. Cartwright imposed a five-year federal prison sentence, telling the courtroom that the scheme had caused victims "shame, depression, and isolation" and that it was "not an exaggeration to say it ruined lives — not only financial lives."
+
+Romance scams are frequently dismissed as small-dollar crimes against people who "should have known better," but Nwadialo's case shows how a single operator, working patiently over years and multiple platforms under a fabricated military identity, can extract sums large enough to cost a victim her home. The deployed-overseas cover story remains one of the most reliable tells in the romance-scam playbook precisely because it pre-answers the question a victim would otherwise ask — why can't we meet? — before she thinks to ask it.`,
+  },
+  {
+    title: 'Chen Jiulin and the $550 Million China Aviation Oil Scandal That Rocked Singapore',
+    slug: 'chen-jiulin-china-aviation-oil-scandal',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'http://www.chinadaily.com.cn/china/2006-03/22/content_549126.htm',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Aerial_view_of_Jurong_Island_from_Hill_top.jpg?width=1200',
+    coverImageCredit: "Photo: William Cho, Wikimedia Commons (CC BY-SA 2.0) — Jurong Island, Singapore's oil-trading and refining hub, where China Aviation Oil (Singapore) was based",
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    body: `Chen Jiulin ran China Aviation Oil (Singapore) Corporation, a jet-fuel trading subsidiary of a Chinese state-owned parent, and by the early 2000s had built it into one of the most closely watched Chinese enterprises listed on the Singapore Exchange — a rare, credible success story for a state-backed trading arm operating on foreign capital markets. Starting in 2003, Chen began speculating in oil options, betting that prices would fall. When oil prices instead climbed steadily through 2004, he did not close the losing positions. He rolled them forward and expanded them, doubling down in the hope that prices would eventually reverse — a decision that turned a containable trading loss into one of the largest derivatives disasters in Asian corporate history.
+
+As the losses mounted through 2004, CAO's state-owned parent company sold roughly 15% of its stake in the Singapore-listed unit, raising about $111 million from investors in a placement pitched as routine capital-raising. Prosecutors later established that the money was actually needed to meet margin calls on the secret, spiraling options losses — meaning new shareholders bought into the placement without ever being told the company was already sitting on a mounting derivatives disaster. When the positions were finally unwound in late 2004, CAO disclosed a loss of roughly $550 million and sought court-supervised protection from creditors, a collapse commentators at the time called Asia's most serious corporate blowup since Nick Leeson sank Barings Bank a decade earlier.
+
+Chen fled Singapore before the losses became public but returned and was taken into custody. In March 2006 he pleaded guilty to six charges, including failing to disclose the trading losses, making false statements to the exchange, and conspiring to deceive Deutsche Bank, which had advised on the share placement without knowing the true state of the company's finances. He was sentenced to four years and three months in prison and fined S$335,000 (roughly $207,000), and was released in 2009 after serving his term. CAO itself survived its court-supervised restructuring and went on to remain one of Singapore's larger listed companies.
+
+The China Aviation Oil scandal is a textbook illustration of how a losing derivatives bet becomes fraud the moment an executive chooses to conceal it rather than disclose it: Chen's original trading loss might have been a costly but explainable risk-management failure, but using a share sale to quietly plug a secret hole — without telling the very investors supplying the cash — turned a bad bet into a securities crime that took down a company and sent its chief executive to prison.`,
+  },
+);
+
 // Practical "how it works / red flags / what to do" guides covering the
 // major scam categories, the same kind of coverage the FTC's Consumer
 // Advice site and AARP's Fraud Watch Network publish — well-documented
