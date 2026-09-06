@@ -21281,7 +21281,7 @@ GUIDE_ARTICLES.push(
     slug: 'amazon-alexa-coppa-settlement-guide',
     author: 'ScamShield Editorial',
     tags: ['guide', 'amazon-alexa-coppa-settlement'],
-    sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2023/05/ftc-doj-charge-amazon-violating-childrens-privacy-law-keeping-kids-alexa-voice-recordings-forever-undermining',
+    sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2023/05/ftc-doj-charge-amazon-violating-childrens-privacy-law-keeping-kids-alexa-voice-recordings-forever',
     coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Amazon_Echo_Dot_(black)_on_a_wood_surface.jpg?width=1200',
     coverImageCredit: 'Photo: Michael Sheehan (HighTechDad), CC BY 2.0, via Wikimedia Commons — an Amazon Echo Dot, the Alexa-enabled device at the center of the case',
     coverImagePosition: 50,
