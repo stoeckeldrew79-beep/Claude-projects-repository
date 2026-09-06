@@ -3364,15 +3364,4 @@ export const UsGM: SeedScam[] = [
     country: "US",
     state: "MO",
   },
-  {
-    name: "Mississippi DBCF Money-Laundering Investigation Impersonation Scam",
-    slug: "mississippi-dbcf-money-laundering-impersonation-scam",
-    description: `The Mississippi Department of Banking and Consumer Finance (DBCF) issued a consumer alert warning residents about scammers impersonating the agency itself, falsely claiming DBCF is demanding payment from the target as part of a "money laundering" or "financial transparency" investigation. The scam reaches victims through multiple channels — emails demanding payment, text messages referencing a supposed financial investigation, and phone calls requesting fees — and relies on the threat of criminal charges to pressure the target into paying quickly rather than checking with the real agency first. DBCF stated flatly that it "will NEVER ask you for money or threaten you with criminal violations," making any such contact an automatic sign of fraud regardless of how official it sounds or how much personal detail the caller or message seems to have. Mississippians who receive an email demanding payment on DBCF's behalf, a text referencing a financial investigation, or a call requesting a fee tied to DBCF are advised not to respond, click any link, or provide payment or personal information, and instead to verify any concern directly with DBCF using contact information from its own website rather than anything supplied by the caller. Suspicious contact can be reported to the Mississippi Attorney General's Office at 601-359-3680 or attorneygenerallynnfitch.com, by emailing consumer@ago.ms.gov, or to the FTC at ReportFraud.ftc.gov.`,
-    categorySlug: "government-impersonation",
-    alertLevel: "medium",
-    sources: ["Mississippi Department of Banking and Consumer Finance", "Mississippi Attorney General's Office"],
-    sourceUrl: "https://dbcf.ms.gov/alerts/",
-    country: "US",
-    state: "MS",
-  },
 ];

@@ -3274,4 +3274,15 @@ export const UsNS: SeedScam[] = [
     country: "US",
     state: "RI",
   },
+  {
+    name: "New Hampshire DMV License-Suspension Text Scam",
+    slug: "new-hampshire-dmv-license-suspension-text-scam",
+    description: `New Hampshire Attorney General John M. Formella and the Department of Justice's Consumer Protection and Antitrust Bureau warned on June 9, 2025, about fraudulent text messages falsely claiming to be from the New Hampshire Division of Motor Vehicles that tell the recipient their driver's license will be suspended over an unpaid traffic violation unless they act immediately. The messages push recipients to click a link and submit payment through a fake page built to mimic an official state government site, in some versions using a URL that works the term "nhgov" into the address to look more convincing at a glance. The Bureau stressed that the real New Hampshire DMV does not send text messages about license suspensions, unpaid violations, or payment requests — the only legitimate texts it sends are appointment reminders — so any message claiming otherwise is fraudulent regardless of how official the linked page looks. Anyone who receives one of these texts is advised not to click the link, not to respond, and not to provide any personal, driver's license, or financial information, and to delete the message immediately. New Hampshire residents can report the scam text to the Attorney General's Consumer Protection and Antitrust Bureau at 1-603-271-3641 or DOJ-CPB@doj.nh.gov.`,
+    categorySlug: "government-impersonation",
+    alertLevel: "medium",
+    sources: ["New Hampshire Department of Justice", "New Hampshire Division of Motor Vehicles", "InDepthNH.org"],
+    sourceUrl: "https://www.doj.nh.gov/news-and-media/consumer-alert-scam-text-messages-falsely-claim-be-nh-dmv-threaten-license",
+    country: "US",
+    state: "NH",
+  },
 ];
