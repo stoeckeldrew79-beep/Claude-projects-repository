@@ -70,7 +70,7 @@ export default function Notorious() {
   });
   // The scale of the collection is the point of it, and paging means the
   // grid can never show it. Counted separately and stated up front.
-  const { data: total } = useArticleCount('notorious');
+  const { data: total } = useArticleCount({ tag: 'notorious' });
 
   const sortedArticles = useMemo(() => data?.pages.flat(), [data]);
   const sentinelRef = useInfiniteScroll(fetchNextPage, Boolean(hasNextPage) && !isFetchingNextPage);
