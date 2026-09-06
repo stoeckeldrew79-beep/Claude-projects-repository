@@ -11805,6 +11805,69 @@ In September 2024, federal prosecutors in the Central District of California ind
   },
 );
 
+NOTORIOUS_ARTICLES.push(
+  {
+    title: "Hannu Kailajärvi and the €100 Million WinCapita Ponzi Scheme That Duped Finland",
+    slug: 'hannu-kailajarvi-wincapita-ponzi-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://en.wikipedia.org/wiki/WinCapita',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Vantaan_oikeustalo_-_Tikkurila.jpg?width=1200',
+    coverImageCredit: "Photo: Paju, Wikimedia Commons (CC BY-SA 3.0) — the former Vantaa courthouse where Hannu Kailajärvi stood trial",
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    body: `Hannu Kailajärvi launched what began as WinClub in 2005, a members-only foreign-exchange "investment club" registered offshore in Panama. By 2007 it had rebranded as WinCapita, briefly operating under the name GiiClub as well, and pitched itself to ordinary Finns as an exclusive opportunity: hand over an initial stake of several thousand euros, and a proprietary "signal clock" system would use the pooled money to trade currencies, generating returns of up to four times the original investment.
+
+No such trading ever happened. WinCapita was a bucket shop dressed up as a private club, and its real engine was recruitment — members were encouraged to bring in friends and family at presentation meetings, the same social mechanics that power any pyramid scheme, just with a foreign-exchange story attached. Between 2005 and 2008 it pulled in roughly €100 million from more than 10,000 investors across Finland and, to a lesser extent, Sweden, making it probably the largest fraud in Finnish history by victim count.
+
+The operation unraveled on March 7, 2008, when the WinCapita website abruptly went offline and Kailajärvi disappeared from public view. Finland's National Bureau of Investigation opened a probe, and investigators eventually tracked him to a cottage in Nässjö, Sweden, where he had been hiding for roughly six months, telling neighbors he was renovating the property for an opera singer. He was arrested there in early December 2008.
+
+The case took years to reach trial. In December 2011, the District Court of Vantaa convicted Kailajärvi of aggravated fraud and sentenced him to four years in prison; the Helsinki Court of Appeal increased that to five years in February 2013 after also convicting him of an illegal money-collection offense, and Finland's Supreme Court upheld the five-year sentence in 2014, ruling that roughly €20 million of his profits constituted criminal proceeds to be used compensating victims. By then, more than 2,800 people had filed police reports over losses totaling around €57 million. Kailajärvi was released on parole in April 2014.
+
+WinCapita remains the reference case Finnish authorities point to when warning about "invitation-only" investment clubs: a scheme with no real underlying trading, built almost entirely on word-of-mouth recruitment and the exclusivity of being let in on a supposed secret — proof that a fraud needs no sophisticated cover story to become the largest in a country's history, just a story compelling enough that member's own social networks do the marketing for free.`,
+  },
+  {
+    title: 'Ramón Báez Figueroa and the $2.2 Billion Baninter Collapse That Broke the Dominican Economy',
+    slug: 'ramon-baez-figueroa-baninter-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://en.wikipedia.org/wiki/Ram%C3%B3n_B%C3%A1ez_Figueroa',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/View_of_Santo_Domingo_Skyline.jpg?width=1200',
+    coverImageCredit: 'Photo: BigFalo, Wikimedia Commons (CC BY-SA 3.0) — the Santo Domingo skyline, rocked by the 2003 Baninter collapse',
+    coverImagePosition: 55,
+    // representative photo — replace with a portrait if found
+    body: `Ramón Báez Figueroa was born into Dominican banking royalty — a descendant of two former Dominican presidents, Buenaventura Báez and Ramón Báez Machado, and the son of Ramón Báez Romano, the entrepreneur who built Banco Intercontinental, known as Baninter, into one of the country's major commercial banks. Báez Figueroa took over as chief executive in 1993, and he and his father together controlled more than 80% of its shares. Under his leadership Baninter grew rapidly, reaching a valuation of roughly $1.51 billion by 2001 and expanding into media and other ventures, with Báez Figueroa celebrated in Dominican business circles as a kind of national "King Midas."
+
+That success was manufactured. Baninter ran a custom dual-bookkeeping system that concealed roughly two-thirds of the bank's true deposits and liabilities from bank regulators and its outside auditor, PricewaterhouseCoopers, for years, while the bank quietly extended undisclosed "sweetheart loans" that benefited politically connected borrowers and helped keep the fraud politically shielded. The concealed liabilities eventually reached roughly RD$55 billion — more than $2.2 billion — a sum equal to about two-thirds of the entire national budget of the Dominican Republic at the time.
+
+The Central Bank moved to take control of Baninter on April 7, 2003, once the hidden hole in its books came to light, and Báez Figueroa was arrested on May 15, 2003, along with Baninter vice presidents Marcos Báez Cocco and Vivian Lubrano de Castillo, board secretary Jesús M. Troncoso, and financier Luis Álvarez Renta, on charges of bank fraud, money laundering, and concealing information from regulators. The collapse — the largest bank failure in Dominican history — forced a government bailout that triggered roughly 30% annual inflation, a sharp peso devaluation, a spike in poverty, the failure of two additional banks, and ultimately a $600 million IMF assistance package to stabilize the economy.
+
+The criminal trial finally opened in April 2006 with some 350 witnesses slated to testify, including former president Hipólito Mejía. On October 21, 2007, a three-judge panel sentenced Báez Figueroa to 10 years in prison and ordered him to pay more than $31 million in restitution and damages, while acquitting him on the separate money-laundering charge; Álvarez Renta was separately sentenced to 10 years for laundering, and the charges against the other two co-defendants were dismissed for insufficient evidence. Báez Figueroa ultimately served about six years before his release.
+
+Baninter stands as the largest bank collapse in Dominican Republic history and one of the costliest banking frauds in Latin America, a case that showed how a concealment scheme run through a bank's own books — hidden from both regulators and an international audit firm — can inflict damage far beyond its shareholders, destabilizing an entire national currency and pushing a country into an IMF rescue program.`,
+  },
+  {
+    title: 'Helmut Elsner and the €1 Billion BAWAG Scandal That Nearly Sank an Austrian Bank',
+    slug: 'helmut-elsner-bawag-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://en.wikipedia.org/wiki/BAWAG_P.S.K.',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/BAWAG001.JPG?width=1200',
+    coverImageCredit: 'Photo: Priwo (Wolfgang Pribitzer), Wikimedia Commons (CC BY-SA 3.0) — BAWAG headquarters, Vienna',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    body: `BAWAG — the Bank für Arbeit und Wirtschaft — was Austria's trade-union-owned bank, controlled by the ÖGB labor federation and long seen as a conservative, low-risk institution serving workers and small savers. Helmut Elsner joined its management board and rose to become its chief executive in 1995. A decade earlier, in 1987, BAWAG had already begun quietly bankrolling an offshore investment fund run by Wolfgang Flöttl, an Austrian-American financier and son of a former BAWAG chief, who traded currencies and derivatives through a network of entities based in the Caribbean.
+
+Flöttl's fund began generating enormous losses starting in the late 1990s, worsened by sharp swings in the dollar-yen exchange rate. Rather than disclose them, BAWAG's management — prosecutors later found Elsner personally directed the effort — routed the losses through more than half a dozen shell companies registered on the Caribbean island of Anguilla and a web of circular financing arrangements, keeping more than €1 billion in losses off the bank's books between 1995 and 2000. A central bank audit ordered by Finance Minister Karl-Heinz Grasser in December 2000 failed to catch either the hidden Caribbean losses or a secret guarantee ÖGB had quietly pledged to backstop them.
+
+The concealment held for years until it began unraveling in stages tied, ironically, to a separate American fraud: in autumn 2005 BAWAG disclosed a $425 million loan it had extended to Phillip Bennett, the Refco chief executive who was separately convicted for hiding losses at his own firm just before Refco's collapse. The exposure that followed from BAWAG's dealings with Refco led investigators, in March 2006, to uncover the much larger, decade-old Caribbean losses — a discovery that forced ÖGB president Fritz Verzetnitsch to resign after admitting he had pledged the union's own strike fund as secret collateral. BAWAG survived only with an emergency state-backed guarantee, and its owners ultimately sold the bank to a consortium led by Cerberus Capital Management for roughly €3.2 billion, a deal that closed in May 2007.
+
+Vienna prosecutors charged Elsner, Flöttl, former chief executive Johann Zwettler, and six other former executives with breach of trust, fraud, and false accounting, in a trial — Austria's largest corporate-fraud case by loss at the time — that ran for nearly a year. In July 2008, presiding judge Claudia Bandion-Ortner convicted Elsner and sentenced him to nine and a half years in prison, along with an order to repay BAWAG €6.8 million in pension benefits; the other defendants received sentences ranging from eighteen months to five years. Flöttl was convicted as well, but Austria's Supreme Court overturned his conviction in 2010 and ordered a retrial, which ended in a full acquittal in December 2012, made final the following year when prosecutors chose not to appeal further. Elsner, in declining health, was released after serving about four and a half years of his sentence; he died in 2022.
+
+The BAWAG affair remains Austria's largest banking scandal, remembered both for the scale of a concealment that ran undetected for a decade and for its political fallout — a bank owned by organized labor found to have secretly wagered workers' own strike fund on speculative Caribbean currency trades, a case now cited in Austria as the clearest argument for why a long-serving chief executive's private dealings need independent board oversight, not just trust.`,
+  },
+);
+
 // Practical "how it works / red flags / what to do" guides covering the
 // major scam categories, the same kind of coverage the FTC's Consumer
 // Advice site and AARP's Fraud Watch Network publish — well-documented
