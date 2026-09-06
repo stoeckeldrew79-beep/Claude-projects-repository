@@ -11624,6 +11624,63 @@ Dimon kept his job — the board cut his 2012 compensation roughly in half rathe
   },
 );
 
+NOTORIOUS_ARTICLES.push(
+  {
+    title: 'Ross Mandell and the Sky Capital Boiler Room That Fleeced British Investors',
+    slug: 'ross-mandell-sky-capital-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://www.justice.gov/archive/usao/nys/pressreleases/May12/mandellrosssentencing.html',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Former_London_Stock_Exchange_Building_-_geograph.org.uk_-_1501273.jpg?width=1200',
+    coverImageCredit: 'Photo: Christine Matthews, Wikimedia Commons (CC BY-SA 2.0) — the former London Stock Exchange building; Sky Capital raised money from British retail investors through a London-listed AIM stock',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    body: `Ross Mandell founded Sky Capital Holdings in New York at the end of the dot-com bust in 2001, pitching it as an investment bank that would identify promising young companies and take them public. In June 2002 he listed the firm on London's Alternative Investment Market, becoming, by his own account, the first American to take a U.S.-regulated brokerage public on the exchange — a structure that let Sky Capital's brokers spend years cold-calling and courting retail investors across the United Kingdom, far from the scrutiny of U.S. regulators who might otherwise have been watching his American operation more closely.
+
+Prosecutors said the pitch British investors heard bore little resemblance to what Sky Capital was actually doing with their money. Between 2001 and 2006, Mandell and his brokers used high-pressure boiler-room sales tactics to push clients into a small number of thinly traded stocks that Sky Capital itself controlled and quietly manipulated, misrepresenting the prices, prospects, and independence of the companies being sold while charging commissions that prosecutors said sometimes ran as high as 400 percent above normal rates and making unauthorized trades in customer accounts. Sky Capital told investors their shares were rising because the underlying businesses were succeeding; in reality, prosecutors said, the firm itself was largely propping up the price through its own trading. All told, the scheme took in more than $140 million.
+
+The FBI raided Sky Capital's offices in late 2006, but Mandell was not arrested for nearly three more years, finally taken into custody in July 2009 and indicted on securities fraud, wire fraud, and conspiracy charges. He went to trial in Manhattan federal court in 2011, and a jury convicted him on all counts that June. U.S. District Judge John Koeltl sentenced Mandell on May 3, 2012 to 12 years in federal prison, along with three years of supervised release and a $50 million forfeiture order; a co-defendant and Sky Capital broker, Adam Harrington, received a shorter sentence for his role in the same scheme.
+
+Mandell fought the conviction for years afterward, including an unsuccessful bid for U.S. Supreme Court review in 2015, but the underlying facts of the case were never seriously in dispute at trial. What made Sky Capital notable even among boiler-room prosecutions was its cross-border structure: an American-run brokerage, formally listed and regulated in London, that used the distance between two countries' securities regulators to keep extracting money from investors for years after the FBI had already raided its office once and let it keep operating.`,
+  },
+  {
+    title: 'Aubrey McClendon: The Chesapeake Energy Founder Indicted for Bid Rigging Who Never Reached Trial',
+    slug: 'aubrey-mcclendon-chesapeake-bid-rigging',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://www.justice.gov/archives/opa/pr/former-ceo-indicted-masterminding-conspiracy-not-compete-oil-and-natural-gas-leases',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Downtown_Oklahoma_City_skyline_at_twilight.jpg?width=1200',
+    coverImageCredit: 'Photo: Greater Oklahoma City Chamber, Wikimedia Commons (CC BY-SA 3.0) — downtown Oklahoma City, headquarters of Chesapeake Energy, the company Aubrey McClendon co-founded and led',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    body: `Aubrey McClendon co-founded Chesapeake Energy in 1989 and built it into the second-largest natural gas producer in the United States, becoming one of the loudest public champions of the shale-drilling boom that reshaped American energy production in the 2000s. His aggressive land-acquisition strategy — buying up drilling rights ahead of competitors, often financed by enormous personal debt secured against his own stake in the wells — made him one of the highest-paid executives in the country even as it left Chesapeake itself carrying heavy leverage.
+
+That same acquisition strategy put McClendon at the center of a federal antitrust investigation into how oil and gas companies bought up leases from landowners in Oklahoma. On March 1, 2016, a federal grand jury indicted him on a single count of conspiring, from December 2007 to March 2012, to rig bids for oil and natural gas leases in northwest Oklahoma — an arrangement in which Chesapeake and a competing company allegedly agreed not to bid against each other for the same leases, then divided up the winnings, suppressing the price paid to the landowners selling the rights. The Justice Department's Antitrust Division called it the first case to emerge from a broader investigation into anticompetitive conduct across the oil and gas industry, and the charge carried a maximum sentence of ten years in prison and a $1 million fine.
+
+McClendon, who had already been forced out as Chesapeake's CEO in 2013 following a separate board investigation into conflicts of interest involving his personal stakes in company wells, publicly denied the bid-rigging charge the day it was announced, calling it "wrong and unprecedented." He never had the chance to contest it in court: the following morning, March 2, 2016, he died alone when his SUV, traveling roughly 78 miles per hour, crossed a center line in Oklahoma City and drove directly into a highway overpass wall. Police found no evidence he attempted to brake or swerve. The medical examiner ruled the death an accident, though the timing — less than 24 hours after the indictment — fueled widespread speculation that it was not. Chesapeake Energy itself separately settled related civil antitrust claims, including a $25 million payment to Michigan regulators over a similar bid-rigging arrangement there.
+
+Because McClendon died before entering a plea, the criminal case against him was formally dismissed, leaving the bid-rigging allegations legally unresolved even though prosecutors never withdrew them. Chesapeake Energy survived him by only a few years in its original form, filing for bankruptcy in 2020 under the weight of the same debt-fueled drilling strategy McClendon had championed. His case remains a stark illustration of how quickly a criminal proceeding against even a nationally prominent executive can end without any court ever weighing the evidence — not through acquittal or a plea deal, but because the defendant did not survive to see a courtroom.`,
+  },
+  {
+    title: 'Stuart Wolff and the Homestore.com "Round-Trip" Deals That Faked a Dot-Com Success Story',
+    slug: 'stuart-wolff-homestore-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://www.justice.gov/archive/usao/cac/Pressroom/pr2010/070.html',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Home_for_Sale_Sign_in_Eugene,_Oregon.jpg?width=1200',
+    coverImageCredit: 'Photo: Rick Obst, Wikimedia Commons (CC BY 4.0) — a home-for-sale sign; Homestore.com ran the real estate listing site that became Realtor.com',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    body: `Stuart Wolff founded the company that became Homestore.com in 1996, building an early online real-estate listings service that landed an exclusive deal to operate Realtor.com on behalf of the National Association of Realtors and went public in 1999 near the height of the dot-com boom. By January 2000, riding the same investor enthusiasm lifting every internet stock, Homestore's shares traded above $120, and Wolff was celebrated as one of the web's rising dot-com chief executives.
+
+Behind that growth, prosecutors said, Homestore and its executives were manufacturing much of the advertising revenue Wall Street was rewarding. Starting in 1998 and continuing through 2001, Wolff and the company's head of business development, Peter Tafeen, arranged a series of "round-trip" transactions: Homestore paid outside vendors for services it did not need or never used, and those same vendors then funneled the money back to Homestore through unrelated advertising purchases, which the company booked as new revenue. The cash was Homestore's own money the whole time, laundered through a third party and returned to the top line as if it had come from a genuine customer — concealed, prosecutors said, from the company's own outside auditors.
+
+The scheme inflated Homestore's reported revenue by close to $200 million before it collapsed under an SEC investigation and a securities-fraud indictment; the stock, which had traded above $120 a share, fell to under $1, wiping out roughly $1 billion in shareholder value and $100 million in direct investor losses. A federal jury convicted Wolff in June 2006 on conspiracy, insider trading, false-filing, and false-statement counts, and he was initially sentenced to 15 years in prison — but the Ninth Circuit Court of Appeals threw out that conviction in 2008 after finding the trial judge should have recused himself. Rather than face a full retrial, Wolff was convicted again on a narrower securities-fraud count and, on April 19, 2010, was sentenced to 54 months in federal prison. Tafeen and ten other Homestore executives and vendor-side conspirators were separately convicted or pleaded guilty; Tafeen received 30 months.
+
+Homestore's fraud is now most often cited as one of the clearest dot-com-era illustrations of round-trip revenue fraud — a mechanism that, unlike a fictitious product or a forged bank statement, requires no outside victim at the moment of the transaction at all, since the money moving in a circle back to its source came from the company itself. What made it detectable, eventually, was exactly what let it work for as long as it did: real cash changing real hands between real vendors, with nothing on the surface to distinguish a genuine advertising sale from one designed only to be booked as one.`,
+  },
+);
+
 // Practical "how it works / red flags / what to do" guides covering the
 // major scam categories, the same kind of coverage the FTC's Consumer
 // Advice site and AARP's Fraud Watch Network publish — well-documented
