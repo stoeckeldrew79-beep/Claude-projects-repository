@@ -11278,6 +11278,66 @@ What made Baldur's case resonate beyond its own facts was exactly what made it u
   },
 );
 
+NOTORIOUS_ARTICLES.push(
+  {
+    title: 'Amit Chauhan and the Tech Support Scam That Survived Its Own Bust',
+    slug: 'amit-chauhan-tech-support-scam-india',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://en.wikipedia.org/wiki/Jim_Browning_(YouTuber)',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Gurgaon_skyline.jpg?width=1200',
+    coverImageCredit: 'Photo: Dealtroadd, Wikimedia Commons (CC BY-SA 3.0) — the Gurugram skyline, where Chauhan ran his fake tech-support call center',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    body: `In January 2019, a former engineering student named Amit Chauhan set up a company called "Tech Support" out of the Udyog Vihar business district in Gurugram, India, alongside an accomplice and accountant named Sumit Kumar, and used a front travel agency called Faremart Travels Private Limited to help launder the proceeds. The pitch, delivered through malicious pop-ups designed to look like genuine Microsoft security alerts, told victims — overwhelmingly older, less tech-savvy people in the United Kingdom, United States, Canada, and Australia — that their computers were infected with a virus, then walked them through a fake "support" call that ended with a charge of hundreds of dollars or pounds to fix a problem that never existed.
+
+The operation's undoing came from an unlikely source: a Northern Irish programmer who runs a scam-baiting YouTube channel under the name Jim Browning. Browning hacked into Chauhan's own network, seized control of the office's internal CCTV cameras, and quietly gathered recordings of the call floor alongside roughly 70,000 recorded scam calls made to victims across the UK, US, and Australia. Working with fellow YouTuber Karl Rock and the BBC's investigative program Panorama, Browning's footage was broadcast in March 2020, showing staff at the Gurugram center running scripts on live victims in real time.
+
+Within hours of the broadcast, police raided the Udyog Vihar premises and arrested Chauhan and Kumar. Investigators said the operation had defrauded more than 40,000 people across roughly a dozen countries out of more than $8 million. Chauhan was released on bail of just 50,000 rupees — about $600 — within three weeks of his arrest, and Panorama's own reporting found that he and Kumar had gone on to open a new scam call center with the same business model in the very same building while still out on bail.
+
+What happened next in court was, if anything, more remarkable than the scam itself. It took a full 18 months for the case to reach a hearing, and on May 2, 2022, a judicial magistrate in Gurugram acquitted Chauhan of all charges after prosecutors failed to respond to a defense application seeking dismissal — despite the extensive video and audio evidence Browning had gathered and handed to both the BBC and Indian authorities.
+
+Chauhan's case became one of the most widely viewed illustrations of how thin accountability can be for the international tech-support scam industry, an ecosystem of Indian call centers that international law enforcement estimates costs victims in wealthier countries billions of dollars a year. A YouTuber armed with nothing but a laptop and a hacked security-camera feed had produced more usable evidence against a scam operator than the criminal justice system in the country where the scam was based ultimately acted upon — and Chauhan, by his own account to police, simply kept going.`,
+  },
+  {
+    title: "Lalith Kotelawala and the Golden Key Collapse That Emptied Sri Lanka's Trust in Ceylinco",
+    slug: 'lalith-kotelawala-golden-key-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://en.wikipedia.org/wiki/Golden_Key_Credit_Card_Company',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Fort,Colombo,Sri_Lanka.JPG?width=1200',
+    coverImageCredit: "Photo: Katorisi, Wikimedia Commons (CC BY-SA 3.0) — Colombo's Fort financial district, home to the Ceylinco Group and Golden Key",
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    body: `Lalith Kotelawala built the Ceylinco Group into one of Sri Lanka's largest conglomerates, a sprawling empire of more than 300 subsidiaries spanning insurance, banking, healthcare, and consumer finance. Tucked inside that empire was Golden Key Credit Card Company, a deposit-taking finance arm founded in 1977 that by the mid-2000s had become an unofficial high-interest savings vehicle for the wider group, drawing in retirees and middle-class savers with returns that comfortably beat what Sri Lanka's regulated banks were offering.
+
+Golden Key was never licensed as a bank and operated instead under the country's looser finance-company rules, even as it quietly built up a deposit base of roughly Rs. 26 billion from more than 9,000 depositors. When the 2008 global financial crisis hit and a broader run on Ceylinco Group entities began, Golden Key collapsed in December 2008, and it soon became clear the money wasn't there — depositors' funds had been funneled into other loss-making arms of Kotelawala's business empire rather than held against the deposits they were meant to secure.
+
+Kotelawala was placed under remand in February 2009 as the scale of the collapse became public, and Sri Lanka's Attorney General eventually indicted him and members of the Golden Key board on 91 counts of criminal misappropriation and criminal breach of trust under the Penal Code and the Finance Companies Act, covering conduct dating back to March 1999. The case then moved at a pace that mirrored the fortune it was investigating: it took well over a decade before Kotelawala, his wife Sicilia, and seven other directors pleaded guilty in 2022, and the Colombo High Court imposed a combined fine and compensation order of just Rs. 18 million — a figure depositors and Sri Lankan commentators alike described as a rounding error against Rs. 26 billion in vanished savings.
+
+For the roughly 9,000 people who had trusted Golden Key with their money, restitution never came close to what they had lost. Many were older savers who moved retirement funds into the company precisely because Kotelawala's stature as one of Sri Lanka's most visible industrialists made it feel safer than an unlicensed finance company had any right to be. Kotelawala died on October 21, 2024, at age 84, a figure Sri Lankan business coverage remembered in strikingly split terms: celebrated in parts of the press as a self-made corporate titan, and recalled by thousands of Golden Key depositors as the man who took their life savings and, in the end, paid a fine that barely registered against what they had lost.`,
+  },
+  {
+    title: "Gery Shalon and the JPMorgan Hack That Became 'Securities Fraud on Cyber Steroids'",
+    slug: 'gery-shalon-jpmorgan-hack-pump-and-dump',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://www.justice.gov/opa/pr/attorney-general-and-manhattan-us-attorney-announce-charges-stemming-massive-network',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/270_Park_Avenue_(WTM_by_official-ly_cool_100).jpg?width=1200',
+    coverImageCredit: "Photo: official-ly cool, Wikimedia Commons (CC BY-SA 3.0) — JPMorgan Chase's former Park Avenue headquarters, target of the 2014 breach",
+    coverImagePosition: 50,
+    body: `In the summer of 2014, hackers breached the network of JPMorgan Chase, then the largest bank in the United States, and sat inside its systems for months, ultimately harvesting contact information — names, addresses, phone numbers, and email addresses — tied to roughly 83 million customer accounts and households, the largest theft of data from a U.S. financial institution ever recorded. Investigators later identified the operation's mastermind as Gery Shalon, a Georgia-born Israeli businessman who had spent years building a sprawling, semi-legitimate financial empire out of Tel Aviv before the breach connected him to federal prosecutors' radar.
+
+The JPMorgan intrusion turned out to be one piece of a much larger network: investigators found Shalon's operation had also penetrated the systems of at least a dozen other financial and media companies, including Dow Jones, Scottrade, and E*Trade, relying on technical hacking work supplied largely by a Russian conspirator, Andrei Tyurin. Rather than sell the stolen data on dark-web markets, Shalon and two associates, Joshua Samuel Aaron and Ziv Orenstein, used the harvested email addresses to blast out promotional spam for thinly traded "penny stocks" the men had quietly built up positions in beforehand, then sold into the artificial buying pressure their own email campaigns created — a pump-and-dump operation prosecutors said dated back to at least 2011 and that the U.S. Attorney's office called "securities fraud on cyber steroids." The same network also ran an unlicensed bitcoin exchange, illegal online casinos, and fraudulent payment-processing and pharmacy operations, together generating hundreds of millions of dollars.
+
+Israeli police arrested Shalon and Orenstein in July 2015; months later, in November 2015, U.S. prosecutors unsealed a sprawling indictment charging the pair, Aaron, and Tyurin with a combined 23 counts including computer hacking, securities fraud, aggravated identity theft, and money laundering, while Aaron was separately taken into custody at New York's JFK Airport after flying in from Moscow. Shalon and Orenstein were extradited from Israel to the United States in June 2016, and in 2017 Shalon pleaded guilty to nearly the entire indictment as part of a deal that required him to forfeit more than $400 million in seized assets to the Justice Department and the SEC — one of the largest forfeitures ever obtained in a hacking case.
+
+Shalon's cooperation with prosecutors reportedly extended well beyond his own plea, and by 2020 he had been released from U.S. custody, with time already served in Israeli detention counted against a comparatively short American sentence — a striking contrast to Tyurin, the Russian hacker who carried out the technical intrusions, who received 12 years in prison. By early 2023, Israeli media outlets and Shalon's own father confirmed he had returned to live in Israel.
+
+The case remains one of the starkest illustrations of how a stolen customer-contact list — information many companies still treat as far less sensitive than passwords or account numbers — can fuel securities fraud on an industrial scale. Eighty-three million names and email addresses, harvested from a bank breach nobody detected for months, became the engine of a stock-manipulation scheme that ran for years before the market ever realized whose data was being weaponized against it.`,
+  },
+);
+
 // Practical "how it works / red flags / what to do" guides covering the
 // major scam categories, the same kind of coverage the FTC's Consumer
 // Advice site and AARP's Fraud Watch Network publish — well-documented
