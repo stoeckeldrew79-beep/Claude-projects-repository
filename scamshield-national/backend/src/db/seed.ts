@@ -42886,6 +42886,42 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'Jesse Russell IncCommunications/IncNetworks Securities Fraud',
+    slug: 'new-jersey-russell-inccommunications-innetworks-securities-fraud',
+    description: `On August 21, 2026, New Jersey Attorney General Jennifer Davenport's Bureau of Securities filed a civil enforcement lawsuit in Somerset County Superior Court against Jesse E. Russell, alleging he defrauded at least 34 investors — including 12 New Jersey residents — out of more than $3.1 million through two companies he controlled, IncCommunications Services, Inc. and IncNetworks, Inc. Russell allegedly sold unregistered securities by promising investors their money would finance telecommunications infrastructure projects tied to government entities, and separately pitched a scheme claiming he could help repatriate more than $100 million supposedly held in Ghana, guaranteeing outsized returns for a modest up-front investment. Instead of funding any such projects, the seven-count complaint alleges Russell diverted investor money to bank accounts in China belonging to unrelated entities and used it as his own "personal slush fund." The Bureau of Securities is seeking civil monetary penalties, full restitution to victims, disgorgement of Russell's profits, and a permanent bar from New Jersey's securities industry. "Our lawsuit alleges that the defendant lied to his victims to get them to hand over their money, which he then used as his personal slush fund," Attorney General Davenport said. Any investment pitch built around a country-specific windfall — frozen funds, an inheritance, or a repatriation "unlocking" a huge sum overseas in exchange for financing project work up front — is a recognizable red flag, and investors should verify that both the individual and the security itself are actually registered with New Jersey's Bureau of Securities before sending any money.`,
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    state: 'NJ',
+    alertLevel: 'high',
+    sources: ['New Jersey Office of the Attorney General', 'New Jersey Bureau of Securities'],
+    sourceUrl: 'https://www.njoag.gov/nj-securities-bureau-sues-middlesex-county-man-for-alleged-3-million-fraud-misuse-of-investor-funds/',
+  },
+  {
+    name: 'Richard McNeil Norristown Ponzi Scheme',
+    slug: 'pennsylvania-norristown-richard-mcneil-ponzi-scheme',
+    description: `Pennsylvania State Police filed charges on June 27, 2026 against Richard L. McNeil, 59, of Norristown, accusing him of running a Ponzi scheme that took more than $3.8 million from roughly 50 investors. McNeil solicited victims by promising he would invest their money in ventures generating steady returns, guaranteeing them monthly interest payments and the full return of their principal at the end of an agreed term. In reality, prosecutors allege McNeil never invested the bulk of the money at all — he used a portion of new investors' contributions to pay earlier investors, the classic structure that kept the scheme looking legitimate and let him spend other funds for his own purposes. When the flow of new money finally couldn't keep pace with the payouts he had promised, the scheme collapsed, leaving more than $1.8 million still owed to victims, some of whom lost over $200,000 individually. McNeil turned himself in on June 29, 2026 and faces felony theft by deception, dealing in proceeds of unlawful activity, and violations of the Pennsylvania Securities Act, following an investigation by the Pennsylvania State Police with the Attorney General's Financial Crime Section. "Investment fraud is obviously devastating to victims, and we will work hard to recover restitution as part of this prosecution," Attorney General Dave Sunday said. A guarantee of steady monthly returns regardless of market conditions, paired with reluctance to provide independently verifiable account statements, is the hallmark of a Ponzi scheme, and prospective investors should confirm that anyone offering to manage their money is actually registered with the Pennsylvania Securities Commission or the SEC before handing over a dollar.`,
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    state: 'PA',
+    alertLevel: 'high',
+    sources: ['Pennsylvania Office of Attorney General', 'Pennsylvania State Police'],
+    sourceUrl: 'https://www.attorneygeneral.gov/taking-action/montgomery-county-man-charged-with-duping-dozens-of-investors-in-3-8m-ponzi-scheme/',
+  },
+  {
+    name: 'Lindsay Klein Columbus Online Auction Shill-Bidding Scheme',
+    slug: 'ohio-columbus-klein-online-auction-shill-bidding-scheme',
+    description: `A Franklin County grand jury indicted Lindsay Klein, 36, of Columbus — who also goes by Lindsay Leslie — in February 2026 on charges of price fixing, bid-rigging, telecommunications fraud, and two counts of identity fraud, after the Ohio Department of Agriculture and the Ohio Attorney General's Office traced a pattern of suspicious bidding on the online marketplace Capital City Online Auctions back to her business, Priceless Discoveries. Between July 2022 and March 2023, prosecutors allege Klein engaged in "shill bidding" — creating fake bidder profiles to place bids on her own consigned merchandise so other, real bidders would be tricked into paying inflated prices, believing genuine demand was driving the price up. To pull it off across roughly 760 auction items, Klein allegedly built bidder profiles using stolen personal information belonging to three people who never authorized it, including a 55-year-old Columbus man and a 69-year-old Reynoldsburg woman, artificially inflating auction closing prices by an estimated $9,000 over the period investigated. The scheme unraveled after Capital City Online Auctions itself noticed the unusual bidding pattern and alerted state regulators, triggering a joint investigation. "When sellers plant fake bidders to drive up prices, that's not smart business. It's criminal behavior," Ohio Attorney General Dave Yost said. Bidders on any online auction site should be wary of items whose price climbs in small, rapid increments from accounts with little or no bidding or feedback history, since that pattern — rather than any single red flag — is what typically exposes a shill-bidding scheme.`,
+    categorySlug: 'online-shopping-scams',
+    country: 'US',
+    state: 'OH',
+    alertLevel: 'medium',
+    sources: ['Ohio Attorney General', 'Ohio Department of Agriculture'],
+    sourceUrl: 'https://www.ohioattorneygeneral.gov/Media/News-Releases/February-2026/Columbus-Woman-Indicted-in-Bid-Rigging-Scheme',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
