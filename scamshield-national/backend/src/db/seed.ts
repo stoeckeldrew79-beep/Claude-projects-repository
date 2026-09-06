@@ -45180,6 +45180,42 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'OneMain Financial Bait-and-Switch Add-On Lending Scheme',
+    slug: 'nevada-onemain-financial-bait-and-switch-lending-scheme',
+    description: `OneMain Financial, one of the country's largest installment lenders, advertised its personal loans as straightforward while its branch employees packed loan packages with credit insurance, membership plans, and other add-on products that borrowers say they never clearly agreed to, according to a lawsuit Nevada joined alongside a bipartisan coalition of 13 states. The complaint alleges OneMain never advertised that it sold add-on products at all, so consumers walking in for a loan had no reason to expect them, and that once inside a branch, employees under internal pressure to sell add-ons rushed borrowers through more than 50 pages of loan documents — sometimes displayed in illegible font on a mobile screen, with an employee controlling the shared screen — making cancellation and refund terms for the add-ons confusing and hard to navigate even for borrowers who noticed them. Nevada Attorney General Aaron Ford announced the lawsuit on March 18, 2026, saying "taking out a loan shouldn't come with hidden costs or surprises" and that "companies must be upfront about what consumers are paying for." The coalition is seeking restitution for affected borrowers, civil penalties, a court order ending the add-on practices, correction of any resulting negative credit reporting, and dismissal of collection actions built on the disputed add-on charges. Anyone taking out an installment loan should ask for an itemized list of every product bundled into the total balance before signing, decline any insurance or membership add-on that wasn't specifically requested, and compare the full repayment amount — not just the monthly payment — against a loan from a federally insured bank or credit union.`,
+    categorySlug: 'debt-relief-scams',
+    country: 'US',
+    state: 'NV',
+    alertLevel: 'medium',
+    sources: ['Nevada Attorney General'],
+    sourceUrl: 'https://ag.nv.gov/News/PR/2026/Attorney_General_Ford%C2%A0Sues_OneMain%C2%A0Financial_for_Alleged_Bait_and_Switch_Lending_Scheme_Involving_Hidden_Add-On_Products/',
+  },
+  {
+    name: 'South Holland "Surgical Nurse" Stolen-Identity Vehicle Financing Scheme (Stephen Walker)',
+    slug: 'illinois-south-holland-stolen-identity-vehicle-financing-fraud',
+    description: `Stephen Walker, 34, of South Holland, Illinois, used other people's stolen personal identification information to apply for vehicle financing at dealerships across Illinois, Indiana, and Michigan, acquiring 11 cars worth more than $620,000 combined. To collect the vehicles without raising suspicion, Walker allegedly told dealership finance staff he worked as a surgical nurse and arranged to have each car delivered to a hospital parking lot in Cook or Will County, where he would sign the paperwork and drive away. Within days of taking possession, prosecutors say Walker resold each vehicle on Facebook Marketplace using a fraudulent Arkansas certificate of title bearing a different name for every sale, laundering the proceeds before the identity-theft victims or the dealerships who financed the cars knew anything was wrong. Illinois Attorney General Kwame Raoul announced the charges on September 26, 2024, including 18 counts of possession of a stolen motor vehicle, 10 counts of money laundering, 10 counts of unlawful possession of a certificate of title, and one count of theft by deception; Walker pleaded not guilty. "My office has fostered partnerships with law enforcement and government agencies across jurisdictions in order to more effectively protect Illinois residents where they live and work, and when they are online," Raoul said. The scheme is a reminder that a stolen Social Security number and driver's license can be enough to finance a car in a stranger's name at a dealership counter, which is why freezing credit with all three bureaus when not actively shopping for financing, and checking a credit report at AnnualCreditReport.com for an auto loan inquiry that isn't recognized, remain some of the only ways such fraud surfaces before a collections notice or repossession call arrives.`,
+    categorySlug: 'identity-theft',
+    country: 'US',
+    state: 'IL',
+    alertLevel: 'medium',
+    sources: ['Illinois Attorney General'],
+    sourceUrl: 'https://illinoisattorneygeneral.gov/news/story/attorney-general-raoul-charges-cook-county-man-for-allegedly-using-stolen-personal-information-to-buy-vehicles-to-sell-on-facebook-marketplace',
+  },
+  {
+    name: 'Middlesex Mortgage Group Pooled Investment Fraud (John Masanotti)',
+    slug: 'connecticut-masanotti-middlesex-mortgage-investment-fraud',
+    description: `John A. Masanotti Jr., the owner and managing member of Darien, Connecticut-based Middlesex Mortgage Group, LLC, ran a pooled investment scheme from roughly 2016 through 2023, telling at least 14 clients their money would be placed into foreign currency trading and other investments and sending them fabricated monthly account statements showing steady profits that were never real. Masanotti defrauded his clients of more than $4 million while separately failing to report over $3 million in income to the IRS across multiple tax years, resulting in a tax loss of nearly $1 million. He was arrested on May 9, 2024, pleaded guilty on October 1, 2025 to wire fraud and tax evasion, and on February 17, 2026 U.S. District Judge Victor A. Bolden sentenced him in New Haven to 90 months in federal prison plus three years of supervised release, ordering him to pay $4,361,632 in restitution before he was due to report to prison on March 19, 2026. The investigation drew on the IRS Criminal Investigation division, the FBI, the U.S. Postal Inspection Service, and the Securities and Exchange Commission. The case is a reminder that a steady, unwavering stream of "profitable" monthly statements from a private investment manager is not proof the underlying trades are real — investors can ask to verify holdings directly with the custodian or clearing firm named on a statement rather than relying only on figures the manager who collects the fees also produces.`,
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    state: 'CT',
+    alertLevel: 'medium',
+    sources: ['Internal Revenue Service Criminal Investigation', 'U.S. Attorney\'s Office, District of Connecticut'],
+    sourceUrl: 'https://www.irs.gov/compliance/criminal-investigation/former-connecticut-resident-sentenced-to-90-months-for-operating-4-million-investment-fraud-scheme-tax-evasion',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
