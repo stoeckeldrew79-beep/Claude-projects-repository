@@ -2722,8 +2722,8 @@ The scheme unraveled only because Olympus, under pressure to modernize, hired it
 
 The Olympus case became a landmark study in corporate governance failure precisely because the fraud survived so many opportunities to be caught — outside auditors, a rotating cast of executives, and Japan's own regulators all missed or overlooked it for years. What finally broke it wasn't a whistleblower hotline or a routine audit; it was one newly hired outsider willing to ask an obvious question and, when punished for it, refuse to let the answer stay buried. It's a pattern that recurs across long-running frauds everywhere: the failure isn't usually a lack of evidence, it's an institutional culture where everyone with access to the evidence has more to lose by raising it than by staying quiet.`,
     sourceUrl: 'https://www.cnbc.com/2013/07/03/olympus-bosses-avoid-jail-time-for-17-billion-fraud.html',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/TokyoStockExchange1144.jpg?width=1200',
-    coverImageCredit: 'Photo: Fg2, Wikimedia Commons (Public Domain) — the Tokyo Stock Exchange, where Olympus shares traded during the scandal',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Shinjuku_Monolith_Building_-01.jpg?width=1200',
+    coverImageCredit: 'Photo: Aimaimyi, Wikimedia Commons (CC BY-SA 3.0) — the Shinjuku Monolith Building in Tokyo, home to Olympus Corporation\'s headquarters office during the scandal',
     coverImagePosition: 50,
     // representative photo — replace with a portrait if found
   },
