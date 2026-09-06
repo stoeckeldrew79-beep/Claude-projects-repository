@@ -2616,6 +2616,24 @@ CytoDyn's collapse from pandemic-era retail-investor darling to federal fraud co
     coverImageCredit: "Photo: Steffen Schmitz (\"Carschten\"), Wikimedia Commons (CC BY-SA 4.0) — a street in Ho Chi Minh City, where Alibaba Real Estate was headquartered",
     coverImagePosition: 50,
   },
+{
+    title: 'Nana Appiah Mensah and the Menzgold Gold Investment Collapse',
+    slug: 'nana-appiah-mensah-menzgold-gold-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.myjoyonline.com/menzgold-nana-appiah-mensah-arrives-in-court-to-face-ags-39-fresh-charges/',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Independence_Square,_Accra,_Ghana.JPG?width=1200',
+    coverImageCredit: 'Photo: Rjruiziii, Wikimedia Commons (CC BY-SA 3.0) — Independence Square in Accra, Ghana, where Menzgold operated',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    body: `In 2016, a Ghanaian entrepreneur named Nana Appiah Mensah — known to almost everyone by the nickname NAM1 — launched Zylofon Media, a record label and multimedia company that signed some of the country's biggest musicians, including Shatta Wale and Stonebwoy. The label wasn't really the business; it was the marketing arm for what NAM1 was building alongside it: Menzgold, a company that told Ghanaians they could sell it gold collectibles under contracts paying extraordinary monthly interest, reportedly around 10 percent, on terms that functioned exactly like investment deposits even though Menzgold's actual license, from Ghana's Minerals Commission, covered only gold trading and export.
+
+The pitch, reinforced by the star power of Zylofon's musicians and by NAM1's own high-profile lifestyle, worked on a huge scale. By the time regulators moved against it, Menzgold had drawn in more than 16,000 registered customers who had collectively deposited roughly GH¢1.68 billion — around $308 million at the time — money the company was never licensed to accept as investment capital in the first place.
+
+Ghana's Securities and Exchange Commission ordered Menzgold to halt its deposit-taking in September 2018, warning it had effectively been running an unlicensed investment scheme. The order triggered a wave of panic among customers trying to withdraw their money; protests broke out at Menzgold branches around the country, including one in Kumasi intense enough that police arrested seven people after demonstrators blocked roads with burning tires. With the company unable to cover what it owed, Menzgold never reopened, leaving the large majority of its customers unpaid.
+
+NAM1 left Ghana and was arrested in Dubai in December 2018 amid an unrelated commercial dispute with a gold company there, prevailing on appeal in July 2019 and returning to Ghana claiming vindication — only to be taken in for questioning by Ghanaian police that same month, after prosecutors had already triggered an Interpol red notice and frozen his assets over Menzgold. Ghana's Attorney-General eventually filed 39 charges against Mensah, Menzgold, and an affiliated marketing company in 2023, covering unlicensed deposit-taking, fraud, and money laundering; a court rejected his bid to have the case dismissed in July 2024 and ordered him to open his defense. Free on GH¢500 million bail, Mensah has pleaded not guilty to every count, and as of the case's most recent hearings, Menzgold's thousands of customers are still waiting both for a verdict and for any of their money back.`,
+  },
 ];
 
 NotoriousNS.push(
