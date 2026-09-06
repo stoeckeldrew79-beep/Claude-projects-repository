@@ -91,30 +91,52 @@ async function main() {
   console.log(`generateScamEntries: model=${MODEL} target=${target.country} batch=${COUNT} mode=${APPLY ? 'APPLY' : 'dry run'}`);
 
   // 1. Research — real, currently reported scams, with agency sources.
-  const research = await client.messages.create({
+  const researchPrompt =
+    `Find ${COUNT} distinct consumer scams currently being reported in ${target.country}. ${target.note}\n\n` +
+    `For each: what it is, exactly how it works, who reported it, and the URL of the reporting agency's page ` +
+    `(a consumer-protection agency, police force, or financial regulator in that country — not a news aggregator).\n\n` +
+    `Hard requirements: every scam must be real and documented; no invented statistics, companies, or individuals. ` +
+    `If you can only verify fewer than ${COUNT}, return fewer — a short honest batch is correct, padding is not.\n\n` +
+    `Avoid anything already covered by these existing entry names:\n` +
+    SEED_SCAMS.slice(-120).map((s) => `- ${s.name}`).join('\n');
+
+  const researchMessages: Anthropic.MessageParam[] = [];
+  let research = await client.messages.create({
     model: MODEL,
     max_tokens: 16000,
     thinking: { type: 'adaptive' },
     tools: [{ type: 'web_search_20260209', name: 'web_search', max_uses: 8 }],
-    messages: [
-      {
-        role: 'user',
-        content:
-          `Find ${COUNT} distinct consumer scams currently being reported in ${target.country}. ${target.note}\n\n` +
-          `For each: what it is, exactly how it works, who reported it, and the URL of the reporting agency's page ` +
-          `(a consumer-protection agency, police force, or financial regulator in that country — not a news aggregator).\n\n` +
-          `Hard requirements: every scam must be real and documented; no invented statistics, companies, or individuals. ` +
-          `If you can only verify fewer than ${COUNT}, return fewer — a short honest batch is correct, padding is not.\n\n` +
-          `Avoid anything already covered by these existing entry names:\n` +
-          SEED_SCAMS.slice(-120).map((s) => `- ${s.name}`).join('\n'),
-      },
-    ],
+    messages: [{ role: 'user', content: researchPrompt }],
   });
-  const findings = research.content.filter((b) => b.type === 'text').map((b) => (b as { text: string }).text).join('\n');
+
+  // A server tool can end the turn early with pause_turn when a search runs
+  // long. Extracting from that half-finished answer is how a run quietly
+  // produces nothing, so hand the turn back and let it finish.
+  const collected = [...research.content];
+  let resumes = 0;
+  while (research.stop_reason === 'pause_turn' && resumes < 4) {
+    resumes += 1;
+    console.log(`generateScamEntries: research paused, resuming (${resumes})`);
+    researchMessages.push({ role: 'assistant', content: research.content });
+    research = await client.messages.create({
+      model: MODEL,
+      max_tokens: 16000,
+      thinking: { type: 'adaptive' },
+      tools: [{ type: 'web_search_20260209', name: 'web_search', max_uses: 8 }],
+      messages: [{ role: 'user', content: researchPrompt }, ...researchMessages],
+    });
+    collected.push(...research.content);
+  }
+
+  const findings = collected.filter((b) => b.type === 'text').map((b) => (b as { text: string }).text).join('\n');
+  console.log(`generateScamEntries: research stop_reason=${research.stop_reason} findings=${findings.length} chars`);
   if (!findings.trim()) {
     console.error('generateScamEntries: research call returned no text. Nothing to extract.');
     process.exit(1);
   }
+  // On a dry run the findings are the whole point of looking: without them a
+  // "0 entries" result is unexplainable.
+  if (!APPLY) console.log(`\n--- research findings ---\n${findings.slice(0, 4000)}\n--- end findings ---\n`);
 
   // 2. Extract — schema-valid entries, no free-form output to parse by hand.
   const extracted = await client.messages.parse({
@@ -141,6 +163,13 @@ async function main() {
   const parsed = extracted.parsed_output;
   if (!parsed) {
     console.error('generateScamEntries: extraction did not parse against the schema. Nothing written.');
+    process.exit(1);
+  }
+  // An empty batch after a successful research call means the extraction
+  // rejected everything it was given — say so, rather than reporting "0 of 0"
+  // and letting it read as a quiet success.
+  if (!parsed.entries.length) {
+    console.error('generateScamEntries: research returned findings but extraction produced no entries. The findings above are what it had to work with.');
     process.exit(1);
   }
 
