@@ -8716,6 +8716,36 @@ Egypt's Ministry of Interior announced on February 24, 2025, that it had arreste
     sourceUrl: 'https://www.bankwindhoek.com.na/Pages/News/Bankers-Association-of-Namibia-warns-of-latest-scam.aspx',
     country: 'NA',
   },
+  {
+    name: 'Seyp Sénégal "Watch Videos, Get Paid" Pyramid Investment Scam',
+    slug: 'senegal-seyp-video-watching-pyramid-scam',
+    description: `A platform called Seyp Sénégal, promoted heavily through Facebook, promised subscribers daily income just for watching videos, provided they first paid into a tiered structure of tasks running from "P1" through "P10," with each higher tier requiring a bigger upfront deposit in exchange for the promise of bigger daily returns — a classic pyramid structure in which early "earnings" were funded by new deposits rather than any real business activity. Payments moved through Senegal's dominant mobile-money rails, including Wave, Orange Money, and payment aggregators such as Connekt4, making the platform feel as routine and trustworthy as paying a phone bill. Senegal's cybercrime unit, the Division Spéciale de Cybercriminalité (DSC), documented roughly 58,000 transactions worth about 2.5 billion CFA francs (an estimated $4.3 million) flowing through the platform between October 2024 and May 2025 alone, and after widening the probe to related shell structures, investigators put total losses at more than 10 billion CFA francs (an estimated $17 million) before the platform abruptly stopped paying out and disappeared with users' money in May 2025. The investigation traced the collected funds to a Dakar-registered company, Sunutech Ltd, controlled by two Chinese nationals, and the DSC announced the network's dismantlement in June 2025. Senegalese consumers are urged to treat any platform promising guaranteed daily income for passive tasks like "watching videos" as a red flag, to be especially suspicious of schemes that require escalating deposits to "unlock" bigger payouts, and to verify that any investment platform is actually licensed by Senegal's financial regulators before sending a single mobile-money payment.`,
+    categorySlug: 'ponzi-pyramid-schemes',
+    alertLevel: 'critical',
+    sources: ['Dakaractu', 'Senego', 'Division Spéciale de Cybercriminalité (DSC) du Sénégal'],
+    sourceUrl: 'https://www.dakaractu.com/Seyp-Senegal-ou-la-pyramide-du-mensonge-plus-de-10-milliards-envoles-des-centaines-de-victimes-et-une-mafia_a262711.html',
+    country: 'SN',
+  },
+  {
+    name: '"MinimarchéSn" Fake Discount Grocery Package TikTok Scam',
+    slug: 'senegal-minimarchesn-tiktok-fake-grocery-scam',
+    description: `A TikTok account calling itself "Minimarché Sn" advertised steeply discounted "ravitaillement" bundles — full grocery and food packages priced at around 58,000 or 80,000 CFA francs, well under normal market cost — and told interested buyers to secure an order by paying the full amount upfront through a Wave or Orange Money mobile-money transfer. Once payment cleared, the account operator stopped responding and blocked the buyer's number, and no groceries were ever delivered. Senegal's Police Nationale and its cybercrime division, the DSC, identified 121 to 131 confirmed victims after a formal complaint filed in August 2025, and traced the scheme's proceeds across 13 separate Wave and Orange Money mobile-money accounts used to receive payments, totaling more than 4.52 million CFA francs (an estimated $7,800) in losses. A 24-year-old woman running the account was arrested and initially admitted to defrauding only nine people, a claim investigators quickly contradicted with evidence of the far larger victim count. Consumers are advised to treat unusually cheap bulk grocery or "ravitaillement" package deals advertised on TikTok and other social platforms with suspicion, especially sellers who demand full mobile-money payment upfront with no cash-on-delivery option and no verifiable business registration, and to report suspicious seller accounts and the mobile-money numbers involved to Orange, Wave, or the DSC before sending any payment.`,
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'high',
+    sources: ['Police Nationale du Sénégal', 'Seneweb'],
+    sourceUrl: 'https://www.seneweb.com/en/news/Societe/arnaque-minimarche-sn-ndeye-khady-t-munie-de-13-comptes-wave-et-orange-money-fait-131-victimes-sur-tik-tok_n_501545.html',
+    country: 'SN',
+  },
+  {
+    name: 'Fake Sonatel/Orange Money Agent "Erroneous Transfer" Refund Scam',
+    slug: 'senegal-fake-sonatel-agent-erroneous-transfer-scam',
+    description: `Fraudsters posing as Orange Sénégal (Sonatel) customer-service agents target Orange Money and Wave users by phone and WhatsApp, sometimes opening with a fake SMS that appears to confirm a mobile-money transfer has just landed in the victim's wallet even though no real money ever moved. Moments later, a caller posing as an agent claims the transfer was sent to the victim by mistake and pressures them to immediately send the "received" amount back from their own funds, or asks the victim to read aloud a one-time verification code — described to the victim as needed to reverse the erroneous transfer — that actually lets the scammer seize control of the victim's own mobile-money account. The same fraud rings run a companion version impersonating Sonatel agents claiming the victim owes an overdue balance that must be settled immediately via Orange Money to a number the caller provides, and a WhatsApp variant impersonating a victim's regular supplier from an unfamiliar number, claiming their usual line is down and asking for urgent payment on the new one. Senegal's cybercrime police, the DSC, have publicly confirmed dismantling organized rings of fake Sonatel and Orange Money agents running these schemes, and Orange Sénégal has repeatedly urged customers to check their actual account balance before acting on any "funds received" SMS and to never share a one-time verification code with anyone, including a caller claiming to work for Orange or Sonatel. Consumers are advised to verify any supplier, agent, or "erroneous transfer" claim by hanging up and calling back a number they already have saved, never a number given by the caller, and to never read a verification code aloud to anyone over the phone.`,
+    categorySlug: 'phishing',
+    alertLevel: 'high',
+    sources: ['Orange Sénégal (Assistance Orange)', 'Seneweb', 'OSIRIS'],
+    sourceUrl: 'https://www.seneweb.com/en/news/Faits-Divers/escroquerie-via-wave-et-orange-money-la-dsc-demantele-une-redoutable-bande-de-faux-agents-de-la-sonatel_n_362433.html',
+    country: 'SN',
+  },
 ];
 
 International.push(
