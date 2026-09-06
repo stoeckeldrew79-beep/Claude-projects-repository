@@ -12105,10 +12105,9 @@ If money you don't recognize appears in a P2P account, don't send anything back 
     title: "Freelance Platform Impostor Scams: When the Upwork or Fiverr Freelancer You Hired Isn't Who Their Profile Says",
     slug: 'freelance-platform-impostor-scam-guide',
     author: 'ScamShield Editorial',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Digital%20nomad%20telecommuting%20work%20on%20laptop%20computer.jpg?width=1200',
-    coverImageCredit: 'Photo: perzon seo (CC BY 2.0)',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Upwork-Logo-Black.svg?width=1200',
+    coverImageCredit: 'Upwork logo (PortablePotato, CC BY-SA 4.0), via Wikimedia Commons — one of the two real platforms named in the article',
     coverImagePosition: 50,
-    // representative photo — replace with an exact match if found
     tags: ['guide', 'freelance-platform-impostor-scam'],
     sourceUrl: 'https://www.bbb.org/article/scams/22645-bbb-scam-alert-hiring-freelance-help-watch-out-for-impostors',
     body: `A business posts a project on Upwork, Fiverr, or Freelancer.com and gets an unusually strong response: a candidate with a polished portfolio, glowing reviews, and an experience level that would normally command a premium rate — but who's charging a fraction of the going one. The photo, resume, and portfolio work are real, but they belong to an actual working professional whose identity or materials were stolen and repurposed onto a fake account. In some cases, scammers even contact the real freelancer directly and ask, or offer to pay, for "permission" to reuse their profile.
@@ -20749,10 +20748,9 @@ The case is a useful reminder that a company doesn't need to suffer a dramatic, 
     author: 'ScamShield Editorial',
     tags: ['guide', 'lastpass-2022-breach-settlement'],
     sourceUrl: 'https://en.wikipedia.org/wiki/2022_LastPass_data_breach',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Hand_on_computer_keyboard.jpg?width=1200',
-    coverImageCredit: 'Photo: Soumil Kumar, CC0, via Wikimedia Commons — a computer keyboard, representative of the password-manager breach',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/LastPass_logo_2016.svg?width=1200',
+    coverImageCredit: 'LastPass logo (PD-textlogo), via Wikimedia Commons — the password manager whose 2022 breach is the subject of this article',
     coverImagePosition: 50,
-    // representative photo — replace with an exact match if found
     body: `A password manager exists to solve one problem: remembering dozens of unique, complicated passwords so a person doesn't have to reuse the same weak one everywhere. LastPass, one of the most widely used password managers in the world, disclosed in August 2022 that intruders had broken into its development environment and stolen source code and internal technical documentation. At the time, the company said no customer data or encrypted password vaults were affected. That turned out to be only the first half of the story.
 
 In a second, related intrusion disclosed that November and detailed further in early 2023, LastPass revealed that the same attacker used information stolen in the August breach to target a senior DevOps engineer, planting a keylogger on the employee's home computer through an unpatched piece of third-party software. That gave the attacker the employee's credentials to a shared corporate vault, and from there, access to decryption keys for customer backups stored in Amazon's cloud storage service. The result was the theft of a backup containing customer vault data for millions of users — including some fields left unencrypted, like the website addresses saved in a vault, alongside encrypted fields like usernames, passwords, and secure notes, protected only by whatever master password each individual customer had chosen.
