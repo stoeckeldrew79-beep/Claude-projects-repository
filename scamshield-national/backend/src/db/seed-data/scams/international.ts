@@ -9158,3 +9158,37 @@ International.push(
     country: 'BS',
   },
 );
+
+International.push(
+  {
+    name: 'Veles "Fake News" Clickbait Ad-Fraud Factory',
+    slug: 'north-macedonia-veles-fake-news-clickbait-factory',
+    description: `In the run-up to the 2016 U.S. presidential election, teenagers and young men in the small Macedonian city of Veles built more than a hundred websites with authoritative-sounding names like "USA Daily News 24" or "WorldPoliticus," posing as legitimate American conservative news outlets. Under the tutelage of a local web-marketing instructor, the operators found that wildly false, sensationalist pro-Trump stories — often lightly rewritten from real U.S. fringe sites — generated far more Facebook shares and clicks than accurate reporting, and every click on a story loaded with Google AdSense banner ads paid out real advertising revenue with no need to verify a single fact. Some operators, none older than their early twenties and most with no interest in U.S. politics, reported earning thousands of dollars a month, with one 18-year-old telling reporters he had made roughly $60,000 in six months, sums that dwarfed local wages in a town with high unemployment. The scheme was exposed by BuzzFeed News and later confirmed by an Associated Press investigation that traced roughly 200 U.S.-oriented sites back to the Veles cluster, prompting Facebook and Google to tighten ad-network and platform rules against fabricated news content, though variations on registering disposable clickbait domains and farming outrage-driven ad revenue have persisted well beyond the 2016 election. The episode is a foundational example of "fake news" built purely as a for-profit ad-fraud business rather than state-directed propaganda, and consumers are advised to check an unfamiliar news site's "About" page, ownership, and byline history, and to be skeptical of any outlet whose stories are engineered mainly to provoke outrage and shares rather than to inform.`,
+    categorySlug: 'identity-theft',
+    isHistorical: true,
+    firstRecorded: '2016-08-01',
+    sources: ['BuzzFeed News', 'Associated Press'],
+    sourceUrl: 'https://www.buzzfeednews.com/article/craigsilverman/american-conservatives-fake-news-macedonia-paris-wade-libert',
+    country: 'MK',
+  },
+  {
+    name: 'DGPT/Conti "Invest and Recruit" Pyramid App Collapse',
+    slug: 'north-macedonia-dgpt-conti-pyramid-app-collapse',
+    description: `Through 2024, thousands of people across North Macedonia were drawn into a wave of purported investment apps — most prominently one called Conti, followed weeks later by a near-identical one called DGPT — pitched at packed in-person meetings and Google Meet calls that promised an initial stake of a few hundred euros could soon be paying out thousands of euros a month, as long as the investor kept recruiting friends and family to join underneath them. Because each new joiner's "investment" was what actually funded the payouts promised to earlier joiners, the schemes required an ever-growing stream of fresh recruits to survive, and both collapsed within days of launching: Conti stopped paying out first, and DGPT crashed just two days after its public pitch, with organizers asking users for "patience" and promising repayment that never materialized. Many victims told journalists they never reported the loss to police because they had been personally recruited by their own relatives or close friends, making the fraud feel like a betrayal within the family rather than a crime to report, and several said they had genuinely believed the payouts would continue if they simply waited. Consumer advocates note that any investment opportunity whose returns depend on recruiting new participants rather than on an underlying product or business — and that pays existing members with new members' money — is structurally a pyramid scheme that mathematically must collapse once recruiting slows, regardless of how convincing the presenter or how many neighbors have already joined, and no legitimate investment ever requires signing up other people to receive a return.`,
+    categorySlug: 'ponzi-pyramid-schemes',
+    alertLevel: 'high',
+    sources: ['Balkan Insight (BIRN)'],
+    sourceUrl: 'https://balkaninsight.com/2024/10/30/online-pyramid-scams-find-fertile-ground-in-north-macedonia/',
+    country: 'MK',
+  },
+  {
+    name: 'Spoofed Bank Phishing Emails and Business Email Interception',
+    slug: 'north-macedonia-spoofed-bank-phishing-business-email-interception',
+    description: `North Macedonia has seen a sharp rise in reported cybercrime, with 458 offenses documented in 2025 compared with roughly 300 the year before, and a large share of these involve phishing emails and fake websites built to look like a real bank or well-known online service in order to harvest usernames, passwords, and payment-card details. Victims typically receive a message warning that their account needs urgent "verification" or that a payment could not be processed, with a link leading to a cloned login page that captures whatever credentials are entered and hands them straight to the attacker; a related pattern documented in the region involves business email compromise, where criminals intercept or spoof email correspondence between a company and its client or supplier and quietly swap in fraudulent payment instructions, redirecting a legitimate invoice payment into an account the scammers control. Because the emails and cloned pages are built to closely mirror a genuine institution's branding and language, victims often do not realize anything is wrong until money has already left their account or a payment never arrives at its intended recipient. Regional cybercrime analysts note that the technique succeeds mainly because targets are conditioned to comply quickly with anything that looks like it comes from their own bank or a trusted business partner, and recommend that anyone receiving an urgent account or payment message navigate directly to the institution's known website or call a number obtained independently, rather than clicking a link or replying to the email, and that businesses verify any changed payment instructions by phone with a known contact before sending funds.`,
+    categorySlug: 'phishing',
+    alertLevel: 'high',
+    sources: ['Global Initiative Against Transnational Organized Crime', 'OSAC'],
+    sourceUrl: 'https://riskbulletins.globalinitiative.net/see-obs-002/04-phishing-in-north-macedonia.html',
+    country: 'MK',
+  },
+);
