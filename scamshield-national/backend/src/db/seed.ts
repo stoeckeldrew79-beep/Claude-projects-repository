@@ -11041,6 +11041,63 @@ The China Aviation Oil scandal is a textbook illustration of how a losing deriva
   },
 );
 
+NOTORIOUS_ARTICLES.push(
+  {
+    title: 'Seán FitzPatrick and the Hidden Loans That Sank Anglo Irish Bank',
+    slug: 'sean-fitzpatrick-anglo-irish-bank-hidden-loans',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://www.bloomberg.com/news/articles/2010-07-12/anglo-irish-bank-ex-chairman-fitzpatrick-declared-bankrupt',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Anglo_Irish_Bank,_Belfast,_October_2010.JPG?width=1200',
+    coverImageCredit: 'Photo: Ardfern, Wikimedia Commons (CC BY-SA 3.0) — an Anglo Irish Bank branch in Belfast, photographed in October 2010 as the bank\'s hidden-loans scandal was unwinding',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    body: `Seán FitzPatrick spent more than two decades building Anglo Irish Bank from a small Dublin lender into one of Ireland's most admired financial institutions, first as chief executive from 1986 and then as chairman from 2005, presiding over a stock that outperformed nearly every bank in Europe during Ireland's "Celtic Tiger" property boom. He was, by the mid-2000s, one of the most respected figures in Irish business — which made it all the more damaging when it emerged that for eight straight years he had been hiding the true scale of his own borrowing from the bank he chaired.
+
+Beginning around 2000, FitzPatrick had taken out personal loans from Anglo Irish that grew from roughly €10 million to more than €120 million by 2007, secured largely against his own shareholding in the bank. Rather than disclose the full amount to auditors and shareholders as required, he arranged for the loans to be temporarily transferred to a rival institution, Irish Nationwide Building Society, for a short window around the bank's financial year-end each year — then transferred back again once the annual accounts had been signed off. The maneuver, repeated year after year, kept his true indebtedness off Anglo's published books entirely, even as the amount he owed climbed past €100 million.
+
+The scheme collapsed into public view in December 2008, when Anglo disclosed the hidden loans amid the wider global financial crisis; FitzPatrick resigned within days, followed almost immediately by chief executive David Drumm. The bank's shares, already battered by the credit crunch, went into freefall, and the Irish government nationalized Anglo Irish weeks later, on January 21, 2009, ultimately pouring in more than €29 billion in state support to keep it solvent — a bill that became a defining symbol of Ireland's banking collapse and the harsh austerity that followed. FitzPatrick was declared personally bankrupt in July 2010, still owing Anglo more than €110 million.
+
+Ireland's Office of the Director of Corporate Enforcement pursued FitzPatrick criminally for years, but the prosecution collapsed twice: a first trial fell apart in 2015 after it emerged that investigators had shredded relevant documents, and a retrial ended on May 23, 2017 — 126 days in — when Judge John Aylmer directed FitzPatrick's acquittal on all charges, ruling that flaws in the investigation, including contaminated witness statements, meant he could not receive a fair trial. FitzPatrick died in November 2021, having never been convicted of any crime connected to the bank he ran into the ground. His case remains one of the starkest examples in modern European banking of a fraud that was never seriously disputed — even Anglo's own admissions confirmed the concealment happened — yet never produced criminal accountability, undone in the end not by a defense on the facts but by the state's own mishandling of the case against him.`,
+  },
+  {
+    title: 'Timothy Schools and the £100 Million "No Win, No Fee" Fund That Was Fraudulent From the Start',
+    slug: 'timothy-schools-axiom-legal-financing-fund',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://www.cityam.com/axiom-founder-sentenced-to-14-years-in-prison-over-100m-no-win-no-fee-investment-fraud/',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Financial_center_Georgetown.jpg?width=1200',
+    coverImageCredit: 'Photo: Mirabel8, Wikimedia Commons (CC0) — the financial center of George Town, Cayman Islands, where the Axiom Legal Financing Fund was domiciled',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    body: `Timothy Schools was a practicing English solicitor when he founded the Axiom Legal Financing Fund in 2009, pitching it as a low-risk way for outside investors to profit from Britain's booming "no win, no fee" litigation industry. The pitch was straightforward and, on paper, appealing: the Cayman Islands-domiciled fund would lend money to law firms to cover the upfront costs of pursuing personal injury and other claims, collateralized against cases with a claimed 95% success rate, paying investors returns of up to 11% a year. More than 500 investors, many of them British expatriates and retirees seeking steady income, ultimately put in over £100 million.
+
+Judge Martin Beddoe of Southwark Crown Court later concluded the scheme was fraudulent "more or less from the start." Rather than spreading loans across a genuine panel of law firms, Schools funneled the overwhelming majority of investor money — close to £100 million — into just three firms he owned or part-owned himself: ATM Solicitors, Ashton Fox, and Bracewells. He financed cases without regard to their actual merit, then used new loans to paper over mounting losses on old ones, sustaining the fund's reported performance long after the underlying legal claims had stopped generating anything close to the returns investors were told about. Prosecutors from the Serious Fraud Office traced Schools's dishonestly acquired gains at more than £19.6 million, including over £5.7 million in audit and management fees he added to the law firms' loans himself, laundered through bank accounts and companies spanning eight countries, from the UK to the Marshall Islands.
+
+While investors' money evaporated, Schools paid himself roughly £1 million a year and spent lavishly: more than £260,000 on luxury cars, a £78,000 motor boat, and a £5 million shooting and fishing estate in England's Lake District. The fund finally collapsed in October 2012, when auditors discovered that one law firm owing Axiom some £60 million could repay only £65,000 — by which point investors had lost essentially everything they had put in. Schools was convicted on five counts of fraud and money laundering and sentenced on August 11, 2022 to 14 years in prison, a term he unsuccessfully appealed; his financial adviser, David Kennedy, was separately convicted in 2024 for his part in the scheme and sentenced to eight years, with the SFO later securing a confiscation order exceeding £900,000 against him.
+
+The Axiom collapse is a reminder that litigation-funding vehicles, precisely because they promise a plausible, non-speculative source of return — lawsuits that either settle or don't — can mask a Ponzi structure just as effectively as any fake trading algorithm, especially when the fund's founder also controls the law firms supposedly generating the underlying returns. A solicitor's professional credibility, in Schools's case, substituted for the independent verification that never existed.`,
+  },
+  {
+    title: 'Herman Pretorius and the Billion-Rand Ponzi Scheme That Ended in Murder-Suicide',
+    slug: 'herman-pretorius-rvaf-ponzi-murder-suicide',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://www.moneyweb.co.za/archive/curators-struggle-to-trace-herman-pretoriuss-ponzi/',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Cape_Town_Skyline.jpg?width=1200',
+    coverImageCredit: 'Photo: Bernard303, Wikimedia Commons (CC BY-SA 4.0) — the Cape Town skyline, the South African financial hub where the RVAF Ponzi scheme was marketed to investors',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    body: `Herman Pretorius, a former South African policeman turned investment adviser, launched the Relative Value Arbitrage Fund (RVAF) around 2004, marketing it to South African investors as a hedge fund that traded shares and futures on the Johannesburg Stock Exchange using a low-risk arbitrage strategy. The pitch promised steadier, more consistent returns than the stock market itself — smaller gains in booming years, smaller losses in bad ones — and the fund reported annual returns in the 20-to-30% range for years running, including straight through the 2008 global financial crisis, a performance record that should have been a warning sign on its own. Financial advisers and brokers across South Africa nonetheless steered clients into the fund, ultimately drawing in roughly 3,000 investors and an estimated R2.2 billion (then around $270 million) in total contributions.
+
+None of it was independently verified. Pretorius was never registered with South Africa's Financial Services Board as a fund manager, RVAF had no independent third-party administrator, and investors received account statements directly from Pretorius himself, with no outside custodian or auditor confirming the underlying trades actually existed. Pretorius controlled the operation alone, routing money through a tangle of trusts and close corporations — including one that paid roughly R100 million in "secretarial services" fees to an entity tied to Pretorius himself — and even took the scheme partly public, listing an affiliated JSE-listed vehicle called BK One in December 2011 as a further façade of institutional legitimacy.
+
+The scheme unraveled violently. In late July 2012, South Africa's Financial Services Board visited Pretorius as part of a regulatory investigation into the fund. The same day, Pretorius shot and killed his business partner Julian Williams, head of an associated company called Basileus Capital, before turning the gun on himself. Investigators who moved in afterward found that RVAF owed investors an estimated R3.1 billion — far more than the roughly R2.2 billion it had ever actually received, the difference consisting entirely of fabricated paper "returns" — while forensic auditors could trace barely R300 million to anything resembling legitimate investment activity; separately, they found Pretorius had diverted more than R750 million to payments unconnected to any investor.
+
+The RVAF collapse stands as one of South Africa's largest Ponzi schemes and a case study in what happens when the person selling a fund's results is also the only person allowed to certify them. Because Pretorius alone held the details of the scheme's finances, and took them to his grave, court-appointed curators spent years afterward reconstructing what happened to billions of rand — with recovery for the roughly 3,000 investors who trusted a fund that no outside auditor, administrator, or regulator had ever actually checked amounting to only a small fraction of what they had put in.`,
+  },
+);
+
 // Practical "how it works / red flags / what to do" guides covering the
 // major scam categories, the same kind of coverage the FTC's Consumer
 // Advice site and AARP's Fraud Watch Network publish — well-documented
