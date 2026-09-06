@@ -79,7 +79,11 @@ async function main() {
     console.error('generateScamEntries: ANTHROPIC_API_KEY is not set. This job bills the Anthropic API directly and cannot run without one.');
     process.exit(1);
   }
-  const client = new Anthropic();
+  // The API returns a retryable "overloaded" error under load, and this job
+  // runs unattended: an unretried blip silently costs a whole batch. The SDK
+  // backs off between attempts, so a generous count is cheap - a run that
+  // waits is strictly better than one that produces nothing.
+  const client = new Anthropic({ maxRetries: 8 });
   const slugs = existingSlugs();
   const target = pickTarget();
   const categories = SEED_CATEGORIES.map((c) => c.slug).join(', ');
@@ -195,6 +199,10 @@ async function main() {
 }
 
 main().catch((err) => {
+  // A raw API error prints mostly response headers, which buries the one line
+  // that says what went wrong. Lead with that, then the detail.
+  const api = err?.error?.error;
+  if (api?.type) console.error(`generateScamEntries: ${api.type} - ${api.message}`);
   console.error(err);
   process.exit(1);
 });
