@@ -23390,6 +23390,45 @@ If you own a Stellantis-brand vehicle — Chrysler, Jeep, Dodge, Ram, or Fiat �
   },
 );
 
+GUIDE_ARTICLES.push(
+  {
+    title: `The Aflac Data Breach: How a Social-Engineering Call Exposed Social Security and Health Records for 22.6 Million People`,
+    slug: 'aflac-2025-data-breach-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'aflac-2025-breach'],
+    sourceUrl: 'https://www.bankinfosecurity.com/aflac-notifies-226-million-people-june-data-theft-attack-a-30434',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/AFLAC_Tower_Columbus_Georgia.jpg?width=1200',
+    coverImageCredit: 'Photo: Gary Dunn, CC BY-SA 3.0, via Wikimedia Commons — the AFLAC Tower in Columbus, Georgia',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
+    body: `If you have ever bought a supplemental insurance policy from the company known for its quacking duck mascot, a letter arriving in your mailbox in the winter of 2025 may have been the first sign that your Social Security number, driver's license or passport number, and details from your own medical and insurance claims had ended up in a criminal's hands. Aflac detected suspicious activity on its network on June 12, 2025 and said it shut the intrusion down within hours, but the company didn't finish reviewing exactly what had been taken until months later. When it did, the scope was staggering: in December 2025, Aflac confirmed that the personal and health information of approximately 22.65 million people — customers, beneficiaries, employees, and agents tied to its U.S. business — had been stolen, making it one of the largest health-data breaches reported to federal regulators that year.
+
+What was exposed went well beyond a name and address. Aflac said the stolen data could include full names, dates of birth, Social Security numbers, driver's license and passport numbers, and — because Aflac is an insurer — medical information and health insurance claims details for millions of people who had never suffered a website hack of their own doing. Security researchers linked the intrusion to the loosely organized hacking network known as Scattered Spider, the same group blamed for the 2023 MGM Resorts and Caesars Entertainment breaches and a string of attacks on other insurers, including Erie Insurance and Philadelphia Insurance Companies, in the weeks just before Aflac was hit. Rather than exploiting a software flaw, the group's signature move is a phone call: a fluent-sounding caller poses as an employee or executive to a company's own IT help desk, talks a real support technician into resetting a password or multi-factor authentication device, and walks in the front door with credentials no firewall was ever built to stop.
+
+Aflac filed formal notice of the breach with the Securities and Exchange Commission just eight days after detecting it, and a proposed class-action lawsuit was filed in Georgia federal court within two weeks, well before the company had even finished tallying how many people were affected — a sign of how quickly plaintiffs' attorneys now move on breach news. The litigation remains in its early stages with no settlement reached. Aflac is offering affected individuals 24 months of complimentary credit monitoring, identity-theft protection, and medical-fraud protection through a service named in the notification letters.
+
+If you carry any Aflac policy — supplemental accident, cancer, disability, dental, or life insurance — don't wait for a letter to act, since notifications went out on a rolling basis for months after the breach was first confirmed. Enroll in the free monitoring Aflac is offering, but do it by typing the company's own website address into your browser rather than clicking a link in an email or text, since scammers reliably send fake "Aflac breach" phishing messages after real news like this breaks. Because Social Security numbers and government ID numbers were exposed, place a free credit freeze with all three major bureaus — Equifax, Experian, and TransUnion — regardless of whether you remember receiving a notice. Watch your insurance explanation-of-benefits statements for claims you don't recognize, since stolen health-insurance details can be used to submit fraudulent medical claims in your name, not just to open new credit accounts. Report any suspected identity theft at IdentityTheft.gov and any phishing message that references the breach to ReportFraud.ftc.gov.`,
+  },
+  {
+    title: `Refund and Recovery Scams: How Con Artists Target Their Own Past Victims a Second Time`,
+    slug: 'refund-and-recovery-scams-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'refund-and-recovery-scams'],
+    sourceUrl: 'https://consumer.ftc.gov/articles/refund-and-recovery-scams',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Worried_Old_Woman_-_Flickr_-_jackol.jpg?width=1200',
+    coverImageCredit: 'Photo: Mikhail Esteves, CC BY 2.0, via Wikimedia Commons',
+    coverImagePosition: 40,
+    // representative photo — replace with an exact match if found
+    body: `Losing money to a scam is painful enough on its own. For many victims, it's only the beginning: weeks or months later, a call, email, or social-media message arrives from someone claiming they can get the stolen money back — for a fee. The Federal Trade Commission calls this a "refund and recovery" scam, and it works precisely because it targets people who have already proven, once, that they'll act on an urgent promise involving their own lost money.
+
+The mechanics start with a list. Criminals who ran the original scam — a fake investment, a romance con, a lottery pitch, a tech-support scheme — often sell or trade what fraud investigators bluntly call a "sucker list": names, phone numbers, email addresses, what kind of scam worked on the person, and roughly how much they lost. That list becomes a product in its own right, bought by a second set of scammers who specialize purely in the recovery pitch. Some pose as government investigators, private attorneys, or "asset recovery specialists" who say they've been assigned to the victim's case; in crypto losses, they may claim to be blockchain forensics experts who can trace and reverse a transaction that, by the technology's own design, cannot be reversed. Whatever the costume, the ask is the same: pay an upfront fee — often disguised as a "processing charge," "tax," or "insurance deposit" — before the recovered funds can be released. Once paid, the money and the "recovery agent" both disappear, and the same victim's name often goes right back onto a list to be sold again.
+
+Older adults and people who lost money in crypto investment scams are especially frequent targets, in part because both groups are more likely to have publicly reported a loss through channels — police reports, the FBI's IC3.gov complaint portal, online scam-recovery forums — that criminals monitor for fresh leads. A caller who already knows the exact scam that hit you, the amount you lost, and even the platform you used can sound alarmingly credible, since that detail feels like proof they're really working your case rather than fishing on a hunch.
+
+The clearest warning sign is also the simplest: no legitimate government agency, law firm, or bank will ever ask you to pay money upfront to get stolen money back. The FTC, the SEC, and every real consumer-protection agency return money to victims through free processes, not through a fee paid in gift cards, wire transfers, or cryptocurrency to a stranger who called you. Be equally skeptical of any recovery pitch that arrives unsolicited rather than one you sought out yourself, that pressures you to decide immediately, or that asks for your bank account or investment account login "to verify your eligibility" for a refund. If you've already lost money to a scam, report it to the FTC at ReportFraud.ftc.gov and, for identity theft, at IdentityTheft.gov — those reports are free, and filing one does not require or invite a follow-up call offering to "help" for a price. If someone claiming to be a recovery agent contacts you, hang up or stop responding, and verify any claimed government affiliation by calling the agency directly using a number you look up yourself, never one the caller provides.`,
+  },
+);
+
 async function seedArticles(articles: SeedArticle[], label: string) {
   for (const article of articles) {
     await pool.query(
