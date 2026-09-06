@@ -43362,6 +43362,42 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'Anchorage Tax Preparer COVID-19 Relief Identity Theft Fraud (Cheryl Labrie)',
+    slug: 'alaska-labrie-tax-preparer-covid-relief-identity-theft-fraud',
+    description: `Cheryl Labrie, 39, owned AKBS LLC — operating a Liberty Tax Service franchise and a bookkeeping practice called Alaska's Bookkeeping Solutions — providing tax preparation and bookkeeping services to Anchorage-area businesses, including several licensed marijuana companies. Between April 2020 and November 2021, prosecutors say Labrie used the stolen identities of at least seven employees from her own client businesses, together with falsified IRS records, to submit fraudulent applications to the Small Business Administration's Paycheck Protection Program and Economic Injury Disaster Loan program, ultimately obtaining nearly $970,000 in pandemic relief funds meant for struggling small businesses. Rather than passing the money to the businesses or employees named on the applications, she spent it on a hillside property, a home down payment, and payments toward an unrelated prior restitution obligation. A federal grand jury indicted Labrie in January 2024, with superseding indictments in March 2025 and February 2026 eventually charging her with seven counts of aggravated identity theft, six counts of wire fraud, and two counts of money laundering; she pleaded guilty to one count each of wire fraud and aggravated identity theft in April 2026. She was sentenced on August 24, 2026 to three years and ten months in federal prison plus three years of supervised release, and ordered to repay the full $970,000 in restitution. "Ms. Labrie orchestrated an elaborate web of deceit to steal nearly $1 million from American taxpayers, funds that could have benefited struggling businesses during a national emergency," said U.S. Attorney Michael J. Heyman. Business owners who rely on a third-party bookkeeper or tax preparer with access to employee Social Security numbers should periodically check whether any loans, credit accounts, or federal benefit applications have been opened in an employee's name without that employee's knowledge, since abuse of that kind of insider access can otherwise go undetected for years.`,
+    categorySlug: 'identity-theft',
+    country: 'US',
+    state: 'AK',
+    alertLevel: 'high',
+    sources: ["Alaska's News Source", 'Alaska Native News'],
+    sourceUrl: 'https://www.alaskasnewssource.com/2026/08/24/anchorage-tax-preparer-sentenced-970k-covid-relief-fraud-identity-theft-case/',
+  },
+  {
+    name: 'Jasper County Gold Pickup Government-Impersonation Scam (Kumar and Ahmadbin)',
+    slug: 'iowa-jasper-county-gold-pickup-government-impersonation-scam',
+    description: `Beginning in June 2025, a Jasper County, Iowa senior citizen was contacted by callers posing as government officials who convinced the victim that money or valuables needed to be surrendered to resolve a supposed official problem, then arranged for couriers to collect gold in person — a variation on the "impersonate a federal agent, collect cash or gold in person" pattern investigators have documented nationally. Rather than complying, the victim reported the scheme to the Jasper County Sheriff's Office, which worked with the Iowa Insurance Division's Fraud Bureau and the Mid Iowa Narcotics Enforcement Task Force to set up a sting: in July 2025, with the victim's cooperation, investigators arranged for the collectors to arrive expecting to pick up a box of gold, and arrested Sanjeev Kumar, 41, of Owensboro, Kentucky, when he attempted to retrieve it from the victim's residence; Abdul Samad Hussin Ahmadbin, 35, of Chicago, Illinois, had driven Kumar to the pickup. Ahmadbin pleaded guilty on January 20, 2026 to fourth-degree theft, a serious misdemeanor, and received a deferred judgment, while Kumar pleaded guilty to Facilitating a Criminal Network, a class B felony, and was sentenced on February 2, 2026 to a prison term not to exceed 25 years, with a restitution hearing set for March 16, 2026. "The successful convictions via guilty pleas are a testament to the seamless collaboration between the involved agencies," said Iowa Insurance Commissioner Doug Ommen. No legitimate government agency will ever instruct someone to convert savings into gold, cash, or other valuables and hand them to a courier who shows up in person — that instruction alone is a reliable sign of a scam, and Iowans who receive it should contact local law enforcement before handing anything over, exactly as the Jasper County victim did.`,
+    categorySlug: 'government-impersonation',
+    country: 'US',
+    state: 'IA',
+    alertLevel: 'high',
+    sources: ['Iowa Insurance Division', 'KCRG'],
+    sourceUrl: 'https://iid.iowa.gov/press-release/2026-02-05/scammers-plead-guilty-charges-related-senior-financial-exploitation-jasper-county',
+  },
+  {
+    name: 'Cherokee County Backdated Collision Claim Insurance Fraud (Chad Ashe)',
+    slug: 'kansas-cherokee-county-backdated-collision-claim-fraud',
+    description: `After a car accident, Chad Ashe, 43, of Cherokee County, Kansas added collision coverage to his auto insurance policy and then filed a claim for the resulting damage — but falsely stated the date and time the accident occurred so that it would appear to have happened after the new coverage took effect rather than before it, according to the Kansas Department of Insurance's investigation. Ashe pleaded guilty on January 21, 2026 to one felony count of insurance fraud in Cherokee County District Court, in a case investigated by the Kansas Department of Insurance and prosecuted by the Kansas Attorney General's Office. He was sentenced on April 8, 2026 to 24 months of probation and ordered to pay a $1,000 fine. Kansas Insurance Commissioner Vicki Schmidt's office pursued a steady stream of similar cases out of Cherokee County alone around the same period, including neighbors sentenced for falsely claiming property as stolen or damaged when it was not and for misrepresenting when a lapsed policy was reinstated relative to a loss — a reminder that insurers and investigators routinely cross-check the timing of a policy change against the timing of a claimed loss, and that backdating either one to make a claim payable is a felony, not a paperwork shortcut.`,
+    categorySlug: 'insurance-fraud',
+    country: 'US',
+    state: 'KS',
+    alertLevel: 'medium',
+    sources: ['Kansas Department of Insurance', 'Insurance Journal'],
+    sourceUrl: 'https://www.insurance.kansas.gov/Home/Components/News/News/259/',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
