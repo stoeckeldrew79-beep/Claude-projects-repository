@@ -41802,6 +41802,43 @@ SEED_SCAMS.push(
   },
 );
 
+// Serbia (RS) had zero prior SEED_SCAMS entries — confirmed with a
+// case-insensitive grep for "Serbia" and for country: 'RS' before adding.
+SEED_SCAMS.push(
+  {
+    name: 'Olympus Prime Belgrade Boiler-Room Investment Fraud Network',
+    slug: 'serbia-olympus-prime-boiler-room-investment-fraud',
+    description: `In January 2023, Serbian police working with Europol and German investigators raided a cluster of Belgrade call centres — most prominently one branded Olympus Prime, alongside affiliated operations known internally as Man Marketing, NPD Partner, and Asgard doo — that had spent years running a cold-calling investment fraud under trading brands including FXVC, PrimeOT, Greenfields Capital, Wingroup, and FX Trade Market. Investigators estimate the operation defrauded roughly 70,000 people across dozens of countries out of some €250 million, organizing its Belgrade office floor into language-specific teams — including a German-speaking team known internally as "Panzer" alongside separate Scandinavian and English-language divisions — where staff working under fake names and scripted pitches posed as personal brokers, steered new prospects onto cloned trading platforms that displayed fabricated rising profits, then pressured them into depositing ever larger sums; when a victim finally tried to withdraw, the account balance would simply read zero. Individual losses ranged from a few hundred euros to, in some documented cases, more than €1 million. German and Serbian investigators, working with counterparts in Bulgaria and Cyprus, traced the network's ownership through shell companies to the Tel Aviv-based couple Eliran Oved — previously convicted in Israel in 2012 on money-laundering and illegal-betting charges — and Liat Kourtz Oved, along with Cypriot former footballer Nikos Andreou, identified locally as an owner of Olympus Prime, and Israeli manager Šaj Dorani, who fled Serbia around the time of the raid with an estimated €1 million in assets, including a Belgrade Waterfront apartment, later frozen by prosecutors. As of the most recent reporting, 21 people had been indicted on fraud charges in Serbia and were awaiting trial, while the Oveds and Dorani remained uncharged and largely out of reach — a gap between the raided call-centre floor and the people who profited from it that researchers describe as typical of Balkan boiler-room networks, whose beneficial owners are frequently based abroad and insulated by layers of shell companies.`,
+    categorySlug: 'investment-fraud',
+    country: 'RS',
+    isHistorical: true,
+    firstRecorded: '2023-01-11',
+    sources: ['EUobserver / Investigate Europe', 'Balkan Insight', 'Serbian Times'],
+    sourceUrl: 'https://euobserver.com/eu-and-the-world/arf605a31b',
+  },
+  {
+    name: 'Kristijan Krstic Binary-Options and Crypto-Mining Fraud Network',
+    slug: 'serbia-krstic-binary-options-crypto-mining-fraud',
+    description: `Over several years leading up to 2020, a Serbian-run fraud network built more than twenty fake online trading platforms — including Options Rider, Bancde Options, Start Options, Trinity Mining, Bitcoiin, Hedger Tech, and a cluster of mining brands marketed together as Dragon Mining Tech (Crypto Mining Space, Palilula Mining, BTC Trader Online, BTC Mining Factory, and Coin Pool Mining) — that advertised themselves, in the group's own marketing, as "the world's market leader in binary options" promising 80 percent average payouts, or as round-the-clock cryptocurrency mining operations letting customers "purchase bitcoin at half market price." Founder Kristijan Krstic and more than a dozen co-conspirators, operating out of Serbia, China, and California, invented executive biographies and used fabricated identities on video calls to win investors' trust; once money was wired in, victims were given logins to bogus account portals showing steadily climbing balances and trading histories that a federal indictment later stated were entirely fictional — no real trades were placed and no bitcoin was ever mined. The U.S. Attorney's Office for the Northern District of Texas said the scheme took in more than $70 million from investors worldwide before a July 2020 indictment charged twelve defendants, including Krstic, his wife Xenia Faye Atilano Krstic, and co-conspirator Antonije Stojilkovic, who was arrested in Belgrade that same month; Stojilkovic was extradited to the U.S. in February 2021, pleaded guilty that November, and was sentenced to 36 months in prison with $183,000 in restitution, while co-defendant Jaira David received the same 36-month term and was ordered to pay $380,000. Krstic himself — separately indicted in the Eastern District of New York on securities-fraud charges tied to Start Options and a related platform called B2G, allegedly run under the alias "Felix Logan" while proceeds were laundered through a Philippines-based account — remained a fugitive for years until he was arrested in Batumi, Georgia, and extradited to Texas, where he pleaded guilty in April 2025 to conspiracy to commit wire fraud and securities fraud, facing up to 20 years in prison and $5.25 million in fines, with sentencing repeatedly delayed into 2026. The case is a reminder that "trading platforms" advertising fixed, guaranteed payouts — 80 percent on binary options, half-price bitcoin on mining contracts — are describing terms no legitimate exchange could ever sustain, since real markets compete that kind of mispricing away within minutes rather than paying it out for years.`,
+    categorySlug: 'investment-fraud',
+    country: 'RS',
+    isHistorical: true,
+    firstRecorded: '2020-07-01',
+    sources: ['U.S. Department of Justice (Northern District of Texas)', 'U.S. Securities and Exchange Commission', 'CyberScoop'],
+    sourceUrl: 'https://www.justice.gov/usao-ndtx/united-states-v-kristijan-krstic-et-al',
+  },
+  {
+    name: 'Fake "Post of Serbia" Customs-Fee SMS Phishing Scam',
+    slug: 'serbia-post-of-serbia-sms-phishing-scam',
+    description: `Starting in the spring of 2023, Serbia's National CERT (the country's electronic-communications and postal-services security authority) began tracking a wave of SMS phishing messages impersonating PE "Post of Serbia," the state postal operator, that told recipients a parcel addressed to them "could not be delivered due to an unpaid customs fee" and urged them to tap an embedded link to release it. The link led to one of several lookalike domains — including rs-posta.com, rs-posta.net, posta-serbia.com, and posta-srbija.com — built to mimic the real postal service's site and designed to collect the victim's bank card number, expiry date, and security code under the guise of paying a small customs charge, information the National CERT said "ultimately enables the attackers to clear the victim's bank account" rather than release any package. Post of Serbia publicly confirmed it does not contact customers this way and has no mechanism requiring card payment by text link, while the National CERT issued a formal warning on May 10, 2023, urging recipients to avoid clicking links in unsolicited delivery texts, never enter payment details on a page reached that way, delete the messages, and report them either to Post of Serbia's contact center or directly to the National CERT. Serbia's own cyber-incident data shows why the warning mattered: reported phishing incidents nationally rose from roughly 17,000 in 2021 to more than 63,000 in 2023, with fake delivery-notification texts — a format later echoed by similar campaigns across the wider Balkan region — becoming one of the fastest-growing categories, precisely because a small, plausible-sounding customs fee is an easier ask than a large one and arrives at a moment (an expected parcel) when a recipient is primed to act quickly rather than check first.`,
+    categorySlug: 'package-delivery-scams',
+    country: 'RS',
+    alertLevel: 'high',
+    sources: ['National CERT of the Republic of Serbia', 'Balkan Insight'],
+    sourceUrl: 'https://www.cert.rs/en/obavestenje/1042-Fi%C5%A1ing-napadi-putem-SMS-poruka-na-korisnike-po%C5%A1tanskih-usluga.html',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
