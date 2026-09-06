@@ -5449,4 +5449,15 @@ export const UsAF: SeedScam[] = [
     country: "US",
     state: "FL",
   },
+  {
+    name: 'Deepfake Celebrity Investment Scams on Meta Platforms',
+    slug: 'arizona-meta-platforms-deepfake-investment-scam',
+    description: `Arizona Attorney General Kris Mayes issued a consumer alert on April 8, 2026, warning residents about fraudulent investment schemes spreading across Meta's platforms — Facebook, Instagram, and WhatsApp — that increasingly rely on deepfake video and audio to impersonate recognizable financial figures such as Cathie Wood, CNBC's Joe Kernen, and "Shark Tank" investor Kevin O'Leary. The scheme follows a consistent three-step pattern: a fake advertisement built around a cloned celebrity voice or likeness promises an exclusive investment "membership" or guaranteed high returns; once a user clicks through, they are pressured to move the conversation off Meta's platforms and into a WhatsApp or Telegram group chat, ostensibly to avoid content moderation; and inside that group, "expert" moderators dispense trading tips, encourage members to make an initial small trade that appears to turn a real profit, and then coach them into wiring or transferring much larger sums into scammer-controlled accounts — at which point the coordinators immediately cash out the position at an inflated price and disappear with the funds. Mayes's office noted that Arizona was one of 42 state and territorial attorneys general who had previously pressed Meta directly to do more to detect and remove these fraudulent ads before they reach users. "These scammers deliberately target our most vulnerable communities, using trusted faces and false promises to rob Arizonans of their money," Mayes said. The alert urges Arizonans to treat any investment opportunity advertised on social media with skepticism, to be especially wary of any pitch that uses a celebrity's face or voice to promote a specific stock or cryptocurrency, and to remember that legitimate, registered brokers and advisors do not solicit clients through unsolicited social media ads or invite them into private trading chat groups. Anyone who has encountered one of these ads or believes they have been victimized is asked to file a complaint with the Attorney General's Consumer Protection office.`,
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    state: 'AZ',
+    alertLevel: 'high',
+    sources: ["Arizona Attorney General's Office"],
+    sourceUrl: 'https://www.azag.gov/press-release/consumer-alert-attorney-general-mayes-warns-arizonans-investment-scams-meta-platforms',
+  },
 ];
