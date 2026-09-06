@@ -46143,6 +46143,39 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'Fake Cheap Data Bundle & Starlink Phishing Sites (EcoCash Takeover)',
+    slug: 'zimbabwe-ecocash-data-bundle-phishing-takeover',
+    description: `On January 20, 2026, the Zimbabwe Republic Police (ZRP) issued a "red alert" over a surge in mobile money fraud sweeping the country, warning that criminals are "luring victims with fake online promotions purporting to offer very cheap products" — most commonly adverts for suspiciously discounted Starlink internet bundles or mobile data packages that spread rapidly through WhatsApp groups and Facebook. Clicking through leads to a convincing fake website, styled to look like an EcoCash or network-operator payment page, that asks the visitor to enter their mobile number, EcoCash PIN, and the one-time password (OTP) just texted to their phone to "complete" the discounted purchase. Handing over both the PIN and OTP is enough to make the login look legitimate from EcoCash's side: as a Techzim technical breakdown of the scam put it, once scammers enter that pair, "EcoCash thinks: 'This person has the SIM. This must be the account owner,'" clearing the way for scammers to log into the mobile app, transfer out funds, or spend directly against the balance. The scale of the problem became concrete in February 2026 when police in Chitungwiza arrested 11 suspects, with an average age of 23, accused of running exactly this scheme between November 2025 and early February 2026: fake links promising "free data bundles" that harvested OTPs and PINs from 31 known victims and drained roughly US$61,000 combined from their EcoCash accounts, with the group allegedly spending the proceeds on iPhones, a Nissan Note, a Toyota Spade, household furniture, and cryptocurrency before police recovered an estimated US$22,000 in assets. Econet has stressed that "the EcoCash platform was absolutely NOT hacked" in these incidents — the wallets are opened with credentials victims are tricked into supplying themselves — and that the company will never ask a customer to enter a PIN or OTP on a website to claim a deal. The ZRP's own alert acknowledged a further complication: officers report having limited jurisdiction or technical means to compel social media platforms and hosting providers to take down the fake promotions and phishing sites once reported, leaving many victims with nowhere further to turn after filing a police report. Consumers are urged to treat any data, airtime, or loan offer that requires entering a PIN or OTP on an external website as fraudulent — a one-time password is meant only to confirm a login you yourself initiated, never to "unlock" a discount — and to close and report any site that asks for one.`,
+    categorySlug: 'phishing',
+    country: 'ZW',
+    alertLevel: 'high',
+    sources: ['Zimbabwe Republic Police (ZRP)', 'Techzim', 'Econet/EcoCash'],
+    sourceUrl: 'https://www.techzim.co.zw/2026/01/zrp-issues-red-alert-on-ecocash-scams-are-warnings-enough-to-stop-the-phishing-wave/',
+  },
+  {
+    name: '"CryptCandor" AI-Generated Deepfake Investment Scam',
+    slug: 'zimbabwe-cryptcandor-ai-deepfake-investment-scam',
+    description: `The Reserve Bank of Zimbabwe (RBZ) issued a public alert in March 2025 warning against a fabricated news article and an AI-generated video circulating online that promoted a supposed investment platform called CryptCandor. The article's headline promised that "the truth is coming out" about a "Revolutionary Platform where 99 out of 100 investors are already earning more than $4,000," and the accompanying AI-generated video went further, fabricating a synthetic likeness and quotes from the RBZ Governor purportedly endorsing the platform to lend it an air of official credibility it did not have. The RBZ stated that it had no association whatsoever with CryptCandor, that claims of guaranteed, outsized returns were entirely unfounded, and urged the public to remain vigilant against this kind of "get rich quick" scheme. The central bank's alert set out red flags meant to apply well beyond this one platform: a financial service provider that solicits investment despite not being registered or regulated; an investment operation that exists almost entirely on social media with no permanent office or verifiable physical presence; and any promise of "super profits" or returns that would be impossible to generate through ordinary, legitimate economic or financial activity. Zimbabwean consumers are advised to verify any investment platform's registration directly with the RBZ before depositing money, to treat AI-generated video "endorsements" from public officials or a bank governor as an automatic red flag rather than proof of legitimacy, and to report suspected fraudulent platforms to the central bank instead of acting on unsolicited investment tips shared on social media.`,
+    categorySlug: 'ai-deepfake-scams',
+    country: 'ZW',
+    alertLevel: 'high',
+    sources: ['Reserve Bank of Zimbabwe (RBZ)', 'TechnoMag', 'BrokersView'],
+    sourceUrl: 'https://technomag.co.zw/rbz-issues-alert-on-ai-generated-scam-promoting-fake-investment-platform/',
+  },
+  {
+    name: 'Fake Recruitment Agent Upfront-Fee Job Scam',
+    slug: 'zimbabwe-fake-recruitment-agent-job-scam',
+    description: `Newsday Zimbabwe's June 2026 investigation into the country's fake-recruitment problem documented how job seekers desperate amid Zimbabwe's high unemployment are being systematically targeted for upfront fees by agents impersonating legitimate employers. Its lead case: Sydney Shumba, a 24-year-old high school graduate, answered what looked like a genuine advertisement for a driving job in Victoria Falls and was told to pay US$120 to cover a medical check and a police clearance report before he could start. The office looked entirely legitimate and issued him a properly stamped receipt — but when he returned on the date he had been told to report for work, the doors were locked, and he found three other young men waiting outside holding identical receipts from the same "agency." The article also describes a seasonal version of the scam that recurs every year during peak tobacco-farming months, when syndicates pose as farm managers from well-known growing regions and solicit "team deposits" from rural job seekers in exchange for a promised season of guaranteed wages at the tobacco barns — money that vanishes once workers arrive to find the real farm owners have never heard of the agency that recruited them. A related, more official-sounding variant surfaced when Zimbabwe's National Statistics Agency (ZIMSTAT) issued its own public warning after fake advertisements and SMS messages began circulating under the name "ZIMSTAT Recruitment Scheme," falsely offering jobs with the government agency; ZIMSTAT clarified that all of its genuine vacancies are posted solely on its own verified website and stated that it "will never request payment or personal financial information as part of job applications." Legitimate employers and registered recruitment agencies in Zimbabwe do not charge job seekers fees for applications, interviews, medical processing, or training at any stage, and job seekers are urged to verify any recruiter directly with the company or agency being claimed, refuse any request for an upfront payment tied to a job offer, and report suspicious recruitment adverts and SMS messages to the police or to the organization being impersonated.`,
+    categorySlug: 'employment-scams',
+    country: 'ZW',
+    alertLevel: 'high',
+    sources: ['Newsday Zimbabwe', 'ZIMSTAT'],
+    sourceUrl: 'https://www.newsday.co.zw/local-news/article/200057510/the-cost-of-desperation-how-fake-recruitment-agents-are-scamming-zims-unemployed',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
