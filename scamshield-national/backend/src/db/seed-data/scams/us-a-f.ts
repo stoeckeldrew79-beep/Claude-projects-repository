@@ -5460,4 +5460,15 @@ export const UsAF: SeedScam[] = [
     sources: ["Arizona Attorney General's Office"],
     sourceUrl: 'https://www.azag.gov/press-release/consumer-alert-attorney-general-mayes-warns-arizonans-investment-scams-meta-platforms',
   },
+  {
+    name: 'EZDriveMA Toll Text Scam (Smishing)',
+    slug: 'ezdrivema-toll-text-scam',
+    description: `The Massachusetts Department of Transportation and the Registry of Motor Vehicles have repeatedly warned drivers about an ongoing "smishing" (SMS phishing) campaign in which text messages impersonate the EZDriveMA electronic tolling system, claiming the recipient owes money for an unpaid toll and must pay immediately through a link in the message to avoid extra fees or other penalties. MassDOT says the targeted phone numbers appear to be chosen at random and are not tied to any actual EZDriveMA account or real toll usage, and that the fraudulent links lead to look-alike payment pages built to harvest credit card numbers and personal information rather than any address ending in EZDriveMA.com. "Consider yourself affected," a MassDOT official said of the campaign's broad, indiscriminate reach, noting that the real EZDriveMA will never request payment by text message. Drivers who receive one of these texts are advised not to click the link or reply with any information, and instead to verify any toll balance directly by logging into an account at www.EZDriveMA.com or calling EZDriveMA customer service at (877) 627-7745. The RMV and MassDOT recommend reporting the fraudulent text to the Massachusetts Attorney General's Office and filing a complaint with the FBI's Internet Crime Complaint Center at ic3.gov, including the phone number the text came from and the fraudulent website it linked to; anyone who already clicked a link or entered payment details should contact their bank or card issuer to dispute any resulting charges.`,
+    categorySlug: 'phishing',
+    country: 'US',
+    state: 'MA',
+    alertLevel: 'high',
+    sources: ['Massachusetts Department of Transportation (MassDOT)', 'Massachusetts Registry of Motor Vehicles (RMV)', 'Boston 25 News'],
+    sourceUrl: 'https://www.mass.gov/news/massdot-alerts-customers-of-ezdrivema-scam',
+  },
 ];

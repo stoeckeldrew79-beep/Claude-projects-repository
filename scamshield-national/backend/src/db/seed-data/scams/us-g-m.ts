@@ -3308,4 +3308,16 @@ export const UsGM: SeedScam[] = [
     country: "US",
     state: "MI",
   },
+  {
+    name: "Fake Louisiana Department of Justice Text Scam",
+    slug: "louisiana-department-of-justice-text-scam",
+    description:
+      "A text message scam that went viral across Louisiana in April 2026 falsely claims to come from the Louisiana Department of Justice, telling recipients they have an \"unresolved driving record issue\" and threatening driver's license suspension, vehicle registration holds, and other legal consequences if they do not act immediately. The message cites a fabricated case or document number and invokes a nonexistent \"Louisiana Judicial Process Act\" to sound official, then directs the recipient to a link styled as a \"Designated Enforcement Portal\" that is actually built to harvest personal and financial information. Attorney General Liz Murrill's office said it was flooded with calls from residents asking whether the text was real. \"BEWARE: Any text message claiming to be from the Louisiana Department of Justice is a scam. Do not click links or respond. Delete it immediately,\" Murrill warned, noting her office does not contact residents about driving records by text message at all — that function belongs to the Office of Motor Vehicles, and neither agency demands payment or personal information through an unsolicited text. Residents who receive the message are advised not to click any link or reply, to delete it, and to report it to the Attorney General's Consumer Protection Section at 1-800-351-4889 or to the FTC at reportfraud.ftc.gov.",
+    categorySlug: "government-impersonation",
+    alertLevel: "high",
+    sources: ["Louisiana Department of Justice / Office of the Attorney General","KLFY (CBS Lafayette)","American Press"],
+    sourceUrl: "https://ag.louisiana.gov/Home",
+    country: "US",
+    state: "LA",
+  },
 ];
