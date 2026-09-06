@@ -716,8 +716,8 @@ Slatkin's case is a clear illustration of "affinity fraud" — schemes that spre
     title: 'Norman Hsu: The Political Fundraiser Whose Ponzi Scheme Funded His Own Influence',
     slug: 'norman-hsu-political-fundraiser-ponzi-scheme',
     author: 'ScamShield Editorial',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Daniel_Patrick_Moynihan_U.S._Courthouse,_Manhattan,_New_York_(7237347688).jpg?width=1200',
-    coverImageCredit: 'Photo: Ken Lund (CC BY-SA 2.0)',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Jacob_K._Javits_Federal_Office_Building,_Manhattan,_New_York_(7237337480).jpg?width=1200',
+    coverImageCredit: "Photo: Ken Lund (CC BY-SA 2.0) — the Jacob K. Javits Federal Building in Manhattan, home to the FBI's New York field office",
     coverImagePosition: 50,
     // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
@@ -910,8 +910,8 @@ Black's case became a widely cited example of how a media proprietor's control o
     title: 'Kenneth Starr: The Financial Adviser to the Stars Who Stole From His Own Clients',
     slug: 'kenneth-starr-celebrity-money-manager-fraud',
     author: 'ScamShield Editorial',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Daniel_Patrick_Moynihan_U.S._Courthouse,_Manhattan,_New_York_(7237347688).jpg?width=1200',
-    coverImageCredit: 'Photo: Ken Lund (CC BY-SA 2.0)',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/53rd_St_Lex_Av_td_01_-_399_Park_Avenue.jpg?width=1200',
+    coverImageCredit: "Photo: Tdorante10 (CC BY-SA 4.0) — 399 Park Avenue, former home of Starr's investment firm",
     coverImagePosition: 50,
     // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer', 'historical'],
@@ -8843,8 +8843,8 @@ NOTORIOUS_ARTICLES.push(
     slug: 'annette-bongiorno-madoff-back-office-manager',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Daniel_Patrick_Moynihan_U.S._Courthouse,_Manhattan,_New_York_(7237347688).jpg?width=1200',
-    coverImageCredit: 'Photo by Ken Lund, Wikimedia Commons (CC BY-SA 2.0) — the Daniel Patrick Moynihan U.S. Courthouse in Manhattan, where Annette Bongiorno was tried and convicted in 2014',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Lipstick_Building_August_2024.jpg?width=1200',
+    coverImageCredit: "Photo: Kidfly182 (CC BY 4.0) — the Lipstick Building, where Madoff's firm operated",
     coverImagePosition: 50,
     body: `Annette Bongiorno joined Bernard Madoff's investment firm in 1968, straight out of high school in Ozone Park, Queens, at age 19, with no background in finance and, according to her own later account, no understanding of how the stock market worked. Over the next four decades she rose from Madoff's personal secretary to become, in effect, the day-to-day operator of the investment-advisory business that turned out to be the largest Ponzi scheme in American history — running the unit that generated fake trade confirmations and account statements for thousands of individual client accounts, including Madoff's own family and friends.
 
@@ -9079,8 +9079,8 @@ NOTORIOUS_ARTICLES.push(
     slug: 'martin-armstrong-princeton-economics-ponzi-scheme',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Daniel_Patrick_Moynihan_U.S._Courthouse,_Manhattan,_New_York_(7237347688).jpg?width=1200',
-    coverImageCredit: 'Photo: Ken Lund, Wikimedia Commons (CC BY-SA 2.0) — the Daniel Patrick Moynihan U.S. Courthouse in Manhattan, where Martin Armstrong pleaded guilty and was sentenced',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Metropolitan_Correctional_Center_New_York_City.jpg?width=1200',
+    coverImageCredit: 'Photo: Kidfly182 (CC BY 4.0) — the Metropolitan Correctional Center, where Armstrong was jailed for contempt',
     coverImagePosition: 50,
     body: `Martin Arthur Armstrong built his reputation as a self-taught commodities and currency trader who claimed to have developed a proprietary mathematical model — built around cycles tied to the constant pi — capable of forecasting turning points in financial markets years in advance. Through his firm, Princeton Economics International, Ltd., he marketed that reputation directly to corporate treasurers, mostly at Japanese companies, as the foundation for a supposedly safe way to earn steady returns.
 
@@ -9884,8 +9884,8 @@ On March 25, 2010, U.S. District Judge Patti Saris in Boston sentenced Gonzalez 
     slug: 'reggie-fowler-crypto-shadow-banking-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Daniel_Patrick_Moynihan_U.S._Courthouse,_Manhattan,_New_York_(7237347688).jpg?width=1200',
-    coverImageCredit: 'Photo: Ken Lund (CC BY-SA 2.0) — the Daniel Patrick Moynihan U.S. Courthouse in Manhattan, where Fowler was prosecuted and sentenced',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Hhh_metrodome.jpg?width=1200',
+    coverImageCredit: 'Photo: Dlz28 (Public Domain) — the Hubert H. Humphrey Metrodome, where Fowler sought to buy the Vikings',
     coverImagePosition: 50,
     body: `Reggie Fowler spent years cultivating a reputation as a well-connected sports investor. In 2005 the Arizona businessman signed an agreement to buy a controlling stake in the Minnesota Vikings — a deal that, had it closed as structured, would have made him the first Black principal owner in NFL history. The league's ownership rules ultimately forced him into a smaller, limited-partner stake instead, which he held for roughly a decade before quietly stepping away from it in the mid-2010s. Fowler resurfaced in football circles again in 2018 as an investor in the short-lived Alliance of American Football (AAF), a professional spring league that folded within months of its launch.
 
@@ -10743,8 +10743,8 @@ NOTORIOUS_ARTICLES.push(
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
     sourceUrl: 'https://www.justice.gov/archives/opa/pr/ceo-titanium-blockchain-sentenced-21m-cryptocurrency-fraud-scheme',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Los_Angeles_Federal_Courthouse_127_S_Broadway_dllu.jpg?width=1200',
-    coverImageCredit: 'Photo: Daniel L. Lu (dllu), CC BY-SA 4.0, via Wikimedia Commons — the First Street U.S. Courthouse in Los Angeles, where Michael Stollery was prosecuted',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/U.S._Court_House_and_Post_Office,_312_N._Spring_St._Downtown_Los_Angeles-19.jpg?width=1200',
+    coverImageCredit: 'Photo: Michael Jiroch (CC BY-SA 3.0) — the historic U.S. Court House in downtown Los Angeles',
     coverImagePosition: 50, // representative photo — replace with a portrait if found
     body: `Michael Alan Stollery marketed himself online as a "blockchain evangelist," and during the 2017-2018 initial coin offering boom he put that self-description to work building Titanium Blockchain Infrastructure Services, Inc. (TBIS), a Reseda, California company he pitched as a cloud-storage and blockchain-infrastructure business preparing to launch its own digital token, called the BAR token. To potential investors — recruited through conferences, webinars, and social media — Stollery presented a company on the verge of major legitimacy: a corporate white paper describing the technology, testimonials from supposedly satisfied clients, and a client roster that, according to the Securities and Exchange Commission, falsely claimed business relationships with the Federal Reserve and dozens of household names including Apple, Boeing, eBay, General Electric, Microsoft, PayPal, Pfizer, the Royal Bank of Scotland, Universal Studios, and The Walt Disney Company.
 
