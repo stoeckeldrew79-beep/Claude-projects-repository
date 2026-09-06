@@ -43912,6 +43912,42 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'Mount Pleasant, Michigan Unclaimed Property Identity Theft Scheme',
+    slug: 'michigan-mount-pleasant-unclaimed-property-identity-theft',
+    description: `Averill Dintaman, 47, and Daniel Nolan, 51, both of Mount Pleasant, Michigan, conspired in 2022 to steal the identity of a Michigan man and forge a fraudulent durable power of attorney in his name, which they used to obtain an unclaimed property check from the state Department of Treasury made out for $579,551.99. When a second copy of the check was needed, Dintaman and Nolan recruited Dwayne Johnson, 60, of Saint Louis, Michigan, to travel to the Department of Treasury's Unclaimed Property Office in person and pose as the victim to collect it. The Michigan Department of Attorney General, alerted by the Department of Treasury, charged all three in May 2025; Dintaman pleaded guilty in October to conspiracy to commit false pretenses over $100,000, uttering and publishing, forgery, and using a computer to commit a crime, while Nolan and Johnson pleaded guilty in November to related charges, Johnson's including identity theft. Judge Janice Cunningham of the 56th Circuit Court in Eaton County sentenced Dintaman on December 11, 2025, and Nolan on January 29, 2026, each to 3 to 20 years' incarceration, while Johnson received 12 months' probation. Attorney General Dana Nessel's office noted the case as a reminder that anyone can check Michigan's unclaimed property database directly at michigan.gov and should be wary of powers of attorney or trust documents presented by someone other than the account holder, since a forged power of attorney can unlock a large, dormant balance long before the rightful owner ever learns the money existed.`,
+    categorySlug: 'identity-theft',
+    country: 'US',
+    state: 'MI',
+    alertLevel: 'medium',
+    sources: ['Michigan Department of Attorney General', 'MI Newswire'],
+    sourceUrl: 'https://www.michigan.gov/ag/news/press-releases/2026/04/03/three-sentenced-for-half-a-million-dollar-identity-theft-fraud-forgery-scheme',
+  },
+  {
+    name: 'Hoover, Alabama $3 Million Currency Trading Ponzi Scheme',
+    slug: 'alabama-hoover-ponzi-scheme-investment-fraud',
+    description: `Bryan Wayne Anderson, 41, of Hoover, Alabama, ran an unregistered investment scheme from 2009 until May 2014, telling investors he could generate strong, reliable returns through currency and securities trading while he was in fact operating a classic Ponzi scheme, using new investor money to pay purported "returns" to earlier investors rather than trading on their behalf as promised. Investigators determined that Anderson had drawn in roughly $6.7 million from investors over the life of the scheme, ultimately causing losses of more than $3 million once it collapsed. After pleading guilty to wire fraud, money laundering, and securities fraud, Anderson was sentenced by U.S. District Judge Virginia Emerson Hopkins in the Northern District of Alabama to seven years and three months in federal prison, and was ordered to pay $3,063,014 in restitution to twelve identified victims and to forfeit an equivalent amount to the government as proceeds of the fraud. The U.S. Attorney's Office highlighted the case as a caution that promises of dependable above-market returns from an individual trader rather than a registered investment firm — verifiable through the SEC's or Alabama Securities Commission's public licensing databases — are a defining hallmark of a Ponzi scheme, and that steady "returns" paid out on schedule prove nothing about a fund's actual trading performance.`,
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    state: 'AL',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office for the Northern District of Alabama", 'WBRC'],
+    sourceUrl: 'https://www.justice.gov/usao-ndal/pr/hoover-man-sentenced-seven-years-prison-ponzi-scheme-bilked-millions-investors',
+  },
+  {
+    name: 'Hot Springs, Arkansas Pandemic Unemployment and Disaster Loan Fraud',
+    slug: 'arkansas-hot-springs-pandemic-benefits-fraud',
+    description: `John Christopher Bates, 57, of Hot Springs, Arkansas, ran two overlapping pandemic-relief fraud schemes during the COVID-19 emergency: he submitted false applications to the Arkansas Department of Workforce Services claiming Pandemic Unemployment Assistance benefits he was not entitled to receive, and separately filed fraudulent applications seeking more than $1 million through the Small Business Administration's Economic Injury Disaster Loan program, then laundered the resulting proceeds through his personal accounts. A joint investigation by IRS Criminal Investigation, the Treasury Inspector General for Tax Administration, and the U.S. Department of Labor's Office of Inspector General uncovered the scheme, and Bates waived indictment and pleaded guilty to money laundering and wire fraud in the Western District of Arkansas. He was sentenced on March 12, 2025, to 57 months in federal prison and ordered to pay $252,344 in restitution. The U.S. Attorney's Office pointed to the case as a reminder that pandemic-era relief programs left a lasting paper trail — self-certified applications submitted years ago can still be cross-checked against wage and tax records long after the money is spent — and that mixing fraud proceeds from two separate government programs into the same personal accounts only compounds the eventual money-laundering exposure once either application is flagged for review.`,
+    categorySlug: 'public-benefits-fraud',
+    country: 'US',
+    state: 'AR',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office for the Western District of Arkansas", 'IRS Criminal Investigation'],
+    sourceUrl: 'https://www.justice.gov/usao-wdar/pr/hot-springs-man-sentenced-more-4-years-prison-money-laundering-and-wire-fraud',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
