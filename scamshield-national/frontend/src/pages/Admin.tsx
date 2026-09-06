@@ -2,7 +2,7 @@ import { FormEvent, useState } from 'react';
 import { useMutation, useQueryClient } from '@tanstack/react-query';
 import { createArticle, createScam, updateArticleCoverImage } from '../services/admin';
 import { useDocumentMeta } from '../hooks/useDocumentMeta';
-import { useArticles } from '../hooks/useArticles';
+import { useAllArticleSummaries } from '../hooks/useArticles';
 import { AlertLevel } from '../types';
 import { useAuthStore } from '../store/useAuthStore';
 import { NotoriousCoverArt } from '../components/NotoriousCoverArt';
@@ -199,7 +199,7 @@ function ArticleForm() {
 function ArticleCoverPhotos({ tag, heading, subject }: { tag: string; heading: string; subject: string }) {
   const user = useAuthStore((s) => s.user);
   const queryClient = useQueryClient();
-  const { data: articles, isLoading } = useArticles(tag);
+  const { data: articles, isLoading } = useAllArticleSummaries(tag);
   const [urlDrafts, setUrlDrafts] = useState<Record<string, string>>({});
   const [creditDrafts, setCreditDrafts] = useState<Record<string, string>>({});
   const [sourceDrafts, setSourceDrafts] = useState<Record<string, string>>({});
@@ -236,6 +236,7 @@ function ArticleCoverPhotos({ tag, heading, subject }: { tag: string; heading: s
         box, so use the focal point slider to pick which part of the photo stays visible (0 = top, 100 = bottom).
       </p>
       {isLoading && <p className="mt-3 text-sm text-slate-500">Loading…</p>}
+      {articles && <p className="mt-2 text-xs text-slate-400">{articles.length} {subject}s</p>}
       <div className="mt-4 space-y-4">
         {articles?.map((article) => {
           const urlDraft = urlDrafts[article.id] ?? article.cover_image ?? '';

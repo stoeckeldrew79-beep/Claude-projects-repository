@@ -19,6 +19,15 @@ const UPDATABLE_ARTICLE_FIELDS = [
   'published_at',
 ] as const;
 
+// The fields the admin cover-photo panel needs. It never renders body, and
+// article bodies are long enough that sending 600+ of them to list a photo
+// URL is the difference between a page that loads and one that does not.
+const BRIEF_COLUMNS =
+  'a.id, a.title, a.slug, a.tags, a.cover_image, a.cover_image_credit, a.cover_image_position, a.source_url, a.published_at';
+
+const DEFAULT_LIMIT = 200;
+const MAX_LIMIT = 500;
+
 export const list = asyncHandler<AuthedRequest>(async (req, res) => {
   const tag = req.query.tag as string | undefined;
   const conditions = ['a.published = true'];
@@ -29,12 +38,29 @@ export const list = asyncHandler<AuthedRequest>(async (req, res) => {
     conditions.push(`$${values.length} = ANY(a.tags)`);
   }
 
+  // This was a bare LIMIT 200 with no way to reach past it, which silently
+  // hid every article beyond the 200 most recent — 464 of the 664 notorious
+  // profiles could not be edited in admin at all. Callers page instead.
+  const requested = Number(req.query.limit);
+  const limit = Number.isFinite(requested) && requested > 0 ? Math.min(requested, MAX_LIMIT) : DEFAULT_LIMIT;
+  const parsedOffset = Number(req.query.offset);
+  const offset = Number.isFinite(parsedOffset) && parsedOffset > 0 ? Math.floor(parsedOffset) : 0;
+
+  values.push(limit, offset);
+  const limitParam = `$${values.length - 1}`;
+  const offsetParam = `$${values.length}`;
+
+  const columns = req.query.brief === '1' ? BRIEF_COLUMNS : 'a.*';
+
   const { rows } = await pool.query(
-    `SELECT a.*, s.slug AS scam_slug
+    `SELECT ${columns}, s.slug AS scam_slug
      FROM articles a
      LEFT JOIN scams s ON s.id = a.scam_id
      WHERE ${conditions.join(' AND ')}
-     ORDER BY a.published_at DESC LIMIT 200`,
+     -- published_at ties are common (a seeded batch shares a timestamp), so
+     -- id breaks them: without a total order, paging can repeat or skip rows.
+     ORDER BY a.published_at DESC NULLS LAST, a.id
+     LIMIT ${limitParam} OFFSET ${offsetParam}`,
     values
   );
   res.json({ data: rows });

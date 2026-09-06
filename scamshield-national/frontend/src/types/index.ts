@@ -84,6 +84,10 @@ export interface Article {
   created_at: string;
 }
 
+// What the admin cover-photo panel lists. Article bodies are long and it
+// never renders one, so the panel asks the API to leave them out.
+export type ArticleSummary = Omit<Article, 'body' | 'author' | 'scam_id' | 'published' | 'created_at'>;
+
 export interface GlobalStat {
   id: string;
   source_id: string;
