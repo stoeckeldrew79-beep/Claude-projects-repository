@@ -12332,6 +12332,69 @@ Bloom did not serve the full sentence. In December 2024, President Biden commute
   },
 );
 
+NOTORIOUS_ARTICLES.push(
+  {
+    title: 'Tim Donaghy: The NBA Referee Whose Betting Scheme Exposed Officiating to a Gambling Ring',
+    slug: 'tim-donaghy-nba-referee-betting-scandal',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://www.justice.gov/archive/usao/nye/pr/2007/2007aug15.html',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Basketball_Referee_during_WNBA_game.jpg?width=1200',
+    coverImageCredit: 'Photo: WOWyerrr, Wikimedia Commons (CC BY-SA 4.0) — a basketball referee mid-game, the on-court role at the center of the Donaghy betting scandal',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    body: `Tim Donaghy spent 13 seasons as an NBA referee, from 1994 until his resignation in 2007, working his way onto some of the league's more senior officiating crews. Referees occupy an unusually trusted position in professional sports: they receive advance knowledge of crew assignments, a firsthand read on how tightly or loosely a given crew tends to call games, and insight into tensions between specific players, coaches, and officials — all information invisible to the betting public and, in theory, walled off from it entirely.
+
+Beginning around December 2006, Donaghy turned that access into a product. Working through a childhood friend, Thomas Martino, as an intermediary, he fed betting picks to a professional gambler, James Battista, based on which crew had been assigned to officiate a given game and how its members were likely to call it, reportedly using a simple code in which mentioning one brother's name signaled a bet on the visiting team and another's signaled the home team. Cell-phone records later showed hundreds of calls among the three men between October 2006 and May 2007, the stretch federal prosecutors ultimately charged as the conspiracy.
+
+The scheme surfaced almost by accident. In June 2007, FBI agents investigating an unrelated Gambino crime-family gambling operation picked up wiretap chatter referencing a referee providing inside tips, around the same time analysts noticed unusual, repeated shifts in the point spreads of games Donaghy had officiated. Donaghy resigned from the NBA on July 9, 2007, and pleaded guilty on August 15, 2007, to two federal felony counts: conspiracy to commit wire fraud and conspiracy to transmit wagering information across state lines. He was sentenced in July 2008 to 15 months in federal prison, with Battista and Martino separately sentenced to comparable terms and all three ordered to jointly pay $217,000 in restitution; Donaghy was released in late 2009 after serving the bulk of his term, and his supervised release ended without further incident.
+
+The NBA's own outside investigation, led by attorney Lawrence Pedowitz, later concluded there was no reliable evidence Donaghy had manipulated his calls to fix the outcome of games tied to his bets — the fraud, as prosecuted, was built on selling insider procedural knowledge rather than on proven in-game manipulation, though the distinction did little to reassure a league whose entire product depends on the public's assumption that officials have no stake in the outcome.
+
+Donaghy's case remains a clear illustration of how thin the line is between an insider's ordinary professional knowledge and an insider-trading scheme, once someone starts selling it: nothing about knowing which crew is assigned to a game is illegal by itself, and nothing about a friend asking a friend's opinion is either — the offense was turning a position of trust into a subscription service for people who stood to profit from information the public could never buy. Every major sports league has since built out integrity-monitoring units shaped substantially by this case, treating an official's access to inside information as a risk to be actively managed rather than a threat no one had planned for.`,
+  },
+  {
+    title: 'W.V. Grant and the Faith-Healing Crusades That Hid a $375,000 Tax Fraud Behind Staged Miracles',
+    slug: 'wv-grant-faith-healer-tax-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://quackwatch.org/cases/doj/grant/sentencing/',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Dallas_-_First_Baptist_Church_01.jpg?width=1200',
+    coverImageCredit: 'Photo: Joe Mabel, Wikimedia Commons (CC BY-SA 3.0) — a church in downtown Dallas, the city where W.V. Grant built his own television healing ministry',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    body: `Walter Vinson "W.V." Grant Jr. began preaching in Cincinnati in the mid-1970s before relocating to Dallas, where in 1983 he took over a small congregation called Soul's Harbor Church and, by 1987, had rebuilt it into a 5,000-seat facility he renamed Eagle's Nest Cathedral. Broadcasting his services nationally, Grant built his ministry around live "healing crusades," calling individual strangers up from the audience, addressing them by name, describing their illness or family situation in specific detail, and then declaring them cured — theater staged to look like divine revelation.
+
+It wasn't divine. Paranormal investigator James Randi documented in his 1987 book "The Faith Healers," and later television exposés corroborated, that Grant's apparent knowledge of strangers came from ordinary information-gathering: aides collected biographical and medical details from attendees before each service, sometimes through casual conversation or church directories, then passed the notes to Grant's wife, who fed them to him via slips tucked inside his onstage Bible. Some of the "wheelchair" healings involved people who had walked into the building under their own power and were placed in a chair specifically so Grant could later ask them to rise; a leg-lengthening "miracle," performed repeatedly on different subjects, relied on a simple shoe-manipulation trick rather than anything happening to the leg itself.
+
+The theater concealed an ordinary financial crime. An IRS investigation found that Grant had failed to report at least $375,000 in income used toward purchasing two homes, including a residence overlooking a DeSoto, Texas country club, funded in part with $100,000 in undisclosed cash from congregants that Grant laundered through the property's seller to convert it into cashier's checks — a transaction an undercover IRS agent captured Grant discussing on tape. He pleaded guilty to federal tax evasion on April 15, 1996, tried unsuccessfully to withdraw the plea minutes before sentencing, and was sentenced on July 26, 1996, to 16 months in prison, a $30,000 fine, and roughly $60,800 in additional financial penalties. He served his term and was released on September 18, 1997.
+
+Grant's ministry survived the conviction almost intact. He resumed preaching at Eagle's Nest Cathedral within months of his release, continued soliciting donations from congregants for years afterward, and, decades later, is still listed as leading services at the same Dallas-area ministry, now operating from a downtown location, with no further criminal charges filed against him since 1996.
+
+Grant's case is a reminder that a religious fraud and a financial fraud are often the same scheme wearing two different faces: the staged healings built the trust and the donor base, and the unreported income was simply what that trust got converted into once the cameras stopped rolling. Debunking the miracle claims, as Randi and others did repeatedly over more than a decade, never by itself stopped the collection plate from filling — it took an ordinary IRS paper trail, not a theological argument, to produce the only legal consequence Grant ever faced.`,
+  },
+  {
+    title: 'Nguyen Thai Luyen and the Alibaba Real Estate Fraud That Sold Vietnamese Investors 58 Phantom Projects',
+    slug: 'nguyen-thai-luyen-alibaba-real-estate-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://e.vnexpress.net/news/news/saigon-real-estate-firm-president-gets-life-for-tricking-101m-from-thousands-with-fake-projects-4554311.html',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Ho_Chi_Minh_City,_Nguyen_Thi_Minh_Khai_Street,_2020-01_CN-01.jpg?width=1200',
+    coverImageCredit: 'Photo: Steffen Schmitz ("Carschten"), Wikimedia Commons (CC BY-SA 4.0) — a street in Ho Chi Minh City, where Alibaba Real Estate was headquartered',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    body: `Nguyen Thai Luyen founded Alibaba Real Estate Joint Stock Company in Ho Chi Minh City in May 2016 with just four shareholders and roughly $4,300 in registered capital, of which he personally held 80 percent. Within three years, prosecutors said, the company and more than 20 affiliated entities Luyen controlled had grown into one of Vietnam's most aggressive property sellers, marketing land plots across Ho Chi Minh City and the neighboring provinces of Dong Nai, Ba Ria-Vung Tau, and Binh Thuan directly to ordinary buyers through slick advertising and an army of commission-driven sales staff.
+
+The land largely wasn't what it was advertised to be. Investigators found that Alibaba and its affiliates sold agricultural and undeveloped land as though it were already-approved residential subdivisions, packaging the sales across 58 projects that were never legally converted or licensed for the housing developments the company promised — plots that, in many cases, the company did not even own outright. To keep buyers from asking too many questions, Alibaba offered an unusually generous buyback guarantee: a 30 percent return if the company repurchased the land after 12 months, 38 percent after 15 months, or a 2 percent monthly payment for buyers willing to lease their plots back — payments that, prosecutors said, were funded not by any real land development but by cash coming in from newer buyers, the same arithmetic underlying a classic Ponzi scheme.
+
+Vietnamese police raided Alibaba's Thu Duc District headquarters in September 2019 and detained Luyen along with his younger brother and company director, Nguyen Thai Linh. Prosecutors ultimately determined that Luyen's operation had defrauded roughly 4,560 people out of a combined 2.4 trillion dong, about $101 million, through land they were never going to receive clear title to. Ho Chi Minh City's People's Court convicted Luyen of fraudulent appropriation of property in December 2022, sentencing him to life in prison; his wife, Vo Thi Thanh Mai, received 30 years for fraud and money laundering, and 21 other Alibaba employees and associates received sentences ranging from 10 to 27 years.
+
+Luyen appealed, arguing in part that a partial restitution payment made during the appeal — worth roughly 200 million dong, a fraction of what victims were owed — justified a reduced sentence. Ho Chi Minh City's High Court rejected the appeal on May 19, 2023, upholding Luyen's life sentence while reducing his wife's combined term to 23 years, a final verdict that left thousands of Alibaba's investors holding land-purchase contracts for developments that, under Vietnamese law, had never been anything more than paper.
+
+The Alibaba case shows how a buyback guarantee, normally a feature meant to reduce a buyer's risk, becomes a Ponzi scheme's most effective recruiting tool once the guarantor has no real way to honor it: each on-time payment functioned as free advertising for the next round of buyers, right up until the volume of promised payouts outran the volume of real cash coming in. For a company selling land rather than securities, the fraud was also harder to see coming, because the product looked concrete and inspectable even when the underlying legal right to develop or resell it never existed at all.`,
+  },
+);
+
 // Practical "how it works / red flags / what to do" guides covering the
 // major scam categories, the same kind of coverage the FTC's Consumer
 // Advice site and AARP's Fraud Watch Network publish — well-documented
