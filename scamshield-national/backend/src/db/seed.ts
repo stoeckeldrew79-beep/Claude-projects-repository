@@ -11338,6 +11338,62 @@ The case remains one of the starkest illustrations of how a stolen customer-cont
   },
 );
 
+NOTORIOUS_ARTICLES.push(
+  {
+    title: 'Greg Lindberg and the $2 Billion Insurance Fraud He Tried to Bribe His Way Out Of',
+    slug: 'greg-lindberg-eli-global-insurance-fraud-bribery',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/opa/pr/owner-multinational-investment-company-sentenced-2b-fraud-money-laundering-and-bribery',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/North_Carolina_State_Capitol,_Raleigh.jpg?width=1200',
+    coverImageCredit: 'Photo: Jim Bowen, Wikimedia Commons (CC BY 2.0) — the North Carolina State Capitol in Raleigh, the state whose insurance regulators Lindberg was convicted of bribing',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    body: `Greg Lindberg built Eli Global LLC, a Durham, North Carolina-based private-equity conglomerate, into the owner of a stable of life insurers anchored by Global Bankers Insurance Group. Between at least 2016 and 2019, prosecutors say Lindberg and his associates used those companies not as trust funds held for policyholders, but as a private piggy bank — improperly diverting more than $2 billion out of insurance-company reserves for Lindberg's own benefit while deceiving the North Carolina Department of Insurance and other regulators about the companies' true financial condition.
+
+When state regulators started asking harder questions, Lindberg didn't just lobby them — he tried to buy his way past them. From April 2017 to August 2018, prosecutors say Lindberg and a consultant funneled roughly $1.5 million in campaign contributions to North Carolina's insurance commissioner, Mike Causey, seeking a corrupt trade: the removal of the senior deputy commissioner who was overseeing the examination of Lindberg's companies, in exchange for the money. Causey, instead of taking the deal, reported it to the FBI and secretly recorded his subsequent meetings with Lindberg, handing prosecutors a wire-tapped record of the alleged bribery scheme in progress.
+
+A federal jury convicted Lindberg of bribery and honest-services fraud conspiracy in 2020, and he was sentenced to seven years in prison — but the Fourth Circuit Court of Appeals vacated that conviction in 2022, ruling the trial judge had improperly told jurors that the regulator's removal automatically counted as an "official act," lowering the government's burden of proof. Lindberg was released while prosecutors regrouped, and a second jury convicted him again in May 2024. Months later, in November 2024, he separately pleaded guilty to conspiracy charges tied to the underlying $2 billion fraud and money-laundering scheme. In 2026, U.S. District Judge Max Cogburn sentenced Lindberg to 12 years in federal prison.
+
+The insurance companies Lindberg controlled were ultimately placed into liquidation by North Carolina regulators, and years after the scheme first came to light, thousands of individual policyholders and other victims are still owed more than $1 billion in restitution they may never fully recover. The case stands as a reminder that insurance reserves — money regulators require companies to set aside specifically so they can pay the claims policyholders were promised — are exactly the kind of "boring," tightly regulated pool of money that a well-connected owner can still find ways to raid, and that buying influence over the regulator meant to catch that raid is its own separate crime layered on top of the first.`,
+  },
+  {
+    title: "Tshifhiwa Matodzi and the Heist That Emptied South Africa's VBS Mutual Bank",
+    slug: 'tshifhiwa-matodzi-vbs-mutual-bank-heist',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://en.wikipedia.org/wiki/VBS_Mutual_Bank',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Palace_of_Justice_-_Pretoria.jpg?width=1200',
+    coverImageCredit: 'Photo: The Wandering Angel, Wikimedia Commons (CC BY 2.0) — the Palace of Justice in Pretoria, seat of the Gauteng High Court where Matodzi was sentenced',
+    coverImagePosition: 50,
+    body: `VBS Mutual Bank was a small, community-focused lender based in Thohoyandou in South Africa's rural Limpopo province, built on deposits from black South Africans historically underserved by the country's large commercial banks — burial societies, stokvels, church groups, and ordinary savers who trusted it as a genuinely local institution. Tshifhiwa Matodzi, its board chairman, turned that trust into the raw material for what an investigator's report later titled, without exaggeration, "The Great Bank Heist."
+
+VBS's growth strategy centered on persuading municipalities to deposit public funds with it — an arrangement several South African laws actually prohibit, since municipalities are barred from banking with mutual banks precisely because they lack the deposit guarantees of larger institutions. Matodzi and his co-conspirators got around that by paying kickbacks to municipal officials willing to move public money into VBS anyway, eventually drawing in roughly R1.6 billion in municipal deposits. A forensic investigation commissioned by the South African Reserve Bank and led by advocate Terry Motau, published in October 2018, found that Matodzi then treated the bank's swollen deposit base as his personal account, creating fictitious loans and credits to funnel cash out to himself, relatives, business associates, and a network of at least 53 people and entities — while paying a bank auditor to sign off on financial statements that concealed the hole growing underneath it all.
+
+The scheme collapsed in March 2018 when the Reserve Bank placed VBS under curatorship after it could no longer meet its obligations, ultimately finding roughly R2 billion — then equivalent to more than $130 million — had been looted from the bank. Ordinary depositors lost life savings, municipalities lost public funds meant for services, and the bank was liquidated outright, unable to be rescued. South Africa's Directorate for Priority Crime Investigation, known as the Hawks, and the National Prosecuting Authority spent years building a case against Matodzi and dozens of co-accused named in the Motau report.
+
+Matodzi was formally charged with 33 counts including racketeering, fraud, theft, corruption, and money laundering, and in July 2024 he pleaded guilty to all of them as part of a negotiated plea and sentence agreement with prosecutors. The Gauteng High Court in Pretoria sentenced him to an aggregate 495 years in prison, with the individual counts running concurrently so that he will serve an effective 15 years. His case became the anchor prosecution in a scandal that also implicated municipal officials, a politically connected traditional authority, and — in reporting that reached South Africa's Parliament — associates of prominent political figures, making VBS's collapse one of the country's most consequential financial-fraud cases of the post-apartheid era, and a case study in how easily a bank built on genuine community trust can be hollowed out from the inside once it starts attracting money its founders were never equipped, or willing, to actually safeguard.`,
+  },
+  {
+    title: 'Florian Homm: The Fugitive Hedge Fund Manager Convicted an Ocean Apart From Where He Ran',
+    slug: 'florian-homm-absolute-capital-fugitive-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.swissinfo.ch/eng/various/homm-trial-6-years-and-7-months-for-the-financial-magician/89971134',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Palma_von_Castell_de_Bellver.jpg?width=1200',
+    coverImageCredit: 'Photo: Thomas Wolf, www.foto-tw.de, Wikimedia Commons (CC BY-SA 3.0 DE) — Palma de Mallorca, where Homm ran Absolute Capital Management before fleeing in 2007',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    body: `Florian Homm trained under legendary Fidelity fund manager Peter Lynch before returning to Germany to build his own reputation as a star stock picker, eventually founding Absolute Capital Management, a Cayman Islands-registered hedge fund group he ran out of Palma de Mallorca, Spain. By the mid-2000s, Absolute Capital was managing billions of dollars and had been named Europe's top hedge fund by an industry publication — a track record that, prosecutors would later say, was substantially manufactured.
+
+Regulators allege Homm's funds engaged in "portfolio pumping": coordinating trades of thinly traded penny stocks between his own funds to drive up their prices on paper, making illiquid, often near-worthless positions look like real, growing assets on the funds' books. In September 2007, as questions about those valuations mounted, Homm resigned from Absolute Capital in the middle of the night and disappeared. The fund collapsed shortly afterward, with investor losses estimated at roughly $200 million. The U.S. Securities and Exchange Commission filed civil fraud charges against Homm in 2011, and federal prosecutors in Los Angeles later indicted him on ten counts of securities fraud — a case he has never faced trial on, because he has never been in U.S. custody.
+
+Homm spent more than five years as a fugitive before Italian police arrested him at Florence's Uffizi Gallery in March 2013, acting on the U.S. warrant. Italy's justice ministry approved his extradition, but Homm fought it, was eventually released, and made his way to Germany — which, like the United States and most countries, does not extradite its own citizens. He has lived there openly ever since, giving interviews and writing books about his years on the run, still wanted by the FBI but functionally untouchable inside his home country.
+
+Switzerland pursued him separately, on charges tied to Swiss-based investors and financial dealings, and Swiss courts have proven far more willing to actually put him in a courtroom. A first-instance conviction in 2021 sentenced Homm to 36 months for dishonest business management and forging documents; after an appeal on procedural grounds, the Federal Criminal Court's appeals chamber in Bellinzona substantially increased that sentence in September 2025, convicting him of commercial fraud, serious money laundering, and forgery, and imposing six years and seven months in prison alongside a financial penalty — with the case still open to further appeal to Switzerland's highest court. Homm's case is a study in how unevenly accountability can land across borders: the same conduct has left him a functional untouchable in the country charging him with the largest fraud, a convicted felon under an unresolved sentence in the country that actually tried him, and, for years in between, a free man giving media interviews about the very scheme both were investigating.`,
+  },
+);
+
 // Practical "how it works / red flags / what to do" guides covering the
 // major scam categories, the same kind of coverage the FTC's Consumer
 // Advice site and AARP's Fraud Watch Network publish — well-documented
