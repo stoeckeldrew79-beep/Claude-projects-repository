@@ -42587,6 +42587,41 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'Pseudo-Investment Call-Center Fraud Ring (Ukraine)',
+    slug: 'ukraine-pseudo-investment-call-center-fraud-ring',
+    description: `Ukraine's Cyber Police Department, working with Europol, Eurojust, and police in six other European countries, dismantled a transnational network of fake online investment platforms that had been under investigation since 2020 and that authorities say defrauded people around the world of more than €200 million a year. Sales agents working out of three call centers in Kyiv and Ivano-Frankivsk — part of a wider network of more than 2,000 staff spread across offices in Ukraine, Germany, Spain, Latvia, Finland, Georgia, and Albania — cold-called and messaged prospective investors, offering them accounts on fake trading platforms for cryptocurrency, stocks, bonds, futures, and options. The platforms displayed steadily climbing account balances to convince victims their money was growing and to persuade them to deposit more, but every withdrawal request was delayed, blocked with excuses, or simply ignored. In November 2022, coordinated raids across all seven countries led to the arrest of five individuals in Kyiv and Ivano-Frankivsk on suspicion of organizing the Ukrainian side of the operation, with police seizing more than 500 computers and phones as evidence; each defendant faced up to eight years in prison under Ukraine's fraud statute, and investigators said hundreds of thousands of victims worldwide may have been affected. The case is a reminder that a legitimate broker or exchange never blocks a withdrawal indefinitely or demands an extra "release fee" to access your own money — a dashboard showing rising balances is not proof funds actually exist, and any unsolicited investment offer should be checked against your own country's financial regulator's list of licensed brokers before a single deposit is made.`,
+    categorySlug: 'investment-fraud',
+    country: 'UA',
+    alertLevel: 'high',
+    sources: ['Ukraine Ministry of Internal Affairs / Cyber Police Department', 'Europol', 'Infosecurity Magazine'],
+    sourceUrl: 'https://mvs.gov.ua/news/kiberpoliciya-vikrila-ucasnikiv-transnacionalnoyi-saxraiskoyi-grupi-u-privlasnenni-grosei-soten-tisyac-osib-u-vsyomu-sviti',
+  },
+  {
+    name: 'Facebook Marketplace Banking-Phishing Ring (Ukraine)',
+    slug: 'ukraine-facebook-marketplace-phishing-ring',
+    description: `Europol's European Cybercrime Centre, working with the Ukrainian National Police and Finland's Poliisi, dismantled an organized crime group of nine Ukrainian nationals accused of running a phishing scheme built around Facebook Marketplace. The group targeted people buying and selling on the platform, using phishing pages and messages that imitated Marketplace's own checkout or payment-verification steps to trick victims into typing in their online banking credentials and card details, which the group then used to transfer money out of the victims' accounts directly. On December 19, 2024, Ukrainian authorities carried out ten searches at addresses in Kyiv and Zaporizhzhia, seizing computers and mobile phones containing evidence of the fraud; at the time of the announcement, investigators had confirmed at least 30 victims in Denmark, Finland, Norway, and Hungary, with combined losses exceeding €50,000. A Europol Virtual Command Post let Ukrainian and Finnish investigators share evidence gathered during the house searches with each other in real time as the raids happened. The case illustrates why a payment or "verify your account" link sent through a Marketplace chat should never be trusted at face value — genuine payment and shipping steps happen inside Facebook's own app or website, not through an outside link, and typing banking credentials into any page reached that way is a red flag regardless of how convincing the listing or the other party seemed.`,
+    categorySlug: 'phishing',
+    country: 'UA',
+    alertLevel: 'high',
+    firstRecorded: '2024-12-19',
+    sources: ['Europol', 'Ukrainian National Police'],
+    sourceUrl: 'https://www.europol.europa.eu/media-press/newsroom/news/nine-arrested-in-ukraine-for-running-social-media-phishing-scams',
+  },
+  {
+    name: '"Drone Pyramid" Advance-Payment Fraud Targeting Military Volunteers (Ukraine)',
+    slug: 'ukraine-drone-pyramid-advance-payment-fraud',
+    description: `An investigation published by Ukrainska Pravda on December 8, 2023 exposed a scheme in which a small group of entrepreneurs — including Iryna Prystupa and sole proprietor Olesia Matiakina — took advance payments from volunteers and military units across Ukraine for FPV drones and drone components needed at the front, promising fast delivery at attractive bulk prices. Early orders were filled to build trust, but the operation increasingly worked like a pyramid: money from new orders was used to pay off drones still owed to earlier customers rather than to buy new stock, so the backlog of unfilled orders grew as fast as demand did. Volunteers who checked the serial numbers on drones that were eventually delivered found many had simply been bought retail from ordinary Ukrainian electronics stores rather than imported in bulk from Europe as claimed. Ukrainska Pravda's investigation confirmed at least 559 paid orders from 172 buyers left unfulfilled, worth roughly 49 million hryvnias (about $1.3 million), and estimated that including additional uncorroborated claims from buyers the true total could run to around 84 million hryvnias (about $2.3 million) across nearly 1,000 orders, with only a small fraction of that — a few million hryvnias — ever refunded. Following the reporting, prosecutors opened a criminal case and Ukraine's National Police searched the suspects' properties. The case is a reminder that wartime crowdfunding for military equipment is a magnet for advance-fee fraud precisely because urgency discourages due diligence — a supplier's delivery history, serial numbers on past shipments, and a willingness to use milestone-based or escrow payment should be checked before sending a large bulk payment to any individual seller, however well-vouched-for by earlier buyers.`,
+    categorySlug: 'online-shopping-scams',
+    country: 'UA',
+    alertLevel: 'high',
+    firstRecorded: '2023-12-08',
+    sources: ['Ukrainska Pravda', 'Bihus.Info', 'TSN'],
+    sourceUrl: 'https://www.pravda.com.ua/articles/2023/12/08/7432122/',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
