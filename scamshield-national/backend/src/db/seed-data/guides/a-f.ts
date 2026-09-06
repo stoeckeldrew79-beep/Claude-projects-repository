@@ -4772,4 +4772,22 @@ If you've been treated at a medical practice that uses CareCloud for its records
     coverImagePosition: 50,
     // representative photo of the company's headquarters town, not the breached AWS environment; replace with an exact match if found
   },
+  {
+    title: "The Aura Data Breach: How a Single Phone Call Fooled an Identity-Protection Company Into Handing Over Its Own Customers' Data",
+    slug: "aura-2026-data-breach-guide",
+    author: "ScamShield Editorial",
+    tags: ["guide", "aura-2026-data-breach"],
+    body: `Aura is a Burlington, Massachusetts company that sells the very thing this breach put at risk: identity theft protection, credit monitoring, and online safety subscriptions marketed to families and older adults worried about exactly this kind of incident. In March 2026, Aura disclosed that an unauthorized party had gotten into an internal marketing database — not by exploiting a software bug, but by talking one of Aura's own employees into handing over access.
+
+According to Aura's account of the incident, an attacker placed a targeted phone call to a member of Aura's staff, impersonating someone with a legitimate reason to be granted access, and convinced that employee to let them into a company account. The intruder was in for roughly an hour before being cut off, using that window to pull data out of a marketing platform Aura had inherited from a company it had previously acquired. The cybercriminal group ShinyHunters, which has claimed responsibility for a long string of similar "social engineering" breaches at other well-known companies in 2026, said it was behind this one too.
+
+Aura has said the exposed records covered about 900,000 people and included full names, home addresses, phone numbers, email addresses, and notes from past customer service interactions — but not Social Security numbers, passwords, or payment card information, and not the credit reports or account credentials Aura's core protection service actually manages. The company also noted that most of the affected records came from that older marketing database rather than its active customer base, with fewer than 20,000 current paying subscribers involved. That's a real limit on the damage, but the mix of a real name, home address, phone number, and email address is still exactly what a scammer needs to fake a convincing follow-up call or text — and it's a strange twist for a breach to have started with the exact kind of "trick one employee into giving up access" attack that identity-protection companies exist to help ordinary people guard against.
+
+The larger lesson isn't really about Aura specifically — it's that no company, including ones whose entire business is protecting your identity, is immune to a well-executed social engineering attack, and that acquired marketing databases and other older systems often sit around longer, and get less scrutiny, than a company's primary product. If you're an Aura customer, watch for any breach notification the company sends and don't assume it means your credit monitoring or core account was compromised — read it to see exactly which data was involved before reacting. Be extra cautious of any call, text, or email that already knows your name, address, or phone number and asks you to "verify your Aura account," "confirm a billing issue," or click a link to review your subscription — contact Aura directly through the number or app listed on its official website instead of responding to the message itself. This incident is also a good reminder for anyone, at any company: never grant account access, read out a one-time passcode, or approve a login request in response to an unexpected phone call, no matter how legitimate the caller sounds or how much they seem to already know about you. Anyone who receives a suspicious follow-up message referencing this breach can report it to the FTC at ReportFraud.ftc.gov.`,
+    sourceUrl: "https://cyberinsider.com/identity-protection-firm-aura-suffers-data-breach-exposing-900000-records/",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Telemarketing.JPG?width=1200",
+    coverImageCredit: "Photo: OddibeKerfeld, public domain, via Wikimedia Commons — a phone call center",
+    coverImagePosition: 50,
+    // representative photo — a generic call-center phone call, not the specific vishing incident described; replace with an exact match if found
+  },
 ];
