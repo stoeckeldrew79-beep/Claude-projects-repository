@@ -12452,6 +12452,69 @@ More than a decade later, the case remains unresolved in the way that cross-bord
   },
 );
 
+NOTORIOUS_ARTICLES.push(
+  {
+    title: "Zhimin Qian, the \"Cryptoqueen,\" and the $6.6 Billion Bitcoin Fortune Seized From a Fake Identity",
+    slug: 'zhimin-qian-cryptoqueen-bitcoin-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.cps.gov.uk/cps/news/two-people-imprisoned-their-key-roles-largescale-money-laundering-case',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/City_of_London_skyline_22.12.2019.jpg?width=1200',
+    coverImageCredit: 'Photo: QuintusPetillius, Wikimedia Commons (CC BY-SA 4.0) — the City of London, where Qian was sentenced at Southwark Crown Court',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    body: `Between 2014 and 2017, Zhimin Qian ran an investment platform in China that promised extraordinary returns and drew in roughly 128,000 investors, raising a sum Chinese and UK investigators have since put at around 40 billion yuan — well over $6 billion. Like most classic Ponzi structures, the platform's advertised profits existed mostly on paper; behind the scenes, Qian was steadily converting the swelling pile of investor cash into bitcoin, a currency far easier to move across borders undetected than yuan wired through Chinese banks.
+
+As Chinese authorities began to close in, Qian fled the country around 2017 — reportedly making an initial escape toward the Myanmar border — then worked her way through Southeast Asia and Europe on forged travel documents before settling in the United Kingdom under a fabricated identity, "Yadi Zhang." There she spent years living an outwardly lavish life, leasing multimillion-pound homes and attempting to buy property in London and Dubai, all while sitting on a cryptocurrency fortune extracted from thousands of ordinary Chinese savers who believed their money was earning legitimate returns.
+
+An unrelated 2018 police investigation eventually led UK's National Crime Agency to the trail of devices holding Qian's cryptocurrency. When officers finally moved in, they recovered roughly 61,000 bitcoin — worth about £5.5 billion, or $6.6 billion, by the time of sentencing — making it the largest single cryptocurrency seizure in UK law enforcement history and among the largest anywhere in the world. Qian was arrested in April 2024 after years spent evading detection under her assumed name.
+
+Qian pleaded guilty to two offences of acquiring, using, or possessing criminal property and was sentenced at Southwark Crown Court on November 11, 2025, to 11 years and 8 months in prison. Because the underlying fraud was committed against victims in China and no ordinary UK criminal-restitution process applied, prosecutors pursued the seized bitcoin through civil recovery proceedings instead, aiming to eventually return as much of the fortune as possible to the defrauded Chinese investors — a novel cross-border effort to claw back money from a scheme built specifically to make it disappear.
+
+The case illustrates how far a Ponzi scheme's proceeds can travel once converted into cryptocurrency: a fraud committed against ordinary savers in provincial China ended, nearly a decade later, in a London courtroom and one of the largest crypto-forfeiture proceedings any government has pursued — proof that laundering money through bitcoin doesn't make it vanish, it just makes it slower and harder to trace back to where it came from.`,
+  },
+  {
+    title: 'Lee Jong-pil and the $1.4 Billion Hedge Fund Fraud That Shook Lime Asset Management',
+    slug: 'lee-jong-pil-lime-asset-management-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.koreaherald.com/article/2548859',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/IFC_Seoul.jpg?width=1200',
+    coverImageCredit: 'Photo: Kimahrikku, Wikimedia Commons (CC BY-SA 4.0) — the IFC Seoul complex in Yeouido, Seoul\'s financial district',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    body: `Lime Asset Management grew, in just a few years, into South Korea's largest hedge fund manager, overseeing roughly 5.7 trillion won (about $4.7 billion) in investor money by 2019 — much of it channeled through 173 separate feeder funds that major banks and brokerages sold to retail customers, including many retirees, as steady, low-risk products. Behind that growth, prosecutors later found, sat a very different reality: four master funds loaded with illiquid, high-risk mezzanine and convertible bonds issued by struggling companies, many of them tied to a single embattled financier, Kim Bong-hyun.
+
+Lee Jong-pil, Lime's chief investment officer and vice president, was the executive prosecutors said kept the operation running even as it broke down from the inside. According to the Seoul Southern District Court, Lee knew that at least one of the firm's master funds was deeply loss-making well before the public did, yet continued directing sales staff to keep selling the product to new investors while its true performance was concealed — letting Lime paper over redemption requests with fresh money from people who had no idea what they were actually buying into.
+
+The scheme unraveled in July 2019, when Lime abruptly suspended redemptions across its funds, trapping roughly 1.6 trillion won belonging to tens of thousands of investors. Regulators later found that two of the funds alone had lost as much as 634 billion won, or around 40% of investors' principal, and South Korea's Financial Services Commission moved to revoke Lime's business registration entirely over what it called deliberate concealment of losses and misleading disclosure. Separately, Lee was accused of helping broker an 83.6 billion won embezzlement from a Lime portfolio company, a display-equipment maker called Leed, in coordination with that company's own vice chairman.
+
+Lee evaded arrest for a period in 2020 before finally being taken into custody, and went to trial alongside Lime's founder and CEO, Won Jong-jun, who received a three-year sentence, while Kim Bong-hyun faced separate charges over the corporate raids that had fed money into Lime's portfolios. On January 29, 2021, the Seoul Southern District Court convicted Lee and sentenced him to 15 years in prison, along with a 4 billion won fine (about $3.57 million) and forfeiture of 1.4 billion won, finding that he had been "deeply and actively involved" in selling a product he knew to be failing.
+
+The fallout from Lime's collapse extended well past Lee's own sentence: South Korean regulators went on to fine and sanction the banks and brokerages that had distributed Lime's funds to retail customers without adequately disclosing the risk, and litigation over investor compensation was still working its way through Korean courts years later. The case became a landmark in Korean financial regulation for a familiar reason — a hedge fund's reported size and track record turned out to depend entirely on how honestly its own managers were willing to describe losses that, for a long time, only they could see.`,
+  },
+  {
+    title: 'Anatoly Legkodymov and the Bitzlato Exchange That Moved $700 Million for the Dark Web',
+    slug: 'anatoly-legkodymov-bitzlato-money-laundering',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-edny/pr/founder-and-majority-owner-cryptocurrency-exchange-pleads-guilty-unlicensed-money',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Hong_Kong_Night_Skyline.jpg?width=1200',
+    coverImageCredit: 'Photo: Base64, Wikimedia Commons (CC BY-SA 3.0) — Hong Kong, where Legkodymov\'s exchange Bitzlato was registered',
+    coverImagePosition: 60,
+    // representative photo — replace with a portrait if found
+    body: `Anatoly Legkodymov, a Russian national who ran his business largely out of China, built Bitzlato into a cryptocurrency exchange that marketed itself around minimal identity checks — a "no KYC" pitch that made it popular with ordinary retail users in Russia and China but, according to US prosecutors, also made it the exchange of choice for some of the internet's most active criminal marketplaces. Registered in Hong Kong but operated day to day from Shenzhen, Bitzlato processed cryptocurrency transactions with far less anti-money-laundering scrutiny than exchanges regulated in the United States or Europe were required to perform.
+
+US prosecutors say Bitzlato's most significant counterparty was Hydra Market, at the time the largest darknet marketplace in the world, hosting vendors who sold drugs, stolen data, and money-laundering services until German and American law enforcement seized its servers in April 2022. According to the Justice Department, users of Hydra Market and other criminal services exchanged more than $700 million in cryptocurrency with Bitzlato before that shutdown, and the exchange separately received more than $15 million in traceable ransomware payments — activity that, prosecutors alleged, Legkodymov was aware of and chose not to act on.
+
+The Justice Department and Treasury Department moved against Bitzlato in a coordinated international operation on January 18, 2023, that included French authorities arresting several of the exchange's other administrators while European partners disrupted its infrastructure across multiple countries simultaneously. American agents arrested Legkodymov the same day in Miami and charged him with operating an unlicensed money-transmitting business — a lower bar for prosecutors than a substantive money-laundering charge, but one that let them reach a defendant whose company had never knowingly set foot in US-regulated territory.
+
+Legkodymov pleaded guilty in December 2023, and in July 2024 a federal judge in Brooklyn sentenced him to time served — the roughly eighteen months he had already spent in pretrial detention — rejecting prosecutors' request for a longer term after his lawyers described conditions at the facility holding him as inhumane. He walked free, but not entirely clear of legal exposure: French prosecutors have separately sought his extradition on related charges carrying up to twenty years, and in 2025 his legal team publicly asked the White House for a pardon of his US conviction, a request that remained unresolved.
+
+Bitzlato's prosecution became a template for a newer kind of crypto-crime case, one aimed not at the dark-web vendors themselves but at the exchange that let their money move. Regulators argued that advertising minimal identity checks as a selling point isn't a neutral technology choice; it's a business model, and licensing requirements exist specifically to make that business model illegal.`,
+  },
+);
+
 // Practical "how it works / red flags / what to do" guides covering the
 // major scam categories, the same kind of coverage the FTC's Consumer
 // Advice site and AARP's Fraud Watch Network publish — well-documented
