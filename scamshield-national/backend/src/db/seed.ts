@@ -1758,8 +1758,8 @@ Garza's case is a reminder that a fraud doesn't need a new legal framework to be
     title: 'Renwick Haddow: The Fugitive Behind Bar Works and a CEO Who Never Existed',
     slug: 'renwick-haddow-bar-works-bitcoin-store-fraud',
     author: 'ScamShield Editorial',
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Daniel_Patrick_Moynihan_U.S._Courthouse,_Manhattan,_New_York_(7237347688).jpg?width=1200',
-    coverImageCredit: 'Photo: Ken Lund (CC BY-SA 2.0)',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Gold_Physical_Bitcoins.jpg?width=1200',
+    coverImageCredit: 'Photo: Bits86, Wikimedia Commons (CC0) — physical bitcoin coins, representing Haddow\'s Bitcoin Store fraud',
     coverImagePosition: 50,
     // representative photo — replace with a portrait if found
     tags: ['notorious', 'notorious-scammer'],
