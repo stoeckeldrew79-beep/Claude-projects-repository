@@ -4662,4 +4662,22 @@ If you've ever contacted Adidas customer support, treat any unexpected email or 
     coverImagePosition: 50,
     // representative photo — a Chanel storefront, not the specific vendor platform that was breached; replace with an exact match if found
   },
+  {
+    title: "The Dior Data Breach: How a Vished Salesforce Login Exposed Customers' Purchase History Across the Globe",
+    slug: "dior-2025-data-breach-guide",
+    author: "ScamShield Editorial",
+    tags: ["guide", "dior-2025-data-breach"],
+    body: `Christian Dior discovered on May 7, 2025 that an unauthorized outside party had been inside a system holding customer data since roughly four months earlier. The company said the intruder was able to view customers' full names, email addresses, mailing addresses, phone numbers, purchase histories, and marketing preferences. Dior was clear about what it says was not exposed: no credit card numbers, no bank account numbers (IBANs), and no passwords, since that kind of payment and login information simply wasn't stored in the system that was accessed.
+
+The break-in didn't involve hacking Dior's website or stealing a database password. Investigators say attackers called Dior employees pretending to be internal IT support — a technique known as vishing, or voice phishing — and talked them through connecting a rebranded, malicious version of a legitimate data-transfer tool to the company's Salesforce customer-management system. Once that connection was approved, the attackers could pull customer records straight out of the platform, no software exploit or stolen password required. Dior was one of a long list of major retailers and luxury houses hit by the same technique in the same stretch of 2025 — including Louis Vuitton, Tiffany & Co., Chanel, Cartier, Adidas, Google, and Qantas — in a campaign researchers have tied to a group tracked as UNC6040 and often associated with the name ShinyHunters. In South Korea, privacy regulators later fined Dior alongside Louis Vuitton and Tiffany a combined $25 million over how the companies handled and protected the exposed customer data.
+
+Purchase history might seem harmless next to a stolen card number, but for a scammer building a convincing follow-up con, it's valuable material. Knowing that someone is a real Dior customer, has a real mailing address on file, and has genuine marketing preferences on record lets a scammer craft a phishing email or text that references an actual order, a "loyalty reward," or a "shipping update" — details specific enough to get past the skepticism a generic scam message would trigger. Regulators and security researchers who tracked this campaign specifically warned that breaches like this one are reliably followed by a second wave of impersonation emails and texts that borrow the breached brand's name because it will sound legitimate to someone who really has shopped there.
+
+Anyone who has ever bought from or registered with Dior should treat unexpected emails, texts, or phone calls referencing the brand with caution, especially messages asking to "verify your account," "confirm a recent purchase," or click a link to track a shipment. Go directly to Dior's official website or app, or call a boutique using a number you look up yourself, rather than trusting contact information provided in the message itself. Because your name, address, and phone number were exposed together, watch for any suspicious call or text that combines those accurate details with a request for a one-time login code, a payment, or a gift card — that mix of real personal information and urgency is a hallmark of a targeted follow-up scam, not a sign the message is legitimate. No passwords or financial account numbers were reported stolen in this incident, but any phishing attempt that references this breach can still be reported to the FTC at ReportFraud.ftc.gov.`,
+    sourceUrl: "https://www.thefashionlaw.com/dior-dodges-data-breach-lawsuits-tied-to-salesforce-hack/",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Christian_Dior,_30_Avenue_Montaigne,_Paris_2016.jpg?width=1200",
+    coverImageCredit: "Photo: Frédéric Bisson, CC BY 2.0, via Wikimedia Commons — the Christian Dior boutique at 30 Avenue Montaigne, Paris",
+    coverImagePosition: 50,
+    // representative photo — a Dior boutique, not the specific Salesforce system that was breached; replace with an exact match if found
+  },
 ];
