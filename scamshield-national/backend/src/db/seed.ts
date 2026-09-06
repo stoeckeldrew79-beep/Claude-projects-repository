@@ -11991,6 +11991,69 @@ Opes Prime remains one of Australia's clearest illustrations of how a securities
   },
 );
 
+NOTORIOUS_ARTICLES.push(
+  {
+    title: 'Quentin T. Wiles and the MiniScribe Fraud That Shipped Bricks Instead of Hard Drives',
+    slug: 'quentin-wiles-miniscribe-brick-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://en.wikipedia.org/wiki/MiniScribe',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Longmont_Colorado.JPG?width=1200',
+    coverImageCredit: 'Photo: David Shankbone, Wikimedia Commons (CC BY 3.0) — downtown Longmont, Colorado, the small city where MiniScribe was headquartered during the fraud',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    body: `Quentin T. Wiles was brought in as chairman and chief executive of MiniScribe in 1985 with a reputation as a corporate turnaround specialist, tasked with restoring growth at a Longmont, Colorado-based maker of hard disk drives that had gone public a few years earlier and was now caught in a brutal price war among disk-drive manufacturers. Wiles pushed the company hard to keep hitting the ambitious quarterly growth numbers Wall Street had come to expect, and when a January 1987 internal review turned up an inventory shortfall of several million dollars, MiniScribe's executives chose to hide the gap rather than report it.
+
+What followed became one of the most literal accounting frauds ever documented. To make reported inventory match the books, managers packed bricks — cut to roughly the size and weight of an actual hard drive — into disk-drive shipping boxes and sent tens of thousands of them to distributors just before the close of a quarter, booking the shipments as real sales revenue; a later investigation found the company had shipped around 26,000 brick-filled boxes to keep the fraud from being caught during a warehouse inventory count. The scheme extended beyond the bricks: MiniScribe also recorded goods shipped to distributors on a "guaranteed sale or return" basis as final revenue, understated its cost of goods, and shuffled inventory between facilities to stay ahead of auditors, overstating the company's 1987 net income by roughly $22 million once the fabrication across its U.S. and Asian operations was fully tallied.
+
+The fraud unraveled in 1989, when a wave of returned, defective, and outright fake product finally overwhelmed the company's ability to keep the numbers straight, and an independent investigation commissioned by MiniScribe's own board — after news reports and short-sellers had begun raising questions — concluded the company had engaged in what its own report called "massive fraud." MiniScribe restated its financial results, its stock collapsed, and the company filed for Chapter 11 bankruptcy protection in January 1990 before its assets were eventually sold off. In a 1992 civil settlement, former MiniScribe executives, venture-capital firm Hambrecht & Quist, and accounting firm Coopers & Lybrand agreed to pay a combined $128.1 million to the company's defrauded creditors and shareholders.
+
+Criminal accountability came slower. A federal jury convicted Wiles in 1994 on charges of securities fraud for his role directing the scheme, and he was sentenced to 36 months in federal prison along with a $60,000 fine; former MiniScribe chief financial officer Patrick J. Schleibaum was convicted on related charges the same year and sentenced to 24 months and a $6,000 fine. The Securities and Exchange Commission pursued parallel civil charges against Wiles, Schleibaum, and other MiniScribe officers over the false financial statements filed with regulators throughout the fraud.
+
+MiniScribe's brick scheme remains a staple case study in corporate-fraud and auditing courses precisely because of how physical and improvised it was — a warning, decades before "channel stuffing" and "cookie-jar reserves" became familiar terms in far more sophisticated accounting scandals, that the gap between what a company reports and what it actually has can be papered over with almost anything, including literal masonry, for as long as nobody with the authority to stop it is willing to ask what's actually inside the boxes.`,
+  },
+  {
+    title: 'Stephen Gardner and the $509 Million Peregrine Systems Accounting Fraud',
+    slug: 'stephen-gardner-peregrine-systems-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://voiceofsandiego.org/2008/12/11/former-peregrine-ceo-gets-8-years/',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/San_Diego_skyline_18.jpg?width=1200',
+    coverImageCredit: 'Photo: Boatguy619, Wikimedia Commons (CC BY-SA 4.0) — the San Diego skyline, home to Peregrine Systems during the fraud',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    body: `Peregrine Systems, a San Diego-based maker of enterprise "asset management" software, rode the dot-com boom to a peak market capitalization of roughly $9 billion and annual sales topping $500 million by 2000, expanding aggressively through acquisitions and positioning itself as one of the software industry's fastest-growing companies. Stephen Gardner, who rose to chairman and chief executive during that period, presided over a business whose reported growth was, to a substantial degree, manufactured rather than earned.
+
+Between April 1999 and early 2002, Peregrine executives inflated the company's revenue by roughly $509 million and understated its losses by billions more, using a set of interlocking tricks: keeping the books open for days or weeks after each quarter officially closed so late-arriving deals could be counted as if they'd closed on time, booking revenue from resellers and channel partners on contracts that included secret side agreements letting those partners return unsold product, recognizing revenue on deals that depended on Peregrine itself providing customers with cash, equity, or free services to get them to sign, and tapping accounting reserves to smooth over earnings whenever the real numbers fell short of Wall Street's expectations. Gardner personally negotiated a $150 million line of credit for the company using financial data he knew to be false, exercised roughly $14 million in stock options while aware the share price was artificially inflated, and later lied to Securities and Exchange Commission investigators about what he knew — conduct prosecutors said made him responsible for close to $250 million of the fraudulent revenue booked between 1999 and 2001.
+
+The fraud collapsed in 2002 after Peregrine disclosed accounting irregularities and restated eleven quarters of financial results, wiping out more than $507 million in previously reported revenue; the company filed for Chapter 11 bankruptcy protection that September, laying off roughly 1,400 employees, before emerging from bankruptcy in 2003 and eventually being sold to Hewlett-Packard in 2005 for $425 million — a fraction of its dot-com-era valuation. A federal grand jury in San Diego indicted Gardner and seven other former Peregrine executives, along with a KPMG Consulting managing director who had audited the company's books, in October 2004, part of a broader case that eventually charged eighteen people. Most of Gardner's co-defendants, including former chief financial officer Matthew Gless and former vice president of sales Steven Spitzer, pleaded guilty and cooperated with prosecutors.
+
+Gardner held out longer than most, but pleaded guilty in March 2007 to conspiracy, securities fraud, and obstruction of justice. A federal judge sentenced him in December 2008 to eight years and one month in prison — a term reduced from what he otherwise faced in recognition of his guilty plea, though notably harsher than several of his cooperating co-defendants received — and ordered him to forfeit more than $1.3 million in real estate and brokerage assets. Gardner died of a heart attack in July 2013 while still in federal custody at FCI Cumberland, having served roughly five years of his sentence.
+
+Peregrine's collapse cost shareholders more than $3 billion and remains one of the largest software-industry accounting frauds on record, a case study in how "keeping the books open" — an innocuous-sounding bit of accounting flexibility — can, applied aggressively and repeatedly enough, become indistinguishable from simply inventing the numbers a public company reports to the people deciding whether to invest in it.`,
+  },
+  {
+    title: 'Raffaello Follieri and the Fake Vatican Connection That Funded a Jet-Set Fraud',
+    slug: 'raffaello-follieri-vatican-real-estate-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://en.wikipedia.org/wiki/Raffaello_Follieri_scandal',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/St._Peter%27s_Basilica_Rome_-_20140808_2350.jpg?width=1200',
+    coverImageCredit: "Photo: Jakub Halun, Wikimedia Commons (CC BY-SA 4.0) — St. Peter's Basilica in Vatican City, the institution whose name Follieri invoked to defraud investors",
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    body: `Raffaello Follieri arrived in New York from Foggia, Italy, in the early 2000s and built the Follieri Group around a pitch that sounded almost too specific to be invented: he claimed close personal ties to the Vatican gave him privileged access to buy surplus Catholic Church properties across the United States — shuttered convents, monasteries, and church-owned real estate — at steep discounts, which he could then redevelop and resell for large profits. Prosecutors later said Follieri backed the story with fabricated documents, including a letter he showed to at least one business contact purporting to have been written to him personally by Pope John Paul II, and that his actual "Vatican connection" amounted to a single administrative employee at the Vatican whom he paid for introductions.
+
+The pitch worked on serious money. Follieri persuaded Ron Burkle's private equity firm, Yucaipa Companies, to put more than $55 million into the Follieri Group starting in 2004, and prosecutors said he paid a former White House aide $400,000 simply to arrange the introduction to Burkle that made the investment possible. Follieri used the credibility that came with backing from a major investor to raise money from others while using investor funds — the government said at least $2.4 million was traced to personal accounts disguised as business accounts, out of an estimated $6 million spent improperly overall — to fund a lifestyle built around private jets, luxury hotels, chartered yachts, and a Manhattan apartment costing roughly $37,000 a month. His two-year, high-profile relationship with actress Anne Hathaway, who was not implicated in the fraud, made him a fixture of gossip coverage even as investors' money was quietly being diverted.
+
+The scheme fell apart in 2007 and 2008 as Yucaipa and other investors grew unable to verify the property deals Follieri claimed were closing, and federal prosecutors in Manhattan charged him with conspiracy, wire fraud, and money laundering. Follieri pleaded guilty in September 2008, admitting he had misappropriated investor money and disguised the transfers, and a federal judge sentenced him in October 2008 to four and a half years in prison.
+
+Follieri was released from federal prison in Pennsylvania in May 2012 and immediately deported to Italy by U.S. immigration authorities, permanently barred from returning to the United States. He has since said publicly that he wished Hathaway well and intended to rebuild his life in Italy, a considerably quieter ending than the private-jet, Vatican-invoking persona that had briefly made him one of New York's most talked-about young financiers.
+
+Follieri's case is a reminder that an affinity con doesn't require a real affiliation with the institution being invoked — only a story specific and audacious enough that sophisticated, well-resourced investors assume someone else already checked it, and a target, in this instance the Catholic Church's own moral authority, that made skepticism feel almost impolite to voice out loud.`,
+  },
+);
+
 // Practical "how it works / red flags / what to do" guides covering the
 // major scam categories, the same kind of coverage the FTC's Consumer
 // Advice site and AARP's Fraud Watch Network publish — well-documented
