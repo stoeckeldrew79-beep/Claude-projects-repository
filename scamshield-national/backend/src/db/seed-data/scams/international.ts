@@ -8776,6 +8776,36 @@ Egypt's Ministry of Interior announced on February 24, 2025, that it had arreste
     sourceUrl: 'https://brujuladigital.net/economia/2026/04/22/asfi-alerta-sobre-web-fraudulenta-que-suplanta-su-identidad-para-captar-dinero-de-forma-ilegal-59814',
     country: 'BO',
   },
+  {
+    name: '"Professor Mike" HV IJEX Crypto Ponzi Collapse',
+    slug: 'venezuela-hv-ijex-crypto-ponzi-collapse',
+    description: `HV IJEX marketed itself across Venezuela and neighboring Colombia as a global cryptocurrency investment hub, claiming to operate in 52 countries and lending credibility with a physical "Coffee HV Business Center" it opened in Maturín, Venezuela in February 2025. Promoted heavily online by a figure known as "Professor Mike," the platform recruited depositors with promises that their cryptocurrency would be multiplied within just 40 days — a payout timeline typical of a Ponzi scheme rather than any real trading or investment strategy. On April 9, 2025, HV IJEX abruptly suspended withdrawals and began demanding additional "verification fund" deposits before users could access their own balances; when investors paid those extra fees, they were met only with error messages showing accounts already emptied. By April 14, 2025 the platform's website and apps went dark entirely, and Venezuelan authorities dismantled the Maturín operations center the very next day. Attorney General Tarek William Saab announced that Fiscalía 24 Nacional had opened a formal investigation, with prosecutors estimating roughly 80,000 people across Venezuela and Colombia lost access to their funds and describing the case as a potential regional precedent for prosecuting cryptocurrency fraud. Consumers are advised to treat any platform promising a fixed, guaranteed multiplication of crypto deposits within a set number of days as a Ponzi scheme regardless of the marketing polish or physical offices behind it, and to remember that legitimate investment returns are never guaranteed and never require paying an extra "verification" fee to unlock money already deposited.`,
+    categorySlug: 'ponzi-pyramid-schemes',
+    alertLevel: 'critical',
+    sources: ['Fiscalía General de la República (Venezuela)', 'Criptonoticias'],
+    sourceUrl: 'https://www.criptonoticias.com/sucesos/fiscalia-venezuela-investigara-hvijex-estafa/',
+    country: 'VE',
+  },
+  {
+    name: 'Counterfeit "Recovered" USDT Fund-Recovery Scam',
+    slug: 'venezuela-counterfeit-recovered-usdt-fund-recovery-scam',
+    description: `Venezuelans who already lost money to a cryptocurrency scam have been targeted a second time by fraudsters posing as a legal "fund recovery" service that claims it can retrieve what was stolen. In one documented case, a Venezuelan-American who had lost money to a 2023 Ponzi scheme was contacted by a supposed recovery platform that, as proof the money had been retrieved, transferred 32,000 tokens labeled USDT directly into his wallet — tokens that appeared completely legitimate in the wallet's interface, showing the right name and the right balance. Only when he tried to actually move the funds did the transaction fail with an "address without funds" error, because the tokens were counterfeit: contracts deployed on the Ethereum or BNB Chain networks that copy Tether's name and metadata to look identical inside a wallet app while carrying no real value at all, since most wallet interfaces display a token's name rather than verifying its underlying smart-contract address. Blockchain investigator Ernesto Portillo of CriptoJuris traced the fake tokens on-chain using explorers such as Etherscan, which flagged them as counterfeit, and that forensic evidence was ultimately filed with the FBI's Internet Crime Complaint Center (IC3) in early 2026. Anyone contacted after a prior crypto loss by a person or platform claiming they can "recover" the funds should independently verify any tokens received by checking the contract address on a blockchain explorer rather than trusting the name and balance shown in a wallet app, and should treat any unsolicited recovery offer — especially one that requires further payments or "release" transfers first — as a near-certain second scam targeting the same victim.`,
+    categorySlug: 'cryptocurrency-scams',
+    alertLevel: 'high',
+    sources: ['CriptoJuris', 'Criptonoticias', 'FBI Internet Crime Complaint Center (IC3)'],
+    sourceUrl: 'https://www.criptonoticias.com/sucesos/usdt-falso-salto-wallet-venezolana-oficinas-fbi/',
+    country: 'VE',
+  },
+  {
+    name: 'Fake "Carnet de la Patria" QR Bonus Activation Scam',
+    slug: 'venezuela-carnet-de-la-patria-qr-bonus-activation-scam',
+    description: `The Venezuelan Institute of Social Security (IVSS) issued an alert on April 7, 2026 warning pensioners and Sistema Patria users about scammers operating through fake institutional profiles on WhatsApp, Telegram, and social media. The main scheme falsely promises that scanning or sending a photo of the QR code printed on a person's Carnet de la Patria — Venezuela's national identity card used to access state bonuses and subsidies — to a "government representative" will "activate" additional bonuses or increase the amount of benefits already assigned. In reality the QR code is strictly personal, and IVSS stressed that Sistema Patria benefits are assigned automatically and directly by the system, with no external activation step of any kind — anyone who shares the code risks a stranger using it to access their own benefit account. The same alert flagged two related scams spreading through counterfeit institutional accounts: fake promotions offering special credit lines for women through the state-run Banco de Venezuela, and false claims that recipients had been awarded the "Cultores Populares 2026" cultural benefit, both designed to harvest personal data and documentation from people who respond. IVSS stated plainly that all bonus, credit, or prize promotions relating to the Sistema Patria or Banco de Venezuela that circulate on social media are scams, and that legitimate transactions occur only through the official Patria platform website and verified institutional accounts. Consumers are advised to never scan, photograph, or share their Carnet de la Patria QR code with anyone claiming to need it for "activation," to disregard any benefit or credit promotion arriving through WhatsApp, Telegram, or an unverified social media page, and to confirm any claimed benefit only through the official government platform directly.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'high',
+    sources: ['Instituto Venezolano de los Seguros Sociales (IVSS)', 'El Diario'],
+    sourceUrl: 'https://eldiario.com/2026/04/07/ivss-alerto-estafas-redes-sociales-promociones-banco-de-venezuela-sistema-patria/',
+    country: 'VE',
+  },
 ];
 
 International.push(
