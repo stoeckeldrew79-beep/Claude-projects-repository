@@ -45845,6 +45845,42 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'Manatee County FTC/FBI Impersonation Elder Fraud Courier Network',
+    slug: 'florida-manatee-county-elder-fraud-courier-network',
+    description: `In July 2025, a Manatee County resident grew suspicious after a caller claiming to be with the Federal Trade Commission warned him he would miss jury duty and face arrest unless he paid a fine immediately; when a courier arrived at his home to collect cash, he photographed her and her car and called the Manatee County Sheriff's Office, unraveling a criminal network that had already stolen more than $3.5 million from at least 40 victims statewide. Investigators say callers posing as FTC or FBI agents combined fabricated jury-duty warrants, threats of imminent arrest, and fake iCloud payment alerts to panic elderly victims into believing they owed money immediately, then directed them to withdraw cash or buy cryptocurrency and hand it to a courier — often an unwitting rideshare driver or a paid pickup runner — rather than wiring funds through a bank that might flag the transaction. Xin Liu, 40, of Apopka, drove to at least six locations around the state between July 22 and July 30, 2025, including a Gainesville assisted-living community, collecting more than $95,000 in a single week before detectives traced her through the photographed license plate; she was sentenced to 27 months in federal prison for scheme to defraud. Two additional couriers, ages 52 and 56, were later arrested on related scheme-to-defraud and conspiracy charges as the investigation continued. "Take that pause, hang up the phone... Do verification first. Contact family, law enforcement," Manatee County Sheriff's Office Detective Gary Cummings advised, noting that no legitimate government agency demands cash, gift cards, or cryptocurrency handed to a stranger at your door to avoid arrest.`,
+    categorySlug: 'government-impersonation',
+    country: 'US',
+    state: 'FL',
+    alertLevel: 'high',
+    sources: ['Manatee County Sheriff\'s Office', "U.S. Attorney's Office, Northern District of Florida", 'FOX 13 Tampa Bay'],
+    sourceUrl: 'https://www.fox13news.com/news/manatee-county-detectives-dismantle-3-5m-criminal-network-targeting-elderly-residents',
+  },
+  {
+    name: 'NJ $100 Utility Bill Credit Sign-Up Scam',
+    slug: 'new-jersey-100-bill-credit-utility-scam',
+    description: `The New Jersey Board of Public Utilities (NJBPU) issued a consumer alert on August 28, 2025 warning that scammers were exploiting a real $430 million relief program — the $100 Residential Universal Bill Credit (RUBC), automatically applied to the accounts of all 3.9 million residential electric customers served by the state's four major utilities in two $50 installments on their September and October bills — to steal money and personal information. Fraudsters called or texted customers posing as utility representatives and falsely claimed they needed to "sign up," "verify eligibility," or provide a credit card or bank account number to receive the credit, when in fact the RUBC requires no enrollment or action of any kind and is applied automatically to every eligible account. The NJBPU stressed that no utility representative will ever call unprompted to request personal or financial information in connection with the credit, which was created to offset rising costs driven by increased capacity prices in the PJM regional wholesale electricity market. Residents who receive a suspicious call, text, or email about the bill credit are advised not to provide any personal or financial information, to hang up and call their utility directly using the number on a past bill to confirm their account status, and to report the contact to the NJBPU Customer Assistance Division at 1-800-624-0241.`,
+    categorySlug: 'utility-scams',
+    country: 'US',
+    state: 'NJ',
+    alertLevel: 'medium',
+    sources: ['New Jersey Board of Public Utilities'],
+    sourceUrl: 'https://www.nj.gov/bpu/newsroom/2025/approved/20250828.html',
+  },
+  {
+    name: 'Bitcoin ATM "Protect Your Money" Government Imposter Scam',
+    slug: 'pennsylvania-bitcoin-atm-government-imposter-scam',
+    description: `Pennsylvania Attorney General Dave Sunday issued a consumer alert on February 25, 2025 warning of a sharp rise in scams that funnel victims' cash through Bitcoin ATMs, or "BTMs" — freestanding kiosks, increasingly common in gas stations and convenience stores, that convert cash deposits into cryptocurrency. Scammers, who often already possess a victim's bank or personal information from a prior data breach, call or text posing as a bank fraud department, law enforcement agency, or government office and warn the victim their money is at risk or that they face impending criminal charges unless they act immediately to "protect" their funds. Under that pressure, victims are coached to withdraw large sums of cash, drive to a nearby Bitcoin ATM, deposit the cash, and then scan a QR code the caller supplies — a step that instantly routes the newly purchased cryptocurrency into a wallet the scammer controls, after which the transaction is irreversible and the funds are effectively unrecoverable. Attorney General Sunday's office warned residents never to click links in unexpected texts or emails, never to respond directly to an unsolicited call demanding urgent action, never to withdraw cash because a caller told them to, and never to trust any supposed business or government agency that asks to be paid in cryptocurrency. Pennsylvanians who believe they have been targeted can contact the Office of Attorney General's Bureau of Consumer Protection at 1-800-441-2555 or scams@attorneygeneral.gov.`,
+    categorySlug: 'government-impersonation',
+    country: 'US',
+    state: 'PA',
+    alertLevel: 'high',
+    sources: ['Pennsylvania Office of Attorney General', 'WPXI', 'Coinspeaker'],
+    sourceUrl: 'https://www.attorneygeneral.gov/taking-action/ag-sunday-warns-pennsylvanians-of-rise-in-scams-involving-bitcoin-atms/',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
