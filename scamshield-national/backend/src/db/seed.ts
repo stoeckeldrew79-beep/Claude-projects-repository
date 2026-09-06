@@ -21187,6 +21187,48 @@ The OPM breach is a different kind of cautionary tale than a criminal data theft
   },
 );
 
+GUIDE_ARTICLES.push(
+  {
+    title: `The Home Depot Data Breach: How a Stolen Vendor Password Exposed 56 Million Payment Cards and Led to $62 Million in Settlements`,
+    slug: 'home-depot-2014-data-breach-settlement-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'home-depot-data-breach-settlement'],
+    sourceUrl: 'https://www.texasattorneygeneral.gov/news/releases/ag-paxton-announces-175-million-settlement-home-depot-regarding-data-breach',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/The_Home_Depot_-_Store_(28026779519).jpg?width=1200',
+    coverImageCredit: 'Photo: Tony Webster, CC BY 2.0, via Wikimedia Commons — a Home Depot store, the retailer whose checkout systems were breached in 2014',
+    coverImagePosition: 50,
+    body: `Sometime around April 2014, hackers slipped into Home Depot's network using network credentials stolen from Fazio Mechanical Services, a small Pennsylvania company that supplied and serviced refrigeration equipment for the retailer's stores. Those credentials alone weren't enough to reach the payment systems, but the attackers used them as a foothold, then exploited a Windows vulnerability to escalate their access and work their way across Home Depot's internal network until they reached the self-checkout terminals used in roughly 2,200 U.S. and Canadian stores. There they installed custom-built malware, similar in design to the "BlackPOS" software used against Target only months earlier, that quietly copied payment card data as customers swiped at self-checkout.
+
+The intrusion ran undetected for about five months. Home Depot only began investigating in early September 2014, after banks and journalist Brian Krebs noticed a fresh batch of stolen card numbers appearing for sale on cybercrime forums and traced the common thread back to Home Depot purchases. The company confirmed the breach publicly on September 8, 2014, and by November disclosed the full scope: approximately 56 million payment card numbers stolen between April and September, along with a separate cache of 53 million customer email addresses (without passwords) lifted from a different part of the network. At the time, it stood alongside the Target breach as one of the largest retail card-data thefts in U.S. history.
+
+Home Depot moved to accelerate its rollout of chip-and-PIN payment terminals and encrypted its point-of-sale data end-to-end in the breach's aftermath, but the financial reckoning played out over years. In 2016, the company agreed to pay $19.5 million to settle a consumer class action, funding a reimbursement pool for documented losses and roughly a year and a half of free credit monitoring. In March 2017, Home Depot agreed to pay banks and credit unions that had reissued cards and absorbed fraud losses another $25 million, on top of more than $134.5 million it had already paid directly to Visa, Mastercard, and card-issuing banks under the networks' own breach-recovery assessments — pushing the company's total known breach costs above $179 million.
+
+The states weighed in last. In November 2020, Home Depot agreed to pay $17.5 million to settle a multistate investigation led by 46 state attorneys general and the District of Columbia, which found the company's data security practices had been inadequate to protect the payment card information of tens of millions of customers. Beyond the payment, the settlement required Home Depot to maintain a written information security program, encrypt payment card data, segment its network so a breach in one system couldn't cascade into others, and use multi-factor authentication for remote network access — the same categories of basic controls, notably, that a vendor's stolen password had blown straight through in 2014.
+
+The Home Depot breach is a reminder that a company's own security can only be as strong as its least-scrutinized outside connection: a small HVAC contractor's credentials, likely obtained through a separate phishing attack the vendor never even disclosed publicly, ultimately opened the door to a nationwide theft of card data. Anyone who shopped at Home Depot with a credit or debit card between April and September 2014 should still watch statements for unfamiliar charges, and can report suspected fraud or identity theft at IdentityTheft.gov.`,
+  },
+  {
+    title: `The First American Financial Breach: How a Website Flaw Anyone Could Exploit Exposed 885 Million Real Estate Records`,
+    slug: 'first-american-financial-2019-data-breach-settlement-guide',
+    author: 'ScamShield Editorial',
+    tags: ['guide', 'first-american-financial-data-breach-settlement'],
+    sourceUrl: 'https://www.sec.gov/newsroom/press-releases/2021-102',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Santa_Ana_City_Hall.jpg?width=1200',
+    coverImageCredit: 'Photo: Eli Pousson, CC BY-SA 2.0, via Wikimedia Commons — city hall in Santa Ana, California, headquarters city of First American Financial',
+    coverImagePosition: 50,
+    // representative photo — replace with an exact match if found
+    body: `On the morning of May 24, 2019, First American Financial Corporation — one of the largest title insurance companies in the United States, central to closing real estate deals across the country — learned from the security news site KrebsOnSecurity that anyone could view hundreds of millions of its customers' most sensitive documents without logging in at all. The company's EaglePro application, used to share document images tied to real estate closings, stored records as sequentially numbered files accessible through a simple web link. There was no authentication check confirming that the person viewing a document was actually a party to that transaction — someone who typed in a link to their own closing documents could simply change a number in the URL and browse someone else's records instead. Developer Ben Shoval discovered the flaw and flagged it to Krebs after noticing how easily the numbers could be incremented.
+
+The scale of what was exposed was staggering: roughly 885 million documents dating back to 2003, including bank account numbers and statements, mortgage and tax records, Social Security numbers, wire transaction receipts, and drivers' license images — the kind of file a title company accumulates from every home sale, refinance, and closing it has ever handled. First American took the application offline within hours of Krebs's inquiry, but the exposure itself had existed for years by the time anyone outside the company raised the alarm.
+
+What made the case notable to regulators wasn't just the size of the exposure — it was what First American's own staff had known, and hadn't told anyone above them. A manual penetration test in January 2019, four months before the public disclosure, had already flagged the vulnerability internally. But according to the Securities and Exchange Commission, the employees who found it misclassified its severity and never escalated it to the company's senior information-security staff, and the flaw sat unremediated. When First American's executives later certified the company's public disclosure controls, they did so without knowing that a serious, already-identified vulnerability remained open in a system holding hundreds of millions of sensitive records.
+
+In June 2021, the SEC announced a $487,616 settlement with First American — without the company admitting or denying wrongdoing — for violating disclosure-controls requirements under the Securities Exchange Act, the agency's first enforcement action of its kind targeting a company's internal reporting failures around a known cybersecurity flaw rather than the breach itself. Krebs and other observers called the penalty token relative to the scale of the exposure. New York's Department of Financial Services followed with its own cybersecurity investigation, announcing a $1 million penalty against First American Title Insurance Company in November 2023 for violations of the state's cybersecurity regulation, citing failures in access controls, data classification, and risk assessment that let the vulnerability go unaddressed.
+
+The First American case shows that a data breach doesn't always require a hacker breaking in — sometimes an open door is left standing by a design flaw nobody with authority to fix it ever heard about. Anyone who closed on a home, refinance, or other real estate transaction through First American before mid-2019 should assume sensitive financial and identity documents may have been exposed, watch for signs of mortgage or identity fraud, and can report suspected identity theft at IdentityTheft.gov.`,
+  },
+);
+
 async function seedArticles(articles: SeedArticle[], label: string) {
   for (const article of articles) {
     await pool.query(
