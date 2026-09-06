@@ -1,5 +1,5 @@
 import { useInfiniteQuery, useQuery } from '@tanstack/react-query';
-import { fetchCategories, fetchCountries, fetchScamBySlug, fetchScams, PAGE_SIZE, ScamListParams } from '../services/scams';
+import { fetchCategories, fetchCountries, fetchScamBySlug, fetchScams, fetchScamTags, PAGE_SIZE, ScamListParams } from '../services/scams';
 
 export function useScams(params: ScamListParams = {}) {
   return useQuery({
@@ -38,5 +38,14 @@ export function useCountries() {
   return useQuery({
     queryKey: ['countries'],
     queryFn: fetchCountries,
+  });
+}
+
+// Only tags actually in use, with counts, so the filter never offers a
+// label that would return nothing.
+export function useScamTags() {
+  return useQuery({
+    queryKey: ['scam-tags'],
+    queryFn: fetchScamTags,
   });
 }

@@ -7,6 +7,8 @@ function excerpt(text: string, length = 155): string {
   return plain.length > length ? `${plain.slice(0, length - 1)}…` : plain;
 }
 
+import { tagLabel } from '../utils/scamTags';
+
 export default function ScamDetail() {
   const { slug } = useParams<{ slug: string }>();
   const { data: scam, isLoading } = useScam(slug);
@@ -28,6 +30,22 @@ export default function ScamDetail() {
           {scam.alert_level}
         </span>
       )}
+      {/* Targeting is a filterable axis, so each chip links into the database
+          filtered to that audience rather than being decoration. */}
+      {scam.tags && scam.tags.length > 0 && (
+        <div className="mt-3 flex flex-wrap gap-2">
+          {scam.tags.map((t) => (
+            <Link
+              key={t}
+              to={`/database?tag=${encodeURIComponent(t)}`}
+              className="rounded-full bg-slate-100 px-2.5 py-1 text-xs font-medium text-slate-700 hover:bg-slate-200"
+            >
+              {tagLabel(t)}
+            </Link>
+          ))}
+        </div>
+      )}
+
       <p className="mt-4 text-slate-700 whitespace-pre-line">{scam.description}</p>
 
       {scam.source_url && (

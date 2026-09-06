@@ -3,9 +3,10 @@ import * as ScamsModel from '../models/scams';
 import { asyncHandler } from '../utils/asyncHandler';
 
 export const list = asyncHandler<AuthedRequest>(async (req, res) => {
-  const { category, state, zip, country, search, sort, view, page } = req.query;
+  const { category, tag, state, zip, country, search, sort, view, page } = req.query;
   const scams = await ScamsModel.listScams({
     category: category as string | undefined,
+    tag: tag as string | undefined,
     state: state as string | undefined,
     zip: zip as string | undefined,
     country: country as string | undefined,
@@ -15,6 +16,11 @@ export const list = asyncHandler<AuthedRequest>(async (req, res) => {
     page: page ? Number(page) : undefined,
   });
   res.json({ data: scams });
+});
+
+export const tags = asyncHandler<AuthedRequest>(async (_req, res) => {
+  const tags = await ScamsModel.listScamTags();
+  res.json({ data: tags });
 });
 
 export const countries = asyncHandler<AuthedRequest>(async (_req, res) => {

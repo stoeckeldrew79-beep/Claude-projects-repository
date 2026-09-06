@@ -34,7 +34,9 @@ export interface Scam {
   source_url: string | null;
   locations?: ScamLocation[];
   country: string | null;
-  created_at: string;
+  created_at: string;  // Victim-targeting labels — a separate axis from category, so a scam
+  // can carry several or none.
+  tags?: string[] | null;
 }
 
 export interface Alert {
@@ -126,6 +128,17 @@ export interface DailyScamNews {
   published_at: string | null;
   search_term: string | null;
   scanned_at: string;
+  // Null for national/international stories; a two-letter code for alerts
+  // tied to one US state (see the scanStateAgNews job).
+  state: string | null;
+  // 'ag' is the state Attorney General's own feed; 'news' is coverage.
+  source_kind: 'ag' | 'news';
+}
+
+export interface DailyNewsStateCount {
+  state: string;
+  total: number;
+  ag_count: number;
 }
 
 export type SubscriptionTier = 'free' | 'basic' | 'pro' | 'family' | 'business';

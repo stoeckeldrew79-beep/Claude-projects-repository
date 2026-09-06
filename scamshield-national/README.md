@@ -1,7 +1,7 @@
 # ScamShield National
 
 A national scam intelligence database and subscription platform. See
-`../content/docs` in this repo — or the original technical specification —
+`../docs` in this repo — or the original technical specification —
 for the full architecture, schema, and API design this scaffold implements.
 
 ## Status
@@ -107,6 +107,15 @@ optional unless you're exercising those specific integrations.
 
 `npm run setup` is safe to re-run — it won't overwrite an existing `backend/.env`.
 
+Setup needs Docker running before it can start Postgres and Redis. If Docker
+Desktop isn't up, setup says so and stops rather than failing partway through.
+Already running Postgres and Redis yourself? Point `DATABASE_URL` and
+`REDIS_URL` in `backend/.env` at them and skip the Docker step:
+
+```bash
+npm run setup -- --no-docker
+```
+
 <details>
 <summary>Manual setup (equivalent, run separately)</summary>
 
@@ -152,6 +161,27 @@ fresher feed, is harmless. Example crontab entry for a daily 6am run:
 
 Unlike `draft-articles`, this one is fully automatic — headlines it finds go live immediately,
 with no admin review step.
+
+## Scheduling the state Attorney General scan
+
+`npm run scan-state-ag-news` covers all 51 US jurisdictions and populates the `state`
+column on `daily_scam_news`, which powers per-state filtering (`GET /v1/daily-news?state=TX`)
+and the state-level data behind the Global Map.
+
+Coverage comes from two tiers, because AG offices are inconsistent about publishing feeds.
+All 51 were probed directly: **18 expose a working RSS/Atom feed** and are read first-party
+(`source_kind = 'ag'`); the remaining states are covered by a news query naming the office
+(`source_kind = 'news'`). AG feeds carry every press release, so items are filtered by
+headline for scam relevance — matching the body text as well was measured at 31% false
+positives.
+
+It is idempotent (deduped by source URL) and prunes state rows older than 30 days, so run it
+as often as you like. Schedule it alongside the daily news scan:
+
+```
+0 6 * * * cd /path/to/backend && npm run scan-daily-news >> /var/log/scamshield-daily-news.log 2>&1
+15 6 * * * cd /path/to/backend && npm run scan-state-ag-news >> /var/log/scamshield-state-ag.log 2>&1
+```
 
 ## Scheduling early-warning alert detection
 

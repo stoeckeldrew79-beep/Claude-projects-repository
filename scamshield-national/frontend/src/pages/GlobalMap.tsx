@@ -1,12 +1,17 @@
 import { lazy, Suspense } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useCountsByCountry } from '../hooks/useGlobe';
+import { useDailyNewsStates } from '../hooks/useDailyNews';
 import { useDocumentMeta } from '../hooks/useDocumentMeta';
 import { GlobalActivityTicker } from '../components/GlobalActivityTicker';
 
 // Code-split: three.js only loads when someone visits this page, not on
 // every page load.
 const Globe3D = lazy(() => import('../components/Globe3D').then((m) => ({ default: m.Globe3D })));
+
+// Same treatment: the US map pulls in d3-geo and the state topology, which
+// nothing else on the site needs.
+const UsStateMap = lazy(() => import('../components/UsStateMap').then((m) => ({ default: m.UsStateMap })));
 
 export default function GlobalMap() {
   useDocumentMeta({
@@ -17,10 +22,15 @@ export default function GlobalMap() {
 
   const navigate = useNavigate();
   const { data, isLoading, isError } = useCountsByCountry();
+  const { data: stateCounts } = useDailyNewsStates();
   const totalReports = data?.reduce((sum, d) => sum + d.count, 0) ?? 0;
 
   function handleCountryClick(country: string) {
     navigate(`/database?country=${encodeURIComponent(country)}`);
+  }
+
+  function handleStateClick(code: string) {
+    navigate(`/todays-scams?state=${encodeURIComponent(code)}`);
   }
 
   return (
@@ -52,6 +62,28 @@ export default function GlobalMap() {
 
       {data && data.length > 0 && (
         <p className="mt-4 text-sm text-slate-500">{totalReports} total reports across {data.length} countries.</p>
+      )}
+
+      {stateCounts && stateCounts.length > 0 && (
+        <section className="mt-12">
+          <h2 className="text-2xl font-bold text-slate-900">Alerts by US state</h2>
+          <p className="mt-2 max-w-2xl text-slate-600">
+            Live scam alerts from the last 30 days, tied to the state they were issued in — including alerts
+            published directly by state Attorneys General. Click a state to read them. Shading shows how many
+            alerts each state has recorded, not how risky the state is.
+          </p>
+          <div className="mt-6 rounded-xl border border-slate-200 bg-[#0f1a2b] p-6">
+            <Suspense
+              fallback={<div className="h-[420px] flex items-center justify-center text-slate-400 text-sm">Loading map…</div>}
+            >
+              <UsStateMap counts={stateCounts} onStateClick={handleStateClick} />
+            </Suspense>
+          </div>
+          <p className="mt-4 text-sm text-slate-500">
+            {stateCounts.reduce((sum, s) => sum + s.total, 0)} alerts across {stateCounts.length} states,{' '}
+            {stateCounts.reduce((sum, s) => sum + s.ag_count, 0)} published directly by a state Attorney General.
+          </p>
+        </section>
       )}
     </div>
   );

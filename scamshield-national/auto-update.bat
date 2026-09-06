@@ -15,13 +15,13 @@ cd /d "%~dp0"
 
 echo [%date% %time%] Starting auto-update >> auto-update-log.txt
 
-git fetch origin claude/scamshield-national-phase1 >> auto-update-log.txt 2>&1
+git fetch origin main >> auto-update-log.txt 2>&1
 if errorlevel 1 (
   echo [%date% %time%] git fetch failed >> auto-update-log.txt
   exit /b 1
 )
 
-git checkout -B claude/scamshield-national-phase1 origin/claude/scamshield-national-phase1 >> auto-update-log.txt 2>&1
+git checkout -B main origin/main >> auto-update-log.txt 2>&1
 if errorlevel 1 (
   echo [%date% %time%] git checkout failed >> auto-update-log.txt
   exit /b 1

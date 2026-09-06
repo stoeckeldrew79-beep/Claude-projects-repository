@@ -7,6 +7,8 @@ const router = Router();
 
 router.get('/search', scamsController.search);
 router.get('/nearby', requireAuth, requireSubscriber, scamsController.nearby);
+// Before /:slug, or 'tags' is parsed as a scam slug.
+router.get('/tags', scamsController.tags);
 router.get('/countries', scamsController.countries);
 router.get('/by-country', scamsController.byCountry);
 router.get('/', scamsController.list);

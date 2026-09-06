@@ -1,0 +1,9 @@
+{
+  "name": "claude-projects-repository",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Repo-level tooling only. Each project lives in its own folder with its own package.json; do not build or run anything from this root.",
+  "devDependencies": {
+    "shadcn": "^4.13.1"
+  }
+}
