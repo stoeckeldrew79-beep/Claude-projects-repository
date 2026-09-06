@@ -42162,6 +42162,40 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'Fake "Deployed U.S. Soldier" Romance Fraud Ring (Sunday Eboh)',
+    slug: 'malta-sunday-eboh-soldier-romance-fraud',
+    description: `On February 10, 2021, Maltese police arrested retired footballer Sunday Eboh — who had played in Malta's Premier League for clubs including Marsa, Birkirkara, Floriana, Marsaxlokk, Naxxar, and Pembroke — along with several other men, in connection with a romance fraud that had drained €58,700 from an elderly Maltese widow. The victim had entered an online relationship with someone she believed was an American soldier deployed in Afghanistan; despite never once meeting him in person, she wired the money in installments after he described needing help covering supposed military and travel expenses. Investigators traced the funds through a chain of local bank accounts used to break the money into smaller amounts and move it out of the country, eventually charging six people — including Eboh's compatriot Tony Ogbonna and a 34-year-old Swieqi taxi driver, Tabi Ovi, named as a sixth defendant — with money laundering and receiving the proceeds of a crime. On September 25, 2023, a Maltese court convicted Eboh and Ogbonna, jailing Eboh for three years and fining him €20,000, and jailing Ogbonna for 28 months, while ordering both men to repay the victim within six months, forfeiting their property in Malta and abroad, and recommending their deportation once released. The case illustrates how a romance-scam network can operate as a division of labor: a persona built entirely online supplies the emotional manipulation, while a separate local crew opens bank accounts and launders the incoming wires — and it underscores why a request for money from an online partner who serves overseas and can never video call or meet in person, however sympathetic the story, should be treated as a serious warning sign rather than an act of trust.`,
+    categorySlug: 'romance-scams',
+    country: 'MT',
+    isHistorical: true,
+    firstRecorded: '2021-02-10',
+    sources: ['MaltaToday', 'Newsbook.mt'],
+    sourceUrl: 'https://www.maltatoday.com.mt/news/court_and_police/125121/exfootballer_sunday_eboh_jailed_for_58000_romance_fraud',
+  },
+  {
+    name: 'Fake Discounted Government Housing Scheme (Sarah Ann Gatt)',
+    slug: 'malta-sarah-ann-gatt-fake-government-housing-scheme',
+    description: `Maltese police arrested Sarah Ann Gatt, a 42-year-old cleaner from Santa Venera, after investigators found that she and an accomplice had been messaging prospective buyers — using texts styled to look like they came from Malta's Housing Authority — with offers to buy government-owned housing stock at steep, below-market discounts. At her arraignment in May 2022, Gatt was accused of taking roughly €300,000 from at least 27 people for properties that, prosecutors said, either never existed or were never hers to sell; by the time proceedings continued before Magistrate Astrid May Grima that October, the number of identified victims had grown to around 40, with combined losses approaching €500,000. Gatt pleaded not guilty to charges of fraud, misappropriation, falsifying public and private documents, breaching a suspended sentence, and recidivism. The scheme worked by exploiting a real and widely known feature of Maltese public life — the Housing Authority's occasional release of subsidized social housing — dressing an entirely fictitious sale in the paperwork and messaging style of a legitimate government program to make an implausibly good deal feel official. Anyone contacted about a discounted government housing allocation should verify the offer directly through the Housing Authority's own published channels rather than a phone number or link supplied by the person making the offer, and should be skeptical of any "government" deal that asks for payment before a formal, written allocation letter has been issued.`,
+    categorySlug: 'government-impersonation',
+    country: 'MT',
+    alertLevel: 'medium',
+    sources: ['MaltaToday'],
+    sourceUrl: 'https://www.maltatoday.com.mt/news/court_and_police/119096/40_victims_scammed_out_of_nearly_500000_by_cleaners_fake_housing_scheme_court_told',
+  },
+  {
+    name: 'MFSA Cloned-Firm and Fake Investment Platform Warnings',
+    slug: 'malta-mfsa-cloned-investment-firm-warnings',
+    description: `Malta's Financial Services Authority (MFSA) has continued issuing a steady stream of public warnings about unlicensed and cloned investment operations trading on Malta's reputation as a financial-services hub. On June 25, 2026, it warned that Apex Blue Investor Ltd, an online investment platform reachable at apexblueinvestor.com, falsely presents itself as a Maltese company despite being neither registered in Malta nor licensed to offer investment services there, and that available information pointed to "a scheme of dubious nature with a high risk of loss of money." Reporting on July 3, 2026 rounded up that warning alongside two others issued around the same time: an entity trading as BalletInstantSupport and/or OLCT Ltd running a cloned website that copies the branding and details of the real, MFSA-licensed firm Alchemy Markets Ltd, and a fraudulent email address impersonating compliance staff at OKX Europe Limited, a licensed crypto-asset service provider, to contact consumers directly. The MFSA has separately flagged a broader surge in this kind of impersonation as Malta's crypto-asset firms transitioned to licensing under the EU's MiCA framework, with scammers exploiting the changeover to make fraudulent contact look like routine compliance correspondence. In each case the Authority's advice is the same: check any firm claiming to be based in or licensed by Malta against the MFSA's public register before sending money or personal information, treat an unsolicited email or call from a "compliance officer" at a real financial firm with suspicion until it is verified through contact details obtained independently, and report a suspected clone or unlicensed operator to the MFSA rather than to any contact information the entity itself provides.`,
+    categorySlug: 'investment-fraud',
+    country: 'MT',
+    alertLevel: 'high',
+    sources: ['Malta Financial Services Authority (MFSA)', 'MaltaToday'],
+    sourceUrl: 'https://www.mfsa.mt/news-item/mfsa-warning-apex-blue-investor-ltd-unlicensed-entity/',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
