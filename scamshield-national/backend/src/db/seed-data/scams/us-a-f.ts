@@ -5526,4 +5526,15 @@ export const UsAF: SeedScam[] = [
     country: 'US',
     state: 'FL',
   },
+  {
+    name: 'Delaware Wilmington Tax Preparer PPP Loan Kickback Fraud Scheme',
+    slug: 'delaware-wilmington-tax-preparer-ppp-loan-kickback-fraud',
+    description: `Wilmington tax preparer Jady Solano, 43, led a scheme that submitted 62 fraudulent Paycheck Protection Program loan applications on behalf of shell businesses, generating more than $9.1 million in pandemic-relief disbursements that were never repaid. In one piece of the scheme, Solano prepared two of those applications for a South Carolina man, Devlon Porter, 51, for companies that had no actual employees, falsely claiming payrolls exceeding $1 million and relying on fabricated tax forms; Porter received more than $287,000 in wrongful disbursements and paid Solano over $50,000 in kickbacks for the paperwork. A federal jury in the District of Delaware convicted Porter on May 21, 2026 of conspiracy to commit bank fraud and conspiracy to commit money laundering, each carrying decades of potential prison time, while Solano was separately sentenced to 80 months in federal prison for orchestrating the broader scheme. The case illustrates how PPP fraud often ran through a trusted local tax preparer who could make fabricated payroll records look routine, rather than through a lone applicant lying on a form; the U.S. Attorney's Office for the District of Delaware continues to pursue pandemic-relief fraud cases years after the loans were issued, and encourages anyone with knowledge of a similar scheme to report it to the FBI or the Small Business Administration's Office of Inspector General.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office for the District of Delaware"],
+    sourceUrl: 'https://www.justice.gov/usao-de/pr/federal-jury-convicts-two-out-state-residents-pandemic-relief-fraud-scheme',
+    country: 'US',
+    state: 'DE',
+  },
 ];
