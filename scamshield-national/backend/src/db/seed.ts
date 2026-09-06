@@ -42754,6 +42754,42 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'Caroline County Fake-FBI Gold-and-Jewelry Courier Scam',
+    slug: 'virginia-caroline-county-fake-fbi-gold-courier-scam',
+    description: `On July 1, 2026, Virginia State Police and the Caroline County Sheriff's Office arrested Aiyaz Pirani, Pareshkumar Patel, and Mahendrasinh Diya after stopping their vehicle on Interstate 81 near Bowling Green, Virginia, tying the three men to an elder-fraud "courier" ring that investigators say had already stolen more than $1 million from victims up and down the East Coast. The scheme opened with a call from someone posing as an Amazon representative, warning the victim that their account had been compromised; a second call then transferred them to a person impersonating a federal agent, who falsely claimed the victim's assets were linked to criminal activity and that a warrant had been issued for their arrest unless they cooperated immediately. Over the course of several hours, the callers kept victims on the phone and manipulated them into handing over bank account information and surrendering gold and jewelry to a courier sent to their home, framed as a "government verification" step needed to clear their name. Investigators cracked the case using surveillance footage from a Caroline County gas station and automated license-plate readers to track the suspects' vehicle, then worked with the FBI to link the arrests to a broader pattern of similar courier scams targeting elderly victims across the East Coast; all three men were charged with grand larceny, conspiracy to commit grand larceny, and obtaining money by false pretenses, and were held without bond at Middle River Regional Jail pending court proceedings in Caroline County. "These criminals preyed on elderly citizens ... used fear to control them, and stole property they worked their entire lives to earn," Caroline County Sheriff Scott Moser said. Neither Amazon nor any real federal law enforcement agency will ever call to say a warrant has been issued unless a citizen hands cash, gold, or jewelry to a courier sent to their door — that hand-off is the unmistakable signature of this scam, and anyone who receives such a call should hang up immediately and verify any claimed account problem or investigation by contacting the company or agency directly through a number they look up themselves.`,
+    categorySlug: 'government-impersonation',
+    country: 'US',
+    state: 'VA',
+    alertLevel: 'high',
+    sources: ['WTVR CBS 6 Richmond', 'Caroline County Sheriff\'s Office', 'Virginia State Police'],
+    sourceUrl: 'https://www.wtvr.com/news/local-news/scheme-targeting-seniors-july-2-2026',
+  },
+  {
+    name: 'Superstars Fund and TTM Fund Cryptocurrency Investment Fraud',
+    slug: 'massachusetts-superstars-ttm-fund-cryptocurrency-fraud',
+    description: `Luciano Schipelliti of Haverhill, Massachusetts founded the Superstars Fund in the fall of 2018, raising roughly $275,000 from investors he told would be put into cryptocurrency. By 2019 a series of bad investments had wiped out the entire fund, but rather than tell his investors their money was gone, Schipelliti began sending them monthly newsletters starting in approximately November 2020 that falsely reported the Superstars Fund was continuing to grow in value. Using that fabricated track record to attract new money, he launched a second vehicle, the TTM Fund, in February 2021, raising about $350,000 that he again invested largely in cryptocurrency — and again lost entirely by September 2021, while also spending some of the money in ways that violated the TTM Fund's own operating agreement. Federal prosecutors in Boston charged Schipelliti with wire fraud, and he pleaded guilty to one count in April 2026; in August 2026, a U.S. District Court judge sentenced him to one year and one day in federal prison, followed by two years of supervised release that includes six months of home confinement, and ordered him to pay $350,000 in restitution to the defrauded investors. The case followed an FBI Boston investigation and shows how a fund manager can keep raising new money for years after the underlying investment has already failed, simply by fabricating account statements — a private fund with no independent administrator or custodian verifying its actual holdings and no audited financials available to investors on request should be treated as a red flag regardless of how personable or trusted the person running it is, and any investor should be able to independently confirm a fund's stated value rather than relying solely on the manager's own newsletter.`,
+    categorySlug: 'investment-fraud',
+    country: 'US',
+    state: 'MA',
+    isHistorical: true,
+    sources: ["U.S. Attorney's Office, District of Massachusetts", 'FBI Boston'],
+    sourceUrl: 'https://www.justice.gov/usao-ma/pr/massachusetts-man-sentenced-prison-investment-fraud',
+  },
+  {
+    name: 'Multnomah County Caseworker EBT Replacement-Card Benefits Theft',
+    slug: 'oregon-multnomah-county-ebt-replacement-card-benefits-theft',
+    description: `A Multnomah County grand jury indicted Rashida Peterson, 45, a former Multnomah County employee, and Dmetrious Millner, 39, both of Portland, Oregon, on June 18, 2026, on charges of identity theft, computer crime, and theft, after Oregon's Department of Justice Medicaid Fraud Control Unit determined that Peterson had misused her position and access to fraudulently issue replacement Electronic Benefit Transfer (EBT) cards belonging to Supplemental Nutrition Assistance Program (SNAP) recipients. Investigators allege Peterson worked with Millner to obtain at least two of these fraudulent replacement cards and drain the SNAP benefits loaded on them, targeting an elderly recipient and a recipient with a disability — people who depend on their monthly SNAP allotment for groceries and who, unlike a stolen credit card, cannot simply have a bank reverse the loss. The case reached investigators after a referral from an Oregon Department of Human Services Adult Protective Services worker who noticed the pattern of unauthorized replacement-card activity on vulnerable clients' accounts. Because a caseworker or someone claiming to be one may have legitimate-looking access to a benefits system, SNAP and EBT recipients — especially older adults and people with disabilities who rely on a caregiver or aide — should ask their state's SNAP office directly, using a phone number looked up independently rather than one provided by the person asking, before agreeing to any card replacement, and should regularly check their EBT account balance and transaction history online or by phone for withdrawals they don't recognize.`,
+    categorySlug: 'public-benefits-fraud',
+    country: 'US',
+    state: 'OR',
+    alertLevel: 'high',
+    sources: ['Oregon Department of Justice — Medicaid Fraud Control Unit', 'Oregon Department of Human Services'],
+    sourceUrl: 'https://www.doj.state.or.us/media-home/news-media-releases/oregon-dojs-medicaid-fraud-control-unit-charges-6-defendants-in-4-cases/',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
