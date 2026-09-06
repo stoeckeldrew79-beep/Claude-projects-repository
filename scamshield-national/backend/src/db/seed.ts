@@ -42678,6 +42678,40 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'Deepfake Celebrity Investment-Platform Fraud (Estonia)',
+    slug: 'estonia-deepfake-celebrity-investment-platform-fraud',
+    description: `Estonia's Police and Border Guard Board (Politsei- ja Piirivalveamet, PPA) has documented a wave of investment fraud built around fabricated news articles and websites that use the faces of well-known Estonians — including composer Arvo Pärt, politician Helle-Moonika Helme, former deputy police chief Koit Pikaro, and rally driver Ott Tänak — appearing to endorse a trading platform. Victims who enter their contact details on the fake site are called by a supposed "investment broker" who walks them through depositing an initial sum, typically around €250, into the platform; the broker then coaches the victim to take out loans to invest larger amounts as the account's on-screen balance appears to keep growing. According to the PPA's fraud investigation center, these schemes are designed to run for months, ending only once the victim's money is exhausted or they try to withdraw funds and are blocked. In the first six months of 2026 alone, Estonian police logged 1,816 reports of telephone and online fraud totaling €13.2 million in losses, a sharp escalation from €4 million lost to investment fraud in 2024 and roughly €6 million in 2025, and officials note that victims who search online for help recovering their money are frequently targeted a second time by fake "recovery" law firms and "ethical hackers" who charge upfront fees and deliver nothing. The case underscores that a celebrity's apparent on-camera endorsement of a trading platform proves nothing — genuine investment offers are never solicited through a cold call following a website form, and any platform that resists withdrawal requests after accepting deposits should be treated as fraudulent.`,
+    categorySlug: 'ai-deepfake-scams',
+    country: 'EE',
+    alertLevel: 'critical',
+    sources: ['Politsei- ja Piirivalveamet (Estonian Police and Border Guard Board)', 'ERR News'],
+    sourceUrl: 'https://news.err.ee/1610110051/estonians-defrauded-of-13-2-million-in-first-6-months-of-2026',
+  },
+  {
+    name: 'Omniva Courier Impersonation Phishing Scam (Estonia)',
+    slug: 'estonia-omniva-courier-impersonation-phishing',
+    description: `Omniva, Estonia's national postal and parcel-delivery operator, has repeatedly warned customers about fraudulent messages and calls impersonating the company to steal banking credentials. Scammers send SMS messages, emails, or Facebook Marketplace messages claiming a parcel or registered letter is waiting and cannot be delivered without the recipient first "updating their address" or paying a small customs or handling fee, often quoted around €3.80, through a link to a fake site styled to look like Omniva's. Other versions involve a phone call, frequently in Russian, from someone posing as an Omniva courier who asks the victim to "verify their identity" by reading out a Smart-ID or Mobile-ID confirmation code, or to provide PIN1 and PIN2 banking codes, in order to release the supposed shipment — codes that in reality hand the scammer direct access to the victim's online bank account. Omniva has stated publicly that it never asks customers for banking details, PIN codes, or payment over the phone or by text, and that its notifications only ever concern parcels a customer is actually expecting, arrive in Estonian rather than broken English or Russian, and come from verified domains such as omniva.ee rather than look-alike addresses. Thousands of Estonians have received these messages in single campaigns, and the company directs recipients to check any suspicious notice against the tracking history on minu.omniva.ee before clicking a link or engaging with a caller, and to report scam messages to Omniva's customer service so the company can warn other customers and work with police against the senders.`,
+    categorySlug: 'package-delivery-scams',
+    country: 'EE',
+    alertLevel: 'high',
+    sources: ['Omniva', 'ERR News'],
+    sourceUrl: 'https://www.omniva.ee/en/frauds/',
+  },
+  {
+    name: '"DHL" to "Bank Cybersecurity" Impersonation Phone Fraud (Estonia)',
+    slug: 'estonia-dhl-bank-cybersecurity-impersonation-phone-fraud',
+    description: `Estonian banks, led publicly by Swedbank, warned in December 2024 of a two-stage phone scam in which fraudsters first call a victim posing as the courier company DHL, asking for a one-time PIN code supposedly needed to complete a delivery. A second caller then rings back claiming to be from the bank's own "cybersecurity department," using the PIN just obtained, along with personal details gathered from social media and Estonia's public business register, to sound convincingly official while walking the victim through actions that actually authorize a fraudulent transfer or raise the victim's payment limits. Swedbank's Raul Vahtra said the callers assemble their scripts from information "gathered from social media, the business register, everywhere," making the calls feel personally tailored rather than generic. Estonian police registered more than 3,000 fraud cases in 2024 with combined losses exceeding €27 million, banking impersonation among the largest categories, including a case in which scammers emptied the business account of the Tallinn record store Biit.me along with its owner's personal savings. In response, the Estonian Banking Association began evaluating a mandatory "cooling-off period" that would delay transfers falling outside a customer's normal payment pattern, or requests to raise a payment limit, specifically to give banks time to intervene before money leaves an account — a trade-off bank officials acknowledged means some legitimate requests will no longer be processed instantly. Consumers are advised to hang up and call their bank back on the number printed on their card or bank statement rather than continuing a call that arrived unsolicited, since a legitimate bank never needs a courier's PIN code to verify an account.`,
+    categorySlug: 'phishing',
+    country: 'EE',
+    alertLevel: 'high',
+    firstRecorded: '2024-12-01',
+    sources: ['Swedbank Estonia', 'Estonian Banking Association', 'ERR News'],
+    sourceUrl: 'https://news.err.ee/1609892917/swedbank-estonia-seeing-unprecedented-fraud-pressure',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
