@@ -11215,6 +11215,69 @@ Unlike most of his co-defendants, Warner never faced a courtroom in the United S
   },
 );
 
+NOTORIOUS_ARTICLES.push(
+  {
+    title: 'Craig Berkman and the Facebook Shares That Were Never For Sale',
+    slug: 'craig-berkman-facebook-pre-ipo-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://www.sec.gov/newsroom/press-releases/2013-2013-44htm',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Facebook_Headquarters,_Menlo_Park_(7254480922).jpg?width=1200',
+    coverImageCredit: "Photo: Jitze Couperus, Wikimedia Commons (CC BY 2.0) — Facebook's Menlo Park headquarters, home of the pre-IPO shares Berkman claimed to control",
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    body: `Craig Berkman was not a stranger to power or money by the time Facebook's initial public offering became the most anticipated stock event of 2012. He had chaired the Oregon Republican Party from 1989 to 1993, run for the Republican National Committee chairmanship in 1993 (losing to Haley Barbour) and for Oregon governor in the 1996 primary (losing to Denny Smith), and built a career as a venture capitalist backing early-stage technology companies. By the time Facebook was preparing to go public, that reputation was already showing cracks: in 2008 an Oregon jury had found him liable for breach of fiduciary duty, conversion of investor funds, and misrepresentation tied to a trio of venture funds he ran called Synectic Ventures, whose value had collapsed since the dot-com bust, and entered a $28 million judgment against him.
+
+Undeterred, and apparently unable to satisfy that judgment through legitimate earnings, Berkman turned to one of the hottest speculative plays of the era: pre-IPO shares in Facebook, LinkedIn, Groupon and Zynga, all trading briskly on private secondary markets as investors scrambled for access their ordinary brokerage accounts couldn't provide. Working through investment vehicles including one called Ventures Trust LLC, and with help from Charleston, South Carolina attorney John B. Kern — who lent the scheme an air of legal legitimacy and personally collected roughly $300,000 — Berkman told at least 120 investors that their money would buy them a stake in Facebook shares ahead of the company's May 2012 debut.
+
+Nearly none of that promise was real. The SEC later calculated that Berkman raised $13.2 million from those investors but used only about $600,000 of it to actually acquire an interest in a small fund with any real exposure to the promised shares. Roughly $5.4 million went to satisfy Berkman's own personal bankruptcy settlement obligations — including paying down the Synectic Ventures judgment — while another $4.8 million was funneled to earlier investors as Ponzi-style payments to keep the scheme looking legitimate, and about $1.6 million covered Berkman's own dining, travel and cash withdrawals.
+
+The SEC filed civil securities fraud charges against Berkman and Kern on March 19, 2013, the same day federal prosecutors in the Southern District of New York unsealed a parallel criminal case; Berkman was arrested days later at his home in Odessa, Florida. He pleaded guilty in June 2013 to one count of securities fraud and one count of wire fraud, and on December 16, 2013, a Manhattan federal judge sentenced him to six years in prison and ordered him to pay roughly $8.4 million in restitution. Kern separately settled with the SEC and was suspended from practicing law by the South Carolina Supreme Court for giving investors false assurances about their money well after Facebook's IPO had already happened.
+
+Berkman served his sentence and, according to a 2023 profile in Portland's Willamette Week, was back pitching new technology deals to investors within a few years of his release — a reminder that a fraud built on genuine hunger for access to a hyped, hard-to-reach investment, whether pre-IPO Facebook stock in 2012 or the next hot private deal today, can survive one conviction largely because the scarcity story that powered it never really goes out of style, and the people telling it rarely stay retired for long.`,
+  },
+  {
+    title: "Ian Thow and the Vancouver Island Investments That Didn't Exist",
+    slug: 'ian-thow-berkshire-investment-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://www.cbc.ca/news/canada/british-columbia/thow-gets-9-years-for-defrauding-investors-1.878465',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Victoria,_British_Columbia_Skyline_at_Twilight.jpg?width=1200',
+    coverImageCredit: 'Photo: Brandon Godfrey, Wikimedia Commons (CC BY-SA 2.0) — Victoria, British Columbia, where Thow built his investment-advisory client base',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    body: `Ian Thow spent years as one of the most successful investment advisors on Vancouver Island, rising to senior vice-president at Berkshire Investment Group in Victoria, British Columbia, and building a client roster largely made up of friends of his own family — people who trusted him not just as an advisor but as someone their parents had vouched for. That trust became the raw material for two overlapping fraud schemes that, between 2004 and 2005, persuaded roughly a dozen mostly older investors to mortgage their homes, open new lines of credit, and hand over retirement savings for securities Thow had invented out of nothing.
+
+Thow told clients he could get them into lucrative private investment opportunities unavailable to ordinary retail investors, then simply pocketed the money rather than buying anything at all — a scheme that funded a personal business jet, a yacht, luxury cars, and a lifestyle well beyond what a commission-based advisor's salary could support. The British Columbia Securities Commission investigated and, in December 2007, imposed what was then its largest-ever fine, $6 million, and permanently banned Thow from the securities industry, a civil penalty a BC court later reduced to $250,000 on appeal even as a separate criminal case gathered pace.
+
+By the time regulators caught up with him, Thow had already left the country: he fled to the United States in 2005, ahead of both civil scrutiny and the criminal fraud charges the RCMP's Vancouver Integrated Market Enforcement Team laid against him in 2007. He spent roughly two years living in the U.S. before U.S. marshals arrested him in Portland, Oregon in 2009 as he left his condominium for a morning jog, and he was extradited back to Canada in March 2009 to face 20 counts of fraud.
+
+Thow pleaded guilty to all 20 counts, and on March 4, 2010, BC Supreme Court Justice Jocelyn Palmer sentenced him to nine years in prison — two years longer than the seven-year term his own plea agreement had recommended — after concluding he had "engaged in a methodical system of fraud" driven by "a rampant sense of entitlement and unabashed greed," compounded by a complete lack of remorse toward victims who lost their homes, their marriages, and their life savings. Thow received credit for time already served and agreed to pay roughly $4 million in restitution, though most victims recovered only a fraction of what they had lost; Canada's National Parole Board later denied him early release, citing the same absence of insight into his crimes that had struck the sentencing judge.
+
+Thow's case remains a study in how far a stolen professional reputation can travel before it runs out of road: the same family ties and personal trust that let him build a client base in the first place were exactly what let him keep extracting money from people who had no reason, at least at first, to ask a family friend for proof that the securities he was selling actually existed.`,
+  },
+  {
+    title: "Baldur Guðlaugsson and Iceland's First Insider Trading Conviction",
+    slug: 'baldur-gudlaugsson-landsbanki-insider-trading',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://grapevine.is/news/2012/02/17/supreme-court-confirms-first-insider-trading-sentence/',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Stj%C3%B3rnarr%C3%A1%C3%B0sh%C3%BAsi%C3%B0.JPG?width=1200',
+    coverImageCredit: "Photo: Jóhann Heiðar Árnason, Wikimedia Commons (CC BY-SA 3.0) — Iceland's Government House in Reykjavík",
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    body: `Baldur Guðlaugsson was about as close to the center of Icelandic government as a career civil servant could get. Appointed permanent secretary of Iceland's Ministry of Finance on November 1, 2000, he ran the ministry's day-to-day operations for nearly a decade under multiple governments and finance ministers, the senior bureaucrat trusted to help manage the country's finances through Iceland's extraordinary 2000s banking boom, when three small domestic lenders — Kaupthing, Glitnir and Landsbanki — expanded into institutions with combined assets nearly ten times the size of Iceland's entire economy.
+
+As that boom showed signs of strain in 2008, Baldur was placed on a special committee within the Ministry of Finance specifically tasked with reviewing the state of Iceland's banking system, giving him direct access to sensitive, non-public assessments of exactly how precarious the banks' positions had become. On September 2, 2008, he attended a meeting with officials from Britain's Treasury to discuss Icesave, the branded online deposit arm through which Landsbanki had drawn in hundreds of thousands of British depositors. Roughly two weeks later, on September 17 and 18, 2008, Baldur sold his entire personal holding of Landsbanki shares for 192 million Icelandic krónur — several million U.S. dollars at the time — just weeks before Landsbanki, along with Kaupthing and Glitnir, collapsed within days of each other in early October 2008 and wiped out the shares of everyone who still held them.
+
+Iceland's response to its banking collapse was unusual by international standards: rather than letting the crisis pass with resignations and civil settlements, the government created a dedicated Office of the Special Prosecutor specifically to pursue criminal accountability, and Baldur's share sale became one of its earliest targets. Investigators froze the 192 million krónur in November 2009, and prosecutors charged him with insider trading, arguing that as one of a small handful of officials with real visibility into the banks' true condition, he had used that access to get his own money out while ordinary Icelandic depositors and shareholders had no comparable warning.
+
+The Reykjavík District Court convicted Baldur in April 2011 — Iceland's first insider trading conviction — and sentenced him to two years in prison. He appealed to Iceland's Supreme Court, which upheld both the conviction and the sentence in February 2012, cementing it as the first insider trading conviction in Icelandic history to survive appellate review and a precedent prosecutors went on to invoke through the wave of banker prosecutions that followed the 2008 crash.
+
+What made Baldur's case resonate beyond its own facts was exactly what made it unusual: he was not a bank executive selling his own company's stock, but the top civil servant nominally charged with safeguarding the public's interest in the financial system, using information gathered in that very capacity to get himself out before anyone else could. In a financial crisis where senior Icelandic bankers eventually served a combined 74 years in prison, Baldur's conviction stood out as the case that captured how thin the line could be between a government official quietly managing a crisis and one quietly protecting himself from it.`,
+  },
+);
+
 // Practical "how it works / red flags / what to do" guides covering the
 // major scam categories, the same kind of coverage the FTC's Consumer
 // Advice site and AARP's Fraud Watch Network publish — well-documented
