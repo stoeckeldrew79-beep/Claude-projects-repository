@@ -1889,4 +1889,15 @@ export const UsTZ: SeedScam[] = [
     country: "US",
     state: "WV",
   },
+  {
+    name: "Utah Workers' Compensation Benefits-Release Fee Scam",
+    slug: "utah-workers-compensation-benefits-release-fee-scam",
+    description: `The Utah Labor Commission warned on April 3, 2026, that scammers were contacting injured Utah workers by text, phone call, email, and even video call, posing as officials from the Labor Commission's Industrial Accidents Division, the U.S. Department of Labor, or as attorneys and judges handling a workers' compensation case, and falsely telling the worker they must pay an upfront fee to settle their claim or release benefits already owed to them. The scammers ask for payment through gift cards, wire transfers, or cryptocurrency — the same red-flag payment methods used across nearly every impersonation scam, chosen because they are difficult to trace or reverse. Some versions borrow extra credibility by mixing in logos from multiple real government agencies on the same message, or by naming a supposed "attorney" who does not actually appear in the Utah State Bar's directory when checked. Eric Olsen, the Labor Commission's communications director, said plainly that "no legitimate workers' compensation process requires upfront payment to receive benefits," and the agency noted that its own emails always come from an official @utah.gov address, unlike the scam messages. Injured workers who are unsure whether a call, text, or email about their claim is genuine are advised to hang up or stop responding and instead verify it directly with the Industrial Accidents Division at 801-530-6800 or iaccd@utah.gov, using contact information looked up independently rather than anything provided by the caller. Suspected scams can be reported to the Utah Division of Consumer Protection at 801-530-6601 or through its online complaint form at services.commerce.utah.gov/dcp-complaint.`,
+    categorySlug: "government-impersonation",
+    alertLevel: "medium",
+    sources: ["Utah Labor Commission", "Utah Division of Consumer Protection", "Cache Valley Daily"],
+    sourceUrl: "https://www.cachevalleydaily.com/news/utah-labor-commission-warns-of-workers-compensation-scam-targeting-injured-employees/article_e5410755-63f3-4e2f-a110-c5a0f694a27d.html",
+    country: "US",
+    state: "UT",
+  },
 ];

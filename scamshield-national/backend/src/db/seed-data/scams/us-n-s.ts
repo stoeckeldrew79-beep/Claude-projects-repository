@@ -3263,4 +3263,15 @@ export const UsNS: SeedScam[] = [
     country: "US",
     state: "NC",
   },
+  {
+    name: "Providence Fake Parking Ticket QR Code Text Scam",
+    slug: "providence-parking-ticket-qr-code-text-scam",
+    description: `On March 16, 2026, Providence Police and Mayor Brett Smiley warned residents about a wave of text messages falsely claiming to be from the Providence Police Department or Providence Municipal Court over an unpaid parking ticket. The texts, sent the weekend before a Monday morning, tell the recipient they must appear in municipal court over the ticket unless they resolve it immediately, then offer a QR code that supposedly lets them pay the fine online right from the message. Smiley said flatly that the city never tries to collect on unpaid parking tickets by texting residents, and that neither Providence Police nor Providence Municipal Court would ever text a payment demand or a court-appearance threat. The Rhode Island Division of Motor Vehicles had already warned about a closely related "smishing" pattern the year before, in which text messages about supposed unpaid tickets or violations link to a fraudulent website built to steal the recipient's personal information, banking details, or install malware once they scan the code or tap the link. Rhode Island Attorney General Peter Neronha, asked about the scam, acknowledged the practical difficulty it poses: "text scams that appear to be from officials are difficult to prevent and find those responsible," and advised anyone who has already paid through the fraudulent link to contact their bank or card issuer immediately to try to freeze the transaction, though recovery is not guaranteed. Residents who receive one of these texts should not scan the QR code or click any link, and should instead check for an actual ticket or court date directly through the City of Providence's official website or by calling the Municipal Court, and can report the scam text to the Attorney General's Consumer Protection unit at 401-274-4400 (prompt 1) or consumers@riag.ri.gov.`,
+    categorySlug: "government-impersonation",
+    alertLevel: "high",
+    sources: ["Providence Police Department", "Office of Providence Mayor Brett Smiley", "Rhode Island Division of Motor Vehicles", "Rhode Island Attorney General's Office", "Turn to 10 (WJAR)"],
+    sourceUrl: "https://turnto10.com/news/local/attorney-general-neronha-warns-residents-aware-text-scams-police-officers-parking-tickets-payment-online-march-17-2026",
+    country: "US",
+    state: "RI",
+  },
 ];
