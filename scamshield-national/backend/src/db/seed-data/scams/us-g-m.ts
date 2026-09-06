@@ -3419,4 +3419,15 @@ export const UsGM: SeedScam[] = [
     country: "US",
     state: "MO",
   },
+  {
+    name: "Maryland Meta-Platform Deepfake Investment Scam",
+    slug: "maryland-meta-platform-deepfake-investment-scam",
+    description: `Maryland Attorney General Anthony G. Brown issued a consumer alert on April 6, 2026, warning residents about fraudulent investment schemes spreading across Meta's platforms — Facebook, Instagram, and WhatsApp — through deceptive ads and AI-generated deepfake video. In one recurring version, scammers use a deepfaked video or fabricated quote of a well-known figure such as Cathie Wood or Kevin O'Leary to lure victims into a private investment "group," then hype a low-priced stock or cryptocurrency before selling their own holdings at the inflated price, leaving everyone who bought in with losses (a classic pump-and-dump). In a second version, described as a confidence scam, criminals spend weeks building a rapport with the victim before directing them to a fake trading platform cloned to resemble a real brokerage, where the account shows fabricated profits — until the victim tries to withdraw the money and is told they must first pay a "release fee" or tax, at which point the scammer disappears with whatever was paid. Brown's office flagged several warning signs common to both versions: promises of guaranteed returns, celebrity endorsements built with AI or deepfake technology, pressure to move the conversation off Meta's platforms and onto an encrypted messaging app, and requests to fund the "investment" with a cryptocurrency transfer rather than a traceable, reversible payment method. Marylanders are urged to verify any investment professional's credentials through FINRA's BrokerCheck before sending money, to research independently rather than relying on an unsolicited social media ad or message, and to remember that a legitimate registered adviser has little reason to solicit clients through Facebook or Instagram ads. Reports can be filed with the Attorney General's Securities Division at securities@oag.maryland.gov or the Consumer Protection Division at consumer@oag.maryland.gov.`,
+    categorySlug: "investment-fraud",
+    alertLevel: "high",
+    sources: ["Maryland Office of the Attorney General", "Maryland Securities Division"],
+    sourceUrl: "https://oag.maryland.gov/News/pages/CONSUMER-ALERT---Attorney-General-Brown-Issues-Warning-on-Investment-Scams-on-Meta-Platforms-.aspx",
+    country: "US",
+    state: "MD",
+  },
 ];
