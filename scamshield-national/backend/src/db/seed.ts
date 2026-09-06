@@ -43433,6 +43433,51 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: 'Prince Group "Pig-Butchering" Forced-Labor Scam Compound Network (Chen Zhi)',
+    slug: 'cambodia-prince-group-chen-zhi-forced-labor-scam-compounds',
+    description: `Prince Holding Group, a sprawling Cambodian conglomerate with real estate, banking, and hospitality arms built by Cambodian-Chinese businessman Chen Zhi — known as "Vincent" — used that legitimate-looking empire as cover for a network of walled compounds across Cambodia where trafficked workers were held under threat of violence and forced to run "pig-butchering" scams: building fake romantic or investment relationships with victims worldwide, many of them in the United States, before steering them onto fraudulent cryptocurrency trading platforms rigged to display fabricated gains until the victims' real deposits vanished. On October 14, 2025, federal prosecutors in Brooklyn unsealed an indictment charging Chen Zhi, 37, with wire fraud conspiracy and money laundering conspiracy for directing the scheme, while the Justice Department simultaneously filed a civil forfeiture complaint for roughly 127,271 bitcoin — worth more than $15 billion at the time, the largest single forfeiture action in DOJ history — and the U.S. Treasury's Office of Foreign Assets Control sanctioned Chen Zhi along with 146 other individuals and entities tied to Prince Group, in coordinated action with the United Kingdom's Foreign, Commonwealth and Development Office. "Zhi directed one of the largest investment fraud operations in history, fueling an illicit industry that is reaching epidemic proportions," said then-Brooklyn U.S. Attorney Joseph Nocella, adding that "Prince Group's investment scams have caused billions of dollars in losses and untold misery to victims around the world, including here in New York, on the backs of individuals who have been trafficked and forced to work against their will." Chen Zhi remained at large in Cambodia for months after the U.S. charges became public, until Cambodian authorities arrested him on January 6, 2026 alongside two associates, Xu Ji Liang and Shao Ji Hui, and extradited all three not to the United States but to China, at Beijing's request, leaving the American wire fraud and forfeiture case to proceed without him in custody. The case is a reminder that a stranger who cultivates an online relationship before urging a "small test investment" on an unfamiliar crypto platform should be treated as a warning sign regardless of how polished the platform's website looks, since the operation behind it may be a trafficking-fueled scam compound rather than a real trading venue.`,
+    categorySlug: 'investment-fraud',
+    country: 'KH',
+    isHistorical: true,
+    sources: [
+      'U.S. Department of Justice',
+      'U.S. Department of the Treasury (OFAC)',
+      'Reuters',
+      'CNN',
+    ],
+    sourceUrl: 'https://www.justice.gov/opa/pr/chairman-prince-group-indicted-operating-cambodian-forced-labor-scam-compounds-engaged',
+  },
+  {
+    name: 'Sihanoukville "Jinbei" Compound Job-Scam Trafficking Rescue (360 Indian Nationals)',
+    slug: 'cambodia-sihanoukville-jinbei-compound-job-scam-trafficking-rescue',
+    description: `Recruiters advertised well-paying customer-service and data-entry jobs in Cambodia to jobseekers across India, but once the workers arrived in the seaside city of Sihanoukville, their employers at compounds in the city's Jinbei area confiscated their passports and forced them, under threat, to work long shifts running online scams against fellow Indians back home — posing as bank officials, romantic partners, or investment advisers on Telegram, WhatsApp, Facebook, and other apps, and directing victims toward fake trading platforms. In May 2024, more than 300 of the trafficked Indian workers staged an open revolt against their handlers inside the Jinbei compound, prompting the Indian Embassy in Phnom Penh to work directly with Cambodian authorities on an emergency rescue; by the time the operation concluded, 360 Indian nationals had been freed and repatriated to India, with Indian officials citing a United Nations estimate that roughly 100,000 people were being held and forced into online scam work inside Cambodia at the time. A Cambodian government spokesman confirmed the group's release, and Indian authorities have since urged citizens to treat any unsolicited offer of a high-paying overseas "customer service," "data entry," or "IT support" job — arranged through a social media message or an agent with no verifiable physical office — as a likely front for a trafficking-and-scam operation, and to verify such offers through India's official emigration clearance channels before traveling.`,
+    categorySlug: 'employment-scams',
+    country: 'KH',
+    isHistorical: true,
+    sources: [
+      'Radio Free Asia',
+      'Indian Ministry of External Affairs',
+      'Business & Human Rights Resource Centre',
+    ],
+    sourceUrl: 'https://www.rfa.org/english/news/cambodia/indians-online-scams-05232024154819.html',
+  },
+  {
+    name: 'Huione Group Cambodia-Based Scam-Laundering Marketplace (FinCEN Section 311 Action)',
+    slug: 'cambodia-huione-group-scam-laundering-marketplace-fincen-action',
+    description: `Huione Group, a Phnom Penh-based financial conglomerate operating under brands including Huione Pay, Huione Crypto, and an online marketplace known first as Huione Guarantee and later rebranded Haowang Guarantee, functioned as a one-stop laundering hub for cybercriminals: scammers running "pig-butchering" cryptocurrency investment fraud, together with hackers linked to North Korea's Lazarus Group, could cash out stolen or scammed funds through Huione's marketplace and payment services with little scrutiny. On May 1, 2025, the U.S. Treasury's Financial Crimes Enforcement Network (FinCEN) proposed identifying Huione Group as a foreign financial institution of "primary money laundering concern" under Section 311 of the USA PATRIOT Act, finding that the group had laundered at least $4 billion in illicit proceeds between August 2021 and January 2025 alone, including roughly $37 million tied to North Korean cyber heists and $36 million traced directly to pig-butchering scams. "Huione Group has established itself as the marketplace of choice for malicious cyber actors like the DPRK and criminal syndicates, who have stolen billions," said Treasury Secretary Scott Bessent. FinCEN issued the final rule on October 15, 2025, effective November 17, 2025, barring U.S. financial institutions from maintaining correspondent accounts for Huione Group or processing transactions connected to it, effectively cutting the conglomerate off from the U.S. financial system. The case is a reminder for consumers that once cryptocurrency handed to a scammer reaches a marketplace like Huione's, it can be laundered and moved beyond recovery within minutes — reinforcing why refusing to send crypto to an unsolicited investment contact in the first place is a far more reliable defense than hoping a later report will let the funds be traced back.`,
+    categorySlug: 'investment-fraud',
+    country: 'KH',
+    isHistorical: true,
+    sources: [
+      'FinCEN (U.S. Department of the Treasury)',
+      'U.S. Department of the Treasury',
+    ],
+    sourceUrl: 'https://www.fincen.gov/news/news-releases/fincen-issues-final-rule-severing-huione-group-us-financial-system',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
