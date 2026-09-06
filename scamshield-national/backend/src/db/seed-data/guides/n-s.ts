@@ -2355,4 +2355,40 @@ If your business uses RingCentral, check whether your account email address appe
     coverImageCredit: "RingCentral logo (public domain text logo, via Wikimedia Commons)",
     coverImagePosition: 50,
   },
+  {
+    title: "The Pokémon Center Data Breach: When Your Shipping Company Gets Hacked, Not the Store You Shopped At",
+    slug: "pokemon-center-2026-data-breach-guide",
+    author: "ScamShield Editorial",
+    tags: ["guide", "pokemon-center-2026-data-breach"],
+    body: `In late July 2026, an intrusion beginning on July 30 hit CEVA Logistics, a major shipping and warehouse operator that fulfills online orders for a long list of well-known retailers across Europe. Pokémon Center, the official online store for Pokémon merchandise, was one of the businesses caught up in it — along with PC gaming platform Valve and Dutch retailers Bol and De Bijenkorf. The breach didn't touch Pokémon Center's own website or systems at all; it happened one step removed, at the outside company that packs and ships its boxes.
+
+For customers in the United Kingdom and Germany, Pokémon Center confirmed that the exposed information likely included full names, mailing addresses, phone numbers, email addresses, and details about what they had previously ordered. The company said usernames, passwords, and payment card numbers do not appear to have been part of what was taken, and the disruption at CEVA's warehouses also caused real delays — some pending orders were delayed or canceled outright while the logistics company worked to contain the incident across roughly eight affected facilities in Europe.
+
+This case is a good reminder that a company you trust can do everything right with your account and password, and your information can still end up exposed — because most retailers hand your name, address, and order details off to third-party shipping and fulfillment companies to actually get your package to your door, and a breach at any one of those partners can expose customers of several unrelated brands at once. You often have no way of knowing which shipping vendor a store uses behind the scenes, which is exactly why it's worth paying attention any time a company you order from discloses a "third-party" or "vendor" breach — the risk to you is the same as if the company itself had been hacked.
+
+If you've ordered from Pokémon Center, Valve, Bol, or De Bijenkorf recently, watch for phishing emails or texts that reference a "delayed shipment," "order issue," or "delivery confirmation" and ask you to click a link, log in, or provide payment information — scammers routinely use breach news like this to craft convincing fake delivery notices in the weeks that follow. Verify any shipping problem by going directly to the retailer's official website or app rather than clicking a link in a message, and never give out a one-time passcode, card number, or account password to someone who contacts you first. Since your name, address, phone number, and order history may now be circulating, treat unsolicited calls or messages that already "know" those details with extra suspicion rather than less, since scammers use exactly this kind of accurate-sounding detail to seem legitimate. If you receive a suspicious message referencing an order you did place, you can report it to the FTC at ReportFraud.ftc.gov.`,
+    sourceUrl: "https://www.bleepingcomputer.com/news/security/pokemon-center-data-breach-exposes-customer-info-cancels-some-orders/",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Pokemon_Center_Paris.jpeg?width=1200",
+    coverImageCredit: "Photo: Chikorita, CC BY-SA 4.0, via Wikimedia Commons — a Pokémon Center retail store",
+    coverImagePosition: 50,
+    // representative photo — a Pokémon Center storefront, not the specific logistics vendor breached; replace with an exact match if found
+  },
+  {
+    title: "The SafePal Data Breach: A Crypto Wallet Company's Order Records Were Exposed, Not Your Coins",
+    slug: "safepal-2026-data-breach-guide",
+    author: "ScamShield Editorial",
+    tags: ["guide", "safepal-2026-data-breach"],
+    body: `SafePal, a company that sells physical hardware wallets used to store cryptocurrency, disclosed in mid-August 2026 that a flaw in a plug-in it used for order tracking had let one customer's account see another customer's order information. SafePal said the issue affected orders placed between March 2, 2025, and April 11, 2026, and put the number of impacted customers at 39,798. The company emailed affected customers on August 16 with the subject line "[Important] Your SafePal Order Information Has Been Affected," and a threat actor later claimed to be selling the stolen data online.
+
+The information exposed included customers' names, email addresses, shipping addresses, phone numbers, and details of what they had purchased. Critically, SafePal said the breach did not expose wallet seed phrases, private keys, account passwords, payment card numbers, bank details, or government ID numbers, and it found no evidence that anyone's crypto wallets or funds were actually accessed as a result of the incident. In other words, the leak was about who bought a hardware wallet and where it was shipped — not the cryptographic keys that would let someone steal the crypto stored on the device itself.
+
+Even without keys or funds exposed, this kind of leak is valuable to scammers for a specific reason: it tells them exactly who owns a piece of hardware built to hold cryptocurrency, and where they live. That combination is prime material for follow-up "support" phishing — a fake SafePal email or text claiming your wallet needs a "firmware update" or "security verification," urging you to enter your recovery seed phrase on a lookalike website or in a chat with a fake support agent. It has also, in other hardware-wallet breaches, been used to send phishing devices or fake replacement wallets by physical mail to the leaked shipping address.
+
+If you own a SafePal wallet, remember that no legitimate wallet company will ever ask you to type your seed phrase into a website, app, chat window, or phone call — the only place a real recovery phrase should ever be entered is directly on the physical hardware device itself, and anyone asking for it elsewhere is trying to steal your funds. Be skeptical of any unexpected email, text, or unsolicited package claiming to be from SafePal, verify anything that looks like an official notice by going directly to SafePal's own website rather than clicking a link, and never install a "wallet update" from a source other than the company's official app store listing or website. If you receive a phishing attempt that references this breach, you can report it to the FTC at ReportFraud.ftc.gov or to the IC3 at ic3.gov.`,
+    sourceUrl: "https://www.bleepingcomputer.com/news/security/safepal-data-breach-impacts-39-798-customers-stolen-info-for-sale/",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Two_Trezor_One_hardware_wallets_and_a_5BTC_Casascius_physical_coin_by_Gage_Skidmore.jpg?width=1200",
+    coverImageCredit: "Photo: Gage Skidmore, CC BY-SA 2.0, via Wikimedia Commons — hardware cryptocurrency wallets",
+    coverImagePosition: 50,
+    // representative photo — shows a different brand of hardware crypto wallet, not a SafePal device; replace with an exact match if found
+  },
 ];
