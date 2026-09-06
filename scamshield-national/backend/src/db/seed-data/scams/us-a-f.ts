@@ -5537,4 +5537,15 @@ export const UsAF: SeedScam[] = [
     country: 'US',
     state: 'DE',
   },
+  {
+    name: 'Vermont Fake Debt Collector Utility and Toll Threat Scam',
+    slug: 'vermont-fake-debt-collector-utility-toll-threat-scam',
+    description: `Vermont Attorney General Charity Clark's Consumer Assistance Program (CAP) reported on January 12, 2026 that debt collection scams rose sharply enough in 2025 to enter the state's "Top 10 Scams" list for the first time, landing at number two, out of 3,982 total scam reports filed with her office — a 12% increase in reports over the prior year. Scammers posing as debt collectors, and sometimes impersonating a familiar business such as a toll operator or utility company, demand immediate payment and threaten unsettling consequences like an arrest, mounting fines, or having the electricity shut off if the target doesn't pay right away, often over the phone or through a text message with a payment link. In reality, real debt collectors are legally barred from threatening anyone with arrest over an unpaid debt, and a consumer who asks a collector to verify a debt in writing is entitled to receive that verification before any payment is expected; asking a collector to stop contacting them altogether generally must also be honored. CAP's advice is to disengage rather than negotiate: hang up on unsolicited collection calls, never reply to a text demanding payment or click its link, and always demand written proof of a debt and verify it independently with the original creditor before paying anyone claiming to be a collector.`,
+    categorySlug: 'legal-debt-collection',
+    alertLevel: 'high',
+    sources: ['Vermont Attorney General Consumer Assistance Program'],
+    sourceUrl: 'https://ago.vermont.gov/blog/2026/01/12/attorney-general-clark-releases-top-10-scams-2025',
+    country: 'US',
+    state: 'VT',
+  },
 ];

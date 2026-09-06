@@ -3373,4 +3373,15 @@ export const UsNS: SeedScam[] = [
     country: 'US',
     state: 'PA',
   },
+  {
+    name: 'Oregon EBT Card Skimmer Scam at Retail Payment Terminals',
+    slug: 'oregon-ebt-card-skimmer-retail-payment-terminals',
+    description: `Oregon Attorney General Dan Rayfield issued a consumer alert on September 16, 2025 warning of a traveling group installing card skimmers on payment machines at grocery and convenience stores across the state, with rural discount stores and small markets especially targeted. The skimmers quietly capture the card number and PIN of anyone who swipes or inserts a card, including Electronic Benefit Transfer (EBT) cards that thousands of Oregon families rely on to access food and cash assistance through the Oregon Department of Human Services. Because a compromised EBT card can be drained of an entire month's food benefits before a victim notices, and those benefits typically cannot be replaced once stolen, Rayfield called the scheme "theft from Oregon families who can least afford it." His office advises shoppers to inspect a card reader before using it for tamper-evident seals — yellow security stickers or bars that look broken, crooked, or replaced can indicate a skimmer has been installed — to change PINs regularly, and to manage EBT accounts only through the official ebtEDGE website or mobile app, since the Oregon Department of Human Services cannot guarantee the safety of any other EBT management app or site. Suspected skimming should be reported to the retailer immediately and to the Oregon Department of Justice's consumer hotline.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'high',
+    sources: ['Oregon Department of Justice', 'KTVZ'],
+    sourceUrl: 'https://www.doj.state.or.us/media-home/news-media-releases/attorney-general-rayfield-issues-consumer-alert-scammers-targeting-oregonians-with-ebt-skimmers/',
+    country: 'US',
+    state: 'OR',
+  },
 ];

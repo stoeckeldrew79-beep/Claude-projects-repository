@@ -3475,4 +3475,15 @@ export const UsGM: SeedScam[] = [
     country: 'US',
     state: 'MT',
   },
+  {
+    name: 'Kansas AI Voice-Clone Fake Child Kidnapping Call',
+    slug: 'kansas-ai-voice-clone-fake-kidnapping-call',
+    description: `The Olathe Police Department warned residents in early February 2026 after fielding multiple reports of a live "virtual kidnapping" call in which a man tells a parent or grandparent that their child has just been in a car crash and then kidnapped, demanding immediate cash payment under threat of violence. To make the story credible, the caller plays what sounds like the actual child's voice crying for help in the background — generated with AI voice-cloning software built from as little as a few seconds of audio lifted from a social media video or voicemail greeting. In every case investigators checked, the supposedly kidnapped child was found safe and completely unaware anything had happened. A similar wave of calls hit Lawrence, Kansas months earlier, in late 2025, prompting an armed police response before officers determined no real kidnapping had occurred. "Scams like this are becoming increasingly common," an Olathe police spokesperson said, noting the calls are "designed to exploit a parent's natural instinct to protect their child, using fear, urgency and threats to pressure victims into acting quickly without taking time to verify the information." Police urge anyone receiving such a call to stay as calm as possible, avoid sending money immediately, and try to reach the supposedly kidnapped family member directly or through another relative before doing anything else — a callback or a text to the child in question is usually enough to unravel the scam within minutes.`,
+    categorySlug: 'family-emergency-scams',
+    alertLevel: 'critical',
+    sources: ['Olathe Police Department', 'KCTV5'],
+    sourceUrl: 'https://www.kctv5.com/2026/02/03/scammers-use-ai-clone-childrens-voices-new-kidnapping-scam/',
+    country: 'US',
+    state: 'KS',
+  },
 ];
