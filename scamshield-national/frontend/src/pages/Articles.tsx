@@ -1,3 +1,4 @@
+import type { Ref } from 'react';
 import { useEffect, useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useArticleCount, useInfiniteArticles } from '../hooks/useArticles';
@@ -42,9 +43,10 @@ function cardDelay(index: number): number {
 // A slot for an article that has not loaded yet, at exactly a card's height.
 // See Notorious: without these the document grows with every batch and the
 // scrollbar rescales under the reader mid-scroll.
-function PlaceholderCard() {
+function PlaceholderCard({ innerRef }: { innerRef?: Ref<HTMLDivElement> }) {
   return (
     <div
+      ref={innerRef}
       aria-hidden
       style={{ contentVisibility: 'auto', containIntrinsicSize: '360px' }}
       className="overflow-hidden rounded-xl border border-slate-200"
@@ -225,8 +227,11 @@ export default function Articles() {
             </Link>
           </BlurFade>
         ))}
+        {/* The trigger rides on the first placeholder. A sentinel after the
+            grid sat below every placeholder — hundreds of cards down — so it
+            never entered view and the next page never loaded. */}
         {Array.from({ length: placeholderCount }, (_, i) => (
-          <PlaceholderCard key={`placeholder-${i}`} />
+          <PlaceholderCard key={`placeholder-${i}`} innerRef={i === 0 ? sentinelRef : undefined} />
         ))}
         {articles && articles.length === 0 && !placeholderCount && !query && (
           <p className="text-slate-500 col-span-2">No articles published yet.</p>
@@ -236,7 +241,7 @@ export default function Articles() {
         )}
       </div>
 
-      <div ref={sentinelRef} aria-hidden className="h-px" />
+      {placeholderCount === 0 && <div ref={sentinelRef} aria-hidden className="h-px" />}
       {isFetchingNextPage && <p className="mt-8 text-center text-sm text-slate-500">Loading more…</p>}
       {!hasNextPage && !isLoading && articles && articles.length > 0 && (
         <p className="mt-10 text-center text-sm text-slate-400">

@@ -1,3 +1,4 @@
+import type { Ref } from 'react';
 import { useMemo } from 'react';
 import { Link } from 'react-router-dom';
 import { useArticleCount, useInfiniteArticles } from '../hooks/useArticles';
@@ -21,9 +22,10 @@ function cardDelay(index: number): number {
 // so every batch makes it taller and the scrollbar thumb shrinks and slides —
 // the page fights the reader precisely when they are moving through it. With
 // them the height is right from the first paint and never changes.
-function PlaceholderCard() {
+function PlaceholderCard({ innerRef }: { innerRef?: Ref<HTMLDivElement> }) {
   return (
     <div
+      ref={innerRef}
       aria-hidden
       // There can be hundreds of these. content-visibility lets the browser
       // skip laying out the ones off screen while still reserving their
@@ -139,15 +141,18 @@ export default function Notorious() {
             </Link>
           </BlurFade>
         ))}
+        {/* The trigger rides on the first placeholder. A sentinel after the
+            grid sat below every placeholder — hundreds of cards down — so it
+            never entered view and the next page never loaded. */}
         {Array.from({ length: placeholderCount }, (_, i) => (
-          <PlaceholderCard key={`placeholder-${i}`} />
+          <PlaceholderCard key={`placeholder-${i}`} innerRef={i === 0 ? sentinelRef : undefined} />
         ))}
         {sortedArticles && sortedArticles.length === 0 && !placeholderCount && (
           <p className="text-slate-500 col-span-2">No entries published yet.</p>
         )}
       </div>
 
-      <div ref={sentinelRef} aria-hidden className="h-px" />
+      {placeholderCount === 0 && <div ref={sentinelRef} aria-hidden className="h-px" />}
       {isFetchingNextPage && <p className="mt-8 text-center text-sm text-slate-500">Loading more…</p>}
       {!hasNextPage && !isLoading && sortedArticles && sortedArticles.length > 0 && (
         <p className="mt-10 text-center text-sm text-slate-400">
