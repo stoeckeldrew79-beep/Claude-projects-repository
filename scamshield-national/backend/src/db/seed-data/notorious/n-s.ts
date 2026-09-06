@@ -2653,6 +2653,44 @@ Lebanon's own domestic case moved more slowly, complicated by a fractured judici
 
 Salameh has consistently denied wrongdoing, describing himself as a scapegoat for a financial collapse whose real causes, he argues, lay with Lebanon's government and its decades of deficit spending rather than with the bank that financed it. Whatever a Lebanese court eventually decides, the case stands as a rare instance of a run-of-the-mill Ponzi mechanic — pay yesterday's depositors with tomorrow's — being executed not by a fringe operator but by the head of a sovereign central bank, using the full institutional credibility of a national currency peg to keep new dollars flowing in for years after the underlying arithmetic had already failed.`,
   },
+  {
+    title: "Rafiqul Amin and the Destiny Group Tree-Plantation Scheme That Embezzled Billions From Bangladeshi Savers",
+    slug: 'rafiqul-amin-destiny-group-bangladesh-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.thedailystar.net/news/bangladesh/crime-justice/news/destiny-md-18-others-jailed-12-years-3799656',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Dhaka_Skyline.jpg?width=1200',
+    coverImageCredit: 'Photo: Zubuyer Kaolin, Wikimedia Commons (CC BY 2.0) — the Dhaka skyline, where Destiny Group was headquartered',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    body: `Rafiqul Amin founded Destiny 2000 Ltd in December 2000 with a starting capital of just 1.2 million taka, building it over the following decade into a multi-level-marketing conglomerate that eventually claimed several million members across Bangladesh and branched into cooperative banking, a newspaper, and a television channel. The company's signature product, launched under the banner of Destiny Tree Plantation Limited, invited ordinary Bangladeshis to buy "units" nominally tied to real tree-planting projects in the Chittagong Hill Tracts, promising a guaranteed 10 percent annual return funded by the eventual harvest and sale of the timber.
+
+The trees were largely a fiction. Investigators later found that Destiny had sold tens of millions of plantation units while planting only a small fraction of the trees it claimed, in some cases showing prospective investors photographs of unrelated forests in the Sundarbans to make the project look real; honoring the 10 percent return it had promised on every unit sold would have required Destiny to pay out roughly $50 million a year, far beyond anything an actual plantation business at that scale could generate. Like any MLM structure, growth also depended on recruitment — members earned commissions for signing up new investors below them — layering a classic pyramid scheme on top of the fabricated plantation story.
+
+Bangladesh's Anti-Corruption Commission filed cases against Amin and dozens of Destiny executives in July 2012, and investigators eventually calculated that the group's tree-plantation and cooperative-society arms together had collected roughly 4,146 crore taka — more than $500 million at the time — from investors while diverting the overwhelming majority of it, causing losses to an estimated 850,000 people who had trusted the company with their savings. Amin and Destiny's chairman, Mohammad Hossain, were arrested that same month, and the case took a decade to work through Bangladesh's courts.
+
+A Dhaka court finally convicted 46 defendants on May 12, 2022, sentencing Amin to 12 years in prison and a fine of 2 billion taka over the underlying embezzlement and money-laundering scheme, with Hossain receiving 10 years. In a separate prosecution focused specifically on funds raised through the tree-plantation project, another Dhaka court sentenced Amin to a further 12 years on January 15, 2025, for misappropriating an additional 257.78 crore taka — a reminder that unwinding a scheme this size took Bangladesh's justice system more than a decade and multiple parallel trials to fully account for.
+
+Destiny's collapse remains one of Bangladesh's largest documented financial frauds and a case study in how a pyramid scheme can hide behind an ostensibly productive, patriotic-sounding cover story — reforestation, in this case — that gave ordinary investors a tangible reason to believe their money was doing good in the world even as almost none of it was going where they were told.`,
+  },
+  {
+    title: "Shoaib Sheikh and the Axact Fake-Diploma Empire That Sold Degrees to the World",
+    slug: 'shoaib-sheikh-axact-fake-diploma-scam',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.dawn.com/news/1418156',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Karachi_downtown_skyline.jpg?width=1200',
+    coverImageCredit: 'Photo: Swerveut, Wikimedia Commons (public domain) — the Karachi financial district, where Axact was headquartered',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    body: `Shoaib Ahmed Sheikh built Axact into one of Pakistan's largest software companies, publicly known for enterprise IT services but privately running what The New York Times exposed in May 2015 as the world's largest known diploma mill: a network of several hundred fake online "universities" and "high schools" — invented institutions with names designed to sound like real American, British, or other Western schools — selling bogus diplomas, transcripts, and degree verifications to customers across more than 190 countries.
+
+The operation ran a full-service fraud rather than a simple diploma printer. Axact employees posing as accreditation officials, embassy staff, and even U.S. State Department officials fielded calls from buyers seeking to verify their fake credentials, while separate call centers pressured customers into paying escalating fees for additional "authentication" services once they had already bought a diploma — a pattern investigators said netted the company tens of millions of dollars a year, with some individual buyers reportedly paying hundreds of thousands of dollars over time chasing ever more official-looking paperwork. Pakistani investigators who raided Axact's Karachi headquarters in 2015 said the company's own internal figures put annual revenue from the scheme close to $140 million.
+
+Sheikh was arrested shortly after the Times investigation ran and released on bail, then re-arrested repeatedly over the following years as Pakistan's slow-moving judicial process produced a string of contradictory outcomes: a sessions court acquitted him in October 2016, only for that judge to be dismissed from the bench in 2018 after admitting he had taken a 5-million-rupee bribe to deliver the acquittal. A retrial followed, and in July 2018 an Islamabad court convicted Sheikh and 22 co-defendants on fraud and forgery charges tied to the fake-degree operation, handing down a nominal 20-year sentence that amounted to 7 years once the concurrent terms were combined — a sentence the Islamabad High Court then suspended on bail pending appeal.
+
+The legal saga has continued to whipsaw ever since: prosecutors separately pursued Sheikh over an alleged $170 million illegal foreign money transfer, winning a money-laundering conviction that a court acquitted him of in 2025, only for Pakistan's Federal Investigation Agency to successfully appeal that acquittal and see him re-arrested, with the case sent back for a fresh trial. As of the most recent reporting, both the original fake-degree case and its related prosecutions remain unresolved through further appeals, leaving one of the largest diploma-fraud operations ever documented without a settled final verdict more than a decade after the Times first exposed it — a reminder that a fraud built entirely on paperwork can end up litigated by paperwork indefinitely.`,
+  },
 ];
 
 NotoriousNS.push(
