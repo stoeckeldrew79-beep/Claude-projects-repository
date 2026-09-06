@@ -45972,6 +45972,39 @@ SEED_SCAMS.push(
   },
 );
 
+SEED_SCAMS.push(
+  {
+    name: '"Abameni" SIM-Swap Mobile Money Fraud Ring',
+    slug: 'rwanda-abameni-sim-swap-mobile-money-fraud-ring',
+    description: `The Rwanda Investigation Bureau (RIB), working with Rwanda National Police and the Rwanda Utilities Regulatory Authority (RURA), announced on September 9, 2024 the arrest of 45 members of a single criminal network — who reportedly called themselves "Abameni" — accused of defrauding mobile money users of more than RWF 424 million in complaints filed between January and July 2024. Most suspects, aged 20 to 35, operated out of the Nyakarenzo and Nkungu sectors of Rusizi District and worked in coordinated teams: some carried out SIM swaps to hijack a victim's phone number and mobile money wallet outright, while others ran a rotating menu of social-engineering pretexts to trick victims into handing over PINs and security codes directly — fake notifications that the victim had won a cash jackpot, fabricated stories about a relative's emergency hospital bill, callers posing as telecom staff offering a "SIM reward" promotion, warnings that a victim's mobile banking account had already been hacked and needed to be "secured," and impersonation of police traffic or driving-test officers demanding money after a supposed test failure. Once money was extracted, the group relied on mobile money agents who knowingly helped launder and quickly cash out the stolen funds before victims or banks could react. The 45 suspects were charged with criminal association, fraud, illicit enrichment, and money laundering, facing sentences ranging from two to ten years. "Anyone telling you that they will help you... they are trying to defraud you," RIB Assistant Commissioner of Police Boniface Rutikanga warned, while RURA's Charles Gahungu stressed that "a SIM card is... your bank and your access to very many essential services," urging every Rwandan to check which SIM cards are registered in their name, deregister any they don't recognize, and never share a SIM card or a mobile money PIN with anyone — including a caller claiming to be from a telecom company or the police.`,
+    categorySlug: 'account-takeover',
+    country: 'RW',
+    alertLevel: 'high',
+    sources: ['Rwanda Investigation Bureau (RIB)', 'Rwanda National Police', 'Rwanda Utilities Regulatory Authority (RURA)'],
+    sourceUrl: 'https://police.gov.rw/media/news-detail/news/45-arrested-in-operations-against-mobile-banking-scam/',
+  },
+  {
+    name: 'Money Mule Recruitment Scam',
+    slug: 'rwanda-money-mule-recruitment-scam',
+    description: `Rwandan banks and fraud investigators have flagged money mule recruitment as one of the country's fastest-growing financial crimes, responsible for 29 percent of all reported fraud losses between August and December 2024 alone, after a wave that saw roughly a third of Rwandans targeted by similar schemes between September and December 2022. The scam typically begins with what looks like an ordinary opportunity — a remote job offer circulated on social media promising easy income, or a romance struck up online that gradually builds enough trust for the "partner" to ask for a favor — before the recruiter asks the victim to receive money into their own personal bank or mobile money account and forward it on to someone else, often for a small cut. What the victim rarely realizes is that the funds passing through their account are stolen, and that acting as a conduit — knowingly or not — can expose them to prosecution alongside the fraudsters who recruited them. Banks have begun fighting back by watching for the tell-tale signature of a mule account: a sudden spike in volume on an account that normally sees only routine, small transactions. "A student who suddenly transfers Rwf50 million or Rwf100 million would definitely raise suspicion," said Steven Ndahiro, Compliance Head at BPR Bank Rwanda, explaining that large or unusual transfers now trigger a request for supporting documentation and proof of the money's source before they are allowed to clear. Rwandans are urged to reject any offer that sounds too good to be true, remember that no legitimate employer will ever ask a new hire to move money through a personal account, avoid sharing banking details with people met only online, independently verify any job offer before accepting it, and report suspected recruitment attempts to their bank, the police, or Rwanda's Financial Intelligence Centre (FIC).`,
+    categorySlug: 'employment-scams',
+    country: 'RW',
+    alertLevel: 'high',
+    sources: ['The New Times (Rwanda)', 'BPR Bank Rwanda', 'Rwanda Financial Intelligence Centre (FIC)'],
+    sourceUrl: 'https://www.newtimes.co.rw/article/30423/news/how-to-spot-and-avoid-money-mule-scams-in-rwanda',
+  },
+  {
+    name: 'Fake Bank and Mobile Money "Account at Risk" Phishing Surge',
+    slug: 'rwanda-bank-impersonation-phishing-surge',
+    description: `The National Bank of Rwanda (BNR), Bank of Kigali, Equity Bank Rwanda, and BPR Bank Rwanda jointly raised the alarm in early April 2026 over a fresh wave of phishing targeting bank and mobile money customers, timed to the Easter season when transaction volumes rise and people tend to be less vigilant. Fraudsters reach victims by SMS, email, phone call, WhatsApp message, and social media, most commonly with a fake alert claiming the customer's account will be suspended within 24 hours, is already at risk, or urgently needs "verification," paired with a link that leads to a convincing but fake page designed to harvest login credentials, card numbers, and one-time passcodes. A related and long-running variant works over mobile money directly: a fraudster sends a customer a payment "by mistake" and then, posing as a network agent, pressures the customer to send the money straight back before the real owner notices — money that, once returned to the fraudster's own account, is gone for good; anyone who receives a payment they don't recognize is advised to use the network's own official self-reversal service (dial *182*7*3# on MTN Mobile Money) or call customer care directly rather than trust instructions from the caller. The central bank noted that a survey of 1,043 digital financial service users conducted in October 2025 found 84 percent had received at least one scam message in the previous year, with 18 percent of them going on to lose real money. "These scams are usually meant to create panic and push customers into acting quickly," the central bank said, adding flatly that "no licensed financial institution will ever ask for a PIN, password or one-time password code through a phone call, SMS, email or WhatsApp message." Rwanda's cybercrime law (Law No. 60/2018) makes unlawfully obtaining someone's confidential information a criminal offense punishable by one to two years in prison and fines of up to RWF 3 million. Customers are urged never to click links in unsolicited messages, never to share a username, password, PIN, card number, or OTP with anyone, to verify any suspicious message by contacting their bank through its official published number, to transact only through official banking apps and websites, and to report suspicious contact immediately.`,
+    categorySlug: 'phishing',
+    country: 'RW',
+    alertLevel: 'high',
+    sources: ['National Bank of Rwanda (BNR)', 'The New Times (Rwanda)'],
+    sourceUrl: 'https://www.newtimes.co.rw/article/34584/news/finance/banks-raise-alarm-over-surge-in-phishing-attempts/',
+  },
+);
+
 async function seedCategoriesAndScams() {
   for (const category of SEED_CATEGORIES) {
     await pool.query(
