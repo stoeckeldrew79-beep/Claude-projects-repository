@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { useSearchParams } from 'react-router-dom';
 import { useDailyScamNews, useDailyNewsStates } from '../hooks/useDailyNews';
 import { useDocumentMeta } from '../hooks/useDocumentMeta';
 import { DailyScamNews } from '../types';
@@ -49,7 +50,12 @@ export default function TodaysScams() {
     path: '/todays-scams',
   });
 
-  const [state, setState] = useState<string>('');
+  // Arriving from the Global Map (/todays-scams?state=TX) preselects that
+  // state. Read once on mount — the dropdown owns the value afterwards, so
+  // changing it does not need to round-trip through the URL.
+  const [searchParams] = useSearchParams();
+  const initialState = (searchParams.get('state') ?? '').toUpperCase();
+  const [state, setState] = useState<string>(/^[A-Z]{2}$/.test(initialState) ? initialState : '');
   const { data: news, isLoading, isError } = useDailyScamNews(state || undefined);
   const { data: stateCounts } = useDailyNewsStates();
 
