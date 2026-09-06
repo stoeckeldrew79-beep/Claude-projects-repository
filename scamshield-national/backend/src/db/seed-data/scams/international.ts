@@ -8813,3 +8813,36 @@ International.push(
     country: 'LB',
   },
 );
+
+International.push(
+  {
+    name: 'Sunrun Cameroon Fake Solar Investment Ponzi Scheme',
+    slug: 'cameroon-sunrun-solar-investment-ponzi-scheme',
+    description: `A fraudulent outfit calling itself "Sunrun Cameroon" borrowed the name and branding of Sunrun, a real US-based solar energy company, and opened storefront-style offices in multiple Cameroonian towns to sell what it billed as solar-panel rental contracts. For as little as FCFA 5,000, investors were promised hourly or monthly payouts that would double or triple their money within a single one-month contract, and early participants who really were paid quickly turned around and recruited friends and relatives — the classic pyramid dynamic — drawn in by the appearance of real offices and a recognizable brand name attached to a "get rich quick" pitch aimed squarely at young people chasing easy income. The scheme collapsed after only about two weeks of operation, having taken in more than FCFA 20 billion from investors across the country, and the man who had posed as Sunrun Cameroon's manager was arrested in Buea on November 26, 2024. The real Sunrun Inc. has publicly stated it has no offices or operations in Cameroon at all, confirming that the entire local "Sunrun" brand was fabricated. Consumers are advised to treat any investment promising guaranteed returns that double or triple money in weeks as a red flag regardless of how legitimate the branding or physical office looks, and to independently verify with a company's actual head office — not with the local storefront — before investing.`,
+    categorySlug: 'ponzi-pyramid-schemes',
+    alertLevel: 'high',
+    sources: ['Cameroon News Agency'],
+    sourceUrl: 'https://cameroonnewsagency.com/sunrun-cameroon-scams-get-rich-quick-cameroonians-out-of-over-fcfa-20-billion/',
+    country: 'CM',
+  },
+  {
+    name: 'Fake Overseas Job Offers Trafficking Cameroonians into Forced Scam Labor',
+    slug: 'cameroon-fake-overseas-job-offer-trafficking-scam',
+    description: `Recruiters advertise supposedly well-paid jobs abroad — often in Nigeria, Ghana, Côte d'Ivoire, or Gulf states — through Facebook and WhatsApp posts, sometimes using AI-generated job listings and fake company profiles, promising salaries reported to exceed 400,000 CFA a month for young Cameroonians struggling to find local work. Cameroon's state-owned Cameroon Tribune documented the case of a victim identified as Armelle G., who paid recruitment fees for a promised job in Nigeria and was instead taken to a compound holding more than 100 other Cameroonians, where her phone was confiscated, she was locked in a cold room as punishment, and her captors staged a fake kidnapping video demanding a ransom of 3 million CFA from her family within 48 hours; other victims reported ransom demands as low as 700,000 CFA. Regional research from the Institute for Security Studies has found this pattern extends into full human trafficking, with some victims coerced into working as scammers themselves inside the same compounds once their passports and phones are taken, while outdated laws and under-resourced police leave the networks operating largely unchecked. Anyone offered a job abroad that requires an upfront fee, arrives only through social media with no verifiable company registration, or pressures a fast decision is advised to verify the employer independently before traveling, keep family informed of exact travel and contact plans, and treat a sudden loss of contact from someone who recently left the country for work as a potential trafficking emergency requiring immediate reporting to authorities.`,
+    categorySlug: 'employment-scams',
+    alertLevel: 'critical',
+    sources: ['Cameroon Tribune', 'Institute for Security Studies (ISS Africa)'],
+    sourceUrl: 'https://www.cameroon-tribune.cm/article.html/68884/fr.html/danger-online-job-scams-on',
+    country: 'CM',
+  },
+  {
+    name: 'Mobile Money "Wrong Transfer" Refund Scam',
+    slug: 'cameroon-mobile-money-wrong-transfer-refund-scam',
+    description: `The most commonly reported Mobile Money fraud in Cameroon starts with a text or call, made to look like a genuine MTN Mobile Money or Orange Money transfer alert, claiming the sender accidentally sent funds to the recipient's number and urgently asking for the money to be sent back to a different number. In reality the alert is spoofed and no money was ever actually transferred, so a victim who "returns" the funds is simply sending away their own money to the scammer. A related version has a caller pose as an MTN or Orange agent claiming to be "updating" the customer's Mobile Money account, talking the victim through entering their PIN or reading out a one-time verification code that is then used to drain the real account, while another variant sends a fake unauthorized-withdrawal notice designed to panic the victim into entering their PIN incorrectly in a way that ends up authorizing the very transaction they were trying to stop. Orange Money Cameroon runs a dedicated anti-scam channel for reporting these attempts — through the Max It app (Orange Money > Other services > OM anti-scam), on WhatsApp at 698717171, or by dialing #150*60# — and confirms only 690 009 000, 690 009 200, and 690 009 500 as verified Orange Money support numbers. Mobile Money users are advised to never send money back for a transfer they did not personally verify in their own transaction history, to never share a PIN or one-time code with anyone including someone claiming to be network staff, and to report suspected scam attempts to their provider immediately rather than acting on urgency alone.`,
+    categorySlug: 'account-takeover',
+    alertLevel: 'high',
+    sources: ['Orange Money Cameroon', 'Mobile Money Africa'],
+    sourceUrl: 'https://orangemoney.orange.cm/en/orange-money-anti-scam.html',
+    country: 'CM',
+  },
+);
