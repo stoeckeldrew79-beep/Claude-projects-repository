@@ -1911,4 +1911,15 @@ export const UsTZ: SeedScam[] = [
     country: "US",
     state: "WI",
   },
+  {
+    name: 'Tennessee Post-Ice-Storm Tree Trimming and Removal Scam',
+    slug: 'tennessee-post-ice-storm-tree-trimming-removal-scam',
+    description: `After a deadly winter ice storm knocked down trees and power lines across Tennessee in late January 2026, Attorney General Jonathan Skrmetti's office issued consumer alerts warning residents about tree trimming and removal scams as storm-chasing crews swept into damaged neighborhoods. Complaints piled up about door-to-door crews demanding cash upfront, offering "immediate" cleanup, and then either doing shoddy work or disappearing without doing any work at all — one Nashville homeowner told local news he paid more than $6,000 to a company for tree removal that was never performed. Governor Bill Lee's executive order temporarily suspended contractor licensing requirements for storm cleanup work through March 7, 2026, which made it easier for legitimate help to reach damaged areas quickly but also easier for unlicensed opportunists to pose as tree crews; the order still required anyone doing the work to have "sufficient experience and knowledge in the field." Common red flags the Attorney General's office highlighted include salespeople who claim the homeowner's insurance company will cover 100% of the cost while billing the insurer far more than what the homeowner is shown, high-pressure door-to-door pitches pushing for an immediate decision, and demands for full or substantial payment before any work begins. Tennesseans hiring storm cleanup help are advised to verify a contractor's license status at verify.tn.gov, ask for proof of insurance, get multiple written estimates, and avoid paying in full upfront; complaints can be filed with the Division of Consumer Affairs at tn.gov/consumer.`,
+    categorySlug: 'home-improvement-solar',
+    alertLevel: 'high',
+    sources: ["Tennessee Attorney General's Office (Division of Consumer Affairs)", 'WSMV', 'Action News 5'],
+    sourceUrl: 'https://www.tn.gov/attorneygeneral/news/2026/2/4/pr26-6.html',
+    country: 'US',
+    state: 'TN',
+  },
 ];

@@ -5515,4 +5515,15 @@ export const UsAF: SeedScam[] = [
     country: "US",
     state: "CA",
   },
+  {
+    name: 'Florida SunPass Fake Toll Website Text Scam',
+    slug: 'florida-sunpass-fake-toll-website-text-scam',
+    description: `Florida drivers have been flooded with text messages and emails claiming to be from SunPass, the state's electronic toll system, warning of an unpaid toll or fine and demanding immediate payment through a link. The links lead to convincing lookalike sites with URLs such as sunpass-toll.com, sunpass-express.com, or sunpass-florida.com — close enough to the real SunPass.com to fool a quick glance — that harvest credit card numbers and other personal information from anyone who "pays." Attorney General Ashley Moody's Cyber Fraud Enforcement Unit, working with the Florida Department of Law Enforcement, has repeatedly seized batches of these fraudulent sites, at one point shutting down hundreds at once, but new lookalike domains keep appearing as fast as old ones are taken down. SunPass has confirmed it does not send text messages demanding urgent payment and will never ask for payment information through a text link. Floridians who receive one of these messages are advised not to click the link, to check their toll balance only by typing SunPass.com directly into a browser, to delete the text, and to report it to the Attorney General's Office at MyFloridaLegal.com or by calling 1-866-9-NO-SCAM.`,
+    categorySlug: 'phishing',
+    alertLevel: 'high',
+    sources: ['Florida Attorney General (My Florida Legal)'],
+    sourceUrl: 'https://www.myfloridalegal.com/newsrelease/video-consumer-alert-ag-moody-shuts-down-fake-websites-scamming-sunpass-users',
+    country: 'US',
+    state: 'FL',
+  },
 ];
