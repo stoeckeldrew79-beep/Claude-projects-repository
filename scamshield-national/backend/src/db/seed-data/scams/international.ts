@@ -8566,6 +8566,36 @@ Egypt's Ministry of Interior announced on February 24, 2025, that it had arreste
     sourceUrl: "https://www.gnlm.com.mm/digital-gold-investment-scams-target-housewives/",
     country: "MM",
   },
+  {
+    name: 'Fake Mobile-Tower "SMS Blaster" Bank Phishing Scam',
+    slug: 'kazakhstan-sms-blaster-fake-base-station-phishing',
+    description: `In April 2026, Kazakhstani police announced the first known regional takedown of an "SMS blaster" fraud ring, detaining four suspects who had driven a vehicle rigged with a fake mobile base station through crowded markets and shopping centers. The device impersonated a legitimate cell tower, generating a signal strong enough to force nearby phones within roughly a 300-meter radius onto a less secure connection, which let the criminals blast up to 100,000 text messages an hour directly to bystanders' phones while bypassing the fraud filters mobile carriers normally apply to network traffic. The messages impersonated the mobile operator Beeline and Halyk Bank, one of Kazakhstan's largest banks, offering victims a "bonus exchange" and a link to claim it; anyone who tapped through was taken to a convincing phishing site that asked for a bank card number, its CVV code, and the one-time SMS verification code needed to authorize a transaction — everything a criminal needs to immediately drain the account. Investigators described the case as the first of its kind uncovered anywhere in the CIS, and it surfaced against a backdrop of nationwide totals showing phishing already accounts for roughly a quarter of all fraud offenses in Kazakhstan, with authorities blocking nearly 85 million fraudulent phone calls in 2025 alone. Kazakhstan's Financial Monitoring Agency urges the public to remember that banks and telecom operators never request card numbers, CVV codes, or SMS verification codes through a text message or a link, and that an unusually strong or unfamiliar network prompt on a phone in a crowded public place can itself be a sign of exactly this kind of attack.`,
+    categorySlug: 'phishing',
+    alertLevel: 'high',
+    sources: ['The Astana Times', 'Times of Central Asia'],
+    sourceUrl: 'https://astanatimes.com/2026/04/inside-kazakhstans-first-regional-takedown-of-sms-blaster-hackers/',
+    country: 'KZ',
+  },
+  {
+    name: 'WhatsApp and Telegram "AI Ecosystem" Investment Pyramid Schemes',
+    slug: 'kazakhstan-whatsapp-telegram-investment-pyramid-schemes',
+    description: `Kazakhstan's Financial Monitoring Agency (FMA) has dismantled a wave of financial pyramid schemes in 2025 and 2026 that recruit victims almost entirely through WhatsApp and Telegram chat groups rather than any physical office, letting organizers reach citizens across multiple regions at essentially no cost. In one scheme uncovered in May 2026 and branded "ENVIDA AI," organizers marketed the project as an "international ecosystem investing in real assets" offering "risk-free, stable, and highly lucrative income," leaning on artificial-intelligence branding to sound current and credible; the FMA identified more than 370 contributors spread across the Aktobe, Atyrau, Kyzylorda, Pavlodar, and Turkestan regions and Almaty city, and found the project's payouts came solely from newly recruited members' deposits rather than any real investment activity. A separate scheme called "NBC TV," dismantled in April 2026, claimed to generate income simply by having members watch short videos on a platform; authorities seized more than 1,057,000 USDT — worth roughly 530 million tenge at the time — from its organizers. And in October 2025, the "Imrat Group" pyramid was disrupted in West Kazakhstan Region after posing as an international investment company purportedly registered in Canada, Hong Kong, and the UK, luring members with referral-link sign-ups and promised daily returns of 0.5% to 1.5%. Kazakhstan's e-government consumer guidance describes the common thread across all of these schemes: income paid only from new members' contributions rather than genuine trade or production, aggressive recruitment through personal chats and referral links, and vague or invented claims of foreign registration or AI-driven returns — and it urges the public to verify any investment platform's license and legal registration directly with the FMA before depositing money, rather than relying on screenshots or promises shared inside a chat group.`,
+    categorySlug: 'ponzi-pyramid-schemes',
+    alertLevel: 'high',
+    sources: ['QR News Kazakhstan', 'Kaztag', 'CoinReporter', "Electronic Government of the Republic of Kazakhstan"],
+    sourceUrl: 'https://qrnews.kz/en/news/new-financial-pyramid-operating-through-whatsapp-chats-uncovered-in-kazakhstan-investigation-launched-rZBwZ',
+    country: 'KZ',
+  },
+  {
+    name: 'Fake Online Storefront Scams on Instagram and Marketplaces',
+    slug: 'kazakhstan-fake-online-storefront-scams',
+    description: `Fake online storefronts are among the most common fraud schemes reported to Kazakhstan's Anti-Fraud Center, which has logged more than 80,000 fraud cases since its July 2024 launch. Scammers set up storefronts on Instagram, WhatsApp, and online marketplaces advertising goods at attractive prices or soliciting money for a cause, then take payment and either ship nothing or vanish once enough orders come in; the Center has found that 68% of all recipients of these fraudulent payments are individual people rather than registered businesses, since routing money to a personal account or e-wallet is harder for banks to flag and freeze in time. Fraud volume in this category climbs every autumn as online shopping activity increases nationwide, and one case tracked by the Center involved a fake Hajj pilgrimage fundraising page that collected roughly 100 million tenge from Kazakhstani citizens hoping to fund their pilgrimage before the organizers disappeared with the money. Since its launch, the Anti-Fraud Center has preserved 1.9 billion tenge in suspect accounts before it could be withdrawn, frozen a further 400 million tenge pending return to victims, and already returned 461 million tenge to people it defrauded. Consumers are advised to pay only through a marketplace's built-in escrow or buyer-protection system rather than a direct bank transfer or e-wallet request from the seller, to be especially wary of storefronts and fundraisers that appear suddenly in the run-up to a holiday or pilgrimage season, and to report suspicious sellers to the Anti-Fraud Center rather than simply blocking them.`,
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'high',
+    sources: ['DKNews.kz', "Kazakhstan Anti-Fraud Center"],
+    sourceUrl: 'https://dknews.kz/en/articles-in-english/374933-digital-fraud-in-kazakhstan-new-data-key-schemes-and',
+    country: 'KZ',
+  },
 ];
 
 International.push(
