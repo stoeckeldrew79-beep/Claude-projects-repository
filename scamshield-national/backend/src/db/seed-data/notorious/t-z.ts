@@ -1247,3 +1247,24 @@ Drive Planning is a reminder that a scheme doesn't need to hide in the shadows t
     coverImagePosition: 50,
   },
 ];
+
+NotoriousTZ.push(
+  {
+    title: 'Trinh Van Quyet and the $146 Million FLC Group Stock Manipulation That Rattled Vietnam\'s Market',
+    slug: 'trinh-van-quyet-flc-group-stock-manipulation-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.voanews.com/a/court-jails-vietnamese-tycoon-for-21-years-for-146-mn-fraud-state-media-/7730148.html',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/S%E1%BB%9F_GDCK_TPHCM_(HOSE).JPG?width=1200',
+    coverImageCredit: 'Photo: Ngô Trung, Wikimedia Commons (CC BY-SA 3.0) — the Ho Chi Minh City Stock Exchange, where Quyet\'s manipulated shares traded',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    body: `Trinh Van Quyet built FLC Group into one of Vietnam's most visible conglomerates, spanning real estate, resorts, and — through its subsidiary Bamboo Airways — a national airline, all while cultivating a very public persona as one of the country's richest men. Behind the flashy expansion, prosecutors say, sat a network of five listed companies, including FLC's own shares along with AMD, HAI, GAB, and ART, whose share prices were driven up through what Vietnamese authorities described as coordinated wash trading: Quyet and family members and associates controlling dozens of brokerage accounts to trade shares back and forth among themselves, manufacturing the appearance of heavy investor demand where none genuinely existed.
+
+The scheme's most brazen moment came on January 10, 2022, when Quyet dumped 74.8 million FLC shares onto the market in a single session without filing the advance disclosure Vietnamese securities law requires of major shareholders before a sale of that size — a filing that would have warned ordinary investors the stock's largest holder was cashing out into a rally he had helped inflate. The undisclosed sale sent FLC's share price into a sudden plunge, rattled the broader Ho Chi Minh City Stock Exchange, and prompted the State Securities Commission to void the trade and freeze Quyet's accounts within days. Investigators later calculated that between 2017 and 2022, the broader manipulation scheme had allowed Quyet and his network to pocket illicit gains exceeding 723 billion Vietnamese dong, while defrauding roughly 25,000 investors of a combined sum prosecutors put at more than $146 million.
+
+Quyet was arrested on March 29, 2022, and the case moved through Vietnam's courts over the following two years, culminating on August 5, 2024, when a Hanoi court convicted him of fraudulent appropriation of property and stock market manipulation, sentencing him to 21 years in prison — 18 years for the fraud charge and 3 for market manipulation. The scale of the case was matched by the scale of the cleanup: Quyet's family committed to repaying investors in full, and by the time an appeals court reconvened in June 2025, they had deposited more than 2.46 trillion dong (over $96 million) in compensation, exceeding the court-ordered amount. Citing that restitution, the Hanoi High Court's appellate panel cut Quyet's sentence dramatically on June 26, 2025, dropping the market-manipulation term entirely and reducing the fraud sentence from 18 years to 7, while adding a 4 billion dong fine.
+
+The reduction drew criticism from investors who felt a $146 million fraud against 25,000 people had been resolved with a term far shorter than the original verdict, even as it reflected a pattern increasingly visible in Vietnamese white-collar cases: courts weighing full restitution heavily against defendants able to mobilize the money to pay it back. Quyet began reappearing in FLC Group's public affairs in early 2026, a reminder that in market-manipulation cases the fraud itself — the falsified appearance of trading demand — can be harder for outside investors to detect in real time than almost any other financial crime, because the very market data meant to inform their decisions was the thing being faked.`,
+  },
+);
