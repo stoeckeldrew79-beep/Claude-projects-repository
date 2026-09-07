@@ -152,16 +152,20 @@ export async function countsByCountry() {
   return rows.map((r) => ({ country: r.country as string, count: Number(r.count) }));
 }
 
-// Documented scams per US state. Filtered the same way countsByCountry is —
-// active, non-historical — so the two maps count the same population and a
-// state total cannot disagree with its country total.
+// Documented scams per US state. State lives on scam_locations, not on
+// scams itself, so this joins rather than reading a column off scams.
+// Filtered the same way countsByCountry is — active, non-historical — so
+// the two maps count the same population and a state total cannot disagree
+// with its country total. The same predicate the state filter in listScams
+// uses, so a state's count matches what clicking it actually lists.
 export async function countsByState() {
   const { rows } = await pool.query(
-    `SELECT state, COUNT(*) AS count
-     FROM scams
-     WHERE is_active = true AND state IS NOT NULL AND is_historical = false
-     GROUP BY state
-     ORDER BY state`
+    `SELECT l.state, COUNT(DISTINCT s.id) AS count
+     FROM scams s
+     JOIN scam_locations l ON l.scam_id = s.id
+     WHERE s.is_active = true AND s.is_historical = false AND l.state IS NOT NULL
+     GROUP BY l.state
+     ORDER BY l.state`
   );
   return rows.map((r) => ({ state: r.state as string, total: Number(r.count) }));
 }
