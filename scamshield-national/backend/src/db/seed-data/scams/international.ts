@@ -10111,3 +10111,26 @@ International.push(
     country: 'LR',
   },
 );
+
+International.push(
+  {
+    name: 'Fake "Hong Kong Police" NFC Card-Tap Scam (Macau)',
+    slug: 'macau-fake-police-prosecutor-nfc-tap-scam',
+    description: `An elderly Macau resident lost MOP600,000 in a "police-prosecutor" impersonation scam reported to the Judiciary Police (PJ) in March 2026. The victim received a Cantonese-language call from a "+852" Hong Kong number from a caller claiming to be a Wan Chai Police officer, who alleged the victim was implicated in a money-laundering and criminal case in Xiamen and displayed a fabricated arrest warrant to appear credible. To "prove his innocence" and avoid arrest, the victim was instructed to install an unfamiliar mobile app and then hold his bank card against the back of his phone, letting the app read the card's NFC chip and relay the payment data so the scammers could complete unauthorized transactions in real time. This NFC card-clone technique lets fraudsters drain funds without ever needing the card's PIN, magnetic stripe, or physical possession of the card, and has spread from Hong Kong-based "Macau scam" syndicates to victims across the region. The Judiciary Police, which logs dozens of impersonation-of-authority reports every week, reminds residents that genuine Mainland or Hong Kong police and prosecutors never conduct investigations, demand proof of innocence, or collect payments over the phone or through app installations, and urges anyone contacted this way to hang up and verify independently through official hotlines.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'critical',
+    sources: ['Macau Daily Times', 'Judiciary Police of Macau (PJ)'],
+    sourceUrl: 'https://macaudailytimes.com.mo/elderly-man-loses-mop600000-in-fake-police-prosecutor-scam.html',
+    country: 'MO',
+  },
+  {
+    name: 'Fake "Transport Bureau" Traffic Fine Phishing SMS (Macau)',
+    slug: 'macau-transport-bureau-fine-phishing-sms',
+    description: `Macau's Judiciary Police (PJ) issued a public alert in May 2026 after a surge of phishing text messages impersonating the Transport Bureau (DSAT), warning recipients of an "unpaid traffic violation fine" and claiming the debt will block their driver's license renewal unless settled immediately. The message includes a link to a fake website cloned to closely resemble the government's official traffic-fine inquiry page, where victims are prompted to enter their license plate number and credit card details to "settle" the fine. Scammers then use the submitted card data to make unauthorized purchases. The PJ received 219 fraud-related tips over just eight days in May 2026, the large majority — 192 cases — tied to phishing text messages of this kind, with a further 24 involving impersonation of law enforcement or judicial authorities. Police advise residents never to click links in unsolicited texts claiming to be from government departments about fines or penalties, and to check outstanding traffic fines only through the Transport Bureau's official website or app.`,
+    categorySlug: 'phishing',
+    alertLevel: 'high',
+    sources: ['Macau Daily Times', 'Judiciary Police of Macau (PJ)'],
+    sourceUrl: 'https://macaudailytimes.com.mo/police-warn-of-transport-bureau-phishing-scam.html',
+    country: 'MO',
+  },
+);
