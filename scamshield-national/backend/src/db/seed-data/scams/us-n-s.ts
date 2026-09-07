@@ -3584,3 +3584,27 @@ export const UsNS: SeedScam[] = [
     state: 'NC',
   },
 ];
+
+UsNS.push({
+    name: 'Pennsylvania "MyChart" Patient Portal Phishing Scam',
+    slug: 'pennsylvania-mychart-phishing-scam',
+    description: `Pennsylvania Attorney General Dave Sunday warned residents on September 1, 2026 about a phishing scam impersonating MyChart, the online patient portal used by many hospitals and health care providers across the state for messaging doctors, viewing test results, and managing appointments. Scammers send emails or text messages falsely claiming the recipient is eligible to claim a "MyChart Medicare Kit" reward — no such program exists — with a link that, once clicked, is designed to trick the recipient into typing in their MyChart login credentials and other personal information, handing scammers direct access to a patient's actual medical portal account. "Scammers are always looking for new ways to obtain as much of your personal information as possible," Sunday said in announcing the alert. His office flagged several warning signs shared across these messages: an unsolicited offer of a free reward, a request to click a link or "verify" account information, instructions to move the conversation to a computer to unlock or fix an account, and any request to share a password or a one-time verification code, none of which a legitimate health system or MyChart itself would ever ask for by text or email. Pennsylvanians are advised to access MyChart only through the official website or mobile app provided directly by their own medical provider, to delete suspicious messages without opening attachments or clicking links, to never click an "unsubscribe" link inside one of these messages, and to never reply to a text or email with a password or verification code. Anyone who receives one of these messages can file a complaint with the Office of Attorney General online at attorneygeneral.gov, by emailing scams@attorneygeneral.gov, or by calling 1-800-441-2555.`,
+    categorySlug: 'healthcare-fraud',
+    alertLevel: 'medium',
+    sources: ["Pennsylvania Office of Attorney General (Dave Sunday)"],
+    sourceUrl: 'https://www.attorneygeneral.gov/taking-action/ag-sunday-warns-pennsylvanians-of-phishing-scam-targeting-mychart-patient-portal-users/',
+    country: 'US',
+    state: 'PA',
+});
+
+UsNS.push({
+    name: 'South Carolina Unapproved Compounded Weight-Loss Drug Warning',
+    slug: 'south-carolina-compounded-weight-loss-medication-scam',
+    description: `South Carolina Attorney General Alan Wilson issued a consumer alert warning residents against buying unapproved and compounded versions of tirzepatide and semaglutide, the active ingredients behind FDA-approved weight-loss and diabetes drugs sold under brand names including Mounjaro, Zepbound, Wegovy, Rybelsus, and Ozempic. With demand for these drugs still outpacing supply, Wilson's office found unauthorized sellers pushing knockoff versions through compounding pharmacies and outsourcing facilities operating outside their legal bounds, med-spas and wellness centers, general online retailers, and individuals marketing directly on social media — often in forms the real drugs were never tested in or approved for, including pills, sublingual drops, lozenges, patches, and nasal sprays. Because these products skip FDA review entirely, the office warned they may be counterfeit, contaminated, incorrectly dosed, or missing the active ingredient altogether, turning what looks like a shortcut around high prices and shortages into a genuine health hazard. "Purchasing medication that is untested and being marketed through misleading tactics is dangerous to consumers across South Carolina," Wilson said. The alert listed thirteen specific red flags for consumers to watch for, among them a seller offering the drug without any prescription requirement, products labeled "research use only," instructions to mix the medication with other chemicals before use, dosage forms that don't match the FDA-approved injectable, marketing that targets minors, and bulk sales far exceeding a normal three-month supply. Anyone offered one of these products through an unfamiliar pharmacy, med-spa, or social media seller is advised to instead get tirzepatide or semaglutide only through a licensed pharmacy with a valid prescription, and to report suspected deceptive marketing or unsafe products to the South Carolina Attorney General's Office at 1-803-737-3953.`,
+    categorySlug: 'healthcare-fraud',
+    alertLevel: 'medium',
+    sources: ["South Carolina Attorney General's Office (Alan Wilson)"],
+    sourceUrl: 'https://www.scag.gov/about-the-office/news/consumer-alert-attorney-general-alan-wilson-warns-consumers-to-be-cautious-when-purchasing-unapproved-and-compounded-weight-loss-medications/',
+    country: 'US',
+    state: 'SC',
+});

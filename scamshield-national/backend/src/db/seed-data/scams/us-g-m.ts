@@ -3697,3 +3697,15 @@ export const UsGM: SeedScam[] = [
     state: 'MS',
   },
 ];
+
+UsGM.push({
+    name: 'Maryland Deepfake Investment Scam Alert on Meta Platforms',
+    slug: 'maryland-meta-platforms-deepfake-investment-scam',
+    description: `Maryland Attorney General Anthony Brown issued a consumer alert on April 6, 2026 warning residents about a surge of fraudulent investment schemes spreading across Meta's Facebook, Instagram, and WhatsApp platforms, describing three recurring patterns his Securities Division was seeing. In "pump and dump" schemes, fraudsters lure investors into private groups, hype an obscure low-priced stock or cryptocurrency to drive its price up, then quietly sell their own holdings at the peak while everyone who bought in afterward watches the price collapse. In "confidence" scams, a scammer builds what feels like a personal relationship with a target before directing them to a fake trading platform designed to mimic a legitimate brokerage, showing fabricated account gains to convince the victim to keep depositing larger sums before the site and the scammer both disappear. The alert paid particular attention to a newer twist: AI-generated "deepfake" videos of recognizable figures, including business personalities like Kevin O'Leary and Cathie Wood, used without their permission to advertise fraudulent investment opportunities that the real people never endorsed. Warning signs Brown's office flagged include any promise of guaranteed returns — something no legitimate investment ever offers — high-pressure tactics demanding an immediate decision, a push to move the conversation onto an encrypted app like WhatsApp, celebrity endorsements that surface only through AI-generated video, and any request to send cryptocurrency. Maryland investors are advised to verify a person or firm's credentials through FINRA's BrokerCheck, search for existing complaints before committing money, consult a trusted financial professional before investing, watch for subtle deepfake tells like audio that doesn't quite match lip movement, and lock down their own social media privacy settings so scammers can't harvest photos or personal details to impersonate them to friends and family. Complaints can be directed to the Securities Division at securities@oag.state.md.us or the Consumer Protection Division at consumer@oag.state.md.us.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ["Maryland Attorney General's Office (Anthony G. Brown)"],
+    sourceUrl: 'https://oag.maryland.gov/News/pages/CONSUMER-ALERT---Attorney-General-Brown-Issues-Warning-on-Investment-Scams-on-Meta-Platforms-.aspx',
+    country: 'US',
+    state: 'MD',
+});
