@@ -2217,3 +2217,27 @@ UsTZ.push({
     country: 'US',
     state: 'VT',
 });
+
+UsTZ.push({
+    name: 'Tarrant County $250 Million Senior Gold Courier Fraud Network',
+    slug: 'texas-tarrant-county-senior-gold-courier-fraud-network',
+    description: `The Tarrant County District Attorney's Office indicted Muzamil Ahmed, 35, on August 28, 2026 as a central figure in a "federal agent" gold-and-cash impersonation network that prosecutors say caused more than $250 million in losses to over 200 elderly victims in Tarrant County and across the country. According to the indictment, Ahmed operated out of New Jersey rather than Texas, using shell corporations to launder cash and gold bars stolen from older victims and funneling the proceeds through a gold refinery in Florida to convert them into cryptocurrency and untraceable funds; in one documented Tarrant County case cited in the indictment, victims were conned out of between $30,000 and $150,000 in a single incident in November 2025. The underlying scheme follows the pattern investigators have seen nationwide: callers posing as bank fraud investigators or federal agents convince an elderly victim that their identity has been stolen or their bank accounts compromised, then instruct them to withdraw their savings, convert it into gold bars or cash, and hand it to a courier sent to "safeguard" it — after which the money and gold disappear for good. Ahmed was arrested by Port Authority police at John F. Kennedy International Airport as he attempted to board an outbound international flight on the outstanding Tarrant County warrants, and was extradited to Texas to face charges of engaging in organized criminal activity for theft, financial abuse of the elderly, and money laundering; more than 40 people have now been indicted in the broader investigation. "We are dismantling your network," Tarrant County District Attorney Phil Sorrells said in announcing the arrest, warning remaining suspects they "will face justice in Tarrant County." No genuine federal agent, bank investigator, or law enforcement officer will ever instruct someone to liquidate savings into gold or cash and hand it to a courier who arrives at their home or a public meeting spot — that instruction alone is proof of fraud, and anyone who receives it should hang up and independently verify the claim by calling their bank or the FBI directly.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'critical',
+    sources: ['Tarrant County District Attorney\'s Office', 'CBS News Texas', 'NBC 5 Dallas-Fort Worth'],
+    sourceUrl: 'https://www.cbsnews.com/texas/news/tarrant-county-senior-fraud-ring-muzamil-ahmed-arrest-september-2026/',
+    country: 'US',
+    state: 'TX',
+});
+
+UsTZ.push({
+    name: 'Milwaukee TikTok Cloned-Listing Rental Scam',
+    slug: 'wisconsin-milwaukee-tiktok-cloned-listing-rental-scam',
+    description: `A TikTok account discovered by the FOX6 Milwaukee investigative team Contact 6 in September 2026 posted dozens of Milwaukee-area home tour videos lifted directly from real estate agents' own marketing accounts, then re-captioned them as available rentals — often at prices well below market — to lure prospective tenants. Realtor Porsha Bates confirmed one of the stolen clips as her own listing video: "That's 100% my video. The scammers are taking real estate agents' or realtors' videos and turning them into their own videos and then posting them for rent." Roughly half of the properties Contact 6 checked were not for rent at all; several, including a four-bedroom, one-and-a-half-bath house belonging to homeowner Richard Hickles, had a for-sale sign in the yard and were actively listed for sale, not lease, while another property owner, Lamar Walton, said his house already had a purchase offer pending and was never available to rent. Interested renters who messaged the account's listed phone number were told they could schedule a tour only after submitting a rental application and paying a "refundable" $52 fee through a peer-to-peer payment app such as Zelle, Chime, or PayPal — money that, once sent to a scammer, is extremely difficult to recover. TikTok initially left the fraudulent page up even after Hickles reported it himself, and removed it only after Contact 6 flagged it directly to the platform. The FTC's general guidance for rental listings applies directly here: renters should be skeptical of a listing priced noticeably below comparable homes nearby, should independently search the property address to check whether it's actually listed for sale rather than rent, and should never pay an application or "refundable" fee through a peer-to-peer payment app to someone they have not verified as the property's actual owner or a licensed manager.`,
+    categorySlug: 'rental-housing',
+    alertLevel: 'high',
+    sources: ['FOX6 Milwaukee (Contact 6)', 'Federal Trade Commission'],
+    sourceUrl: 'https://www.fox6now.com/news/milwaukee-rental-scam-tiktok-videos',
+    country: 'US',
+    state: 'WI',
+});
