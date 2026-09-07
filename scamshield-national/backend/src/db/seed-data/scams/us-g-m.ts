@@ -4056,3 +4056,27 @@ UsGM.push({
     country: 'US',
     state: 'KY',
 });
+
+UsGM.push({
+    name: 'Baton Rouge "Housing for Heroes" Affordable-Housing Fraud (Bradly Brown)',
+    slug: 'louisiana-baton-rouge-housing-for-heroes-bradly-brown-fraud',
+    description: `Bradly Brown, a Scotlandville developer who owned KMT Holdings and Development, was the driving force behind "Housing for Heroes," a project the East Baton Rouge Metro Council approved for more than $6 million in American Rescue Plan Act funds to build 36 affordable apartments for health care workers and other essential employees on a project Brown pitched at a total cost of over $11 million. Louisiana Attorney General Liz Murrill's office alleges that instead of using the money as represented, Brown used land already pledged to the Housing for Heroes development as collateral to fraudulently obtain a $787,000 loan from the Bank of Montgomery in December 2021 — the bank later sued him civilly over it — while also attempting to defraud two other banks of more than $1.2 million combined and stealing $25,000 in city-parish funds. Brown was arrested and booked into East Baton Rouge Parish Prison in December 2025 on felony theft over $25,000, three counts of bank fraud, illegal transmission of monetary funds, money laundering, and filing false public records, with bond set at $500,000; his case grew out of a broader Attorney General's corruption probe into East Baton Rouge government contracting that has since implicated other city officials and contractors. As of an April 2026 hearing, prosecutors and Brown's defense attorney told the court they were "working to resolve" the case ahead of a trial later set for November 2026. The case is a reminder that a nonprofit-style development pitched as pandemic-relief housing for frontline workers is not automatically insulated from ordinary fraud risk — a local government funding a project with federal relief dollars should verify that the collateral, loans, and disbursements a developer reports match what banks and title records actually show, rather than relying on the developer's own progress claims.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'medium',
+    sources: ['Louisiana Attorney General', 'The Advocate', 'WBRZ'],
+    sourceUrl: 'https://www.theadvocate.com/baton_rouge/baton-rouge-developer-housing-for-heroes-bradly-brown/article_cf702213-9b9b-4aa1-b080-3502bb68b295.html',
+    country: 'US',
+    state: 'LA',
+});
+
+UsGM.push({
+    name: 'Operation Payback MDOC Inmate Identity-Theft Unemployment Fraud',
+    slug: 'mississippi-operation-payback-mdoc-inmate-identity-unemployment-fraud',
+    description: `Mississippi State Auditor Shad White announced the arrests of four people — Felisa Suggs, Nathanial Coleman, P'Trance Fields, and Kavisia Blaylock — as part of "Operation Payback," an ongoing effort by the Auditor's office to recover money lost to fraud during the COVID-19 pandemic. Investigators say Coleman and Fields had close proximity to inmates incarcerated within the Mississippi Department of Corrections and used that access to obtain the inmates' names, dates of birth, and Social Security numbers, then used those stolen identities to submit fraudulent unemployment insurance claims between May and October of 2020. Suggs and Blaylock allegedly helped launder the roughly $58,000 in resulting benefit payments through a mix of CashApp and personal bank accounts, converting the stolen government funds into usable cash. All four defendants face state charges that carry a maximum penalty of 40 years in prison and $35,000 in fines if convicted. The scheme illustrates a distinctive angle on pandemic-era unemployment fraud: rather than inventing fictitious claimants or buying stolen identities on the black market, the perpetrators allegedly exploited their direct physical access to a captive population — inmates who could not easily monitor their own credit or benefit filings from behind bars — to harvest real identifying information at the source. The Auditor's office says the investigation remains active and is continuing to identify additional fraudulent claims tied to the same scheme; anyone who receives a notice about an unemployment claim, tax form, or benefit payment they never filed for should report it immediately to the Mississippi Department of Employment Security and the Office of the State Auditor's fraud hotline.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'medium',
+    sources: ['Mississippi Office of the State Auditor', 'WDAM', 'WJTV'],
+    sourceUrl: 'https://www.wdam.com/2026/08/31/auditor-4-arrested-using-identities-stolen-mdoc-inmates-make-unemployment-claims/',
+    country: 'US',
+    state: 'MS',
+});
