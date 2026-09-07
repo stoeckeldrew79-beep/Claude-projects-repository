@@ -8806,6 +8806,36 @@ Egypt's Ministry of Interior announced on February 24, 2025, that it had arreste
     sourceUrl: 'https://eldiario.com/2026/04/07/ivss-alerto-estafas-redes-sociales-promociones-banco-de-venezuela-sistema-patria/',
     country: 'VE',
   },
+  {
+    name: 'Banco Central del Paraguay Phishing Email Impersonation Scam',
+    slug: 'paraguay-bcp-phishing-email-impersonation-scam',
+    description: `On February 18, 2025, Paraguay's central bank, the Banco Central del Paraguay (BCP), issued a public alert warning that fraudulent emails impersonating the institution were circulating and attempting to steal citizens' sensitive personal and financial information. According to the bank, the messages are built to look like genuine BCP communications, using web links crafted to resemble the bank's real domain closely enough that a hurried reader won't notice the difference, and are designed to do one of two things once a recipient clicks through: harvest personal data through a fake form, or quietly install malicious software on the victim's device. The BCP was explicit that it "never solicits personal data nor banking credentials through electronic mail or text messages," directly rebutting the premise every one of these emails depends on. Rather than pointing to any specific technical fix, the bank's guidance to the public focused on everyday habits: never click a link arriving in an unsolicited email, social media message, or attached document; hover over a link before opening it to see where it actually leads rather than trusting the text displayed; type a bank's web address directly into the browser instead of following a link at all; and report any suspicious message to the relevant security team rather than simply deleting it. The alert reflects a broader, recurring problem in Paraguay, where consumer complaints about phishing emails and messages impersonating banks operating in the country have continued to surface in local reporting well beyond this single alert — a reminder that a message using a bank's name and logo is not, by itself, any proof it actually came from that bank.`,
+    categorySlug: 'phishing',
+    alertLevel: 'high',
+    sources: ['Banco Central del Paraguay (BCP)', 'ABC Color'],
+    sourceUrl: 'https://www.abc.com.py/economia/2025/02/18/alerta-del-bcp-correos-fraudulentos-intentan-estafar-a-la-ciudadania/',
+    country: 'PY',
+  },
+  {
+    name: 'WhatsApp Verification-Code Account Takeover Scam',
+    slug: 'paraguay-whatsapp-verification-code-takeover-scam',
+    description: `Paraguay's Policía Nacional has repeatedly warned the public through 2026 about a fast-spreading WhatsApp account-takeover scheme built almost entirely on social engineering rather than any technical hack. The scam starts when a criminal, having obtained a victim's phone number, attempts to register that number on a device of their own; WhatsApp responds the way it's designed to, sending a legitimate six-digit verification code by SMS to the real owner's phone. The criminal then contacts that owner directly — sometimes posing as an employee of a telecom company, a bank, or WhatsApp itself claiming to perform an "identity validation" for a promotion or to resolve a complaint, and other times impersonating a friend or family member using a stolen profile photo and a copied writing style — and talks the victim into reading that code back to them. Officer David Roldán, a Policía Nacional cybersecurity specialist quoted in an August 8, 2026 police guide on the scam, put it plainly: WhatsApp "hacking" of this kind rarely involves any system vulnerability at all — it exploits human trust instead. Once the account is stolen, the criminal installs it on their own phone, gaining instant access to the victim's contacts and groups, and immediately begins messaging those contacts posing as the real owner, typically claiming a sudden emergency and asking for transfers in the range of one to two million guaraníes to be sent right away. Because the panic and urgency of the message is the entire point, police recommend never sharing a WhatsApp verification code or PIN with anyone for any reason, turning on WhatsApp's two-step verification, periodically reviewing linked devices and closing any session not recognized, and — whenever a contact suddenly asks for money — confirming the request through a traditional phone call rather than replying inside the same app the message arrived in.`,
+    categorySlug: 'account-takeover',
+    alertLevel: 'high',
+    sources: ['Policía Nacional (Paraguay)', 'ABC Color', 'Prensa Mercosur'],
+    sourceUrl: 'https://www.abc.com.py/policiales/2026/08/08/como-evitar-estafas-y-el-hackeo-de-whatsapp-una-guia-de-la-policia-nacional/',
+    country: 'PY',
+  },
+  {
+    name: 'Cloned National ID Card Loan Fraud Scheme',
+    slug: 'paraguay-cloned-id-card-loan-fraud-scheme',
+    description: `Rodney Battilana, a Paraguayan citizen, discovered in January 2026 that he had been targeted by an identity-fraud ring after a debt-collection company contacted him demanding payment on a loan he had never requested. Investigating further, he learned that criminals had built a falsified cédula (national ID card) bearing his real name and personal details, then used it to communicate with credit and financial entities over WhatsApp, applying for financing under his identity with documentation that looked legitimate enough to pass the lenders' checks. To collect and move the money without leaving an obvious trail back to themselves, the ring opened a bank account specifically to receive the fraudulent loan disbursement and then transferred the funds onward through additional accounts. The same group also tried to escalate against Battilana directly, attempting to have his phone line blocked and to gain access to his email account — both of which he managed to stop before they succeeded, but which show the scheme's operators trying to seize even more control over a victim's identity once the initial fraud was in motion. He filed a formal complaint with Paraguay's Ministerio Público (Public Prosecutor's Office), which opened an investigation, and publicly questioned the adequacy of the identity checks financial institutions rely on before disbursing a loan. The case is a reminder that a debt-collection call or letter for a loan you never took out is not a billing mistake to shrug off — it can be the first sign your identity documents have already been cloned and used elsewhere, and it should be reported to the lender, the police, and the public prosecutor's office immediately so the fraudulent account can be frozen before more damage is done.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'high',
+    sources: ['Telefuturo', 'Ministerio Público (Paraguay)'],
+    sourceUrl: 'https://www.telefuturo.com.py/denuncian-millonaria-estafa-mediante-la-clonacion-de-documentos-para-obtener-prestamos',
+    country: 'PY',
+  },
 ];
 
 International.push(
