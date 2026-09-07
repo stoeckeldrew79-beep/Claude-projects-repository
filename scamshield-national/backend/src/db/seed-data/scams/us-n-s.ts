@@ -3528,15 +3528,4 @@ export const UsNS: SeedScam[] = [
     country: 'US',
     state: 'NJ',
   },
-  {
-    name: 'Student Loan Forgiveness Scams Exploiting SAVE Plan Elimination',
-    slug: 'new-york-student-loan-save-plan-elimination-scam',
-    description: `New York Attorney General Letitia James issued a consumer alert on September 2, 2026, warning borrowers that scammers are exploiting the confusion created by the Trump administration's elimination of the Saving on a Valuable Education (SAVE) repayment plan and the phase-out of other income-driven repayment options, which has left many federal student loan borrowers uncertain about which plan they now qualify for or how to re-enroll. James's office said fraudsters are capitalizing on that uncertainty with unsolicited calls, emails, and online ads promising fast, guaranteed loan forgiveness or dramatically lower payments in exchange for an upfront fee, pressuring borrowers to act within a short deadline, and in some cases asking a borrower to sign over power of attorney or hand over their Federal Student Aid ("FSA ID") login credentials. "Federal student loan programs do not charge borrowers to enroll," the alert states, and no private company or individual can guarantee complete forgiveness or push a borrower's debt through the process faster than the loan servicer itself. James warned that handing over FSA ID credentials is especially dangerous because it lets a scammer log into a borrower's account directly and change personal information, payment plans, or contact details without their knowledge. New Yorkers navigating the SAVE plan's elimination are directed to free, legitimate help instead: the Attorney General's own Student Lending Guide, the state's Education Debt Consumer Assistance Program (EDCAP) at 1-888-614-5004, and the National Consumer Law Center's Student Loan Borrower Assistance Project, rather than any company that cold-calls or advertises "forgiveness" for a fee. Anyone who believes they have been targeted by a student loan scam is urged to report it to the New York Attorney General's office at 1-800-771-7755 or ag.ny.gov.`,
-    categorySlug: 'student-loan-education',
-    alertLevel: 'high',
-    sources: ["New York Attorney General's Office (Letitia James)", 'LongIsland.com', 'Fingerlakes1.com'],
-    sourceUrl: 'https://ag.ny.gov/press-release/2026/attorney-general-james-warns-new-yorkers-about-student-loan-scams',
-    country: 'US',
-    state: 'NY',
-  },
 ];
