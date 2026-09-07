@@ -9709,3 +9709,36 @@ International.push(
     country: 'ME',
   },
 );
+
+International.push(
+  {
+    name: 'Eswatini Bank Impersonation OTP Phone Scam',
+    slug: 'eswatini-bank-impersonation-otp-phone-scam',
+    description: `The Royal Eswatini Police Service's Fraud and Commercial Crimes unit has flagged a growing trend in which criminals telephone members of the public while posing as employees of commercial banks, claiming a suspicious transaction has been detected on the victim's account or that the account has been "hacked." The caller then presses the victim to hand over confidential details — card numbers, PINs, passwords, and one-time passwords (OTPs) — under the guise of "verifying" or "securing" the account, information the scammer then uses to drain it. Police recorded 11 reported cases of this specific tactic between April 2025 and March 2026 alone, part of a broader wave of 605 fraud cases totaling over E6.2 million in losses nationwide over the same period. Police stress that no legitimate bank will ever ask a customer to disclose a PIN, password, or OTP over the phone, and urge anyone who receives such a call to hang up and contact their bank directly using the number on the back of their card rather than any number the caller provides.`,
+    categorySlug: 'account-takeover',
+    alertLevel: 'high',
+    sources: ['Royal Eswatini Police Service', 'Times of Eswatini'],
+    sourceUrl: 'https://times.co.sz/news/readmore.php?bhsadjgfoh=EmaSwati+defrauded+E6.2+million+in+cyber+crime&yiphi=4327&bvhdgsj=News',
+    country: 'SZ',
+  },
+  {
+    name: 'Old Coins "Clearance Fee" Purchase Scam',
+    slug: 'eswatini-old-coins-clearance-fee-scam',
+    description: `The Central Bank of Eswatini (CBE) issued a public warning after fraudsters posing as bank officials began approaching members of the public claiming to buy old or discontinued Emalangeni coins on the Bank's behalf for enormous sums — telling victims their coins are worth thousands, or even millions, of Emalangeni. Once a victim is convinced, the scammer instructs them to first pay a so-called "clearance fee" or "release fee" before the promised payout can supposedly be released, then disappears with the fee and never delivers any payment. The Bank named two individuals allegedly linked to the scheme and using specific contact numbers, and stated plainly that the claims are "false, deceptive and fraudulent." The CBE clarified that under the Central Bank of Eswatini Order, genuine exchange of old notes and coins happens at face value and free of charge, and that "no employee, representative or agent of the Central Bank is authorised to demand payments from members of the public" for a currency exchange — anyone who does so is acting unlawfully. The Bank urged the public not to transfer money, share banking details, or engage with anyone claiming to buy old coins for large payouts.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Central Bank of Eswatini', 'Times of Eswatini'],
+    sourceUrl: 'https://times.co.sz/news/readmore.php?bhsadjgfoh=Central+Bank+exposes+old+coins+scam&yiphi=4094&bvhdgsj=News',
+    country: 'SZ',
+  },
+  {
+    name: '"Facata" Mistaken Mobile Money Deposit Scam',
+    slug: 'eswatini-facata-mistaken-mobile-money-deposit-scam',
+    description: `Known locally as the "Facata" scam, this mobile money and e-wallet fraud has become the most commonly reported cybercrime in Eswatini, with the Royal Eswatini Police Service, the Central Bank of Eswatini, and the Eswatini Communications Commission (ESCCOM) recording 1,176 cases and E7.3 million in losses between September 2024 and September 2025 alone. The scam typically unfolds in three steps: fraudsters first send a text message impersonating a bank or mobile money provider, falsely claiming money has been deposited into the victim's account or e-wallet by mistake; a second contact then follows — a call from someone posing as a bank representative, or even a supposed relative — pressuring the victim to urgently "return" the mistaken deposit; believing they are simply correcting an error, the victim authorizes a real transfer of their own funds to the scammer's account, even though no deposit was ever actually made. ESCCOM has separately warned of related fake-competition and prize variants, where scammers announce on social media that a victim has won a cash prize supposedly already deposited on their behalf, then ask for the victim's mobile money PIN or a one-time code to "release" it — handing scammers everything they need to empty the account. Authorities urge the public to independently verify any deposit directly with their bank or provider before acting, to never share a mobile money PIN or OTP with anyone, and to report suspected cases to the nearest police station immediately, since early reporting improves the odds of recovering stolen funds.`,
+    categorySlug: 'fake-check-overpayment',
+    alertLevel: 'critical',
+    sources: ['Royal Eswatini Police Service', 'Central Bank of Eswatini', 'Eswatini Communications Commission (ESCCOM)'],
+    sourceUrl: 'https://fraudalert.co.za/the-number-1-general-fraud-scam-in-eswatini-during-2025/',
+    country: 'SZ',
+  },
+);
