@@ -4487,3 +4487,24 @@ Rather than go to trial, Armstrong settled with the federal government in April 
 The case is a useful reminder that "fraud" in the legal sense doesn't require a con artist's opening pitch or a fake investment prospectus — it can also mean collecting government money under a contract whose basic conditions, as here, turned out not to have been true. The same False Claims Act tool used against defense contractors and healthcare billing schemes elsewhere in this collection applied just as directly to a professional sports sponsorship once the government concluded it had been paying for something that didn't exist.`,
   },
 );
+
+NotoriousGM.push(
+  {
+    title: `John Gilbert Graham: The Son Who Bombed His Mother's Plane for the Insurance Money`,
+    slug: 'john-gilbert-graham-flight-629-insurance-fraud-bombing',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://en.wikipedia.org/wiki/United_Air_Lines_Flight_629',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Douglas_DC-6B_Western_Air_Lines_(5730865790).jpg?width=1200',
+    coverImageCredit: 'Photo: Bill Larkins, Wikimedia Commons (CC BY-SA 2.0) — a Douglas DC-6B of the same type and era as the aircraft Graham bombed',
+    coverImagePosition: 50,
+    // representative photo — different airline, same aircraft type and era; replace with an exact match if found
+    body: `John Gilbert Graham grew up resenting his mother, Daisie Eldora King, who had placed him in a Catholic orphanage for several years of his childhood. By 1955 he was 23, living in Denver, and already carrying a criminal record that included a 1951 forgery arrest — a pattern of pushing past the truth for financial gain that would soon escalate far beyond forged checks. He and his mother jointly ran a drive-in restaurant in Denver, the Crown-A Drive-In, which had previously exploded under circumstances that let Graham collect on its property insurance without ever being definitively tied to the blast.
+
+In the fall of 1955, King, then 53, booked a trip on United Air Lines Flight 629, a Douglas DC-6B scheduled to fly from Denver's Stapleton Airport through Portland to Seattle on November 1. Before she left, Graham took out $37,500 in life insurance policies on her — worth more than $450,000 today — in addition to a policy sold from a vending machine at the airport itself, standard practice for air travelers at the time. Unknown to Graham, his mother had not actually signed either set of policies, which would have made them worthless even if his plan had gone undiscovered.
+
+Graham built a bomb from dynamite, binding several sticks together with cord and rigging two blasting caps in case one failed to ignite, and packed it inside a gift-wrapped package he placed in his mother's checked luggage. Flight 629 took off from Stapleton at 6:52 p.m. on November 1, 1955, and exploded roughly eight miles east of Longmont, Colorado, at 7:03 p.m., killing all 44 people aboard — 39 passengers and 5 crew, including King. It remains the deadliest act of mass murder in Colorado history.
+
+Investigators recovered fragments of unusual sheet metal from the wreckage coated in soot containing chemical byproducts of a dynamite explosion, pointing to a bomb rather than mechanical failure. That physical evidence, combined with Graham's insurance policies on his mother and the earlier drive-in explosion, focused investigators' attention on him within days. Confronted with the evidence, Graham confessed on November 13, 1955, describing in detail how he had assembled and packed the device. Because no federal law at the time criminalized bombing a commercial aircraft, Colorado prosecutors charged him only with the first-degree murder of his mother, the sole victim within the state's jurisdiction, rather than all 44 deaths. A jury convicted him after a widely covered 1956 trial, and he was executed in the gas chamber at the Colorado State Penitentiary on January 11, 1957. The following year, prompted in part by the case, Congress passed and President Eisenhower signed legislation making it a federal crime to destroy a civil aircraft — closing the legal gap that had let one insurance-fraud scheme end in mass murder before it could be prosecuted as anything more than the killing of a single victim.`,
+  },
+);

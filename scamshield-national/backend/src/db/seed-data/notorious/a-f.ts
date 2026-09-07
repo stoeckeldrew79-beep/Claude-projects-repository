@@ -4164,3 +4164,24 @@ The scheme unraveled in December 1993, when McNall defaulted on a $90 million lo
 U.S. District Judge Richard Paez sentenced McNall on January 9, 1997, to 70 months in federal prison and ordered him to pay $5 million in restitution. He surrendered that March to the minimum-security federal prison camp at Lompoc, California, and was released in 2001 after roughly 13 months off his term for good behavior, with his probation ending in 2006. McNall later published a memoir, "Fun While It Lasted" (2003), and returned to work in the entertainment industry. His case remains a standard reference point for how a run of real, visible success — a superstar trade, a championship, a celebrated board chairmanship — can sit directly on top of a financing scheme in which the same collateral is quietly promised to lender after lender, with each new loan simply buying time before the last one comes due.`,
   },
 );
+
+NotoriousAF.push(
+  {
+    title: `Brian Molony: The CIBC Loans Officer Who Bankrolled His Own Gambling Habit With the Bank's Money`,
+    slug: 'brian-molony-cibc-embezzlement-gambling-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://en.wikipedia.org/wiki/Brian_Molony',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/From_Bally%27s_Atlantic_City_td_(2019-05-01)_10_-_Caesars.jpg?width=1200',
+    coverImageCredit: 'Photo: Tdorante10, Wikimedia Commons (CC BY-SA 4.0) — Caesars Atlantic City, where Molony gambled away the money he stole',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
+    body: `Brian Molony was, by his early twenties, considered one of the rising stars of the Canadian Imperial Bank of Commerce (CIBC), promoted to assistant manager at a Toronto branch and trusted with the authority to approve commercial loans on his own signature. He was also, privately, in the grip of a gambling addiction — and starting on February 7, 1981, he began using that lending authority to feed it, writing fraudulent loans in the names of real and fictitious companies and diverting the money to himself rather than to any actual borrower.
+
+To move the stolen funds into cash he could gamble with, Molony routed much of it through California Clearing Corp., a company set up by Desert Palace, the corporate entity behind Caesars Palace and its sister properties in Las Vegas and Atlantic City, specifically to handle discretionary deposits and markers for high-rolling gamblers. Casino staff at Caesars Atlantic City, delighted to have found an apparently bottomless customer, extended him credit lines, comped suites and flights, and never asked where a mid-level bank employee in his twenties was finding millions of dollars to lose at the tables. Over roughly 18 months, Molony funneled a total of $10.2 million in fraudulent CIBC loans into his gambling, chasing losses with ever-larger bets in the belief, common to compulsive gamblers, that one more win would let him quietly repay everything before anyone noticed.
+
+The scheme ended the way it started: at the tables. On April 26, 1982, Molony lost roughly $1 million in a single session at Caesars Atlantic City. The next day, April 27, 1982, he was arrested. Facing overwhelming evidence of the fraudulent loans, he pleaded guilty to embezzlement in November 1983. Defended by prominent Toronto criminal lawyer Edward Greenspan, Molony was sentenced to six years in prison — a term he served only in part, paroled after roughly two years once he agreed to a program of restitution and community service that included speaking publicly about compulsive gambling. CIBC separately pursued Caesars in court over the casino's role in extending credit funded by the stolen money, reaching a settlement with the bank for an undisclosed sum in 1986.
+
+Molony has not gambled since his arrest, has spoken for decades about gambling addiction, and works as a business consultant. His case, chronicled in journalist Gary Stephen Ross's 1987 book "Stung: The Incredible Obsession of Brian Molony" and dramatized in the 2003 film "Owning Mahowny" starring Philip Seymour Hoffman, remains a standard reference point for how a compulsive gambler with real institutional trust and real signing authority can turn a bank's own lending process into a private line of credit — one that, unlike an ordinary loan, no one was ever going to be repaid.`,
+  },
+);
