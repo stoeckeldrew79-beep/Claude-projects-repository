@@ -5570,4 +5570,15 @@ export const UsAF: SeedScam[] = [
     country: 'US',
     state: 'CO',
   },
+  {
+    name: 'California Job Recruitment Scam Surge',
+    slug: 'california-job-recruitment-scam-surge',
+    description: `California Attorney General Rob Bonta issued a consumer alert on April 10, 2025, warning job seekers about a surge in recruitment scams in which fraudsters pose as employers, staffing agencies, or recruiters — contacting victims by text, phone call, or fake job-board postings — to promise high-paying, often remote positions with urgent hiring timelines and little to no qualifications required. Once a target expresses interest, scammers pursue money or data through several tracks: charging upfront fees for "training," background checks, or equipment; requesting a Social Security number, bank account, or cryptocurrency wallet details under the guise of payroll setup; sending a fraudulent check for supplies and asking the victim to wire back the "overage"; or recruiting the victim as an unwitting "money mule" to receive and forward stolen funds through their own bank account, exposing them to potential criminal liability. Bonta's office noted that reported losses to employment scams nearly tripled nationally between 2020 and 2024, reaching $501 million in 2024 alone, and flagged warning signs including offers of a government job for a fee (real government hiring is always free), companies with no verifiable physical address, interviews conducted only by text or chat, and any pressure to respond or pay immediately. The alert urges job seekers to independently verify a company's identity and open positions through its official website and phone number rather than contact information supplied in the unsolicited message, to never pay to get a job or receive job-related equipment, and to report suspected scams to the FBI's Internet Crime Complaint Center, the FTC, or the California Attorney General's office at oag.ca.gov/report.`,
+    categorySlug: 'employment-scams',
+    alertLevel: 'high',
+    sources: ["California Attorney General's Office (Rob Bonta)"],
+    sourceUrl: 'https://oag.ca.gov/news/press-releases/attorney-general-bonta-alerts-californians-job-recruitment-scams',
+    country: 'US',
+    state: 'CA',
+  },
 ];

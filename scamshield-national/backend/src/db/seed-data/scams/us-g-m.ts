@@ -3542,4 +3542,15 @@ export const UsGM: SeedScam[] = [
     sources: ['Michigan Attorney General'],
     sourceUrl: 'https://www.michigan.gov/ag/news/press-releases/2026/03/20/ag-nessel-issues-new-consumer-alert-on-toll-or-ticket-scams',
   },
+  {
+    name: 'Illinois Meta Platform Investment and Deepfake Scam',
+    slug: 'illinois-meta-platform-investment-deepfake-scam',
+    description: `Illinois Attorney General Kwame Raoul issued an investor alert on April 6, 2026, warning residents about a wave of fraudulent investment schemes spreading across Meta's platforms — Facebook, Instagram, and WhatsApp — that increasingly rely on deceptive advertisements and AI-generated deepfake video and audio to lend the scams false credibility. In "pump and dump" schemes, victims are drawn in by ads using the unauthorized likeness of well-known financial figures such as Cathie Wood, Joe Kernen, and Kevin O'Leary, then moved off-platform into encrypted chats on WhatsApp where "expert" tips steer them toward low-priced stocks or cryptocurrency tokens that briefly show paper gains before the organizers sell their own holdings and the price collapses, wiping out the group. Separately, "confidence" scams build a trusted relationship before directing the victim to a fake trading platform that permits an initial small withdrawal to prove it is "real," only to invent tax bills, processing fees, or account-verification charges once the victim tries to withdraw larger sums, at which point the operators vanish with the funds. Raoul's office specifically flagged the growing use of deepfake technology — AI-generated videos and images of recognizable public figures endorsing obscure crypto platforms — noting that slightly "off" audio or lip movements that do not quite match speech are a warning sign. The alert reminds Illinoisans that most legitimate broker-dealers do not solicit investment strategies through social media ads, that cryptocurrency transactions are typically irreversible once sent, and urges anyone who suspects a scam to keep records of all communications and report it to the Illinois Attorney General's Consumer Fraud Bureau.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ["Illinois Attorney General's Office (Kwame Raoul)"],
+    sourceUrl: 'https://illinoisattorneygeneral.gov/news/story/consumer-alertattorney-general-raoul-warns-illinoisans-of-investment-scams-posted-on-meta-platforms',
+    country: 'US',
+    state: 'IL',
+  },
 ];
