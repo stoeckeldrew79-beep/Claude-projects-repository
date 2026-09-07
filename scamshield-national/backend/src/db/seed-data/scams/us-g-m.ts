@@ -3663,4 +3663,15 @@ export const UsGM: SeedScam[] = [
     country: 'US',
     state: 'IL',
   },
+{
+    name: 'Seymour, Missouri Fellow-Inmate Identity Theft Fraud Scheme',
+    slug: 'missouri-seymour-inmate-identity-theft-fraud-scheme',
+    description: `Renee Delann Clouse, 56, of Seymour, Missouri, was sentenced in federal court in the Western District of Missouri to 10 years in prison without parole for an $850,000-plus identity theft and fraud scheme built entirely on personal information she gathered from fellow inmates while serving a state sentence on a drug conviction. After her release, Clouse used that stolen identity information to fraudulently obtain federal student loan funds in the names of 18 other people, totaling $285,435 disbursed directly to her along with more than $500,000 sent to educational institutions on those loans, and to file for fraudulent IRS tax refunds using the identities of 10 more individuals, totaling $53,174 — a combined loss of $857,618. Prosecutors said Clouse continued opening new fraudulent loans and refund claims even after learning she was under federal investigation and after agreeing to plead guilty, only stopping once she was taken into custody. The court ordered her to pay $857,618 in restitution and to forfeit an equal amount to the government. The case is a reminder that identity theft doesn't require a stranger or a stolen database — anyone whose Social Security number, date of birth, or other identifying information has passed through an untrusted hand, including a shared living situation, is exposed, and periodically checking a free credit report and an IRS account transcript for unfamiliar loans or filings is one of the few ways such fraud gets caught before it grows this large.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office for the Western District of Missouri", 'KY3', 'KTTN'],
+    sourceUrl: 'https://www.justice.gov/usao-wdmo/pr/seymour-woman-sentenced-850000-fraud-scheme',
+    country: 'US',
+    state: 'MO',
+  },
 ];

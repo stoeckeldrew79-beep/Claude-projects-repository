@@ -4060,4 +4060,24 @@ The fallout moved from daytime television into federal court. Readers who felt t
 The Frey case became a touchstone in publishing for how far "creative nonfiction" could stretch before it became fraud, and for how a celebrity endorsement can inflate a book's stakes well beyond its author's control. The settlement closed out the litigation permanently in 2006, with no further claims process or appeal; Frey went on to write further fiction and to found a commercial book-packaging company, but "A Million Little Pieces" remains the defining example of a bestseller sold as truth that a publisher was ultimately made to pay for as fiction.`,
     sourceUrl: 'http://www.thesmokinggun.com/documents/celebrity/million-little-lies',
   },
+  {
+    title: 'David Stein: The Forger Who Got Picasso to Authenticate His Own Fake',
+    slug: 'david-stein-chagall-picasso-art-forger',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://en.wikipedia.org/wiki/David_Stein_(art_forger)',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Yury_Pen_-_Portrait_of_Marc_Chagall.jpg?width=1200',
+    coverImageCredit: 'Yury Pen, "Portrait of Marc Chagall," c. 1914 (public domain) — Chagall was the artist whose discovery of a fake unraveled Stein\'s scheme',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait of Stein if found
+    body: `David Stein was born Henri Haddad in Alexandria, Egypt, on January 27, 1935, and had already been convicted of theft multiple times by French courts before he reinvented himself, in the mid-1960s, as an art dealer and forger. Working under at least fifteen aliases across Paris, Palm Beach, and New York, Stein specialized in the modernist masters then commanding the highest prices in the market — Marc Chagall, Pablo Picasso, Georges Braque, Paul Klee, Joan Miró, Jean Cocteau, Georges Rouault, Amedeo Modigliani, and Maurice Utrillo among them — producing both the paintings and works on paper themselves and the paper trail meant to make them look legitimate.
+
+Stein's sales method leaned as heavily on psychology as on brushwork. He would approach collectors and dealers claiming to represent Sotheby's or a well-placed private seller, then offer a purported Chagall or Modigliani valued at two to four million dollars for a fraction of that price — reportedly around $800,000 — framing the discount as an insider's favor rather than a warning sign. His technical skill was good enough that, according to accounts of his career, he once had a forged Picasso oil authenticated as genuine by Picasso himself.
+
+The scheme unraveled in 1967, when Marc Chagall was notified that paintings attributed to him were being exhibited and sold at a New York gallery. Chagall examined the works, declared them fakes, and notified authorities, triggering Stein's arrest. Prosecutors later found that other dealers who had unknowingly bought or sold Stein's forgeries were reluctant to cooperate with the investigation, wary that testifying would draw attention to how easily their own supposed expertise had been fooled — a dynamic that has complicated art-fraud prosecutions before and since. Stein was convicted on six counts of art forgery and grand larceny and sentenced to prison in the United States.
+
+After serving his American sentence, Stein was deported to France, where he was prosecuted again and served an additional prison term for forgery. French authorities allowed him to keep painting behind bars, this time under his own name rather than as an imitation of someone else's, and in April 1969 a London gallery exhibited and sold a batch of these prison-made works — turning his notoriety as a caught forger into a legitimate, if unusual, art career. He continued exhibiting and selling paintings under his own name for the rest of his life, eventually settling in Manhattan by the late 1980s, where he appeared as an actor playing an art critic in the 1988 film "The Moderns."
+
+Even his rehabilitation carried a footnote of deception: in 1989, comic-art specialists identified a set of fake Andy Warhol "Superman" collages that had been included in a Warhol retrospective at the Museum of Modern Art as Stein's work — evidence that, more than two decades after Chagall first exposed him, he had never entirely stopped forging. Stein died in October 1999 in Bordeaux, France, of cancer, survived by three children. His career remains a touchstone in the art world for how a forger's talent alone was never the real weapon — it was collectors' and dealers' reluctance to look a suspiciously good deal in the mouth.`,
+  },
 );

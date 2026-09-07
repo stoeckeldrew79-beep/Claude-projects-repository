@@ -2066,4 +2066,15 @@ export const UsTZ: SeedScam[] = [
     country: 'US',
     state: 'UT',
   },
+{
+    name: 'Wauwatosa Fake Investment Advisor Retirement Fraud (Robert Starnes)',
+    slug: 'wisconsin-wauwatosa-robert-starnes-investment-advisor-fraud',
+    description: `Robert C. Starnes, 66, of Wauwatosa, Wisconsin, was sentenced in federal court in the Eastern District of Wisconsin on November 5, 2025 to 40 months in prison for running a multi-year investment fraud scheme through his firm, Robert C. Starnes Financial Services. Holding himself out to friends, friends of friends, and family members as a legitimate investment broker and retirement advisor, Starnes persuaded more than a dozen victims to hand over their retirement savings, promising he would grow the funds through his investment strategies. Rather than investing any of it, Starnes deposited the checks directly into his own personal bank account and spent the money on his own expenses, all while sending victims fabricated account statements showing their balances steadily growing. Acting U.S. Attorney Richard G. Frohling said the sentence "takes into account both the significant financial losses caused by the defendant's scheme and the fact that he abused the trust of his victims," and the sentencing judge noted that Starnes's victims were ordinary, hardworking families rather than wealthy investors who could absorb the loss. In addition to the prison term, Starnes was ordered to pay $3,093,304.17 in restitution and to serve three years of supervised release following his sentence. The case, investigated by the Wisconsin Department of Justice's Division of Criminal Investigation and IRS Criminal Investigation, is a reminder that a personal or family connection to someone offering to manage retirement savings is not a substitute for verifying their license and registration — a real investment advisor's background and disciplinary history can be checked for free through FINRA's BrokerCheck or the SEC's Investment Adviser Public Disclosure database before signing over a single check.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office for the Eastern District of Wisconsin", 'Wisconsin Department of Justice', 'IRS Criminal Investigation'],
+    sourceUrl: 'https://www.justice.gov/usao-edwi/pr/financial-advisor-sentenced-investment-fraud-scheme',
+    country: 'US',
+    state: 'WI',
+  },
 ];
