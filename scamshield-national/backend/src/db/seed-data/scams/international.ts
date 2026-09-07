@@ -10546,3 +10546,26 @@ International.push(
     country: 'AD',
   },
 );
+
+International.push(
+  {
+    name: 'Puerto Rico Fake Governor AI Deepfake Social Security Investment Scam',
+    slug: 'puerto-rico-fake-governor-ai-deepfake-social-security-investment-scam',
+    description: `Puerto Rico's Department of Consumer Affairs (DACO) warned in April 2026 about a highly elaborate fraud scheme circulating by text message and email that uses an AI-manipulated image of Governor Jenniffer González to lend the pitch false credibility. The message tells recipients they can deposit $250 into a supposed "personal Social Security account" and receive a $12,500 payout in less than 30 days, a return so implausible that DACO Secretary Hiram Torres Montalvo singled it out as a warning sign on its own. Clicking the embedded link does more than solicit the deposit — DACO said the link can also give scammers access to the victim's mobile device or computer. The agency noted the scheme is deliberately aimed at older adults, who make up roughly 26.4% of Puerto Rico's population, and said using the Governor's image and the government's name is a calculated strategy to manipulate public trust. DACO urged residents never to click links promising government payouts received by text or email, to verify any purported government program only through the agency's official channels, and to report suspected fraud to DACO at (787) 722-7555 or by email to confidencia@daco.pr.gov.`,
+    categorySlug: 'ai-deepfake-scams',
+    alertLevel: 'high',
+    sources: ['Departamento de Asuntos del Consumidor de Puerto Rico (DACO)', 'Metro Puerto Rico', 'El Nuevo Día'],
+    sourceUrl: 'https://www.metro.pr/noticias/2026/04/13/daco-alerta-sobre-esquema-de-fraude-que-utiliza-imagen-de-la-gobernadora/',
+    country: 'PR',
+  },
+  {
+    name: 'Puerto Rico Fake LUMA Energy Disconnection Robocall Scam',
+    slug: 'puerto-rico-fake-luma-energy-disconnection-robocall-scam',
+    description: `Puerto Rico's Department of Consumer Affairs (DACO) issued an alert about a robocall scheme in which automated calls claim the recipient owes an overdue balance to LUMA Energy, the utility that manages the island's electrical transmission and distribution, and threaten to cut off electric service within hours unless payment is made immediately. DACO said the calls arrive from numbers with 1-800 and 1-877 prefixes that appear to be legitimate toll-free lines, but investigators found the caller ID had been spoofed using AI-based number-generation techniques, with the calls ultimately traced back to origins outside Puerto Rico. LUMA Energy confirmed publicly that it does not call customers to demand immediate payment or threaten same-day disconnection, and that any real account issue can be verified through its official website or app rather than by trusting an inbound call. DACO advised residents who receive such a call to hang up without providing any personal or financial information — including full name, date of birth, Social Security number, or bank account details — to verify their account status directly through LUMA's official channels, and to report the call to DACO through its "DACO A Tu Favor" social media accounts or to the Puerto Rico Police Department.`,
+    categorySlug: 'utility-scams',
+    alertLevel: 'high',
+    sources: ['Departamento de Asuntos del Consumidor de Puerto Rico (DACO)', 'Telemundo Puerto Rico', 'El Vocero', 'WIPR'],
+    sourceUrl: 'https://www.telemundopr.com/noticias/puerto-rico/daco-alerta-sobre-esquema-de-fraude-asociado-al-corte-del-servicio-electrico/2827651/',
+    country: 'PR',
+  },
+);
