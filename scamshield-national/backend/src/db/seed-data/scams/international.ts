@@ -9841,3 +9841,26 @@ International.push(
     country: 'MZ',
   },
 );
+
+International.push(
+  {
+    name: 'Foreign Operator Pyramid Investment Scheme',
+    slug: 'vanuatu-pyramid-investment-scheme',
+    description: `Vanuatu's Department of Immigration classified a French national as a Prohibited Immigrant in January 2026 after he was alleged to have run an unlicensed pyramid-style investment scheme that collected more than VT20 million from over 2,000 Ni-Vanuatu participants. The man had entered Vanuatu as a tourist and, without any legal authorization to operate an investment business, recruited participants with promises of "quick and high returns" — the classic hallmark of a scheme that pays early participants out of money collected from later ones rather than from any real business activity. Victims reported that payments stopped once large sums had already been collected, leaving them with no way to recover their money. A government spokesperson said "the government is taking this matter seriously," adding that Vanuatu "will not tolerate individuals who exploit our people through illegal schemes under the guise of business or investment." The operator's voluntary departure from the country was arranged for the weekend following the announcement, while police and other authorities continued gathering evidence to determine whether criminal and financial-law charges would follow. Commentators have noted that this is only the latest in a recurring pattern in Vanuatu, where earlier pyramid schemes — including one in the mid-2000s that promised returns supposedly sourced from Singapore — and more recent Ponzi-style schemes marketed through social media and word of mouth have repeatedly drawn in hundreds or thousands of participants with promises of guaranteed, unusually high returns.`,
+    categorySlug: 'ponzi-pyramid-schemes',
+    alertLevel: 'high',
+    sources: ['Vanuatu Daily Post', 'Vanuatu Ministry of Internal Affairs'],
+    sourceUrl: 'https://www.dailypost.vu/news/alleged-pyramid-scheme-operator-classified-as-prohibited-immigrant/article_8ae6c881-6f31-543d-9499-8df17f927c1d.html',
+    country: 'VU',
+  },
+  {
+    name: 'ANZ Bank Impersonation Phishing Email Scam',
+    slug: 'vanuatu-anz-bank-phishing-scam',
+    description: `ANZ Vanuatu issued a public warning after fraudsters began sending fake emails impersonating the bank to trick customers into handing over their account credentials. The phishing emails falsely claim that "an incoming deposit has been put on hold" and that the recipient's account "needs further verification" or risks being suspended, creating a sense of urgency designed to make the victim act before thinking. The message directs the customer to click a link and enter sensitive details such as their Customer Registration Number, username, password, or PIN, which the scammers then use to take over the account. ANZ Vanuatu Country Head Terence Low said the bank issued the alert to protect customers from the threat, and stressed that ANZ "will never contact customers asking for their account details or login details" and will never ask a customer to click a link it has sent them — customers should always type the bank's web address directly into their browser rather than following a link in an email. The bank advised anyone who receives a suspicious message to avoid clicking any links or attachments and to verify it by contacting the ANZ Contact Centre, visiting a branch in person, or using the secure BankMail feature inside ANZ Internet Banking, rather than replying to the email or calling any number it contains.`,
+    categorySlug: 'phishing',
+    alertLevel: 'medium',
+    sources: ['ANZ Vanuatu', 'Vanuatu Business Review'],
+    sourceUrl: 'https://vbr.vu/news/anz-vanuatu-warns-customers-about-new-phishing-scam/',
+    country: 'VU',
+  },
+);
