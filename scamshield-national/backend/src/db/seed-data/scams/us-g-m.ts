@@ -3721,3 +3721,28 @@ UsGM.push({
     country: 'US',
     state: 'LA',
 });
+
+UsGM.push({
+    name: 'Hawaii "FCC Money-Laundering Investigation" Impersonation Scam',
+    slug: 'hawaii-fcc-dc-police-impersonation-money-laundering-scam',
+    description: `The Hawai'i Police Department warned Big Island residents on July 15, 2026 about an elaborate, multi-stage government impersonation scam after a Hawai'i Island man lost a substantial sum of money to it. The scheme began with a phone call from someone claiming to represent the Federal Communications Commission, who falsely told the victim his phone number had been linked to a criminal money-laundering investigation before transferring him to a second scammer posing as an officer with the Washington, D.C. Police Department. That fake officer instructed the victim to download WhatsApp so the "investigation" could continue over an encrypted channel, then spent the following weeks convincing him he was the target of a real federal case, that an arrest warrant had been issued, that his bail had been set at $1.75 million, and that he faced seven to fifteen years in prison unless he cooperated — pressure that led him to send money through multiple wire transfers before he realized he had been defrauded. The Hawai'i Police Department stressed that no genuine government agency will ever instruct someone to communicate exclusively through WhatsApp or another messaging app as part of an investigation, demand money to avoid arrest, require bail to be paid by wire transfer or cryptocurrency, tell a person to keep an investigation secret from family, direct someone to buy a prepaid cellphone, or ask for a transfer to another account for "verification" or "safekeeping" — any one of those instructions is itself proof of a scam regardless of how convincing the caller sounds. Anyone who receives a similar call is advised to hang up immediately, avoid sending money or personal information, independently look up and call the actual agency involved to verify any claim, and consult a trusted family member before transferring any funds. Suspected scams can be reported to the Hawai'i Police Department's non-emergency line at 808-935-3311 or to the FBI's Internet Crime Complaint Center at ic3.gov.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ["Hawai'i Police Department", 'Big Island Now', 'KHON2'],
+    sourceUrl: 'https://www.hawaiipolice.gov/police-warn-public-about-government-impersonation-scam/',
+    country: 'US',
+    state: 'HI',
+});
+
+UsGM.push({
+    name: 'Massachusetts Illegal Sports-Betting Platform Warning Ahead of the 2026 FIFA World Cup',
+    slug: 'massachusetts-illegal-sports-betting-fifa-world-cup-scam',
+    description: `With Massachusetts hosting matches during the 2026 FIFA World Cup, the Massachusetts Attorney General's Office, the Massachusetts Gaming Commission, and the Massachusetts State Lottery Commission issued a joint consumer advisory on June 5, 2026 warning residents and visiting fans away from unlicensed, offshore sports-betting websites and apps that were expected to court the surge of World Cup wagering interest. Attorney General Andrea Joy Campbell said "Massachusetts residents should know illegal gaming platforms expose them to fraud, identity theft, and unpaid winnings" — because these sites operate outside state licensing and oversight, a bettor who deposits money has no consumer protections if the platform manipulates odds, refuses to pay out a legitimate win, or simply disappears with account balances once the tournament ends, and any personal or financial information entered to set up an account is likewise unprotected by the safeguards state law requires of licensed operators. The advisory was paired with the Gaming Commission's "Safer Bets Start Here" awareness campaign, and Commission Chair Jordan Maynard noted that Massachusetts has licensed three retail and seven online sportsbooks to give bettors a regulated, legal alternative. Officials urged the public to check for the Massachusetts Gaming Commission's official seal of approval before using any betting platform, to be wary of unlicensed operators specifically targeting vulnerable bettors including those under 21, to keep personal and financial information away from unverified gaming sites and apps, and to use the state's PlayWell resources for responsible-gaming information and voluntary self-exclusion if needed. Consumers with concerns about an illegal gaming operator can file a tip online with the Attorney General's Gaming Enforcement Division or call 617-963-2223.`,
+    categorySlug: 'lottery-sweepstakes-scams',
+    alertLevel: 'medium',
+    sources: ["Massachusetts Attorney General's Office (Andrea Joy Campbell)", 'Massachusetts Gaming Commission', 'Massachusetts State Lottery Commission'],
+    sourceUrl: 'https://www.mass.gov/news/ags-office-gaming-commission-and-state-lottery-issue-consumer-advisory-ahead-of-2026-fifa-world-cup',
+    country: 'US',
+    state: 'MA',
+});
+
