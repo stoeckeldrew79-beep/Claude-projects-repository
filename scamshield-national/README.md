@@ -197,6 +197,41 @@ Example crontab entry for a daily 6am run:
 Like `draft-articles`, nothing here reaches a real subscriber automatically — every candidate
 sits in the admin review queue until approved.
 
+## Content generation (Anthropic API)
+
+`npm run generate-scams` researches real, currently-reported scams and appends them to the
+seed shards. It bills the Anthropic API directly (`ANTHROPIC_API_KEY`), so it keeps running
+when a Claude subscription's weekly allowance is spent. **It writes nothing without
+`--apply`** — the default is a dry run that prints what it would add, including the raw
+research findings.
+
+`SCAMSHIELD_TARGET` chooses what a run goes after:
+
+| Value | Targets |
+| --- | --- |
+| unset | Mixed: mostly US-national, roughly a third international |
+| `state` | The US state with the fewest documented entries |
+| `us` | US-national |
+| `international` | The non-US country with the fewest entries |
+
+State mode is what grows the per-state pages. It picks its target from the corpus at run
+time rather than a stored rotation cursor, so a missed or failed run costs nothing and
+coverage self-levels — the thinnest state is always next. Every entry it accepts must carry
+that state; an untagged nationwide scam is rejected rather than written, because writing it
+would grow the corpus while leaving the state exactly as thin as it was.
+
+```
+# See what a state run would add, without writing or spending on a write
+SCAMSHIELD_TARGET=state npm run generate-scams
+
+# Actually write it
+SCAMSHIELD_TARGET=state npm run generate-scams -- --apply
+```
+
+Both schedules run in GitHub Actions (`.github/workflows/generate-scam-entries.yml` for the
+national run, `generate-state-scam-entries.yml` for the state run). They share a concurrency
+group so they never race each other's push to `main`, and each typechecks before committing.
+
 ## Public phone number
 
 `VITE_PUBLIC_PHONE` (frontend `.env`) controls the "Call us" link shown in the header and
