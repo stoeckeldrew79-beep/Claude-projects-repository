@@ -2181,3 +2181,15 @@ UsTZ.push({
     country: 'US',
     state: 'WI',
 });
+
+UsTZ.push({
+    name: 'Urban Armz Fake Ukraine First-Responder Ammunition Donation Scheme',
+    slug: 'utah-urban-armz-ukraine-first-responder-donation-fraud',
+    description: `John Earl Donaldson, 32, of Saratoga Springs, Utah — a former federal tribal police officer — ran a Utah company called Urban Armz LLC that told prospective donors and customers it could supply large quantities of ammunition and equipment to help first responders operating in Ukrainian war zones, and falsely claimed on its website that its "clients" included the FBI and the U.S. Defense Intelligence Agency to make the pitch look credible. According to the U.S. Attorney's Office for the District of Utah, Donaldson and a codefendant took in more than $517,000 from donors and customers who believed their money was going toward that stated purpose, and had also falsely represented having an established relationship with a major ammunition supplier, but rather than fulfilling the orders or delivering the promised support, Donaldson spent the money on personal expenses. He pleaded guilty on May 19, 2025 to conspiracy to commit wire fraud and conspiracy to launder money, and on February 5, 2026, U.S. District Court Judge Ann Marie McIff Allen sentenced him to 24 months in prison plus three years of supervised release, ordering him to pay $591,932.73 in restitution jointly with his codefendant. The case shows how a cause-driven pitch tied to a real, sympathetic crisis — in this instance equipping first responders in an active war zone — can be used to dress up an ordinary non-delivery scam as a charitable or patriotic cause; before sending money to any company claiming to supply gear, equipment, or aid overseas, donors and customers should independently verify the business's claimed government or corporate "client" relationships directly with those agencies or companies rather than taking a website's word for it, and should be skeptical of large upfront payments for bulk goods that a small, newly formed LLC claims it can immediately source and ship.`,
+    categorySlug: 'charity-scams',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office for the District of Utah", 'IRS Criminal Investigation', 'KSL.com'],
+    sourceUrl: 'https://www.justice.gov/usao-ut/pr/utah-business-owner-urban-armz-llc-sentenced-two-years-imprisonment-after-defrauding',
+    country: 'US',
+    state: 'UT',
+});
