@@ -5762,3 +5762,14 @@ UsAF.push({
     country: 'US',
     state: 'AL',
 });
+UsAF.push({
+    name: 'DC Razjooyan "Slumlord Empire" RICO Real Estate Fraud',
+    slug: 'dc-razjooyan-slumlord-rico-fraud-scheme',
+    description: `District of Columbia Attorney General Brian L. Schwalb filed a first-of-its-kind civil lawsuit in February 2026 under the Racketeer Influenced and Corrupt Organizations (RICO) Act against Ali "Sam" Razjooyan, his brother Eimon "Ray" Razjooyan, their mother Houri Razjooyan, and a web of LLCs and straw purchasers the family used to acquire more than 70 rent-controlled apartment buildings, mostly in Wards 7 and 8, over roughly a decade. According to the complaint, the family secured purchase loans up to double a property's actual value by handing lenders fabricated financial statements and false promises to renovate the distressed buildings and re-rent them at higher rates, then diverted the loan proceeds — rather than fixing up the properties — to enrich themselves, pay down loans on properties they had bought earlier, and acquire still more buildings, a pattern OAG describes as Ponzi-like. Tenants, many relying on D.C. government-paid housing subsidies that kept the rent flowing in regardless of conditions, were left living amid more than 4,000 documented housing code violations while the loan money that was supposed to fix their buildings went elsewhere. "This is not simply a case of a bad landlord — this is a corrupt criminal enterprise that has harmed thousands of District residents," Schwalb's office said in announcing the suit, which seeks to unwind the Razjooyans' holdings, bar them from operating rental property in the District, and recover damages for tenants and lenders alike; a D.C. Superior Court judge has since ordered the family to immediately begin fixing conditions at every building it still controls. The case is a reminder that a rent-controlled or subsidized building changing hands to a new landlord backed by opaque LLCs, followed by promised renovations that never materialize and conditions that keep deteriorating, is a pattern tenants can report to the D.C. Attorney General's Office rather than assume is simply neglect.`,
+    categorySlug: 'rental-housing',
+    alertLevel: 'high',
+    sources: ['Office of the D.C. Attorney General (Brian L. Schwalb)', 'Washington City Paper', 'WTOP News'],
+    sourceUrl: 'https://oag.dc.gov/release/attorney-general-schwalb-files-rico-lawsuit',
+    country: 'US',
+    state: 'DC',
+});

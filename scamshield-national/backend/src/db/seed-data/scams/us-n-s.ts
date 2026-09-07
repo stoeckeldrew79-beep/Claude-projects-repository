@@ -3797,3 +3797,14 @@ UsNS.push({
     country: 'US',
     state: 'RI',
 });
+UsNS.push({
+    name: 'OKCity Crisis Nursery Charity Embezzlement Scheme',
+    slug: 'oklahoma-okcity-crisis-nursery-charity-embezzlement',
+    description: `Jennifer Lynn Roberts, 43, founder and executive director of the Oklahoma City nonprofit OKCity Crisis Nursery — which solicited donations to care for children in crisis — embezzled more than $50,000 in charitable contributions for personal spending on cosmetic procedures, salon visits, a gym membership, clothing, and vacations, according to an investigation by Oklahoma Attorney General Gentner Drummond's office announced in July 2026. Investigators found Roberts moved more than $200,000 in nonprofit funds to eight other people through Venmo and Cash App, and when the fraud began to surface, co-defendant Chelsea Fowler allegedly helped create a fake board of directors to make the nursery look properly governed and help Roberts evade prosecution. Two other defendants, Avery Parker and Noel Crow, face charges tied to a vehicle prosecutors say was purchased with Crisis Nursery donations for personal use, while a ninth defendant, Tyler Maness, is separately accused of falsifying community-service records used in an unrelated court case. Roberts was charged with felony racketeering under Oklahoma's Racketeer-Influenced and Corrupt Organizations Act, along with embezzlement, charitable solicitation fraud, and other counts, with the remaining eight defendants facing charges including embezzlement, accessory after the fact, and receiving unlawful proceeds. Before donating to any children's or crisis charity, Oklahomans can verify how a nonprofit actually spends contributions by searching its IRS Form 990 and checking whether it has a genuinely independent, active board of directors rather than simply trusting a compelling mission statement or a founder's public profile.`,
+    categorySlug: 'charity-scams',
+    alertLevel: 'high',
+    sources: ["Oklahoma Attorney General's Office (Gentner Drummond)", 'KFOR', 'News 9'],
+    sourceUrl: 'https://oklahoma.gov/oag/news/newsroom/2026/july/drummond-nine-charged-in-scheme-to-take-donations-meant-for-children-in-crisis.html',
+    country: 'US',
+    state: 'OK',
+});
