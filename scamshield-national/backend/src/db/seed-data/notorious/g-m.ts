@@ -4267,3 +4267,45 @@ Stonehouse's health deteriorated badly in custody — he suffered three heart at
     sourceUrl: 'https://www.abc.net.au/news/2023-01-16/truth-john-stonehouse-british-mp-fake-death-drama-series/101840138',
   },
 );
+
+NotoriousGM.push(
+  {
+    title: 'Mark Landis: The Forger Who Fooled Dozens of Museums Without Breaking the Law',
+    slug: 'mark-landis-museum-donation-forgeries',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Mark_Landis.JPG?width=1200',
+    coverImageCredit: 'Photo: Obada Mercedes Benz, video still (CC BY 3.0)',
+    coverImagePosition: 40,
+    body: `Mark Landis is an American painter from Laurel, Mississippi, whose skill for copying other artists' styles turned into a decades-long campaign of donating forged artworks to museums across the United States — not to sell them, but to be treated, however briefly, as a generous benefactor. Starting in the mid-1980s, after presenting a California museum with fakes he attributed to the Western artist Maynard Dixon in his late father's memory, Landis found that the warm reception he received was enough of a reward on its own. He kept going for nearly three decades, eventually donating counterfeit paintings and drawings to more than fifty museums across around twenty states.
+
+Landis's technique was low-tech but effective: he would often work from a photograph or catalog reproduction of a painting, recreate it in his own hand using materials as ordinary as pharmacy watercolor sets, and artificially age the result with staining, sandpaper, and picture-framing tricks before presenting it as a genuine historical work. To gain access and credibility, he adopted a rotating cast of invented personas — most famously a Jesuit priest named Father Arthur Scott, but also "Father James Brantley," "Steven Gerald Kelly," and other aliases borrowed from auction catalogs and his own extended family — arriving at a museum in character, sometimes in full clerical dress, to offer a donation supposedly meant to honor a deceased parent.
+
+His long run began unraveling around 2007-2008, when Matthew Leininger, then a registrar at the Oklahoma City Museum of Art, recognized a Landis donation as suspicious and began quietly compiling a list of the museums he had targeted. When Leininger posted his findings to a museum-registrars' listserv, dozens of institutions across the country recognized the pattern in their own donation records within hours, revealing the scale of what Landis had been doing largely unnoticed for so long. Cincinnati Art Museum was among the institutions that documented his visits most extensively, eventually mounting a 2012 exhibition, "Faux Real," built around his forgeries.
+
+What kept Landis out of a courtroom is the same thing that let him keep going for so long: he never sold his forgeries and consistently declined the tax deduction paperwork museums offered him for a charitable gift, meaning no institution or the IRS lost money and no legally cognizable fraud victim ever existed. Retired FBI art-crime investigator Robert Wittman reviewed the case and concluded that, however deceptive Landis's conduct was, it fell outside the reach of federal fraud statutes because he never received anything of financial value in return. No criminal charges were ever filed against him. His story became the subject of the 2014 documentary "Art and Craft," and he has continued to paint and exhibit work openly under his own name in the years since, now selling originals and copies as exactly what they are.
+
+Landis remains a singular case in the history of art fraud: a self-taught forger whose motive was never money but recognition, whose fakes fooled museum curators for a generation, and whose refusal to profit from any of it meant that decades of documented deception never amounted to a crime a prosecutor could bring.`,
+    sourceUrl: 'https://www.npr.org/2014/09/27/351738720/art-craft-explores-how-one-forger-duped-more-than-45-museums',
+  },
+  {
+    title: 'Luciano Moggi and the Calciopoli Scandal That Rigged Italian Football',
+    slug: 'luciano-moggi-calciopoli-match-fixing-scandal',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Roma_2011_08_07_Palazzo_di_Giustizia.jpg?width=1200',
+    coverImageCredit: 'Photo: Sergio D’Afflitto (CC BY-SA 3.0) — Rome’s Palace of Justice, seat of the Court of Cassation that issued the final Calciopoli ruling',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait of Moggi if a Commons-hosted one is found
+    body: `Luciano Moggi spent decades as one of Italian football's most powerful and feared administrators, working his way up through club front offices at Roma, Lazio, Torino, and Napoli before becoming general director of Juventus in 1994. Over the following twelve years, Moggi and a small circle of Juventus executives helped the club to five Serie A titles, a Champions League, and multiple domestic trophies, building a reputation for ruthless dealmaking that made him one of the most influential figures in the sport.
+
+In May 2006, Italian prosecutors investigating unrelated doping allegations stumbled onto wiretapped phone calls between Moggi and Italian Football Federation officials, including referee designators Pierluigi Pairetto and Paolo Bergamo, that appeared to show Moggi influencing which referees were assigned to Juventus's matches and lobbying for favorable decisions. The scandal, which came to be known as "Calciopoli," broke just weeks before Italy went on to win the 2006 World Cup, and implicated several major clubs beyond Juventus, including AC Milan, Fiorentina, Lazio, and Reggina.
+
+The Italian Football Federation's own sporting tribunal acted first, in July 2006, stripping Juventus of its 2004-05 and 2005-06 Serie A titles and relegating the club to Serie B with a points penalty, while docking points from the other implicated clubs. Moggi was banned from all football activity for five years, a sanction upheld on appeal in 2007 with a recommendation that it become permanent; when the ban expired in 2011 the federation duly excluded him from membership for life. A separate criminal case, charging Moggi and several co-defendants with sporting fraud and criminal conspiracy, ground through Italian courts for nearly a decade.
+
+That criminal case reached its final conclusion in March 2015, when Italy's Court of Cassation — the country's highest court, with no further appeal available — issued its last word on Calciopoli. The court acquitted Moggi of two counts of sporting fraud but let stand the trial court's finding that he had orchestrated the scheme for Juventus's benefit and his own enhanced influence; a related conspiracy charge, along with the roughly two-year prison sentence attached to it, could no longer be enforced because Italy's statute of limitations had run out before the appeals process concluded. The 150-page ruling described Moggi as the system's "undisputed prince." With Cassation's decision, every avenue of appeal was closed, permanently ending the criminal case with no term served and no path to reopen it.
+
+Calciopoli remains the defining match-fixing scandal in modern Italian sport: a case where a single administrator's network of quiet phone calls to referee schedulers rewrote the outcome of a national championship, and where the legal reckoning that followed ultimately came down not to guilt or innocence but to how long Italy's courts took to reach a final answer.`,
+    sourceUrl: 'https://www.euronews.com/2015/03/24/calciopoli-charges-dropped',
+  },
+);
