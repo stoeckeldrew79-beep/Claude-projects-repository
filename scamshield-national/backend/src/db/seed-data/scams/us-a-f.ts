@@ -5738,3 +5738,15 @@ UsAF.push({
     country: 'US',
     state: 'AK',
 });
+
+UsAF.push({
+    name: 'Pietras Prepaid Funeral Contract Embezzlement',
+    slug: 'connecticut-pietras-prepaid-funeral-contract-embezzlement',
+    description: `Philip Pietras, 51, ran funeral homes in Coventry, Vernon, and Enfield, Connecticut and, across a string of arrests by multiple local police departments running from September 2025 into 2026, was charged with systematically pocketing money families paid him in advance to cover their own or a relative's eventual funeral rather than placing it in the trust accounts state law requires. Coventry police first charged Pietras with 22 counts of selling a funeral service contract with intent to defraud, 11 counts of second-degree larceny by embezzlement, and forgery after identifying 22 victims who had lost more than $165,000 through his Coventry funeral home; investigators traced the missing money to a Norwegian cruise and to hotels, resorts, and casinos in Connecticut, Massachusetts, New Jersey, Florida, and Las Vegas. Vernon police separately charged him with 20 counts of second-degree larceny and 60 counts of intent to defraud after finding he had embezzled prepaid contract funds from 31 clients — all over age 60 — who held contracts at Tolland Memorial Funeral Home between 2011 and 2025, and a subsequent warrant added 31 counts of unfair trade practices and additional larceny counts. Taken together, Connecticut authorities say Pietras misused roughly $794,000 in prepaid funeral funds belonging to as many as 179 victims across the state. The state board that licenses funeral directors suspended his license, and his funeral homes have since closed; the scale of the case prompted a Connecticut lawmaker to propose creating a state compensation fund specifically for victims of funeral-home fraud, since victims typically have no way to recover money that was supposed to be sitting untouched in a trust account until it was actually needed. Anyone shopping for a prepaid funeral contract should confirm in writing that funds go into a state-regulated trust or insurance-funded account rather than the funeral home's own operating account, and should verify a funeral director's license status with the Connecticut Department of Public Health before signing or paying anything.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'high',
+    sources: ['NBC Connecticut', 'FOX61', 'WFSB', 'Connecticut State Police'],
+    sourceUrl: 'https://www.wfsb.com/2026/03/12/lawmaker-wants-create-compensation-funds-victims-funeral-home-fraud-after-pietras-charged-with-taking-790000-pre-paid-funds/',
+    country: 'US',
+    state: 'CT',
+});
