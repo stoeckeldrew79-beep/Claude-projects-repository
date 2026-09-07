@@ -4044,3 +4044,15 @@ UsGM.push({
     country: 'US',
     state: 'MA',
 });
+
+UsGM.push({
+    name: 'Louisville PPP and EIDL Loan Fraud Recruitment Ring (Kaelynn Greene and Camden Newton)',
+    slug: 'kentucky-louisville-greene-newton-ppp-eidl-fraud-ring',
+    description: `Kaelynn Greene, 31, and Camden Newton, 32, ran a two-year scheme out of the Louisville area that submitted more than 20 fraudulent Economic Injury Disaster Loan (EIDL) applications and more than 50 fraudulent Paycheck Protection Program (PPP) loan applications, using their own names, invented business entities, and stolen identities to claim nonexistent or grossly inflated business activity, and backing the applications with forged tax documents to make the numbers look real. Greene also recruited three co-conspirators — Betty Walker (also known as Betty Bailey), 39, Breanna Patterson, 32, and Jordan Greene, 34 — to submit additional fraudulent PPP applications on their own behalf for businesses that did little or no real work, splitting the proceeds afterward. The scheme obtained more than $850,000 in fraudulent COVID-19 relief disbursements and attempted to obtain more than $750,000 more that federal reviewers caught and declined, for a total scheme value of roughly $1.6 million. A federal grand jury in the Western District of Kentucky indicted all five on April 8, 2026, charging Greene and Newton with wire fraud, conspiracy to commit wire fraud, aggravated identity theft, and money laundering, and the other three with conspiracy to commit wire fraud; three of the defendants made initial court appearances on April 17, 2026. U.S. Attorney Kyle G. Bumgarner said the defendants "allegedly took advantage of two federally funded programs designed to carry our country and its small businesses through unprecedented economic uncertainty," in a case investigated by the Treasury Inspector General for Tax Administration. The case illustrates how PPP and EIDL fraud frequently relied on recruiting a network of nominally separate applicants rather than one person filing repeatedly — a pattern investigators are still unwinding years after the loan programs closed, and a reminder that anyone who was paid to let their name or a shell business "front" a relief-fund application remains personally exposed to identity-theft and money-laundering charges even years after the money changed hands.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office, Western District of Kentucky", 'WFIE 14 News', 'Treasury Inspector General for Tax Administration'],
+    sourceUrl: 'https://www.14news.com/2026/04/19/five-arrested-scheme-fraudulently-obtain-16-million-covid-19-relief-funds/',
+    country: 'US',
+    state: 'KY',
+});

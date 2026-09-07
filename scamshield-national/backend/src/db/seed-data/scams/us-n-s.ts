@@ -3880,3 +3880,15 @@ UsNS.push({
     country: 'US',
     state: 'ND',
 });
+
+UsNS.push({
+    name: 'Coastal Diagnostic Testing Group Fraudulent Sleep Study Billing Scheme (Mehrdad Gerami)',
+    slug: 'oregon-coos-bay-gerami-coastal-diagnostic-sleep-study-fraud',
+    description: `Mehrdad Gerami, 67, an Iranian national who owned and operated Coastal Diagnostic Testing Group and Coastal Diagnostic out of offices in Coos Bay, Brookings, Reedsport, Florence, and Roseburg, Oregon, ran a billing scheme from 2021 onward that submitted fraudulent claims to the U.S. Department of Health and Human Services, the Veterans Health Administration, and private insurers for sleep studies that were misrepresented or never happened at all. The scheme worked two ways: billing for the more expensive in-office sleep study code when a cheaper at-home test was actually performed, and, during slow months at certain offices, instructing staff to bill using real patients' information for sleep studies that were never conducted on the dates claimed. Investigators calculated the total loss at $2,124,363.41. Gerami was charged by information on June 22, 2026 as part of the Department of Justice's 2026 National Health Care Fraud Takedown, and pleaded guilty on August 5, 2026 to conspiracy to commit health care fraud; he faces up to 10 years in prison, a fine of up to $250,000, and three years of supervised release when he is sentenced on January 26, 2027, and has agreed as part of his plea to pay full restitution to his victims. The case shows how a multi-location diagnostic testing operation can pad billing simply by upcoding a legitimate at-home test to a pricier in-office visit, or by billing entirely fictitious visits during a slow month, relying on the sheer volume of routine sleep-study claims to keep any single fraudulent charge from standing out to insurers or federal payers; patients who receive an Explanation of Benefits for a sleep study or medical visit they don't remember, or that lists the wrong testing location, should report it to their insurer and to the HHS Office of Inspector General's fraud hotline.`,
+    categorySlug: 'medicare-health-plans',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office, District of Oregon", 'KOIN', 'Sleep Review'],
+    sourceUrl: 'https://www.koin.com/news/oregon/man-who-ran-oregon-health-care-facilities-admits-to-fraudulent-sleep-study-over-2-million-in-fake-billing/',
+    country: 'US',
+    state: 'OR',
+});
