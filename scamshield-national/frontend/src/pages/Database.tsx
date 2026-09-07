@@ -34,7 +34,9 @@ export default function Database() {
   const [searchParams] = useSearchParams();
 
   const [search, setSearch] = useState('');
-  const [category, setCategory] = useState<string | undefined>(undefined);
+  // Read from the URL like tag/country/state, so a category link from a
+  // state page (or anywhere else) actually applies its category.
+  const [category, setCategory] = useState<string | undefined>(searchParams.get('category') ?? undefined);
   // Victim targeting is a second axis, not a category: a solar scam aimed at
   // seniors is both, so this filter composes with the category select rather
   // than replacing it.
