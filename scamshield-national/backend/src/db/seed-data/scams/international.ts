@@ -9897,3 +9897,36 @@ International.push(
     country: 'NI',
   },
 );
+
+International.push(
+  {
+    name: 'Fake Police Recruitment "Facilitation" Scam',
+    slug: 'angola-fake-police-recruitment-facilitation-scam',
+    description: `Angola's Ministry of the Interior (MININT) issued a public alert on January 14, 2026 warning citizens against a wave of fraud attempts tied to a National Police recruitment drive that had not even opened yet. After Interior Minister Manuel Homem announced in December 2025 that recruitment conditions were being worked out jointly with the Finance Ministry, scammers moved quickly, spreading distorted and misleading information on social media and offering to "facilitate" a candidacy through illicit, under-the-table means — the implication being that a fee or bribe paid to the self-styled facilitator would guarantee a slot. MININT's statement made clear that "this ministerial department recognizes citizens' interest in serving the Nation," but stressed that, at that moment, no public tender or recruitment process was actually open, and urged the public not to be misled by unofficial posts or people claiming they can pull strings to secure a place. The ministry's guidance was to treat any recruitment announcement not published through MININT's own official channels as false, and to be especially wary of anyone — online or in person — who claims a fee, connection, or "arrangement" can secure a spot in a police recruitment process, since legitimate government hiring never requires paying an intermediary for a chance at a position.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Ministério do Interior de Angola (MININT)', 'Novo Jornal'],
+    sourceUrl: 'https://novojornal.co.ao/sociedade/detalhe/minint-alerta-para-tentativa-de-burla-em-processo-de-recrutamento-69167.html',
+    country: 'AO',
+  },
+  {
+    name: 'OTP-Interception Bank Account Takeover Ring ("Terminal – Linha de Comando")',
+    slug: 'angola-otp-interception-bank-account-takeover-ring',
+    description: `Angola's Polícia Nacional, through its Direção de Investigação de Ilícitos Penais (DIIP), announced on July 23, 2026 that it had dismantled a transnational criminal organization calling itself "Terminal – Linha de Comando," made up of Angolan, Brazilian, Nigerian, and Namibian nationals aged 25 to 38 who had built a scheme to raid customer accounts at some of Angola's largest banks — including BFA, BIC, BAI, BCI, and Banco Millennium Atlântico. Rather than relying on a single technique, the group combined fraudulent interception of one-time SMS verification (OTP) codes sent to customers' phones with document falsification and the recruitment of corrupt bank and public-sector insiders who could unlock restricted accounts and hand over privileged customer information. Investigators said the network was in the process of preparing a single fraudulent transfer worth "cerca de 10 mil milhões de dólares norte-americanos" (about US$10 billion) when it was broken up. The case unraveled almost by accident: police responding to a reported kidnapping of a 38-year-old Brazilian national discovered that he had actually been recruited into the scheme through a social media job offer and was himself a working member of the criminal organization rather than a victim. Eight suspects — one Brazilian national and seven Angolans — were detained and presented to the Attorney General's Cybercriminality and Electronic Evidence Office before appearing for an initial court hearing. The case underscores a basic rule Angolan banks repeat constantly: a one-time verification code (OTP) sent by SMS should never be shared with anyone, including someone who claims to be calling from the bank itself, since no legitimate bank employee will ever ask a customer to read that code back to them over the phone or send it in a message.`,
+    categorySlug: 'account-takeover',
+    alertLevel: 'high',
+    sources: ['Polícia Nacional de Angola — Direção de Investigação de Ilícitos Penais (DIIP)', 'Rádio Nacional de Angola (RNA)'],
+    sourceUrl: 'https://rna.ao/rna.ao/2026/07/23/policia-nacional-desmantela-rede-criminosa-que-preparava-fraude-milionaria-no-sistema-bancario-angolano/',
+    country: 'AO',
+  },
+  {
+    name: 'Admin-Only WhatsApp Investment Group Pyramid Scheme',
+    slug: 'angola-whatsapp-investment-group-pyramid-scheme',
+    description: `A wave of fraudulent "investment" WhatsApp groups has been spreading across Angola, exploiting widespread financial hardship with promises of fast, guaranteed profits, according to reporting published July 15, 2026. The scheme's mechanics are deliberately closed: group administrators configure the chat so that only they can post, so no member can ever question the pitch or warn others in real time. Throughout the day, the group is flooded with dozens of messages announcing other members' supposed winnings, paired with fake transfer screenshots and testimonials — cybersecurity specialists say many of these accounts are actually bots, automated profiles programmed to post at strategically timed intervals to simulate real human activity and manufacture a false sense of momentum. Recruiting phrases repeat constantly, such as "Quem arrisca ganha" ("those who risk, win"), "Parcerias abertas" ("partnerships open"), and "Hoje um parceiro transformou 20 mil kwanzas em 200 mil" (today a partner turned 20,000 kwanzas into 200,000) — with typical pitches promising to turn 10,000 kwanzas into 80,000, or 20,000 kwanzas into 200,000, in a matter of hours with "practically no risk." The networks running these groups use false identities and disposable phone numbers, making them difficult to trace once they disappear with participants' money. The pattern fits what Angola's Serviço de Investigação Criminal (SIC) has separately flagged as a growing national concern — SIC spokesperson, superintendent-chief Manuel Halaiwa, told a February 2026 cybercrime workshop in Luanda that computer fraud and the cloning of Facebook and WhatsApp profiles are now among the country's top cybercrime threats. Angolans are advised to be immediately suspicious of any WhatsApp group promising extraordinary, guaranteed profits in hours or days with no real risk, especially where ordinary members cannot post; to verify the identity of whoever is promoting the "investment" independently of the group itself; and to remember that lawful investments always carry risk and are offered only through institutions licensed to operate in Angola's financial system.`,
+    categorySlug: 'ponzi-pyramid-schemes',
+    alertLevel: 'high',
+    sources: ['Central Press', 'Serviço de Investigação Criminal de Angola (SIC)'],
+    sourceUrl: 'https://centralpress.pt/page/145228/redacao/2026/07/15/esquemas-de-investimento-no-whatsapp-alastram-em-angola-e-exploram-o-desespero-financeiro-de-milhares-de-pessoas',
+    country: 'AO',
+  },
+);
