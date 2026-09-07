@@ -2707,4 +2707,26 @@ Anyone in the United States who receives a suspicious text can report it to the 
     coverImagePosition: 50,
     // representative photo — an ordinary cell tower, not an SMS blaster device or any specific case's equipment; replace with an exact match if found
   },
+  {
+    title: `The Suno Data Breach: How an AI Music App Sat on a 55-Million-Account Breach for Eight Months`,
+    slug: `suno-2026-data-breach-guide`,
+    author: `ScamShield Editorial`,
+    tags: [`guide`, `suno-2026-data-breach`],
+    sourceUrl: `https://cyberinsider.com/data-breach-at-ai-music-service-suno-exposed-55-million-accounts/`,
+    coverImage: `https://commons.wikimedia.org/wiki/Special:FilePath/Studio_microphone_with_pop-shield_crop.jpg?width=1200`,
+    coverImageCredit: `Photo: Galak76, CC BY-SA 3.0, via Wikimedia Commons`,
+    coverImagePosition: 50,
+    // representative photo — a studio microphone; Suno is an AI text-to-music app with no recording studio of its own, and this is not the company's own equipment
+    body: `Suno, the AI platform that lets anyone generate a finished song from a short text prompt and became one of the most downloaded music apps in the world, quietly suffered a data breach in November 2025 that it did not disclose to the public until the following July — and even then, the disclosure came from outside researchers and journalists rather than from Suno itself. By the time the breach became public, it had already gone unreported for roughly eight months, during which the more than 55 million people with a Suno account had no way of knowing their information might be at risk.
+
+The intrusion reportedly began when a hacker using the handle "ellie.191" compromised a Suno employee's credentials through a supply-chain attack, then used that access to reach internal systems including customer databases and source-code repositories. The stolen data, which surfaced in a set later verified by the breach-notification service Have I Been Pwned, covers more than 55.3 million accounts and includes names, email addresses, phone numbers, physical addresses, and purchase or order history; a smaller subset of records tied to payment processing also exposed partial card data — the card type, expiration date, and last four digits, though not a full card number. The attacker also reportedly obtained portions of Suno's source code, which according to outside reporting revealed details about how the company had gathered material used to train its music-generation models.
+
+Suno's public response has focused on minimizing the incident rather than notifying the people affected. The company has said it detected and contained a security incident in November 2025, that "no sensitive personal information was compromised," and that only "outdated" source code was involved — a characterization that outside researchers and the breach's discoverers dispute, given the volume and specificity of the contact and purchase data that surfaced. Suno has also said it determined that individual breach notifications to affected users were not legally required, and as of the breach becoming public, the company had not sent a notice to its own customers explaining what happened or what data of theirs was involved. For the tens of millions of people who signed up for what many treated as a fun creative tool, that means the first they may hear of any of this is a guide like this one, not a message from Suno.
+
+This kind of breach is exactly the setup that makes a convincing follow-up phishing message: a scammer who has your real name, email address, phone number, home address, and the last four digits and expiration date of the card you used to pay Suno can send a message that looks like it comes from Suno's billing department, cites accurate account details to sound legitimate, and asks you to "confirm" your full card number or password to keep your subscription active. A months-long, undisclosed gap between a breach happening and the public learning about it also means any password reuse tied to a Suno account has had far longer than usual to be tried against other services before anyone thought to change it.
+
+If you have or have had a Suno account, change your Suno password now, and change it anywhere else you used the same password, logging in directly at suno.com rather than through any link in an email. Check whether your email address turns up in this breach at haveibeenpwned.com, and turn on multi-factor authentication for your Suno account if it's offered. Review the statement for whatever card you used to pay for Suno for any unfamiliar charge, and treat any email, text, or call that references your Suno account, a subscription renewal, or a payment problem as a probable phishing attempt rather than routine correspondence — go directly to Suno's app or website to check your account status instead of clicking a link or calling a number in the message. Because Suno has not issued its own notification explaining the breach, don't wait for one; the steps above are worth taking regardless of whether a notice ever arrives.
+
+Anyone in the United States who suspects their information from this or another breach has been misused can start a recovery plan at IdentityTheft.gov, and can report a phishing attempt referencing Suno or this breach to the FTC at ReportFraud.ftc.gov.`,
+  },
 ];
