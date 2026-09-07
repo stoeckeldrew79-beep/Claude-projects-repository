@@ -9963,3 +9963,26 @@ International.push(
     country: 'MG',
   },
 );
+
+International.push(
+  {
+    name: 'Fake "Account Will Be Blocked" Bank SMS Phishing Scam',
+    slug: 'kosovo-fake-account-blocked-bank-sms-phishing-scam',
+    description: `The Kosovo Police's Regional Directorate in Prizren issued a public appeal on May 20, 2026 warning of a sharp rise in fraudulent SMS messages impersonating banks. Victims receive a text informing them that their bank account will be blocked unless they take "immediate action," together with a link to a fake page that asks them to enter their personal and banking details; once a victim types in that information, the scammers gain access to the account and empty it. Police said the pattern had already produced a large, organized case just months earlier: the Basic Prosecutor's Office in Prishtina and the Kosovo Police Cybercrime Unit announced in December 2025 that they had arrested two suspects — with two more accomplices identified and still wanted — for running a coordinated scheme that sent fake SMS messages purporting to come from NLB Bank, TEB Bank, and Raiffeisen Bank. Investigators said the group had been operating since December 2025 and, in the Prishtina region alone, defrauded roughly 150 victims out of more than €50,000; searches of three locations turned up a car, mobile phones, SIM cards, and bank deposit slips used in the scheme. The Central Bank of the Republic of Kosovo (CBK) has separately urged citizens never to enter payment or card details through a link received by SMS, to rely only on official bank websites and verified banking apps, to turn on transaction notifications, to check their account and transfer history regularly, and to report any suspicious message immediately to their bank or to the police.`,
+    categorySlug: 'phishing',
+    alertLevel: 'high',
+    sources: ['Kosovo Police — Regional Police Directorate in Prizren', `Prishtina Basic Prosecutor's Office`, 'Central Bank of the Republic of Kosovo (CBK)', 'Gazeta Express'],
+    sourceUrl: 'https://www.gazetaexpress.com/en/Police-appeal-for-caution-against-fraudulent-messages-in-the-name-of-banks--do-not-give-them-your-personal-data/',
+    country: 'XK',
+  },
+  {
+    name: 'Fake Investment Group Scam via WhatsApp/Viber Messages',
+    slug: 'kosovo-fake-investment-group-messaging-app-scam',
+    description: `The Central Bank of the Republic of Kosovo (CBK) issued a public warning in 2026 alerting citizens to a wave of fraudulent investment invitations spreading through messaging applications. According to the CBK, people are contacted out of the blue by international phone numbers and invited to join "investment groups" by clicking an external link; the messages are crafted to look like genuine, highly profitable investment opportunities, and in some cases the messaging app itself flags the link as potentially malicious before the recipient can click it. Anyone who joins is drawn toward handing over financial data or sending money into the scheme, with no legitimate investment ever taking place. The CBK is urging citizens to exercise increased caution, to never click on links from unknown senders, never share personal or financial data through such invitations, and never make a payment based on them. The bank added broader digital-safety guidance: store bank card data securely and never share it by email, SMS, or phone with anyone who asks; avoid reacting to messages demanding urgent action; use only official bank websites and verified apps for payments; and report suspicious contact to a bank or financial institution right away.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'medium',
+    sources: ['Central Bank of the Republic of Kosovo (CBK)', 'Gazeta Express'],
+    sourceUrl: 'https://www.gazetaexpress.com/en/BQK-warns-citizens-about-fraudulent-SMS--save-your-financial-data/',
+    country: 'XK',
+  },
+);
