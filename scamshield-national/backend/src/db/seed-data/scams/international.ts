@@ -9808,3 +9808,36 @@ International.push(
     country: 'BT',
   },
 );
+
+International.push(
+  {
+    name: 'Fake Foreign Investment and Donation Advance-Fee Scam',
+    slug: 'mozambique-fake-investment-donation-advance-fee-scam',
+    description: `Banco de Moçambique, the country's central bank, issued a public warning in January 2026 that fraudulent entities operating outside the formal financial system are circulating investment-financing and donation proposals designed to look like real foreign capital being offered to Mozambican beneficiaries. The bank says these schemes share tell-tale features: "unrealistic" amounts of money, transfers routed through unrecognized or "coded" channels, transfer documents that commercial banks do not recognize as authentic, and terms that are vague, contradictory, or incomplete. It singled out one signal as the clearest indicator of fraud — any demand for an advance payment as a condition for supposedly releasing funds said to be coming from abroad, which the bank describes as "a strong indication of fraud." Banco de Moçambique urged anyone approached with such a proposal to research the financier's credibility and risk profile, check whether the entity has completed similar investments in other countries, confirm whether it has previously moved funds through Mozambique's formal financial system, and verify the identity of any local partners or representatives named in the deal before sending any money, "with high prudence," given the risk such schemes pose to the financial system.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ['Banco de Moçambique', 'Agência de Informação de Moçambique (AIM)'],
+    sourceUrl: 'https://aimnews.org/2026/01/02/bm-denuncia-esquemas-de-fraude-em-financiamentos-e-donativos/',
+    country: 'MZ',
+  },
+  {
+    name: 'Fake Prize and Fraudulent Money-Transfer SMS Scam',
+    slug: 'mozambique-fake-prize-sms-scam',
+    description: `Mozambique's National Institute of Communications (INCM) has warned that fraudulent text messages continue to spread across the country's mobile networks, which serve roughly 21 million active subscriptions. The messages typically announce, falsely, that the recipient has won a cash prize or lottery draw, or that money is waiting to be transferred to them, and are designed to lure victims into replying with personal details or paying a fee to "release" the nonexistent winnings. INCM recorded more than 500 fraud cases of this kind in 2024 alone, with over 100 further reports filed in just the first months of 2025. INCM spokesperson Adilson Gomes acknowledged that fraudsters are becoming increasingly sophisticated and said the regulator has partnered with the Attorney General's Office, mobile network operators, and banks to build a reporting platform that allows flagged numbers and messages to be investigated, and where warranted acted on, in close to real time. Gomes urged anyone who receives a suspicious prize or transfer message to report it through the platform so authorities can pursue those responsible, rather than responding to the sender directly.`,
+    categorySlug: 'lottery-sweepstakes-scams',
+    alertLevel: 'high',
+    sources: ['Instituto Nacional das Comunicações de Moçambique (INCM)', 'Club of Mozambique'],
+    sourceUrl: 'https://clubofmozambique.com/news/mozambique-electronic-scams-continue-throughout-the-country-285374/',
+    country: 'MZ',
+  },
+  {
+    name: 'SMS-Phishing and SIM-Box Telecom Fraud Surge',
+    slug: 'mozambique-smishing-sim-box-fraud',
+    description: `Mozambique's telecom regulator, the National Institute of Communications (INCM), reported that fraud across the country's telecommunications networks surged to more than 500,000 recorded cases in 2024, an increase of over 200,000 cases compared with 2023, with roughly 10.2 million devices found operating on unregistered SIM cards. INCM identified three methods driving most of the surge: SMS-phishing ("smishing"), in which fraudulent text messages are used to trick recipients into handing over banking details, one-time passcodes, or other personal information; fraudulent SIM registration under false identities; and "SIM-box" operations, in which criminals route bulk international calls and messages through banks of prepaid SIM cards to disguise the traffic's true origin and evade telecom charges. INCM spokesperson Adílson Gomes said there is a "greater appetite among fraudsters to defraud subscribers through telecommunications networks," while a regulator survey of 22 operators found uneven security maturity across the sector, with weak fraud management and incident-response capacity in several subsectors. INCM chair Helena Tomás announced the creation of a dedicated Security Incident Response Team for Telecommunications Networks (ERIST), bringing together mobile operators, fixed-line providers, internet service providers, and broadcasters to coordinate prevention, and the regulator pressed operators to complete verification of subscriber registration records by November 2025 to curb fraud tied to unregistered lines.`,
+    categorySlug: 'phishing',
+    alertLevel: 'critical',
+    sources: ['Instituto Nacional das Comunicações de Moçambique (INCM)', 'Agência de Informação de Moçambique (AIM)'],
+    sourceUrl: 'https://aimnews.org/2025/05/07/telecomunicacoes-registam-mais-de-500-mil-casos-de-fraude/',
+    country: 'MZ',
+  },
+);
