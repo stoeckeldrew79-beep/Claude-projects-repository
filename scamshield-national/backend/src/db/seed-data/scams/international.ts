@@ -10502,3 +10502,25 @@ International.push(
     country: 'CD',
   },
 );
+International.push(
+  {
+    name: 'Ejabah Travel Agency Hajj Booking Fraud',
+    slug: 'gambia-ejabah-travel-agency-hajj-booking-fraud',
+    description: `Kanimang Bajo, proprietor of Ejabah Travel & Tours in the Gambia, took payments from more than 70 intending pilgrims — and, according to some complainants, well over 100 — who each paid between roughly D320,000 and D600,000 or more to secure a seat on the agency's promised 2026 Hajj trip to Mecca, with the combined sums alleged in court filings ranging from about D28.9 million up to D68.6 million depending on how many victims are counted. The pilgrimage never took place: Gambia's National Hajj Commission confirmed that Ejabah Travel & Tours did not appear on its list of agencies licensed to arrange Hajj travel and said it had no record of the company at all, meaning the funds Bajo collected were never backed by any real booking with Saudi authorities. Victims — many of whom described selling land or other assets to raise the fare — went unrefunded and without any pilgrimage, prompting dozens to file police complaints. Bajo was arraigned on a charge of obtaining money by false pretences; the case was initially filed at the Kanifing Magistrates' Court, withdrawn, and then refiled before the Banjul Magistrates' Court, where he pleaded not guilty and was granted bail of D28 million. The Gambia's National Hajj Commission urges intending pilgrims to verify that any travel agency appears on its published list of licensed Hajj operators before paying any deposit, since an agency's absence from that list is the clearest sign a promised pilgrimage booking does not actually exist.`,
+    categorySlug: 'travel-vacation-scams',
+    alertLevel: 'high',
+    sources: ['The Standard (Gambia)', 'Gambiana', 'The Point (Gambia)', 'Kerr Fatou Online Media House'],
+    sourceUrl: 'https://standard.gm/travel-agency-accused-of-d50m-scam-in-bodged-hajj-travels/',
+    country: 'GM',
+  },
+  {
+    name: 'Fake Gambia Revenue Authority Facebook Job Recruitment Scam',
+    slug: 'gambia-gra-facebook-fake-job-recruitment-scam',
+    description: `The Gambia Police Force's Cybercrime and Digital Forensic Unit investigated a scheme in which a Nigerian national created a fake Facebook account impersonating a senior customs commissioner at the Gambia Revenue Authority (GRA) and used it to advertise nonexistent job vacancies within the agency. Jobseekers who responded were told to pay an "application fee" of D8,000, sent through a Wave mobile money number controlled by the suspect, in order to be considered for the fabricated positions. The scheme unraveled after a victim who had lost money reported it to police, and investigators traced the Wave transactions and the Facebook account back to the suspect, who was arrested and placed in custody while the case continued. The Gambia Police Force has urged jobseekers to treat any government recruitment notice that appears only on a personal or unverified Facebook page — rather than the GRA's official channels — as fraudulent, and to never pay an "application fee" to secure a public-sector job, since the GRA does not charge fees to apply for advertised positions.`,
+    categorySlug: 'employment-scams',
+    alertLevel: 'medium',
+    sources: ['The Gambia Police Force', 'The Point (Gambia)', 'Kerr Fatou Online Media House'],
+    sourceUrl: 'https://thepoint.gm/africa/gambia/headlines/police-arrest-nigerian-for-alleged-online-fraud',
+    country: 'GM',
+  },
+);
