@@ -4532,3 +4532,25 @@ The financial reckoning came in April 2017, when Partners HealthCare and Brigham
 No criminal charges were ever filed against Anversa personally; the $10 million settlement was paid by the hospital and its parent health system, not by him, and he has kept a low public profile since leaving Harvard. What makes the case unusual even among academic fraud scandals is that the fabricated data didn't just distort a journal's citation record — it helped justify injecting experimental cells, prepared according to Anversa's methods, into the hearts of actual heart-attack patients enrolled in a real clinical trial, on the strength of a discovery regulators and rival scientists eventually concluded had never been reliably shown to be true.`,
   },
 );
+
+NotoriousAF.push(
+  {
+    title: `Nicky Arnstein: The Wiretap Swindler and Wall Street Bond Thief Behind Fanny Brice's Real "Funny Girl" Marriage`,
+    slug: 'nicky-arnstein-wall-street-bond-swindle',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://en.wikipedia.org/wiki/Nicky_Arnstein',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Nicky_Arnstein_1920.jpg?width=1200',
+    coverImageCredit: 'Photo: National Photo Company, Library of Congress (public domain)',
+    coverImagePosition: 50,
+    body: `Julius Wilford Arndstein was born in Berlin on July 1, 1879, and grew up in New Jersey after his family emigrated, the son of a German-Jewish Franco-Prussian War veteran and a Dutch mother. As a teenager he raced bicycles fitted with nickel-plated spokes, which earned him the nickname "Nicky" — and, through the gamblers who hung around the tracks, an early education in fixing races rather than winning them. By his twenties he was working the transatlantic ocean liners and European casinos as a professional card cheat and confidence man, running in the same circles as the young Arnold Rothstein, and racking up arrests in London, Paris, and Monte Carlo between 1909 and 1912 without ever being convicted.
+
+His luck at dodging convictions ran out in 1915, when he was sent to Sing Sing as part of a wiretapping swindle run by a gang of stock swindlers. He served two years of a three-year sentence before being paroled — helped along by a woman he had met in Philadelphia in 1912, the rising vaudeville star Fanny Brice, who had fallen for the charming gambler and would spend the rest of the decade trying to save him from himself. Brice visited him in prison, helped arrange his release, and married him in October 1918, shortly after his divorce from his first wife became final.
+
+The marriage bought Arnstein less than two years of freedom before his real notoriety arrived. In 1920 he was accused of masterminding a conspiracy to sell $5 million in bonds stolen from Wall Street messengers and brokerage houses — prosecutors called him the "mastermind" of the ring — and he vanished for two months before surrendering to face charges. What followed was one of the more tangled prosecutions of the era: his first trial ended without a conviction, so federal authorities tried him again, this time for conspiracy to transport the stolen securities across state lines into Washington, D.C. Three years of trials and appeals followed, with Arnstein free on bail the whole time thanks to Brice, who financed his defense, pawned her own jewelry to cover legal bills, and stood by him as the case wound all the way to the U.S. Supreme Court. He lost. On May 16, 1924, Arnstein entered the federal penitentiary at Leavenworth, Kansas, and served roughly two years of his sentence.
+
+Brice never wavered while he was locked up — she wrote, visited, and kept paying his bills — but the man she got back in 1927 was not interested in reciprocating. He drifted out of her life and their two children's within months of his release, and she divorced him that September on grounds of infidelity. Arnstein remarried in 1929, this time to a wealthy widow, and settled into a comfortable, quieter kind of obscurity; his last notable public act was suing 20th Century Fox in 1939 for $400,000 over its unflattering film treatment of his marriage to Brice, a suit he settled for a small fraction of that. He died in Los Angeles in 1965 and was buried under an assumed name, Jules Arnold — a fittingly evasive final act for a man whose entire career was built on being someone other than who he claimed.
+
+Arnstein's twice-proven criminal record didn't stop his story from being rewritten into one of Broadway and Hollywood's most beloved romances. The 1964 musical "Funny Girl" and its 1968 film adaptation, both built around Brice's life, turned "Nicky Arnstein" into a dashing, unlucky gambler more sinned against than sinning — a softened, sympathetic version of a man two separate juries had found to be exactly the con artist prosecutors said he was. It's a case where the swindle didn't end with his conviction: decades later, audiences were still being sold a more flattering version of Nicky Arnstein than the one the courts, and Fanny Brice's pawned jewelry, actually paid for.`,
+  },
+);
