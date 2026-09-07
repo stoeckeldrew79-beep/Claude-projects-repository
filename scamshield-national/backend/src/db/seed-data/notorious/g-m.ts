@@ -4352,4 +4352,21 @@ The trial, held in Lübeck in 1954, drew enough public interest that proceedings
 
 Malskat served his sentence, continued painting under his own name for the rest of his life, and died in 1988 near Lübeck. The case remains one of postwar Germany's most striking cultural fraud stories not because a forger evaded detection, but because the forger himself ultimately forced the reckoning — confessing to a masterpiece the public had already come to cherish as a piece of recovered medieval history, then suing himself to make sure the confession stuck.`,
   },
+{
+    title: 'Mohammad Azharuddin and the Match-Fixing Scandal That Ended a Captain’s Career',
+    slug: 'mohammad-azharuddin-cricket-match-fixing-scandal',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Mohammad_Azharuddin_(1).jpg?width=1200',
+    coverImageCredit: 'Photo: BBC News Urdu (CC BY 3.0)',
+    coverImagePosition: 50,
+    body: `Mohammad Azharuddin made his Test debut for India in December 1984 and immediately made history, scoring centuries in each of his first three Test innings — a feat no other player has matched. Over a 15-year international career he captained India in 47 Tests and 174 one-day internationals, more than any other Indian captain of the era, leading the team through three Cricket World Cups and to Asia Cup titles in 1990-91 and 1995. By the time his career ended, he had scored more than 6,200 Test runs and nearly 9,400 ODI runs and was regarded as one of the finest wristwork batsmen of his generation.
+
+That reputation collapsed in 2000. After South African captain Hansie Cronje's own match-fixing confession that April named Azharuddin as the person who had introduced him to bookmakers, India's Central Bureau of Investigation opened a formal inquiry into fixing allegations reaching back through the 1990s. The CBI's report, released that October, concluded Azharuddin had fixed at least four One Day Internationals and implicated teammates Ajay Jadeja and Nayan Mongia as having worked with him at his direction. The Board of Control for Cricket in India found him guilty of match-fixing on November 27, 2000, and imposed a ban from all forms of the game — later extended to a lifetime ban — that December; the International Cricket Council backed the suspension.
+
+Azharuddin denied the allegations throughout, and unlike Cronje, he was never criminally charged — Indian authorities pursued the case through cricket's own disciplinary bodies and the civil courts rather than a criminal prosecution. He challenged the ban in the Andhra Pradesh High Court, and in 2000 a single-judge bench initially set it aside on procedural grounds, a ruling the BCCI then appealed. The dispute dragged on for over a decade until November 8, 2012, when a two-judge bench of the same court dismissed the BCCI's appeal for good, finding no adequate evidence that Azharuddin had succumbed to pressure from bookmakers while playing, and permanently lifting the ban twelve years after it was first imposed.
+
+By the time the courts cleared him, Azharuddin had already moved into a second public career, winning a parliamentary seat for the Indian National Congress in the 2009 general election and serving as a Member of Parliament until 2014; he later led the Telangana state cricket association and, in 2025, was appointed a minister in the Telangana state government. His case remains one of the defining scandals of the match-fixing era that swept international cricket at the turn of the millennium — alongside Cronje's in South Africa and Salim Malik's in Pakistan — a reminder that a scam doesn't require a criminal conviction to end a career and permanently divide a reputation between "legendary batsman" and "the captain who fixed matches," even after the formal ban that made the second label official was ultimately overturned.`,
+    sourceUrl: 'https://www.aljazeera.com/sports/2012/11/8/court-overrules-azharuddin-life-ban',
+  },
 );
