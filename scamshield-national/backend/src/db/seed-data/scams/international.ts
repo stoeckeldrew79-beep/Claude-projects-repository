@@ -9292,3 +9292,36 @@ International.push(
     country: 'OM',
   },
 );
+
+International.push(
+  {
+    name: 'AI Deepfake "Banco Central de Reserva" Investment Scheme',
+    slug: 'el-salvador-bcr-ai-deepfake-investment-scheme',
+    description: `Fraudsters circulate AI-generated deepfake videos on Facebook and other social platforms that clone the voice and likeness of Banco Central de Reserva de El Salvador (BCR) President Douglas Rodríguez — and in some versions President Nayib Bukele — falsely announcing a new BCR-backed "investment" program that promises victims guaranteed earnings of around $1,990 a month, or "thousands of dollars a week," simply for entering personal data and making an initial deposit. The ads route viewers to lookalike websites built on ordinary ".com" domains rather than the real BCR's official ".gob.sv" domain, where visitors are asked to submit identifying information and transfer funds to "activate" the supposed returns. The BCR published a public statement on June 8, 2024 headlined "No caiga, es una estafa" ("Don't fall for it, it's a scam"), explaining that "personas ajenas a nuestra institución están difundiendo información falsa en internet para estafar, robar datos y dinero a la población" ("people outside our institution are spreading false information online to defraud people and steal their data and money"), and when asked directly about one viral video the bank said flatly, "el Banco Central no ofrece ningún servicio de inversión, eso es una ESTAFA" ("the Central Bank does not offer any investment service, that is a SCAM"). The BCR said it issued 48 separate fraud alerts on its official X account during 2024 alone and urged anyone who encounters one of these videos or sites to report it by phone at 2281-8000 or via WhatsApp at 7125-6737 rather than engage with the supposed investment offer.`,
+    categorySlug: 'ai-deepfake-scams',
+    alertLevel: 'high',
+    sources: ['Banco Central de Reserva de El Salvador (BCR)', 'Univision', 'dinero.com.sv'],
+    sourceUrl: 'https://www.univision.com/noticias/banco-central-reserva-el-salvador-plataforma-inversion-estafa',
+    country: 'SV',
+  },
+  {
+    name: 'Facebook Marketplace Advance-Payment "Reservation" Scam',
+    slug: 'el-salvador-marketplace-advance-payment-reservation-scam',
+    description: `Scammers set up newly created Facebook profiles with no sales history and list everyday goods — electronics, appliances, vehicles — at prices well below market value to draw in bargain-hunting buyers quickly. Once a buyer shows interest, the "seller" pushes the conversation off Marketplace and onto WhatsApp, then manufactures urgency by claiming other buyers are interested or that the deal must close immediately, pressuring the victim into sending an advance transfer to "reserve" the item. As soon as the payment lands, the seller blocks the buyer on both Facebook and WhatsApp and disappears, having never intended to deliver anything. El Salvador's Defensoría del Consumidor issued a public warning on May 11, 2026 flagging the pattern and stressing that "perfiles recién creados, sin historial de ventas o sin actividad previa, representan un mayor riesgo" ("newly created profiles, without a sales history or prior activity, represent a greater risk"). The agency advised consumers to verify a seller's profile activity and reviews before paying anything, to be wary of prices that seem too good to be true, to resist pressure to pay immediately, and to avoid sending advance "reservation" payments to unverified sellers altogether — directing anyone affected to file a complaint with the Centro de Atención y Prevención de Estafas at 2999-9999.`,
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'high',
+    sources: ['Defensoría del Consumidor de El Salvador', 'elsalvador.com'],
+    sourceUrl: 'https://www.elsalvador.com/dinero-y-negocios/estafas-fraudes-defensoria-del-consumidor-consultas-de-los-consumidores/1273764/2026/',
+    country: 'SV',
+  },
+  {
+    name: 'Fake "Traffic Fine" SMS Phishing Scam Impersonating Banks',
+    slug: 'el-salvador-fake-traffic-fine-sms-bank-phishing-scam',
+    description: `Victims receive unsolicited text messages or messaging-app notifications made to look like official notices about an unpaid traffic fine or citation, urging them to tap a link to "review" or "pay" the fine. The link leads to a fake website cloned to resemble a Salvadoran bank's own site, where the page asks the victim to enter personal data, account passwords, one-time verification codes (OTP), or bank card details — information the criminals then use to break into the victim's real accounts and move money out without authorization. The Asociación Bancaria de El Salvador (ABANSA), representing the country's private banks, issued a joint public alert on July 11, 2026 describing the scheme as "phishing, una práctica utilizada por ciberdelincuentes para suplantar la identidad de instituciones y obtener información confidencial" ("phishing, a practice used by cybercriminals to impersonate institutions' identities and obtain confidential information"). Individual banks echoed the warning on social media — Banco Cuscatlán, for instance, stated publicly that it "no tiene ningún tipo de trato con terceros" ("has no dealings of any kind with third parties") requesting customer data on its behalf. ABANSA urged the public to never share a password, PIN, OTP, or card number by phone call, SMS, or messaging app regardless of who is asking, to avoid tapping links sent from unknown numbers and instead type a bank's web address in manually, to delete suspicious messages without opening any attachment, and to carry out all banking transactions exclusively through the bank's own official channels.`,
+    categorySlug: 'phishing',
+    alertLevel: 'high',
+    sources: ['Asociación Bancaria de El Salvador (ABANSA)', 'elsalvador.com'],
+    sourceUrl: 'https://www.elsalvador.com/dinero-y-negocios/finanzas-personales/estafas-bancos-abansa-fraudes/1282866/2026/',
+    country: 'SV',
+  },
+);
