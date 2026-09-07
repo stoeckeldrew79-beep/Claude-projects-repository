@@ -9481,3 +9481,36 @@ International.push(
     country: 'MW',
   },
 );
+
+International.push(
+  {
+    name: 'Papua New Guinea "800% in 28 Hours" Unlicensed Crypto Investment Scheme',
+    slug: 'png-800-percent-28-hours-crypto-investment-scheme',
+    description: `In a public advisory issued July 7, 2025, the Bank of Papua New Guinea (BPNG) warned that unregulated "investment opportunities" were circulating on WhatsApp, Facebook, and Telegram, some promising returns as extreme as 800% profit within 28 hours. BPNG said schemes like this give no real transparency about how the money is actually managed or invested, use pressure tactics and incentives to push people toward large or early deposits, and typically operate as Ponzi or pyramid structures that pay early "investors" out of money collected from later ones rather than from any genuine trading activity. The bank stated it has not licensed any Virtual Asset Service Providers or cryptocurrency-based investment platforms in Papua New Guinea, meaning anyone who deposits money with one of these unlicensed operators has no regulatory protection and little chance of recovering losses if the scheme collapses or its operators disappear — and warned that running such a scheme is itself a breach of national financial laws, carrying criminal prosecution, civil penalties, and asset recovery action. Consumers are urged to check that any financial service provider is properly licensed and supervised by BPNG before sending money, and to report suspicious offers to info@bankpng.gov.pg or their nearest police station.`,
+    categorySlug: 'cryptocurrency-scams',
+    alertLevel: 'high',
+    sources: ['Bank of Papua New Guinea (BPNG)'],
+    sourceUrl: 'https://www.bankpng.gov.pg/publications/public-notices/buyer-beware-unlicensed-investment-scheme-social-media',
+    country: 'PG',
+  },
+  {
+    name: 'Fake PNGX-Branded Facebook Investment & Crypto Training Scam',
+    slug: 'png-pngx-facebook-impersonation-investment-scam',
+    description: `On August 3, 2026, PNGX Markets Limited — Papua New Guinea's national stock exchange — issued an urgent alert after discovering multiple fraudulent Facebook pages unlawfully using its name, logo, and official photographs, including images of real PNGX staff members, to pose as the exchange. The fake pages approached members of the public with bogus investment opportunities, "cryptocurrency training programmes," and financial education courses, trading on the borrowed credibility of a real, government-backed institution to collect personal information and money that PNGX never asked for. PNGX said it does not solicit payments through social media, request banking details online, or run cryptocurrency training, and urged anyone who encounters one of these pages to avoid engaging with it, report it to Facebook and to the Securities Commission of Papua New Guinea, and verify that any investment provider is actually licensed by the Securities Commission or the Bank of Papua New Guinea before handing over money.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ['PNGX Markets Limited', 'Australia Papua New Guinea Business Council'],
+    sourceUrl: 'https://apngbc.org.au/2026/pngx-warns-of-sophisticated-investment-scams-targeting-the-public/',
+    country: 'PG',
+  },
+  {
+    name: 'Papua New Guinea Festive Season "Held Parcel" Release-Fee Scam',
+    slug: 'png-festive-held-parcel-release-fee-scam',
+    description: `In a December 19, 2025 media release launching its Scam Awareness Week, Papua New Guinea's Independent Consumer and Competition Commission (ICCC) warned that fraudsters were flooding the festive season with text messages disguised as delivery notifications, telling recipients a parcel was being held and that a small release or clearance fee had to be paid before it could be delivered — a trick the ICCC grouped alongside fake online stores advertising steep Christmas discounts that never ship any real goods. ICCC Commissioner Roy Daggy said "Christmas is a time of joy, but it is also peak season for scammers," noting that reports spike every year as shoppers rush to place orders and are primed to expect delivery updates. The commission's "Stop. Check. Protect." guidance tells people to stop before clicking a link or paying an unsolicited fee named in a delivery text, check by contacting the retailer or courier directly through a number or website they already know rather than one given in the message, and protect family members — especially older relatives — by warning them about the pattern. Suspected scams can be reported to the ICCC's Consumer Protection Division on 312 4600 or complaints@iccc.gov.pg.`,
+    categorySlug: 'package-delivery-scams',
+    alertLevel: 'medium',
+    sources: ['Independent Consumer and Competition Commission (ICCC)'],
+    sourceUrl: 'https://iccc.gov.pg/2025/12/19/media-release-iccc-launches-scam-awareness-week-to-empower-papua-new-guineans-against-scams/',
+    country: 'PG',
+  },
+);
