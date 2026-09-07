@@ -2277,3 +2277,15 @@ UsTZ.push({
     country: 'US',
     state: 'WV',
 });
+
+UsTZ.push({
+    name: 'Sumner County Serial Fake-Check Fraud Scheme (Chase Brodie Brown)',
+    slug: 'tennessee-chase-brodie-brown-fake-check-fraud',
+    description: `Chase Brodie Brown, a 26-year-old Nashville-area man already known to federal authorities for "orchestrating elaborate fraud schemes," ran a string of fake-check cons across Sumner County, Tennessee while on supervised release from a 2021 federal fraud conviction in Illinois. In one scheme, Brown used a fraudulent check to buy a $50,000 2024 Malibu wake boat from a Hendersonville dealership; investigators later recovered a separate fabricated $380,476.54 check purporting to be closing proceeds from a title company for a property in Madison, which the title company confirmed had no real closing behind it. In another, after being evicted from a rental property, Brown submitted a fraudulent $15,000 check to the Sumner County Clerk's Office to post an appeal bond. Brown pleaded guilty to criminal simulation over $60,000, theft of property over $10,000, criminal simulation over $250,000, and money laundering, and on March 2, 2026, Sumner County Criminal Court Judge Jennifer S. Nichols sentenced him to 15 years in the Tennessee Department of Correction, to run consecutively to whatever federal time he still owed. The Sumner County District Attorney's Office called the sentence one of the longest ever imposed in the county for this kind of fraud. The case is a reminder that a fake or counterfeit check can look completely legitimate to a car dealership, title company, or even a court clerk's office accepting a bond payment — anyone receiving an unusually large check tied to a fast-moving deal, whether buying a boat, closing on property, or posting a court bond, should confirm directly with the issuing bank or institution that the check is genuine and has actually cleared before releasing goods, signing over a title, or treating the transaction as final.`,
+    categorySlug: 'fake-check-overpayment',
+    alertLevel: 'medium',
+    sources: ['Sumner County District Attorney\'s Office', 'WSMV', 'FOX17 Nashville', 'WKRN'],
+    sourceUrl: 'https://www.wsmv.com/2026/03/03/serial-fraudster-known-elaborate-schemes-gets-15-years-prison-tennessee/',
+    country: 'US',
+    state: 'TN',
+});

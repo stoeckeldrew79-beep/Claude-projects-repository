@@ -3856,3 +3856,15 @@ UsNS.push({
     country: 'US',
     state: 'ND',
 });
+
+UsNS.push({
+    name: 'G3 Solar Deceptive Sales Lawsuit (Ohio)',
+    slug: 'ohio-g3-solar-deceptive-sales-lawsuit',
+    description: `Ohio Attorney General Dave Yost sued Utah-based residential solar installer G3 Solar on January 12, 2026 in Franklin County Common Pleas Court, alleging the company used high-pressure sales tactics and false claims that left Ohio homeowners saddled with both a decades-long solar loan and their old electric bill. According to the complaint, G3 Solar's sales pitch promised systems would eliminate or drastically cut a homeowner's electric bill, generate enough power to fully offset utility costs, and qualify for net metering, but many installations produced far less electricity than advertised, leaving customers paying both the solar loan and close to their full previous utility bill. The suit alleges G3 Solar steered consumers into 20- to 30-year financing arrangements structured so payments jump substantially after 18 months unless the homeowner makes an additional "voluntary" payment equal to roughly 30% of the loan balance — a term the state says was not made clear at the time of sale — and that the company routinely ignored warranty claims and service requests, in some cases requiring customers to wait a full year before it would even review a system's performance. Yost's office is seeking a permanent injunction barring the practices, restitution for affected Ohio consumers, and civil penalties. Homeowners considering a solar installation are advised to get any savings, net-metering, and loan-payment-increase terms in writing before signing, to independently verify a company's licensing and complaint history with the Ohio Attorney General's Office, and to be wary of any solar financing agreement that includes a large "voluntary" balloon payment tied to a specific date rather than a fixed monthly payment for the full loan term.`,
+    categorySlug: 'home-improvement-solar',
+    alertLevel: 'medium',
+    sources: ['Ohio Attorney General (Dave Yost)', 'WHIO', 'Spectrum News 1'],
+    sourceUrl: 'https://www.ohioattorneygeneral.gov/Media/News-Releases/January-2026/AG-Yost-Sues-Solar-Company-for-Allegedly-Deceiving',
+    country: 'US',
+    state: 'OH',
+});
