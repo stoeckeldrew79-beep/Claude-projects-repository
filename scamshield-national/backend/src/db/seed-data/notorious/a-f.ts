@@ -4185,3 +4185,44 @@ The scheme ended the way it started: at the tables. On April 26, 1982, Molony lo
 Molony has not gambled since his arrest, has spoken for decades about gambling addiction, and works as a business consultant. His case, chronicled in journalist Gary Stephen Ross's 1987 book "Stung: The Incredible Obsession of Brian Molony" and dramatized in the 2003 film "Owning Mahowny" starring Philip Seymour Hoffman, remains a standard reference point for how a compulsive gambler with real institutional trust and real signing authority can turn a bank's own lending process into a private line of credit — one that, unlike an ordinary loan, no one was ever going to be repaid.`,
   },
 );
+
+NotoriousAF.push(
+  {
+    title: `Alceo Dossena: The Sculptor Whose "Ancient" Forgeries Fooled the Met and the MFA`,
+    slug: 'alceo-dossena-antiquities-forgery-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://en.wikipedia.org/wiki/Alceo_Dossena',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Madonna_and_Child_by_Alceo_Dossena,_1930,_San_Diego_Museum_of_Art.JPG?width=1200',
+    coverImageCredit: 'Photo: Wmpearl, Wikimedia Commons (CC0) — a genuine, signed Dossena marble, San Diego Museum of Art',
+    coverImagePosition: 40,
+    // representative photo — a real, undisputed Dossena sculpture rather than one of the disputed "ancient" forgeries
+    body: `Alceo Dossena was born in Cremona, Italy, in 1878 and trained as a stonemason before becoming one of the most technically gifted sculptors of his generation — skilled enough to carve marble and terracotta convincingly in half a dozen historical styles, from classical Greek and Roman to Gothic, medieval, and early Renaissance. In the antiquities-hungry art market of the early 1900s, when Europe's aristocracy and America's newly wealthy museums were racing to fill their galleries with old-world pedigree, a Roman dealer named Alfredo Fasoli recognized exactly what he had in Dossena: not a forger by temperament, but a craftsman he could quietly turn into one.
+
+Fasoli paid Dossena a flat fee — commonly reported at around $200 a piece — to carve sculptures "in the style of" specific old masters, then artificially aged the marble, invented a provenance, and sold the results, through his own network and that of a second prominent Italian antiquarian, Elia Volpi, as genuine antiquities. The scheme ran for the better part of two decades and reached the top of the American art world. A marble tomb Dossena carved, which Fasoli passed off as the work of the 15th-century Florentine sculptor Mino da Fiesole, was sold to the Museum of Fine Arts, Boston, for a reported $100,000; other pieces attributed to Donatello, Simone Martini, and various ancient Greek and Etruscan periods made their way into the collection of the Metropolitan Museum of Art, the Cleveland Museum of Art, and the private collections of Helen Clay Frick and William Randolph Hearst — among the most sophisticated buyers and best-advised institutions in the country, all fooled by the same craftsman working out of a modest Roman studio.
+
+The fraud collapsed in 1928, not because a scholar spotted a flaw in the carving, but because Dossena finally confronted what his own labor was worth. Needing money after his wife's death, he asked Fasoli for a larger share of the enormous sums the dealer had been collecting on his work and was refused; he sued Fasoli for back pay, and the lawsuit forced the entire scheme into public view. Under questioning, Dossena readily admitted he had carved every disputed piece — but also that he had never personally represented any of them to a museum or collector as a genuine antique, leaving that misrepresentation to Fasoli and Volpi. Italian authorities largely accepted that distinction: Dossena was acquitted of forgery and later received the equivalent of roughly $66,000 in compensation, while Fasoli, Volpi, and other dealers in the chain were fined and publicly disgraced.
+
+Exposure did not make Dossena rich. Museums quietly re-catalogued or withdrew the pieces once their true authorship became public, and when the Italian government auctioned off 39 works Dossena had made and sold openly under his own name in 1933, they brought in only about $9,000 combined — a fraction of what a single one of his forgeries had fetched under someone else's. He died in Rome in 1937, largely destitute, having demonstrated more thoroughly than any critic ever could that the expert opinion of some of America's grandest museums and collectors had been worth exactly as much as the false pedigree stapled to it.`,
+  },
+);
+
+NotoriousAF.push(
+  {
+    title: `Icilio Federico Joni: The Sienese Forger Bernard Berenson Tried to Silence`,
+    slug: 'icilio-federico-joni-sienese-panel-painting-forger',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://www.theartnewspaper.com/1993/02/01/icilio-federico-jonis-ability-to-reproduce-quattrocento-painting-was-so-complete-that-his-works-entered-many-famous-collections-but-was-he-a-deliberate-counterfeiter-or-creative-artist',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Icilio_Federico_Joni.jpg?width=1200',
+    coverImageCredit: 'Photo: unknown photographer, 1906, via Wikimedia Commons (public domain) — Joni in his Siena studio',
+    coverImagePosition: 40,
+    body: `Icilio Federico Joni was born in Siena, Italy, in January 1866 to an unmarried mother; his father had killed himself before Joni's birth, and he spent his earliest years in a foundling hospital before relatives and a family friend took him in. Apprenticed as a boy to a Sienese gilder and later an irregular student at the local Istituto di Belle Arti, Joni discovered a rare technical gift: he could reproduce the tempera panel paintings, gilded altarpieces, and painted wooden caskets of the Sienese Quattrocento — Siena's fifteenth-century golden age of religious art — with a fidelity that fooled even people whose careers were built on telling the real thing from the fake.
+
+What began as an ordinary restoration business turned, by Joni's own later account, into something far more lucrative: painting entirely new works in the manner of Sienese masters, aging the wood and pigment through cycles of heat, humidity and controlled damage, and selling them through the Siena antique dealer Vincenzo Torrini as genuine period pieces. Torrini's connections extended to Bernard Berenson, the era's most influential authenticator of Italian Renaissance art, who bought from Torrini's stock and whose stamp of approval opened doors to serious American collectors, including banker Philip Lehman and lawyer-collector Dan Fellows Platt. Joni's panels and gilded caskets, sold as centuries-old originals, ultimately reached the Metropolitan Museum of Art, Oberlin College's Allen Memorial Art Museum, the National Gallery in London, and the Courtauld Institute — a client list most legitimate Sienese painters of his own era could only have dreamed of.
+
+Joni later boasted that he had never even seen a real antique Biccherna cover — the painted wooden tablets Siena's medieval treasury office used to bind its account books — before he began manufacturing convincing fakes of them, and delighted in recounting how Siena's own police were twice called in to investigate books "stolen" from the cathedral archives, only to discover the volumes were Joni forgeries that had never been genuine to begin with. Unlike forgers who were exposed by an outside investigator or a lawsuit, Joni exposed himself: in 1932 he published an Italian memoir, "Le memorie di un pittore di quadri antichi," cheerfully detailing decades of deceiving dealers, connoisseurs, and museums. Berenson, whose own authentications the book quietly implicated, reportedly tried to have the memoir suppressed or softened before publication; it appeared anyway; and an English translation, "Affairs of a Painter," followed in 1936, selling out quickly enough that rumor held interested parties had bought up copies themselves to limit its circulation.
+
+Joni was never prosecuted — he had sold his work through dealers rather than personally certifying it as ancient, the same technicality that shielded contemporaries like Alceo Dossena — and he continued painting and restoring in Siena until his death there in 1946. Decades later, museums that hold his work still use it as a teaching tool: X-ray analysis shows his solid, evenly modeled underpainting diverges from the layered, translucent flesh tones real fifteenth-century Sienese panels display, and conservators studying Joni's surviving panels have turned his own long-ago deceptions into a reference standard for spotting the next one.`,
+  },
+);
