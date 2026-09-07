@@ -9448,3 +9448,36 @@ International.push(
     country: 'GY',
   },
 );
+
+International.push(
+  {
+    name: 'Malawi Fake Social Cash Transfer Payment Scam',
+    slug: 'malawi-fake-social-cash-transfer-scam',
+    description: `Fraudsters send SMS or WhatsApp messages impersonating Malawi's Social Cash Transfer Programme, telling recipients they have been selected for a government payout but must first send a small "processing" or "registration" fee via mobile money before the funds can be released. In a September 2026 public alert, the Malawi Communications Regulatory Authority (MACRA) said fraudsters are increasingly using convincing fake messages to trick people into sending money, and stated plainly that government entities and civil society organisations running social cash transfer programmes do not contact beneficiaries through ordinary SMS or WhatsApp messages to request money. Anyone contacted this way is advised to stop, verify the claim directly with the programme office rather than replying to the message, and never send a fee to "unlock" a benefit payment.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'high',
+    sources: ['Malawi Communications Regulatory Authority (MACRA)'],
+    sourceUrl: 'https://macra.mw/consumer-affairs/',
+    country: 'MW',
+  },
+  {
+    name: 'Malawi Mobile Money "Failed Transaction" Redirect Scam',
+    slug: 'malawi-mobile-money-failed-transaction-scam',
+    description: `A text message or phone call made to look like a genuine system-generated alert from Airtel Money or TNM Mpamba tells the victim that a mobile money transfer has "failed" or was sent to them in error, and pressures them to immediately send the funds on to a different number to "reverse" or "correct" the transaction before a supposed deadline passes. MACRA's September 2026 fraud alert specifically flagged this pattern — urgent requests to move money to an unfamiliar number after a claimed platform failure — as one of the most common tricks reported by mobile money users in Malawi, alongside fake SMS messages disguised as real transaction confirmations. Genuine mobile money providers never ask a customer to redirect funds to another private number to fix a failed or mistaken transfer; that correction happens only through the provider's own systems or customer service line.`,
+    categorySlug: 'phishing',
+    alertLevel: 'high',
+    sources: ['Malawi Communications Regulatory Authority (MACRA)'],
+    sourceUrl: 'https://macra.mw/consumer-affairs/',
+    country: 'MW',
+  },
+  {
+    name: 'Malawi Fake Competition and Prize SMS Scam',
+    slug: 'malawi-fake-competition-prize-scam',
+    description: `A text or WhatsApp message tells the recipient they have won a mobile network competition or lottery prize they never entered, then demands a "clearance," "tax," or "registration" fee paid via mobile money before the winnings can supposedly be released. Malawi's national fraud-awareness campaign and MACRA's own consumer alerts have both flagged bogus prize and lottery notifications as among the most frequently reported scams to the regulator, alongside guidance that no legitimate organisation asks for bank details, PINs, passwords, or one-time passwords through an unsolicited call, text, or email. Recipients are urged to treat any prize notice requiring an upfront payment as fraudulent by default and to report it to MACRA's 261 call centre rather than engaging with the sender.`,
+    categorySlug: 'lottery-sweepstakes-scams',
+    alertLevel: 'medium',
+    sources: ['Malawi Communications Regulatory Authority (MACRA)'],
+    sourceUrl: 'https://macra.mw/consumer-affairs/',
+    country: 'MW',
+  },
+);
