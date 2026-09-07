@@ -9930,3 +9930,36 @@ International.push(
     country: 'AO',
   },
 );
+
+International.push(
+  {
+    name: 'Fake Overseas Job Recruitment Advance-Fee Scam',
+    slug: 'madagascar-fake-overseas-job-recruitment-advance-fee-scam',
+    description: `Madagascar's National Police announced in January 2026 that two women and a male accomplice had been arrested for running fraudulent overseas recruitment schemes that lured Malagasy jobseekers with fake postings for positions in Canada, Switzerland, and aboard cruise ships. According to Police Commissioner Harison Olivier Samy, director of the Direction du Contrôle des Migrations, who detailed the scheme's method of operation at a press conference in Anosy, one of the women posted Facebook ads promising positions in Canada and Switzerland; interested candidates were told to pay between three and five million ariary (roughly US$650 to US$1,080), framed as "dossier fees," and once the money was collected they were told to simply wait for approval from foreign authorities that never came — no job, and no refund, ever materialized. Nine victims filed complaints with Madagascar's specialized investigations unit. A second recruiter and her accomplice ran a parallel scheme purporting to hire crew for cruise ships, charging between 500,000 and two million ariary and, to make the pitch more convincing, staging fake training sessions at a hotel in Toamasina before disappearing with the money; seventeen additional victims came forward, and all three suspects were arrested, with the two women placed in preventive detention at Antanimora prison and the male accomplice put under judicial supervision. Commissioner Samy said "this type of scheme is not an isolated case" and that similar cruise-ship recruitment scams had already surfaced elsewhere. Police guidance to jobseekers is to verify any overseas job offer with the Ministry of the Public Service, which in turn checks with the Ministry of Foreign Affairs to confirm a recruitment process is legitimate, since social media is full of both real and fraudulent postings and this official verification is the only reliable way to avoid the trap.`,
+    categorySlug: 'employment-scams',
+    alertLevel: 'high',
+    sources: [`L'Express de Madagascar`, 'Malagasy National Police — Direction du Contrôle des Migrations'],
+    sourceUrl: 'https://www.lexpress.mg/2026/01/escroquerie-trois-faux-recruteurs.html',
+    country: 'MG',
+  },
+  {
+    name: 'Fake "Customer Service" Job Ads Trafficking Youth into Southeast Asian Scam Compounds',
+    slug: 'madagascar-fake-customer-service-job-ads-scam-compound-trafficking',
+    description: `L'Express de Madagascar reported in March 2026 that fake overseas job postings — especially ones targeting Cambodia, Malaysia, and other Southeast Asian countries — were multiplying rapidly on Facebook, luring young Malagasy jobseekers with a scheme that looks, at first, nothing like a scam at all: candidates are contacted by what appears to be a legitimate agency, asked to pay no fees whatsoever, and promised marketing training, an attractive salary, and housing once they arrive, provided they have a good level of English and at least a high-school diploma. Selected candidates are added to a WhatsApp group with supposed HR staff who arrange interviews and send visas, plane tickets, and letters of invitation — in some cases even a signed employment contract before any training begins. The reality on arrival is starkly different: one young Malagasy man who had recently arrived in Cambodia described it this way — "At our arrival, our passports were confiscated. We were forced to work in deserted industrial zones, doing online scams over WhatsApp and TikTok. Any mistake was severely punished: reduced or unpaid salary, very difficult working conditions. The 'customer service' position didn't exist." Many young Malagasy remain trapped abroad this way, some stuck far from family with no immediate way home, coerced into running the very same online scams that first ensnared them. Madagascar's Ministry of Labor, Employment and the Civil Service (MTEFOP) urges anyone considering work abroad to verify both the job offer and the contract with the ministry before taking any steps, since doing so confirms not only that the position itself is real but that the recruiting agency or intermediary can be trusted.`,
+    categorySlug: 'employment-scams',
+    alertLevel: 'critical',
+    sources: [`L'Express de Madagascar`, `Ministère du Travail, de l'Emploi et de la Fonction Publique (MTEFOP)`],
+    sourceUrl: 'https://www.lexpress.mg/2026/03/monde-du-travail-de-fausses-offres.html',
+    country: 'MG',
+  },
+  {
+    name: 'Infinity Millennials (QNET) Fake Overseas Job Pyramid Scheme',
+    slug: 'madagascar-infinity-millennials-qnet-pyramid-scheme',
+    description: `Madagascar's judiciary announced in August 2026 that eleven people had been placed in pretrial detention in Mahajanga over their roles running Infinity Millennials — the local operation of the multinational network-marketing company QNET — after 245 members of the operation had been arrested earlier that month. André Andrimpiderana, the Prosecutor of the Republic at the Mahajanga court of first instance, laid out how the scheme worked: recruits paid an entry fee of 3,650,000 ariary (roughly US$800) apiece in exchange for a promised placement in a job or study program abroad, and were then required to sell QNET products supposedly imported from Malaysia that were promised to arrive within four to eight weeks — merchandise that, in the end, never arrived at all and existed only as a cover story. Recruiting two new members earned a commission of between 50,000 and 500,000 ariary, rising to as much as 1,100,000 ariary for recruiting six new members, but always contingent on that new recruit having paid the 3,650,000-ariary entry fee — the prosecutor said "the recruiters paid nothing themselves, but used the members' own money" to fund the payouts, the classic hallmark of a pyramid scheme in which earnings come from enrollment fees rather than genuine product sales. An Ivorian and a Comorian national wanted in connection with the case fled the country before Madagascar's Anti-Corruption Unit (Pôle Anti-Corruption) could execute arrest warrants against them. Thousands of Infinity Millennials/QNET members had protested the original 245 arrests on August 1, 2026, calling them unjustified and demanding to continue their activities, but prosecutors pressed ahead regardless and investigations continue. Malagasy authorities warn citizens against joining any recruitment scheme that requires paying an up-front "membership" or "entry" fee and promises income mainly for enrolling other people rather than for the sale of any real product or service.`,
+    categorySlug: 'ponzi-pyramid-schemes',
+    alertLevel: 'high',
+    sources: [`L'Express de Madagascar`, 'Parquet du Tribunal de Première Instance de Mahajanga'],
+    sourceUrl: 'https://www.lexpress.mg/2026/08/vente-pyramidale-onze-personnes-placees.html',
+    country: 'MG',
+  },
+);
