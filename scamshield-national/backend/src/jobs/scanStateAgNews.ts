@@ -171,6 +171,24 @@ function parseDate(raw: unknown): Date | null {
   return Number.isNaN(d.getTime()) ? null : d;
 }
 
+// A Google News query for "Florida Attorney General" scam returns whatever
+// the ranker thinks is close, and the news tier used to stamp every result
+// with the state it searched for. That tag then meant "Google returned this
+// for Florida", not "this is about Florida" — which put a Georgia prison
+// story under Florida's alerts.
+//
+// The headline is all we have (the news tier stores no summary), so the test
+// is deliberately narrow: reject an item whose headline names a different
+// state and never names the target one. A story naming both — "Washington man
+// charged in Florida scam" — is real coverage of the target state and stays.
+function namesOnlyAnotherState(headline: string, state: string): boolean {
+  const target = STATE_NAMES[state];
+  if (!target) return false;
+  const mentions = (name: string) => new RegExp(`\\b${name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\b`, 'i').test(headline);
+  if (mentions(target)) return false;
+  return Object.entries(STATE_NAMES).some(([code, name]) => code !== state && mentions(name));
+}
+
 // Tier 'ag': the office's own feed, filtered for scam relevance.
 async function fromAgFeed(state: string, feedUrl: string): Promise<Candidate[]> {
   const xml = await fetchXml(feedUrl);
@@ -207,6 +225,10 @@ async function fromNewsSearch(state: string): Promise<Candidate[]> {
     const rawTitle = textOf(item.title).trim();
     const link = textOf(item.link);
     if (!rawTitle || !link) continue;
+    // The AG tier has always been relevance-filtered; the news tier leaned on
+    // the word "scam" being in the query, which the ranker does not honour.
+    if (!RELEVANT.test(rawTitle)) continue;
+    if (namesOnlyAnotherState(rawTitle, state)) continue;
     const sourceName = textOf(item.source) || 'Unknown source';
     const suffix = ` - ${sourceName}`;
     out.push({
@@ -236,6 +258,22 @@ async function save(c: Candidate): Promise<boolean> {
     [c.headline, c.sourceName, c.sourceUrl, c.publishedAt, c.searchTerm, c.state, c.sourceKind]
   );
   return rows.length > 0;
+}
+
+// Re-checks stored news-tier rows against the same rules each run, in JS so
+// the filter has one definition rather than a SQL copy that drifts from it.
+// Without this, rows saved before the rules existed stay on state pages
+// forever — the mistagged ones are exactly the rows a reader notices.
+async function purgeMistagged(): Promise<number> {
+  const { rows } = await pool.query<{ id: string; headline: string; state: string }>(
+    "SELECT id, headline, state FROM daily_scam_news WHERE state IS NOT NULL AND source_kind = 'news'"
+  );
+  const stale = rows
+    .filter((r) => !RELEVANT.test(r.headline) || namesOnlyAnotherState(r.headline, r.state))
+    .map((r) => r.id);
+  if (!stale.length) return 0;
+  const { rowCount } = await pool.query('DELETE FROM daily_scam_news WHERE id = ANY($1::uuid[])', [stale]);
+  return rowCount ?? 0;
 }
 
 async function main() {
@@ -268,9 +306,11 @@ async function main() {
      WHERE state IS NOT NULL AND scanned_at < NOW() - INTERVAL '${RETENTION_DAYS} days'`
   );
 
+  const purged = await purgeMistagged();
   console.log(
     `scanStateAgNews: ${scanned} items scanned across ${states.length} states ` +
-      `(${agStates} with a first-party AG feed), ${inserted} new, ${rowCount ?? 0} pruned`
+      `(${agStates} with a first-party AG feed), ${inserted} new, ${rowCount ?? 0} pruned, ` +
+      `${purged} removed as off-topic or tagged to the wrong state`
   );
   await pool.end();
 }
