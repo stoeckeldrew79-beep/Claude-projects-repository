@@ -7,128 +7,17 @@ import type { Topology, GeometryCollection } from 'topojson-specification';
 import worldTopology from 'world-atlas/countries-110m.json';
 import { CountryCount } from '../services/globe';
 import { countryName } from '../utils/countries';
+import { COUNTRIES } from '../utils/countryData';
 
-// Approximate centroids for every country the seed data carries. A country
-// missing from here cannot be drawn at all: it still appears in the legend
-// with its count, but never on the sphere. That is how 97 of 110 countries
-// came to be invisible while the legend listed them — the table had 13
-// entries and the corpus had grown past it.
-//
-// Centroids, not precise geometry: a degree or two is imperceptible at the
-// size these markers are drawn. Add a row here whenever a new country code
-// enters the data, or it silently will not appear.
-const COUNTRY_COORDS: Record<string, { lat: number; lon: number }> = {
-  AE: { lat: 24, lon: 54 },
-  AL: { lat: 41, lon: 20 },
-  AM: { lat: 40.2, lon: 45 },
-  AR: { lat: -34, lon: -64 },
-  AT: { lat: 47.5, lon: 14.5 },
-  AU: { lat: -25.3, lon: 133.8 },
-  BD: { lat: 24, lon: 90 },
-  BE: { lat: 50.6, lon: 4.7 },
-  BG: { lat: 42.8, lon: 25.5 },
-  BH: { lat: 26, lon: 50.6 },
-  BO: { lat: -17, lon: -65 },
-  BR: { lat: -10, lon: -52 },
-  BS: { lat: 24.5, lon: -77.5 },
-  BW: { lat: -22.3, lon: 24.7 },
-  BZ: { lat: 17.2, lon: -88.7 },
-  CA: { lat: 56.1, lon: -106.3 },
-  CH: { lat: 46.8, lon: 8.2 },
-  CI: { lat: 7.5, lon: -5.5 },
-  CL: { lat: -35, lon: -71 },
-  CM: { lat: 6, lon: 12.5 },
-  CN: { lat: 35, lon: 105 },
-  CO: { lat: 4, lon: -73 },
-  CR: { lat: 10, lon: -84 },
-  CY: { lat: 35, lon: 33 },
-  CZ: { lat: 49.8, lon: 15.5 },
-  DE: { lat: 51.2, lon: 10.4 },
-  DK: { lat: 56, lon: 10 },
-  DO: { lat: 19, lon: -70.7 },
-  EC: { lat: -1.5, lon: -78.5 },
-  EE: { lat: 58.7, lon: 25.5 },
-  EG: { lat: 27, lon: 30 },
-  ES: { lat: 40, lon: -3.7 },
-  ET: { lat: 8, lon: 38.7 },
-  FI: { lat: 64, lon: 26 },
-  FJ: { lat: -17.7, lon: 178 },
-  FR: { lat: 46.6, lon: 2.2 },
-  GB: { lat: 55, lon: -3.4 },
-  GE: { lat: 42, lon: 43.5 },
-  GH: { lat: 8, lon: -1 },
-  GR: { lat: 39, lon: 22 },
-  GT: { lat: 15.5, lon: -90.3 },
-  HK: { lat: 22.3, lon: 114.2 },
-  HR: { lat: 45.1, lon: 15.2 },
-  HU: { lat: 47, lon: 19.5 },
-  ID: { lat: -2.5, lon: 118 },
-  IE: { lat: 53.4, lon: -8.2 },
-  IL: { lat: 31.5, lon: 34.8 },
-  IN: { lat: 22, lon: 79 },
-  IS: { lat: 65, lon: -18 },
-  IT: { lat: 42.8, lon: 12.8 },
-  JM: { lat: 18.1, lon: -77.3 },
-  JO: { lat: 31, lon: 36.5 },
-  JP: { lat: 36.2, lon: 138.3 },
-  KE: { lat: 0.5, lon: 37.9 },
-  KH: { lat: 12.5, lon: 105 },
-  KR: { lat: 36.5, lon: 127.8 },
-  KW: { lat: 29.3, lon: 47.7 },
-  KZ: { lat: 48, lon: 68 },
-  LA: { lat: 18, lon: 105 },
-  LB: { lat: 33.9, lon: 35.9 },
-  LK: { lat: 7.5, lon: 80.7 },
-  LT: { lat: 55.2, lon: 23.9 },
-  LU: { lat: 49.8, lon: 6.1 },
-  LV: { lat: 56.9, lon: 24.6 },
-  MA: { lat: 32, lon: -6 },
-  MD: { lat: 47.2, lon: 28.5 },
-  MK: { lat: 41.6, lon: 21.7 },
-  MM: { lat: 21, lon: 96 },
-  MN: { lat: 46.9, lon: 103.8 },
-  MT: { lat: 35.9, lon: 14.4 },
-  MU: { lat: -20.3, lon: 57.6 },
-  MX: { lat: 23.6, lon: -102.5 },
-  MY: { lat: 4.2, lon: 109.5 },
-  NA: { lat: -22, lon: 17.2 },
-  NG: { lat: 9.1, lon: 8.7 },
-  NL: { lat: 52.1, lon: 5.3 },
-  NO: { lat: 62, lon: 10 },
-  NP: { lat: 28.4, lon: 84.1 },
-  NZ: { lat: -41, lon: 174 },
-  PA: { lat: 8.5, lon: -80.1 },
-  PE: { lat: -9.2, lon: -75 },
-  PH: { lat: 12.9, lon: 121.8 },
-  PK: { lat: 30.4, lon: 69.3 },
-  PL: { lat: 52, lon: 19.4 },
-  PT: { lat: 39.6, lon: -8 },
-  QA: { lat: 25.3, lon: 51.2 },
-  RO: { lat: 45.9, lon: 25 },
-  RS: { lat: 44, lon: 21 },
-  RW: { lat: -1.9, lon: 29.9 },
-  SA: { lat: 24, lon: 45 },
-  SE: { lat: 62, lon: 15 },
-  SG: { lat: 1.35, lon: 103.8 },
-  SI: { lat: 46.1, lon: 14.8 },
-  SK: { lat: 48.7, lon: 19.7 },
-  SN: { lat: 14.5, lon: -14.5 },
-  TH: { lat: 15, lon: 101 },
-  TR: { lat: 39, lon: 35.2 },
-  TT: { lat: 10.7, lon: -61.2 },
-  TW: { lat: 23.7, lon: 121 },
-  TZ: { lat: -6.4, lon: 34.9 },
-  UA: { lat: 49, lon: 32 },
-  UG: { lat: 1.4, lon: 32.3 },
-  US: { lat: 39.8, lon: -98.6 },
-  UY: { lat: -32.5, lon: -55.8 },
-  UZ: { lat: 41.4, lon: 64.6 },
-  VE: { lat: 6.4, lon: -66.6 },
-  VN: { lat: 16, lon: 106 },
-  ZA: { lat: -29, lon: 24 },
-  ZM: { lat: -13.1, lon: 27.8 },
-  ZW: { lat: -19, lon: 29.9 },
-};
+// Marker positions come from the generated ISO table (utils/countryData.ts),
+// which covers every country rather than the ones someone remembered to add.
+// A country missing from it cannot be drawn at all: it still appears in the
+// legend with its count but never on the sphere, which is how 97 of 110
+// countries came to be invisible — and then 15 more within hours of that
+// being fixed by hand.
+const COUNTRY_COORDS: Record<string, { lat: number; lon: number }> = Object.fromEntries(
+  Object.entries(COUNTRIES).map(([code, info]) => [code, { lat: info.lat, lon: info.lon }])
+);
 
 function latLonToVector3(lat: number, lon: number, radius: number): THREE.Vector3 {
   const phi = (90 - lat) * (Math.PI / 180);
