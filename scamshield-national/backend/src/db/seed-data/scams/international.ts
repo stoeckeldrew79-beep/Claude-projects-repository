@@ -10203,3 +10203,26 @@ International.push(
     country: 'WS',
   },
 );
+
+International.push(
+  {
+    name: 'Belarus Fake "National Bank Declaration" Courier Fraud',
+    slug: 'belarus-fake-national-bank-declaration-courier-fraud',
+    description: `Belarus's Investigative Committee referred a case to court in the Masty District describing an organized fraud ring that defrauded four victims of more than 163,000 Belarusian roubles combined in 2026. In the scheme, an unidentified caller — posing as an official from a state authority — telephoned victims and told them their savings were subject to a mandatory "declaration" and needed to be handed over for safekeeping to avoid legal trouble. Once a victim was convinced, a second member of the group traveled to the victim's home in person, falsely introduced himself as a National Bank of the Republic of Belarus employee, and collected the cash directly. Investigators said the courier's role in the scheme lasted only about six days before he was identified through the city's CCTV camera network and detained; he was subsequently charged under Part 4 of Article 209 of Belarus's Criminal Code, covering fraud committed by an organized group on an especially large scale, and remains in custody pending trial. The case illustrates a two-stage variant of bank-impersonation fraud common across the former Soviet Union, in which a phone call manufactures a false legal pretext and a face-to-face "collection" step is used to bypass the extra scrutiny that a bank wire transfer might attract; authorities remind the public that National Bank staff do not collect cash from citizens' homes and that no legitimate "declaration" process requires handing savings to a courier.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Investigative Committee of the Republic of Belarus', 'REFORM.news'],
+    sourceUrl: 'https://reform.news/en/belarus-to-try-courier-for-phone-scam-who-posed-as-national-bank-employee',
+    country: 'BY',
+  },
+  {
+    name: '"Signal Support" Account Takeover Phishing Campaign Targeting Belarusians Abroad',
+    slug: 'belarus-signal-support-account-takeover-phishing',
+    description: `Researchers at RESIDENT.NGO's Threat Lab identified and published details in October 2025 of a phishing campaign built to hijack the Signal messenger accounts of Belarusian public figures, journalists, and media workers living outside Belarus. Victims were contacted on Signal in Polish or English by an account impersonating "Signal Support" and displaying the legitimate-looking domain support.signal.org, counting on targets to overlook the app's usual warning about messages from unverified contacts. The impersonator then manufactured a sense of panic, claiming a login attempt had just been detected from a specific city, such as Minsk or Kyiv, on an unfamiliar device, and warning that the account's phone number was about to be changed; some victims were shown a fabricated "downloading your data" progress sequence to heighten the pressure to act immediately. The attacker then told the victim that replying with the command "/cancel" would stop the takeover — but doing so caused Signal to send the victim a genuine six-digit SMS verification code, which the attacker immediately asked the victim to forward, using it to seize control of the account. RESIDENT.NGO said direct attribution was not possible from the campaign alone but that its targeting pattern was consistent with prior operations against Belarusian civil society, and urged Signal users to never share a verification code with anyone, including a contact claiming to be Signal Support, since the app never asks for codes to be sent back over chat.`,
+    categorySlug: 'account-takeover',
+    alertLevel: 'high',
+    sources: ['RESIDENT.NGO Threat Lab'],
+    sourceUrl: 'https://resident.ngo/lab/writeups/signal-phishing-belarus-2025/',
+    country: 'BY',
+  },
+);
