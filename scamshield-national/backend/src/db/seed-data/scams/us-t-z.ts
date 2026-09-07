@@ -2077,4 +2077,15 @@ export const UsTZ: SeedScam[] = [
     country: 'US',
     state: 'WI',
   },
+{
+    name: 'Longview Paper Mill Disaster Charity Scam',
+    slug: 'washington-longview-nippon-dynawave-charity-scam',
+    description: `After a chemical tank ruptured at the Nippon Dynawave Packaging paper mill in Longview, Washington on May 26, 2026 — releasing more than 500,000 gallons of highly caustic liquid and killing 11 workers — the Washington Attorney General's Office issued a consumer alert on June 8, 2026 warning residents that scammers were already positioning themselves to profit from the community's desire to help. Attorney General Nick Brown's Consumer Protection Division said it had identified fraudulent charity solicitations built around the disaster and urged donors to "file a complaint with our office" if a solicitation looked suspicious. The alert detailed several tactics being used: organizations adopting names deceptively close to real, established charities; fake donation websites with web addresses just slightly altered from an authentic organization's real site; unsolicited robocalls and texts demanding immediate payment or personal information; and QR codes embedded in flyers or social posts that route scanners to fake fundraisers or malicious sites instead of a real relief fund. The Attorney General's Office, which was separately granted concurrent jurisdiction with the Cowlitz County prosecutor to investigate potential criminal conduct behind the disaster itself, recommended that anyone wanting to help verify a charity first through the Washington Secretary of State's charity search at sos.wa.gov/charities, or through an independent evaluator like Charity Navigator, GuideStar, or the IRS's tax-exempt organization database, and to resist any high-pressure demand for immediate payment. Because individual crowdfunding campaigns are not subject to the same registration and oversight rules as registered charities, the office also urged donors to research a fundraiser's organizer directly before contributing to one, and to report suspicious robocalls using the Attorney General's Telephone Scam Reporting Form.`,
+    categorySlug: 'charity-scams',
+    alertLevel: 'medium',
+    sources: ["Washington State Attorney General's Office (Nick Brown)"],
+    sourceUrl: 'https://www.atg.wa.gov/news/news-releases/know-you-give-watch-out-charity-scams-seeking-profit-longview-paper-mill',
+    country: 'US',
+    state: 'WA',
+  },
 ];
