@@ -5693,3 +5693,15 @@ UsAF.push({
     country: 'US',
     state: 'FL',
 });
+
+UsAF.push({
+    name: 'Mediatrix Capital Forex "100% Transparency" Investment Fraud',
+    slug: 'colorado-mediatrix-capital-blue-isle-markets-forex-fraud',
+    description: `Michael Shawn Stewart, 63, of Scottsdale, Arizona, and Bryant Edwin Sewall, 59, formerly of Little Elm, Texas, ran Mediatrix Capital and Blue Isle Markets, a pair of connected companies operating out of the Caribbean that solicited Coloradans and investors worldwide into what they marketed as an algorithm-driven foreign currency exchange ("Forex") trading program promising "100% Transparency," "100% Liquidity," and "World Class Returns." According to the U.S. Attorney's Office for the District of Colorado, Stewart and Sewall recruited a network of independent salespeople to pitch the fund and kept investors in by sending account statements that showed only winning trades while concealing catastrophic real losses — even letting early investors withdraw small amounts to build confidence before the scheme collapsed under its own weight. By the time it fell apart, the two men had taken in more than $179 million in investor money but held only about $9.8 million in actual assets, a shortfall they referred to internally as "the hole"; even as their own trading lost roughly $32 million, Stewart and Sewall paid themselves about $28 million in performance fees and funneled more than $45 million in inflated markup fees through their in-house brokerage. A federal jury convicted Stewart in May 2024 on 14 counts of wire fraud and one count of conspiracy to commit wire fraud, and U.S. District Judge William J. Martinez sentenced him on July 1, 2026 to 288 months (24 years) in federal prison and $93,273,838.16 in restitution; Sewall, convicted on the same counts, was sentenced in November 2024 to 23 years. The case is one of the largest investment-fraud prosecutions to come out of Colorado and underscores a durable warning sign: a fund that shows only gains, discourages large or sudden withdrawals, and cannot produce independent, third-party custodial statements to verify its claimed returns should be treated as a red flag no matter how polished its marketing material looks.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office, District of Colorado", 'Federal Bureau of Investigation'],
+    sourceUrl: 'https://www.justice.gov/usao-co/pr/second-former-trading-firm-executive-sentenced-24-years-federal-prison-defrauding',
+    country: 'US',
+    state: 'CO',
+});

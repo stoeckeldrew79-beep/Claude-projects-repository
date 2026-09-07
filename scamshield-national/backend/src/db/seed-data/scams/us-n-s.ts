@@ -3632,3 +3632,15 @@ UsNS.push({
     country: 'US',
     state: 'ND',
 });
+
+UsNS.push({
+    name: 'Fake San Francisco 49er Dating-App Investment Romance Scam',
+    slug: 'oregon-fake-49er-dating-app-investment-romance-scam',
+    description: `Beginning in February 2022, Daejon Labrayae Love, 35, met women through dating apps and told them he was a member of the San Francisco 49ers or a wealthy real estate investor, using the fabricated identity to build romantic relationships before introducing what he described as an exclusive investment opportunity. According to federal prosecutors in the District of Oregon, his co-defendant Taylor Jamie Chan, 18, posed as Love's financial adviser to lend the pitch credibility, and the pair hosted three-way FaceTime calls in which they showed victims falsified account statements depicting fast-growing investment gains to keep the money coming. The FBI identified at least 26 victims across Oregon, Washington, Idaho, and California who collectively lost more than $1.3 million, and said it believes many more victims have not yet come forward. Love and Chan were arrested by the FBI at the Boise, Idaho airport on August 24, 2026, after flying in — according to prosecutors — to meet new victims in person, and both were charged by criminal complaint in federal court in Portland with conspiracy to commit wire fraud and wire fraud. The case illustrates how a romance scam and an investment scam are often the same scheme wearing two faces: a new romantic partner encountered only online who claims a glamorous public identity, and who then introduces a "financial adviser" and an investment opportunity of their own, should be independently verified before any money changes hands — a real professional athlete's team affiliation can be confirmed through the team or league directly, and a real financial adviser's registration can be checked for free through FINRA's BrokerCheck.`,
+    categorySlug: 'romance-scams',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office, District of Oregon", 'Federal Bureau of Investigation'],
+    sourceUrl: 'https://www.justice.gov/usao-or/pr/man-posing-san-francisco-49er-charged-defrauding-over-two-dozen-women-out-more-13',
+    country: 'US',
+    state: 'OR',
+});
