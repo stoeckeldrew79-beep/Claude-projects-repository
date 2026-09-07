@@ -3794,3 +3794,27 @@ UsGM.push({
     state: 'MT',
 });
 
+UsGM.push({
+    name: 'Fake "Declan Coady Foundation" Fallen Soldier Donation Scam',
+    slug: 'iowa-declan-coady-foundation-fake-donation-website',
+    description: `Sgt. Declan Coady, a West Des Moines, Iowa Army Reservist, was one of four American soldiers killed in an Iranian drone strike in Kuwait in early March 2026. Within days, a website calling itself "DeclanCoadyFoundation.com" appeared online soliciting donations in his name, despite having no connection to his family and no legitimate charitable purpose. The Iowa Attorney General's Office warned on March 14, 2026 that the site was not legitimate and had in fact been created outside the United States, even though it falsely suggested it was based in Vermont — a detail investigators flagged as a red flag for anyone checking a charity's actual origin. Only two fundraising efforts were ever authorized by the Coady family: a GoFundMe campaign titled "Support for the Coady Family after Declan's Loss" and a memorial scholarship fund through Drake University's alumni office. Calling the fake site "the type of scam criminals will pull on generous Iowans" who want to help after a tragedy makes national news, the Attorney General's Office urged anyone wanting to donate to verify a memorial fund directly with the family, a named institution like a university, or an established platform before giving, rather than trusting a freshly registered website that surfaces in the days right after a death is publicized. Iowans who encounter a suspected imposter charity site can report it to the Attorney General's Office at 1-888-777-4590 or through its online consumer complaint form.`,
+    categorySlug: 'charity-scams',
+    alertLevel: 'medium',
+    sources: ["Iowa Attorney General's Office (Brenna Bird)", 'KCRG'],
+    sourceUrl: 'https://www.kcrg.com/2026/03/14/scam-alert-iowa-attorney-general-warns-about-imposter-site-collecting-money-fallen-soldiers-family/',
+    country: 'US',
+    state: 'IA',
+});
+
+UsGM.push({
+    name: 'Guardian Home Health Services Minnesota Medicaid Fraud',
+    slug: 'minnesota-guardian-home-health-services-medicaid-fraud',
+    description: `Mohamed Abdirashid Omarxeyd ran Guardian Home Health Services, a Minneapolis-based home care agency enrolled to bill Minnesota's Medical Assistance program for services like personal care assistance, companion care, homemaking, respite care, and other in-home supports for elderly and disabled recipients. Between January 2020 and January 2024, according to Minnesota Attorney General Keith Ellison's Medicaid Fraud Control Unit, Guardian billed the state's Medicaid program for services that were never actually provided, were not provided as billed, or were not eligible for reimbursement at all — draining more than $3 million from a program meant to fund care for low-income Minnesotans. Investigators allege the scheme also involved paying kickbacks to recipients and their responsible parties in exchange for letting Guardian bill Medicaid using their names, with Omarxeyd, his wife, and companies connected to them personally receiving more than $2 million pulled out of Guardian's accounts during the fraud period. Ellison's office charged Omarxeyd with eight counts of felony theft by false representation, working with the Minnesota Bureau of Criminal Apprehension, the Minnesota Department of Human Services, and police departments in Maple Grove, Bloomington, and Brooklyn Park. "Defrauding programs that provide healthcare to low-income Minnesotans is a truly despicable act," Ellison said in announcing the charges on January 14, 2026, noting his office has now prosecuted more than 300 Medicaid fraud cases since he took office. Family members or caseworkers for a Medicaid recipient receiving in-home care can help catch this kind of fraud by comparing the recipient's actual visit schedule against the Explanation of Benefits statements Medicaid mails out, and by reporting any billed service, or any unfamiliar person listed as a "responsible party," that the family did not authorize to the Attorney General's Medicaid Fraud Control Unit.`,
+    categorySlug: 'healthcare-fraud',
+    alertLevel: 'high',
+    sources: ["Minnesota Attorney General's Office (Keith Ellison)"],
+    sourceUrl: 'https://www.ag.state.mn.us/Office/Communications/2026/01/14_MedicaidFraud.asp',
+    country: 'US',
+    state: 'MN',
+});
+

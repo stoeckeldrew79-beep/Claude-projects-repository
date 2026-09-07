@@ -5705,3 +5705,15 @@ UsAF.push({
     country: 'US',
     state: 'CO',
 });
+
+UsAF.push({
+    name: 'Heritage Assisted Living Anchorage Medicaid Fraud',
+    slug: 'alaska-heritage-assisted-living-anchorage-medicaid-fraud',
+    description: `Kyle Bates, his wife Molly Bates, and Peyton Love owned and operated a trio of Anchorage-area assisted living and group home companies — Heritage Assisted Living Home LLC, Heritage Home LLC, and Alaska Life Group Home LLC — that billed Alaska's Medicaid program for personal care and residential services for elderly and disabled clients. According to a state grand jury indictment, after the homes' approved program administrator left in 2019, the Bateses kept billing Medicaid as though she were still overseeing care: they falsely represented that she remained employed, had another person impersonate her during required training courses, forged her signature on records, and submitted false Medicaid provider-certification applications to keep the homes qualified to bill the program at all. Alaska's Medicaid Fraud Control Unit alleges the homes went on to bill Medicaid for services that were not actually provided, were not adequately staffed, or were not properly documented, totaling $14,694,800.47 in fraudulent billing between July 2019 and November 2025. A grand jury indicted the three individuals and the three companies in early August 2026 on multiple counts of scheme to defraud, first-degree theft, medical assistance fraud, falsifying business records, and — for Kyle and Molly Bates specifically — second-degree criminal impersonation, with arraignments held August 6, 2026. The case shows how Medicaid billing fraud in a licensed care facility can hinge on a single falsified credential kept alive on paper for years after the real person left; families of residents in an assisted living or group home should ask the facility directly, in writing, who its current licensed program administrator is and can independently verify Medicaid provider certification status through the Alaska Department of Health before trusting that a facility's billing reflects real, adequately staffed care.`,
+    categorySlug: 'healthcare-fraud',
+    alertLevel: 'high',
+    sources: ["Alaska Department of Law (Medicaid Fraud Control Unit)", "Alaska's News Source"],
+    sourceUrl: 'https://www.alaskasnewssource.com/2026/08/05/anchorage-group-home-owners-charged-147m-medicaid-fraud-scheme/',
+    country: 'US',
+    state: 'AK',
+});
