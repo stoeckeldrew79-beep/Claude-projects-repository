@@ -3630,4 +3630,15 @@ export const UsGM: SeedScam[] = [
     country: 'US',
     state: 'KY',
   },
+  {
+    name: 'Crowdfunding Scams Targeting Donors Helping Those Impacted by DHS Activity',
+    slug: 'minnesota-crowdfunding-dhs-activity-donation-scam',
+    description: `Minnesota Attorney General Keith Ellison's office issued a consumer alert on January 22, 2026, warning residents who want to help Minnesotans affected by ongoing federal Department of Homeland Security immigration-enforcement activity in the state that fraudsters are exploiting the wave of sympathy and outrage by setting up bogus crowdfunding campaigns on GoFundMe, social media, and other fundraising platforms. As neighbors and community groups moved to organize legitimate fundraisers and donation drives for people and families affected by the enforcement actions, the Attorney General's office said it began fielding complaints about copycat campaigns that borrow the same urgent language and imagery but funnel donations to an unrelated organizer rather than to anyone actually affected. The alert lays out a checklist for anyone considering a donation: research the individual or group organizing the campaign and confirm they have a real, verifiable connection to the cause; look for public reporting or independent confirmation of the facts the campaign describes rather than taking its claims at face value; check whether the platform charges a fee that reduces how much of a donation reaches its stated purpose; and ask how the organizer plans to actually get money or goods to the people the campaign claims to help. Ellison's office noted the same caution applies to donors organizing informal collections of cash, food, or supplies for neighbors, not just online campaigns, since a well-meaning appeal shared quickly on social media can be impersonated or hijacked just as easily as a formal crowdfunding page. Minnesotans who suspect a fundraiser is fraudulent are encouraged to research the campaign independently before giving and can file a complaint with the Attorney General's Office at (651) 296-3353, 1-800-657-3787, or ag.state.mn.us.`,
+    categorySlug: 'charity-scams',
+    alertLevel: 'medium',
+    sources: ["Minnesota Attorney General's Office (Keith Ellison)", 'Fox21 Online'],
+    sourceUrl: 'https://www.ag.state.mn.us/Office/Communications/2026/01/22_Crowdfunding.asp',
+    country: 'US',
+    state: 'MN',
+  },
 ];
