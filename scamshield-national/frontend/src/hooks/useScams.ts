@@ -1,5 +1,5 @@
 import { useInfiniteQuery, useQuery } from '@tanstack/react-query';
-import { fetchCategories, fetchCountries, fetchScamBySlug, fetchScams, fetchScamTags, PAGE_SIZE, ScamListParams } from '../services/scams';
+import { PAGE_SIZE, ScamListParams, fetchCategories, fetchCountries, fetchScamBySlug, fetchScamStates, fetchScamTags, fetchScams } from '../services/scams';
 
 export function useScams(params: ScamListParams = {}) {
   return useQuery({
@@ -48,4 +48,9 @@ export function useScamTags() {
     queryKey: ['scam-tags'],
     queryFn: fetchScamTags,
   });
+}
+
+// Documented scams per state, for the coverage view of the US map.
+export function useScamStates() {
+  return useQuery({ queryKey: ['scams', 'states'], queryFn: fetchScamStates });
 }

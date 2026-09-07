@@ -145,6 +145,13 @@ export interface DailyNewsStateCount {
   ag_count: number;
 }
 
+// Documented scams per state. Same shape minus ag_count, which is a property
+// of an alert's source and has no meaning for a database entry.
+export interface ScamStateCount {
+  state: string;
+  total: number;
+}
+
 export type SubscriptionTier = 'free' | 'basic' | 'pro' | 'family' | 'business';
 
 export interface User {

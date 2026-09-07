@@ -11,6 +11,8 @@ router.get('/nearby', requireAuth, requireSubscriber, scamsController.nearby);
 router.get('/tags', scamsController.tags);
 router.get('/countries', scamsController.countries);
 router.get('/by-country', scamsController.byCountry);
+// Before '/:slug', like the others, or the slug route swallows it.
+router.get('/states', scamsController.states);
 router.get('/', scamsController.list);
 router.get('/:slug', scamsController.getBySlug);
 router.post('/', requireAuth, requireRole('admin'), scamsController.create);
