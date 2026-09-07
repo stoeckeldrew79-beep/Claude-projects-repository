@@ -3737,3 +3737,27 @@ UsNS.push({
     country: 'US',
     state: 'SC',
 });
+
+UsNS.push({
+    name: 'Oklahoma Walmart Fraudulent Check and Fake ID Cashing Ring',
+    slug: 'oklahoma-walmart-fraudulent-check-fake-id-cashing-ring',
+    description: `Between December 2023 and August 2025, six people — Caleb Ali, Erika Watson, Dominique Price, Amber Smith, Aaron Hensley, and Jesus Martinez Jr. — allegedly ran a check-cashing fraud ring that hit Walmart stores across 15 Oklahoma cities, including Oklahoma City, Norman, Edmond, Broken Arrow, Moore, and Stillwater. According to a Multi-County Grand Jury indictment, the group used stolen identities paired with fraudulent temporary driver's licenses to pass fake checks at Walmart registers and cash-checking counters, walking out with more than $100,000 combined before the pattern was tied together across so many locations. Oklahoma Attorney General Gentner Drummond's office announced the indictment on May 18, 2026, charging the six with 10 felony counts total, including conspiracy, forgery in the second degree, and false personation; four of the defendants — Ali, Price, Smith, and Martinez — already had prior felony convictions. "Schemes such as these harm businesses, drive up costs and end up hurting hardworking Oklahomans," Drummond said in announcing the case. The ring's reliance on fraudulent temporary IDs to back up counterfeit checks is a reminder that a photo ID alone doesn't verify a check is genuine — retailers and anyone accepting a large check from an unfamiliar person should independently verify funds with the issuing bank before handing over cash, and Oklahomans who spot unauthorized checks drawn against their own account should report it immediately to their bank and to the Oklahoma Attorney General's Office.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'medium',
+    sources: ["Oklahoma Attorney General's Office (Gentner Drummond)"],
+    sourceUrl: 'https://oklahoma.gov/oag/news/newsroom/2026/may/multi-county-grand-jury-indicts-six-in-walmart-check-cashing-scheme.html',
+    country: 'US',
+    state: 'OK',
+});
+
+UsNS.push({
+    name: 'New Mexico Oil Well Royalty Asset-Stripping Scheme',
+    slug: 'new-mexico-oil-well-royalty-asset-stripping-scheme',
+    description: `Everett Willard Gray II, Robert K. Stitzel, and Marquis Reed Gilmore Jr. allegedly ran a network of at least 15 shell companies — including Acacia Resources, Acacia Operating Company, Remnant Oil Company, Remnant Oil Operating, WS Oil and Gas, First Gray Corporation, RS Resources, Stitzel Corporation, Gilmore Oil & Gas, Bluebird Energy Corporation, Cibolo Energy Resources, Solis Partners, Pecos Slope Holdings, and New Era Energy & Digital — to pocket revenue from hundreds of oil and gas wells across New Mexico while dodging the wells' environmental cleanup obligations. According to New Mexico Attorney General Raúl Torrez's lawsuit, the trio structured the companies so that profitable wells were funneled into entities they controlled directly, while non-producing wells were left in shell companies that were then "sold" to themselves and ultimately pushed into bankruptcy, a maneuver designed to walk away from the legal duty to plug and remediate wells once they stopped producing — leaving that cost, and the environmental risk of an unplugged well, to the state and nearby landowners. As of September 2025, Acacia Resources alone was still listed as the operator of record for 219 inactive and abandoned wells that have never been plugged. Attorney General Torrez filed the lawsuit against the three men and their web of companies in state court on December 24, 2025, seeking to hold them personally responsible for the wells' cleanup costs and to unwind the asset transfers used to strip value out of the operating companies before abandoning them. The case illustrates how a web of shell companies and strategic bankruptcy filings can be used to separate profit from responsibility in the oil and gas industry, leaving royalty owners and taxpayers holding the liability; New Mexico landowners who lease mineral rights are advised to check the New Mexico Oil Conservation Division's well database for a company's plugging and compliance history before signing or renewing a lease, and to report a stalled or inactive well on their property that shows no sign of being properly plugged.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'medium',
+    sources: ['New Mexico Department of Justice (Attorney General Raúl Torrez)', 'Albuquerque Journal', 'Santa Fe New Mexican'],
+    sourceUrl: 'https://nmdoj.gov/press-release/attorney-general-raul-torrez-files-lawsuit-against-parties-responsible-for-fraudulent-oil-well-scheme-endangering-new-mexicans/',
+    country: 'US',
+    state: 'NM',
+});

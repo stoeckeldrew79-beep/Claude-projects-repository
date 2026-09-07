@@ -3866,3 +3866,15 @@ UsGM.push({
     state: 'MD',
 });
 
+UsGM.push({
+    name: 'Louisville Behavioral Health "Shell Provider" Medicaid Fraud (Jacqueline Sanders)',
+    slug: 'kentucky-louisville-jacqueline-sanders-behavioral-health-medicaid-fraud',
+    description: `Jacqueline Sanders, 60, of Louisville, Kentucky, worked as a medical biller who recruited people with no background in health care or Medicaid billing to open behavioral health service entities in their own names, then handled each entity's credentialing and enrollment with Kentucky Medicaid herself, effectively turning them into shell providers she controlled from behind the scenes. According to a federal grand jury indictment, Sanders and her co-conspirators used those ten entities, along with the National Provider Identifiers of licensed professionals used without their authorization, to submit thousands of fraudulent Medicaid claims between 2020 and 2026 — fabricating patient assessments and treatment plans, billing for services that were never rendered, and in some cases even submitting claims for Medicaid members who were incarcerated, hospitalized, or already deceased at the time the "services" were supposedly provided. Prosecutors allege Sanders personally pocketed more than $3.6 million from the scheme and spent it on luxury goods, vehicles, jewelry, travel, plastic surgery, and real estate. A federal grand jury in the Eastern District of Kentucky indicted Sanders on one count of conspiracy to commit health care fraud, 25 counts of health care fraud, and four counts of money laundering; she made her initial court appearance on August 26, 2026. The indictment was jointly announced by U.S. Attorney Jason Parman, FBI Special Agent in Charge Olivia Olson, and Kentucky Attorney General Russell Coleman, whose office's Medicaid Fraud and Abuse Division investigated alongside the FBI as part of a broader 2026 crackdown that has also produced several other Kentucky Medicaid indictments this year. The case is a reminder that Medicaid fraud doesn't always involve a single provider padding their own bills — a biller with access to multiple providers' credentials can run a network of shell entities that never see a real patient, so Medicaid recipients and their families should periodically check their own Explanation of Benefits or claims history for behavioral health visits billed in their name that never happened, and report any mismatch to the Kentucky Attorney General's Office of Medicaid Fraud and Abuse.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'high',
+    sources: ["Kentucky Attorney General's Office (Russell Coleman)", 'U.S. Attorney\'s Office, Eastern District of Kentucky', 'Federal Bureau of Investigation'],
+    sourceUrl: 'https://oig.hhs.gov/fraud/enforcement/attorney-general-coleman-announces-medicaid-felony-indictments-for-five-in-louisville',
+    country: 'US',
+    state: 'KY',
+});
+
