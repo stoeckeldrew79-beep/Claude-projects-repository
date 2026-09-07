@@ -8836,6 +8836,36 @@ Egypt's Ministry of Interior announced on February 24, 2025, that it had arreste
     sourceUrl: 'https://www.telefuturo.com.py/denuncian-millonaria-estafa-mediante-la-clonacion-de-documentos-para-obtener-prestamos',
     country: 'PY',
   },
+  {
+    name: '"Macau Scam" Police and Bank Impersonation Fraud',
+    slug: 'brunei-macau-scam-police-bank-impersonation-fraud',
+    description: `The Royal Brunei Police Force (RBPF) and local banks have repeatedly warned Bruneians about the "Macau scam," in which callers falsely claim to be officers from the police, immigration, or a bank's fraud department and tell the victim their identity has been used in a serious crime — often money laundering — or that their bank account has been compromised. Baiduri Bank's consumer-security guidance describes how the callers apply sustained psychological pressure, threatening arrest, legal action, or account suspension unless the victim cooperates immediately, and typically instruct the target to keep the call secret, avoid speaking to family or bank staff in person, and instead transfer funds to a "safe account" for verification or read out one-time passwords and PINs over the phone. RBPF's Cyber Crime Investigation Division has run a sustained series of briefings through 2026 for bank frontline staff, civil servants, and youth groups to help them recognise the warning signs, and in April 2026 the Brunei-Muara Police District, working with the Cyber Crime Investigation Division and Criminal Investigation Department, arrested a suspect linked to an impersonation scam syndicate after tips from the public. Genuine police officers and bank staff never demand money transfers or verification codes over the phone, and never ask a caller to keep the interaction secret from family. Anyone who receives such a call is advised to hang up immediately, verify independently by calling the institution's published number, and — if any transfer has already been made or personal banking details shared — report it at once to Baiduri Bank's 24-hour helpline or the RBPF's Anti-Scam Helpline 16993, which began operating on August 30, 2025 as a dedicated first-response line for scam and fraud reports.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Royal Brunei Police Force (RBPF)', 'Baiduri Bank'],
+    sourceUrl: 'https://www.baiduri.com.bn/personal/learn/impersonationscam',
+    country: 'BN',
+  },
+  {
+    name: 'BDCB Alert List Unlicensed Investment and Loan Schemes',
+    slug: 'brunei-bdcb-alert-list-unlicensed-investment-loan-scam',
+    description: `Brunei Darussalam Central Bank (BDCB), the country's monetary authority, maintains a continuously updated public "Alert List" naming individuals, companies, and social-media pages that are soliciting money from the public while unlicensed, unauthorised, or unregulated by BDCB — a roster that had grown to 331 entries by August 2026. Entries added through mid- and late 2026 illustrate the two dominant patterns: fast-money investment pitches such as the "Goldpecker Community" scheme flagged in August 2026, and unlicensed online lending operations advertised on Facebook and Telegram under names like "Personal Loan Trusted / Niaga Loan Berjaya" and "Personal Financing BN," both added in July 2026. BDCB's guidance explains that these schemes typically promise high returns with little or no risk over a short period, or offer instant loans with minimal paperwork, and frequently rely on recruitment-style structures resembling pyramid or Ponzi schemes, along with phishing attempts to harvest personal and banking details. Under Brunei's financial-services laws, only licensed banks, insurers and takaful operators, capital-market and securities institutions, money changers, remittance service providers, and approved payment-system operators may lawfully offer financial services, so any investment or lending offer from an entity outside that group should be treated with suspicion regardless of how professional its marketing looks. BDCB advises the public to check the Alert List and its list of licensed institutions on bdcb.gov.bn before transferring any money to an investment platform or online lender, and to report suspicious solicitations directly to the central bank rather than relying on assurances made over WhatsApp, Telegram, or social media.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ['Brunei Darussalam Central Bank (BDCB)'],
+    sourceUrl: 'https://www.bdcb.gov.bn/consumer/bdcb-alert-list',
+    country: 'BN',
+  },
+  {
+    name: 'Social Media Vehicle and Phone Resale Fraud',
+    slug: 'brunei-social-media-vehicle-phone-resale-fraud',
+    description: `On May 14, 2026, the Royal Brunei Police Force (RBPF) issued a public warning about a wave of online buying-and-selling fraud spreading through Facebook and other social media platforms, in which scammers advertise vehicles and mobile phones for sale using photographs "taken from the original seller's social media account without their knowledge." A fraudster posing as the seller agrees a price with an interested buyer and instructs them to pay into a third-party bank account, falsely claiming the funds will be forwarded on to the real owner — the buyer then never receives the item, and the genuine seller, whose photos and listing were stolen, never receives a payment either, leaving both sides victimized by the same scheme. The same RBPF warning also flagged a related fraud targeting business owners, in which criminals contact companies by phone or WhatsApp posing as government procurement officers and send forged purchase orders, tender letters, or official documents bearing a genuine agency's logo, stamp, and signature, directing the business to supply goods or pay fees to an unauthorized company. RBPF's recommended precautions include verifying directly with the original account holder before paying for any item advertised on social media, insisting on face-to-face exchanges of cash and goods rather than advance transfers to unfamiliar accounts, using Brunei's official government procurement platform to confirm any supposed government purchase order, and reporting suspected fraud to the police hotline 993 or the Anti-Scam Helpline 16993 before completing any payment.`,
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'medium',
+    sources: ['Royal Brunei Police Force (RBPF)', 'Brudirect'],
+    sourceUrl: 'https://brudirect.com/post/13/05/2026-Fraud-Cases-through-Social-Media-and-Communication-Applications',
+    country: 'BN',
+  },
 ];
 
 International.push(
