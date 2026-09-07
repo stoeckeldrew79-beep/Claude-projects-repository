@@ -2289,3 +2289,15 @@ UsTZ.push({
     country: 'US',
     state: 'TN',
 });
+
+UsTZ.push({
+    name: 'Charles City County Traffic Stop Uncovers Nationwide Elder Gold-Courier Fraud Scheme',
+    slug: 'virginia-charles-city-county-gold-courier-fraud-scheme',
+    description: `A routine license-plate-reader alert on a Flock Safety camera led Charles City County Sheriff's deputies to stop a car reported stolen out of New York near the intersection of Courthouse and Lott Cary roads on Sunday, August 9, 2026, and what deputies found inside — a box holding gold coins and a gold bar in the rear seat — turned a stolen-vehicle stop into an eight-figure elder-fraud investigation. Deputies called in Homeland Security Investigations' Norfolk office, whose agents recognized the gold as consistent with a nationwide scheme in which elderly victims are told, often by callers posing as government officials or law enforcement, that their money or assets are at risk and must be converted into gold and handed in person to a "courier" acting on the government's supposed behalf; the gold is then typically driven to Flushing, New York, to be melted down and resold before a victim realizes anything is wrong. Investigators traced one thread of the scheme to a victim in neighboring James City County who had sent payments to the two people taken into custody on several occasions but had no fraud report on file, having believed the transactions were legitimate — the broader investigation, still developing, appears to span at least six states (Pennsylvania, Illinois, Virginia, Ohio, Maryland, and New York), with close to $2 million expected to be recovered and returned to victims. The case is a reminder that no legitimate government agency, bank, or law enforcement officer will ever instruct someone to liquidate savings into gold or cash and hand it to a stranger who shows up at their home in person; anyone who receives that instruction, however official the caller sounds, should hang up and independently verify the claim with the agency directly, using a phone number they look up themselves, before handing anything over.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ["Charles City County Sheriff's Office", 'WAVY-TV', 'Homeland Security Investigations'],
+    sourceUrl: 'https://www.wavy.com/news/virginia/stolen-vehicle-leads-to-gold-coin-discovery-in-2-million-fraud-scheme-in-charles-city-county/',
+    country: 'US',
+    state: 'VA',
+});

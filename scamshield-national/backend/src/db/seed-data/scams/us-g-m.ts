@@ -4030,3 +4030,27 @@ UsGM.push({
     country: 'US',
     state: 'GA',
 });
+
+UsGM.push({
+    name: 'Buffalo Grove Woman\'s $3.5 Million Fake-Rescue and Fake-Fed Fraud Scheme (Tatiana Bazer)',
+    slug: 'illinois-buffalo-grove-bazer-fake-rescue-fraud-scheme',
+    description: `Tatiana Bazer, 40, of Buffalo Grove, Illinois, was indicted March 18, 2026 in the U.S. District Court for the Northern District of Illinois on seven counts of wire fraud and two counts of impersonating a federal law enforcement officer, after prosecutors say she ran a fraud scheme from no later than December 2021 through at least February 2026 that drew in victims by promising their money would go toward specific, sympathetic causes — funding projects in Ukraine, paying for immigration services, or serving as a loan to help resolve what she claimed was her own arrest for shoplifting. Some victims entrusted her with hundreds of thousands of dollars each, and rather than using the money as promised, Bazer spent much of it on herself, concealing the fraud by sending victims fabricated wire-transfer confirmations, bogus check images, and altered bank statements meant to look like large sums were on their way. According to the U.S. Attorney's Office, once victims and federal investigators began circling the scheme, Bazer escalated rather than stopped: she posed as FBI agents, a federal prosecutor, and a criminal defense attorney in communications meant to convince victims their case was being handled and their money would eventually be returned, buying herself time and, prosecutors allege, pulling in more money in the process. Bazer pleaded not guilty at her arraignment in Chicago; each wire fraud count carries up to 20 years in federal prison and each impersonation count up to three years. The case illustrates a two-stage version of affinity fraud: a sympathetic cover story secures the initial money, and once the victim grows suspicious, a second layer of fake officials — investigators, prosecutors, even defense lawyers — is deployed to keep the victim patient and quiet rather than reporting the loss; anyone contacted by someone claiming to be resolving a fraud case on their behalf should independently verify that person's identity and badge or bar number directly with the agency or state bar, never through a phone number or document the caller themselves provides.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office, Northern District of Illinois", 'FBI Chicago Field Office', 'Daily Herald'],
+    sourceUrl: 'https://www.justice.gov/usao-ndil/pr/suburban-chicago-woman-indicted-allegedly-defrauding-multiple-victims-out-35-million',
+    country: 'US',
+    state: 'IL',
+});
+
+UsGM.push({
+    name: 'Boston Man\'s Two-Decade Stolen-Identity SNAP and MassHealth Fraud (Victor Suazo Reynoso)',
+    slug: 'massachusetts-boston-suazo-reynoso-stolen-identity-benefits-fraud',
+    description: `Victor Suazo Reynoso, 69, of Boston, a Dominican national living in the United States without legal status, used the name, date of birth, and Social Security number of an actual U.S. citizen for years to build a paper identity that got him a Massachusetts driver's license and access to state benefit programs never meant for him: prosecutors say he collected more than $18,000 in Supplemental Nutrition Assistance Program (SNAP) benefits and more than $54,000 in MassHealth coverage under the stolen identity before the fraud was uncovered. Reynoso pleaded guilty in May 2026 to false representation of a Social Security number and illegal acquisition of SNAP benefits, and on September 2, 2026, Chief U.S. District Judge Denise J. Casper sentenced him to one year and one day in federal prison, to be followed by two years of supervised release; he was also ordered to pay $18,434 in restitution to the Massachusetts Department of Transitional Assistance and $54,931 to MassHealth, and faces deportation once his sentence is complete. The case shows how a single stolen Social Security number, once used to obtain a genuine state-issued ID in the victim's name, can be used to draw real government benefits for years — the fraud is invisible to caseworkers because the paperwork matches a real, valid identity — until it surfaces through an unrelated investigation or a cross-agency data match. Anyone who receives an unexpected notice about benefits applied for in their name, a driver's license renewal they never requested, or a credit inquiry they don't recognize should treat it as a possible sign their identity is already being used elsewhere and request a free credit freeze and file an identity-theft report through IdentityTheft.gov right away.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office, District of Massachusetts", 'Hoodline', 'Fall River Reporter'],
+    sourceUrl: 'https://www.justice.gov/usao-ma/pr/illegal-alien-sentenced-prison-snap-and-social-security-fraud',
+    country: 'US',
+    state: 'MA',
+});
