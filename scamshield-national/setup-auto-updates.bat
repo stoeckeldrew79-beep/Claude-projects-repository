@@ -52,13 +52,13 @@ echo  Done. Current status of all three:
 echo ============================================
 echo.
 echo --- Content updater ---
-schtasks /query /tn "ScamShield National Auto-Update" /fo LIST | findstr /C:"Status" /C:"Last Run Time" /C:"Last Result" /C:"Next Run Time"
+schtasks /query /tn "ScamShield National Auto-Update" /fo LIST /v | findstr /C:"Status" /C:"Last Run Time" /C:"Last Result" /C:"Next Run Time"
 echo.
 echo --- Site keep-alive ---
-schtasks /query /tn "ScamShield National Keep Running" /fo LIST | findstr /C:"Status" /C:"Last Run Time" /C:"Last Result" /C:"Next Run Time"
+schtasks /query /tn "ScamShield National Keep Running" /fo LIST /v | findstr /C:"Status" /C:"Last Run Time" /C:"Last Result" /C:"Next Run Time"
 echo.
 echo --- Start at logon (optional) ---
-schtasks /query /tn "ScamShield National Start On Logon" /fo LIST 2>nul | findstr /C:"Status" /C:"Last Run Time" /C:"Last Result" /C:"Next Run Time"
+schtasks /query /tn "ScamShield National Start On Logon" /fo LIST /v 2>nul | findstr /C:"Status" /C:"Last Run Time" /C:"Last Result" /C:"Next Run Time"
 if errorlevel 1 echo   Not registered - needs administrator rights. Not a problem; see above.
 
 echo.
