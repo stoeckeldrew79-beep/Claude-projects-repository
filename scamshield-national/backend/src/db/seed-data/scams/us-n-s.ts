@@ -3868,3 +3868,15 @@ UsNS.push({
     country: 'US',
     state: 'OH',
 });
+
+UsNS.push({
+    name: 'Fargo Activist\'s COVID-Recovery Grant Diversion to Family Businesses (Faith Shields-Dixon)',
+    slug: 'north-dakota-fargo-faith-shields-dixon-covid-grant-diversion',
+    description: `Faith Shields-Dixon, a Fargo activist entrusted with distributing North Dakota Department of Public Instruction grant money meant to help students disproportionately harmed by coronavirus-era school closures, instead steered $124,000 of those public funds to businesses owned or managed by her own family members between February 3, 2022 and April 10, 2023 — including her husband's food stand, her brother's music and production company, and her sister-in-law's dance studio — rather than to the intended educational recovery programming. After initially agreeing to a plea deal, Shields-Dixon was allowed to withdraw from it, and the case went to a four-day jury trial in Burleigh County; on June 12, 2026, the jury convicted her on all five felony counts of theft, each carrying a maximum ten-year sentence. Judge Bobbi Weiler followed prosecutors' sentencing recommendation, ordering ten years in prison but requiring Shields-Dixon to serve only four of them provided she completes three years of supervised probation afterward without violation. North Dakota Attorney General Drew Wrigley's office, which brought the case, called the conviction a rarity for the state and a reminder that even a well-known local advocate managing a pandemic-relief or educational grant program is not exempt from the state's normal conflict-of-interest and sole-source contracting rules — nonprofits and individuals administering public grant money should route payments only to arm's-length vendors, document the business justification for every disbursement in writing, and expect that the same restrictions on self-dealing that apply to government agencies apply to any organization entrusted with public grant funds.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'medium',
+    sources: ['North Dakota Attorney General', 'InForum', 'KVRR Local News'],
+    sourceUrl: 'https://www.inforum.com/news/north-dakota/fargo-activist-faith-shields-dixon-sentenced-to-prison-in-grant-theft-case',
+    country: 'US',
+    state: 'ND',
+});
