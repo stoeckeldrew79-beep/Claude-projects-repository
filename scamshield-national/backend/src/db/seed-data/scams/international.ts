@@ -10431,3 +10431,26 @@ International.push(
     country: 'GD',
   },
 );
+
+International.push(
+  {
+    name: 'Suriname Fake Bank Transfer Proof Scam',
+    slug: 'suriname-fake-bank-transfer-proof-scam',
+    description: `The Suriname Police Corps issued a public warning on December 31, 2025 about a fraud scheme built around fabricated proof-of-payment documents. Fraudsters respond to items listed for sale on social media and online marketplaces, agree on a price with the seller, and then — instead of actually transferring the money — send a convincingly forged screenshot or PDF made to look like a bank transfer confirmation. Believing the payment has cleared, the seller hands over the goods, only to check their own account later and discover no money was ever received. Police described a concerning rise in reports of this kind during late 2025, noting that fraudsters often pressure sellers to move quickly, discouraging the seller from pausing to verify the payment before releasing an item. The Police Corps urged sellers to never rely on a payment screenshot or document sent by a buyer, but to confirm any transfer directly inside their own banking app before handing over goods, to treat any pressure to hurry the transaction as a warning sign, and — if any doubt exists about whether a payment is genuine — to contact their bank or simply refuse the sale. Anyone targeted by the scheme was asked to report it immediately with supporting evidence, including the chat history, the fake payment document, the account name used, and any phone numbers involved.`,
+    categorySlug: 'fake-check-overpayment',
+    alertLevel: 'high',
+    sources: ['Korps Politie Suriname (Suriname Police Corps)', 'Surinametimes'],
+    sourceUrl: 'https://politie.sr/waarschuwing-tegen-oplichting-met-valse-bankovermakingsbewijzen/',
+    country: 'SR',
+  },
+  {
+    name: 'Suriname Facebook Prepayment Non-Delivery Scam',
+    slug: 'suriname-facebook-prepayment-non-delivery-scam',
+    description: `The Suriname Police Corps issued a public alert on June 9, 2026 about a wave of fraud complaints tied to Facebook sales pages and direct messages. In this scheme, a scammer posts an attractive product for sale on a Facebook page, or messages a potential buyer directly, and asks for full payment upfront to a bank account before the item is shipped. Once the buyer pays, the "seller" strings them along with excuses about why the item has not been sent yet, before eventually blocking the buyer, deleting the Facebook profile used to run the scam, and cutting off all contact — leaving the buyer with nothing to show for their money and, often, no real way to identify who they had actually been dealing with. Police said multiple such complaints had been filed in the period leading up to the alert, indicating the problem was affecting a growing number of residents across the country. Authorities urged the public to be especially cautious about paying in advance for items advertised on Facebook by unfamiliar sellers, and to treat any seller who refuses other payment arrangements as a red flag. Victims were advised to report the fraud at the nearest police station immediately, bringing screenshots of the conversation, the Facebook page or profile details, any phone numbers used, and the bank account the money was sent to.`,
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'high',
+    sources: ['Korps Politie Suriname (Suriname Police Corps)', 'Waterkant'],
+    sourceUrl: 'https://www.waterkant.net/suriname/2026/06/09/politie-waarschuwt-voor-facebook-oplichters-slachtoffers-betalen-maar-krijgen-niets-geleverd/',
+    country: 'SR',
+  },
+);
