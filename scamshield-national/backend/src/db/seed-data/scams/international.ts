@@ -9259,3 +9259,36 @@ International.push(
     country: 'BB',
   },
 );
+
+International.push(
+  {
+    name: 'Fake Government Official Video Call Impersonation Scam',
+    slug: 'oman-video-call-government-official-impersonation-scam',
+    description: `The Royal Oman Police (ROP) issued a public warning on July 1, 2025 about a growing wave of impersonation fraud in which scammers place video calls to residents while posing as police officers or other government officials, using fake uniforms, backgrounds, and fabricated names on screen to make the call appear genuine. Once the video call connects, the caller invents a legal problem — a supposed traffic or customs violation, a pending investigation, or an "identity verification" requirement — and threatens the victim with arrest, fines, or other legal consequences unless personal details, financial information, or photos of identification documents are handed over immediately. The warning followed an earlier ROP disclosure that cyber-fraud cases in Oman had already risen 35 percent in the first quarter of 2025 compared with the same period the year before, spanning phishing sites, cryptocurrency pitches, and fake job offers; Brig Jamal Habib al Quraishi, ROP's Director General of Inquiries and Criminal Investigations, said flatly that "no official authority will ever request such data by phone." ROP called protecting personal information "a shared responsibility" and urged anyone contacted this way to verify the caller's identity only through ROP's own official channels before responding, to never share identification documents, banking details, or other personal information over an unsolicited video call, and to report the call immediately rather than comply under the pressure of a threatened penalty.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Royal Oman Police (ROP)', 'Oman Observer'],
+    sourceUrl: 'https://www.omanobserver.om/article/1172769/oman/rop/scammers-impersonate-officials-via-video-calls-rop-warns',
+    country: 'OM',
+  },
+  {
+    name: 'Maal Card Launch Bank-Impersonation Phishing Scam',
+    slug: 'oman-maal-card-launch-bank-impersonation-phishing-scam',
+    description: `The Central Bank of Oman (CBO) issued a fraud warning on November 24, 2025 after fraudsters began exploiting the soft launch of the new "Maal" payment card to pose as banks and pressure customers into handing over sensitive account details. Callers and message senders claiming to represent a bank or the Maal card program ask victims to confirm their PIN, a one-time password (OTP) sent to their phone, the CVV security code printed on their card, or their mobile banking login credentials — supposedly to "activate" or "verify" the new card — while other messages direct recipients to fake websites built to look like a real bank's online banking portal and designed to capture whatever card details are typed in. The CBO stated plainly that "licensed banks operating in the Sultanate do not request banking or personal information over the phone or through unofficial channels," and confirmed that the Maal card itself "will only be issued following formal banking procedures, exclusively announced through official channels" — meaning any card offer or "activation" request arriving by phone call, text message, or unofficial link is fraudulent by definition. The bank urged the public never to share a PIN, OTP, CVV, or online banking password with anyone regardless of how official they sound, and to report any suspicious call or suspected fraud attempt immediately to the Royal Oman Police on 80077744.`,
+    categorySlug: 'phishing',
+    alertLevel: 'high',
+    sources: ['Central Bank of Oman (CBO)', 'Muscat Daily'],
+    sourceUrl: 'https://www.muscatdaily.com/2025/11/24/cbo-issues-fraud-warning-amid-maal-card-launch/',
+    country: 'OM',
+  },
+  {
+    name: 'Fake Royal Oman Police Recruitment Ad Job Scam',
+    slug: 'oman-fake-rop-recruitment-ad-job-scam',
+    description: `The Royal Oman Police (ROP) issued a public warning on May 12, 2026 about a wave of fraudulent recruitment advertisements circulating on digital and social media platforms that falsely claim to be posted by the ROP itself, using professional-looking graphics and AI-generated imagery to advertise fake police or government job openings and lure job seekers into the scheme. The warning built on an earlier ROP finding that fake job offers were already one of the fastest-growing categories of cyber fraud in the Sultanate — fraudsters posing as employers had convinced job seekers to open bank accounts or transfer funds on the "employer's" behalf, leaving some victims unknowingly exposed to money-laundering charges once the accounts were used to move stolen funds. ROP urged the public to exercise "extreme vigilance" by verifying any recruitment advertisement, especially one claiming to be from the police or another government body, exclusively through that agency's own official channels before applying or providing any personal information, to avoid interacting with unofficial accounts or intermediaries claiming to represent the hiring agency, and to report suspicious recruitment ads immediately to the competent authorities so the fraudulent postings can be taken down before more job seekers are drawn in.`,
+    categorySlug: 'employment-scams',
+    alertLevel: 'high',
+    sources: ['Royal Oman Police (ROP)', 'Oman Observer'],
+    sourceUrl: 'https://www.omanobserver.om/article/1189502/oman/rop/rop-warns-of-fraudulent-recruitment-ads-targeting-job-seekers',
+    country: 'OM',
+  },
+);
