@@ -10433,3 +10433,26 @@ International.push(
     country: 'SR',
   },
 );
+
+International.push(
+  {
+    name: 'Lesotho SGK Pyramid App Scheme',
+    slug: 'lesotho-sgk-pyramid-app-scheme',
+    description: `Lesotho's Financial Intelligence Unit (FIU) traced at least M8.6 million (roughly $8.6 million) that moved through 11 local bank accounts between late 2025 and April 2026 as part of the collapse of "SGK," an online platform that promised daily payouts for watching and rating short video advertisements from major brands. The scheme spread almost entirely through social media, with promoters on TikTok and Facebook leaning on trusted community networks — church leaders and workplace colleagues among them — to recruit new participants, some of whom were encouraged to register their own companies using the SGK name and open physical storefronts to lend the operation an air of legitimacy. Early users really were paid out, which built confidence and drew larger deposits, with some individual investments reaching as high as M80,000. Once the scheme had drawn in enough money, it froze withdrawals and began demanding "activation fees" and fake tax payments before users could access their funds, and then locked accounts out entirely. The FIU described SGK as a "faceless," internationally run pyramid scheme whose ultimate beneficiaries remain unidentified, noting that funds were moved out of the country quickly through cash withdrawals or converted to cryptocurrency via payment gateways based in Bahrain. Several Basotho who were hired locally as "financial assistants" to help move money ended up acting, unknowingly, as money mules, and faced backlash from angry investors once the platform collapsed.`,
+    categorySlug: 'ponzi-pyramid-schemes',
+    alertLevel: 'high',
+    sources: ['Lesotho Financial Intelligence Unit (FIU)', 'Briefly.co.za'],
+    sourceUrl: 'https://fiu.org.ls/news-awareness/',
+    country: 'LS',
+  },
+  {
+    name: 'Lesotho Fake South African ID Document WhatsApp Scam',
+    slug: 'lesotho-fake-south-african-id-document-whatsapp-scam',
+    description: `The Office of the High Commission of the Kingdom of Lesotho in Pretoria issued a public warning on February 18, 2025 about messages circulating in WhatsApp groups that falsely claim Basotho living and working in South Africa can obtain a South African National Identity document through some new arrangement between the two countries. The messages, which spread rapidly among migrant worker communities, describe the opportunity in vague but urgent terms designed to push recipients toward paying a fee or handing over personal documents to whoever is running the scheme, before the sender disappears with the money. The High Commission stated plainly that the messages are "false and are intended to rob people," stressing that no such bilateral arrangement exists and that any genuine change to how Basotho could acquire South African identity documents would only ever be announced through an official joint statement from the two governments — never through an unsolicited WhatsApp forward. The High Commission urged Basotho who receive such messages to ignore them, avoid sending any money or documents, and report the messages rather than forwarding them to others.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'medium',
+    sources: ['Lesotho News Agency (LENA)', 'High Commission of the Kingdom of Lesotho, Pretoria'],
+    sourceUrl: 'https://www.lena.gov.ls/basotho-warned-of-id-scammers/',
+    country: 'LS',
+  },
+);
