@@ -5808,3 +5808,15 @@ UsAF.push({
     country: 'US',
     state: 'CO',
 });
+
+UsAF.push({
+    name: 'Colfax Woman\'s Seven-Year Theft from Children and Families of Iowa (Jodi Spargur-Tate)',
+    slug: 'iowa-colfax-spargur-tate-cfi-nonprofit-theft',
+    description: `Jodi Dyan Spargur-Tate, 55, of Colfax, Iowa, worked as a Program Director at Children and Families of Iowa (CFI) — a nonprofit that runs youth, adult, and dislocated-worker employment programs funded largely through U.S. Department of Labor grants — from 2015 to 2022, using that position to submit hundreds of false and fraudulent reimbursement requests backed by falsified invoices and receipts. Over nearly seven years she diverted more than 100 separate payments from CFI to herself and family members, spending the money on personal expenses including cell phone bills and housing costs, for a total loss to the nonprofit of $426,837.11. Spargur-Tate was sentenced on August 27, 2026 in the U.S. District Court for the Southern District of Iowa to 18 months in federal prison plus three years of supervised release, and ordered to pay the full $426,837.11 in restitution. U.S. Department of Labor Office of Inspector General Anthony P. D'Esposito said Spargur-Tate "stole Department of Labor funds intended to help Americans secure meaningful employment," underscoring that the theft did not just harm CFI's finances but diverted money meant for job training and placement services for vulnerable Iowans. The case, investigated by the Department of Labor's Office of Inspector General and the Des Moines Police Department and prosecuted by the U.S. Attorney's Office for the Southern District of Iowa, is a reminder that a trusted, long-tenured employee with sign-off authority over reimbursements is one of the most common ways a nonprofit's federal grant funding disappears — boards and funders should require independent, periodic audits of reimbursement requests and vendor invoices rather than relying on a single program director's internal recordkeeping.`,
+    categorySlug: 'charity-scams',
+    alertLevel: 'medium',
+    sources: ['U.S. Department of Labor Office of Inspector General', "U.S. Attorney's Office, Southern District of Iowa", 'Townhall'],
+    sourceUrl: 'https://www.justice.gov/usao-sdia/pr/former-iowa-nonprofit-program-director-sentenced-18-months-federal-prison-theft',
+    country: 'US',
+    state: 'IA',
+});
