@@ -3864,3 +3864,15 @@ UsGM.push({
     state: 'KS',
 });
 
+UsGM.push({
+    name: 'Infinite Abilities Eastern Shore Family Medicaid Fraud Ring',
+    slug: 'maryland-infinite-abilities-eastern-shore-family-medicaid-fraud',
+    description: `Corie Lynne Davis, 49, of Salisbury, Maryland, owned Infinite Abilities, LLC, a company enrolled as a Medicaid "support broker" that helps people with developmental disabilities manage services and staff under Maryland's Self-Directed Services Program. An Anne Arundel County grand jury indictment alleges Davis coordinated a scheme with eight relatives by blood or marriage — her daughters Ashley Renee Davis, 25, Alesha Fay Davis, 29, Ce'Airra Rebecca Davis, 24, Selena Lynne Davis, 22, and Jocelyn Marie Davis, 28; her daughter Destiny Larae Little, 30; her son-in-law Desmond Samuel Lake, 27; and her sister-in-law Matilda Ann Tull, 64 — to submit false information to Maryland Medicaid and draw payments the family was not entitled to. Two of the indicted family members held positions of public trust: Ce'Airra Davis was a Somerset County Sheriff's Office deputy first class, and Desmond Lake was a Princess Anne police officer, and both were suspended from their agencies after the indictments became public. Corie Davis was also charged separately with making a false statement on her own Medicaid application by misrepresenting her income and household composition to qualify for benefits. Maryland Attorney General Anthony Brown's office, which brought the case, said "Medicaid is a lifeline for thousands of Marylanders with disabilities and their families — every dollar these defendants allegedly stole cannot go toward the care these residents deserve." Families managing a Self-Directed Services budget for a relative with a disability, or Medicaid recipients generally, should periodically review the billing and service records tied to their case against what care was actually provided, and report any support broker, provider, or family arrangement that seems to be billing for hours or services that didn't happen to the Maryland Attorney General's Medicaid Fraud Control Unit.`,
+    categorySlug: 'healthcare-fraud',
+    alertLevel: 'high',
+    sources: ["Maryland Office of the Attorney General", 'FOX45 Baltimore', 'The BayNet'],
+    sourceUrl: 'https://oag.maryland.gov/News/pages/Attorney-General-Brown-Announces-Indictment-of-Eastern-Shore-Family-Members-in-Wide%E2%80%91Ranging-Medicaid-Fraud-Scheme.aspx',
+    country: 'US',
+    state: 'MD',
+});
+

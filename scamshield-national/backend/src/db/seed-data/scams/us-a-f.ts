@@ -5750,3 +5750,15 @@ UsAF.push({
     country: 'US',
     state: 'CT',
 });
+
+UsAF.push({
+    name: "Shine's Professional Services Geothermal Tax Credit Fraud",
+    slug: 'alabama-shine-professional-services-geothermal-tax-credit-fraud',
+    description: `Michael Shine, 55, of Birmingham, Alabama, owned Shine's Professional Services, a Center Point tax-preparation business, and, according to a federal grand jury indictment, spent from 2021 through 2026 preparing and filing client tax returns that falsely claimed clients had purchased qualifying geothermal heat pump property — a real federal tax credit meant to reward homeowners who install geothermal heating and cooling systems — when in fact no such purchase had been made. Shine and his clients collectively claimed more than $70 million in refunds built on these fabricated credits, and the IRS actually paid out roughly $65 million of it before investigators caught up with the scheme. Prosecutors allege that after IRS agents executed a search warrant at his business, Shine did not stop; he modified how he ran the scheme and kept preparing false returns, and separately underreported his own business income on his personal tax returns. A federal grand jury in the Northern District of Alabama indicted Shine on 30 counts of aiding and assisting in the preparation of false tax returns and three counts of filing false personal tax returns, with each false-return count carrying up to three years in federal prison. "Tax preparers have a responsibility to help their clients comply with the law — not to misuse the tax system for personal gain," said Assistant Attorney General Colin McDonald of the Justice Department's Tax Division. Anyone who has a tax return prepared professionally should ask to see and understand every credit or deduction being claimed in their name before signing, since the taxpayer — not the preparer — is legally responsible for what appears on a filed return, and should be skeptical of any preparer who promises an unusually large refund tied to a home-improvement credit they don't recall qualifying for.`,
+    categorySlug: 'tax-scams',
+    alertLevel: 'high',
+    sources: ["U.S. Department of Justice, Tax Division", 'Internal Revenue Service Criminal Investigation', 'WBRC'],
+    sourceUrl: 'https://www.justice.gov/opa/pr/alabama-man-charged-preparing-false-tax-returns',
+    country: 'US',
+    state: 'AL',
+});

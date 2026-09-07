@@ -3725,3 +3725,15 @@ UsNS.push({
     country: 'US',
     state: 'NE',
 });
+
+UsNS.push({
+    name: 'YMA Financial Duncan Credit Repair Cash-Advance Fraud',
+    slug: 'south-carolina-yma-financial-duncan-credit-repair-fraud',
+    description: `Joseph F. Wallace, 51, of Duncan, South Carolina, marketed himself through his company YMA Financial as, in his own words, "a self-made serial entrepreneur leading multiple business entities and living the American Dream in Upstate, South Carolina," offering clients credit repair, business planning, and help establishing business credit. According to the U.S. Attorney's Office for the District of South Carolina, after Wallace overextended himself financially pursuing other ventures beginning in late 2022, he needed a steady stream of new cash to pay back earlier clients and started misrepresenting his services to new ones: he directed clients seeking to build business credit to apply for credit cards and told them to submit false information to the card issuers so the applications would be approved, then had the clients take cash advances on the new cards, promising he would repay the balances within 30 days. Wallace routinely failed to repay those balances on time, if at all, instead using the cash to cover his own other debts and business purchases, leaving his clients holding credit card balances and damaged credit rather than the business credit they had paid him to build. A federal jury convicted Wallace on July 17, 2026, after a four-day trial, on nine counts of wire fraud and one count of credit card fraud, finding he had stolen a combined $971,051.44 from his clients; he faces up to 20 years in federal prison and a $250,000 fine at a sentencing date yet to be set. Anyone hiring a credit repair or business-credit consultant should be wary of being told to apply for credit cards using information that isn't fully accurate, and should never take a cash advance or run up a balance on someone else's promise to personally repay it — a legitimate credit-building service does not require a client to go into debt on the service provider's behalf.`,
+    categorySlug: 'debt-relief-scams',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office, District of South Carolina", 'FOX Carolina', 'WSPA'],
+    sourceUrl: 'https://www.justice.gov/usao-sc/pr/federal-jury-convicts-duncan-credit-repair-operator-wire-fraud-and-credit-card-fraud',
+    country: 'US',
+    state: 'SC',
+});
