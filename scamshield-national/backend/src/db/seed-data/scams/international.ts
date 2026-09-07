@@ -10272,3 +10272,26 @@ International.push(
     country: 'TG',
   },
 );
+
+International.push(
+  {
+    name: 'Royal Bengal Logistics Trucking Investment Ponzi Scheme',
+    slug: 'haiti-royal-bengal-logistics-trucking-ponzi-scheme',
+    description: `A federal jury in the Southern District of Florida convicted Sanjay Singh, owner of the Coral Springs trucking firm Royal Bengal Logistics, Inc., on November 6, 2024, of wire fraud, money laundering, and conspiracy after prosecutors and the SEC showed he had run an elaborate Ponzi scheme through the company between 2020 and 2023. Singh sold contracts that promised investors an ownership stake in specific freight trucks and extremely high, steady interest payments, telling them the fleet was generating roughly $1 million a month and was about to expand to 200 trucks; in reality the trucking operation lost money, and new investors' cash was used to pay "returns" to earlier ones. Federal investigators found the scheme drew heavily on the Haitian-American community and ultimately collected more than $150 million from roughly 2,000 investors before it collapsed, with Singh diverting millions for a home renovation, a luxury vehicle, personal stock trading, and transfers to family overseas. He was sentenced on May 30, 2025 to 23 years in federal prison, and on February 9, 2026 a federal judge entered a $51,199,671 restitution judgment against him in favor of victims — a fraction of what was actually lost. The case is a reminder that a written contract and a real company name are not proof an investment is legitimate, especially when the promised returns are unusually high and steady regardless of market conditions.`,
+    categorySlug: 'ponzi-pyramid-schemes',
+    alertLevel: 'high',
+    sources: ['U.S. Department of Transportation Office of Inspector General', 'U.S. Securities and Exchange Commission'],
+    sourceUrl: 'https://www.oig.dot.gov/library-item/47186',
+    country: 'HT',
+  },
+  {
+    name: 'Marc Henry Menard Haitian Community Investment Fraud',
+    slug: 'haiti-marc-henry-menard-investment-fraud-scheme',
+    description: `New York Attorney General Letitia James announced the arrest of Florida resident Marc Henry Menard in August 2025 for running a three-year securities fraud scheme, operated through his company Marcotech LLC, that targeted Haitian community members in Nassau, Suffolk, Rockland, and Queens Counties in New York as well as Florida and Georgia. Menard, who was never registered to sell securities, told investors he was a highly successful trader of stocks and cryptocurrencies and promised monthly returns of 12 to 20 percent, with even higher payouts offered to anyone who recruited additional investors; prosecutors said he also showed some victims fabricated ATM receipts and doctored trading-account screenshots claiming balances of $8 million and $1 million to keep them from asking for their money back. Rather than trading on investors' behalf, Menard funneled the roughly $600,000 raised from 11 victims into personal trading accounts, where high-risk day and options trading produced losses exceeding $670,000 between July 2021 and October 2022, and used newer investors' money to repay earlier ones in a Ponzi-like pattern while spending over $100,000 on trips to Turkey, Puerto Rico, and Disney World, a Mercedes-Benz and a BMW, and designer purchases. Menard pleaded guilty on April 17, 2026 to grand larceny, scheme to defraud, and securities fraud, and the Attorney General announced on July 30, 2026 that he had been sentenced to five years of probation, banned from the securities industry for five years, and ordered to pay $385,271 in restitution to his victims.`,
+    categorySlug: 'ponzi-pyramid-schemes',
+    alertLevel: 'high',
+    sources: ['New York State Office of the Attorney General', 'The Haitian Times'],
+    sourceUrl: 'https://ag.ny.gov/press-release/2025/attorney-general-james-announces-arrest-florida-man-investment-fraud-scheme',
+    country: 'HT',
+  },
+);
