@@ -5636,4 +5636,15 @@ export const UsAF: SeedScam[] = [
     country: 'US',
     state: 'CT',
   },
+{
+    name: 'Arkansas EBT Card Skimming, Impersonation, and PIN-Phishing Scam',
+    slug: 'arkansas-ebt-skimming-impersonation-phishing-scam',
+    description: `The Arkansas Attorney General's Office issued a consumer alert on July 21, 2025 warning that SNAP/EBT benefits theft was on the rise across the state, driven by three main tactics: skimming devices secretly installed on retailer point-of-sale terminals that copy a card's data during a normal transaction without the cardholder ever noticing; impersonators posing as government officials who call recipients late in the month and threaten that next month's benefits will be withheld unless the recipient "verifies" account details over the phone; and phishing texts or emails falsely claiming a PIN has been compromised and must be reset through a link. Once a card is compromised, the stolen benefits are typically drained and spent in states far from Arkansas within hours, often before the recipient realizes anything is wrong, leaving some of the state's most vulnerable households without money for groceries. The Attorney General's Office stresses that no government agency will ever ask for a PIN by phone, text, or email, and recommends inspecting card readers for signs of tampering, changing PINs regularly, avoiding online EBT purchases when possible, and reporting suspected fraud to the Arkansas Department of Human Services at ar.gov/snapfraud or to the Attorney General's Office at (501) 682-2007.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'high',
+    sources: ["Arkansas Attorney General's Office"],
+    sourceUrl: 'https://arkansasag.gov/news-release/consumer-alert-ebt-scams-are-on-the-rise/',
+    country: 'US',
+    state: 'AR',
+  },
 ];
