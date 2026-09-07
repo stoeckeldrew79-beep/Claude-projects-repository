@@ -4100,3 +4100,23 @@ Morgenthau's office indicted Marshall and Morrissey in November 2007 on charges 
 Appeals delayed Marshall's imprisonment for more than three years. He finally began serving his sentence at Fishkill Correctional Facility in June 2013, at age 89, only to be granted medical parole after roughly eight weeks behind bars because of his declining health. He died on November 30, 2014, at age 90, at New York-Presbyterian Hospital. The case remains one of the most closely watched prosecutions of elder financial abuse in the United States, notable less for its scale than for how it happened: not through a stranger's con, but through a son entrusted with his own mother's care during the years she was least able to notice what he was taking.`,
   },
 );
+
+NotoriousAF.push(
+  {
+    title: 'Danny Porush: The "Wolf of Wall Street" Partner Behind Stratton Oakmont',
+    slug: 'danny-porush-stratton-oakmont-wolf-of-wall-street',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Danny_Porush_mugshot.png?width=1200',
+    coverImageCredit: 'Photo: Palm Beach County Jail (public domain)',
+    coverImagePosition: 50,
+    sourceUrl: 'https://www.sec.gov/enforcement-litigation/administrative-proceedings/34-43937',
+    body: `Danny Porush co-founded the Long Island brokerage Stratton Oakmont in the late 1980s alongside Jordan Belfort — whose own fraud at the firm is covered elsewhere in this collection — and served as its president through the firm's rise as one of the largest "pump and dump" operations in American securities history. Stratton Oakmont brokers cold-called investors and aggressively pushed shares in small, often near-worthless companies that the firm itself secretly controlled large blocks of, artificially inflating the price before insiders sold out at investors' expense. When Belfort was barred from the securities industry in 1994, Porush stepped up to chairman and chief executive, keeping the scheme running until regulators finally caught up with the firm.
+
+The firm's culture — and Porush's role in it — became internationally famous decades later through Belfort's memoir and its 2013 film adaptation, "The Wolf of Wall Street," in which Jonah Hill played a fictionalized composite character, "Donnie Azoff," widely understood to be based on Porush (the name was changed for legal reasons, and Porush has said the character's more outrageous antics were exaggerated for the screen).
+
+Regulators moved against him well before Hollywood did. In December 1996, the National Association of Securities Dealers permanently barred Porush from the securities industry and fined him $250,000 over Stratton Oakmont's sales practices. Federal prosecutors followed with a criminal case, and in 1999 Porush pleaded guilty, alongside Belfort, to securities fraud and money laundering. He was sentenced to four years in federal prison and ordered to pay $200 million in restitution; he served 39 months before his release on probation in 2004.
+
+Porush's legal troubles didn't end with Stratton Oakmont. After prison, he moved into an unrelated business, Med-Care Diabetic & Medical Supplies, a Florida telemarketing operation selling diabetic testing supplies to Medicare beneficiaries. A federal False Claims Act whistleblower lawsuit filed by former employees named Porush individually as a defendant, alleging the company used improper telemarketing tactics to bill Medicare for supplies patients didn't need or request; the litigation dragged on for years in federal court in Florida. In August 2021, Boca Raton police arrested Porush on a DUI charge — the arrest behind the mugshot above — a comparatively minor coda to a career that, decades earlier, helped define what a pump-and-dump scheme cold-calling ordinary investors could look like at industrial scale.`,
+  },
+);
