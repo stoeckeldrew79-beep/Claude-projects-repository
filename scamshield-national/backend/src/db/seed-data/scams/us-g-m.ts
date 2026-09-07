@@ -4126,3 +4126,27 @@ UsGM.push({
     country: 'US',
     state: 'GA',
 });
+
+UsGM.push({
+    name: 'Detroit "Ghost Prepared" $7 Million IRS Refund Scheme (Rodney Underwood)',
+    slug: 'michigan-detroit-ghost-preparer-underwood-irs-refund-fraud',
+    description: `Rodney Underwood, of Detroit, pleaded guilty on September 2, 2026 to making a false claim against the United States after prosecutors said he prepared and filed more than 200 nearly identical fraudulent tax returns for clients across the Detroit area, fraudulently claiming more than $7 million in refunds and causing an actual loss to the government of approximately $6.2 million. Underwood "ghost prepared" the returns, meaning he deliberately left the paid-preparer section of each return blank so it would appear the client had filed it themselves rather than paid a professional, a tactic that also let him avoid the IRS's tracking of preparers with unusually high rates of fraudulent claims. On each return, Underwood reported false dividend income and false withholding amounts designed to trigger a refund the client was not entitled to receive, and he failed to report the fees he collected from clients as income on his own tax returns. Underwood is scheduled to be sentenced on January 6, 2027, and faces a statutory maximum of five years in prison along with restitution. The case illustrates a specific red flag for anyone hiring a tax preparer: a legitimate preparer is legally required to sign the return and include their Preparer Tax Identification Number, and a preparer who leaves that section blank, refuses to provide their PTIN, or bases a refund on unfamiliar income or withholding figures the client cannot verify from their own pay stubs is worth reporting to the IRS before filing, since the taxpayer — not the ghost preparer — is the one left liable for the false claim.`,
+    categorySlug: 'tax-scams',
+    alertLevel: 'high',
+    sources: ["U.S. Department of Justice, Office of Public Affairs", 'FOX 2 Detroit', 'Hoodline'],
+    sourceUrl: 'https://www.justice.gov/opa/pr/michigan-man-pleads-guilty-7m-tax-fraud-scheme',
+    country: 'US',
+    state: 'MI',
+});
+
+UsGM.push({
+    name: 'Crookston False Tax Return Refund Scheme (Philip Nelson Green)',
+    slug: 'minnesota-crookston-philip-green-false-tax-return-scheme',
+    description: `Philip Nelson Green, of Crookston, Minnesota, pleaded guilty in federal court to making a false claim with the IRS after being indicted for filing fraudulent individual income tax returns covering the 2019, 2020, 2021, and 2022 tax years. Each return contained multiple false or fraudulent items, including fabricated wage information, inflated itemized deductions, false withholding amounts, and false child and dependent care expenses, and for the 2021 and 2022 returns alone Green sought more than $500,000 in refunds he was not entitled to receive. Green is scheduled to be sentenced on January 28, 2027, and faces a statutory maximum of five years in prison along with supervised release, restitution, and monetary penalties. The U.S. Attorney's Office for the District of Minnesota, which originally charged Green after a federal grand jury indictment in March 2026, said the case was investigated by IRS Criminal Investigation. The case is a reminder that inflating withholding or claiming dependent-care and other credits not actually supported by W-2s, receipts, or care-provider records is not a low-risk way to boost a refund — the IRS can and does cross-check reported withholding against what employers actually submitted, and a taxpayer whose preparer or own return claims income, withholding, or expenses that do not match their real records can face years of exposure to prosecution even after a refund has already been paid out and spent.`,
+    categorySlug: 'tax-scams',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office, District of Minnesota", 'FOX 9 Minneapolis-St. Paul', 'KVRR'],
+    sourceUrl: 'https://www.justice.gov/opa/pr/minnesota-man-pleads-guilty-filing-false-claim-irs',
+    country: 'US',
+    state: 'MN',
+});
