@@ -45,6 +45,27 @@ const EntrySchema = z.object({
 const BatchSchema = z.object({ entries: z.array(EntrySchema) });
 type Entry = z.infer<typeof EntrySchema>;
 
+// Names to tell the research call are already covered.
+//
+// This was SEED_SCAMS.slice(-120). SEED_SCAMS is the shards concatenated, so
+// the last 120 all came from us-t-z: the model was shown 120 of 2,155 entries,
+// every one of them starting t-w, and was blind to everything from a to s. It
+// duly proposed entries that already existed and the run wrote nothing.
+//
+// Sampling at an even stride covers the whole alphabet, and entries for the
+// country being targeted are the ones worth spending the tokens on.
+function exclusionSample(country: string, limit: number): string[] {
+  const sameCountry = SEED_SCAMS.filter((s) => (s.country ?? 'US') === country);
+  const source = sameCountry.length >= limit ? sameCountry : SEED_SCAMS;
+  if (source.length <= limit) return source.map((s) => s.name);
+  const stride = source.length / limit;
+  const out: string[] = [];
+  for (let i = 0; i < limit; i += 1) out.push(source[Math.floor(i * stride)].name);
+  return out;
+}
+
+const EXCLUSION_SAMPLE_SIZE = 500;
+
 function existingSlugs(): Set<string> {
   return new Set(SEED_SCAMS.map((s) => s.slug));
 }
@@ -90,6 +111,11 @@ async function main() {
 
   console.log(`generateScamEntries: model=${MODEL} target=${target.country} batch=${COUNT} mode=${APPLY ? 'APPLY' : 'dry run'}`);
 
+  // One full attempt: research, extract, then reject anything that would
+  // corrupt the corpus. Separated out so a run whose every candidate already
+  // existed can try again knowing what collided, rather than paying for a
+  // search and writing nothing.
+  async function attempt(collided: string[]) {
   // 1. Research — real, currently reported scams, with agency sources.
   const researchPrompt =
     `Find ${COUNT} distinct consumer scams currently being reported in ${target.country}. ${target.note}\n\n` +
@@ -98,7 +124,12 @@ async function main() {
     `Hard requirements: every scam must be real and documented; no invented statistics, companies, or individuals. ` +
     `If you can only verify fewer than ${COUNT}, return fewer — a short honest batch is correct, padding is not.\n\n` +
     `Avoid anything already covered by these existing entry names:\n` +
-    SEED_SCAMS.slice(-120).map((s) => `- ${s.name}`).join('\n');
+    exclusionSample(target.country, EXCLUSION_SAMPLE_SIZE).map((n) => `- ${n}`).join('\n') +
+    (collided.length
+      ? `\n\nA previous attempt proposed these and every one already existed. ` +
+        `Do not propose them or close variants again:\n` +
+        collided.map((c) => `- ${c}`).join('\n')
+      : '');
 
   const researchMessages: Anthropic.MessageParam[] = [];
   let research = await client.messages.create({
@@ -176,15 +207,31 @@ async function main() {
   // 3. Reject anything that would corrupt the corpus, and say why.
   const validCategories = new Set(SEED_CATEGORIES.map((c) => c.slug));
   const accepted: Entry[] = [];
+  const collisions: string[] = [];
   for (const e of parsed.entries) {
-    if (slugs.has(e.slug)) { console.log(`  reject ${e.slug}: slug already exists`); continue; }
+    if (slugs.has(e.slug)) { console.log(`  reject ${e.slug}: slug already exists`); collisions.push(e.name); continue; }
     if (!validCategories.has(e.categorySlug)) { console.log(`  reject ${e.slug}: unknown category ${e.categorySlug}`); continue; }
     if (!findings.includes(new URL(e.sourceUrl).hostname)) { console.log(`  reject ${e.slug}: sourceUrl host not present in the research findings`); continue; }
     if (accepted.some((a) => a.slug === e.slug)) { console.log(`  reject ${e.slug}: duplicate within this batch`); continue; }
     accepted.push(e);
   }
 
-  console.log(`generateScamEntries: ${accepted.length} of ${parsed.entries.length} entries accepted`);
+    return { accepted, proposed: parsed.entries.length, collisions };
+  }
+
+  let { accepted, proposed, collisions } = await attempt([]);
+
+  // Nothing accepted purely because every candidate already existed is a
+  // solvable miss, not a dead end: the search worked, the corpus is simply
+  // large enough now that the obvious answers are in it. One more attempt,
+  // told what collided. Capped at one — a second empty result means the
+  // search genuinely found nothing new today.
+  if (!accepted.length && collisions.length) {
+    console.log(`generateScamEntries: all ${collisions.length} proposed entries already existed — retrying once with those excluded.`);
+    ({ accepted, proposed, collisions } = await attempt(collisions));
+  }
+
+  console.log(`generateScamEntries: ${accepted.length} of ${proposed} entries accepted`);
   for (const e of accepted) console.log(`  + [${e.categorySlug}] ${e.name}\n      ${e.sourceUrl}`);
 
   if (!APPLY) {
