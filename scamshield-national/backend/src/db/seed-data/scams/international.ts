@@ -9864,3 +9864,36 @@ International.push(
     country: 'VU',
   },
 );
+
+International.push(
+  {
+    name: 'Fake "Amazon Mall" Self-Employment Job-Task Scam',
+    slug: 'nicaragua-fake-amazon-centro-autoempleo-job-task-scam',
+    description: `A 19-year-old Nicaraguan woman named Esperanza was contacted through a Facebook job ad promising well-paid remote work and displaying the logos of recognizable brands to look legitimate; after filling out a short form, she was routed to a WhatsApp Business account run by people claiming to represent a "Centro de Autoempleo de Amazon Mall" — a fabricated operation with no real connection to Amazon — where handlers using the aliases "Sofi" and "Kesly Sandoval" told her the position required completing paid "training" tasks inside a fake online dashboard. The dashboard displayed nonexistent orders, investments, and commissions, and — as with classic task-scam schemes — the very first payment demanded was small, just 129 córdobas (about US$3.50), before a rapid escalating sequence of further "deposits" (200, 94, 800, 620.39, 2,200, 4,900, 12,152, 4,252, and 7,300 córdobas) that the fake dashboard falsely showed growing toward a supposed balance of 108,000 córdobas in commissions she could withdraw once she paid one more fee. Between 8:01 a.m. and 12:28 p.m. on a single day, Esperanza transferred her family's entire savings — a combined 20,766.39 córdobas (roughly US$570) — chasing a payout that never existed. The family filed a complaint with the Superintendencia de Bancos y de Otras Instituciones Financieras (SIBOIF), and Superintendent Sara Amelia Rosales Castellón was reported in July 2026 to have formally demanded that the financial institution involved explain an eight-month delay in responding to the case and turn over transaction records, communications with the accounts that received the funds, ATM withdrawal footage, and its own internal fraud-investigation findings — with the family's reimbursement still pending as of that report. Nicaraguans are advised to treat any "job" that requires paying money up front to unlock training, tasks, or commissions as a scam regardless of how professional the branding or dashboard looks, to verify any supposed employer's real identity independently of a WhatsApp Business account or Facebook page, and to report suspected fraud to SIBOIF rather than continuing to send money chasing a rising on-screen balance.`,
+    categorySlug: 'job-task-scams',
+    alertLevel: 'high',
+    sources: ['Infobae', 'Superintendencia de Bancos y de Otras Instituciones Financieras (SIBOIF)'],
+    sourceUrl: 'https://www.infobae.com/nicaragua/2026/07/30/una-falsa-oferta-en-facebook-dejo-a-una-familia-de-nicaragua-sin-sus-ahorros-y-con-un-reembolso-pendiente/',
+    country: 'NI',
+  },
+  {
+    name: 'XPOWER TRADE Unauthorized Forex Trading Platform Scam',
+    slug: 'nicaragua-xpower-trade-unauthorized-forex-scam',
+    description: `Nicaragua's Superintendencia de Bancos y de Otras Instituciones Financieras (SIBOIF) issued a public alert on March 18, 2025 warning investors about XPOWER TRADE — also operating under the names FCA XPOWER LATAM and Brokers Latam — stating plainly that the entity "no es, ni ha sido titular de una licencia o registro emitido por la Superintendencia de Bancos" (is not, and has never been, the holder of a license or registration issued by the Superintendency of Banks) and has no authorization to intermediate securities or provide brokerage advisory services under Nicaragua's securities-market regulations. The warning fits a recurring pattern SIBOIF has tracked for years of foreign-branded trading and forex platforms marketing themselves to Nicaraguans without ever registering with the regulator — the agency has issued similar alerts against the platforms 2Invest (2020) and OMEGA PRO Nicaragua (2022) — typically drawing in investors through social media promotion and promises of fast, outsized trading returns before customers discover the platform is not licensed to operate at all and has no legal accountability in the country. SIBOIF's consistent guidance across these alerts is to check the regulator's own published list of entities authorized to intermediate securities and conduct public securities offerings in Nicaragua before sending any money to a trading or investment platform, since investing through an unauthorized entity carries a high risk of total capital loss with no legal recourse once funds are sent.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ['Superintendencia de Bancos y de Otras Instituciones Financieras (SIBOIF)'],
+    sourceUrl: 'https://www.siboif.gob.ni/alertas/alerta-los-inversionistas-referida-xpower-trade',
+    country: 'NI',
+  },
+  {
+    name: 'Fake Investment Websites Impersonating SIBOIF and Bank Branding',
+    slug: 'nicaragua-fake-investment-websites-siboif-impersonation-scam',
+    description: `SIBOIF, Nicaragua's banking and financial-institutions regulator, published a public "¡ALERTA por falsas inversiones!" flyer on October 13, 2025 warning that fake investment offers were circulating through counterfeit websites asking victims for their banking information and for deposits or money transfers in exchange for "ganancias atractivas a corto plazo" (attractive short-term gains). The flyer explains that these fraudulent pitches deliberately "hac[en] uso indebido de nombres y simulando logos institucionales" — misusing names and mimicking institutional logos, including SIBOIF's own seal along with the branding of real banks and other regulated financial institutions — specifically to manufacture an appearance of formality and legitimacy that gets victims to lower their guard. SIBOIF's guidance to consumers is direct: before making any investment, verify that the financial institution is actually regulated and supervised by SIBOIF and that the website is genuinely that institution's own site, using the official list of authorized entities published at siboif.gob.ni; never make deposits, transfers, or online transactions in response to unsolicited messages promising fast, high returns; and never share banking usernames, PINs, passwords, or card numbers with anyone, since "ninguna institución financiera regulada y supervisada por SIBOIF solicita a sus clientes que le compartan su información personal o financiera por medio de plataformas sociales, llamadas telefónicas o aplicaciones de mensajería" (no financial institution regulated and supervised by SIBOIF asks its customers to share personal or financial information through social media, phone calls, or messaging apps).`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'medium',
+    sources: ['Superintendencia de Bancos y de Otras Instituciones Financieras (SIBOIF)'],
+    sourceUrl: 'https://www.siboif.gob.ni/alertas/alertas-por-falsas-inversiones',
+    country: 'NI',
+  },
+);
