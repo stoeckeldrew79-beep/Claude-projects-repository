@@ -3652,4 +3652,15 @@ export const UsGM: SeedScam[] = [
     country: 'US',
     state: 'MD',
   },
+{
+    name: 'Central Illinois U.S. Attorney\'s Office Impersonation Scam',
+    slug: 'illinois-central-district-us-attorneys-office-impersonation-scam',
+    description: `The U.S. Attorney's Office for the Central District of Illinois issued a scam alert on September 3, 2026 after fielding reports of fraudsters spoofing the office's main phone number and posing as real government attorneys or other officials from the office to try to defraud Illinois residents. The office, which covers Springfield and satellite locations in Peoria, Moline, and Urbana, said callers use its actual name alongside fabricated attorney names and titles to sound credible, a tactic built to exploit the fear a call from federal law enforcement naturally creates. The alert instructs anyone who receives such a call to write down the caller's name and any other identifying details they provide, hang up immediately without giving any personal or financial information, and then call the office directly at its published Springfield number, (217) 492-4450, to ask for the named individual by name — a request a real employee can satisfy and an impersonator cannot. The office stressed that a legitimate call from a federal prosecutor's office will never demand immediate payment, gift cards, wire transfers, or cryptocurrency, and referred anyone targeted to report the impersonation to the FBI at tips.fbi.gov or 1-800-CALL-FBI (1-800-225-5324).`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office for the Central District of Illinois", 'Federal Bureau of Investigation'],
+    sourceUrl: 'https://www.justice.gov/usao-cdil/scam-alert',
+    country: 'US',
+    state: 'IL',
+  },
 ];
