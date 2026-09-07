@@ -3936,3 +3936,27 @@ UsGM.push({
     country: 'US',
     state: 'IN',
 });
+
+UsGM.push({
+    name: 'Kentucky FOP Leader Affinity Investment Fraud (Kevin Ryan Straw)',
+    slug: 'kentucky-fop-affinity-investment-fraud-kevin-ryan-straw',
+    description: `Kevin Ryan Straw, 40, of Lexington, held two positions of trust inside Kentucky law enforcement's own fraternal community: President of Louisville's Metropolitan Lodge 32 and Vice President and Government Affairs Chair of the Kentucky State Fraternal Order of Police. Between 2021 and 2024, federal prosecutors say he used that standing to solicit money from fellow officers for what he described as an investment club, collecting $80,200 from at least ten people under false promises about how their money would be invested — money that, unlike a real investment, was never actually put anywhere on their behalf. At the same time, Straw was misappropriating $49,760 from Metro Lodge 32 through cash withdrawals he falsely claimed were being transferred to a different lodge account, and running up personal expenses on the Kentucky State FOP's credit card — $15,501.48 in direct charges plus another $41,562.97 in reimbursement requests for travel he never took. He was sentenced in August 2026 to 27 months in federal prison and ordered to pay $187,164.45 in restitution to his combined victims, both the two FOP lodges and the individual officers he solicited for the investment club. The case is a textbook example of affinity fraud: Straw's elected leadership roles inside a tight-knit police fraternal organization gave him built-in credibility with the very people he was defrauding, and anyone solicited for an investment by a trusted figure inside their own professional or community organization should still ask for the same independent verification — a real account statement from the actual investment, not just the organizer's word — that they would demand from a stranger.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office, Western District of Kentucky", 'WKYT', 'WDRB'],
+    sourceUrl: 'https://www.wkyt.com/2026/08/13/lexington-man-former-state-fop-leader-sentenced-2-years-prison-187k-fraud-scheme/',
+    country: 'US',
+    state: 'KY',
+});
+
+UsGM.push({
+    name: 'Matlock Construction Deposit-and-Abandon Contractor Fraud',
+    slug: 'missouri-matlock-construction-deposit-abandon-contractor-fraud',
+    description: `Gene M. Matlock ran Matlock Construction, a mid-Missouri contracting business, using a pattern the Missouri Attorney General's Office says repeated across multiple customers: solicit a large upfront payment for a home-construction or remodeling job, then either perform little or none of the promised work or abandon the project outright, keeping the money without delivering materials or finishing anything. In one case detailed by investigators, a homeowner who met with Matlock on January 2 about a home remodel paid him $75,475 and received no completed work and no refund. Matlock pleaded guilty on August 17, 2026 to one felony count of deceptive business practices and one felony count of stealing, and was sentenced to four years in prison on the deceptive-business-practices count and five years on the stealing count, along with five years of supervised probation. The court ordered him to pay $191,975 in restitution, an amount Attorney General Catherine Hanaway's office says covers every victim it identified during the investigation, not just those named in the criminal case. The case illustrates a pattern common to contractor fraud generally: a large deposit demanded before any work begins, followed by slow-walked or entirely absent progress, is a warning sign regardless of how professional the pitch sounds, and homeowners are advised to pay contractors in installments tied to completed, inspected work rather than a large sum upfront, and to check a contractor's licensing and complaint history with the Attorney General's Office before signing anything.`,
+    categorySlug: 'home-improvement-solar',
+    alertLevel: 'medium',
+    sources: ["Missouri Attorney General's Office (Catherine Hanaway)", 'Insurance Journal', 'KY3'],
+    sourceUrl: 'https://ago.mo.gov/attorney-general-hanaway-secures-191000-in-restitution-in-maries-county-contractor-fraud-case/',
+    country: 'US',
+    state: 'MO',
+});
