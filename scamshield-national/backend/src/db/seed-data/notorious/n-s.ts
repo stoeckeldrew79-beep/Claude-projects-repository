@@ -2803,4 +2803,23 @@ At trial in August 2000, a federal jury acquitted Lee of the core bribery and ra
 
 Lee never returned to boxing administration and died on March 22, 2024, at age 90, with his conviction final and his sentence long since served. The case did lasting damage to the credibility of boxing's rankings system: reforms enacted in its wake included congressional hearings on the sport's fractured and largely self-policed sanctioning bodies, though critics note the underlying incentive — a private organization selling access to rankings nobody is required to regulate — was never fully addressed industry-wide.`,
   },
+  {
+    title: 'Salman Butt, Mohammad Asif, Mohammad Amir, and the Pakistan Cricket Spot-Fixing Scandal',
+    slug: 'salman-butt-mohammad-asif-amir-pakistan-cricket-spot-fixing',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://www.espncricinfo.com/story/spot-fixing-controversy-jail-terms-for-all-four-539063',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Mohammad_Amir.png?width=1200',
+    coverImageCredit: 'Photo: 92 News, via Wikimedia Commons (CC BY 3.0)',
+    coverImagePosition: 50,
+    body: `In August 2010, during the fourth Test of Pakistan's tour of England at Lord's Cricket Ground, bowlers Mohammad Amir and Mohammad Asif each delivered a conspicuously overstepped no-ball at a specific, pre-arranged point in their opening spells — not the kind of mistake that costs a match, but one precise enough to be bet on in advance by anyone who knew it was coming. A News of the World investigation broke days later, publishing undercover footage of the players' agent, Mazhar Majeed, accepting £150,000 from an undercover reporter posing as a betting client and predicting the exact no-balls before they happened, along with other match details he claimed the team could deliver on demand.
+
+The News of the World sting triggered a joint investigation by Scotland Yard and the International Cricket Council, which provisionally suspended Butt, Asif, and Amir within days and, in February 2011, banned them from all cricket — Butt for ten years (five suspended), Asif for seven (two suspended), and Amir, then 18 and the youngest of the three, for five years, with no portion suspended. Criminal charges followed in England, where accepting or arranging corrupt payments tied to sport fell under conspiracy and cheating statutes rather than a bespoke match-fixing law. Amir and Majeed pleaded guilty before trial; Butt and Asif contested the charges and were convicted by a jury at Southwark Crown Court in November 2011.
+
+Sentencing them, Justice Jeremy Cooke told Butt directly that it was "clear to me that you were the orchestrator of this activity," and handed down two years and six months in prison; Asif received one year, Amir six months, and Majeed — who had brokered the arrangement and collected the cash — two years and eight months, the longest term of the four. Each served roughly half of his sentence in custody before release on licence, a standard feature of English sentencing that meant none served the headline term in full.
+
+The case was unusual among sports-corruption scandals for how directly it married two different frauds: bettors backing spot-fixed outcomes were defrauded by wagers rigged in advance, while cricket fans and broadcasters paying to watch what was sold to them as a genuine international contest got a contest that, in part, was not. It was also unusually well-documented, built on video evidence recorded by the newspaper itself rather than on witness testimony or forensic accounting, which is part of why the convictions of Butt and Asif withstood a jury trial rather than resting on guilty pleas alone.
+
+Amir's ban expired in 2015 and he returned to international cricket for Pakistan, retiring from Tests in 2017 and continuing in the shorter formats for several more years — a rare instance of a banned fixer resuming a career at the sport's highest level. Butt's and Asif's bans, and Majeed's conviction, were never appealed to a different outcome, and with every sentence served and no proceeding still open, the case that first exposed spot-fixing to a mainstream cricket audience closed without a lingering legal question left to resolve.`,
+  },
 );

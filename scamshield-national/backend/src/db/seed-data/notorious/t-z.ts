@@ -1403,4 +1403,24 @@ Rather than disappearing in disgrace, Keating spent his last years rehabilitated
 
 Keating's case remains a singular one among art frauds: a forger who was never actually convicted, whose defense rested on accusing the market itself of the greater dishonesty, and who ended his life more famous, and more publicly beloved, for the deception than he ever was for the restoration work that started it.`,
   },
+  {
+    title: 'Tony Tetro: The Forger the LA District Attorney Called One of the Two Best in America',
+    slug: 'tony-tetro-art-forgery',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://en.wikipedia.org/wiki/Tony_Tetro',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Oil_painting_palette.jpg?width=1200',
+    coverImageCredit: 'Photo: Mlaoxve, Wikimedia Commons (CC BY-SA 4.0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait/exact match if found
+    body: `Tony Tetro was a commercial artist in Southern California who spent the 1970s and 1980s producing what he later described as thousands of paintings, prints, and drawings in the styles of Rembrandt, Salvador Dalí, Marc Chagall, Joan Miró, and Norman Rockwell, among many others — not as homages sold openly as reproductions, but as works passed off through dealers and galleries as the real thing, complete with forged signatures and, in several cases, fabricated certificates of authenticity.
+
+The scheme unraveled in 1989 after the Japanese artist Hiro Yamagata spotted what he recognized as a forgery of his own work for sale in a Beverly Hills gallery and alerted authorities. Investigators traced the piece back to Tetro and, in an April 1989 search of his home and studio, recovered roughly 250 forged paintings and prints in progress, along with the materials — aged paper, period-appropriate frames, and reference books on individual artists' brushwork — that let him imitate a given painter's style and signature convincingly enough to fool experienced dealers.
+
+Los Angeles County prosecutors charged Tetro with 44 counts of forgery and one count of conspiracy, accusing him of working with art dealer Mark Sawicki to sell the fakes to unwitting buyers, including at least four separate galleries. Gary Helton, an investigator with the district attorney's office who worked the case, told reporters at the time that Tetro was "one of the two major art forgers in the United States." Tetro fought the charges through a widely covered 1989 trial and years of subsequent legal wrangling before entering a plea of nolo contendere in February 1993, closing out roughly four years of litigation with a conviction, probation, and — on a related federal count — about a year in custody.
+
+Rather than disappearing after his release, Tetro did something unusual for a convicted forger: he kept painting in other artists' styles in plain sight, this time signing his own name or clearly marking the works as "after" the original artist, and built a second career and media profile around his own biography, sitting for magazine profiles, a memoir, and documentary interviews in which he walked through the technical tricks — aging canvas, replicating a signature's exact pressure and rhythm, matching decades-old pigments — that once fooled the market outright.
+
+Tetro's case remains one of the clearest illustrations of how thin the line in the art trade can be between a skilled copyist and a criminal: the same technical mastery that made his fakes dangerous when passed off as originals became, once he was forced to disclose what they were, the basis of a legitimate business built on total transparency about the very deception that had put him in a Los Angeles courtroom.`,
+  },
 );

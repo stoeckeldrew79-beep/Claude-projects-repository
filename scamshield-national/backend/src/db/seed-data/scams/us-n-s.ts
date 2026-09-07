@@ -3451,4 +3451,15 @@ export const UsNS: SeedScam[] = [
     country: 'US',
     state: 'NY',
   },
+  {
+    name: 'Pennsylvania Fake Utility Website and Ad Scam',
+    slug: 'pennsylvania-fake-utility-website-ad-scam',
+    description: `The Pennsylvania Office of Attorney General warned residents on January 14, 2026, that scammers are increasingly impersonating utility providers such as PPL, UGI, and Met-Ed through professional-looking fake websites that surface in Google search results for terms like "pay my utility bill," fraudulent paid advertisements, and spoofed customer-service phone numbers. A resident who clicks one of these fake sites or dials one of the fraudulent numbers is connected to someone posing as a company representative who falsely claims the account is past due and threatens imminent service disconnection unless payment is made immediately, pressuring the victim into providing account numbers, banking details, or a payment sent by wire transfer, gift card, or a peer-to-peer app such as Venmo, Cash App, or Zelle. The office noted these fraudulent search results and ads can appear above or alongside the real utility's official listing, making them easy to mistake for the genuine company, and that unsolicited calls demanding unconventional, immediate payment are themselves a red flag since real utilities offer standard billing and payment-plan options rather than one-time app transfers. Attorney General Dave Sunday's office recommends typing a utility's official web address directly into the browser rather than clicking a search result, using only the phone number printed on a physical bill or official mailing, verifying suspicious activity through the Pennsylvania Public Utility Commission at 1-800-692-7380, and never sending payment through a gift card or P2P app to resolve a utility bill. Suspected scams can be reported to the PA Office of Attorney General's Bureau of Consumer Protection online or at 1-800-441-2555.`,
+    categorySlug: 'utility-scams',
+    alertLevel: 'high',
+    sources: ['Pennsylvania Office of Attorney General (Dave Sunday)'],
+    sourceUrl: 'https://www.attorneygeneral.gov/taking-action/ag-sunday-warns-pennsylvanians-of-scammers-targeting-utility-customers-through-fake-websites-advertisements-and-telephone-numbers/',
+    country: 'US',
+    state: 'PA',
+  },
 ];
