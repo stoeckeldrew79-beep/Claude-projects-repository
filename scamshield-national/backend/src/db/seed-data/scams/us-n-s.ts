@@ -3701,3 +3701,27 @@ UsNS.push({
     country: 'US',
     state: 'OR',
 });
+
+UsNS.push({
+    name: 'Pukwana Crow Creek Sioux Tribal Council Embezzlement Scheme',
+    slug: 'south-dakota-pukwana-crow-creek-sioux-tribe-embezzlement',
+    description: `Kyle James Loudner, 40, an elected member of the Crow Creek Sioux Tribal Council, and Talyn Ashley Douville, 34, a tribal employee, both of Pukwana, South Dakota, embezzled approximately $160,000 from the tribe's government checking accounts between May 27, 2022 and July 2, 2024, according to the U.S. Attorney's Office for the District of South Dakota. Investigators say the pair drew nearly 100 checks from the tribe's own accounts made payable to Loudner, to Douville, to both of them jointly, or simply to cash, diverting community funds the tribal council was elected and hired to safeguard. A federal grand jury indicted the two in May 2025; Loudner pleaded guilty on March 30, 2026, and Douville pleaded guilty on April 6, 2026. U.S. District Judge Eric C. Schulte sentenced Loudner to 18 months in federal prison followed by three years of supervised release, and Douville to six months in federal prison followed by three years of supervised release, with both ordered to pay $160,000 in restitution, in a sentencing announced by U.S. Attorney Ron Parsons' office in mid-July 2026. The case is a reminder that an embezzlement scheme doesn't require a stranger on the phone or a fake website — an elected official or trusted employee with signing authority over an organization's bank accounts can divert its money for years if nobody outside that inner circle is independently reviewing the checks going out, which is why tribal members, nonprofit boards, and any group that pools money for community services should insist on regular third-party audits and require more than one signature on checks drawn against shared funds.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office for the District of South Dakota", 'KCCR-AM', 'Federal Bureau of Investigation'],
+    sourceUrl: 'https://www.fbi.gov/contact-us/field-offices/minneapolis/news/pukwana-sd-duo-sentenced-to-federal-prison-for-embezzlement-and-theft-from-an-indian-tribal-organization',
+    country: 'US',
+    state: 'SD',
+});
+
+UsNS.push({
+    name: 'Built Rite Construction Multi-State Barndominium Deposit Fraud (Bobby Bates Sr.)',
+    slug: 'nebraska-built-rite-construction-barndominium-deposit-fraud',
+    description: `Bobby Bates Sr., 43, of Grand Island, Nebraska, owned Built Rite Construction and, from February through October 2023, used a Facebook group called "Building Barndominiums" to recruit customers for barndominium and shop-home construction projects across the Midwest and South. Bates required customers to wire or check him upfront deposits of as much as 50% of the estimated total cost, then either never began construction or abandoned the project partway through, using bank records that showed the money going to his personal expenses rather than materials, labor, or subcontractors, according to the U.S. Attorney's Office for the District of Kansas. More than ten victims across Missouri, Iowa, Kansas, Nebraska, Alabama, Illinois, and South Dakota lost a combined $703,016. Bates pleaded guilty to one count of wire fraud on October 22, 2025, and was sentenced on January 16, 2026 to 87 months in federal prison and ordered to pay $703,016 in restitution, following an investigation by the U.S. Postal Inspection Service and the FBI. Anyone hiring a contractor found through a social media group rather than a licensed, bonded local business should independently verify the company's licensing status, get a written contract with a payment schedule tied to completed, verified work rather than one large upfront deposit, and be especially cautious of a builder who solicits clients across many states rather than operating within a single local service area.`,
+    categorySlug: 'home-improvement-solar',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office for the District of Kansas", 'U.S. Postal Inspection Service', 'KCTV5'],
+    sourceUrl: 'https://www.justice.gov/usao-ks/pr/nebraska-man-behind-building-barndominiums-scheme-sentenced-prison',
+    country: 'US',
+    state: 'NE',
+});

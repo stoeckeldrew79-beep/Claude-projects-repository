@@ -3782,3 +3782,15 @@ UsGM.push({
     state: 'MA',
 });
 
+UsGM.push({
+    name: 'Wolf Creek "Lonely Hearts" Vulnerable-Adult Exploitation (Diane Eglise-Beam)',
+    slug: 'montana-wolf-creek-lonely-hearts-vulnerable-adult-exploitation',
+    description: `A 70-year-old former attorney — who had founded a California firm in 2006 handling elder-abuse, fraud, and unfair-business-practices claims before a 2016 motorcycle crash left her with a traumatic brain injury, other physical injuries, and a diagnosed mental illness that forced her into retirement — met Diane Elizabeth Eglise-Beam, 57, of Wolf Creek, Montana, through an online dating site in July 2019 while the victim was living in Palm Desert, California. Eglise-Beam professed her love and cultivated a romantic relationship with the victim in what prosecutors say was an attempt to take more than $1 million from her, and at two separate points took possession of the victim's residence in north Lincoln County, Montana. Eglise-Beam was charged with a felony count of exploiting an incapacitated person or vulnerable adult, pleading not guilty on April 6, 2026 before changing her plea to no contest on June 15, 2026. Lincoln County District Judge Matt Cuffe sentenced her on August 3, 2026 to a six-year deferred sentence and a $5,000 fine as part of a negotiated plea agreement; Eglise-Beam appeared by Zoom for her own sentencing hearing from Houston, Texas, where she is being treated for cancer at MD Anderson Cancer Center. The case is a reminder that a romance scam doesn't always come from a stranger overseas moving money by wire — someone who builds a genuine-feeling long-term relationship can just as easily target a victim's home and life savings, and family members or friends of an adult with a disability or cognitive impairment who enters a new relationship, especially one that leads to shared property or a change of residence, should watch for a partner steering the person toward transferring assets, deeds, or housing into that partner's control.`,
+    categorySlug: 'romance-scams',
+    alertLevel: 'medium',
+    sources: ['Western News (Lincoln County, Montana)'],
+    sourceUrl: 'https://thewesternnews.com/news/2026/aug/11/montana-lonely-hearts-fraudster-battling-cancer-sentenced/',
+    country: 'US',
+    state: 'MT',
+});
+
