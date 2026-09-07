@@ -5559,4 +5559,15 @@ export const UsAF: SeedScam[] = [
     country: 'US',
     state: 'DC',
   },
+  {
+    name: 'Fraudulent Colorado Business Filing Scam Network',
+    slug: 'colorado-fraudulent-business-filing-scam-network',
+    description: `Colorado Attorney General Phil Weiser announced a major enforcement sweep on May 21, 2026, targeting thousands of fraudulent businesses registered with the Colorado Secretary of State using false information, including the unauthorized use of Colorado residents' home addresses as purported business locations and the unlawful use of virtual mailboxes as registered agents without the owner's consent. According to the office's lawsuits, fraud networks — some allegedly based in China and Southeast Asia — obtained Colorado "certificates of good standing" for these sham entities and, in some cases, registered them federally as Money Services Businesses or with the SEC to make cryptocurrency investment pitches, romance scams, and fake trading platforms appear more legitimate to victims contacted through social media, dating apps, WhatsApp, and online investment groups. One Colorado senior lost more than $100,000 after relying on a fraudulent Colorado business registration before wiring money, and a Cripple Creek family discovered 370 fraudulent businesses had been registered to their home address without their knowledge, generating unwanted mail and confusion over businesses they had no connection to. "Fraudsters exploited Colorado business registrations to make their operations appear legitimate," Weiser said in announcing the lawsuits, which seek court orders dissolving the fraudulent entities. Coloradans who discover an unfamiliar business registered to their home address should report it to the Secretary of State's fraudulent filing complaint process, and anyone asked to wire money or send cryptocurrency based on a company's Colorado registration or "good standing" certificate should remember that state registration alone is not proof a business is legitimate — independent research and skepticism toward unsolicited investment pitches remain the best protection. Reports can be filed with the Attorney General's office at StopFraudColorado.gov.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'high',
+    sources: ["Colorado Attorney General's Office (Phil Weiser)"],
+    sourceUrl: 'https://coag.gov/press-releases/weiser-launches-crackdown-on-fraudulent-colorado-businesses/',
+    country: 'US',
+    state: 'CO',
+  },
 ];
