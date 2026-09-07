@@ -5823,3 +5823,39 @@ UsAF.push({
     country: 'US',
     state: 'AR',
 });
+
+UsAF.push({
+    name: 'Fake Alabama Cattle Ranch Facebook Listings Scam',
+    slug: 'alabama-fake-cattle-ranch-facebook-listings-scam',
+    description: `Starting in July 2026, a real, family-owned Alabama cattle operation began fielding a stream of calls from out-of-state buyers asking to pick up bred heifers they believed they had already purchased and paid for — cattle the actual ranch had never listed or sold. Investigators traced the confusion to a fake Facebook profile that impersonated the legitimate business, posting photos (some showing telltale signs of AI generation, like distorted or unnatural features) of large lots of bred heifers priced around $3,300 a head, just enough below the going market rate to look like a good deal without raising suspicion. Buyers who reached out over Facebook were walked through a purchase and wired payment, then given a pickup date and location — only to arrive and discover the real ranch had no idea who they were or what they had "bought." The Alabama Law Enforcement Agency's Rural Crimes Unit is investigating alongside the Alabama Securities Commission, and state officials say the scheme has already cost buyers more than $100,000. Officials are urging livestock buyers to verify a seller's identity and physical operation independently before wiring any money — calling a phone number listed on the seller's own established website or found through an independent search, not one provided only through the social media listing — and to treat AI-warped animal photos, prices set just under market, and any seller who refuses a video call or in-person visit before payment as red flags.`,
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'high',
+    sources: ['Alabama Law Enforcement Agency', 'Alabama Securities Commission', 'WAFF', 'The Trussville Tribune', 'Alabama Political Reporter'],
+    sourceUrl: 'https://www.waff.com/2026/09/05/alabama-officials-warn-buyers-after-fake-cattle-ads-posted-social-media/',
+    country: 'US',
+    state: 'AL',
+});
+
+UsAF.push({
+    name: 'Trumbull FTC-Impersonation Gold Coin Fraud (Tushar Sharma)',
+    slug: 'connecticut-trumbull-ftc-impersonation-gold-coin-fraud-sharma',
+    description: `A Trumbull, Connecticut woman received a Microsoft Windows pop-up in March 2026 warning that her computer was compromised, along with a phone number to call for help; the number connected her to someone claiming to be a Federal Trade Commission agent, who told her that her assets and her family were in danger and that she needed to convert her savings into gold coins and transfer them to the "agent" for safekeeping. Over two separate in-person exchanges in public parking lots, she handed over approximately $900,000 in gold coins. Before a third planned handoff, she grew suspicious and contacted Trumbull police, who learned the suspect was expecting an additional $300,000 in coins; working with the victim, detectives arranged another meeting, and on May 14, 2026 they arrested Tushar Sharma, 23, of India and residing in Arcadia, California, when he approached her vehicle at the agreed pickup spot to collect the coins. Sharma was charged with conspiracy to commit larceny in the first degree and criminal attempt to commit larceny in the first degree; police said New York State Police had previously arrested him in connection with a similar scheme. The case underscores that no real federal agency — the FTC included — ever calls, texts, or messages someone to say their assets are in danger and instructs them to liquidate savings into gold, cash, or gift cards and hand them to a courier in a parking lot; a computer pop-up warning of a security problem should never be treated as a way to reach a legitimate government agency, and anyone told to move money to "protect" it from a federal investigation should hang up and call the agency directly using a number found independently.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Trumbull Police Department', 'NBC Connecticut', 'WTNH', 'Daily Voice'],
+    sourceUrl: 'https://www.nbcconnecticut.com/news/local/man-posing-as-ftc-agent-accused-of-stealing-900k-in-gold-coins-from-trumbull-resident/3736935/',
+    country: 'US',
+    state: 'CT',
+});
+
+UsAF.push({
+    name: 'San Marcos-Temecula Mail Theft and Forged-Document Fraud Ring (Rhew and Sundstrom)',
+    slug: 'california-san-marcos-temecula-mail-theft-forged-document-ring',
+    description: `San Diego County sheriff's deputies from the San Marcos Sheriff's Station spent months building a case against a mail-theft and document-forgery operation before serving search warrants at two homes on September 3, 2026 — one in Temecula belonging to Katie Ann Rhew, 44, and one in San Marcos belonging to Michael Sundstrom, 46. Investigators say the pair stole mail, credit cards, and personal identifying information — from mailboxes and, in some cases, from parked vehicles — belonging to more than 100 victims across San Diego, Riverside, and Orange counties as well as Arizona, then used that information to manufacture forged identification and financial documents. The searches recovered hundreds of items tied to forged-document production along with stolen credit cards and passports. Rhew was booked on suspicion of burglary, forgery, criminal conspiracy, identity theft, and possession of the personal identifying information of more than ten victims, plus a felony-while-on-bail enhancement stemming from a prior 2024 arrest in which she was tied to a burglary and found with stolen designer bags and stolen packages; Sundstrom was booked on suspicion of possession of stolen property, identity theft, mail theft, and criminal conspiracy. The case illustrates how a single stolen piece of mail or an unlocked car can feed an identity-theft operation that spans multiple counties and states for months before anyone notices — checking a mailbox daily, using a locked postal box or informed-delivery alerts for anything financial, and never leaving mail, statements, or documents visible inside a parked car are basic steps that starve this kind of ring of its raw material.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'high',
+    sources: ["San Diego County Sheriff's Office", 'FOX 5 San Diego', '10News San Diego', 'Hoodline'],
+    sourceUrl: 'https://fox5sandiego.com/news/local-news/fraud-arrests-100-victims/',
+    country: 'US',
+    state: 'CA',
+});
