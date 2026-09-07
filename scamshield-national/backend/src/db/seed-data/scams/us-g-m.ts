@@ -3902,3 +3902,14 @@ UsGM.push({
     country: 'US',
     state: 'GA',
 });
+UsGM.push({
+    name: 'Baton Rouge Staged Parking-Lot Crash Insurance Fraud',
+    slug: 'louisiana-baton-rouge-staged-crash-insurance-fraud',
+    description: `Rhashiedi Porter, 48, and Sarai Stansberry, 37, both of Baton Rouge, filed sworn claims with an insurance carrier stating they were seated inside their vehicle, wearing seat belts, when it was struck by another car in a New Orleans parking lot, and that the crash left them needing more than five months of medical treatment. The Louisiana Department of Insurance's Office of Insurance Fraud opened an investigation after the insurer reported the claim as suspicious on October 7, 2025, and surveillance video obtained during the probe showed that neither Porter nor Stansberry was actually inside the vehicle at the moment of the collision, contradicting their sworn statements. Louisiana Attorney General Liz Murrill's Louisiana Bureau of Investigation, working with Louisiana State Police, determined the pair had attempted to defraud the insurance company of roughly $30,000 and arrested them in New Orleans on February 23, 2026; local reporting later noted that Stansberry works as a staffer for the Louisiana State Senate. Both were booked on insurance fraud, perjury, false swearing, and filing false public records. The case illustrates that a "minor" parking-lot fender-bender claim is not exempt from scrutiny: insurers routinely pull nearby security or dashcam footage to corroborate who was actually in a vehicle at the time of a crash, and a claimant's sworn statement that conflicts with that footage exposes them to criminal charges well beyond a denied claim, not just civil liability for the attempted payout.`,
+    categorySlug: 'insurance-fraud',
+    alertLevel: 'medium',
+    sources: ["Louisiana Attorney General's Office (Liz Murrill)", 'Louisiana Department of Insurance', 'WAFB'],
+    sourceUrl: 'https://www.wafb.com/2026/03/02/couple-lied-about-crash-defraud-insurance-company-ags-office-says/',
+    country: 'US',
+    state: 'LA',
+});
