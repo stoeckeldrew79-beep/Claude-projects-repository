@@ -3608,3 +3608,15 @@ UsNS.push({
     country: 'US',
     state: 'SC',
 });
+
+UsNS.push({
+    name: 'Minnehaha County "Courier Cash" Bank Fraud Impersonation Scam',
+    slug: 'south-dakota-minnehaha-county-courier-cash-scam',
+    description: `The Minnehaha County Sheriff's Office warned residents on August 28, 2026 about a so-called "courier cash" scam that has been increasingly targeting seniors around Sioux Falls, South Dakota. A caller claiming to be from the victim's own bank's fraud department — who often already knows the victim's name and address — says the account has been compromised and the money is at risk, then instructs the victim to withdraw a large sum of cash without explaining the real reason to the teller, on the pretext that a branch employee could be involved in the fraud. Once the cash is in hand, the victim is told to hand it to a "courier" who arrives in person, or to ship it to an address the caller provides, supposedly so the funds can be safely investigated or protected — but the money is gone the moment it changes hands, with essentially no way to recover it afterward. The Sheriff's Office says the surest way to stop the scam is to hang up immediately if a caller ever instructs you to withdraw cash, to be honest with bank staff about what's actually happening rather than following a script the caller supplies, and to never ship or hand cash to a stranger no matter how urgent or official the call sounds. Residents who receive a call like this, or who have an older relative who has, are urged to report it to the Minnehaha County Sheriff's Office.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ["Minnehaha County Sheriff's Office", 'Dakota News Now'],
+    sourceUrl: 'https://www.dakotanewsnow.com/2026/08/28/minnehaha-county-sheriffs-office-warns-scam-targeting-senior-citizens/',
+    country: 'US',
+    state: 'SD',
+});
