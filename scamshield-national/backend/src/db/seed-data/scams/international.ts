@@ -10408,3 +10408,26 @@ International.push(
     country: 'BM',
   },
 );
+
+International.push(
+  {
+    name: 'Creators Alliance Ponzi Scheme (Grenada)',
+    slug: 'creators-alliance-ponzi-scheme-grenada',
+    description: `Grenada's National Cyber Security Incident Response Team (CSIRT), under the Ministry of Information and Communications Technology, issued a public advisory on January 9, 2025 warning residents about active recruitment drives for an online platform called Creators Alliance, then followed up on January 15, 2025 formally classifying it as a multi-level-marketing Ponzi scheme. The platform — which had operated quietly since 2020 before a surge of Grenadian sign-ups through 2024 — promised high, guaranteed returns on deposits ranging from a few hundred to several thousand US dollars, and encouraged every participant to recruit new investors in exchange for referral commissions; in reality, authorities found, payouts to earlier investors were being funded entirely by money coming in from newer ones rather than any real profit-generating activity, with each participating Caribbean island directed to a different platform web address that made the scheme harder for regulators to trace. By the time it collapsed in early 2025, more than 1,000 Grenadians — including healthcare workers, teachers, police officers, and members of faith-based organizations — had lost money, with combined losses reaching into the millions of US dollars, and the scheme was found to have spread to neighboring islands including St. Vincent and the Grenadines. Grenada's Financial Intelligence Unit joined CSIRT in investigating the collapse and urged the public to treat any investment promising guaranteed high returns, or requiring recruitment of others to earn money, as a warning sign, and to verify any investment opportunity with the FIU before depositing funds.`,
+    categorySlug: 'ponzi-pyramid-schemes',
+    alertLevel: 'high',
+    sources: ['Grenada National CSIRT (Ministry of Information and Communications Technology)', 'Grenada Financial Intelligence Unit (FIU)', 'NOW Grenada', 'Nation News Barbados'],
+    sourceUrl: 'https://csirt.gov.gd/',
+    country: 'GD',
+  },
+  {
+    name: 'Grenada Money Mule Bank Account Recruitment Scam',
+    slug: 'grenada-money-mule-bank-account-recruitment-scam',
+    description: `Grenada's Financial Intelligence Unit (FIU) issued an urgent public advisory warning residents about a money mule scheme built around ordinary personal bank accounts. The scam typically begins when a target is contacted by a "friend," an online acquaintance, or a stranger offering a simple paid job: hand over your bank account details so money can be received on someone else's behalf. Once the money — which is actually the proceeds of fraud committed elsewhere — lands in the account, the owner is instructed to withdraw it and send most of it out of Grenada through money service remitters, keeping a portion for themselves as payment for the "job." The FIU stressed that anyone who allows their account to be used this way, even without knowing the funds are stolen, can be charged with money laundering and face fines or imprisonment, since acting as a money mule is a criminal offense distinct from being a victim of fraud. The same advisory flagged a related smishing wave hitting bank customers, in which text messages sent from local Grenadian phone numbers falsely claim "Account has been Suspended" or "Unusual Activity Detected" and include a link to "fix" the account, actually leading to a credential-harvesting page. The FIU's guidance to the public was direct: never share bank account details with people met online or through unsolicited offers, and never click a link in an unexpected text claiming a bank account problem — call the bank directly using the number on the back of a card instead.`,
+    categorySlug: 'job-task-scams',
+    alertLevel: 'high',
+    sources: ['Grenada Financial Intelligence Unit (FIU)', 'NOW Grenada', 'Mikey Live'],
+    sourceUrl: 'https://grenadafiu.com/',
+    country: 'GD',
+  },
+);
