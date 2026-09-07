@@ -9676,3 +9676,36 @@ International.push(
     country: 'MV',
   },
 );
+
+International.push(
+  {
+    name: 'CGInvest Fake Investment Platform Scam',
+    slug: 'montenegro-cginvest-fake-investment-platform-scam',
+    description: `Montenegro's Police Administration warned the public about an online scheme circulating through social media, internet portals, and sponsored advertisements under the name "CGInvest," which presents itself as an investment platform. Officers from the High-Tech Crime Suppression Unit identified numerous ads and websites falsely claiming the project is backed by state institutions, offering a supposedly guaranteed daily income of €80 or more in exchange for an initial deposit of only €220 or €250. To make the scheme look legitimate, the materials misuse photographs and fabricated statements attributed to Prime Minister Milojko Spajić, along with other official-looking visual elements meant to suggest a connection to the government. Once a victim deposits the initial amount, no genuine returns materialize and further contact with the platform typically stops. Police urged citizens not to transfer money or share personal or banking data with the platform, stressed that no such state-backed investment scheme exists, and said they were working to identify and prosecute those responsible.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ['Police Administration of Montenegro (Uprava policije)', 'MINA News Agency'],
+    sourceUrl: 'https://mina.news/en/article/police-warn-of-fraudulent-investment-platform',
+    country: 'ME',
+  },
+  {
+    name: 'Bank and Postal Service Phishing Impersonation Scam',
+    slug: 'montenegro-phishing-bank-impersonation-scam',
+    description: `Phishing has become one of the fastest-growing types of fraud in Montenegro, with police receiving roughly 140 reports between January 2022 and October 2025 tied to losses of around €3.4 million, and 16 people charged with fraud or computer fraud over that span. In the most common version, fraudsters send emails or text messages impersonating a bank, government institution, courier, or postal service, warning the recipient of a supposed problem with their account or an undelivered package and directing them to a lookalike website to "verify" login credentials, card numbers, or one-time passwords. Elderly account holders have been hit particularly hard: police have described cases where a single victim had large sums — in one instance nearly the equivalent of several years' savings — transferred out of their bank account after entering their details on a fraudulent page. Investigators note that these cases are slow and difficult to resolve because the money is typically moved through multiple accounts and jurisdictions before it can be traced, requiring cooperation with foreign law enforcement partners. Authorities advise never entering banking credentials or one-time codes after clicking a link in an unsolicited email or text, and instead contacting the bank or agency directly through a number or app already known to be genuine.`,
+    categorySlug: 'phishing',
+    alertLevel: 'high',
+    sources: ['Balkan Insight (BIRN)', 'Police Directorate of Montenegro'],
+    sourceUrl: 'https://balkaninsight.com/2025/12/17/taking-the-bait-phishing-on-the-rise-in-montenegro/',
+    country: 'ME',
+  },
+  {
+    name: 'AI Deepfake Celebrity Endorsement Investment Scam',
+    slug: 'montenegro-ai-deepfake-celebrity-endorsement-scam',
+    description: `Montenegro's Computer Incident Response Team (CIRT) reports a sharp rise in fraud built on AI-generated deepfake images, audio, and video of public figures, a trend it says has accelerated since AI tools became widely accessible around 2022. Scammers splice a real public figure's face or voice into fabricated video or audio clips endorsing a fake investment platform, prize competition, or product — in one documented case, a well-known figure named Vladimir Dobricanin only learned his likeness was being misused when an elderly woman asked him where she could buy eyedrops he had apparently endorsed in an ad he had never made. Similar deepfake "endorsements" have been used to promote so-called exclusive investment offers claiming celebrity backing and promising returns of up to 15 percent with supposedly minimal risk, luring victims — often older adults — into clicking malicious links or depositing funds with platforms that have no real connection to the person shown. CIRT and consumer advocates urge the public to treat any celebrity-endorsed investment or prize offer encountered on social media with suspicion, to verify such claims directly with the public figure or a legitimate news source before acting, and to remember that a realistic-looking video or voice recording is no longer proof that an endorsement is genuine.`,
+    categorySlug: 'ai-deepfake-scams',
+    alertLevel: 'medium',
+    sources: ['Balkan Insight (BIRN)', "Montenegro's Computer Incident Response Team (CIRT)"],
+    sourceUrl: 'https://balkaninsight.com/2025/12/24/celebrity-endorsement-identity-abuse-via-ai-on-the-rise-in-montenegro/',
+    country: 'ME',
+  },
+);
