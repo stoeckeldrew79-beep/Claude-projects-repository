@@ -3770,3 +3770,15 @@ UsGM.push({
     state: 'ME',
 });
 
+UsGM.push({
+    name: 'Barre Representative Payee Social Security Death-Concealment Fraud',
+    slug: 'massachusetts-barre-representative-payee-social-security-fraud',
+    description: `Jennifer Valley, 51, of Barre, Massachusetts, had been appointed as the representative payee responsible for managing Social Security retirement benefits on behalf of a beneficiary she had previously lived with — a role that legally required her to notify the Social Security Administration of the beneficiary's death and use the funds solely for that person's benefit. According to the U.S. Attorney's Office for the District of Massachusetts and the Social Security Administration's Office of the Inspector General, after the beneficiary died in 2022 Valley never reported the death; instead, she kept collecting the monthly payments, filed a false representative-payee accounting report in June 2023 falsely certifying the money had been spent on the deceased beneficiary's care, and in December 2023 changed the beneficiary's mailing address on file with the SSA to her own home address to help keep the concealment from surfacing. Over nearly three years, from October 2022 through August 2025, Valley diverted approximately $100,218 in benefits that should have stopped the moment the beneficiary died, including $23,157 paid out after the death before investigators caught the discrepancy. Valley pleaded guilty on May 22, 2026 to one count of theft of government money, and on August 28, 2026, U.S. District Judge Margaret R. Guzman sentenced her in Worcester federal court to one day in prison (deemed already served), three years of supervised release including ten months of home confinement, and full restitution of $100,218. The case is a reminder that a representative payee's legal duty does not end when the beneficiary dies: federal law requires immediate notification of a death to the SSA, and continuing to draw, spend, or falsely certify the use of a deceased person's benefits is not a paperwork lapse but theft of government funds that the SSA's Office of the Inspector General actively cross-checks against death records to catch. Anyone who suspects a representative payee is misusing benefits, including on behalf of someone who has died, can report it by calling 1-800-269-0271, the SSA-OIG's fraud hotline.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office, District of Massachusetts", 'Social Security Administration, Office of the Inspector General'],
+    sourceUrl: 'https://www.justice.gov/usao-ma/pr/barre-woman-sentenced-social-security-fraud',
+    country: 'US',
+    state: 'MA',
+});
+
