@@ -10157,3 +10157,26 @@ International.push(
     country: 'SC',
   },
 );
+
+International.push(
+  {
+    name: 'Fake UK Seasonal Job Recruitment Scam Targeting Tajik Migrants',
+    slug: 'tajikistan-fake-uk-seasonal-job-recruitment-scam',
+    description: `The International Organization for Migration (IOM) office in Tajikistan has warned citizens about fraudulent job offers circulating on WhatsApp and Telegram that promise seasonal farm and warehouse work in the United Kingdom. IOM specialists note that legitimate UK employers do not recruit or communicate through messaging apps, and advise Tajik jobseekers not to trust social media job advertisements without independently verifying the employer through the official website of a licensed recruitment company. Under the "Safe Migration of Seasonal Workers from Central Asia to the UK" project, IOM documented migrants losing between USD 50 and USD 5,000 each after gathering the money by selling belongings or taking out loans to pay "recruitment," "visa," or "placement" fees for jobs that turned out not to exist. In one prosecuted case, the director of a private Tajik firm, Arsa, was arrested for collecting 22,000-25,000 somoni from individual applicants for non-existent UK jobs, allegedly misappropriating more than 550,000 somoni in total. In October 2025, IOM, Tajikistan's Interior Ministry, and the Ministry of Labour, Migration and Employment held a National Workshop on Countering Online Recruitment Fraud in Dushanbe to coordinate a response, with officials describing the fraud as "an assault on the hopes and livelihoods of Tajik families."`,
+    categorySlug: 'employment-scams',
+    alertLevel: 'high',
+    sources: ['International Organization for Migration (IOM) Tajikistan', 'Asia-Plus'],
+    sourceUrl: 'https://tajikistan.iom.int/news/tajikistan-strengthens-national-response-online-recruitment-fraud-targeting-labour-migrants',
+    country: 'TJ',
+  },
+  {
+    name: 'Fake "National Bank of Tajikistan" Subsidized Loan Scam',
+    slug: 'tajikistan-fake-national-bank-subsidized-loan-scam',
+    description: `The National Bank of Tajikistan (NBT), the country's financial regulator, issued a public statement in January 2026 denying social media posts claiming the bank was offering subsidized personal loans at a 1% interest rate. The NBT clarified that under Tajik law it is a regulatory and supervisory authority responsible for macro-regulation of credit institutions and monetary policy, and does not provide banking services, accept deposits, or issue loans to individuals — so any post advertising an "NBT loan" is fabricated. The warning follows a broader pattern the bank has flagged repeatedly on social media, where fraudulent accounts and posts impersonate the NBT to build trust before asking recipients to share personal details; the regulator has separately urged the public: "Do not disclose your personal information — name, surname, bank card number, and confidential codes requested via messages." Officials say cases of online fraud impersonating financial institutions have been rising in Tajikistan as more residents move to digital banking, with electronic wallet usage growing roughly 51 percent year-on-year by mid-2025. The NBT advises the public to verify any loan or banking offer only through its official website and channels before providing personal or financial information.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['National Bank of Tajikistan (NBT)', 'Asia-Plus'],
+    sourceUrl: 'https://asiaplus.news/en/2026/01/09/national-bank-of-tajikistan-warns-about-fake-information-on-subsidized-loans/',
+    country: 'TJ',
+  },
+);
