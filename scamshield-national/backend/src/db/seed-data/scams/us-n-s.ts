@@ -3528,4 +3528,15 @@ export const UsNS: SeedScam[] = [
     country: 'US',
     state: 'NJ',
   },
+  {
+    name: 'South Carolina Barcode Imposter Scam',
+    slug: 'south-carolina-barcode-imposter-scam',
+    description: `The South Carolina Department of Consumer Affairs (SCDCA) warned residents in August 2025 about scammers using barcodes as the newest twist on a familiar imposter scheme. A caller poses as a law enforcement officer claiming the recipient has an outstanding fine or warrant, or as a utility company employee threatening imminent service disconnection over an unpaid bill, and demands payment immediately to avoid arrest or a shutoff. Rather than asking for a gift card number over the phone, the scammer instead texts a barcode and instructs the victim to take it to a nearby retailer — commonly named stores include Walgreens, Walmart, and CVS — where a cashier scans it at the register to load the payment onto a gift card, prepaid card, cryptocurrency account, or e-cash service, funneling the money directly to the scammer once it's paid. SCDCA's clearest warning sign is the barcode delivery method itself: real law enforcement officers and utility company representatives will never text someone a barcode and instruct them to take it to a store to make a payment, no matter how urgent the threat sounds. Anyone contacted this way is advised to hang up or stop responding, to independently look up and call the actual law enforcement agency or utility company rather than using any number the caller provides, and to never scan or use a barcode sent by an unsolicited caller to make a payment. South Carolinians who encounter this scam can report it to SCDCA by calling (800) 922-1594 or by visiting consumer.sc.gov and using the "Report a Scam" option.`,
+    categorySlug: 'qr-code-scams',
+    alertLevel: 'medium',
+    sources: ['South Carolina Department of Consumer Affairs (SCDCA)'],
+    sourceUrl: 'https://consumer.sc.gov/news/2025-08/barcodes-are-latest-twist-imposter-scams',
+    country: 'US',
+    state: 'SC',
+  },
 ];

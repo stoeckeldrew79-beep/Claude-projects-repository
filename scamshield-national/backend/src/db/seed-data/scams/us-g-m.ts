@@ -3641,4 +3641,15 @@ export const UsGM: SeedScam[] = [
     country: 'US',
     state: 'MN',
   },
+  {
+    name: 'Maryland Lost Pet Reunification Scam',
+    slug: 'maryland-lost-pet-reunification-scam',
+    description: `Fraudsters trawl social media lost-pet posts for grieving owners, then spoof caller ID to display the real phone number of a legitimate shelter such as BARCS, the Maryland SPCA, or Talbot Humane before calling to claim they've found the missing animal. The caller says the pet is injured and needs immediate veterinary care, then pressures the owner to send money right away through Zelle, Cash App, Venmo, or PayPal, threatening to withhold treatment — or the animal itself — if payment doesn't arrive fast enough. One Maryland victim sent $2,600 before recognizing the scam, growing suspicious only when the caller couldn't provide the pet's microchip number or a current photo as proof it was actually in their possession. The Maryland Office of the Attorney General issued a consumer alert on May 16, 2025 after fielding a wave of these reports, with Attorney General Anthony Brown warning that scammers are "exploiting the distress of pet owners" at one of the most emotionally vulnerable moments a family can face. The office's guidance is to never send money through a payment app to an unfamiliar caller regardless of how urgent the situation sounds, to ask for details only the real finder of a pet could know — a microchip number, a distinctive marking, a current photograph — and to verify any claimed shelter involvement by calling the shelter's own publicly listed number directly rather than one supplied by the caller. Maryland residents who receive a call like this are urged to report it to the Office of the Attorney General at 410-528-8662 or to the Federal Trade Commission at ReportFraud.ftc.gov.`,
+    categorySlug: 'pet-sales-scams',
+    alertLevel: 'medium',
+    sources: ['Maryland Office of the Attorney General (Anthony Brown)'],
+    sourceUrl: 'https://oag.maryland.gov/News/Pages/Consumer-Alert-Beware-of-Scam-Targeting-Owners-of-Lost-Pets-in-Maryland.aspx',
+    country: 'US',
+    state: 'MD',
+  },
 ];
