@@ -2946,3 +2946,42 @@ Kahnawake's investigators traced 117 usernames spread across 23 cheating account
 Despite the scale of the fraud and Kahnawake's own findings, Hamilton was never criminally charged in the United States or Canada, and there is no public record that he personally repaid any of the money he took. The Cereus Poker Network itself did not survive much longer: it was swept up, along with several other major operators, in the U.S. Department of Justice's April 2011 crackdown on unlicensed online poker sites — the day the poker world still calls "Black Friday" — and shut down for good in 2012, leaving some players never fully reimbursed. The UltimateBet scandal remains one of online gambling's defining cautionary tales: a "superuser" backdoor, built into the software with no public disclosure, sat available for a site insider to exploit against paying customers for years before outside players' own hand-history analysis, rather than the platform's internal controls, finally exposed it.`,
   },
 );
+
+NotoriousNS.push(
+  {
+    title: 'Sylvia Mitchell: The Greenwich Village Psychic Convicted of Grand Larceny',
+    slug: 'sylvia-mitchell-manhattan-psychic-grand-larceny',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://www.cbsnews.com/news/sylvia-mitchell-update-sorry-nyc-psychic-gets-5-to15-years-in-prison-for-conning-clients/',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/New_York_County_Courthouse.jpg?width=1200',
+    coverImageCredit: 'Photo: Mike Peel, www.mikepeel.net (CC BY-SA 4.0) — the Manhattan courthouse where Mitchell was tried',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait/exact match if found
+    body: `Sylvia Mitchell ran a storefront psychic business called "Zena Clairvoyant" on a busy stretch of Greenwich Village in Manhattan, though she herself lived across the state line in Mystic, Connecticut. Like thousands of walk-in psychic shops across the country, most of her business was small: tarot readings, palm readings, a few dollars for a few minutes. Prosecutors said that with a handful of especially vulnerable clients, it became something else entirely.
+
+At trial in Manhattan Supreme Court in the fall of 2013, two of Mitchell's former clients testified that she had used their personal crises to extract far more than a reading fee. Debra Saalfield, a ballroom-dancing instructor, testified that Mitchell told her she needed to sever her "attachment to money" in order to fix her life — and, over time, took $27,000 from her. Lee Choong, a Singaporean businesswoman dealing with loneliness and an unrequited workplace crush, testified that Mitchell diagnosed her with "negative energy" that required expensive, ongoing "cleansing," ultimately taking more than $120,000 from her over roughly two years. Mitchell's attorney argued at trial that she had genuinely tried to help her clients and that prosecutors hadn't proven she failed to deliver the services she was paid for.
+
+On October 11, 2013, a jury disagreed, convicting Mitchell of grand larceny and scheme to defraud. She was jailed without bail pending sentencing. On November 14, 2013, Manhattan Supreme Court Justice Gregory Carro sentenced her to five to fifteen years in prison and ordered roughly $110,000 in restitution to her two victims, telling her she deserved years behind bars for targeting people who were "having some dramatic stress" and using that stress to drain their savings. Mitchell apologized at sentencing, telling the court, "I realize that what I have done is wrong ... I'm sorry." She appealed her conviction, and in 2016 New York's Appellate Division, First Department unanimously affirmed it.
+
+Psychic and fortune-telling fraud is notoriously hard to prosecute in the United States, since offering spiritual or metaphysical services for a fee is broadly legal and courts are wary of litigating the truth of religious or supernatural claims. What made Mitchell's case different, and prosecutable, was the specific, escalating financial demands tied to concrete promises — remove this curse, cleanse this energy, sever this attachment — made to clients prosecutors argued she identified as being in acute emotional distress and therefore susceptible to paying almost anything to make it stop.`,
+  },
+  {
+    title: 'Paul Orberson and the Fortune Hi-Tech Marketing Pyramid Scheme',
+    slug: 'paul-orberson-fortune-hi-tech-marketing-pyramid-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2014/05/ftc-settlement-bans-pyramid-scheme-operators-multi-level-marketing',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Lexington_skyline.jpg?width=1200',
+    coverImageCredit: 'Photo: Runner1928 (CC BY-SA 4.0) — Lexington, Kentucky, where FHTM was headquartered',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait/exact match if found
+    body: `Paul Orberson was a former high school basketball coach in Kentucky when he and business partner Thomas Mills, both veterans of the telecom multi-level marketer Excel Communications, founded Fortune Hi-Tech Marketing (FHTM) in Lexington in January 2001. FHTM recruited independent "representatives" to sell services like Dish Network satellite television and mobile phone plans, along with hair-care products, in exchange for a $99-to-$299 sign-up fee and the promise of commissions on sales plus bonuses for recruiting new representatives beneath them. Marketing materials, regulators later said, implied endorsements or partnerships with major brands like AT&T and Sprint that the companies had never actually granted.
+
+The business grew enormous. By the time regulators shut it down in January 2013, FHTM had enrolled more than 350,000 people across the United States, Puerto Rico, and Canada over roughly four years, reaching a claimed 160,000 active representatives at its peak, with recruiting efforts that specifically targeted Spanish-speaking and immigrant communities. But according to the Federal Trade Commission's complaint, the underlying math never worked in representatives' favor: more than 98% of participants lost money overall, at least 88% never even recouped their enrollment fee, over 81% of the money FHTM's representatives were paid came from recruitment rather than actual product sales, and at least 94% of representatives didn't renew their membership after the first year. Montana regulators had already extracted a $1 million settlement from the company in 2010 and forced it to cut its entry fee from $299 to $75 — a warning sign the broader operation survived for three more years.
+
+On January 28, 2013, the FTC, joined by the attorneys general of Kentucky, Illinois, and North Carolina, sued FHTM, Orberson, Mills, and related entities, alleging the company operated as an illegal pyramid scheme built on recruitment rather than retail sales to actual consumers. Orberson did not live to see the case resolved: he died in December 2013, at age 56 or 57, after a battle with cancer, while the litigation was still ongoing.
+
+The case concluded in May 2014, when a federal court in the Eastern District of Kentucky entered a settlement imposing a judgment of more than $169 million against the FHTM defendants, partially suspended once they surrendered at least $7.75 million in assets — including assets from Orberson's estate. The settlement permanently banned Mills and the corporate defendants from any future multi-level marketing business, though as is typical in FTC settlements, the defendants did not admit wrongdoing. Orberson's death mid-case meant he personally faced no further legal reckoning beyond the surrender of estate assets, but the paper trail his company left behind — one of the largest pyramid-scheme judgments the FTC has ever obtained — became a widely cited case study in how recruitment-driven "opportunity" pitches are distinguished, legally, from legitimate direct sales.`,
+  },
+);
