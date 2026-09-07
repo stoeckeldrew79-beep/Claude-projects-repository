@@ -2846,4 +2846,27 @@ At sentencing in January 2020, prosecutors themselves argued against imprisonmen
 Sarao's case became a landmark for financial regulators precisely because of how small an operation caused how large a disruption: a single trader working alone from a residential bedroom, using off-the-shelf hardware and self-taught coding, was found by the government's own analysis to have helped trigger a trillion-dollar, market-wide crash — a lesson regulators cited repeatedly in tightening rules around algorithmic spoofing in the years that followed.`,
     sourceUrl: 'https://www.justice.gov/archives/opa/pr/futures-trader-pleads-guilty-illegally-manipulating-futures-market-connection-2010-flash',
   },
+  {
+    title: "Otto Wacker and the Forged Van Goghs That Fooled Berlin's Art World",
+    slug: 'otto-wacker-van-gogh-forgery',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://en.wikipedia.org/wiki/Otto_Wacker',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Vincent_van_Gogh_-_Self-Portrait_-_Google_Art_Project.jpg?width=1200',
+    coverImageCredit: 'Vincent van Gogh, self-portrait, 1889 (public domain)',
+    coverImagePosition: 50,
+    // representative photo — a genuine Van Gogh self-portrait, not a forgery
+    // or a portrait of Wacker; replace with a portrait of Wacker if found
+    body: `In the mid-1920s, Otto Wacker was a minor figure on the fringes of Berlin's art trade — a former dancer who had drifted into art dealing around 1925 — when he began offering an extraordinary trove: roughly thirty previously unknown paintings by Vincent van Gogh. Wacker told buyers and experts alike that the paintings had been smuggled out of Russia through Switzerland by an anonymous collector who feared Bolshevik confiscation and needed to stay unnamed to protect family still living there. It was a convenient story — one that explained away the complete absence of any prior exhibition history, ownership record, or paper trail for works supposedly painted by one of the most closely studied artists in modern history.
+
+The story worked, for a while, because it reached the right people. Jacob-Baart de la Faille, the Dutch scholar who had compiled the standard catalogue of Van Gogh's known works, authenticated a number of the paintings, as did the influential critic Julius Meier-Graefe, the collector and early Van Gogh champion Hendricus Bremmer, and critic Hans Rosenhagen. Their certificates of authenticity, more than any brushstroke, were what let Wacker sell the paintings into private collections and dealer inventories across Germany at prices befitting genuine Van Goghs.
+
+The scheme unraveled at a January 1928 exhibition of Van Gogh's work at Paul Cassirer's Berlin gallery, where curators Grete Ring and Walter Feilchenfeldt noticed that several of the paintings on loan from Wacker looked subtly wrong beside works of undisputed provenance. Chemical testing ordered on the suspect canvases found a synthetic resin used to speed paint-drying — a material that appeared in none of the confirmed Van Goghs used for comparison. Police raided Wacker's premises in May 1929 and separately searched the studio of his brother, Leonhard Wacker, a painter and restorer whom investigators came to believe had physically produced the forgeries, seizing more than twenty canvases between the two searches.
+
+Wacker's trial opened in Berlin on April 6, 1932, and turned into a public referendum on Van Gogh connoisseurship itself. Vincent Willem van Gogh, the painter's nephew and keeper of the family's papers, testified that no correspondence anywhere in the family's records referred to a Russian buyer or to any of the disputed paintings. De la Faille, who had authenticated several of the works years earlier, reversed his own opinion during the proceedings — a reversal opposing experts seized on to argue that connoisseurship alone, without scientific testing, was no defense against a competent forger. On April 19, 1932, the court convicted Wacker of fraud; on appeal, he was sentenced to nineteen months in prison and fined 30,000 Reichsmarks.
+
+The case left damage well beyond Wacker's own sentence. Some of the forged paintings simply disappeared from public view afterward, their owners unwilling either to destroy valuable-looking canvases or to admit publicly they had been fooled, and doubt about individual "Wacker paintings" has followed Van Gogh scholarship for decades — a 1997 Art Newspaper investigation into the artist's disputed works still cited the Wacker affair as a live source of uncertainty. Wacker served his sentence, resettled in East Berlin after the Second World War, and died in 1970 without ever publicly naming who had actually painted the canvases he sold.
+
+The Wacker affair is remembered today less for the money involved than for what it revealed about the limits of expert opinion. It was one of the first major fraud cases in which chemical and forensic analysis, rather than an art historian's trained eye, ultimately decided which paintings were real — a template that scientific authentication would follow through later scandals involving forgers like Han van Meegeren and Wolfgang Beltracchi, both of whom also discovered that a confident signature and a plausible backstory could go further with the experts than the paint itself ever could.`,
+  },
 );
