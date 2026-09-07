@@ -4226,3 +4226,22 @@ Joni later boasted that he had never even seen a real antique Biccherna cover �
 Joni was never prosecuted — he had sold his work through dealers rather than personally certifying it as ancient, the same technicality that shielded contemporaries like Alceo Dossena — and he continued painting and restoring in Siena until his death there in 1946. Decades later, museums that hold his work still use it as a teaching tool: X-ray analysis shows his solid, evenly modeled underpainting diverges from the layered, translucent flesh tones real fifteenth-century Sienese panels display, and conservators studying Joni's surviving panels have turned his own long-ago deceptions into a reference standard for spotting the next one.`,
   },
 );
+
+NotoriousAF.push(
+  {
+    title: `Dorice "Dee Dee" Moore: The "Financial Advisor" Who Murdered a Florida Lottery Winner for His Fortune`,
+    slug: 'dorice-dee-dee-moore-abraham-shakespeare-lottery-murder',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://en.wikipedia.org/wiki/Murder_of_Abraham_Shakespeare',
+    body: `Abraham Shakespeare, a warehouse worker in Polk County, Florida, won a $30 million Florida Lotto jackpot on November 15, 2006, and took the lump-sum payout of roughly $17 million. He bought a home in a gated community but otherwise lived modestly, and locally he quickly became known as an easy target: friends, relatives, and strangers alike showed up asking for money, and Shakespeare — who struggled to read — had no formal financial advisor or legal structure protecting what was left of his winnings.
+
+In October 2008, a woman named Dorice "Dee Dee" Moore introduced herself to Shakespeare, telling him she was writing a book about people trying to take advantage of a lottery winner. Over the following months she made herself indispensable, positioning herself as the one person looking out for his interests while everyone else circled his money. In early 2009 she formed a company, Abraham Shakespeare LLC, giving herself control of its accounts, and withdrew roughly $1 million that she used to buy herself a Hummer, a Chevrolet Corvette, and a truck. On January 9, 2009, Shakespeare signed a quitclaim deed transferring his $1.1 million house to another Moore-controlled entity, American Medical Professionals LLC; Moore later claimed she had paid $655,000 for the property, but no evidence of any such payment was ever produced.
+
+Shakespeare was last seen alive around April 6 or 7, 2009. His family, accustomed to him disappearing for stretches at a time, did not report him missing until that November. Moore, meanwhile, continued acting as though she were still in contact with him, telling people he had left the state. Investigators later established that Shakespeare had been shot twice in the chest with a .38-caliber revolver and buried in Moore's backyard in Plant City, Florida, under roughly nine feet of dirt beneath a freshly poured concrete slab; his ex-husband told police Moore had asked him to dig a hole there that same April, which he filled back in without ever seeing what, if anything, was inside it.
+
+A tip from an associate of Moore's led police to the site, and Shakespeare's remains were recovered on January 26, 2010. By then, investigators found, the millions he had won were essentially gone. Moore was arrested on February 2, 2010, and formally charged with first-degree murder on February 19. She pleaded not guilty and stood trial nearly three years later; on December 10, 2012, a jury convicted her of first-degree murder, and the court sentenced her to mandatory life in prison without parole, plus an additional mandatory 25 years for using a firearm in the commission of the felony. The sentencing judge described her as "cold, calculating, and cruel." Moore has continued to pursue post-conviction motions seeking a new trial, including efforts to pin the killing on someone else, but her conviction and sentence have remained in force through each attempt.
+
+Shakespeare's case is one of the starkest illustrations of a pattern that recurs across sudden-wealth fraud: a newly rich, trusting mark; a self-appointed "protector" who volunteers to manage the money and gradually takes control of it instead; and, when the victim finally starts asking hard questions about where his own fortune went, an escalation that in most such schemes stops at bankruptcy but here ended in murder.`,
+  },
+);
