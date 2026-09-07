@@ -4245,3 +4245,24 @@ A tip from an associate of Moore's led police to the site, and Shakespeare's rem
 Shakespeare's case is one of the starkest illustrations of a pattern that recurs across sudden-wealth fraud: a newly rich, trusting mark; a self-appointed "protector" who volunteers to manage the money and gradually takes control of it instead; and, when the victim finally starts asking hard questions about where his own fortune went, an escalation that in most such schemes stops at bankruptcy but here ended in murder.`,
   },
 );
+
+NotoriousAF.push(
+  {
+    title: `Frank Bourassa: The Quebec Counterfeiter Who Printed $250 Million in Fake US Twenties`,
+    slug: 'frank-bourassa-quebec-counterfeit-us-currency',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://abcnews.com/Blotter/master-currency-counterfeiter-prints-millions-screw-us/story?id=23646226',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/US20-back.jpg?width=1200',
+    coverImageCredit: 'Photo: U.S. Bureau of Engraving and Printing (public domain)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait/exact match if found
+    body: `Frank Bourassa, a former truck-parts salesman from Trois-Rivières, Quebec, spent roughly two years teaching himself how to defeat the security features the U.S. Treasury builds into its currency, studying the Secret Service's own public anti-counterfeiting materials to learn exactly what he needed to replicate. Rather than scanning and printing existing bills — the crude approach that gets most counterfeiters caught — Bourassa set out to manufacture the paper itself, eventually persuading a Swiss paper mill to produce a cotton-linen blend seeded with security fibers and a counterfeit watermark, while sourcing color-shifting ink and other specialized materials from suppliers in China.
+
+Working out of an illegal print shop he set up on a rented farm property in Quebec, Bourassa and an accomplice used an offset press to produce U.S. $20 bills that authorities and reporters who examined them later described as virtually undetectable by touch or sight, complete with the bills' embedded security thread. Estimates of his output ran to roughly $250 million in face value — by some accounts around 12.5 million individual notes — which he moved by selling bulk quantities of counterfeit bills to criminal buyers at a steep discount to face value rather than trying to pass them himself, a wholesale model that let him convert fake currency into real money quickly while pushing the risk of getting caught passing individual bills onto his buyers.
+
+The operation drew a joint investigation by Quebec's Royal Canadian Mounted Police-led Integrated Counterfeit Enforcement Team and the U.S. Secret Service, which tracked the fake twenties as they surfaced in circulation across multiple U.S. states. Bourassa was arrested in Quebec after selling to an undercover operative. Facing the prospect of decades in prison, he negotiated a deal with Canadian authorities: in exchange for surrendering a hidden cache of roughly $200 million in counterfeit bills, plates, and specialty paper that had never reached circulation, prosecutors agreed to a vastly reduced sentence. Bourassa ultimately served only about six weeks in custody and paid a fine of roughly $1,500 Canadian, and Canada declined to extradite him to face the more severe penalties U.S. counterfeiting law would have imposed.
+
+Bourassa's case became a widely cited example of how plea-bargained cooperation can produce sentencing outcomes wildly disproportionate to the scale of the underlying crime: a quarter-billion dollars in counterfeit currency, aimed squarely at the U.S. money supply, resolved with a sentence shorter than many first-time shoplifting cases receive. He has since spoken publicly about the operation, including in an interview with ABC News, and describes now working with law enforcement on anti-counterfeiting matters — a second act that lets him profit, again, from the same expertise that once nearly got him locked away for good.`,
+  },
+);
