@@ -10065,3 +10065,26 @@ International.push(
     country: 'IQ',
   },
 );
+
+International.push(
+  {
+    name: 'Sierra Leone WhatsApp Account Takeover Scam with AI-Generated Fake Emergencies',
+    slug: 'sierra-leone-whatsapp-account-takeover-ai-emergency-scam',
+    description: `An investigation published by fact-checking organisation Dubawa on August 13, 2026 documented a wave of WhatsApp account-takeover fraud spreading across Sierra Leone, in which victims are lured — through suspicious links, fake meeting invitations, or phone calls — into reading out the six-digit verification code WhatsApp sends to confirm a new device login. Once a scammer captures that code, they gain full control of the victim's account and immediately message the victim's own contact list pretending to be them, asking for urgent money transfers, often into Orange Money mobile-money accounts registered under false names. To make the appeals more convincing, cybersecurity experts quoted in the investigation said fraudsters increasingly pair the takeover with AI-generated images and cloned voice messages; one victim found scammers had circulated a synthetic image purporting to show him injured in a hospital bed after a road accident to pressure his contacts into sending money quickly. Dubawa documented 27 such cases between 2021 and 2026, 14 of which involved direct money requests to the victim's contacts and 9 of which involved the victim being tricked into sharing their verification code, with cybersecurity expert Richmond Redwood-Sawyerr noting that WhatsApp account takeovers remain significantly underreported in the country. Recommended precautions include enabling WhatsApp's two-step verification, never sharing a verification code with anyone for any reason, and confirming unusual money requests from contacts by phone before sending funds.`,
+    categorySlug: 'account-takeover',
+    alertLevel: 'high',
+    sources: ['Dubawa'],
+    sourceUrl: 'https://dubawa.org/inside-sierra-leones-whatsapp-takeover-scam-where-hackers-deploy-ai-exploit-trust-to-defraud-victims/',
+    country: 'SL',
+  },
+  {
+    name: 'Fake Electoral Commission of Sierra Leone Recruitment Scam',
+    slug: 'sierra-leone-ecsl-fake-recruitment-scam',
+    description: `A recruitment notice dated July 21, 2026 and circulated widely on social media falsely claimed that the Electoral Commission for Sierra Leone (ECSL) was hiring 266 qualified candidates for vacant positions within the institution, directing hopeful applicants to a linked online portal to submit their personal details and applications. The following day, July 22, 2026, ECSL issued a public statement disowning the notice, saying "the Commission wishes to inform the public that it has not issued any such recruitment notice and considers the aforementioned recruitment notice and recruitment portal to be fake and fraudulent." The Commission stressed that all of its genuine announcements — including any future recruitment or electoral timelines — are made only through its official website and verified social media accounts, and urged the public to disregard the fraudulent notice and portal and stay alert to similar impersonation scams as Sierra Leone's next election cycle approaches.`,
+    categorySlug: 'employment-scams',
+    alertLevel: 'medium',
+    sources: ['Electoral Commission for Sierra Leone (ECSL)', 'SierraLoaded'],
+    sourceUrl: 'https://sierraloaded.sl/local/ecsl-viral-recruitment-notice-fake/',
+    country: 'SL',
+  },
+);
