@@ -9610,3 +9610,36 @@ International.push(
     country: 'BA',
   },
 );
+
+International.push(
+  {
+    name: 'Tunisia Fake Traffic-Violation SMS Scam',
+    slug: 'tunisia-fake-traffic-violation-sms-scam',
+    description: `Beginning around June 2026, Tunisia's National Cybersecurity Agency (ANSI, also referred to as ANCS) and the Tunisian Post warned drivers about SMS messages impersonating official traffic-violation notices. The texts claim an automated camera detected a speeding or parking infraction, often citing a fabricated case number and penalty percentage to create urgency, and push recipients to click an embedded link to "pay the fine" immediately. Many messages arrive from foreign phone numbers and some ask the recipient to reply first, a trick meant to slip past carrier spam filters before the fraudulent link is sent. The linked page mimics an official government payment portal but is built to harvest personal details and banking credentials rather than process any real fine. Authorities stressed that genuine notices come only through secure, verified ".gov.tn" channels and that no legitimate institution ever requests passwords or banking codes by text message, urging recipients to avoid clicking the links, never enter payment data on the linked page, and delete the message.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Tunisia National Cybersecurity Agency (ANSI/ANCS)', 'Managers.tn'],
+    sourceUrl: 'https://managers.tn/2026/06/15/faux-pv-de-contravention-en-tunisie-une-arnaque-par-sms-qui-piege-les-automobilistes-et-vise-leurs-donnees-bancaires/',
+    country: 'TN',
+  },
+  {
+    name: 'Tunisia Fake La Poste / Wallet e-Dinar Phishing Sites',
+    slug: 'tunisia-la-poste-wallet-edinar-phishing',
+    description: `On July 23, 2026, La Poste Tunisienne issued a public warning, its second in less than six months after a similar alert in February 2026, about fraudulent websites impersonating the postal service and its partners to steal customer data. The fake sites are built to closely copy the look of La Poste's real pages and specifically target holders of its electronic payment cards and "Wallet e-Dinar" digital wallet, prompting victims to enter login credentials, card details, and other sensitive information under the guise of routine account verification. La Poste Tunisienne said it "never asks customers to communicate their password or secret code" through any channel, and confirmed it had begun legal proceedings against the operators of the identity-usurping websites. The warning follows a related alert from the National Cybersecurity Agency (ANSI) about fake banking websites more broadly, distributed via email, SMS, and social media links, that harvest login and financial information from Tunisian consumers.`,
+    categorySlug: 'phishing',
+    alertLevel: 'high',
+    sources: ['La Poste Tunisienne', 'AllAfrica'],
+    sourceUrl: 'https://fr.allafrica.com/stories/202607240150.html',
+    country: 'TN',
+  },
+  {
+    name: 'Tunisia Fake Overseas Job Recruitment Scam',
+    slug: 'tunisia-fake-overseas-job-recruitment-scam',
+    description: `On April 10, 2026, Tunisia's Ministry of Professional Training and Employment told parliament that illegal recruitment bureaus operating outside any legal framework now outnumber licensed agencies, charging young jobseekers fees for supposed positions in Europe and the Gulf that turn out not to exist. Victims are shown counterfeit employment contracts and pay upfront "processing" or placement fees, only for the promised job, and the recruiter, to disappear once payment is made; the ministry noted that some cases amount to practices "assimilable to human trafficking." The ministry said it had referred 72 complaints against these illegal structures to the justice system since 2024 (21 in 2024 and 51 in 2025) and was coordinating with the Interior Ministry on enforcement while drafting legislation to raise penalties. Minister Riadh Chaoued urged young Tunisians to verify any international job offer only through the ministry's own official placement platforms before paying anyone or signing a contract.`,
+    categorySlug: 'employment-scams',
+    alertLevel: 'high',
+    sources: ['Tunisia Ministry of Professional Training and Employment', 'Webdo.tn'],
+    sourceUrl: 'https://www.webdo.tn/fr/actualite/national/emplois-a-letranger-72-plaintes-contre-des-bureaux-fictifs-ciblant-les-jeunes/396011/',
+    country: 'TN',
+  },
+);
