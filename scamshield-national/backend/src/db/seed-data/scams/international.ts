@@ -10385,3 +10385,26 @@ International.push(
     country: 'AG',
   },
 );
+
+International.push(
+  {
+    name: 'Bermuda Automated Bank Fraud-Alert Vishing Scam',
+    slug: 'bermuda-automated-bank-fraud-alert-vishing-scam',
+    description: `The Bermuda Police Service (BPS) warned the public in March 2026, and repeated the warning in June and July 2026, about a "sophisticated" banking scam that has already duped residents out of millions of dollars. The fraud opens with an automated phone call designed to sound like it comes from a bank relationship manager, playing a recorded message that falsely claims a $1,000 debit has just been processed on the recipient's card and instructing them to press "1" if the transaction is recognized or "2" if it is not. Anyone who presses "2" is transferred to a live fraudster posing as a bank representative, who claims to be helping reverse the fraudulent charge while actually working to elicit account login credentials, card numbers, PINs, or one-time verification codes; in a related wave of direct impersonation calls reported through June and July 2026, callers skipped the recorded message entirely and went straight to claiming fraudulent activity had been detected, pressuring victims to hand over online banking credentials that were then used to move money to overseas accounts within minutes. Police stressed that legitimate financial institutions will never ask a customer for a full password, PIN, or remote access to a personal device over the phone, and urged anyone who receives such a call to hang up immediately and contact their bank directly using the number printed on the back of their card rather than any number or link supplied by the caller.`,
+    categorySlug: 'phishing',
+    alertLevel: 'high',
+    sources: ['Bermuda Police Service (BPS)', 'The Royal Gazette', 'Bernews'],
+    sourceUrl: 'https://bernews.com/2026/03/victims-being-duped-out-of-millions-of-dollars/',
+    country: 'BM',
+  },
+  {
+    name: 'Bermuda WhatsApp Verification Code Hijack and AI Deepfake Impersonation Scam',
+    slug: 'bermuda-whatsapp-verification-code-ai-deepfake-scam',
+    description: `The Bermuda Police Service issued an advisory in August 2026 warning residents about a two-stage fraud that combines WhatsApp account takeover with artificial intelligence impersonation. In the first stage, a criminal contacts a target claiming a six-digit verification code is about to arrive because of a "Zoom" meeting or similar pretext, and when the code lands via SMS the target is talked into reading it back; that code is actually WhatsApp's own device-registration code, and sharing it lets the criminal migrate the victim's account to a new device, logging the real owner out and taking full control of their contact list and chat history. Once inside, the criminal impersonates the account holder to contact family members, friends, or business associates, requesting urgent money transfers or sensitive information while posing as someone the recipient already trusts. The advisory also flagged a second, related technique in which fraudsters use AI-generated audio, video, or images to mimic the voice or likeness of a trusted contact directly, creating convincing fake calls or messages that manufacture urgency around an emergency payment; police stated plainly that "seeing or hearing someone is no longer sufficient proof of identity" and urged the public to adopt a "Stop! Think! Verify!" approach — never share a verification code with anyone, and always confirm an unexpected money request through a separate, independently verified channel, such as a phone call to a number already saved before the request arrived, rather than replying within the same conversation.`,
+    categorySlug: 'ai-deepfake-scams',
+    alertLevel: 'high',
+    sources: ['Bermuda Police Service (BPS)', 'The Royal Gazette', 'Bernews'],
+    sourceUrl: 'https://bernews.com/2026/08/bps-issues-alert-whatsapp-ai-fraud/',
+    country: 'BM',
+  },
+);
