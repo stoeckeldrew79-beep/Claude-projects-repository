@@ -3506,4 +3506,15 @@ export const UsNS: SeedScam[] = [
     country: 'US',
     state: 'NY',
   },
+{
+    name: 'North Carolina Fake Recruiter Employment Scam',
+    slug: 'north-carolina-fake-recruiter-employment-scam',
+    description: `North Carolina Attorney General Jeff Jackson and Labor Commissioner Luke Farley issued a joint consumer alert on April 24, 2026 warning residents about a rise in employment scams built around fake recruiters and phony hiring processes. The scheme typically starts with a job posting on a well-known job site, or an unsolicited message by text, email, or social media, dangling a high-paying, low-experience, work-from-home position. Victims are walked through what looks like a genuine hiring process — interviews, paperwork, even a formal-looking offer letter — before being asked to hand over a Social Security number or bank account details, or to pay upfront for "training," equipment, or a background check; a related variant sends the new "employee" a counterfeit check and asks them to wire back a refund for supposed overpayment, leaving the victim on the hook once the check bounces. The Federal Trade Commission recorded $501 million in reported employment-scam losses nationwide in 2024. "These scams are especially cruel because they target people who are actively trying to improve their lives," Jackson said. The alert lists four warning signs: a position that looks too good to be true, any request for payment upfront, a request for sensitive personal information early in the process, and any instruction to pay or be paid through gift cards or cryptocurrency. North Carolinians are urged to verify a company independently through its official website before sharing information or money, and to report suspected job scams to the Attorney General's Consumer Protection Division at 1-877-5-NO-SCAM or ncdoj.gov.`,
+    categorySlug: 'employment-scams',
+    alertLevel: 'medium',
+    sources: ["North Carolina Department of Justice (Attorney General Jeff Jackson)", 'North Carolina Department of Labor'],
+    sourceUrl: 'https://ncdoj.gov/attorney-general-jeff-jackson-commissioner-luke-farley-warn-north-carolinians-about-employment-scams/',
+    country: 'US',
+    state: 'NC',
+  },
 ];

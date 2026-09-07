@@ -3586,4 +3586,15 @@ export const UsGM: SeedScam[] = [
     country: 'US',
     state: 'MD',
   },
+{
+    name: 'Joiner\'s Tree Service Hurricane Ida Price-Gouging Scheme',
+    slug: 'louisiana-joiners-tree-service-hurricane-ida-price-gouging',
+    description: `Louisiana Attorney General Liz Murrill won a permanent injunction on September 9, 2025 in the 22nd Judicial District Court in St. Tammany Parish against Joiner's Tree Service, LLC, and its owner, Jeffery Darren Joiner, a Gainesville, Florida-based operation that entered Louisiana without the license the state requires and solicited storm victims door-to-door in the aftermath of Hurricane Ida. According to the state's lawsuit, first filed in December 2021, Joiner's crews refused to give customers upfront cost estimates, told homeowners they would owe nothing if their insurer didn't cover the work, and then billed insurers directly for grossly inflated amounts — conduct the court found violated Louisiana's Unfair Trade Practices and Consumer Protection Law along with the state's Price Gouging Law, which activates automatically once the governor declares a state of emergency. The judgment permanently bars Joiner and his company from performing or even advertising tree-related services anywhere in Louisiana, voids more than $126,000 in invoices the company tried to collect from Louisiana consumers and insurers, and orders $25,000 in civil penalties. "Price gouging during an emergency is illegal and will not be tolerated in Louisiana," Murrill said in announcing the ruling. Homeowners hiring storm cleanup after a hurricane or other declared disaster are advised to get a written, itemized estimate before any work begins, to confirm a contractor is actually licensed to operate in Louisiana, and to report suspected price gouging to the Attorney General's Office at 1-800-351-4889 or through aglizmurrill.com.`,
+    categorySlug: 'home-improvement-solar',
+    alertLevel: 'medium',
+    sources: ["Louisiana Department of Justice (Attorney General Liz Murrill)", 'WAFB'],
+    sourceUrl: 'https://www.wafb.com/2025/10/22/louisiana-wins-hurricane-ida-price-gouging-case-against-florida-tree-company/',
+    country: 'US',
+    state: 'LA',
+  },
 ];

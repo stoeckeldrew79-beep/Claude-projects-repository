@@ -2022,4 +2022,15 @@ export const UsTZ: SeedScam[] = [
     country: 'US',
     state: 'WA',
   },
+{
+    name: 'Utah UDOT Unpaid Toll Text Scam',
+    slug: 'utah-udot-unpaid-toll-text-scam',
+    description: `The Utah Division of Consumer Protection issued a consumer alert on July 7, 2025 warning residents about a widespread phishing text scam impersonating toll authorities, including the Utah Department of Transportation (UDOT). The messages falsely claim the recipient has an unpaid toll balance and threaten legal action, license suspension, or added fees if payment isn't made right away, using urgent, generic language such as "Dear Customer" and a link designed to harvest banking details and personal information rather than process any real payment; some versions even work "utah.gov" into an otherwise suspicious link to look more convincing. UDOT has confirmed flatly that it does "not send texts or make phone calls to collect tolling fees," so any message claiming otherwise is fraudulent. The Division's alert lists red flags including urgency and threats, generic greetings, poor spelling or grammar, and any request for a Social Security number, bank account information, or a password by text, since no legitimate toll authority asks for that information this way. Utahns are advised not to click any link or reply, to block the sender, to forward suspicious texts to 7726 (SPAM), and — if concerned about a real toll — to contact UDOT directly through a verified number or website such as expresspass.utah.gov rather than any number or link supplied in the text itself. Suspected scams can be reported to the FTC at ReportFraud.ftc.gov or the FBI's Internet Crime Complaint Center at ic3.gov.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Utah Division of Consumer Protection', 'Utah Department of Transportation (UDOT)'],
+    sourceUrl: 'https://commerce.utah.gov/dcp/2025/07/07/dont-fall-for-the-unpaid-toll-text-scam/',
+    country: 'US',
+    state: 'UT',
+  },
 ];
