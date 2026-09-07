@@ -3828,3 +3828,27 @@ UsGM.push({
     state: 'MN',
 });
 
+UsGM.push({
+    name: 'Pocatello "Unknown Man" 25-Year Identity Theft of a Murdered Teen',
+    slug: 'idaho-pocatello-unknown-man-deceased-teen-identity-theft',
+    description: `In 2000, a man walked into a Social Security office and applied for a replacement card using the name, date of birth, and parents' names of Carlos Ramon Obregon — a Los Angeles teenager who had been killed in a 1977 drive-by shooting at age 14, twenty-three years earlier. Over the next quarter-century, according to the U.S. Attorney's Office for the District of Idaho, the man built an entire paper identity on top of Obregon's stolen name: Idaho state identification cards in 2002, 2010, and 2014, a U.S. passport obtained in 2012 using Obregon's birth certificate, and a Star Card (a REAL ID-compliant Idaho license) in 2022, all while using the identity to collect government benefits. A federal jury in Pocatello convicted him in May 2026 after a three-day trial on wire fraud, theft of government funds, and aggravated identity theft, and U.S. District Judge David C. Nye sentenced him to 61 months in prison plus three years of supervised release, ordering $283,977.40 in restitution. What makes the case unusual is that investigators never established who the defendant actually is — his real identity remains unknown, and he appears in federal court records only as "FNU LNU" (First Name Unknown, Last Name Unknown), the designation law enforcement uses when a person's true identity cannot be verified even after conviction and sentencing. The case is a reminder that a stolen identity does not have to belong to a living person to be usable for decades: a deceased person's Social Security number, especially a child's or young victim's, can be reissued and rebuilt into a fully documented adult identity if no one is checking, which is why regularly monitoring a deceased family member's Social Security number and credit file — not just a living relative's — is worth doing after a loss.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office for the District of Idaho", 'Social Security Administration Office of Inspector General', 'East Idaho News'],
+    sourceUrl: 'https://www.justice.gov/usao-id/pr/unknown-man-sentenced-five-years-prison-using-identity-deceased-child-25-years-obtain',
+    country: 'US',
+    state: 'ID',
+});
+
+UsGM.push({
+    name: 'Lewiston Stolen-Identity Double-Dip on SNAP and MaineCare Benefits',
+    slug: 'maine-lewiston-stolen-identity-snap-mainecare-double-dip',
+    description: `Joseph Dobie, 38, of Lewiston, Maine, stole another person's identity and used it to obtain a driver's license and a Social Security card in that person's name, then used the stolen identity to apply for and receive Supplemental Nutrition Assistance Program (SNAP) benefits in both Maine and New York — while simultaneously collecting SNAP benefits in New York under his own, true identity at the same time. According to the U.S. Attorney's Office for the District of Maine, he also used the stolen identity to apply for and receive MaineCare, Maine's Medicaid program, compounding the fraud across two different benefit systems in two states. Dobie pleaded guilty on February 13, 2026 to aggravated identity theft, making false statements relating to health care matters, and unlawful use of SNAP benefits, and on August 26, 2026, Chief U.S. District Judge Lance E. Walker sentenced him to 36 months in federal prison followed by three years of supervised release, ordering him to repay $36,373.16 in fraudulently obtained benefits. The case was investigated jointly by the U.S. Department of Agriculture's Office of Inspector General and the U.S. Department of Health and Human Services' Office of Inspector General. Unlike a phishing scheme that tricks a beneficiary directly, this kind of fraud harms two separate people at once — the real identity-theft victim, whose name and Social Security number were misused for years to draw benefits in two states, and the public benefit programs themselves; anyone who discovers an unfamiliar SNAP, Medicaid, or MaineCare account, denial, or overpayment notice tied to their name should treat it as a possible sign their identity has been used this way and report it to the state benefits agency's fraud unit as well as file an identity-theft report at IdentityTheft.gov.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office for the District of Maine", 'The Maine Wire', 'Sun Journal'],
+    sourceUrl: 'https://www.themainewire.com/2026/08/lewiston-man-sentenced-to-three-years-in-federal-prison-for-using-stolen-identity-to-obtain-mainecare-snap-benefits/',
+    country: 'US',
+    state: 'ME',
+});
+
