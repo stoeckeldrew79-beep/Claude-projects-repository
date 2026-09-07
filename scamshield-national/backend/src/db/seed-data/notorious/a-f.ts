@@ -3969,4 +3969,19 @@ Turkish courts convicted Uzan in absentia on multiple occasions: a 23-year sente
 
 More than two decades after İmarbank's collapse, Cem Uzan still lives openly in France as a fugitive from Turkish justice, his sentences unserved and his depositors' recovered funds only a fraction of what vanished. The case remains a stark illustration of how a bank's official books can say one thing while a second, hidden set of records tells depositors the truth only after regulators break down the door.`,
   },
+  {
+    title: 'Eric Spoutz and the Decade of Forged Provenance Behind $1.45 Million in Fake Modern Masters',
+    slug: 'eric-spoutz-forged-provenance-art-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://www.nbcnews.com/news/us-news/michigan-art-dealer-gets-three-years-prison-selling-fake-paintings-n722076',
+    // no rights-cleared photo found — sourceUrl above serves as the "read the full story" link
+    body: `Eric Spoutz, an art dealer from Mount Clemens, Michigan, spent roughly a decade selling paintings he attributed to major American modern artists — Willem de Kooning, Franz Kline, Joan Mitchell, and others — that he had in fact created or acquired as blanks and then dressed up with fabricated paperwork. His real skill wasn't brushwork; it was paper. Prosecutors said Spoutz built elaborate, internally consistent provenance files for each piece — forged bills of sale, invented correspondence from galleries and law firms, and fictitious inheritance stories — designed to survive a buyer's due diligence rather than just a glance.
+
+One invented backstory captured how far he was willing to go: Spoutz told a Connecticut auction house that he had inherited a group of Joan Mitchell pastels from a collector who died in 1976, when in reality that collector's entire estate had been bequeathed to Dartmouth College decades earlier and was never in Spoutz's hands at all. He gave shifting explanations for other pieces — a private-collection purchase here, a family inheritance there — and, after a memorabilia-watching blog accused him of hawking forgeries on eBay in 2005, began operating under aliases including "Robert Chad Smith," "John Goodman," and "James Sinclair" to keep selling.
+
+The scheme ran from roughly 2010 through March 2015 before the FBI's New York field office and the U.S. Attorney's Office for the Southern District of New York caught up with him; he was arrested in Los Angeles on February 3, 2016, and charged with wire fraud. Spoutz pleaded guilty in June 2016. On February 16, 2017, U.S. District Judge Lewis A. Kaplan sentenced him to 41 months in federal prison, telling him, "I think you've been leading a fraudulent life for a very long time." Assistant U.S. Attorney Andrew Adams put it more bluntly: "This was a career that was founded on fraud." The court ordered Spoutz to forfeit the $1.45 million in proceeds he had collected and to pay $154,100 in restitution to identified victims.
+
+Spoutz's case became a textbook example for the FBI's own art-crime unit of how forgery increasingly succeeds or fails on documentation rather than on the canvas itself — a fabricated paper trail, built patiently over years, that let ordinary-looking paintings pass as museum-quality modern masters until a buyer finally tried to verify a story that had never been true.`,
+  },
 );
