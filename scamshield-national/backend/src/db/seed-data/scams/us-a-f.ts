@@ -5614,4 +5614,15 @@ export const UsAF: SeedScam[] = [
     country: 'US',
     state: 'AZ',
   },
+  {
+    name: 'Aptive Environmental Door-to-Door Pest Control Deceptive Sales Scheme',
+    slug: 'delaware-aptive-environmental-pest-control-deceptive-sales',
+    description: `Delaware Attorney General Kathy Jennings' Consumer Protection Unit reached a settlement with Aptive Environmental, LLC, a door-to-door pest control company, after an investigation found the company's sales representatives — who canvass Delaware neighborhoods especially heavily during summer months — used high-pressure tactics to sign homeowners up on the spot, misrepresented the terms of the service contract, and failed to clearly disclose steep early-cancellation fees buried in the paperwork. The Attorney General's office filed the settlement in the Delaware Court of Chancery on July 29, 2026, and it directs Aptive to pay $600,000 and to reform its door-to-door sales practices going forward, including clearer upfront disclosure of contract length, pricing, and cancellation terms before a homeowner signs anything. "Delawareans deserve to make informed decisions in their own homes, free from high-pressure sales tactics and hidden fees," Jennings' office said in announcing the resolution, noting the case grew out of consumer complaints about salespeople who pushed for an immediate signature and glossed over — or never mentioned — the cost of backing out early. Delaware homeowners approached by a door-to-door pest control or home-service salesperson are advised to ask for the full written contract before agreeing to anything, to specifically ask about cancellation fees and contract renewal terms rather than relying on a verbal summary, to take advantage of Delaware's legally required cancellation period for contracts signed at home, and to check a company's complaint history with the Attorney General's Fraud and Consumer Protection Division before signing. Suspected violations can be reported to the Division at (800) 220-5424 or consumerprotection@delaware.gov.`,
+    categorySlug: 'subscription-traps',
+    alertLevel: 'medium',
+    sources: ["Delaware Department of Justice, Attorney General Kathy Jennings", 'Delaware Business Now', 'WDEL'],
+    sourceUrl: 'https://news.delaware.gov/2026/07/29/ag-jennings-obtains-court-order-protecting-delaware-consumers-against-pest-control-company/',
+    country: 'US',
+    state: 'DE',
+  },
 ];
