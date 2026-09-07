@@ -9742,3 +9742,36 @@ International.push(
     country: 'SZ',
   },
 );
+
+International.push(
+  {
+    name: 'Fake Bank and State Company Recruitment Scam',
+    slug: 'algeria-fake-job-recruitment-scam',
+    description: `Fraudsters in Algeria have been circulating fake recruitment announcements on Facebook and other social media, falsely claiming to be hiring on behalf of trusted national institutions such as Banque Nationale d'Algérie (BNA), fuel distributor Naftal, and Algérie Poste. The postings mimic official branding and typically direct applicants to submit personal information or pay upfront "registration" or "training" fees to secure a supposed job offer, which never materializes. BNA issued a public statement categorically denying the postings, calling what was being circulated "false and fraudulent," while Naftal and Algérie Poste separately warned against unauthorized use of their names and logos. The scam has particularly targeted unemployed youth in a country where internet penetration exceeds 76 percent of the population, giving fake ads wide reach on social platforms. Authorities and the targeted institutions urge jobseekers to verify any hiring announcement only through the company's official website or verified social accounts, to be suspicious of any recruiter who asks for payment before a job begins, and to report fraudulent postings that misuse a company's name.`,
+    categorySlug: 'employment-scams',
+    alertLevel: 'medium',
+    sources: ['Banque Nationale d’Algérie (BNA)', 'El Watan'],
+    sourceUrl: 'https://elwatan.dz/arnaque-au-recrutement-les-mises-en-garde-de-la-bna/',
+    country: 'DZ',
+  },
+  {
+    name: 'BaridiMob and Eddahabia Card OTP Phishing Scam',
+    slug: 'algeria-baridimob-otp-phishing-scam',
+    description: `Algérie Poste, the national postal service that operates the widely used BaridiMob mobile payment app and Eddahabia prepaid card, has repeatedly warned customers about scammers who impersonate its staff by phone, SMS, or fake social media pages to steal one-time password (OTP) codes. In a typical case, a fraudster contacts a victim claiming to be from Algérie Poste or offering a fictitious prize, contest win, or account "reactivation," then asks the victim to read back the OTP code just sent by SMS to confirm a supposed transaction. Once the scammer has that code, they can authorize a real transfer out of the victim's postal account (CCP) without further verification. Algérie Poste has also had to respond to waves of fraudulent transactions reported by BaridiMob users within short windows, prompting it to urge affected customers to change their access codes immediately. The institution stresses that its OTP codes are "strictly confidential" and that it never asks customers to disclose them, and that any message asking someone to "reactivate BaridiMob" or "regularize" their postal account through a link is automatically fraudulent. Algérie Poste, together with the Gendarmerie Nationale and the DGSN (national police), advises the public to never share an OTP code with anyone, to rely only on the institution's official website and verified social media pages for information about its services, and to report suspicious messages that use its name or logo.`,
+    categorySlug: 'phishing',
+    alertLevel: 'high',
+    sources: ['Algérie Poste', 'DGSN', 'Just Info DZ'],
+    sourceUrl: 'https://just-infodz.com/algerie-poste-met-en-garde-contre-les-arnaques-au-code-otp/',
+    country: 'DZ',
+  },
+  {
+    name: 'Fake Online Store Advance-Payment Scam',
+    slug: 'algeria-online-store-advance-payment-scam',
+    description: `As e-commerce has grown into a market exceeding $1.5 billion in Algeria, the consumer protection group APOCE (Association algérienne de protection et d'orientation du consommateur et de son environnement) says complaints about online shopping fraud now rank as the single most common complaint it receives. In the most damaging version, an unreliable or fake online store collects advance payment by bank transfer for an order that is never delivered, leaving the buyer with no recourse and no way to get a refund. A related version delivers a real package, but one containing goods "totally different" from what was advertised and ordered, with sellers refusing exchanges or refunds once payment has cleared. APOCE president Mustapha Zebdi has publicly called for stronger enforcement and "severe sanctions" against fraudulent online sellers, and separate cases investigated by the Gendarmerie Nationale have uncovered organized rings running fake vehicle-sale listings to collect deposits from buyers who never receive a car. Because of this risk, cash-on-delivery has become the dominant payment method for online purchases in Algeria, used in an estimated 95 percent of e-commerce transactions. Consumer advocates recommend paying only on delivery whenever possible, verifying that a seller can provide a registration number or legal business identifier before paying in advance, and using delivery services that allow the buyer to inspect goods before handing over payment.`,
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'medium',
+    sources: ['APOCE (Association algérienne de protection et d’orientation du consommateur et de son environnement)', 'TSA (Tout sur l’Algérie)'],
+    sourceUrl: 'https://www.tsa-algerie.com/e-commerce-en-algerie-mefiez-vous-de-ces-2-arnaques-frequentes/',
+    country: 'DZ',
+  },
+);
