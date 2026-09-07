@@ -31,6 +31,11 @@ export default function GlobalMap() {
   // "no data" while the database held entries for all 51.
   const [stateView, setStateView] = useState<'documented' | 'alerts'>('documented');
   const activeStateCounts = stateView === 'documented' ? scamStateCounts : stateCounts;
+  // The section used to render only when the active view had rows, so one
+  // failing request took the whole map off the page with nothing said. Either
+  // view having data is enough to show the section; an empty active view
+  // explains itself below.
+  const hasAnyStateData = Boolean(scamStateCounts?.length || stateCounts?.length);
   const totalReports = data?.reduce((sum, d) => sum + d.count, 0) ?? 0;
 
   function handleCountryClick(country: string) {
@@ -78,7 +83,7 @@ export default function GlobalMap() {
         <p className="mt-4 text-sm text-slate-500">{totalReports} total reports across {data.length} countries.</p>
       )}
 
-      {activeStateCounts && activeStateCounts.length > 0 && (
+      {hasAnyStateData && (
         <section className="mt-12">
           <h2 className="text-2xl font-bold text-slate-900">Scams by US state</h2>
 
@@ -114,19 +119,27 @@ export default function GlobalMap() {
           </p>
 
           <div className="mt-6 rounded-xl border border-slate-200 bg-[#0f1a2b] p-6">
-            <Suspense
-              fallback={<div className="h-[420px] flex items-center justify-center text-slate-400 text-sm">Loading map…</div>}
-            >
-              <UsStateMap
-                counts={activeStateCounts}
-                onStateClick={handleStateClick}
-                unit={stateView === 'documented' ? { singular: 'scam', plural: 'scams' } : { singular: 'alert', plural: 'alerts' }}
-              />
-            </Suspense>
+            {activeStateCounts && activeStateCounts.length > 0 ? (
+              <Suspense
+                fallback={<div className="h-[420px] flex items-center justify-center text-slate-400 text-sm">Loading map…</div>}
+              >
+                <UsStateMap
+                  counts={activeStateCounts}
+                  onStateClick={handleStateClick}
+                  unit={stateView === 'documented' ? { singular: 'scam', plural: 'scams' } : { singular: 'alert', plural: 'alerts' }}
+                />
+              </Suspense>
+            ) : (
+              <div className="flex h-[420px] items-center justify-center px-6 text-center text-sm text-slate-400">
+                {stateView === 'documented'
+                  ? 'No state data came back for documented scams. The other view may still have data.'
+                  : 'No alerts recorded in the last 30 days. Switch to documented scams for the full picture.'}
+              </div>
+            )}
           </div>
 
           <p className="mt-4 text-sm text-slate-500">
-            {stateView === 'documented' ? (
+            {!activeStateCounts?.length ? null : stateView === 'documented' ? (
               <>
                 {activeStateCounts.reduce((sum, s) => sum + s.total, 0).toLocaleString()} documented scams across{' '}
                 {activeStateCounts.length} states and territories.
