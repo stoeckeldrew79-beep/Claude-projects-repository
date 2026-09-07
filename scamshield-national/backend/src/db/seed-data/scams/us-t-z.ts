@@ -2110,4 +2110,15 @@ export const UsTZ: SeedScam[] = [
     country: 'US',
     state: 'WY',
   },
+{
+    name: 'Wisconsin Facebook Fake Rental "Application Fee" Scam',
+    slug: 'wisconsin-facebook-fake-rental-application-fee-scam',
+    description: `The Wisconsin Department of Agriculture, Trade and Consumer Protection (DATCP) warned residents in May 2026 about a rental scam spreading through Facebook, in which a scammer copies a real listing photo or invents an address entirely, posts it as their own rental listing, and swaps in their own contact information in place of the actual landlord's. When a prospective tenant reaches out, the scammer says the standard next step is to submit a rental application along with a $60-per-adult "application fee" — before the renter is ever allowed to see or tour the unit in person. Because asking for an application fee is normal practice at a legitimate rental property, DATCP administrator Michelle Reinen said the request doesn't immediately read as suspicious, which is exactly what lets victims pay it, sometimes more than once, before realizing the listing was never real to begin with; one Weyauwega renter described losing $65 to the same scheme on three separate occasions. DATCP's guidance is to verify a listing independently before paying anything — cross-check the address and photos against the property management company's own website, satellite or street-view imagery, and public property records — and to treat it as a red flag if the same unit appears online under different prices or different contact information, if a "landlord" refuses an in-person or live-video tour before payment, or if they pressure a renter to send money quickly through a peer-to-peer app. Wisconsin renters lost a combined $65 million to rental scams between 2020 and 2025, with people ages 18 to 29 hit hardest, and suspected scams can be reported to DATCP's Consumer Protection Hotline at 1-800-422-7128 or ConsumerProtection.wi.gov.`,
+    categorySlug: 'rental-housing',
+    alertLevel: 'high',
+    sources: ['Wisconsin Department of Agriculture, Trade and Consumer Protection (DATCP)'],
+    sourceUrl: 'https://www.wbay.com/2026/05/22/new-scam-targets-apartment-hunters-with-fake-application-fees/',
+    country: 'US',
+    state: 'WI',
+  },
 ];
