@@ -1483,3 +1483,25 @@ The scheme unraveled through its own loose ends. An insurance company representa
 The Murder Trust remains one of the starkest illustrations in American criminal history of insurance fraud's logical endpoint: an industry built on paying out when misfortune strikes gave five men a financial incentive to manufacture the misfortune themselves, and for more than a year, an astonishing run of poisonings, beatings, and exposure attempts still couldn't manage it.`,
   },
 );
+
+NotoriousTZ.push(
+  {
+    title: `A. Alfred Taubman: The Shopping-Mall Billionaire Who Ran a Price-Fixing Ring at Sotheby's`,
+    slug: 'alfred-taubman-sothebys-christies-price-fixing',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://www.forbes.com/2001/12/13/taubmanindex.html',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Alfred_Taubman_in_2010.png?width=1200',
+    coverImageCredit: 'Photo: Tribeca Disruptive Innovation, 2016 (CC BY-SA 3.0)',
+    coverImagePosition: 50,
+    body: `A. Alfred Taubman built one of the great American fortunes of the postwar era by inventing the modern enclosed shopping mall, developing dozens of them across the country through his company Taubman Centers and amassing a net worth Forbes put at over $3 billion. In 1983, already a billionaire, he stepped into an entirely different business: he led an investor group that acquired Sotheby's, the storied but financially struggling London auction house, and rebuilt it into a public, globally dominant company that by the 1990s controlled, together with rival Christie's, roughly 90% of the world's market for fine art, furniture, and jewelry sold at auction.
+
+That dominance is what made the two houses' rivalry so lucrative to eliminate. Beginning in 1993, Taubman — Sotheby's chairman — and his counterpart at Christie's, chief executive Sir Anthony Tennant, secretly agreed to stop competing on the commission rates each house charged sellers, fixing a shared, non-negotiable fee schedule instead of undercutting each other for consignments. Sotheby's chief executive Diana "Dede" Brooks and Christie's chief executive Christopher Davidge carried out the scheme's day-to-day mechanics, meeting periodically to align pricing across both auction houses. Over roughly six years, prosecutors found, the conspiracy overcharged sellers by an estimated $43.8 million just at Sotheby's, with total harm to sellers and buyers across both houses put by some estimates near $400 million.
+
+The scheme collapsed in the fall of 2000, when Christie's Davidge came forward to the U.S. Department of Justice's Antitrust Division and turned over incriminating internal documents, securing Christie's corporate amnesty under the division's leniency program in exchange for cooperation — a deal that left Sotheby's alone to face prosecution. Brooks pleaded guilty that October to conspiring to violate the Sherman Antitrust Act and agreed to testify against Taubman in exchange for avoiding prison. Tennant, in the U.K., was indicted but never extradited to face U.S. charges. Taubman went to trial in Manhattan federal court in 2001 maintaining his innocence and blaming Brooks for running the scheme without his knowledge; the jury didn't believe him, convicting him of conspiracy to violate antitrust law.
+
+On April 22, 2002, U.S. District Judge George Daniels sentenced Taubman to one year and a day in federal prison and a $7.5 million fine, telling him, "Price-fixing is a crime whether it is committed in a local grocery store or the halls of a great auction house," and adding that Taubman had shown "a lack of contrition." Taubman served roughly ten months. Brooks avoided prison, receiving three years of probation that included six months of home detention, 1,000 hours of community service, and a $350,000 fine. Separately from the criminal case, Sotheby's and Christie's paid a combined $512 million to settle a civil class-action lawsuit brought by tens of thousands of the auction houses' own buyers and sellers, compensating the very clients the two "rival" houses had secretly agreed not to compete for.
+
+Taubman spent his final years insisting the case had been a miscarriage of justice, and continued to fund major philanthropic gifts to the University of Michigan and other institutions until his death from a heart attack on April 17, 2015, at age 91. His case remains one of the starkest illustrations of price-fixing's basic mechanism: two supposedly competing companies, controlling nearly the entire market for what they sold, found it more profitable to secretly agree not to compete at all — and let their mutual customers absorb the difference.`,
+  },
+);
