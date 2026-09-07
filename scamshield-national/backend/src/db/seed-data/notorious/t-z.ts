@@ -1424,3 +1424,22 @@ Rather than disappearing after his release, Tetro did something unusual for a co
 Tetro's case remains one of the clearest illustrations of how thin the line in the art trade can be between a skilled copyist and a criminal: the same technical mastery that made his fakes dangerous when passed off as originals became, once he was forced to disclose what they were, the basis of a legitimate business built on total transparency about the very deception that had put him in a Los Angeles courtroom.`,
   },
 );
+
+NotoriousTZ.push(
+  {
+    title: 'W.V. Grant: The Faith Healer Whose "Miracles" Were Sleight of Hand',
+    slug: 'walter-v-grant-eagles-nest-faith-healer-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `Walter Vinson Grant Jr. built one of Dallas's largest independent ministries in the 1980s, drawing thousands to Eagles Nest Cathedral and a nationwide television audience with services centered on faith healing: calling out audience members by name and ailment, then "curing" them of conditions ranging from cancer to paralysis in front of the cameras. His signature moment was a leg-lengthening routine in which a visibly shorter leg would appear to grow to match the other as Grant prayed over it, and services regularly featured wheelchair-bound attendees rising to walk unassisted.
+
+The illusions began unraveling in 1986 and 1987, when the paranormal investigator James Randi examined Grant's ministry for his book "The Faith Healers" and documented how the tricks actually worked. The leg-lengthening was an old vaudeville shoe trick relying on the angle of the foot rather than any physical change, and the wheelchair "healings" relied on planted or misidentified participants — including, in several documented cases, people who had walked into the venue under their own power and simply been placed in a chair beforehand. Randi also traced how Grant appeared to have supernatural knowledge of strangers' medical histories: his wife and staff quietly collected the information from prayer request cards attendees filled out before the service. A follow-up investigation by ABC News' "PrimeTime Live" and the televangelist watchdog group Trinity Foundation in the early 1990s corroborated the same pattern of staged recoveries.
+
+The exposés dented Grant's reputation but not his ministry's finances enough to stop federal investigators from taking a separate, more conventional interest in him: how he was reporting his income. An IRS investigation, aided by an undercover video in which Grant discussed cash donations he had not reported, found that he had failed to declare roughly $375,000 used toward the purchase of two homes, including a residence valued at about $1 million. Grant pleaded guilty in April 1996 to filing a false federal tax return for 1990, then tried to withdraw the plea just minutes before his sentencing hearing that July, telling the court he was innocent. The judge refused, and sentenced him, in a courtroom packed with his own congregants, to 16 months in prison, a year of supervised release, roughly $60,800 in fines and back taxes, and 100 hours of community service. The Fifth Circuit Court of Appeals upheld both the conviction and the denial of his withdrawal motion in 1997.
+
+Grant served his sentence and was released in September 1997 — and did not retire. He resumed preaching almost immediately under the Eagles Nest Cathedral name, later relocating the ministry to a historic building in downtown Dallas, and continued holding nightly healing services into the 2010s and beyond, decades after Randi's exposés and his own federal conviction. A 2003 television investigation in Atlanta and a 2011 demonstration by the mentalist Derren Brown both revisited and reconfirmed the same leg-lengthening trick Randi had first exposed a quarter-century earlier, unchanged.
+
+Grant's case is a stark illustration of how little a documented fraud exposure and a federal conviction can do to stop a faith-healing scam once it has an established, devoted audience: unlike the one-time con artists in this collection, his fraud was never a single scheme that collapsed — it was a recurring performance that outlasted the very investigations meant to end it.`,
+    sourceUrl: 'https://caselaw.findlaw.com/court/us-5th-circuit/1188321.html',
+  },
+);

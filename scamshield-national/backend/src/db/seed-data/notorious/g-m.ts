@@ -4245,3 +4245,25 @@ Perenyi's case is a rare closed loop in the world of art fraud: an admitted, wel
     sourceUrl: 'https://www.cbsnews.com/news/a-forger-of-art-tells-all-03-03-2013/',
   },
 );
+
+NotoriousGM.push(
+  {
+    title: 'John Stonehouse: The Cabinet Minister Who Faked His Own Death to Escape a Fraud Collapse',
+    slug: 'john-stonehouse-faked-death-fraud-mp',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/11.12.67_Pr%C3%A9sentation_officielle_du_Concorde_(1967)_-_53Fi1742_(John_Stonehouse)_(3x4_crop).jpg?width=1200',
+    coverImageCredit: 'Photo: André Cros, Archives municipales de Toulouse (CC BY-SA 4.0)',
+    coverImagePosition: 40,
+    body: `John Stonehouse was a rising star of British politics, serving in Harold Wilson's Labour government as Postmaster General and later Minister of Posts and Telecommunications, before a web of failing side businesses turned him into one of the country's most audacious fraudsters. By the early 1970s, Stonehouse had built a tangle of companies — including the British Bangladesh Trust, which he had founded partly to support the newly independent nation — that were quietly collapsing under debt and, investigators later found, deceptive accounting he used to keep the losses hidden from investors and regulators. As the Department of Trade and Industry closed in, Stonehouse spent months secretly preparing an exit: researching the identities of dead constituents and rehearsing a new persona he could disappear into.
+
+On November 20, 1974, Stonehouse walked into the ocean off a Miami Beach hotel and vanished, leaving a pile of folded clothes on the sand for searchers to find. Investigators and the press assumed he had drowned. In reality, he had already set an escape plan in motion, using a passport obtained in the name of a deceased constituent, Joseph Markham, to fly on to Scandinavia and eventually Australia, where he intended to start a new life and fortune under a false identity with his secretary and mistress, Sheila Buckley, joining him from London.
+
+The plan unraveled almost by accident. Australian police, alerted to a well-dressed Englishman moving large sums of money between banks under two different aliases, initially suspected they had stumbled onto a much bigger fugitive: Lord Lucan, the British peer who had vanished just days earlier after his children's nanny was murdered, and who was still being hunted worldwide. When detectives arrested the mystery man in Melbourne on Christmas Eve 1974, fingerprints confirmed he was not Lucan at all, but the British government minister the world believed had drowned in Florida a month before.
+
+Extradited back to the United Kingdom in 1975, Stonehouse remained, remarkably, a sitting Member of Parliament even as he awaited trial, attending the Commons on bail before resigning his seat in April 1976. His trial ran 68 days and ended in August 1976 with convictions on 21 counts of theft, fraud, forgery, deception, and conspiracy, including the fraudulent use of a dead man's identity to obtain a passport. He was sentenced to seven years in prison, and a final appeal to the House of Lords over several of the convictions was rejected in 1977, closing off any further legal challenge.
+
+Stonehouse's health deteriorated badly in custody — he suffered three heart attacks and underwent open-heart surgery while imprisoned — and he was released early in August 1979 on grounds of good behavior and declining health, having served roughly three years of the sentence. He spent his remaining years writing novels, campaigning as a Social Democrat, and giving television interviews about his case, before dying of a massive heart attack in 1988 at age 62. The conviction was never overturned or reopened, and with Stonehouse's death, one of the strangest self-inflicted collapses in British political history closed for good: a cabinet minister who tried to outrun a financial fraud by faking his own death, only to be caught because the world was busy looking for someone else entirely.`,
+    sourceUrl: 'https://www.abc.net.au/news/2023-01-16/truth-john-stonehouse-british-mp-fake-death-drama-series/101840138',
+  },
+);
