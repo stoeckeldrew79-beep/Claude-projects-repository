@@ -2055,4 +2055,15 @@ export const UsTZ: SeedScam[] = [
     country: 'US',
     state: 'WI',
   },
+  {
+    name: 'Utah "BG Wealth Sharing Group" Crypto Pig-Butchering Scam',
+    slug: 'utah-bg-wealth-sharing-group-crypto-scam',
+    description: `The Utah Department of Commerce's Division of Securities issued a consumer alert on May 24, 2026 warning residents about BG Wealth Sharing Group, also operating as BG Wealth Sharing LTD, an online operation presenting itself as an elite investment hedge fund offering high-return cryptocurrency opportunities through something it calls the "DSJ Exchange." Recruiters reach out through encrypted messaging apps such as Telegram and Bonchat, promoting fabricated investment returns and pitching "zero risk" and "guaranteed" monthly income — promises regulators say are the defining red flag of the scheme. Once a victim deposits cryptocurrency, the funds are laundered through a chain of international accounts and become effectively unrecoverable; the division noted the operation is part of a broader "pig butchering" network of similar schemes that have collectively defrauded Americans of billions of dollars, and pointed to a separate federal action that seized more than 500 fake investment websites tied to comparable fraud operations. Other warning signs the division flagged include unsolicited contact through an encrypted messaging app, promises of easy money with unrealistic guaranteed returns, demands for additional cryptocurrency upfront to cover supposed taxes or "verification fees," high-pressure tactics built around artificial deadlines, and false claims of SEC licensing or registration. Utahns who have been contacted by BG Wealth Sharing Group are asked to complete the Division of Securities' BG Wealth survey and to file a complaint with the FBI's Internet Crime Complaint Center at ic3.gov; the division cautions against engaging with the scammers at all, since responding only confirms an active phone number or messaging account and can expose the person on the other end — often a trafficking victim compelled to run the scam — to further exploitation.`,
+    categorySlug: 'cryptocurrency-scams',
+    alertLevel: 'high',
+    sources: ["Utah Department of Commerce, Division of Securities"],
+    sourceUrl: 'https://commerce.utah.gov/2026/05/24/bg-wealth-sharing-group-scam-utah/',
+    country: 'US',
+    state: 'UT',
+  },
 ];
