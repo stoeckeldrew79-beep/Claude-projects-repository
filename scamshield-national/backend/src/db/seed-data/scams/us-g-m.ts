@@ -3903,17 +3903,6 @@ UsGM.push({
     state: 'GA',
 });
 UsGM.push({
-    name: 'Oconee County FTC Impersonation Pop-Up Crypto Kiosk Scam',
-    slug: 'georgia-oconee-county-ftc-popup-crypto-kiosk-scam',
-    description: `An elderly Oconee County, Georgia couple sent their savings to fraudsters in 2026 after a pop-up alert appeared on their home computer warning that their bank account had been breached. The person behind the pop-up claimed to be an official with the Federal Trade Commission and told the couple the only way to protect their money was to withdraw it from the bank and deposit it into a cryptocurrency kiosk, then coached them, while staying on the phone the entire time, on exactly what to say to avoid raising suspicion with the bank teller or the person assisting them at the kiosk. The Oconee County Sheriff's Office investigated and worked with the Georgia Bureau of Investigation and the Attorney General's White Collar and Cyber Crime Unit to trace the stolen cryptocurrency as it moved rapidly through multiple digital wallets before it finally landed at an identifiable crypto exchange wallet, where law enforcement froze and seized it; a court then ordered the funds returned to the couple. "Scammers are constantly coming up with new and creative ways to steal Georgians' hard-earned money, and we will continue to do everything in our power to hold them accountable and return stolen funds to victims," Attorney General Chris Carr said in announcing the recovery on August 17, 2026. No real federal agency, including the FTC, ever contacts a consumer through a computer pop-up demanding cash be withdrawn and fed into a cryptocurrency kiosk, and anyone who receives such a pop-up or call should close it, hang up, and contact their bank and local law enforcement directly using numbers they look up themselves rather than any number or link the pop-up provides.`,
-    categorySlug: 'government-impersonation',
-    alertLevel: 'high',
-    sources: ["Georgia Attorney General's Office (Chris Carr)", 'Oconee County Sheriff\'s Office', 'WSB-TV (Channel 2 Action News)'],
-    sourceUrl: 'https://law.georgia.gov/press-releases/2026-08-17/carr-announces-seizure-and-return-cryptocurrency-elderly-fraud-victims',
-    country: 'US',
-    state: 'GA',
-});
-UsGM.push({
     name: 'Baton Rouge Staged Parking-Lot Crash Insurance Fraud',
     slug: 'louisiana-baton-rouge-staged-crash-insurance-fraud',
     description: `Rhashiedi Porter, 48, and Sarai Stansberry, 37, both of Baton Rouge, filed sworn claims with an insurance carrier stating they were seated inside their vehicle, wearing seat belts, when it was struck by another car in a New Orleans parking lot, and that the crash left them needing more than five months of medical treatment. The Louisiana Department of Insurance's Office of Insurance Fraud opened an investigation after the insurer reported the claim as suspicious on October 7, 2025, and surveillance video obtained during the probe showed that neither Porter nor Stansberry was actually inside the vehicle at the moment of the collision, contradicting their sworn statements. Louisiana Attorney General Liz Murrill's Louisiana Bureau of Investigation, working with Louisiana State Police, determined the pair had attempted to defraud the insurance company of roughly $30,000 and arrested them in New Orleans on February 23, 2026; local reporting later noted that Stansberry works as a staffer for the Louisiana State Senate. Both were booked on insurance fraud, perjury, false swearing, and filing false public records. The case illustrates that a "minor" parking-lot fender-bender claim is not exempt from scrutiny: insurers routinely pull nearby security or dashcam footage to corroborate who was actually in a vehicle at the time of a crash, and a claimant's sworn statement that conflicts with that footage exposes them to criminal charges well beyond a denied claim, not just civil liability for the attempted payout.`,
@@ -3923,4 +3912,15 @@ UsGM.push({
     sourceUrl: 'https://www.wafb.com/2026/03/02/couple-lied-about-crash-defraud-insurance-company-ags-office-says/',
     country: 'US',
     state: 'LA',
+});
+UsGM.push({
+    name: 'Fake DEA Agent Medical License Threat Scam Targeting Mississippi Physicians',
+    slug: 'mississippi-dea-impersonation-physician-license-threat-scam',
+    description: `The Mississippi State Board of Medical Licensure issued a scam alert in 2026 after several Mississippi physicians — including the Board's own executive director — received voicemails from callers impersonating U.S. Drug Enforcement Administration agents who claimed the physician was under investigation for unspecified "illegal activity" and threatened that their medical license would be suspended or revoked unless they called back a personal phone number right away. The callers opened by reciting a fake badge number and identified themselves as an "Officer" with the "DEA Drug Enforcement Administration," phrasing the Board flagged as an immediate red flag since real DEA personnel are Special Agents, not "Officers," and never lead with a badge number over the phone. The Board also noted the calls never referenced any actual patient name, prescription, or case detail, unlike a genuine investigation, and pointed out that the DEA does not have authority over state medical licenses in the first place — that authority belongs to state medical boards like MSBML itself. Physicians and other licensees who receive one of these calls are advised not to call the number back, not to share any personal or license information, and not to send any payment, and instead to report the call to the FBI's Internet Crime Complaint Center at ic3.gov, the FTC at reportfraud.ftc.gov, and the DEA's Diversion Control Division hotline at 1-877-792-2873.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Mississippi State Board of Medical Licensure'],
+    sourceUrl: 'https://www.msbml.ms.gov/news/scam-alert-dea-impersonation-2026',
+    country: 'US',
+    state: 'MS',
 });
