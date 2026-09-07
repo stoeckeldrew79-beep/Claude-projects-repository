@@ -3942,6 +3942,30 @@ UsNS.push({
 });
 
 UsNS.push({
+    name: 'Rhode Island Voter-Verification Phishing Email',
+    slug: 'rhode-island-vote-sos-phishing-email-scam',
+    description: `The Rhode Island Department of State's Election Division warned voters on July 24, 2026 about a phishing email circulating under the subject line "2026 Vote RI Gov Information Verification," sent from an unauthorized address made to look like an official state account, "admin@vote.sos.ri.gov." The message falsely tells recipients they must click a link to confirm or update their voter registration information, and manufactures urgency by threatening that the recipient's license will be revoked if they do not act within 24 hours — a consequence the Election Division has no authority to impose and voter registration has nothing to do with. Secretary of State Gregg M. Amore's office confirmed the email was not sent by the state and stressed that Rhode Island election officials will never ask a voter to click a link to verify their information outside of the state's own trusted site. Voters who receive the email are advised to delete it without clicking anything and to check or update their registration only by typing vote.ri.gov directly into a browser, never through a link supplied in an unsolicited email.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Rhode Island Department of State', 'WPRI', 'Valley Breeze'],
+    sourceUrl: 'https://www.ri.gov/press/view/51200',
+    country: 'US',
+    state: 'RI',
+});
+
+UsNS.push({
+    name: 'North Dakota HHS Developmental Disabilities Division Phishing Data Breach',
+    slug: 'north-dakota-hhs-developmental-disabilities-phishing-breach',
+    description: `A phishing email struck the North Dakota Department of Health and Human Services in July 2026, when three employees of the agency's Developmental Disabilities Division interacted with the malicious message and gave attackers unauthorized access to their state email accounts. The North Dakota Information Technology Department identified the intrusion on July 21, 2026 and confirmed the compromised accounts the next day, but a review of exactly what the attackers could see inside those inboxes was not completed until August 14, 2026. HHS determined that approximately 1,700 people who receive developmental disability services statewide — about 1,690 in the Bismarck area, plus 10 each in Dickinson and Grand Forks — had protected health information exposed, which the agency said may include names, contact information, dates of birth, developmental disability service details, health plan names and identification numbers, medical information, and guardian information. HHS notified the U.S. Department of Health and Human Services' Office for Civil Rights and the North Dakota Attorney General's Office, sent written notices to affected individuals, and is directing anyone with questions to Kristen Vander Vorst, the agency's Developmental Disabilities Field Services Administrator, at 800-755-8529. Because the accessed data included guardian information alongside medical and identification details, HHS is urging affected families to monitor both financial accounts and any unexpected use of the disabled family member's identifying information, not just watch for direct financial fraud.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'high',
+    sources: ['North Dakota Department of Health and Human Services', 'North Dakota Monitor', 'GovTech'],
+    sourceUrl: 'https://www.govtech.com/security/phishing-attack-targeted-north-dakota-health-human-services',
+    country: 'US',
+    state: 'ND',
+});
+
+UsNS.push({
     name: 'Cincinnati "Rumby" Laundry Startup Investor Fraud (Benjamin Cantey)',
     slug: 'ohio-cincinnati-rumby-startup-investor-fraud-cantey',
     description: `Benjamin Cantey, 43, of Cincinnati, was sentenced on July 27, 2026 in the U.S. District Court for the Southern District of Ohio to 40 months in federal prison for defrauding investors out of more than $6.5 million through a laundry-and-dry-cleaning delivery startup. Cantey founded Carbon IQ Inc., doing business as Rumby, in 2019 as a venture-backed e-commerce platform for pickup-and-delivery laundry and dry-cleaning service, and from 2020 through 2022 he told investors a stream of false claims about the company's revenue, profits, bank balance, and growth to keep new money coming in. In one example prosecutors cited, Cantey told investors Rumby ended May 2022 with a $1.5 million bank balance when the account actually held a negative balance of roughly $53,000. Rather than growing the business, Cantey diverted about $850,000 of investor funds to help buy a $1.7 million, 5,000-square-foot home on Garden Place in Cincinnati's Hyde Park neighborhood. He was indicted in December 2024, pleaded guilty to wire fraud in October 2025, and was ordered as part of his sentence to pay restitution and forfeit the Hyde Park home. The case is a reminder that a "venture-backed startup" label and a polished pitch about revenue and growth are not verification — a would-be investor in a founder-led company can and should ask for audited bank statements or a third-party financial review rather than relying on the founder's own claimed numbers, especially before wiring money toward a fast-growing but pre-profit business.`,
