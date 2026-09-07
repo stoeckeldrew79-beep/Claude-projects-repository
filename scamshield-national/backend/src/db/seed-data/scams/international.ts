@@ -9355,3 +9355,36 @@ International.push(
     country: 'SV',
   },
 );
+
+International.push(
+  {
+    name: 'Fake "Preferential Loan" NBKR Impersonation Scam',
+    slug: 'kyrgyzstan-nbkr-preferential-loan-scam',
+    description: `Ads circulating on social media and messaging apps in Kyrgyzstan offer help securing a "preferential" (low-interest) loan, using forged documents stamped with the National Bank of the Kyrgyz Republic's (NBKR) own logo and fabricated customer testimonials to look official, before the "facilitator" asks the victim to transfer money upfront to process or secure the loan. The National Bank issued a public warning stating plainly that it "does not provide loans to individuals; does not request money transfers; does not send employee identification documents through messaging apps; [and] does not provide services to individuals" — meaning any loan offer arriving this way is fraudulent by definition. The NBKR urged citizens to verify any such offer only through the bank's own official channels, to never transfer money to unknown individuals, and, if already targeted, to block their bank card immediately and report the scheme to law enforcement.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['National Bank of the Kyrgyz Republic (NBKR)', '24.kg'],
+    sourceUrl: 'https://m.24.kg/english/382919_National_Bank_of_Kyrgyzstan_warns_about_new_fraud_scheme/',
+    country: 'KG',
+  },
+  {
+    name: 'Instagram Fake Crypto Wallet "Withdrawal Fee" Scam',
+    slug: 'kyrgyzstan-instagram-crypto-wallet-withdrawal-fee-scam',
+    description: `Advertisements on Instagram promise fast, easy earnings; once a Kyrgyzstani viewer responds, the scammer registers them for a cryptocurrency "account" and creates a wallet displaying a fabricated balance made to look like real profits. When the victim tries to withdraw the supposed earnings, the scammer claims an international transfer limit through Western Union is blocking the payout and demands a fee to lift the restriction — collecting that payment and then cutting off contact, since no real funds ever existed. The National Bank of the Kyrgyz Republic flagged the scheme in a public fraud warning, urging citizens not to trust such messages, never to send money to unknown parties to "unlock" funds, and to contact law enforcement immediately if targeted.`,
+    categorySlug: 'cryptocurrency-scams',
+    alertLevel: 'high',
+    sources: ['National Bank of the Kyrgyz Republic (NBKR)', '24.kg'],
+    sourceUrl: 'https://24.kg/english/341781_National_Bank_of_Kyrgyzstan_warns_of_new_fraud_scheme/',
+    country: 'KG',
+  },
+  {
+    name: 'Fake Bank Chairman Messaging Scam',
+    slug: 'kyrgyzstan-fake-bank-chairman-messaging-scam',
+    description: `Fraudsters message current and former commercial bank chairpersons and executives in Kyrgyzstan through messaging apps, using a real photograph of a bank chairperson, deputy, or other manager to impersonate National Bank leadership and warn the target of alleged, unspecified legal trouble. A second fraudster then poses as a law-enforcement officer and pressures the target to transfer money under various pretexts to resolve the fabricated problem. The National Bank of the Kyrgyz Republic responded that it "never asks citizens for their personal data over the phone or offers to transfer money to a so-called safe account," and urged anyone contacted this way to verify the claim through official sources and never transfer funds to unknown persons under any pretext.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['National Bank of the Kyrgyz Republic (NBKR)', '24.kg'],
+    sourceUrl: 'https://24.kg/english/321968_National_Bank_of_Kyrgyzstan_warns_about_scammers_posing_as_banks_management/',
+    country: 'KG',
+  },
+);
