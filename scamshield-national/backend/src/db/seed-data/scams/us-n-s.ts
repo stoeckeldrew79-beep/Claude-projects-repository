@@ -3904,3 +3904,15 @@ UsNS.push({
     country: 'US',
     state: 'NE',
 });
+
+UsNS.push({
+    name: 'New Hampshire "Virus on Your Device" Cryptocurrency Blackmail Letter Scam',
+    slug: 'new-hampshire-virus-device-crypto-blackmail-letter',
+    description: `The New Hampshire Attorney General's Office received several reports from residents who received unsolicited emails, each with a subject line and body containing the recipient's own name, that attached a threatening letter listing the recipient's name, telephone number, home address, and a photograph of their house. The letter falsely claimed that a virus had been secretly placed on the recipient's electronic device, giving the sender the ability to track their browsing history, emails, and social media accounts, and threatened to release extracted "embarrassing information" to the recipient's contacts unless they paid a "privacy fee" in cryptocurrency. Attorney General John M. Formella's office confirmed the senders never actually visited the victims' homes or gained any access to their devices — the personal details used to make the threat feel credible, including the home photo, were assembled from publicly available sources such as property records and online map imagery, not from any real hack. The office said the scheme is designed purely to manufacture fear and urgency so the recipient pays before stopping to verify the claim, and urged anyone who receives such a letter not to pay, not to reply, and to report it to the Attorney General's Consumer Protection and Antitrust Bureau rather than engaging with the sender.`,
+    categorySlug: 'sextortion',
+    alertLevel: 'medium',
+    sources: ['New Hampshire Department of Justice', 'Boston 25 News', 'My Keene Now'],
+    sourceUrl: 'https://www.doj.nh.gov/news-and-media/scam-alert-attorney-general-warns-blackmail-scam-targeting-new-hampshire-residents',
+    country: 'US',
+    state: 'NH',
+});
