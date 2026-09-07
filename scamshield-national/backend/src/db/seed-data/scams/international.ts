@@ -10180,3 +10180,26 @@ International.push(
     country: 'TJ',
   },
 );
+
+International.push(
+  {
+    name: '"BG Wealth Sharing" Cryptocurrency Ponzi Scheme (Samoa)',
+    slug: 'samoa-bg-wealth-sharing-crypto-ponzi-scheme',
+    description: `The Central Bank of Samoa issued a public advisory on 28 March 2026 warning residents against "BG Wealth Sharing," a cryptocurrency investment scheme promoted online under slogans like "Join the Crypto Revolution" and marketed through a "click-a-button" mobile app, social media posts, and in-person presentations promising daily profits and guaranteed trading returns. The Bank stated the scheme "shows strong signs of being a scam, commonly known as a Ponzi or pyramid scheme," noting it is not licensed or regulated in Samoa, that cryptocurrency has no legal-tender status in the country, and that its promotional material appears designed to impersonate legitimate trading platforms. After promoters continued advertising events despite the warning, the Central Bank followed up with a stronger advisory directing the public not to invest in, attend, promote, or support any activity carried out under the BG Wealth name, and instructed banks and financial institutions to monitor for suspicious transactions linked to the scheme and report them to the Samoa Police Service and the Ministry of Commerce, Industry and Labour. Similar warnings about BG Wealth Sharing have since been issued by regulators in Tonga, Australia, New Zealand, the United Kingdom, the Philippines, and several U.S. and Canadian jurisdictions. The Central Bank has reminded the public that anyone who knowingly helps move money for the scheme — including by accepting deposits or forwarding funds on a promoter's behalf — could themselves be committing a money-laundering offence under Samoa's Crimes Act 2013.`,
+    categorySlug: 'ponzi-pyramid-schemes',
+    alertLevel: 'high',
+    sources: ['Central Bank of Samoa', 'Samoa Global News', 'Samoa News Hub'],
+    sourceUrl: 'https://cbs.gov.ws/news/central-bank-of-samoa-warns-public-of-rising-scams',
+    country: 'WS',
+  },
+  {
+    name: 'ANZ Samoa Holiday-Season One-Time-Passcode Scam',
+    slug: 'anz-samoa-holiday-one-time-passcode-scam',
+    description: `ANZ Bank's Samoa Country Head, Sucharu Tandon, issued a public warning on 17 December 2025 that fraud typically spikes during the Christmas and New Year period, as scammers target people who are busy with online shopping, holiday bookings, and everyday banking. ANZ said it had recorded real cases in Samoa where customers lost money after being tricked into reading out the one-time passcode (OTP) sent to their phone during a banking transaction, allowing a criminal to complete a transfer or purchase from the victim's own account. Tandon stated plainly that "ANZ will never ask customers for one-time passcodes" and that any call, text, or message requesting one should be treated as a scam attempt, regardless of how convincing or urgent it sounds. The bank's advisory, which followed earlier 2025 warnings from ANZ about fake advertisements and shopping-season fraud, also urged customers not to sign blank cheques, to keep chequebooks secured, to verify unfamiliar phone numbers through official bank channels before acting on them, and to check for secure-site indicators before entering card details on any online shopping or travel-booking website. Customers were told to report suspicious contact or unauthorized transactions to the bank immediately so accounts can be frozen before further losses occur.`,
+    categorySlug: 'account-takeover',
+    alertLevel: 'medium',
+    sources: ['Samoa Observer', 'ANZ Samoa'],
+    sourceUrl: 'https://www.samoaobserver.ws/category/samoa/117441',
+    country: 'WS',
+  },
+);
