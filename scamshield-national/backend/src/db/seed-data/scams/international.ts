@@ -10318,3 +10318,26 @@ International.push(
     country: 'BJ',
   },
 );
+
+International.push(
+  {
+    name: 'Solomon Islands Money Mule Bank Account Scam',
+    slug: 'solomon-islands-money-mule-bank-account-scam',
+    description: `The Central Bank of Solomon Islands (CBSI), through the Solomon Islands Financial Intelligence Unit (SIFIU), issued Press Release No. 12/25 on October 20, 2025 warning the public about a sophisticated money-laundering scheme built on the misuse of ordinary personal bank accounts. Scammers first approach a target through social media platforms such as Facebook and WhatsApp, or by phone, using false pretenses — a fake job offer, promised financial aid, an investment opportunity, a romance, or a supposed inheritance — to get the person to hand over their bank account details or agree to receive money on someone else's behalf. Once deposits land in that account, the owner is instructed to withdraw the funds and transfer or redeposit them into another local account, which repeats the same instructions in turn, moving the money through three or more separate "money mule" accounts before it is finally drawn down by the scammer, often using a Visa debit card. CBSI stressed that anyone who takes part in this chain — even without realizing the money is stolen — is acting as a money mule and can face serious legal consequences, since laundering funds through a personal account is a criminal offense regardless of intent. The Central Bank urged Solomon Islanders to never share their bank account details with people they do not know, especially online contacts, to treat unsolicited requests to receive and forward money as a serious warning sign, to report suspicious approaches to their bank, the police, or SIFIU, and to warn family members and friends — particularly those newer to online banking and mobile money — about how the scheme works.`,
+    categorySlug: 'employment-scams',
+    alertLevel: 'high',
+    sources: ['Central Bank of Solomon Islands', 'Solomon Islands Financial Intelligence Unit (SIFIU)'],
+    sourceUrl: 'https://www.cbsi.com.sb/press-release-no-12-25-public-warning-money-mule-scam-targeting-local-bank-account-holders/',
+    country: 'SB',
+  },
+  {
+    name: 'F-Mobile Pyramid Scheme',
+    slug: 'solomon-islands-f-mobile-pyramid-scheme',
+    description: `An online platform called "F-Mobile," also marketed under the name "Friendship Money," spread rapidly across the Solomon Islands during late 2025 and early 2026, first gaining a large following in Honiara and Gizo before reaching users in other provinces. The app promised members payment in US dollars — automatically converted to Solomon dollars and credited to a mobile wallet — for watching and promoting advertisements and, above all, for recruiting new participants, with many members needing around 30 referrals before they could request a withdrawal. On February 2, 2026, the Central Bank of Solomon Islands (CBSI) issued a public warning formally identifying F-Mobile as an illegal pyramid scheme, noting it was neither licensed nor regulated to collect deposits or offer any investment service in the country. CBSI explained that the platform displayed the classic hallmarks of a pyramid operation: unusually high and quick returns advertised with little or no risk, income that depended on recruiting new members rather than any real underlying business or product, and a structure that could only pay existing members for as long as new sign-ups kept joining. Some early participants did receive small payouts, which built trust and encouraged them to recruit further, but a growing number of users found that once withdrawal fees of $100 or more were demanded, or once recruitment slowed, payments stopped and accounts became inaccessible, leaving members who had invested time and money with nothing to show for it. CBSI urged anyone who had been approached by F-Mobile or a similar scheme to report it to the Bank's Solomon Islands Financial Intelligence Unit (SIFIU) or to the Royal Solomon Islands Police Force (RSIPF), and reminded the public that any offer promising fast, guaranteed income mainly through recruiting others — rather than a genuine product or service — should be treated as a certain warning sign of a pyramid scheme.`,
+    categorySlug: 'ponzi-pyramid-schemes',
+    alertLevel: 'high',
+    sources: ['Central Bank of Solomon Islands', 'Solomon Islands Financial Intelligence Unit (SIFIU)', 'In-depth Solomons'],
+    sourceUrl: 'https://indepthsolomons.com.sb/cbsi-warns-the-public-against-pyramid-scheme-operating-as-f-mobile/',
+    country: 'SB',
+  },
+);
