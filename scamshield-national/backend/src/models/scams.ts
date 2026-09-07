@@ -152,6 +152,20 @@ export async function countsByCountry() {
   return rows.map((r) => ({ country: r.country as string, count: Number(r.count) }));
 }
 
+// Documented scams per US state. Filtered the same way countsByCountry is —
+// active, non-historical — so the two maps count the same population and a
+// state total cannot disagree with its country total.
+export async function countsByState() {
+  const { rows } = await pool.query(
+    `SELECT state, COUNT(*) AS count
+     FROM scams
+     WHERE is_active = true AND state IS NOT NULL AND is_historical = false
+     GROUP BY state
+     ORDER BY state`
+  );
+  return rows.map((r) => ({ state: r.state as string, total: Number(r.count) }));
+}
+
 export async function getScamBySlug(slug: string) {
   const { rows } = await pool.query(
     `SELECT s.*, c.name AS category_name, c.slug AS category_slug

@@ -25,9 +25,23 @@ const CODE_BY_NAME: Record<string, string | undefined> = Object.fromEntries(
   Object.entries(US_STATE_NAMES).map(([code, name]) => [name, code])
 );
 
+// Serves two views: documented scams (complete, all 51 states) and live
+// alerts (current, sparse). ag_count belongs to an alert's source and has no
+// meaning for a database entry, so it is optional and simply not shown in the
+// coverage view.
+export interface StateCount {
+  state: string;
+  total: number;
+  ag_count?: number;
+}
+
 interface Props {
-  counts: DailyNewsStateCount[];
+  counts: StateCount[];
   onStateClick: (code: string) => void;
+  // What one unit of shading means, so the legend and tooltip cannot describe
+  // the wrong dataset — the failure this component already had, calling
+  // documented entries "alerts".
+  unit: { singular: string; plural: string };
 }
 
 interface Shape {
@@ -40,7 +54,7 @@ interface Hovered {
   code: string;
   name: string;
   total: number;
-  agCount: number;
+  agCount?: number;
   x: number;
   y: number;
 }
@@ -62,7 +76,7 @@ function makeScale(values: number[]): (n: number) => string {
   };
 }
 
-export function UsStateMap({ counts, onStateClick }: Props) {
+export function UsStateMap({ counts, onStateClick, unit }: Props) {
   const [hovered, setHovered] = useState<Hovered | null>(null);
 
   const byCode = useMemo(
@@ -161,8 +175,8 @@ export function UsStateMap({ counts, onStateClick }: Props) {
         >
           <p className="font-semibold">{hovered.name}</p>
           <p className="mt-0.5 text-slate-300">
-            {hovered.total} alert{hovered.total === 1 ? '' : 's'}
-            {hovered.agCount > 0 && ` · ${hovered.agCount} official AG`}
+            {hovered.total} {hovered.total === 1 ? unit.singular : unit.plural}
+            {hovered.agCount !== undefined && hovered.agCount > 0 && ` · ${hovered.agCount} official AG`}
           </p>
         </div>
       )}
@@ -170,7 +184,7 @@ export function UsStateMap({ counts, onStateClick }: Props) {
       {/* A sequential scale needs its legend: the ramp encodes magnitude, and
           without it the colours are decoration. */}
       <div className="mt-4 flex flex-wrap items-center gap-3 text-xs text-slate-300">
-        <span>Fewer alerts</span>
+        <span>Fewer {unit.plural}</span>
         <div className="flex">
           {RAMP.map((c) => (
             <span key={c} className="h-3 w-8" style={{ backgroundColor: c }} />
@@ -179,7 +193,7 @@ export function UsStateMap({ counts, onStateClick }: Props) {
         <span>More</span>
         <span className="ml-2 flex items-center gap-1.5">
           <span className="h-3 w-8" style={{ backgroundColor: NO_DATA }} />
-          No alerts recorded
+          No {unit.plural} recorded
         </span>
       </div>
     </div>

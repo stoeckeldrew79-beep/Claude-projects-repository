@@ -40,6 +40,10 @@ export default function Database() {
   // than replacing it.
   const [tag, setTag] = useState<string | undefined>(searchParams.get('tag') ?? undefined);
   const [country, setCountry] = useState<string | undefined>(searchParams.get('country') ?? undefined);
+  // Arrived at from the state map. The API and ScamListParams both took a
+  // state filter already; this page simply never read it, so a link carrying
+  // one showed an unfiltered list and looked broken.
+  const [state, setState] = useState<string | undefined>(searchParams.get('state') ?? undefined);
   const [sort, setSort] = useState<NonNullable<ScamListParams['sort']>>('alert_level');
   const [view, setView] = useState<NonNullable<ScamListParams['view']>>('current');
   const { data: categories } = useCategories();
@@ -51,7 +55,7 @@ export default function Database() {
     fetchNextPage,
     hasNextPage,
     isFetchingNextPage,
-  } = useInfiniteScams({ search: search || undefined, category, tag, country, sort, view });
+  } = useInfiniteScams({ search: search || undefined, category, tag, country, state, sort, view });
 
   function handleViewChange(next: NonNullable<ScamListParams['view']>) {
     setView(next);
@@ -103,6 +107,23 @@ export default function Database() {
           </Link>{' '}
           for the full stories behind some of these.
         </p>
+      )}
+
+      {/* State has no select of its own — it arrives from the map. Shown as a
+          removable chip so a filtered list explains itself instead of looking
+          like the database is missing most of its entries. */}
+      {state && (
+        <div className="mb-4">
+          <button
+            type="button"
+            onClick={() => setState(undefined)}
+            className="inline-flex items-center gap-2 rounded-full border border-slate-300 bg-slate-50 px-3 py-1.5 text-sm text-slate-700 hover:border-slate-400"
+          >
+            State: {state}
+            <span aria-hidden className="text-slate-400">×</span>
+            <span className="sr-only">Clear state filter</span>
+          </button>
+        </div>
       )}
 
       <div className="flex flex-wrap gap-3 mb-6">
