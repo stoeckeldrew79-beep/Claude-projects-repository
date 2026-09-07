@@ -9775,3 +9775,36 @@ International.push(
     country: 'DZ',
   },
 );
+
+International.push(
+  {
+    name: 'Bhutan Fake Lottery and Prize Scam',
+    slug: 'bhutan-fake-lottery-prize-scam',
+    description: `Lottery and prize scams are the single most-reported type of fraud in Bhutan, with the Royal Bhutan Police (RBP) recording more than 50 such cases in a single year — the largest category among the roughly 170 scam cases logged that year. Scammers reach victims through Telegram, WhatsApp, and WeChat, announcing that they have won a cash prize, lottery, or lucky draw, sometimes tied to a well-known company or event to appear credible. To "release" the winnings, the victim is told to first pay a processing fee, tax, or customs charge, or to hand over banking details and a one-time password (OTP) so the prize can supposedly be deposited directly — money that instead flows out of the victim's own account. The RBP's Crime Division has said scammers deliberately operate through these messaging platforms and disguise their real identities, making the funds difficult to trace once sent. Nationwide, scams of this kind and others funneled roughly Nu 40 million out of victims' accounts since 2024, with police managing to recover only about half of that total. The RBP advises the public that no legitimate lottery or prize ever requires an upfront fee or an OTP to be paid out, and urges anyone contacted this way to stop responding and report the message immediately.`,
+    categorySlug: 'lottery-sweepstakes-scams',
+    alertLevel: 'high',
+    sources: ['Royal Bhutan Police (RBP)', 'Bhutan Broadcasting Service (BBS)'],
+    sourceUrl: 'https://www.bbs.bt/237761/',
+    country: 'BT',
+  },
+  {
+    name: 'Bhutan RMA and Bank Official Impersonation OTP Scam',
+    slug: 'bhutan-rma-bank-impersonation-otp-scam',
+    description: `The Royal Monetary Authority (RMA) of Bhutan, the country's central bank, has issued a public alert warning that scammers ramp up activity during long holidays and weekends, when banks are closed and victims are less able to quickly verify a suspicious contact. Fraudsters impersonate officials from the RMA itself, commercial banks, or telecom operators over WhatsApp, phone calls, or social media, dangling a lottery prize, an investment opportunity, or a cryptocurrency scheme to draw the victim in. A related and increasingly common tactic identified by the Royal Bhutan Police, known locally as "spoofing," involves callers based outside Bhutan who disguise their number to display as a genuine Bhutanese number before asking the victim to read out a one-time password (OTP) or other personal and banking details. The RMA states plainly that it and genuine banks or government agencies "will never ask for your OTP or confidential information over the phone or via social media," and urges the public to never share an OTP, M-PIN, T-PIN, or CID number with anyone who contacts them unsolicited, regardless of which institution they claim to represent.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Royal Monetary Authority (RMA) of Bhutan', 'Royal Bhutan Police (RBP)'],
+    sourceUrl: 'https://www.rma.org.bt/view_news/123/',
+    country: 'BT',
+  },
+  {
+    name: 'Bhutan Fake Organization Email Link Scam',
+    slug: 'bhutan-fake-organization-email-link-scam',
+    description: `Kuensel, Bhutan's national newspaper, reported email-based fraud as a fast-growing new pattern in the country's online scam cases, with the Royal Bhutan Police logging 12 email-compromise cases involving Nu 600,905 within just a few months. In this scheme, a scammer sends an email carrying the logo and other identifying details of a real organization — a bank, business, or government body — to make it look genuine, together with a link. Once the victim opens the link, the scammer gains access to the bank account tied to that email address, harvests personal information, and attempts to obtain the account's one-time password (OTP) to authorize transfers out of it. The case count is part of a broader total of 366 scam cases recorded in Bhutan between 2023 and the report date, involving roughly Nu 40.1 million. Authorities reiterate the same core advice given for other OTP-based schemes: never click a link in an unsolicited email claiming to be from a bank or organization, and never share an OTP, M-PIN, or T-PIN with anyone, since no legitimate institution asks for these details by email.`,
+    categorySlug: 'phishing',
+    alertLevel: 'medium',
+    sources: ['Kuensel', 'Royal Bhutan Police (RBP)'],
+    sourceUrl: 'https://kuenselonline.com/news/email-scams-a-new-trend-in-online-fraud-cases',
+    country: 'BT',
+  },
+);
