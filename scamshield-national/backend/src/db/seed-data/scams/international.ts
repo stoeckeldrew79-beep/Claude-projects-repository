@@ -9226,3 +9226,36 @@ International.push(
     country: 'BZ',
   },
 );
+
+International.push(
+  {
+    name: 'Fake "Central Bank of Barbados" Account Re-Verification Phishing Site',
+    slug: 'barbados-fake-central-bank-reverification-phishing-site',
+    description: `A fraudulent website, centralbankorg.com, copied the branding of the real Central Bank of Barbados and told visitors they needed to "re-verify" their personal bank account online or risk having it suspended, directing them to enter banking credentials and connect their accounts through the fake site. The Central Bank of Barbados issued a public warning on May 16, 2025 confirming the site had no affiliation with the institution and stressing that it never asks members of the public to verify or connect personal bank accounts through a website, email, or text link — its only official site is www.centralbank.org.bb. The Bank urged anyone who had already entered information on the fake site to contact their bank immediately, told the public to disregard any unsolicited message urging urgent account "re-verification," and asked victims to report the scam to the Barbados Police Service's Cyber Crime Unit.`,
+    categorySlug: 'phishing',
+    alertLevel: 'high',
+    sources: ['Central Bank of Barbados', 'Barbados Today'],
+    sourceUrl: 'https://www.centralbank.org.bb/news/general-press-release/public-warning-fraudulent-website-alert',
+    country: 'BB',
+  },
+  {
+    name: 'Fake "Tier One Wallet" Investment Scheme Impersonating Barbadian Banks',
+    slug: 'barbados-fake-tier-one-wallet-bank-impersonation-investment-scheme',
+    description: `An Instagram account using the handle "Chris Satali__447" posted an ad promoting so-called "tier one wallet" investments promising extraordinary returns on an initial deposit, and to make the pitch look credible it displayed the logos of four real Barbadian and regional financial institutions — the City of Bridgetown Co-operative Credit Union, Sagicor, CIBC, and RBC — none of which had any connection to the scheme. Interested users were told to send a direct message to the account to arrange their "investment," a classic funnel that leaves no public record of what victims are then asked to pay or how. Minister in the Ministry of Finance Ryan Straughn publicly raised the alarm on March 15, 2025, just two days after warning of rising social media scams in his own Budget speech, confirming that none of the named institutions were associated with the scheme in any way and pleading with Barbadians "to please, please, do not contact these persons." The case illustrates a recurring tactic across the Caribbean: borrowing the logos of well-known, trusted local banks to lend legitimacy to an investment pitch that lives entirely inside unsolicited social media messages, with no licensed broker, prospectus, or regulator oversight behind it.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ['Barbados Today', 'nationnews.com'],
+    sourceUrl: 'https://barbadostoday.bb/2025/03/15/minister-straughn-warns-public-against-elaborate-social-media-scam/',
+    country: 'BB',
+  },
+  {
+    name: 'Fake Barbados Police Officer WhatsApp Video Call Scam',
+    slug: 'barbados-fake-police-officer-whatsapp-video-call-scam',
+    description: `Scammers place WhatsApp video calls to members of the public in Barbados, speaking with foreign accents and using profile pictures and backgrounds showing crests or imagery designed to resemble the official Barbados Police Force badge. During the call they falsely claim that a hacker has already broken into the victim's bank account using "privacy software" and that they, posing as investigating officers, need to verify the victim's identity to recover the stolen funds — then ask the victim to display or hand over images of their identification card, bank cards, PINs, passwords, and other banking details. The Barbados Police Service issued a public warning on June 3, 2026 stating plainly that these callers are not police officers and that the Force will never request identification documents, bank cards, banking information, passwords, or PINs through WhatsApp, video calls, social media, or any other online channel. Officers urged anyone contacted this way to end the call immediately, refuse to share any personal or financial information, and report the incident to police, noting the scam follows a broader pattern — also flagged separately by the Central Bank of Barbados over a fake video impersonating its Governor — of fraudsters using video calls on messaging apps to manufacture urgency and borrowed authority in order to extract banking credentials directly from victims.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Barbados Today', 'nationnews.com', 'Caribbean Broadcasting Corporation'],
+    sourceUrl: 'https://barbadostoday.bb/2026/06/03/scam-alert-police-issue-warning-as-fraudsters-pose-as-officers-on-social-media/',
+    country: 'BB',
+  },
+);
