@@ -10,12 +10,16 @@ export function useScams(params: ScamListParams = {}) {
 
 // Powers the Database page's "Load more" — appends pages instead of
 // replacing them, so a page shorter than PAGE_SIZE means there's no more.
-export function useInfiniteScams(params: Omit<ScamListParams, 'page'> = {}) {
+// `enabled` matters on a page whose filter arrives asynchronously (the state
+// page learns its state code from a separate request): without it the first
+// render fires an unfiltered fetch of the whole database.
+export function useInfiniteScams(params: Omit<ScamListParams, 'page'> = {}, enabled = true) {
   return useInfiniteQuery({
     queryKey: ['scams', 'infinite', params],
     queryFn: ({ pageParam }) => fetchScams({ ...params, page: pageParam }),
     initialPageParam: 1,
     getNextPageParam: (lastPage, allPages) => (lastPage.length === PAGE_SIZE ? allPages.length + 1 : undefined),
+    enabled,
   });
 }
 

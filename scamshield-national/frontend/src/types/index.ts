@@ -164,3 +164,29 @@ export interface User {
   sms_opt_in: boolean;
   email_opt_in: boolean;
 }
+
+export interface StateSummary {
+  state: string;
+  state_name: string;
+  slug: string;
+  scam_count: number;
+  news_count: number;
+}
+
+export interface StateCategoryCount {
+  name: string;
+  slug: string;
+  count: number;
+}
+
+// One state's page data: its Attorney General's consumer-protection office
+// (all 51 verified in state_ag_sources) plus what the database holds for it.
+export interface StateDetail extends StateSummary {
+  agency_name: string;
+  consumer_protection_url: string;
+  reports_url: string | null;
+  has_published_reports: boolean;
+  description: string;
+  ag_news_count: number;
+  categories: StateCategoryCount[];
+}

@@ -11,6 +11,7 @@ import GlobalMap from './pages/GlobalMap';
 import GlobalSources from './pages/GlobalSources';
 import StateAttorneysGeneral from './pages/StateAttorneysGeneral';
 import Statistics from './pages/Statistics';
+import StateDetail from './pages/StateDetail';
 import NotFound from './pages/NotFound';
 import Report from './pages/Report';
 import ReportStatus from './pages/ReportStatus';
@@ -231,6 +232,7 @@ export default function App() {
           <Route path="/global-sources" element={<GlobalSources />} />
           <Route path="/state-attorneys-general" element={<StateAttorneysGeneral />} />
           <Route path="/statistics" element={<Statistics />} />
+          <Route path="/states/:slug" element={<StateDetail />} />
           <Route path="/report" element={<Report />} />
           <Route path="/report-status" element={<ReportStatus />} />
           <Route path="/subscribe" element={<Subscribe />} />

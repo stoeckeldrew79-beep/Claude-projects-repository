@@ -6,13 +6,14 @@ import { fetchDailyScamNews, fetchDailyNewsStates } from '../services/dailyNews'
 // headline landing without the visitor needing to reload.
 const REFETCH_INTERVAL_MS = 10 * 60 * 1000;
 
-export function useDailyScamNews(state?: string) {
+export function useDailyScamNews(state?: string, enabled = true) {
   return useQuery({
     // state is part of the key so switching filters refetches rather than
     // showing the previous state's cached headlines.
     queryKey: ['daily-scam-news', state ?? 'all'],
     queryFn: () => fetchDailyScamNews(state),
     refetchInterval: REFETCH_INTERVAL_MS,
+    enabled,
   });
 }
 

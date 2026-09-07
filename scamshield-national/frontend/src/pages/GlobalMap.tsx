@@ -5,6 +5,7 @@ import { useDailyNewsStates } from '../hooks/useDailyNews';
 import { useScamStates } from '../hooks/useScams';
 import { useDocumentMeta } from '../hooks/useDocumentMeta';
 import { GlobalActivityTicker } from '../components/GlobalActivityTicker';
+import { stateSlug } from '../utils/usStates';
 
 // Code-split: three.js only loads when someone visits this page, not on
 // every page load.
@@ -42,13 +43,12 @@ export default function GlobalMap() {
     navigate(`/database?country=${encodeURIComponent(country)}`);
   }
 
-  // Each view sends you where its own numbers live: the shading you clicked
-  // has to be the thing you land on, or the map is lying about what it counts.
+  // Documented coverage now has a destination of its own — the state page,
+  // which carries that state's AG office and live alerts alongside its
+  // entries, rather than a filtered slice of the national database. The
+  // alerts view still lands on the live feed, which is what it counts.
   function handleStateClick(code: string) {
-    const to =
-      stateView === 'documented'
-        ? `/database?state=${encodeURIComponent(code)}`
-        : `/todays-scams?state=${encodeURIComponent(code)}`;
+    const to = stateView === 'documented' ? `/states/${stateSlug(code)}` : `/todays-scams?state=${encodeURIComponent(code)}`;
     navigate(to);
   }
 
