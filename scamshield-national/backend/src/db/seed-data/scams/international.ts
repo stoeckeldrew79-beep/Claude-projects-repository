@@ -10019,3 +10019,26 @@ International.push(
     country: 'LC',
   },
 );
+
+International.push(
+  {
+    name: 'Fake Bank of Russia "Secure Account" Impersonation Scam',
+    slug: 'russia-fake-central-bank-secure-account-scam',
+    description: `The Bank of Russia (Central Bank of the Russian Federation, CBR) maintains a standing public warning that criminals are calling and emailing citizens while posing as its own employees, and reminds the public that CBR staff never contact individuals by phone about their personal accounts. In the scheme, a caller claiming to work for the Central Bank — sometimes backed up by an email carrying a forged CBR logo — tells the victim that a "secret" account has been opened in their name and is being used by fraudsters, or that a large sum tied to them is under threat of seizure, and that the situation must be resolved immediately to avoid fines or criminal liability. To "protect" the money, the caller walks the victim through installing a supposedly official banking-security application, which is in fact malware that gives the scammers remote access to the victim's real bank accounts, or instructs the victim to move funds into a designated "safe account" that the fraudsters control. Bank of Russia's consumer-protection guidance (fincult.info) and Sberbank's own 2025 fraud-pattern roundup both flag this central-bank impersonation script, alongside a related version in which callers pose as bank or law-enforcement staff to push the same "protective app," as among the most common schemes reported to Russian banks through 2025. Consumers are advised to hang up on any caller claiming to be from the Central Bank, never install an application at a caller's direction, and verify any account concern only by contacting their own bank through the number printed on their card.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Bank of Russia (Central Bank of the Russian Federation)', 'fincult.info (Bank of Russia financial literacy portal)', 'Sberbank'],
+    sourceUrl: 'https://www.cbr.ru/information_security/pmp/',
+    country: 'RU',
+  },
+  {
+    name: `"Warn Your Loved Ones" Multi-Victim Family Fraud Scheme`,
+    slug: 'russia-warn-your-loved-ones-family-fraud-scheme',
+    description: `Sberbank issued a public warning in November 2024 that has continued to be cited among the bank's top active fraud patterns through 2025, describing a combined scam engineered to defraud two people from a single phone call. Fraudsters first contact a victim under a false pretext — commonly posing as a bank, telecom, or law-enforcement employee — and, once they have engaged the victim, escalate to claiming that a criminal fraud case has been opened against them and that their money and property are about to be seized by court bailiffs unless they act immediately. Rather than asking the frightened victim to pay directly, the scammers instruct them to call a trusted relative or friend and ask that person to transfer a large sum on the victim's behalf "to keep it safe" from the supposed seizure, with the money sent to an account the criminals control; the relative, believing they are simply helping a family member in a genuine emergency, hands over their own funds, so both people end up defrauded. Sberbank's fraud-prevention team says this pattern remained one of the most-reported schemes among its customers through 2025 and has urged the public to be skeptical of any call claiming a criminal case has been opened over the phone, to remember that neither banks nor the Central Bank ever ask customers to move money to a "safe account," and — critically — to independently warn family members in advance so a relative receiving such a request recognizes it as fraud rather than complying out of panic.`,
+    categorySlug: 'family-emergency-scams',
+    alertLevel: 'high',
+    sources: ['Sberbank', 'RIA Novosti', 'Banki.ru'],
+    sourceUrl: 'https://www.sberbank.ru/ru/person/kibrary/articles/top-aktualnykh-skhem-moshennichestva-za-god',
+    country: 'RU',
+  },
+);
