@@ -10249,3 +10249,26 @@ International.push(
     country: 'LI',
   },
 );
+
+International.push(
+  {
+    name: `Togo Mobile Money "Re-Identification" Wallet Takeover Scam`,
+    slug: 'togo-mobile-money-reidentification-wallet-takeover-scam',
+    description: `Togo's National Cybersecurity Agency (Agence Nationale de Cybersécurité, ANCy) and its national CERT.tg incident-response team issued an advisory in 2025 warning of scammers calling Mixx by Yas and Flooz mobile money customers while posing as an agent of Togocom, Moov Africa, or the mobile money service itself. The caller tells the subscriber that their SIM card or mobile money account must be "re-identified" to comply with a supposed administrative update, then covertly triggers a genuine one-time verification code from the real Mixx or Flooz platform and pressures the victim to read the code back over the phone "to complete the re-identification." That code is actually what lets the fraudster remotely take control of the mobile money wallet and drain its balance within minutes. ANCy stressed that no telecom or mobile money agent will ever ask a customer to read out a verification code by phone, and that Togo's cybersecurity agency estimated online fraud caused at least 500 million CFA francs (roughly $850,000) in losses to Togolese victims in 2025, with mobile money account takeovers among the most common patterns reported to CERT.tg.`,
+    categorySlug: 'account-takeover',
+    alertLevel: 'high',
+    sources: ['Agence Nationale de Cybersécurité (ANCy - Togo)', 'CERT.tg', 'République Togolaise'],
+    sourceUrl: 'https://ancy.gouv.tg/arnaque-a-la-fausse-reidentification-mobile/',
+    country: 'TG',
+  },
+  {
+    name: `Togo Fake Ministry of Finance Crypto Investment Scheme`,
+    slug: 'togo-fake-ministry-finance-crypto-investment-scheme',
+    description: `In December 2025, a forged communiqué bearing the falsified signature of the secretary general of Togo's Ministry of Economy and Finance began circulating on WhatsApp and social media, inviting citizens to enroll in a purported official cryptocurrency investment program that promised to grow their capital quickly and "safely." The Ministry publicly denounced the document as fraudulent in a communiqué dated 5 December 2025, but a second falsified version, dated 10 December 2025 and again carrying a forged official signature, continued to circulate, prompting a further public denial from the Ministry on 13 December 2025. Togolese officials reminded the public that every genuine communication from the Ministry of Finance goes exclusively through public media and official institutional channels, never through a document forwarded on WhatsApp inviting people to send money into a crypto "investment program," and warned that anyone producing or spreading the forged document faced prosecution under Togolese law.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'medium',
+    sources: ["Ministère de l'Économie et des Finances (Togo)", 'République Togolaise', 'AllAfrica'],
+    sourceUrl: 'https://www.republicoftogo.com/toutes-les-rubriques/eco-finance/le-ministere-des-finances-dement-un-faux-programme-d-investissement',
+    country: 'TG',
+  },
+);
