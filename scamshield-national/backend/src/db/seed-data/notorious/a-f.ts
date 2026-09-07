@@ -3950,4 +3950,23 @@ Tilburg fired Stapel, and he voluntarily surrendered the PhD the University of A
 
 Stapel's case became a catalyst for a broader reckoning inside social psychology over how easily fabricated, "too clean" results could sail through peer review for years, helping fuel the field's subsequent replication crisis. He later published a memoir describing his own downfall, and a brief 2016 attempt to take on a research-support role at a Dutch vocational university collapsed under public criticism before he ever started. More than a decade on, Stapel remains barred in practice from the profession he once helped lead, a case still cited as the clearest illustration of how far a fabricated dataset can travel — through journals, textbooks, and PhD theses — before anyone thinks to check whether the underlying study ever actually happened.`,
   },
+  {
+    title: 'Cem Uzan and the İmarbank Collapse That Emptied $6 Billion From Turkish Depositors',
+    slug: 'cem-uzan-imarbank-collapse-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://en.wikipedia.org/wiki/Cem_Uzan',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Cem_Uzan_(cropped).jpg?width=1200',
+    coverImageCredit: 'Photo: Ersin Erturk (CC BY-SA 2.0)',
+    coverImagePosition: 40,
+    body: `Cem Uzan was, by the early 2000s, one of Turkey's most visible businessmen — heir to a conglomerate his family had built into a sprawling empire spanning television (Star TV, the country's first private commercial channel), the newspaper Star, the mobile carrier Telsim, and electricity distribution concessions. He later parlayed that visibility into politics, founding the Young Party (Genç Parti) in 2002 and running a nationalist, populist campaign that pulled in more than 7% of the vote in that year's general election without winning a single parliamentary seat under Turkey's threshold rules.
+
+Behind the media empire sat İmarbank, a small Uzan-family-controlled bank that turned out to be the operation's real engine of concealment. On July 3, 2003, Turkish banking regulators seized İmarbank and a sister institution, Adabank, after discovering that a huge share of depositor money — later estimated at around $6 billion — had never been properly recorded on the bank's official books at all. Investigators found the bank had run a shadow, off-the-books computer system that logged real customer deposits separately from the falsified figures reported to regulators, letting Uzan-family companies quietly siphon the difference into other ventures across the group while depositors' account statements showed balances that no longer had any real money behind them.
+
+The seizure triggered one of the largest banking scandals in modern Turkish history. Turkey's Savings Deposit Insurance Fund took over 219 companies tied to the Uzan family in February 2004 in an attempt to recover assets for depositors and creditors, while prosecutors built a case around fraud, forgery, and racketeering charges against Cem Uzan and other family members. By the time Turkish courts were ready to rule, Uzan and much of his family had already left the country.
+
+Turkish courts convicted Uzan in absentia on multiple occasions: a 23-year sentence for racketeering in 2010, and in March 2013 a further conviction for fraudulently transferring more than 1.46 billion Turkish lira in depositor funds to himself and family members to help conceal the embezzlement, for which he received roughly 18 years, later reduced under Turkish sentencing law to just over 9 years. None of it has ever been served. Uzan settled in France, where he was granted political asylum after arguing the case against him was a political vendetta by then-Prime Minister Recep Tayyip Erdoğan's government — a framing French authorities apparently found persuasive enough to shield him from extradition despite Turkey's repeated requests. Separately, a U.S. federal court awarded Motorola and Nokia a multibillion-dollar default judgment against the Uzan family in a related fraud case over unpaid loans tied to Telsim, after the family failed to appear or comply with discovery; U.S. District Judge Jed Rakoff described the Uzans as having gone "to any lengths, including fraud and racketeering, to preserve their business empire."
+
+More than two decades after İmarbank's collapse, Cem Uzan still lives openly in France as a fugitive from Turkish justice, his sentences unserved and his depositors' recovered funds only a fraction of what vanished. The case remains a stark illustration of how a bank's official books can say one thing while a second, hidden set of records tells depositors the truth only after regulators break down the door.`,
+  },
 );
