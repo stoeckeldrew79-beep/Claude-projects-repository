@@ -327,6 +327,7 @@ export const SCAM_TAGS: Record<string, string[]> = {
   'uae-elderly-woman-dh12-million-online-love-scam': ['elder-targeted'],
   'unaccredited-va-disability-claims-fee-scheme': ['veteran-targeted'],
   'utah-action-plumbing-elder-exploitation-upselling-scheme': ['elder-targeted'],
+  'utah-dopl-code-violation-notice-phishing-scam': ['small-business-targeted'],
   'utah-noahs-event-centers-1031-exchange-fraud': ['small-business-targeted'],
   'utah-state-fair-vendor-scam': ['small-business-targeted'],
   'utah-travis-peterson-veterans-charity-vehicle-donation-scheme': ['elder-targeted', 'veteran-targeted'],
