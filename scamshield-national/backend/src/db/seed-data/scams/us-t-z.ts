@@ -2301,3 +2301,15 @@ UsTZ.push({
     country: 'US',
     state: 'VA',
 });
+
+UsTZ.push({
+    name: 'Wyoming Crypto ATM Cash-Deposit Scam Surge',
+    slug: 'wyoming-crypto-atm-cash-deposit-scam-surge',
+    description: `Law enforcement across Wyoming reported a sharp rise in scams that funnel victims' cash through cryptocurrency ATMs, machines that convert paper money into crypto that can then be sent instantly, and irreversibly, to a wallet anywhere in the world. In Gillette and Campbell County, police and the sheriff's office investigated between 75 and 100 such cases over the prior year with combined losses exceeding $3 million; Cheyenne saw roughly $650,000 taken from victims over a 16-month span, and Sheridan lost about $1.5 million over two years. The scams typically open with a fabricated emergency — a caller posing as a law enforcement officer claiming the victim missed jury duty, a government official threatening arrest or deportation, a utility company warning of an imminent power shutoff, or, in romance-scam variants, an online partner who suddenly needs money — and then walk the victim step by step through feeding cash into a nearby crypto ATM kiosk and scanning a QR code the scammer supplies, at which point the money converts to cryptocurrency and disappears into a chain of digital wallets that investigators say is virtually impossible to unwind once the transaction clears. Wyoming Representative Ken Clouston, R-Gillette, introduced legislation for the state's next session that would require crypto ATM operators to be licensed by and follow rules set by the Wyoming Division of Banking, mirroring restrictions other states have adopted after similar loss patterns. Because a legitimate court, law enforcement agency, or utility company will never direct someone to pay a debt or avoid arrest by depositing cash into a cryptocurrency kiosk, anyone receiving that instruction — however urgent it sounds — should hang up and independently verify the claim before going anywhere near a crypto ATM.`,
+    categorySlug: 'cryptocurrency-scams',
+    alertLevel: 'high',
+    sources: ['Wyoming Public Media', 'Cowboy State Daily', 'Gillette News Record', 'AARP Wyoming'],
+    sourceUrl: 'https://www.wyomingpublicmedia.org/politics-government/2026-02-16/wyomingites-losing-millions-to-crypto-atm-scammers',
+    country: 'US',
+    state: 'WY',
+});
