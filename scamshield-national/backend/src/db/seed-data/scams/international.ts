@@ -10590,3 +10590,25 @@ International.push(
     country: 'PR',
   },
 );
+International.push(
+  {
+    name: 'Cayman Islands Bank Phone Impersonation Fraud',
+    slug: 'cayman-islands-bank-phone-impersonation-fraud',
+    description: `The Royal Cayman Islands Police Service (RCIPS) said in June 2026 that it was investigating a report of banking fraud after a victim received a phone call from someone claiming to be associated with a financial institution based in the Cayman Islands. During the call, the victim was persuaded to disclose personal banking information, which the caller then used to carry out unauthorised transactions on the victim's account, resulting in cash being stolen. Billy Pennington, president of the Cayman Islands Bankers Association (CIBA), said scammers are becoming increasingly sophisticated and creative, using tactics such as social engineering and artificial intelligence to impersonate trusted sources, clone voices, and build convincing fake messages or websites in order to steal sensitive information. RCIPS reminded the public that legitimate banks do not ask customers to read out full account numbers, PINs, one-time passcodes, or online banking credentials over an inbound phone call or messaging app, and urged anyone contacted this way to hang up and call their bank back using the number printed on a card or statement rather than any number supplied during the call.`,
+    categorySlug: 'account-takeover',
+    alertLevel: 'high',
+    sources: ['Royal Cayman Islands Police Service (RCIPS)', 'Cayman Islands Bankers Association (CIBA)', 'Cayman Compass', 'Cayman News Service'],
+    sourceUrl: 'https://www.caymancompass.com/2026/06/12/police-warn-about-new-cayman-bank-phone-scam/',
+    country: 'KY',
+  },
+  {
+    name: 'Cayman Islands Law Enforcement Video Call Impersonation Scam',
+    slug: 'cayman-islands-law-enforcement-video-call-impersonation-scam',
+    description: `Beginning Monday, July 13, 2026, the Royal Cayman Islands Police Service (RCIPS) received a growing number of reports of a video-call phishing scam in which a suspect — described as wearing a face covering resembling a hospital mask — claims to be an officer with "Police" or "Immigration" and, in a later variant, tells the victim their debit card has been tampered with. The caller instructs the victim to display their passport, provide banking information, or click a link sent during the call, supposedly to verify their identity or resolve the card issue. In at least one case, cash was stolen from a victim's bank account after they clicked the link the caller provided, though police said other targets recognized the scam, ended the call immediately, and alerted their bank before any money was taken. RCIPS, together with the Cayman Islands Customs and Border Control (CBC) and Workforce Opportunities and Residency Cayman (WORC), stressed that none of those agencies will ever request passport details or banking information over an unsolicited phone or video call, and urged anyone who receives such a call to disregard it, provide no information, end the call, and report it to the nearest police station.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Royal Cayman Islands Police Service (RCIPS)', 'Cayman Islands Customs and Border Control (CBC)', 'Workforce Opportunities and Residency Cayman (WORC)', 'Cayman Marl Road', 'Cayman News Service'],
+    sourceUrl: 'https://caymanmarlroad.com/2026/07/17/police-get-more-reports-of-scam-calls-impersonating-law-enforcement/',
+    country: 'KY',
+  },
+);
