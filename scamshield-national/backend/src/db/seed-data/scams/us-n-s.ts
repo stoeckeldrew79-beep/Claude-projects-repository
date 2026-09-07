@@ -3940,3 +3940,15 @@ UsNS.push({
     country: 'US',
     state: 'NJ',
 });
+
+UsNS.push({
+    name: 'Cincinnati "Rumby" Laundry Startup Investor Fraud (Benjamin Cantey)',
+    slug: 'ohio-cincinnati-rumby-startup-investor-fraud-cantey',
+    description: `Benjamin Cantey, 43, of Cincinnati, was sentenced on July 27, 2026 in the U.S. District Court for the Southern District of Ohio to 40 months in federal prison for defrauding investors out of more than $6.5 million through a laundry-and-dry-cleaning delivery startup. Cantey founded Carbon IQ Inc., doing business as Rumby, in 2019 as a venture-backed e-commerce platform for pickup-and-delivery laundry and dry-cleaning service, and from 2020 through 2022 he told investors a stream of false claims about the company's revenue, profits, bank balance, and growth to keep new money coming in. In one example prosecutors cited, Cantey told investors Rumby ended May 2022 with a $1.5 million bank balance when the account actually held a negative balance of roughly $53,000. Rather than growing the business, Cantey diverted about $850,000 of investor funds to help buy a $1.7 million, 5,000-square-foot home on Garden Place in Cincinnati's Hyde Park neighborhood. He was indicted in December 2024, pleaded guilty to wire fraud in October 2025, and was ordered as part of his sentence to pay restitution and forfeit the Hyde Park home. The case is a reminder that a "venture-backed startup" label and a polished pitch about revenue and growth are not verification — a would-be investor in a founder-led company can and should ask for audited bank statements or a third-party financial review rather than relying on the founder's own claimed numbers, especially before wiring money toward a fast-growing but pre-profit business.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office, Southern District of Ohio", 'WCPO', 'Local 12 (WKRC)'],
+    sourceUrl: 'https://www.justice.gov/usao-sdoh/pr/cincinnati-man-sentenced-federal-prison-65-million-fraud-scheme',
+    country: 'US',
+    state: 'OH',
+});
