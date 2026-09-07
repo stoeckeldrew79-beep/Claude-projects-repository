@@ -4114,3 +4114,15 @@ UsGM.push({
     country: 'US',
     state: 'MT',
 });
+
+UsGM.push({
+    name: 'Drive Planning $380 Million Real Estate Ponzi Scheme (Todd Burkhalter)',
+    slug: 'georgia-drive-planning-todd-burkhalter-ponzi-scheme',
+    description: `Todd Burkhalter, founder and CEO of the Georgia-based financial advisory firm Drive Planning LLC, was sentenced on August 14, 2026 to 20 years in federal prison for running what prosecutors called possibly the largest Ponzi scheme in Georgia history, defrauding more than 2,000 investors of roughly $380 million between September 2020 and June 2024. Drive Planning marketed a flagship product called the "Real Estate Acceleration Loan," or REAL, along with a "Cash Out Real Estate Fund," pitching both as low-risk, real-estate-backed bridge loans that guaranteed investors a 10% return every three months; in reality, the loans were never actually funded to real borrowers, and new investors' money was used to pay "returns" to earlier investors while Burkhalter personally spent millions on a yacht and a $4.2 million Mexican condominium. Investors were encouraged to fund their participation by draining their children's college savings, taking early retirement-account withdrawals, or borrowing against high-interest credit to invest more. Even after the SEC opened an investigation into Drive Planning around March 2024, the company kept soliciting new investments, taking in tens of millions of additional dollars before the SEC obtained a court-ordered asset freeze in August 2024. Burkhalter pleaded guilty in January 2026 to conspiracy to commit wire fraud and received the statutory maximum sentence with no possibility of parole, plus three years of supervised release, and was ordered to pay approximately $234 million in restitution. Two Drive Planning executives were sentenced days earlier on August 12, 2026: Chief Operating Officer David Bradford received 4 years and 3 months in prison and $4.3 million in restitution, while Chief Administrative Officer Julie Edwards received 2 years and $630,000 in restitution. "Todd Burkhalter lured investors to send millions of dollars to Drive Planning for investments that he knew didn't actually exist," said U.S. Attorney Theodore S. Hertzberg. The case is a reminder that a fixed, guaranteed quarterly return on a real-estate loan is not how legitimate real estate lending works — actual returns rise and fall with the underlying property and borrower risk — and that "bridge loan" or "real estate fund" marketing materials should be verified against SEC filings and independent title or lien records before committing retirement savings.`,
+    categorySlug: 'ponzi-pyramid-schemes',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office, Northern District of Georgia", 'Rough Draft Atlanta', 'Forbes'],
+    sourceUrl: 'https://www.justice.gov/usao-ndga/pr/drive-planning-fraudsters-sentenced-federal-prison-operating-massive-380-million-ponzi',
+    country: 'US',
+    state: 'GA',
+});
