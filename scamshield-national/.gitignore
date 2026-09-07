@@ -2,3 +2,8 @@ node_modules/
 dist/
 .env
 *.log
+
+# Written by auto-update.bat on the machine running the site, never committed.
+# (*.log above does not cover .txt.)
+auto-update-log.txt
+state-ag-last-run.txt

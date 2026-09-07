@@ -65,6 +65,9 @@ const SEARCH_TERMS = [...US_SEARCH_TERMS, ...INTERNATIONAL_SEARCH_TERMS];
 // Small pause between requests so a ~26-term run stays a polite trickle
 // rather than a burst against Google News.
 const REQUEST_DELAY_MS = 400;
+// auto-update.bat waits on this job every 30 minutes; a hang there stalls the
+// whole update cycle while the scheduler keeps starting more copies.
+const FETCH_TIMEOUT_MS = 20000;
 const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
 
 // Google News matches on article body, not headline, so a query for "scam"
@@ -118,12 +121,26 @@ async function fetchCandidates(searchTerm: string): Promise<NewsCandidate[]> {
   const query = `${searchTerm} when:2d`;
   const url = `https://news.google.com/rss/search?q=${encodeURIComponent(query)}&hl=en-US&gl=US&ceid=US:en`;
 
-  const res = await fetch(url, { headers: { 'User-Agent': 'ScamShieldNational/1.0 (+daily scam news scan)' } });
-  if (!res.ok) {
-    console.error(`scanDailyScamNews: fetch failed for "${searchTerm}" (${res.status})`);
+  // Two failure modes this job ran unattended without cover for: Node's fetch
+  // has no default timeout, so a host that answers the connection and nothing
+  // else hangs the run forever; and a thrown network error propagated out of
+  // here and aborted the whole scan, losing every search term after it. A
+  // dead search is worth skipping, not worth discarding the other 25.
+  let xml: string;
+  try {
+    const res = await fetch(url, {
+      headers: { 'User-Agent': 'ScamShieldNational/1.0 (+daily scam news scan)' },
+      signal: AbortSignal.timeout(FETCH_TIMEOUT_MS),
+    });
+    if (!res.ok) {
+      console.error(`scanDailyScamNews: fetch failed for "${searchTerm}" (${res.status})`);
+      return [];
+    }
+    xml = await res.text();
+  } catch (err) {
+    console.error(`scanDailyScamNews: fetch failed for "${searchTerm}" - ${(err as Error).message}`);
     return [];
   }
-  const xml = await res.text();
   const parsed = parser.parse(xml);
   const rawItems: FeedItem[] = parsed?.rss?.channel?.item ?? [];
   const items = Array.isArray(rawItems) ? rawItems : [rawItems];

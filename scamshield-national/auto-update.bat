@@ -46,4 +46,35 @@ if errorlevel 1 (
   echo [%date% %time%] scan-daily-news failed - non-fatal, continuing >> ..\auto-update-log.txt
 )
 
+REM State Attorney General alerts - what fills the "Latest alerts" box on
+REM each state page. Unlike the jobs above this one is expensive: 51 states,
+REM each with a news search and, for the 18 that publish one, their own feed
+REM - about 70 external requests, measured at several minutes end to end
+REM (it runs quietly in the background, so this costs you nothing). The sources
+REM publish daily at most, so running it on this script's 30-minute cycle
+REM would make several thousand pointless requests a day and risk being
+REM rate-limited. The marker file below holds it to roughly every 6 hours,
+REM which keeps it in this one scheduled task instead of needing a second.
+set "MARKER=..\state-ag-last-run.txt"
+powershell -NoProfile -Command "if ((Test-Path '%MARKER%') -and (((Get-Date) - (Get-Item '%MARKER%').LastWriteTime).TotalHours -lt 6)) { exit 1 }"
+if errorlevel 1 goto skip_state_ag
+
+call npm run scan-state-ag-news >> ..\auto-update-log.txt 2>&1
+if errorlevel 1 goto state_ag_failed
+
+REM Stamped only on success, so a failed scan retries on the next 30-minute
+REM run instead of waiting out the full 6 hours.
+echo scan-state-ag-news last completed here > "%MARKER%"
+echo [%date% %time%] scan-state-ag-news completed >> ..\auto-update-log.txt
+goto after_state_ag
+
+:state_ag_failed
+echo [%date% %time%] scan-state-ag-news failed - non-fatal, continuing >> ..\auto-update-log.txt
+goto after_state_ag
+
+:skip_state_ag
+echo [%date% %time%] scan-state-ag-news skipped - ran within the last 6 hours >> ..\auto-update-log.txt
+
+:after_state_ag
+
 echo [%date% %time%] Auto-update completed successfully >> ..\auto-update-log.txt
