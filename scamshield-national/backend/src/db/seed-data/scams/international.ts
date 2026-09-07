@@ -10088,3 +10088,26 @@ International.push(
     country: 'SL',
   },
 );
+
+International.push(
+  {
+    name: 'Lonestar Cell MTN SIM Swap Account Takeover Fraud (Liberia)',
+    slug: 'liberia-lonestar-cell-mtn-sim-swap-fraud',
+    description: `A confidential report obtained by The Liberian Investigator and submitted to Liberia's National Security Agency documented a sharp rise in SIM-swap attacks against high-profile individuals and businesses in Liberia, with the Lonestar Cell MTN mobile app singled out for weak security protocols and lax subscriber-verification processes that let attackers get a victim's number reassigned to a SIM card they control. Once the swap succeeds, the attacker receives the one-time passcodes and SMS alerts used for two-factor authentication, letting them hijack financial accounts and social media profiles while the real subscriber's phone goes dead. The Liberia Telecommunications Authority (LTA) has separately fined Orange Liberia after a customer's SIM was reassigned to a third party without her consent in February 2024, cutting off her service and letting the attacker lock her out of linked accounts, underscoring that the vulnerability spans multiple carriers as mobile-money adoption in the country continues to grow rapidly. The report recommends that telecom operators temporarily suspend self-service SIM-swap features until stronger multi-factor or biometric verification is in place, build fraud-detection systems that flag suspicious swap requests, and run public-awareness campaigns, while urging subscribers to move away from SMS-based two-factor authentication toward app-based authenticators and to treat any sudden, unexplained loss of phone signal as a possible sign of an in-progress SIM swap.`,
+    categorySlug: 'account-takeover',
+    alertLevel: 'high',
+    sources: ['The Liberian Investigator', 'Liberia Telecommunications Authority (LTA)', 'Techpoint Africa'],
+    sourceUrl: 'https://liberianinvestigator.com/featured/confidential-report-exposes-rising-threat-of-sim-swapping-in-liberia/',
+    country: 'LR',
+  },
+  {
+    name: 'Fake Job, Scholarship and Travel Recruitment Scam Feeding Trafficking Networks (Liberia)',
+    slug: 'liberia-fake-job-scholarship-travel-trafficking-scam',
+    description: `Liberia's Anti-Trafficking and Scam Victim Support Initiative (LATSIVSI), under the Ministry of Information, has warned of a rising wave of fraudulent recruitment schemes that lure Liberians with deceptive job offers, fake scholarship opportunities, sham travel arrangements, and bogus sports opportunities abroad. Deputy Information Minister Daniel Sando said the scams have fed transnational trafficking networks that moved victims to countries including Nigeria, Cambodia, The Gambia, Ghana, and Guinea, with LATSIVSI documenting more than 52 alleged scam victims and one July case alone involving 57 alleged trafficking victims — among the largest such cases reported in Liberia, which resulted in 50-year prison sentences for those convicted. Sando urged Liberians to verify any employment, scholarship, or travel opportunity before making a payment or handing over personal information, and specifically cautioned against acting out of desperation when an offer looks too attractive to pass up. He directed anyone who suspects a fraudulent recruitment offer or a trafficking attempt to report it immediately to the Liberia National Police, other relevant government authorities, or LATSIVSI itself via its hotline at 0881-824711.`,
+    categorySlug: 'employment-scams',
+    alertLevel: 'high',
+    sources: ['Liberia Anti-Trafficking and Scam Victim Support Initiative (LATSIVSI)', 'allAfrica'],
+    sourceUrl: 'https://allafrica.com/stories/202609040266.html',
+    country: 'LR',
+  },
+);
