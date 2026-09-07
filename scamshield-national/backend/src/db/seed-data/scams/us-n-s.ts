@@ -3440,4 +3440,15 @@ export const UsNS: SeedScam[] = [
     sources: ["New Jersey Attorney General's Office", 'New Jersey Office of the Insurance Fraud Prosecutor'],
     sourceUrl: 'https://www.njoag.gov/essex-county-woman-admits-health-care-claims-fraud-and-unlicensed-practice-of-medicine/',
   },
+{
+    name: 'SAVE Plan Student Loan Forgiveness Scam',
+    slug: 'new-york-save-plan-student-loan-forgiveness-scam',
+    description: `New York Attorney General Letitia James issued a consumer alert on September 2, 2026, warning student loan borrowers that scammers are exploiting the confusion created by the elimination of the Saving on a Valuable Education (SAVE) plan and the phaseout of other income-driven repayment options, which required affected borrowers to select a new federal repayment plan by September 30, 2026 or be automatically enrolled in the Standard Plan at a higher monthly payment. James's office described two recurring schemes: third-party "debt relief" companies that impersonate the U.S. Department of Education and charge upfront fees of $799 to $999 plus recurring monthly charges to "consolidate" or enroll a borrower in a repayment plan that is actually free to apply for directly through the federal government, and private refinancing offers that advertise an attractive introductory rate before sharply raising both the rate and the payment once a borrower converts a federal loan to a private one — permanently forfeiting federal protections like income-driven repayment and public service loan forgiveness in the process. Warning signs the alert highlighted include unsolicited calls, texts, or online ads promising fast or complete loan forgiveness, pressure to act immediately, requests for a borrower's Federal Student Aid (FSA) ID and password, claims of a "special" negotiated federal rate available only through the caller, and any request that a borrower sign over power of attorney. New York law prohibits charging upfront fees for student loan debt-relief services, and federal loan servicing, consolidation, and income-driven repayment enrollment are always free through the Department of Education. Borrowers can get free, one-on-one help transitioning off the SAVE plan through New York's Education Debt Consumer Assistance Program (EDCAP) at 888-614-5004 or edcap@cssny.org, and can report a suspected scam to the Attorney General's office at 1-800-771-7755 or through its online complaint form.`,
+    categorySlug: 'student-loan-education',
+    alertLevel: 'high',
+    sources: ["New York Attorney General's Office (Letitia James)", 'Education Debt Consumer Assistance Program (EDCAP)'],
+    sourceUrl: 'https://ag.ny.gov/resources/individuals/education-students/student-lending/student-loan-scam-protection',
+    country: 'US',
+    state: 'NY',
+  },
 ];

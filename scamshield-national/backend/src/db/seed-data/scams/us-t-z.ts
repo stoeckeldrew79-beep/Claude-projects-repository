@@ -1989,4 +1989,15 @@ export const UsTZ: SeedScam[] = [
     sources: ["Washington State Attorney General's Office"],
     sourceUrl: 'https://www.atg.wa.gov/news/news-releases/consumer-alert-investment-scams-proliferate-meta-platforms',
   },
+{
+    name: 'Hill Country Flood Charity and Donation Scam',
+    slug: 'texas-hill-country-flood-charity-donation-scam',
+    description: `Texas Attorney General Ken Paxton issued a consumer alert on July 8, 2025, warning residents to be on guard against fraudulent solicitors trying to exploit the outpouring of generosity following the catastrophic Fourth of July flooding along the Guadalupe River in the Texas Hill Country, which killed more than 100 people in Kerr County and surrounding communities. Paxton's office cautioned that scammers move quickly after a high-profile disaster, setting up fake charities with names and logos deliberately similar to real, established relief organizations, cold-calling or texting potential donors under pressure to "give now," and asking for donations by wire transfer, gift card, or cryptocurrency — payment methods that are nearly impossible to trace or reverse once sent. The alert also warned that some scammers pose as government officials or disaster-relief coordinators to solicit "processing fees" from flood victims themselves before releasing supposed state or federal aid, and that fraudsters often use spoofed caller ID information or fake area codes to appear more legitimate. Texans were urged to verify any charity's legitimacy before donating using watchdog groups such as CharityWatch, GuideStar, or the Better Business Bureau's Wise Giving Alliance, to give directly through an organization's official website rather than a link in an unsolicited text or email, and to never wire money, share bank or Social Security information, or pay a fee to receive disaster assistance, since legitimate government aid is never conditioned on an upfront payment. Anyone who suspects charity fraud or price gouging tied to the flooding is urged to report it to the Texas Attorney General's Consumer Protection Division at 1-800-621-0508 or through the office's online complaint form.`,
+    categorySlug: 'charity-scams',
+    alertLevel: 'high',
+    sources: ["Texas Attorney General's Office (Ken Paxton)"],
+    sourceUrl: 'https://www.texasattorneygeneral.gov/news/releases/consumer-alert-attorney-general-ken-paxton-provides-guidance-prevent-fraud-and-support-charitable',
+    country: 'US',
+    state: 'TX',
+  },
 ];
