@@ -8866,7 +8866,28 @@ Egypt's Ministry of Interior announced on February 24, 2025, that it had arreste
     sourceUrl: 'https://brudirect.com/post/13/05/2026-Fraud-Cases-through-Social-Media-and-Communication-Applications',
     country: 'BN',
   },
-];
+  {
+    name: "Fake \"Vanuatu Independent Financial Regulatory Authority\" (vifra.org) Impersonation",
+    slug: "fake-vanuatu-independent-financial-regulatory-authority-vifra",
+    description:
+      "A website and body calling itself the \"Vanuatu Independent Financial Regulatory Authority\" at vifra.org presents itself as an official Vanuatu financial supervisor, but it is not recognised or approved by the country's real regulator. Because Vanuatu is a well-known offshore financial centre, a fake \"Vanuatu regulator\" is used to make unlicensed operators and their investment offerings look authorised. Investors who try to \"check the regulator\" land on the bogus site instead of the genuine statutory commission and come away believing a firm is supervised. The Vanuatu Financial Services Commission has publicly stated it does not recognise nor approve this body and that the information at vifra.org is misleading. Before sending money to any firm claiming a Vanuatu licence, verify its status directly with the VFSC through vfsc.vu and treat any other \"regulator\" website as a red flag.",
+    categorySlug: "investment-fraud",
+    alertLevel: "high",
+    sources: ["Vanuatu Financial Services Commission (VFSC) — Public Notices"],
+    sourceUrl: "https://www.vfsc.vu/public-notices/",
+    country: "VU",
+  },
+  {
+    name: "Company-Name Impersonation Fraud in Vanuatu",
+    slug: "company-name-impersonation-fraud-vanuatu",
+    description:
+      "Fraudsters in Vanuatu approach members of the public claiming to represent well-known, reputable companies and use that borrowed credibility to convince people to hand over money. The Vanuatu Police Force Fraud Unit describes this as a recurring local pattern, noting that many men and women deceive people by using the names of certain big companies in order to obtain money. Police point out that fraud creates both civil and criminal wrongs, and that they deal mainly with the criminal side, so victims often have to pursue recovery of their money separately. Always confirm that a person really works for a company by contacting the business through its own published phone number or office, and never pay cash to someone who only claims to be an agent. Report suspected cases to the Vanuatu Police Force Criminal Investigation Division Fraud Unit.",
+    categorySlug: "business-email-compromise",
+    alertLevel: "medium",
+    sources: ["Vanuatu Police Force, Criminal Investigation Division — Fraud Unit"],
+    sourceUrl: "https://police.gov.vu/bi/what-we-do/criminal-investigation/fraud/59-fraud",
+    country: "VU",
+  },];
 
 International.push(
   {
