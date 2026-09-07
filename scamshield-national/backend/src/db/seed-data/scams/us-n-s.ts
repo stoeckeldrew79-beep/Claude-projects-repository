@@ -3773,3 +3773,27 @@ UsNS.push({
     country: 'US',
     state: 'NE',
 });
+
+UsNS.push({
+    name: 'Las Vegas "Special Tax Shelter Strategy" Fraudulent Tax Preparation Scheme (Michael Moore)',
+    slug: 'nevada-las-vegas-special-tax-shelter-strategy-moore',
+    description: `Michael J. Moore, a Las Vegas tax preparer and former CPA whose practice advertised itself as specializing in clients from the adult entertainment industry, promoted a fraudulent tax-avoidance product he branded the "Special Tax Shelter Strategy" from 2015 through 2025, telling clients that for a fee he could prepare a return eliminating the taxes they owed the IRS and, in most cases, generate a large refund on top of it. After being charged over that scheme, Moore ran a second, separate fraud in which he prepared false returns reporting fabricated business losses from corporate entities that were defunct, dormant, or never actually conducted any business, further shrinking his clients' reported tax liability. Between the two schemes, Moore caused a tax loss to the IRS of more than $3.5 million. He pleaded guilty to one count each of tax evasion, aiding and assisting in the preparation of a false tax return, wire fraud, and aggravated identity theft, and on September 2, 2026 was sentenced in the District of Nevada to 60 months in federal prison. The case shows how a paid preparer's promise to eliminate a client's tax bill — through a named "strategy" or shelter product rather than legitimate deductions the client can independently understand and verify — is itself a fraud warning sign, and that a taxpayer remains legally responsible for what is filed under their name even when a preparer, not the taxpayer, invented the false claims.`,
+    categorySlug: 'tax-scams',
+    alertLevel: 'medium',
+    sources: ['United States Department of Justice, Office of Public Affairs', "U.S. Attorney's Office, District of Nevada", 'FOX5 Las Vegas'],
+    sourceUrl: 'https://www.justice.gov/opa/pr/nevada-man-sentenced-prison-false-tax-return-schemes',
+    country: 'US',
+    state: 'NV',
+});
+
+UsNS.push({
+    name: 'Federal Court Subpoena and Missed Jury Duty Impersonation Phone Scam',
+    slug: 'rhode-island-federal-subpoena-jury-duty-impersonation-scam',
+    description: `The U.S. District Court for the District of Rhode Island and the U.S. Attorney's Office issued a joint alert warning residents about scammers calling and claiming to be law enforcement or court officials, telling the recipient they failed to respond to a federal subpoena or missed jury duty and that a federal judge has ordered their arrest unless they immediately pay a fine or provide personal information such as a Social Security number or date of birth. To sound credible, the callers sometimes invoke the name of an actual sitting Rhode Island federal judge as the one who supposedly issued the order. The U.S. Attorney's Office stressed that a real federal court communicates orders and notices by U.S. Mail, never by an unsolicited phone call demanding payment or personal information on the spot, and that the court does not collect fines or fees over the phone under any circumstance. Rhode Islanders who receive such a call are urged not to provide any information or payment and to hang up; anyone unsure whether a court-related communication is genuine can verify it by calling the U.S. District Court directly at (401) 752-7200 using a number looked up independently, not one given by the caller.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office, District of Rhode Island", 'United States District Court for the District of Rhode Island'],
+    sourceUrl: 'https://www.justice.gov/usao-ri/pr/alert-rhode-islanders-callers-alleging-failure-respond-federal-court-subpoenas-are',
+    country: 'US',
+    state: 'RI',
+});
