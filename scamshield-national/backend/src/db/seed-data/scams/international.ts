@@ -10545,3 +10545,25 @@ International.push(
     country: 'GM',
   },
 );
+International.push(
+  {
+    name: 'Andorra CEO Impersonation Phone Fraud',
+    slug: 'andorra-ceo-impersonation-phone-fraud',
+    description: `Andorra's national police force said in February 2026 that it had detected a fresh wave of "CEO fraud" calls targeting businesses and shops around the country, with losses per incident ranging from roughly €700 to €3,000. In the scheme, callers pose as a company's manager, owner, or a regular supplier and use accurate details about the business — gathered in advance from its website, social media, and other public sources — to sound credible. They then pressure an employee, often someone in accounting or at the front desk, to make an urgent payment for a supposed pending invoice or order, telling the worker there is no time to verify the request through normal channels. When a business has no immediate way to wire cash, callers have asked employees to buy prepaid gift cards and photograph the redemption codes instead. Police warned that some fraudsters can now use artificial intelligence to mimic the voice of the real executive or supplier being impersonated, making the calls harder to spot as fake. Officers advised employees to always pause a payment request made under pressure, contact the supposed caller or a supervisor through a known phone number rather than one supplied during the call, and never send payment or gift-card codes to someone whose identity has not been independently confirmed.`,
+    categorySlug: 'business-email-compromise',
+    alertLevel: 'high',
+    sources: ["Policia d'Andorra", 'Digital Andorra'],
+    sourceUrl: 'https://digitalandorra.com/successos/policia-dandorra-alerta-de-lestafa-del-ceo-amb-fraus-de-700-a-3-000-euros/',
+    country: 'AD',
+  },
+  {
+    name: 'Andorra Fake Hotel Booking WhatsApp Phishing Scam',
+    slug: 'andorra-fake-hotel-booking-whatsapp-phishing-scam',
+    description: `Andorra's National Cybersecurity Agency (Agència Nacional de Ciberseguretat) warned on August 12, 2026 about a phishing campaign — first flagged by Spain's national cybersecurity institute, Incibe — in which criminals impersonate hotels over WhatsApp to target guests who hold real, upcoming reservations. What makes the messages convincing is that the scammers already possess accurate details of the actual booking, including the hotel's name, the guest's name, the check-in and check-out dates, and the reservation number. Posing as the hotel, they tell the guest they need to "confirm" or "finalize" the reservation and send a link that leads to a fake website built to resemble the hotel's own booking page, where the site is designed to collect personal information and banking or card details entered by the victim. The agency urged recipients never to click links sent this way or enter payment details outside a hotel's official website or app, to verify any reservation message directly with the hotel using contact information found independently rather than in the message itself, to block and report the sender, and to contact their bank immediately if banking details had already been entered, while keeping screenshots of the message and link as evidence for a police report.`,
+    categorySlug: 'phishing',
+    alertLevel: 'high',
+    sources: ["Agència Nacional de Ciberseguretat d'Andorra", 'Instituto Nacional de Ciberseguridad (INCIBE)', 'Bondia.ad'],
+    sourceUrl: 'https://www.bondia.ad/societat/l-agencia-nacional-de-ciberseguretat-adverteix-d-una-una-estafa-amb-reserves-d-hotel',
+    country: 'AD',
+  },
+);
