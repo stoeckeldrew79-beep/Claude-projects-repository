@@ -3996,3 +3996,27 @@ UsGM.push({
     country: 'US',
     state: 'LA',
 });
+
+UsGM.push({
+    name: 'Tonganoxie Woman\'s Decades-Long Dead-Relative Benefits Fraud (Tamera Powers)',
+    slug: 'kansas-tonganoxie-tamera-powers-dead-relative-benefits-fraud',
+    description: `Tamera Ruth Powers, 68, of Tonganoxie, Kansas, spent decades living a double life built on the stolen identity of a relative, Minda Sue Rakestraw, who had died in 1977: Powers obtained a Kansas identification card in Rakestraw's name, married a man under the alias "Minda Sue Landis," and maintained bank accounts and a household under both that assumed identity and her own real name simultaneously. Using the "Landis" identity, Powers applied for Social Security disability benefits in April 2005; she then applied again for SSA disability under her own real name in August 2012, falsely certifying on that application that she had never previously applied for SSA benefits. The following year, in August 2013, she applied for Kansas SNAP food assistance and Low Income Home Energy Assistance Program (LIEAP) help, and by December 2013 was also collecting Kansas Medicaid — all without disclosing her marriage, her true household income, or the other identity she had used, any one of which would have made her ineligible. Powers pleaded guilty to one count of wire fraud and was sentenced on June 3, 2026 to 15 months in federal prison and two years of supervised probation, with restitution ordered of $273,144.55 to Kansas Medicaid, $41,113.42 to Kansas SNAP and LIEAP, and $137,839 to the Social Security Administration — more than $450,000 in combined federal and state losses accumulated over roughly two decades. The case shows how a single stolen identity, once used to establish a state ID and a separate legal marriage, can be layered on top of a person's real identity to draw duplicate benefits from multiple federal and state safety-net programs for years before cross-matching between agencies catches the overlap, which is why SNAP, Medicaid, and Social Security offices periodically require in-person re-certification and identity verification rather than accepting a beneficiary's paperwork indefinitely at face value.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office, District of Kansas", 'Social Security Administration Office of Inspector General', 'Lawrence Journal-World'],
+    sourceUrl: 'https://www.justice.gov/usao-ks/pr/kansas-woman-sentenced-prison-stealing-deceased-relatives-identity-fraudulently-receive',
+    country: 'US',
+    state: 'KS',
+});
+
+UsGM.push({
+    name: 'Stone Mountain Rapper\'s Stolen-Check Fraud Tutorial Business (Shamarri Brooks)',
+    slug: 'georgia-stone-mountain-shamarri-brooks-stolen-check-fraud-tutorials',
+    description: `Shamarri Tache Brooks, 34, of Stone Mountain, Georgia, a rapper who performs as "Juney Knotzz," ran a two-pronged fraud operation out of metro Atlanta between January 2022 and November 2025: he personally altered checks stolen from the mail so that people he recruited through social media would appear to be the intended payee, then deposited the checks into their bank accounts at ATMs around the city, at times wearing a balaclava printed with the words "No Free Sauce," and he separately marketed and sold "how-to" fraud tutorials teaching others to replicate the scheme, trafficking thousands of stolen checks with a combined face value of more than $6.5 million. Federal prosecutors in the Northern District of Georgia said many of the stolen checks were recovered before they could be negotiated, limiting actual victim losses, but the sheer volume made Brooks — who had prior convictions for drug trafficking, weapons possession, obstructing law enforcement, and battery — what they described as a "fraud promoter" rather than an isolated offender. Brooks pleaded guilty to bank fraud and aggravated identity theft and was sentenced on August 27, 2026 to six years in federal prison followed by five years of supervised release. The case is a reminder that stolen-check schemes increasingly recruit ordinary people through social media to act as one-time "runners" who deposit an altered check for a cut of the proceeds — an arrangement that leaves the recruited account holder, not just the mail-theft victim, facing bank fraud and identity theft exposure once the account is flagged, so anyone asked to deposit a check they did not personally receive or earn should refuse and report the offer to their bank.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office, Northern District of Georgia", 'FOX 5 Atlanta', 'WSB-TV'],
+    sourceUrl: 'https://www.justice.gov/usao-ndga/pr/convicted-felon-fraud-promoter-sentenced-federal-prison-scheme-involving-65-million',
+    country: 'US',
+    state: 'GA',
+});
