@@ -3620,3 +3620,15 @@ UsNS.push({
     country: 'US',
     state: 'SD',
 });
+
+UsNS.push({
+    name: 'North Dakota "Buy Gold Bars for Safekeeping" Impersonation Scam',
+    slug: 'north-dakota-gold-bar-safekeeping-scam',
+    description: `North Dakota Attorney General Drew Wrigley issued a consumer alert on October 14, 2025 warning residents about scammers impersonating government agents or law enforcement officers who instruct victims to protect their money by converting it into gold bars and handing the gold over to a "government representative" for safekeeping. The callers manufacture urgency and panic — claiming the victim's identity has been stolen, their accounts compromised, or their savings otherwise at risk — and back up the story with fake documentation to appear credible, then direct the victim to buy gold bars from a dealer and hand them to a courier or representative sent to collect it; once the gold changes hands, it is gone for good. "If someone tells you to move your money in this fashion to protect it, it's a scam," Wrigley said, adding that "no real government agent will ever tell you to buy gold bars, move your money, or hand over gold or cash." Unlike the elaborate, multi-week courier-fraud cases prosecuted in several other states, Wrigley's office issued this alert proactively, before a wave of confirmed North Dakota victims, specifically because comparable schemes involving cryptocurrency and online precious-metals investments were rising alongside gold scams nationally due to gold's high market value and demand. North Dakotans are reminded that legitimate government agencies never request the purchase of precious metals or a transfer of funds this way, and anyone contacted with these instructions should hang up and report the call to the Attorney General's Consumer Protection Division at 701-328-3404.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ["North Dakota Attorney General's Office (Drew Wrigley)"],
+    sourceUrl: 'https://attorneygeneral.nd.gov/attorney-general-wrigley-warns-about-scammers-telling-north-dakotans-to-buy-gold/',
+    country: 'US',
+    state: 'ND',
+});
