@@ -3842,3 +3842,15 @@ UsGM.push({
     state: 'ME',
 });
 
+UsGM.push({
+    name: 'Kansas City Personal Care Attendant Medicaid Billing Fraud',
+    slug: 'kansas-donald-dean-personal-care-medicaid-fraud',
+    description: `Kansas Attorney General Kris Kobach's office announced on August 31, 2026 that Donald Dean, 67, of Kansas City, Kansas, was sentenced after pleading guilty in June 2026 to making a false claim, statement, or representation to the Kansas Medicaid program. Dean worked as a personal care attendant (PCA), a role in which a caregiver is paid through Medicaid's home- and community-based services program to provide in-home help — bathing, meal preparation, mobility assistance — to an enrolled beneficiary; the Attorney General's office found he had billed Kansas Medicaid for personal care hours he never actually worked. He was sentenced to seven months in the Kansas Department of Corrections, suspended in favor of 12 months of supervised probation and 30 days in jail, and ordered to repay more than $70,000 to the Medicaid program. The case was one of several PCA billing-fraud prosecutions the Kansas Attorney General's Medicaid Fraud and Abuse Division brought in 2026 as part of a broader crackdown that also included the office's participation in the U.S. Department of Justice's National Health Care Fraud Takedown that June. Because a personal care attendant is frequently a friend, relative, or someone the beneficiary hired directly rather than a large agency, this kind of fraud rarely produces a complaint from the beneficiary themselves — anyone helping a Medicaid recipient manage their care should periodically check the visit and billing records the state mails or posts online against their own memory of when the caregiver was actually present, and report a mismatch to the Kansas Attorney General's Medicaid Fraud and Abuse Division rather than assuming it is a clerical error.`,
+    categorySlug: 'medicare-health-plans',
+    alertLevel: 'high',
+    sources: ["Kansas Attorney General's Office", 'KCTV5', 'Hoodline'],
+    sourceUrl: 'https://www.kctv5.com/2026/09/01/kck-man-sentenced-medicaid-fraud/',
+    country: 'US',
+    state: 'KS',
+});
+

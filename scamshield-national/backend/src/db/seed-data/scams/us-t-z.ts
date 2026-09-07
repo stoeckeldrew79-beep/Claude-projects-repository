@@ -2193,3 +2193,27 @@ UsTZ.push({
     country: 'US',
     state: 'UT',
 });
+
+UsTZ.push({
+    name: 'Fake Laramie County Municipal Court Traffic Violation Text',
+    slug: 'wyoming-laramie-county-municipal-court-qr-code-scam',
+    description: `Wyoming law enforcement agencies, including the Cheyenne Police Department, warned residents in late April 2026 about a fraudulent "Final Notice" circulating by text and mail that is styled to look like an official filing from "the Municipal Court of Laramie County Traffic Division." The fake notice lists supposed outstanding violations — failure to pay an electronic toll, a parking violation, and a speeding violation — attaches a fabricated case number, and threatens driver's license suspension, credit damage, and referral to collections if the recipient does not act immediately, none of which a real court imposes without an actual hearing or judgment. It carries a graphic meant to resemble the State of Wyoming seal, but officials pointed out that the text circling the seal on the fake version is garbled and misspelled — reading "GREAL OF F THE S TATE O WYOMING 1869" instead of the real seal's wording — a giveaway visible to anyone who looks closely rather than scanning the accompanying QR code, which officials warned routes to a phishing site or fraudulent payment portal designed to harvest card numbers. The notice was only the latest version of a fake court-enforcement scam that has also circulated in other Wyoming counties under different court names, part of a nationwide wave of similar toll- and ticket-themed QR code texts the FTC issued its own consumer alert about the same month. Anyone who receives a message like this is advised not to scan the QR code or click any link, not to reply, and to verify the claim by contacting the actual court clerk's office using a phone number looked up independently rather than one provided in the notice itself.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Cheyenne Police Department', 'Oil City News', 'Federal Trade Commission'],
+    sourceUrl: 'https://oilcity.news/general/alert/2026/04/27/wyoming-law-enforcement-warns-of-fake-court-enforcement-scam/',
+    country: 'US',
+    state: 'WY',
+});
+
+UsTZ.push({
+    name: 'Vermont Personal Care Medicaid Timesheet Fraud',
+    slug: 'vermont-wescom-sanderson-personal-care-medicaid-timesheet-fraud',
+    description: `Vermont's Attorney General's Office announced Medicaid fraud charges in June 2026 against two personal care attendants in unrelated cases uncovered by its Medicaid Fraud and Residential Abuse Unit (MFRAU) after a review of billing records. Yvonne Wescom, 35, of Newport, was arraigned June 23, 2026 in Vermont Superior Court's Orleans Criminal Division on three felony counts of Medicaid Fraud; MFRAU alleges that between May 2025 and January 2026 she submitted false timesheets claiming she had provided personal care services to a Medicaid recipient that she had not actually performed, defrauding the program of more than $15,000. Separately, Darci Sanderson, 38, of Brattleboro, was arraigned June 16, 2026 in the Windsor Criminal Division on one felony count after MFRAU alleged she and a co-defendant similarly billed Vermont Medicaid roughly $24,000 for personal care hours that were never actually worked. Both women pleaded not guilty. Personal care attendant programs let a Medicaid recipient's caregiver — often a family member or someone they hired directly — bill the state per hour of documented care, which means the fraud risk sits in the paper timesheet rather than in any interaction the recipient would recognize as suspicious; families overseeing a loved one's personal care benefit should keep their own log of when a caregiver is actually present and compare it against the billing statements Vermont Medicaid sends, since a mismatch is often the only way this kind of fraud surfaces before an audit catches it.`,
+    categorySlug: 'medicare-health-plans',
+    alertLevel: 'high',
+    sources: ["Vermont Attorney General's Office (Medicaid Fraud and Residential Abuse Unit)", 'WCAX', 'Vermont Business Magazine'],
+    sourceUrl: 'https://ago.vermont.gov/blog/2026/06/23/attorney-generals-office-announces-medicaid-fraud-charges',
+    country: 'US',
+    state: 'VT',
+});
