@@ -9643,3 +9643,36 @@ International.push(
     country: 'TN',
   },
 );
+
+International.push(
+  {
+    name: 'Vanishing Crypto Middleman Currency Exchange Scam',
+    slug: 'maldives-vanishing-crypto-middleman-currency-exchange-scam',
+    description: `The Maldives Police Service warned in August 2025 about a fraud scheme, primarily targeting foreign workers in the Maldives — especially Chinese nationals — that has caused losses of at least MVR 2.9 million to date. Scammers first contact a local seller of cryptocurrency, usually someone dealing in Tether (USDT), and deceive the seller into acting as an unwitting "assistant" in what is staged to look like a routine currency exchange: the scammer then arranges for a foreign national holding Maldivian Rufiyaa in cash to meet the seller, having told the foreign national that their cash will be exchanged and the equivalent deposited into their bank account. When the two meet, the foreign national hands over the cash to the seller, who — believing the deal is legitimate — transfers the equivalent value in USDT to a digital wallet address the scammer supplied. No money is ever deposited into the foreign national's bank account, and the scammer disappears with the cryptocurrency, leaving both the seller and the foreign national who lost their cash to dispute the loss between themselves rather than recover it from the scammer. Police urged the public to exercise caution when buying or selling cryptocurrency or exchanging money with strangers, to independently confirm the credibility of the other party before any transaction is completed, and to avoid three-party arrangements where a stranger directs money or crypto to be sent on their behalf.`,
+    categorySlug: 'cryptocurrency-scams',
+    alertLevel: 'high',
+    sources: ['Maldives Police Service', 'Adhadhu'],
+    sourceUrl: 'https://adhadhu.com/71855',
+    country: 'MV',
+  },
+  {
+    name: 'Unlicensed Currency Exchange & Hacked Messaging-App Impersonation Scam',
+    slug: 'maldives-unlicensed-currency-exchange-hacked-messaging-scam',
+    description: `The Maldives Police Cyber Crime Department issued a public advisory warning that fraudsters are exploiting hacked Viber accounts and deceptive phone calls to defraud people exchanging US dollars for Maldivian Rufiyaa, while also posing as "unlicensed providers" offering currency exchange services without the authorization the law requires. In a typical case, a scammer takes over a victim's own Viber account, or impersonates a contact using a compromised account, and then uses that borrowed trust to arrange a currency exchange or request an urgent money transfer, exploiting the fact that the message appears to come from someone the recipient already knows. The Cyber Crime Department advised the public to confirm that any currency exchange provider holds a valid permit from the Maldives Monetary Authority (MMA) before transacting, to independently verify the identity of anyone requesting a money transfer even when the request appears to come from a known contact, to never disclose one-time passwords (OTPs) issued by banks under any circumstances, and to report suspected fraud immediately via the emergency line 911, the anti-scam hotline 125 (extension 2020), or reportscam@police.gov.mv, noting that timely reporting improves the chance of identifying the perpetrators.`,
+    categorySlug: 'account-takeover',
+    alertLevel: 'medium',
+    sources: ['Maldives Police Cyber Crime Department', 'Corporate Maldives'],
+    sourceUrl: 'https://corporatemaldives.com/cyber-crime-department-alerts-public-to-fraud-risks-in-currency-exchange/',
+    country: 'MV',
+  },
+  {
+    name: 'Bogus Cryptocurrency Trading Permit & Social Media Investment Scam',
+    slug: 'maldives-bogus-cryptocurrency-trading-permit-scam',
+    description: `The Maldives Monetary Authority (MMA) issued a public notice warning that no party has ever been granted permission to conduct financial transactions using cryptocurrencies or other virtual currencies in the Maldives, after social media advertisements began circulating that promoted cryptocurrency trading platforms as though they were officially sanctioned. The MMA stated that it is the sole authority empowered to license money-exchange businesses and international or domestic money-remittance firms under the Maldives Monetary Authority Act, and that "the issuance of any legal tender by any other party is against the law" — meaning any advertisement, website, or individual claiming government approval or an official permit to trade cryptocurrency in the Maldives is misrepresenting its legitimacy. Consumers who respond to these ads are typically directed to deposit funds onto a platform presented as licensed or endorsed by Maldivian authorities, only to find withdrawals blocked or the platform unreachable once money has been deposited. The MMA cautioned the public to treat any cryptocurrency investment offer referencing Maldivian government approval with suspicion, to bear in mind that virtual currencies are not legal tender in the Maldives, and to verify any financial service provider's licensing status directly with the MMA before transacting rather than relying on claims made in the advertisement itself.`,
+    categorySlug: 'cryptocurrency-scams',
+    alertLevel: 'medium',
+    sources: ['Maldives Monetary Authority (MMA)', 'PSM News'],
+    sourceUrl: 'https://psmnews.mv/en/39850',
+    country: 'MV',
+  },
+);
