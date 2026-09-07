@@ -2905,3 +2905,24 @@ The NAB case remains a standard reference point in operational-risk and complian
     sourceUrl: 'https://www.abc.net.au/news/2006-07-04/former-nab-traders-jailed/1793756',
   },
 );
+
+NotoriousNS.push(
+  {
+    title: `Panama Lewis and the Loaded Gloves That Ended Billy Collins Jr.'s Career`,
+    slug: 'panama-lewis-luis-resto-loaded-gloves-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://en.wikipedia.org/wiki/Panama_Lewis',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Pair_of_boxing_gloves.jpg?width=1200',
+    coverImageCredit: 'Photo: Petey21, Wikimedia Commons (CC0)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait/exact match if found
+    body: `Carlos "Panama" Lewis had built a genuine reputation as one of boxing's sharpest cornermen by the early 1980s, training light-welterweight champion Aaron Pryor and working Roberto Durán's corner in some of that era's biggest fights. On June 16, 1983, one of his other fighters, Luis Resto, faced undefeated prospect Billy Collins Jr. on the undercard of a nationally televised ABC "Wide World of Sports" broadcast from Madison Square Garden. Resto, a heavy underdog, battered Collins for ten rounds and won a unanimous decision that instantly ended the younger man's unbeaten record and, as it turned out, his career.
+
+Collins's father and trainer, Billy Collins Sr., went to congratulate Resto after the bout and noticed something wrong: Resto's gloves felt unusually thin under his hands. He demanded the gloves be impounded, and a New York State Athletic Commission investigation found that roughly an ounce of padding had been removed from each glove through a small incision, while Resto's hand wraps underneath had been soaked in plaster of Paris, hardening them into something closer to a cast than cloth. The commission voided the result as a no-contest. Collins, who had absorbed ten rounds of blows delivered through the doctored equipment, suffered a torn iris and permanently blurred vision that ended his boxing career before it had properly started; less than a year later, on March 6, 1984, he died in a car crash near his home in Antioch, Tennessee, a death many close to him — including, later, Resto himself — have connected to the depression that followed the loss of his career.
+
+The New York State Athletic Commission permanently revoked Lewis's trainer's license on July 1, 1983, effectively barring him from working a corner anywhere in American boxing again. Criminal charges followed more slowly: Lewis and Resto stood trial together in 1986 and were convicted of assault, criminal possession of a weapon — the tampered wraps and gloves — and conspiracy, with Lewis convicted on an additional count of tampering with a sports contest. Lewis was sentenced to six years in prison and was released in 1990; Resto received a shorter sentence and served roughly two and a half years.
+
+For more than two decades afterward, Resto maintained he hadn't known his gloves were tampered with. That changed in 2007, when he personally apologized to Collins's widow, Andrea, and again in the 2008 Showtime documentary "Assault in the Ring," where he admitted on camera that he had known about the missing padding and confirmed Lewis had used the same plaster-hardened wraps on him in at least two earlier fights that went undetected. Lewis, who never worked in licensed boxing again after his ban, died on September 19, 2020, at age 74. The case remains one of the sport's clearest examples of a scam perpetrated in plain sight — a live, nationally broadcast event whose outcome and the physical damage inflicted during it were secretly rigged by simple, low-tech tampering with the one piece of safety equipment both fighters and the viewing public had every reason to assume was standard.`,
+  },
+);
