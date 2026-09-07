@@ -10226,3 +10226,26 @@ International.push(
     country: 'BY',
   },
 );
+
+International.push(
+  {
+    name: 'Liechtenstein Fake Police "Burglary List" Valuables Collection Scam',
+    slug: 'liechtenstein-fake-police-burglary-list-valuables-scam',
+    description: `Liechtenstein's national police (Landespolizei) issued a warning on 21 January 2025 after multiple residents in the communities of Bendern and Ruggell reported phone calls from people posing as detectives with the criminal police or the local burglary investigation unit. The callers told victims — overwhelmingly elderly residents — that their address had turned up on a list of homes targeted by an active burglary ring, and that an officer needed to visit in person to collect cash, jewelry, and other valuables for safekeeping until the threat passed. Police stressed that no genuine officer will ever ask a resident to hand over money or valuables over the phone or at the door under this pretext, and urged anyone receiving such a call to hang up immediately, contact the police directly using a number they look up themselves, and check with a trusted family member before acting.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Landespolizei des Fürstentums Liechtenstein', 'Polizeiticker.ch'],
+    sourceUrl: 'https://polizeiticker.ch/artikel/fuerstentum-liechtenstein-warnung-vor-betrug-mit-falschen-polizisten-234303',
+    country: 'LI',
+  },
+  {
+    name: 'Liechtenstein Spoofed Bank Caller-ID "Security Officer" Scam',
+    slug: 'liechtenstein-spoofed-bank-security-officer-scam',
+    description: `On 26 March 2026, the Liechtenstein national police (Landespolizei) warned residents about a wave of phone calls in which fraudsters used caller-ID spoofing to make their number display as that of a legitimate Liechtenstein bank. Posing as a bank "security officer," the caller claimed suspicious activity had been detected on the victim's account and pressed them to confirm passwords, online banking credentials, card details, or how much cash they kept at home. Police noted that a caller ID showing a real bank number is no guarantee of authenticity, since the technology to spoof it is widely available, and advised anyone contacted this way to hang up and call their bank back using the number printed on a card or statement rather than any number offered during the call. The advisory reminded the public that no legitimate bank employee will ever ask a customer to read out a password, PIN, or one-time code, or to disclose how much cash is held at their residence.`,
+    categorySlug: 'phishing',
+    alertLevel: 'medium',
+    sources: ['Landespolizei des Fürstentums Liechtenstein', 'Polizeinews.ch'],
+    sourceUrl: 'https://www.polizeinews.ch/2026/03/26/liechtenstein-fl-betrueger-geben-sich-als-bankmitarbeiter-aus-polizei-warnt-vor-anrufen/',
+    country: 'LI',
+  },
+);
