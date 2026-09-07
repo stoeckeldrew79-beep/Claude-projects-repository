@@ -2823,3 +2823,27 @@ The case was unusual among sports-corruption scandals for how directly it marrie
 Amir's ban expired in 2015 and he returned to international cricket for Pakistan, retiring from Tests in 2017 and continuing in the shorter formats for several more years — a rare instance of a banned fixer resuming a career at the sport's highest level. Butt's and Asif's bans, and Majeed's conviction, were never appealed to a different outcome, and with every sentence served and no proceeding still open, the case that first exposed spot-fixing to a mainstream cricket audience closed without a lingering legal question left to resolve.`,
   },
 );
+
+NotoriousNS.push(
+  {
+    title: 'Navinder Sarao: The "Hound of Hounslow" Who Spoofed His Way to the Flash Crash',
+    slug: 'navinder-sarao-flash-crash-spoofing',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Cme_building_aerial_view.jpg?width=1200',
+    coverImageCredit: 'Photo: CME Group, Wikimedia Commons (CC BY-SA 3.0)',
+    coverImagePosition: 50,
+    // representative photo — CME's Chicago headquarters, where Sarao's trades
+    // executed; replace with a portrait if a rights-cleared one is found
+    body: `Navinder Singh Sarao traded E-mini S&P 500 futures — contracts tracking the broad U.S. stock market, cleared through the Chicago Mercantile Exchange — not from a Wall Street desk but from his childhood bedroom in his parents' house in Hounslow, west London, earning him the tabloid nickname "the Hound of Hounslow." Starting around 2009, he built and ran automated trading software designed to "spoof" the market: placing large sell orders he never intended to execute, designed to make other traders and algorithms believe heavy selling pressure was coming, then canceling those orders once prices moved and profiting on the other side of the trade.
+
+On May 6, 2010, U.S. markets briefly lost nearly $1 trillion in value within minutes in an episode that became known as the Flash Crash, before rebounding almost as quickly. Regulators spent years investigating the crash's causes, and a 2015 U.S. Department of Justice and Commodity Futures Trading Commission action identified Sarao's spoofing activity that day as a significant contributing factor, alongside other structural features of high-speed automated trading. Prosecutors said that between 2009 and 2015 his spoofing algorithm helped him net more than $40 million in illegal trading profits.
+
+Sarao was arrested at his home by British authorities in April 2015 on a U.S. request, then fought extradition for more than a year before being sent to the United States in November 2016. He pleaded guilty in Chicago federal court to one count of wire fraud and one count of spoofing, forfeited more than $12.8 million in trading gains, and separately agreed to pay the CFTC over $38 million in monetary sanctions. His defense, and prosecutors' own sentencing filings, described a very different picture of the "criminal mastermind" tabloids had imagined: Sarao, who was diagnosed with autism, had reportedly been defrauded of the great majority of his own trading profits by a series of unrelated investment schemes and con artists who identified him as an easy mark, leaving him with only a small fraction of the millions he had made.
+
+At sentencing in January 2020, prosecutors themselves argued against imprisonment, citing Sarao's "extraordinary" cooperation — including detailed technical assistance that helped investigators pursue other spoofing cases — along with his diagnosis and personal circumstances. U.S. District Judge Virginia Kendall sentenced him to time already served (roughly four months in a UK prison during his extradition fight) plus one year of home confinement, with no further prison time, closing the case with sentencing final and no appeal filed.
+
+Sarao's case became a landmark for financial regulators precisely because of how small an operation caused how large a disruption: a single trader working alone from a residential bedroom, using off-the-shelf hardware and self-taught coding, was found by the government's own analysis to have helped trigger a trillion-dollar, market-wide crash — a lesson regulators cited repeatedly in tightening rules around algorithmic spoofing in the years that followed.`,
+    sourceUrl: 'https://www.justice.gov/archives/opa/pr/futures-trader-pleads-guilty-illegally-manipulating-futures-market-connection-2010-flash',
+  },
+);

@@ -4221,3 +4221,27 @@ Federal prosecutors in New York indicted Cohen on wire and mail fraud charges, b
 Cohen's American indictment has never been resolved. He remained a ghost for more than a decade until British filmmaker Vanessa Engle spent seventeen years tracking him down for her 2019 documentary "The $50 Million Art Swindle," finding him still living, unextradited, off the proceeds of a fraud that had emptied some of the art world's most sophisticated dealers years earlier. As recently as 2025, the FBI has continued pursuing loose ends from the case, including a Jean Dubuffet painting connected to Cohen's dealings whose rightful ownership remains disputed — a reminder that, absent an arrest that sticks, an art fraud of this scale can keep generating unresolved claims decades after the dealer who caused it disappeared.`,
   },
 ];
+
+NotoriousGM.push(
+  {
+    title: 'Ken Perenyi: The Art Forger Who Waited Out the Statute of Limitations',
+    slug: 'ken-perenyi-art-forger-caveat-emptor',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Buttersworth_-_flying_cloud.jpg?width=1200',
+    coverImageCredit: 'Painting: James E. Buttersworth, c. 1859-60 (public domain)',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait of Perenyi if found; this
+    // is a genuine Buttersworth painting, the artist whose work he forged most
+    body: `Ken Perenyi was a self-taught American painter who, finding little market for his own original work in 1960s New York, discovered instead that he had a rare gift for reproducing the styles of 19th-century masters closely enough to fool the people paid to tell the difference. Over roughly three decades, he turned that gift into a career: painting new works, aging them with period-correct materials and craquelure, and placing them into the market as long-lost originals by artists including the maritime painter James E. Buttersworth, the still-life and landscape painter Martin Johnson Heade, and the British sporting artist John Frederick Herring Sr.
+
+Unlike forgers who build elaborate paper trails of fake provenance, Perenyi's method relied on the paintings themselves: technically accomplished enough to pass connoisseurship at the point of sale, with just enough of a plausible, hard-to-verify backstory (a picture "found" in an old estate or English country house) to avoid inviting deeper scrutiny. It worked well enough that his forgeries moved through Christie's, Sotheby's, and Phillips in both London and New York for years. His most lucrative single sale was a purported Heade that went under the hammer at Sotheby's in 1994 and fetched roughly $650,000 for a painting Perenyi had made himself.
+
+The scheme drew FBI attention in the late 1990s, after agents traced several suspect paintings sold at major auction houses back to him, opening a five-year investigation run jointly with the U.S. Attorney's Office for the Southern District of New York that examined his output, his buyers, and the auction houses that had sold the works. Perenyi retained a lawyer, declined to cooperate beyond denying knowledge of any wrongdoing, and the case dragged on without an indictment. Then, just before the statute of limitations on the alleged frauds was set to run out, the investigation quietly closed with no charges ever filed — Perenyi has said he believes the auction houses that had unknowingly sold his forgeries had no interest in the publicity a prosecution would bring, since it would also expose their own failure to catch the fakes.
+
+With prosecution no longer legally possible, Perenyi did what almost no forger in his position does: he told the whole story himself, publishing the memoir "Caveat Emptor: The Secret Life of an American Art Forger" in 2012, detailing his methods and career in the kind of granular, boastful detail no living defendant could risk. He has estimated that roughly a thousand of his forged paintings remain in circulation, sold on to collectors and museums who in many cases still believe they own the real thing. Perenyi now lives openly as a working artist in New Jersey, selling paintings explicitly marketed as reproductions.
+
+Perenyi's case is a rare closed loop in the world of art fraud: an admitted, well-documented scheme spanning decades and hundreds of forged works, an investigation substantial enough to occupy federal agents for five years, and a clock that simply ran out before anyone was held legally accountable — leaving a body of undetected fakes that, by his own account, is still being bought and sold as genuine today.`,
+    sourceUrl: 'https://www.cbsnews.com/news/a-forger-of-art-tells-all-03-03-2013/',
+  },
+);
