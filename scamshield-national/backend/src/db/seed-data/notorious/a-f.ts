@@ -4554,3 +4554,22 @@ Brice never wavered while he was locked up — she wrote, visited, and kept payi
 Arnstein's twice-proven criminal record didn't stop his story from being rewritten into one of Broadway and Hollywood's most beloved romances. The 1964 musical "Funny Girl" and its 1968 film adaptation, both built around Brice's life, turned "Nicky Arnstein" into a dashing, unlucky gambler more sinned against than sinning — a softened, sympathetic version of a man two separate juries had found to be exactly the con artist prosecutors said he was. It's a case where the swindle didn't end with his conviction: decades later, audiences were still being sold a more flattering version of Nicky Arnstein than the one the courts, and Fanny Brice's pawned jewelry, actually paid for.`,
   },
 );
+NotoriousAF.push(
+  {
+    title: 'Dieter Behring and the CHF 800 Million "Miracle" Trading Software That Never Existed',
+    slug: 'dieter-behring-swisspulse-investment-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://www.swissinfo.ch/eng/business/financial-fraud-_behring-handed-stiff-prison-sentence/42485220',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Tribunale_Penale_Federale_(Bellinzona).jpg?width=1200',
+    coverImageCredit: 'Photo: Vale-B*Girl (CC BY-SA 3.0) — Switzerland’s Federal Criminal Court in Bellinzona, which tried Behring',
+    coverImagePosition: 50,
+    body: `Dieter Behring, a financier from Basel, told investors he had done something no one else in finance ever had: built a trading system, which he called Swisspulse, that had cracked the "genetic code" of the financial markets and eliminated the emotional decision-making he blamed for most investors' losses. Between 1998 and 2004, Behring claimed the system had produced average annual returns above 56 percent going back to 1991 — an implausible figure that was never verified by any independent auditor — while offering nervous investors a simpler, more believable hook: a guaranteed fixed return of 6 percent a year, paid out punctually, year after year, exactly as promised.
+
+The guaranteed payments were the point. For nearly two thousand investors, mostly in Switzerland and neighboring Germany, watching a promised 6 percent land in their accounts on schedule was more convincing than any explanation of how Swisspulse actually worked, and Behring never had to explain it in any detail regulators or outside experts could meaningfully test. Money flowed into a web of Behring-controlled investment vehicles that funded his own lifestyle as much as any trading strategy, with new investor money used to keep the promised returns flowing to earlier investors — the same structural sleight of hand that has powered fraudulent schemes since long before Behring was born, dressed up here in the language of proprietary software and market genetics rather than the vaguer promises of a Ponzi or Madoff.
+
+The scheme collapsed in October 2004, once the money coming in could no longer cover the returns going out. Swiss authorities arrested Behring that same month; he was released in April 2005, then rearrested in March 2007 and eventually freed again on one million Swiss francs bail with his passport confiscated. What followed was one of the longest-running fraud prosecutions in Swiss history, working through multiple hearings and appeals over more than a decade while investigators tried to reconstruct where roughly CHF 800 million (about $827 million) in investor money had actually gone. Switzerland's Federal Criminal Court in Bellinzona finally delivered its verdict on September 30, 2016, convicting Behring of fraud and money laundering and sentencing him to five and a half years in prison, along with an order to repay investors CHF 207 million — itself only a fraction of what they had put in.
+
+Behring appealed, maintaining his innocence to the end, and the Federal Supreme Court rejected that appeal in January 2019. He never served a day of his sentence: cited as too ill to be imprisoned, Behring died two months later, in March 2019, at the age of 63. Investigators were never able to trace or recover the bulk of the CHF 800 million, and Swiss financial media covering the aftermath described Behring's victims as feeling short-changed twice over — once by the fraud itself, and again by a conviction and restitution order that arrived only after the money, and eventually the man who took it, were both gone for good.`,
+  },
+);
