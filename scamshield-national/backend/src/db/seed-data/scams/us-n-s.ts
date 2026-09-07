@@ -3462,4 +3462,15 @@ export const UsNS: SeedScam[] = [
     country: 'US',
     state: 'PA',
   },
+  {
+    name: 'South Dakota Oglala Sioux Tribe TERO Fee Embezzlement Scheme',
+    slug: 'south-dakota-oglala-sioux-tribe-tero-embezzlement',
+    description: `From as early as November 2017 through May 2024, Patrick Ross, a former employee of the Oglala Sioux Tribe's Tribal Employment Rights Office (TERO) — the office responsible for collecting a mandatory 4% fee from contractors doing construction work on the Pine Ridge Reservation — worked with Buffy Redfish, TERO's office manager, to divert 166 fee checks totaling more than $4.7 million into a bank account Ross opened at U.S. Bank under the name "Patrick M. Ross dba TERO," rather than the tribe's own accounts. The stolen money came out of a general fund the tribe uses to pay for emergency management, solid waste disposal, water and sewer service, burial assistance, medical assistance, utility assistance, education assistance, and emergency food and shelter aid for tribal members in crisis — meaning every diverted check reduced money otherwise available for those community services. U.S. District Judge Camela C. Theeler sentenced Ross, 56, on August 24, 2026 to 78 months in federal prison plus three years of supervised release after his conviction on conspiracy to commit wire fraud, three counts of wire fraud, and three counts of money laundering, ordering him to pay more than $4.74 million in restitution; Redfish was separately convicted and sentenced to 78 months as well, with $4.7 million in restitution of her own. U.S. Attorney Ron Parsons' office, which prosecuted the case, said the scheme illustrates how a scam or embezzlement doesn't need a stranger on the phone to victimize a community — a years-long insider diversion of fee revenue meant for public services can be just as damaging to the people who depend on that fund, and organizations that collect and disburse fees on a community's behalf should maintain independent, regularly audited controls over who can open accounts or redirect payments in the organization's name.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office for the District of South Dakota", 'KOTA Territory News'],
+    sourceUrl: 'https://www.justice.gov/usao-sd/pr/porcupine-man-sentenced-more-6-years-federal-prison-wire-fraud-and-money-laundering',
+    country: 'US',
+    state: 'SD',
+  },
 ];

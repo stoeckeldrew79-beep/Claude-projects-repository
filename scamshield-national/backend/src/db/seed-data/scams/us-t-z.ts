@@ -2000,4 +2000,15 @@ export const UsTZ: SeedScam[] = [
     country: 'US',
     state: 'TX',
   },
+  {
+    name: '"AAPP" Free Gas and Grocery Card Postcard Scam',
+    slug: 'west-virginia-aapp-gas-grocery-card-scam-mailer',
+    description: `West Virginia Attorney General JB McCuskey's office issued a consumer alert on July 21, 2026 warning residents about postcards arriving in the mail from an outfit calling itself "AAPP" — a name designed to be mistaken at a glance for AARP — claiming that gas and grocery vouchers were already being held in the recipient's name. The postcards are dressed up to look official, carrying fabricated tracking numbers, expiration dates, and barcodes alongside urgent language like "Limited time offer," "Expiring soon," or "Final notice," and instruct the recipient to call a number and pay a $5 "processing fee" to claim the free cards. Consumers who called and paid found themselves charged again for another $46 — a total loss of $51 — while the promised gas and grocery cards never arrived, or arrived only as low-value coupons; some victims discovered they had also been unknowingly enrolled in a recurring monthly subscription charge, and the company proved difficult or impossible to reach for a refund. "With the cost of groceries and gasoline going up, more families are looking for ways to make a dollar stretch — especially those on a fixed income. Scammers know this and are taking advantage of people who need a little financial relief," the Attorney General's office said in announcing the alert. West Virginians are advised to treat any unsolicited mailer promising a free prepaid card in exchange for an upfront "processing fee" as fraudulent — a legitimate rebate, refund, or benefit never requires the recipient to pay first — and to verify any offer independently rather than calling the number printed on the postcard. Suspected scam mailers can be reported to the West Virginia Attorney General's Consumer Protection Hotline at 1-800-368-8808 or through ago.wv.gov.`,
+    categorySlug: 'subscription-traps',
+    alertLevel: 'medium',
+    sources: ["West Virginia Attorney General's Office (JB McCuskey)", 'WDTV', 'The Herald-Dispatch'],
+    sourceUrl: 'https://ago.wv.gov/article/consumer-alert-attorney-general-mccuskey-warns-consumers-about-free-gas-and-grocery-card',
+    country: 'US',
+    state: 'WV',
+  },
 ];

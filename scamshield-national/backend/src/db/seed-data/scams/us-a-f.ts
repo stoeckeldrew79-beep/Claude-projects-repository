@@ -5581,4 +5581,15 @@ export const UsAF: SeedScam[] = [
     country: 'US',
     state: 'CA',
   },
+  {
+    name: 'Florida Prison Inmate Contraband-Cellphone Senior Scam Ring ("Operation Triple Threat")',
+    slug: 'florida-operation-triple-threat-inmate-cellphone-senior-scam',
+    description: `Florida Attorney General James Uthmeier joined the Florida Department of Law Enforcement, the Florida Department of Corrections, and the Hillsborough and Brevard County Sheriff's Offices on June 2, 2025 to announce "Operation Triple Threat," a surprise search-and-seizure operation across three state prisons holding roughly 3,000 inmates that turned up about 40 smuggled cellphones, some delivered by drone. Investigators said incarcerated people were using the contraband phones — along with cryptocurrency and Bitcoin to move the proceeds — to run fraud schemes against seniors from behind bars, convincing victims to pay a fake fine for missing jury duty or a toll violation, purchase services that were never provided, or enter into a fabricated online relationship before asking for money. Officials said the schemes have already cost victims close to $13 million, with only about $1.4 million recovered, and cited a 92-year-old Hillsborough County man who was talked into handing over more than $800,000 in a single scheme; three separate active cases involve losses exceeding $1 million each. "While being locked up, they are using devices and technology to present scam opportunities for seniors to purchase services or enter into relationships where they are transacting money," Uthmeier said, adding that "Florida is the #1 state to retire, and we have a duty to protect the seniors living out their golden years across this state." Hillsborough County Sheriff Chad Chronister urged residents to "keep a watchful eye on your financial resources. Trust no one. ... Give your bank account information to no one," while officials said they are pushing for legislation to jam drone signals and disable contraband phones inside Florida prisons. Anyone contacted by an unfamiliar romantic interest, a caller demanding payment for a missed jury summons or toll ticket, or anyone pressured to send cryptocurrency should be skeptical regardless of how convincing the caller sounds, verify any claimed fine independently through the actual court or toll authority, and report suspected fraud to the Florida Attorney General's Office at MyFloridaLegal.com or 1(866) 9NO-SCAM.`,
+    categorySlug: 'romance-scams',
+    alertLevel: 'high',
+    sources: ['Florida Office of the Attorney General (James Uthmeier)', 'Florida Department of Law Enforcement', 'Florida Department of Corrections', 'WUSF'],
+    sourceUrl: 'https://www.myfloridalegal.com/newsrelease/attorney-general-james-uthmeier-stands-law-enforcement-protect-seniors-fraud',
+    country: 'US',
+    state: 'FL',
+  },
 ];
