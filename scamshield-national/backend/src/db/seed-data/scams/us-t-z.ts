@@ -2011,4 +2011,15 @@ export const UsTZ: SeedScam[] = [
     country: 'US',
     state: 'WV',
   },
+  {
+    name: 'Washington State DOL and DOT Toll and Traffic Violation Phishing Scam',
+    slug: 'washington-dol-dot-toll-traffic-violation-phishing-scam',
+    description: `Washington Attorney General Nick Brown issued a consumer alert on March 30, 2026 warning licensed drivers statewide about a wave of phishing texts and emails impersonating the Washington State Department of Licensing and the Department of Transportation. The messages falsely claim the recipient owes money for an unpaid traffic ticket or an outstanding toll fee, using urgent language that threatens an arrest, a suspended license, or an impounded vehicle if payment isn't made immediately, and they include a link designed to harvest banking details and other personal information rather than process any real payment. Brown's office noted that the scam is difficult to prosecute because many of the operators send the messages from overseas using systems built to disguise their true location, letting them target Washington drivers at scale with little fear of being caught. Recipients are told not to click any link in the message, not to reply, and to delete it from their device; anyone who already clicked a link or shared personal information is advised to monitor their bank and credit card statements, place a fraud alert with the credit bureaus, close any account that may have been compromised, and file a police report if identity theft results. Suspected scams can be reported to the Washington Attorney General's Office, the FTC at 1-877-382-4357, or the FBI's Internet Crime Complaint Center at ic3.gov.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ["Washington State Office of the Attorney General (Nick Brown)"],
+    sourceUrl: 'https://www.atg.wa.gov/news/news-releases/consumer-alert-scams-target-licensed-drivers-washington',
+    country: 'US',
+    state: 'WA',
+  },
 ];
