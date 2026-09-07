@@ -3916,3 +3916,27 @@ UsNS.push({
     country: 'US',
     state: 'NH',
 });
+
+UsNS.push({
+    name: 'Curtis Total Service Lehigh Valley HVAC Deceptive Sales Scheme',
+    slug: 'pennsylvania-curtis-total-service-hvac-deceptive-sales-scheme',
+    description: `Pennsylvania Attorney General Dave Sunday announced a $300,000 settlement on May 28, 2026 resolving a lawsuit against Curtis Total Service, Inc., an HVAC contractor based in the Lehigh Valley, along with current manager Richard Price and former field supervisor Matthew Price, over years of fear-based, high-pressure sales tactics aimed at elderly and fixed-income homeowners. According to the Attorney General's office, the company routinely told customers their furnace or air conditioning unit could "blow up" or was otherwise dangerously unsafe to justify an immediate, unnecessary replacement, had customers sign incomplete or entirely blank contracts that were filled in or altered after signing, misrepresented financing terms and the legal right to cancel within three days, and threatened legal action against anyone who tried to back out. In one case cited in the settlement, 85-year-old Shirley Beckman was pressured into signing a blank contract for a furnace replacement and threatened with legal action when she tried to cancel, with the final price ending up more than 300% higher than what she had first been quoted; in another, 90-year-old Saul Topolsky had his HVAC unit removed without his consent and was then forced to sign a contract for a $29,000 replacement system. The company also removed equipment from at least one home and falsely told the customer that ductwork contained mold to justify the extra charges. "Curtis Total Service used fear and deception to pressure consumers into expensive and often unnecessary HVAC purchases," Attorney General Sunday said. Under the settlement, the company must provide upfront written pricing and obtain a customer's written consent before starting work and ensure every contract term is filled in before a customer signs; Richard Price is barred for five years from holding any ownership stake in a Pennsylvania HVAC-related company, and Matthew Price is banned for eight years from any management or sales role at a Pennsylvania HVAC-related company and from handling financing applications. Homeowners approached by an HVAC contractor claiming an emergency replacement is needed should get a second opinion before signing anything, should never sign a contract with blank fields, and should know that home-improvement contracts in Pennsylvania generally carry a three-day right to cancel that a legitimate contractor will never pressure a customer to waive.`,
+    categorySlug: 'home-improvement-solar',
+    alertLevel: 'medium',
+    sources: ['Pennsylvania Office of Attorney General', 'WFMZ', 'ACHR News'],
+    sourceUrl: 'https://www.attorneygeneral.gov/taking-action/lehigh-valley-hvac-company-to-pay-300k-and-revise-business-practices-after-ag-sunday-lawsuit-for-aggressive-deceptive-sales-practices/',
+    country: 'US',
+    state: 'PA',
+});
+
+UsNS.push({
+    name: 'Arsen Lusher $40 Million Trucking Company Ponzi Scheme',
+    slug: 'new-jersey-arsen-lusher-trucking-ponzi-scheme',
+    description: `Arsen Lusher, a New Jersey trucking company owner, was sentenced on April 24, 2026 in the U.S. District Court for the Southern District of New York to 42 months in prison for running a Ponzi scheme that raised roughly $40 million from more than 20 investors between 2017 and February 2021. Lusher and a small group of associates pitched investors on funding the purchase of semi-trucks — typically around $45,000 each — for a trucking business he falsely claimed held lucrative delivery and installation contracts with multiple large retailers, backing the pitch with signed investment agreements that guaranteed fixed returns of 30% to 40% over one or two years. In reality, Lusher's trucking operation was small, having performed less than $300,000 of actual work for a single retailer over the life of the scheme, and he used incoming investor money to pay off earlier investors' promised returns while personally spending funds on gambling and high-end shopping; prosecutors said he also used fake documents to keep the story credible as the scheme grew. Lusher pleaded guilty in August 2025 to one count of wire fraud and was ordered to pay $8,740,440 in both forfeiture and restitution — a fraction of the roughly $40 million originally raised. "A good rule of thumb for investors: no audit, no investment," said then-U.S. Attorney Jay Clayton. The case underscores that a promised fixed return well above market rates on a "hard asset" investment like trucks or equipment is not made safer by the physical collateral described in a contract — a legitimate hard-asset investment can still be a complete fabrication, and any pitch promising guaranteed returns of 30% or more annually should be verified against independently audited financial statements and the company's actual, checkable contracts before any money changes hands.`,
+    categorySlug: 'ponzi-pyramid-schemes',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office, Southern District of New York", 'CDLLife', 'The Trucker'],
+    sourceUrl: 'https://cdllife.com/2026/fast-talking-fraudster-sentenced-in-8-7-million-trucking-company-ponzi-scheme/',
+    country: 'US',
+    state: 'NJ',
+});
