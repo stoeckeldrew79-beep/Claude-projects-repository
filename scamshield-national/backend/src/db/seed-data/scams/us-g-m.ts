@@ -3878,6 +3878,18 @@ UsGM.push({
     state: 'KY',
 });
 
+UsGM.push({
+    name: 'Junction City Veteran VA Caregiver Benefit Fraud (James Bradford)',
+    slug: 'kansas-junction-city-va-caregiver-benefit-fraud-bradford',
+    description: `From August 2014 through July 2023, James Bradford, a 49-year-old Army veteran from Junction City, Kansas, and his designated caregiver told the U.S. Department of Veterans Affairs that Bradford could not manage basic tasks of daily living — including medication management, organizing his own financial affairs, and arranging his own transportation — in order to qualify him for VA caregiver benefit payments that ultimately totaled more than $170,000. The claims directly contradicted Bradford's actual life during that period: from May 2016 until 2025 he held a full-time job as a project manager for the U.S. General Services Administration in Topeka, where his duties included overseeing multi-million-dollar contracts between GSA and outside vendors — responsibilities that required exactly the kind of independent judgment, scheduling, and financial oversight he and his caregiver had told the VA he could not perform. A federal jury in the District of Kansas convicted Bradford in August 2026 of conspiracy to defraud the government and theft of public money, property, or records. The case is a reminder that VA caregiver and disability benefit fraud is prosecuted as a federal crime with real prison exposure, not a victimless paperwork issue, and that the VA and Department of Justice actively cross-reference benefit applications against a claimant's actual employment and public records to catch exactly this kind of contradiction.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'medium',
+    sources: ["United States Department of Justice, Office of Public Affairs", "U.S. Attorney's Office, District of Kansas", 'WIBW'],
+    sourceUrl: 'https://www.justice.gov/usao-ks/pr/jury-convicts-army-veteran-embellishing-health-issues-defraud-va',
+    country: 'US',
+    state: 'KS',
+});
+
 
 UsGM.push({
     name: 'Sandy Springs Fulton County Sheriff Jury Duty Extortion Scam',
