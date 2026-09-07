@@ -2,6 +2,28 @@ import { SeedArticle } from '../types';
 
 export const NotoriousGM: SeedArticle[] = [
 {
+    title: 'Geert Jan Jansen: The Dutch "Master Forger" Who Got the Artists Themselves to Authenticate His Fakes',
+    slug: 'geert-jan-jansen-art-forgery-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://magazine.atavist.com/2019/masterpiece-theater-art-forgery-picasso-geert-jan-jansen',
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/2007-01-18_'Symposium_Echt-Vals'_in_Amsterdam._Kunstvervalser_Geert_Jan_Jansen_(cropped).jpg?width=1200",
+    coverImageCredit: 'Photo: Carla Durville / Wikimedia Commons (CC0)',
+    coverImagePosition: 30,
+    // representative photo — replace with a portrait/exact match if found
+    body: `Geert Jan Jansen, born in 1943 in the Dutch town of Waalre, spent roughly two decades producing what may be the largest single collection of art forgeries ever assembled by one person — and got away with most of it, because the objects he faked were rarely valuable enough on their own to trigger serious scrutiny, and because, on at least one occasion, the artist he was forging vouched for the fake himself.
+
+Jansen started small. After running two unsuccessful Amsterdam galleries, he began signing posters of Karel Appel lithographs and selling them as originals. His first forged Appel work sold for 2,600 guilders. Emboldened, he sent another fake to a London auction house — and Appel, shown a photograph of it, declared the piece genuine. From Appel, Jansen expanded into the "entire alphabet" of twentieth-century modernists: Picasso, Matisse, Chagall, Miro, Dufy, Cocteau, Magritte, and more, favoring works on paper — drawings, gouaches, lithographs — that drew less expert scrutiny than oil paintings and were easier to place with dealers eager for fresh inventory.
+
+In 1981, Dutch police found 76 forged Appel lithographs hidden in the ceiling of a warehouse. Rather than prosecute, the attorney general struck an unusual bargain: no charges, provided Jansen stopped forging for three years. He kept the deal until 1988, when a fresh batch of fake Appel paintings surfaced.
+
+The operation finally collapsed in 1994. Using the alias "Jan van den Bergen," Jansen tried to place forged works with a Munich auction house; an expert grew suspicious and alerted investigators. The trail led French and German police to a farmhouse Jansen was using near Poitiers, France, where a raid on May 6, 1994 turned up close to 1,600 forged works, organized by artist in separate rooms, along with vintage typewriters and rubber stamps used to fabricate matching certificates of authenticity and provenance documents.
+
+The scale of the seizure made prosecution oddly difficult: with so many forgeries and so few identifiable victims willing to come forward and admit they had been fooled, French prosecutors could make only a fraction of the case stick. When Jansen was finally tried in Orleans in September 2000, he was convicted on a narrowed set of charges and sentenced to one year in prison plus a four-year suspended sentence, with most of that time already covered by pretrial detention, and banned from France for three years. Most of the seized forgeries were ordered destroyed.
+
+Jansen never expressed remorse. He continued painting in the styles of the masters he had once forged, openly selling the results under his own name as acknowledged "lookalikes" rather than as originals, and published a memoir of his career. Because so many of his fakes had already been authenticated, sold, and resold before the 1994 raid, an unknown number are still believed to hang in private collections and even museums, misattributed to painters who never touched them.`,
+  },
+{
     title: "Jordan Belfort, the \"Wolf of Wall Street,\" and the Victims Still Waiting to Be Paid",
     slug: 'jordan-belfort-stratton-oakmont-wolf-of-wall-street',
     author: 'ScamShield Editorial',

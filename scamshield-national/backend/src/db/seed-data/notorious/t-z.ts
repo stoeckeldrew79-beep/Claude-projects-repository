@@ -1442,4 +1442,22 @@ Grant served his sentence and was released in September 1997 — and did not ret
 Grant's case is a stark illustration of how little a documented fraud exposure and a federal conviction can do to stop a faith-healing scam once it has an established, devoted audience: unlike the one-time con artists in this collection, his fraud was never a single scheme that collapsed — it was a recurring performance that outlasted the very investigations meant to end it.`,
     sourceUrl: 'https://caselaw.findlaw.com/court/us-5th-circuit/1188321.html',
   },
+  {
+    title: 'Wilson Raj Perumal: Singapore’s "Kelong King" and the Global Match-Fixing Syndicate',
+    slug: 'wilson-raj-perumal-match-fixing-kingpin',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.cnn.com/2014/08/26/sport/football/match-fixing-wilson-raj-perumal-corruption',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Wilson_Raj_Perumal.png?width=1200',
+    coverImagePosition: 50,
+    body: `Wilson Raj Perumal, a Singaporean bookmaker known to investigators and the press as the "Kelong King" (a Singlish term for a rigged outcome), became one of the central figures in what Interpol later called the world's most notorious football match-fixing syndicate. Over roughly two decades he worked his way from small-time domestic fixing into a role bribing players, coaches, and referees on nearly every continent, feeding a global illegal betting market built on results decided before kickoff.
+
+Perumal first went to prison in Singapore in 1995 for fixing local matches, and Singapore's Football Association banned him for life the following decade. Rather than end his career, the conviction pushed him into the international syndicate run by Tan Seet Eng, known as "Dan Tan," which Interpol would eventually describe as the world's most notorious match-fixing network. Perumal became one of its most active operators, personally implicated in fixing exhibition matches ahead of the 2010 World Cup, domestic leagues swept up in Zimbabwe's "Asiagate" scandal of 2007-2009, and games across Africa, Asia, and Europe.
+
+His downfall came in Finland. Perumal was arrested there in February 2011, using a false passport, while overseeing the rigging of matches involving the Rovaniemi club RoPS in the Finnish top flight. A Lapland court convicted him in July 2011 of forgery, match-fixing, and attempting to flee custody, finding that he had personally arranged bribes in seven fixed matches and pocketed roughly $210,000 from a fixing operation that touched two dozen Rovaniemi games between 2008 and 2011. FIFA later called the case a breakthrough, crediting it with pushing the organization into closer cooperation with Interpol and law enforcement across Asia.
+
+After serving roughly a year of his Finnish sentence, Perumal turned informant, feeding details of the syndicate's operations to FIFA, UEFA, and prosecutors pursuing match-fixing cases in Italy and elsewhere. In 2014 he published a memoir, "Kelong Kings: Confessions of the World's Most Prolific Match-Fixer," co-written with two Italian journalists, in which he claimed to have fixed as many as 100 matches, including World Cup qualifiers involving Nigeria and Honduras and games at the Olympics — claims that drew wide press coverage but, coming from a self-interested source, were never independently confirmed in full.
+
+Perumal's legal troubles did not end with football. He fled Singapore in 2010 to avoid a separate domestic case and remained a fugitive from Singaporean authorities for over a decade. In July 2020, Hungarian police arrested him on unrelated charges of organizing human trafficking. A Hungarian court convicted him in May 2025 and sentenced him to eleven years in prison; as of the verdict, Perumal was appealing both the conviction and the sentence, leaving the case unresolved. His decades-long run — from small-time Singapore fixer to central witness in one of the biggest corruption scandals in international sport, to convicted trafficker — remains an active legal matter rather than a closed one.`,
+  },
 );
