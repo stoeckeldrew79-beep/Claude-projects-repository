@@ -10134,3 +10134,26 @@ International.push(
     country: 'MO',
   },
 );
+
+International.push(
+  {
+    name: 'Fake "MirrorTradelocker" Broker Impersonating FSA Seychelles License',
+    slug: 'seychelles-mirrortradelocker-fake-fsa-license-scam',
+    description: `The Financial Services Authority (FSA) of Seychelles issued a scam alert in August 2026 warning the public about MirrorTradelocker Ltd, an online trading platform operating at mirrortradelocker.com that falsely claims to hold a Securities Dealer's license from the FSA. The site advertises the license number as though it were legitimately issued, but the FSA confirmed MirrorTradelocker Ltd is not a licensee, is not known to the Authority under that name, and is not authorized or regulated by the FSA in any capacity — the license number cited belongs to a genuine, unrelated FSA-regulated firm. Fraudulent brokers of this kind typically solicit deposits from overseas investors for forex or CFD trading, show fabricated account balances or "profits" to encourage larger deposits, and then block withdrawals or disappear once a victim tries to cash out. The FSA urges investors and members of the public to verify any entity claiming to be FSA-licensed against the Authority's official public register of licensees before depositing funds or sharing personal and financial information, and warns it bears no responsibility for losses tied to unauthorized platforms.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ['Financial Services Authority (FSA) Seychelles'],
+    sourceUrl: 'https://fsaseychelles.sc/media-corner/regulatory-updates',
+    country: 'SC',
+  },
+  {
+    name: 'Fake "Enterprise Seychelles Agency" Project Funding Scam',
+    slug: 'seychelles-fake-enterprise-agency-funding-scam',
+    description: `Seychelles' Ministry of Finance, Economic Planning, Trade and Investment issued a public scam alert in June 2026 after fraudulent posts began circulating on social media in the name of the Enterprise Seychelles Agency (ESA), inviting members of the public and small business owners to submit "project proposals" in exchange for promised funding. The Ministry confirmed the posts are fake and warned that ESA has not launched any such call for proposals, cautioning the public not to confuse the scam with the National Grants Fund — the only funding scheme genuinely administered by the Ministry of Finance. Victims who respond to the fraudulent posts risk having their personal and business information harvested, and in similar schemes elsewhere are often later asked to pay "processing" or "registration" fees to unlock the promised funding, which never materializes. The Ministry urged Seychellois to verify any government funding opportunity directly through ESA's or the Ministry's official website and channels before submitting a proposal or any personal or financial details in response to a social media post.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Ministry of Finance, Economic Planning, Trade and Investment (Seychelles)'],
+    sourceUrl: 'https://www.finance.gov.sc/blog/2026/06/10/ministry-of-finance-issues-scam-alert/',
+    country: 'SC',
+  },
+);
