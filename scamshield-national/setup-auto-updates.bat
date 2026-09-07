@@ -31,9 +31,20 @@ schtasks /create /tn "ScamShield National Keep Running" /tr "\"%~dp0keep-running
 if errorlevel 1 goto failed
 
 echo.
-echo Registering the start-at-logon trigger...
-schtasks /create /tn "ScamShield National Start On Logon" /tr "\"%~dp0keep-running.vbs\"" /sc onlogon /rl limited /f
-if errorlevel 1 goto failed
+echo Registering the start-at-logon trigger (optional)...
+REM An ONLOGON task normally needs administrator rights, so this is the one
+REM step allowed to fail. Scoping it to the current user with /ru lets it
+REM succeed unelevated on some machines; where it doesn't, nothing is lost -
+REM the 5-minute keep-alive above already brings the site back after a
+REM reboot, just up to five minutes later. Never abort setup over it.
+schtasks /create /tn "ScamShield National Start On Logon" /tr "\"%~dp0keep-running.vbs\"" /sc onlogon /ru "%USERNAME%" /rl limited /f
+if errorlevel 1 (
+  echo.
+  echo   Skipped - Windows requires administrator rights for a logon trigger.
+  echo   This is fine and nothing is broken: the 5-minute keep-alive already
+  echo   restarts the site after a reboot, within five minutes of you
+  echo   logging in. Only run this as administrator if you want it instant.
+)
 
 echo.
 echo ============================================
@@ -46,8 +57,9 @@ echo.
 echo --- Site keep-alive ---
 schtasks /query /tn "ScamShield National Keep Running" /fo LIST | findstr /C:"Status" /C:"Last Run Time" /C:"Last Result" /C:"Next Run Time"
 echo.
-echo --- Start at logon ---
-schtasks /query /tn "ScamShield National Start On Logon" /fo LIST | findstr /C:"Status" /C:"Last Run Time" /C:"Last Result" /C:"Next Run Time"
+echo --- Start at logon (optional) ---
+schtasks /query /tn "ScamShield National Start On Logon" /fo LIST 2>nul | findstr /C:"Status" /C:"Last Run Time" /C:"Last Result" /C:"Next Run Time"
+if errorlevel 1 echo   Not registered - needs administrator rights. Not a problem; see above.
 
 echo.
 echo ============================================
