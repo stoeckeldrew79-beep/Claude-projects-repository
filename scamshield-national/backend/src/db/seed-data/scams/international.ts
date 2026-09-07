@@ -10479,3 +10479,26 @@ International.push(
     country: 'TO',
   },
 );
+
+International.push(
+  {
+    name: 'DRC SIM-Swap Mobile Money Takeover Scam',
+    slug: 'drc-sim-swap-mobile-money-takeover-scam',
+    description: `Fraud researchers at the Institute for Security Studies' ENACT Africa programme have documented a surge in SIM-swap fraud across the Democratic Republic of Congo, a problem that intensified sharply after M23 rebels seized Goma and Bukavu in early 2025 and the resulting bank closures pushed residents to rely on mobile money for everyday transactions. Fraudsters first gather a target's personal details through phishing messages, social media, or data leaks, then use tactics such as texting a fake prize notification that asks the victim to reply "ok," posing as a recruiter with an easy job offer, or falsely telling a street SIM vendor that the phone was stolen to avoid identity checks. With enough information in hand, they convince a telecom employee or vendor to reassign the victim's number to a SIM card they control, which hands them the calls, texts, and one-time passcodes needed to access the victim's mobile money wallet directly. Attackers also re-register the hijacked number on WhatsApp and Telegram and message the victim's own contacts — sometimes reaching people as far away as Kenya — posing as the victim to ask for loans or urgent help covering bills, with individual cases draining as much as $10,000 from sympathetic contacts. In one widely cited 2022 case, the aid group GiveDirectly said $1.2 million was diverted through SIM-swapping collusion, depriving more than 1,700 families of aid they were owed. In response, the Congolese telecom regulator ARPTC introduced stricter biometric identity checks for new SIM activations and replacements, and some Goma-based providers added multi-factor authentication for account changes.`,
+    categorySlug: 'account-takeover',
+    alertLevel: 'high',
+    sources: ['ENACT Africa (Institute for Security Studies)', 'Autorité de Régulation de la Poste et des Télécommunications du Congo (ARPTC)'],
+    sourceUrl: 'https://issafrica.org/enactafrica/enact-observer/weak-enforcement-measures-exacerbate-sim-swapping-in-the-drc',
+    country: 'CD',
+  },
+  {
+    name: 'DRC Fake Starlink Discount Mobile Money Phishing Scam',
+    slug: 'drc-fake-starlink-discount-mobile-money-phishing-scam',
+    description: `Congolese broadcaster Radio Okapi reported on July 25, 2026 that scammers across the Democratic Republic of Congo are circulating fake internet-subscription promotions on WhatsApp and Facebook to steal money directly out of victims' mobile money wallets. The posts advertise deals priced far below market rates — one widely shared example offered "unlimited Starlink for one month for only $7" — and link out to lookalike websites built to collect the victim's mobile money PIN and account details under the guise of completing the purchase. Once a victim enters their credentials on the fake site, the scammers use them to log into the real mobile money account and withdraw or transfer out the balance, all while the promised internet service never arrives. One resident of Bukavu, identified only as Mister Paffs, said he lost more than $65 after falling for the scheme, and Radio Okapi noted that similar complaints had surfaced in multiple cities around the country, pointing to a broader identity-theft and phishing trend built around offers that undercut real market prices. Digital-security commentators quoted in the report urged Congolese mobile money users to treat unusually cheap subscription offers shared through social media as a red flag and to never enter a mobile money PIN on a website reached through a WhatsApp or Facebook link rather than an operator's official app or USSD code.`,
+    categorySlug: 'phishing',
+    alertLevel: 'high',
+    sources: ['Radio Okapi'],
+    sourceUrl: 'https://fr.allafrica.com/stories/202607250026.html',
+    country: 'CD',
+  },
+);
