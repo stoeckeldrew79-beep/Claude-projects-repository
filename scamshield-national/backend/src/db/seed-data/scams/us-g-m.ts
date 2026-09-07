@@ -3758,3 +3758,15 @@ UsGM.push({
     state: 'GA',
 });
 
+UsGM.push({
+    name: 'Maine Mobile Home Park Illegal Rent Increase Scheme',
+    slug: 'maine-brown-stone-mhp-illegal-mobile-home-rent-increase',
+    description: `The Maine Office of the Attorney General sued Brown Stone MHP LLC on August 12, 2026, alleging the company illegally more than doubled lot rents on the fifteen households of Tempesta Way Mobile Home Park in Norridgewock without giving residents the advance notice state law requires. Brown Stone bought the park in May 2024, when lot rent stood at $245 a month; residents learned on June 1, 2026 that rent would jump to $565 a month effective immediately, with a new $39 monthly water and sewer fee layered on top starting August 1 — more than doubling what many fixed-income mobile-home owners were paying, on top of a $25 monthly pet fee the AG's office says was never a legal charge to begin with. The lawsuit is the first the state has filed under a 2025 Maine law requiring mobile-home-park owners to give residents at least 90 days' written notice before any rent or fee increase, a protection meant to give homeowners — who typically own their home but rent the land it sits on, making the home itself effectively immovable — time to plan or contest a hike rather than face it as a fait accompli. The AG's office alleges Brown Stone failed to give proper advance notice of the changes on multiple occasions and did not fully cooperate with a civil investigative demand, and is seeking civil penalties along with monetary restitution for residents over the unlawfully collected rent and fees. Mobile-home owners anywhere are advised to keep copies of every rent notice a park sends, check the date against their state's required notice period before paying a new amount, and contact their state Attorney General's consumer protection division if a park raises rent, water, sewer, or "pet" fees without the legally required lead time — since a lot-rent hike is one of the few forms of "eviction" a homeowner can effectively face without ever missing a payment.`,
+    categorySlug: 'rental-housing',
+    alertLevel: 'medium',
+    sources: ['Maine Office of the Attorney General', 'Bangor Daily News'],
+    sourceUrl: 'https://www.bangordailynews.com/2026/08/12/business/business-housing/state-sues-norridgewock-mobile-home-park-owner/',
+    country: 'US',
+    state: 'ME',
+});
+

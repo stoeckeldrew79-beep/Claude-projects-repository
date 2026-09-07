@@ -2157,3 +2157,15 @@ UsTZ.push({
     country: 'US',
     state: 'TX',
 });
+
+UsTZ.push({
+    name: 'Wisconsin Marathon County Pop-Up Tech Support and Bitcoin "Escrow" Scam',
+    slug: 'wisconsin-marathon-county-tech-support-bitcoin-escrow-scam',
+    description: `A Marathon County, Wisconsin jury convicted Tao Wu, 37, of Chicago, in March 2026 for a monthslong scheme that drained $135,000 from an elderly Wausau-area woman after a pop-up on her computer in October 2024 falsely claimed her device had been compromised. The pop-up connected her to a caller posing as a "Microsoft Fraud Division" employee, who claimed $5,200 in fraudulent charges had already hit her account and transferred her to a second scammer posing as her bank's technical-support team; that caller talked her through "duplicating" transactions supposedly to cancel out the fraudulent charges, then kept her on the phone with near-daily calls over nearly a month, escalating the demands each time. She was walked through buying roughly $9,200 in gift cards, then handing cash directly to couriers who came to her home for two separate pickups of $25,000 and $45,000, and finally converting $56,000 into Bitcoin that the callers claimed would be held safely in a "secure escrow" account until the supposed fraud was resolved — an account that, like the rest of the scheme, never existed. Wu pleaded no contest in March 2026 to felony theft of movable property exceeding $100,000, and Marathon County Circuit Judge Mike Moran sentenced him on July 20, 2026 to two and a half years in prison followed by five years of extended supervision, with credit for time already served; as a condition of his sentence he is barred from accessing or using financial accounts belonging to other people and from any contact with the victim. The case illustrates how a single tech-support pop-up can be just the opening move in a much longer con: no legitimate bank, Microsoft division, or law enforcement agency will ever ask a customer to "duplicate" a transaction, hand cash to a stranger at their door, or move money into Bitcoin for safekeeping, and anyone who receives a security pop-up should close the browser, restart the computer, and contact their bank or Microsoft directly through a number they look up independently rather than one supplied by the pop-up or a subsequent caller.`,
+    categorySlug: 'tech-support-scams',
+    alertLevel: 'high',
+    sources: ['Marathon County, Wisconsin District Attorney\'s Office', 'Wausau Pilot & Review'],
+    sourceUrl: 'https://wausaupilotandreview.com/2026/07/22/chicago-man-sentenced-to-prison-in-scam-that-drained-elderly-marathon-county-womans-savings/',
+    country: 'US',
+    state: 'WI',
+});
