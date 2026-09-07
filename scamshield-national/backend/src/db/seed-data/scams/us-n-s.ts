@@ -3832,3 +3832,27 @@ UsNS.push({
     country: 'US',
     state: 'NV',
 });
+
+UsNS.push({
+    name: 'Nebraska ATM "Jackpotting" Malware Scheme Tied to Tren de Aragua',
+    slug: 'nebraska-atm-jackpotting-tren-de-aragua-scheme',
+    description: `Federal prosecutors in the District of Nebraska say members and associates of the Venezuelan gang Tren de Aragua carried out a coast-to-coast "ATM jackpotting" operation, traveling in teams to banks and credit unions, prying open an ATM's service panel, and installing a variant of Ploutus malware that issues unauthorized commands directly to the machine's cash-dispensing module — forcing it to spit out all of its currency on command while an accomplice stood watch for alarms or police before the group collected the cash and split the proceeds by a prearranged formula. A federal grand jury in Nebraska returned an indictment on January 26, 2026 charging 31 more defendants, on top of 32 charged in an October 2025 indictment and dozens more charged in two December 2025 indictments, bringing the total to 87 people charged in the investigation; the charges include conspiracy to provide material support to terrorists, conspiracy to commit bank fraud, bank burglary, and computer damage, and money laundering conspiracy, with maximum combined sentences ranging as high as 335 years depending on the defendant. Investigators allege Tren de Aragua used the jackpotting proceeds to fund the organization and moved the stolen cash among members and associates to obscure its criminal origin, part of a broader Homeland Security Task Force effort — under U.S. Attorney Lesley Woods' office — to dismantle the gang's financial network across the country rather than treat each ATM heist as an isolated local burglary. The case is a reminder that jackpotting exploits a physical vulnerability in an ATM's own hardware and software rather than a customer's card or PIN, so consumers cannot personally prevent it, but banks and credit unions are urged to inspect ATM housings for signs of tampering, monitor for unscheduled service-panel alarms, and keep jackpotting-specific fraud detection and firmware patches current, since a single successful jackpotting run can empty a machine's entire cash cartridge in minutes.`,
+    categorySlug: 'account-takeover',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office, District of Nebraska", 'Federal Bureau of Investigation', '1011 NOW (KOLN/KGIN)'],
+    sourceUrl: 'https://www.justice.gov/usao-ne/pr/investigation-international-atm-jackpotting-scheme-and-tren-de-aragua-results-additional',
+    country: 'US',
+    state: 'NE',
+});
+
+UsNS.push({
+    name: 'Agridime Cattle Investment Ponzi Scheme (Taylor Bang)',
+    slug: 'north-dakota-agridime-cattle-investment-ponzi-scheme',
+    description: `Taylor Bang, of Killdeer, North Dakota, was one of five people federally indicted in February 2026 over Agridime, a company that solicited members of the public nationwide to "invest" in cattle by paying Agridime to buy, raise, and eventually slaughter and sell the animals for a promised profit of up to 30%. Operating from January 2021 through December 2023, Agridime instead ran the arrangement as a Ponzi scheme — a federal judge made that finding in August 2024 — using money from newer cattle purchasers to pay the company's operating expenses, cover the defendants' personal spending, and buy property, rather than actually purchasing and raising cattle on investors' behalf as promised. The scheme took in roughly $220 million from about 2,200 victims across the United States before federal authorities took over the business in late 2023, and North Dakota investors alone were still owed an estimated $40 million in unrecovered cattle-purchase money when it collapsed. Bang was charged with eight counts of wire fraud, one count of conspiracy to commit wire fraud, and one count of money laundering; the indictment alleges he falsified dates on company records, gave investors false information about the identification tags supposedly attached to their cattle, and had one investor's $240,000 payment routed to a bank account he personally controlled instead of an official Agridime account, allegedly to conceal the transaction. Four co-defendants — Tia Link, Jed Wood, Royana Thomas, and Joshua Robert Link — were charged alongside him, with Joshua Robert Link still being sought by the FBI as a fugitive as of the indictment. The case shows that a "guaranteed" fixed percentage return on a physical commodity like livestock is just as much a Ponzi red flag as one dressed up in crypto or securities language — before investing in any managed-livestock or agricultural investment program, ask for independent, third-party proof that the specific animals purchased with your money actually exist and are properly tagged and insured, rather than relying on the company's own paperwork.`,
+    categorySlug: 'ponzi-pyramid-schemes',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office, Northern District of Texas", 'North Dakota Monitor', 'KFYR-TV'],
+    sourceUrl: 'https://www.justice.gov/usao-ndtx/pr/five-federally-indicted-alleged-220-million-nationwide-cattle-fraud-scheme-one',
+    country: 'US',
+    state: 'ND',
+});
