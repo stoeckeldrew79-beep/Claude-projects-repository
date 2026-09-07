@@ -10341,3 +10341,26 @@ International.push(
     country: 'SB',
   },
 );
+
+International.push(
+  {
+    name: 'Antigua and Barbuda Smishing Account-Drain and Mobile Top-Up Scam',
+    slug: 'antigua-barbuda-smishing-account-drain-mobile-topup-scam',
+    description: `Antigua and Barbuda's Office of National Drug and Money Laundering Control Policy (ONDCP) issued a public advisory on August 1, 2025 warning of a sharp rise in "smishing" and phishing attacks used to hijack residents' bank accounts. Fraudsters send fake text messages claiming a bank account has been suspended or place phone calls while impersonating staff of local telecommunications providers FLOW, Digicel, or the Antigua Public Utilities Authority (APUA), pressuring the recipient to "verify" their identity. Victims who click the accompanying link or answer the caller's questions end up disclosing passwords, PINs, or one-time verification codes, which criminals immediately use to log into online banking and drain the account through a series of unauthorized transfers and mobile phone top-up purchases sent to numbers the victim does not recognize. A related case investigated separately by the Royal Police Force of Antigua and Barbuda saw a victim's email compromised through the same kind of impersonation tactic, resulting in more than $20,000 fraudulently transferred out of her accounts before the activity was detected. The ONDCP's Director urged the public to never click links in unsolicited texts or emails, to never share passwords, PINs, or one-time codes with anyone contacting them by phone or message, to verify any account-suspension claim by calling their bank directly using the number on its official website or the back of their card, and to report a suspected compromise to their bank immediately, since a prompt and honest report helps the institution act quickly to limit the loss.`,
+    categorySlug: 'account-takeover',
+    alertLevel: 'high',
+    sources: ['Office of National Drug and Money Laundering Control Policy (ONDCP) Antigua and Barbuda', 'Royal Police Force of Antigua and Barbuda', 'Antigua News Room'],
+    sourceUrl: 'https://ondcp.gov.ag/press-release/public-is-advised-to-heighten-vigilance-due-to-increased-reports-of-fraud-account-compromise-top-up-scams',
+    country: 'AG',
+  },
+  {
+    name: 'Antigua and Barbuda Customs Officer Impersonation Scam',
+    slug: 'antigua-barbuda-customs-officer-impersonation-scam',
+    description: `The Antigua and Barbuda Customs and Excise Division has repeatedly warned the public, most recently in a 2026 alert, about scammers who call or text business owners and members of the public from international phone numbers while falsely claiming to be Customs officers. The callers typically say a shipment is being held, that additional duties or fees are owed, or that some other urgent customs matter requires an immediate payment or personal information to resolve, pressuring the target to act before they have a chance to verify the claim. The Division stressed it does not solicit payments or sensitive personal details in this manner and urged anyone contacted this way, particularly business owners who regularly clear shipments, to hang up and call the Customs and Excise Division directly at 268-462-0028 to confirm whether any genuine matter exists before sending money or information. Officials reminded the public that impersonating a Customs officer is itself a criminal offense in Antigua and Barbuda, punishable by a fine of up to $100,000 and a minimum of two years' imprisonment, and encouraged anyone who believes they were targeted or defrauded by a fake officer to report it to the Criminal Investigations Department (CID) as well as to Customs.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Antigua and Barbuda Customs and Excise Division', 'Antigua News Room', 'Antigua Observer Newspaper'],
+    sourceUrl: 'https://antiguanewsroom.com/antigua-and-barbuda-customs-division-issues-scam-alert/',
+    country: 'AG',
+  },
+);
