@@ -138,6 +138,34 @@ npm run dev                 # http://localhost:5173
 ```
 </details>
 
+## Running it hands-off on Windows
+
+Double-click `setup-auto-updates.bat` **once**, from the folder you actually
+run the site out of. It registers three scheduled tasks:
+
+| Task | Every | What it does |
+| --- | --- | --- |
+| ScamShield National Auto-Update | 30 min | `auto-update.bat` — pulls new content from GitHub, migrates, reseeds, refreshes the news scans |
+| ScamShield National Keep Running | 5 min | `keep-running.vbs` — starts Docker, the backend, and the frontend if any of them isn't listening |
+| ScamShield National Start On Logon | at logon | the same keep-alive, so the site is up shortly after a reboot |
+
+Together these mean the site updates itself and restarts itself: new entries
+appear on refresh without anyone running `git pull`, and a reboot, a crash, or
+a closed terminal window can't leave it down.
+
+Both scripts are safe to run repeatedly. The keep-alive starts only what is
+not already listening, so it never gives you two copies of a server.
+
+**If the site ever stops updating**, the usual cause is that a task is still
+registered against a *different copy* of the repository — a scheduled task
+keeps pointing wherever it was first created, so editing the scripts here
+doesn't move it. Re-running `setup-auto-updates.bat` from the correct folder
+re-points all three. It prints each task's status and last result when it
+finishes; `Last Result: 0` means the last run succeeded.
+
+Logs land next to the scripts and are gitignored: `auto-update-log.txt` and
+`keep-running-log.txt`.
+
 ## Scheduling AI-drafted articles
 
 `npm run draft-articles` is a one-shot script, not a long-running process — schedule it with
