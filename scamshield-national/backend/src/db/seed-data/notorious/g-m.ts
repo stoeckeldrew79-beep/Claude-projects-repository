@@ -4465,3 +4465,25 @@ Mas and four other former PIP executives went on trial in Marseille beginning in
 Jean-Claude Mas died on April 4, 2019, at age 79, at a French clinic where he had been admitted for treatment of unrelated heart and diabetes complications. He never expressed remorse for a fraud that regulators and courts across Europe and Latin America spent years, and hundreds of millions of euros in recalls, removals, and compensation, cleaning up after him.`,
   },
 );
+
+NotoriousGM.push(
+  {
+    title: 'Lance Armstrong and the Government Fraud Case Behind Cycling\'s Doping Scandal',
+    slug: 'lance-armstrong-us-postal-service-fraud-settlement',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Lance_Armstrong,_Tour_de_France_2009_n2.jpg?width=1200',
+    coverImageCredit: 'Photo: Josh Hallett (CC BY-SA 2.0)',
+    coverImagePosition: 40,
+    sourceUrl: 'https://www.justice.gov/archives/opa/pr/lance-armstrong-agrees-pay-5-million-settle-false-claims-allegations-arising-violation-anti',
+    body: `Lance Armstrong won the Tour de France seven consecutive times, from 1999 through 2005, while riding for a team sponsored by the United States Postal Service — a federal government agency that, under its sponsorship contracts, paid roughly $32 million to back the team between 2000 and 2004 in exchange for the marketing value of Armstrong's comeback story as a cancer survivor and the team's on-paper commitment to compete clean. For years, as rumors and specific allegations of doping followed him, Armstrong denied ever using performance-enhancing drugs and aggressively contested accusers, even as several of his own teammates were separately disciplined or admitted doping themselves.
+
+The denials collapsed in 2012, when the U.S. Anti-Doping Agency released a report — built on testimony from eleven former teammates along with financial and laboratory evidence — describing what it called "the most sophisticated, professionalized and successful doping program that sport has ever seen," organized and enforced across Armstrong's teams for years. Cycling's governing body, the UCI, stripped Armstrong of all seven Tour de France titles and banned him from the sport for life that October. In January 2013, Armstrong publicly admitted to doping throughout his career in a televised interview with Oprah Winfrey.
+
+The financial fraud case grew out of that same conduct. In 2010, former teammate Floyd Landis filed a whistleblower lawsuit under the False Claims Act, the federal law that lets a private citizen sue on the government's behalf over fraud against it and share in any recovery. Landis's suit — later joined by the U.S. Department of Justice in 2013 — argued that Armstrong's team had violated the anti-doping terms of its Postal Service sponsorship contract for years while the government kept paying, effectively obtaining tens of millions of taxpayer dollars through a sponsorship it never would have funded, or would have funded on different terms, had it known the team was doping. Because the False Claims Act allows for treble damages, the government's exposure claim reached as high as roughly $100 million.
+
+Rather than go to trial, Armstrong settled with the federal government in April 2018, agreeing to pay $5 million to resolve the fraud allegations — a fraction of the amount the government could have sought, but a substantial sum for a case built on a sponsorship dispute rather than a direct theft. As the whistleblower who brought the case, Landis was entitled to a share of the recovery, reported at $1.1 million, and Armstrong separately paid roughly $1.65 million toward Landis's legal fees. The settlement permanently closed the federal fraud case.
+
+The case is a useful reminder that "fraud" in the legal sense doesn't require a con artist's opening pitch or a fake investment prospectus — it can also mean collecting government money under a contract whose basic conditions, as here, turned out not to have been true. The same False Claims Act tool used against defense contractors and healthcare billing schemes elsewhere in this collection applied just as directly to a professional sports sponsorship once the government concluded it had been paying for something that didn't exist.`,
+  },
+);
