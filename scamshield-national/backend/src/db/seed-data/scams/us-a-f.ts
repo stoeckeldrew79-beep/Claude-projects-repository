@@ -5592,4 +5592,15 @@ export const UsAF: SeedScam[] = [
     country: 'US',
     state: 'FL',
   },
+{
+    name: 'Connecticut Meta Platforms Investment Scam',
+    slug: 'connecticut-meta-platforms-investment-scam',
+    description: `Connecticut Attorney General William Tong issued a consumer alert on April 6, 2026 warning residents about a surge of fraudulent investment schemes running across Meta's platforms — Facebook, Instagram, and WhatsApp. In one version, ads use AI-generated deepfake video to fabricate celebrity endorsements of "guaranteed" cryptocurrency or stock opportunities, pulling victims into "pump and dump" schemes where scammers artificially inflate a price before selling and leaving other buyers holding the loss. In another, a scammer builds trust over time — sometimes posing as a romantic interest — before directing the victim to a fake trading platform showing fabricated profits and occasionally allowing a small early withdrawal to look legitimate, then demanding fees to release the rest of the "gains" before disappearing entirely. Tong's office noted that scammers often pressure targets to move the conversation off Meta's platforms and onto encrypted apps, where there is less opportunity for outside scrutiny or a platform's own fraud detection to intervene. Connecticut residents are urged to be skeptical of any investment opportunity promoted through a social media ad or an unsolicited online contact, to verify a claimed celebrity endorsement independently before trusting it, and to confirm that any investment platform and the person promoting it are actually registered before sending money or cryptocurrency.`,
+    categorySlug: 'ai-deepfake-scams',
+    alertLevel: 'high',
+    sources: ['Connecticut Office of the Attorney General'],
+    sourceUrl: 'https://portal.ct.gov/ag/press-releases/2026-press-releases/attorney-general-tong-warns-connecticut-against-investment-scams-on-meta-platforms',
+    country: 'US',
+    state: 'CT',
+  },
 ];
