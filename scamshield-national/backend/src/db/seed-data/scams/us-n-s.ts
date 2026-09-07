@@ -3517,4 +3517,15 @@ export const UsNS: SeedScam[] = [
     country: 'US',
     state: 'NC',
   },
+{
+    name: 'New Jersey Fake "License Software" Malware Email',
+    slug: 'new-jersey-fake-license-software-malware-scam',
+    description: `The New Jersey Division of Consumer Affairs issued an urgent warning to licensed professionals and applicants statewide about a phishing email falsely instructing recipients to download a "new license software" as a supposed step in renewing or completing their professional license. Clicking the link and following the email's instructions installs malicious software on the victim's device, potentially exposing personal and professional data and credentials tied to the recipient's license. Acting Director Elizabeth M. Harris stressed that the Division "never requires" licensees or applicants "to download software" as part of any license renewal or application process, stating plainly that "any such email is a scam." The alert follows a separate, unrelated scheme in which fraudsters impersonate DCA investigators by phone to threaten licensees with a fabricated license suspension, showing the range of tactics now aimed at New Jersey's roughly 750,000 licensed professionals and businesses, from nurses and cosmetologists to contractors and real estate agents. Recipients of an unsolicited email urging a software download to keep a license active are advised never to click the link or install anything it directs, and to report the message to the Division of Consumer Affairs at askconsumeraffairs@dca.njoag.gov or 973-504-6200, the Division of Criminal Justice's tip line at 800-277-2427, or the FTC at ReportFraud.ftc.gov.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['New Jersey Division of Consumer Affairs'],
+    sourceUrl: 'https://lakewoodalerts.com/scam-targeting-licensed-professionals-in-new-jersey-with-malicious-license-software-download/',
+    country: 'US',
+    state: 'NJ',
+  },
 ];
