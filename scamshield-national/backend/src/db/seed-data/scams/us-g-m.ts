@@ -3970,3 +3970,39 @@ UsGM.push({
     country: 'US',
     state: 'MO',
 });
+
+UsGM.push({
+    name: 'Kuna Couple $57 Million IRS Tax Refund Fraud Scheme',
+    slug: 'idaho-kuna-shannon-57-million-irs-tax-refund-fraud',
+    description: `A federal grand jury unsealed a superseding indictment in early September 2026 charging Andrea and Kent Shannon of Kuna, Idaho, alongside five co-defendants scattered across the country — Monika Skinger of Chicago, Sherita Chandler of Port St. Lucie, Florida, Saule Moshkanova of Roseville, California, Tiffany Nichols of Suwanee, Georgia, and Stacey Rice of Manteca, California — with conspiring to defraud the IRS out of more than $57 million. According to the Justice Department, the group prepared and filed false individual and trust tax returns between 2023 and 2024, then mailed the IRS more than 100 fictitious financial instruments — fabricated checks, money orders, and payment vouchers with no funds behind them — designed to make it look like the filers had already paid enormous sums in tax that a refund could then be issued against. The scheme sought more than $57 million in fraudulent refunds and succeeded in extracting more than $8 million in actual taxpayer money before it was caught. Andrea and Kent Shannon face the most serious exposure: both are charged with conspiracy to commit wire fraud, wire fraud, and filing false claims, and Kent Shannon is separately charged with money laundering, exposing the couple to a combined maximum of decades in federal prison if convicted on every count, on top of the 20-year maximum on the conspiracy charge shared by all seven defendants. The case follows a pattern the IRS has flagged in other "fictitious financial instrument" schemes nationwide, in which a promoter convinces filers that a specially worded document — sometimes invoking obscure or invented legal theories — can manufacture a tax payment that never actually happened; the IRS states plainly that no such instrument can create real tax withholding, and any tax preparer or "specialist" who promises a refund based on paperwork rather than actual taxes paid or withheld should be treated as a red flag. Idahoans can verify a preparer's legitimacy and report suspected tax fraud directly to the IRS or to Idaho Attorney General Raúl Labrador's Consumer Protection Division.`,
+    categorySlug: 'tax-scams',
+    alertLevel: 'medium',
+    sources: ["U.S. Department of Justice, Tax Division", 'Internal Revenue Service Criminal Investigation', 'KTVB'],
+    sourceUrl: 'https://www.justice.gov/opa/pr/seven-charged-57m-tax-refund-fraud-scheme',
+    country: 'US',
+    state: 'ID',
+});
+
+UsGM.push({
+    name: 'Mississippi ATM "Jackpotting" Spree (Tren de Aragua)',
+    slug: 'mississippi-atm-jackpotting-tren-de-aragua-daza-segura-canelon-tiapa',
+    description: `In November 2024, Darrin Moises Daza-Segura and Winder Alexander Canelon-Tiapa — Venezuelan nationals and members of the Tren de Aragua gang — traveled from bank to bank throughout Mississippi, prying open ATM service panels and reprogramming the machines with jackpotting malware that forces an ATM to dispense its entire cash cartridge on command, successfully stealing roughly $47,000 in cash from Mississippi banks and attempting to steal considerably more before investigators caught up with them. U.S. District Judge Michael P. Mills sentenced each man on May 29, 2026 to 10 months in federal prison followed by three years of supervised release after their convictions for conspiracy to commit bank fraud, and ordered them to pay $47,250 in restitution to the affected banks; both men are in the country illegally and face deportation to Venezuela once their sentences are served. The U.S. Attorney's Office for the Northern District of Mississippi, which prosecuted the case, said the pair's arrest and prosecution disrupted a crime spree that could have caused nearly $180,000 in additional losses had it continued. This Mississippi prosecution is one piece of a much larger, coast-to-coast Tren de Aragua jackpotting network that federal investigators elsewhere have tied to dozens of additional defendants, underscoring that the same gang cell can hit banks in multiple states before any single jurisdiction catches on. Because jackpotting exploits a physical and software vulnerability inside the ATM itself rather than a customer's card or PIN, individual consumers cannot prevent it, but banks and credit unions are urged to inspect ATM housings regularly for signs of forced entry, monitor for unscheduled service-panel alerts, and keep anti-jackpotting firmware patches current.`,
+    categorySlug: 'account-takeover',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office, Northern District of Mississippi", 'Magnolia Tribune', 'ATM Marketplace'],
+    sourceUrl: 'https://www.justice.gov/usao-ndms/pr/another-venezuelan-gang-member-sentenced-jackpotting',
+    country: 'US',
+    state: 'MS',
+});
+
+UsGM.push({
+    name: 'Spoonemore Hurricane Laura Contractor Fraud',
+    slug: 'louisiana-lake-charles-spoonemore-hurricane-laura-contractor-fraud',
+    description: `Bobby Spoonemore worked as a residential contractor in and around Lake Charles in Calcasieu Parish, Louisiana, taking on repair jobs from homeowners still trying to rebuild after Hurricane Laura, but prosecutors say he routinely collected payment up front and then failed to complete the work, in some cases leaving customers with a home that was worse off than before he started. One victim described being left with "an uninhabitable home," saying Spoonemore's abandoned work effectively made her homeless for roughly four years while she tried to recover what she had paid him. A Calcasieu Parish jury found Spoonemore guilty on 16 felony counts of residential contractor fraud tied to nine separate victims — the State of Louisiana, six individuals, and three businesses — after he worked without the state contractor's license the jobs required; he was arrested in September 2024 following what prosecutors called a "manhunt," and District Judge David Ritchie denied him bond that October over flight-risk concerns. On September 3, 2026, Judge Ritchie sentenced Spoonemore to 18 years in prison, with parole eligibility after six years and credit for roughly two years already served, and ordered him to pay approximately $274,000 in restitution across his victims, including $155,000 to one homeowner alone. Louisiana's State Licensing Board for Contractors maintains a public database of licensed contractors and any disciplinary history, and consumer advocates who tracked the case urged homeowners to check that database and confirm a contractor's license is current before signing a contract or handing over a deposit — a document a contractor shows in person, they warned, is not proof of anything until it has been independently verified with the licensing board itself.`,
+    categorySlug: 'home-improvement-solar',
+    alertLevel: 'medium',
+    sources: ["Calcasieu Parish District Attorney's Office", 'KPLC', 'Louisiana State Licensing Board for Contractors'],
+    sourceUrl: 'https://www.kplctv.com/2026/09/03/fraudulent-louisiana-contractor-sentenced-18-years-prison/',
+    country: 'US',
+    state: 'LA',
+});
