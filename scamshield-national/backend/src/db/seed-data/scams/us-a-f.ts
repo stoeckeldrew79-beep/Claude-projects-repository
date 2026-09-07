@@ -5811,3 +5811,15 @@ UsAF.push({
     country: 'US',
     state: 'CA',
 });
+
+UsAF.push({
+    name: 'Gentry PayPal Refund Scam Cash-Pickup Sting (Gajera and Bavadiya)',
+    slug: 'arkansas-gentry-paypal-refund-scam-cash-pickup-sting',
+    description: `Gentry, Arkansas police built a case against a PayPal refund scam — in which a caller falsely tells a victim that money was mistakenly deposited into their account and that they must return the "overpayment" in cash or risk losing their job — by running their own sting against the couriers sent to collect the money. An undercover Gentry officer posed as an elderly victim who had been told to hand over $29,500 in cash, and on April 21, 2026, police watched as Dharaben Bavadiya, 32, walked into Jim's Razorback Pizza wearing a Bluetooth earbud to coordinate the handoff by phone while Prashant Gajera, 26, drove to a nearby Harps grocery store parking lot to collect the box, which officers had filled with fake money; Highfill Police Department drone operators tracked the pair's silver Toyota sedan between parking lots beforehand, and officers moved in and arrested both as soon as Gajera accepted the box. Investigators believe Gajera and Bavadiya were couriers in a larger, likely offshore-run fraud operation, tasked only with collecting cash from victims in person and passing it along to others further up the scheme. Gajera pleaded guilty to conspiracy to commit theft of property, a Class C felony, on June 29, 2026, and Bavadiya entered the same plea on August 17, 2026; both received five-year prison sentences that were suspended. The case is a reminder that no legitimate company — including PayPal — ever asks a customer to return an "accidental" deposit by withdrawing cash and handing it to a stranger who shows up in person or meets at a public parking lot; anyone told they were mistakenly overpaid should verify the claim by logging into their own account directly or calling the company's official customer service number, not a number or instructions provided by the caller.`,
+    categorySlug: 'fake-check-overpayment',
+    alertLevel: 'medium',
+    sources: ['Gentry Police Department', 'Arkansas Democrat-Gazette', 'India-West'],
+    sourceUrl: 'https://www.arkansasonline.com/news/2026/aug/26/indian-nationals-arrested-in-gentry-elder-fraud/',
+    country: 'US',
+    state: 'AR',
+});

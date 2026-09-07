@@ -4092,3 +4092,15 @@ UsGM.push({
     country: 'US',
     state: 'HI',
 });
+
+UsGM.push({
+    name: 'Charlotte Duo\'s Cross-Montana Bank Account Identity-Theft Ring (Turner-Gross and Worden)',
+    slug: 'montana-charlotte-duo-bank-account-identity-theft-ring',
+    description: `April Lynn Turner-Gross, 39, and Kimberly Gail Worden, 41, both of Charlotte, North Carolina, traveled through Montana stealing residents' identities and using the stolen personal information to walk into banks and withdraw cash directly from victims' accounts. Prosecutors say the pair carried out 18 fraudulent cash withdrawals from 18 different victims across 10 separate financial institutions statewide, for a total loss of $71,300. Turner-Gross pleaded guilty in October 2025 to one count of bank fraud and one count of aggravated identity theft and was sentenced to 27 months in federal prison followed by five years of supervised release; Worden pleaded guilty in November 2025 to the same two charges and was sentenced on March 17, 2026 to 29 months in federal prison followed by five years of supervised release. Both women were ordered to pay the full $71,300 in restitution jointly. The case, prosecuted by the U.S. Attorney's Office for the District of Montana, shows how out-of-state identity-theft crews can use stolen identifying information — names, dates of birth, Social Security numbers, and account details — to defraud victims in a state the perpetrators have no other connection to, simply by moving from town to town and bank to bank before local staff or fraud-detection systems catch on to the pattern. Montanans are encouraged to place a security freeze on their credit reports and to sign up for account alerts with their bank so that any withdrawal or new-account activity generates an immediate notification, since a walk-in cash withdrawal using someone else's identity can otherwise go undetected until a monthly statement arrives.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office, District of Montana", 'NBC Montana', 'Montana Right Now'],
+    sourceUrl: 'https://www.justice.gov/usao-mt/pr/female-duo-sentenced-bank-fraud-and-identity-theft',
+    country: 'US',
+    state: 'MT',
+});
