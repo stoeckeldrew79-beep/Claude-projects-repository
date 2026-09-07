@@ -148,10 +148,18 @@ function itemsFrom(xml: string): Record<string, unknown>[] {
   return Array.isArray(raw) ? raw : [raw];
 }
 
+// Node's fetch has no default timeout, so a host that accepts the connection
+// and then never answers hangs this job forever. Survivable when a human is
+// watching a terminal; not when nothing is. This runs unattended on a
+// schedule, and a hung run blocks the updater that called it while the
+// scheduler keeps starting more.
+const FETCH_TIMEOUT_MS = 20000;
+
 async function fetchXml(url: string): Promise<string | null> {
   try {
     const res = await fetch(url, {
       headers: { 'User-Agent': 'ScamShieldNational/1.0 (+state AG scam alert scan)' },
+      signal: AbortSignal.timeout(FETCH_TIMEOUT_MS),
     });
     if (!res.ok) {
       console.error(`scanStateAgNews: ${res.status} for ${url}`);
