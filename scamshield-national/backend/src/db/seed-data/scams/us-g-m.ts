@@ -3888,3 +3888,15 @@ UsGM.push({
     state: 'KY',
 });
 
+
+UsGM.push({
+    name: 'Sandy Springs Fulton County Sheriff Jury Duty Extortion Scam',
+    slug: 'georgia-sandy-springs-jury-duty-extortion-scam',
+    description: `An 80-year-old Sandy Springs, Georgia widow lost more than $40,000 after a caller posing as a Fulton County Sheriff's Office deputy told her that her late husband had missed jury duty, that an active warrant had been issued, and that she herself would be arrested unless she paid immediately. Sandy Springs Police say the scammers directed the woman to withdraw about $38,000 in cash and hand it over in person to different people at meeting spots in Atlanta, Buckhead, and Smyrna, then had her send two additional electronic payments of roughly $3,200 and $2,600 through Zelle. Detectives arrested Bryan Jesean Jackson, 21, on February 16, 2026, and Jaell Draughn, 19, both charged with theft by extortion, exploitation of an elderly person, and impersonating a public officer; a third suspect, Nicolas Lo, remained at large. Investigators believe the scheme was coordinated in part by Demarco Butler, 36, a Georgia inmate already serving a life sentence, who allegedly used a smuggled cellphone to direct co-conspirators on the outside — echoing a broader pattern of Georgia prison-based fraud rings run on contraband phones. Sandy Springs Police stress that no real sheriff's office or court resolves a missed jury summons over the phone with a same-call cash or Zelle payment, and anyone who receives such a call should hang up and independently verify any claimed warrant by calling the court or sheriff's office directly using a number they look up themselves, not one provided by the caller.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Sandy Springs Police Department', 'WSB-TV (Channel 2 Action News)', 'Hoodline'],
+    sourceUrl: 'https://www.wsbtv.com/news/local/north-fulton-county/scammers-told-elderly-sandy-springs-woman-her-late-husband-missed-jury-duty-so-shed-be-arrested/XSJHSRE45FBPZPDPBZJSAYXM2E/',
+    country: 'US',
+    state: 'GA',
+});

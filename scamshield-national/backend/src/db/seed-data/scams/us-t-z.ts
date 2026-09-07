@@ -2241,3 +2241,15 @@ UsTZ.push({
     country: 'US',
     state: 'WI',
 });
+
+UsTZ.push({
+    name: 'Vermont Fake State Tax Portal Phishing Websites',
+    slug: 'vermont-fake-tax-portal-phishing-websites',
+    description: `Just two days before Vermont's 2026 income tax filing deadline, the Vermont Attorney General's Office warned residents that scammers had set up lookalike websites carrying names very close to the state's real online taxpayer portal, myVTax, in an apparent bid to harvest Social Security numbers and other personal and financial information from taxpayers rushing to file. The genuine portal is only reachable at myvtax.vermont.gov, and the Attorney General's Office told Vermonters to double-check that any tax website they land on actually shows "vermont.gov" in the browser's address bar rather than a ".com" or other look-alike domain, noting that many browsers now truncate or hide the full URL by default, a setting that can be turned off to make the real domain easier to verify before entering any information. Attorney General Charity Clark's office had already flagged the rise in impersonation scams weeks earlier when it released its Top 10 Scams of 2025 report, which found Vermonters filed 3,982 scam complaints with the Consumer Assistance Program in 2025, a 12% increase over the prior year, with computer tech-support scams topping the list for a fifth straight year and a government-imposter scam category appearing in the top ten for the first time. Anyone who is unsure whether a tax-related website, email, or phone call claiming to be from the State of Vermont is genuine should navigate directly to tax.vermont.gov themselves rather than clicking a link, and can report a suspected scam to the Attorney General's Consumer Assistance Program hotline at 800-649-2424.`,
+    categorySlug: 'tax-scams',
+    alertLevel: 'medium',
+    sources: ["Vermont Attorney General's Office (Charity Clark)", 'My Champlain Valley (WFFF/WVNY)'],
+    sourceUrl: 'https://www.mychamplainvalley.com/news/local-news/vermont/vermont-attorney-general-warns-about-fake-tax-websites/',
+    country: 'US',
+    state: 'VT',
+});
