@@ -5625,4 +5625,15 @@ export const UsAF: SeedScam[] = [
     country: 'US',
     state: 'DE',
   },
+{
+    name: 'Connecticut Offshore DeFi Cryptocurrency Exchange Warning',
+    slug: 'connecticut-offshore-defi-cryptocurrency-exchange-warning',
+    description: `Connecticut Attorney General William Tong, together with Banking Commissioner Jorge Perez, issued a consumer alert on September 3, 2026 warning residents about the financial and security risks of unregulated, offshore "decentralized finance" (DeFi) cryptocurrency exchanges, naming platforms including GMX, Gains Network, dYdX, Aevo, Drift Protocol, Vertex Protocol, and Hyperliquid. The alert followed at least one confirmed Connecticut case in which a consumer was deceived by someone claiming to know them into depositing $200,000 into one of these offshore exchanges, money the office says is now effectively unrecoverable. Because these platforms operate outside state and federal regulatory frameworks, they bypass the consumer protections that apply to licensed banks and registered exchanges, leaving users with little to no recourse if a platform turns out to be fraudulent, fails outright, suffers a security breach, or simply refuses to process a withdrawal — and their built-in high leverage can wipe out a deposit far faster than trading on a regulated exchange. Tong's office said these exchanges are "built to lure investors in with promises of easy access and bigger returns" while leaving victims "stranded with little to no recourse" once something goes wrong. Connecticut residents are urged to verify that any cryptocurrency platform or trading service is properly registered with state or federal regulators before depositing funds, to be skeptical of investment tips from people met only online, and to remember that cryptocurrency and DeFi transactions are generally irreversible once sent. Suspected fraud can be reported to the Connecticut Department of Banking at 1-800-831-7225 or the Attorney General's Office at 860-808-5318.`,
+    categorySlug: 'cryptocurrency-scams',
+    alertLevel: 'high',
+    sources: ['Connecticut Office of the Attorney General (William Tong)', 'Connecticut Department of Banking'],
+    sourceUrl: 'https://portal.ct.gov/ag/press-releases/2026-press-releases/attorney-general-tong-warns-consumers-of-unregulated-offshore-defi-cryptocurrency-exchanges',
+    country: 'US',
+    state: 'CT',
+  },
 ];
