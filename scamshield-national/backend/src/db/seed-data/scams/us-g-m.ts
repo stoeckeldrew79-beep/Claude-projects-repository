@@ -4090,3 +4090,15 @@ UsGM.push({
     country: 'US',
     state: 'MS',
 });
+
+UsGM.push({
+    name: 'Bitcoin 2026 Conference Fake Hawaii Chief Technology Officer Impersonation',
+    slug: 'hawaii-bitcoin-2026-fake-cto-impersonation-khowaja',
+    description: `A man named Iqbal Khowaja falsely presented himself as the Chief Technology Officer of the State of Hawaii at the Bitcoin 2026 conference in Las Vegas, as well as at earlier conference appearances, despite having no employment or affiliation with the state whatsoever. Hawaii's actual Chief Information Officer, Christine Sakuda, confirmed Khowaja "has never been employed by the state or affiliated with the Office of Enterprise Technology Services (ETS)," the agency that actually oversees state technology. After the Hawaii Department of the Attorney General verified the false claims, it notified the conference organizers of the impersonation and issued a public alert on April 29, 2026 while the conference was still underway. Tom Alipio, the Attorney General's Chief of Investigations, said "when someone falsely presents themselves as a government official, it raises serious concerns about fraud and public deception," noting that a fabricated government title can be used to lend false credibility to a business pitch, an investment opportunity, or a request for money or access at exactly the kind of high-profile industry event where attendees are primed to trust an apparent government endorsement. Anyone who encounters someone claiming a Hawaii government title or affiliation, particularly in a cryptocurrency or investment context, should verify that claim directly with the relevant state agency rather than taking a conference badge or self-introduction at face value, and can report suspected impersonation to the Hawaii Attorney General's office at HawaiiAG@hawaii.gov.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Hawaii Department of the Attorney General', 'Hawaii News Now'],
+    sourceUrl: 'https://www.hawaiinewsnow.com/2026/04/30/attorney-general-warns-man-allegedly-impersonating-state-official/',
+    country: 'US',
+    state: 'HI',
+});

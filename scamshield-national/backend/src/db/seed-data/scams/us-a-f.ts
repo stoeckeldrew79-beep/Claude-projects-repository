@@ -5820,3 +5820,15 @@ UsAF.push({
     country: 'US',
     state: 'IA',
 });
+
+UsAF.push({
+    name: 'Pacific Private Money $103 Million Ponzi-Like Investment Fund Fraud',
+    slug: 'california-pacific-private-money-hanf-phan-ponzi-fraud',
+    description: `Mark Hanf, 66, of Tiburon, California, founded and ran Marin County-based Pacific Private Money as a real estate investment fund manager, with Nam Phan, 58, of Novato, serving as the enterprise's Chief Operating Officer. Federal prosecutors say the two knew as early as 2021 that several of the fund's largest real estate projects were losing money and value, but continued soliciting new investors without disclosing the problems, and starting in December 2021 began shifting money between Pacific Private Money's various investment funds and using newly raised investor cash to pay distributions and redemptions owed to earlier investors — the defining mechanic of a Ponzi scheme. Between December 2021 and December 2025, Pacific Private Money funds raised roughly $103 million from more than 175 investors before the entities filed for Chapter 11 bankruptcy protection in June 2026. In an information filed in the Northern District of California on August 31, 2026, Hanf and Phan were charged with wire fraud conspiracy, with Hanf separately charged with money laundering; both pleaded not guilty and were released on $250,000 bonds. The SEC separately filed parallel civil fraud charges describing the scheme as "Ponzi-like." Investors evaluating any private real estate fund should ask for independently audited financial statements and verify a fund's actual project performance and cash position directly rather than relying on distribution checks continuing to arrive on schedule, since a Ponzi scheme can keep paying existing investors — using other people's money — for years after its underlying investments have already failed.`,
+    categorySlug: 'ponzi-pyramid-schemes',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office, Northern District of California", 'U.S. Securities and Exchange Commission', 'San Francisco Chronicle'],
+    sourceUrl: 'https://www.justice.gov/usao-ndca/pr/founder-and-ceo-bay-area-real-estate-investment-fund-charged-multi-year-fraud-scheme',
+    country: 'US',
+    state: 'CA',
+});
