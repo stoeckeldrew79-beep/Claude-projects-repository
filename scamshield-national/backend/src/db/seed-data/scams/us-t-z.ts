@@ -2133,3 +2133,27 @@ export const UsTZ: SeedScam[] = [
     state: 'VA',
   },
 ];
+
+UsTZ.push({
+    name: 'Bellevue Shell-Company Money-Laundering Ring for Tech-Support and Imposter Scams',
+    slug: 'washington-bellevue-shell-company-tech-support-money-laundering-ring',
+    description: `A federal grand jury in the Western District of Washington indicted five men on August 28, 2026 for allegedly running a shell-company laundering operation that moved more than $7.4 million in confirmed proceeds — with total losses estimated near $11 million — stolen from at least 77 elderly victims nationwide through tech-support scams and callers impersonating government or bank officials. Prosecutors say that between October 2024 and March 2026, the defendants registered 21 shell companies in Washington State under false identities and opened roughly 44 bank accounts in those companies' names, then rented commercial mailboxes to receive cashier's checks and money orders that scam callers had convinced victims to send in order to "protect" their funds or pay for a fabricated computer repair. Once deposited, the money was rapidly wired out to business accounts in China and Hong Kong, putting it beyond easy reach of U.S. investigators or victims. Charged with conspiracy to commit money laundering, ten counts of money laundering by concealment, and ten counts of money laundering by spending are Hung Chieh Kuo, 27, and Tung Wei Yeh, 31, both of Bellevue; Hsin Chien, 31, of Bothell; You Wei Liew, 26, of Seattle; and Chengpeng Zhang, 40, of Seattle. "These scam groups operate like a business," First Assistant U.S. Attorney Neil Floyd said, describing how some members focus on convincing victims to send money while others handle moving it through the shell-company network. The case, investigated by Homeland Security Investigations, is scheduled for trial on November 9, 2026. Anyone contacted by a caller claiming to be tech support, a bank fraud investigator, or a government official who directs them to mail a check or money order to an unfamiliar company or address — rather than resolve the supposed problem through an account or number they already had on file — should treat that instruction itself as proof of a scam and report it to the FBI's Internet Crime Complaint Center at ic3.gov.`,
+    categorySlug: 'tech-support-scams',
+    alertLevel: 'critical',
+    sources: ["U.S. Attorney's Office, Western District of Washington", 'KIRO 7 News Seattle', 'Bellevue Reporter'],
+    sourceUrl: 'https://www.justice.gov/usao-wdwa/pr/five-men-indicted-laundering-fraud-proceeds-tied-tech-support-government-and-financial',
+    country: 'US',
+    state: 'WA',
+});
+
+UsTZ.push({
+    name: 'Texas Stock Exchange Impersonation Investment Scheme',
+    slug: 'texas-stock-exchange-impersonation-investment-scheme',
+    description: `The Texas State Securities Board warned investors on December 19, 2025 about fraudsters impersonating the Texas Stock Exchange (TXSE), the newly launched Dallas-based national exchange, to lure victims into a fake trading platform. The scheme starts with counterfeit social media accounts on WhatsApp, Telegram, and other platforms where the imposters claim to be TXSE executives or leadership, then build rapport in group chats before directing interested "investors" to a look-alike website with a domain name and logo designed to closely mimic the real TXSE.com in order to register an account and begin "trading" — with the fraudulent site actually built to capture registration details, steal deposited funds, or install malware on a visitor's device. As with other advance-fee investment schemes, the pitch minimizes or conceals risk while promising outsized, fast returns, a pattern the Board says is a hallmark of fraud regardless of how legitimate the impersonated brand appears. "These imposters threaten our Texas investors but also create reputational harm for our registered community," said Jeramy Heintz, the Board's Director of Enforcement. The Board advises against clicking any link sent by an unsolicited contact and instead navigating directly to a company's official site by searching for it independently, scrutinizing a domain name closely before entering any information, and calling the Securities Board directly to confirm whether a stock exchange, broker, or investment adviser reaching out is actually who they claim to be. Texans who encounter a suspected impersonation scheme are urged to contact the Enforcement Division at 512-305-8392 or enforceinfo@ssb.texas.gov.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'medium',
+    sources: ['Texas State Securities Board'],
+    sourceUrl: 'https://ssb.texas.gov/news-publications/texas-state-securities-board-warns-investors-about-scheme-impersonating-texas',
+    country: 'US',
+    state: 'TX',
+});

@@ -3746,3 +3746,15 @@ UsGM.push({
     state: 'MA',
 });
 
+UsGM.push({
+    name: 'Douglasville Romance-Scam Money Laundering Through a Fake Car Dealership',
+    slug: 'georgia-douglasville-romance-scam-car-dealership-money-laundering',
+    description: `Following an eight-day trial, a federal jury convicted Babajide Adesayo, 41, of Douglasville, Georgia, on August 6, 2026 on two counts of conspiracy to commit money laundering and sixteen counts of transactional money laundering for his role in a transnational network that built fake online relationships with elderly victims across the country to steal their retirement savings. Members of the network cultivated romantic — and other trust-based — personas online, then pleaded for financial help with a supposed business problem, a family member's imprisonment, or medical expenses; victims who sent money were actually wiring it to another conspirator, who then passed the funds to Adesayo under the cover story that he was selling the sender a car through his dealership. Using that fake-dealership pretext to disguise the money's real source, Adesayo helped move more than $2.7 million in stolen funds overseas to accounts in China, Hong Kong, and Nigeria, putting it beyond the reach of victims or investigators. He is scheduled to be sentenced on November 20, 2026 before U.S. District Judge Mark H. Cohen, facing up to 20 years in prison on each conspiracy count, up to 10 years on each transactional money-laundering count, and a consecutive sentence of up to 10 years for continuing the scheme after he had already been indicted. The case underscores that a request to send money framed as a legitimate purchase — a car, equipment, or other goods — from someone connected to an online relationship or business opportunity is still a laundering conduit if the underlying relationship or deal was never real; anyone asked to wire funds toward a purchase they didn't initiate, at the direction of someone they met online, should independently verify the seller and the transaction before sending anything and report the request to the FBI's Internet Crime Complaint Center at ic3.gov.`,
+    categorySlug: 'romance-scams',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office, Northern District of Georgia", 'U.S. Secret Service', 'Atlanta News First'],
+    sourceUrl: 'https://www.justice.gov/usao-ndga/pr/atlanta-man-convicted-laundering-over-27-million-stolen-victims-online-fraud-0',
+    country: 'US',
+    state: 'GA',
+});
+
