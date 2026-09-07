@@ -5681,3 +5681,15 @@ export const UsAF: SeedScam[] = [
     state: 'AZ',
   },
 ];
+
+UsAF.push({
+    name: 'St. Augustine Financial Advisor $2 Million Elder Fraud',
+    slug: 'florida-st-augustine-financial-advisor-elder-fraud',
+    description: `Eric James Stone, 43, a former Fidelity Investments broker in Jacksonville who was terminated in 2021 for improperly soliciting personal loans from clients, went on to defraud a 75-year-old St. Augustine, Florida client of more than $2 million over roughly three years by exploiting the trust she had placed in him as her financial advisor. According to the U.S. Attorney's Office for the Middle District of Florida, Stone orchestrated more than 600 separate transactions from the victim's accounts, sending her fraudulent emails designed to look like they came from attorneys, banks, and other legitimate institutions to manufacture pretexts for why she needed to keep sending money. Rather than investing the funds, Stone spent the bulk of what he took on foreign online gambling websites. He pleaded guilty on March 24, 2026 to wire fraud and money laundering, and on August 20, 2026, a federal judge sentenced him to six years and eight months in prison and ordered him to pay $2,037,103 in restitution. "Our seniors are among our nation's most vulnerable population and must be protected," said U.S. Attorney Gregory W. Kehoe, whose office prosecuted the case alongside investigators from the FBI and IRS Criminal Investigation. The case is a reminder that an existing, trusted financial relationship is not itself a safeguard: older adults and their families should periodically request independent, itemized account statements directly from the custodian bank or brokerage rather than relying solely on documents or emails an advisor provides, watch for a pattern of frequent, unusual transfers out of an account, and verify directly with a bank or law firm — using a phone number looked up independently, not one in the email — before acting on any message that claims to be from them and asks for money to be moved.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office, Middle District of Florida", 'Federal Bureau of Investigation', 'IRS Criminal Investigation'],
+    sourceUrl: 'https://www.fbi.gov/contact-us/field-offices/jacksonville/news/st-augustine-man-sentenced-to-more-than-six-years-in-prison-for-defrauding-senior-of-more-than-2-million',
+    country: 'US',
+    state: 'FL',
+});
