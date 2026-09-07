@@ -4202,4 +4202,22 @@ Koch sued Rodenstock for fraud in Manhattan federal court in 2006. Rodenstock, i
 
 The saga, chronicled at length in Benjamin Wallace's 2008 book "The Billionaire's Vinegar," became a foundational case study in collectibles fraud precisely because of how long expert authority substituted for actual verification: a single celebrated palate vouching for a story was enough to move a record-setting sale, and it took a billionaire with the resources to fund his own forensic lab to finally test what everyone else had simply chosen to believe.`,
   },
+  {
+    title: 'Michel Cohen and the $50 Million Art Consignment Scheme That Outran the Law',
+    slug: 'michel-cohen-art-consignment-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.forbes.com/2001/02/14/0213artfraud4.html',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Rio_de_Janeiro_skyline_and_Sugarloaf_Mountain_at_sunset,_Brazil_3.jpg?width=1200',
+    coverImageCredit: 'Photo: Wilfredor, Wikimedia Commons (CC0) — Rio de Janeiro, where Cohen was captured in 2003 and later escaped custody',
+    coverImagePosition: 55,
+    // representative photo — replace with a portrait/exact match if found
+    body: `Michel Cohen, a Paris-born art dealer who had immigrated to the United States after an early career selling encyclopedias door to door, spent the late 1990s building relationships with some of the international art trade's biggest names — Sotheby's, New York's Acquavella Gallery, the Nahmad family's galleries in Paris and New York, and independent dealers across Europe. His method was simple and, for a while, devastatingly effective: he took paintings by artists like Picasso, Monet, Chagall, and Matisse on consignment, promising to find buyers and remit the proceeds, then sold the works and kept the money instead of paying the galleries that had trusted him with the property.
+
+By the dealers' own later accounts, Cohen ran the scheme across multiple countries at once, so that no single victim could see the full pattern before it was too late. A Swiss dealer was stung for what he described as "a couple of million"; a Paris dealer lost several million on a Monet sale; another French dealer described losses running into "double figures of millions." Sotheby's itself filed a lawsuit against Cohen seeking roughly $10 million. Investigators and dealers who spoke to Forbes in 2001 pegged the publicly known total at $40 to $50 million, while privately suspecting the real figure — once unreported losses from dealers too embarrassed or exposed to come forward were counted — was close to double that.
+
+Federal prosecutors in New York indicted Cohen on wire and mail fraud charges, but by the time the case became public in 2001 he had already vanished, reportedly surfacing first in Cuba before resurfacing in Brazil. Interpol tracked him down and Brazilian police arrested him in Rio de Janeiro in 2003. He didn't stay caught: while being transported for a medical appointment, Cohen escaped custody, and Brazilian authorities later concluded he could not be extradited to the United States in any case, because he had fathered a child with a Brazilian woman while a fugitive on their soil.
+
+Cohen's American indictment has never been resolved. He remained a ghost for more than a decade until British filmmaker Vanessa Engle spent seventeen years tracking him down for her 2019 documentary "The $50 Million Art Swindle," finding him still living, unextradited, off the proceeds of a fraud that had emptied some of the art world's most sophisticated dealers years earlier. As recently as 2025, the FBI has continued pursuing loose ends from the case, including a Jean Dubuffet painting connected to Cohen's dealings whose rightful ownership remains disputed — a reminder that, absent an arrest that sticks, an art fraud of this scale can keep generating unresolved claims decades after the dealer who caused it disappeared.`,
+  },
 ];
