@@ -9577,3 +9577,36 @@ International.push(
     country: 'AZ',
   },
 );
+
+International.push(
+  {
+    name: 'Bosnia and Herzegovina Fake Bank SMS/Email Phishing',
+    slug: 'bosnia-herzegovina-fake-bank-sms-email-phishing',
+    description: `In a July 17, 2026 public warning, the Association of Banks of Bosnia and Herzegovina (Udruženje banaka BiH) alerted citizens to increasingly sophisticated fraud carried out through SMS and email messages impersonating banks. Victims receive a message, purportedly from their bank, urging them to "update the mobile application," "confirm their identity," or resolve some other urgent issue to avoid having their account blocked or their service suspended. The message contains a link to a fake website built to closely resemble the real bank's app or homepage, and once there, victims are prompted to enter sensitive data such as their card PIN, CVV/CVC security code, or a one-time authorization code sent by SMS. Association director Edis Ražanica stressed that "banks never request PIN codes, CVV/CVC codes, authorization codes or confidential data via SMS, email, calls, social media or message links," and the association urged citizens to verify any urgent-sounding message directly with their bank through official channels, check sender numbers and web addresses carefully, and never enter card or account data through a link received by text or email.`,
+    categorySlug: 'phishing',
+    alertLevel: 'high',
+    sources: ['Association of Banks of Bosnia and Herzegovina (Udruženje banaka BiH)', 'Klix.ba'],
+    sourceUrl: 'https://www.klix.ba/biznis/finansije/budite-oprezni-sa-sms-ovima-i-internet-stranicama-udruzenje-banaka-bih-upozorilo-na-opasne-prevare/260717121',
+    country: 'BA',
+  },
+  {
+    name: 'Bosnia and Herzegovina Digital Wallet Card-Provisioning Fraud',
+    slug: 'bosnia-herzegovina-digital-wallet-card-provisioning-fraud',
+    description: `On June 26, 2026, the Ministry of Internal Affairs of Republika Srpska (MUP RS) warned residents about a fraud scheme built around fake bank text messages that ask recipients to "update their banking details." Victims who respond are asked to hand over their payment card number, expiry date, and CVV code, ostensibly to keep the card active; instead, the fraudsters use that data to add the victim's card to their own Google Pay or Apple Pay wallet on a device the victim never possesses. From that point, the criminals can make contactless and online purchases charged to the victim's card without ever needing the physical card itself, often draining the account before the victim notices anything wrong. MUP RS urged citizens: "If you receive a message requesting banking card data, do not provide it without first verifying" the request's legitimacy by contacting their bank directly through a known, official number rather than any contact information supplied in the message.`,
+    categorySlug: 'phishing',
+    alertLevel: 'high',
+    sources: ['Ministry of Internal Affairs of Republika Srpska (MUP RS)', 'BosnaInfo'],
+    sourceUrl: 'https://bosnainfo.ba/bih/gradjani-nova-meta-online-prevare-lazne-banke-u-sms-porukama/',
+    country: 'BA',
+  },
+  {
+    name: 'Bosnia and Herzegovina Fake Crypto Investment Platforms',
+    slug: 'bosnia-herzegovina-fake-crypto-investment-platforms',
+    description: `In a March 12, 2026 warning, the Federal Police (FUP) of the Federation of Bosnia and Herzegovina said it was receiving a growing number of reports from citizens defrauded through fake cryptocurrency investment platforms advertised on Facebook, Instagram, and TikTok as well as various web portals. The ads feature fabricated testimonials from supposedly successful investors and misappropriate the identities of well-known public figures to build false credibility. Once a victim responds, contact typically continues over WhatsApp, Viber, or Telegram, where scammers show fabricated evidence of fast returns on a small initial deposit to build trust; victims are then pressured into sending larger sums to cover supposed "taxes" or "fund-unlocking fees" before the scammers cut off contact entirely. FUP urged citizens to reject promises of unrealistic profit, never install remote-access software such as AnyDesk or TeamViewer for someone they don't know, avoid transferring money to foreign private accounts, refuse to share personal documents or banking credentials, and report suspected fraud to their nearest police station immediately.`,
+    categorySlug: 'cryptocurrency-scams',
+    alertLevel: 'high',
+    sources: ['Federal Police of the Federation of Bosnia and Herzegovina (FUP)', 'Hercegovina.info'],
+    sourceUrl: 'https://www.hercegovina.info/vijesti/bih/sve-vise-prijava-prevara-s-kripto-ulaganjima-fup-poziva-na-oprez/253098/',
+    country: 'BA',
+  },
+);
