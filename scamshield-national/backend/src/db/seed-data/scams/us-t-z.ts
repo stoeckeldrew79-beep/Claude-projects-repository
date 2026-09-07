@@ -2265,3 +2265,15 @@ UsTZ.push({
     country: 'US',
     state: 'WV',
 });
+
+UsTZ.push({
+    name: 'Berkeley County Sheriff\'s Office Conservatorship Embezzlement (Gooden & French)',
+    slug: 'west-virginia-berkeley-county-conservatorship-embezzlement',
+    description: `Barbara Gail Gooden, 60, the former chief tax deputy at the Berkeley County, West Virginia Sheriff's Office, and Lisa Lee French, 48, the office's former fiduciary supervisor, are accused of embezzling more than $3 million over 17 years from bank accounts the Sheriff's Office administered on behalf of people under court-ordered conservatorship and from estates it managed after someone died — funds meant to be safeguarded for people who, by definition, could not manage or monitor the accounts themselves. According to a five-count federal indictment returned June 18, 2026 in the Northern District of West Virginia, the pair ran the scheme from 2007 to 2024, executing more than 700 fraudulent transactions — including over 550 forged checks written against at least 59 separate conservator bank accounts — by forging signatures, misusing an official signature stamp, and issuing checks payable to "Berkeley County Sheriff & Treasurer" or to private businesses before diverting the money for personal use. Both defendants, both Martinsburg residents, were charged with conspiracy to commit bank fraud and multiple counts of bank fraud, in a case U.S. Attorney Matthew L. Harvey's office has called one of the largest public-corruption schemes in West Virginia history; investigators from the FBI, the Berkeley County Sheriff's Office, and the West Virginia State Auditor's Office built the case with cooperation from the Berkeley County Prosecutor's Office and County Commission. "This office will continue to safeguard taxpayer resources, protect the interests of vulnerable individuals, and ensure that those entrusted with public responsibilities are held fully accountable for violations of that trust," Harvey said. Because a county-administered conservatorship or estate account is managed precisely for people who cannot check on it themselves, families with a relative under conservatorship are encouraged to request regular, independent accountings from the court and to ask the clerk's office directly how often those accounts are audited, rather than assuming a government office's own internal oversight is automatically sufficient.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office, Northern District of West Virginia", 'WV MetroNews', 'WDTV'],
+    sourceUrl: 'https://www.justice.gov/usao-ndwv/pr/two-former-berkeley-county-sheriffs-office-employees-indicted-multi-million-dollar',
+    country: 'US',
+    state: 'WV',
+});

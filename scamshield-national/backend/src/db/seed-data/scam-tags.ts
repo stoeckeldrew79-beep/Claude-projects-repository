@@ -340,6 +340,7 @@ export const SCAM_TAGS: Record<string, string[]> = {
   'virginia-fairfax-gift-card-mule-baby-formula-fraud': ['elder-targeted'],
   'virginia-fake-lawyer-bar-number-immigration-scam': ['immigrant-targeted'],
   'washington-efile-business-online-filing-fake-annual-report-fee-scheme': ['small-business-targeted'],
+  'west-virginia-berkeley-county-conservatorship-embezzlement': ['elder-targeted'],
   'washington-fpi-management-low-income-senior-apartment-deception': ['elder-targeted'],
   'washington-secretary-of-state-fake-filing-notice-scam': ['small-business-targeted'],
   'west-virginia-government-shutdown-relief-scam': ['elder-targeted', 'student-targeted'],
