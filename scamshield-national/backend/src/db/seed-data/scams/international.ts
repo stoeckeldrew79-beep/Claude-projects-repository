@@ -9514,3 +9514,36 @@ International.push(
     country: 'PG',
   },
 );
+
+International.push(
+  {
+    name: 'Azerbaijan Stolen-Data Loan Fraud',
+    slug: 'azerbaijan-stolen-data-loan-fraud',
+    description: `The Central Bank of Azerbaijan (CBAR) has publicly addressed a wave of complaints from citizens who discovered loans of AZN 10,000-15,000 and higher had been taken out in their names at banks they never dealt with, using card and personal data stolen through phishing calls, messages, and compromised accounts rather than any signature the victim ever gave. CBAR said strengthening information security and building adequate anti-fraud controls across the banking sector are ongoing priorities, and it has directed banks to increase monitoring of loan applications, tighten identity-verification steps before disbursing credit, and do more to warn customers that card numbers, expiry dates, and CVV/CVC codes should never be shared with anyone. As part of a broader "Cybersecurity Strategy for Financial Markets for 2023-2026," the Central Bank also says it plans to roll out unified anti-fraud control mechanisms across the market, building a national anti-fraud ecosystem so that a loan fraudulently opened at one bank can be flagged before it is repeated elsewhere. Victims typically only learn a loan exists when collections contact begins or their credit history is checked, leaving them to dispute debt they never took on.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'high',
+    sources: ['Central Bank of the Republic of Azerbaijan (CBAR)', 'APA Economics'],
+    sourceUrl: 'https://en.apa.az/finance/azerbaijans-central-bank-mandates-enhanced-monitoring-to-combat-banking-fraud-464807',
+    country: 'AZ',
+  },
+  {
+    name: 'Azerbaijan Holiday-Season Bank Impersonation Calls',
+    slug: 'azerbaijan-holiday-bank-impersonation-calls',
+    description: `In a January 2, 2026 warning, Azerbaijan's Ministry of Internal Affairs alerted the public to a seasonal spike in cyber fraud, with scammers using phone calls, text messages, and messages sent over WhatsApp, Telegram, and other social platforms to pose as bank staff during the holiday period, when people are more likely to expect calls about payments, bonuses, or promotional offers. Callers pressure victims into reading out card numbers, CVV/CVC codes, or one-time SMS passwords (OTP), and also push fake loan offers and promotional campaigns designed to look like they come from a real bank. The ministry stressed that "no bank or government institution ever requests card numbers, CVV/CVC codes or one-time SMS passwords (OTP) via phone calls, text messages or social networks," and warned that "one phone call can put your financial security at risk." Anyone contacted this way is told to end the conversation immediately and report it to the 102 police emergency line and to their own bank rather than the number the caller provided.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Azerbaijan Ministry of Internal Affairs', 'Azernews'],
+    sourceUrl: 'https://www.azernews.az/nation/252506.html',
+    country: 'AZ',
+  },
+  {
+    name: 'Fake Azerbaijan Social Protection Fund "1,000 Manat Payout" Scam',
+    slug: 'azerbaijan-sspf-1000-azn-payout-scam',
+    description: `On February 26, 2026, Rashad Mehdili, head of the Public Relations Department at Azerbaijan's State Social Protection Fund (SSPF), warned that videos circulating on social media were falsely claiming the Fund would pay 1,000 AZN to every citizen born between 1932 and 2017. The videos direct viewers to "a link in the profile" under the guise of letting them check whether their name appears on an official recipient list; the linked page is actually built to harvest bank card numbers and CVV codes from anyone who enters them to "confirm" eligibility. Mehdili said the claim is entirely fabricated and that the SSPF has announced no such payment, stressing that real government disbursements are made only through official state electronic systems, never through links shared in social media posts or video captions. The Fund urged citizens not to click the links, not to enter card details anywhere off an official government platform, and to verify any purported benefit announcement directly through SSPF's own channels before acting on it.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Azerbaijan State Social Protection Fund (SSPF)', 'Operative Information Center'],
+    sourceUrl: 'https://operativmm.az/en/post/sspf-warns-of-1000-azn-payment-scam-in-azerbaijan/67900',
+    country: 'AZ',
+  },
+);
