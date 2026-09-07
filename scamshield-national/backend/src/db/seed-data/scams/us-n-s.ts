@@ -3808,3 +3808,27 @@ UsNS.push({
     country: 'US',
     state: 'OK',
 });
+
+UsNS.push({
+    name: 'Narragansett Fake Gold Bar Delivery Sting',
+    slug: 'rhode-island-narragansett-fake-porn-investigation-gold-bar-scam',
+    description: `While shopping online, a 79-year-old Narragansett, Rhode Island man got a pop-up message falsely claiming he was under investigation for attempting to buy child pornography and directing him to call a phone number to resolve it. The scammers who answered told him his Social Security number had been compromised and tied to money laundering, and that the government was moving to garnish his assets unless he acted immediately to "protect" his savings — instructing him to withdraw cash and convert the rest into gold bars for a courier to collect. Over multiple handoffs the man surrendered $35,000 in cash and gold bars valued at $130,000 before Homeland Security Investigations got involved, supplied him with fake gold bars for a third planned pickup, and arrested Jirui Liu, 22, of Scarborough, Ontario, when he arrived to collect it. Liu was charged in the U.S. District Court in Providence with conspiracy to commit wire fraud, wire fraud, conspiracy to commit money laundering, and money laundering as part of a broader federal indictment naming eight defendants in an ICE-led investigation that identified roughly 300 victims across at least 37 states and more than $5 million in known losses. No legitimate government investigation is ever resolved by liquidating savings into gold bars and handing them to a stranger who shows up in person — anyone who receives a pop-up warning of this kind should close it without calling the listed number and instead verify any claimed investigation by contacting the relevant agency directly using a number looked up independently.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office, District of Rhode Island", 'U.S. Immigration and Customs Enforcement (Homeland Security Investigations)', 'ABC6'],
+    sourceUrl: 'https://www.justice.gov/usao-ri/pr/eight-indicted-transnational-fraud-scheme',
+    country: 'US',
+    state: 'RI',
+});
+
+UsNS.push({
+    name: 'Las Vegas Fake SNAP Retailer Benefit-Trafficking Scheme',
+    slug: 'nevada-las-vegas-snap-fake-retailer-benefit-trafficking-scheme',
+    description: `A Las Vegas woman identified by authorities as Mychelle Lay, 45 — also referred to in court records as Michelle Finlay — set up a fake business in the Las Vegas area that won approval to accept Supplemental Nutrition Assistance Program (SNAP/EBT) transactions in December 2024, then began processing fraudulent transactions the following month. According to the Nevada Attorney General's Office and Nevada State Police, Lay created more than 18,000 fabricated "unique user profiles" and fraudulently assumed the identities of at least 11 real people to run bogus SNAP purchases through the business, which racked up more than $682,000 in reported transaction volume before caseworkers with the Nevada Division of Social Services flagged the pattern as suspicious and referred it for investigation. Lay, who was on probation at the time for a separate identity-theft offense, was arrested on March 13, 2026 and charged with theft over $100,000, fraudulent acts concerning public assistance, multiple fraudulent transactions through an enterprise or occupation, and 11 counts of obtaining and using another person's personal identifying information; she was later arrested on additional charges as the investigation continued. The case shows that SNAP fraud isn't limited to a stolen card or a phished PIN — a fake storefront can be built specifically to launder public benefits at scale, and Nevadans who notice unauthorized SNAP/EBT activity or an unfamiliar merchant on their statement are encouraged to report it to the Nevada Division of Welfare and Supportive Services fraud unit as well as the Attorney General's Office.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'high',
+    sources: ["Nevada Attorney General's Office", 'Nevada State Police Investigation Division', '8 News Now'],
+    sourceUrl: 'https://www.gov.nv.gov/press-releases/arrest-made-following-investigation-into-large-scale-fraud-scheme/',
+    country: 'US',
+    state: 'NV',
+});

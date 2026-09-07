@@ -3924,3 +3924,15 @@ UsGM.push({
     country: 'US',
     state: 'MS',
 });
+
+UsGM.push({
+    name: 'Westfield Six-Year Fake Car-Accident Injury Fraud',
+    slug: 'indiana-westfield-fake-accident-injury-fraud-shayna-williams',
+    description: `Shayna Williams, 51, of Westfield, Indiana, was in a minor car accident with an elderly woman and then spent the next six years turning that fender-bender into an ongoing fraud, according to the U.S. Attorney's Office for the Southern District of Indiana. Williams repeatedly told the victim she and her daughter had suffered severe, worsening injuries from the crash — including a supposed back injury requiring costly surgery, a walker, and an in-home elevator for her daughter — and sent the victim text messages posing as insurance-company representatives who claimed to be negotiating directly with hospitals over the mounting bills, all to keep the payments coming. Believing she was covering legitimate medical costs from the accident, the victim took out personal loans, worked as a food-delivery driver, took out a second mortgage on her home, and borrowed from a friend to keep up, ultimately paying Williams more than $672,000. Williams pleaded guilty to wire fraud on June 30, 2026, facing up to 20 years in prison. The case is a reminder that a fraud tied to a real, documented event — an actual accident, with real injuries claimed afterward — can be harder for a victim to question than an obvious cold-call scam, since some contact and shared history already exist; anyone footing ongoing, escalating medical costs for another adult's claimed injuries should ask to see actual medical bills and insurance correspondence directly from the provider or insurer, not text messages relayed by the person requesting money.`,
+    categorySlug: 'insurance-fraud',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office, Southern District of Indiana", 'WRTV', 'Fox59'],
+    sourceUrl: 'https://www.justice.gov/usao-sdin/pr/westfield-woman-pleads-guilty-defrauding-elderly-victim-more-500000',
+    country: 'US',
+    state: 'IN',
+});
