@@ -66,6 +66,16 @@ function exclusionSample(country: string, limit: number): string[] {
 
 const EXCLUSION_SAMPLE_SIZE = 500;
 
+// A URL lifted out of prose picks up whatever punctuation followed it. The
+// first good run produced ".../electricity-sales-scams-on-social-media/','"
+// — and z.string().url() accepts it, because quotes and commas are legal path
+// characters. Written as-is it becomes a "Read more" link that 404s, which is
+// worse for a database whose value is that its sources check out than having
+// no link at all.
+function tidyUrl(url: string): string {
+  return url.trim().replace(/[\"'`,.;:)\]}\s]+$/, '');
+}
+
 function existingSlugs(): Set<string> {
   return new Set(SEED_SCAMS.map((s) => s.slug));
 }
@@ -211,7 +221,13 @@ async function main() {
   for (const e of parsed.entries) {
     if (slugs.has(e.slug)) { console.log(`  reject ${e.slug}: slug already exists`); collisions.push(e.name); continue; }
     if (!validCategories.has(e.categorySlug)) { console.log(`  reject ${e.slug}: unknown category ${e.categorySlug}`); continue; }
-    if (!findings.includes(new URL(e.sourceUrl).hostname)) { console.log(`  reject ${e.slug}: sourceUrl host not present in the research findings`); continue; }
+    // The whole URL has to appear in the findings verbatim, not just its
+    // host. A matching hostname only proves the domain was mentioned
+    // somewhere; it does not stop a plausible-looking path being invented on
+    // a real agency's domain.
+    const sourceUrl = tidyUrl(e.sourceUrl);
+    if (!findings.includes(sourceUrl)) { console.log(`  reject ${e.slug}: sourceUrl is not in the research findings verbatim`); continue; }
+    e.sourceUrl = sourceUrl;
     if (accepted.some((a) => a.slug === e.slug)) { console.log(`  reject ${e.slug}: duplicate within this batch`); continue; }
     accepted.push(e);
   }
