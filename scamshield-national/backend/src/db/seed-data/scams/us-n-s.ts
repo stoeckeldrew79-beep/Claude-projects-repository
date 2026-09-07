@@ -3473,4 +3473,15 @@ export const UsNS: SeedScam[] = [
     country: 'US',
     state: 'SD',
   },
+  {
+    name: 'Ohio Fake Court Document Toll and Parking Fine QR Code Text Scam',
+    slug: 'ohio-fake-court-document-toll-parking-fine-qr-code-text-scam',
+    description: `Ohio Attorney General Dave Yost warned residents in a March 2026 alert about a text message scam claiming the recipient owes an unpaid parking ticket or toll fine and must pay immediately or face court action. The message includes an image formatted to look like an official court document, complete with a scanned-looking seal, and a QR code that the text urges the recipient to scan in order to pay the supposed fine. Scanning the code leads to a payment site on a domain the office traced to entities overseas, rather than to any real Ohio court, toll authority, or the Ohio Bureau of Motor Vehicles, and scanning an unknown QR code itself carries a separate risk of installing malware. Yost's office said scammers "rely on fear and urgency" to get a recipient to act before checking the claim, and urged Ohioans never to scan a QR code or click a link in an unexpected text about fines or court dates, to look for red flags such as an incorrect seal or an unfamiliar web address, and to instead verify any claimed toll, ticket, or court notice by contacting the relevant court or agency directly using a phone number or website looked up independently, not one provided in the text itself.`,
+    categorySlug: 'qr-code-scams',
+    alertLevel: 'high',
+    sources: ['Ohio Attorney General'],
+    sourceUrl: 'https://www.ohioattorneygeneral.gov/Media/News-Releases/March-2026/AG-Yost-Warns-Ohioans-of-Text-Scam-Claiming-Outsta',
+    country: 'US',
+    state: 'OH',
+  },
 ];
