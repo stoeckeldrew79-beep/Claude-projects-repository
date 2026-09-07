@@ -4546,3 +4546,49 @@ The fraud unraveled after a New York Times investigation into the sale raised qu
 The case is widely credited as the first major prosecution built around eBay shill bidding, and it pushed the company to tighten its bidding and identity-verification safeguards in the years that followed. Walton went on to write a memoir about the scheme, "Fake: Forgery, Lies & eBay" (2006), turning his own prosecution into a case study — one that, more than two decades later, is still cited in discussions of online marketplace fraud as the moment a garage-sale story and a forged signature briefly rewrote the record for an online art sale.`,
   },
 );
+
+NotoriousGM.push(
+  {
+    title: `Jacob Kingston and the $1 Billion Biodiesel Tax Credit Fraud Behind Washakie Renewable Energy`,
+    slug: 'jacob-kingston-washakie-renewable-energy-biodiesel-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.irs.gov/compliance/criminal-investigation/los-angeles-businessman-utah-fuel-plant-operators-and-employees-sentenced-to-prison-for-billion-dollar-biofuel-tax-fraud-scheme',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Box_Elder_County_Courthouse.jpeg?width=1200',
+    coverImageCredit: 'Photo: Tricia Simpson, Wikimedia Commons (CC BY-SA 3.0) — Box Elder County, Utah, where Washakie Renewable Energy\'s biodiesel plant operated',
+    coverImagePosition: 50,
+    // representative photo — county courthouse near the Plymouth, Utah plant, not the federal courthouse where the case was tried; replace with an exact match if found
+    body: `Jacob Kingston was co-owner and chief executive of Washakie Renewable Energy, a biodiesel company based in Plymouth, Utah, that advertised itself as converting used cooking grease, cornstalks, and other biological waste into clean-burning fuel. The company and its executives were also members of the Davis County Cooperative Society, a polygamous religious group better known as "the Order," and Washakie's plant became the financial engine for both the family business and the broader sect. Between 2010 and 2018, prosecutors say, that engine ran almost entirely on paper.
+
+Federal law offered a lucrative incentive for genuine biodiesel production: a refundable tax credit of roughly a dollar per gallon, designed to encourage renewable fuel output. Washakie barely produced any fuel at all. Instead, according to the Justice Department and IRS Criminal Investigation, Jacob Kingston — working with his brother and Washakie co-owner Isaiah Kingston, their mother Rachel Kingston, Jacob's wife Sally Kingston, and Los Angeles fuel dealer Lev Aslan Dermen (also known as Levon Termendzhyan) — ran a rotation scheme: they bought biodiesel that had already generated its tax credit on the East Coast, shipped it to Panama, relabeled the paperwork to disguise it as raw "feedstock," shipped it back into the United States, and then falsely claimed Washakie had manufactured it from scratch, generating a second, fraudulent round of credits on fuel that had already been credited once. On top of the rotation scheme, the group fabricated and sold tens of millions of dollars in Renewable Identification Numbers — the EPA credits used to track renewable fuel volumes — for fuel Washakie never made. Rachel and Sally Kingston, prosecutors said, manufactured the paper trail behind it all: fake invoices, backdated production records, and falsified transport documents designed to survive an audit.
+
+The claims added up to more than $1 billion, and the IRS actually paid out over $511 million of it to Washakie before the scheme collapsed — more than $300 million tied to fabricated 2013 production alone and over $164 million more for 2014. To move and hide the proceeds, the conspirators cycled more than $3 billion through a web of bank accounts across multiple countries and companies, sent more than $134 million overseas to accounts in Turkey and Luxembourg, and funneled over $35 million more to extended family members and Order-affiliated businesses. Some of the money surfaced in strikingly conventional ways for a group built around a communal religious identity: investigators traced fraud proceeds to a 150-foot yacht named the Queen Anne (seized in Beirut and later sold in Cyprus for $10.1 million), mansions in Sandy, Utah and Huntington Beach, California, and a fleet that included a Bugatti Veyron, a chrome-wrapped Lamborghini, and a gold-plated Ferrari.
+
+The Kingstons pleaded guilty in July 2019 to conspiracy to commit mail fraud, filing false tax claims, money laundering, and obstruction — the latter charge tied to their efforts to destroy records and pressure witnesses once investigators closed in. Dermen, described by prosecutors as the scheme's mastermind and the one who assured the Kingstons he could buy them protection through corrupt law enforcement contacts, denied wrongdoing and was convicted at trial. In April 2023, a federal judge in Salt Lake City sentenced Dermen to 40 years in prison and Jacob Kingston to 18 years, along with a combined restitution order of $511 million and a $338 million money judgment against Jacob individually; Isaiah Kingston received 12 years, Rachel Kingston seven, and Sally Kingston six.
+
+The case stands as one of the largest renewable-fuel tax fraud prosecutions in U.S. history and a reminder that government incentive programs built to reward genuine production — clean energy credits, tax refunds, EPA certifications — are only as reliable as the paperwork behind them. Washakie spent nearly a decade collecting real federal money for biodiesel that, according to the government's own case, essentially never existed.`,
+  },
+);
+
+NotoriousGM.push(
+  {
+    title: `Matthew Taylor: The Goldman Sachs Trader Whose Hidden $8.3 Billion Bet Cost the Firm $118 Million`,
+    slug: 'matthew-taylor-goldman-sachs-rogue-trader-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://www.justice.gov/archive/usao/nys/pressreleases/December13/MatthewTaylorSentencing.php',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Goldman_Sachs_New_World_Headquarters.JPG?width=1200',
+    coverImageCredit: 'Photo: Z4dude, Wikimedia Commons (public domain) — Goldman Sachs\' headquarters at 200 West Street, Manhattan',
+    coverImagePosition: 50,
+    // representative photo — Goldman Sachs headquarters, not the specific trading floor where Taylor worked; replace with an exact match if found
+    body: `Matthew Taylor was a 28-year-old vice president on Goldman Sachs' Capital Structure Franchise Trading desk in December 2007, managing an equity-derivatives book built largely around S&P 500 E-mini futures contracts. An MIT graduate, Taylor had built a strong enough reputation on the desk that colleagues trusted his numbers without much second-guessing — trust that, over one week in December 2007, he used to hide a trading position more than 1,500 times the size his supervisors believed it to be.
+
+After racking up losses in November 2007, Taylor was told by his supervisors to cut his risk, not increase it. Instead, on December 13, 2007, he built a long position in E-mini futures that ballooned to roughly $8.3 billion — vastly beyond both his personal trading limit and the entire desk's combined risk ceiling. To keep Goldman's systems and his supervisors from noticing, he entered fictitious offsetting trades into the firm's manual trade-entry system that made his real, oversized position look like it had already been sold off, then prepared and circulated a false profit-and-loss report that made the desk's exposure look ordinary. When Goldman employees spotted a discrepancy the next morning and started asking questions, Taylor lied again, giving false answers about the size and status of his position before finally admitting the truth within roughly 36 hours of building the trade. By then the unwind of the position had cost Goldman Sachs $118 million.
+
+Goldman fired Taylor, but the firm's public and regulatory response to what had happened was strikingly muted for a fraud of that size. Taylor went on to spend four more years trading at Morgan Stanley with no public indication of what he had done at Goldman, and it was not until 2012 — five years after the incident — that the Commodity Futures Trading Commission filed a civil enforcement action against him, followed by a criminal wire fraud charge from the U.S. Attorney's Office for the Southern District of New York. Taylor pleaded guilty to one count of wire fraud in April 2013.
+
+At sentencing in December 2013, U.S. District Judge William H. Pauley III openly criticized Goldman Sachs for its own conduct in the aftermath, saying the firm had been "silent about Taylor's lies" even after firing him and calling its response "sad" for allowing him to keep trading elsewhere for years without disclosure. Pauley also faulted the pace of the prosecution itself, remarking that "justice has to be swift to mean anything." He sentenced Taylor to nine months in prison, three years of supervised release, 400 hours of community service tutoring low-income students in mathematics, and $118 million in restitution to Goldman Sachs.
+
+Taylor's case became one of the clearest examples of "rogue trading" prosecuted as outright fraud rather than mere risk-management failure: the loss wasn't from a bad market call, but from a trader who blew past every limit set for him and then fabricated records specifically to keep anyone from finding out until it was too late to stop.`,
+  },
+);
