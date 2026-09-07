@@ -3495,4 +3495,15 @@ export const UsNS: SeedScam[] = [
     country: 'US',
     state: 'NH',
   },
+  {
+    name: 'Brooklyn "Puppy Boutique" Illegal Puppy Mill Pipeline Sales',
+    slug: 'new-york-puppy-boutique-illegal-puppy-mill-pipeline-sales',
+    description: `New York Attorney General Letitia James sued Quality Canines Inc., doing business as Puppy Boutique, on July 1, 2026, alleging the Brooklyn pet store kept illegally selling dogs for more than 18 months after New York's Puppy Mill Pipeline Act banned retail pet stores from selling dogs, cats, and rabbits starting in December 2024. According to the complaint, the store advertised puppies for sale on Instagram, TikTok, and websites including thepuppyboutique.com and puppypetite.com, sourced many of the animals from out-of-state breeding operations the Attorney General's office describes as puppy mills that keep dogs in inhumane conditions, and tried to dodge the law by falsely claiming to be affiliated with an unregistered nonprofit rescue rather than a retail seller. An undercover investigation in March 2025 found store representatives still confirming puppies were available for purchase and offering same-day pickup, more than a year after the sales ban took effect, despite the store having received formal notice of the law in February 2024. James said puppies bred in these conditions can leave buyers facing "heartbreak and exorbitant veterinary bills" once health problems surface after the sale. The lawsuit seeks to immediately halt all illegal dog sales by the store and hold it accountable under the Puppy Mill Pipeline Act. New Yorkers looking to bring home a pet are directed to adopt through a licensed shelter or rescue organization rather than buying from a retail store or an online seller, and should be wary of any seller offering same-day pickup, refusing an in-person visit to see where an animal was actually raised, or advertising primarily through social media rather than a licensed, inspectable facility.`,
+    categorySlug: 'pet-sales-scams',
+    alertLevel: 'medium',
+    sources: ["New York Office of the Attorney General (Letitia James)"],
+    sourceUrl: 'https://ag.ny.gov/press-release/2026/attorney-general-james-sues-brooklyn-pet-store-illegally-selling-hundreds',
+    country: 'US',
+    state: 'NY',
+  },
 ];

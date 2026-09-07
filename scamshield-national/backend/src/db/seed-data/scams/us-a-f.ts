@@ -5603,4 +5603,15 @@ export const UsAF: SeedScam[] = [
     country: 'US',
     state: 'CT',
   },
+  {
+    name: 'Arizona AI Voice-Cloning and Deepfake Family Emergency Scam Alert',
+    slug: 'arizona-ai-voice-cloning-deepfake-family-emergency-alert',
+    description: `Arizona Attorney General Kris Mayes opened National Consumer Protection Week on March 2, 2026 by announcing her office had recovered more than $4 million for Arizona consumers in 2025, while warning that artificial intelligence is making family-impersonation scams far harder to spot. Scammers now need only a few seconds of audio — often lifted from a social media video — to clone a family member's voice convincingly enough to fake a panicked call asking for emergency bail or medical money, and the same technology is used to generate deepfake videos and images that appear to show a relative in distress or to fabricate a celebrity endorsement soliciting funds. AI is also being used to draft phishing messages that no longer carry the spelling and grammar mistakes that once gave scams away, making emails and texts impersonating banks, employers, or government agencies read as polished as the real thing. Mayes's office recommends that families agree on a private code word or phrase in advance that a real relative could use to verify their identity in a genuine emergency, and that anyone receiving an urgent call, video, or image asking for money hang up and call the person back directly on a known number rather than reacting in the moment. "Trust your instincts: If something feels off, it probably is," the Attorney General's office advised, urging Arizonans to verify independently before wiring money, buying gift cards, or sending cryptocurrency in response to any unexpected plea from a "family member." Suspected scams can be reported to the Arizona Attorney General's Consumer Protection Section at 602-542-5763 or azag.gov/complaints/consumer.`,
+    categorySlug: 'family-emergency-scams',
+    alertLevel: 'high',
+    sources: ["Arizona Attorney General's Office (Kris Mayes)", 'AZFamily (KTVK/KPHO)'],
+    sourceUrl: 'https://www.azag.gov/press-release/attorney-general-mayes-recovers-4-million-arizona-consumers-warns-growing-ai-scam',
+    country: 'US',
+    state: 'AZ',
+  },
 ];
