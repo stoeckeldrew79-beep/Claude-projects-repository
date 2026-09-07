@@ -3761,3 +3761,15 @@ UsNS.push({
     country: 'US',
     state: 'NM',
 });
+
+UsNS.push({
+    name: 'ViRSE Metaverse Investment Fraud (Neil Chandran)',
+    slug: 'nebraska-virse-metaverse-investment-fraud-chandran',
+    description: `Neil Suresh Chandran, a Las Vegas-based owner of a group of technology companies operating under the banner "ViRSE" — including Free Vi Lab, Studio Vi Inc., ViDelivery Inc., ViMarket Inc., and Skalex USA Inc. — falsely told investors between 2018 and 2022 that one or more of his companies was on the verge of being acquired by a consortium of wealthy buyers at an extraordinary valuation, using that false promise to solicit more than $45 million from over 10,000 investors nationwide for stakes in the companies' virtual-world and cryptocurrency technology. Chandran and his co-conspirators treated investor money as their own, spending it on multiple houses and dozens of luxury vehicles rather than the business ventures they described to victims. Bryan Lee, 60, of Las Vegas, served as the nominee owner and sole officer of ViMarket, a Chandran-controlled entity that received millions of dollars in investor funds; prosecutors said Lee knew the money came from individual investors and knew the representations made to them were false. Chandran pleaded guilty to mail fraud and Lee pleaded guilty to conspiracy to commit mail fraud and wire fraud in April 2026, and on July 9, 2026, Judge Susan M. Bazis of the U.S. District Court for the District of Nebraska in Lincoln sentenced Chandran to 136 months (over 11 years) in federal prison and Lee to 36 months, both followed by three years of supervised release; the pair were jointly ordered to pay $21,737,227.38 in restitution. "Neil Chandran and Bryan Lee deceived thousands of investors, exploited their trust, and stole their money," a Justice Department Criminal Division official said in announcing the sentences. The case is a reminder that a "guaranteed" imminent buyout by an unnamed group of wealthy investors is a hallmark of investment fraud rather than a real acquisition, and that anyone solicited to invest in a company's supposedly pending sale should independently verify the claim, check the company's actual registration status with the SEC or their state securities regulator, and be skeptical of any pitch that can't be confirmed outside what the promoter tells them directly.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ['U.S. Department of Justice (Office of Public Affairs)', "U.S. Attorney's Office, District of Nebraska", 'WOWT'],
+    sourceUrl: 'https://www.justice.gov/opa/pr/co-conspirators-sentenced-3-years-and-over-11-years-prison-defrauding-thousands-investors',
+    country: 'US',
+    state: 'NE',
+});
