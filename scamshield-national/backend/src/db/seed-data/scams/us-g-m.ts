@@ -3575,4 +3575,15 @@ export const UsGM: SeedScam[] = [
     country: 'US',
     state: 'MI',
   },
+{
+    name: 'Maryland Somerset County District Court Phone Spoofing Scam',
+    slug: 'maryland-somerset-county-district-court-phone-spoofing-scam',
+    description: `The Maryland Judiciary warned residents on August 5, 2026 about a telephone scam in which callers spoof caller ID to display the real phone number of the Somerset County District Court, then claim to be from "the U.S. government" and tell the person they owe money that must be paid immediately, in some versions running into the thousands of dollars, to get their case closed. Because the number on the screen matches the actual court's listed line, recipients have less reason to doubt the call is genuine, and the caller leans on that false credibility to push for fast payment or personal information, sometimes directing the person to a link or QR code. The Maryland Judiciary stated flatly that "these telephone calls, or any variations of them, are a scam," noting that Maryland courts do not call, text, or email residents to demand payment or personal information, and never resolve a case over the phone. Anyone who receives such a call is advised not to provide any payment or personal details, not to click any link or scan any QR code the caller sends, to hang up and independently look up the court's number to verify, and to report the call to the Attorney General's Consumer Protection Division hotline at 410-528-8662 or toll-free 888-743-0023.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Maryland Judiciary', 'Maryland Office of the Attorney General'],
+    sourceUrl: 'https://www.courts.state.md.us/media/news/2026/pr20260805',
+    country: 'US',
+    state: 'MD',
+  },
 ];

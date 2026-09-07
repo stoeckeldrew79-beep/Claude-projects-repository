@@ -3484,4 +3484,15 @@ export const UsNS: SeedScam[] = [
     country: 'US',
     state: 'OH',
   },
+{
+    name: 'New Hampshire Retirement System Pension Redirection Fraud',
+    slug: 'new-hampshire-retirement-system-pension-redirection-fraud',
+    description: `The New Hampshire Department of Justice announced on July 27, 2025 that the New Hampshire Retirement System (NHRS) had identified and blocked a wave of fraudulent attempts, submitted earlier that month, to redirect the pension payments of five retirees and one beneficiary by faxing falsified direct-deposit change requests to alter where their benefit checks were sent. The scheme appears tied to spoofed robocalls impersonating legitimate banks, likely used to harvest the account and personal details needed to make the faxed change requests look convincing; three of the names submitted on the fraudulent forms did not even match any actual NHRS member. NHRS caught every attempt through its own internal verification steps before any payment was actually diverted, and officials said there was no evidence that member or retiree data held by the system had itself been breached. NHRS and the Attorney General's Consumer Protection and Antitrust Bureau urged retirees and beneficiaries not to respond to unsolicited calls, emails, texts, or faxes asking for banking or personal information, and to confirm the legitimacy of any request about their pension payment by contacting NHRS directly at 603-410-3500 or through nhrs.org rather than any number supplied in the suspicious communication itself; suspected scams can be reported to the Consumer Protection Bureau at 603-271-3641.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'medium',
+    sources: ['New Hampshire Department of Justice', 'New Hampshire Retirement System'],
+    sourceUrl: 'https://www.doj.nh.gov/news-and-media/consumer-alert-nh-state-retirees-warned-fraudulent-attempts-redirect-pension',
+    country: 'US',
+    state: 'NH',
+  },
 ];
