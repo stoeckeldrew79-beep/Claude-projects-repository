@@ -9986,3 +9986,36 @@ International.push(
     country: 'XK',
   },
 );
+
+International.push(
+  {
+    name: `"Guess Who?" Family Emergency Phone Scam`,
+    slug: 'saint-lucia-guess-who-family-emergency-phone-scam',
+    description: `The Royal Saint Lucia Police Force (RSLPF) confirmed a sharp increase in scam reports between January and April 2026, warning residents that fraudsters are becoming more calculated in how they exploit trust in family relationships. In the most common version, a caller speaks in a low, muffled voice and waits for the confused person who picked up to guess who is calling — "is that you, John?" — and the moment a victim supplies a relative's name, the scammer immediately adopts that identity, claims to be facing an emergency (often medical) or to be in police custody, and pressures the victim into sending urgent financial help, typically between US$50 and US$1,500, or purchasing mobile phone credit to "call a relative." The RSLPF said this exact "guess who" pattern had already been flagged in a public warning in February 2025 and has persisted and intensified since, with callers relying on the victim's own emotional panic to skip past questions that would otherwise expose the fraud. Investigators have also traced cases where a caller instructs the panicked victim to physically drop off cash at a specific public location rather than wire it — in one such case, Superintendent Eldeen Henry said a scammer directed a victim to leave money at Tapion Hospital, which led the Gros Islet Criminal Investigations Department to launch an operation that ended in an arrest. The RSLPF is urging the public not to comply with sudden emotional demands for money over the phone, to hang up and independently verify a relative's identity and situation by calling them back on a known number before sending anything, and to report suspected scam calls to the police immediately.`,
+    categorySlug: 'family-emergency-scams',
+    alertLevel: 'high',
+    sources: ['Royal Saint Lucia Police Force (RSLPF)', 'Saint Lucia Daily Post', 'The Voice St. Lucia'],
+    sourceUrl: 'https://www.saintluciadailypost.com/2026/05/04/rslpf-warns-of-surge-in-scams-as-fraudsters-target-victims-through-calls-and-online-sales/',
+    country: 'LC',
+  },
+  {
+    name: 'Fake Vehicle Sales on Social Media',
+    slug: 'saint-lucia-fake-vehicle-sales-social-media-scam',
+    description: `The Royal Saint Lucia Police Force (RSLPF) reported in May 2026 that, alongside a broader surge in scam complaints between January and April, it was seeing a growing wave of fraud in which criminals advertise vehicles at attractive prices on social media platforms to lure buyers. Once a would-be buyer expresses interest, the seller instructs them to either deposit funds into an unfamiliar bank account or deliver cash to a specified location to "secure" or complete the purchase — and after the money changes hands, the promised vehicle never materializes and the seller disappears or stops responding. One such case was formally reported to the Gros Islet Police Station on April 29, 2026. The RSLPF said these online-sales scams, together with the "family emergency" phone scams surging over the same period, are leaving victims across Saint Lucia both financially drained and emotionally shaken, and it is urging residents to thoroughly verify online vehicle listings and sellers, to meet in person at a safe, verifiable location before paying anything, to avoid depositing money into an unknown account or leaving cash based solely on a social media ad, and to report suspicious listings to the police.`,
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'high',
+    sources: ['Royal Saint Lucia Police Force (RSLPF)', 'Saint Lucia Daily Post'],
+    sourceUrl: 'https://www.saintluciadailypost.com/2026/05/04/rslpf-warns-of-surge-in-scams-as-fraudsters-target-victims-through-calls-and-online-sales/',
+    country: 'LC',
+  },
+  {
+    name: 'CIBC Caribbean Bank Impersonation Phishing Scam',
+    slug: 'saint-lucia-cibc-bank-impersonation-phishing-scam',
+    description: `CIBC Caribbean issued a customer alert in May 2026 after an increase in fraudulent calls and messages targeting its Saint Lucia customers in an attempt to trick them into revealing sensitive banking information. Reports surfaced of customers receiving calls that display the bank's own logo on the caller ID, of scammers reaching out over Google Meet video sessions posing as bank staff, and of fraudulent emails sent from addresses resembling "cibccustomer@gmail.com" — all designed to build false credibility before the caller asks the customer to reveal or "verify" One-Time Verification Codes, PINs, card numbers, CVV codes, expiration dates, passwords, or online banking login credentials, or to download a remote desktop application that gives the scammer direct access to the victim's device. CIBC Caribbean stressed that it "does not contact clients in this manner or request personal banking details through such channels," and that its representatives will never contact a customer via social media, text message, email, or telephone to request a One-Time Verification Code, PIN, card number, password, or other login credential, nor ask a customer to download a remote desktop application or click a suspicious link. The bank is advising customers who receive such a call or message not to engage, to report it to fraud@cibccaribbean.com with screenshots where possible, and — if they have already shared information with an imposter — to call the official number on the back of their debit or credit card immediately so the account can be secured.`,
+    categorySlug: 'phishing',
+    alertLevel: 'high',
+    sources: ['CIBC Caribbean', 'St. Lucia Times', 'WINN FM'],
+    sourceUrl: 'https://www.cibccaribbean.com/about-us/privacy-and-security/fraud-alerts',
+    country: 'LC',
+  },
+);
