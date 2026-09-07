@@ -2121,4 +2121,15 @@ export const UsTZ: SeedScam[] = [
     country: 'US',
     state: 'WI',
   },
+{
+    name: 'Virginia Funeral Home Impersonation Scam Targeting Grieving Families',
+    slug: 'virginia-funeral-home-impersonation-grieving-families-scam',
+    description: `Virginia Attorney General Jay Jones warned residents during National Consumer Protection Week in March 2026 that scam artists have been posing as funeral home staff to prey on Virginians who have just lost a loved one. The scheme starts with a published obituary: scammers pull the deceased's name, family relationships, and the name of the funeral home handling arrangements directly from the notice, then call grieving family members — sometimes immediate family, sometimes more distant relatives — claiming to be from the funeral home and demanding an additional or "final" payment, occasionally exceeding $1,000, to keep the funeral on schedule or avoid services being canceled. The Virginia Funeral Directors Association had already begun warning families about the same pattern in December 2025, with Vice President Trey Finch describing how deeply it can affect a family already struggling with loss: "It's heartbreaking to see. It does affect the experience they have with that death and with that funeral." Attorney General Jones's office advised Virginians to resist any pressure to pay immediately, since a legitimate business will always give a customer time to make a decision, and Finch recommended making funeral-related payments in person at the funeral home's own office rather than over the phone, and verifying any request directly with the funeral director using a phone number the family already has on file — never one supplied by the caller. Anyone contacted by someone claiming to represent a funeral home should hang up and call the home back directly before sending any payment.`,
+    categorySlug: 'family-emergency-scams',
+    alertLevel: 'high',
+    sources: ['Virginia Office of the Attorney General (Jay Jones)', 'Virginia Funeral Directors Association', 'WSET'],
+    sourceUrl: 'https://wset.com/news/local/scammers-posing-as-funeral-home-staff-target-grieving-families-va-virginia-awareness-december-2025',
+    country: 'US',
+    state: 'VA',
+  },
 ];

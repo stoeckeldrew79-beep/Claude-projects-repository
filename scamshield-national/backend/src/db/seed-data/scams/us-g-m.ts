@@ -3709,3 +3709,15 @@ UsGM.push({
     country: 'US',
     state: 'MD',
 });
+
+UsGM.push({
+    name: 'Louisiana "Outstanding Traffic Ticket" OMV Text Scam',
+    slug: 'louisiana-omv-outstanding-traffic-ticket-text-scam',
+    description: `Louisiana State Police and the state Office of Motor Vehicles (OMV) issued a joint alert in July 2025 warning residents about a recurring text-message scam claiming the recipient has an "outstanding traffic ticket" and must pay immediately or face mounting fees, license suspension, or other legal consequences. The unsolicited texts direct recipients to a link that mimics OMV's real website but is actually built to harvest credit card numbers and personal information, and the pattern has continued to resurface, prompting a follow-up warning from the Louisiana Secretary of State's Office in March 2026 after residents began receiving similar fraudulent messages threatening prosecution or demanding payment. "The Secretary of State's Office does not send unsolicited text messages or emails threatening prosecution or asking for payment," the office said in that alert. Louisiana OMV has stressed that traffic citations are handled and paid through the courts, not through a text link, and that the agency never texts or emails residents demanding payment for a violation. Residents who receive one of these messages are advised not to click any link or reply, to delete the text, to use only the official OMV website at expresslane.org for any real account transactions, and to report the fraudulent message to the FTC at reportfraud.ftc.gov.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ["Louisiana State Police", "Louisiana Office of Motor Vehicles (OMV)", "Louisiana Secretary of State's Office"],
+    sourceUrl: 'https://lsp.org/community-outreach/news/louisiana-office-of-motor-vehicles-warns-residents-of-recurring-text-message-scam/',
+    country: 'US',
+    state: 'LA',
+});
