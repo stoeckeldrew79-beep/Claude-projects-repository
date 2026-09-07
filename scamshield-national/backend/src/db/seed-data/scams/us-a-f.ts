@@ -5680,7 +5680,28 @@ export const UsAF: SeedScam[] = [
     country: 'US',
     state: 'AZ',
   },
-];
+  {
+    name: "Fake Help Setting Up Your IRS Online Account",
+    slug: "fake-help-setting-up-your-irs-online-account",
+    description:
+      "Scammers contact taxpayers by phone, email, direct message or social media ads and offer to help them create an IRS Individual Online Account, framing it as a complicated technical task that requires expert assistance. To \"help,\" they ask for exactly the information IRS identity verification requires: your name and address, phone number, Social Security number or ITIN, and a photo ID. With that bundle they file a fraudulent return to steal your refund, take over your real IRS account and its transcripts and payment history, or open credit accounts and loans in your name. The IRS listed this as item 5 on its 2026 Dirty Dozen list of tax scams. Create your account yourself only at IRS.gov, never pay or share identity documents with a third party offering to set it up, and report attempts to the IRS.",
+    categorySlug: "tax-scams",
+    alertLevel: "high",
+    sources: ["Internal Revenue Service 2026 Dirty Dozen","IRS Security Summit","Coalition Against Scam and Scheme Threats","Colorado Department of Revenue"],
+    sourceUrl: "https://www.irs.gov/newsroom/dirty-dozen-tax-scams-for-2026-irs-reminds-taxpayers-to-watch-out-for-dangerous-threats",
+    country: "US",
+  },
+  {
+    name: "Free Cheek Swab Genetic Testing Medicare Scam",
+    slug: "free-cheek-swab-genetic-testing-medicare-scam",
+    description:
+      "Recruiters approach Medicare beneficiaries by telemarketing call, door-to-door visit, or booths at health fairs, senior centers, senior housing, farmers markets and parking lots, offering \"free\" DNA, cancer-risk or hereditary screening they claim Medicare fully covers. The pitch feels harmless because there are no needles and no cost, just a cheek swab, and some recruiters falsely claim a doctor already approved it. Once you hand over your Medicare number and swab, a lab bills Medicare for expensive genetic panels even though no treating physician ordered the test and it is not medically necessary. Medicare may deny the claim and leave you responsible for the bill, while your Medicare number is kept for further fraudulent billing or medical identity theft. Refuse screening offers at community events, never give your Medicare number to anyone but your own provider, and review your Medicare Summary Notice for tests you never received.",
+    categorySlug: "medicare-health-plans",
+    alertLevel: "high",
+    sources: ["HHS Office of Inspector General consumer alerts","Senior Medicare Patrol (ACL-funded)","Connecticut Department of Aging and Disability Services"],
+    sourceUrl: "https://portal.ct.gov/AgingandDisability/Content-Pages/Latest-News/Fraud-Alert---Genetic-Testing-Scam",
+    country: "US",
+  },];
 
 UsAF.push({
     name: 'St. Augustine Financial Advisor $2 Million Elder Fraud',

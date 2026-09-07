@@ -3696,7 +3696,17 @@ export const UsGM: SeedScam[] = [
     country: 'US',
     state: 'MS',
   },
-];
+  {
+    name: "Interstate Moving \"Hostage Load\" Scam",
+    slug: "interstate-moving-hostage-load-scam",
+    description:
+      "Rogue movers and moving brokers advertise online as full-service interstate movers, give a low sight-unseen estimate by phone or web form, and demand a large upfront deposit. On moving day an unfamiliar carrier, sometimes in an unmarked truck, loads your belongings and then dramatically \"revises\" the weight or volume, raising the price far above the quote. The company refuses to deliver until you pay the inflated amount, often in cash, and some households wait months or never see their possessions again. FMCSA launched Operation Protect Your Move after a significant uptick in complaints about movers holding household goods hostage to extort extra charges. Always insist on a written estimate because verbal quotes are unenforceable, verify the mover's USDOT number and operating authority in the SAFER system before signing, and file a complaint with FMCSA's National Consumer Complaint Database if your load is held hostage.",
+    categorySlug: "online-shopping-scams",
+    alertLevel: "high",
+    sources: ["Federal Motor Carrier Safety Administration (US DOT)","FMCSA Operation Protect Your Move","FMCSA National Consumer Complaint Database"],
+    sourceUrl: "https://www.fmcsa.dot.gov/consumer-protection/household-goods/operation-protect-your-move",
+    country: "US",
+  },];
 
 UsGM.push({
     name: 'Maryland Deepfake Investment Scam Alert on Meta Platforms',
