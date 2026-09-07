@@ -94,7 +94,10 @@ export default function Database() {
         ))}
       </div>
 
-      {view !== 'historical' && (
+      {/* Trend Watch is nationwide. Above a state-filtered list it reads as
+          that state's numbers and buries the entries the reader clicked a
+          state to see, so it stands down while a state filter is on. */}
+      {view !== 'historical' && !state && (
         <div className="mt-6 mb-8">
           <TrendWatch />
         </div>
