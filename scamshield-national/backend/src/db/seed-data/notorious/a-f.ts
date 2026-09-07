@@ -4120,3 +4120,25 @@ Regulators moved against him well before Hollywood did. In December 1996, the Na
 Porush's legal troubles didn't end with Stratton Oakmont. After prison, he moved into an unrelated business, Med-Care Diabetic & Medical Supplies, a Florida telemarketing operation selling diabetic testing supplies to Medicare beneficiaries. A federal False Claims Act whistleblower lawsuit filed by former employees named Porush individually as a defendant, alleging the company used improper telemarketing tactics to bill Medicare for supplies patients didn't need or request; the litigation dragged on for years in federal court in Florida. In August 2021, Boca Raton police arrested Porush on a DUI charge — the arrest behind the mugshot above — a comparatively minor coda to a career that, decades earlier, helped define what a pump-and-dump scheme cold-calling ordinary investors could look like at industrial scale.`,
   },
 );
+
+NotoriousAF.push(
+  {
+    title: `Alfred Arthur Rouse and the "Blazing Car Murder" That Tried to Fake His Own Death for Insurance Money`,
+    slug: 'alfred-rouse-blazing-car-murder-insurance-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://en.wikipedia.org/wiki/Alfred_Rouse',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Alfred_Rouse.jpg?width=1200',
+    coverImageCredit: 'Photo: Metropolitan Police, 1931 (public domain)',
+    coverImagePosition: 40,
+    body: `Alfred Arthur Rouse worked as a commercial traveller selling braces and garters for a Leicester firm, a modest £4-a-week job that nonetheless let him buy a house in North London and, in the summer of 1930, a Morris Minor car. His finances were far less stable than his job title suggested: while legally married to Lily Rouse, he had spent years carrying on affairs across the country, and by the autumn of 1930 he was facing child-support claims from several women at once, including two who were pregnant and expecting him to marry them — Nellie Tucker in Edinburgh and Ivy Jenkins in Wales. He had also taken out a £1,000 life insurance policy on himself, payable to his wife in the event of his accidental death.
+
+On the night of November 5-6, 1930 — Guy Fawkes Night — Rouse picked up an unidentified man at a London pub, gave him whisky on the drive north, and stopped along Hardingstone Lane in Northamptonshire in the early hours of the morning. He rendered the man unconscious, loosened the car's fuel line so that petrol pooled beneath the vehicle, and set it alight, apparently intending for the incinerated body to be mistaken for his own so that his wife could collect the insurance while he vanished to start a new life with Jenkins. Two young men walking home from a Guy Fawkes dance spotted the blaze and found a body burned beyond recognition across the front seats; only the rear number plate, largely untouched by the fire, survived to identify the wreck as Rouse's car.
+
+The plan collapsed almost immediately. Police issued a public appeal for the smartly dressed man witnesses had seen walking away from the burning car, and Rouse — instead of staying to be presumed dead — hitchhiked to London and then took a train to Wales to see Ivy Jenkins. When she showed him a newspaper report about "his" death, he denied the car was his, claiming it had been stolen. Jenkins's sister alerted police to his location, and he was arrested that evening at a London coach station.
+
+At trial in Northampton in January 1931, the pathologist Sir Bernard Spilsbury testified that the victim had still been alive, though unconscious, when the fire started, and that a forcibly loosened fuel joint pointed to deliberate arson rather than an accident, undercutting Rouse's defense that the fire had started on its own. Prosecutor Norman Birkett laid out Rouse's tangle of debts and mistresses as motive. The jury convicted him after deliberating for just 25 minutes, and he was sentenced to death. Rouse was hanged at Bedford Gaol on March 10, 1931; shortly before his execution he sent a written confession to a newspaper admitting he had knocked the man unconscious and set the car on fire, but he never disclosed who the victim was.
+
+The man Rouse killed to fake his own death has never been identified. He was buried in a Hardingstone churchyard beneath a marker reading "In Memory of an Unknown Man," and decades of investigation — including DNA testing against the families of several men who went missing around 1930 — have ruled out every lead without producing a match. The case remains one of the most closely studied trials in British criminal history for its forensic fire evidence, and stands as a grim illustration of how far an insurance-fraud scheme can escalate once faking one's own death requires, in the schemer's mind, an actual body to leave behind.`,
+  },
+);

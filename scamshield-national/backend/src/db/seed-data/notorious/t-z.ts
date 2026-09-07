@@ -1461,3 +1461,25 @@ After serving roughly a year of his Finnish sentence, Perumal turned informant, 
 Perumal's legal troubles did not end with football. He fled Singapore in 2010 to avoid a separate domestic case and remained a fugitive from Singaporean authorities for over a decade. In July 2020, Hungarian police arrested him on unrelated charges of organizing human trafficking. A Hungarian court convicted him in May 2025 and sentenced him to eleven years in prison; as of the verdict, Perumal was appealing both the conviction and the sentence, leaving the case unresolved. His decades-long run — from small-time Singapore fixer to central witness in one of the biggest corruption scandals in international sport, to convicted trafficker — remains an active legal matter rather than a closed one.`,
   },
 );
+
+NotoriousTZ.push(
+  {
+    title: `Tony Marino and the Bronx "Murder Trust" That Couldn't Kill the Man It Insured`,
+    slug: 'tony-marino-murder-trust-insurance-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://www.smithsonianmag.com/history/the-man-who-wouldnt-die-89417903/',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Tony_Marino,_after_his_arrest.jpg?width=1200',
+    coverImageCredit: 'Photo: NYPD, 1933 (public domain)',
+    coverImagePosition: 40,
+    body: `In January 1933, Bronx speakeasy owner Tony Marino and four acquaintances — grocer Daniel Kriesberg, undertaker Francis Pasqua, bartender Joseph "Red" Murphy, and cab driver Hershey Green — took out life insurance policies worth roughly $3,500 (well over $80,000 today) on Michael Malloy, a homeless, alcoholic Irish immigrant from County Donegal who had once worked as a firefighter before falling into destitution. The policies were written under the false name "Nicholas Mellory," with Malloy posed as a florist. The plan the press later dubbed "the Murder Trust" was simple: get Malloy to drink himself to death, collect the payout, and split it five ways. Marino sweetened the arrangement by giving Malloy an unlimited tab at his unnamed speakeasy on Third Avenue.
+
+The problem was that Malloy wouldn't die. When weeks of free liquor failed to finish him off, the group began lacing his drinks with antifreeze, turpentine, horse liniment, rat poison, and wood alcohol, reasoning that the ethanol in ordinary liquor would mask the poison long enough to avoid suspicion. When that failed, they fed him raw oysters soaked in wood alcohol and a sandwich made from spoiled sardines mixed with poison and shredded metal. Malloy ate and drank everything they gave him and kept coming back for more, earning the nickname "Iron Mike" among the bar's regulars.
+
+The conspirators escalated to direct violence. On a bitterly cold night they dragged Malloy's unconscious body to a park, stripped him, and poured water over his bare chest to freeze him to death; he was found by police, treated for exposure, and back at the bar within days. Green then ran him down with his taxi at roughly 45 miles per hour; Malloy survived the impact and was hospitalized for weeks. Only after all of that did the group finally succeed: on February 22, 1933, with Malloy unconscious from drinking, they carried him to Murphy's room, fed a rubber hose from the gas jet into his mouth, and left the gas running until he died of carbon monoxide poisoning. A bribed physician, Dr. Frank Manzella, signed a death certificate attributing the death to pneumonia, and Malloy was buried without an autopsy.
+
+The scheme unraveled through its own loose ends. An insurance company representative grew suspicious after Pasqua could not produce Malloy's body for a routine claims viewing, and neighborhood rumors about a man who supposedly couldn't be killed reached investigators around the same time. Authorities had Malloy's body exhumed, and a second autopsy found lethal concentrations of carbon monoxide rather than any trace of pneumonia. All five conspirators and Manzella were arrested later in 1933. Marino, Kriesberg, and Pasqua were convicted of murder and executed in the electric chair at Sing Sing Prison on June 7, 1934; Murphy was convicted separately and executed on July 5, 1934. Green was convicted of attempted murder and given a minimum ten-year sentence, while Manzella was convicted only of a misdemeanor for failing to report a suspicious death.
+
+The Murder Trust remains one of the starkest illustrations in American criminal history of insurance fraud's logical endpoint: an industry built on paying out when misfortune strikes gave five men a financial incentive to manufacture the misfortune themselves, and for more than a year, an astonishing run of poisonings, beatings, and exposure attempts still couldn't manage it.`,
+  },
+);
