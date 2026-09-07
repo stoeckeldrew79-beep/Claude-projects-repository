@@ -3892,3 +3892,15 @@ UsNS.push({
     country: 'US',
     state: 'OR',
 });
+
+UsNS.push({
+    name: 'Lincoln County Bank-Impersonation Computer Pop-Up Gift Card Scam',
+    slug: 'nebraska-lincoln-county-bank-popup-gift-card-scam',
+    description: `A Lincoln County, Nebraska resident lost nearly $70,000 after a fraudulent computer pop-up advertisement displayed a phone number and claimed the victim's bank account was in danger. When the victim called the number, scammers posing as bank representatives convinced them their funds needed to be "protected," then walked them through sending close to $70,000 using a combination of Apple and Target gift cards along with a direct wire transfer. The Lincoln County Sheriff's Office opened an investigation after the victim reported the fraud on September 2, 2026; a deputy reviewed receipts, transaction records, and other supporting documents, and even called the phone number the victim had used — the scammers hung up immediately once they realized they were speaking with law enforcement, confirming they had no actual affiliation with any bank. The case illustrates a pattern investigators are seeing statewide: a pop-up ad, rather than an unsolicited phone call or text, is increasingly the first point of contact, lending the scam a veneer of legitimacy because the victim believes they initiated the call themselves by dialing the number shown on their own screen. The Sheriff's Office reminds residents that no legitimate bank will ever ask a customer to "protect" their money by purchasing gift cards or wiring funds, that any pop-up warning about a bank account should be closed without calling the number it displays, and that anyone unsure about a request for money — especially one involving gift cards or a wire transfer — should contact their bank directly using the number on the back of their card or call local law enforcement before sending anything.`,
+    categorySlug: 'tech-support-scams',
+    alertLevel: 'high',
+    sources: ['Lincoln County Sheriff’s Office', 'KNOP News 2', 'Rural Radio Network'],
+    sourceUrl: 'https://www.knopnews2.com/2026/09/04/lincoln-county-resident-loses-nearly-70k-computer-pop-up-bank-scam/',
+    country: 'US',
+    state: 'NE',
+});
