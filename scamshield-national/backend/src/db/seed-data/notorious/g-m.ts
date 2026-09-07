@@ -4330,4 +4330,26 @@ That criminal case reached its final conclusion in March 2015, when Italy's Cour
 Calciopoli remains the defining match-fixing scandal in modern Italian sport: a case where a single administrator's network of quiet phone calls to referee schedulers rewrote the outcome of a national championship, and where the legal reckoning that followed ultimately came down not to guilt or innocence but to how long Italy's courts took to reach a final answer.`,
     sourceUrl: 'https://www.euronews.com/2015/03/24/calciopoli-charges-dropped',
   },
+{
+    title: 'Lothar Malskat and the Forged Medieval Frescoes That Fooled Postwar Germany',
+    slug: 'lothar-malskat-lubeck-fresco-forgery',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://en.wikipedia.org/wiki/Lothar_Malskat',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/St_Marien_L%C3%BCbeck_IMG_7062.JPG?width=1200',
+    coverImageCredit: 'Photo: Bjoertvedt (CC BY-SA 4.0) — Marienkirche, Lübeck',
+    coverImagePosition: 50,
+    // representative photo — a general view of Marienkirche's frescoes, the
+    // site of the forgery; replace with an exact frame of Malskat's forged
+    // panels if found
+    body: `Lothar Malskat was already an experienced restorer with a documented history of embellishment when he was hired for the job that would make him notorious. In 1937, working on frescoes at Schleswig Cathedral, he had painted new figures onto walls that had lost their original medieval decoration and passed the work off as faithful restoration — reportedly modeling one figure's face on the German film actress Hansi Knoteck and adding a turkey, a bird unknown in Europe until after Columbus, to a supposedly medieval scene. No one noticed at the time.
+
+Fourteen years later, the stakes were much higher. Lübeck's Marienkirche, a Gothic brick church at the heart of the historic Hanseatic city, had been heavily damaged by Allied bombing in 1942, and postwar restorers hoped to recover fragments of frescoes believed to survive from the church's 13th- and 14th-century decoration, hidden for centuries under later whitewash and Baroque-era paint. The restoration firm run by Dietrich Fey won the contract and brought in Malskat to do the physical work. When the underlying walls turned out to be almost entirely bare — the original medieval paintings had not survived — Malskat simply painted new frescoes from scratch and presented them as recovered originals.
+
+The unveiling in 1951 was treated as a national cultural event. West Germany's postal service issued roughly two million postage stamps reproducing the "rediscovered" medieval frescoes to mark the 700th anniversary of the church's consecration, and donors had given some 150,000 Deutsche Marks toward the restoration on the understanding that centuries-old art was being saved rather than invented. Malskat, however, grew resentful that Fey was receiving the public credit and financial rewards for work he alone had actually painted. In May 1952 he walked into a Lübeck police station and confessed that the frescoes were entirely his own invention — and when authorities were slow to act on an art restorer's unsolicited confession to fraud, Malskat had his own attorney file a lawsuit against him and Fey, forcing the matter into open court.
+
+The trial, held in Lübeck in 1954, drew enough public interest that proceedings were moved to a dance hall to accommodate the crowd. Malskat proved his case by pointing out the anachronisms he had built into his own work — the turkey from Schleswig, faces modeled on his sister and on film stars including Marlene Dietrich, and figures that bore no resemblance to any genuine medieval iconography — and by producing wartime photographs showing the walls essentially blank before his restoration began. The court convicted both men of fraud; Fey received a 20-month sentence and Malskat 18 months, with the government's own postage stamps entered into evidence as a monument to how far the deception had traveled.
+
+Malskat served his sentence, continued painting under his own name for the rest of his life, and died in 1988 near Lübeck. The case remains one of postwar Germany's most striking cultural fraud stories not because a forger evaded detection, but because the forger himself ultimately forced the reckoning — confessing to a masterpiece the public had already come to cherish as a piece of recovered medieval history, then suing himself to make sure the confession stuck.`,
+  },
 );
