@@ -10295,3 +10295,26 @@ International.push(
     country: 'HT',
   },
 );
+
+International.push(
+  {
+    name: `Benin Fake Apartment Listing "Viewing Fee" and Mobile Money Deposit Scam`,
+    slug: 'benin-fake-apartment-listing-mobile-money-deposit-scam',
+    description: `Benin's Centre National d'Investigations Numériques (CNIN), the country's digital-crime investigation unit, issued a public warning on July 15, 2026 about a recurring rental-fraud pattern targeting apartment hunters in Cotonou and other cities. Fraudsters post attractive apartment listings on Facebook and other social media at prices noticeably below the going market rate, and once a prospective tenant makes contact by phone, ask for a small "viewing fee" of roughly 2,000 to 5,000 CFA francs before a visit can be arranged. Hours later, the same contact calls back claiming another interested tenant is about to sign for the unit, creating false urgency, and tells the victim the landlord has already agreed to hold the apartment if a security deposit is sent immediately by Mobile Money. As soon as the deposit clears, the scammer cuts off contact and blocks the victim's number, and the apartment — like the supposed landlord — was never real. The CNIN advised prospective tenants to never send any payment before physically visiting a property and meeting its actual owner, to insist on an official receipt or lease documentation before transferring any money, to treat any pressure for an immediate Mobile Money payment as a red flag, and to report suspicious listings to the authorities so other apartment seekers are not caught by the same scheme.`,
+    categorySlug: 'rental-housing',
+    alertLevel: 'medium',
+    sources: ["Centre National d'Investigations Numériques (CNIN - Bénin)", 'Les 4 Vérités'],
+    sourceUrl: 'https://www.les4verites.bj/le-cnin-met-en-garde-contre-les-faux-appartements-et-les-cautions-par-mobile-money/',
+    country: 'BJ',
+  },
+  {
+    name: 'QNET Pyramid Recruitment Network Crackdown',
+    slug: 'benin-qnet-pyramid-recruitment-scheme-crackdown',
+    description: `Benin's Police Républicaine announced in August 2026 that it had intensified its long-running campaign against QNET and similarly structured pyramid-recruitment networks, which lure young people searching for a first job, professional training, or the promise of travel abroad, then draw them — often through friends, relatives, or acquaintances already inside the network — into paying substantial up-front sums to join a multi-level "business opportunity" that in reality has no real product or service generating the promised income. Since April 2026 alone, police carried out 24 operations in Cotonou, Parakou, Godomey, and Taconoukon that led to the arrest of 92 suspects, several of whom were remanded in custody after being referred to the Cour de Répression des Infractions Économiques et du Terrorisme (CRIET), Benin's specialized economic-crimes court. Working with the Brigade Économique et Financière and INTERPOL's National Central Bureau in Cotonou, Beninese police also coordinated with a neighboring English-speaking country's authorities to dismantle three network "accommodation sites" between May and July 2026, arresting five organizers who were extradited to Benin and freeing roughly one hundred Beninese nationals who had been recruited and relocated there. Police officials noted the crackdown builds on nearly 70 operations and 1,386 arrests carried out against QNET-linked and similar networks (including Highlife, Chymall, and Alpha-Omega-Coins) since 2018, with 412 suspects referred to the CRIET's special prosecutor over that period. Authorities urged families to treat any recruitment pitch that requires paying money up front to "join" a business, promises rapid wealth mainly through recruiting others, or relocates a recruit to an unfamiliar city or country as a certain sign of a pyramid scheme rather than a real job or training opportunity.`,
+    categorySlug: 'ponzi-pyramid-schemes',
+    alertLevel: 'high',
+    sources: ['Police Républicaine du Bénin', 'La Nouvelle Tribune', 'Le Matinal'],
+    sourceUrl: 'https://www.nasuba.info/politique-societe/benin-92-suspects-dans-laffaire-qnet-deferes-a-la-criet/',
+    country: 'BJ',
+  },
+);
