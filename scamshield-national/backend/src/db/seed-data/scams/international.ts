@@ -10042,3 +10042,26 @@ International.push(
     country: 'RU',
   },
 );
+
+International.push(
+  {
+    name: 'Central Bank of Iraq "Black Dollar" and Fake Million-Dollar Note Scam',
+    slug: 'iraq-central-bank-black-dollar-counterfeit-currency-scam',
+    description: `The Central Bank of Iraq (CBI) issued a public warning on February 23, 2026 after its monitoring teams detected a cluster of currency-fraud schemes being used to defraud citizens under the pretext of valuable or "restorable" money. The most damaging variant is the so-called "black dollar" scam, in which fraudsters show a victim ordinary paper cut to the size of a $100 bill and coated in a black chemical substance, claiming the notes are real US currency deliberately blackened to smuggle past customs or conceal from tax authorities, and that a special solution can "restore" them to full value — victims are talked into paying a large sum in genuine Iraqi dinars up front to buy the blackened notes or fund the "cleaning" process, and are left with worthless paper once the money changes hands. A related scheme circulates a commemorative banknote printed with a face value of "$1,000,000" and sells it as legal tender, despite the CBI stressing that the highest denomination the US Treasury actually issues is $100; others pass off withdrawn, no-longer-circulating foreign banknotes as valuable collectibles worth a large exchange in dinars, or sell novelty "Specimen," "Sample," or "Void" replica dollar and dinar notes — legitimately produced and sold abroad as toys or training aids — while misrepresenting them as genuine currency. The Central Bank said it has notified relevant Iraqi authorities to block the printing or importation of these replica notes and urged the public to exercise caution and refuse any offer involving discounted, blackened, oversized, or "specimen" banknotes, since no legitimate process converts altered or novelty paper into real money.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ['Central Bank of Iraq', 'Iraq Business News'],
+    sourceUrl: 'https://www.iraq-businessnews.com/2026/02/23/central-bank-of-iraq-warns-of-currency-related-fraud-schemes/',
+    country: 'IQ',
+  },
+  {
+    name: 'Iraq Facebook "Account Suspension" Phishing Scam',
+    slug: 'iraq-facebook-account-suspension-phishing-scam',
+    description: `Iraq's Electronic Security Center, a body affiliated with the Federal Ministry of Interior, issued a public warning on March 8, 2025 about a wave of fraudulent messages circulating on Facebook that falsely tell recipients their account is facing closure over an alleged platform-policy violation. The message urges the user to click an included link to "verify their identity" and avoid suspension; the link instead leads to a fake login page that harvests the victim's Facebook credentials. Once attackers gain control of the compromised account, the Center warned they misuse the victim's personal data, use the hijacked profile to spread further malicious links to the victim's own contacts, or hold the account for a ransom payment to restore access. The warning came as Iraq's Facebook user base passed 20.1 million in 2025, and the Electronic Security Center advised the public never to click suspicious links or enter login details without independently verifying the source, to enable two-factor authentication on their accounts, to confirm any suspension notice directly through Facebook's own official channels, and to report phishing attempts to Iraqi cybersecurity authorities rather than engaging with the message.`,
+    categorySlug: 'phishing',
+    alertLevel: 'medium',
+    sources: ['Iraqi Electronic Security Center (Federal Ministry of Interior)', 'Kurdistan24'],
+    sourceUrl: 'https://www.kurdistan24.net/en/story/828579/iraqs-moi-warns-facebook-users-against-phishing-scams',
+    country: 'IQ',
+  },
+);
