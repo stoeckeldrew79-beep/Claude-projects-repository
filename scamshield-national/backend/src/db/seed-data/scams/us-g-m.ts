@@ -3923,3 +3923,14 @@ UsGM.push({
     country: 'US',
     state: 'LA',
 });
+UsGM.push({
+    name: 'Fake DEA Agent Medical License Threat Scam Targeting Mississippi Physicians',
+    slug: 'mississippi-dea-impersonation-physician-license-threat-scam',
+    description: `The Mississippi State Board of Medical Licensure issued a scam alert in 2026 after several Mississippi physicians — including the Board's own executive director — received voicemails from callers impersonating U.S. Drug Enforcement Administration agents who claimed the physician was under investigation for unspecified "illegal activity" and threatened that their medical license would be suspended or revoked unless they called back a personal phone number right away. The callers opened by reciting a fake badge number and identified themselves as an "Officer" with the "DEA Drug Enforcement Administration," phrasing the Board flagged as an immediate red flag since real DEA personnel are Special Agents, not "Officers," and never lead with a badge number over the phone. The Board also noted the calls never referenced any actual patient name, prescription, or case detail, unlike a genuine investigation, and pointed out that the DEA does not have authority over state medical licenses in the first place — that authority belongs to state medical boards like MSBML itself. Physicians and other licensees who receive one of these calls are advised not to call the number back, not to share any personal or license information, and not to send any payment, and instead to report the call to the FBI's Internet Crime Complaint Center at ic3.gov, the FTC at reportfraud.ftc.gov, and the DEA's Diversion Control Division hotline at 1-877-792-2873.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Mississippi State Board of Medical Licensure'],
+    sourceUrl: 'https://www.msbml.ms.gov/news/scam-alert-dea-impersonation-2026',
+    country: 'US',
+    state: 'MS',
+});

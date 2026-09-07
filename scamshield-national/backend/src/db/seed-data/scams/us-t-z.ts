@@ -2253,3 +2253,15 @@ UsTZ.push({
     country: 'US',
     state: 'VT',
 });
+
+UsTZ.push({
+    name: 'Kerr Kriisa $2.2 Million Fabricated Family Emergency Fraud',
+    slug: 'west-virginia-kerr-kriisa-fabricated-family-emergency-fraud',
+    description: `Kerr Kriisa, a 25-year-old former college basketball player who played at the University of Arizona, the University of Kentucky, and West Virginia University, was indicted on five counts of wire fraud in the Northern District of West Virginia after federal prosecutors said he ran a years-long scheme out of Monongalia County, West Virginia that obtained nearly $2.2 million from at least two victims between 2022 and June 2026. According to the indictment, Kriisa impersonated his own mother in emails and messages to one victim, falsely claiming the money she sent was needed to pay for his mother's cancer treatment and to save the family farm, and separately told the same victim he and his family faced imminent danger unless a debt was repaid — at one point claiming he planned to sell his own organs to get her money back. In April 2025, he allegedly signed a written agreement promising to repay that victim $100,000 by February 2026, a promise prosecutors say was itself fraudulent, and in November 2025 he allegedly invented an entirely fictional person named "Irene" to solicit money from a second victim. FBI agents arrested Kriisa on July 3, 2026, and he was arraigned in federal court on the five wire fraud counts. The case is a reminder that a fabricated family medical or safety crisis is a manipulation tactic used just as often by someone the victim knows personally — even a public figure with a built-in reputation for trustworthiness — as by an anonymous caller, and that a request for money tied to a loved one's "emergency" should be independently verified directly with that loved one, or another family member, before anything is sent, no matter how convincing the messages or how personally connected the person asking appears to be.`,
+    categorySlug: 'family-emergency-scams',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office, Northern District of West Virginia", 'WV MetroNews', 'ESPN'],
+    sourceUrl: 'https://www.justice.gov/usao-ndwv/pr/former-college-basketball-player-charged-defrauding-victims-22-million',
+    country: 'US',
+    state: 'WV',
+});
