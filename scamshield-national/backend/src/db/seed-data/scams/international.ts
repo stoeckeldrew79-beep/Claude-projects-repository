@@ -10477,3 +10477,26 @@ International.push(
     country: 'LS',
   },
 );
+
+International.push(
+  {
+    name: 'Tonga BG Wealth Crypto Trading Ponzi Scheme',
+    slug: 'tonga-bg-wealth-crypto-trading-ponzi-scheme',
+    description: `New Zealand's Financial Markets Authority (FMA) and the National Reserve Bank of Tonga issued a joint warning on February 8, 2026 about a Ponzi-style investment scam known as BG Wealth (also circulating under names including DSJ EX) that has spread heavily through Tongan communities in Tonga, New Zealand, Australia, and the United States, drawing in Tonga's Prime Minister Lord Fakafanua among those sounding the alarm. The scheme recruits through WhatsApp, Viber, and "Bon Chat" groups run by self-styled mentors or "professors" who promise returns of around 100 percent and push participants to recruit friends and family in multi-level-marketing fashion. Recruits are directed to open a cryptocurrency exchange account, deposit funds, and move them into a fake trading platform, where small early withdrawals are allowed to go through successfully to build trust and encourage larger deposits. When a participant tries to withdraw their full balance, they are told they must first pay a "fee," and even after paying, the money never arrives and the account is ultimately frozen. The FMA said it has taken down more than 800 websites and identified roughly 30 entities linked to the scheme since it began spreading in April of the prior year, with operators continually spinning up new sites carrying similar wording but different branding and fabricated adviser profiles to stay ahead of takedowns. Authorities said people across the affected countries have lost significant sums and urged anyone approached about BG Wealth, DSJ EX, or TXEX-linked "opportunities" to avoid depositing funds and to verify any investment offer through an official financial regulator before sending money.`,
+    categorySlug: 'cryptocurrency-scams',
+    alertLevel: 'critical',
+    sources: ['New Zealand Financial Markets Authority (FMA)', 'National Reserve Bank of Tonga', '1News'],
+    sourceUrl: 'https://www.fma.govt.nz/news/all-releases/media-releases/scam-targeting-tonga-and-nz/',
+    country: 'TO',
+  },
+  {
+    name: 'Tonga Online Romance Scam Warning',
+    slug: 'tonga-online-romance-scam-warning',
+    description: `The National Reserve Bank of Tonga (NRBT) issued a nationwide public warning in April 2026 about a rise in romance scams reaching Tongan residents through social media and dating platforms. The advisory described a consistent pattern: a scammer builds a fake online profile and spends weeks or months cultivating what feels like a genuine romantic relationship with the target, often claiming to be based overseas, before shifting the conversation toward money — requests to cover a supposed emergency, travel costs to finally meet in person, gifts, or a "guaranteed" investment opportunity the scammer claims to have inside knowledge of. The NRBT's warning came shortly after a widely reported case in New Zealand in which a woman said she lost close to $800,000 over several years to a man she met online who claimed to be a retired American general, sending him money, gift vouchers, cryptocurrency, and repeated bank transfers as the relationship progressed — a case Tongan authorities cited as an example of how long these schemes can run and how large the losses can grow before a victim realizes the relationship was never real. The NRBT urged anyone who suspects they are being targeted to stop sending money immediately, contact their bank to help secure their accounts, and report the matter to the Tonga Police Cybercrime Unit rather than continuing to communicate with the scammer.`,
+    categorySlug: 'romance-scams',
+    alertLevel: 'high',
+    sources: ['National Reserve Bank of Tonga (NRBT)', 'Tonga Police Cybercrime Unit', 'Kaniva Tonga News'],
+    sourceUrl: 'https://kanivatonga.co.nz/2026/05/romance-scam-loss-in-nz-highlights-tonga-warning/',
+    country: 'TO',
+  },
+);
