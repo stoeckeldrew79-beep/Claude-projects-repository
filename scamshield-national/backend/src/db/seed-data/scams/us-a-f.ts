@@ -5647,4 +5647,15 @@ export const UsAF: SeedScam[] = [
     country: 'US',
     state: 'AR',
   },
+{
+    name: 'Mastercraft Contracting Delaware Storm-Chasing Roofing Fraud',
+    slug: 'delaware-mastercraft-storm-chasing-contractor-fraud',
+    description: `The Delaware Department of Justice's Consumer Protection Unit, under Attorney General Kathy Jennings, filed a motion on May 11, 2026 asking Superior Court to enforce a subpoena against Dover-based Mastercraft Contracting, LLC after the roofing and construction company went nearly three months without substantively responding to a second round of document demands. The office's underlying investigation stems from multiple consumer complaints alleging that Mastercraft goes door-to-door in neighborhoods that have just been hit by a significant storm, using misleading, high-pressure sales tactics and having homeowners sign what is presented as an authorization for a "free inspection" — but is actually a binding services contract. Consumers who later decline Mastercraft's work have found themselves sued in Delaware's Justice of the Peace Court for "liquidated damages" equal to one-third of the full contract price, a penalty clause multiple courts have already dismissed as an unenforceable penalty rather than a legitimate damages provision. This is not Mastercraft's first brush with the CPU's subpoena power: a Superior Court order in 2025 already forced the company to respond to an initial round of document requests, and the new motion followed after Mastercraft failed to substantively comply with a follow-up subpoena the CPU issued once it had reviewed those documents. "Consumers should never be strong-armed into paying for services or be made victim to frivolous, extortionate lawsuits," Jennings said in announcing the enforcement action. Homeowners approached after a storm by an unfamiliar roofing or construction company are advised to get multiple written estimates, read anything placed in front of them in full before signing — regardless of what the salesperson calls it — and to be especially wary of any contract clause that penalizes simply declining the company's services.`,
+    categorySlug: 'home-improvement-solar',
+    alertLevel: 'medium',
+    sources: ["Delaware Department of Justice, Consumer Protection Unit (Attorney General Kathy Jennings)"],
+    sourceUrl: 'https://news.delaware.gov/2026/05/11/ag-jennings-takes-storm-chasing-home-improvement-company-to-court-over-failure-to-respond-to-subpoena/',
+    country: 'US',
+    state: 'DE',
+  },
 ];
