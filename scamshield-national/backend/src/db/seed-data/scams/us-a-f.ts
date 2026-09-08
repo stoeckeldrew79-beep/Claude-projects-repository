@@ -6096,3 +6096,15 @@ UsAF.push({
     country: 'US',
     state: 'CO',
 });
+
+UsAF.push({
+    name: `Randolph County Nursing Home Resident Exploitation (Amanda Patton)`,
+    slug: 'arkansas-randolph-county-patton-nursing-home-exploitation',
+    description: `Agents with Arkansas Attorney General Tim Griffin's Medicaid Fraud Control Unit arrested and charged Amanda Patton, 46, of Maynard, with exploitation of a vulnerable person, a Class B felony, after an investigation found she had spent her aunt's own money on herself while the aunt was a resident in a nursing home. Griffin's office said Patton "allegedly exploited her aunt, who was in a nursing home, by using the victim's personal funds for her own use, including the purchase of multiple vehicles and an RV totaling more than $185,000." Patton was arrested and charged in late January 2026, with the Randolph County Sheriff's Office and Third Judicial District Prosecuting Attorney Devon Holder assisting the Attorney General's office; she was released on a $30,000 bond and is awaiting her next court appearance. The case is a reminder of how a relative who already has informal access to an aging family member's bank account or vehicle can quietly drain those assets for months once that relative moves into a nursing home and can no longer track day-to-day spending — families are advised to have a neutral third party, such as another relative, a bank, or a court-appointed monitor, periodically review statements and large purchases on any account a nursing home resident can no longer check personally, and to report suspected exploitation to the Arkansas Attorney General's Medicaid Fraud Control Unit.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'medium',
+    sources: ['Office of the Arkansas Attorney General (Medicaid Fraud Control Unit)', 'KAIT8', 'KTLO'],
+    sourceUrl: 'https://www.kait8.com/2026/01/28/randolph-county-woman-charged-with-exploiting-aunt-185000/',
+    country: 'US',
+    state: 'AR',
+});

@@ -4240,3 +4240,15 @@ UsNS.push({
     country: 'US',
     state: 'NH',
 });
+
+UsNS.push({
+    name: 'Nlemchi Hybrid Romance Scam and Business Email Compromise Scheme',
+    slug: 'new-mexico-nlemchi-romance-scam-business-email-compromise',
+    description: `A co-conspirator began a romance scam in July 2015 with a 56-year-old widow in New Mexico, using the alias "Sean Bartlett" and claiming to be an engineer working lucrative overseas oil contracts who promised to marry her once his current project paid out — but who first needed her to wire money to cover supposed business expenses. Acting on his instructions over the following months, the victim sent more than $375,000 into bank accounts controlled by Uchenna Nlemchi, a Nigerian national then living in Texas on a student visa, draining her retirement savings and an IRA she had built with her late husband, and taking out a $170,000 home equity loan that she transferred in full the same day she received it. Nlemchi ran the money through a fraudulent business account he had opened in the name of a nonexistent company, "Jay Auto & Machine Parts," an account that also received more than $200,000 belonging to a second, unrelated victim: a German citizen who had wired money toward a Miami condo purchase after a hacker compromised her attorney's email and sent her fraudulent wiring instructions, making the scheme a hybrid of a romance scam and a business email compromise attack laundered through the same account. Nlemchi abandoned the accounts in February 2016 as bank investigators closed in, was arrested in Houston in 2017, then cut off his court-ordered electronic monitoring and fled through Mexico and Brazil back to Nigeria, evading capture for more than five years until his arrest in Hungary in 2023 and extradition to the United States. He pleaded guilty in February 2024 to wire fraud and conspiracy to commit money laundering, and in June 2024 was sentenced in federal court in Albuquerque to 51 months in prison, ordered to pay $524,000 in restitution plus a money judgment of $868,295, and will face deportation proceedings after completing three years of supervised release. The case shows how an overseas suitor who eventually asks for money to be wired to an unfamiliar "business" account is worth verifying independently — through a reverse image search of any photo, an online search of the person's claimed name and employer, and a conversation with a trusted family member — before any money changes hands, since Nlemchi's operation combined the patience of a long-running romance con with the technical trickery of a hijacked business email account to launder funds from two entirely separate sets of victims through the same account.`,
+    categorySlug: 'business-email-compromise',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office for the District of New Mexico", 'FBI Albuquerque Field Office', 'Los Alamos Daily Post'],
+    sourceUrl: 'https://www.justice.gov/usao-nm/pr/nigerian-national-sentenced-romance-scheme',
+    country: 'US',
+    state: 'NM',
+});
