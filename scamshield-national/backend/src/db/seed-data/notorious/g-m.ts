@@ -5342,3 +5342,25 @@ Taylor and Bond-Nelson pleaded guilty in early March 2022 and cooperated with pr
 Structured Alpha is a reminder that a hedge fund's marketed safety net is only as real as the trades an investment team actually keeps on the books day to day — and that pension funds, often assumed to be the most conservatively managed money in the financial system, can end up carrying some of the largest losses precisely because the sophisticated strategies sold to them as protection are the hardest for an outside investor to verify. The gap between Tournant's own sentence and the multibillion-dollar toll the fraud took on retirees and public workers also became one of the case's most debated legacies, echoing a pattern that recurs whenever an institution pays an enormous corporate penalty while the individual who ran the scheme receives comparatively little personal punishment.`,
   },
 );
+
+NotoriousGM.push(
+  {
+    title: 'Owen Li and the Hedge Fund That Lost $57 Million in Two Weeks',
+    slug: 'owen-li-canarsie-capital-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://www.justice.gov/usao-sdny/pr/founder-and-portfolio-manager-canarsie-capital-llc-sentenced-manhattan-federal-court',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Sign_of_the_New_York_Stock_Exchange,_Broad_Street.jpg?width=1200',
+    coverImageCredit: "Photo: Billie Grace Ward, Wikimedia Commons (CC0) — the New York Stock Exchange sign on Wall Street; representative image, not Canarsie Capital's actual office",
+    coverImagePosition: 50,
+    body: `Owen Li was still under 30 — a Stanford graduate managing money in Manhattan — when he founded Canarsie Capital LLC, a small hedge fund that at the end of 2014 held roughly $56.8 million on behalf of about 41 investors. By the middle of January 2015, essentially all of it was gone. Federal prosecutors in the Southern District of New York said the collapse was not simple bad luck: Li had been lying to his own investors and to the SEC for months about what the fund actually held.
+
+According to prosecutors, Li had built up a heavily leveraged, effectively unhedged bet using S&P 500 index options, at one point running the fund at roughly eight times leverage — about $377 million in market exposure against only around $45 million in fund equity. He had also accumulated a position in Facebook stock that exceeded 10% of the portfolio, in violation of the risk limits spelled out in Canarsie's own offering documents to investors. Rather than disclose either the leverage or the concentrated bet, Li was accused of sending investors account statements and performance reports that misrepresented what the fund was actually doing, and of making false statements to the SEC when it examined the fund's trading.
+
+The bet went the wrong way. Between December 31, 2014, and January 16, 2015, Canarsie's positions lost approximately $57 million — nearly the entire fund — in a matter of roughly two weeks, leaving investors with only a small fraction of their money and, according to contemporaneous news accounts, a letter from Li apologizing for what had happened. Li pleaded guilty in Manhattan federal court on December 16, 2015, before Magistrate Judge Frank Maas, to one count of securities fraud and one count of making a materially false statement.
+
+The sentencing outcome surprised many who had followed the case. Federal guidelines and prosecutors' own recommendation pointed toward roughly five years in prison, and U.S. District Judge Robert W. Sweet signaled in the spring of 2016 that a five-year term was likely. When sentencing finally came, however, Sweet instead ordered restitution of $56.8 million to Canarsie's investors and sentenced Li to probation, with no prison time — citing, according to reporting on the hearing, Li's early acceptance of responsibility and his cooperation with investigators once the fraud came to light.
+
+The case is a reminder that a hedge fund's stated risk limits are only as reliable as the manager reporting compliance with them — and that a portfolio can go from intact to essentially wiped out in days once leverage and concentration are pushed far enough beyond what investors were told to expect. It also illustrates how differently two defendants in similar-looking securities fraud cases can be treated at sentencing, depending on how a judge weighs cooperation and acceptance of responsibility against the scale of investor losses.`,
+  },
+);
