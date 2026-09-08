@@ -24,23 +24,6 @@ The scale of the seizure made prosecution oddly difficult: with so many forgerie
 Jansen never expressed remorse. He continued painting in the styles of the masters he had once forged, openly selling the results under his own name as acknowledged "lookalikes" rather than as originals, and published a memoir of his career. Because so many of his fakes had already been authenticated, sold, and resold before the 1994 raid, an unknown number are still believed to hang in private collections and even museums, misattributed to painters who never touched them.`,
   },
 {
-    title: "Jordan Belfort, the \"Wolf of Wall Street,\" and the Victims Still Waiting to Be Paid",
-    slug: 'jordan-belfort-stratton-oakmont-wolf-of-wall-street',
-    author: 'ScamShield Editorial',
-    tags: ['notorious', 'notorious-scammer', 'historical'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Jordan_Belfort_-_May_30,_2010.jpg?width=1200',
-    coverImageCredit: 'Photo: Ralph Zuranski (CC BY 2.0)',
-    coverImagePosition: 50,
-    body: `Through the late 1980s and 1990s, Jordan Belfort ran Stratton Oakmont, a Long Island brokerage built around a classic "pump and dump" scheme: brokers aggressively cold-called investors to buy shares in small, often nearly worthless companies that Stratton Oakmont itself secretly controlled large blocks of. The buying pressure artificially inflated ("pumped") the share price, at which point insiders sold ("dumped") their own shares at the inflated price — leaving ordinary investors holding stock that collapsed once the manufactured demand stopped.
-
-Over roughly a decade, the scheme took in an estimated $200 million from more than 1,500 victims. Belfort also built a notorious corporate culture around the firm, later recounted in his own memoir and dramatized — critics say glamorized — in the 2013 film "The Wolf of Wall Street."
-
-Belfort pleaded guilty in 1999 to securities fraud and money laundering, cooperated with prosecutors against former colleagues, and was sentenced in 2003 to four years in prison, of which he served 22 months, along with $110.4 million in court-ordered restitution to his victims. More than two decades later, court filings show he has repaid only a small fraction of that — roughly $12.8 million as of recent filings — while earning a living as a paid motivational speaker largely built on retelling the very story that created the debt he still owes.
-
-The gap between what Belfort owes and what he's actually paid is worth knowing on its own: it's a straightforward fact-check against the swagger of the "Wolf of Wall Street" mythology, and a reminder that a compelling redemption story and an unpaid restitution order can coexist for decades.`,
-    sourceUrl: 'https://www.investmentnews.com/ria-news/jordan-belfort-wolf-of-wall-street-falling-behind-on-restitution/74275',
-  },
-{
     title: 'Lou Pearlman: The Boy Band Mogul Running a $300 Million Ponzi Scheme',
     slug: 'lou-pearlman-boy-band-ponzi-scheme',
     author: 'ScamShield Editorial',
