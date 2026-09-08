@@ -5979,3 +5979,15 @@ UsAF.push({
     country: 'US',
     state: 'CT',
 });
+
+UsAF.push({
+    name: 'Pop-Up "Identity Stolen" Gold Coin Scam (Amruth Vaka and Saloni Shaikh)',
+    slug: 'dc-vaka-shaikh-pop-up-identity-theft-gold-coin-scam',
+    description: `A Washington, DC woman's computer displayed a pop-up warning in February 2025 directing her to call a "customer service" number for help — a well-worn opening move that instead connected her to scammers who falsely told her that her identity had been stolen and that she needed to protect her money by converting it into gold. Over the following months, through June 2025, the callers walked her through repeated wire transfers and gold bar and coin purchases, ultimately taking more than $640,000 before she reported the scheme to the Metropolitan Police Department's Financial Crimes Unit. Investigators tracked the operation and, on Tuesday, August 5, 2025, MPD's Financial Crimes Unit and Violent Crime Suppression Division set up an operation to intercept a planned handoff of roughly $200,000 worth of gold, arresting Amruth Vaka, 27, and Saloni Shaikh, 28, both of Stockton, California, on first-degree fraud charges. "We hope this arrest sends a strong message to those looking to defraud innocent people of their property. If you do, we will find you and we will arrest you," MPD Commander Kevin Kentish said in announcing the case, while Assistant Chief Ramey Kyle urged residents to keep their computers' software updated and to be wary of any call or email requesting money or sensitive information. MPD said it was working with the FBI to determine whether Vaka and Shaikh were linked to similar fraud schemes elsewhere. A computer pop-up claiming a security problem is never a legitimate way to reach a bank, tech company, or law enforcement agency, and no genuine institution will ever instruct someone to protect their money by converting it into gold or wiring it to a stranger; anyone who sees such a pop-up should restart their browser rather than call the number on screen, and anyone already asked to buy gold "for safekeeping" should stop, hang up, and contact their bank directly.`,
+    categorySlug: 'tech-support-scams',
+    alertLevel: 'high',
+    sources: ['Metropolitan Police Department (DC)', 'WJLA', 'FOX 5 DC'],
+    sourceUrl: 'https://mpdc.dc.gov/release/mpd-makes-two-arrests-gold-coin-scam',
+    country: 'US',
+    state: 'DC',
+});
