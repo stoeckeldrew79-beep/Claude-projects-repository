@@ -5337,3 +5337,25 @@ Liao, then 29, was taken into federal custody on May 3, 2024, and indicted on ch
 "Pig butchering" fraud depends on more than a convincing script; it depends on a laundering pipeline patient enough to make a large stolen sum look, to any bank compliance officer glancing at an account, like the unremarkable proceeds of a small trading company. A newly formed LLC with a generic name, a business bank account that mostly receives wires from strangers rather than paying customers, and no verifiable product or service behind it are exactly the features investigators look for when tracing where pig-butchering money goes after the initial theft — and the same features a bank or a curious family member can sometimes catch before the money moves any further.`,
   },
 );
+
+NotoriousAF.push(
+  {
+    title: 'Brittany Hudson: The Amazon Vendor-Fraud Scheme That Forged a Federal Judge to Cover Its Tracks',
+    slug: 'brittany-hudson-amazon-vendor-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-ndga/pr/mastermind-10-million-amazon-fraud-scheme-sentenced-16-years-federal-prison',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Richard_Russell_Federal_Building.jpg?width=1200',
+    coverImageCredit: 'Photo: DukeArcTerex, Wikimedia Commons (CC BY 3.0) — the Richard B. Russell Federal Building in Atlanta, where Brittany Hudson was prosecuted',
+    coverImagePosition: 50,
+    body: `Brittany Hudson, 40, of Atlanta, owned a small business that had a delivery-services contract with Amazon — a legitimate foothold she and an Amazon insider turned into one of the more brazen vendor-fraud schemes federal prosecutors in the Northern District of Georgia have brought in recent years. Her co-conspirator, Kayricka Wortham, worked as an operations manager at an Amazon fulfillment warehouse in Smyrna, Georgia, giving the pair something most vendor-fraud schemes lack: an insider positioned to get fake invoices approved from inside the company being robbed.
+
+According to prosecutors, from around January through June 2022, Hudson and Wortham tricked unwitting subordinates at the warehouse into adding fictitious vendors into Amazon's internal systems. Wortham then approved forged invoices claiming those fake vendors had supplied Amazon with goods and services that were never actually delivered, routing roughly $9.4 million in company funds into bank accounts the conspirators controlled. The stolen money bought a nearly $1 million home in Smyrna and a small fleet of luxury vehicles — a 2019 Lamborghini Urus, a 2021 Dodge Durango, a 2022 Tesla Model X, a 2018 Porsche Panamera, and a Kawasaki motorcycle among them.
+
+Hudson was charged in September 2022, and prosecutors say she did not stop offending once she was out on bond awaiting trial. According to the U.S. Attorney's Office, she forged the signature of then-Chief U.S. District Judge Timothy C. Batten, Sr. onto fake court documents and fabricated bank statements, using them in an attempt to convince a prospective business partner that her pending criminal case had been dismissed and that her finances were sound. A federal jury convicted Hudson on March 13, 2026, of 30 felony counts: two conspiracy counts, 17 counts of wire fraud, one count of money-laundering conspiracy, nine substantive money-laundering counts, and one count of forging a federal judge's signature.
+
+Hudson was sentenced in late August 2026 to 16 years and three months in federal prison, with no possibility of parole, to be followed by three years of supervised release. She was ordered to pay $9,469,731.45 in restitution to Amazon, on top of forfeiture of the Smyrna home, the luxury vehicles, and bank-account funds traced to the scheme. Announcing the sentence, U.S. Attorney Theodore S. Hertzberg said Hudson "engineered a massive fraud scheme" and then "showed utter contempt for the law by forging a federal judge's signature in a failed effort to defraud another company while out on bond." Wortham, Hudson's Amazon-insider co-conspirator, was separately sentenced in 2023 to 16 years in connection with the underlying vendor-fraud scheme.
+
+Vendor fraud thrives on exactly the gap Hudson and Wortham exploited: a large company's accounts-payable process is only as trustworthy as the employee approving each invoice, and a fictitious vendor entered by someone with legitimate system access can move real money out the door with no product or service ever changing hands. The case is also a reminder that fraud, once started, tends to compound — Hudson's decision to forge a sitting federal judge's signature while free on bond did not help her defense; it became one more felony count among the 30 she was convicted of, and a permanent part of why the court showed her no leniency at sentencing.`,
+  },
+);

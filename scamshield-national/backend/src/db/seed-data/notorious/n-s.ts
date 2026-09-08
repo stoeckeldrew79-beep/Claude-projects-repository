@@ -3753,3 +3753,23 @@ The SEC's complaint charges Appalakutty, Lorven Funds, and Lorven Advisors with 
 Appalakutty's case follows a pattern regulators have flagged for decades under the name "affinity fraud": the same temple, congregation, or cultural community that gives a promoter instant credibility with prospective investors also tends to discourage the kind of skeptical questions — proof of an actual brokerage account, verification directly with the company whose "discounted" shares are being offered — that a stranger's pitch would more easily invite. A promised annual return of up to 62.5%, on its own, is a number no diversified, legitimate investment strategy can reliably deliver, and it is worth being at least as skeptical of that number when it comes from someone who worships alongside you as when it comes from someone who does not.`,
   },
 );
+
+NotoriousNS.push(
+  {
+    title: "Stacy Taylor and the 'Private Trading Platform' That Took $23.6 Million from Repeat-Offender Territory",
+    slug: 'stacy-taylor-private-trading-platform-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-wdky/pr/shepherdsville-man-sentenced-9-years-federal-prison-multi-million-dollar-investment',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Gene_Snyder_U.S._Courthouse_and_Custom_House,_Louisville,_KY_Sept_03.jpg?width=1200',
+    coverImageCredit: 'Photo: General Services Administration (public domain) — the Gene Snyder U.S. Courthouse in Louisville, where Stacy Taylor was prosecuted in the Western District of Kentucky',
+    coverImagePosition: 50,
+    body: `Stacy Allen Taylor, 59, of Shepherdsville, Kentucky, was already a convicted federal fraudster — he had previously served roughly three years in prison on charges tied to an illegal online pharmacy operation — when he and others persuaded more than 40 people to put their money into what they marketed as an exclusive "private trading platform," an investment vehicle prosecutors say promised outsized returns that the platform never actually generated.
+
+According to the U.S. Attorney's Office for the Western District of Kentucky, Taylor and his co-conspirators raised at least $23.6 million from investors drawn into the scheme, with many losing their entire investment. Taylor was charged with wire fraud, money laundering, and additional related counts — seven charges in total — and pleaded guilty to all of them.
+
+On August 17, 2026, Taylor was sentenced to nine years in federal prison and ordered to pay restitution to his victims. Announcing the sentence, U.S. Attorney Kyle Bumgarner said Taylor "is a repeat offender engaged in complex fraud, causing significant harm to dozens of victims" — a description that traced directly back to Taylor's prior federal conviction for the online-pharmacy scheme that had already put him behind bars once before.
+
+Taylor's case is a reminder that a criminal record for financial fraud does not stop at one conviction, and that "private" or "exclusive" framing around an investment is itself a warning sign rather than a mark of legitimacy — a platform genuinely capable of the returns Taylor's pitch promised would have no reason to limit itself to word-of-mouth solicitation of unaccredited individual investors instead of registering with regulators and operating in the open. Prospective investors approached with access to an unregistered "private" trading vehicle promising to outperform public markets have every reason to verify the platform and the person selling it independently before wiring money — precisely the step more than 40 of Taylor's victims did not get the chance to take before their money was gone.`,
+  },
+);

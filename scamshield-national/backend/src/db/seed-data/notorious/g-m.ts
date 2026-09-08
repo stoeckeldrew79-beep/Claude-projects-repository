@@ -5480,3 +5480,25 @@ The case is being prosecuted by Trial Attorneys Chris Wenger of the Justice Depa
 If the allegations hold up, the Tesar case illustrates a pattern regulators see repeatedly in Medicare billing fraud: a licensed provider's authority to order and bill for a treatment is not, by itself, evidence the treatment was medically necessary or even provided at all. Wound-care allografts are exactly the kind of high-cost, hard-to-audit-in-real-time service that a coordinated ring of billers and referral sources can exploit for years before a spike in claims data draws investigators' attention — which is precisely how the Justice Department says this scheme was first detected.`,
   },
 );
+
+NotoriousGM.push(
+  {
+    title: 'Gary Topolewski: The Serial Borrower Who Fooled Seven Banks Out of $39 Million',
+    slug: 'gary-topolewski-serial-bank-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-nv/pr/california-man-sentenced-39m-bank-fraud-scheme-defrauded-seven-financial-institutions',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Lloyd_D._George_Courthouse.jpg?width=1200',
+    coverImageCredit: 'Photo: Daniel Lobo, Wikimedia Commons (CC0) — the Lloyd D. George U.S. Courthouse in Las Vegas, where Gary Topolewski was prosecuted in the District of Nevada',
+    coverImagePosition: 50,
+    body: `Gary Topolewski, 64, of Northridge, California, spent nearly ten years running what federal prosecutors called a serial equipment-finance fraud, submitting false commercial loan applications through a rotating cast of companies he controlled — Topolewski America Inc., Morrison Knudsen Services Inc., and Metal Jeans Inc. — to lenders across the country. Each loan application told the same basic story: the borrower needed financing to purchase industrial earth-moving equipment, or simply needed working capital for an ongoing business. Prosecutors say that story was false every time.
+
+According to the U.S. Attorney's Office for the District of Nevada, Topolewski built the scheme around a hidden conflict of interest: loan proceeds meant to buy heavy equipment were directed to a company called Finning Nevada, which posed as the independent equipment seller in the transaction but which Topolewski secretly controlled himself. He was effectively both the borrower asking for the loan and the "seller" the loan money was paid out to — with no real equipment ever changing hands. Prosecutors say he used the proceeds to buy properties and to make loan payments on his earlier borrowing, a Ponzi-like structure in which new lenders' money served to keep older lenders satisfied and unsuspecting. In at least one $3.5 million loan application, prosecutors say Topolewski went further, submitting a stolen driver's license belonging to another person to help push the fraudulent loan through.
+
+The scheme ultimately touched at least seven financial institutions, including U.S. Bank, Arvest Bank, Old National Bank, BMO/Bank of the West, and WaFd Bank, along with equipment-finance lender De Lage Landen Financial Services — draining roughly $39 million in loan proceeds before it collapsed, with Topolewski separately attempting to obtain millions more that he was not able to secure. He was charged in 2024, and a federal grand jury returned a superseding indictment in February 2025. Topolewski pleaded guilty in December 2025 to a single count of bank fraud, with 20 additional counts dismissed as part of the plea agreement.
+
+On July 10, 2026, Topolewski was sentenced to 78 months — six and a half years — in federal prison, to be followed by three years of supervised release. He was ordered to pay $19,414,187.15 in restitution to the defrauded lenders and to forfeit nearly $21.9 million in assets, including his Northridge home and a parcel of land in Rosamond, California. As a further condition of his sentence, he was barred from contacting the identity-theft victim whose driver's license he had used in one of the fraudulent loan applications.
+
+Topolewski's decade-long run illustrates how equipment-finance fraud can hide in plain sight: a loan secured against physical collateral, verified by an "independent" seller who is really the same person asking for the money, defeats a lender's ordinary due diligence unless someone checks whether the seller and the borrower are genuinely unrelated. Lenders — and any business extending credit against equipment or inventory it has not itself inspected — have since treated the case as a cautionary example of why confirming a seller's independence, not just a buyer's creditworthiness, has to be part of underwriting a secured loan.`,
+  },
+);
