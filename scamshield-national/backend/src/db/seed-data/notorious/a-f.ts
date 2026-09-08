@@ -5129,3 +5129,45 @@ A federal grand jury in the Northern District of Illinois charged Dunlap with ma
 Dunlap's scheme worked by pairing two forms of borrowed credibility that don't actually verify each other: a supposed gold reserve of a size that should have drawn scrutiny on its own, and a fabricated professional "audit" meant to reassure anyone who asked further questions. Real gold and art holdings of the scale Dunlap claimed leave a paper trail — insurance policies, storage and custody agreements, independent appraisals filed with real, checkable institutions — none of which existed here beyond the documents Dunlap manufactured himself. The case is also a reminder that a token's visible trading activity on an exchange proves nothing about its backing when the operator of the scheme controls the exchange itself; automated bots can manufacture the appearance of a liquid, actively traded market for an asset that has no real value behind it at all.`,
   },
 );
+
+NotoriousAF.push(
+  {
+    title: "Christopher and Raquelle Judge and the Judge DFW Custom Home Fraud",
+    slug: "christopher-raquelle-judge-judge-dfw-fraud",
+    author: "ScamShield Editorial",
+    tags: ["notorious", "notorious-scammer"],
+    sourceUrl: "https://www.justice.gov/usao-ndtx/pr/husband-and-wife-sentenced-fraud-conspiracy-involving-more-4-million-unfinished-custom",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Eldon_B_Mahon_Courthouse.jpg?width=1200",
+    coverImageCredit: "Photo: Turn685, Wikimedia Commons (CC BY-SA 3.0) — the Eldon B. Mahon United States Courthouse in Fort Worth, where Christopher and Raquelle Judge were sentenced",
+    coverImagePosition: 50,
+    body: `Christopher Judge and his wife, Raquelle Judge, ran a Fort Worth-area company called Judge DFW that marketed itself on social media as a custom home builder, architecture firm, and interior design outfit, offering below-market bids to homeowners across six North Texas counties. Between August 2020 and January 2023, federal prosecutors say the couple used that pitch to draw in more than 40 victims and at least 24 separate construction projects — then, in case after case, collected payments and either abandoned the work outright or left it far short of complete, sometimes racking up hundreds of code-enforcement citations on properties they had promised to finish.
+
+According to the U.S. Attorney's Office for the Northern District of Texas, Christopher Judge went further than simply overpromising on price and timeline: he held himself out to clients as a licensed architect, a credential prosecutors say he never actually held. Money that clients wired or paid by check for their specific projects was, according to prosecutors, commingled and redirected — some of it, court filings show, went toward roughly $96,000 in construction on the Judges' own personal residence, $65,000 in the couple's legal fees, $38,000 toward their rent and mortgage, and $10,000 on plastic surgery, rather than the homes their clients had actually paid for. Total losses across the scheme came to approximately $4.2 million.
+
+Christopher and Raquelle Judge pleaded guilty in December 2025 to conspiracy to commit wire fraud. On September 1, 2026, Senior U.S. District Judge Terry R. Means sentenced Christopher Judge to 78 months — six and a half years — in federal prison, to be followed by two years of supervised release; Raquelle Judge received one month in prison. The court ordered the couple to pay $2,794,680.73 in restitution to their victims. "Fraudsters who exploit hard-working families in the Northern District of Texas will face serious consequences," said U.S. Attorney Ryan Raybould in announcing the sentences.
+
+The Judge DFW case is a reminder that a slick social-media presence and an attractively low bid are not, on their own, evidence that a contractor can or will deliver — a below-market price on a large custom-build project is itself worth treating with some suspicion, since it costs a legitimate builder roughly the same amount in materials and labor to finish a house regardless of what number is on the original bid. Prospective clients can check a contractor's actual licensing status directly with the relevant state licensing board (Texas does not license general contractors statewide, but does license architects, and that credential can be verified independently) rather than relying on a builder's own claims, and can protect themselves further by tying payments to a fixed schedule of completed, inspected work rather than paying substantial sums upfront.`,
+  },
+);
+
+NotoriousAF.push(
+  {
+    title: "Devin Ward Elder and the $69.5 Million DJE Texas Real Estate Fraud",
+    slug: "devin-ward-elder-dje-texas-real-estate-fraud",
+    author: "ScamShield Editorial",
+    tags: ["notorious", "notorious-scammer"],
+    sourceUrl: "https://www.justice.gov/usao-wdtx/pr/san-antonio-ceo-pleads-guilty-over-69-million-investment-fraud-scheme",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/John_H._Wood_Jr._Federal_Courthouse.jpg?width=1200",
+    coverImageCredit: "Photo: Toohool, Wikimedia Commons (CC BY-SA 4.0) — the John H. Wood Jr. Federal Courthouse in San Antonio, where Devin Ward Elder pleaded guilty",
+    coverImagePosition: 50,
+    body: `Note: Devin Ward Elder has pleaded guilty to wire fraud, but as of this writing he has not yet been sentenced — his sentencing hearing, twice postponed, is now scheduled for December 16, 2026.
+
+Devin Ward Elder, 47, was the founder and CEO of DJE Texas Management Group LLC, a San Antonio real estate investment firm. Federal prosecutors say that from January 2023 through March 2025, Elder raised more than $69.5 million from approximately 345 investors across 17 different real estate offerings — multifamily apartment deals, commercial buildings, land projects, and a pooled "income fund" — by promising high returns with low risk and, in some cases, telling investors he would personally co-invest alongside them.
+
+According to prosecutors, the real estate returns Elder claimed to be generating didn't exist. Instead, Elder is accused of paying out roughly $8.8 million to investors that he characterized as "interest" and "principal" on their investments, when in reality that money came not from any real profit but from newer investors' deposits — the same pay-earlier-investors-with-later-investors'-money structure at the heart of any Ponzi scheme. Elder was charged with one count of wire fraud on January 28, 2026, and pleaded guilty in the U.S. District Court for the Western District of Texas on February 17, 2026, as part of an agreement under which he admitted responsibility for the fraud and agreed to pay approximately $66 million in restitution. He faces up to 20 years in prison at sentencing.
+
+Elder's sentencing, originally set for the week of June 2, 2026, has since been pushed back twice — first to September 9, and now to December 16, 2026 — after his attorneys asked U.S. District Judge Fred Biery for more time to sell off Elder's remaining real estate assets and apply the proceeds to victim restitution before he is sentenced; asset sales completed so far have generated nearly $6.9 million, with about $4.4 million of that going to victims. Judge Biery has indicated that how much restitution is paid before sentencing will factor into the prison term he ultimately imposes. Addressing the fraud, Elder has said, "I am so sorry. What I did was wrong."
+
+Elder's case illustrates how a real underlying business — actual apartment complexes, actual land, actual construction projects — can still be the engine of a Ponzi scheme once the payments made to investors stop being tied to what those specific assets are actually earning. A legitimate real estate fund's distributions should be traceable to the performance of the specific properties an investor put money into, something that can be checked through independent property records, occupancy and rent-roll data, and audited fund financials — not simply taken on the word of a fund manager who also controls the underlying accounting.`,
+  },
+);
