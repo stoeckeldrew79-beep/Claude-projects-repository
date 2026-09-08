@@ -5064,3 +5064,63 @@ On September 26, 2025, the Pinetown Regional Court sentenced Goqo to an effectiv
 The Ingede case is as much a story about the machinery of justice as it is about the fraud itself: a scheme that ran for barely a year, in 2009 and 2010, took more than a decade and a half to work its way to a first sentence, with an appeal still pending well over sixteen years after the first investor handed over money. For the more than 4,000 people who invested, that gap between the fraud and any accountability for it is its own kind of cost, on top of the money itself that, for the large majority of them, was never coming back regardless of what any court eventually decided.`,
   },
 );
+
+NotoriousGM.push(
+  {
+    title: 'Mario Biaggi and the Wedtech Scandal That Ended His Congressional Career',
+    slug: 'mario-biaggi-wedtech-scandal-corruption',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Mario_Biaggi.jpg?width=1200',
+    coverImageCredit: 'Official congressional portrait, U.S. House of Representatives Photography Collection (public domain)',
+    coverImagePosition: 30,
+    body: `In the Bronx in 1980, a struggling machine shop was reorganized by its owner, John Mariotta, and a new partner, Fred Neuberger, into the Wedtech Corporation, and certified under the Small Business Administration's 8(a) program, which set aside federal contracts for minority-owned businesses without competitive bidding. On the strength of that certification, Wedtech went on to win more than $250 million in no-bid U.S. Army and Navy contracts over the following years, transforming a marginal Bronx manufacturer into a Wall Street-listed defense contractor almost overnight.
+
+The certification was fraudulent from the start. Neuberger, who was not a member of any government-recognized minority group, in fact held a majority stake in the company — a fact that should have disqualified Wedtech from the 8(a) program entirely. To keep the contracts and the required SBA waivers flowing, Wedtech's executives built a systematic bribery network, funneling stock, cash, and favors to elected officials, congressional staff, and administration insiders who could grease the wheels in Washington and New York.
+
+One of the largest beneficiaries was Rep. Mario Biaggi, a decorated former NYPD officer serving his tenth term representing the Bronx. Prosecutors showed that Biaggi's son had accepted 225,000 shares of Wedtech stock, worth roughly $1.8 million, on his father's behalf, in exchange for Biaggi using his office to pressure the SBA and help the company secure a lucrative Army contract. Bronx borough president Stanley Simon and attorney E. Robert Wallach, a close adviser to then-Attorney General Edwin Meese, were convicted alongside him for their own roles funneling influence to Wedtech, though Wallach's conviction was later overturned on appeal after an appeals court found a key trial witness had lied on the stand.
+
+Biaggi had already been convicted in an unrelated bribery case in September 1987, prompting the House Ethics Committee to recommend his expulsion from Congress; the Wedtech racketeering conviction in 1988 sealed his political end. He was sentenced to eight years in prison, resigned from Congress within a day of the verdict, and was released after roughly 26 months on account of failing health. Mariotta, pushed out of his own company by Neuberger before the scandal broke, was never charged; Neuberger and several other Wedtech executives pleaded guilty to their own roles in the scheme.
+
+The Wedtech scandal is a reminder that not every fraud needs an exotic investment pitch or a fabricated trading algorithm — sometimes the fraud is built directly into the paperwork of an otherwise ordinary government program, and sustained for years by bribes that gave everyone involved a reason to look the other way.`,
+    sourceUrl: 'https://en.wikipedia.org/wiki/Wedtech_scandal',
+  },
+);
+
+NotoriousGM.push(
+  {
+    title: `Myron Goodman, Mordecai Weissman, and the O.P.M. Leasing Fraud That Invented Computers to Borrow Against`,
+    slug: 'myron-goodman-mordecai-weissman-opm-leasing-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `Mordecai Weissman and Myron Goodman were childhood friends who started a computer-leasing company above a Brooklyn sweet shop in 1970. O.P.M. Leasing Services borrowed money from banks and insurers to buy IBM mainframe computers, then leased the machines to blue-chip customers — among them Rockwell International, Merrill Lynch, Xerox, American Express, and General Motors — pledging the computers and the lease payments themselves as collateral for the loans that financed each purchase. The name officially stood for "Other People's Machines." Inside the industry, it was soon joked to really mean Other People's Money.
+
+Starting around 1972, Weissman and Goodman began forging and altering leases, pledging the same lease as collateral for multiple loans at once, inflating the value of real leases, and — in the scheme's largest iteration — fabricating leases for computers that Rockwell International had never actually agreed to rent and that, in many cases, did not exist at all. Between 1978 and February 1981, the forged Rockwell paperwork alone induced nineteen lending institutions to buy notes worth $190.4 million.
+
+The fraud unraveled in February 1981, when a lender noticed that a signature on one of the Rockwell leases had been forged. O.P.M. collapsed into bankruptcy within days, and investigators eventually traced more than $200 million in fraudulent financing back to 1972 — one of the largest corporate frauds American courts had seen up to that point. The case also became a landmark in legal ethics: O.P.M.'s own law firm, Singer Hutner Levine & Seeman, continued representing the company and processing its lease paperwork for months after partners learned some of the documents were forged, a decision that drew disciplinary scrutiny and helped reshape how lawyers are expected to handle a client they know is committing fraud.
+
+Goodman and Weissman pleaded guilty in December 1981 to defrauding banks, insurers, and other lenders of more than $200 million since 1972. Goodman was sentenced to twelve years in prison and Weissman to ten; five other O.P.M. executives were also sent to prison for their roles in the scheme.
+
+O.P.M. Leasing is a case study in how unglamorous a massive fraud can look from the outside — no exotic investment pitch, just leases on machines that mostly didn't exist, pledged again and again to lenders with no way of checking. It's also a reminder that the professionals surrounding a fraud, including the lawyers billing hours on its paperwork, can end up nearly as implicated as the people running it.`,
+    sourceUrl: 'https://en.wikipedia.org/wiki/O.P.M._Leasing_Services',
+  },
+);
+
+NotoriousGM.push(
+  {
+    title: "Gao Yudong and the WoToken Ponzi Scheme That Copied PlusToken's Playbook",
+    slug: 'gao-yudong-wotoken-crypto-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    body: `In August 2018, while a nearly identical Ponzi scheme called PlusToken was already luring hundreds of thousands of Chinese investors, a copycat platform called WoToken launched with its own token, the WOR, and the same basic pitch: hand over Bitcoin, Ethereum, or other cryptocurrency, and a proprietary trading algorithm would generate steady returns by exploiting price differences across global exchanges.
+
+There was no algorithm. WoToken was a multi-level marketing scheme dressed up as a crypto hedge fund, structured across 501 recruitment layers, in which existing members earned a cut for every new investor they signed up. By the time Chinese police shut it down in October 2019, the platform had registered 715,249 users and taken in a combined 46,050 bitcoin, roughly 2 million ether, 286 million tether, and smaller holdings of litecoin and EOS — cryptocurrency worth about 7.7 billion yuan, or $1.1 billion, at the time it was collected.
+
+Chinese prosecutors identified Gao Yudong, Li Qibing, Wang Xiaoying, and Tian Bo as the operation's ringleaders. A county court in Binhai, Jiangsu province, issued the first verdict in the case in 2020, and on October 27 of that year the Yancheng Intermediate People's Court affirmed the convictions on appeal, sentencing the four to prison terms ranging from two and a half to eight and a half years and ordering roughly 425 million yuan, about $60 million, in seized crypto and cash forfeited to the state.
+
+WoToken was one of several copycat schemes that surfaced in China's crypto scene in the wake of PlusToken's own unraveling, reusing the same recruitment structure and the same unverifiable promise of automated arbitrage profits to pull in a fresh round of investors before regulators caught up with them too.
+
+The case is a reminder that a fraud doesn't need to be original to work: WoToken succeeded, for a little over a year, by copying a scheme that was already collapsing under investigation, on the bet that enough new investors hadn't heard of PlusToken, or wouldn't make the connection until it was too late.`,
+    sourceUrl: 'https://www.theblock.co/news/regulation/2020-10-29-china-crypto-ponzi-prison-wotoken-billions',
+  },
+);
