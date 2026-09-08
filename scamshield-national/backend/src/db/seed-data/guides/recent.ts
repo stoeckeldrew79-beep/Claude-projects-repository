@@ -302,6 +302,10 @@ According to Ryde's own breach notice, the exposed information includes phone nu
 Even without a full card number or ride history in the mix, this combination of data is useful to a scammer in a specific way: a real name, phone number, date of birth, and partial card number is enough to make an impersonation attempt sound convincing. A caller or texter who already knows your phone number, birthday, and the last four digits of the card on your Ryde account can use those details to seem like a legitimate representative of the company — and then ask you to "confirm" the rest of the card number, a password, or a one-time verification code to finish "securing" your account. That request is the scam; a company that already has your account details never needs you to read the sensitive remainder back to it.
 
 If you have a Ryde account, there's no need to cancel your payment card, since Ryde says full numbers weren't exposed and the affected digits alone can't be used to make a charge. It's still worth changing your Ryde app password and reviewing your account's recent ride and payment activity for anything unfamiliar. Be skeptical of any unsolicited call, text, or email that references your Ryde account, a recent ride, or a "security update" and then asks you to click a link, share a password, or read back a verification code — go directly to the Ryde app or ryde-technology.com instead of responding. Norwegian residents can report suspicious contact to the Norwegian Data Protection Authority (Datatilsynet) or Kripos's National Cyber Crime Center; U.S. residents who receive a similar message can report it to the FTC at ReportFraud.ftc.gov.`,
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Lime_Scooters_Helsinki_2019.jpg?width=1200",
+    coverImageCredit: "Photo: Onsilla, CC BY-SA 4.0, via Wikimedia Commons — shared e-scooters in Helsinki, Finland, one of the Nordic countries where Ryde operates",
+    coverImagePosition: 50,
+    // representative photo — a shared e-scooter in Finland (a Ryde market), not a Ryde-branded scooter specifically; replace with an exact match if found
   },
   {
     title: "The Baydöner Data Breach: How Plaintext Passwords Exposed 1.3 Million Turkish Restaurant Customers",
@@ -410,6 +414,10 @@ This is worth understanding because it flips the usual advice about "spotting" a
 
 The practical defense stays the same regardless of who's behind the checkout screen. Treat any unsolicited pop-up, phone call, text, or email warning about a virus, an unpaid tax bill, or a guaranteed income opportunity as suspicious by default, especially if it pressures you to pay immediately by card, gift card, or wire transfer. A real tech company will never send you a pop-up demanding you call a phone number to fix your computer, and the IRS does not call, text, or email demanding immediate payment — it contacts taxpayers by mail first. If you're evaluating a business opportunity, be skeptical of specific income promises ("$5,000 a month guaranteed") and look up the company name alongside the word "complaint" or "scam" before paying anything. If you've already paid a business you now believe was fraudulent, contact your card issuer or bank promptly to dispute the charge — a working charge doesn't waive your right to dispute it later. Anyone who has been targeted by a tech support scam, a fake tax-authority call, or a bogus business opportunity can file a report with the FTC at ReportFraud.ftc.gov, and can report suspected tax-related identity theft or IRS impersonation to the Treasury Inspector General for Tax Administration at tigta.gov.`,
     sourceUrl: "https://www.ftc.gov/news-events/news/press-releases/2026/09/payment-processor-nuvei-must-implement-robust-merchant-screening-practices-pay-485-million-settle",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Montreal_Skyline_from_Mont_Royal_raw.png?width=1200",
+    coverImageCredit: "Photo: Wilfredor, CC0, via Wikimedia Commons — the skyline of Montreal, where Nuvei is headquartered",
+    coverImagePosition: 50,
+    // representative photo — Nuvei's headquarters city, not the company's offices specifically; replace with an exact match if found
   },
   {
     title: "The GS Retail Data Breach: How Reused Passwords Opened the Door to 1.66 Million Korean Customers' Data",
@@ -442,6 +450,10 @@ A breach like this lands differently depending on whose name is on the record. F
 
 If you're a current or former student, parent, or employee connected to Lexington-Richland Five, the district's notification letter includes a code for free 12-month credit monitoring, a single-bureau credit report and score, and $1 million in identity theft insurance through CyberScout — enroll before the 90-day deadline printed on the letter if you haven't already. Because children's Social Security numbers were among the data exposed, it's worth freezing a child's credit file with all three major bureaus — Equifax, Experian, and TransUnion — even without evidence of misuse yet, since a freeze is free and blocks new accounts from being opened in a minor's name until it's lifted. Adults affected should do the same for their own credit files if they haven't already, and everyone should watch for phishing calls, texts, or emails that cite the district's name, a real student ID number, or this breach and then ask for a password, Social Security number, or one-time code — a legitimate district communication will never ask you to read sensitive information back over the phone or a text link. Anyone who suspects a Social Security number was misused, for a child or an adult, can start the recovery process at IdentityTheft.gov, and phishing attempts referencing this breach can be reported to the FTC at ReportFraud.ftc.gov.`,
     sourceUrl: "https://www.infosecurity-magazine.com/news/south-carolina-school-district/",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Lake_Murray_B0078.jpg?width=1200",
+    coverImageCredit: "Photo: Isis4563, public domain, via Wikimedia Commons — Lake Murray, South Carolina, in the heart of the Chapin/Irmo area the district serves",
+    coverImagePosition: 50,
+    // representative photo — the lake defining the district's Chapin/Irmo service area, not a district school building; replace with an exact match if found
   },
   {
     title: "The Rectory School Data Breach: What a Ransomware Attack on a Small Connecticut Boarding School Exposed",
