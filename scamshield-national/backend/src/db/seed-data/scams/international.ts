@@ -10658,3 +10658,26 @@ International.push(
     country: 'CK',
   },
 );
+
+International.push(
+  {
+    name: 'Jersey Fake Water Insurance Phone Scam',
+    slug: 'jersey-fake-water-insurance-phone-scam',
+    description: `Jersey Water warned residents in February 2026 after a scam caller nearly defrauded a 79-year-old customer, Arthur Falla of St Saviour's Hill, on a Tuesday morning call. The caller claimed an "insurance policy" Falla had supposedly taken out three years earlier — said to have been "included in our water bill and covered all leaks and water related problems" — had expired and needed renewing, and asked for £11.50 to extend the cover for one month before committing him to a full year's policy. Falla grew suspicious when the caller said their website was "down," that he could not call the company back, and that a plumber would have to be sent "all the way from England," and he ended the call without paying. Jersey Water confirmed it does not offer any water insurance product and would never call a customer to request payment or personal details for one, and Chief Inspector Chris Beechey urged islanders to stay vigilant, hang up immediately on such calls, and report them to police.`,
+    categorySlug: 'utility-scams',
+    alertLevel: 'medium',
+    sources: ['Jersey Water', 'States of Jersey Police', 'Jersey Evening Post'],
+    sourceUrl: 'https://jerseyeveningpost.com/news/2026/02/19/the-caller-was-completely-convincing-jersey-water-urges-customers-to-beware-of-scam-calls/',
+    country: 'JE',
+  },
+  {
+    name: 'Jersey Fake Regulator Scam-Recovery Website Scam',
+    slug: 'jersey-fake-regulator-scam-recovery-website-scam',
+    description: `The Jersey Financial Services Commission (JFSC) warned in April 2025 that fraudsters had set up a fake website at "jerseyfsc.us" — a copy of the JFSC's real jerseyfsc.org domain — along with the email addresses support@jerseyfsc.us, info@jerseyfsc.us, and help@jerseyfsc.us and a UK-format phone number, all impersonating the genuine regulator. The fake site falsely claimed to offer a service to help people recover money they had already lost to scams, then asked people who contacted it for their bank details, supposedly to process the "recovery." The JFSC said the impersonating site displayed clear warning signs of being set up for fraud and stressed that it never offers a scam-recovery service and would never ask a member of the public for bank details. The commission advised anyone contacted this way to use only its official jerseyfsc.org website, confirm genuine staff email addresses follow the firstname.lastname@jerseyfsc.org format, and call its verified number, +44 (0)1534 822000, to check whether any message claiming to be from the JFSC is real.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Jersey Financial Services Commission (JFSC)', 'Comsure Group', 'Bailiwick Express'],
+    sourceUrl: 'https://www.comsuregroup.com/news/fraud-warning-impersonation-of-the-jersey-financial-services-commission-jfsc/',
+    country: 'JE',
+  },
+);
