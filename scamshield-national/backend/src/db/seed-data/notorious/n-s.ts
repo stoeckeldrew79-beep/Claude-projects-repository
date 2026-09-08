@@ -3425,6 +3425,10 @@ NotoriousNS.push(
     slug: 'chip-skowron-frontpoint-insider-trading-human-genome-sciences',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Downtown_Greenwich_Connecticut.jpg?width=1200',
+    coverImageCredit: 'Photo: Damian Morys, CC BY 2.0, via Wikimedia Commons — downtown Greenwich, Connecticut, where Skowron lived and FrontPoint Partners was based',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Joseph F. "Chip" Skowron III ran healthcare-focused funds at FrontPoint Partners, a hedge fund manager then owned by Morgan Stanley, where his job was to know more about the drug pipeline than the market did. In late 2007 and early 2008, prosecutors said, he knew something no outside investor was supposed to know: that a hepatitis C drug candidate called Albuferon, being developed by Human Genome Sciences, was running into serious trouble in its clinical trials.
 
 The tip came from Dr. Yves Benhamou, a French hepatologist who served on the steering committee overseeing HGSI's Albuferon trials while also working as a paid consultant to FrontPoint and other hedge funds — a dual role that put him inside confidential trial data at the same time he was advising investors on the very stock that data would move. Prosecutors said Benhamou passed Skowron word of the drug's problems before the results became public, and that Skowron paid him more than $14,600 in cash and covered hotel and other expenses for the information. Acting on the tip, FrontPoint sold off its Human Genome Sciences holdings before the company's January 2008 announcement of disappointing trial results sent the stock sharply lower, a well-timed exit that prosecutors calculated let the fund avoid roughly $30 million in losses it otherwise would have taken.

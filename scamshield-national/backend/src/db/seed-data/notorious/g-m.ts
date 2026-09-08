@@ -5034,6 +5034,10 @@ NotoriousGM.push(
     slug: 'tony-iervasi-courtenay-house-ponzi-scheme',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/1_oxford_street_bondi_junction_nsw.jpg?width=1200',
+    coverImageCredit: 'Photo: Adam.J.W.C., CC BY-SA 2.5, via Wikimedia Commons — Oxford Street Mall in Bondi Junction, Sydney, where Courtenay House was based',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     sourceUrl: 'https://www.cdpp.gov.au/case-reports/director-courtenay-house-sentenced-11-years-imprisonment-running-australias-largest-ponzi-scheme',
     body: `Tony Iervasi was the sole director and shareholder of Courtenay House Capital Trading Group and Courtenay House Pty Ltd, a pair of companies operating out of Bondi Junction in Sydney that told investors their money would be traded on foreign exchange and futures markets in exchange for guaranteed monthly returns. Between December 2010 and April 2017, around 585 investors deposited a combined $180 million Australian dollars into the scheme, drawn in by the promise of steady, above-market profits from currency trading that Iervasi presented as routine and low-risk.
 
