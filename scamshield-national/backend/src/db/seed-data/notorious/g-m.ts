@@ -4971,3 +4971,42 @@ Ortiz and Jaramillo were arrested and held at La Picota prison in Bogotá starti
 The InterBolsa collapse showed how a network of shell companies spread across three offshore jurisdictions could be used to disguise what was, underneath the paperwork, a purely domestic stock-manipulation scheme — and how a single overleveraged position in one company's shares can take down a country's largest brokerage within days once the short-term lenders behind it lose confidence and stop renewing.`,
   },
 );
+NotoriousGM.push(
+  {
+    title: "Uli Hoeneß and the €28.5 Million Swiss Account That Cost Bayern Munich Its President",
+    slug: 'uli-hoeness-tax-evasion-bayern-munich',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://www.france24.com/en/20140313-bayern-munich-hoeness-sentenced-guilty-tax-evasion-germany',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Uli_Hoene%C3%9F_2019.jpg?width=1200',
+    coverImageCredit: 'Photo: Sven Mandel / Wikimedia Commons (CC BY-SA 4.0)',
+    coverImagePosition: 30,
+    body: `Uli Hoeneß was one of German football's most decorated and trusted figures long before his name became shorthand for a very different kind of story. A World Cup winner as a player in 1974, he went on to run Bayern Munich's business side for three decades — as general manager starting in 1979, then as club president from 2009 — turning the club into one of Europe's financially strongest franchises and himself into one of the most recognizable, and admired, men in German sport.
+
+Behind that public record, Hoeneß had been running a secret financial life since 1975, when a private banker charmed him during a ski trip to the Swiss resort of Lenzerheide into opening an undeclared account at the Swiss bank Vontobel. Over the following decades he used it for extraordinarily heavy speculative trading in currencies and stocks — by his own account sometimes placing hundreds of trades in a single day — while never declaring the account or its gains to German tax authorities. The trading was less a calculated investment strategy than what Hoeneß himself later described in court as compulsive gambling, and it produced years of large, undeclared swings in both directions.
+
+In January 2013, with exposure apparently closing in, Hoeneß filed a Selbstanzeige — a voluntary self-disclosure that German law allows tax evaders to use to avoid prosecution, provided the disclosure is complete and the back taxes are paid. Days later, before the disclosure could quietly run its course, German news magazine Der Spiegel reported that prosecutors were investigating him, and the case became a national story in the middle of Bayern Munich's season. Prosecutors and, ultimately, the Munich district court concluded that Hoeneß's disclosure had not been complete — it understated both the number of years involved and the scale of his trading gains — which under German law voided the amnesty and left him exposed to prosecution for everything the incomplete filing had tried to cover.
+
+At his trial in March 2014, an expert witness testified that Hoeneß had evaded considerably more than he had originally admitted, and on March 13, 2014, the court convicted him on seven counts of tax evasion totaling €28.5 million and sentenced him to three years and six months in prison — harsher than his own guilty admission had anticipated, though lighter than the five-and-a-half years prosecutors had sought. He resigned as Bayern Munich president immediately. He began serving the sentence that June at an open prison in Landsberg am Lech, was granted day-release privileges to work, and was released on parole in February 2016 after serving roughly half his term. Bayern's members then re-elected him club president that November, a role he held until stepping down again in 2019; German authorities separately pursued the Vontobel banker who had managed his accounts for decades.
+
+The Hoeneß case is a study in how a safety valve built to encourage honesty can collapse the moment it's used dishonestly: German law's voluntary-disclosure amnesty exists precisely to let tax evaders come clean without fear of prison, but it demands total candor, and a disclosure that leaves out even part of the truth can end up producing a harsher outcome than staying silent and never being caught. It's also a reminder that a public reputation built over decades offers no protection once a private financial life, hidden that same length of time, becomes public.`,
+  },
+);
+NotoriousGM.push(
+  {
+    title: 'James Ibori: The Nigerian Governor Whose $250 Million Theft Was Convicted in a London Court',
+    slug: 'james-ibori-delta-state-money-laundering',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://www.hrw.org/news/2012/04/17/nigeria-uk-conviction-blow-against-corruption',
+    body: `Before he became a governor, James Ibori was a supermarket cashier in London with two minor criminal convictions. In 1991 he was fined at Isleworth Crown Court for theft after letting his girlfriend walk out of the Wickes DIY store where he worked without paying for goods, and in 1992 he was convicted separately for possessing a stolen credit card that had run up roughly £1,000 in charges. He left Britain for Nigeria not long after, and within a decade he was governor of Delta State, one of the country's wealthiest, oil-producing regions.
+
+Ibori governed Delta State from 1999 to 2007, a period during which the state received hundreds of millions of dollars in oil revenue that he was responsible for overseeing. British and Nigerian investigators later showed that, rather than fund public services, Ibori and a network of associates — including his sister, his mistress, and a London solicitor named Bhadresh Gohil who helped structure the transactions — systematically diverted state funds into shell companies and offshore accounts, using the proceeds to buy mansions in London and South Africa, a fleet of armored Range Rovers, and a private jet, all while drawing an official governor's salary equivalent to a few thousand dollars a month.
+
+Nigeria's Economic and Financial Crimes Commission pursued Ibori for years after he left office, but he evaded arrest inside Nigeria, at one point escaping a courtroom after supporters clashed with police. He was finally arrested in Dubai in May 2010 and extradited to the United Kingdom the following year, where the Metropolitan Police's overseas anti-corruption unit had spent years building a money-laundering case using UK banking and property records his own associates had left behind. Facing trial at Southwark Crown Court, Ibori pleaded guilty in February 2012 to ten counts of fraud by abuse of position and money laundering, admitting to laundering roughly £50 million through the UK financial system alone, out of an estimated $250 million or more stolen overall. The judge said that had he fought the charges and lost, he would have faced a sentence closer to 24 years; in April 2012 he was sentenced to 13 years.
+
+Ibori served just under five years before a UK court ordered his release in December 2016, and he returned to Nigeria to a hero's welcome from supporters who had never accepted the London verdict. Gohil, his lawyer, was separately convicted and later ordered to repay tens of millions of pounds; British courts have spent years since pursuing confiscation orders against both men to recover assets still traced to the stolen state funds, with well over £100 million eventually identified for seizure.
+
+Ibori's case became one of the clearest examples of what anti-corruption investigators call the "London laundromat" — the way stolen public money from a developing country routinely passes through Western banks, law firms, and property markets that ask few questions, and how prosecuting the theft often depends less on the country that was robbed than on the country whose financial system laundered the proceeds.`,
+  },
+);
