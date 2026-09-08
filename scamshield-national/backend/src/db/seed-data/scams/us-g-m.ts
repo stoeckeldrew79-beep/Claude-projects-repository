@@ -4224,3 +4224,15 @@ UsGM.push({
     country: 'US',
     state: 'MD',
 });
+
+UsGM.push({
+    name: 'DeSoto County International Elder Fraud Network (Chia Lai)',
+    slug: 'mississippi-desoto-county-chia-lai-international-elder-fraud',
+    description: `DeSoto County District Attorney Matthew Barton announced the indictment of Chia Lai, a 44-year-old Taiwanese national, on four felony counts — conspiracy to commit fraud, false pretense, money laundering, and wire fraud — accusing him of running an international network that used high-pressure phone calls, emails, and online messages to create fear and urgency and drain the bank accounts of elderly Mississippi victims out of millions of dollars. Homeland Security Investigations and the Hernando Police Department tracked Lai overseas and coordinated his return to the United States; he was taken into custody on January 5, 2026 when he landed at Los Angeles International Airport, though his transfer to Mississippi was initially delayed because California's sanctuary-state policies limited how local authorities there could hold him on the Mississippi warrant before federal agents and LAX Police stepped in. Lai is being held at the DeSoto County Jail without bond pending trial. Barton's office said the case is a reminder that these schemes are increasingly run from overseas with the help of domestic accomplices who move the stolen funds, and urged seniors and their families to be skeptical of any unsolicited call, email, or message that pressures immediate action and to verify independently — through a bank or a trusted family member — before moving money or sharing account information with anyone who contacted them first.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'high',
+    sources: ["DeSoto County District Attorney's Office", 'Action News 5', 'WREG'],
+    sourceUrl: 'https://www.actionnews5.com/2026/01/06/indictment-accuses-man-defrauding-mississippi-seniors-millions-international-scheme/',
+    country: 'US',
+    state: 'MS',
+});

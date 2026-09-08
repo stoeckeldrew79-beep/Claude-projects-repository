@@ -4072,3 +4072,27 @@ UsNS.push({
     country: 'US',
     state: 'NM',
 });
+
+UsNS.push({
+    name: 'Columbus Man Charged With Stealing From Dementia-Stricken Relative (Brian Otler)',
+    slug: 'ohio-columbus-brian-otler-dementia-relative-credit-card-theft',
+    description: `Ohio Attorney General Dave Yost's Medicaid Fraud Control Unit announced on May 22, 2026 that a Franklin County grand jury indicted Brian Otler, 43, of Columbus, on charges of theft from a person in a protected class and misuse of credit cards, accusing him of stealing $35,335 between December 2024 and March 2025 from an elderly relative who has dementia and lives in a long-term care facility, by using her credit cards to pay off his own personal debt. Otler's case was one of eight announced the same day: five Medicaid providers were separately charged with stealing a combined $542,176 by billing for home health and personal-care services they never actually provided — including a home-health aide who kept billing while her client was hospitalized and a provider who billed for in-home visits while on a Caribbean cruise — while three others, including Otler, were charged with stealing directly from nursing-home and long-term-care residents. "Caregivers are meant to protect the vulnerable, not exploit them," Yost said in announcing the indictments. Families of an elderly or incapacitated relative in long-term care are advised to periodically review that relative's bank and credit card statements themselves, rather than relying entirely on a single family member or caregiver with account access, since these thefts are often only caught when someone outside the household happens to check.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'medium',
+    sources: ["Ohio Attorney General's Office (Dave Yost)", 'WKYC', 'Ohio News'],
+    sourceUrl: 'https://www.wkyc.com/article/news/local/ohio/ohio-medicaid-fraud-elder-theft-schemes-dave-yost-attorney-general-nursing-home-control-unit-indictments/95-fa43492d-4bdd-46a7-8f03-c6e3777e7827',
+    country: 'US',
+    state: 'OH',
+});
+
+UsNS.push({
+    name: 'Garner Behavioral-Health Medicaid Billing Fraud (Ekelekamchukwu Ngwadom)',
+    slug: 'north-carolina-garner-ngwadom-alliance-health-medicaid-fraud',
+    description: `Ekelekamchukwu Alphonsus Ngwadom, a Garner, North Carolina behavioral-health provider who also holds a traditional Nigerian chieftaincy title, pleaded guilty to 27 counts of obtaining property by false pretenses after submitting $72,014.66 in fraudulent claims to Alliance Health, the regional managed-care organization that administers Medicaid-funded behavioral health services in the area, for services he never actually provided. Between February 18, 2020 and March 18, 2021, prosecutors say Ngwadom billed Alliance Health for behavioral health treatment for 27 Medicaid recipients, including children, who never received the billed services; Alliance Health's own program-integrity section first detected the suspicious billing pattern and referred it to investigators. North Carolina Attorney General Jeff Jackson announced that Ngwadom was sentenced in January 2026 to two consecutive terms of 6 to 17 months in prison, both suspended in favor of 36 months of supervised probation with 90 days of house arrest, and ordered to pay the full $72,014.66 in restitution. The case, investigated and prosecuted by the Attorney General's Medicaid Investigations Division with support from the North Carolina Department of Insurance and the Wake County District Attorney's Office, is a reminder that Medicaid recipients and the parents of children receiving Medicaid-funded therapy or behavioral health services should check their own Medicaid claims history or Explanation of Benefits for visits or services that were billed but never actually happened, since this kind of billing fraud is often invisible to the patient unless they look.`,
+    categorySlug: 'healthcare-fraud',
+    alertLevel: 'medium',
+    sources: ["North Carolina Attorney General's Office (Jeff Jackson)", 'WCNC', 'CBS 17'],
+    sourceUrl: 'https://ncdoj.gov/attorney-general-jeff-jackson-announces-health-care-fraud-conviction-and-sentencing/',
+    country: 'US',
+    state: 'NC',
+});
