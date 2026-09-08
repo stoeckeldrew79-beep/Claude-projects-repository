@@ -4404,3 +4404,27 @@ UsGM.push({
     country: 'US',
     state: 'MS',
 });
+
+UsGM.push({
+    name: "Montana's First Elder Justice Unit Conviction: Power-of-Attorney Exploitation (Kristel Blair)",
+    slug: 'montana-elder-justice-unit-kristel-blair-power-of-attorney',
+    description: `The Montana Department of Justice announced on March 6, 2026 that it had secured the first conviction and sentence under the state's Elder Justice Unit, created by the Legislature in 2023 to investigate and prosecute financial crimes against older Montanans. Kristel Marie Blair, of Bighorn County, held power of attorney over the finances of her elderly mother and stepfather — both over the age of 65 — a document that explicitly barred her from paying herself out of their accounts. Prosecutors say Blair ignored that restriction between 2020 and 2024, depositing unauthorized checks and transfers totaling $76,840 into her own personal account and disguising the withdrawals in her own records as "gift investments." A jury convicted Blair on two counts of exploitation of an older person or person with a developmental disability, one count for each victim. A judge sentenced her to a 10-year deferred imposition of sentence and ordered her to pay $101,170 in restitution to her mother and stepfather. The Montana Department of Justice said its Elder Justice Unit was, as of the announcement, actively investigating another twelve cases across the state. Power of attorney is meant to let a trusted person manage an incapacitated or aging relative's finances on their behalf, not to serve as an open line of credit against their savings; family members and caregivers who suspect a power of attorney is being misused to divert an elderly relative's money can report it to the Montana Department of Justice's Office of Consumer Protection at 406-444-3874.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'medium',
+    sources: ["Montana Department of Justice (Office of the Attorney General)", '945 Max Country'],
+    sourceUrl: 'https://dojmt.gov/attorney-generals-office-secures-first-conviction-and-sentence-under-elder-justice-unit/',
+    country: 'US',
+    state: 'MT',
+});
+
+UsGM.push({
+    name: 'Maine Auburn Barbershop Tax Preparer Fraud (Thierry Musese)',
+    slug: 'maine-auburn-barbershop-tax-preparer-fraud-musese',
+    description: `A federal grand jury in Maine indicted Thierry Musese, 35, on February 6, 2025, alleging he used a paid tax-preparation business he ran out of FreshCutz, a barbershop he owned in Auburn, to defraud both the IRS and his own clients. According to the indictment, Musese prepared and filed false federal returns for 17 clients for the 2021 and 2022 tax years, inventing business losses, fuel tax credits, and residential energy credits the clients were not entitled to in order to inflate their refunds — and he kept doing it into the 2023 tax year even after the IRS revoked his electronic-filing identification number for prior misconduct. Prosecutors say Musese separately defrauded some of the same clients directly: he diverted a portion of their refunds into his own accounts without their permission, then handed those clients a copy of a tax return that differed from the version he had actually filed with the IRS, so the theft would not show up if they checked their own paperwork. In 2024, he allegedly went a step further and used another tax preparer's identification information without authorization to keep filing returns with false statuses after his own credentials were revoked. The indictment charges Musese with 31 counts of aiding and assisting in the preparation of false tax returns, two counts of making false statements on a tax return, and nine counts of wire fraud; the false-return counts each carry up to three years in prison and a $250,000 fine, while the wire fraud counts each carry up to 20 years and a $250,000 fine. The case is a reminder that a paid tax preparer who promises unusually large refunds, discourages a client from reviewing their own copy of what was actually filed with the IRS, or keeps operating after losing IRS e-file authorization is a warning sign worth acting on before, not after, a return goes in — taxpayers should always request and independently compare the exact copy their preparer submitted to the IRS.`,
+    categorySlug: 'tax-scams',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office, District of Maine", 'WAGM-TV', 'Sun Journal'],
+    sourceUrl: 'https://www.justice.gov/opa/pr/maine-return-preparer-charged-preparing-false-tax-returns-clients',
+    country: 'US',
+    state: 'ME',
+});
