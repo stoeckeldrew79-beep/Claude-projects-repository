@@ -3692,3 +3692,25 @@ Palazzo and his three corporate entities did not contest the SEC's core allegati
 Palazzo's case is a version of affinity fraud that doesn't always get labeled that way: he wasn't preying on a religious or ethnic community, but on a much smaller and more specific one — teammates who had spent years training and playing alongside him, and who extended him a level of trust that ordinary business associates typically have to earn. That kind of trust is exactly what made basic diligence, like asking for audited financials on a company selling equity in a not-yet-built betting app, feel unnecessary to the people closest to him. It wasn't.`,
   },
 );
+
+NotoriousNS.push(
+  {
+    title: "Sudheesh Nambiar and the Spartan Trading Ponzi-Like Scheme That Targeted the Indian American Community",
+    slug: "sudheesh-nambiar-spartan-trading-ponzi-scheme",
+    author: "ScamShield Editorial",
+    tags: ["notorious", "notorious-scammer"],
+    sourceUrl: "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26529",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Phillip_Burton_Federal_Building.jpg?width=1200",
+    coverImageCredit: "Photo: Sam Wheeler, Wikimedia Commons (CC BY-SA 3.0) — the Phillip Burton Federal Building in San Francisco, where the SEC's case against Sudheesh Nambiar was filed",
+    coverImagePosition: 50,
+    body: `Note: this case is a civil action at the complaint stage. The scheme described below reflects allegations made by the Securities and Exchange Commission — Sudheesh Nambiar has not been found liable, and no criminal charges have been reported as of this writing.
+
+Sudheesh Nambiar, 39, of Milpitas, California, is accused by the SEC of running a day-trading operation called Spartan Trading that, rather than generating the returns he told investors it was earning, was quietly losing money for years while he papered over the losses with fabricated records. According to the SEC's complaint, filed April 15, 2026 in the U.S. District Court for the Northern District of California, Nambiar recruited investors from November 2018 through May 2024 largely through Telegram chatrooms and personal connections within the Indian American community across the San Francisco Bay Area and beyond, promising annual returns of roughly 20% to 40% by pooling their money into securities trading.
+
+The SEC alleges Nambiar backed up those promises with an elaborate paper trail: fabricated account statements, spreadsheets, and performance charts sent to investors showing a near-unbroken string of profitable trades, along with regular updates posted to a Telegram investor group meant to reinforce the appearance that Spartan Trading was thriving. In reality, the complaint alleges, Nambiar was a largely unsuccessful trader who racked up roughly $21 million in trading losses over the life of the scheme. To keep the operation afloat and cover his mounting losses, the SEC says, he used newly raised investor money to make Ponzi-like payments to earlier investors, to pay down high-interest loans, and to cover personal expenses — raising a total of approximately $43 million from more than 400 investors in the process. The SEC's complaint also describes a related, smaller offering in which Nambiar allegedly raised about $900,000 from nine investors through a private fund.
+
+The SEC's complaint charges Nambiar with violating the registration and antifraud provisions of the Securities Act of 1933, the antifraud provisions of the Securities Exchange Act of 1934, and the antifraud provisions of the Investment Advisers Act of 1940, and seeks permanent injunctions, disgorgement with prejudgment interest, and civil penalties. As of this writing, the case remains in active litigation, Nambiar has not been reported to have entered a plea or settlement, and the allegations described here are unproven.
+
+Nambiar's case is a study in how a fabricated track record can be sustained for years inside a tight-knit community: the same Telegram chatrooms and personal introductions that made the pitch feel like a trusted, insider opportunity also meant investors were relying on documents Nambiar generated himself rather than on any independent account statement from a registered broker-dealer or custodian. A day-trading strategy that reports years of consistent 20-to-40-percent annual gains — a run few, if any, professional traders manage to sustain — is a claim that itemized statements from the actual brokerage holding the funds can verify or refute in minutes; a spreadsheet or chart produced by the person collecting the money cannot.`,
+  },
+);

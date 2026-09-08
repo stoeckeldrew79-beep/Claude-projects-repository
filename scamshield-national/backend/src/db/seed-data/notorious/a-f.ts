@@ -5231,3 +5231,23 @@ Sood pleaded guilty in December 2024 and Akporugo followed in February 2025. On 
 The Akporugo-Sood case underscores a pattern common to long-running romance scams: the fraud rarely stays confined to wired cash. Victims who send money once and are met with a plausible excuse for why more is needed are often escalated to renting apartments, co-signing leases, or buying vehicles "for" a partner they have never met in person — commitments that are far harder to reverse than a single wire transfer, and that leave victims financially exposed long after they suspect something is wrong. Anyone asked to make a purchase or open a lease on behalf of an online partner who has never appeared on a video call should treat that request as the clearest possible warning sign, not as the next reasonable step in a real relationship.`,
   },
 );
+
+NotoriousAF.push(
+  {
+    title: "Erwin Bankowski, Karolina Bankowska, and the Father-Daughter Ring That Forged Warhols, Banksys, and Picassos",
+    slug: "erwin-bankowski-karolina-bankowska-art-forgery-scheme",
+    author: "ScamShield Editorial",
+    tags: ["notorious", "notorious-scammer"],
+    sourceUrl: "https://www.justice.gov/usao-edny/pr/two-individuals-plead-guilty-prolific-counterfeit-art-scheme",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Federal_Courthouse_Brooklyn.jpg?width=1200",
+    coverImageCredit: "Photo: Beyond My Ken, Wikimedia Commons (CC BY-SA 4.0) — the federal courthouse in Brooklyn, where Erwin Bankowski and Karolina Bankowska were prosecuted",
+    coverImagePosition: 50,
+    body: `Erwin Bankowski, 50, and his daughter Karolina Bankowska, 26, Polish citizens living in Lawrence, New Jersey, ran what federal prosecutors in the Eastern District of New York describe as one of the more prolific counterfeit-art operations to reach a federal courtroom in years. Over roughly five years, from 2020 through 2025, the pair created and consigned more than 200 fake artworks to galleries and auction houses across the country, attributing them to major names including Andy Warhol, Pablo Picasso, the street artist Banksy, and painters Raimond Staprans and Richard Mayhew — and, prosecutors say, also passed off some pieces as the work of Native American artist Fritz Scholder, a misrepresentation that on its own violates a separate federal law protecting Native-made goods and products.
+
+According to prosecutors, the Bankowskis didn't just paint fakes and hope buyers wouldn't look closely — they manufactured the paper trail a buyer would expect a genuine piece to carry. Investigators say the pair fabricated false histories of prior ownership and custody (provenance), forged the stamps of real galleries onto the backs of works, and produced fake certificates of authenticity, in some cases artificially aging the paper itself so the documents would look decades old rather than freshly printed. The counterfeits moved at prices that mirrored real secondary-market sales: a fake Banksy sold for around $2,000, a fake Warhol for $5,500, and — the largest single sale prosecutors have identified — a work falsely attributed to Richard Mayhew that brought $160,000, contributing to at least $2 million in fraudulent sales overall.
+
+Erwin Bankowski and Karolina Bankowska were charged in the Eastern District of New York and pleaded guilty on April 28, 2026, before U.S. District Judge Nicholas G. Garaufis to wire fraud conspiracy and misrepresentation of Native American-produced goods and products. The wire fraud conspiracy count alone carries a statutory maximum of 20 years in prison, and prosecutors have said restitution will total at least $1.9 million. Announcing the guilty pleas, then-U.S. Attorney Joseph Nocella Jr. said, "Today's convictions strip away the varnish and reveal the fraud underneath." As of this writing, no sentencing date had yet been set, so the actual prison terms the Bankowskis will serve remain undetermined.
+
+The Bankowski case is a reminder that a certificate of authenticity or a gallery stamp is only as trustworthy as the person who produced it. Genuine provenance research traces a work through independently verifiable owners, exhibition records, and prior auction results — not through paperwork supplied exclusively by the seller — and a father-daughter team with no verifiable connection to the actual studios, estates, or authentication boards of Warhol, Picasso, or Banksy should never have been treated as sufficient proof for two hundred "newly surfaced" works entering the market all at once.`,
+  },
+);
