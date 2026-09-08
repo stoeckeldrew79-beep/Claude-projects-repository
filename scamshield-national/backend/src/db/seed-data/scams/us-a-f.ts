@@ -6036,3 +6036,27 @@ UsAF.push({
     country: 'US',
     state: 'DC',
 });
+
+UsAF.push({
+    name: 'Palisades Fire Disaster-Zone Unlicensed Contractor Bid Ring',
+    slug: 'california-palisades-fire-unlicensed-contractor-bid-ring',
+    description: `Los Angeles County District Attorney Nathan Hochman announced felony charges on July 2, 2026 against six men — Luis Perez Silva, 44; Jecil Cruz-Herrera, 33; Luis Mateo Perez Lopez, 27; Antonio Herman Perez, 41; Santiago Ismael Mejia Urena, 43; and Raymond Joshua Castorena, 33 — accused of contracting without a license inside the Pacific Palisades fire disaster zone. State investigators built the case by combing online ads from unlicensed contractors advertising rebuild work, then posed as a homeowner and scheduled appointments on April 15 and 16, 2026 to solicit bids for an accessory dwelling unit and demolition work; none of the six had a valid license with the Contractors State License Board under their own name or any business name they used. Prosecutors say the defendants collectively placed bids totaling roughly $1.27 million for the fabricated job. Each defendant was charged with one felony count of contracting without a license during a state of emergency; five face up to three years in county jail and a $10,000 fine if convicted, while Castorena faces up to six years because of a prior strike offense. "Stay out of Los Angeles County," Hochman said. "Hiring unlicensed contractors leaves you at risk of fraud and unsafe construction." The case follows a string of earlier unlicensed-contractor charges the DA's office filed in both the Eaton and Palisades burn scars as survivors began rebuilding. Homeowners hiring anyone for post-disaster repair or rebuild work should verify a contractor's license number directly through the CSLB's website before signing a contract or paying anything, since a valid license — not a confident sales pitch at the door — is the only real proof a contractor is legally allowed to do the work.`,
+    categorySlug: 'home-improvement-solar',
+    alertLevel: 'high',
+    sources: ['Los Angeles County District Attorney’s Office', 'NBC Los Angeles', 'MyNewsLA'],
+    sourceUrl: 'https://da.lacounty.gov/media/news/six-unlicensed-contractors-charged-illegally-operating-palisades-fire-disaster-zone',
+    country: 'US',
+    state: 'CA',
+});
+
+UsAF.push({
+    name: 'Fake Publishers Clearing House Prize-Fee Indictment',
+    slug: 'connecticut-publishers-clearing-house-prize-fee-indictment',
+    description: `A federal grand jury in New Haven indicted six people on June 2, 2026 for running a "Publishers Clearing House" prize scam that federal prosecutors say targeted elderly victims in Connecticut and across the country beginning around 2022. According to the U.S. Attorney's Office for the District of Connecticut, the defendants — Andre-Jon Gayle, 33, Aaliyah Mayne, 25, and Roshaun Thompson, 24, all of Fort Lauderdale-area Florida; Onaje Chevers, 29, of Dania, Florida; Matthew Hutchinson, 24, of Williamsburg, Virginia; and Courtney Reynolds, 31, of Miami — purchased lists of names of elderly people living in Connecticut and other states, called or wrote to tell them they had won millions of dollars in the Publishers Clearing House sweepstakes, and then told victims they first had to pay supposed taxes or processing fees before their winnings could be released. Victims were instructed to send checks, cash, and money orders to the defendants and associates to "unlock" prize money that never existed. The indictment charges the group with one count of conspiracy to commit mail and wire fraud, five counts of mail fraud, four counts of wire fraud, and one count of conspiracy to commit money laundering, each carrying up to 20 years in prison. Publishers Clearing House has said for years that it never asks a winner to pay any fee, tax, or shipping charge to claim a prize and never calls in advance to say someone has won; anyone contacted by phone, mail, or email claiming to be from PCH and asking for money before a prize can be released should assume it is a scam and should never send cash, a check, or a money order to claim a sweepstakes win.`,
+    categorySlug: 'lottery-sweepstakes-scams',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office, District of Connecticut", 'IRS Criminal Investigation'],
+    sourceUrl: 'https://www.justice.gov/usao-ct/pr/jamaican-nationals-charged-running-sweepstakes-scheme-targeted-elderly-victims-across-us',
+    country: 'US',
+    state: 'CT',
+});

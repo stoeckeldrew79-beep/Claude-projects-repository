@@ -3556,3 +3556,22 @@ The core fraud case took until September 2022 to reach a verdict, when a Colombo
 The Sakvithi Ranasinghe case is a study in how celebrity status can substitute for the due diligence an unlicensed deposit-taking scheme would never survive on its own merits: thousands of Sri Lankans entrusted their savings to a company with no banking license and no regulatory oversight simply because its founder was already famous and trusted for something else entirely, and it took Sri Lanka's courts nearly two decades — spanning a bigamy conviction, a fraud conviction, and multiple separate sentencing hearings into the 2020s — to fully work through the consequences of that trust.`,
   },
 );
+
+NotoriousNS.push(
+  {
+    title: `Rod Petricevic and the Bridgecorp Collapse That Wiped Out 14,500 New Zealanders' Savings`,
+    slug: 'rod-petricevic-bridgecorp-collapse',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://www.rnz.co.nz/news/all/104260/bridgecorp-director-petricevic-jailed-6-years',
+    body: `Rod Petricevic was the managing director of Bridgecorp, an Auckland-based property-lending finance company that raised money from the New Zealand public the way many of the country's finance companies did in the 2000s: by selling secured debenture stock through a registered investment prospectus that promised fixed interest returns and was marketed heavily to everyday retail investors, retirees especially, as a safer alternative to shares. For years the pitch worked, and Petricevic lived accordingly — including having Bridgecorp fund the purchase of a NZ$3.5 million luxury launch, the "Medici," a deal that later became the subject of a separate fraud prosecution in its own right.
+
+The core fraud lay in what Bridgecorp kept telling investors even as the company's finances deteriorated. Its prospectus and later investment statements represented that Bridgecorp had never missed an interest or principal payment to investors — a claim the sentencing judge would later find Petricevic knew to be false at the time it was published. Relying on those assurances, more than NZ$91 million in reinvested funds and a further NZ$28 million in new investor money flowed into Bridgecorp after the misleading statements were published, money invested by people who had no way of knowing the company was already unable to meet its obligations to them.
+
+Bridgecorp collapsed into receivership on July 2, 2007, owing roughly NZ$490 million to about 14,500 investors — one of the largest and earliest failures in a wave of New Zealand finance-company collapses that ran from 2006 to 2012 and devastated a generation of retail debenture holders who had no deposit-insurance scheme to fall back on when the money was gone.
+
+New Zealand's Serious Fraud Office built a criminal case against Petricevic and Bridgecorp's finance director, Rob Roest, over the misleading prospectus and investment statements. On April 5, 2012, Justice Geoffrey Venning of the High Court found Petricevic guilty on 18 charges under the Crimes, Companies, and Securities Acts, rejecting his defense that he had genuinely believed the statements to be accurate. On April 26, 2012, Venning sentenced him to six and a half years in prison, later dismissing arguments for a lighter sentence by finding Petricevic's expressions of remorse unconvincing; a separate SFO prosecution over the "Medici" purchase added a further four months to his term.
+
+Bridgecorp's collapse, and Petricevic's conviction, became one of the defining cases of New Zealand's mid-2000s finance-company crisis, prompting a broader regulatory overhaul of how non-bank deposit-takers are supervised. It illustrates how a formally registered investment prospectus — precisely the document regulators expect ordinary savers to be able to rely on — can keep pulling in new money even after the people running the company privately know its numbers no longer add up, and how little protection a government registration process can offer investors when the person filing the paperwork is willing to lie in it.`,
+  },
+);
