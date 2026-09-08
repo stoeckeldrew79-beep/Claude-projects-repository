@@ -4168,3 +4168,27 @@ UsNS.push({
     country: 'US',
     state: 'NJ',
 });
+
+UsNS.push({
+    name: 'Bismarck Transportation Services Medicaid and Pandemic-Loan Fraud Scheme (Isaac Osei Afoakwa)',
+    slug: 'north-dakota-bismarck-transportation-services-medicaid-fraud-afoakwa',
+    description: `Acting United States Attorney Jennifer Klemetsrud Puhl announced on June 30, 2025 that Isaac Osei Afoakwa, 55, of Bismarck — a former Bismarck mayoral candidate — had been federally charged as part of the Department of Justice's 2025 National Health Care Fraud Takedown, a nationwide sweep that charged hundreds of defendants in connection with more than $14.6 billion in alleged fraud. As owner and principal of Bismarck Transportation Services, Afoakwa allegedly submitted roughly $100,000 in false and fraudulent claims to North Dakota Medicaid for non-medical emergency transport services that were never actually provided. Prosecutors also allege he fraudulently obtained a Paycheck Protection Program loan and eight separate Economic Injury Disaster Loans he was not entitled to, totaling approximately $1.6 million in pandemic relief funds. Afoakwa was indicted on charges of false statements relating to a health care benefit program, wire fraud, aggravated identity theft, and aiding and abetting the preparation of a false tax return; state charges filed separately were later dismissed as the case proceeded in federal court. The case illustrates how Medicaid transportation billing — a service category with comparatively little independent verification, since the "customer" is often a vulnerable Medicaid recipient rather than someone auditing the bill — can be exploited for fraudulent claims for years before detection, and North Dakota Medicaid recipients or their families who notice a transportation or other service billed to their account that they did not receive are encouraged to report it to the North Dakota Medicaid Fraud Control Unit.`,
+    categorySlug: 'healthcare-fraud',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office, District of North Dakota", 'Valley News Live', 'KX News'],
+    sourceUrl: 'https://www.justice.gov/usao-nd/pr/national-health-care-fraud-takedown-results-324-defendants-charged-connection-over-146',
+    country: 'US',
+    state: 'ND',
+});
+
+UsNS.push({
+    name: "South Dakota Department of Revenue Forged Vehicle-Title Fraud Scandal (Sandra O'Day)",
+    slug: 'south-dakota-department-of-revenue-forged-vehicle-title-fraud',
+    description: `A South Dakota Division of Criminal Investigation probe uncovered that Sandra O'Day, a three-decade South Dakota Department of Revenue employee who supervised motor vehicle title records, had spent years forging vehicle titles she then used to fraudulently secure bank loans. Because she worked in a supervisory role with the ability to alter VIN numbers, O'Day created at least 13 fake titles — targeting categories like campers without motors and boats and ATVs that are not cross-checked against the national vehicle title registry — presented each forged title to a bank or credit union as collateral for a loan taken out in someone else's name, and then destroyed the fraudulent title once the loan funds came through, netting roughly $400,000 over a scheme investigators traced back to at least 2011. Attorney General Marty Jackley's office announced the scheme in August 2024, but because O'Day had died of cancer before the investigation concluded, no charges were ever filed against her directly. The fallout continued into 2025: Jackley's office charged two other former Revenue Department employees, and on Monday, May 12, 2025, a judge sentenced Lynne Hunsley, 64, of Pierre, after she pleaded guilty to forgery and grand theft by deception for using a similarly fraudulent title on a travel trailer to dodge roughly $1,200 in excise taxes, ordering three years of probation, a suspended prison term, a $1,000 fine, and $1,200 in restitution; a second former employee, Danielle Degenstein, was indicted on misprision of a felony for allegedly concealing the scheme and pleaded not guilty, with her case still pending. "This was a violation of the public's trust," Jackley's office said of the pattern uncovered at Revenue, which also prompted the AG to propose new state anti-corruption legislation. The case is a reminder that a government employee's unsupervised access to title, licensing, or ownership records is itself a fraud risk — banks and credit unions that accept a state-issued title as loan collateral generally have no independent way to know it was fabricated until the loan defaults or an unrelated investigation catches it.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'medium',
+    sources: ["South Dakota Attorney General's Office (Marty Jackley)", 'South Dakota Searchlight', 'KELOLAND News'],
+    sourceUrl: 'https://atg.sd.gov/OurOffice/Media/pressreleasesdetail.aspx?id=2720',
+    country: 'US',
+    state: 'SD',
+});
