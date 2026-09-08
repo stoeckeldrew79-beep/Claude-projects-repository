@@ -4546,3 +4546,27 @@ UsGM.push({
     country: 'US',
     state: 'IA',
 });
+
+UsGM.push({
+    name: 'Mt. Sterling Romance Scam Extortion Plot (Ephraim Udouso)',
+    slug: 'kentucky-mt-sterling-udouso-romance-scam-extortion',
+    description: `Mt. Sterling, Kentucky police say an elderly woman from New York was drawn into an online romance scam that ran for roughly three years before it escalated into extortion, ultimately costing her more than $500,000. According to investigators, the victim believed she was in a long-distance relationship, sending money over an extended period to a man she had never met in person. When the woman's son discovered what was happening and reported it to New York authorities, the scammer allegedly threatened him directly, warning that a hired hitman would target him unless additional money was paid — a threat that led investigators to trace the operation to Kentucky. During the extortion attempt, the suspect "accidentally revealed" a residential address in Mt. Sterling, and on April 20, 2026, Mt. Sterling Police, working with the FBI and Homeland Security Investigations, executed a search warrant there, seizing multiple cell phones, computers, financial ledgers, and a large volume of Western Union transaction receipts. Ephraim Udouso, 43 — identified by authorities as a Nigerian national who had been serving as an ordained deacon at a Newark, New Jersey church — was arrested at the address and charged with theft by extortion of $10,000 or more, along with an unrelated Jessamine County traffic warrant, and additional charges were expected as the investigation continued. Mt. Sterling Police cautioned residents to never send money, gift cards, or personal information to an online romantic partner they have not met in person, and to be especially wary if that partner or an associated caller ever threatens a family member to pressure a payment — a tactic scammers use specifically because it short-circuits the hesitation a victim might otherwise have.`,
+    categorySlug: 'romance-scams',
+    alertLevel: 'high',
+    sources: ['WKYT', 'LEX 18', 'Fox 56 News (WDKY)'],
+    sourceUrl: 'https://www.wkyt.com/2026/04/21/elderly-woman-taken-advantage-online-scam-police-say/',
+    country: 'US',
+    state: 'KY',
+});
+
+UsGM.push({
+    name: 'Montana Medicaid Fraud Takedown: Billings, Great Falls and Helena Cases',
+    slug: 'montana-medicaid-fraud-billings-great-falls-helena',
+    description: `The Montana Department of Justice announced on June 23, 2026 that its Medicaid Fraud Control Unit had brought three separate cases against Montana health care providers, part of a coordinated national health care fraud takedown, together representing more than $1.3 million in fraudulent claims. In Billings, Alison Watt, 55, owner of Beautiful Directions Counseling, was charged with Medicaid fraud and making a false claim to a public agency after investigators found she submitted $249,587.92 in claims — netting $134,042.28 in reimbursements — for counseling services actually performed by unlicensed interns who were not authorized to bill Medicaid independently, rather than by Watt herself as billed. In Great Falls, Victoria Davenport, 60, who operated Enlightening Minds and two sober-living homes called The GYST House and The GYST House 2, was charged with two counts of Medicaid fraud, two counts of making a false claim to a public agency, and tampering with or fabricating physical evidence, after investigators say she billed Medicaid under her own name for services actually provided by unlicensed staff — including 217 claims listing her as the treating provider for dates when she was out of the country — and then submitted altered records once the investigation began; her claims totaled $2,300,729.65, with $1,243,131.17 actually reimbursed. In Helena, Laural Suydam, 46, a personal care attendant employed by A Plus Healthcare, was convicted of theft after submitting visit documentation for a patient that GPS location data and jail records contradicted, including one claimed visit on a day the patient was incarcerated; she received $3,790.87 in fraudulent reimbursements and was sentenced to a three-year suspended sentence, ordered to pay restitution, and barred from health care work for three years. Attorney General Austin Knudsen said, "At the Montana Department of Justice, we are committed to protecting hardworking Montanans' money and making sure programs for those in need aren't a payday for criminals." Montanans who suspect a home-care attendant, counselor, or sober-living operator is billing Medicaid for care that was not actually provided as described should document dates and specifics and report it to the Montana DOJ's Medicaid Fraud Control Unit rather than assuming a licensed-sounding provider is automatically legitimate.`,
+    categorySlug: 'medicare-health-plans',
+    alertLevel: 'medium',
+    sources: ['Montana Department of Justice', 'MTN News (montanarightnow.com)', 'Billings Gazette'],
+    sourceUrl: 'https://www.montanarightnow.com/montana/three-medicaid-fraud-cases-across-billings-great-falls-and-helena-ag-announces/article_dfd3ea04-dc58-42b4-bcdb-fc05b2881f73.html',
+    country: 'US',
+    state: 'MT',
+});
