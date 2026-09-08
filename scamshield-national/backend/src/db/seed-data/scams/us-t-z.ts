@@ -2337,3 +2337,15 @@ UsTZ.push({
     country: 'US',
     state: 'VA',
 });
+
+UsTZ.push({
+    name: 'Catholic Charities of Milwaukee $2 Million Employee Embezzlement Scheme',
+    slug: 'wisconsin-milwaukee-catholic-charities-employee-embezzlement-scheme',
+    description: `A federal grand jury in the Eastern District of Wisconsin indicted four people on February 3, 2026 in a fifteen-count indictment accusing them of embezzling nearly $2 million from Catholic Charities of the Archdiocese of Milwaukee over several years. Prosecutors say Brandi Ellis, the nonprofit's finance director, and Jason Flanders, its former chief financial officer, issued unauthorized checks drawn on the charity's own bank accounts to themselves and to third parties, while Ellis separately used the organization's credit cards to cover personal purchases, including at Gucci and at the Venetian/Palazzo resort in Las Vegas; a third former employee, Jezlia Barajas, and a fourth defendant with no employment ties to the charity, Ramon Hernandez, are accused of helping move and launder the stolen funds. Ellis faces the most serious exposure, charged with six counts of bank fraud, one count of money laundering conspiracy, aggravated identity theft, two counts of wire fraud, and intimidating a witness, while Flanders was charged with bank fraud and making false statements and Hernandez and Barajas each face bank fraud and money laundering conspiracy counts; all four face up to 55 years in prison if convicted on every count. The case, investigated by IRS Criminal Investigation and the FBI, shows how a trusted finance employee's day-to-day authority to cut checks and use company cards can go unchecked for years at a charity that depends on donor trust, and is a reminder that any nonprofit's board should require independent review of bank statements and credit card activity by someone outside the finance department, rather than leaving that oversight to the same staff who control the accounts.`,
+    categorySlug: 'charity-scams',
+    alertLevel: 'medium',
+    sources: ['Internal Revenue Service Criminal Investigation', 'WTMJ', 'National Catholic Register'],
+    sourceUrl: 'https://www.irs.gov/compliance/criminal-investigation/four-wisconsin-residents-charged-with-fraud-in-embezzlement-scheme',
+    country: 'US',
+    state: 'WI',
+});

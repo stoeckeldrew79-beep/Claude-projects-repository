@@ -5904,3 +5904,15 @@ UsAF.push({
     country: 'US',
     state: 'DC',
 });
+
+UsAF.push({
+    name: '"Orlando World Live" Fake Mega-Development Investment Scheme (Steven Minard)',
+    slug: 'florida-orlando-world-live-steven-minard-investment-fraud',
+    description: `Florida Attorney General James Uthmeier's office announced the arrest of Steven Harry Minard, 57, of Orlando, accusing him of defrauding a single investor out of $1 million by pitching "Orlando World Live" (OWL) as a multi-billion-dollar downtown Orlando entertainment and development project complete with futuristic themed zones, celebrity partnerships, and projected revenues exceeding $1.6 billion. A forensic financial review and interviews with more than a dozen witnesses found no such project actually existed — no permit applications or development contracts had ever been filed with the City of Orlando — and investigators say the victim's $1 million was instead diverted to cover Minard's unrelated personal and business debts. Minard was arrested on May 8, 2026 in Honolulu, Hawaii, as he attempted to board a return flight to Houston, Texas, and was booked on felony charges of scheme to defraud involving more than $50,000 and selling an unregistered security; he was held in Hawaii on an extradition warrant pending return to Florida, where Special Counsel Robert Finkbeiner is handling the prosecution. The case was investigated jointly by the Florida Office of Financial Regulation and Homeland Security Investigations offices in New York, Orlando, and Honolulu. Anyone approached with an investment opportunity tied to a splashy, unannounced "mega-project" should independently verify its existence with the relevant city or county planning department and confirm the security itself is actually registered with state or federal regulators before wiring any money, rather than relying on glossy renderings or a pitch built around celebrity name-dropping.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ['Florida Office of the Attorney General (James Uthmeier)', 'CBS12', 'News4Jax'],
+    sourceUrl: 'https://www.myfloridalegal.com/newsrelease/attorney-general-james-uthmeier-disrupts-con-mans-hawaiian-vacation-arrest-securities',
+    country: 'US',
+    state: 'FL',
+});
