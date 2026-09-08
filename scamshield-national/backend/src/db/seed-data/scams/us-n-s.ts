@@ -4036,3 +4036,15 @@ UsNS.push({
     country: 'US',
     state: 'OK',
 });
+
+UsNS.push({
+    name: 'Rhode Island "Traveling Conmen" Construction Fraud Ring (Elijah Gavin)',
+    slug: 'rhode-island-traveling-conmen-construction-fraud-elijah-gavin',
+    description: `A federal grand jury in Providence indicted Elijah Gavin, 29 — a Northern Ireland national living in the U.S. illegally who also used the names Timothy O'Reilly and Elijah Thomas — for running a multi-state construction and money-laundering fraud scheme prosecutors tied to the "Traveling Conmen Fraud Group," a network the FBI's Terrorist Screening Center has designated a Transnational Organized Crime group. According to the U.S. Attorney's Office, between October 2022 and January 2025 Gavin and his co-conspirators formed a series of short-lived construction businesses under false names and credentials, then went door to door in Rhode Island, Massachusetts, New Jersey, New York, and Pennsylvania quoting homeowners a low price for repairs before pressuring them, mid-job, to pay far more by claiming to discover major hidden damage to their foundation or home. One victim, a Rhode Island widow, was defrauded out of $850,000 for supposedly necessary foundation and basement work, and prosecutors said the group's crews typically used unlicensed day laborers, pulled no permits, and left work incomplete or substandard — in total defrauding property owners of more than $1 million. Gavin, arrested in New Jersey in January 2025, pleaded guilty in June 2025 to wire fraud conspiracy, wire fraud, money laundering, and a false statement made to enter the United States, and was sentenced on November 18, 2025 to 48 months in federal prison along with a $1,109,500 restitution order and forfeiture of $1 million in fraud proceeds. Homeowners approached by a traveling or out-of-state contractor who quotes a low up-front price and later demands far more after "discovering" urgent structural problems should get a second, independent opinion before authorizing any additional work, verify the contractor's license and permit history with their state or local licensing board, and never pay a large sum in cash or all at once to someone with no fixed local address.`,
+    categorySlug: 'home-improvement-solar',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office, District of Rhode Island", 'Homeland Security Investigations', 'The Boston Globe'],
+    sourceUrl: 'https://www.justice.gov/usao-ri/pr/british-national-sentenced-fraud-money-laundering-and-immigration-charges',
+    country: 'US',
+    state: 'RI',
+});

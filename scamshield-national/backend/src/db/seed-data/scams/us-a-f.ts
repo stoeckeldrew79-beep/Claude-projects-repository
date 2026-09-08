@@ -5916,3 +5916,15 @@ UsAF.push({
     country: 'US',
     state: 'FL',
 });
+
+UsAF.push({
+    name: 'Alaska Fake Jury Duty and Warrant Government-Impersonation Scam Surge',
+    slug: 'alaska-fake-jury-duty-warrant-government-impersonation-surge',
+    description: `The FBI's Anchorage Field Office issued a public alert on December 16, 2025 warning that Alaskans are increasingly being targeted by callers who impersonate FBI agents, state or local police, or other government officials and claim the victim missed jury duty or has an outstanding arrest warrant, then demand immediate payment to make the problem go away. Caller ID can be spoofed to display what looks like a real law-enforcement agency's number, and the FBI said scammers are increasingly using artificial intelligence to sound more convincing, applying pressure through urgency, intimidation, and fear before demanding payment by cryptocurrency, prepaid gift cards, or wire transfer. FBI Anchorage public affairs officer Chloe Martin said, "This scam isn't new, but we are certainly seeing an uptick in this type of scam here in Alaska," and the bureau noted that Alaskans lost an estimated $1.3 million to this exact type of government-impersonation scheme in 2024 alone — more than five times the losses reported the year before. The FBI stressed that no legitimate court, police department, or federal agency resolves a missed jury summons or an active warrant with a same-call demand for cryptocurrency or gift cards, and urged anyone who receives such a call to hang up without providing personal information or payment, then independently verify the claim by calling the courthouse or law enforcement agency using a phone number they look up themselves, and to report the attempt to the FBI's Internet Crime Complaint Center at IC3.gov.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['FBI Anchorage Field Office', 'Alaska Beacon', 'Anchorage Daily News'],
+    sourceUrl: 'https://alaskabeacon.com/2025/12/16/scammers-posing-as-law-enforcement-or-government-officials-target-alaskans-fbi-warns/',
+    country: 'US',
+    state: 'AK',
+});
