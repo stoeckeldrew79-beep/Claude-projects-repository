@@ -5880,3 +5880,15 @@ UsAF.push({
     country: 'US',
     state: 'CA',
 });
+
+UsAF.push({
+    name: 'North Little Rock FTC-Impersonation Cash Courier Scam (Donovan Anderson)',
+    slug: 'arkansas-north-little-rock-ftc-impersonation-cash-courier-anderson',
+    description: `An elderly North Little Rock couple got a call on May 11, 2026 from someone claiming to be with the Federal Trade Commission, telling the wife that her Social Security number had been compromised and that warrants were out for her arrest on human-trafficking and child-pornography charges unless she cooperated with an "undercover agent" to clear her name. Terrified, the couple withdrew $80,000 in cash and handed it to a courier at a North Little Rock QuikTrip on May 13, then withdrew another $80,000 and handed it over at a Maumelle Walmart three days later — a total of $160,000 lost before they reported the fraud to the Pulaski County Sheriff's Office on May 20. Investigators traced a Kia used in the pickups to Texas and, after a public appeal for help identifying the pair, arrested Donovan Xavier Anderson, 31, in San Antonio in August 2026 on felony charges of theft and using another person's property to commit a crime; a co-defendant, Shameka Brown, 29, remains wanted on the same charge. No real federal agency — the FTC included — investigates identity theft or clears an arrest warrant by sending a courier to a gas station or big-box parking lot to collect cash; anyone told to withdraw savings and hand it to a stranger to "protect" themselves from prosecution should hang up and call the agency directly using a number they look up themselves, and should alert the Pulaski County Sheriff's Office or the Arkansas Attorney General's Office if it has already happened.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ["Pulaski County Sheriff's Office", 'Arkansas Democrat-Gazette', 'Northwest Arkansas Democrat-Gazette'],
+    sourceUrl: 'https://www.nwaonline.com/news/2026/aug/17/texas-man-arrested-in-160000-scam-of-north-little/',
+    country: 'US',
+    state: 'AR',
+});
