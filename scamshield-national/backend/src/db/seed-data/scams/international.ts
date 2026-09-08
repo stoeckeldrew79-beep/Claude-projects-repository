@@ -11200,3 +11200,36 @@ International.push(
     country: 'MC',
   },
 );
+
+International.push(
+  {
+    name: `MTN Mobile Money "Prize" Impersonation Scam`,
+    slug: 'guinea-mtn-mobile-money-prize-impersonation-scam',
+    description: `MTN Guinée issued a public warning after identifying a wave of Mobile Money fraud in which callers falsely claiming to be MTN Guinée employees contact customers to tell them they have won a prize, then instruct them to send a Mobile Money transfer — sometimes framed as a "processing" or "unlock" fee — before the supposed winnings can be released. The company stated plainly that "des personnes se faisant passer pour des employés de MTN Guinée inviteraient les clients à retirer des cadeaux en échange d'un transfert d'argent" ("people posing as MTN Guinée employees invite customers to collect gifts in exchange for a money transfer"), and clarified that its only legitimate promotional contact line is 664 22 22 22. MTN said it would not be held responsible for money lost to these impersonators and urged customers never to share their four-digit Mobile Money PIN with anyone, including someone claiming to work for MTN, since a genuine prize or promotion never requires a customer to pay or transfer money first. The company asked anyone contacted this way to report it to MTN customer service by dialing 111 or through www.mtn.com.gn rather than acting on the caller's instructions.`,
+    categorySlug: 'lottery-sweepstakes-scams',
+    alertLevel: 'medium',
+    sources: ['MTN Guinée', 'Africaguinee.com'],
+    sourceUrl: 'https://www.africaguinee.com/mtn-guinee-lance-une-alerte-sur-des-cas-d-arnaque-mobile-money-communique/',
+    country: 'GN',
+  },
+  {
+    name: `Fake Orange Money "Ramadan Gift" Link Scam`,
+    slug: 'guinea-orange-money-ramadan-gift-link-scam',
+    description: `In February 2026, a fraudulent link began circulating on WhatsApp and social media in Guinea falsely promising recipients a "Ramadan gift" of 2,600,000 Guinean francs, styled to look like an official Orange Money promotion and often shared alongside a fabricated personal testimonial from someone who claims to have already received the money, a tactic designed to make the offer feel socially verified before the victim reads a single detail. The link itself routes to a lookalike site hosted on a throwaway ".buzz" domain rather than any genuine Orange Guinée property, and clicking through leads victims into handing over personal or Mobile Money account details under the pretext of "claiming" the gift. Fact-checkers at Bambouguinée, working with Orange Guinée, confirmed the offer was fake and noted that Orange's real promotions are announced exclusively through its own verified channels — its official website, app, and confirmed social media pages — never through a personal-testimonial link forwarded by strangers. Orange's own guidance to customers is direct: never respond to an unknown call or message asking for a balance check or a transfer, since that pattern is characteristic of fraud. Guinean Mobile Money users who encounter the link or a similar one are advised not to click it or enter any information, and to report it either to Orange via WhatsApp at +224 611 00 00 00 or the Max It app, or to Bambouguinée's verification desk.`,
+    categorySlug: 'phishing',
+    alertLevel: 'high',
+    sources: ['Bambouguinée', 'Orange Guinée'],
+    sourceUrl: 'https://bambouguinee.com/2026/02/23/arnaque-au-cadeau-de-ramadan-le-lien-promettant-2-600-000-gnf-est-une-fausse-offre-dorange-money/',
+    country: 'GN',
+  },
+  {
+    name: 'Orange Money Kiosk PIN-Theft and Phone-Swap Scam',
+    slug: 'guinea-orange-money-kiosk-pin-theft-phone-swap-scam',
+    description: `Guinea's Central Directorate of Judicial Police (DCPJ) presented two suspects to the press on August 26, 2024 after dismantling a network accused of stealing a combined 478,171,173 Guinean francs from Orange Money kiosk operators across roughly twenty separate complaints in Conakry. Commissaire Principal Mathieu Kolié described a consistent modus operandi: members of the group first visit a targeted kiosk to make a small, ordinary-looking transaction, using that visit to watch and memorize the operator's four-digit Mobile Money PIN as they type it in; a second visit follows with an accomplice carrying a phone of the same make and model as the operator's till phone, and during a moment of distraction the two devices are swapped — leaving the operator still holding what looks like their own phone while the real till device, now in the fraudsters' hands, is drained into an accomplice's account using the PIN they had already memorized. One kiosk manager, Daouda Diallo, told police he lost 7,250,000 Guinean francs plus his commission after suspects swapped his device during what appeared to be a routine withdrawal. Kolié said the group operated in coordinated pairs and had struck before, including an earlier theft of 81 million Guinean francs from a kiosk in the Kipé neighborhood in April 2024; video surveillance footage from a targeted kiosk helped investigators identify and arrest the suspects. Orange Money agents are advised to shield their PIN entry from anyone nearby regardless of how routine a transaction looks, to keep physical control of their till phone at all times rather than setting it down during a transaction, and to check that the phone in their hand is genuinely their own device before and after every customer interaction.`,
+    categorySlug: 'account-takeover',
+    alertLevel: 'high',
+    sources: ['Guinéenews', 'Direction Centrale de la Police Judiciaire (DCPJ) de Guinée'],
+    sourceUrl: 'https://guineenews.org/2024/08/26/arnaque-a-conakry-pres-de-500-millions-gnf-voles-aux-gerants-orange-money-par-des-eleves/',
+    country: 'GN',
+  },
+);
