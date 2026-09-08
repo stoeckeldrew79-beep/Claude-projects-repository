@@ -10742,3 +10742,26 @@ International.push(
     country: 'KN',
   },
 );
+
+International.push(
+  {
+    name: 'St. Vincent and the Grenadines Fake Forex Broker TCIAS',
+    slug: 'st-vincent-grenadines-fake-forex-broker-tcias',
+    description: `The St. Vincent and the Grenadines Financial Services Authority (FSA) issued a warning notice on October 14, 2025 alerting the public that an outfit calling itself TCIAS is not registered in St. Vincent and the Grenadines despite presenting a purported company number to appear legitimate. The FSA said any documents TCIAS provides claiming incorporation, registration, formation, licensing, or affiliation with the Authority are false and forged, and that the fabricated registration number is itself part of the deception. The Authority reiterated that it does not issue Forex or brokerage licenses in the jurisdiction at all, and that any Business Company or Limited Liability Company incorporated there that engages in forex trading with overseas clients must instead be licensed in the country where those clients are actually located — meaning a St. Vincent company number can never, by itself, make a forex broker legitimate. The FSA urged anyone approached by TCIAS, or any similarly unregistered "forex broker" claiming St. Vincent and the Grenadines credentials, to independently verify registration status directly with the Authority before depositing any funds, since dealing with an entity presenting forged incorporation documents leaves victims with essentially no legal recourse once money is sent.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ['St. Vincent and the Grenadines Financial Services Authority (FSA)'],
+    sourceUrl: 'https://fsasvg.com/warning-notice-tcias/',
+    country: 'VC',
+  },
+  {
+    name: 'St. Vincent and the Grenadines Unauthorized Crypto Exchange Marella LLC (Changelly)',
+    slug: 'st-vincent-grenadines-unauthorized-crypto-exchange-marella-changelly',
+    description: `The St. Vincent and the Grenadines Financial Services Authority (FSA) issued an investor alert on May 4, 2026 warning that Marella LLC, operating the cryptocurrency exchange service Changelly, is not registered, licensed, or authorized to conduct virtual asset business in the jurisdiction. The FSA said Marella LLC's limited liability company registration was actually cancelled on July 25, 2025 and has never been restored, leaving the entity with no legal status in St. Vincent and the Grenadines at all — yet the Authority had received information indicating it continued operating activity that meets the definition of "Virtual Asset Business" under the country's Virtual Asset Business Act No. 9 of 2022, without ever applying for the registration that law requires. The FSA stated plainly that any representation by Marella LLC or Changelly suggesting it is registered, licensed, regulated, or otherwise authorized in St. Vincent and the Grenadines is false and misleading. The alert underscores a pattern regulators have flagged across the crypto industry: a company can keep citing an offshore jurisdiction's name and an old registration long after that registration has lapsed, so anyone considering depositing funds with a crypto exchange should verify its current — not historical — registration status directly with the regulator it claims before trusting the platform with money.`,
+    categorySlug: 'cryptocurrency-scams',
+    alertLevel: 'medium',
+    sources: ['St. Vincent and the Grenadines Financial Services Authority (FSA)'],
+    sourceUrl: 'https://fsasvg.com/warning-notice-marella-llc-trading-as-changelly/',
+    country: 'VC',
+  },
+);
