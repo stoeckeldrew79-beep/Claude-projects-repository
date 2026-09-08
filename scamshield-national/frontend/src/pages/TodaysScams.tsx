@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { useSearchParams } from 'react-router-dom';
-import { useDailyScamNews, useDailyNewsStates } from '../hooks/useDailyNews';
+import { useInfiniteDailyScamNews, useDailyNewsStates } from '../hooks/useDailyNews';
+import { useInfiniteScroll } from '../hooks/useInfiniteScroll';
 import { useDocumentMeta } from '../hooks/useDocumentMeta';
 import { DailyScamNews } from '../types';
 import { BlurFade } from '../components/magicui/blur-fade';
@@ -56,7 +57,24 @@ export default function TodaysScams() {
   const [searchParams] = useSearchParams();
   const initialState = (searchParams.get('state') ?? '').toUpperCase();
   const [state, setState] = useState<string>(/^[A-Z]{2}$/.test(initialState) ? initialState : '');
-  const { data: news, isLoading, isError } = useDailyScamNews(state || undefined);
+  const {
+    data: newsPages,
+    isLoading,
+    isError,
+    fetchNextPage,
+    hasNextPage,
+    isFetchingNextPage,
+  } = useInfiniteDailyScamNews(state || undefined);
+  const news = newsPages?.pages.flat();
+  // Fetch a few rows before the end so the list grows under the reader
+  // rather than stopping and then jumping.
+  const triggerIndex = Math.max(0, (news?.length ?? 0) - 4);
+  const setTrigger = useInfiniteScroll(
+    () => {
+      if (hasNextPage && !isFetchingNextPage) fetchNextPage();
+    },
+    Boolean(hasNextPage) && !isFetchingNextPage
+  );
   const { data: stateCounts } = useDailyNewsStates();
 
   const selected = stateCounts?.find((s) => s.state === state);
@@ -129,10 +147,16 @@ export default function TodaysScams() {
 
       <div className="mt-8 space-y-3">
         {news?.map((item, i) => (
-          <BlurFade key={item.id} delay={0.03 + i * 0.02} inView>
-            <NewsRow item={item} />
+          // The stagger is per-screenful, not per-item: on an infinite list a
+          // delay of i * 0.02 means the three-hundredth row waits six seconds
+          // before it appears, which reads as the page having stopped loading.
+          <BlurFade key={item.id} delay={0.03 + (i % 8) * 0.02} inView>
+            <div ref={i === triggerIndex ? setTrigger : undefined}>
+              <NewsRow item={item} />
+            </div>
           </BlurFade>
         ))}
+        {isFetchingNextPage && <p className="pt-2 text-sm text-slate-500">Loading more…</p>}
         {news && news.length === 0 && (
           <p className="text-slate-500">
             {state
