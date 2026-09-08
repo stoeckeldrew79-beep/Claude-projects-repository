@@ -4260,3 +4260,27 @@ UsGM.push({
     country: 'US',
     state: 'MA',
 });
+
+UsGM.push({
+    name: 'Wells Fargo "Compromised Account" Cash-Mailing Scam Intercepted',
+    slug: 'idaho-wells-fargo-compromised-account-ups-interception',
+    description: `Criminals posing as Wells Fargo financial-crimes investigators called an Idaho resident and told them their bank account had been "compromised," instructing the victim to withdraw $14,000 in cash and ship it via UPS overnight delivery to an address in Florida for "safekeeping." The victim complied and sent the package — but had second thoughts afterward and contacted investigators at the Idaho Attorney General's Consumer Protection Division rather than waiting to see what happened. Investigators moved quickly, coordinating with UPS fraud-prevention specialists, a nationwide fraud-prevention network, and the Office of the Florida Attorney General to physically intercept the package before it ever reached the scammers, and returned the full $14,000 to the victim. Attorney General Raúl Labrador announced the recovery on August 11, 2026, calling it a rare case of stopping a crime in progress: "I'm grateful for the quick action of my investigators at the Consumer Protection Division. They work hard to protect Idaho families from scams every day through education and awareness, but it's rare to stop a crime in progress, especially of this magnitude. It's always easier to prevent a scam than it is to financially recover from one." No legitimate bank ever asks an account holder to withdraw cash and mail or courier it anywhere, to any address, for "safekeeping" — that instruction is the scam itself, regardless of how official the caller sounds or what caller ID displays. Anyone who receives such a call should hang up and contact their bank directly using the number on the back of their card or a statement, and can report the attempt to the Idaho Attorney General's office at ReportScamsIdaho.com.`,
+    categorySlug: 'account-takeover',
+    alertLevel: 'high',
+    sources: ["Idaho Office of the Attorney General (Raúl Labrador)", 'Idaho Business Review', 'Gem State Chronicle'],
+    sourceUrl: 'https://www.ag.idaho.gov/newsroom/banking-scam-stopped-by-ag-labradors-consumer-protection-investigators/',
+    country: 'US',
+    state: 'ID',
+});
+
+UsGM.push({
+    name: 'Louisiana Medicaid Fraud Control Unit 21-Arrest Statewide Sweep',
+    slug: 'louisiana-medicaid-fraud-control-unit-21-arrest-sweep',
+    description: `Louisiana Attorney General Liz Murrill announced on July 1, 2026 that her office's Medicaid Fraud Control Unit — recently elevated to a standalone division within the Louisiana Department of Justice — had arrested 21 people in a statewide crackdown on Medicaid fraud and the abuse or neglect of vulnerable people in home- and residential-care settings. Investigators say the cases followed a common pattern among direct-service and personal-care workers: billing Medicaid for care visits that never happened, including for stretches when a recipient was actually hospitalized, in daycare, incarcerated, or had already moved and stopped receiving services, along with false CPR certification records and falsified insurance documentation used to keep the fraudulent billing looking legitimate. Individual case amounts ranged from $527.27 to $416,039.56, and some cases also involved allegations of physical abuse or battery against people with infirmities. Suspects were located across Louisiana as well as in Mississippi and Texas. The sweep brought the total number of people charged in Louisiana's Medicaid fraud and abuse crackdown in residential facilities to 95, on top of 37 separate arrests of benefit recipients accused of fraudulently obtaining Medicaid themselves; the Louisiana Department of Health separately reported reviewing more than 4,200 fraud complaints that year, recovering over $9 million in overpayments and penalties, and removing more than 100 providers from the Medicaid program. "I will not stop until the people's money is returned and those who break the law face Louisiana justice," Murrill said, adding that tax dollars meant for people in need should never be exploited for personal gain. Families with a loved one in home- or residential-care should compare Medicaid explanation-of-benefits statements against an actual visit log or calendar and report any billed date, service, or provider that does not match reality to the Attorney General's Medicaid Fraud Control Unit.`,
+    categorySlug: 'healthcare-fraud',
+    alertLevel: 'medium',
+    sources: ["Louisiana Attorney General's Office (Liz Murrill)", 'WBRZ', 'WAFB'],
+    sourceUrl: 'https://www.wafb.com/2026/07/01/fighting-fraud-if-youre-stealing-louisiana-taxpayers-were-coming-after-you/',
+    country: 'US',
+    state: 'LA',
+});
