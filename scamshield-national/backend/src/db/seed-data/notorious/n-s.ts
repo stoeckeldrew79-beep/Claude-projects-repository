@@ -3470,4 +3470,20 @@ A federal grand jury in the Southern District of New York indicted Poyiadjis and
 
 The AremisSoft case is a study in how differently a single fraud can end for the people who ran it. One founder came home, cooperated, and walked away from a $565 million fraud with no time behind bars in exchange for the largest individual disgorgement the SEC had obtained up to that point — a trade regulators judged worth making to recover money for defrauded shareholders. The other simply never came back, and a government that could indict him has had no way to make him answer for it, a reminder that even a U.S. federal indictment is only as powerful as the willingness of a foreign government to enforce it.`,
   },
+  {
+    title: 'Sergei Polonsky: The Property Tycoon Russia Convicted of Fraud and Then Let Go',
+    slug: 'sergei-polonsky-mirax-group-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://www.themoscowtimes.com/2017/07/13/convicted-polonsky-walks-free-court-a58380',
+    body: `Sergei Polonsky built Mirax Group into one of Russia's largest property developers during the country's 2000s construction boom, putting his name behind Federation Tower, at the time planned as Europe's tallest skyscraper, in Moscow's new financial district. By 2008, Forbes estimated his fortune at more than a billion dollars, and at a real estate conference in Cannes that March, Polonsky delivered the line that would follow him for the rest of his career: "Anyone who doesn't have a billion can go to hell."
+
+The 2008 global financial crisis answered that boast within months. Mirax's debt-fueled developments stalled as credit dried up, and the company defaulted on loans and construction obligations across multiple projects. Among the hardest hit were two luxury residential complexes on the outskirts of Moscow, Kutuzovskaya Milya and Rublyovo Riviera, sold under Russia's shared-equity construction system, in which buyers pay for apartments years before they're built. Investigators later found that Polonsky and two associates, Alexander Paperno and Alexei Pronyakin, had misappropriated roughly 2.6 billion rubles (about $41 million) of the money those buyers paid in, out of funds regulators said may have totaled as much as $175 million in exposure across Polonsky's stalled projects.
+
+Rather than face the investigation, Polonsky left Russia in 2011 and eventually settled in Cambodia, where his troubles multiplied for reasons that had nothing to do with the fraud case: in December 2012, he was accused of assaulting the crew of a boat during a New Year's Eve outing, allegedly threatening the captain with a knife and forcing several people to jump overboard, and he spent more than three months in a Cambodian jail before the case was settled. Cambodian authorities ultimately deported him to Russia in 2015 to face the embezzlement charges that had been waiting for him since 2013.
+
+A Moscow court tried Polonsky and his two co-defendants on the fraud counts, and on July 12, 2017, the judge found all three guilty of large-scale embezzlement, initially setting Polonsky's sentence at five years. But the court then ruled that the statute of limitations on the underlying offense had already expired by the time of the verdict, releasing him from having to serve any of it — he walked out of the courtroom a convicted fraudster who would spend no further time behind bars. His co-defendants, whose cases weren't shielded by the same timing, were sentenced to three and two years respectively.
+
+Polonsky's case is an unusual one in the annals of white-collar fraud: it didn't end in acquittal, and it didn't end in exoneration — a Russian court found, on the record, that he had defrauded the ordinary buyers who paid into his developments before they collapsed. It simply ended without punishment, because enough years had passed between the fraud and the verdict for the clock to run out. For the thousands of people left holding contracts for apartments that Mirax never finished, the distinction between "guilty" and "punished" was academic.`,
+  },
 );
