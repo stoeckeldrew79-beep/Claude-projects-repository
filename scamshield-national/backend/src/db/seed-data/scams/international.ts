@@ -10942,3 +10942,16 @@ International.push(
     country: 'BF',
   },
 );
+
+International.push(
+  {
+    name: 'Marshall Islands Public School System Facebook Impersonation Scam',
+    slug: 'marshall-islands-public-school-system-facebook-impersonation-scam',
+    description: `The Republic of the Marshall Islands Public School System (RMIPSS) issued a public "Scam Alert" on its official Facebook page on June 6, 2025, after receiving urgent reports of fraudulent posts circulating on social media that impersonated the school system's leadership. The fake posts used photographs and fabricated statements attributed to RMIPSS officials to lend the scheme an air of authority, then used that borrowed credibility to push bogus investment or quick-money offers, fake giveaways and lottery-style prize claims, and urgent pleas for financial help, all designed to pressure recipients into sending money or personal details before they had time to question the source. RMIPSS stressed that none of the posts were genuine and that the agency does not solicit money or personal information through social media, urging the public not to click suspicious links or share banking credentials, passwords, or other personal data with the accounts, and to report any fraudulent posts directly to Facebook using the platform's "Scam or Fraud" reporting option. The alert reflects a broader pattern across the Pacific region, where scammers borrow the names and photos of trusted local institutions to make social-media impersonation schemes look credible to residents.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Republic of the Marshall Islands Public School System (RMIPSS)'],
+    sourceUrl: 'https://www.facebook.com/rmipss/posts/scam-alert-urgent-noticeweve-received-urgent-reports-of-fraudulent-posts-on-soci/1176356914505464/',
+    country: 'MH',
+  },
+);
