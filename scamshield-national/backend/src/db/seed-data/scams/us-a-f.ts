@@ -6084,3 +6084,15 @@ UsAF.push({
     country: 'US',
     state: 'AL',
 });
+
+UsAF.push({
+    name: `Schwalb Builders "Never-Finished" Remodel Racketeering Scheme (Avi Schwalb)`,
+    slug: 'colorado-denver-schwalb-builders-remodel-racketeering',
+    description: `Brothers Sean Schwalb and Avi Schwalb ran two Denver-area home remodeling companies, Schwalb Builders and Avi's Remodeling and Contracting, that the Colorado Attorney General says spent from July 2021 to December 2024 soliciting remodeling contracts, collecting large upfront customer deposits, and then either abandoning the projects mid-demolition or performing substandard work — leaving homeowners' houses damaged and uninhabitable while the company kept the money. A statewide grand jury indictment, announced January 10, 2025, charged the Schwalbs along with three employees, Kevin Allbritton, Michael Stein, and Blanca Dominguez, with racketeering and conspiracy under the Colorado Organized Crime Control Act plus 32 counts of felony theft, after a bank-account analysis by investigators found $1,145,271 in customer deposits that were never spent on the projects they were paid for and never returned. In February 2026 a Denver jury convicted Avi Schwalb on all 47 felony counts against him — theft, money laundering, and violating the state organized-crime law — finding he personally stole more than $1.4 million from homeowners, and on April 14, 2026 a Denver District Court judge sentenced him to 10 years in the Colorado Department of Corrections; former project manager Kevin Allbritton took a plea deal and received two years of probation, while the remaining co-defendants awaited trial. "Homeowners place a lot of trust in contractors to complete the work they agreed to do," Attorney General Phil Weiser said. "The scope and impact of the defendant's criminal acts was significant." The case, prosecuted by the Attorney General's Special Prosecutions Unit, is a reminder to pay contractors in installments tied to completed, inspected work rather than large deposits up front, to check a contractor's license and any pending complaints with the state before signing, and to report a contractor who stalls or abandons a remodel to the Colorado Attorney General's Office rather than assuming it is simply a scheduling problem.`,
+    categorySlug: 'home-improvement-solar',
+    alertLevel: 'high',
+    sources: ['Colorado Attorney General (Phil Weiser)', 'Denver7 Investigates', 'ColoradoBiz Magazine'],
+    sourceUrl: 'https://coag.gov/press-releases/contractor-sentenced-to-10-years-for-felony-theft-in-home-remodeling-fraud-scheme/',
+    country: 'US',
+    state: 'CO',
+});

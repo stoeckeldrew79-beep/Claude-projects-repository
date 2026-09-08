@@ -4462,3 +4462,15 @@ UsGM.push({
     country: 'US',
     state: 'IL',
 });
+
+UsGM.push({
+    name: `Johnston Roofer's Painted-Over Roof Insurance Fraud (Shawn Heuss)`,
+    slug: 'iowa-johnston-heuss-allure-roofing-insurance-fraud',
+    description: `Shawn Heuss, 46, of Johnston, Iowa, owner of Allure Roofing & Construction, filed a claim with his own homeowner's insurer in September 2024 for weather-related roof damage, and after the company approved the repairs and issued an initial actual-cash-value payment, investigators with the Iowa Insurance Division's Fraud Bureau say he never made them. Instead, according to the Division, Heuss painted part of the roof to make it look freshly repaired and created a fraudulent completion invoice from his own construction company, then submitted that fake invoice to his insurer on January 2, 2025 to collect the additional recoverable-depreciation payment reserved for homeowners who actually complete approved repairs. He was arrested on October 30, 2025 and booked into the Polk County Jail on charges of Fraudulent Submission, Theft in the Second Degree, and Fraudulent Practice in the Second Degree, all class D felonies, along with an unrelated failure-to-appear warrant. Trade-press reporting on the case also surfaced a fifteen-year financial history behind the business, including more than $50,000 in Polk County civil judgments and a 2020 Chapter 7 bankruptcy listing over $450,000 in liabilities to roofing suppliers and high-interest lenders. While this case involves a homeowner defrauding his own insurer rather than a contractor defrauding a customer, the Iowa Insurance Division warns the reverse is far more common after a storm: a roofing company offers to "handle the whole insurance claim," inflates or fabricates the scope of repairs, and pockets the difference between what was actually done and what the insurer paid — so homeowners should independently verify that any roofing work billed to their insurer was actually completed to the approved scope, request dated photos of the finished repair, and report a suspicious claim or invoice to the Iowa Insurance Division's Fraud Bureau.`,
+    categorySlug: 'insurance-fraud',
+    alertLevel: 'medium',
+    sources: ['Iowa Insurance Division', 'RoofingInsights.com'],
+    sourceUrl: 'https://iid.iowa.gov/press-release/2025-11-05/johnston-contractor-arrested-insurance-fraud',
+    country: 'US',
+    state: 'IA',
+});

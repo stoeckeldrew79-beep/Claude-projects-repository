@@ -2493,3 +2493,15 @@ UsTZ.push({
     country: 'US',
     state: 'WY',
 });
+
+UsTZ.push({
+    name: 'Sterling "Fake Real Estate Agent" Rental Deposit Scheme (Kimberly Vu)',
+    slug: 'virginia-sterling-loudoun-vu-fake-real-estate-agent-rental-scam',
+    description: `Kimberly Vu, 45, of Sterling, Virginia, posed online as a real estate agent offering homes, townhouses, and rooms for rent across Loudoun County, according to the Loudoun County Sheriff's Office, collecting security deposits and first month's rent from prospective tenants who found her listings on sites like Facebook Marketplace and then never received the housing she promised. In some instances investigators say Vu had rented the property herself and staged it to look available, collecting money from a victim while never intending to hand over a key, and in at least one case a victim, Prathyusha Aavula, said Vu changed the locks and seized her belongings — including her passport, clothing, and jewelry — after she had already moved in, telling her "I don't know you" when she tried to get back inside. Another victim, Tiffany Najera, told reporters she paid $7,500 toward a rental that kept getting pushed back with excuses before Vu stopped responding and never refunded the money, while a third victim, Luqman Al-Rashad, paid $3,100 for a basement unit and was left without housing for three weeks. A Loudoun County grand jury indicted Vu on May 18, 2026 on 26 counts of obtaining money by false pretenses; a second indictment weeks later added 15 more counts of the same charge along with abduction of a minor, contributing to the delinquency of a minor, and assault and battery. Sheriff Mike Chapman's office estimates Vu took more than $100,000 from the 26 victims named in the charges alone, and says additional victims have come forward since her arrest. Renters are urged to insist on touring a property and meeting the purported landlord or agent in person before paying anything, to verify a real estate agent's license through the Virginia Department of Professional and Occupational Regulation, and to pay a deposit only after signing a lease that names the actual property owner — never by wire transfer, cash app, or gift card to someone who has offered no in-person proof they control the unit.`,
+    categorySlug: 'rental-housing',
+    alertLevel: 'high',
+    sources: ['Loudoun County Sheriff\'s Office', 'WJLA/ABC7', 'FOX 5 DC'],
+    sourceUrl: 'https://www.loudoun.gov/m/newsflash/home/detail/10645',
+    country: 'US',
+    state: 'VA',
+});
