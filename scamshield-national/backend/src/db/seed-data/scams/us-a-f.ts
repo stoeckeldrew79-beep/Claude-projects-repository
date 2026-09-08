@@ -5907,3 +5907,15 @@ UsAF.push({
     country: 'US',
     state: 'AK',
 });
+
+UsAF.push({
+    name: 'Kovack Advisors Falsified Personnel Records During Regulator Probe',
+    slug: 'delaware-kovack-advisors-falsified-personnel-records-penalty',
+    description: `The Delaware Department of Justice's Investor Protection Unit announced on November 21, 2025 that it had reached a nearly $1 million settlement with Kovack Advisors, Inc. and its affiliated broker-dealer after finding the firm gave regulators inaccurate information and, once questioned, fabricated records to cover the gap. Investigators found Kovack had filed incomplete and inaccurate registration paperwork that omitted a prior investigation into one of its representatives, failed to adequately supervise its employees, and did not preserve required business records — but the penalty grew heavier because, after DOJ investigators specifically asked about missing pre-employment compliance letters for dozens of representatives, the firm generated the missing letters after the fact, backdated them, and filed them into personnel records mislabeled as "2nd Requests" rather than disclosing they had never existed. Under the settlement, Kovack agreed to pay $995,180 in penalties and costs without admitting or denying the findings, and to purge the fabricated letters from its files. Attorney General Kathy Jennings said firms "may not mislead the very regulators tasked with monitoring them," underscoring that the securities industry's self-reporting obligations only work if firms answer truthfully the first time. Delaware investors who work with a financial adviser can check that adviser's and firm's actual disciplinary and registration history directly through FINRA BrokerCheck or the SEC's Investment Adviser Public Disclosure database, rather than relying on what the firm itself chooses to say about its record.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'medium',
+    sources: ['Delaware Department of Justice, Investor Protection Unit'],
+    sourceUrl: 'https://news.delaware.gov/2025/12/02/delaware-doj-obtains-nearly-1-million-penalty-from-kovack-investment-advisory-firm/',
+    country: 'US',
+    state: 'DE',
+});

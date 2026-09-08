@@ -2349,3 +2349,27 @@ UsTZ.push({
     country: 'US',
     state: 'WI',
 });
+
+UsTZ.push({
+    name: "Barre Woman's Fake-Grief Bond Drains Elderly Vermonter's Home Sale Proceeds",
+    slug: 'vermont-barre-jessica-russell-elder-power-of-attorney-fraud',
+    description: `Jessica Russell, 42, of Barre, Vermont, befriended an elderly Vermont woman who had lost a son, calling her "mom" and falsely claiming she herself had lost a child to build a fast emotional bond — then, as the victim's health and mental state declined, had the woman grant her power of attorney and open a joint checking account with her. When the victim's home sold for more than $132,000, the proceeds flowed into that joint account, and prosecutors say Russell used roughly $68,000 of it to buy her own house in Barton, Vermont and more than $16,000 to buy a 2017 Mitsubishi SUV, titling both in her own name and falsely telling others she had paid for them herself or inherited them — draining the victim of more than $84,000 in total. Russell pleaded guilty on January 17, 2025 before Chief U.S. District Judge Christina Reiss to two counts of wire fraud, with a sentencing hearing set for June 12, 2025 in Burlington. The case shows how a power of attorney, once granted, is rarely double-checked by a bank or anyone else — families arranging one for an aging relative are advised to require a co-signer or independent second party who receives copies of every account statement, and to treat a sudden new "best friend" who becomes involved in a vulnerable relative's finances as a reason for closer scrutiny, not less.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office, District of Vermont", 'Times Argus'],
+    sourceUrl: 'https://www.justice.gov/usao-vt/pr/barre-vermont-woman-pleads-guilty-wire-fraud-elder-victim',
+    country: 'US',
+    state: 'VT',
+});
+
+UsTZ.push({
+    name: 'Fake State Business-Filing-Fee Mailer Scheme (Johnny Nguyen)',
+    slug: 'washington-johnny-nguyen-fake-filing-fee-mailer-scheme',
+    description: `In the fall of 2024, Johnny Q. Nguyen, a San Jose, California man and former U.S. Postal Service employee, mass-mailed thousands of Washington and California businesses and charities official-looking billing statements printed on fake government letterhead, falsely claiming they owed a "business entity default fee and annual report filing fee" totaling $230 "to ensure the business remains in good standing with the state," and directing them to mail a check to a post office box Nguyen had rented in Olympia, Washington, made payable to an LLC he had set up called "Business Entities." A federal grand jury in Tacoma indicted Nguyen on 11 counts of mail fraud and money laundering; prosecutors say he deposited roughly 350 checks from Washington victims totaling $82,210 and cashed another 60 California checks worth $8,640 before investigators seized 1,711 additional pieces of mail containing checks and money orders worth $395,295 that victims had sent but Nguyen had not yet cashed. After being charged, Nguyen boarded a flight from San Francisco to Taipei, Taiwan, en route to Vietnam on June 24, 2025 using a passport he had not surrendered to the court, but was detained by authorities in Taiwan and returned to California into custody. Nguyen pleaded guilty to mail fraud, agreeing to pay $90,850 in restitution, with sentencing before Chief U.S. District Judge David G. Estudillo scheduled for May 22, 2026. A legitimate state filing-fee notice never arrives as an unsolicited mailer directing payment to a post office box or a private LLC's name; any business or charity that gets a filing-fee bill should verify it directly through the Washington Secretary of State's or its own state's business-registration portal before mailing a check to the address the notice itself provides.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office, Western District of Washington", 'Washington State Standard', 'KIRO 7 News'],
+    sourceUrl: 'https://www.justice.gov/usao-wdwa/pr/former-postal-worker-pleads-guilty-mail-fraud-scheme-aimed-defrauding-state-businesses',
+    country: 'US',
+    state: 'WA',
+});
