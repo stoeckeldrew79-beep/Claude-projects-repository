@@ -4354,3 +4354,27 @@ UsGM.push({
     country: 'US',
     state: 'MA',
 });
+
+UsGM.push({
+    name: 'Montevideo Power-of-Attorney Financial Exploitation of a Nursing-Home Mother (Steven Berg)',
+    slug: 'minnesota-chippewa-county-steven-berg-mother-financial-exploitation',
+    description: `Minnesota Attorney General Keith Ellison's Medicaid Fraud Control Unit charged Steven Berg, of the Montevideo area in Chippewa County, with three felony counts of financial exploitation of a vulnerable adult after investigators found he used his position as power of attorney and co-signer on his elderly mother's bank accounts to divert more than $90,000 of her money for himself between February 2024 and March 2025. Berg's mother, identified in charging documents as M.B., lived in a nursing home during the period in question; prosecutors allege Berg arranged for her to be transported from the facility to the bank, where he withdrew thousands of dollars at a time for his own use — including paying his personal property taxes — while her own medical bills went unpaid. Ellison announced the charges on December 9, 2025, saying "everyone deserves to afford their lives and live with dignity, safety, and respect, but all too often, financial exploitation robs older Minnesotans of those essentials." The case illustrates why banks and elder-law attorneys recommend that a power of attorney arrangement include a second family member or independent party who receives copies of account statements, since a sole agent who is also a co-signer on the account can move money out with no one else positioned to notice until bills go unpaid or a balance runs unexpectedly low.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'medium',
+    sources: ['Minnesota Attorney General (Keith Ellison)'],
+    sourceUrl: 'https://www.ag.state.mn.us/Office/Communications/2025/12/09_Berg.asp',
+    country: 'US',
+    state: 'MN',
+});
+
+UsGM.push({
+    name: 'Boyce Trust Tax-Refund Fraud and IRS Obstruction (Jane Frances Pierce)',
+    slug: 'louisiana-boyce-jane-pierce-trust-tax-refund-fraud',
+    description: `A federal grand jury in Lafayette indicted Jane Frances Pierce, of Boyce, Louisiana, on April 15, 2026, on four counts of mail fraud, filing false tax returns, corruptly interfering with an IRS investigation, and money laundering, after she filed false tax returns on behalf of a trust she controlled claiming nearly $10 million in refunds she was not owed. Prosecutors say the IRS actually paid out more than $1 million of the falsely claimed refunds before catching the scheme, and that Pierce used the money to buy herself a house and a vehicle, repay a personal loan, and pay her relatives' mortgages. When the IRS moved to recover the money, Pierce allegedly obstructed the agency's efforts by filing a false amended tax return, mailing the IRS a fake check, and submitting false court documents to delay collection. She faces a maximum of 20 years in federal prison on the mail fraud count, up to 10 years for money laundering, and up to three years each on the tax fraud and corrupt interference counts. The case, highlighted in the U.S. Attorney's Office's Western District of Louisiana enforcement report alongside an unrelated Oakdale visa-fraud scheme, is a reminder that trust and estate tax filings claiming large refunds draw the same IRS scrutiny as an individual return — and that submitting fabricated documents to stall an active IRS collection effort, rather than simply repaying what was wrongly claimed, converts a tax dispute into a separate obstruction charge.`,
+    categorySlug: 'tax-scams',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office, Western District of Louisiana", 'IRS Criminal Investigation', 'KALB'],
+    sourceUrl: 'https://www.irs.gov/compliance/criminal-investigation/boyce-resident-indicted-for-mail-and-tax-fraud-corrupt-interference-and-money-laundering-after-falsely-claiming-over-9point75-million-in-tax-refunds-owed',
+    country: 'US',
+    state: 'LA',
+});
