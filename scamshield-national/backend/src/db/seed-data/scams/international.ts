@@ -10681,3 +10681,26 @@ International.push(
     country: 'JE',
   },
 );
+
+International.push(
+  {
+    name: 'Turks and Caicos Fake Financial Services Commission Phone Scam',
+    slug: 'turks-and-caicos-fake-financial-services-commission-phone-scam',
+    description: `The Turks and Caicos Islands Financial Services Commission (FSC) warned residents and businesses in July 2026 to be on high alert after receiving reports of scammers posing as Commission representatives over the phone in an attempt to obtain sensitive financial information. According to the FSC, the callers falsely claim to represent the Commission and, in some cases, use spoofed caller ID technology so the call appears to display official Royal Turks and Caicos Islands Police Force (RTCIPF) or Turks and Caicos Islands Government branding, making the contact look legitimate. The Commission stressed that it will never telephone a member of the public or a business to request personal banking information, passwords, PINs, account credentials, money transfers, or payments, and that caller ID alone should never be treated as proof a call is genuine. Anyone contacted this way was told to hang up immediately, avoid sharing any personal or banking details, and never call back a number the caller provides — using only the official contact information published on the FSC's own website instead. The FSC asked victims to contact their bank right away to request account monitoring, keep a record of the call's date, time, and content, and report the incident to the Royal Turks and Caicos Islands Police Force or directly to the FSC.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Turks and Caicos Islands Financial Services Commission (FSC)', 'NewslineTCI'],
+    sourceUrl: 'https://www.newslinetci.com/post/fsc-warns-public-about-fraudulent-phone-calls-impersonating-officials',
+    country: 'TC',
+  },
+  {
+    name: 'Turks and Caicos Fake Religious Institution Verification Code Scam',
+    slug: 'turks-and-caicos-fake-religious-institution-verification-code-scam',
+    description: `The Royal Turks and Caicos Islands Police Force warned the public in November 2025 about an ongoing scam in which fraudsters call or text victims while pretending to represent a religious institution, then ask the victim to read back a six-digit code sent to their phone or to click a Zoom meeting link that pops up on the device. Police said the goal of both tactics is the same: tricking the victim into handing over a one-time verification code or opening a link that lets the scammer gain access to the victim's accounts and personal information. The force reminded the public never to share a code that arrives anonymously by text, never to click a link from an unknown sender — including messages disguised as WhatsApp texts or Zoom invitations — and to question anyone contacting them out of the blue to ask for sensitive details. Residents were urged to verify the authenticity of any unexpected meeting link before opening it, block suspicious numbers immediately, and report any suspicious calls, texts, or unusual account activity to the Financial Crimes Unit.`,
+    categorySlug: 'phishing',
+    alertLevel: 'medium',
+    sources: ['Royal Turks and Caicos Islands Police Force'],
+    sourceUrl: 'https://www.tcipolice.tc/scammers-be-scamming-dont-take-the-bait/',
+    country: 'TC',
+  },
+);
