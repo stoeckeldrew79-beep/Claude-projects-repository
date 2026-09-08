@@ -4144,3 +4144,27 @@ UsNS.push({
     country: 'US',
     state: 'OR',
 });
+
+UsNS.push({
+    name: 'Operation Sooner Shield: 10-County Medicaid Fraud and Elder-Abuse Sweep',
+    slug: 'oklahoma-operation-sooner-shield-medicaid-fraud-elder-abuse-sweep',
+    description: `Oklahoma Attorney General Gentner Drummond's office announced on April 1, 2026 that "Operation Sooner Shield," a coordinated sweep by his Medicaid Fraud Control Unit across 10 Oklahoma counties, had produced 10 arrests, two surrenders, 10 criminal cases, and one civil action, identifying more than $1.5 million in restitution and fines tied to abuse, neglect, and billing fraud against vulnerable Medicaid recipients. Among those charged, Christa Lee Rogoff, a training specialist at the Chickasha Opportunity Center, was charged with neglect by a caretaker after failing to use a patient's wheelchair restraints, causing the patient to fall down an escalator and suffer severe injuries; Marcella Jean Freed, business manager at Bartlesville Health and Rehab Center, was charged with three counts of exploitation of the elderly after allegedly stealing money from four residents for her own personal use; and Patricia Gail Bush, a licensed administrator at Haskell County Nursing Center, was charged with exploiting three residents through financial neglect. In a related civil action, the Neuropathy Treatment Clinic of Oklahoma and its manager, James Warren Linn Jr., were accused of billing Medicaid more than $75,000 for medically unnecessary treatments. "This operation demonstrates my office's steadfast commitment to protecting vulnerable Oklahomans, combatting fraud and holding bad actors accountable to the law," Drummond said. The sweep is a reminder that Medicaid exploitation of elderly and disabled residents is often committed by the very caregivers, administrators, and facility staff entrusted with their care, and families with a loved one in a nursing home, group home, or other Medicaid-funded care setting are encouraged to watch for unexplained injuries, missing funds, or billing that doesn't match the care actually provided, and to report concerns to the Attorney General's Medicaid Fraud Control Unit.`,
+    categorySlug: 'healthcare-fraud',
+    alertLevel: 'high',
+    sources: ["Oklahoma Attorney General's Office (Gentner Drummond)"],
+    sourceUrl: 'https://oklahoma.gov/oag/news/newsroom/2026/april/drummond-operation-sooner-shield-protects-vulnerable-oklahomans-recovers-tax-dollars.html',
+    country: 'US',
+    state: 'OK',
+});
+
+UsNS.push({
+    name: 'Fort Lee Travel Insurance Fraud Conspiracy ($250K Fabricated Overseas Claims)',
+    slug: 'new-jersey-fort-lee-travel-insurance-fraud-conspiracy',
+    description: `A New Jersey state grand jury indicted four people on December 5, 2025 for allegedly running a multi-state conspiracy that defrauded travel insurance companies out of more than $250,000 by filing claims for overseas medical emergencies and hospital stays that never happened. According to the New Jersey Office of the Attorney General, Agustin Matos, 40, of North Haledon; Kenia Ivonne Vasquez, 44, of the Bronx; and Keyra Carla Liriano, 45, and Patricio Arturo Alfonso, 46, both of Fort Lee, opened multiple travel insurance policies from different carriers for the same trips between April 2022 and August 2023, using false identities and shared financial information, then submitted falsified or entirely fabricated hospital records and medical bills claiming they had been hospitalized abroad. Investigators found the defendants had never actually traveled to the countries named in the claims or been hospitalized as alleged; most insurers denied the fraudulent claims outright, but Liriano is separately charged with theft by deception for allegedly collecting $14,835 in payouts from two carriers before the scheme was caught. All four defendants face conspiracy, insurance fraud, attempted theft by deception, identity theft, and records-falsification charges. "Insurance exists for various reasons, and enriching yourself illegally is not one of them," said Theresa L. Hilton, Director of the Division of Criminal Justice. The case is a reminder that travel insurance claims are cross-checked against real hospital, airline, and immigration records, so fabricated documentation is discoverable well after a claim is paid — and that opening several travel policies for the same trip, rather than raising a red flag with any single insurer, is itself one of the patterns investigators use to spot organized claims fraud.`,
+    categorySlug: 'insurance-fraud',
+    alertLevel: 'medium',
+    sources: ['New Jersey Office of the Attorney General', 'Insurance Journal'],
+    sourceUrl: 'https://www.njoag.gov/four-people-charged-in-travel-insurance-conspiracy/',
+    country: 'US',
+    state: 'NJ',
+});

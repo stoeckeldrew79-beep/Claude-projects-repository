@@ -4330,3 +4330,15 @@ UsGM.push({
     country: 'US',
     state: 'MO',
 });
+
+UsGM.push({
+    name: 'Musselshell County Fake Jail Website Scam (musselshellcountyjail.org)',
+    slug: 'montana-musselshell-county-fake-jail-website-scam',
+    description: `The Montana Department of Justice's Office of Consumer Protection (OCP) warned residents on December 8, 2025 about a wave of fraudulent websites impersonating official county jail sites, including musselshellcountyjail.org — a fake page built to look like the real Musselshell County Detention Center site. The scam site offers a bogus "inmate lookup" tool along with mailing and money instructions, and OCP said similar copycat jail sites have surfaced targeting other Montana counties, all designed to trick people searching online for information about a jailed friend or family member into handing over personal details or sending money to accounts the scammers control. Real Montana jails never ask someone to mail a money order to a P.O. box, which OCP flagged as one of the clearest signs a site is fake. "Verify links," OCP urged, advising that only inmate-search pages ending in .mt.gov or an official county domain are legitimate, that inmate lookup itself is always free, and that money for an inmate's account should be sent only through approved services such as Access Corrections, JPay, or TouchPay, or delivered in person at the jail. Anyone unsure whether a site claiming to represent a Montana county jail is real is advised to look up that county's official government website independently and call the jail directly, and to report suspected fake jail sites to the Office of Consumer Protection at 406-444-4500, 1-800-481-6896, or contactocp@mt.gov.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Montana Department of Justice, Office of Consumer Protection'],
+    sourceUrl: 'https://dojmt.gov/dojs-ocp-warns-of-fake-county-jail-websites/',
+    country: 'US',
+    state: 'MT',
+});
