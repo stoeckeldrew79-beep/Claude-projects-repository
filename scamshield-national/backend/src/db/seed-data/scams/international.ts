@@ -10614,3 +10614,26 @@ International.push(
     country: 'IM',
   },
 );
+
+International.push(
+  {
+    name: 'Cook Islands Facebook Advance Fee Fraud Scam',
+    slug: 'cook-islands-facebook-advance-fee-fraud-scam',
+    description: `The Cook Islands Financial Intelligence Unit (CIFIU), working with the Bankers Association's Money Laundering Reporting Officers and the Cook Islands Police Service, reported in May 2026 that at least 27 Cook Islanders had been defrauded of a combined $16,012.25 through Facebook-based "advance fee fraud." The scam runs through Facebook ads and posts featuring people who describe, sometimes with AI-generated video testimonials, how they supposedly received a large loan, investment pay-out, gift, or community fund disbursement after paying a small upfront fee. Fourteen victims paid the fee through a local bank deposit while seven others were funnelled into paying by gift card; CIFIU traced the bank-deposit funds to a local account, from which the money was converted into cryptocurrency through apps including AlchemyPay, Banxa, or Edge Wallet and moved offshore. Weeks later, Cook Islands Police said the pattern was continuing to escalate, logging five further fraud complaints — including two from the outer islands (Pa Enua) — in which victims were "baited" with promises of receiving large sums of money. Authorities urged the public to adopt a "stop, check and report" approach: stop before paying any fee to receive money, verify the offer independently rather than through the same Facebook page, and report suspicious posts to CIFIU or the Cook Islands Police Service.`,
+    categorySlug: 'lottery-sweepstakes-scams',
+    alertLevel: 'high',
+    sources: ['Cook Islands Financial Intelligence Unit (CIFIU)', 'Cook Islands Police Service', 'RNZ Pacific', 'Cook Islands News'],
+    sourceUrl: 'https://www.rnz.co.nz/news/pacific/594182/cook-islanders-targeted-in-16-000-facebook-advanced-fee-scam',
+    country: 'CK',
+  },
+  {
+    name: 'Cook Islands Fake Friend Facebook Impersonation Prize Scam',
+    slug: 'cook-islands-fake-friend-facebook-impersonation-prize-scam',
+    description: `The Cook Islands Financial Intelligence Unit (CIFIU) warned in March 2025 that scammers were creating counterfeit Facebook profiles that copy a victim's real friends, then using that borrowed trust to claim the victim has won a massive prize — in one scheme, $200,000,000 supposedly tied to the "International Monetary and Financial Committee" and a person using the name "Sir Roy Pleasant." Victims are told to pay a "processing fee" of around $400 to release the winnings, and the scammers use Facebook's disappearing-message feature to erase the conversation and cover their tracks once the fee is paid. CIFIU said it was also investigating a related fraudulent scheme invoking the names "Cook Islands Development Bank" and "Shaw Holdings Pte Ltd" to lend the same fake-prize pitch an air of legitimacy. The unit reminded the public that no legitimate prize, grant, or loan ever requires an upfront "processing fee," and urged anyone contacted this way to verify directly with the institution named — never through the contact details supplied in the message — before sending any money.`,
+    categorySlug: 'lottery-sweepstakes-scams',
+    alertLevel: 'high',
+    sources: ['Cook Islands Financial Intelligence Unit (CIFIU)', 'RNZ Pacific', 'Cook Islands News'],
+    sourceUrl: 'https://www.rnz.co.nz/international/pacific-news/545148/online-scammers-impersonate-friends-fake-banks-in-cook-islands',
+    country: 'CK',
+  },
+);
