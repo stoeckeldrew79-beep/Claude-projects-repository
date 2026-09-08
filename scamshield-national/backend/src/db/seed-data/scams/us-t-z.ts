@@ -2565,3 +2565,15 @@ UsTZ.push({
     country: 'US',
     state: 'WV',
 });
+
+UsTZ.push({
+    name: 'Sheridan Fake Rental Listing of a Homeowner\'s Own House',
+    slug: 'wyoming-sheridan-fake-rental-listing-homeowner-house',
+    description: `The Sheridan Police Department says it is fielding a growing number of reports in which a Sheridan, Wyoming homeowner discovers their own house — one that was never for sale or for rent — has been listed online by a scammer, sometimes as a home for sale and other times as a rental. Sheridan Police Captain Tom Ringley said the department hears about these cases regularly: "We even hear from people who, unknown to them, have their house 'put up for sale' or 'put up for rent' online. I think we had one last week." According to Sheridan Police, the scammers behind these listings are typically not local, but comb real estate and rental sites at scale looking for photos and details of any available home to copy, and by sheer volume some Sheridan properties get swept up even though the scammers have never set foot in Wyoming. Using a real address and real photos lifted from a legitimate listing or public records gives the fake ad a credibility a wholly invented property would lack, and a prospective renter who inquires is typically told the "landlord" is out of town or otherwise unavailable to show the unit in person, and is pressured to wire a security deposit or application fee, or hand over personal identifying information, before ever seeing the inside of the house. Because the actual homeowner has no idea their address is being used this way, they often only learn about it when a confused would-be renter shows up at the door or when a neighbor calls it to their attention. Sheridan Police urge anyone renting sight-unseen to insist on an in-person or live-video walkthrough with someone who can prove they are the owner or an authorized property manager, to search the address alongside the word "scam" before sending any money, and to never wire a deposit or pay by gift card for a rental they have not verified is actually on the market.`,
+    categorySlug: 'rental-housing',
+    alertLevel: 'medium',
+    sources: ['The Sheridan Press', 'Wyoming Tribune Eagle (wyomingnews.com)', 'Gillette News Record'],
+    sourceUrl: 'https://www.wyomingnews.com/news/local_news/rental-and-housing-scams-rise-alongside-housing-crisis/article_ce243f52-cc77-11ef-bc37-3fbfe01a4e8c.html',
+    country: 'US',
+    state: 'WY',
+});
