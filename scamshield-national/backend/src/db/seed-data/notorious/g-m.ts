@@ -5425,3 +5425,25 @@ The SEC filed settled charges against Kumar on March 26, 2026, charging him with
 Kumar's case is a reminder that a fund manager's youth or informality is not itself a reason to relax the ordinary due diligence any investor owes a fund. A fund with no independent administrator, no outside custodian, and no verifiable audit trail is exactly as easy to loot whether the person running it has spent thirty years in finance or is still enrolled in undergraduate classes — the difference is only in how surprised people tend to be when it collapses.`,
   },
 );
+
+NotoriousGM.push(
+  {
+    title: "Kenneth Akpieyi, Emuobosan Emmanuella Hall, and the Romance Scam Ring That Preyed on Widows",
+    slug: "kenneth-akpieyi-emmanuella-hall-romance-scam-widows",
+    author: "ScamShield Editorial",
+    tags: ["notorious", "notorious-scammer"],
+    sourceUrl: "https://www.justice.gov/usao-edla/pr/georgia-residents-sentenced-multi-million-dollar-romance-scam",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Hale_Boggs_Federal_Building_and_United_States_Courthouse.jpg?width=1200",
+    coverImageCredit: "Photo: Yair Haklai, Wikimedia Commons (CC BY-SA 4.0) — the Hale Boggs Federal Building in New Orleans, where Kenneth Akpieyi and Emuobosan Emmanuella Hall were prosecuted",
+    coverImagePosition: 50,
+    body: `Kenneth G. Akpieyi, of Marietta, Georgia, and Emuobosan Emmanuella Hall, a Nigerian citizen and U.S. permanent resident living in Atlanta, were two of three Georgia residents federal prosecutors in the Eastern District of Louisiana say ran a years-long romance-scam conspiracy that victimized more than 30 women across the country, most of them elderly widows, out of a combined total of more than $3.5 million. A third defendant named in the same April 2024 superseding indictment, Eseoghene Nelly Keniye, then 27, of Atlanta, was charged alongside them with conspiracy to commit mail and wire fraud and conspiracy to commit money laundering; publicly available reporting reviewed for this profile did not confirm the outcome of her case, so it is not addressed further here.
+
+According to prosecutors, members of the conspiracy built fake online personas — posing as generals, philanthropists, or entrepreneurs supposedly living overseas — and used them to strike up relationships with victims on Facebook and Instagram before steering the conversation onto WhatsApp or another encrypted app, where the fabricated romance played out for months at a time before any request for money surfaced. Akpieyi, who also used the alias "Phillip Anderson," is accused of taking in funds from victims at his own residence and then laundering them through a company he controlled, KGA Autobrokers LLC, moving the money between accounts to obscure its origin before routing significant sums to accounts overseas, including in China and the United Arab Emirates.
+
+Akpieyi denied the charges and took his case to trial; a federal jury in New Orleans convicted him on all counts — conspiracy to commit mail and wire fraud, mail fraud, and conspiracy to commit money laundering — after a four-day trial that concluded July 25, 2025, with testimony from eight victims describing losses that totaled more than $3 million among them. Hall, by contrast, pleaded guilty in February 2025 and admitted personal responsibility for $851,207 in victim losses. On January 28, 2026, U.S. District Judge Jane Triche Milazzo sentenced Akpieyi to 25 years in federal prison and Hall to 8 years (96 months), with restitution to victims ordered in both cases.
+
+Hall's sentence produced an unexpected coda. She was ordered to report to the Bureau of Prisons on March 25, 2026, but never appeared. Investigators say her court-ordered GPS ankle monitor last registered her location at Hartsfield-Jackson Atlanta International Airport the day before, where the device was disabled; flight records showed she never boarded the Minnesota flight she had booked, though phone records suggested travel toward the Washington, D.C. area instead. The FBI's New Orleans field office issued a public appeal for tips, and a federal warrant for Hall's arrest was issued April 14, 2026. As of this writing, Hall remains a fugitive, and her case is not resolved.
+
+The Akpieyi-Hall case illustrates two separate lessons about romance scams at this scale. The first is the familiar one: a fabricated identity — a general, a philanthropist, an entrepreneur who conveniently lives too far away to meet in person — is a script, not a person, and any online relationship that resists a video call while escalating toward requests for money should be treated as exactly that. The second is less often discussed: a criminal sentence, even a long one, is not self-enforcing. Hall's disappearance in the weeks before she was due to surrender shows that a defendant out on bond ahead of a lengthy prison term retains, right up until the moment they walk through a prison's doors, the opportunity — and for some, evidently the willingness — to simply not show up.`,
+  },
+);
