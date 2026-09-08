@@ -4060,3 +4060,15 @@ UsNS.push({
     country: 'US',
     state: 'NV',
 });
+
+UsNS.push({
+    name: 'Stapleton-Robotics $1.15 Million Albuquerque Public Schools Kickback Scheme',
+    slug: 'new-mexico-stapleton-aps-robotics-kickback-scheme',
+    description: `From 2013 through 2021, New Mexico State Representative and House Majority Leader Sheryl Williams Stapleton held a second, unrelated job as Albuquerque Public Schools' Director of the Perkins Project and Career and Technical Education Coordinator — a position she used to steer roughly 40% of the district's non-personnel CTE funding to Robotics Management Learning Systems, a Washington, D.C. company owned by her longtime friend Joseph Johnson, ostensibly to license "CyberQuest" software for APS classrooms. Over those eight years, APS paid Robotics approximately $3.25 million, including about $2.52 million in federal Perkins vocational-education funds, while Stapleton personally retrieved the district's checks from a post office box and deposited them into Robotics' account; in return, Johnson supplied her with blank Robotics checks that she used to secretly divert roughly $1.15 million for her own benefit. Following a nine-day trial, a federal jury in Albuquerque convicted Stapleton on all 37 counts she faced — including fraud, bribery, and money laundering — and convicted Johnson on 31 counts, on August 14, 2026; both were released pending sentencing, which U.S. District Judge James O. Browning said he would set within 90 days. FBI Albuquerque, IRS Criminal Investigation, and the U.S. Attorney's Office for the District of New Mexico brought the case, which underscores that career-technical and federal grant funding flowing through a school district needs the same conflict-of-interest scrutiny as any other public contract — a district employee who also sits in the legislature approving that program's funding, and who personally handles vendor checks, is a red flag that should trigger independent, arm's-length review long before eight years pass.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office, District of New Mexico", 'FBI Albuquerque', 'Albuquerque Journal'],
+    sourceUrl: 'https://www.justice.gov/usao-nm/pr/former-new-mexico-state-representative-and-business-owner-convicted-federal-bribery',
+    country: 'US',
+    state: 'NM',
+});

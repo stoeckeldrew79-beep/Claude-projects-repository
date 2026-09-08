@@ -254,6 +254,7 @@ export const SCAM_TAGS: Record<string, string[]> = {
   'new-mexico-bogus-publishers-clearing-house-scam': ['elder-targeted'],
   'new-mexico-disabled-veterans-consultants-benefits-fee-scheme': ['veteran-targeted'],
   'new-mexico-safeway-medical-transportation-phantom-trip-medicaid-fraud': ['elder-targeted'],
+  'new-mexico-stapleton-aps-robotics-kickback-scheme': ['student-targeted'],
   'new-york-attyx-rooftop-solar-predatory-lending-scheme': ['elder-targeted'],
   'new-york-bronx-grandparent-scam-courier-valdez': ['elder-targeted'],
   'new-york-healing-for-heroes-veterans-charity-fraud': ['veteran-targeted'],

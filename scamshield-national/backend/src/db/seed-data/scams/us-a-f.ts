@@ -5943,3 +5943,15 @@ UsAF.push({
     country: 'US',
     state: 'CO',
 });
+
+UsAF.push({
+    name: 'American Indian Center of Arkansas $1.79 Million Grant Embezzlement (Star Rana Jackson)',
+    slug: 'arkansas-american-indian-center-star-rana-jackson-grant-embezzlement',
+    description: `Star Rana Jackson, 50, of Austin, Arkansas, worked for the American Indian Center of Arkansas (AICA) for more than a decade before becoming its executive director in October 2022 — a role that made her the only person with access to the nonprofit's federal payment management system and control over every withdrawal of the grant funds that kept its programs running. Between early 2023 and April 2025, prosecutors say Jackson exploited that sole access to steal $1,788,858.99 from AICA, completing roughly 180 separate withdrawals and deposits from the organization's accounts into her own, which she used to make a $55,000 down payment on a truck, buy a $44,000 boat, pay a year of rent in advance, and cover shopping and food expenses. The theft gutted the organization she ran: AICA was forced to fire 18 employees, other staff went without paychecks, 401(k) contributions, or health benefits, and the nonprofit had to eliminate services for low-income Native Americans, including substance-abuse counseling and suicide-prevention programming. An FBI investigation uncovered the scheme after Jackson's termination in May 2025, and she pleaded guilty to wire fraud; on June 3, 2026, a federal judge in the Eastern District of Arkansas sentenced her to 48 months in prison, three years of supervised release, and ordered her to pay $1,788,858.99 in restitution. The case is a reminder that nonprofits — especially small ones serving vulnerable communities — should never let a single employee hold exclusive, unmonitored control over a federal grant portal; boards should require dual authorization for withdrawals and review account activity independently of the person requesting it.`,
+    categorySlug: 'charity-scams',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office, Eastern District of Arkansas", 'KATV', 'KARK'],
+    sourceUrl: 'https://www.justice.gov/usao-edar/pr/austin-woman-sentenced-four-years-federal-prison-theft-more-17-million-federally',
+    country: 'US',
+    state: 'AR',
+});
