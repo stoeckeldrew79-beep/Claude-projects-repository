@@ -304,6 +304,7 @@ export const SCAM_TAGS: Record<string, string[]> = {
   'south-carolina-gold-bar-tech-support-courier-scam': ['elder-targeted'],
   'south-carolina-upstate-law-group-veterans-pension-fraud': ['elder-targeted', 'veteran-targeted'],
   'south-carolina-vital-care-ems-physician-certification-forgery': ['elder-targeted'],
+  'south-dakota-sioux-falls-tiktok-content-creator-crypto-scam': ['elder-targeted'],
   'south-korea-overseas-job-scam-phishing-recruitment': ['child-teen-targeted', 'student-targeted'],
   'sri-lanka-cbsl-police-fixed-deposit-impersonation-scam': ['elder-targeted'],
   'staged-auto-accident-scam': ['child-teen-targeted'],
