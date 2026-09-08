@@ -4164,3 +4164,27 @@ UsGM.push({
     country: 'US',
     state: 'ME',
 });
+
+UsGM.push({
+    name: 'Bourbonnais Fourteen-Person EIDL and PPP Recruitment Fraud Ring',
+    slug: 'illinois-bourbonnais-murphy-eidl-ppp-recruitment-fraud',
+    description: `Octavia Renee Murphy, 37, of Bourbonnais, Illinois, was, according to prosecutors, the leader and organizer of a fourteen-defendant conspiracy that defrauded the U.S. Small Business Administration by recruiting relatives, co-workers, and friends to file false applications for pandemic-era Economic Injury Disaster Loan (EIDL) advances and Paycheck Protection Program (PPP) loans, each falsely claiming to operate a small business before and during the pandemic. Murphy was gainfully employed by the State of Illinois at the Shapiro Developmental Center in Kankakee the entire time she was running the scheme, and prosecutors said her motive was greed rather than financial need. She pleaded guilty on January 27, 2026 to conspiracy to commit wire fraud, wire fraud, and money laundering, and on May 19, 2026, was sentenced in the Central District of Illinois to one year in prison plus two years of supervised release, and ordered to pay $169,949.97 in restitution to the SBA — the total amount the ring collectively obtained through the false applications. The case, investigated in part by the Amtrak Office of Inspector General alongside federal partners, is one of many still being prosecuted years after the loan programs closed, since a fraudulent EIDL or PPP application filed years ago remains an active federal case today; anyone who let a relative, friend, or acquaintance file a relief-fund application in their name for a business that did little or no real work faces the same wire fraud, conspiracy, and money laundering exposure as the person who organized the scheme.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'medium',
+    sources: ['U.S. Attorney\'s Office, Central District of Illinois', 'Amtrak Office of Inspector General', 'Shaw Local'],
+    sourceUrl: 'https://www.justice.gov/usao-cdil/pr/bourbonnais-woman-sentenced-one-year-prison-pandemic-related-fraud',
+    country: 'US',
+    state: 'IL',
+});
+
+UsGM.push({
+    name: 'Waltham "Ghost Ride" MassHealth Medical Transportation Fraud',
+    slug: 'massachusetts-waltham-jbm-masshealth-ghost-ride-fraud',
+    description: `JBM Health and Educational Services Inc., a now-defunct non-emergency medical transportation company based in Waltham, and its former owner, Bakali Mukasa, 44, formerly of Billerica, billed MassHealth for more than 16,000 rides between July 2019 and November 2020 that were never actually provided, according to the Massachusetts Attorney General's Office. The company claimed to be transporting MassHealth members to methadone clinics for opioid-addiction treatment, but investigators found many of the listed patients had been switched to "take-home" methadone doses and had no in-person appointments to be driven to during the billed period, and nearly 100 of the billed rides were for members who had already died. MassHealth paid JBM and Mukasa more than $770,000 for the fabricated trips, and prosecutors allege Mukasa then laundered the proceeds through a network of bank, real estate, and investment accounts held in other people's names before transferring more than $1 million to Uganda, where he now lives. A statewide grand jury indicted Mukasa and JBM on February 10, 2026 on charges of Medicaid false claims, larceny over $1,200, and money laundering, in a case led by the AG's Medicaid Fraud Division with support from MassHealth, the Montachusett Regional Transit Authority, and the Middlesex District Attorney's Office. "These indictments underscore our office's commitment to protecting state resources and holding accountable those who defraud MassHealth," Attorney General Andrea Campbell said. The indictment is an allegation, not a conviction, but the pattern it describes — billing government insurance for transportation services with no rider ever picked up — is one investigators say is easiest to catch when beneficiaries themselves check their own MassHealth claims history or Explanation of Benefits for rides or services they never took, and report anything unfamiliar to the Attorney General's Medicaid Fraud Division.`,
+    categorySlug: 'healthcare-fraud',
+    alertLevel: 'medium',
+    sources: ['Massachusetts Attorney General\'s Office (Andrea Campbell)', 'Waltham Times', 'OpenTheBooks'],
+    sourceUrl: 'https://www.mass.gov/news/ags-office-secures-indictments-against-waltham-based-non-emergency-medical-transportation-provider-and-former-owner-over-money-laundering-and-medicaid-fraud-scheme',
+    country: 'US',
+    state: 'MA',
+});

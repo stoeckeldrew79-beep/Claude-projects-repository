@@ -5919,3 +5919,15 @@ UsAF.push({
     country: 'US',
     state: 'DE',
 });
+
+UsAF.push({
+    name: 'Sumter County "Ringleader" Multi-State Treasury Check Fraud Scheme',
+    slug: 'alabama-sumter-county-wallace-treasury-check-fraud-scheme',
+    description: `Eddarius Tyjuan Wallace, 37, of York, Alabama, organized and ran a multi-state bank fraud conspiracy between June and September 2023 built around depositing and withdrawing genuine U.S. Treasury checks that had been altered with forged endorsements, recruiting and personally training other participants to carry out the scheme at banks across Alabama and Mississippi. The fraud first came to law enforcement's attention in June 2023 when a bank in Tuscaloosa reported that two Treasury checks bearing forged endorsements had been deposited, and investigators went on to trace more than $1.8 million in fraudulent deposits and withdrawals tied to the ring. Wallace was arrested during a traffic stop in Mississippi on September 19, 2023, found with $11,969 in cash, a fake ID, and multiple bank debit cards issued in other people's names — while he was already out on bond on separate state charges. He pleaded guilty in May 2026 to conspiracy to commit bank fraud and bank fraud, and on August 24, 2026, was sentenced to five years in federal prison and fined $25,000. "This type of fraud is a double problem: it steals money from the federal government and undermines the integrity of our banking system," the U.S. Attorney's Office said in announcing the sentence, in a case investigated jointly by the Treasury Inspector General for Tax Administration, the Mississippi Attorney General's Office, and the Madison Police Department. Genuine Treasury checks belong only to the person named on them; anyone contacted about depositing, cashing, or splitting proceeds from a government check made out to someone else — even for a fee or a cut — is being recruited into a federal check-fraud conspiracy, and banks encourage customers to report any government check that arrives unexpectedly or involves a stranger's request to help move the funds.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office, Northern District of Alabama", 'WBRC', 'Alabama Gazette'],
+    sourceUrl: 'https://www.wbrc.com/2026/08/25/sumter-county-man-sentenced-bank-fraud-scheme/',
+    country: 'US',
+    state: 'AL',
+});
