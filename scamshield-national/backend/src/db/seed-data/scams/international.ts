@@ -10786,3 +10786,16 @@ International.push(
     country: 'VC',
   },
 );
+
+International.push(
+  {
+    name: 'Comoros Anjouan Fake Offshore Gambling and Financial License Scheme',
+    slug: 'comoros-anjouan-fake-offshore-license-scheme',
+    description: `An investigation published December 31, 2025 by Australia's public broadcaster, the ABC, detailed how a network operating under the name of Anjouan — one of the three islands making up the Union of the Comoros — has been selling fraudulent corporate, gambling, and financial licenses to online casinos, betting sites, cryptocurrency exchanges, and brokers around the world. The licenses are issued in the name of the Anjouan Offshore Finance Authority (AOFA), a body set up by Anjouan's short-lived separatist government in the late 1990s that lost any legal standing after Comoros reunified and passed national banking laws in 2013 and 2015 placing financial regulation solely under the national government. Despite that, an affiliated firm called Anjouan Licensing Services has continued issuing gambling permits — reportedly more than 1,300 of them, at roughly €17,000 each per year, a business the ABC estimated could generate as much as €22 million annually — while a related company, Anjouan Corporate Services, acts as AOFA's sole authorized licensing agent. The Comoros Central Bank has repeatedly disowned the operation: a financial-intelligence-unit official stated the entities "have in reality no physical or legal existence" in the Comoros and "operate online via websites to scam people," and the bank has separately branded them "fictitious structures." One Anjouan-licensed operator identified in the reporting, Leon Casino, was flagged by Australian officials in early 2025 as operating illegally, yet as of the ABC's investigation it was still displaying its Anjouan license, offering gambling products banned in Australia, and accepting deposits from Australian customers through local payment methods. Consumers and businesses were warned that a license bearing Anjouan or AOFA's name provides no genuine government oversight and should never be treated as proof that a casino, exchange, or financial platform is legitimate or safe to send money to.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ['Australian Broadcasting Corporation (ABC News)', 'Comoros Central Bank'],
+    sourceUrl: 'https://www.abc.net.au/news/2025-12-31/fake-gambling-licenses-anjouan-casinos/106158766',
+    country: 'KM',
+  },
+);
