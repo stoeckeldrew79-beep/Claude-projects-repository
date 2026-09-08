@@ -10778,3 +10778,16 @@ International.push(
     country: 'KM',
   },
 );
+
+International.push(
+  {
+    name: 'Anguilla AI Deepfake Investment Scam Impersonating Public Figures',
+    slug: 'anguilla-ai-deepfake-investment-scam',
+    description: `The Financial Intelligence Unit of Anguilla (FIU) issued a public advisory (reference FIU/ADV/2026/001) on January 28, 2026, warning residents about an emerging scam using artificially generated images and videos of prominent public figures to promote fraudulent investment schemes. The FIU said the deepfake clips, circulating primarily through Facebook and other social media platforms, are convincing in both image and audio, presenting local public figures as though they are personally endorsing or participating in a so-called "State Investment Platform" that guaranteed a fixed weekly income of XCD 2,700 in exchange for an initial deposit as small as XCD 675, with a first "payment" promised into the victim's bank account the very next day. The FIU stressed that these figures' likenesses and reputations were being exploited entirely without their knowledge or consent, and that the fabricated news-style graphics were designed to lend the pitch a veneer of legitimacy before directing viewers to a link with instructions on how to transfer funds. The advisory listed several red flags shared across these ads — guaranteed or unusually high returns promised in a short period, pressure to act immediately, and requests to move the conversation to private messaging apps while keeping it secret from family members — and warned that legitimate businesses do not collect investment funds through money service businesses. The FIU urged anyone who encounters such content to verify any investment opportunity through official channels rather than trusting a social media post, and to report suspected scams to the FIU at 264-497-5696 or fiu@gov.ai, or to the Royal Anguilla Police Force at 264-497-2333.`,
+    categorySlug: 'ai-deepfake-scams',
+    alertLevel: 'high',
+    sources: ['Financial Intelligence Unit, Anguilla'],
+    sourceUrl: 'https://www.fiu.gov.ai/notices/advisories',
+    country: 'AI',
+  },
+);
