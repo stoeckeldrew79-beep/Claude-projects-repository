@@ -10683,3 +10683,26 @@ International.push(
     country: 'TC',
   },
 );
+
+International.push(
+  {
+    name: 'US Virgin Islands Deepfake Investment Scam Ads on Meta',
+    slug: 'us-virgin-islands-deepfake-investment-scam-ads-meta',
+    description: `U.S. Virgin Islands Attorney General Gordon C. Rhea issued an investor alert on April 8, 2026 warning residents about a surge of fraudulent investment schemes circulating on Meta platforms — Facebook, Instagram, and WhatsApp. The alert describes fraudsters using AI-generated "deepfake" video and images of celebrities, without their permission, to lure victims into fake trading platforms, alongside "pump and dump" schemes that hype low-priced stocks or cryptocurrencies before selling out at inflated prices, and confidence schemes that build a personal relationship before directing the target to a bogus investment site. Victims are often pushed toward cryptocurrency ATMs or told to send funds directly to a private crypto wallet, both of which make the money essentially unrecoverable once sent. Attorney General Rhea urged residents to independently verify any investment opportunity — and the identity of anyone promoting it — before committing money, and to report suspected scams to the V.I. Department of Justice's Special Investigations Division or to the Department of Licensing and Consumer Affairs (DLCA) rather than acting on pressure from an online ad or unsolicited message.`,
+    categorySlug: 'ai-deepfake-scams',
+    alertLevel: 'high',
+    sources: ['U.S. Virgin Islands Department of Justice', 'Office of the Attorney General of the Virgin Islands'],
+    sourceUrl: 'https://usvidoj.com/attorney-general-gordon-c-rhea-warns-residents-of-investment-scams-on-meta-platforms/',
+    country: 'VI',
+  },
+  {
+    name: 'US Virgin Islands Meta Fraudulent Advertising Lawsuit',
+    slug: 'us-virgin-islands-meta-fraudulent-advertising-lawsuit',
+    description: `The U.S. Virgin Islands Department of Justice filed a lawsuit on December 29, 2025 in the Superior Court of the Virgin Islands accusing Meta Platforms, Instagram, and Facebook Holdings of knowingly profiting from fraudulent advertising that targets Virgin Islands consumers alongside separate claims about harm to children. The complaint alleges Meta's own internal projections estimated roughly 10% of its 2025 revenue — about $16 billion — would come from ads for scams and banned goods, that the company charged fraudsters higher rates to keep running these ads, and that Meta's platforms accounted for roughly one-third of all successful scams reported in the United States. Attorney General Gordon C. Rhea said the territory was joining dozens of other state attorneys general already suing Meta, while going further by seeking to hold the company accountable for "knowingly facilitating, failing to address, and richly profiting from widespread fraud on its platforms." The filing underscores why residents who encounter investment, romance, or shopping scam ads on Facebook or Instagram should not assume the platform has already screened out fraudulent advertisers, and should report suspicious ads to the V.I. Department of Justice in addition to Meta itself.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'medium',
+    sources: ['U.S. Virgin Islands Department of Justice', 'U.S. News & World Report'],
+    sourceUrl: 'https://usvidoj.com/v-i-attorney-general-files-lawsuit-against-meta-to-protect-children-and-combat-widespread-online-fraud/',
+    country: 'VI',
+  },
+);
