@@ -10706,3 +10706,26 @@ International.push(
     country: 'VI',
   },
 );
+
+International.push(
+  {
+    name: 'British Virgin Islands Fake Tax Authority Phishing Email Scam',
+    slug: 'british-virgin-islands-fake-tax-authority-phishing-email-scam',
+    description: `The British Virgin Islands International Tax Authority (ITA) issued a public warning on January 22, 2026 about fraudulent emails circulating that impersonate the agency. The ITA said the phishing messages come from sender addresses ending in ".vg.co" — a lookalike domain designed to be mistaken for the ITA's genuine ".vg" government address — and may appear legitimate enough to trick a recipient into opening an attached file or clicking an embedded link. The agency did not disclose exactly what the malicious links or attachments do once opened, but stressed that none of these messages are authorized ITA communications. The ITA's guidance to anyone who receives such an email is to carefully check the sender's full email address before doing anything else, avoid clicking any link or opening any attachment in a message that looks even slightly off, report the suspicious email to their own organization's IT or security team, and contact the ITA directly at info@bviita.vg or 1-284-394-4415 to confirm whether a message is genuine before acting on it.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['British Virgin Islands International Tax Authority (ITA)', 'Maples Group'],
+    sourceUrl: 'https://bviita.vg/blog/2026/01/22/phishing-scam/',
+    country: 'VG',
+  },
+  {
+    name: 'British Virgin Islands Unlicensed Investment Scheme Warning',
+    slug: 'british-virgin-islands-unlicensed-investment-scheme-warning',
+    description: `The British Virgin Islands Financial Services Commission (FSC) issued a public advisory in early December 2025 urging residents and investors to exercise extreme caution toward individuals and companies offering investment, financial advisory, or investment management services in or from the territory without being licensed to do so. The FSC noted that only firms it has authorized may lawfully offer banking, money services, financing, insurance, investment business, or virtual asset services within the BVI, and that operating without that authorization is itself an offense carrying penalties or imprisonment. The Commission warned that dealing with an unlicensed provider carries several concrete dangers: a heightened risk of outright fraud or misconduct, no regulatory oversight to ensure transparency, a greater chance of mismanaged funds or products that are unsuitable for the investor, and little to no legal recourse for victims once money is gone. Investors were told to independently verify that any person or company soliciting them for an investment appears on the FSC's public list of licensed entities, to ask direct questions about how an opportunity is structured and regulated, to treat unsolicited offers of unusually high or guaranteed returns as a red flag, and to report suspicious solicitations to the FSC before sending any money.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ['British Virgin Islands Financial Services Commission (FSC)', 'BVI News'],
+    sourceUrl: 'https://bvinews.com/beware-of-unlicensed-investment-schemes-fsc-warns/',
+    country: 'VG',
+  },
+);
