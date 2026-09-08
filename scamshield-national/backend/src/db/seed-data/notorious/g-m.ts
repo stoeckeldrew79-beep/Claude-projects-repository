@@ -5028,3 +5028,19 @@ Levitt's case illustrates a gap that shows up again and again in white-collar pr
     sourceUrl: 'https://api.parliament.uk/historic-hansard/written-answers/1995/jun/28/roger-levitt-case',
   },
 );
+NotoriousGM.push(
+  {
+    title: `Tony Iervasi and the Courtenay House Ponzi Scheme That Became Australia's Largest`,
+    slug: 'tony-iervasi-courtenay-house-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://www.cdpp.gov.au/case-reports/director-courtenay-house-sentenced-11-years-imprisonment-running-australias-largest-ponzi-scheme',
+    body: `Tony Iervasi was the sole director and shareholder of Courtenay House Capital Trading Group and Courtenay House Pty Ltd, a pair of companies operating out of Bondi Junction in Sydney that told investors their money would be traded on foreign exchange and futures markets in exchange for guaranteed monthly returns. Between December 2010 and April 2017, around 585 investors deposited a combined $180 million Australian dollars into the scheme, drawn in by the promise of steady, above-market profits from currency trading that Iervasi presented as routine and low-risk.
+
+In reality, Australia's Securities and Investments Commission (ASIC) later established that only about 3% of the money investors deposited was ever actually traded. The rest was run as a classic Ponzi scheme: the "returns" paid out each month to existing investors came not from trading profits but from the cash deposited by new investors, a structure that could only keep working as long as new money kept arriving faster than existing investors asked for theirs back. Iervasi personally diverted more than $12 million of investor funds for his own use, including leases on waterfront properties, luxury cars, and holidays, while marketing and recruitment for the scheme was handled in part by a contractor, David Sipina, who alone brought in 215 of the investors, and a promoter, Athan Papoulias, who was separately charged.
+
+The scheme finally collapsed in 2017, and ASIC referred the matter to the Commonwealth Director of Public Prosecutions (CDPP) for criminal prosecution. Iervasi was charged in 2021 with engaging in dishonest conduct in relation to a financial product or service under section 1041G of the Corporations Act 2001, and pleaded guilty to four such counts. On September 2, 2024, the Supreme Court of New South Wales sentenced him to 11 years in prison, with a non-parole period of seven years, in a judgment the CDPP described as resolving "Australia's largest Ponzi scheme." Liquidators appointed to wind up the Courtenay House companies ultimately calculated that investors were left with a net loss of more than $54 million even after whatever funds could be recovered and redistributed.
+
+Courtenay House's mechanics were unremarkable by Ponzi-scheme standards — fabricated trading statements, guaranteed returns no legitimate forex or futures operation could reliably promise, and a growing pyramid of new deposits covering old obligations — but its scale, and the seven-year span over which regulators and a court eventually unwound it, made it one of the largest financial frauds ever prosecuted in Australia. The case is a reminder that "guaranteed" returns from currency or futures trading are themselves a red flag: genuine trading operations of that kind carry real, disclosed risk of loss, and a scheme that promises to eliminate that risk while still delivering steady monthly payouts is, more often than not, simply paying old investors with new investors' money.`,
+  },
+);
