@@ -4380,3 +4380,27 @@ UsGM.push({
     country: 'US',
     state: 'ID',
 });
+
+UsGM.push({
+    name: 'Southeast Kansas Storm-Damage Unregistered Roofing Contractor Scam',
+    slug: 'kansas-storm-damage-unregistered-roofing-contractor-scam',
+    description: `After a round of severe storms brought hail damage and downed trees to Southeast Kansas in April 2026, Kansas Attorney General Kris Kobach's office issued a consumer alert warning that storm-damaged neighborhoods are exactly the conditions traveling "storm-chaser" roofing crews look for, going door to door with a truck, a ladder, and a pitch built around urgency rather than credentials. "When considering roofing work on a home or business, it is important that consumers make sure their roofing contractor is properly registered before signing any contract or having any work done," Kobach said, pointing to the Kansas Roofing Contractor Registration Act, which requires anyone soliciting or performing residential or commercial roofing work for a fee in the state to hold a registration certificate and carry proper insurance — a requirement fly-by-night operators routinely ignore because most homeowners never think to ask. The Attorney General's office urged Kansans dealing with storm damage to request a copy of the contractor's registration certificate or registration number before signing anything, get at least three written estimates from separate companies rather than accepting the first door-knocker's price, check the contractor's complaint history with the Better Business Bureau, and understand the payment terms and cancellation rights in any contract before putting down a deposit. Consumers who encounter an unregistered roofing contractor, or who feel pressured into signing quickly, can report it to the Attorney General's Consumer Protection Division.`,
+    categorySlug: 'home-improvement-solar',
+    alertLevel: 'medium',
+    sources: ["Kansas Attorney General's Office (Kris Kobach)", 'KOAM News Now'],
+    sourceUrl: 'https://www.koamnewsnow.com/weather/kansas-ag-warns-residents-of-contractor-scams-after-storms/article_05bcab25-3ce3-47ba-a3b9-fdbffb753ae5.html',
+    country: 'US',
+    state: 'KS',
+});
+
+UsGM.push({
+    name: 'Madison County $2.7 Million Fraudulent Vendor Business Email Compromise',
+    slug: 'mississippi-madison-county-fraudulent-vendor-bec',
+    description: `The Madison County Board of Supervisors disclosed on March 19, 2024 that the county had been defrauded of $2,741,243.69 through a business email compromise scheme that impersonated a real, long-standing contractor, Hemphill Construction, which was actively working on the county's Reunion Parkway project. According to the sheriff's incident report, a scammer emailed the county's purchasing clerk requesting payment while posing as Jay Hemphill of the company; the request was forwarded to Madison County Comptroller Na'Son White, who authorized wiring the funds to the fraudulent account — a step no one caught in time despite Hemphill Construction's actual president and CEO being a different person, Richard Rula, not "Jay Hemphill." The county notified the Madison County Sheriff's Office, the Mississippi Attorney General's Office, the State Auditor's Office, the U.S. Secret Service, and the FBI, launching a national and international investigation. Recovery efforts had mixed results: authorities clawed back one payment of just over $128,000 and located an additional roughly $500,000 sitting in a frozen bank account, but a $1.58 million payment remained outstanding as the investigation continued. The case illustrates how business email compromise does not require hacking a victim's own network — impersonating a familiar vendor's name and staff titles convincingly enough is often sufficient — and underscores why any request to change payment details or wire funds to a new account, even one that appears to come from a known, trusted contractor, should be verified by phone using a previously known number rather than any contact information contained in the email itself.`,
+    categorySlug: 'business-email-compromise',
+    alertLevel: 'medium',
+    sources: ['Madison County Sheriff\'s Office', 'WLBT', 'Madison County Journal'],
+    sourceUrl: 'https://www.wlbt.com/2024/04/01/sheriff-county-recover-most-27m-lost-fraudulent-payments/',
+    country: 'US',
+    state: 'MS',
+});

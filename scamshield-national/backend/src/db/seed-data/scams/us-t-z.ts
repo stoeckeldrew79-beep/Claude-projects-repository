@@ -2481,3 +2481,15 @@ UsTZ.push({
     country: 'US',
     state: 'VT',
 });
+
+UsTZ.push({
+    name: 'Rock Springs Fake Rental Listing Scam Impersonating Southwest Real Estate',
+    slug: 'wyoming-rock-springs-fake-rental-listing-scam',
+    description: `The Rock Springs Police Department warned residents in November 2024 after fielding reports of a fraudulent rental scheme built around a fake Facebook Marketplace listing that borrowed the name of a real, well-known local property manager, Southwest Real Estate — a legitimate Rock Springs business that had no connection to the posting and was itself blindsided by the impersonation. Prospective renters who inquired about the listing were told to download a third-party app called Rently to receive an access code so they could view the unit, and once they expressed interest in renting, the scammer instructed them to wire the first month's rent and a security deposit through a Walmart money transfer — a payment method that, unlike a personal check or a payment app tied to a bank account, is essentially untraceable and irreversible once picked up. As soon as police were alerted, the fraudulent listing vanished from Facebook Marketplace and the "landlord" stopped responding, leaving victims with no listing to reference, no contract, and effectively no path to recover their money. Police noted the pattern was not new to the region — similar fake listings had surfaced roughly a year earlier in the same area and in neighboring Colorado — and cautioned that embarrassment likely keeps many victims from ever filing a report, meaning the true toll is almost certainly higher than what gets recorded. Renters are advised never to wire money or pay through a retail money-transfer service for a property they have not toured in person, to independently look up the property management company's phone number rather than using contact information from the listing itself, and to be suspicious of any "landlord" who insists on a third-party access app instead of an in-person or agent-supervised showing.`,
+    categorySlug: 'rental-housing',
+    alertLevel: 'medium',
+    sources: ['Rock Springs Police Department', 'Y95 Country', 'King FM'],
+    sourceUrl: 'https://y95country.com/ixp/99/p/fake-rental-property-scam-again-reported-in-wyoming/',
+    country: 'US',
+    state: 'WY',
+});
