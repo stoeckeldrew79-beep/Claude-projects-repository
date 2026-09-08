@@ -4953,3 +4953,21 @@ Chilean prosecutors charged Dávila with fraud against the state and the separat
 The Codelco case remains one of the largest rogue-trading scandals ever produced by a single national company rather than a private bank, and a rare example of the phenomenon reaching Latin America's state-owned resource sector: a trader with a narrow, defensive mandate and access to a hard-to-audit market who quietly turned a hedging desk into a personal casino, and very nearly took a country's public finances down with him before anyone outside his office understood what was happening.`,
   },
 );
+NotoriousGM.push(
+  {
+    title: "Juan Carlos Ortiz, Tomás Jaramillo, and the Shell Companies Behind Colombia's InterBolsa Collapse",
+    slug: 'interbolsa-ortiz-jaramillo-colombia-collapse',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://www.elespectador.com/judicial/condenan-a-juan-carlos-ortiz-y-tomas-jaramillo-por-descalabro-de-interbolsa-article-629673/',
+    body: `InterBolsa was Colombia's largest brokerage house, handling more than a third of all transactions on the Colombian stock market before it collapsed in November 2012 in what remains the biggest brokerage failure in the country's history. Inside the firm, Juan Carlos Ortiz and Tomás Jaramillo Botero — son of InterBolsa's founder and former president, Rodrigo Jaramillo — ran an investment vehicle called the Premium Fund, which prosecutors later showed was less a fund than a mechanism for moving client money wherever the two men needed it to go.
+
+Ortiz and Jaramillo set up seven shell companies scattered across the Bahamas, Panama, and Curaçao, telling Premium Fund investors their money was being invested abroad through these entities. In reality, much of it was quietly routed back into Colombia through two InterBolsa-linked firms, Rentafolio Bursátil and Valores Incorporados. Investigators found that between 2009 and 2011, the diverted funds were used to buy up and artificially inflate the price of shares in Fabricato, a Colombian textile company — pushing the stock from around 26 pesos to more than 90 pesos over two years — in a position that primarily benefited InterBolsa's majority shareholder rather than the Premium Fund's actual clients.
+
+The scheme depended on a continuous supply of short-term financing, known as repo transactions, to keep the inflated Fabricato position funded. When other market participants stopped renewing those repos in October 2012, InterBolsa's liquidity evaporated almost overnight. Colombia's Financial Superintendent intervened within days and ordered the firm liquidated, leaving more than 1,200 investors with claims totaling roughly 254 billion pesos, of which only about 65 billion pesos was ever recovered.
+
+Ortiz and Jaramillo were arrested and held at La Picota prison in Bogotá starting in February 2015. Both eventually accepted the charges against them — aggravated fraud, criminal conspiracy, and fraudulent manipulation of registered securities — and received five-year sentences that, under Colombian sentencing rules for defendants who accept responsibility, they were permitted to serve under house arrest rather than in prison. Rodrigo Jaramillo faced his own prosecution over the collapse, and years later a Bogotá appeals court handed additional executives further house-arrest sentences, while Italian businessman Alessandro Corridori, identified by regulators as a key figure behind the Fabricato manipulation, was fined by Colombia's financial regulator.
+
+The InterBolsa collapse showed how a network of shell companies spread across three offshore jurisdictions could be used to disguise what was, underneath the paperwork, a purely domestic stock-manipulation scheme — and how a single overleveraged position in one company's shares can take down a country's largest brokerage within days once the short-term lenders behind it lose confidence and stop renewing.`,
+  },
+);
