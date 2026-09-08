@@ -4464,3 +4464,15 @@ UsGM.push({
     country: 'US',
     state: 'IA',
 });
+
+UsGM.push({
+    name: `LME Crypto Group Pig-Butchering Investment Fraud`,
+    slug: 'hawaii-lme-crypto-group-pig-butchering-fraud',
+    description: `The FBI's Honolulu Division Cyber Squad opened an investigation in late 2022 after a Hawai'i resident reported losing $1.3 million to a scheme called the LME Crypto Group, which falsely claimed affiliation with the London Metal Exchange while running a "pig butchering" cryptocurrency investment fraud — the pattern in which a scammer opens contact through what looks like a misdirected text message, spends weeks or months building an online friendship or relationship, and then steers the target toward a slick but entirely fake trading platform that shows fabricated profits right up until the victim tries to withdraw. The Hawai'i victim's loss led investigators to a wider network that also defrauded a District of Columbia resident out of $30,000 in a nearly identical scheme, reported to the FBI's Internet Crime Complaint Center in December 2023. In September 2025, the U.S. Attorney's Office for the District of Columbia, working with the Justice Department's Computer Crime and Intellectual Property Section and the FBI's Virtual Assets Unit, filed a civil forfeiture action targeting $868,247 in Tether (USDT) cryptocurrency traced to the LME Crypto Group's proceeds — money the FBI's blockchain-tracing team followed from victims' wallets through a chain of transactions to the accounts it ultimately seized. Because pig-butchering operators typically make first contact through a wrong-number text or a friendly stranger on a dating or messaging app rather than a cold sales pitch, anyone contacted that way who is later encouraged to move money into an unfamiliar trading app or platform should treat the entire relationship, not just the investment pitch, as the fraud, and should stop communicating and report the contact to the FBI's Internet Crime Complaint Center at ic3.gov before sending anything.`,
+    categorySlug: 'romance-scams',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office for the District of Columbia", 'FBI Honolulu Field Office', 'Hoodline'],
+    sourceUrl: 'https://www.justice.gov/usao-dc/pr/justice-department-seeks-forfeiture-848247-cryptocurrency-confidence-scams',
+    country: 'US',
+    state: 'HI',
+});
