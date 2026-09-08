@@ -4024,3 +4024,15 @@ UsNS.push({
     country: 'US',
     state: 'SD',
 });
+
+UsNS.push({
+    name: 'Oklahoma Fake Arrest Warrant Preemptive-Bail Cryptocurrency Kiosk Scam',
+    slug: 'oklahoma-fake-arrest-warrant-preemptive-bail-crypto-kiosk-scam',
+    description: `Oklahoma Attorney General Gentner Drummond warned consumers on June 10, 2025 about a resurging scam in which fraudsters fabricate arrest warrants and pressure victims into posting "preemptive bail" at cryptocurrency kiosks before they are supposedly taken into custody. The scam recently surfaced in Tulsa, where a caller claiming to represent the federal public defender's office emailed and texted several senior citizens fake arrest warrants and warned they would be arrested unless they immediately paid bail in advance, directing them to feed cash into a nearby Bitcoin kiosk. Drummond's office stressed that a genuine arrest warrant is never served by phone, email, or text message, that no legitimate government agency demands unsolicited payment or personal information over the phone, and that any request involving a cryptocurrency kiosk or a large cash drop-off should be treated as an automatic red flag. Anyone contacted this way is advised to hang up or stop responding, independently verify their status by contacting the actual court or law enforcement agency using a number they look up themselves, and report the contact to the Attorney General's Consumer Protection Unit at 833-681-1895 or consumerprotection@oag.ok.gov rather than sending any money.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ["Oklahoma Attorney General's Office (Gentner Drummond)", 'News 9', 'KRMG'],
+    sourceUrl: 'https://oklahoma.gov/oag/news/newsroom/2025/june/drummond-warns-consumers-about-scam-soliciting-preemptive-bail-payments.html',
+    country: 'US',
+    state: 'OK',
+});
