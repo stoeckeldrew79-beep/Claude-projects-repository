@@ -11395,3 +11395,36 @@ International.push(
     country: 'TD',
   },
 );
+International.push(
+  {
+    name: '"OpenAI Mali" Ponzi Scheme',
+    slug: 'mali-openai-branded-ponzi-scheme',
+    description: `A Bamako company calling itself "OpenAi Mali E-Commerce Général Sarl" was officially registered on October 3, 2022 with a sole listed shareholder, 25-year-old Amadou Coulibaly, and illegally used the name and logo of the real U.S. artificial-intelligence company OpenAI to look legitimate, while a second individual, Mamadou Barry, was widely identified as the scheme's operational manager. The company falsely claimed to run commerce, import-export, and product-distribution activities, rented visible office space in Bamako's Hamdallaye ACI district, and bought prime-time advertising on Mali's national broadcaster ORTM to build trust, all while its actual business was a classic Ponzi structure: for an investment of 1,000 to 200,000 CFA francs, it promised gains of roughly 20 to 4,000 CFA francs credited to the investor's account every day, with early depositors paid out of money collected from new recruits rather than any real revenue. Recruitment accelerated in early 2023, and Malian media reported the company reached roughly 700,000 participants before the payouts abruptly stopped around March 18-20, 2023; when investors rushed to withdraw funds or reach their "advisors," phones went unreachable and the rented offices turned out to be empty, leaving reported losses estimated at more than 50 billion CFA francs. Malian outlets reported that police searched for the company's founder and manager after the collapse. Consumer advocates in Mali and the wider region point to the case as a warning that a company borrowing a famous, unrelated brand name, running television ads, and promising fixed daily percentage returns is a hallmark of a pyramid scheme, not a real investment, and that no legitimate business needs new depositors' money to pay existing customers.`,
+    categorySlug: 'ponzi-pyramid-schemes',
+    sources: ['Journal du Mali', 'Le360 Afrique', 'Maliweb.net', 'Bamada.net'],
+    sourceUrl: 'https://journaldumali.com/openai-mali-enquete-arnaque/',
+    country: 'ML',
+    isHistorical: true,
+    firstRecorded: '2022-10-03',
+  },
+  {
+    name: '"L-GEN" Mobile-App Investment Ponzi Scheme',
+    slug: 'mali-l-gen-mobile-app-ponzi-scheme',
+    description: `Malian media reported in November 2025 that hundreds of thousands of people across the country discovered they had been defrauded through a mobile application called L-GEN, which press coverage described as run on the same underlying model as the 2022-2023 "OpenAI Mali" collapse: users were recruited to register through the app by phone and to deposit money via mobile-money transfer in exchange for promised easy, outsized returns, with a "system of manipulation, recruitment, and drawing on invested funds" used to keep the scheme running. Reporting outlet Le Soft (lesoftpost.com) said the app had collected billions of CFA francs from participants before the promised payouts and withdrawals stopped in mid-November 2025, echoing the earlier scandal closely enough that outlets explicitly compared the two cases as part of a repeating pattern of app- and mobile-money-based Ponzi schemes in Mali. As with the earlier case, consumer advocates urge anyone approached about an app or platform that promises guaranteed daily or weekly earnings for depositing money via mobile money to treat that promise itself as the warning sign, to be skeptical of apps distributed outside official app stores or through WhatsApp/Facebook recruitment links, and to verify that any investment platform is actually licensed by Mali's financial regulators before sending any money, since a scheme that depends on constant new recruitment to keep paying existing users always eventually collapses.`,
+    categorySlug: 'ponzi-pyramid-schemes',
+    alertLevel: 'high',
+    sources: ['Le Soft (lesoftpost.com)', 'Joliba FM'],
+    sourceUrl: 'https://lesoftpost.com/2025/11/21/l-gen-mali-larnaque-qui-a-vide-des-milliards-fcfa/',
+    country: 'ML',
+  },
+  {
+    name: 'Fake Presidency and Public-Administration "Intermediary" Fraud',
+    slug: 'mali-fake-presidency-intermediary-fraud',
+    description: `Mali's Minister of Security and Civil Protection issued a public communiqué on July 28, 2025 warning of a proliferation of fraud schemes targeting people trying to get things done through the country's public administration. The ministry said dishonest individuals present themselves as unofficial "intermediaries" acting on behalf of public officials or senior authorities, offering to secure favors, approvals, or advantages inside government offices, and use these false claims to extract money from business operators and job seekers with promises that never materialize. A related version identified in the same communiqué involves individuals who intimidate civil servants and business operators by falsely claiming to speak "in the name of the Presidency of the Republic" in order to pressure officials into granting unwarranted approvals. The minister said such conduct undermines transparency and violates Mali's Law 98-012 on relations between the administration and its users, and called on both civil servants and members of the public to show vigilance and professionalism and to pursue every request only through an administration's official, published channels rather than through a self-appointed "fixer" who claims special access, warning that anyone found running such schemes faces criminal prosecution under Malian law.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Mali24.info', "Mali Ministry of Security and Civil Protection"],
+    sourceUrl: 'https://mali24.info/proliferation-des-escroqueries-dans-les-services-publics-le-ministre-de-la-securite-met-en-garde/',
+    country: 'ML',
+  },
+);
