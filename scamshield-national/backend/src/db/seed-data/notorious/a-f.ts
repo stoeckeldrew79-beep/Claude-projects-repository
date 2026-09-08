@@ -5055,3 +5055,39 @@ A federal grand jury in the Western District of Texas indicted Erxleben on five 
 Erxleben's case is unusual even among repeat financial fraudsters for how directly his second scheme echoed the shape of his first: an unregulated, hard-to-verify asset marketed with an air of insider sophistication, sold to people who had no easy way to check whether the underlying investment was real. That his celebrated college football record made him a locally recognizable name in Central Texas only made it easier, prosecutors and reporters covering the case suggested, for investors to extend him a level of trust his financial history did not warrant twice over.`,
   },
 );
+
+NotoriousAF.push(
+  {
+    title: 'Terrence Chalk: The Repeat Fraudster Who Became "Dr. Cash" and Targeted Black Churches',
+    slug: 'terrence-chalk-dr-cash-church-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://www.justice.gov/usao-sdny/pr/serial-fraudster-dr-cash-sentenced-three-years-prison-running-ponzi-scheme',
+    body: `Terrence Chalk had already been convicted once of federal fraud, in 2006, by the time he started building a new investment business a decade later in Orlando, Florida. Rather than use his own name — which an internet search would have tied directly to that earlier conviction — federal prosecutors in the Southern District of New York said Chalk rebranded himself "Dr. Cash," presenting himself as a financial guru with a system for building wealth, and built his client base by holding "wealth seminars" pitched at Black churches, promising to reveal the "hidden secrets of the wealthy."
+
+Beginning around 2017, prosecutors said Chalk used that platform to solicit roughly 26 investors — many of them older churchgoers relying on retirement savings — into what he called the "Chairman's Fund," described to them as a pool of investments that would pay steady, above-market quarterly returns. For a period, Chalk did make the promised payments, and prosecutors said those early payouts did what they always do in a Ponzi scheme: they built trust, and investors already in the fund began recruiting friends and family members to join. In reality, according to the U.S. Attorney's Office, there was no real underlying investment generating those returns — Chalk was paying earlier investors with money raised from newer ones, a structure that by definition cannot continue once new money stops arriving in sufficient volume.
+
+That is what happened by the end of 2019, when Chalk stopped making payments entirely. Prosecutors said the roughly $4.8 million he had raised left investors facing a shortfall of more than $3 million once the early payouts were netted out, while Chalk had personally diverted a substantial share of the money to fund a lifestyle that included NBA season tickets and luxury vehicles rather than any investment on his victims' behalf.
+
+Chalk was arrested in November 2020 and, according to the Justice Department, ultimately admitted to committing investment adviser fraud. On May 29, 2025, U.S. District Judge Andrew L. Carter Jr. sentenced him in Manhattan federal court to three years in prison, to be followed by three years of supervised release, with restitution to his victims to be determined. The prosecution was announced by then-U.S. Attorney for the Southern District of New York Jay Clayton.
+
+Chalk's case illustrates two patterns that show up again and again in affinity fraud: a fraudster who deliberately obscures his own identity — and his own history — from the very people he is asking to trust him with their savings, and a scheme that specifically targets a church community, where a shared faith and a seminar promising insider financial wisdom can substitute for the due diligence an unaffiliated stranger's pitch would ordinarily invite.`,
+  },
+);
+
+NotoriousAF.push(
+  {
+    title: 'Travis Ford and the Wolf Capital Crypto Trading Scheme That Promised 547% a Year',
+    slug: 'travis-ford-wolf-capital-crypto-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://www.justice.gov/opa/pr/cryptocurrency-investment-firm-founder-sentenced-five-years-prison-defrauding-investors-94m',
+    body: `Travis Ford, of Glenpool, Oklahoma, was the CEO, co-founder, and head trader of Wolf Capital Crypto Trading LLC, a cryptocurrency investment firm he built around a pitch that should have been a warning sign on its own: consistent daily returns of 1% to 2%, which compounded out to roughly 547% a year. Between January and August 2023, prosecutors with the Justice Department's Criminal Division said, that promise drew in approximately 2,800 investors who collectively put in $9.4 million.
+
+The returns were never real. According to Ford's own guilty plea, he knew the daily gains he was advertising were "not possible to achieve consistently" — no legitimate trading strategy, in cryptocurrency or any other market, reliably compounds at that rate. Rather than generating the profits Wolf Capital claimed to be making through trading, prosecutors said Ford misappropriated and diverted investor funds to benefit himself and his co-conspirators, leaving the firm unable to make good on what it had promised once the money stopped flowing in from new investors.
+
+Ford pleaded guilty in January 2025 to one count of conspiracy to commit wire fraud. On November 14, 2025, he was sentenced to 60 months — five years — in federal prison. As part of the case, more than $1 million was ordered forfeited, and Ford was ordered to pay restitution of more than $170,000 to victims, a small fraction of the $9.4 million investors had put in, underscoring how much of the money a collapsed crypto scheme's proceeds can be spent, hidden, or otherwise made unrecoverable by the time a case reaches sentencing.
+
+Wolf Capital's pitch was a textbook case of a return that was mathematically impossible to sustain honestly: a 1-2% daily gain, compounded, would turn a modest investment into a fortune within a year or two — a pace no real trading operation, crypto or otherwise, has ever produced consistently over time. That the promise came wrapped in the technical-sounding language of cryptocurrency trading didn't change the underlying math; it only made the claim harder for investors without a trading background to immediately recognize as impossible.`,
+  },
+);
