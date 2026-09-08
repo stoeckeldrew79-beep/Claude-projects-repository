@@ -5295,3 +5295,45 @@ Colorado Securities Commissioner Tung Chan brought a civil securities-fraud case
 The Regalado case is a reminder that a religious framing does not exempt an investment pitch from ordinary securities law, and it should not exempt it from ordinary investor skepticism either. A "guaranteed" return, a currency whose value is set unilaterally by the people selling it rather than by any open market, and an exchange that only reveals it cannot honor its own promised price once investors try to cash out are the same warning signs regulators flag in any Ponzi-adjacent scheme — regardless of whether the pitch comes wrapped in the language of faith or in the language of finance.`,
   },
 );
+
+NotoriousAF.push(
+  {
+    title: 'Atharva Sathawane: The Gold-Bar Courier Who Drained $8 Million from Elderly Victims in Four Months',
+    slug: 'atharva-sathawane-gold-courier-elder-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.irs.gov/compliance/criminal-investigation/fraudster-sentenced-to-eighteen-years-in-prison-after-taking-and-laundering-millions-from-elderly-victims',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Joseph_Hatchett_United_States_Courthouse_from_Monroe_Street.jpg?width=1200',
+    coverImageCredit: 'Photo: The Bushranger, Wikimedia Commons (CC BY-SA 4.0) — the federal courthouse in Tallahassee, where Atharva Sathawane was prosecuted in the Northern District of Florida',
+    coverImagePosition: 50,
+    body: `Atharva Shailesh Sathawane, a 23-year-old Indian national who had entered the United States on a student visa and then overstayed it, was the physical collection point for an international elder-fraud scheme that prosecutors say bypassed banks' anti-money-laundering controls with a strikingly low-tech workaround: instead of wiring money, victims were talked into converting cash and retirement savings into physical gold bars and handing them directly to a courier who showed up at their door.
+
+According to the U.S. Attorney's Office for the Northern District of Florida, unidentified co-conspirators — some directing the scheme from India — contacted elderly victims and convinced them their money or identities were at risk, then walked them through liquidating retirement accounts and converting the proceeds into cash and gold. Sathawane's role was to collect it in person: over roughly four months, trial evidence showed he made at least 30 to 33 separate pickups from victims' homes across Florida, Pennsylvania, Virginia, New Jersey, and New York, then delivered the cash and gold to unidentified individuals waiting in parking lots — a courier layer designed to put physical distance, and a disposable face, between the victims and the people actually directing the fraud.
+
+The scheme unraveled because one victim got suspicious. When an elderly man in Gainesville, Florida grew wary of the arrangement, he worked with local law enforcement to set up a ruse: Sathawane was arrested the moment he arrived at the man's home expecting to pick up more gold. A subsequent search of his cell phone, prosecutors said, confirmed his participation in the broader scheme, tying him to more than 30 transactions across multiple states and to at least 28 identified victims along the East Coast.
+
+A federal jury convicted Sathawane in November 2025 of conspiracy to commit wire fraud and conspiracy to commit money laundering. On March 26, 2026, he was sentenced to 18 years in federal prison. Prosecutors said Sathawane personally took in and laundered $6,615,484.66 from victims, with the broader scheme's losses estimated at roughly $8 million; he was ordered to pay $4.3 million in restitution to twelve identified victims, whose individual losses ranged from $50,000 to more than $1.2 million. "Elder fraud schemes like this one are taking place every day," U.S. Attorney John P. Heekin said in announcing the sentence, while an FBI special agent involved in the case put the warning sign plainly: "If anyone tells you to buy gold and hand it over to a stranger, it is not an investment, it is a scam."
+
+The gold-courier method exists precisely because it defeats the fraud controls built around wire transfers and bank tellers trained to ask questions about large withdrawals. There is no legitimate reason a bank, a government agency, or an investment firm would ever instruct a customer to convert savings into physical gold and hand it to a stranger at the front door — and any call urging exactly that, however official it sounds, should be treated as the scam it almost certainly is.`,
+  },
+);
+
+NotoriousAF.push(
+  {
+    title: 'Fei Liao and the Shell Companies That Laundered Pig-Butchering Proceeds Through East Texas',
+    slug: 'fei-liao-pig-butchering-shell-company-laundering',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-edtx/pr/chinese-national-sentenced-role-pig-butchering-scheme',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Sherman_July_2016_48_(Paul_Brown_Federal_Building).jpg?width=1200',
+    coverImageCredit: 'Photo: Michael Barera, Wikimedia Commons (CC BY-SA 4.0) — the Paul Brown Federal Building and U.S. Courthouse in Sherman, Texas, where Fei Liao was prosecuted in the Eastern District of Texas',
+    coverImagePosition: 50,
+    body: `Fei Liao, of San Gabriel, California, did not run the fake dating profiles or the fraudulent crypto-trading apps that drain "pig butchering" victims dollar by dollar. According to the U.S. Attorney's Office for the Eastern District of Texas, his job was further downstream: turning the money those schemes had already stolen into something that looked like ordinary business income by the time it left the country.
+
+Prosecutors say Liao and co-conspirators formed shell companies — including Magic Location Trading LLC and Stone Water Trading LLC, both set up in 2022 — and opened bank accounts in their names for no purpose other than receiving wire transfers from cryptocurrency-investment fraud victims. Money moved into those accounts through dozens of separate wires, more than $7.6 million into Stone Water Trading and roughly $5.4 million into Magic Location Trading, tied to a broader network prosecutors said laundered upward of $13 million in fraud proceeds. Once inside accounts belonging to businesses with no real operations, the stolen funds could be moved, converted, or withdrawn with far less scrutiny than a wire arriving directly from a scam victim would draw.
+
+Liao, then 29, was taken into federal custody on May 3, 2024, and indicted on charges of conspiracy to commit wire fraud and conspiracy to commit money laundering. He pleaded guilty to the money-laundering conspiracy count, and on February 19, 2026, U.S. District Judge J. Campbell Barker sentenced him, then 31, to 40 months in federal prison. Liao was ordered to forfeit more than $2.3 million in seized currency traced to the scheme and to pay over $2.8 million in restitution to the victims whose money had passed through his accounts.
+
+"Pig butchering" fraud depends on more than a convincing script; it depends on a laundering pipeline patient enough to make a large stolen sum look, to any bank compliance officer glancing at an account, like the unremarkable proceeds of a small trading company. A newly formed LLC with a generic name, a business bank account that mostly receives wires from strangers rather than paying customers, and no verifiable product or service behind it are exactly the features investigators look for when tracing where pig-butchering money goes after the initial theft — and the same features a bank or a curious family member can sometimes catch before the money moves any further.`,
+  },
+);
