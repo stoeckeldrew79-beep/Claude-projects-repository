@@ -278,6 +278,7 @@ export const SCAM_TAGS: Record<string, string[]> = {
   'opers-pension-advance-factoring-scam': ['elder-targeted'],
   'oregon-aequitas-capital-management-ponzi-scheme': ['student-targeted'],
   'oregon-riverpark-avamere-nursing-home-billing-fraud': ['elder-targeted'],
+  'oregon-salem-deborah-white-medicaid-neglect-billing-fraud': ['elder-targeted'],
   'pennsylvania-alpha-dental-medicare-misrepresentation-scheme': ['elder-targeted'],
   'pennsylvania-pa-corporate-certificates-fake-state-agency-mailer': ['small-business-targeted'],
   'pennsylvania-property-tax-rent-rebate-direct-deposit-scam': ['elder-targeted'],
@@ -358,5 +359,6 @@ export const SCAM_TAGS: Record<string, string[]> = {
   'wisconsin-milwaukee-prenatal-care-medicaid-fraud-jackson': ['elder-targeted'],
   'wisconsin-square-one-consumer-law-protection-timeshare-exit-scheme': ['elder-targeted'],
   'words-with-friends-gaming-app-romance-scam': ['elder-targeted'],
+  'wyoming-gillette-montgomery-veteran-power-of-attorney-exploitation': ['elder-targeted', 'veteran-targeted'],
   'wyoming-pinnacle-powerful-solutions-elder-mail-scam': ['elder-targeted'],
 };

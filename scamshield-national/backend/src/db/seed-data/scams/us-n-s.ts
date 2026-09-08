@@ -4132,3 +4132,15 @@ UsNS.push({
     country: 'US',
     state: 'SC',
 });
+
+UsNS.push({
+    name: "Salem Caregiver's Medicaid Neglect and False-Billing Scheme (Deborah White)",
+    slug: 'oregon-salem-deborah-white-medicaid-neglect-billing-fraud',
+    description: `Oregon's Department of Justice Medicaid Fraud Control Unit arrested Deborah White, 62, of Salem, on July 29, 2026, accusing her of neglecting two elderly and disabled Medicaid recipients in her care while billing the state's Medicaid program for personal-support services she was not actually providing. White faces multiple counts of Criminal Mistreatment in the First Degree, Making a False Claim for Health Care Payment, and Aggravated Theft in the First Degree. Attorney General Dan Rayfield's office announced White's arrest alongside three other Medicaid fraud cases charged the same month across the state, including a Multnomah County pair accused of fraudulently issuing replacement SNAP benefit cards to steal food assistance from an elderly victim and a person with a disability, and a Clatsop County couple accused of billing the state for developmental-disability caregiving services that were never rendered. Investigators say White's case follows a pattern the MFCU sees often in personal-care and in-home-support billing: a caregiver paid per hour or per visit through Medicaid has a direct financial incentive to bill for time not actually spent providing care, and the people most likely to be harmed — elderly and disabled recipients who depend on that caregiver — are often the least able to report the neglect themselves. Oregon's Medicaid Fraud Control Unit asks family members and case managers who notice that a caregiver's billed hours don't match the care a vulnerable relative is actually receiving to report it, since the state has no way to catch mismatched billing without someone flagging what they've personally observed.`,
+    categorySlug: 'medicare-health-plans',
+    alertLevel: 'high',
+    sources: ['Oregon Department of Justice (Medicaid Fraud Control Unit)'],
+    sourceUrl: 'https://www.doj.state.or.us/media-home/news-media-releases/oregon-dojs-medicaid-fraud-control-unit-charges-6-defendants-in-4-cases/',
+    country: 'US',
+    state: 'OR',
+});
