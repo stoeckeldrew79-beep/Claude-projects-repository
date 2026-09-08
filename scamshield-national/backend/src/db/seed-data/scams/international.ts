@@ -10869,3 +10869,16 @@ International.push(
     country: 'AW',
   },
 );
+
+International.push(
+  {
+    name: 'Gibraltar Bank-Impersonation Telephone Scam Wave',
+    slug: 'gibraltar-bank-impersonation-telephone-scam-wave',
+    description: `Over just a few days in July 2024, fraudsters cold-called Gibraltar businesses posing as staff from their bank's fraud department, using spoofed caller ID so the calls appeared to come from the bank's genuine phone number. Callers told employees their account had been compromised and, to "halt" the supposed fraudulent transactions, talked them into installing remote-access software such as TeamViewer or handing over online banking credentials; in one case a local business only discovered on the following Monday that its account had been drained of more than £1 million. The Royal Gibraltar Police said the wave of cold-calls used social-engineering pressure tactics to strip roughly £3.2 million from Gibraltar businesses in a matter of days, contributing to a reported £7.5 million lost to fraud across the territory in 2024 overall. In response, the Gibraltar Bankers Association, together with local firm Purple Media, launched the "Safeguard Gibraltar: Be Fraud Smart" public-awareness campaign in April 2025, with NatWest International's Gibraltar country head Peter Booth stressing that education matters because "very few successful frauds happen as a result of people following official guidance." Police reiterated that neither a bank nor the police will ever ask a customer to install remote-access software or to reveal a PIN, password, or passcode over the phone.`,
+    categorySlug: 'account-takeover',
+    alertLevel: 'high',
+    sources: ['Royal Gibraltar Police (RGP)', 'Gibraltar Bankers Association (GBA)', 'The Gibraltar Chronicle'],
+    sourceUrl: 'https://www.chronicle.gi/after-7-5m-fraud-losses-campaign-to-safeguard-gibraltar-launches/',
+    country: 'GI',
+  },
+);
