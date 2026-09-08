@@ -6060,3 +6060,15 @@ UsAF.push({
     country: 'US',
     state: 'CT',
 });
+
+UsAF.push({
+    name: 'Alpha Care Medical Fraudulent Urine Drug Testing Scheme',
+    slug: 'delaware-alpha-care-medical-urine-drug-testing-fraud',
+    description: `The U.S. Attorney's Office for the District of Delaware announced on June 17, 2026 that it had filed a False Claims Act complaint against Alpha Care Medical, LLC; its principal, Nihar Gala, 38, of Lewes, Delaware; and its laboratory director, Bo Wang, 52, of Glen Mills, Pennsylvania, alleging the trio ran a scheme between July 2021 and June 2026 that billed Medicare, the Delaware Medical Assistance Program (Delaware's Medicaid program), TRICARE, and the Federal Employees Health Benefits Program for laboratory diagnostic testing that lacked any valid medical purpose, violated laboratory clinical standards meant to ensure reliable results, or, in numerous instances, was never performed on the patient at all. According to the complaint, the defendants specifically targeted urine drug testing — a category of lab work that is easy to over-order and hard for a patient to verify after the fact, since the patient has no way to check what a lab actually tested for or whether a sample was even processed. Prosecutors allege the defendants submitted at least $2,799,150 in false claims to these government health programs, of which roughly $1,085,357 was actually paid out before the scheme was caught. The action was announced as part of the Department of Justice's 2026 National Health Care Fraud Takedown, a coordinated nationwide enforcement sweep targeting fraud against federal and state health programs. Because the case was brought as a civil False Claims Act complaint rather than a criminal indictment, the allegations against Alpha Care Medical, Gala, and Wang remain unproven unless the government prevails in court or the parties reach a settlement. Medicare, Medicaid, TRICARE, and FEHBP beneficiaries are urged to review the explanation-of-benefits or summary notices they receive after any lab visit and to report any diagnostic test listed that they do not recall having done, since — as in this case — a stolen or reused patient identifier is often all a fraudulent lab needs to generate a billable claim in someone's name.`,
+    categorySlug: 'healthcare-fraud',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office, District of Delaware", 'U.S. Department of Health and Human Services Office of Inspector General', 'Delaware LIVE News'],
+    sourceUrl: 'https://www.justice.gov/usao-de/pr/united-states-files-false-claim-act-complaint-against-delaware-medical-provider',
+    country: 'US',
+    state: 'DE',
+});
