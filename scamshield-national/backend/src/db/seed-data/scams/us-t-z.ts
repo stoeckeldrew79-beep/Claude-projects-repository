@@ -2553,3 +2553,15 @@ UsTZ.push({
     country: 'US',
     state: 'VA',
 });
+
+UsTZ.push({
+    name: 'Lifehouse Inc. Sober-Living Nonprofit Billing Fraud Conspiracy (Raymond and Helen Meadows)',
+    slug: 'west-virginia-lifehouse-huntington-meadows-fraud-conspiracy',
+    description: `Raymond "Rocky" Meadows II, 52, founder and director of Lifehouse Inc. — a nonprofit, long-term, faith-based substance abuse recovery program headquartered in Huntington, West Virginia — was federally charged along with his wife, Helen Crutcher Meadows, 49, of Tampa, Florida, with conspiracy to commit wire fraud, U.S. Attorney Moore Capito announced on June 23, 2026 as part of the Department of Justice's 2026 National Health Care Fraud Takedown. Prosecutors say Helen worked as a drug-test collector for a third-party laboratory under the name "Helen Crutcher," without disclosing to the agency that she was married to Raymond, and then falsified and submitted timesheets billing for collection work that was never actually performed — at times claiming roughly 32 hours of overtime a week for months at a stretch, and submitting hours for days the couple was on out-of-state vacation. As Lifehouse's director, Raymond reviewed and personally co-signed the fraudulent timesheets before they went to the laboratory for payment. The laboratory paid out based on those falsified records and then sought reimbursement from federal and state health care programs, meaning the loss ultimately flowed back to the public programs that fund addiction treatment and testing. "These defendants viewed West Virginia's addiction crisis not as a tragedy, but as an opportunity," Capito said in announcing the charges, part of a broader 2026 takedown that charged 455 defendants nationwide, including 90 medical professionals, in connection with more than $6.5 billion in alleged false claims. The case is a reminder that health care billing fraud is not limited to hospitals and pharmacies — a nonprofit recovery program's own leadership can falsify hours for services central to the recovery process itself, and patients, families, and insurers who notice billing for drug testing or counseling that does not match the actual care received should report it to the West Virginia Attorney General's Medicaid Fraud Control Unit.`,
+    categorySlug: 'healthcare-fraud',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office for the Southern District of West Virginia", 'WSAZ', 'The Herald-Dispatch'],
+    sourceUrl: 'https://www.justice.gov/usao-sdwv/pr/us-attorney-moore-capito-announces-fraud-conspiracy-charges-against-sober-living-home',
+    country: 'US',
+    state: 'WV',
+});

@@ -6132,3 +6132,15 @@ UsAF.push({
     country: 'US',
     state: 'CA',
 });
+
+UsAF.push({
+    name: 'Connecticut Storm-Chaser Roofing Scam Alert',
+    slug: 'connecticut-storm-chaser-roofing-scam-alert',
+    description: `The Connecticut Department of Consumer Protection (DCP), joined by the Better Business Bureau, issued a consumer alert on July 14, 2025 warning homeowners about "storm chaser" roofing crews that follow severe weather into neighborhoods and go door to door offering fast repairs. According to DCP, the crews often claim to have spotted damage on a homeowner's roof while working next door, offer a free inspection to get onto the property, and then use high-pressure tactics — urgency, a limited-time discount, or a claim that other neighbors have already signed up — to push a same-visit contract signature. Some pressure homeowners to pad the total contract price above the actual cost of repairs so the difference can be used to cover their insurance deductible, which is itself illegal in Connecticut. DCP said it fielded 91 roofing-related complaints in just the first half of 2025, after logging 285 for all of 2024 and 247 in 2023 — a steady upward trend the agency tied directly to increasingly severe spring storms. "Summer is a common time for door-to-door sales, but homeowners should be aware of potential scams," said DCP Commissioner Bryan T. Cafferelli, while BBB spokeswoman Kristen Johnson added, "Any reputable company will want to give you the time to do your research and see that it is trustworthy." Every roofer and home-improvement contractor doing business in Connecticut is legally required to hold an active Home Improvement Contractor registration, which homeowners can verify through the state's eLicense lookup before signing anything; the alert also reminds residents that Connecticut law gives them three business days to cancel a home-improvement contract signed at their home, and that a written contract, a local business address, and proof of insurance are basic requirements a legitimate roofer will have no trouble providing.`,
+    categorySlug: 'home-improvement-solar',
+    alertLevel: 'medium',
+    sources: ['Connecticut Department of Consumer Protection', 'Better Business Bureau'],
+    sourceUrl: 'https://portal.ct.gov/dcp/news-releases-from-the-department-of-consumer-protection/2025-news-releases/be-aware-of-scammers-posing-as-roofing-companies',
+    country: 'US',
+    state: 'CT',
+});
