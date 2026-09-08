@@ -5270,3 +5270,37 @@ Spanish prosecutors and investigating judges at the Audiencia Nacional, Spain's 
 The Gowex case is as much a study in institutional failure as in one man's fabrications: a junior stock exchange with lighter listing requirements than Spain's main market, a regulator and a set of auditors who let years of implausible growth pass without serious challenge, and a fraud that only came to light because an outside short-seller bothered to check numbers that the institutions actually tasked with checking them never did. More than a decade later, the slow grind of García's own prosecution stands as its own lesson — that a fraud's public unraveling and its final legal reckoning can be separated by many years, leaving victims waiting even longer for anything resembling closure.`,
   },
 );
+
+NotoriousGM.push(
+  {
+    title: "Victor Incendy and the Cascade International Fraud He Vanished Into",
+    slug: 'victor-incendy-cascade-international-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.bloomberg.com/news/articles/1995-06-04/incendy-faces-a-cascadeofcharges',
+    body: `Victor Incendy, a Hungarian-born businessman, ran Cascade International out of Boca Raton, Florida, building it in the late 1980s into a publicly traded chain of women's clothing boutiques and cosmetics counters that Wall Street analysts treated as a genuine retail success story. Cascade's own securities filings and press materials described a rapidly growing national network of stores, at various points claiming hundreds of retail locations across the country; its stock climbed accordingly, at its peak trading above $11 a share and giving the company a market value of roughly $200 million.
+
+The stores mostly didn't exist. When regulators and short-sellers began digging into Cascade's claims, they found a company that in reality operated only a small handful of locations — by some accounts as few as five — nowhere near the sprawling, multi-state chain its filings described. Incendy and his associates had built the illusion of a national retailer largely on paper, using the inflated store count and matching sales figures to keep Cascade's stock price climbing and to secure roughly $10 million in loans from the Bank of Scotland against assets that were never what the company claimed.
+
+The fraud collapsed on November 20, 1991, when Incendy disappeared from South Florida without warning as questions about Cascade's real operations closed in. The company, unable to explain its own numbers with its chief executive gone, collapsed into bankruptcy within weeks. Investors who had bought into Cascade's growth story on the strength of its public filings lost an estimated $170 million as the stock became worthless, one of the more brazen small-cap retail frauds of the era. The Miami U.S. Attorney's office unsealed a 132-count federal indictment in May 1995 against Incendy, his ex-wife, and several associates, including company chairman John Sirmans, on charges spanning securities fraud, stock manipulation, and related counts.
+
+Incendy himself was never caught. Investigators traced sightings and rumors that placed him variously in Eastern Europe in the years after his disappearance, but he was never arrested, extradited, or tried, and remains a fugitive from the federal charges decades later — one of the rare architects of a major American securities fraud who simply vanished before the reckoning arrived and was never made to answer for it in court. His case is a reminder of a hole regulators still haven't fully closed: an ambitious executive willing to fabricate a company's core operating facts — not just its accounting, but the physical existence of the business itself — can defraud public shareholders on a large scale and, if he disappears fast enough, may never face the inside of a courtroom at all.`,
+  },
+);
+
+NotoriousGM.push(
+  {
+    title: "Tanvir Mahmud and the Hallmark Group Loan Scam That Emptied a Bangladeshi State Bank",
+    slug: 'tanvir-mahmud-hallmark-group-sonali-bank-scam',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.thedailystar.net/news/bangladesh/crime-justice/news/hallmark-loan-scam-they-deserve-gallows-3570671',
+    body: `Tanvir Mahmud was managing director of Hallmark Group, a Bangladeshi conglomerate with interests spanning garments, jute, and other light industry, when he and his wife, Hallmark chairman Jesmin Islam, orchestrated one of the largest bank frauds in the country's history through a single branch of Sonali Bank, Bangladesh's largest state-owned lender. Between roughly 2010 and 2012, Hallmark and a network of associated shell entities — including a nonexistent company called Max Spinning Mills — obtained loans from Sonali Bank's Ruposhi Bangla Hotel branch in Dhaka using forged export documents, fabricated inland bills, and fraudulent collateral, with bank officials at the branch approving disbursements that internal controls should never have allowed.
+
+The scale of the fraud, once Bangladesh Bank's own inspectors uncovered it in 2012, was staggering for a single branch of a single bank: investigators eventually tied more than 3,500 crore taka — roughly $430 million at the time — in fraudulently obtained credit to Hallmark and its associated companies, embezzled through loans that had no real export activity, no real factories, and, in many cases, no real underlying collateral behind them. The revelation triggered a national scandal over lax oversight at Bangladesh's state banking sector and drew criticism toward regulators who had allowed a single branch to extend credit on that scale without proper verification.
+
+Bangladesh's Anti-Corruption Commission (ACC) opened its first case in October 2012 and ultimately filed eleven separate cases covering different loans and different defendants, naming Tanvir Mahmud, Jesmin Islam, and Sonali Bank's own former managing director, Humayun Kabir, among dozens of bank officials and Hallmark associates implicated in the scheme. The cases moved through Bangladesh's special judge courts over more than a decade, with verdicts handed down separately as each case concluded — a Dhaka court sentenced Tanvir, Jesmin, and several co-defendants to life imprisonment in one case in February 2023, and to life imprisonment again in a second case in March 2024, along with substantial fines; defense lawyers filed appeals to the High Court against both verdicts. Tanvir Mahmud died in Dhaka Medical College Hospital in November 2025 while still serving his sentence at Dhaka Central Jail, with his appeals unresolved.
+
+The Hallmark scandal became a byword in Bangladesh for the vulnerability of state-owned banks to fraud carried out with inside help, illustrating how a scheme built on fabricated trade documents can drain hundreds of millions of dollars from a single bank branch when the officials meant to verify those documents are either negligent or complicit. More than a decade after the fraud was first uncovered, with its central figure dead and its appeals still pending, the case also stands as a reminder of how long formal justice can take to catch up with a fraud of this size — long enough, in Hallmark's case, that the man at its center never lived to see it finally resolved.`,
+  },
+);
