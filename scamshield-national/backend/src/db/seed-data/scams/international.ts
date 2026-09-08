@@ -11003,3 +11003,36 @@ International.push(
     country: 'NE',
   },
 );
+
+International.push(
+  {
+    name: 'Cuba Fake Correos de Cuba Delivery SMS Phishing Scam',
+    slug: 'cuba-fake-correos-de-cuba-delivery-sms-phishing-scam',
+    description: `In November 2025, Cuba's state postal service Correos de Cuba warned customers on its official Facebook page about a wave of fraudulent text messages sent from foreign phone numbers claiming a package had arrived at a warehouse but "could not be delivered due to an incomplete address." The messages included a link to a fake website designed to harvest personal information and payment details under the guise of resolving the delivery problem. Correos de Cuba said it does not communicate with customers this way and told the public to verify any shipment only through its official website, www.correos.cu, or its official Android app, never by clicking a link inside an unsolicited text message.`,
+    categorySlug: 'package-delivery-scams',
+    alertLevel: 'medium',
+    sources: ['Correos de Cuba (official Facebook page)', 'CiberCuba'],
+    sourceUrl: 'https://en.cibercuba.com/noticias/2025-11-05-u1-e135253-s27061-nid314324-correos-cuba-alerta-estafa-sms-enlaces-falsos',
+    country: 'CU',
+  },
+  {
+    name: 'Cuba Fake Transfermóvil/Enzona Technician Telegram Scam',
+    slug: 'cuba-fake-transfermovil-enzona-technician-telegram-scam',
+    description: `On March 18, 2025, Banco Popular de Ahorro (BPA) in Villa Clara, Cuba, warned customers about a scammer contacting people on Telegram while posing as an administrator or technician for the state mobile payment platforms Transfermóvil and Enzona. The scammer asked victims to hand over passwords, verification codes, and other banking details, supposedly to fix an account problem, then used that information to make fraudulent transfers out of the victim's account. The operator repeatedly deleted and recreated the same Telegram account to dodge reports against it. The bank stressed that "none of the administrators…will reach out to you privately, much less ask for personal information such as passwords, codes, transfers, or any other type," and urged customers never to share such details outside the official apps.`,
+    categorySlug: 'phishing',
+    alertLevel: 'medium',
+    sources: ['Banco Popular de Ahorro (BPA), Villa Clara, Cuba', 'CiberCuba'],
+    sourceUrl: 'https://en.cibercuba.com/noticias/2025-03-18-u1-e199370-s27061-nid299122-alerta-cuba-estafador-hace-pasar-tecnico-plataformas',
+    country: 'CU',
+  },
+  {
+    name: 'Cuba Fake Mobile Balance "Wrong Transfer" Refund Scam',
+    slug: 'cuba-fake-mobile-balance-wrong-transfer-refund-scam',
+    description: `Cuba's Transfermóvil mobile payment service, backed by state telecom operator ETECSA and reported by official outlets Granma and 26, warned in August 2024 of a growing scam built around fake balance-transfer notifications. Fraudsters send a text message designed to look like a genuine Cubacel or Transfermóvil alert saying money or phone credit has been sent to the victim, then call shortly after, claiming the transfer was made by mistake and pressuring the victim — sometimes with a fabricated hospital emergency — to send back money or credit that was never actually received in the first place. Transfermóvil noted that its real service messages always arrive under the sender name "Pago por Móvil," are never sent from a private or personal number, and cannot be replied to, and it urged customers to check their actual account balance before sending anything back.`,
+    categorySlug: 'fake-check-overpayment',
+    alertLevel: 'medium',
+    sources: ['Transfermóvil / ETECSA, Cuba', 'Granma', 'CiberCuba'],
+    sourceUrl: 'https://en.cibercuba.com/noticias/2024-08-08-u1-e199854-s27061-nid286508-alertan-crecientes-estafas-robar-saldo-telefonico',
+    country: 'CU',
+  },
+);
