@@ -2325,3 +2325,15 @@ UsTZ.push({
     country: 'US',
     state: 'WY',
 });
+
+UsTZ.push({
+    name: 'Caroline County Fake-Buyer Bad-Check Real Estate Scam (Shavon Boyd)',
+    slug: 'virginia-caroline-county-shavon-boyd-fake-check-real-estate-scam',
+    description: `The Caroline County Sheriff's Office opened an investigation on July 17, 2026 after a resident of the Lake Land'Or subdivision reported a fake check tied to what looked like a real estate purchase, and the case quickly grew into a wider fraud pattern. Investigators say Shavon Tyvell Boyd, 45, of Richmond, using aliases including "Ty Boyd," "Tye," and "Shy," posed online as a sincere prospective home buyer, building emotional rapport with sellers by telling them he had been adopted and wanted to help others and that he was undergoing cancer treatment. Boyd then wrote fraudulent checks toward supposed real estate and personal-property transactions — in one instance presenting a victim with a $22,000 check purportedly to buy a lawnmower and other property — checks that were never good. Deputies arrested Boyd on July 21, 2026 just before he could board a flight out of Richmond International Airport, charging him with felony issuing bad checks and holding him without bond at Pamunkey Regional Jail; investigators said additional charges and additional victims were expected as the case continued. The scheme is a reminder that a buyer's sympathetic personal story is not proof of funds — a check should be confirmed as cleared by the issuing bank before any property, cash, or goods change hands, and sellers dealing with an online buyer should be especially wary of any large check tied to a vague or shifting purchase request.`,
+    categorySlug: 'fake-check-overpayment',
+    alertLevel: 'high',
+    sources: ["Caroline County Sheriff's Office", 'WWBT NBC 12'],
+    sourceUrl: 'https://www.12onyourside.com/2026/07/23/man-arrested-caroline-county-fake-check-real-estate-scam/',
+    country: 'US',
+    state: 'VA',
+});

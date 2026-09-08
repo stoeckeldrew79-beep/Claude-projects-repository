@@ -4140,3 +4140,15 @@ UsGM.push({
     country: 'US',
     state: 'MN',
 });
+
+UsGM.push({
+    name: 'Hawaii Post-Hurricane Lala and Moke Storm-Chaser Contractor Scam',
+    slug: 'hawaii-hurricane-lala-moke-storm-chaser-contractor-scam',
+    description: `In the wake of Hurricanes Lala and Moke, Hawaii's Department of Commerce and Consumer Affairs (DCCA) issued a public warning on August 26, 2026 about "storm chasers" — unlicensed contractors who claim to already be working in a damaged neighborhood, push homeowners to sign a repair contract on the spot with a "today only" price, and take payment upfront before disappearing or doing substandard work. The DCCA's alert, delivered by Consumer Resource Center staffer JP Brabant and Insurance Division chief investigator Sam Thomsen, described two companion schemes converging on the same storm-damaged households: callers posing as FEMA or another disaster-aid agency who demand a fee or personal financial details to "process" assistance, and fake insurance representatives who ask for a policy number and other personal information while claiming to be working with the homeowner's actual insurer. Officials urged residents to verify any contractor's license through businesscheck.hawaii.gov before signing anything or paying a deposit, to never pay a contractor in full upfront or sign an insurance check over to them, to hang up on unsolicited FEMA or insurer calls and verify identity only through numbers looked up independently, and to get a written contract and references before hiring — directing anyone targeted to the FEMA fraud hotline at 1-866-720-5721 or the Hawaii Insurance Division at 844-808-3222.`,
+    categorySlug: 'home-improvement-solar',
+    alertLevel: 'high',
+    sources: ["Hawaii Department of Commerce and Consumer Affairs", 'Hawaii News Now'],
+    sourceUrl: 'https://www.hawaiinewsnow.com/2026/08/26/hawaii-officials-warn-storm-chaser-scams-after-hurricane-lala/',
+    country: 'US',
+    state: 'HI',
+});
