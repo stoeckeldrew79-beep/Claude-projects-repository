@@ -3592,3 +3592,20 @@ A federal grand jury indicted Polishan in October 1996 on charges of securities 
 The Leslie Fay fraud is often remembered as a dress rehearsal, in the most literal sense, for the accounting scandals — Enron, WorldCom, Tyco — that would dominate headlines a decade later: a single dominant financial executive controlling the numbers so completely that a whole department of subordinates falsified records simply because that was what kept their jobs, while auditors, directors, and Wall Street analysts spent years taking a run of implausibly smooth earnings at face value. It illustrates a pattern that recurs across corporate fraud regardless of industry or era — that the person best positioned to catch a fraud is often the same person with the most power to order it committed in the first place.`,
   },
 );
+
+NotoriousNS.push(
+  {
+    title: 'Robert C. Starnes: The Wauwatosa "Financial Adviser" Who Never Invested a Dollar',
+    slug: 'robert-starnes-wauwatosa-investment-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://www.justice.gov/usao-edwi/pr/financial-advisor-sentenced-investment-fraud-scheme',
+    body: `Robert C. Starnes ran Robert C. Starnes Financial Services out of Wauwatosa, Wisconsin, presenting himself to friends, friends of friends, and family members as a legitimate investment broker and retirement adviser. According to federal prosecutors in the Eastern District of Wisconsin, that presentation was false from the start: over the course of roughly fifteen years, from 2008 to 2023, Starnes persuaded more than a dozen people to hand him their retirement savings, and rather than investing any of it, simply deposited the checks into his own personal bank accounts at Wells Fargo and BMO Harris Bank and spent the money on his own expenses, including credit card bills and a $25,000 mortgage payment.
+
+To keep his victims from asking questions, prosecutors said Starnes sent them fabricated account statements — some carrying the logos of real investment firms, including DWS Investments and Barclays — showing their money steadily growing in value. None of it was real. Starnes had not, in the government's words, invested any funds on behalf of his victims at any point. Separately from the criminal case, Starnes had also worked as a registered representative at SA Stone Wealth Management, which fired him in May 2023 for violating firm policy on handling client funds; the Financial Industry Regulatory Authority (FINRA) later barred him from the securities industry after he refused to testify in connection with a customer complaint.
+
+Starnes pleaded guilty in federal court to fraud. At his sentencing hearing on November 5, 2025, U.S. District Judge Lynn Adelman noted that Starnes had not invested any of the funds entrusted to him and emphasized that his victims were not wealthy, sophisticated investors but ordinary, hard-working families relying on their retirement savings. Judge Adelman sentenced Starnes to 40 months in federal prison, to be followed by three years of supervised release, and ordered him to pay restitution of $3,093,304.17. The case was investigated by the Wisconsin Department of Justice's Division of Criminal Investigation and IRS Criminal Investigation, and prosecuted by the U.S. Attorney's Office for the Eastern District of Wisconsin.
+
+Starnes's case is a reminder that an "adviser" operating through personal relationships — friends, relatives, people who already trust him socially — rarely faces the kind of outside scrutiny a stranger's investment pitch would draw, and that fabricated statements bearing the logos of real, recognizable financial firms can be enough to keep victims from asking to see their money for years, even when, as prosecutors found here, not a single dollar was ever actually invested on their behalf.`,
+  },
+);
