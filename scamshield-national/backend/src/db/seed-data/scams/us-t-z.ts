@@ -2397,3 +2397,27 @@ UsTZ.push({
     country: 'US',
     state: 'WV',
 });
+
+UsTZ.push({
+    name: "Gillette Veteran With Dementia Drained by Daughter's Power-of-Attorney Exploitation",
+    slug: 'wyoming-gillette-montgomery-veteran-power-of-attorney-exploitation',
+    description: `Sabrina Dawn Montgomery obtained power of attorney over her 81-year-old father, an Air Force veteran living with dementia, in January 2025, and prosecutors in Campbell County, Wyoming say she and her husband, Nathan Lee Montgomery, spent the following months using that authority — and her father's own bank account — for themselves rather than for his care. Charging documents filed in the Sixth Judicial District allege the Montgomerys moved money from the veteran's account at Campco Federal Credit Union into their own joint accounts, and that when Sabrina sold her father's 2018 Cadillac for $23,000 in July 2025, roughly $12,905 of the proceeds went to pay off the couple's own truck loan rather than his — even as no payments were made on the veteran's own remaining vehicle loan during that period. Investigators say the couple also charged personal Amazon purchases and restaurant meals to the victim's accounts, and that of the roughly $26,579 transferred out of his accounts between late January and October 20, 2025, at least $26,121.47 was never used for his welfare. Sabrina Montgomery was charged with two counts of exploitation of a vulnerable adult and two counts of theft over $1,000, while Nathan Montgomery faces one count each of the same charges; both are presumed innocent pending trial. The case illustrates a pattern financial-exploitation investigators see often: a power of attorney granted to a trusted family member, with no independent second signer or outside party receiving copies of account statements, can leave an aging relative's finances essentially unsupervised — families arranging a POA for a relative with dementia are advised to require a co-trustee or ask the bank to flag large transfers for review whenever one relative alone controls another's accounts.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'medium',
+    sources: ['County 17'],
+    sourceUrl: 'https://county17.com/2025/11/17/wyoming-couple-charged-with-exploiting-elderly-relative/',
+    country: 'US',
+    state: 'WY',
+});
+
+UsTZ.push({
+    name: 'Southwest Virginia Inmate-Identity Pandemic Unemployment Fraud Ring',
+    slug: 'virginia-swvrja-haysi-inmate-identity-unemployment-fraud',
+    description: `Josef Brown, Jonathan Webb, and Crystal Shaw ran a scheme between March 2020 and September 2021 that collected the personal identifying information of inmates housed at the Southwest Virginia Regional Jail Authority's Haysi facility, along with the information of their own friends and acquaintances, and used it to file fraudulent claims and recertifications for pandemic unemployment benefits through the Virginia Employment Commission's website — drawing benefits in the names of people who were incarcerated or otherwise ineligible to work. Federal prosecutors in the Western District of Virginia ultimately charged 17 defendants with conspiracy to defraud the United States, fraud in connection with emergency federal benefits, and conspiring to commit mail fraud, tying the ring to $341,205 in stolen pandemic relief. Shaw, described by prosecutors as one of the conspiracy's leaders, was sentenced on February 11, 2025 to 60 months in federal prison and ordered to pay $287,459 in restitution to the Virginia Employment Commission; Webb received 48 months and was ordered to pay $150,218 in restitution, and Brown received 35 months and was ordered to pay $119,660. The 17th and final defendant was sentenced on October 28, 2025, closing out a case that shows how easily a Social Security number and date of birth can be turned into cash once they reach the wrong hands — even identifiers belonging to someone behind bars, who often has no practical way to notice a benefits claim filed in his own name. The Virginia Employment Commission encourages anyone who receives a 1099-G tax form or an unemployment determination letter for benefits they never filed for to report it immediately, since that mail is frequently the only sign a stolen identity has been used this way.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office, Western District of Virginia", 'Virginia Office of the Attorney General', 'Augusta Free Press'],
+    sourceUrl: 'https://www.justice.gov/usao-wdva/pr/six-sentenced-federal-fraud-pandemic-unemployment-benefit-scheme',
+    country: 'US',
+    state: 'VA',
+});
