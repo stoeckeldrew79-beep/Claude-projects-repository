@@ -10864,3 +10864,29 @@ International.push(
     country: 'NR',
   },
 );
+
+International.push(
+  {
+    name: 'Sint Maarten Fake "ED Card" Entry-Form Websites',
+    slug: 'sint-maarten-fake-ed-card-entry-form-websites',
+    description: `The Government of Sint Maarten issued a public alert on February 25, 2026, warning travelers that private third-party websites were charging fees — reportedly ranging from about $80 up to $139.99 per person — to complete the island's mandatory Embarkation/Disembarkation (ED) card, a form that is entirely free when submitted through the government's own official site. The look-alike sites rank highly in search results and on sponsored ads, mimic official government branding, and pressure visitors into entering personal and payment details to "process" a form that requires no fee at all; travelers who pay through these sites either receive nothing or end up with invalid paperwork rejected by immigration officers on arrival. Director of Tourism May-Ling Chun said, "We urge all travelers to verify that they are using the official website before submitting personal information or making any payments," stressing that the ED form can only be completed for free at the government's official portal, www.entry.sx, up to seven days before arrival. The government advised travelers to watch for red flags such as any request for payment, web addresses that do not end in ".sx," and sponsored search-ad placements, and said anyone who has already paid an unofficial site should contact their bank or card provider immediately to dispute the charge.`,
+    categorySlug: 'travel-vacation-scams',
+    alertLevel: 'high',
+    sources: ['Government of Sint Maarten', 'Fox News', 'Yahoo Finance'],
+    sourceUrl: 'https://www.foxnews.com/travel/vacation-destination-scammers-rake-big-bucks-charging-tourists-free-travel-forms',
+    country: 'SX',
+  },
+);
+
+International.push(
+  {
+    name: 'Aruba "gerboth_f_williams_" Instagram Crypto Investment Scam',
+    slug: 'aruba-instagram-crypto-investment-scam-gerboth-williams',
+    description: `The Central Bank of Aruba (CBA) issued a public warning after identifying an Instagram account operating under the username "gerboth_f_williams_" that was aggressively promoting cryptocurrency investment opportunities to Bitcoin and other digital-asset buyers on the island, promising unrealistically high returns. The CBA said the account illegally used the logos of two well-known Aruban commercial banks, Aruba Bank and Caribbean Mercantile Bank, to make its pitch appear affiliated with legitimate local financial institutions, and that the campaign specifically targeted the Aruban market rather than posting generic content. The central bank noted that cryptocurrencies remain largely unregulated in Aruba, meaning anyone who sends funds to an unlicensed party promising outsized crypto returns has essentially no regulatory protection or realistic path to recovering the money if the scheme turns out to be fraudulent, which the CBA said it strongly suspected in this case. The warning urged the public not to use these services at all, describing the combination of an unregulated provider and unrealistically high promised returns as carrying an "ultra-high" chance of ending in a scam, and advised residents to verify any investment offer directly with a bank or with the CBA before sending money or personal information to social media accounts soliciting crypto deposits.`,
+    categorySlug: 'cryptocurrency-scams',
+    alertLevel: 'high',
+    sources: ['Central Bank of Aruba (CBA)'],
+    sourceUrl: 'https://www.cbaruba.org/readBlob.do?id=18894',
+    country: 'AW',
+  },
+);
