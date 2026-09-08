@@ -322,6 +322,7 @@ export const SCAM_TAGS: Record<string, string[]> = {
   'teen-money-mule-csam-payment-laundering-scheme': ['child-teen-targeted'],
   'tennessee-fake-celebrity-romance-scam-jonesborough-suicide': ['elder-targeted'],
   'tennessee-gallatin-revoked-license-insurance-annuity-fraud': ['elder-targeted'],
+  'tennessee-putnam-county-timsina-gold-coin-tech-support-scam': ['elder-targeted'],
   'texas-rubinsky-roofing-insurance-claim-scam': ['elder-targeted'],
   'trio-capital-astarra-superannuation-fraud': ['elder-targeted'],
   'uae-ajman-dh4-toll-fine-sms-pos-fraud-ring': ['child-teen-targeted'],

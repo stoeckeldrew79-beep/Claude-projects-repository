@@ -5952,3 +5952,15 @@ UsAF.push({
     country: 'US',
     state: 'AL',
 });
+
+UsAF.push({
+    name: 'Castle Rock Widow Turned Pig-Butchering Money Launderer (Lori Ann Kimball)',
+    slug: 'colorado-castle-rock-kimball-pig-butchering-money-laundering',
+    description: `Lori Ann Kimball, 52, of Castle Rock, Colorado, met a man calling himself "Joe Hart" on a dating app in early 2022, not long after her husband's death, and began sending him money after he described working on an offshore oil rig and facing a string of financial emergencies — a classic "pig butchering" pretext federal prosecutors say was run by a Nigerian national who groomed Kimball for months before asking for cash. After Kimball paid into the relationship herself, "Hart" began routing money from at least 15 other romance-scam victims through her, and over nearly two years she moved more than $3.4 million in fraud proceeds through at least 20 bank accounts and 7 cryptocurrency accounts on the network's behalf, becoming a money launderer for the same scheme that had first targeted her. Prosecutors say Kimball kept moving the money even after a friend, police officers on two separate occasions, another scam victim, and her own bank all warned her the funds were tied to fraud. A federal grand jury indicted her in July 2025, and in March 2026 a U.S. District Court judge in Colorado sentenced her to one year and one day in federal prison on a single count of conspiracy to commit money laundering, plus $3,112,990.13 in restitution. The case, investigated by IRS Criminal Investigation and prosecuted by the U.S. Attorney's Office for the District of Colorado, illustrates how pig-butchering networks often recruit their own victims — flattered by continued attention from a romantic interest, or convinced they're just "helping a friend move money" — to launder funds for other victims, turning someone who has already lost money into a defendant facing federal charges herself. Anyone asked by an online romantic partner to receive or forward money or cryptocurrency through their own bank or crypto accounts should refuse and report the request, even after the relationship feels established, since legitimate partners never ask a new love interest to move money on their behalf.`,
+    categorySlug: 'romance-scams',
+    alertLevel: 'high',
+    sources: ['U.S. Attorney\'s Office, District of Colorado', 'IRS Criminal Investigation', 'CBS News Colorado'],
+    sourceUrl: 'https://www.irs.gov/compliance/criminal-investigation/castle-rock-woman-sentenced-for-defrauding-victims-in-romance-scams',
+    country: 'US',
+    state: 'CO',
+});

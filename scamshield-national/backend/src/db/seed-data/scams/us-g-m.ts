@@ -4198,3 +4198,15 @@ UsGM.push({
     country: 'US',
     state: 'MA',
 });
+
+UsGM.push({
+    name: 'Tri County Fence and Deck Contractor Fraud (Craig Sutton)',
+    slug: 'missouri-st-charles-craig-sutton-tri-county-fence-deck-fraud',
+    description: `Craig J. Sutton, owner of Tri County Fence and Deck in Wentzville, St. Charles County, collected large upfront payments from Missouri homeowners for fencing and deck construction and then, according to the Missouri Attorney General's Office, performed little or no work at most of the properties — leaving customers thousands of dollars poorer and without the fence or deck they had paid for. A St. Charles County grand jury indicted Sutton in August 2023 after years of consumer complaints and a local news investigation into the company, and on July 14, 2026 he pleaded guilty to 42 felony counts of deceptive business practices and one felony count of stealing. A judge sentenced Sutton to 10 years in the Missouri Department of Corrections on the stealing count and four years on each deceptive-business-practices count, permanently barred him from owning or operating any home-renovation or fencing business, and ordered him to pay more than $257,300 in restitution to his victims, to be paid in monthly installments starting September 1, 2026. "Contractors who intentionally mislead and exploit Missouri families are committing serious crimes and will continue to be held accountable," Attorney General Catherine Hanaway said in announcing the judgment. Missouri homeowners hiring a fencing, deck, or other home-improvement contractor are advised to avoid paying the full contract price upfront, to check a contractor's complaint and licensing history with the Attorney General's Consumer Protection Section before signing anything, and to report a contractor who takes a deposit and then stalls or disappears.`,
+    categorySlug: 'home-improvement-solar',
+    alertLevel: 'medium',
+    sources: ["Missouri Attorney General's Office (Catherine Hanaway)", 'First Alert 4', 'Insurance Journal'],
+    sourceUrl: 'https://ago.mo.gov/attorney-general-hanaway-obtains-over-257000-in-restitution-for-contractor-fraud-in-st-charles-county/',
+    country: 'US',
+    state: 'MO',
+});

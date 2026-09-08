@@ -2373,3 +2373,15 @@ UsTZ.push({
     country: 'US',
     state: 'WA',
 });
+
+UsTZ.push({
+    name: 'Putnam County Fake Microsoft Pop-Up and Gold Coin Elder Fraud (Tulasi Timsina)',
+    slug: 'tennessee-putnam-county-timsina-gold-coin-tech-support-scam',
+    description: `An elderly married couple in Putnam County, Tennessee, both over age 70, saw a fake pop-up alert on their computer claiming to be from Microsoft and warning that the machine had been compromised, and called the phone number it displayed, reaching a man identifying himself as "Alan Gray" who said their computer needed urgent attention. When the couple then called what they believed was their bank to check on their accounts, they instead reached a spoofed line answered by someone calling himself "Josh Campbell," who falsely told them their accounts were under federal investigation for child pornography and instructed them not to tell anyone, including family, while the case was "resolved." Over multiple visits, the scammers directed the victims to withdraw cash, convert funds to Bitcoin, and buy Canadian Maple Leaf gold coins from Spencer Coin & Silver, which unknown individuals then collected from the couple's home — a scheme that ultimately cost the victims more than $268,000. The Putnam County Sheriff's Office investigated and, on December 10, 2025, arrested Tulasi Timsina, a Nashville resident, on a charge of financial exploitation of an elderly adult, holding him on a $200,000 bond. No legitimate bank, law enforcement agency, or federal investigator resolves a fraud or criminal case by directing someone to withdraw cash, buy cryptocurrency or gold coins, and hand them to a stranger who comes to the door, and anyone who sees a pop-up warning claiming their computer is compromised should close the browser without calling the listed number and instead contact a trusted local computer technician or the software company directly through its official website.`,
+    categorySlug: 'tech-support-scams',
+    alertLevel: 'high',
+    sources: ['Putnam County Sheriff\'s Office', 'WSMV News 4 Nashville'],
+    sourceUrl: 'https://www.wsmv.com/2025/12/13/man-allegedly-scams-two-people-their-70s-out-more-than-200k-tennessee/',
+    country: 'US',
+    state: 'TN',
+});
