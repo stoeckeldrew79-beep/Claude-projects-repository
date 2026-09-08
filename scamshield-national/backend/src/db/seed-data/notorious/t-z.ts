@@ -1650,3 +1650,23 @@ Nnebocha was arrested by Polish authorities in April 2025 and extradited to the 
 The inheritance-letter scam endures because it offers something almost nobody turns down without a second thought: money for nothing, arriving unannounced. But a real inheritance never requires the beneficiary to pay fees upfront to a stranger's bank account before receiving it, and a letter claiming to be from a foreign financial institution is trivially easy to fabricate at scale — which is exactly why Nnebocha's operation could print hundreds of thousands of them and only needed a small fraction of recipients to bite before the fees started adding up to millions of real dollars taken from real people who believed, however briefly, that their luck had changed.`,
   },
 );
+
+NotoriousTZ.push(
+  {
+    title: 'Victor Marion and the Mecca Barbershop Money-Laundering Cell Behind a $42 Million Elder Fraud Ring',
+    slug: 'victor-marion-mecca-barbershop-elder-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-sdca/pr/leader-local-money-laundering-cell-pleads-guilty-42-million-international-elder-fraud',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/San_Diego,_2016_-_302.jpg?width=1200',
+    coverImageCredit: 'Photo: Another Believer, Wikimedia Commons (CC BY-SA 4.0) — the James M. Carter and Judith N. Keep U.S. Courthouse in San Diego, where Victor Marion was prosecuted',
+    coverImagePosition: 50,
+    body: `Victor Lee Marion, 41, ran a San Diego barbershop called Mecca Barbershop that doubled as the recruiting hub for a very different kind of business: laundering money stolen from elderly Americans by an international "tech support" and "refund" scam. According to the FBI and the U.S. Attorney's Office for the Southern District of California, Marion was "the leader of the San Diego money laundering cell" inside a network prosecutors say defrauded more than 500 victims — most of them elderly — out of over $42 million.
+
+The underlying fraud followed a two-step script investigators say has become common in elder-targeted scams. First, victims' computers were hit with fake pop-up warnings directing them to call a "tech support" number, where callers posing as technicians charged for bogus fixes to problems that didn't exist. Then, weeks or months later, the same victims would be contacted again and told they had been mistakenly "over-refunded" for that earlier tech-support charge — sometimes by tens of thousands of dollars — and needed to send the difference back immediately. Using remote-access software to make a fake refund appear on a victim's own bank screen, the callers created a sense of urgency and legitimacy that led people, many of them elderly and living alone, to withdraw and hand over cash, wire money, or mail it directly to addresses the callers provided.
+
+Prosecutors say the fraud itself was run out of call centers based in India, Thailand, and the United Arab Emirates, and that Marion's role was domestic: receiving the stolen money as it arrived in the United States, routing it through shell companies and bank accounts he helped set up, and moving the bulk of it overseas to the operation's organizers. He also allegedly helped recruit others into the money-laundering side of the scheme and helped some U.S.-based co-conspirators relocate abroad to be trained directly in running the scams. A federal grand jury indicted Marion alongside 21 other defendants in November 2025, and on January 17, 2026, Marion pleaded guilty to conspiracy to commit mail and wire fraud — a count carrying a statutory maximum of 40 years in prison — and to a separate money-laundering conspiracy count carrying up to 20 additional years. His sentencing was calendared for April 10, 2026, before U.S. District Judge Todd W. Robinson; no publicly reported account of that hearing's outcome could be confirmed as of this writing, so the actual prison term Marion will ultimately serve is not reflected here.
+
+The tech-support-refund combination that funded Marion's operation works precisely because it exploits trust twice: once when a fabricated computer problem convinces a victim to pay for a fix, and again when a fabricated "overpayment" convinces the same victim they are the one who now owes money back. Neither call originates from a real software company or bank, and no legitimate refund is ever issued by asking a customer to send money to a stranger — a pop-up warning demanding an immediate phone call, and any request to return an "accidental" refund, are both signs to hang up and contact the actual company directly through a number found independently, not one supplied by the caller.`,
+  },
+);
