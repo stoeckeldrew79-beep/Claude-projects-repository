@@ -4473,7 +4473,10 @@ Duran's original scheme remains one of the more unusual entries in this archive 
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
     sourceUrl: 'https://en.wikipedia.org/wiki/Yoshitaka_Fujii',
-    // no rights-cleared photo of Fujii found — represents a low public profile even after the scandal
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Toho_university_omori_hospital.JPG?width=1200',
+    coverImageCredit: "Photo: Kamemaru2000, Wikimedia Commons (CC BY-SA 3.0) — Toho University's Omori campus in Tokyo, where Fujii was dismissed as associate professor of anesthesiology in 2012",
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     body: `Yoshitaka Fujii spent more than two decades as one of the most published anesthesiologists in Japan, and by the time journal editors finally caught up with him in 2012, he held two records at once: the most scientific papers ever retracted from a single author, and the most statistically extreme case of data fabrication a researcher had ever quantified.
 
 Fujii earned his M.D. from Tokai University School of Medicine in 1987 and a Ph.D. in anesthesiology from Tokyo Medical and Dental University in 1991, spent time as a research fellow at McGill University's Royal Victoria Hospital in Canada, and returned to Japan to hold faculty posts at the University of Tsukuba before joining Toho University as an associate professor in 2005. His specialty was postoperative nausea and vomiting, or PONV — a common and unpleasant side effect of surgery and anesthesia — and he built an extraordinarily prolific research program around it, publishing well over 200 papers testing anti-nausea drugs like granisetron and droperidol in what he described as randomized controlled trials, almost all of which reported clean, statistically significant results in favor of one treatment or another.
