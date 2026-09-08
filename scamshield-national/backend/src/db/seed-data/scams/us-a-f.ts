@@ -6051,3 +6051,15 @@ UsAF.push({
     country: 'US',
     state: 'DE',
 });
+
+UsAF.push({
+    name: 'Jefferson County Fake Rental Listing Deposit Scam',
+    slug: 'alabama-jefferson-county-fake-rental-listing-deposit-scam',
+    description: `The Better Business Bureau serving Central & South Alabama warned in June 2026 that it was fielding roughly one new complaint a month from Jefferson County-area consumers who lost money to fake rental listings. Scammers copy photos and descriptions from a real home or apartment that is for sale or already occupied, post the stolen listing on social media or a classifieds site at a below-market rent, and — posing as the "landlord" — pressure an interested renter to send a security deposit or first and last month's rent by Zelle, cash app, or wire before ever meeting in person or touring the unit, often citing being out of town or overseas as the reason a showing isn't possible. Victims who never see the unit lose their money outright, while others have shown up on move-in day, U-Haul packed, only to find someone else already living there or a real owner who says the home was never listed for rent at all. "If you haven't met the people, shook their hand, talk to the person in person at the property and walk through it before you sign any contract, whether it's a rental or purchase contract, you really shouldn't do it," BBB Central & South Alabama president Carl Bates said. The bureau urges renters to insist on an in-person tour and a face-to-face meeting with the landlord before sending any money, to search a listing's photos and address online to check whether they appear elsewhere under a different contact or price, and to report suspicious listings to bbb.org.`,
+    categorySlug: 'rental-housing',
+    alertLevel: 'medium',
+    sources: ['Better Business Bureau serving Central & South Alabama', 'WBRC-TV'],
+    sourceUrl: 'https://www.wbrc.com/2026/06/02/better-business-bureau-warns-rental-scam-targeting-jefferson-county-residents/',
+    country: 'US',
+    state: 'AL',
+});

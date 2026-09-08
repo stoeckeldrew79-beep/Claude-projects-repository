@@ -4440,3 +4440,15 @@ UsGM.push({
     country: 'US',
     state: 'ME',
 });
+
+UsGM.push({
+    name: 'Effingham County Lawn-Care Power-of-Attorney Elder Exploitation (Edward Stief)',
+    slug: 'illinois-effingham-stief-lawn-care-power-of-attorney-elder-fraud',
+    description: `Edward L. Stief Jr., 42, of Effingham County, Illinois, met an 89-year-old victim in May 2023 while offering lawn care and landscaping services, and used the relationship to gain the older man's confidence. According to the U.S. Attorney's Office for the Southern District of Illinois, Stief used several misrepresentations to convince the victim to name him as both Financial and Healthcare Power of Attorney, becoming a signatory on the victim's bank accounts, and in August 2023 talked the victim into cashing out his life insurance policies before depositing most of the proceeds into his own personal accounts rather than the victim's. Prosecutors say Stief also deceived the victim into leaving a nursing home with false promises that he would provide the man's care himself, allowing Stief to keep pocketing the older man's money. He pleaded guilty to one count each of wire fraud, mail fraud, and unlawful monetary transactions in criminally derived property, admitting to exploiting the victim out of more than $400,000. A federal judge sentenced Stief to 12 years in federal prison and ordered him to pay $411,773.51 in restitution. "The defendant posed as a trusted helper, offering lawn care services to gain the victim's confidence, only to exploit his trust," U.S. Attorney Steven D. Weinhoeft said. The case illustrates how elder financial exploitation often starts with an ordinary service relationship rather than a stranger's cold call — family members and neighbors of an older adult should be wary any time a new acquaintance, however helpful, pushes to be added as a power of attorney or signatory on financial accounts, and should encourage a second, independent professional (an elder-law attorney or the bank itself) to review any such request before it is signed.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office, Southern District of Illinois", 'WCIA-TV', 'RiverBender.com'],
+    sourceUrl: 'https://www.justice.gov/usao-sdil/pr/effingham-county-man-sentenced-12-years-federal-prison-financially-exploiting-elder',
+    country: 'US',
+    state: 'IL',
+});
