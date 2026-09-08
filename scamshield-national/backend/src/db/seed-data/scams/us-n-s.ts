@@ -4276,3 +4276,15 @@ UsNS.push({
     country: 'US',
     state: 'OH',
 });
+
+UsNS.push({
+    name: 'South Carolina "VINsanity" Auto Loan Fraud Scheme (Keiron Murray)',
+    slug: 'south-carolina-vinsanity-auto-loan-fraud-scheme',
+    description: `South Carolina Attorney General Alan Wilson announced on April 13, 2026 that a State Grand Jury had returned 125 counts across seven separate indictments against Keiron Murray in an investigation his office nicknamed "VINsanity," alleging nearly $1.4 million in fraudulent auto loans spanning Richland, Sumter, and Colleton counties. According to the indictments, Murray used a series of small, cooperating dealerships to submit loan applications to banks for vehicles identified by VIN that were never actually in the dealership's possession and were never delivered to any real buyer, then had the banks' loan proceeds diverted to himself once the paperwork was approved. Investigators charged Murray with 55 counts of obtaining property by false pretenses over $10,000, 70 counts of computer crimes over $10,000, crimes against federally insured financial institutions, money laundering, and criminal conspiracy; a co-defendant, Tamika Coleman, was separately charged with criminal conspiracy in Colleton County and had already faced 56 similar counts from a related investigation. Because the scheme relied on paperwork that looked like an ordinary vehicle purchase and financing transaction, the fraudulent loans could sit on a bank's books for months before anyone noticed the vehicle did not exist or was never delivered. Wilson said that "fraudulent auto loans ultimately get passed to South Carolina consumers," since banks absorbing losses from schemes like this one typically respond by tightening credit and raising financing costs for everyday car buyers statewide, and called on lenders to strengthen fraud detection at the point of sale and on law enforcement to keep targeting the small dealerships that make schemes like Murray's possible. South Carolinians financing a vehicle through an unfamiliar small dealership should independently confirm the dealer is licensed with the SC Department of Motor Vehicles and ask to physically inspect the actual vehicle tied to their VIN before signing loan paperwork, since a legitimate lender never needs to finance a car that does not yet exist on the lot.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'medium',
+    sources: ["South Carolina Attorney General's Office (Alan Wilson)", 'Live 5 News (WCSC)', 'FITSNews'],
+    sourceUrl: 'https://www.scag.gov/about-the-office/news/attorney-general-alan-wilson-announces-state-grand-jury-indictments-for-nearly-1-4-million-in-auto-loan-fraud-scams/',
+    country: 'US',
+    state: 'SC',
+});

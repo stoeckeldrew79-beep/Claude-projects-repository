@@ -4570,3 +4570,15 @@ UsGM.push({
     country: 'US',
     state: 'MT',
 });
+
+UsGM.push({
+    name: 'Georgia Emergency Rental Assistance Program Insider Fraud (Porsha Robinson)',
+    slug: 'georgia-porsha-robinson-emergency-rental-assistance-insider-fraud',
+    description: `Georgia Attorney General Chris Carr announced on February 10, 2026 that a Fulton County grand jury had indicted six people, including a former state employee, in a scheme to defraud Georgia's federally funded Emergency Rental Assistance Program of nearly $230,000. Prosecutors say Porsha Robinson, 37, of Jonesboro, worked for the state Department of Community Affairs from 2021 to 2022 and used her position there to both submit and personally approve nine fraudulent rental assistance applications, then directed the resulting payments into bank accounts she controlled. Investigators allege five of the nine applications were filed in the names of co-defendants Daveon Williams, Sean Wimbush, Dashon Holloman, Miranda Payne, and Davier Ladmirault, who received "substantial kickbacks" from Robinson in exchange for letting their identities be used, while the remaining applications used the names of other Georgians who had no involvement in the scheme at all. Because Robinson held the very job responsible for reviewing these applications for fraud, she was able to approve her own fabricated claims without the independent check the program was designed to have, diverting money meant for families and landlords struggling to keep up with rent during the pandemic. Robinson faces one count of identity fraud and nine counts of false statements and writings; her co-defendants each face one count of false statements and writings. Carr's office, whose White Collar and Cyber Crime Unit presented the case to the grand jury, urges Georgians to remember that public benefit fraud is not limited to outside scammers impersonating a program — it can also come from insiders inside the very agency meant to safeguard it — and to report suspected misuse of state or federal assistance funds to the Attorney General's Consumer Protection Division rather than assuming staff-level approval means a claim was legitimate.`,
+    categorySlug: 'rental-housing',
+    alertLevel: 'medium',
+    sources: ["Georgia Attorney General's Office (Chris Carr)", 'Fox 5 Atlanta', 'WSB-TV'],
+    sourceUrl: 'https://law.georgia.gov/press-releases/2026-02-10/carr-former-state-employee-among-six-charged-nearly-230k-covid-fraud',
+    country: 'US',
+    state: 'GA',
+});

@@ -2589,3 +2589,15 @@ UsTZ.push({
     country: 'US',
     state: 'TX',
 });
+
+UsTZ.push({
+    name: 'Utah Sober-Living Home Medicaid Fraud (Jazzamin Clark)',
+    slug: 'utah-sober-living-home-medicaid-fraud-jazzamin-clark',
+    description: `Federal prosecutors in the District of Utah charged Jazzamin Tashay Clark, 43, of Salt Lake City and Las Vegas, with health care fraud, wire fraud, and money laundering on August 26, 2026, alleging she used two Salt Lake City-area businesses, Luv Well Care LLC and Creative Minds UT LLC, to defraud Utah Medicaid of more than $4 million between July 2024 and October 2025. According to the charges, Clark recruited Medicaid-eligible beneficiaries who were struggling with substance use disorder — including people experiencing homelessness — and rented houses in West Valley City that she presented as "sober living homes," but which prosecutors say failed to provide the counseling and support services the residents actually needed to maintain their sobriety. To bill Medicaid for therapy sessions, Clark allegedly submitted claims under the National Provider Identifier numbers of out-of-state clinicians, many of whom were unqualified to provide the billed services and, in some cases, were not even aware their credentials were being used at all — meaning the "providers" listed on official Medicaid billing records for these vulnerable patients often had no real connection to the care being claimed. Prosecutors said the scheme left some of Utah's most at-risk residents without the structured support a legitimate sober-living program is supposed to provide, at the exact moment they were trying to rebuild their lives. A federal official involved in the case said, "These homes left Medicaid beneficiaries who struggled with substance abuse to fend for themselves rather than helping them maintain sobriety." Families placing a loved one in a sober-living or substance-abuse treatment home that accepts Medicaid should verify the facility and its billing providers are properly licensed with the Utah Department of Health and Human Services before enrolling, and should be wary of any program that recruits directly from homeless shelters or the street rather than through a referral from a hospital, treatment provider, or case manager.`,
+    categorySlug: 'medicare-health-plans',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office for the District of Utah", 'KUTV', 'Gephardt Daily'],
+    sourceUrl: 'https://www.justice.gov/usao-ut/pr/woman-charged-health-care-fraud-after-submitting-false-claims-utah-medicaid-and',
+    country: 'US',
+    state: 'UT',
+});
