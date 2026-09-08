@@ -4204,3 +4204,15 @@ UsNS.push({
     country: 'US',
     state: 'SD',
 });
+
+UsNS.push({
+    name: 'Nevada Multi-State Gift Card Fraud PSA Campaign',
+    slug: 'nevada-gift-card-fraud-psa-campaign',
+    description: `Nevada Attorney General Aaron D. Ford announced on December 22, 2025 that his office had joined a coordinated public service announcement campaign with thirteen other states and Washington, D.C. — including Arkansas, Kentucky, Delaware, Michigan, Georgia, Oregon, Illinois, Pennsylvania, Iowa, South Dakota, Kansas, and Washington — to warn consumers about gift card fraud during the high-volume holiday and post-holiday shopping season, running from December 26, 2025 through January 31, 2026. In the underlying scheme, fraudsters posing as a trusted business, utility company, or government agency pressure a victim into buying gift cards and reading the card numbers over the phone or photographing them to send, framing it as the only way to resolve a supposedly urgent bill, fine, or legal problem; because a gift card's value can be drained and laundered within minutes of the numbers being handed over, and because gift cards are not linked to a bank account the way a wire transfer or check is, the transaction is effectively impossible to reverse once completed. "Gift card scams exploit trust and urgency, and too many Nevadans are paying the price," Ford said in announcing the campaign, which directs consumers to the multi-state resource ProtectMyGiftCard.com for warning signs and reporting guidance. No legitimate business or government agency will ever demand payment exclusively in gift cards, and any caller who insists on secrecy or immediate action while asking for gift card numbers should be treated as a scammer regardless of how official the request sounds; Nevadans who encounter this scam are urged to stop the purchase if possible and report it to the Nevada Attorney General's Bureau of Consumer Protection.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ["Nevada Office of the Attorney General (Aaron D. Ford)"],
+    sourceUrl: 'https://ag.nv.gov/News/PR/2025/Nevada_Attorney_General_Aaron_D__Ford_Joins_Multi-State_PSA_Campaign_to_Combat_Gift_Card_Fraud/',
+    country: 'US',
+    state: 'NV',
+});
