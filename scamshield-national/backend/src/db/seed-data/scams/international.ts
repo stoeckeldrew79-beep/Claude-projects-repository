@@ -11266,3 +11266,36 @@ International.push(
     country: 'GL',
   },
 );
+
+International.push(
+  {
+    name: 'Fake "Carabiniere" Phone Scam Targeting the Elderly',
+    slug: 'san-marino-fake-carabiniere-phone-scam',
+    description: `San Marino's Gendarmeria (the national police, the Corpo della Gendarmeria) warned the public on November 25, 2025 after the Interforce Operations Center and several Gendarmeria brigade stations logged a cluster of reports describing the so-called "fake carabiniere or marshal" telephone fraud, a method the force says has become common across many countries. According to the Gendarmeria, the callers — both men and women — identify themselves by phone as police officers and claim the victim faces an urgent legal problem that can only be resolved by immediately handing over cash, jewelry, or other valuables. One caller keeps the target on the line for an extended period, deliberately preventing them from hanging up to call a relative or neighbor for a second opinion, while an accomplice comes to the victim's front door to collect the money or valuables in person. The Gendarmeria said that, as of the warning, every attempt reported in San Marino had failed thanks to residents' caution, and it flagged elderly residents in particular as the group most targeted. Officers reminded the public that "the police forces never ask for money or valuables as a guarantee or payment" for fines, bail, damages, or any other reason, and that no genuine officer collects property at a private home without a formal procedure already opened at a police station and a lawyer present. Residents were advised not to let strangers into the home, to speak to unexpected callers through an intercom or window instead, to keep gates and doors locked, and — if in doubt — to ask a neighbor for help or call the Interforce Operations Center on 112, 113, or 888888 to request a patrol.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['San Marino RTV', 'Corpo della Gendarmeria di San Marino'],
+    sourceUrl: 'https://www.sanmarinortv.sm/news/cronaca-c3/tentate-truffe-a-san-marino-si-fingono-carabinieri-per-chiedere-denaro-gioielli-e-valori-a283382',
+    country: 'SM',
+  },
+  {
+    name: 'Fake Gendarmeria "Cloned ID Card" Phone Scam',
+    slug: 'san-marino-fake-gendarmeria-cloned-id-card-phone-scam',
+    description: `In early September 2026, residents of San Marino began reporting a fresh wave of phone calls from people falsely claiming to be Gendarmeria officers, telling the person who answered that their identity card had been "cloned" and that officers needed to verify their personal, banking, or document details over the phone to resolve the problem. In one case a caller pressed a resident for personal data before abruptly hanging up when questioned about his identification; minutes later, a near-identical call targeted the same resident's mother, suggesting the callers were working from a list of related contacts rather than dialing at random. Local outlets reported that similar accounts were spreading across social media, pointing to a scheme actively expanding beyond a single household. Authorities reiterated their standing guidance that genuine Gendarmeria officers never ask a caller to confirm personal data, banking information, or document numbers over the telephone, and that anyone who receives such a call should hang up immediately and report the attempt directly to the Gendarmeria through its official contact channels rather than calling back any number the caller provided.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'high',
+    sources: ['Libertas.sm', 'Corpo della Gendarmeria di San Marino'],
+    sourceUrl: 'https://www.libertas.sm/san-marino-truffa-della-carta-didentita-clonata-telefonano-e-si-spacciano-per-la-gendarmeria/',
+    country: 'SM',
+  },
+  {
+    name: 'Bank Impersonation "Phishing" and "Vishing" Wave',
+    slug: 'san-marino-bank-phishing-vishing-wave',
+    description: `San Marino's Gendarmeria confirmed on March 4, 2023 that Brigade Commands across the Republic had received roughly fifteen fraud complaints in a single week, tied to a coordinated wave of "phishing" text messages and "vishing" phone calls impersonating banks and other financial intermediaries. The SMS messages used sender names designed to look like they came from a real financial institution and contained links that, once clicked, were built to harvest personal information and confidential passwords; the phone calls used spoofed caller ID so the number displayed appeared to belong to the institution's own customer service line. In one attempted fraud, a bank customer nearly lost 9,000 euros before recognizing the scam and immediately contacting their bank, stopping the transfer before it went through. The Gendarmeria's guidance to the public was direct: never click a link sent through SMS, WhatsApp, or social-media messaging unless the customer explicitly requested it themselves, such as during a password reset; never hand over personal data, passwords, or payment details, since a bank or payment institution already holds everything it needs and has no legitimate reason to ask again — and any information it might request by phone is limited to basic identity verification, never a full card number or one-time authorization code; and if in doubt about a call's authenticity, hang up and call the institution back directly using a number obtained independently rather than trusting the number that appeared on the caller ID. Anyone who suspects they have already been defrauded through either method was urged to contact their bank directly and immediately to begin the necessary security procedures.`,
+    categorySlug: 'phishing',
+    alertLevel: 'medium',
+    sources: ['Corriere Romagna', 'Corpo della Gendarmeria di San Marino'],
+    sourceUrl: 'https://www.corriereromagna.it/san-marino/san-marino-truffe-online-ho-rischiato-di-perdere-9mila-euro-EQCR457470',
+    country: 'SM',
+  },
+);
