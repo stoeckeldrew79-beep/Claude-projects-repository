@@ -4228,3 +4228,15 @@ UsNS.push({
     country: 'US',
     state: 'NV',
 });
+
+UsNS.push({
+    name: 'Rochester Personal Care Attendant Medicaid Billing Fraud (Hozan Alhefel)',
+    slug: 'new-hampshire-rochester-alhefel-personal-care-medicaid-fraud',
+    description: `The New Hampshire Department of Justice charged Hozan Alhefel, 36, of Rochester, with Medicaid Fraud – False Claims, Medicaid Fraud – False Records, and Theft by Deception after an investigation by the Medicaid Fraud Control Unit found that Alhefel, while working as a personal care service provider for a Medicaid beneficiary, ran an ongoing scheme lasting more than two years in which she caused falsified claims to be submitted to Medicaid for care she never actually provided. According to the felony complaints, Alhefel's paperwork claimed she was delivering in-home personal care services during hours when she was, instead, working a separate full-time job, traveling out of state, or socializing with friends — documentation the beneficiary or their family had no independent way to check against what actually happened in the home. The submissions resulted in approximately $89,000 in Medicaid claims paid out by the State of New Hampshire for services that were never rendered. Because Medicaid personal-care fraud depends on a caregiver's own unverified timesheets, the case is a reminder for families of home-care recipients to periodically review the Medicaid explanation-of-benefits or claims history associated with a loved one's care and to ask directly whether logged visit times match what the family actually observed. The charges and allegations against Alhefel are merely accusations, and she is presumed innocent unless and until proven guilty in court.`,
+    categorySlug: 'healthcare-fraud',
+    alertLevel: 'medium',
+    sources: ['New Hampshire Department of Justice', 'New Hampshire Union Leader'],
+    sourceUrl: 'https://www.doj.nh.gov/news-and-media/hozan-alhefel-charged-medicaid-fraud',
+    country: 'US',
+    state: 'NH',
+});
