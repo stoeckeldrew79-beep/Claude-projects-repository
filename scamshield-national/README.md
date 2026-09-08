@@ -146,7 +146,7 @@ run the site out of. It registers three scheduled tasks:
 | Task | Every | What it does |
 | --- | --- | --- |
 | ScamShield National Auto-Update | 30 min | `auto-update.bat` — pulls new content from GitHub, migrates, reseeds, refreshes the news scans |
-| ScamShield National Keep Running | 5 min | `keep-running.vbs` — starts Docker, the backend, and the frontend if any of them isn't listening |
+| ScamShield National Keep Running | 5 min | `keep-running.ps1` — starts Docker, the backend, and the frontend if any of them isn't listening |
 | ScamShield National Start On Logon | at logon | the same keep-alive, so the site is up shortly after a reboot |
 
 Together these mean the site updates itself and restarts itself: new entries
@@ -162,7 +162,15 @@ not already listening, so it never gives you two copies of a server.
 schtasks /query /tn "ScamShield National Auto-Update" /fo LIST /v | findstr /C:"Last Result"
 ```
 
-`0` is success. `-2147020576` (`0x800710E0`, "the operator or administrator has
+`0` is success. Two codes seen in practice:
+
+`-2147023829` (`0x8007042B`, `ERROR_PROCESS_ABORTED`) means the task launched
+something and that process was killed instantly. This is what Windows Script
+Host being blocked looks like — the task reports a failure having done nothing
+at all, with no log line written. Everything is launched through PowerShell
+rather than `.vbs` for exactly this reason.
+
+`-2147020576` (`0x800710E0`, "the operator or administrator has
 refused the request") means Windows fired the task and then refused to run it —
 almost always because `schtasks` registers tasks with "don't start on battery
 power" switched on by default, which is silently fatal on a laptop. Re-running

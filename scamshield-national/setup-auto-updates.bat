@@ -21,13 +21,20 @@ REM password is stored, so it can't run while fully signed out).
 
 cd /d "%~dp0"
 
+REM Everything is launched through PowerShell rather than a .vbs file.
+REM Windows Script Host is blocked on the machine running this site: the task
+REM launched wscript, the process was killed instantly, and the task reported
+REM 0x8007042B (ERROR_PROCESS_ABORTED) having done nothing at all - no log
+REM line, no pull, no reseed, for a task that otherwise looked healthy.
+REM PowerShell demonstrably runs there (it is what applied the power settings
+REM below), so it is the launcher. Hidden, so nothing flashes on screen.
 echo Registering the content updater (every 30 minutes)...
-schtasks /create /tn "ScamShield National Auto-Update" /tr "\"%~dp0auto-update-silent.vbs\"" /sc minute /mo 30 /rl limited /f
+schtasks /create /tn "ScamShield National Auto-Update" /tr "powershell.exe -NoProfile -ExecutionPolicy Bypass -WindowStyle Hidden -Command \"Start-Process -FilePath '%~dp0auto-update.bat' -WindowStyle Hidden -Wait\"" /sc minute /mo 30 /rl limited /f
 if errorlevel 1 goto failed
 
 echo.
 echo Registering the site keep-alive (every 5 minutes)...
-schtasks /create /tn "ScamShield National Keep Running" /tr "\"%~dp0keep-running.vbs\"" /sc minute /mo 5 /rl limited /f
+schtasks /create /tn "ScamShield National Keep Running" /tr "powershell.exe -NoProfile -ExecutionPolicy Bypass -WindowStyle Hidden -File \"%~dp0keep-running.ps1\"" /sc minute /mo 5 /rl limited /f
 if errorlevel 1 goto failed
 
 echo.
@@ -37,7 +44,7 @@ REM step allowed to fail. Scoping it to the current user with /ru lets it
 REM succeed unelevated on some machines; where it doesn't, nothing is lost -
 REM the 5-minute keep-alive above already brings the site back after a
 REM reboot, just up to five minutes later. Never abort setup over it.
-schtasks /create /tn "ScamShield National Start On Logon" /tr "\"%~dp0keep-running.vbs\"" /sc onlogon /ru "%USERNAME%" /rl limited /f
+schtasks /create /tn "ScamShield National Start On Logon" /tr "powershell.exe -NoProfile -ExecutionPolicy Bypass -WindowStyle Hidden -File \"%~dp0keep-running.ps1\"" /sc onlogon /ru "%USERNAME%" /rl limited /f
 if errorlevel 1 (
   echo.
   echo   Skipped - Windows requires administrator rights for a logon trigger.
