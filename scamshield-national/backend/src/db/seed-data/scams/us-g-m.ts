@@ -1322,18 +1322,6 @@ export const UsGM: SeedScam[] = [
     sourceUrl: 'https://ag.hawaii.gov/wp-content/uploads/2025/11/News-Release-2025-94.pdf',
   },
 {
-    name: 'Kentucky Addiction Centers Suboxone Billing Fraud',
-    slug: 'kentucky-addiction-centers-suboxone-billing-fraud',
-    description:
-      'Dr. José Alzadon, CEO Michael Bregenzer, and billing manager Barbie Vanhoose ran Kentucky Addiction Centers, a chain of opioid-addiction clinics in Winchester, Paducah, Paintsville, and London, Kentucky, that fraudulently billed Medicare and Kentucky Medicaid more than $8 million for Suboxone treatment — billing for appointments and services never provided, billing routine visits as far more complex than they were, and, most strikingly, submitting claims and Suboxone prescriptions under the name and DEA registration number of Alzadon\'s elderly father, a doctor who never actually saw the patients being billed in his name. A federal jury convicted all three in March 2025, and by mid-2026 each had been sentenced — Alzadon to 60 months, Bregenzer to 48 months, and Vanhoose to 24 months in prison — with a combined $812,881 ordered in restitution. Because the fraud depended on patients never noticing whose name was actually on their bill, anyone in addiction treatment or on Medicare or Medicaid can protect against this exact scheme by checking the provider name on their insurer\'s Explanation of Benefits or Medicare Summary Notice against the person who actually examined them, and reporting any mismatch to the Kentucky Attorney General\'s Office of Medicaid Fraud and Abuse Control or the HHS Office of Inspector General fraud line.',
-    categorySlug: 'healthcare-fraud',
-    country: 'US',
-    state: 'KY',
-    isHistorical: true,
-    sources: ['U.S. Department of Justice', 'Drug Enforcement Administration'],
-    sourceUrl: 'https://www.justice.gov/opa/pr/three-individuals-sentenced-prison-fraudulently-billing-medicare-and-medicaid-through-opioid',
-  },
-{
     name: 'Parkville, Maryland Insurance Agent Premium-Check Diversion and Fabricated Evidence (Okolo)',
     slug: 'maryland-okolo-insurance-premium-diversion-fraud',
     description:
