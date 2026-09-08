@@ -4264,3 +4264,15 @@ UsNS.push({
     country: 'US',
     state: 'NC',
 });
+
+UsNS.push({
+    name: 'Athens, Ohio Municipal Business Email Compromise (Pepper Construction Impersonation)',
+    slug: 'ohio-athens-pepper-construction-bec-scam',
+    description: `In November 2024, the small city government of Athens, Ohio was in the middle of a routine construction project — a new fire station — when it made a scheduled payment of $721,976 to its general contractor, Pepper Construction Company. Unknown to city finance staff, cybercriminals had been quietly monitoring the email exchanges between the city and Pepper for some time, and inserted themselves into the conversation using a look-alike domain that transposed the "u" and "c" in "construction," a change easy to miss in a fast-moving invoice email chain. Posing as Pepper, the scammers sent updated wiring instructions, and the city's payment was rerouted to a Republic Bank account the fraudsters controlled in Louisville, Kentucky, rather than to the real contractor. Athens officials moved unusually fast: because the city filed a civil lawsuit within days of the erroneous payment — naming unidentified "John Doe and Jane Doe" defendants since the perpetrators' identities were not yet known — it was able to get the receiving bank account frozen before all of the money could be moved out, and through the resulting court process recovered more than half of the stolen funds. Separately, the U.S. Attorney's Office for the Southern District of Iowa brought federal cyber theft charges against two people identified as members of the U.S. Air Force stationed at Dover Air Force Base in Delaware, Chijioke Timothy Odimegwu and Harafat Mogaji, in a case describing more than a dozen victims of similar schemes nationwide, and Athens has continued pursuing additional recovery through that criminal case into 2026. The case is a reminder that business email compromise does not only target private companies: local governments processing large contractor and vendor payments are equally exposed, and any request to change wiring or ACH instructions — even one that appears to come from a long-trusted vendor's own email address — should be verified by phone using a number obtained independently, not one provided in the email itself, before a payment goes out.`,
+    categorySlug: 'business-email-compromise',
+    alertLevel: 'high',
+    sources: ['Engineering News-Record (ENR)', 'WOUB Public Media', 'Athens County Independent'],
+    sourceUrl: 'https://www.enr.com/articles/62781-athens-ohio-claws-back-half-of-700-000-phished-away-in-cyber-fraud',
+    country: 'US',
+    state: 'OH',
+});

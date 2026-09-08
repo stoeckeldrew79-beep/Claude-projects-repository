@@ -2577,3 +2577,15 @@ UsTZ.push({
     country: 'US',
     state: 'WY',
 });
+
+UsTZ.push({
+    name: '$40 Million Mexican Timeshare Resale Fraud Network (San Antonio Extraditions)',
+    slug: 'texas-san-antonio-mexican-timeshare-resale-fraud-extraditions',
+    description: `Federal prosecutors in the Western District of Texas allege that Christian Felipe Rodriguez Peraza (also known as Jose Mario Ochoa Rodriguez) of Mazatlán, Mexico, his wife Brenda Tamayo Corona (also known as Jazmin Oliva Chacon), United Kingdom national Michael Ian Hollands, and a fourth defendant, Yorlena Alfonso Cuesta, ran a scheme that targeted Americans — including Texans — who owned timeshares on Mexico's Pacific coast. According to the indictment, the defendants contacted timeshare owners and falsely told them their property had already been sold, but that the sale proceeds could only be released once the owner first paid a series of advance "fees and taxes." To make the pitch credible, callers impersonated U.S. and Mexican government officials and misused the identities of real American attorneys, presenting themselves as licensed counsel handling the transaction. Total losses across the scheme are estimated at more than $40 million, with many victims elderly and, according to prosecutors, some sending "all the money they had and more" based on the fraudsters' lies. Rodriguez and Tamayo were arrested in France earlier in 2026 and extradited to the United States, making their initial federal court appearances in San Antonio on September 1 and 2, 2026; all four defendants face charges of conspiracy to commit wire fraud and money laundering conspiracy, each carrying up to 20 years in federal prison, plus a third charge carrying up to 10 years. U.S. Attorney Justin R. Simmons said, "Many of the elderly victims in this case sent all the money they had and more based on the lies told to them by this group of fraudsters," while FBI Special Agent in Charge Jeffrey Tyler called it "a calculated and deeply harmful scheme driven by international criminals." The FBI has tied Mexico-based timeshare resale fraud broadly to roughly 6,000 reported American victims and nearly $300 million in losses between 2019 and 2023 alone, with officials cautioning that as many as 80% of victims may never report what happened to them. Anyone contacted out of the blue about a "buyer" for their Mexican timeshare who is asked to wire fees, taxes, or closing costs before receiving any sale proceeds should independently verify any attorney's identity through a state bar association and treat an advance-payment demand as a red flag, regardless of how official the caller sounds.`,
+    categorySlug: 'timeshare-scams',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office for the Western District of Texas", 'KXAN', 'Hoodline'],
+    sourceUrl: 'https://www.justice.gov/usao-wdtx/pr/foreign-nationals-indicted-and-federal-custody-alleged-40m-timeshare-fraud',
+    country: 'US',
+    state: 'TX',
+});

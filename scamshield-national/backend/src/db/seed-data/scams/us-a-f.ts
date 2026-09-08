@@ -6123,3 +6123,15 @@ UsAF.push({
     country: 'US',
     state: 'CT',
 });
+
+UsAF.push({
+    name: 'Los Angeles Stolen-Identity Elderly Homeowner Loan Fraud Ring',
+    slug: 'california-los-angeles-elderly-homeowner-stolen-identity-loan-fraud',
+    description: `Federal prosecutors say that from January 2021 to May 2023, an eleven-person ring led by Nazaret Chakrian and Arnold Moradians targeted elderly homeowners in Santa Monica and the Los Angeles neighborhoods of Hollywood, Hollywood Hills, Westwood, and Chinatown — many of whom owned their homes outright, meaning there was no existing mortgage statement that would tip them off when a new one appeared. Ring members stole victims' personal identifying information, and Chakrian and co-defendant Craig Higdon used it to manufacture counterfeit government identification documents in the victims' names, while Cynthia Borjas and Avetis Hekimyan created fraudulent email accounts to impersonate the victims online. Using the stolen identities, fake IDs, and impostor email accounts, Chakrian, Moradians, Hekimyan, Armen Vardevaryan, and Helen Spangler then posed as the homeowners themselves or as their agents, brokers, or relatives and submitted fraudulent "hard money" loan applications to private lenders, falsely representing that the loans would be secured by the victims' properties and backing the paperwork with forged bank statements, rental agreements, and even fabricated death certificates. The scheme sought $17.4 million in fraudulent loans and is alleged to have actually extracted roughly $6 million before a federal investigation shut it down. On March 19, 2026, all eleven defendants — Chakrian, Moradians, Hekimyan, Ross Tarkhan, Tigran Hovanesian, Vardevaryan, Higdon, Spangler, Victor Lossi, Marine Sarkisian, and Borjas — were arrested following a grand jury indictment, facing charges that include aggravated identity theft and conspiracy to commit money laundering, after an investigation by the FBI, IRS Criminal Investigation, the U.S. Postal Inspection Service, the Los Angeles County Sheriff's Department, and the Glendale Police Department. First Assistant U.S. Attorney Bill Essayli said, "There is no shortage of massive fraud occurring within California. Today's operation represents one of many sophisticated schemes used by criminals." Elderly homeowners — especially those who own their home free and clear — are advised to periodically pull their own credit report and check county recorder records for any lien, deed, or loan they did not apply for, since a paid-off house generates no monthly statement that would otherwise reveal a fraudulent loan being secretly placed against it.`,
+    categorySlug: 'mortgage-foreclosure-scams',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office for the Central District of California", 'IRS Criminal Investigation', 'CBS Los Angeles'],
+    sourceUrl: 'https://www.justice.gov/usao-cdca/pr/2-foreign-nationals-among-11-arrested-charges-they-used-stolen-identities-fraudulently',
+    country: 'US',
+    state: 'CA',
+});
