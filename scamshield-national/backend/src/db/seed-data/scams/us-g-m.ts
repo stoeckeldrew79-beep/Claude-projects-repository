@@ -4368,3 +4368,15 @@ UsGM.push({
     country: 'US',
     state: 'LA',
 });
+
+UsGM.push({
+    name: 'Idaho $2,000 "Tariff Rebate" Text Scam',
+    slug: 'idaho-tariff-rebate-text-scam',
+    description: `Idahoans began receiving text messages in mid-2026 falsely claiming they qualify for a $2,000 "tariff rebate" check tied to media reports about possible federal tariff-revenue rebates, and warning — in bold, urgent, capitalized language — that the check will not be sent unless the recipient clicks an embedded link and responds immediately. Idaho Attorney General Raúl Labrador's office issued a consumer alert stating plainly that no government agency sends rebate or stimulus payments by text message, and that the scam follows a familiar playbook: it borrows credibility from a real news story, invents an artificial deadline to short-circuit careful thinking, and dangles free money to get a click before the recipient has time to verify anything. The Attorney General's Consumer Protection Division noted the same pattern shows up across many of its other current alerts — fake texts about missed jury duty, unpaid fines, and tax debt all use the identical urgency-plus-link structure — and that any unsolicited message demanding an immediate response to receive or avoid losing money should be treated as fraudulent by default. Idahoans who receive the text are advised not to click the link or reply, and to report it at ReportScamsIdaho.com.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ["Idaho Office of the Attorney General", 'KTVB', 'KIVI-TV'],
+    sourceUrl: 'https://www.ag.idaho.gov/newsroom/attorney-general-labrador-warns-idahoans-about-tariff-rebate-text-scam/',
+    country: 'US',
+    state: 'ID',
+});

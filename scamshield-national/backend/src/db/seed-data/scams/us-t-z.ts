@@ -2469,3 +2469,15 @@ UsTZ.push({
     country: 'US',
     state: 'UT',
 });
+
+UsTZ.push({
+    name: 'Vermont State Treasurer Unclaimed-Property Check Diversion Fraud (Cirt Lindsay)',
+    slug: 'vermont-treasurer-lindsay-unclaimed-property-check-diversion',
+    description: `A federal grand jury in Burlington indicted Cirt F. Lindsay, 43, of Bridgeport, Connecticut, on September 18, 2025 on a charge of conspiracy to commit mail fraud after prosecutors say he and co-conspirators diverted a real, legitimate unclaimed-property check away from its rightful owner. Rather than impersonating the Treasurer's office to trick a victim directly, the scheme worked from the inside of the paperwork: according to the indictment, a co-conspirator registered bogus business names with the Vermont Secretary of State's Office in January and March 2022 that were close enough to the intended recipient's identity to fool the Unclaimed Property Division into forwarding a $467,067 check — money that had been sitting, unclaimed, and was actually owed to a former Essex Junction man who had since moved to Florida — to Lindsay and his co-conspirators instead. By August 2022, prosecutors say the group had spent all but $5,300 of the diverted funds. Lindsay was arrested on October 1, 2025 and has pleaded not guilty; his change-of-plea hearing was later postponed after he tested positive for drugs ahead of a scheduled court date. The case is a reminder that unclaimed-property fraud does not only take the form of a caller impersonating a treasurer's office and demanding a fee to "release" funds — it can also mean a look-alike business name quietly rerouting a real payment before the rightful owner ever learns the money existed — so anyone expecting an unclaimed-property payout who does not receive it on the expected timeline should contact the Vermont Treasurer's office directly to confirm whether it has already been paid out.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'medium',
+    sources: ['Vermont Business Magazine', 'Bennington Banner', 'Rutland Herald'],
+    sourceUrl: 'https://vermontbiz.com/news/2025/october/23/ct-man-charged-nearly-500000-fraud-state-treasurer',
+    country: 'US',
+    state: 'VT',
+});
