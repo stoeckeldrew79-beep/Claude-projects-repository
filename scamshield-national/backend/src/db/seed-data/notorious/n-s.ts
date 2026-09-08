@@ -3369,3 +3369,19 @@ In February 1989, Sheelen and Golden pleaded guilty to federal charges of conspi
 The Regina case became a standard teaching example in accounting and auditing courses, cited alongside contemporaries like ZZZZ Best and Lincoln Savings as a lesson in how concealed product returns and manufactured sales figures can manufacture an entire growth narrative out of a company that is, in reality, quietly failing. It also became an early data point in a debate that would resurface repeatedly in white-collar prosecutions over the following decades: whether probation, a modest fine, and a stay in a halfway house amounted to real accountability for executives whose fabricated numbers had cost public shareholders nine figures.`,
   },
 );
+NotoriousNS.push(
+  {
+    title: 'Ramil Ventura Palafox and the $200 Million Bitcoin Ponzi Scheme That Reached 90,000 Investors',
+    slug: 'ramil-ventura-palafox-pgi-global-bitcoin-ponzi',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-edva/pr/praetorian-group-international-ceo-sentenced-20-years-prison-200m-bitcoin-ponzi-scheme',
+    body: `Ramil Ventura Palafox, a dual citizen of the United States and the Philippines, built Praetorian Group International — branded to investors as PGI Global — around a simple pitch: hand over cash or bitcoin, and Palafox's supposed high-volume bitcoin trading operation would pay daily returns of 0.5 to 3 percent, an annualized rate so high it should have been an immediate red flag. Instead, between December 2019 and October 2021, more than 90,000 investors around the world put over $201 million into PGI, including roughly $30.3 million in ordinary currency and more than 8,198 bitcoin worth over $171 million at the time it was deposited.
+
+PGI was not, in fact, trading bitcoin anywhere near the scale needed to generate the returns Palafox promised. Instead, prosecutors said, he ran a straightforward Ponzi scheme underneath the crypto branding, paying "returns" to existing investors out of money deposited by new ones and building fraudulent online account portals that showed investors fabricated balances and gains bearing no relationship to any real trading activity. As the money poured in, it poured back out into Palafox's own accounts: roughly $3 million spent on 20 luxury vehicles, $329,000 on penthouse hotel suites, more than $6 million on four homes in Las Vegas and Los Angeles, another $3 million on clothing, watches, jewelry, and home furnishings, and more than $800,000 transferred directly to family members.
+
+By the time the scheme collapsed, investors had lost at least $62.7 million that was never recovered. Palafox pleaded guilty in 2025 to wire fraud and money laundering, and on February 12, 2026, a federal judge in the Eastern District of Virginia sentenced him to 20 years in prison. The FBI's Washington Field Office and IRS Criminal Investigation, which built the case, said the scale of the fraud — tens of thousands of victims spread across the globe — made it one of the largest crypto Ponzi schemes ever prosecuted in the United States.
+
+The PGI Global case is a reminder that the oldest fraud mechanism in the book doesn't need to change to keep working; it just needs a new coat of paint. Palafox's scheme ran on the exact same principle Charles Ponzi used in 1920 — paying old investors with new investors' money — dressed up in the language of algorithmic bitcoin trading and a slick online dashboard, and it still reached more victims, across more countries, than most Ponzi schemes of the pre-internet era ever could.`,
+  },
+);

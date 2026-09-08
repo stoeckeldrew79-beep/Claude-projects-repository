@@ -4772,3 +4772,19 @@ The scandal, layered on top of a separate money-laundering investigation and the
 The E.F. Hutton case became an early and stark illustration of a problem that would recur throughout the following decades of corporate-crime enforcement: a company can plead guilty to thousands of federal felony counts, pay millions of dollars in fines, and still leave every individual who designed and ran the underlying fraud personally untouched, so long as the corporation itself absorbs the blame. It also showed how a legitimate cash-management technique — riding the float on checks in transit between banks — could curdle, once deliberately engineered rather than merely tolerated, into outright fraud against the very banks a Wall Street firm depended on to do business.`,
   },
 );
+NotoriousAF.push(
+  {
+    title: "Alejandro Andrade and the $1 Billion in Bribes Behind Venezuela's Currency Racket",
+    slug: 'alejandro-andrade-venezuela-treasurer-bribery',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://www.justice.gov/opa/pr/former-venezuelan-national-treasurer-sentenced-10-years-prison-money-laundering-conspiracy',
+    body: `Alejandro Andrade served as Venezuela's National Treasurer for roughly four years starting in 2007, under President Hugo Chávez, a position that put him in charge of deciding which currency brokers got access to the country's tightly controlled foreign-exchange system. Venezuela's currency controls meant that only officially sanctioned transactions could convert bolívars into dollars at the government's official rate, and Andrade's office effectively decided who got to be on the sanctioned list — turning that gatekeeping power into something brokers were willing to pay enormous sums for.
+
+Prosecutors said Andrade took full advantage. Working with the Venezuelan media and banking executive Raúl Gorrín Belisario and other co-conspirators, Andrade steered the government's currency-exchange business to brokerages willing to pay him for the privilege, in exchange for more than $1 billion in bribes over the course of his tenure. The brokers, who profited from the spread between the official and black-market exchange rates on the transactions Andrade sent their way, funneled part of their winnings back to him not just in cash but in an extraordinary catalog of luxury assets: private jets, yachts, at least six homes in South Florida, a dozen luxury cars, 35 high-end watches, and a stable of 17 champion show-jumping horses.
+
+The scheme unraveled as U.S. investigators built a broader case against corruption tied to Venezuela's currency-control system and state oil sector. Andrade pleaded guilty under seal on December 22, 2017, to a single count of conspiracy to commit money laundering, and on November 27, 2018, U.S. District Judge Robin L. Rosenberg in the Southern District of Florida sentenced him to 10 years in federal prison. As part of his plea, Andrade agreed to a $1 billion forfeiture money judgment and forfeited the assets bought with the bribe money; when 14 of his horses were later sold at auction, they brought in just over $2 million.
+
+The Andrade case remains one of the largest single bribery schemes ever unwound by U.S. prosecutors, and a vivid illustration of what happens when one government official controls access to a scarce, artificially priced resource — in this case, legal dollars in a country that had made them nearly impossible to get any other way. It also shows how laundered money tends to surface in unlikely places: a decade of stolen currency-exchange profits ended up not just in bank accounts, but in show-jumping horses auctioned off piece by piece to help make Venezuelan victims of the country's currency controls even partially whole.`,
+  },
+);
