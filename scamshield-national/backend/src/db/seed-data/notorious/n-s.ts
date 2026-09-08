@@ -3351,3 +3351,21 @@ In October 2022, a federal judge sentenced Ogiekpolor to 25 years in federal pri
 The case illustrates the division of labor that has come to define large-scale romance and business-email-compromise fraud: the people who write the fake love letters and impersonate executives are rarely the same people who spend fifty bank accounts' worth of effort making the stolen money disappear, and it is often the laundering network — not any single scammer — that determines how much money a fraud ring can extract before it gets caught. Ogiekpolor's 25-year sentence, among the longest ever handed down in a U.S. romance-scam money-laundering case, reflected a prosecution strategy aimed squarely at that layer of the operation.`,
   },
 );
+NotoriousNS.push(
+  {
+    title: 'Donald Sheelen and the Regina Company Vacuum Cleaner Fraud That Faked a Turnaround',
+    slug: 'donald-sheelen-regina-company-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://www.upi.com/Archives/1989/02/08/Top-Regina-officers-admit-false-financial-statements/3396602917200/',
+    body: `Regina had been making vacuum cleaners in Rahway, New Jersey, for decades by the time Donald D. Sheelen took over as chairman, chief executive, and president in the 1980s, but under his leadership it briefly became a Wall Street growth story. The 1986 launch of the Housekeeper upright, backed by heavy network television advertising, was marketed as the turnaround product that would make Regina a major national vacuum brand again, and investors bought the story: Regina's stock climbed as high as $27.50 a share by July 1988 on the strength of financial statements showing the company swinging to real profitability.
+
+Those financial statements were fabricated. Sheelen and his chief financial officer, Vincent Golden, later admitted that they concealed at least $7 million in Housekeeper units that dealers had returned as defective or unsold, booked at least $5 million in sales that never happened, and hid roughly $3 million in expenses, all to support financial statements filed with the Securities and Exchange Commission that claimed an $11 million profit for the fiscal year ended June 30, 1988. Mid-level employees, prosecutors said, helped carry out the deception by programming Regina's own computer systems to feed false return and sales data directly to the company's outside auditors, so the fabricated numbers would survive routine review.
+
+The fiction collapsed in September 1988, when Regina abruptly announced that its fiscal 1988 financial report could not be relied upon and would have to be withdrawn. The stock, which had traded above $27 two months earlier, cratered to roughly $3.25 a share, wiping out at least $100 million in value for public shareholders — and probably more, given the additional damage to suppliers, dealers, and employees. Sheelen resigned that same month. By April 1989, with its credibility and cash both gone, Regina filed for Chapter 11 bankruptcy protection.
+
+In February 1989, Sheelen and Golden pleaded guilty to federal charges of conspiracy to commit mail and stock fraud, admitting they had juggled the company's books to keep Regina looking profitable as it was actually failing. That May, a federal judge sentenced Sheelen to twelve months in a halfway house, five years of probation, a $25,000 fine, and 500 hours of community service for each year he remained under court supervision — a sentence that struck many observers as strikingly light set against the scale of the losses the fraud had inflicted on ordinary investors.
+
+The Regina case became a standard teaching example in accounting and auditing courses, cited alongside contemporaries like ZZZZ Best and Lincoln Savings as a lesson in how concealed product returns and manufactured sales figures can manufacture an entire growth narrative out of a company that is, in reality, quietly failing. It also became an early data point in a debate that would resurface repeatedly in white-collar prosecutions over the following decades: whether probation, a modest fine, and a stay in a halfway house amounted to real accountability for executives whose fabricated numbers had cost public shareholders nine figures.`,
+  },
+);
