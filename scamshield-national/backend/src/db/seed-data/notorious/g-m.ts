@@ -5123,4 +5123,18 @@ WoToken was one of several copycat schemes that surfaced in China's crypto scene
 The case is a reminder that a fraud doesn't need to be original to work: WoToken succeeded, for a little over a year, by copying a scheme that was already collapsing under investigation, on the bet that enough new investors hadn't heard of PlusToken, or wouldn't make the connection until it was too late.`,
     sourceUrl: 'https://www.theblock.co/news/regulation/2020-10-29-china-crypto-ponzi-prison-wotoken-billions',
   },
+  {
+    title: 'James J. McDermott Jr. and the Insider-Trading Scandal His Mistress Turned Into $170,000 in Profits',
+    slug: 'james-mcdermott-keefe-bruyette-insider-trading',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://en.wikipedia.org/wiki/James_McDermott_(business_executive)',
+    body: `James J. McDermott Jr. spent the 1990s as chairman and CEO of Keefe, Bruyette & Woods, the boutique Wall Street investment bank that had built its reputation advising on nearly every major merger between American banks and thrifts. It was a business built on secrets — KBW routinely knew which banks were about to buy which other banks, weeks or months before the public did — and McDermott, married with children, spent roughly a year handing some of those secrets to his mistress.
+
+Starting in 1997, McDermott carried on an affair with Kathryn Gannon, a Canadian pornographic film actress who performed under the stage name Marylin Star. According to trial evidence, McDermott told Gannon confidential details about pending KBW-advised bank mergers before the deals were announced — information she used to buy stock or options in the target companies and sell once the announcement sent the price up. Gannon passed some of the same tips to a New Jersey businessman, Anthony Pomponio, who traded on them as well; between them, the two generated roughly $170,000 in profits trading ahead of KBW's client announcements.
+
+Federal prosecutors and the SEC indicted McDermott, Gannon, and Pomponio in December 1999, and the trial that followed in April 2000 became a tabloid fixture, with testimony about the affair playing out alongside the securities-fraud case. A jury convicted McDermott, and in August 2000 U.S. District Judge Kimba Wood sentenced him to eight months in prison, 300 hours of community service, and a $25,000 fine. The verdict didn't hold: in June 2001, the Second Circuit Court of Appeals threw out McDermott's conspiracy conviction, ruling prosecutors hadn't proven he had agreed that his tips would reach a trader he had never met, and sent the remaining securities-fraud counts back for further proceedings.
+
+Rather than face a retrial, McDermott pleaded guilty to insider trading and was resentenced to the roughly five months he had already served. The case closed there, but its shape — an executive with privileged access, a personal relationship that doubled as a distribution channel, and a paper trail of phone calls and trades that investigators could reconstruct after the fact — is the pattern behind a large share of insider-trading prosecutions that never make headlines: the tip doesn't have to travel through a hedge fund or an expert network to move real money, and the person on the other end of a stock trade rarely learns whose confidence it violated.`,
+  },
 );
