@@ -46,6 +46,27 @@ if errorlevel 1 (
   echo   logging in. Only run this as administrator if you want it instant.
 )
 
+REM schtasks cannot express three settings that decide whether a task ever
+REM actually runs, so they are applied afterwards. Without them a task can be
+REM registered, enabled, and still never execute:
+REM
+REM   AllowStartIfOnBatteries    - schtasks defaults to REFUSING to start a
+REM     DontStopIfGoingOnBatteries task on battery power. On a laptop that is
+REM     silently fatal: the task fires, Windows refuses it, and the last
+REM     result reads 0x800710E0, "the operator or administrator has refused
+REM     the request". Nothing in the UI suggests the battery is the reason.
+REM
+REM   StartWhenAvailable         - a missed run (asleep, shut down) is
+REM     otherwise dropped rather than caught up, so an overnight sleep can
+REM     leave the schedule stalled until the next manual run.
+REM
+REM   ExecutionTimeLimit         - a run that somehow hangs would otherwise
+REM     block every later run for the 72-hour default.
+echo.
+echo Applying power and catch-up settings...
+powershell -NoProfile -Command "$s = New-ScheduledTaskSettingsSet -AllowStartIfOnBatteries -DontStopIfGoingOnBatteries -StartWhenAvailable -MultipleInstances IgnoreNew -ExecutionTimeLimit (New-TimeSpan -Hours 1); Set-ScheduledTask -TaskName 'ScamShield National Auto-Update' -Settings $s | Out-Null"
+powershell -NoProfile -Command "$s = New-ScheduledTaskSettingsSet -AllowStartIfOnBatteries -DontStopIfGoingOnBatteries -StartWhenAvailable -MultipleInstances IgnoreNew -ExecutionTimeLimit (New-TimeSpan -Minutes 10); Set-ScheduledTask -TaskName 'ScamShield National Keep Running' -Settings $s | Out-Null"
+
 echo.
 echo ============================================
 echo  Done. Current status of all three:
