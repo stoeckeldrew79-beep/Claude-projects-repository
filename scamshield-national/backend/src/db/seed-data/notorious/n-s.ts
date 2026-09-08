@@ -3630,3 +3630,45 @@ Okuma pleaded guilty in March 2026 to one count of wire fraud, which carries a s
 Okuma's case illustrates how a fiduciary role built over a decade of ordinary, unremarkable service can become the very cover a theft needs: the "estate administration" story he used to justify the first transfers was plausible precisely because it fit the kind of task a trusted advisor legitimately handles, and the forged logins and impersonated emails he built afterward existed only to keep the client from ever comparing notes with the institution actually holding the money. It is a reminder that even a large, well-known brokerage relationship offers no independent verification of an individual advisor's own separate transfers, accounts, or correspondence — that still requires a client, or a family member acting on their behalf, to check directly with the firm rather than trusting an advisor's account of what is happening to money once it leaves the original custodian.`,
   },
 );
+
+NotoriousNS.push(
+  {
+    title: "Antonio Petrosino and the Fake Brokerage Statements That Fooled New Jersey Retirees",
+    slug: "antonio-petrosino-union-city-investment-fraud",
+    author: "ScamShield Editorial",
+    tags: ["notorious", "notorious-scammer"],
+    sourceUrl: "https://www.justice.gov/usao-nj/pr/new-jersey-man-admits-stealing-more-1-million-investment-fraud-scheme-involving-elderly",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/US.PostOffice%26Courthouse.Newark.jpg?width=1200",
+    coverImageCredit: "Photo: Djflem, Wikimedia Commons (CC0) — the Frank R. Lautenberg U.S. Post Office and Courthouse in Newark, New Jersey, where Antonio Petrosino was prosecuted",
+    coverImagePosition: 50,
+    body: `Antonio Petrosino — also known as Anthony Petrosino, 60, of Union City, New Jersey — spent nearly a decade holding himself out to people who trusted him as a financial services professional, according to federal prosecutors, without ever actually being one in the way his victims believed. From around January 2016 through November 2024, prosecutors say Petrosino persuaded a group of victims, several of them elderly and living in nearby New Jersey towns including Paramus, Wyckoff, Westwood, and Hoboken, to hand over investment funds, mortgage payments, and other money on the promise that he would place it into brokerage accounts and other investment products on their behalf.
+
+None of it was invested. To keep at least one elderly victim from asking hard questions, prosecutors say Petrosino provided her with falsified investment statements purporting to show hundreds of thousands of dollars sitting safely in various accounts in her name — documents that existed only to manufacture the appearance of a legitimate, growing portfolio. In reality, according to the U.S. Attorney's Office for the District of New Jersey, Petrosino used the roughly $1.1 million he collected to cover his own personal expenses, including gambling, credit card bills, and rent on his own luxury apartment.
+
+Petrosino pleaded guilty on March 25, 2026, before U.S. District Judge Stanley R. Chesler to one count of wire fraud, a charge that carries a statutory maximum of 20 years in prison and a fine of $250,000 or twice the gross gain or loss from the offense, whichever is greater. "Petrosino never invested the victims' money," said U.S. Attorney Robert Frazer of the District of New Jersey in announcing the plea, adding that Petrosino never used the funds "for the victims' benefit as promised." His sentencing was calendared for August 5, 2026; publicly available reporting reviewed for this profile did not confirm the outcome of that hearing, so the length of Petrosino's ultimate prison term is not yet confirmed as of this writing.
+
+Petrosino's case is a reminder that a fabricated account statement is only convincing because most people never think to independently verify it — a legitimate brokerage or investment account can be checked directly through the firm's own client portal or by calling the custodian named on the statement, rather than relying solely on documents an individual advisor hands over personally. It is also worth noting what a legitimate financial professional does not do: ask a client to route mortgage payments or other unrelated household money through the adviser's own personal account rather than directly to the mortgage servicer or a properly titled investment account.`,
+  },
+);
+
+NotoriousNS.push(
+  {
+    title: "Michele Spagnuolo and the Alleged Inside Bet on Google's 'Year in Search'",
+    slug: "michele-spagnuolo-google-polymarket-insider-trading",
+    author: "ScamShield Editorial",
+    tags: ["notorious", "notorious-scammer"],
+    sourceUrl: "https://www.justice.gov/usao-sdny/pr/google-employee-charged-insider-trading",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Daniel_Patrick_Moynihan_U.S._Courthouse,_Manhattan,_New_York_(7237347688).jpg?width=1200",
+    coverImageCredit: "Photo: Ken Lund, Wikimedia Commons (CC BY-SA 2.0) — the Daniel Patrick Moynihan U.S. Courthouse in Manhattan, where Michele Spagnuolo was charged",
+    coverImagePosition: 50,
+    body: `Note: this case is at the criminal-complaint stage. The scheme described below reflects allegations made by federal prosecutors and the CFTC — Michele Spagnuolo has not been convicted, has not entered a plea, and has a motion to dismiss the charges pending as of this writing.
+
+Michele Spagnuolo, an Italian citizen who spent 12 years as an information-security engineer at Google while living in Zurich, Switzerland, became what prosecutors describe as the first person criminally charged as a direct result of Polymarket's cooperation with U.S. law enforcement over alleged insider trading on the prediction-market platform. The Southern District of New York's U.S. Attorney's Office and the Commodity Futures Trading Commission announced parallel criminal and civil actions against him on May 27, 2026.
+
+According to the criminal complaint, Spagnuolo — trading under the Polymarket username "AlphaRaccoon" — accessed internal Google systems containing data marked "Google Confidential" related to the company's 2025 "Year in Search" campaign, which ranks the year's most-searched people before the rankings are made public. Prosecutors allege he used that advance, nonpublic knowledge to place a series of contrarian wagers on Polymarket contracts tied to the Year in Search results, including a $937,688 bet against model Bianca Censori topping the rankings even though the market was pricing her as roughly an 85% favorite, and a wager on the musician d4vd topping the rankings when the market gave that outcome almost no chance. In total, the complaint alleges Spagnuolo risked approximately $2.7 million across dozens of trades and realized roughly $1.2 million in profit before he was arrested in New York in May 2026 and placed on leave by Google.
+
+The criminal complaint charges Spagnuolo with commodities fraud, wire fraud, and money laundering, exposing him to a combined statutory maximum of up to 50 years in prison if convicted on all counts; the CFTC's parallel civil complaint alleges commodities fraud under the Commodity Exchange Act. Polymarket said publicly that it cooperated with investigators and that, to date, this is the only insider-trading case its cooperation with U.S. authorities has produced. In September 2026, Spagnuolo's defense team filed a motion to dismiss, arguing that Polymarket-style prediction-market wagers are not "commodity interests" subject to U.S. regulation at all — warning that the government's theory, taken to its logical end, could sweep in "a charity raffle or a local Ping-Pong match" — that U.S. courts lack jurisdiction over a foreign national who placed bets from Switzerland on a platform administered by a Panama-based entity, and that the internal search-ranking data he is accused of using had no "commercial value" to Google in the first place. None of these arguments had been ruled on as of this writing.
+
+Whatever the outcome, the Spagnuolo case sits at a genuinely unsettled edge of securities and commodities law: prediction markets like Polymarket have exploded in popularity for wagering on everything from elections to corporate announcements, and whether trading on advance knowledge of a company's own internal, not-yet-public data counts as the kind of "insider trading" long policed in stock markets — or as something U.S. commodities and wire-fraud law was never written to reach — is a question this prosecution may end up helping to answer one way or the other.`,
+  },
+);

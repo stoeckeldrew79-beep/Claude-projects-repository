@@ -5364,3 +5364,25 @@ The sentencing outcome surprised many who had followed the case. Federal guideli
 The case is a reminder that a hedge fund's stated risk limits are only as reliable as the manager reporting compliance with them — and that a portfolio can go from intact to essentially wiped out in days once leverage and concentration are pushed far enough beyond what investors were told to expect. It also illustrates how differently two defendants in similar-looking securities fraud cases can be treated at sentencing, depending on how a judge weighs cooperation and acceptance of responsibility against the scale of investor losses.`,
   },
 );
+
+NotoriousGM.push(
+  {
+    title: "Andrew Middlebrooks and the Fake 476% Return That Sank a Detroit Hedge Fund",
+    slug: "andrew-middlebrooks-eia-all-weather-alpha-fund-fraud",
+    author: "ScamShield Editorial",
+    tags: ["notorious", "notorious-scammer"],
+    sourceUrl: "https://www.justice.gov/usao-edmi/pr/detroit-investment-fund-owner-sentenced-100-months-prison-39-million-wire-fraud-scheme",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Theodore_Levin_United_States_Courthouse_Detroit_MI.jpg?width=1200",
+    coverImageCredit: "Photo: Andrew Jameson, Wikimedia Commons (CC BY-SA 3.0) — the Theodore Levin United States Courthouse in Detroit, where Andrew Middlebrooks was prosecuted",
+    coverImagePosition: 50,
+    body: `Andrew Middlebrooks was in his early thirties, running a small Detroit-area investment operation called EIA All Weather Alpha Fund I Partners LLC, when he began pitching investors on a strategy he said could reliably "exploit inefficiencies" in global equity markets. As the fund's majority owner, CEO, and portfolio manager, Middlebrooks controlled every account statement, every performance report, and every claim investors ever saw about how their money was doing — and prosecutors say that unchecked control is exactly what let a losing fund look like a winning one for years.
+
+From at least mid-2017 through April 2022, according to the U.S. Attorney's Office for the Eastern District of Michigan, Middlebrooks solicited and retained money from 97 investors in the United States and abroad through the fund's commodity pool, EIA All Weather Alpha Fund I LP. The trading was, in reality, a consistent loser. To keep new money coming in and existing investors from asking to withdraw, prosecutors say Middlebrooks fabricated the numbers: in the fall of 2019 he falsely told investors the fund had generated a cumulative return of 476.81%, with more than 80% of individual months showing a profit, and he continued sending false monthly account statements and financial reports throughout the life of the fund. He also claimed the fund's financials were independently audited by an outside firm — they were not — and he overstated the total assets under management to make the operation look larger and more established than it was.
+
+The fund ultimately took in roughly $39 million from investors, more than $34 million of which was lost. Middlebrooks was indicted on wire fraud charges in October 2022 and pleaded guilty. In August 2025, he was sentenced to 100 months — eight years and four months — in federal prison and ordered to pay $34,346,948 in restitution to the investors he defrauded. "This financial charlatan used sophisticated methods and a complex web of deception to trick unsuspecting victims into trusting him with their money," said then–U.S. Attorney Jerome F. Gorgon Jr. in announcing the sentence, while the FBI's Detroit Field Office added that cases like this one "threaten the integrity of our financial systems."
+
+The Commodity Futures Trading Commission pursued a parallel civil case against Middlebrooks and his fund, and a federal court in the Eastern District of Michigan entered a consent order permanently barring both from trading on CFTC-regulated markets, soliciting or accepting funds from others for trading, and registering with the CFTC in any capacity — a civil bar that runs alongside, and outlasts, his criminal sentence.
+
+Middlebrooks's case illustrates a structural weak point in small, lightly staffed commodity pools: when the same person who trades the fund also writes the account statements investors rely on to check their balances, there is no independent check on whether the numbers on the page match the trades in the market. A legitimate fund typically uses an independent administrator and a real, verifiable outside auditor — both of which investors can and should confirm directly, rather than taking a fund manager's own description of "audited" performance at face value, especially when the reported returns sound too large to be plausible.`,
+  },
+);
