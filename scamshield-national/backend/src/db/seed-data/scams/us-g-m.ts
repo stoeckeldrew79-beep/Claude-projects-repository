@@ -4068,6 +4068,18 @@ UsGM.push({
 });
 
 UsGM.push({
+    name: 'Lexington Blue Roofing Company Storm-Damage Deposit Fraud (Bradley Pagel)',
+    slug: 'kentucky-lexington-blue-roofing-bradley-pagel-storm-fraud',
+    description: `Lexington Blue, a Lexington, Kentucky roofing and storm-damage repair company owned by Bradley Pagel, accepted nearly $5 million in payments from Kentucky homeowners for more than 300 roofing projects in 2024 alone — the majority of which, according to a lawsuit filed by Kentucky Attorney General Russell Coleman's Office of Consumer Protection, were never completed. More than 70 Kentucky consumers filed complaints describing a similar pattern: Lexington Blue collected substantial upfront deposits for roof replacements, often pitched after a hailstorm or wind damage, then delayed, under-delivered, or simply never started the work before the company abruptly closed in late April 2025. On the Attorney General's motion, a Fayette Circuit Court judge issued a temporary restraining order in late May 2025 ordering Lexington Blue to immediately stop operating and marketing, freezing its corporate and personal bank accounts and barring any transfer or liquidation of assets. "We are constantly on guard against predatory organizations that try to take advantage of Kentuckians, and we will hold these bad actors accountable," Coleman said at the time. The case wound through Kentucky and Tennessee bankruptcy proceedings before a Fayette Circuit Court judge granted a default judgment in February 2026, permanently banning Lexington Blue and its affiliated businesses from operating in Kentucky and finding the company violated state consumer protection law, clearing the way for the Attorney General's Office to begin compensating victims. "Finally, Lexington Blue's predatory business practices have come to an end," Coleman said. "So many Kentuckians have been taken advantage of by this company, and I'm proud our Office was able to step in to help. Scammers need to know: Kentucky is not the place to do business." Homeowners hiring a storm-damage or roofing contractor should avoid paying the full contract price as a deposit before any work begins, get a written contract with a specific timeline, and check a contractor's complaint history with the Attorney General's Office of Consumer Protection before signing anything.`,
+    categorySlug: 'home-improvement-solar',
+    alertLevel: 'medium',
+    sources: ["Kentucky Attorney General's Office (Russell Coleman)", 'WKYT', 'WDRB'],
+    sourceUrl: 'https://www.kentucky.gov/Pages/Activity-stream.aspx?n=AttorneyGeneral&prId=1770',
+    country: 'US',
+    state: 'KY',
+});
+
+UsGM.push({
     name: 'Baton Rouge "Housing for Heroes" Affordable-Housing Fraud (Bradly Brown)',
     slug: 'louisiana-baton-rouge-housing-for-heroes-bradly-brown-fraud',
     description: `Bradly Brown, a Scotlandville developer who owned KMT Holdings and Development, was the driving force behind "Housing for Heroes," a project the East Baton Rouge Metro Council approved for more than $6 million in American Rescue Plan Act funds to build 36 affordable apartments for health care workers and other essential employees on a project Brown pitched at a total cost of over $11 million. Louisiana Attorney General Liz Murrill's office alleges that instead of using the money as represented, Brown used land already pledged to the Housing for Heroes development as collateral to fraudulently obtain a $787,000 loan from the Bank of Montgomery in December 2021 — the bank later sued him civilly over it — while also attempting to defraud two other banks of more than $1.2 million combined and stealing $25,000 in city-parish funds. Brown was arrested and booked into East Baton Rouge Parish Prison in December 2025 on felony theft over $25,000, three counts of bank fraud, illegal transmission of monetary funds, money laundering, and filing false public records, with bond set at $500,000; his case grew out of a broader Attorney General's corruption probe into East Baton Rouge government contracting that has since implicated other city officials and contractors. As of an April 2026 hearing, prosecutors and Brown's defense attorney told the court they were "working to resolve" the case ahead of a trial later set for November 2026. The case is a reminder that a nonprofit-style development pitched as pandemic-relief housing for frontline workers is not automatically insulated from ordinary fraud risk — a local government funding a project with federal relief dollars should verify that the collateral, loans, and disbursements a developer reports match what banks and title records actually show, rather than relying on the developer's own progress claims.`,
@@ -4219,6 +4231,18 @@ UsGM.push({
     alertLevel: 'high',
     sources: ['WRTV Investigates', "Indiana Attorney General's Office (Scott Barnhart)"],
     sourceUrl: 'https://www.wrtv.com/news/wrtv-investigates/i-fell-in-love-westfield-woman-83-heartbroken-after-losing-98k-in-online-romance-scam',
+    country: 'US',
+    state: 'IN',
+});
+
+UsGM.push({
+    name: 'Clark County Small-Business Email Compromise Wire-Fraud Scheme (Uchechukwu Gideon Eze)',
+    slug: 'indiana-clark-county-eze-business-email-compromise-wire-fraud',
+    description: `In April 2023, a sophisticated business email compromise scheme defrauded a small business in Clark County, Indiana of more than $182,000. Overseas co-conspirators first gained unauthorized access to an email account used by employees of the victim business, then used that access to impersonate a company representative and send fraudulent emails to a second small business in Clark County, falsely claiming the first company had switched banking institutions and directing future payments to a new account. The second business wired the payment as instructed to an account at JPMorgan Chase registered to a fictitious entity called "Blue Horizon Automobile LLC," which prosecutors say was controlled by Uchechukwu Gideon Eze, 46, of Nigeria. Eze rapidly drained the $182,201.80 in misdirected funds through personal spending, including buying a vehicle, then fled to Canada for roughly six months after learning law enforcement had identified the scheme before he was apprehended on his return to the United States. The business's owners, both approaching retirement, were forced to refinance property and extend lines of credit to keep the business afloat and ultimately had to postpone their retirement plans. Eze pleaded guilty to wire fraud and was sentenced in the U.S. District Court for the Southern District of Indiana in November 2025 to 21 months in federal prison, three years of supervised release, and $182,201.80 in restitution. The case illustrates why any email announcing a vendor or business partner has "changed banks" should be independently verified by phone, using a number looked up separately rather than one provided in the email, before a single payment is redirected — by the time a wire transfer to a mule account is caught, the money is typically already gone.`,
+    categorySlug: 'business-email-compromise',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office, Southern District of Indiana", 'Peoples Gazette'],
+    sourceUrl: 'https://www.justice.gov/usao-sdin/pr/fraudster-sentenced-federal-prison-182k-email-compromise-scheme-targeting-family-owned',
     country: 'US',
     state: 'IN',
 });
