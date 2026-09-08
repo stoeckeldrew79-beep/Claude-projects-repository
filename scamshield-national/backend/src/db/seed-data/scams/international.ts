@@ -10591,3 +10591,26 @@ International.push(
     country: 'KY',
   },
 );
+
+International.push(
+  {
+    name: 'Isle of Man Fake Bank Fraud Team Phone Scam',
+    slug: 'isle-of-man-fake-bank-fraud-team-phone-scam',
+    description: `The Isle of Man Constabulary and the Cyber Security Centre for the Isle of Man warned in January 2026 that residents had collectively lost around £135,000 to fraudsters impersonating bank representatives over the phone, with one customer alone losing £200,000. The callers claim there has been suspicious activity on the victim's account and, in some variants, use a spoofed number that displays as the genuine bank so the call looks legitimate; they often already know some of the victim's personal details, which makes the approach more convincing. The caller then asks the victim to read out a one-time passcode (OTP) sent to their phone, or to confirm or reject a payment shown in their banking app, and uses whichever the victim provides to authorise a fraudulent transaction. Police stressed that a genuine bank will never ask a customer to read out an OTP or to approve a payment the customer did not themselves initiate, and advised anyone who receives such a call to hang up, wait several minutes, and then call their bank back using the number printed on a card or statement rather than any number given during the call, and to report the incident through the Cyber Security Centre's online reporting form.`,
+    categorySlug: 'account-takeover',
+    alertLevel: 'high',
+    sources: ['Isle of Man Constabulary', 'Cyber Security Centre for the Isle of Man', 'Isle of Man Today'],
+    sourceUrl: 'https://www.iomtoday.co.im/news/isle-of-man-residents-lose-ps135k-due-to-bank-phone-scams-870007',
+    country: 'IM',
+  },
+  {
+    name: 'Isle of Man Fake Courier Delivery Text Phishing Scam',
+    slug: 'isle-of-man-fake-courier-delivery-text-phishing-scam',
+    description: `The Cyber Security Centre for the Isle of Man warned residents in March 2025 after receiving several reports of scam text messages impersonating well-known courier firms, including Evri and Royal Mail. The messages claim a parcel could not be delivered because the address on file is incomplete and prompt the recipient to tap an embedded link to correct the details or reschedule delivery, a technique commonly called "smishing." The link leads to a fraudulent page designed to harvest personal information and payment card details rather than to any genuine courier system, and the centre noted the messages can look credible enough to pass as routine delivery notifications. Residents were urged not to click links in unexpected delivery texts, to check an order's status only through a retailer's or courier's official app or website, and to report suspicious messages to the Cyber Security Centre for the Isle of Man rather than responding to the sender.`,
+    categorySlug: 'package-delivery-scams',
+    alertLevel: 'medium',
+    sources: ['Cyber Security Centre for the Isle of Man', 'Manx Radio'],
+    sourceUrl: 'https://www.manxradio.com/news/isle-of-man-news/scam-courier-message-warning-to-residents/',
+    country: 'IM',
+  },
+);
