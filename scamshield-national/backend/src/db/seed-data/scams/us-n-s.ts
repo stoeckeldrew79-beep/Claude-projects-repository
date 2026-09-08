@@ -3976,3 +3976,27 @@ UsNS.push({
     country: 'US',
     state: 'OH',
 });
+
+UsNS.push({
+    name: 'Online Immigration Attorney Impersonation Scam',
+    slug: 'new-mexico-online-immigration-attorney-impersonation-scam',
+    description: `New Mexico Attorney General Raúl Torrez and the State Bar of New Mexico issued a joint public warning on September 26, 2025 about a rising wave of scammers posing online as licensed immigration attorneys. The scammers initiate direct contact through social media, and in a particularly convincing twist, some borrow the real name and bar license number of an actual practicing attorney to make their pitch check out if a wary target tries to verify them. Beyond simply collecting fraudulent payments — typically demanded through gift cards, bitcoin, or peer-to-peer apps like Venmo or Zelle — some of these fake attorneys have given incorrect legal advice that caused victims to miss scheduled immigration appointments or court hearings, exposing them to the risk of detainment or deportation on top of the money lost. The Attorney General's office cautioned that a scammer using a real attorney's name and license number can pass a superficial online search, so the office recommends that anyone contacted about immigration legal help through social media instead verify the attorney's identity and standing directly with the State Bar of New Mexico's official lawyer directory before paying anything or acting on the advice given, and to never send payment via gift card, cryptocurrency, or a person-to-person payment app to someone offering legal services.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'high',
+    sources: ['New Mexico Department of Justice — Office of the Attorney General', 'State Bar of New Mexico', 'KRQE'],
+    sourceUrl: 'https://nmdoj.gov/press-release/new-mexico-attorney-general-raul-torrez-warns-of-online-immigration-attorney-scams-and-highlights-tips-for-spotting-fraudulent-attorneys/',
+    country: 'US',
+    state: 'NM',
+});
+
+UsNS.push({
+    name: 'Rockingham County Sheriff Impersonation Warrant Scam',
+    slug: 'new-hampshire-rockingham-county-sheriff-impersonation-scam',
+    description: `New Hampshire Attorney General John M. Formella issued a Consumer Alert on December 3, 2024 warning of a rise in scam calls impersonating the Rockingham County Sheriff's Office (RCSO). Callers tell the victim they missed a court appearance and that a judge — falsely invoking the name of a real New Hampshire judge to sound credible — has issued a warrant for their arrest, then demand immediate payment to avoid being taken into custody. To make the threat feel more convincing, the scammers follow up with fake supporting documents, including a doctored image of a Registered Mail Receipt meant to show the victim had already signed for and received notice of the court date. The Attorney General's Office stressed that no legitimate law enforcement agency ever demands immediate payment over the phone to avoid arrest, and urged anyone who receives such a call to hang up and verify it independently by calling Rockingham County Dispatch directly at (603) 679-2225 rather than any number given by the caller, and to report the scam to the AG's Consumer Protection and Antitrust Bureau at 1-888-468-4454 or DOJ-CPB@doj.nh.gov.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['New Hampshire Department of Justice — Office of the Attorney General', 'Boston 25 News'],
+    sourceUrl: 'https://www.doj.nh.gov/news-and-media/consumer-alert-reports-law-enforcement-impersonation-scams-increase-new-hampshire',
+    country: 'US',
+    state: 'NH',
+});

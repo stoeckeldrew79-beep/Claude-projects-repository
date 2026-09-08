@@ -5892,3 +5892,15 @@ UsAF.push({
     country: 'US',
     state: 'AR',
 });
+
+UsAF.push({
+    name: 'Gold Bar Federal-Agent Impersonation Scam (Chu Lin and Xiean Cheng)',
+    slug: 'dc-chu-lin-cheng-gold-bar-federal-agent-scam',
+    description: `An 85-year-old Washington, DC man was targeted starting July 8, 2026, when scammers posing as federal agents contacted him by email and then by phone, telling him that funds in his bank account were "in jeopardy of being lost" unless he protected the money by converting it into gold bars and turning them over for safekeeping. The victim attempted to buy more than $200,000 in gold, but the gold dealer recognized the scheme as a scam and alerted the Metropolitan Police Department and the FBI before the sale went through. When two men arrived at the victim's home to collect the gold bars, officers from MPD's Financial and Cyber Crimes Unit and Violent Crime Suppression Division were waiting and arrested them on the spot. MPD identified the suspects as Chu Lin, 50, of Fresh Meadows, New York, and Xiean Cheng, 42, of Cornelius, North Carolina; both were charged with second-degree financial fraud. Announcing the August 7, 2026 arrests jointly with the FBI, MPD pointed to the scheme's telltale pattern: no legitimate bank, government agency, or law enforcement officer will ever instruct someone to withdraw their savings, convert it into gold or cash, and hand it to a courier who shows up at their front door. Anyone contacted this way should hang up and verify the claim by calling their bank or the named agency directly using a number they look up themselves, never one given by the caller.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Metropolitan Police Department (Washington, DC)', 'FBI Washington Field Office'],
+    sourceUrl: 'https://mpdc.dc.gov/release/suspects-arrested-attempted-gold-bar-scam',
+    country: 'US',
+    state: 'DC',
+});
