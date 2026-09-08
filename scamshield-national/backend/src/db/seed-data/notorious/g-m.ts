@@ -5386,3 +5386,22 @@ The Commodity Futures Trading Commission pursued a parallel civil case against M
 Middlebrooks's case illustrates a structural weak point in small, lightly staffed commodity pools: when the same person who trades the fund also writes the account statements investors rely on to check their balances, there is no independent check on whether the numbers on the page match the trades in the market. A legitimate fund typically uses an independent administrator and a real, verifiable outside auditor — both of which investors can and should confirm directly, rather than taking a fund manager's own description of "audited" performance at face value, especially when the reported returns sound too large to be plausible.`,
   },
 );
+
+NotoriousGM.push(
+  {
+    title: "Jean Joseph, Janalie Bingham, and the $50 Million Wells Real Estate Investment Fraud",
+    slug: "jean-joseph-wells-real-estate-investment-fraud",
+    author: "ScamShield Editorial",
+    tags: ["notorious", "notorious-scammer"],
+    sourceUrl: "https://www.justice.gov/usao-sdfl/pr/convicted-felon-sentenced-20-years-prison-50-million-real-estate-fraud-scheme",
+    body: `Jean Joseph, 55, of Boca Raton, Florida, was already a convicted fraudster serving a federal prison sentence when, prosecutors say, he kept right on running a second, much larger fraud scheme — directing it from behind bars with the help of his wife, Janalie Camille Bingham, 44, who also went by Janalie Camille Joseph.
+
+Through a company called Wells Real Estate Investment LLC, formed around 2017 and based in the West Palm Beach area, Joseph and Bingham raised more than $50 million from hundreds of investors between 2019 and 2024 by selling promissory notes they claimed were secured by a $450 million real estate portfolio. According to the U.S. Attorney's Office for the Southern District of Florida, that portfolio didn't come close to existing. Prosecutors say Joseph diverted roughly $28 million of investor money into speculative stock trading that had nothing to do with real estate, paid out around $8 million in undisclosed commissions to the people who brought in new investors, and used about $8 million in classic Ponzi fashion — paying earlier investors with money raised from later ones. Another roughly $2 million went toward personal expenses, including nearly $2 million toward the down payment on a home.
+
+Joseph had begun serving a sentence for an earlier, unrelated wire fraud conviction in June 2020. Prosecutors allege he continued directing the Wells Real Estate scheme from prison throughout much of the time it operated, with Bingham handling much of the outside work of keeping the company running and investor money flowing. "Jean Joseph was already serving a federal prison sentence for wire fraud when he continued directing another massive investment scheme from behind bars," said U.S. Attorney Jason A. Reding Quiñones in announcing the case. "He lied about the company's assets, diverted millions of dollars into speculative trading, and used new investor money to pay off earlier investors — the hallmarks of a Ponzi scheme."
+
+Joseph pleaded guilty to wire fraud and was sentenced on August 21, 2026 by U.S. District Judge Jose E. Martinez to 240 months — 20 years — in federal prison, to run in addition to time from his prior fraud case. Bingham was sentenced to 48 months for her role. A restitution hearing was set to follow in September 2026 to determine what Joseph and Bingham will be ordered to repay the investors who lost money.
+
+The case is a reminder that a criminal record — even an active prison sentence — doesn't stop a determined fraudster from soliciting new victims, especially when a scheme is built around a claim, like a $450 million real estate portfolio, that sounds too large and too specific to be worth double-checking. It wasn't. Real estate holdings of that size leave a public paper trail: deeds, mortgages, and property tax records that any investor can search before wiring a single dollar into a "real estate-backed" note. None of Wells Real Estate Investment's investors appear to have found one.`,
+  },
+);

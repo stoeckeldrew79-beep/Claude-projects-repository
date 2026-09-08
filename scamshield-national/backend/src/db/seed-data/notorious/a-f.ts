@@ -5171,3 +5171,24 @@ Elder's sentencing, originally set for the week of June 2, 2026, has since been 
 Elder's case illustrates how a real underlying business — actual apartment complexes, actual land, actual construction projects — can still be the engine of a Ponzi scheme once the payments made to investors stop being tied to what those specific assets are actually earning. A legitimate real estate fund's distributions should be traceable to the performance of the specific properties an investor put money into, something that can be checked through independent property records, occupancy and rent-roll data, and audited fund financials — not simply taken on the word of a fund manager who also controls the underlying accounting.`,
   },
 );
+NotoriousAF.push(
+  {
+    title: "Andrew Spaventa and the $74 Million Pre-IPO Boiler Room",
+    slug: "andrew-spaventa-tsg-capital-pre-ipo-fraud",
+    author: "ScamShield Editorial",
+    tags: ["notorious", "notorious-scammer"],
+    sourceUrl: "https://www.sec.gov/newsroom/press-releases/2026-75-sec-charges-boiler-room-operator-three-entities-defrauding-retail-investors-74-million-pre-ipo",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Moynihan_US_courthouse_from_Madison_St_jeh.jpg?width=1200",
+    coverImageCredit: "Photo: Jim Henderson, Wikimedia Commons (CC BY-SA 3.0) — the Daniel Patrick Moynihan U.S. Courthouse in Manhattan, where the SEC's case against Andrew Spaventa was filed",
+    coverImagePosition: 50,
+    body: `Note: this is a civil SEC enforcement action. The complaint describes allegations only — Andrew Spaventa has not been criminally charged, and neither he nor his companies has been found liable by a court as of this writing.
+
+Andrew Spaventa, a New York resident, ran The Spaventa Group LLC together with two affiliated firms, TSG Capital Advisors LLC and TSG Alpha Partners LLC, selling retail investors on something that sounded like an exclusive opportunity: a chance to buy shares of hot private companies before they went public. According to a civil complaint the SEC filed August 14, 2026 in the U.S. District Court for the Southern District of New York, that pitch generated more than $74 million from over 800 mostly retail investors across eleven private funds between December 2020 and June 2025.
+
+The SEC alleges the funds were sold the way a boiler room sells anything: through more than 100 outside "sales agents" making unsolicited cold calls, using high-pressure tactics to reach thousands of prospective investors, many of them retirees. Spaventa and his firms are accused of telling those investors they'd pay no upfront fee at all, or at most 12.5%, on their pre-IPO purchases. In reality, the complaint says, Spaventa bought the underlying shares first — either directly or through another fund — then resold them to his own funds at a markup, pocketing the difference as an undisclosed fee. Investors ended up paying prices the SEC calculates were, on average, roughly 46% higher than what Spaventa himself had paid for the same shares just before flipping them.
+
+The complaint puts the total upfront fees collected at approximately $23 million, of which more than $12 million allegedly went to the cold-calling sales agents as commissions and roughly $4 million went to Spaventa personally. "Unsolicited calls and high-pressure sales tactics are the calling cards of so-called boiler room operators," said Sheldon L. Pollock, Associate Director of the SEC's New York Regional Office, in announcing the case. "They get you on the phone and then hit you with the hidden fees." The SEC's complaint charges Spaventa and the three entities with violating the antifraud, securities-registration, and broker-dealer-registration provisions of the federal securities laws, and seeks injunctions, disgorgement, and civil penalties.
+
+Pre-IPO investing has become a magnet for this exact structure because so much of its appeal rests on access rather than on numbers an investor can independently check: an investor being pitched a "pre-IPO" stake in a private company usually has no public price to compare it against, no way to see what the seller actually paid, and no ticker to watch after the purchase. That opacity is precisely what let the alleged 46% markup travel from Spaventa's purchase price to the retiree's invoice without ever being disclosed as a markup at all — it was framed as a modest flat fee instead. Anyone offered a "pre-IPO" allocation through a cold call, particularly one with a hard sales push behind it, has no way to verify the real cost basis without asking, in writing, exactly what the seller paid and when.`,
+  },
+);

@@ -3672,3 +3672,23 @@ The criminal complaint charges Spagnuolo with commodities fraud, wire fraud, and
 Whatever the outcome, the Spagnuolo case sits at a genuinely unsettled edge of securities and commodities law: prediction markets like Polymarket have exploded in popularity for wagering on everything from elections to corporate announcements, and whether trading on advance knowledge of a company's own internal, not-yet-public data counts as the kind of "insider trading" long policed in stock markets — or as something U.S. commodities and wire-fraud law was never written to reach — is a question this prosecution may end up helping to answer one way or the other.`,
   },
 );
+
+NotoriousNS.push(
+  {
+    title: "Nicholas Palazzo, the Ex-Harvard Football Player Who Defrauded His Own Teammates",
+    slug: "nicholas-palazzo-harvard-football-sports-fraud",
+    author: "ScamShield Editorial",
+    tags: ["notorious", "notorious-scammer", "historical"],
+    sourceUrl: "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26117",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Harvard_Stadium_end_view.jpg?width=1200",
+    coverImageCredit: "Photo: ToddC4176, Wikimedia Commons (CC BY-SA 3.0) — Harvard Stadium, home of the football program Nicholas Palazzo played for before defrauding former teammates",
+    coverImagePosition: 50,
+    body: `Nicholas A. Palazzo played football at Harvard before going into business — and prosecutors say the connections he made on that team became his investor pipeline when the business turned out to be a fraud. The SEC's complaint, filed September 20, 2024 in the U.S. District Court for the Northern District of California, accused Palazzo of running two separate fraudulent fundraising schemes through three companies he controlled: 4TA Sports Inc., NP Ventures Holdings LLC, and Play Caller Sports Gaming LLC.
+
+In the first scheme, the SEC alleged, Palazzo used 4TA Sports to raise roughly $900,000 from three investors for what he described as the repurchase of a sports media company's assets — then misappropriated nearly all of it. In the second, he used NP Ventures Holdings and Play Caller Sports Gaming to solicit about $2.2 million from 22 investors to fund a sports-betting app, telling them their money would go toward building the product. Altogether, the SEC said, Palazzo raised roughly $3.1 million across the two schemes and diverted more than 75% of it — well over $2 million — to personal expenses that included private-school tuition for his children, rent on a multimillion-dollar home, and a family trip to Disneyland. Among the defrauded investors, the SEC noted, were at least two of Palazzo's former teammates on the Harvard Crimson football team, along with other former athletes he'd built relationships with through the sport.
+
+Palazzo and his three corporate entities did not contest the SEC's core allegations in court. On June 30, 2025, the U.S. District Court for the Northern District of California entered a final judgment against all four defendants, who consented to it without admitting or denying the complaint's allegations — a common resolution in SEC civil cases that nonetheless carries real, permanent consequences. The judgment permanently enjoins Palazzo and his companies from further securities-law violations, orders disgorgement of $2,648,132.73 plus prejudgment interest, and imposes a $150,000 civil penalty against Palazzo personally. Palazzo was also barred for five years from serving as an officer or director of a public company and from participating in the offer or sale of securities, aside from trading in his own personal accounts.
+
+Palazzo's case is a version of affinity fraud that doesn't always get labeled that way: he wasn't preying on a religious or ethnic community, but on a much smaller and more specific one — teammates who had spent years training and playing alongside him, and who extended him a level of trust that ordinary business associates typically have to earn. That kind of trust is exactly what made basic diligence, like asking for audited financials on a company selling equity in a not-yet-built betting app, feel unnecessary to the people closest to him. It wasn't.`,
+  },
+);
