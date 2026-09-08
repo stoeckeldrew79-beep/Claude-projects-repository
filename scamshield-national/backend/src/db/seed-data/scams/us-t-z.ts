@@ -2421,3 +2421,15 @@ UsTZ.push({
     country: 'US',
     state: 'VA',
 });
+
+UsTZ.push({
+    name: 'Tennessee Statewide Crypto ATM Ban After $15 Million in Kiosk Scam Losses',
+    slug: 'tennessee-crypto-atm-kiosk-statewide-ban-hb2505',
+    description: `Tennessee cryptocurrency ATM operators lost their entire business in the state on July 1, 2026, when House Bill 2505 — signed by Governor Bill Lee and codified April 23, 2026 after passing both the House and Senate unanimously — took effect, making it a Class A misdemeanor, punishable by up to a year in prison and a $2,500 fine, to install, host, or operate a "virtual currency kiosk" anywhere in Tennessee. Lawmakers acted after Tennesseans lost more than $15 million specifically at crypto ATM kiosks in 2025 alone, part of a broader $142 million in cryptocurrency scam losses statewide that year, nearly double 2024's total, according to FBI data; Cumberland County Sheriff Casey Cox described the machines as "essentially a direct pipeline" for scammers, explaining that fraud callers "use fear and urgency to convince these victims that they must immediately withdraw cash and deposit into these crypto ATM machines," after which "within seconds, that money is converted into Bitcoin and sent to the criminal digital wallet" — a transfer that, unlike a bank wire, cannot be clawed back once it clears. Tennessee became the second state in the country to ban the kiosks outright, following Indiana's ban earlier the same year, as crypto ATM operators separately faced state lawsuits elsewhere over the same pattern, including Washington, DC's suit against operator Athena over findings that 93% of its district transactions were scam-related. The kiosks were most often the final step in a scam that began elsewhere — a caller posing as law enforcement, a government agency, or a romantic partner in urgent need of money — and with them now illegal in Tennessee, anyone told by phone or text to withdraw cash and feed it into any cash-to-crypto kiosk, in Tennessee or any other state, should treat the instruction itself as proof of a scam and hang up rather than comply.`,
+    categorySlug: 'cryptocurrency-scams',
+    alertLevel: 'high',
+    sources: ['Tennessee General Assembly', 'The Record from Recorded Future News', 'WKRN', 'NewsChannel 5'],
+    sourceUrl: 'https://therecord.media/tennessee-bans-cryptocurrency-atms-over-scams',
+    country: 'US',
+    state: 'TN',
+});

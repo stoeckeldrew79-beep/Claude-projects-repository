@@ -4294,3 +4294,15 @@ UsGM.push({
     country: 'US',
     state: 'LA',
 });
+
+UsGM.push({
+    name: 'Crystal City "Bondswoman" Fake Warrant Spoofing Scam (Ariel Burden)',
+    slug: 'missouri-jefferson-county-ariel-burden-crystal-city-warrant-spoofing-scam',
+    description: `On February 28, 2024, a Jefferson County, Missouri resident got a call from a number spoofed to display as the Crystal City Police Department, with the caller claiming to be a law enforcement officer and warning the victim that they had an outstanding warrant for missing a court appearance. Posing under the alias "Jennifer Davis," the caller told the victim they could avoid arrest only by immediately paying thousands of dollars in "bond" to a bondswoman, then had the victim deliver $12,000 in person at Crystal City's own City Hall and handed over a receipt bearing a fabricated citation number to make the transaction look official. Investigators with Homeland Security Investigations, the Jefferson County Sheriff's Office, and the McPherson, Kansas Police Department traced the scheme to Ariel Burden, 33, of Georgia, who admitted running the same law-enforcement-impersonation script against a total of three victims — the Missouri resident and two more in Kansas — for a combined $28,000 in losses. Burden pleaded guilty to wire fraud in the U.S. District Court for the Eastern District of Missouri on September 3, 2025, and on January 15, 2026, U.S. District Judge Henry E. Autrey sentenced her to 24 months in federal prison and ordered her to repay the full $28,000 in restitution. No genuine police department resolves a missed court date or an arrest warrant by phone, and none ever directs a person to personally deliver cash "bond" to an individual, at a police station or anywhere else, to avoid being taken into custody; anyone who gets such a call should hang up and verify the claim by calling their local courthouse or police department directly using a number looked up independently, not one given by the caller.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office, Eastern District of Missouri", 'Fox2Now', 'The Leader (Jefferson County)'],
+    sourceUrl: 'https://www.justice.gov/usao-edmo/pr/georgia-woman-sentenced-defrauding-missouri-kansas-victims-law-enforcement-spoofing',
+    country: 'US',
+    state: 'MO',
+});
