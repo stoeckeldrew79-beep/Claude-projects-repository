@@ -5,9 +5,20 @@ import { asyncHandler } from '../utils/asyncHandler';
 // Most stories any single outlet may contribute to the Today's Scams feed.
 const MAX_STORIES_PER_SOURCE = 2;
 
+// One page of the feed. The page used to take a flat 100 and stop, which is
+// not "today's scams ran out" but "the query said 100" - the table holds a
+// 30-day window and the reader could not reach past the first screenful.
+const PAGE_SIZE = 50;
+
+function pageOffset(raw: unknown): number {
+  const page = Number(typeof raw === 'string' ? raw : 1);
+  return Number.isFinite(page) && page > 1 ? Math.floor(page - 1) * PAGE_SIZE : 0;
+}
+
 export const list = asyncHandler<AuthedRequest>(async (req, res) => {
   const raw = typeof req.query.state === 'string' ? req.query.state.toUpperCase() : '';
   const state = /^[A-Z]{2}$/.test(raw) ? raw : null;
+  const offset = pageOffset(req.query.page);
 
   if (state) {
     // A state view is already narrow — a state has only its own AG plus a
@@ -15,14 +26,23 @@ export const list = asyncHandler<AuthedRequest>(async (req, res) => {
     // national feed varied would here just hide most of that state's alerts.
     // First-party AG alerts sort ahead of news coverage of the same story.
     const { rows } = await pool.query(
-      `SELECT id, headline, summary, source_name, source_url,
+      `WITH deduped AS (
+         SELECT *, ROW_NUMBER() OVER (
+                  PARTITION BY lower(headline)
+                  ORDER BY (source_kind = 'ag') DESC,
+                           COALESCE(published_at, scanned_at) DESC, id
+                ) AS dupe_rank
+         FROM daily_scam_news
+         WHERE state = $1
+       )
+       SELECT id, headline, summary, source_name, source_url,
               published_at, search_term, scanned_at, state, source_kind
-       FROM daily_scam_news
-       WHERE state = $1
+       FROM deduped
+       WHERE dupe_rank = 1
        ORDER BY (source_kind = 'ag') DESC,
-                COALESCE(published_at, scanned_at) DESC
-       LIMIT 100`,
-      [state]
+                COALESCE(published_at, scanned_at) DESC, id
+       LIMIT $2 OFFSET $3`,
+      [state, PAGE_SIZE, offset]
     );
     res.json({ data: rows });
     return;
@@ -34,21 +54,35 @@ export const list = asyncHandler<AuthedRequest>(async (req, res) => {
   // scan, which reads as a broken page rather than a live one. With 500+
   // distinct sources in the table, a cap of 2 still fills the full 100 rows.
   const { rows } = await pool.query(
-    `WITH ranked AS (
+    // Two passes. The first drops stories the scan could not see as
+     // duplicates: it dedupes on source_url, and the same story syndicated
+     // under two URLs is two rows with one headline - which is what a reader
+     // notices, the same headline twice in a row from the same outlet. The
+     // second is the existing per-outlet cap.
+     `WITH deduped AS (
+       SELECT *,
+              ROW_NUMBER() OVER (
+                PARTITION BY lower(headline)
+                ORDER BY COALESCE(published_at, scanned_at) DESC, id
+              ) AS dupe_rank
+       FROM daily_scam_news
+     ),
+     ranked AS (
        SELECT *,
               ROW_NUMBER() OVER (
                 PARTITION BY source_name
                 ORDER BY COALESCE(published_at, scanned_at) DESC
               ) AS source_rank
-       FROM daily_scam_news
+       FROM deduped
+       WHERE dupe_rank = 1
      )
      SELECT id, headline, summary, source_name, source_url,
             published_at, search_term, scanned_at, state, source_kind
      FROM ranked
      WHERE source_rank <= $1
-     ORDER BY COALESCE(published_at, scanned_at) DESC
-     LIMIT 100`,
-    [MAX_STORIES_PER_SOURCE]
+     ORDER BY COALESCE(published_at, scanned_at) DESC, id
+     LIMIT $2 OFFSET $3`,
+    [MAX_STORIES_PER_SOURCE, PAGE_SIZE, offset]
   );
   res.json({ data: rows });
 });
