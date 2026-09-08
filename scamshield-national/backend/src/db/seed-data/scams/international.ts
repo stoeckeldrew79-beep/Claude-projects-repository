@@ -10916,3 +10916,16 @@ International.push(
     country: 'GU',
   },
 );
+
+International.push(
+  {
+    name: 'Montserrat FSC Fake Regulator Website Impersonation',
+    slug: 'montserrat-fsc-fake-regulator-website-impersonation',
+    description: `The Financial Services Commission (FSC) of Montserrat issued a public warning in November 2025 after discovering that an unauthorized third party had built a fraudulent look-alike website, www.fscmontserrat.com, impersonating the Commission's genuine site at www.fscmontserrat.org — the statutory body that licenses and supervises banks, insurers, and other financial service providers on the island. The FSC said the fake domain was assembled from publicly available information to mislead the public, and that any forms, contact details, or information displayed on it should be treated as fraudulent rather than trusted as official guidance or a legitimate channel for submitting personal or financial details. The Commission stressed that there had been no breach of its own internal systems or data — the scheme was an external impersonation effort rather than a hack — and that it was working to have the fraudulent domain taken down while urging stakeholders to always double-check they are on www.fscmontserrat.org before submitting any information. The FSC asked anyone who received emails or documents referencing the fake site, or from unfamiliar addresses claiming to be the Commission, to report them immediately to info@fsc.ms.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Financial Services Commission (FSC) Montserrat', 'ZJB Radio'],
+    sourceUrl: 'https://zjbradio.com/financial-services-commission-warns-fsc-montserrat-warns-about-fraudulent-website/',
+    country: 'MS',
+  },
+);
