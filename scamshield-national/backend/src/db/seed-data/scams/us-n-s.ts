@@ -1940,18 +1940,6 @@ export const UsNS: SeedScam[] = [
     sourceUrl: 'https://ncdoj.gov/attorney-general-jackson-warns-north-carolinians-about-new-wave-of-dmv-text-scams/',
   },
 {
-    name: 'Ohio Fake Court Document Toll and Parking Fine QR Code Text Scam',
-    slug: 'ohio-toll-parking-fine-qr-code-text-scam',
-    description:
-      'Ohioans are receiving text messages claiming they owe unpaid parking or toll fines and must pay immediately or appear in court. The message includes an image styled to look like an official court document along with a QR code; scanning it leads to a payment page on a domain traced to entities overseas rather than any Ohio court or toll authority, and can expose the phone to malware in addition to harvesting payment details. Ohio Attorney General Dave Yost and the state Bureau of Motor Vehicles warn that the messages rely on manufactured fear and urgency, and urge recipients to independently verify any claimed fine by contacting the relevant court or toll authority directly through its official phone number or website rather than scanning the code or using any link in the text.',
-    categorySlug: 'qr-code-scams',
-    country: 'US',
-    state: 'OH',
-    alertLevel: 'high',
-    sources: ["Ohio Attorney General's Office"],
-    sourceUrl: 'https://spectrumnews1.com/oh/columbus/news/2026/03/05/ohio-ag-text-scam-warning',
-  },
-{
     name: 'Fake "Jewish Holocaust Claims Center" Restitution Scam',
     slug: 'ny-jewish-holocaust-claims-center-restitution-scam',
     description:
