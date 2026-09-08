@@ -11167,3 +11167,36 @@ International.push(
     country: 'DM',
   },
 );
+
+International.push(
+  {
+    name: `Impersonation of Prominent Monegasque Figures for Emergency Wire Transfers`,
+    slug: 'monaco-prominent-figure-impersonation-wire-transfer-scam',
+    description: `On 19 June 2025, Monaco's Sûreté Publique warned of a wave of fraud in which criminals impersonate prominent Monegasque figures — including company directors and officials of local institutions — to pressure their real-life contacts into sending money. The fraudsters reach victims by email, text message, or WhatsApp video calls, and back up the impersonation with forged documents carrying counterfeit letterheads and signatures from genuine Monegasque organizations; in some cases they have also managed to display the impersonated person's real phone number on the victim's caller ID. The pretext is always the same: an urgent, confidential financial problem that can only be solved by wiring money immediately to a foreign bank account. Because the approach leans on an existing relationship of trust with a recognizable name rather than a stranger's cold call, victims are pushed to act before they have time to check the story. The Sûreté Publique's Judicial Police division advised the public to treat any unusual, urgent money request as suspicious regardless of who it appears to come from, to verify the request by contacting the person directly through a phone number or channel obtained independently rather than the one used to make contact, and to report attempts to its Criminal Investigation Department at +377 93 15 30 15 or csco@gouv.mc.`,
+    categorySlug: 'business-email-compromise',
+    alertLevel: 'high',
+    sources: ['Sûreté Publique de Monaco', 'Monaco Tribune'],
+    sourceUrl: 'https://www.monaco-tribune.com/en/2025/06/surete-publique-warns-of-wave-of-identity-theft-in-monaco/',
+    country: 'MC',
+  },
+  {
+    name: `Fake Family Accident Phone Scam Targeting Monaco Residents`,
+    slug: 'monaco-fake-family-accident-phone-scam',
+    description: `Over a 48-hour period in December 2023, the Monegasque authorities recorded roughly 1,500 malicious calls placed to more than 600 phone lines in Monaco, most originating from masked or foreign numbers designed to resist tracing. Callers posed as police officers or lawyers and told the person who answered that a family member had just been involved in a serious car accident, then pressed them to urgently gather a large sum of cash, jewelry, or other valuables, claiming it was needed to resolve the situation — in some versions of the scheme a courier is sent to collect the items in person. The campaign was reported to have concentrated on elderly residents, who are more often reachable by landline and more likely to react to an urgent claim about a relative's safety. The Government of Monaco urged anyone who receives such a call not to engage with the caller, to refuse any request for money or valuables, to hang up and block the number, and to contact Public Safety at 93.15.30.15 to report the attempt or check on a relative's actual whereabouts before sending anything.`,
+    categorySlug: 'family-emergency-scams',
+    alertLevel: 'high',
+    sources: ['Government of Monaco (gouv.mc)', `L'Observateur de Monaco`],
+    sourceUrl: 'https://www.gouv.mc/Action-Gouvernementale/La-Securite/Actualites/Alerte-autour-d-une-tentative-d-escroquerie-par-telephone',
+    country: 'MC',
+  },
+  {
+    name: `Phishing Emails Impersonating Monaco's Sûreté Publique with False Criminal Accusations`,
+    slug: 'monaco-phishing-fake-police-criminal-accusation-emails',
+    description: `In March 2023, Monaco's police force, the Direction de la Sûreté Publique, warned that a mass phishing campaign had been circulating for roughly 48 hours using emails made to look as though they were sent by the department itself. The messages falsely told recipients they were implicated in an ongoing criminal investigation and pressured them to open an attached PDF document or reply with personal information to "clear" the matter, playing on fear and urgency to get victims to hand over data or install malicious content before they had time to question the message's legitimacy. The Sûreté Publique pointed out that genuine correspondence from Monegasque government departments only ever comes from an address ending in "@gouv.mc," and that scammers rely on lookalike sender addresses with subtly altered characters to pass a quick glance. The police advised recipients not to reply to the sender or open any attachment, to forward the email to cyber@gouv.mc, and to mark it as spam and delete it.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: [`L'Observateur de Monaco`, 'Direction de la Sûreté Publique de Monaco'],
+    sourceUrl: 'https://lobservateurdemonaco.com/infos/emails-frauduleux-la-police-monegasque-lance-une-alerte/',
+    country: 'MC',
+  },
+);
