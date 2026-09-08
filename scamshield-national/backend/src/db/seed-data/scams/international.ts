@@ -11233,3 +11233,36 @@ International.push(
     country: 'GN',
   },
 );
+
+International.push(
+  {
+    name: 'Fake Interpol/Europol Extortion Email Scam',
+    slug: 'greenland-fake-interpol-europol-extortion-email-scam',
+    description: `Greenland's Police (Grønlands Politi) issued a public warning on November 20, 2025 after fielding a wave of inquiries from concerned residents who had received fraudulent emails impersonating Interpol, Europol, the Danish National Police, and even a fictitious "Police Commissioner." The messages falsely accuse the recipient of possessing or distributing child sexual abuse material and demand a payment to make the supposed case go away, a high-pressure extortion tactic designed to exploit fear and shame into a quick payout before the victim thinks to verify the claim. Police stressed that no genuine law-enforcement agency opens or resolves a criminal case by email demand for payment, and said they understood the messages "can cause fear and worry" but urged recipients to simply delete them rather than reply, pay, or click any link, and to share the warning with others who might receive the same email.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Sermitsiaq', 'Grønlands Politi'],
+    sourceUrl: 'https://www.sermitsiaq.ag/samfund/pas-pa-falske-mails-fra-politiet/2310132',
+    country: 'GL',
+  },
+  {
+    name: 'Bank and MitID Phishing Surge Tied to International Attention',
+    slug: 'greenland-bank-mitid-phishing-surge',
+    description: `Greenland's Police issued a public warning on February 17, 2025 that the surge in international attention on Greenland — following the political spotlight brought on by U.S. interest in the territory — was itself driving a rise in cyberattacks and fraud attempts against residents, businesses, and government bodies. The department described a pattern of scam emails, phone calls, and text messages arriving from foreign numbers with external links, in which callers and messages impersonate bank staff or government authorities to request personal information, or press the recipient to transfer money or approve a transaction through MitID, the shared Danish/Greenlandic digital ID used to log into banking and public services. Police stressed that legitimate banks and authorities never ask a customer to hand over card details or authorize a MitID login by phone, email, or text, and warned that a successful attack could cause "significant personal costs and substantial economic damages" for whoever falls for it. Residents were advised never to open links in unsolicited messages, even ones that appear to come from a trusted sender, and never to disclose banking or MitID credentials outside the bank's own official app or website.`,
+    categorySlug: 'phishing',
+    alertLevel: 'high',
+    sources: ['Sermitsiaq', 'Grønlands Politi'],
+    sourceUrl: 'https://www.sermitsiaq.ag/samfund/advarer-mod-storre-risiko-for-cyberangreb-og-svindel/2197154',
+    country: 'GL',
+  },
+  {
+    name: 'Fake Politician Endorsement Investment Scam on Facebook',
+    slug: 'greenland-fake-politician-endorsement-investment-scam',
+    description: `In February 2025, fraudulent Facebook ads began circulating in Greenland using the names, photos, and even the borrowed branding of the research organization Arctic Hub to lend false credibility to fabricated news stories about Greenlandic political figures, including Premier Múte B. Egede and parliamentarian Kuno Fencker — some versions falsely claimed the two had "been beaten up," others fabricated a lawsuit involving the Bank of Greenland. Clicking through led to a fake interview in which the politicians supposedly explained how investing a small sum of money could make the reader rich, a scheme the European Digital Media Observatory (EDMO) identified as financial fraud rather than political disinformation, structured to funnel readers to a scam investment website. Researcher Signe Ravn-Højgaard, who studies digital infrastructure in Greenland, said the ads appeared to specifically target Greenlandic Facebook users during a period of heightened global attention on the territory, following visits by figures including Donald Trump Jr. in January 2025, and noted the pattern closely mirrored earlier celebrity-endorsement investment scams that had already spread on Facebook in Denmark. Residents were urged not to click sponsored posts claiming a politician or public figure is personally offering an investment opportunity, and to verify any claimed scandal or endorsement directly through the official, verified accounts of the people or organizations named.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ['Arctic Hub', 'European Digital Media Observatory (EDMO)'],
+    sourceUrl: 'https://arctichub.gl/fake-news-spread-suddenly-on-facebook/',
+    country: 'GL',
+  },
+);
