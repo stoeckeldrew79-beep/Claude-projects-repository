@@ -4524,3 +4524,15 @@ UsGM.push({
     country: 'US',
     state: 'MI',
 });
+
+UsGM.push({
+    name: 'Iowa City Grandson and Daughter\'s $500,000 Elder Financial Exploitation (Keelan France and Nicole Linderholm)',
+    slug: 'iowa-iowa-city-france-linderholm-elder-financial-exploitation',
+    description: `The Iowa Insurance Division's Fraud Bureau announced on June 12, 2025 that it had built a criminal case against Keelan France, 26, and Nicole Linderholm, 49, both of Iowa City — respectively the grandson and daughter of an elderly relative with diminished mental capacity — after an investigation found the pair had used their positions of trust to gain access to the victim's bank and financial accounts and divert money for their own personal benefit. Investigators say the two defendants spent more than $500,000 of the victim's money on unauthorized purchases and personal expenses, with the elderly relative's remaining assets still at risk at the time charges were filed. Both France and Linderholm were charged with Financial Exploitation of an Older Individual, a Class B felony in Iowa punishable by up to 25 years in prison, and the case was referred to the Johnson County Attorney's Office for prosecution. The Fraud Bureau's investigation illustrates a pattern common to family-perpetrated elder exploitation: a trusted relative — often one already named on an account or holding informal control over a parent's or grandparent's finances — quietly diverts funds over an extended period specifically because no outside party is reviewing the statements. Iowa's Insurance Division urges families to arrange for a second, independent relative or a professional fiduciary to receive duplicate account statements for any aging relative who has diminished capacity, to watch for unexplained account transfers or a sudden reluctance by one family member to let others see the finances, and to report suspected exploitation to the Fraud Bureau at 1-877-955-1212 or the Iowa Department of Health and Human Services at 1-800-362-2178.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'high',
+    sources: ['Iowa Insurance Division', 'Johnson County Attorney\'s Office'],
+    sourceUrl: 'https://iid.iowa.gov/press-release/2025-06-12/grandson-and-daughter-iowa-city-charged-financial-exploitation-elderly-family-member',
+    country: 'US',
+    state: 'IA',
+});
