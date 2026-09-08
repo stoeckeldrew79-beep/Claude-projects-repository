@@ -10980,3 +10980,26 @@ International.push(
     country: 'GA',
   },
 );
+
+International.push(
+  {
+    name: 'Niger Fake Money-Multiplication Marabout Scam',
+    slug: 'niger-fake-money-multiplication-marabout-scam',
+    description: `On October 24, 2025, Niger's Direction de la Police Judiciaire (DPJ) arrested two men in Niamey who posed as marabouts with supernatural powers to "multiply" money for clients. The pair contacted victims by phone and demanded payment for "sacred perfumes" said to be needed to activate the ritual, then delivered elaborately wrapped packages containing calabashes, kola nuts, perfume, and counterfeit banknotes, instructing recipients not to open the package until receiving a signal, typically at night. A search of the operation turned up counterfeit currency in CFA francs, euros, and dollars alongside powders, paper cut to resemble banknotes, bottles of unidentified liquid, calabashes, and a wig used to simulate the presence of a spirit during the ritual. Investigators identified 12 victims and estimated total losses at more than 140 million CFA francs (roughly $240,000). The DPJ said the arrests were part of an ongoing crackdown on cybercrime and ritual-fraud networks operating in and around Niamey.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ['Direction de la Police Judiciaire (DPJ), Niger', 'ActuNiger'],
+    sourceUrl: 'https://www.actuniger.com/faits-divers/21455-cybercriminalite-au-niger-deux-faux-marabouts-et-un-ex-militaire-escrocs-demanteles-par-la-police-judiciaire.html',
+    country: 'NE',
+  },
+  {
+    name: 'Niger Fake Army Recruitment Scam',
+    slug: 'niger-fake-army-recruitment-scam',
+    description: `Niger's Direction de la Police Judiciaire (DPJ) and the National Gendarmerie's research brigade arrested a former member of the country's defense and security forces on October 14, 2025, after he posed as a senior officer of the Nigerien Armed Forces (FAN) and ran a fraudulent recruitment scheme aimed at young people. Targeting Nigeriens between the ages of 18 and 22, he promised rapid integration into the army in exchange for payments of between 32,000 and 52,000 CFA francs (roughly $55 to $90). To make the scheme look credible, he told victims to shave their heads, wear athletic clothing, and stand ready to be picked up at night for a supposed induction camp. Once payment was made, he cut off all contact and the promised recruitment never materialized. Announcing the arrest alongside the unrelated marabout money-multiplication case, the DPJ said both operations formed part of a wider crackdown on cybercrime and impersonation-based fraud schemes targeting Nigerien youth.`,
+    categorySlug: 'employment-scams',
+    alertLevel: 'high',
+    sources: ['Direction de la Police Judiciaire (DPJ), Niger', 'ActuNiger'],
+    sourceUrl: 'https://www.actuniger.com/faits-divers/21455-cybercriminalite-au-niger-deux-faux-marabouts-et-un-ex-militaire-escrocs-demanteles-par-la-police-judiciaire.html',
+    country: 'NE',
+  },
+);
