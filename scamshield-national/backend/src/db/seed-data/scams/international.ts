@@ -10957,3 +10957,26 @@ International.push(
     country: 'CV',
   },
 );
+
+International.push(
+  {
+    name: 'Gabon DGSS Telephone Fraud Network Posing as Special Services Officers',
+    slug: 'gabon-dgss-telephone-fraud-network-scam',
+    description: `On February 23, 2025, Gabon's General Directorate of Special Services (Direction Générale des Services Spéciaux, DGSS) dismantled a telephone and text-message fraud network operating out of Libreville, arresting roughly a dozen suspects of mostly Nigerian and Gabonese nationality on charges of large-scale fraud and identity theft. Investigators said the group ran mass calling and SMS campaigns promising quick financial windfalls, fictitious purchase vouchers, and bogus mobile-operator bonuses to thousands of targeted numbers, while some members separately posed as coltan brokers offering fake mineral-trading deals to prospective Western investors and others drained victims' Airtel Money mobile-wallet balances. One suspect, identified as Ulrich Ntoumtoum, admitted to impersonating a special-services officer, telling investigators he had called the Prime Minister's office posing as a lieutenant-colonel supposedly on a reconnaissance mission in Oyem to request that champagne be supplied to his unit. A Nigerian member of the network, identified as Darlington Igwe, described the group's method as pitching interested targets an array of fraudulent offers and letting them choose which one to fall for. The DGSS said the case reflected a broader rise in Gabon of telephone-based fraud that has grown alongside the spread of mobile-money services since 2012, and urged the public to hang up on unsolicited callers offering unexplained winnings, vouchers, or investment deals and never to act on instructions from anyone claiming official authority over the phone.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Direction Générale des Services Spéciaux (DGSS), Gabon', 'Gabonactu', 'Gabon Mail Infos'],
+    sourceUrl: 'https://gabonactu.com/blog/2025/02/24/un-reseau-descrocs-telephonique-demantele-par-la-dgss/',
+    country: 'GA',
+  },
+  {
+    name: 'Gabon CECA-GADIS Fake iPhone 17 "50th Anniversary" Giveaway Phishing Scam',
+    slug: 'gabon-cecagadis-fake-iphone-giveaway-scam',
+    description: `In April 2026, Gabonese retail group CECA-GADIS publicly warned customers about a viral WhatsApp and social-media campaign impersonating its CECADO supermarket brand, which falsely promised recipients a free iPhone 17 Pro Max through a supposed prize drawing marking the company's 50th anniversary. The fraudulent messages, styled in CECADO's own colors and branding to look authentic, directed recipients to a shortened link leading to an unofficial website designed to harvest personal and banking information, and encouraged recipients to forward the message on so it would keep spreading. CECA-GADIS said it had no connection to any such contest and was running no promotional giveaway of that kind, and it urged the public not to click the link, not to enter any personal or banking details on the site, and to report the posts as fraudulent directly on the platforms where they appeared. Gabonese outlets including Gabonreview and Gabonclic.info picked up the warning as the fake giveaway continued to circulate.`,
+    categorySlug: 'phishing',
+    alertLevel: 'medium',
+    sources: ['CECA-GADIS Group, Gabon', 'Gabonreview', 'Gabonclic.info'],
+    sourceUrl: 'https://www.gabonreview.com/iphone-17-50e-anniversaire-tirage-au-sort-larnaque-dans-vos-messageries-qui-usurpe-cecado/',
+    country: 'GA',
+  },
+);
