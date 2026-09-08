@@ -4252,3 +4252,27 @@ UsNS.push({
     country: 'US',
     state: 'NM',
 });
+
+UsNS.push({
+    name: 'Bristolville Trumbull County "Shaw Goddess" Crypto Pig-Butchering Scam',
+    slug: 'ohio-bristolville-trumbull-county-crypto-pig-butchering-scam',
+    description: `An elderly man in Bristolville, Ohio filed a complaint with the FBI's Internet Crime Complaint Center in November 2024 after he received an unsolicited text message from a stranger looking for someone named "Zach." Rather than end the conversation, the two kept talking, and it moved to Telegram, where the sender — using the username "Shaw Goddess" — presented herself as a successful investor and gradually built a friendship before steering the conversation toward cryptocurrency. She walked the victim through opening accounts on the Crypto.com and Strike.com exchanges and directed him to move his money into a slick-looking but entirely fake trading platform that showed his balance climbing steadily — the hallmark "pig butchering" pattern of fattening a victim's confidence before the slaughter. The man's sister was drawn into the same scheme and began investing alongside him; between them, the two Trumbull County siblings sent more than $1.6 million of their combined savings into the fraudulent platform. The fraud unraveled only when the sister tried to withdraw her funds and was told she first had to pay a 10% "upfront tax" — a classic red flag, since legitimate investment platforms never charge a fee to release a customer's own money. The U.S. Attorney's Office for the Northern District of Ohio and the FBI's Cleveland Division traced roughly $325,060 of the stolen funds to a cryptocurrency address and, on August 27, 2025, filed a civil forfeiture complaint against 325,060 Tether (USDT) tokens recovered from the scheme, aiming to return the money to the victims. Anyone contacted out of the blue by a "wrong number" text who is later encouraged to move money into an unfamiliar crypto exchange or trading app should treat the entire relationship — not just the investment pitch — as the fraud, and should stop communicating and report it to ic3.gov before sending anything.`,
+    categorySlug: 'cryptocurrency-scams',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office for the Northern District of Ohio", 'WKBN', 'WFMJ'],
+    sourceUrl: 'https://www.justice.gov/usao-ndoh/pr/cryptocurrency-fraud-scam-victimized-ohio-brother-and-sister-losing-more-1m',
+    country: 'US',
+    state: 'OH',
+});
+
+UsNS.push({
+    name: 'North Carolina Fake Rental Listing Impersonation Scam Alert',
+    slug: 'north-carolina-fake-rental-listing-impersonation-alert',
+    description: `North Carolina Attorney General Jeff Jackson and North Carolina Real Estate Commission Chair William Aceto issued a joint consumer alert in June 2026 warning renters that scammers were impersonating landlords and property owners with fake online listings. The scheme copies real photos and descriptions from an actual rental property, reposts them under a different contact, and prices the unit noticeably below comparable rentals in the area to generate quick interest. The impostor "landlord" then refuses to meet in person or show the property live, claiming to be out of town or otherwise unavailable, and communicates only by text, email, or a messaging app — often manufacturing urgency by claiming several other renters are also interested — to pressure a target into wiring a security deposit or first month's rent before ever touring the unit or verifying who actually owns it. "Scammers use fake listings and pressure tactics to push prospective renters to act quickly," Jackson said. "If you feel rushed or something seems too good to be true, listen to that instinct." The alert urges renters never to send money before touring a property in person (or via a live video call) and confirming the identity of the person offering it, and to be especially wary of a price that undercuts similar listings nearby, a "landlord" who is conveniently always unreachable by phone, or claims that multiple other renters are ready to take the unit if payment isn't sent immediately. North Carolinians who encounter a suspected fake listing can report it to the Consumer Protection Division at 1-877-5-NO-SCAM or file a complaint online at ncdoj.gov/complaint.`,
+    categorySlug: 'rental-housing',
+    alertLevel: 'medium',
+    sources: ['North Carolina Department of Justice (Attorney General Jeff Jackson)', 'WECT'],
+    sourceUrl: 'https://ncdoj.gov/consumer-alert-watch-out-for-rental-scams/',
+    country: 'US',
+    state: 'NC',
+});
