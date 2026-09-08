@@ -5988,3 +5988,15 @@ UsAF.push({
     country: 'US',
     state: 'IA',
 });
+
+UsAF.push({
+    name: 'APRM Solutions Unlicensed Allergy Immunotherapy Medicaid Fraud',
+    slug: 'connecticut-aprm-solutions-unlicensed-allergy-immunotherapy-medicaid-fraud',
+    description: `Four people connected to Advanced Pain and Regenerative Medical Solution Corporation (APRM Solutions), a Shelton, Connecticut medical business, were arrested on May 20, 2026 by the Medicaid Fraud Control Unit within the Office of the Chief State's Attorney: David Waltzer, 62, of East Haven; Eid J. Atallah, 61, of Middlebury; Terry L. Choszczyk, 65, of Seymour; and Kimberly Choszczyk (also known as Kimberly Castillo), 38, of Ansonia. Investigators say that between February 2024 and October 2025, APRM Solutions submitted 4,009 claims to Connecticut Medicaid for allergy immunotherapy services using licensed healthcare providers' identification numbers without those providers' authorization, and that the billed care was either never performed at all or was actually carried out by Kimberly Choszczyk — who holds no medical license — performing allergy testing, mixing allergy medicine, and administering injections herself. The scheme defrauded Connecticut's Medicaid program of $659,627.66. All four defendants were charged with first-degree larceny by defrauding a public community and health insurance fraud, both class B felonies carrying up to 20 years in prison, along with related conspiracy and license-violation counts, and each was released on $100,000 bond ahead of a court date in Derby Superior Court. The case is a reminder that a clinic's professional appearance and billing under a real provider's name are not proof that a licensed clinician actually delivered the care: Medicaid and Medicare beneficiaries who receive allergy testing, immunotherapy, or other specialty treatment should ask directly whether the person administering it is a licensed provider, and should review their benefits statements for visits, providers, or services they don't recognize and report discrepancies to Connecticut's Medicaid Fraud Control Unit.`,
+    categorySlug: 'healthcare-fraud',
+    alertLevel: 'medium',
+    sources: ['Connecticut Division of Criminal Justice (Medicaid Fraud Control Unit)', 'FOX61', 'Fairfield Daily Voice'],
+    sourceUrl: 'https://portal.ct.gov/dcj/press-releases/division-of-criminal-justice/05202026aprmsolutions',
+    country: 'US',
+    state: 'CT',
+});
