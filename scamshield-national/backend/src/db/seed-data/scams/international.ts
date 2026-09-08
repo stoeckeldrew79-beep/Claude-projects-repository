@@ -11036,3 +11036,36 @@ International.push(
     country: 'CU',
   },
 );
+
+International.push(
+  {
+    name: 'Afghanistan "Gold BS" Investment Pyramid Scheme',
+    slug: 'afghanistan-gold-bs-investment-pyramid-scheme',
+    description: `An online platform called "Gold BS" (also operating under the name "Thomas"), launched in October 2024, promised members unusually high, guaranteed daily returns from gold trading and digital-asset investments, and required a minimum buy-in of around $500. Early participants received real payouts, which encouraged them to invest larger sums and recruit friends and relatives through a referral system — the structure of a pyramid scheme. The platform then froze withdrawals, and operators reportedly demanded an additional payment equal to 20% of a victim's balance to "reactivate" the account. Reported individual losses ranged from roughly $500 to more than $20,000, with some victims mortgaging homes or selling gold to fund their investment. Da Afghanistan Bank, the country's central bank, confirmed Gold BS was never a licensed financial institution and warned that funds moved to networks operating abroad are often impossible to recover.`,
+    categorySlug: 'ponzi-pyramid-schemes',
+    alertLevel: 'high',
+    sources: ['Da Afghanistan Bank (Afghanistan\'s central bank)', 'Pajhwok Afghan News', 'TOLOnews', 'Khaama Press'],
+    sourceUrl: 'https://pajhwok.com/2026/06/18/from-mortgaging-homes-to-selling-gold-how-gold-bs-victims-lost-savings/',
+    country: 'AF',
+  },
+  {
+    name: 'Afghanistan Fake Overseas Recruitment Agency Fee Fraud',
+    slug: 'afghanistan-fake-overseas-recruitment-agency-fee-fraud',
+    description: `Amid high youth unemployment in Kabul, unlicensed employment agencies advertise career counseling and placement with foreign companies and international organizations, then collect upfront fees — reported by applicants as roughly 500 to 2,000 Afghanis — for "processing" or CV review. After payment, applicants describe receiving no job, no response, or a string of excuses, with one case involving a firm that took a fee and a CV for a purported Qatar placement and delivered nothing after six to seven months. Afghanistan's independent newspaper Hasht-e Subh (8am.media) reported the practice is spreading as economic hardship pushes more young Afghans toward agencies operating with no accountability or licensing oversight.`,
+    categorySlug: 'employment-scams',
+    alertLevel: 'medium',
+    sources: ['Hasht-e Subh (8am.media)'],
+    sourceUrl: 'https://8am.media/eng/surge-in-fake-recruitment-firms-in-kabul-youth-trapped-by-fraud-and-unemployment/',
+    country: 'AF',
+  },
+  {
+    name: 'Afghanistan Fake Prize SMS Scam',
+    slug: 'afghanistan-fake-prize-sms-scam',
+    description: `Scammers in Afghanistan mass-send text messages telling recipients they have won cash, an iPhone, or another prize, hoping that even a small fraction of recipients respond. Victims who reply are led through steps designed to extract money or personal and financial information before any "prize" can supposedly be released, and no prize is ever delivered. Afghanistan's independent newspaper Hasht-e Subh (8am.media) reported that residents of Kabul have described the messages as widespread and increasingly convincing, and noted that the country's current lack of a functioning consumer-protection and law-enforcement system for this kind of fraud has let the schemes operate largely unchecked.`,
+    categorySlug: 'lottery-sweepstakes-scams',
+    alertLevel: 'medium',
+    sources: ['Hasht-e Subh (8am.media)'],
+    sourceUrl: 'https://8am.media/eng/fraud-in-the-name-of-aid-deceptive-messages-that-deepen-poverty/',
+    country: 'AF',
+  },
+);
