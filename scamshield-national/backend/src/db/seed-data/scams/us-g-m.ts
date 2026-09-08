@@ -4498,3 +4498,15 @@ UsGM.push({
     country: 'US',
     state: 'KY',
 });
+
+UsGM.push({
+    name: 'Kingsley Contractor Travis Reimer\'s Tri-County Building Fund Fraud',
+    slug: 'michigan-kingsley-reimer-contractor-fraud',
+    description: `The Michigan State Police Traverse City Post opened an investigation on October 23, 2024 into Travis Reimer, a 55-year-old contractor from Kingsley, Michigan, after homeowners across Antrim, Benzie, Grand Traverse, and Leelanau counties reported paying him for home additions and other construction projects between 2017 and 2024 that were left unfinished or never properly paid out to the subcontractors who did the work. Detectives allege that while some of the contracted work was actually completed by subcontractors, Reimer diverted the building-contract funds homeowners paid him for personal use rather than passing the money along, leaving contractors unpaid and projects stalled. The Benzie County Prosecutor's Office authorized the first warrant, and Reimer was arrested and lodged in the Benzie County Jail on January 28, 2026, arraigned the next day on two counts of Contractor Fraud – Fraudulent Use of Building Contract Funds. As detectives continued working through the case, the Grand Traverse County Prosecuting Attorney's Office added four more counts on April 7, 2026 and the Leelanau County Prosecuting Attorney's Office added a seventh count on April 14, 2026, bringing the total to charges in three separate counties. The running tally of losses climbed as more victims came forward: homeowners had paid Reimer more than $400,000 directly, and investigators say the total financial impact across the tri-county region — including unpaid subcontractors and unfinished work — has grown to nearly $1 million. Michigan's contractor-fraud statute exists precisely because a homeowner who pays a licensed-sounding contractor up front has no way to verify the money is actually being used to pay suppliers and subcontractors rather than being diverted; anyone hiring a contractor for a large home project is safer paying in installments tied to verified, completed work rather than a large sum up front, and can check a builder's license and any prior complaints through the Michigan Department of Licensing and Regulatory Affairs before signing a contract. The Michigan State Police asked anyone who believes they were victimized by Reimer to contact the MSP Traverse City Post, and the charges remain allegations that Reimer is presumed innocent of unless proven guilty in court.`,
+    categorySlug: 'home-improvement-solar',
+    alertLevel: 'medium',
+    sources: ['Michigan State Police Seventh District', 'Traverse City Record-Eagle', '9 & 10 News (WWTV/WWUP)'],
+    sourceUrl: 'https://www.9and10news.com/2026/04/22/kingsley-man-facing-charges-in-northern-michigan-after-contracting-fraud-impact-grows-to-nearly-1-million-in-losses/',
+    country: 'US',
+    state: 'MI',
+});
