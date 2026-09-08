@@ -4108,3 +4108,27 @@ UsNS.push({
     country: 'US',
     state: 'NH',
 });
+
+UsNS.push({
+    name: 'Western New York $11 Million Elder Fraud Ring',
+    slug: 'new-york-western-district-11-million-elder-fraud-ring',
+    description: `The U.S. Attorney's Office for the Western District of New York charged eight defendants in September 2025 with running a multi-pronged scheme that defrauded or attempted to defraud 139 elderly victims nationwide of more than $11 million, using several different fraud "flavors" run out of the same network. Dhruv Patel, 34, of Franklin Park, New Jersey, was charged with defrauding at least 12 victims of more than $9.1 million and attempting to obtain $567,000 in gold bars from a victim through a fake tech-support/customer-service call; Stephen Odiboh, 53, of Stone Mountain, Georgia, ran a romance scam that took $175,000 from one victim, of which he personally received $70,000; Renee Thompson, 52, of North Lauderdale, Florida, created 17 counterfeit checks totaling $193,167; and additional defendants — Christopher Hernandez of North Bergen, New Jersey, Touhedul Tuhin and Iftekhar Latif Nieon of Kent, Ohio, Elias Circle of Rossford, Ohio, and Estermarie Jones of Rochester, New York — were charged with identity theft, computer fraud, and bank fraud tied to the same network. U.S. Attorney Michael DiGiacomo said the defendants preyed on victims across the Western District's 17 counties and around the country through romance scams, fake tech-support and customer-service calls, gold-bar and cash pickups, counterfeit checks, and stolen-identity account takeovers, with some defendants facing up to 15 to 30 years in prison if convicted. The case is a reminder that this kind of elder-targeted fraud increasingly comes from an organized, multi-role network rather than a single scammer — a "customer service" caller, a romantic interest, and a check in the mail can all be threads of the same operation — and that a request to hand cash or gold to a courier, or to deposit and forward a check, should be verified independently before acting.`,
+    categorySlug: 'romance-scams',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office, Western District of New York", 'IRS Criminal Investigation', 'Spectrum News 1'],
+    sourceUrl: 'https://www.irs.gov/compliance/criminal-investigation/save-our-seniors-efforts-results-in-eight-arrests',
+    country: 'US',
+    state: 'NY',
+});
+
+UsNS.push({
+    name: 'Operation Border War: $21 Million SC Medicaid Behavioral-Health Fraud',
+    slug: 'south-carolina-operation-border-war-medicaid-behavioral-health-fraud',
+    description: `South Carolina Attorney General Alan Wilson announced federal charges against Donald Saunders of Charlotte, North Carolina, and seven co-conspirators as part of "Operation Border War," a multi-jurisdictional investigation accusing the group of stealing more than $21 million from South Carolina's Medicaid program by billing for behavioral health services that were inflated, never rendered, or provided to children who did not exist. Prosecutors say that from 2017 to 2024, the defendants used a network of companies based in the Charlotte area to submit thousands of fraudulent reimbursement claims to the SC Medicaid program for services purportedly delivered to severely disabled children, with the scheme also tainted by illegal kickbacks and bribes paid among the conspirators. The charges were filed in the Western District of North Carolina, with Wilson's Medicaid Fraud Control Unit working alongside federal partners, reflecting how cross-border operators run companies out of one state to bill another state's Medicaid program — making the fraud harder for any single state to catch on its own. The case is a reminder that Medicaid billing fraud targeting disabled children's behavioral health services is typically invisible to families unless they actively review the Explanation of Benefits or claims history tied to a child's Medicaid ID, and South Carolina's Medicaid Fraud Control Unit encourages parents and caregivers to report any billed service they don't recognize.`,
+    categorySlug: 'healthcare-fraud',
+    alertLevel: 'high',
+    sources: ["South Carolina Attorney General's Office (Alan Wilson)", 'South Carolina Public Radio', 'The Post and Courier'],
+    sourceUrl: 'https://www.scag.gov/about-the-office/news/icymi-attorney-general-alan-wilson-announces-indictments-in-21-million-health-care-fraud-schemes/',
+    country: 'US',
+    state: 'SC',
+});

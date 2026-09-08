@@ -4258,3 +4258,15 @@ UsGM.push({
     country: 'US',
     state: 'HI',
 });
+
+UsGM.push({
+    name: 'Stoughton Durable Medical Equipment Kickback Scheme (Bhamin Chhatrapati)',
+    slug: 'massachusetts-stoughton-chhatrapati-dme-medicare-kickback-fraud',
+    description: `Bhamin Chhatrapati, 40, of Stoughton, Massachusetts, was charged with conspiracy to commit health care fraud as part of the Department of Justice's 2026 National Health Care Fraud Takedown, accused of running a durable medical equipment (DME) billing scheme that fraudulently billed Medicare more than $5.1 million, of which over $2.6 million was actually paid out. Prosecutors allege that from around February 2023 through September 2024, Chhatrapati and co-conspirators worked with telemarketers and call centers to collect Medicare beneficiaries' personal and insurance information through unsolicited calls, then used that information to fabricate medical documentation making it appear that a doctor had legitimately prescribed medically unnecessary back, knee, and wrist braces. The fabricated orders were submitted to Medicare for reimbursement, and Chhatrapati allegedly paid the telemarketers a fee for every brace order Medicare approved and paid — a kickback structure that made the volume of unnecessary equipment, not patient need, the thing being maximized. The case was announced by the U.S. Attorney's Office for the District of Massachusetts as part of a coordinated nationwide takedown charging hundreds of defendants across the country. Medicare beneficiaries who receive an unsolicited call offering a "free" back or knee brace, or who are unsure whether equipment was ever actually ordered by their own doctor, are advised to check their Medicare Summary Notice or MyMedicare.gov account for DME claims they don't recognize and to report suspected fraud to the HHS Office of Inspector General.`,
+    categorySlug: 'healthcare-fraud',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office, District of Massachusetts", 'U.S. Department of Health and Human Services Office of Inspector General'],
+    sourceUrl: 'https://www.justice.gov/usao-ma/pr/massachusetts-man-charged-5-million-medicare-fraud-scheme-part-national-health-care',
+    country: 'US',
+    state: 'MA',
+});
