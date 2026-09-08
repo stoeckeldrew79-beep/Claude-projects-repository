@@ -156,7 +156,22 @@ a closed terminal window can't leave it down.
 Both scripts are safe to run repeatedly. The keep-alive starts only what is
 not already listening, so it never gives you two copies of a server.
 
-**If the site ever stops updating**, the usual cause is that a task is still
+**If the site ever stops updating**, check the task's last result first:
+
+```
+schtasks /query /tn "ScamShield National Auto-Update" /fo LIST /v | findstr /C:"Last Result"
+```
+
+`0` is success. `-2147020576` (`0x800710E0`, "the operator or administrator has
+refused the request") means Windows fired the task and then refused to run it —
+almost always because `schtasks` registers tasks with "don't start on battery
+power" switched on by default, which is silently fatal on a laptop. Re-running
+`setup-auto-updates.bat` clears it: the script now applies
+`AllowStartIfOnBatteries`, `DontStopIfGoingOnBatteries` and `StartWhenAvailable`
+(so runs missed while asleep are caught up rather than dropped) after
+registering each task.
+
+The other usual cause is that a task is still
 registered against a *different copy* of the repository — a scheduled task
 keeps pointing wherever it was first created, so editing the scripts here
 doesn't move it. Re-running `setup-auto-updates.bat` from the correct folder
