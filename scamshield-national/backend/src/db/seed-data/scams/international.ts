@@ -11332,3 +11332,36 @@ International.push(
     country: 'LY',
   },
 );
+
+International.push(
+  {
+    name: 'Bankak Banking App Phishing and Fake-Offer Texts',
+    slug: 'sudan-bankak-phishing-fake-offer-texts',
+    description: `Bank of Khartoum, operator of Sudan's widely used "Bankak" mobile banking app, published a public fraud-prevention alert on April 12, 2025 warning customers about phishing attempts arriving by SMS, email, and social media. The bank said fraudsters send unknown or suspicious links alongside fake messages or exaggerated offers designed to trick recipients into clicking through, with the ultimate goal of harvesting passwords, card numbers, or one-time passcodes (OTPs) sent to a customer's phone. Bank of Khartoum stressed that its representatives will never request banking credentials through unofficial channels, telling customers to "never share your banking credentials (such as passwords, card numbers, or OTPs) with anyone through untrusted platforms," to avoid clicking any unknown or suspicious link received by SMS, email, or social media, and to verify any offer or account notice only through the bank's own official app and customer-service channels before acting on it.`,
+    categorySlug: 'phishing',
+    alertLevel: 'medium',
+    sources: ['Bank of Khartoum'],
+    sourceUrl: 'https://bankofkhartoum.com/sudan/news-detail/stay-protected-from-banking-fraud',
+    country: 'SD',
+  },
+  {
+    name: 'SIM-Swap Account Takeover Targeting Bank Customers',
+    slug: 'sudan-sim-swap-account-takeover',
+    description: `Bank of Khartoum issued a statement in August 2026, reported by Sudan Horizon News, responding to a cluster of customer account fraud incidents and clarifying that its "Bankak" app and core banking systems had not been technically breached. The bank said the incidents instead traced to fraudsters who obtained individual customers' personal data and contact information through channels entirely outside the bank's own systems, then used those details to get a replacement SIM card or take over a customer's phone number and, through it, their linked bank account — a technique commonly known as a SIM-swap or account-takeover attack. Bank of Khartoum urged customers to exercise extreme caution to protect their accounts, never to authorize an untrusted person or entity to obtain a replacement SIM card or alternative communication method on their behalf, to avoid sharing personal data with unverified parties, to keep their mobile phones fully secured, and to contact the bank immediately if they notice any suspicious account activity or unauthorized transfer notification.`,
+    categorySlug: 'account-takeover',
+    alertLevel: 'high',
+    sources: ['Sudan Horizon News', 'Bank of Khartoum'],
+    sourceUrl: 'https://sudanhorizon.com/bank-of-khartoum-banks-technical-infrastructure-and-bankak-app-operate-according-to-the-highest-international-security-standards/',
+    country: 'SD',
+  },
+  {
+    name: 'Online Dating and Fake Marriage-Visa Romance Scam',
+    slug: 'sudan-online-dating-fake-marriage-visa-scam',
+    description: `Dabanga Radio TV reported on a case in which an American woman, Danielle Renée, said she was defrauded of roughly $10,000 by a man from Kassala, Sudan she met on Instagram in 2017 and maintained a long-distance relationship with for five years. After he proposed and she traveled to Khartoum to marry him in July 2022, she paid $1,000 toward his visa application and then sent him about $500 a month during the marriage; when she declined an additional $300 request in June 2023 because of her own financial constraints, he cut off all contact, and she later said on social media that he appeared to be pursuing another foreign partner through a marriage website. Dabanga's report cited data from the dating platform Tinder showing dating-related fraud reports tied to Sudan rose 75 percent in 2023 compared with the year before, and noted that outreach from Sudanese profiles to foreign partners on dating platforms has increased since the war began in April 2023, as some users seek a path to leave the country. Consumer advocates recommend treating a request to pay for someone else's visa, travel, or "processing" costs as a warning sign in any online relationship, verifying a partner's identity and story independently before sending money, and being especially cautious of a relationship that escalates quickly toward marriage or in-person travel combined with recurring requests for cash.`,
+    categorySlug: 'romance-scams',
+    alertLevel: 'medium',
+    sources: ['Dabanga Radio TV Online', 'Tinder'],
+    sourceUrl: 'https://www.dabangasudan.org/en/all-news/article/us-woman-scammed-by-sudan-swindler',
+    country: 'SD',
+  },
+);
