@@ -11155,3 +11155,36 @@ International.push(
     country: 'GG',
   },
 );
+
+International.push(
+  {
+    name: `Dominica "One-Ring" (Wangiri) Callback Scam`,
+    slug: 'dominica-one-ring-wangiri-callback-scam',
+    description: `A call placed from a number carrying Dominica's own international area code, 767, rings once or twice and disconnects before it can be answered, leaving nothing but a missed-call notification behind. Curious recipients — most of them outside Dominica, in the United States, Canada, and the United Kingdom — who call the unfamiliar number back are connected to a premium-rate international line that keeps billing steep per-minute charges for as long as the call continues, with a share of that revenue flowing to whoever placed the original call under revenue-sharing arrangements with the receiving carrier. The tactic, widely known as the "one-ring" or "wangiri" scam, deliberately exploits the fact that a Dominica number can look like an ordinary domestic call rather than an international one. The FCC and FTC advise never returning a call to an unrecognized number that only rang once, and to contact the phone carrier directly to dispute any resulting charges rather than calling the number back to "sort it out."`,
+    categorySlug: 'phishing',
+    alertLevel: 'medium',
+    sources: ['Federal Communications Commission (FCC)', 'Federal Trade Commission (FTC)'],
+    sourceUrl: 'https://www.fcc.gov/consumers/guides/one-ring-phone-scam',
+    country: 'DM',
+  },
+  {
+    name: 'Fake US Cheque Advance-Fee Scam Targeting Dominica',
+    slug: 'dominica-fake-us-cheque-advance-fee-scam',
+    description: `Dominica's Criminal Investigations Department identified a scheme in which counterfeit checks drawn on US banks were mailed to residents along with instructions to deposit or cash them at a local bank. Recipients were told they could keep a percentage of the funds as a fee and were instructed to wire the remaining balance to individuals abroad, including addresses in Turkey, using Western Union before the check had actually cleared. Several Dominicans who attempted to cash the checks found the accounts they were drawn on to be fraudulent, and police warned the public to disregard any unsolicited check that comes with instructions to wire back a portion of the proceeds, since doing so risks the sender being treated as a participant in the fraud rather than a victim of it once the check bounces.`,
+    categorySlug: 'fake-check-overpayment',
+    alertLevel: 'medium',
+    sources: ['Dominica News Online', 'Commonwealth of Dominica Police Force'],
+    sourceUrl: 'https://dominicanewsonline.com/news/homepage/news/crime-court-law/dominicans-fall-prey-to-internet-scam/',
+    country: 'DM',
+  },
+  {
+    name: 'National Bank of Dominica Phishing & Money Mule Alerts',
+    slug: 'dominica-national-bank-phishing-money-mule-alert',
+    description: `National Bank of Dominica Ltd. issued a public statement warning that a phishing campaign was targeting its online and mobile banking customers, part of a wider wave of similar phishing attempts reported against banks elsewhere in the Caribbean. The bank said the messages try to lure customers into clicking a link and entering their login credentials or card details on a fake page made to look like the bank's real site, and it urged customers never to click links in unsolicited emails or texts claiming to be from the bank, and to report anything suspicious to its customer support line. The bank separately warned about money mule recruitment, in which scammers advertise easy-money job opportunities that actually involve moving stolen funds through a recruit's own bank account, exposing the account holder — not just the original victim — to potential criminal liability. National Bank of Dominica stressed that it does not ask customers for passwords, PINs, or full card numbers by email, text, or phone.`,
+    categorySlug: 'phishing',
+    alertLevel: 'medium',
+    sources: ['National Bank of Dominica Ltd.'],
+    sourceUrl: 'https://nbdominica.com/statement-on-spam-emails/',
+    country: 'DM',
+  },
+);
