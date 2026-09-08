@@ -5502,3 +5502,23 @@ On July 10, 2026, Topolewski was sentenced to 78 months — six and a half years
 Topolewski's decade-long run illustrates how equipment-finance fraud can hide in plain sight: a loan secured against physical collateral, verified by an "independent" seller who is really the same person asking for the money, defeats a lender's ordinary due diligence unless someone checks whether the seller and the borrower are genuinely unrelated. Lenders — and any business extending credit against equipment or inventory it has not itself inspected — have since treated the case as a cautionary example of why confirming a seller's independence, not just a buyer's creditworthiness, has to be part of underwriting a secured loan.`,
   },
 );
+
+NotoriousGM.push(
+  {
+    title: "Lori Ann Kimball: The Romance-Scam Victim Who Became Its Money Launderer",
+    slug: "lori-kimball-castle-rock-romance-scam-money-laundering",
+    author: "ScamShield Editorial",
+    tags: ["notorious", "notorious-scammer"],
+    sourceUrl: "https://www.justice.gov/usao-co/pr/castle-rock-woman-sentenced-defrauding-victims-romance-scams",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Castle_Rock,_CO,_Town_Hall_IMG_5204.JPG?width=1200",
+    coverImageCredit: "Photo: Billy Hathorn, Wikimedia Commons (CC BY-SA 3.0) — Castle Rock, Colorado, where Lori Ann Kimball lived while laundering romance-scam proceeds to Nigeria",
+    coverImagePosition: 50,
+    body: `Lori Ann Kimball's case began the way thousands of "pig butchering" cases begin: as a victim. Conspirators using fake identities on social media and dating apps built a relationship of trust with her, then steered her toward sending money — the same playbook used against countless other Americans who lose their savings to a romantic interest who turns out to exist only online. What makes Kimball's case unusual, and what federal prosecutors in the District of Colorado ultimately charged her over, is what happened after: rather than stopping once she recognized the scheme for what it was, prosecutors say the Castle Rock woman began laundering money on the conspiracy's behalf, moving other victims' stolen funds through her own accounts to Nigeria.
+
+From January 2023 through February 2025, according to the U.S. Attorney's Office, Kimball received wire transfers and checks that were the proceeds of romance-scam fraud committed against other victims and converted more than $3.4 million of it into cryptocurrency held in accounts under her own name, before moving those digital assets on to wallets held primarily by individuals in Nigeria. To keep the pipeline running, prosecutors say she provided false information to banks and cryptocurrency exchanges to conceal what the money actually was, and at various points controlled at least 20 separate bank accounts and seven cryptocurrency accounts to move it through. Notably, according to the U.S. Attorney's Office, local law enforcement had already warned Kimball to stop — and she continued the illegal transactions anyway.
+
+Kimball pleaded guilty to one count of conspiracy to commit money laundering. On March 24, 2026, U.S. District Judge Charlotte N. Sweeney sentenced her to one year and one day in federal prison and ordered her to pay $3,112,990.13 in restitution. "Romance scams leave deep emotional and financial scars," said U.S. Attorney Peter McNeilly in announcing the sentence, urging Coloradans to be cautious about sending money to people they have only met online. IRS Criminal Investigation Special Agent Amanda Prestegard, whose agency led the investigation, said money launderers who move romance-scam proceeds "cause significant harm to victims and enable criminal networks" to keep operating.
+
+Kimball's case is a reminder that the "money mule" layer of a romance-scam network is not always a stranger recruited off a job-posting site — it can be a fraud's own earlier victim, drawn deeper into the operation by the same manipulators who first took her money, whether through continued emotional pressure, a promise of repayment, or simply having nowhere else to turn once she was already entangled. That does not make the laundering any less a federal crime, as her sentence shows; it does mean that a person who is warned by law enforcement that money passing through their accounts is stolen has an unambiguous obligation to stop immediately, not to keep moving it in hopes of recovering what they themselves lost.`,
+  },
+);
