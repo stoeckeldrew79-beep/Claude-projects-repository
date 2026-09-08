@@ -3976,3 +3976,27 @@ UsNS.push({
     country: 'US',
     state: 'OH',
 });
+
+UsNS.push({
+    name: 'Flawless Results LLC Home Remodeling Fraud Lawsuit',
+    slug: 'new-mexico-flawless-results-home-remodeling-fraud-lawsuit',
+    description: `New Mexico Attorney General Raúl Torrez filed a lawsuit on March 11, 2025 in the Second Judicial District Court against Albuquerque-based home improvement company Flawless Results LLC and its principals — John Steven Georges Sr., Robert Dean "Bobby" Murphy Jr., and Jacob Chalmer Tryon — accusing them of defrauding hundreds of New Mexico consumers out of more than $700,000. According to the complaint, the company took large down payments for windows, doors, and other remodeling work, then left customers with unfinished or defective jobs while pressuring many of them into financing agreements arranged through New Jersey-based Cross River Bank that allegedly lacked required consumer-protection disclosures — leaving homeowners on the hook for loan payments on work that was never completed. Flawless Results shut down operations in late 2024 without issuing refunds. "Flawless Results took money from hardworking New Mexico families with promises of service that were never fulfilled," Torrez said. "This lawsuit is about more than just accountability — it's about ensuring that deceptive business practices are addressed and that every consumer who was misled receives the justice they deserve." The suit asks a judge to permanently bar the defendants from operating a contracting business in New Mexico, void the contracts and loan agreements signed by affected consumers, and impose civil penalties for each violation. Homeowners hiring a remodeling contractor are advised to check a company's licensing and complaint history with the New Mexico Regulation and Licensing Department before signing anything, and to be especially wary of financing arranged directly by the contractor rather than through the homeowner's own bank.`,
+    categorySlug: 'home-improvement-solar',
+    alertLevel: 'high',
+    sources: ['New Mexico Department of Justice — Office of the Attorney General', 'Albuquerque Journal', 'KVIA'],
+    sourceUrl: 'https://nmdoj.gov/press-release/new-mexico-attorney-general-raul-torrez-files-lawsuit-against-flawless-results-llc-for-deceptive-business-practices/',
+    country: 'US',
+    state: 'NM',
+});
+
+UsNS.push({
+    name: 'Rockingham County Sheriff Impersonation Warrant Scam',
+    slug: 'new-hampshire-rockingham-county-sheriff-impersonation-scam',
+    description: `New Hampshire Attorney General John M. Formella issued a Consumer Alert on December 3, 2024 warning of a rise in scam calls impersonating the Rockingham County Sheriff's Office (RCSO). Callers tell the victim they missed a court appearance and that a judge — falsely invoking the name of a real New Hampshire judge to sound credible — has issued a warrant for their arrest, then demand immediate payment to avoid being taken into custody. To make the threat feel more convincing, the scammers follow up with fake supporting documents, including a doctored image of a Registered Mail Receipt meant to show the victim had already signed for and received notice of the court date. The Attorney General's Office stressed that no legitimate law enforcement agency ever demands immediate payment over the phone to avoid arrest, and urged anyone who receives such a call to hang up and verify it independently by calling Rockingham County Dispatch directly at (603) 679-2225 rather than any number given by the caller, and to report the scam to the AG's Consumer Protection and Antitrust Bureau at 1-888-468-4454 or DOJ-CPB@doj.nh.gov.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['New Hampshire Department of Justice — Office of the Attorney General', 'Boston 25 News'],
+    sourceUrl: 'https://www.doj.nh.gov/news-and-media/consumer-alert-reports-law-enforcement-impersonation-scams-increase-new-hampshire',
+    country: 'US',
+    state: 'NH',
+});
