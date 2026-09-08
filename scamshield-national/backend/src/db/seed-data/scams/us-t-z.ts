@@ -2433,3 +2433,15 @@ UsTZ.push({
     country: 'US',
     state: 'TN',
 });
+
+UsTZ.push({
+    name: 'New Berlin Gold-Coin Courier Sting (Roshan Shah)',
+    slug: 'wisconsin-new-berlin-roshan-shah-gold-courier-sting',
+    description: `A New Berlin, Wisconsin couple was contacted by callers claiming their identities had been used to commit crimes and that, to protect their savings, they needed to convert cash into gold coins and hand them over to a federal agent who would keep the assets safe — the "safekeeping" pretext behind a wave of gold-courier scams that hit Wisconsin seniors hard in 2025. This time, the couple contacted police first, and when a courier arrived to collect the gold, officers were waiting with a box filled with rocks instead; they arrested Roshan Shah, 22, an Indian national who had been attending college in Ontario, Canada on a student visa, on August 4, 2025 in New Berlin. The investigation, led by Homeland Security Investigations and the New Berlin Police Department, found Shah had collected more than $3.7 million in gold and cash from 15 victims across the country as a traveling courier for co-conspirators based in India who ran the phone side of the scheme. Shah pleaded guilty to conspiracy to commit money laundering, and on July 27, 2026, U.S. District Judge Brett Ludwig sentenced him to 48 months in federal prison and ordered him to pay $4,228,251.24 in restitution to his victims. No genuine federal agent, bank, or law-enforcement officer will ever instruct someone to convert their savings into gold or cash for "safekeeping" or send a courier to collect it from their home; anyone who receives such a call should hang up, contact local police before any handoff takes place, and never let a stranger take cash or valuables from their home no matter what credentials or urgency they claim.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'critical',
+    sources: ["U.S. Attorney's Office, Eastern District of Wisconsin", 'CBS 58 Milwaukee', 'GM Today (The Freeman)'],
+    sourceUrl: 'https://www.justice.gov/usao-edwi/pr/indian-national-sentenced-48-months-imprisonment-conspiracy-commit-money-laundering',
+    country: 'US',
+    state: 'WI',
+});
