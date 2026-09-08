@@ -5192,3 +5192,42 @@ The complaint puts the total upfront fees collected at approximately $23 million
 Pre-IPO investing has become a magnet for this exact structure because so much of its appeal rests on access rather than on numbers an investor can independently check: an investor being pitched a "pre-IPO" stake in a private company usually has no public price to compare it against, no way to see what the seller actually paid, and no ticker to watch after the purchase. That opacity is precisely what let the alleged 46% markup travel from Spaventa's purchase price to the retiree's invoice without ever being disclosed as a markup at all — it was framed as a modest flat fee instead. Anyone offered a "pre-IPO" allocation through a cold call, particularly one with a hard sales push behind it, has no way to verify the real cost basis without asking, in writing, exactly what the seller paid and when.`,
   },
 );
+
+NotoriousAF.push(
+  {
+    title: "Creed White and the $11.5 Million Family Business Built on Fake Pandemic Loans",
+    slug: "creed-white-covid-ppp-eidl-fraud",
+    author: "ScamShield Editorial",
+    tags: ["notorious", "notorious-scammer"],
+    sourceUrl: "https://www.justice.gov/usao-mdpa/pr/federal-court-sentences-four-defendants-115-million-covid-19-fraud-scheme",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Federal_Building_U.S._Court_House,_Harrisburg,_PA_2017-11-17.jpg?width=1200",
+    coverImageCredit: "Photo: Xnatedawgx, Wikimedia Commons (CC BY-SA 4.0) — the Ronald Reagan Federal Building and U.S. Courthouse in Harrisburg, Pennsylvania, where Creed White was sentenced",
+    coverImagePosition: 50,
+    body: `Creed White ran Aluminum Alloys Manufacturing, an aluminum smelting and processing business in Yoe, Pennsylvania — a real, operating company that gave him the paperwork trail he needed to make an enormous COVID-relief fraud look, on paper, like eighteen separate legitimate small businesses applying for pandemic aid.
+
+Between the spring of 2020 and the fall of 2022, according to the U.S. Attorney's Office for the Middle District of Pennsylvania, White submitted approximately 120 fraudulent applications for Paycheck Protection Program (PPP) loans and COVID-19 Economic Injury Disaster Loans (EIDL) on behalf of 18 businesses he owned or controlled — companies prosecutors say were dormant, with no real operations and no employees. Roughly 40 of those applications were approved, and more than $11.5 million in loan proceeds was disbursed into bank accounts White controlled.
+
+White didn't run the scheme alone. His son, Joshua White, obtained other people's personal identifying information for his father to use on fraudulent applications, and separately submitted his own fraudulent PPP application for a dormant business of his own, receiving $175,000 that he spent on unauthorized expenses, including a trip to Las Vegas. Two of White's employees, Joseph Bailey and Kester Murray, were also convicted for their roles in the conspiracy.
+
+In October 2025, U.S. District Judge Jennifer P. Wilson sentenced Creed White, then 67 and formerly of Freeland, Maryland, to 10 years in federal prison on charges of conspiracy to commit wire fraud and money laundering, and ordered him to repay the full $11.5 million to the U.S. Small Business Administration. Joshua White was the last of the four defendants sentenced, receiving 96 months in prison on February 10, 2026 for bank fraud, along with an order to pay more than $2.3 million in restitution. Bailey was sentenced to 46 months, and Murray received two years of probation.
+
+The case is a reminder that the fraud problem inside the COVID-19 relief programs wasn't limited to people inventing businesses out of thin air. Some of the largest schemes, like White's, ran through one real, operating company that gave a whole cluster of fictitious ones borrowed credibility — and turned an entire family, plus its employees, into the machinery for pulling loan money out of a program that was built for speed over verification.`,
+  },
+  {
+    title: "Darlington Akporugo, Jasmin Sood, and the $3 Million Houston Romance Scheme",
+    slug: "darlington-akporugo-jasmin-sood-romance-scam",
+    author: "ScamShield Editorial",
+    tags: ["notorious", "notorious-scammer"],
+    sourceUrl: "https://www.justice.gov/usao-sdtx/pr/romance-scheme-fraudsters-sentenced-3-million-conspiracy",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/CaseyFederalCourthouseHoustonTX.JPG?width=1200",
+    coverImageCredit: "Photo: WhisperToMe, Wikimedia Commons (Public Domain) — the Bob Casey United States Courthouse in Houston, Texas, where Darlington Akporugo and Jasmin Sood were sentenced",
+    coverImagePosition: 50,
+    body: `Darlington Akporugo, 47, a Nigerian national living in Houston without legal immigration status, and his wife, Jasmin Sood, 37, ran a romance-scam operation out of their home that federal prosecutors say defrauded more than two dozen victims — many of them elderly women, several of them widows — out of over $3 million.
+
+According to the U.S. Attorney's Office for the Southern District of Texas and Homeland Security Investigations, Akporugo cultivated online relationships with victims across the country, from Chicago to Kentucky, directing them to send money through Facebook and other platforms into accounts he controlled. Sood's role, prosecutors say, was to launder the proceeds — setting up shell businesses and bank accounts under aliases to receive and move the stolen funds. At sentencing, four victims testified about the couple's persistent lies and manipulation, including one who described being coerced into buying the couple a luxury vehicle and renting them a mansion. Investigators eventually arrested Akporugo and Sood while they were driving that same victim's car and living in her rented home.
+
+Sood pleaded guilty in December 2024 and Akporugo followed in February 2025. On June 24, 2025, both were sentenced in the Southern District of Texas: Akporugo to 188 months (just over 15 and a half years) and Sood to 121 months (just over 10 years) in federal prison, each followed by three years of supervised release. The court ordered them to jointly pay $3,123,073 in restitution to their victims. The court described the scheme as "heartless and far-reaching," and prosecutors said it had deliberately targeted older women for their perceived isolation and available savings.
+
+The Akporugo-Sood case underscores a pattern common to long-running romance scams: the fraud rarely stays confined to wired cash. Victims who send money once and are met with a plausible excuse for why more is needed are often escalated to renting apartments, co-signing leases, or buying vehicles "for" a partner they have never met in person — commitments that are far harder to reverse than a single wire transfer, and that leave victims financially exposed long after they suspect something is wrong. Anyone asked to make a purchase or open a lease on behalf of an online partner who has never appeared on a video call should treat that request as the clearest possible warning sign, not as the next reasonable step in a real relationship.`,
+  },
+);

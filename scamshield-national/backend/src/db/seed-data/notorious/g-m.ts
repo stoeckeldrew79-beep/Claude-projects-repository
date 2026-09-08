@@ -5405,3 +5405,23 @@ Joseph pleaded guilty to wire fraud and was sentenced on August 21, 2026 by U.S.
 The case is a reminder that a criminal record — even an active prison sentence — doesn't stop a determined fraudster from soliciting new victims, especially when a scheme is built around a claim, like a $450 million real estate portfolio, that sounds too large and too specific to be worth double-checking. It wasn't. Real estate holdings of that size leave a public paper trail: deeds, mortgages, and property tax records that any investor can search before wiring a single dollar into a "real estate-backed" note. None of Wells Real Estate Investment's investors appear to have found one.`,
   },
 );
+
+NotoriousGM.push(
+  {
+    title: 'Krish Kumar: The College Student Behind a $7.8 Million Investment Fund Fraud',
+    slug: "krish-kumar-future-fractal-arcane-resonance-fraud",
+    author: "ScamShield Editorial",
+    tags: ["notorious", "notorious-scammer"],
+    sourceUrl: "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26507",
+    coverImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Page_Belcher_Courthouse,_Tulsa,_OK_(1974).jpg?width=1200",
+    coverImageCredit: "Photo: Billy Hathorn, Wikimedia Commons (CC BY-SA 3.0) — the Page Belcher Federal Courthouse in Tulsa, Oklahoma, near where Krish Kumar's SEC case was filed",
+    coverImagePosition: 50,
+    body: `Krish Kumar was still a college student in Oklahoma when he started raising money for what he described as two actively managed investment funds — and, according to the Securities and Exchange Commission, ended up spending much of what he raised on himself rather than on the trades he was pitching to investors.
+
+Kumar created and solely managed two funds, Future Fractal Investments LLC and Arcane Resonance Fund LLC, raising a combined $7.8 million from roughly two dozen investors between January 2024 and February 2025. According to the SEC's complaint, filed in the U.S. District Court for the Northern District of Oklahoma, Kumar — acting as the funds' investment adviser — placed trades in Future Fractal that were inconsistent with the strategy he had marketed to its investors, trades that wiped out virtually all of the fund's assets. Rather than disclose the loss, the SEC alleges, Kumar transferred nearly $7 million of the two funds' combined assets into personal accounts he controlled, and used at least $300,000 raised from Arcane Resonance investors to make undisclosed payments to Future Fractal investors — quietly using one fund's money to paper over the other's losses, the same structure that defines a Ponzi scheme regardless of how small or informal the operation is.
+
+The SEC filed settled charges against Kumar on March 26, 2026, charging him with violating the antifraud provisions of Section 17(a) of the Securities Act of 1933, Section 10(b) of the Securities Exchange Act of 1934 and Rule 10b-5, and Sections 206(1), 206(2), and 206(4) of the Investment Advisers Act of 1940. Kumar agreed to permanent injunctions barring future violations, without admitting or denying the SEC's allegations; the monetary penalties and disgorgement he will ultimately owe were left for the court to determine separately.
+
+Kumar's case is a reminder that a fund manager's youth or informality is not itself a reason to relax the ordinary due diligence any investor owes a fund. A fund with no independent administrator, no outside custodian, and no verifiable audit trail is exactly as easy to loot whether the person running it has spent thirty years in finance or is still enrolled in undergraduate classes — the difference is only in how surprised people tend to be when it collapses.`,
+  },
+);
