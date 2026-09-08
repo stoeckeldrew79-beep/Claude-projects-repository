@@ -10955,3 +10955,26 @@ International.push(
     country: 'MH',
   },
 );
+
+International.push(
+  {
+    name: 'Cape Verde Fake Admirer Package Fraud',
+    slug: 'cape-verde-fake-admirer-package-fraud',
+    description: `Cape Verde's Judiciary Police (Polícia Judiciária, PJ) issued a public alert on August 21, 2025 after receiving multiple complaints about a multi-stage fraud spreading on social media. A scammer contacts the victim online posing as a romantic admirer or other interested party and, after building rapport, claims to be sending them a package. A first foreign number then reaches the victim by WhatsApp or phone saying the package is on its way but needs a fee to proceed; once that is paid and proof is sent, a second foreign number claims the package is being held at international customs and demands another payment for its release; finally a third caller, this time using a local number and posing as a delivery agency, requests a further sum for final clearance. Victims who follow the full sequence pay several fees in a row and receive no package, since it never existed. The PJ confirmed the pattern from complaints already filed and reminded the public that legitimate couriers never require a string of advance payments to release a parcel, urging anyone targeted to report it via the force's toll-free line or its website.`,
+    categorySlug: 'package-delivery-scams',
+    alertLevel: 'high',
+    sources: ['Polícia Judiciária de Cabo Verde (PJ)', 'A Nação'],
+    sourceUrl: 'https://www.anacao.cv/noticia/2025/08/21/pj-alerta-populacao-para-novo-esquema-de-burla-envolvendo-encomendas-inexistentes/',
+    country: 'CV',
+  },
+  {
+    name: 'Cape Verde Fake Interest-Free Loan Scheme',
+    slug: 'cape-verde-fake-interest-free-loan-scheme',
+    description: `In a February 2025 public alert, Cape Verde's Judiciary Police warned residents about fraudsters who create fake social media profiles impersonating public figures and financial institutions to advertise bogus interest-free loans aimed at people looking to fund a business. Interested victims are asked to hand over personal data, including contact and banking details along with the loan amount they want, and are then told to wire an initial "registration fee" abroad through Western Union or MoneyGram. Once that payment lands, the scammers keep the victim on the hook with further demands framed as loan validation, fund-approval, or transaction-unlocking charges, extracting repeated transfers before the victim realizes no loan is coming. The same alert flagged a related scheme in which criminals use unwitting third parties' bank accounts to receive and forward fraudulently obtained transfers abroad. The PJ urged the public never to share personal or banking information with strangers online, to treat unrealistic loan offers with suspicion, and to verify any offer directly with the financial institution it claims to be from.`,
+    categorySlug: 'debt-relief-scams',
+    alertLevel: 'high',
+    sources: ['Polícia Judiciária de Cabo Verde (PJ)', 'Expresso das Ilhas'],
+    sourceUrl: 'https://expressodasilhas.cv/pais/2025/02/07/pj-alerta-para-novos-esquemas-de-burla-em-cabo-verde/95553',
+    country: 'CV',
+  },
+);
