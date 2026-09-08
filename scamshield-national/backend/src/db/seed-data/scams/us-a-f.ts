@@ -5976,3 +5976,15 @@ UsAF.push({
     country: 'US',
     state: 'AR',
 });
+
+UsAF.push({
+    name: 'Jasper County "Box of Gold" Impersonation Sting (Sanjeev Kumar)',
+    slug: 'iowa-jasper-county-sanjeev-kumar-gold-impersonation-sting',
+    description: `A Jasper County, Iowa resident reported to law enforcement in June 2025 that a caller impersonating a government official had convinced them to convert their savings into gold to keep it "safe" from a supposed threat to their accounts — a well-known variation of the government impersonation scam that ends with a courier collecting the victim's valuables in person. Rather than simply warning the victim off, the Iowa Insurance Division's Fraud Bureau, the Jasper County Sheriff's Office, and the Mid Iowa Narcotics Enforcement Task Force worked with the victim to set up a sting: in July 2025, when a courier arrived expecting to retrieve a box the scammers believed contained real gold, investigators arrested him on the spot. Sanjeev Kumar, 41, of Owensboro, Kentucky, pleaded guilty to facilitating a criminal network, a class B felony, and was sentenced on February 2, 2026 to a prison term not to exceed 25 years, with a restitution hearing set for March 2026; co-defendant Abdul Samad Hussin Ahmadbin, 35, of Chicago, Illinois, had earlier pleaded guilty to fourth-degree theft and received a deferred judgment. The case shows that the "convert your savings to gold or cash and hand it to a courier" instruction is never a legitimate government or bank security measure — it is the scam itself — and anyone who receives such a call should hang up and report it to the Iowa Insurance Division's Fraud Bureau or local law enforcement rather than following the caller's instructions.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Iowa Insurance Division', 'Newton Daily News', 'KYOU-TV'],
+    sourceUrl: 'https://iid.iowa.gov/press-release/2026-02-05/scammers-plead-guilty-charges-related-senior-financial-exploitation-jasper-county',
+    country: 'US',
+    state: 'IA',
+});
