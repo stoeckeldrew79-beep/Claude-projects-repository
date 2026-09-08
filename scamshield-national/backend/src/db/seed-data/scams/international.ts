@@ -11449,3 +11449,36 @@ International.push(
     country: 'ML',
   },
 );
+
+International.push(
+  {
+    name: `Republic of Congo "Wangiri" Missed-Call Premium-Rate Scam`,
+    slug: 'congo-brazzaville-wangiri-missed-call-scam',
+    description: `Congo's telecom regulator, the Agence de Régulation des Postes et des Communications Électroniques (ARPCE), has repeatedly warned subscribers about a missed-call fraud pattern that TIC Mag first reported spreading across the country in February 2018 and that ARPCE itself flagged again directly to the public the following year: an unknown number calls a Congolese phone and hangs up after only one or two rings, deliberately too fast to answer, or a text message arrives asking the recipient to call a given number back. Callers who dial the unfamiliar number back either reach a recording engineered to keep them on the line as long as possible or get connected to a surtaxed premium-rate or international line, in both cases racking up steep per-minute charges that benefit whoever placed the original call through revenue-sharing arrangements with the receiving carrier, a scheme known internationally as "wangiri" ("one cut" in Japanese). In a public post, ARPCE told subscribers plainly: "Si vous avez reçu un appel en absence tellement rapide que vous n'avez pas eu le temps de décrocher et que vous ne connaissez pas le numéro qui a tenté de vous joindre, ne rappelez surtout pas !" ("If you received a missed call so quick you didn't have time to answer, from a number you don't recognize, do not call it back"), noting that anyone with genuine business will call again or send a message instead. The regulator directed subscribers to report suspicious calls to their own operator's customer service — 121 for Airtel Congo-Brazzaville, 123 for MTN Congo — or to ARPCE's own free consumer helpline at 5050, available across all networks.`,
+    categorySlug: 'phishing',
+    alertLevel: 'medium',
+    sources: ['ARPCE (Agence de Régulation des Postes et des Communications Électroniques)', 'TIC Mag'],
+    sourceUrl: 'https://www.facebook.com/ARPCE/posts/depuis-quelques-mois-une-forme-de-fraude-t%C3%A9l%C3%A9phonique-s%C3%A9vit-au-congo-il-sagit-de/2463753556970065/',
+    country: 'CG',
+  },
+  {
+    name: `Congo Mobile Money "Wrong Transfer" Refund Scam`,
+    slug: 'congo-brazzaville-mobile-money-wrong-transfer-refund-scam',
+    description: `Les Dépêches de Brazzaville reported on July 30, 2020 that the most common Mobile Money fraud reported around Brazzaville starts with a fake deposit or withdrawal alert made to look like it comes from MTN Mobile Money or Airtel Mobile Money, telling the target that money was sent to their account by mistake. The scammer then calls, poses as the person who supposedly sent the funds in error, and pressures the victim to send an equivalent sum back right away — except no real transfer ever happened, so a victim who "returns" the money is simply handing the scammer their own funds. A related version has the caller pose as network staff needing to "verify" the account balance, walking the victim through checking or re-entering their PIN in a way that lets the scammer see or capture it and drain the real balance afterward. The paper noted that, as one Brazzaville resident put it, "the customer isn't hacked as such — through inattention, they hand over access to their own information themselves," and cited a case in which a woman named Marlène was drawn into withdrawing stolen funds worth 500,000 CFA francs from a mobile money point on a fraudster's instructions before agents there grew suspicious and alerted police. Mobile money operators active in Congo advise customers to never share a PIN with anyone, including someone claiming to be network staff or Lisungui platform support, to verify any deposit directly on their own phone's transaction history before acting on a caller's claim, and to report suspicious numbers to their operator's customer service rather than sending money back for a transfer they never personally confirmed.`,
+    categorySlug: 'account-takeover',
+    alertLevel: 'high',
+    sources: ['Les Dépêches de Brazzaville (adiac-congo.com)'],
+    sourceUrl: 'https://www.adiac-congo.com/content/mobile-money-attention-arnaque-118235',
+    country: 'CG',
+  },
+  {
+    name: `Fake MTN Mobile Money Kiosk Agent Scam`,
+    slug: 'congo-brazzaville-fake-mobile-money-kiosk-scam',
+    description: `Les Dépêches de Brazzaville reported on January 12, 2021 that residents of Brazzaville were being defrauded by criminals posing as legitimate MTN Mobile Money kiosk agents, often operating out of stolen or abandoned kiosk stalls. A victim would hand over cash for a mobile money deposit or transfer and receive what looked like a genuine MTN confirmation message, only to find hours later that no money had actually reached the intended account — by which point the "agent" and kiosk had vanished, leaving the customer with no one to complain to. One victim, Marie-Jeanne Ossadoumena, described the operators as "astute and cunning," saying targets typically only realize they have been cheated well after the fact, while an MTN kiosk agent, Feldon Eyoka, said the criminals would steal physical kiosk stands and relocate them to distant neighborhoods to keep operating before residents caught on. Another Brazzaville resident, Jorès Nakolo, advised the public that a genuine MTN Mobile Money confirmation will only ever arrive from the network's official "MobileMoney" sender ID, never from an ordinary phone number. Residents called on MTN to do more to verify which kiosks and agents are actually authorized, and were urged to check that any confirmation message comes from MTN's official channel, rather than merely a text that looks similar, before treating a mobile money transaction as complete.`,
+    categorySlug: 'account-takeover',
+    alertLevel: 'medium',
+    sources: ['Les Dépêches de Brazzaville (adiac-congo.com)'],
+    sourceUrl: 'https://www.adiac-congo.com/content/mobile-money-la-population-denonce-un-systeme-darnaque-123303',
+    country: 'CG',
+  },
+);
