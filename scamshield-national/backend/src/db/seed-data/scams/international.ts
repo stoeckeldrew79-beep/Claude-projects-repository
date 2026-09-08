@@ -10729,3 +10729,16 @@ International.push(
     country: 'VG',
   },
 );
+
+International.push(
+  {
+    name: 'St. Kitts-Nevis-Anguilla National Bank Impersonation Phone Scam',
+    slug: 'st-kitts-nevis-anguilla-national-bank-impersonation-phone-scam',
+    description: `The St. Kitts-Nevis-Anguilla National Bank Limited issued a public advisory published March 15, 2026 warning customers to remain vigilant amid reports of fraudulent telephone calls targeting bank clients. The bank said scammers are calling from unfamiliar or foreign numbers and, in some cases, reaching out through messaging platforms such as WhatsApp, while impersonating the bank to request card details, PINs, passwords, security codes, or other personal and financial information. The advisory stressed that National Bank will never contact customers from a foreign mobile number or ask for PINs or card details over the phone or through a messaging app. Customers were urged not to answer suspicious calls, to hang up immediately if one gets through, to never return a missed call from an unfamiliar or foreign number, and to verify any request for personal information by contacting the bank directly through its official channels rather than a number or link supplied by the caller.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['St. Kitts-Nevis-Anguilla National Bank Limited', 'NevisPages.com'],
+    sourceUrl: 'https://www.nevispages.com/public-notice-st-kitts-nevis-anguilla-national-bank-issues-fraud-alert/',
+    country: 'KN',
+  },
+);
