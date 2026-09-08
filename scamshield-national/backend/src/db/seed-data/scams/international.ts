@@ -11320,3 +11320,36 @@ International.push(
     country: 'SM',
   },
 );
+
+International.push(
+  {
+    name: `Fake Bank "Technical Support" Phishing Ring`,
+    slug: 'libya-fake-bank-tech-support-phishing-ring',
+    description: `Libya's Financial Crimes, Anti-Money Laundering, and Counter-Terrorism Financing Agency announced on July 8, 2026 that it had dismantled a cyber-fraud ring that built fraudulent social-media pages posing as the official "technical support" accounts of Libyan banks, including Wahda Bank, in order to trick banking customers into handing over their account credentials. Investigators said the ringleader — who had prior fraud complaints on record — ran the fake support pages and coordinated a small network of accomplices who moved the stolen funds through the parallel foreign-exchange market to launder them; two suspects were referred to Tripoli's Partial Anti-Corruption Prosecution. Financial records the agency reviewed showed real scale to the scheme: one suspect alone handled roughly $26,000 in stolen funds while collecting a commission of just 300 dinars, and a second suspect moved about $8,000 through the network, on top of an initial cluster of complaints from three victims who together reported losing 97,145 Libyan dinars. Around the same period, Wahda Bank issued its own cybersecurity warning to customers after a separate case in which a victim lost 49,000 dinars to WhatsApp-based fraud, urging customers to remain vigilant against unsolicited online contact claiming to be from the bank and never to share account credentials with anyone reaching out through a social-media "support" page rather than the bank's own verified channels.`,
+    categorySlug: 'phishing',
+    alertLevel: 'high',
+    sources: ['Libyan Express', 'Wahda Bank', 'Financial Crimes, Anti-Money Laundering, and Counter-Terrorism Financing Agency (Libya)'],
+    sourceUrl: 'https://www.libyanexpress.com/libyan-authorities-smash-cyber-fraud-ring/',
+    country: 'LY',
+  },
+  {
+    name: `Fake Bank, Hospital, and Telecom "Verification" Call Scam`,
+    slug: 'libya-fake-bank-hospital-telecom-verification-call-scam',
+    description: `Tripoli's Security Directorate issued a public warning via Facebook in September 2022 cautioning residents about a wave of scam phone calls in which callers falsely claim to represent banks, hospitals, or telecommunications companies and press whoever answers to hand over personal or account information outside any normal, legitimate verification process. The Directorate said the calls carried telltale signs of fraud: they typically arrived over WhatsApp or Viber rather than a standard phone line, background crowd noise was often audible during the call, suggesting an unprofessional call-center setup rather than a real institution's office, and callers frequently spoke Arabic poorly despite claiming to represent a local Libyan bank, hospital, or telecom provider. Officers advised residents to treat any unsolicited call requesting personal, banking, or account details as suspicious no matter which company or institution the caller claims to represent, to decline to answer and hang up rather than engage with the caller's questions, and to verify any claimed account, billing, or medical issue directly with the institution using contact information obtained independently rather than any number or link the caller supplies.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'medium',
+    sources: ['The Libya Observer', 'Tripoli Security Directorate'],
+    sourceUrl: 'https://libyaobserver.ly/inbrief/tripoli-security-directorate-warns-scam-calls',
+    country: 'LY',
+  },
+  {
+    name: 'Fake UNHCR Resettlement and Registration Scam',
+    slug: 'libya-fake-unhcr-resettlement-registration-scam',
+    description: `UNHCR's Libya operation issued a public alert on December 23, 2025 warning displaced people and refugees in the country about a range of fraud schemes that falsely trade on the agency's name to extract money or personal information. The alert described impostors building fake apps and websites that mimic UNHCR or embassy platforms, sending fraudulent emails and text messages that pose as UNHCR correspondence, placing phone calls from people falsely claiming to work for the agency, and posting deceptive offers on social media — including a pattern on Telegram and WhatsApp in which users falsely promise to speed up refugee registration or resettlement processing in exchange for payment or personal documents. UNHCR stated plainly that "UNHCR services are free of charge" and that it never requires a fee, gift, or favor in return for registration, resettlement processing, or any other protection service, and urged people to verify any contact through UNHCR's own official channels, never to share identity documents, financial details, or passwords with anyone reaching out unsolicited, and to report suspected fraud to both UNHCR and local authorities, noting that UNHCR itself cannot investigate fraud committed by people who are not its own staff.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['UNHCR Libya'],
+    sourceUrl: 'https://help.unhcr.org/libya/2025/12/23/online-fraud-schemes/',
+    country: 'LY',
+  },
+);
