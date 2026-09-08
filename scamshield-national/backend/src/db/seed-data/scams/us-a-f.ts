@@ -6087,3 +6087,27 @@ UsAF.push({
     country: 'US',
     state: 'AR',
 });
+
+UsAF.push({
+    name: `St. Johns County "Car Dealership" Romance Scam (Edit Manjic)`,
+    slug: 'florida-st-johns-county-manjic-romance-scam',
+    description: `A widowed St. Johns County woman told the Sheriff's Office she met Edit Manjic, 35, at a car dealership in October 2024 when he helped her sell her car, and the two began texting the next day — the start of what deputies say became a seven-month campaign of fabricated crises used to drain her savings. Investigators say Manjic, who knew the victim had recently received her late husband's assets, invented a string of emergencies — a looming foreclosure, unpaid child support, a custody fight, a divorce, and health scares — to pressure her into repeated wire transfers, at one point texting a request for $60,000 to stop him from "losing his home." Between October 2024 and May 2025 she sent him more than $230,000 in direct transfers, on top of $8,500 in unauthorized ATM and point-of-sale withdrawals and $7,200 in fraudulent online gambling charges investigators say he ran up using her accounts. The victim said Manjic promised to repay her and even signed a notarized repayment agreement, but later told her the money "was a gift" and cut off contact. The St. Johns County Sheriff's Office arrested Manjic on 18 felony charges, including grand theft and scheme to defraud; he has pleaded not guilty, and detectives are asking anyone who believes they were targeted by a similar scheme to contact Detective H. Aran at haran@sjso.org. The case is a reminder that a romance scam does not have to start online — an in-person meeting, such as a car sale, can be the opening move — and that a partner who repeatedly needs money for a rotating cast of "emergencies" and resists meeting family or verifying any story independently should be treated as a financial red flag regardless of how the relationship began.`,
+    categorySlug: 'romance-scams',
+    alertLevel: 'medium',
+    sources: ['St. Johns County Sheriff\'s Office', 'Action News Jax', 'Hoodline'],
+    sourceUrl: 'https://www.actionnewsjax.com/news/local/st-johns-county-man-accused-romance-scam-faces-fraud-charges/XUK7PHESRRHZJOMXMYA5BSL5WI/',
+    country: 'US',
+    state: 'FL',
+});
+
+UsAF.push({
+    name: `Carpinteria In-Home Caregiver Elder Financial Abuse (Jose Olivares-Alonso)`,
+    slug: 'california-carpinteria-olivares-alonso-caregiver-elder-abuse',
+    description: `A family member of an elderly Goleta care recipient discovered suspicious account activity on April 25, 2026 — an unexplained cashed check and several checks missing from the checkbook — and reported it to the Santa Barbara County Sheriff's Office, which traced the losses to the victim's own in-home caregiver, 28-year-old Jose Olivares-Alonso of Carpinteria. Detectives say Olivares-Alonso used his day-to-day access to the victim's home, checkbook, and personal information to write and cash checks without authorization, then forge the paperwork needed to cover the theft. On April 29, 2026, detectives served a search warrant at Olivares-Alonso's Carpinteria residence; he resisted arrest before being taken into custody and was booked on felony charges of theft by a caretaker, burglary, forgery, and identity theft, along with resisting arrest. The Sheriff's Office said elder financial abuse "can often go unnoticed, particularly when caregivers or trusted individuals have regular access to finances and personal information," and said detectives believe there may be additional victims, asking anyone with information to contact Detective Kiesow at (805) 681-4150. Families with an aging relative who depends on an in-home caregiver are advised to have a separate, uninvolved family member or a bank periodically review account and check-register activity, keep blank checks and financial documents away from routine caregiving access, and treat unexplained cashed checks or missing checks as reason to change accounts immediately rather than waiting to confirm a pattern.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'medium',
+    sources: ['Santa Barbara County Sheriff\'s Office', 'Santa Barbara Independent', 'KEYT'],
+    sourceUrl: 'https://www.independent.com/2026/05/12/carpinteria-caregiver-arrested-for-elder-financial-abuse/',
+    country: 'US',
+    state: 'CA',
+});

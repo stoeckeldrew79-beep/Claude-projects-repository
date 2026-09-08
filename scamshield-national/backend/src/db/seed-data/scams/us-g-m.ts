@@ -4476,3 +4476,15 @@ UsGM.push({
     country: 'US',
     state: 'HI',
 });
+
+UsGM.push({
+    name: `Simpson County TikTok Cloned Rental Listing Scam`,
+    slug: 'kentucky-simpson-county-tiktok-rental-listing-scam',
+    description: `The Simpson County Sheriff's Office warned Franklin, Kentucky residents on July 12, 2026 about fraudulent rental listings circulating on TikTok that use real photos of houses actually for rent or for sale in Franklin and Simpson County, paired with a phone number that has nothing to do with the property's actual owner, landlord, or listing agent. Anyone who calls or texts the number is steered toward paying a security deposit, application fee, or first month's rent before ever seeing the property in person, and the scammer disappears once the money is sent through a cash app, wire transfer, or other payment method that is difficult to reverse. The warning echoed a pattern Louisville-area authorities had already flagged earlier in the year: in February 2026, Jefferson County Sheriff David James described scammers copying legitimate listings off sites like Zillow and reposting them on Facebook Marketplace at drastically reduced rent, with one telltale sign being a $1,500-a-month house suddenly listed at $400, and said several victims had already sent money — one after also giving a scammer their Social Security number. The Simpson County Sheriff's Office urged residents never to send money before verifying a listing, to always meet the property owner, landlord, or a licensed property manager in person at the property before exchanging any payment, to confirm the person advertising it actually has legal authority to rent it, and to be suspicious of pressure to act quickly or requests to pay through non-traditional methods — reporting any suspected rental scam to the Simpson County Sheriff's Office or local law enforcement.`,
+    categorySlug: 'rental-housing',
+    alertLevel: 'medium',
+    sources: ['Simpson County Sheriff\'s Office', 'WSMV', 'Spectrum News 1 Kentucky'],
+    sourceUrl: 'https://www.wsmv.com/2026/07/12/kentucky-sheriff-warns-residents-rental-scam-circulating-tiktok/',
+    country: 'US',
+    state: 'KY',
+});
