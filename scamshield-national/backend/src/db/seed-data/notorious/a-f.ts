@@ -5251,3 +5251,47 @@ Erwin Bankowski and Karolina Bankowska were charged in the Eastern District of N
 The Bankowski case is a reminder that a certificate of authenticity or a gallery stamp is only as trustworthy as the person who produced it. Genuine provenance research traces a work through independently verifiable owners, exhibition records, and prior auction results — not through paperwork supplied exclusively by the seller — and a father-daughter team with no verifiable connection to the actual studios, estates, or authentication boards of Warhol, Picasso, or Banksy should never have been treated as sufficient proof for two hundred "newly surfaced" works entering the market all at once.`,
   },
 );
+
+NotoriousAF.push(
+  {
+    title: 'Babajide Adesayo and the Nigeria-Linked Network That Laundered $2.7 Million from Elderly Romance Scam Victims',
+    slug: 'babajide-adesayo-romance-scam-money-laundering',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.secretservice.gov/newsroom/releases/2026/08/atlanta-man-convicted-laundering-over-27-million-stolen-victims-online',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Richard_Russell_Federal_Building.jpg?width=1200',
+    coverImageCredit: 'Photo: DukeArcTerex, Wikimedia Commons (CC BY 3.0) — the Richard B. Russell Federal Building in Atlanta, where Babajide Adesayo was prosecuted',
+    coverImagePosition: 50,
+    body: `Babajide Adesayo, 41, of Douglasville, Georgia, was the domestic money-laundering hub for a transnational network that federal prosecutors say spent roughly 17 months, from April 2020 through September 2021, draining the retirement savings of elderly Americans through romance scams and other online fraud. According to the U.S. Attorney's Office for the Northern District of Georgia and the U.S. Secret Service, the scammers built relationships with victims online — posing as romantic partners, friends, or business associates — before inventing reasons to ask for money: business equipment they supposedly needed, bail for an "arrest," treatment for a sudden illness or injury.
+
+Once a victim wired funds, prosecutors say the money moved through business bank accounts in Nigeria controlled by a co-conspirator, Efemena Igbe, who forwarded most of it on to Adesayo. Rather than banking the funds directly, Adesayo allegedly ran them through the accounts of his own automotive business, disguising the incoming wires as ordinary vehicle-related payments before sending the proceeds onward to accounts in China, Hong Kong, Nigeria, and elsewhere — layering the money just enough to make it harder for investigators, and victims' banks, to trace.
+
+Following an eight-day trial, a federal jury convicted Adesayo on August 6, 2026, of two counts of conspiracy to commit money laundering and sixteen counts of transactional money laundering. Prosecutors say Adesayo's conduct did not stop when he was first indicted: after his June 2024 arrest, he continued laundering scam proceeds while free on bond, conduct serious enough that his bond was revoked and he has been held in federal custody since March 2, 2026. "This incorrigible swindler will face the full consequences of his actions," U.S. Attorney Theodore S. Hertzberg said in announcing the verdict, describing Adesayo as a key financial player in a network that specifically targeted elderly victims and moved their money out of the country to make recovery all but impossible.
+
+Adesayo faces up to 20 years in prison on each of the two conspiracy counts and up to 10 years on each of the sixteen transactional money-laundering counts, plus a consecutive term of up to 10 years for continuing the scheme while under indictment and on release. He is scheduled to be sentenced on November 20, 2026, before U.S. District Judge Mark H. Cohen; as of this writing that hearing has not yet occurred, so his actual prison term remains undetermined.
+
+Adesayo's role illustrates a part of romance-scam networks that rarely makes headlines: the "money mule" layer that turns a stranger's wired savings into cash the scammers overseas can actually use. A legitimate business does not receive large incoming wires from unrelated third parties and immediately forward the money out of the country in smaller, disguised transactions — and a bank or a family member who spots that pattern, whether in a small business's accounts or in an elderly relative's sudden willingness to wire money to someone they have never met in person, is often the last realistic chance to stop this kind of scheme before the money is gone for good.`,
+  },
+);
+
+NotoriousAF.push(
+  {
+    title: "Eli and Kaitlyn Regalado's INDXcoin: The 'God Told Us To' Cryptocurrency Fraud",
+    slug: 'eli-regalado-indxcoin-crypto-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.cbsnews.com/colorado/news/eli-regalado-colorado-crypto-pastor-racketeering-theft/',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Denver,_CO,_City_and_County_Building_IMG_5541.JPG?width=1200',
+    coverImageCredit: "Photo: Billy Hathorn, Wikimedia Commons (CC BY-SA 3.0) — Denver's Civic Center, near the courts prosecuting the Regalado case",
+    coverImagePosition: 50,
+    body: `Note: the civil securities-fraud judgment described below has been finally decided by a Colorado court, which the Regalados have not been reported to have appealed. Separate felony criminal charges against them remain pending as of this writing — Eli and Kaitlyn Regalado have not been convicted of those charges, have entered no plea reported here, and the criminal allegations are legally unproven.
+
+Eli Regalado pastored the online Victorious Grace Church in Denver when, he told his congregation, God instructed him to build a cryptocurrency called INDXcoin — a token he described as indexed to the value of the top 100 cryptocurrencies and marketed through a companion exchange he and his wife, Kaitlyn, called the Kingdom Wealth Exchange. Between roughly June 2022 and April 2023, according to the Colorado Division of Securities and criminal prosecutors, the Regalados used that pitch to raise about $3.4 million from more than 300 investors, drawn overwhelmingly from their own church and from other Christian congregations, on promises of "exorbitant returns" and assurances that their success was, as Eli Regalado put it, "guaranteed by God."
+
+The numbers did not hold up. Regulators say INDXcoin traded for roughly $1 to $1.50 even as the Regalados told investors it was worth $9, and when the Kingdom Wealth Exchange finally opened to let holders cash out at that promised price, it lacked anywhere near enough reserves to honor the redemptions and collapsed within a day. An independent audit the Regalados had commissioned reportedly found the cryptocurrency unsafe and essentially worthless — a finding regulators say the couple kept from investors while continuing to solicit new money. Meanwhile, Colorado's securities regulator alleges the couple personally spent more than $1.3 million of investor funds on a home remodel they said "the Lord told us to do," along with a nanny, travel, and other personal expenses. In a video later taken down, Eli Regalado acknowledged some of the core facts publicly, saying "those charges are true" while insisting "God is not done with this project."
+
+Colorado Securities Commissioner Tung Chan brought a civil securities-fraud case against the Regalados, and following a bench trial, Denver District Court Judge Heidi L. Kutcher ruled in September 2025 that Eli Regalado, Kaitlyn Regalado, and INDXcoin LLC had committed securities fraud, entering a judgment of roughly $3.3 million against them and imposing a 20-year ban from cryptocurrency transactions and investment-related activity. Chan, announcing the result, called the defendants "21st-century false prophets." Separately, in July 2025 a Denver grand jury indicted the couple on 40 criminal counts, including racketeering, theft, and securities fraud; as of this writing, that criminal case remains pending, with Eli Regalado free on bond awaiting trial.
+
+The Regalado case is a reminder that a religious framing does not exempt an investment pitch from ordinary securities law, and it should not exempt it from ordinary investor skepticism either. A "guaranteed" return, a currency whose value is set unilaterally by the people selling it rather than by any open market, and an exchange that only reveals it cannot honor its own promised price once investors try to cash out are the same warning signs regulators flag in any Ponzi-adjacent scheme — regardless of whether the pitch comes wrapped in the language of faith or in the language of finance.`,
+  },
+);
