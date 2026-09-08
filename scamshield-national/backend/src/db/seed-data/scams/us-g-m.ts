@@ -4332,3 +4332,15 @@ UsGM.push({
     country: 'US',
     state: 'MT',
 });
+
+UsGM.push({
+    name: '"Sam Wilson" Treasury-Impersonation Cash-Courier Scam (Urvishkumar Patel)',
+    slug: 'massachusetts-berkshire-county-patel-treasury-impersonation-courier-scam',
+    description: `In early 2024, a 75-year-old Berkshire County, Massachusetts man got a pop-up on his computer claiming the machine was frozen and telling him to call a number for "Microsoft" support; the call was instead routed to a man who identified himself as a federal law enforcement officer named "Sam Wilson." Wilson told the victim he was caught up in a money-laundering investigation and needed to move his money to the U.S. Treasury for safekeeping, then had him withdraw cash from his bank, seal it in a taped box labeled with his own name and address, and wait for a courier — briefing the victim in advance on the courier's prearranged passcode and even what clothes to describe wearing so the handoff would look legitimate. On October 7, 2024, Urvishkumar Vipulkumar Patel, 23, of South Boston, drove to North Adams, gave the correct passcode to someone he believed was the victim, and took possession of a box of cash before he was arrested on the spot. By the time the scheme was disrupted, the Berkshire County victim had been defrauded of approximately $500,000. Patel was charged by criminal complaint the day of his arrest, indicted the following month, and pleaded guilty in federal court in Springfield to one count of conspiracy to commit wire fraud — a charge carrying up to 20 years in prison — with U.S. District Judge Mark G. Mastroianni scheduling sentencing for February 13, 2026. The case follows a now-familiar pattern nationally in which a fake tech-support pop-up leads to a fake federal agent who instructs a victim to convert savings into cash and hand it to an in-person courier rather than wiring it, specifically to avoid the fraud alerts a bank or wire transfer might trigger; no real Treasury Department or law enforcement agency will ever direct someone to withdraw cash, pack it in a box, and hand it to a stranger using a "passcode" to verify the pickup.`,
+    categorySlug: 'tech-support-scams',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office, District of Massachusetts", 'The Boston Globe', 'Boston 25 News'],
+    sourceUrl: 'https://www.justice.gov/usao-ma/pr/south-boston-man-pleads-guilty-role-wire-fraud-conspiracy-defrauded-victim-nearly-500000',
+    country: 'US',
+    state: 'MA',
+});
