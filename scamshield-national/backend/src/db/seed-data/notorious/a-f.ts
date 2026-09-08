@@ -4975,3 +4975,20 @@ Cunningham was released in 2013 after serving roughly seven years, and in Januar
 The case remains a reference point in Congressional ethics circles precisely because of how little inference it required: rather than reconstructing intent from circumstantial trading patterns, prosecutors had Cunningham's own arithmetic, written in his own hand, itemizing the exchange rate between defense contracts and personal enrichment. It illustrates how a defense appropriator's gatekeeping power over an opaque, poorly audited contracting pipeline can be quietly monetized for years before a single mismatched real-estate transaction pulls the thread that unravels it all.`,
   },
 );
+
+NotoriousAF.push(
+  {
+    title: `Chris Faulkner, the Self-Proclaimed "Frack Master" Who Turned Oil Wells Into an $80 Million Fraud`,
+    slug: 'chris-faulkner-breitling-energy-frack-master-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://www.justice.gov/usao-ndtx/pr/so-called-frack-master-sentenced-15-years-federal-prison',
+    body: `Chris Faulkner built a public persona around a nickname he gave himself: the "Frack Master." As CEO of Dallas-based Breitling Oil and Gas Corporation and its successor, Breitling Energy Corporation, he cultivated the image of a leading authority on hydraulic fracturing — writing op-eds, giving television interviews, and appearing at industry conferences as the fracking boom's telegenic spokesman. That persona became the sales pitch: it lent an air of technical credibility to an oil-and-gas investment operation that, according to U.S. regulators and prosecutors, was largely a fraud.
+
+From 2011 through 2016, Faulkner's companies raised roughly $80 million from investors around the country through "turnkey" working-interest offerings — shares in the output of specific oil and gas wells — sold by a team of commissioned cold-callers. The SEC later alleged that Faulkner lied to investors about his own industry experience and inflated the marketed drilling-cost estimates for the wells by as much as 800 percent, padding the price investors paid well beyond what the actual work required. Rather than putting the difference into the ground, the SEC said, Faulkner diverted millions of dollars to fund what its complaint memorably described as a "lifestyle of decadence and debauchery."
+
+The SEC filed a civil fraud complaint against Faulkner, Breitling Energy, and ten associated individuals and entities on June 24, 2016, accusing them of misappropriating at least $23.8 million of the roughly $80 million raised from investors. Faulkner settled the SEC's case in 2018, agreeing to pay more than $25 million in disgorgement and prejudgment interest. The parallel criminal case took longer to resolve: Faulkner pleaded guilty in 2018 to securities fraud, engaging in illegal monetary transactions, and tax evasion — prosecutors said he had concealed at least $3.7 million in taxable income in 2014 alone — but the federal judge overseeing the case rejected the resulting plea agreement in 2019 as too lenient. Faulkner entered a new guilty plea in December 2020, and in September 2021 was sentenced in the Northern District of Texas to 15 years in federal prison and ordered to pay $92.4 million in restitution to his victims.
+
+Faulkner's case stands out less for its dollar total, modest next to the largest Ponzi schemes, than for how deliberately the fraud borrowed the trappings of technical expertise: a self-appointed "master" of a genuinely complicated drilling process, fronting investment pitches in an industry opaque enough that few of the retail investors he cold-called had any way to independently check his cost estimates or his credentials. It is a reminder that a boiler-room sales operation can look entirely different depending on who is doing the calling — and that a confident, media-savvy "expert" reciting real industry jargon can be just as effective a mask for fraud as any fabricated balance sheet.`,
+  },
+);

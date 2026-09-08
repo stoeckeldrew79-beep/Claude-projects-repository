@@ -5251,3 +5251,22 @@ Halder spent more than two years living under a false identity, "Shibsankar Hald
 The PK Halder case — still unresolved years after his conviction, with the man Bangladeshi press nicknamed the "Sultan of Swindle" serving no time on a 22-year sentence while extradition talks stall — illustrates a recurring failure mode in cross-border financial fraud: a conviction obtained in the country where the crime happened means little if the person convicted can simply remain, indefinitely, in a country that has approved but never executed his return.`,
   },
 );
+
+NotoriousGM.push(
+  {
+    title: `Jenaro García and the Fake Wi-Fi Empire Behind Let's Gowex`,
+    slug: 'jenaro-garcia-gowex-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.cnbc.com/2014/08/14/how-a-spanish-tech-star-fooled-the-world.html',
+    body: `Jenaro García founded Gowex in Madrid in 1999 and, over the following decade, rebuilt it as "Let's Gowex," a company that installed free public Wi-Fi hotspots in cities across Spain and, it claimed, dozens of other countries. García listed the company on the Mercado Alternativo Bursátil (MAB), Spain's lightly regulated junior stock market for smaller and growth companies, in 2010, and its share price climbed dramatically over the next four years — from roughly €2 to more than €20 — as García reported revenue growth that outpaced any comparable company in its sector, turning Gowex into one of the Spanish stock market's most celebrated technology success stories.
+
+Behind that growth story, García later admitted in court, was a fabrication. According to his own testimony reported by Bloomberg, he had falsified Gowex's accounts since at least 2005, using a network of roughly 20 shell companies, run through associates acting as straw men, to generate fake invoices and contracts that created the appearance of business the real company never had — manufacturing the paper trail of revenue and clients he needed to keep raising capital from investors and lenders who had no way of knowing the underlying contracts didn't exist.
+
+The fraud went undetected for years by Spain's securities regulator, the CNMV, and by Gowex's own external auditors, who signed off on the company's books through the entire run-up in its stock price. It was exposed instead by an outside party with no regulatory authority at all: Gotham City Research, a small U.S. short-selling research firm, published a report on July 1, 2014, alleging that Gowex's real revenue was a small fraction of what it reported and that its shares were essentially worthless. García initially dismissed the report and threatened legal action, but within days — on July 6, 2014 — he posted a public admission on Twitter that he had falsified the company's accounts, resigned as CEO, and the company collapsed into insolvency within weeks, wiping out shareholders, including many small Spanish retail investors who had ridden the stock's seemingly unstoppable rise.
+
+Spanish prosecutors and investigating judges at the Audiencia Nacional, Spain's National Court, subsequently built a criminal case against García covering falsification of commercial documents, investor fraud, misappropriation, and insider trading, with the Anti-Corruption Prosecutor's Office ultimately seeking roughly 18.5 years in prison and a €10.2 million fine. But more than a decade after García's own courtroom confession, the case still had not reached a verdict as of the mid-2020s — delayed for years by the scale of the investigation and then by procedural disputes over how the various shell companies swept up in the case would be represented, which sent it briefly back to the investigative stage before it returned to the court's criminal division to await trial.
+
+The Gowex case is as much a study in institutional failure as in one man's fabrications: a junior stock exchange with lighter listing requirements than Spain's main market, a regulator and a set of auditors who let years of implausible growth pass without serious challenge, and a fraud that only came to light because an outside short-seller bothered to check numbers that the institutions actually tasked with checking them never did. More than a decade later, the slow grind of García's own prosecution stands as its own lesson — that a fraud's public unraveling and its final legal reckoning can be separated by many years, leaving victims waiting even longer for anything resembling closure.`,
+  },
+);
