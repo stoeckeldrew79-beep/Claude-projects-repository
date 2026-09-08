@@ -4833,6 +4833,10 @@ NotoriousAF.push(
     slug: 'manuel-chang-mozambique-tuna-bonds-fraud',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Maputo_skyline_2006.jpg?width=1200',
+    coverImageCredit: 'Photo: Julien Lagarde, CC BY-SA 2.5, via Wikimedia Commons — the skyline of Maputo, Mozambique, whose finance ministry Chang led before the "tuna bonds" fraud',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     sourceUrl: 'https://en.wikipedia.org/wiki/Manuel_Chang',
     body: `Manuel Chang served as Mozambique's Minister of Economy and Finance from 2005 to 2015, a period in which the impoverished southern African nation was widely praised by international donors for prudent fiscal management. That reputation collapsed in 2016, when journalists and creditors discovered that Chang, while still in office, had secretly signed sovereign guarantees committing Mozambique to more than $2 billion in loans that had never been disclosed to the country's parliament, the International Monetary Fund, or its other lenders.
 

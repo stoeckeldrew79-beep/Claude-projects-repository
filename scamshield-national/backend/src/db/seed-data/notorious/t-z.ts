@@ -1582,6 +1582,10 @@ NotoriousTZ.push(
     slug: 'derrick-van-yeboah-ghana-romance-scam-ring',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Accra_Skyline_-_Ghana.jpg?width=1200',
+    coverImageCredit: 'Photo: Muntaka Chasant, CC BY-SA 4.0, via Wikimedia Commons — the skyline of Accra, Ghana, where Van Yeboah\'s scam ring was based',
+    coverImagePosition: 50,
+    // representative photo — replace with a portrait if found
     sourceUrl: 'https://www.justice.gov/usao-sdny/pr/ghanaian-national-sentenced-85-months-prison-stealing-more-10-million-romance-scams',
     body: `Derrick Van Yeboah, a 41-year-old Ghanaian national also known as "Van," operated for close to a decade as what is known in Ghana as a "sakawa boy" — a term for online fraudsters who run internet scams, often supplemented with traditional ritual practices believed to bring luck to the con. Between February 2015 and October 2024, prosecutors said, Van Yeboah rose to become a senior, high-ranking member of a transnational, Ghana-based criminal organization that stole more than $100 million from victims across the United States through a combination of romance scams and business email compromise fraud.
 
