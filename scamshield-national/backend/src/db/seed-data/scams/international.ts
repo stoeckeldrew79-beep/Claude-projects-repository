@@ -10903,3 +10903,16 @@ International.push(
     country: 'GI',
   },
 );
+
+International.push(
+  {
+    name: 'Guam "Hafa Adai Bingo" Children\'s Charity Diversion Scheme',
+    slug: 'guam-hafa-adai-bingo-charity-diversion-scheme',
+    description: `Between March 2015 and the end of 2021, operators of the Guam Shrine Club's Hafa Adai Bingo parlor in Tamuning collected roughly $34 million in gross bingo proceeds from players who believed their spending helped fund travel for sick children to Shriners Hospital for Children in Honolulu, when in fact only a small fraction of that money — about $140,000 over the period — ever reached the charity. Federal prosecutors said club leaders Jose Arthur D. Chan Jr. and his wife Christine C. Chan, along with associate Michael L. Marasigan, instead diverted and laundered more than $10.75 million of the proceeds for personal use while continuing to market the games under the Aloha Shriners' name. A jury convicted the three at trial, and on May 12-13, 2026, Chief Judge Frances Tydingco-Gatewood sentenced Art Chan to 60 months and Christine Chan to 70 months in federal prison; Marasigan, who had fled to the Philippines in 2025 after being granted court permission for medical travel, was sentenced in absentia on May 19, 2026 to 262 months, and the FBI has since offered a $150,000 reward for information leading to his capture. Four additional defendants who pleaded guilty received probation or time-served sentences. All three main defendants were ordered to pay $10,750,804 in joint and several restitution to the Aloha Shriners. The case, investigated by the FBI and IRS Criminal Investigation, is a reminder that a charity's name, decades of community trust, and a seemingly routine bingo night are no guarantee that donated or wagered money actually reaches the cause it claims to support.`,
+    categorySlug: 'charity-scams',
+    alertLevel: 'high',
+    sources: ['U.S. Attorney\'s Office, Districts of Guam and the Northern Mariana Islands', 'Federal Bureau of Investigation (FBI)', 'Hawaii News Now', 'Pacific Daily News (postguam.com)'],
+    sourceUrl: 'https://www.hawaiinewsnow.com/2026/05/20/guam-fraud-case-tied-childrens-hawaii-hospital-travel-ends-107m-restitution/',
+    country: 'GU',
+  },
+);
