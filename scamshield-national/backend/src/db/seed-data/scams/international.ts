@@ -10929,3 +10929,16 @@ International.push(
     country: 'MS',
   },
 );
+
+International.push(
+  {
+    name: 'Burkina Faso Fake "Mobile Money Update" Account-Takeover Scam',
+    slug: 'burkina-faso-fake-mobile-money-update-account-takeover-scam',
+    description: `Burkina Faso's Central Cybercrime Brigade (Brigade Centrale de Lutte Contre la Cybercriminalité, BCLCC) issued a public alert on July 25, 2025 over a fast-spreading Mobile Money fraud in which callers impersonate staff from a mobile network operator and tell the victim their Mobile Money account urgently needs a "technical update." The caller follows up with an SMS containing a link, pressures the victim to click it to validate the supposed update, and then asks the victim to read back the one-time verification code sent to their phone; that code actually lets the scammer reset the account password and seize full control of the wallet, after which the fraudsters make unauthorized withdrawals and, in some cases, transfers out of any bank account linked to it. The BCLCC said more than 60 formal complaints had already been filed with financial losses exceeding 10 million CFA francs (roughly US$17,000), and warned that the real toll is likely higher since many victims never report the fraud. The unit's guidance to the public was direct: never communicate a Mobile Money verification code to anyone for any reason, and never click a link sent by SMS to "update" or "validate" a mobile-money account, since a legitimate operator never needs a customer to do either over the phone.`,
+    categorySlug: 'account-takeover',
+    alertLevel: 'high',
+    sources: ['Brigade Centrale de Lutte Contre la Cybercriminalité (BCLCC), Burkina Faso', 'KOACI', '24heures.bf', 'Wakat Séra'],
+    sourceUrl: 'https://www.koaci.com/article/2025/07/25/burkina-faso/societe/burkina-faso-la-brigade-de-cybercriminalite-alerte-sur-une-nouvelle-forme-darnaque-via-mobile-money_188893.html',
+    country: 'BF',
+  },
+);
