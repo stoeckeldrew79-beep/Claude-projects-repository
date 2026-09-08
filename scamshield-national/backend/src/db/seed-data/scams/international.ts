@@ -11090,3 +11090,38 @@ International.push(
     country: 'AF',
   },
 );
+
+International.push(
+  {
+    name: 'Fake Iranian Judiciary "Sana" SMS Phishing Malware',
+    slug: 'iran-fake-judiciary-sana-sms-phishing-malware',
+    description: `An SMS message impersonating Iran's Judiciary tells the recipient a complaint has been filed against them and links to a fake government page that prompts a download of an Android app posing as "Sana," Iran's real electronic judicial-notice system. Once installed, the fraudulent app shows a convincing fake Sana login screen and asks the victim to pay a small fee — as little as $1 — to view the supposed complaint, routing that "payment" through a fraudulent card-entry page that captures full card details and then intercepts the one-time passcodes banks text to confirm transactions, letting the operators drain the account behind the victim's back. The app also functions as a botnet: it hides its own icon to resist deletion, harvests the victim's text messages, and automatically forwards the same phishing link to their contacts to keep the campaign spreading. Check Point Research, which uncovered and mapped the operation, found evidence the campaign had been running for months and had compromised tens of thousands of credit cards by the time it was published. Recipients are advised never to install an app from a link in an unsolicited SMS and to verify any claimed judicial notice by going directly to Iran's official Sana portal rather than following a text link.`,
+    categorySlug: 'phishing',
+    isHistorical: true,
+    firstRecorded: '2021-12-02',
+    sources: ['Check Point Research', 'The Hacker News'],
+    sourceUrl: 'https://thehackernews.com/2021/12/researchers-warn-iranian-users-of.html',
+    country: 'IR',
+  },
+  {
+    name: 'CryptoLand Exchange Collapse and Bridge Oracle (BRG) Token Fraud',
+    slug: 'iran-cryptoland-exchange-bridge-oracle-fraud',
+    description: `CryptoLand marketed itself as Iran's largest cryptocurrency exchange while its founder, Sina Estavi, simultaneously promoted an associated token called Bridge Oracle (BRG) to the same user base as a can't-miss investment. After Estavi was arrested by Iranian authorities in May 2021 on charges of "disrupting the economic system," CryptoLand's operations collapsed and ordinary users found their deposited funds frozen and inaccessible; Iran's judiciary-run Mizan news website later reported that more than 51,000 people had filed complaints as plaintiffs. Estavi was ultimately sentenced to 15 years in prison and ordered to repay investors, but a later investigation by Iran International, based on leaked court files, found that the interrogators who had seized his crypto wallet during the "investigation" moved roughly six billion BRG tokens out of it within a day of his detention and sold them off themselves — pocketing tens of millions of dollars in what reporters described as a theft of the very funds investigators were supposed to be recovering for victims. Consumers are advised to treat any exchange or token promoted primarily by a single high-profile founder, with no independent custody of user funds and no way to verify reserves, as carrying an outsized risk that a single point of failure — arrest, fraud, or insider theft — can leave depositors with nothing.`,
+    categorySlug: 'cryptocurrency-scams',
+    isHistorical: true,
+    firstRecorded: '2021-05-01',
+    sources: ['Iran International', 'Decrypt'],
+    sourceUrl: 'https://www.iranintl.com/en/202503309549',
+    country: 'IR',
+  },
+  {
+    name: 'Fake Overseas Job Offer Scam Luring Foreign Travelers to Iran',
+    slug: 'iran-fake-job-offer-visa-free-scam',
+    description: `Criminal networks working with unlicensed travel agents have advertised high-paying jobs in Iran, or "assured" onward transit through Iran to a job in a third country, specifically targeting travelers eligible for Iran's visa-free tourist entry — most recently reported affecting Indian nationals — since a tourist visa is far easier and faster to obtain than a genuine work visa. Travelers who accept the offer and fly to Iran on a visa meant only for tourism have reportedly been kidnapped on arrival by criminal gangs who then demand ransom payments from their families back home before the traveler is released. India's Ministry of External Affairs issued advisories in September and again in November 2025 warning citizens that Iran's visa-free facility is not intended for employment travel and urging them to avoid any agent offering visa-free entry paired with a job or onward-transit promise; Iran responded by suspending visa-free entry for ordinary Indian passport holders effective 22 November 2025, citing the pattern of abuse. Travelers are advised to treat any job or transit offer that depends on entering a country via a tourist-only visa waiver as a strong warning sign, and to verify any overseas job directly with the employer through independently sourced contact details before departing.`,
+    categorySlug: 'employment-scams',
+    alertLevel: 'critical',
+    sources: ['India Ministry of External Affairs', 'Iran International', 'Press Trust of India'],
+    sourceUrl: 'https://www.newsonair.gov.in/external-affairs-ministry-cautions-indian-nationals-over-fake-job-offers-in-iran',
+    country: 'IR',
+  },
+);
