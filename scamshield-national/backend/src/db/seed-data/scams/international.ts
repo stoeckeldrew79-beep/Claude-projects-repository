@@ -10791,3 +10791,16 @@ International.push(
     country: 'AI',
   },
 );
+
+International.push(
+  {
+    name: `Curaçao Unlicensed "Curaçao Forex" Investment Platform`,
+    slug: 'curacao-unlicensed-curacao-forex-investment-platform',
+    description: `The Centrale Bank van Curaçao en Sint Maarten (CBCS) issued a public warning on May 18, 2026 about an outfit calling itself "Curaçao Forex," which had been promoting investment opportunities to the public through local newspapers and other advertising channels. The CBCS said the platform is not licensed, registered, or supervised by the central bank to offer any financial or investment services, despite trading on the territory's name to appear credible. The bank warned that investing with an unauthorized entity like this can result in the total loss of funds with little or no realistic chance of recovering the money afterward, since unlicensed providers fall outside the consumer protections and oversight that come with genuine regulation. The CBCS listed red flags shared by "Curaçao Forex" and similar schemes: promises of guaranteed or unusually high returns, so-called "exclusive" or time-limited opportunities, offers that seem too good to be true, and pressure to transfer money quickly. The advisory urged anyone approached with an investment pitch to verify the provider's licensing status through the CBCS's official Register of Supervised Institutions before signing any agreement or sending funds.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ['Centrale Bank van Curaçao en Sint Maarten (CBCS)', 'Curaçao Chronicle'],
+    sourceUrl: 'https://www.curacaochronicle.com/post/unknown/cbcs-warns-public-about-unlicensed-investment-platform-curacao-forex',
+    country: 'CW',
+  },
+);
