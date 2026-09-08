@@ -10838,3 +10838,29 @@ International.push(
     country: 'PW',
   },
 );
+
+International.push(
+  {
+    name: '"High-Paying Call Center" Job Ads Funneling Foreign Workers Into Timor-Leste Scam Compounds',
+    slug: 'timor-leste-scam-compound-job-ads-raids',
+    description: `Over a series of raids across Dili and the Oecusse-Ambeno special region between late June and mid-July 2026, Timor-Leste police dismantled more than a dozen fortified call-center compounds and arrested roughly 350 foreign workers, most of them Chinese and Indonesian nationals along with some Cambodians, on charges including money laundering, criminal association, and illegal online gaming. Investigators said the great majority of those detained had entered the country on ordinary tourist visas after answering online recruitment ads for well-paid "customer service," "IT support," or "online gaming" jobs abroad, only to have their travel documents taken away once they arrived — more than 50 of those arrested had no passport in their possession at all. Officers seized laptops, thousands of SIM cards, and multiple satellite internet terminals from the compounds, which were used to run online fraud schemes targeting victims overseas; one landlord told reporters he had been informed his tenants were merely "building a new convention centre." President Jose Ramos-Horta's government said the operations were being run out of buildings rented specifically to look unremarkable from the outside, and Secretary of State for Communication Espedito Dias Ximenes said the government "will not tolerate the use of national territory for transnational criminal activities, including electronic fraud, online fraud, money laundering, human trafficking, or other forms of organised crime." In response, authorities approved an Integrated National Plan for 2026-2031 aimed at combating scam networks and organized cybercrime. Consumer and labor advocates warn that anyone offered an unusually high-paying overseas job with vague duties, free flights, and a visa arranged entirely by the recruiter should treat a request to hand over their passport on arrival as a serious warning sign of a trafficking-linked scam operation rather than legitimate employment.`,
+    categorySlug: 'employment-scams',
+    alertLevel: 'critical',
+    sources: ['Australian Broadcasting Corporation (ABC News)', 'Government of Timor-Leste'],
+    sourceUrl: 'https://www.abc.net.au/pacific/programs/pacificbeat/timor-scam/106926152',
+    country: 'TL',
+  },
+);
+
+International.push(
+  {
+    name: 'Nauru FIU Warning on "BG Wealth Sharing" and "DSJ Exchange" Crypto Ponzi Scheme',
+    slug: 'nauru-bg-wealth-dsj-exchange-crypto-ponzi',
+    description: `The Nauru Financial Intelligence Unit (NFIU) issued a public alert on April 22, 2026, under the Anti-Money Laundering and Counter-Terrorism Financing Act 2023, warning residents against a cryptocurrency investment scheme circulating under the names "DSJ Exchange" (also styled DSJEX) and "BG Wealth Sharing," which promises guaranteed, zero-risk returns of up to 100 percent to anyone who deposits cryptocurrency and recruits new participants. NFIU Supervisor Rajas Swamy said the scheme spreads primarily through encrypted messaging apps such as WhatsApp, Telegram, Viber, and BonChat, where self-styled "mentors" push recruits to bring in friends and family, and that small early withdrawals are allowed through to build trust before larger deposits are demanded. Some promoters falsely claim the operation is registered with the U.S. Securities and Exchange Commission to appear legitimate. The alert warned that "once recruitment slows, all users are locked out of their accounts and the operators disappear," and that any request for an additional "withdrawal fee" before releasing funds is itself a red flag rather than a genuine step toward payment. New Zealand's Financial Markets Authority has linked the scheme to more than 800 websites and roughly 30 entities, and regulators in at least eight other jurisdictions — including Tonga, Samoa, Australia, New Zealand, the United Kingdom, the Philippines, the Bahamas, and Canada — have issued similar warnings as the operation moves between newly registered domains to stay ahead of takedowns. The NFIU urged anyone approached about BG Wealth Sharing, DSJ Exchange, or similarly branded "opportunities" to avoid depositing funds and to verify any investment offer through a recognized financial regulator before sending money or cryptocurrency.`,
+    categorySlug: 'cryptocurrency-scams',
+    alertLevel: 'high',
+    sources: ['Nauru Financial Intelligence Unit (NFIU)', 'Island Times', 'Pacific Islands News Association (PINA)'],
+    sourceUrl: 'https://islandtimes.org/nauru-financial-intelligence-unit-flags-crypto-scam-warns-public-promises-of-guaranteed-returns/',
+    country: 'NR',
+  },
+);
