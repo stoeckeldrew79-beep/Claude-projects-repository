@@ -2385,3 +2385,15 @@ UsTZ.push({
     country: 'US',
     state: 'TN',
 });
+
+UsTZ.push({
+    name: "Wood County Trucker's Fictitious Fuel-Station Fraud (Jeffrey Jeffers)",
+    slug: 'west-virginia-wood-county-jeffers-fictitious-fuel-station-fraud',
+    description: `Jeffrey Jeffers, 35, of Williamstown, West Virginia, drove delivery trucks for a large industrial gas company out of its Wood County distribution facility, and like other drivers there was issued a company fuel credit card because his trucks were normally refueled on-site before every route. Between November 2022 and July 2024, prosecutors say Jeffers instead registered several "fictitious service stations" as merchant accounts with the mobile payment processors Square and Stripe — using an address tied to a relative in Canton, Ohio — and then charged a total of $510,465.19 in phony fuel purchases to his company card at those made-up stations, funneling the money into an account he controlled once each transaction cleared. The scheme unraveled in part because Jeffers' delivery routes never actually required him to refuel anywhere outside the company's own facility, a discrepancy that showed up clearly once investigators compared his card charges against his logged routes. Jeffers pleaded guilty to one count of wire fraud in the U.S. District Court for the Southern District of West Virginia; he is scheduled to be sentenced on November 9, 2026, and faces up to 20 years in prison, up to three years of supervised release, a fine of as much as $250,000, and the $510,465.19 he already owes in restitution. The case is a warning to any business that issues employees fuel or expense cards: modern payment platforms like Square and Stripe let anyone spin up a plausible-looking "merchant" account in minutes, so card charges should be reconciled regularly against actual delivery routes, GPS logs, or timesheets rather than accepted at face value because the vendor name looks legitimate.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'low',
+    sources: ["U.S. Attorney's Office, Southern District of West Virginia", 'WCHS-TV', 'FreightWaves'],
+    sourceUrl: 'https://www.justice.gov/usao-sdwv/pr/wood-county-man-pleads-guilty-51046519-fraud-scheme',
+    country: 'US',
+    state: 'WV',
+});
