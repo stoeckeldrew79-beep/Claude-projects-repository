@@ -4048,3 +4048,15 @@ UsNS.push({
     country: 'US',
     state: 'RI',
 });
+
+UsNS.push({
+    name: 'Washoe County Amazon-Text Federal Agent Gold Courier Scam (Kumar & Bhanwala-Singh)',
+    slug: 'nevada-washoe-county-kumar-bhanwala-singh-gold-courier-scam',
+    description: `A 64-year-old woman received a text message warning of a fraudulent Amazon charge and called the number it provided, reaching a scammer posing as a federal agent who falsely told her she was under investigation for money laundering and that her assets needed to be surrendered to prove her innocence. Following the caller's instructions, she converted roughly $500,000 of her savings and retirement account into cash and gold and, over three separate trips, delivered the funds to couriers who met her in California before the scheme moved into Reno, Nevada. Reno Police and the Washoe County District Attorney's Office identified the couriers as Amit Bhanwala-Singh, of Clovis, California, and Anil Kumar, of Fresno, California, both accused of collecting the stolen cash and gold on the callers' behalf; a joint sting operation led to their arrest. A Washoe County jury convicted Bhanwala-Singh on March 11, 2026 of exploitation of an elderly person and attempting to obtain money under false pretenses, and he was sentenced to 35 years in prison; Kumar was convicted on the same charges on August 4, 2026 and faces up to 40 years at his sentencing, scheduled for September 24, 2026 before Judge David Hardy. "Older members of our community deserve protection, dignity, and peace of mind, not manipulation and financial devastation at the hands of organized fraudsters," the Washoe County District Attorney's Office said in announcing the case. No genuine federal agent will ever contact someone by text message about a fraud investigation, demand that savings be converted into gold or cash, or send a courier to collect it in person — that instruction is itself the scam, and anyone who receives it should hang up, avoid clicking any link in the original text, and independently verify the claim by calling their bank or the FBI directly.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ["Washoe County District Attorney's Office", 'KOLO 8 News Now', 'Fox Reno (KRXI)'],
+    sourceUrl: 'https://washoelife.washoecounty.gov/da/victim-loses-half-a-million-dollars-in-scam/',
+    country: 'US',
+    state: 'NV',
+});
