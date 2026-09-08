@@ -10825,3 +10825,16 @@ International.push(
     country: 'CW',
   },
 );
+
+International.push(
+  {
+    name: 'Palau Cloned Island Times Website and Fake President Whipps Social Accounts',
+    slug: 'palau-cloned-island-times-website-fake-president-social-accounts',
+    description: `Government officials and media leaders in Palau issued public warnings in May 2026 after discovering a cloned version of the Island Times news website along with fraudulent Facebook and Instagram accounts spreading fabricated stories about President Surangel S. Whipps Jr. Island Times Publisher Leilani Reklai said her first assumption was that the outlet's real website had been hacked, before determining that scammers had instead built a convincing copycat site designed to mimic the paper's authentic reporting and pass off fabricated articles as genuine news. The Office of the President confirmed it was working with Meta Platforms to remove the fake accounts and posts, and advised the public to rely only on verified government channels and official social media pages for accurate information. Authorities urged residents to carefully check website URLs before trusting what they read, confirm that a social media account carries official verification before believing its posts, avoid clicking suspicious links or entering sensitive information into unfamiliar sites, and pause to verify the source of an alarming or emotionally charged story before sharing it. Officials noted that scammers commonly use this kind of urgent, emotionally charged fake content specifically to manipulate people into typing passwords or financial details into a look-alike page.`,
+    categorySlug: 'phishing',
+    alertLevel: 'high',
+    sources: ['Office of the President, Republic of Palau', 'Island Times'],
+    sourceUrl: 'https://islandtimes.org/fake-news-posts-prompt-warnings-over-online-scams-and-deepfakes-in-palau/',
+    country: 'PW',
+  },
+);
