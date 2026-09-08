@@ -4096,3 +4096,15 @@ UsNS.push({
     country: 'US',
     state: 'NC',
 });
+
+UsNS.push({
+    name: 'Manchester "Legacy at Laconia" Real Estate Investment Fraud (Robynne Alexander)',
+    slug: 'new-hampshire-manchester-robynne-alexander-laconia-investment-fraud',
+    description: `Robynne Alexander, 63, of Manchester, New Hampshire, ran a self-styled real estate investment coaching business that solicited nearly two dozen investors to put money into a series of her development projects, including a widely publicized pitch to buy the former Laconia State School property and turn it into a housing complex called "Legacy at Laconia." Alexander told the state she would pay $21.5 million for the property, but according to the U.S. Attorney's Office for the District of New Hampshire, she never had the financing to make good on that offer or on the returns she had promised investors, and instead used incoming investor funds to pay earlier investors and personal expenses while the Laconia project and her other developments never got off the ground. Alexander pleaded guilty to one count of wire fraud on July 16, 2025, and on October 15, 2025, U.S. District Court Judge Samantha D. Elliott sentenced her to 30 months in federal prison, three years of supervised release, and ordered her to pay $2,873,000 in restitution to the investors she defrauded of more than $3 million in total. The case is a reminder that a high-profile, publicly announced project — even one involving a real government-owned property and real public negotiations — is not itself proof that an individual developer has the financing or intention to deliver on investor promises; prospective investors should independently verify a developer's financing and track record and consult a financial or legal advisor before wiring money into a private real estate deal.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office, District of New Hampshire", 'New Hampshire Public Radio', 'Union Leader'],
+    sourceUrl: 'https://www.justice.gov/usao-nh/pr/manchester-woman-sentenced-30-months-federal-prison-defrauding-dozens-victims-more-3',
+    country: 'US',
+    state: 'NH',
+});

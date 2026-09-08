@@ -4236,3 +4236,15 @@ UsGM.push({
     country: 'US',
     state: 'MS',
 });
+
+UsGM.push({
+    name: 'Maui Investment Fraud Fugitive (Jeffrey William Snyder)',
+    slug: 'hawaii-maui-jeffrey-snyder-investment-fraud-fugitive',
+    description: `The Hawaii Department of the Attorney General's Special Investigation and Prosecution Division is asking for the public's help locating Jeffrey William Snyder, 57, who is wanted on a $50,000 warrant of arrest after allegedly using an investment scheme to steal more than $50,000 from a Maui man. Prosecutors say that between August 9, 2022 and April 17, 2023, Snyder obtained unauthorized control over the victim's property "in the form of an investment contract," though the department has not publicly detailed exactly how the scheme itself was structured. Snyder was charged by criminal information with theft in the first degree on October 20, 2025, and a judge issued the arrest warrant the following day; as of the department's November 5, 2025 news release, he remained at large and his whereabouts were unknown. The case is a reminder that an "investment contract" offered informally by an individual — rather than through a registered broker-dealer or investment adviser — deserves the same scrutiny as any other unsolicited pitch: verify the person and the opportunity independently, in writing, before handing over money, since a private contract offers little protection once the person who signed it disappears. Anyone with information on Snyder's whereabouts is asked to submit a tip to the Special Investigation and Prosecution Division through the Attorney General's website.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'medium',
+    sources: ["Hawaii Department of the Attorney General", 'Maui Now', 'Hawaii News Now'],
+    sourceUrl: 'https://mauinow.com/2025/11/05/man-wanted-for-allegedly-using-investment-scam-to-steal-50000-from-maui-man/',
+    country: 'US',
+    state: 'HI',
+});
