@@ -2495,6 +2495,54 @@ UsTZ.push({
 });
 
 UsTZ.push({
+    name: 'Warrenton "Ability Unlimited" Medicaid Home-Modification Overbilling Scheme',
+    slug: 'virginia-warrenton-ability-unlimited-medicaid-overbilling-scheme',
+    description: `Keri Ayres, 50, of Warrenton, Virginia, was charged by information with conspiracy to commit health care fraud over a scheme run through her company, Ability Unlimited, a Virginia Medicaid provider whose business centered on facilitating — but not actually performing — environmental modifications for Medicaid recipients, such as installing wheelchair ramps or shower grab bars. Because Medicaid does not allow a facilitator that performs no actual labor to charge a separate profit margin, prosecutors say Ayres directed employees to hide arbitrary and often exorbitant markups inside inflated subcontractor costs on altered invoices. In one example cited by prosecutors, Ability Unlimited bought a generator from Amazon.com for less than $1,000 and had it shipped directly to the Medicaid recipient, then billed Medicaid $3,395.16 for it — listing a falsified generator cost of $2,610.16 on the invoice plus $785 in labor, despite the unit going straight from Amazon to the recipient's home with no installation labor by Ability Unlimited at all. Investigators say the scheme cost Medicaid approximately $245,000. The U.S. Attorney's Office for the Eastern District of Virginia announced the charges as part of the Justice Department's 2025 National Health Care Fraud Takedown. Families relying on a Medicaid-approved vendor for home or vehicle modifications should ask for an itemized invoice showing the actual cost of materials and labor, and can compare a billed item's price against its retail cost — a wide gap between what something costs to buy and what Medicaid was billed is a red flag worth reporting to the state Medicaid Fraud Control Unit.`,
+    categorySlug: 'medicare-health-plans',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office, Eastern District of Virginia", 'U.S. Department of Justice'],
+    sourceUrl: 'https://www.justice.gov/usao-edva/pr/us-attorney-erik-s-siebert-announces-charges-part-dojs-national-health-care-fraud',
+    country: 'US',
+    state: 'VA',
+});
+
+UsTZ.push({
+    name: 'Fairfax County $1.3 Million "Pig Butchering" Crypto Scam (Sukanya Jude)',
+    slug: 'virginia-fairfax-sukanya-jude-pig-butchering-crypto-scam',
+    description: `Sukanya Jude, 61, of Fairfax County, Virginia, lost $1.3 million after a stranger built a friendship with her through a messaging app and, over time, pitched what looked like a legitimate cryptocurrency investment opportunity. Over about three months she deposited more than $1.3 million into what appeared to be a real crypto account, using a link the scammer provided; the fake platform showed her deposits and gains through a convincing app-style interface, creating the illusion of steady, legitimate profit while the money was actually going straight to the fraudster. Fairfax County Police and the U.S. Secret Service are investigating. Dr. Alex V. Mbaziira, an associate professor of cyber and AI at Marymount University, told reporters covering the case, "If the gains are unrealistic, stay away. That's a no-no." Red flags in Jude's case, typical of this "pig butchering" pattern nationally, included the scammer's refusal to ever speak by phone or video, requests that she keep the investment secret from family, and gradual social isolation from people who might have warned her. Anyone contacted out of the blue online by someone who quickly pivots a friendship toward a crypto investment opportunity — especially one who avoids voice or video contact and asks for secrecy — should treat that combination as a scam in progress, not a lucky break.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ['FOX 5 DC', 'Fairfax County Police Department'],
+    sourceUrl: 'https://www.fox5dc.com/news/what-is-pig-butchering-virginia-woman-scammed-out-1-3m-crypto-fraud',
+    country: 'US',
+    state: 'VA',
+});
+
+UsTZ.push({
+    name: 'Mount Juliet "Dynamic Therapy Center" TennCare Billing Fraud Lawsuit',
+    slug: 'tennessee-mount-juliet-dynamic-therapy-center-tenncare-fraud-lawsuit',
+    description: `Tennessee Attorney General Jonathan Skrmetti filed a lawsuit on September 10, 2025 against Karyn Kurth and Michelle Hill, former owners of Dynamic Therapy Center, LLC, a now-defunct physical, occupational, and speech therapy clinic in Mount Juliet, accusing them of systematically defrauding TennCare between 2020 and 2023. According to the suit, the clinic billed TennCare for individual therapy sessions — which the program reimburses at a higher rate — while the children enrolled were actually receiving group sessions the clinic ran as "camps," pocketing the difference between the group rate actually delivered and the individual rate falsely claimed. The state is seeking recovery of more than $300,000 in fraudulent payments, plus treble damages and civil penalties ranging from $14,308 to $28,619 per violation under the Tennessee Medicaid False Claims Act. The Tennessee Bureau of Investigation's Medicaid Fraud Control Division and the Attorney General's Civil Medicaid Fraud Division built the case after a referral from TennCare's Office of Program Integrity. Skrmetti's office said it remains committed to holding "fraudsters who abuse our trust" accountable for taxpayer-funded health benefits. Parents whose child receives Medicaid-funded therapy can ask the provider directly whether a billed "individual session" was actually one-on-one, and can request a copy of TennCare's explanation-of-benefits statement to compare the service billed against the service the child actually received.`,
+    categorySlug: 'medicare-health-plans',
+    alertLevel: 'medium',
+    sources: ['Tennessee Attorney General (Jonathan Skrmetti)'],
+    sourceUrl: 'https://www.tn.gov/attorneygeneral/news/2025/9/10/pr25-47.html',
+    country: 'US',
+    state: 'TN',
+});
+
+UsTZ.push({
+    name: 'Nashville Bank of America Employee\'s $139,000 Theft From Elderly Customers (Karl Stephen Richardson)',
+    slug: 'tennessee-nashville-bank-of-america-richardson-elder-customer-theft',
+    description: `The Metro Nashville Police Department's Fraud Unit arrested Karl Stephen Richardson, a former Bank of America employee at the bank's Harding Pike branch, after a four-month investigation that opened when Bank of America itself filed a complaint. Police say Richardson processed 19 counter withdrawals totaling more than $60,000 from a 75-year-old customer's account between July 25 and November 21, 2025 — in several instances handing her less cash than the amount actually withdrawn — and separately made 11 unauthorized ATM withdrawals totaling $8,000 from the same account, for a calculated loss of $68,400. A second case involved an 86-year-old customer Richardson had cultivated a personal friendship with since starting at the branch in early 2022; after Adult Protective Services referred her case to police, detectives found more than 100 unauthorized transactions on her account — ATM withdrawals, branch cash withdrawals, debit card purchases, and Zelle transfers — totaling nearly $70,932. Richardson left Bank of America in November 2025 for a job at Simmons Bank in Bellevue, and the elderly friendship victim followed him there, opening a new account at his new branch at his encouragement; her son closed that account before any fraudulent activity could occur there. Richardson faces two counts each of financial exploitation of an elderly adult, computer fraud, felony theft, identity theft, and credit card fraud, with combined losses of $139,332 and bond set at $370,000. The case illustrates that a bank employee's personal friendliness toward an older customer is not, by itself, reassuring — families of elderly bank customers should periodically review statements for unfamiliar ATM, debit, or Zelle activity, and should be wary if a relative describes a particular bank employee as a personal friend who helps with their account.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'high',
+    sources: ['NewsChannel5 Nashville (WTVF)', 'Metro Nashville Police Department', 'WSMV'],
+    sourceUrl: 'https://www.newschannel5.com/news/state/tennessee/davidson-county/former-nashville-banker-charged-with-stealing-139k-from-elderly-customers',
+    country: 'US',
+    state: 'TN',
+});
+
+UsTZ.push({
     name: 'Sterling "Fake Real Estate Agent" Rental Deposit Scheme (Kimberly Vu)',
     slug: 'virginia-sterling-loudoun-vu-fake-real-estate-agent-rental-scam',
     description: `Kimberly Vu, 45, of Sterling, Virginia, posed online as a real estate agent offering homes, townhouses, and rooms for rent across Loudoun County, according to the Loudoun County Sheriff's Office, collecting security deposits and first month's rent from prospective tenants who found her listings on sites like Facebook Marketplace and then never received the housing she promised. In some instances investigators say Vu had rented the property herself and staged it to look available, collecting money from a victim while never intending to hand over a key, and in at least one case a victim, Prathyusha Aavula, said Vu changed the locks and seized her belongings — including her passport, clothing, and jewelry — after she had already moved in, telling her "I don't know you" when she tried to get back inside. Another victim, Tiffany Najera, told reporters she paid $7,500 toward a rental that kept getting pushed back with excuses before Vu stopped responding and never refunded the money, while a third victim, Luqman Al-Rashad, paid $3,100 for a basement unit and was left without housing for three weeks. A Loudoun County grand jury indicted Vu on May 18, 2026 on 26 counts of obtaining money by false pretenses; a second indictment weeks later added 15 more counts of the same charge along with abduction of a minor, contributing to the delinquency of a minor, and assault and battery. Sheriff Mike Chapman's office estimates Vu took more than $100,000 from the 26 victims named in the charges alone, and says additional victims have come forward since her arrest. Renters are urged to insist on touring a property and meeting the purported landlord or agent in person before paying anything, to verify a real estate agent's license through the Virginia Department of Professional and Occupational Regulation, and to pay a deposit only after signing a lease that names the actual property owner — never by wire transfer, cash app, or gift card to someone who has offered no in-person proof they control the unit.`,
