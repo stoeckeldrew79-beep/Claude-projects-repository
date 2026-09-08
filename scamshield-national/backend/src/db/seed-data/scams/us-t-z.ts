@@ -2457,3 +2457,15 @@ UsTZ.push({
     country: 'US',
     state: 'WI',
 });
+
+UsTZ.push({
+    name: 'Multi-County Bad-Check and Fake Group-Trip Fraud Scheme (Dalton Slangerup)',
+    slug: 'utah-dalton-slangerup-multi-county-bad-check-fraud',
+    description: `Between July 2024 and January 2025, Dalton Slangerup, 31, of Lehi, ran a fraud scheme across Utah, Davis, Weber, Salt Lake, Box Elder, and Iron Counties that combined bad-check fraud against businesses with a fake group-trip scam against individual victims. In the vehicle scheme, Slangerup showed sellers doctored screenshots of bank balances and promised wire transfers or cashier's checks, then handed over personal checks that showed as temporarily credited before bouncing — hitting Larry H. Miller Ford for a $107,000 truck, Steadman's in Tooele for a $21,000 snowmobile and gear plus two more bounced checks, and Integrity Motors in Orem for $20,000 covering five e-bikes, and in several cases keeping the property even after sellers were formally notified the payment had failed. Separately, Slangerup offered to organize a group trip to Lake Powell for $400 per person; victim Amanda Morrell said about 20 of her friends signed up, and on the day of departure Slangerup texted that he had a family emergency and could not go — the group later discovered no reservation had ever existed. The Utah Attorney General's Office prosecuted the case, and Slangerup pleaded guilty on December 3, 2025 to two counts of theft, two counts of issuing a bad check or draft, and one count of theft by deception, all originally charged as second-degree felonies alongside communications fraud and tax evasion counts. On January 14, 2026, he was sentenced to one to fifteen years in the Utah State Prison on each count, running concurrently, and ordered to pay $246,983.71 in full restitution to his victims. The case is a reminder that a check "clearing" a bank's provisional hold within a day or two is not the same as the check being good — funds can still be reversed days later — and that anyone organizing or joining a group trip through an individual rather than a licensed travel agency or tour operator should ask to see an actual reservation confirmation from the hotel, outfitter, or resort before paying.`,
+    categorySlug: 'fake-check-overpayment',
+    alertLevel: 'medium',
+    sources: ["Utah Attorney General's Office", 'KSL.com', 'Cache Valley Daily'],
+    sourceUrl: 'https://attorneygeneral.utah.gov/dalton-slangerup-conviction/',
+    country: 'US',
+    state: 'UT',
+});
