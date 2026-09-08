@@ -279,19 +279,141 @@ const ART: Record<string, () => JSX.Element> = {
   'marcus-schrenker-faked-plane-crash-fraud': SchrenkerArt,
 };
 
-function FallbackArt() {
+// 17 of the 786 profiles have a bespoke illustration. The rest used to share
+// one grey circle, so any page of them read as a page of missing images
+// rather than as a collection. These are generated from the slug instead:
+// same abstract vocabulary, no likenesses, but a palette and motif that are
+// stable for a given profile and different between profiles.
+//
+// FNV-1a, for a well-mixed hash from a short string. Math.imul keeps the
+// multiply in 32-bit; a plain * silently loses precision past 2^53 and the
+// low bits stop varying, which is exactly what this depends on.
+function hashSlug(slug: string): number {
+  let h = 2166136261;
+  for (let i = 0; i < slug.length; i += 1) {
+    h ^= slug.charCodeAt(i);
+    h = Math.imul(h, 16777619);
+  }
+  return h >>> 0;
+}
+
+// Drawn from the palettes the bespoke illustrations already use, so a mixed
+// grid reads as one collection rather than two.
+const FALLBACK_PALETTES: Array<{ bg: [string, string]; accent: string }> = [
+  { bg: ['#152848', '#0a121f'], accent: '#5b86c4' },
+  { bg: ['#3a2712', '#1c1206'], accent: '#caa25c' },
+  { bg: ['#2a1520', '#150a10'], accent: '#c4708f' },
+  { bg: ['#14302a', '#091814'], accent: '#5fae94' },
+  { bg: ['#2b1f3d', '#150f1e'], accent: '#9b82c9' },
+  { bg: ['#3b1f1c', '#1d0f0e'], accent: '#d1795f' },
+  { bg: ['#1b3038', '#0d181c'], accent: '#6aa8bd' },
+  { bg: ['#332d16', '#19160b'], accent: '#bdb15f' },
+];
+
+// Six motifs, each parameterised by the hash, so the variation is in the
+// drawing and not only the colour.
+function fallbackMotif(kind: number, accent: string, h: number) {
+  const v = (shift: number, mod: number) => (h >>> shift) % mod;
+  switch (kind) {
+    case 0: // radiating lines from an off-centre origin
+      return Array.from({ length: 12 + v(3, 8) }).map((_, i, arr) => {
+        const a = (i / arr.length) * Math.PI * 2;
+        return (
+          <line
+            key={i}
+            x1={140 + v(5, 120)}
+            y1={70 + v(7, 100)}
+            x2={140 + v(5, 120) + Math.cos(a) * 300}
+            y2={70 + v(7, 100) + Math.sin(a) * 300}
+            stroke={accent}
+            strokeWidth="2"
+            opacity="0.3"
+          />
+        );
+      });
+    case 1: // columns of varying height
+      return Array.from({ length: 9 }).map((_, i) => {
+        const height = 40 + ((h >>> (i % 20)) % 130);
+        return <rect key={i} x={24 + i * 42} y={240 - height} width="24" height={height} fill={accent} opacity="0.45" />;
+      });
+    case 2: // concentric rings
+      return Array.from({ length: 5 }).map((_, i) => (
+        <circle
+          key={i}
+          cx={150 + v(9, 110)}
+          cy="120"
+          r={22 + i * (16 + v(11, 12))}
+          fill="none"
+          stroke={accent}
+          strokeWidth="2"
+          opacity={0.5 - i * 0.07}
+        />
+      ));
+    case 3: // scattered nodes joined to a hub
+      return Array.from({ length: 7 + v(13, 5) }).map((_, i) => {
+        const a = (i / 9) * Math.PI * 2 + v(15, 10) / 10;
+        const x = 200 + Math.cos(a) * (70 + ((h >>> i) % 90));
+        const y = 120 + Math.sin(a) * (50 + ((h >>> (i + 3)) % 60));
+        return (
+          <g key={i}>
+            <line x1="200" y1="120" x2={x} y2={y} stroke={accent} strokeWidth="1.5" opacity="0.3" />
+            <circle cx={x} cy={y} r={3 + (i % 3)} fill={accent} opacity="0.7" />
+          </g>
+        );
+      });
+    case 4: // diagonal bands
+      return Array.from({ length: 6 }).map((_, i) => (
+        <rect
+          key={i}
+          x={-60 + i * (70 + v(17, 20))}
+          y="-40"
+          width={14 + v(19, 16)}
+          height="320"
+          fill={accent}
+          opacity="0.22"
+          transform="rotate(18 200 120)"
+        />
+      ));
+    default: // a descending line over a faint grid
+      return (
+        <>
+          {Array.from({ length: 8 }).map((_, i) => (
+            <line key={i} x1={i * 50} y1="0" x2={i * 50} y2="240" stroke={accent} strokeWidth="1" opacity="0.12" />
+          ))}
+          <polyline
+            points={Array.from({ length: 6 })
+              .map((_, i) => `${20 + i * 72},${60 + ((h >>> (i * 3)) % 130)}`)
+              .join(' ')}
+            fill="none"
+            stroke={accent}
+            strokeWidth="3"
+            opacity="0.75"
+          />
+        </>
+      );
+  }
+}
+
+function FallbackArt({ slug }: { slug: string }) {
+  const h = hashSlug(slug);
+  const palette = FALLBACK_PALETTES[h % FALLBACK_PALETTES.length];
+  const kind = (h >>> 8) % 6;
+  // The frame id must be unique per instance: these <svg> elements share one
+  // DOM, and a repeated gradient id means every copy paints with whichever
+  // definition the browser saw first. That was harmless while every fallback
+  // was identical and would not be now.
   return (
-    <CoverFrame id="fallback" colors={['#242422', '#121211']}>
-      <circle cx="200" cy="120" r="50" fill="none" stroke="#898781" strokeWidth="2" />
+    <CoverFrame id={`fb-${slug}`} colors={palette.bg}>
+      {fallbackMotif(kind, palette.accent, h)}
     </CoverFrame>
   );
 }
 
 export function NotoriousCoverArt({ slug, className = '' }: { slug: string; className?: string }) {
-  const Art = ART[slug] ?? FallbackArt;
+  const Art = ART[slug];
   return (
     <div className={`overflow-hidden ${className}`}>
-      <Art />
+      {Art ? <Art /> : <FallbackArt slug={slug} />}
     </div>
   );
 }
