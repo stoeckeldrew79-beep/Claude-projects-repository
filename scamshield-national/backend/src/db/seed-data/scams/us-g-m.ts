@@ -4152,3 +4152,15 @@ UsGM.push({
     country: 'US',
     state: 'HI',
 });
+
+UsGM.push({
+    name: 'Maine "Wrong Number" Pig-Butchering Crypto Investment Scheme',
+    slug: 'maine-wrong-number-pig-butchering-crypto-scheme-recovery',
+    description: `The U.S. Attorney's Office for the District of Maine announced on March 13, 2026 that the Department of Justice would return $470,735 to two Maine residents who lost more than $800,000 in 2022 to a "pig butchering" cryptocurrency scheme. According to court records, the scam began the way these schemes typically do: scammers using fake identities made first contact through a messaging app or social media, in one instance claiming to have reached the victim by a wrongly dialed number, then spent days or weeks building a relationship before steering the conversation toward a supposed investment opportunity. The victims were directed to a fake trading platform showing fabricated returns and sent cryptocurrency payments believing they were investing; when they tried to withdraw their money, they were told to pay additional "fees" or "taxes" first, and no funds were ever returned. The FBI traced roughly $800,000 of the stolen cryptocurrency to wallets it could seize, recovering 470,773 USDT (a dollar-pegged stablecoin), and the U.S. Attorney's Office filed a civil forfeiture action that let the court order the funds returned to the two victims — with Tether Limited's cooperation credited in freezing and transferring the tokens. Announcing the recovery, the U.S. Attorney's Office urged Mainers to "stay cautious when it comes to any cryptocurrency transactions" and to report suspected scams immediately, since the FBI can only attempt to trace and seize stolen crypto while it remains identifiable in specific wallets — a window that narrows the longer a victim waits to report a loss. Anyone approached online by a new contact who steers the relationship toward a cryptocurrency trading platform, especially one reached through an unsolicited message or a supposed wrong number, should treat the investment pitch itself as the red flag and verify any platform independently before sending money.`,
+    categorySlug: 'cryptocurrency-scams',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office, District of Maine", 'WGME', 'PenBay Pilot'],
+    sourceUrl: 'https://www.justice.gov/usao-me/pr/department-justice-return-470735-victims-cryptocurrency-investment-scheme',
+    country: 'US',
+    state: 'ME',
+});

@@ -4000,3 +4000,27 @@ UsNS.push({
     country: 'US',
     state: 'NH',
 });
+
+UsNS.push({
+    name: 'Jones County FBI-Impersonation Bank-Account Scam (Christopher Murray)',
+    slug: 'north-carolina-jones-county-fbi-impersonation-bank-scam-murray',
+    description: `The North Carolina State Bureau of Investigation spent roughly a month investigating a scam reported by a Jones County family before arresting Christopher Aaron Murray, 40, of Cary, at Charlotte Douglas International Airport on April 26, 2026. Investigators say Murray contacted the family by phone posing as an FBI agent, falsely telling them their bank account had been compromised and pressuring them into handing over payment to resolve the fabricated problem. Charlotte-Mecklenburg Police carried out the arrest, and Murray was booked into the Mecklenburg County Detention Center on felony conspiracy, felony obtaining property by false pretenses, felony exploitation of a disabled or elderly person in a position of trust, and impersonating a law enforcement officer, before posting a $7,500 secured bond and being released ahead of his first court appearance. The SBI said its investigation remains open and that additional victims may exist. No genuine FBI agent resolves a "compromised" bank account over the phone or by collecting payment in person — anyone who gets a call like this should hang up and contact their bank directly using the number printed on a card or statement, never one supplied by the caller, and should report the contact to local law enforcement or the SBI.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['North Carolina State Bureau of Investigation', 'WSOC-TV', 'WRAL'],
+    sourceUrl: 'https://www.wsoctv.com/news/local/alleged-scammer-arrested-charlotte-airport-sbi-says/DTTNIWEF5JGHNIDUCRSKWKZXCA/',
+    country: 'US',
+    state: 'NC',
+});
+
+UsNS.push({
+    name: 'Sioux Falls TikTok "Content Creator" Cryptocurrency Scam',
+    slug: 'south-dakota-sioux-falls-tiktok-content-creator-crypto-scam',
+    description: `Sioux Falls police disclosed in May 2026 that a 73-year-old Sioux Falls woman lost nearly $400,000 after someone claiming to be the creator of a TikTok account she followed reached out to her directly following a comment she had left on one of the account's videos. Over the following year, the impostor built a rapport with her and steered the conversation toward cryptocurrency investing, and she sent wire transfers totaling roughly $200,000 in installments as instructed. When the same contact later pitched a related "credit-card system" investment opportunity, she took out a home-equity loan against her house and wired an additional $197,000, bringing her total loss to about $397,000; she discovered the fraud only when she checked the investment account and found a balance of zero. The Sioux Falls Police Department said the case shows how scammers increasingly open contact by posing as a familiar online personality rather than a stranger — a single flattering reply to a comment can be the opening move in a relationship that plays out over months before any money changes hands. Anyone contacted out of the blue by an account claiming to be a content creator they follow, especially one that pivots to a cryptocurrency or investment pitch, should assume the message is not from the real account and should never wire money or take out a loan based on investment advice from someone known only through an online exchange.`,
+    categorySlug: 'cryptocurrency-scams',
+    alertLevel: 'high',
+    sources: ['Sioux Falls Police Department', 'Dakota News Now'],
+    sourceUrl: 'https://www.dakotanewsnow.com/2026/05/18/73-year-old-woman-loses-nearly-400000-tiktok-cryptocurrency-scam/',
+    country: 'US',
+    state: 'SD',
+});
