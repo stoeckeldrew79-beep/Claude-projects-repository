@@ -4200,3 +4200,27 @@ UsGM.push({
     country: 'US',
     state: 'MO',
 });
+
+UsGM.push({
+    name: 'Westfield Dating-Site "Lewis" Construction-Investment Romance Scam (Pat Breitkreuz)',
+    slug: 'indiana-westfield-breitkreuz-lewis-romance-scam',
+    description: `Pat Breitkreuz, an 84-year-old widow from Westfield, Indiana, met a man calling himself "Lewis" on a dating website built for older adults; he told her he was 62 and worked for a construction company based in Montreal. Over weeks of daily calls and messages Breitkreuz said she fell for him — "I fell in love with him. It got extremely romantic. He just drew me in," she told WRTV Investigates — and she sent him five separate checks to help cover costs for his construction business. "Lewis" then emailed her a formal contract asking her to invest $500,000 in the company, listing a Fort Wayne address for its headquarters; when Breitkreuz grew suspicious and drove to that address in person, she found no such business there. "He stopped calling and texting after about 30 days when I realized I didn't have any more money," she said. "I was heartbroken." By the time the contact went silent, she had sent a total of $98,547. A family member filed reports with the Westfield Police Department and the FBI on her behalf. Scott Barnhart, director of consumer protection at the Indiana Attorney General's Office, said cases like hers are difficult to prosecute because "these are very sophisticated operations. A lot of this is offshore and it's very difficult to pursue foreign entities." Anyone who has never met an online love interest in person and is asked to send money, write checks, or "invest" in that person's business should treat the request as a red flag regardless of how genuine the relationship feels, and should independently verify any business address or company name before sending a cent.`,
+    categorySlug: 'romance-scams',
+    alertLevel: 'high',
+    sources: ['WRTV Investigates', "Indiana Attorney General's Office (Scott Barnhart)"],
+    sourceUrl: 'https://www.wrtv.com/news/wrtv-investigates/i-fell-in-love-westfield-woman-83-heartbroken-after-losing-98k-in-online-romance-scam',
+    country: 'US',
+    state: 'IN',
+});
+
+UsGM.push({
+    name: 'Cordova Court-Appointed Guardian Social Security and Bank Account Exploitation (Linda Laird)',
+    slug: 'maryland-cordova-linda-laird-guardian-elder-exploitation',
+    description: `Linda Laird, 62, of Cordova, Maryland, was appointed in November 2017 alongside her parents, James and Joyce Blizzard, as a co-guardian and co-conservator of her own grandmother — an 81-year-old vulnerable adult with severe cognitive impairments — by the Superior Court of the District of Columbia. After Joyce Blizzard died in June 2018, Laird and her father continued serving as co-guardians and, prosecutors said, used that court-granted authority to redirect their ward's Social Security benefits and drain her checking account into their own personal bank accounts, spending the stolen money on jewelry, designer shoes, and football tickets rather than their grandmother's care. In total, prosecutors said Laird and Blizzard stole more than $21,000 in Social Security benefits and took over $100,000 from the vulnerable adult's bank accounts. A federal jury found Laird guilty on August 21, 2026 of conspiracy to commit Social Security fraud and theft of public money, conspiracy to commit mail fraud and wire fraud, financial exploitation of a vulnerable adult and elderly person, and fraud in the first degree against a senior citizen; U.S. District Judge Randolph D. Moss scheduled her sentencing for December 17, 2026. The case is a reminder that a court-appointed guardian or conservator — even a family member — has a legal duty to use a ward's funds solely for that person's benefit, and that relatives of an elderly or incapacitated person under guardianship should periodically request an accounting of the ward's accounts and benefits from the court or the Social Security Administration rather than assuming a guardian's spending is automatically proper.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office for the District of Columbia", 'Social Security Administration, Office of Inspector General'],
+    sourceUrl: 'https://www.justice.gov/usao-dc/pr/maryland-woman-found-guilty-financial-exploitation-elderly-incapacitated-victim',
+    country: 'US',
+    state: 'MD',
+});
