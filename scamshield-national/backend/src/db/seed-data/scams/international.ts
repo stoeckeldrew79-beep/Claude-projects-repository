@@ -11988,3 +11988,45 @@ International.push(
     sourceUrl: 'https://one.nz/help/frauds-scams-and-safety/scam-alerts/',
   },
 );
+
+International.push(
+  {
+    name: 'Irish SIM-Swap Bank Account Takeover Fraud',
+    slug: 'ireland-sim-swap-bank-account-takeover-fraud',
+    description:
+      'A fraudster who has already obtained a victim\'s online banking username and password — usually through an earlier phishing text or email — contacts the victim\'s mobile network provider posing as the account holder and arranges to have the victim\'s phone number moved onto a new SIM card the fraudster controls. Once the swap goes through, the one-time passcodes and verification texts a bank sends to confirm a login or payment arrive on the fraudster\'s phone instead of the real customer\'s, letting them authorise transfers as though they were the account holder. The Garda National Economic Crime Bureau investigated one such scheme that used a SIM card supplier to swap numbers for customers of an Irish bank, causing losses of roughly €200,000 before an arrest in Tallaght, Dublin in August 2022. Anyone whose phone suddenly loses signal or stops receiving calls and texts without explanation is advised to contact their mobile provider immediately to check for an unauthorised SIM swap, then contact their bank.',
+    categorySlug: 'account-takeover',
+    country: 'IE',
+    alertLevel: 'high',
+    sources: ['An Garda Síochána', 'TheJournal.ie'],
+    sourceUrl: 'https://www.thejournal.ie/scam-fraud-bank-accounts-ireland-5849778-Aug2022/',
+  },
+);
+
+International.push(
+  {
+    name: 'Irish "Wangiri" Missed-Call Callback Scam',
+    slug: 'ireland-wangiri-missed-call-scam',
+    description:
+      'A phone rings once from an unfamiliar international number and hangs up before it can be answered, hoping the curious or concerned recipient will call the number back. Anyone who does is connected to a premium-rate number overseas and deliberately kept on the line as long as possible, sometimes with a recorded message or hold music, while being billed at a premium per-minute rate that is funnelled back to whoever set up the number — a pattern known as "Wangiri," Japanese for "one ring and cut." ComReg, Ireland\'s telecoms regulator, advises against ever calling back a missed call from an unfamiliar international number, particularly where no voicemail was left, and notes that mobile operators can block a customer\'s phone from reaching known Wangiri numbers on request.',
+    categorySlug: 'phishing',
+    country: 'IE',
+    alertLevel: 'low',
+    sources: ['Commission for Communications Regulation (ComReg)'],
+    sourceUrl: 'https://www.comreg.ie/advice-information/scam-calls/',
+  },
+);
+
+International.push(
+  {
+    name: 'Irish Pyramid and Multi-Level Marketing Recruitment Scam',
+    slug: 'ireland-pyramid-mlm-recruitment-scam',
+    description:
+      'A scheme promises a return not for selling any real product or service but simply for recruiting new participants, each of whom pays an entry fee that flows upward to whoever recruited them — the CCPC illustrates the arithmetic with a participant who invests alongside nine others and must recruit ten more just to get their own money back, a chain that then needs 100 new recruits at the next level and 1,000 at the one after that, and collapses as soon as the supply of new joiners runs out. A related Ponzi variant pays "returns" to earlier investors out of money brought in by newer ones rather than from any real trading or business activity, and keeps paying only as long as new money keeps arriving. Operating a pyramid scheme in Ireland is a criminal offence carrying fines of up to €150,000 or up to five years\' imprisonment, and the CCPC\'s advice is that any scheme paying mainly for introducing new people, promoted through personal contacts rather than any public presence, should be treated as one, since "if it seems too good to be true, it probably is."',
+    categorySlug: 'ponzi-pyramid-schemes',
+    country: 'IE',
+    alertLevel: 'medium',
+    sources: ['Competition and Consumer Protection Commission (CCPC)'],
+    sourceUrl: 'https://www.ccpc.ie/manage-your-money/scams-and-frauds/common-scams/pyramid-schemes',
+  },
+);
