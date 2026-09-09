@@ -6111,3 +6111,22 @@ Federal agents arrested Hines in May 2020, within weeks of the loans funding, af
 Hines's case became an early emblem of PPP fraud precisely because the details were so easy to visualize: a stranger's small-business relief check paying for a supercar rather than a single paycheck. It also illustrated the government's basic enforcement bet during the pandemic — approve emergency loans first and investigate the worst abuses after the fact — a tradeoff that let real aid reach real businesses within days, but that also handed people like Hines a brief window to walk away with millions before anyone checked whether the employees on his paperwork ever existed.`,
   },
 );
+
+NotoriousAF.push(
+  {
+    title: '"Nuke Bizzle": The Rapper Who Bragged About Unemployment Fraud in a Music Video and Got Arrested for It',
+    slug: 'fontrell-baines-nuke-bizzle-edd-unemployment-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-cdca/pr/rapper-who-boasted-music-video-about-committing-covid-fraud-sentenced-over-6-years',
+    body: `When Congress created Pandemic Unemployment Assistance under the CARES Act in the spring of 2020 — a provision meant to extend jobless benefits to gig workers, the self-employed, and other people who wouldn't normally qualify for unemployment insurance — California's Employment Development Department had to process an unprecedented flood of claims with few of the identity checks that would ordinarily catch fraud. Fontrell Antonio Baines, a 33-year-old rapper from Memphis performing under the name "Nuke Bizzle," treated the gap as an opportunity, and then did something almost no fraudster does: he filmed himself doing it.
+
+Between July and September 2020, prosecutors said, Baines filed 92 fraudulent PUA claims using the stolen identities of real people, including at least one victim who had never lived or worked in California at all. Using access to addresses in Beverly Hills and Koreatown, he intercepted the prepaid EDD debit cards mailed out to fund the claims and withdrew the money before the identity-theft victims whose names were on the applications ever knew accounts had been opened. Investigators calculated actual losses of $704,760, with a further $1,256,108 in additional fraudulent claims attempted but not paid out. Then, rather than staying quiet, Baines released a music video for a song called "EDD," in which he boasted about doing "my swagger for EDD," held up a fanned stack of envelopes from the department, and rapped about going "to the bank with a stack of these" — footage that California and federal investigators found circulating on YouTube and Instagram and used as evidence against him.
+
+Las Vegas police arrested Baines on September 23, 2020, and found eight prepaid debit cards in his possession, seven of them issued in other people's names. The federal case against him ultimately expanded well beyond the unemployment fraud: agents searching his Hollywood Hills residence in October 2020 found an illegally possessed semi-automatic pistol loaded with 14 rounds, and separately, airport security in Memphis had intercepted a checked bag in his name back in January 2020 containing oxycodone, promethazine-codeine syrup, alprazolam, and more than seven pounds of marijuana.
+
+Baines pleaded guilty in July 2022 to one count of mail fraud for the EDD scheme, along with separate charges of being a felon in possession of a firearm and possession of a controlled substance with intent to distribute. On December 7, 2022, U.S. District Judge Michael W. Fitzgerald sentenced him to 77 months — more than six years — in federal prison and ordered him to pay $704,760 in restitution to the California Employment Development Department.
+
+Nuke Bizzle's case became one of the most-cited examples of pandemic unemployment fraud not because of its dollar amount — plenty of PUA schemes moved more money — but because of how little effort he put into hiding it. A fraudster who steals identities to loot a state relief program is common; one who then releases a rap video celebrating the theft, under his own recognizable stage name, on platforms investigators can subpoena, is not. The stack of EDD envelopes he waved on camera for views became, almost immediately, Exhibit A.`,
+  },
+);
