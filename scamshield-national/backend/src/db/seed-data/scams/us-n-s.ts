@@ -4328,3 +4328,27 @@ UsNS.push({
     country: 'US',
     state: 'ND',
 });
+
+UsNS.push({
+    name: 'Bergen County $7.7 Million Real Estate Business Email Compromise (McNeill and Telesford)',
+    slug: 'new-jersey-bergen-county-mcneill-telesford-business-email-compromise',
+    description: `In December 2025, the Hackensack Police Department alerted the Bergen County Prosecutor's Office Financial Crimes Unit to a business email compromise scheme that had targeted a Bergen County business in the middle of a high-value real estate transaction. Investigators say the conspirators compromised or spoofed email communications tied to the deal and then sent the business fraudulent wire instructions, directing funds to bank accounts the conspirators controlled instead of the account the real transaction called for; once a payment of approximately $7,756,157 went out, the money was quickly moved through a network of accounts to make it harder to trace and recover. Bergen County Prosecutor Mark Musella's office arrested Ryan A. Telesford, 43, of Lake Worth, Florida, at his home on May 27, 2026, with help from the Palm Beach County Sheriff's Office Tactical Unit and the U.S. Marshals Task Force, and the next day the office's Financial Crimes Unit executed a search warrant at the Wyckoff, New Jersey residence of Jason S. McNeill, 49. McNeill was charged with first-degree money laundering and second-degree conspiracy to commit theft by deception and money laundering, while Telesford was charged with first-degree money laundering and second-degree conspiracy to commit money laundering. Any business finalizing a wire transfer for a real estate closing or other large transaction should treat a last-minute email with new banking instructions as a red flag, and should confirm any change by calling a known, previously verified phone number for the title company, escrow agent, or counterparty involved — never a number or reply address supplied by the email itself — before releasing funds.`,
+    categorySlug: 'business-email-compromise',
+    alertLevel: 'high',
+    sources: ["Bergen County Prosecutor's Office", 'Patch', 'Daily Voice'],
+    sourceUrl: 'https://patch.com/new-jersey/wyckoff/wyckoff-man-helped-defraud-local-business-out-7-7m-prosecutors',
+    country: 'US',
+    state: 'NJ',
+});
+
+UsNS.push({
+    name: 'Eugene Phantom Rental Listing Scam',
+    slug: 'oregon-eugene-phantom-rental-listing-scam',
+    description: `The Eugene Police Department issued a public alert on July 10, 2025 warning residents that online rental and real-estate scams were "rearing its ugly head again" after a wave of similar reports first surfaced in the area in September 2022. In the scheme, fraudsters either hijack a real, currently listed rental property by changing the contact phone number or email on the ad, or invent an entirely fictitious listing using photos copied from a legitimate property, then advertise the unit at an attractively low price on sites such as Craigslist or Facebook Marketplace. When a prospective renter reaches out, the scammer — often claiming to be out of town or out of the country and unable to show the unit in person — pressures them to wire a security deposit and first month's rent, or send it through a payment app, before ever touring the property or meeting an actual owner or property manager. Once the money is sent, the "landlord" disappears, and the renter discovers the home either was never for rent or is already occupied by someone else who has a real lease. Eugene police recommend verifying any rental directly through the property's own official website or management company rather than a third-party listing site, insisting on an in-person tour before paying anything, and treating any request to wire money or refusal to meet in person as a serious warning sign.`,
+    categorySlug: 'rental-housing',
+    alertLevel: 'medium',
+    sources: ['Eugene Police Department', 'KVAL'],
+    sourceUrl: 'https://kval.com/news/local/beware-phantom-rentals-eugene-lane-county-oregon-residents-urged-to-verify-property-listings-before-paying-scam-fraud',
+    country: 'US',
+    state: 'OR',
+});
