@@ -5400,3 +5400,37 @@ Carroll was the last of eighteen defendants to be held liable in the case; the c
 Timeshare exit fraud is a recurring trap precisely because the underlying problem it promises to solve — a timeshare contract that is often genuinely difficult and expensive to unwind through the resort itself — is real, which makes a confident-sounding company promising a guaranteed release an appealing shortcut. The case is a reminder that a company charging thousands of dollars up front for a service it may never provide, while denying refunds to anyone who complains, is a pattern regulators have prosecuted for years across the timeshare-exit industry — and that a would-be customer's best protection is confirming, in writing, exactly what is being promised and what recourse exists if it isn't delivered, before any money changes hands.`,
   },
 );
+NotoriousAF.push(
+  {
+    title: "Christine Hunsicker and the $300 Million Fashion-Tech Fraud",
+    slug: 'christine-hunsicker-caastle-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-sdny/pr/founder-fashion-tech-company-caastle-sentenced-five-years-prison-300-million-fraud',
+    body: `Christine Hunsicker had a genuinely accomplished résumé before any of this happened: a Princeton graduate who had served as COO of Drop.io and as president and COO of Right Media, an ad-exchange company sold to Yahoo! for $850 million. In 2011 she founded Gwynnie Bee, a plus-size clothing rental subscription service, which she later rebranded as CaaStle — a "Clothing as a Service" platform meant to license its rental-and-logistics infrastructure to other retail brands. Over the following years CaaStle raised hundreds of millions of dollars from investors on the strength of that pitch.
+
+According to the U.S. Attorney's Office for the Southern District of New York, the pitch was built on fabricated numbers. Prosecutors and the Securities and Exchange Commission allege that beginning around February 2019 and continuing until Hunsicker resigned as CEO in March 2025, she gave investors false financial statements that overstated CaaStle's revenue by more than 7,300%, and backed them up with audit opinions purportedly issued by the accounting firm BDO — audits BDO said it never performed. Investigators say fabricated bank records made it look like CaaStle held close to $200 million in available cash, when the company's actual balance was under $200,000. Regulators also allege she issued fraudulent shares and misrepresented the company's capitalization to raise still more money on false pretenses. In total, prosecutors say Hunsicker defrauded investors of roughly $300 million.
+
+Hunsicker was indicted in 2025 on charges including wire fraud, securities fraud, money laundering, and making false statements to financial institutions. She pleaded guilty in March 2026 to a single count of securities fraud. On August 20, 2026, U.S. District Judge J. Paul Oetken sentenced her to five years in federal prison, followed by three years of supervised release, and ordered forfeiture and restitution of $283,291,940 to her victims. CaaStle itself did not survive the collapse of its own books: the company filed for Chapter 7 bankruptcy in June 2025.
+
+What makes Hunsicker's case notable isn't a novel scheme — inflated revenue and forged audit letters are an old trick — but the scale of institutional trust it exploited for six years running. A credentialed founder with a real prior track record, presenting what looked like a routine third-party audit from a recognizable accounting firm, was enough to keep sophisticated venture investors from independently verifying a company's actual bank balance until the number of zeros missing became impossible to hide.`,
+  },
+);
+NotoriousAF.push(
+  {
+    title: "Edwin Brant Frost IV and the $140 Million 'Bridge Loan' Ponzi Scheme",
+    slug: 'edwin-brant-frost-first-liberty-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-ndga/pr/first-liberty-president-charged-multi-million-dollar-ponzi-scheme',
+    body: `Note: Edwin Brant Frost IV pleaded guilty to one federal criminal count in May 2026, so his guilt on that charge is not in dispute. But as of this writing, the specific sentence a judge ultimately imposed at his August 2026 sentencing hearing could not be confirmed through published reporting, so it is described below as scheduled rather than as a settled outcome.
+
+Edwin Brant Frost IV, 68, of Newnan, Georgia, was a well-known figure in Georgia conservative politics — he had run Pat Robertson's 1988 presidential campaign in the state — before building First Liberty Building & Loan, LLC into an investment firm that sold "First Liberty Notes": promissory notes and loan participation agreements pitched as funding short-term small-business "bridge loans," paying annual returns of roughly 8% to 18%. The firm and its promoters marketed heavily to conservative and Christian donor networks, and First Liberty sponsored Republican political events and media; Frost and his family also personally contributed more than $1.4 million to political campaigns and causes over the years.
+
+According to the Securities and Exchange Commission, which filed civil fraud charges on July 10, 2025, First Liberty did make some real bridge loans, but many of them defaulted, and since at least 2021 the firm kept paying existing investors using money raised from new investors — the standard structure of a Ponzi scheme — while Frost concealed the company's mounting losses. The SEC says Frost raised at least $140 million from roughly 300 investors between 2014 and the scheme's collapse in June 2025, and that he personally diverted millions of dollars of investor money for his own use, including more than $2.4 million in credit card payments, over $335,000 to a rare coin dealer, $230,000 on family vacations, and at least $570,000 funneled into political donations. A federal court froze Frost's assets and appointed a receiver over First Liberty at the SEC's request, relief Frost agreed to without admitting the underlying allegations.
+
+The Justice Department separately brought a criminal wire fraud charge against Frost, to which he initially pleaded not guilty before changing his plea to guilty on one count in May 2026, agreeing as part of the plea to pay full restitution to victims. That single wire fraud count carries a statutory maximum of 20 years, and prosecutors said they intended to recommend a sentence near the top of that range; a sentencing hearing was held August 14, 2026, but the term the judge actually imposed there has not been independently confirmed for this profile. Separately, Frost's son, Brant Frost V, a First Liberty executive who has not been criminally charged, was fined $500,000 by the Georgia Secretary of State and barred from selling securities in the state, with reports indicating the matter was also referred for possible criminal review.
+
+The First Liberty collapse is a case study in affinity fraud running through a political and religious network rather than a family or ethnic community: investors extended the same trust to a fellow conservative activist with a long public record that they might otherwise have reserved for people they'd known personally for years, and the firm's visible sponsorship of causes those investors already believed in did the marketing that skepticism should have interrupted.`,
+  },
+);
