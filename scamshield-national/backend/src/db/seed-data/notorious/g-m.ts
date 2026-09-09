@@ -6389,3 +6389,39 @@ Arcaro pleaded guilty in September 2021 to conspiracy to commit wire fraud, admi
 Arcaro's case stands out because he actually answered for it. BitConnect's founder, Satish Kumbhani, was indicted over the same scheme in 2021 and has never been located, leaving Arcaro — the promoter who worked under him — as one of the only people convicted so far in what prosecutors have called the largest cryptocurrency fraud scheme ever criminally charged.`,
   },
 );
+
+NotoriousGM.push(
+  {
+    title: 'Jeremy Spence, "Coin Signals," and the Telegram Trading Group That Was Actually a Ponzi Scheme',
+    slug: 'jeremy-spence-coin-signals-crypto-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-sdny/pr/cryptocurrency-trader-sentenced-42-months',
+    // no rights-cleared photo found — sourceUrl above serves as the "read the full story" link
+    body: `Jeremy Spence built an online following under the handle "Coin Signals," posting cryptocurrency trading calls and, eventually, offering to trade investors' money for them directly. From around December 2017 through April 2019, the Bristol, Rhode Island man ran a set of pooled trading funds — including the "CS Mex Fund," which traded on the BitMEX exchange, along with a "CS Alt Fund" and a "CS Long Term Fund" — soliciting more than $5 million in bitcoin and ether from customers who believed they were investing alongside a trader with an unusually strong track record.
+
+That track record was largely fiction. Spence's actual trading racked up substantial losses, but rather than disclose them, he covered them up — misrepresenting both his profitability and how much money he genuinely had under management, and using new customers' deposits to pay out "profits" to earlier ones whenever they asked to withdraw. On January 28, 2018, he told his own chat group that his trading had generated a return of more than 148 percent over the previous month, a claim prosecutors would later say was false. The structure was a Ponzi scheme wearing the branding of a crypto trading signal service, and it held together only as long as enough new money kept arriving to cover the gap between what he'd actually made and what he'd told people he'd made.
+
+Spence pleaded guilty in Manhattan federal court to commodities fraud, and on May 11, 2022, a judge in the Southern District of New York sentenced him to 42 months in prison plus three years of supervised release. He was later ordered to pay $2,847,743 in restitution to more than 170 victims. The CFTC pursued a parallel civil case, and on November 29, 2022, a federal court entered a permanent injunction against Spence along with lifetime trading and registration bans.
+
+The case is a small-scale version of a pattern that ran through the entire 2017-2018 crypto boom: a real online audience, a real trading track record right up until it stopped being real, and investors who had no way to check the difference except to trust the numbers a stranger in a chat group chose to post.`,
+  },
+);
+
+NotoriousGM.push(
+  {
+    title: "Kyle Kimoto and the Fake Credit Card Network That Took $43 Million From Half a Million People",
+    slug: 'kyle-kimoto-assail-telemarketing-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://www.justice.gov/usao-sdil/victim-witness-assistance/kimoto',
+    // no rights-cleared photo found — sourceUrl above serves as the "read the full story" link
+    body: `Kyle Kimoto ran Assail, Inc., a St. George, Utah telemarketing operation that placed calls out of boiler rooms in the United States, Canada, India, and the Caribbean under brand names like Advantage Capital, Capital First, and Premier One. Telemarketers told consumers — many with damaged credit who had been turned down for cards elsewhere — that they had been approved for a Visa- or MasterCard-branded credit card, and collected an upfront processing fee, typically around $159, to activate it. What arrived instead, if anything did, was a stored-value debit card requiring the customer's own money to be loaded onto it before it could be used at all — nothing resembling the credit line they had paid for.
+
+Over 2001 and 2002, the scheme collected roughly $43 million from an estimated half a million consumers, backed by an "incomprehensible, computer-generated verification tape" designed to sound like a legitimate compliance script rather than let a live salesperson make promises that could later be disputed. A co-conspirator later testified that Kimoto himself estimated only about one in ten customers understood they were getting, at best, a debit card rather than a credit card. The FTC sued Kimoto, Assail, and related telemarketing partners in January 2003; a September 2003 settlement permanently banned Kimoto from telemarketing and entered a $106 million judgment against him, suspended to the extent it exceeded what he could actually pay.
+
+The civil ban didn't end it. A federal grand jury in the Southern District of Illinois indicted Kimoto in June 2007 on 14 counts, including twelve counts of wire fraud, one count of mail fraud, and one count of conspiracy. He was convicted on all counts after a jury trial in April 2008, and that September a judge sentenced him to 350 months — just over 29 years — in federal prison, at the time one of the longest sentences ever handed down for a white-collar telemarketing case, along with a $3.5 million fine and a restitution order exceeding $34 million. The Seventh Circuit affirmed his conviction in December 2009.
+
+Kimoto served about twelve years of that sentence before President Trump commuted it on his last full day in office, January 20, 2021, citing Kimoto's conduct in prison and family circumstances; the commutation left the restitution order, supervised release, and the underlying conviction untouched. The case remains a reference point for how a genuinely enormous consumer telemarketing fraud — hundreds of thousands of small, individually unremarkable $159 charges — can add up to tens of millions of dollars and one of the harshest sentences the federal system has imposed for it.`,
+  },
+);
