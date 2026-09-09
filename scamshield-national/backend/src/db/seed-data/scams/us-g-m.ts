@@ -4898,3 +4898,15 @@ UsGM.push({
     country: 'US',
     state: 'KS',
 });
+
+UsGM.push({
+    name: `"Hunter Elliott" Fake Investment Adviser Fraud (Hunter Haithcock)`,
+    slug: 'maryland-hunter-haithcock-fake-investment-adviser-fraud',
+    description: `Hunter Haithcock, 25, of Matthews, North Carolina, met his victims through a local church and word-of-mouth referrals, then, using the alias "Hunter Elliott," represented himself as a licensed securities broker who could invest their money and deliver enormous returns of 100 to 200 percent or more — even though he was never employed by any broker-dealer and never held a securities license. Between September 2019 and October 2022, he stole at least $655,498.93 from at least 64 investors in Maryland, using a small portion of new investor money to pay a few earlier victims while diverting most of the funds to his own credit card bills, entertainment, car payments, travel, hotels, flights, and cryptocurrency trading — and fabricating excuses when victims asked for their money back before eventually cutting off contact entirely. U.S. District Judge Matthew Maddox sentenced Haithcock on July 30, 2026 to 42 months in federal prison followed by two years of supervised release, and ordered him to pay $655,498.93 in restitution and forfeiture. The case is a reminder that a "broker" met through a personal or religious connection is not automatically trustworthy with an investment: before wiring money to anyone offering guaranteed, outsized returns, investors can and should verify a claimed broker's license and employment history for free through FINRA's BrokerCheck at brokercheck.finra.org.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office, District of Maryland", 'Fox Baltimore'],
+    sourceUrl: 'https://www.justice.gov/usao-md/pr/north-carolina-man-sentenced-investment-fund-theft-scheme',
+    country: 'US',
+    state: 'MD',
+});

@@ -4520,3 +4520,27 @@ UsNS.push({
     country: 'US',
     state: 'SC',
 });
+
+UsNS.push({
+    name: `Wake County "Bait House" Staged-Damage Roofing Insurance Fraud`,
+    slug: 'north-carolina-wake-county-bentley-roofing-insurance-fraud',
+    description: `Brett William Bentley, 28, and Robert Allen Bentley, 36, both of Charlotte and working for A&M Premier Roofing & Construction, intentionally damaged homeowners' roofs so they could generate repair work and support fraudulent insurance claims for the damage they themselves had caused. The North Carolina Department of Insurance's Criminal Investigations Division caught the pair using a "bait house" sting — a property set up and monitored specifically to catch contractors in the act of causing damage — which captured evidence used to bring charges. Both brothers pleaded guilty in Wake County District Court in August 2026: Brett Bentley to misdemeanor injury to real property, and Robert Bentley to felony injury to real property and attempting to obtain property by false pretense, receiving 24 months of supervised probation, 50 hours of community service, and a bar from working in the roofing industry during his probation; Robert was also ordered to pay $27,678.50 in restitution to N.C. Farm Bureau Insurance. "This conviction demonstrates that insurance fraud has real consequences," North Carolina Insurance Commissioner Mike Causey said. Homeowners are advised to be wary of any roofer who shows up unsolicited after a storm offering a "free inspection," to get a second, independent opinion before signing anything if a contractor claims to have found damage requiring an insurance claim, and to report suspected staged-damage schemes to the Department of Insurance's Criminal Investigations Division at 919-807-6840 or 888-680-7684.`,
+    categorySlug: 'insurance-fraud',
+    alertLevel: 'medium',
+    sources: ['North Carolina Department of Insurance'],
+    sourceUrl: 'https://www.ncdoi.gov/news/press-releases/2026/08/31/charlotte-brothers-plead-guilty-wake-county-roofing-scam',
+    country: 'US',
+    state: 'NC',
+});
+
+UsNS.push({
+    name: `Craven County Multi-State Romance Scam (Christina Julian)`,
+    slug: 'north-carolina-craven-county-christina-julian-romance-scam',
+    description: `Christina Jane Julian, 56, of Naples, Florida, built fake profiles on dating sites and social media, cultivated relationships with victims over months of communication, then invented urgent financial crises to convince them to send money — netting an estimated $3 million from victims across the country over roughly six years, according to the Craven County Sheriff's Office. In the North Carolina case, Julian is accused of convincing a Craven County woman to send $139,900 between July 21 and August 28, 2025, after telling her the money was needed to help an unnamed man "get back" to the United States. The Craven County Sheriff's Office, working with the North Carolina State Bureau of Investigation, had Julian extradited from Florida on January 21, 2026, and she was charged with felony obtaining property by false pretense in excess of $100,000 and felony exploiting the elderly, held on a $350,000 secured bond at the Craven County Confinement Facility. The case illustrates how a romance scam's financial "emergency" can persist for months rather than being a single request: the Federal Trade Commission advises anyone who has never met an online partner in person to be skeptical of any request for money, especially one tied to travel, customs, or immigration costs, and to stop sending money and contact local law enforcement immediately once a pattern of repeated requests emerges.`,
+    categorySlug: 'romance-scams',
+    alertLevel: 'high',
+    sources: ["Craven County Sheriff's Office", 'WITN'],
+    sourceUrl: 'https://www.witn.com/2026/01/26/craven-county-florida-woman-accused-multi-million-dollar-romance-scam/',
+    country: 'US',
+    state: 'NC',
+});

@@ -2673,3 +2673,15 @@ UsTZ.push({
     country: 'US',
     state: 'WY',
 });
+
+UsTZ.push({
+    name: `Rutland Caregiver Medicaid Billing Fraud (Emily St. Peter)`,
+    slug: 'vermont-rutland-emily-st-peter-medicaid-caregiver-fraud',
+    description: `Emily St. Peter, 48, of Rutland, Vermont, worked as a paid caregiver for a Medicaid recipient in the Rutland area and billed the state's Medicaid program for caregiving services she did not actually provide. An investigation by the Vermont Attorney General's Medicaid Fraud and Residential Abuse Unit found she had defrauded Vermont Medicaid of more than $18,000 in public health care funds; she was initially charged with felony Medicaid fraud in December 2024. St. Peter pleaded guilty to a reduced misdemeanor count of Medicaid fraud on May 21, 2026 in Vermont Superior Court's Rutland Criminal Division. Judge David Fenster sentenced her to two years of supervised probation, 30 hours of community service, and ordered her to pay $4,555.67 in restitution, while also permanently excluding her from providing paid Medicaid services for five years. Because a caregiver's billed hours are usually invisible to the Medicaid recipient unless someone checks, the Vermont Attorney General's office encourages family members overseeing a relative's home care to periodically compare the caregiver's submitted hours or claims against an actual care log or calendar, and to report any suspected overbilling to the Medicaid Fraud and Residential Abuse Unit (MFRAU) through the Attorney General's online reporting form.`,
+    categorySlug: 'medicare-health-plans',
+    alertLevel: 'medium',
+    sources: ['Office of the Vermont Attorney General', 'WCAX'],
+    sourceUrl: 'https://ago.vermont.gov/blog/2026/05/22/rutland-medicaid-service-provider-sentenced-medicaid-fraud',
+    country: 'US',
+    state: 'VT',
+});
