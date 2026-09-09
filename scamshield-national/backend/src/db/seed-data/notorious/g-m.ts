@@ -6207,3 +6207,20 @@ The most severe allegations went beyond insurance fraud. Investigators said Chat
 Chatman pleaded guilty in 2017 to conspiracy to commit health care fraud, conspiracy to commit money laundering, and conspiracy to commit sex trafficking. On May 17, 2017, U.S. District Judge Donald M. Middlebrooks sentenced him in the Southern District of Florida to 330 months — 27 and a half years — in federal prison. The case became one of the central examples cited when Florida lawmakers overhauled the state's patient-brokering and sober-home licensing laws later that year, part of a broader crackdown on what reporters had dubbed the "Florida shuffle": a pipeline that moved insured addiction patients between loosely affiliated homes and treatment centers, generating billings at every stop, with little regard for whether anyone actually got better.`,
   },
 );
+
+NotoriousGM.push(
+  {
+    title: 'Gregory Bell: The Chicago Hedge Fund Manager Whose Lancelot Funds Fed Billions Into the Petters Ponzi Scheme',
+    slug: 'gregory-bell-lancelot-investment-management-petters-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-21245',
+    body: `Gregory Bell ran Lancelot Investment Management out of the Chicago area, marketing a family of hedge funds to hundreds of institutional and individual investors as a diversified way to earn steady returns. Between 2002 and 2008, Lancelot's funds raised more than $2.62 billion. Rather than spreading that money across a genuinely diversified portfolio, Bell funneled the overwhelming majority of it — roughly $1.5 billion of about $1.8 billion in fund assets — into promissory notes issued by Petters Company Inc., the merchandise-financing arm of Minnesota businessman Thomas Petters. Petters told lenders like Lancelot that the notes funded purchases of consumer electronics later resold at a markup to big-box retailers; in reality, as federal prosecutors later proved, the underlying purchase orders were almost entirely fictitious, and Petters was running one of the largest Ponzi schemes in U.S. history behind them.
+
+Bell was not simply an unwitting middleman. According to the SEC's complaint, when Petters's scheme began to strain under its own weight, Bell participated in "round-trip" transactions with Petters's company: money wired out from Lancelot to Petters Company Inc. was immediately wired back, then represented to Lancelot's own investors as a legitimate note payment — concealing that Petters actually owed Lancelot's funds more than $130 million he had no way to pay. In the final months before the scheme collapsed, Bell and Lancelot withdrew more than $40 million in management and incentive fees from the funds, even as the notes underneath them were becoming worthless.
+
+The scheme unraveled in September 2008 after an FBI raid on Petters's offices. The SEC sued Bell, Lancelot, and several related trusts in July 2009 and froze their assets; five Lancelot-managed hedge funds subsequently filed for bankruptcy. Federal prosecutors in Minnesota charged Bell with wire fraud on September 17, 2009, and he pleaded guilty on October 7, 2009. U.S. District Judge Richard Kyle sentenced him to 72 months — six years — in federal prison, later crediting him roughly 14 months for time already served in county jail after his bail had been revoked over flight-risk concerns. Investors in Lancelot's funds lost between $205 million and $210 million.
+
+Bell's cooperation with prosecutors helped build the case against Petters, who was convicted at trial and sentenced to 50 years. But Bell's own case is a reminder that a hedge fund manager standing between an investor and a fraud isn't automatically a safeguard — sometimes the "sophisticated," professionally managed feeder fund is just another layer of the con, collecting fees on money it knew, or should have known, was never coming back.`,
+  },
+);
