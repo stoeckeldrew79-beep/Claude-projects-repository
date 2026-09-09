@@ -11936,3 +11936,29 @@ International.push(
     sourceUrl: 'https://www.citizensadvice.org.uk/consumer/phone-internet-downloads-or-tv/check-your-personal-alarm-will-work-after-the-landline-switch-off/',
   },
 );
+
+International.push(
+  {
+    name: 'NZ Subscription Trap Scam',
+    slug: 'nz-subscription-trap-scam',
+    description: `A discounted online purchase or "free trial" completed at checkout quietly enrols the buyer in an ongoing subscription through a pre-ticked box or a term buried in the fine print, and recurring card charges begin once the trial period ends — for a service the buyer never meant to keep paying for and often finds difficult to cancel. New Zealand's Commerce Commission has named "subscription traps" a growing enforcement priority under the Fair Trading Act 1986, and in October 2024 formally warned Kogan Australia Pty Limited, trading as Dick Smith, after finding its checkout process likely misled customers into a $149-a-year "FIRST" membership through a pre-selected tick box that was not sufficiently obvious, following a 14-day free trial offered between July and September 2023; Dick Smith has since removed the pre-selection and refunded customers who complained. The Commission's advice is to check every item in an online cart line by line before paying, actively deselect any pre-ticked membership or subscription option, and review bank statements afterward for recurring charges that were never clearly agreed to.`,
+    categorySlug: 'subscription-traps',
+    country: 'NZ',
+    alertLevel: 'medium',
+    sources: ['Commerce Commission', 'NZ Herald'],
+    sourceUrl: 'https://www.comcom.govt.nz/news-and-media/news-and-events/2024/dick-smith-warned-for-sneaking-subscriptions-into-shopping-carts/',
+  },
+);
+
+International.push(
+  {
+    name: 'NZ Fake Holiday Rental Listing Scam',
+    slug: 'nz-fake-holiday-rental-listing-scam',
+    description: `A listing for a genuine New Zealand holiday property reappears on Booking.com as a duplicate, copied photo-for-photo and word-for-word from the real owner's own listing, sometimes within hours of the original going up. The fraudster undercuts the real price slightly and, once an intending guest is interested, asks them to pay by direct bank transfer "to secure the dates" rather than through the booking platform's own payment system — the money vanishes along with the fake listing once the transfer clears, while the genuine owner has no idea their listing has been cloned until an intending guest turns up or contacts them directly. NZ Herald reported a family lost NZ$10,000 to a fake listing for a Mt Maunganui property cloned this way, with the real owner, Carla Beazley, only discovering it after being contacted about a booking she had never taken, and at least three separate property owners — including one in Martinborough — reporting the same pattern of having their listings duplicated. Netsafe's guidance for booking accommodation online is to never pay by direct bank transfer outside a platform's own secure payment system, to independently search a property's address to check it isn't listed twice, and to reverse-image-search listing photos to see whether they've been lifted from another listing.`,
+    categorySlug: 'travel-vacation-scams',
+    country: 'NZ',
+    alertLevel: 'medium',
+    sources: ['NZ Herald', 'Netsafe'],
+    sourceUrl: 'https://www.nzherald.co.nz/nz/fake-bookingcom-listing-scams-kiwi-family-out-of-10000/E6Q5MGGNB5CARNX6S3W7YZ2PFQ/',
+  },
+);
