@@ -12051,3 +12051,29 @@ International.push(
     sourceUrl: 'https://www.ccpc.ie/manage-your-money/scams-and-frauds/common-scams/pyramid-schemes',
   },
 );
+
+International.push(
+  {
+    name: 'Dutch Marktplaats Overpayment Cheque Scam',
+    slug: 'netherlands-marktplaats-overpayment-cheque-scam',
+    description: `A buyer for an expensive item listed on Marktplaats — commonly a car or caravan — sends the seller a cheque for more than the agreed price, and the seller's bank credits the funds to their account before the cheque has actually cleared. The buyer then asks the seller to transfer the "extra" amount back, framed as a mistake or as covering shipping or insurance costs, and once the seller wires that money the bank subsequently discovers the original cheque was forged or not covered and reverses the credit — leaving the seller having sent away real money in exchange for a payment that was never genuine. Fraudehelpdesk, the Dutch national fraud hotline, warns sellers never to transfer any money back to a buyer, not even a small amount, no matter how the request is framed, and to report the attempt to the trading platform and the police.`,
+    categorySlug: 'fake-check-overpayment',
+    country: 'NL',
+    alertLevel: 'medium',
+    sources: ['Fraudehelpdesk (Netherlands)'],
+    sourceUrl: 'https://www.fraudehelpdesk.nl/fraude/ik-verkoop-iets-en-krijg-te-veel-geld/',
+  },
+);
+
+International.push(
+  {
+    name: 'Dutch Home Battery Telephone Sales Scam (Thuisbatterijfraude)',
+    slug: 'netherlands-home-battery-telephone-sales-scam',
+    description: `A cold caller selling home batteries (thuisbatterijen) uses a company name that gives no clear indication of who is actually calling, sometimes posing as an employee of the consumer's own energy supplier or network operator, and pressures the consumer — who is often called repeatedly — to sign a document on the spot during the call. Consumers believe they are only agreeing to a follow-up appointment or a free quote, but the document is in fact a binding purchase agreement for a system costing tens of thousands of euros, typically financed through a loan the buyer did not realize they were taking on. The Autoriteit Consument & Markt (ACM), the Dutch consumer and markets authority, said on June 19, 2025 that it had received hundreds of complaints about this telephone sales practice and advised consumers to simply hang up on unsolicited home-battery sales calls or, if they choose to stay on the line, to record the call after informing the seller — and reminded consumers that a contract concluded this way can still be cancelled within 14 days, or within a full year if they were never properly informed of that right.`,
+    categorySlug: 'home-improvement-solar',
+    country: 'NL',
+    alertLevel: 'medium',
+    sources: ['Autoriteit Consument & Markt (ACM)'],
+    sourceUrl: 'https://www.acm.nl/nl/publicaties/acm-waarschuwt-voor-telefonische-verkoop-thuisbatterijen-hang-op-neem-het-gesprek-op',
+  },
+);
