@@ -4387,3 +4387,15 @@ UsNS.push({
     country: 'US',
     state: 'NH',
 });
+
+UsNS.push({
+    name: 'Albany-Area Live-In "Caregiver" Pension Theft (Devin Zielinski and Amber Diacetis)',
+    slug: 'new-york-albany-zielinski-diacetis-caregiver-pension-theft',
+    description: `New York State Comptroller Thomas P. DiNapoli's office announced on February 11, 2026 that Devin Zielinski was sentenced to two to six years in state prison for stealing roughly $230,000 from an 87-year-old New York State pensioner in the Albany area after he and co-defendant Amber Diacetis convinced the elderly man to let them move in as his live-in caregivers and take control of his finances. From January 2018 through August 2023, the pair diverted his monthly $3,526 state pension payment and $2,138 Social Security benefit for themselves instead of using the money for his care, leaving his mortgage, property taxes, and utility bills unpaid for years; the neglect ultimately led to a bank foreclosure on his home, his power being shut off, and his car being repossessed, leaving him living in deteriorated conditions while the two people he trusted spent his money. Zielinski pleaded guilty to grand larceny in the third degree and was ordered to pay $115,000 in restitution on top of his prison sentence; Diacetis, sentenced earlier, received time served, five years of probation, and $100,000 in restitution. "Preying on an elderly victim to steal his money and deprive him of his basic needs is simply reprehensible," Comptroller DiNapoli said. Families arranging live-in care for an elderly relative should keep a family member or trusted third party — not the caregiver — as the only person with access to bank accounts and bill payments, and should periodically confirm directly with the mortgage company, tax office, and utilities that the accounts are actually current rather than relying on the caregiver's word.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'high',
+    sources: ['Office of the New York State Comptroller'],
+    sourceUrl: 'https://www.osc.ny.gov/press/releases/2026/02/dinapoli-albany-man-who-victimized-elderly-nys-pensioner-sentenced-state-prison',
+    country: 'US',
+    state: 'NY',
+});

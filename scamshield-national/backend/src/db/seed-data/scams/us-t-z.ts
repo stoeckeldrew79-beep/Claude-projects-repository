@@ -2637,3 +2637,15 @@ UsTZ.push({
     country: 'US',
     state: 'WA',
 });
+
+UsTZ.push({
+    name: 'Belton-Area Fake Rental Listing Scam',
+    slug: 'texas-belton-fake-rental-listing-scam',
+    description: `The Belton Police Department issued a public warning on March 4, 2025 after a rash of fake rental listings began circulating for homes in and around Belton and the broader Central Texas region. In the scheme, scammers copy real, genuine photographs of a property — sometimes homes that are not even for rent — and post them on classifieds or social-media marketplace sites at an attractively low price, then correspond with prospective renters entirely by text or email, drafting a falsified lease agreement and directing them to send a security deposit and first month's rent through a peer-to-peer payment app such as Zelle or Cash App before ever meeting in person or touring the inside of the home. Once the payment goes through, the "landlord" stops responding, and the renter discovers the property was never actually listed by its real owner or management company. Belton police urged residents to verify who actually manages a rental property before paying anything, to insist on an in-person tour and a face-to-face meeting with the landlord or a licensed agent, to never wire money or pay through a third-party app for a property they have not physically walked through, and to report suspected fake listings to the department directly rather than only to the site where the ad appeared.`,
+    categorySlug: 'rental-housing',
+    alertLevel: 'medium',
+    sources: ['Belton Police Department', 'Temple Daily Telegram'],
+    sourceUrl: 'https://www.tdtnews.com/news/central_texas_news/article_ccd9f2c6-f9b9-11ef-bc64-9f4847d3dedc.html',
+    country: 'US',
+    state: 'TX',
+});

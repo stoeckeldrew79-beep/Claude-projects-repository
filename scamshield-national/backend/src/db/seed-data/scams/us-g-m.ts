@@ -4668,3 +4668,15 @@ UsGM.push({
     country: 'US',
     state: 'ID',
 });
+
+UsGM.push({
+    name: 'Cook County Physician Charged in $1 Million Medicaid and Medicare Billing Fraud (Mohammad Khamis)',
+    slug: 'illinois-cook-county-khamis-ghost-physician-medicaid-fraud',
+    description: `Illinois Attorney General Kwame Raoul charged Mohammad Khamis, 56, of River Forest, who owned and operated four private medical practices and four pharmacies across the Chicago area, with orchestrating a scheme to bill Medicaid and Medicare for more than $1 million in services he did not actually provide. According to the charges, Khamis was frequently out of the country while his practices remained open, and in his absence a student from a non-accredited medical school in Bosnia examined patients and posed as a licensed physician despite holding no U.S. medical license — with Khamis then submitting claims to Medicaid and Medicare as though he personally had performed the visits. He was charged on November 20, 2025 with six Class X felony counts of theft, one count of money laundering, one count of managed health care fraud, one count of vendor fraud, and two counts of forgery, and was being held at the Cook County Department of Corrections ahead of a November 26, 2025 court date. "Physicians have an ethical obligation to treat their patients with integrity and transparency," Attorney General Raoul said in announcing the charges. Patients cannot verify from the exam room alone who is actually treating them, so anyone with concerns about who provided a billed visit should request their own visit notes and the treating provider's name from their insurer's claims history, and report a mismatch — a visit billed under a doctor's name who was never present — to the Illinois Attorney General's Medicaid Fraud Control Bureau.`,
+    categorySlug: 'healthcare-fraud',
+    alertLevel: 'high',
+    sources: ['Office of the Illinois Attorney General', 'Cook County Department of Corrections'],
+    sourceUrl: 'https://illinoisattorneygeneral.gov/news/story/attorney-general-raoul-charges-cook-county-physician-for-more-than-1-million-in-medicaid-medicare-fraud-11-20-25',
+    country: 'US',
+    state: 'IL',
+});
