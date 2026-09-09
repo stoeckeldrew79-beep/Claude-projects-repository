@@ -4740,3 +4740,27 @@ UsGM.push({
     country: 'US',
     state: 'MI',
 });
+
+UsGM.push({
+    name: 'Idaho Fake Government Energy Audit Door-to-Door Scam',
+    slug: 'idaho-fake-government-energy-audit-door-to-door-scam',
+    description: `Idaho Attorney General Raul Labrador issued a fraud and safety alert on April 30, 2025 after his office received reports of door-to-door salespeople falsely claiming to represent a government program offering a free home energy efficiency or weatherization inspection, a pitch his office confirmed does not correspond to any real state-sponsored program in Idaho. Because the claim of an official "inspection" gives a stranger a plausible-sounding reason to be let inside a home, the office treated the scheme as a safety issue as much as a financial one, not just a pretext for a hard sell once inside. "Most businesses operate honestly, but consumers should always be cautious of scams and bad actors," Labrador said. "You should never feel obligated to let a stranger into your home without verifying who they are." Many Idaho cities and counties require door-to-door salespeople to register for a permit, so the Attorney General's Office advises residents to ask to see that permit before allowing anyone inside, to contact local city or county authorities if a salesperson can't produce one, and to prioritize personal safety over any sales pitch. Complaints can be filed with the Idaho Attorney General's Consumer Protection Division online at ag.idaho.gov/consumer-protection or by calling 208-334-2424, and separately with the FTC at ReportFraud.ftc.gov.`,
+    categorySlug: 'home-improvement-solar',
+    alertLevel: 'medium',
+    sources: ["Idaho Office of the Attorney General"],
+    sourceUrl: 'https://www.ag.idaho.gov/newsroom/ag-labrador-issues-fraud-and-safety-alert-regarding-deceptive-door-to-door-sales-technique-reported-in-idaho/',
+    country: 'US',
+    state: 'ID',
+});
+
+UsGM.push({
+    name: 'Minnesota Timeshare Exit Company Settlements',
+    slug: 'minnesota-timeshare-exit-company-settlements',
+    description: `Minnesota Attorney General Keith Ellison announced settlements on January 23, 2025 with three "timeshare exit" companies — Encore Law Inc., Last Resort Consulting, and Tradebloc — after finding they had charged Minnesotans thousands of dollars in illegal upfront fees to cancel timeshare contracts, in violation of the state's debt settlement services law, while operating without the license that law requires and making misrepresentations about what their services could actually accomplish. Timeshare exit companies typically pitch anxious owners on an easy way out of a contract they regret, collecting a large fee before doing any real work and then delivering little more than form letters or advice the owner could have found for free, leaving the underlying timeshare obligation — and often ongoing maintenance fees — still very much in place. The settlements required the three companies to return a combined $269,378 to affected consumers and to bring their business practices into compliance with Minnesota law going forward. "I hate to see unethical companies promise help to Minnesotans stuck in costly timeshare contracts, only to rip consumers off again," Ellison said. Timeshare owners considering an exit service are advised to verify the company is licensed with the Minnesota Department of Commerce before paying anything, to be wary of any company demanding a large fee upfront rather than payment tied to results, to research the company's track record independently rather than relying on the salesperson's own claims, and to consider consulting an attorney directly instead. Complaints can be filed with the Minnesota Attorney General's Office at (651) 296-3353 or (800) 657-3787, or with the FTC.`,
+    categorySlug: 'timeshare-scams',
+    alertLevel: 'medium',
+    sources: ["Minnesota Attorney General's Office"],
+    sourceUrl: 'https://www.ag.state.mn.us/Office/Communications/2025/01/23_TimeshareExit.asp',
+    country: 'US',
+    state: 'MN',
+});
