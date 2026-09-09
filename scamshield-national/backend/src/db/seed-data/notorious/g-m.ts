@@ -6474,3 +6474,21 @@ McNamara pleaded guilty to conspiracy to commit health care fraud, and on Octobe
 The case adds another entry to a growing catalogue of CGx fraud prosecutions built on the same basic mechanics: a real lab, a real swab kit, and a real Medicare number, all routed through a telemarketing call and a doctor's signature that never involved an actual doctor-patient relationship. What made McNamara's case notable beyond the dollar figure was his own conduct once charged — a defendant who, rather than simply contest the fraud allegations in court, chose to cut off his ankle monitor and run, only to end up with the maximum sentence available under his plea.`,
   },
 );
+
+NotoriousGM.push(
+  {
+    title: 'Bradley Harris and the Dallas Hospice That Billed Medicare for Patients Who Were Never Dying',
+    slug: 'bradley-harris-novus-hospice-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-ndtx/pr/novus-hospice-ceo-sentenced-13-years-healthcare-fraud',
+    // no rights-cleared photo found — sourceUrl above serves as the "read the full story" link
+    body: `Bradley Harris co-founded Novus Health Services and a related company, Optim Health Services, as Dallas-area hospice providers at a time when Medicare's hospice benefit — built to cover comfort care for patients in their final six months of life — was paying out a fixed daily rate per enrolled patient, regardless of how much or how little care that patient actually needed on a given day. Prosecutors said Harris and his co-conspirators treated that daily rate as a target to maximize rather than a service to earn: from 2012 through 2016, Novus and Optim enrolled and kept billing for patients who were not terminally ill and did not qualify for hospice care at all, while falsifying medical records to make ineligible patients look eligible on paper.
+
+The scheme reached further than false eligibility. According to court filings, Harris directed staff to use blank, pre-signed controlled-substance prescriptions so that potent pain medications could be issued to patients without any physician actually reviewing or authorizing the specific prescription, and the company obtained confidential patient referral information through an intermediary business called Express Medical to keep the enrollment pipeline full regardless of medical necessity. When regulators moved to suspend Novus's Medicare billing privileges over the mounting irregularities, prosecutors said Harris simply began shifting patients and billing through the shell company Optim to keep the money flowing under a different name.
+
+Harris pleaded guilty in March 2021 to conspiracy to commit health care fraud and health care fraud. On January 25, 2022, Chief U.S. District Judge Barbara M.G. Lynn sentenced him in the Northern District of Texas to 13 years and 3 months in federal prison and ordered him to pay $27,594,875.52 in restitution. "Brad Harris allowed greed to corrupt his judgment, and he will pay dearly for it," then-U.S. Attorney Chad Meacham said in announcing the sentence. Harris did not face the fraud alone: physicians who signed off on the scheme's paperwork were sentenced alongside him, including Dr. Mark Gibbs, who received the same 13-year term and was ordered to pay $27,978,903 in restitution, and Dr. Laila Hirjee, sentenced to 10 years and ordered to pay $16,253,281 — among roughly a dozen defendants ultimately convicted in the case.
+
+Hospice fraud is easy to overlook next to flashier scams because the billing itself looks routine — a daily rate, a diagnosis code, a signature — and the victims are rarely in a position to complain. Novus's fraud depended on exactly that invisibility: patients who weren't dying were enrolled anyway, medication was authorized without a doctor actually looking at the chart, and the paperwork kept moving even after regulators tried to shut one company down, because there was always a second company ready to take its place.`,
+  },
+);
