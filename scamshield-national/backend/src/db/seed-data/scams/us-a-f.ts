@@ -6512,3 +6512,15 @@ UsAF.push({
     country: 'US',
     state: 'CA',
 });
+
+UsAF.push({
+    name: 'Atlanta World Cup "Stranded Tourist" Counterfeit Currency Scam',
+    slug: 'atlanta-world-cup-stranded-tourist-currency-scam',
+    description: `Ahead of Atlanta's FIFA World Cup matches, Fulton County District Attorney Fani Willis joined county, state, and federal officials at an elder-abuse-prevention event on June 11, 2026 to warn residents about a con distinct from the ticket and hospitality-website fraud already being flagged nationally around the tournament: someone approaches a passerby claiming to have just been robbed, saying their passport and wallet were stolen and that they've been left holding only foreign currency — euros or another denomination — they can't spend anywhere. Willis described the pitch directly: "They will act like they've been dropped off. Their passport and their wallet have been taken, but they have this foreign currency on them... they want you to exchange it" for US dollars, leaning on a bystander's sympathy for someone in a genuine bind during a high-profile international event drawing visitors from dozens of countries. The foreign bills handed over turn out to be counterfeit, leaving the "helpful" resident out real cash for worthless paper with no realistic way to recover it once the encounter ends. Willis's office paired the warning with two other World Cup-season schemes making the rounds in Atlanta — fake ticket offers and phony charity appeals — as part of a broader elder-fraud outreach push timed to the tournament's arrival in the city. Officials advise against ever pulling out a wallet to help a stranger claiming to need a currency exchange, no matter how convincing or urgent the story sounds: the right response is to call police and let them assist, since a genuinely stranded traveler has other verified options — a consulate, an airline desk, or a hotel — that don't involve a stranger's cash.`,
+    categorySlug: 'fake-check-overpayment',
+    alertLevel: 'medium',
+    sources: ["Fulton County (GA) District Attorney's Office (Fani Willis)", 'Atlanta News First (WANF)'],
+    sourceUrl: 'https://www.atlantanewsfirst.com/2026/06/11/world-cup-scam-alert-fake-stranded-tourists-target-atlanta-visitors/',
+    country: 'US',
+    state: 'GA',
+});
