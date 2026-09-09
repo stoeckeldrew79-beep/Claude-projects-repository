@@ -5697,3 +5697,20 @@ The order found that neither Shaw nor Syntax Financial Group held a securities d
 Shaw's case is a reminder that a professional-sounding LLC name and a scheduled webinar cost nothing to produce and prove nothing about legitimacy on their own. Ohio, like every state, lets an investor check for free whether a person or company soliciting them is actually licensed to sell securities before any money changes hands — a five-minute step that would have surfaced Syntax Financial Group's unregistered status immediately.`,
   },
 );
+
+NotoriousAF.push(
+  {
+    title: "Alan Burak and the Never Alone Capital Investment Fraud",
+    slug: 'alan-burak-never-alone-capital-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://manhattanda.org/d-a-bragg-announces-guilty-plea-in-multi-million-dollar-investment-fraud-scheme/',
+    body: `Alan Burak, 41, of New York, founded an investment firm called Never Alone Capital, LLC, and spent years leaning on personal relationships — with friends, family members, and people who trusted him for financial advice — to solicit money he claimed was being professionally invested. According to the Manhattan District Attorney's Office, between April 2018 and May 2023 Burak told investors Never Alone Capital had been operating profitably since 2006, claimed to be managing as much as $157 million in assets under management, and represented that he held securities licenses he did not actually have. In one pitch, he promised a 50 percent return within three months.
+
+In reality, prosecutors said, the total amount investors ever gave Burak was roughly $5 million, and he diverted more than $4 million of it to personal expenses rather than any legitimate investment activity. To keep victims sending money, Burak generated fabricated weekly and monthly "Account and Activity Statements" that falsely showed their balances steadily growing. The Securities and Exchange Commission filed a parallel civil fraud action against Burak in February 2025 over the same scheme, and prosecutors' filings referenced a July 2022 recording in which Burak told an associate that he was "fake," that he did not have a real business, and that he was taking their money — an admission that did not stop him from soliciting new investors for close to another year afterward.
+
+Burak pleaded guilty in April 2026 to one count of Grand Larceny in the First Degree, one count of Scheme to Defraud in the First Degree, and two counts of Securities Fraud. Under the terms of his plea agreement, he faced a sentencing hearing scheduled for May 12, 2026, with a promised sentence of three to nine years in state prison and judgment orders totaling $4.1 million owed to twelve identified victims. Manhattan District Attorney Alvin Bragg said in announcing the plea that Burak "defrauded twelve individuals out of millions of dollars, including loved ones who trusted him for financial advice."
+
+Burak's case is a reminder that a familiar, trusted pitchman is not a substitute for independent verification: a few minutes checking SEC and FINRA's free public broker-check databases would have shown Burak held none of the securities licenses he claimed, in a scheme where the people closest to him paid the highest price for skipping that step.`,
+  },
+);
