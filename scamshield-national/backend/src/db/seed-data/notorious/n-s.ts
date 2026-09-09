@@ -4171,3 +4171,20 @@ Unwinding it took real international coordination: the Justice Department's Offi
 Inheritance-fraud letters are one of the oldest advance-fee scam formats in existence, but Ogbata's case shows how the model has industrialized: instead of one scammer working one mark at a time, a whole recruitment pipeline reused each successful deception to launder the next one, turning victims themselves — without their knowledge — into part of the machine that defrauded the next 400 people on the list.`,
   },
 );
+
+NotoriousNS.push(
+  {
+    title: 'Romana Leyva and the Fake Virus Pop-Up That Emptied $10 Million From Elderly Victims',
+    slug: 'romana-leyva-tech-support-fraud-elderly',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `The pop-up looked like exactly the kind of warning a cautious computer user was taught to take seriously: a message claiming the machine had been infected with a virus, sometimes dressed up with a familiar-looking tech-company logo, warning that closing the window or shutting down the computer would cause permanent data loss. It gave a phone number to call for help. From around 2015 to 2018, a fraud ring based in the United States and India used that single fake warning to steal more than $10 million from roughly 7,500 victims, most of them elderly, across the United States and Canada. Romana Leyva was one of its members.
+
+The pop-ups were the hook; the "technicians" on the other end of the phone number did the rest. Once a frightened victim called in, callers posing as tech support staff asked for — and were granted — remote access to the victim's computer, then used that access to "demonstrate" a nonexistent infection before selling the victim virus-removal and computer-support services that were neither needed nor, in many cases, ever actually performed. Victims, many with limited technical knowledge and a genuine fear of losing years of photos, documents, and financial records, paid hundreds or thousands of dollars for services built entirely on a manufactured scare.
+
+Leyva was arrested in 2019 and pleaded guilty to conspiracy to commit wire fraud. On January 21, 2022, a federal judge in the Southern District of New York sentenced her to 100 months — more than eight years — in prison, and ordered her to forfeit $4,679,586.93 and pay $2,707,882.91 in restitution to victims. Other members of the ring, including a former bank branch manager who helped launder the proceeds and a co-defendant who was extradited from India, were separately charged and sentenced in the same investigation.
+
+Tech-support scams built around a fake virus warning remain one of the most common fraud formats reported to the FTC and FBI's Internet Crime Complaint Center years after Leyva's ring was broken up, precisely because the pitch requires no research on the victim at all — just a pop-up designed to trigger panic before the reader has time to think, and a phone number ready to "help."`,
+    sourceUrl: 'https://www.justice.gov/usao-sdny/pr/las-vegas-woman-sentenced-prison-10-million-tech-support-fraud-scheme-exploited-elderly',
+  },
+);
