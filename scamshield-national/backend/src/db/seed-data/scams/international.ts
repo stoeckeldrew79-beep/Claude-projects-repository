@@ -12056,3 +12056,42 @@ International.push(
     sourceUrl: 'https://www.acm.nl/nl/publicaties/acm-waarschuwt-voor-telefonische-verkoop-thuisbatterijen-hang-op-neem-het-gesprek-op',
   },
 );
+
+International.push(
+  {
+    name: 'UK WhatsApp Verification Code Account Takeover Scam',
+    slug: 'uk-whatsapp-verification-code-account-takeover-scam',
+    description: `A fraudster who has joined or infiltrated a WhatsApp group — often a community, religious, alumni, or workplace group — contacts a member by audio call posing as another participant, using a stolen profile photo and display name to look genuine. They explain that WhatsApp has just sent a six-digit code to the victim's phone to "register" them for an upcoming group video call, and ask the victim to read it out or forward it over. In reality, that code is WhatsApp's own account-registration passcode, and sharing it lets the fraudster register the victim's WhatsApp account on a device of their own, transferring the account away from the genuine owner. Once inside, the fraudster switches on two-step verification with a PIN only they know, permanently locking the real owner out, and then messages the victim's own contacts and groups — including family members — with urgent requests to send money, trading on the trust built up over months or years in that group. Action Fraud warned on 10 May 2024 that it had already received 636 reports of the scam that year, with community, religious, and alumni WhatsApp groups particularly targeted, and advised that nobody should ever share a WhatsApp verification or registration code with anyone, even someone who appears to be a known contact, that users should enable their own two-step verification as a safeguard, and that any unusual request for money from a contact should be checked by phoning that person directly outside the app before sending anything.`,
+    categorySlug: 'account-takeover',
+    country: 'GB',
+    alertLevel: 'high',
+    sources: ['Action Fraud'],
+    sourceUrl: 'https://www.actionfraud.police.uk/whatsappscam',
+  },
+);
+
+International.push(
+  {
+    name: 'UK Money Mule Recruitment Scam Targeting Young People',
+    slug: 'uk-money-mule-recruitment-scam',
+    description: `A seemingly ordinary job advert or message on social media, an online forum, or a messaging app offers young people quick, easy cash for little effort — receiving a payment into their own personal bank account and then forwarding it on, minus a "fee" or "commission" they keep for themselves. Recruiters build rapport with the target before asking, and what looks like informal gig work is in fact money laundering: the funds passing through the account are the proceeds of someone else's fraud, drug dealing, or other crime, and the young person recruited to move it becomes a "money mule" without necessarily realizing it. The consequences fall on the mule rather than the recruiter — banks freeze the account and can close it permanently, the individual can be left with a fraud marker on their credit file that blocks mortgages, loans, and even some jobs for years, and they can face arrest and a criminal conviction for money laundering. The National Crime Agency said on 8 December 2023 that around 6 in 10 money mules are under the age of 30, with most recruited between the ages of 17 and 24 while at sixth form, college, or university, and it called on parents and carers to raise the issue with children as young as 11 to 16, the age range it found most receptive to the warning. In a coordinated three-week enforcement operation shortly before that announcement, regional law enforcement teams across the UK made 14 arrests, secured freezing orders over five bank accounts holding more than £500,000, seized £6,600 in cash, executed 11 search warrants, and issued 115 warning letters to suspected mules. The NCA's advice is that no genuine job ever requires someone to receive and move money through their own personal bank account on a stranger's instructions, and that anyone asked to do so should refuse and report it.`,
+    categorySlug: 'job-task-scams',
+    country: 'GB',
+    alertLevel: 'high',
+    sources: ['National Crime Agency'],
+    sourceUrl: 'https://www.nationalcrimeagency.gov.uk/news/national-crime-agency-calls-on-parents-to-help-young-people-recognise-the-signs-of-money-muling',
+  },
+);
+
+International.push(
+  {
+    name: 'UK "Local Crime Prevention Initiative" Pendant Alarm Cold-Call Scam',
+    slug: 'uk-pendant-alarm-crime-prevention-cold-call-scam',
+    description: `A telephone caller selling personal pendant alarms and home security systems does not give the name of the company they actually work for, instead telling the person who answers that they are calling on behalf of "a variety of different local crime and fire prevention initiatives" — invented or borrowed community-safety branding designed to sound official and win trust before any sales pitch begins. The Information Commissioner's Office found that Birmingham-based pendant-alarm and security firm TMAC Ltd made more than 260,000 such calls between February and September 2024 to numbers already registered with the Telephone Preference Service specifically to opt out of marketing calls, deliberately concentrating the calls on people over 60 — one of TMAC's own directors admitted the numbers had been taken from data acquired from a previous company he had worked for. The ICO fined TMAC £100,000 and issued an enforcement notice for breaching the Privacy and Electronic Communications Regulations, saying: "When people register with the TPS it is because they want to protect themselves from unwanted marketing calls. TMAC's actions showed a brazen disregard for privacy laws — making thousands of intrusive calls each month and failing to identify themselves." The ICO's advice is that a genuine caller must identify their actual company and show a working callback number, that no real crime-prevention or fire-safety body cold-calls residents to sell alarm equipment, and that anyone on the TPS register who keeps receiving marketing calls despite it should report the company to the ICO.`,
+    categorySlug: 'government-impersonation',
+    country: 'GB',
+    alertLevel: 'medium',
+    sources: ['Information Commissioner\'s Office (ICO)', 'Infosecurity Magazine'],
+    sourceUrl: 'https://ico.org.uk/about-the-ico/media-centre/news-and-blogs/2026/03/birmingham-based-pendant-alarm-company-fined-100-000-for-making-unsolicited-marketing-calls/',
+  },
+);
