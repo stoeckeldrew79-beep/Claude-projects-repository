@@ -11780,3 +11780,42 @@ International.push(
     sourceUrl: 'https://stopthinkfraud.campaign.gov.uk/recovery-from-fraud/be-on-your-guard-against-further-fraud',
   },
 );
+
+International.push(
+  {
+    name: 'NZ Cloned Facebook Profile "You\'ve Won a Promotion" Prize Scam',
+    slug: 'nz-cloned-facebook-profile-prize-scam',
+    description: `Scammers copy the photos and personal details from a real person's public Facebook profile to build a convincing clone account, then use it — or a hacked version of the genuine account itself — to message the victim's actual friends and family as though the real person were reaching out. The "friend" tells the victim they've just won a large cash prize through a "promotion" and puts them in touch with a supposed third party who explains that an upfront fee, commonly around $2,000, must be paid before the winnings can be released; some victims are even sent a small deposit first to make the promise feel real. Once the initial fee is paid, the requested amounts keep climbing, with New Zealand Police aware of at least one victim who lost more than $55,000 this way, and victims are sometimes coached to tell their bank the money is "to assist a family member" if a teller asks questions. Because the approach comes from what looks like a trusted contact's own account rather than a stranger or a company brand, Police and Netsafe say it bypasses the skepticism a random prize message would normally trigger, and advise verifying any unexpected "you've won" message by contacting that friend or family member directly through a different channel, such as a phone call, before responding or sending any money — and remembering that a genuine prize or promotion never requires a fee to be paid before it can be collected.`,
+    categorySlug: 'lottery-sweepstakes-scams',
+    country: 'NZ',
+    alertLevel: 'high',
+    sources: ['New Zealand Police', 'Netsafe'],
+    sourceUrl: 'https://www.police.govt.nz/news/release/police-issue-social-media-scam-warning',
+  },
+);
+
+International.push(
+  {
+    name: 'NZ Fake Online Store & Non-Existent Product Scam',
+    slug: 'nz-fake-online-store-non-existent-product-scam',
+    description: `Fraudsters set up listings for products or services — clothing, electronics, furniture removals, even escort services — on social media marketplaces and classified sites, then simply wait for a buyer to make contact and pay upfront, rather than actively chasing victims down the way a phone or text scam does. Netsafe describes this as a "re-active" pattern: the fake listing does the work of luring the victim in, and once payment clears by bank transfer, the item or service either never arrives or turns out not to exist at all. Netsafe recorded a 25% month-on-month jump in these fake product and service reports in July 2025, rising from 136 reports in June to 171 in July, and said the increase was led specifically by social media marketplace sellers advertising non-existent products alongside a rise in fake online gambling services. Netsafe's advice is to research a seller and look for independent, third-party reviews — not just testimonials posted on the seller's own page — before parting with money, and to be especially cautious of listings and sellers that appeared only recently or that pressure a quick bank transfer instead of a payment method offering buyer protection.`,
+    categorySlug: 'online-shopping-scams',
+    country: 'NZ',
+    alertLevel: 'medium',
+    sources: ['Netsafe', 'NZ Herald'],
+    sourceUrl: 'https://www.nzherald.co.nz/business/fake-products-and-service-scams-rose-25-in-july-says-netsafe/MB2FXGYRMNAENDD74PIG34DSQ4/',
+  },
+);
+
+International.push(
+  {
+    name: 'NZ TXEX WhatsApp Investment "Mentor" Pyramid Scam',
+    slug: 'nz-txex-whatsapp-investment-pyramid-scam',
+    description: `Unlike a scam built around a single deepfake ad or a chance "wrong number" text, this scheme recruits victims into an ongoing community: an invitation — often from someone the victim already half-knows online — leads to a WhatsApp, Telegram, Viber, or BonChat group chat run by a self-styled "professor," "coach," or "mentor" and an "assistant," who post daily trading signals promising returns as high as 100%. Much of the group's apparent activity, including its "success stories" and enthusiastic replies, comes from artificial or bot-controlled accounts designed to make the group look larger and more credible than it is, and members are actively encouraged to recruit friends and family into the same chat — an MLM-style referral structure layered on top of the investment pitch. Recruits are steered to deposit money on fake trading platforms tied to the network the Financial Markets Authority first flagged publicly on 17 April 2025 under the name TXEX (also linked to entities including BG Wealth, DSJ EX, and Whalefall); by its expanded warning of 20 August 2025, the FMA had linked more than 800 lookalike websites and roughly 30 entities to the scheme, and separately warned that some victims were talked into installing remote-access software that let scammers view their screen, access their camera, and steal banking details directly from their device. The FMA lists TXEX and its associated names on its warnings and alerts register, confirms none of them are registered to provide financial services in New Zealand, and advises stopping all contact and sending no money the moment an unsolicited "investment education" group starts pushing a specific trading platform or asking members to bring in more recruits.`,
+    categorySlug: 'ponzi-pyramid-schemes',
+    country: 'NZ',
+    alertLevel: 'critical',
+    sources: ['Financial Markets Authority (FMA) New Zealand'],
+    sourceUrl: 'https://www.fma.govt.nz/library/warnings-and-alerts/txex/',
+  },
+);
