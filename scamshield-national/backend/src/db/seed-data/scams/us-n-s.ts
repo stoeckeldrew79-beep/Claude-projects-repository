@@ -4733,3 +4733,15 @@ UsNS.push({
     country: 'US',
     state: 'NV',
 });
+
+UsNS.push({
+    name: 'Ohio Fake Health Inspector Badge and Fee Scam',
+    slug: 'ohio-fake-health-inspector-badge-scam',
+    description: `In April 2026, three people showed up at a food-service operation in Cleveland, Ohio, displaying badges and claiming to be inspectors from the "Ohio Board of Health" — an agency name that does not correspond to how restaurant inspection actually works in Ohio. The Ohio Department of Health (ODH) publicly clarified that it does not itself conduct routine restaurant inspections; that job belongs to local health departments such as the Cuyahoga County Board of Health, and on the rare occasion an ODH inspector is involved, they only accompany a local department's inspector rather than appearing alone. A related phone-based version of the scheme has separately targeted restaurant and food-service operators across Cuyahoga County: callers posing as health inspectors demand a credit card number and other personal information on the spot to cover supposed late fees, license fees, or inspection fees. The Cuyahoga County Board of Health says flatly that it never contacts a business by phone to collect payment, that it does not charge for food inspections at all, and that the only fee a licensed food establishment actually owes is its annual license renewal, due every March 1 — meaning any inspector, in person or by phone, who demands an on-the-spot fee or card number is not legitimate. Restaurant and food-service operators are advised to ask any self-identified inspector for photo identification, decline to pay anything on the spot regardless of the badge or story presented, and call their local board of health directly — using a number looked up independently, not one the visitor or caller provides — to verify the inspection or fee before paying or providing any information.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Ohio Department of Health', 'Cuyahoga County Board of Health', 'Cleveland 19 News (WOIO)', 'News 5 Cleveland (WEWS)'],
+    sourceUrl: 'https://www.cleveland19.com/2026/04/17/health-department-warns-bogus-restaurant-inspectors/',
+    country: 'US',
+    state: 'OH',
+});
