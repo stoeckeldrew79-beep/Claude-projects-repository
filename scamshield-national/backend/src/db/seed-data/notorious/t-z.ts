@@ -1918,3 +1918,20 @@ Wexler pleaded guilty in April 2024 to conspiracy to commit health care fraud an
 The case is a reminder that genetic-testing fraud against Medicare rarely needs a fake product to work — only a real one, aimed at a patient who never asked for it, wrapped in a phone pitch that sounds like a benefit rather than the setup for a bill the program will ultimately pay. And Bleignier's second scheme, opened while the first was already the subject of a federal prosecution, shows how easily the same ownership-disclosure loophole he'd already exploited once was still sitting there to be used again.`,
   },
 );
+NotoriousTZ.push(
+  {
+    title: 'Jordan Trought and the Decade-Long Sweepstakes Ring That Took $9 Million From 200 Elderly Americans',
+    slug: 'jordan-trought-sweepstakes-fraud-ring-leader',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-sdny/pr/jamaican-national-pleads-guilty-role-international-sweepstakes-scam-stole-more-9',
+    // no rights-cleared photo found — sourceUrl above serves as the "read the full story" link
+    body: `From 2015 through 2025, a Jamaica-based fraud ring ran a sweepstakes con on elderly Americans that never went out of style because it never had to change much: an unsolicited call or text told the victim they'd won a large cash prize and a luxury car from a well-known marketing and sweepstakes company, but first needed to pay "taxes" or "fees" to release it. Victims who paid were told the payment hadn't gone through, or that a new fee had come up, and were walked through sending money again — by check, money order, cash, wire transfer, Zelle, or Venmo — for months or years, one promised prize that never arrived.
+
+Jordan Trought, now 30, joined the ring in 2021 and rose to become one of its senior leaders, according to federal prosecutors in the Southern District of New York. Between March 2021 and August 2025 alone, the portion of the scheme prosecutors attributed directly to Trought took more than $6 million from over 100 victims; the ring as a whole, across its full decade of operation, is accused of stealing more than $9 million from over 200 elderly victims nationwide. U.S. Attorney Jay Clayton's office said Trought and his co-conspirators "exploited trust, age, and hope for profit."
+
+Trought was arrested in Jamaica in August 2025 and extradited to the United States to face prosecution. He pleaded guilty on June 1, 2026, before a U.S. Magistrate Judge in the Southern District of New York to conspiracy to commit wire fraud, mail fraud, and bank fraud, and agreed to pay restitution and forfeiture each in the amount of $6,166,227 — matching the losses tied to his own share of the scheme. He faces up to 30 years in prison at sentencing.
+
+The Trought case is a version of the same lottery-and-sweepstakes fraud that has run for decades out of Jamaica specifically because it scales: a ring built to last ten years doesn't need one mastermind who never turns over — it needs a role, "senior leader" among them, that a new person can step into as older members are arrested, extradited, and replaced, while the underlying script to a frightened 80-year-old on the other end of the phone barely has to change at all.`,
+  },
+);

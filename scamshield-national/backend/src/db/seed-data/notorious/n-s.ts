@@ -4264,3 +4264,20 @@ Salander pleaded guilty in March 2010 to 29 felony counts, admitting he had misl
 The Salander case is a reminder that reputation is its own kind of unregulated currency — a gallery with no rights-cleared paper trail on who actually owned what, run by a dealer whose name alone was treated as proof of title, until the moment multiple investors discovered they had each been sold a claim on the very same painting.`,
   },
 );
+NotoriousNS.push(
+  {
+    title: 'Shehzadkhan Pathan and the Ahmedabad Call Center That Impersonated the FBI to Rob 4,000 Americans',
+    slug: 'shehzadkhan-pathan-ahmedabad-robocall-scam',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-edva/pr/leader-international-robocall-scam-sentenced-defrauding-over-4000-us-victims-out-more',
+    // no rights-cleared photo found — sourceUrl above serves as the "read the full story" link
+    body: `Shehzadkhan Pathan, 40, ran a call center in Ahmedabad, India, that blasted automated robocalls at phone numbers across the United States, then routed anyone who answered to a live operator posing as a federal agent. Callers impersonated FBI and DEA agents, and in some versions of the pitch, representatives of the Social Security Administration, warning victims — many of them elderly — that they faced imminent arrest, frozen accounts, or other severe legal and financial consequences unless they resolved a supposed problem immediately, sometimes paired with a false promise of a loan to help cover it.
+
+Pathan wasn't just running the center — prosecutors described him as the mastermind and leader of the entire scheme, personally taking over as the "closer" on calls once a victim had been softened up by the initial script, deciding when a target was scared enough to pay. He also managed the logistics that kept the fraud's money moving: a network of couriers inside the United States who collected the funds victims sent and illegally transferred them back overseas to Pathan's call center in India, keeping the cash a step removed from any single bank account that might draw suspicion.
+
+The scheme reached more than 4,000 identified victims in the United States and took in more than $10 million before it was unwound. Two co-conspirators who worked with Pathan, Pradipsinh Parmar, 41, and Sumer Patel, 38, were convicted alongside him and scheduled for their own sentencings within days of his. On September 17, 2021, a federal judge in the Eastern District of Virginia sentenced Pathan to 22 years in federal prison on conspiracy and identity theft charges. "The impact of the harm inflicted on the victims of these robocall schemes can be devastating," then-Acting U.S. Attorney Raj Parekh said in announcing the sentence. "The victims, many of whom are elderly, continue to endure significant financial hardship."
+
+The case is a reminder that an overseas call center doesn't need a victim to fall for a stranger — it needs the victim to fall for a badge. Impersonating the FBI or the IRS does the psychological work that a fake lottery win or a phony romance would otherwise have to build over weeks, compressing a scam into a single frightening phone call precisely because government agencies are the one kind of caller most people are trained never to hang up on.`,
+  },
+);
