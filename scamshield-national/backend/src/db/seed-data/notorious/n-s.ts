@@ -3904,3 +3904,41 @@ Mason was charged in January 2025 with two counts of wire fraud, securities frau
 Mason's case illustrates a pattern regulators see repeatedly in adviser fraud: the victims were not strangers responding to a cold pitch, but people who already trusted him personally, which is precisely why forged paperwork and vague talk of "bond investments" went unquestioned for so long. Clients of any investment adviser can independently verify how their money is actually invested through account statements from an unaffiliated, independent custodian, rather than relying solely on statements or explanations the adviser provides directly.`,
   },
 );
+
+NotoriousNS.push(
+  {
+    title: "Noly Ilarde, Martin Rebollo, and the Fake Youth Softball Charity Behind a Petco Park Concessions Scam",
+    slug: 'noly-ilarde-martin-rebollo-chula-vista-fast-pitch-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.irs.gov/compliance/criminal-investigation/two-men-admit-pocketing-millions-in-donations-from-petco-park-and-snapdragon-stadium-meant-for-charity',
+    body: `Note: Noly Hermoso Ilarde and Martin Jose Rebollo Jr. have both pleaded guilty, but publicly available reporting reviewed for this profile did not include the sentences ultimately imposed at their scheduled sentencing hearings, so those outcomes are not stated here.
+
+Noly Hermoso Ilarde, of San Diego, and Martin Jose Rebollo Jr., of Chula Vista, California, ran an outfit called Chula Vista Fast Pitch, which they presented to two major sports-venue concessionaires as a nonprofit supporting youth softball. According to the U.S. Attorney's Office for the Southern District of California, the two men applied for and won contracts to supply unpaid volunteers to staff concession stands at Petco Park, home of the San Diego Padres, and later at Snapdragon Stadium — in exchange for roughly 10 percent of concession sales being donated to their charity. It was a model real charities use to raise money at ballparks around the country. In this case, prosecutors say, the charity behind it did not actually exist as anything more than a name on paperwork.
+
+From 2016 through 2023, prosecutors said, Delaware North — the hospitality company that runs concessions at Petco Park — paid Chula Vista Fast Pitch roughly $3.5 million, believing the money was funding youth softball. Snapdragon Stadium's concessions operator, the nonprofit Aztec Shops, paid more than $250,000 more between 2022 and 2023. Ilarde and Rebollo admitted they recruited volunteers, paid each one about $50 in cash per shift, and then split the rest of the money between themselves — with none of it going toward Chula Vista Fast Pitch's stated purpose or any other charitable activity, according to their plea agreements. Ilarde admitted personally gaining more than $550,000 from the scheme; Rebollo's gain exceeded $1.5 million, income prosecutors said he then failed to report on his tax return, adding a false-tax-return charge and a Social Security fraud charge to his case. The scheme first drew public attention through a 2023 investigation by the nonprofit newsroom Voice of San Diego.
+
+Ilarde pleaded guilty to wire fraud conspiracy; Rebollo pleaded guilty to wire fraud conspiracy, filing a false tax return, and failing to report a change in circumstances to the Social Security Administration. Both were scheduled for sentencing in the late spring of 2026 in the U.S. District Court for the Southern District of California, each facing a statutory maximum of 20 years in prison on the wire fraud count alone. Separately, California Attorney General Rob Bonta's office filed a civil lawsuit seeking to recover the roughly $3.8 million diverted from the scheme — a parallel case still pending as of this writing.
+
+The Petco Park scheme worked because the concessionaires' due diligence stopped at the paperwork: a charity's name, a tax-exempt status claim, and a plausible-sounding cause were enough to win a contract that funneled millions of dollars through the organization over seven years without anyone verifying that the money was actually reaching youth softball players. It's a reminder that even sophisticated corporate partners can go years without confirming a nonprofit partner is doing what it claims — a gap that, at public venues doing "good will" concession deals, is worth closing with an annual look at the charity's actual public tax filings rather than a one-time application review.`,
+  },
+);
+
+NotoriousNS.push(
+  {
+    title: "Paul Bielecki: The Friar Who Faked a Beirut Medical Charity for Nearly a Decade",
+    slug: 'paul-bielecki-fake-beirut-medical-charity',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-sdny/pr/manhattan-franciscan-friar-sentenced-five-years-prison-fraud-related-fake-medical',
+    body: `Paul Bielecki was a Franciscan friar of the Capuchin order, based in White Plains, New York, who spent nearly a decade raising money for medical clinics he claimed to run in Beirut, Lebanon — clinics that, according to federal prosecutors, did not exist in any form he described to donors. Between June 2015 and December 2023, Bielecki solicited donations from more than 350 victims, telling them the money would buy medicine, medical equipment, incubators for babies, food, and an ambulance for patients in Lebanon. He raised it through church masses, radio appearances, podcasts, and crowdfunding pages, and by his own account working the fundraising circuit as clergy that donors had no obvious reason to distrust.
+
+To make the appeal more compelling, prosecutors with the U.S. Attorney's Office for the Southern District of New York said, Bielecki also lied about his own credentials, telling donors he was a physician — at various points describing himself as a vascular surgeon, cardiac surgeon, or general surgeon — with multiple Ph.D. degrees, none of which he actually held. He used aliases including "Paul HRH Saxe-Coburg-Gotha" and "Dr. Phaakon Sonderburg-Glucksburg" in some of his fundraising communications. When a massive explosion tore through the Port of Beirut in August 2020, Bielecki told donors he had personally been injured in the blast while working at his clinic there — a claim investigators say was false; records showed he was making retail purchases in the United States that same day and had, in fact, remained continuously in the U.S. from December 2019 through April 2022, the entire period he claimed to be running clinics in Lebanon.
+
+Prosecutors said Bielecki raised more than $560,000 from his victims and spent it not on Lebanese clinics but on a secret personal lifestyle: cosmetic surgery, getaways to the Hamptons, tens of thousands of dollars in cash withdrawals, and payments toward personal credit card balances that ran into the hundreds of thousands of dollars.
+
+Bielecki pleaded guilty to wire fraud on November 11, 2024. On March 27, 2025, U.S. District Judge Vincent Briccetti sentenced him in White Plains to five years in federal prison, three years of supervised release, and ordered forfeiture of $563,448 along with restitution to his victims. "Paul Bielecki exploited his position as a friar to defraud hundreds of innocent victims," the U.S. Attorney's Office said in announcing the sentence, adding that abusing a position of trust to take advantage of others would be held accountable.
+
+Bielecki's case shows how a real religious title can function the same way a real corporate title or professional license does in other scams: as a credential donors treat as self-verifying, one that discourages the kind of basic checks — does this charity file public tax returns, can its clinics be independently confirmed to exist — that would normally accompany a large or recurring donation to an unfamiliar cause.`,
+  },
+);

@@ -5714,3 +5714,20 @@ Burak pleaded guilty in April 2026 to one count of Grand Larceny in the First De
 Burak's case is a reminder that a familiar, trusted pitchman is not a substitute for independent verification: a few minutes checking SEC and FINRA's free public broker-check databases would have shown Burak held none of the securities licenses he claimed, in a scheme where the people closest to him paid the highest price for skipping that step.`,
   },
 );
+
+NotoriousAF.push(
+  {
+    title: "Carrie Lynn Grant and the $1.6 Million Theft from a Charity That Teaches Kids Financial Literacy",
+    slug: 'carrie-lynn-grant-junior-achievement-embezzlement',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-ndca/pr/east-bay-woman-sentenced-more-two-years-prison-embezzling-over-16-million-charity',
+    body: `Carrie Lynn Grant, 62, of Pleasant Hill, California, spent years working her way up inside Junior Achievement of Northern California, a Walnut Creek-based nonprofit whose entire mission is preparing young people for the "real world" of work and money — teaching schoolkids budgeting, entrepreneurship, and financial literacy through in-classroom programs. Grant started as an administrative assistant and was eventually entrusted with the charity's finances as its finance manager, a position that put her in direct control of the bank accounts and books of the organization whose job was to teach other people's children not to be careless with money.
+
+According to the U.S. Attorney's Office for the Northern District of California, Grant used that access, from November 2017 through June 2023, to siphon charity funds into her own personal bank account, then covered her tracks by creating fraudulent internal records to make the missing money look accounted for. Prosecutors said the theft totaled more than $1.6 million over the roughly six-year period — money donated to fund youth programs that instead paid for Grant's personal lifestyle, including first-class airline tickets, floor seats at Golden State Warriors games, box seats at San Francisco 49ers games, and a condominium in Hawaii.
+
+A federal grand jury indicted Grant on July 22, 2024, and she pleaded guilty on August 11, 2025, to one count of wire fraud. On December 10, 2025, U.S. District Judge Araceli Martínez-Olguín sentenced her to 27 months in federal prison, to be followed by three years of supervised release, with Grant ordered to begin serving her sentence on March 9, 2026.
+
+Grant's case is a reminder that a nonprofit's mission is no guarantee of how carefully its own money is being watched — the same internal controls that would catch an employee quietly diverting funds at any ordinary business have to actually be in place and enforced at a charity too, regardless of how worthy or well-known its cause is. Donors and board members alike depend on independent audits and segregated financial duties to catch exactly this kind of theft; at Junior Achievement of Northern California, the person controlling the books and the person checking them were, for years, the same one.`,
+  },
+);
