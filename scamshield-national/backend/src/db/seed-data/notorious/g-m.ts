@@ -6224,3 +6224,22 @@ The scheme unraveled in September 2008 after an FBI raid on Petters's offices. T
 Bell's cooperation with prosecutors helped build the case against Petters, who was convicted at trial and sentenced to 50 years. But Bell's own case is a reminder that a hedge fund manager standing between an investor and a fraud isn't automatically a safeguard — sometimes the "sophisticated," professionally managed feeder fund is just another layer of the con, collecting fees on money it knew, or should have known, was never coming back.`,
   },
 );
+
+NotoriousGM.push(
+  {
+    title: 'Kenneth W. Alexander II and the $91 Million "Guaranteed" Bond-Trading Trust That the SEC Says Never Traded a Bond',
+    slug: 'kenneth-alexander-vanguard-holdings-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    // Note: this case is still an active, unresolved SEC civil action as of this
+    // writing, with no criminal charges filed — described with that hedge below.
+    sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26301',
+    body: `Kenneth W. Alexander II, of the Dallas-Fort Worth area, controlled a trust called Vanguard Holdings Group Irrevocable Trust (VHG) that he and a second Texan, Robert D. Welsh, held out to investors as a highly profitable international bond-trading operation with billions of dollars in assets. According to a civil fraud complaint the Securities and Exchange Commission filed in April 2025, that description was fiction: the SEC alleges VHG had no material source of revenue at all, and that the "returns" investors received were simply money taken from other investors.
+
+Between roughly May 2021 and February 2024, the SEC says, Alexander and Welsh promised investors 12 guaranteed monthly payments of 3% to 6%, with their full principal returned after 14 months — terms marketed with the specific, confident language of a real fixed-income product rather than the vague promises typical of a scam. To make the pitch even more reassuring, the complaint alleges, the men offered investors supposed "pay order" protection instruments meant to convince them their principal was shielded from loss, on top of guaranteed monthly income. A third defendant, Caedrynn E. Conner, allegedly played a critical role in scaling the operation: prosecutors say he funneled more than $46 million into VHG through a separate entity he controlled, Benchmark Capital Holdings Irrevocable Trust, helping the scheme reach a total of at least $91 million raised from more than 200 investors before it collapsed.
+
+The SEC alleges Alexander and Conner personally misappropriated millions of dollars of investor money, including Conner's use of scheme funds to buy a $5 million home. The agency's complaint, filed in the U.S. District Court for the Eastern District of Texas, charges all three men with violating the antifraud and registration provisions of the federal securities laws and seeks a permanent injunction, disgorgement of ill-gotten gains with prejudgment interest, and civil penalties. As of this writing, the case remains an active civil matter — Alexander, Welsh, and Conner have not been criminally charged, and none of the SEC's allegations against them has been proven in court.
+
+What made the pitch land with more than 200 investors, according to the SEC's account, wasn't a story about a hot new asset class — it was the opposite: a boring-sounding "bond trading business," a fixed monthly percentage instead of a speculative multiplier, and an invented insurance-like backstop layered on top to defuse the one question a careful investor should have asked anyway — what happens if this doesn't work out. A trust with "Vanguard" in its name and a promise that principal is protected is not the same thing as a registered fund with audited returns, and the distance between those two turned out to be $91 million wide.`,
+  },
+);
