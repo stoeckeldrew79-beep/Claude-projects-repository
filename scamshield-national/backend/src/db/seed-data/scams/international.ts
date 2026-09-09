@@ -11517,3 +11517,16 @@ International.push(
     country: 'VA',
   },
 );
+
+International.push(
+  {
+    name: 'Niue Advance-Fee Email Scam Targeting Isolated Residents',
+    slug: 'niue-advance-fee-email-scam',
+    description: `Niue police issued a public warning in August 2015 after a wave of unsolicited scam emails began reaching residents of the tiny, isolated South Pacific nation, asking recipients for their banking and personal details so that funds could supposedly be transferred through their accounts from overseas. Niue's then police chief, Tony Edwards, said the messages came from people and places recipients had never had any dealings with, telling RNZ Pacific "if you're getting these kind of scam emails from places where you've never been or you've never had a chance to go to, then the question is, why would you respond?" Edwards linked the targeting directly to Niue's remoteness, saying the island's isolation made residents an appealing target precisely because scammers calculated that people cut off from regular outside contact might be more easily persuaded that an unexpected overseas message was genuine. Police responded by taking the warning directly into the community, visiting schools and public meetings to teach residents how to recognise a scam email and to report suspicious messages to police rather than reply or hand over any personal or bank information. At the time of the warning, Niue police said they had no confirmed reports of anyone on the island having actually lost money to the emails, crediting the awareness campaign with catching the problem before it produced victims, and urged anyone unsure about a message asking for financial or personal details to verify it with police first.`,
+    categorySlug: 'phishing',
+    alertLevel: 'low',
+    sources: ['RNZ Pacific', 'RNZ Pacific (Dateline Pacific)'],
+    sourceUrl: 'https://www.rnz.co.nz/international/pacific-news/281315/niue-police-warn-against-scam-emails',
+    country: 'NU',
+  },
+);
