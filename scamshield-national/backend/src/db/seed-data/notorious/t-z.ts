@@ -1761,3 +1761,37 @@ Brenner was indicted on charges of wire fraud, which carries a statutory maximum
 If the allegations are accurate, Brenner's case is a reminder that a position of institutional trust — a seat on a credit union's board — is not, by itself, evidence that money handed over personally to that person is safe; funds an investor intends to place with a financial institution should go directly into an account the institution itself administers and reports on, not through an individual board member's own personal discretion.`,
   },
 );
+
+NotoriousTZ.push(
+  {
+    title: 'Trevon Gross: The Pastor Who Sold Control of a Credit Union to a Bitcoin Launderer',
+    slug: 'trevon-gross-hope-fcu-coinmx-bribery',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://ncua.gov/news/enforcement-actions/administrative-orders/2021/administrative-order-matter-trevon-gross',
+    body: `Trevon Gross was the pastor of HOPE Cathedral in Jackson, New Jersey, and also chairman and CEO of a small, federally insured credit union tied to his congregation, Helping Other People Excel Federal Credit Union (HOPE FCU), which served mostly low-income members in the area. In 2014, that dual role made him a target for Anthony Murgio, a Florida man who was looking to buy control of a small credit union to give an unlicensed Bitcoin exchange called Coin.mx a federally insured institution to hide behind.
+
+Prosecutors said Murgio and an associate, software engineer Yuri Lebedev, paid Gross more than $150,000 in bribes — funneled partly as "donations" to his church and partly as direct payments — in exchange for using his position atop HOPE FCU's board to hand them effective control of the credit union. When federal examiners from the National Credit Union Administration came asking questions about the sudden change in control, Gross conspired with Murgio to make false statements and obstruct the examination rather than disclose what had actually happened.
+
+The stakes were higher than a small-town bribery case. Murgio was operating Coin.mx to launder money on behalf of Gery Shalon, an Israeli hacker whose crew had just pulled off one of the largest data breaches in U.S. history, compromising records tied to roughly 76 million households and 7 million businesses across JPMorgan Chase, E-Trade, Dow Jones and other firms. HOPE FCU's captured banking relationships gave that laundering operation a small, federally insured credit union to move money through, invisible to the banks that would otherwise have flagged it.
+
+A Manhattan federal jury convicted Gross and Lebedev in March 2017 of bribery and of conspiring to operate Coin.mx as an unlicensed money-transmitting business. That November, Gross was sentenced to five years in federal prison and a $12,000 fine on charges including conspiracy to commit financial institution bribery, to make false statements, and to obstruct a financial institution's examination. The NCUA separately issued a lifetime prohibition barring him from ever again working for or controlling any federally insured financial institution. Murgio, prosecuted separately, pleaded guilty and received five and a half years. The case is a reminder that "federally insured" doesn't mean fraud-proof at any size — a single corrupted board chairman at a tiny community credit union became, unwittingly or not, one link in a laundering chain for an international hacking operation.`,
+  },
+);
+
+NotoriousTZ.push(
+  {
+    title: 'Yusaf Jawed: The Portland Hedge Fund Manager Behind a $30 Million Ponzi Scheme',
+    slug: 'yusaf-jawed-grifphon-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-22487',
+    body: `Yusaf Jawed ran Grifphon Asset Management and a related stable of funds, including one called the Alpha Qualified Fund, out of Portland, Oregon, marketing to investors across the Pacific Northwest and beyond. His pitch leaned on consistency rather than excitement: marketing materials claimed the funds delivered double-digit returns year after year, even in years the S&P 500 index was falling — a claim that should have read as implausible rather than reassuring.
+
+None of it held up. According to the SEC, Jawed diverted investor money into accounts he personally controlled, sent out fabricated account statements showing gains that never happened, and — when investors grew anxious about their money — staged a sham buyout of the funds to make it look like an orderly, voluntary exit rather than a fraud in progress. Underneath the fabricated paperwork was a straightforward Ponzi structure: money from new investors paid off earlier ones. An outside attorney, Robert Custis, was separately charged by the SEC for helping relay the falsified statements to investors.
+
+Altogether, the scheme raised more than $30 million from over 100 investors before it collapsed. The SEC sued Jawed and his firms in September 2012, while federal prosecutors in Oregon pursued him criminally over a $6.47 million slice of the fraud run through the Alpha Qualified Fund between February 2008 and September 2009 — money investors believed was being invested but which Jawed mostly diverted to finder's fees, loan repayments, office expenses, and payments to earlier investors. Jawed pleaded guilty to five counts of mail fraud and twelve counts of wire fraud.
+
+He was sentenced to 78 months in federal prison, with three years of supervised release to follow, and ordered to pay $6.47 million in restitution to the victims of that portion of the scheme. The SEC's parallel civil case ended with a final judgment ordering more than $33.9 million in disgorgement and interest, plus a permanent bar from the securities industry. Jawed's case is a reminder that the most durable frauds often aren't the ones promising explosive, headline-grabbing returns — they're the ones promising just enough outperformance, delivered with just enough consistency, to look like skill rather than what it actually was: a story with nothing real behind it.`,
+  },
+);
