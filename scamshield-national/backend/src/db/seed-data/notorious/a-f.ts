@@ -5929,4 +5929,20 @@ The U.S. Secret Service raided ASD in August 2008 and seized cash, gold, and oth
 
 ASD was one of the largest "autosurf" Ponzi schemes of the 2000s internet-Ponzi wave, and the resistance of its own membership to the fraud finding is part of what makes the case worth remembering: a scheme dressed up with a plausible-sounding business model — click ads, get paid — can build a base of true believers who fight harder for the con than the con man does, simply because they can't accept that the returns they were counting on were never real.`,
   },
+{
+    title: 'Amir Golestan and the Fake Companies That Stole 735,000 Internet Addresses',
+    slug: 'amir-golestan-micfo-ipv4-address-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-sc/pr/charleston-county-man-sentenced-5-years-federal-prison-wire-fraud',
+    body: `Every device connected to the internet needs an IPv4 address, and the global supply of them ran out years ago — the nonprofit that allocates addresses in the U.S., Canada, and parts of the Caribbean, the American Registry for Internet Numbers (ARIN), stopped having new blocks to hand out around 2015. That scarcity turned old, already-allocated address blocks into a genuinely valuable commodity, reselling for $15 to $25 apiece on a legitimate secondary market. It also created an opening for fraud, and Amir Golestan, founder and CEO of the Charleston, South Carolina tech company Micfo LLC, built a scheme to exploit it.
+
+ARIN's rules limit how many IP addresses a single organization can acquire, so Golestan's scheme, prosecutors said, was to make it look like many small, unrelated organizations were each requesting a modest, rule-compliant allocation. He set up a network of shell companies with fabricated identities, backed by notarized affidavits sworn in the names of people who did not exist, and used them to submit dozens of separate requests to ARIN — concealing that every one of those "customers" was really Micfo, and that all of the addresses were headed to the same buyer. ARIN itself uncovered the pattern and filed a civil suit against Golestan and Micfo in 2018.
+
+By ARIN's own accounting, the scheme fraudulently obtained roughly 757,760 IPv4 addresses, worth an estimated $9.85 million to $14.4 million, which Golestan then resold on the secondary market — including, according to reporting on the case, to VPN providers, with Micfo at one point claiming to broker roughly 40 percent of the IP addresses used by the world's largest VPN services. A federal grand jury indicted Golestan in May 2019 on 20 counts of wire fraud, one for each fraudulent shell-company transaction, and after nearly two days of trial in November 2021, Golestan and Micfo pleaded guilty to all 20 counts.
+
+On September 13, 2023, U.S. District Judge Richard Gergel sentenced Golestan to five years in federal prison and two years of supervised release, along with $76,978 in restitution to ARIN to cover its investigation and prosecution costs; Micfo was sentenced to probation as a corporate entity. Judge Gergel cited both the scale of the deception and evidence that Golestan had intimidated a witness in explaining the length of the sentence, telling the courtroom that "the internet community is watching."
+
+Golestan's case is a reminder that fraud doesn't require a victim handing over cash directly — a scarce, allocatable resource like an IP address block is property just the same, and a network of invented companies with notarized paperwork for people who don't exist can be just as effective a disguise as a fake balance sheet, right up until the registry that controls the resource notices the same buyer behind every "different" request.`,
+  },
 );

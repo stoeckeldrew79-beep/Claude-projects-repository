@@ -4029,4 +4029,20 @@ A federal jury in the U.S. District Court for the Southern District of Florida c
 
 The scheme worked the same way most affinity-adjacent frauds do: a recognizable name did the persuading that paperwork normally would. Sellers who might have insisted on payment up front, or verified a wire before releasing six-figure merchandise to a stranger, skipped those steps because the buyer was someone they recognized from the radio — proof that celebrity is its own kind of social engineering, and that a fake receipt only has to look convincing for as long as it takes the goods to walk out the door.`,
   },
+{
+    title: 'Rudy Meredith, the Yale Coach Whose Own Fraud Cracked Open Varsity Blues',
+    slug: 'rudy-meredith-yale-soccer-varsity-blues',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://www.justice.gov/usao-ma/pr/former-head-coach-women-s-soccer-yale-university-sentenced-college-admissions-case',
+    body: `Rudy Meredith coached Yale University's women's soccer team for more than two decades, a position that came with a genuinely valuable power: the ability to designate a handful of applicants each year as recruited athletes, guaranteeing them a far easier path through Yale's admissions process than any amount of academic achievement alone could buy. Starting around April 2015, prosecutors say, Meredith began selling that power directly.
+
+Working with California college-admissions consultant William "Rick" Singer, Meredith agreed to falsely designate the children of Singer's paying clients as Yale soccer recruits, regardless of whether they actually played competitive soccer at a recruitable level. Between 2015 and 2018, he accepted a total of roughly $860,000 from Singer in exchange for purporting to recruit — or attempting to otherwise facilitate the admission of — several students who had no real place on the team. Separately, and without cutting Singer in at all, Meredith agreed to accept an additional bribe of about $450,000 directly from one parent to designate that parent's daughter as a soccer recruit.
+
+Meredith's scheme did not stay hidden through some elaborate cover-up; it fell apart because he was caught. Federal agents investigating an unrelated fraud matter in Boston approached Meredith directly, and rather than deny it, he admitted to the recruiting bribery scheme and agreed to cooperate, ultimately wearing a wire to record his own calls with Singer. Those recordings became the evidentiary backbone that let the FBI's "Operation Varsity Blues" investigation trace the scheme back to Singer as its architect and, from there, unravel bribes paid by dozens of wealthy parents to coaches at Yale, Stanford, USC, Georgetown, and other schools.
+
+Meredith pleaded guilty in March 2019 to conspiracy to commit wire fraud and honest services wire fraud, and to a substantive count of the same offenses. On November 9, 2022, U.S. Senior District Judge Mark L. Wolf sentenced him to five months in federal prison, one year of supervised release, a $19,000 fine, and forfeiture of $557,774 — a sentence above what prosecutors had actually recommended given his cooperation, with the judge citing the seriousness of the underlying bribery scheme itself.
+
+Meredith's case is the necessary companion to Singer's: Singer built and marketed the scheme, but it was a coach getting caught in someone else's investigation, and then choosing to cooperate rather than stay silent, that turned an isolated bribery arrangement between two men into the evidence base for one of the largest college-admissions prosecutions in U.S. history.`,
+  },
 );
