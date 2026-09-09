@@ -4582,3 +4582,17 @@ UsGM.push({
     country: 'US',
     state: 'GA',
 });
+
+UsGM.push({
+    name: 'JK Exteriors Tornado-Damage Roofing Fraud',
+    slug: 'missouri-jk-exteriors-tornado-roofing-fraud',
+    description: `Jacob Kaestner ran JK Exteriors in Jefferson County, Missouri, taking upfront payments from homeowners to replace roofs, gutters, and siding damaged in the March and May 2025 tornadoes that tore through the St. Louis area — then, according to Missouri Attorney General Catherine Hanaway's office, abandoned the projects or never started the work at all. Sixteen Missourians lost a combined $131,885.91 to the scheme, seven of them elderly homeowners authorities say were especially targeted in the disaster's aftermath; in at least one case, the work was only finished after the customer filed a formal complaint with the state. Hanaway's office filed 23 counts of deceptive business practices against Kaestner in Jefferson County on May 28, 2026, with an Assistant Attorney General prosecuting the case alongside an investigation by the Attorney General's Consumer Protection Section and the Jefferson County Sheriff's Office. "In the aftermath of tornadoes and natural disasters, families are at their most vulnerable, and scammers who prey on that pain are reprehensible," Hanaway said. Storm-chasing contractors typically appear within days of a disaster promising fast repairs for a deposit collected up front; homeowners rebuilding after a tornado, flood, or hailstorm should get a written contract with a payment schedule tied to completed work stages, verify a contractor's registration and any complaint history with the Missouri Attorney General's office before signing anything, and treat a demand for full or near-full payment before work starts as a serious warning sign.`,
+    categorySlug: 'home-improvement-solar',
+    alertLevel: 'medium',
+    isHistorical: true,
+    firstRecorded: '2025-03-01',
+    sources: ["Missouri Attorney General's Office", 'St. Louis Public Radio (STLPR)'],
+    sourceUrl: 'https://ago.mo.gov/attorney-general-hanaway-announces-charges-against-contractor-targeting-st-louis-tornado-victims/',
+    country: 'US',
+    state: 'MO',
+});
