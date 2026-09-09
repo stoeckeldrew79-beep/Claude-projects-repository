@@ -5946,3 +5946,22 @@ On September 13, 2023, U.S. District Judge Richard Gergel sentenced Golestan to 
 Golestan's case is a reminder that fraud doesn't require a victim handing over cash directly — a scarce, allocatable resource like an IP address block is property just the same, and a network of invented companies with notarized paperwork for people who don't exist can be just as effective a disguise as a fake balance sheet, right up until the registry that controls the resource notices the same buyer behind every "different" request.`,
   },
 );
+
+NotoriousAF.push(
+  {
+    title: 'DeAnne and Mark Stidham: The Leggings Empire a State Attorney General Called a Pyramid Scheme',
+    slug: 'deanne-mark-stidham-lularoe-pyramid-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.atg.wa.gov/news/news-releases/lularoe-pay-475-million-resolve-ag-ferguson-s-lawsuit-over-pyramid-scheme',
+    body: `DeAnne Stidham started LuLaRoe at her kitchen table in 2012, naming the company after her three oldest granddaughters — Lucy, Lola, and Monroe — and running it with her husband, Mark, who became the company's CEO. What began as a small line of women's clothing sold through Facebook groups turned, after LuLaRoe introduced its now-signature line of brightly patterned leggings in 2014, into one of the fastest-growing multi-level marketing companies in the country: by August 2016 Mark Stidham said the company was on pace to top $1 billion in annual sales with roughly 26,000 independent "fashion consultants," and by early 2017 that sales force had grown past 80,000.
+
+LuLaRoe didn't sell clothing to the public directly. It sold wholesale inventory to the consultants who signed up to resell it, requiring an upfront "onboarding" purchase that could run from a few hundred dollars into the thousands, delivered as a random, non-customizable assortment the consultant had no say in choosing. The company's own compensation plan rewarded consultants far more for recruiting other consultants into the network beneath them than for actually selling clothes to customers — the defining feature regulators look for in a pyramid scheme — and according to Washington state's later lawsuit, two of the company's top recruiters collectively earned more than $5 million between 2016 and 2019 while more than a third of all consultants lost money.
+
+Washington Attorney General Bob Ferguson sued LuLaRoe and its executives, including the Stidhams, in January 2019, alleging the company violated the state's Anti-Pyramid Promotional Scheme Act and Consumer Protection Act. The complaint pointed to deceptive claims about how much money a typical consultant could expect to make, and to a buyback guarantee — LuLaRoe had promised consultants left with unsold inventory a "100% Risk-Free" refund — that the company quietly cut to 90 percent, with added restrictions, once the promise threatened to become expensive. Consultants who complained described discovering the reduced buyback terms only after they had already sunk thousands of dollars into inventory they could not sell.
+
+LuLaRoe settled the Washington case in February 2021, agreeing to pay $4.75 million without admitting wrongdoing — $4 million earmarked as restitution for roughly 3,000 Washington consultants the state said had been recruited into the company's losses, and $750,000 to reimburse the Attorney General's office for investigating and litigating the case. "LuLaRoe tricked Washingtonians into buying into its pyramid scheme with deceptive claims and false promises," Ferguson said in announcing the deal. The company's practices had already drawn national attention by then, including in the 2021 Amazon docuseries "LuLaRich," which traced the same recruitment-driven growth and unsellable-inventory complaints the Washington lawsuit laid out in legal terms.
+
+LuLaRoe's rise and the case against it are a useful illustration of what separates a legitimate direct-sales business from a pyramid scheme: not whether the product is real — LuLaRoe's leggings were — but whether the money changing hands flows mainly from retail sales to real customers or mainly from new recruits buying in, with a buyback promise that sounds risk-free only for as long as too few people try to use it at once.`,
+  },
+);
