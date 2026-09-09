@@ -4436,3 +4436,15 @@ UsNS.push({
     country: 'US',
     state: 'RI',
 });
+
+UsNS.push({
+    name: 'Sopris Solar Racketeering and Customer-Funds Theft Scheme',
+    slug: 'sopris-solar-colorado-racketeering-theft-scheme',
+    description: `Nathan Billmaier and Scot Birrell ran Sopris Solar, a residential solar contracting company that a Colorado statewide grand jury found had collected hundreds of thousands of dollars in customer payments across Eagle, Park, Prowers, San Miguel, Summit, and Weld counties without holding the funds in trust for the customers' designated solar installation projects, as Colorado law requires of contractors. The grand jury indicted both men on August 28, 2025, charging each with racketeering and conspiracy under the Colorado Organized Crime Control Act — both class 2 felonies — along with seven counts of felony theft at various dollar thresholds and two counts of felony tax evasion, in a case filed in Jefferson County District Court (case numbers 25CR2138 for Billmaier and 25CR2137 for Birrell). Attorney General Phil Weiser's office, which announced the indictments in December 2025, said customers paid Sopris Solar for panels and installation work that in many cases was never completed or was left unfinished, leaving homeowners out the money with no working solar system to show for it. "Colorado law requires that contractors hold collected client funds in trust for the client's designated project. Failing to do so may lead to criminal theft charges," Weiser said. Birrell was taken into custody at the Denver Downtown Detention Center, while Billmaier remained at large as of the announcement. Homeowners hiring a solar contractor are advised to ask specifically how their deposit and progress payments are held before installation begins, to check a contractor's standing with the Colorado Attorney General's Office and county licensing records before signing, and to be wary of any solar company that requests full payment well before panels are delivered or work is finished.`,
+    categorySlug: 'home-improvement-solar',
+    alertLevel: 'high',
+    sources: ["Colorado Attorney General's Office"],
+    sourceUrl: 'https://coag.gov/2025/home-solar-contracting-criminal-fraud-scheme/',
+    country: 'US',
+    state: 'CO',
+});
