@@ -5210,3 +5210,27 @@ UsGM.push({
     isHistorical: true,
     firstRecorded: '2023-01-17',
 });
+
+UsGM.push({
+    name: 'Fake DTE Energy Worker Badge Scam',
+    slug: 'michigan-dte-energy-fake-worker-badge-scam',
+    description: `In late April 2026, a man wearing an orange safety vest and shirt bearing what looked like a DTE Energy patch approached the porch of Dorothy Carey, a 71-year-old Canton Township, Michigan resident, and presented what appeared to be a legitimate employee badge carrying a photo and the DTE logo. He told her DTE had discovered residents were being overcharged and asked to see her utility bill to verify the charges; when she mentioned her bill was bundled with lot payments, he left abruptly, and Carey never saw him approach any other house despite his claim of going door to door. DTE Energy confirmed to Canton Township Police that "this is certainly not a DTE employee," and both the company and police reissued their standing warning that a legitimate DTE worker never asks to see a customer's billing documents at the door, never requests payment on the spot, never asks for a prepaid debit card, and never threatens an immediate shutoff during an unscheduled visit. Because an actual utility meter sits outside a home and doesn't require entry to read, and any real account issue can always be verified independently, DTE and Canton Township Police urge residents to ask any self-identified utility worker for photo ID, then call DTE's official number, 800-477-4747, rather than one supplied by the visitor, before answering questions about a bill or letting anyone inside. An unscheduled visitor who becomes agitated, pressures a resident to act quickly, or asks to come inside should prompt a call to 911, not a continued conversation on the porch.`,
+    categorySlug: 'utility-scams',
+    alertLevel: 'medium',
+    sources: ["Canton Township (MI) Police Department", 'DTE Energy', 'WDIV Local 4 / ClickOnDetroit'],
+    sourceUrl: 'https://www.clickondetroit.com/news/local/2026/04/30/dte-energy-scam-fake-worker-targets-michigan-senior-with-bogus-badge-and-logo/',
+    country: 'US',
+    state: 'MI',
+});
+
+UsGM.push({
+    name: 'Bridgewater GoFundMe Fundraiser Misappropriation (Kadis and Ferreira)',
+    slug: 'massachusetts-bridgewater-gofundme-misappropriation-scam',
+    description: `In March 2025, Rachel Kadis, 32, and Brian Ferreira, 34, of Bridgewater, Massachusetts started a GoFundMe campaign for Greg Bobst, an unhoused Bridgewater man they knew, that went on to raise roughly $18,000 from real donors moved by his story. Unlike a scam built entirely around a fabricated beneficiary, Bobst was a real person the organizers actually knew — but prosecutors say Kadis and Ferreira kept the donated money in a personal account he had no access to and never gave him any of it, despite his reporting the situation to Bridgewater Police as early as June 2025. Bobst died on July 1, 2025, having received none of the funds raised in his name. The Plymouth County District Attorney's Office charged the pair the following year — Ferreira arraigned in June 2026 and Kadis in August 2026 — with larceny, fraud, and conspiracy, alongside a separate set of charges accusing the couple of fraudulently collecting more than $267,000 in state and federal benefits by falsely claiming Kadis was an unmarried single mother; both have pleaded not guilty, with Kadis's jury trial set for June 2027. The case illustrates a version of GoFundMe fraud a donor can't catch by fact-checking the beneficiary's story, since the person and the hardship are genuine — the fraud happens after the money arrives, when an organizer with sole access to the account simply never passes it along. Donors giving through a personal fundraiser for someone else, rather than a registered charity, can reduce this risk by checking whether the platform's own verified or direct-to-beneficiary payout options are being used, looking at a campaign's update history and the organizer's stated relationship to the beneficiary before giving a large amount, and treating a beneficiary's own public complaint that they haven't been paid — as Bobst made to police months before he died — as a serious red flag rather than a private dispute between the parties.`,
+    categorySlug: 'charity-scams',
+    alertLevel: 'medium',
+    sources: ["Plymouth County (MA) District Attorney's Office", 'Boston.com'],
+    sourceUrl: 'https://www.boston.com/news/crime/2026/08/27/bridgewater-couple-accused-of-stealing-from-homeless-mans-gofundme-they-created-face-new-fraud-charges/',
+    country: 'US',
+    state: 'MA',
+});
