@@ -4752,3 +4752,15 @@ UsGM.push({
     country: 'US',
     state: 'MN',
 });
+
+UsGM.push({
+    name: 'Home365 Pennsylvania Tenant Neglect and Deposit Settlement',
+    slug: 'home365-pennsylvania-tenant-neglect-settlement',
+    description: `Home365, LLC, a Las Vegas-based property management company that markets an "AI-driven" platform to landlords for handling leasing and maintenance requests, agreed to a $45,000 settlement with Pennsylvania Attorney General Dave Sunday's office in May 2025 after tenants across the state complained the company left them without heat and running water for extended periods and repeatedly failed to make timely repairs. The Office of Attorney General alleged Home365 violated Pennsylvania's Unfair Trade Practices and Consumer Protection Law by failing to keep rental units safe and habitable, and separately violated the state's Landlord Tenant Act by failing to return tenants' security deposits as required after move-out. Tenants who complained said the company's automated, app-based maintenance-request system routed their reports into a system with little human follow-up, leaving urgent habitability problems unresolved for weeks while Home365 continued collecting rent. Under the Assurance of Voluntary Compliance, Home365 paid $30,000 in consumer restitution plus $15,000 in costs, and the Commonwealth began mailing refund checks — ranging from $375 to $10,450 — to tenants who had already filed complaints, while giving others a 90-day window to file a new complaint with the PA Bureau of Consumer Protection to become eligible for restitution. Renters whose property manager uses an app-only maintenance system with no direct phone line to a human should document every request with a timestamp and photos, escalate an unaddressed habitability issue (no heat, no water, no working locks) to their local housing code enforcement office rather than waiting indefinitely on an app ticket, and know that a landlord's use of automated software does not change its legal obligation to return a security deposit or keep a rental unit habitable under state law.`,
+    categorySlug: 'rental-housing',
+    alertLevel: 'medium',
+    sources: ["Pennsylvania Office of Attorney General", 'Multifamily Dive', '6abc Philadelphia'],
+    sourceUrl: 'https://www.attorneygeneral.gov/taking-action/ag-sunday-reaches-settlement-with-property-management-company-regarding-a-i-based-platform-resulting-in-maintenance-delays/',
+    country: 'US',
+    state: 'PA',
+});

@@ -6276,3 +6276,15 @@ UsAF.push({
     country: 'US',
     state: 'DE',
 });
+
+UsAF.push({
+    name: 'Montgomery Medicaid Employee Fraudulent Transportation-Claims Theft (Natalie Colette Lewis)',
+    slug: 'alabama-lewis-medicaid-transportation-claims-theft',
+    description: `Natalie Colette Lewis, 60, of Montgomery, worked as a Medical Care Benefits Specialist in the Alabama Medicaid Agency's Non-Emergency Transportation Division, where her job was to process reimbursement claims for Medicaid recipients' travel to medical appointments. Between December 2019 and November 2024, Lewis instead submitted 1,631 fraudulent transportation claims for her own son, a Medicaid recipient, for medical appointments that never actually took place, collecting $103,413.26 that she spent on personal expenses rather than passing on to any legitimate transportation provider. The theft was uncovered internally by the Alabama Medicaid Agency, which referred the matter to the Alabama Attorney General's Medicaid Fraud Control Unit for investigation. Lewis pleaded guilty to aggravated theft of property, and Montgomery County Circuit Judge Brooke Reid accepted the plea on August 26, 2025, with sentencing set for October 2, 2025; she faced up to 30 years in prison, a fine of up to $60,000, and forfeiture of her state retirement benefits. "Public service is a responsibility, not a personal financial opportunity," Attorney General Steve Marshall said in announcing the conviction, adding that the Medicaid Fraud Control Unit would continue holding accountable "those who exploit their positions to defraud state programs and steal from Alabama taxpayers." The case is a reminder that Medicaid fraud isn't limited to outside con artists — an insider with legitimate system access can falsify claims for years before detection — and that recipients and their families should keep their own records of medical appointments and transportation used, since those records are often what exposes a mismatch when an agency's internal review catches up.`,
+    categorySlug: 'medicare-health-plans',
+    alertLevel: 'medium',
+    sources: ["Alabama Attorney General's Office", 'The Trussville Tribune'],
+    sourceUrl: 'https://www.alabamaag.gov/attorney-general-marshall-announces-conviction-of-former-state-employee-for-the-theft-of-over-100000-from-alabama-medicaid-agency/',
+    country: 'US',
+    state: 'AL',
+});
