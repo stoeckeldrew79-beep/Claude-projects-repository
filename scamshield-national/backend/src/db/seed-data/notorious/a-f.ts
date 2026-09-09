@@ -6256,3 +6256,20 @@ A federal grand jury indicted Arehart in November 2023 on charges including mail
 The charity's website and social media accounts disappeared after the sentencing, and the Loris housing project remains an empty, annexed lot. Bruce Donegan, South Carolina's American Legion state commander, summed up the reaction among veterans who had bought raffle tickets or watched the groundbreaking with hope: "I felt betrayed, I was kind of shocked," he said, adding that the stalled facility left a real gap in Horry County. "I hope he has to pay it back somehow." The case is a reminder that a charity's mission statement and a Facebook raffle page are not oversight — when one person controls both the story being told and the only bank account it funds, there is nothing standing between a donor's good intentions and a $525,000 salary paid for by them.`,
   },
 );
+NotoriousAF.push(
+  {
+    title: 'Patrick Cassells and the $59.9 Million Medicare Brace Scheme Built to Buy Cars for Nigeria',
+    slug: 'patrick-cassells-medicare-dme-brace-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/opa/pr/owner-durable-medical-equipment-company-sentenced-59m-medicare-fraud',
+    // no rights-cleared photo found — sourceUrl above serves as the "read the full story" link
+    body: `Patrick Cassells, 65, of Fulshear, Texas, owned and controlled three durable medical equipment (DME) companies that billed Medicare for orthotic braces — knee, back, shoulder, and wrist braces — supposedly ordered by physicians for beneficiaries who needed them. On the paperwork for at least one of the three companies, Cassells wasn't listed as the owner at all: prosecutors said he falsely identified someone else as the sole owner and manager on the company's Medicare enrollment application, keeping his own name off the one document that might have drawn scrutiny to how many DME companies he was actually running at once.
+
+The doctors' orders that justified each brace claim weren't the product of real medical exams. According to the Justice Department, Cassells paid illegal kickbacks to co-conspirators who supplied him with signed physician orders and other paperwork needed to bill Medicare, disguising the payments in his own books as "marketing" fees and the orders themselves as purchased "leads" — bureaucratic language standing in for what was, functionally, a fee paid per beneficiary whose Medicare number could be turned into a bill. Across the three companies, Cassells caused more than $59.9 million in false and fraudulent claims to be submitted to Medicare, of which the program actually paid out over $27 million.
+
+Cassells pleaded guilty in June 2024 in the Southern District of Texas to one count of conspiracy to commit health care fraud. Investigators traced a portion of the fraud proceeds to a stream of personal vehicles Cassells purchased and, according to prosecutors, intended to export to Nigeria — a detail that surfaced in the case's forfeiture order, which took four vehicles along with three Houston-area properties bought with scheme money. On March 9, 2026, Cassells was sentenced to 90 months in federal prison and ordered to pay $25,402,614.97 in combined restitution and forfeiture.
+
+The case is a reminder that a Medicare fraud scheme built on paper — a brace, a signature, a billing code — doesn't need a single elaborate lie to work, only a lot of small, boring ones repeated enough times: an enrollment form with the wrong name on it, a doctor's order bought rather than written, and a kickback that never has to look like a kickback as long as an invoice calls it "marketing."`,
+  },
+);
