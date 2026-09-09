@@ -2709,3 +2709,15 @@ UsTZ.push({
     country: 'US',
     state: 'VA',
 });
+
+UsTZ.push({
+    name: 'Hartland Advisor\'s Fake Promissory Note and Gold-Purchase Scheme (Matthew McGonigle)',
+    slug: 'wisconsin-hartland-mcgonigle-retireco-promissory-note-fraud',
+    description: `The Wisconsin Department of Financial Institutions' Division of Securities issued a Consent Order on January 22, 2026 against Matthew McGonigle of Hartland and his company, RetireCo Solutions, LLC — neither of whom has ever been registered to sell securities in Wisconsin, the SEC, or FINRA. According to the order, McGonigle, an insurance-licensed relative by marriage of the victim, helped an Ohio investor identified only as "Investor DZ" — a disabled former auto-manufacturing employee — roll her $314,825 disability pension and part of her 401(k) into an IRA in December 2018, then steered her into two annuities and a life insurance policy before pitching a different product entirely: RetireCo promissory notes paying 6-8% annual interest, which he said would fund unnamed businesses' growth. Investor DZ wired roughly $105,000 across three notes in March 2019 and a fourth $20,000 note in January 2020, and separately sent McGonigle $21,000 in April 2020 to buy gold and silver for her IRA. The Division found McGonigle instead spent virtually all of the money on himself — his mortgage, credit card bills, a Florida vacation, Milwaukee Bucks tickets, restaurant meals, and only $11,996 of the $21,000 actually went toward gold — while telling Investor DZ for years that her funds were tied up in a custodian transfer. When she began asking for her money back starting in mid-2024, McGonigle strung her along until the Division stepped in; he has still paid nothing toward the notes. The consent order bars McGonigle and RetireCo from ever registering to sell securities in Wisconsin again and orders McGonigle to pay $133,787.95 in restitution with interest. The case is a reminder that a personal or family connection to an insurance agent is not the same as a licensed investment relationship — anyone offering a promissory note, an annuity swap, or a "guaranteed return" investment should be checked against a state's securities-registration database before any money changes hands, which in Wisconsin can be done through the Division of Securities at dfi.wi.gov.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ['Wisconsin Department of Financial Institutions, Division of Securities'],
+    sourceUrl: 'https://dfi.wi.gov/Documents/Securities/RegistrationOfProfessionals/EnforcementAdministrativeOrders/2026/20260122McGonigleRetireCo.pdf',
+    country: 'US',
+    state: 'WI',
+});

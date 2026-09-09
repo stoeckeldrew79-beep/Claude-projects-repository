@@ -5052,3 +5052,15 @@ UsGM.push({
     country: 'US',
     state: 'LA',
 });
+
+UsGM.push({
+    name: 'Iowa State Fair Fake Grandstand Ticket Scam',
+    slug: 'iowa-state-fair-fake-grandstand-ticket-scam',
+    description: `Iowa State Fair CEO Jeremy Parsons warned fairgoers on Facebook the night of December 10, 2025 — hours after the Fair announced Lainey Wilson and Rod Stewart as its first two 2026 Grandstand acts — that any tickets already in circulation for those shows were fake, since the Fair had not yet begun selling them. "If you have already purchased tickets, they are fake," Parsons wrote, explaining that counterfeit and scalped listings routinely appear online the moment a big-name act is announced, well before the Fair's own box office opens sales to the public. To help fairgoers spot a scalped or bogus listing after tickets went on sale December 12, Parsons pointed to the Fair's own posted price range of $69.50 to $134.50 per seat: "If you pay MORE than $134.50 for a ticket… You have purchased from a scalper and they might be fake." The warning reflects a pattern that recurs every year a state fair lines up a headline act — resale and copycat ticket sites move faster than the fair's own box office, and buyers who search for tickets before the official on-sale date, or who pay well above face value from an unfamiliar reseller, have no way to know whether the seat they paid for actually exists. The Iowa State Fair advises buying Grandstand tickets only through its own official website or box office, never through a third-party link or social media ad, and treating any listing at a steep markup, or any available before the announced public on-sale date, as a red flag.`,
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'medium',
+    sources: ['Iowa State Fair', 'WHO 13 (who13.com)'],
+    sourceUrl: 'https://who13.com/news/iowa-news/iowa-state-fair-ceo-warns-of-fake-ticket-sales-to-grandstand-acts/',
+    country: 'US',
+    state: 'IA',
+});
