@@ -2625,3 +2625,15 @@ UsTZ.push({
     country: 'US',
     state: 'VT',
 });
+
+UsTZ.push({
+    name: 'Spokane In-Home Care Medicaid Billing-Fraud Ring',
+    slug: 'washington-spokane-in-home-care-medicaid-fraud-ring',
+    description: `Washington Attorney General Nicholas Brown's Medicaid Fraud & Abuse Division charged four Spokane-area in-home caregivers — Nicole Presnell, Jason Ross, Amanda Vermeulen, and Tracey L. Walker — with conspiring between 2023 and 2025 to bill the state's Medicaid program for personal-care hours that were never actually worked, together accounting for more than $141,000 in alleged losses. Charging documents filed by Assistant Attorney General Rachel Sterett in Spokane County Superior Court on June 18, 2026 accuse Presnell of conspiracy to commit first-degree theft and a Medicaid false-statement violation covering claims submitted between September 2023 and August 2024, while Walker faces multiple conspiracy and theft counts spanning April 2023 through September 2024 as well as a charge of soliciting another person to make a false Medicaid statement. The charges were announced alongside three separate Washington caregiver cases from the same statewide sweep — Devina Hernandez of Yakima, accused of billing roughly $19,000 while her client was hospitalized; Jacquelin Montano of Moses Lake, accused of billing more than $23,000 including hours submitted after her employment had ended; and Lina Parada of Burien, accused of billing more than $27,000 for care never provided — as part of the U.S. Department of Justice's 2026 National Health Care Fraud Takedown, a coordinated action across 56 federal districts and 45 states that charged 455 defendants nationwide in connection with more than $6.5 billion in alleged fraud. Families who arrange an in-home caregiver through a Medicaid personal-care program should keep their own log of the caregiver's actual hours and compare it against the billing statements Medicaid or the managing home-care agency sends, since these schemes are typically discovered only when someone outside the caregiving relationship happens to review the paperwork.`,
+    categorySlug: 'healthcare-fraud',
+    alertLevel: 'high',
+    sources: ['Washington State Office of the Attorney General (Medicaid Fraud & Abuse Division)', '570 KVI News (Seattle)'],
+    sourceUrl: 'https://www.kvi.com/2026/06/24/washington-providers-caregivers-charged-or-settle-fraud-allegations-as-doj-announces-6-5-billion-health-care-crackdown/',
+    country: 'US',
+    state: 'WA',
+});

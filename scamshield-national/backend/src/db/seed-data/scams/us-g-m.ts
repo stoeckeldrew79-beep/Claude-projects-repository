@@ -4634,3 +4634,15 @@ UsGM.push({
     country: 'US',
     state: 'MD',
 });
+
+UsGM.push({
+    name: 'Chisago County "Meibit" Pig-Butchering Crypto Investment Scam',
+    slug: 'minnesota-chisago-county-meibit-pig-butchering-crypto-scam',
+    description: `A construction-business owner near Cambridge in Chisago County, Minnesota, lost $500,000 to a "pig-butchering" cryptocurrency investment scheme after being gradually persuaded to move his money into an app called Meibit, watching what looked like real profits accumulate in the account before the operators moved to take everything. Starting with his first deposit in July 2025, the scammers let his account balance appear to grow for months — the hallmark of pig butchering, in which a victim is "fattened up" with fake gains before the scheme freezes or drains the funds — until November 18, 2025, when he received an email claiming his account had been frozen over alleged "insider trading" and that he needed to wire an additional $240,000 to unlock it. Rather than pay, he contacted the Chisago County Sheriff's Office; Sheriff's Capt. Andrew Mahowald said the digital-currency investigation remained active as of December 2025 with no arrests yet made. Anyone directed to move money into an unfamiliar trading app by someone they met online or through social media — especially one who later demands an additional payment just to "unlock" or "release" funds already deposited — should stop immediately and contact local law enforcement, since a legitimate exchange never charges a customer a fee to withdraw their own money.`,
+    categorySlug: 'cryptocurrency-scams',
+    alertLevel: 'high',
+    sources: ['Minnesota Star Tribune', "Chisago County Sheriff's Office"],
+    sourceUrl: 'https://www.startribune.com/pig-butchering-cryptocurrency-scam-cheats-minnesota-business-owner-out-of-500k/601544394',
+    country: 'US',
+    state: 'MN',
+});
