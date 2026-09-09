@@ -4967,3 +4967,39 @@ UsGM.push({
     country: 'US',
     state: 'GA',
 });
+
+UsGM.push({
+    name: 'Iowa Board of Medicine Investigator Impersonation Scam',
+    slug: 'iowa-board-of-medicine-investigator-impersonation-scam',
+    description: `On July 22, 2025, Iowa physician Dr. Katie Kuehner received a call from someone identifying himself as "Investigator Jason Hayes," badge number BR7474786 and "Chief Investigator #3" of the Iowa Board of Medicine, who claimed narcotics seized at the Texas-Mexico border had been traced directly to her name, medical license, and National Provider Identifier, and accused her of five federal counts of drug trafficking under 21 U.S.C. § 841(a) and four counts of money laundering. The caller told Kuehner her license was suspended effective immediately, that an FBI arrest warrant had been issued, and that her bank accounts were frozen, then invoked a fabricated "gag order" under the Privacy Act and designated her a cooperating "Supplicant" under supposed FBI surveillance to keep her from telling anyone or verifying the claim independently. To make the story stick, the scammer arranged for a forged "Temporary Suspension Notice" — complete with official-looking seals, letterhead, and the signatures of "Jason Hayes" and a fabricated "Joyce V. Viste-Wayne, MD, Chair" — along with a fake Department of Justice form, delivered to a nearby UPS Store, then demanded she wire $19,747 for a "federal bond" within hours to avoid arrest. The Iowa Department of Inspections, Appeals, and Licensing, which now houses the Iowa Board of Medicine, publicized Kuehner's account in a December 11, 2025 newsletter alert, stressing that the Board never suspends a license by phone, never sends official documents to a third-party mail drop like a UPS Store, and never demands an urgent wire transfer to avoid arrest — genuine agencies "never require" that kind of same-day payment. Any Iowa licensee contacted this way should hang up and call the Board directly at 515-281-7088 or 515-725-2183 to verify before providing any information or money.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['Iowa Department of Inspections, Appeals, and Licensing'],
+    sourceUrl: 'https://dial.iowa.gov/newsletter/2025-12-11/impersonation-scam-alert',
+    country: 'US',
+    state: 'IA',
+});
+
+UsGM.push({
+    name: 'Kentucky Derby Ticket and Hotel Package Scam (DerbyDeals.com)',
+    slug: 'kentucky-derby-derbydeals-ticket-scam',
+    description: `Every spring, the run-up to the Kentucky Oaks and Kentucky Derby draws fraudulent third-party sellers offering ticket-and-hotel packages that never materialize, a pattern the FBI's Louisville Division documented directly when it opened an investigation into the site DerbyDeals.com after the Better Business Bureau forwarded a mounting pile of complaints. More than 30 customers — some traveling from other states and countries — paid thousands of dollars apiece for advertised Kentucky Oaks and Derby ticket-and-hotel packages through the site, only to discover after arriving in Louisville around race weekend in May 2014 that the seats, rooms, or entire packages they had paid for did not exist; some received nothing at all, while others got tickets or rooms far worse than what was promised. The FBI's Louisville field office received information about the alleged scheme on May 7, 2014 and publicly asked for the public's help identifying additional victims of the site and its then-president, Scott Davis, who stopped responding to inquiries from customers, the BBB, and reporters even as the site kept selling packages during the investigation. Because the same setup resurfaces every Derby season as a fresh crop of buyers scrambles for hard-to-get tickets, anyone purchasing Oaks or Derby tickets — especially bundled with a hotel room — should buy only through Churchill Downs' own official ticket office or a verified, established resale platform, pay by credit card rather than wire transfer or cash so a fraudulent charge can be disputed, and treat any private seller or unfamiliar website offering a steeply discounted package ahead of race weekend as a red flag.`,
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'medium',
+    sources: ['FBI Louisville Division'],
+    sourceUrl: 'https://www.fbi.gov/contact-us/field-offices/louisville/news/press-releases/fbi-seeks-publics-assistance-to-identify-victims-of-potential-kentucky-derby-ticket-scam-involving-derbydeals.com',
+    country: 'US',
+    state: 'KY',
+});
+
+UsGM.push({
+    name: 'AI-Generated Fake University Website Network (Southeastern Michigan University)',
+    slug: 'michigan-ai-fake-university-website-scam',
+    description: `In August 2025, Eastern Michigan University alerted the Michigan Attorney General's office to a website calling itself "Southeastern Michigan University," operating at the domain smich.education, whose name was close enough to EMU's own to trade on the real school's reputation and pull in prospective students searching for online degree programs. The site advertised scholarships, an array of "accredited" academic programs, "award-winning faculty," a 75 percent graduation rate, and a "vibrant campus life" — none of it belonging to any real institution — designed to collect application fees and personal and financial information from students who believed they were enrolling somewhere legitimate. Attorney General Dana Nessel issued a consumer alert on August 8, 2025 warning residents away from the site and noting her office was reviewing the matter, advising that "if something seems suspicious or too good to be true, do your homework before sharing any personal information" and urging prospective students to independently verify a school's accreditation before applying or paying anything. A subsequent Inside Higher Ed investigation published August 14, 2025 found Southeastern Michigan University was just one node in a network of nearly 40 similar fake university sites, many built or supplemented with generative AI, sharing identical marketing language, recycled stock photography, and even fabricated accreditor and U.S. Department of Education look-alike pages, with several maintaining LinkedIn, Instagram, and Facebook profiles to appear more credible. Before applying to or paying any school found online, verify its accreditation directly through the U.S. Department of Education's own database rather than trusting badges or claims on the school's own site, and treat any "university" you've never otherwise heard of that surfaces mainly through search ads or social media as a warning sign.`,
+    categorySlug: 'student-loan-education',
+    alertLevel: 'medium',
+    sources: ["Michigan Attorney General's Office"],
+    sourceUrl: 'https://www.michigan.gov/ag/news/press-releases/2025/08/08/attorney-general-nessel-issues-new-consumer-alert-on-fake-college-websites',
+    country: 'US',
+    state: 'MI',
+});
