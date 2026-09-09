@@ -5100,3 +5100,15 @@ UsGM.push({
     country: 'US',
     state: 'ME',
 });
+
+UsGM.push({
+    name: 'Michigan State Police "Wrong Device" Cell Phone Delivery Return Scam',
+    slug: 'michigan-state-police-cell-phone-delivery-return-scam',
+    description: `Michigan State Police's Calumet Post warned Upper Peninsula residents on September 1, 2026 about a scam that targets people only after they've already received a legitimate new phone or other electronic device in the mail. Rather than the usual fake "your package is delayed" text, the caller opens by claiming to represent the actual retailer or carrier the victim ordered from — in a documented case, Spectrum — and cites real, accurate details about the order, including the specific device and its delivery date, information the scammer obtained separately rather than guessed. The caller then falsely claims the wrong device, a refurbished unit instead of the new one that was ordered, was shipped by mistake, insists the mix-up needs to be corrected "urgently," and offers to email a prepaid FedEx return shipping label on the spot, in the documented case sweetening the request with a $100 gift card as an apology. A victim who prints and uses that label isn't returning anything to the real company: the label routes the brand-new device straight to the scammer, leaving the victim to pay out of pocket for a replacement while the stolen device can potentially be used to attempt further identity theft. Troopers stressed that a caller's accurate knowledge of a real order is not proof of legitimacy on its own, since that information can be obtained elsewhere and doesn't mean the person on the phone actually works for the company that sold the device. Anyone who receives an unsolicited call, text, or email about a recent electronics order — especially one asking that the device be shipped somewhere other than through the original retailer's own return process — is advised to hang up and contact the retailer or carrier directly using the number on its official website or a past bill, never a number or shipping label supplied by the caller.`,
+    categorySlug: 'package-delivery-scams',
+    alertLevel: 'medium',
+    sources: ['Michigan State Police', 'Upper Michigan\'s Source (WLUC-TV)'],
+    sourceUrl: 'https://www.uppermichiganssource.com/2026/09/01/msp-warns-phone-delivery-scam/',
+    country: 'US',
+    state: 'MI',
+});
