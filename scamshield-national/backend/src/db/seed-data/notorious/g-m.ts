@@ -5979,3 +5979,22 @@ Garcia pleaded guilty to conspiracy to commit mail and wire fraud and was senten
 Garcia's case is a reminder that a fraud getting shut down by regulators doesn't necessarily mean the person behind it is finished — it can mean they simply rename the operation and start soliciting again under a new name, sometimes from behind bars. An investor vetting any "opportunity" run by newly formed, affiliated-sounding LLCs has good reason to ask not just whether the company is registered, but whether the person actually running it has a prior enforcement history at all.`,
   },
 );
+
+NotoriousGM.push(
+  {
+    title: 'Malone Lam and the $245 Million Bitcoin Heist That Funded a Nightclub Spending Spree',
+    slug: 'malone-lam-crypto-theft-racketeering',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-dc/pr/singaporean-ringleader-245-million-cryptocurrency-racketeering-enterprise-pleads-guilty',
+    body: `On August 18, 2024, a longtime cryptocurrency investor in Washington, D.C. got a call from someone claiming to be Google support, warning that his account had faced repeated break-in attempts. A second caller followed, posing as staff from the Gemini crypto exchange, warning of malware on his device. Talked through a sequence of "security" steps by the callers — who were watching his screen the whole time — the victim ended up granting access to his Google Drive and revealing verification codes that let the callers into wallets holding more than 4,100 Bitcoin, worth over $240 million at the time.
+
+According to the U.S. Attorney's Office for the District of Columbia, the operation behind that theft was run by Malone Lam, a 22-year-old Singaporean citizen living in Miami who went by online aliases including "Anne Hathaway," "$$$," and "King Greavy." Lam had built his crew through online gaming circles, recruiting participants across California, Connecticut, New York, and Florida to make the deceptive calls, launder the proceeds through cryptocurrency mixers, "peel chains," and pass-through wallets, and convert the stolen funds into cash. Prosecutors say the D.C. theft was the largest single haul in a broader racketeering enterprise, involving multiple victims and additional thefts, that totaled more than $245 million.
+
+Court filings and reporting on the case describe what happened to the money as much as how it was stolen. Lam and his co-conspirators — including Jeandiel Serrano, arrested at Los Angeles International Airport wearing a $500,000 watch, and Veer Chetal, who gifted a Lamborghini to his parents and hid cash in their laundry machine — spent it on rented mansions in Los Angeles, the Hamptons, and Miami; a rotating fleet of exotic cars; designer watches and handbags; and nightclub bills that reportedly ran as high as $500,000 in a single night. Lam was arrested on September 18, 2024. A federal racketeering indictment ultimately charged 18 defendants; by September 2026, ten had already pleaded guilty, including Chetal (November 2024) and money-laundering specialist Evan Tangeman, sentenced that April to more than five years in prison.
+
+On September 8, 2026, Lam pleaded guilty in the U.S. District Court for the District of Columbia to one count of federal racketeering conspiracy. He faces up to 20 years in prison at a sentencing hearing scheduled for December 8, 2026. "If you build a cybercrime empire, we will find you, dismantle your operation, and hold you accountable," said U.S. Attorney Jeanine Pirro in announcing the plea. Serrano, among other co-defendants, still faces pending charges as of this writing.
+
+The theft's starting point is the real lesson: no legitimate security team at Google, a crypto exchange, or any other company will ever call an account holder and walk them through granting access to their files or reading back a verification code. A call like that is the attack, not a warning about one — and the appropriate response is to hang up and contact the company directly through its official app or website, not to keep following the caller's instructions.`,
+  },
+);
