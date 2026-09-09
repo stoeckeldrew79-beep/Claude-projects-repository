@@ -6094,3 +6094,20 @@ Investigators traced at least $8.7 million of investor money to Ruderman's perso
 The funds collapsed in April 2009, leaving investors with losses of more than $25 million. Ruderman pleaded guilty that August to two counts of wire fraud and two counts of investment adviser fraud, plus a misdemeanor charge for failing to file federal income tax returns. In January 2010, U.S. District Judge John F. Walter sentenced him to 121 months — just over ten years — in federal prison and ordered $27,585,849 in restitution, telling Ruderman he had stolen from "individuals he knew for many years, who cared about him, had invited him into their homes." One victim, addressing the court, said Ruderman was no different than a convenience-store thief or a bank robber, "except that Ruderman committed his crimes with manicured nails, a great tan, wearing an Armani suit." The case is a reminder that affinity fraud doesn't require a stranger — the people most willing to hand over their life savings without asking hard questions are often the ones who already love and trust the person asking.`,
   },
 );
+
+NotoriousAF.push(
+  {
+    title: 'David Hines: The Miami PPP Fraudster Who Bought a Lamborghini With Stolen Pandemic Relief Money',
+    slug: 'david-hines-ppp-loan-fraud-lamborghini',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/opa/pr/florida-man-sentenced-after-fraudulently-obtaining-39-million-ppp-loans',
+    body: `When Congress created the Paycheck Protection Program in the spring of 2020 to keep small businesses afloat during COVID-19 shutdowns, it prioritized speed over verification — loans were meant to reach struggling employers within days, not weeks, which meant lenders had little practical ability to check an applicant's claims before wiring the money. David Tyler Hines, a 29-year-old from Miami, treated that gap as an opportunity. Prosecutors said he submitted a series of PPP loan applications, seeking roughly $13.5 million in total across multiple companies he controlled, backed by fabricated IRS payroll tax forms claiming dozens of employees and monthly payrolls in the hundreds of thousands of dollars that didn't actually exist.
+
+Lenders approved and funded about $3.9 million of what Hines requested. Rather than paying any of the wages the applications described, he spent the money on himself: a 2020 Lamborghini Huracán bought for roughly $318,000, jewelry, extended stays at a luxury Miami Beach resort, memberships on dating websites, and two payments totaling $30,000 sent to his mother and falsely logged as legitimate business expenses. According to court filings, he also helped other people submit fraudulent PPP applications of their own, extending the scheme beyond his own companies.
+
+Federal agents arrested Hines in May 2020, within weeks of the loans funding, after his purchase of the Lamborghini drew scrutiny — a red flag that made his case one of the first PPP-fraud prosecutions to draw national attention as the Justice Department began building out what would become thousands of pandemic-relief fraud cases. Hines pleaded guilty on February 10, 2021, to one count of wire fraud. On May 12, 2021, a federal judge in the Southern District of Florida sentenced him to more than six years in prison and ordered him to forfeit the roughly $3.4 million in fraud proceeds law enforcement had seized, along with the Lamborghini itself.
+
+Hines's case became an early emblem of PPP fraud precisely because the details were so easy to visualize: a stranger's small-business relief check paying for a supercar rather than a single paycheck. It also illustrated the government's basic enforcement bet during the pandemic — approve emergency loans first and investigate the worst abuses after the fact — a tradeoff that let real aid reach real businesses within days, but that also handed people like Hines a brief window to walk away with millions before anyone checked whether the employees on his paperwork ever existed.`,
+  },
+);
