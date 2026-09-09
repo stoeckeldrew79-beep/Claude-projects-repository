@@ -5,6 +5,7 @@ import { useDocumentMeta } from '../hooks/useDocumentMeta';
 import { useAllArticleSummaries } from '../hooks/useArticles';
 import { AlertLevel } from '../types';
 import { useAuthStore } from '../store/useAuthStore';
+import { coverImageSrc } from '../utils/coverImage';
 import { roleFromToken } from '../utils/tokenRole';
 import { NotoriousCoverArt } from '../components/NotoriousCoverArt';
 import {
@@ -248,9 +249,18 @@ function ArticleCoverPhotos({ tag, heading, subject }: { tag: string; heading: s
             <div key={article.id} className="flex items-center gap-3">
               <div className="h-12 w-16 shrink-0 overflow-hidden rounded border border-slate-200">
                 {article.cover_image ? (
+                  // Sized and lazy, both of which this panel needs more than
+                  // any other page does: it lists every article at once - over
+                  // 1,700 of them - and asked each for the stored 1200px-wide
+                  // copy to fill a 64x48 box. That is a wall of simultaneous
+                  // full-size requests to one host, which throttles, and the
+                  // ones that lose the race render as blank boxes that look
+                  // exactly like a missing photo.
                   <img
-                    src={article.cover_image}
+                    src={coverImageSrc(article.cover_image, 128)}
                     alt=""
+                    loading="lazy"
+                    decoding="async"
                     className="h-full w-full object-cover"
                     style={{ objectPosition: `50% ${positionDraft}%` }}
                   />
