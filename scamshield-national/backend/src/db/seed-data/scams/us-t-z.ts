@@ -2601,3 +2601,15 @@ UsTZ.push({
     country: 'US',
     state: 'UT',
 });
+
+UsTZ.push({
+    name: `Marshall County, West Virginia $53,000 Fake Prize Phone Scam (Rockey Kuykendall)`,
+    slug: 'west-virginia-marshall-county-kuykendall-fake-prize-scam',
+    description: `Rockey Kuykendall, of Marshall, Texas, called an elderly woman in Marshall County, West Virginia and told her a "convincing story," in the words of Marshall County Sheriff Mike Dougherty, that she had won a cash prize and a vehicle — details specific enough that the victim believed the caller was local and would be personally delivering her winnings. Believing the prize was real, the victim sent Kuykendall checks totaling roughly $53,000. A family member grew suspicious of the arrangement and reported it to the Marshall County Sheriff's Office in Moundsville, where Detective Brad Littleton opened an investigation, working with Texas National Bank and the Marshall, Texas Police Department to trace the deposited checks back to Kuykendall. He was arrested on charges of financial exploitation of an elderly person and obtaining money by false pretenses, and extradited to the Northern Regional Jail in West Virginia to face prosecution; the sheriff's office said the investigation remained open as it worked to identify any other suspects involved. A legitimate prize or sweepstakes win never requires the winner to send money, a check, or a fee of any kind before receiving it, and a caller who claims to be delivering winnings in person is a detail worth verifying independently — through a callback to a publicly listed number, not one the caller provides — before writing a single check.`,
+    categorySlug: 'lottery-sweepstakes-scams',
+    alertLevel: 'high',
+    sources: ["Marshall County, West Virginia Sheriff's Office", 'The Intelligencer (Wheeling, WV)'],
+    sourceUrl: 'https://www.theintelligencer.net/news/community/2025/02/man-suspected-of-scamming-marshall-county-residents-jailed/',
+    country: 'US',
+    state: 'WV',
+});

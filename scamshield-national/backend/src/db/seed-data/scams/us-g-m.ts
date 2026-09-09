@@ -4586,3 +4586,27 @@ UsGM.push({
     country: 'US',
     state: 'MO',
 });
+
+UsGM.push({
+    name: 'Illinois Storm-Chaser Home-Repair and Public-Adjuster Scam Alert',
+    slug: 'illinois-storm-chaser-home-repair-public-adjuster-scam-alert',
+    description: `Illinois Attorney General Kwame Raoul issued a consumer alert on May 27, 2025 warning homeowners and business owners about "storm chasers" — out-of-town contractors who move into storm-hit Illinois communities in the days after severe weather and pressure property owners into quick, expensive repair decisions before comparing options or verifying credentials. Raoul's office also flagged a related scheme in which fraudsters pose as public adjusters offering a "free inspection" to help a homeowner file an insurance claim, then use that inspection to steer the claim toward a preferred contractor or to charge fees the homeowner never agreed to. The alert recommends avoiding contractors who solicit door-to-door in favor of trusted referrals, checking a contractor's Better Business Bureau record and complaint history with the Consumer Fraud Bureau, getting written estimates from multiple contractors before committing, putting every contract term in writing, never paying the full amount up front or in cash, and verifying that any roofer or public adjuster is actually licensed in Illinois. Homeowners also retain a right to cancel a contract signed with a door-to-door solicitor — three business days for a standard unsolicited sales contract, or five days after an insurance claim denial — so acting on that cancellation window before work begins is a way to undo a rushed decision made under pressure in a damaged home's driveway.`,
+    categorySlug: 'home-improvement-solar',
+    alertLevel: 'medium',
+    sources: ["Illinois Attorney General's Office"],
+    sourceUrl: 'https://illinoisattorneygeneral.gov/news/story/consumer-alertattorney-general-raoul-warns-residents-to-be-on-alert-for-storm-related-repair-scams',
+    country: 'US',
+    state: 'IL',
+});
+
+UsGM.push({
+    name: `Colby, Kansas CPA's $409,000 Family Client-Trust Fraud (Quintin Flanagin)`,
+    slug: 'kansas-colby-cpa-flanagin-family-client-trust-fraud',
+    description: `Quintin Flanagin, a certified public accountant and part owner of the Colby, Kansas accounting firm Williams Consulting, used his position as a signatory on the business and trust accounts of Diamond M. Farms in Thomas County — a client that was also his own family — to steal from the people who trusted him most. Between December 2021 and August 2022, Flanagin wrote checks and initiated wire transfers totaling $409,710 from Diamond M. Farms to a fictitious business he called "Middle Finger Ranch," which he had quietly tied to his own personal bank account, writing false memo-line descriptions claiming the transfers were payments for farm operations. He used the stolen money to help pay for construction on his own new house. When his victims noticed accounting discrepancies in October 2022 and confronted him, Flanagin tried to cover his tracks by removing the fictitious business from his personal account and fabricating convoluted flowcharts blaming third parties for the fraudulent checks; federal investigators later recovered a note in which he wrote that prosecutors couldn't prove who had entered the checks for processing and that he could likely feign innocence. Flanagin pleaded guilty to one count each of wire fraud, bank fraud, false statements, and money laundering, and on December 9, 2025 a federal judge in Wichita sentenced him to 48 months in prison. "After stabbing his family in the back, Flanagin lied to their faces," said U.S. Attorney Ryan A. Kriegshauser. "When the victims directly questioned him about accounting inconsistencies, he fabricated convoluted flowcharts and blamed third parties for the fraudulent checks." The case is a reminder that giving even a trusted family member or longtime accountant unchecked signatory authority over a business or trust account removes a basic safeguard — an independent second set of eyes reviewing statements and reconciling transfers against actual invoices can catch a fictitious vendor long before it grows into six figures.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office, District of Kansas", 'Federal Bureau of Investigation (FBI)'],
+    sourceUrl: 'https://www.justice.gov/usao-ks/pr/colby-cpa-sentenced-prison-defrauding-clients',
+    country: 'US',
+    state: 'KS',
+});
