@@ -11567,3 +11567,16 @@ International.push(
     firstRecorded: '2010-09-13',
   },
 );
+
+International.push(
+  {
+    name: 'Kiribati Online Romance Scam Warning',
+    slug: 'kiribati-online-romance-scam-warning',
+    description: `In May 2023, the Kiribati government and ANZ Bank issued a joint public warning after i-Kiribati residents lost money to romance scams run through social media. Fraudsters based overseas made contact with victims online, then spent weeks or months building a relationship before asking for money, and typically avoided video calls or made excuses for why their camera wasn't working, a tactic used to keep victims from seeing they were not who they claimed to be. Officials and ANZ urged the public not to share personal or financial details with people met only online, and to stay suspicious of any online contact who pushes for money or won't appear on camera.`,
+    categorySlug: 'romance-scams',
+    alertLevel: 'medium',
+    sources: ['ABC Pacific (Pacific Beat)'],
+    sourceUrl: 'https://www.abc.net.au/pacific/programs/pacificbeat/kiribati-romance-scam/102355228',
+    country: 'KI',
+  },
+);
