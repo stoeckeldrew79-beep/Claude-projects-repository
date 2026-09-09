@@ -11461,3 +11461,26 @@ International.push(
     country: 'CG',
   },
 );
+
+International.push(
+  {
+    name: 'Federated States of Micronesia IRS Impersonation and COVID-19 Stimulus Check Phishing Scam',
+    slug: 'fsm-irs-covid-stimulus-phishing-scam',
+    description: `The U.S. Embassy in the Federated States of Micronesia issued a "Message for U.S. Citizens" on April 11, 2020, covering Chuuk, Pohnpei, Yap, and Kosrae states, warning residents to be alert for telephone calls and email phishing attempts exploiting the COVID-19 pandemic. Citing an Internal Revenue Service (IRS) warning, the embassy said fraudsters were impersonating the IRS or closely linked organizations, such as the Electronic Federal Tax Payment System (EFTPS), in an effort to commit tax-related fraud and identity theft, and cautioned residents to watch for suspicious websites, text messages, and social media messages requesting money or personal information under the pretext of delivering COVID-19 economic impact payments, commonly known as stimulus checks. The embassy clarified that neither the State Department nor the embassy itself had any role in issuing or tracking the payments and directed all such questions to the IRS. Residents were told to forward any unsolicited email, text message, or social media message claiming to be from the IRS or EFTPS to phishing@irs.gov, to avoid engaging potential scammers by phone or online, and to consult the IRS's official Report Phishing and Online Scams page and its coronavirus tax relief and economic-impact-payment page for verified information rather than trusting an unsolicited message.`,
+    categorySlug: 'tax-scams',
+    alertLevel: 'high',
+    sources: ['U.S. Embassy in the Federated States of Micronesia', 'Internal Revenue Service (IRS)'],
+    sourceUrl: 'https://fm.usembassy.gov/message-for-u-s-citizens-alert-regarding-covid-19-related-financial-scams-and-stimulus-checks-april-11-2020/',
+    country: 'FM',
+  },
+  {
+    name: 'FSM Office of the President Warns of Fake Social Media Accounts and AI-Generated Impersonation',
+    slug: 'fsm-fake-social-media-president-impersonation',
+    description: `The Office of the President of the Federated States of Micronesia published a public announcement on the national government's official website on June 1, 2026, warning that certain social media accounts, pages, and other online content falsely claiming affiliation with the President or the Office of the President are not authorized official platforms. The announcement said the Office had observed misleading and potentially AI-generated content circulating online, including altered images, distorted versions of official government seals and logos, fabricated announcements, and scam-related posts that typically contained inaccurate information along with noticeable grammatical or spelling errors. The Office urged the public to rely only on verified government channels — specifically the official Office of the President Facebook page and the official FSM government website, gov.fm — for accurate information about the President and national government matters, to verify content before sharing it online, and to remain vigilant against fraudulent or misleading posts designed to create confusion or misrepresent the Office of the President. The Office said it remained committed to transparency and responsible public communication so that citizens of the Federated States of Micronesia continue to receive timely and accurate information through official government platforms rather than impostor accounts.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Office of the President, Federated States of Micronesia', 'FSM Government (gov.fm)'],
+    sourceUrl: 'https://gov.fm/public-announcement-on-official-information-channels/',
+    country: 'FM',
+  },
+);
