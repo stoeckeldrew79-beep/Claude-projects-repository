@@ -4632,3 +4632,15 @@ UsGM.push({
     country: 'US',
     state: 'IA',
 });
+
+UsGM.push({
+    name: 'Frederick Shell-Company Romance Fraud Scheme (Ali Habou Maman)',
+    slug: 'maryland-frederick-maman-ddk-logistics-romance-fraud',
+    description: `A federal grand jury in the District of Maryland indicted Ali Habou Maman, 58, a Nigerien national living in Frederick, Maryland, on charges of conspiracy to commit wire fraud, wire fraud, and conspiracy to launder monetary instruments, the U.S. Attorney's Office for the District of Maryland announced in early April 2026 following an investigation with Homeland Security Investigations and the FBI's Baltimore Field Office. According to the indictment, Maman and his co-conspirators began the scheme in October 2022, assuming fictitious identities on dating platforms and messaging apps to build romantic relationships with victims before pivoting to fabricated emergencies and false investment opportunities that required urgent money. On January 5, 2023, Maman registered DDK Logistics LLC with the Maryland State Department of Assessments and Taxation, listing himself as the company's only officer and resident agent and using his Frederick home address, then opened thirteen bank accounts for the company at multiple financial institutions — telling at least one bank that DDK bought and sold automotive computer chips and car parts, even though prosecutors say the company had no real operations. Victims' checks, cashier's checks, and wire transfers were deposited into the DDK accounts and then wired out to accounts in the United States, China, India, and Indonesia, with Maman allegedly keeping a cut of the proceeds for himself. He faces up to 20 years in federal prison on each of the three counts if convicted. Anyone who has never met an online romantic interest in person should be especially wary of any request to wire money to a business account, and should independently verify the company — checking state business filings for a real address, a working phone number, and an actual operating history — before sending anything, since a shell company opened only to receive and move romance-scam proceeds often has no substance behind the paperwork used to open its bank accounts.`,
+    categorySlug: 'romance-scams',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office for the District of Maryland", 'WFMD', 'The BayNet'],
+    sourceUrl: 'https://www.wfmd.com/2026/04/06/frederick-man-indicted-in-international-romance-fraud-scheme/',
+    country: 'US',
+    state: 'MD',
+});
