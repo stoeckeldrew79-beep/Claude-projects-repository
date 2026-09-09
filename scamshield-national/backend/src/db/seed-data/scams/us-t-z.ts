@@ -2637,3 +2637,15 @@ UsTZ.push({
     country: 'US',
     state: 'TX',
 });
+
+UsTZ.push({
+    name: 'Utah Residential Construction Fraud Task Force',
+    slug: 'utah-residential-construction-fraud-task-force',
+    description: `Utah's Department of Commerce announced on August 5, 2025 the creation of a Residential Construction Fraud Task Force and the appointment of the state's first full-time prosecutor dedicated solely to construction-fraud cases, housed within the Office of the Attorney General, after tallying $32 million in reported residential construction fraud losses over the prior three years. The Division of Professional Licensing had already logged 2,146 construction-related complaints in 2024 and 1,047 more in just the first half of 2025, with consumers who lost money to a fraudulent builder or remodeler losing an average of roughly $302,000 apiece — losses the task force said were often tied to unlicensed contractors, large upfront deposits for work never finished, and new-home construction contracts that collapsed midway through the build. The task force brings together the Division of Professional Licensing, the Division of Consumer Protection, the Attorney General's Office, local law enforcement and prosecutors, and state lawmakers including Sen. Cal Musselman and Rep. Tom Peterson around three priorities: aggressive joint enforcement using the new dedicated prosecutor, expanded consumer and industry education, and regulatory reform to close licensing loopholes construction fraudsters have exploited. "Construction fraud is a direct threat to our efforts to put homeownership back in reach for our kids and grandkids," Musselman said. Homeowners hiring a contractor are advised to verify a contractor's license through Utah's Division of Professional Licensing before signing anything, to use the state's fill-in-the-blank Residential Construction Agreement template rather than a contract drafted solely by the builder, to avoid handing over a large deposit before work begins, and to file a complaint with DOPL or the Division of Consumer Protection at the first sign a project has stalled or a contractor has gone unresponsive.`,
+    categorySlug: 'home-improvement-solar',
+    alertLevel: 'high',
+    sources: ['Utah Department of Commerce', 'Utah Division of Professional Licensing'],
+    sourceUrl: 'https://www.cachevalleydaily.com/news/utah-creates-construction-fraud-task-force-as-losses-top-32-million/article_d014fb12-6bd9-42a4-a0ca-d9ff4c7002c1.html',
+    country: 'US',
+    state: 'UT',
+});
