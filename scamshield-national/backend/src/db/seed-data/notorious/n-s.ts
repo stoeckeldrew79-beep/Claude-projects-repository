@@ -4101,3 +4101,37 @@ By the time the scheme fell apart, Future Income Payments had drawn in more than
 The criminal case moved on a separate track. Four of Kohn's co-conspirators — Kraig Aiken, David Kenneally, Melanie Jo Schulze-Miller, and Joseph Hipp — pleaded guilty between 2019 and 2021 in the U.S. District Court for the District of South Carolina. Kohn himself pleaded guilty and, on August 22, 2022, was sentenced to 10 years in federal prison plus three years of supervised release, and ordered to forfeit $297 million. The case stands as one of the largest pension-advance fraud prosecutions the Justice Department has brought, and a reminder that a scheme built on relabeling an illegal loan as a "sale" can still run for years and reach tens of thousands of victims before regulators and prosecutors catch up to the paperwork.`,
   },
 );
+
+NotoriousNS.push(
+  {
+    title: 'Robert Miracle: The Fake Indonesian Oil Fields Behind a $65 Million Ponzi Scheme',
+    slug: 'robert-miracle-laramie-petroleum-indonesia-oil-ponzi',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://www.justice.gov/archive/usao/waw/press/2011/may/miracle.html',
+    body: `Robert Miracle, of Bellevue, Washington, ran a group of companies — Laramie Petroleum Inc., MCube Petroleum Inc., and affiliated entities Diski LLC, Basilam LLC, and Halmahera-Rembang LLC — that he pitched to investors as vehicles for oil and gas field development in Indonesia and Malaysia. He told investors the overseas fields were producing and profitable, an assertion few of them were in any position to verify from the other side of the world, and one that turned out to be almost entirely false.
+
+Between September 2004 and October 2007, Miracle's companies took in roughly $65.3 million from investors. About $36.7 million of that went right back out the door as "dividends" and payments to lenders — the defining mechanic of a Ponzi scheme, in which money from newer investors funds payouts that make earlier investors believe the underlying business is real and thriving. What remained went to a mix of genuine, if limited, Indonesian drilling costs and Miracle's own spending, including a diamond ring later valued at more than $38,000 and a painting worth more than $27,000, both ultimately forfeited to the government.
+
+The fraud escalated in 2006, when Miracle enlisted an accomplice, corporate lawyer George Atwater, to forge bank documents showing fabricated deposits and drilling expenses. Prosecutors said the fake paperwork was convincing enough that it persuaded one investor to put in an additional $10 million — money that investor was eventually paid back, but only using funds that came, in effect, from everyone else still owed a return. Separately, Miracle failed to report roughly $500,000 in personal transfers in 2005, underreported his income by about $530,000, and evaded roughly $150,000 in taxes, on top of $326,650 in back taxes owed for 2003 through 2005.
+
+A federal grand jury indicted Miracle on 23 counts, including conspiracy, mail fraud, wire fraud, money laundering, and tax evasion; two Malaysia-based co-defendants, Mukhtar Kechik and Fahimi Fisal, were never brought into U.S. custody. Miracle pleaded guilty to mail fraud and tax evasion, and on May 23, 2011, U.S. District Judge James L. Robart sentenced him to 13 years in federal prison and three years of supervised release. The case is a reminder that distance and complexity can substitute for due diligence in an investor's mind — a project too far away and too technical to check firsthand is also, for exactly that reason, easy for a con artist to fabricate wholesale.`,
+  },
+);
+
+NotoriousNS.push(
+  {
+    title: 'Shawn Merriman: The LDS Bishop Who Ran a $20 Million Ponzi Scheme Through His Own Congregation',
+    slug: 'shawn-merriman-market-street-advisors-lds-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://www.justice.gov/archive/usao/co/news/2010/September10/9_15_10.html',
+    body: `Shawn Merriman served as a bishop in his local congregation of The Church of Jesus Christ of Latter-day Saints in the Denver area — an unpaid, elected lay leadership position that gave him standing and trust well beyond his actual financial credentials. Through Market Street Advisors and a related web of entities, including Mountain Springs Partners, L.P. and a series of associated LLCs, Merriman used that trust to build a client base drawn overwhelmingly from his own church community and their extended circle of friends and family in Colorado and Utah.
+
+From roughly 1994 through February 2009, Merriman told investors he was trading their money in stocks and bonds and generating annual returns of 7 to 20 percent. According to prosecutors, there was little to no legitimate trading behind those promises. Instead, Merriman sent investors fabricated account statements showing gains and trades that never happened, using money from newer investors to make it look like a functioning investment business — a Ponzi scheme running, undetected, for roughly a decade and a half inside a single trusting community.
+
+At least 67 investors put in more than $20 million. Rather than investing it, Merriman spent heavily on himself: a home in Aurora valued at roughly a million dollars, a second property in Idaho, a motor home, classic cars including a 1930 Lincoln, boats, motorcycles, a fine art collection that included works attributed to Rembrandt, sports memorabilia, and firearms — all of it later seized and auctioned off by federal authorities to help repay victims.
+
+The scheme collapsed in early 2009; the government froze Merriman's assets on April 8, 2009, and he was criminally charged that August. He pleaded guilty to mail fraud on December 2, 2009, and the SEC pursued a parallel civil action that ended in a final judgment against him in December 2011. On September 14, 2010, U.S. District Judge Marcia S. Krieger sentenced Merriman to 151 months — more than 12 years — in federal prison, three years of supervised release, and $20,124,183.13 in restitution; the Tenth Circuit later rejected his appeal. He was excommunicated from the LDS Church and lost his marriage and his home. Starting in July 2013, victims began receiving partial restitution payments — a fraction of what they'd put in, and a reminder that affinity fraud does its damage precisely by weaponizing the kind of community vouching that would ordinarily make someone safer to trust, not less.`,
+  },
+);
