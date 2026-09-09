@@ -6349,3 +6349,15 @@ UsAF.push({
     sourceUrl: 'https://us.norton.com/blog/research/job-scam-statistics',
     country: 'US',
 });
+
+UsAF.push({
+    name: 'Connecticut Department of Labor Unemployment Text Phishing Scam',
+    slug: 'connecticut-ctdol-unemployment-text-phishing-scam',
+    description: `Text messages impersonating the Connecticut Department of Labor (CTDOL) tell recipients something is wrong with their unemployment account — CTDOL has documented examples reading "Connecticut's Department of Labor warn Your account is abnormal" and "Your unemployment is updated and logged in to view" — and link to a fake page built to look like the state's ReEmployCT login in order to harvest a claimant's Social Security number, PIN, and banking details. In an October 2025 consumer alert, Commissioner Danté Bartolomeo said "commercial and retail breaches create opportunities for criminals to buy and sell stolen personal data," and that "learning to identify the signs of unemployment fraud and report it quickly will help protect you." CTDOL states plainly that it does not process claims or verify identity and account information through text or social media, and never sends a text asking for login credentials, a Social Security number, or other personal data — the only legitimate way to check a claim is by signing in directly at ReEmployCT.com or FileCTUI.com, never through a link in an unsolicited message. The agency says it has blocked more than 450,000 fraudulent unemployment claims and prevented nearly $5 billion in improper payments to imposters since March 2020, and asks anyone who receives one of these texts to delete it without clicking, forward it to their mobile carrier's spam short code (7726), and report it through CTDOL's fraud-reporting page.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'medium',
+    sources: ['Connecticut Department of Labor'],
+    sourceUrl: 'https://portal.ct.gov/dol/communications/press-room/2025/ct-dept-of-labor-protecting-yourself-from-unemployment-fraud',
+    country: 'US',
+    state: 'CT',
+});
