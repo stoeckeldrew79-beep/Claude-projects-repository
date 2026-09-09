@@ -11484,3 +11484,36 @@ International.push(
     country: 'FM',
   },
 );
+
+International.push(
+  {
+    name: 'Fake Pope Leo XIV Facebook Donation Profiles',
+    slug: 'vatican-fake-pope-leo-xiv-facebook-donation-scam',
+    description: `The Vatican confirmed in late June 2025 that fraudulent Facebook profiles impersonating newly elected Pope Leo XIV were circulating online and soliciting money from users under the guise of papal charitable appeals. The fake accounts surged around June 29, the feast of Saints Peter and Paul, which is also the date each year the Catholic Church holds its Peter's Pence collection — an annual worldwide fundraising appeal that supports the Pope's charitable works and the operations of the Holy See — giving the scammers a plausible-sounding hook to solicit donations while public attention was already on papal giving. Vatican communications officials clarified that Pope Leo XIV does not have a personal Facebook account and is not personally requesting donations from the public through social media, noting that his only verified accounts are on X (formerly Twitter) and Instagram, and that the only legitimate way to contribute to Peter's Pence is through the collection's official website. The scam followed a broader pattern of impostor accounts that emerged in the weeks after Leo XIV's May 2025 election, including separate fake profiles posing as the new pope's brothers, Louis and John Prevost, which contacted people directly to request donations to a personal PayPal account. The Vatican urged the faithful to verify any online appeal claiming to be from the Pope or his office before sending money, and to report suspicious fundraising profiles to the platform they appear on.`,
+    categorySlug: 'charity-scams',
+    alertLevel: 'medium',
+    sources: ['Rome Reports', 'Holy See communications officials'],
+    sourceUrl: 'https://www.romereports.com/en/2025/06/28/vatican-scam-alert-fake-pope-leo-profiles-on-facebook-asking-for-money/',
+    country: 'VA',
+  },
+  {
+    name: 'Fake "Vatican Business Support Program" Loan Phishing Email',
+    slug: 'vatican-business-support-program-loan-phishing-email',
+    description: `Security researchers at Bitdefender reported on April 29, 2025 that cybercriminals were exploiting the death of Pope Francis, who died on April 21, 2025, to run a phishing campaign against small business owners worldwide. The fraudulent emails, carrying the subject line "A Legacy of Care and Hope," claimed to honor the late pope's legacy by offering enrollment in a fabricated "Vatican Business Support Program" that Pope Francis had supposedly personally endorsed roughly two months earlier, promising low-interest loans ranging from €100,000 to €30,000,000 to around 2,500 small businesses focused on sustainability and ethical practices. The emails were sent from ordinary Hotmail addresses rather than any real Vatican or Holy See domain — a clear red flag Bitdefender highlighted — and directed recipients who replied expressing interest into a follow-up exchange where the scammers demanded upfront "processing fees," requested sensitive financial and personal information, or attempted to steer victims into further fraud. Bitdefender noted the campaign was a clear example of scammers hijacking a widely covered current event, in this case the pope's death and the global attention on his charitable legacy, to lend a fabricated program false credibility, and advised small business owners to treat unsolicited loan offers referencing current events as a warning sign, to verify any purported Vatican-affiliated program only through official Holy See channels, and never to pay an upfront fee to receive a loan.`,
+    categorySlug: 'phishing',
+    alertLevel: 'medium',
+    sources: ['Bitdefender (Hot for Security)'],
+    sourceUrl: 'https://www.bitdefender.com/en-us/blog/hotforsecurity/scam-alert-cybercriminals-exploit-death-of-pope-francis-to-target-small-business-owners-with-fake-loan-programs',
+    country: 'VA',
+  },
+  {
+    name: 'AI Deepfake Pope Francis "Wealth Prayer" YouTube Scam',
+    slug: 'vatican-ai-deepfake-pope-wealth-prayer-scam',
+    description: `Philosophy professor M.V. Dougherty documented in a January 27, 2025 report that a set of interlinked deepfake video advertisements running on YouTube used AI-manipulated likenesses of Pope Francis and Cardinal Marc Ouellet, the former prefect of the Dicastery for Bishops, to sell a "sacred prayer" marketed as a guaranteed path to sudden wealth. The Pope Francis clip was built by taking a real May 2024 CBS "60 Minutes" interview conducted in Spanish through a translator and using AI to make the pope appear to speak fluent English, with lip movements and facial expressions digitally matched to the fabricated dialogue; in the altered video, the deepfake pope tells viewers, "The only thing you need to do to make this happen is to recite the sacred prayer, and then financial blessings will start flowing into your life from every possible direction." The Cardinal Ouellet clips were similarly built by altering a real 2021 Vatican News video in which the cardinal discussed the work of his dicastery. The 90-word prayer was advertised at a regular price of $179 and offered to viewers at a "discounted" $59, and a related 40-minute video falsely invoked Cardinal Pierbattista Pizzaballa, the Latin Patriarch of Jerusalem, claiming the prayer originated from a 2,000-year-old biblical scroll. The report characterized the scheme as a modern form of simony — selling access to spiritual goods for money — built specifically to exploit the trust viewers place in recognizable Church authority figures, and warned that the video and voice quality was convincing enough to fool viewers unfamiliar with how AI-generated deepfakes look and sound.`,
+    categorySlug: 'ai-deepfake-scams',
+    alertLevel: 'medium',
+    sources: ['Catholic World Report', 'M.V. Dougherty (Ohio Dominican University)'],
+    sourceUrl: 'https://www.catholicworldreport.com/2025/01/27/beware-of-the-deepfake-magisterium/',
+    country: 'VA',
+  },
+);
