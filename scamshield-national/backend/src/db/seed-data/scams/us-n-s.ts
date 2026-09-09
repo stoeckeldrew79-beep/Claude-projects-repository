@@ -4288,3 +4288,31 @@ UsNS.push({
     country: 'US',
     state: 'SC',
 });
+
+UsNS.push({
+    name: 'A.R. Building Company Rental Application-Fee Scheme',
+    slug: 'rhode-island-ar-building-rental-application-fee-scheme',
+    description: `A.R. Building Company, Inc. (ARBC), a real estate management firm operating in Rhode Island, collected application and administrative fees from prospective tenants between January 2024 and January 2025 while engaging in practices Rhode Island Attorney General Peter Neronha's office found violated the state's Fair Housing Practices Act and Unfair Trade Practices Act: refusing to let applicants submit their own tenant-screening reports, withholding copies of screening documents from tenants who had already paid for them, and subjecting applicants who disclosed a disability to a more burdensome application process than other renters, including improper questions about their disability status. Neronha announced a $213,000 settlement with ARBC on April 17, 2025 — $98,250 of it earmarked as refunds to affected tenants and $114,750 payable to the state, with any refunds that go unclaimed to be donated to Special Olympics Rhode Island. "We will hold accountable any entity that attempts to take advantage of consumers by implementing illegal barriers to finding a home," Neronha said. Rhode Island law caps what a landlord or property manager can charge a rental applicant and requires that screening and application practices apply equally regardless of disability; renters who are charged an application fee should ask in writing what it covers, insist on receiving any screening report they paid for, and can report a landlord who applies extra hurdles because of a disclosed disability to the Attorney General's Consumer Protection Unit.`,
+    categorySlug: 'rental-housing',
+    alertLevel: 'medium',
+    isHistorical: true,
+    firstRecorded: '2024-01-01',
+    sources: ["Rhode Island Office of the Attorney General"],
+    sourceUrl: 'https://riag.ri.gov/press-releases/attorney-general-neronha-announces-213000-settlement-national-real-estate-management',
+    country: 'US',
+    state: 'RI',
+});
+
+UsNS.push({
+    name: 'Chamberlain Pig-Butchering Cash-Courier Crypto Scam',
+    slug: 'south-dakota-chamberlain-pig-butchering-cash-courier-scam',
+    description: `A Chamberlain, South Dakota man met a woman calling herself "Elsa Valentine" on Facebook in November 2024, and after the conversation moved to Telegram she introduced herself as "Chen Xinyue," saying she worked in cosmetics and had a wealthy uncle who could get him into cryptocurrency investing. Over the following months the victim moved money into a slick-looking trading platform that showed his balance climbing past $1.2 million — but when he tried to withdraw, "customer service" cited excuses like anti-money-laundering flags and blocked data nodes, then said the only way to unfreeze the account was to deposit still more money, this time in person rather than electronically. Between January and March 2025 the victim met a man four times in the parking lot of the Mi Pueblo restaurant in Chamberlain, handing over $30,000, $90,000, $111,000, and $210,000 in cash — a courier later identified as Chee Yeng Wong, 36, a Malaysian citizen living in Pasadena, California. Wong pleaded guilty in Brule County Circuit Court on November 18, 2025 to one count of aiding, abetting, or advising grand theft, and was sentenced to 12 years in prison, fined $1,000, and ordered to pay $472,000 in restitution; South Dakota Attorney General Marty Jackley credited the state Division of Criminal Investigation, the Chamberlain Police Department, and federal Homeland Security investigators with building the case. The scheme is a textbook "pig-butchering" operation, so named because the victim is fattened up with a fabricated relationship and a fake account balance before being slaughtered financially — the tell here, as in most versions, was that a real investment platform never blocks a withdrawal and then demands an additional deposit to release it, and never sends a courier to collect cash in a parking lot instead of accepting a bank transfer.`,
+    categorySlug: 'cryptocurrency-scams',
+    alertLevel: 'high',
+    isHistorical: true,
+    firstRecorded: '2024-11-01',
+    sources: ["South Dakota Attorney General's Office", 'Mitchell Republic'],
+    sourceUrl: 'https://www.mitchellrepublic.com/news/local/california-man-sentenced-to-12-years-for-472-000-chamberlain-cryptocurrency-scam',
+    country: 'US',
+    state: 'SD',
+});
