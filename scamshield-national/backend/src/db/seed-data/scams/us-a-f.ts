@@ -6135,3 +6135,39 @@ UsAF.push({
     country: 'US',
     state: 'CA',
 });
+
+UsAF.push({
+    name: `Anchorage Pandemic Relief Fraud (Peter Igwacho)`,
+    slug: 'alaska-anchorage-igwacho-ppp-eidl-fraud',
+    description: `Peter Igwacho, a 65-year-old Cameroonian national living in Anchorage, filed at least five fraudulent applications between April 2020 and October 2021 seeking pandemic-relief money through the Paycheck Protection Program and the Small Business Administration's Economic Injury Disaster Loan program, falsely claiming a sole proprietorship had employees and revenue it never actually had. After the SBA and participating lenders approved the applications based on his self-certified paperwork, Igwacho spent the more than $172,000 he received on personal expenses rather than payroll, rent, or any other pandemic-related business cost the programs were meant to cover. A federal grand jury in Portland — where the case was prosecuted because of how the investigation was assigned — indicted Igwacho on wire fraud charges in July 2024, and a jury convicted him on all three counts on August 21, 2025 following a three-day trial. On February 26, 2026, a U.S. District Judge sentenced him to 21 months in federal prison plus three years of supervised release and ordered him to pay $182,225.15 in restitution. The Small Business Administration Office of Inspector General and the Treasury Inspector General for Tax Administration, which investigated the case together, noted it as part of the ongoing COVID-19 Fraud Enforcement Task Force's effort to claw back pandemic relief obtained through self-certified applications that were never cross-checked against real payroll or revenue records until years later. The case is a reminder that pandemic-program fraud prosecutions are still actively working through the courts years after the money went out the door, and that a business's self-reported figures on a relief application can and do get compared against actual state and federal wage and tax records long after the funds are spent.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'medium',
+    sources: ['U.S. Small Business Administration', 'U.S. Attorney\'s Office for the District of Oregon', 'Oregon Business Report'],
+    sourceUrl: 'https://www.sba.gov/article/2026/02/26/alaska-resident-sentenced-federal-prison-wire-fraud',
+    country: 'US',
+    state: 'AK',
+});
+
+UsAF.push({
+    name: `Cornerstone Restoration Fire-Repair Contractor Fraud (Thomas and DiNetta Kerfoot)`,
+    slug: 'delaware-cornerstone-restoration-kerfoot-fire-repair-fraud',
+    description: `Donna Brustman, then 75, lost her longtime family home near Newark, Delaware to a fire and, on her insurance company's own recommendation, signed a contract on December 7, 2022 with Cornerstone Restoration — a Maryland-based company owned by Thomas and DiNetta Kerfoot — to rebuild it using her $262,225 insurance payout. She paid an initial $87,408 and, over the following months, additional payments totaling roughly $298,000, but work stalled almost immediately: Brustman would drive by to find the same overflowing dumpster sitting untouched out front, her calls to DiNetta Kerfoot went unreturned, and the promised September 2023 completion date came and went with little to no progress. What work the Kerfoots did complete reportedly drew more code violations than any other property in New Castle County history. Delaware State Police arrested the Kerfoots in August 2024, but Delaware's Department of Justice dropped the charges that November; a second Cornerstone Restoration client, Greenville attorney Monica Ayres, separately paid roughly $73,000 upfront after an June 2023 house fire and received no completed work either, and New Castle County Police filed fresh charges against the Kerfoots in March 2025 that were still moving through the courts as of that spring, with a preliminary hearing held in May 2025. Delaware reporting on the case identified several other 2025 arrests of home-improvement contractors who collected large upfront payments — in one case more than $1 million from six customers — without finishing the promised work, prompting state lawmakers to move a home-improvement fraud bill through committee. Homeowners rebuilding after a fire or storm should resist a contractor's request for large upfront payments, tie every payment to a specific, inspected stage of completed work, get a second opinion before signing with whichever contractor an insurance company happens to recommend, and check with New Castle County or their local building department for open code violations on an active job before paying anything further.`,
+    categorySlug: 'home-improvement-solar',
+    alertLevel: 'high',
+    sources: ['Spotlight Delaware', 'Newark Post'],
+    sourceUrl: 'https://spotlightdelaware.org/2025/04/02/home-improvement-fraud-cases/',
+    country: 'US',
+    state: 'DE',
+});
+
+UsAF.push({
+    name: `Fraudulent Colorado Business Registrations Fueling International Scam Networks`,
+    slug: 'colorado-fraudulent-business-registration-scam-network-crackdown',
+    description: `Colorado Attorney General Phil Weiser announced on May 21, 2026 that his office was pursuing lawsuits to dissolve thousands of Colorado businesses that investigators say were registered using false information, unauthorized home addresses, and virtual mailboxes specifically to lend a veneer of legitimacy to overseas fraud operations. Because a Colorado "certificate of good standing" is a real, checkable government record, scammers used these bogus registrations to reassure victims that the cryptocurrency platform, investment fund, or online storefront they were dealing with was a real, registered Colorado company — one senior lost more than $100,000 in a cryptocurrency investment scam tied to a registrant called Neex LLC, which impersonated a legitimate investment website, while a family in Cripple Creek discovered 370 businesses had been registered to their home address without their knowledge or consent, and a registered agent called Garrettforu LLC was tied to filings for more than 300 fraudulent entities. Investigators linked the network, which also included registrants named Xinbi Co., Ltd. and several other shell entities, to cryptocurrency scams, romance scams, and online retail fraud run out of China and Southeast Asia, and the Attorney General's office said it was working with web-hosting platforms to take down affiliated fraudulent business websites in addition to filing dissolution actions. "These scams succeed because they manufacture trust," Weiser said. "Fraudsters exploited Colorado business registrations to make their operations appear legitimate and convince consumers to hand over their money." Consumers considering an unfamiliar investment platform, crypto exchange, or online seller are advised not to treat a state business registration or "good standing" certificate alone as proof of legitimacy — it confirms only that paperwork was filed, not that the people behind it are who they claim to be — and to independently verify a company's physical presence, ownership, and regulatory registrations (through FINRA BrokerCheck or the SEC's EDGAR database for anything investment-related) before sending money.`,
+    categorySlug: 'cryptocurrency-scams',
+    alertLevel: 'high',
+    sources: ["Colorado Attorney General's Office", 'ColoradoBiz Magazine'],
+    sourceUrl: 'https://coag.gov/press-releases/weiser-launches-crackdown-on-fraudulent-colorado-businesses/',
+    country: 'US',
+    state: 'CO',
+});
