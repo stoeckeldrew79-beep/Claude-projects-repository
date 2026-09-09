@@ -11623,6 +11623,45 @@ International.push(
 
 International.push(
   {
+    name: 'NZ Bank Phone Impersonation Scam Surge',
+    slug: 'nz-bank-phone-impersonation-scam-surge',
+    description: `Netsafe recorded a sharp jump in New Zealanders reporting scammers who phone, text, or email while posing as staff from their own bank, with such reports more than doubling from 21 in July 2026 to 46 in August — pushing banks to 34% of all impersonation reports that month, up from around 20% over the previous four months, even as impersonation reports involving government agencies fell sharply over the same period. Netsafe's chief online safety officer said the shift looks less like a change in tactics than a change in disguise, since people are far more likely to engage when they believe they're dealing with an organisation they already trust. Netsafe's advice is to end the call or ignore the message regardless of how convincing it sounds, then contact the bank directly using a phone number from a card, statement, or the bank's own website — a genuine bank will never mind a customer taking that extra step to check.`,
+    categorySlug: 'phishing',
+    country: 'NZ',
+    alertLevel: 'high',
+    sources: ['Netsafe', 'NZ Herald'],
+    sourceUrl: 'https://netsafe.org.nz/scams/impersonation-scams',
+  },
+);
+
+International.push(
+  {
+    name: 'SFCVIBE Rating Task-Based Pyramid Scheme',
+    slug: 'nz-sfcvibe-rating-pyramid-scheme',
+    description: `SFCVIBE Rating presents itself as an online advertising business, running local offices in Christchurch's Riccarton and Auckland's Manukau, and recruits members through referral links and a paid subscription or deposit — commonly reported around $817 — in exchange for the promise of about $15 a day for simple tasks like rating and reviewing movies online. Members report that the platform's real focus quickly shifts away from those tasks and toward pressuring them to recruit friends and family for commission, the defining structure of a pyramid scheme; one Christchurch family told media they paid in through a work contact and lost over $3,200 combined before being blocked from the platform once their recruiting slowed. The Commerce Commission opened a formal investigation into SFCVIBE Rating under the Fair Trading Act 1986 in April 2026 — noting the scheme also operates in Fiji and Hawaii — and has urged anyone who comes across it to exercise caution while that inquiry remains open.`,
+    categorySlug: 'ponzi-pyramid-schemes',
+    country: 'NZ',
+    alertLevel: 'high',
+    sources: ['Commerce Commission', 'NZ Herald'],
+    sourceUrl: 'https://www.comcom.govt.nz/case-register/case-register-entries/sfcvibe-rating/',
+  },
+);
+
+International.push(
+  {
+    name: 'NZ Domain Name & Web Hosting Renewal Impersonation Scam',
+    slug: 'nz-domain-hosting-renewal-impersonation-scam',
+    description: `Scammers impersonate domain name registrars and web hosting providers, sending convincing fake renewal invoices and building fake login pages that closely copy a real provider's branding well enough to pass a casual glance. Website and business owners who act on the fake invoice are hit with unauthorised charges, while others are steered onto the lookalike login portal purely to harvest their real hosting account credentials. Netsafe logged $58,744 in losses to these unauthorised billing scams and a further $5,862 to fake website scams in the first months of 2026 alone, with its digital harms services manager describing the pattern as "a significant evolution" — scammers no longer just borrowing a trusted organisation's name, but replicating the systems, invoices, and login pages that make it recognisable in the first place.`,
+    categorySlug: 'phishing',
+    country: 'NZ',
+    alertLevel: 'medium',
+    sources: ['Netsafe', 'NZ Herald'],
+    sourceUrl: 'https://netsafe.org.nz/scams',
+  },
+);
+
+International.push(
+  {
     name: 'UK Concert and Festival Ticket Fraud',
     slug: 'uk-concert-festival-ticket-fraud',
     description:
