@@ -4802,3 +4802,15 @@ UsGM.push({
     country: 'US',
     state: 'VT',
 });
+
+UsGM.push({
+    name: `Orland Park Tax Preparer's $11 Million Pandemic Unemployment Fraud (Hiam Hmaidan)`,
+    slug: 'illinois-hmaidan-pandemic-unemployment-assistance-fraud',
+    description: `Hiam Hmaidan, 54, of Orland Park, Illinois, worked as a tax preparer with access to her clients' names, Social Security numbers, and other personal information — and prosecutors say she used that access to loot the federal Pandemic Unemployment Assistance program, which Congress created under the 2020 CARES Act to help gig workers and others not normally eligible for unemployment benefits. From May 2020 through December 2022, Hmaidan and co-conspirators submitted nearly 700 fraudulent unemployment claims, many filed in her own clients' names without their knowledge or consent, causing more than $11 million in benefits to be paid out; investigators traced roughly $2.8 million of the stolen funds to cash withdrawn directly from ATMs. A federal jury in the Northern District of Illinois convicted Hmaidan in May 2026 of one count of conspiracy to commit mail fraud and five counts of mail fraud, following an investigation by the U.S. Department of Labor's Office of Inspector General and IRS Criminal Investigation; she is scheduled to be sentenced on October 2, 2026 and faces up to 20 years in prison. "Hiam Hmaidan stole more than $10 million from American taxpayers during the COVID-19 pandemic through an unemployment insurance fraud scheme," said Assistant Attorney General Colin M. McDonald of the Justice Department's Criminal Division. The case illustrates a risk that has outlasted the pandemic-era programs themselves: a tax preparer, accountant, or anyone else who already holds a client's Social Security number and personal details is positioned to file a benefits claim in that client's name without ever being noticed unless the client is specifically watching for it, so anyone who has used a paid preparer is advised to periodically check their Social Security earnings statement and state unemployment agency account for a claim they never filed.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'medium',
+    sources: ['U.S. Department of Justice, Office of Public Affairs', "U.S. Department of Labor Office of Inspector General"],
+    sourceUrl: 'https://www.justice.gov/opa/pr/illinois-tax-preparer-convicted-trial-after-stealing-more-11-million-taxpayers-covid-19',
+    country: 'US',
+    state: 'IL',
+});
