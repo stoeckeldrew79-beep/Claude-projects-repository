@@ -486,18 +486,6 @@ export const UsTZ: SeedScam[] = [
     sourceUrl: 'https://www.fisherphillips.com/en/insights/insights/ftc-launches-probe-into-college-athlete-agents-as-transfer-portal-chaos-grows',
   },
 {
-    name: 'Treasure Valley Municipal Permit Fraud Scheme',
-    slug: 'treasure-valley-municipal-permit-fraud-scheme',
-    description:
-      'Scammers pull public building-permit records filed with Boise, Meridian, Nampa, and Caldwell planning and zoning departments, then send applicants forged invoices — spoofing a city logo or a real employee\'s name — demanding payment in cryptocurrency or gift cards for permit "fees." The Idaho Attorney General and the affected cities jointly warned residents that real municipal permit fees are paid only through the city\'s own official channels.',
-    categorySlug: 'government-impersonation',
-    country: 'US',
-    state: 'ID',
-    alertLevel: 'medium',
-    sources: ["Idaho Attorney General's Office", 'Cities of Boise, Meridian, Nampa, and Caldwell'],
-    sourceUrl: 'https://www.ag.idaho.gov/newsroom/ag-labrador-and-cities-across-the-treasure-valley-warn-idaho-consumers-about-planning-and-zoning-fraud-scheme/',
-  },
-{
     name: '"Texas UCC Statement Services" Fake Secretary of State Mailer',
     slug: 'texas-ucc-statement-services-fake-sos-mailer',
     description:
