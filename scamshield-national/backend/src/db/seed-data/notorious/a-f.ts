@@ -5678,3 +5678,22 @@ Smith pleaded guilty to one count of securities fraud in November 2025. Dalton w
 The PetIQ case is a reminder that insider trading doesn't require a corporate boardroom or a Wall Street trading desk — it can be as simple as a phone call between friends, one of whom happens to run a public company, followed by an options trade sized to turn a few weeks of silence into a fortune's worth of return.`,
   },
 );
+
+NotoriousAF.push(
+  {
+    title: "Clarence Shaw and the Syntax Financial Group Investment Fraud",
+    slug: 'clarence-shaw-syntax-financial-group-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.aol.com/articles/ohio-securities-regulators-issue-cease-164114000.html',
+    body: `Note: this is a civil administrative enforcement action. The Ohio Division of Securities' cease-and-desist order describes findings from the Division's own investigation — Clarence Shaw has not been criminally charged in connection with this matter, and the order became final only because neither he nor his company filed a timely appeal, not through a trial on the merits.
+
+Clarence Shaw registered Syntax Financial Group LLC with the Ohio Secretary of State in March 2021, operating out of an office suite on Columbus's northwest side. According to a cease-and-desist order the Ohio Division of Securities issued on March 30, 2026, Shaw used a webinar in May 2021 to pitch investors on funding programs promising outsized, short-term returns — in one case telling a Georgia investor identified in the order only as "D.K." that a $5,000 investment would return $10,000 within a 90-day campaign, and in another describing an annual return of roughly 30 percent.
+
+The Division's order describes two specific victims by their initials: D.K., who wired $5,000 in July 2021 and another $8,000 in September 2021, for a total of $13,000, and a New Jersey investor identified as "C.T.," who sent two payments totaling $8,000 in September and October of 2021 on a promise of returns between $1,500 and $3,000. Of the money the Division could trace, only about $6,400 went toward the business Shaw described to investors — a call center operation in the Philippines — while the Division found that other investor funds were spent on personal purchases, including food delivery through Uber Eats and groceries at Save-A-Lot, along with cash withdrawals from ATMs.
+
+The order found that neither Shaw nor Syntax Financial Group held a securities dealer, salesperson, investment adviser, or investment adviser representative license in Ohio, and that the investments Shaw sold were never registered with the state. As part of the public record supporting the order, the Division also noted that Shaw had two prior felony convictions for sexual battery from 2003, for which he served a six-year prison sentence, along with several unrelated civil money judgments entered against him. Ohio published a legal notice giving Shaw and Syntax Financial Group until May 19, 2026, to appeal the order in Franklin County Common Pleas Court; as of the following day, court records showed no appeal had been filed, and the order became final without any further review of the underlying allegations.
+
+Shaw's case is a reminder that a professional-sounding LLC name and a scheduled webinar cost nothing to produce and prove nothing about legitimacy on their own. Ohio, like every state, lets an investor check for free whether a person or company soliciting them is actually licensed to sell securities before any money changes hands — a five-minute step that would have surfaced Syntax Financial Group's unregistered status immediately.`,
+  },
+);
