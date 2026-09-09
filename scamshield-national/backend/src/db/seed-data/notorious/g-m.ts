@@ -6353,3 +6353,22 @@ On March 26, 2025, a federal judge in the Eastern District of Pennsylvania sente
 What made the fraud durable for nearly a decade wasn't a sophisticated cover story — it was an alias doing the one job a con artist's real biography can't: erasing two prior fraud-adjacent felony convictions from the résumé new investors were shown. "Joe Mack" existed for exactly as long as no one checked whether he was real.`,
   },
 );
+
+NotoriousGM.push(
+  {
+    title: 'Helaman Hansen and the Fake "Adult Adoption" Path to Citizenship That Went to the Supreme Court',
+    slug: 'helaman-hansen-adult-adoption-immigration-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-edca/pr/elk-grove-man-sentenced-20-years-prison-1m-adult-adoption-immigration-fraud-scheme',
+    body: `There is no provision in U.S. immigration law that lets an adult immigrant become a citizen simply by being legally adopted by an American. Helaman Hansen told hundreds of people there was, and charged them for it.
+
+From 2012 to 2016, Hansen ran an Elk Grove, California-based organization called Americans Helping America Chamber of Commerce, through which he sold memberships in what he branded the "Migration Program." The pitch was that an undocumented immigrant could put themselves on a path to U.S. citizenship by being adopted as an adult by an American citizen and completing a series of additional steps Hansen laid out — a legal theory that had no basis in actual immigration law. Membership fees ran from $550 to $10,000 per person, and prosecutors said at least 471 people paid into the program, together handing Hansen more than $1.8 million.
+
+Federal prosecutors charged Hansen with mail fraud, wire fraud, and separately with encouraging and inducing illegal immigration for private financial gain. After an 11-day jury trial in 2017, he was convicted on 12 counts of mail fraud, 3 counts of wire fraud, and 2 counts of the encouragement charge. U.S. District Judge Morrison C. England Jr. sentenced him to 20 years in prison — 240 months on each fraud count and 120 months on each encouragement count, all served concurrently — and ordered him to pay $576,264 in restitution.
+
+The case took an unusual turn on appeal. The Ninth Circuit agreed the fraud convictions were sound but vacated the two encouragement convictions, ruling that the federal statute criminalizing "encouraging" illegal immigration was unconstitutionally overbroad and could sweep in ordinary speech protected by the First Amendment. The Supreme Court took up the government's appeal as United States v. Hansen, and in a 7-2 decision written by Justice Amy Coney Barrett and issued June 23, 2023, reversed the Ninth Circuit, holding the statute constitutional when read to cover only intentional solicitation and facilitation of unlawful conduct — not general advocacy. Hansen's mail and wire fraud convictions, the core of the scheme that took real money from real people, were never in question at any stage of the appeal.
+
+Hansen's case became a landmark First Amendment ruling almost by accident — the underlying facts were a straightforward immigration-fraud scheme targeting a population, undocumented immigrants, that fraudsters often single out precisely because victims are afraid to go to the police. What elevated it to the Supreme Court had nothing to do with whether he'd defrauded them; it had to do with how broadly Congress could word a different law entirely. Both questions ended the same way: Hansen's fraud stood.`,
+  },
+);

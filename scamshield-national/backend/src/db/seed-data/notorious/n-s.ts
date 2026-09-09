@@ -4207,3 +4207,22 @@ On February 23, 2026, Rompala was sentenced to four years in prison and ordered 
 The SVAS case is a reminder that charity fraud aimed at veterans doesn't always look like a fake GoFundMe or a robocall soliciting donations — sometimes it looks like a legitimate-seeming benefits-navigation service that never has to ask a victim for a dime up front, because the fraud is baked into the paperwork the victim trusted it to file on their behalf.`,
   },
 );
+
+NotoriousNS.push(
+  {
+    title: 'Vinath Oudomsine and the $57,789 Pokémon Card Bought with COVID Relief Fraud',
+    slug: 'vinath-oudomsine-eidl-pokemon-card-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-sdga/pr/georgia-man-who-used-covid-relief-funds-buy-pokemon-card-sentenced-prison',
+    body: `The CARES Act's Economic Injury Disaster Loan program was built for speed. As the pandemic shut down businesses across the country in 2020, Congress and the Small Business Administration streamlined the application process so struggling business owners could get relief funds within days rather than months — a design choice that also meant far less verification than a normal SBA loan would require before money went out the door. Vinath Oudomsine, of Dublin, Georgia, found that gap and used it.
+
+In August 2020, Oudomsine applied for an EIDL loan on behalf of an "entertainment services" business he claimed to operate, telling the SBA it had ten employees and had generated $235,000 in revenue in the twelve months before the pandemic. Based on those representations, the SBA deposited $85,000 into his bank account. Prosecutors said no such business existed at anywhere near the scale he described.
+
+Rather than payroll or rent, Oudomsine spent $57,789 of the loan — more than two-thirds of it — on a single item: a shadowless first-edition Charizard Pokémon trading card, one of the most sought-after cards among collectors. The purchase became public when investigators reviewing his finances found the transaction, turning what might have been an obscure fraud case into one of the most widely shared examples of pandemic relief money spent on something with no connection to keeping a business afloat.
+
+Oudomsine pleaded guilty to one count of wire fraud and was sentenced in March 2022 to 36 months in federal prison, followed by three years of supervised release. He was also ordered to pay $85,000 in restitution and a $10,000 fine, and agreed to forfeit the Charizard card itself as part of the prosecution.
+
+Oudomsine's case never approached the dollar figures of the largest COVID relief fraud prosecutions, but it became one of the most-cited because of exactly how little effort it took: a single online application, a handful of false numbers about a business that didn't exist, and money that landed in his account within days. It's a small-dollar illustration of a much larger problem — federal watchdogs have since estimated that COVID relief fraud across all pandemic programs likely reached well into the tens of billions of dollars, with EIDL and PPP loans processed too quickly, and checked too rarely, for fabricated applications like his to be caught before the money was already gone.`,
+  },
+);
