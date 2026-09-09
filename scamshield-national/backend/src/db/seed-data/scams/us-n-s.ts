@@ -4673,3 +4673,27 @@ UsNS.push({
     country: 'US',
     state: 'VA',
 });
+
+UsNS.push({
+    name: 'Paradise Valley Unified School District Overdue "Lunch Balance" Text Scam',
+    slug: 'paradise-valley-school-district-lunch-balance-text-scam',
+    description: `As the 2026-2027 school year got underway, parents in Arizona's Paradise Valley Unified School District began receiving unsolicited text messages claiming their child's school meal account had an overdue balance that needed to be paid through a link in the message. A parent who received the text flagged it to district leadership, and district spokesperson Sarah Hackett confirmed "it was not from PVSchools," pointing to a small but telltale sign that gave the fake away — the word "school" was misspelled in the message itself — while reassuring families that the district's own internet and services had not been compromised. The scam landed at exactly the moment a text about a lunch balance is most believable: the first weeks of class, when real fee reminders, supply lists, and schedule updates are also arriving in every parent's inbox and phone, making it easy to tap a link without a second thought. Security experts who reviewed the incident advised parents to treat any unexpected text about a school fee, balance, or account problem as unverified until checked, to watch for small errors like misspellings that a real district communication would not contain, and to pay or check any actual balance only by logging directly into the school's own established payment portal or app — never through a link or phone number the text message itself provides.`,
+    categorySlug: 'phishing',
+    alertLevel: 'medium',
+    sources: ['Paradise Valley Unified School District', 'AZFamily (KTVK/KPHO)'],
+    sourceUrl: 'https://www.azfamily.com/2026/09/02/paradise-valley-school-district-warns-parents-text-message-phishing-scam/',
+    country: 'US',
+    state: 'AZ',
+});
+
+UsNS.push({
+    name: 'Columbia "Money Solutions" Birth-Certificate Debt-Elimination Scheme (Ronald Wright)',
+    slug: 'south-carolina-money-solutions-birth-certificate-debt-elimination',
+    description: `Ronald Allen Wright ran Money Solutions, a Columbia, South Carolina financial-services business that, between 2013 and 2015, pitched people facing foreclosure and other financial distress — including elderly clients recruited through churches and other faith-based organizations — on a version of "sovereign citizen" ideology claiming that debts could be erased by filing a financial claim against the client's own birth certificate. Wright told customers this supposed claim against a hidden government account tied to their birth certificate could be used to satisfy their real-world debts, but he did not accept any of that fictitious paperwork as payment for his own services: he instead charged customers more than $140,000 in actual cash to enroll, while attempting to fraudulently discharge nearly $15 million in real consumer debt using the scheme. A federal jury convicted Wright of tax fraud and conspiracy to commit wire fraud, and he was sentenced to 10 years in federal prison, according to the U.S. Attorney's Office for the District of South Carolina, which has prosecuted several similar "debt elimination" cases built on sovereign-citizen theories in the state. The underlying theory has no basis in actual law — there is no secret government account tied to a birth certificate, and no document, however official-looking, can legally discharge a real mortgage, credit card balance, or other debt outside the normal legal process — and anyone offered a paid seminar, membership, or consulting service claiming otherwise, particularly while already facing foreclosure or another financial emergency, should treat the pitch as fraud and report it rather than pay any enrollment fee.`,
+    categorySlug: 'debt-relief-scams',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office, District of South Carolina"],
+    sourceUrl: 'https://www.justice.gov/usao-sc/pr/sovereign-citizen-sentenced-10-years-federal-prison-fraud-scheme',
+    country: 'US',
+    state: 'SC',
+});
