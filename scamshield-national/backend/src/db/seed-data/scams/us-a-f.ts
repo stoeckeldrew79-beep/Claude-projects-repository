@@ -6204,3 +6204,15 @@ UsAF.push({
     country: 'US',
     state: 'AR',
 });
+
+UsAF.push({
+    name: `Florida Grandparent Scam Ring's Fake "Hit-and-Run" Injury Escalation`,
+    slug: 'florida-grandparent-scam-ring-fake-hit-and-run-escalation',
+    description: `Florida Attorney General Ashley Moody's Office of Statewide Prosecution announced on June 24, 2024 the arrest of six people — Jairo Izquierdo, Gennesis Castro, Wendy Angelina Ortiz, Ada Tido, Wandy Castro, and Olfa Cornielle — accused of running a "grandparent scam" that stole nearly $250,000 from elderly victims across Brevard, Broward, Lee, Miami-Dade, Orange, Palm Beach, and Sarasota counties. Callers posing as attorneys or other legal representatives told victims a grandchild had struck a pregnant woman with a car and needed bail money immediately, then escalated the fake emergency over a series of follow-up calls — falsely claiming the woman had lost the baby, that a police officer had been hurt, or that she had died — to extract additional payments each time, instructing victims to withdraw cash and hand it to a courier, often an unwitting rideshare driver hired just to make the pickup, rather than telling any other family member what was happening. A Palm Bay victim alone was bled for $54,000 across four separate payments, and a Melbourne victim lost $53,000, with additional victims in Sarasota and Pompano Beach losing tens of thousands more. All six defendants face multiple first-degree felony charges, including organized scheme to defraud, grand theft, and criminal use of personal identification. "These fraudsters know that most grandparents would do anything to help a grandchild in need," Moody said, adding that the ring used "fear and family to extort Florida seniors" out of nearly a quarter of a million dollars. Because this scheme relies on urgency and secrecy — and because the fabricated emergency can be escalated indefinitely with new demands — anyone who receives a call like this should hang up and independently call the grandchild, or another family member, at a number already saved in their phone before sending a single dollar, no matter how convincing the caller sounds or how many follow-up calls pile on additional charges.`,
+    categorySlug: 'grandparent-scams',
+    alertLevel: 'high',
+    sources: ['Florida Attorney General (Ashley Moody), Office of Statewide Prosecution', 'CBS12 News', 'NBC6 South Florida'],
+    sourceUrl: 'https://www.myfloridalegal.com/newsrelease/ag-moody-announces-arrest-six-fraudsters-stealing-nearly-250000-seniors-through',
+    country: 'US',
+    state: 'FL',
+});

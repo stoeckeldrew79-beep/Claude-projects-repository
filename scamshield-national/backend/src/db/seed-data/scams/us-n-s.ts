@@ -4399,3 +4399,27 @@ UsNS.push({
     country: 'US',
     state: 'NY',
 });
+
+UsNS.push({
+    name: 'Moore, Oklahoma Fake Rental Listing Used a Hijacked Opendoor Self-Tour Code',
+    slug: 'oklahoma-moore-opendoor-self-tour-rental-scam',
+    description: `A man using the alias "George" posted a Facebook Marketplace ad in March 2026 offering a house in Moore, Oklahoma for rent at a below-market price, and when renter April Cobb responded, he sent her a fraudulent rental application asking for personal and financial details, including a debit card number, before providing what he told her was a one-time entry code. According to KFOR-TV, the house was not actually for rent at all — it was a vacant home for sale through Opendoor, the company that buys and resells houses directly to the public, and "George" had lifted the address and photos from Opendoor's real for-sale listing and misused its self-guided touring feature, which lets a prospective buyer unlock the front door with a temporary code generated inside the Opendoor app. Cobb created an Opendoor account, entered the address, and paid a $70 self-tour fee to use the code and let herself into the house, only realizing something was wrong once inside, when she found more bedrooms than the Facebook ad had described. Cobb told KFOR she recognized "George" as the same man behind an earlier fake rental listing for a house in nearby Mustang, Oklahoma, who had responded to a different renter's suspicions by calling a KFOR reporter and threatening, "If you like your life you leave the property." Moore police said they were investigating, and KFOR has documented a broader pattern of scammers reposting Oklahoma homes that are actually listed for sale through Opendoor and other instant-buyer companies as fake rentals, since an empty, unoccupied house makes it far harder for a prospective renter to immediately spot that no one associated with the ad is actually available to show it in person. Renters are advised to independently verify a property's real owner or listing agent — through a county assessor's website or the platform an instant-buyer company's actual for-sale listing appears on — before paying any fee or sending money to unlock, tour, or hold a rental found only through a social-media classified ad.`,
+    categorySlug: 'rental-housing',
+    alertLevel: 'medium',
+    sources: ['KFOR-TV (Oklahoma City)', 'Hoodline'],
+    sourceUrl: 'https://kfor.com/news/in-your-corner/if-you-like-your-life-leave-the-property-man-behind-fake-mustang-rental-listing-tells-news-4/',
+    country: 'US',
+    state: 'OK',
+});
+
+UsNS.push({
+    name: `Verona Financial Adviser's Power-of-Attorney Theft From a 90-Year-Old Client (John Boston)`,
+    slug: 'new-jersey-verona-john-boston-power-of-attorney-elder-theft',
+    description: `New Jersey Attorney General Jennifer Davenport announced on June 15, 2026 — the day New Jersey observes World Elder Abuse Awareness Day — the criminal conviction of John Boston, 50, of Verona, a registered financial adviser who used a durable power of attorney to steal more than $300,000 from a 90-year-old client over roughly two years. Boston had helped the woman, who had inherited substantial assets from her late brother, obtain the power of attorney meant to help manage her finances as she aged, then used it to make repeated ATM withdrawals and bank transfers for his own benefit, and later diverted her Social Security benefit payments as well, all while failing to use her money to pay her own bills or provide for her care. A jury in Essex County Superior Court convicted Boston of second-degree theft and second-degree theft by failure to make required disposition of property received; he faces five to ten years in state prison and up to $150,000 in fines at a sentencing scheduled for July 21, 2026. "This conviction demonstrates our commitment to holding accountable those who abuse positions of trust for personal gain and exploit vulnerable residents," Davenport said. The case is a reminder that a power of attorney is meant to protect an aging person's finances, not hand a single trusted adviser unsupervised control over them — families are advised to name a second, independent person to periodically review a power-of-attorney holder's bank and financial-adviser statements, and to treat vague or missing account records as a reason to ask questions immediately rather than after years have passed.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'high',
+    sources: ['New Jersey Office of the Attorney General'],
+    sourceUrl: 'https://www.njoag.gov/ag-davenport-announces-criminal-conviction-in-elder-financial-exploitation-case-highlights-ongoing-efforts-to-prevent-elder-abuse-as-new-jersey-observes-world-elder-abuse-awareness-day/',
+    country: 'US',
+    state: 'NJ',
+});
