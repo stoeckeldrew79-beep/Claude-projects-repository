@@ -3773,3 +3773,21 @@ On August 17, 2026, Taylor was sentenced to nine years in federal prison and ord
 Taylor's case is a reminder that a criminal record for financial fraud does not stop at one conviction, and that "private" or "exclusive" framing around an investment is itself a warning sign rather than a mark of legitimacy — a platform genuinely capable of the returns Taylor's pitch promised would have no reason to limit itself to word-of-mouth solicitation of unaccredited individual investors instead of registering with regulators and operating in the open. Prospective investors approached with access to an unregistered "private" trading vehicle promising to outperform public markets have every reason to verify the platform and the person selling it independently before wiring money — precisely the step more than 40 of Taylor's victims did not get the chance to take before their money was gone.`,
   },
 );
+NotoriousNS.push(
+  {
+    title: "Naabanyin Aniagyei-Cobbold and the Romance-Scam Money Machine",
+    slug: 'naabanyin-aniagyei-cobbold-romance-scam',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-sdia/pr/connecticut-man-sentenced-nine-years-imprisonment-participating-nationwide-romance',
+    body: `Naabanyin Aniagyei-Cobbold, 30, of Connecticut, was one of the money-moving links in a nationwide romance scam operation investigated by the FBI's Omaha Cyber Task Force and the Polk County, Iowa, Sheriff's Office. Romance scams follow a familiar structure: someone creates a fake profile on a dating site or social media platform, builds what feels like a real relationship with a victim over weeks or months, and then invents a reason — a medical emergency, a business opportunity, a shipment stuck in customs — for the victim to send money. What varies from case to case is the money-laundering plumbing behind the fake profile, and that was Aniagyei-Cobbold's role.
+
+According to the U.S. Attorney's Office for the Southern District of Iowa, Aniagyei-Cobbold set up a shell company, Alpha Distributions LLC, that existed only to receive wire transfers and other payments from romance-scam victims who believed they were sending money to help a partner they had met online. He also recruited and coached at least one additional participant, Nana Takyiwa Adonu, 43, of Odenton, Maryland, in setting up her own front company, Han-Dak LLC, along with a website and bank accounts to receive victim funds through the same scheme. Prosecutors say Aniagyei-Cobbold's channel alone took in more than $1.5 million from victims nationwide, including over $400,000 from a single victim in central Iowa; Adonu's channel separately took in more than $1.6 million, including from Iowa victims. Many of the people targeted drained retirement accounts, sold homes and vehicles, delayed retirement, or borrowed heavily from family members to keep sending money to a partner who did not exist.
+
+Aniagyei-Cobbold did not stay quiet about the proceeds: prosecutors noted that he produced a music video titled "S.C.A.M." with lyrics about receiving scam money, and had "SCAM" spelled out in hundred-dollar bills displayed on a vehicle. When the FBI began investigating, he submitted false invoices and fabricated documentation in an attempt to make the shell company's transactions look legitimate, conduct prosecutors cited as obstruction.
+
+He was convicted of wire fraud and money laundering and, on March 5, 2026, was sentenced in the Southern District of Iowa to nine years in federal prison, three years of supervised release, and $1,554,442.46 in restitution. Adonu was sentenced separately on July 22, 2026, to 70 months — just under six years — in prison, along with $1,655,640.76 in restitution and a three-year term of supervised release.
+
+The case illustrates why romance-scam money so often lands, at least briefly, in a bank account opened under an anonymous-sounding LLC rather than a person's own name: a shell company gives a hands-on victim's bank one more step to trace and gives the person running it a thin layer of deniability, right up until investigators subpoena the entity's own paperwork and find the same name behind it that appears on the dating-app conversations.`,
+  },
+);
