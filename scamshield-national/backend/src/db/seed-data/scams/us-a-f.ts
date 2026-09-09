@@ -6537,3 +6537,14 @@ UsAF.push({
     sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2025/09/ftc-secures-historic-25-billion-settlement-against-amazon',
     country: 'US',
 });
+
+UsAF.push({
+    name: 'CarShield Deceptive Vehicle Service Contract Refunds',
+    slug: 'carshield-ftc-vehicle-service-contract-refund-settlement',
+    description: `The Federal Trade Commission announced on December 11, 2025 that it had begun mailing checks totaling more than $9.6 million to 168,179 consumers nationwide who bought vehicle service contracts from CarShield, the vehicle-protection-plan seller officially known as NRRM, LLC, after the agency found the company's marketing had misrepresented what its plans actually covered. The FTC's underlying complaint, resolved through a $10 million settlement announced in July 2024, alleged that CarShield's advertising and telemarketing — much of it built around celebrity endorsers — deceptively implied that its plans would pay for repairs to virtually any part of a covered vehicle, that customers would receive a free rental car while their vehicle was in the shop, and that repairs could be done at the mechanic of the customer's choosing, when in practice many CarShield customers who paid monthly premiums as high as $120 discovered their specific breakdown simply wasn't a "covered" repair once they actually filed a claim. The settlement also named American Auto Shield, LLC (AAS), the company that administered and often denied claims under CarShield's contracts, and required both companies to stop making deceptive coverage claims and to ensure that any endorser's on-air statements about the plans are truthful and substantiated going forward. Refund checks were distributed through claims administrator Analytics Consulting LLC, and recipients were told to cash them within 90 days of receipt. The case is part of a broader pattern the FTC has pursued against vehicle service contract sellers, whose plans are frequently marketed as if they were a manufacturer's warranty extension despite being an entirely separate, privately administered product with its own exclusions. Anyone considering one of these plans should get the exact list of covered and excluded repairs in writing before paying anything, confirm whether a specific known issue is covered before it happens rather than after a breakdown, and be skeptical of any pitch — whether by robocall, mailer, or a celebrity spokesperson — that describes the coverage only in sweeping, general terms.`,
+    categorySlug: 'insurance-fraud',
+    alertLevel: 'medium',
+    sources: ['Federal Trade Commission'],
+    sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2025/12/ftc-sends-more-96-million-consumers-who-bought-deceptively-advertised-vehicle-service-contracts',
+    country: 'US',
+});

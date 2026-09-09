@@ -5257,3 +5257,14 @@ UsGM.push({
     country: 'US',
     state: 'TX',
 });
+
+UsGM.push({
+    name: 'Los Angeles Cousins\' Nationwide Airbnb/Vrbo Double-Booking "Bait-and-Switch" Scheme',
+    slug: 'los-angeles-goel-raheja-airbnb-vrbo-double-booking-scheme',
+    description: `A federal grand jury in the Central District of California indicted cousins Shray Goel and Shaunik Raheja in January 2024, alleging their short-term rental management operation — spanning nearly 100 properties across roughly ten states, including listings in Los Angeles, Malibu, Marina del Rey, San Diego, Chicago, Denver, Milwaukee, Austin, Dallas, Cleveland, and Nashville — ran a "double-booking, bait-and-switch" scheme that took in more than $8.5 million from over 10,000 Airbnb and Vrbo reservations. Prosecutors say the pair posted the same property under multiple listings at different prices for the same dates, effectively running a secret bidding war, and when a higher-paying guest later booked a unit already reserved by someone who had paid less, the lower bidder's reservation was canceled or quietly switched to a different, often inferior property, frequently on fabricated pretexts like sudden "plumbing problems," typically accompanied by only a partial refund. The indictment further alleged the defendants used fake host names and, in Goel's case, other people's stolen identities to operate listings, and that when deciding which of two conflicting guests to keep, they factored in "racial prejudices," including a pattern of avoiding renting to guests they perceived to be Black. U.S. Attorney Martin Estrada said at the time the scheme "victimized thousands of consumers and families across the country." Both cousins pleaded guilty in April 2026 — Goel, 37, of Calabasas, to one count of wire fraud tied to roughly $1.5 million in proven loss, and Raheja, 36, of Denver, to obstruction of justice for lying to federal investigators. On August 14, 2026, a judge sentenced Goel to one year and one day in federal prison plus a $15,000 fine; Raheja's sentencing was scheduled for September 11, 2026. Travelers who book a short-term rental should be wary of a last-minute cancellation or property swap accompanied by a vague excuse, should keep all booking confirmations and messages, and should dispute any such change directly through the platform's own resolution center rather than accepting a partial refund from the host.`,
+    categorySlug: 'rental-housing',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office, Central District of California", 'NBC News', 'KTLA'],
+    sourceUrl: 'https://www.justice.gov/usao-cdca/pr/two-cousins-plead-guilty-federal-crimes-connection-nationwide-online-short-term-rental',
+    country: 'US',
+});
