@@ -121,8 +121,8 @@ McFarland is unusual on this list for trying the same playbook twice, in public,
     slug: 'enron-accounting-fraud-collapse',
     author: 'ScamShield Editorial',
     tags: ['notorious', 'notorious-scammer', 'historical'],
-    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Jeffrey_Skilling_mug_shot.jpg?width=1200',
-    coverImageCredit: 'Photo: U.S. Marshals Service (public domain) — booking photo of Jeffrey Skilling, Enron\'s CEO',
+    coverImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Logo_of_Enron_Corporation_(1997).svg?width=1200',
+    coverImageCredit: 'Enron Corporation logo, designed by Paul Rand (public domain — below threshold of originality)',
     coverImagePosition: 50,
     body: `Founded from a 1985 merger, Enron grew into one of the largest energy trading companies in America, named "America's Most Innovative Company" by Fortune magazine for six consecutive years through 2000. Its stock was a Wall Street favorite, and its executives were celebrated as visionaries reinventing how energy markets worked.
 
