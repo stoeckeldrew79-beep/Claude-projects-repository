@@ -4816,3 +4816,15 @@ UsNS.push({
     country: 'US',
     state: 'PA',
 });
+
+UsNS.push({
+    name: "Queens Man's Deed-Theft Scheme Against a 92-Year-Old Dementia Patient (Mark Salkey)",
+    slug: 'new-york-brooklyn-salkey-deed-theft-dementia-victim',
+    description: `New York Attorney General Letitia James announced the arrest of Mark Salkey, 58, of Queens, on June 23, 2026, on 23 criminal counts after investigators say he forged a deed to seize the Brooklyn home of Althea Garrick, a 92-year-old woman with advanced dementia who had owned the East Flatbush house on East 95th Street for 47 years, since 1976. According to the Attorney General's office, Salkey created a company called Salkey Salkey & Associate, Inc. and used it to file a forged deed transferring Garrick's home into the company's name, then went further by forging checks and making unauthorized electronic transfers to liquidate roughly $148,000 of Garrick's own savings and another $20,000 from her ex-husband's pension. Rather than removing Garrick from the property, Salkey allegedly confined her to a single bedroom inside her own home while renting out the rest of the units — including to his own sister — for between $2,000 and $2,200 a month, collecting an estimated $70,000 in rental income over the course of the scheme, which prosecutors say ran from 2022 through 2024. The property, appraised at roughly $950,000 in 2023, is now worth more than $1 million. Salkey faces charges including grand larceny, criminal possession of stolen property, forgery, and falsifying business records, and could face 8⅓ to 25 years in prison on the top count if convicted. "No one deserves to have their home stolen and their bank account drained. Deed theft is a heartless crime," James said in announcing the arrest. Homeowners — particularly those caring for an elderly relative with dementia or another cognitive impairment — can protect against this exact scheme by checking the property's recorded deed status directly with the county register's office and enrolling in a free deed-fraud notification service, which alerts an owner the moment any new document is recorded against their property, rather than discovering a forged transfer only after rent checks or a locked-out bank account reveal something is wrong.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'high',
+    sources: ["New York Attorney General's Office (Letitia James)"],
+    sourceUrl: 'https://ag.ny.gov/press-release/2026/attorney-general-james-announces-arrest-man-who-stole-home-92-year-old-woman',
+    country: 'US',
+    state: 'NY',
+});
