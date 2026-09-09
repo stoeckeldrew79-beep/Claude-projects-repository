@@ -12243,3 +12243,26 @@ International.push(
     sourceUrl: 'https://www.vzbv.de/pressemitteilungen/betrug-mit-vorabzahlungen-nach-kreditanfragen',
   },
 );
+
+International.push(
+  {
+    name: 'Dutch AFM Investment Chat Group Fraud',
+    slug: 'dutch-afm-investment-chat-group-fraud',
+    description: `Consumers are added to investment "tip" groups on WhatsApp, Telegram, Facebook, or LinkedIn — sometimes without ever asking to join, sometimes after clicking a misleading ad — where a self-styled expert shares "exclusive" stock or crypto tips and screenshots of supposed gains to build social proof before pushing members toward a specific investment. To look credible, the scammers commit identity fraud, posing as recognized analysts, asset managers, or well-known investors, and some groups even misuse the AFM's own name and logo to appear officially vetted. The Autoriteit Financiële Markten (AFM), the Dutch financial markets regulator, warned on October 8, 2025 of a sharp rise in this exact pattern, noting the promoted "investments" are frequently non-existent products that leave members with significant losses once they hand money over. The AFM advises checking any firm's genuine licence on its own public register before investing, treating an unsolicited invitation to a chat group promising guaranteed or fast returns as a red flag on its own, and reporting suspected fraud through the AFM's consumer contact form or to police.`,
+    categorySlug: 'investment-fraud',
+    country: 'NL',
+    alertLevel: 'high',
+    sources: ['AFM (Autoriteit Financiële Markten)'],
+    sourceUrl: 'https://www.afm.nl/en/sector/actueel/2025/okt/pb-afm-waarschuwt',
+  },
+  {
+    name: 'Dutch Fake Vehicle Inspection Report Fee Scam',
+    slug: 'dutch-fake-vehicle-inspection-report-fee-scam',
+    description: `A person selling a car or motorcycle on an online trading platform is contacted by a supposed buyer who asks detailed questions about the vehicle's condition, then insists the sale can only proceed once an inspection report is obtained from one specific website the "buyer" names, typically costing around 30 to 60 euros. Believing this is a normal step toward a genuine sale, the seller pays for the report — but receives nothing at all, a screenshot of an unrelated free check, or a report describing a completely different vehicle, and the "buyer" then goes silent without ever completing a purchase. Fraudehelpdesk, the Dutch national fraud hotline, warned on January 29, 2026 that a genuine buyer has no legitimate reason to dictate which specific site a seller must use for an inspection, and that the sole purpose of the request is to extract payment from the seller. It advises sellers to decide independently whether and where to have a vehicle inspected, to refuse any buyer-dictated inspection website, and to contact Fraudehelpdesk if a payment has already been made.`,
+    categorySlug: 'online-shopping-scams',
+    country: 'NL',
+    alertLevel: 'medium',
+    sources: ['Fraudehelpdesk (Netherlands)'],
+    sourceUrl: 'https://www.fraudehelpdesk.nl/alert/oplichting-met-keuringsrapport-auto-en-motor/',
+  },
+);
