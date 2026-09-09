@@ -5635,3 +5635,20 @@ Williams was charged by indictment in April 2024 with one count of fraud in conn
 Disaster-assistance fraud is a particularly corrosive variety of fraud because it operates by recruiting the very people the program exists to help, rather than deceiving them from the outside: Williams's nearly 200 participants weren't lied to about what she was doing so much as enlisted into doing it with her, in exchange for a share of money that was never meant to be split with a middleman. FEMA and its inspector general's office have said fraud of this kind — filing claims for damage that didn't occur, or for a property the applicant doesn't actually occupy — remains one of the most common ways disaster relief money is diverted from the survivors it's meant to reach, and each fraudulent claim paid out is money that isn't available to a legitimate survivor whose application is still being processed.`,
   },
 );
+
+NotoriousGM.push(
+  {
+    title: "Jihoon Park and the Bankruptcy Filing That Hid Millions From His Victims",
+    slug: "jihoon-park-virginia-investment-bankruptcy-fraud",
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/opa/pr/virginia-man-convicted-investor-and-bankruptcy-fraud-scheme',
+    body: `Jihoon Park, a 52-year-old resident of Chantilly, Virginia, spent years positioning himself within his community as a trustworthy investment advisor, leaning on personal relationships and, according to federal prosecutors, claims tied to a past affiliation with a major financial institution. He told people he could put their life savings and retirement money into "safe investments with high returns." Instead, prosecutors say, he simply kept the money for himself — spending it on real estate and cryptocurrency rather than investing it on his victims' behalf. Losses to his victims topped $2.5 million.
+
+The fraud might have stayed a private financial dispute if not for what happened next. When one victim sued him to try to recover the money, prosecutors say Park transferred assets to his spouse and concealed millions of dollars in cryptocurrency holdings, then filed for personal bankruptcy — falsely declaring, under penalty of perjury, that he held a grand total of $0.34 in financial assets and no cryptocurrency at all. The bankruptcy filing amounted to a second fraud layered on top of the first, this one aimed directly at a federal court rather than at an individual investor.
+
+A federal jury sitting in Alexandria, Virginia convicted Park on September 8, 2026 of three counts of wire fraud and two counts of bankruptcy fraud, following an investigation by the FBI's Washington Field Office. He faces a statutory maximum of 20 years in prison on each wire fraud count and five years on each bankruptcy fraud count, and is scheduled to be sentenced on December 10, 2026 — meaning that, as of this writing, no sentence has yet been imposed and the case remains pending final disposition.
+
+Park's case is a reminder that a fraud doesn't necessarily end when a victim sues to get their money back: hiding assets and lying to a bankruptcy court is itself a federal crime, and it's often the cover-up — the falsified $0.34 asset declaration, the quiet transfer to a spouse — that gives investigators a case they can prove beyond a reasonable doubt, even when the underlying investment fraud comes down to one person's word against another's.`,
+  },
+);
