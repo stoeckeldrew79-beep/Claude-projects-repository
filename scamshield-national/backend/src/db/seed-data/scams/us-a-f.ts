@@ -6315,3 +6315,26 @@ UsAF.push({
     country: 'US',
     state: 'OK',
 });
+
+UsAF.push({
+    name: 'California DFPI Job Interview Malware Trap',
+    slug: 'california-dfpi-job-interview-malware-trap-scam',
+    description: `California's Department of Financial Protection and Innovation (DFPI) issued a consumer alert on August 3, 2026 warning job seekers about scammers who impersonate real employers to trick applicants into installing malware. Fraudsters post fake openings on social media using a legitimate company's actual name and logo, and once an applicant responds, steer the conversation off the platform to a private messaging app, email, or text — deliberately avoiding any video or phone call that might expose an inconsistency. The scammer then tells the applicant the next step is a "skills test" or "coding exercise" and asks them to download a program, script, or testing tool to complete it; the file is malware that, in DFPI's words, "can access files on a device and capture personal information," and can expose an employer's own network if the applicant later connects the infected device to a workplace system. DFPI flagged red flags including job postings that exist only on social media with no listing on the company's own careers page, pressure to keep communicating through informal messaging apps instead of official channels, and any unfamiliar program a supposed employer asks a candidate to install before ever meeting by phone or video. The agency urges job seekers to verify a posting by contacting the company directly through its official website, to refuse to download any unfamiliar software during an application process, and for employers to review their own cybersecurity protocols and limit new-hire access to sensitive systems. Complaints can be filed with DFPI at dfpi.ca.gov or by calling 1-866-275-2677.`,
+    categorySlug: 'employment-scams',
+    alertLevel: 'high',
+    sources: ['California Department of Financial Protection and Innovation (DFPI)'],
+    sourceUrl: 'https://dfpi.ca.gov/alert/the-job-interview-malware-trap/',
+    country: 'US',
+    state: 'CA',
+});
+
+UsAF.push({
+    name: 'FINRA GenAI Voice-Clone and Deepfake Brokerage Account-Takeover Warning',
+    slug: 'finra-genai-voice-clone-deepfake-brokerage-account-takeover',
+    description: `The Financial Industry Regulatory Authority (FINRA) warns investors, in guidance most recently updated December 1, 2025, that criminals are using generative AI to open fraudulent new brokerage accounts and take over existing ones by defeating the verification steps meant to stop them. FINRA says a voice clone built from as little as three seconds of a real person's audio can sound convincing enough to fool a firm's call-center representative into treating the caller as the actual account holder, letting a scammer authorize a withdrawal or transfer over the phone. The same technology is used to generate fake driver's licenses and other identity documents convincing enough to pass a new-account verification check, and to produce deepfake "selfies" built from photos scraped off social media that can defeat the photo or video verification some firms require before opening an account or resetting access. This differs from a scammer cloning a family member's voice to ask a victim directly for money: here the manufactured voice, ID, or selfie is aimed at the brokerage firm's own security checks rather than at the victim, so an account holder may not know their identity was used until they notice unfamiliar trades or a missing balance. FINRA recommends enabling multi-factor authentication and biometric verification everywhere a brokerage offers it, using a unique password stored in a password manager for each financial account, turning on transaction and login notifications so unauthorized activity is caught quickly, and pulling a credit report periodically to check for any account opened without permission. Investors who spot suspicious activity are directed to report it to their financial institution, local law enforcement, and the FBI's Internet Crime Complaint Center at ic3.gov.`,
+    categorySlug: 'ai-deepfake-scams',
+    alertLevel: 'high',
+    sources: ['Financial Industry Regulatory Authority (FINRA)'],
+    sourceUrl: 'https://www.finra.org/investors/insights/gen-ai-fraud-new-accounts-and-takeovers',
+    country: 'US',
+});
