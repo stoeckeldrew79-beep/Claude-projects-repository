@@ -5997,4 +5997,20 @@ On September 8, 2026, Lam pleaded guilty in the U.S. District Court for the Dist
 
 The theft's starting point is the real lesson: no legitimate security team at Google, a crypto exchange, or any other company will ever call an account holder and walk them through granting access to their files or reading back a verification code. A call like that is the attack, not a warning about one — and the appropriate response is to hang up and contact the company directly through its official app or website, not to keep following the caller's instructions.`,
   },
+{
+    title: 'Maurice "Mo" Fayne: The Reality TV Star Whose Trucking Ponzi Scheme Fed on a Pandemic Relief Loan',
+    slug: 'maurice-fayne-flame-trucking-ppp-ponzi-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-ndga/pr/reality-tv-star-sentenced-ppp-fraud-and-operating-multimillion-dollar-ponzi-scheme',
+    body: `Maurice Fayne, known to VH1 "Love & Hip Hop: Atlanta" viewers as a cast member and to Georgia prosecutors by his self-given nickname "Arkansas Mo," ran a trucking company called Flame Trucking out of Dacula, Georgia. From 2013 through 2020, prosecutors said, Fayne raised money from more than 20 investors by telling them their funds would go toward operating and growing the trucking business. Instead, he used it to pay his own personal debts and fund what court filings called an "extravagant lifestyle" — on one occasion spending $5 million at an Oklahoma casino — a Ponzi-style arrangement that depended on money from newer participants to keep the appearance of a real, functioning business going.
+
+When the federal Paycheck Protection Program launched in the early weeks of the COVID-19 pandemic to help small businesses keep employees on payroll, Fayne saw another funding source rather than a lifeline for real workers. In April 2020, he applied for a $3.7 million PPP loan for Flame Trucking, falsely claiming the company had 107 employees and average monthly payroll of $1,490,200 — figures prosecutors said were fabricated to qualify for far more money than the business's real payroll could have justified.
+
+The loan proceeds Fayne actually received went almost entirely to purposes that had nothing to do with keeping anyone employed: $40,000 toward his own past-due child support, $50,000 to pay restitution he already owed from an earlier, unrelated fraud case, $65,000 in cash withdrawals, $85,000 on custom-made jewelry, $136,000 to lease a Rolls-Royce, $230,000 paid out to associates helping him run the underlying Ponzi scheme, and $907,000 to start a new business venture in Arkansas. Federal investigators traced the spending directly back through his own bank and business records.
+
+A federal jury in the Northern District of Georgia convicted Fayne on charges including wire fraud conspiracy, bank fraud, and making false statements to a financial institution. In September 2021, U.S. District Judge Mark H. Cohen sentenced him to 17 years and six months in federal prison, to be followed by five years of supervised release, and ordered him to pay $4,465,865.55 in restitution to his victims.
+
+Fayne's case is a reminder that emergency relief programs built for speed — the PPP loans were designed to get cash to struggling small businesses within days — are also easiest to exploit by someone already running a fraud who simply has to lie once more, on one more form, to a lender moving too fast to check. The same tells that mark most Ponzi schemes, from the luxury car to the custom jewelry, showed up again in the receipts for exactly where the "payroll" money went.`,
+  },
 );
