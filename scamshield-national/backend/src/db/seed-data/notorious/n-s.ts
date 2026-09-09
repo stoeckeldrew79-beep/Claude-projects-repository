@@ -4015,4 +4015,18 @@ Of the 30 people criminally charged, 19 were arrested in the United States and t
 
 If the allegations hold up, the case is a reminder that the confidentiality protecting an unannounced merger depends on every person with access to the deal room — not just the partners running it — and that "material nonpublic information" doesn't stop being illegal to trade on just because the person who obtained it wasn't formally assigned to the matter.`,
   },
+{
+    title: 'Sean Kingston and the Fake Wire Receipts Behind a $1 Million Luxury Goods Fraud',
+    slug: 'sean-kingston-luxury-goods-wire-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.secretservice.gov/newsroom/releases/2025/08/sean-kingston-and-mother-sentenced-federal-prison-1-million-fraud-scheme',
+    body: `Sean Kingston, born Kisean Paul Anderson, had a real music career behind his name — the 2007 hit "Beautiful Girls" made him a genuine teenage pop star — and prosecutors say he spent 2023 and 2024 using that fame as bait in a straightforward fraud scheme run with his mother, Janice Eleanor Turner. According to the U.S. Secret Service and the U.S. Attorney's Office for the Southern District of Florida, Anderson used social media to contact sellers of high-end merchandise, then invited them to one or more of his luxury homes in Broward County, where his celebrity status helped convince sellers he was good for the money — sometimes with vague references to social media features or celebrity buyers that never materialized.
+
+The pattern, prosecutors said, repeated across more than $1 million in merchandise between April 2023 and March 2024: a bulletproof Cadillac Escalade, high-end watches, and a 232-inch LED television among the items. After taking possession of the goods, Anderson or Turner would send the seller a wire transfer receipt as proof the payment was on its way — receipts that, according to the government, were fake. Some victims recovered their money only after threatening or pursuing legal action; others did not. One piece of evidence at trial was a text message Anderson sent his mother instructing her to "make [a] fake receipt" so it would "look like the transfer will be there in a couple [of] days."
+
+A federal jury in the U.S. District Court for the Southern District of Florida convicted both Anderson and Turner in March 2025 of conspiracy to commit wire fraud and four counts of wire fraud. Turner was sentenced first, on July 23, 2025, to five years in federal prison; Anderson was sentenced on August 15, 2025, to 42 months. The case was investigated by the Secret Service's Miami Field Office alongside the Broward Sheriff's Office.
+
+The scheme worked the same way most affinity-adjacent frauds do: a recognizable name did the persuading that paperwork normally would. Sellers who might have insisted on payment up front, or verified a wire before releasing six-figure merchandise to a stranger, skipped those steps because the buyer was someone they recognized from the radio — proof that celebrity is its own kind of social engineering, and that a fake receipt only has to look convincing for as long as it takes the goods to walk out the door.`,
+  },
 );
