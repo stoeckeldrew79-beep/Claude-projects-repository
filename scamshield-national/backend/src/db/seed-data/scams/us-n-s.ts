@@ -4555,3 +4555,15 @@ UsNS.push({
     country: 'US',
     state: 'NC',
 });
+
+UsNS.push({
+    name: 'New Jersey Unemployment Insurance Fraud Strike Team Recovery',
+    slug: 'new-jersey-unemployment-insurance-fraud-strike-team',
+    description: `The U.S. Department of Labor's Office of Inspector General announced on June 10, 2026 that a joint OIG-state strike team deployed to New Jersey had identified more than 53,000 fraudulent unemployment insurance claims worth over $9 million, following up on an initial fraud alert the OIG issued to the state in January 2026 that flagged nearly 220,000 suspicious accounts for review. The strike team, deployed to New Jersey's Department of Labor and Workforce Development on April 13, 2026, found that without the intervention more than $31 million in potentially fraudulent unemployment accounts would have continued paying out undetected — money diverted from a program meant to support New Jersey workers who lose their jobs through no fault of their own. Inspector General Larry D. Turner's office said the operation reflects a broader pattern the OIG has tracked since the pandemic-era expansion of unemployment programs, when scammers used stolen identities and fabricated employment histories to open accounts and collect benefits never owed to them, and continue attempting the same tactics against the standard state program today. "Every account has been examined and every stolen dollar is recovered" remains the strike team's stated priority as the state continues working through the flagged accounts. The case is a reminder for New Jersey residents to watch their own identity for signs of unemployment fraud committed in their name — an unexpected 1099-G tax form reporting unemployment income never received, a benefits determination letter for a claim never filed, or a notice that a claim's direct-deposit information was changed without the account holder's knowledge — and to report any of those signs immediately to the New Jersey Department of Labor and Workforce Development and to the DOL-OIG hotline at 1-800-347-3756.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'medium',
+    sources: ["U.S. Department of Labor, Office of Inspector General", 'New Jersey Department of Labor and Workforce Development'],
+    sourceUrl: 'https://www.oig.dol.gov/public/Press%20Releases/OIG-Press-Release-061026.htm',
+    country: 'US',
+    state: 'NJ',
+});
