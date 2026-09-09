@@ -5834,3 +5834,20 @@ Jacobus pleaded guilty to wire fraud and money laundering. On February 5, 2026, 
 Jacobus's case illustrates how an affinity-style fraud can cross borders as easily as it crosses a dinner table: a shared professional network, a shared church community, and family ties gave him access to victims scattered across three countries, all of whom extended him the kind of trust that a stranger asking for the same money would never have received.`,
   },
 );
+
+NotoriousAF.push(
+  {
+    title: 'Brian Shane Haigler and the Ponzi Scheme That Ended Inside His Own Church',
+    slug: 'brian-haigler-mint-hill-real-estate-church-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://www.justice.gov/usao-wdnc/pr/mint-hill-sentenced-investment-fraud-embezzlement-church-and-covid-19-relief-fraud',
+    body: `Brian Shane Haigler worked as a real estate agent in Mint Hill, North Carolina, and in February 2019 he began recruiting friends and acquaintances into what he described as straightforward real estate investments: hand him money, and he would use it to purchase or improve specific properties, then pay investors a fixed return by an agreed date. According to the U.S. Attorney's Office for the Western District of North Carolina, that description was mostly fiction. Haigler used little, if any, of the money he raised for actual real estate — instead spending much of it on personal expenses or using it to pay earlier investors, the defining mechanic of a Ponzi scheme.
+
+The fraud didn't stay confined to real estate. In July 2019, following the death of the pastor at Living Praise Church in Monroe, North Carolina, earlier that year, Haigler — who served as the church's treasurer — became the sole signatory on its bank accounts. Prosecutors say he used that unchecked authority to write 53 checks and make three cash withdrawals from the church's accounts between 2019 and 2021, totaling more than $389,000, and separately drained roughly $200,000 from the church's building fund. When the federal government began distributing COVID-19 relief loans, Haigler used his position as the only person who could act on the church's behalf to apply for and obtain a $311,000 Economic Injury Disaster Loan in the church's name — without the knowledge of the congregation's actual leadership — and then kept the money for himself.
+
+The scheme surfaced only after a handful of Haigler's original real estate investors contacted the U.S. Secret Service's Charlotte Field Office in December 2022 to report suspected fraud. "We quickly snowballed from two or three victims to as many as 15 to 20 victims," Senior Special Agent Keith Wrenn said of the investigation that followed — one that ultimately traced Haigler's conduct across all three phases of the scheme and put the combined losses to real estate investors and the church at between $550,000 and $1.5 million.
+
+Haigler pleaded guilty to wire fraud on July 14, 2024, and was sentenced on February 17, 2026, to 33 months in federal prison, to be followed by two years of supervised release. His case is a reminder that a position of trust inside a religious community — treasurer, sole signatory, the person everyone assumes is handling the books correctly because no one else is checking — creates exactly the kind of unsupervised access that lets embezzlement go undetected for years, and that a church or nonprofit's finances benefit from the same basic control any well-run organization relies on: more than one person with eyes on the accounts.`,
+  },
+);
