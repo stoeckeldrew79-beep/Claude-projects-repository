@@ -6219,3 +6219,39 @@ UsAF.push({
     country: 'US',
     state: 'AZ',
 });
+
+UsAF.push({
+    name: 'Fake Tax-Relief Company Impersonation Scam',
+    slug: 'alaska-fake-tax-relief-company-impersonation-scam',
+    description: `The Better Business Bureau warned Alaskans in late January 2026 that scammers are impersonating real, legitimately registered tax-relief and tax-preparation businesses — borrowing names like "America Tax Consultant" or "U.S. Tax Services" — to sound credible when they call, leave voicemails, or send texts claiming to represent an "IRS-authorized" debt-relief program. The callers tell the target they qualify for a new tax-forgiveness program or warn of an unresolved tax debt that must be settled immediately, then pressure them to pay a "processing" or "settlement" fee by cryptocurrency, wire transfer, or prepaid gift card — payment methods the real IRS never asks for. The BBB's Scam Tracker had logged roughly $6 million in attempted losses nationwide over the prior twelve months, including eight reports from Alaskans with a combined attempted loss of about $10,000. "Don't send money when you're under pressure," BBB spokesperson Cameron Nakashima said, urging anyone contacted this way to hang up, look up the company independently on BBB.org, and call the IRS directly at 1-800-366-4484 to confirm whether any debt or program actually exists, since the real IRS always initiates contact by mail rather than by phone, text, or a surprise voicemail.`,
+    categorySlug: 'tax-scams',
+    alertLevel: 'medium',
+    sources: ['Better Business Bureau (BBB) Scam Tracker', "Alaska's News Source"],
+    sourceUrl: 'https://www.alaskasnewssource.com/2026/01/29/watch-out-scammers-are-using-real-tax-company-names-steal-your-money-bbb-says/',
+    country: 'US',
+    state: 'AK',
+});
+
+UsAF.push({
+    name: 'Springdale Tornado-Repair Contractor Fraud (Austin Lamb)',
+    slug: 'arkansas-springdale-lamb-tornado-repair-contractor-fraud',
+    description: `Austin Lamb, doing business as Lamb Enterprises (also advertised as "Lamb and Sons") in Springdale, Arkansas, was arrested in Bentonville on March 19, 2025 on three counts of theft of property by deception after collecting $102,717.91 from three households seeking repairs following the May 26, 2024 tornado and then never performing the work. Victims Ken Swindle ($36,897.74), Rene Miranda ($33,820.17), and Doyl and Jeanette Strickert ($32,000) each paid Lamb after he pitched himself as a contractor who could handle their storm damage, but bank records showed the money went into his personal account and was spent at restaurants, Best Buy, O'Reilly Auto Parts, and on Apple products rather than on materials or labor. Investigators found Lamb's actual state license was the most restrictive tier issued by the Arkansas Contractor Licensing Board — residential roofing jobs under $50,000 only — meaning he was never authorized to take on the larger, multi-trade repair work he promised. "We were easy targets, or, at least, I was an easy target. I was so desperate to get a contractor to start working," Swindle told reporters. Because Lamb was already a registered sex offender serving a 10-year probation term, Washington County prosecutors also moved to revoke his probation over the new allegations. Homeowners hiring storm-repair contractors should verify a contractor's actual license class and dollar-amount limit with the Arkansas Contractor Licensing Board before paying anything, get a written contract with a full scope of work, and avoid paying the bulk of a job upfront.`,
+    categorySlug: 'home-improvement-solar',
+    alertLevel: 'high',
+    sources: ['Northwest Arkansas Democrat-Gazette', 'NWA Homepage (KNWA/KFTA)'],
+    sourceUrl: 'https://www.nwaonline.com/news/2025/mar/21/contractor-accused-of-taking-more-than-100000/',
+    country: 'US',
+    state: 'AR',
+});
+
+UsAF.push({
+    name: 'SNAP EBT Card Skimming and Benefit-Theft Phishing Scam',
+    slug: 'delaware-snap-ebt-skimming-benefit-theft-phishing-scam',
+    description: `Delaware's Department of Health and Social Services (DHSS) warned SNAP recipients on June 9, 2026 of a rise in EBT card skimming and benefit theft, urging clients to lock their cards and change PINs after seeing more Delawareans report stolen food-assistance funds. Thieves plant card-skimming devices on point-of-sale terminals and ATMs to capture card numbers and PINs, then clone the cards and drain benefits in purchases that can occur across multiple states within minutes; a related wave of phishing calls and texts falsely claims a recipient's EBT card has been locked or that benefits are about to stop, tricking them into reading off their card number or PIN. Delaware saw 2,154 theft claims in 2024, with $956,000-plus ultimately replaced under a temporary federal reimbursement program, but that federal authority to reimburse stolen SNAP benefits expired in December 2024 and Congress has not renewed it — meaning the 1,132 thefts totaling $166,308 reported in Delaware through 2025 largely cannot be recovered. "Protecting SNAP benefits is more important than ever. We are seeing more Delawareans report stolen benefits and taking a few simple steps now can help reduce the risk of fraud," DHSS Secretary Christen Linke Young said. DHSS recommends activating the "Lock My Card Everywhere" feature in the ConnectEBT app or website, using a PIN that isn't a birthdate or simple sequence, never sharing card numbers or PINs with anyone outside the household, and calling EBT Customer Service at 1-800-526-9099 immediately if theft is suspected, followed by DHSS Form 306 to formally report it.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'high',
+    sources: ['Delaware Department of Health and Social Services', 'WHYY'],
+    sourceUrl: 'https://news.delaware.gov/2026/06/09/dhss-urges-snap-recipients-to-take-action-to-protect-ebt-benefits-from-theft/',
+    country: 'US',
+    state: 'DE',
+});
