@@ -5244,3 +5244,26 @@ UsGM.push({
     country: 'US',
     state: 'MA',
 });
+
+UsGM.push({
+    name: 'Invitation Homes Undisclosed Rental Fees and Withheld Deposit Scheme',
+    slug: 'invitation-homes-ftc-rental-fees-settlement',
+    description: `The Federal Trade Commission announced on March 24, 2026 that it had sent checks totaling more than $47.2 million to 444,131 consumers deceived by Invitation Homes, a Dallas-headquartered, publicly traded company that is the nation's largest owner of single-family rental homes, managing or owning more than 110,000 properties across the country as of late 2025. The FTC first sued the company in September 2024, alleging that Invitation Homes advertised rental prices that concealed mandatory add-on charges — bundled into categories like "smart home technology," "utility management," and other service fees — that could add up to roughly $1,700 a year on top of the advertised rent, while collecting more than $18 million in application fees through the same deceptive pricing. The agency's complaint further alleged that Invitation Homes routinely failed to conduct adequate move-in inspections, then, when tenants moved out, withheld security deposits or billed them for pre-existing damage and ordinary wear-and-tear the company had never documented at move-in, and used eviction filings and threats of eviction in ways the FTC characterized as unfair leverage over tenants disputing charges. Under the settlement, Invitation Homes agreed to pay $48 million, with $47.2 million distributed directly to eligible renters — those who paid $45 or more in the covered fees or charges between January 2021 and September 2024 — through refund administrator Rust Consulting, and to overhaul its leasing disclosures, inspection practices, and deposit-return procedures going forward. Recipients were advised to cash their checks within 90 days and to direct questions to Rust Consulting at 800-804-6915 or info@InvitationHomesRefund.com; the FTC noted separately that it never requires payment or account information to deliver a refund, a detail scammers have exploited by impersonating refund administrators after past FTC settlements. Renters signing a lease with any large corporate landlord should ask for the full itemized monthly cost, including any bundled service or technology fees, before signing, and should request and keep a written, photographed move-in inspection report to dispute deposit deductions later.`,
+    categorySlug: 'rental-housing',
+    alertLevel: 'medium',
+    sources: ['Federal Trade Commission'],
+    sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-sends-checks-totaling-more-472-million-consumers-deceived-invitation-homes-undisclosed-fees',
+    country: 'US',
+});
+
+UsGM.push({
+    name: 'Houston Postal Carrier "Slipsandchips" Stolen-Check Telegram Ring',
+    slug: 'houston-postal-worker-stolen-check-telegram-scheme',
+    description: `A federal grand jury in the Southern District of Texas indicted five people on August 19, 2026 — three of them working U.S. Postal Service mail carriers in Houston — over an alleged scheme that acquired and resold roughly $23.97 million worth of checks stolen directly out of the mail between 2022 and 2024. Prosecutors say Tryston Tremaine Vaughn organized the operation by recruiting USPS carriers, including Catherine Clauzelle Kilpatrick, Drakkor Jamar Alexander, and Malcolm Tiree Joubert, to steal checks off their own delivery routes, then posted the stolen checks for sale to buyers on a Telegram channel called "slipsandchips," an encrypted marketplace investigators say let buyers browse and purchase checks before having them shipped to their location, commonly by FedEx. The indictment details specific checks tied to the ring: Kilpatrick is accused of taking a $9,858.01 Chase check in October 2023, Alexander a $16,636.54 Amegy Bank check in March 2024, and Joubert the single largest item in the case, a $1,517,875.27 BMO Bank check stolen from his own route in May 2024; Vaughn and co-defendant Alyssa Nadine Bryant are separately accused of mailing checks including a $79,894.60 Citibank check and a $25,007.25 Stellar Bank check to buyers. All five defendants face conspiracy to commit bank fraud and multiple substantive bank fraud counts, while Kilpatrick, Alexander, and Joubert face an additional charge of theft of mail matter by a postal employee; four of the five had been arrested as of August 24, 2026, with Alexander still being sought. The case illustrates a variant of check fraud that outside vigilance can't catch at the mailbox, since the theft happens before a check ever reaches a collection box or a resident's home — consumers can reduce their exposure by enrolling in USPS Informed Delivery to see what mail is expected before it arrives, paying bills electronically rather than by mailed check where possible, and promptly reporting any expected check or payment that never shows up to both the sender's bank and USPS's Postal Inspection Service.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office, Southern District of Texas", 'Houston Public Media', 'Click2Houston (KPRC)'],
+    sourceUrl: 'https://www.justice.gov/usao-sdtx/pr/postal-employees-charged-24m-stolen-check-scheme',
+    country: 'US',
+    state: 'TX',
+});
