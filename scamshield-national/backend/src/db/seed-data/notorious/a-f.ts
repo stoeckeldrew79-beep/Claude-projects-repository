@@ -5851,3 +5851,37 @@ The scheme surfaced only after a handful of Haigler's original real estate inves
 Haigler pleaded guilty to wire fraud on July 14, 2024, and was sentenced on February 17, 2026, to 33 months in federal prison, to be followed by two years of supervised release. His case is a reminder that a position of trust inside a religious community — treasurer, sole signatory, the person everyone assumes is handling the books correctly because no one else is checking — creates exactly the kind of unsupervised access that lets embezzlement go undetected for years, and that a church or nonprofit's finances benefit from the same basic control any well-run organization relies on: more than one person with eyes on the accounts.`,
   },
 );
+
+NotoriousAF.push(
+  {
+    title: "Carter Reese and the Forged Modern Art Sold as the Real Thing",
+    slug: 'carter-reese-berks-county-counterfeit-art-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://www.justice.gov/usao-edpa/pr/berks-county-man-pleads-guilty-art-fraud-scheme-admits-selling-counterfeit-artworks',
+    body: `Carter Reese, 77, of the Reading, Pennsylvania area in Berks County, spent roughly two years — from February 2019 to March 2021 — selling artwork he represented as genuine, original pieces by major 20th-century artists: Pablo Picasso, Andy Warhol, Jean-Michel Basquiat, Keith Haring, Francis Bacon, Joan Miró, Roy Lichtenstein, Jean Cocteau, and Fernand Léger among them. According to the U.S. Attorney's Office for the Eastern District of Pennsylvania, Reese knew the pieces were fake the entire time.
+
+Reese sourced the counterfeit works cheaply and, prosecutors said, manufactured fraudulent affidavits and provenance documents — the paper trail collectors rely on to establish that a work is authentic and legitimately owned — to make the pieces look like they had genuine histories. One buyer, Christine Oaklander, told reporters she put $47,000 into pieces Reese sold her and that her brother separately invested $15,000; she later said of Reese, "You conned me into acting as your front person," describing how he'd used her credibility to help move the fakes to other buyers. The FBI's Art Crime Team, working out of its Philadelphia and Miami field divisions, investigated the case.
+
+Reese pleaded guilty to one count of wire fraud and one count of mail fraud in May 2025. U.S. District Judge Jeffrey L. Schmehl sentenced him in September 2025 to 60 days in prison followed by two years of supervised release, including four months of home detention, along with a $50,000 fine, 100 hours of community service, and an order to pay $186,125 in restitution to his victims.
+
+Reese's case is a reminder that a confident seller's own paperwork — affidavits, letters of provenance, whatever documentation accompanies a piece — is not independent verification of anything; it's only as trustworthy as the person who wrote it. Authenticating a work attributed to a well-known artist means going to an independent authority — a recognized catalogue raisonné, the artist's foundation, or a qualified third-party appraiser with no financial stake in the sale — before money changes hands, not after.`,
+  },
+);
+
+NotoriousAF.push(
+  {
+    title: 'Donald Wray Rodgers and the Three Bridges Trading Fund Ponzi Scheme',
+    slug: 'donald-rodgers-three-bridges-trading-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-wdtn/pr/collierville-commodity-trader-sentenced-51-months-2000000-investment-fraud-scheme',
+    body: `Donald Wray Rodgers, of Collierville, Tennessee, ran a commodity pool called Three Bridges Trading Fund, LLC, pitching it to acquaintances and investors around the country as a successful futures-trading fund under his management. Between January and November 2022, he raised at least $2 million from more than 50 participants in multiple states based on that pitch, according to the U.S. Attorney's Office for the Western District of Tennessee and a related civil complaint filed by the Commodity Futures Trading Commission.
+
+Neither the fund's track record nor its safety was real. Rodgers's actual trading in commodity futures was losing money, prosecutors and the CFTC say, but the monthly account statements he sent participants were doctored to show the fund steadily growing instead. The CFTC's complaint further alleges Rodgers commingled pool funds with his own money, directed some participants to wire money straight to his personal account, and — in the manner of a Ponzi scheme — used money from newer participants to pay out some of the earlier ones, all while operating as an unregistered commodity pool operator with no CFTC registration at all.
+
+Rodgers pleaded guilty to wire fraud in December 2023, and on March 21, 2024, U.S. District Judge Thomas L. Parker sentenced him to 51 months in federal prison, to be followed by one year of supervised release. Separately, the CFTC's civil enforcement action against Rodgers and Three Bridges — seeking disgorgement, civil penalties, restitution, and permanent trading and registration bans — was filed in June 2024 and remained pending as of this writing.
+
+Rodgers's case is a reminder that a fund's account statements are only as reliable as the person producing them, and that "unregistered" isn't a technicality: the CFTC maintains a public, searchable database of registered commodity pool operators specifically so an investor can check, in minutes, whether the person asking for their money is who — and what — they claim to be, before a single dollar is wired.`,
+  },
+);
