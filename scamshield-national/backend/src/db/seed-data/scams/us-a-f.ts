@@ -6361,3 +6361,15 @@ UsAF.push({
     country: 'US',
     state: 'CT',
 });
+
+UsAF.push({
+    name: 'Florida "Rebranded" Moving Broker Fraud (NYC Holdings/Navistar Van Lines)',
+    slug: 'florida-navistar-van-lines-rebranded-moving-broker-fraud',
+    description: `The Department of Transportation's Office of Inspector General, working with the Florida Attorney General's Consumer Protection Division, announced a civil settlement on February 10, 2026 with NYC Holdings, LLC, Navistar Van Lines, LLC, and their owner, Zane Taranto, over a household-goods moving scheme that ran on a distinct evasion tactic: rather than operating a single company long enough to accumulate a damaging complaint history, investigators say Taranto advertised and sold moving and moving-broker services to consumers in Florida and nationwide through a rotating set of company names, so that mounting complaints, negative reviews, and regulatory scrutiny against one brand could be shed by simply switching customers to the next one. The complaint alleged the entities engaged in deceptive and unfair trade practices in how the moving services were marketed and sold. NYC, Navistar, and Taranto, treated as a single entity under the settlement, agreed to pay $1,450,833 in civil penalties, $318,984 earmarked for consumer restitution, and $64,241 in legal fees to the Florida Attorney General's Office, for a total of $1,834,058 — one of several similar rebranded-mover settlements DOT-OIG and Florida have pursued in 2026. Because a mover's poor track record under an old name doesn't automatically follow it to a freshly registered one, consumers researching a moving company should look up its actual USDOT and MC registration numbers in the Federal Motor Carrier Safety Administration's SAFER database, check whether the same officers, address, or phone number appear under a different company name with its own separate complaint history, get a written, itemized in-home or video estimate rather than a phone quote, and avoid any mover that pushes a large upfront deposit before a single box has been packed.`,
+    categorySlug: 'home-improvement-solar',
+    alertLevel: 'medium',
+    sources: ['U.S. Department of Transportation Office of Inspector General', "Florida Attorney General's Office, Consumer Protection Division"],
+    sourceUrl: 'https://www.oig.dot.gov/library-item/47151',
+    country: 'US',
+    state: 'FL',
+});
