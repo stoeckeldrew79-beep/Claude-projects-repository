@@ -12149,4 +12149,26 @@ International.push(
     sources: ['The Japan Times'],
     sourceUrl: 'https://www.japantimes.co.jp/news/2024/11/28/japan/crime-legal/tokyo-swindlers-case/',
   },
+  {
+    name: 'Australian "Pig Butchering" Romance-Investment Scam',
+    slug: 'australia-pig-butchering-romance-investment-scam',
+    description:
+      'Rather than a dating app, contact typically starts with an unsolicited "wrong number" text or cold message on WhatsApp or another messaging app, with the sender blaming the mix-up on "fate" before drawing the recipient into ordinary conversation. Over weeks or months the offender — often working from a structured script the AFP describes as running through four phases, "packaging," "raising," "killing," and "cash out" — builds what feels like a genuine friendship or romance before introducing a supposedly can\'t-miss cryptocurrency, stocks, or forex opportunity and walking the victim through opening an account on a fake trading platform that displays steadily growing fabricated balances, only to block withdrawal behind a "fee" or "tax" once real money is on the line. The AFP names this pattern "pig butchering" — after fattening a victim before the payout — and says it is distinct from a standalone romance scam or a standalone investment scam because it deliberately fuses both across a drawn-out, scripted grooming process; the agency estimated $40 million was lost to romance scams in 2022 alone, equivalent to about $4,500 lost every hour, warning the true figure is likely far higher since many victims are too embarrassed to report it.',
+    categorySlug: 'romance-scams',
+    country: 'AU',
+    alertLevel: 'high',
+    sources: ['Australian Federal Police (AFP)'],
+    sourceUrl: 'https://www.afp.gov.au/news-centre/media-release/pig-butchering-scam-targeting-australians-afp-warns-lonely-hearts-be-wary',
+  },
+  {
+    name: 'Fake ASD Australian Cyber Security Centre (ACSC) Impersonation Scam',
+    slug: 'australia-fake-asd-acsc-impersonation-scam',
+    description:
+      'Scammers send emails or make phone calls dressed up with the real Australian Signals Directorate (ASD) Australian Cyber Security Centre (ACSC) logo and signature block, falsely claiming the agency helped develop, fund, or endorse a product or service — most often a cryptocurrency trading platform — to lend it false credibility. A separate, more aggressive version of the same impersonation instead threatens the recipient, falsely claiming their IP address was used to access illegal material including child exploitation content, pressuring them to stay on the call and comply rather than hang up. Either version then pushes the target to hand over personal or banking information, download a supposed "antivirus" program, or install a remote access tool. The ACSC states it will never contact anyone this way, will never provide an alternative phone number to call back on, will never ask for personal information over email or phone, and will never encourage installing antivirus software or remote access tools — anyone unsure whether a message is genuine is advised to call the agency directly on 1300 CYBER1 (1300 292 371) rather than any number given in the message itself.',
+    categorySlug: 'government-impersonation',
+    country: 'AU',
+    alertLevel: 'high',
+    sources: ['Australian Cyber Security Centre (ACSC) / Australian Signals Directorate (ASD)'],
+    sourceUrl: 'https://www.cyber.gov.au/about-us/view-all-content/alerts-and-advisories/email-scammers-impersonating-asds-acsc',
+  },
 );
