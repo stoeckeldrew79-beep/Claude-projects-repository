@@ -3961,3 +3961,22 @@ Announcing the sentences, Acting U.S. Attorney Jay R. Combs said that "transnati
 Popnen's case is a reminder that the same syndicate can profitably run several different scam types at once — a romance con here, a spoofed executive email there, a false unemployment claim somewhere else — because the actual product being sold in all of them is identical: a fabricated story urgent enough that a victim sends money before stopping to independently verify it.`,
   },
 );
+
+NotoriousNS.push(
+  {
+    title: 'Shiloh Boone Lasater, Tie Glenn Lasater, and the Real Estate Fund Regulators Say Hid $100 Million in Defaults',
+    slug: 'shiloh-tie-lasater-lasater-capital-emergency-order',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.ssb.texas.gov/news-publications/texas-state-securities-board-enters-emergency-order-against-southlake-real-estate',
+    body: `Note: this entry describes allegations contained in a Texas State Securities Board emergency cease-and-desist order, not a criminal conviction or a finding proven in court. The order's allegations have not been adjudicated, and the underlying investigation is described by the TSSB as ongoing.
+
+Shiloh Boone Lasater and Tie Glenn Lasater ran Lasater Capital, LLC, a Southlake, Texas-based firm marketing a real estate investment vehicle called Lasater RE Fund 14, pitched to investors as a diversified play on multi-family and other real estate assets. According to an emergency cease-and-desist order the Texas State Securities Board entered on June 9, 2026, the fund was targeting roughly $10 million in commitments and had already raised approximately $5.6 million from more than 50 investors by promoting quarterly distributions, equity appreciation, and returns as high as 20 percent.
+
+What the order alleges investors weren't told is the more consequential part of the story. TSSB's Enforcement Division says Lasater Capital and its principals concealed material adverse facts about KeyCity Capital, LLC and other entities they controlled and that were affiliated with the fund — including multiple bankruptcies among those affiliated entities, loan defaults exceeding $100 million, foreclosures, a court-appointed receiver installed over a Dallas multifamily property tied to the group, and pending investor lawsuits accusing the Lasaters and their companies of fraud, misrepresentation, elder abuse, and securities-law violations. None of that, the order alleges, was disclosed to the people being asked to hand over money for Fund 14.
+
+The emergency order immediately bars Lasater Capital, KeyCity Capital, and the two named principals from offering or selling securities in Texas while the investigation continues. "Investors are entitled to all material information when evaluating investment opportunities," said Jeramy Heintz, the TSSB's Director of Enforcement, in announcing the order.
+
+The case is a live illustration of why "diversified" and "affiliated entities" are phrases worth pausing on rather than skimming past: a real estate fund's marketing materials can describe the properties it plans to buy in detail while saying nothing at all about the financial condition of the sister companies and principals actually running the operation — condition that, if the regulator's allegations hold up, included over $100 million in defaults investors were never told about before they wired their money.`,
+  },
+);
