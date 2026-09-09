@@ -6429,3 +6429,27 @@ UsAF.push({
     country: 'US',
     state: 'NC',
 });
+
+UsAF.push({
+    name: 'Arizona Board of Cosmetology and Utility Impersonation Scam',
+    slug: 'arizona-cosmetology-board-srp-impersonation-scam',
+    description: `Scammers spoofed caller ID to display "Board of Cosmetology" when phoning nail salons in the Phoenix and Tucson areas, falsely telling salon owners they were required to attend a state-mandated cosmetology class and had to pay $500 to $1,500 on the spot to avoid losing their license, then instructed victims to load the money onto a Green Dot prepaid card bought at a nearby CVS and read the card's account number back over the phone. A related version of the same operation instead posed as Salt River Project, the Phoenix-area utility, warning a salon it had thirty minutes to pay roughly $700 in overdue charges before its power was shut off; salon owner Beana Tran recalled being told, "They said you have half an hour to pay the bill, otherwise we're going to turn your electric off." The Arizona Attorney General's Office confirmed it was monitoring the scam and warned that a real Arizona State Board of Cosmetology member never contacts a licensee or salon this way to demand payment, while SRP does not disconnect service same-day over an unverified phone call. Salon owners who receive one of these calls are advised to hang up and call the Board of Cosmetology or SRP directly using a number looked up independently, never one supplied by the caller, before sending any payment or reading off a prepaid card number.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ["Arizona Attorney General's Office", 'FOX 10 Phoenix'],
+    sourceUrl: 'https://www.fox10phoenix.com/news/scams-targeting-nail-salons-prompt-ag-warning',
+    country: 'US',
+    state: 'AZ',
+});
+
+UsAF.push({
+    name: 'Albuquerque International Balloon Fiesta Ticket and Vendor Scam',
+    slug: 'albuquerque-balloon-fiesta-ticket-scam',
+    description: `Every October, as the nine-day Albuquerque International Balloon Fiesta draws hundreds of thousands of visitors to watch hundreds of hot air balloons launch from Balloon Fiesta Park, third-party resellers list marked-up and outright counterfeit admission tickets on social media and classifieds sites — event organizers say some fiesta-goers have paid $50 for a ticket worth $15, while others have paid a couple hundred dollars for that same $15 ticket, with no guarantee the ticket will actually scan at the gate. A separate scheme targets the businesses that keep the event running: scammers send prospective food, merchandise, and craft vendors fake solicitation emails, contracts, and invoices designed to look like official Balloon Fiesta or Kawa Management correspondence, aiming to collect a bogus vendor or concession fee before the target realizes no such offer was ever made. Balloon Fiesta officials state plainly that the only place to buy a legitimate ticket online is balloonfiesta.com, that all real vendor communication comes only from Balloon Fiesta or Kawa Management, and that anyone who receives a suspicious ticket offer, email, or contract should not pay and should instead call the event directly at 505-821-1000 to verify it before sending any money.`,
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'medium',
+    sources: ['Albuquerque International Balloon Fiesta', 'KOB 4'],
+    sourceUrl: 'https://www.kob.com/new-mexico/balloon-fiesta-scams-floating-in-the-air/',
+    country: 'US',
+    state: 'NM',
+});
