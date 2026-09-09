@@ -4065,3 +4065,22 @@ The U.S. Attorney's Office for the Southern District of New York and the SEC ann
 The case is a reminder that a Ponzi scheme doesn't need a hedge fund or a cryptocurrency exchange to work — it just needs an asset ordinary investors will never personally inspect. A water vending machine in a strip mall two states away is, for an investor who never visits it, no more verifiable than an offshore account no one can audit; the promise of something physical and mundane made the pitch feel safer than it ever actually was.`,
   },
 );
+
+NotoriousNS.push(
+  {
+    title: 'Steven Palladino and the West Roxbury Family That Ran a Loan-Sharking Ponzi Scheme as Viking Financial',
+    slug: 'steven-palladino-viking-financial-group-ponzi',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-22694',
+    body: `Steven Palladino was already a convicted swindler — he'd previously been accused of cheating his own 94-year-old aunt out of real estate — when he and his wife, Lori, set up Viking Financial Group, Inc. in West Roxbury, Massachusetts, in 2007, with their adult son handling the incorporation paperwork. Viking's pitch to investors was straightforward and, on paper, plausible: hand over your money, and Viking would use it to make short-term, high-interest "hard money" loans to real-estate developers and small businesses that couldn't get financing from a conventional bank. Investors were promised the return of their principal plus interest, sometimes described in double-digit annual terms, with the loans supposedly secured by first liens on the underlying properties.
+
+According to the SEC's complaint, that description bore little resemblance to what Viking actually did. Since at least April 2011, the company raised at least $5.5 million from roughly 30 investors, but made very few genuine loans — instead using new investors' money largely to pay off earlier investors, the classic rob-Peter-to-pay-Paul mechanics of a Ponzi scheme, while diverting substantial sums to the Palladino family's own lifestyle: cash withdrawals, gambling trips to Las Vegas, vacations, luxury vehicles, and private-school tuition. Massachusetts prosecutors, pursuing a parallel state criminal case, put the total taken from investors closer to $10 million and added a further detail: nearly $350,000 of investor money went toward getting Steven Palladino himself off probation stemming from that earlier case involving his elderly aunt — one fraud, in effect, funding the cleanup of another.
+
+The SEC moved for an emergency asset freeze against Palladino and Viking in April 2013, while the Suffolk County District Attorney's office brought criminal charges that included conspiracy, larceny, being "an open and notorious thief," and larceny from an elderly person — a charge reflecting that some of Viking's victims were themselves older investors drawn in by the promise of steady, secured interest income. On January 21, 2014, Palladino pleaded guilty in Suffolk Superior Court and was sentenced to 10 to 12 years in state prison, followed by five years of probation, along with an order to pay restitution to his victims.
+
+Palladino's legal troubles didn't end with the state sentence. Even after the SEC's civil case had frozen Viking's assets, Palladino and his family were found to have repeatedly violated the freeze order, moving and concealing money the court had explicitly told them not to touch. In August 2015, a federal judge sentenced him to two additional years in federal prison for criminal contempt over those violations — a rare case of a Ponzi operator drawing extra prison time not for the underlying fraud itself, but for continuing to defy the court even after getting caught.
+
+The Viking Financial case is a smaller-scale fraud than the billion-dollar schemes that dominate national headlines, but it captures a durable pattern in local investment fraud: an operator with an existing history of exploiting a vulnerable family member pivots into a "safe," asset-backed-sounding investment vehicle — hard-money real estate lending is a legitimate business model — and uses that legitimacy as camouflage for an ordinary Ponzi scheme, all while treating a federal court's own asset freeze as just one more obstacle to route around rather than a stop sign.`,
+  },
+);
