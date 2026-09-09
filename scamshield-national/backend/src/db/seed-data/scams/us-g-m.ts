@@ -4931,3 +4931,15 @@ UsGM.push({
     sourceUrl: 'https://www.nomorobo.com/medicare-fraud-alert-fake-national-database-robocalls-flooding-phones/',
     country: 'US',
 });
+
+UsGM.push({
+    name: `Massachusetts Fraudulent "Mimic" Unemployment Website Scam`,
+    slug: 'massachusetts-mimic-unemployment-website-scam',
+    description: `The Massachusetts Attorney General's Office and the Executive Office of Labor and Workforce Development warned residents about "mimic sites" — third-party websites built to look like the state's real UI Online unemployment portal, often registered under an ordinary .com address rather than the official mass.gov domain — designed to trick claimants filing for or managing unemployment benefits into entering their Social Security number along with their actual UI Online username and password. Because the fake site captures a claimant's genuine login credentials rather than just fabricated personal details, a scammer can then log directly into the real UI Online account afterward and redirect the claimant's benefit payments to a bank account the scammer controls. The Department of Unemployment Assistance separately confirmed reports of scammers directly soliciting a claimant's UI Online password by phone or email, something the agency states it never legitimately does. Officials advise claimants to reach UI Online only by typing mass.gov directly into a browser rather than following a search result or unsolicited link, to review their claim status and payment history weekly for any change they did not make, and to report a suspicious site or contact to DUA at 877-626-6800 or to the Attorney General's Office of Consumer Affairs and Business Regulation.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'high',
+    sources: ["Massachusetts Attorney General's Office", 'Massachusetts Executive Office of Labor and Workforce Development'],
+    sourceUrl: 'https://www.mass.gov/news/executive-office-of-labor-and-workforce-development-and-attorney-generals-office-caution-against-fraudulent-unemployment-websites',
+    country: 'US',
+    state: 'MA',
+});

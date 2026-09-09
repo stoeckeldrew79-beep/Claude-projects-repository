@@ -4589,3 +4589,15 @@ UsNS.push({
     sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26558',
     country: 'US',
 });
+
+UsNS.push({
+    name: 'Wandering Stardust Collective Wedding Photography Deposit Scheme',
+    slug: 'pennsylvania-wandering-stardust-collective-wedding-photography-scheme',
+    description: `Pennsylvania Attorney General Dave Sunday sued Philadelphia-based Christina Hernandez Artistry LLC, doing business as Wandering Stardust Collective, and owner Christina Garcia on June 26, 2026, alleging the business took wedding photography and videography deposits and full payments from engaged couples, then failed to deliver the promised photos and videos or refund the money. According to the complaint, Garcia marketed herself as the photographer who would personally shoot each wedding, but in a number of instances double- or triple-booked herself against other clients' wedding dates and either sent a substitute photographer or canceled at the last minute after the couple had already paid; the Attorney General's office estimates consumer losses of at least $75,000. "A wedding day is one of the most precious and cherished moments in the lives of a couple, and this business darkened those days by neglecting appointments," Sunday's office said in announcing the suit, which seeks full restitution for affected couples, a permanent ban on the defendants operating a Pennsylvania consumer-facing business, and civil penalties of up to $3,000 per violation involving a victim age 60 or older. Pennsylvania's case is part of a wider wave of state consumer-protection lawsuits against wedding vendors nationwide as couples increasingly pay thousands of dollars up front, sometimes a year or more before the event, for a single vendor to show up on one irreplaceable day. Before paying a large deposit to any wedding vendor, couples can check a business's standing and complaint history with the state Attorney General's Bureau of Consumer Protection, insist on a written contract that spells out a refund policy, and avoid any vendor who pushes for the full balance far in advance of the wedding date.`,
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'medium',
+    sources: ['Pennsylvania Office of Attorney General'],
+    sourceUrl: 'https://www.attorneygeneral.gov/taking-action/ag-sunday-announces-lawsuit-against-philadelphia-wedding-photographer-who-no-showed-or-failed-to-provide-photos-and-videos/',
+    country: 'US',
+    state: 'PA',
+});
