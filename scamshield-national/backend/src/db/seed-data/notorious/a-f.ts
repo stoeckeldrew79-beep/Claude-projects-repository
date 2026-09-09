@@ -5885,3 +5885,20 @@ Rodgers pleaded guilty to wire fraud in December 2023, and on March 21, 2024, U.
 Rodgers's case is a reminder that a fund's account statements are only as reliable as the person producing them, and that "unregistered" isn't a technicality: the CFTC maintains a public, searchable database of registered commodity pool operators specifically so an investor can check, in minutes, whether the person asking for their money is who — and what — they claim to be, before a single dollar is wired.`,
   },
 );
+
+NotoriousAF.push(
+  {
+    title: 'Dennise Merdjanian and the $45.9 Million Fake Student Loan Forgiveness Scheme',
+    slug: 'dennise-merdjanian-superior-servicing-student-loan-scam',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2026/07/student-loan-forgiveness-scammer-permanently-banned-debt-relief-industry-telemarketing',
+    body: `Dennise Merdjanian operated Superior Servicing LLC, a Nevada-based company that, starting no later than January 2023, cold-called and mailed personalized letters to student loan borrowers around the country claiming to be affiliated with the U.S. Department of Education. According to a complaint filed by the Federal Trade Commission in November 2024 in the U.S. District Court for the District of Nevada, the pitch promised things borrowers desperately wanted to hear — loan consolidation, reduced interest rates, lower monthly payments, and in some cases full forgiveness — none of which Merdjanian's operation actually had any special ability to deliver.
+
+The FTC's complaint alleges Superior Servicing charged borrowers an illegal upfront fee of as much as $899 before performing any service, followed by ongoing monthly payments that the company falsely represented were being applied toward the borrower's actual federal student loan debt. In reality, the complaint alleges, the money went to Merdjanian and her co-defendants, Eric Caldwell and David Hernandez, rather than to loan servicers — a structure the FTC's Telemarketing Sales Rule specifically prohibits for debt-relief services precisely because it lets an operator collect money for results a borrower has no way to verify until it's too late. Altogether, the FTC says the operation took more than $45.9 million from consumers.
+
+A federal court temporarily halted the operation and froze its assets in November 2024. Caldwell and Hernandez settled with the FTC first, with orders entered against them in September 2025 permanently banning them from the debt-relief industry — Caldwell also barred from telemarketing outright, Hernandez barred from any further Telemarketing Sales Rule violations. Merdjanian settled separately: on July 21, 2026, the court entered a proposed order permanently banning her from the debt-relief and telemarketing industries and imposing a monetary judgment of $45,959,012.69, joint and several with her co-defendants. Because Merdjanian could not pay that amount, the judgment was largely suspended based on a sworn financial disclosure, with $184,731.71 due immediately from funds already held in escrow, along with the surrender of several corporate bank accounts and a 2022 Tesla Model Y to a court-appointed receiver — the full $45.9 million becomes collectible if she is later found to have misrepresented her finances.
+
+The case is a reminder that any company offering to reduce or forgive federal student loan debt for an upfront fee is not operating the way federal loan servicing actually works: the Department of Education and its official contracted servicers never charge a fee to consolidate a loan, lower a payment, or apply for forgiveness, and a caller who claims otherwise — however official the letterhead looks — is describing a business model the law does not allow.`,
+  },
+);
