@@ -5982,3 +5982,37 @@ The civil judgment did not end the case. A federal grand jury in the Central Dis
 Saffron's case illustrates a recurring shape in crypto-Ponzi fraud: the more technical and impressive the claimed mechanism — an algorithm executing 17,000 trades an hour, an unregistered pool promising triple-digit returns — the less likely investors are to ask the one question that would have unraveled it, which is whether anyone outside the company had ever actually verified the bot existed.`,
   },
 );
+
+NotoriousAF.push(
+  {
+    title: `Dawn Bennett, the Radio Financial Guru Whose $20 Million Fraud Funded the Airtime to Find New Victims`,
+    slug: 'dawn-bennett-djb-holdings-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-md/pr/former-financial-advisor-sentenced-20-years-federal-prison-her-conviction-17-federal',
+    body: `Dawn Bennett built a public reputation as a Washington-area financial expert years before federal prosecutors identified her as a fraudster. She ran an SEC-registered investment advisory firm, Bennett Group Financial Services, and hosted a nationally syndicated radio program, "Financial Myth-Busting," on which she dispensed investing advice to a loyal audience of listeners. In 2013 she founded a second venture, DJB Holdings LLC, doing business online as DJBennett.com — an e-commerce retailer of high-end women's sportswear that she began promoting heavily on her own show.
+
+Between December 2014 and April 2017, Bennett and her chief financial officer, Bradley Mascho, solicited more than 40 investors — many of them drawn from her radio audience — to put upward of $20 million into DJB Holdings through promissory and convertible notes that promised a 15 percent annual return. Prosecutors said the retail business was never remotely capable of generating those returns. Instead, Bennett used a substantial share of the incoming money to pay "returns" to earlier investors in classic Ponzi fashion, to cover personal expenses, and — most strikingly — to buy the very radio airtime she was using to recruit her next round of victims, turning the fraud into a self-financing recruitment loop.
+
+The SEC filed a civil fraud suit, and the U.S. Attorney's Office for the District of Maryland brought a parallel 17-count federal criminal case charging Bennett with conspiracy, securities fraud, wire fraud, bank fraud, and making false statements on a loan application. A jury convicted her on all charges on October 17, 2018, after deliberating for less than five hours. In the run-up to trial, prosecutors said, Bennett paid a website operator to arrange for priests in India to perform religious ceremonies meant to ward off the federal investigation and sway her case's outcome — a detail confirmed in the Justice Department's own sentencing announcement and widely reported afterward.
+
+On July 31, 2019, U.S. District Judge Paula Xinis sentenced Bennett to 20 years in federal prison and five years of supervised release, and ordered her to pay more than $14.5 million in restitution and forfeit over $14.3 million in assets. Mascho, who pleaded guilty to conspiracy and making a false statement, was separately sentenced to 30 months in prison and ordered to pay over $4.8 million in restitution. Bennett's radio-fed pipeline of investors is a reminder that a fraud's marketing budget and its victim pool can be the exact same dollars, recycled.`,
+  },
+);
+
+NotoriousAF.push(
+  {
+    title: `John Clifton Davies, the Fugitive Fraudster Behind the Fake Billionaire Investor "John Bernard"`,
+    slug: 'john-clifton-davies-john-bernard-fake-investor',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://krebsonsecurity.com/2020/10/promising-infusions-of-cash-fake-investor-john-bernard-walked-away-with-30m/',
+    body: `Long before he became "John Bernard," John Clifton Davies was already a convicted fraudster with a habit of reinventing himself. For roughly six years, Davies ran a series of U.K. companies that claimed to offer insolvency and debt-restructuring services to financially struggling businesses, then simply took what money those clients had left. Charged with fraud in October 2013, he skipped bail and fled the country; a British court convicted him in absentia in March 2015 on eleven counts of fraud and one count of dishonestly obtaining services, tied to losses of more than £780,000, and sentenced him to eight years in prison he has never served. Separately, and years earlier, Davies had been investigated over the death of his third wife during their honeymoon in India — an inquiry that ended with no charges against him.
+
+Rather than lie low, Davies resurfaced as "John Bernard," the persona of a semi-retired, Swiss-based technology billionaire supposedly eager to pour millions into promising startups. Operating through an entity he called "The Private Office of John Bernard," he approached cash-hungry tech companies — and, on at least one documented occasion, a Norwegian green-shipping venture — with offers of multimillion-dollar investment, contingent on the target first paying tens of thousands of dollars in upfront "due diligence" fees. Those fees were verified by a firm called The Inside Knowledge, ostensibly an independent advisory hired to vet the deal, but in fact secretly owned and controlled by Davies himself.
+
+Investigative journalist Brian Krebs, after interviewing more than a dozen of Davies' victims, estimated in 2020 that the Bernard persona alone had extracted roughly $30 million in due-diligence fees from dozens of technology companies worldwide, with at least one victim out more than $1 million. Davies worked with associates who used aliases of their own — including "Katherine Miller," identified as Moldovan attorney Ecaterina Dudorenko, who posed as his lawyer — and both Dudorenko and a second associate, Sergey Pankov, had already been convicted in an unrelated 2018 cigarette-smuggling case and fled before sentencing.
+
+Exposure has not ended Davies' career. Ukrainian authorities briefly detained him in 2018, but he evaded further consequences, and by 2022 Krebs's continued reporting found him operating under yet another identity, "Alan John Mykhailov," fronting a software-outsourcing company called CodesToYou whose corporate structure traced back to the same network of associates and shell firms used in the Bernard scheme. As of the most recent reporting, John Clifton Davies remained a fugitive from his 2015 U.K. sentence, and no dedicated criminal case had been brought against him over the Bernard fraud itself — his story stands largely on the public record built by journalists rather than prosecutors.`,
+  },
+);

@@ -6080,3 +6080,20 @@ The Mozido case never reached a jury. On January 19, 2021, his last full day in 
 Liberty's case is one of the clearer illustrations available of the limits of a pardon: it can erase a criminal conviction and end a federal prosecution before trial, but it cannot rewrite the sworn allegations and evidence a civil regulator has already put on the public record, and it does nothing to return the money investors say they lost.`,
   },
 );
+
+NotoriousGM.push(
+  {
+    title: `Kevin Merrill, Jay Ledford, and the $364 Million Fake Debt-Portfolio Ponzi Scheme`,
+    slug: 'kevin-merrill-jay-ledford-debt-portfolio-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-md/pr/final-defendant-pleads-guilty-550-million-ponzi-scheme-one-largest-ever-charged-maryland',
+    body: `Kevin Merrill and Jay Ledford pitched a business that sounded almost boring in its plausibility: buying and reselling portfolios of consumer debt — credit card balances, auto loans, and similar obligations — purchased cheaply from banks and collection agencies and then resold or collected on for a profit. It's a real industry, and for a while Merrill and Ledford, operating through entities including Global Credit Recovery and Delmarva Capital, actually did some of it. But starting around 2013, prosecutors said, the two men built an elaborate fraud on top of that legitimate-sounding foundation, one that would eventually become one of the largest Ponzi schemes ever charged in Maryland.
+
+Ledford, a certified public accountant, manufactured fake sales agreements, doctored quarterly earnings reports, and fabricated tax returns to make the debt-portfolio business look far larger and more profitable than it was. Merrill used those documents to solicit more than 230 investors across the country, telling them their money was buying specific debt portfolios that in many cases didn't exist. A third man, Cameron Jezierski, helped run the scheme's day-to-day mechanics. Rather than invest the incoming money as promised, the men paid "returns" to earlier investors using cash from new ones — the defining structure of a Ponzi scheme — while diverting at least $85 million of investor funds to personal spending that included roughly two dozen luxury and exotic cars (among them four Ferraris, four Lamborghinis, and a Bugatti Veyron), multiple multimillion-dollar homes, a 23-carat diamond bracelet, and a stake in a private jet.
+
+The SEC filed an emergency civil injunctive action in September 2018, and the U.S. Attorney's Office for the District of Maryland brought a parallel criminal case charging all three men with conspiracy and wire fraud. Prosecutors said the scheme ultimately raised more than $364 million. All three pleaded guilty. In October 2019, a federal judge sentenced Merrill to 22 years in prison and Ledford to 14 years, ordering the two of them to pay a combined $189,166,116 in restitution; Jezierski, whose role was smaller, was sentenced to two years and ordered to pay $45,093,384 in restitution.
+
+Federal marshals subsequently auctioned off the seized cars, jewelry, and other assets to help repay victims — a public, made-for-headlines postscript that underscored how much of investors' money never went anywhere near a debt portfolio at all, legitimate or otherwise.`,
+  },
+);
