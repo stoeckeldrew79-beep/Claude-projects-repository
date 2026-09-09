@@ -4046,3 +4046,22 @@ Meredith pleaded guilty in March 2019 to conspiracy to commit wire fraud and hon
 Meredith's case is the necessary companion to Singer's: Singer built and marketed the scheme, but it was a coach getting caught in someone else's investigation, and then choosing to cooperate rather than stay silent, that turned an isolated bribery arrangement between two men into the evidence base for one of the largest college-admissions prosecutions in U.S. history.`,
   },
 );
+
+NotoriousNS.push(
+  {
+    title: 'Ryan Wear and the $275 Million Water Vending Machine Ponzi Scheme',
+    slug: 'ryan-wear-water-station-management-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-sdny/pr/defendants-charged-over-200-million-water-vending-machine-ponzi-scheme-and-related',
+    body: `Ryan Wear ran Water Station Management LLC, a company that pitched itself to everyday investors as a straightforward small-business opportunity: buy a share of a coin- and card-operated purified water vending machine, typically for around $8,500, and collect a cut of the machine's revenue as passive income. The pitch was aimed heavily at retail investors, and prosecutors say Wear and his sales network specifically targeted military veterans through the small-business and franchise-investment circuit, framing the machines as a stable, tangible alternative to the stock market.
+
+According to the SEC and the U.S. Attorney's Office for the Southern District of New York, the tangible part was largely fiction. From September 2016 through September 2023, Wear and his companies are alleged to have raised more than $165 million by selling investment contracts for water machines that, in thousands of cases, either did not exist or had already been sold to other investors under the same promise. Starting in April 2022 and continuing through February 2024, Wear layered a second scheme on top of the first — "Water Station Notes" — raising more than $110 million through notes marketed as secured by water machines that, again, mostly weren't owned by the company or didn't exist at all. Combined, prosecutors say the two schemes raised more than $275 million from over 250 investors, with more than $60 million of that money diverted to Ponzi-like payments to earlier investors and to Wear's other ventures, including unrelated real estate purchases.
+
+A second defendant, Jordan Chirico, is charged separately in a related SEC action. Chirico, a fund portfolio manager and investment adviser, is accused of steering more than $100 million of his own fund's client money into Water Station bonds while concealing that he personally held a financial stake in the company — and, later, that he knew the underlying business was fraudulent — a conflict of interest the SEC says he never disclosed to the investors whose money he was directing.
+
+The U.S. Attorney's Office for the Southern District of New York and the SEC announced parallel criminal and civil charges on August 14, 2025. Wear was charged with one count of securities fraud and one count of wire fraud, each carrying a maximum sentence of 20 years in prison; a federal judge has scheduled his trial for October 2027. As of this writing, the criminal charges against Wear are allegations only, and he has not been convicted.
+
+The case is a reminder that a Ponzi scheme doesn't need a hedge fund or a cryptocurrency exchange to work — it just needs an asset ordinary investors will never personally inspect. A water vending machine in a strip mall two states away is, for an investor who never visits it, no more verifiable than an offshore account no one can audit; the promise of something physical and mundane made the pitch feel safer than it ever actually was.`,
+  },
+);
