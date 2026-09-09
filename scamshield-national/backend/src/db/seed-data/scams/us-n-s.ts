@@ -4375,3 +4375,15 @@ UsNS.push({
     country: 'US',
     state: 'PA',
 });
+
+UsNS.push({
+    name: 'Nashua Man Charged With 20-Year Identity Theft for Medicare, Medicaid, and SNAP Benefits',
+    slug: 'new-hampshire-nashua-gomez-agudelo-decades-long-identity-theft-benefits-fraud',
+    description: `As part of the Justice Department's 2026 National Health Care Fraud Takedown — announced June 23, 2026 and, at 455 defendants charged in connection with more than $6.5 billion in alleged false claims, the largest coordinated health care fraud enforcement action in DOJ history — federal prosecutors in the District of New Hampshire charged 76-year-old Fructoso de Jesus Gomez Agudelo of Nashua with wire fraud, false statements, false statements in health care matters, and aggravated identity theft, alleging he stole a U.S. citizen's identity and used it for more than two decades to apply for and collect over $500,000 in Medicare, Medicaid, Social Security, housing, and SNAP benefits under someone else's name. The same New Hampshire round of charges also caught two other threads of the nationwide sweep: Kakha Bendeliani, 48, and Goga Danelia, 37, both natives of the country of Georgia, were charged with conspiracy to commit money laundering for helping move proceeds of a nearly $3 billion durable-medical-equipment billing scheme on which Medicare and supplemental insurers had already paid out roughly $12.6 million, and Massachusetts pharmacist Rima Gerges-Maalouf, who worked in northern New Hampshire, was charged with diverting prescription pills by cracking open capsules to remove the drugs inside. Special Assistant U.S. Attorney Heather M. Anderson and Assistant U.S. Attorney Alexander S. Chen are prosecuting the Gomez Agudelo case. The case is a reminder that identity theft does not have to be caught quickly to be caught eventually — a stolen Social Security number can be used to build years or decades of false benefit history before investigators notice — which is why periodically requesting a free Social Security earnings statement and checking it for wages, benefits, or addresses that are not one's own is worth doing even when nothing else seems wrong.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'medium',
+    sources: ['U.S. Department of Justice, Criminal Division, Health Care Fraud Unit', "U.S. Attorney's Office for the District of New Hampshire", 'WZID (95.7FM)'],
+    sourceUrl: 'https://www.justice.gov/usao-nh/pr/four-charged-new-hampshire-part-national-health-care-fraud-takedown',
+    country: 'US',
+    state: 'NH',
+});

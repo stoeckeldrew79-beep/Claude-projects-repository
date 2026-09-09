@@ -4656,3 +4656,15 @@ UsGM.push({
     country: 'US',
     state: 'MN',
 });
+
+UsGM.push({
+    name: 'Idaho "Pig Butchering" Romance-Investment Scam Warning',
+    slug: 'idaho-pig-butchering-romance-investment-scam-warning',
+    description: `The Idaho Department of Finance issued a Financial Literacy Tip of the Week on August 27, 2025 warning Idahoans about "pig butchering" scams — a term borrowed from livestock farming for a fraud that spends weeks or months "fattening up" a victim's trust before extracting their money all at once. The scheme typically opens with an unsolicited but seemingly innocuous contact — a text to the "wrong number," a match on a dating app, or a friendly comment on social media — that develops into what feels like a genuine friendship or romance over an extended period, with the scammer investing real time in daily conversation long before money is ever mentioned. Once trust is established, the new "friend" introduces a cryptocurrency or foreign-exchange trading opportunity and walks the victim through opening an account on a professional-looking but entirely fake trading platform, which displays fabricated early profits to build confidence and encourage larger deposits; victims are frequently coached to take out loans or drain retirement and bank accounts to keep investing, and the platform freezes withdrawals or the scammer vanishes once the victim tries to cash out. Citing outside research that put global losses to pig-butchering schemes at more than $75 billion over the preceding four years, the Department of Finance urged Idahoans never to move money into an investment platform introduced by someone they have only met online, to independently verify any trading platform or company through the Department's licensing lookup before depositing funds, and to treat any online relationship that gradually turns into an investment pitch as a warning sign regardless of how long the relationship has developed.`,
+    categorySlug: 'cryptocurrency-scams',
+    alertLevel: 'medium',
+    sources: ['Idaho Department of Finance'],
+    sourceUrl: 'https://www.finance.idaho.gov/pressrelease/financial-literacy-tip-of-the-week-warning-signs-for-pig-butchering-scams-targeting-idahoans/',
+    country: 'US',
+    state: 'ID',
+});

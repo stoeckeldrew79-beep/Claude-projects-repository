@@ -6192,3 +6192,15 @@ UsAF.push({
     country: 'US',
     state: 'CO',
 });
+
+UsAF.push({
+    name: 'Arkansas Small Business Phishing, Fake-Invoice, and Impersonation Scam Alert',
+    slug: 'arkansas-small-business-phishing-invoice-impersonation-alert',
+    description: `Arkansas Attorney General Tim Griffin issued a consumer alert on June 9, 2025 warning that scammers are increasingly targeting small businesses rather than just individual consumers, and walked through five schemes his office was fielding complaints about: phishing calls, texts, and emails that impersonate a trusted contact to harvest login credentials and company data, which the alert called "a serious threat of identity theft, often disguised as communication from someone you might know"; tech-support scams that spoof caller ID to look like a legitimate software vendor before talking an employee into handing over remote access to a work computer; fake invoices billed for products or services a business never ordered, aimed at accounts-payable staff who pay first and ask questions later; business email compromise, in which a fraudster registers a lookalike domain or hijacks a real vendor's inbox to send an invoice that appears to come from an actual supplier, banking on the fact that "email addresses can be deceptively altered by just one letter"; and business impersonation, where scammers clone a real company's website to intercept customer payments and steal customer data. Griffin's office recommended that businesses train staff to verify any unusual payment, credential, or gift-card request through a second communication channel — a phone call to a number already on file, never one provided in the suspicious message itself — keep antivirus software and staff training current, and report suspected scams to the Arkansas Attorney General's office, the FTC, or the FBI's Internet Crime Complaint Center (IC3).`,
+    categorySlug: 'business-email-compromise',
+    alertLevel: 'medium',
+    sources: ['Arkansas Attorney General (Tim Griffin)'],
+    sourceUrl: 'https://arkansasag.gov/news-release/consumer-alert-scammers-are-targeting-small-businesses-in-arkansas/',
+    country: 'US',
+    state: 'AR',
+});
