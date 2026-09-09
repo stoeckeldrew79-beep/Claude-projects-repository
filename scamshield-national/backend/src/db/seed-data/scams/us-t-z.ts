@@ -2757,3 +2757,15 @@ UsTZ.push({
     country: 'US',
     state: 'TX',
 });
+
+UsTZ.push({
+    name: 'Waxahachie SIM-Swap Cryptocurrency Theft Ring',
+    slug: 'waxahachie-texas-sim-swap-crypto-theft-ring',
+    description: `Chief U.S. District Judge Reed O'Connor sentenced Kimionte Bennett, 30, of Waxahachie, Texas, to 70 months in federal prison on February 28, 2026, and ordered him to pay $1,769,438 in restitution after Bennett pleaded guilty in October 2025 to conspiracy to commit wire fraud for organizing a "SIM swap" scheme that hijacked victims' cell phone numbers to loot their cryptocurrency accounts. Bennett, who was indicted in July 2025, and his co-conspirators used stolen personal information to convince mobile carriers to reassign a victim's phone number onto a SIM card the group controlled; once the swap went through, the conspirators intercepted the SMS-based multi-factor authentication codes victims' banks and crypto exchanges sent to that number and used them to break into accounts and drain digital-asset holdings before the real owner regained phone service. Two co-defendants were sentenced alongside him: Leticia Contreras, 30, of Dallas, received 57 months, and Osvaldo Guajardo, 31, of Houston, received 30 months. One victim told investigators the stolen funds "weren't just digital numbers on a screen" but represented a family's savings and disrupted plans they had built around that money. The Northern District of Texas U.S. Attorney's Office prosecuted the case with Assistant U.S. Attorneys Eric B. Chen, Matthew Weybrecht, and Justin Beck, following an investigation spanning the FBI's Omaha and Dallas field divisions, the FBI's Detroit field office, the FBI's Cyber Division, and the Polk County (Texas) Sheriff's Office — reflecting how a SIM-swap ring built around a handful of Texas defendants can require federal cybercrime resources from multiple states to track down. Anyone whose phone unexpectedly loses signal or shows "no service" without explanation should treat it as a possible sign of an in-progress SIM swap and immediately contact their mobile carrier and any financial or cryptocurrency accounts linked to that number; carriers' port-out or SIM-change PINs, and switching multi-factor authentication from SMS codes to an authenticator app or hardware security key, both close the specific gap this scheme exploited.`,
+    categorySlug: 'account-takeover',
+    alertLevel: 'high',
+    sources: ["U.S. Attorney's Office, Northern District of Texas", 'Hoodline', 'WFAA (Dallas-Fort Worth)'],
+    sourceUrl: 'https://www.justice.gov/usao-ndtx/pr/waxahachie-man-sentenced-70-months-federal-prison-17m-sim-card-swapping-fraud-scheme',
+    country: 'US',
+    state: 'TX',
+});
