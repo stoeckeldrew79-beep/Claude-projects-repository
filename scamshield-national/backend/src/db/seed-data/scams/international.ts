@@ -11574,3 +11574,17 @@ International.push(
     country: 'MR',
   },
 );
+
+International.push(
+  {
+    name: 'Fake Economic Inspector Fee Extortion',
+    slug: 'sao-tome-fake-economic-inspector-fee-extortion',
+    description: `São Toméan news outlet Téla Nón reported that a man in his forties, identified as Gaspar Camblé, posed as an agent of the Direcção de Regulação das Actividades Económicas (Directorate for the Regulation of Economic Activities) to extort money from small merchants in the Mé-Zóchi district, approaching shopkeepers in localities including Trindade, Santana, and Água Izé and telling them they owed fines for supposed commercial infractions. After receiving multiple complaints from operators, the economic police (polícia económica) formed a brigade that tracked him to Capela, catching him in the act of approaching another vendor and demanding payment; inspector Wanderlei Carvalho told the outlet the team "moved to the Capela region where we found this man who had just approached a commercial operator saying he was part of the economic inspection team." Authorities used the case to remind the public that genuine economic-activity inspectors work in uniformed brigades with visible identification rather than alone, and never collect cash fines on the spot.`,
+    categorySlug: 'government-impersonation',
+    sources: ['Téla Nón'],
+    sourceUrl: 'https://www.telanon.info/sociedade/2010/09/13/5266/burlao-faz-se-passar-por-agente-da-direccao-de-regulacao-das-actividades-economicas/',
+    country: 'ST',
+    isHistorical: true,
+    firstRecorded: '2010-09-13',
+  },
+);
