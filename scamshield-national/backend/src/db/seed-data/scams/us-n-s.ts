@@ -4637,3 +4637,15 @@ UsNS.push({
     sourceUrl: 'https://www.ic3.gov/PSA/2026/PSA260901',
     country: 'US',
 });
+
+UsNS.push({
+    name: 'Charlotte "Vehicle Hostage" Predatory Towing Judgment (A1 Towing)',
+    slug: 'north-carolina-a1-towing-predatory-towing-judgment',
+    description: `The North Carolina Department of Justice announced on February 16, 2026 that it had secured a consent judgment against Charlotte tow operator David Jewel Satterfield and his companies, A1 Towing Solutions and Automobile Recovery and Parking Enforcement, in what Attorney General Jeff Jackson's office called the state's first discriminatory-towing case. Building on years of reporting by WBTV that documented Satterfield's trucks disproportionately booting and towing vehicles in majority-Black Charlotte neighborhoods, the Consumer Protection Division and Civil Rights Unit alleged that Satterfield towed and booted vehicles from private lots without the property owner's permission, charged drivers excessive and sometimes invented fees — including bogus DMV charges and fees for delays the driver didn't cause — before releasing their vehicles, retained commercial cargo seized along with towed tractor-trailers, and threatened vehicle owners who objected. The judgment orders Satterfield and his companies to pay $30,000 in restitution to identified victims, with a $110,000 penalty hanging over any future violation, and permanently bars the specific practices at issue: towing without the property owner's advance permission, towing from a private lot that isn't clearly marked with signage, booting a commercial or occupied vehicle without warning, charging fees beyond what state law allows, and threatening a vehicle's owner or driver. "This judgment will force him to pay back the victims and set a clear precedent: we will take you to court," Jackson said, and his office has since pointed to the case in warning other North Carolina towing companies that similar practices will draw the same response. A driver whose car is towed from a lot without clear no-parking signage, who is charged a fee well above what a posted rate or receipt discloses, or who is threatened for questioning a tow, can file a complaint with the North Carolina Attorney General's Consumer Protection Division online at ncdoj.gov or by calling 1-877-5-NO-SCAM.`,
+    categorySlug: 'legal-debt-collection',
+    alertLevel: 'high',
+    sources: ["North Carolina Department of Justice (Attorney General Jeff Jackson)", 'WBTV'],
+    sourceUrl: 'https://ncdoj.gov/attorney-general-jackson-announces-judgment-in-north-carolinas-first-discriminatory-towing-case-clear-precedent-set/',
+    country: 'US',
+    state: 'NC',
+});
