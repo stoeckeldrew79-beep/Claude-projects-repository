@@ -6200,3 +6200,21 @@ The U.S. Attorney's Office for the Southern District of New York charged Nguyen 
 The case is a reminder that "rug pull" is simply industry jargon for an ordinary wire fraud: take people's money for a product, and never deliver it. That the product was a place in line for a video game that didn't exist made no difference to a federal grand jury, or to the $1.1 million that was, for its buyers, real money.`,
   },
 );
+
+NotoriousAF.push(
+  {
+    title: 'Benjamin Reynolds and the $572 Million Bitcoin Trading Scheme Nobody Ever Saw Run',
+    slug: 'benjamin-reynolds-control-finance-bitcoin-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.cftc.gov/PressRoom/PressReleases/8371-21',
+    // no rights-cleared photo found — sourceUrl above serves as the "read the full story" link
+    body: `In May 2017, a UK-registered company called Control-Finance Limited began soliciting bitcoin from the public with a pitch built for the top of that year's crypto bull run: hand over bitcoin, and a team of "expert" virtual currency traders would generate 1.5 percent in daily trading profits — as much as 45 percent a month — through pooled, diversified trading. Customers who signed up were shown weekly "Trade Reports" listing profitable trades, and an affiliate program offered escalating bitcoin bonuses to anyone who recruited new depositors, giving existing customers a financial reason to sell the scheme to their own friends and family.
+
+None of the trading was real. According to the CFTC, the man behind Control-Finance, Benjamin Reynolds of Manchester, England, never traded customer deposits at all. Instead, he moved incoming bitcoin through convoluted, economically pointless blockchain transactions designed to obscure where it was going, routed it through pooled wallets at payment processors and exchanges, and used a portion of new deposits to pay "withdrawals" to customers who asked for their money back — a Ponzi-style shell game dressed up as an automated trading fund. By the time the scheme wound down in October 2017, Reynolds had taken in at least 22,858 bitcoin, worth roughly $147 million at the time, from more than 1,000 customers worldwide, including at least 169 people in the United States.
+
+The CFTC filed a civil enforcement action against Reynolds and Control-Finance in the Southern District of New York on June 18, 2019. Reynolds never appeared in the case or answered the charges, and the court entered a default judgment against him on March 2, 2021 — ordering him to pay nearly $143 million in restitution to defrauded customers and a $429 million civil monetary penalty, for a combined judgment of more than $571 million, along with permanent trading and registration bans. By the time the judgment was calculated, bitcoin's price had risen sharply since 2017, and the penalty was sized in part to reflect the value the stolen coins would have had by then.
+
+No criminal charges against Reynolds have been publicly announced, and he is not known to have ever set foot in a U.S. courtroom; the entire case was resolved without him. The judgment remains one of the largest the CFTC has ever obtained in a cryptocurrency fraud case — a paper victory for the more than 1,000 people he took bitcoin from, won against a man who never had to answer for it in person.`,
+  },
+);
