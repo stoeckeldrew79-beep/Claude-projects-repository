@@ -6097,3 +6097,20 @@ The SEC filed an emergency civil injunctive action in September 2018, and the U.
 Federal marshals subsequently auctioned off the seized cars, jewelry, and other assets to help repay victims — a public, made-for-headlines postscript that underscored how much of investors' money never went anywhere near a debt portfolio at all, legitimate or otherwise.`,
   },
 );
+
+NotoriousGM.push(
+  {
+    title: 'Michael Hild and the $200 Million Live Well Financial Bond-Marking Fraud',
+    slug: 'michael-hild-live-well-financial-bond-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-sdny/pr/former-ceo-live-well-financial-convicted-connection-200-million-bond-fraud-scheme',
+    body: `Michael Hild founded Live Well Financial in Richmond, Virginia, and built it into a reverse-mortgage lender that, on paper, looked like a fast-growing specialty finance success story. Central to that growth was a portfolio of bonds backed by Home Equity Conversion Mortgages — federally insured reverse mortgages the company had originated — which Live Well pledged as collateral to borrow cash from a group of lenders, including Mirae Asset Securities, Industrial and Commercial Bank of China Financial Services, Flagstar Bank, and Customers Bank. The more those bonds were worth on paper, the more money Live Well could borrow against them.
+
+Prosecutors said that starting around 2014, Hild directed Live Well's chief financial officer, Eric Rohr, and its executive vice president, Darren Stumberger, to systematically inflate the "marks" — the estimated market values — assigned to those bonds, producing fabricated price quotes and doctored records to make an illiquid, hard-to-value portfolio look far more valuable than it actually was. The scheme let Live Well's reported bond portfolio balloon from roughly 20 bonds valued at about $50 million in 2014 to roughly 50 bonds the company claimed were worth more than $500 million by the end of 2016, and it used that inflated collateral to draw far more in loans from its lenders than the bonds could have supported at their real value. The scheme unraveled in May 2019, when Live Well abruptly wrote down its bond portfolio by more than $200 million, shut down, and laid off its staff with essentially no warning.
+
+The FBI arrested Hild later that year, and the U.S. Attorney's Office for the Southern District of New York charged him with conspiracy to commit securities fraud, conspiracy to commit wire and bank fraud, securities fraud, wire fraud, and bank fraud. Rohr and Stumberger struck plea deals of their own, pleading guilty and cooperating with prosecutors — and, jurors later learned, secretly recording conversations with Hild that became key evidence at trial; both avoided prison time in exchange for their cooperation. Hild instead went to trial in April 2021 and was convicted by a jury on all five counts.
+
+In January 2023, U.S. District Judge Ronnie Abrams sentenced Hild to 44 months in federal prison. A magistrate judge assigned to handle restitution recommended in February 2024 that he pay roughly $46.4 million to the defrauded lenders and Live Well's bankruptcy estate, a figure later revised to about $45 million. Hild appealed his conviction to the Second Circuit, arguing the evidence was insufficient to prove he had acted with intent to defraud lenders — but in 2025 a unanimous three-judge panel rejected the appeal and affirmed his convictions in full, closing out a case built on an unusually direct paper trail: two cooperating executives, secretly recorded meetings, and financial records showing exactly how a struggling reverse-mortgage lender manufactured half a billion dollars in collateral that was never really there.`,
+  },
+);
