@@ -11620,3 +11620,45 @@ International.push(
     sourceUrl: 'https://www.police.govt.nz/news/release/offenders-impersonating-police-are-scamming-vulnerable-people-over-landlines',
   },
 );
+
+International.push(
+  {
+    name: 'UK Concert and Festival Ticket Fraud',
+    slug: 'uk-concert-festival-ticket-fraud',
+    description:
+      'Fraudsters advertise tickets to sold-out concerts, festivals, and sporting fixtures on social media and classified ad sites, taking payment — usually by bank transfer — for tickets that turn out to be fake, duplicated and already used, or simply never sent at all. Action Fraud received 9,826 reports of ticket fraud in 2024, an 11% rise on 2023, with reported losses climbing 47% year-on-year to £9.79 million; 38% of those reports specifically named concert tickets, and June and July, the height of festival season, saw the heaviest reporting. A newer variant uses fraudulent QR codes advertising last-minute or resale tickets: Action Fraud logged 784 reports of this "quishing" tactic between April 2024 and April 2025, accounting for almost £3.5 million in losses. Action Fraud advises buying only from a venue\'s box office, the official promoter or agent, or a well-known ticketing platform, and warns that paying an unknown seller by bank transfer offers no protection — a credit card or a payment service with buyer protection gives a real chance of recovering the money if the tickets never arrive.',
+    categorySlug: 'online-shopping-scams',
+    country: 'GB',
+    alertLevel: 'high',
+    sources: ['Action Fraud'],
+    sourceUrl: 'https://www.actionfraud.police.uk/ticketfraud',
+  },
+);
+
+International.push(
+  {
+    name: 'UK Lottery and Prize Draw Advance-Fee Scam',
+    slug: 'uk-lottery-prize-draw-advance-fee-scam',
+    description:
+      'Victims are contacted, most often by phone but also by email or letter, and told they have won a substantial cash prize in a lottery or prize draw, frequently one styled to sound like a well-known name such as the People\'s Postcode Lottery. To "release" the winnings, the victim is told they must first pay a fee to cover supposed taxes, bank charges, or administration costs; in reality there is no prize, and any money sent is gone for good. Action Fraud recorded 629 reports of lottery fraud between April and October 2021, the highest total in two years at the time, with victims losing almost £1 million over that period; 89% of reports named a well-known prize draw, and impersonation of the People\'s Postcode Lottery alone accounted for close to half of all reports. Nearly three-quarters of victims were over 50, and 40% were over 65. Action Fraud\'s advice is unambiguous: a genuine prize draw never asks the winner to pay a fee to receive it, and nobody can win a competition they never entered.',
+    categorySlug: 'lottery-sweepstakes-scams',
+    country: 'GB',
+    alertLevel: 'high',
+    sources: ['Action Fraud'],
+    sourceUrl: 'https://www.actionfraud.police.uk/news/it-could-be-you-lottery-fraud-reports-reach-highest-levels-in-two-years',
+  },
+);
+
+International.push(
+  {
+    name: 'UK Online Marketplace and Auction Non-Delivery Scam',
+    slug: 'uk-online-marketplace-auction-non-delivery-scam',
+    description:
+      'A seller lists an item — electronics, a vehicle, or another in-demand product — on an online marketplace or auction site at a price low enough to attract a quick sale, takes payment upfront, often by direct bank transfer, and then either never sends the item or sends something counterfeit, damaged, or different from what was advertised. Action Fraud describes this "non-delivery" and "misrepresentation" pattern, alongside shill bidding (where a seller or an accomplice secretly bids up their own listing) and coordinated intimidation of rival bidders, as among the most common forms of shopping and auction fraud reported to it. Because the buyer has already paid before receiving anything, victims are typically left with no realistic way to get the goods or their money back once the seller stops responding or disappears. Action Fraud recommends researching a seller or listing before paying, checking a seller\'s feedback history on the platform, and using a payment method that carries buyer protection, such as a credit card, rather than a direct bank transfer, which offers no such recourse.',
+    categorySlug: 'online-shopping-scams',
+    country: 'GB',
+    alertLevel: 'medium',
+    sources: ['Action Fraud'],
+    sourceUrl: 'https://www.actionfraud.police.uk/a-z-of-fraud/shopping-fraud',
+  },
+);
