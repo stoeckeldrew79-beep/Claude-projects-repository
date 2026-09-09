@@ -5960,3 +5960,22 @@ Seventeen people invested more than $4 million with Accettola based on these rep
 Accettola's case illustrates something most single-scheme fraud cases don't: what happens when a con artist isn't stopped the first, second, or even the fifteenth time. A pattern of past fraud convictions is a matter of public record, and a multimillion-dollar construction-investment pitch built partly on a claimed personal friendship with a real company's executive is exactly the kind of claim a five-minute phone call to that company — rather than trust in the person making the introduction — could have tested before a single check was written.`,
   },
 );
+
+NotoriousGM.push(
+  {
+    title: 'Johanna Garcia and the $190 Million MJ Capital Funding Ponzi Scheme',
+    slug: 'johanna-garcia-mj-capital-funding-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://www.justice.gov/usao-sdfl/pr/leader-200-million-ponzi-scheme-sentenced-20-years-prison',
+    body: `Johanna Michely Garcia, of Pompano Beach in Broward County, Florida, was the founder and chief executive of MJ Capital Funding, LLC and an affiliated business, MJ Taxes and More, Inc. Starting around mid-2020, Garcia and associates including Pavel Ramon Ruiz Hernandez pitched investors on a real and fairly common form of small-business financing: merchant cash advances, in which a lender provides cash upfront in exchange for a cut of a business's future card sales or deposits. The pitch came with an eye-catching promise — a guaranteed 120% return on a six-month investment, equivalent to roughly 10% a month — funded, investors were told, by the profits MJ Capital earned making those advances.
+
+According to the Securities and Exchange Commission and the U.S. Attorney's Office for the Southern District of Florida, MJ Capital's actual merchant cash advance business was tiny — at most a few million dollars in real advances — nowhere near enough to generate the returns Garcia promised. More than 2,000 investors nationwide put a combined $190.7 million into the company between 2020 and 2021, and the SEC says a large share of incoming investor money was simply paid out to earlier investors as fake "returns," Ponzi-style, while millions more were diverted to Garcia and other insiders. Investor losses ultimately totaled nearly $90 million. The FBI and SEC shut MJ Capital down in the fall of 2021.
+
+The scheme didn't end there. Prosecutors say that after the shutdown, Garcia went on to organize new solicitations through freshly formed entities — including New Beginning Global Funding LLC, New Beginning Capital Funding LLC, Lion Heart Capital Group L.L.C., GMR Remodeling LLC, and Group Management LLC — continuing to raise money from victims even after her arrest on the original MJ Capital charges, and, according to prosecutors, while she was in federal custody awaiting trial.
+
+Garcia pleaded guilty to conspiracy to commit mail and wire fraud and was sentenced on December 3, 2024, by U.S. District Judge Jose E. Martinez to 240 months — 20 years — in federal prison, the maximum available for the charge. A restitution stipulation filed in March 2025 set the amount she owes victims at $65,802,500. Garcia appealed her sentence, and on March 17, 2026, the U.S. Court of Appeals for the Eleventh Circuit affirmed it. Ruiz Hernandez, her co-conspirator, was separately sentenced in September 2023 to 110 months.
+
+Garcia's case is a reminder that a fraud getting shut down by regulators doesn't necessarily mean the person behind it is finished — it can mean they simply rename the operation and start soliciting again under a new name, sometimes from behind bars. An investor vetting any "opportunity" run by newly formed, affiliated-sounding LLCs has good reason to ask not just whether the company is registered, but whether the person actually running it has a prior enforcement history at all.`,
+  },
+);
