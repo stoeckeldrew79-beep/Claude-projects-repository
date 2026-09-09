@@ -6334,3 +6334,22 @@ Patel's role is the part of a phone scam that victims never see: after the panic
     sourceUrl: 'https://www.justice.gov/archives/opa/pr/24-defendants-sentenced-multimillion-dollar-india-based-call-center-scam-targeting-us-victims',
   },
 );
+
+NotoriousGM.push(
+  {
+    title: 'Joseph LaForte, "Joe Mack," and the $547 Million Par Funding Fraud',
+    slug: 'joseph-laforte-par-funding-joe-mack-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.irs.gov/compliance/criminal-investigation/par-funding-ceo-sentenced-to-15-and-a-half-years-in-prison-for-rico-conspiracy-securities-fraud-tax-crimes-and-related-offenses',
+    body: `Joseph LaForte had two felony convictions already on his record — a 1997 illegal gambling conviction in New York and a 2001 federal conviction for loan-sharking and extortion in New Jersey — when he walked out of prison and, while still on supervised release, founded a Philadelphia company called Complete Business Solutions Group, Inc., doing business as Par Funding. To the investors, lenders, and business partners he courted for it, he wasn't Joseph LaForte at all. He introduced himself as "Joe Mack," a fictional identity built specifically to keep his real name, and the criminal record attached to it, away from anyone deciding whether to trust him with their money.
+
+Par Funding operated in the merchant cash advance business, offering small businesses short-term cash in exchange for a cut of future receivables, and it funded those advances by raising money from outside investors — more than 1,200 of them, according to prosecutors, who between 2011 and 2020 put a combined $547 million into the company on the strength of "Joe Mack's" pitch: strong profitability, low default rates, and a track record he'd invented out of whole cloth. Behind the pitch, the SEC and federal prosecutors said, was a company that misrepresented its true default rates and used new investor money to paper over shortfalls in a structure that functioned like a Ponzi scheme. When borrowers fell behind or investors asked hard questions, Par Funding's principals turned to the tactics of the loan-sharking business LaForte had done time for — including threats of violence — to keep the operation running and creditors in line.
+
+The SEC placed Par Funding into a court-ordered receivership in July 2020, ending "Joe Mack's" run, but the criminal case took years longer to build. LaForte, his brother James LaForte — described by prosecutors as the operation's "enforcer" — and chief financial officer Joseph Cole Barleta were eventually charged with racketeering conspiracy, securities fraud, extortionate collection of credit, tax crimes, perjury, and obstruction of justice; a separate weapons charge was added after a search turned up an illegally possessed firearm. Joseph LaForte was convicted in September 2024, and a federal judge found the fraud had caused an actual loss of roughly $404 million, later reduced to about $288 million after crediting seized collateral.
+
+On March 26, 2025, a federal judge in the Eastern District of Pennsylvania sentenced Joseph LaForte to 186 months — 15 and a half years — in prison, followed by three years of supervised release including 12 months of home confinement, along with a $50,000 fine, $314 million in restitution, and a $120 million forfeiture money judgment covering a private jet and an investment account seized from him. James LaForte was separately sentenced to 11 and a half years, and Barleta's sentencing followed in the months after.
+
+What made the fraud durable for nearly a decade wasn't a sophisticated cover story — it was an alias doing the one job a con artist's real biography can't: erasing two prior fraud-adjacent felony convictions from the résumé new investors were shown. "Joe Mack" existed for exactly as long as no one checked whether he was real.`,
+  },
+);
