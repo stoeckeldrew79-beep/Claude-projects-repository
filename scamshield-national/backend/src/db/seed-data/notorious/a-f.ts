@@ -5597,3 +5597,20 @@ Gilchrist was arrested and charged by criminal complaint on September 1, 2026 wi
 Property tax lien investing is a legitimate, if specialized, corner of the market in states that auction delinquent tax debt, which is exactly what prosecutors say made it a convincing wrapper here: a pitch built around a real financial instrument is far harder for a prospective investor to wave off as too-good-to-be-true than a pitch built around something that obviously doesn't exist. Investors approached about a niche asset class few people understand in detail have the same recourse available in any unfamiliar investment: verify independently, through public county auction records, that the specific liens being described were actually purchased, rather than relying on the promoter's own account statements.`,
   },
 );
+
+NotoriousAF.push(
+  {
+    title: "Antonio Franklin and the Hidden Bank Account Behind a Milwaukee Disability Benefits Fraud",
+    slug: "antonio-franklin-milwaukee-disability-benefits-fraud",
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-edwi/pr/milwaukee-county-man-sentenced-18-months-federal-prison-wire-fraud-involving',
+    body: `Government disability and benefit programs generally run on an honor system at the edges: applicants self-report their income, assets, and bank accounts, and the agency verifies what it can rather than auditing every recipient's finances line by line. Antonio Franklin, 47, of Milwaukee County, Wisconsin, exploited that gap for more than five years, according to the U.S. Attorney's Office for the Eastern District of Wisconsin. From January 2020 through March 2025, prosecutors said, Franklin was receiving Title XVI disability benefits from the Social Security Administration, a Wisconsin Supplemental Security Income payment from the state's Department of Health Services, and benefits through Wisconsin's IRIS long-term care program — three separate need-based programs, each of which required him to disclose his financial resources to remain eligible.
+
+He didn't. According to prosecutors, Franklin failed to report a bank account he controlled through which more than $1 million passed during the same period the government considered him too financially limited to forgo disability assistance. That undisclosed account, and the income it reflected, would have affected his eligibility for all three programs had the relevant agencies known about it. Over the life of the scheme, prosecutors said, Franklin fraudulently collected nearly $300,000 in benefits he was not entitled to receive.
+
+Franklin was charged with wire fraud, and on July 31, 2026, U.S. District Judge J.P. Stadtmueller sentenced him to 18 months in federal prison, three years of supervised release, and $296,243 in restitution. "The people of the United States are fed up with being fleeced by fraudsters," First Assistant U.S. Attorney Brad D. Schimel said in announcing the sentence, adding that the office would pursue anyone who steals "from programs designed to help our neighbors most in need of help." The case was investigated by the Social Security Administration's Cooperative Disability Investigations Unit in Milwaukee and the Wisconsin Department of Justice's Division of Criminal Investigation and Medicaid Fraud Control and Elder Abuse Unit, and prosecuted by Assistant U.S. Attorney Carter B. Stewart.
+
+Franklin's case underscores a distinction that benefit-fraud prosecutions turn on again and again: means-tested programs like SSI aren't just checking whether a recipient is disabled or has a qualifying need, they're checking whether that person's financial resources fall under a specific threshold, which makes an undisclosed bank account — even one funded by money that has nothing to do with the underlying disability — just as material to eligibility as a fabricated diagnosis would be. A seven-figure sum moving through an account the government doesn't know exists is not a detail a benefits recipient gets to decide is irrelevant on their own.`,
+  },
+);

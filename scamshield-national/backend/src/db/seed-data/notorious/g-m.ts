@@ -5652,3 +5652,22 @@ A federal jury sitting in Alexandria, Virginia convicted Park on September 8, 20
 Park's case is a reminder that a fraud doesn't necessarily end when a victim sues to get their money back: hiding assets and lying to a bankruptcy court is itself a federal crime, and it's often the cover-up — the falsified $0.34 asset declaration, the quiet transfer to a spouse — that gives investigators a case they can prove beyond a reasonable doubt, even when the underlying investment fraud comes down to one person's word against another's.`,
   },
 );
+
+NotoriousGM.push(
+  {
+    title: "Goran Spiridonov, Kristina Janeva, and the Fake 'Trump Bucks' Currency Scam",
+    slug: "goran-spiridonov-kristina-janeva-trump-bucks-fraud",
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-sdny/pr/two-foreign-nationals-charged-fraudulently-using-trump-name-scam-victims-across-united',
+    body: `Note: this case is at the indictment stage. Goran Spiridonov and Kristina Janeva have been charged but not convicted, both remain at large outside the United States, and the allegations below reflect the government's case rather than proven facts.
+
+Federal prosecutors in Manhattan allege that Goran Spiridonov, 25, and Kristina Janeva, 39 — both citizens and residents of North Macedonia — spent years marketing and selling a line of fake financial products called "Trump Bucks" to victims across the United States, falsely telling buyers the products were affiliated with President Trump, his family, the Trump Organization, or his administration. According to indictments unsealed May 13, 2026 in the U.S. District Court for the Southern District of New York, the pair sold the products under the banner "Trump Rebate Banking System," or "TRB," in a lineup that included "Golden Checks," "Golden Badges," "Trump Dollars," "Trump Checks," "Golden Trump Checks," "Diamond Bucks," and "Membership Booklets"; Janeva is separately accused of marketing purported "Bank of Trump" products, including a "Ruby Certificate" described as an official Trump Organization financial instrument. Prosecutors say buyers were told their purchases would be redeemable for cash at banks during a Trump presidency and would help fund his campaign and associated causes — claims the Justice Department says are entirely false.
+
+The indictments allege the scheme ran from at least 2023 through the present, advertised largely through Telegram and online marketplaces, and pulled in hundreds of thousands of dollars from victims nationwide, including senior citizens drawn in by the promise of a windfall tied to a trusted political name. "'Trump Bucks' has no connection to the President, the campaign, or the Trump Organization," U.S. Attorney Jay Clayton said in announcing the charges.
+
+Spiridonov and Janeva are charged with conspiracy to commit wire fraud, wire fraud, and aggravated identity theft, exposing them to more than 20 years in prison if they are ever apprehended, tried, and convicted — the wire fraud counts alone carry up to 20 years, on top of a mandatory consecutive two-year term for aggravated identity theft. As of this writing, both defendants remain outside the reach of U.S. law enforcement, and no arrest has been reported.
+
+The "Trump Bucks" scheme is a reminder that a scam doesn't need any real connection to the famous name it invokes to be effective — it only needs a buyer willing to believe the connection is real. No sitting or former president, and no legitimate political campaign, sells redeemable "currency," "checks," or "certificates" through Telegram chats and online marketplaces; any product marketed that way is, regardless of whose name or face is stamped on it, a fabrication designed to separate a buyer from real money in exchange for worthless paper.`,
+  },
+);
