@@ -1689,3 +1689,20 @@ Few and Far ultimately launched its FAR token in May 2024, selling roughly 95 mi
 Tarsha's case sits at a real fault line in crypto-fundraising prosecutions: a startup spending investor money badly, or a founder living well off funds meant for product development, is not automatically the same thing as fraud, which requires proving the money was raised through knowing misrepresentation rather than simply mismanaged afterward. What a jury ultimately decides about that distinction — and whether Tarsha's spending and subsequent statements to investors crossed the line separating a failed venture from a criminal one — remains to be seen; nothing here should be read as resolving that question in advance of a trial.`,
   },
 );
+
+NotoriousTZ.push(
+  {
+    title: "Wendy Halstead Beard and the Fake Double Lung Transplant That Covered Up an Art Fraud",
+    slug: "wendy-halstead-beard-art-photography-consignment-fraud",
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://www.justice.gov/usao-edmi/pr/former-birmingham-art-dealer-sentenced-over-five-years-prison-defrauding-elderly',
+    body: `Wendy Halstead Beard ran a fine-art photography business out of Birmingham, Michigan, taking valuable prints — including works by photographers like Ansel Adams and Diane Arbus — on consignment from collectors who trusted her to sell the pieces on their behalf and pass along the proceeds, keeping only her agreed commission. Between March 2019 and October 2022, according to the U.S. Attorney's Office for the Eastern District of Michigan, Beard instead sold the photographs and kept the money for herself, all while telling the original owners a rotating cast of lies about why their prints, or their payments, hadn't materialized yet.
+
+What set Beard's fraud apart from an ordinary consignment scam was the lengths she went to keep it hidden. According to prosecutors, when one elderly collector pressed her for the return of roughly $900,000 worth of consigned artwork, Beard claimed she had suddenly required a double lung transplant, was hospitalized, and later unconscious on a ventilator — a fabrication she reinforced by creating fake email accounts impersonating an assistant, sending messages like one telling a victim that Beard "has been a little dicey but we are hoping they take the vent out." Investigators later confirmed through the United Network for Organ Sharing registry that Beard had never received, or been listed for, any organ transplant. Prosecutors said she used similarly invented excuses — claimed buyer interest that didn't exist, fake identities, medical crises — across her broader scheme, which the government said touched more than three dozen victims and involved several hundred photographs.
+
+Beard pleaded guilty to one count of wire fraud in July 2023. On September 11, 2024, U.S. District Judge Judith E. Levy sentenced her, in the U.S. District Court for the Eastern District of Michigan, to five years and three months in federal prison and ordered her to pay more than $2 million in restitution to her victims. "Beard's ongoing deception was of a level that we rarely see, even in fraud cases," then-U.S. Attorney Dawn N. Ison said in announcing the sentence, "lying to her customers repeatedly in an attempt to conceal her scheme."
+
+Consignment arrangements run on a kind of trust that has almost no built-in verification: an owner who hands over a valuable print expects periodic updates on its sale status and has no independent way to confirm whether a dealer's claimed delay — a slow buyer, a shipping problem, or, in this case, a medical crisis — is real or invented. Beard's fabricated illness worked for years specifically because a request to prove a private medical claim feels intrusive in a way that a request for a sales update does not, letting an increasingly implausible story survive years past the point a straightforward business excuse would have collapsed under scrutiny.`,
+  },
+);
