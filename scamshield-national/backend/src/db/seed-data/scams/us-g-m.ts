@@ -5038,3 +5038,27 @@ UsGM.push({
     country: 'US',
     state: 'IL',
 });
+
+UsGM.push({
+    name: 'Fake VA National Cemetery "Burial Insurance" Scam',
+    slug: 'georgia-va-cemetery-burial-insurance-impersonation-scam',
+    description: `A Georgia widow whose husband — a veteran — was scheduled for burial at a Veterans Affairs national cemetery received a call from someone posing as a cemetery representative, who told her she needed to purchase an insurance policy to "cover" the burial before the service could go forward. When she hesitated, the caller pressured her further, warning that the burial would be rescheduled or canceled unless she paid immediately. She first tried to send the money by Zelle, but her bank's fraud detection flagged and blocked the transfer, so the scammer had her send $1,200 through PayPal instead, which went through without incident. The Georgia Secretary of State's office, which oversees the state's cemetery and funeral-industry regulation, publicized the case in early 2025 as a warning to other families, stressing that burial in a VA national cemetery — including the gravesite itself, perpetual care, and a government-furnished headstone or marker — is entirely free for eligible veterans and their qualifying dependents, so any call demanding an "insurance" payment or other fee to secure a VA burial is fraudulent on its face. Secretary of State Brad Raffensperger's office said scammers "often target families at their most vulnerable moments," and flagged several warning signs common to these calls: pressure for immediate payment, upselling of services that should already be free, false claims that the deceased left an unpaid debt, and unsolicited offers from an unverified source to help manage a family's memorial benefits. Families are advised to hang up on any unsolicited call demanding payment tied to a VA burial, verify any request directly with the National Cemetery Administration or the specific cemetery involved rather than a callback number the caller provides, and report suspected scams to the Georgia Secretary of State's Cemeteries and Perpetual Care program at cemeteries@sos.ga.gov.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ["Georgia Secretary of State's Office (Brad Raffensperger)", 'FOX 5 Atlanta'],
+    sourceUrl: 'https://sos.ga.gov/news/georgia-family-targeted-cemetery-memorialization-scam',
+    country: 'US',
+    state: 'GA',
+});
+
+UsGM.push({
+    name: 'Mardi Gras Krewe Ball Ticket Scam',
+    slug: 'louisiana-mardi-gras-ball-ticket-scam',
+    description: `Ahead of the 2025 Carnival season, the Better Business Bureau issued a consumer alert warning that scammers were creating fake social-media event pages, selling nonexistent or already-used tickets, and demanding payment through cash apps, wire transfers, or cryptocurrency for tickets to Mardi Gras balls — payment methods that leave a buyer with no way to recover the money once a "seller" disappears. The pattern was visible enough on the ground that individual krewes had to respond directly: in Lafayette, the Krewe of Carnivale en Rio issued its own public warning after fans reported being sold fake or invalid tickets to its sold-out Rio Ball, one of several Louisiana krewes forced to caution members that resale tickets circulating online for a sold-out ball are far more likely to be fraudulent than genuine, since real tickets to the most popular balls rarely become available for resale at all. The BBB recommends buying tickets to any Mardi Gras ball only directly from the hosting krewe, an official ticketing partner, or the venue box office; confirming with the krewe before accepting any secondhand ticket; paying by credit card rather than a cash app, wire transfer, or cryptocurrency so a fraudulent charge can be disputed; and treating a listing priced well below face value, or a seller who won't meet in person or share verifiable contact information, as a red flag. Anyone who is scammed is encouraged to report it to BBB Scam Tracker at BBB.org and to notify the krewe or venue directly, since a reported scam can help flag other fraudulent listings still circulating for the same event.`,
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'medium',
+    sources: ['Better Business Bureau (BBB)', 'KATC / Acadiana News First'],
+    sourceUrl: 'https://www.fox10tv.com/2025/02/11/bbb-warns-mardi-gras-ball-ticket-scams/',
+    country: 'US',
+    state: 'LA',
+});
