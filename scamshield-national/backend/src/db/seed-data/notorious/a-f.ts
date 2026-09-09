@@ -6166,3 +6166,37 @@ That criminal case, when it came, was narrower than the SEC's fraud allegations.
 The split outcome is itself instructive. The conduct the SEC said harmed 1,100 investors out of $170 million produced, in the end, a criminal sentence tied to the money the scheme's own architect hid from the IRS rather than to the underlying fraud that generated it — a reminder that in complex Ponzi-adjacent cases, a civil regulator's fraud complaint and a prosecutor's criminal charges often travel down different, and unevenly punishing, legal paths, leaving investors' actual recovery to depend on a receivership rather than a restitution order matched to what they lost.`,
   },
 );
+
+NotoriousAF.push(
+  {
+    title: 'Christopher Faulkner: The "Frack Master" Behind an $80 Million Oil and Gas Fraud',
+    slug: 'christopher-faulkner-frack-master-oil-and-gas-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-ndtx/pr/so-called-frack-master-sentenced-15-years-federal-prison',
+    body: `Christopher Faulkner built a public persona as "The Frack Master," a hydraulic-fracturing pundit who wrote a book, gave media interviews, and padded his résumé with academic credentials federal prosecutors later said he never actually earned. As founder, CEO, and president of the Dallas-based Breitling Energy Corporation, he used that manufactured authority to sell investors stakes in specific oil and gas drilling projects, raising more than $80 million between 2011 and 2016.
+
+The wells were real. The numbers pitched to investors were not. Prosecutors said Faulkner routinely inflated the estimated drilling costs he presented to investors by as much as 800 percent above what the work actually cost, pocketing the difference, and diverted roughly $23 million of investor money to personal spending rather than the wells his investors believed they were funding.
+
+Faulkner was arrested at Los Angeles International Airport in June 2018. He pleaded guilty that October to securities fraud, tax evasion, and illegal monetary transactions under an agreement that would have capped his sentence at 12 years — a deal the federal judge in Dallas rejected outright as "not good enough." Faulkner withdrew the plea, negotiated a new one, and pleaded guilty again in December 2020. In September 2021, U.S. District Judge Jane Boyle sentenced him to 15 years in federal prison and ordered him to pay $92.4 million in restitution.
+
+The "Frack Master" persona is the instructive part of the case: Faulkner didn't need real credentials to be credible, only ones that sounded real and a media presence loud enough that no investor thought to check them. His invented qualifications and inflated cost estimates worked for years because nobody demanded an audit — the same mechanism behind any affinity fraud, dressed here in an oil derrick instead of a church basement.`,
+  },
+);
+
+NotoriousAF.push(
+  {
+    title: 'Ethan Nguyen and Andre Llacuna: The $1.1 Million "Frosties" NFT Rug Pull',
+    slug: 'ethan-nguyen-andre-llacuna-frosties-nft-rug-pull',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-sdny/pr/two-defendants-charged-non-fungible-token-nft-fraud-and-money-laundering-scheme-0',
+    body: `In late 2021, two 20-year-olds using the handles "Frostie" and "heyandre" launched Frosties, a collection of 8,888 ice-cream-themed profile-picture NFTs priced at roughly 0.04 ETH — about $200 to $300 — each. Buyers were promised the standard pitch of that NFT cycle: exclusive rewards, staking benefits, and early access to a "Frosties"-branded metaverse game the creators said they were building.
+
+The offering sold out within about an hour on January 8, 2022. Within hours of that sellout, Ethan Nguyen and Andre Llacuna deactivated the Frosties website and social media accounts and moved roughly $1.1 million in cryptocurrency proceeds into wallets under their control — the maneuver crypto communities had already started calling a "rug pull," in which a project's creators abandon it the moment they've collected the money, with no further reason to deliver anything. Buyers were left holding NFTs for a game and rewards that would never exist.
+
+The U.S. Attorney's Office for the Southern District of New York charged Nguyen and Llacuna in March 2022 with conspiracy to commit wire fraud and conspiracy to commit money laundering, in what prosecutors described as one of the first criminal cases built specifically around an NFT rug pull. Both men ultimately pleaded guilty. Llacuna resurfaced publicly in 2025 as a cooperating government witness, testifying at the Manhattan trial of Tornado Cash co-founder Roman Storm about how he had funneled the Frosties proceeds through Storm's crypto-mixing service to cover his tracks — testimony he gave, according to reporting on the trial, while still awaiting his own sentencing on the Frosties charges.
+
+The case is a reminder that "rug pull" is simply industry jargon for an ordinary wire fraud: take people's money for a product, and never deliver it. That the product was a place in line for a video game that didn't exist made no difference to a federal grand jury, or to the $1.1 million that was, for its buyers, real money.`,
+  },
+);

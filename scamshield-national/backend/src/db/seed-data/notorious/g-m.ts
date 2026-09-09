@@ -6372,3 +6372,20 @@ The case took an unusual turn on appeal. The Ninth Circuit agreed the fraud conv
 Hansen's case became a landmark First Amendment ruling almost by accident — the underlying facts were a straightforward immigration-fraud scheme targeting a population, undocumented immigrants, that fraudsters often single out precisely because victims are afraid to go to the police. What elevated it to the Supreme Court had nothing to do with whether he'd defrauded them; it had to do with how broadly Congress could word a different law entirely. Both questions ended the same way: Hansen's fraud stood.`,
   },
 );
+
+NotoriousGM.push(
+  {
+    title: 'Glenn Arcaro: The Top BitConnect Promoter Who Pleaded Guilty While Its Founder Vanished',
+    slug: 'glenn-arcaro-bitconnect-promoter-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-sdca/pr/us-promoter-foreign-cryptocurrency-company-sentenced-prison-role-fraud-scheme',
+    body: `BitConnect billed itself as a cryptocurrency lending platform built on a proprietary "Trading Bot" and "Volatility Software" that it claimed could generate guaranteed daily returns by trading on swings in the crypto markets. Between its launch and its collapse in January 2018, BitConnect took in more than $2 billion from investors worldwide — money prosecutors said was never actually traded, but simply paid out to earlier investors using money deposited by later ones, a Ponzi scheme run at a scale few before it had reached.
+
+Glenn Arcaro was BitConnect's top U.S.-based promoter, recruiting investors across North America through a YouTube channel called Crypto Nation and a network of paid sub-promoters beneath him, collecting commissions tied directly to how much new investor money he brought in. When BitConnect abruptly shut down its lending program in January 2018, its token collapsed within days, wiping out the holdings of thousands of investors who had trusted his pitch.
+
+Arcaro pleaded guilty in September 2021 to conspiracy to commit wire fraud, admitting he had knowingly misrepresented BitConnect's trading technology and promised returns to investors. A year later, in September 2022, a federal judge in San Diego sentenced him to 38 months in prison. He forfeited more than $24 million in seized assets, and in January 2023 a court ordered $17.6 million of that returned as restitution to roughly 800 identified victims spread across more than 40 countries.
+
+Arcaro's case stands out because he actually answered for it. BitConnect's founder, Satish Kumbhani, was indicted over the same scheme in 2021 and has never been located, leaving Arcaro — the promoter who worked under him — as one of the only people convicted so far in what prosecutors have called the largest cryptocurrency fraud scheme ever criminally charged.`,
+  },
+);
