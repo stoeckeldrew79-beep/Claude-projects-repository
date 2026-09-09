@@ -1865,3 +1865,22 @@ Li was tried before a Hillsborough County Superior Court jury and, on May 27, 20
 Li was never the mastermind of the scheme that targeted this victim — the callers posing as "Sam Harwell," "Christopher," and "Jack" were never identified or charged in the coverage of this case, and likely operated from well outside New Hampshire or the country entirely. What Li represents is the courier layer that this kind of remote fraud depends on: someone willing to show up in person, take the physical risk of collecting cash from a stranger's doorstep, and carry the scheme's proceeds back to whoever is really running it. It's a role that's disposable and replaceable for the organizers, but it's also the one point in the whole operation where a victim's hunch and a phone call to police can actually catch someone.`,
   },
 );
+
+NotoriousTZ.push(
+  {
+    title: '"Timeshare Exit Team": How Brandon Reed and Trevor Hein Built a $2.6 Million Deception on the Fear of Getting Stuck',
+    slug: 'timeshare-exit-team-reed-hein-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.atg.wa.gov/news/news-releases/ag-ferguson-reed-hein-pay-261-million-resolve-timeshare-exit-scheme-lawsuit',
+    body: `Brandon Reed was selling gutters when he noticed something at a trade show in 2012: a long line of people waiting at a booth offering to get them out of their timeshare contracts. He and Trevor Hein turned that observation into Reed Hein & Associates LLC, a Washington state company doing business as "Timeshare Exit Team," built around a simple, aggressive promise blasted across national television and radio ads: "We'll get you out of your timeshare contract, or give you every penny back."
+
+The company grew fast, eventually operating around 30 offices across the United States plus one in Canada and signing up roughly 32,000 clients nationwide, who paid upfront fees the Washington Attorney General's lawsuit put as high as $8,795 per timeshare — with some clients elsewhere reporting bills running into the tens of thousands of dollars for a single exit. What many of those clients got in exchange for the fee, according to the state's investigation, was not a negotiated release from their timeshare at all: in many cases, Reed Hein's own employees simply handed clients a hardship-letter script to send to the resort themselves, or advised them to stop paying their timeshare maintenance fees and mortgage outright — advice that, rather than producing a clean legal exit, tended to push the client's account into default and foreclosure, wrecking their credit instead of freeing them from the contract.
+
+Washington Attorney General Bob Ferguson sued Reed Hein & Associates in King County Superior Court in February 2020 under the state's Consumer Protection Act, alleging the company had left roughly 17,000 of the 38,000 exits it had contracted to deliver still unresolved — more than 8,000 of them pending for two years or longer — while continuing to advertise its money-back guarantee to new customers. The lawsuit detailed complaints from thousands of Washington clients alone who said they'd paid substantial upfront fees and received neither a timeshare exit nor the refund they'd been promised.
+
+The case ended in a September 2021 consent decree: Reed Hein was barred from continuing its deceptive practices and required to pay $2.61 million, with an additional $19 million in penalties suspended so long as the company complied with the terms — a total exposure of roughly $22 million hanging over it if it didn't. Timeshare Exit Team closed its doors within months of the settlement.
+
+The timeshare-exit industry that Reed Hein helped build exists entirely downstream of a first regret — someone who bought a timeshare, in many cases under high-pressure sales tactics of its own, and later wanted out. Reed and Hein built a business that charged those same people thousands of dollars up front for a way out, and then, prosecutors said, often gave them nothing more than advice they could have found for free — turning one round of buyer's remorse into two.`,
+  },
+);
