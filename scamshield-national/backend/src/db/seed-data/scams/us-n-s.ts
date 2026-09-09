@@ -4448,3 +4448,15 @@ UsNS.push({
     country: 'US',
     state: 'CO',
 });
+
+UsNS.push({
+    name: 'New Mexico Fake Vehicle and Equipment Website Fraud Ring (Claudiu Pesteleu)',
+    slug: 'new-mexico-pesteleu-fake-vehicle-equipment-website-fraud',
+    description: `Claudiu Pesteleu, a 44-year-old Romanian national unlawfully present in the United States, admitted in New Mexico federal court that from May 2023 through June 2024 he helped run a nationwide fraud scheme built around fake websites made to look like real businesses selling cars and heavy equipment — storefronts with names like Zammer Equipment, Super Exotic Deals, Premier E. Liquidators, Adler Pre Owned, Bittman Motors, Nikkos Cargo, and Becker Automotive. When a consumer inquired about a listed vehicle or piece of equipment, conspirators instructed them to wire payment directly to a bank account rather than using an escrow or buyer-protection service; those accounts, opened by Pesteleu under the alias "Thomas Muller" using fake foreign passports and other forged identity documents, funneled the money into sham businesses with no real inventory to sell. Homeland Security Investigations' Deming, New Mexico office said the scheme had stolen more than $1.18 million from consumers nationwide by the time Pesteleu pleaded guilty to conspiracy to commit wire fraud, with prosecutors citing losses closer to $1.8 million by his June 4, 2026 sentencing hearing in Las Cruces, where he faced a stipulated 30-to-39-month prison term. Pesteleu admitted moving the stolen funds through cash withdrawals and transfers exceeding $10,000 to disguise its source. The case is a reminder that a seller who directs a buyer to wire payment straight to a personal or unfamiliar-sounding LLC bank account — rather than accepting a credit card, an escrow service, or an in-person cash sale with a bill of sale — is a hallmark of an online purchase scam no matter how professional the listing website looks; buyers should independently verify a seller's business registration and physical address before wiring payment for a vehicle or piece of equipment purchased sight unseen.`,
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office for the District of New Mexico", 'KVIA'],
+    sourceUrl: 'https://www.justice.gov/usao-nm/pr/romanian-national-pleads-guilty-online-fraud-and-money-laundering-scheme',
+    country: 'US',
+    state: 'NM',
+});

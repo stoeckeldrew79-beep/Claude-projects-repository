@@ -6315,3 +6315,15 @@ UsAF.push({
     country: 'US',
     state: 'DE',
 });
+
+UsAF.push({
+    name: 'Chickasaw Nation Department of Health Business Email Compromise Fraud',
+    slug: 'chickasaw-nation-department-of-health-business-email-compromise-fraud',
+    description: `Between April and December 2021, conspirators sent the Chickasaw Nation Department of Health — the tribe's health system headquartered in Ada, Oklahoma — emails made to look like they came from a legitimate vendor, complete with routine-looking invoices and updated payment instructions, and convinced department staff to wire payments to bank accounts the conspirators controlled instead of the vendor's real account. Nnamdi Felix Udeagha, 39, of Humble, Texas, was one of the conspirators: prosecutors said his role was providing the bank account information that a co-conspirator then used to send the fraudulent vendor emails, letting the group receive and disperse the diverted funds before the health department discovered the real vendor had never been paid. Udeagha pleaded guilty on February 5, 2025 to one count of conspiracy to commit wire fraud, and the U.S. Attorney's Office for the Eastern District of Oklahoma announced his sentence later that year — 27 months in federal prison and $214,908.34 in restitution — following an FBI investigation. Business email compromise schemes like this one are especially damaging to smaller organizations, tribal health systems, school districts, and municipalities that process vendor payments without a dedicated fraud-prevention team, and the case follows a now-familiar pattern nationally: a routine email exchange about payment interrupted by a message, indistinguishable at a glance from earlier legitimate correspondence, asking that future payments go to a "new" or "updated" account. Any organization that receives a request to change vendor payment details by email should verify the change by phone using a number already on file — never one provided in the email itself — before wiring a single payment to the new account.`,
+    categorySlug: 'business-email-compromise',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office for the Eastern District of Oklahoma", 'KTUL'],
+    sourceUrl: 'https://www.justice.gov/usao-edok/pr/texas-resident-sentenced-conspiring-defraud-chickasaw-nation-department-health',
+    country: 'US',
+    state: 'OK',
+});
