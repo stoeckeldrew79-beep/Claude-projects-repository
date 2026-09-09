@@ -5510,3 +5510,39 @@ The SEC filed its complaint on August 10, 2026, in the U.S. District Court for t
 Pre-IPO access is one of the harder pitches for an ordinary investor to independently price-check, precisely because there's no public market quote to compare it against — a client told a fund is passing through the cost of pre-IPO shares "at cost" or for a modest flat fee has no easy way to verify what the fund itself actually paid for those shares before they were marked up and resold. That opacity is what let an adviser allegedly act as his own undisclosed counterparty on both sides of a trade, buying low as an individual and selling high to the very clients who'd hired him to act only in their interest.`,
   },
 );
+
+NotoriousAF.push(
+  {
+    title: "Daniel Damato and the Fake Willie Mays Bat That Sold for $100,000",
+    slug: "daniel-damato-counterfeit-sports-memorabilia-fraud",
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://www.justice.gov/usao-ndca/pr/concord-man-who-sold-fraudulent-sports-memorabilia-pleads-guilty-wire-fraud',
+    body: `Daniel Damato, 40, of Concord, California, worked as a sports memorabilia dealer, buying and selling the kind of game-used artifacts that let collectors own a physical piece of a favorite player's career — items whose value rests almost entirely on provenance, since a bat or jersey is worth vastly more if it can be tied to a specific legendary player and moment than if it's simply old sports equipment. Between 2022 and 2024, according to the U.S. Attorney's Office for the Northern District of California, Damato manufactured that provenance rather than verifying it, doctoring items and inventing false histories to make ordinary pieces look like museum-grade collectibles.
+
+The centerpiece of the government's case was a baseball bat Damato sold to one victim for $100,000, telling the buyer it was the actual bat Hall of Famer Willie Mays used during the 1954 World Series. Damato later admitted that wasn't true: the bat was what collectors call a "factory error" model, an inch shorter than the bats Mays actually used, with no connection to the 1954 Series at all. He separately sold a second victim a jersey for $50,000 that he falsely claimed Mays had worn in a 1972 game. A third victim fared even worse, losing more than $900,000 after Damato accepted payment while falsely promising to deliver sports memorabilia that, the court found, he never provided.
+
+When the FBI executed a search warrant on Damato's residence as the investigation closed in, he didn't stop; prosecutors say he contacted at least one potential witness in an attempt to obstruct the government's case, conduct that added an obstruction enhancement to his eventual sentence. Damato was charged by information on October 20, 2025, and pleaded guilty to one count of wire fraud. On June 29, 2026, U.S. District Judge Araceli Martínez-Olguín sentenced him to 21 months in federal prison, followed by three years of supervised release, and ordered him to pay $1,068,940 in restitution to his victims.
+
+Damato's case is a reminder that "provenance" in the collectibles market is often just a seller's word, dressed up with a plausible story and a specific date, unless a buyer insists on independent authentication before money changes hands. A four-figure sale might reasonably run on trust, but a five- or six-figure purchase resting entirely on a single dealer's unverified claim about who used an item, and when, is exactly the kind of transaction professional authentication services and independent chain-of-custody documentation exist to check — protections a buyer forfeits by taking a seller's story at face value instead.`,
+  },
+);
+
+NotoriousAF.push(
+  {
+    title: "Christian Rodriguez Peraza and the $40 Million Timeshare Resale Fraud",
+    slug: "christian-rodriguez-peraza-timeshare-resale-fraud",
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-wdtx/pr/foreign-nationals-indicted-and-federal-custody-alleged-40m-timeshare-fraud',
+    body: `Note: this case is a federal indictment, not a conviction. The allegations below describe the government's case; none of the defendants named has been found guilty, and each is presumed innocent unless and until proven otherwise in court.
+
+Christian Felipe Rodriguez Peraza, a Mexican national from Mazatlán, Sinaloa, who also went by the alias Jose Mario Ochoa Rodriguez, is accused by federal prosecutors of running an international scheme that targeted a specific kind of victim: Americans who already owned a timeshare on Mexico's Pacific coast and wanted out. According to the indictment, unsealed in the U.S. District Court for the Western District of Texas, Rodriguez and co-defendants told timeshare owners that their property had already been sold to a buyer — good news, on its face — but that the owner needed to pay various upfront "fees" and "taxes" before the sale proceeds could be released. No such buyer or sale ever existed; the fees, prosecutors say, were the entire point.
+
+The indictment names three co-defendants alongside Rodriguez: his wife, Brenda Tamayo Corona, who also used the alias Jazmin Oliva Chacon; Michael Ian Hollands, a U.K. national; and Yorlena Alfonso Cuesta. Prosecutors allege the group impersonated U.S. and Mexican government officials and, in some instances, stole the identities of real American attorneys to lend false legitimacy to their fee demands, pressuring victims — disproportionately older Americans — to wire money quickly to keep the supposed sale from falling through. Investigators tied the scheme to roughly 6,000 reported victims between 2019 and 2023, with losses exceeding $40 million; individual losses averaged around $28,912, though the reported median loss of $10,000 shows the scheme worked as much through volume as through any single large payout.
+
+Rodriguez and Tamayo were arrested in France earlier in 2026 and extradited to the United States, arriving in federal custody and making their first appearance before U.S. Magistrate Judge Kelly Stephenson in San Antonio on September 1, 2026. All four defendants are charged with conspiracy to commit wire fraud, conspiracy to commit money laundering, and conspiracy to engage in monetary transactions in property derived from unlawful activity — charges that carry statutory maximums of 20 years, 20 years, and 10 years, respectively, if any defendant is ultimately convicted.
+
+The scheme's core trick — telling a victim they've already won something, and that the only obstacle left is a fee to unlock it — is a structure that recurs across timeshare, lottery, and inheritance scams precisely because it inverts the usual skepticism a cold pitch invites: a victim who believes their property is already sold has little reason to suspect the person calling to collect a routine closing fee. Anyone contacted out of the blue about a completed sale of property they own has a simple check available before wiring anything: calling the resort, title company, or a licensed local attorney directly, through contact information looked up independently rather than supplied by the caller.`,
+  },
+);
