@@ -12210,3 +12210,36 @@ International.push(
     sourceUrl: 'https://www.police.gov.sg/media-hub/news/2022/20221207_plc_advsry_on_phshng_scams_invlvg_google_frms_with_the_sg_police_force_insignia',
   },
 );
+
+International.push(
+  {
+    name: 'German Pension Insurance (Deutsche Rentenversicherung) Phishing Scam',
+    slug: 'germany-deutsche-rentenversicherung-phishing-scam',
+    description: `Emails styled to look like official Deutsche Rentenversicherung (Germany's statutory pension insurance) correspondence circulate under several different pretexts — a required "security update" to the online "Digitale Rentenübersicht" (digital pension overview), the promise of sending an annual pension information document, or a claimed "Fehlbuchung" (misapplied payment) that supposedly entitles the recipient to a refund — all directing the recipient to click a link and hand over payment information or personal data. Deutsche Rentenversicherung's own press office warned in a May 2026 notice that fraudsters increasingly use AI to imitate its language and design so well that "both the email and the landing page look deceptively genuine," and that the only reliable way to spot the fake is to check the sender's actual email address rather than its display name — genuine correspondence never comes from addresses like the spoofed "admin@lenterasafety.co.id" or "badtechnology631@agentmail.to" that have shown up in documented cases. The agency states flatly that "personal data are never requested by email," and warns that a promised refund made contingent on entering bank details, or a link carrying an artificial countdown or expiry deadline, are themselves red flags rather than reasons to hurry.`,
+    categorySlug: 'public-benefits-fraud',
+    country: 'DE',
+    alertLevel: 'medium',
+    sources: ['Deutsche Rentenversicherung'],
+    sourceUrl: 'https://www.deutsche-rentenversicherung.de/DRV/DE/Ueber-uns-und-Presse/Presse/Meldungen/2026/260213-vorsicht_phishing_mails.html',
+  },
+  {
+    name: 'German ATM Skimming and Cash-Trapping Fraud',
+    slug: 'germany-atm-skimming-cash-trapping-fraud',
+    description: `A manipulated card reader fitted over or inside an ATM's card slot copies a card's magnetic-stripe data, while a hidden pinhole camera — or a smartphone angled in from nearby — separately records the PIN as it is typed, a technique known as skimming; criminals then manufacture a counterfeit card from the captured data and use it abroad, since German ATMs verify a card's chip in a way a cloned magnetic stripe alone cannot pass domestically. A separate technique, cash-trapping, fits a disguised sleeve lined with adhesive film over the cash-dispenser slot so banknotes never actually reach the customer: the machine reports a malfunction, the frustrated customer walks away assuming the withdrawal failed, and the fraudsters return afterward to peel back the sleeve and remove the trapped cash themselves. Germany's national police crime-prevention program (polizei-beratung.de) advises always covering the keypad with a hand or wallet while entering a PIN, avoiding any machine with a loose, added-on, or otherwise unusual card reader or keypad attachment, never entering a PIN at a building's door-entry card reader, and — critically — never walking away from an ATM that appears to have failed to dispense cash or return a card without first reporting it to the bank on the spot, since leaving the machine unattended is exactly what lets a trap be retrieved.`,
+    categorySlug: 'account-takeover',
+    country: 'DE',
+    alertLevel: 'medium',
+    sources: ['Polizeiliche Kriminalprävention der Länder und des Bundes (polizei-beratung.de)'],
+    sourceUrl: 'https://www.polizei-beratung.de/themen-und-tipps/betrug/betrug-an-geldautomaten/',
+  },
+  {
+    name: 'German Advance-Fee "Kredit ohne Schufa" Loan Scam',
+    slug: 'germany-advance-fee-kredit-ohne-schufa-loan-scam',
+    description: `An online ad, social-media post, or unsolicited phone call offers a fast, uncomplicated loan advertised as available "ohne Schufa" — without the credit check most German lenders run through the Schufa credit bureau — appealing directly to people already turned down elsewhere over poor creditworthiness or a thin credit history. Before any money is paid out, the applicant is asked to send roughly €200 to €300 upfront, framed as a processing fee, a mediation commission, or refundable collateral; the Verbraucherzentrale Bundesverband (vzbv), Germany's national consumer-protection federation, states plainly that it knows of "no case in which a loan was actually paid out after an advance payment" was made. vzbv financial expert Dr. Heiko Fürst warned that once the money is sent, recovery is essentially hopeless because it is typically routed straight to a foreign account: "Ist das Geld erst auf ein ausländisches Konto geflossen, haben Verbraucher kaum eine Chance, es zurückzubekommen" ("Once the money has gone to a foreign account, consumers have almost no chance of getting it back"). Because German law does not allow a lender or broker to charge a fee before the service is actually delivered, any request for payment ahead of a loan being disbursed is itself conclusive proof of fraud — vzbv directs anyone already struggling with debt toward a Schuldnerberatung (nonprofit debt-counseling service) reachable through a local job center or Verbraucherzentrale instead of a "no Schufa" loan offer.`,
+    categorySlug: 'debt-relief-scams',
+    country: 'DE',
+    alertLevel: 'medium',
+    sources: ['Verbraucherzentrale Bundesverband (vzbv)'],
+    sourceUrl: 'https://www.vzbv.de/pressemitteilungen/betrug-mit-vorabzahlungen-nach-kreditanfragen',
+  },
+);
