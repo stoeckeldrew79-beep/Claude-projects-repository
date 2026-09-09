@@ -1742,3 +1742,22 @@ Liu pleaded guilty in federal court in Gainesville to conspiracy to commit wire 
 Liu's role in the scheme is a useful reminder that a scam doesn't have to stay entirely remote to work, and that an in-person cash pickup is not, by itself, a sign of legitimacy. A caller who eventually sends someone to a victim's door, or asks a victim to hand cash to a courier at an assisted-living facility, is running the same fundamental deception as any wire-transfer or gift-card scam — only harder for a bank's fraud detection systems to flag, because no financial institution ever sees the transaction take place.`,
   },
 );
+
+NotoriousTZ.push(
+  {
+    title: "William D. Brenner and the Credit Union Board Seat Used to Empty a Retiree's Savings",
+    slug: 'william-brenner-credit-union-elder-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-mdpa/pr/dover-resident-charged-defrauding-elderly-victim-over-1-million-and-using-proceeds-his',
+    body: `Note: this case is at the indictment stage. William D. Brenner has been charged but not convicted, and the allegations described below reflect the government's case rather than proven facts.
+
+William D. Brenner, 62, of Dover, Pennsylvania, served for years as a board member of Susquehanna Valley Federal Credit Union, a roughly $86.8 million-asset credit union based in Camp Hill, Pennsylvania, sitting on its board from 2016 through mid-2022. According to a federal grand jury indictment announced by the U.S. Attorney's Office for the Middle District of Pennsylvania on August 5, 2026, Brenner used the trust that position afforded him to defraud an elderly woman, born in 1936, and her daughter, who held power of attorney over her finances.
+
+Prosecutors allege that in August 2021, Brenner persuaded the woman and her daughter that he could offer a better return than the investment they already had in place, telling them the funds would be placed into an interest-bearing account with a fixed, guaranteed return over a two-year term — and that he directed them to move roughly $1 million of the woman's retirement savings into an account at the credit union where he served on the board. Rather than invest the money as promised, the indictment alleges, Brenner had spent down nearly all of it by September 2021, using it to buy a new Dodge Ram pickup truck, a skid steer and other equipment, and — without authorization — a commercial property in Caneyville, Kentucky, which he allegedly put in his own name. To cover the unauthorized purchase, prosecutors say, Brenner forged an agreement making it look as though the victim and her daughter had approved using the money for the Kentucky property, by lifting authentic signatures the pair had provided on an unrelated document.
+
+Brenner was indicted on charges of wire fraud, which carries a statutory maximum of 20 years in prison, and unlawful monetary transactions, which carries a maximum of 10 years. The indictment also seeks forfeiture of assets connected to the alleged fraud, including the Kentucky property. The case is being investigated by the U.S. Secret Service and prosecuted by Assistant U.S. Attorney Ravi Romel Sharma. As of this writing, Brenner has not been convicted of any of the charges against him and is presumed innocent unless and until proven guilty in court.
+
+If the allegations are accurate, Brenner's case is a reminder that a position of institutional trust — a seat on a credit union's board — is not, by itself, evidence that money handed over personally to that person is safe; funds an investor intends to place with a financial institution should go directly into an account the institution itself administers and reports on, not through an individual board member's own personal discretion.`,
+  },
+);

@@ -5837,3 +5837,22 @@ That federal sentence is unrelated to the securities fraud: Gaskins is currently
 Gaskins's case shows that a securities fraud loss doesn't have to run into the millions to be real and worth prosecuting: state securities regulators pursued this case on behalf of a single identified investor and a comparatively modest dollar amount, a reminder that state securities divisions — not just the SEC or DOJ — are active enforcers worth checking with before wiring money into an unregistered promissory note.`,
   },
 );
+
+NotoriousGM.push(
+  {
+    title: "Jacob Kaestner and the JK Exteriors Contractor Fraud Targeting Missouri Tornado Victims",
+    slug: 'jacob-kaestner-jk-exteriors-tornado-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://ago.mo.gov/attorney-general-hanaway-announces-charges-against-contractor-targeting-st-louis-tornado-victims/',
+    body: `Note: this case is at the charging stage. Jacob Kaestner has been charged but not convicted, and the allegations described below reflect the government's case rather than proven facts.
+
+Jacob D. Kaestner, 43, of High Ridge, Missouri, ran JK Exteriors, a residential contracting business offering roofing, gutter, siding, and fencing repairs. According to the Missouri Attorney General's Office, Kaestner built much of his business around homeowners left vulnerable by two tornadoes that tore through the St. Louis area in 2025 — one on March 14 and a far more destructive one on May 16 — collecting upfront payments from storm-damage victims for repairs he then failed to deliver.
+
+The Missouri Attorney General's Office charged Kaestner in Jefferson County Circuit Court in May 2026 with 16 felony counts of deceptive business practice and 7 felony counts of financial exploitation of an elderly or disabled person, for a total of 23 felony counts. Prosecutors said Kaestner collected down payments from at least 16 customers between March 2025 and March 2026, then abandoned the promised work — in some cases completing only a fraction of a job, in others never ordering materials or beginning work at all. Seven of the 16 identified victims were 60 or older. Aggregate losses across the case totaled $131,885.91; in one example cited by prosecutors, a customer paid $29,500 for a roof replacement, received less than half the promised work, and lost $25,674.72 with no refund, while a separate elderly customer paid $20,192.25 for a job on which no materials were ever delivered and no work performed, a loss of $18,237.25. According to reporting on the case, Kaestner completed work for at least one customer only after learning that customer had filed a complaint with the Attorney General's office.
+
+Attorney General Catherine Hanaway said in announcing the charges that "in the aftermath of tornadoes and natural disasters, families are at their most vulnerable, and scammers who prey on that pain are reprehensible." The case was investigated by the Missouri Attorney General's Consumer Protection Division and the Jefferson County Sheriff's Office and is being prosecuted by Assistant Attorney General Kait Rhodes; a judge set bond at $50,000. Court records reviewed for this profile also noted prior civil lawsuits against Kaestner over breach-of-contract claims in multiple Missouri counties. As of this writing, Kaestner has not been convicted of any of the felony counts against him and is presumed innocent unless and until proven guilty in court.
+
+Kaestner's case is a reminder that contractors who solicit business in the direct aftermath of a disaster — going door to door in a damaged neighborhood, offering to start "right away" — deserve extra scrutiny rather than less: a legitimate, licensed contractor can wait for a written contract, a reasonable deposit rather than full payment up front, and a license and insurance check before any storm-damage repair work begins.`,
+  },
+);
