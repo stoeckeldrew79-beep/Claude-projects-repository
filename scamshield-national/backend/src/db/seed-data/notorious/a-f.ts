@@ -5731,3 +5731,20 @@ A federal grand jury indicted Grant on July 22, 2024, and she pleaded guilty on 
 Grant's case is a reminder that a nonprofit's mission is no guarantee of how carefully its own money is being watched — the same internal controls that would catch an employee quietly diverting funds at any ordinary business have to actually be in place and enforced at a charity too, regardless of how worthy or well-known its cause is. Donors and board members alike depend on independent audits and segregated financial duties to catch exactly this kind of theft; at Junior Achievement of Northern California, the person controlling the books and the person checking them were, for years, the same one.`,
   },
 );
+
+NotoriousAF.push(
+  {
+    title: "Edwin Emmett Lickiss Jr. and the 26-Year Foundation Financial Group Ponzi Scheme",
+    slug: 'edwin-lickiss-foundation-financial-group-ponzi',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-ndca/pr/former-east-bay-financial-advisor-pleads-guilty-operating-long-running-95-million',
+    body: `Edwin Emmett Lickiss Jr., 78, spent more than a quarter of a century running an investment scheme out of Danville and Alamo, California, in the East Bay outside San Francisco, according to the U.S. Attorney's Office for the Northern District of California and a parallel civil complaint filed by the Securities and Exchange Commission. From 1998 through September 2024, Lickiss issued promissory notes on the letterhead of a company he called Foundation Financial Group, telling investors their money would be placed into "exclusive," safe, tax-free bonds paying returns of more than 20 percent a year, and offering note interest rates ranging anywhere from 9 to 32 percent annually.
+
+None of that description was accurate, according to prosecutors. Lickiss used money from new investors to pay purported returns to earlier ones — the defining structure of a Ponzi scheme — while diverting a substantial share of the funds to his own home renovations, travel, and vehicle and mortgage payments. The SEC's civil complaint, filed in July 2025, put the scale of the fraud at roughly $12.7 million raised from about 80 investors since 1998; the parallel federal criminal case centered on a narrower window of conduct, roughly $9.5 million and more than 90 victims.
+
+Lickiss pleaded guilty on May 20, 2026, in the U.S. District Court for the Northern District of California to one count of wire fraud and one count of money laundering. He faces a statutory maximum of 20 years in prison on the wire fraud count and 10 years on the money laundering count, along with fines of up to $500,000, when U.S. District Judge Jon S. Tigar sentences him; a sentencing hearing was scheduled for August 28, 2026. Publicly available reporting reviewed for this profile did not confirm the outcome of that hearing, so the length of Lickiss's ultimate sentence is not yet known as of this writing.
+
+Lickiss's case is notable simply for how long it ran: at 78, he had reportedly been taking in money on the same false promise since he was in his early fifties, decades before regulators or prosecutors caught up with him. It's a reminder that the passage of time, and a long track record of "paying out" to existing investors, is not itself evidence that an investment is real — it can just as easily mean a fraud has had that much longer to recruit the next round of victims needed to keep the last round paid.`,
+  },
+);
