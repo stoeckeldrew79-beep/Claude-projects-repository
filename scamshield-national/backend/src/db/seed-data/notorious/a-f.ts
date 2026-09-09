@@ -5779,3 +5779,24 @@ The SEC filed suit against Mastroianni and Global in the U.S. District Court for
 Mastroianni's case is a reminder that a broker being "barred" doesn't erase the trust he built up over a career in the industry, or stop him from using it — a formal bar keeps a name off a firm's roster, but it can't, by itself, stop a barred individual from forming his own company and continuing to pitch the same kind of investment directly to people who have no easy way of checking his regulatory history before they sign.`,
   },
 );
+
+NotoriousAF.push(
+  {
+    title: "Emir Jesus Matos Camargo's Counterfeit CFTC License",
+    slug: 'emir-matos-camargo-aureus-revenue-group-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.cftc.gov/PressRoom/PressReleases/8964-24',
+    body: `Note: this case was resolved through a civil consent order, not a criminal conviction. The order does not state that Emir Jesus Matos Camargo admitted or denied the Commodity Futures Trading Commission's findings, and the CFTC's separate case against his company, Aureus Revenue Group LLC, remains pending as of this writing.
+
+Emir Jesus Matos Camargo wanted prospective investors to believe his commodity pool was federally licensed. According to a civil complaint the CFTC filed in the U.S. District Court for the Middle District of Florida, he backed that claim up with manufactured paperwork: people considering putting money into his Orlando-based fund were shown a fictitious license bearing a counterfeit CFTC seal and the forged signature of a former CFTC commissioner, falsely certifying that the agency had licensed Aureus Revenue Group LLC as an investment fund. The CFTC does not license investment funds in the first place — but to someone unfamiliar with how commodities regulation actually works, an official-looking seal paired with a real former official's name can be exactly the reassurance needed to move forward.
+
+From around September 2019 through November 2022, the complaint alleges, Matos and Aureus solicited at least $1.5 million from more than 30 pool participants by promising guaranteed monthly returns of 1.5 to 3.75 percent — a fixed, above-market payout that was itself a red flag, since no legitimate trading strategy can guarantee a specific monthly profit regardless of market conditions. Neither Matos nor Aureus was ever registered with the CFTC as a commodity pool operator, registration federal commodities law requires of anyone soliciting and pooling public money to trade futures.
+
+Behind the promised returns, the CFTC says, actual trading activity was minimal, and at least some participants who did get paid were paid out of money contributed by newer investors rather than trading profits — the defining structure of a Ponzi scheme. The complaint also alleges Matos wrote "warranty checks" to cover investor withdrawals from accounts that didn't have sufficient funds to honor them, and used pool money to cover his own personal expenses.
+
+In April 2026, Matos resolved the CFTC's claims against him personally through a consent order requiring him to pay $666,038.67 in restitution and an equal amount in civil monetary penalties, and imposing a permanent ban on trading or registering in any CFTC-regulated market. The CFTC's own announcement cautioned that a restitution order is a legal obligation, not a guarantee of recovery — victims are not assured of ever collecting that money if Matos lacks the assets to pay it. The agency's case against Aureus Revenue Group LLC itself continues separately.
+
+Matos's fake license is a reminder that regulatory "credentials" shown by an unregistered fund manager are exactly the kind of document that should be verified directly with the regulator that supposedly issued it — the CFTC publishes a searchable registry of everyone actually licensed to operate a commodity pool, and a document a promoter hands over personally is worth exactly nothing until it's checked against that source.`,
+  },
+);
