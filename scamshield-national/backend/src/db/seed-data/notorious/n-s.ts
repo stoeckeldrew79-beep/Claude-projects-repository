@@ -4135,3 +4135,22 @@ At least 67 investors put in more than $20 million. Rather than investing it, Me
 The scheme collapsed in early 2009; the government froze Merriman's assets on April 8, 2009, and he was criminally charged that August. He pleaded guilty to mail fraud on December 2, 2009, and the SEC pursued a parallel civil action that ended in a final judgment against him in December 2011. On September 14, 2010, U.S. District Judge Marcia S. Krieger sentenced Merriman to 151 months — more than 12 years — in federal prison, three years of supervised release, and $20,124,183.13 in restitution; the Tenth Circuit later rejected his appeal. He was excommunicated from the LDS Church and lost his marriage and his home. Starting in July 2013, victims began receiving partial restitution payments — a fraction of what they'd put in, and a reminder that affinity fraud does its damage precisely by weaponizing the kind of community vouching that would ordinarily make someone safer to trust, not less.`,
   },
 );
+
+NotoriousNS.push(
+  {
+    title: 'Shan Hanes: The Kansas Bank CEO Who Embezzled $47 Million Chasing a Crypto "Pig Butchering" Scam',
+    slug: 'shan-hanes-heartland-bank-pig-butchering-embezzlement',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.bankingdive.com/news/former-kansas-bank-ceo-shan-hanes-24-years-crypto-embezzlement-pig-butchering-scam/724849/',
+    body: `Shan Hanes, 53, was the chief executive of Heartland Tri-State Bank, a small community bank in Elkhart, Kansas, near the Oklahoma panhandle — the kind of trusted, small-town banker whose word other people took as good as collateral. In 2023, Hanes was drawn into an online relationship with people who introduced him to what looked like a lucrative cryptocurrency investment opportunity, the setup behind what investigators call a "pig butchering" scam: scammers spend time building trust with a target before steering them toward a fake trading platform showing fabricated, ever-growing returns designed to encourage larger and larger deposits.
+
+Convinced the investment was genuine, Hanes did not risk his own money — he risked the bank's. Between May and July 2023, he initiated eleven wire transfers, ranging from $5,000 to $10.3 million each, sending a total of $47.1 million of Heartland Tri-State's own funds to cryptocurrency wallets controlled by the scammers. When the promised profits never materialized, prosecutors say Hanes didn't stop chasing the loss — according to news reporting on the case, he also drew in money from a local church, an investment club, and his own daughter's college savings account, pulling more people's trust and money into the hole the scam had opened.
+
+The missing $47.1 million triggered Heartland Tri-State's collapse. The FDIC seized the bank in July 2023, one of only five U.S. bank failures that year — and, unlike the others, one caused not by bad loans or a depositor run but by its own CEO's embezzlement. The FDIC arranged for Heartland's roughly $139 million in assets and $130 million in deposits to be acquired by Dream First Bank, but the bank's own investors were wiped out, losing an estimated $9 million in equity.
+
+Hanes pleaded guilty to one count of embezzlement by a bank officer and faced a separate 28-count state indictment in Morton County District Court. On August 19, 2024, U.S. District Judge John Broomes sentenced him to 293 months — more than 24 years — in federal prison, the maximum sentence available under federal sentencing guidelines.
+
+Most coverage of "pig butchering" scams focuses on victims who lose their own personal savings. Hanes's case shows the far greater damage possible when the person being manipulated also controls someone else's money: a bank's, a church's, an investment club's. He kept feeding the scam with funds that were never his to risk, and the fraud collapsed a federally insured bank in the process.`,
+  },
+);
