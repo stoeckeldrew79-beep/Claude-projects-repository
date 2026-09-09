@@ -4800,3 +4800,15 @@ UsGM.push({
     country: 'US',
     state: 'MS',
 });
+
+UsGM.push({
+    name: `Maple Ridge Memory Care Employee's Vulnerable-Adult Jewelry Theft (Lilac Rain Brown-Fisher)`,
+    slug: 'maple-ridge-memory-care-brown-fisher-vulnerable-adult-theft',
+    description: `Lilac Rain Brown-Fisher, 29, of Essex Junction, worked as Activity Director at Maple Ridge Memory Care, an Essex, Vermont facility serving elderly and disabled residents with dementia and other memory-care needs, when she began quietly stealing keepsake and heirloom jewelry from residents in her care. The theft came to light in February 2024 after the daughter of a Maple Ridge resident noticed her parent's keepsake jewelry had gone missing; the family traced the pieces to a local pawn shop, Vermont Coin and Jewelry, and reported it to the Essex Police Department. Detectives who reviewed the facility's surveillance video traced the theft to Brown-Fisher, and a joint investigation by Essex police and the Vermont Attorney General's Office turned up several additional instances of theft from other residents — though some of the stolen heirlooms had already been resold by the pawn shop and could not be recovered. Brown-Fisher pleaded guilty to felony financial exploitation of a vulnerable adult, and on January 2, 2025 a Vermont Superior Court judge sentenced her to a suspended prison term of up to five years, ordered her to pay restitution to her victims, permanently barred her from working with or caring for vulnerable adults, and required her to complete 200 hours of community service through a restorative justice program. Because memory-care residents often cannot report a theft themselves and family members may not notice a missing item for months, relatives are the front line of detection: periodically checking on a resident's personal belongings, photographing valuable jewelry before it is brought into a facility, and reporting anything missing to both the facility and, if unresolved, to local police and the state's Adult Protective Services or Attorney General's office.`,
+    categorySlug: 'identity-theft',
+    alertLevel: 'medium',
+    sources: ['Office of the Vermont Attorney General', 'Vermont Business Magazine', 'Essex Reporter'],
+    sourceUrl: 'https://ago.vermont.gov/blog/2025/01/02/former-maple-ridge-employee-sentenced-exploitation-vulnerable-adults',
+    country: 'US',
+    state: 'VT',
+});
