@@ -2108,7 +2108,17 @@ export const UsTZ: SeedScam[] = [
     country: 'US',
     state: 'VA',
   },
-];
+  {
+    name: "Unsolicited Package QR Code Brushing Scam",
+    slug: "unsolicited-package-qr-code-brushing-scam",
+    description:
+      "A parcel you never ordered arrives at your door with no return address and no vendor name, and inside is a QR code. The missing sender information is deliberate: it pushes a puzzled recipient to scan the code just to figure out who sent the package. Scanning can land you on a page that harvests personal and financial details, or trigger a download of malicious software that pulls data off your phone through permissions you grant along the way. This is a twist on the older brushing scheme, in which sellers shipped unordered goods to real addresses to post fake verified reviews, except now the package is the delivery vehicle for a phishing or malware payload. Do not scan QR codes that arrive from unknown sources, treat any parcel with no sender information as suspicious, and if you have already scanned one, change your passwords, enable multi-factor authentication, monitor your financial accounts, and report it to the FBI's Internet Crime Complaint Center.",
+    categorySlug: "qr-code-scams",
+    alertLevel: "medium",
+    sources: ["FBI Internet Crime Complaint Center (IC3) Public Service Announcement, July 31, 2025","U.S. Postal Inspection Service, brushing scam consumer guidance"],
+    sourceUrl: "https://www.ic3.gov/PSA/2025/PSA250731",
+    country: "US",
+  },];
 
 UsTZ.push({
     name: 'Bellevue Shell-Company Money-Laundering Ring for Tech-Support and Imposter Scams',
