@@ -701,18 +701,6 @@ export const UsGM: SeedScam[] = [
     sourceUrl: 'https://www.in.gov/sos/business/alerts/',
   },
 {
-    name: '"House Max" Predatory Home-Equity Scheme',
-    slug: 'house-max-predatory-home-equity-scheme',
-    description:
-      'A Kansas company called House Max lured vulnerable homeowners — including seniors and those in financial distress — with promises of fast, fee-free home sales, then trapped them in one-sided contracts, sent fake checks, filed false liens, and extracted their home equity while operating without a Kansas real-estate license, charging commissions triple the licensed-agent rate. Kansas Attorney General Kris Kobach sued the company and its principals over the scheme.',
-    categorySlug: 'mortgage-foreclosure-scams',
-    country: 'US',
-    state: 'KS',
-    alertLevel: 'high',
-    sources: ['Office of the Kansas Attorney General'],
-    sourceUrl: 'https://www.ag.ks.gov/Home/Components/News/News/292/1292',
-  },
-{
     name: 'Louisiana "Unemployment Advisory Department" Phishing',
     slug: 'louisiana-unemployment-advisory-department-phishing',
     description:
