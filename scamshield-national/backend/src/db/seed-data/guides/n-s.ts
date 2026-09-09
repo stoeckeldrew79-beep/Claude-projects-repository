@@ -2873,6 +2873,22 @@ If you've received a letter from Sysco about this breach, take it seriously even
 If you believe you've become a victim of identity theft connected to this breach, file a report at IdentityTheft.gov, which will generate a personalized recovery plan, and report any phishing attempt that references the breach to the FTC at ReportFraud.ftc.gov.`,
   },
   {
+    title: `The "Reply YES" Job Text Scam: Why Answering a Recruiting Message Is the Whole Trap`,
+    slug: `reply-yes-job-text-scam-guide`,
+    author: `ScamShield Editorial`,
+    tags: [`guide`, `reply-yes-job-text-scam`],
+    sourceUrl: `https://consumer.ftc.gov/consumer-alerts/2026/04/job-offer-text-probably-scam`,
+    body: `In April 2026, the FTC issued a new consumer alert describing a job-recruitment text scam that skips the step most people have learned to be wary of. Instead of a suspicious link to click, the message — arriving by text, WhatsApp, or Telegram, and often dressed up with a professional-looking logo or graphic — simply asks the recipient to reply "YES" or "INTERESTED" to learn more about a vague remote opening, often described only as something like an "online assessor" position or a general "remote position," with a daily or weekly pay rate mentioned but few other real details.
+
+That single word in a reply text does more work for the scammer than it looks like it should. Replying confirms the phone number is active and belongs to someone willing to engage with an unsolicited message, flagging it as a good target for follow-up contact from this scammer or others who buy and sell lists of numbers known to respond. It also opens a conversation the scammer can steer, since anyone who has already replied has effectively opted into the pitch that follows, making the eventual ask feel like a continuation of something they started rather than a cold request from a stranger.
+
+Once someone engages, the FTC says the follow-up takes one of a few familiar shapes: the "recruiter" might mail a check for supplies or equipment and ask the new hire to deposit it and wire back the "overage" — a check that later bounces and leaves the victim liable for the full amount — or the job might turn out to be a stream of small paid "tasks," such as rating apps or leaving reviews, that require a deposit to unlock a bigger payout that never actually arrives. Both versions dress themselves up as legitimate gig work and can string a target along with small early payouts before the money demanded escalates.
+
+What makes this version worth a fresh warning is the interaction that starts it. Most people have learned to treat a link in an unsolicited text as the danger sign and to feel safer when a message merely asks for a reply. This scam is built around that exact gap: because nothing is asked for yet, and because typing "YES" feels almost like ignoring the message rather than acting on it, replying doesn't trigger the same alarm a suspicious link would — which is precisely why the FTC felt the need to call it out on its own.
+
+The FTC's advice is direct: don't reply to a job offer that arrives unsolicited by text or messaging app, no matter how specific or professional it looks, and treat any message mentioning "remote work," a daily pay rate, or a job you never applied for as a scam by default rather than something to investigate by responding to it. No legitimate employer needs a text reply to gauge interest, and no real job will ever ask you to deposit a check and return part of it, or pay money upfront to get "assigned" paid tasks. If you've already replied, don't send any money or deposit any check tied to the exchange, and block the number. Suspicious job-offer texts can be reported to the FTC at ReportFraud.ftc.gov and forwarded as spam to your mobile carrier by texting the message to 7726 (SPAM).`,
+  },
+  {
     title: `The Orrstown Bank Data Breach: How an Accounting Vendor Sat on a Hack for Eight Months Before Telling the Bank`,
     slug: `orrstown-bank-2026-data-breach-guide`,
     author: `ScamShield Editorial`,
