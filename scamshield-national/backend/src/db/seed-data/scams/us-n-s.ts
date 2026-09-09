@@ -4471,3 +4471,27 @@ UsNS.push({
     country: 'US',
     state: 'NM',
 });
+
+UsNS.push({
+    name: 'AIM Health Foster, Rhode Island Insurance Billing Fraud (Nowak & Simmons)',
+    slug: 'rhode-island-aim-health-nowak-simmons-insurance-fraud',
+    description: `Brandon Nowak, 32, and Jason Simmons, 33, both of Foster, Rhode Island, ran Alternative Integrative Medicine, LLC, doing business as AIM Health, and were indicted on conspiracy to commit health care fraud and fourteen counts of health care fraud after prosecutors said the pair spent years billing insurers for treatment patients never actually received. According to the indictment, beginning in October 2020 Nowak and Simmons repeatedly submitted claims to Medicare, Medicare Advantage, Medicaid Managed Care, and four private insurers for services described as "medically necessary" that were never provided, routinely telling patients that a massage therapy session was covered by their insurance — which it typically was not — and then billing the visit instead as acupuncture, physical therapy, or an evaluation-and-management office visit, none of which the patient actually received. The clinic also billed for infrared therapy, hot-and-cold therapy, therapeutic activity, and self-care/home-management training that was never delivered and that AIM Health did not even employ appropriately licensed providers to perform, adding up to nearly $1.9 million in fraudulent claims. Nowak and Simmons were arraigned in U.S. District Court on April 11, 2025. The case is a reminder that an insurance explanation-of-benefits statement listing a service you don't remember receiving — an "acupuncture" visit when you only got a massage, for instance — is worth reading closely and reporting to your insurer's fraud line rather than assuming it's just paperwork, since patients are often the only ones positioned to notice their own visit was billed as something it wasn't.`,
+    categorySlug: 'healthcare-fraud',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office, District of Rhode Island", 'U.S. Department of Veterans Affairs Office of Inspector General'],
+    sourceUrl: 'https://www.justice.gov/usao-ri/pr/pain-management-clinic-owners-and-operators-indicted-health-care-fraud-charges',
+    country: 'US',
+    state: 'RI',
+});
+
+UsNS.push({
+    name: 'One Community Mental Health Medicaid Fraud (Acheampong & Owusu-Sekyere)',
+    slug: 'ohio-one-community-mental-health-medicaid-fraud',
+    description: `Roberta Acheampong, 39, and her husband Godfred Owusu-Sekyere, 46, formerly of Powell, Ohio, owned and operated One Community Mental Health, a Franklin County behavioral-health clinic, which a years-long investigation by Ohio Attorney General Andy Wilson's Medicaid Fraud Control Unit found had billed Medicaid multiple times a week for entire refugee households — without those families' knowledge — for mental health and therapeutic behavioral services that were never actually provided. Investigators say the couple also forged documents and used the stolen identities of the clinic's own translation and transportation staff to submit additional fraudulent claims under those employees' names, and that bank records trace the stolen Medicaid money through multiple accounts into real estate purchases and a Porsche. A Franklin County grand jury indicted the pair on July 15, 2026 on twelve felony counts — engaging in a pattern of corrupt activity, telecommunications fraud, theft, forgery, Medicaid fraud, money laundering, and identity fraud — after tracing $9.3 million in fraudulent billing to the clinic; both defendants are believed to now be living in Kenya or Ghana and remain at large. "These are your tax dollars being stolen. We are committed to rooting out Medicaid fraud and holding offenders accountable," Wilson said. The case is a reminder that Medicaid fraud doesn't only come from an outside scammer pretending to be a provider — it can come from a real, licensed clinic quietly billing for care a family never asked for or received — so anyone enrolled in Medicaid, or helping a refugee or non-English-speaking family member navigate it, should periodically check explanation-of-benefits notices for services or providers they don't recognize and report any mismatch to the state Medicaid Fraud Control Unit.`,
+    categorySlug: 'medicare-health-plans',
+    alertLevel: 'high',
+    sources: ["Ohio Attorney General's Office", 'Richland Source'],
+    sourceUrl: 'https://www.richlandsource.com/2026/07/15/couple-who-previously-lived-in-powell-indicted-in-9-3-million-medicaid-scheme/',
+    country: 'US',
+    state: 'OH',
+});
