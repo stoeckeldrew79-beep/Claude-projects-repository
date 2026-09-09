@@ -6465,3 +6465,15 @@ UsAF.push({
     country: 'US',
     state: 'NM',
 });
+
+UsAF.push({
+    name: 'FBI Boston "Encrypted App" Agent Impersonation Scam',
+    slug: 'fbi-boston-encrypted-app-agent-impersonation-scam',
+    description: `The FBI's Boston Division warned New England residents on August 19, 2026 about a new twist on federal-agent impersonation that starts with a call from someone posing as a representative of the victim's own bank or credit union, claiming their identity was used to open an account to purchase illegal firearms. The caller offers to transfer the victim to law enforcement to "clear up" the fraud, the line goes to someone identifying as an FBI special agent investigating the case, and the call then abruptly disconnects. Minutes later the victim's phone rings again, this time showing FBI Boston's real published number, 857-386-2000, spoofed by the scammers so caller ID appears to confirm the earlier call was genuine; the caller supplies a fabricated name and badge number and, to keep the fraud moving, directs the victim to continue the conversation on an encrypted messaging app rather than by ordinary phone or email. The FBI says more than 1,000 people across New England were victimized by the scheme over the past year, with combined losses approaching $29 million, including 706 victims in Massachusetts alone who lost a combined $24,508,041. "The FBI will never call or email a private citizen to demand payment, ask for personal information, threaten arrest, or ask you to switch to an encrypted app to continue a conversation," the bureau said in its alert. Anyone who receives a call that appears to be from the FBI, especially one that follows a supposed bank-fraud alert or asks to move the conversation off ordinary phone or email channels, should hang up, independently look up the field office's number, and call it directly rather than trusting caller ID, then report the contact to the FBI's Internet Crime Complaint Center at ic3.gov.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ['FBI Boston Field Office', 'The Boston Globe'],
+    sourceUrl: 'https://www.fbi.gov/contact-us/field-offices/boston/news/fbi-boston-warns-of-new-agent-impersonation-scam-spoofing-fbis-phone-number-before-urging-victims-to-switch-to-encrypted-application',
+    country: 'US',
+    state: 'MA',
+});

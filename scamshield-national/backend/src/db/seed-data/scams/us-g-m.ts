@@ -5014,3 +5014,27 @@ UsGM.push({
     country: 'US',
     state: 'MI',
 });
+
+UsGM.push({
+    name: 'Michigan UIA "Unclaimed Benefits" Advance-Fee Phone Scam',
+    slug: 'michigan-uia-unclaimed-benefits-advance-fee-scam',
+    description: `Michigan's Unemployment Insurance Agency (UIA) issued a public warning on August 20, 2026 about callers posing as UIA staff who tell residents they are owed unemployment benefits the agency never actually paid out, and that a one-time fee must be paid before the money can be released. In one case reported to the agency, a Michigander received a call from a 313 area code from someone claiming to be a UIA "human resources manager" who recited a fake employee number, said the agency owed the resident roughly $4,000, and told them a $105 fee had to be paid first to unlock the funds. UIA Director Jason Palmer said, "You should be cautious if you are contacted randomly by someone who says they are from the UIA and offering you money," adding that the agency will never ask a claimant to pay a fee to access money they were already approved to receive. The agency notes it pays legitimate benefits only two ways — a debit card issued through U.S. Bank or direct deposit into the claimant's own bank account — and warns that scammers can spoof caller ID to display a real-looking local area code even when the call actually originates elsewhere. The U.S. Department of Labor's Unemployment Insurance Integrity Center has tracked similar AI-assisted "unclaimed benefits" robocalls using the identical $4,000 figure surfacing in other states, including North Dakota. Anyone contacted this way should hang up immediately, never provide a Social Security number or bank information to an unsolicited caller, and verify their own claim status by calling the UIA's Customer Service line at 866-500-0017 directly rather than any number the caller provides.`,
+    categorySlug: 'public-benefits-fraud',
+    alertLevel: 'medium',
+    sources: ['Michigan Unemployment Insurance Agency (UIA)'],
+    sourceUrl: 'https://www.michigan.gov/leo/news/2026/08/20/uia-warns-of-phone-scam-promising-unpaid-benefits-for-a-fee',
+    country: 'US',
+    state: 'MI',
+});
+
+UsGM.push({
+    name: 'Lollapalooza Ticket Scam ("Wait List" and Screenshot Tickets)',
+    slug: 'illinois-lollapalooza-ticket-scam',
+    description: `Ahead of the 2026 Lollapalooza festival in Chicago's Grant Park, the Better Business Bureau serving Chicago and Northern Illinois warned fans about a wave of phony ticket websites, fake festival "Wait Lists," and resold or copied mobile tickets that leave buyers turned away at the gate. BBB President and CEO Steve Bernas said, "The frenzy for last-minute Lollapalooza tickets makes it easier for scammer tricks to be effective," warning that "fraudsters have lots of schemes knowing you are in a hurry and buying with emotion." According to the BBB, scammers copy a legitimate buyer's mobile ticket barcode and resell that same image to multiple purchasers on Facebook Marketplace, Craigslist, and other resale sites, sell counterfeit tickets with forged barcodes that look convincing but scan as invalid at the gate, and run fake ticket websites that collect a buyer's card information for festival passes that never exist. The BBB advised fans to buy only through the festival's own official "Buy Verified Resale" option or Wait List rather than a third-party site, to pay with a credit card so a fraudulent charge can be disputed, to confirm any unfamiliar seller through BBB.org before sending payment, and to be skeptical of any listing offering festival passes well below face value once the event is close to selling out.`,
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'medium',
+    sources: ['Better Business Bureau serving Chicago and Northern Illinois', 'CBS News Chicago'],
+    sourceUrl: 'https://www.cbsnews.com/chicago/news/lollapalooza-tickets-scam-bbb/',
+    country: 'US',
+    state: 'IL',
+});
