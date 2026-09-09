@@ -5894,3 +5894,52 @@ Shams himself pleaded guilty in March 2020 to first- and second-degree grand lar
 At 66, and already a convicted health care fraudster decades before Multi-Specialty ever opened, Shams is a case study in how a professional ban is only as effective as the paperwork behind it — someone determined to keep running the same fraud can put a different name on the ownership papers and keep going, unless investigators are specifically looking for exactly that pattern.`,
   },
 );
+
+NotoriousGM.push(
+  {
+    title: `Michael Mandel Baldwin and the "Miracle Mansion" Church Investment Scheme`,
+    slug: 'michael-baldwin-miracle-mansion-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-wdnc/pr/assistant-pastor-convicted-trial-800000-investment-scheme-sentenced-prison',
+    body: `From 2009 to October 2021, Michael Mandel Baldwin served as assistant pastor and musical director at a church in Northern Virginia while also running his own company, Miracle Mansion, LLC, of which he was chief executive officer. According to the U.S. Attorney's Office for the Western District of North Carolina, Baldwin used his standing inside the church to pitch a very different kind of project to fellow believers: an "entertainment complex" he described as poised to "reshape the face of family entertainment" in the Washington, D.C. area, built around explicitly Biblical themes.
+
+To make the pitch land, prosecutors said, Baldwin produced promotional material and ran investor meetings — in person and virtual — that repeatedly misrepresented the project's backing. He falsely claimed that executives from Chick-fil-A, Hobby Lobby, and the Kennedy Center had reviewed and endorsed Miracle Mansion; when some of those companies were later asked about the claims, officials said they had no knowledge of Baldwin or his project and had never endorsed it.
+
+Baldwin's first and most significant victim was a church in the Charlotte, North Carolina area, whose pastor and congregation members invested on the strength of his pitch; he went on to solicit individuals and entities in Virginia, Arkansas, Florida, and Georgia as well, ultimately taking in more than $800,000. Rather than developing the project, prosecutors said, Baldwin spent investor money on personal expenses — travel, restaurant meals, and credit card payments — and used some of it to make Ponzi-style payments back to earlier investors to keep the project looking active.
+
+A federal jury in Charlotte convicted Baldwin of wire fraud and securities fraud in December 2022, each carrying a statutory maximum of 20 years in prison. His sentencing did not happen until nearly two years later: on August 20, 2024, he was sentenced to 27 months in federal prison, to be followed by three years of supervised release. No published reporting reviewed for this profile indicates whether Baldwin has since appealed his conviction or sentence.
+
+Baldwin's case follows a pattern regulators see repeatedly in affinity fraud aimed at religious communities: a fellow believer's own position inside the church did work that due diligence should have, and invented celebrity-adjacent endorsements gave a project with no real backing the borrowed credibility of brands the victims already trusted.`,
+  },
+  {
+    title: 'Marvin Upton and the Bank Fraud Scheme Against His Own Parishioner',
+    slug: 'marvin-upton-crofton-pastor-elder-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-wdky/pr/former-crofton-pastor-sentenced-over-two-years-federal-prison-fraud-and-tax-offenses',
+    body: `Marvin Upton, 58, was the pastor of Crofton Pentecostal Church in the small western Kentucky town of Crofton. According to the U.S. Attorney's Office for the Western District of Kentucky and IRS Criminal Investigation, Upton spent three years, from 2013 to 2016, defrauding one of his own elderly parishioners — a member of his congregation who was suffering from dementia — through a bank fraud scheme, and then compounded it by filing false federal tax returns that omitted the income he derived from defrauding her.
+
+The published record of the case does not detail the specific mechanics prosecutors proved at trial — whether Upton used checks, account access, or some other means to divert the victim's money — but the underlying charges were three counts of bank fraud tied directly to the scheme against her, alongside three counts of filing false tax returns covering the same period. A federal jury convicted Upton on all six counts.
+
+On March 20, 2025, Upton was sentenced to two years and three months in federal prison, to be followed by three years of supervised release. He was also ordered to pay $500,000 in restitution — payable to the victim's estate, indicating she had died by the time of sentencing — plus $222,037 in restitution to the IRS for the taxes he evaded on the fraud proceeds. Announcing the sentence, the U.S. Attorney's Office noted flatly that "there is no parole in the federal system," meaning Upton will serve out the great majority of his term. The investigation was conducted by IRS Criminal Investigation's Cincinnati Field Office as part of the National Elder Justice Task Force and the Kentucky Elder Justice Task Force.
+
+Upton's case is elder financial exploitation carried out inside the one relationship a vulnerable, cognitively declining congregant may have trusted most: her own pastor. It's a reminder that the people best positioned to protect someone with dementia from financial abuse are often family members and trusted professionals outside the fraudster's own circle — because inside a small, close congregation, a pastor's standing can be exactly the credential that lets exploitation go unquestioned for years.`,
+  },
+  {
+    title: 'Jonathan Webb and the Forex Scheme That Targeted His Own Cemetery Coworkers',
+    slug: 'jonathan-webb-cemetery-forex-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26267',
+    body: `Note: this is a settled civil SEC enforcement action, not a criminal case. Jonathan Webb agreed to settle without admitting or denying the SEC's allegations, and the settlement was subject to court approval that could not be independently confirmed as finalized as of this writing.
+
+Jonathan Webb worked at a cemetery in Massachusetts in various horticultural and groundskeeping roles from 1994 through 2024. He had no professional investment training or experience beyond his own retirement account and personal trading, until around 2019, when he took a two-week course on online trading, with the second week focused specifically on foreign currency exchange, or Forex, trading.
+
+According to a civil complaint the Securities and Exchange Commission filed March 13, 2025 in federal court in Massachusetts, Webb turned that brief course into a pitch to the people around him: from at least January 2021 to August 2023, he solicited and accepted approximately $1.7 million from at least 34 investors — several of them fellow employees at the cemetery where he worked — promising he could double their money within a year by pooling their funds and trading Forex, and guaranteeing the return of their principal plus any interest earned. The SEC says Webb converted investor money into cryptocurrency, moved it to overseas brokerages that offered leverage as high as 500-to-1, and traded using an algorithmic program he had purchased online.
+
+The trading lost money almost from the start. By August 2023, according to the SEC, Webb had lost the great majority of the funds he'd taken in — yet he kept soliciting new investors during that period and used newer investors' money to make payments that looked like returns to earlier ones, the basic structure of a Ponzi scheme layered on top of the trading losses. Webb agreed to settle the SEC's case, consenting to a permanent injunction and a conduct-based injunction without admitting or denying the allegations, and to pay disgorgement of $250,753 plus prejudgment interest of $29,391 and a civil penalty of $118,225 — a little under $400,000 in total monetary relief, against $1.7 million taken in.
+
+Webb's case is a reminder that a novice's own trust in a stranger's paid online course doesn't make the strategy sound, and that low-income coworkers recruited through workplace familiarity rather than any credential are exactly the audience least equipped to independently evaluate a "guaranteed" doubling of their money — the guarantee itself being the clearest tell, since no lawful investment can promise a fixed return.`,
+  },
+);
