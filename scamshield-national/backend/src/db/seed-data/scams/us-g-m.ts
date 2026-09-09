@@ -4943,3 +4943,15 @@ UsGM.push({
     country: 'US',
     state: 'MA',
 });
+
+UsGM.push({
+    name: 'Indiana College Football Playoff Championship Ticket Scam',
+    slug: 'indiana-cfp-national-championship-ticket-scam',
+    description: `As Indiana University's historic unbeaten football season carried the Hoosiers into the College Football Playoff National Championship against the University of Miami at Hard Rock Stadium in Miami Gardens, Florida on January 19, 2026, Indiana Attorney General Todd Rokita's office warned fans that the same excitement scammers exploit every time a beloved team reaches a title game was already showing up in a wave of fraudulent ticket offers. "Fraudsters are always using moments like this to prey on fans' raw excitement and turn joy into financial loss," Rokita said. The office flagged the pattern behind championship-game and major-event ticket fraud generally: unsolicited offers arriving by text, direct message, social media, or email; sellers who push a buyer to pay outside a ticketing platform's own secure checkout; promises that a ticket will be delivered only at the last possible minute, timed so a buyer has no real chance to verify it before the game; prices suspiciously far below what real tickets for a sold-out championship are fetching; and fraudulent websites with a misspelled or slightly altered domain name selling tickets with incorrect seat, gate, or event details printed on them. Rokita's office advised fans to research legitimate ticket pricing before buying, to purchase only through Indiana University's own official channels or a verified third-party vendor, to pay exclusively by credit card rather than cash, a debit card, a payment app, a wire transfer, or a gift card so a fraudulent charge can be disputed, to check that a ticketing site's address begins with "https" and is spelled correctly, and to confirm every detail on a ticket — team, date, section, gate — matches the actual event before paying. Because the same tactics resurface every football and basketball season whenever a hometown team, bowl game, or tournament run creates a rush of eager buyers, the office's advice applies well beyond this single game; fans who believe they've been scammed can file a complaint at indianaconsumer.com or call 317-232-6330.`,
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'medium',
+    sources: ['Indiana Office of the Attorney General'],
+    sourceUrl: 'https://events.in.gov/event/amid-jubilation-over-ius-excellent-football-season-dont-get-sacked-by-ticket-scams-in-attempts-to-attend-championship-game',
+    country: 'US',
+    state: 'IN',
+});
