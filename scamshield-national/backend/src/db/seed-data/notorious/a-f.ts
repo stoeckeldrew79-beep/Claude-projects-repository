@@ -5901,4 +5901,32 @@ A federal court temporarily halted the operation and froze its assets in Novembe
 
 The case is a reminder that any company offering to reduce or forgive federal student loan debt for an upfront fee is not operating the way federal loan servicing actually works: the Department of Education and its official contracted servicers never charge a fee to consolidate a loan, lower a payment, or apply for forgiveness, and a caller who claims otherwise — however official the letterhead looks — is describing a business model the law does not allow.`,
   },
+{
+    title: 'Charles Hallinan: The "Godfather of Payday Lending" and His $492 Million Illegal Loan Empire',
+    slug: 'charles-hallinan-godfather-payday-lending-racketeering',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-edpa/pr/reputed-godfather-payday-lending-sentenced-168-months-federal-prison',
+    body: `Charles M. Hallinan was a Main Line Philadelphia investment banker who, after selling a landfill company for roughly $120 million in the 1990s, moved into payday lending and became so dominant in the industry that other lenders called him the "godfather of payday lending." Over roughly two decades, he owned, financed, or operated dozens of small-loan companies with names like Tele-Ca$h, Instant Cash USA, and Your First Payday, issuing short-term, fixed-fee loans to financially stretched borrowers at interest rates federal prosecutors said worked out to as much as 780% a year.
+
+Rates like that were flatly illegal under state usury laws — Pennsylvania caps annual interest at 6% — so Hallinan built, and reportedly taught other lenders, a workaround. First he ran loans through out-of-state banks in a "rent-a-bank" arrangement, claiming the bank's home-state rules, not the borrower's, applied. When regulators cracked down on that, he switched to "rent-a-tribe": nominally routing the loans through Native American tribal entities that could claim sovereign immunity from state lending law, while Hallinan's own companies continued to actually fund the loans, service the debt, and keep the profits. His longtime lawyer, Wheeler K. Neff, helped design the sham partnerships. Between 2007 and 2013 alone, prosecutors said, Hallinan's companies made loans to about 1.4 million borrowers and generated roughly $492 million in revenue.
+
+A federal grand jury in the Eastern District of Pennsylvania indicted Hallinan and Neff on racketeering and fraud charges, and in November 2017 a jury convicted Hallinan on all 17 counts, including two counts of conspiracy to violate the Racketeer Influenced and Corrupt Organizations Act, mail and wire fraud, and international money laundering. Neff was convicted separately and sentenced to eight years. In July 2018, then-77-year-old Hallinan — who argued at sentencing that a recent cancer diagnosis warranted leniency — was sentenced to 168 months, 14 years, in federal prison, fined $2.5 million, and ordered to forfeit more than $64 million in assets, including his Villanova mansion and a $142,000 Bentley.
+
+Hallinan's case is a reminder that predatory lending doesn't have to hide in a back alley to be a crime. His companies operated openly, advertised nationally, and processed payments through the ordinary banking system for years while state regulators struggled to pierce the layer of sham tribal and bank partnerships built specifically to make an illegal 780% loan look, on paper, like it belonged to someone else.`,
+  },
+{
+    title: 'Andy Bowdoin and the AdSurfDaily "Autosurf" Ponzi Scheme That Took In $120 Million',
+    slug: 'andy-bowdoin-adsurfdaily-autosurf-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/doj/case/us-v-thomas-anderson-bowdoin-jr-aka-andy-bowdoin',
+    body: `Thomas Anderson Bowdoin Jr., who went by Andy Bowdoin, ran a Quincy, Florida-based company called AdSurfDaily, Inc. that presented itself as an online advertising business but was, underneath, a Ponzi scheme wearing a dot-com costume. Members paid to "purchase advertising" and, in exchange, clicked through a rotating carousel of banner ads on an "ASD rotator" a set number of times a day. For that modest effort, ASD promised to return 125% — initially 150% — of whatever a member had put in, plus commissions for recruiting new members.
+
+There was never enough real advertising revenue to fund payouts anywhere close to that. Between September 2006 and August 2008, ASD took in more than $120 million from roughly 96,000 members, and the payments going back out — about $45 million to members, plus recruitment commissions — came almost entirely from money paid in by newer members, the defining structure of a Ponzi scheme. Bowdoin spent more than $1 million of it on himself and his family, including a lake house, a boat, recreational watercraft, and luxury vehicles bought in 2008 even as the scheme was cracking.
+
+The U.S. Secret Service raided ASD in August 2008 and seized cash, gold, and other assets. What followed was a years-long civil forfeiture fight, complicated by the fact that tens of thousands of ASD's own members insisted, sincerely, that they had simply bought advertising services and demanded their "investments" back rather than accepting the government's Ponzi-scheme theory of the case. The government ultimately obtained roughly $80 million in forfeited funds and returned about $59 million of it to approximately 9,000 victims. Bowdoin was indicted, and in May 2012 he pleaded guilty to a single federal count of wire fraud, admitting ASD had never operated as a lawful business at any point from its 2006 launch through its 2008 collapse. He was sentenced that August to 78 months in federal prison, followed by three years of supervised release.
+
+ASD was one of the largest "autosurf" Ponzi schemes of the 2000s internet-Ponzi wave, and the resistance of its own membership to the fraud finding is part of what makes the case worth remembering: a scheme dressed up with a plausible-sounding business model — click ads, get paid — can build a base of true believers who fight harder for the con than the con man does, simply because they can't accept that the returns they were counting on were never real.`,
+  },
 );
