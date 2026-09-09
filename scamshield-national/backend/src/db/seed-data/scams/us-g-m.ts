@@ -5136,3 +5136,39 @@ UsGM.push({
     country: 'US',
     state: 'HI',
 });
+
+UsGM.push({
+    name: 'Iowa Insurance Agent Barred for Annuity-Churning Scheme Targeting Retired Postal Workers',
+    slug: 'iowa-postal-worker-annuity-churning-scam',
+    description: `The Iowa Insurance Division announced on July 20, 2026 that it had revoked the nonresident producer license of Starrla Ramae Norman of Dexter, Missouri, and permanently barred her from Iowa's securities industry after an investigation found she built a client base by working the professional gatherings and reunions of retired U.S. Postal Service employees. Investigators say Norman convinced retirees to liquidate money out of their federal Thrift Savings Plan accounts — which hold real securities built up over a career — and roll it into high-commission fixed indexed annuities, then falsified clients' income, net worth, and liquid-asset figures on the annuity applications to make the purchases appear suitable. She's also accused of "churning": talking existing clients into surrendering an annuity she had sold them not long before for a nearly identical replacement policy, which generates a fresh commission for the agent but can trigger new surrender penalties and reset a policy's withdrawal-penalty clock for the client, and of directing replacement checks to route through consumers themselves rather than agent-to-agent, a step regulators say is a known way to dodge the compliance review a direct transfer would trigger. The Division additionally found she signed at least one Iowa consumer's name to documents remotely from Missouri while representing her own location as Iowa. Commissioner Doug Ommen ordered Norman to pay $44,954 in restitution to an affected Iowa consumer plus $10,000 toward the state's investigation and prosecution costs; Norman separately pleaded guilty to a Class D felony, Insurance Fraud – Application Submission, for knowingly submitting a falsified application to Allianz Life Insurance Company, with sentencing scheduled for September 4, 2026. Retirees approached about moving Thrift Savings Plan, 401(k), or pension money into an annuity — especially through a pitch made at a retiree luncheon, reunion, or other affinity gathering rather than a licensed office — can verify an agent's license and any disciplinary history for free through the Iowa Insurance Division's producer lookup or their own state regulator, and should be wary of any push to replace an annuity purchased only a few years earlier.`,
+    categorySlug: 'insurance-fraud',
+    alertLevel: 'high',
+    sources: ['Iowa Insurance Division'],
+    sourceUrl: 'https://iid.iowa.gov/press-release/2026-07-20/iowa-insurance-commissioner-revokes-license-and-orders-restitution-preying-retired-postal-workers',
+    country: 'US',
+    state: 'IA',
+});
+
+UsGM.push({
+    name: '"Got Picked" Text Phishing Scam Targeting Missouri School Families',
+    slug: 'missouri-got-picked-school-phishing-text-scam',
+    description: `The Marion C. Early R-V School District in Morrisville, Missouri warned families on August 20, 2026 about text messages, sent as the new school year got underway, that used the district's own name and likeness while claiming to be from something called "Got Picked" and linking to a page that asked recipients to enter a child's name, birth date, and school. District IT investigator Shane Woollard said the messages weren't random: "Scammers use names of people from our contact list. On a webpage, all the people who are listed get harvested" — meaning the scam appears to spread by having each new victim's own phone or family contacts scraped and fed back into the next wave of texts, letting it move through a school community on the trust that a message referencing real names and the real district inspires. The district confirmed the message did not come from Marion C. Early and stressed that official district communications only ever go out through its own established platform, never an outside link. Woollard urged families not to click links from unfamiliar senders, to watch for spelling and grammar mistakes and pressure to act urgently, and to call the district office directly to verify any message before responding to it, adding, "It's dangerous out there. I don't want people to be scared. But I want them to be aware of their surroundings, digitally, and pay attention to those red flags." The district said similar phishing attempts were turning up at schools elsewhere in Missouri the same back-to-school season, part of a broader wave of spoofed registration, fee, and supply-list texts nationwide that route parents to pages built to harvest a child's personal information rather than a real school's site.`,
+    categorySlug: 'phishing',
+    alertLevel: 'medium',
+    sources: ['Marion C. Early R-V School District', 'KY3 (KYTV)'],
+    sourceUrl: 'https://www.ky3.com/2026/08/20/marion-c-early-school-district-warns-phishing-text-message/',
+    country: 'US',
+    state: 'MO',
+});
+
+UsGM.push({
+    name: 'AI-Generated Multi-Officer Police Impersonation Scam (DeKalb County, Georgia)',
+    slug: 'georgia-ai-generated-fake-police-officer-scam',
+    description: `Kayla Adeboye, a Brookhaven, Georgia resident in DeKalb County, described in December 2025 how she nearly handed scammers $5,000 after a caller ID spoofed to display an actual DeKalb County Police Department phone number rang her phone on a Saturday morning. The caller identified himself as "Captain Michael Frazier," gave a badge number, and — striking a detail no ordinary robocall script would have — referenced a real traffic ticket Adeboye had received only about nine hours earlier, lending the call a credibility a generic warrant scam couldn't match. Partway through, the caller brought additional "officers" onto the line to back up his story; Adeboye said the voices were AI-generated, letting one scammer simulate an entire department's worth of corroborating colleagues rather than relying on a single caller to sustain the deception. She was told she needed to bring $5,000 in cash to a courthouse as "collateral" tied to a supposed signature-fraud investigation, and was driving to comply when her mother, reached on a separate line, called DeKalb County directly, confirmed no such case or officer existed, and stopped her before any money changed hands. Adeboye's account of the call spread quickly after she posted about it, picking up roughly 2,500 shares within three days as other DeKalb-area residents recognized the same pattern. Real law enforcement never demands cash, gift cards, or other "collateral" over the phone and never conducts an investigation solely by phone call; anyone who gets a call like this, however convincing the badge number, caller ID, or number of "officers" on the line, is advised to hang up and call the department back only at its published non-emergency number to verify before doing anything else.`,
+    categorySlug: 'ai-deepfake-scams',
+    alertLevel: 'high',
+    sources: ['Atlanta News First (WANF)'],
+    sourceUrl: 'https://www.atlantanewsfirst.com/2025/12/09/dekalb-county-woman-says-she-almost-gave-5k-scammers-pretending-be-police-officers/',
+    country: 'US',
+    state: 'GA',
+});
