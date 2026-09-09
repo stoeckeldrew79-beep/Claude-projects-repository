@@ -5671,3 +5671,39 @@ Spiridonov and Janeva are charged with conspiracy to commit wire fraud, wire fra
 The "Trump Bucks" scheme is a reminder that a scam doesn't need any real connection to the famous name it invokes to be effective — it only needs a buyer willing to believe the connection is real. No sitting or former president, and no legitimate political campaign, sells redeemable "currency," "checks," or "certificates" through Telegram chats and online marketplaces; any product marketed that way is, regardless of whose name or face is stamped on it, a fabrication designed to separate a buyer from real money in exchange for worthless paper.`,
   },
 );
+
+NotoriousGM.push(
+  {
+    title: 'Miles Burton Marshall and the Three-Decade "Eight Percent Fund" Ponzi Scheme',
+    slug: 'miles-burton-marshall-eight-percent-fund-ponzi',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://ag.ny.gov/press-release/2026/attorney-general-james-announces-sentencing-madison-county-tax-preparer-who',
+    body: `Miles Burton Marshall was a tax preparer in Hamilton, a small town in New York's Madison County, when he began soliciting his own clients — people who already trusted him with their financial paperwork every year — to invest in something he called the "Eight Percent Fund." He told them their money would go primarily into real estate investments and promised a guaranteed 8 percent annual return, a pitch he kept running, according to the New York Attorney General's Office, from the early 1990s until the scheme finally collapsed in March 2023.
+
+There was no real estate portfolio generating anything close to those returns. Instead, prosecutors say, Marshall paid earlier investors with money raised from newer ones — the defining mechanic of a Ponzi scheme — while also siphoning off client funds to prop up his other business ventures and to pay for his own travel, shopping trips, and restaurant visits. What made the fraud unusual was less its structure than its duration: Marshall kept it running for roughly three decades in a small, tight-knit rural community, eventually drawing in 988 investors across Madison County and neighboring counties who collectively lost more than $50 million in principal.
+
+Marshall pleaded guilty on April 28, 2026 to grand larceny in the second degree, securities fraud under New York's Martin Act, and scheme to defraud in the first degree, following an investigation by the state Attorney General's Office, the New York State Police, FINRA, and the SEC. As part of the plea, he consented to civil judgments in favor of his 988 victims totaling approximately $85 million in principal and accrued interest. On June 11, 2026, a judge sentenced him to four to twelve years in state prison. "For more than thirty years, Miles Burton Marshall scammed his clients out of their life savings in a classic Ponzi scheme," Attorney General Letitia James said in announcing the sentence.
+
+Marshall's case is a reminder that a Ponzi scheme doesn't need Wall Street sophistication, a slick pitch deck, or out-of-state victims to survive for decades — it only needs a steady flow of new deposits and a level of personal trust that keeps people from asking hard questions. A tax preparer already handling a client's most sensitive financial documents once a year had exactly that kind of trust to draw on, and it took thirty years and 988 victims before it ran out.`,
+  },
+);
+
+NotoriousGM.push(
+  {
+    title: 'Joshua Link, Agridime, and the $220 Million "Ghost Herd" Cattle Fraud',
+    slug: 'joshua-link-agridime-ghost-herd-cattle-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-ndtx/pr/five-federally-indicted-alleged-220-million-nationwide-cattle-fraud-scheme-one',
+    body: `Note: this case involves both a guilty plea and pending charges. Jed Wood has pleaded guilty to one count of wire fraud; Joshua Link, Tia Link, Taylor Bang, and Royana Thomas have been indicted but, as of this writing, have not been convicted, and the allegations against them described below reflect the government's case rather than proven facts.
+
+Agridime LLC, headquartered in Fort Worth, Texas, marketed itself as a way for ordinary people to invest directly in the cattle business: a customer could buy a contract tied to a specific, individually identified animal, which Agridime would raise on real ranches and eventually sell for meat, splitting the resulting profit with the investor. Agricultural trade press later nicknamed it the "ghost herd" scheme, because — according to a federal indictment — the company never purchased anywhere near enough actual cattle to back the volume of contracts it was selling.
+
+A grand jury in the Northern District of Texas indicted five Agridime executives and employees in February 2026: Joshua Link, the company's executive director; Jed Wood, its operations director; Tia Link, its marketing director; Taylor Bang, a cattle broker; and Royana Thomas, its financial controller. The indictment alleges that from January 2021 through December 2023, the five ran a scheme that collected more than $220 million from over 2,200 individual cattle purchasers, ranchers, and feedlots across the country. Rather than buying the promised livestock, prosecutors allege, the defendants used newer customers' money to cover Agridime's operating expenses and to pay off earlier customers — the hallmark structure of a Ponzi scheme — while also directing funds toward personal expenses and real estate; Joshua Link alone is accused of wiring more than $527,000 in customer money toward the purchase of real property. The criminal case followed earlier civil action: the CFTC and SEC had already accused Agridime of running a Ponzi scheme in 2024, and by 2025 a federal court had ordered the company to pay more than $103 million in restitution.
+
+Joshua Link, then living in Strafford, Missouri, did not appear following the indictment and was named a fugitive on the FBI's wanted list, until federal agents and airport police captured him at Los Angeles International Airport on March 9, 2026. Jed Wood pleaded guilty to one count of wire fraud on March 25, 2026. As of this writing, Tia Link, Taylor Bang, and Royana Thomas have not been convicted and are presumed innocent unless and until proven guilty; their trial, along with any remaining proceedings against Joshua Link, was scheduled to begin September 21, 2026.
+
+Agridime is a case study in how far a fraud can travel on an appeal to self-sufficiency and skepticism of Wall Street: cattle ownership is about as tangible and old-fashioned an investment as exists, and prosecutors allege that tangibility is exactly what made a scheme built on livestock that mostly didn't exist so convincing to more than two thousand people who thought they were buying something a spreadsheet-driven fraud could never fake.`,
+  },
+);
