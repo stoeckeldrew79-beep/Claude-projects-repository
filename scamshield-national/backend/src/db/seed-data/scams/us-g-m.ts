@@ -4826,3 +4826,39 @@ UsGM.push({
     country: 'US',
     state: 'IN',
 });
+
+UsGM.push({
+    name: `Iowa "Stop the Scammers Tour" Sparks 19 Fraud Investigations`,
+    slug: 'iowa-stop-the-scammers-tour-fraud-investigations',
+    description: `The Iowa Insurance Division's Fraud Bureau, together with the Iowa Attorney General's Office and AARP Iowa, wrapped up its 2026 "Stop the Scammers Tour" in June after holding 20 free public events across the state that drew more than 1,400 Iowans covering investment fraud, imposter scams, cryptocurrency schemes, and Medicare-related fraud. Audience members who described scams they had personally experienced or narrowly avoided during the events supplied leads that sparked 19 new active fraud investigations, on top of the 211 total investigations the Fraud Bureau says it had already opened across 96 Iowa communities since the start of 2026 — a caseload tied to $77.9 million in reported losses under investigation, of which the Bureau reports it intercepted $2.28 million before it reached scammers, recovered $27,721 directly for victims, and seized $3.58 million in cryptocurrency, $1.5 million in real estate, and $300,000 in vehicles from suspects. Fraud Bureau Chief Matt Mortvedt described the office's approach as "Detect. Disrupt. Deploy," saying the division works to identify emerging fraud patterns, disrupt scams before more Iowans are victimized, and deploy investigators to pursue those responsible. Iowans who spot a suspicious offer or believe they have already been targeted are encouraged to report it at IowaFraudFighters.gov rather than wait for a formal complaint process, since — as the tour's results show — a single tip from a resident describing what happened to them can be the detail that opens a new case.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ['Iowa Insurance Division'],
+    sourceUrl: 'https://iid.iowa.gov/press-release/2026-07-02/2026-stop-scammers-tour-concludes-after-sparking-19-fraud-investigations',
+    country: 'US',
+    state: 'IA',
+});
+
+UsGM.push({
+    name: `St. Charles Parish Jail Roster Gift Card Bail Scam`,
+    slug: 'louisiana-st-charles-parish-jail-roster-bail-scam',
+    description: `The St. Charles Parish Sheriff's Office in Louisiana warned residents on March 10, 2026 that scammers are mining the parish's own publicly posted jail roster for the names of people held at Nelson Coleman Correctional Center, then calling the inmates' family members and posing as sheriff's office personnel — some callers have invoked the name of a real sergeant, "Sgt. Jason Guidry," to sound credible. The callers falsely claim that only a small portion of a judge-set bond needs to be paid immediately to secure the inmate's release, then direct the family member to pay through Apple Pay or by reading off the numbers on retail gift cards. The Sheriff's Office urged anyone who gets such a call to hang up and verify the situation directly with the correctional center or the sheriff's non-emergency line rather than calling any number the caller supplies, since it does not collect bond payments over the phone through gift cards or payment apps. Because parish jail rosters are public records posted for transparency, the scheme shows how a scammer doesn't need to guess which families have a loved one in custody — that information is often just a records search away — so relatives of anyone newly booked into a Louisiana parish jail should treat an unexpected call demanding gift-card or Apple Pay "bond" payment as a scam and confirm any real bond amount only through the court or jail's own listed phone number.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ["St. Charles Parish Sheriff's Office", 'WWL-TV', 'Hoodline'],
+    sourceUrl: 'https://www.wwltv.com/article/news/local/st-charles/st-charles-parish-sheriff-warns-of-scam-targeting-families-of-inmates/289-46b08f10-7e75-44b2-b580-67544b3197a5',
+    country: 'US',
+    state: 'LA',
+});
+
+UsGM.push({
+    name: `Clay County Fake Counterfeit-Bill Investigation Business Cash Scam`,
+    slug: 'missouri-clay-county-counterfeit-bill-business-cash-scam',
+    description: `The Clay County Sheriff's Office in Missouri warned in early September 2026 after a scammer nearly talked an employee at a local business out of the entire contents of its cash register. The caller told the employee he was a lieutenant with a local police department and that the business was under investigation for passing counterfeit bills, then ordered her to gather all the cash on hand as "evidence" and drive it to a store in Smithville to hand it over; investigators say it remains unclear whether the caller intended an in-person meeting or would have redirected the employee to deposit the cash into a cryptocurrency ATM once she was on the road. To sound credible, the caller already had the employee's name and date of birth before she said a word — information investigators believe came from a data breach or public records rather than any inside knowledge — and used it to build false trust. The business owner learned what was happening, reached the employee before she handed anything over, and had her return with the cash intact. The Sheriff's Office stressed that a caller knowing a target's name, birthdate, or other personal details does not make them real law enforcement, and that no legitimate police agency will ever direct a business to gather its cash and deliver it elsewhere, in person or via a cryptocurrency kiosk, as part of a "counterfeit" or fraud investigation; businesses that receive such a call are urged to hang up and call the police department's published non-emergency number to verify before moving a dollar.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'medium',
+    sources: ["Clay County Sheriff's Office", 'KCTV5'],
+    sourceUrl: 'https://www.kctv5.com/2026/09/03/scam-alert-suspect-pretends-be-law-enforcement-tries-convince-businesses-hand-over-cash/',
+    country: 'US',
+    state: 'MO',
+});
