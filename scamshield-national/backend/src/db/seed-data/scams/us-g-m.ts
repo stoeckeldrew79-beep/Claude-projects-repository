@@ -5122,3 +5122,15 @@ UsGM.push({
     country: 'US',
     state: 'MI',
 });
+
+UsGM.push({
+    name: 'Los Angeles County Fake "Form 1098-SR" Property Tax Relief Scam',
+    slug: 'los-angeles-property-tax-1098-sr-scam',
+    description: `Los Angeles County Assessor Jeff Prang, joined by Treasurer and Tax Collector Elizabeth Buenrostro Ginsberg, Auditor-Controller Oscar Valdez, and Department of Consumer and Business Affairs Director Rafael Carbajal, issued a joint consumer alert on September 3, 2026 about a property tax relief pitch spreading through social media videos and unsolicited phone calls that targets seniors and other homeowners. The scheme falsely claims that filing a supposed federal "Form 1098-SR" can freeze or reduce a homeowner's property taxes, or let them avoid paying local taxes and school bonds altogether — but no such IRS form exists. "No federal 1098-SR form that freezes or reduces your property taxes," Prang said, describing a pitch built on official-sounding language and manufactured urgency designed to get a homeowner to hand over a Social Security number, banking information, or a fee before anyone checks whether the claimed program is real. County officials noted that genuine property tax relief does exist in California — including Proposition 13's assessment caps, Proposition 19's transfer benefits for seniors and people with disabilities, the Homeowners' Exemption, the Disabled Veterans' Exemption, and the Property Tax Postponement program — but every one of them is applied for directly through the County Assessor or the State Controller's Office, never through a viral video or a cold call. Homeowners are advised to never give a Social Security number, bank account information, or payment to an unsolicited caller, email, text, or website offering property tax relief, and to verify any such claim directly with the Assessor's Office before providing any information or money.`,
+    categorySlug: 'legal-debt-collection',
+    alertLevel: 'high',
+    sources: ['Los Angeles County Assessor', 'Los Angeles County Treasurer and Tax Collector', 'Los Angeles County Department of Consumer and Business Affairs'],
+    sourceUrl: 'https://lacounty.gov/2026/09/03/county-officials-warn-property-owners-about-fake-property-tax-relief-scam/',
+    country: 'US',
+    state: 'CA',
+});
