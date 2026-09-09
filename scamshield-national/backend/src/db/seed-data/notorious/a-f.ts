@@ -5631,3 +5631,50 @@ The California Department of Justice's Special Prosecution Section charged Perez
 Perez's case is a reminder that a "guaranteed" return on an investment product is, on its own, a warning sign rather than a reassurance — no legitimate security can promise that principal is risk-free while also paying a fixed monthly return, because if it could, everyone would already be invested in it. It's also a reminder that the machinery of a Ponzi scheme doesn't require dozens of victims or a public-facing sales operation to inflict serious damage: five people and a set of two small, obscure LLCs were enough to cost retirees three-quarters of a million dollars in savings they had no way to replace.`,
   },
 );
+
+NotoriousAF.push(
+  {
+    title: "Anthonie Ruinard Jr. and the $5.6 Million Legacy Investors Group Fraud",
+    slug: "anthonie-ruinard-legacy-investors-group-fraud",
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-az/pr/arizona-man-sentenced-more-seven-years-defrauding-54-victims-investment-fraud-scheme',
+    body: `Anthonie Ruinard Jr., of Chandler, Arizona, told the people he approached that he was a wildly successful investor — at one point claiming a net worth north of $470 million — running a company called Legacy Investors Group Inc. According to the U.S. Attorney's Office for the District of Arizona, between 2020 and March 2023 Ruinard used that persona to persuade at least 54 victim-investors to put money into supposed venture capital, private equity, and real estate deals, promising guaranteed monthly returns of roughly 5 to 6 percent.
+
+The guarantee was fiction. Prosecutors said some early investors received partial payments — enough to keep the scheme's reputation intact and attract new victims — while others simply lost everything they put in. When investors asked why their promised payments hadn't arrived, Ruinard and his associates offered a rotating cast of excuses, including "wire problems," an unprecedented market, and even the war in Ukraine. In total, prosecutors say, he took in more than $5.6 million, spending it on an armored vehicle costing $344,000, other luxury vehicles, casino gambling, credit card bills, rent, and general living expenses rather than on any of the investments he described to his victims.
+
+A federal grand jury in Phoenix indicted Ruinard in November 2024 on 19 counts of wire fraud and transactional money laundering. He pleaded guilty to wire fraud, and on November 17, 2025, U.S. District Judge Susan M. Brnovich sentenced him to 87 months in federal prison, to be followed by three years of supervised release, and ordered him to pay $4,508,057 in restitution to his victims.
+
+Separately from the fraud case, Ruinard — a former Tucson restaurateur who had operated the restaurant Pastiche — was indicted by a Maricopa County grand jury in April 2024 on charges of second-degree murder and abandonment or concealment of a dead body, in connection with the 2023 death of 18-year-old Parker League of Nebraska, whose remains were found in the Tonto National Forest. That case is separate from the federal fraud prosecution and, as of this writing, remains pending; it is a criminal charge, not a conviction, and Ruinard is entitled to the presumption of innocence unless and until a jury finds otherwise.
+
+Ruinard's fraud case is a reminder that a fabricated net worth and a rotating set of plausible-sounding excuses — market conditions, wire transfer snags, even a distant war — can keep victims patient for years while a fraudster spends their money on an armored SUV and casino trips rather than any real investment.`,
+  },
+  {
+    title: "Brooklynn Chandler Willy and the Texas Financial Advisory Ponzi Scheme",
+    slug: "brooklynn-chandler-willy-texas-financial-advisory-ponzi",
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-wdtx/pr/former-financial-advisor-pleads-guilty-10-counts-investment-fraud-scheme',
+    body: `Brooklynn Chandler Willy, 46, of San Antonio, ran an investment advisory business through two entities she controlled — Queen B Advisors LLC, doing business as Texas Financial Advisory, and Chandler Capital Holdings — that presented her to clients as a trustworthy financial guide, including through a locally broadcast radio program. According to the U.S. Attorney's Office for the Western District of Texas, that trust was misplaced: Willy admitted to misappropriating millions of dollars of client money for her own use, forging client signatures, and making Ponzi-style payments to earlier investors using money raised from newer ones to keep the scheme going.
+
+Part of Willy's scheme, prosecutors said, involved steering her advisory clients into investment vehicles run by two Lubbock, Texas men, Joshua Allen and Michael Cox, through entities collectively known as Ferrum Capital. In one instance detailed in court filings, Willy recommended in March 2018 that a married couple invest with Ferrum Capital, and in May 2021 advised the same couple to put another $500,000 into a related Ferrum entity, with Chandler Capital Holdings acting as the agent executing the paperwork. Federal prosecutors and the Texas State Securities Board have said the broader Ferrum Capital scheme raised roughly $80 million and cost more than 500 investors upwards of $50 million; a federal jury convicted Allen and Cox on all four felony counts against them — wire fraud, securities fraud, money laundering, and laundering monetary instruments — on August 18, 2026, with their sentencing scheduled for December 10, 2026.
+
+Willy herself was charged with ten federal felony counts, including wire fraud, conspiracy to commit wire fraud, conspiracy to commit money laundering, and aggravated identity theft. On March 19, 2026, she pleaded guilty to all ten counts before U.S. District Judge Fred Biery in San Antonio. She faces up to 20 years in prison on each of the six wire fraud counts and on the wire fraud and money laundering conspiracy counts, up to ten years for engaging in monetary transactions involving criminally derived property, and a mandatory minimum of two years for aggravated identity theft. Her sentencing has been scheduled for December 14, 2026, after the presentence investigation is complete; as of this writing she has not yet been sentenced, and this case should be read as a guilty plea awaiting sentencing rather than a fully closed matter.
+
+Willy's case shows how an affinity-style fraud can operate on two levels at once: a trusted local advisor with her own radio platform not only ran Ponzi-style payments through her own companies, but also functioned as a feeder, personally vouching for a separate, much larger scheme her clients would likely never have found credible without her introduction.`,
+  },
+  {
+    title: "Douglas Dalton, Michael Smith, and the PetIQ Insider Trading Scheme",
+    slug: "douglas-dalton-petiq-insider-trading",
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-id/pr/arkansas-man-pleads-guilty-insider-trading',
+    body: `Douglas Dalton, 48, of Bentonville, Arkansas, and Michael Smith, the then-president and chief operating officer of Eagle, Idaho-based pet health company PetIQ, Inc., were close personal friends — the kind of relationship that gave Dalton access to information no outside investor could have had. According to the U.S. Attorney's Office for the District of Idaho and a parallel SEC enforcement action, Smith called Dalton on July 26, 2024, and disclosed that PetIQ was about to be acquired by private equity firm Bansk Group LP at approximately $31 per share — material, nonpublic information about a deal that had not yet been announced.
+
+Dalton used that tip immediately, prosecutors and the SEC said, spending roughly $19,985 to purchase PetIQ call options. When the acquisition was publicly announced on August 7, 2024, PetIQ's stock price jumped, and Dalton sold his options for a profit of about $96,515 — close to a 500 percent return in less than two weeks. The SEC separately alleged that Smith used his ex-wife's brokerage accounts to buy PetIQ shares on the same inside information, earning roughly $145,772 in illegal profits of his own; combined, the two men's trades generated more than $200,000 in illicit gains.
+
+Smith pleaded guilty to one count of securities fraud in November 2025. Dalton was separately charged and pleaded guilty to one count of securities fraud in early 2026, admitting he traded on confidential information he knew was both material and nonpublic. Each faces a statutory maximum of 20 years in prison; as of this writing, both men's sentencings — scheduled for June 2026 — had not yet been publicly confirmed as complete, so this case should be read as two guilty pleas working toward sentencing rather than a fully resolved matter.
+
+The PetIQ case is a reminder that insider trading doesn't require a corporate boardroom or a Wall Street trading desk — it can be as simple as a phone call between friends, one of whom happens to run a public company, followed by an options trade sized to turn a few weeks of silence into a fortune's worth of return.`,
+  },
+);
