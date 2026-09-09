@@ -1725,3 +1725,20 @@ A state grand jury indicted Hu — now living in Orlando, Florida, after previou
 The Skyline case is a reminder that "artificial intelligence" has become one of the most effective single phrases in a fraud pitch: it describes a technology most investors don't understand well enough to independently verify, which makes it an easy stand-in for the kind of specific, checkable claims about trading strategy and performance that would otherwise invite hard questions about how, exactly, those returns are supposedly being generated.`,
   },
 );
+
+NotoriousTZ.push(
+  {
+    title: 'Xin Liu, the H-1B Visa Holder Who Drove Around Florida Collecting Cash From Elderly Victims',
+    slug: 'xin-liu-elder-fraud-cash-courier',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-ndfl/pr/chinese-national-sentenced-conspiracy-defraud-elderly-victims',
+    body: `Xin Liu, 40, a Chinese national living in Apopka, Florida on an H-1B work visa, played a role that many elder-fraud schemes need but few outsiders ever see: the local person who actually shows up in person to collect a victim's money. According to the U.S. Attorney's Office for the Northern District of Florida, Liu conspired with a scammer based in China who identified elderly targets across the state by phone calls and electronic messages, building the kind of urgent, confusing pretext — a supposed legal problem, an emergency, a prize or refund requiring action — that these schemes typically use to convince a victim that only immediate cash will fix the situation.
+
+Rather than have victims wire money or buy gift cards, as many remote scams do, the scheme prosecutors described relied on someone local to pick the money up directly. Between July 22 and July 30, 2025, Liu drove to at least six locations across Florida to collect cash and packages from victims in person, including one visit to an assisted-living community in Gainesville, and delivered the proceeds back to her co-conspirators in China, keeping a cut of the stolen money as her own payment. Court records described one Gainesville-area victim who lost $60,000, including a single $15,000 cash pickup and a separate $20,000 wire transfer, in the space of about a week. In total, prosecutors said Liu and her co-conspirators attempted to collect more than $95,000 from victims during the scheme.
+
+Liu pleaded guilty in federal court in Gainesville to conspiracy to commit wire fraud. On June 23, 2026, she was sentenced to 27 months in federal prison. "We are unfortunately seeing a rise in the prevalence of elder fraud schemes orchestrated and executed by foreign nationals who target and financially exploit our senior citizens, depleting their life savings and leaving the victims destitute," U.S. Attorney John P. Heekin said in announcing the sentence. The case was investigated by the FBI, IRS Criminal Investigation, the Manatee County Sheriff's Office, and the Gainesville Police Department, and prosecuted by Assistant U.S. Attorney Adam Hapner.
+
+Liu's role in the scheme is a useful reminder that a scam doesn't have to stay entirely remote to work, and that an in-person cash pickup is not, by itself, a sign of legitimacy. A caller who eventually sends someone to a victim's door, or asks a victim to hand cash to a courier at an assisted-living facility, is running the same fundamental deception as any wire-transfer or gift-card scam — only harder for a bank's fraud detection systems to flag, because no financial institution ever sees the transaction take place.`,
+  },
+);

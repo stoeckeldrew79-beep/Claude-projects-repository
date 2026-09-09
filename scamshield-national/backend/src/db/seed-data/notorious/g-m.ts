@@ -5707,3 +5707,20 @@ Joshua Link, then living in Strafford, Missouri, did not appear following the in
 Agridime is a case study in how far a fraud can travel on an appeal to self-sufficiency and skepticism of Wall Street: cattle ownership is about as tangible and old-fashioned an investment as exists, and prosecutors allege that tangibility is exactly what made a scheme built on livestock that mostly didn't exist so convincing to more than two thousand people who thought they were buying something a spreadsheet-driven fraud could never fake.`,
   },
 );
+
+NotoriousGM.push(
+  {
+    title: "Marc Henry Menard's Fake Trading Track Record and the Haitian Community He Targeted",
+    slug: "marc-henry-menard-haitian-community-investment-fraud",
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://ag.ny.gov/press-release/2025/attorney-general-james-announces-arrest-florida-man-investment-fraud-scheme',
+    body: `Marc Henry Menard, formerly of Mineola, New York and later of Sunrise, Florida, was not registered to offer or sell securities in New York — a fact the New York Attorney General's Office says he never disclosed to the eleven investors he solicited between July 2020 and June 2023. Instead, according to a 24-count indictment unsealed in Nassau County Supreme Court, Menard told prospective investors he was a highly successful trader who could generate returns of up to 20 percent a month, and backed up the pitch with financial documents that prosecutors say significantly overstated his wealth and trading success. Operating through a company called Marcotech LLC, he drew in victims concentrated in the Haitian community across New York, Florida, and Georgia — people who, prosecutors said, trusted him in part because he was a known and visible figure within that community.
+
+The money did not go where investors were told. According to the indictment, Menard transferred investor funds into his own personal trading account, where he racked up trading losses of more than $670,000 rather than the double-digit monthly gains he had promised. At the same time, prosecutors said, he spent more than $100,000 of investor money on himself — vacations to Turkey, Puerto Rico, and Disney World, a 2021 Mercedes-Benz, a 2022 BMW, and purchases at Gucci and Louis Vuitton — while telling investors their money was compounding in the market. In total, the office said Menard took more than $600,000 from his eleven victims.
+
+New York Attorney General Letitia James's office arrested and indicted Menard on August 11, 2025, on 24 counts including grand larceny, securities fraud under New York's Martin Act, falsifying business records, and scheme to defraud. "Menard treated himself to luxury vacations and shopping trips at his victims' expense, and now we are bringing him to justice," James said at the time of the arrest. On April 17, 2026, Menard pleaded guilty in Nassau County Supreme Court to grand larceny in the second degree, scheme to defraud in the first degree, and securities fraud, and admitted he owed investors $385,271. He was sentenced to five years of probation and barred from the securities industry for five years — a resolution far short of the maximum prison term he had faced, but one that carries a formal admission of guilt to the core allegations against him.
+
+Menard's case illustrates why state securities regulators like the New York Attorney General's office — which enforces the state's century-old Martin Act independently of federal securities law — matter to fraud victims who may never see their case reach a federal courtroom: an unregistered "trader" targeting a specific community through personal trust and word of mouth, rather than a public prospectus, is exactly the kind of scheme that relies on victims never comparing notes with strangers or checking whether the person soliciting them is actually licensed to sell securities at all.`,
+  },
+);
