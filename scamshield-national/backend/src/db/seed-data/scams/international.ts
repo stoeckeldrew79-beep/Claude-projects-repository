@@ -12116,3 +12116,37 @@ International.push(
     sourceUrl: 'https://ico.org.uk/about-the-ico/media-centre/news-and-blogs/2026/03/birmingham-based-pendant-alarm-company-fined-100-000-for-making-unsolicited-marketing-calls/',
   },
 );
+
+International.push(
+  {
+    name: 'Japanese Pension Service (Nenkin Kiko) Impersonation Scam',
+    slug: 'japan-pension-service-impersonation-scam',
+    description: `A caller claiming to be from Japan's Pension Service (日本年金機構) plays an automated voice message warning that "submission of a required document has not been confirmed" and that pension payments will stop unless the recipient presses a number to be connected or calls back immediately; other versions arrive by SMS or email directing the recipient to register a fake LINE account or visit a fraudulent website to "process a refund" of overpaid insurance premiums, then ask for a bank account number, credit card details, or a photograph of the recipient's My Number Card. Fraudsters have also invented official-sounding but nonexistent organization names — such as "国民年金機構" or a "給付センター" (benefit center) — to sound authoritative, and a related version claims the target has unpaid national pension premiums and threatens to seize their assets unless they pay immediately through a cashless-payment site. The Japan Pension Service confirms it never contacts people using automated voice messages, never asks for bank account numbers, credit card details, or My Number Card images by phone, email, or SMS, and never directs anyone to an ATM or a cashless-payment site to "refund" or "process" anything — any of those requests is a reliable sign of fraud, and suspicious contact should be verified by calling the agency's own published Nenkin Dial number directly rather than any number given in the message.`,
+    categorySlug: 'government-impersonation',
+    country: 'JP',
+    alertLevel: 'high',
+    sources: ['Japan National Police Agency', 'Japan Pension Service (Nihon Nenkin Kiko)'],
+    sourceUrl: 'https://www.nenkin.go.jp/oshirase/gochui/notice.html',
+  },
+  {
+    name: 'Japan Unlisted Stock Cold-Call Fraud (Mikoukai Kabu Shouhou)',
+    slug: 'japan-unlisted-stock-cold-call-fraud',
+    description: `An unsolicited phone call, postcard, pamphlet, or SMS offers the recipient a chance to buy unlisted stock or an unlisted corporate bond, often claiming the company is "about to list on the stock exchange," that the price is "certain to rise," that the caller has "a special connection with the issuing company," or that the offer is being made "only to you." Investors who pay are sometimes issued a "deposit certificate" (預り証) instead of an actual share certificate, then told months later that the company has scrapped its listing plans, that a transfer restriction is blocking payout, or the seller simply stops answering; some victims are then targeted a second time by a different caller posing as a government agency, a lawyer, or a recovery firm that offers — for an upfront fee — to get the lost money back, which it does not. Japan's Financial Services Agency states that only the company issuing the stock itself, or a securities firm formally registered with the FSA, may lawfully sell unlisted stock or solicit corporate bonds from the general public, and it publishes a public register of registered financial-instruments businesses so anyone contacted this way can check the caller's registration status before sending any money.`,
+    categorySlug: 'investment-fraud',
+    country: 'JP',
+    alertLevel: 'high',
+    sources: ['Financial Services Agency (Japan)', 'Japan National Police Agency'],
+    sourceUrl: 'https://www.fsa.go.jp/ordinary/mikoukai/',
+  },
+  {
+    name: 'Sekisui House Land Title Fraud (Jimenshi Land Swindle)',
+    slug: 'sekisui-house-jimenshi-land-fraud',
+    description: `In 2017, a ring of at least ten fraudsters led by Mike Uchida posed as the elderly owner of a roughly 2,000-square-meter former inn site near Gotanda Station in Tokyo's Shinagawa Ward — the real owner had been hospitalized that February and died in June — forging her personal seal and passport and hiring a woman to impersonate her through the negotiations and identity checks, including a hologram check by the judicial scrivener handling the transaction, before signing a sale contract with major homebuilder Sekisui House and collecting roughly ¥5.5 billion. This kind of scheme is known in Japan as "jimenshi" (地面師, literally "ground master"), a long-running fraud category in which a team impersonates a landowner — usually someone elderly, absent, or recently deceased whose property sits empty — to sell real estate the group does not own. Uchida was sentenced to 12 years in prison and lead negotiator Misao Kaminsukasu to 11 years, and in November 2024 the Tokyo District Court separately ordered Uchida and four co-defendants to pay Sekisui House ¥1 billion in civil damages. The case, later dramatized in the Netflix series "Tokyo Swindlers," is a reminder that even an experienced institutional buyer can be defrauded when a seller's identity isn't independently verified in person against the property registry, which is why land buyers are advised to confirm an owner's identity directly at the registry office rather than relying on documents a broker or seller's representative presents at the signing table.`,
+    categorySlug: 'identity-theft',
+    country: 'JP',
+    isHistorical: true,
+    firstRecorded: '2017-06-01',
+    sources: ['The Japan Times'],
+    sourceUrl: 'https://www.japantimes.co.jp/news/2024/11/28/japan/crime-legal/tokyo-swindlers-case/',
+  },
+);
