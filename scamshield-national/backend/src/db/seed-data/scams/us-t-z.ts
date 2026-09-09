@@ -2721,3 +2721,15 @@ UsTZ.push({
     country: 'US',
     state: 'WI',
 });
+
+UsTZ.push({
+    name: 'Wisconsin "Touch ESA" Online Emotional-Support-Animal Letter Mill',
+    slug: 'wisconsin-touch-esa-letter-mill-scam',
+    description: `Touch ESA, an online service run out of Waukesha County, Wisconsin, sells emotional support animal letters for as little as $49 after applicants fill out a roughly 15-minute questionnaire, without ever speaking to a mental health professional, and the company advertises a "99% or more" approval rate. A licensed Wisconsin psychologist, Dr. Lauri Gebhard, whose Mind-Body Program shares an Elm Grove office suite with Touch ESA's owner, signed ESA letters based solely on those online forms for people she had never met or spoken with — including a competing letter-writer who tested the service by disclosing on his own form that he had "no psychological diagnosis" and was simply "trying to avoid" his landlord's pet-rent fee, and was approved anyway. That competitor, Chaz Stevens, filed a complaint against Gebhard with the Wisconsin Psychology Examining Board, which opened an investigation (case number 25 PSY 0032) after screening it. An outside psychologist who reviewed the practice, Dr. Jeffrey Younggren, called certifying a disability from nothing but a questionnaire "professional nonsense," and the American Psychiatric Association considers issuing ESA documentation without a genuine clinical evaluation unethical and illegal. Buying one of these instant letters does not just risk wasted money: a growing number of states, including Florida, now make it a crime to knowingly submit fraudulent emotional-support-animal documentation to a landlord or airline, and a housing provider or airline can refuse to honor a letter that was never backed by a real evaluation, leaving the buyer out the fee and still facing the pet policy, deposit, or fare rule they paid to avoid. Wisconsin's State Senate passed a bill in November 2025 requiring at least a 30-day clinical relationship before a provider can issue an ESA letter, which was awaiting the governor's signature as of early 2026. Anyone who has a genuine need for an emotional support animal accommodation should get the letter from a licensed provider who has actually evaluated them in person or by telehealth over time — not a same-day online questionnaire mill — and should expect a legitimate letter to be challenged and rejected if a landlord or airline asks the issuing provider to verify it.`,
+    categorySlug: 'healthcare-fraud',
+    alertLevel: 'medium',
+    sources: ['FOX6 Milwaukee (WITI)', 'Wisconsin Psychology Examining Board'],
+    sourceUrl: 'https://www.fox6now.com/news/bogus-emotional-support-animal-letters-elm-grove-psychologist-under-investigation',
+    country: 'US',
+    state: 'WI',
+});

@@ -4697,3 +4697,15 @@ UsNS.push({
     country: 'US',
     state: 'SC',
 });
+
+UsNS.push({
+    name: '"Weeping Willows" Real Estate Promissory Note Fraud (Tracey Turner)',
+    slug: 'south-carolina-weeping-willows-turner-development-fraud',
+    description: `The South Carolina Securities Division issued an Order to Cease and Desist on June 1, 2026 against Turner Development, LLC and its principal, Tracey Turner, an Aiken County resident, over a phantom real estate deal called the "Weeping Willows" project. Starting around 2021, Turner solicited investors for a planned residential subdivision on roughly 175 acres near U.S. 78 and Old Aiken Road, distributing a "Planned Use District Document" that valued the improved land at nearly $11.7 million — but according to the Division's findings, Turner never actually owned the land outright, only a mortgage on part of it. One investor gave Turner $600,000 by personal check in September 2022 in exchange for a promissory note paying 8% interest and a joint venture agreement promising a 25% stake plus seven acres of Turner's own; a second investor wired $1,000,000 in May 2023 for a contract of sale and a note paying 12.5% interest with discounted lot-purchase rights attached. The Division found no evidence Turner spent either investor's money on the project at all — instead he used the funds for personal expenses, defaulted on the Weeping Willows mortgage, and disappeared from the community, leaving both investors with no repayment and land that remains unimproved to this day. Because neither Turner nor Turner Development was ever registered to sell securities in South Carolina, and the promissory notes and joint-venture interests offered counted as unregistered securities under the state's Uniform Securities Act, the Division ordered Turner and his company to cease and desist from transacting business in the state and to pay a $40,000 civil penalty. A promissory note or "joint venture" tied to a specific real estate development is a security like any other: before wiring six or seven figures to fund one, an investor should independently confirm the seller actually owns the land being pitched — not just holds a mortgage on it — and check whether the person and the offering are registered with the South Carolina Attorney General's Securities Division, or the equivalent regulator in their own state, rather than relying on a glossy planning document handed over by the promoter himself.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ['South Carolina Attorney General, Securities Division'],
+    sourceUrl: 'https://www.scag.gov/media/n4vnakvg/2026-06-01-in-re-turner-development-llc-tracy-turner-cease-and-desist-order-matter-no-20251983-final.pdf',
+    country: 'US',
+    state: 'SC',
+});
