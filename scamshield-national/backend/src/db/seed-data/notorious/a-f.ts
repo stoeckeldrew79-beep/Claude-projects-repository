@@ -5563,3 +5563,37 @@ Boadu pleaded guilty to conspiracy to commit money laundering, and on August 29,
 Romance scam networks are often described in the news by their most visible piece — the fake profile and the invented love interest — but the money still has to land somewhere real before it disappears, and that landing spot is usually a domestic bank account opened by someone willing to let scammers use it in exchange for a fee. That's precisely why federal money-laundering statutes reach account holders like Boadu just as they reach the person who wrote the fake messages: a scam's overseas organizers can be difficult or impossible to extradite, but the person receiving the wire on U.S. soil is squarely within reach of American courts. For anyone sending money to an online romantic partner they have never met in person, the same warning sign applies regardless of which end of the transaction is scripted: a request to wire funds to an account that has nothing to do with the person's stated identity or location is the clearest available signal that the "relationship" exists to move money, not to build one.`,
   },
 );
+
+NotoriousAF.push(
+  {
+    title: "Brent Kovar and the 'AI Supercomputer' Crypto Ponzi Scheme",
+    slug: "brent-kovar-profit-connect-ai-crypto-ponzi",
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-nv/pr/jury-convicts-las-vegas-business-owner-cryptocurrency-ponzi-scheme',
+    body: `From late 2017 through July 2021, Las Vegas businessman Brent Kovar ran a cryptocurrency investment company called Profit Connect, pitching investors on what sounded like the cutting edge of crypto mining: proprietary artificial intelligence software running on a supercomputer that mined digital currency and verified transactions around the clock. He promised fixed annual returns of 15% to 30%, backed the pitch with a 100% money-back guarantee, told investors the company held hundreds of millions of dollars in cryptocurrency reserves, and — according to federal prosecutors — falsely claimed their money was insured by the Federal Deposit Insurance Corporation, an agency that has never insured cryptocurrency investments of any kind.
+
+None of it held up. Prosecutors said Profit Connect never turned a profit, held nothing close to the reserves Kovar advertised, and could not have honored the guarantees it made to investors. Instead, money from new investors was funneled out to pay earlier investors fake "mining proceeds," diverted into Kovar's personal real estate, and spent on gifts for employees — the ordinary mechanics of a Ponzi scheme, dressed up in the two buzzwords, artificial intelligence and cryptocurrency, that made it hardest for an outside investor to independently check. At least 400 investors put a combined $24 million into the company before it collapsed.
+
+After a nine-day trial, a federal jury in the District of Nevada convicted Kovar on August 24, 2026 of 11 counts of wire fraud, two counts of mail fraud, and two counts of money laundering. He faces a statutory maximum of 280 years in prison and is scheduled to be sentenced on November 30, 2026; as of this writing, no sentence has been handed down, and the case remains pending final disposition.
+
+Profit Connect's pitch worked precisely because "AI" and "crypto mining" are claims almost no ordinary investor can verify independently — nobody can walk into a data center and confirm a supercomputer is actually running the trades a promoter describes. That opacity is what made 21st-century technical buzzwords such an effective wrapper for a fraud structure that is, underneath the terminology, as old as Charles Ponzi's postal coupons: pay early investors with later investors' money, and let the promised returns do the recruiting.`,
+  },
+);
+
+NotoriousAF.push(
+  {
+    title: "David Thomas Gilchrist and the Property Tax Lien Investments That Didn't Exist",
+    slug: "david-gilchrist-property-tax-lien-fraud",
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-ndtx/pr/grand-prairie-attorney-arrested-ponzi-scheme-and-obstructing-sec-investigation',
+    body: `David Thomas Gilchrist is a 70-year-old attorney from Grand Prairie, Texas whom federal prosecutors accuse of using his professional standing to draw roughly 20 people into what he described as partnerships to buy Texas property tax liens — a real, if niche, investment vehicle, since local governments do sell delinquent tax debt at auction and a buyer can profit from the interest homeowners eventually pay to redeem it. According to a criminal complaint unsealed in September 2026, Gilchrist collected approximately $1.45 million from investors between April 2023 and January 2026, but prosecutors allege that no such tax liens were purchased with most of that money. He allegedly commingled investor funds with his own, spent a portion of it personally, and used incoming money to make roughly $789,000 in payments back to earlier investors — the same new-investors-pay-old-investors structure that defines a Ponzi scheme.
+
+The allegations extend beyond the underlying investment fraud. Prosecutors say that once the SEC opened a civil investigation into his conduct, Gilchrist forged documents using notary stamps and signatures he was not authorized to use, and separately urged a witness and her husband to "take a vacation" to Mexico in the days before they were scheduled to testify — conduct that forms the basis of a witness tampering charge layered on top of the fraud allegations.
+
+Gilchrist was arrested and charged by criminal complaint on September 1, 2026 with wire fraud, aggravated identity theft, and witness tampering, and made an initial appearance before a federal magistrate judge shortly afterward; the SEC separately filed a parallel civil securities-fraud case against him. As of this writing, the criminal case is pending, Gilchrist has not been convicted of any charge, and — as with any criminal complaint — the allegations against him are accusations federal prosecutors will have to prove in court rather than established facts. If convicted, he would face a potential maximum of 20 years in prison on the wire fraud and witness tampering counts, plus a mandatory consecutive two-year sentence on the identity theft charge.
+
+Property tax lien investing is a legitimate, if specialized, corner of the market in states that auction delinquent tax debt, which is exactly what prosecutors say made it a convincing wrapper here: a pitch built around a real financial instrument is far harder for a prospective investor to wave off as too-good-to-be-true than a pitch built around something that obviously doesn't exist. Investors approached about a niche asset class few people understand in detail have the same recourse available in any unfamiliar investment: verify independently, through public county auction records, that the specific liens being described were actually purchased, rather than relying on the promoter's own account statements.`,
+  },
+);
