@@ -4154,3 +4154,20 @@ Hanes pleaded guilty to one count of embezzlement by a bank officer and faced a 
 Most coverage of "pig butchering" scams focuses on victims who lose their own personal savings. Hanes's case shows the far greater damage possible when the person being manipulated also controls someone else's money: a bank's, a church's, an investment club's. He kept feeding the scam with funds that were never his to risk, and the fraud collapsed a federally insured bank in the process.`,
   },
 );
+
+NotoriousNS.push(
+  {
+    title: 'Okezie Bonaventure Ogbata: The Fake Spanish Bank Officer Who Mailed a $6 Million Inheritance Fraud to 400 Elderly Americans',
+    slug: 'okezie-ogbata-inheritance-fraud-elderly-victims',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/opa/pr/nigerian-national-sentenced-prison-international-fraud-scheme-defrauded-elderly-us-victims',
+    body: `The letters looked official, even bureaucratic — exactly the kind of paperwork an elderly American might expect from a foreign bank handling a deceased relative's estate. A representative of a bank in Spain, the letter would explain, was writing to inform the recipient that a distant, long-lost family member had died and left behind a multimillion-dollar inheritance with the recipient's name on it. All that stood between the reader and the windfall was a series of "delivery fees," taxes, and processing charges, to be sent along before the money could be released. Okezie Bonaventure Ogbata, a Nigerian national, was one of the fraudsters behind that letter campaign, targeting elderly people across the United States over the course of several years.
+
+The inheritance was always fictional, but the fraud ran on real money and real sophistication. Prosecutors say Ogbata and his co-conspirators built a laundering network by recruiting people who had already fallen for the scheme — convincing these earlier victims, many still unaware they'd been defrauded, to receive further payments from other targets and forward the money onward, layering the trail between the mailboxes of elderly Americans and the fraudsters collecting on the other end. By the time the scheme was unwound, Ogbata admitted to defrauding more than $6 million from over 400 victims, many of them elderly or otherwise vulnerable.
+
+Unwinding it took real international coordination: the Justice Department's Office of International Affairs worked with the U.S. Attorney's Office for the Southern District of Florida, Europol, and law enforcement in the United Kingdom, Spain, and Portugal to track Ogbata down and extradite him from Portugal to face charges. He pleaded guilty, and on April 25, 2025, U.S. District Judge Roy K. Altman sentenced him to 97 months — just over eight years — in federal prison.
+
+Inheritance-fraud letters are one of the oldest advance-fee scam formats in existence, but Ogbata's case shows how the model has industrialized: instead of one scammer working one mark at a time, a whole recruitment pipeline reused each successful deception to launder the next one, turning victims themselves — without their knowledge — into part of the machine that defrauded the next 400 people on the list.`,
+  },
+);
