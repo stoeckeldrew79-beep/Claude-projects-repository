@@ -4245,3 +4245,22 @@ The two men's outcomes then diverged completely. On November 20, 2024, U.S. Dist
 The Undead Apes case stands as a marker in crypto-fraud enforcement — prosecutors' first NFT rug-pull conviction to survive a full jury trial — but its ending undercuts any clean lesson about consequences. One defendant walked away with probation for cooperating; the other was convicted and then never sentenced at all, his case closed by his own death rather than a judge's order, leaving the roughly $400,000 taken from hundreds of investors as unresolved as the collection's abandoned tombstone mint.`,
   },
 );
+NotoriousNS.push(
+  {
+    title: 'Lawrence Salander and the $120 Million Salander-O\'Reilly Galleries Art Fraud',
+    slug: 'lawrence-salander-salander-oreilly-galleries-art-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://en.wikipedia.org/wiki/Lawrence_Salander',
+    // no rights-cleared photo found — sourceUrl above serves as the "read the full story" link
+    body: `Lawrence "Larry" Salander spent decades building Salander-O'Reilly Galleries into one of the most prestigious art dealerships in the country — a Manhattan Upper East Side gallery that Robb Report named "the best gallery in the world" in 2003, trading in Old Masters alongside blue-chip modern names like Picasso, Cézanne, and Monet. His client list included the actor Robert De Niro, whose father's estate had entrusted the gallery with artwork, and tennis champion John McEnroe, who invested in paintings through the gallery as a client. That reputation was the entire mechanism of the fraud: collectors and investors handed Salander art and money because his name and his gallery's standing functioned as their due diligence.
+
+Behind the reputation, prosecutors said, Salander was selling art he didn't own and money he hadn't earned. He took paintings that clients and artists' estates had given him to hold, sell on consignment, or safeguard, and sold them without permission or without ever remitting the proceeds to their rightful owners. He also ran phony investment partnerships, selling fractional ownership stakes in specific paintings to multiple different investors at once — the same artwork effectively pledged to more people than could ever be paid back from a single eventual sale. On top of that, he submitted fraudulent loan applications to Bank of America, using art as collateral that he had already promised, sold, or didn't actually control.
+
+The gallery collapsed into lawsuits and creditor claims in 2007, and Salander filed personal bankruptcy that November; McEnroe was listed among the creditors seeking recovery. Manhattan prosecutors charged Salander in March 2009 with 13 counts of first-degree grand larceny, 10 counts of second-degree grand larceny, and additional fraud counts tied to the scheme's scale, which authorities estimated at $120 million. Robert De Niro later testified in a related 2011 trial against a former Salander employee accused of helping the gallery steal artwork belonging to his father's estate.
+
+Salander pleaded guilty in March 2010 to 29 felony counts, admitting he had misled investors about the phony resale partnerships, sold art without paying the owners their share, and submitted fraudulent Bank of America loan applications. In August 2010, New York State Supreme Court Justice Michael Obus sentenced him to six to eighteen years in prison and ordered him to pay $120 million in restitution "in the event there is ever money to make those payments" — an acknowledgment from the bench that the money was, by then, effectively gone. "The art world has operated on a handshake," Obus said in court. "That trust was betrayed in this case," calling Salander's conduct "deplorable." Salander was denied parole in 2015 and, according to later reporting, never paid any of the restitution he owed.
+
+The Salander case is a reminder that reputation is its own kind of unregulated currency — a gallery with no rights-cleared paper trail on who actually owned what, run by a dealer whose name alone was treated as proof of title, until the moment multiple investors discovered they had each been sold a claim on the very same painting.`,
+  },
+);

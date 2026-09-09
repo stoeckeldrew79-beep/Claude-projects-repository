@@ -6455,3 +6455,22 @@ A federal jury convicted Hockridge of conspiracy to commit wire fraud on June 20
 The Blueacorn case is distinct from the wave of PPP prosecutions built around individual borrowers who lied on a single application. Hockridge and Reis weren't applicants gaming the system from outside — they ran one of the lenders' own service providers, the intermediary layer the government relied on to get emergency money out the door quickly during a national crisis, and prosecutors say they used that position of trust to manufacture more fraudulent volume, and more fees for themselves, than almost any individual PPP fraud case on record.`,
   },
 );
+NotoriousGM.push(
+  {
+    title: 'Jamie McNamara and the $174 Million Genetic-Testing Medicare Fraud That Ended With a Severed Ankle Monitor',
+    slug: 'jamie-mcnamara-genetic-testing-medicare-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-edla/pr/missouri-man-sentenced-10-years-prison-174-million-health-care-fraud-conspiracy',
+    // no rights-cleared photo found — sourceUrl above serves as the "read the full story" link
+    body: `Jamie P. McNamara operated several diagnostic laboratories in Louisiana and Texas, but hid his ownership behind family members' names on the paperwork — a first sign that the genetic-testing operation he ran was built to obscure who was actually collecting the money. From November 2018 through July 2020, those labs submitted more than $174 million in claims to Medicare for cancer genetic testing (CGx) and cardiovascular genetic testing, receiving over $55 million in reimbursements before investigators caught up with the scheme.
+
+The tests themselves followed a now-familiar genetic-testing fraud pipeline. Telemarketers and call centers ran aggressive campaigns cold-calling Medicare beneficiaries, pitching cheek-swab genetic screenings the callers said Medicare would cover at no cost. Once a beneficiary agreed, the order was routed to a "telemedicine doctor" who had never examined the patient, never spoken with them in a meaningful consultation, and never followed up after the test was run — a signature that existed purely to make an unnecessary test look medically justified on paper. To keep that pipeline of signed orders flowing, McNamara paid the telemarketers and brokers illegal kickbacks and bribes, which he disguised through sham consulting and marketing contracts rather than paying them outright.
+
+McNamara didn't work alone: John M. Spivey, 53, of New Orleans, helped operate the scheme and pleaded guilty on July 30, 2024, to conspiracy to commit health care fraud, facing up to ten years in prison at a sentencing later scheduled for April 2025. McNamara's own conduct escalated the case further while it was pending — while free on pretrial release, he violated his bond conditions by fleeing from an unrelated arrest and cutting off his court-ordered ankle monitor, conduct prosecutors cited as evidence he could not be trusted to remain in the community. The government seized several luxury vehicles and more than $7 million from McNamara's bank accounts as the case moved toward resolution.
+
+McNamara pleaded guilty to conspiracy to commit health care fraud, and on October 23, 2025, U.S. District Judge Darrel J. Papillion sentenced him in the Eastern District of Louisiana to 10 years in federal prison — the maximum available — plus three years of supervised release. Papillion also ordered McNamara to pay more than $55 million in restitution, forfeit the $7 million already seized, and pay a $100 mandatory special assessment. "The defendant used illegal payments and lies to fraudulently bill Medicare over $174 million," said Matthew R. Galeotti, head of the Justice Department's Criminal Division, in announcing the sentence.
+
+The case adds another entry to a growing catalogue of CGx fraud prosecutions built on the same basic mechanics: a real lab, a real swab kit, and a real Medicare number, all routed through a telemarketing call and a doctor's signature that never involved an actual doctor-patient relationship. What made McNamara's case notable beyond the dollar figure was his own conduct once charged — a defendant who, rather than simply contest the fraud allegations in court, chose to cut off his ankle monitor and run, only to end up with the maximum sentence available under his plea.`,
+  },
+);
