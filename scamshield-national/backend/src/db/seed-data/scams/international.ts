@@ -11879,3 +11879,42 @@ International.push(
     sourceUrl: 'https://www.fca.org.uk/consumers/share-bond-and-boiler-room-scams',
   },
 );
+
+International.push(
+  {
+    name: 'NZ Money Mule Recruitment Scam',
+    slug: 'nz-money-mule-recruitment-scam',
+    description: `An offer of easy money arrives through social media, a messaging app, or a "recruiter" claiming to be impressed by a person's profile, proposing a simple job — often titled "account manager" or "payment processor" — that pays a commission just for receiving money into a personal bank account and forwarding it on, sometimes using cryptocurrency, gift cards, or a money-remittance service. What the recruit is not told is that the funds passing through their account are stolen from other scam victims, and that acting as this link in the chain makes them a "money mule" who can face money-laundering charges themselves, separate from and in addition to the original fraud. Consumer Protection, part of New Zealand's Ministry of Business, Innovation and Employment, warns the same pattern also shows up dressed as a romance scam, where an online partner asks a victim to receive and forward money on their behalf, and as "non-complicit" recruitment where people who have already lost money to one scam are talked into laundering funds for another. ANZ Bank reported a sharp rise in mule accounts opened by young New Zealanders in 2024 — up 20% among 17-to-24-year-olds and 24% among 25-to-34-year-olds — and both Consumer Protection and ANZ advise never sharing bank account access, cards, PINs, or online banking details with an employer, online partner, or anyone else, and reporting any such offer to the bank and to police rather than accepting it.`,
+    categorySlug: 'employment-scams',
+    country: 'NZ',
+    alertLevel: 'high',
+    sources: ['Consumer Protection (New Zealand)', 'NZ Herald'],
+    sourceUrl: 'https://www.consumerprotection.govt.nz/general-help/scamwatch/types-of-scams',
+  },
+);
+
+International.push(
+  {
+    name: 'NZ Cold-Calling Boiler Room Share Scam',
+    slug: 'nz-cold-calling-boiler-room-share-scam',
+    description: `An investor who already owns shares receives an unsolicited phone call from someone posing as a broker, often working from a list of names and numbers pulled from a public shareholder register, urging them to sell existing holdings and buy shares or bonds in a different company promising an unusually high return. The caller may send professional-looking payment instructions, a "protection" or refund document if the deal falls through, or direct the victim to a clone website copying a real, established company to make the offer look legitimate — high-pressure tactics including repeated calls and pressure to decide immediately are typical of these so-called "boiler room" operations, which run from overseas call centres beyond New Zealand regulators' reach. Selling financial products by cold call is illegal in New Zealand, and the Financial Markets Authority says losses from these scams have run into the millions of dollars, with individual cases ranging from a few thousand dollars to over $700,000. The FMA's advice is to hang up on any unsolicited investment call, and if genuinely interested, to contact a firm only through the number listed on its own entry in the Financial Service Providers Register rather than any number or link the caller supplies.`,
+    categorySlug: 'investment-fraud',
+    country: 'NZ',
+    alertLevel: 'high',
+    sources: ['Financial Markets Authority (FMA) New Zealand'],
+    sourceUrl: 'https://www.fma.govt.nz/library/warnings-and-alerts/cold-calling-share-scam/',
+  },
+);
+
+International.push(
+  {
+    name: 'NZ Fake Concert and Festival Ticket Scam',
+    slug: 'nz-fake-concert-festival-ticket-scam',
+    description: `As tickets to a popular concert or summer festival sell out, listings appear on Facebook Marketplace, TradeMe, or other classified sites offering "extra" tickets at face value or a small markup, and a buyer who pays by direct bank transfer either receives nothing at all, a ticket that has already been scanned and used, or one that never matches what was described. New Zealand Police specifically warned festival-goers ahead of the Homegrown festival that unauthorised resale sellers cannot guarantee a ticket will actually grant entry, since promoters cancel any tickets found listed outside their approved channels, and named Tixel as the event's sole official resale platform. Police advise buying only from a promoter's official box office or a named, authorised resale partner, verifying a private seller's identity before transferring any money, and treating a deal that looks unusually good as a warning sign in itself — paying by credit card rather than direct bank transfer also leaves open the possibility of a chargeback if the tickets never arrive.`,
+    categorySlug: 'online-shopping-scams',
+    country: 'NZ',
+    alertLevel: 'medium',
+    sources: ['New Zealand Police', 'RNZ'],
+    sourceUrl: 'https://www.police.govt.nz/news/release/don%E2%80%99t-be-fooled-ticket-scams',
+  },
+);
