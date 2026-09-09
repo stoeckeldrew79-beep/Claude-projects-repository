@@ -5800,3 +5800,37 @@ In April 2026, Matos resolved the CFTC's claims against him personally through a
 Matos's fake license is a reminder that regulatory "credentials" shown by an unregistered fund manager are exactly the kind of document that should be verified directly with the regulator that supposedly issued it — the CFTC publishes a searchable registry of everyone actually licensed to operate a commodity pool, and a document a promoter hands over personally is worth exactly nothing until it's checked against that source.`,
   },
 );
+
+NotoriousAF.push(
+  {
+    title: 'Andrew Joseph Egber and the Retirement Checks He Told Elderly Clients to Write Directly to Him',
+    slug: 'andrew-egber-montgomery-county-elder-financial-exploitation',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://oag.maryland.gov/News/pages/Former-Montgomery-County-Financial-Advisor-Sentenced-to-Jail-for-Felony-Theft,-Securities-Fraud,-and-Exploitation-of-a-Vuln.aspx',
+    body: `Andrew Joseph Egber worked as a financial advisor in Gaithersburg, Maryland, holding roles at well-known firms including Wells Fargo, Raymond James, and Steward Partners over the course of his career — the kind of résumé that gives a client little reason to question an instruction from him. According to the Office of the Maryland Attorney General, between 2015 and 2019 Egber used exactly that trust to defraud five of his elderly clients out of their retirement savings through a real estate investment that never existed.
+
+Egber's pitch, prosecutors said, was to persuade clients to withdraw money from their retirement accounts to fund a supposed real estate investment opportunity — but rather than having the funds wired to a legitimate investment vehicle, he had his victims write personal checks made payable directly to him. He then deposited those checks into his own personal bank account and spent the money on himself, prosecutors said, while making false statements to financial institutions to justify the retirement-account withdrawals in the first place.
+
+The scheme cost his five victims a combined $545,831. Egber pleaded guilty in the Circuit Court for Montgomery County to two counts of felony theft over $100,000, one count of securities fraud, and one count of exploitation of a vulnerable adult. On February 20, 2026, Judge David W. Lease sentenced him to 18 months of incarceration followed by five years of supervised probation — with an additional 8.5 years of backup incarceration hanging over him if he violates the terms of that probation — and ordered him to pay the full $545,831 in restitution. "This defendant stole money his elderly clients spent a lifetime saving," Maryland Attorney General Anthony G. Brown said in announcing the sentence. "Our Office will always hold financial advisors accountable when they steal from the people who trusted them most."
+
+Egber's case is a reminder that a legitimate-sounding employer name on a business card doesn't make an individual transaction legitimate: a real investment made through a licensed advisor's firm is processed and custodied by that firm, not by a personal check written straight to the advisor. Any request to send investment money directly to an individual rather than to a custodial account in the client's own name is, on its own, reason enough to stop and verify independently before writing the check.`,
+  },
+);
+
+NotoriousAF.push(
+  {
+    title: 'Andrew Hamilton Jacobus: A $94 Million Ponzi Scheme That Reached Across Three Continents',
+    slug: 'andrew-jacobus-kronus-finser-international-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://www.justice.gov/usao-sdfl/pr/fort-lauderdale-financial-advisor-sentenced-20-years-94-million-international',
+    body: `Andrew Hamilton Jacobus presented himself to prospective clients as an experienced, trustworthy financial advisor operating through two companies he controlled, Kronus Financial Corporation and Finser International Corporation. According to the U.S. Attorney's Office for the Southern District of Florida, that persona was the entire foundation of a fraud that ran for years and eventually drew in more than 150 investors across South Florida, Venezuela, and Spain — including lawyers, doctors, members of the Venezuelan Archdiocese, former employees, and even Jacobus's own family members.
+
+Jacobus told investors their money would be placed in secure investments generating strong, reliable returns. Prosecutors said none of that was true: he forged account statements and falsified financial records to make it look like client funds were growing safely, when in reality he was misappropriating the money to fund his own lifestyle and unrelated business ventures, and paying out "returns" to earlier investors using money raised from newer ones — the defining structure of a Ponzi scheme. Combined investor losses from the scheme exceeded $90 million, out of more than $94 million Jacobus is alleged to have taken in overall.
+
+Jacobus pleaded guilty to wire fraud and money laundering. On February 5, 2026, U.S. District Judge Jacqueline Becerra sentenced him to 240 months — 20 years — in federal prison. More than 20 of his victims appeared in court in person for the sentencing, with roughly 80 more participating remotely, a turnout that underscores how far the fraud's reach extended beyond South Florida. "This was a $94 million international fraud built on lies and broken trust," said U.S. Attorney Jason A. Reding Quiñones in announcing the sentence.
+
+Jacobus's case illustrates how an affinity-style fraud can cross borders as easily as it crosses a dinner table: a shared professional network, a shared church community, and family ties gave him access to victims scattered across three countries, all of whom extended him the kind of trust that a stranger asking for the same money would never have received.`,
+  },
+);
