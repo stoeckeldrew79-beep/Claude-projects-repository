@@ -5875,3 +5875,22 @@ Following an eight-week trial before U.S. District Judge Joan M. Azrack in Centr
 The Kaplan twins' case is a reminder that a blank line on a fee agreement is not a formality — it is an open invitation for whoever fills it in later to set whatever number they want, and elderly or cognitively vulnerable clients are among the least likely to notice a management fee that quietly climbed from one percent to four without ever asking them to sign anything new.`,
   },
 );
+
+NotoriousGM.push(
+  {
+    title: 'Imran Shams and the Fake Clinic He Wasn’t Allowed to Own',
+    slug: 'imran-shams-multi-specialty-medicaid-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://ag.ny.gov/press-release/2025/attorney-general-james-secures-prison-sentence-serial-health-care-fraudster',
+    body: `Imran Shams had already lost the right to bill Medicaid by the time he built his biggest scheme. His first health care fraud conviction, dating back to 1990, had gotten him permanently banned from billing Medicaid as a provider. Rather than treat that ban as the end of his career in false claims, according to the office of New York Attorney General Letitia James, Shams treated it as a problem to route around: he would simply own his next clinic in secret, through other people's names.
+
+That clinic was Multi-Specialty, a medical facility in New York that, per the Attorney General's office, paid Medicaid recipients kickbacks of $20 to $50 to come in for evaluations and diagnostic tests they didn't need — tests that were often administered by untrained individuals recruited to dress and act like medical professionals. Licensed providers connected to the scheme then billed Medicaid and Medicaid managed care organizations for those unnecessary or entirely fictitious services, extracting more than $7 million from a program meant to pay only for care patients actually needed.
+
+Shams didn't run Multi-Specialty alone. Court records identify several co-defendants who helped keep the false claims flowing: Brooklyn residents Tea Kaganovich and Ramazi Mitaishvili, who owned corporations tied to the scheme and were each sentenced in November 2023 to one and a half to four and a half years in state prison after pleading guilty to first-degree grand larceny, and Dr. Bernard Bentley, an East Hampton radiologist who pleaded guilty to second-degree grand larceny and received three years of probation.
+
+Shams himself pleaded guilty in March 2020 to first- and second-degree grand larceny and agreed to pay $7 million in restitution, but his sentencing didn't happen until nearly five years later. On February 5, 2025, a New York County Supreme Court justice sentenced him to eight and one-third to twenty-five years in state prison, to run alongside a 13-year federal sentence he is already serving for separate health care fraud convictions out of the Eastern District of New York and the Central District of California. Announcing the sentence, Attorney General James said that "when criminal organizations abuse our health care system, the most vulnerable patients suffer."
+
+At 66, and already a convicted health care fraudster decades before Multi-Specialty ever opened, Shams is a case study in how a professional ban is only as effective as the paperwork behind it — someone determined to keep running the same fraud can put a different name on the ownership papers and keep going, unless investigators are specifically looking for exactly that pattern.`,
+  },
+);

@@ -3942,3 +3942,22 @@ Bielecki pleaded guilty to wire fraud on November 11, 2024. On March 27, 2025, U
 Bielecki's case shows how a real religious title can function the same way a real corporate title or professional license does in other scams: as a credential donors treat as self-verifying, one that discourages the kind of basic checks — does this charity file public tax returns, can its clinics be independently confirmed to exist — that would normally accompany a large or recurring donation to an unfamiliar cause.`,
   },
 );
+
+NotoriousNS.push(
+  {
+    title: 'Sandra Iribhogbe Popnen, aka "General": A $17 Million Romance and Business Email Fraud Network',
+    slug: 'sandra-iribhogbe-popnen-texas-fraud-network',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-edtx/pr/conspirators-sentenced-engaging-multitude-fraud-schemes-including-romance-scams',
+    body: `For years, according to federal prosecutors, Sandra Iribhogbe Popnen went by the nickname "General" inside a fraud conspiracy where the name doubled as a job description. Popnen, 50, of Plano, Texas, was part of a group that the U.S. Attorney's Office for the Eastern District of Texas says ran romance scams, business email compromise fraud, investment fraud, and unemployment insurance fraud simultaneously, extracting an estimated $17 million from at least 100 victims — individuals, companies, and government programs — across multiple countries in a conspiracy that prosecutors trace back to around January 2017.
+
+The romance-scam side of the operation followed a familiar shape: conspirators built fake identities on online dating platforms, cultivated relationships with victims — prosecutors say elderly and vulnerable people were deliberately targeted — and then introduced a financial emergency that only the victim's help could resolve. According to the government, money sent to fix that invented emergency was disguised, disbursed, and laundered through a network of bank accounts and moved to co-conspirators and businesses in Africa and Asia, alongside proceeds the group separately pulled in through business-email-compromise schemes impersonating real executives and fraudulent unemployment insurance claims filed under stolen identities.
+
+A federal jury and a string of guilty pleas eventually unwound the network. Popnen pleaded guilty to conspiracy to commit wire fraud and conspiracy to commit money laundering and was sentenced on June 16, 2025 by U.S. District Judge Amos L. Mazzant III to 365 months — just over 30 years — in federal prison. A co-defendant who shares her surname, Edgal Iribhogbe, 51, of Allen, was convicted at trial of the same two conspiracy counts and received 480 months (40 years), the same sentence given to Chidindu Okeke and Chiagoziem Okeke, both 32, of Houston, who were also convicted at trial. A fifth defendant, Damilola Kumapayi, 39, of Plano, pleaded guilty to conspiracy to commit wire fraud alone and received 109 months. Combined, the five sentences add up to roughly 159 years in federal prison.
+
+Announcing the sentences, Acting U.S. Attorney Jay R. Combs said that "transnational organized criminals targeting hard-earned savings of elderly and vulnerable populations are simply despicable." The five were among 23 defendants originally charged in a September 2021 indictment out of the Eastern District of Texas describing a years-long, multi-scheme fraud conspiracy; a separate group of 11 defendants was charged in a related case in the Northern District of Texas.
+
+Popnen's case is a reminder that the same syndicate can profitably run several different scam types at once — a romance con here, a spoofed executive email there, a false unemployment claim somewhere else — because the actual product being sold in all of them is identical: a fabricated story urgent enough that a victim sends money before stopping to independently verify it.`,
+  },
+);
