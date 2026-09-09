@@ -5806,3 +5806,34 @@ The order also found that Bray failed to disclose material facts to prospective 
 The order gave Bray and JoAriam 31 days to request a hearing to contest its findings. Texas records reviewed at the time showed no such request had been made, meaning the order became final by default rather than through any trial or hearing on the merits. Bray's case illustrates a documentation gap that is easy for an investor to miss and hard to discover without asking directly: a promoter's own past bankruptcy and fraud litigation are exactly the kind of facts a legitimate, registered investment professional is required to disclose before taking someone's money — and their absence from a pitch is itself information worth acting on.`,
   },
 );
+
+NotoriousGM.push(
+  {
+    title: "James Curt Miller and the Weber County Cryptocurrency Investment Fraud",
+    slug: 'james-curt-miller-weber-county-crypto-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://attorneygeneral.utah.gov/guilty-plea-securities-fraud-miller/',
+    body: `James Curt Miller, of Weber County, Utah, spent roughly two years — from February 2021 to February 2023 — soliciting money from people around him under a series of false pretenses, according to the Utah Attorney General's Office. Miller told victims he needed the money for things like refinancing property, covering legal expenses, and paying for medical care, and separately promised at least three investors returns from cryptocurrency trading. Instead of using the funds as described, prosecutors said, Miller diverted the money into cryptocurrency purchases and cash withdrawals for himself, taking more than $400,000 from his victims in total.
+
+The Utah Attorney General's Office charged Miller with a full range of felony counts covering his conduct: securities fraud, communications fraud, money laundering, selling unregistered securities, and acting as an unlicensed securities agent. Miller pleaded guilty in Utah's Second District Court to one count of Securities Fraud and one count of Money Laundering, both second-degree felonies.
+
+On January 26, 2026, the Second District Court sentenced Miller to a term of one to fifteen years in the Utah State Prison. The court set a separate restitution hearing for a later date, at which it is expected to order Miller to repay the losses tied to his charged conduct in full. Assistant Attorney General Shawn H. Robinson prosecuted the case on behalf of the Utah Attorney General's Office.
+
+Miller's case is a reminder that Utah, like every state, runs a securities division where the public can check for free whether someone soliciting an investment actually holds a securities license — a step that, here, would have shown before any money changed hands that Miller held no such license at all.`,
+  },
+  {
+    title: "Jazzmen La-Vone Gaskins and the JG Capital Finance Securities Fraud",
+    slug: 'jazzmen-la-vone-gaskins-jg-capital-securities-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://securities.colorado.gov/press-release/press-release-colorado-court-sentences-convicted-scammer-jazzmen-la-vone-gaskins-to',
+    body: `Jazzmen La-Vone Gaskins solicited a Colorado investor through JG Capital Finance Corporation, a company he controlled, offering promissory notes with an unusually high, guaranteed rate of interest along with a promise that the investor's principal would be repaid in full. According to the Colorado Division of Securities, Gaskins took in more than $100,000 from at least one Colorado investor through the scheme, promises that were never backed by any real underlying investment activity.
+
+A Colorado state grand jury indicted Gaskins on securities fraud charges on August 14, 2025. He pleaded guilty in 2026 to one count of securities fraud, and on July 15, 2026, an Adams County District Court judge sentenced him to nine years of incarceration followed by three years of parole supervision, along with an order to pay $116,675 in restitution to his victim. The court ordered the Colorado sentence to run concurrently with a separate federal sentence Gaskins was already serving.
+
+That federal sentence is unrelated to the securities fraud: Gaskins is currently serving 15 years in federal prison after being convicted on federal sex trafficking charges, for conduct that included trafficking a victim by force, threats, fraud, and coercion between July 2023 and March 2024, and transporting another victim from Texas to Florida in December 2023 for purposes of prostitution. The securities case and the trafficking case were investigated and prosecuted separately, by different authorities, over entirely different conduct — but together they describe a pattern of a man willing to use deception and coercion against people for his own gain.
+
+Gaskins's case shows that a securities fraud loss doesn't have to run into the millions to be real and worth prosecuting: state securities regulators pursued this case on behalf of a single identified investor and a comparatively modest dollar amount, a reminder that state securities divisions — not just the SEC or DOJ — are active enforcers worth checking with before wiring money into an unregistered promissory note.`,
+  },
+);
