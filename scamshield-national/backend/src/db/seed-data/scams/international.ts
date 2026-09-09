@@ -11601,3 +11601,43 @@ International.push(
     country: 'KI',
   },
 );
+
+International.push(
+  {
+    name: 'Ross Asset Management Ponzi Scheme',
+    slug: 'nz-ross-asset-management-ponzi-scheme',
+    description: `David Ross, a Wellington-based financial adviser who had run Ross Asset Management (RAM) since 1989, operated what the Serious Fraud Office and Financial Markets Authority describe as New Zealand's largest-ever Ponzi scheme. From June 2000 to September 2012 he sent clients fabricated portfolio statements showing large holdings traded through a broker called "Bevis Marks" that never actually existed, reporting a combined $351 million in fictitious trading profits while overstating client investment positions by more than $385 million. When the FMA began investigating in October 2012 after investors could not get their money out, receivers found only around $10 million of the hundreds of millions clients believed they held across more than 1,200 accounts, leaving investors with losses exceeding $115 million. Ross pleaded guilty to false accounting and theft and was sentenced in November 2013 to 10 years and 10 months' imprisonment; the case led New Zealand to change the law so a financial adviser managing a client's money under an investment authority can no longer hold that money personally.`,
+    categorySlug: 'ponzi-pyramid-schemes',
+    country: 'NZ',
+    sources: ['Serious Fraud Office (NZ)', 'Financial Markets Authority (FMA)'],
+    sourceUrl: 'https://www.sfo.govt.nz/media-cases/media-releases/david-ross-sentenced-for-new-zealands-largest-ever-ponzi',
+    isHistorical: true,
+    firstRecorded: '2000-06-01',
+  },
+);
+
+International.push(
+  {
+    name: 'NZ IRD Arrest Threat Gift Card Scam',
+    slug: 'nz-ird-arrest-threat-gift-card-scam',
+    description: `A caller claiming to be from Inland Revenue tells the victim they owe overdue tax and must pay immediately or face arrest, sometimes handing the call to a second scammer posing as a police officer to add pressure. The victim is instructed to buy iTunes or other gift cards and read the serial numbers over the phone as "payment," a method that lets the scammer cash out instantly and untraceably. Inland Revenue confirms it never asks anyone to settle a tax debt using gift cards, iTunes cards, cryptocurrency, or other unusual payment methods, and says a genuine tax bill is always visible in a taxpayer's own myIR account rather than announced for the first time through an unexpected, high-pressure phone call demanding immediate payment.`,
+    categorySlug: 'tax-scams',
+    country: 'NZ',
+    alertLevel: 'high',
+    sources: ['New Zealand Inland Revenue', 'Netsafe'],
+    sourceUrl: 'https://www.ird.govt.nz/managing-my-tax/scams/signs-of-a-scam',
+  },
+);
+
+International.push(
+  {
+    name: 'NZ Police Impersonation Landline Cash Pickup Scam',
+    slug: 'nz-police-impersonation-landline-cash-pickup-scam',
+    description: `A caller to a home landline claims to be a police officer investigating fraud and tells the victim their bank account or identity has been compromised as part of a scam. The caller directs the victim to go to their bank, withdraw a large sum in cash to serve as "evidence," and then arranges for someone to collect the money in person, sometimes using a code word to make the handover feel official. New Zealand Police say this pattern deliberately targets older residents, who are more likely to still rely on a landline, and stress that police will never ask someone to withdraw or hand over cash, nor request bank card, PIN, or password details over the phone — anyone contacted this way should hang up and call 105 to verify before doing anything.`,
+    categorySlug: 'government-impersonation',
+    country: 'NZ',
+    alertLevel: 'high',
+    sources: ['New Zealand Police'],
+    sourceUrl: 'https://www.police.govt.nz/news/release/offenders-impersonating-police-are-scamming-vulnerable-people-over-landlines',
+  },
+);
