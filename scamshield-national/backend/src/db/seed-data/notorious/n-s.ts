@@ -3980,3 +3980,20 @@ The emergency order immediately bars Lasater Capital, KeyCity Capital, and the t
 The case is a live illustration of why "diversified" and "affiliated entities" are phrases worth pausing on rather than skimming past: a real estate fund's marketing materials can describe the properties it plans to buy in detail while saying nothing at all about the financial condition of the sister companies and principals actually running the operation — condition that, if the regulator's allegations hold up, included over $100 million in defaults investors were never told about before they wired their money.`,
   },
 );
+
+NotoriousNS.push(
+  {
+    title: 'Pablo Silverio Rebollido and the $40 Million Merchant Cash Advance Ponzi Scheme',
+    slug: 'pablo-rebollido-e-card-lending-ponzi-scheme',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://www.justice.gov/usao-sdfl/pr/miami-man-sentenced-more-19-years-prison-40-million-investment-ponzi-scheme',
+    body: `Pablo Silverio Rebollido built E-Card Lending LLC and E-Card Merchant LLC, both based in Miami, around a business model that sounds mundane by design: merchant cash advances, in which a company gets a lump sum of cash upfront in exchange for a cut of its future credit card sales or daily bank deposits. It's a real and common form of small-business financing — which is exactly what made it convincing cover for a fraud that prosecutors say ran for nearly five years.
+
+According to the U.S. Attorney's Office for the Southern District of Florida, Rebollido solicited money from investors between August 2019 and February 2024 by telling them their funds would be used to finance E-Card's merchant cash advances to small and medium-sized businesses, in exchange for a promised return. In reality, prosecutors said, E-Card had no actual clients and wasn't funding merchant cash advances at anywhere near the scale Rebollido described. Instead, he used incoming investor money to pay "returns" to earlier investors — the defining structure of a Ponzi scheme — while diverting a substantial share to finance his own lifestyle.
+
+More than 70 investors put money into E-Card based on Rebollido's representations, and losses ultimately exceeded $40 million. He pleaded guilty to wire fraud and was sentenced on October 2, 2025, to 230 months — nearly 20 years — in federal prison, along with an order to pay more than $16 million in restitution. "This defendant built his fortune on lies while leaving investors in ruin," said U.S. Attorney Jason A. Reding Quiñones in announcing the sentence. "We will continue to protect investors, safeguard our markets, and ensure that criminals who commit financial crimes face justice."
+
+Rebollido's case is a reminder that a business model's basic plausibility — merchant cash advances are a real, widely used financing tool — isn't the same as evidence that a specific company using that model actually has the clients, loan volume, or cash flow it claims. An investor being pitched on funding any lending or financing business can ask for verifiable proof of the loans or advances already on the books, rather than accepting a described client base on faith.`,
+  },
+);

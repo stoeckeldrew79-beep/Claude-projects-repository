@@ -5943,3 +5943,20 @@ The trading lost money almost from the start. By August 2023, according to the S
 Webb's case is a reminder that a novice's own trust in a stranger's paid online course doesn't make the strategy sound, and that low-income coworkers recruited through workplace familiarity rather than any credential are exactly the audience least equipped to independently evaluate a "guaranteed" doubling of their money — the guarantee itself being the clearest tell, since no lawful investment can promise a fixed return.`,
   },
 );
+
+NotoriousGM.push(
+  {
+    title: 'Gino Accettola: The Serial Fraudster Who Kept Finding New Victims',
+    slug: 'gino-accettola-michigan-construction-investment-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://www.justice.gov/usao-edmi/pr/ponzi-scheme-fraudster-sentenced-11-years-prison-embezzling-over-4-million',
+    body: `Gino Accettola, of Shelby Township in Macomb County, Michigan, was already a familiar name to prosecutors by the time federal investigators caught up with his final scheme. Court records show Accettola had been convicted of fraud-related crimes sixteen separate times between 1991 and 2019 — a criminal history that makes his last case less a single isolated fraud than the closing chapter of a decades-long pattern.
+
+Between 2014 and 2016, Accettola solicited investments from friends and acquaintances by promising abnormally high, short-term returns, telling them their money would fund commercial construction projects in Michigan and Florida. According to the U.S. Attorney's Office for the Eastern District of Michigan, many of those projects simply didn't exist. In one instance, Accettola claimed he was personally friends with the managing partner of a real Michigan manufacturing company and that investor money would support a facility the company was building — a company he in fact had no connection to and a managing partner he had never met. To keep the story convincing, prosecutors said Accettola fabricated emails, contracts, and payout schedules made to look as though they came from the company, its managing partner, and other employees who had no idea their names were being used.
+
+Seventeen people invested more than $4 million with Accettola based on these representations. He pleaded guilty to wire fraud in April 2022, and U.S. District Judge Laurie J. Michelson sentenced him to 135 months — eleven years and three months — in federal prison, along with an order to pay $4,199,846.35 in restitution to his victims.
+
+Accettola's case illustrates something most single-scheme fraud cases don't: what happens when a con artist isn't stopped the first, second, or even the fifteenth time. A pattern of past fraud convictions is a matter of public record, and a multimillion-dollar construction-investment pitch built partly on a claimed personal friendship with a real company's executive is exactly the kind of claim a five-minute phone call to that company — rather than trust in the person making the introduction — could have tested before a single check was written.`,
+  },
+);
