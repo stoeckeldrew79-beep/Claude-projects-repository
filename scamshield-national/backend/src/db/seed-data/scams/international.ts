@@ -12174,3 +12174,39 @@ International.push(
     sourceUrl: 'https://www.odt.co.nz/lifestyle/magazine/worked-over',
   },
 );
+
+International.push(
+  {
+    name: 'Singapore Fake Bank Hotline Google Search Ads Scam',
+    slug: 'singapore-fake-bank-hotline-google-search-ads-scam',
+    description:
+      'Scammers buy Google Search ads that display a fake customer-service number for a bank at the top of search results, so a person searching for their bank\'s real hotline calls the fraudulent number instead. The "bank staff" who answer claim there is a problem with the caller\'s account, card, or a loan, then talk them into "temporarily" transferring funds to a third-party account to resolve it, sometimes reinforcing the ruse with a spoofed SMS made to look like it came from the bank itself, invoking the genuine "Let\'s Fight Scams" campaign run by the Anti-Scam Centre and Singapore Police Force. The Singapore Police Force advisory recorded at least 15 victims and losses of at least S$495,000 since December 2021, and advises only ever calling a bank hotline number copied from the bank\'s own official website or the back of a bank card, never one found in a search ad.',
+    categorySlug: 'phishing',
+    country: 'SG',
+    alertLevel: 'high',
+    sources: ['Singapore Police Force'],
+    sourceUrl: 'https://www.police.gov.sg/media-hub/news/2022/20220119_police_advisory_on_scam_ads_on_google_search',
+  },
+  {
+    name: 'Singapore Fake Buyer Phishing Scam',
+    slug: 'singapore-fake-buyer-phishing-scam',
+    description:
+      'A scammer poses as an interested buyer on Facebook Marketplace, Carousell, or another online marketplace, agrees a price with the seller, and then sends a link claiming to help arrange payment or delivery, framing itself as a message from the marketplace platform itself. The link leads to a spoofed bank or payment page that harvests the seller\'s banking credentials, card details, and one-time passwords, which are then used to make unauthorized transactions, including transfers to overseas cryptocurrency platforms. Unlike scams targeting buyers who pay for goods that never arrive, this pattern targets the seller directly through a fraudulent "payment" step — the Singapore Police Force recorded at least 223 victims and losses of at least S$622,000 since 1 November 2025 alone, and advises sellers to meet buyers in person and never click a payment or delivery link sent directly by a buyer.',
+    categorySlug: 'online-shopping-scams',
+    country: 'SG',
+    alertLevel: 'high',
+    sources: ['Singapore Police Force'],
+    sourceUrl: 'https://www.police.gov.sg/media-hub/news/2025/12/20251229_police_advisory_on_phishing_scams_involving_fake_buyers_on_online_platforms',
+  },
+  {
+    name: 'Singapore Fake Police Report Google Forms Scam',
+    slug: 'singapore-google-forms-fake-police-report-scam',
+    description:
+      'An unsolicited email inviting the recipient to claim a gift voucher links to a fake payment page that harvests card details, security codes, and a one-time password. Once unauthorized charges appear on the card, a scammer calls posing as bank staff and, to build further trust, directs the victim to "file a police report" through a Google Form fraudulently bearing the Singapore Police Force\'s insignia and a fabricated case number — a form that actually just harvests more of the victim\'s personal particulars. The caller then persuades the victim to download a remote-access application, giving the scammer direct control of the victim\'s device to make further unauthorized internet banking transactions. The Singapore Police Force states it will never ask members of the public to provide information on scams or lodge police reports through a Google Form, and that genuine reports can only be filed through the police\'s own official e-Services or in person at a Neighbourhood Police Centre.',
+    categorySlug: 'government-impersonation',
+    country: 'SG',
+    alertLevel: 'medium',
+    sources: ['Singapore Police Force'],
+    sourceUrl: 'https://www.police.gov.sg/media-hub/news/2022/20221207_plc_advsry_on_phshng_scams_invlvg_google_frms_with_the_sg_police_force_insignia',
+  },
+);
