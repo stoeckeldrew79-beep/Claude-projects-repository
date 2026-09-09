@@ -6130,3 +6130,20 @@ Baines pleaded guilty in July 2022 to one count of mail fraud for the EDD scheme
 Nuke Bizzle's case became one of the most-cited examples of pandemic unemployment fraud not because of its dollar amount — plenty of PUA schemes moved more money — but because of how little effort he put into hiding it. A fraudster who steals identities to loot a state relief program is common; one who then releases a rap video celebrating the theft, under his own recognizable stage name, on platforms investigators can subpoena, is not. The stack of EDD envelopes he waved on camera for views became, almost immediately, Exhibit A.`,
   },
 );
+
+NotoriousAF.push(
+  {
+    title: 'Fesum Ogbazion and the Instant Tax Service Loans That Were Never Real',
+    slug: 'fesum-ogbazion-instant-tax-service-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `Fesum Ogbazion had already sold one tax-prep company to a Fortune 500 buyer before he built his second one into a nationwide fraud. He founded Instant Refund Tax Service in 1994 and sold it to Jackson Hewitt in 1999, then in 2004 launched ITS Financial LLC, the franchisor behind Instant Tax Service (ITS), which grew to more than 1,100 storefronts across the country and, by its own marketing, became the fourth-largest tax-preparation firm in the nation.
+
+The growth was built on a loan that didn't exist. ITS advertisements nationwide offered customers refund anticipation loans — quick cash against an expected tax refund — funded through what was described as an independent third-party lender. Prosecutors said ITS had no such lender ready to fund the promised loans at all: the loan pitch existed to get customers in the door, where the "application" was instead used to prepare and file their tax returns, often without their authorization, generating a return-prep fee ITS collected regardless of whether any loan ever materialized. Between 2006 and 2011 alone, the scheme brought in more than $70 million in fees. Court filings from a related civil case described a company that also charged its largely low-income customers hidden add-on fees, forged signatures on loan checks, and trained franchisees to prepare early, deliberately understated returns to move customers through the door faster.
+
+Regulators moved first. Following a two-week trial in Cincinnati, a federal court issued a permanent injunction in 2013 shutting ITS down entirely and barring Ogbazion personally from ever working in tax-return preparation again — an unusually sweeping remedy for what was, at the time, still just a civil case. The criminal case took longer: Ogbazion was separately found to have evaded roughly $1.3 million in payroll taxes across several 2009 and 2010 tax quarters, funneling business revenue into nominee accounts, hiding assets under nominee entities, and lying to an IRS revenue officer who was trying to collect the debt. A federal jury convicted him on June 6, 2017, of tax evasion, willfully failing to pay over employment taxes, wire fraud, conspiracy to commit wire fraud, and bank fraud.
+
+It then took more than four additional years for a sentence to follow. In January 2022, U.S. District Judge Timothy S. Black sentenced Ogbazion to one year and one day in prison, three years of supervised release, and $933,708 in restitution — a modest final tally next to the $70 million the scheme had collected in fees, and next to the civil injunction that had already ended his tax business nearly a decade earlier. The case is a reminder that a franchise's storefront count and self-marketed size — "fourth-largest in the nation" — say nothing about whether the loan a customer is being sold to walk in the door actually exists.`,
+    sourceUrl: 'https://www.justice.gov/archives/opa/pr/founder-nationwide-tax-return-preparation-company-sentenced-prison-fraud-and-tax-crimes',
+  },
+);

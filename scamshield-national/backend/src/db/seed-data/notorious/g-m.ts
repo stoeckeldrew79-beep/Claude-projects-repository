@@ -6317,3 +6317,20 @@ Slayton was convicted on charges including criminal exploitation of an at-risk e
 Home-repair fraud against elderly homeowners is common enough to have its own name in elder-abuse casework, but Slayton's case shows how much further it can go than an unfinished paint job or a driveway that cracks apart in a season: an unlicensed, corner-cutting contractor working with a hazardous material like asbestos can leave a victim not just out tens of thousands of dollars, but living in — or unable to safely return to — a home that's now a health hazard.`,
   },
 );
+
+NotoriousGM.push(
+  {
+    title: 'Miteshkumar Patel: The Chicago Runner-Network Manager Who Laundered a Fear-Based Phone Scam',
+    slug: 'miteshkumar-patel-irs-scam-runner-network',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    body: `The India-based call center scam that impersonated the IRS and U.S. Citizenship and Immigration Services needed more than telecallers reading a fear script — it needed people in the United States who could turn each victim's payment into cash before anyone caught on. Miteshkumar Patel ran that half of the operation. Based in Illinois, he managed a Chicago crew of "runners" who liquidated and laundered the proceeds of a telefraud conspiracy that, prosecutors said, ran from roughly 2013 to 2016 and defrauded thousands of victims across the country.
+
+The calls followed a script refined for maximum panic: callers posing as IRS or USCIS officers told victims they owed back taxes or had an immigration problem, and that they would be arrested or deported within hours unless they paid immediately. Victims who believed the threat were instructed to pay using general-purpose reloadable stored-value cards — a format chosen because, unlike a wire transfer, the funds on a card could be drained by a runner within minutes of the victim reading out the numbers over the phone. Patel's job was to keep that pipeline moving: according to his plea agreement, he recruited, trained, and tasked the runners in his crew, and coordinated directly with the India-based side of the conspiracy on how the scheme was run day to day. He was held responsible for laundering between $9.5 million and $25 million.
+
+The case became one of the largest telefraud prosecutions in U.S. history, ultimately reaching more than 20 defendants sentenced across multiple federal districts for their roles as callers, payment processors, and runners. Patel pleaded guilty to money laundering conspiracy, and on July 20, 2018, was sentenced to 240 months — 20 years — in federal prison, followed by three years of supervised release, one of the longest sentences handed down among the U.S.-based defendants in the case.
+
+Patel's role is the part of a phone scam that victims never see: after the panicked call ends and the card numbers are read out, someone still has to turn that number into usable cash before a bank or card issuer can freeze it. His 20-year sentence reflects how seriously prosecutors have come to treat that laundering layer — not as an afterthought to the fraud, but as an essential, prosecutable piece of the machine that made the whole scheme work.`,
+    sourceUrl: 'https://www.justice.gov/archives/opa/pr/24-defendants-sentenced-multimillion-dollar-india-based-call-center-scam-targeting-us-victims',
+  },
+);
