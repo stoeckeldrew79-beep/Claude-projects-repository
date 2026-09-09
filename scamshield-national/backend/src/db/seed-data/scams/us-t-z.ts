@@ -486,18 +486,6 @@ export const UsTZ: SeedScam[] = [
     sourceUrl: 'https://www.fisherphillips.com/en/insights/insights/ftc-launches-probe-into-college-athlete-agents-as-transfer-portal-chaos-grows',
   },
 {
-    name: 'Unauthorized Crowdfunding Pages for Alaska Charities',
-    slug: 'unauthorized-crowdfunding-pages-alaska-charities',
-    description:
-      'The Alaska Department of Law sued several major crowdfunding and payment platforms for creating unauthorized donation pages for thousands of Alaska-based charities without their knowledge or consent, then collecting fees on donations intended for those nonprofits. The suit alleges violations of Alaska\'s Charitable Solicitations Act and unfair trade practices law — always verify a charity\'s official donation page directly on the charity\'s own website before giving.',
-    categorySlug: 'charity-scams',
-    country: 'US',
-    state: 'AK',
-    alertLevel: 'medium',
-    sources: ['Alaska Department of Law'],
-    sourceUrl: 'https://law.alaska.gov/press/releases/2026/031026-FinTech.html',
-  },
-{
     name: 'Treasure Valley Municipal Permit Fraud Scheme',
     slug: 'treasure-valley-municipal-permit-fraud-scheme',
     description:
