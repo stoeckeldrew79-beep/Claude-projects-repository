@@ -4720,3 +4720,27 @@ UsNS.push({
     country: 'US',
     state: 'SC',
 });
+
+UsNS.push({
+    name: 'New Hampshire Moloney Securities GWG L Bonds Unsuitable Sales',
+    slug: 'new-hampshire-moloney-securities-gwg-l-bonds-unsuitable-sales',
+    description: `The New Hampshire Secretary of State's Bureau of Securities Regulation entered a Consent Order on February 24, 2026 against Moloney Securities Co., Inc., a St. Louis-area broker-dealer that operated a branch office in Epping, New Hampshire, and two of its registered agents there, Glenn Cray and Robert Gustafson, over their sale of GWG L Bonds to New Hampshire clients. GWG L Bonds were high-yield, illiquid bonds issued by GWG Holdings, Inc. to fund the purchase of life-insurance policies on the secondary market; GWG filed for bankruptcy in April 2022, and the bonds were left largely worthless, wiping out retail investors nationwide who had been sold them as a stable income product. The Bureau's investigation found that Moloney and its agents "did not fully understand the risks of investing in GWG and, therefore, were recommending an investment that was inappropriate for their customers" — a suitability failure, since a complex, illiquid, unrated bond backed by a single company's life-settlement business is not a fit for every retail investor's risk tolerance or liquidity needs regardless of the yield advertised. Under the Consent Order, Moloney agreed to pay $100,000 in restitution to affected New Hampshire customers, calculated pro rata based on each investor's principal lost minus any interest actually received from GWG, plus $14,000 in costs to the Bureau; Cray and Gustafson agreed to disgorge $15,000 and $35,000, respectively, in commissions they earned recommending the bonds, and both agents are subject to a year of heightened supervision by their new firm. Before buying any bond, note, or "L Bond"-style product marketed for its yield, New Hampshire investors can check a broker's registration, licensing history, and any prior discipline through the Bureau of Securities Regulation and FINRA's BrokerCheck, and should ask directly whether a recommended product is rated, how it can actually be resold before maturity, and what happens to the investment if the issuing company runs into financial trouble — questions a broker who "did not fully understand the risks" themselves would have struggled to answer honestly.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'high',
+    sources: ["New Hampshire Secretary of State's Bureau of Securities Regulation"],
+    sourceUrl: 'https://www.sos.nh.gov/bureau-securities-enforcement-actions',
+    country: 'US',
+    state: 'NH',
+});
+
+UsNS.push({
+    name: 'Churchill County Fake School Fundraiser Phone Scam',
+    slug: 'nevada-churchill-county-fake-school-fundraiser-scam',
+    description: `The Fallon Police Department in Churchill County, Nevada warned residents in June 2026 about a wave of scam phone calls in which callers claim to represent the Churchill County School District and ask for donations, personal information, banking details, or payment on the district's behalf to support a school fundraiser. The Churchill County School District confirmed publicly that it "is not currently participating in any fundraising efforts," meaning every one of these calls is fraudulent regardless of how convincing the pitch sounds or how specific the caller is about a particular school, team, or program supposedly being supported. Police noted that the calls rely on the same pressure tactics common to other impersonation scams — invoking a trusted local institution and a sympathetic cause (support for schoolchildren) to get a resident to act, and pay, before stopping to verify anything. As families head into a new school year, when legitimate fundraising drives, booster-club pushes, and PTA sales calls do pick up, the Fallon Police Department is urging residents never to provide personal or financial information to an unsolicited caller and to verify any request for money supposedly on behalf of the school district by contacting the district directly, using a phone number looked up independently rather than one supplied by the caller, before donating or providing any information. Anyone who receives one of these calls is encouraged to hang up and report it to the Fallon Police Department rather than engage with the caller further.`,
+    categorySlug: 'charity-scams',
+    alertLevel: 'medium',
+    sources: ['Fallon Police Department', 'Churchill County School District'],
+    sourceUrl: 'https://www.2news.com/news/local/scam-calls-posing-as-school-fundraiser-prompt-warning-from-local-police/article_53525c98-3eee-49f7-aa46-59546232047f.html',
+    country: 'US',
+    state: 'NV',
+});
