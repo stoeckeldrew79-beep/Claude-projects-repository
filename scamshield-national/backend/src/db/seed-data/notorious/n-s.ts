@@ -3806,3 +3806,56 @@ Dallas pleaded guilty on February 5, 2026, to conspiracy to commit mail and wire
 As with every version of this scheme, the tell was built into the pitch itself: prosecutors and consumer-protection officials note that a legitimate sweepstakes, Publishers Clearing House included, never requires a winner to pay a fee, a tax, or a "processing cost" before releasing a prize, and never asks a winner to send cash, gift cards, or luxury items to collect what they've supposedly already won. Anyone told they've won a prize they don't remember entering, and then asked to pay anything to receive it, is not talking to a real sweepstakes operator — they're being walked through the same script that took federal investigators years and a multi-state investigation to unravel.`,
   },
 );
+
+NotoriousNS.push(
+  {
+    title: "Robert Novy: The Elder-Law Radio Host Who Robbed His Own Clients",
+    slug: 'robert-novy-ocean-county-elder-law-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://www.njoag.gov/ocean-county-lawyer-who-hosted-radio-show-on-elder-law-sentenced-to-10-years-in-state-prison-for-stealing-millions-from-elderly-clients/',
+    body: `Robert Novy built a public reputation as a protector of the elderly: an Ocean County, New Jersey attorney who hosted "Inside the Law," a bi-monthly radio program on elder-law topics, dispensing advice on wills, trusts, and guardianship to an audience made up of exactly the kind of older adults he would later be convicted of robbing.
+
+According to the New Jersey Attorney General's Office, Novy used his law practice to gain sweeping control over the finances of elderly clients who had no close relatives keeping watch — becoming the named agent under powers of attorney, writing himself favorable terms into wills and trust documents, and positioning himself as the only person with visibility into his clients' financial affairs. Once he had that control, prosecutors said, Novy redirected annuities and life insurance policies into his own accounts and funneled the proceeds through his attorney trust and business accounts to obscure where the money had gone. Many of his victims were elderly, some with dementia, and several were already deceased by the time investigators reconstructed how their estates had been drained.
+
+New Jersey investigators arrested Novy on October 18, 2016; the state ultimately determined he had stolen more than $3 million from at least two dozen victims. Novy pleaded guilty in July 2018 to first-degree money laundering, and on October 26, 2018, a judge in Ocean County Superior Court sentenced him to 10 years in state prison, with three years and four months to be served before parole eligibility, and ordered him to surrender his law license. Roughly $4 million in previously seized assets was set aside for restitution — $3 million for identified victims and a further $1 million reserved for additional victims who could later come forward with proof of loss — and Novy was separately ordered to pay a $500,000 penalty under the state's anti-money-laundering profiteering statute.
+
+Novy's case is a reminder that professional credentials and public trust — a law degree, a radio show devoted to warning seniors about exactly this kind of exploitation — offer no independent guarantee against exploitation by the person holding them. A power of attorney or trust arrangement that hands one person total, unsupervised control over an elderly person's finances is safest when a second party — another family member, a bank's trust department, or a court-appointed monitor — has ongoing visibility into what that person actually does with the money, rather than relying solely on the reputation of whoever asked for that control in the first place.`,
+  },
+);
+
+NotoriousNS.push(
+  {
+    title: 'Robert "Bobby" Gray and the TEXITcoin Mining "Rocket Ship"',
+    slug: 'robert-gray-texitcoin-crypto-mining-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.ssb.texas.gov/news-publications/texas-grounds-crypto-mining-investment-rocket-ship',
+    body: `A note before this one: everything below comes from a Texas state securities regulator's emergency order and subsequent news reporting on the contested administrative hearing that followed it. Robert Gray has denied wrongdoing, and as of this writing the hearing had not yet produced a ruling — none of it should be read as an adjudicated finding of fraud.
+
+Robert "Bobby" Gray, of McKinney, Texas, built TEXITcoin and an associated mining venture, MineTXC, around a pitch that promised passive daily returns for simply buying in. Sales materials, according to the Texas State Securities Board, told buyers that once they purchased a "Mining Package," they had a "seat on the rocket ship, and now can simply sit back and enjoy the ride." The packages sold for $995, $2,985, or $8,955 and were promoted through YouTube, Facebook, and X, along with radio and billboard advertising, sold through a multi-level marketing structure that paid participants commissions for recruiting additional buyers. By the time regulators intervened, according to news reporting on the case, the venture had taken in more than $147 million from tens of thousands of participants and paid out roughly $65 million in commissions, while TEXITcoin's own token price had fallen from a high above $6 to under $0.30.
+
+On February 11, 2026, the Texas State Securities Board issued an emergency cease-and-desist order — No. ENF-26-CDO-1893 — against TEXITcoin, MineTXC, Blockchain Mint, and Gray personally, alleging they had illegally sold unregistered securities and made materially misleading statements to investors. The Board's Enforcement Division said Gray and his companies had failed to disclose information purchasers needed to evaluate their risk, including details about the ventures' finances, the actual scale of their mining operations, who had custody of investor funds, and Gray's own prior business history — which, according to news reporting on the case, included an earlier venture, Mulligan Mint, that had gone through bankruptcy. "In cases like this, when investor harm is immediate and ongoing, it's imperative we act quickly," said Deputy Securities Commissioner Cristi Ramón Ochoa in announcing the order.
+
+Gray, through counsel, contested the order, arguing the mining packages were product purchases rather than securities and did not carry the legal obligations of an investment contract. A four-day evidentiary hearing before the State Office of Administrative Hearings began August 17, 2026, with Administrative Law Judge Katerina DeAngelo weighing whether to affirm, modify, or set aside the emergency order; no ruling had been issued as of this writing, and news coverage of the proceedings placed Gray operating internationally, including stops in Dubai and Hong Kong, while the case continued.
+
+Whatever the hearing ultimately decides, the TEXITcoin case illustrates a structure regulators have flagged repeatedly in cryptocurrency-adjacent investment pitches: a product marketed as a straightforward purchase — mining capacity, a "package," a physical or digital good — sold through a recruitment-driven commission structure that rewards growing the buyer base at least as much as it rewards the underlying business actually working as advertised.`,
+  },
+);
+
+NotoriousNS.push(
+  {
+    title: "Patrick Wonsey and the Forex Trading Business That Never Really Traded",
+    slug: 'patrick-wonsey-forex-binary-options-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer', 'historical'],
+    sourceUrl: 'https://www.cftc.gov/PressRoom/PressReleases/8786-23',
+    body: `Patrick Wonsey, of Riverview, Florida, ran a foreign-currency and binary-options trading business under the name One Bell & Associates, Inc., soliciting money from retail customers with promises of profitable trading in forex, binary options, metals, and digital assets. According to the U.S. Commodity Futures Trading Commission, Wonsey operated the business from at least January 2017 through September 2022, taking in a minimum of $3.4 million from more than 50 individuals.
+
+The CFTC's civil complaint, filed September 26, 2023 in the U.S. District Court for the Middle District of Florida, alleged that Wonsey misrepresented his trading success and the safety of customers' money, then misappropriated a substantial share of what he collected — roughly $2.7 million, the agency said — for purposes that had nothing to do with the trading he had promised. The complaint further alleged that Wonsey operated as an unregistered commodity pool operator and commingled customer funds with his own, leaving his customers with no independent way to verify what had actually happened to their money.
+
+Wonsey did not respond to the lawsuit or appear in court to contest it. The CFTC moved for a default judgment, asking the court to order Wonsey to repay the roughly $2.7 million it said he had misappropriated and to impose a civil monetary penalty of more than $8.1 million — three times the misappropriated amount — along with permanent trading and registration bans. The U.S. District Court for the Middle District of Florida entered an Order for Default Judgment against Wonsey on May 8, 2024, in case No. 8:23-cv-02174. Publicly available secondary reporting reviewed for this profile did not include the exact final dollar figure the court ultimately ordered, though the CFTC's own notice of the judgment confirmed monetary sanctions exceeding $1 million.
+
+Wonsey's case is a reminder that a default judgment — entered because a defendant simply stopped participating in his own defense — is not a lesser outcome for the people who lost money to him. It is often what happens when the person behind a trading scheme has nothing left to offer in his own defense and nowhere further to go, leaving a federal judgment on the books that establishes what he owes even though actually collecting it from him remains a separate, and often much harder, problem.`,
+  },
+);
