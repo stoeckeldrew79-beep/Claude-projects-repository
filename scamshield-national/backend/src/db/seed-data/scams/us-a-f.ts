@@ -6477,3 +6477,26 @@ UsAF.push({
     country: 'US',
     state: 'MA',
 });
+
+UsAF.push({
+    name: 'Beaver County "Summer Bowl" Youth Football Registration Scam',
+    slug: 'beaver-county-summer-bowl-youth-football-scam',
+    description: `Between October 2024 and May 2025, Ameer Dudley, 48, of Aliquippa, Pennsylvania, collected registration payments from parents in Beaver County who wanted to reserve a spot for their child in a youth football event he called the "Summer Bowl," scheduled for spring or summer 2025. Nine families paid a combined $2,054, then heard nothing further about the game, received no notice when it was quietly canceled, and got no refund despite repeated requests. When police contacted Dudley on November 11, 2025, he agreed to set up a repayment schedule within three weeks; by November 25, none of the nine families had been paid back, and the victims told police Dudley never called any of them as promised. He was subsequently charged with nine counts of theft by false deception, one for each family. The case is a reminder that a private individual soliciting registration fees for a youth sports "bowl game," showcase, or tournament — as opposed to a fee collected through an established school, league, or municipal recreation department — should be verified before any money changes hands: ask for the event's venue, insurance, and any affiliated school or league by name, pay in a way that can be disputed rather than cash or a payment app's "friends and family" option, and treat a canceled event with no notice and no refund as a signal to contact local police rather than keep waiting on a promised callback.`,
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'medium',
+    sources: ['WPXI Pittsburgh (Pittsburgh\'s Action News 4)'],
+    sourceUrl: 'https://www.wpxi.com/news/local/beaver-county-man-accused-taking-parents-money-youth-football-game-that-never-happened/54RTMZT5D5HCNGRQRP3WPNBOLQ/',
+    country: 'US',
+    state: 'PA',
+});
+
+UsAF.push({
+    name: 'DEA "Operation Meltdown" Counterfeit Online Pharmacy Takedown',
+    slug: 'dea-operation-meltdown-counterfeit-online-pharmacy-scam',
+    description: `On February 4, 2026, the DEA announced "Operation Meltdown," the takedown of more than 200 website domains built to look like legitimate, FDA-approved, US-based online pharmacies, tied to an India-based transnational criminal organization that DEA's Rocky Mountain Field Division had been investigating since 2022. The sites took orders from customers across the country for medications — including counterfeit versions of controlled prescription drugs — without a valid prescription, but instead of shipping the real thing, operators working with drug traffickers filled many of the orders with counterfeit pills pressed with fentanyl or other diverted pharmaceuticals, which DEA ties to at least six fatal and four non-fatal overdoses. Beginning January 27, 2026, DEA field offices around the country carried out coordinated operations that led to four arrests, five Immediate Suspension Orders, and one Order to Show Cause against pharmacies and individuals in the network. Because the operation identified thousands of US customers who had unknowingly purchased from the fraudulent network, DEA sent more than 20,000 letters to members of the public seeking information as the investigation continues. The professional design and FDA-approved branding these sites displayed were themselves fabricated, which is why DEA recommends buying prescription medication only from a pharmacy verified through the FDA's BeSafeRx program or a site carrying the National Association of Boards of Pharmacy's ".pharmacy" or "Digital Pharmacy Accreditation" seal, and treating any online pharmacy that will fill a controlled-substance prescription without one from a licensed provider as a sign the pills it ships may be counterfeit and potentially lethal rather than simply low-cost.`,
+    categorySlug: 'healthcare-fraud',
+    alertLevel: 'critical',
+    sources: ['Drug Enforcement Administration (DEA)'],
+    sourceUrl: 'https://www.dea.gov/press-releases/2026/02/04/dea-operation-meltdown-shuts-down-hundreds-illegal-online-pharmacies',
+    country: 'US',
+});
