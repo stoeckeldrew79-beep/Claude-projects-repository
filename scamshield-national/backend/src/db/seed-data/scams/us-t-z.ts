@@ -2613,3 +2613,15 @@ UsTZ.push({
     country: 'US',
     state: 'WV',
 });
+
+UsTZ.push({
+    name: `Shelburne Fake Business-Venture and Mortgage Fraud (Myrkel Latroy Staley)`,
+    slug: 'vermont-shelburne-staley-fake-business-venture-mortgage-fraud',
+    description: `A federal grand jury in Burlington indicted Myrkel Latroy Staley, 43, of Shelburne, Vermont, on four counts of bank fraud on July 2, 2026, alleging he lied to two different sets of people to finance the same house. According to the indictment, Staley persuaded another person to hand over $283,000 by pitching two fabricated business ventures — the sale of a trucking company and the construction of a multi-unit apartment complex, both supposedly in South Carolina — and then used that money as the down payment on a property in Shelburne rather than on either venture. To get the mortgage itself, prosecutors say Staley told TD Bank he had earned $131,578 in 2020, backed by a fraudulent tax return, even though the return he had actually filed with the IRS for that year reported no income at all; he later submitted a document claiming $193,562 in income to obtain a home equity line of credit on the same property. Staley — who court records say has also gone by the names Troy Williams, Troy Staley, and Myrkel Stakey — pleaded not guilty at his arraignment on July 14, 2026 before U.S. Magistrate Judge Kevin J. Doyle; First Assistant U.S. Attorney Jonathan A. Ophardt credited IRS Criminal Investigation, the FBI, and the U.S. Secret Service with building the case. If convicted, Staley faces up to 30 years in prison and a fine of up to $1 million. The case is a reminder that a pitch to fund a "business venture" out of state, paid directly to the person pitching it rather than into any escrow or business account, is functionally the same request whether it's called an investment or a personal loan — anyone asked to wire money toward someone else's trucking company, apartment project, or home purchase should ask to see the underlying purchase agreement or construction contract directly from the third party involved, not just take the requester's description of it on faith.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'medium',
+    sources: ["U.S. Attorney's Office for the District of Vermont", 'IRS Criminal Investigation', 'Vermont Business Magazine'],
+    sourceUrl: 'https://www.irs.gov/compliance/criminal-investigation/shelburne-man-charged-with-four-counts-of-bank-fraud',
+    country: 'US',
+    state: 'VT',
+});
