@@ -1670,3 +1670,22 @@ Prosecutors say the fraud itself was run out of call centers based in India, Tha
 The tech-support-refund combination that funded Marion's operation works precisely because it exploits trust twice: once when a fabricated computer problem convinces a victim to pay for a fix, and again when a fabricated "overpayment" convinces the same victim they are the one who now owes money back. Neither call originates from a real software company or bank, and no legitimate refund is ever issued by asking a customer to send money to a stranger — a pop-up warning demanding an immediate phone call, and any request to return an "accidental" refund, are both signs to hang up and contact the actual company directly through a number found independently, not one supplied by the caller.`,
   },
 );
+
+NotoriousTZ.push(
+  {
+    title: 'Taj Tarsha and the Few and Far NFT Token Fraud',
+    slug: 'taj-tarsha-few-and-far-nft-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-sdny/pr/nft-startup-founder-charged-fraud',
+    body: `Note: Taj Tarsha has been indicted, not convicted. The allegations below come from a federal indictment and describe the government's case; Tarsha's attorneys have publicly disputed them, and he is presumed innocent unless and until proven guilty in court.
+
+Taj Tarsha, 34, of Miami, founded Few and Far, an NFT and crypto startup that pitched itself as a platform for the future of digital collecting. Rather than selling stock in the traditional sense, Few and Far raised money by selling investors the rights to future "FAR" tokens through Simple Agreement for Future Tokens (SAFT) contracts — a structure common in crypto fundraising that promises a cryptocurrency token once a platform launches, in exchange for cash up front. By Tarsha's own public announcement in March 2023, the company had raised more than $10 million from investors this way.
+
+According to a federal indictment unsealed in Manhattan, that money didn't go where investors were told it would. Prosecutors allege Tarsha diverted substantial sums to online casino gambling and speculative cryptocurrency trades unrelated to Few and Far's business, paid himself and insiders nearly $1 million in bonuses and salary that were concealed from investors, and used company funds toward personal expenses including a loan on a Miami condominium, interior decorating, and costs tied to a side career as a DJ. An internal audit in 2023 is said to have first exposed the scale of the diversion — but the indictment alleges Tarsha responded not by coming clean, but by continuing to mislead investors, falsely characterizing the flagged transactions as benefiting the business while quietly shrinking the company's actual workforce and directing remaining staff to maintain the appearance of active platform development.
+
+Few and Far ultimately launched its FAR token in May 2024, selling roughly 95 million tokens to a base of at least 67 investors — a token that prosecutors say quickly became worthless. Tarsha was arrested on June 6, 2026, and a federal grand jury in the Southern District of New York indicted him on August 5, 2026, on charges of securities fraud and wire fraud, each carrying a statutory maximum of 20 years in prison. The case has been assigned to U.S. District Judge Lewis A. Kaplan. Tarsha's attorneys have pushed back publicly on the government's framing, telling reporters that "business failure is not a crime" and accusing prosecutors of "selective storytelling" in casting a startup that didn't work out as a criminal fraud.
+
+Tarsha's case sits at a real fault line in crypto-fundraising prosecutions: a startup spending investor money badly, or a founder living well off funds meant for product development, is not automatically the same thing as fraud, which requires proving the money was raised through knowing misrepresentation rather than simply mismanaged afterward. What a jury ultimately decides about that distinction — and whether Tarsha's spending and subsequent statements to investors crossed the line separating a failed venture from a criminal one — remains to be seen; nothing here should be read as resolving that question in advance of a trial.`,
+  },
+);

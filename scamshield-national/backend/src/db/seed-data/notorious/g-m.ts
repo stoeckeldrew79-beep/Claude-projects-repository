@@ -5580,3 +5580,24 @@ Taylor pleaded guilty on August 18, 2025, before U.S. District Judge Jennifer L.
 A donor giving a few hundred dollars to a small nonprofit rarely thinks to ask who sits on its board or whether that board actually meets, but a charity's board is exactly the kind of detail public filings are supposed to make checkable: nonprofits' IRS Form 990 filings, searchable for free through the IRS's Tax Exempt Organization Search, list officers and directors, and a small charity whose listed board members never change, meet, or show up in its public materials is a pattern worth asking about before giving.`,
   },
 );
+
+NotoriousGM.push(
+  {
+    title: 'Joel Sofia and the WOLO Wealth Fake AI Trading Fraud',
+    slug: 'joel-sofia-wolo-wealth-ai-trading-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26463',
+    body: `Note: this is a civil SEC enforcement action. The complaint filed against Joel Sofia describes allegations only — as of this writing, he has not been found liable by a court, and the case remains active.
+
+Joel B. Sofia, 46, of Sewell, New Jersey, ran an advisory operation he called WOLO Wealth Inc. — a name, the SEC's complaint points out, that didn't actually belong to any incorporated company. According to the SEC, Sofia told at least three prospective clients he had spent 20 to 30-plus years successfully trading options, a background prosecutors say he fabricated. He also told them their money would face essentially no risk: their principal was guaranteed against loss, he said, thanks to proprietary artificial-intelligence trading software he'd built himself that automated trades and eliminated downside — a description of a product that, as regulators noted, does not exist in any legitimate form.
+
+From around July 2019 through January 2023, the SEC alleges, Sofia used that pitch to obtain direct access to at least three clients' brokerage accounts and place options trades on their behalf. The results were the opposite of risk-free: one client who started with roughly $1.2 million lost more than $1 million; a second, starting from $956,489.98, lost around $500,000; a third, starting from $100,241.98, lost more than 60% of the account. Across the three clients, the SEC calculates combined losses of more than $1.6 million, with individual accounts down between 61% and 89% from their starting balances. When clients raised concerns about the mounting losses, the complaint alleges, Sofia brushed them off and eventually stopped responding to them altogether.
+
+Sofia was never registered with the SEC in any capacity and held no securities licenses — and this wasn't his first brush with a financial regulator. In 2005, he consented to a CFTC judgment permanently barring him from commodity futures and options activity, after being charged with operating without the registration the law required, along with an order to disgorge $25,162.50 and pay a $10,000 civil penalty. That lifetime bar from one corner of the derivatives markets didn't stop him from returning, more than a decade later, to give unregistered investment advice in a different one.
+
+The SEC filed its complaint on January 20, 2026, in the U.S. District Court for the District of New Jersey, charging Sofia with violating Sections 206(1) and 206(2) of the Investment Advisers Act of 1940 — the Act's core antifraud provisions, which apply to anyone acting as an investment adviser whether or not they ever bothered to register as one. The agency is seeking a permanent injunction and civil monetary penalties.
+
+A "guaranteed, risk-free" return on actively traded options is a claim that collapses under the most basic scrutiny: options pricing bakes in real market risk that no software, artificial intelligence or otherwise, can engineer away, and any adviser promising to eliminate that risk while still generating outsized returns is describing a product that isn't for sale anywhere in a regulated market. Checking whether an adviser is actually registered — free, in minutes, through the SEC's Investment Adviser Public Disclosure database or FINRA's BrokerCheck — would have surfaced Sofia's 2005 lifetime derivatives bar before a single dollar changed hands.`,
+  },
+);

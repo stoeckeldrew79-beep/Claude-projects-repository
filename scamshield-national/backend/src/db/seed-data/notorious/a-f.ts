@@ -5491,3 +5491,22 @@ An indictment unsealed December 17, 2025, in the Southern District of New York c
 Tricolor's collapse rattled a corner of the bond market that had treated subprime auto securitizations as a comparatively boring, well-collateralized asset class, precisely because the fraud alleged here didn't require inventing fictional borrowers or fictional cars — only pledging real collateral more than once and describing already-defaulted loans as current, manipulations invisible to any investor relying on numbers the company itself reported rather than an independent, loan-level audit of the actual collateral pool.`,
   },
 );
+
+NotoriousAF.push(
+  {
+    title: 'Eric Munson and the Adit Ventures Pre-IPO Fund Fraud',
+    slug: 'eric-munson-adit-ventures-pre-ipo-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.sec.gov/newsroom/press-releases/2026-73-sec-charges-private-fund-adviser-adit-ventures-management-its-ceo-affiliated-general-partners',
+    body: `Note: this is a civil SEC enforcement action, resolved by consent rather than by trial. Eric Munson and the Adit Ventures entities have consented to a judgment, subject to court approval, without admitting or denying the SEC's allegations — a common resolution that settles the case but does not amount to a court finding that the underlying conduct occurred as described.
+
+Eric Munson ran Adit Ventures Management LLC, a New York-based investment adviser, along with three affiliated general-partner entities — Adit Ventures LLC, Adit Ventures II LLC, and Adit Ventures III LLC — that pooled client money into funds marketed around a specific pitch: access to pre-IPO shares of buzzy private companies, including SpaceX and the Swedish fintech Klarna, that ordinary retail investors otherwise couldn't buy. From April 2019 through December 2024, according to the SEC, that access came with costs Munson never told his clients about.
+
+The SEC's complaint alleges Munson bought pre-IPO shares for himself or through entities he controlled and then sold them to his own advisory funds at a markup, collecting undisclosed "acquisition fees" that ran into the millions of dollars — fees layered on top of the standard management and performance fees clients already knew they were paying. The agency also alleges Munson pledged fund clients' assets as collateral to secure a $10 million line of credit for his own benefit without their authorization, and separately arranged unauthorized loans to himself and affiliated entities out of the funds he was supposed to be managing solely for investors. On top of that, the SEC says Adit Ventures Management operated as an investment adviser without ever registering with the Commission, despite managing enough client assets to trigger that requirement.
+
+The SEC filed its complaint on August 10, 2026, in the U.S. District Court for the Southern District of New York, charging Munson and the Adit entities with violating the antifraud provisions of the Securities Act of 1933 and the Securities Exchange Act of 1934, along with the antifraud and registration provisions of the Investment Advisers Act of 1940. "Investment advisers are entrusted with acting in their clients' best interests," said Corey A. Schuster, Chief of the SEC Enforcement Division's Asset Management Unit, in announcing the case. "Here, the defendants allegedly engaged in repeated fraudulent acts to benefit themselves." Munson and the Adit entities consented to permanent injunctions and to pay disgorgement with prejudgment interest and civil penalties in amounts still to be determined by the court, and Munson agreed to an associational bar from the securities industry that allows him to apply for reentry after three years.
+
+Pre-IPO access is one of the harder pitches for an ordinary investor to independently price-check, precisely because there's no public market quote to compare it against — a client told a fund is passing through the cost of pre-IPO shares "at cost" or for a modest flat fee has no easy way to verify what the fund itself actually paid for those shares before they were marked up and resold. That opacity is what let an adviser allegedly act as his own undisclosed counterparty on both sides of a trade, buying low as an individual and selling high to the very clients who'd hired him to act only in their interest.`,
+  },
+);
