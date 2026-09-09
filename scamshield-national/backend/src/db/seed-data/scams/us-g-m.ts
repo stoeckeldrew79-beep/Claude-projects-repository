@@ -4910,3 +4910,14 @@ UsGM.push({
     country: 'US',
     state: 'MD',
 });
+
+UsGM.push({
+    name: 'Medicare "National Database" Transfer Robocall Scam',
+    slug: 'medicare-national-database-transfer-robocall-scam',
+    description: `Robocall-blocking service Nomorobo flagged a fast-spreading Medicare scam ahead of the 2026 fall Open Enrollment period: an automated call, using an AI-generated voice identifying itself only as "Classy," tells the recipient that "your Medicare member profile hasn't been transferred into Medicare's national database for 2026 yet," warning that the missing transfer "can cause delays in your coverage approvals." Nomorobo tracked roughly 104 million Medicare-related calls nationwide in May 2026 alone, with this specific script reaching more than 7.6 million people that month. The call is built to sound bureaucratic rather than threatening — inventing a "member profile," a "national database," and a vague coverage delay — before asking the recipient to confirm their Medicare number, Social Security number, date of birth, and which parts of Medicare they're enrolled in, often adding, "Can you get out your red, white and blue Medicare card for me?" Medicare never places unsolicited calls asking a beneficiary to verify or "transfer" their information this way. Once scammers have a Medicare number, they can bill the program directly for equipment the victim never received, such as back braces or knee supports, or for unnecessary genetic or neurological testing, without needing another cent from the victim — meaning the fraud can continue undetected until an Explanation of Benefits arrives listing services or equipment the beneficiary never got. Anyone who receives a call like this should hang up without confirming any information, and can report it to their state's Senior Medicare Patrol program at 1-877-808-2468 or to the HHS Office of Inspector General.`,
+    categorySlug: 'medicare-health-plans',
+    alertLevel: 'high',
+    sources: ['Nomorobo', 'Senior Medicare Patrol'],
+    sourceUrl: 'https://www.nomorobo.com/medicare-fraud-alert-fake-national-database-robocalls-flooding-phones/',
+    country: 'US',
+});

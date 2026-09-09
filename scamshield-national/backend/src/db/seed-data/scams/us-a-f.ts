@@ -6338,3 +6338,14 @@ UsAF.push({
     sourceUrl: 'https://www.finra.org/investors/insights/gen-ai-fraud-new-accounts-and-takeovers',
     country: 'US',
 });
+
+UsAF.push({
+    name: 'AI-Generated Fake Recruiter and Interviewer Job Scam',
+    slug: 'ai-generated-fake-recruiter-interviewer-job-scam',
+    description: `Job scammers have moved beyond copy-pasted fake postings to generative AI that manufactures an entire hiring experience convincing enough to fool experienced applicants. According to Norton's 2026 job-scam research, published March 2, 2026, scammers now use AI to build fabricated LinkedIn profiles complete with AI-generated headshots, register email domains that closely mimic a real employer's, and run automated outreach at a volume no human recruiting team could sustain — with Amazon the single most impersonated employer, cited in roughly 30% of reported cases. McAfee's parallel 2026 "State of the Scamiverse" research describes the outreach itself as personalized: large language models scrape a target's own LinkedIn profile to generate a message that mirrors their exact job history, tone, and career trajectory, making a cold approach read like it came from someone who actually reviewed a resume. Some schemes go a step further and stage the "interview" itself with a fully AI-generated interviewer — an on-screen figure that moves naturally, responds to a candidate's answers with contextually appropriate follow-ups, and gives no visual sign of being synthetic — before the fake hiring process moves to requesting a Social Security number, bank account details for "direct deposit setup," or an upfront payment for equipment or background-check fees. Norton found 23% of people who encountered a job scam in the past year became victims, with 90% of those losing money and an average loss of $8,900; Gen Z jobseekers were more than twice as likely as Baby Boomers to be targeted. The FTC separately reports job-scam losses climbing from $90 million in 2020 to more than $500 million in 2024. Genuine employers do not conduct an entire hiring process over chat apps, do not ask for a Social Security number or bank details before a signed offer, and never require a candidate to pay for equipment, training materials, or a background check — any of those requests, however polished the "recruiter" or "interviewer" appears on screen, is reason to stop and independently verify the opening through the company's own careers page before sharing anything further.`,
+    categorySlug: 'employment-scams',
+    alertLevel: 'high',
+    sources: ['Norton (Gen Digital)', 'McAfee', 'FTC Consumer Advice'],
+    sourceUrl: 'https://us.norton.com/blog/research/job-scam-statistics',
+    country: 'US',
+});
