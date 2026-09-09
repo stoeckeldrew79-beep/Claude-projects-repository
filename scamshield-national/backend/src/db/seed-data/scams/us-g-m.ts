@@ -4814,3 +4814,15 @@ UsGM.push({
     country: 'US',
     state: 'IL',
 });
+
+UsGM.push({
+    name: `De La Rosa Multiservices "Ghost Preparer" Tax Fraud Scheme`,
+    slug: 'indiana-jasper-de-la-rosa-multiservices-tax-fraud-scheme',
+    description: `Angel De La Rosa of Jasper, Indiana and Yaimy Real of Louisville, Kentucky operated a tax-return preparation business, De La Rosa Multiservices, with offices in both cities, and from January 2018 through July 2021 prepared roughly 5,892 fraudulent federal returns for their clients — falsely claiming the American Opportunity Tax Credit using fabricated tuition and enrollment records for two institutions that did not actually qualify, along with inflated self-employment losses and itemized deductions. The pair acted as "ghost preparers," leaving the paid-preparer section of each return blank and omitting their Preparer Tax Identification Numbers so the returns appeared to be self-filed, which also helped the returns dodge the IRS's tracking of preparers with unusually high rates of questionable claims, while they collected roughly $736,500 in fees from the same clients whose returns they had falsified. The scheme caused an estimated $10,577,612 loss to the IRS; U.S. District Judge Richard L. Young sentenced De La Rosa on April 1, 2026 to four years in federal prison and Real to three years, each with two years of supervised release to follow, and ordered De La Rosa to pay $15,005,149.83 and Real to pay $15,019,543.84 in restitution after both pleaded guilty to conspiracy to commit wire fraud and filing false tax returns. Anyone who hires a paid tax preparer should insist on seeing the preparer's signature and valid PTIN on the finished return before it is filed, and should be able to independently document every credit or deduction being claimed — a preparer who resists either request, or promises a refund built on income, tuition, or business figures the client doesn't recognize, is putting the client, not the preparer, on the hook for the false claim.`,
+    categorySlug: 'tax-scams',
+    alertLevel: 'medium',
+    sources: ['Internal Revenue Service, Criminal Investigation', "U.S. Attorney's Office, Southern District of Indiana"],
+    sourceUrl: 'https://www.irs.gov/compliance/criminal-investigation/southern-indiana-tax-preparers-sentenced-to-federal-prison-for-multi-million-dollar-tax-fraud-scheme',
+    country: 'US',
+    state: 'IN',
+});
