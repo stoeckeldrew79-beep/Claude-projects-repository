@@ -4704,3 +4704,27 @@ UsGM.push({
     country: 'US',
     state: 'ME',
 });
+
+UsGM.push({
+    name: 'Overcomers Day Services Behavioral Health Medicaid Fraud (Kim and Marcel Higgins)',
+    slug: 'georgia-overcomers-day-services-medicaid-fraud-higgins',
+    description: `A DeKalb County grand jury indicted Kim Higgins and Marcel Higgins, both of Woodstock, Georgia, on December 10, 2025 on charges of conspiracy to commit Medicaid fraud and 23 combined counts of Medicaid fraud tied to their behavioral health facility, Overcomers Day Services, LLC. Prosecutors with the Georgia Attorney General's Medicaid Fraud Division allege that between October 2017 and July 2023, Marcel Higgins worked as a paraprofessional providing Intensive Family Intervention services while Kim Higgins handled the company's administrative duties and claim submissions, and that the pair billed Georgia Medicaid over $1.4 million for services that were never actually rendered or that were provided by personnel who were not qualified to deliver them — including, prosecutors say, Kim Higgins herself. "Those who commit Medicaid fraud are stealing from taxpayers, and they're abusing a program meant to care for our most vulnerable Georgians," Attorney General Chris Carr said in announcing the indictment, which is part of a broader run of Medicaid provider fraud cases his office has brought against behavioral health billers across the state. The defendants are presumed innocent unless and until proven guilty at trial. Families of Medicaid recipients who receive behavioral health, intensive family intervention, or similar in-home services should periodically check the provider name and dates listed on any Explanation of Benefits notice against who actually delivered the care, since these schemes typically depend on billing for visits or personnel the family never actually saw. Suspected Medicaid fraud can be reported to the Georgia Attorney General's Medicaid Fraud Division at (404) 232-2440.`,
+    categorySlug: 'healthcare-fraud',
+    alertLevel: 'high',
+    sources: ["Georgia Attorney General's Office (Chris Carr)"],
+    sourceUrl: 'https://law.georgia.gov/press-releases/2025-12-15/carr-owners-behavioral-health-facility-indicted-dekalb-county-medicaid',
+    country: 'US',
+    state: 'GA',
+});
+
+UsGM.push({
+    name: '"DR-1024" Fake Tax Debt Collection Letter Scam',
+    slug: 'michigan-dr-1024-fake-tax-debt-collection-letter',
+    description: `Michigan Attorney General Dana Nessel warned residents on February 4, 2025 about a fraudulent tax-collection letter circulating statewide that claims the recipient owes an overdue tax bill and threatens to seize their property if they do not call a phone number in the letter to resolve it immediately. The letter tries to look official by citing a fabricated "DR-1024" form number and a "tax group lien ID," and by including personal details the scammers pulled from public records and other online sources to make the threat feel personally targeted. Nessel's office said genuine Michigan Department of Treasury correspondence always arrives on official State of Michigan letterhead carrying the governor's and state treasurer's names, is sent through the U.S. Postal Service, lays out multiple ways to resolve any debt, and spells out the taxpayer's rights — and that Treasury never demands instant payment by phone or threatens immediate property seizure without first offering those options. "If you receive a suspicious letter, do not panic. Call the Michigan Department of Treasury directly to confirm the information in the letter," Nessel said, adding that a legitimate agency will never insist on payment by gift card, wire transfer, cryptocurrency, or cash sent through the mail. Michiganders who receive one of these letters are urged to contact the Treasury Department directly using a phone number they look up independently, rather than the one printed on the letter, and to file a report with the Attorney General's Consumer Protection team through its online complaint form or with the Federal Trade Commission at reportfraud.ftc.gov.`,
+    categorySlug: 'tax-scams',
+    alertLevel: 'high',
+    sources: ["Michigan Attorney General's Office (Dana Nessel)", 'WILX', 'ClickOnDetroit (WDIV)'],
+    sourceUrl: 'https://www.michigan.gov/ag/news/press-releases/2025/02/04/ag-nessel-warns-of-government-imposter-scam-targeting-taxpayers',
+    country: 'US',
+    state: 'MI',
+});

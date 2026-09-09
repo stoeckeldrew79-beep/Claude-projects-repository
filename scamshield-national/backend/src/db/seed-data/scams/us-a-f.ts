@@ -6228,3 +6228,15 @@ UsAF.push({
     country: 'US',
     state: 'AL',
 });
+
+UsAF.push({
+    name: 'Copied-Listing Rental Scam Consumer Alert',
+    slug: 'arizona-copied-listing-rental-scam-alert',
+    description: `Arizona Attorney General Kris Mayes issued a consumer alert on May 14, 2025 warning renters and homebuyers to watch for fraudsters who either invent fake property listings outright or copy the photos and description from a real, legitimately listed property and repost them at an unusually low price to lure applicants. "Housing is a basic human need and, unfortunately, some fraudsters prey upon that need," Mayes' office said, describing how scammers pressure prospective renters to wire money, pay by gift card, or send funds through a peer-to-peer payment app before ever touring the unit in person, and in some cases use the fake listing to harvest an applicant's Social Security number and banking details under the guise of a rental application. The alert urges consumers to be suspicious of a price well below comparable properties in the area, to independently verify the address exists and matches the listing photos — including by driving by in person — and to avoid any landlord or agent who refuses phone calls and will communicate only by text. Even after viewing a unit, the office recommends getting every fee in writing, reading the full lease before signing anything with blank spaces left in it, and never handing over a security deposit until the signed lease is in hand. Arizonans who believe they've encountered a rental scam can file a complaint with the Attorney General's Office at (602) 542-5763 in Phoenix, (520) 628-6648 in Tucson, or (800) 352-8431 elsewhere in the state.`,
+    categorySlug: 'rental-housing',
+    alertLevel: 'high',
+    sources: ["Arizona Attorney General's Office"],
+    sourceUrl: 'https://www.azag.gov/press-release/attorney-general-mayes-warns-consumers-about-rental-scams',
+    country: 'US',
+    state: 'AZ',
+});
