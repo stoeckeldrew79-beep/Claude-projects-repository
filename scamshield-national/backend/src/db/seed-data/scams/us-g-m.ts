@@ -5182,3 +5182,15 @@ UsGM.push({
     country: 'US',
     state: 'GA',
 });
+
+UsGM.push({
+    name: 'Manvel Market Fake "City" Vendor Registration Email Scam',
+    slug: 'manvel-texas-market-vendor-registration-scam',
+    description: `In July 2026, multiple vendors hoping to sell at the Manvel Market in Manvel, Texas received unsolicited emails claiming to be from "the City" and demanding a $70 registration fee to secure a booth. The Manvel Market is actually run by a local nonprofit rather than city government, and its real application process requires filling out an official vendor form on the market's own website before paying a $35 fee — half of what the fraudulent emails demanded. Because the phony messages invoked the authority of city government rather than the market itself, and arrived with enough of the market's real branding and process to sound plausible, several vendors nearly paid before the market's organizers got word out that no such city-issued registration email exists. The scam fits a broader pattern event organizers have flagged around markets, fairs, and festivals nationwide: fraudsters impersonate an event's organizer or a local government by email or a spoofed social media page, invent a registration or booth fee that undercuts or slightly exceeds the real one to seem plausible, and press vendors to pay quickly before a "space" is lost. Vendors approached this way should never pay a booth or registration fee through a link or account number provided only in an unsolicited email — they should instead go directly to the event's own official website or call its organizers using contact information found independently, since a legitimate market or fair fee is never collected through a government-sounding email that skips the event's normal application process entirely.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'low',
+    sources: ['Houston Chronicle'],
+    sourceUrl: 'https://www.houstonchronicle.com/news/houston-texas/trending/article/manvel-market-vendors-scam-22347529.php',
+    country: 'US',
+    state: 'TX',
+});
