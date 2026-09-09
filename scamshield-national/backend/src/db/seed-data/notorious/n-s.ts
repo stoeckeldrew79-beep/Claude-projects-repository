@@ -3791,3 +3791,18 @@ He was convicted of wire fraud and money laundering and, on March 5, 2026, was s
 The case illustrates why romance-scam money so often lands, at least briefly, in a bank account opened under an anonymous-sounding LLC rather than a person's own name: a shell company gives a hands-on victim's bank one more step to trace and gives the person running it a thin layer of deniability, right up until investigators subpoena the entity's own paperwork and find the same name behind it that appears on the dating-app conversations.`,
   },
 );
+
+NotoriousNS.push(
+  {
+    title: "Patrick Dallas and the Fake Publishers Clearing House Winnings That Targeted Rhode Island Seniors",
+    slug: "patrick-dallas-publishers-clearing-house-sweepstakes-fraud",
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-ri/pr/georgia-man-sentenced-multi-state-fraud-scheme-targeting-seniors',
+    body: `Patrick Dallas, 38, of the Atlanta, Georgia area, ran a version of one of the oldest scams targeting older Americans, dressed up with a name almost every U.S. household recognizes. According to the U.S. Attorney's Office for the District of Rhode Island, Dallas and co-conspirators Stacey Robinson and Owen Demoy Byfield contacted victims — many of them senior citizens in Rhode Island and other states — by phone, text, and mail, telling them they had won large cash prizes, often described as millions of dollars, through a "Publishers Clearing House" or similar sweepstakes. To collect the winnings, prosecutors say, victims were told they first needed to provide personal identifying information for "verification" purposes and pay upfront fees or taxes — and once a victim engaged, the requests escalated to cash, gift cards, and high-value items including Rolex watches and iPhones, shipped or sent to addresses the defendants controlled. Prosecutors say the scheme moved at least $1 million from victims before it was unwound, with proceeds laundered through entities and bank accounts the conspirators controlled.
+
+Dallas pleaded guilty on February 5, 2026, to conspiracy to commit mail and wire fraud and conspiracy to commit money laundering. On August 12, 2026, U.S. District Judge Melissa R. DuBose sentenced him to 24 months in federal prison, to be followed by three years of supervised release, along with an order to pay restitution. Byfield, described in court filings as a Jamaican national, pleaded guilty earlier and was separately sentenced to 24 months in prison and ordered to pay $1.7 million in restitution. The investigation was handled by Homeland Security Investigations, the U.S. Postal Inspection Service, the Warwick Police Department, and other state and local law enforcement partners.
+
+As with every version of this scheme, the tell was built into the pitch itself: prosecutors and consumer-protection officials note that a legitimate sweepstakes, Publishers Clearing House included, never requires a winner to pay a fee, a tax, or a "processing cost" before releasing a prize, and never asks a winner to send cash, gift cards, or luxury items to collect what they've supposedly already won. Anyone told they've won a prize they don't remember entering, and then asked to pay anything to receive it, is not talking to a real sweepstakes operator — they're being walked through the same script that took federal investigators years and a multi-state investigation to unravel.`,
+  },
+);
