@@ -5965,3 +5965,20 @@ LuLaRoe settled the Washington case in February 2021, agreeing to pay $4.75 mill
 LuLaRoe's rise and the case against it are a useful illustration of what separates a legitimate direct-sales business from a pyramid scheme: not whether the product is real — LuLaRoe's leggings were — but whether the money changing hands flows mainly from retail sales to real customers or mainly from new recruits buying in, with a buyback promise that sounds risk-free only for as long as too few people try to use it at once.`,
   },
 );
+
+NotoriousAF.push(
+  {
+    title: 'David Saffron and the Crypto "Trading Bot" That Traded No One\'s Money But His Own',
+    slug: 'david-saffron-circle-society-crypto-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.cftc.gov/PressRoom/PressReleases/8377-21',
+    body: `David Gilbert Saffron, an Australian-born businessman who split his time between Los Angeles and Las Vegas, spent 2017 through 2019 raising money for Circle Society Corp., a Nevada company he pitched to investors as running a proprietary automated trading bot capable of executing thousands of cryptocurrency transactions an hour across multiple exchanges. Saffron told prospective participants the bot could turn their bitcoin and cash into an unregistered commodity pool trading off-exchange binary options, with returns he described as reaching up to 300 percent.
+
+There was no such bot generating those returns. The Commodity Futures Trading Commission's civil enforcement action, filed in September 2019, alleged that Saffron and Circle Society instead ran the operation as a Ponzi scheme, using new participants' funds to make payouts that created the appearance of trading profits while diverting a substantial share of the money to Saffron's own use. The CFTC said at least 179 individuals were drawn into the scheme, contributing more than $15.8 million in Bitcoin and U.S. dollars. When Saffron and Circle Society failed to defend themselves in the case, a federal court in the Central District of California entered a default judgment against them on March 29, 2021, ordering $14,841,280 in restitution, $15,815,967 in disgorgement, and a $1,484,128 civil monetary penalty — a total judgment of more than $32 million — along with a permanent injunction barring Saffron from ever again trading commodities or registering with the CFTC.
+
+The civil judgment did not end the case. A federal grand jury in the Central District of California separately indicted Saffron criminally, with a superseding indictment unsealed in December 2023 charging him with conspiracy to commit wire fraud, four counts of wire fraud, conspiracy to commit commodities fraud, and obstruction of justice, in connection with prosecutors' allegation that the underlying Circle Society scheme took in more than $25 million from victims. A co-defendant in that case, Vincent Anthony Mazzotta Jr., pleaded guilty in July 2025 to conspiracy to obstruct justice and money laundering. As of this writing, Saffron's own criminal trial had not yet concluded — it was most recently scheduled for September 2026 before U.S. District Judge Dale S. Fischer, after an earlier trial date was continued.
+
+Saffron's case illustrates a recurring shape in crypto-Ponzi fraud: the more technical and impressive the claimed mechanism — an algorithm executing 17,000 trades an hour, an unregistered pool promising triple-digit returns — the less likely investors are to ask the one question that would have unraveled it, which is whether anyone outside the company had ever actually verified the bot existed.`,
+  },
+);
