@@ -12287,3 +12287,26 @@ International.push(
     sourceUrl: 'https://www.fraudehelpdesk.nl/alert/oplichting-met-keuringsrapport-auto-en-motor/',
   },
 );
+
+International.push(
+  {
+    name: 'Indian Festive Season Fake E-Commerce Website Scam',
+    slug: 'india-festive-fake-ecommerce-website-scam',
+    description: `Ahead of major shopping periods such as Diwali, fraudsters build lookalike online stores and social media ad pages that misuse well-known brand names, advertising electronics, clothing, or gifts at steep discounts and padding the listings with fabricated reviews to look legitimate. Shoppers pay upfront by card, UPI, or bank transfer and then receive nothing, a counterfeit item, or an indefinitely delayed order before the site disappears. The Indian Cyber Crime Coordination Centre (I4C), under the Ministry of Home Affairs, partnered with Amazon India on the #ScamSmartIndia awareness campaign ahead of the 2025 festive season specifically to counter this pattern; I4C Director Nishant Kumar said the festive season is "also a time of heightened fraudulent activity by scamsters who try to dupe consumers, particularly vulnerable groups like first-time internet users and senior citizens." I4C advises shopping only through a brand's own verified website or app rather than an ad or search link, independently checking a seller's history before paying, and reporting suspected fraud through the National Cyber Crime Reporting Portal or the 1930 helpline.`,
+    categorySlug: 'online-shopping-scams',
+    country: 'IN',
+    alertLevel: 'high',
+    sources: ['Indian Cyber Crime Coordination Centre (I4C)'],
+    sourceUrl: 'https://i4c.mha.gov.in/',
+  },
+  {
+    name: 'Indian Crypto Wallet Drainer "Verification" Scam',
+    slug: 'india-crypto-wallet-drainer-verification-scam',
+    description: `A stranger contacts a victim on a peer-to-peer crypto trading platform such as Binance, posing as a fellow trader or support agent, then moves the conversation to WhatsApp or Telegram and claims a mandatory "crypto asset verification" step must be completed before any trade can go through. The victim is sent a link to a fake verification site cloned to look like a legitimate blockchain service and asked to connect their Trust Wallet and approve a smart-contract permission; the instant that approval is granted, an automated "drainer" script silently transfers every asset out of the wallet with no further action from the victim. The National Cybercrime Threat Analytics Unit of India's Cyber Crime Coordination Centre (I4C), part of the Ministry of Home Affairs, issued a formal advisory on this exact pattern in April 2026, naming several fake "Verify Crypto Assets" domains impersonating BNB Chain services, and urges anyone targeted to never connect a wallet to an unsolicited link, to revoke smart-contract permissions through the wallet's own settings immediately, and to report incidents at cybercrime.gov.in or the 1930 helpline.`,
+    categorySlug: 'cryptocurrency-scams',
+    country: 'IN',
+    alertLevel: 'high',
+    sources: ['Indian Cyber Crime Coordination Centre (I4C)'],
+    sourceUrl: 'https://i4c.mha.gov.in/',
+  },
+);
