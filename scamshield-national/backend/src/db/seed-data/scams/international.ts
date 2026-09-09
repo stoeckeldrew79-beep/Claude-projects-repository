@@ -12172,3 +12172,26 @@ International.push(
     sourceUrl: 'https://www.cyber.gov.au/about-us/view-all-content/alerts-and-advisories/email-scammers-impersonating-asds-acsc',
   },
 );
+
+International.push(
+  {
+    name: 'NZ Fake News Article Investment Scam',
+    slug: 'nz-fake-news-article-investment-scam',
+    description: `Fake articles circulate on social media and news-aggregator feeds carrying the real logos of RNZ, TVNZ, and the NZ Herald, alongside AI-generated deepfake images or video of a well-known New Zealander — the FMA has tracked versions using NZ First leader Winston Peters, Kiwibank chief executive Steve Jurkovich, and Westpac NZ chief executive Catherine McGrath — falsely appearing to endorse a cryptocurrency or forex trading platform. Clicking through leads to a page asking the reader to register their contact details, after which a "broker" phones the victim, walks them into an initial deposit of around US$250, and shows a dashboard of manipulated, steadily growing profits to encourage larger transfers — but any attempt to withdraw is instead met with a demand to pay a "release" fee first, and no money is ever returned. The Financial Markets Authority first warned about this tactic in August 2024 and reported a sharp escalation by April 2026, when it identified 110 such ads running on Meta platforms in a single 24-hour period and had flagged more than 190 fake trading-platform websites for removal since the start of that March alone. FMA Manager Regulatory Services Samantha McGuire said the authority recommends "exercising extreme caution when engaging with online content promoting investment opportunities," adding: "Do not click on these ads or links, and do not enter your personal information into these websites."`,
+    categorySlug: 'investment-fraud',
+    country: 'NZ',
+    alertLevel: 'high',
+    sources: ['Financial Markets Authority (FMA)'],
+    sourceUrl: 'https://www.fma.govt.nz/news/all-releases/media-releases/platforms-using-fake-news-articles/',
+  },
+  {
+    name: 'NZ Fake Retailer Product-Rating "Task Scam"',
+    slug: 'nz-product-rating-task-scam',
+    description: `A message on Facebook or another social platform offers flexible, work-from-home pay for boosting online star ratings on products for a well-known New Zealand retailer — in one documented case, electronics chain Noel Leeming's branding was used without its knowledge — and recruits who reply are given access to a dashboard where small early "commissions" for completed rating tasks really do pay out, building trust before the real hook is set. The dashboard then presents a "Lucky Bonus" task that pushes the recruit's account balance into the negative, and they are told they must buy cryptocurrency (USDT) with their own money and deposit it into the dashboard to clear that negative balance and unlock their accumulated earnings — earnings that do not exist and are never paid out once the deposit is made. Netsafe's chief online safety officer, Sean Lyons, says employment-related scams like this now form a significant and rising share of the roughly $2.3 billion New Zealanders lost to scams over the past year, with an estimated $644 million — about 28% of total losses — tied to fake job and task offers. Netsafe's advice is that a genuine employer never asks a worker to spend their own money, in cash or cryptocurrency, to "unlock" pay they have supposedly already earned.`,
+    categorySlug: 'job-task-scams',
+    country: 'NZ',
+    alertLevel: 'high',
+    sources: ['Netsafe', 'Otago Daily Times (ODT)'],
+    sourceUrl: 'https://www.odt.co.nz/lifestyle/magazine/worked-over',
+  },
+);
