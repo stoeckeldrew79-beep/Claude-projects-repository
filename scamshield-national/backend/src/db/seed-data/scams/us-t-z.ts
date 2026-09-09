@@ -2697,3 +2697,15 @@ UsTZ.push({
     country: 'US',
     state: 'WA',
 });
+
+UsTZ.push({
+    name: 'Virginia Board of Accountancy Fake NASBA "Enforcement Division" Phishing Email',
+    slug: 'virginia-board-of-accountancy-nasba-phishing-scam',
+    description: `The Virginia Board of Accountancy issued a phishing alert on May 22, 2026 warning Virginia-licensed CPAs about emails impersonating the National Association of State Boards of Accountancy (NASBA), the private nonprofit that coordinates the 55 U.S. state and territorial boards of accountancy. The fraudulent messages, sent to look like they come from a NASBA "Enforcement Division," falsely claim a complaint has been filed against the recipient's CPA license and press the licensee to act quickly, using the same urgency and professional-standing anxiety that makes disciplinary-notice phishing effective against any licensed professional. NASBA has confirmed it has no such Enforcement Division and does not send unsolicited emails threatening license action, and the Texas State Board of Public Accountancy issued a near-identical warning about the same campaign a week earlier, on May 15, 2026, after its own licensees began reporting the emails — an indication the messages were distributed broadly across state accountancy boards rather than targeted at one state. Virginia's Board, part of the state's Department of Professional and Occupational Regulation, advised CPAs and CPA firms not to click any link or reply to the email, and to forward suspected phishing attempts to NASBA's exam-security team at examsecurity@nasba.org rather than engaging with the sender directly. Any licensee who receives an unexpected email claiming a complaint has been filed against their license should independently look up their state board's real phone number or website — never a link or number provided in the email itself — to confirm whether any actual complaint exists before responding.`,
+    categorySlug: 'phishing',
+    alertLevel: 'medium',
+    sources: ['Virginia Board of Accountancy', 'Texas State Board of Public Accountancy'],
+    sourceUrl: 'https://boa.virginia.gov/2026/05/phishing-attempt-alert/',
+    country: 'US',
+    state: 'VA',
+});
