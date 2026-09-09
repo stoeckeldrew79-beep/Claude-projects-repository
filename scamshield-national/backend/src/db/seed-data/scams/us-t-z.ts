@@ -2685,3 +2685,15 @@ UsTZ.push({
     country: 'US',
     state: 'VT',
 });
+
+UsTZ.push({
+    name: 'Fake Law-Enforcement Wildfire Evacuation Call Scam',
+    slug: 'fake-law-enforcement-wildfire-evacuation-call-scam',
+    description: `As wildfires forced evacuations near Spokane, Washington in August 2025, the Spokane County Sheriff's Office warned residents that scammers posing as law enforcement were cold-calling homes inside the evacuation zone for the Crescent Road Fire near Little Falls, telling occupants they needed to leave immediately. Unlike a scam built to extract money or personal information over the phone, the goal here is more direct: getting a homeowner to actually abandon an occupied house so it sits empty and vulnerable to burglary while its owners are genuinely displaced by a real, nearby fire. The Sheriff's Office confirmed its own deputies notify residents of a mandatory evacuation door-to-door, never by phone, and urged anyone receiving such a call to be skeptical and verify their zone status directly through the official Spokane Regional Emergency Communications evacuation map rather than acting on the call alone. The pattern isn't confined to one state or one year: in April 2026, Wayne County, Georgia officials confirmed a person going door-to-door in a black SUV, falsely claiming to represent the county's Emergency Command, was ordering residents near an active wildfire to evacuate, prompting a public statement that the individual had no affiliation with the county. Residents in an active fire zone should confirm any evacuation order through an official map, a verified text alert system, or a callback to a number they already have for their local sheriff's office or emergency management agency, rather than trusting an unsolicited call or an unfamiliar person alone.`,
+    categorySlug: 'government-impersonation',
+    alertLevel: 'high',
+    sources: ["Spokane County (WA) Sheriff's Office", 'Wayne County (GA) Emergency Management'],
+    sourceUrl: 'https://929zzu.com/2025/08/13/spokane-county-sheriffs-office-warning-of-scammers-calling-and-posing-as-law-enforcement-to-get-people-to-evacuate-their-homes/',
+    country: 'US',
+    state: 'WA',
+});
