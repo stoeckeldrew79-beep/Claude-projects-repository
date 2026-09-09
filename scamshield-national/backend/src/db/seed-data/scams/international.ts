@@ -11983,3 +11983,29 @@ International.push(
     sourceUrl: 'https://www.nzherald.co.nz/nz/fake-bookingcom-listing-scams-kiwi-family-out-of-10000/E6Q5MGGNB5CARNX6S3W7YZ2PFQ/',
   },
 );
+
+International.push(
+  {
+    name: 'NZ Financial Markets Authority Impersonation Crypto Text Scam',
+    slug: 'nz-fma-impersonation-crypto-text-scam',
+    description: `Text messages branded to look like they come from the cryptocurrency exchange Binance tell the recipient they've been invited to claim a free ticket or win cryptocurrency through what the message calls an "FMA-approved academy," borrowing the Financial Markets Authority's name to make the offer look officially sanctioned. Clicking through leads to a page that asks the recipient to connect their cryptocurrency wallet or hand over personal details, which scammers then use to drain the wallet rather than hand out any prize. The FMA has published a direct warning that it does not endorse or approve any trading academy or cryptocurrency education provider, so any message describing an organisation or programme as "FMA-approved" is false by definition, while the Department of Internal Affairs has separately logged the same Binance-branded texts through its own anti-spam reporting service. Both agencies advise against clicking the link or connecting a wallet, and recommend forwarding the text to 7726 so it can be blocked and investigated.`,
+    categorySlug: 'cryptocurrency-scams',
+    country: 'NZ',
+    alertLevel: 'medium',
+    sources: ['Financial Markets Authority (FMA)', 'Department of Internal Affairs (DIA)'],
+    sourceUrl: 'https://www.fma.govt.nz/library/warnings-and-alerts/scams-impersonating-the-fma/',
+  },
+);
+
+International.push(
+  {
+    name: 'NZ One NZ Mobile Plan Renewal Phishing Text Scam',
+    slug: 'nz-one-nz-mobile-renewal-phishing-scam',
+    description: `A text message styled to look like it comes from telecommunications provider One NZ warns the recipient that "your mobile plan expires tomorrow at 12:01am" and that they must "renew your plan early" through a link to avoid their mobile service being disrupted. The link leads to a fake "My One NZ" login page that asks for the customer's name, email address, My One NZ password, credit card details, mobile number, and residential address — information the scammers then use to make unauthorised charges or take over the account. One NZ has published a warning confirming it never sends a link asking a customer to make a payment, and says any genuine message about a failed payment includes the account details directly in the text rather than routing the customer through an external link first. The company's advice is to check account and billing status only through the official My One NZ app or website rather than any link received by text, and to report suspicious messages to One NZ directly.`,
+    categorySlug: 'phishing',
+    country: 'NZ',
+    alertLevel: 'medium',
+    sources: ['One NZ'],
+    sourceUrl: 'https://one.nz/help/frauds-scams-and-safety/scam-alerts/',
+  },
+);
