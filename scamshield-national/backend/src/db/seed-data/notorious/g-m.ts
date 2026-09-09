@@ -5856,3 +5856,22 @@ Attorney General Catherine Hanaway said in announcing the charges that "in the a
 Kaestner's case is a reminder that contractors who solicit business in the direct aftermath of a disaster — going door to door in a damaged neighborhood, offering to start "right away" — deserve extra scrutiny rather than less: a legitimate, licensed contractor can wait for a written contract, a reasonable deposit rather than full payment up front, and a license and insurance check before any storm-damage repair work begins.`,
   },
 );
+
+NotoriousGM.push(
+  {
+    title: "The IHT Wealth Management Twins: Adam and Daniel Kaplan's $10 Million Betrayal of Elderly and Disabled Clients",
+    slug: 'iht-wealth-management-kaplan-twins-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-edny/pr/long-island-investment-advisors-convicted-defrauding-clients-out-millions-dollars',
+    body: `Note: Adam and Daniel Kaplan were convicted by a federal jury in November 2025; as of this writing they have not yet been sentenced, and their attorneys have said they maintain their innocence and intend to appeal. A conviction is not final until any appeal is resolved, so the outcome described below reflects the jury's verdict rather than a closed case.
+
+Adam Kaplan and Daniel Kaplan, 36-year-old twin brothers from Great Neck, New York, worked as investment advisers at IHT Wealth Management, an advisory firm with hundreds of clients on Long Island. According to the U.S. Attorney's Office for the Eastern District of New York, from May 2018 through July 2021 the brothers used that position to defraud roughly 100 clients — including elderly and mentally disabled individuals, as well as friends and family members of existing clients — out of more than $10 million.
+
+Prosecutors said the scheme relied on a simple document trick: many clients signed advisory contracts with the management-fee line left blank, which the brothers would later fill in with fees far higher than what had actually been agreed, in some cases as much as 4 percent rather than the 1 percent or less quoted to most clients. Beyond the padded fees, the government alleged the Kaplans withdrew client funds without authorization, forged account documents, and created sham "life coaching" and "divorce consultation" contracts to justify additional charges. IHT Wealth Management discovered irregularities and fired both brothers in July 2021 — but according to prosecutors, the two continued stealing from former clients even after their termination.
+
+Following an eight-week trial before U.S. District Judge Joan M. Azrack in Central Islip, a jury convicted both brothers on November 13, 2025, of conspiracy to commit wire fraud, wire fraud, investment adviser fraud, and conspiracy to commit money laundering. Adam Kaplan was convicted on additional counts as well, including attempted obstruction of justice: prosecutors said that while on pretrial release, he paid a co-conspirator more than $75,000 to intimidate victims, destroy evidence, and dig up compromising information on the federal prosecutor handling the case, at one point directing that a victim be made to "fear" him. Sentencing had not yet occurred as of this writing.
+
+The Kaplan twins' case is a reminder that a blank line on a fee agreement is not a formality — it is an open invitation for whoever fills it in later to set whatever number they want, and elderly or cognitively vulnerable clients are among the least likely to notice a management fee that quietly climbed from one percent to four without ever asking them to sign anything new.`,
+  },
+);
