@@ -11530,3 +11530,26 @@ International.push(
     country: 'NU',
   },
 );
+
+International.push(
+  {
+    name: 'WorldBuy Fake Crypto Trading App Collapse',
+    slug: 'mauritania-worldbuy-crypto-trading-app-collapse',
+    description: `Mauritanian outlets Cridem and Radiodiffusion Mauritanie Internationale reported that a mobile application called WorldBuy, along with a related platform known as VCT, drew in large numbers of young Mauritanians during 2024 by promising rapid, outsized returns on cryptocurrency trading. The operators encouraged users to open multiple accounts and keep depositing funds, telling them that additional accounts and larger deposits would generate bigger profits. Reporting described the schemes as deliberately targeting people of modest income, with individual victims said to have lost sums as high as 900,000 Mauritanian ouguiya and total losses across victims estimated in the hundreds of millions of old ouguiya. On May 13, 2024, WorldBuy abruptly stopped allowing withdrawals, the app disappeared from download platforms, and its Nouakchott office was found closed with staff gone, leaving depositors unable to recover their money. Victims organized in WhatsApp groups to seek legal recourse and publicly accused banks and mobile payment services of having facilitated the transfers without adequate warning, while also criticizing the state for a lack of consumer protection against the scheme. No arrests or prosecutions of the operators were reported at the time of the coverage.`,
+    categorySlug: 'cryptocurrency-scams',
+    alertLevel: 'high',
+    sources: ['Cridem', 'Radiodiffusion Mauritanie Internationale (RMI)'],
+    sourceUrl: 'https://cridem.org/C_Info.php?article=775065',
+    country: 'MR',
+  },
+  {
+    name: 'QNet Pyramid Recruitment Scheme',
+    slug: 'mauritania-qnet-pyramid-recruitment-scheme',
+    description: `Mauritanian media reporting alongside coverage of the WorldBuy collapse identified QNet, a multi-level marketing company already flagged as an illegal pyramid scheme by authorities in other countries, as operating a similar recruitment-based scheme in Mauritania. Recruiters approached prospective members with promises of quick money, financial freedom, and a luxurious lifestyle in exchange for buying into the network and recruiting further participants, who were told to sell items such as discounted hotel stays or packages; commissions were paid out of money paid in by newer recruits rather than from genuine outside sales revenue, the structural hallmark of a pyramid scheme. Coverage described the scheme as exploiting the same pool of financially vulnerable, mostly low-income Mauritanians targeted by WorldBuy, with participants who joined late in the recruitment chain losing their money once new recruitment slowed. As with WorldBuy, affected participants turned to informal victim networks on WhatsApp rather than a functioning complaint channel, and reporting noted no dedicated Mauritanian government enforcement action against the network was recorded at the time.`,
+    categorySlug: 'investment-fraud',
+    alertLevel: 'medium',
+    sources: ['Radiodiffusion Mauritanie Internationale (RMI)', 'Cridem'],
+    sourceUrl: 'https://rmi-info.com/larnaque-2-0-en-mauritanie-qnet-worldbuy-et-les-victimes-de-lillusion-de-richesse/',
+    country: 'MR',
+  },
+);
