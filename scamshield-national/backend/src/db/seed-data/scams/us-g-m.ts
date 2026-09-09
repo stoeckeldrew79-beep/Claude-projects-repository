@@ -5074,3 +5074,39 @@ UsGM.push({
     country: 'US',
     state: 'IA',
 });
+
+UsGM.push({
+    name: 'Montana "Strategic Limited Partners" Unlicensed Health Plan Scheme',
+    slug: 'montana-strategic-limited-partners-health-plan-scheme',
+    description: `Montana's Commissioner of Securities and Insurance, State Auditor James Brown, issued a Temporary Cease-and-Desist Order on April 1, 2026 against Strategic Limited Partners (SLP), an operation that had never been licensed to sell insurance in Montana but had spent years marketing itself to consumers as offering Affordable Care Act-compliant health coverage. To sidestep state insurance regulation entirely, SLP designated the people who bought its plans as "employees" or "limited partners" of RFA Group, Inc., a Texas corporation that had already been dissolved — a paperwork fiction that let the company claim it was providing an employer benefit rather than selling a regulated insurance product to the general public. Brown's office said it had received numerous consumer complaints, and the Better Business Bureau had logged 136 complaints against the company over three years, before the pattern became clear: policyholders who actually got sick discovered their coverage wasn't what they had been sold. One Montana resident was left holding a $90,000 hospital bill SLP refused to pay, and a church that had purchased an SLP policy for its pastor learned only afterward that the plan offered nothing more than discounts on some medical services rather than the comprehensive coverage it had been marketed as. "My office has received numerous complaints against Strategic Limited Partners (SLP), which is not licensed to issue insurance policies in Montana," Brown said, adding a warning that reaches well beyond this one company: "If a deal looks too good to be true, it probably is. If a health insurance policy offers unusually low premiums and low deductibles yet promises full or unlimited coverage, be skeptical." SLP told the Commissioner's office it had halted Montana sales after the order was issued. Before enrolling in any health plan sold outside the ACA marketplace or a familiar employer, Montanans can confirm whether the seller is actually a licensed insurer by calling the Insurance Consumer Service Bureau at 800-332-6148 or 406-444-2040, since a real insurance company will already appear in the state's licensing records rather than asking a buyer to simply take its word for it.`,
+    categorySlug: 'insurance-fraud',
+    alertLevel: 'high',
+    sources: ['Montana Commissioner of Securities and Insurance (Office of the State Auditor)', 'Better Business Bureau'],
+    sourceUrl: 'https://csimt.gov/wp-content/uploads/2026/04/2026-04-01-Temporary-Cease-and-Desist-Order-Strategic-Limited-Partners.pdf',
+    country: 'US',
+    state: 'MT',
+});
+
+UsGM.push({
+    name: 'Michigan Art Fair and Festival Vendor Facebook Scam',
+    slug: 'michigan-art-fair-festival-vendor-facebook-scam',
+    description: `Ahead of the 2026 spring and summer art-fair season, Michigan Attorney General Dana Nessel warned on March 26, 2026 that scammers were building fake Facebook event pages that impersonate real, well-known art fairs and festivals — including Plymouth's long-running Art in the Park — to defraud the artists, crafters, and food vendors who pay to reserve a booth. The fraudulent pages lift a real event's actual photos, description, and branding wholesale, making them close to indistinguishable from the legitimate listing to a vendor searching for booth information, and once contacted, the scammers instruct vendors to reserve their space by text message and pay a registration or booth fee through Zelle — a peer-to-peer payment app that sends money directly to the scammer with essentially no way to reverse the transaction once it clears. "Spoofing scams like this one harm both businesses and the public," Nessel's office said, noting the fraud damages the reputation of the real events being impersonated even as it drains money from vendors who never had a legitimate booth waiting for them. The office pointed to a few consistent red flags: a spoofed event page is typically new and has few followers, a real event organizer rarely demands immediate payment before any other communication, and any booth fee should be paid by credit card rather than a payment app specifically because a card charge can be disputed if the event turns out to be fake. Vendors interested in a fair or festival are advised to go around the Facebook page entirely — checking the event's own official website and contacting the organizer directly using contact information found independently — before sending any booth or registration fee, and to report a suspected fake event page to Facebook, the Federal Trade Commission, and the FBI's Internet Crime Complaint Center at ic3.gov.`,
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'medium',
+    sources: ['Michigan Department of Attorney General'],
+    sourceUrl: 'https://www.michigan.gov/ag/news/press-releases/2026/03/26/ag-nessel-warns-of-fraudulent-facebook-event-pages-targeting-vendors',
+    country: 'US',
+    state: 'MI',
+});
+
+UsGM.push({
+    name: 'Maine "Stacked Firewood Delivery" Business-Impersonation Scam',
+    slug: 'maine-stacked-firewood-delivery-impersonation-scam',
+    description: `As Maine households stocked up on firewood ahead of the 2026-2027 heating season, a Facebook Marketplace page calling itself "Stacked Firewood Delivery" began taking orders and payment for wood it never intended to deliver — not by inventing a fake company from scratch, but by borrowing the name and decades of real customer trust belonging to Reed's Firewood, a family-run Durham business that has actually been delivering firewood for 41 years. When prospective buyers asked whether the seller was legitimate, the scammer directed them to search Reed's Firewood's own name and its genuine Google reviews as "proof," even though Reed's Firewood has no Facebook page and does not take orders through social media at all; the fake listing also reused at least one photo that a reverse-image search later traced to other, unrelated scam listings. Once a buyer was convinced, the scammer asked for payment through the Chime money-transfer app and walked hesitant buyers through instructional videos on how to download and use it — a payment method that, unlike a credit card, offers no way to reverse a charge once the money is sent. Reed's Firewood only learned what was happening when real customers who had been scammed started calling the actual business to complain. "They were using our reputation to trick people to go with them," owner Tracy Reed said. Better Business Bureau spokesperson Paula Fleming said the tactic reflects a broader shift in how these scams work: "Scammers don't have to build trust anymore, they can steal the name of a reputable business that already has it." Consumers shopping for firewood or any other seasonal delivery on Facebook Marketplace should independently look up the business by phone or through its own website rather than trusting a social media post alone, treat a request to pay through a person-to-person transfer app as a red flag, and be wary of any seller who points to someone else's reviews rather than their own verifiable order and delivery history.`,
+    categorySlug: 'online-shopping-scams',
+    alertLevel: 'medium',
+    sources: ['FOX23 Maine (WGME) I-Team', 'Better Business Bureau'],
+    sourceUrl: 'https://fox23maine.com/news/i-team/fake-firewood-listings-use-real-maine-businesss-name-reviews-to-target-buyers',
+    country: 'US',
+    state: 'ME',
+});
