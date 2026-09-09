@@ -5559,3 +5559,24 @@ Rodriguez, 38, was indicted in February 2024 and pleaded guilty that November to
 A promised fixed annual return in the high teens or low twenties, from a fund with no independent custodian and no audited financial statements, is a claim no legitimate forex strategy can reliably sustain across market cycles — and a "reserve account" an investor cannot see, verify, or independently confirm exists is not a safeguard at all. Rodriguez's former badge lent his pitch a credibility that had nothing to do with his actual trading results, a reminder that a fund manager's personal background is never a substitute for verifying a fund's actual custodial and audit arrangements before wiring money.`,
   },
 );
+
+NotoriousGM.push(
+  {
+    title: 'Keith Taylor and the Fake Board of Directors Behind the Modest Needs Foundation Charity Fraud',
+    slug: 'keith-taylor-modest-needs-foundation-charity-fraud',
+    author: 'ScamShield Editorial',
+    tags: ['notorious', 'notorious-scammer'],
+    sourceUrl: 'https://www.justice.gov/usao-sdny/pr/founder-and-former-ceo-charity-pleads-guilty-multimillion-dollar-charity-fraud-and-tax',
+    body: `Note: Keith Taylor pleaded guilty to the charges described below, so his guilt on those counts is not in dispute. But as of this writing, the outcome of his most recently scheduled sentencing hearing could not be confirmed through published reporting, so the figures below describe an agreed sentencing range and statutory maximums, not a settled final sentence.
+
+Keith Taylor, 58, spent more than two decades building Modest Needs Foundation, a New York-based 501(c)(3) charity he founded around 2002, into a respected name in a crowded field. The nonprofit made itself distinct by funding small, one-time "self-sufficiency grants" — a few hundred dollars toward a utility bill, a car repair, or a month's rent — meant to help a working family cover a short-term emergency before it snowballed into a full-blown crisis. Donors trusted Taylor, as the charity's founder and chief executive, to run it responsibly.
+
+According to the U.S. Attorney's Office for the Southern District of New York, Taylor treated Modest Needs' bank accounts as his own personal funds beginning at least as early as 2015, embezzling more than $2.5 million in donations that were supposed to reach low-income families. Prosecutors say the money instead paid for more than $300,000 in rent on a 30th-floor Midtown Manhattan apartment, more than $320,000 at some of New York's most expensive restaurants — including Per Se, Jean-Georges, Masa, and Marea — more than $100,000 on food-delivery apps, and roughly $270,000 transferred into his personal brokerage account, along with electronics and medical expenses along the way.
+
+To make Modest Needs look properly governed, prosecutors say, Taylor listed acquaintances — including a bartender, a friend, and his housekeeper — as members of the charity's board of directors. None of them, according to prosecutors, knew they had been named to the board or had ever attended a meeting; the oversight structure donors might have relied on to check Taylor's spending existed only on paper. Taylor also failed to report more than $1 million of the embezzled money on his personal tax returns from 2017 through 2024, evading the taxes owed on it. He was arrested in June 2024, but prosecutors say he kept secretly accessing the charity's accounts and spending its money on personal expenses even afterward, in violation of his pretrial release conditions — conduct a judge later cited in revoking that release and ordering him detained ahead of sentencing.
+
+Taylor pleaded guilty on August 18, 2025, before U.S. District Judge Jennifer L. Rochon in the Southern District of New York, to one count of wire fraud, which carries a statutory maximum of 30 years given that the offense continued while he was on release, and eight counts of tax evasion, each carrying up to five years. His plea agreement contemplated a sentencing guidelines range of roughly 87 to 108 months, though the sentence a judge ultimately imposes remains a matter of the court's discretion. "Those who use charitable dollars to line their own pockets undermine the work of our many great charities," then-U.S. Attorney Jay Clayton said in announcing the guilty plea.
+
+A donor giving a few hundred dollars to a small nonprofit rarely thinks to ask who sits on its board or whether that board actually meets, but a charity's board is exactly the kind of detail public filings are supposed to make checkable: nonprofits' IRS Form 990 filings, searchable for free through the IRS's Tax Exempt Organization Search, list officers and directors, and a small charity whose listed board members never change, meet, or show up in its public materials is a pattern worth asking about before giving.`,
+  },
+);
